@@ -3,7 +3,7 @@ title: "#944 — Gonka's support of new modalities besides text"
 source: https://github.com/gonka-ai/gonka/discussions/944
 discussion_number: 944
 category: general
-synced_at: 2026-06-15T18:30:39Z
+synced_at: 2026-06-15T21:22:37Z
 ---
 
 > 🔄 **Авто-синхронизация:** из [Discussion #944](https://github.com/gonka-ai/gonka/discussions/944) каждые 6 часов. Прямые правки будут перезаписаны.
