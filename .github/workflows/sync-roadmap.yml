@@ -1,0 +1,35 @@
+name: Sync roadmap.md from gonka repo
+
+on:
+  schedule:
+    - cron: '30 */24 * * *'   # каждые 24 часа (сдвиг на 30 мин, чтобы не пересекаться с другими job'ами)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout my repo
+        uses: actions/checkout@v4
+
+      - name: Download roadmap file
+        run: |
+          mkdir -p docs/community/roadmap
+          curl -fSL \
+            "https://raw.githubusercontent.com/gonka-ai/gonka/main/proposals/gonka-network-development-roadmap.md" \
+            -o docs/community/roadmap/gonka-network-development-roadmap.md
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/community/roadmap/gonka-network-development-roadmap.md
+          if git diff --cached --quiet; then
+            echo "Изменений нет — пушить нечего"
+          else
+            git commit -m "chore: sync roadmap.md from gonka-ai/gonka@$(date -u +'%Y-%m-%dT%H:%MZ')"
+            git push
+          fi
