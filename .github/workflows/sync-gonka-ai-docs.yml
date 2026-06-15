@@ -1,0 +1,44 @@
+name: Sync gonka-ai/docs from upstream
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'   # каждые 6 часов
+  workflow_dispatch:         # возможность запустить вручную
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout my repo
+        uses: actions/checkout@v4
+
+      - name: Clone upstream repo (shallow)
+        run: |
+          git clone --depth=1 https://github.com/gonka-ai/gonka-docs.git upstream-tmp
+
+      - name: Remove upstream .git metadata
+        run: |
+          rm -rf upstream-tmp/.git
+
+      - name: Copy full upstream content
+        run: |
+          mkdir -p docs/gonka
+          rm -rf docs/gonka/docs
+          mkdir -p docs/gonka/docs
+          cp -a upstream-tmp/. docs/gonka/docs/
+          rm -rf upstream-tmp
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/gonka/docs
+          if git diff --cached --quiet; then
+            echo "Изменений нет — пушить нечего"
+          else
+            git commit -m "chore: sync docs/gonka/docs from gonka-ai/gonka-docs@$(date -u +'%Y-%m-%dT%H:%MZ')"
+            git push
+          fi
