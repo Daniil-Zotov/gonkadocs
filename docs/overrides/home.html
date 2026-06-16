@@ -1,0 +1,135 @@
+{% extends "main.html" %}
+
+{% block tabs %}
+{{ super() }}
+
+<style>
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 20px;
+    text-align: center;
+    background: var(--md-default-bg-color);
+  }
+
+  .hero img {
+    width: 80px;
+    margin-bottom: 24px;
+  }
+
+  .hero h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin: 0 0 16px;
+    color: var(--md-default-fg-color);
+  }
+
+  .hero p {
+    font-size: 1.2rem;
+    color: var(--md-default-fg-color--light);
+    max-width: 560px;
+    margin: 0 0 40px;
+    line-height: 1.6;
+  }
+
+  .hero-buttons {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hero-btn {
+    padding: 14px 32px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: opacity 0.2s;
+  }
+
+  .hero-btn:hover {
+    opacity: 0.85;
+  }
+
+  .hero-btn--primary {
+    background: var(--md-primary-fg-color, #1976d2);
+    color: white;
+  }
+
+  .hero-btn--secondary {
+    border: 2px solid var(--md-default-fg-color--lighter);
+    color: var(--md-default-fg-color);
+  }
+
+  .features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 24px;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 24px;
+  }
+
+  .feature-card {
+    padding: 28px;
+    border: 1px solid var(--md-default-fg-color--lightest);
+    border-radius: 12px;
+    background: var(--md-code-bg-color);
+  }
+
+  .feature-card h3 {
+    margin: 12px 0 8px;
+    font-size: 1.1rem;
+  }
+
+  .feature-card p {
+    color: var(--md-default-fg-color--light);
+    font-size: 0.95rem;
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  .feature-icon {
+    font-size: 2rem;
+  }
+</style>
+
+<section class="hero">
+  <img src="{{ config.site_url }}images/01-favicon.png" alt="Gonka logo">
+  <h1>Gonka Docs</h1>
+  <p>Документация, гайды и справочники по экосистеме Gonka. Всё в одном месте.</p>
+  <div class="hero-buttons">
+    <a href="{{ config.site_url }}gonka/overview/" class="hero-btn hero-btn--primary">
+      Начать читать
+    </a>
+    <a href="https://github.com/Daniil-Zotov/gonkadocs.ai" class="hero-btn hero-btn--secondary">
+      GitHub
+    </a>
+  </div>
+</section>
+
+<section class="features">
+  <div class="feature-card">
+    <div class="feature-icon">⚡</div>
+    <h3>Developer Guide</h3>
+    <p>Quickstart, API, запуск собственного гейтвея — всё для разработчиков.</p>
+  </div>
+  <div class="feature-card">
+    <div class="feature-icon">🗳️</div>
+    <h3>Governance</h3>
+    <p>Пропозалы, голосования, управление протоколом.</p>
+  </div>
+  <div class="feature-card">
+    <div class="feature-icon">💬</div>
+    <h3>Community</h3>
+    <p>Обсуждения, GitHub Issues, ответы на вопросы.</p>
+  </div>
+</section>
+
+{% endblock %}
+
+{% block content %}{% endblock %}
+{% block footer %}{{ super() }}{% endblock %}
