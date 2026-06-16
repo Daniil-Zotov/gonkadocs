@@ -3,10 +3,10 @@ title: "#1085 — INC4 | Gonka Node Observability Platform"
 source: https://github.com/gonka-ai/gonka/discussions/1085
 discussion_number: 1085
 category: proposals
-synced_at: 2026-06-16T17:22:32Z
+synced_at: 2026-06-16T21:20:59Z
 ---
 
-> 🔄 **Авто-синхронизация:** из [Discussion #1085](https://github.com/gonka-ai/gonka/discussions/1085) каждые 6 часов. Прямые правки будут перезаписаны.
+> 🔄 **Авто-синхронизация:** из [Discussion #1085](https://github.com/gonka-ai/gonka/discussions/1085) каждые 6 часов. 
 
 # INC4 | Gonka Node Observability Platform
 

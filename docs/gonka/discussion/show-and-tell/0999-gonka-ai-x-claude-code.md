@@ -3,10 +3,10 @@ title: "#999 — Gonka AI x Claude Code"
 source: https://github.com/gonka-ai/gonka/discussions/999
 discussion_number: 999
 category: show-and-tell
-synced_at: 2026-06-16T17:22:34Z
+synced_at: 2026-06-16T21:21:01Z
 ---
 
-> 🔄 **Авто-синхронизация:** из [Discussion #999](https://github.com/gonka-ai/gonka/discussions/999) каждые 6 часов. Прямые правки будут перезаписаны.
+> 🔄 **Авто-синхронизация:** из [Discussion #999](https://github.com/gonka-ai/gonka/discussions/999) каждые 6 часов. 
 
 # Gonka AI x Claude Code
 

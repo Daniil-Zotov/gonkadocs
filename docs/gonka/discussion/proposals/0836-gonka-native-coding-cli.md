@@ -3,10 +3,10 @@ title: "#836 — Gonka-native Coding CLI"
 source: https://github.com/gonka-ai/gonka/discussions/836
 discussion_number: 836
 category: proposals
-synced_at: 2026-06-16T17:22:31Z
+synced_at: 2026-06-16T21:20:59Z
 ---
 
-> 🔄 **Авто-синхронизация:** из [Discussion #836](https://github.com/gonka-ai/gonka/discussions/836) каждые 6 часов. Прямые правки будут перезаписаны.
+> 🔄 **Авто-синхронизация:** из [Discussion #836](https://github.com/gonka-ai/gonka/discussions/836) каждые 6 часов. 
 
 # Gonka-native Coding CLI
 

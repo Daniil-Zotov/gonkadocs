@@ -3,10 +3,10 @@ title: "#1093 — GiP: Provenance & Intent Contracts (PIC) v0.7.5 – Local-Firs
 source: https://github.com/gonka-ai/gonka/discussions/1093
 discussion_number: 1093
 category: proposals
-synced_at: 2026-06-16T17:22:30Z
+synced_at: 2026-06-16T21:20:58Z
 ---
 
-> 🔄 **Авто-синхронизация:** из [Discussion #1093](https://github.com/gonka-ai/gonka/discussions/1093) каждые 6 часов. Прямые правки будут перезаписаны.
+> 🔄 **Авто-синхронизация:** из [Discussion #1093](https://github.com/gonka-ai/gonka/discussions/1093) каждые 6 часов. 
 
 # GiP: Provenance & Intent Contracts (PIC) v0.7.5 – Local-First Action Gating for Verifiable AI Agents
 
