@@ -11,7 +11,7 @@
   --md-code-font-family:
     ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono",
     monospace;
-  --md-sidebar-width: 15rem;   /* ← добавить (дефолт ~12.1rem) */
+  --md-sidebar-width: 18rem;   /* ← добавить (дефолт ~12.1rem) */
 
 }
 
@@ -199,7 +199,7 @@
   padding: .6rem .8rem .4rem;
 }
 .md-nav__item {
-  padding: 0 .6rem;
+  padding: 0 .2rem;
 }
 .md-nav__link {
   color: var(--md-default-fg-color);
