@@ -11,6 +11,8 @@ theme:
   name: material
   custom_dir: docs/overrides   
   language: ru
+  logo: images/01-favicon.png      # логотип в шапке (опционально)
+  favicon: images/01-favicon.png   # ← это favicon
   font:
     text: -apple-system
     code: ui-monospace
