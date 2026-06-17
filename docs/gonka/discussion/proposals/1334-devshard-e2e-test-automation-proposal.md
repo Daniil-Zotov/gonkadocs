@@ -3,7 +3,7 @@ title: "#1334 — Devshard E2E Test Automation Proposal"
 source: https://github.com/gonka-ai/gonka/discussions/1334
 discussion_number: 1334
 category: proposals
-synced_at: 2026-06-17T11:18:23Z
+synced_at: 2026-06-17T16:05:42Z
 ---
 
 > 🔄 **Авто-синхронизация:** из [Discussion #1334](https://github.com/gonka-ai/gonka/discussions/1334) каждые 6 часов. 
