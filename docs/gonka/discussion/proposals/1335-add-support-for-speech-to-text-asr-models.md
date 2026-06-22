@@ -3,14 +3,14 @@ title: "#1335 — Add support for speech-to-text (ASR) models"
 source: https://github.com/gonka-ai/gonka/discussions/1335
 discussion_number: 1335
 category: proposals
-synced_at: 2026-06-22T12:27:03Z
+synced_at: 2026-06-22T21:14:12Z
 ---
 
 > 🔄 **Авто-синхронизация:** из [Discussion #1335](https://github.com/gonka-ai/gonka/discussions/1335) каждые 6 часов. 
 
 # Add support for speech-to-text (ASR) models
 
-**Автор:** [@ivan-smetannikov-serokell](https://github.com/ivan-smetannikov-serokell) · **Категория:** :bulb: Proposals · **Создано:** 2026-06-11 15:22 UTC · **Обновлено:** 2026-06-11 15:22 UTC
+**Автор:** [@ivan-smetannikov-serokell](https://github.com/ivan-smetannikov-serokell) · **Категория:** :bulb: Proposals · **Создано:** 2026-06-11 15:22 UTC · **Обновлено:** 2026-06-22 17:28 UTC
 
 ---
 
@@ -89,3 +89,212 @@ We'd like to put a team on this and take it from research through integration. A
 5. **[Optional]** Provide ongoing support and maintenance for the ASR modality.
 
 We'd start with step 1 independently and share the results before going further. If the Machine Intelligence Lab team (@fedor-konovalenko) has active ASR plans, we'd welcome coordinating on where the work splits. Feedback on the approach, the candidate models, and the validation gate is especially welcome.
+
+---
+
+## 💬 Комментарии (1)
+
+### Комментарий 1 — [@fedor-konovalenko](https://github.com/fedor-konovalenko)
+
+*2026-06-22 17:28 UTC*
+
+Hi!
+
+@ivan-smetannikov-serokell 
+
+Here is an updated list of ASR models and hypotheses
+
+-------
+
+# Gonka Audio Verification Research
+
+## Objective
+
+Develop a verification mechanism that can distinguish execution on a reference large audio model from execution on a modified, compressed, quantized, distilled, or substituted model.
+
+The primary goal is verification that inference was performed by a specific target model family with expected numerical behavior.
+
+---
+
+# Track A (Primary)
+
+## Large Open-Source Audio LLMs
+
+### Motivation
+
+Recent open-source audio-language models combine audio understanding and language generation in a single architecture.
+
+Typical architecture:
+
+Audio Encoder → Projector / Q-Former → LLM Decoder → Text Tokens
+
+Examples:
+
+- Qwen3-Omni-30B-A3B-Instruct — https://huggingface.co/Qwen/Qwen3-Omni-30B-A3B-Instruct
+- Qwen2.5-Omni — https://huggingface.co/Qwen/Qwen2.5-Omni-7B
+- SALMONN-13B — https://github.com/bytedance/SALMONN
+
+These models are especially attractive because they expose the same type of token probability distributions that are commonly used for LLM evaluation and validation in Gonka.
+
+---
+
+## Research Hypothesis
+
+Large audio LLMs produce stable probability signatures on carefully selected audio prompts.
+
+Model modifications such as:
+
+- quantization
+- architecture replacement
+
+introduce measurable changes in token probability distributions.
+
+
+---
+
+## Validation Pipeline
+
+### Step 1
+
+Prepare a benchmark set of audio challenges.
+
+Desired properties:
+
+- multilingual speech
+- noisy speech
+- overlapping speakers
+- long-context audio
+- ambiguous utterances
+- rare terminology
+
+The benchmark should maximize decoder uncertainty and expose subtle probability differences.
+
+Also it is possible to use open source benchmark, e.g. https://github.com/revdotcom/speech-datasets
+
+
+### Step 2
+
+Run inference on the reference model.
+
+Collect:
+
+- generated tokens
+- token logprobs
+- top-k distributions
+- entropy profile
+- sequence likelihood
+
+Then compare inference artifacts for different models and different hardware:
+
+- FP16 (FP8) vs INT4
+- A100 vs H100
+- H100 vs H100
+
+---
+
+## Expected Outcome
+
+The verifier should reliably distinguish:
+
+- reference model
+- low-bit quantized versions
+- smaller substitute models
+
+while maintaining a low false-positive rate.
+
+---
+
+# Track B (Alternative)
+
+## Large Open-Source ASR Models
+
+### Motivation
+
+Many production speech systems use dedicated ASR architectures rather than audio-language models.
+
+Examples include:
+
+- Whisper Large V3 — https://huggingface.co/openai/whisper-large-v3
+- Whisper Large V3 Turbo — https://huggingface.co/openai/whisper-large-v3-turbo
+- Parakeet — https://huggingface.co/nvidia/parakeet-tdt-0.6b-v2
+- NVIDIA NeMo ASR — https://github.com/NVIDIA/NeMo
+
+These systems follow a fundamentally different architecture.
+
+Typical pipeline:
+
+Audio Encoder → Decoder / CTC Head → Transcript
+
+As a result, LLM-style token fingerprinting is not appropriate.
+
+A separate validation methodology is required.
+
+---
+
+## Research Hypothesis
+
+Even when transcripts remain identical, model modifications alter confidence distributions and sequence likelihood characteristics.
+
+These effects can be measured to identify model substitution or aggressive compression.
+
+---
+
+## Validation Pipeline
+
+### Step 1
+
+Run reference inference with prepared benchmark.
+
+Collect:
+
+- transcript
+- word confidence scores
+- sequence likelihood
+- temporal confidence curves
+
+### Step 2
+
+Compute ASR-specific fingerprints.
+
+#### Sequence Log-Likelihood
+
+Evaluate:
+
+log P(transcript | audio)
+
+Quantized and distilled models often shift this value systematically.
+
+#### Word Confidence Profile
+
+Analyze confidence distributions across words.
+
+Useful statistics:
+
+- mean confidence
+- variance
+- tail behavior
+
+#### Entropy Curve
+
+Track uncertainty throughout decoding.
+
+Different model implementations often produce characteristic entropy signatures.
+
+#### Calibration Signature
+
+Measure relationship between predicted confidence and actual transcription error. This often changes after quantization or compression.
+
+---
+
+## Expected Outcome
+
+The verifier should distinguish:
+
+- reference ASR model
+- quantized deployments
+- substitute architectures
+
+even when the final transcript remains largely unchanged.
+
+---
+
