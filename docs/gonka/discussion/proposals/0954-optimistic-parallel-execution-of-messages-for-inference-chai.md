@@ -3,7 +3,7 @@ title: "#954 — Optimistic parallel execution of messages for inference-chain"
 source: https://github.com/gonka-ai/gonka/discussions/954
 discussion_number: 954
 category: proposals
-synced_at: 2026-06-23T20:22:59Z
+synced_at: 2026-06-24T04:37:21Z
 ---
 
 > 🔄 **Авто-синхронизация:** из [Discussion #954](https://github.com/gonka-ai/gonka/discussions/954) каждые 6 часов. 
