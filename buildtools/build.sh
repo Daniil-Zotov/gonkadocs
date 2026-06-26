@@ -81,24 +81,50 @@ rm -f "$SITE_DIR/gonka/docs/CNAME"
 #
 # В исходниках gonka-ai/gonka-docs изображения указаны абсолютными путями
 # вида "/images/foo.png", которые корректно работают на gonka.ai (корень
-# сайта = корень документации). В我们的 подкаталоге /gonkadocs/gonka/docs/
+# сайта = корень документации). В подкаталоге /gonkadocs/gonka/docs/
 # эти ссылки ломаются, потому что браузер ищет /images/ в корне нашего
 # сайта, а не в корне раздела Gonka.
 #
-# Каждая страница Gonka лежит в файле <path>/index.html, а папка images/
-# — в корне раздела (/gonkadocs/gonka/docs/images/). Значит, относительный
-# путь от любой страницы до images/ — это "../images/".
+# Папка images/ лежит в корне раздела (/gonkadocs/gonka/docs/images/).
+# Относительный путь от страницы до images/ зависит от глубины вложенности:
+#   docs/index.html                        -> ../images/
+#   docs/architecture/index.html           -> ../images/
+#   docs/wallet/create-account/index.html  -> ../../images/
+#   docs/cross-chain.../dashboard/index.html -> ../../../images/
 #
-# Заменяем все <img src="/images/..."> и <a href="/images/..."> в HTML-файлах.
-# Замена безопасна: в Gonka-разделе нет других有意义的 "/images/" ссылок.
+# Используем Python-скрипт, который вычисляет правильный префикс "../"
+# для каждого HTML-файла в зависимости от его пути.
 # -----------------------------------------------------------------------
-echo "==> [пост-обработка] Исправление путей к изображениям (/images/ -> ../images/)"
-find "$SITE_DIR/gonka/docs" -name '*.html' -exec \
-  sed -i.bak \
-    -e 's|src="/images/|src="../images/|g' \
-    -e 's|href="/images/|href="../images/|g' \
-    {} +
-# Удаляем backup-файлы, созданные sed -i.bak
-find "$SITE_DIR/gonka/docs" -name '*.html.bak' -delete
+echo "==> [пост-обработка] Исправление путей к изображениям (/images/ -> ..N/images/)"
+python3 - "$SITE_DIR/gonka/docs" <<'PYEOF'
+import os, re, sys
+
+docs_root = sys.argv[1]
+
+for dirpath, _, filenames in os.walk(docs_root):
+    for fn in filenames:
+        if not fn.endswith('.html'):
+            continue
+        fpath = os.path.join(dirpath, fn)
+        # Глубина файла относительно docs_root:
+        # wallet/create-account/index.html -> 2 -> "../../"
+        rel = os.path.relpath(fpath, docs_root)
+        depth = rel.count(os.sep)
+        prefix = '../' * depth
+
+        with open(fpath, 'r', encoding='utf-8') as f:
+            content = f.read()
+
+        if '/images/' not in content:
+            continue
+
+        new = content.replace('src="/images/', f'src="{prefix}images/')
+        new = new.replace('href="/images/', f'href="{prefix}images/')
+
+        if new != content:
+            with open(fpath, 'w', encoding='utf-8') as f:
+                f.write(new)
+            print(f"  fixed: {rel} ({depth} levels)")
+PYEOF
 
 echo "==> Готово. Артефакт: $SITE_DIR"
