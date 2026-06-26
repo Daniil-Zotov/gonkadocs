@@ -7,6 +7,37 @@ edit_uri: edit/main/docs/
 docs_dir: docs
 site_dir: _site
 
+# Раздел "Gonka" (docs/gonka/docs/**) собирается ОТДЕЛЬНО родным mkdocs.yml
+# оригинала (gonka-ai/gonka-docs) в подкаталог _site/gonka/ через
+# buildtools/build.sh. Поэтому исключаем его из основной сборки, чтобы не
+# дублировать контент и не ловить "not in nav" предупреждения.
+exclude_docs: |
+  gonka/docs/
+
+# Отдельные посты обсуждений и страницы community доступны по ссылкам из
+# индексных страниц, но намеренно не входят в nav-меню напрямую.
+not_in_nav: |
+  gonka/discussion/**/*.md
+  community/**/*.md
+  README.md
+
+nav:
+  - Главная: index.md
+  - Gonka: "/gonkadocs/gonka/docs/"
+  - Обсуждения:
+    - Обзор: gonka/discussion/index.md
+    - Announcements: gonka/discussion/announcements/index.md
+    - General: gonka/discussion/general/index.md
+    - Proposals: gonka/discussion/proposals/index.md
+    - Q&A: gonka/discussion/q-a/index.md
+    - Show and Tell: gonka/discussion/show-and-tell/index.md
+  - Сообщество:
+    - Обзор: community/README.md
+    - Дорожная карта: community/roadmap/gonka-network-development-roadmap.md
+    - GRC: community/grc/README.md
+    - GSC: community/gsc/regulation.md
+  - Proposals: proposals/README.md
+
 theme:
   name: material
   custom_dir: docs/overrides   
@@ -68,14 +99,12 @@ theme:
 
 extra_css:
   - stylesheets/github.css
-  - stylesheets/extra.css
 
 plugins:
   - search:
       lang:
         - ru
         - en
-  - awesome-pages
 
 markdown_extensions:
   - abbr

@@ -33,15 +33,38 @@ jobs:
           python-version: '3.x'
           cache: pip
 
-      - name: Install dependencies
+      - name: Install dependencies (основной сайт)
         run: |
           pip install \
+            "mkdocs>=1.6" \
             mkdocs-material \
-            mkdocs-awesome-pages-plugin \
             pymdown-extensions
 
-      - name: Build site
-        run: mkdocs build
+      - name: Install dependencies (раздел Gonka — из синканутого оригинала)
+        # Раздел Gonka собирается родным mkdocs.yml оригинала
+        # (gonka-ai/gonka-docs), поэтому ставим ИМЕННО его зависимости из
+        # синканутых файлов. Так сборка остаётся устойчивой к изменениям стека
+        # оригинала: обновился их requirements.txt — обновятся и наши зависимости.
+        run: |
+          if [ -f docs/gonka/docs/buildtools/requirements.txt ]; then
+            pip install -r docs/gonka/docs/buildtools/requirements.txt
+          else
+            # Фолбэк: минимально необходимый набор плагинов оригинала.
+            pip install \
+              mkdocs-static-i18n \
+              mkdocs-minify-plugin \
+              mkdocs-redirects \
+              mkdocs-video \
+              mkdocs-macros-plugin \
+              mkdocs-git-revision-date-localized-plugin
+          fi
+          # Локальный ps-plugin оригинала (если присутствует в синке).
+          if [ -d docs/gonka/docs/ps-plugin ]; then
+            pip install -e docs/gonka/docs/ps-plugin
+          fi
+
+      - name: Build site (основной сайт + раздел Gonka)
+        run: bash buildtools/build.sh
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

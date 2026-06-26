@@ -1,0 +1,12 @@
+# MkDocs build output
+_site/
+site/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.cache/
+
+# OS
+.DS_Store

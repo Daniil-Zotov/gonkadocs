@@ -1,0 +1,71 @@
+#!/usr/bin/env bash
+# Сборка сайта gonkadocs.
+#
+# Сайт состоит из двух независимых сборок MkDocs, объединённых в одном
+# каталоге публикации (_site):
+#
+#   1. Основной сайт  (Главная + Обсуждения + Сообщество + Proposals)
+#      -> собирается корневым mkdocs.yml в _site/
+#
+#   2. Раздел "Gonka" -> ТОЧНАЯ копия документации gonka-ai/gonka-docs.
+#      Собирается её РОДНЫМ mkdocs.yml (с плагином i18n: en + zh), который
+#      синхронизируется экшеном sync-gonka-ai-docs.yml. Благодаря этому раздел
+#      выглядит 1-в-1 как оригинал и автоматически подхватывает любые изменения
+#      структуры/навигации/материалов оригинала -> _site/gonka/
+#
+# Порядок важен: основной сайт собирается ПЕРВЫМ (mkdocs build --clean стирает
+# весь site_dir). Сборка Gonka идёт во вложенный каталог _site/gonka и чистит
+# только его, не трогая остальной сайт.
+set -euo pipefail
+
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+SITE_DIR="$ROOT/_site"
+
+echo "==> [1/2] Сборка основного сайта -> $SITE_DIR"
+cd "$ROOT"
+python3 -m mkdocs build --clean --site-dir "$SITE_DIR"
+
+echo "==> [2/2] Сборка раздела Gonka (родной конфиг оригинала, i18n en+zh) -> $SITE_DIR/gonka/docs"
+cd "$ROOT/docs/gonka/docs"
+
+# В оригинале docs/index.md — это ЛЕНДИНГ gonka.ai (template home.html), а не
+# документация. Сам оригинал при сборке /docs/ подменяет index.md на
+# introduction.md (см. его buildtools/prepare-stages.sh). Повторяем это: на
+# время сборки промотируем introduction.md -> index.md, после сборки
+# восстанавливаем исходные файлы, чтобы не портить синканутый репозиторий.
+DOCS="docs"
+declare -a _restore=()
+_swap_intro() {
+  local dir="$1"            # "" для en, "zh/" для zh
+  local idx="$DOCS/${dir}index.md"
+  local intro="$DOCS/${dir}introduction.md"
+  if [ -f "$intro" ]; then
+    if [ -f "$idx" ]; then
+      cp "$idx" "$idx.landing.bak"
+      _restore+=("$idx")
+    fi
+    cp "$intro" "$idx"
+  fi
+}
+_restore_intro() {
+  for idx in "${_restore[@]}"; do
+    if [ -f "$idx.landing.bak" ]; then
+      mv "$idx.landing.bak" "$idx"
+    fi
+  done
+}
+trap _restore_intro EXIT
+
+_swap_intro ""
+_swap_intro "zh/"
+
+python3 -m mkdocs build --site-dir "$SITE_DIR/gonka/docs"
+
+_restore_intro
+trap - EXIT
+
+# CNAME принадлежит только корню сайта (домен GitHub Pages задаётся один раз).
+# Оригинал кладёт свой CNAME (gonka.ai) в docs/ — удаляем его из подкаталога.
+rm -f "$SITE_DIR/gonka/docs/CNAME"
+
+echo "==> Готово. Артефакт: $SITE_DIR"
