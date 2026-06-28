@@ -3,14 +3,14 @@ title: "#1367 — High-Availability Architecture"
 source: https://github.com/gonka-ai/gonka/discussions/1367
 discussion_number: 1367
 category: proposals
-synced_at: 2026-06-28T14:17:00Z
+synced_at: 2026-06-28T19:46:48Z
 ---
 
 > 🔄 **Авто-синхронизация:** из [Discussion #1367](https://github.com/gonka-ai/gonka/discussions/1367) каждые 6 часов. 
 
 # High-Availability Architecture
 
-**Автор:** [@a-kuprin](https://github.com/a-kuprin) · **Категория:** :bulb: Proposals · **Создано:** 2026-06-25 08:16 UTC · **Обновлено:** 2026-06-27 18:12 UTC
+**Автор:** [@a-kuprin](https://github.com/a-kuprin) · **Категория:** :bulb: Proposals · **Создано:** 2026-06-25 08:16 UTC · **Обновлено:** 2026-06-28 15:57 UTC
 
 ---
 
@@ -406,3 +406,19 @@ Overall, that's a solid long term goal. I'd try to split it in smaller steps for
 - ....
 
 
+
+**↳ Ответ от [@a-kuprin](https://github.com/a-kuprin)** · *2026-06-28 15:57 UTC*
+
+> > 1. Which serveses are expected to be publicly available?
+>
+> I think it's enough to have edge-api (that actually takes public endpoints from decentralized-api) and versiond
+> dapi should be private as it is admin tool and node-mgr that is used internally by devshardd spawned by versiond
+>
+> > 2\. How do you think to scale service which handles PoC callback?
+>
+> I think this should be analyzed deeper, I didn't took into account this merkle-tree like storage use
+>
+> > Kubernetes & Helm (deployment target)
+>
+> I assume it to be additional feature, not the replacement of docker compose deployment. When high-availability refactoring is ready it is quite easy using agent rewrite compose to helm.
+> And I think even small miners can benefit from kubernetes, as full installation and update (if DevOps engeneer is familiar with kube and tooling like ArgoCD) could be even easier and smoother

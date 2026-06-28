@@ -4,7 +4,7 @@ title: "GitHub Discussions"
 
 # GitHub Discussions — `gonka-ai/gonka`
 
-Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **69**. Обновлено: `2026-06-28 14:17 UTC`.
+Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **69**. Обновлено: `2026-06-28 19:47 UTC`.
 
 ## 📂 Категории
 
@@ -20,7 +20,7 @@ title: "GitHub Discussions"
 
 | # | Заголовок | Категория | Автор | Обновлено |
 |---:|---|---|---|---|
-| [1367](proposals/1367-high-availability-architecture.md) | [High-Availability Architecture](proposals/1367-high-availability-architecture.md) | :bulb: Proposals | [@a-kuprin](https://github.com/a-kuprin) | 2026-06-27 |
+| [1367](proposals/1367-high-availability-architecture.md) | [High-Availability Architecture](proposals/1367-high-availability-architecture.md) | :bulb: Proposals | [@a-kuprin](https://github.com/a-kuprin) | 2026-06-28 |
 | [1369](proposals/1369-finalization-protocol-proposal-host-initiated-collectors-com.md) | [Finalization protocol proposal (host-initiated, collectors, commit certificate)](proposals/1369-finalization-protocol-proposal-host-initiated-collectors-com.md) | :bulb: Proposals | [@akup](https://github.com/akup) | 2026-06-27 |
 | [1363](show-and-tell/1363-openbroker-broker-for-brokers-or-devshards-as-a-service.md) | [OpenBroker - broker for brokers or Devshards as a service.](show-and-tell/1363-openbroker-broker-for-brokers-or-devshards-as-a-service.md) | :raised_hands: Show and Tell | [@gonkalabs](https://github.com/gonkalabs) | 2026-06-23 |
 | [1335](proposals/1335-add-support-for-speech-to-text-asr-models.md) | [Add support for speech-to-text (ASR) models](proposals/1335-add-support-for-speech-to-text-asr-models.md) | :bulb: Proposals | [@ivan-smetannikov-serokell](https://github.com/ivan-smetannikov-serokell) | 2026-06-22 |
