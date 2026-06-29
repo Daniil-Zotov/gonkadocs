@@ -4,7 +4,7 @@ title: "GitHub Discussions"
 
 # GitHub Discussions — `gonka-ai/gonka`
 
-Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **69**. Обновлено: `2026-06-29 11:24 UTC`.
+Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **70**. Обновлено: `2026-06-29 16:12 UTC`.
 
 ## 📂 Категории
 
@@ -14,12 +14,13 @@ title: "GitHub Discussions"
 | [:speech_balloon: General](general/index.md) | 5 |
 | [:bulb: Proposals](proposals/index.md) | 41 |
 | [:pray: Q&A](q-a/index.md) | 3 |
-| [:raised_hands: Show and Tell](show-and-tell/index.md) | 19 |
+| [:raised_hands: Show and Tell](show-and-tell/index.md) | 20 |
 
 ## 🕒 Последние обновлённые
 
 | # | Заголовок | Категория | Автор | Обновлено |
 |---:|---|---|---|---|
+| [1374](show-and-tell/1374-gonka-ai-dune-dashboard.md) | [Gonka AI Dune Dashboard](show-and-tell/1374-gonka-ai-dune-dashboard.md) | :raised_hands: Show and Tell | [@genkisudo](https://github.com/genkisudo) | 2026-06-29 |
 | [1367](proposals/1367-high-availability-architecture.md) | [High-Availability Architecture](proposals/1367-high-availability-architecture.md) | :bulb: Proposals | [@a-kuprin](https://github.com/a-kuprin) | 2026-06-28 |
 | [1369](proposals/1369-finalization-protocol-proposal-host-initiated-collectors-com.md) | [Finalization protocol proposal (host-initiated, collectors, commit certificate)](proposals/1369-finalization-protocol-proposal-host-initiated-collectors-com.md) | :bulb: Proposals | [@akup](https://github.com/akup) | 2026-06-27 |
 | [1363](show-and-tell/1363-openbroker-broker-for-brokers-or-devshards-as-a-service.md) | [OpenBroker - broker for brokers or Devshards as a service.](show-and-tell/1363-openbroker-broker-for-brokers-or-devshards-as-a-service.md) | :raised_hands: Show and Tell | [@gonkalabs](https://github.com/gonkalabs) | 2026-06-23 |
@@ -39,4 +40,3 @@ title: "GitHub Discussions"
 | [1244](proposals/1244-devshard-technical-height-sync-protocol.md) | [`devshard` `technical` Height-sync protocol](proposals/1244-devshard-technical-height-sync-protocol.md) | :bulb: Proposals | [@akup](https://github.com/akup) | 2026-05-25 |
 | [1243](proposals/1243-project-funding-governance-and-management.md) | [Project funding governance and management](proposals/1243-project-funding-governance-and-management.md) | :bulb: Proposals | [@a-kuprin](https://github.com/a-kuprin) | 2026-05-25 |
 | [1230](proposals/1230-proposal-optional-signed-agent-request-envelope-for-gonka-in.md) | [Proposal: optional signed agent request envelope for Gonka inference](proposals/1230-proposal-optional-signed-agent-request-envelope-for-gonka-in.md) | :bulb: Proposals | [@aeoess](https://github.com/aeoess) | 2026-05-24 |
-| [1141](show-and-tell/1141-ibc-usdt-withdrawal-guide.md) | [IBC USDT Withdrawal Guide](show-and-tell/1141-ibc-usdt-withdrawal-guide.md) | :raised_hands: Show and Tell | [@paranjko](https://github.com/paranjko) | 2026-05-20 |

@@ -4,12 +4,13 @@ title: ":raised_hands: Show and Tell"
 
 # :raised_hands: Show and Tell
 
-Дискуссии в категории **:raised_hands: Show and Tell**. Всего: **19**. Обновлено: `2026-06-29 11:24 UTC`.
+Дискуссии в категории **:raised_hands: Show and Tell**. Всего: **20**. Обновлено: `2026-06-29 16:12 UTC`.
 
 [← ко всем категориям](../index.md)
 
 | # | Заголовок | Автор | Обновлено |
 |---:|---|---|---|
+| [1374](1374-gonka-ai-dune-dashboard.md) | [Gonka AI Dune Dashboard](1374-gonka-ai-dune-dashboard.md) | [@genkisudo](https://github.com/genkisudo) | 2026-06-29 |
 | [1363](1363-openbroker-broker-for-brokers-or-devshards-as-a-service.md) | [OpenBroker - broker for brokers or Devshards as a service.](1363-openbroker-broker-for-brokers-or-devshards-as-a-service.md) | [@gonkalabs](https://github.com/gonkalabs) | 2026-06-23 |
 | [1339](1339-gonka-x-mimocode.md) | [Gonka x MiMoCode](1339-gonka-x-mimocode.md) | [@Dankosik](https://github.com/Dankosik) | 2026-06-12 |
 | [1323](1323-gonka-x-hermes-agent.md) | [Gonka x Hermes Agent](1323-gonka-x-hermes-agent.md) | [@Dankosik](https://github.com/Dankosik) | 2026-06-08 |
