@@ -3,7 +3,7 @@ title: "#1188 — `devshard improvements` Height-sync protocol (needed to suppor
 source: https://github.com/gonka-ai/gonka/discussions/1188
 discussion_number: 1188
 category: proposals
-synced_at: 2026-06-29T20:16:23Z
+synced_at: 2026-06-30T04:34:53Z
 ---
 
 > 🔄 **Авто-синхронизация:** из [Discussion #1188](https://github.com/gonka-ai/gonka/discussions/1188) каждые 6 часов. 

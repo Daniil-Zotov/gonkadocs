@@ -3,7 +3,7 @@ title: "#1345 — Network Documentation"
 source: https://github.com/gonka-ai/gonka/discussions/1345
 discussion_number: 1345
 category: proposals
-synced_at: 2026-06-29T20:16:14Z
+synced_at: 2026-06-30T04:34:45Z
 ---
 
 > 🔄 **Авто-синхронизация:** из [Discussion #1345](https://github.com/gonka-ai/gonka/discussions/1345) каждые 6 часов. 
