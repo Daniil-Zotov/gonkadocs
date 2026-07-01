@@ -23,7 +23,7 @@ not_in_nav: |
 
 nav:
   - Главная: index.md
-  - Gonka: "/gonkadocs/gonka/docs/"
+  - Gonka: "/gonka/docs/"
   - Обсуждения:
     - Обзор: gonka/discussion/index.md
     - Announcements: gonka/discussion/announcements/index.md
