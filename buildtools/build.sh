@@ -63,7 +63,7 @@ _swap_intro "zh/"
 # Оригинальный site_url указывает на gonka.ai — это ломает ссылки на zh/lang
 # при развёртывании под путём /gonkadocs/gonka/docs/. Создаём временную копию
 # конфига с исправленным site_url и собираем по ней.
-SITE_URL="https://daniil-zotov.github.io/gonkadocs/gonka/docs/"
+SITE_URL="https://gonkadocs.com/gonka/docs/"
 BUILD_CFG=".mkdocs.yml.build"
 
 # Мержим overrides: upstream originals + наши shared-шаблоны.
