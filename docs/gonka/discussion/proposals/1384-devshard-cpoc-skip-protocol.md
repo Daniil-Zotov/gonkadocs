@@ -3,7 +3,7 @@ title: "#1384 — `devshard` cPoC skip protocol"
 source: https://github.com/gonka-ai/gonka/discussions/1384
 discussion_number: 1384
 category: proposals
-synced_at: 2026-07-02T04:31:27Z
+synced_at: 2026-07-02T09:33:05Z
 ---
 
 > 🔄 **Авто-синхронизация:** из [Discussion #1384](https://github.com/gonka-ai/gonka/discussions/1384) каждые 6 часов. 
