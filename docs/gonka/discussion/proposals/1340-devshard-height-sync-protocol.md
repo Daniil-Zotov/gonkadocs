@@ -3,14 +3,14 @@ title: "#1340 — `devshard` Height-sync protocol"
 source: https://github.com/gonka-ai/gonka/discussions/1340
 discussion_number: 1340
 category: proposals
-synced_at: 2026-07-02T09:33:05Z
+synced_at: 2026-07-02T14:29:38Z
 ---
 
 > 🔄 **Авто-синхронизация:** из [Discussion #1340](https://github.com/gonka-ai/gonka/discussions/1340) каждые 6 часов. 
 
 # `devshard` Height-sync protocol
 
-**Автор:** [@alexanderkuprin](https://github.com/alexanderkuprin) · **Категория:** :bulb: Proposals · **Создано:** 2026-06-12 12:35 UTC · **Обновлено:** 2026-07-02 01:50 UTC
+**Автор:** [@alexanderkuprin](https://github.com/alexanderkuprin) · **Категория:** :bulb: Proposals · **Создано:** 2026-06-12 12:35 UTC · **Обновлено:** 2026-07-02 10:41 UTC
 
 ---
 
@@ -989,3 +989,9 @@ The inference cycle can be light-weight (that is, it may have no independent blo
 
 Also, this verification cycle can be used for block height propagation (to avoid frequent consensus invocation).
 
+
+**↳ Ответ от [@a-kuprin](https://github.com/a-kuprin)** · *2026-07-02 10:41 UTC*
+
+> I think this Pederson-commitment-style for source of randomness is best option for [finalization](https://github.com/gonka-ai/gonka/discussions/1369) selecting the collector for the commitment.
+>
+> Anyway we should revisit the finalization protocol as BLS fits there very well as we discussed
