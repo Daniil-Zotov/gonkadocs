@@ -18,7 +18,7 @@
       </svg>
     </label>
 
-    <div class="md-header__title" data-md-component="header-title">
+    <a href="/" class="md-header__title" data-md-component="header-title" style="text-decoration: none;">
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">Gonka Docs</span>
@@ -27,7 +27,7 @@
           <span class="md-ellipsis">{{ page.title | striptags if page and page.title else "Gonka Docs" }}</span>
         </div>
       </div>
-    </div>
+    </a>
 
     {# ---------- Palette toggle ---------- #}
     <form class="md-header__option" data-md-component="palette">
