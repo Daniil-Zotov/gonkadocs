@@ -1,0 +1,189 @@
+# Gonka Docs
+
+> Gonka is a decentralized AI inference network with Proof of Compute consensus. This portal unifies official protocol documentation, GitHub Discussions, community governance docs, and on-chain proposals into a single searchable site at gonkadocs.com.
+
+Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute goes to useful LLM inference. Hosts contribute GPU resources and earn GNK tokens. Developers access inference through OpenAI-compatible APIs via community brokers or self-hosted gateways. The network runs epochs (~24h) with on-chain governance.
+
+## GitHub Discussions (auto-synced)
+
+- [All Discussions](/gonka/discussion/): Index of all discussions from gonka-ai/gonka
+- [Proposals](/gonka/discussion/proposals/): Technical and funding proposals
+- [Show and Tell](/gonka/discussion/show-and-tell/): Community projects
+- [Q&A](/gonka/discussion/q-a/): Best practices, technical questions
+- [General](/gonka/discussion/general/): Network reliability, governance
+
+## Protocol Documentation
+
+- [Model Licenses](/gonka/docs/model-licenses/): Supported models and licensing terms
+- [Error Reference](/gonka/docs/errors/): Common errors and troubleshooting
+
+### Developer
+
+- [Developer Quickstart](/gonka/docs/developer/quickstart/): Send inference via brokers, OpenAI-compatible API, tool calling
+- [Gateway Developer Quickstart](/gonka/docs/developer/gateway-developer-quickstart/): Run your own gateway (Docker), devshard escrow
+
+### Host
+
+- [Host Quickstart](/gonka/docs/host/quickstart/): Join as GPU provider, hardware requirements
+- [Hardware Specifications](/gonka/docs/host/hardware-specifications/): GPU/CPU/RAM requirements per model
+- [Key Management](/gonka/docs/host/key-management/): Validator, consensus, and node keys
+- [Collateral](/gonka/docs/host/collateral/): Staking, slashing, collateral parameters
+- [ML Node Validation](/gonka/docs/host/mlnode-validation/): PoC validation mechanics, sprint execution
+- [ML Node Management](/gonka/docs/host/mlnode-management/): Deploy and manage inference nodes
+- [Multi-Model PoC](/gonka/docs/host/multi_model_poc/): Run multiple models on one host
+- [Network Node API](/gonka/docs/host/network-node-api/): Chain node and API node endpoints
+- [Rewards](/gonka/docs/host/rewards/): Epoch rewards distribution
+
+### Wallet
+
+- [Create Account](/gonka/docs/wallet/create-account/): Create a Gonka account on-chain
+- [Dashboard](/gonka/docs/wallet/dashboard/): Web dashboard for account management
+- [Pricing](/gonka/docs/wallet/pricing/): Per-token pricing, settlement mechanics
+
+### Governance
+
+- [Transactions & Governance](/gonka/docs/governance/transactions-and-governance/): Submit proposals, vote
+- [Voting Power](/gonka/docs/governance/voting-power-eligibility/): How voting power is calculated
+- [Creating Proposals](/gonka/docs/governance/creating-proposals/): How to create governance proposals
+- [Voting on Proposals](/gonka/docs/governance/voting-on-proposals/): How to vote on proposals
+
+### Cross-Chain
+
+- [Deposit USDT (Ethereum)](/gonka/docs/cross-chain-transfers/ethereum-bridge/deposit-usdt/): Deposit USDT via Ethereum bridge
+- [Withdraw USDT (Ethereum)](/gonka/docs/cross-chain-transfers/ethereum-bridge/withdraw-usdt/): Withdraw USDT via Ethereum bridge
+- [Deposit GNK (Ethereum)](/gonka/docs/cross-chain-transfers/ethereum-bridge/deposit-gnk/): Deposit GNK via Ethereum bridge
+- [Withdraw GNK (Ethereum)](/gonka/docs/cross-chain-transfers/ethereum-bridge/withdraw-gnk/): Withdraw GNK via Ethereum bridge
+- [IBC USDT via Kava](/gonka/docs/cross-chain-transfers/ibc/withdraw-usdt-via-kava/): Transfer USDT via IBC through Kava
+- [Widget Integration](/gonka/docs/cross-chain-transfers/widget-integration/): Cross-chain widget for websites
+
+### Additional Pages (auto-synced)
+
+- [Errors](/gonka/docs/Errors/): Auto-synced content
+- [FAQ](/gonka/docs/FAQ/): Auto-synced content
+- [Architecture](/gonka/docs/architecture/): Auto-synced content
+- [Dashboard Maintainer Memo For v0.2.13](/gonka/docs/dashboard-maintainer-memo-v0.2.13/): Auto-synced content
+- [Disclaimer](/gonka/docs/disclaimer/): Auto-synced content
+- [Glossary](/gonka/docs/glossary/): Auto-synced content
+- [Get Support on Discord](/gonka/docs/help/): Auto-synced content
+- [Introduction](/gonka/docs/introduction/): Auto-synced content
+- [Login](/gonka/docs/login/): Auto-synced content
+- [Announcements](/gonka/docs/network-updates/): Auto-synced content
+- [Report a Vulnerability](/gonka/docs/report-vulnerability/): Auto-synced content
+- [Sign Up](/gonka/docs/signup/): Auto-synced content
+- [Benchmark to Choose Optimal Deployment Config for LLMs](/gonka/docs/host/benchmark-to-choose-optimal-deployment-config-for-llms/): Auto-synced content
+- [Gonka Genesis Ceremony](/gonka/docs/host/genesis/): Auto-synced content
+- [How to edit Host public info](/gonka/docs/host/host_info/): Auto-synced content
+- [Kimi K2.6 Bootstrap](/gonka/docs/host/kimi-bootstrap/): Auto-synced content
+- [MiniMax-M2.7 Bootstrap](/gonka/docs/host/minimax-bootstrap/): Auto-synced content
+- [Multiple nodes](/gonka/docs/host/multiple-nodes/): Auto-synced content
+- [[Optional] SSL Setup](/gonka/docs/host/optional-ssl-setup/): Auto-synced content
+- [Proposals](/gonka/docs/host/proposals/): Auto-synced content
+- [Redirecting to Host Benchmark](/gonka/docs/participant/benchmark-to-choose-optimal-deployment-config-for-llms/): Auto-synced content
+- [Redirecting to Host Genesis (New)](/gonka/docs/participant/genesis-new/): Auto-synced content
+- [Redirecting to Host Genesis](/gonka/docs/participant/genesis/): Auto-synced content
+- [Redirecting to Host Hardware Specifications](/gonka/docs/participant/hardware-specifications/): Auto-synced content
+- [Redirecting to Host Key Management](/gonka/docs/participant/key-management/): Auto-synced content
+- [Redirecting to Host Multi Node Setup](/gonka/docs/participant/multi-node-setup-for-review/): Auto-synced content
+- [Redirecting to Host Multiple Nodes](/gonka/docs/participant/multiple-nodes/): Auto-synced content
+- [Redirecting to Host Network Node API](/gonka/docs/participant/network-node-api/): Auto-synced content
+- [Redirecting to Host Quickstart](/gonka/docs/participant/quickstart/): Auto-synced content
+- [Addresses and keys](/gonka/docs/cross-chain-transfers/ethereum-bridge/addresses-and-keys/): Auto-synced content
+- [Bridge epoch update](/gonka/docs/cross-chain-transfers/ethereum-bridge/bridge-epoch-update/): Auto-synced content
+- [Bridge via dashboard (UI guide)](/gonka/docs/cross-chain-transfers/ethereum-bridge/dashboard/): Auto-synced content
+- [Multisig signer guide](/gonka/docs/cross-chain-transfers/ethereum-bridge/multisig-signer-guide/): Auto-synced content
+- [Ethereum bridge overview](/gonka/docs/cross-chain-transfers/ethereum-bridge/overview/): Auto-synced content
+- [Register a bridge token](/gonka/docs/cross-chain-transfers/ethereum-bridge/register-token/): Auto-synced content
+- [Dashboard & tracker integration](/gonka/docs/cross-chain-transfers/ethereum-bridge/tracker-integration/): Auto-synced content
+- [错误](/gonka/docs/zh/Errors/): Auto-synced content
+- [常见问题](/gonka/docs/zh/FAQ/): Auto-synced content
+- [Architecture](/gonka/docs/zh/architecture/): Auto-synced content
+- [仪表板维护者备忘录 v0.2.13](/gonka/docs/zh/dashboard-maintainer-memo-v0.2.13/): Auto-synced content
+- [Disclaimer](/gonka/docs/zh/disclaimer/): Auto-synced content
+- [Glossary](/gonka/docs/zh/glossary/): Auto-synced content
+- [在 Discord 获取支持](/gonka/docs/zh/help/): Auto-synced content
+- [Gonka](/gonka/docs/zh/introduction/): Auto-synced content
+- [Login](/gonka/docs/zh/login/): Auto-synced content
+- [模型许可](/gonka/docs/zh/model-licenses/): Auto-synced content
+- [公告](/gonka/docs/zh/network-updates/): Auto-synced content
+- [报告漏洞](/gonka/docs/zh/report-vulnerability/): Auto-synced content
+- [注册](/gonka/docs/zh/signup/): Auto-synced content
+- [治理与交易（Cosmos SDK 0.53）](/gonka/docs/zh/transactions-and-governance/): Auto-synced content
+- [运行你自己的网关](/gonka/docs/zh/developer/gateway-developer-quickstart/): Auto-synced content
+- [开发者快速入门](/gonka/docs/zh/developer/quickstart/): Auto-synced content
+- [LLM 最佳部署配置基准测试](/gonka/docs/zh/host/benchmark-to-choose-optimal-deployment-config-for-llms/): Auto-synced content
+- [抵押品机制](/gonka/docs/zh/host/collateral/): Auto-synced content
+- [Gonka 创世仪式](/gonka/docs/zh/host/genesis-new/): Auto-synced content
+- [Gonka 创世仪式](/gonka/docs/zh/host/genesis/): Auto-synced content
+- [Hardware Specifications](/gonka/docs/zh/host/hardware-specifications/): Auto-synced content
+- [如何编辑主机公共信息](/gonka/docs/zh/host/host_info/): Auto-synced content
+- [密钥管理架构](/gonka/docs/zh/host/key-management/): Auto-synced content
+- [Kimi K2.6 启动引导](/gonka/docs/zh/host/kimi-bootstrap/): Auto-synced content
+- [MiniMax-M2.7 引导流程](/gonka/docs/zh/host/minimax-bootstrap/): Auto-synced content
+- [ML 节点管理](/gonka/docs/zh/host/mlnode-management/): Auto-synced content
+- [验证 ML 节点部署](/gonka/docs/zh/host/mlnode-validation/): Auto-synced content
+- [多模型 PoC — 主机操作指南](/gonka/docs/zh/host/multi_model_poc/): Auto-synced content
+- [多节点](/gonka/docs/zh/host/multiple-nodes/): Auto-synced content
+- [网络节点 API](/gonka/docs/zh/host/network-node-api/): Auto-synced content
+- [[可选] SSL 设置](/gonka/docs/zh/host/optional-ssl-setup/): Auto-synced content
+- [提案](/gonka/docs/zh/host/proposals/): Auto-synced content
+- [配置您的链](/gonka/docs/zh/host/quickstart/): Auto-synced content
+- [奖励机制](/gonka/docs/zh/host/rewards/): Auto-synced content
+- [如何编辑验证者公开信息](/gonka/docs/zh/host/validator_info/): Auto-synced content
+- [重定向到主机基准测试](/gonka/docs/zh/participant/benchmark-to-choose-optimal-deployment-config-for-llms/): Auto-synced content
+- [正在重定向到主机起源（新）](/gonka/docs/zh/participant/genesis-new/): Auto-synced content
+- [正在重定向到主机起源](/gonka/docs/zh/participant/genesis/): Auto-synced content
+- [正在重定向到主机硬件规格](/gonka/docs/zh/participant/hardware-specifications/): Auto-synced content
+- [正在重定向到主机密钥管理](/gonka/docs/zh/participant/key-management/): Auto-synced content
+- [重定向到主机多节点设置](/gonka/docs/zh/participant/multi-node-setup-for-review/): Auto-synced content
+- [重定向到托管多个节点](/gonka/docs/zh/participant/multiple-nodes/): Auto-synced content
+- [正在重定向到主机网络节点 API](/gonka/docs/zh/participant/network-node-api/): Auto-synced content
+- [正在重定向到主机快速入门](/gonka/docs/zh/participant/quickstart/): Auto-synced content
+- [技术集成指南：兑换与跨链桥组件](/gonka/docs/zh/cross-chain-transfers/widget-integration/): Auto-synced content
+- [通过 Kava 提取 USDT（Gonka → 以太坊）](/gonka/docs/zh/cross-chain-transfers/ibc/withdraw-usdt-via-kava/): Auto-synced content
+- [地址与密钥](/gonka/docs/zh/cross-chain-transfers/ethereum-bridge/addresses-and-keys/): Auto-synced content
+- [跨链桥纪元更新](/gonka/docs/zh/cross-chain-transfers/ethereum-bridge/bridge-epoch-update/): Auto-synced content
+- [通过仪表板跨链（UI 指南）](/gonka/docs/zh/cross-chain-transfers/ethereum-bridge/dashboard/): Auto-synced content
+- [存入 GNK（Gonka → 以太坊）](/gonka/docs/zh/cross-chain-transfers/ethereum-bridge/deposit-gnk/): Auto-synced content
+- [存入 USDT（以太坊 → Gonka）](/gonka/docs/zh/cross-chain-transfers/ethereum-bridge/deposit-usdt/): Auto-synced content
+- [多签签署人指南](/gonka/docs/zh/cross-chain-transfers/ethereum-bridge/multisig-signer-guide/): Auto-synced content
+- [以太坊桥接概览](/gonka/docs/zh/cross-chain-transfers/ethereum-bridge/overview/): Auto-synced content
+- [注册跨链桥代币](/gonka/docs/zh/cross-chain-transfers/ethereum-bridge/register-token/): Auto-synced content
+- [仪表板与追踪器集成](/gonka/docs/zh/cross-chain-transfers/ethereum-bridge/tracker-integration/): Auto-synced content
+- [提取 GNK（以太坊 → Gonka）](/gonka/docs/zh/cross-chain-transfers/ethereum-bridge/withdraw-gnk/): Auto-synced content
+- [提取 USDT（Gonka → 以太坊）](/gonka/docs/zh/cross-chain-transfers/ethereum-bridge/withdraw-usdt/): Auto-synced content
+- [创建一个新的Gonka账户](/gonka/docs/zh/wallet/create-account/): Auto-synced content
+- [仪表盘入门](/gonka/docs/zh/wallet/dashboard/): Auto-synced content
+- [将 Gonka 网络添加到 Keplr 与 Leap 钱包](/gonka/docs/zh/wallet/external_wallets/): Auto-synced content
+- [定价](/gonka/docs/zh/wallet/pricing/): Auto-synced content
+- [钱包与转账指南](/gonka/docs/zh/wallet/wallet-and-transfer-guide/): Auto-synced content
+- [如何在Gonka上创建并提交治理提案](/gonka/docs/zh/governance/creating-proposals/): Auto-synced content
+- [交易与治理](/gonka/docs/zh/governance/transactions-and-governance/): Auto-synced content
+- [提案投票](/gonka/docs/zh/governance/voting-on-proposals/): Auto-synced content
+- [投票权、创世守护者和委托](/gonka/docs/zh/governance/voting-power-eligibility/): Auto-synced content
+- [Wallet & Transfer Guide](/gonka/docs/wallet/wallet-and-transfer-guide/): Auto-synced content
+
+## Community Documentation
+
+- [Roadmap](/community/roadmap/gonka-network-development-roadmap/): Three-horizon development strategy
+- [GRC (Restitution Committee)](/community/grc/README/): Compensation framework for protocol bugs
+- [GSC (Self-Governance Committee)](/community/gsc/regulation/): Community governance charter
+
+## On-Chain Proposals
+
+- [Proposals Dashboard](/proposals/README/): Full table of 75 on-chain governance proposals
+
+## Machine-Readable Resources
+
+- [Full Documentation](/llms-full.txt): All pages combined in a single file
+- [OpenAPI Specification](/openapi.yaml): OpenAPI 3.0 spec for the inference API
+- [Search Index](/search/search_index.json): Lunr.js search index, queryable programmatically
+- [Sitemap](/sitemap.xml): Full sitemap of all pages
+
+## Key Concepts
+
+- **Proof of Compute (PoC)**: Novel consensus where compute time is used for useful LLM inference, not wasteful hashing. Sprints are short proof windows; rest of epoch is productive inference.
+- **Epochs**: ~24 hour cycles (17280 blocks). Each epoch: Sprint -> weight assignment -> inference work -> reward settlement.
+- **Devshards**: Short-lived sessions with on-chain escrow for per-request billing. Gateways open devshards; brokers resell access.
+- **Transfer Agent (TA)**: Randomly selected host that routes inference requests. Any host can be TA, Validator, or Executor.
+- **GNK Token**: Native token. Hosts earn GNK for providing compute. Used for staking, governance, and payments.
+- **OpenAI-Compatible API**: Gonka inference is accessible via standard `/v1/chat/completions` endpoint through brokers.

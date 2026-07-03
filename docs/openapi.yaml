@@ -1,0 +1,315 @@
+openapi: 3.0.3
+info:
+  title: Gonka Inference API
+  description: |
+    Gonka is a decentralized AI inference network. This API specification documents the
+    OpenAI-compatible inference interface used by Gonka brokers and gateways.
+
+    All Gonka inference endpoints are OpenAI-compatible. You can use the official OpenAI
+    SDK (Python, TypeScript, Go) with a broker's base_url and API key.
+
+    **Key differences from OpenAI:**
+    - Models are served by decentralized hosts, not a single provider
+    - Inference is validated via Proof of Compute (PoC) consensus
+    - Billing is per-token, settled on-chain via devshards
+    - Model provenance is cryptographically verifiable
+
+    **Base URL:** Set to your broker's endpoint, e.g. `https://<broker-url>/v1`
+  version: 1.0.0
+  contact:
+    name: Gonka Community
+    url: https://gonkadocs.com
+  license:
+    name: Protocol License
+    url: https://gonka.ai
+
+servers:
+  - url: https://proxy.gonka.gg/v1
+    description: Gonka Labs public gateway
+  - url: https://gonka24.com/v1
+    description: Gonka24 broker
+  - url: https://gonkagate.com/v1
+    description: GonkaGate broker
+  - url: https://gate.joingonka.ai/v1
+    description: JoinGonka broker
+  - url: https://gonkabroker.com/v1
+    description: GonkaBroker
+
+paths:
+  /chat/completions:
+    post:
+      operationId: createChatCompletion
+      summary: Create chat completion
+      description: |
+        Create a chat completion via the Gonka network. This endpoint is fully
+        OpenAI-compatible — use the standard OpenAI SDK with your broker's base_url.
+
+        The request is routed through a Transfer Agent (TA) to an Executor on the
+        Gonka network. Proof of Compute validation happens asynchronously and does
+        not add latency to the response.
+      tags:
+        - Inference
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ChatCompletionRequest'
+            examples:
+              basic:
+                summary: Basic chat completion
+                value:
+                  model: MiniMaxAI/MiniMax-M2.7
+                  messages:
+                    - role: user
+                      content: "Write a one-sentence bedtime story about a unicorn"
+              streaming:
+                summary: Streaming chat completion
+                value:
+                  model: MiniMaxAI/MiniMax-M2.7
+                  messages:
+                    - role: user
+                      content: "Tell me a joke"
+                  stream: true
+              tool_calling:
+                summary: Tool calling
+                value:
+                  model: MiniMaxAI/MiniMax-M2.7
+                  messages:
+                    - role: user
+                      content: "What's the weather in Paris?"
+                  tools:
+                    - type: function
+                      function:
+                        name: get_weather
+                        description: Get current weather for a city
+                        parameters:
+                          type: object
+                          properties:
+                            city:
+                              type: string
+                              description: City name
+                          required:
+                            - city
+                  tool_choice: auto
+      responses:
+        '200':
+          description: Successful completion
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ChatCompletionResponse'
+        '401':
+          description: Invalid API key
+        '429':
+          description: Rate limit exceeded
+        '500':
+          description: Network error (retry with backoff)
+
+  /models:
+    get:
+      operationId: listModels
+      summary: List available models
+      description: |
+        List all models available through this broker. Model IDs are case-sensitive
+        and must be used exactly as returned.
+      tags:
+        - Models
+      responses:
+        '200':
+          description: List of available models
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ModelList'
+
+components:
+  schemas:
+    ChatCompletionRequest:
+      type: object
+      required:
+        - model
+        - messages
+      properties:
+        model:
+          type: string
+          description: |
+            Model ID. Must match exactly what the broker supports.
+            Examples: `MiniMaxAI/MiniMax-M2.7`, `MoonshotAI/Kimi-K2.6`
+          example: MiniMaxAI/MiniMax-M2.7
+        messages:
+          type: array
+          description: Conversation messages
+          items:
+            $ref: '#/components/schemas/Message'
+        temperature:
+          type: number
+          minimum: 0
+          maximum: 2
+          default: 1
+          description: Sampling temperature
+        top_p:
+          type: number
+          minimum: 0
+          maximum: 1
+          default: 1
+          description: Nucleus sampling parameter
+        max_tokens:
+          type: integer
+          description: Maximum tokens to generate
+        stream:
+          type: boolean
+          default: false
+          description: Enable streaming responses
+        tools:
+          type: array
+          description: |
+            Tool definitions. Only `type: "function"` is supported.
+            Code interpreter and file search are not available.
+          items:
+            $ref: '#/components/schemas/Tool'
+        tool_choice:
+          type: string
+          enum: [auto, none, required]
+          description: Tool selection strategy
+        stop:
+          type: array
+          items:
+            type: string
+          description: Stop sequences
+        presence_penalty:
+          type: number
+          minimum: -2
+          maximum: 2
+          default: 0
+        frequency_penalty:
+          type: number
+          minimum: -2
+          maximum: 2
+          default: 0
+
+    Message:
+      type: object
+      required:
+        - role
+        - content
+      properties:
+        role:
+          type: string
+          enum: [system, user, assistant, tool]
+        content:
+          type: string
+          description: Message content (or null for tool call messages)
+        name:
+          type: string
+          description: Optional name for the message participant
+        tool_calls:
+          type: array
+          items:
+            $ref: '#/components/schemas/ToolCall'
+          description: Tool calls in the assistant message
+        tool_call_id:
+          type: string
+          description: Tool call ID for tool role messages
+
+    Tool:
+      type: object
+      properties:
+        type:
+          type: string
+          enum: [function]
+        function:
+          type: object
+          required:
+            - name
+          properties:
+            name:
+              type: string
+            description:
+              type: string
+            parameters:
+              type: object
+              description: JSON Schema for function parameters
+
+    ToolCall:
+      type: object
+      properties:
+        id:
+          type: string
+        type:
+          type: string
+          enum: [function]
+        function:
+          type: object
+          properties:
+            name:
+              type: string
+            arguments:
+              type: string
+              description: JSON-encoded function arguments
+
+    ChatCompletionResponse:
+      type: object
+      properties:
+        id:
+          type: string
+          description: Unique completion ID
+        object:
+          type: string
+          enum: [chat.completion]
+        created:
+          type: integer
+          description: Unix timestamp
+        model:
+          type: string
+          description: Model used
+        choices:
+          type: array
+          items:
+            $ref: '#/components/schemas/Choice'
+        usage:
+          $ref: '#/components/schemas/Usage'
+
+    Choice:
+      type: object
+      properties:
+        index:
+          type: integer
+        message:
+          $ref: '#/components/schemas/Message'
+        finish_reason:
+          type: string
+          enum: [stop, length, tool_calls]
+
+    Usage:
+      type: object
+      properties:
+        prompt_tokens:
+          type: integer
+        completion_tokens:
+          type: integer
+        total_tokens:
+          type: integer
+
+    ModelList:
+      type: object
+      properties:
+        object:
+          type: string
+          enum: [list]
+        data:
+          type: array
+          items:
+            type: object
+            properties:
+              id:
+                type: string
+                description: Model ID (use exactly as returned)
+              object:
+                type: string
+                enum: [model]
+              created:
+                type: integer
+              owned_by:
+                type: string
+                description: Usually "gonka"

@@ -21,11 +21,15 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 SITE_DIR="$ROOT/_site"
 
-echo "==> [1/2] Сборка основного сайта -> $SITE_DIR"
+echo "==> [0/4] Генерация llms.txt и llms-full.txt для AI-агентов"
+python3 "$ROOT/buildtools/generate-llms.py"
+python3 "$ROOT/buildtools/generate-llms-full.py"
+
+echo "==> [1/4] Сборка основного сайта -> $SITE_DIR"
 cd "$ROOT"
 python3 -m mkdocs build --clean --site-dir "$SITE_DIR"
 
-echo "==> [2/2] Сборка раздела Gonka (родной конфиг оригинала, i18n en+zh) -> $SITE_DIR/gonka/docs"
+echo "==> [2/4] Сборка раздела Gonka (родной конфиг оригинала, i18n en+zh) -> $SITE_DIR/gonka/docs"
 cd "$ROOT/docs/gonka/docs"
 
 # В оригинале docs/index.md — это ЛЕНДИНГ gonka.ai (template home.html), а не
@@ -106,7 +110,7 @@ rm -f "$SITE_DIR/gonka/docs/CNAME"
 # Используем Python-скрипт, который вычисляет правильный префикс "../"
 # для каждого HTML-файла в зависимости от его пути.
 # -----------------------------------------------------------------------
-echo "==> [пост-обработка] Исправление путей к изображениям (/images/ -> ..N/images/)"
+echo "==> [3/4] Пост-обработка: исправление путей к изображениям (/images/ -> ..N/images/)"
 echo "==> [пост-обработка] Исправление language switcher (LINK_EN/LINK_ZH -> реальные пути)"
 python3 - "$SITE_DIR/gonka/docs" <<'PYEOF'
 import os, re, sys
@@ -165,5 +169,8 @@ for dirpath, _, filenames in os.walk(docs_root):
             with open(fpath, 'w', encoding='utf-8') as f:
                 f.write(content)
 PYEOF
+
+echo "==> [4/4] Генерация .md копий страниц для AI-агентов (llms.txt standard)"
+python3 "$ROOT/buildtools/generate-page-md.py" "$SITE_DIR"
 
 echo "==> Готово. Артефакт: $SITE_DIR"

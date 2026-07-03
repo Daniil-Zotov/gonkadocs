@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "gonka-docs": {
+      "command": "python3",
+      "args": ["buildtools/mcp-server.py"],
+      "env": {
+        "GONKA_DOCS_URL": "https://gonkadocs.com"
+      }
+    }
+  }
+}
