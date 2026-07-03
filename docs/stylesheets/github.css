@@ -398,4 +398,32 @@
   background: var(--md-default-fg-color--lighter);
 }
 
+/* =====================================================================
+   TABS — всегда видны на любых экранах
+   ===================================================================== */
+.md-tabs {
+  display: block !important;
+  visibility: visible !important;
+}
+.md-tabs__list {
+  display: flex !important;
+  flex-wrap: wrap;
+}
+.md-tabs__item {
+  display: list-item !important;
+}
+
+/* =====================================================================
+   МОБИЛЬНАЯ АДАПТАЦИЯ
+   ===================================================================== */
+@media screen and (max-width: 76.1875em) {
+  .md-content {
+    padding: 0 1rem;
+  }
+  .md-content__inner {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
 
