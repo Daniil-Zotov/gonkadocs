@@ -28,7 +28,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPO_OWNER: gonka-ai
           REPO_NAME: gonka
-          OUTPUT_DIR: docs/gonka/discussion
+          OUTPUT_DIR: docs/community/discussion
         run: python .github/scripts/sync_all_discussions.py
 
       - name: Regenerate AI-agent files (llms.txt, llms-full.txt)
@@ -40,7 +40,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/gonka/discussion/ docs/llms.txt docs/llms-full.txt
+          git add docs/community/discussion/ docs/llms.txt docs/llms-full.txt
           if git diff --cached --quiet; then
             echo "No changes — skipping commit."
           else

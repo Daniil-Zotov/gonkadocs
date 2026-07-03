@@ -17,22 +17,22 @@ exclude_docs: |
 # Отдельные посты обсуждений и страницы community доступны по ссылкам из
 # индексных страниц, но намеренно не входят в nav-меню напрямую.
 not_in_nav: |
-  gonka/discussion/**/*.md
+  community/discussion/**/*.md
   community/**/*.md
   README.md
 
 nav:
   - Главная: index.md
   - Gonka.ai/docs: "/gonka/docs/"
-  - Discussions:
-    - Обзор: gonka/discussion/index.md
-    - Announcements: gonka/discussion/announcements/index.md
-    - General: gonka/discussion/general/index.md
-    - Proposals: gonka/discussion/proposals/index.md
-    - Q&A: gonka/discussion/q-a/index.md
-    - Show and Tell: gonka/discussion/show-and-tell/index.md
   - Community:
     - Обзор: community/README.md
+    - Discussions:
+      - Обзор: community/discussion/index.md
+      - Announcements: community/discussion/announcements/index.md
+      - General: community/discussion/general/index.md
+      - Proposals: community/discussion/proposals/index.md
+      - Q&A: community/discussion/q-a/index.md
+      - Show and Tell: community/discussion/show-and-tell/index.md
     - Дорожная карта: community/roadmap/gonka-network-development-roadmap.md
     - GRC: community/grc/README.md
     - GSC: community/gsc/regulation.md

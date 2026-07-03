@@ -184,11 +184,11 @@ def main():
     # GitHub discussions section (always included)
     parts.append("## GitHub Discussions (auto-synced)")
     parts.append("")
-    parts.append("- [All Discussions](/gonka/discussion/): Index of all discussions from gonka-ai/gonka")
-    parts.append("- [Proposals](/gonka/discussion/proposals/): Technical and funding proposals")
-    parts.append("- [Show and Tell](/gonka/discussion/show-and-tell/): Community projects")
-    parts.append("- [Q&A](/gonka/discussion/q-a/): Best practices, technical questions")
-    parts.append("- [General](/gonka/discussion/general/): Network reliability, governance")
+    parts.append("- [All Discussions](/community/discussion/): Index of all discussions from gonka-ai/gonka")
+    parts.append("- [Proposals](/community/discussion/proposals/): Technical and funding proposals")
+    parts.append("- [Show and Tell](/community/discussion/show-and-tell/): Community projects")
+    parts.append("- [Q&A](/community/discussion/q-a/): Best practices, technical questions")
+    parts.append("- [General](/community/discussion/general/): Network reliability, governance")
     parts.append("")
 
     # Dynamic sections

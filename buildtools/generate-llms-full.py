@@ -49,6 +49,7 @@ SKIP_DIRS = {
     "gonka/docs/.git",
     "gonka/docs/docs/zh",  # Chinese translations — separate file if needed
     "gonka/docs/docs/participant",  # Duplicate of host/
+    "community/discussion",  # 70+ discussions — linked from llms.txt, too large for llms-full
 }
 
 
