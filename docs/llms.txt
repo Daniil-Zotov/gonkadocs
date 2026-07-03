@@ -70,14 +70,6 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [Announcements](/gonka/docs/network-updates/): Auto-synced content
 - [Report a Vulnerability](/gonka/docs/report-vulnerability/): Auto-synced content
 - [Sign Up](/gonka/docs/signup/): Auto-synced content
-- [Benchmark to Choose Optimal Deployment Config for LLMs](/gonka/docs/host/benchmark-to-choose-optimal-deployment-config-for-llms/): Auto-synced content
-- [Gonka Genesis Ceremony](/gonka/docs/host/genesis/): Auto-synced content
-- [How to edit Host public info](/gonka/docs/host/host_info/): Auto-synced content
-- [Kimi K2.6 Bootstrap](/gonka/docs/host/kimi-bootstrap/): Auto-synced content
-- [MiniMax-M2.7 Bootstrap](/gonka/docs/host/minimax-bootstrap/): Auto-synced content
-- [Multiple nodes](/gonka/docs/host/multiple-nodes/): Auto-synced content
-- [[Optional] SSL Setup](/gonka/docs/host/optional-ssl-setup/): Auto-synced content
-- [Proposals](/gonka/docs/host/proposals/): Auto-synced content
 - [Redirecting to Host Benchmark](/gonka/docs/participant/benchmark-to-choose-optimal-deployment-config-for-llms/): Auto-synced content
 - [Redirecting to Host Genesis (New)](/gonka/docs/participant/genesis-new/): Auto-synced content
 - [Redirecting to Host Genesis](/gonka/docs/participant/genesis/): Auto-synced content
@@ -87,13 +79,6 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [Redirecting to Host Multiple Nodes](/gonka/docs/participant/multiple-nodes/): Auto-synced content
 - [Redirecting to Host Network Node API](/gonka/docs/participant/network-node-api/): Auto-synced content
 - [Redirecting to Host Quickstart](/gonka/docs/participant/quickstart/): Auto-synced content
-- [Addresses and keys](/gonka/docs/cross-chain-transfers/ethereum-bridge/addresses-and-keys/): Auto-synced content
-- [Bridge epoch update](/gonka/docs/cross-chain-transfers/ethereum-bridge/bridge-epoch-update/): Auto-synced content
-- [Bridge via dashboard (UI guide)](/gonka/docs/cross-chain-transfers/ethereum-bridge/dashboard/): Auto-synced content
-- [Multisig signer guide](/gonka/docs/cross-chain-transfers/ethereum-bridge/multisig-signer-guide/): Auto-synced content
-- [Ethereum bridge overview](/gonka/docs/cross-chain-transfers/ethereum-bridge/overview/): Auto-synced content
-- [Register a bridge token](/gonka/docs/cross-chain-transfers/ethereum-bridge/register-token/): Auto-synced content
-- [Dashboard & tracker integration](/gonka/docs/cross-chain-transfers/ethereum-bridge/tracker-integration/): Auto-synced content
 - [错误](/gonka/docs/zh/Errors/): Auto-synced content
 - [常见问题](/gonka/docs/zh/FAQ/): Auto-synced content
 - [Architecture](/gonka/docs/zh/architecture/): Auto-synced content
@@ -108,8 +93,15 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [报告漏洞](/gonka/docs/zh/report-vulnerability/): Auto-synced content
 - [注册](/gonka/docs/zh/signup/): Auto-synced content
 - [治理与交易（Cosmos SDK 0.53）](/gonka/docs/zh/transactions-and-governance/): Auto-synced content
-- [运行你自己的网关](/gonka/docs/zh/developer/gateway-developer-quickstart/): Auto-synced content
-- [开发者快速入门](/gonka/docs/zh/developer/quickstart/): Auto-synced content
+- [重定向到主机基准测试](/gonka/docs/zh/participant/benchmark-to-choose-optimal-deployment-config-for-llms/): Auto-synced content
+- [正在重定向到主机起源（新）](/gonka/docs/zh/participant/genesis-new/): Auto-synced content
+- [正在重定向到主机起源](/gonka/docs/zh/participant/genesis/): Auto-synced content
+- [正在重定向到主机硬件规格](/gonka/docs/zh/participant/hardware-specifications/): Auto-synced content
+- [正在重定向到主机密钥管理](/gonka/docs/zh/participant/key-management/): Auto-synced content
+- [重定向到主机多节点设置](/gonka/docs/zh/participant/multi-node-setup-for-review/): Auto-synced content
+- [重定向到托管多个节点](/gonka/docs/zh/participant/multiple-nodes/): Auto-synced content
+- [正在重定向到主机网络节点 API](/gonka/docs/zh/participant/network-node-api/): Auto-synced content
+- [正在重定向到主机快速入门](/gonka/docs/zh/participant/quickstart/): Auto-synced content
 - [LLM 最佳部署配置基准测试](/gonka/docs/zh/host/benchmark-to-choose-optimal-deployment-config-for-llms/): Auto-synced content
 - [抵押品机制](/gonka/docs/zh/host/collateral/): Auto-synced content
 - [Gonka 创世仪式](/gonka/docs/zh/host/genesis-new/): Auto-synced content
@@ -129,15 +121,6 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [配置您的链](/gonka/docs/zh/host/quickstart/): Auto-synced content
 - [奖励机制](/gonka/docs/zh/host/rewards/): Auto-synced content
 - [如何编辑验证者公开信息](/gonka/docs/zh/host/validator_info/): Auto-synced content
-- [重定向到主机基准测试](/gonka/docs/zh/participant/benchmark-to-choose-optimal-deployment-config-for-llms/): Auto-synced content
-- [正在重定向到主机起源（新）](/gonka/docs/zh/participant/genesis-new/): Auto-synced content
-- [正在重定向到主机起源](/gonka/docs/zh/participant/genesis/): Auto-synced content
-- [正在重定向到主机硬件规格](/gonka/docs/zh/participant/hardware-specifications/): Auto-synced content
-- [正在重定向到主机密钥管理](/gonka/docs/zh/participant/key-management/): Auto-synced content
-- [重定向到主机多节点设置](/gonka/docs/zh/participant/multi-node-setup-for-review/): Auto-synced content
-- [重定向到托管多个节点](/gonka/docs/zh/participant/multiple-nodes/): Auto-synced content
-- [正在重定向到主机网络节点 API](/gonka/docs/zh/participant/network-node-api/): Auto-synced content
-- [正在重定向到主机快速入门](/gonka/docs/zh/participant/quickstart/): Auto-synced content
 - [技术集成指南：兑换与跨链桥组件](/gonka/docs/zh/cross-chain-transfers/widget-integration/): Auto-synced content
 - [通过 Kava 提取 USDT（Gonka → 以太坊）](/gonka/docs/zh/cross-chain-transfers/ibc/withdraw-usdt-via-kava/): Auto-synced content
 - [地址与密钥](/gonka/docs/zh/cross-chain-transfers/ethereum-bridge/addresses-and-keys/): Auto-synced content
@@ -156,10 +139,27 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [将 Gonka 网络添加到 Keplr 与 Leap 钱包](/gonka/docs/zh/wallet/external_wallets/): Auto-synced content
 - [定价](/gonka/docs/zh/wallet/pricing/): Auto-synced content
 - [钱包与转账指南](/gonka/docs/zh/wallet/wallet-and-transfer-guide/): Auto-synced content
+- [运行你自己的网关](/gonka/docs/zh/developer/gateway-developer-quickstart/): Auto-synced content
+- [开发者快速入门](/gonka/docs/zh/developer/quickstart/): Auto-synced content
 - [如何在Gonka上创建并提交治理提案](/gonka/docs/zh/governance/creating-proposals/): Auto-synced content
 - [交易与治理](/gonka/docs/zh/governance/transactions-and-governance/): Auto-synced content
 - [提案投票](/gonka/docs/zh/governance/voting-on-proposals/): Auto-synced content
 - [投票权、创世守护者和委托](/gonka/docs/zh/governance/voting-power-eligibility/): Auto-synced content
+- [Benchmark to Choose Optimal Deployment Config for LLMs](/gonka/docs/host/benchmark-to-choose-optimal-deployment-config-for-llms/): Auto-synced content
+- [Gonka Genesis Ceremony](/gonka/docs/host/genesis/): Auto-synced content
+- [How to edit Host public info](/gonka/docs/host/host_info/): Auto-synced content
+- [Kimi K2.6 Bootstrap](/gonka/docs/host/kimi-bootstrap/): Auto-synced content
+- [MiniMax-M2.7 Bootstrap](/gonka/docs/host/minimax-bootstrap/): Auto-synced content
+- [Multiple nodes](/gonka/docs/host/multiple-nodes/): Auto-synced content
+- [[Optional] SSL Setup](/gonka/docs/host/optional-ssl-setup/): Auto-synced content
+- [Proposals](/gonka/docs/host/proposals/): Auto-synced content
+- [Addresses and keys](/gonka/docs/cross-chain-transfers/ethereum-bridge/addresses-and-keys/): Auto-synced content
+- [Bridge epoch update](/gonka/docs/cross-chain-transfers/ethereum-bridge/bridge-epoch-update/): Auto-synced content
+- [Bridge via dashboard (UI guide)](/gonka/docs/cross-chain-transfers/ethereum-bridge/dashboard/): Auto-synced content
+- [Multisig signer guide](/gonka/docs/cross-chain-transfers/ethereum-bridge/multisig-signer-guide/): Auto-synced content
+- [Ethereum bridge overview](/gonka/docs/cross-chain-transfers/ethereum-bridge/overview/): Auto-synced content
+- [Register a bridge token](/gonka/docs/cross-chain-transfers/ethereum-bridge/register-token/): Auto-synced content
+- [Dashboard & tracker integration](/gonka/docs/cross-chain-transfers/ethereum-bridge/tracker-integration/): Auto-synced content
 - [Wallet & Transfer Guide](/gonka/docs/wallet/wallet-and-transfer-guide/): Auto-synced content
 
 ## Community Documentation
