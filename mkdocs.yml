@@ -23,15 +23,15 @@ not_in_nav: |
 
 nav:
   - Главная: index.md
-  - Gonka: "/gonka/docs/"
-  - Обсуждения:
+  - Gonka.ai/docs: "/gonka/docs/"
+  - Discussions:
     - Обзор: gonka/discussion/index.md
     - Announcements: gonka/discussion/announcements/index.md
     - General: gonka/discussion/general/index.md
     - Proposals: gonka/discussion/proposals/index.md
     - Q&A: gonka/discussion/q-a/index.md
     - Show and Tell: gonka/discussion/show-and-tell/index.md
-  - Сообщество:
+  - Community:
     - Обзор: community/README.md
     - Дорожная карта: community/roadmap/gonka-network-development-roadmap.md
     - GRC: community/grc/README.md
