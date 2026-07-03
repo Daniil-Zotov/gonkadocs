@@ -1,61 +1,60 @@
 # gonkadocs.com
 
-Единый портал документации [Gonka](https://gonka.ai) — децентрализованной сети для AI-инференса с консенсусом Proof of Compute.
+Unified documentation portal for [Gonka](https://gonka.ai) — a decentralized AI inference network with Proof of Compute consensus.
 
 **URL:** [gonkadocs.com](https://gonkadocs.com)
 
 ---
 
-## Что содержит портал
+## Portal Structure
 
-### Официальная документация протокола (`/gonka/docs/`)
-Автосинхронизируется из [gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs) каждые 6 часов.
+### Protocol Documentation (`/gonka/docs/`)
+Auto-synced from [gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs) every 6 hours.
 
-- **Архитектура** — потоки инференса, Proof of Compute, эпохи
-- **Developer Quickstart** — инференс через брокеров (OpenAI-совместимый API)
-- **Gateway Quickstart** — собственный gateway (Docker)
-- **Host Quickstart** — подключение GPU-ресурсов
-- **Wallet** — аккаунты, дашборд, тарифы
-- **Cross-Chain** — Ethereum bridge (USDT/GNK), IBC через Kava
-- **Governance** — голосование, предложения, транзакции
-- Языки: English, 中文
+- **Architecture** — inference flows, Proof of Compute, epochs
+- **Developer Quickstart** — inference via brokers (OpenAI-compatible API)
+- **Gateway Quickstart** — custom gateway (Docker)
+- **Host Quickstart** — GPU resource connection
+- **Wallet** — accounts, dashboard, pricing
+- **Cross-Chain** — Ethereum bridge (USDT/GNK), IBC via Kava
+- **Governance** — voting, proposals, transactions
+- Languages: English, 中文
 
-### GitHub Discussions (`/gonka/discussion/`)
-Автосинхронизируются из [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions) каждые 6 часов.
+### GitHub Discussions (`/community/discussion/`)
+Auto-synced from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions) every 6 hours.
 
-- **Proposals** (42) — технические и финансовые предложения
-- **Show and Tell** (20) — проекты сообщества
-- **Q&A** (3) — лучшие практики, технические вопросы
-- **General** (5) — надёжность сети, governance
+- **Proposals** — technical and funding proposals
+- **Show and Tell** — community projects
+- **Q&A** — best practices, technical questions
+- **General** — network reliability, governance
 
-### Сообщество (`/community/`)
-- **Дорожная карта** — трёхгоризонтная стратегия развития
-- **GRC** — комитет реституции (компенсации за баги протокола)
-- **GSC** — комитет саморегулирования
+### Community (`/community/`)
+- **Roadmap** — three-horizon development strategy
+- **GRC** — restitution committee (bug compensation)
+- **GSC** — self-regulation committee
 
 ### On-Chain Proposals (`/proposals/`)
-Дашборд всех 75 governance-предложений со статусами и описаниями.
+Dashboard of all governance proposals with statuses and descriptions.
 
 ---
 
-## AI-интеграция
+## AI Integration
 
-Портал спроектирован как единый источник информации для AI-агентов.
+Portal designed as a single source of truth for AI agents.
 
-### Стандартные файлы
+### Standard Files
 
-| URL | Описание |
-|-----|----------|
-| [`/llms.txt`](https://gonkadocs.com/llms.txt) | Точка входа для AI: описание проекта, ссылки на разделы, ключевые концепции |
-| [`/llms-full.txt`](https://gonkadocs.com/llms-full.txt) | Все документы в одном файле (818 KB), оптимизировано для context window |
-| [`/robots.txt`](https://gonkadocs.com/robots.txt) | Разрешение для GPTBot, ClaudeBot, Google-Extended |
-| [`/openapi.yaml`](https://gonkadocs.com/openapi.yaml) | OpenAPI 3.0 спецификация inference API |
-| [`/search/search_index.json`](https://gonkadocs.com/search/search_index.json) | Поисковый индекс (Lunr.js), доступен программно |
-| [`/sitemap.xml`](https://gonkadocs.com/sitemap.xml) | Полная карта сайта |
+| URL | Description |
+|-----|-------------|
+| [`/llms.txt`](https://gonkadocs.com/llms.txt) | AI entry point: project overview, section links, key concepts |
+| [`/llms-full.txt`](https://gonkadocs.com/llms-full.txt) | All docs in one file (~800 KB), optimized for context window |
+| [`/robots.txt`](https://gonkadocs.com/robots.txt) | Permissions for GPTBot, ClaudeBot, Google-Extended |
+| [`/openapi.yaml`](https://gonkadocs.com/openapi.yaml) | OpenAPI 3.0 specification for inference API |
+| [`/sitemap.xml`](https://gonkadocs.com/sitemap.xml) | Full sitemap |
 
-### MCP-сервер
+### MCP Server
 
-Для AI-агентов (Cline, opencode, Claude) доступен MCP-сервер с инструментами:
+Available for AI agents (Cline, opencode, Claude):
 
 ```json
 {
@@ -68,117 +67,121 @@
 }
 ```
 
-Инструменты:
-- `search_gonka_docs(query)` — поиск по документации
-- `read_gonka_page(url)` — чтение конкретной страницы
-- `list_gonka_sections()` — список всех разделов
-- `read_gonka_llms_full()` — полный контекст
-- `read_gonka_proposal(id)` — чтение governance-предложения
+Tools:
+- `search_gonka_docs(query)` — search documentation
+- `read_gonka_page(url)` — read specific page
+- `list_gonka_sections()` — list all sections
+- `read_gonka_llms_full()` — full context
+- `read_gonka_proposal(id)` — read governance proposal
 
-### .md версии страниц
+### Page-MD Versions
 
-Каждая страница доступна в markdown по URL с `.html.md`:
+Each page available as markdown via `.html.md` URL:
 ```
 /gonka/docs/architecture/index.html  →  /gonka/docs/architecture/index.html.md
 ```
 
 ---
 
-## Архитектура сборки
+## Build Architecture
 
-Сайт состоит из двух независимых сборок MkDocs, объединённых в `_site/`:
+Site consists of two independent MkDocs builds merged into `_site/`:
 
 ```
 buildtools/build.sh
     │
-    ├──► [0] generate-llms.py + generate-llms-full.py
-    │       Динамическое сканирование docs/ → AI-файлы
+    ├──► [1] generate-llms-full.py
+    │       Dynamic scanning of docs/ → llms-full.txt
     │
-    ├──► [1] mkdocs build (основной сайт)
-    │       Главная + Discussions + Community + Proposals
+    ├──► [2] mkdocs build (main site)
+    │       Homepage + Community + Proposals
     │
-    ├──► [2] mkdocs build (раздел Gonka)
-    │       Оригинальный mkdocs.yml из gonka-ai/gonka-docs
-    │       i18n: en + zh, кастомные overrides
+    ├──► [3] mkdocs build (Gonka section)
+    │       Original mkdocs.yml from gonka-ai/gonka-docs
+    │       i18n: en + zh, custom overrides
     │
-    ├──► [3] Пост-обработка
-    │       Исправление путей к изображениям
-    │       Language switcher (LINK_EN/LINK_ZH → реальные пути)
+    ├──► [4] Post-processing
+    │       Fix image paths
+    │       Language switcher (LINK_EN/LINK_ZH → real paths)
     │
-    └──► [4] generate-page-md.py
-            Генерация .html.md копий всех страниц
+    └──► [5] generate-llms.py + generate-page-md.py
+            Generate llms.txt and .html.md page copies
 ```
 
 ---
 
-## Автосинхронизация
+## Auto-Sync
 
-4 GitHub Actionsworkflow автоматически обновляют контент и AI-файлы:
+4 GitHub Actions workflows automatically update content and AI files:
 
-| Workflow | Источник | Интервал | Что синхронизирует |
-|----------|----------|----------|-------------------|
-| `sync-gonka-ai-docs.yml` | gonka-ai/gonka-docs | каждые 6ч | Документацию протокола |
-| `sync-discussions.yml` | gonka-ai/gonka (GraphQL) | каждые 6ч | GitHub Discussions |
-| `sync-gdocs.yml` | Google Docs | каждые 6ч | Регламент GSC |
-| `sync-roadmap.yml` | gonka-ai/gonka | каждые 24ч | Дорожную карту |
+| Workflow | Source | Interval | Syncs |
+|----------|--------|----------|-------|
+| `sync-gonka-ai-docs.yml` | gonka-ai/gonka-docs | every 6h | Protocol documentation |
+| `sync-discussions.yml` | gonka-ai/gonka (GraphQL) | every 6h | GitHub Discussions |
+| `sync-gdocs.yml` | Google Docs | every 6h | GSC regulation |
+| `sync-roadmap.yml` | gonka-ai/gonka | every 24h | Roadmap |
 
-Каждый sync-экшен автоматически перегенерирует `llms.txt` и `llms-full.txt` после обновления контента.
+Each sync workflow automatically regenerates `llms.txt` and `llms-full.txt` after content updates.
 
 ---
 
-## Локальная разработка
+## Local Development
 
 ```bash
-# Установка зависимостей
+# Install dependencies
 pip install mkdocs mkdocs-material pymdown-extensions
 
-# Сборка сайта
+# Build site
 bash buildtools/build.sh
 
-# Локальный просмотр
+# Local preview
 bash buildtools/serve.sh
 ```
 
 ---
 
-## Структура репозитория
+## Repository Structure
 
 ```
 gonkadocs/
-├── mkdocs.yml                    # Конфиг MkDocs (основной сайт)
+├── mkdocs.yml                    # MkDocs config (main site)
 ├── buildtools/
-│   ├── build.sh                  # Скрипт сборки
-│   ├── serve.sh                  # Локальный сервер
-│   ├── generate-llms.py          # Генерация llms.txt
-│   ├── generate-llms-full.py     # Генерация llms-full.txt
-│   ├── generate-page-md.py       # Генерация .html.md копий
-│   ├── mcp-server.py             # MCP-сервер для AI-агентов
-│   └── gonka-overrides/          # Shared header для Gonka секции
+│   ├── build.sh                  # Build script
+│   ├── serve.sh                  # Local server
+│   ├── generate-llms.py          # Generate llms.txt
+│   ├── generate-llms-full.py     # Generate llms-full.txt
+│   ├── generate-page-md.py       # Generate .html.md copies
+│   ├── mcp-server.py             # MCP server for AI agents
+│   └── gonka-overrides/          # Shared header for Gonka section
 ├── docs/
-│   ├── llms.txt                  # AI точка входа
-│   ├── llms-full.txt             # Полная документация
-│   ├── robots.txt                # Для AI-краулеров
-│   ├── openapi.yaml              # API спецификация
-│   ├── index.md                  # Главная
+│   ├── llms.txt                  # AI entry point
+│   ├── llms-full.txt             # Full documentation
+│   ├── robots.txt                # AI crawler permissions
+│   ├── openapi.yaml              # API specification
+│   ├── index.md                  # Homepage
+│   ├── overrides/                # MkDocs Material overrides
+│   ├── stylesheets/
+│   │   └── github.css            # GitHub Primer theme
 │   ├── gonka/
-│   │   ├── docs/                 # Документация протокола (synced)
+│   │   ├── docs/                 # Protocol documentation (synced)
 │   │   └── discussion/           # GitHub Discussions (synced)
 │   ├── community/
-│   │   ├── roadmap/              # Дорожная карта (synced)
-│   │   ├── grc/                  # Комитет реституции
-│   │   └── gsc/                  # Комитет саморегулирования (synced)
+│   │   ├── discussion/           # Discussions (synced)
+│   │   ├── roadmap/              # Roadmap (synced)
+│   │   ├── grc/                  # Restitution committee
+│   │   └── gsc/                  # Self-regulation committee (synced)
 │   └── proposals/                # On-chain proposals
-├── mcp.json                      # Конфиг MCP-сервера
+├── mcp.json                      # MCP server config
 └── .github/workflows/
-    ├── deploy-docs.yml           # Деплой на GitHub Pages
-    ├── sync-gonka-ai-docs.yml    # Синхронизация документации
-    ├── sync-discussions.yml      # Синхронизация discussions
-    ├── sync-gdocs.yml            # Синхронизация Google Docs
-    └── sync-roadmap.yml          # Синхронизация дорожной карты
+    ├── deploy-docs.yml           # Deploy to GitHub Pages
+    ├── sync-gonka-ai-docs.yml    # Sync documentation
+    ├── sync-discussions.yml      # Sync discussions
+    ├── sync-gdocs.yml            # Sync Google Docs
+    └── sync-roadmap.yml          # Sync roadmap
 ```
 
 ---
 
-## Лицензия
+## License
 
-Документация распространяется по лицензии протокола Gonka. См. `docs/gonka/docs/docs/protocol-license.pdf`.
+Documentation distributed under the Gonka protocol license. See `docs/gonka/docs/docs/protocol-license.pdf`.
