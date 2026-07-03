@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block header %}
+  {{ super() }}
+  <script>
+    document$.subscribe(function() {
+      var title = document.querySelector('.md-header__title');
+      if (title && !title.querySelector('a')) {
+        var a = document.createElement('a');
+        a.href = '/';
+        a.style.textDecoration = 'none';
+        a.innerHTML = title.innerHTML;
+        title.innerHTML = '';
+        title.appendChild(a);
+      }
+    });
+  </script>
+{% endblock %}
