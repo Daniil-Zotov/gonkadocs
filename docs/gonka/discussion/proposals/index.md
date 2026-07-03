@@ -4,12 +4,13 @@ title: ":bulb: Proposals"
 
 # :bulb: Proposals
 
-Дискуссии в категории **:bulb: Proposals**. Всего: **42**. Обновлено: `2026-07-02 19:53 UTC`.
+Дискуссии в категории **:bulb: Proposals**. Всего: **43**. Обновлено: `2026-07-03 04:10 UTC`.
 
 [← ко всем категориям](../index.md)
 
 | # | Заголовок | Автор | Обновлено |
 |---:|---|---|---|
+| [1388](1388-external-test-lab-community-devnet.md) | [External Test Lab & Community DevNet](1388-external-test-lab-community-devnet.md) | [@paranjko](https://github.com/paranjko) | 2026-07-02 |
 | [1384](1384-devshard-cpoc-skip-protocol.md) | [`devshard` cPoC skip protocol](1384-devshard-cpoc-skip-protocol.md) | [@akup](https://github.com/akup) | 2026-07-01 |
 | [1369](1369-finalization-protocol-proposal-host-initiated-collectors-com.md) | [Finalization protocol proposal (host-initiated, collectors, commit certificate)](1369-finalization-protocol-proposal-host-initiated-collectors-com.md) | [@akup](https://github.com/akup) | 2026-07-01 |
 | [1367](1367-high-availability-architecture.md) | [High-Availability Architecture](1367-high-availability-architecture.md) | [@a-kuprin](https://github.com/a-kuprin) | 2026-06-28 |

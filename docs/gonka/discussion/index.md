@@ -4,7 +4,7 @@ title: "GitHub Discussions"
 
 # GitHub Discussions — `gonka-ai/gonka`
 
-Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **71**. Обновлено: `2026-07-02 19:53 UTC`.
+Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **72**. Обновлено: `2026-07-03 04:10 UTC`.
 
 ## 📂 Категории
 
@@ -12,7 +12,7 @@ title: "GitHub Discussions"
 |---|---:|
 | [:mega: Announcements](announcements/index.md) | 1 |
 | [:speech_balloon: General](general/index.md) | 5 |
-| [:bulb: Proposals](proposals/index.md) | 42 |
+| [:bulb: Proposals](proposals/index.md) | 43 |
 | [:pray: Q&A](q-a/index.md) | 3 |
 | [:raised_hands: Show and Tell](show-and-tell/index.md) | 20 |
 
@@ -20,6 +20,7 @@ title: "GitHub Discussions"
 
 | # | Заголовок | Категория | Автор | Обновлено |
 |---:|---|---|---|---|
+| [1388](proposals/1388-external-test-lab-community-devnet.md) | [External Test Lab & Community DevNet](proposals/1388-external-test-lab-community-devnet.md) | :bulb: Proposals | [@paranjko](https://github.com/paranjko) | 2026-07-02 |
 | [1340](proposals/1340-devshard-height-sync-protocol.md) | [`devshard` Height-sync protocol](proposals/1340-devshard-height-sync-protocol.md) | :bulb: Proposals | [@alexanderkuprin](https://github.com/alexanderkuprin) | 2026-07-02 |
 | [1384](proposals/1384-devshard-cpoc-skip-protocol.md) | [`devshard` cPoC skip protocol](proposals/1384-devshard-cpoc-skip-protocol.md) | :bulb: Proposals | [@akup](https://github.com/akup) | 2026-07-01 |
 | [1369](proposals/1369-finalization-protocol-proposal-host-initiated-collectors-com.md) | [Finalization protocol proposal (host-initiated, collectors, commit certificate)](proposals/1369-finalization-protocol-proposal-host-initiated-collectors-com.md) | :bulb: Proposals | [@akup](https://github.com/akup) | 2026-07-01 |
@@ -39,4 +40,3 @@ title: "GitHub Discussions"
 | [1185](proposals/1185-public-review-gonka-network-development-roadmap.md) | [[Public Review] Gonka Network Development Roadmap](proposals/1185-public-review-gonka-network-development-roadmap.md) | :bulb: Proposals | [@paranjko](https://github.com/paranjko) | 2026-05-27 |
 | [1256](proposals/1256-devshard-cpoc-skip-protocol.md) | [`devshard` cPoC skip protocol](proposals/1256-devshard-cpoc-skip-protocol.md) | :bulb: Proposals | [@akup](https://github.com/akup) | 2026-05-26 |
 | [1244](proposals/1244-devshard-technical-height-sync-protocol.md) | [`devshard` `technical` Height-sync protocol](proposals/1244-devshard-technical-height-sync-protocol.md) | :bulb: Proposals | [@akup](https://github.com/akup) | 2026-05-25 |
-| [1243](proposals/1243-project-funding-governance-and-management.md) | [Project funding governance and management](proposals/1243-project-funding-governance-and-management.md) | :bulb: Proposals | [@a-kuprin](https://github.com/a-kuprin) | 2026-05-25 |
