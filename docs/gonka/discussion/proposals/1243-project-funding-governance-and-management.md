@@ -3,7 +3,7 @@ title: "#1243 — Project funding governance and management"
 source: https://github.com/gonka-ai/gonka/discussions/1243
 discussion_number: 1243
 category: proposals
-synced_at: 2026-07-03T04:09:49Z
+synced_at: 2026-07-03T09:35:18Z
 ---
 
 > 🔄 **Авто-синхронизация:** из [Discussion #1243](https://github.com/gonka-ai/gonka/discussions/1243) каждые 6 часов. 
