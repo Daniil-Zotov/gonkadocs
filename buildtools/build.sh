@@ -195,9 +195,18 @@ if os.path.exists(gonka_index_path):
     added = 0
     for doc in gonka_index.get("docs", []):
         loc = doc.get("location", "")
-        if loc not in main_locs:
+        # Add gonka/docs/ prefix to relative paths
+        if loc and not loc.startswith("/") and not loc.startswith("http"):
+            new_loc = f"gonka/docs/{loc}"
+        elif loc == "":
+            new_loc = "gonka/docs/"
+        else:
+            new_loc = loc
+        
+        if new_loc not in main_locs:
+            doc["location"] = new_loc
             main_docs.append(doc)
-            main_locs.add(loc)
+            main_locs.add(new_loc)
             added += 1
     
     main_index["docs"] = main_docs
