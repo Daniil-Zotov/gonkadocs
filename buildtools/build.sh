@@ -21,15 +21,15 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 SITE_DIR="$ROOT/_site"
 
-echo "==> [0/4] Генерация llms.txt и llms-full.txt для AI-агентов"
+echo "==> [0/5] Генерация llms.txt и llms-full.txt для AI-агентов"
 python3 "$ROOT/buildtools/generate-llms.py"
 python3 "$ROOT/buildtools/generate-llms-full.py"
 
-echo "==> [1/4] Сборка основного сайта -> $SITE_DIR"
+echo "==> [1/5] Сборка основного сайта -> $SITE_DIR"
 cd "$ROOT"
 python3 -m mkdocs build --clean --site-dir "$SITE_DIR"
 
-echo "==> [2/4] Сборка раздела Gonka (родной конфиг оригинала, i18n en+zh) -> $SITE_DIR/gonka/docs"
+echo "==> [2/5] Сборка раздела Gonka (родной конфиг оригинала, i18n en+zh) -> $SITE_DIR/gonka/docs"
 cd "$ROOT/docs/gonka/docs"
 
 # В оригинале docs/index.md — это ЛЕНДИНГ gonka.ai (template home.html), а не
@@ -110,7 +110,7 @@ rm -f "$SITE_DIR/gonka/docs/CNAME"
 # Используем Python-скрипт, который вычисляет правильный префикс "../"
 # для каждого HTML-файла в зависимости от его пути.
 # -----------------------------------------------------------------------
-echo "==> [3/4] Пост-обработка: исправление путей к изображениям (/images/ -> ..N/images/)"
+echo "==> [3/5] Пост-обработка: исправление путей к изображениям (/images/ -> ..N/images/)"
 echo "==> [пост-обработка] Исправление language switcher (LINK_EN/LINK_ZH -> реальные пути)"
 python3 - "$SITE_DIR/gonka/docs" <<'PYEOF'
 import os, re, sys
@@ -170,7 +170,47 @@ for dirpath, _, filenames in os.walk(docs_root):
                 f.write(content)
 PYEOF
 
-echo "==> [4/4] Генерация .md копий страниц для AI-агентов (llms.txt standard)"
+echo "==> [4/5] Объединение поисковых индексов (main + gonka/docs)"
+python3 - "$SITE_DIR" <<'PYEOF'
+import json, os, sys
+
+site_root = sys.argv[1]
+main_index_path = os.path.join(site_root, "search", "search_index.json")
+gonka_index_path = os.path.join(site_root, "gonka", "docs", "search", "search_index.json")
+
+if not os.path.exists(main_index_path):
+    print("  Main search index not found, skipping merge")
+    sys.exit(0)
+
+with open(main_index_path, "r", encoding="utf-8") as f:
+    main_index = json.load(f)
+
+main_docs = main_index.get("docs", [])
+main_locs = {d.get("location") for d in main_docs}
+
+if os.path.exists(gonka_index_path):
+    with open(gonka_index_path, "r", encoding="utf-8") as f:
+        gonka_index = json.load(f)
+    
+    added = 0
+    for doc in gonka_index.get("docs", []):
+        loc = doc.get("location", "")
+        if loc not in main_locs:
+            main_docs.append(doc)
+            main_locs.add(loc)
+            added += 1
+    
+    main_index["docs"] = main_docs
+    
+    with open(main_index_path, "w", encoding="utf-8") as f:
+        json.dump(main_index, f, ensure_ascii=False)
+    
+    print(f"  Merged {added} gonka docs into main search index (total: {len(main_docs)})")
+else:
+    print("  Gonka search index not found, skipping merge")
+PYEOF
+
+echo "==> [5/5] Генерация .md копий страниц для AI-агентов (llms.txt standard)"
 python3 "$ROOT/buildtools/generate-page-md.py" "$SITE_DIR"
 
 echo "==> Готово. Артефакт: $SITE_DIR"
