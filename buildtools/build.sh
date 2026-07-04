@@ -21,15 +21,15 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 SITE_DIR="$ROOT/_site"
 
-echo "==> [0/5] Генерация llms.txt и llms-full.txt для AI-агентов"
+echo "==> [0/7] Генерация llms.txt и llms-full.txt для AI-агентов"
 python3 "$ROOT/buildtools/generate-llms.py"
 python3 "$ROOT/buildtools/generate-llms-full.py"
 
-echo "==> [1/5] Сборка основного сайта -> $SITE_DIR"
+echo "==> [1/7] Сборка основного сайта -> $SITE_DIR"
 cd "$ROOT"
 python3 -m mkdocs build --clean --site-dir "$SITE_DIR"
 
-echo "==> [2/5] Сборка раздела Gonka (родной конфиг оригинала, i18n en+zh) -> $SITE_DIR/gonka/docs"
+echo "==> [2/7] Сборка раздела Gonka (родной конфиг оригинала, i18n en+zh) -> $SITE_DIR/gonka/docs"
 cd "$ROOT/docs/gonka/docs"
 
 # В оригинале docs/index.md — это ЛЕНДИНГ gonka.ai (template home.html), а не
@@ -110,7 +110,7 @@ rm -f "$SITE_DIR/gonka/docs/CNAME"
 # Используем Python-скрипт, который вычисляет правильный префикс "../"
 # для каждого HTML-файла в зависимости от его пути.
 # -----------------------------------------------------------------------
-echo "==> [3/5] Пост-обработка: исправление путей к изображениям (/images/ -> ..N/images/)"
+echo "==> [3/7] Пост-обработка: исправление путей к изображениям (/images/ -> ..N/images/)"
 echo "==> [пост-обработка] Исправление language switcher (LINK_EN/LINK_ZH -> реальные пути)"
 python3 - "$SITE_DIR/gonka/docs" <<'PYEOF'
 import os, re, sys
@@ -170,7 +170,7 @@ for dirpath, _, filenames in os.walk(docs_root):
                 f.write(content)
 PYEOF
 
-echo "==> [4/5] Объединение поисковых индексов (main + gonka/docs)"
+echo "==> [4/7] Объединение поисковых индексов (main + gonka/docs)"
 python3 - "$SITE_DIR" <<'PYEOF'
 import json, os, sys
 
@@ -219,7 +219,66 @@ else:
     print("  Gonka search index not found, skipping merge")
 PYEOF
 
-echo "==> [5/5] Генерация .md копий страниц для AI-агентов (llms.txt standard)"
+echo "==> [5/7] Генерация .md копий страниц для AI-агентов (llms.txt standard)"
 python3 "$ROOT/buildtools/generate-page-md.py" "$SITE_DIR"
 
-echo "==> Готово. Артефакт: $SITE_DIR"
+echo "==> [6/7] Объединение sitemap.xml (main + gonka/docs)"
+python3 - "$SITE_DIR" <<'PYEOF'
+import os, re, sys
+
+site_root = sys.argv[1]
+main_sitemap = os.path.join(site_root, "sitemap.xml")
+gonka_sitemap = os.path.join(site_root, "gonka", "docs", "sitemap.xml")
+
+if not os.path.exists(main_sitemap):
+    print("  Main sitemap.xml not found, skipping merge")
+    sys.exit(0)
+
+if not os.path.exists(gonka_sitemap):
+    print("  Gonka sitemap.xml not found, skipping merge")
+    sys.exit(0)
+
+with open(main_sitemap, "r", encoding="utf-8") as f:
+    main_content = f.read()
+
+with open(gonka_sitemap, "r", encoding="utf-8") as f:
+    gonka_content = f.read()
+
+# Extract <url> entries from gonka sitemap (skip xmlns declarations)
+gonka_urls = re.findall(r'(<url>.*?</url>)', gonka_content, re.DOTALL)
+
+# Extract existing <loc> from main sitemap to avoid duplicates
+existing_locs = set(re.findall(r'<loc>(.*?)</loc>', main_content))
+
+added = 0
+new_entries = []
+for url_block in gonka_urls:
+    loc_match = re.search(r'<loc>(.*?)</loc>', url_block)
+    if loc_match:
+        loc = loc_match.group(1)
+        if loc not in existing_locs:
+            # Simplify: use <loc> and <lastmod> only (drop xhtml:link, changefreq)
+            lastmod_match = re.search(r'<lastmod>(.*?)</lastmod>', url_block)
+            lastmod = lastmod_match.group(1) if lastmod_match else "2026-07-04"
+            new_entries.append(f'    <url>\n         <loc>{loc}</loc>\n         <lastmod>{lastmod}</lastmod>\n    </url>')
+            existing_locs.add(loc)
+            added += 1
+
+if new_entries:
+    # Insert before closing </urlset>
+    insert_before = '</urlset>'
+    new_urls = '\n'.join(new_entries)
+    main_content = main_content.replace(insert_before, f'{new_urls}\n{insert_before}')
+    
+    with open(main_sitemap, "r+", encoding="utf-8") as f:
+        f.write(main_content)
+    
+    print(f"  Merged {added} gonka URLs into main sitemap (total: {len(existing_locs)})")
+else:
+    print("  No new gonka URLs to merge")
+PYEOF
+
+echo "==> [7/7] Копирование robots.txt и llms.txt в _site"
+cp "$ROOT/docs/robots.txt" "$SITE_DIR/robots.txt"
+cp "$ROOT/docs/llms.txt" "$SITE_DIR/llms.txt"
+cp "$ROOT/docs/llms-full.txt" "$SITE_DIR/llms-full.txt"
