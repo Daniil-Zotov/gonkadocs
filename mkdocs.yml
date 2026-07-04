@@ -26,6 +26,9 @@ nav:
   - Gonka.ai/docs: "/gonka/docs/"
   - Community:
     - Обзор: community/README.md
+    - Дорожная карта: community/roadmap/gonka-network-development-roadmap.md
+    - GRC: community/grc/README.md
+    - GSC: community/gsc/regulation.md
     - Discussions:
       - Обзор: community/discussion/index.md
       - Announcements: community/discussion/announcements/index.md
@@ -33,10 +36,8 @@ nav:
       - Proposals: community/discussion/proposals/index.md
       - Q&A: community/discussion/q-a/index.md
       - Show and Tell: community/discussion/show-and-tell/index.md
-    - Дорожная карта: community/roadmap/gonka-network-development-roadmap.md
-    - GRC: community/grc/README.md
-    - GSC: community/gsc/regulation.md
   - Proposals: proposals/README.md
+  - For Agents: agents.md
 
 theme:
   name: material
