@@ -93,6 +93,15 @@ SECTIONS = [
             ("README.md", "Proposals Dashboard", "Full table of 75 on-chain governance proposals"),
         ],
     },
+    {
+        "dir": "docs",
+        "heading": "## AI Agent Resources",
+        "url_prefix": "/",
+        "desc": "Machine-readable files and setup guides for AI agents",
+        "entries": [
+            ("agents.md", "For AI Agents", "How AI agents discover and use Gonka documentation — llms.txt, MCP server, setup guides"),
+        ],
+    },
 ]
 
 
