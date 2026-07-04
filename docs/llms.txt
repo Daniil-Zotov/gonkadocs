@@ -70,14 +70,6 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [Announcements](/gonka/docs/network-updates/): Auto-synced content
 - [Report a Vulnerability](/gonka/docs/report-vulnerability/): Auto-synced content
 - [Sign Up](/gonka/docs/signup/): Auto-synced content
-- [Benchmark to Choose Optimal Deployment Config for LLMs](/gonka/docs/host/benchmark-to-choose-optimal-deployment-config-for-llms/): Auto-synced content
-- [Gonka Genesis Ceremony](/gonka/docs/host/genesis/): Auto-synced content
-- [How to edit Host public info](/gonka/docs/host/host_info/): Auto-synced content
-- [Kimi K2.6 Bootstrap](/gonka/docs/host/kimi-bootstrap/): Auto-synced content
-- [MiniMax-M2.7 Bootstrap](/gonka/docs/host/minimax-bootstrap/): Auto-synced content
-- [Multiple nodes](/gonka/docs/host/multiple-nodes/): Auto-synced content
-- [[Optional] SSL Setup](/gonka/docs/host/optional-ssl-setup/): Auto-synced content
-- [Proposals](/gonka/docs/host/proposals/): Auto-synced content
 - [Redirecting to Host Benchmark](/gonka/docs/participant/benchmark-to-choose-optimal-deployment-config-for-llms/): Auto-synced content
 - [Redirecting to Host Genesis (New)](/gonka/docs/participant/genesis-new/): Auto-synced content
 - [Redirecting to Host Genesis](/gonka/docs/participant/genesis/): Auto-synced content
@@ -87,13 +79,6 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [Redirecting to Host Multiple Nodes](/gonka/docs/participant/multiple-nodes/): Auto-synced content
 - [Redirecting to Host Network Node API](/gonka/docs/participant/network-node-api/): Auto-synced content
 - [Redirecting to Host Quickstart](/gonka/docs/participant/quickstart/): Auto-synced content
-- [Addresses and keys](/gonka/docs/cross-chain-transfers/ethereum-bridge/addresses-and-keys/): Auto-synced content
-- [Bridge epoch update](/gonka/docs/cross-chain-transfers/ethereum-bridge/bridge-epoch-update/): Auto-synced content
-- [Bridge via dashboard (UI guide)](/gonka/docs/cross-chain-transfers/ethereum-bridge/dashboard/): Auto-synced content
-- [Multisig signer guide](/gonka/docs/cross-chain-transfers/ethereum-bridge/multisig-signer-guide/): Auto-synced content
-- [Ethereum bridge overview](/gonka/docs/cross-chain-transfers/ethereum-bridge/overview/): Auto-synced content
-- [Register a bridge token](/gonka/docs/cross-chain-transfers/ethereum-bridge/register-token/): Auto-synced content
-- [Dashboard & tracker integration](/gonka/docs/cross-chain-transfers/ethereum-bridge/tracker-integration/): Auto-synced content
 - [错误](/gonka/docs/zh/Errors/): Auto-synced content
 - [常见问题](/gonka/docs/zh/FAQ/): Auto-synced content
 - [Architecture](/gonka/docs/zh/architecture/): Auto-synced content
@@ -108,8 +93,15 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [报告漏洞](/gonka/docs/zh/report-vulnerability/): Auto-synced content
 - [注册](/gonka/docs/zh/signup/): Auto-synced content
 - [治理与交易（Cosmos SDK 0.53）](/gonka/docs/zh/transactions-and-governance/): Auto-synced content
-- [运行你自己的网关](/gonka/docs/zh/developer/gateway-developer-quickstart/): Auto-synced content
-- [开发者快速入门](/gonka/docs/zh/developer/quickstart/): Auto-synced content
+- [重定向到主机基准测试](/gonka/docs/zh/participant/benchmark-to-choose-optimal-deployment-config-for-llms/): Auto-synced content
+- [正在重定向到主机起源（新）](/gonka/docs/zh/participant/genesis-new/): Auto-synced content
+- [正在重定向到主机起源](/gonka/docs/zh/participant/genesis/): Auto-synced content
+- [正在重定向到主机硬件规格](/gonka/docs/zh/participant/hardware-specifications/): Auto-synced content
+- [正在重定向到主机密钥管理](/gonka/docs/zh/participant/key-management/): Auto-synced content
+- [重定向到主机多节点设置](/gonka/docs/zh/participant/multi-node-setup-for-review/): Auto-synced content
+- [重定向到托管多个节点](/gonka/docs/zh/participant/multiple-nodes/): Auto-synced content
+- [正在重定向到主机网络节点 API](/gonka/docs/zh/participant/network-node-api/): Auto-synced content
+- [正在重定向到主机快速入门](/gonka/docs/zh/participant/quickstart/): Auto-synced content
 - [LLM 最佳部署配置基准测试](/gonka/docs/zh/host/benchmark-to-choose-optimal-deployment-config-for-llms/): Auto-synced content
 - [抵押品机制](/gonka/docs/zh/host/collateral/): Auto-synced content
 - [Gonka 创世仪式](/gonka/docs/zh/host/genesis-new/): Auto-synced content
@@ -129,15 +121,6 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [配置您的链](/gonka/docs/zh/host/quickstart/): Auto-synced content
 - [奖励机制](/gonka/docs/zh/host/rewards/): Auto-synced content
 - [如何编辑验证者公开信息](/gonka/docs/zh/host/validator_info/): Auto-synced content
-- [重定向到主机基准测试](/gonka/docs/zh/participant/benchmark-to-choose-optimal-deployment-config-for-llms/): Auto-synced content
-- [正在重定向到主机起源（新）](/gonka/docs/zh/participant/genesis-new/): Auto-synced content
-- [正在重定向到主机起源](/gonka/docs/zh/participant/genesis/): Auto-synced content
-- [正在重定向到主机硬件规格](/gonka/docs/zh/participant/hardware-specifications/): Auto-synced content
-- [正在重定向到主机密钥管理](/gonka/docs/zh/participant/key-management/): Auto-synced content
-- [重定向到主机多节点设置](/gonka/docs/zh/participant/multi-node-setup-for-review/): Auto-synced content
-- [重定向到托管多个节点](/gonka/docs/zh/participant/multiple-nodes/): Auto-synced content
-- [正在重定向到主机网络节点 API](/gonka/docs/zh/participant/network-node-api/): Auto-synced content
-- [正在重定向到主机快速入门](/gonka/docs/zh/participant/quickstart/): Auto-synced content
 - [技术集成指南：兑换与跨链桥组件](/gonka/docs/zh/cross-chain-transfers/widget-integration/): Auto-synced content
 - [通过 Kava 提取 USDT（Gonka → 以太坊）](/gonka/docs/zh/cross-chain-transfers/ibc/withdraw-usdt-via-kava/): Auto-synced content
 - [地址与密钥](/gonka/docs/zh/cross-chain-transfers/ethereum-bridge/addresses-and-keys/): Auto-synced content
@@ -156,10 +139,27 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [将 Gonka 网络添加到 Keplr 与 Leap 钱包](/gonka/docs/zh/wallet/external_wallets/): Auto-synced content
 - [定价](/gonka/docs/zh/wallet/pricing/): Auto-synced content
 - [钱包与转账指南](/gonka/docs/zh/wallet/wallet-and-transfer-guide/): Auto-synced content
+- [运行你自己的网关](/gonka/docs/zh/developer/gateway-developer-quickstart/): Auto-synced content
+- [开发者快速入门](/gonka/docs/zh/developer/quickstart/): Auto-synced content
 - [如何在Gonka上创建并提交治理提案](/gonka/docs/zh/governance/creating-proposals/): Auto-synced content
 - [交易与治理](/gonka/docs/zh/governance/transactions-and-governance/): Auto-synced content
 - [提案投票](/gonka/docs/zh/governance/voting-on-proposals/): Auto-synced content
 - [投票权、创世守护者和委托](/gonka/docs/zh/governance/voting-power-eligibility/): Auto-synced content
+- [Benchmark to Choose Optimal Deployment Config for LLMs](/gonka/docs/host/benchmark-to-choose-optimal-deployment-config-for-llms/): Auto-synced content
+- [Gonka Genesis Ceremony](/gonka/docs/host/genesis/): Auto-synced content
+- [How to edit Host public info](/gonka/docs/host/host_info/): Auto-synced content
+- [Kimi K2.6 Bootstrap](/gonka/docs/host/kimi-bootstrap/): Auto-synced content
+- [MiniMax-M2.7 Bootstrap](/gonka/docs/host/minimax-bootstrap/): Auto-synced content
+- [Multiple nodes](/gonka/docs/host/multiple-nodes/): Auto-synced content
+- [[Optional] SSL Setup](/gonka/docs/host/optional-ssl-setup/): Auto-synced content
+- [Proposals](/gonka/docs/host/proposals/): Auto-synced content
+- [Addresses and keys](/gonka/docs/cross-chain-transfers/ethereum-bridge/addresses-and-keys/): Auto-synced content
+- [Bridge epoch update](/gonka/docs/cross-chain-transfers/ethereum-bridge/bridge-epoch-update/): Auto-synced content
+- [Bridge via dashboard (UI guide)](/gonka/docs/cross-chain-transfers/ethereum-bridge/dashboard/): Auto-synced content
+- [Multisig signer guide](/gonka/docs/cross-chain-transfers/ethereum-bridge/multisig-signer-guide/): Auto-synced content
+- [Ethereum bridge overview](/gonka/docs/cross-chain-transfers/ethereum-bridge/overview/): Auto-synced content
+- [Register a bridge token](/gonka/docs/cross-chain-transfers/ethereum-bridge/register-token/): Auto-synced content
+- [Dashboard & tracker integration](/gonka/docs/cross-chain-transfers/ethereum-bridge/tracker-integration/): Auto-synced content
 - [Wallet & Transfer Guide](/gonka/docs/wallet/wallet-and-transfer-guide/): Auto-synced content
 
 ## Community Documentation
@@ -170,12 +170,33 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 
 ### Additional Pages (auto-synced)
 
+- [🦞 OpenClaw + Gonka AI](/community/discussion/show-and-tell/0811-openclaw-gonka-ai/): Auto-synced content
+- [Prometheus Exporter for Node Monitoring](/community/discussion/show-and-tell/0840-prometheus-exporter-for-node-monitoring/): Auto-synced content
+- [Gonka Labs: How We're Building the Infrastructure for Gonka](/community/discussion/show-and-tell/0880-gonka-labs-how-were-building-the-infrastructure-for-gonka/): Auto-synced content
+- [Gonka.gg - Explorer, Analytics Platform, Data Provider for Gonka](/community/discussion/show-and-tell/0887-gonkagg-explorer-analytics-platform-data-provider-for-gonka/): Auto-synced content
+- [OpenGNK - A Local OpenAI-Compatible Proxy for Gonka](/community/discussion/show-and-tell/0890-opengnk-a-local-openai-compatible-proxy-for-gonka/): Auto-synced content
+- [Gonka Name Service (GNS) - Human Readable names for the Gonka Network](/community/discussion/show-and-tell/0898-gonka-name-service-gns-human-readable-names-for-the-gonka-ne/): Auto-synced content
+- [Gonka Tools: Web Interface for Validators and Mining Operations](/community/discussion/show-and-tell/0906-gonka-tools-web-interface-for-validators-and-mining-operatio/): Auto-synced content
+- [GG Wallet - An Open-Source Browser Wallet strictly for Gonka](/community/discussion/show-and-tell/0938-gg-wallet-an-open-source-browser-wallet-strictly-for-gonka/): Auto-synced content
+- [Gonka Contract Playground - write, compile, simulate, and deploy CosmWasm without leaving the browser](/community/discussion/show-and-tell/0989-gonka-contract-playground-write-compile-simulate-and-deploy-/): Auto-synced content
+- [Gonka AI x Claude Code](/community/discussion/show-and-tell/0999-gonka-ai-x-claude-code/): Auto-synced content
+- [Gonka AI x n8n](/community/discussion/show-and-tell/1027-gonka-ai-x-n8n/): Auto-synced content
+- [rpc.gonka.gg - Managed RPC Infrastructure for Gonka (Infura/Alchemy for Gonka) with opensource core](/community/discussion/show-and-tell/1030-rpcgonkagg-managed-rpc-infrastructure-for-gonka-infuraalchem/): Auto-synced content
+- [Gonka AI x OpenCode](/community/discussion/show-and-tell/1044-gonka-ai-x-opencode/): Auto-synced content
+- [Gonka AI x Kilo](/community/discussion/show-and-tell/1095-gonka-ai-x-kilo/): Auto-synced content
+- [HOW-TO: Create and Submit a Governance Proposal on Gonka](/community/discussion/show-and-tell/1116-how-to-create-and-submit-a-governance-proposal-on-gonka/): Auto-synced content
+- [IBC USDT Withdrawal Guide](/community/discussion/show-and-tell/1141-ibc-usdt-withdrawal-guide/): Auto-synced content
+- [Gonka x Hermes Agent](/community/discussion/show-and-tell/1323-gonka-x-hermes-agent/): Auto-synced content
+- [Gonka x MiMoCode](/community/discussion/show-and-tell/1339-gonka-x-mimocode/): Auto-synced content
+- [OpenBroker - broker for brokers or Devshards as a service.](/community/discussion/show-and-tell/1363-openbroker-broker-for-brokers-or-devshards-as-a-service/): Auto-synced content
+- [Gonka AI Dune Dashboard](/community/discussion/show-and-tell/1374-gonka-ai-dune-dashboard/): Auto-synced content
+- [How to return funds to the Community Pool (IBC USDT)](/community/discussion/show-and-tell/1390-how-to-return-funds-to-the-community-pool-ibc-usdt/): Auto-synced content
+- [Welcome to Gonka Discussions 👋](/community/discussion/announcements/0805-welcome-to-gonka-discussions/): Auto-synced content
 - [Kimi K2.5](/community/discussion/general/0670-kimi-k25/): Auto-synced content
 - [How can governance voting become easier for Hosts?](/community/discussion/general/0798-how-can-governance-voting-become-easier-for-hosts/): Auto-synced content
 - [Network reliability and performance coordination (slow nodes, DB growth, missed inference)](/community/discussion/general/0817-network-reliability-and-performance-coordination-slow-nodes-/): Auto-synced content
 - [Gonka's support of new modalities besides text](/community/discussion/general/0944-gonkas-support-of-new-modalities-besides-text/): Auto-synced content
 - [APS for delegated wallets and agent accounts (Track 2, Project 3)](/community/discussion/general/1304-aps-for-delegated-wallets-and-agent-accounts-track-2-project/): Auto-synced content
-- [Welcome to Gonka Discussions 👋](/community/discussion/announcements/0805-welcome-to-gonka-discussions/): Auto-synced content
 - [Are there plans to add prompt-level confidentiality for hosts?](/community/discussion/q-a/0796-are-there-plans-to-add-prompt-level-confidentiality-for-host/): Auto-synced content
 - [Best Practices for Building AI Agent Systems in 2026](/community/discussion/q-a/0972-best-practices-for-building-ai-agent-systems-in-2026/): Auto-synced content
 - [I would like to ask if the developers intentionally pushed inference data to the main chain, causing some nodes to lose their epoch rewards.](/community/discussion/q-a/1354-i-would-like-to-ask-if-the-developers-intentionally-pushed-i/): Auto-synced content
@@ -222,27 +243,6 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [Finalization protocol proposal (host-initiated, collectors, commit certificate)](/community/discussion/proposals/1369-finalization-protocol-proposal-host-initiated-collectors-com/): Auto-synced content
 - [`devshard` cPoC skip protocol](/community/discussion/proposals/1384-devshard-cpoc-skip-protocol/): Auto-synced content
 - [External Test Lab & Community DevNet](/community/discussion/proposals/1388-external-test-lab-community-devnet/): Auto-synced content
-- [🦞 OpenClaw + Gonka AI](/community/discussion/show-and-tell/0811-openclaw-gonka-ai/): Auto-synced content
-- [Prometheus Exporter for Node Monitoring](/community/discussion/show-and-tell/0840-prometheus-exporter-for-node-monitoring/): Auto-synced content
-- [Gonka Labs: How We're Building the Infrastructure for Gonka](/community/discussion/show-and-tell/0880-gonka-labs-how-were-building-the-infrastructure-for-gonka/): Auto-synced content
-- [Gonka.gg - Explorer, Analytics Platform, Data Provider for Gonka](/community/discussion/show-and-tell/0887-gonkagg-explorer-analytics-platform-data-provider-for-gonka/): Auto-synced content
-- [OpenGNK - A Local OpenAI-Compatible Proxy for Gonka](/community/discussion/show-and-tell/0890-opengnk-a-local-openai-compatible-proxy-for-gonka/): Auto-synced content
-- [Gonka Name Service (GNS) - Human Readable names for the Gonka Network](/community/discussion/show-and-tell/0898-gonka-name-service-gns-human-readable-names-for-the-gonka-ne/): Auto-synced content
-- [Gonka Tools: Web Interface for Validators and Mining Operations](/community/discussion/show-and-tell/0906-gonka-tools-web-interface-for-validators-and-mining-operatio/): Auto-synced content
-- [GG Wallet - An Open-Source Browser Wallet strictly for Gonka](/community/discussion/show-and-tell/0938-gg-wallet-an-open-source-browser-wallet-strictly-for-gonka/): Auto-synced content
-- [Gonka Contract Playground - write, compile, simulate, and deploy CosmWasm without leaving the browser](/community/discussion/show-and-tell/0989-gonka-contract-playground-write-compile-simulate-and-deploy-/): Auto-synced content
-- [Gonka AI x Claude Code](/community/discussion/show-and-tell/0999-gonka-ai-x-claude-code/): Auto-synced content
-- [Gonka AI x n8n](/community/discussion/show-and-tell/1027-gonka-ai-x-n8n/): Auto-synced content
-- [rpc.gonka.gg - Managed RPC Infrastructure for Gonka (Infura/Alchemy for Gonka) with opensource core](/community/discussion/show-and-tell/1030-rpcgonkagg-managed-rpc-infrastructure-for-gonka-infuraalchem/): Auto-synced content
-- [Gonka AI x OpenCode](/community/discussion/show-and-tell/1044-gonka-ai-x-opencode/): Auto-synced content
-- [Gonka AI x Kilo](/community/discussion/show-and-tell/1095-gonka-ai-x-kilo/): Auto-synced content
-- [HOW-TO: Create and Submit a Governance Proposal on Gonka](/community/discussion/show-and-tell/1116-how-to-create-and-submit-a-governance-proposal-on-gonka/): Auto-synced content
-- [IBC USDT Withdrawal Guide](/community/discussion/show-and-tell/1141-ibc-usdt-withdrawal-guide/): Auto-synced content
-- [Gonka x Hermes Agent](/community/discussion/show-and-tell/1323-gonka-x-hermes-agent/): Auto-synced content
-- [Gonka x MiMoCode](/community/discussion/show-and-tell/1339-gonka-x-mimocode/): Auto-synced content
-- [OpenBroker - broker for brokers or Devshards as a service.](/community/discussion/show-and-tell/1363-openbroker-broker-for-brokers-or-devshards-as-a-service/): Auto-synced content
-- [Gonka AI Dune Dashboard](/community/discussion/show-and-tell/1374-gonka-ai-dune-dashboard/): Auto-synced content
-- [How to return funds to the Community Pool (IBC USDT)](/community/discussion/show-and-tell/1390-how-to-return-funds-to-the-community-pool-ibc-usdt/): Auto-synced content
 
 ## On-Chain Proposals
 

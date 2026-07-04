@@ -762,16 +762,3 @@ body:has(.gonka-landing--doc) .md-content__inner > div{
   fill: var(--md-default-fg-color) !important;
 }
 
-/* == 10. Tabs — всегда видны на мобильных ========================== */
-.md-tabs {
-  display: block !important;
-  visibility: visible !important;
-}
-.md-tabs__list {
-  display: flex !important;
-  flex-wrap: wrap;
-}
-.md-tabs__item {
-  display: list-item !important;
-}
-
