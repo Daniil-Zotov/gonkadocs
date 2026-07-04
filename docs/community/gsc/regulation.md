@@ -1,6 +1,6 @@
 ---
 source: https://docs.google.com/document/d/1xPmMFoXhhVXeTTvGwQ_tGCcZJgIwViqok-H08yod_Pk/edit
-synced_at: 2026-07-04T02:53:48Z
+synced_at: 2026-07-04T08:36:42Z
 ---
 
 > 🔄 **Авто-синхронизация:** этот документ автоматически обновляется из [Google Docs](https://docs.google.com/document/d/1xPmMFoXhhVXeTTvGwQ_tGCcZJgIwViqok-H08yod_Pk/edit) каждые 6 часов. Прямые правки в репозитории будут перезаписаны.
