@@ -3,14 +3,14 @@ title: "#1363 — OpenBroker - broker for brokers or Devshards as a service."
 source: https://github.com/gonka-ai/gonka/discussions/1363
 discussion_number: 1363
 category: show-and-tell
-synced_at: 2026-07-04T13:59:13Z
+synced_at: 2026-07-04T19:38:01Z
 ---
 
 > 🔄 **Авто-синхронизация:** из [Discussion #1363](https://github.com/gonka-ai/gonka/discussions/1363) каждые 6 часов. 
 
 # OpenBroker - broker for brokers or Devshards as a service.
 
-**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-06-23 22:18 UTC · **Обновлено:** 2026-07-04 11:30 UTC
+**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-06-23 22:18 UTC · **Обновлено:** 2026-07-04 14:25 UTC
 
 ---
 
@@ -94,18 +94,3 @@ We've load-tested OpenBroker past **1,000,000,000 (1 billion) tokens in a single
 - **Gonka Labs:** [https://gonkalabs.com](https://gonkalabs.com)
 
 Would love feedback, feature requests, and bug reports. If you build something on top of OpenBroker, drop it in this thread 🙌
-
----
-
-## 💬 Комментарии (1)
-
-### Комментарий 1 — [@GERAunits](https://github.com/GERAunits)
-
-*2026-07-04 11:30 UTC*
-
-Tried to register and test OpenBroker, but ran into two issues right away:
-
-1. **HTTPS is broken** — `https://openbroker.gonka.gg` doesn't connect at all (transport error). Only HTTP works. For a service handling API keys and wallets, this is a red flag.
-2. **Registration fails** — after filling the form at `/register`, it throws: `"failed to send email"`. No confirmation email arrives, no account created.
-
-The concept sounds promising (managed escrows, no markup, v1+v2), but the onboarding is completely blocked right now. Any ETA on fixing these?
