@@ -248,6 +248,10 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 
 - [Proposals Dashboard](/proposals/README/): Full table of 75 on-chain governance proposals
 
+## AI Agent Resources
+
+- [For AI Agents](/agents/): How AI agents discover and use Gonka documentation — llms.txt, MCP server, setup guides
+
 ## Machine-Readable Resources
 
 - [Full Documentation](/llms-full.txt): All pages combined in a single file
