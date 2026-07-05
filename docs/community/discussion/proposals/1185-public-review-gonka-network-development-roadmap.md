@@ -3,7 +3,7 @@ title: "#1185 — [Public Review] Gonka Network Development Roadmap"
 source: https://github.com/gonka-ai/gonka/discussions/1185
 discussion_number: 1185
 category: proposals
-synced_at: 2026-07-05T04:30:28Z
+synced_at: 2026-07-05T09:22:59Z
 ---
 
 > 🔄 **Авто-синхронизация:** из [Discussion #1185](https://github.com/gonka-ai/gonka/discussions/1185) каждые 6 часов. 

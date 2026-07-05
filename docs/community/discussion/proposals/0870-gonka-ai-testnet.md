@@ -3,7 +3,7 @@ title: "#870 — Gonka AI Testnet"
 source: https://github.com/gonka-ai/gonka/discussions/870
 discussion_number: 870
 category: proposals
-synced_at: 2026-07-05T04:30:32Z
+synced_at: 2026-07-05T09:23:03Z
 ---
 
 > 🔄 **Авто-синхронизация:** из [Discussion #870](https://github.com/gonka-ai/gonka/discussions/870) каждые 6 часов. 
