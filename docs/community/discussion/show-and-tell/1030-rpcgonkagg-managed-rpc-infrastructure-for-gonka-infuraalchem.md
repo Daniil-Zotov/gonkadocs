@@ -3,7 +3,7 @@ title: "#1030 — rpc.gonka.gg - Managed RPC Infrastructure for Gonka (Infura/Al
 source: https://github.com/gonka-ai/gonka/discussions/1030
 discussion_number: 1030
 category: show-and-tell
-synced_at: 2026-07-05T09:23:07Z
+synced_at: 2026-07-05T14:10:06Z
 ---
 
 > 🔄 **Авто-синхронизация:** из [Discussion #1030](https://github.com/gonka-ai/gonka/discussions/1030) каждые 6 часов. 
