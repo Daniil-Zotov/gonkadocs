@@ -26,7 +26,7 @@ This proposal describes ecosystem we should do for the Gonka, including basics, 
 
 ## Full Proposal
 
-# Internal Go-To-Market Team for Gonka
+Internal Go-To-Market Team for Gonka
 
 [Read full proposal](https://app.integrity.sh/p/SuMCnGQBhz-0asAYBUz1U)
 

@@ -26,7 +26,7 @@ Develop a vLLM v0.19+ universal GPU benchmark that runs continuously during the 
 
 ## Full Proposal
 
-## 1. Context
+Context
 
 Gonka measures Host compute capacity via Proof of Compute (PoC) Sprints. The current Sprint model concentrates measurement into a short synchronized window, which (a) creates a measurable inference-revenue gap during the Sprint and (b) opens a surface for "burst attacks" — Hosts attaching extra GPUs only for the Sprint window and detaching them afterwards.
 

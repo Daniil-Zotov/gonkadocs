@@ -26,7 +26,7 @@ template: proposals-main.html
 
 ## Full Proposal
 
-## 1. Executive Summary
+Executive Summary
 
 This proposal requests funding for a 4-month pilot of External Test Lab & Community DevNet: a community-owned testing function for Gonka protocol upgrades, DevShards, inference flows, host/broker operations, and geographically distributed network behavior before governance decisions and production rollout.
 
@@ -254,7 +254,7 @@ The Project Lead and Infrastructure Lead receive no monthly compensation from th
 
 | Voter | Amount | Date |
 | :----- | :----- | :--- |
-| `gonka1gm...gzg6ry` | 400.0K GNK | 2026-07-06 17:38 |
+| `gonka1gm...gzg6ry` | 400.0K GNK | 2026-07-06 17:44 |
 
 ---
 

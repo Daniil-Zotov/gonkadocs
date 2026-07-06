@@ -26,7 +26,7 @@ Gonka NL BE Community builds local Benelux awareness through Telegram communitie
 
 ## Full Proposal
 
-## What does your team plan to build or deliver for Gonka over the next three months?
+What does your team plan to build or deliver for Gonka over the next three months?
 
 Over the next three months, the team plans to expand Gonka’s presence in the Benelux region, especially among Dutch-speaking users in the Netherlands and Belgium.
 

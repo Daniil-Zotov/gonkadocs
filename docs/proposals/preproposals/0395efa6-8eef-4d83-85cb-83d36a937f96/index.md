@@ -26,7 +26,7 @@ Team Epokha AI is building Agent Gonka, an AI agent platform using Gonka Inferen
 
 ## Full Proposal
 
-## What does your team plan to build or deliver for Gonka over the next three months?
+What does your team plan to build or deliver for Gonka over the next three months?
 
 Over the next three months, the team plans to build and launch the core version of **Agent Gonka** — an AI agent platform powered by the **Gonka Inference API**.
 

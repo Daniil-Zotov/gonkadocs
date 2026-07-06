@@ -26,7 +26,7 @@ Team Gonka-API.org built a working Gonka API gateway with early traction and pla
 
 ## Full Proposal
 
-## What does your team plan to build or deliver for Gonka over the next three months?
+What does your team plan to build or deliver for Gonka over the next three months?
 
 Over the next three months, the team plans to scale **Gonka API** and continue developing it as an infrastructure gateway for AI developers and inference consumers.
 

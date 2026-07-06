@@ -26,7 +26,7 @@ Team Slava MSE Team runs GonkaDB, Media, links, and ranking tools, and plans to 
 
 ## Full Proposal
 
-## What does your team plan to build or deliver for Gonka over the next three months?
+What does your team plan to build or deliver for Gonka over the next three months?
 
 Over the next three months, Team Slava MSE Team plans to develop two main directions: **Gonka Media** and **Gonka Data Base / GonkaDB**.
 

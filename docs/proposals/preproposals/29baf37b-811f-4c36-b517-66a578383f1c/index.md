@@ -26,7 +26,7 @@ Fund Gonka’s Gold Sponsor participation at European Blockchain Convention 2026
 
 ## Full Proposal
 
-## Problem
+Problem
 
 Gonka has strong momentum, but its market presence is still concentrated outside Europe. For Gonka to grow into a more global infrastructure project, it needs visibility and direct access to European exchanges, institutions, funds, infrastructure companies, AI/compute builders, and senior Web3 decision-makers.
 

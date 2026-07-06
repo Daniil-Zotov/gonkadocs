@@ -26,7 +26,7 @@ Team Gonka.TV creates news, education videos, and interviews for the Gonka commu
 
 ## Full Proposal
 
-## What does your team plan to build or deliver for Gonka over the next three months?
+What does your team plan to build or deliver for Gonka over the next three months?
 
 Over the next three months, the team plans to continue producing video content for the Gonka community.
 

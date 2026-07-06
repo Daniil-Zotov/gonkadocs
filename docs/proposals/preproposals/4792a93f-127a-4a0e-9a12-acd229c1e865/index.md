@@ -26,7 +26,7 @@ Russian-speaking Gonka media channel that has already attracted miners and plans
 
 ## Full Proposal
 
-## What does your team plan to build or deliver for Gonka over the next three months?
+What does your team plan to build or deliver for Gonka over the next three months?
 
 Over the next three months, the author plans to continue developing the Telegram channel **“Gonka.AI | Inside”** as a Russian-speaking media and community hub for Gonka.
 

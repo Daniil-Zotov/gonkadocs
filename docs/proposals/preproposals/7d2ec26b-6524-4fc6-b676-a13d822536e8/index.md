@@ -29,7 +29,7 @@ QR Mint — э.
 
 ## Full Proposal
 
-# Интеграция ИИ Gonka в инфраструктуру QR Mint
+Интеграция ИИ Gonka в инфраструктуру QR Mint
 
 ## Обзор проекта
 

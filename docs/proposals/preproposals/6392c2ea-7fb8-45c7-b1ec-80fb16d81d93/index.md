@@ -26,7 +26,7 @@ Pay a fixed GNK/USDT bounty to anyone who upstreams a reproducible ≥5% PoC thr
 
 ## Full Proposal
 
-## Problem                                                                                                                           
+Problem                                                                                                                           
                                            
   PoC throughput optimizations are network-wide value, but today they stay private.
   A pool operator who finds a +5% kernel rewrite has every incentive to keep it

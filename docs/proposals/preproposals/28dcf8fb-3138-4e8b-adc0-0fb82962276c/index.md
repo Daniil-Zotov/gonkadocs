@@ -26,7 +26,7 @@ Multi-phase marketing campaign to grow Gonka awareness, Host adoption, and Devel
 
 ## Full Proposal
 
-## 1. Context
+Context
 
 Gonka is a live-mainnet decentralized AI L1 with a novel Proof of Compute consensus, OpenAI-compatible inference (Qwen3-235B-A22B-FP8 currently served), and an existing ecosystem (CertiK audit, Coatue/Slow Ventures/Mantis/K5 backing, Gcore/Hyperfusion/6blocks as Hosts).
 

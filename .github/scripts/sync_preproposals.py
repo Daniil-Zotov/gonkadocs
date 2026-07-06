@@ -167,6 +167,13 @@ def generate_proposal_page(proposal, detail, comments):
     title_esc = escape_md_table(title)
     summary = proposal.get("summary", "")
     description = detail.get("description", "") if detail else ""
+
+    # Clean description: strip leading H1 headings, numbered prefixes, and emojis
+    description = description.strip()
+    description = re.sub(r'^#+\s+', '', description)
+    description = re.sub(r'^[0-9]+\.\s*', '', description)
+    description = re.sub(r'^[\U0001F300-\U0001FAFF\u2600-\u27BF\u200D\uFE0F]+\s*', '', description)
+
     creator_name = escape_md_table(proposal.get("creator_name", "Anonymous"))
     creator_image = proposal.get("creator_image", "")
     created_at = proposal.get("created_at", "")

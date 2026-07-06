@@ -26,7 +26,7 @@ Team EntroPi builds a decentralized AI orchestration layer for task decompositio
 
 ## Full Proposal
 
-## What does your team plan to build or deliver for Gonka over the next three months?
+What does your team plan to build or deliver for Gonka over the next three months?
 
 Over the next three months, Team EntroPi plans to continue developing a **decentralized cognitive orchestration layer**.
 

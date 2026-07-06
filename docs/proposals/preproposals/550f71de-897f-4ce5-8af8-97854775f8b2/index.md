@@ -26,7 +26,7 @@ template: proposals-main.html
 
 ## Full Proposal
 
-# Большое видео на канале Falcon Finance (Александр Соколовский)
+Большое видео на канале Falcon Finance (Александр Соколовский)
 
 **Привет всем!**
 

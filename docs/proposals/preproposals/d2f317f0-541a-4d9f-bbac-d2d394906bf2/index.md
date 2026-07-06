@@ -26,7 +26,7 @@ Team GonkaGate built a public Gonka API gateway and plans to scale infrastructur
 
 ## Full Proposal
 
-## What does your team plan to build or deliver for Gonka over the next three months?
+What does your team plan to build or deliver for Gonka over the next three months?
 
 Over the next three months, Team GonkaGate plans to develop GonkaGate into a stronger reliability and developer adoption layer for the Gonka Network.
 

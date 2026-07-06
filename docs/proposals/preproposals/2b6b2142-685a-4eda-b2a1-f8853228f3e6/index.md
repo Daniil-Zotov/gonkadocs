@@ -26,7 +26,7 @@ Gonka Wallet Team built a dedicated Gonka wallet and now plans to launch Gonka F
 
 ## Full Proposal
 
-## What does your team plan to build or deliver for Gonka over the next three months?
+What does your team plan to build or deliver for Gonka over the next three months?
 
 Over the next three months, the team plans to launch **Gonka Forge** — a platform where users can formulate tasks for AI agents, while developers can create agents and AI tools powered by **Gonka Inference**.
 

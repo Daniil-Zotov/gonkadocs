@@ -26,7 +26,7 @@ Grant program in GNK for AI startups that integrate Gonka inference into their p
 
 ## Full Proposal
 
-## 1. Context
+Context
 
 Gonka offers an OpenAI-compatible decentralized inference API (currently serving Qwen3-235B-A22B-Instruct-2507-FP8) at competitive cost vs. centralized providers. To accelerate Developer adoption, this grant program rewards **AI startups and products that integrate Gonka as a production inference backend** with grants paid in **GNK tokens**.
 

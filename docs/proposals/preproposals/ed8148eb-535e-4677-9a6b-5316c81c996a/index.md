@@ -26,7 +26,7 @@ Initiative to accelerate Gonka’s growth by attracting new AI developers, infra
 
 ## Full Proposal
 
-1. 🎯 Executive Summary
+Executive Summary
 
 Private Inc proposes launching a user acquisition program designed to attract new participants to the Gonka ecosystem, targeting AI developers, AI infrastructure operators, GPU farms, AI companies, and other stakeholders within the artificial intelligence industry.
 

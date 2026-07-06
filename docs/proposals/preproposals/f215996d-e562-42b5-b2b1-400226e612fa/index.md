@@ -27,7 +27,7 @@ Explainer series (20 ep., 40 min) + web download & self-branding platform
 
 ## Full Proposal
 
-# Proposal — Gonka Media Library
+Proposal — Gonka Media Library
 
 ## Project
 

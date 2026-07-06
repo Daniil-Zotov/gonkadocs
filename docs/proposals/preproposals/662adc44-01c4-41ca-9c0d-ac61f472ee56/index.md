@@ -26,7 +26,7 @@ Team Lefine built a proxy for Gonka models and plans to expand Gonka Inference t
 
 ## Full Proposal
 
-## What does your team plan to build or deliver for Gonka over the next three months?
+What does your team plan to build or deliver for Gonka over the next three months?
 
 Over the next three months, the team plans to expand the use of **Gonka Inference** across different interfaces, websites, tools, and chat bots.
 

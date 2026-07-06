@@ -26,7 +26,7 @@ Team Alexander Kuprin plans to build an observability layer to detect, trace, an
 
 ## Full Proposal
 
-## What does your team plan to build or deliver for Gonka over the next three months?
+What does your team plan to build or deliver for Gonka over the next three months?
 
 The planned work is related to **Track 0: Core stability and reliability** of the Gonka Community Roadmap:
 https://github.com/gonka-ai/gonka/blob/main/proposals/gonka-network-development-roadmap.md

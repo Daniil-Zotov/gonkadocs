@@ -26,7 +26,7 @@ Since v0.2.9 and v0.2.11, withheld miner rewards have accumulated in the gov acc
 
 ## Full Proposal
 
-# Should we redistribute the gov-wallet balance back to miners? Looking for your feedback before drafting a proposal
+Should we redistribute the gov-wallet balance back to miners? Looking for your feedback before drafting a proposal
 
 Fellow miners and stakeholders — I want to gauge community sentiment on a
 proposal idea before turning it into an on-chain vote. Concrete numbers,
