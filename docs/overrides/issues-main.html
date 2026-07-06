@@ -2,35 +2,28 @@
 
 {% block extra %}
 <style>
-  .md-main__inner {
-    display: flex;
-    gap: 0;
+  /* Hide the default table of contents sidebar on issue pages */
+  .md-sidebar--secondary {
+    display: none !important;
   }
 
+  /* Issues sidebar styling (element is moved via JS to md-main__inner) */
   .md-sidebar--issues {
     position: sticky;
     top: 76px;
     height: calc(100vh - 76px);
     overflow-y: auto;
     flex-shrink: 0;
-    width: 280px;
-    border-right: 1px solid var(--md-default-fg-color--lightest);
+    width: 260px;
+    min-width: 260px;
+    border-left: 1px solid var(--md-default-fg-color--lightest);
+    padding: 16px 0;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 1200px) {
     .md-sidebar--issues {
       display: none;
     }
-  }
-
-  .md-content {
-    flex: 1;
-    min-width: 0;
-  }
-
-  /* Hide the default table of contents sidebar on issue pages */
-  .md-sidebar--secondary {
-    display: none !important;
   }
 
   .md-nav--issues .md-nav__link {
@@ -51,6 +44,15 @@
     margin-left: auto;
   }
 </style>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var sidebar = document.querySelector('.md-sidebar--issues');
+  var mainInner = document.querySelector('.md-main__inner');
+  if (sidebar && mainInner) {
+    mainInner.appendChild(sidebar);
+  }
+});
+</script>
 {% endblock %}
 
 {% block content %}
