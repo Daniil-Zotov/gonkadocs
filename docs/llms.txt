@@ -384,7 +384,7 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [🟢 `devshards`: Research aggregated BLS signatures](/community/issues/00896-devshards-research-aggregated-bls-signatures/): Auto-synced content
 - [🔴 [P0] `devshards`: Add end-to-end inference validation tests](/community/issues/00899-p0-devshards-add-end-to-end-inference-validation-tests/): Auto-synced content
 - [🔴 bls: BlsManager stores context.Background() — DKG gRPC calls have no cancellation or timeout](/community/issues/00908-bls-blsmanager-stores-contextbackground-dkg-grpc-calls-have-/): Auto-synced content
-- [🔴 [P0] Make handling of warm keys deterministic (research)](/community/issues/00913-p0-make-handling-of-warm-keys-deterministic-research/): Auto-synced content
+- [00913 P0 Make Handling Of Warm Keys Deterministic Research](/community/issues/00913-p0-make-handling-of-warm-keys-deterministic-research/): Auto-synced content
 - [🔴 [P0] `devshards` rewards (research)](/community/issues/00914-p0-devshards-rewards-research/): Auto-synced content
 - [🟢 [P0] Benchmark `devshards`](/community/issues/00915-p0-benchmark-devshards/): Auto-synced content
 - [🔴 Proposal: Agent identity and delegation governance for Gonka compute](/community/issues/00922-proposal-agent-identity-and-delegation-governance-for-gonka-/): Auto-synced content
@@ -433,10 +433,10 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [🟢 PoC-decode proposal](/community/issues/01135-poc-decode-proposal/): Auto-synced content
 - [🟢 `devshards` Optimizations for v0.2.13 db usage](/community/issues/01167-devshards-optimizations-for-v0213-db-usage/): Auto-synced content
 - [🟢 [BUG] A short, specific, searchable title.](/community/issues/01169-bug-a-short-specific-searchable-title/): Auto-synced content
-- [🟢 TEE Implementation](/community/issues/01173-tee-implementation/): Auto-synced content
+- [TEE](/community/issues/01173-tee-implementation/): Auto-synced content
 - [🔴 No available public Kimi-K2.6 inference gateways](/community/issues/01178-no-available-public-kimi-k26-inference-gateways/): Auto-synced content
 - [🟢 Re-validate VLM inference and validation results from #1026](/community/issues/01198-re-validate-vlm-inference-and-validation-results-from-1026/): Auto-synced content
-- [🟢 Reproducible sampling for inference validation](/community/issues/01199-reproducible-sampling-for-inference-validation/): Auto-synced content
+- [Issue #1199 — Reproducible Sampling for Inference Validation: Review Report](/community/issues/01199-reproducible-sampling-for-inference-validation/): Auto-synced content
 - [🟢 Independent review of PoC-decode results](/community/issues/01200-independent-review-of-poc-decode-results/): Auto-synced content
 - [🟢 [P0] Training on Gonka](/community/issues/01201-p0-training-on-gonka/): Auto-synced content
 - [🟢 chain-halt: `markValidatorForDeletion` jailed branch races CometBFT validator-update lag → slashing fails with ErrNoValidatorFound](/community/issues/01205-chain-halt-markvalidatorfordeletion-jailed-branch-races-come/): Auto-synced content
@@ -450,7 +450,7 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [🔴 Request to be added as a Gonka broker](/community/issues/01241-request-to-be-added-as-a-gonka-broker/): Auto-synced content
 - [🔴 Request to be added as a Gonka broker (for run my own gateway)](/community/issues/01245-request-to-be-added-as-a-gonka-broker-for-run-my-own-gateway/): Auto-synced content
 - [🔴 Request to be added as a Gonka broker](/community/issues/01247-request-to-be-added-as-a-gonka-broker/): Auto-synced content
-- [🔴 Request to be added as a Gonka broker](/community/issues/01257-request-to-be-added-as-a-gonka-broker/): Auto-synced content
+- [01257 Request To Be Added As A Gonka Broker](/community/issues/01257-request-to-be-added-as-a-gonka-broker/): Auto-synced content
 - [🔴 Request to be added as a Gonka broker](/community/issues/01262-request-to-be-added-as-a-gonka-broker/): Auto-synced content
 - [🟢 logprobs, top_logprobs conditional stripping](/community/issues/01264-logprobs-top-logprobs-conditional-stripping/): Auto-synced content
 - [🟢 Stuck VOTING inferences orphan client escrow when x/group proposals miss quorum](/community/issues/01265-stuck-voting-inferences-orphan-client-escrow-when-xgroup-pro/): Auto-synced content
@@ -458,8 +458,8 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [🟢 x/inference: asymmetric debit in refundInvalidatedInference — design clarification](/community/issues/01273-xinference-asymmetric-debit-in-refundinvalidatedinference-de/): Auto-synced content
 - [🔴 Run Gonka documentation translation on Gonka](/community/issues/01274-run-gonka-documentation-translation-on-gonka/): Auto-synced content
 - [🟢 Bridge: merge ETH README messageHash quickfix into v0.2.14](/community/issues/01285-bridge-merge-eth-readme-messagehash-quickfix-into-v0214/): Auto-synced content
-- [🟢 Bridge: add retry cap or monitoring for stale refund cleanup retries](/community/issues/01286-bridge-add-retry-cap-or-monitoring-for-stale-refund-cleanup-/): Auto-synced content
-- [🔴 Self-serve (no-broker) flow is documented as working but returns 401 "model requires an API key" — I want to spend my own GNK directly](/community/issues/01319-self-serve-no-broker-flow-is-documented-as-working-but-retur/): Auto-synced content
+- [01286 Bridge Add Retry Cap Or Monitoring For Stale Refund Cleanup ](/community/issues/01286-bridge-add-retry-cap-or-monitoring-for-stale-refund-cleanup-/): Auto-synced content
+- [01319 Self Serve No Broker Flow Is Documented As Working But Retur](/community/issues/01319-self-serve-no-broker-flow-is-documented-as-working-but-retur/): Auto-synced content
 - [🔴 Gateway allowlist request](/community/issues/01321-gateway-allowlist-request/): Auto-synced content
 - [🔴 Gateway allowlist request](/community/issues/01322-gateway-allowlist-request/): Auto-synced content
 - [🔴 How to obtain a broker API key for node4 (or documentation on the broker onboarding process)?](/community/issues/01331-how-to-obtain-a-broker-api-key-for-node4-or-documentation-on/): Auto-synced content
@@ -468,14 +468,14 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [🟢 Bridge: auto-refund does not run when BLS signing expires (EXPIRED)](/community/issues/01352-bridge-auto-refund-does-not-run-when-bls-signing-expires-exp/): Auto-synced content
 - [🟢 Inbound bridge votes lost after upgrade simulation (node unavailable for some minutes for upgrade) — no retry, deposits stuck BRIDGE_PENDING](/community/issues/01358-inbound-bridge-votes-lost-after-upgrade-simulation-node-unav/): Auto-synced content
 - [🔴 Bridge Scenario A: inbound USDT stuck BRIDGE_PENDING after coordinated node halt (4-validator testnet)](/community/issues/01370-bridge-scenario-a-inbound-usdt-stuck-bridge-pending-after-co/): Auto-synced content
-- [🔴 Request for DevShards creator allowlist access](/community/issues/01371-request-for-devshards-creator-allowlist-access/): Auto-synced content
-- [🔴 Gateway allowlist request - dev server personal gateway](/community/issues/01385-gateway-allowlist-request-dev-server-personal-gateway/): Auto-synced content
-- [🟢 Gateway in-flight long chat during validator halt: client success vs request outcome failed](/community/issues/01387-gateway-in-flight-long-chat-during-validator-halt-client-suc/): Auto-synced content
-- [🟢 fix(inference): power cap zeros network when zero-weight participants are in settlement](/community/issues/01395-fixinference-power-cap-zeros-network-when-zero-weight-partic/): Auto-synced content
-- [🟢 Gateway allowlist request](/community/issues/01397-gateway-allowlist-request/): Auto-synced content
-- [🟢 Gateway allowlist request: niro](/community/issues/01398-gateway-allowlist-request-niro/): Auto-synced content
-- [🔴 OpenBroker API moved hosts and existing broker accounts (and balances) are gone — follow-up to #1319](/community/issues/01405-openbroker-api-moved-hosts-and-existing-broker-accounts-and-/): Auto-synced content
-- [🟢 Question about project background: Mikhail Chudinov and Natalia](/community/issues/01407-question-about-project-background-mikhail-chudinov-and-natal/): Auto-synced content
+- [01371 Request For Devshards Creator Allowlist Access](/community/issues/01371-request-for-devshards-creator-allowlist-access/): Auto-synced content
+- [01385 Gateway Allowlist Request Dev Server Personal Gateway](/community/issues/01385-gateway-allowlist-request-dev-server-personal-gateway/): Auto-synced content
+- [On laptop (requires APPROVE=1)](/community/issues/01387-gateway-in-flight-long-chat-during-validator-halt-client-suc/): Auto-synced content
+- [01395 Fixinference Power Cap Zeros Network When Zero Weight Partic](/community/issues/01395-fixinference-power-cap-zeros-network-when-zero-weight-partic/): Auto-synced content
+- [01397 Gateway Allowlist Request](/community/issues/01397-gateway-allowlist-request/): Auto-synced content
+- [01398 Gateway Allowlist Request Niro](/community/issues/01398-gateway-allowlist-request-niro/): Auto-synced content
+- [01405 Openbroker Api Moved Hosts And Existing Broker Accounts And ](/community/issues/01405-openbroker-api-moved-hosts-and-existing-broker-accounts-and-/): Auto-synced content
+- [01407 Question About Project Background Mikhail Chudinov And Natal](/community/issues/01407-question-about-project-background-mikhail-chudinov-and-natal/): Auto-synced content
 - [🦞 OpenClaw + Gonka AI](/community/discussion/show-and-tell/0811-openclaw-gonka-ai/): Auto-synced content
 - [Prometheus Exporter for Node Monitoring](/community/discussion/show-and-tell/0840-prometheus-exporter-for-node-monitoring/): Auto-synced content
 - [Gonka Labs: How We're Building the Infrastructure for Gonka](/community/discussion/show-and-tell/0880-gonka-labs-how-were-building-the-infrastructure-for-gonka/): Auto-synced content
