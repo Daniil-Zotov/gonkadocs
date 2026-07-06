@@ -1,0 +1,19 @@
+{# Left sidebar navigation for all issue pages #}
+<nav class="md-nav md-nav--primary" aria-label="Issues nav">
+  <label class="md-nav__title" for="__drawer">
+    <span class="md-nav__icon md-icon"></span>
+    Issues
+  </label>
+  <ul class="md-nav__list" data-md-scrollfix>
+    <li class="md-nav__item">
+      <a href="/community/issues/" class="md-nav__link">
+        <span class="md-ellipsis">All Issues</span>
+      </a>
+    </li>
+    <li class="md-nav__item md-nav__item--separator" style="margin: 8px 0; border-top: 1px solid var(--md-default-fg-color--lightest);"></li>
+    <li class="md-nav__item md-nav__item--label" style="font-size: 12px; font-weight: 600; color: var(--md-default-fg-color--light); padding: 4px 16px; text-transform: uppercase; letter-spacing: 0.5px;">
+      Labels
+    </li>
+    {% include "partials/issues-labels-nav.html" ignore missing %}
+  </ul>
+</nav>

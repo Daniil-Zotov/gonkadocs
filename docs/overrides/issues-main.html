@@ -96,6 +96,20 @@
 {{ super() }}
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+  // Replace left sidebar nav with issues navigation
+  var primaryNav = document.querySelector('.md-sidebar--primary .md-nav--primary');
+  var issuesNav = document.querySelector('.md-nav--issues');
+  if (primaryNav && issuesNav) {
+    var clonedNav = issuesNav.cloneNode(true);
+    clonedNav.className = 'md-nav md-nav--primary';
+    clonedNav.setAttribute('aria-label', 'Issues nav');
+    var title = clonedNav.querySelector('.md-nav__title');
+    if (title) {
+      title.innerHTML = '<span class="md-nav__icon md-icon"></span> Issues';
+    }
+    primaryNav.parentNode.replaceChild(clonedNav, primaryNav);
+  }
+
   // Move issues sidebar out of article to be sibling inside md-content
   var sidebar = document.querySelector('.md-sidebar--issues');
   var content = document.querySelector('.md-content');
