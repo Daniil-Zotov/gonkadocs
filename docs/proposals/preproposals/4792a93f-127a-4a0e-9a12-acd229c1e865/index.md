@@ -5,7 +5,7 @@ template: proposals-main.html
 
 # Team Gonka.AI \| Inside Grant Request
 
-<div class="preproposal-header">
+<div class="preproposal-header" markdown="1">
 
 <div class="preproposal-status">🟢 Active</div>
 
@@ -98,7 +98,7 @@ Omniverse, NOVA - молодые проекты. Нужно с ними повн
 
 ---
 
-<div class="preproposal-link">
+<div class="preproposal-link" markdown="1">
 
 [View on gonka.vote](https://gonka.vote/proposal/4792a93f-127a-4a0e-9a12-acd229c1e865)
 

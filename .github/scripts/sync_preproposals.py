@@ -207,7 +207,7 @@ template: proposals-main.html
 
 # {title_esc}
 
-<div class="preproposal-header">
+<div class="preproposal-header" markdown="1">
 
 <div class="preproposal-status">{status}</div>
 
@@ -250,7 +250,7 @@ template: proposals-main.html
     md += f"""
 ---
 
-<div class="preproposal-link">
+<div class="preproposal-link" markdown="1">
 
 [View on gonka.vote](https://gonka.vote/proposal/{pid})
 

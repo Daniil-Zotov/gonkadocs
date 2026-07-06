@@ -5,7 +5,7 @@ template: proposals-main.html
 
 # Gonka.TV — амбассадор Гонки на YouTube
 
-<div class="preproposal-header">
+<div class="preproposal-header" markdown="1">
 
 <div class="preproposal-status">🔴 Expired</div>
 
@@ -227,7 +227,7 @@ Gonka.TV это будет независимый компоненент
 
 ---
 
-<div class="preproposal-link">
+<div class="preproposal-link" markdown="1">
 
 [View on gonka.vote](https://gonka.vote/proposal/00e8a72a-e121-4ea1-8d30-95a0d51268b2)
 

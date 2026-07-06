@@ -5,7 +5,7 @@ template: proposals-main.html
 
 # 8. Team Gonka.TV Grant Request
 
-<div class="preproposal-header">
+<div class="preproposal-header" markdown="1">
 
 <div class="preproposal-status">🟢 Active</div>
 
@@ -76,7 +76,7 @@ mitchseed
 
 ---
 
-<div class="preproposal-link">
+<div class="preproposal-link" markdown="1">
 
 [View on gonka.vote](https://gonka.vote/proposal/47ab8faa-f9bd-41ba-8e86-6c760d4975a6)
 

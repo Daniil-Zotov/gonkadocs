@@ -5,7 +5,7 @@ template: proposals-main.html
 
 # Привлечение $3M+ нового капитала на Uniswap
 
-<div class="preproposal-header">
+<div class="preproposal-header" markdown="1">
 
 <div class="preproposal-status">🟢 Active</div>
 
@@ -613,7 +613,7 @@ Work does not end after the first deposit. The user continues to receive support
 
 ---
 
-<div class="preproposal-link">
+<div class="preproposal-link" markdown="1">
 
 [View on gonka.vote](https://gonka.vote/proposal/e0cc7d32-5d1a-49e1-94e8-0ca3d9ccbf6b)
 

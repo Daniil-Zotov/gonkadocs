@@ -5,7 +5,7 @@ template: proposals-main.html
 
 # Предложение по развитию игровой экосистемы блокчейна через турнирные пулы вознаг
 
-<div class="preproposal-header">
+<div class="preproposal-header" markdown="1">
 
 <div class="preproposal-status">🟢 Active</div>
 
@@ -279,7 +279,7 @@ HardCore Arena позволит протестировать модель на �
 
 ---
 
-<div class="preproposal-link">
+<div class="preproposal-link" markdown="1">
 
 [View on gonka.vote](https://gonka.vote/proposal/fd9989ca-7c5b-4a2f-baf4-2465e6915ba6)
 

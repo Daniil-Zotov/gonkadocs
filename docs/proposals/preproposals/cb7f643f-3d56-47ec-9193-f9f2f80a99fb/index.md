@@ -5,7 +5,7 @@ template: proposals-main.html
 
 # Go-To-Market Team for 3 Month to Set Up the Basis
 
-<div class="preproposal-header">
+<div class="preproposal-header" markdown="1">
 
 <div class="preproposal-status">🟢 Active</div>
 
@@ -398,7 +398,7 @@ AMA: https://youtu.be/tYfeXANyPtM?si=uKUTEboIwh2HJ5tR&t=3747
 
 ---
 
-<div class="preproposal-link">
+<div class="preproposal-link" markdown="1">
 
 [View on gonka.vote](https://gonka.vote/proposal/cb7f643f-3d56-47ec-9193-f9f2f80a99fb)
 

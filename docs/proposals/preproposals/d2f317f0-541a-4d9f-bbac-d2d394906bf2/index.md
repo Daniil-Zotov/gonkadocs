@@ -5,7 +5,7 @@ template: proposals-main.html
 
 # 11. Team GonkaGate Grant Request
 
-<div class="preproposal-header">
+<div class="preproposal-header" markdown="1">
 
 <div class="preproposal-status">🟢 Active</div>
 
@@ -185,7 +185,7 @@ gonka1lv55k52lvxz074yhr7kcne86srf7dse9pvyfhm
 
 ---
 
-<div class="preproposal-link">
+<div class="preproposal-link" markdown="1">
 
 [View on gonka.vote](https://gonka.vote/proposal/d2f317f0-541a-4d9f-bbac-d2d394906bf2)
 

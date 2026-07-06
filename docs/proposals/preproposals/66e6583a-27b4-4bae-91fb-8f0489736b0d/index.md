@@ -5,7 +5,7 @@ template: proposals-main.html
 
 # 1. Team Veylox Grant Request
 
-<div class="preproposal-header">
+<div class="preproposal-header" markdown="1">
 
 <div class="preproposal-status">🟢 Active</div>
 
@@ -211,7 +211,7 @@ Also, yes, I just joined the chat )
 
 ---
 
-<div class="preproposal-link">
+<div class="preproposal-link" markdown="1">
 
 [View on gonka.vote](https://gonka.vote/proposal/66e6583a-27b4-4bae-91fb-8f0489736b0d)
 

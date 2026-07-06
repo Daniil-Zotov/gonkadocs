@@ -5,7 +5,7 @@ template: proposals-main.html
 
 # Gonka Integration Grant for AI Startups and Products (GNK Rewards)
 
-<div class="preproposal-header">
+<div class="preproposal-header" markdown="1">
 
 <div class="preproposal-status">🟢 Active</div>
 
@@ -187,7 +187,7 @@ Applicants MUST submit:
 
 ---
 
-<div class="preproposal-link">
+<div class="preproposal-link" markdown="1">
 
 [View on gonka.vote](https://gonka.vote/proposal/ed7bd700-bb5a-4c99-9dae-bdcba6641015)
 

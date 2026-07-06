@@ -5,7 +5,7 @@ template: proposals-main.html
 
 # Return Withheld Miner Rewards: Redistribute Gov-Wallet Balance for Ep 132–247
 
-<div class="preproposal-header">
+<div class="preproposal-header" markdown="1">
 
 <div class="preproposal-status">🔴 Expired</div>
 
@@ -350,7 +350,7 @@ P.S. Конкретно у твоего примера - там больше п�
 
 ---
 
-<div class="preproposal-link">
+<div class="preproposal-link" markdown="1">
 
 [View on gonka.vote](https://gonka.vote/proposal/012f8a32-45ab-4ba8-b6f3-39631d19eb84)
 

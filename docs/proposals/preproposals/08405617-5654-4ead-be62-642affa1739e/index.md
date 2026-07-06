@@ -5,7 +5,7 @@ template: proposals-main.html
 
 # 12. Team Slava MSE Team Grant Request
 
-<div class="preproposal-header">
+<div class="preproposal-header" markdown="1">
 
 <div class="preproposal-status">🟢 Active</div>
 
@@ -131,7 +131,7 @@ alexandr8475
 
 ---
 
-<div class="preproposal-link">
+<div class="preproposal-link" markdown="1">
 
 [View on gonka.vote](https://gonka.vote/proposal/08405617-5654-4ead-be62-642affa1739e)
 

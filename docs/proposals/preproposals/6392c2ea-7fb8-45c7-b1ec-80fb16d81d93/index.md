@@ -5,7 +5,7 @@ template: proposals-main.html
 
 # Bounty for open-source PoC throughput contributions
 
-<div class="preproposal-header">
+<div class="preproposal-header" markdown="1">
 
 <div class="preproposal-status">🔴 Expired</div>
 
@@ -143,7 +143,7 @@ Problem
 
 ---
 
-<div class="preproposal-link">
+<div class="preproposal-link" markdown="1">
 
 [View on gonka.vote](https://gonka.vote/proposal/6392c2ea-7fb8-45c7-b1ec-80fb16d81d93)
 

@@ -5,7 +5,7 @@ template: proposals-main.html
 
 # Universal Continuous GPU Benchmark for Gonka Hosts (vLLM v0.19+, Anti-Sybil)
 
-<div class="preproposal-header">
+<div class="preproposal-header" markdown="1">
 
 <div class="preproposal-status">🟢 Active</div>
 
@@ -235,7 +235,7 @@ But what will happend if I reply in English?
 
 ---
 
-<div class="preproposal-link">
+<div class="preproposal-link" markdown="1">
 
 [View on gonka.vote](https://gonka.vote/proposal/673770df-0b72-4d04-a038-f8c12546817f)
 

@@ -5,7 +5,7 @@ template: proposals-main.html
 
 # Интеграция ИИ Gonka в инфраструктуру QR Mint
 
-<div class="preproposal-header">
+<div class="preproposal-header" markdown="1">
 
 <div class="preproposal-status">🟢 Active</div>
 
@@ -268,7 +268,7 @@ qr.mint.dev@gmail.com
 
 ---
 
-<div class="preproposal-link">
+<div class="preproposal-link" markdown="1">
 
 [View on gonka.vote](https://gonka.vote/proposal/7d2ec26b-6524-4fc6-b676-a13d822536e8)
 

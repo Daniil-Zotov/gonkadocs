@@ -5,7 +5,7 @@ template: proposals-main.html
 
 # Gonka Media Library by Saccade
 
-<div class="preproposal-header">
+<div class="preproposal-header" markdown="1">
 
 <div class="preproposal-status">🟢 Active</div>
 
@@ -143,7 +143,7 @@ https://saccade.media/ru/unboring-explainer
 
 ---
 
-<div class="preproposal-link">
+<div class="preproposal-link" markdown="1">
 
 [View on gonka.vote](https://gonka.vote/proposal/f215996d-e562-42b5-b2b1-400226e612fa)
 

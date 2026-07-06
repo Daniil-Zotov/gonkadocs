@@ -5,7 +5,7 @@ template: proposals-main.html
 
 # 7. Team Epokha AI / epokha.ai Grant Request
 
-<div class="preproposal-header">
+<div class="preproposal-header" markdown="1">
 
 <div class="preproposal-status">🟢 Active</div>
 
@@ -100,7 +100,7 @@ gonka158pj5tn26n46ffaw553dkf3e7xjfxahj0s5xug
 
 ---
 
-<div class="preproposal-link">
+<div class="preproposal-link" markdown="1">
 
 [View on gonka.vote](https://gonka.vote/proposal/0395efa6-8eef-4d83-85cb-83d36a937f96)
 

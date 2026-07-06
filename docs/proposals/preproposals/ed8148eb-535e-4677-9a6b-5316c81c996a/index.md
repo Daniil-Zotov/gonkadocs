@@ -5,7 +5,7 @@ template: proposals-main.html
 
 # Private Inc × Gonka — Network Growth Initiative
 
-<div class="preproposal-header">
+<div class="preproposal-header" markdown="1">
 
 <div class="preproposal-status">🟢 Active</div>
 
@@ -424,7 +424,7 @@ Scam
 
 ---
 
-<div class="preproposal-link">
+<div class="preproposal-link" markdown="1">
 
 [View on gonka.vote](https://gonka.vote/proposal/ed8148eb-535e-4677-9a6b-5316c81c996a)
 

@@ -5,7 +5,7 @@ template: proposals-main.html
 
 # 5. Team Lefine Grant Request
 
-<div class="preproposal-header">
+<div class="preproposal-header" markdown="1">
 
 <div class="preproposal-status">🟢 Active</div>
 
@@ -76,7 +76,7 @@ kogeletey
 
 ---
 
-<div class="preproposal-link">
+<div class="preproposal-link" markdown="1">
 
 [View on gonka.vote](https://gonka.vote/proposal/662adc44-01c4-41ca-9c0d-ac61f472ee56)
 

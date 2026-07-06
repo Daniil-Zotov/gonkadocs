@@ -5,7 +5,7 @@ template: proposals-main.html
 
 # 4. Team Gonka NL BE Community Grant Request
 
-<div class="preproposal-header">
+<div class="preproposal-header" markdown="1">
 
 <div class="preproposal-status">🟢 Active</div>
 
@@ -91,7 +91,7 @@ Clarkkent8494
 
 ---
 
-<div class="preproposal-link">
+<div class="preproposal-link" markdown="1">
 
 [View on gonka.vote](https://gonka.vote/proposal/db4d91a4-1ee7-46ee-a3d1-0e8ba546d04b)
 

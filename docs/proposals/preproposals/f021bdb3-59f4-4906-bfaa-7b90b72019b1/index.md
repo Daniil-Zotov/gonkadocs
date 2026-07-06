@@ -5,7 +5,7 @@ template: proposals-main.html
 
 # 9. Team Gonka-API.org Grant Request
 
-<div class="preproposal-header">
+<div class="preproposal-header" markdown="1">
 
 <div class="preproposal-status">🟢 Active</div>
 
@@ -121,7 +121,7 @@ https://youtu.be/hwX_4_v6xxI
 
 ---
 
-<div class="preproposal-link">
+<div class="preproposal-link" markdown="1">
 
 [View on gonka.vote](https://gonka.vote/proposal/f021bdb3-59f4-4906-bfaa-7b90b72019b1)
 

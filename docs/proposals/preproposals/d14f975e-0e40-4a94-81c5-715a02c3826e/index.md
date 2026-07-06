@@ -5,7 +5,7 @@ template: proposals-main.html
 
 # Коэффициент для Kimi 2.6 - 1,87
 
-<div class="preproposal-header">
+<div class="preproposal-header" markdown="1">
 
 <div class="preproposal-status">🔴 Expired</div>
 
@@ -60,7 +60,7 @@ https://docs.google.com/spreadsheets/d/1IIONLiWCLAo8TKF5TNSX6Y0Byj_2MurfhA68W22v
 
 ---
 
-<div class="preproposal-link">
+<div class="preproposal-link" markdown="1">
 
 [View on gonka.vote](https://gonka.vote/proposal/d14f975e-0e40-4a94-81c5-715a02c3826e)
 

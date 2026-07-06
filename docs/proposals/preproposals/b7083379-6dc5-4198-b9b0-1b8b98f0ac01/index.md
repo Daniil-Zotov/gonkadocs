@@ -5,7 +5,7 @@ template: proposals-main.html
 
 # Улучшения для vote.gonka.vip
 
-<div class="preproposal-header">
+<div class="preproposal-header" markdown="1">
 
 <div class="preproposal-status">🟢 Active</div>
 
@@ -160,7 +160,7 @@ https://prnt.sc/ax9mlD-RDtuC
 
 ---
 
-<div class="preproposal-link">
+<div class="preproposal-link" markdown="1">
 
 [View on gonka.vote](https://gonka.vote/proposal/b7083379-6dc5-4198-b9b0-1b8b98f0ac01)
 

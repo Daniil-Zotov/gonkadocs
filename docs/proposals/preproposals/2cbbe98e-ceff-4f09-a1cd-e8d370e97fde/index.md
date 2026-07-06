@@ -5,7 +5,7 @@ template: proposals-main.html
 
 # Gonka NOP: ретроактивный грант + финансирование поддержки и новых фич.
 
-<div class="preproposal-header">
+<div class="preproposal-header" markdown="1">
 
 <div class="preproposal-status">🔴 Expired</div>
 
@@ -188,7 +188,7 @@ https://youtu.be/kQGPSxLaakE?t=1988
 
 ---
 
-<div class="preproposal-link">
+<div class="preproposal-link" markdown="1">
 
 [View on gonka.vote](https://gonka.vote/proposal/2cbbe98e-ceff-4f09-a1cd-e8d370e97fde)
 

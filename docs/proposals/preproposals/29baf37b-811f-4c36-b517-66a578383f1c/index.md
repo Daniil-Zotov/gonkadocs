@@ -5,7 +5,7 @@ template: proposals-main.html
 
 # Bring Gonka to EBC12 as a Gold Sponsor
 
-<div class="preproposal-header">
+<div class="preproposal-header" markdown="1">
 
 <div class="preproposal-status">🔴 Expired</div>
 
@@ -127,7 +127,7 @@ After the event, the community should receive a short report covering:
 
 ---
 
-<div class="preproposal-link">
+<div class="preproposal-link" markdown="1">
 
 [View on gonka.vote](https://gonka.vote/proposal/29baf37b-811f-4c36-b517-66a578383f1c)
 

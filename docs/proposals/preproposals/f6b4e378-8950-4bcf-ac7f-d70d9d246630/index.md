@@ -5,7 +5,7 @@ template: proposals-main.html
 
 # 12+1. Team EntroPi Grant Request
 
-<div class="preproposal-header">
+<div class="preproposal-header" markdown="1">
 
 <div class="preproposal-status">🟢 Active</div>
 
@@ -79,7 +79,7 @@ ihortanyenkoff
 
 ---
 
-<div class="preproposal-link">
+<div class="preproposal-link" markdown="1">
 
 [View on gonka.vote](https://gonka.vote/proposal/f6b4e378-8950-4bcf-ac7f-d70d9d246630)
 

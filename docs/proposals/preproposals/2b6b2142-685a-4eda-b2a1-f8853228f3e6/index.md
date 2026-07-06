@@ -5,7 +5,7 @@ template: proposals-main.html
 
 # 3. Team Gonka Wallet Grant Request
 
-<div class="preproposal-header">
+<div class="preproposal-header" markdown="1">
 
 <div class="preproposal-status">🟢 Active</div>
 
@@ -79,7 +79,7 @@ shtirbetsai
 
 ---
 
-<div class="preproposal-link">
+<div class="preproposal-link" markdown="1">
 
 [View on gonka.vote](https://gonka.vote/proposal/2b6b2142-685a-4eda-b2a1-f8853228f3e6)
 

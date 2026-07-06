@@ -5,7 +5,7 @@ template: proposals-main.html
 
 # International Marketing Campaign for Gonka — English-Speaking Markets
 
-<div class="preproposal-header">
+<div class="preproposal-header" markdown="1">
 
 <div class="preproposal-status">🟢 Active</div>
 
@@ -246,7 +246,7 @@ Bidders MUST submit:
 
 ---
 
-<div class="preproposal-link">
+<div class="preproposal-link" markdown="1">
 
 [View on gonka.vote](https://gonka.vote/proposal/28dcf8fb-3138-4e8b-adc0-0fb82962276c)
 

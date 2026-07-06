@@ -5,7 +5,7 @@ template: proposals-main.html
 
 # Большое видео на канале Falcon Finance (Александр Соколовский)
 
-<div class="preproposal-header">
+<div class="preproposal-header" markdown="1">
 
 <div class="preproposal-status">🔴 Expired</div>
 
@@ -261,7 +261,7 @@ GNK ок. С вестингом не хочется, так как в любом
 
 ---
 
-<div class="preproposal-link">
+<div class="preproposal-link" markdown="1">
 
 [View on gonka.vote](https://gonka.vote/proposal/550f71de-897f-4ce5-8af8-97854775f8b2)
 

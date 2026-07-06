@@ -5,7 +5,7 @@ template: proposals-main.html
 
 # External Test Lab & Community DevNet
 
-<div class="preproposal-header">
+<div class="preproposal-header" markdown="1">
 
 <div class="preproposal-status">🟢 Active</div>
 
@@ -252,7 +252,7 @@ The Project Lead and Infrastructure Lead receive no monthly compensation from th
 
 | Voter | Amount | Date |
 | :----- | :----- | :--- |
-| `gonka1gm...gzg6ry` | 400.0K GNK | 2026-07-06 17:48 |
+| `gonka1gm...gzg6ry` | 400.0K GNK | 2026-07-06 17:58 |
 
 ---
 
@@ -285,7 +285,7 @@ The Project Lead and Infrastructure Lead receive no monthly compensation from th
 
 ---
 
-<div class="preproposal-link">
+<div class="preproposal-link" markdown="1">
 
 [View on gonka.vote](https://gonka.vote/proposal/205219a5-6ed2-4f25-8d22-fa7c65a45ba6)
 

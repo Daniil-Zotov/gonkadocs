@@ -5,7 +5,7 @@ template: proposals-main.html
 
 # Стресс тест инфиренса
 
-<div class="preproposal-header">
+<div class="preproposal-header" markdown="1">
 
 <div class="preproposal-status">🔴 Expired</div>
 
@@ -162,7 +162,7 @@ DDOS тут рубится на брокере лимитом очч прост�
 
 ---
 
-<div class="preproposal-link">
+<div class="preproposal-link" markdown="1">
 
 [View on gonka.vote](https://gonka.vote/proposal/efc0edeb-bc49-4c6b-a6e7-5b20ccfbe571)
 

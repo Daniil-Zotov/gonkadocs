@@ -5,7 +5,7 @@ template: proposals-main.html
 
 # 10. Team Alexander Kuprin Grant Request
 
-<div class="preproposal-header">
+<div class="preproposal-header" markdown="1">
 
 <div class="preproposal-status">🟢 Active</div>
 
@@ -104,7 +104,7 @@ alexanderkuprin_
 
 ---
 
-<div class="preproposal-link">
+<div class="preproposal-link" markdown="1">
 
 [View on gonka.vote](https://gonka.vote/proposal/59175b49-b83f-4aa6-98f5-b27fffb23cd8)
 
