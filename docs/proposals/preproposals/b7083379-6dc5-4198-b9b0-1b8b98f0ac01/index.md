@@ -9,14 +9,12 @@ template: proposals-main.html
 
 <div class="preproposal-status">🟢 Active</div>
 
-| | |
-|:---|:---|
-| **Author** | Alex A.A. |
-| **Created** | 2026-04-25 20:08 UTC |
-| **Closes** | 2026-12-24 21:08 UTC |
-| **Language** | RU |
-| **Votes** | 1 |
-| **Avg. Bid** | 10.0K GNK |
+**Author:** Alex A.A.
+**Created:** 2026-04-25 20:08 UTC
+**Closes:** 2026-12-24 21:08 UTC
+**Language:** RU
+**Votes:** 1
+**Avg. Bid:** 10.0K GNK
 
 </div>
 

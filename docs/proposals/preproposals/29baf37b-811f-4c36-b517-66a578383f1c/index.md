@@ -9,14 +9,12 @@ template: proposals-main.html
 
 <div class="preproposal-status">🔴 Expired</div>
 
-| | |
-|:---|:---|
-| **Author** | Heydar Naghiyev |
-| **Created** | 2026-05-21 08:31 UTC |
-| **Closes** | 2026-06-04 08:31 UTC |
-| **Language** | EN |
-| **Votes** | 2 |
-| **Avg. Bid** | 50.0K GNK |
+**Author:** Heydar Naghiyev
+**Created:** 2026-05-21 08:31 UTC
+**Closes:** 2026-06-04 08:31 UTC
+**Language:** EN
+**Votes:** 2
+**Avg. Bid:** 50.0K GNK
 
 </div>
 

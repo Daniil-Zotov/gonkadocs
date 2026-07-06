@@ -9,14 +9,12 @@ template: proposals-main.html
 
 <div class="preproposal-status">🟢 Active</div>
 
-| | |
-|:---|:---|
-| **Author** | Andrey Orlov |
-| **Created** | 2026-07-03 15:10 UTC |
-| **Closes** | 2026-08-03 00:09 UTC |
-| **Language** | RU |
-| **Votes** | 1 |
-| **Avg. Bid** | 1.0M GNK |
+**Author:** Andrey Orlov
+**Created:** 2026-07-03 15:10 UTC
+**Closes:** 2026-08-03 00:09 UTC
+**Language:** RU
+**Votes:** 1
+**Avg. Bid:** 1.0M GNK
 
 </div>
 

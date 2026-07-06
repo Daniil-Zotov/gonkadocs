@@ -9,14 +9,12 @@ template: proposals-main.html
 
 <div class="preproposal-status">🔴 Expired</div>
 
-| | |
-|:---|:---|
-| **Author** | Alex Sharoiko Александр Шаройко |
-| **Created** | 2026-05-13 08:19 UTC |
-| **Closes** | 2026-05-20 07:08 UTC |
-| **Language** | RU |
-| **Votes** | 1 |
-| **Avg. Bid** | 10.0K GNK |
+**Author:** Alex Sharoiko Александр Шаройко
+**Created:** 2026-05-13 08:19 UTC
+**Closes:** 2026-05-20 07:08 UTC
+**Language:** RU
+**Votes:** 1
+**Avg. Bid:** 10.0K GNK
 
 </div>
 

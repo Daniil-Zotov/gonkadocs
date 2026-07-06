@@ -9,14 +9,12 @@ template: proposals-main.html
 
 <div class="preproposal-status">🔴 Expired</div>
 
-| | |
-|:---|:---|
-| **Author** | Mikhail Chudinov |
-| **Created** | 2026-04-27 23:30 UTC |
-| **Closes** | 2026-05-11 23:30 UTC |
-| **Language** | RU |
-| **Votes** | 91 |
-| **Avg. Bid** | 39.1K GNK |
+**Author:** Mikhail Chudinov
+**Created:** 2026-04-27 23:30 UTC
+**Closes:** 2026-05-11 23:30 UTC
+**Language:** RU
+**Votes:** 91
+**Avg. Bid:** 39.1K GNK
 
 </div>
 

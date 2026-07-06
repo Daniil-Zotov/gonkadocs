@@ -9,14 +9,12 @@ template: proposals-main.html
 
 <div class="preproposal-status">🔴 Expired</div>
 
-| | |
-|:---|:---|
-| **Author** | Serhii Hovorov |
-| **Created** | 2026-05-01 21:04 UTC |
-| **Closes** | 2026-05-08 21:04 UTC |
-| **Language** | EN |
-| **Votes** | 5 |
-| **Avg. Bid** | 20.0K GNK |
+**Author:** Serhii Hovorov
+**Created:** 2026-05-01 21:04 UTC
+**Closes:** 2026-05-08 21:04 UTC
+**Language:** EN
+**Votes:** 5
+**Avg. Bid:** 20.0K GNK
 
 </div>
 

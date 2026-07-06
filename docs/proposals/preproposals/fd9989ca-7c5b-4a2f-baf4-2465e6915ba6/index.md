@@ -9,14 +9,12 @@ template: proposals-main.html
 
 <div class="preproposal-status">🟢 Active</div>
 
-| | |
-|:---|:---|
-| **Author** | Victor |
-| **Created** | 2026-06-12 21:31 UTC |
-| **Closes** | 2026-09-10 21:31 UTC |
-| **Language** | RU |
-| **Votes** | 1 |
-| **Avg. Bid** | 10.0K GNK |
+**Author:** Victor
+**Created:** 2026-06-12 21:31 UTC
+**Closes:** 2026-09-10 21:31 UTC
+**Language:** RU
+**Votes:** 1
+**Avg. Bid:** 10.0K GNK
 
 </div>
 

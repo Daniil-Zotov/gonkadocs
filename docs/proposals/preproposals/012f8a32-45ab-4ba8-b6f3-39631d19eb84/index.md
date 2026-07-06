@@ -9,14 +9,12 @@ template: proposals-main.html
 
 <div class="preproposal-status">🔴 Expired</div>
 
-| | |
-|:---|:---|
-| **Author** | Evgenii Maksimenkov |
-| **Created** | 2026-05-01 05:34 UTC |
-| **Closes** | 2026-05-08 05:34 UTC |
-| **Language** | EN |
-| **Votes** | 70 |
-| **Avg. Bid** | 3.1M GNK |
+**Author:** Evgenii Maksimenkov
+**Created:** 2026-05-01 05:34 UTC
+**Closes:** 2026-05-08 05:34 UTC
+**Language:** EN
+**Votes:** 70
+**Avg. Bid:** 3.1M GNK
 
 </div>
 

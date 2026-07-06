@@ -9,14 +9,12 @@ template: proposals-main.html
 
 <div class="preproposal-status">🟢 Active</div>
 
-| | |
-|:---|:---|
-| **Author** | Igor Alexeev |
-| **Created** | 2026-06-13 15:40 UTC |
-| **Closes** | 2026-07-14 00:41 UTC |
-| **Language** | EN |
-| **Votes** | 1 |
-| **Avg. Bid** | 10.0K GNK |
+**Author:** Igor Alexeev
+**Created:** 2026-06-13 15:40 UTC
+**Closes:** 2026-07-14 00:41 UTC
+**Language:** EN
+**Votes:** 1
+**Avg. Bid:** 10.0K GNK
 
 </div>
 

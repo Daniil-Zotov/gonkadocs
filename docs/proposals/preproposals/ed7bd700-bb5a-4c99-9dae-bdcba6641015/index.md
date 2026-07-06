@@ -9,14 +9,12 @@ template: proposals-main.html
 
 <div class="preproposal-status">🟢 Active</div>
 
-| | |
-|:---|:---|
-| **Author** | Evgenii Maksimenkov |
-| **Created** | 2026-04-25 06:46 UTC |
-| **Closes** | 2026-07-24 06:45 UTC |
-| **Language** | EN |
-| **Votes** | 3 |
-| **Avg. Bid** | 50.0K GNK |
+**Author:** Evgenii Maksimenkov
+**Created:** 2026-04-25 06:46 UTC
+**Closes:** 2026-07-24 06:45 UTC
+**Language:** EN
+**Votes:** 3
+**Avg. Bid:** 50.0K GNK
 
 </div>
 

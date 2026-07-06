@@ -9,14 +9,12 @@ template: proposals-main.html
 
 <div class="preproposal-status">🟢 Active</div>
 
-| | |
-|:---|:---|
-| **Author** | Sergii Paranko |
-| **Created** | 2026-07-04 12:00 UTC |
-| **Closes** | 2026-07-14 11:44 UTC |
-| **Language** | EN |
-| **Votes** | 1 |
-| **Avg. Bid** | 400.0K GNK |
+**Author:** Sergii Paranko
+**Created:** 2026-07-04 12:00 UTC
+**Closes:** 2026-07-14 11:44 UTC
+**Language:** EN
+**Votes:** 1
+**Avg. Bid:** 400.0K GNK
 
 </div>
 
@@ -254,7 +252,7 @@ The Project Lead and Infrastructure Lead receive no monthly compensation from th
 
 | Voter | Amount | Date |
 | :----- | :----- | :--- |
-| `gonka1gm...gzg6ry` | 400.0K GNK | 2026-07-06 17:44 |
+| `gonka1gm...gzg6ry` | 400.0K GNK | 2026-07-06 17:48 |
 
 ---
 

@@ -9,14 +9,12 @@ template: proposals-main.html
 
 <div class="preproposal-status">🟢 Active</div>
 
-| | |
-|:---|:---|
-| **Author** | Slava MSE! |
-| **Created** | 2026-06-11 05:43 UTC |
-| **Closes** | 2026-09-09 05:43 UTC |
-| **Language** | EN |
-| **Votes** | 0 |
-| **Avg. Bid** | 0.00 GNK |
+**Author:** Slava MSE!
+**Created:** 2026-06-11 05:43 UTC
+**Closes:** 2026-09-09 05:43 UTC
+**Language:** EN
+**Votes:** 0
+**Avg. Bid:** 0.00 GNK
 
 </div>
 

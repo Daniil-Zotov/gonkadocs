@@ -9,14 +9,12 @@ template: proposals-main.html
 
 <div class="preproposal-status">🔴 Expired</div>
 
-| | |
-|:---|:---|
-| **Author** | Дмитрий В |
-| **Created** | 2026-04-28 23:39 UTC |
-| **Closes** | 2026-05-28 23:38 UTC |
-| **Language** | RU |
-| **Votes** | 2 |
-| **Avg. Bid** | 100.0K GNK |
+**Author:** Дмитрий В
+**Created:** 2026-04-28 23:39 UTC
+**Closes:** 2026-05-28 23:38 UTC
+**Language:** RU
+**Votes:** 2
+**Avg. Bid:** 100.0K GNK
 
 </div>
 

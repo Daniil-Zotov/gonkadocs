@@ -9,14 +9,12 @@ template: proposals-main.html
 
 <div class="preproposal-status">🟢 Active</div>
 
-| | |
-|:---|:---|
-| **Author** | Dem \| Démíngān |
-| **Created** | 2026-07-03 15:58 UTC |
-| **Closes** | 2026-07-10 15:58 UTC |
-| **Language** | EN |
-| **Votes** | 1 |
-| **Avg. Bid** | 10.0K GNK |
+**Author:** Dem \| Démíngān
+**Created:** 2026-07-03 15:58 UTC
+**Closes:** 2026-07-10 15:58 UTC
+**Language:** EN
+**Votes:** 1
+**Avg. Bid:** 10.0K GNK
 
 </div>
 

@@ -211,14 +211,12 @@ template: proposals-main.html
 
 <div class="preproposal-status">{status}</div>
 
-| | |
-|:---|:---|
-| **Author** | {creator_name} |
-| **Created** | {created_at} |
-| **Closes** | {closes_at} |
-| **Language** | {source_lang.upper()} |
-| **Votes** | {voter_count} |
-| **Avg. Bid** | {weighted_bid} |
+**Author:** {creator_name}
+**Created:** {created_at}
+**Closes:** {closes_at}
+**Language:** {source_lang.upper()}
+**Votes:** {voter_count}
+**Avg. Bid:** {weighted_bid}
 
 </div>
 
