@@ -90,6 +90,24 @@
 {{ super() }}
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+  // Expand Community and Issues nav sections in left sidebar
+  var navSections = document.querySelectorAll('.md-nav--primary .md-nav');
+  navSections.forEach(function(nav) {
+    var label = nav.querySelector('.md-nav__title');
+    if (label) {
+      var text = label.textContent.trim();
+      if (text === 'Community' || text === 'Issues') {
+        nav.setAttribute('aria-expanded', 'true');
+        // Also check the corresponding toggle checkbox
+        var htmlFor = label.getAttribute('for');
+        if (htmlFor) {
+          var checkbox = document.getElementById(htmlFor);
+          if (checkbox) checkbox.checked = true;
+        }
+      }
+    }
+  });
+
   // Move issues sidebar out of article to be sibling inside md-content
   var sidebar = document.querySelector('.md-sidebar--issues');
   var content = document.querySelector('.md-content');
