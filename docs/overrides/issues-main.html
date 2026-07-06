@@ -96,18 +96,33 @@
 {{ super() }}
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  // Replace left sidebar nav with issues navigation
-  var primaryNav = document.querySelector('.md-sidebar--primary .md-nav--primary');
-  var issuesNav = document.querySelector('.md-nav--issues');
-  if (primaryNav && issuesNav) {
-    var clonedNav = issuesNav.cloneNode(true);
-    clonedNav.className = 'md-nav md-nav--primary';
-    clonedNav.setAttribute('aria-label', 'Issues nav');
-    var title = clonedNav.querySelector('.md-nav__title');
-    if (title) {
-      title.innerHTML = '<span class="md-nav__icon md-icon"></span> Issues';
-    }
-    primaryNav.parentNode.replaceChild(clonedNav, primaryNav);
+  // Expand Community section and highlight Issues on issue pages
+  var currentPath = window.location.pathname;
+
+  if (currentPath.indexOf('/community/issues/') !== -1) {
+    // Find all nav items and expand the Community section
+    var navItems = document.querySelectorAll('.md-nav--primary .md-nav__item');
+    navItems.forEach(function(item) {
+      var link = item.querySelector('.md-nav__link');
+      if (link) {
+        var href = link.getAttribute('href');
+        // Expand Community section
+        if (href && href.indexOf('/community/') !== -1 && href.indexOf('/community/issues/') === -1) {
+          item.classList.add('md-nav__item--active');
+          var toggle = item.querySelector('.md-nav__toggle');
+          if (toggle) toggle.checked = true;
+        }
+      }
+    });
+
+    // Mark Issues link as active
+    var issuesLinks = document.querySelectorAll('.md-nav--primary .md-nav__link');
+    issuesLinks.forEach(function(link) {
+      var href = link.getAttribute('href');
+      if (href && href.indexOf('/community/issues/') !== -1 && href.indexOf('/community/issues/labels/') === -1) {
+        link.classList.add('md-nav__link--active');
+      }
+    });
   }
 
   // Move issues sidebar out of article to be sibling inside md-content
