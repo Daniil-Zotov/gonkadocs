@@ -76,7 +76,6 @@
 .issues-title a:hover {
   color: var(--md-accent-fg-color);
   text-decoration: underline;
-  font-weight: 700;
 }
 
 .issues-number {
@@ -157,7 +156,6 @@
 
 .issues-meta-item a:hover {
   color: var(--md-accent-fg-color);
-  font-weight: 600;
 }
 
 /* == 5. Issue detail page ==================================== */
