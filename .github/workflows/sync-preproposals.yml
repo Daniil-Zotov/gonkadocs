@@ -2,7 +2,7 @@ name: Sync gonka.vote Pre-Proposals
 
 on:
   schedule:
-    - cron: "0 */6 * * *"   # каждые 6 часов (на час раньше, чем issues)
+    - cron: "10 */1 * * *"   # every hour at :10
   workflow_dispatch:
 
 permissions:

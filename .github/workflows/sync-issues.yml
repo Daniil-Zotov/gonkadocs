@@ -2,7 +2,7 @@ name: Sync gonka-ai/gonka Issues
 
 on:
   schedule:
-    - cron: "30 */6 * * *"   # каждые 6 часов (30 мин после discussions)
+    - cron: "25 */1 * * *"   # every hour at :25
   workflow_dispatch:
 
 permissions:

@@ -166,7 +166,7 @@ def build_discussion_md(d):
         f"synced_at: {sync_time}",
         "---",
         "",
-        f"> 🔄 **Авто-синхронизация:** из [Discussion #{d['number']}]({d['url']}) каждые 6 часов. ",
+        f"> 🔄 **Auto-sync:** from [Discussion #{d['number']}]({d['url']}) every hour. ",
         "",
         f"# {d['title']}",
         "",

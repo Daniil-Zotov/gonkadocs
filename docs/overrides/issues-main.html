@@ -96,18 +96,16 @@
 {% block scripts %}
 {{ super() }}
 <script>
-document.addEventListener('DOMContentLoaded', function() {
+function initIssuePage() {
   // Expand Community section and highlight Issues on issue pages
   var currentPath = window.location.pathname;
 
   if (currentPath.indexOf('/community/issues/') !== -1) {
-    // Find all nav items and expand the Community section
     var navItems = document.querySelectorAll('.md-nav--primary .md-nav__item');
     navItems.forEach(function(item) {
       var link = item.querySelector('.md-nav__link');
       if (link) {
         var href = link.getAttribute('href');
-        // Expand Community section
         if (href && href.indexOf('/community/') !== -1 && href.indexOf('/community/issues/') === -1) {
           item.classList.add('md-nav__item--active');
           var toggle = item.querySelector('.md-nav__toggle');
@@ -116,7 +114,6 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
 
-    // Mark Issues link as active
     var issuesLinks = document.querySelectorAll('.md-nav--primary .md-nav__link');
     issuesLinks.forEach(function(link) {
       var href = link.getAttribute('href');
@@ -126,10 +123,15 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
+  // Remove stale old sidebars moved in previous instant loads
+  var oldSidebars = document.querySelectorAll('.md-sidebar--issues[data-moved]');
+  oldSidebars.forEach(function(el) { el.remove(); });
+
   // Move issues sidebar out of article to be sibling inside md-content
   var sidebar = document.querySelector('.md-sidebar--issues');
   var content = document.querySelector('.md-content');
-  if (sidebar && content) {
+  if (sidebar && content && !sidebar.hasAttribute('data-moved')) {
+    sidebar.setAttribute('data-moved', 'true');
     content.appendChild(sidebar);
   }
 
@@ -138,6 +140,11 @@ document.addEventListener('DOMContentLoaded', function() {
   if (!list) return;
   var items = list.querySelectorAll('.issues-list-item');
   if (!items.length) return;
+
+  // Avoid duplicate filter
+  if (list.previousElementSibling && list.previousElementSibling.classList.contains('issues-filter')) {
+    list.previousElementSibling.remove();
+  }
 
   var filter = document.createElement('div');
   filter.className = 'issues-filter';
@@ -167,7 +174,11 @@ document.addEventListener('DOMContentLoaded', function() {
   cbOpen.addEventListener('change', applyFilter);
   cbClosed.addEventListener('change', applyFilter);
   applyFilter();
-});
+}
+
+document.addEventListener('DOMContentLoaded', initIssuePage);
+// Support MkDocs Material navigation.instant (PJAX) loads
+document.addEventListener('mdx-instant-loading', initIssuePage);
 </script>
 {% endblock %}
 

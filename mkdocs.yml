@@ -82,7 +82,7 @@ nav:
 theme:
   name: material
   custom_dir: docs/overrides   
-  language: ru
+  language: en
   logo: images/01-favicon.png      # логотип в шапке (опционально)
   favicon: images/01-favicon.png   # ← это favicon
   font:

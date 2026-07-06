@@ -2,7 +2,7 @@ name: Sync all GitHub Discussions
 
 on:
   schedule:
-    - cron: "15 */6 * * *"   # каждые 6 часов
+    - cron: "5 */1 * * *"   # every hour at :05
   workflow_dispatch:
 
 permissions:

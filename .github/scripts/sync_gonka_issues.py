@@ -342,7 +342,7 @@ template: issues-main.html
     out += f"""
 ---
 
-> 🔄 **Auto-synced** from [Issue #{number}]({issue['html_url']}) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #{number}]({issue['html_url']}) every hour.
 """
     return out
 

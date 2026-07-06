@@ -9,7 +9,7 @@ Unified documentation portal for [Gonka](https://gonka.ai) — a decentralized A
 ## Portal Structure
 
 ### Protocol Documentation (`/gonka/docs/`)
-Auto-synced from [gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs) every 6 hours.
+Auto-synced from [gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs) every hour.
 
 - **Architecture** — inference flows, Proof of Compute, epochs
 - **Developer Quickstart** — inference via brokers (OpenAI-compatible API)
@@ -21,12 +21,24 @@ Auto-synced from [gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs) e
 - Languages: English, 中文
 
 ### GitHub Discussions (`/community/discussion/`)
-Auto-synced from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions) every 6 hours.
+Auto-synced from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions) every hour.
 
 - **Proposals** — technical and funding proposals
 - **Show and Tell** — community projects
 - **Q&A** — best practices, technical questions
 - **General** — network reliability, governance
+
+### GitHub Issues (`/community/issues/`)
+Auto-synced from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues) every hour.
+
+- Full issue tracker with labels, status filters, and comments
+- Label-based navigation
+
+### Pre-Proposals (`/proposals/preproposals/`)
+Auto-synced from [gonka.vote](https://gonka.vote) every hour.
+
+- Community proposals with vote tallies and comments
+- Active and expired proposal tracking
 
 ### Community (`/community/`)
 - **Roadmap** — three-horizon development strategy
@@ -112,16 +124,18 @@ buildtools/build.sh
 
 ## Auto-Sync
 
-4 GitHub Actions workflows automatically update content and AI files:
+7 GitHub Actions workflows automatically update content every hour:
 
-| Workflow | Source | Interval | Syncs |
-|----------|--------|----------|-------|
-| `sync-gonka-ai-docs.yml` | gonka-ai/gonka-docs | every 6h | Protocol documentation |
-| `sync-discussions.yml` | gonka-ai/gonka (GraphQL) | every 6h | GitHub Discussions |
-| `sync-gdocs.yml` | Google Docs | every 6h | GSC regulation |
-| `sync-roadmap.yml` | gonka-ai/gonka | every 24h | Roadmap |
+| Workflow | Source | Syncs |
+|----------|--------|-------|
+| `sync-gonka-ai-docs.yml` | gonka-ai/gonka-docs | Protocol documentation |
+| `sync-discussions.yml` | gonka-ai/gonka (GraphQL) | GitHub Discussions |
+| `sync-issues.yml` | gonka-ai/gonka (REST) | GitHub Issues |
+| `sync-preproposals.yml` | gonka.vote (REST) | Pre-Proposals |
+| `sync-gdocs.yml` | Google Docs | GSC regulation |
+| `sync-roadmap.yml` | gonka-ai/gonka | Roadmap |
 
-Each sync workflow automatically regenerates `llms.txt` and `llms-full.txt` after content updates.
+All sync workflows regenerate `llms.txt` and `llms-full.txt` after each update.
 
 ---
 
@@ -167,15 +181,20 @@ gonkadocs/
 │   │   └── discussion/           # GitHub Discussions (synced)
 │   ├── community/
 │   │   ├── discussion/           # Discussions (synced)
+│   │   ├── issues/               # GitHub Issues (synced)
 │   │   ├── roadmap/              # Roadmap (synced)
 │   │   ├── grc/                  # Restitution committee
 │   │   └── gsc/                  # Self-regulation committee (synced)
-│   └── proposals/                # On-chain proposals
+│   └── proposals/                # On-chain proposals + Pre-Proposals (synced)
+├── hooks/
+│   └── issues_nav.py             # MkDocs hook for issue page navigation
 ├── mcp.json                      # MCP server config
 └── .github/workflows/
     ├── deploy-docs.yml           # Deploy to GitHub Pages
     ├── sync-gonka-ai-docs.yml    # Sync documentation
     ├── sync-discussions.yml      # Sync discussions
+    ├── sync-issues.yml           # Sync issues
+    ├── sync-preproposals.yml     # Sync pre-proposals
     ├── sync-gdocs.yml            # Sync Google Docs
     └── sync-roadmap.yml          # Sync roadmap
 ```
