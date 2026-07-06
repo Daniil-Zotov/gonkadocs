@@ -375,6 +375,52 @@ def main():
 
     print(f"Done. Written to {OUTPUT_DIR}")
 
+    update_mkdocs_nav(active, expired)
+
+
+def update_mkdocs_nav(active, expired):
+    """Update mkdocs.yml nav section with all pre-proposals."""
+    mkdocs_path = Path("mkdocs.yml")
+    if not mkdocs_path.exists():
+        print("mkdocs.yml not found, skipping nav update")
+        return
+
+    content = mkdocs_path.read_text(encoding="utf-8")
+
+    nav_lines = []
+    nav_lines.append("    - Pre-Proposals:")
+    nav_lines.append("      - Overview: proposals/preproposals/index.md")
+
+    if active:
+        nav_lines.append("      - Active:")
+        for p in sorted(active, key=lambda x: x.get("closes_at", "")):
+            pid = p["id"]
+            title = clean_title(p.get("title", "Untitled"))
+            title_esc = title.replace('"', '\\"')
+            nav_lines.append(f"        - \"{title_esc}\": proposals/preproposals/{pid}/index.md")
+
+    if expired:
+        nav_lines.append("      - Expired:")
+        for p in sorted(expired, key=lambda x: x.get("closes_at", ""), reverse=True):
+            pid = p["id"]
+            title = clean_title(p.get("title", "Untitled"))
+            title_esc = title.replace('"', '\\"')
+            nav_lines.append(f"        - \"{title_esc}\": proposals/preproposals/{pid}/index.md")
+
+    new_nav = "\n".join(nav_lines)
+
+    pattern = r"    - Pre-Proposals:.*?(?=\n  - )"
+    replacement = new_nav
+
+    new_content = re.sub(pattern, replacement, content, flags=re.DOTALL)
+
+    if new_content == content:
+        print("Warning: nav replacement failed, mkdocs.yml unchanged")
+        return
+
+    mkdocs_path.write_text(new_content, encoding="utf-8")
+    print(f"Updated mkdocs.yml nav with {len(active)} active + {len(expired)} expired proposals")
+
 
 if __name__ == "__main__":
     main()
