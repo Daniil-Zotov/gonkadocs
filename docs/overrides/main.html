@@ -8,6 +8,66 @@
 {% block header %}
   {{ super() }}
   <script>
+    function initCommunityNav() {
+      var path = window.location.pathname.replace(/\/$/, '');
+
+      function expandNav(id) {
+        var toggle = document.getElementById(id);
+        if (toggle) toggle.checked = true;
+      }
+
+      function resolvePath(href) {
+        try {
+          return new URL(href, window.location.href).pathname.replace(/\/$/, '');
+        } catch (e) {
+          return '';
+        }
+      }
+
+      function activateLink(link) {
+        link.classList.add('md-nav__link--active');
+        var item = link.closest('.md-nav__item');
+        if (item) item.classList.add('md-nav__item--active');
+      }
+
+      if (path.indexOf('/community/issues/') === -1 &&
+          path.indexOf('/community/discussion/') === -1) {
+        return;
+      }
+
+      expandNav('__nav_2');
+
+      if (path.indexOf('/community/issues/') !== -1) {
+        expandNav('__nav_2_6');
+        var isLabel = path.indexOf('/community/issues/labels/') !== -1;
+        document.querySelectorAll('.md-sidebar--primary .md-nav__link').forEach(function(link) {
+          var linkPath = resolvePath(link.getAttribute('href'));
+          if (!linkPath) return;
+          if (isLabel) {
+            if (linkPath === path) activateLink(link);
+          } else if (linkPath === '/community/issues') {
+            activateLink(link);
+          }
+        });
+        return;
+      }
+
+      expandNav('__nav_2_5');
+      var bestLink = null;
+      var bestLen = 0;
+      document.querySelectorAll('.md-sidebar--primary .md-nav__link').forEach(function(link) {
+        var linkPath = resolvePath(link.getAttribute('href'));
+        if (!linkPath || linkPath.indexOf('/community/discussion/') === -1) return;
+        if (path === linkPath || path.indexOf(linkPath + '/') === 0) {
+          if (linkPath.length > bestLen) {
+            bestLink = link;
+            bestLen = linkPath.length;
+          }
+        }
+      });
+      if (bestLink) activateLink(bestLink);
+    }
+
     document$.subscribe(function() {
       var title = document.querySelector('.md-header__title');
       if (title && !title.querySelector('a')) {
@@ -18,6 +78,7 @@
         title.innerHTML = '';
         title.appendChild(a);
       }
+      initCommunityNav();
     });
   </script>
 {% endblock %}

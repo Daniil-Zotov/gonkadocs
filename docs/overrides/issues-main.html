@@ -1,4 +1,4 @@
-{% extends "base.html" %}
+{% extends "main.html" %}
 
 {% block extrahead %}
 <style>
@@ -21,13 +21,16 @@
   .md-content__inner {
     flex: 1;
     min-width: 0;
+    order: 1;
   }
 
   .md-sidebar--issues {
+    display: block;
+    order: 2;
     position: sticky;
     top: 76px;
-    height: calc(100vh - 76px);
-    overflow-y: hidden;
+    height: calc(100vh - 76px) !important;
+    overflow-y: auto;
     flex-shrink: 0;
     width: 240px;
     min-width: 240px;
@@ -97,32 +100,6 @@
 {{ super() }}
 <script>
 function initIssuePage() {
-  // Expand Community section and highlight Issues on issue pages
-  var currentPath = window.location.pathname;
-
-  if (currentPath.indexOf('/community/issues/') !== -1) {
-    var navItems = document.querySelectorAll('.md-nav--primary .md-nav__item');
-    navItems.forEach(function(item) {
-      var link = item.querySelector('.md-nav__link');
-      if (link) {
-        var href = link.getAttribute('href');
-        if (href && href.indexOf('/community/') !== -1 && href.indexOf('/community/issues/') === -1) {
-          item.classList.add('md-nav__item--active');
-          var toggle = item.querySelector('.md-nav__toggle');
-          if (toggle) toggle.checked = true;
-        }
-      }
-    });
-
-    var issuesLinks = document.querySelectorAll('.md-nav--primary .md-nav__link');
-    issuesLinks.forEach(function(link) {
-      var href = link.getAttribute('href');
-      if (href && href.indexOf('/community/issues/') !== -1 && href.indexOf('/community/issues/labels/') === -1) {
-        link.classList.add('md-nav__link--active');
-      }
-    });
-  }
-
   // Remove stale old sidebars moved in previous instant loads
   var oldSidebars = document.querySelectorAll('.md-sidebar--issues[data-moved]');
   oldSidebars.forEach(function(el) { el.remove(); });
@@ -176,9 +153,7 @@ function initIssuePage() {
   applyFilter();
 }
 
-document.addEventListener('DOMContentLoaded', initIssuePage);
-// Support MkDocs Material navigation.instant (PJAX) loads
-document.addEventListener('mdx-instant-loading', initIssuePage);
+document$.subscribe(initIssuePage);
 </script>
 {% endblock %}
 
