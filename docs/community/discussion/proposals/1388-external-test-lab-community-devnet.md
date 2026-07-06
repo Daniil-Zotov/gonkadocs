@@ -3,10 +3,10 @@ title: "#1388 — External Test Lab & Community DevNet"
 source: https://github.com/gonka-ai/gonka/discussions/1388
 discussion_number: 1388
 category: proposals
-synced_at: 2026-07-06T20:14:34Z
+synced_at: 2026-07-06T22:22:42Z
 ---
 
-> 🔄 **Авто-синхронизация:** из [Discussion #1388](https://github.com/gonka-ai/gonka/discussions/1388) каждые 6 часов. 
+> 🔄 **Auto-sync:** from [Discussion #1388](https://github.com/gonka-ai/gonka/discussions/1388) every hour. 
 
 # External Test Lab & Community DevNet
 

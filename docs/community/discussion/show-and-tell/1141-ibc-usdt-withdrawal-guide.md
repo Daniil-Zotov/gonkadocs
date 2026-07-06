@@ -3,10 +3,10 @@ title: "#1141 — IBC USDT Withdrawal Guide"
 source: https://github.com/gonka-ai/gonka/discussions/1141
 discussion_number: 1141
 category: show-and-tell
-synced_at: 2026-07-06T20:14:39Z
+synced_at: 2026-07-06T22:22:47Z
 ---
 
-> 🔄 **Авто-синхронизация:** из [Discussion #1141](https://github.com/gonka-ai/gonka/discussions/1141) каждые 6 часов. 
+> 🔄 **Auto-sync:** from [Discussion #1141](https://github.com/gonka-ai/gonka/discussions/1141) every hour. 
 
 # IBC USDT Withdrawal Guide
 

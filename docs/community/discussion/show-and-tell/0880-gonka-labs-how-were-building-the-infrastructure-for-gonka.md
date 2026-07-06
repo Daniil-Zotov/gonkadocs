@@ -3,10 +3,10 @@ title: "#880 — Gonka Labs: How We're Building the Infrastructure for Gonka"
 source: https://github.com/gonka-ai/gonka/discussions/880
 discussion_number: 880
 category: show-and-tell
-synced_at: 2026-07-06T20:14:48Z
+synced_at: 2026-07-06T22:22:55Z
 ---
 
-> 🔄 **Авто-синхронизация:** из [Discussion #880](https://github.com/gonka-ai/gonka/discussions/880) каждые 6 часов. 
+> 🔄 **Auto-sync:** from [Discussion #880](https://github.com/gonka-ai/gonka/discussions/880) every hour. 
 
 # Gonka Labs: How We're Building the Infrastructure for Gonka
 

@@ -3,10 +3,10 @@ title: "#1044 — Gonka AI x OpenCode"
 source: https://github.com/gonka-ai/gonka/discussions/1044
 discussion_number: 1044
 category: show-and-tell
-synced_at: 2026-07-06T20:14:44Z
+synced_at: 2026-07-06T22:22:52Z
 ---
 
-> 🔄 **Авто-синхронизация:** из [Discussion #1044](https://github.com/gonka-ai/gonka/discussions/1044) каждые 6 часов. 
+> 🔄 **Auto-sync:** from [Discussion #1044](https://github.com/gonka-ai/gonka/discussions/1044) every hour. 
 
 # Gonka AI x OpenCode
 

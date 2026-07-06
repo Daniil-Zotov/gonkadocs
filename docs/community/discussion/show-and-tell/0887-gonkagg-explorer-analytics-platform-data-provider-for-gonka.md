@@ -3,10 +3,10 @@ title: "#887 — Gonka.gg - Explorer, Analytics Platform, Data Provider for Gonk
 source: https://github.com/gonka-ai/gonka/discussions/887
 discussion_number: 887
 category: show-and-tell
-synced_at: 2026-07-06T20:14:48Z
+synced_at: 2026-07-06T22:22:55Z
 ---
 
-> 🔄 **Авто-синхронизация:** из [Discussion #887](https://github.com/gonka-ai/gonka/discussions/887) каждые 6 часов. 
+> 🔄 **Auto-sync:** from [Discussion #887](https://github.com/gonka-ai/gonka/discussions/887) every hour. 
 
 # Gonka.gg - Explorer, Analytics Platform, Data Provider for Gonka
 

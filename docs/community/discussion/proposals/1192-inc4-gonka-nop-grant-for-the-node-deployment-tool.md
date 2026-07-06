@@ -3,10 +3,10 @@ title: "#1192 — INC4 | Gonka NOP - grant for the node deployment tool"
 source: https://github.com/gonka-ai/gonka/discussions/1192
 discussion_number: 1192
 category: proposals
-synced_at: 2026-07-06T20:14:40Z
+synced_at: 2026-07-06T22:22:48Z
 ---
 
-> 🔄 **Авто-синхронизация:** из [Discussion #1192](https://github.com/gonka-ai/gonka/discussions/1192) каждые 6 часов. 
+> 🔄 **Auto-sync:** from [Discussion #1192](https://github.com/gonka-ai/gonka/discussions/1192) every hour. 
 
 # INC4 | Gonka NOP - grant for the node deployment tool
 

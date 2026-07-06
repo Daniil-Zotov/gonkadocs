@@ -3,10 +3,10 @@ title: "#802 — Continuous PoC"
 source: https://github.com/gonka-ai/gonka/discussions/802
 discussion_number: 802
 category: proposals
-synced_at: 2026-07-06T20:14:50Z
+synced_at: 2026-07-06T22:22:57Z
 ---
 
-> 🔄 **Авто-синхронизация:** из [Discussion #802](https://github.com/gonka-ai/gonka/discussions/802) каждые 6 часов. 
+> 🔄 **Auto-sync:** from [Discussion #802](https://github.com/gonka-ai/gonka/discussions/802) every hour. 
 
 # Continuous PoC
 

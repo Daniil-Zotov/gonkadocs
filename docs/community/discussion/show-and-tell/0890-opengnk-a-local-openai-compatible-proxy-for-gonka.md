@@ -3,10 +3,10 @@ title: "#890 — OpenGNK - A Local OpenAI-Compatible Proxy for Gonka"
 source: https://github.com/gonka-ai/gonka/discussions/890
 discussion_number: 890
 category: show-and-tell
-synced_at: 2026-07-06T20:14:48Z
+synced_at: 2026-07-06T22:22:55Z
 ---
 
-> 🔄 **Авто-синхронизация:** из [Discussion #890](https://github.com/gonka-ai/gonka/discussions/890) каждые 6 часов. 
+> 🔄 **Auto-sync:** from [Discussion #890](https://github.com/gonka-ai/gonka/discussions/890) every hour. 
 
 # OpenGNK - A Local OpenAI-Compatible Proxy for Gonka
 

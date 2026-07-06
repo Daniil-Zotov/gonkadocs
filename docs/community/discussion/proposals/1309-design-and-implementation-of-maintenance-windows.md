@@ -3,10 +3,10 @@ title: "#1309 — Design and Implementation of Maintenance Windows"
 source: https://github.com/gonka-ai/gonka/discussions/1309
 discussion_number: 1309
 category: proposals
-synced_at: 2026-07-06T20:14:37Z
+synced_at: 2026-07-06T22:22:45Z
 ---
 
-> 🔄 **Авто-синхронизация:** из [Discussion #1309](https://github.com/gonka-ai/gonka/discussions/1309) каждые 6 часов. 
+> 🔄 **Auto-sync:** from [Discussion #1309](https://github.com/gonka-ai/gonka/discussions/1309) every hour. 
 
 # Design and Implementation of Maintenance Windows
 

@@ -3,10 +3,10 @@ title: "#875 — Automatic Node Provisioning Tool exists"
 source: https://github.com/gonka-ai/gonka/discussions/875
 discussion_number: 875
 category: proposals
-synced_at: 2026-07-06T20:14:49Z
+synced_at: 2026-07-06T22:22:56Z
 ---
 
-> 🔄 **Авто-синхронизация:** из [Discussion #875](https://github.com/gonka-ai/gonka/discussions/875) каждые 6 часов. 
+> 🔄 **Auto-sync:** from [Discussion #875](https://github.com/gonka-ai/gonka/discussions/875) every hour. 
 
 # Automatic Node Provisioning Tool exists
 

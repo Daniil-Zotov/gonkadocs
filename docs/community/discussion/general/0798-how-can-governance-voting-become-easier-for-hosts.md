@@ -3,10 +3,10 @@ title: "#798 — How can governance voting become easier for Hosts?"
 source: https://github.com/gonka-ai/gonka/discussions/798
 discussion_number: 798
 category: general
-synced_at: 2026-07-06T20:14:50Z
+synced_at: 2026-07-06T22:22:57Z
 ---
 
-> 🔄 **Авто-синхронизация:** из [Discussion #798](https://github.com/gonka-ai/gonka/discussions/798) каждые 6 часов. 
+> 🔄 **Auto-sync:** from [Discussion #798](https://github.com/gonka-ai/gonka/discussions/798) every hour. 
 
 # How can governance voting become easier for Hosts?
 
