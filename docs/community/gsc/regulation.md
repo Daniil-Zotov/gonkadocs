@@ -1,9 +1,9 @@
 ---
 source: https://docs.google.com/document/d/1xPmMFoXhhVXeTTvGwQ_tGCcZJgIwViqok-H08yod_Pk/edit
-synced_at: 2026-07-06T19:56:50Z
+synced_at: 2026-07-06T22:40:26Z
 ---
 
-> 🔄 **Авто-синхронизация:** этот документ автоматически обновляется из [Google Docs](https://docs.google.com/document/d/1xPmMFoXhhVXeTTvGwQ_tGCcZJgIwViqok-H08yod_Pk/edit) каждые 6 часов. Прямые правки в репозитории будут перезаписаны.
+> **Auto-sync:** this document is automatically synchronized from [Google Docs](https://docs.google.com/document/d/1xPmMFoXhhVXeTTvGwQ_tGCcZJgIwViqok-H08yod_Pk/edit) every hour. Direct edits in the repository will be overwritten.
 
 # **Устав Комитета поддержки самоуправления**
 
