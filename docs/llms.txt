@@ -243,6 +243,7 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [Finalization protocol proposal (host-initiated, collectors, commit certificate)](/community/discussion/proposals/1369-finalization-protocol-proposal-host-initiated-collectors-com/): Auto-synced content
 - [`devshard` cPoC skip protocol](/community/discussion/proposals/1384-devshard-cpoc-skip-protocol/): Auto-synced content
 - [External Test Lab & Community DevNet](/community/discussion/proposals/1388-external-test-lab-community-devnet/): Auto-synced content
+- [Add a lower-barrier GLM-5.2 option and consider DeepSeek-V4-Flash as the default model](/community/discussion/proposals/1404-add-a-lower-barrier-glm-52-option-and-consider-deepseek-v4-f/): Auto-synced content
 
 ## On-Chain Proposals
 
