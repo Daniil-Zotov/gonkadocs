@@ -18,6 +18,7 @@ exclude_docs: |
 # индексных страниц, но намеренно не входят в nav-меню напрямую.
 not_in_nav: |
   community/discussion/**/*.md
+  community/issues/**/*.md
   community/**/*.md
   index.md
   README.md
@@ -36,6 +37,8 @@ nav:
       - Proposals: community/discussion/proposals/index.md
       - Q&A: community/discussion/q-a/index.md
       - Show and Tell: community/discussion/show-and-tell/index.md
+    - Issues:
+      - Обзор: community/issues/index.md
   - Proposals: proposals/README.md
   - For Agents: agents.md
 

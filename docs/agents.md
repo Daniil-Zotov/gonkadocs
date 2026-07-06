@@ -78,6 +78,7 @@ Key sections:
   /gonka/docs/           → Protocol documentation (architecture, quickstart, wallet)
   /community/            → Roadmap, GRC, GSC
   /community/discussion/ → GitHub Discussions (proposals, Q&A, show-and-tell)
+  /community/issues/     → GitHub Issues (bugs, features, enhancements)
   /proposals/            → On-chain governance proposals
 
 Fetch /llms-full.txt for complete documentation before writing code.
@@ -131,6 +132,7 @@ Key topics:
 - Host: GPU resource connection, node management
 - Wallet: Accounts, collateral, cross-chain (USDT/GNK)
 - Governance: Proposals, voting, GRC, GSC
+- Issues: Bugs, feature requests, enhancements from gonka-ai/gonka
 ```
 
 ---
@@ -214,6 +216,14 @@ for doc in search_index["docs"]:
   <p class="agents-example-a">
     Agent fetches <code>/community/roadmap/</code> and summarizes the three-horizon
     development strategy.
+  </p>
+</div>
+
+<div class="agents-example">
+  <p class="agents-example-q">User: "What open issues exist for the Gonka project?"</p>
+  <p class="agents-example-a">
+    Agent fetches <code>/community/issues/</code> and lists recent open issues with
+    their titles, labels, and authors from the gonka-ai/gonka repository.
   </p>
 </div>
 

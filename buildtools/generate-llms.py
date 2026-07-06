@@ -200,6 +200,13 @@ def main():
     parts.append("- [General](/community/discussion/general/): Network reliability, governance")
     parts.append("")
 
+    # GitHub issues section (always included)
+    parts.append("## GitHub Issues (auto-synced)")
+    parts.append("")
+    parts.append("- [All Issues](/community/issues/): Index of all issues from gonka-ai/gonka")
+    parts.append("- [By Label](/community/issues/labels/): Issues grouped by label")
+    parts.append("")
+
     # Dynamic sections
     for section in SECTIONS:
         entries = build_section_entries(section)
