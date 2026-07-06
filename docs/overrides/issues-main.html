@@ -1,4 +1,4 @@
-{% extends "main.html" %}
+{% extends "base.html" %}
 
 {% block extrahead %}
 {{ super() }}
@@ -7,21 +7,11 @@
     display: none !important;
   }
 
-  .md-content {
-    max-width: none;
-  }
-
-  .issues-layout {
-    display: flex;
-    gap: 0;
-  }
-
-  .issues-layout-main {
-    flex: 1;
-    min-width: 0;
-  }
-
-  .issues-sidebar {
+  .md-sidebar--issues {
+    position: sticky;
+    top: 76px;
+    height: calc(100vh - 76px);
+    overflow-y: hidden;
     flex-shrink: 0;
     width: 240px;
     min-width: 240px;
@@ -30,7 +20,7 @@
   }
 
   @media (max-width: 1200px) {
-    .issues-sidebar {
+    .md-sidebar--issues {
       display: none;
     }
   }
@@ -88,26 +78,34 @@
 {% endblock %}
 
 {% block content %}
-<div class="issues-layout">
-  <div class="issues-layout-main">
-    {{ page.content }}
-  </div>
+  {{ super() }}
   {% include "partials/issues-sidebar.html" %}
-</div>
 {% endblock %}
 
 {% block scripts %}
 {{ super() }}
 <script>
 function initIssuePage() {
+  // Remove stale old sidebars moved in previous instant loads
+  var oldSidebars = document.querySelectorAll('.md-content > .md-sidebar--issues');
+  oldSidebars.forEach(function(el) { el.remove(); });
+
+  // Move issues sidebar out of article to be sibling inside md-content
+  var sidebar = document.querySelector('.md-content__inner > .md-sidebar--issues');
+  var content = document.querySelector('.md-content');
+  if (sidebar && content) {
+    content.appendChild(sidebar);
+  }
+
+  // Open/Closed filter for issues list
   var list = document.querySelector('.issues-list');
   if (!list) return;
   var items = list.querySelectorAll('.issues-list-item');
   if (!items.length) return;
 
-  if (list.previousElementSibling && list.previousElementSibling.classList.contains('issues-filter')) {
-    list.previousElementSibling.remove();
-  }
+  // Avoid duplicate filter
+  var existingFilter = list.parentNode.querySelector(':scope > .issues-filter');
+  if (existingFilter) existingFilter.remove();
 
   var filter = document.createElement('div');
   filter.className = 'issues-filter';
