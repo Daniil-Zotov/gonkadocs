@@ -5,17 +5,19 @@
     display: none !important;
   }
 
-  /* Issues sidebar: rendered inside md-content but positioned as a right sidebar */
+  /* Issues sidebar: fixed position on the right */
   .md-sidebar--issues {
-    position: sticky;
+    position: fixed;
     top: 76px;
+    right: 0;
     height: calc(100vh - 76px);
     overflow-y: auto;
-    flex-shrink: 0;
     width: 260px;
     min-width: 260px;
     border-left: 1px solid var(--md-default-fg-color--lightest);
     padding: 16px 0;
+    background: var(--md-default-bg-color);
+    z-index: 4;
   }
 
   @media (max-width: 1200px) {
@@ -67,13 +69,3 @@
     </div>
   </div>
 </div>
-
-<script>
-(function() {
-  var sidebar = document.querySelector('.md-sidebar--issues');
-  var mainInner = document.querySelector('.md-main__inner');
-  if (sidebar && mainInner) {
-    mainInner.appendChild(sidebar);
-  }
-})();
-</script>
