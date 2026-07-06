@@ -252,7 +252,7 @@ The Project Lead and Infrastructure Lead receive no monthly compensation from th
 
 | Voter | Amount | Date |
 | :----- | :----- | :--- |
-| `gonka1gm...gzg6ry` | 400.0K GNK | 2026-07-06 17:58 |
+| `gonka1gm...gzg6ry` | 400.0K GNK | 2026-07-06 19:38 |
 
 ---
 

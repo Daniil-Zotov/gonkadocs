@@ -86,8 +86,8 @@ Fixed package price · paid in two assets.
 - Off-spec items are corrected to the agreed spec.
 
 ---
-[https://saccade-gonka-ai.vercel.app/](Portal)
-[https://saccade-gonka-ai.vercel.app/pdf/gonka-proposal.pdf](Proposal)
+[Portal](https://saccade-gonka-ai.vercel.app/)
+[Proposal](https://saccade-gonka-ai.vercel.app/pdf/gonka-proposal.pdf)
 ---
 
 **Saccade Media House**  
