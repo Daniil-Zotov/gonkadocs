@@ -2,55 +2,82 @@
 
 {% block extra %}
 <style>
-  /* Hide the default table of contents sidebar on issue pages */
   .md-sidebar--secondary {
     display: none !important;
   }
 
-  /* Issues sidebar styling (element is moved via JS to md-main__inner) */
-  .md-sidebar--issues {
-    position: sticky;
-    top: 76px;
-    height: calc(100vh - 76px);
-    overflow-y: auto;
-    flex-shrink: 0;
-    width: 260px;
-    min-width: 260px;
-    border-left: 1px solid var(--md-default-fg-color--lightest);
-    padding: 16px 0;
-  }
-
-  @media (max-width: 1200px) {
-    .md-sidebar--issues {
-      display: none;
-    }
-  }
-
-  .md-nav--issues .md-nav__link {
+  /* Issue filter bar */
+  .issues-filter {
     display: flex;
     align-items: center;
-    gap: 8px;
-    padding: 4px 16px;
+    gap: 16px;
+    padding: 10px 16px;
+    margin-bottom: 16px;
+    border: 1px solid var(--md-default-fg-color--lightest);
+    border-radius: 6px;
+    background: var(--md-code-bg-color);
     font-size: 14px;
   }
 
-  .md-nav--issues .md-nav__link--active {
-    font-weight: 600;
+  .issues-filter label {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    user-select: none;
   }
 
-  .issues-label-count {
-    font-size: 12px;
-    color: var(--md-default-fg-color--light);
+  .issues-filter input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+  }
+
+  .issues-filter-count {
     margin-left: auto;
+    font-size: 13px;
+    color: var(--md-default-fg-color--light);
   }
 </style>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  var sidebar = document.querySelector('.md-sidebar--issues');
-  var mainInner = document.querySelector('.md-main__inner');
-  if (sidebar && mainInner) {
-    mainInner.appendChild(sidebar);
+  var list = document.querySelector('.issues-list');
+  if (!list) return;
+
+  var items = list.querySelectorAll('.issues-list-item');
+  if (!items.length) return;
+
+  // Insert filter bar before the list
+  var filter = document.createElement('div');
+  filter.className = 'issues-filter';
+  filter.innerHTML =
+    '<label><input type="checkbox" id="issues-show-open" checked> Show Open</label>' +
+    '<label><input type="checkbox" id="issues-show-closed"> Show Closed</label>' +
+    '<span class="issues-filter-count"></span>';
+  list.parentNode.insertBefore(filter, list);
+
+  var cbOpen = document.getElementById('issues-show-open');
+  var cbClosed = document.getElementById('issues-show-closed');
+  var countEl = filter.querySelector('.issues-filter-count');
+
+  function applyFilter() {
+    var showOpen = cbOpen.checked;
+    var showClosed = cbClosed.checked;
+    var visible = 0;
+
+    items.forEach(function(item) {
+      var isOpen = item.querySelector('.issues-status-open') !== null;
+      var show = (isOpen && showOpen) || (!isOpen && showClosed);
+      item.style.display = show ? '' : 'none';
+      if (show) visible++;
+    });
+
+    countEl.textContent = visible + ' of ' + items.length + ' issues';
   }
+
+  cbOpen.addEventListener('change', applyFilter);
+  cbClosed.addEventListener('change', applyFilter);
+  applyFilter();
 });
 </script>
 {% endblock %}
