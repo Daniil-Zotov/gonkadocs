@@ -17,49 +17,9 @@
           <li class="md-nav__item md-nav__item--label" style="font-size: 12px; font-weight: 600; color: var(--md-default-fg-color--light); padding: 4px 16px; text-transform: uppercase; letter-spacing: 0.5px;">
             Labels
           </li>
-          <!-- Labels will be populated by JavaScript from labels.json -->
-          <div id="issues-labels-nav"></div>
+          {% include "partials/issues-labels-nav.html" ignore missing %}
         </ul>
       </nav>
     </div>
   </div>
 </div>
-
-<script>
-(function() {
-  // Try to load labels.json from the same directory or parent
-  const scripts = document.scripts;
-  const currentPath = window.location.pathname;
-  let basePath = '/community/issues/';
-
-  // Determine base path
-  if (currentPath.includes('/labels/')) {
-    basePath = '/community/issues/';
-  } else if (currentPath.match(/\/community\/issues\/\d/)) {
-    basePath = '/community/issues/';
-  }
-
-  fetch(basePath + 'labels.json')
-    .then(r => r.json())
-    .then(labels => {
-      const container = document.getElementById('issues-labels-nav');
-      if (!container || !labels.length) return;
-
-      const sorted = labels.sort((a, b) => b.count - a.count);
-      let html = '';
-      for (const label of sorted) {
-        const url = basePath + 'labels/' + label.slug + '/';
-        html += '<li class="md-nav__item">';
-        html += '<a href="' + url + '" class="md-nav__link">';
-        html += '<span class="md-ellipsis">';
-        html += '<span class="issues-label" style="display:inline-flex; font-size:11px; padding:1px 6px;">' + label.name + '</span> ';
-        html += '<span class="issues-label-count">' + label.count + '</span>';
-        html += '</span>';
-        html += '</a>';
-        html += '</li>';
-      }
-      container.innerHTML = html;
-    })
-    .catch(() => {});
-})();
-</script>
