@@ -85,9 +85,10 @@
   }
 
   /* Force Community and Issues nav sections open in left sidebar */
-  .md-nav[aria-labelledby="__nav_2_label"],
-  .md-nav[aria-labelledby="__nav_2_6_label"],
-  .md-nav--primary .md-nav__item--nested .md-nav[aria-labelledby] {
+  /* Must use higher specificity than theme's .md-nav__toggle~.md-nav (0,2,0) */
+  .md-sidebar--primary .md-nav[aria-labelledby="__nav_2_label"],
+  .md-sidebar--primary .md-nav[aria-labelledby="__nav_2_6_label"],
+  .md-sidebar--primary .md-nav[aria-labelledby="__nav_2_5_label"] {
     opacity: 1 !important;
     transform: translateX(0) !important;
     visibility: visible !important;
@@ -95,15 +96,6 @@
     grid-template-rows: minmax(.4rem, 1fr) !important;
     max-height: none !important;
     overflow: visible !important;
-  }
-
-  /* Also force the Community top-level section visible (level 0 tabs area) */
-  #__nav_2:checked ~ .md-nav__link + .md-nav,
-  #__nav_2:checked ~ .md-nav {
-    opacity: 1 !important;
-    visibility: visible !important;
-    display: grid !important;
-    grid-template-rows: minmax(.4rem, 1fr) !important;
   }
 </style>
 {% endblock %}
