@@ -4,13 +4,13 @@ title: ":bulb: Proposals"
 
 # :bulb: Proposals
 
-Дискуссии в категории **:bulb: Proposals**. Всего: **44**. Обновлено: `2026-07-06 11:04 UTC`.
+Дискуссии в категории **:bulb: Proposals**. Всего: **44**. Обновлено: `2026-07-06 15:55 UTC`.
 
 [← ко всем категориям](../index.md)
 
 | # | Заголовок | Автор | Обновлено |
 |---:|---|---|---|
-| [1404](1404-add-a-lower-barrier-glm-52-option-and-consider-deepseek-v4-f.md) | [Add a lower-barrier GLM-5.2 option and consider DeepSeek-V4-Flash as the default model](1404-add-a-lower-barrier-glm-52-option-and-consider-deepseek-v4-f.md) | [@enonog](https://github.com/enonog) | 2026-07-05 |
+| [1404](1404-add-a-lower-barrier-glm-52-option-and-consider-deepseek-v4-f.md) | [Add a lower-barrier GLM-5.2 option and consider DeepSeek-V4-Flash as the default model](1404-add-a-lower-barrier-glm-52-option-and-consider-deepseek-v4-f.md) | [@enonog](https://github.com/enonog) | 2026-07-06 |
 | [1388](1388-external-test-lab-community-devnet.md) | [External Test Lab & Community DevNet](1388-external-test-lab-community-devnet.md) | [@paranjko](https://github.com/paranjko) | 2026-07-02 |
 | [1384](1384-devshard-cpoc-skip-protocol.md) | [`devshard` cPoC skip protocol](1384-devshard-cpoc-skip-protocol.md) | [@akup](https://github.com/akup) | 2026-07-01 |
 | [1369](1369-finalization-protocol-proposal-host-initiated-collectors-com.md) | [Finalization protocol proposal (host-initiated, collectors, commit certificate)](1369-finalization-protocol-proposal-host-initiated-collectors-com.md) | [@akup](https://github.com/akup) | 2026-07-01 |

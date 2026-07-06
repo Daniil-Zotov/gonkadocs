@@ -3,14 +3,14 @@ title: "#1404 — Add a lower-barrier GLM-5.2 option and consider DeepSeek-V4-Fl
 source: https://github.com/gonka-ai/gonka/discussions/1404
 discussion_number: 1404
 category: proposals
-synced_at: 2026-07-06T11:03:48Z
+synced_at: 2026-07-06T15:55:10Z
 ---
 
 > 🔄 **Авто-синхронизация:** из [Discussion #1404](https://github.com/gonka-ai/gonka/discussions/1404) каждые 6 часов. 
 
 # Add a lower-barrier GLM-5.2 option and consider DeepSeek-V4-Flash as the default model
 
-**Автор:** [@enonog](https://github.com/enonog) · **Категория:** :bulb: Proposals · **Создано:** 2026-07-05 23:32 UTC · **Обновлено:** 2026-07-05 23:56 UTC
+**Автор:** [@enonog](https://github.com/enonog) · **Категория:** :bulb: Proposals · **Создано:** 2026-07-05 23:32 UTC · **Обновлено:** 2026-07-06 11:35 UTC
 
 ---
 
@@ -96,3 +96,19 @@ This would help the network improve both sides of the market:
 
 - more hosts willing to serve useful models
 - more users willing to send real inference requests
+
+---
+
+## 💬 Комментарии (1)
+
+### Комментарий 1 — [@enonog](https://github.com/enonog)
+
+*2026-07-06 11:35 UTC*
+
+https://huggingface.co/PhalaCloud/GLM-5.2-W4AFP8
+
+This model looks especially interesting because it is not just smaller than the official FP8 release, but may also provide very strong practical serving performance. According to the model card, it is optimized for SGLang and can fit on a wider range of host setups while still preserving long-context capability.
+
+In some real workloads, quantized models are not necessarily worse than the official FP8 version. Depending on the quantization method and serving stack, they can sometimes preserve quality very well, and in certain scenarios such as long-context reasoning, coding, instruction following, and agentic workloads, the practical user experience may even be better because of higher throughput and lower latency.
+
+The only unclear point is vLLM compatibility. The PhalaCloud model card mainly documents SGLang usage, so it would need to be tested inside Gonka’s current inference stack. However, since SGLang and vLLM share many important production-serving capabilities, this model still seems worth evaluating.
