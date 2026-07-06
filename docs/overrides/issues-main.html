@@ -90,6 +90,13 @@
 {{ super() }}
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+  // Move issues sidebar out of article to be sibling inside md-content
+  var sidebar = document.querySelector('.md-sidebar--issues');
+  var content = document.querySelector('.md-content');
+  if (sidebar && content) {
+    content.appendChild(sidebar);
+  }
+
   var list = document.querySelector('.issues-list');
   if (!list) return;
   var items = list.querySelectorAll('.issues-list-item');
