@@ -83,20 +83,6 @@
     font-size: 13px;
     color: var(--md-default-fg-color--light);
   }
-
-  /* Force Community and Issues nav sections open in left sidebar */
-  /* Must use higher specificity than theme's .md-nav__toggle~.md-nav (0,2,0) */
-  .md-sidebar--primary .md-nav[aria-labelledby="__nav_2_label"],
-  .md-sidebar--primary .md-nav[aria-labelledby="__nav_2_6_label"],
-  .md-sidebar--primary .md-nav[aria-labelledby="__nav_2_5_label"] {
-    opacity: 1 !important;
-    transform: translateX(0) !important;
-    visibility: visible !important;
-    display: grid !important;
-    grid-template-rows: minmax(.4rem, 1fr) !important;
-    max-height: none !important;
-    overflow: visible !important;
-  }
 </style>
 {% endblock %}
 
@@ -111,27 +97,7 @@ document.addEventListener('DOMContentLoaded', function() {
     content.appendChild(sidebar);
   }
 
-  // Expand Community and Issues nav sections in left sidebar
-  // Must run on ALL issues pages (labels, individual issues, etc.)
-  function expandNav() {
-    ['__nav_2', '__nav_2_6'].forEach(function(id) {
-      var cb = document.getElementById(id);
-      if (cb && !cb.checked) {
-        cb.checked = true;
-        cb.dispatchEvent(new Event('change', { bubbles: true }));
-      }
-    });
-    // Also set inline styles as fallback
-    document.querySelectorAll('.md-nav--primary [aria-labelledby="__nav_2_label"], .md-nav--primary [aria-labelledby="__nav_2_6_label"]').forEach(function(el) {
-      el.style.opacity = '1';
-      el.style.visibility = 'visible';
-      el.style.transform = 'translateX(0)';
-    });
-  }
-  expandNav();
-  setTimeout(expandNav, 500);
-  setTimeout(expandNav, 1500);
-
+  // Open/Closed filter for issues list
   var list = document.querySelector('.issues-list');
   if (!list) return;
   var items = list.querySelectorAll('.issues-list-item');
@@ -165,21 +131,6 @@ document.addEventListener('DOMContentLoaded', function() {
   cbOpen.addEventListener('change', applyFilter);
   cbClosed.addEventListener('change', applyFilter);
   applyFilter();
-
-  // Expand Community and Issues nav sections in left sidebar
-  // Run AFTER theme JS initializes to override its state
-  function expandNav() {
-    ['__nav_2', '__nav_2_6'].forEach(function(id) {
-      var cb = document.getElementById(id);
-      if (cb && !cb.checked) {
-        cb.checked = true;
-        cb.dispatchEvent(new Event('change'));
-      }
-    });
-  }
-  expandNav();
-  setTimeout(expandNav, 500);
-  setTimeout(expandNav, 1500);
 });
 </script>
 {% endblock %}

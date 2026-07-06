@@ -101,6 +101,9 @@ theme:
       example: octicons/beaker-16
       quote: octicons/quote-16
 
+hooks:
+  - hooks/issues_nav.py
+
 extra_css:
   - stylesheets/github.css
   - stylesheets/issues.css
