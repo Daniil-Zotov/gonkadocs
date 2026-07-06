@@ -6,7 +6,7 @@ template: issues-main.html
 # Issues: no-label
 
 Issues with label **no-label**. Total: **228**.
-Updated: `2026-07-06 15:07 UTC`.
+Updated: `2026-07-06 16:01 UTC`.
 
 [← All Issues](../../index.md)
 
@@ -21,7 +21,7 @@ Updated: `2026-07-06 15:07 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@phishdestroy](https://github.com/phishdestroy) opened 5 hours ago</span>
+      <span class="issues-meta-item">[@phishdestroy](https://github.com/phishdestroy) opened 10 minutes ago</span>
       
     </div>
   </div>
@@ -36,7 +36,7 @@ Updated: `2026-07-06 15:07 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@dufok](https://github.com/dufok) opened 13 hours ago</span>
+      <span class="issues-meta-item">[@dufok](https://github.com/dufok) opened 14 hours ago</span>
       
     </div>
   </div>
@@ -111,7 +111,7 @@ Updated: `2026-07-06 15:07 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@dufok](https://github.com/dufok) opened 2 days ago</span>
+      <span class="issues-meta-item">[@dufok](https://github.com/dufok) opened 3 days ago</span>
       
     </div>
   </div>
@@ -396,7 +396,7 @@ Updated: `2026-07-06 15:07 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@Puyre](https://github.com/Puyre) opened 25 days ago</span>
+      <span class="issues-meta-item">[@Puyre](https://github.com/Puyre) opened 26 days ago</span>
       
     </div>
   </div>
