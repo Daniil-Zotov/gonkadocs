@@ -2,7 +2,7 @@
 title: "#746 — Vested payouts in x/inference ignore caller funding module and always debit inference account"
 source: https://github.com/gonka-ai/gonka/issues/746
 issue_number: 746
-synced_at: 2026-07-06T15:59:28Z
+synced_at: 2026-07-06T21:52:10Z
 template: issues-main.html
 ---
 
@@ -77,4 +77,4 @@ instead of:
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #746](https://github.com/gonka-ai/gonka/issues/746) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #746](https://github.com/gonka-ai/gonka/issues/746) every hour.

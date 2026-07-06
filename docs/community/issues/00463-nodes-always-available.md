@@ -2,7 +2,7 @@
 title: "#463 — Nodes always available"
 source: https://github.com/gonka-ai/gonka/issues/463
 issue_number: 463
-synced_at: 2026-07-06T16:00:44Z
+synced_at: 2026-07-06T21:54:06Z
 template: issues-main.html
 ---
 
@@ -33,4 +33,4 @@ goal: if MLNode is availabe and not in poc => it must be used for inference
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #463](https://github.com/gonka-ai/gonka/issues/463) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #463](https://github.com/gonka-ai/gonka/issues/463) every hour.

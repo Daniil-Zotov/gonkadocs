@@ -2,7 +2,7 @@
 title: "#929 — Inference validation optimization"
 source: https://github.com/gonka-ai/gonka/issues/929
 issue_number: 929
-synced_at: 2026-07-06T16:00:03Z
+synced_at: 2026-07-06T21:53:06Z
 template: issues-main.html
 ---
 
@@ -41,4 +41,4 @@ template: issues-main.html
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #929](https://github.com/gonka-ai/gonka/issues/929) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #929](https://github.com/gonka-ai/gonka/issues/929) every hour.

@@ -2,7 +2,7 @@
 title: "#1331 — How to obtain a broker API key for node4 (or documentation on the broker onboarding process)?"
 source: https://github.com/gonka-ai/gonka/issues/1331
 issue_number: 1331
-synced_at: 2026-07-06T15:59:24Z
+synced_at: 2026-07-06T21:52:03Z
 template: issues-main.html
 ---
 
@@ -110,4 +110,4 @@ OpenBroker is an **independent third party**, not part of the core protocol — 
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #1331](https://github.com/gonka-ai/gonka/issues/1331) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #1331](https://github.com/gonka-ai/gonka/issues/1331) every hour.

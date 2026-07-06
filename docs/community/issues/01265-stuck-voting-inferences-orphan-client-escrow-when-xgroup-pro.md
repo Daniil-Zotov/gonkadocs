@@ -2,7 +2,7 @@
 title: "#1265 — Stuck VOTING inferences orphan client escrow when x/group proposals miss quorum"
 source: https://github.com/gonka-ai/gonka/issues/1265
 issue_number: 1265
-synced_at: 2026-07-06T15:59:31Z
+synced_at: 2026-07-06T21:52:15Z
 template: issues-main.html
 ---
 
@@ -178,4 +178,4 @@ If this whole area is being superseded and the fixes aren't worth merging, that'
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #1265](https://github.com/gonka-ai/gonka/issues/1265) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #1265](https://github.com/gonka-ai/gonka/issues/1265) every hour.

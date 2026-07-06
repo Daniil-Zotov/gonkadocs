@@ -2,7 +2,7 @@
 title: "#658 — POC_SLOT attack"
 source: https://github.com/gonka-ai/gonka/issues/658
 issue_number: 658
-synced_at: 2026-07-06T16:00:32Z
+synced_at: 2026-07-06T21:53:47Z
 template: issues-main.html
 ---
 
@@ -81,4 +81,4 @@ Enforcing this would prevent attackers from cheaply farming `POC_SLOT = true` po
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #658](https://github.com/gonka-ai/gonka/issues/658) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #658](https://github.com/gonka-ai/gonka/issues/658) every hour.

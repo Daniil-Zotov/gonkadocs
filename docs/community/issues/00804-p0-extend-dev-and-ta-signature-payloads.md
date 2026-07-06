@@ -2,7 +2,7 @@
 title: "#804 — [P0?] Extend dev and TA signature payloads"
 source: https://github.com/gonka-ai/gonka/issues/804
 issue_number: 804
-synced_at: 2026-07-06T15:59:36Z
+synced_at: 2026-07-06T21:52:23Z
 template: issues-main.html
 ---
 
@@ -72,4 +72,4 @@ New payload: `prompt_hash + timestamp + ta_address + executor_address + inferenc
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #804](https://github.com/gonka-ai/gonka/issues/804) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #804](https://github.com/gonka-ai/gonka/issues/804) every hour.

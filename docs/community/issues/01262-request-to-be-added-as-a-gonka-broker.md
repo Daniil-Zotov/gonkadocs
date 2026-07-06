@@ -2,7 +2,7 @@
 title: "#1262 — Request to be added as a Gonka broker"
 source: https://github.com/gonka-ai/gonka/issues/1262
 issue_number: 1262
-synced_at: 2026-07-06T15:59:19Z
+synced_at: 2026-07-06T21:51:55Z
 template: issues-main.html
 ---
 
@@ -148,4 +148,4 @@ Could you please review this and adjust the website so that it is clearly positi
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #1262](https://github.com/gonka-ai/gonka/issues/1262) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #1262](https://github.com/gonka-ai/gonka/issues/1262) every hour.

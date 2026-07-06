@@ -2,7 +2,7 @@
 title: "#464 — Difficulty with PoC, defined by `RTarget`"
 source: https://github.com/gonka-ai/gonka/issues/464
 issue_number: 464
-synced_at: 2026-07-06T16:00:59Z
+synced_at: 2026-07-06T21:54:28Z
 template: issues-main.html
 ---
 
@@ -38,4 +38,4 @@ There is some simple and elegant solution for that, e.g., use this coefficient a
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #464](https://github.com/gonka-ai/gonka/issues/464) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #464](https://github.com/gonka-ai/gonka/issues/464) every hour.

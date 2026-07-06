@@ -2,7 +2,7 @@
 title: "#1342 — Gateway allowlist request"
 source: https://github.com/gonka-ai/gonka/issues/1342
 issue_number: 1342
-synced_at: 2026-07-06T15:59:26Z
+synced_at: 2026-07-06T21:52:06Z
 template: issues-main.html
 ---
 
@@ -79,4 +79,4 @@ This should let you start while the governance discussion around inclusion/white
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #1342](https://github.com/gonka-ai/gonka/issues/1342) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #1342](https://github.com/gonka-ai/gonka/issues/1342) every hour.

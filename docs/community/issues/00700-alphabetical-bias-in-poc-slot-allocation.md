@@ -2,7 +2,7 @@
 title: "#700 — Alphabetical Bias in PoC Slot Allocation"
 source: https://github.com/gonka-ai/gonka/issues/700
 issue_number: 700
-synced_at: 2026-07-06T16:00:19Z
+synced_at: 2026-07-06T21:53:29Z
 template: issues-main.html
 ---
 
@@ -71,4 +71,4 @@ Deterministic Shuffle: Implement a pseudo-random shuffle of the participant list
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #700](https://github.com/gonka-ai/gonka/issues/700) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #700](https://github.com/gonka-ai/gonka/issues/700) every hour.

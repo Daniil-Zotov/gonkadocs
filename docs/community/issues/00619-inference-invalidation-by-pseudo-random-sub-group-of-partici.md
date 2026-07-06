@@ -2,7 +2,7 @@
 title: "#619 — Inference invalidation by pseudo random sub-group of participant (to decrease amount of `MsgValidation`)"
 source: https://github.com/gonka-ai/gonka/issues/619
 issue_number: 619
-synced_at: 2026-07-06T16:00:05Z
+synced_at: 2026-07-06T21:53:09Z
 template: issues-main.html
 ---
 
@@ -69,4 +69,4 @@ But I need to make few related PRs first. I will do it in next 24h
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #619](https://github.com/gonka-ai/gonka/issues/619) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #619](https://github.com/gonka-ai/gonka/issues/619) every hour.

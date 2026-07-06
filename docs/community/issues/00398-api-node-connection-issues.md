@@ -2,7 +2,7 @@
 title: "#398 — API -> Node Connection Issues"
 source: https://github.com/gonka-ai/gonka/issues/398
 issue_number: 398
-synced_at: 2026-07-06T16:00:34Z
+synced_at: 2026-07-06T21:53:51Z
 template: issues-main.html
 ---
 
@@ -58,4 +58,4 @@ Caused by https://github.com/gonka-ai/gonka/issues/387, do we need to handle exp
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #398](https://github.com/gonka-ai/gonka/issues/398) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #398](https://github.com/gonka-ai/gonka/issues/398) every hour.

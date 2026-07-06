@@ -2,7 +2,7 @@
 title: "#572 — Multi-node testing"
 source: https://github.com/gonka-ai/gonka/issues/572
 issue_number: 572
-synced_at: 2026-07-06T16:01:06Z
+synced_at: 2026-07-06T21:54:41Z
 template: issues-main.html
 ---
 
@@ -27,4 +27,4 @@ template: issues-main.html
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #572](https://github.com/gonka-ai/gonka/issues/572) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #572](https://github.com/gonka-ai/gonka/issues/572) every hour.

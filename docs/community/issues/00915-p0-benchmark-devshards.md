@@ -2,7 +2,7 @@
 title: "#915 — [P0] Benchmark `devshards`"
 source: https://github.com/gonka-ai/gonka/issues/915
 issue_number: 915
-synced_at: 2026-07-06T15:59:34Z
+synced_at: 2026-07-06T21:52:20Z
 template: issues-main.html
 ---
 
@@ -43,4 +43,4 @@ We should write a benchmark harness for this. Gonka has 3 testnets with 10 diffe
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #915](https://github.com/gonka-ai/gonka/issues/915) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #915](https://github.com/gonka-ai/gonka/issues/915) every hour.

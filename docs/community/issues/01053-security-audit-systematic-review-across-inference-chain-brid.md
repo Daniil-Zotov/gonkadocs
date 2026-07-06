@@ -2,7 +2,7 @@
 title: "#1053 — Security Audit: Systematic review across inference chain, bridge, subnet, and API layers"
 source: https://github.com/gonka-ai/gonka/issues/1053
 issue_number: 1053
-synced_at: 2026-07-06T15:59:42Z
+synced_at: 2026-07-06T21:52:32Z
 template: issues-main.html
 ---
 
@@ -203,4 +203,4 @@ Going forward I'll only submit PRs after running ai-reviewer locally and validat
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #1053](https://github.com/gonka-ai/gonka/issues/1053) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #1053](https://github.com/gonka-ai/gonka/issues/1053) every hour.

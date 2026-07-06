@@ -2,7 +2,7 @@
 title: "#465 — Add a transaction for deleting the governance model. It needs to be added and verified to ensure it does not affect operations in the current epoch"
 source: https://github.com/gonka-ai/gonka/issues/465
 issue_number: 465
-synced_at: 2026-07-06T16:00:10Z
+synced_at: 2026-07-06T21:53:17Z
 template: issues-main.html
 ---
 
@@ -42,4 +42,4 @@ This task is up for grabs. It could potentially be implemented for a minimal bou
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #465](https://github.com/gonka-ai/gonka/issues/465) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #465](https://github.com/gonka-ai/gonka/issues/465) every hour.

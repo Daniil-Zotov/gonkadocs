@@ -2,7 +2,7 @@
 title: "#608 — [0/4] `StartInference` and `FinishInference`: optimiziation"
 source: https://github.com/gonka-ai/gonka/issues/608
 issue_number: 608
-synced_at: 2026-07-06T16:00:16Z
+synced_at: 2026-07-06T21:53:25Z
 template: issues-main.html
 ---
 
@@ -57,4 +57,4 @@ I'm closing all `[*/4] StartInference and FinishInference: optimiziation` tasks 
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #608](https://github.com/gonka-ai/gonka/issues/608) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #608](https://github.com/gonka-ai/gonka/issues/608) every hour.

@@ -2,7 +2,7 @@
 title: "#332 — [P1] Merge Bridge"
 source: https://github.com/gonka-ai/gonka/issues/332
 issue_number: 332
-synced_at: 2026-07-06T16:00:44Z
+synced_at: 2026-07-06T21:54:06Z
 template: issues-main.html
 ---
 
@@ -27,4 +27,4 @@ template: issues-main.html
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #332](https://github.com/gonka-ai/gonka/issues/332) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #332](https://github.com/gonka-ai/gonka/issues/332) every hour.

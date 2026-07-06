@@ -2,7 +2,7 @@
 title: "#1201 — [P0] Training on Gonka"
 source: https://github.com/gonka-ai/gonka/issues/1201
 issue_number: 1201
-synced_at: 2026-07-06T15:59:36Z
+synced_at: 2026-07-06T21:52:22Z
 template: issues-main.html
 ---
 
@@ -61,4 +61,4 @@ Discussed on GIP: https://discord.com/channels/1336477374442770503/1415622117629
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #1201](https://github.com/gonka-ai/gonka/issues/1201) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #1201](https://github.com/gonka-ai/gonka/issues/1201) every hour.

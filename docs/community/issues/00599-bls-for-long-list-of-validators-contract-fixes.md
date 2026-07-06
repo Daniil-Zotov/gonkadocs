@@ -2,7 +2,7 @@
 title: "#599 — BLS for long list of validators & Contract fixes"
 source: https://github.com/gonka-ai/gonka/issues/599
 issue_number: 599
-synced_at: 2026-07-06T16:00:51Z
+synced_at: 2026-07-06T21:54:16Z
 template: issues-main.html
 ---
 
@@ -27,4 +27,4 @@ template: issues-main.html
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #599](https://github.com/gonka-ai/gonka/issues/599) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #599](https://github.com/gonka-ai/gonka/issues/599) every hour.

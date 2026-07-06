@@ -2,7 +2,7 @@
 title: "#565 — Reward settlement correctness; negative balance prevention"
 source: https://github.com/gonka-ai/gonka/issues/565
 issue_number: 565
-synced_at: 2026-07-06T16:00:49Z
+synced_at: 2026-07-06T21:54:12Z
 template: issues-main.html
 ---
 
@@ -27,4 +27,4 @@ template: issues-main.html
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #565](https://github.com/gonka-ai/gonka/issues/565) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #565](https://github.com/gonka-ai/gonka/issues/565) every hour.

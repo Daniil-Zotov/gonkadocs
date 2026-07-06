@@ -2,7 +2,7 @@
 title: "#468 — [P1] Certik (finalization)"
 source: https://github.com/gonka-ai/gonka/issues/468
 issue_number: 468
-synced_at: 2026-07-06T15:59:53Z
+synced_at: 2026-07-06T21:52:49Z
 template: issues-main.html
 ---
 
@@ -43,4 +43,4 @@ Issues that would be resolved by deleting unused training code:
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #468](https://github.com/gonka-ai/gonka/issues/468) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #468](https://github.com/gonka-ai/gonka/issues/468) every hour.

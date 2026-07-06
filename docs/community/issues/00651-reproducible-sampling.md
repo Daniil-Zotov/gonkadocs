@@ -2,7 +2,7 @@
 title: "#651 — Reproducible sampling"
 source: https://github.com/gonka-ai/gonka/issues/651
 issue_number: 651
-synced_at: 2026-07-06T16:00:09Z
+synced_at: 2026-07-06T21:53:15Z
 template: issues-main.html
 ---
 
@@ -53,4 +53,4 @@ Implements Stage 1 Sequence Check for reproducible sampling protection against s
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #651](https://github.com/gonka-ai/gonka/issues/651) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #651](https://github.com/gonka-ai/gonka/issues/651) every hour.

@@ -2,7 +2,7 @@
 title: "#340 — [P0] Security: Training"
 source: https://github.com/gonka-ai/gonka/issues/340
 issue_number: 340
-synced_at: 2026-07-06T16:01:11Z
+synced_at: 2026-07-06T21:54:49Z
 template: issues-main.html
 ---
 
@@ -56,4 +56,4 @@ template: issues-main.html
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #340](https://github.com/gonka-ai/gonka/issues/340) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #340](https://github.com/gonka-ai/gonka/issues/340) every hour.

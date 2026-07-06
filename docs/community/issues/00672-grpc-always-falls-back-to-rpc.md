@@ -2,7 +2,7 @@
 title: "#672 — gRPC always falls back to RPC"
 source: https://github.com/gonka-ai/gonka/issues/672
 issue_number: 672
-synced_at: 2026-07-06T16:00:23Z
+synced_at: 2026-07-06T21:53:35Z
 template: issues-main.html
 ---
 
@@ -52,4 +52,4 @@ Enables gRPC for chain queries instead of RPC fallback.
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #672](https://github.com/gonka-ai/gonka/issues/672) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #672](https://github.com/gonka-ai/gonka/issues/672) every hour.

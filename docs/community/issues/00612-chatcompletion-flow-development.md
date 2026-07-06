@@ -2,7 +2,7 @@
 title: "#612 — `/chat/completion` flow development"
 source: https://github.com/gonka-ai/gonka/issues/612
 issue_number: 612
-synced_at: 2026-07-06T15:59:59Z
+synced_at: 2026-07-06T21:53:00Z
 template: issues-main.html
 ---
 
@@ -59,4 +59,4 @@ template: issues-main.html
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #612](https://github.com/gonka-ai/gonka/issues/612) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #612](https://github.com/gonka-ai/gonka/issues/612) every hour.

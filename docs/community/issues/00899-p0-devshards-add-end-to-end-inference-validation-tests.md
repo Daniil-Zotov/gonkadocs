@@ -2,7 +2,7 @@
 title: "#899 — [P0] `devshards`: Add end-to-end inference validation tests"
 source: https://github.com/gonka-ai/gonka/issues/899
 issue_number: 899
-synced_at: 2026-07-06T15:59:57Z
+synced_at: 2026-07-06T21:52:56Z
 template: issues-main.html
 ---
 
@@ -63,4 +63,4 @@ I expect to push a PR with these tests very soon.
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #899](https://github.com/gonka-ai/gonka/issues/899) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #899](https://github.com/gonka-ai/gonka/issues/899) every hour.

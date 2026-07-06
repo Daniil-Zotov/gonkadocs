@@ -2,7 +2,7 @@
 title: "#1220 — [P0] Off-chain / devshard implementation track"
 source: https://github.com/gonka-ai/gonka/issues/1220
 issue_number: 1220
-synced_at: 2026-07-06T15:59:23Z
+synced_at: 2026-07-06T21:52:02Z
 template: issues-main.html
 ---
 
@@ -74,4 +74,4 @@ I'd suggest to start with reviewing that issue and the corresponding PR with tra
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #1220](https://github.com/gonka-ai/gonka/issues/1220) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #1220](https://github.com/gonka-ai/gonka/issues/1220) every hour.

@@ -2,7 +2,7 @@
 title: "#580 — Liquidity Pool & Wrapped Token Update"
 source: https://github.com/gonka-ai/gonka/issues/580
 issue_number: 580
-synced_at: 2026-07-06T16:01:03Z
+synced_at: 2026-07-06T21:54:36Z
 template: issues-main.html
 ---
 
@@ -27,4 +27,4 @@ template: issues-main.html
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #580](https://github.com/gonka-ai/gonka/issues/580) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #580](https://github.com/gonka-ai/gonka/issues/580) every hour.

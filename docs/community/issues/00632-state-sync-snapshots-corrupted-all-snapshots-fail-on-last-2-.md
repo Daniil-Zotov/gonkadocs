@@ -2,7 +2,7 @@
 title: "#632 — State sync snapshots corrupted - all snapshots fail on last 2 chunks (826-827/827)"
 source: https://github.com/gonka-ai/gonka/issues/632
 issue_number: 632
-synced_at: 2026-07-06T15:59:43Z
+synced_at: 2026-07-06T21:52:33Z
 template: issues-main.html
 ---
 
@@ -227,4 +227,4 @@ Adds read-side reference counting to the snapshot Store so that Prune/Delete wai
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #632](https://github.com/gonka-ai/gonka/issues/632) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #632](https://github.com/gonka-ai/gonka/issues/632) every hour.

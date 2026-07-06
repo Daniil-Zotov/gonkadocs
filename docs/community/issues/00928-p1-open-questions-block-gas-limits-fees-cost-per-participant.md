@@ -2,7 +2,7 @@
 title: "#928 — [P1] Open Questions: Block Gas Limits, Fees, Cost per Participant, and System TX Prioritization"
 source: https://github.com/gonka-ai/gonka/issues/928
 issue_number: 928
-synced_at: 2026-07-06T15:59:39Z
+synced_at: 2026-07-06T21:52:27Z
 template: issues-main.html
 ---
 
@@ -125,4 +125,4 @@ Outline LGTM, but the network-duty msg enumeration (#1) and the authz grant migr
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #928](https://github.com/gonka-ai/gonka/issues/928) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #928](https://github.com/gonka-ai/gonka/issues/928) every hour.

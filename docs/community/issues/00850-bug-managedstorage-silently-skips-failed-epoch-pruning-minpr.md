@@ -2,7 +2,7 @@
 title: "#850 — Bug: ManagedStorage silently skips failed epoch pruning — minPruned advanced before goroutines complete"
 source: https://github.com/gonka-ai/gonka/issues/850
 issue_number: 850
-synced_at: 2026-07-06T16:00:19Z
+synced_at: 2026-07-06T21:53:30Z
 template: issues-main.html
 ---
 
@@ -79,4 +79,4 @@ Alternatively, if async pruning is required for performance, track per-epoch com
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #850](https://github.com/gonka-ai/gonka/issues/850) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #850](https://github.com/gonka-ai/gonka/issues/850) every hour.

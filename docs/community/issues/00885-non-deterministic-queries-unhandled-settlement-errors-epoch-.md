@@ -2,7 +2,7 @@
 title: "#885 — Non-deterministic queries, unhandled settlement errors, epoch stats underflow"
 source: https://github.com/gonka-ai/gonka/issues/885
 issue_number: 885
-synced_at: 2026-07-06T15:59:46Z
+synced_at: 2026-07-06T21:52:38Z
 template: issues-main.html
 ---
 
@@ -82,4 +82,4 @@ Four error return values are silently discarded in the settlement path:
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #885](https://github.com/gonka-ai/gonka/issues/885) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #885](https://github.com/gonka-ai/gonka/issues/885) every hour.

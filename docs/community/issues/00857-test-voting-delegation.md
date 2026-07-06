@@ -2,7 +2,7 @@
 title: "#857 — Test voting delegation"
 source: https://github.com/gonka-ai/gonka/issues/857
 issue_number: 857
-synced_at: 2026-07-06T16:00:17Z
+synced_at: 2026-07-06T21:53:27Z
 template: issues-main.html
 ---
 
@@ -193,4 +193,4 @@ No issues with delegating.
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #857](https://github.com/gonka-ai/gonka/issues/857) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #857](https://github.com/gonka-ai/gonka/issues/857) every hour.

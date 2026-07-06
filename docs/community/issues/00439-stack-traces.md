@@ -2,7 +2,7 @@
 title: "#439 — Stack traces"
 source: https://github.com/gonka-ai/gonka/issues/439
 issue_number: 439
-synced_at: 2026-07-06T16:00:40Z
+synced_at: 2026-07-06T21:53:59Z
 template: issues-main.html
 ---
 
@@ -32,4 +32,4 @@ template: issues-main.html
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #439](https://github.com/gonka-ai/gonka/issues/439) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #439](https://github.com/gonka-ai/gonka/issues/439) every hour.

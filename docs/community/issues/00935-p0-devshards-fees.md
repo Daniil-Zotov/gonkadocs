@@ -2,7 +2,7 @@
 title: "#935 — [P0] `devshards` fees"
 source: https://github.com/gonka-ai/gonka/issues/935
 issue_number: 935
-synced_at: 2026-07-06T15:59:41Z
+synced_at: 2026-07-06T21:52:30Z
 template: issues-main.html
 ---
 
@@ -54,4 +54,4 @@ All the remaining items will be done by April 5th
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #935](https://github.com/gonka-ai/gonka/issues/935) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #935](https://github.com/gonka-ai/gonka/issues/935) every hour.

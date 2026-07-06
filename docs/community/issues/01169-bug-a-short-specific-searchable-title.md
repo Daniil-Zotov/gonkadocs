@@ -2,7 +2,7 @@
 title: "#1169 — [BUG] A short, specific, searchable title."
 source: https://github.com/gonka-ai/gonka/issues/1169
 issue_number: 1169
-synced_at: 2026-07-06T15:59:38Z
+synced_at: 2026-07-06T21:52:27Z
 template: issues-main.html
 ---
 
@@ -38,4 +38,4 @@ Dashboard customers
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #1169](https://github.com/gonka-ai/gonka/issues/1169) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #1169](https://github.com/gonka-ai/gonka/issues/1169) every hour.

@@ -2,7 +2,7 @@
 title: "#558 — [P2] URLs with `/chat/completions` and `/completions` for Open Router"
 source: https://github.com/gonka-ai/gonka/issues/558
 issue_number: 558
-synced_at: 2026-07-06T15:59:57Z
+synced_at: 2026-07-06T21:52:55Z
 template: issues-main.html
 ---
 
@@ -85,4 +85,4 @@ cc: @libermans @kotelnikova @x0152
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #558](https://github.com/gonka-ai/gonka/issues/558) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #558](https://github.com/gonka-ai/gonka/issues/558) every hour.

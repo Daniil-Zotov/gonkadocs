@@ -2,7 +2,7 @@
 title: "#1086 — [P2] Devshard escrow stats collection and off chain stats support"
 source: https://github.com/gonka-ai/gonka/issues/1086
 issue_number: 1086
-synced_at: 2026-07-06T15:59:38Z
+synced_at: 2026-07-06T21:52:25Z
 template: issues-main.html
 ---
 
@@ -53,4 +53,4 @@ and important questions on shard finalization were raised here: https://github.c
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #1086](https://github.com/gonka-ai/gonka/issues/1086) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #1086](https://github.com/gonka-ai/gonka/issues/1086) every hour.

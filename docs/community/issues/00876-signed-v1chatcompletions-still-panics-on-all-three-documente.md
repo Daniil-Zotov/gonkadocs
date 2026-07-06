@@ -2,7 +2,7 @@
 title: "#876 — Signed /v1/chat/completions still panics on all three documented mainnet transfer-agent endpoints"
 source: https://github.com/gonka-ai/gonka/issues/876
 issue_number: 876
-synced_at: 2026-07-06T15:59:29Z
+synced_at: 2026-07-06T21:52:12Z
 template: issues-main.html
 ---
 
@@ -571,4 +571,4 @@ So all three documented signing headers are present — this is past the unsigne
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #876](https://github.com/gonka-ai/gonka/issues/876) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #876](https://github.com/gonka-ai/gonka/issues/876) every hour.

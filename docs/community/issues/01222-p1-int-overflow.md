@@ -2,7 +2,7 @@
 title: "#1222 — [P1] Int overflow"
 source: https://github.com/gonka-ai/gonka/issues/1222
 issue_number: 1222
-synced_at: 2026-07-06T15:59:17Z
+synced_at: 2026-07-06T21:51:53Z
 template: issues-main.html
 ---
 
@@ -45,4 +45,4 @@ I intentionally left broad static analysis and #1017 supply-cap semantics out of
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #1222](https://github.com/gonka-ai/gonka/issues/1222) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #1222](https://github.com/gonka-ai/gonka/issues/1222) every hour.

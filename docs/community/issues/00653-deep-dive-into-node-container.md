@@ -2,7 +2,7 @@
 title: "#653 — Deep dive into node container"
 source: https://github.com/gonka-ai/gonka/issues/653
 issue_number: 653
-synced_at: 2026-07-06T16:00:29Z
+synced_at: 2026-07-06T21:53:43Z
 template: issues-main.html
 ---
 
@@ -27,4 +27,4 @@ template: issues-main.html
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #653](https://github.com/gonka-ai/gonka/issues/653) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #653](https://github.com/gonka-ai/gonka/issues/653) every hour.

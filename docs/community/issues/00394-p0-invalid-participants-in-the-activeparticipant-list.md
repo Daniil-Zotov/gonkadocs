@@ -2,7 +2,7 @@
 title: "#394 — [P0] Invalid participants in the `ActiveParticipant` list"
 source: https://github.com/gonka-ai/gonka/issues/394
 issue_number: 394
-synced_at: 2026-07-06T16:01:08Z
+synced_at: 2026-07-06T21:54:44Z
 template: issues-main.html
 ---
 
@@ -124,4 +124,4 @@ Additionally, when a participant is marked as invalid, we need to ensure and tes
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #394](https://github.com/gonka-ai/gonka/issues/394) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #394](https://github.com/gonka-ai/gonka/issues/394) every hour.

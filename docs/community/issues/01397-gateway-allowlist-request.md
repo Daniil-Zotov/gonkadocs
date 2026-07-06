@@ -2,7 +2,7 @@
 title: "#1397 — Gateway allowlist request"
 source: https://github.com/gonka-ai/gonka/issues/1397
 issue_number: 1397
-synced_at: 2026-07-06T15:59:13Z
+synced_at: 2026-07-06T21:51:46Z
 template: issues-main.html
 ---
 
@@ -90,4 +90,4 @@ Thanks for your time — this helps us understand the right strategy for deployi
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #1397](https://github.com/gonka-ai/gonka/issues/1397) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #1397](https://github.com/gonka-ai/gonka/issues/1397) every hour.

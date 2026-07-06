@@ -2,7 +2,7 @@
 title: "#946 — Nil pointer dereference in /v1/chat/completions — gRPC responses not nil-checked"
 source: https://github.com/gonka-ai/gonka/issues/946
 issue_number: 946
-synced_at: 2026-07-06T16:00:04Z
+synced_at: 2026-07-06T21:53:08Z
 template: issues-main.html
 ---
 
@@ -53,4 +53,4 @@ The pattern used elsewhere in the codebase (e.g. `enforceDeveloperAccessGate` al
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #946](https://github.com/gonka-ai/gonka/issues/946) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #946](https://github.com/gonka-ai/gonka/issues/946) every hour.

@@ -2,7 +2,7 @@
 title: "#896 — `devshards`: Research aggregated BLS signatures"
 source: https://github.com/gonka-ai/gonka/issues/896
 issue_number: 896
-synced_at: 2026-07-06T15:59:41Z
+synced_at: 2026-07-06T21:52:30Z
 template: issues-main.html
 ---
 
@@ -56,4 +56,4 @@ To achieve this, one solution is to register the BLS `devshard` public key for e
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #896](https://github.com/gonka-ai/gonka/issues/896) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #896](https://github.com/gonka-ai/gonka/issues/896) every hour.

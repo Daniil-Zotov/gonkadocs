@@ -2,7 +2,7 @@
 title: "#647 — vLLM 0.11.0 — Migration Proposal"
 source: https://github.com/gonka-ai/gonka/issues/647
 issue_number: 647
-synced_at: 2026-07-06T16:00:40Z
+synced_at: 2026-07-06T21:54:00Z
 template: issues-main.html
 ---
 
@@ -29,4 +29,4 @@ https://discord.com/channels/1336477374442770503/1425189436748206171/14461422569
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #647](https://github.com/gonka-ai/gonka/issues/647) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #647](https://github.com/gonka-ai/gonka/issues/647) every hour.

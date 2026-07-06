@@ -2,7 +2,7 @@
 title: "#568 — DB handling improvements"
 source: https://github.com/gonka-ai/gonka/issues/568
 issue_number: 568
-synced_at: 2026-07-06T16:01:02Z
+synced_at: 2026-07-06T21:54:35Z
 template: issues-main.html
 ---
 
@@ -27,4 +27,4 @@ template: issues-main.html
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #568](https://github.com/gonka-ai/gonka/issues/568) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #568](https://github.com/gonka-ai/gonka/issues/568) every hour.

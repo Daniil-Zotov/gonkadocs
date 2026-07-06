@@ -2,7 +2,7 @@
 title: "#349 — [P1]: Utilization in scheduling and PoC uptime and Reward for all Models Support"
 source: https://github.com/gonka-ai/gonka/issues/349
 issue_number: 349
-synced_at: 2026-07-06T16:00:39Z
+synced_at: 2026-07-06T21:53:58Z
 template: issues-main.html
 ---
 
@@ -32,4 +32,4 @@ After that, feel free to contact me on Discord: `tatianacharchian_07833`.
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #349](https://github.com/gonka-ai/gonka/issues/349) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #349](https://github.com/gonka-ai/gonka/issues/349) every hour.

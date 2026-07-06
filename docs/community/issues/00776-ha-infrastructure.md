@@ -2,7 +2,7 @@
 title: "#776 — HA infrastructure"
 source: https://github.com/gonka-ai/gonka/issues/776
 issue_number: 776
-synced_at: 2026-07-06T16:00:18Z
+synced_at: 2026-07-06T21:53:28Z
 template: issues-main.html
 ---
 
@@ -46,4 +46,4 @@ Am I right ? Is there some guide on this that I missed ?
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #776](https://github.com/gonka-ai/gonka/issues/776) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #776](https://github.com/gonka-ai/gonka/issues/776) every hour.

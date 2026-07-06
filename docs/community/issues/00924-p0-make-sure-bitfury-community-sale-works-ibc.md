@@ -2,7 +2,7 @@
 title: "#924 — [P0] Make sure Bitfury community sale works: IBC"
 source: https://github.com/gonka-ai/gonka/issues/924
 issue_number: 924
-synced_at: 2026-07-06T15:59:52Z
+synced_at: 2026-07-06T21:52:47Z
 template: issues-main.html
 ---
 
@@ -66,4 +66,4 @@ FYI, @tcharchian
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #924](https://github.com/gonka-ai/gonka/issues/924) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #924](https://github.com/gonka-ai/gonka/issues/924) every hour.

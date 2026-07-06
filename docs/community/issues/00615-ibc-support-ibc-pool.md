@@ -2,7 +2,7 @@
 title: "#615 — IBC support, IBC pool"
 source: https://github.com/gonka-ai/gonka/issues/615
 issue_number: 615
-synced_at: 2026-07-06T16:00:09Z
+synced_at: 2026-07-06T21:53:16Z
 template: issues-main.html
 ---
 
@@ -27,4 +27,4 @@ template: issues-main.html
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #615](https://github.com/gonka-ai/gonka/issues/615) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #615](https://github.com/gonka-ai/gonka/issues/615) every hour.

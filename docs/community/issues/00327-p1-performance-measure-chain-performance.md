@@ -2,7 +2,7 @@
 title: "#327 — [P1] Performance: Measure chain performance"
 source: https://github.com/gonka-ai/gonka/issues/327
 issue_number: 327
-synced_at: 2026-07-06T16:00:38Z
+synced_at: 2026-07-06T21:53:56Z
 template: issues-main.html
 ---
 
@@ -31,4 +31,4 @@ https://github.com/gonka-ai/gonka/blob/main/proposals/limits/README.md
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #327](https://github.com/gonka-ai/gonka/issues/327) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #327](https://github.com/gonka-ai/gonka/issues/327) every hour.

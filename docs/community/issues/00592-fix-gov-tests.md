@@ -2,7 +2,7 @@
 title: "#592 — Fix gov tests"
 source: https://github.com/gonka-ai/gonka/issues/592
 issue_number: 592
-synced_at: 2026-07-06T16:00:54Z
+synced_at: 2026-07-06T21:54:21Z
 template: issues-main.html
 ---
 
@@ -27,4 +27,4 @@ template: issues-main.html
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #592](https://github.com/gonka-ai/gonka/issues/592) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #592](https://github.com/gonka-ai/gonka/issues/592) every hour.

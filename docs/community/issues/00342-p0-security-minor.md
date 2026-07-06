@@ -2,7 +2,7 @@
 title: "#342 — [P0] Security: Minor"
 source: https://github.com/gonka-ai/gonka/issues/342
 issue_number: 342
-synced_at: 2026-07-06T16:01:12Z
+synced_at: 2026-07-06T21:54:50Z
 template: issues-main.html
 ---
 
@@ -82,4 +82,4 @@ Ignore the following:
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #342](https://github.com/gonka-ai/gonka/issues/342) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #342](https://github.com/gonka-ai/gonka/issues/342) every hour.

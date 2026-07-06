@@ -2,7 +2,7 @@
 title: "#1237 — Request to be added as a Gonka broker"
 source: https://github.com/gonka-ai/gonka/issues/1237
 issue_number: 1237
-synced_at: 2026-07-06T15:59:26Z
+synced_at: 2026-07-06T21:52:06Z
 template: issues-main.html
 ---
 
@@ -130,4 +130,4 @@ This should let you start while the governance discussion around inclusion/white
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #1237](https://github.com/gonka-ai/gonka/issues/1237) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #1237](https://github.com/gonka-ai/gonka/issues/1237) every hour.

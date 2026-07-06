@@ -2,7 +2,7 @@
 title: "#784 — [P2] Possible underfunded issues"
 source: https://github.com/gonka-ai/gonka/issues/784
 issue_number: 784
-synced_at: 2026-07-06T15:59:54Z
+synced_at: 2026-07-06T21:52:50Z
 template: issues-main.html
 ---
 
@@ -247,4 +247,4 @@ TASK 4
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #784](https://github.com/gonka-ai/gonka/issues/784) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #784](https://github.com/gonka-ai/gonka/issues/784) every hour.

@@ -2,7 +2,7 @@
 title: "#950 — Set up IBC channels"
 source: https://github.com/gonka-ai/gonka/issues/950
 issue_number: 950
-synced_at: 2026-07-06T15:59:56Z
+synced_at: 2026-07-06T21:52:54Z
 template: issues-main.html
 ---
 
@@ -27,4 +27,4 @@ Set up IBC channels between Gonka and the chains for USDC (Injective) and USDT (
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #950](https://github.com/gonka-ai/gonka/issues/950) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #950](https://github.com/gonka-ai/gonka/issues/950) every hour.

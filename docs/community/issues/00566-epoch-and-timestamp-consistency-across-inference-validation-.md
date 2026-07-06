@@ -2,7 +2,7 @@
 title: "#566 — Epoch and timestamp consistency across inference, validation, and claims"
 source: https://github.com/gonka-ai/gonka/issues/566
 issue_number: 566
-synced_at: 2026-07-06T16:00:30Z
+synced_at: 2026-07-06T21:53:44Z
 template: issues-main.html
 ---
 
@@ -41,4 +41,4 @@ template: issues-main.html
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #566](https://github.com/gonka-ai/gonka/issues/566) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #566](https://github.com/gonka-ai/gonka/issues/566) every hour.

@@ -2,7 +2,7 @@
 title: "#1408 — Model lineup improvement: add an accessible GLM-5.2 candidate and reconsider MiniMax-M2.7 as default"
 source: https://github.com/gonka-ai/gonka/issues/1408
 issue_number: 1408
-synced_at: 2026-07-06T15:59:11Z
+synced_at: 2026-07-06T21:51:43Z
 template: issues-main.html
 ---
 
@@ -203,4 +203,4 @@ This does not need to be permanent. It could be applied only during a bootstrap 
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #1408](https://github.com/gonka-ai/gonka/issues/1408) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #1408](https://github.com/gonka-ai/gonka/issues/1408) every hour.

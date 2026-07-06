@@ -2,7 +2,7 @@
 title: "#914 — [P0] `devshards` rewards (research)"
 source: https://github.com/gonka-ai/gonka/issues/914
 issue_number: 914
-synced_at: 2026-07-06T15:59:59Z
+synced_at: 2026-07-06T21:53:00Z
 template: issues-main.html
 ---
 
@@ -159,4 +159,4 @@ Meeting Notes 2026/03/19
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #914](https://github.com/gonka-ai/gonka/issues/914) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #914](https://github.com/gonka-ai/gonka/issues/914) every hour.

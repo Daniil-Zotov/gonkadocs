@@ -2,7 +2,7 @@
 title: "#313 — [P0] Negative balance panic"
 source: https://github.com/gonka-ai/gonka/issues/313
 issue_number: 313
-synced_at: 2026-07-06T16:01:13Z
+synced_at: 2026-07-06T21:54:52Z
 template: issues-main.html
 ---
 
@@ -27,4 +27,4 @@ template: issues-main.html
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #313](https://github.com/gonka-ai/gonka/issues/313) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #313](https://github.com/gonka-ai/gonka/issues/313) every hour.

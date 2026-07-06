@@ -2,7 +2,7 @@
 title: "#1167 — `devshards` Optimizations for v0.2.13 db usage"
 source: https://github.com/gonka-ai/gonka/issues/1167
 issue_number: 1167
-synced_at: 2026-07-06T15:59:33Z
+synced_at: 2026-07-06T21:52:18Z
 template: issues-main.html
 ---
 
@@ -42,4 +42,4 @@ It could be added in one PR for devshard realease. Should be merged with https:/
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #1167](https://github.com/gonka-ai/gonka/issues/1167) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #1167](https://github.com/gonka-ai/gonka/issues/1167) every hour.

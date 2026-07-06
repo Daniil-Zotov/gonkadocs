@@ -2,7 +2,7 @@
 title: "#1407 — Question about project background: Mikhail Chudinov and Natalia"
 source: https://github.com/gonka-ai/gonka/issues/1407
 issue_number: 1407
-synced_at: 2026-07-06T15:59:10Z
+synced_at: 2026-07-06T21:51:42Z
 template: issues-main.html
 ---
 
@@ -75,4 +75,4 @@ As for who Natalia from xmrwallet is — I have no idea. 🤷
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #1407](https://github.com/gonka-ai/gonka/issues/1407) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #1407](https://github.com/gonka-ai/gonka/issues/1407) every hour.

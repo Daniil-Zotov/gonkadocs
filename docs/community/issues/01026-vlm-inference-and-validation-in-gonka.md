@@ -2,7 +2,7 @@
 title: "#1026 — VLM inference and validation in Gonka"
 source: https://github.com/gonka-ai/gonka/issues/1026
 issue_number: 1026
-synced_at: 2026-07-06T15:59:47Z
+synced_at: 2026-07-06T21:52:40Z
 template: issues-main.html
 ---
 
@@ -153,4 +153,4 @@ python vlm_validation.py \
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #1026](https://github.com/gonka-ai/gonka/issues/1026) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #1026](https://github.com/gonka-ai/gonka/issues/1026) every hour.

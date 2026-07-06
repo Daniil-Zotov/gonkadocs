@@ -2,7 +2,7 @@
 title: "#626 — How to add new models"
 source: https://github.com/gonka-ai/gonka/issues/626
 issue_number: 626
-synced_at: 2026-07-06T16:00:24Z
+synced_at: 2026-07-06T21:53:36Z
 template: issues-main.html
 ---
 
@@ -192,4 +192,4 @@ This will simplify adding new models, but we'll still need to compute proper thr
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #626](https://github.com/gonka-ai/gonka/issues/626) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #626](https://github.com/gonka-ai/gonka/issues/626) every hour.

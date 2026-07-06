@@ -2,7 +2,7 @@
 title: "#849 — Bug: DKG permanent failure — dealer consensus uses unweighted participant votes but quorum uses slot weights"
 source: https://github.com/gonka-ai/gonka/issues/849
 issue_number: 849
-synced_at: 2026-07-06T16:00:11Z
+synced_at: 2026-07-06T21:53:18Z
 template: issues-main.html
 ---
 
@@ -131,4 +131,4 @@ P.S. I think #848 could be closed as well (as we discussed in #851)
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #849](https://github.com/gonka-ai/gonka/issues/849) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #849](https://github.com/gonka-ai/gonka/issues/849) every hour.

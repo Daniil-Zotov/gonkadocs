@@ -2,7 +2,7 @@
 title: "#863 — Potential RCE via `torch.load()` in ML Training Pipeline"
 source: https://github.com/gonka-ai/gonka/issues/863
 issue_number: 863
-synced_at: 2026-07-06T16:00:12Z
+synced_at: 2026-07-06T21:53:19Z
 template: issues-main.html
 ---
 
@@ -186,4 +186,4 @@ The vulnerability is identified at the code level, **not verified on testnet**. 
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #863](https://github.com/gonka-ai/gonka/issues/863) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #863](https://github.com/gonka-ai/gonka/issues/863) every hour.

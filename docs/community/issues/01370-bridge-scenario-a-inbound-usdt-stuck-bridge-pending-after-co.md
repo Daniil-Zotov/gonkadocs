@@ -2,7 +2,7 @@
 title: "#1370 — Bridge Scenario A: inbound USDT stuck BRIDGE_PENDING after coordinated node halt (4-validator testnet)"
 source: https://github.com/gonka-ai/gonka/issues/1370
 issue_number: 1370
-synced_at: 2026-07-06T15:59:18Z
+synced_at: 2026-07-06T21:51:53Z
 template: issues-main.html
 ---
 
@@ -214,4 +214,4 @@ Local copy path in repo workspace: `docs/bridge-scenario-a-2026-06-28/logs/`
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #1370](https://github.com/gonka-ai/gonka/issues/1370) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #1370](https://github.com/gonka-ai/gonka/issues/1370) every hour.

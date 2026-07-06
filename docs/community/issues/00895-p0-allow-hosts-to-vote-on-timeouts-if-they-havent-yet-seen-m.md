@@ -2,7 +2,7 @@
 title: "#895 — [P0] Allow hosts to vote on timeouts if they haven't yet seen `MsgStartInference`"
 source: https://github.com/gonka-ai/gonka/issues/895
 issue_number: 895
-synced_at: 2026-07-06T16:00:00Z
+synced_at: 2026-07-06T21:53:01Z
 template: issues-main.html
 ---
 
@@ -63,4 +63,4 @@ We should also have a look at the e2e testermint tests.
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #895](https://github.com/gonka-ai/gonka/issues/895) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #895](https://github.com/gonka-ai/gonka/issues/895) every hour.

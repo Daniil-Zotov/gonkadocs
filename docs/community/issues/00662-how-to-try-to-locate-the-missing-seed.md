@@ -2,7 +2,7 @@
 title: "#662 — How to try to locate the missing seed"
 source: https://github.com/gonka-ai/gonka/issues/662
 issue_number: 662
-synced_at: 2026-07-06T16:00:36Z
+synced_at: 2026-07-06T21:53:53Z
 template: issues-main.html
 ---
 
@@ -27,4 +27,4 @@ template: issues-main.html
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #662](https://github.com/gonka-ai/gonka/issues/662) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #662](https://github.com/gonka-ai/gonka/issues/662) every hour.

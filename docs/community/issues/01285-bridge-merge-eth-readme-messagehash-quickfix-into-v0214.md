@@ -2,7 +2,7 @@
 title: "#1285 — Bridge: merge ETH README messageHash quickfix into v0.2.14"
 source: https://github.com/gonka-ai/gonka/issues/1285
 issue_number: 1285
-synced_at: 2026-07-06T15:59:30Z
+synced_at: 2026-07-06T21:52:13Z
 template: issues-main.html
 ---
 
@@ -119,4 +119,4 @@ However, third-party auditors or integrators using the README could construct an
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #1285](https://github.com/gonka-ai/gonka/issues/1285) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #1285](https://github.com/gonka-ai/gonka/issues/1285) every hour.

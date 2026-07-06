@@ -2,7 +2,7 @@
 title: "#631 — Add message to transfer amount with vesting"
 source: https://github.com/gonka-ai/gonka/issues/631
 issue_number: 631
-synced_at: 2026-07-06T16:00:25Z
+synced_at: 2026-07-06T21:53:37Z
 template: issues-main.html
 ---
 
@@ -71,4 +71,4 @@ Adds MsgTransferWithVesting for vesting transfers.
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #631](https://github.com/gonka-ai/gonka/issues/631) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #631](https://github.com/gonka-ai/gonka/issues/631) every hour.

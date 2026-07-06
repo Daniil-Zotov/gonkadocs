@@ -2,7 +2,7 @@
 title: "#583 — Ante Handler to filter PoC transactions"
 source: https://github.com/gonka-ai/gonka/issues/583
 issue_number: 583
-synced_at: 2026-07-06T16:00:56Z
+synced_at: 2026-07-06T21:54:25Z
 template: issues-main.html
 ---
 
@@ -27,4 +27,4 @@ template: issues-main.html
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #583](https://github.com/gonka-ai/gonka/issues/583) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #583](https://github.com/gonka-ai/gonka/issues/583) every hour.

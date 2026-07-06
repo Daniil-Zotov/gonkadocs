@@ -2,7 +2,7 @@
 title: "#1241 — Request to be added as a Gonka broker"
 source: https://github.com/gonka-ai/gonka/issues/1241
 issue_number: 1241
-synced_at: 2026-07-06T15:59:35Z
+synced_at: 2026-07-06T21:52:21Z
 template: issues-main.html
 ---
 
@@ -52,4 +52,4 @@ Thanks, and I wish everyone a great day!
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #1241](https://github.com/gonka-ai/gonka/issues/1241) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #1241](https://github.com/gonka-ai/gonka/issues/1241) every hour.

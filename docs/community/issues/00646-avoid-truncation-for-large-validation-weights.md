@@ -2,7 +2,7 @@
 title: "#646 — Avoid truncation for large validation weights"
 source: https://github.com/gonka-ai/gonka/issues/646
 issue_number: 646
-synced_at: 2026-07-06T15:59:30Z
+synced_at: 2026-07-06T21:52:12Z
 template: issues-main.html
 ---
 
@@ -43,4 +43,4 @@ Fixes uint32 truncation for large validation weights by using int64.
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #646](https://github.com/gonka-ai/gonka/issues/646) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #646](https://github.com/gonka-ai/gonka/issues/646) every hour.

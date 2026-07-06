@@ -2,7 +2,7 @@
 title: "#1081 — Binomial test p0 floor/ceiling mismatch — stricter downtime threshold silently never enforced"
 source: https://github.com/gonka-ai/gonka/issues/1081
 issue_number: 1081
-synced_at: 2026-07-06T15:59:51Z
+synced_at: 2026-07-06T21:52:46Z
 template: issues-main.html
 ---
 
@@ -137,4 +137,4 @@ Downgrading severity assessment to **Low / code hygiene** — unifying the round
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #1081](https://github.com/gonka-ai/gonka/issues/1081) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #1081](https://github.com/gonka-ai/gonka/issues/1081) every hour.

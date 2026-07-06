@@ -2,7 +2,7 @@
 title: "#926 — [P1] Seed for POC fix"
 source: https://github.com/gonka-ai/gonka/issues/926
 issue_number: 926
-synced_at: 2026-07-06T15:59:52Z
+synced_at: 2026-07-06T21:52:48Z
 template: issues-main.html
 ---
 
@@ -91,4 +91,4 @@ Add poc_stronger_rng_enabled bool to PocParams. When enabled via governance vote
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #926](https://github.com/gonka-ai/gonka/issues/926) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #926](https://github.com/gonka-ai/gonka/issues/926) every hour.

@@ -2,7 +2,7 @@
 title: "#461 — ML node model management edge cases"
 source: https://github.com/gonka-ai/gonka/issues/461
 issue_number: 461
-synced_at: 2026-07-06T16:00:41Z
+synced_at: 2026-07-06T21:54:01Z
 template: issues-main.html
 ---
 
@@ -74,4 +74,4 @@ The same edge case could happen, it was the only node serving a particular model
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #461](https://github.com/gonka-ai/gonka/issues/461) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #461](https://github.com/gonka-ai/gonka/issues/461) every hour.

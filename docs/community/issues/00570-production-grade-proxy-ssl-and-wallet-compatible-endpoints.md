@@ -2,7 +2,7 @@
 title: "#570 — Production-grade proxy, SSL, and wallet-compatible endpoints"
 source: https://github.com/gonka-ai/gonka/issues/570
 issue_number: 570
-synced_at: 2026-07-06T16:00:46Z
+synced_at: 2026-07-06T21:54:09Z
 template: issues-main.html
 ---
 
@@ -27,4 +27,4 @@ template: issues-main.html
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #570](https://github.com/gonka-ai/gonka/issues/570) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #570](https://github.com/gonka-ai/gonka/issues/570) every hour.

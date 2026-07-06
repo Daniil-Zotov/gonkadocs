@@ -2,7 +2,7 @@
 title: "#865 — Hard‑coded dummy TLS key/certs used for Gloo transport in training manager Body"
 source: https://github.com/gonka-ai/gonka/issues/865
 issue_number: 865
-synced_at: 2026-07-06T16:00:13Z
+synced_at: 2026-07-06T21:53:20Z
 template: issues-main.html
 ---
 
@@ -113,4 +113,4 @@ def _start(self, train_dict: dict):
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #865](https://github.com/gonka-ai/gonka/issues/865) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #865](https://github.com/gonka-ai/gonka/issues/865) every hour.

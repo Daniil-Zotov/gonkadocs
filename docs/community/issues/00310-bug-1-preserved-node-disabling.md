@@ -2,7 +2,7 @@
 title: "#310 — BUG-1: Preserved node disabling"
 source: https://github.com/gonka-ai/gonka/issues/310
 issue_number: 310
-synced_at: 2026-07-06T16:00:23Z
+synced_at: 2026-07-06T21:53:34Z
 template: issues-main.html
 ---
 
@@ -82,4 +82,4 @@ Skips disabled nodes from governance model population.
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #310](https://github.com/gonka-ai/gonka/issues/310) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #310](https://github.com/gonka-ai/gonka/issues/310) every hour.

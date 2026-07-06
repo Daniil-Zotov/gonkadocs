@@ -2,7 +2,7 @@
 title: "#421 — Validators are marked for removal but haven't removed"
 source: https://github.com/gonka-ai/gonka/issues/421
 issue_number: 421
-synced_at: 2026-07-06T16:00:24Z
+synced_at: 2026-07-06T21:53:35Z
 template: issues-main.html
 ---
 
@@ -83,4 +83,4 @@ https://github.com/gonka-ai/cosmos-sdk/blob/1ace5dd25d1a78f6b189cbdfec9b76839fe4
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #421](https://github.com/gonka-ai/gonka/issues/421) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #421](https://github.com/gonka-ai/gonka/issues/421) every hour.

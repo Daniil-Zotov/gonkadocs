@@ -2,7 +2,7 @@
 title: "#706 — Inference Slot Hogging"
 source: https://github.com/gonka-ai/gonka/issues/706
 issue_number: 706
-synced_at: 2026-07-06T16:00:20Z
+synced_at: 2026-07-06T21:53:31Z
 template: issues-main.html
 ---
 
@@ -90,4 +90,4 @@ Implements rotation logic to prevent the same node from always getting the safe 
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #706](https://github.com/gonka-ai/gonka/issues/706) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #706](https://github.com/gonka-ai/gonka/issues/706) every hour.

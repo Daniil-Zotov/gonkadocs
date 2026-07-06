@@ -2,7 +2,7 @@
 title: "#834 — We could not send vesting to many users in one proposal"
 source: https://github.com/gonka-ai/gonka/issues/834
 issue_number: 834
-synced_at: 2026-07-06T16:00:12Z
+synced_at: 2026-07-06T21:53:19Z
 template: issues-main.html
 ---
 
@@ -45,4 +45,4 @@ Assign this task to me plz.
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #834](https://github.com/gonka-ai/gonka/issues/834) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #834](https://github.com/gonka-ai/gonka/issues/834) every hour.

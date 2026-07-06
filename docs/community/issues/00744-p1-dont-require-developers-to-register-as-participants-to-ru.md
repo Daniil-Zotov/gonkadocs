@@ -2,7 +2,7 @@
 title: "#744 — [P1] Don’t require developers to register as Participants to run inference"
 source: https://github.com/gonka-ai/gonka/issues/744
 issue_number: 744
-synced_at: 2026-07-06T16:00:02Z
+synced_at: 2026-07-06T21:53:04Z
 template: issues-main.html
 ---
 
@@ -76,4 +76,4 @@ cc: @x0152
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #744](https://github.com/gonka-ai/gonka/issues/744) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #744](https://github.com/gonka-ai/gonka/issues/744) every hour.

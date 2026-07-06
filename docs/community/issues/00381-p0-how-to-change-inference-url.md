@@ -2,7 +2,7 @@
 title: "#381 — [P0] How to change `inference_url`"
 source: https://github.com/gonka-ai/gonka/issues/381
 issue_number: 381
-synced_at: 2026-07-06T16:01:07Z
+synced_at: 2026-07-06T21:54:43Z
 template: issues-main.html
 ---
 
@@ -53,4 +53,4 @@ Such an endpoint should be enough to have voting for claiming the wrong address.
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #381](https://github.com/gonka-ai/gonka/issues/381) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #381](https://github.com/gonka-ai/gonka/issues/381) every hour.

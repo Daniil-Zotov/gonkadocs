@@ -2,7 +2,7 @@
 title: "#315 — [P0] Move config to DB (like seed, etc)"
 source: https://github.com/gonka-ai/gonka/issues/315
 issue_number: 315
-synced_at: 2026-07-06T16:01:01Z
+synced_at: 2026-07-06T21:54:34Z
 template: issues-main.html
 ---
 
@@ -30,4 +30,4 @@ template: issues-main.html
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #315](https://github.com/gonka-ai/gonka/issues/315) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #315](https://github.com/gonka-ai/gonka/issues/315) every hour.

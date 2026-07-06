@@ -2,7 +2,7 @@
 title: "#1121 — Inference /v1/chat/completions on node3 returns 429 for ~90% of requests — single live TA caps community gateways at ~10% pass-rate"
 source: https://github.com/gonka-ai/gonka/issues/1121
 issue_number: 1121
-synced_at: 2026-07-06T15:59:37Z
+synced_at: 2026-07-06T21:52:23Z
 template: issues-main.html
 ---
 
@@ -194,4 +194,4 @@ So the answer is just: aggressive tuning, nothing more. Everything is open sourc
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #1121](https://github.com/gonka-ai/gonka/issues/1121) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #1121](https://github.com/gonka-ai/gonka/issues/1121) every hour.

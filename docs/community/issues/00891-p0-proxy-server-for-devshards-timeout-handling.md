@@ -2,7 +2,7 @@
 title: "#891 — [P0] Proxy server for `devshards`: timeout handling"
 source: https://github.com/gonka-ai/gonka/issues/891
 issue_number: 891
-synced_at: 2026-07-06T16:00:00Z
+synced_at: 2026-07-06T21:53:02Z
 template: issues-main.html
 ---
 
@@ -52,4 +52,4 @@ It should also handle timeout-related mechanisms.
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #891](https://github.com/gonka-ai/gonka/issues/891) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #891](https://github.com/gonka-ai/gonka/issues/891) every hour.

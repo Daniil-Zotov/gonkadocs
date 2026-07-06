@@ -2,7 +2,7 @@
 title: "#791 — Automatic cleanup of old propagation proofs"
 source: https://github.com/gonka-ai/gonka/issues/791
 issue_number: 791
-synced_at: 2026-07-06T15:59:50Z
+synced_at: 2026-07-06T21:52:45Z
 template: issues-main.html
 ---
 
@@ -50,4 +50,4 @@ Implement automatic cleanup of propagation data (bundles and proofs) from old ep
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #791](https://github.com/gonka-ai/gonka/issues/791) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #791](https://github.com/gonka-ai/gonka/issues/791) every hour.

@@ -2,7 +2,7 @@
 title: "#803 — Punish TA on signature/component mismatch"
 source: https://github.com/gonka-ai/gonka/issues/803
 issue_number: 803
-synced_at: 2026-07-06T15:59:33Z
+synced_at: 2026-07-06T21:52:17Z
 template: issues-main.html
 ---
 
@@ -43,4 +43,4 @@ Currently, mismatches in `compareStartTAComponents` / `compareFinishTAComponents
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #803](https://github.com/gonka-ai/gonka/issues/803) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #803](https://github.com/gonka-ai/gonka/issues/803) every hour.

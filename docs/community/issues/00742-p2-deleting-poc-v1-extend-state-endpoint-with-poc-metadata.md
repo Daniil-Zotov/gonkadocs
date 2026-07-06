@@ -2,7 +2,7 @@
 title: "#742 — [P2] Deleting PoC v1 + Extend state endpoint with PoC metadata"
 source: https://github.com/gonka-ai/gonka/issues/742
 issue_number: 742
-synced_at: 2026-07-06T16:00:03Z
+synced_at: 2026-07-06T21:53:06Z
 template: issues-main.html
 ---
 
@@ -28,4 +28,4 @@ Also poc v1 should be removed.
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #742](https://github.com/gonka-ai/gonka/issues/742) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #742](https://github.com/gonka-ai/gonka/issues/742) every hour.

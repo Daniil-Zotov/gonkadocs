@@ -2,7 +2,7 @@
 title: "#922 — Proposal: Agent identity and delegation governance for Gonka compute"
 source: https://github.com/gonka-ai/gonka/issues/922
 issue_number: 922
-synced_at: 2026-07-06T16:00:06Z
+synced_at: 2026-07-06T21:53:11Z
 template: issues-main.html
 ---
 
@@ -74,4 +74,4 @@ The composition would be: APS delegation chain proves authorization scope, Bit-C
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #922](https://github.com/gonka-ai/gonka/issues/922) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #922](https://github.com/gonka-ai/gonka/issues/922) every hour.

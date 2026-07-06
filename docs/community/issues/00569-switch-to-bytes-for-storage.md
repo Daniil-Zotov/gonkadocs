@@ -2,7 +2,7 @@
 title: "#569 — Switch to bytes for storage"
 source: https://github.com/gonka-ai/gonka/issues/569
 issue_number: 569
-synced_at: 2026-07-06T16:01:00Z
+synced_at: 2026-07-06T21:54:31Z
 template: issues-main.html
 ---
 
@@ -27,4 +27,4 @@ template: issues-main.html
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #569](https://github.com/gonka-ai/gonka/issues/569) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #569](https://github.com/gonka-ai/gonka/issues/569) every hour.

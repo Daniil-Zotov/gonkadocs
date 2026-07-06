@@ -2,7 +2,7 @@
 title: "#339 — [P1] Distributed vs truly decentralized and trustless and where we there"
 source: https://github.com/gonka-ai/gonka/issues/339
 issue_number: 339
-synced_at: 2026-07-06T16:00:18Z
+synced_at: 2026-07-06T21:53:28Z
 template: issues-main.html
 ---
 
@@ -50,4 +50,4 @@ template: issues-main.html
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #339](https://github.com/gonka-ai/gonka/issues/339) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #339](https://github.com/gonka-ai/gonka/issues/339) every hour.

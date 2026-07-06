@@ -2,7 +2,7 @@
 title: "#361 — [P0] Threshold + Params for big model. Part 2."
 source: https://github.com/gonka-ai/gonka/issues/361
 issue_number: 361
-synced_at: 2026-07-06T16:01:08Z
+synced_at: 2026-07-06T21:54:44Z
 template: issues-main.html
 ---
 
@@ -64,4 +64,4 @@ template: issues-main.html
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #361](https://github.com/gonka-ai/gonka/issues/361) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #361](https://github.com/gonka-ai/gonka/issues/361) every hour.

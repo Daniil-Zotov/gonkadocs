@@ -2,7 +2,7 @@
 title: "#557 — Remove extraneous community account"
 source: https://github.com/gonka-ai/gonka/issues/557
 issue_number: 557
-synced_at: 2026-07-06T16:01:05Z
+synced_at: 2026-07-06T21:54:40Z
 template: issues-main.html
 ---
 
@@ -27,4 +27,4 @@ Funds associated should be burned
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #557](https://github.com/gonka-ai/gonka/issues/557) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #557](https://github.com/gonka-ai/gonka/issues/557) every hour.

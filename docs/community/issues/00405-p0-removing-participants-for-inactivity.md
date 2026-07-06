@@ -2,7 +2,7 @@
 title: "#405 — [P0] Removing participants for inactivity"
 source: https://github.com/gonka-ai/gonka/issues/405
 issue_number: 405
-synced_at: 2026-07-06T16:00:49Z
+synced_at: 2026-07-06T21:54:13Z
 template: issues-main.html
 ---
 
@@ -37,4 +37,4 @@ Removing for inactivity
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #405](https://github.com/gonka-ai/gonka/issues/405) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #405](https://github.com/gonka-ai/gonka/issues/405) every hour.

@@ -2,7 +2,7 @@
 title: "#320 — [P0] Internal TestNet: k8 / another scripts with new servers"
 source: https://github.com/gonka-ai/gonka/issues/320
 issue_number: 320
-synced_at: 2026-07-06T16:01:13Z
+synced_at: 2026-07-06T21:54:52Z
 template: issues-main.html
 ---
 
@@ -27,4 +27,4 @@ template: issues-main.html
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #320](https://github.com/gonka-ai/gonka/issues/320) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #320](https://github.com/gonka-ai/gonka/issues/320) every hour.

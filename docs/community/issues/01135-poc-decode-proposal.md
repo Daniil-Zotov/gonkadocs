@@ -2,7 +2,7 @@
 title: "#1135 — PoC-decode proposal"
 source: https://github.com/gonka-ai/gonka/issues/1135
 issue_number: 1135
-synced_at: 2026-07-06T15:59:35Z
+synced_at: 2026-07-06T21:52:21Z
 template: issues-main.html
 ---
 
@@ -247,4 +247,4 @@ anchoring the tradeoff.
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #1135](https://github.com/gonka-ai/gonka/issues/1135) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #1135](https://github.com/gonka-ai/gonka/issues/1135) every hour.

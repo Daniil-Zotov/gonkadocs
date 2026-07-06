@@ -2,7 +2,7 @@
 title: "#985 — [P0] Bug: unsupported OpenAI type input for the inference requests"
 source: https://github.com/gonka-ai/gonka/issues/985
 issue_number: 985
-synced_at: 2026-07-06T15:59:58Z
+synced_at: 2026-07-06T21:52:58Z
 template: issues-main.html
 ---
 
@@ -69,4 +69,4 @@ decentralized-api rejects valid Cursor/OpenAI chat requests where messages[].con
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #985](https://github.com/gonka-ai/gonka/issues/985) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #985](https://github.com/gonka-ai/gonka/issues/985) every hour.

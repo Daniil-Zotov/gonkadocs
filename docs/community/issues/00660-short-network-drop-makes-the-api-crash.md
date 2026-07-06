@@ -2,7 +2,7 @@
 title: "#660 — Short network drop makes the api crash"
 source: https://github.com/gonka-ai/gonka/issues/660
 issue_number: 660
-synced_at: 2026-07-06T16:00:31Z
+synced_at: 2026-07-06T21:53:46Z
 template: issues-main.html
 ---
 
@@ -41,4 +41,4 @@ created by decentralized-api/training.NewAssigner in goroutine 1
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #660](https://github.com/gonka-ai/gonka/issues/660) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #660](https://github.com/gonka-ai/gonka/issues/660) every hour.

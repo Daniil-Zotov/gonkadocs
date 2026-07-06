@@ -2,7 +2,7 @@
 title: "#359 — [P0]: AI Developer onboarding: Aiden Chat integration"
 source: https://github.com/gonka-ai/gonka/issues/359
 issue_number: 359
-synced_at: 2026-07-06T16:00:39Z
+synced_at: 2026-07-06T21:53:58Z
 template: issues-main.html
 ---
 
@@ -27,4 +27,4 @@ template: issues-main.html
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #359](https://github.com/gonka-ai/gonka/issues/359) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #359](https://github.com/gonka-ai/gonka/issues/359) every hour.

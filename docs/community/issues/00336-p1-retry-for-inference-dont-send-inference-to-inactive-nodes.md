@@ -2,7 +2,7 @@
 title: "#336 — [P1] Retry for inference + don’t send inference to inactive nodes"
 source: https://github.com/gonka-ai/gonka/issues/336
 issue_number: 336
-synced_at: 2026-07-06T16:01:03Z
+synced_at: 2026-07-06T21:54:37Z
 template: issues-main.html
 ---
 
@@ -27,4 +27,4 @@ template: issues-main.html
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #336](https://github.com/gonka-ai/gonka/issues/336) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #336](https://github.com/gonka-ai/gonka/issues/336) every hour.

@@ -2,7 +2,7 @@
 title: "#1274 — Run Gonka documentation translation on Gonka"
 source: https://github.com/gonka-ai/gonka/issues/1274
 issue_number: 1274
-synced_at: 2026-07-06T15:59:32Z
+synced_at: 2026-07-06T21:52:16Z
 template: issues-main.html
 ---
 
@@ -41,4 +41,4 @@ Connect the Gonka website to Gonka itself and run documentation translation onli
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #1274](https://github.com/gonka-ai/gonka/issues/1274) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #1274](https://github.com/gonka-ai/gonka/issues/1274) every hour.

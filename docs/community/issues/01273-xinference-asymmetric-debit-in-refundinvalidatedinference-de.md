@@ -2,7 +2,7 @@
 title: "#1273 — x/inference: asymmetric debit in refundInvalidatedInference — design clarification"
 source: https://github.com/gonka-ai/gonka/issues/1273
 issue_number: 1273
-synced_at: 2026-07-06T15:59:31Z
+synced_at: 2026-07-06T21:52:15Z
 template: issues-main.html
 ---
 
@@ -134,4 +134,4 @@ The executor is debited the **full** `ActualCost` (going into negative/debt), wh
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #1273](https://github.com/gonka-ai/gonka/issues/1273) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #1273](https://github.com/gonka-ai/gonka/issues/1273) every hour.

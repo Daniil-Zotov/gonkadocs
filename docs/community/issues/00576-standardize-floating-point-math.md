@@ -2,7 +2,7 @@
 title: "#576 — Standardize floating point math"
 source: https://github.com/gonka-ai/gonka/issues/576
 issue_number: 576
-synced_at: 2026-07-06T16:00:48Z
+synced_at: 2026-07-06T21:54:11Z
 template: issues-main.html
 ---
 
@@ -27,4 +27,4 @@ template: issues-main.html
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #576](https://github.com/gonka-ai/gonka/issues/576) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #576](https://github.com/gonka-ai/gonka/issues/576) every hour.

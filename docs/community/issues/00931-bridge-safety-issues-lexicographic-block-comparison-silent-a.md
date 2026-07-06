@@ -2,7 +2,7 @@
 title: "#931 — Bridge safety issues: lexicographic block comparison, silent address validation failure, inconsistent chain ID mapping"
 source: https://github.com/gonka-ai/gonka/issues/931
 issue_number: 931
-synced_at: 2026-07-06T16:00:05Z
+synced_at: 2026-07-06T21:53:09Z
 template: issues-main.html
 ---
 
@@ -61,4 +61,4 @@ The function is called in:
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #931](https://github.com/gonka-ai/gonka/issues/931) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #931](https://github.com/gonka-ai/gonka/issues/931) every hour.

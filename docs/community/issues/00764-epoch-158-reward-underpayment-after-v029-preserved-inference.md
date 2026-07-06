@@ -2,7 +2,7 @@
 title: "#764 — Epoch 158 reward underpayment after v0.2.9: preserved inference-slot weight was reset"
 source: https://github.com/gonka-ai/gonka/issues/764
 issue_number: 764
-synced_at: 2026-07-06T16:00:23Z
+synced_at: 2026-07-06T21:53:33Z
 template: issues-main.html
 ---
 
@@ -60,4 +60,4 @@ Note: this is a forward-fix for chain replay correctness. Compensation for epoch
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #764](https://github.com/gonka-ai/gonka/issues/764) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #764](https://github.com/gonka-ai/gonka/issues/764) every hour.

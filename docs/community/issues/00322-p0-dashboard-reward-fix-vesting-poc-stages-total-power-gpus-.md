@@ -2,7 +2,7 @@
 title: "#322 — [P0] Dashboard (reward fix + vesting; poc stages; total power; gpu’s; participants with logos and contacts)"
 source: https://github.com/gonka-ai/gonka/issues/322
 issue_number: 322
-synced_at: 2026-07-06T16:00:28Z
+synced_at: 2026-07-06T21:53:42Z
 template: issues-main.html
 ---
 
@@ -41,4 +41,4 @@ template: issues-main.html
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #322](https://github.com/gonka-ai/gonka/issues/322) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #322](https://github.com/gonka-ai/gonka/issues/322) every hour.

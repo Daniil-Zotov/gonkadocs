@@ -2,7 +2,7 @@
 title: "#730 — [P0] vLLM 0.15.1 Compatibility Experiments"
 source: https://github.com/gonka-ai/gonka/issues/730
 issue_number: 730
-synced_at: 2026-07-06T16:00:04Z
+synced_at: 2026-07-06T21:53:08Z
 template: issues-main.html
 ---
 
@@ -176,4 +176,4 @@ All GPU pairs show close distances, meaning PoC validation passes successfully a
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #730](https://github.com/gonka-ai/gonka/issues/730) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #730](https://github.com/gonka-ai/gonka/issues/730) every hour.

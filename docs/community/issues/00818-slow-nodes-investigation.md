@@ -2,7 +2,7 @@
 title: "#818 — Slow nodes investigation"
 source: https://github.com/gonka-ai/gonka/issues/818
 issue_number: 818
-synced_at: 2026-07-06T16:00:08Z
+synced_at: 2026-07-06T21:53:14Z
 template: issues-main.html
 ---
 
@@ -161,4 +161,4 @@ I just thought about providing the node starter pack with this comprehensive sol
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #818](https://github.com/gonka-ai/gonka/issues/818) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #818](https://github.com/gonka-ai/gonka/issues/818) every hour.

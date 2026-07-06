@@ -2,7 +2,7 @@
 title: "#343 — BUG-3: Removing models from inference/model_list is not supported"
 source: https://github.com/gonka-ai/gonka/issues/343
 issue_number: 343
-synced_at: 2026-07-06T16:00:38Z
+synced_at: 2026-07-06T21:53:57Z
 template: issues-main.html
 ---
 
@@ -27,4 +27,4 @@ Fix the bug in network inference API where sending a request with an unsupported
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #343](https://github.com/gonka-ai/gonka/issues/343) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #343](https://github.com/gonka-ai/gonka/issues/343) every hour.

@@ -2,7 +2,7 @@
 title: "#823 — Bridge: Weak Dealer Approval Enables Threshold Signing DoS"
 source: https://github.com/gonka-ai/gonka/issues/823
 issue_number: 823
-synced_at: 2026-07-06T15:59:59Z
+synced_at: 2026-07-06T21:52:59Z
 template: issues-main.html
 ---
 
@@ -106,4 +106,4 @@ But InvalidDealers should be tracked there to take collateral from them and excl
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #823](https://github.com/gonka-ai/gonka/issues/823) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #823](https://github.com/gonka-ai/gonka/issues/823) every hour.

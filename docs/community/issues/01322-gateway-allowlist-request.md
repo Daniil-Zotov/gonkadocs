@@ -2,7 +2,7 @@
 title: "#1322 — Gateway allowlist request"
 source: https://github.com/gonka-ai/gonka/issues/1322
 issue_number: 1322
-synced_at: 2026-07-06T15:59:28Z
+synced_at: 2026-07-06T21:52:09Z
 template: issues-main.html
 ---
 
@@ -108,4 +108,4 @@ I'll likely open a separate issue requesting a broker key (or asking for documen
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #1322](https://github.com/gonka-ai/gonka/issues/1322) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #1322](https://github.com/gonka-ai/gonka/issues/1322) every hour.

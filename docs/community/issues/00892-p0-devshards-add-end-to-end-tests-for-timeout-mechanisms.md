@@ -2,7 +2,7 @@
 title: "#892 — [P0] `devshards`: add end-to-end tests for timeout mechanisms"
 source: https://github.com/gonka-ai/gonka/issues/892
 issue_number: 892
-synced_at: 2026-07-06T15:59:34Z
+synced_at: 2026-07-06T21:52:19Z
 template: issues-main.html
 ---
 
@@ -45,4 +45,4 @@ The proxy server should allow configuring the deadline limits so that the tests 
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #892](https://github.com/gonka-ai/gonka/issues/892) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #892](https://github.com/gonka-ai/gonka/issues/892) every hour.

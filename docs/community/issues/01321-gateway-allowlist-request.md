@@ -2,7 +2,7 @@
 title: "#1321 — Gateway allowlist request"
 source: https://github.com/gonka-ai/gonka/issues/1321
 issue_number: 1321
-synced_at: 2026-07-06T15:59:25Z
+synced_at: 2026-07-06T21:52:05Z
 template: issues-main.html
 ---
 
@@ -56,4 +56,4 @@ OpenBroker is **independent third party**, not part of the core protocol.
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #1321](https://github.com/gonka-ai/gonka/issues/1321) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #1321](https://github.com/gonka-ai/gonka/issues/1321) every hour.

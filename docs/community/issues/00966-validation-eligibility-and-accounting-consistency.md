@@ -2,7 +2,7 @@
 title: "#966 — Validation Eligibility and Accounting Consistency"
 source: https://github.com/gonka-ai/gonka/issues/966
 issue_number: 966
-synced_at: 2026-07-06T15:59:58Z
+synced_at: 2026-07-06T21:52:58Z
 template: issues-main.html
 ---
 
@@ -95,4 +95,4 @@ When done:
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #966](https://github.com/gonka-ai/gonka/issues/966) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #966](https://github.com/gonka-ai/gonka/issues/966) every hour.

@@ -2,7 +2,7 @@
 title: "#1225 — [P2] Clean PoW from MLNode and keep PoC networking patch local"
 source: https://github.com/gonka-ai/gonka/issues/1225
 issue_number: 1225
-synced_at: 2026-07-06T15:59:23Z
+synced_at: 2026-07-06T21:52:01Z
 template: issues-main.html
 ---
 
@@ -29,4 +29,4 @@ However, it was submitted from his previous account, which is currently blocked,
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #1225](https://github.com/gonka-ai/gonka/issues/1225) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #1225](https://github.com/gonka-ai/gonka/issues/1225) every hour.

@@ -2,7 +2,7 @@
 title: "#611 — [zpoken] Define and validate scalable off-chain PoC communication beyond Merkle-based commits"
 source: https://github.com/gonka-ai/gonka/issues/611
 issue_number: 611
-synced_at: 2026-07-06T15:59:49Z
+synced_at: 2026-07-06T21:52:42Z
 template: issues-main.html
 ---
 
@@ -61,4 +61,4 @@ I think this points should be taken into account on protocol selection
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #611](https://github.com/gonka-ai/gonka/issues/611) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #611](https://github.com/gonka-ai/gonka/issues/611) every hour.

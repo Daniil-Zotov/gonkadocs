@@ -2,7 +2,7 @@
 title: "#728 — [P0] Multimodel support"
 source: https://github.com/gonka-ai/gonka/issues/728
 issue_number: 728
-synced_at: 2026-07-06T15:59:51Z
+synced_at: 2026-07-06T21:52:47Z
 template: issues-main.html
 ---
 
@@ -42,4 +42,4 @@ https://github.com/gonka-ai/gonka/tree/gm/multi-models/proposals/multi-model-poc
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #728](https://github.com/gonka-ai/gonka/issues/728) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #728](https://github.com/gonka-ai/gonka/issues/728) every hour.

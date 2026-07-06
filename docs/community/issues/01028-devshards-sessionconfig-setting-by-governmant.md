@@ -2,7 +2,7 @@
 title: "#1028 — `devshards` `SessionConfig` setting by governmant"
 source: https://github.com/gonka-ai/gonka/issues/1028
 issue_number: 1028
-synced_at: 2026-07-06T15:59:20Z
+synced_at: 2026-07-06T21:51:57Z
 template: issues-main.html
 ---
 
@@ -43,4 +43,4 @@ For example https://github.com/gonka-ai/gonka/pull/1005 introduces `MaxInference
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #1028](https://github.com/gonka-ai/gonka/issues/1028) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #1028](https://github.com/gonka-ai/gonka/issues/1028) every hour.

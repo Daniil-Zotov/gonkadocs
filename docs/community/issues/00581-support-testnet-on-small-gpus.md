@@ -2,7 +2,7 @@
 title: "#581 — Support testnet on small GPUs"
 source: https://github.com/gonka-ai/gonka/issues/581
 issue_number: 581
-synced_at: 2026-07-06T16:01:02Z
+synced_at: 2026-07-06T21:54:34Z
 template: issues-main.html
 ---
 
@@ -27,4 +27,4 @@ template: issues-main.html
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #581](https://github.com/gonka-ai/gonka/issues/581) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #581](https://github.com/gonka-ai/gonka/issues/581) every hour.

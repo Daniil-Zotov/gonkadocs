@@ -2,7 +2,7 @@
 title: "#1019 — subnetctl: inference error handling"
 source: https://github.com/gonka-ai/gonka/issues/1019
 issue_number: 1019
-synced_at: 2026-07-06T15:59:17Z
+synced_at: 2026-07-06T21:51:52Z
 template: issues-main.html
 ---
 
@@ -130,4 +130,4 @@ That timeout path addresses **slow or stuck executors**, not **misclassified tra
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #1019](https://github.com/gonka-ai/gonka/issues/1019) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #1019](https://github.com/gonka-ai/gonka/issues/1019) every hour.

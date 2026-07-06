@@ -2,7 +2,7 @@
 title: "#982 — Enable simulation and fuzz testing for inference-chain"
 source: https://github.com/gonka-ai/gonka/issues/982
 issue_number: 982
-synced_at: 2026-07-06T15:59:28Z
+synced_at: 2026-07-06T21:52:10Z
 template: issues-main.html
 ---
 
@@ -432,4 +432,4 @@ Net: staking liveness under the PoC delete-immediately model needs both `#16` (t
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #982](https://github.com/gonka-ai/gonka/issues/982) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #982](https://github.com/gonka-ai/gonka/issues/982) every hour.

@@ -2,7 +2,7 @@
 title: "#447 — Node Registration Does Not Update After Migration (API stuck using old on-chain config)"
 source: https://github.com/gonka-ai/gonka/issues/447
 issue_number: 447
-synced_at: 2026-07-06T15:59:27Z
+synced_at: 2026-07-06T21:52:08Z
 template: issues-main.html
 ---
 
@@ -326,4 +326,4 @@ Whether `node_config.json` should stay merge-once (vs. re-syncing on restart) is
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #447](https://github.com/gonka-ai/gonka/issues/447) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #447](https://github.com/gonka-ai/gonka/issues/447) every hour.

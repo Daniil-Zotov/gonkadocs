@@ -2,7 +2,7 @@
 title: "#883 — Minor safety issues: non-deterministic query, unhandled error continuation, uint64 overflow"
 source: https://github.com/gonka-ai/gonka/issues/883
 issue_number: 883
-synced_at: 2026-07-06T15:59:46Z
+synced_at: 2026-07-06T21:52:39Z
 template: issues-main.html
 ---
 
@@ -69,4 +69,4 @@ See PR linked below with fixes for all three issues.
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #883](https://github.com/gonka-ai/gonka/issues/883) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #883](https://github.com/gonka-ai/gonka/issues/883) every hour.

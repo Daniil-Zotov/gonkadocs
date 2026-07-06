@@ -2,7 +2,7 @@
 title: "#1264 — logprobs, top_logprobs conditional stripping"
 source: https://github.com/gonka-ai/gonka/issues/1264
 issue_number: 1264
-synced_at: 2026-07-06T15:59:17Z
+synced_at: 2026-07-06T21:51:51Z
 template: issues-main.html
 ---
 
@@ -32,4 +32,4 @@ Recommendation: Adopt conditional stripping for logprobs and top_logprobs on the
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #1264](https://github.com/gonka-ai/gonka/issues/1264) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #1264](https://github.com/gonka-ai/gonka/issues/1264) every hour.

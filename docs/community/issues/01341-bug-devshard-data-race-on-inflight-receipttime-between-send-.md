@@ -2,7 +2,7 @@
 title: "#1341 — [BUG] devshard: data race on inflight receiptTime between send goroutine and escalation scheduler (go test -race fails on main)"
 source: https://github.com/gonka-ai/gonka/issues/1341
 issue_number: 1341
-synced_at: 2026-07-06T15:59:20Z
+synced_at: 2026-07-06T21:51:56Z
 template: issues-main.html
 ---
 
@@ -145,4 +145,4 @@ https://github.com/gonka-ai/gonka/commit/7b2c7b4dd946d37c32108103dad1a3cdfbdd6d2
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #1341](https://github.com/gonka-ai/gonka/issues/1341) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #1341](https://github.com/gonka-ai/gonka/issues/1341) every hour.

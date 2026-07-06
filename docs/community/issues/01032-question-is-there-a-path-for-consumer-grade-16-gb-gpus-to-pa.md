@@ -2,7 +2,7 @@
 title: "#1032 — Question: is there a path for consumer-grade 16 GB GPUs to participate as lightweight Host nodes?"
 source: https://github.com/gonka-ai/gonka/issues/1032
 issue_number: 1032
-synced_at: 2026-07-06T15:59:56Z
+synced_at: 2026-07-06T21:52:55Z
 template: issues-main.html
 ---
 
@@ -68,4 +68,4 @@ Would appreciate any clarification on whether this is a supported direction or n
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #1032](https://github.com/gonka-ai/gonka/issues/1032) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #1032](https://github.com/gonka-ai/gonka/issues/1032) every hour.

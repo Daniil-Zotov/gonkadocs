@@ -2,7 +2,7 @@
 title: "#977 — [P0] `devshards`: Limit amount of inferences"
 source: https://github.com/gonka-ai/gonka/issues/977
 issue_number: 977
-synced_at: 2026-07-06T15:59:31Z
+synced_at: 2026-07-06T21:52:14Z
 template: issues-main.html
 ---
 
@@ -47,4 +47,4 @@ Handling on devshard side is implemented at https://github.com/gonka-ai/gonka/pu
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #977](https://github.com/gonka-ai/gonka/issues/977) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #977](https://github.com/gonka-ai/gonka/issues/977) every hour.

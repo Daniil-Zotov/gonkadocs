@@ -2,7 +2,7 @@
 title: "#1200 — Independent review of PoC-decode results"
 source: https://github.com/gonka-ai/gonka/issues/1200
 issue_number: 1200
-synced_at: 2026-07-06T15:59:37Z
+synced_at: 2026-07-06T21:52:25Z
 template: issues-main.html
 ---
 
@@ -108,4 +108,4 @@ If the results are confirmed on different models, the next step can be integrati
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #1200](https://github.com/gonka-ai/gonka/issues/1200) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #1200](https://github.com/gonka-ai/gonka/issues/1200) every hour.

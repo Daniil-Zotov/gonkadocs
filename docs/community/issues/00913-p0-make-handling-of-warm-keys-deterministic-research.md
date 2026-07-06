@@ -2,7 +2,7 @@
 title: "#913 — [P0] Make handling of warm keys deterministic (research)"
 source: https://github.com/gonka-ai/gonka/issues/913
 issue_number: 913
-synced_at: 2026-07-06T15:59:16Z
+synced_at: 2026-07-06T21:51:51Z
 template: issues-main.html
 ---
 
@@ -46,4 +46,4 @@ We need to think of a solution to make this deterministic, and implement it.
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #913](https://github.com/gonka-ai/gonka/issues/913) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #913](https://github.com/gonka-ai/gonka/issues/913) every hour.

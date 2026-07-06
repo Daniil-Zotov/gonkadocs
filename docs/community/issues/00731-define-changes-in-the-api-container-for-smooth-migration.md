@@ -2,7 +2,7 @@
 title: "#731 — Define changes in the API container for smooth migration"
 source: https://github.com/gonka-ai/gonka/issues/731
 issue_number: 731
-synced_at: 2026-07-06T16:00:17Z
+synced_at: 2026-07-06T21:53:26Z
 template: issues-main.html
 ---
 
@@ -61,4 +61,4 @@ template: issues-main.html
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #731](https://github.com/gonka-ai/gonka/issues/731) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #731](https://github.com/gonka-ai/gonka/issues/731) every hour.

@@ -2,7 +2,7 @@
 title: "#428 — Node management"
 source: https://github.com/gonka-ai/gonka/issues/428
 issue_number: 428
-synced_at: 2026-07-06T16:00:10Z
+synced_at: 2026-07-06T21:53:16Z
 template: issues-main.html
 ---
 
@@ -46,4 +46,4 @@ template: issues-main.html
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #428](https://github.com/gonka-ai/gonka/issues/428) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #428](https://github.com/gonka-ai/gonka/issues/428) every hour.

@@ -2,7 +2,7 @@
 title: "#797 — New nodes can't join from snapshots with error"
 source: https://github.com/gonka-ai/gonka/issues/797
 issue_number: 797
-synced_at: 2026-07-06T16:00:21Z
+synced_at: 2026-07-06T21:53:33Z
 template: issues-main.html
 ---
 
@@ -111,4 +111,4 @@ The exact error that triggers the iterator failure is still unknown - since IAVL
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #797](https://github.com/gonka-ai/gonka/issues/797) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #797](https://github.com/gonka-ai/gonka/issues/797) every hour.

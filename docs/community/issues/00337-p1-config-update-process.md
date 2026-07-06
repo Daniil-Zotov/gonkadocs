@@ -2,7 +2,7 @@
 title: "#337 — [P1] Config update process"
 source: https://github.com/gonka-ai/gonka/issues/337
 issue_number: 337
-synced_at: 2026-07-06T16:00:57Z
+synced_at: 2026-07-06T21:54:26Z
 template: issues-main.html
 ---
 
@@ -42,4 +42,4 @@ template: issues-main.html
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #337](https://github.com/gonka-ai/gonka/issues/337) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #337](https://github.com/gonka-ai/gonka/issues/337) every hour.

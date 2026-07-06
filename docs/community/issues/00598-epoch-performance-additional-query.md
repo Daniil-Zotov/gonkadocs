@@ -2,7 +2,7 @@
 title: "#598 — Epoch performance additional query"
 source: https://github.com/gonka-ai/gonka/issues/598
 issue_number: 598
-synced_at: 2026-07-06T16:00:51Z
+synced_at: 2026-07-06T21:54:17Z
 template: issues-main.html
 ---
 
@@ -27,4 +27,4 @@ template: issues-main.html
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #598](https://github.com/gonka-ai/gonka/issues/598) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #598](https://github.com/gonka-ai/gonka/issues/598) every hour.

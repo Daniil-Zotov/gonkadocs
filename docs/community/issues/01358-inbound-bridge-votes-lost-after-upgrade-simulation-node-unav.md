@@ -2,7 +2,7 @@
 title: "#1358 — Inbound bridge votes lost after upgrade simulation (node unavailable for some minutes for upgrade) — no retry, deposits stuck BRIDGE_PENDING"
 source: https://github.com/gonka-ai/gonka/issues/1358
 issue_number: 1358
-synced_at: 2026-07-06T15:59:19Z
+synced_at: 2026-07-06T21:51:56Z
 template: issues-main.html
 ---
 
@@ -103,4 +103,4 @@ docker logs api 2>&1 | grep -iE 'Broadcast failed|node block time is stale|Error
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #1358](https://github.com/gonka-ai/gonka/issues/1358) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #1358](https://github.com/gonka-ai/gonka/issues/1358) every hour.

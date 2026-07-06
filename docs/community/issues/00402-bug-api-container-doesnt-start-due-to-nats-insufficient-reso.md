@@ -2,7 +2,7 @@
 title: "#402 — [BUG]: API container doesn't start due to "nats: insufficient resources""
 source: https://github.com/gonka-ai/gonka/issues/402
 issue_number: 402
-synced_at: 2026-07-06T16:00:58Z
+synced_at: 2026-07-06T21:54:27Z
 template: issues-main.html
 ---
 
@@ -131,4 +131,4 @@ NATS didn't delete any items from the queue, so the queues were constantly growi
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #402](https://github.com/gonka-ai/gonka/issues/402) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #402](https://github.com/gonka-ai/gonka/issues/402) every hour.

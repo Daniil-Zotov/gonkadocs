@@ -2,7 +2,7 @@
 title: "#419 — New Issue → Request Access to Inference Image"
 source: https://github.com/gonka-ai/gonka/issues/419
 issue_number: 419
-synced_at: 2026-07-06T16:01:09Z
+synced_at: 2026-07-06T21:54:45Z
 template: issues-main.html
 ---
 
@@ -49,4 +49,4 @@ Thanks!
 
 ---
 
-> 🔄 **Auto-synced** from [Issue #419](https://github.com/gonka-ai/gonka/issues/419) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #419](https://github.com/gonka-ai/gonka/issues/419) every hour.
