@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+<style>
+  .preproposal-header {
+    border: 1px solid var(--md-default-fg-color--lightest);
+    border-radius: 6px;
+    padding: 16px;
+    margin-bottom: 24px;
+    background: var(--md-code-bg-color);
+  }
+
+  .preproposal-header table {
+    margin: 8px 0 0;
+    font-size: 14px;
+  }
+
+  .preproposal-header td {
+    padding: 2px 8px;
+  }
+
+  .preproposal-status {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+
+  .preproposal-link {
+    margin-top: 24px;
+    padding: 12px 16px;
+    background: var(--md-code-bg-color);
+    border: 1px solid var(--md-default-fg-color--lightest);
+    border-radius: 6px;
+    font-size: 14px;
+  }
+
+  .preproposal-link a {
+    color: var(--md-accent-fg-color);
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .preproposal-link a:hover {
+    text-decoration: underline;
+  }
+</style>
+{% endblock %}
+
+{% block content %}
+  {{ super() }}
+{% endblock %}

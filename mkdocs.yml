@@ -20,6 +20,7 @@ not_in_nav: |
   community/discussion/**/*.md
   community/issues/**/*.md
   community/**/*.md
+  proposals/preproposals/**/*.md
   index.md
   README.md
 
@@ -39,7 +40,9 @@ nav:
       - Show and Tell: community/discussion/show-and-tell/index.md
     - Issues:
       - Обзор: community/issues/index.md
-  - Proposals: proposals/README.md
+  - Proposals:
+    - On-Chain Governance: proposals/README.md
+    - Pre-Proposals: proposals/preproposals/index.md
   - For Agents: agents.md
 
 theme:

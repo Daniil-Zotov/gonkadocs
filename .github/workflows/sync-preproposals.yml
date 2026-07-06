@@ -1,0 +1,46 @@
+name: Sync gonka.vote Pre-Proposals
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # каждые 6 часов (на час раньше, чем issues)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install --quiet requests
+
+      - name: Sync pre-proposals
+        env:
+          OUTPUT_DIR: docs/proposals/preproposals
+        run: python .github/scripts/sync_preproposals.py
+
+      - name: Regenerate AI-agent files (llms.txt, llms-full.txt)
+        run: |
+          python3 buildtools/generate-llms.py
+          python3 buildtools/generate-llms-full.py
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/proposals/preproposals/ docs/llms.txt docs/llms-full.txt
+          if git diff --cached --quiet; then
+            echo "No changes — skipping commit."
+          else
+            git commit -m "chore(docs): sync gonka.vote pre-proposals + regenerate llms files"
+            git push
+          fi
