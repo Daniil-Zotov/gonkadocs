@@ -7,7 +7,13 @@
     display: none !important;
   }
 
-  .md-sidebar--issues {
+  /* Override global max-width on issues pages */
+  .md-content {
+    max-width: none !important;
+  }
+
+  .issues-sidebar {
+    display: block;
     position: sticky;
     top: 76px;
     height: calc(100vh - 76px);
@@ -20,7 +26,7 @@
   }
 
   @media (max-width: 1200px) {
-    .md-sidebar--issues {
+    .issues-sidebar {
       display: none;
     }
   }
@@ -86,24 +92,31 @@
 {{ super() }}
 <script>
 function initIssuePage() {
-  // Remove stale old sidebars moved in previous instant loads
-  var oldSidebars = document.querySelectorAll('.md-content > .md-sidebar--issues');
-  oldSidebars.forEach(function(el) { el.remove(); });
-
-  // Move issues sidebar out of article to be sibling inside md-content
-  var sidebar = document.querySelector('.md-content__inner > .md-sidebar--issues');
   var content = document.querySelector('.md-content');
-  if (sidebar && content) {
+  if (!content) return;
+
+  // Remove stale sidebars from previous instant loads
+  document.querySelectorAll('.md-content > .issues-sidebar').forEach(function(el) {
+    el.remove();
+  });
+
+  // Ensure content is in flex row
+  content.style.display = 'flex';
+  content.style.flexDirection = 'row';
+
+  // Move sidebar from article to be sibling of article
+  var inner = content.querySelector('.md-content__inner');
+  var sidebar = inner ? inner.querySelector('.issues-sidebar') : null;
+  if (sidebar) {
     content.appendChild(sidebar);
   }
 
-  // Open/Closed filter for issues list
+  // Open/Closed filter
   var list = document.querySelector('.issues-list');
   if (!list) return;
   var items = list.querySelectorAll('.issues-list-item');
   if (!items.length) return;
 
-  // Avoid duplicate filter
   var existingFilter = list.parentNode.querySelector(':scope > .issues-filter');
   if (existingFilter) existingFilter.remove();
 
