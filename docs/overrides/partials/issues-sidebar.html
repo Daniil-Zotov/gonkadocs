@@ -1,4 +1,48 @@
 {# Issues sidebar — shows labels with counts #}
+<style>
+  /* Hide the default table of contents sidebar on issue pages */
+  .md-sidebar--secondary {
+    display: none !important;
+  }
+
+  /* Issues sidebar: rendered inside md-content but positioned as a right sidebar */
+  .md-sidebar--issues {
+    position: sticky;
+    top: 76px;
+    height: calc(100vh - 76px);
+    overflow-y: auto;
+    flex-shrink: 0;
+    width: 260px;
+    min-width: 260px;
+    border-left: 1px solid var(--md-default-fg-color--lightest);
+    padding: 16px 0;
+  }
+
+  @media (max-width: 1200px) {
+    .md-sidebar--issues {
+      display: none;
+    }
+  }
+
+  .md-nav--issues .md-nav__link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 16px;
+    font-size: 14px;
+  }
+
+  .md-nav--issues .md-nav__link--active {
+    font-weight: 600;
+  }
+
+  .issues-label-count {
+    font-size: 12px;
+    color: var(--md-default-fg-color--light);
+    margin-left: auto;
+  }
+</style>
+
 <div class="md-sidebar md-sidebar--issues" data-md-component="sidebar" data-md-type="custom">
   <div class="md-sidebar__scrollwrap">
     <div class="md-sidebar__inner">
@@ -23,3 +67,13 @@
     </div>
   </div>
 </div>
+
+<script>
+(function() {
+  var sidebar = document.querySelector('.md-sidebar--issues');
+  var mainInner = document.querySelector('.md-main__inner');
+  if (sidebar && mainInner) {
+    mainInner.appendChild(sidebar);
+  }
+})();
+</script>
