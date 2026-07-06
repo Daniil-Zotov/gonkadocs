@@ -1,15 +1,10 @@
 {% extends "main.html" %}
 
 {% block extrahead %}
+{{ super() }}
 <style>
   .md-sidebar--secondary {
     display: none !important;
-  }
-
-  @media screen and (min-width: 76.25em) {
-    .md-sidebar--primary {
-      height: auto !important;
-    }
   }
 
   .md-content {
@@ -24,12 +19,12 @@
     order: 1;
   }
 
-  .md-sidebar--issues {
-    display: block;
+  .issues-sidebar {
     order: 2;
     position: sticky;
     top: 76px;
-    height: calc(100vh - 76px) !important;
+    align-self: flex-start;
+    max-height: calc(100vh - 76px);
     overflow-y: auto;
     flex-shrink: 0;
     width: 240px;
@@ -39,7 +34,7 @@
   }
 
   @media (max-width: 1200px) {
-    .md-sidebar--issues {
+    .issues-sidebar {
       display: none;
     }
   }
@@ -96,29 +91,27 @@
 </style>
 {% endblock %}
 
+{% block container %}
+  <div class="md-content" data-md-component="content">
+    {% if "navigation.path" in features %}
+      {% include "partials/path.html" %}
+    {% endif %}
+    <article class="md-content__inner md-typeset">
+      {% include "partials/content.html" %}
+    </article>
+    {% include "partials/issues-sidebar.html" %}
+  </div>
+{% endblock %}
+
 {% block scripts %}
 {{ super() }}
 <script>
 function initIssuePage() {
-  // Remove stale old sidebars moved in previous instant loads
-  var oldSidebars = document.querySelectorAll('.md-sidebar--issues[data-moved]');
-  oldSidebars.forEach(function(el) { el.remove(); });
-
-  // Move issues sidebar out of article to be sibling inside md-content
-  var sidebar = document.querySelector('.md-sidebar--issues');
-  var content = document.querySelector('.md-content');
-  if (sidebar && content && !sidebar.hasAttribute('data-moved')) {
-    sidebar.setAttribute('data-moved', 'true');
-    content.appendChild(sidebar);
-  }
-
-  // Open/Closed filter for issues list
   var list = document.querySelector('.issues-list');
   if (!list) return;
   var items = list.querySelectorAll('.issues-list-item');
   if (!items.length) return;
 
-  // Avoid duplicate filter
   if (list.previousElementSibling && list.previousElementSibling.classList.contains('issues-filter')) {
     list.previousElementSibling.remove();
   }
@@ -155,9 +148,4 @@ function initIssuePage() {
 
 document$.subscribe(initIssuePage);
 </script>
-{% endblock %}
-
-{% block content %}
-  {{ super() }}
-  {% include "partials/issues-sidebar.html" %}
 {% endblock %}

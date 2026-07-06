@@ -1,8 +1,6 @@
 {# Issues sidebar — shows labels with counts #}
-<div class="md-sidebar md-sidebar--issues">
-  <div class="md-sidebar__scrollwrap">
-    <div class="md-sidebar__inner">
-      <nav class="md-nav md-nav--issues" aria-label="Issues">
+<aside class="issues-sidebar">
+  <nav class="md-nav md-nav--issues" aria-label="Issues">
         <label class="md-nav__title" for="__issues_drawer">
           <span class="md-nav__icon md-icon"></span>
           Issues
@@ -18,8 +16,6 @@
             Labels
           </li>
           {% include "partials/issues-labels-nav.html" ignore missing %}
-        </ul>
-      </nav>
-    </div>
-  </div>
-</div>
+      </ul>
+    </nav>
+</aside>
