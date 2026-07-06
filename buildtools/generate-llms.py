@@ -90,7 +90,16 @@ SECTIONS = [
         "url_prefix": "/proposals/",
         "desc": "Governance proposals dashboard",
         "entries": [
-            ("README.md", "Proposals Dashboard", "Full table of 75 on-chain governance proposals"),
+            ("README.md", "Proposals Dashboard", "Full table of on-chain governance proposals"),
+        ],
+    },
+    {
+        "dir": "proposals/preproposals",
+        "heading": "## Pre-Proposals (auto-synced)",
+        "url_prefix": "/proposals/preproposals/",
+        "desc": "Community proposals from gonka.vote — off-chain indicative polls",
+        "entries": [
+            ("index.md", "Pre-Proposals Overview", "Active and expired community proposals with vote tallies and comments"),
         ],
     },
     {
@@ -103,6 +112,17 @@ SECTIONS = [
         ],
     },
 ]
+
+
+# Directories whose individual pages should NOT be auto-discovered
+# (they are already represented by overview/index links)
+SKIP_SUBDIRS = {
+    "community/issues",
+    "community/discussion",
+    "gonka/docs/docs/zh",
+    "gonka/docs/docs/participant",
+    "proposals/preproposals",  # Already covered by explicit entries
+}
 
 
 def find_extra_pages(section_dir: str, known_files: set) -> list[tuple[str, str, str]]:
@@ -124,9 +144,18 @@ def find_extra_pages(section_dir: str, known_files: set) -> list[tuple[str, str,
                 continue
 
             # Skip index/README at section root
-            if fn in ("index.md", "README.md", "CNAME", ".gitignore"):
+            if fn in ("README.md", "CNAME", ".gitignore"):
                 continue
             if rel_path.startswith(".") or "images/" in rel_path:
+                continue
+
+            # Skip auto-sync subdirs (duplicates, translations, too granular)
+            skip = False
+            for skip_prefix in SKIP_SUBDIRS:
+                if rel_path.startswith(skip_prefix):
+                    skip = True
+                    break
+            if skip:
                 continue
 
             # Extract title from file

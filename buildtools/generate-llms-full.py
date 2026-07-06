@@ -27,15 +27,19 @@ SECTIONS = [
     ("proposals", "# On-Chain Proposals\n\n", "/proposals/"),
 ]
 
-# Files to skip (index pages, READMEs at root, etc.)
-SKIP_PATTERNS = {
-    "index.md",
-    "README.md",
+# Files to skip unconditionally (at any directory level)
+SKIP_PATTERNS_ALWAYS = {
     "CNAME",
     ".gitignore",
     "login.md",
     "signup.md",
     "disclaimer.md",
+}
+
+# Files to skip ONLY at the root of their scan directory, but include in subdirs
+SKIP_PATTERNS_ROOT_ONLY = {
+    "index.md",  # Keep index.md in subdirs (e.g. proposals/preproposals/<uuid>/index.md)
+    "README.md",
 }
 
 # Directories to skip entirely
@@ -49,12 +53,12 @@ SKIP_DIRS = {
     "gonka/docs/.git",
     "gonka/docs/docs/zh",  # Chinese translations — separate file if needed
     "gonka/docs/docs/participant",  # Duplicate of host/
-    "community/discussion",  # 70+ discussions — linked from llms.txt, too large for llms-full
-    "community/issues",  # 100+ issues — linked from llms.txt, too large for llms-full
+    "community/discussion",  # 70+ discussions — linked from llms.txt, too large
+    "community/issues",  # 100+ issues — linked from llms.txt, too large
 }
 
 
-def should_skip(rel_path: str) -> bool:
+def should_skip(rel_path: str, scan_dir: str = "") -> bool:
     """Check if a file should be skipped."""
     parts = Path(rel_path).parts
 
@@ -63,9 +67,19 @@ def should_skip(rel_path: str) -> bool:
         if rel_path.startswith(skip_dir):
             return True
 
-    # Skip specific files
-    if Path(rel_path).name in SKIP_PATTERNS:
+    # Skip specific files unconditionally
+    if Path(rel_path).name in SKIP_PATTERNS_ALWAYS:
         return True
+
+    # Skip index/README only at the ROOT of scan_dir, not in subdirs
+    if Path(rel_path).name in SKIP_PATTERNS_ROOT_ONLY:
+        if scan_dir:
+            # If file is exactly at scan_dir root (no subdirs between)
+            rel_to_scan = Path(rel_path).relative_to(scan_dir)
+            if rel_to_scan.parent == Path('.'):
+                return True
+        else:
+            return True
 
     # Skip .gitignore, etc
     if rel_path.startswith(".") or rel_path.startswith("_"):
@@ -128,7 +142,7 @@ def scan_section(section_dir: str) -> list[tuple[Path, str]]:
                 continue
             abs_path = Path(root) / fn
             rel_path = abs_path.relative_to(DOCS)
-            if not should_skip(str(rel_path)):
+            if not should_skip(str(rel_path), section_dir):
                 pages.append((abs_path, str(rel_path)))
 
     return pages
