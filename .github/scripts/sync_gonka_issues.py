@@ -413,21 +413,29 @@ def main():
         build_global_index(listing, by_label, by_state, len(listing)), encoding="utf-8"
     )
 
-    # Generate labels.json for sidebar navigation
-    labels_json = []
+    # Generate issues-labels-nav.html for sidebar navigation
+    labels_items = []
     for label_name in sorted(by_label.keys()):
         items = by_label[label_name]
         label_slug = items[0]["_label_slug"]
-        labels_json.append({
-            "name": label_name,
-            "slug": label_slug,
-            "count": len(items),
-        })
-    import json
-    (OUTPUT_DIR / "labels.json").write_text(
-        json.dumps(labels_json, ensure_ascii=False, indent=2), encoding="utf-8"
-    )
-    seen_paths.add(Path("labels.json"))
+        labels_items.append((label_name, label_slug, len(items)))
+    # Sort by count descending
+    labels_items.sort(key=lambda x: -x[2])
+
+    nav_html = ""
+    for name, slug, count in labels_items:
+        nav_html += f'''          <li class="md-nav__item">
+            <a href="/community/issues/labels/{slug}/" class="md-nav__link">
+              <span class="md-ellipsis">
+                <span class="issues-label" style="display:inline-flex; font-size:11px; padding:1px 6px;">{name}</span>
+                <span class="issues-label-count">{count}</span>
+              </span>
+            </a>
+          </li>
+'''
+    nav_path = Path("docs/overrides/partials/issues-labels-nav.html")
+    nav_path.parent.mkdir(parents=True, exist_ok=True)
+    nav_path.write_text(nav_html, encoding="utf-8")
 
     # Remove stale files
     for path in OUTPUT_DIR.rglob("*.md"):
