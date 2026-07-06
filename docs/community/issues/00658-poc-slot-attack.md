@@ -2,22 +2,26 @@
 title: "#658 — POC_SLOT attack"
 source: https://github.com/gonka-ai/gonka/issues/658
 issue_number: 658
-synced_at: 2026-07-06T09:52:58Z
+synced_at: 2026-07-06T15:06:27Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #658](https://github.com/gonka-ai/gonka/issues/658) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+    POC_SLOT attack
+    <span class="issues-number">#658</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Closed</span>
+    <span class="issues-meta-item">[@akup](https://github.com/akup) opened 2026-01-28 12:51 UTC</span>
+    <span class="issues-meta-item">0 comments</span>
+    <span class="issues-meta-item">Updated 2026-02-06 17:58 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🔴 POC_SLOT attack
-
-**Author:** [@akup](https://github.com/akup) · **State:** Closed · **Created:** 2026-01-28 12:51 UTC · **Updated:** 2026-02-06 17:58 UTC
-
-**Веха:** v0.2.10
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 # POC_SLOT Attack
 
 ## Overview
@@ -73,3 +77,8 @@ can still be treated as eligible in the next epoch’s PoC slot allocation and b
 
 Enforcing this would prevent attackers from cheaply farming `POC_SLOT = true` positions with throwaway, non-rewarded participants, and would tie PoC slot eligibility to **actual reward-earning behavior**.
 
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #658](https://github.com/gonka-ai/gonka/issues/658) every 6 hours.

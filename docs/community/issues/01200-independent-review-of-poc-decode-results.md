@@ -2,22 +2,26 @@
 title: "#1200 — Independent review of PoC-decode results"
 source: https://github.com/gonka-ai/gonka/issues/1200
 issue_number: 1200
-synced_at: 2026-07-06T09:52:03Z
+synced_at: 2026-07-06T15:05:29Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #1200](https://github.com/gonka-ai/gonka/issues/1200) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+    Independent review of PoC-decode results
+    <span class="issues-number">#1200</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Open</span>
+    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-05-19 23:36 UTC</span>
+    <span class="issues-meta-item">0 comments</span>
+    <span class="issues-meta-item">Updated 2026-05-19 23:36 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span></div>
+</div>
 
-# 🟢 Independent review of PoC-decode results
-
-**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Open · **Created:** 2026-05-19 23:36 UTC · **Updated:** 2026-05-19 23:36 UTC
-
-**Labels:** `up-for-grabs`
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 Independently review and re-check the PoC-decode approach from https://github.com/gonka-ai/gonka/issues/1135 and the Axel-T experiments.
 
 Current PoC correlates reasonably well with inference compute, but memory-usage coverage can be improved. The concern is that specialized versions could significantly accelerate PoC without equivalently improving real inference.
@@ -100,3 +104,8 @@ Please document:
 
 This task is about independent verification and critical review.
 If the results are confirmed on different models, the next step can be integration into the current vLLM path.
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #1200](https://github.com/gonka-ai/gonka/issues/1200) every 6 hours.

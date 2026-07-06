@@ -2,22 +2,26 @@
 title: "#310 — BUG-1: Preserved node disabling"
 source: https://github.com/gonka-ai/gonka/issues/310
 issue_number: 310
-synced_at: 2026-07-06T09:52:49Z
+synced_at: 2026-07-06T15:06:18Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #310](https://github.com/gonka-ai/gonka/issues/310) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+    BUG-1: Preserved node disabling
+    <span class="issues-number">#310</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Open</span>
+    <span class="issues-meta-item">[@gmorgachev](https://github.com/gmorgachev) opened 2025-09-01 18:19 UTC</span>
+    <span class="issues-meta-item">3 comments</span>
+    <span class="issues-meta-item">Updated 2026-02-12 15:34 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span> <span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span></div>
+</div>
 
-# 🟢 BUG-1: Preserved node disabling
-
-**Author:** [@gmorgachev](https://github.com/gmorgachev) · **State:** Open · **Created:** 2025-09-01 18:19 UTC · **Updated:** 2026-02-12 15:34 UTC
-
-**Labels:** `bug` `up-for-grabs`
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 # Description
 
 When MLNodes are disabled `POST 9200/admin/v1/nodes/<id>/disable`
@@ -40,27 +44,42 @@ Currently, the MLNode which was on-duty has the same weight as in previous epoch
 At the same time it's not presented in HardwareNodes (can be checked in: `./inferenced query inference hardware-nodes-all`)
 
 
+</div>
 
 ---
 
 ## 💬 Comments (3)
 
-### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
-
-*2026-01-28 22:35 UTC*
-
-up-tp-grabs, but needs to be rechecked
-
-### Комментарий 2 — [@AlexeySamosadov](https://github.com/AlexeySamosadov)
-
-*2026-02-08 14:14 UTC*
-
-PR created: https://github.com/gonka-ai/gonka/pull/682
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span class="issues-meta-item">commented 2026-01-28 22:35 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    up-tp-grabs, but needs to be rechecked
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
+    <span class="issues-meta-item">commented 2026-02-08 14:14 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    PR created: https://github.com/gonka-ai/gonka/pull/682
 
 Skips disabled nodes from governance model population.
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
+    <span class="issues-meta-item">commented 2026-02-12 15:34 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    I have a PR for this: #682 — skips disabled nodes from governance model population. Would appreciate a review when you get a chance.
+  </div>
+</div>
 
-### Комментарий 3 — [@AlexeySamosadov](https://github.com/AlexeySamosadov)
+---
 
-*2026-02-12 15:34 UTC*
-
-I have a PR for this: #682 — skips disabled nodes from governance model population. Would appreciate a review when you get a chance.
+> 🔄 **Auto-synced** from [Issue #310](https://github.com/gonka-ai/gonka/issues/310) every 6 hours.

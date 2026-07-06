@@ -2,24 +2,26 @@
 title: "#398 — API -> Node Connection Issues"
 source: https://github.com/gonka-ai/gonka/issues/398
 issue_number: 398
-synced_at: 2026-07-06T09:53:01Z
+synced_at: 2026-07-06T15:06:30Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #398](https://github.com/gonka-ai/gonka/issues/398) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+    API -> Node Connection Issues
+    <span class="issues-number">#398</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Closed</span>
+    <span class="issues-meta-item">[@gmorgachev](https://github.com/gmorgachev) opened 2025-10-19 05:17 UTC</span>
+    <span class="issues-meta-item">0 comments</span>
+    <span class="issues-meta-item">Updated 2026-01-29 06:17 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
+</div>
 
-# 🔴 API -> Node Connection Issues
-
-**Author:** [@gmorgachev](https://github.com/gmorgachev) · **State:** Closed · **Created:** 2025-10-19 05:17 UTC · **Updated:** 2026-01-29 06:17 UTC
-
-**Labels:** `bug`
-
-**Веха:** v0.2.6
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 # 1. Too large HTTP body:
 
 ```
@@ -52,3 +54,8 @@ Probably we need to add retry in client?
 Caused by https://github.com/gonka-ai/gonka/issues/387, do we need to handle explicitly ?
 
 
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #398](https://github.com/gonka-ai/gonka/issues/398) every 6 hours.

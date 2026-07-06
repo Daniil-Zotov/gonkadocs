@@ -2,35 +2,40 @@
 title: "#1220 — [P0] Off-chain / devshard implementation track"
 source: https://github.com/gonka-ai/gonka/issues/1220
 issue_number: 1220
-synced_at: 2026-07-06T09:51:48Z
+synced_at: 2026-07-06T15:05:08Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #1220](https://github.com/gonka-ai/gonka/issues/1220) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+    [P0] Off-chain / devshard implementation track
+    <span class="issues-number">#1220</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Open</span>
+    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-05-21 22:00 UTC</span>
+    <span class="issues-meta-item">2 comments</span>
+    <span class="issues-meta-item">Updated 2026-06-24 00:31 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span> <span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
+</div>
 
-# 🟢 [P0] Off-chain / devshard implementation track
-
-**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Open · **Created:** 2026-05-21 22:00 UTC · **Updated:** 2026-06-24 00:31 UTC
-
-**Labels:** `up-for-grabs` `Priority: High`
-
-**Веха:** v0.2.15
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 Open for community contributors. Multiple parallel efforts in this direction are welcome to explore different approaches and accelerate progress.
+</div>
 
 ---
 
 ## 💬 Comments (2)
 
-### Комментарий 1 — [@orvionx](https://github.com/orvionx)
-
-*2026-06-22 23:37 UTC*
-
-Hi, @tcharchian 
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@orvionx](https://github.com/orvionx)</span>
+    <span class="issues-meta-item">commented 2026-06-22 23:37 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Hi, @tcharchian 
 I’d like to work on this issue.
 
 I reviewed the current `devshard` structure and would like to start with a scoped implementation pass rather than trying to cover the whole off-chain/devshard track at once.
@@ -45,12 +50,15 @@ My initial plan is:
 
 Before I start the implementation, could you confirm whether there is a preferred first milestone or acceptance criteria for this track? If there is no strict preference, I can start by proposing a small PR around the current devshard flow and iterate from maintainer feedback.
 
-
-### Комментарий 2 — [@mtvnastya](https://github.com/mtvnastya)
-
-*2026-06-23 21:31 UTC*
-
-hi @orvionx, thanks for you interest!
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@mtvnastya](https://github.com/mtvnastya)</span>
+    <span class="issues-meta-item">commented 2026-06-23 21:31 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    hi @orvionx, thanks for you interest!
 
 I'd say that these milestones are very broad to assess at this stage.
 there are some important differences between inference off-chain logic (devshards) and requirements for training.
@@ -61,3 +69,9 @@ decentralized training, on the other hand, is a research direction with a lot of
 the first iteration of how communication with main net will work is proposed [here](https://github.com/gonka-ai/gonka/issues/1219)
 
 I'd suggest to start with reviewing that issue and the corresponding PR with trainshard v0 plan and join the discussion from there.
+  </div>
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #1220](https://github.com/gonka-ai/gonka/issues/1220) every 6 hours.

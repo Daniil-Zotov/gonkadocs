@@ -2,51 +2,68 @@
 title: "#924 — [P0] Make sure Bitfury community sale works: IBC"
 source: https://github.com/gonka-ai/gonka/issues/924
 issue_number: 924
-synced_at: 2026-07-06T09:52:18Z
+synced_at: 2026-07-06T15:05:45Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #924](https://github.com/gonka-ai/gonka/issues/924) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+    [P0] Make sure Bitfury community sale works: IBC
+    <span class="issues-number">#924</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Closed</span>
+    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-20 23:20 UTC</span>
+    <span class="issues-meta-item">3 comments</span>
+    <span class="issues-meta-item">Updated 2026-04-11 04:34 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
+</div>
 
-# 🔴 [P0] Make sure Bitfury community sale works: IBC
-
-**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2026-03-20 23:20 UTC · **Updated:** 2026-04-11 04:34 UTC
-
-**Labels:** `Priority: High`
-
-**Веха:** v0.2.12
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 *(empty)*
+</div>
 
 ---
 
 ## 💬 Comments (3)
 
-### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
-
-*2026-03-20 23:21 UTC*
-
-@maria-mitina said that Community Sale contract tested with IBC, worked well.
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span class="issues-meta-item">commented 2026-03-20 23:21 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    @maria-mitina said that Community Sale contract tested with IBC, worked well.
 @GLiberman @0xgonka do we have other scenarios to try?
-
-### Комментарий 2 — [@maria-mitina](https://github.com/maria-mitina)
-
-*2026-03-25 09:11 UTC*
-
-it will be great to confirm/decide whether bridge is needed for the Bitfury scenario.
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@maria-mitina](https://github.com/maria-mitina)</span>
+    <span class="issues-meta-item">commented 2026-03-25 09:11 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    it will be great to confirm/decide whether bridge is needed for the Bitfury scenario.
 If yes, we will work this scenario out and test.
 
 
-
-### Комментарий 3 — [@maria-mitina](https://github.com/maria-mitina)
-
-*2026-03-25 17:15 UTC*
-
-@mtvnastya and I had a discussion about it, and bridge is needed for the Bitfury contract. We need to fix the hardcoded chainId and rebuild the binary. Happy to test after that 
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@maria-mitina](https://github.com/maria-mitina)</span>
+    <span class="issues-meta-item">commented 2026-03-25 17:15 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    @mtvnastya and I had a discussion about it, and bridge is needed for the Bitfury contract. We need to fix the hardcoded chainId and rebuild the binary. Happy to test after that 
 @GLiberman - any chance you could update us on the bridge fix? 
 
 FYI, @tcharchian 
+  </div>
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #924](https://github.com/gonka-ai/gonka/issues/924) every 6 hours.

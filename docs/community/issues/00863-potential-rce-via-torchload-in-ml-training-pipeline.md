@@ -2,22 +2,26 @@
 title: "#863 — Potential RCE via `torch.load()` in ML Training Pipeline"
 source: https://github.com/gonka-ai/gonka/issues/863
 issue_number: 863
-synced_at: 2026-07-06T09:52:39Z
+synced_at: 2026-07-06T15:06:07Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #863](https://github.com/gonka-ai/gonka/issues/863) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+    Potential RCE via `torch.load()` in ML Training Pipeline
+    <span class="issues-number">#863</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Closed</span>
+    <span class="issues-meta-item">[@VVSMEN](https://github.com/VVSMEN) opened 2026-03-05 10:44 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-03-12 20:25 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span></div>
+</div>
 
-# 🔴 Potential RCE via `torch.load()` in ML Training Pipeline
-
-**Author:** [@VVSMEN](https://github.com/VVSMEN) · **State:** Closed · **Created:** 2026-03-05 10:44 UTC · **Updated:** 2026-03-12 20:25 UTC
-
-**Labels:** `Priority: Low`
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 #### Summary
 This report describes a **potential unsafe deserialization issue** identified during **static/code review**. It has **not been verified on testnet**.  
 The function `torch.load()` is used to load saved weights and training states without any protection mechanisms, which theoretically allows an attacker to inject and execute arbitrary code when loading model files. This vector could be exploited to create a "Dormant + Trigger" worm that silently infects network nodes and later paralyzes the network on command.  
@@ -164,13 +168,22 @@ The vulnerability is identified at the code level, **not verified on testnet**. 
 - [PyTorch torch.load documentation](https://pytorch.org/docs/stable/generated/torch.load.html)
 - [CVE-2025-32434 / GHSA-53q9-r3pm-6pq6](https://github.com/pytorch/pytorch/security/advisories/GHSA-53q9-r3pm-6pq6)
 - [Pickle security risks](https://docs.python.org/3/library/pickle.html#what-can-pickle-do)
+</div>
 
 ---
 
 ## 💬 Comments (1)
 
-### Комментарий 1 — [@tamazgadaev](https://github.com/tamazgadaev)
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@tamazgadaev](https://github.com/tamazgadaev)</span>
+    <span class="issues-meta-item">commented 2026-03-12 19:44 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Training is not currently supported and basically needs total revision, so I'd say this issue is low-priority
+  </div>
+</div>
 
-*2026-03-12 19:44 UTC*
+---
 
-Training is not currently supported and basically needs total revision, so I'd say this issue is low-priority
+> 🔄 **Auto-synced** from [Issue #863](https://github.com/gonka-ai/gonka/issues/863) every 6 hours.

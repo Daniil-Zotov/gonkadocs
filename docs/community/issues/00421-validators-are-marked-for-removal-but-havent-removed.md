@@ -2,22 +2,26 @@
 title: "#421 — Validators are marked for removal but haven't removed"
 source: https://github.com/gonka-ai/gonka/issues/421
 issue_number: 421
-synced_at: 2026-07-06T09:52:50Z
+synced_at: 2026-07-06T15:06:19Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #421](https://github.com/gonka-ai/gonka/issues/421) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+    Validators are marked for removal but haven't removed
+    <span class="issues-number">#421</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Open</span>
+    <span class="issues-meta-item">[@gmorgachev](https://github.com/gmorgachev) opened 2025-11-07 22:56 UTC</span>
+    <span class="issues-meta-item">3 comments</span>
+    <span class="issues-meta-item">Updated 2026-02-12 15:25 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span> <span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span></div>
+</div>
 
-# 🟢 Validators are marked for removal but haven't removed
-
-**Author:** [@gmorgachev](https://github.com/gmorgachev) · **State:** Open · **Created:** 2025-11-07 22:56 UTC · **Updated:** 2026-02-12 15:25 UTC
-
-**Labels:** `bug` `up-for-grabs`
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 Validators are marked for removal but haven't removed. Happens in cosmos-sdk 
 ```
 7:48AM INF marking validator for removal (not in compute results) jailed=false module=x/staking operator=gonkavaloper1p5zz3d87hy5gn5jphhnljkv7pg06xj6gaa7g6p status=BOND_STATUS_UNBONDED
@@ -43,25 +47,40 @@ Validators are marked for removal but haven't removed. Happens in cosmos-sdk
 
 Happens here:
 https://github.com/gonka-ai/cosmos-sdk/blob/1ace5dd25d1a78f6b189cbdfec9b76839fe45a20/x/staking/keeper/compute.go#L166
+</div>
 
 ---
 
 ## 💬 Comments (3)
 
-### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span class="issues-meta-item">commented 2026-01-28 22:19 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Needs to be rechecked
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
+    <span class="issues-meta-item">commented 2026-02-08 15:16 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    PR: https://github.com/gonka-ai/gonka/pull/720
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
+    <span class="issues-meta-item">commented 2026-02-12 15:25 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    I already have a PR for this: #720 — it implements validator removal cleanup hooks. Would appreciate a review when you get a chance.
+  </div>
+</div>
 
-*2026-01-28 22:19 UTC*
+---
 
-Needs to be rechecked
-
-### Комментарий 2 — [@AlexeySamosadov](https://github.com/AlexeySamosadov)
-
-*2026-02-08 15:16 UTC*
-
-PR: https://github.com/gonka-ai/gonka/pull/720
-
-### Комментарий 3 — [@AlexeySamosadov](https://github.com/AlexeySamosadov)
-
-*2026-02-12 15:25 UTC*
-
-I already have a PR for this: #720 — it implements validator removal cleanup hooks. Would appreciate a review when you get a chance.
+> 🔄 **Auto-synced** from [Issue #421](https://github.com/gonka-ai/gonka/issues/421) every 6 hours.

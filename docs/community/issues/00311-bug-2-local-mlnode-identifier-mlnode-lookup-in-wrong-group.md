@@ -2,22 +2,26 @@
 title: "#311 — BUG-2: Local MLNode identifier & MLNode lookup in wrong group"
 source: https://github.com/gonka-ai/gonka/issues/311
 issue_number: 311
-synced_at: 2026-07-06T09:53:03Z
+synced_at: 2026-07-06T15:06:33Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #311](https://github.com/gonka-ai/gonka/issues/311) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+    BUG-2: Local MLNode identifier & MLNode lookup in wrong group
+    <span class="issues-number">#311</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Closed</span>
+    <span class="issues-meta-item">[@gmorgachev](https://github.com/gmorgachev) opened 2025-09-02 09:28 UTC</span>
+    <span class="issues-meta-item">0 comments</span>
+    <span class="issues-meta-item">Updated 2026-01-28 22:34 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
+</div>
 
-# 🔴 BUG-2: Local MLNode identifier & MLNode lookup in wrong group
-
-**Author:** [@gmorgachev](https://github.com/gmorgachev) · **State:** Closed · **Created:** 2025-09-02 09:28 UTC · **Updated:** 2026-01-28 22:34 UTC
-
-**Labels:** `bug`
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 # BUG-2: Local MLNode identifier & MLNode lookup in wrong group
 
 In function getInferenceServingNodeIds
@@ -81,3 +85,8 @@ originalBatches := am.filterPoCBatchesFromInferenceNodes(allOriginalBatches, inf
 - Avoid `NodeId` collisions by using a composite key `(participantAddress, nodeId)` instead of bare `NodeId`.
 
 Priority: not urgent but should be fixed but
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #311](https://github.com/gonka-ai/gonka/issues/311) every 6 hours.

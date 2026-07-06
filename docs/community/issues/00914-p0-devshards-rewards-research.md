@@ -2,24 +2,26 @@
 title: "#914 — [P0] `devshards` rewards (research)"
 source: https://github.com/gonka-ai/gonka/issues/914
 issue_number: 914
-synced_at: 2026-07-06T09:52:26Z
+synced_at: 2026-07-06T15:05:53Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #914](https://github.com/gonka-ai/gonka/issues/914) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+    [P0] `devshards` rewards (research)
+    <span class="issues-number">#914</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Closed</span>
+    <span class="issues-meta-item">[@dcastro](https://github.com/dcastro) opened 2026-03-18 10:43 UTC</span>
+    <span class="issues-meta-item">3 comments</span>
+    <span class="issues-meta-item">Updated 2026-04-02 12:31 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
+</div>
 
-# 🔴 [P0] `devshards` rewards (research)
-
-**Author:** [@dcastro](https://github.com/dcastro) · **State:** Closed · **Created:** 2026-03-18 10:43 UTC · **Updated:** 2026-04-02 12:31 UTC
-
-**Labels:** `Priority: High` `devshards`
-
-**Веха:** v0.2.12
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 ## Tasks
 
 - [ ] Calculate what the fee on `devshards` should be for different `devshard` sizes
@@ -40,16 +42,19 @@ template: issues-main.html
 * [`devshards` - rewards and attack vectors](https://www.notion.so/serokell/Subnets-rewards-and-attack-vectors-3256c9c166b38058a312fa50ebfb102f)
 * [`devshards` - security analysis](https://www.notion.so/serokell/Subnets-security-analysis-31b6c9c166b380d8b30ed73dfe28c0b2)
 * [`devshards` - security analysis (Part 2: rewards)](https://www.notion.so/serokell/Subnets-security-analysis-Part-2-rewards-32c6c9c166b380bfb2b9dc0b7e32ad32)
+</div>
 
 ---
 
 ## 💬 Comments (3)
 
-### Комментарий 1 — [@dcastro](https://github.com/dcastro)
-
-*2026-03-19 14:19 UTC*
-
-## Current situation
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@dcastro](https://github.com/dcastro)</span>
+    <span class="issues-meta-item">commented 2026-03-19 14:19 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    ## Current situation
 
 There are 2 kinds of rewards for inferences done on-chain (outside of `devshards`):
 * `WorkCoins`: transferred from the user to hosts. It's a direct payment for work done running inferences.
@@ -122,12 +127,15 @@ In general, fees need to be greater than the theoretical profit in order to disc
 However, this attack is not profit-driven.
 
 
-
-### Комментарий 2 — [@dcastro](https://github.com/dcastro)
-
-*2026-03-19 18:14 UTC*
-
-
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@dcastro](https://github.com/dcastro)</span>
+    <span class="issues-meta-item">commented 2026-03-19 18:14 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    
 Meeting Notes 2026/03/19
 
 * Total RewardCoins for one whole epoch is 300k GNK, split by weight across all ACTIVE participants.
@@ -137,9 +145,18 @@ Meeting Notes 2026/03/19
     * 300k is equal to the maximum damage the actor can do
 
 * Limiting `Missed` / `Invalidated`: For now, let's say each `devshards` can run up to 2k inferences.
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@KKizilov](https://github.com/KKizilov)</span>
+    <span class="issues-meta-item">commented 2026-03-26 15:07 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    The research part will be in Progress, but doesn't block the implementation. 
+  </div>
+</div>
 
-### Комментарий 3 — [@KKizilov](https://github.com/KKizilov)
+---
 
-*2026-03-26 15:07 UTC*
-
-The research part will be in Progress, but doesn't block the implementation. 
+> 🔄 **Auto-synced** from [Issue #914](https://github.com/gonka-ai/gonka/issues/914) every 6 hours.

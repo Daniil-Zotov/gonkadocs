@@ -2,22 +2,26 @@
 title: "#1167 — `devshards` Optimizations for v0.2.13 db usage"
 source: https://github.com/gonka-ai/gonka/issues/1167
 issue_number: 1167
-synced_at: 2026-07-06T09:51:59Z
+synced_at: 2026-07-06T15:05:24Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #1167](https://github.com/gonka-ai/gonka/issues/1167) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+    `devshards` Optimizations for v0.2.13 db usage
+    <span class="issues-number">#1167</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Open</span>
+    <span class="issues-meta-item">[@akup](https://github.com/akup) opened 2026-05-14 15:47 UTC</span>
+    <span class="issues-meta-item">0 comments</span>
+    <span class="issues-meta-item">Updated 2026-05-25 18:37 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🟢 `devshards` Optimizations for v0.2.13 db usage
-
-**Author:** [@akup](https://github.com/akup) · **State:** Open · **Created:** 2026-05-14 15:47 UTC · **Updated:** 2026-05-25 18:37 UTC
-
-**Веха:** v0.2.14-devshard3
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 During review of https://github.com/gonka-ai/gonka/pull/1143 there was found optimization points for db usage:
 
 1. Do not lock around `createSession` (https://github.com/gonka-ai/gonka/pull/1143#discussion_r3200794751)
@@ -34,3 +38,8 @@ During review of https://github.com/gonka-ai/gonka/pull/1143 there was found opt
 
 It could be added in one PR for devshard realease. Should be merged with https://github.com/gonka-ai/gonka/pull/1162
 
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #1167](https://github.com/gonka-ai/gonka/issues/1167) every 6 hours.

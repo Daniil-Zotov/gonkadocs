@@ -2,7 +2,7 @@
 title: "#1257 — Request to be added as a Gonka broker"
 source: https://github.com/gonka-ai/gonka/issues/1257
 issue_number: 1257
-synced_at: 2026-07-06T10:26:38Z
+synced_at: 2026-07-06T15:04:58Z
 template: issues-main.html
 ---
 
@@ -209,4 +209,4 @@ Overall, the allowlist request is well-formed for governance consideration as fi
 
 ---
 
-> 🔄 **Auto-synced:** from [Issue #1257](https://github.com/gonka-ai/gonka/issues/1257) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #1257](https://github.com/gonka-ai/gonka/issues/1257) every 6 hours.

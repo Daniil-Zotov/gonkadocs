@@ -2,22 +2,26 @@
 title: "#966 — Validation Eligibility and Accounting Consistency"
 source: https://github.com/gonka-ai/gonka/issues/966
 issue_number: 966
-synced_at: 2026-07-06T09:52:25Z
+synced_at: 2026-07-06T15:05:52Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #966](https://github.com/gonka-ai/gonka/issues/966) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+    Validation Eligibility and Accounting Consistency
+    <span class="issues-number">#966</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Closed</span>
+    <span class="issues-meta-item">[@akup](https://github.com/akup) opened 2026-03-27 13:43 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-04-03 10:10 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span> <span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span></div>
+</div>
 
-# 🔴 Validation Eligibility and Accounting Consistency
-
-**Author:** [@akup](https://github.com/akup) · **State:** Closed · **Created:** 2026-03-27 13:43 UTC · **Updated:** 2026-04-03 10:10 UTC
-
-**Labels:** `bug` `enhancement`
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 # Validation Eligibility and Accounting Consistency
 
 Work on Inferences and Validations on current version is now legacy. All future work will be concentrated on devnets (shardchains). This PR shouldn't be high priority or probably should be closed in nearest future.
@@ -71,15 +75,24 @@ When done:
 
 - Community reviewer(s): references from [#832](https://github.com/gonka-ai/gonka/pull/832).
 
+</div>
 
 ---
 
 ## 💬 Comments (1)
 
-### Комментарий 1 — [@akup](https://github.com/akup)
-
-*2026-04-03 10:10 UTC*
-
-Issue should be closed, because now all focus is moving to devshards. Moreover here seed is revealed, but current protocol version doesn't protect from seed early revealing, and some party can cheat with inferenceIds
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@akup](https://github.com/akup)</span>
+    <span class="issues-meta-item">commented 2026-04-03 10:10 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Issue should be closed, because now all focus is moving to devshards. Moreover here seed is revealed, but current protocol version doesn't protect from seed early revealing, and some party can cheat with inferenceIds
 
 @0xMayoor let's accept your PR https://github.com/gonka-ai/gonka/pull/832
+  </div>
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #966](https://github.com/gonka-ai/gonka/issues/966) every 6 hours.

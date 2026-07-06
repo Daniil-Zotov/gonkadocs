@@ -2,20 +2,26 @@
 title: "#491 — Race Condition in Epoch Initialization Causes Random Node Exclusion"
 source: https://github.com/gonka-ai/gonka/issues/491
 issue_number: 491
-synced_at: 2026-07-06T09:53:34Z
+synced_at: 2026-07-06T15:07:05Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #491](https://github.com/gonka-ai/gonka/issues/491) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+    Race Condition in Epoch Initialization Causes Random Node Exclusion
+    <span class="issues-number">#491</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Closed</span>
+    <span class="issues-meta-item">[@baychak](https://github.com/baychak) opened 2025-12-13 17:25 UTC</span>
+    <span class="issues-meta-item">0 comments</span>
+    <span class="issues-meta-item">Updated 2025-12-15 01:18 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🔴 Race Condition in Epoch Initialization Causes Random Node Exclusion
-
-**Author:** [@baychak](https://github.com/baychak) · **State:** Closed · **Created:** 2025-12-13 17:25 UTC · **Updated:** 2025-12-15 01:18 UTC
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 # Bug Report: Race Condition in Epoch Initialization
 
 **Date:** December 13, 2025  
@@ -56,9 +62,9 @@ API queries `EpochGroupData` before blockchain finishes processing member additi
 
 `UpdateNodeWithEpochData()` вызывается на каждой фазе эпохи:
 1. **11:37:39** - PoCGenerate (race condition - запрос слишком рано)
-2. **11:38:32** - PoCValidate (нода уже исключена, снова empty)
-3. **11:39:25** - PoCAggregate (нода уже исключена, снова empty)
-4. **11:40:18** - PoCReward (нода уже исключена, снова empty)
+2. **11:38:32** - PoCValidate (нода уже исключена, снова пусто)
+3. **11:39:25** - PoCAggregate (нода уже исключена, снова пусто)
+4. **11:40:18** - PoCReward (нода уже исключена, снова пусто)
 
 ## Root Cause
 
@@ -84,3 +90,8 @@ if len(epochGroupData.SubGroupModels) == 0 {
 **Node:** gonka1yq4vwn7fc9x7lykjhc0x3e7r2atee32czy34mt  
 **Version:** v0.2.5  
 
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #491](https://github.com/gonka-ai/gonka/issues/491) every 6 hours.

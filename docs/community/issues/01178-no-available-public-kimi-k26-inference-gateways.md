@@ -2,20 +2,26 @@
 title: "#1178 — No available public Kimi-K2.6 inference gateways"
 source: https://github.com/gonka-ai/gonka/issues/1178
 issue_number: 1178
-synced_at: 2026-07-06T09:52:04Z
+synced_at: 2026-07-06T15:05:30Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #1178](https://github.com/gonka-ai/gonka/issues/1178) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+    No available public Kimi-K2.6 inference gateways
+    <span class="issues-number">#1178</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Closed</span>
+    <span class="issues-meta-item">[@sspotanin](https://github.com/sspotanin) opened 2026-05-17 06:11 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-05-18 10:50 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🔴 No available public Kimi-K2.6 inference gateways
-
-**Author:** [@sspotanin](https://github.com/sspotanin) · **State:** Closed · **Created:** 2026-05-17 06:11 UTC · **Updated:** 2026-05-18 10:50 UTC
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 ## Summary
 
 As of 2026-05-17T06:10:54Z, public monitoring shows zero available Kimi-K2.6 gateways, even though the chain still lists Kimi hosts.
@@ -72,13 +78,22 @@ curl -sS http://node2.gonka.ai:8000/v1/epochs/current/participants \
 ## Notes
 
 This looks related to public Kimi gateway availability rather than total network size: the chain reports active Kimi hosts, but public Kimi gateways are currently unavailable according to monitoring.
+</div>
 
 ---
 
 ## 💬 Comments (1)
 
-### Комментарий 1 — [@sspotanin](https://github.com/sspotanin)
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@sspotanin](https://github.com/sspotanin)</span>
+    <span class="issues-meta-item">commented 2026-05-18 10:50 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    works fine today
+  </div>
+</div>
 
-*2026-05-18 10:50 UTC*
+---
 
-works fine today
+> 🔄 **Auto-synced** from [Issue #1178](https://github.com/gonka-ai/gonka/issues/1178) every 6 hours.

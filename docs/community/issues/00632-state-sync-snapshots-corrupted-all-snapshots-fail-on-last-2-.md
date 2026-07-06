@@ -2,20 +2,26 @@
 title: "#632 — State sync snapshots corrupted - all snapshots fail on last 2 chunks (826-827/827)"
 source: https://github.com/gonka-ai/gonka/issues/632
 issue_number: 632
-synced_at: 2026-07-06T09:52:08Z
+synced_at: 2026-07-06T15:05:34Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #632](https://github.com/gonka-ai/gonka/issues/632) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+    State sync snapshots corrupted - all snapshots fail on last 2 chunks (826-827/827)
+    <span class="issues-number">#632</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Open</span>
+    <span class="issues-meta-item">[@baranskyi](https://github.com/baranskyi) opened 2026-01-24 15:11 UTC</span>
+    <span class="issues-meta-item">5 comments</span>
+    <span class="issues-meta-item">Updated 2026-04-29 01:16 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🟢 State sync snapshots corrupted - all snapshots fail on last 2 chunks (826-827/827)
-
-**Author:** [@baranskyi](https://github.com/baranskyi) · **State:** Open · **Created:** 2026-01-24 15:11 UTC · **Updated:** 2026-04-29 01:16 UTC
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 ## Summary
 
 State sync fails for all available snapshots (2309000, 2310000) - the last 2 chunks (826-827 out of 827) are either corrupted or unavailable, causing nodes to crash with IAVL store panic.
@@ -111,16 +117,19 @@ docker logs -f node
 - Multiple restart attempts over several hours all fail identically
 - Network is currently at height ~2,310,000+
 - 10 peers connected during sync attempts
+</div>
 
 ---
 
 ## 💬 Comments (5)
 
-### Комментарий 1 — [@AlexeySamosadov](https://github.com/AlexeySamosadov)
-
-*2026-01-24 21:47 UTC*
-
-## Analysis of State Sync Snapshot Corruption
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
+    <span class="issues-meta-item">commented 2026-01-24 21:47 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    ## Analysis of State Sync Snapshot Corruption
 
 I investigated this issue and found the following:
 
@@ -147,18 +156,24 @@ The failure on the last 2 chunks (826-827/827) suggests the chunks haven't fully
 The issue resolves itself by **waiting approximately 1 hour**. After that, the chunks synchronize automatically and state sync completes successfully.
 
 This is likely a propagation timing issue rather than data corruption - the snapshot needs time to fully distribute across the network before all chunks become consistently available.
-
-### Комментарий 2 — [@gmorgachev](https://github.com/gmorgachev)
-
-*2026-01-27 06:53 UTC*
-
-When some existing node providing snapshot to another node, it already has full snapshot, all chunks. It's not really propagated more then to this P2P request. Snapshots are downloaded directly.
-
-### Комментарий 3 — [@AlexeySamosadov](https://github.com/AlexeySamosadov)
-
-*2026-02-04 11:46 UTC*
-
-## Root Cause Found
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@gmorgachev](https://github.com/gmorgachev)</span>
+    <span class="issues-meta-item">commented 2026-01-27 06:53 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    When some existing node providing snapshot to another node, it already has full snapshot, all chunks. It's not really propagated more then to this P2P request. Snapshots are downloaded directly.
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
+    <span class="issues-meta-item">commented 2026-02-04 11:46 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    ## Root Cause Found
 
 The issue is a race condition between snapshot pruning and chunk serving during state sync.
 
@@ -187,17 +202,29 @@ Chunks are downloaded sequentially (0→N). The peer manages to download most ch
 PR with the fix: https://github.com/gonka-ai/cosmos-sdk/pull/10
 
 Adds read-side reference counting to the snapshot `Store`: `Delete` now waits for active `LoadChunk` readers to finish before removing files from disk.
-
-### Комментарий 4 — [@AlexeySamosadov](https://github.com/AlexeySamosadov)
-
-*2026-02-09 18:00 UTC*
-
-@gmorgachev The fix is ready and waiting for review: https://github.com/gonka-ai/cosmos-sdk/pull/10
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
+    <span class="issues-meta-item">commented 2026-02-09 18:00 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    @gmorgachev The fix is ready and waiting for review: https://github.com/gonka-ai/cosmos-sdk/pull/10
 
 Adds read-side reference counting to the snapshot Store so that Prune/Delete waits for active LoadChunk readers to finish before removing files from disk. This prevents the race condition that causes the last chunks to disappear mid-download.
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
+    <span class="issues-meta-item">commented 2026-02-09 18:00 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Also — is the reference counting approach the right direction here, or would you prefer a different strategy (e.g. copy-on-write, or delaying prune until no active sync sessions)?
+  </div>
+</div>
 
-### Комментарий 5 — [@AlexeySamosadov](https://github.com/AlexeySamosadov)
+---
 
-*2026-02-09 18:00 UTC*
-
-Also — is the reference counting approach the right direction here, or would you prefer a different strategy (e.g. copy-on-write, or delaying prune until no active sync sessions)?
+> 🔄 **Auto-synced** from [Issue #632](https://github.com/gonka-ai/gonka/issues/632) every 6 hours.

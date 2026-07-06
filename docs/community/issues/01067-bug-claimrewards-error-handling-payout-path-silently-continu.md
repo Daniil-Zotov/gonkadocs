@@ -2,22 +2,26 @@
 title: "#1067 — bug: ClaimRewards error handling — payout path silently continues on failure"
 source: https://github.com/gonka-ai/gonka/issues/1067
 issue_number: 1067
-synced_at: 2026-07-06T09:52:09Z
+synced_at: 2026-07-06T15:05:35Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #1067](https://github.com/gonka-ai/gonka/issues/1067) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+    bug: ClaimRewards error handling — payout path silently continues on failure
+    <span class="issues-number">#1067</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Closed</span>
+    <span class="issues-meta-item">[@Mayveskii](https://github.com/Mayveskii) opened 2026-04-15 19:40 UTC</span>
+    <span class="issues-meta-item">5 comments</span>
+    <span class="issues-meta-item">Updated 2026-04-28 20:55 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span></div>
+</div>
 
-# 🔴 bug: ClaimRewards error handling — payout path silently continues on failure
-
-**Author:** [@Mayveskii](https://github.com/Mayveskii) · **State:** Closed · **Created:** 2026-04-15 19:40 UTC · **Updated:** 2026-04-28 20:55 UTC
-
-**Labels:** `enhancement`
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 ## Summary
 In `msg_server_claim_rewards.go`, when `PayParticipantFromEscrow` or `PayParticipantFromModule` returns an error, the function logs the error and continues processing instead of returning the error. This can result in partial payouts or silent fund loss when the payment path fails.
 ## Motivation
@@ -48,24 +52,30 @@ This was identified during audit of payout error handling in the inference escro
 ## External feedback
 - Discord thread link: https://discord.com/channels/1336477374442770503/1425189436748206171/1492754655170662431
 - Community reviewer(s): Mayveskii
+</div>
 
 ---
 
 ## 💬 Comments (5)
 
-### Комментарий 1 — [@Doog-bot534](https://github.com/Doog-bot534)
-
-*2026-04-16 03:08 UTC*
-
-This issue aligns with the finding in our security audit (#1053, finding #3) and the fix submitted in PR #1051.
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@Doog-bot534](https://github.com/Doog-bot534)</span>
+    <span class="issues-meta-item">commented 2026-04-16 03:08 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    This issue aligns with the finding in our security audit (#1053, finding #3) and the fix submitted in PR #1051.
 
 Our PR #1051 takes the simpler approach (return error without calling `finishSettle`), while the `CacheContext` approach described here is more comprehensive and aligned with the pattern in PR #948. Happy to update #1051 to use `CacheContext` if the maintainers prefer that approach.
-
-### Комментарий 2 — [@Mayveskii](https://github.com/Mayveskii)
-
-*2026-04-16 03:37 UTC*
-
-> This issue aligns with the finding in our security audit ([#1053](https://github.com/gonka-ai/gonka/issues/1053), finding [#3](https://github.com/gonka-ai/gonka/pull/3)) and the fix submitted in PR [#1051](https://github.com/gonka-ai/gonka/pull/1051).
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@Mayveskii](https://github.com/Mayveskii)</span>
+    <span class="issues-meta-item">commented 2026-04-16 03:37 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    > This issue aligns with the finding in our security audit ([#1053](https://github.com/gonka-ai/gonka/issues/1053), finding [#3](https://github.com/gonka-ai/gonka/pull/3)) and the fix submitted in PR [#1051](https://github.com/gonka-ai/gonka/pull/1051).
 > 
 > Our PR [#1051](https://github.com/gonka-ai/gonka/pull/1051) takes the simpler approach (return error without calling `finishSettle`), while the `CacheContext` approach described here is more comprehensive and aligned with the pattern in PR [#948](https://github.com/gonka-ai/gonka/pull/948). Happy to update [#1051](https://github.com/gonka-ai/gonka/pull/1051) to use `CacheContext` if the maintainers prefer that approach.
 
@@ -80,23 +90,38 @@ The approach in ec5e453 goes further than just removing finishSettle:
 4. Unit test: verifies error propagation and that SettleAmount remains in store after failure
 Happy to re-submit as a new PR from Mayveskii/gonka if the maintainers prefer the full approach.
 Regarding the label — this is a bug (fund loss on payment failure), not an enhancement. Could a maintainer update the label from enhancement to bug?
-
-### Комментарий 3 — [@Doog-bot534](https://github.com/Doog-bot534)
-
-*2026-04-16 12:09 UTC*
-
-Good catch on the timeline — I wasn't aware of PR #1016 and commit ec5e453 when I filed #1051. My fix came independently from the audit in #1053 (finding #3), but yours clearly predates it and covers more ground (full TX rollback + unit test). Happy to defer to whichever approach the maintainers prefer. Agreed this should be labeled as bug, not enhancement.
-
-### Комментарий 4 — [@Mayveskii](https://github.com/Mayveskii)
-
-*2026-04-28 19:09 UTC*
-
-@x0152 watch out this one , please 
-
-### Комментарий 5 — [@x0152](https://github.com/x0152)
-
-*2026-04-28 20:55 UTC*
-
-There were additional non-atomic paths, and they were fully addressed in #789
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@Doog-bot534](https://github.com/Doog-bot534)</span>
+    <span class="issues-meta-item">commented 2026-04-16 12:09 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Good catch on the timeline — I wasn't aware of PR #1016 and commit ec5e453 when I filed #1051. My fix came independently from the audit in #1053 (finding #3), but yours clearly predates it and covers more ground (full TX rollback + unit test). Happy to defer to whichever approach the maintainers prefer. Agreed this should be labeled as bug, not enhancement.
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@Mayveskii](https://github.com/Mayveskii)</span>
+    <span class="issues-meta-item">commented 2026-04-28 19:09 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    @x0152 watch out this one , please 
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@x0152](https://github.com/x0152)</span>
+    <span class="issues-meta-item">commented 2026-04-28 20:55 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    There were additional non-atomic paths, and they were fully addressed in #789
 
 Closing as resolved
+  </div>
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #1067](https://github.com/gonka-ai/gonka/issues/1067) every 6 hours.

@@ -2,7 +2,7 @@
 title: "#1385 — Gateway allowlist request - dev server personal gateway"
 source: https://github.com/gonka-ai/gonka/issues/1385
 issue_number: 1385
-synced_at: 2026-07-06T10:26:36Z
+synced_at: 2026-07-06T15:04:57Z
 template: issues-main.html
 ---
 
@@ -95,4 +95,4 @@ Thanks again for taking the time to explain the process.
 
 ---
 
-> 🔄 **Auto-synced:** from [Issue #1385](https://github.com/gonka-ai/gonka/issues/1385) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #1385](https://github.com/gonka-ai/gonka/issues/1385) every 6 hours.

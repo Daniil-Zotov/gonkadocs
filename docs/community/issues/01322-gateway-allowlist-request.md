@@ -2,20 +2,26 @@
 title: "#1322 — Gateway allowlist request"
 source: https://github.com/gonka-ai/gonka/issues/1322
 issue_number: 1322
-synced_at: 2026-07-06T09:51:53Z
+synced_at: 2026-07-06T15:05:13Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #1322](https://github.com/gonka-ai/gonka/issues/1322) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+    Gateway allowlist request
+    <span class="issues-number">#1322</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Closed</span>
+    <span class="issues-meta-item">[@Puyre](https://github.com/Puyre) opened 2026-06-08 15:13 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-06-10 15:20 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🔴 Gateway allowlist request
-
-**Author:** [@Puyre](https://github.com/Puyre) · **State:** Closed · **Created:** 2026-06-08 15:13 UTC · **Updated:** 2026-06-10 15:20 UTC
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 # Request to be added as a Gonka gateway operator (devshard creator allowlist)
 
 Hi Gonka core team & community,
@@ -83,14 +89,23 @@ We intend to serve all three currently governance-approved models:
 Thanks for reviewing.
 
 Rogi AI
+</div>
 
 ---
 
 ## 💬 Comments (1)
 
-### Комментарий 1 — [@Puyre](https://github.com/Puyre)
-
-*2026-06-10 15:20 UTC*
-
-Closing this — after checking with the Gonka community, I realized we don't need to run our own devshard. Getting a broker key to send requests through node4 will be enough for our case.
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@Puyre](https://github.com/Puyre)</span>
+    <span class="issues-meta-item">commented 2026-06-10 15:20 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Closing this — after checking with the Gonka community, I realized we don't need to run our own devshard. Getting a broker key to send requests through node4 will be enough for our case.
 I'll likely open a separate issue requesting a broker key (or asking for documentation on how one can be obtained).
+  </div>
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #1322](https://github.com/gonka-ai/gonka/issues/1322) every 6 hours.

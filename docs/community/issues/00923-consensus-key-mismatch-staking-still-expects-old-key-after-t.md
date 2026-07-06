@@ -2,20 +2,26 @@
 title: "#923 — Consensus key mismatch: staking still expects old key after TMKMS key loss"
 source: https://github.com/gonka-ai/gonka/issues/923
 issue_number: 923
-synced_at: 2026-07-06T09:52:09Z
+synced_at: 2026-07-06T15:05:35Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #923](https://github.com/gonka-ai/gonka/issues/923) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+    Consensus key mismatch: staking still expects old key after TMKMS key loss
+    <span class="issues-number">#923</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Closed</span>
+    <span class="issues-meta-item">[@krizis-sila](https://github.com/krizis-sila) opened 2026-03-20 20:36 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-04-28 20:53 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🔴 Consensus key mismatch: staking still expects old key after TMKMS key loss
-
-**Author:** [@krizis-sila](https://github.com/krizis-sila) · **State:** Closed · **Created:** 2026-03-20 20:36 UTC · **Updated:** 2026-04-28 20:53 UTC
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 Hello,
 
 I need help with a validator consensus key mismatch on Gonka mainnet.
@@ -56,15 +62,24 @@ Related tx:
 36826F73D7B2BB31D5D506C4463E53DE632AC072F1B2A50E68A06D3C8BB48205
 
 Thank you.
+</div>
 
 ---
 
 ## 💬 Comments (1)
 
-### Комментарий 1 — [@0xgonka](https://github.com/0xgonka)
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@0xgonka](https://github.com/0xgonka)</span>
+    <span class="issues-meta-item">commented 2026-04-28 20:53 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    this is likely stale by now. We can re-open if there are subsequent reports but looks like it might have been a fluke
 
-*2026-04-28 20:53 UTC*
 
-this is likely stale by now. We can re-open if there are subsequent reports but looks like it might have been a fluke
+  </div>
+</div>
 
+---
 
+> 🔄 **Auto-synced** from [Issue #923](https://github.com/gonka-ai/gonka/issues/923) every 6 hours.

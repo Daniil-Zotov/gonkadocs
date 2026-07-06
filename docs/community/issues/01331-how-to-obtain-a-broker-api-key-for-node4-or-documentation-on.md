@@ -2,20 +2,26 @@
 title: "#1331 — How to obtain a broker API key for node4 (or documentation on the broker onboarding process)?"
 source: https://github.com/gonka-ai/gonka/issues/1331
 issue_number: 1331
-synced_at: 2026-07-06T09:51:49Z
+synced_at: 2026-07-06T15:05:08Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #1331](https://github.com/gonka-ai/gonka/issues/1331) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+    How to obtain a broker API key for node4 (or documentation on the broker onboarding process)?
+    <span class="issues-number">#1331</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Closed</span>
+    <span class="issues-meta-item">[@Puyre](https://github.com/Puyre) opened 2026-06-10 15:34 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-06-23 23:29 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🔴 How to obtain a broker API key for node4 (or documentation on the broker onboarding process)?
-
-**Author:** [@Puyre](https://github.com/Puyre) · **State:** Closed · **Created:** 2026-06-10 15:34 UTC · **Updated:** 2026-06-23 23:29 UTC
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 Hi Gonka core team & community,
 
 ## Context 
@@ -78,16 +84,19 @@ Our questions:
 
 Thanks for reviewing.
 Rogi AI
+</div>
 
 ---
 
 ## 💬 Comments (1)
 
-### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
-
-*2026-06-23 23:29 UTC*
-
-Hi @Puyre!
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span class="issues-meta-item">commented 2026-06-23 23:29 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Hi @Puyre!
 
 On the direct question (a broker API key for node4 specifically): there isn't a public self-serve onboarding process to point you to. node4 is the public gateway that was stood up during the early rollout — whitelisted and rate-limited, intended for demos and bootstrap testing rather than as a production backend. The handful of broker keys behind it were early access arrangements, not an open application flow, and that bootstrap directory isn't being actively expanded. So the `requires an API key` response you're seeing on node4 isn't something there's a documented "apply here" path to resolve — which is also why the signed-wallet SDK path doesn't work against it without one. The two paths that *are* governed and documented are: consume through an existing community broker, or operate your own allowlisted devshard gateway (on-chain governance allowlist).
 
@@ -96,3 +105,9 @@ For what you're actually building, the closest fit is a managed devshard endpoin
 It maps directly onto your fallback architecture (Gonka primary → OpenRouter fallback): just make OpenBroker the primary base_url. 
 
 OpenBroker is an **independent third party**, not part of the core protocol — pricing, models, limits, and data handling are set by the operator, so evaluate it on its own merits. If you later decide you do want to operate your own escrows after all, the on-chain allowlist route stays open.
+  </div>
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #1331](https://github.com/gonka-ai/gonka/issues/1331) every 6 hours.

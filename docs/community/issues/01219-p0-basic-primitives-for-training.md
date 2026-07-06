@@ -2,72 +2,86 @@
 title: "#1219 — [P0] Basic primitives for training"
 source: https://github.com/gonka-ai/gonka/issues/1219
 issue_number: 1219
-synced_at: 2026-07-06T09:51:46Z
+synced_at: 2026-07-06T15:05:05Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #1219](https://github.com/gonka-ai/gonka/issues/1219) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+    [P0] Basic primitives for training
+    <span class="issues-number">#1219</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Open</span>
+    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-05-21 21:56 UTC</span>
+    <span class="issues-meta-item">4 comments</span>
+    <span class="issues-meta-item">Updated 2026-06-24 23:03 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
+</div>
 
-# 🟢 [P0] Basic primitives for training
-
-**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Open · **Created:** 2026-05-21 21:56 UTC · **Updated:** 2026-06-24 23:03 UTC
-
-**Labels:** `Priority: High`
-
-**Веха:** v0.2.15
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 The framing is simple: you can prepare any container, it will run across different GPUs in the network, a protocol layer will coordinate interaction between nodes, they will perform training, and then use a protocol-level voting mechanism to determine which participants behaved correctly.
 
 We intentionally ignore the automatic redeployment problem for now. 
 This should be a small-scoped task on mainnet.
 Put together a lightweight training flow without the heavy logic we have in devshards
+</div>
 
 ---
 
 ## 💬 Comments (4)
 
-### Комментарий 1 — [@x0152](https://github.com/x0152)
-
-*2026-06-23 19:38 UTC*
-
-Here's the draft plan and draft of the first-stage PR:
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@x0152](https://github.com/x0152)</span>
+    <span class="issues-meta-item">commented 2026-06-23 19:38 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Here's the draft plan and draft of the first-stage PR:
 
 Plan (draft): https://docs.google.com/document/d/1LLZngQ7VoIL3DVT8St40XLE8HcRcxyNXZueyzoQfWuE/edit?tab=t.0
 PR (stage 1): #1350 
 
 Any help is welcome, from shaping the plan to implementation and reviews
-
-### Комментарий 2 — [@orvionx](https://github.com/orvionx)
-
-*2026-06-23 21:44 UTC*
-
-Hi @mtvnastya , I’d like to help with this if there is still an open sub-scope.
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@orvionx](https://github.com/orvionx)</span>
+    <span class="issues-meta-item">commented 2026-06-23 21:44 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Hi @mtvnastya , I’d like to help with this if there is still an open sub-scope.
 
 My understanding is that this should be a lightweight mainnet training primitive, not a full devshards port: define/register a training workload, dispatch it to ML nodes, track basic execution state/result metadata, and leave redeployment/heavy orchestration out of scope.
 
 I can start with a small PR around the training task/request model + API flow + minimal tests, then follow up with ML-node execution hooks if that direction works.
 
 Could you confirm which part you’d prefer contributors to start with?
-
-### Комментарий 3 — [@x0152](https://github.com/x0152)
-
-*2026-06-24 22:54 UTC*
-
-Hi @orvionx, I've already started working on this and opened a draft PR for the first stage: #1350. There's also a draft plan here: https://docs.google.com/document/d/1LLZngQ7VoIL3DVT8St40XLE8HcRcxyNXZueyzoQfWuE/edit?tab=t.0
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@x0152](https://github.com/x0152)</span>
+    <span class="issues-meta-item">commented 2026-06-24 22:54 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Hi @orvionx, I've already started working on this and opened a draft PR for the first stage: #1350. There's also a draft plan here: https://docs.google.com/document/d/1LLZngQ7VoIL3DVT8St40XLE8HcRcxyNXZueyzoQfWuE/edit?tab=t.0
 
 I'd be happy if you could join. Could you take a look at the plan and share your thoughts? Stage 2 can be implemented in parallel with stage 1
 
 
-
-### Комментарий 4 — [@orvionx](https://github.com/orvionx)
-
-*2026-06-24 23:03 UTC*
-
-Hi @x0152 Thanks for the mention — I’d be happy to join and help with this.
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@orvionx](https://github.com/orvionx)</span>
+    <span class="issues-meta-item">commented 2026-06-24 23:03 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Hi @x0152 Thanks for the mention — I’d be happy to join and help with this.
 
 I reviewed the Stage 1 direction from PR #1350. My understanding is that Stage 1 mainly covers the on-chain reservation/release lifecycle, while Stage 2 can focus more on the actual training execution layer and coordination flow between reserved nodes.
 
@@ -81,3 +95,9 @@ My initial thoughts:
 
 I’ll continue reviewing the plan in more detail, but overall I agree that Stage 2 looks suitable to implement in parallel with Stage 1 if the interface boundary is defined clearly.
 
+  </div>
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #1219](https://github.com/gonka-ai/gonka/issues/1219) every 6 hours.

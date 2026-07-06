@@ -2,22 +2,26 @@
 title: "#810 — Gonka Node Manager — Automated Node Deployment, Updates, and Monitoring"
 source: https://github.com/gonka-ai/gonka/issues/810
 issue_number: 810
-synced_at: 2026-07-06T09:52:48Z
+synced_at: 2026-07-06T15:06:17Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #810](https://github.com/gonka-ai/gonka/issues/810) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+    Gonka Node Manager — Automated Node Deployment, Updates, and Monitoring
+    <span class="issues-number">#810</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Closed</span>
+    <span class="issues-meta-item">[@ochenUmnayaKatyshka](https://github.com/ochenUmnayaKatyshka) opened 2026-02-26 11:49 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-02-27 20:15 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span> <span class="issues-label" style="background-color: #008672; color: #ffffff; border-color: #008672;">help wanted</span></div>
+</div>
 
-# 🔴 Gonka Node Manager — Automated Node Deployment, Updates, and Monitoring
-
-**Author:** [@ochenUmnayaKatyshka](https://github.com/ochenUmnayaKatyshka) · **State:** Closed · **Created:** 2026-02-26 11:49 UTC · **Updated:** 2026-02-27 20:15 UTC
-
-**Labels:** `enhancement` `help wanted`
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 ## Executive Summary
 
 Running Gonka nodes currently requires manual CLI-based installation, configuration, and ongoing maintenance. For experienced operators, initial setup typically takes several hours per node. For less experienced participants, the process often stretches to one or two days — or results in abandonment before a node is ever launched.
@@ -166,13 +170,22 @@ Funding released in stages tied to phase completion. Cost overruns covered by th
 - Increased number of independent nodes
 - Reduced downtime caused by manual configuration
 - Stronger and more sustainable decentralization of the Gonka network
+</div>
 
 ---
 
 ## 💬 Comments (1)
 
-### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span class="issues-meta-item">commented 2026-02-27 00:11 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Hi @ochenUmnayaKatyshka! I'd suggetst publishing proposals in Discussion section: https://github.com/gonka-ai/gonka/discussions/categories/proposals
+  </div>
+</div>
 
-*2026-02-27 00:11 UTC*
+---
 
-Hi @ochenUmnayaKatyshka! I'd suggetst publishing proposals in Discussion section: https://github.com/gonka-ai/gonka/discussions/categories/proposals
+> 🔄 **Auto-synced** from [Issue #810](https://github.com/gonka-ai/gonka/issues/810) every 6 hours.

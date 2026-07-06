@@ -2,22 +2,26 @@
 title: "#1053 — Security Audit: Systematic review across inference chain, bridge, subnet, and API layers"
 source: https://github.com/gonka-ai/gonka/issues/1053
 issue_number: 1053
-synced_at: 2026-07-06T09:52:08Z
+synced_at: 2026-07-06T15:05:34Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #1053](https://github.com/gonka-ai/gonka/issues/1053) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+    Security Audit: Systematic review across inference chain, bridge, subnet, and API layers
+    <span class="issues-number">#1053</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Open</span>
+    <span class="issues-meta-item">[@Doog-bot534](https://github.com/Doog-bot534) opened 2026-04-15 07:05 UTC</span>
+    <span class="issues-meta-item">3 comments</span>
+    <span class="issues-meta-item">Updated 2026-04-29 01:45 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🟢 Security Audit: Systematic review across inference chain, bridge, subnet, and API layers
-
-**Author:** [@Doog-bot534](https://github.com/Doog-bot534) · **State:** Open · **Created:** 2026-04-15 07:05 UTC · **Updated:** 2026-04-29 01:45 UTC
-
-**Веха:** v0.2.14
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 ## Summary
 
 Systematic security audit covering four major components of the Gonka network. Found **1 Critical, 5 High, 10+ Medium** severity issues across the codebase. Fix PRs submitted for the top 3 findings.
@@ -112,16 +116,19 @@ Finding #1 (Admin API no auth) is Critical severity. Per the bounty program guid
 
 I plan to submit additional fix PRs for the remaining findings if the team is interested.
 
+</div>
 
 ---
 
 ## 💬 Comments (3)
 
-### Комментарий 1 — [@Doog-bot534](https://github.com/Doog-bot534)
-
-*2026-04-15 07:14 UTC*
-
-## Payout Address
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@Doog-bot534](https://github.com/Doog-bot534)</span>
+    <span class="issues-meta-item">commented 2026-04-15 07:14 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    ## Payout Address
 
 If any of the findings or fix PRs (#1050, #1051, #1052, #1054, #1055, #1056, #1057) are eligible for bounty rewards, please send to:
 
@@ -130,12 +137,15 @@ gonka10zaal553duxp05nvfpqtsqrm2g0j6j34r8nan7
 ```
 
 Happy to discuss any of the findings in more detail or submit additional fixes for the remaining issues listed above.
-
-### Комментарий 2 — [@Doog-bot534](https://github.com/Doog-bot534)
-
-*2026-04-20 02:00 UTC*
-
-2026-04-20 self-review update: withdrawing findings **#3, #8, #16, #21** (see "Withdrawn findings" section in the updated body). Same review pass closed PRs #1077 and #1058.
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@Doog-bot534](https://github.com/Doog-bot534)</span>
+    <span class="issues-meta-item">commented 2026-04-20 02:00 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    2026-04-20 self-review update: withdrawing findings **#3, #8, #16, #21** (see "Withdrawn findings" section in the updated body). Same review pass closed PRs #1077 and #1058.
 
 Rationale:
 - **#3, #8** (subnetctl zero-auth, unbounded body) — `subnetctl` is a user-side local CLI proxy for the escrow owner (localhost:8080), not a multi-tenant service. Threat model doesn't apply.
@@ -143,12 +153,15 @@ Rationale:
 - **#21** (TokenomicsData uint64 overflow) — direct duplicate of already-withdrawn #1062; requires > 2^64 accumulation which is not reachable in practice.
 
 Keeping the queue focused on actionable findings. The other 17 items (including the Critical #1 and the High findings #2/#4/#5) remain valid.
-
-### Комментарий 3 — [@Doog-bot534](https://github.com/Doog-bot534)
-
-*2026-04-20 14:54 UTC*
-
-## Cleanup summary (2026-04-20)
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@Doog-bot534](https://github.com/Doog-bot534)</span>
+    <span class="issues-meta-item">commented 2026-04-20 14:54 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    ## Cleanup summary (2026-04-20)
 
 Per maintainer feedback on PR quality, I've completed a self-audit of all submissions under this umbrella. Summary:
 
@@ -185,3 +198,9 @@ Code changes pushed in response to ai-reviewer findings:
 
 Going forward I'll only submit PRs after running ai-reviewer locally and validating against current master.
 
+  </div>
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #1053](https://github.com/gonka-ai/gonka/issues/1053) every 6 hours.

@@ -2,22 +2,26 @@
 title: "#1135 — PoC-decode proposal"
 source: https://github.com/gonka-ai/gonka/issues/1135
 issue_number: 1135
-synced_at: 2026-07-06T09:52:01Z
+synced_at: 2026-07-06T15:05:26Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #1135](https://github.com/gonka-ai/gonka/issues/1135) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+    PoC-decode proposal
+    <span class="issues-number">#1135</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Open</span>
+    <span class="issues-meta-item">[@Red-Caesar](https://github.com/Red-Caesar) opened 2026-04-30 12:35 UTC</span>
+    <span class="issues-meta-item">5 comments</span>
+    <span class="issues-meta-item">Updated 2026-05-23 01:49 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span></div>
+</div>
 
-# 🟢 PoC-decode proposal
-
-**Author:** [@Red-Caesar](https://github.com/Red-Caesar) · **State:** Open · **Created:** 2026-04-30 12:35 UTC · **Updated:** 2026-05-23 01:49 UTC
-
-**Labels:** `enhancement`
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 # PoC-decode: Extending Proof-of-Compute to Decode Steps
 
 ## Summary
@@ -82,16 +86,19 @@ Evidence and analysis:
 
 
 
+</div>
 
 ---
 
 ## 💬 Comments (5)
 
-### Комментарий 1 — [@unameisfine](https://github.com/unameisfine)
-
-*2026-05-04 21:40 UTC*
-
-Nice work on the experimental validation — the honest-vs-fraud scatter plots are convincing for the 7B setup, and the seed-chaining between decode steps (using previous k-point ID to select next dimensions) is a solid anti-prediction measure.
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@unameisfine](https://github.com/unameisfine)</span>
+    <span class="issues-meta-item">commented 2026-05-04 21:40 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Nice work on the experimental validation — the honest-vs-fraud scatter plots are convincing for the 7B setup, and the seed-chaining between decode steps (using previous k-point ID to select next dimensions) is a solid anti-prediction measure.
 
 A few implementation-level observations from the current PoC pipeline:
 
@@ -132,12 +139,15 @@ Is there analysis of the detection threshold as a function of k? What happens at
 ---
 
 Overall a promising direction — extending PoC to decode is clearly the right move for covering real workloads. The main blockers look like CUDA graph support and the validation cost question (does the validator need full autoregressive decode?).
-
-### Комментарий 2 — [@Red-Caesar](https://github.com/Red-Caesar)
-
-*2026-05-21 08:24 UTC*
-
-Sorry for the delayed reply.
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@Red-Caesar](https://github.com/Red-Caesar)</span>
+    <span class="issues-meta-item">commented 2026-05-21 08:24 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Sorry for the delayed reply.
 
 On CUDA graph support: this is indeed a critical concern. We are currently investigating options for it.
 
@@ -146,12 +156,15 @@ On model generalization and honest-mismatch rates: we've collected mismatch data
 <img width="1075" height="603" alt="Image" src="https://github.com/user-attachments/assets/2229e135-6618-49ba-acb2-39e76d404c1e" />
 
 <img width="1075" height="537" alt="Image" src="https://github.com/user-attachments/assets/4ecc6a04-6f66-4804-b01b-c9d194c56d3b" />
-
-### Комментарий 3 — [@gmorgachev](https://github.com/gmorgachev)
-
-*2026-05-21 12:20 UTC*
-
-hi @unameisfine !
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@gmorgachev](https://github.com/gmorgachev)</span>
+    <span class="issues-meta-item">commented 2026-05-21 12:20 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    hi @unameisfine !
 
 > Does the validator need to re-run the full autoregressive decode to verify? If yes, validation cost equals inference cost (currently the validator only does a single prefill pass).
 
@@ -160,20 +173,26 @@ During the current PoC Generation and Validation have exact cost per nonce (the 
 > 4. Chain-side integration
 I think this research i focused more on replacement of PoC, not an inference validation. Why do you think SPRT / per request stats is needed? I
 
-
-### Комментарий 4 — [@Red-Caesar](https://github.com/Red-Caesar)
-
-*2026-05-22 10:48 UTC*
-
-Here are the results for h100
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@Red-Caesar](https://github.com/Red-Caesar)</span>
+    <span class="issues-meta-item">commented 2026-05-22 10:48 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Here are the results for h100
 
 <img width="1052" height="647" alt="Image" src="https://github.com/user-attachments/assets/5d2cfda3-8500-4d24-81fe-67edd8a58144" />
-
-### Комментарий 5 — [@unameisfine](https://github.com/unameisfine)
-
-*2026-05-23 01:49 UTC*
-
-Thanks — went through `vllm/poc/poc_model_runner.py`. Confirmed:
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@unameisfine](https://github.com/unameisfine)</span>
+    <span class="issues-meta-item">commented 2026-05-23 01:49 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Thanks — went through `vllm/poc/poc_model_runner.py`. Confirmed:
 `SPHERE_DIM=256`, `SPHERE_POINTS=16` (L39-40), codebook built once via
 Thomson-problem gradient descent, `nearest_sphere_index` = cosine-similarity
 argmax. Validation flow uses `inference_k_points_steps` to drive both the
@@ -223,3 +242,9 @@ cells and raises the floor at some honest-mismatch cost — the
 parameter-sensitivity question from earlier, now with the cross-hardware data
 anchoring the tradeoff.
 
+  </div>
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #1135](https://github.com/gonka-ai/gonka/issues/1135) every 6 hours.

@@ -1,12 +1,12 @@
 ---
-title: "Issues: Protocol"
+title: "Issues: protocol"
 template: issues-main.html
 ---
 
-# Issues: Protocol
+# Issues: protocol
 
-Issues with label **Protocol**. Total: **1**.
-Updated: `2026-07-06 11:14 UTC`.
+Issues with label **protocol**. Total: **1**.
+Updated: `2026-07-06 15:07 UTC`.
 
 [← All Issues](../../index.md)
 
@@ -18,8 +18,11 @@ Updated: `2026-07-06 11:14 UTC`.
       <a href="../../01173-tee-implementation/">TEE Implementation</a>
       <span class="issues-number">#1173</span>
     </div>
+    
+    <div class="issues-labels"><span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span> <span class="issues-label" style="background-color: #1d27b4; color: #ffffff; border-color: #1d27b4;">protocol</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">@tcharchian opened 2026-05-16</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2 days ago</span>
+      
     </div>
   </div>
 </li>

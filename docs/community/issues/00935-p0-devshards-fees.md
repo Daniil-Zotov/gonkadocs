@@ -2,24 +2,26 @@
 title: "#935 — [P0] `devshards` fees"
 source: https://github.com/gonka-ai/gonka/issues/935
 issue_number: 935
-synced_at: 2026-07-06T09:52:06Z
+synced_at: 2026-07-06T15:05:32Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #935](https://github.com/gonka-ai/gonka/issues/935) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+    [P0] `devshards` fees
+    <span class="issues-number">#935</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Closed</span>
+    <span class="issues-meta-item">[@dcastro](https://github.com/dcastro) opened 2026-03-23 11:12 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-04-29 21:44 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
+</div>
 
-# 🔴 [P0] `devshards` fees
-
-**Author:** [@dcastro](https://github.com/dcastro) · **State:** Closed · **Created:** 2026-03-23 11:12 UTC · **Updated:** 2026-04-29 21:44 UTC
-
-**Labels:** `Priority: High` `devshards`
-
-**Веха:** v0.2.12
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 Context: https://github.com/gonka-ai/gonka/issues/914#issuecomment-4090483233
 
 * Calculate and charge fee for `devshards`
@@ -30,17 +32,26 @@ Context: https://github.com/gonka-ai/gonka/issues/914#issuecomment-4090483233
     * Charge the fee upon settlement
 
 
+</div>
 
 ---
 
 ## 💬 Comments (1)
 
-### Комментарий 1 — [@KKizilov](https://github.com/KKizilov)
-
-*2026-03-26 15:06 UTC*
-
-> Calculate and charge fee for subnets
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@KKizilov](https://github.com/KKizilov)</span>
+    <span class="issues-meta-item">commented 2026-03-26 15:06 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    > Calculate and charge fee for subnets
  Will be done by March 29th.
 
 All the remaining items will be done by April 5th
 
+  </div>
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #935](https://github.com/gonka-ai/gonka/issues/935) every 6 hours.

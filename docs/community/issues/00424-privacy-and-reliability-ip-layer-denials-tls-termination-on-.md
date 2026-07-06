@@ -2,20 +2,26 @@
 title: "#424 — Privacy and Reliability: IP-layer denials, TLS termination, on-chain prompt exposure, and faster mitigation of unreliable hosts"
 source: https://github.com/gonka-ai/gonka/issues/424
 issue_number: 424
-synced_at: 2026-07-06T09:53:37Z
+synced_at: 2026-07-06T15:07:08Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #424](https://github.com/gonka-ai/gonka/issues/424) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+    Privacy and Reliability: IP-layer denials, TLS termination, on-chain prompt exposure, and faster mitigation of unreliable hosts
+    <span class="issues-number">#424</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Open</span>
+    <span class="issues-meta-item">[@vvv-tech](https://github.com/vvv-tech) opened 2025-11-10 12:43 UTC</span>
+    <span class="issues-meta-item">0 comments</span>
+    <span class="issues-meta-item">Updated 2025-11-10 12:43 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🟢 Privacy and Reliability: IP-layer denials, TLS termination, on-chain prompt exposure, and faster mitigation of unreliable hosts
-
-**Author:** [@vvv-tech](https://github.com/vvv-tech) · **State:** Open · **Created:** 2025-11-10 12:43 UTC · **Updated:** 2025-11-10 12:43 UTC
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 ### Summary
 - Transfer Agents (TAs) can deny requests at the IP layer (e.g., Nginx) without protocol penalties, hurting availability.
 - TLS terminates on hosts; plaintext is visible at the host and intra-node hops. No true end-to-end client→executor encryption by default.
@@ -72,3 +78,8 @@ template: issues-main.html
 Status reference
 - Reliability hardening and faster node health reaction: [PR #408](https://github.com/gonka-ai/gonka/pull/408).
 - Invalidation/exclusion, SPRT-based status, slashing dedupe: [PR #407](https://github.com/gonka-ai/gonka/pull/407).
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #424](https://github.com/gonka-ai/gonka/issues/424) every 6 hours.

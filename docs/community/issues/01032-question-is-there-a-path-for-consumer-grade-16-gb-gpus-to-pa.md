@@ -2,20 +2,26 @@
 title: "#1032 — Question: is there a path for consumer-grade 16 GB GPUs to participate as lightweight Host nodes?"
 source: https://github.com/gonka-ai/gonka/issues/1032
 issue_number: 1032
-synced_at: 2026-07-06T09:52:23Z
+synced_at: 2026-07-06T15:05:50Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #1032](https://github.com/gonka-ai/gonka/issues/1032) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+    Question: is there a path for consumer-grade 16 GB GPUs to participate as lightweight Host nodes?
+    <span class="issues-number">#1032</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Closed</span>
+    <span class="issues-meta-item">[@JFFby](https://github.com/JFFby) opened 2026-04-08 19:42 UTC</span>
+    <span class="issues-meta-item">0 comments</span>
+    <span class="issues-meta-item">Updated 2026-04-08 19:43 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🔴 Question: is there a path for consumer-grade 16 GB GPUs to participate as lightweight Host nodes?
-
-**Author:** [@JFFby](https://github.com/JFFby) · **State:** Closed · **Created:** 2026-04-08 19:42 UTC · **Updated:** 2026-04-08 19:43 UTC
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 ## Background
 
 I've been going through the whitepaper and PoW security analysis to understand whether consumer GPUs in the ~16 GB VRAM range (RTX 5060 Ti, 5070 Ti, 5080, 5090, etc.) have a realistic path to participating as Hosts — or whether the current design effectively requires datacenter-class hardware to earn meaningful rewards.
@@ -58,3 +64,8 @@ Beyond my own setup, this has implications for the network design:
 - a natural entry point for developers and smaller operators
 
 Would appreciate any clarification on whether this is a supported direction or not.
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #1032](https://github.com/gonka-ai/gonka/issues/1032) every 6 hours.

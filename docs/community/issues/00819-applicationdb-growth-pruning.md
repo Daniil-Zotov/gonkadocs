@@ -2,24 +2,26 @@
 title: "#819 — `application.db` growth / pruning"
 source: https://github.com/gonka-ai/gonka/issues/819
 issue_number: 819
-synced_at: 2026-07-06T09:52:40Z
+synced_at: 2026-07-06T15:06:08Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #819](https://github.com/gonka-ai/gonka/issues/819) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+    `application.db` growth / pruning
+    <span class="issues-number">#819</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Closed</span>
+    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-27 21:08 UTC</span>
+    <span class="issues-meta-item">10 comments</span>
+    <span class="issues-meta-item">Updated 2026-03-12 19:08 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span> <span class="issues-label" style="background-color: #008672; color: #ffffff; border-color: #008672;">help wanted</span> <span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
+</div>
 
-# 🔴 `application.db` growth / pruning
-
-**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2026-02-27 21:08 UTC · **Updated:** 2026-03-12 19:08 UTC
-
-**Labels:** `bug` `help wanted` `Priority: High`
-
-**Веха:** v0.2.11
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 
 ### Discussed in https://github.com/gonka-ai/gonka/discussions/817
 
@@ -52,28 +54,37 @@ Sustained `application.db` growth can lead to:
     - safe maintenance steps (e.g., compaction guidance),
     - monitoring suggestions (growth rate, alert thresholds).
 - If a code-level change is justified, track it via linked PRs and governance-appropriate process.
+</div>
 
 ---
 
 ## 💬 Comments (10)
 
-### Комментарий 1 — [@Mayveskii](https://github.com/Mayveskii)
-
-*2026-03-03 07:58 UTC*
-
-I’d like to work on this issue, will start by reproducing application.db growth and investigating pruning behavior
-
-### Комментарий 2 — [@AlexeySamosadov](https://github.com/AlexeySamosadov)
-
-*2026-03-03 11:13 UTC*
-
-PR: https://github.com/gonka-ai/gonka/pull/846
-
-### Комментарий 3 — [@Mayveskii](https://github.com/Mayveskii)
-
-*2026-03-03 11:36 UTC*
-
-Root cause: application.db growth — code review + live data
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@Mayveskii](https://github.com/Mayveskii)</span>
+    <span class="issues-meta-item">commented 2026-03-03 07:58 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    I’d like to work on this issue, will start by reproducing application.db growth and investigating pruning behavior
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
+    <span class="issues-meta-item">commented 2026-03-03 11:13 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    PR: https://github.com/gonka-ai/gonka/pull/846
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@Mayveskii](https://github.com/Mayveskii)</span>
+    <span class="issues-meta-item">commented 2026-03-03 11:36 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Root cause: application.db growth — code review + live data
 TL;DR: Not a config problem. The pruning system silently deletes nothing on nodes that missed upgrade v0.2.4 (InferencePruningMax = 0 in DefaultEpochParams), and 9+ large collections were never pruned at all.
 Live data (epochs 158–188, gonka.gg):
 2.3M inferences over 31 epochs, peak 241K/epoch
@@ -82,21 +93,27 @@ Root causes in code:
 InferencePruningMax = 0 by default (inference-chain/x/inference/types/params.go, DefaultEpochParams). On nodes without upgrade v0.2.4, pruning deletes zero records per block. The upgrade handler (app/upgrades/v0_2_4/upgrades.go) sets it to 5000 — but only for nodes that actually ran it.
 Deprecated payload fields still stored on-chain. inference.proto still carries prompt_payload, response_payload, original_prompt inside every Inference written to application.db via SetInference.
 9 large epoch-keyed collections never pruned. EpochPerformanceSummaries, ConfirmationPoCEvents, PoCValidationsV2, MLNodeWeightDistributions and others in keeper.go have zero pruning logic and grow unboundedly regardless of config.
-
-### Комментарий 4 — [@Mayveskii](https://github.com/Mayveskii)
-
-*2026-03-03 11:36 UTC*
-
-> PR: [#846](https://github.com/gonka-ai/gonka/pull/846)
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@Mayveskii](https://github.com/Mayveskii)</span>
+    <span class="issues-meta-item">commented 2026-03-03 11:36 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    > PR: [#846](https://github.com/gonka-ai/gonka/pull/846)
 
 were exactly working on it....
 
-
-### Комментарий 5 — [@AlexeySamosadov](https://github.com/AlexeySamosadov)
-
-*2026-03-03 12:00 UTC*
-
-Summary of what was done in PR #846:
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
+    <span class="issues-meta-item">commented 2026-03-03 12:00 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Summary of what was done in PR #846:
 
 Root cause identified: **9 epoch-keyed collections were never pruned**, only 3 were cleaned up (Inferences, PoCBatches, PoCValidations v1). The unpruned collections:
 
@@ -113,12 +130,15 @@ Root cause identified: **9 epoch-keyed collections were never pruned**, only 3 w
 Additionally, `InferencePruningMax` and `PocPruningMax` defaulted to 0 in the proto definition, meaning pruning was **silently disabled** on any node that didn't receive the v0.2.4 upgrade handler.
 
 Fix: extended `Prune()` to clean all 9 collections, added fallback default (5000) when configured max is zero, set sane defaults in `DefaultEpochParams()`. Tests added and passing.
-
-### Комментарий 6 — [@sysmanalex](https://github.com/sysmanalex)
-
-*2026-03-03 18:14 UTC*
-
-[!NOTE]
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@sysmanalex](https://github.com/sysmanalex)</span>
+    <span class="issues-meta-item">commented 2026-03-03 18:14 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    [!NOTE]
 -  purning problem is part of IAVL bugs (will be fixed/can be - by migration to IAVLX v0.54) 100% 
 Pruning isn't explicitly configured in app/app.go -> the Cosmos SDK default is used.
 
@@ -180,12 +200,15 @@ inter-block-cache = true
 
 p.s. I can make sample code for inference/end_blocker/keeper.go if needed. but upper should work fine and fix problem asap. 
 
-
-### Комментарий 7 — [@gmorgachev](https://github.com/gmorgachev)
-
-*2026-03-04 00:00 UTC*
-
-> Root cause: application.db growth — code review + live data TL;DR: Not a config problem. The pruning system silently deletes nothing on nodes that missed upgrade v0.2.4 (InferencePruningMax = 0 in DefaultEpochParams), and 9+ large collections were never pruned at all. Live data (epochs 158–188, gonka.gg): 2.3M inferences over 31 epochs, peak 241K/epoch Estimated application.db growth: ~7 GB (with payloads) / ~1.2 GB (metadata only) Root causes in code: InferencePruningMax = 0 by default (inference-chain/x/inference/types/params.go, DefaultEpochParams). On nodes without upgrade v0.2.4, pruning deletes zero records per block. The upgrade handler (app/upgrades/v0_2_4/upgrades.go) sets it to 5000 — but only for nodes that actually ran it. Deprecated payload fields still stored on-chain. inference.proto still carries prompt_payload, response_payload, original_prompt inside every Inference written to application.db via SetInference. 9 large epoch-keyed collections never pruned. EpochPerformanceSummaries, ConfirmationPoCEvents, PoCValidationsV2, MLNodeWeightDistributions and others in keeper.go have zero pruning logic and grow unboundedly regardless of config.
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@gmorgachev](https://github.com/gmorgachev)</span>
+    <span class="issues-meta-item">commented 2026-03-04 00:00 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    > Root cause: application.db growth — code review + live data TL;DR: Not a config problem. The pruning system silently deletes nothing on nodes that missed upgrade v0.2.4 (InferencePruningMax = 0 in DefaultEpochParams), and 9+ large collections were never pruned at all. Live data (epochs 158–188, gonka.gg): 2.3M inferences over 31 epochs, peak 241K/epoch Estimated application.db growth: ~7 GB (with payloads) / ~1.2 GB (metadata only) Root causes in code: InferencePruningMax = 0 by default (inference-chain/x/inference/types/params.go, DefaultEpochParams). On nodes without upgrade v0.2.4, pruning deletes zero records per block. The upgrade handler (app/upgrades/v0_2_4/upgrades.go) sets it to 5000 — but only for nodes that actually ran it. Deprecated payload fields still stored on-chain. inference.proto still carries prompt_payload, response_payload, original_prompt inside every Inference written to application.db via SetInference. 9 large epoch-keyed collections never pruned. EpochPerformanceSummaries, ConfirmationPoCEvents, PoCValidationsV2, MLNodeWeightDistributions and others in keeper.go have zero pruning logic and grow unboundedly regardless of config.
 
 
 > n nodes that missed upgrade v0.2.4
@@ -195,12 +218,15 @@ This parameter stored on chain => all nodes who in sync with chain will use the 
 
 
 
-
-### Комментарий 8 — [@Lelouch33](https://github.com/Lelouch33)
-
-*2026-03-04 09:32 UTC*
-
-## Fix: pruning freeze caused by gaps in `pruneSnapshotHeights`
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@Lelouch33](https://github.com/Lelouch33)</span>
+    <span class="issues-meta-item">commented 2026-03-04 09:32 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    ## Fix: pruning freeze caused by gaps in `pruneSnapshotHeights`
 
 ### Summary
 
@@ -387,15 +413,27 @@ Steady state: array has 1 element, advances with each snapshot.
 
 </details>
 
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@gmorgachev](https://github.com/gmorgachev)</span>
+    <span class="issues-meta-item">commented 2026-03-05 06:23 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    @Lelouch33 seems like that really solves problem, let's finalize details and make compartible release
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@Lelouch33](https://github.com/Lelouch33)</span>
+    <span class="issues-meta-item">commented 2026-03-05 23:22 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    https://github.com/gonka-ai/gonka/pull/867
+  </div>
+</div>
 
-### Комментарий 9 — [@gmorgachev](https://github.com/gmorgachev)
+---
 
-*2026-03-05 06:23 UTC*
-
-@Lelouch33 seems like that really solves problem, let's finalize details and make compartible release
-
-### Комментарий 10 — [@Lelouch33](https://github.com/Lelouch33)
-
-*2026-03-05 23:22 UTC*
-
-https://github.com/gonka-ai/gonka/pull/867
+> 🔄 **Auto-synced** from [Issue #819](https://github.com/gonka-ai/gonka/issues/819) every 6 hours.

@@ -2,20 +2,26 @@
 title: "#1081 — Binomial test p0 floor/ceiling mismatch — stricter downtime threshold silently never enforced"
 source: https://github.com/gonka-ai/gonka/issues/1081
 issue_number: 1081
-synced_at: 2026-07-06T09:52:17Z
+synced_at: 2026-07-06T15:05:44Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #1081](https://github.com/gonka-ai/gonka/issues/1081) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+    Binomial test p0 floor/ceiling mismatch — stricter downtime threshold silently never enforced
+    <span class="issues-number">#1081</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Closed</span>
+    <span class="issues-meta-item">[@Doog-bot534](https://github.com/Doog-bot534) opened 2026-04-16 03:25 UTC</span>
+    <span class="issues-meta-item">2 comments</span>
+    <span class="issues-meta-item">Updated 2026-04-20 01:35 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🔴 Binomial test p0 floor/ceiling mismatch — stricter downtime threshold silently never enforced
-
-**Author:** [@Doog-bot534](https://github.com/Doog-bot534) · **State:** Closed · **Created:** 2026-04-16 03:25 UTC · **Updated:** 2026-04-20 01:35 UTC
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 ## Summary
 
 A floor vs. ceiling inconsistency in `decimalToPermille` causes the dynamic p0 selection and the actual binomial test to use **different p0 tables**. Validators who should be punished under the stricter threshold pass the test using the more lenient table.
@@ -76,16 +82,19 @@ The first option is safer — when in doubt, enforce the stricter threshold.
 ---
 
 Payout address: `gonka10zaal553duxp05nvfpqtsqrm2g0j6j34r8nan7`
+</div>
 
 ---
 
 ## 💬 Comments (2)
 
-### Комментарий 1 — [@unameisfine](https://github.com/unameisfine)
-
-*2026-04-19 19:22 UTC*
-
-Reviewed the code paths. I believe this mismatch is **not exploitable** in the current codebase — here's why:
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@unameisfine](https://github.com/unameisfine)</span>
+    <span class="issues-meta-item">commented 2026-04-19 19:22 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Reviewed the code paths. I believe this mismatch is **not exploitable** in the current codebase — here's why:
 
 **`getDynamicP0` always returns an exact permille**
 
@@ -104,12 +113,15 @@ The only path where a non-rounded p0 reaches `MissedStatTest` is when governance
 The two functions (`decimalToPermille` floor vs `decimalToPermilleCeil` ceil) do use different rounding, but because `getDynamicP0` always snaps to an exact supported permille before returning, the floor/ceiling difference never manifests in practice. The described scenario (p0=0.1004 using different tables) cannot occur — `getDynamicP0` would map 0.1004 to 0.200 before it ever reaches `MissedStatTest`.
 
 Unifying the rounding functions is still reasonable as defensive hardening, but the severity should be Low (code smell) rather than High (active exploit).
-
-### Комментарий 2 — [@Doog-bot534](https://github.com/Doog-bot534)
-
-*2026-04-20 01:35 UTC*
-
-Thanks @unameisfine for the thorough walkthrough — you're right, and I've reverified against the code paths.
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@Doog-bot534](https://github.com/Doog-bot534)</span>
+    <span class="issues-meta-item">commented 2026-04-20 01:35 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Thanks @unameisfine for the thorough walkthrough — you're right, and I've reverified against the code paths.
 
 **Confirmed on my side:**
 
@@ -120,3 +132,9 @@ Thanks @unameisfine for the thorough walkthrough — you're right, and I've reve
 The two rounding functions do diverge in isolation, but every production caller snaps to an exact permille before reaching the stat test. The exploit scenario as I described it is not reachable on current `main`.
 
 Downgrading severity assessment to **Low / code hygiene** — unifying the rounding helpers would still be reasonable defensive cleanup, but this is not an active vulnerability. Closing to keep the queue clean. Apologies for the noise.
+  </div>
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #1081](https://github.com/gonka-ai/gonka/issues/1081) every 6 hours.

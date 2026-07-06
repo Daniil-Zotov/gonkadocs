@@ -2,20 +2,26 @@
 title: "#342 — [P0] Security: Minor"
 source: https://github.com/gonka-ai/gonka/issues/342
 issue_number: 342
-synced_at: 2026-07-06T09:53:39Z
+synced_at: 2026-07-06T15:07:11Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #342](https://github.com/gonka-ai/gonka/issues/342) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+    [P0] Security: Minor
+    <span class="issues-number">#342</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Closed</span>
+    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2025-09-04 21:21 UTC</span>
+    <span class="issues-meta-item">0 comments</span>
+    <span class="issues-meta-item">Updated 2025-10-09 20:05 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🔴 [P0] Security: Minor
-
-**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2025-09-04 21:21 UTC · **Updated:** 2025-10-09 20:05 UTC
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 - [x] GOC-19 | Count Participant With Zero Balance Is Missing Balance Check
 - [x] GOC-20 | Go Package Dependency Issues
 - [x] GOC-22 | Inconsistent Epoch ID Handling In `GetPreviousEpochMLNodesWithInferenceAllocation`
@@ -72,3 +78,8 @@ Ignore the following:
 
 
 
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #342](https://github.com/gonka-ai/gonka/issues/342) every 6 hours.

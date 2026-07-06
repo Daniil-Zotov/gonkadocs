@@ -2,22 +2,26 @@
 title: "#876 — Signed /v1/chat/completions still panics on all three documented mainnet transfer-agent endpoints"
 source: https://github.com/gonka-ai/gonka/issues/876
 issue_number: 876
-synced_at: 2026-07-06T09:51:55Z
+synced_at: 2026-07-06T15:05:15Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #876](https://github.com/gonka-ai/gonka/issues/876) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+    Signed /v1/chat/completions still panics on all three documented mainnet transfer-agent endpoints
+    <span class="issues-number">#876</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Closed</span>
+    <span class="issues-meta-item">[@junior2wnw](https://github.com/junior2wnw) opened 2026-03-10 20:30 UTC</span>
+    <span class="issues-meta-item">13 comments</span>
+    <span class="issues-meta-item">Updated 2026-06-03 06:10 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🔴 Signed /v1/chat/completions still panics on all three documented mainnet transfer-agent endpoints
-
-**Author:** [@junior2wnw](https://github.com/junior2wnw) · **State:** Closed · **Created:** 2026-03-10 20:30 UTC · **Updated:** 2026-06-03 06:10 UTC
-
-**Веха:** v0.2.14
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 ## Summary
 
 Around **2026-03-10 20:28 UTC**, I followed the public Developer Quickstart flow on mainnet using a funded account and observed that inference requests signed using the public Gonka SDK semantics failed on **all three documented active transfer-agent endpoints** with the same internal server panic.
@@ -186,16 +190,19 @@ If useful, I can also retest against a patched environment and confirm whether t
 
 GitHub: `@junior2wnw`
 Wallet (if bounty attribution is relevant): `gonka1glph4syjlx347ptv2n7qfz67sryrhk983j5f8a`
+</div>
 
 ---
 
 ## 💬 Comments (13)
 
-### Комментарий 1 — [@junior2wnw](https://github.com/junior2wnw)
-
-*2026-03-10 20:36 UTC*
-
-Adding a fresh spot-check here to reduce maintainer validation time.
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@junior2wnw](https://github.com/junior2wnw)</span>
+    <span class="issues-meta-item">commented 2026-03-10 20:36 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Adding a fresh spot-check here to reduce maintainer validation time.
 
 ## Fresh reproduction (UTC)
 
@@ -299,12 +306,15 @@ for (const endpoint of endpoints) {
 
 This is intentionally sanitized. I can provide the exact reproduction script and exact headers privately if useful.
 </details>
-
-### Комментарий 2 — [@junior2wnw](https://github.com/junior2wnw)
-
-*2026-03-10 21:51 UTC*
-
-Downstream note from a live client.
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@junior2wnw](https://github.com/junior2wnw)</span>
+    <span class="issues-meta-item">commented 2026-03-10 21:51 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Downstream note from a live client.
 
 This issue currently blocks the Gonka-backed chat path in `Klava`:
 - repo: https://github.com/junior2wnw/klava-bot
@@ -319,12 +329,15 @@ That is why the downstream response is to wait for provider stabilization here r
 
 If bounty attribution metadata is useful later, my Gonka address is:
 `gonka1glph4syjlx347ptv2n7qfz67sryrhk983j5f8a`
-
-### Комментарий 3 — [@junior2wnw](https://github.com/junior2wnw)
-
-*2026-03-11 20:34 UTC*
-
-One more downstream signal from the live client side.
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@junior2wnw](https://github.com/junior2wnw)</span>
+    <span class="issues-meta-item">commented 2026-03-11 20:34 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    One more downstream signal from the live client side.
 
 I kept the current Gonka integration path intact and documented the current client boundary here:
 - https://github.com/junior2wnw/klava-bot/blob/main/GONKA_STATUS.md
@@ -342,12 +355,15 @@ So from the client side this still looks isolated to the signed transfer-agent c
 That is why I have not redesigned the client around a different request model yet. If the provider-side panic is fixed here, the existing downstream path should become usable again without changing the surrounding client architecture.
 
 If a maintainer wants a freshly minimized reproduction bundle again, I can post one.
-
-### Комментарий 4 — [@unameisfine](https://github.com/unameisfine)
-
-*2026-03-25 16:05 UTC*
-
-Found three nil-unguarded gRPC response accesses in `post_chat_handler.go` that can cause the panic described here:
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@unameisfine](https://github.com/unameisfine)</span>
+    <span class="issues-meta-item">commented 2026-03-25 16:05 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Found three nil-unguarded gRPC response accesses in `post_chat_handler.go` that can cause the panic described here:
 
 1. **`enforceDeveloperAccessGate`** (line 250): `paramsResp.Params.DeveloperAccessParams` — panics if `paramsResp` is nil. Called for ALL requests.
 
@@ -358,12 +374,15 @@ Found three nil-unguarded gRPC response accesses in `post_chat_handler.go` that 
 All three are in the common request path, which explains why all documented endpoints fail simultaneously.
 
 Fix in PR #947 — adds nil guards to all three locations (3 lines changed).
-
-### Комментарий 5 — [@x0152](https://github.com/x0152)
-
-*2026-03-26 14:32 UTC*
-
-@junior2wnw Hi
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@x0152](https://github.com/x0152)</span>
+    <span class="issues-meta-item">commented 2026-03-26 14:32 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    @junior2wnw Hi
 Tried your script - buildAuthorization double-hashes the message, so the server returns 401 "invalid signature". Fix: pass raw bytes to secp256k1.sign(message, ...) instead of secp256k1.sign(sha256(message), ...). After that, inference returns 200
 
 ```js
@@ -377,42 +396,57 @@ function buildAuthorization(body, timestamp, transferAddress, privateKeyBytes) {
 ```
 
 Could you rerun with this fix and check if the 500 panic still reproduces? It's possible it was already fixed in a recent update
-
-### Комментарий 6 — [@zhaog100](https://github.com/zhaog100)
-
-*2026-03-26 15:30 UTC*
-
-/attempt
-
-### Комментарий 7 — [@zhaog100](https://github.com/zhaog100)
-
-*2026-03-26 15:30 UTC*
-
-/attempt
-
-### Комментарий 8 — [@zhaog100](https://github.com/zhaog100)
-
-*2026-03-26 16:00 UTC*
-
-/attempt
-
-### Комментарий 9 — [@unameisfine](https://github.com/unameisfine)
-
-*2026-03-28 20:31 UTC*
-
-Found the same InjectParamsIntoContext pattern in two more handlers — StartInference and FinishInference silently continue with broken context when params store is corrupted.
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@zhaog100](https://github.com/zhaog100)</span>
+    <span class="issues-meta-item">commented 2026-03-26 15:30 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    /attempt
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@zhaog100](https://github.com/zhaog100)</span>
+    <span class="issues-meta-item">commented 2026-03-26 15:30 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    /attempt
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@zhaog100](https://github.com/zhaog100)</span>
+    <span class="issues-meta-item">commented 2026-03-26 16:00 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    /attempt
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@unameisfine](https://github.com/unameisfine)</span>
+    <span class="issues-meta-item">commented 2026-03-28 20:31 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Found the same InjectParamsIntoContext pattern in two more handlers — StartInference and FinishInference silently continue with broken context when params store is corrupted.
 
 This is the same bug fixed for Validation in #968, but in the other two critical message handlers.
 
 Without fix: handler logs warning, continues → GetDeveloperAccessParams and GetTransferAgentAccessParams fail silently → access gates bypassed.
 
 Fix in PR (link below) — regression tests confirm FAIL without fix, PASS with fix.
-
-### Комментарий 10 — [@junior2wnw](https://github.com/junior2wnw)
-
-*2026-03-30 20:17 UTC*
-
-Thanks - I reran this on March 31, 2026 against the currently documented public mainnet transfer-agent endpoints using a funded external requester account, and I tested both signing variants:
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@junior2wnw](https://github.com/junior2wnw)</span>
+    <span class="issues-meta-item">commented 2026-03-30 20:17 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Thanks - I reran this on March 31, 2026 against the currently documented public mainnet transfer-agent endpoints using a funded external requester account, and I tested both signing variants:
 
 1. the current public `gonka-openai` SDK style
    (`payload hash -> signature input -> sha256(signature input) -> sign`)
@@ -466,22 +500,28 @@ The fastest path to resolution seems to be:
 4. If raw-message signing is now the intended behavior, update the public SDK and docs accordingly, because the currently published SDK still implements the hashed-input signing flow.
 
 If useful, I can also post a fresh March 31 endpoint matrix with exact status/body pairs from the rerun.
-
-### Комментарий 11 — [@junior2wnw](https://github.com/junior2wnw)
-
-*2026-04-27 13:18 UTC*
-
-Hi, quick follow-up on #876.
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@junior2wnw](https://github.com/junior2wnw)</span>
+    <span class="issues-meta-item">commented 2026-04-27 13:18 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Hi, quick follow-up on #876.
 
 I noticed #947 explored a possible fix path and added an integration test for the signed `/v1/chat/completions` flow, but it was later closed unmerged. Since this issue is still in Triage/New, let me know if a fresh retest against the public endpoints or the private reproduction details from the report would help.
 
 Happy to validate a patched deployment if useful.
-
-### Комментарий 12 — [@dufok](https://github.com/dufok)
-
-*2026-05-29 16:02 UTC*
-
-### Fresh repro 2026-05-29 — distinct 401 variant: per-model "requires an API key" (not signature/panic)
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@dufok](https://github.com/dufok)</span>
+    <span class="issues-meta-item">commented 2026-05-29 16:02 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    ### Fresh repro 2026-05-29 — distinct 401 variant: per-model "requires an API key" (not signature/panic)
 
 Following up ~1 month after the last activity here — the documented public mainnet inference flow is still not usable for an external developer, but I hit a **different failure mode** than the panic/`invalid signature`/`429` already in this thread, so flagging it in case it is a separate access-control layer worth its own issue.
 
@@ -517,9 +557,18 @@ So all three documented signing headers are present — this is past the unsigne
 
 **Question for maintainers**: is mainnet inference now gated behind a per-model API key / broker-allowlist on top of `publish-pubkey` + signing? If so, the public Developer Quickstart does not mention it, and a funded account following the documented flow lands on this 401 with no obvious next step. Happy to file this as a separate issue if you consider it distinct from the signed-completion panic tracked here.
 
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span class="issues-meta-item">commented 2026-06-03 06:10 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Hi @dufok, the Developer Quickstart has been updated. If you have any other questions, please open a new issue
+  </div>
+</div>
 
-### Комментарий 13 — [@tcharchian](https://github.com/tcharchian)
+---
 
-*2026-06-03 06:10 UTC*
-
-Hi @dufok, the Developer Quickstart has been updated. If you have any other questions, please open a new issue
+> 🔄 **Auto-synced** from [Issue #876](https://github.com/gonka-ai/gonka/issues/876) every 6 hours.

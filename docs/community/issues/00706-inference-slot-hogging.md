@@ -2,20 +2,26 @@
 title: "#706 — Inference Slot Hogging"
 source: https://github.com/gonka-ai/gonka/issues/706
 issue_number: 706
-synced_at: 2026-07-06T09:52:47Z
+synced_at: 2026-07-06T15:06:16Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #706](https://github.com/gonka-ai/gonka/issues/706) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+    Inference Slot Hogging
+    <span class="issues-number">#706</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Open</span>
+    <span class="issues-meta-item">[@huxuxuya](https://github.com/huxuxuya) opened 2026-02-05 18:52 UTC</span>
+    <span class="issues-meta-item">4 comments</span>
+    <span class="issues-meta-item">Updated 2026-03-02 12:27 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🟢 Inference Slot Hogging
-
-**Author:** [@huxuxuya](https://github.com/huxuxuya) · **State:** Open · **Created:** 2026-02-05 18:52 UTC · **Updated:** 2026-03-02 12:27 UTC
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 **Vulnerability:** Inference Slot Hogging
 **Severity:** Medium 
 **Component:** model_assignment.go
@@ -36,34 +42,52 @@ Result: Node A never performs PoC, but always gets paid.
 
 ### Fix
 A mandatory rotation. If a node was in the safe slot in the previous epoch, it is moved to the end of the queue for the next epoch. This forces the validator's other nodes to take turns in the safe slot and undergo verification.
+</div>
 
 ---
 
 ## 💬 Comments (4)
 
-### Комментарий 1 — [@AlexeySamosadov](https://github.com/AlexeySamosadov)
-
-*2026-02-08 14:13 UTC*
-
-PR created: https://github.com/gonka-ai/gonka/pull/718
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
+    <span class="issues-meta-item">commented 2026-02-08 14:13 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    PR created: https://github.com/gonka-ai/gonka/pull/718
 
 Implements rotation logic to prevent the same node from always getting the safe inference slot.
-
-### Комментарий 2 — [@AlexeySamosadov](https://github.com/AlexeySamosadov)
-
-*2026-02-12 15:26 UTC*
-
-I have a PR for this: #718 — implements deterministic rotation for PoC slot allocation to prevent hogging. Would appreciate a review when you get a chance.
-
-### Комментарий 3 — [@huxuxuya](https://github.com/huxuxuya)
-
-*2026-02-24 19:31 UTC*
-
- This task was created in parallel with this PR #707
-
-### Комментарий 4 — [@huxuxuya](https://github.com/huxuxuya)
-
-*2026-03-02 12:27 UTC*
-
-Assign to me plz. Task already done.
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
+    <span class="issues-meta-item">commented 2026-02-12 15:26 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    I have a PR for this: #718 — implements deterministic rotation for PoC slot allocation to prevent hogging. Would appreciate a review when you get a chance.
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@huxuxuya](https://github.com/huxuxuya)</span>
+    <span class="issues-meta-item">commented 2026-02-24 19:31 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+     This task was created in parallel with this PR #707
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@huxuxuya](https://github.com/huxuxuya)</span>
+    <span class="issues-meta-item">commented 2026-03-02 12:27 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Assign to me plz. Task already done.
 #707 
+  </div>
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #706](https://github.com/gonka-ai/gonka/issues/706) every 6 hours.

@@ -2,20 +2,26 @@
 title: "#1265 — Stuck VOTING inferences orphan client escrow when x/group proposals miss quorum"
 source: https://github.com/gonka-ai/gonka/issues/1265
 issue_number: 1265
-synced_at: 2026-07-06T09:51:56Z
+synced_at: 2026-07-06T15:05:17Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #1265](https://github.com/gonka-ai/gonka/issues/1265) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+    Stuck VOTING inferences orphan client escrow when x/group proposals miss quorum
+    <span class="issues-number">#1265</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Open</span>
+    <span class="issues-meta-item">[@vitaly-andr](https://github.com/vitaly-andr) opened 2026-05-27 19:50 UTC</span>
+    <span class="issues-meta-item">5 comments</span>
+    <span class="issues-meta-item">Updated 2026-05-30 17:17 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🟢 Stuck VOTING inferences orphan client escrow when x/group proposals miss quorum
-
-**Author:** [@vitaly-andr](https://github.com/vitaly-andr) · **State:** Open · **Created:** 2026-05-27 19:50 UTC · **Updated:** 2026-05-30 17:17 UTC
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 ## Summary
 
 `expireInferences` (`inference-chain/x/inference/module/module.go:226-234`) filters by `Status == STARTED` only. When a failing `MsgValidation` transitions an inference to `VOTING` and the resulting x/group proposals don't reach quorum, the inference is silently skipped by the timeout cleanup, the timeout entry is removed unconditionally at line 391, and the client's escrow is permanently held in the inference module account.
@@ -92,35 +98,44 @@ Not recommended: default-to-validate (passive non-voting becomes implicit approv
 
 @patimen — touching code you originally wrote (`module.go:231`, commit `2f33567dd7`). Flagging directly since you'd have the most context on the intended semantics here.
 
+</div>
 
 ---
 
 ## 💬 Comments (5)
 
-### Комментарий 1 — [@vitaly-andr](https://github.com/vitaly-andr)
-
-*2026-05-28 12:46 UTC*
-
-Quick follow-up: applied the filter extension from the body of this issue locally (`module.go:231` → also handle `Status=VOTING` via `expireInferenceAndIssueRefund`) and reran sim. The timeout-stuck path is no longer reachable on seed=99 — sim-full now progresses past the previous failure point.
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@vitaly-andr](https://github.com/vitaly-andr)</span>
+    <span class="issues-meta-item">commented 2026-05-28 12:46 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Quick follow-up: applied the filter extension from the body of this issue locally (`module.go:231` → also handle `Status=VOTING` via `expireInferenceAndIssueRefund`) and reran sim. The timeout-stuck path is no longer reachable on seed=99 — sim-full now progresses past the previous failure point.
 
 What surfaced next is a distinct mechanism in the revalidation vote path: validators present in `ActiveParticipantsSet[epoch]` can be absent from the corresponding x/group, and `voteValidationProposal` hard-errors with `voter not found` instead of treating non-member as no-op. Root cause is the permissive `addEpochMembers` (skip on nil-seed, continue on `AddMember` error — `module.go:1134`, `:1143`) which leaves the `ActiveParticipantsSet ⊆ group members` invariant unmaintained.
 
 Filed separately as #1269 with the sim reproduction (seed=99, block 39/500) and a suggested structural pre-check using `GroupMessageKeeper.GroupMembers`. Liveness for that path is now bounded by the timeout cleanup proposed in this issue, so it's a correctness/quorum issue rather than fund-loss.
-
-### Комментарий 2 — [@a-kuprin](https://github.com/a-kuprin)
-
-*2026-05-30 05:18 UTC*
-
-I think we should focus now on devshard inference flow.
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@a-kuprin](https://github.com/a-kuprin)</span>
+    <span class="issues-meta-item">commented 2026-05-30 05:18 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    I think we should focus now on devshard inference flow.
 Anyway legacy inference flow will not be supported in the future.
 
 Also do we really have such issue in production environment?
-
-### Комментарий 3 — [@vitaly-andr](https://github.com/vitaly-andr)
-
-*2026-05-30 08:13 UTC*
-
-Thanks for the steer — both points taken.
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@vitaly-andr](https://github.com/vitaly-andr)</span>
+    <span class="issues-meta-item">commented 2026-05-30 08:13 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Thanks for the steer — both points taken.
 
 **On "do we really have this in production?"** — honestly, I can't confirm it from chain state. I scanned ~40k inferences on a mainnet node and found none in `VOTING`, but that's not evidence either way: inferences that enter the epoch-group validation path get a real `epoch_id` and are pruned after `InferencePruningEpochThreshold` epochs (`keeper/pruning.go`), while only the `epoch_id=0` start/finish/expire residue persists. So state inspection structurally can't answer this — it'd need tx history (the public node has `tx_index=off`) or your internal telemetry. Do you have a way to see whether a failing `MsgValidation` → quorum-miss has actually occurred?
 
@@ -129,20 +144,26 @@ My case for the fix isn't "it happens a lot in prod" — it's that the gap is re
 **On devshard** — point taken, and I'd like to follow it. The simsx infrastructure from #982 (#1228) is flow-agnostic plumbing; it currently carries only the legacy factories, but it's the natural place to add devshard coverage. I'm happy to write the sim factories + invariants for the escrow/settlement path (`MsgCreateDevshardEscrow` / `MsgSettleDevshardEscrow`). The one open question is how to treat `VerifyDevshardSettlement`'s signature check under simulation — would welcome a hint on the intended approach.
 
 **One ask:** #1228 (the #982 simsx infrastructure) hasn't had a review yet. Could you take a look? It's the foundation everything above builds on, and a first pass from you would help me aim the next round (legacy vs devshard) correctly.
-
-### Комментарий 4 — [@a-kuprin](https://github.com/a-kuprin)
-
-*2026-05-30 15:37 UTC*
-
-> it's the natural place to add devshard coverage
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@a-kuprin](https://github.com/a-kuprin)</span>
+    <span class="issues-meta-item">commented 2026-05-30 15:37 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    > it's the natural place to add devshard coverage
 
 Validation logic of devshard is subject to change in future releases
-
-### Комментарий 5 — [@vitaly-andr](https://github.com/vitaly-andr)
-
-*2026-05-30 17:17 UTC*
-
-@patimen — pulling you in, since you authored #982 and own the original scope.
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@vitaly-andr](https://github.com/vitaly-andr)</span>
+    <span class="issues-meta-item">commented 2026-05-30 17:17 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    @patimen — pulling you in, since you authored #982 and own the original scope.
 
 I want to make sure I'm putting effort where it's actually useful. a-kuprin's steer here is clear, and I agree with it: legacy validation is being retired, and devshard's validation logic is still in flux — so I'll hold off on adding devshard sim coverage until it stabilizes (no point simming a moving target).
 
@@ -152,3 +173,9 @@ What I'm unsure about is the disposition of the work already done on this accept
 2. Along the way the sim surfaced two concrete bugs in the **current** flow — stranded client escrow on a quorum-missed timeout (#1265 → #1275) and a revalidation-vote failure when the voter isn't in the epoch group (#1269 → #1276). Both are small fixes on code live in `main` today. **Even if focus shifts to devshard, is there a reason not to land them now?**
 
 If this whole area is being superseded and the fixes aren't worth merging, that's completely fine — I'd just like to know, so I can close things out cleanly rather than leave them open. Whatever fits your roadmap.
+  </div>
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #1265](https://github.com/gonka-ai/gonka/issues/1265) every 6 hours.

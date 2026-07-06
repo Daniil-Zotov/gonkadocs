@@ -2,22 +2,26 @@
 title: "#865 — Hard‑coded dummy TLS key/certs used for Gloo transport in training manager Body"
 source: https://github.com/gonka-ai/gonka/issues/865
 issue_number: 865
-synced_at: 2026-07-06T09:52:40Z
+synced_at: 2026-07-06T15:06:08Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #865](https://github.com/gonka-ai/gonka/issues/865) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+    Hard‑coded dummy TLS key/certs used for Gloo transport in training manager Body
+    <span class="issues-number">#865</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Closed</span>
+    <span class="issues-meta-item">[@VVSMEN](https://github.com/VVSMEN) opened 2026-03-05 13:09 UTC</span>
+    <span class="issues-meta-item">2 comments</span>
+    <span class="issues-meta-item">Updated 2026-03-12 20:24 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span></div>
+</div>
 
-# 🔴 Hard‑coded dummy TLS key/certs used for Gloo transport in training manager Body
-
-**Author:** [@VVSMEN](https://github.com/VVSMEN) · **State:** Closed · **Created:** 2026-03-05 13:09 UTC · **Updated:** 2026-03-12 20:24 UTC
-
-**Labels:** `Priority: Low`
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 ### Summary
 The ML training manager for the `mlnode` component is currently configured to use hard‑coded dummy TLS credentials for Gloo’s `TCP_TLS` transport. These credentials are stored in the repository and wired into the runtime via environment variables. The code still contains a `TODO` comment indicating that real certificates should replace these placeholders, but this change has not yet been implemented.
 
@@ -82,19 +86,31 @@ def _start(self, train_dict: dict):
 ### Status
 - The `dummy.key` private key is present in the repository under `mlnode/packages/train/resources/certs/`.
 - The training manager (`service/manager.py`) still uses this dummy key and certificate by default, with the `TODO: Replace with actual certs when integrated` comment unchanged in the current revision.
+</div>
 
 ---
 
 ## 💬 Comments (2)
 
-### Комментарий 1 — [@tamazgadaev](https://github.com/tamazgadaev)
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@tamazgadaev](https://github.com/tamazgadaev)</span>
+    <span class="issues-meta-item">commented 2026-03-12 19:43 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    This was a quick debug fix. Training is not currently supported and basically needs total revision, so I'd say this issue low-priority
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span class="issues-meta-item">commented 2026-03-12 20:24 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    It’s hardcoded for test pipeline, on purpose
+  </div>
+</div>
 
-*2026-03-12 19:43 UTC*
+---
 
-This was a quick debug fix. Training is not currently supported and basically needs total revision, so I'd say this issue low-priority
-
-### Комментарий 2 — [@tcharchian](https://github.com/tcharchian)
-
-*2026-03-12 20:24 UTC*
-
-It’s hardcoded for test pipeline, on purpose
+> 🔄 **Auto-synced** from [Issue #865](https://github.com/gonka-ai/gonka/issues/865) every 6 hours.

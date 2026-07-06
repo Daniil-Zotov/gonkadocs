@@ -2,24 +2,26 @@
 title: "#412 — [P2] MLNode Token-Based Authentication and FQDN Support"
 source: https://github.com/gonka-ai/gonka/issues/412
 issue_number: 412
-synced_at: 2026-07-06T09:51:43Z
+synced_at: 2026-07-06T15:05:01Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #412](https://github.com/gonka-ai/gonka/issues/412) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+    [P2] MLNode Token-Based Authentication and FQDN Support
+    <span class="issues-number">#412</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Open</span>
+    <span class="issues-meta-item">[@gmorgachev](https://github.com/gmorgachev) opened 2025-10-31 07:50 UTC</span>
+    <span class="issues-meta-item">6 comments</span>
+    <span class="issues-meta-item">Updated 2026-06-27 20:42 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span></div>
+</div>
 
-# 🟢 [P2] MLNode Token-Based Authentication and FQDN Support
-
-**Author:** [@gmorgachev](https://github.com/gmorgachev) · **State:** Open · **Created:** 2025-10-31 07:50 UTC · **Updated:** 2026-06-27 20:42 UTC
-
-**Labels:** `Priority: Low`
-
-**Веха:** v0.2.15
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 ## Goal / Problem
 
 Current MLNode registration in the API service requires three static parameters:
@@ -148,16 +150,19 @@ Required changes:
 - No migration needed - old and new registration methods coexist
 
 
+</div>
 
 ---
 
 ## 💬 Comments (6)
 
-### Комментарий 1 — [@Pegasus-starry](https://github.com/Pegasus-starry)
-
-*2025-11-06 04:12 UTC*
-
-Hi @gmorgachev , I have  two questions:
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@Pegasus-starry](https://github.com/Pegasus-starry)</span>
+    <span class="issues-meta-item">commented 2025-11-06 04:12 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Hi @gmorgachev , I have  two questions:
 New registration (baseURL): Check <baseURL>/readyz (management API readiness endpoint on port 8080): 
 Is it means in the new registration:  the /readyz interface will be used , not using http://<host>:<inference_port>/health any more?       
 And the single-port operation only need to modify this place when checking MLNode health ? 
@@ -166,41 +171,62 @@ Validate registration: require either (Host+Ports) OR baseURL, not both. baseURL
 Where to do this and do we have a validate method already existed to validate the baseURL?
 
 Thanks
-
-### Комментарий 2 — [@tcharchian](https://github.com/tcharchian)
-
-*2026-02-04 23:26 UTC*
-
-@DimaOrekhovPS did the initial review, but now @DimaOrekhovPS  is waiting for @Pegasus-starry  to resolve conflicts with the current gonka version   
-
-### Комментарий 3 — [@tcharchian](https://github.com/tcharchian)
-
-*2026-03-21 00:56 UTC*
-
-Hey @jacky6block @x0152 @akup! It would be great if you could sync on the next steps for this pull request and make the needed decisions together. If you are able to move it forward on your own, it could potentially be included in v0.2.12. But overall, this is a nice-to-have rather than something critical.
-
-### Комментарий 4 — [@akup](https://github.com/akup)
-
-*2026-03-23 06:15 UTC*
-
-All this protections are nice to have. But I want it to be aligned with other features and moving PoC v2 APIs to the repo from vLLM repo.
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span class="issues-meta-item">commented 2026-02-04 23:26 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    @DimaOrekhovPS did the initial review, but now @DimaOrekhovPS  is waiting for @Pegasus-starry  to resolve conflicts with the current gonka version   
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span class="issues-meta-item">commented 2026-03-21 00:56 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Hey @jacky6block @x0152 @akup! It would be great if you could sync on the next steps for this pull request and make the needed decisions together. If you are able to move it forward on your own, it could potentially be included in v0.2.12. But overall, this is a nice-to-have rather than something critical.
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@akup](https://github.com/akup)</span>
+    <span class="issues-meta-item">commented 2026-03-23 06:15 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    All this protections are nice to have. But I want it to be aligned with other features and moving PoC v2 APIs to the repo from vLLM repo.
 
 Need some time to have a big picture in my head
-
-### Комментарий 5 — [@bonujel](https://github.com/bonujel)
-
-*2026-06-23 07:47 UTC*
-
-Hi @tcharchian, I'm picking this up and continuing the issue, and currently working on it. (draft pr #1359, blocked by #1296 )
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@bonujel](https://github.com/bonujel)</span>
+    <span class="issues-meta-item">commented 2026-06-23 07:47 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Hi @tcharchian, I'm picking this up and continuing the issue, and currently working on it. (draft pr #1359, blocked by #1296 )
 The new work centralizes MLNode addressing + auth in one place instead of spreading BaseURL/AuthToken across every call site (the #717 approach), and folds in the review feedback.
 
 It's coupled with the Onboarding changes in #1296, so the new PR #1296 is draft and will be opened once 1296 is approved.
 Thanks to everyone for the earlier work and review here.
 
 
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span class="issues-meta-item">commented 2026-06-27 20:42 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Hi @bonujel, thanks, I see. @DimaOrekhovPS @x0152 are working on v0.2.14 and v0.2.15 and will review https://github.com/gonka-ai/gonka/pull/1296 shortly
+  </div>
+</div>
 
-### Комментарий 6 — [@tcharchian](https://github.com/tcharchian)
+---
 
-*2026-06-27 20:42 UTC*
-
-Hi @bonujel, thanks, I see. @DimaOrekhovPS @x0152 are working on v0.2.14 and v0.2.15 and will review https://github.com/gonka-ai/gonka/pull/1296 shortly
+> 🔄 **Auto-synced** from [Issue #412](https://github.com/gonka-ai/gonka/issues/412) every 6 hours.

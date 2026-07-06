@@ -2,22 +2,26 @@
 title: "#982 — Enable simulation and fuzz testing for inference-chain"
 source: https://github.com/gonka-ai/gonka/issues/982
 issue_number: 982
-synced_at: 2026-07-06T09:51:53Z
+synced_at: 2026-07-06T15:05:13Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #982](https://github.com/gonka-ai/gonka/issues/982) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+    Enable simulation and fuzz testing for inference-chain
+    <span class="issues-number">#982</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Open</span>
+    <span class="issues-meta-item">[@patimen](https://github.com/patimen) opened 2026-03-30 21:41 UTC</span>
+    <span class="issues-meta-item">7 comments</span>
+    <span class="issues-meta-item">Updated 2026-06-06 08:01 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span></div>
+</div>
 
-# 🟢 Enable simulation and fuzz testing for inference-chain
-
-**Author:** [@patimen](https://github.com/patimen) · **State:** Open · **Created:** 2026-03-30 21:41 UTC · **Updated:** 2026-06-06 08:01 UTC
-
-**Labels:** `up-for-grabs`
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 # Proposal: Enable Cosmos SDK Simulation and Fuzz Testing for `inference-chain`
 
 ## Summary
@@ -296,25 +300,31 @@ Approve a first milestone focused on:
 
 That would give the project a practical starting point without overcommitting to a large one-shot implementation.
 
+</div>
 
 ---
 
 ## 💬 Comments (7)
 
-### Комментарий 1 — [@hleb-albau](https://github.com/hleb-albau)
-
-*2026-03-31 10:44 UTC*
-
- grabbing
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@hleb-albau](https://github.com/hleb-albau)</span>
+    <span class="issues-meta-item">commented 2026-03-31 10:44 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+     grabbing
 
 Upd: still have problems with health, release grabbing :(
 you can start from PR i done
-
-### Комментарий 2 — [@vitaly-andr](https://github.com/vitaly-andr)
-
-*2026-05-08 09:28 UTC*
-
-Hi @patimen, I'd like to take this on.
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@vitaly-andr](https://github.com/vitaly-andr)</span>
+    <span class="issues-meta-item">commented 2026-05-08 09:28 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Hi @patimen, I'd like to take this on.
 
 Per @hleb-albau's release ("you can start from PR i done"), starting fresh from `main` rather than building on PR #995. That PR removes 3 upstream tests (`TestAppImportExport`, `TestAppSimulationAfterImport`, `TestAppStateDeterminism`) without restoring their semantics under simsx. Crediting Hleb for the Make-target naming and `fixBankGenesisState` helper.
 
@@ -326,31 +336,40 @@ Phased delivery to match the issue's "without overcommitting to a large one-shot
 
 PR-A is locally complete; finalizing ai-reviewer pass before pushing. Will link the PR here once opened. Happy to adjust the phased split if you'd prefer a different structure.
 
-
-### Комментарий 3 — [@vitaly-andr](https://github.com/vitaly-andr)
-
-*2026-05-08 18:18 UTC*
-
-Phase 1 PR opened: #1156. Scope is intentionally narrow ("make simulation runnable") so subsequent phases can land incrementally per the proposal; Phase 2 first-wave x/inference real ops to follow as a separate PR.
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@vitaly-andr](https://github.com/vitaly-andr)</span>
+    <span class="issues-meta-item">commented 2026-05-08 18:18 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Phase 1 PR opened: #1156. Scope is intentionally narrow ("make simulation runnable") so subsequent phases can land incrementally per the proposal; Phase 2 first-wave x/inference real ops to follow as a separate PR.
 
 cc @patimen as the issue author for review and scope feedback.
-
-### Комментарий 4 — [@vitaly-andr](https://github.com/vitaly-andr)
-
-*2026-05-18 08:12 UTC*
-
-Update: Phase 1 and Phase 2 are now combined in #1182, which supersedes #1156 (closed).
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@vitaly-andr](https://github.com/vitaly-andr)</span>
+    <span class="issues-meta-item">commented 2026-05-18 08:12 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Update: Phase 1 and Phase 2 are now combined in #1182, which supersedes #1156 (closed).
 
 The comment above said Phase 2 would follow as a separate PR. Combining them instead matches the issue's "Proposed Next Step", which bundles run ergonomics and first-wave operation support into a single milestone — one self-contained, reviewable PR that exercises real `x/inference` logic rather than plumbing alone.
 
 #1182 covers the 5 first-wave `x/inference` operations named in the issue (`SubmitNewParticipant`, `StartInference`, `FinishInference`, `Validation`, `ClaimRewards`) plus the runnable-simulation infrastructure. Phase 3 (second-wave ops, operation-weight tuning, custom invariants, parameter-edge fuzzing, store decoders) still follows as a separate PR.
 
-
-### Комментарий 5 — [@vitaly-andr](https://github.com/vitaly-andr)
-
-*2026-05-22 14:13 UTC*
-
-Phase 1 + 2 + 3 combined PR opened: #1228 (supersedes #1182, which is now closed).
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@vitaly-andr](https://github.com/vitaly-andr)</span>
+    <span class="issues-meta-item">commented 2026-05-22 14:13 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Phase 1 + 2 + 3 combined PR opened: #1228 (supersedes #1182, which is now closed).
 
 Full local-verification milestone:
 - `make sim-smoke-test` PASS — lifecycle `total=75 startProcessed=72 finishProcessed=62 validated=50 proposed=4`
@@ -358,12 +377,15 @@ Full local-verification milestone:
 - Verified cross-compatible with `gm/microrelease` (v0.2.13 staging) — one adapter line for `NewEpochMemberFromActiveParticipant` signature change
 
 V2 PoC chain factory family on cosmos-sdk simsx `HasFutureOpsRegistry`; sim-full surfaced two orthogonal `gonka-ai/cosmos-sdk` bugs both required for liveness — filed separately as #1205 and gonka-ai/cosmos-sdk PR #14.
-
-### Комментарий 6 — [@vitaly-andr](https://github.com/vitaly-andr)
-
-*2026-05-29 14:59 UTC*
-
-**Status update — Phase 1–3 complete and assembled for review.**
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@vitaly-andr](https://github.com/vitaly-andr)</span>
+    <span class="issues-meta-item">commented 2026-05-29 14:59 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    **Status update — Phase 1–3 complete and assembled for review.**
 
 The simulator now runs end-to-end and exercises real `x/inference` logic — and, the point of this issue, the seeded runs have **surfaced several actionable bugs**. Everything is assembled as focused, individually reviewable PRs.
 
@@ -387,12 +409,15 @@ The simulator now runs end-to-end and exercises real `x/inference` logic — and
 
 @patimen — whenever you have bandwidth, I'd really appreciate a review of #1228 and any scope feedback. No rush, and happy to restructure the phase split if you'd prefer.
 
-
-### Комментарий 7 — [@vitaly-andr](https://github.com/vitaly-andr)
-
-*2026-06-06 08:01 UTC*
-
-**A second staking-liveness halt — surfaced running the sim on `#14 + #16`.**
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@vitaly-andr](https://github.com/vitaly-andr)</span>
+    <span class="issues-meta-item">commented 2026-06-06 08:01 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    **A second staking-liveness halt — surfaced running the sim on `#14 + #16`.**
 
 Building the suite on a fork with both fork PRs applied (`#14` GON-191 + `#16` `markValidatorForDeletion`), the multi-seed sweep still halted: **27 / 37 seeds** with `block finalization failed: validator does not exist`.
 
@@ -402,3 +427,9 @@ Full root-cause + diff in the cosmos-sdk#14 thread: https://github.com/gonka-ai/
 
 Net: staking liveness under the PoC delete-immediately model needs both `#16` (the `markValidatorForDeletion` paths) and this `ValidatorByConsAddr` contract fix, which is robust against any deletion path including GON-191.
 
+  </div>
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #982](https://github.com/gonka-ai/gonka/issues/982) every 6 hours.

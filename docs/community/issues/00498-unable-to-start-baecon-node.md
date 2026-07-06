@@ -2,20 +2,26 @@
 title: "#498 — Unable to start baecon node"
 source: https://github.com/gonka-ai/gonka/issues/498
 issue_number: 498
-synced_at: 2026-07-06T09:53:09Z
+synced_at: 2026-07-06T15:06:39Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #498](https://github.com/gonka-ai/gonka/issues/498) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+    Unable to start baecon node
+    <span class="issues-number">#498</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Closed</span>
+    <span class="issues-meta-item">[@Knoxpix](https://github.com/Knoxpix) opened 2025-12-19 08:41 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-01-22 00:12 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🔴 Unable to start baecon node
-
-**Author:** [@Knoxpix](https://github.com/Knoxpix) · **State:** Closed · **Created:** 2025-12-19 08:41 UTC · **Updated:** 2026-01-22 00:12 UTC
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 From this raw log. I need assist how to fix this issue. Or can i change checkpoint origin state and block to other?
 
 `bridge  | Stopping Prysm log formatter (PID: 82343)
@@ -63,15 +69,24 @@ bridge  | Restarting processes due to crash...
 bridge  | Restarting both processes...
 bridge  | Starting Geth...
 bridge  | tail: /var/log/geth/geth.log: file truncated`
+</div>
 
 ---
 
 ## 💬 Comments (1)
 
-### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
-
-*2026-01-22 00:12 UTC*
-
-Hi @Knoxpix! Thank you for reaching out.
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span class="issues-meta-item">commented 2026-01-22 00:12 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Hi @Knoxpix! Thank you for reaching out.
 Please note that technical support is not provided here.
 For assistance, we kindly recommend asking for help in Gonka [Discord community](https://discord.com/invite/RADwCT2U6R), where community members may be able to support you.
+  </div>
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #498](https://github.com/gonka-ai/gonka/issues/498) every 6 hours.

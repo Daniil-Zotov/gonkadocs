@@ -2,24 +2,26 @@
 title: "#784 — [P2] Possible underfunded issues"
 source: https://github.com/gonka-ai/gonka/issues/784
 issue_number: 784
-synced_at: 2026-07-06T09:52:20Z
+synced_at: 2026-07-06T15:05:47Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #784](https://github.com/gonka-ai/gonka/issues/784) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+    [P2] Possible underfunded issues
+    <span class="issues-number">#784</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Closed</span>
+    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-20 23:24 UTC</span>
+    <span class="issues-meta-item">4 comments</span>
+    <span class="issues-meta-item">Updated 2026-04-10 04:50 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span></div>
+</div>
 
-# 🔴 [P2] Possible underfunded issues
-
-**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2026-02-20 23:24 UTC · **Updated:** 2026-04-10 04:50 UTC
-
-**Labels:** `Priority: Low`
-
-**Веха:** v0.2.12
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 # Problem
 Much of the Gonka system depends on funds being moved in and out of "escrow", which is stored in the types.ModuleName ("inference") account (the "module account"). Payments for inferences are moved here as well as money for rewards. There are also (possibly) movement from or to other module accounts (such as collateral, governance and streamvesting).
 
@@ -48,22 +50,28 @@ This is also open ended, but some mechanism should clearly make it so no new beh
 3. AI guidelines - explicit, reliable AI guidelines that can be added to the ai-review tool `gonka-ai/ai-review`
 
 Any other method, as long as it serves the purpose, would work.
+</div>
 
 ---
 
 ## 💬 Comments (4)
 
-### Комментарий 1 — [@0xMayoor](https://github.com/0xMayoor)
-
-*2026-02-21 08:10 UTC*
-
-Working on it!
-
-### Комментарий 2 — [@0xMayoor](https://github.com/0xMayoor)
-
-*2026-02-21 14:20 UTC*
-
-## Task 1 — analysis (updated with IDs)
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@0xMayoor](https://github.com/0xMayoor)</span>
+    <span class="issues-meta-item">commented 2026-02-21 08:10 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Working on it!
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@0xMayoor](https://github.com/0xMayoor)</span>
+    <span class="issues-meta-item">commented 2026-02-21 14:20 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    ## Task 1 — analysis (updated with IDs)
 
 _Same findings as before, now with IDs so the Task 2 PRs can reference them._
 
@@ -109,12 +117,15 @@ Found ~25 distinct payout/refund paths. 12 handle it fine (error returned, state
 
 Direct payments, vested payments, burns, refund wrapper, governance transfers, invalidation refunds, bridge release/rollback, slash/burn, minting — all return errors correctly.
 
-
-### Комментарий 3 — [@0xMayoor](https://github.com/0xMayoor)
-
-*2026-02-22 18:38 UTC*
-
-## Task 2 — fixes
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@0xMayoor](https://github.com/0xMayoor)</span>
+    <span class="issues-meta-item">commented 2026-02-22 18:38 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    ## Task 2 — fixes
 
 Two PRs.
 
@@ -130,12 +141,15 @@ Three findings still open — they all need a design decision before fix:
 - **[F-11]** collateral unbonding aborts on first failure. Should the loop keep going and leave the failed entry for next epoch, or should the whole batch fail?
 - **[F-13]** `addTimeout` is void. If the timeout write fails, inference sits in STARTED forever. Should StartInference roll back the whole inference, or continue without expiry tracking?
 
-
-### Комментарий 4 — [@0xMayoor](https://github.com/0xMayoor)
-
-*2026-02-23 14:50 UTC*
-
-## Task 3 — standardized handling for underfunded events
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@0xMayoor](https://github.com/0xMayoor)</span>
+    <span class="issues-meta-item">commented 2026-02-23 14:50 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    ## Task 3 — standardized handling for underfunded events
 
 Principles based off Task 1 analysis and Task 2 fixes. Every fund-movement path should conform to these. Exceptions listed at the bottom.
 
@@ -228,3 +242,9 @@ Needs teaam input.
 
 TASK 4
 
+  </div>
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #784](https://github.com/gonka-ai/gonka/issues/784) every 6 hours.

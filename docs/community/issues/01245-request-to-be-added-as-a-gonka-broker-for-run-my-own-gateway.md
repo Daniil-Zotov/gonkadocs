@@ -2,20 +2,26 @@
 title: "#1245 — Request to be added as a Gonka broker (for run my own gateway)"
 source: https://github.com/gonka-ai/gonka/issues/1245
 issue_number: 1245
-synced_at: 2026-07-06T09:51:50Z
+synced_at: 2026-07-06T15:05:09Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #1245](https://github.com/gonka-ai/gonka/issues/1245) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+    Request to be added as a Gonka broker (for run my own gateway)
+    <span class="issues-number">#1245</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Closed</span>
+    <span class="issues-meta-item">[@Korolev-Oleg](https://github.com/Korolev-Oleg) opened 2026-05-25 13:27 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-06-23 23:17 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🔴 Request to be added as a Gonka broker (for run my own gateway)
-
-**Author:** [@Korolev-Oleg](https://github.com/Korolev-Oleg) · **State:** Closed · **Created:** 2026-05-25 13:27 UTC · **Updated:** 2026-06-23 23:17 UTC
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 **Operator name and contact (email or Discord handle).**
 1kor.oleg@gmail.com 
 @unixverse_cli
@@ -34,16 +40,19 @@ https://node4.gonka.ai
 **A brief description of your billing model (USD / crypto / credits) and target audience.**
 experimental, develop an application 
 but in future maybe in $T / credits
+</div>
 
 ---
 
 ## 💬 Comments (1)
 
-### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
-
-*2026-06-23 23:17 UTC*
-
-Hi @Korolev-Oleg! Before anything can move on the self-hosted gateway side, the address field in the request needs fixing: **Devshard creator address** needs to be a `gonka1…` account address that you control (the one your gateway will sign escrow transactions from).  
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span class="issues-meta-item">commented 2026-06-23 23:17 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Hi @Korolev-Oleg! Before anything can move on the self-hosted gateway side, the address field in the request needs fixing: **Devshard creator address** needs to be a `gonka1…` account address that you control (the one your gateway will sign escrow transactions from).  
 
 On the path itself: running your own devshard gateway means becoming an on-chain escrow operator, which requires your `gonka1…` creator address on the governance-controlled allowlist (`devshard_escrow_params.allowed_creator_addresses`). That path is open, but inclusion is an on-chain governance decision — no single operator or org adds an address unilaterally — so it goes through a governance request.
 
@@ -52,3 +61,9 @@ If the goal right now is to build and test against Gonka rather than to operate 
 OpenBroker is **independent third party**, not part of the core protocol  
 
 Links: https://openbroker.gonka.gg · https://openbroker.gonka.gg/stats · https://gonkalabs.com
+  </div>
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #1245](https://github.com/gonka-ai/gonka/issues/1245) every 6 hours.

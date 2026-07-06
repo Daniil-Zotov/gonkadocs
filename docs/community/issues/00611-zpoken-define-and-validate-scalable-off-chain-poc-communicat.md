@@ -2,20 +2,26 @@
 title: "#611 — [zpoken] Define and validate scalable off-chain PoC communication beyond Merkle-based commits"
 source: https://github.com/gonka-ai/gonka/issues/611
 issue_number: 611
-synced_at: 2026-07-06T09:52:15Z
+synced_at: 2026-07-06T15:05:41Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #611](https://github.com/gonka-ai/gonka/issues/611) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+    [zpoken] Define and validate scalable off-chain PoC communication beyond Merkle-based commits
+    <span class="issues-number">#611</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Open</span>
+    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-20 21:32 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-04-23 01:38 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🟢 [zpoken] Define and validate scalable off-chain PoC communication beyond Merkle-based commits
-
-**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Open · **Created:** 2026-01-20 21:32 UTC · **Updated:** 2026-04-23 01:38 UTC
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 **Problem**
 The Merkle tree–based off-chain PoC commit approach is already being implemented as an urgent, short-term solution. 
 
@@ -29,16 +35,19 @@ Because of this, a second approach https://zpoken.notion.site/Andrii-2ea9506ab14
 **Goal**
 Formally define, evaluate, and validate the Mesh / Turbine-based off-chain PoC communication approach as the scalable solution, given that Merkle-based commits are already accepted as a non-scalable but necessary interim step.
 
+</div>
 
 ---
 
 ## 💬 Comments (1)
 
-### Комментарий 1 — [@akup](https://github.com/akup)
-
-*2026-01-23 11:21 UTC*
-
-Why gossip is just overlooked?
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@akup](https://github.com/akup)</span>
+    <span class="issues-meta-item">commented 2026-01-23 11:21 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Why gossip is just overlooked?
 
 While it will have more latency (this 100ms are neglectable compared to block finalization time), it consumes much less resources and bandwidth.
 In article, in comparison it is stated that gossip needs 12 connections, while turbine tree 32 connections.
@@ -47,3 +56,9 @@ This multiple connections even with Solomon-reed (additional encoding/decoding r
 Moreover gossip is more adaptive and selfheeling and always will find the route.
 
 I think this points should be taken into account on protocol selection
+  </div>
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #611](https://github.com/gonka-ai/gonka/issues/611) every 6 hours.

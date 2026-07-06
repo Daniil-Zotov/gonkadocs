@@ -1,25 +1,27 @@
 ---
-title: "#402 — [BUG]: API container doesn't start due to \"nats: insufficient resources\""
+title: "#402 — [BUG]: API container doesn't start due to "nats: insufficient resources""
 source: https://github.com/gonka-ai/gonka/issues/402
 issue_number: 402
-synced_at: 2026-07-06T09:53:25Z
+synced_at: 2026-07-06T15:06:55Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #402](https://github.com/gonka-ai/gonka/issues/402) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+    [BUG]: API container doesn't start due to "nats: insufficient resources"
+    <span class="issues-number">#402</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Closed</span>
+    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2025-10-22 18:36 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-01-15 22:24 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
+</div>
 
-# 🔴 [BUG]: API container doesn't start due to "nats: insufficient resources"
-
-**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2025-10-22 18:36 UTC · **Updated:** 2026-01-15 22:24 UTC
-
-**Labels:** `bug`
-
-**Веха:** v0.2.6
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 API container doesn't start with:
 ```
 ...
@@ -110,14 +112,23 @@ it might be related to the fact that the node was offline some time ago. Those c
 This node just claimed reward for epoch 59 btw. That means no problem with sending transactions now
 
 that part is actually also modified in new PR
+</div>
 
 ---
 
 ## 💬 Comments (1)
 
-### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
-
-*2025-12-02 20:28 UTC*
-
-This is related to the [Cleaning nats issue](https://github.com/gonka-ai/gonka/issues/429) 
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span class="issues-meta-item">commented 2025-12-02 20:28 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    This is related to the [Cleaning nats issue](https://github.com/gonka-ai/gonka/issues/429) 
 NATS didn't delete any items from the queue, so the queues were constantly growing. Setting a limit to NATS messages by age must resolve this problem, too. @0xBECEDA @patimen @gmorgachev 
+  </div>
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #402](https://github.com/gonka-ai/gonka/issues/402) every 6 hours.

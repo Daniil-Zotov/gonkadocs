@@ -2,20 +2,26 @@
 title: "#1205 — chain-halt: `markValidatorForDeletion` jailed branch races CometBFT validator-update lag → slashing fails with ErrNoValidatorFound"
 source: https://github.com/gonka-ai/gonka/issues/1205
 issue_number: 1205
-synced_at: 2026-07-06T09:52:02Z
+synced_at: 2026-07-06T15:05:28Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #1205](https://github.com/gonka-ai/gonka/issues/1205) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+    chain-halt: `markValidatorForDeletion` jailed branch races CometBFT validator-update lag → slashing fails with ErrNoValidatorFound
+    <span class="issues-number">#1205</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Open</span>
+    <span class="issues-meta-item">[@vitaly-andr](https://github.com/vitaly-andr) opened 2026-05-20 02:36 UTC</span>
+    <span class="issues-meta-item">0 comments</span>
+    <span class="issues-meta-item">Updated 2026-05-20 02:36 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🟢 chain-halt: `markValidatorForDeletion` jailed branch races CometBFT validator-update lag → slashing fails with ErrNoValidatorFound
-
-**Author:** [@vitaly-andr](https://github.com/vitaly-andr) · **State:** Open · **Created:** 2026-05-20 02:36 UTC · **Updated:** 2026-05-20 02:36 UTC
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 ## Summary
 
 In the [`gonka-ai/cosmos-sdk`](https://github.com/gonka-ai/cosmos-sdk) fork, the jailed branch of `markValidatorForDeletion` (`x/staking/keeper/compute.go:559-563`) immediately deletes the validator record **and** the `ValidatorByConsAddr` index via `deleteValidatorInternal` (`x/staking/keeper/val_state_change.go:78-126`). When `SetComputeValidators` runs with a set that excludes a still-jailed validator, this branch fires. CometBFT, however, continues to include the deleted validator in `LastCommit` for `ValidatorUpdateDelay` blocks (≈ 2 effective blocks: `header.Height + 1 + 1` per cometbft `state/execution.go`'s "next next height" rule). On the next block, `slashing.BeginBlocker` (`x/slashing/abci.go:24-29`) walks `LastCommit` votes and calls `HandleValidatorSignature → GetValidatorByConsAddr` (`x/slashing/keeper/infractions.go:26-30`). The lookup returns a bare `stakingtypes.ErrNoValidatorFound` → `BeginBlocker` returns an error → consensus halts.
@@ -123,3 +129,8 @@ The non-jailed branch (`compute.go:573`) zeros `DelegatorShares` as well — the
 
 Found while implementing simulation tests for [#982](https://github.com/gonka-ai/gonka/issues/982).
 
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #1205](https://github.com/gonka-ai/gonka/issues/1205) every 6 hours.

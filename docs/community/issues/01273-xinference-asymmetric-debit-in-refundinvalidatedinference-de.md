@@ -2,20 +2,26 @@
 title: "#1273 — x/inference: asymmetric debit in refundInvalidatedInference — design clarification"
 source: https://github.com/gonka-ai/gonka/issues/1273
 issue_number: 1273
-synced_at: 2026-07-06T09:51:57Z
+synced_at: 2026-07-06T15:05:17Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #1273](https://github.com/gonka-ai/gonka/issues/1273) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+    x/inference: asymmetric debit in refundInvalidatedInference — design clarification
+    <span class="issues-number">#1273</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Open</span>
+    <span class="issues-meta-item">[@vitaly-andr](https://github.com/vitaly-andr) opened 2026-05-28 19:14 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-05-29 05:26 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🟢 x/inference: asymmetric debit in refundInvalidatedInference — design clarification
-
-**Author:** [@vitaly-andr](https://github.com/vitaly-andr) · **State:** Open · **Created:** 2026-05-28 19:14 UTC · **Updated:** 2026-05-29 05:26 UTC
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 ## Question
 
 `refundInvalidatedInference` ([`x/inference/keeper/msg_server_invalidate_inference.go:64-79`](https://github.com/gonka-ai/gonka/blob/main/inference-chain/x/inference/keeper/msg_server_invalidate_inference.go#L64-L79)) issues a full-`ActualCost` escrow refund to `RequestedBy` (the client) while debiting the **same** full `ActualCost` from `executor.CoinBalance` **only** (`:74`).
@@ -88,16 +94,19 @@ Maintainer clarification before any code change:
 - Grace/collateral: `x/inference/types/params.go:290`; `x/inference/keeper/collateral.go`
 - Sibling manifestations of the same invalidate/revalidate cluster: #1265, #1269
 
+</div>
 
 ---
 
 ## 💬 Comments (1)
 
-### Комментарий 1 — [@vitaly-andr](https://github.com/vitaly-andr)
-
-*2026-05-29 05:26 UTC*
-
-**Update — the asymmetry is pervasive, not a grace-period edge case.**
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@vitaly-andr](https://github.com/vitaly-andr)</span>
+    <span class="issues-meta-item">commented 2026-05-29 05:26 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    **Update — the asymmetry is pervasive, not a grace-period edge case.**
 
 While building the simulation/fuzz harness for #982 (Phase 3 — improving simulation quality with custom invariants + multi-seed runs), this asymmetry surfaces on the large majority of seeds, not just the constructed reproducer above.
 
@@ -120,3 +129,9 @@ The executor is debited the **full** `ActualCost` (going into negative/debt), wh
 
 (Surfaced by the #982 simulation work; the invariant and multi-seed harness are part of that effort.)
 
+  </div>
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #1273](https://github.com/gonka-ai/gonka/issues/1273) every 6 hours.

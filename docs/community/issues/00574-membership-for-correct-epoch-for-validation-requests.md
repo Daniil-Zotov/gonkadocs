@@ -2,30 +2,43 @@
 title: "#574 — Membership for correct epoch for Validation requests"
 source: https://github.com/gonka-ai/gonka/issues/574
 issue_number: 574
-synced_at: 2026-07-06T09:53:08Z
+synced_at: 2026-07-06T15:06:38Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #574](https://github.com/gonka-ai/gonka/issues/574) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+    Membership for correct epoch for Validation requests
+    <span class="issues-number">#574</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Closed</span>
+    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15 21:22 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-01-22 22:38 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🔴 Membership for correct epoch for Validation requests
-
-**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2026-01-15 21:22 UTC · **Updated:** 2026-01-22 22:38 UTC
-
-**Веха:** v0.2.8
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 *(empty)*
+</div>
 
 ---
 
 ## 💬 Comments (1)
 
-### Комментарий 1 — [@patimen](https://github.com/patimen)
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@patimen](https://github.com/patimen)</span>
+    <span class="issues-meta-item">commented 2026-01-22 22:38 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Merged and tested
+  </div>
+</div>
 
-*2026-01-22 22:38 UTC*
+---
 
-Merged and tested
+> 🔄 **Auto-synced** from [Issue #574](https://github.com/gonka-ai/gonka/issues/574) every 6 hours.

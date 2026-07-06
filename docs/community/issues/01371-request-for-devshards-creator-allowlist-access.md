@@ -2,7 +2,7 @@
 title: "#1371 — Request for DevShards creator allowlist access"
 source: https://github.com/gonka-ai/gonka/issues/1371
 issue_number: 1371
-synced_at: 2026-07-06T10:26:39Z
+synced_at: 2026-07-06T15:04:58Z
 template: issues-main.html
 ---
 
@@ -58,4 +58,4 @@ If what you need is simply an OpenAI-compatible endpoint for AI-assisted coding 
 
 ---
 
-> 🔄 **Auto-synced:** from [Issue #1371](https://github.com/gonka-ai/gonka/issues/1371) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #1371](https://github.com/gonka-ai/gonka/issues/1371) every 6 hours.

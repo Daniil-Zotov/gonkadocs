@@ -2,22 +2,26 @@
 title: "#1026 — VLM inference and validation in Gonka"
 source: https://github.com/gonka-ai/gonka/issues/1026
 issue_number: 1026
-synced_at: 2026-07-06T09:52:13Z
+synced_at: 2026-07-06T15:05:40Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #1026](https://github.com/gonka-ai/gonka/issues/1026) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+    VLM inference and validation in Gonka
+    <span class="issues-number">#1026</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Open</span>
+    <span class="issues-meta-item">[@fedor-konovalenko](https://github.com/fedor-konovalenko) opened 2026-04-07 12:47 UTC</span>
+    <span class="issues-meta-item">3 comments</span>
+    <span class="issues-meta-item">Updated 2026-04-27 12:36 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span></div>
+</div>
 
-# 🟢 VLM inference and validation in Gonka
-
-**Author:** [@fedor-konovalenko](https://github.com/fedor-konovalenko) · **State:** Open · **Created:** 2026-04-07 12:47 UTC · **Updated:** 2026-04-27 12:36 UTC
-
-**Labels:** `enhancement`
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 # Title
 VLM inference and validation in Gonka
 ## Summary
@@ -47,35 +51,44 @@ validation are available [here](https://github.com/machine-intelligence-laborato
 For these models F1-score for fraud-detection task is 100%.
 
 Results for large "models" will be added a bit later.
+</div>
 
 ---
 
 ## 💬 Comments (3)
 
-### Комментарий 1 — [@fedor-konovalenko](https://github.com/fedor-konovalenko)
-
-*2026-04-09 17:32 UTC*
-
-Here are the results for large model - [/Qwen/Qwen3-VL-235B-A22B-Instruct](https://huggingface.co/Qwen/Qwen3-VL-235B-A22B-Instruct)
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@fedor-konovalenko](https://github.com/fedor-konovalenko)</span>
+    <span class="issues-meta-item">commented 2026-04-09 17:32 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Here are the results for large model - [/Qwen/Qwen3-VL-235B-A22B-Instruct](https://huggingface.co/Qwen/Qwen3-VL-235B-A22B-Instruct)
 
 [link](https://github.com/machine-intelligence-laboratory/gonka/blob/49bc8a97d354459386608ff91da2b15dba77f63a/mlnode/packages/benchmarks/notebooks/qwen3-VL-235B_thresholds.ipynb)
-
-### Комментарий 2 — [@fedor-konovalenko](https://github.com/fedor-konovalenko)
-
-*2026-04-27 11:20 UTC*
-
-And here are the results with the [latest version of Gonka-VLM](https://github.com/gonka-ai/vllm/tree/tg/scratchpad_for_mode)
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@fedor-konovalenko](https://github.com/fedor-konovalenko)</span>
+    <span class="issues-meta-item">commented 2026-04-27 11:20 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    And here are the results with the [latest version of Gonka-VLM](https://github.com/gonka-ai/vllm/tree/tg/scratchpad_for_mode)
 
 [notebook](https://github.com/machine-intelligence-laboratory/gonka/blob/2a284094f107cddba5f53749dc03c55f5abf51ed/mlnode/packages/benchmarks/notebooks/qwen3-VL-235B_thresholds-new.ipynb)
 [results](https://github.com/machine-intelligence-laboratory/gonka/blob/2a284094f107cddba5f53749dc03c55f5abf51ed/proposals/visual_models/README-new.md)
 
 The fraud detection accuracy is about 99%
-
-### Комментарий 3 — [@fedor-konovalenko](https://github.com/fedor-konovalenko)
-
-*2026-04-27 12:36 UTC*
-
-# Models Proposal
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@fedor-konovalenko](https://github.com/fedor-konovalenko)</span>
+    <span class="issues-meta-item">commented 2026-04-27 12:36 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    # Models Proposal
 
 This is a proposal to add the [Qwen/Qwen3-VL-235B-A22B-Instruct-FP8](https://huggingface.co/Qwen/Qwen3-VL-235B-A22B-Instruct-FP8) multimodal model to the Gonka inference network. 
 
@@ -135,3 +148,9 @@ python vlm_validation.py \
   --images-dir /root/flickr8k_images/test/
 ```
 
+  </div>
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #1026](https://github.com/gonka-ai/gonka/issues/1026) every 6 hours.

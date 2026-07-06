@@ -2,47 +2,71 @@
 title: "#619 — Inference invalidation by pseudo random sub-group of participant (to decrease amount of `MsgValidation`)"
 source: https://github.com/gonka-ai/gonka/issues/619
 issue_number: 619
-synced_at: 2026-07-06T09:52:32Z
+synced_at: 2026-07-06T15:06:00Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #619](https://github.com/gonka-ai/gonka/issues/619) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+    Inference invalidation by pseudo random sub-group of participant (to decrease amount of `MsgValidation`)
+    <span class="issues-number">#619</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Open</span>
+    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-23 00:24 UTC</span>
+    <span class="issues-meta-item">4 comments</span>
+    <span class="issues-meta-item">Updated 2026-03-23 05:53 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🟢 Inference invalidation by pseudo random sub-group of participant (to decrease amount of `MsgValidation`)
-
-**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Open · **Created:** 2026-01-23 00:24 UTC · **Updated:** 2026-03-23 05:53 UTC
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 *(empty)*
+</div>
 
 ---
 
 ## 💬 Comments (4)
 
-### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
-
-*2026-01-24 00:15 UTC*
-
-@akup is ready to take ownership of this issue. please try to assign issue to yourself 
-
-### Комментарий 2 — [@akup](https://github.com/akup)
-
-*2026-01-28 03:16 UTC*
-
-@tcharchian seams I need to leave a comment first
-
-### Комментарий 3 — [@tcharchian](https://github.com/tcharchian)
-
-*2026-03-22 23:14 UTC*
-
-Hey @akup @gmorgachev @0xgonka, do you think it makes sense to keep this issue open for now, or would you recommend closing it already?
-
-### Комментарий 4 — [@akup](https://github.com/akup)
-
-*2026-03-23 05:53 UTC*
-
-@tcharchian I have a ready solution on this.
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span class="issues-meta-item">commented 2026-01-24 00:15 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    @akup is ready to take ownership of this issue. please try to assign issue to yourself 
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@akup](https://github.com/akup)</span>
+    <span class="issues-meta-item">commented 2026-01-28 03:16 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    @tcharchian seams I need to leave a comment first
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span class="issues-meta-item">commented 2026-03-22 23:14 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Hey @akup @gmorgachev @0xgonka, do you think it makes sense to keep this issue open for now, or would you recommend closing it already?
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@akup](https://github.com/akup)</span>
+    <span class="issues-meta-item">commented 2026-03-23 05:53 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    @tcharchian I have a ready solution on this.
 But I need to make few related PRs first. I will do it in next 24h
+  </div>
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #619](https://github.com/gonka-ai/gonka/issues/619) every 6 hours.

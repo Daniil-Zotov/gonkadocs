@@ -2,24 +2,26 @@
 title: "#928 — [P1] Open Questions: Block Gas Limits, Fees, Cost per Participant, and System TX Prioritization"
 source: https://github.com/gonka-ai/gonka/issues/928
 issue_number: 928
-synced_at: 2026-07-06T09:52:05Z
+synced_at: 2026-07-06T15:05:30Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #928](https://github.com/gonka-ai/gonka/issues/928) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+    [P1] Open Questions: Block Gas Limits, Fees, Cost per Participant, and System TX Prioritization
+    <span class="issues-number">#928</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Open</span>
+    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-20 23:46 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-05-07 22:46 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #12a6e8; color: #24292f; border-color: #12a6e8;">Priority: Medium</span></div>
+</div>
 
-# 🟢 [P1] Open Questions: Block Gas Limits, Fees, Cost per Participant, and System TX Prioritization
-
-**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Open · **Created:** 2026-03-20 23:46 UTC · **Updated:** 2026-05-07 22:46 UTC
-
-**Labels:** `Priority: Medium`
-
-**Веха:** v0.2.14
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 ## Summary
 
 - Introduces a governance-controlled minimum gas price (`FeeParams.min_gas_price`) enforced at consensus level via a custom `TxFeeChecker`, replacing the current `nil` fee checker that allows zero-fee transactions
@@ -31,16 +33,19 @@ template: issues-main.html
 - **Consensus-level enforcement** via `TxFeeChecker` (runs in both `CheckTx` and `DeliverTx`), not per-validator `app.toml` which is `CheckTx`-only and can be bypassed by block proposers
 - **Recursive `MsgExec` unpacking** to prevent wrapping fee-required messages inside authz executions
 - **Governance-adjustable** parameter — no chain upgrade needed to tune the gas price
+</div>
 
 ---
 
 ## 💬 Comments (1)
 
-### Комментарий 1 — [@unameisfine](https://github.com/unameisfine)
-
-*2026-05-07 22:46 UTC*
-
-## Implementation-level review from the current codebase
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@unameisfine](https://github.com/unameisfine)</span>
+    <span class="issues-meta-item">commented 2026-05-07 22:46 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    ## Implementation-level review from the current codebase
 
 The two-track approach — consensus-level `TxFeeChecker` + `NetworkDutyFeeBypassDecorator` modeled on the existing `LiquidityPoolFeeBypassDecorator` — is the right shape. A few concrete gaps from the current code worth resolving before implementation:
 
@@ -115,3 +120,9 @@ One gap: for spam to **cost real money**, the attacker has to be paying actual G
 
 Outline LGTM, but the network-duty msg enumeration (#1) and the authz grant migration (#2) are blockers for safe deployment. Worth landing a follow-on PR with the typed registry of network-duty msg types before the upgrade.
 
+  </div>
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #928](https://github.com/gonka-ai/gonka/issues/928) every 6 hours.

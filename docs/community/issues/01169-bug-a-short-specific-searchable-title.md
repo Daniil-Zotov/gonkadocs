@@ -2,22 +2,26 @@
 title: "#1169 — [BUG] A short, specific, searchable title."
 source: https://github.com/gonka-ai/gonka/issues/1169
 issue_number: 1169
-synced_at: 2026-07-06T09:52:04Z
+synced_at: 2026-07-06T15:05:30Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #1169](https://github.com/gonka-ai/gonka/issues/1169) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+    [BUG] A short, specific, searchable title.
+    <span class="issues-number">#1169</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Open</span>
+    <span class="issues-meta-item">[@akamitch](https://github.com/akamitch) opened 2026-05-15 13:51 UTC</span>
+    <span class="issues-meta-item">0 comments</span>
+    <span class="issues-meta-item">Updated 2026-05-15 13:54 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
+</div>
 
-# 🟢 [BUG] A short, specific, searchable title.
-
-**Author:** [@akamitch](https://github.com/akamitch) · **State:** Open · **Created:** 2026-05-15 13:51 UTC · **Updated:** 2026-05-15 13:54 UTC
-
-**Labels:** `bug`
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 # Governance dashboard: Differend numbers in panel and chart 
 
 ## Summary
@@ -30,3 +34,8 @@ Dashboard customers
 ## Detailed description
 
 <img width="1890" height="953" alt="Image" src="https://github.com/user-attachments/assets/810ca876-97e1-4bde-bf57-e8a5e4f3d960" />
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #1169](https://github.com/gonka-ai/gonka/issues/1169) every 6 hours.

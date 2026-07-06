@@ -2,20 +2,26 @@
 title: "#700 — Alphabetical Bias in PoC Slot Allocation"
 source: https://github.com/gonka-ai/gonka/issues/700
 issue_number: 700
-synced_at: 2026-07-06T09:52:46Z
+synced_at: 2026-07-06T15:06:14Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #700](https://github.com/gonka-ai/gonka/issues/700) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+    Alphabetical Bias in PoC Slot Allocation
+    <span class="issues-number">#700</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Open</span>
+    <span class="issues-meta-item">[@huxuxuya](https://github.com/huxuxuya) opened 2026-02-04 12:02 UTC</span>
+    <span class="issues-meta-item">3 comments</span>
+    <span class="issues-meta-item">Updated 2026-03-03 23:44 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🟢 Alphabetical Bias in PoC Slot Allocation
-
-**Author:** [@huxuxuya](https://github.com/huxuxuya) · **State:** Open · **Created:** 2026-02-04 12:02 UTC · **Updated:** 2026-03-03 23:44 UTC
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 ### Description
 The current implementation of the ML node allocation logic in 
 x/inference/module/model_assignment.go
@@ -28,26 +34,41 @@ Economic Injustice: Participants are incentivized to mine vanity addresses rathe
 Starvation: Honest hardware providers with random addresses receive fewer opportunities despite having equal or higher eligibility.
 ### Proposed Solution
 Deterministic Shuffle: Implement a pseudo-random shuffle of the participant list using SHA256(EpochIndex + ModelID) as a seed. This ensures fair rotation across epochs and models, providing equal opportunity to all eligible participants regardless of their address prefix.
+</div>
 
 ---
 
 ## 💬 Comments (3)
 
-### Комментарий 1 — [@AlexeySamosadov](https://github.com/AlexeySamosadov)
-
-*2026-02-18 10:47 UTC*
-
-Fix submitted in PR #777 — adds a deterministic SHA256-seeded Fisher-Yates shuffle to `allocateMLNodePerPoCForModel`, following the same pattern already used in `sampleEligibleParticipantsWithHistory`. All 27 tests pass.
-
-### Комментарий 2 — [@huxuxuya](https://github.com/huxuxuya)
-
-*2026-03-02 12:26 UTC*
-
-Assign to me plz. Task already done.
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
+    <span class="issues-meta-item">commented 2026-02-18 10:47 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Fix submitted in PR #777 — adds a deterministic SHA256-seeded Fisher-Yates shuffle to `allocateMLNodePerPoCForModel`, following the same pattern already used in `sampleEligibleParticipantsWithHistory`. All 27 tests pass.
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@huxuxuya](https://github.com/huxuxuya)</span>
+    <span class="issues-meta-item">commented 2026-03-02 12:26 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Assign to me plz. Task already done.
 #701 
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span class="issues-meta-item">commented 2026-03-03 23:44 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    @akup, I believe you worked on PoC Slot attack. Do you want to review these issues and PRs? Thanks
+  </div>
+</div>
 
-### Комментарий 3 — [@tcharchian](https://github.com/tcharchian)
+---
 
-*2026-03-03 23:44 UTC*
-
-@akup, I believe you worked on PoC Slot attack. Do you want to review these issues and PRs? Thanks
+> 🔄 **Auto-synced** from [Issue #700](https://github.com/gonka-ai/gonka/issues/700) every 6 hours.

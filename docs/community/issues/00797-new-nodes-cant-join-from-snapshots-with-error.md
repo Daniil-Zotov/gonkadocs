@@ -2,22 +2,26 @@
 title: "#797 — New nodes can't join from snapshots with error"
 source: https://github.com/gonka-ai/gonka/issues/797
 issue_number: 797
-synced_at: 2026-07-06T09:52:48Z
+synced_at: 2026-07-06T15:06:17Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #797](https://github.com/gonka-ai/gonka/issues/797) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+    New nodes can't join from snapshots with error
+    <span class="issues-number">#797</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Closed</span>
+    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-24 19:35 UTC</span>
+    <span class="issues-meta-item">5 comments</span>
+    <span class="issues-meta-item">Updated 2026-02-25 17:50 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #008672; color: #ffffff; border-color: #008672;">help wanted</span> <span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span> <span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
+</div>
 
-# 🔴 New nodes can't join from snapshots with error
-
-**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2026-02-24 19:35 UTC · **Updated:** 2026-02-25 17:50 UTC
-
-**Labels:** `help wanted` `up-for-grabs` `Priority: High`
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 **This is an urgent, open issue, and many contributors are working on it in parallel.**
 
 There is a quite weird issue today - new nodes can't join from snapshots with error like that:
@@ -41,36 +45,48 @@ There is also a hypothesis that it is somehow connected to slashing, as it start
 it happens the same block the validator list usually updated.
 
 Also, collateral needs to be checked. 
+</div>
 
 ---
 
 ## 💬 Comments (5)
 
-### Комментарий 1 — [@hleb-albau](https://github.com/hleb-albau)
-
-*2026-02-24 19:53 UTC*
-
-As a workaround(before fix), it is possible to just compress data folder(except some filers) and distribute it as is archive. Quite popular in cosmos world. See https://snapshots.osmosis.zone/index.html as example
-
-### Комментарий 2 — [@tcharchian](https://github.com/tcharchian)
-
-*2026-02-24 20:11 UTC*
-
-@hleb-albau thanks, that makes sense and it’s a well-known approach in the Cosmos ecosystem. You are right, it’s more of an operational workaround than a real fix (it doesn’t address the underlying issue we’re trying to solve)
-
-### Комментарий 3 — [@blizko](https://github.com/blizko)
-
-*2026-02-24 21:35 UTC*
-
-Additional feedback:
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@hleb-albau](https://github.com/hleb-albau)</span>
+    <span class="issues-meta-item">commented 2026-02-24 19:53 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    As a workaround(before fix), it is possible to just compress data folder(except some filers) and distribute it as is archive. Quite popular in cosmos world. See https://snapshots.osmosis.zone/index.html as example
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span class="issues-meta-item">commented 2026-02-24 20:11 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    @hleb-albau thanks, that makes sense and it’s a well-known approach in the Cosmos ecosystem. You are right, it’s more of an operational workaround than a real fix (it doesn’t address the underlying issue we’re trying to solve)
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@blizko](https://github.com/blizko)</span>
+    <span class="issues-meta-item">commented 2026-02-24 21:35 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Additional feedback:
 The issue was observed before collateral slashing was activated. During epoch 179 have been observing same error.
 Known failed attempt time around Feb 21st 01:47 UTC
-
-### Комментарий 4 — [@x0152](https://github.com/x0152)
-
-*2026-02-24 23:49 UTC*
-
-The issue is in [cosmos/iavl v1.2.4](https://github.com/cosmos/iavl/tree/v1.2.4)
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@x0152](https://github.com/x0152)</span>
+    <span class="issues-meta-item">commented 2026-02-24 23:49 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    The issue is in [cosmos/iavl v1.2.4](https://github.com/cosmos/iavl/tree/v1.2.4)
 
 After snapshot restore, IAVL rebuilds a "fast node" index by iterating the tree. If the iterator hits an error mid-way, it silently stops - the error is never stored ([iterator.go:230-235](https://github.com/cosmos/iavl/blob/v1.2.4/iterator.go#L230-L235)). The fast index ends up incomplete, but IAVL marks it as ready
 
@@ -81,9 +97,18 @@ That's why slashing module gets `nil` -> `no validator signing info found` -> cr
 The exact error that triggers the iterator failure is still unknown - since IAVL swallows it, there's no way to see it without patching the code
 
 **Workaround (was found by @gmorgachev):** setting `iavl-disable-fastnode = true` on the same snapshot - works immediately. This skips the fast index and reads the tree directly
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span class="issues-meta-item">commented 2026-02-25 17:50 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    https://gonka.ai/FAQ/#how-do-i-fix-errno-validator-signing-info-found-when-starting-from-a-state-sync-snapshot
+  </div>
+</div>
 
-### Комментарий 5 — [@tcharchian](https://github.com/tcharchian)
+---
 
-*2026-02-25 17:50 UTC*
-
-https://gonka.ai/FAQ/#how-do-i-fix-errno-validator-signing-info-found-when-starting-from-a-state-sync-snapshot
+> 🔄 **Auto-synced** from [Issue #797](https://github.com/gonka-ai/gonka/issues/797) every 6 hours.

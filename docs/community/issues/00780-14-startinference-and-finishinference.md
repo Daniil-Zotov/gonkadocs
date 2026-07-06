@@ -2,24 +2,26 @@
 title: "#780 — [1/4] `StartInference` and `FinishInference`"
 source: https://github.com/gonka-ai/gonka/issues/780
 issue_number: 780
-synced_at: 2026-07-06T09:52:42Z
+synced_at: 2026-07-06T15:06:10Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #780](https://github.com/gonka-ai/gonka/issues/780) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+    [1/4] `StartInference` and `FinishInference`
+    <span class="issues-number">#780</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Closed</span>
+    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-20 22:20 UTC</span>
+    <span class="issues-meta-item">10 comments</span>
+    <span class="issues-meta-item">Updated 2026-03-11 20:05 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #008672; color: #ffffff; border-color: #008672;">help wanted</span> <span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span> <span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span> <span class="issues-label" style="background-color: #9214a6; color: #ffffff; border-color: #9214a6;">requires own mainnet node</span></div>
+</div>
 
-# 🔴 [1/4] `StartInference` and `FinishInference`
-
-**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2026-02-20 22:20 UTC · **Updated:** 2026-03-11 20:05 UTC
-
-**Labels:** `help wanted` `up-for-grabs` `Priority: High` `requires own mainnet node`
-
-**Веха:** v0.2.11
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 # Background
 
 `MsgStartInference` and `MsgFinishInference` are too slow in production. Blocks should be processed by nodes within 1-2 seconds, so that block time stays below 6 seconds. This means that to process 1000 inferences in a block, we need to record 1000 `MsgStartInference`, 1000 `MsgFinishInference`, and 100-200 `MsgValidation` transactions. This means that these transactions should be processed faster than 1ms. Even though they are quite fast in tests, in production with a large state they require 10-20ms, and on some nodes 50ms or more.
@@ -194,22 +196,28 @@ These tasks can be completed independently of each other by different contributo
 However, this specific task requires maintaining and operating a node on mainnet in order to test and validate the result.
 
 All five issues [0/4], [1/4], [2/4], [3/4], [4/4] in this series must be completed as part of the v0.2.11 upgrade, which is scheduled for the week of February 23. After the v0.2.11 upgrade, these tasks will no longer be relevant, because a different solution can/will be proposed.
+</div>
 
 ---
 
 ## 💬 Comments (10)
 
-### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
-
-*2026-02-20 22:41 UTC*
-
-If you’re ready to take this task on, please leave a comment here so other community members can see it’s already being worked on.
-
-### Комментарий 2 — [@hleb-albau](https://github.com/hleb-albau)
-
-*2026-02-24 10:30 UTC*
-
-I ran CPU profiling (30 min each) on a synced mainnet node under two configurations: `log_level=info` and `log_level=error`.
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span class="issues-meta-item">commented 2026-02-20 22:41 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    If you’re ready to take this task on, please leave a comment here so other community members can see it’s already being worked on.
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@hleb-albau](https://github.com/hleb-albau)</span>
+    <span class="issues-meta-item">commented 2026-02-24 10:30 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    I ran CPU profiling (30 min each) on a synced mainnet node under two configurations: `log_level=info` and `log_level=error`.
 
   **Results — logging overhead as % of total handler time (including all nested calls):**
 
@@ -230,43 +238,58 @@ btw
 
 About the big task itself, 
 i am not familiar with all stuff going on right now on chain, but in past a had experience, that you could use own storage, outside of IAVL tree, and commit to IAVL only small portion of that data.
-
-### Комментарий 3 — [@libermans](https://github.com/libermans)
-
-*2026-02-26 04:11 UTC*
-
-An update on 780. As we can see in traces most of the time spend on logging is due "json" decoding-encoding. Which can be turn off by log_format = "json" (by default it is set to log_format = "plain"). @hleb-albau can you please run the same test but with log_format = "json" config? 
-
-### Комментарий 4 — [@tcharchian](https://github.com/tcharchian)
-
-*2026-02-26 17:47 UTC*
-
-@hleb-albau can I kindly ask you to contact me tania.charchian@productscience.ai
-
-### Комментарий 5 — [@tcharchian](https://github.com/tcharchian)
-
-*2026-02-26 17:48 UTC*
-
-> An update on 780. As we can see in traces most of the time spend on logging is due "json" decoding-encoding. Which can be turn off by log_format = "json" (by default it is set to log_format = "plain"). [@hleb-albau](https://github.com/hleb-albau) can you please run the same test but with log_format = "json" config?
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@libermans](https://github.com/libermans)</span>
+    <span class="issues-meta-item">commented 2026-02-26 04:11 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    An update on 780. As we can see in traces most of the time spend on logging is due "json" decoding-encoding. Which can be turn off by log_format = "json" (by default it is set to log_format = "plain"). @hleb-albau can you please run the same test but with log_format = "json" config? 
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span class="issues-meta-item">commented 2026-02-26 17:47 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    @hleb-albau can I kindly ask you to contact me tania.charchian@productscience.ai
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span class="issues-meta-item">commented 2026-02-26 17:48 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    > An update on 780. As we can see in traces most of the time spend on logging is due "json" decoding-encoding. Which can be turn off by log_format = "json" (by default it is set to log_format = "plain"). [@hleb-albau](https://github.com/hleb-albau) can you please run the same test but with log_format = "json" config?
 
 @hleb-albau are you ready to run the same test but with log_format = "json" config?
 
-
-### Комментарий 6 — [@hleb-albau](https://github.com/hleb-albau)
-
-*2026-02-26 20:01 UTC*
-
-> > An update on 780. As we can see in traces most of the time spend on logging is due "json" decoding-encoding. Which can be turn off by log_format = "json" (by default it is set to log_format = "plain"). [@hleb-albau](https://github.com/hleb-albau) can you please run the same test but with log_format = "json" config?
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@hleb-albau](https://github.com/hleb-albau)</span>
+    <span class="issues-meta-item">commented 2026-02-26 20:01 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    > > An update on 780. As we can see in traces most of the time spend on logging is due "json" decoding-encoding. Which can be turn off by log_format = "json" (by default it is set to log_format = "plain"). [@hleb-albau](https://github.com/hleb-albau) can you please run the same test but with log_format = "json" config?
 > 
 > [@hleb-albau](https://github.com/hleb-albau) are you ready to run the same test but with log_format = "json" config?
 
 yes, will do it next 24h
-
-### Комментарий 7 — [@hleb-albau](https://github.com/hleb-albau)
-
-*2026-02-27 10:12 UTC*
-
-  ### Plain  (`prod-30min-logs-plain`)
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@hleb-albau](https://github.com/hleb-albau)</span>
+    <span class="issues-meta-item">commented 2026-02-27 10:12 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+      ### Plain  (`prod-30min-logs-plain`)
 
   | method | cum total | LogInfo | logTransaction | sum log. | % |
   |---|---|---|---|---|---|
@@ -301,18 +324,24 @@ Zerolog internally stores all data as a JSON string (to minimize allocations) �
                                                                                                                                                                                                                                                                                                                    
   What's definitely worth doing is revisiting what data gets logged. I'll open a PR a bit later to remove the heavy structs from log calls. 
 
-
-### Комментарий 8 — [@AlexeySamosadov](https://github.com/AlexeySamosadov)
-
-*2026-03-03 11:25 UTC*
-
-PR: https://github.com/gonka-ai/gonka/pull/847
-
-### Комментарий 9 — [@AlexeySamosadov](https://github.com/AlexeySamosadov)
-
-*2026-03-03 12:00 UTC*
-
-Summary of what was done in PR #847:
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
+    <span class="issues-meta-item">commented 2026-03-03 11:25 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    PR: https://github.com/gonka-ai/gonka/pull/847
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
+    <span class="issues-meta-item">commented 2026-03-03 12:00 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Summary of what was done in PR #847:
 
 Based on the profiling analysis by @hleb-albau (logging overhead ~11% of handler time at INFO level, heavy struct serialization in `processInferencePayments` accounting for 25-48% of its time), the following changes were implemented:
 
@@ -326,10 +355,19 @@ Based on the profiling analysis by @hleb-albau (logging overhead ~11% of handler
 - `dynamic_pricing.go` — 1 call + removed heavy `inference` struct from error log (replaced with lightweight fields)
 
 All ERROR/WARN logs preserved. Per-block pricing logs stay at INFO (run once per block, not per inference). Expected result: with `log_level=info` + `log_format=json`, logging overhead should drop from ~11% to well under 1%.
-
-### Комментарий 10 — [@gmorgachev](https://github.com/gmorgachev)
-
-*2026-03-11 20:05 UTC*
-
-The big part of inference flow optimization is merged in https://github.com/gonka-ai/gonka/pull/812
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@gmorgachev](https://github.com/gmorgachev)</span>
+    <span class="issues-meta-item">commented 2026-03-11 20:05 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    The big part of inference flow optimization is merged in https://github.com/gonka-ai/gonka/pull/812
 I'm closing all `[*/4] StartInference and FinishInference: optimiziation` tasks to finalize this work in milestone 0.2.11. I think it'd be better to re-open in case of additinal optimizations required
+  </div>
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #780](https://github.com/gonka-ai/gonka/issues/780) every 6 hours.

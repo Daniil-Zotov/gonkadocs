@@ -2,56 +2,79 @@
 title: "#560 — [P2] Finalizing the WebSocket (merge with `call_Back`, new vLLM will require python side implementation)"
 source: https://github.com/gonka-ai/gonka/issues/560
 issue_number: 560
-synced_at: 2026-07-06T09:51:47Z
+synced_at: 2026-07-06T15:05:06Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #560](https://github.com/gonka-ai/gonka/issues/560) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+    [P2] Finalizing the WebSocket (merge with `call_Back`, new vLLM will require python side implementation)
+    <span class="issues-number">#560</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Open</span>
+    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15 00:34 UTC</span>
+    <span class="issues-meta-item">5 comments</span>
+    <span class="issues-meta-item">Updated 2026-06-24 01:06 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span></div>
+</div>
 
-# 🟢 [P2] Finalizing the WebSocket (merge with `call_Back`, new vLLM will require python side implementation)
-
-**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Open · **Created:** 2026-01-15 00:34 UTC · **Updated:** 2026-06-24 01:06 UTC
-
-**Labels:** `Priority: Low`
-
-**Веха:** v0.2.15
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 *(empty)*
+</div>
 
 ---
 
 ## 💬 Comments (5)
 
-### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span class="issues-meta-item">commented 2026-01-24 00:13 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    @x0152 is taking ownership of this issue. Please try to assign this issue to yourself 
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span class="issues-meta-item">commented 2026-01-27 18:42 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    WIP https://github.com/x0152/gonka/tree/fix/ws-finalize @patimen @x0152
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@x0152](https://github.com/x0152)</span>
+    <span class="issues-meta-item">commented 2026-01-28 11:23 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    commenting to get assigned
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span class="issues-meta-item">commented 2026-03-21 01:33 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Hey @x0152 @akup, it would be great if the two of you could align on the next steps for this task and make the key decisions together. If you are able to move it forward independently, this task could be considered for inclusion in v0.2.12. But overall, this is more of a nice-to-have than a must-have.
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span class="issues-meta-item">commented 2026-05-21 22:53 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Hey @x0152, it would be great you could make a decision on the next steps for this task. @patimen John can help answer any questions if needed. If you are able to move it forward independently, this task could be considered for inclusion in v0.2.14. But overall, this is more of a nice-to-have than a must-have.
+  </div>
+</div>
 
-*2026-01-24 00:13 UTC*
+---
 
-@x0152 is taking ownership of this issue. Please try to assign this issue to yourself 
-
-### Комментарий 2 — [@tcharchian](https://github.com/tcharchian)
-
-*2026-01-27 18:42 UTC*
-
-WIP https://github.com/x0152/gonka/tree/fix/ws-finalize @patimen @x0152
-
-### Комментарий 3 — [@x0152](https://github.com/x0152)
-
-*2026-01-28 11:23 UTC*
-
-commenting to get assigned
-
-### Комментарий 4 — [@tcharchian](https://github.com/tcharchian)
-
-*2026-03-21 01:33 UTC*
-
-Hey @x0152 @akup, it would be great if the two of you could align on the next steps for this task and make the key decisions together. If you are able to move it forward independently, this task could be considered for inclusion in v0.2.12. But overall, this is more of a nice-to-have than a must-have.
-
-### Комментарий 5 — [@tcharchian](https://github.com/tcharchian)
-
-*2026-05-21 22:53 UTC*
-
-Hey @x0152, it would be great you could make a decision on the next steps for this task. @patimen John can help answer any questions if needed. If you are able to move it forward independently, this task could be considered for inclusion in v0.2.14. But overall, this is more of a nice-to-have than a must-have.
+> 🔄 **Auto-synced** from [Issue #560](https://github.com/gonka-ai/gonka/issues/560) every 6 hours.

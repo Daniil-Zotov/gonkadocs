@@ -2,44 +2,63 @@
 title: "#731 — Define changes in the API container for smooth migration"
 source: https://github.com/gonka-ai/gonka/issues/731
 issue_number: 731
-synced_at: 2026-07-06T09:52:44Z
+synced_at: 2026-07-06T15:06:12Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #731](https://github.com/gonka-ai/gonka/issues/731) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+    Define changes in the API container for smooth migration
+    <span class="issues-number">#731</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Closed</span>
+    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-11 01:28 UTC</span>
+    <span class="issues-meta-item">3 comments</span>
+    <span class="issues-meta-item">Updated 2026-03-11 19:54 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🔴 Define changes in the API container for smooth migration
-
-**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2026-02-11 01:28 UTC · **Updated:** 2026-03-11 19:54 UTC
-
-**Веха:** v0.2.11
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 *(empty)*
+</div>
 
 ---
 
 ## 💬 Comments (3)
 
-### Комментарий 1 — [@tamazgadaev](https://github.com/tamazgadaev)
-
-*2026-03-02 01:18 UTC*
-
-- Fix the 400/422 issue in API container
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@tamazgadaev](https://github.com/tamazgadaev)</span>
+    <span class="issues-meta-item">commented 2026-03-02 01:18 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    - Fix the 400/422 issue in API container
 - Adjust thresholds a little bit (onchain, not API)
 - Do one of the two: a) ignore -9999 logprobs in validation b) enforce top_p and top_k in requests (a) preferred)
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@tamazgadaev](https://github.com/tamazgadaev)</span>
+    <span class="issues-meta-item">commented 2026-03-03 03:06 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Actually, we don't strictly need any of these 3 for smooth migration. 1 is desirable, 2 nice to have (and we'll get the threshold values), 3 is not needed
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@gmorgachev](https://github.com/gmorgachev)</span>
+    <span class="issues-meta-item">commented 2026-03-11 19:54 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    i think we need to close this one. fix 400/422 is independent bug to fix
+  </div>
+</div>
 
-### Комментарий 2 — [@tamazgadaev](https://github.com/tamazgadaev)
+---
 
-*2026-03-03 03:06 UTC*
-
-Actually, we don't strictly need any of these 3 for smooth migration. 1 is desirable, 2 nice to have (and we'll get the threshold values), 3 is not needed
-
-### Комментарий 3 — [@gmorgachev](https://github.com/gmorgachev)
-
-*2026-03-11 19:54 UTC*
-
-i think we need to close this one. fix 400/422 is independent bug to fix
+> 🔄 **Auto-synced** from [Issue #731](https://github.com/gonka-ai/gonka/issues/731) every 6 hours.

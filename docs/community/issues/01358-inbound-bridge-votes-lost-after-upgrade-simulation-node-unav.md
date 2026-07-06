@@ -2,24 +2,26 @@
 title: "#1358 — Inbound bridge votes lost after upgrade simulation (node unavailable for some minutes for upgrade) — no retry, deposits stuck BRIDGE_PENDING"
 source: https://github.com/gonka-ai/gonka/issues/1358
 issue_number: 1358
-synced_at: 2026-07-06T09:51:44Z
+synced_at: 2026-07-06T15:05:03Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #1358](https://github.com/gonka-ai/gonka/issues/1358) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+    Inbound bridge votes lost after upgrade simulation (node unavailable for some minutes for upgrade) — no retry, deposits stuck BRIDGE_PENDING
+    <span class="issues-number">#1358</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Open</span>
+    <span class="issues-meta-item">[@maria-mitina](https://github.com/maria-mitina) opened 2026-06-22 17:39 UTC</span>
+    <span class="issues-meta-item">0 comments</span>
+    <span class="issues-meta-item">Updated 2026-06-27 01:04 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span> <span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
+</div>
 
-# 🟢 Inbound bridge votes lost after upgrade simulation (node unavailable for some minutes for upgrade) — no retry, deposits stuck BRIDGE_PENDING
-
-**Author:** [@maria-mitina](https://github.com/maria-mitina) · **State:** Open · **Created:** 2026-06-22 17:39 UTC · **Updated:** 2026-06-27 01:04 UTC
-
-**Labels:** `bug` `Priority: High`
-
-**Веха:** v0.2.14
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 ## Summary
 
 Upgrade simulation (paused only the Gonka `node` container which halts the chain) while bridge (Geth) and `api` stay up. Inbound bridge deposits are detected and queued on unpause, but **validator votes can be lost silently** with no automatic recovery. Deposits can remain **`BRIDGE_PENDING`** indefinitely (majority never reached, no mint).
@@ -97,3 +99,8 @@ inferenced q inference bridge-transaction \
 
 docker logs api 2>&1 | grep -iE 'Broadcast failed|node block time is stale|Error processing bridge'
 ```
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #1358](https://github.com/gonka-ai/gonka/issues/1358) every 6 hours.

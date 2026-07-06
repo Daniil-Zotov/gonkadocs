@@ -2,22 +2,26 @@
 title: "#1098 — `devshards` Postgres support for `devshard` storage"
 source: https://github.com/gonka-ai/gonka/issues/1098
 issue_number: 1098
-synced_at: 2026-07-06T09:52:00Z
+synced_at: 2026-07-06T15:05:26Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #1098](https://github.com/gonka-ai/gonka/issues/1098) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+    `devshards` Postgres support for `devshard` storage
+    <span class="issues-number">#1098</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Closed</span>
+    <span class="issues-meta-item">[@akup](https://github.com/akup) opened 2026-04-21 20:36 UTC</span>
+    <span class="issues-meta-item">3 comments</span>
+    <span class="issues-meta-item">Updated 2026-05-25 18:30 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🔴 `devshards` Postgres support for `devshard` storage
-
-**Author:** [@akup](https://github.com/akup) · **State:** Closed · **Created:** 2026-04-21 20:36 UTC · **Updated:** 2026-05-25 18:30 UTC
-
-**Веха:** v0.2.13
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 ## Problem
 
 `devshard/storage` is sqlite-only today (`storage/sqlite.go`,
@@ -45,27 +49,42 @@ Also we should prune the old epoch's devshard data
   specifics into callers.
 - Add a Postgres backend alongside the existing sqlite backend. It should be default db
 - Prune data related to devshards created at epochs `< currentEpoch - 2`
+</div>
 
 ---
 
 ## 💬 Comments (3)
 
-### Комментарий 1 — [@Mayveskii](https://github.com/Mayveskii)
-
-*2026-04-24 20:22 UTC*
-
->RE
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@Mayveskii](https://github.com/Mayveskii)</span>
+    <span class="issues-meta-item">commented 2026-04-24 20:22 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    >RE
 
 Hi, can i grab this one for couple of week ? 
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span class="issues-meta-item">commented 2026-04-29 21:21 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    https://github.com/gonka-ai/gonka/pull/1126
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@x0152](https://github.com/x0152)</span>
+    <span class="issues-meta-item">commented 2026-05-07 08:41 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Closed by #1145 
+  </div>
+</div>
 
-### Комментарий 2 — [@tcharchian](https://github.com/tcharchian)
+---
 
-*2026-04-29 21:21 UTC*
-
-https://github.com/gonka-ai/gonka/pull/1126
-
-### Комментарий 3 — [@x0152](https://github.com/x0152)
-
-*2026-05-07 08:41 UTC*
-
-Closed by #1145 
+> 🔄 **Auto-synced** from [Issue #1098](https://github.com/gonka-ai/gonka/issues/1098) every 6 hours.

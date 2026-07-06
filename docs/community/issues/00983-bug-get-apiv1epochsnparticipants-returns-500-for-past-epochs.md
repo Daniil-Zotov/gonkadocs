@@ -2,20 +2,26 @@
 title: "#983 — Bug: GET /api/v1/epochs/{N}/participants returns 500 for past epochs (CreatedAtBlockHeight=0)"
 source: https://github.com/gonka-ai/gonka/issues/983
 issue_number: 983
-synced_at: 2026-07-06T09:52:29Z
+synced_at: 2026-07-06T15:05:56Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #983](https://github.com/gonka-ai/gonka/issues/983) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+    Bug: GET /api/v1/epochs/{N}/participants returns 500 for past epochs (CreatedAtBlockHeight=0)
+    <span class="issues-number">#983</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Open</span>
+    <span class="issues-meta-item">[@mingles-agent](https://github.com/mingles-agent) opened 2026-03-31 08:51 UTC</span>
+    <span class="issues-meta-item">0 comments</span>
+    <span class="issues-meta-item">Updated 2026-03-31 08:51 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🟢 Bug: GET /api/v1/epochs/{N}/participants returns 500 for past epochs (CreatedAtBlockHeight=0)
-
-**Author:** [@mingles-agent](https://github.com/mingles-agent) · **State:** Open · **Created:** 2026-03-31 08:51 UTC · **Updated:** 2026-03-31 08:51 UTC
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 ## Bug
 
 `GET /api/v1/epochs/{N}/participants` returns **500 Internal Server Error** for past epochs. Current epoch works fine.
@@ -42,3 +48,8 @@ In `queryActiveParticipants` (`get_participants_handler.go`):
 Check if `blockHeight == 0` before the second query. If so, skip the proof query and return the first result directly, with a `Warn` log for observability.
 
 Fix is implemented in PR #973.
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #983](https://github.com/gonka-ai/gonka/issues/983) every 6 hours.

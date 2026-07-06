@@ -2,36 +2,45 @@
 title: "#630 — Research: Ephemeral port exhaustion"
 source: https://github.com/gonka-ai/gonka/issues/630
 issue_number: 630
-synced_at: 2026-07-06T09:52:34Z
+synced_at: 2026-07-06T15:06:02Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #630](https://github.com/gonka-ai/gonka/issues/630) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+    Research: Ephemeral port exhaustion
+    <span class="issues-number">#630</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Open</span>
+    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-23 20:09 UTC</span>
+    <span class="issues-meta-item">3 comments</span>
+    <span class="issues-meta-item">Updated 2026-03-21 19:24 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🟢 Research: Ephemeral port exhaustion
-
-**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Open · **Created:** 2026-01-23 20:09 UTC · **Updated:** 2026-03-21 19:24 UTC
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 This is a future task. A detailed description will be provided in the near future.
 
 Please do not start working on this task without the detailed specification, as it may turn out to be a different direction than expected, which could reduce the chances of receiving a reward.
 
 If you are interested in completing this task, please leave a comment here.
 After that, feel free to contact me on Discord: `tatianacharchian_07833`.
+</div>
 
 ---
 
 ## 💬 Comments (3)
 
-### Комментарий 1 — [@AlexeySamosadov](https://github.com/AlexeySamosadov)
-
-*2026-01-24 21:13 UTC*
-
-## Ephemeral Port Exhaustion Analysis
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
+    <span class="issues-meta-item">commented 2026-01-24 21:13 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    ## Ephemeral Port Exhaustion Analysis
 
 ### Summary
 Found several patterns that can cause ephemeral port exhaustion due to improper HTTP client usage and missing connection pooling configuration.
@@ -108,17 +117,29 @@ var sharedHTTPClient = &http.Client{
 4. `internal/server/admin/setup_report.go` - Reuse single client
 5. `participant/participant_registration.go` - Use configured client with timeout
 6. `internal/validation/inference_validation.go` - Replace `http.Post()`
-
-### Комментарий 2 — [@tcharchian](https://github.com/tcharchian)
-
-*2026-01-29 00:21 UTC*
-
-Hello @AlexeySamosadov, thank you for your contribution. However, I'd suggest waiting for @libermans or @gmorgachev to give a detailed description of the task and expected results.  
-
-### Комментарий 3 — [@AlexeySamosadov](https://github.com/AlexeySamosadov)
-
-*2026-02-08 14:14 UTC*
-
-PR created: https://github.com/gonka-ai/gonka/pull/656
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span class="issues-meta-item">commented 2026-01-29 00:21 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Hello @AlexeySamosadov, thank you for your contribution. However, I'd suggest waiting for @libermans or @gmorgachev to give a detailed description of the task and expected results.  
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
+    <span class="issues-meta-item">commented 2026-02-08 14:14 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    PR created: https://github.com/gonka-ai/gonka/pull/656
 
 Adds HTTP client connection pooling to prevent ephemeral port exhaustion.
+  </div>
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #630](https://github.com/gonka-ai/gonka/issues/630) every 6 hours.

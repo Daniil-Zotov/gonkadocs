@@ -2,22 +2,26 @@
 title: "#857 — Test voting delegation"
 source: https://github.com/gonka-ai/gonka/issues/857
 issue_number: 857
-synced_at: 2026-07-06T09:52:45Z
+synced_at: 2026-07-06T15:06:13Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #857](https://github.com/gonka-ai/gonka/issues/857) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+    Test voting delegation
+    <span class="issues-number">#857</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Closed</span>
+    <span class="issues-meta-item">[@maria-mitina](https://github.com/maria-mitina) opened 2026-03-03 18:30 UTC</span>
+    <span class="issues-meta-item">4 comments</span>
+    <span class="issues-meta-item">Updated 2026-03-06 00:15 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🔴 Test voting delegation
-
-**Author:** [@maria-mitina](https://github.com/maria-mitina) · **State:** Closed · **Created:** 2026-03-03 18:30 UTC · **Updated:** 2026-03-06 00:15 UTC
-
-**Веха:** v0.2.11
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 In order to make voting more convenient for the contributors, we are exploring delegation of voting rights. The flow of the delegation is the following:
 Granter gives grantee permission to send specific message types on their behalf. The grantee uses MsgExec to run those messages; the chain checks the authz grant and treats the message as coming from the granter.
 
@@ -28,16 +32,19 @@ Permissions needs to:
 3. be revoked if necessary
 
 Testnet will be used for the flow verification. 
+</div>
 
 ---
 
 ## 💬 Comments (4)
 
-### Комментарий 1 — [@maria-mitina](https://github.com/maria-mitina)
-
-*2026-03-04 12:15 UTC*
-
-all test cases on testnet PASSED with a caveat that the TX does not fail explicitly. (**Expected:** Tx fails (e.g. “authorization not found” / “unauthorized”). **Reality:** Nothing indicating that the voting did not go through)
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@maria-mitina](https://github.com/maria-mitina)</span>
+    <span class="issues-meta-item">commented 2026-03-04 12:15 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    all test cases on testnet PASSED with a caveat that the TX does not fail explicitly. (**Expected:** Tx fails (e.g. “authorization not found” / “unauthorized”). **Reality:** Nothing indicating that the voting did not go through)
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
@@ -139,19 +146,25 @@ Tally | Query votes after success | Granter appears with correct option
 </body>
 </html>
 
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span class="issues-meta-item">commented 2026-03-05 23:46 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Hey @mayveskii, could you please clarify why you referenced this issue in [d4e74c4] and [e5995db]? Do you have any issues with delegating?
 
-### Комментарий 2 — [@tcharchian](https://github.com/tcharchian)
-
-*2026-03-05 23:46 UTC*
-
-Hey @mayveskii, could you please clarify why you referenced this issue in [d4e74c4] and [e5995db]? Do you have any issues with delegating?
-
-
-### Комментарий 3 — [@Mayveskii](https://github.com/Mayveskii)
-
-*2026-03-06 00:05 UTC*
-
-> Hey [@Mayveskii](https://github.com/Mayveskii), could you please clarify why you referenced this issue in [[d4e74c4](https://github.com/gonka-ai/gonka/commit/d4e74c4da683bb4a1ee894a5004af2247ac65c3c)] and [[e5995db](https://github.com/gonka-ai/gonka/commit/e5995db2391d9d1b9037ffd0b3c5d2344437bd2c)]? Do you have any issues with delegating?
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@Mayveskii](https://github.com/Mayveskii)</span>
+    <span class="issues-meta-item">commented 2026-03-06 00:05 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    > Hey [@Mayveskii](https://github.com/Mayveskii), could you please clarify why you referenced this issue in [[d4e74c4](https://github.com/gonka-ai/gonka/commit/d4e74c4da683bb4a1ee894a5004af2247ac65c3c)] and [[e5995db](https://github.com/gonka-ai/gonka/commit/e5995db2391d9d1b9037ffd0b3c5d2344437bd2c)]? Do you have any issues with delegating?
 
 Hi, Tanya!  I'm interested in participating as a grantee in the delegation test.
 
@@ -160,15 +173,24 @@ Account registered on-chain: account_number 1130693
 
 Could you also send a small amount of tokens to this address so I can participate? 
 Currently working on GIP #859 (semantic cache) and need tokens for both the delegation test and inference validation.
-
-### Комментарий 4 — [@Mayveskii](https://github.com/Mayveskii)
-
-*2026-03-06 00:15 UTC*
-
-> Hey [@Mayveskii](https://github.com/Mayveskii), could you please clarify why you referenced this issue in [[d4e74c4](https://github.com/gonka-ai/gonka/commit/d4e74c4da683bb4a1ee894a5004af2247ac65c3c)] and [[e5995db](https://github.com/gonka-ai/gonka/commit/e5995db2391d9d1b9037ffd0b3c5d2344437bd2c)]? Do you have any issues with delegating?
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@Mayveskii](https://github.com/Mayveskii)</span>
+    <span class="issues-meta-item">commented 2026-03-06 00:15 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    > Hey [@Mayveskii](https://github.com/Mayveskii), could you please clarify why you referenced this issue in [[d4e74c4](https://github.com/gonka-ai/gonka/commit/d4e74c4da683bb4a1ee894a5004af2247ac65c3c)] and [[e5995db](https://github.com/gonka-ai/gonka/commit/e5995db2391d9d1b9037ffd0b3c5d2344437bd2c)]? Do you have any issues with delegating?
 
 I referenced it intentionally — while working on GIP #859 
 I found that MsgSubmitCacheQualitySummary was missing from 
 InferenceOperationKeyPerms, which was blocking the Grant→Exec→Revoke 
 flow you're testing in #857. Fixed it as part of the same permissions audit. 
 No issues with delegating.
+  </div>
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #857](https://github.com/gonka-ai/gonka/issues/857) every 6 hours.

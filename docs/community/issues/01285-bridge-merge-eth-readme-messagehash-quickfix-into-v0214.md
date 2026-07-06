@@ -2,22 +2,26 @@
 title: "#1285 — Bridge: merge ETH README messageHash quickfix into v0.2.14"
 source: https://github.com/gonka-ai/gonka/issues/1285
 issue_number: 1285
-synced_at: 2026-07-06T09:51:55Z
+synced_at: 2026-07-06T15:05:16Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #1285](https://github.com/gonka-ai/gonka/issues/1285) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+    Bridge: merge ETH README messageHash quickfix into v0.2.14
+    <span class="issues-number">#1285</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Open</span>
+    <span class="issues-meta-item">[@Ryanchen911](https://github.com/Ryanchen911) opened 2026-06-01 02:34 UTC</span>
+    <span class="issues-meta-item">4 comments</span>
+    <span class="issues-meta-item">Updated 2026-06-02 17:47 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🟢 Bridge: merge ETH README messageHash quickfix into v0.2.14
-
-**Author:** [@Ryanchen911](https://github.com/Ryanchen911) · **State:** Open · **Created:** 2026-06-01 02:34 UTC · **Updated:** 2026-06-02 17:47 UTC
-
-**Веха:** v0.2.14
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 ## Summary
 
 The Ethereum bridge README currently documents the mint/withdraw `messageHash` format without the `address(this)` bridge contract field, while the actual contract source includes it.
@@ -69,32 +73,50 @@ However, third-party auditors or integrators using the README could construct an
 - README withdraw `messageHash` includes `address(this)`.
 - Documentation matches `BridgeContract.sol`.
 - Fix is merged into v0.2.14.
+</div>
 
 ---
 
 ## 💬 Comments (4)
 
-### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span class="issues-meta-item">commented 2026-06-02 00:50 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    @Ryanchen911, are you ready to write a fix?
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@Ryanchen911](https://github.com/Ryanchen911)</span>
+    <span class="issues-meta-item">commented 2026-06-02 07:15 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Sure, we will take it,@bonujel is our new colleague of 6block, he will do it.
 
-*2026-06-02 00:50 UTC*
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@bonujel](https://github.com/bonujel)</span>
+    <span class="issues-meta-item">commented 2026-06-02 08:24 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Picking this up — I'll cherry-pick the README `messageHash` fix from `gl/eth-readme-quickfix` onto the v0.2.14 line and open a PR shortly.
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span class="issues-meta-item">commented 2026-06-02 17:47 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    @GLiberman fyi
+  </div>
+</div>
 
-@Ryanchen911, are you ready to write a fix?
+---
 
-### Комментарий 2 — [@Ryanchen911](https://github.com/Ryanchen911)
-
-*2026-06-02 07:15 UTC*
-
-Sure, we will take it,@bonujel is our new colleague of 6block, he will do it.
-
-
-### Комментарий 3 — [@bonujel](https://github.com/bonujel)
-
-*2026-06-02 08:24 UTC*
-
-Picking this up — I'll cherry-pick the README `messageHash` fix from `gl/eth-readme-quickfix` onto the v0.2.14 line and open a PR shortly.
-
-### Комментарий 4 — [@tcharchian](https://github.com/tcharchian)
-
-*2026-06-02 17:47 UTC*
-
-@GLiberman fyi
+> 🔄 **Auto-synced** from [Issue #1285](https://github.com/gonka-ai/gonka/issues/1285) every 6 hours.

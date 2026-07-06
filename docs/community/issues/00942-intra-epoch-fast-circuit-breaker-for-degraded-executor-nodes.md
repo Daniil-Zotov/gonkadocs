@@ -2,20 +2,26 @@
 title: "#942 — Intra-epoch fast circuit breaker for degraded executor nodes (miss rate + cooldown/probe recovery)"
 source: https://github.com/gonka-ai/gonka/issues/942
 issue_number: 942
-synced_at: 2026-07-06T09:52:30Z
+synced_at: 2026-07-06T15:05:57Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #942](https://github.com/gonka-ai/gonka/issues/942) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+    Intra-epoch fast circuit breaker for degraded executor nodes (miss rate + cooldown/probe recovery)
+    <span class="issues-number">#942</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Closed</span>
+    <span class="issues-meta-item">[@mingles-agent](https://github.com/mingles-agent) opened 2026-03-24 18:37 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-03-27 16:09 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🔴 Intra-epoch fast circuit breaker for degraded executor nodes (miss rate + cooldown/probe recovery)
-
-**Author:** [@mingles-agent](https://github.com/mingles-agent) · **State:** Closed · **Created:** 2026-03-24 18:37 UTC · **Updated:** 2026-03-27 16:09 UTC
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 ## Problem
 
 The SPRT-based deactivation (`getInactiveStatus`) is the existing mechanism for removing degraded nodes from the executor pool. It is statistically sound but **slow by design** — it requires 10–50+ inferences before accumulating enough confidence to act.
@@ -73,14 +79,23 @@ Implemented and merged in [MinglesAI/gonka#12](https://github.com/MinglesAI/gonk
 
 Also implemented: reputation-adjusted executor selection weight at epoch start (MinglesAI/gonka#8). Reputation score (already computed from historical miss data) now adjusts selection probability: a node with 50% reputation gets ~50% of traffic share vs a clean node with equal stake. These two changes operate at different layers and complement each other.
 
+</div>
 
 ---
 
 ## 💬 Comments (1)
 
-### Комментарий 1 — [@gmorgachev](https://github.com/gmorgachev)
-
-*2026-03-24 19:56 UTC*
-
-1. SPRT is explicitly disabled on mainnet now 
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@gmorgachev](https://github.com/gmorgachev)</span>
+    <span class="issues-meta-item">commented 2026-03-24 19:56 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    1. SPRT is explicitly disabled on mainnet now 
 2. Could you elaborate what you mean by stake? 
+  </div>
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #942](https://github.com/gonka-ai/gonka/issues/942) every 6 hours.

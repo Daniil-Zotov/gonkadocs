@@ -2,7 +2,7 @@
 title: "#1407 — Question about project background: Mikhail Chudinov and Natalia"
 source: https://github.com/gonka-ai/gonka/issues/1407
 issue_number: 1407
-synced_at: 2026-07-06T10:26:28Z
+synced_at: 2026-07-06T15:04:53Z
 template: issues-main.html
 ---
 
@@ -47,4 +47,4 @@ Is this project just another setup for a scam and stealing money? Or are you jus
 
 ---
 
-> 🔄 **Auto-synced:** from [Issue #1407](https://github.com/gonka-ai/gonka/issues/1407) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #1407](https://github.com/gonka-ai/gonka/issues/1407) every 6 hours.

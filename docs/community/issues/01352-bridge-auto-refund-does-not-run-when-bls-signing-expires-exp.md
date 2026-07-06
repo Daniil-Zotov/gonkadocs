@@ -2,22 +2,26 @@
 title: "#1352 — Bridge: auto-refund does not run when BLS signing expires (EXPIRED)"
 source: https://github.com/gonka-ai/gonka/issues/1352
 issue_number: 1352
-synced_at: 2026-07-06T09:51:44Z
+synced_at: 2026-07-06T15:05:02Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #1352](https://github.com/gonka-ai/gonka/issues/1352) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+    Bridge: auto-refund does not run when BLS signing expires (EXPIRED)
+    <span class="issues-number">#1352</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Open</span>
+    <span class="issues-meta-item">[@maria-mitina](https://github.com/maria-mitina) opened 2026-06-19 16:47 UTC</span>
+    <span class="issues-meta-item">2 comments</span>
+    <span class="issues-meta-item">Updated 2026-06-27 01:04 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🟢 Bridge: auto-refund does not run when BLS signing expires (EXPIRED)
-
-**Author:** [@maria-mitina](https://github.com/maria-mitina) · **State:** Open · **Created:** 2026-06-19 16:47 UTC · **Updated:** 2026-06-27 01:04 UTC
-
-**Веха:** v0.2.14
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 ## Summary
 
 When an outbound `RequestBridgeMint` BLS request reaches terminal **`EXPIRED`** (threshold not met), the chain emits `inference.bls.EventThresholdSigningFailed` but **does not** auto-refund bridge escrow. GNK stays locked until the user calls **`cancel-bridge-operation`** with the plaintext `request_id` from `bridge_mint_requested`.
@@ -70,16 +74,19 @@ Silent `(false, nil)` if hooks empty or pending not found — **no retry queue**
 ## Severity
 
 **Medium** — funds stuck in escrow without user action; manual cancel required (easy to get wrong `request_id` format). Reduced from High because the expired signature situation will happen during incidents, not normal operation.
+</div>
 
 ---
 
 ## 💬 Comments (2)
 
-### Комментарий 1 — [@maria-mitina](https://github.com/maria-mitina)
-
-*2026-06-19 17:03 UTC*
-
-# Testnet evidence retrieval (`gonka-testnet-4`)
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@maria-mitina](https://github.com/maria-mitina)</span>
+    <span class="issues-meta-item">commented 2026-06-19 17:03 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    # Testnet evidence retrieval (`gonka-testnet-4`)
 
 Run on seed host `702111`:
 
@@ -418,13 +425,22 @@ export BLS_ID='7Zr3ERnMcKniqxDd9eEqnM91iVLtvrrY+uAYUIIEOdg='
 - BLS failure events appear in **`finalize_block_events`**, not `txs_results`.
 - Use `--page-limit` (not `--limit`) for `query bls signing-history`.
 
-
-### Комментарий 2 — [@maria-mitina](https://github.com/maria-mitina)
-
-*2026-06-20 05:27 UTC*
-
-at the moment all filfox servers are down 
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@maria-mitina](https://github.com/maria-mitina)</span>
+    <span class="issues-meta-item">commented 2026-06-20 05:27 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    at the moment all filfox servers are down 
 
 <img width="597" height="87" alt="Image" src="https://github.com/user-attachments/assets/38a75e11-eb3d-4c65-a54f-dc9e98227a2b" />
 
 when they come back, i will need to take back and restore the environment to continue with testing. The data above will be gone. But we can simulate again on request
+  </div>
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #1352](https://github.com/gonka-ai/gonka/issues/1352) every 6 hours.

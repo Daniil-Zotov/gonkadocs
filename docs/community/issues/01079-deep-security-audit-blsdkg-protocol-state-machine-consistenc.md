@@ -2,20 +2,26 @@
 title: "#1079 — Deep Security Audit: BLS/DKG protocol, state machine consistency, and economic logic vulnerabilities"
 source: https://github.com/gonka-ai/gonka/issues/1079
 issue_number: 1079
-synced_at: 2026-07-06T09:52:11Z
+synced_at: 2026-07-06T15:05:38Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #1079](https://github.com/gonka-ai/gonka/issues/1079) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+    Deep Security Audit: BLS/DKG protocol, state machine consistency, and economic logic vulnerabilities
+    <span class="issues-number">#1079</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Closed</span>
+    <span class="issues-meta-item">[@Doog-bot534](https://github.com/Doog-bot534) opened 2026-04-16 03:20 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-04-28 16:59 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🔴 Deep Security Audit: BLS/DKG protocol, state machine consistency, and economic logic vulnerabilities
-
-**Author:** [@Doog-bot534](https://github.com/Doog-bot534) · **State:** Closed · **Created:** 2026-04-16 03:20 UTC · **Updated:** 2026-04-28 16:59 UTC
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 ## Summary
 
 Follow-up deep audit to #1053, focusing on **logic bugs, economic attacks, and protocol-level vulnerabilities** that require understanding business logic — not surface-level input validation.
@@ -77,18 +83,27 @@ Follow-up deep audit to #1053, focusing on **logic bugs, economic attacks, and p
 - Cross-referenced with existing fixes (PR #948 CacheContext, #1013 escrow fund loss)
 
 Payout address: `gonka10zaal553duxp05nvfpqtsqrm2g0j6j34r8nan7`
+</div>
 
 ---
 
 ## 💬 Comments (1)
 
-### Комментарий 1 — [@x0152](https://github.com/x0152)
-
-*2026-04-28 16:59 UTC*
-
-Hi,
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@x0152](https://github.com/x0152)</span>
+    <span class="issues-meta-item">commented 2026-04-28 16:59 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Hi,
 Thanks for the deep audit!
 
 I am closing this issue for now because several findings are based on incorrect assumptions about how the code currently works, and some points are already addressed in recent changes. 
 
 If you believe a specific issue is still valid, please open a separate issue with a clear reproduction case, and I will review it again
+  </div>
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #1079](https://github.com/gonka-ai/gonka/issues/1079) every 6 hours.

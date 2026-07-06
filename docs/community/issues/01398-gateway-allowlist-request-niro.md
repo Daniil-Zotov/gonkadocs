@@ -2,7 +2,7 @@
 title: "#1398 — Gateway allowlist request: niro"
 source: https://github.com/gonka-ai/gonka/issues/1398
 issue_number: 1398
-synced_at: 2026-07-06T10:26:32Z
+synced_at: 2026-07-06T15:04:55Z
 template: issues-main.html
 ---
 
@@ -49,4 +49,4 @@ Happy to share availability telemetry and benchmark results with the network.
 
 ---
 
-> 🔄 **Auto-synced:** from [Issue #1398](https://github.com/gonka-ai/gonka/issues/1398) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #1398](https://github.com/gonka-ai/gonka/issues/1398) every 6 hours.

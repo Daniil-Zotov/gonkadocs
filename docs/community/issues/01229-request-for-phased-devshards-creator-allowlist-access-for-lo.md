@@ -2,20 +2,26 @@
 title: "#1229 — Request for phased DevShards creator allowlist access for local gateway MVP validation"
 source: https://github.com/gonka-ai/gonka/issues/1229
 issue_number: 1229
-synced_at: 2026-07-06T09:51:49Z
+synced_at: 2026-07-06T15:05:09Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #1229](https://github.com/gonka-ai/gonka/issues/1229) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+    Request for phased DevShards creator allowlist access for local gateway MVP validation
+    <span class="issues-number">#1229</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Closed</span>
+    <span class="issues-meta-item">[@sspotanin](https://github.com/sspotanin) opened 2026-05-22 16:08 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-06-23 23:22 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🔴 Request for phased DevShards creator allowlist access for local gateway MVP validation
-
-**Author:** [@sspotanin](https://github.com/sspotanin) · **State:** Closed · **Created:** 2026-05-22 16:08 UTC · **Updated:** 2026-06-23 23:22 UTC
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 ## Summary
 
 I am building an OpenAI-compatible reliability gateway for Gonka-hosted models, starting with `moonshotai/Kimi-K2.6`.
@@ -117,16 +123,19 @@ Could someone from the DevShards / broker allowlist maintainers please review th
 
 I am happy to coordinate and adjust the validation scope, limits, or rollout process to match network policy.
 
+</div>
 
 ---
 
 ## 💬 Comments (1)
 
-### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
-
-*2026-06-23 23:22 UTC*
-
-Hi @sspotanin!
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span class="issues-meta-item">commented 2026-06-23 23:22 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Hi @sspotanin!
 
 On the process you asked about: allowlisting a `gonka1…` creator address is an on-chain governance decision. Addresses on `devshard_escrow_params.allowed_creator_addresses` are added through a governance vote — no single maintainer or operator adds one unilaterally.  To be clear, your actual ask (validating the creator/operator path locally) does require the allowlist; that's the part where you create and settle escrows yourself, and no managed service substitutes for it. So nothing below replaces this request.
 
@@ -136,3 +145,9 @@ That said, given the specific gap you're targeting (reliability for sustained ag
 - **As a production-scale baseline** for the reliability behaviors you're measuring, since it surfaces real telemetry and failure modes rather than single-turn happy-path responses.
 
 OpenBroker is an **independent third party**, not part of the core protocol, and exactly the kind of existing option you said you've already evaluated — so treat it as a reference/benchmark, not as the answer to the reliability gap you're building toward. It's just a way to keep the client-side work moving in parallel with the allowlist governance process.
+  </div>
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #1229](https://github.com/gonka-ai/gonka/issues/1229) every 6 hours.

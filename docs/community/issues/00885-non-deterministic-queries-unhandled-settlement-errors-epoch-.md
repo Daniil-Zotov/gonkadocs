@@ -2,20 +2,26 @@
 title: "#885 — Non-deterministic queries, unhandled settlement errors, epoch stats underflow"
 source: https://github.com/gonka-ai/gonka/issues/885
 issue_number: 885
-synced_at: 2026-07-06T09:52:12Z
+synced_at: 2026-07-06T15:05:38Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #885](https://github.com/gonka-ai/gonka/issues/885) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+    Non-deterministic queries, unhandled settlement errors, epoch stats underflow
+    <span class="issues-number">#885</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Closed</span>
+    <span class="issues-meta-item">[@unameisfine](https://github.com/unameisfine) opened 2026-03-13 19:29 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-04-27 22:46 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🔴 Non-deterministic queries, unhandled settlement errors, epoch stats underflow
-
-**Author:** [@unameisfine](https://github.com/unameisfine) · **State:** Closed · **Created:** 2026-03-13 19:29 UTC · **Updated:** 2026-04-27 22:46 UTC
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 ## Summary
 
 Found several bugs during code review of `x/inference/keeper/`:
@@ -58,13 +64,22 @@ Four error return values are silently discarded in the settlement path:
 - `x/inference/keeper/msg_server_validation.go`
 - `x/inference/keeper/query_developer_stats_aggregation.go`
 - `x/inference/keeper/query_get_participant_current_stats.go`
+</div>
 
 ---
 
 ## 💬 Comments (1)
 
-### Комментарий 1 — [@unameisfine](https://github.com/unameisfine)
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@unameisfine](https://github.com/unameisfine)</span>
+    <span class="issues-meta-item">commented 2026-04-27 22:46 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Closing — PR #886 was closed as part of refocusing on larger scoped contributions.
+  </div>
+</div>
 
-*2026-04-27 22:46 UTC*
+---
 
-Closing — PR #886 was closed as part of refocusing on larger scoped contributions.
+> 🔄 **Auto-synced** from [Issue #885](https://github.com/gonka-ai/gonka/issues/885) every 6 hours.

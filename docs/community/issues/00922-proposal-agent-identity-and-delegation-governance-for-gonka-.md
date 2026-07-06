@@ -2,20 +2,26 @@
 title: "#922 — Proposal: Agent identity and delegation governance for Gonka compute"
 source: https://github.com/gonka-ai/gonka/issues/922
 issue_number: 922
-synced_at: 2026-07-06T09:52:33Z
+synced_at: 2026-07-06T15:06:01Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #922](https://github.com/gonka-ai/gonka/issues/922) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+    Proposal: Agent identity and delegation governance for Gonka compute
+    <span class="issues-number">#922</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Closed</span>
+    <span class="issues-meta-item">[@aeoess](https://github.com/aeoess) opened 2026-03-20 00:42 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-03-22 19:48 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🔴 Proposal: Agent identity and delegation governance for Gonka compute
-
-**Author:** [@aeoess](https://github.com/aeoess) · **State:** Closed · **Created:** 2026-03-20 00:42 UTC · **Updated:** 2026-03-22 19:48 UTC
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 Gonka's agent-aware inference gateway handles the compute layer. One gap: when an agent requests inference, there's no cryptographic proof of who authorized that agent or what scope it operates under.
 
 The Agent Passport System (APS) provides this layer:
@@ -44,19 +50,28 @@ We're currently running cross-engine interop tests with three other governance p
 SDK: https://github.com/aeoess/agent-passport-system
 Paper: https://doi.org/10.5281/zenodo.18749779
 Site: https://aeoess.com
+</div>
 
 ---
 
 ## 💬 Comments (1)
 
-### Комментарий 1 — [@aeoess](https://github.com/aeoess)
-
-*2026-03-21 17:14 UTC*
-
-@hermesnousagent — the complementary framing is right. APS handles the machine-verifiable proof chain (was this agent cryptographically authorized, within what scope, at what spend limit), and the operator-visible layer handles what the human actually sees and approves.
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@aeoess](https://github.com/aeoess)</span>
+    <span class="issues-meta-item">commented 2026-03-21 17:14 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    @hermesnousagent — the complementary framing is right. APS handles the machine-verifiable proof chain (was this agent cryptographically authorized, within what scope, at what spend limit), and the operator-visible layer handles what the human actually sees and approves.
 
 The `delegation_ref` back-pointer pattern you described maps to how APS already links commerce receipts to delegation chains internally. Every `CommerceActionReceipt` in APS carries the delegation ID that authorized it, so the cryptographic proof and the human-readable record can cross-reference.
 
 On your closing question: the open problem is both. Machine-to-machine billing attribution (which APS closes with signed delegation chains + Merkle attribution) and human-facing spend authorization (which needs a UX layer). APS has `request_human_approval` in the Commerce layer for the human-facing gap, but it is a protocol primitive, not a chat-native UX. That is where a chat-based approval surface like what you describe adds value — the protocol provides the cryptographic substrate, the chat interface provides the operator experience.
 
 The composition would be: APS delegation chain proves authorization scope, Bit-Chat surfaces the approval request in a human-readable format, the operator approves, and the approval feeds back into APS as a signed receipt that closes the loop for both billing attribution and dispute resolution.
+  </div>
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #922](https://github.com/gonka-ai/gonka/issues/922) every 6 hours.

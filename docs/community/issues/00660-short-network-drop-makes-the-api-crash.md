@@ -2,22 +2,26 @@
 title: "#660 — Short network drop makes the api crash"
 source: https://github.com/gonka-ai/gonka/issues/660
 issue_number: 660
-synced_at: 2026-07-06T09:52:57Z
+synced_at: 2026-07-06T15:06:26Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #660](https://github.com/gonka-ai/gonka/issues/660) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+    Short network drop makes the api crash
+    <span class="issues-number">#660</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Closed</span>
+    <span class="issues-meta-item">[@x0152](https://github.com/x0152) opened 2026-01-28 16:31 UTC</span>
+    <span class="issues-meta-item">0 comments</span>
+    <span class="issues-meta-item">Updated 2026-02-06 23:46 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🔴 Short network drop makes the api crash
-
-**Author:** [@x0152](https://github.com/x0152) · **State:** Closed · **Created:** 2026-01-28 16:31 UTC · **Updated:** 2026-02-06 23:46 UTC
-
-**Веха:** v0.2.10
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 If chain node is unreachable even for short period, the API can crash:
 
 ```
@@ -33,3 +37,8 @@ decentralized-api/training.(*Assigner).claimTasksForAssignment(0xc0017a8090)
 created by decentralized-api/training.NewAssigner in goroutine 1
   /app/decentralized-api/training/assigner.go:41 +0xd8
 ```
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #660](https://github.com/gonka-ai/gonka/issues/660) every 6 hours.

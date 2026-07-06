@@ -2,20 +2,26 @@
 title: "#1370 — Bridge Scenario A: inbound USDT stuck BRIDGE_PENDING after coordinated node halt (4-validator testnet)"
 source: https://github.com/gonka-ai/gonka/issues/1370
 issue_number: 1370
-synced_at: 2026-07-06T09:51:43Z
+synced_at: 2026-07-06T15:05:01Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #1370](https://github.com/gonka-ai/gonka/issues/1370) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+    Bridge Scenario A: inbound USDT stuck BRIDGE_PENDING after coordinated node halt (4-validator testnet)
+    <span class="issues-number">#1370</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Closed</span>
+    <span class="issues-meta-item">[@maria-mitina](https://github.com/maria-mitina) opened 2026-06-28 07:37 UTC</span>
+    <span class="issues-meta-item">2 comments</span>
+    <span class="issues-meta-item">Updated 2026-06-29 10:50 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🔴 Bridge Scenario A: inbound USDT stuck BRIDGE_PENDING after coordinated node halt (4-validator testnet)
-
-**Author:** [@maria-mitina](https://github.com/maria-mitina) · **State:** Closed · **Created:** 2026-06-28 07:37 UTC · **Updated:** 2026-06-29 10:50 UTC
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 ## Summary
 
 Manual reproduction of **Scenario A** (coordinated `node` halt with `bridge` + `api` kept running) on **gonka-testnet-4** with a live **Sepolia USDT** inbound deposit. Result: **FAIL** — deposit ingested by API on all hosts, but only **1/4** validator votes landed on-chain; deposit remains **`BRIDGE_PENDING`** with no second USDT mint.
@@ -165,16 +171,19 @@ Manual `bridge-exchange` from validators on **18222**, **18223**, **18226** with
 - #1358
 - Prior pause test: `docs/bridge-inbound-pause-test-report.md`
 - Scenario runbook: `docs/bridge-upgrade-scenario-a-runbook.md`
+</div>
 
 ---
 
 ## 💬 Comments (2)
 
-### Комментарий 1 — [@maria-mitina](https://github.com/maria-mitina)
-
-*2026-06-28 07:37 UTC*
-
-## Log file direct links (gist)
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@maria-mitina](https://github.com/maria-mitina)</span>
+    <span class="issues-meta-item">commented 2026-06-28 07:37 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    ## Log file direct links (gist)
 
 Gist: https://gist.github.com/maria-mitina/6dc628e81592ec99dc094624c01d4ac9
 
@@ -191,9 +200,18 @@ Gist: https://gist.github.com/maria-mitina/6dc628e81592ec99dc094624c01d4ac9
 - [bridge-18221-702112.log](https://gist.githubusercontent.com/maria-mitina/6dc628e81592ec99dc094624c01d4ac9/raw/bridge-18221-702112.log)
 
 Local copy path in repo workspace: `docs/bridge-scenario-a-2026-06-28/logs/`
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@maria-mitina](https://github.com/maria-mitina)</span>
+    <span class="issues-meta-item">commented 2026-06-29 10:50 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    duplicate of https://github.com/gonka-ai/gonka/issues/1358 
+  </div>
+</div>
 
-### Комментарий 2 — [@maria-mitina](https://github.com/maria-mitina)
+---
 
-*2026-06-29 10:50 UTC*
-
-duplicate of https://github.com/gonka-ai/gonka/issues/1358 
+> 🔄 **Auto-synced** from [Issue #1370](https://github.com/gonka-ai/gonka/issues/1370) every 6 hours.

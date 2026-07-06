@@ -2,20 +2,26 @@
 title: "#804 — [P0?] Extend dev and TA signature payloads"
 source: https://github.com/gonka-ai/gonka/issues/804
 issue_number: 804
-synced_at: 2026-07-06T09:52:02Z
+synced_at: 2026-07-06T15:05:27Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #804](https://github.com/gonka-ai/gonka/issues/804) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+    [P0?] Extend dev and TA signature payloads
+    <span class="issues-number">#804</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Closed</span>
+    <span class="issues-meta-item">[@DimaOrekhovPS](https://github.com/DimaOrekhovPS) opened 2026-02-25 20:49 UTC</span>
+    <span class="issues-meta-item">2 comments</span>
+    <span class="issues-meta-item">Updated 2026-05-21 21:05 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🔴 [P0?] Extend dev and TA signature payloads
-
-**Author:** [@DimaOrekhovPS](https://github.com/DimaOrekhovPS) · **State:** Closed · **Created:** 2026-02-25 20:49 UTC · **Updated:** 2026-05-21 21:05 UTC
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 ### Dev signature
 
 Currently signs: `original_prompt_hash + timestamp + ta_address`.
@@ -39,19 +45,31 @@ New payload: `prompt_hash + timestamp + ta_address + executor_address + inferenc
 - Update corresponding comparison functions
 - Coordinate with off-chain signing code (TA and dev) to match new payload formats
 
+</div>
 
 ---
 
 ## 💬 Comments (2)
 
-### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span class="issues-meta-item">commented 2026-03-21 00:13 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Per discussion with @DimaOrekhovPS, this issue may become irrelevant after v0.2.12 and depends on whether we fully switch to the new inference system in the next upgrade or not, wdyt @0xgonka @gmorgachev?
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@0xgonka](https://github.com/0xgonka)</span>
+    <span class="issues-meta-item">commented 2026-03-21 07:45 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    security-wise it is important someone can't just use a dev signature from another inference. I am not sure what PR in 0.2.12 makes this irrelevant but would be happy to take a look if someone can point me in that direction
+  </div>
+</div>
 
-*2026-03-21 00:13 UTC*
+---
 
-Per discussion with @DimaOrekhovPS, this issue may become irrelevant after v0.2.12 and depends on whether we fully switch to the new inference system in the next upgrade or not, wdyt @0xgonka @gmorgachev?
-
-### Комментарий 2 — [@0xgonka](https://github.com/0xgonka)
-
-*2026-03-21 07:45 UTC*
-
-security-wise it is important someone can't just use a dev signature from another inference. I am not sure what PR in 0.2.12 makes this irrelevant but would be happy to take a look if someone can point me in that direction
+> 🔄 **Auto-synced** from [Issue #804](https://github.com/gonka-ai/gonka/issues/804) every 6 hours.

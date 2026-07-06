@@ -2,20 +2,26 @@
 title: "#546 — Node crash: Decimal precision panic in reputation calculation (v0.2.7-post1)"
 source: https://github.com/gonka-ai/gonka/issues/546
 issue_number: 546
-synced_at: 2026-07-06T09:53:10Z
+synced_at: 2026-07-06T15:06:40Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #546](https://github.com/gonka-ai/gonka/issues/546) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+    Node crash: Decimal precision panic in reputation calculation (v0.2.7-post1)
+    <span class="issues-number">#546</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Closed</span>
+    <span class="issues-meta-item">[@Olena](https://github.com/Olena) opened 2026-01-12 10:29 UTC</span>
+    <span class="issues-meta-item">3 comments</span>
+    <span class="issues-meta-item">Updated 2026-01-21 21:11 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🔴 Node crash: Decimal precision panic in reputation calculation (v0.2.7-post1)
-
-**Author:** [@Olena](https://github.com/Olena) · **State:** Closed · **Created:** 2026-01-12 10:29 UTC · **Updated:** 2026-01-21 21:11 UTC
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 Node crash: Decimal precision panic in reputation calculation (v0.2.7-post1)
 Summary
 Node running v0.2.7-post1 crashes with decimal precision panic during reputation calculation in the x/inference module, despite the BLS decimal precision fix included in this release. This indicates the v0.2.7-post1 fix is incomplete and does not cover all decimal precision issues.
@@ -204,30 +210,45 @@ Happy to provide additional logs, debugging assistance, or test the fix before r
 
 
 Reporter: Node operator with detailed logs and crash dumps available Status: ⚠️ Production node affected, automated recovery in place
+</div>
 
 ---
 
 ## 💬 Comments (3)
 
-### Комментарий 1 — [@patimen](https://github.com/patimen)
-
-*2026-01-12 18:14 UTC*
-
-Can you provide a full stack trace for the panic? I do not see any remaining uses of LegacyMustNewDecFromStr.
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@patimen](https://github.com/patimen)</span>
+    <span class="issues-meta-item">commented 2026-01-12 18:14 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Can you provide a full stack trace for the panic? I do not see any remaining uses of LegacyMustNewDecFromStr.
 For most of the chain, we _only_ use `shopspring` decimals, not Legacy. In fact, I cannot find places where we use it outside of BLS and chainvalidation.go (and there for only one value quickly)
-
-### Комментарий 2 — [@tcharchian](https://github.com/tcharchian)
-
-*2026-01-21 19:54 UTC*
-
-@Olena please take a look at the question above.
-
-### Комментарий 3 — [@gmorgachev](https://github.com/gmorgachev)
-
-*2026-01-21 21:11 UTC*
-
-The log above contains exact issue from `ApplyBLSGuardianSlotReservation` (0.032335451875111843916048462901 is exact number and error which was in initial issues)
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span class="issues-meta-item">commented 2026-01-21 19:54 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    @Olena please take a look at the question above.
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@gmorgachev](https://github.com/gmorgachev)</span>
+    <span class="issues-meta-item">commented 2026-01-21 21:11 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    The log above contains exact issue from `ApplyBLSGuardianSlotReservation` (0.032335451875111843916048462901 is exact number and error which was in initial issues)
 => with high probability it's not another issue
 If it'd be one more issue in inference module, the whole chain would halt. I assume 0.2.7 binary was used (e.g. `.inference/cosmovisor` directory was recreated or symlinks inside modified)
 
 Closing if there is no new info
+  </div>
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #546](https://github.com/gonka-ai/gonka/issues/546) every 6 hours.

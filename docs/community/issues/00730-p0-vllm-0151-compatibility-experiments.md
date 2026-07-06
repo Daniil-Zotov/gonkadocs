@@ -2,39 +2,49 @@
 title: "#730 — [P0] vLLM 0.15.1 Compatibility Experiments"
 source: https://github.com/gonka-ai/gonka/issues/730
 issue_number: 730
-synced_at: 2026-07-06T09:52:32Z
+synced_at: 2026-07-06T15:05:59Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #730](https://github.com/gonka-ai/gonka/issues/730) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+    [P0] vLLM 0.15.1 Compatibility Experiments
+    <span class="issues-number">#730</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Closed</span>
+    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-11 01:26 UTC</span>
+    <span class="issues-meta-item">2 comments</span>
+    <span class="issues-meta-item">Updated 2026-03-24 00:15 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🔴 [P0] vLLM 0.15.1 Compatibility Experiments
-
-**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2026-02-11 01:26 UTC · **Updated:** 2026-03-24 00:15 UTC
-
-**Веха:** v0.2.11
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 *(empty)*
+</div>
 
 ---
 
 ## 💬 Comments (2)
 
-### Комментарий 1 — [@tamazgadaev](https://github.com/tamazgadaev)
-
-*2026-03-03 03:04 UTC*
-
-PoC and inference (tentatively) seem compatible, in the next 2 days we'll try to deploy 2 nodes with 15 version and know for sute about the comaptibility
-
-### Комментарий 2 — [@baychak](https://github.com/baychak)
-
-*2026-03-17 19:15 UTC*
-
-# ML Node Migration to vLLM 0.15.1 — Results and Artifacts
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@tamazgadaev](https://github.com/tamazgadaev)</span>
+    <span class="issues-meta-item">commented 2026-03-03 03:04 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    PoC and inference (tentatively) seem compatible, in the next 2 days we'll try to deploy 2 nodes with 15 version and know for sute about the comaptibility
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@baychak](https://github.com/baychak)</span>
+    <span class="issues-meta-item">commented 2026-03-17 19:15 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    # ML Node Migration to vLLM 0.15.1 — Results and Artifacts
 
 ## Summary
 
@@ -161,3 +171,9 @@ All GPU pairs show close distances, meaning PoC validation passes successfully a
 | Tamaz Gadaev | [@tamazgadaev](https://github.com/tamazgadaev) | PoC architecture, review, and fixes on the Gonka core team side |
 
 
+  </div>
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #730](https://github.com/gonka-ai/gonka/issues/730) every 6 hours.

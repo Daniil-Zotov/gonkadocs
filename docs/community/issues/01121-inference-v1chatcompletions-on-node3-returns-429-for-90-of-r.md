@@ -2,20 +2,26 @@
 title: "#1121 — Inference /v1/chat/completions on node3 returns 429 for ~90% of requests — single live TA caps community gateways at ~10% pass-rate"
 source: https://github.com/gonka-ai/gonka/issues/1121
 issue_number: 1121
-synced_at: 2026-07-06T09:52:02Z
+synced_at: 2026-07-06T15:05:28Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #1121](https://github.com/gonka-ai/gonka/issues/1121) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+    Inference /v1/chat/completions on node3 returns 429 for ~90% of requests — single live TA caps community gateways at ~10% pass-rate
+    <span class="issues-number">#1121</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Closed</span>
+    <span class="issues-meta-item">[@unameisfine](https://github.com/unameisfine) opened 2026-04-26 22:40 UTC</span>
+    <span class="issues-meta-item">2 comments</span>
+    <span class="issues-meta-item">Updated 2026-05-21 21:03 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🔴 Inference /v1/chat/completions on node3 returns 429 for ~90% of requests — single live TA caps community gateways at ~10% pass-rate
-
-**Author:** [@unameisfine](https://github.com/unameisfine) · **State:** Closed · **Created:** 2026-04-26 22:40 UTC · **Updated:** 2026-05-21 21:03 UTC
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 ## Summary
 
 `POST /v1/chat/completions` on the only currently-reachable Transfer Agent
@@ -154,16 +160,19 @@ so the SDK delegate path is effectively unused.
 Happy to share full request/response logs, sample failing transactions
 or any benchmark scripts on request.
 
+</div>
 
 ---
 
 ## 💬 Comments (2)
 
-### Комментарий 1 — [@gonkalabs](https://github.com/gonkalabs)
-
-*2026-04-30 09:52 UTC*
-
-Hey @unameisfine - this is the GonkaLabs team.
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@gonkalabs](https://github.com/gonkalabs)</span>
+    <span class="issues-meta-item">commented 2026-04-30 09:52 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Hey @unameisfine - this is the GonkaLabs team.
 
 To address your question about proxy.gonka.gg consistently sitting above 90% uptime: no, we don't have any special privileges on the network. Here's what's actually under the hood:
 
@@ -171,9 +180,18 @@ Smart TA rotation - we hop between Transfer Agents instead of pinning to a singl
 A small upstream wallet pool (3 wallets) - purely for distributing signing load across multiple identities. It doesn't grant any special standing on the network; any user can do the same.
 Configuration tuned via an autoresearch loop - we ran a Karpathy-style trial-and-error loop on the proxy's configuration, optimizing for a single metric: percentage of successful chat completions. Once you have a clean metric, almost any system can be improved by iterating on it.
 So the answer is just: aggressive tuning, nothing more. Everything is open source at https://github.com/gonkalabs/opengnk — feel free to fork it and reproduce the same results.
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span class="issues-meta-item">commented 2026-05-21 21:03 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    @unameisfine Please note that the Developer Quickstart has been significantly updated: https://gonka.ai/docs/developer/quickstart/ If you still have any questions after reviewing it, please create a new issue.
+  </div>
+</div>
 
-### Комментарий 2 — [@tcharchian](https://github.com/tcharchian)
+---
 
-*2026-05-21 21:03 UTC*
-
-@unameisfine Please note that the Developer Quickstart has been significantly updated: https://gonka.ai/docs/developer/quickstart/ If you still have any questions after reviewing it, please create a new issue.
+> 🔄 **Auto-synced** from [Issue #1121](https://github.com/gonka-ai/gonka/issues/1121) every 6 hours.

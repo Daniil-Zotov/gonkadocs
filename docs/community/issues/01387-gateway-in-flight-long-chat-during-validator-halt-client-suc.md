@@ -2,7 +2,7 @@
 title: "#1387 — Gateway in-flight long chat during validator halt: client success vs request outcome failed"
 source: https://github.com/gonka-ai/gonka/issues/1387
 issue_number: 1387
-synced_at: 2026-07-06T10:26:29Z
+synced_at: 2026-07-06T15:04:54Z
 template: issues-main.html
 ---
 
@@ -230,4 +230,4 @@ Requires gateway on 702111 with v2 binary mount and Inference phase (PoC finishe
 
 ---
 
-> 🔄 **Auto-synced:** from [Issue #1387](https://github.com/gonka-ai/gonka/issues/1387) every 6 hours.
+> 🔄 **Auto-synced** from [Issue #1387](https://github.com/gonka-ai/gonka/issues/1387) every 6 hours.

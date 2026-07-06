@@ -2,20 +2,26 @@
 title: "#447 — Node Registration Does Not Update After Migration (API stuck using old on-chain config)"
 source: https://github.com/gonka-ai/gonka/issues/447
 issue_number: 447
-synced_at: 2026-07-06T09:51:52Z
+synced_at: 2026-07-06T15:05:12Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #447](https://github.com/gonka-ai/gonka/issues/447) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+    Node Registration Does Not Update After Migration (API stuck using old on-chain config)
+    <span class="issues-number">#447</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Open</span>
+    <span class="issues-meta-item">[@Asplana92](https://github.com/Asplana92) opened 2025-11-20 03:02 UTC</span>
+    <span class="issues-meta-item">2 comments</span>
+    <span class="issues-meta-item">Updated 2026-06-11 19:09 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🟢 Node Registration Does Not Update After Migration (API stuck using old on-chain config)
-
-**Author:** [@Asplana92](https://github.com/Asplana92) · **State:** Open · **Created:** 2025-11-20 03:02 UTC · **Updated:** 2026-06-11 19:09 UTC
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 🐞 [BUG] Node Registration Cannot Update After Migration (stuck on old on-chain state; diff returns no changes)
 Summary
 
@@ -277,23 +283,29 @@ raw output of inferenced query inference hardware-nodes-all
 
 
 
+</div>
 
 ---
 
 ## 💬 Comments (2)
 
-### Комментарий 1 — [@ASLanin](https://github.com/ASLanin)
-
-*2025-11-24 21:21 UTC*
-
-As far as I get it the api container's (ghcr.io/product-science/api:0.2.5) main process does not reread or at least do not apply `node-config.json` after the first time creation of  the `.dapi/gonka.db`
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@ASLanin](https://github.com/ASLanin)</span>
+    <span class="issues-meta-item">commented 2025-11-24 21:21 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    As far as I get it the api container's (ghcr.io/product-science/api:0.2.5) main process does not reread or at least do not apply `node-config.json` after the first time creation of  the `.dapi/gonka.db`
 query from the db `sqlite> SELECT * FROM inference_nodes LIMIT 20;` shows first time used data in `models_json` regardless of `node-config.json` contents at the last run. May be all other params are WORM in db.
-
-### Комментарий 2 — [@redstartechno](https://github.com/redstartechno)
-
-*2026-06-11 19:09 UTC*
-
-I dug into this from the current `main` code while looking for the cause, and found two separate layers that together produce the "stuck registration" behavior. Sharing in case it helps — I'm a contributor, not a maintainer, so treat the design parts as observations.
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@redstartechno](https://github.com/redstartechno)</span>
+    <span class="issues-meta-item">commented 2026-06-11 19:09 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    I dug into this from the current `main` code while looking for the cause, and found two separate layers that together produce the "stuck registration" behavior. Sharing in case it helps — I'm a contributor, not a maintainer, so treat the design parts as observations.
 
 **Layer 1 — `node_config.json` is merged only once, by design.**
 `ConfigManager.LoadNodeConfig` (`decentralized-api/apiconfig/config_manager.go`) merges `node_config.json` into the API's local database a single time, gated by a `node_config_merged` flag stored in that database. After the first run, edits to `node_config.json` are intentionally ignored ("Node config already merged. Skipping"). Runtime node management is expected to go through the admin API instead: `POST/PUT/DELETE /admin/v1/nodes` (`internal/server/admin/server.go`). Two practical consequences for your case:
@@ -309,3 +321,9 @@ Note that your specific snapshot (on-chain models/hardware completely different 
 One related limitation while reading the code: `InferencePort` is not part of the on-chain `HardwareNode` record at all (only the PoC port is stored), so inference-port-only changes can't be detected by this mechanism regardless.
 
 Whether `node_config.json` should stay merge-once (vs. re-syncing on restart) is a design question for the maintainers — the operator expectation in this issue suggests it at least deserves clearer documentation.
+  </div>
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #447](https://github.com/gonka-ai/gonka/issues/447) every 6 hours.

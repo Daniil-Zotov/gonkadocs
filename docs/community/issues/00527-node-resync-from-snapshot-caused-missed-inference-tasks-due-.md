@@ -2,20 +2,26 @@
 title: "#527 — Node resync from snapshot caused missed inference tasks due to large application.db"
 source: https://github.com/gonka-ai/gonka/issues/527
 issue_number: 527
-synced_at: 2026-07-06T09:53:09Z
+synced_at: 2026-07-06T15:06:39Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #527](https://github.com/gonka-ai/gonka/issues/527) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+    Node resync from snapshot caused missed inference tasks due to large application.db
+    <span class="issues-number">#527</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Closed</span>
+    <span class="issues-meta-item">[@bingcongxihaha](https://github.com/bingcongxihaha) opened 2026-01-06 16:35 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-01-22 00:08 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🔴 Node resync from snapshot caused missed inference tasks due to large application.db
-
-**Author:** [@bingcongxihaha](https://github.com/bingcongxihaha) · **State:** Closed · **Created:** 2026-01-06 16:35 UTC · **Updated:** 2026-01-22 00:08 UTC
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 Hi,
 
 I encountered an issue with my node where the application.db grew too large.
@@ -29,18 +35,27 @@ Or is there a recommended approach to avoid losing inference tasks when a resync
 
 Any guidance or best practices would be greatly appreciated.
 Thanks in advance for your help.
+</div>
 
 ---
 
 ## 💬 Comments (1)
 
-### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
-
-*2026-01-22 00:08 UTC*
-
-Hi @bingcongxihaha! Unfortunately, no inference tasks that are missed while a node is offline (e.g. during resync) cannot be recovered or compensated retroactively. Inference assignment and PoC are performed in real time. If a node is not running and serving requests during that period, those inference opportunities are simply lost.  
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span class="issues-meta-item">commented 2026-01-22 00:08 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Hi @bingcongxihaha! Unfortunately, no inference tasks that are missed while a node is offline (e.g. during resync) cannot be recovered or compensated retroactively. Inference assignment and PoC are performed in real time. If a node is not running and serving requests during that period, those inference opportunities are simply lost.  
 
 The goal is to prevent forced resyncs by controlling database growth and disk usage.
 
 Cosmovisor creates a full backup of the .`inference/data` directory during upgrades. Make sure sufficient disk space is available. If disk usage is high, older backups in `.inference` [can be safely removed. ](https://gonka.ai/FAQ/#how-much-free-disk-space-is-required-for-a-cosmovisor-update-and-how-can-i-safely-remove-old-backups-from-the-inference-directory)
 Large `application.db` files can be reduced using [these techniques.](https://gonka.ai/FAQ/#why-is-my-applicationdb-growing-so-large-and-how-do-i-fix-it)
+  </div>
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #527](https://github.com/gonka-ai/gonka/issues/527) every 6 hours.

@@ -2,22 +2,26 @@
 title: "#1080 — Bridge: Stale epoch keys can authorize withdrawals up to 365 epochs after rotation"
 source: https://github.com/gonka-ai/gonka/issues/1080
 issue_number: 1080
-synced_at: 2026-07-06T09:51:45Z
+synced_at: 2026-07-06T15:05:04Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #1080](https://github.com/gonka-ai/gonka/issues/1080) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+    Bridge: Stale epoch keys can authorize withdrawals up to 365 epochs after rotation
+    <span class="issues-number">#1080</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Open</span>
+    <span class="issues-meta-item">[@Doog-bot534](https://github.com/Doog-bot534) opened 2026-04-16 03:24 UTC</span>
+    <span class="issues-meta-item">2 comments</span>
+    <span class="issues-meta-item">Updated 2026-06-25 01:46 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🟢 Bridge: Stale epoch keys can authorize withdrawals up to 365 epochs after rotation
-
-**Author:** [@Doog-bot534](https://github.com/Doog-bot534) · **State:** Open · **Created:** 2026-04-16 03:24 UTC · **Updated:** 2026-06-25 01:46 UTC
-
-**Веха:** v0.2.14
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 ## Summary
 
 `withdraw()` and `mintWithSignature()` in `BridgeContract.sol` accept signatures from **any historical epoch** as long as the epoch's group key has not been cleaned up by `_cleanupOldEpochs`. The cleanup only removes epochs older than `latestEpochId - 365`.
@@ -72,20 +76,32 @@ If input y-coordinate >= field prime p, the subtraction produces an incorrect re
 ---
 
 Payout address: `gonka10zaal553duxp05nvfpqtsqrm2g0j6j34r8nan7`
+</div>
 
 ---
 
 ## 💬 Comments (2)
 
-### Комментарий 1 — [@Ryanchen911](https://github.com/Ryanchen911)
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@Ryanchen911](https://github.com/Ryanchen911)</span>
+    <span class="issues-meta-item">commented 2026-06-23 05:59 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    hi @tcharchian , does this issue need help, maybe I can fix it.
 
-*2026-06-23 05:59 UTC*
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span class="issues-meta-item">commented 2026-06-25 01:46 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Hey @Ryanchen911, let's wait for triage from @GLiberman first please 
+  </div>
+</div>
 
-hi @tcharchian , does this issue need help, maybe I can fix it.
+---
 
-
-### Комментарий 2 — [@tcharchian](https://github.com/tcharchian)
-
-*2026-06-25 01:46 UTC*
-
-Hey @Ryanchen911, let's wait for triage from @GLiberman first please 
+> 🔄 **Auto-synced** from [Issue #1080](https://github.com/gonka-ai/gonka/issues/1080) every 6 hours.

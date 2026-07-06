@@ -2,22 +2,26 @@
 title: "#1198 — Re-validate VLM inference and validation results from #1026"
 source: https://github.com/gonka-ai/gonka/issues/1198
 issue_number: 1198
-synced_at: 2026-07-06T09:51:52Z
+synced_at: 2026-07-06T15:05:12Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #1198](https://github.com/gonka-ai/gonka/issues/1198) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+    Re-validate VLM inference and validation results from #1026
+    <span class="issues-number">#1198</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Open</span>
+    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-05-19 23:03 UTC</span>
+    <span class="issues-meta-item">7 comments</span>
+    <span class="issues-meta-item">Updated 2026-06-11 09:07 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span></div>
+</div>
 
-# 🟢 Re-validate VLM inference and validation results from #1026
-
-**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Open · **Created:** 2026-05-19 23:03 UTC · **Updated:** 2026-06-11 09:07 UTC
-
-**Labels:** `up-for-grabs`
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 Independent re-check of the VLM inference and validation results reported in #1026 before they are used for protocol, model onboarding, or host-facing decisions.
 
 The goal is not to redo the full research from scratch, but to verify that the reported methodology, scripts, artifacts, thresholds, and conclusions are reproducible and technically sound.
@@ -91,22 +95,28 @@ Please provide a short report in this issue with:
     * proceed after minor fixes
     * needs more validation
     * not ready
+</div>
 
 ---
 
 ## 💬 Comments (7)
 
-### Комментарий 1 — [@Ryanchen911](https://github.com/Ryanchen911)
-
-*2026-05-22 08:30 UTC*
-
-hi Tania ,i plan to take this one
-
-### Комментарий 2 — [@Ryanchen911](https://github.com/Ryanchen911)
-
-*2026-05-25 09:34 UTC*
-
-cc @fedor-konovalenko @tcharchian
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@Ryanchen911](https://github.com/Ryanchen911)</span>
+    <span class="issues-meta-item">commented 2026-05-22 08:30 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    hi Tania ,i plan to take this one
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@Ryanchen911](https://github.com/Ryanchen911)</span>
+    <span class="issues-meta-item">commented 2026-05-25 09:34 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    cc @fedor-konovalenko @tcharchian
 # Independent Re-Check of VLM Inference/Validation Results (#1026, PR #1150)
 
 **Reviewer:** @Ryanchen911
@@ -255,12 +265,15 @@ In rough priority order:
 
 Once Q1–Q4 are addressed, an updated headline number from a held-out evaluation would be the right basis for the onboarding decision. Happy to help review any follow-up changes.
 
-
-### Комментарий 3 — [@fedor-konovalenko](https://github.com/fedor-konovalenko)
-
-*2026-06-06 22:43 UTC*
-
-First of all, thank you very much for such detailed, valuable, and helpful comments and feedback. I will do my best to take them into account.
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@fedor-konovalenko](https://github.com/fedor-konovalenko)</span>
+    <span class="issues-meta-item">commented 2026-06-06 22:43 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    First of all, thank you very much for such detailed, valuable, and helpful comments and feedback. I will do my best to take them into account.
 
 
 **Q1. Were inference and validation actually run on different hosts?**
@@ -294,35 +307,53 @@ O8 - The proposed verification will require additional experiments with larger m
 - download_test_set.py - fixed
 - The notebook's gonka_path - fixed
 - PR base branch is tg/benchamrk_scripts_update - the choice of this particular branch as the baseline was agreed upon by the team
-
-### Комментарий 4 — [@Ryanchen911](https://github.com/Ryanchen911)
-
-*2026-06-08 01:55 UTC*
-
-Thanks for the thorough turnaround — this addresses almost everything, and the deferral of O3/O4/O8 to the integration stage is fine by me.
-
-### Комментарий 5 — [@fedor-konovalenko](https://github.com/fedor-konovalenko)
-
-*2026-06-10 13:28 UTC*
-
-Thanks! 
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@Ryanchen911](https://github.com/Ryanchen911)</span>
+    <span class="issues-meta-item">commented 2026-06-08 01:55 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Thanks for the thorough turnaround — this addresses almost everything, and the deferral of O3/O4/O8 to the integration stage is fine by me.
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@fedor-konovalenko](https://github.com/fedor-konovalenko)</span>
+    <span class="issues-meta-item">commented 2026-06-10 13:28 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Thanks! 
 
 And here are results of fraud detection scenario: 7B VLM as 235B VLM.
 F1 score = 100%
 
 [notebook](https://github.com/machine-intelligence-laboratory/gonka/blob/32975b57567bcf09e8c858e5bd57259cba773943/mlnode/packages/benchmarks/notebooks/qwen3-VL-235B-vs-7B_thresholds.ipynb)
-
-### Комментарий 6 — [@Ryanchen911](https://github.com/Ryanchen911)
-
-*2026-06-11 08:42 UTC*
-
-Overall this looks good to me. Thanks for the thorough iterations.
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@Ryanchen911](https://github.com/Ryanchen911)</span>
+    <span class="issues-meta-item">commented 2026-06-11 08:42 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Overall this looks good to me. Thanks for the thorough iterations.
 
 One tiny carryover in qwen3-VL-235B-vs-7B_thresholds.ipynb: the fraud cell still says "99% of fraud samples" (output is 1.0) and the honest cell says "INT8 on both sides" though the set here is FP8 — leftover template text, same as O1. Easy fix whenever.
-
-### Комментарий 7 — [@fedor-konovalenko](https://github.com/fedor-konovalenko)
-
-*2026-06-11 09:07 UTC*
-
-Sorry, I really used old template :(
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@fedor-konovalenko](https://github.com/fedor-konovalenko)</span>
+    <span class="issues-meta-item">commented 2026-06-11 09:07 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Sorry, I really used old template :(
 Fixed
+  </div>
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #1198](https://github.com/gonka-ai/gonka/issues/1198) every 6 hours.

@@ -2,20 +2,26 @@
 title: "#438 — 🐛 Bug: Incorrect Governance Model Matching Causes Registration Failures"
 source: https://github.com/gonka-ai/gonka/issues/438
 issue_number: 438
-synced_at: 2026-07-06T09:52:10Z
+synced_at: 2026-07-06T15:05:36Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #438](https://github.com/gonka-ai/gonka/issues/438) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+    🐛 Bug: Incorrect Governance Model Matching Causes Registration Failures
+    <span class="issues-number">#438</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Closed</span>
+    <span class="issues-meta-item">[@Asplana92](https://github.com/Asplana92) opened 2025-11-15 23:53 UTC</span>
+    <span class="issues-meta-item">2 comments</span>
+    <span class="issues-meta-item">Updated 2026-04-28 20:48 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🔴 🐛 Bug: Incorrect Governance Model Matching Causes Registration Failures
-
-**Author:** [@Asplana92](https://github.com/Asplana92) · **State:** Closed · **Created:** 2025-11-15 23:53 UTC · **Updated:** 2026-04-28 20:48 UTC
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 # 🐛 Bug Report: Incorrect Governance Model Matching in API
 
 **Severity:** Medium  
@@ -373,21 +379,33 @@ Looking forward to contributing to improved operator experience! 🚀
 **Date:** November 15, 2025  
 **Bounty Category:** Bug Discovery + Improvement Proposal  
 
+</div>
 
 ---
 
 ## 💬 Comments (2)
 
-### Комментарий 1 — [@AlexeySamosadov](https://github.com/AlexeySamosadov)
-
-*2026-02-08 14:14 UTC*
-
-PR created: https://github.com/gonka-ai/gonka/pull/680
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
+    <span class="issues-meta-item">commented 2026-02-08 14:14 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    PR created: https://github.com/gonka-ai/gonka/pull/680
 
 Improves error messages for invalid governance models.
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@0xgonka](https://github.com/0xgonka)</span>
+    <span class="issues-meta-item">commented 2026-04-28 20:48 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    already fixed
+  </div>
+</div>
 
-### Комментарий 2 — [@0xgonka](https://github.com/0xgonka)
+---
 
-*2026-04-28 20:48 UTC*
-
-already fixed
+> 🔄 **Auto-synced** from [Issue #438](https://github.com/gonka-ai/gonka/issues/438) every 6 hours.

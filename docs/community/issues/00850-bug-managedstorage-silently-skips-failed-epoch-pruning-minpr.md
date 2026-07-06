@@ -2,20 +2,26 @@
 title: "#850 — Bug: ManagedStorage silently skips failed epoch pruning — minPruned advanced before goroutines complete"
 source: https://github.com/gonka-ai/gonka/issues/850
 issue_number: 850
-synced_at: 2026-07-06T09:52:46Z
+synced_at: 2026-07-06T15:06:15Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #850](https://github.com/gonka-ai/gonka/issues/850) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+    Bug: ManagedStorage silently skips failed epoch pruning — minPruned advanced before goroutines complete
+    <span class="issues-number">#850</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Open</span>
+    <span class="issues-meta-item">[@Mayveskii](https://github.com/Mayveskii) opened 2026-03-03 12:04 UTC</span>
+    <span class="issues-meta-item">0 comments</span>
+    <span class="issues-meta-item">Updated 2026-03-03 12:04 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🟢 Bug: ManagedStorage silently skips failed epoch pruning — minPruned advanced before goroutines complete
-
-**Author:** [@Mayveskii](https://github.com/Mayveskii) · **State:** Open · **Created:** 2026-03-03 12:04 UTC · **Updated:** 2026-03-03 12:04 UTC
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 ## Location
 
 `decentralized-api/payloadstorage/managed_storage.go` — lines 129–138
@@ -69,3 +75,8 @@ for epoch := m.minPruned; epoch < threshold; epoch++ {
 
 Alternatively, if async pruning is required for performance, track per-epoch completion via a channel or atomic and only advance `m.minPruned` for contiguously completed epochs.
 
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #850](https://github.com/gonka-ai/gonka/issues/850) every 6 hours.

@@ -2,20 +2,26 @@
 title: "#431 — inferenced:0.2.4 contains outdated hard-coded genesis → AppHash mismatch prevents all nodes from syncing"
 source: https://github.com/gonka-ai/gonka/issues/431
 issue_number: 431
-synced_at: 2026-07-06T09:53:37Z
+synced_at: 2026-07-06T15:07:08Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #431](https://github.com/gonka-ai/gonka/issues/431) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+    inferenced:0.2.4 contains outdated hard-coded genesis → AppHash mismatch prevents all nodes from syncing
+    <span class="issues-number">#431</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Closed</span>
+    <span class="issues-meta-item">[@Asplana92](https://github.com/Asplana92) opened 2025-11-13 20:39 UTC</span>
+    <span class="issues-meta-item">6 comments</span>
+    <span class="issues-meta-item">Updated 2025-11-15 22:57 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🔴 inferenced:0.2.4 contains outdated hard-coded genesis → AppHash mismatch prevents all nodes from syncing
-
-**Author:** [@Asplana92](https://github.com/Asplana92) · **State:** Closed · **Created:** 2025-11-13 20:39 UTC · **Updated:** 2025-11-15 22:57 UTC
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 🚨 TL;DR / Summary
 
 The Docker image ghcr.io/product-science/inferenced:0.2.4 contains a hard-coded outdated genesis, causing a permanent AppHash mismatch with the live chain.
@@ -199,16 +205,19 @@ Happy to test patched builds, provide logs, configs, or help verify new images.
 
 
 
+</div>
 
 ---
 
 ## 💬 Comments (6)
 
-### Комментарий 1 — [@gmorgachev](https://github.com/gmorgachev)
-
-*2025-11-14 01:08 UTC*
-
-Hello! To reproduce from block 1 (assuming that from the message in discord that your node stucked at height=1) you need to start with initial release and apply all upgrades and patches starting v0.2.0:
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@gmorgachev](https://github.com/gmorgachev)</span>
+    <span class="issues-meta-item">commented 2025-11-14 01:08 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Hello! To reproduce from block 1 (assuming that from the message in discord that your node stucked at height=1) you need to start with initial release and apply all upgrades and patches starting v0.2.0:
 ```
 https://github.com/gonka-ai/gonka/releases/tag/release%2Fv0.2.0
 ```
@@ -225,12 +234,15 @@ Version v0.2.4 can be used to load from snapshot's after v0.2.4. Successfully re
 
 
 
-
-### Комментарий 2 — [@Asplana92](https://github.com/Asplana92)
-
-*2025-11-14 02:20 UTC*
-
-Hi Gleb, thanks for the detailed explanation!
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@Asplana92](https://github.com/Asplana92)</span>
+    <span class="issues-meta-item">commented 2025-11-14 02:20 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Hi Gleb, thanks for the detailed explanation!
 
 I understand — to reproduce the block-1 issue, I need to start from the initial version and apply all updates incrementally starting from v0.2.0.
 
@@ -273,12 +285,15 @@ the exact steps I followed
 or if you want me to test with version v0.2.0
 
 Happy to help reproduce and debug this! 🙌
-
-### Комментарий 3 — [@Asplana92](https://github.com/Asplana92)
-
-*2025-11-14 02:32 UTC*
-
-I understand that v0.2.4 requires either:
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@Asplana92](https://github.com/Asplana92)</span>
+    <span class="issues-meta-item">commented 2025-11-14 02:32 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    I understand that v0.2.4 requires either:
 - A) Starting from v0.2.0 and upgrading through all versions
 - B) Using a snapshot created after v0.2.4
 
@@ -296,12 +311,15 @@ Your reproduction succeeded with genesis.json - did you disable State Sync or us
 **My preference:** Use snapshot (Option B) if available, as it's faster for new deployments.
 
 Thank you for your help! 🚀
-
-### Комментарий 4 — [@Asplana92](https://github.com/Asplana92)
-
-*2025-11-14 03:19 UTC*
-
-@glebmorgachev,
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@Asplana92](https://github.com/Asplana92)</span>
+    <span class="issues-meta-item">commented 2025-11-14 03:19 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    @glebmorgachev,
 Thank you for confirming the upgrade path from v0.2.0!
 
 Before I start the full sync process from v0.2.0, I have one important question:
@@ -322,24 +340,36 @@ This will significantly help new node operators get started without needing mult
 If no snapshot is available yet, I’ll proceed with the full upgrade path.
 
 Thank you very much!
-
-### Комментарий 5 — [@gmorgachev](https://github.com/gmorgachev)
-
-*2025-11-14 11:00 UTC*
-
-docker compose files in main branch reference pre-build docker containers https://github.com/gonka-ai/gonka/blob/main/deploy/join/docker-compose.yml
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@gmorgachev](https://github.com/gmorgachev)</span>
+    <span class="issues-meta-item">commented 2025-11-14 11:00 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    docker compose files in main branch reference pre-build docker containers https://github.com/gonka-ai/gonka/blob/main/deploy/join/docker-compose.yml
 
 The same ones can be built from main branch
 
 The [quickstart](https://gonka.ai/host/quickstart/) instruction deploys from snapshot automatically until not disabled explicitly 
-
-### Комментарий 6 — [@Asplana92](https://github.com/Asplana92)
-
-*2025-11-15 22:57 UTC*
-
-Great news — the issue is fully resolved! 🎉  
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@Asplana92](https://github.com/Asplana92)</span>
+    <span class="issues-meta-item">commented 2025-11-15 22:57 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Great news — the issue is fully resolved! 🎉  
 Everything works perfectly now. Thank you so much for the quick help and support!
 
 I’ll wait for the new epoch to start so I can connect again.  
 Closing the issue — thanks once again! 🚀
 
+  </div>
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #431](https://github.com/gonka-ai/gonka/issues/431) every 6 hours.

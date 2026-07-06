@@ -2,20 +2,26 @@
 title: "#979 — `devshards` escrow: fund loss on unsettled pruning + missing overflow guards in host stats aggregation"
 source: https://github.com/gonka-ai/gonka/issues/979
 issue_number: 979
-synced_at: 2026-07-06T09:52:07Z
+synced_at: 2026-07-06T15:05:33Z
 template: issues-main.html
 ---
 
-> 🔄 **Auto-synced:** from [Issue #979](https://github.com/gonka-ai/gonka/issues/979) every 6 hours. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+    `devshards` escrow: fund loss on unsettled pruning + missing overflow guards in host stats aggregation
+    <span class="issues-number">#979</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Closed</span>
+    <span class="issues-meta-item">[@unameisfine](https://github.com/unameisfine) opened 2026-03-30 17:05 UTC</span>
+    <span class="issues-meta-item">2 comments</span>
+    <span class="issues-meta-item">Updated 2026-04-29 21:27 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🔴 `devshards` escrow: fund loss on unsettled pruning + missing overflow guards in host stats aggregation
-
-**Author:** [@unameisfine](https://github.com/unameisfine) · **State:** Closed · **Created:** 2026-03-30 17:05 UTC · **Updated:** 2026-04-29 21:27 UTC
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 ## Summary
 
 Three related bugs in subnet escrow settlement and pruning code (v0.2.11):
@@ -44,19 +50,31 @@ Three related bugs in subnet escrow settlement and pruning code (v0.2.11):
 - `inference-chain/x/inference/keeper/pruning.go` (GetSubnetPruner Remover)
 - `inference-chain/x/inference/keeper/subnet_host_stats.go` (AggregateSubnetHostStats)
 - `inference-chain/x/inference/keeper/msg_server_settle_subnet_escrow.go` (SettleSubnetEscrow)
+</div>
 
 ---
 
 ## 💬 Comments (2)
 
-### Комментарий 1 — [@unameisfine](https://github.com/unameisfine)
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@unameisfine](https://github.com/unameisfine)</span>
+    <span class="issues-meta-item">commented 2026-04-27 22:46 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Closing — covered by PRs #1013, #1014, #1015.
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span class="issues-meta-item">commented 2026-04-29 21:27 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    @akup please take a look
+  </div>
+</div>
 
-*2026-04-27 22:46 UTC*
+---
 
-Closing — covered by PRs #1013, #1014, #1015.
-
-### Комментарий 2 — [@tcharchian](https://github.com/tcharchian)
-
-*2026-04-29 21:27 UTC*
-
-@akup please take a look
+> 🔄 **Auto-synced** from [Issue #979](https://github.com/gonka-ai/gonka/issues/979) every 6 hours.
