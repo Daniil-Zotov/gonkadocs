@@ -7,25 +7,17 @@
     display: none !important;
   }
 
-  .md-content {
+  .issues-layout {
     display: flex;
     gap: 0;
-    max-width: none;
   }
 
-  .md-content__inner {
+  .issues-layout-main {
     flex: 1;
     min-width: 0;
-    order: 1;
   }
 
   .issues-sidebar {
-    order: 2;
-    position: sticky;
-    top: 76px;
-    align-self: flex-start;
-    max-height: calc(100vh - 76px);
-    overflow-y: auto;
     flex-shrink: 0;
     width: 240px;
     min-width: 240px;
@@ -91,16 +83,13 @@
 </style>
 {% endblock %}
 
-{% block container %}
-  <div class="md-content" data-md-component="content">
-    {% if "navigation.path" in features %}
-      {% include "partials/path.html" %}
-    {% endif %}
-    <article class="md-content__inner md-typeset">
-      {% include "partials/content.html" %}
-    </article>
-    {% include "partials/issues-sidebar.html" %}
+{% block content %}
+<div class="issues-layout">
+  <div class="issues-layout-main">
+    {{ page.content }}
   </div>
+  {% include "partials/issues-sidebar.html" %}
+</div>
 {% endblock %}
 
 {% block scripts %}
