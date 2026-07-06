@@ -13,8 +13,8 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 | Status | Title | Author | Votes | Avg. Bid | Closes |
 | :----- | :----- | :----- | ----: | -------: | :----- |
-| 🟢 | [Gonka Media Library by Saccade](./f215996d-e562-42b5-b2b1-400226e612fa/) | Dem | Démíngān | 0 | 0.00 GNK | 2026-07-10 |
-| 🟢 | [Go-To-Market Team for 3 Month to Set Up the Basis](./cb7f643f-3d56-47ec-9193-f9f2f80a99fb/) | Dem | Démíngān | 1 | 10.0K GNK | 2026-07-10 |
+| 🟢 | [Gonka Media Library by Saccade](./f215996d-e562-42b5-b2b1-400226e612fa/) | Dem \| Démíngān | 0 | 0.00 GNK | 2026-07-10 |
+| 🟢 | [Go-To-Market Team for 3 Month to Set Up the Basis](./cb7f643f-3d56-47ec-9193-f9f2f80a99fb/) | Dem \| Démíngān | 1 | 10.0K GNK | 2026-07-10 |
 | 🟢 | [Private Inc × Gonka — Network Growth Initiative](./ed8148eb-535e-4677-9a6b-5316c81c996a/) | Igor Alexeev | 1 | 10.0K GNK | 2026-07-14 |
 | 🟢 | [External Test Lab & Community DevNet](./205219a5-6ed2-4f25-8d22-fa7c65a45ba6/) | Sergii Paranko | 1 | 400.0K GNK | 2026-07-14 |
 | 🟢 | [Universal Continuous GPU Benchmark for Gonka Hosts (vLLM v0.19+, Anti-Sybil)](./673770df-0b72-4d04-a038-f8c12546817f/) | Evgenii Maksimenkov | 4 | 2.7M GNK | 2026-07-24 |
@@ -35,7 +35,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 | 🟢 | [Предложение по развитию игровой экосистемы блокчейна через турнирные пулы вознаг](./fd9989ca-7c5b-4a2f-baf4-2465e6915ba6/) | Victor | 1 | 10.0K GNK | 2026-09-10 |
 | 🟢 | [Улучшения для vote.gonka.vip](./b7083379-6dc5-4198-b9b0-1b8b98f0ac01/) | Alex A.A. | 1 | 10.0K GNK | 2026-12-24 |
 | 🟢 | [1. Team Veylox Grant Request](./66e6583a-27b4-4bae-91fb-8f0489736b0d/) | Slava MSE! | 0 | 0.00 GNK | 2030-01-01 |
-| 🟢 | [Team Gonka.AI | Inside Grant Request](./4792a93f-127a-4a0e-9a12-acd229c1e865/) | Slava MSE! | 0 | 0.00 GNK | 2030-01-01 |
+| 🟢 | [Team Gonka.AI \| Inside Grant Request](./4792a93f-127a-4a0e-9a12-acd229c1e865/) | Slava MSE! | 0 | 0.00 GNK | 2030-01-01 |
 
 
 ---
@@ -56,4 +56,4 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-07-06 17:20 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-07-06 17:28 UTC*

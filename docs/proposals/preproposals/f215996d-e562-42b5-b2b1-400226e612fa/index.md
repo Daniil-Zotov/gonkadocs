@@ -11,7 +11,7 @@ template: proposals-main.html
 
 | | |
 |:---|:---|
-| **Author** | Dem | Démíngān |
+| **Author** | Dem \| Démíngān |
 | **Created** | 2026-07-03 11:30 UTC |
 | **Closes** | 2026-07-10 11:28 UTC |
 | **Language** | EN |

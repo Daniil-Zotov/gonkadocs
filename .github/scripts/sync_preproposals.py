@@ -51,6 +51,17 @@ def clean_title(title):
     return re.sub(r'^#+\s*', '', title).strip()
 
 
+def escape_md_table(text):
+    """Escape characters that break markdown tables."""
+    if not text:
+        return ""
+    text = str(text)
+    text = text.replace("|", "\\|")
+    text = text.replace("\n", " ")
+    text = text.replace("\r", "")
+    return text
+
+
 def format_gnk(ngonka_str):
     try:
         val = int(ngonka_str) / 1_000_000_000
@@ -108,6 +119,7 @@ def render_voters_table(voters):
         addr = v.get("voter", "—")
         if len(addr) > 20:
             addr = addr[:8] + "..." + addr[-6:]
+        addr = escape_md_table(addr)
         amount = format_gnk(v.get("amount_ngonka", "0"))
         voted_at = v.get("voted_at", "")
         if voted_at:
@@ -116,6 +128,7 @@ def render_voters_table(voters):
                 voted_at = dt.strftime("%Y-%m-%d %H:%M")
             except (ValueError, TypeError):
                 pass
+        voted_at = escape_md_table(voted_at)
         lines.append(f"| `{addr}` | {amount} | {voted_at} |")
     return "\n".join(lines)
 
@@ -151,9 +164,10 @@ def render_comments(comments):
 def generate_proposal_page(proposal, detail, comments):
     pid = proposal["id"]
     title = clean_title(proposal.get("title", "Untitled"))
+    title_esc = escape_md_table(title)
     summary = proposal.get("summary", "")
     description = detail.get("description", "") if detail else ""
-    creator_name = proposal.get("creator_name", "Anonymous")
+    creator_name = escape_md_table(proposal.get("creator_name", "Anonymous"))
     creator_image = proposal.get("creator_image", "")
     created_at = proposal.get("created_at", "")
     closes_at = proposal.get("closes_at", "")
@@ -180,11 +194,11 @@ def generate_proposal_page(proposal, detail, comments):
     weighted_bid = format_gnk(tally.get("weighted_avg_bid_ngonka", "0"))
 
     md = f"""---
-title: "{title}"
+title: "{title_esc}"
 template: proposals-main.html
 ---
 
-# {title}
+# {title_esc}
 
 <div class="preproposal-header">
 
@@ -263,8 +277,8 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
         md += "| :----- | :----- | :----- | ----: | -------: | :----- |\n"
         for p in sorted(active, key=lambda x: x.get("closes_at", ""), reverse=False):
             pid = p["id"]
-            title = clean_title(p.get("title", "Untitled"))
-            author = p.get("creator_name", "—")
+            title = escape_md_table(clean_title(p.get("title", "Untitled")))
+            author = escape_md_table(p.get("creator_name", "—"))
             tally = p.get("tally", {})
             voter_count = tally.get("voter_count", 0)
             weighted_bid = format_gnk(tally.get("weighted_avg_bid_ngonka", "0"))
@@ -275,6 +289,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
                     closes_at = dt.strftime("%Y-%m-%d")
                 except (ValueError, TypeError):
                     pass
+            closes_at = escape_md_table(closes_at)
             slug = slugify(title)
             md += f"| 🟢 | [{title}](./{pid}/) | {author} | {voter_count} | {weighted_bid} | {closes_at} |\n"
     else:
@@ -292,8 +307,8 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
         md += "| :----- | :----- | :----- | ----: | -------: | :----- |\n"
         for p in sorted(expired, key=lambda x: x.get("closes_at", ""), reverse=True):
             pid = p["id"]
-            title = clean_title(p.get("title", "Untitled"))
-            author = p.get("creator_name", "—")
+            title = escape_md_table(clean_title(p.get("title", "Untitled")))
+            author = escape_md_table(p.get("creator_name", "—"))
             tally = p.get("tally", {})
             voter_count = tally.get("voter_count", 0)
             weighted_bid = format_gnk(tally.get("weighted_avg_bid_ngonka", "0"))
@@ -304,6 +319,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
                     closes_at = dt.strftime("%Y-%m-%d")
                 except (ValueError, TypeError):
                     pass
+            closes_at = escape_md_table(closes_at)
             md += f"| 🔴 | [{title}](./{pid}/) | {author} | {voter_count} | {weighted_bid} | {closes_at} |\n"
     else:
         md += "*No expired proposals.*\n"

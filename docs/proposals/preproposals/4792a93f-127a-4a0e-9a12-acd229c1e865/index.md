@@ -1,9 +1,9 @@
 ---
-title: "Team Gonka.AI | Inside Grant Request"
+title: "Team Gonka.AI \| Inside Grant Request"
 template: proposals-main.html
 ---
 
-# Team Gonka.AI | Inside Grant Request
+# Team Gonka.AI \| Inside Grant Request
 
 <div class="preproposal-header">
 
