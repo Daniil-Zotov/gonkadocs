@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:51:45Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1080](https://github.com/gonka-ai/gonka/issues/1080) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #1080](https://github.com/gonka-ai/gonka/issues/1080) every 6 hours. 
 
 # 🟢 Bridge: Stale epoch keys can authorize withdrawals up to 365 epochs after rotation
 
-**Автор:** [@Doog-bot534](https://github.com/Doog-bot534) · **Состояние:** Open · **Создано:** 2026-04-16 03:24 UTC · **Обновлено:** 2026-06-25 01:46 UTC
+**Author:** [@Doog-bot534](https://github.com/Doog-bot534) · **State:** Open · **Created:** 2026-04-16 03:24 UTC · **Updated:** 2026-06-25 01:46 UTC
 
 **Веха:** v0.2.14
 
@@ -75,7 +75,7 @@ Payout address: `gonka10zaal553duxp05nvfpqtsqrm2g0j6j34r8nan7`
 
 ---
 
-## 💬 Комментарии (2)
+## 💬 Comments (2)
 
 ### Комментарий 1 — [@Ryanchen911](https://github.com/Ryanchen911)
 

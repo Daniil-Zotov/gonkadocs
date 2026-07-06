@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:51:55Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #876](https://github.com/gonka-ai/gonka/issues/876) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #876](https://github.com/gonka-ai/gonka/issues/876) every 6 hours. 
 
 # 🔴 Signed /v1/chat/completions still panics on all three documented mainnet transfer-agent endpoints
 
-**Автор:** [@junior2wnw](https://github.com/junior2wnw) · **Состояние:** Closed · **Создано:** 2026-03-10 20:30 UTC · **Обновлено:** 2026-06-03 06:10 UTC
+**Author:** [@junior2wnw](https://github.com/junior2wnw) · **State:** Closed · **Created:** 2026-03-10 20:30 UTC · **Updated:** 2026-06-03 06:10 UTC
 
 **Веха:** v0.2.14
 
@@ -189,7 +189,7 @@ Wallet (if bounty attribution is relevant): `gonka1glph4syjlx347ptv2n7qfz67sryrh
 
 ---
 
-## 💬 Комментарии (13)
+## 💬 Comments (13)
 
 ### Комментарий 1 — [@junior2wnw](https://github.com/junior2wnw)
 

@@ -13,7 +13,7 @@ template: issues-main.html
     <span class="issues-number">#1397</span>
   </h1>
   <div class="issues-detail-meta">
-    <span class="issues-meta-item">Открыт</span>
+    <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item">[@yuritsin-code](https://github.com/yuritsin-code) opened 2026-07-04 15:26 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-07-04 17:14 UTC</span>
@@ -52,7 +52,7 @@ the network if useful.
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -90,4 +90,4 @@ Thanks for your time — this helps us understand the right strategy for deployi
 
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1397](https://github.com/gonka-ai/gonka/issues/1397) каждые 6 часов.
+> 🔄 **Auto-synced:** from [Issue #1397](https://github.com/gonka-ai/gonka/issues/1397) every 6 hours.

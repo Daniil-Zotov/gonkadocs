@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:52:18Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #728](https://github.com/gonka-ai/gonka/issues/728) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #728](https://github.com/gonka-ai/gonka/issues/728) every 6 hours. 
 
 # 🔴 [P0] Multimodel support
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2026-02-11 00:43 UTC · **Обновлено:** 2026-04-16 13:55 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2026-02-11 00:43 UTC · **Updated:** 2026-04-16 13:55 UTC
 
-**Метки:** `Priority: High`
+**Labels:** `Priority: High`
 
 **Веха:** v0.2.12
 
@@ -25,7 +25,7 @@ https://github.com/gonka-ai/gonka/tree/gm/multi-models/proposals/multi-model-poc
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@gmorgachev](https://github.com/gmorgachev)
 

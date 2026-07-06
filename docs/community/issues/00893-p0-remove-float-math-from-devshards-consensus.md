@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:52:06Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #893](https://github.com/gonka-ai/gonka/issues/893) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #893](https://github.com/gonka-ai/gonka/issues/893) every 6 hours. 
 
 # 🔴 [P0] Remove float math from `devshards` consensus
 
-**Автор:** [@Brgndy25](https://github.com/Brgndy25) · **Состояние:** Closed · **Создано:** 2026-03-16 13:52 UTC · **Обновлено:** 2026-04-29 21:44 UTC
+**Author:** [@Brgndy25](https://github.com/Brgndy25) · **State:** Closed · **Created:** 2026-03-16 13:52 UTC · **Updated:** 2026-04-29 21:44 UTC
 
-**Метки:** `Priority: High` `devshards`
+**Labels:** `Priority: High` `devshards`
 
 **Веха:** v0.2.12
 
@@ -28,7 +28,7 @@ machines, which can lead to state root divergence and consensus splits.
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@KKizilov](https://github.com/KKizilov)
 

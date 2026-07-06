@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:51:48Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1220](https://github.com/gonka-ai/gonka/issues/1220) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #1220](https://github.com/gonka-ai/gonka/issues/1220) every 6 hours. 
 
 # 🟢 [P0] Off-chain / devshard implementation track
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Open · **Создано:** 2026-05-21 22:00 UTC · **Обновлено:** 2026-06-24 00:31 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Open · **Created:** 2026-05-21 22:00 UTC · **Updated:** 2026-06-24 00:31 UTC
 
-**Метки:** `up-for-grabs` `Priority: High`
+**Labels:** `up-for-grabs` `Priority: High`
 
 **Веха:** v0.2.15
 
@@ -24,7 +24,7 @@ Open for community contributors. Multiple parallel efforts in this direction are
 
 ---
 
-## 💬 Комментарии (2)
+## 💬 Comments (2)
 
 ### Комментарий 1 — [@orvionx](https://github.com/orvionx)
 

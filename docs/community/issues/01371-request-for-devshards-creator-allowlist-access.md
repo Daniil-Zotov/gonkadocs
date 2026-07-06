@@ -13,7 +13,7 @@ template: issues-main.html
     <span class="issues-number">#1371</span>
   </h1>
   <div class="issues-detail-meta">
-    <span class="issues-meta-item">Закрыт</span>
+    <span class="issues-meta-item">Closed</span>
     <span class="issues-meta-item">[@GERAunits](https://github.com/GERAunits) opened 2026-06-28 11:40 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-07-03 00:13 UTC</span>
@@ -40,7 +40,7 @@ Use case: personal self-hosted gateway for AI-assisted programming, code review,
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -58,4 +58,4 @@ If what you need is simply an OpenAI-compatible endpoint for AI-assisted coding 
 
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1371](https://github.com/gonka-ai/gonka/issues/1371) каждые 6 часов.
+> 🔄 **Auto-synced:** from [Issue #1371](https://github.com/gonka-ai/gonka/issues/1371) every 6 hours.

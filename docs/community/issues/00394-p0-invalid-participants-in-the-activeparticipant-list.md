@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:53:35Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #394](https://github.com/gonka-ai/gonka/issues/394) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #394](https://github.com/gonka-ai/gonka/issues/394) every 6 hours. 
 
 # 🔴 [P0] Invalid participants in the `ActiveParticipant` list
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2025-10-16 00:22 UTC · **Обновлено:** 2025-12-02 20:51 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2025-10-16 00:22 UTC · **Updated:** 2025-12-02 20:51 UTC
 
 ---
 
@@ -20,7 +20,7 @@ Proper removal (Check that we also jail => no voting power)
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
 

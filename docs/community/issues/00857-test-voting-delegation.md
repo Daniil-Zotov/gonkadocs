@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:45Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #857](https://github.com/gonka-ai/gonka/issues/857) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #857](https://github.com/gonka-ai/gonka/issues/857) every 6 hours. 
 
 # 🔴 Test voting delegation
 
-**Автор:** [@maria-mitina](https://github.com/maria-mitina) · **Состояние:** Closed · **Создано:** 2026-03-03 18:30 UTC · **Обновлено:** 2026-03-06 00:15 UTC
+**Author:** [@maria-mitina](https://github.com/maria-mitina) · **State:** Closed · **Created:** 2026-03-03 18:30 UTC · **Updated:** 2026-03-06 00:15 UTC
 
 **Веха:** v0.2.11
 
@@ -31,7 +31,7 @@ Testnet will be used for the flow verification.
 
 ---
 
-## 💬 Комментарии (4)
+## 💬 Comments (4)
 
 ### Комментарий 1 — [@maria-mitina](https://github.com/maria-mitina)
 

@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:08Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #632](https://github.com/gonka-ai/gonka/issues/632) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #632](https://github.com/gonka-ai/gonka/issues/632) every 6 hours. 
 
 # 🟢 State sync snapshots corrupted - all snapshots fail on last 2 chunks (826-827/827)
 
-**Автор:** [@baranskyi](https://github.com/baranskyi) · **Состояние:** Open · **Создано:** 2026-01-24 15:11 UTC · **Обновлено:** 2026-04-29 01:16 UTC
+**Author:** [@baranskyi](https://github.com/baranskyi) · **State:** Open · **Created:** 2026-01-24 15:11 UTC · **Updated:** 2026-04-29 01:16 UTC
 
 ---
 
@@ -114,7 +114,7 @@ docker logs -f node
 
 ---
 
-## 💬 Комментарии (5)
+## 💬 Comments (5)
 
 ### Комментарий 1 — [@AlexeySamosadov](https://github.com/AlexeySamosadov)
 

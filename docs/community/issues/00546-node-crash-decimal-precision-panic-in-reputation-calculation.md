@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:53:10Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #546](https://github.com/gonka-ai/gonka/issues/546) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #546](https://github.com/gonka-ai/gonka/issues/546) every 6 hours. 
 
 # 🔴 Node crash: Decimal precision panic in reputation calculation (v0.2.7-post1)
 
-**Автор:** [@Olena](https://github.com/Olena) · **Состояние:** Closed · **Создано:** 2026-01-12 10:29 UTC · **Обновлено:** 2026-01-21 21:11 UTC
+**Author:** [@Olena](https://github.com/Olena) · **State:** Closed · **Created:** 2026-01-12 10:29 UTC · **Updated:** 2026-01-21 21:11 UTC
 
 ---
 
@@ -207,7 +207,7 @@ Reporter: Node operator with detailed logs and crash dumps available Status: ⚠
 
 ---
 
-## 💬 Комментарии (3)
+## 💬 Comments (3)
 
 ### Комментарий 1 — [@patimen](https://github.com/patimen)
 

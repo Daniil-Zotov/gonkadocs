@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:47Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #706](https://github.com/gonka-ai/gonka/issues/706) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #706](https://github.com/gonka-ai/gonka/issues/706) every 6 hours. 
 
 # 🟢 Inference Slot Hogging
 
-**Автор:** [@huxuxuya](https://github.com/huxuxuya) · **Состояние:** Open · **Создано:** 2026-02-05 18:52 UTC · **Обновлено:** 2026-03-02 12:27 UTC
+**Author:** [@huxuxuya](https://github.com/huxuxuya) · **State:** Open · **Created:** 2026-02-05 18:52 UTC · **Updated:** 2026-03-02 12:27 UTC
 
 ---
 
@@ -39,7 +39,7 @@ A mandatory rotation. If a node was in the safe slot in the previous epoch, it i
 
 ---
 
-## 💬 Комментарии (4)
+## 💬 Comments (4)
 
 ### Комментарий 1 — [@AlexeySamosadov](https://github.com/AlexeySamosadov)
 

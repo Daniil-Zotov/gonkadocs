@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:52:30Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #742](https://github.com/gonka-ai/gonka/issues/742) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #742](https://github.com/gonka-ai/gonka/issues/742) every 6 hours. 
 
 # 🔴 [P2] Deleting PoC v1 + Extend state endpoint with PoC metadata
 
-**Автор:** [@IgnatovFedor](https://github.com/IgnatovFedor) · **Состояние:** Closed · **Создано:** 2026-02-12 15:06 UTC · **Обновлено:** 2026-03-25 19:10 UTC
+**Author:** [@IgnatovFedor](https://github.com/IgnatovFedor) · **State:** Closed · **Created:** 2026-02-12 15:06 UTC · **Updated:** 2026-03-25 19:10 UTC
 
-**Метки:** `Priority: Low`
+**Labels:** `Priority: Low`
 
 **Веха:** v0.2.12
 

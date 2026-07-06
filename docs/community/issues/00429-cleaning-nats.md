@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:53:26Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #429](https://github.com/gonka-ai/gonka/issues/429) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #429](https://github.com/gonka-ai/gonka/issues/429) every 6 hours. 
 
 # 🔴 Cleaning nats
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2025-11-12 19:08 UTC · **Обновлено:** 2026-01-15 22:19 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2025-11-12 19:08 UTC · **Updated:** 2026-01-15 22:19 UTC
 
 **Веха:** v0.2.6
 

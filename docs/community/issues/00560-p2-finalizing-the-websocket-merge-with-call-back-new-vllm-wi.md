@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:51:47Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #560](https://github.com/gonka-ai/gonka/issues/560) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #560](https://github.com/gonka-ai/gonka/issues/560) every 6 hours. 
 
 # 🟢 [P2] Finalizing the WebSocket (merge with `call_Back`, new vLLM will require python side implementation)
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Open · **Создано:** 2026-01-15 00:34 UTC · **Обновлено:** 2026-06-24 01:06 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Open · **Created:** 2026-01-15 00:34 UTC · **Updated:** 2026-06-24 01:06 UTC
 
-**Метки:** `Priority: Low`
+**Labels:** `Priority: Low`
 
 **Веха:** v0.2.15
 
@@ -20,11 +20,11 @@ template: issues-main.html
 
 ## 📝 Описание
 
-*(пусто)*
+*(empty)*
 
 ---
 
-## 💬 Комментарии (5)
+## 💬 Comments (5)
 
 ### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
 

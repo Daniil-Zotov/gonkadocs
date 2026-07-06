@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:51:49Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1331](https://github.com/gonka-ai/gonka/issues/1331) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #1331](https://github.com/gonka-ai/gonka/issues/1331) every 6 hours. 
 
 # 🔴 How to obtain a broker API key for node4 (or documentation on the broker onboarding process)?
 
-**Автор:** [@Puyre](https://github.com/Puyre) · **Состояние:** Closed · **Создано:** 2026-06-10 15:34 UTC · **Обновлено:** 2026-06-23 23:29 UTC
+**Author:** [@Puyre](https://github.com/Puyre) · **State:** Closed · **Created:** 2026-06-10 15:34 UTC · **Updated:** 2026-06-23 23:29 UTC
 
 ---
 
@@ -81,7 +81,7 @@ Rogi AI
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
 

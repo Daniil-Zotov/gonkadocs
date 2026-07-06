@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:51:41Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1264](https://github.com/gonka-ai/gonka/issues/1264) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #1264](https://github.com/gonka-ai/gonka/issues/1264) every 6 hours. 
 
 # 🟢 logprobs, top_logprobs conditional stripping
 
-**Автор:** [@a-kuprin](https://github.com/a-kuprin) · **Состояние:** Open · **Создано:** 2026-05-27 17:29 UTC · **Обновлено:** 2026-07-01 06:06 UTC
+**Author:** [@a-kuprin](https://github.com/a-kuprin) · **State:** Open · **Created:** 2026-05-27 17:29 UTC · **Updated:** 2026-07-01 06:06 UTC
 
-**Метки:** `enhancement`
+**Labels:** `enhancement`
 
 **Веха:** v0.2.14-devshard3
 

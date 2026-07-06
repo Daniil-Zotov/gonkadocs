@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:23Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #558](https://github.com/gonka-ai/gonka/issues/558) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #558](https://github.com/gonka-ai/gonka/issues/558) every 6 hours. 
 
 # 🔴 [P2] URLs with `/chat/completions` and `/completions` for Open Router
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2026-01-14 20:40 UTC · **Обновлено:** 2026-04-08 16:51 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2026-01-14 20:40 UTC · **Updated:** 2026-04-08 16:51 UTC
 
 **Веха:** v0.2.12
 
@@ -42,7 +42,7 @@ This will help ensure full compatibility and avoid iteration during validation.
 
 ---
 
-## 💬 Комментарии (3)
+## 💬 Comments (3)
 
 ### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
 

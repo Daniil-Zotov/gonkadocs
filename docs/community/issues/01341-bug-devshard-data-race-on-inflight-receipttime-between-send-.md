@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:51:45Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1341](https://github.com/gonka-ai/gonka/issues/1341) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #1341](https://github.com/gonka-ai/gonka/issues/1341) every 6 hours. 
 
 # 🔴 [BUG] devshard: data race on inflight receiptTime between send goroutine and escalation scheduler (go test -race fails on main)
 
-**Автор:** [@redstartechno](https://github.com/redstartechno) · **Состояние:** Closed · **Создано:** 2026-06-12 20:05 UTC · **Обновлено:** 2026-06-26 23:54 UTC
+**Author:** [@redstartechno](https://github.com/redstartechno) · **State:** Closed · **Created:** 2026-06-12 20:05 UTC · **Updated:** 2026-06-26 23:54 UTC
 
 ---
 
@@ -105,7 +105,7 @@ Goroutine 31 (running) created at:
 
 ---
 
-## 💬 Комментарии (3)
+## 💬 Comments (3)
 
 ### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
 

@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:53:14Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #576](https://github.com/gonka-ai/gonka/issues/576) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #576](https://github.com/gonka-ai/gonka/issues/576) every 6 hours. 
 
 # 🔴 Standardize floating point math
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2026-01-15 21:38 UTC · **Обновлено:** 2026-01-20 17:51 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2026-01-15 21:38 UTC · **Updated:** 2026-01-20 17:51 UTC
 
 **Веха:** v0.2.8
 
@@ -18,4 +18,4 @@ template: issues-main.html
 
 ## 📝 Описание
 
-*(пусто)*
+*(empty)*

@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:52:40Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #865](https://github.com/gonka-ai/gonka/issues/865) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #865](https://github.com/gonka-ai/gonka/issues/865) every 6 hours. 
 
 # 🔴 Hard‑coded dummy TLS key/certs used for Gloo transport in training manager Body
 
-**Автор:** [@VVSMEN](https://github.com/VVSMEN) · **Состояние:** Closed · **Создано:** 2026-03-05 13:09 UTC · **Обновлено:** 2026-03-12 20:24 UTC
+**Author:** [@VVSMEN](https://github.com/VVSMEN) · **State:** Closed · **Created:** 2026-03-05 13:09 UTC · **Updated:** 2026-03-12 20:24 UTC
 
-**Метки:** `Priority: Low`
+**Labels:** `Priority: Low`
 
 ---
 
@@ -85,7 +85,7 @@ def _start(self, train_dict: dict):
 
 ---
 
-## 💬 Комментарии (2)
+## 💬 Comments (2)
 
 ### Комментарий 1 — [@tamazgadaev](https://github.com/tamazgadaev)
 

@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:51:56Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1265](https://github.com/gonka-ai/gonka/issues/1265) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #1265](https://github.com/gonka-ai/gonka/issues/1265) every 6 hours. 
 
 # 🟢 Stuck VOTING inferences orphan client escrow when x/group proposals miss quorum
 
-**Автор:** [@vitaly-andr](https://github.com/vitaly-andr) · **Состояние:** Open · **Создано:** 2026-05-27 19:50 UTC · **Обновлено:** 2026-05-30 17:17 UTC
+**Author:** [@vitaly-andr](https://github.com/vitaly-andr) · **State:** Open · **Created:** 2026-05-27 19:50 UTC · **Updated:** 2026-05-30 17:17 UTC
 
 ---
 
@@ -95,7 +95,7 @@ Not recommended: default-to-validate (passive non-voting becomes implicit approv
 
 ---
 
-## 💬 Комментарии (5)
+## 💬 Comments (5)
 
 ### Комментарий 1 — [@vitaly-andr](https://github.com/vitaly-andr)
 

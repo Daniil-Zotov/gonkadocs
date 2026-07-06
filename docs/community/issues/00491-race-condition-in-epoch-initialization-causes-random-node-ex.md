@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:53:34Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #491](https://github.com/gonka-ai/gonka/issues/491) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #491](https://github.com/gonka-ai/gonka/issues/491) every 6 hours. 
 
 # 🔴 Race Condition in Epoch Initialization Causes Random Node Exclusion
 
-**Автор:** [@baychak](https://github.com/baychak) · **Состояние:** Closed · **Создано:** 2025-12-13 17:25 UTC · **Обновлено:** 2025-12-15 01:18 UTC
+**Author:** [@baychak](https://github.com/baychak) · **State:** Closed · **Created:** 2025-12-13 17:25 UTC · **Updated:** 2025-12-15 01:18 UTC
 
 ---
 
@@ -56,9 +56,9 @@ API queries `EpochGroupData` before blockchain finishes processing member additi
 
 `UpdateNodeWithEpochData()` вызывается на каждой фазе эпохи:
 1. **11:37:39** - PoCGenerate (race condition - запрос слишком рано)
-2. **11:38:32** - PoCValidate (нода уже исключена, снова пусто)
-3. **11:39:25** - PoCAggregate (нода уже исключена, снова пусто)
-4. **11:40:18** - PoCReward (нода уже исключена, снова пусто)
+2. **11:38:32** - PoCValidate (нода уже исключена, снова empty)
+3. **11:39:25** - PoCAggregate (нода уже исключена, снова empty)
+4. **11:40:18** - PoCReward (нода уже исключена, снова empty)
 
 ## Root Cause
 

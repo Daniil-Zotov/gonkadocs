@@ -246,9 +246,9 @@ template: issues-main.html
 
 # GitHub Issues — `{OWNER}/{REPO}`
 
-Все issues из репозитория [{OWNER}/{REPO}](https://github.com/{OWNER}/{REPO}/issues).
-Всего: **{total}** (🟢 открыто: **{open_count}**, 🔴 закрыто: **{closed_count}**).
-Обновлено: `{sync_time}`.
+All issues from [{OWNER}/{REPO}](https://github.com/{OWNER}/{REPO}/issues).
+Total: **{total}** (🟢 open: **{open_count}**, 🔴 closed: **{closed_count}**).
+Updated: `{sync_time}`.
 
 <ul class="issues-list">
 {items_html}
@@ -270,10 +270,10 @@ template: issues-main.html
 
 # Issues: {label_name}
 
-Issues с меткой **{label_name}**. Всего: **{len(items_sorted)}**.
-Обновлено: `{sync_time}`.
+Issues with label **{label_name}**. Total: **{len(items_sorted)}**.
+Updated: `{sync_time}`.
 
-[← ко всем Issues](../../index.md)
+[← All Issues](../../index.md)
 
 <ul class="issues-list">
 {items_html}
@@ -289,9 +289,9 @@ def build_issue_page(issue, comments):
     state = issue.get("state", "open")
     user = issue.get("user")
     labels = issue.get("labels", [])
-    body = issue.get("body") or "*(пусто)*"
+    body = issue.get("body") or "*(empty)*"
 
-    state_html = "Открыт" if state == "open" else "Закрыт"
+    state_html = "Open" if state == "open" else "Closed"
     status_cls = f"issues-status-{state}"
     icon = ICON_OPEN if state == "open" else ICON_CLOSED
 
@@ -324,7 +324,7 @@ template: issues-main.html
 """
 
     if comments:
-        out += f"\n---\n\n## 💬 Комментарии ({len(comments)})\n\n"
+        out += f"\n---\n\n## 💬 Comments ({len(comments)})\n\n"
         for i, c in enumerate(comments, 1):
             cu = c.get("user")
             out += f'''<div class="issues-comment">
@@ -333,7 +333,7 @@ template: issues-main.html
     <span class="issues-meta-item">commented {fmt_date(c['created_at'])}</span>
   </div>
   <div class="issues-comment-body issues-content">
-    {c.get("body") or "*(пусто)*"}
+    {c.get("body") or "*(empty)*"}
   </div>
 </div>
 '''
@@ -342,7 +342,7 @@ template: issues-main.html
     out += f"""
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #{number}]({issue['html_url']}) каждые 6 часов.
+> 🔄 **Auto-synced** from [Issue #{number}]({issue['html_url']}) every 6 hours.
 """
     return out
 

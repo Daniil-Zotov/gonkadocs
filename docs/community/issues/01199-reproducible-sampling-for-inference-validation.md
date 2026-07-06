@@ -13,7 +13,7 @@ template: issues-main.html
     <span class="issues-number">#1199</span>
   </h1>
   <div class="issues-detail-meta">
-    <span class="issues-meta-item">Открыт</span>
+    <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-05-19 23:17 UTC</span>
     <span class="issues-meta-item">5 comments</span>
     <span class="issues-meta-item">Updated 2026-07-06 02:53 UTC</span>
@@ -145,7 +145,7 @@ The priority is to take over the existing work, gradually introduce it into MLNo
 
 ---
 
-## 💬 Комментарии (5)
+## 💬 Comments (5)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -464,4 +464,4 @@ verify.
 
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1199](https://github.com/gonka-ai/gonka/issues/1199) каждые 6 часов.
+> 🔄 **Auto-synced:** from [Issue #1199](https://github.com/gonka-ai/gonka/issues/1199) every 6 hours.

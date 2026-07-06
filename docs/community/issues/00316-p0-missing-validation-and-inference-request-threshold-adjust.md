@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:53:29Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #316](https://github.com/gonka-ai/gonka/issues/316) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #316](https://github.com/gonka-ai/gonka/issues/316) every 6 hours. 
 
 # 🔴 [P0] Missing validation and inference request threshold adjustment / stattest
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2025-09-03 22:45 UTC · **Обновлено:** 2026-01-15 21:57 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2025-09-03 22:45 UTC · **Updated:** 2026-01-15 21:57 UTC
 
 **Веха:** v0.2.4
 

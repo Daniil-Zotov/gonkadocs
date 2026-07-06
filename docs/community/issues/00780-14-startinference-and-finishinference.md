@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:52:42Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #780](https://github.com/gonka-ai/gonka/issues/780) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #780](https://github.com/gonka-ai/gonka/issues/780) every 6 hours. 
 
 # 🔴 [1/4] `StartInference` and `FinishInference`
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2026-02-20 22:20 UTC · **Обновлено:** 2026-03-11 20:05 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2026-02-20 22:20 UTC · **Updated:** 2026-03-11 20:05 UTC
 
-**Метки:** `help wanted` `up-for-grabs` `Priority: High` `requires own mainnet node`
+**Labels:** `help wanted` `up-for-grabs` `Priority: High` `requires own mainnet node`
 
 **Веха:** v0.2.11
 
@@ -197,7 +197,7 @@ All five issues [0/4], [1/4], [2/4], [3/4], [4/4] in this series must be complet
 
 ---
 
-## 💬 Комментарии (10)
+## 💬 Comments (10)
 
 ### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
 

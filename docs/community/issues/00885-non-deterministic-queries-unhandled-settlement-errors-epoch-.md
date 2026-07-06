@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:12Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #885](https://github.com/gonka-ai/gonka/issues/885) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #885](https://github.com/gonka-ai/gonka/issues/885) every 6 hours. 
 
 # 🔴 Non-deterministic queries, unhandled settlement errors, epoch stats underflow
 
-**Автор:** [@unameisfine](https://github.com/unameisfine) · **Состояние:** Closed · **Создано:** 2026-03-13 19:29 UTC · **Обновлено:** 2026-04-27 22:46 UTC
+**Author:** [@unameisfine](https://github.com/unameisfine) · **State:** Closed · **Created:** 2026-03-13 19:29 UTC · **Updated:** 2026-04-27 22:46 UTC
 
 ---
 
@@ -61,7 +61,7 @@ Four error return values are silently discarded in the settlement path:
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@unameisfine](https://github.com/unameisfine)
 

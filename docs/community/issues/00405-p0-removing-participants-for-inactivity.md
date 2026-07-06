@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:53:15Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #405](https://github.com/gonka-ai/gonka/issues/405) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #405](https://github.com/gonka-ai/gonka/issues/405) every 6 hours. 
 
 # 🔴 [P0] Removing participants for inactivity
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2025-10-23 19:48 UTC · **Обновлено:** 2026-01-16 05:33 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2025-10-23 19:48 UTC · **Updated:** 2026-01-16 05:33 UTC
 
 **Веха:** v0.2.5
 

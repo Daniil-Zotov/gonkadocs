@@ -13,7 +13,7 @@ template: issues-main.html
     <span class="issues-number">#1405</span>
   </h1>
   <div class="issues-detail-meta">
-    <span class="issues-meta-item">Закрыт</span>
+    <span class="issues-meta-item">Closed</span>
     <span class="issues-meta-item">[@dufok](https://github.com/dufok) opened 2026-07-06 00:16 UTC</span>
     <span class="issues-meta-item">2 comments</span>
     <span class="issues-meta-item">Updated 2026-07-06 01:14 UTC</span>
@@ -48,7 +48,7 @@ For context, I'm building on Gonka: a ComfyUI node pack for Gonka inference (htt
 
 ---
 
-## 💬 Комментарии (2)
+## 💬 Comments (2)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -86,4 +86,4 @@ Thank You for being the early supporter of the Product 🤝
 
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1405](https://github.com/gonka-ai/gonka/issues/1405) каждые 6 часов.
+> 🔄 **Auto-synced:** from [Issue #1405](https://github.com/gonka-ai/gonka/issues/1405) every 6 hours.

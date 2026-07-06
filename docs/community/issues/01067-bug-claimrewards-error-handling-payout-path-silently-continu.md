@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:52:09Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1067](https://github.com/gonka-ai/gonka/issues/1067) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #1067](https://github.com/gonka-ai/gonka/issues/1067) every 6 hours. 
 
 # 🔴 bug: ClaimRewards error handling — payout path silently continues on failure
 
-**Автор:** [@Mayveskii](https://github.com/Mayveskii) · **Состояние:** Closed · **Создано:** 2026-04-15 19:40 UTC · **Обновлено:** 2026-04-28 20:55 UTC
+**Author:** [@Mayveskii](https://github.com/Mayveskii) · **State:** Closed · **Created:** 2026-04-15 19:40 UTC · **Updated:** 2026-04-28 20:55 UTC
 
-**Метки:** `enhancement`
+**Labels:** `enhancement`
 
 ---
 
@@ -51,7 +51,7 @@ This was identified during audit of payout error handling in the inference escro
 
 ---
 
-## 💬 Комментарии (5)
+## 💬 Comments (5)
 
 ### Комментарий 1 — [@Doog-bot534](https://github.com/Doog-bot534)
 

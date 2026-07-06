@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:15Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1097](https://github.com/gonka-ai/gonka/issues/1097) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #1097](https://github.com/gonka-ai/gonka/issues/1097) every 6 hours. 
 
 # 🔴 Improve API response for non-existent wallet
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2026-04-21 19:47 UTC · **Обновлено:** 2026-04-22 22:21 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2026-04-21 19:47 UTC · **Updated:** 2026-04-22 22:21 UTC
 
 ---
 
@@ -26,7 +26,7 @@ A missing wallet is a valid client-side case, not a server error. Returning 404 
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
 

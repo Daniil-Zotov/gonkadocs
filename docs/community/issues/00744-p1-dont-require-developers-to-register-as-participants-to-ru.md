@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:29Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #744](https://github.com/gonka-ai/gonka/issues/744) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #744](https://github.com/gonka-ai/gonka/issues/744) every 6 hours. 
 
 # 🔴 [P1] Don’t require developers to register as Participants to run inference
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2026-02-13 01:16 UTC · **Обновлено:** 2026-03-30 23:52 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2026-02-13 01:16 UTC · **Updated:** 2026-03-30 23:52 UTC
 
 **Веха:** v0.2.12
 
@@ -27,7 +27,7 @@ Currently, the chain requires a Participant record not only to host, but also to
 
 ---
 
-## 💬 Комментарии (4)
+## 💬 Comments (4)
 
 ### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
 

@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:09Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #923](https://github.com/gonka-ai/gonka/issues/923) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #923](https://github.com/gonka-ai/gonka/issues/923) every 6 hours. 
 
 # 🔴 Consensus key mismatch: staking still expects old key after TMKMS key loss
 
-**Автор:** [@krizis-sila](https://github.com/krizis-sila) · **Состояние:** Closed · **Создано:** 2026-03-20 20:36 UTC · **Обновлено:** 2026-04-28 20:53 UTC
+**Author:** [@krizis-sila](https://github.com/krizis-sila) · **State:** Closed · **Created:** 2026-03-20 20:36 UTC · **Updated:** 2026-04-28 20:53 UTC
 
 ---
 
@@ -59,7 +59,7 @@ Thank you.
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@0xgonka](https://github.com/0xgonka)
 

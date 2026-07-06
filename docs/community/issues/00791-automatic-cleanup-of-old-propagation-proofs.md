@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:16Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #791](https://github.com/gonka-ai/gonka/issues/791) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #791](https://github.com/gonka-ai/gonka/issues/791) every 6 hours. 
 
 # 🔴 Automatic cleanup of old propagation proofs
 
-**Автор:** [@slandymani](https://github.com/slandymani) · **Состояние:** Closed · **Создано:** 2026-02-23 10:11 UTC · **Обновлено:** 2026-04-22 20:58 UTC
+**Author:** [@slandymani](https://github.com/slandymani) · **State:** Closed · **Created:** 2026-02-23 10:11 UTC · **Updated:** 2026-04-22 20:58 UTC
 
 ---
 
@@ -29,7 +29,7 @@ Implement automatic cleanup of propagation data (bundles and proofs) from old ep
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@slandymani](https://github.com/slandymani)
 

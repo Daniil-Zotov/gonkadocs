@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:52:50Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #421](https://github.com/gonka-ai/gonka/issues/421) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #421](https://github.com/gonka-ai/gonka/issues/421) every 6 hours. 
 
 # 🟢 Validators are marked for removal but haven't removed
 
-**Автор:** [@gmorgachev](https://github.com/gmorgachev) · **Состояние:** Open · **Создано:** 2025-11-07 22:56 UTC · **Обновлено:** 2026-02-12 15:25 UTC
+**Author:** [@gmorgachev](https://github.com/gmorgachev) · **State:** Open · **Created:** 2025-11-07 22:56 UTC · **Updated:** 2026-02-12 15:25 UTC
 
-**Метки:** `bug` `up-for-grabs`
+**Labels:** `bug` `up-for-grabs`
 
 ---
 
@@ -46,7 +46,7 @@ https://github.com/gonka-ai/cosmos-sdk/blob/1ace5dd25d1a78f6b189cbdfec9b76839fe4
 
 ---
 
-## 💬 Комментарии (3)
+## 💬 Comments (3)
 
 ### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
 

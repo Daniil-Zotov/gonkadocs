@@ -6,21 +6,21 @@ synced_at: 2026-07-06T09:53:24Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #319](https://github.com/gonka-ai/gonka/issues/319) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #319](https://github.com/gonka-ai/gonka/issues/319) every 6 hours. 
 
 # 🔴 [P0] Merge enforced_tokens
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2025-09-03 22:46 UTC · **Обновлено:** 2026-01-15 23:06 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2025-09-03 22:46 UTC · **Updated:** 2026-01-15 23:06 UTC
 
 ---
 
 ## 📝 Описание
 
-*(пусто)*
+*(empty)*
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
 

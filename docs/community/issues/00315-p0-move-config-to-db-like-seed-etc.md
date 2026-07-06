@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:53:28Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #315](https://github.com/gonka-ai/gonka/issues/315) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #315](https://github.com/gonka-ai/gonka/issues/315) every 6 hours. 
 
 # 🔴 [P0] Move config to DB (like seed, etc)
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2025-09-03 22:44 UTC · **Обновлено:** 2026-01-15 22:00 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2025-09-03 22:44 UTC · **Updated:** 2026-01-15 22:00 UTC
 
 **Веха:** v0.2.4
 

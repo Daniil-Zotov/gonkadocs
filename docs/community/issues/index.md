@@ -5,9 +5,9 @@ template: issues-main.html
 
 # GitHub Issues — `gonka-ai/gonka`
 
-Все issues из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).
-Всего: **301** (🟢 открыто: **73**, 🔴 закрыто: **228**).
-Обновлено: `2026-07-06 11:14 UTC`.
+All issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).
+Total: **301** (🟢 open: **73**, 🔴 closed: **228**).
+Updated: `2026-07-06 11:14 UTC`.
 
 <ul class="issues-list">
 <li class="issues-list-item">

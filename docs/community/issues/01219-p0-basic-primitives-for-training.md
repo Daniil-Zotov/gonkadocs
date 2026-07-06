@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:51:46Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1219](https://github.com/gonka-ai/gonka/issues/1219) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #1219](https://github.com/gonka-ai/gonka/issues/1219) every 6 hours. 
 
 # 🟢 [P0] Basic primitives for training
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Open · **Создано:** 2026-05-21 21:56 UTC · **Обновлено:** 2026-06-24 23:03 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Open · **Created:** 2026-05-21 21:56 UTC · **Updated:** 2026-06-24 23:03 UTC
 
-**Метки:** `Priority: High`
+**Labels:** `Priority: High`
 
 **Веха:** v0.2.15
 
@@ -28,7 +28,7 @@ Put together a lightweight training flow without the heavy logic we have in devs
 
 ---
 
-## 💬 Комментарии (4)
+## 💬 Comments (4)
 
 ### Комментарий 1 — [@x0152](https://github.com/x0152)
 

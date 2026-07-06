@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:53:01Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #398](https://github.com/gonka-ai/gonka/issues/398) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #398](https://github.com/gonka-ai/gonka/issues/398) every 6 hours. 
 
 # 🔴 API -> Node Connection Issues
 
-**Автор:** [@gmorgachev](https://github.com/gmorgachev) · **Состояние:** Closed · **Создано:** 2025-10-19 05:17 UTC · **Обновлено:** 2026-01-29 06:17 UTC
+**Author:** [@gmorgachev](https://github.com/gmorgachev) · **State:** Closed · **Created:** 2025-10-19 05:17 UTC · **Updated:** 2026-01-29 06:17 UTC
 
-**Метки:** `bug`
+**Labels:** `bug`
 
 **Веха:** v0.2.6
 

@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:52:20Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #784](https://github.com/gonka-ai/gonka/issues/784) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #784](https://github.com/gonka-ai/gonka/issues/784) every 6 hours. 
 
 # 🔴 [P2] Possible underfunded issues
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2026-02-20 23:24 UTC · **Обновлено:** 2026-04-10 04:50 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2026-02-20 23:24 UTC · **Updated:** 2026-04-10 04:50 UTC
 
-**Метки:** `Priority: Low`
+**Labels:** `Priority: Low`
 
 **Веха:** v0.2.12
 
@@ -51,7 +51,7 @@ Any other method, as long as it serves the purpose, would work.
 
 ---
 
-## 💬 Комментарии (4)
+## 💬 Comments (4)
 
 ### Комментарий 1 — [@0xMayoor](https://github.com/0xMayoor)
 

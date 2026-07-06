@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:51:50Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1245](https://github.com/gonka-ai/gonka/issues/1245) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #1245](https://github.com/gonka-ai/gonka/issues/1245) every 6 hours. 
 
 # 🔴 Request to be added as a Gonka broker (for run my own gateway)
 
-**Автор:** [@Korolev-Oleg](https://github.com/Korolev-Oleg) · **Состояние:** Closed · **Создано:** 2026-05-25 13:27 UTC · **Обновлено:** 2026-06-23 23:17 UTC
+**Author:** [@Korolev-Oleg](https://github.com/Korolev-Oleg) · **State:** Closed · **Created:** 2026-05-25 13:27 UTC · **Updated:** 2026-06-23 23:17 UTC
 
 ---
 
@@ -37,7 +37,7 @@ but in future maybe in $T / credits
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
 

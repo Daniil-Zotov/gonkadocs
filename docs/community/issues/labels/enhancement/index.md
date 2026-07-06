@@ -5,10 +5,10 @@ template: issues-main.html
 
 # Issues: Enhancement
 
-Issues с меткой **Enhancement**. Всего: **11**.
-Обновлено: `2026-07-06 11:14 UTC`.
+Issues with label **Enhancement**. Total: **11**.
+Updated: `2026-07-06 11:14 UTC`.
 
-[← ко всем Issues](../../index.md)
+[← All Issues](../../index.md)
 
 <ul class="issues-list">
 <li class="issues-list-item">

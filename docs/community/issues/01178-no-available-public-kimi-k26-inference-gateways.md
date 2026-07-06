@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:04Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1178](https://github.com/gonka-ai/gonka/issues/1178) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #1178](https://github.com/gonka-ai/gonka/issues/1178) every 6 hours. 
 
 # 🔴 No available public Kimi-K2.6 inference gateways
 
-**Автор:** [@sspotanin](https://github.com/sspotanin) · **Состояние:** Closed · **Создано:** 2026-05-17 06:11 UTC · **Обновлено:** 2026-05-18 10:50 UTC
+**Author:** [@sspotanin](https://github.com/sspotanin) · **State:** Closed · **Created:** 2026-05-17 06:11 UTC · **Updated:** 2026-05-18 10:50 UTC
 
 ---
 
@@ -75,7 +75,7 @@ This looks related to public Kimi gateway availability rather than total network
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@sspotanin](https://github.com/sspotanin)
 

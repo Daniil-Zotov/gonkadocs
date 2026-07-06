@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:02Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1205](https://github.com/gonka-ai/gonka/issues/1205) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #1205](https://github.com/gonka-ai/gonka/issues/1205) every 6 hours. 
 
 # 🟢 chain-halt: `markValidatorForDeletion` jailed branch races CometBFT validator-update lag → slashing fails with ErrNoValidatorFound
 
-**Автор:** [@vitaly-andr](https://github.com/vitaly-andr) · **Состояние:** Open · **Создано:** 2026-05-20 02:36 UTC · **Обновлено:** 2026-05-20 02:36 UTC
+**Author:** [@vitaly-andr](https://github.com/vitaly-andr) · **State:** Open · **Created:** 2026-05-20 02:36 UTC · **Updated:** 2026-05-20 02:36 UTC
 
 ---
 

@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:07Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #979](https://github.com/gonka-ai/gonka/issues/979) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #979](https://github.com/gonka-ai/gonka/issues/979) every 6 hours. 
 
 # 🔴 `devshards` escrow: fund loss on unsettled pruning + missing overflow guards in host stats aggregation
 
-**Автор:** [@unameisfine](https://github.com/unameisfine) · **Состояние:** Closed · **Создано:** 2026-03-30 17:05 UTC · **Обновлено:** 2026-04-29 21:27 UTC
+**Author:** [@unameisfine](https://github.com/unameisfine) · **State:** Closed · **Created:** 2026-03-30 17:05 UTC · **Updated:** 2026-04-29 21:27 UTC
 
 ---
 
@@ -47,7 +47,7 @@ Three related bugs in subnet escrow settlement and pruning code (v0.2.11):
 
 ---
 
-## 💬 Комментарии (2)
+## 💬 Comments (2)
 
 ### Комментарий 1 — [@unameisfine](https://github.com/unameisfine)
 

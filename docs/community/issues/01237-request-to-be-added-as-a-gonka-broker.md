@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:51:51Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1237](https://github.com/gonka-ai/gonka/issues/1237) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #1237](https://github.com/gonka-ai/gonka/issues/1237) every 6 hours. 
 
 # 🔴 Request to be added as a Gonka broker
 
-**Автор:** [@piterberkut](https://github.com/piterberkut) · **Состояние:** Closed · **Создано:** 2026-05-23 13:54 UTC · **Обновлено:** 2026-06-23 22:46 UTC
+**Author:** [@piterberkut](https://github.com/piterberkut) · **State:** Closed · **Created:** 2026-05-23 13:54 UTC · **Updated:** 2026-06-23 22:46 UTC
 
 ---
 
@@ -85,7 +85,7 @@ Thanks!
 
 ---
 
-## 💬 Комментарии (2)
+## 💬 Comments (2)
 
 ### Комментарий 1 — [@piterberkut](https://github.com/piterberkut)
 

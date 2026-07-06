@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:51:59Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1167](https://github.com/gonka-ai/gonka/issues/1167) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #1167](https://github.com/gonka-ai/gonka/issues/1167) every 6 hours. 
 
 # 🟢 `devshards` Optimizations for v0.2.13 db usage
 
-**Автор:** [@akup](https://github.com/akup) · **Состояние:** Open · **Создано:** 2026-05-14 15:47 UTC · **Обновлено:** 2026-05-25 18:37 UTC
+**Author:** [@akup](https://github.com/akup) · **State:** Open · **Created:** 2026-05-14 15:47 UTC · **Updated:** 2026-05-25 18:37 UTC
 
 **Веха:** v0.2.14-devshard3
 

@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:53:35Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #361](https://github.com/gonka-ai/gonka/issues/361) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #361](https://github.com/gonka-ai/gonka/issues/361) every 6 hours. 
 
 # 🔴 [P0] Threshold + Params for big model. Part 2.
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2025-09-16 22:31 UTC · **Обновлено:** 2025-12-05 22:18 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2025-09-16 22:31 UTC · **Updated:** 2025-12-05 22:18 UTC
 
 ---
 
@@ -33,7 +33,7 @@ template: issues-main.html
 
 ---
 
-## 💬 Комментарии (2)
+## 💬 Comments (2)
 
 ### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
 

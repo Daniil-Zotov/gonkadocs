@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:52:05Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #928](https://github.com/gonka-ai/gonka/issues/928) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #928](https://github.com/gonka-ai/gonka/issues/928) every 6 hours. 
 
 # 🟢 [P1] Open Questions: Block Gas Limits, Fees, Cost per Participant, and System TX Prioritization
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Open · **Создано:** 2026-03-20 23:46 UTC · **Обновлено:** 2026-05-07 22:46 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Open · **Created:** 2026-03-20 23:46 UTC · **Updated:** 2026-05-07 22:46 UTC
 
-**Метки:** `Priority: Medium`
+**Labels:** `Priority: Medium`
 
 **Веха:** v0.2.14
 
@@ -34,7 +34,7 @@ template: issues-main.html
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@unameisfine](https://github.com/unameisfine)
 

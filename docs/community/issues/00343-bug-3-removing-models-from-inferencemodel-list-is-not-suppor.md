@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:53:05Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #343](https://github.com/gonka-ai/gonka/issues/343) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #343](https://github.com/gonka-ai/gonka/issues/343) every 6 hours. 
 
 # 🔴 BUG-3: Removing models from inference/model_list is not supported
 
-**Автор:** [@gmorgachev](https://github.com/gmorgachev) · **Состояние:** Closed · **Создано:** 2025-09-05 07:31 UTC · **Обновлено:** 2026-01-28 22:26 UTC
+**Author:** [@gmorgachev](https://github.com/gmorgachev) · **State:** Closed · **Created:** 2025-09-05 07:31 UTC · **Updated:** 2026-01-28 22:26 UTC
 
 ---
 

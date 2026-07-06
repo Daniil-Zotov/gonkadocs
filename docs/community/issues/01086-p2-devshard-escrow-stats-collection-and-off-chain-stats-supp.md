@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:03Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1086](https://github.com/gonka-ai/gonka/issues/1086) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #1086](https://github.com/gonka-ai/gonka/issues/1086) every 6 hours. 
 
 # 🟢 [P2] Devshard escrow stats collection and off chain stats support
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Open · **Создано:** 2026-04-16 23:28 UTC · **Обновлено:** 2026-05-18 22:42 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Open · **Created:** 2026-04-16 23:28 UTC · **Updated:** 2026-05-18 22:42 UTC
 
 **Веха:** v0.2.14
 
@@ -18,11 +18,11 @@ template: issues-main.html
 
 ## 📝 Описание
 
-*(пусто)*
+*(empty)*
 
 ---
 
-## 💬 Комментарии (2)
+## 💬 Comments (2)
 
 ### Комментарий 1 — [@akup](https://github.com/akup)
 

@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:58Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #669](https://github.com/gonka-ai/gonka/issues/669) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #669](https://github.com/gonka-ai/gonka/issues/669) every 6 hours. 
 
 # 🔴 Increase artifact storage throughput
 
-**Автор:** [@IgnatovFedor](https://github.com/IgnatovFedor) · **Состояние:** Closed · **Создано:** 2026-01-30 06:56 UTC · **Обновлено:** 2026-02-06 17:33 UTC
+**Author:** [@IgnatovFedor](https://github.com/IgnatovFedor) · **State:** Closed · **Created:** 2026-01-30 06:56 UTC · **Updated:** 2026-02-06 17:33 UTC
 
 **Веха:** v0.2.10
 
@@ -22,7 +22,7 @@ template: issues-main.html
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@DimaOrekhovPS](https://github.com/DimaOrekhovPS)
 

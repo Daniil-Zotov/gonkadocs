@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:51:54Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #746](https://github.com/gonka-ai/gonka/issues/746) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #746](https://github.com/gonka-ai/gonka/issues/746) every 6 hours. 
 
 # 🔴 Vested payouts in x/inference ignore caller funding module and always debit inference account
 
-**Автор:** [@Schwartz10](https://github.com/Schwartz10) · **Состояние:** Closed · **Создано:** 2026-02-13 06:15 UTC · **Обновлено:** 2026-06-04 21:44 UTC
+**Author:** [@Schwartz10](https://github.com/Schwartz10) · **State:** Closed · **Created:** 2026-02-13 06:15 UTC · **Updated:** 2026-06-04 21:44 UTC
 
 ---
 
@@ -47,7 +47,7 @@ instead of:
 
 ---
 
-## 💬 Комментарии (2)
+## 💬 Comments (2)
 
 ### Комментарий 1 — [@AlexeySamosadov](https://github.com/AlexeySamosadov)
 

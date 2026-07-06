@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:51:50Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1247](https://github.com/gonka-ai/gonka/issues/1247) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #1247](https://github.com/gonka-ai/gonka/issues/1247) every 6 hours. 
 
 # 🔴 Request to be added as a Gonka broker
 
-**Автор:** [@olkwwuah](https://github.com/olkwwuah) · **Состояние:** Closed · **Создано:** 2026-05-26 07:27 UTC · **Обновлено:** 2026-06-23 23:10 UTC
+**Author:** [@olkwwuah](https://github.com/olkwwuah) · **State:** Closed · **Created:** 2026-05-26 07:27 UTC · **Updated:** 2026-06-23 23:10 UTC
 
 ---
 
@@ -45,7 +45,7 @@ Daniel
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
 

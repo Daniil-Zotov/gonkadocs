@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:51:55Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1285](https://github.com/gonka-ai/gonka/issues/1285) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #1285](https://github.com/gonka-ai/gonka/issues/1285) every 6 hours. 
 
 # 🟢 Bridge: merge ETH README messageHash quickfix into v0.2.14
 
-**Автор:** [@Ryanchen911](https://github.com/Ryanchen911) · **Состояние:** Open · **Создано:** 2026-06-01 02:34 UTC · **Обновлено:** 2026-06-02 17:47 UTC
+**Author:** [@Ryanchen911](https://github.com/Ryanchen911) · **State:** Open · **Created:** 2026-06-01 02:34 UTC · **Updated:** 2026-06-02 17:47 UTC
 
 **Веха:** v0.2.14
 
@@ -72,7 +72,7 @@ However, third-party auditors or integrators using the README could construct an
 
 ---
 
-## 💬 Комментарии (4)
+## 💬 Comments (4)
 
 ### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
 

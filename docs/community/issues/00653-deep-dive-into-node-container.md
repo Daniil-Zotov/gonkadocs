@@ -6,14 +6,14 @@ synced_at: 2026-07-06T09:52:55Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #653](https://github.com/gonka-ai/gonka/issues/653) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #653](https://github.com/gonka-ai/gonka/issues/653) every 6 hours. 
 
 # 🔴 Deep dive into node container
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2026-01-27 19:10 UTC · **Обновлено:** 2026-02-10 01:06 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2026-01-27 19:10 UTC · **Updated:** 2026-02-10 01:06 UTC
 
 ---
 
 ## 📝 Описание
 
-*(пусто)*
+*(empty)*

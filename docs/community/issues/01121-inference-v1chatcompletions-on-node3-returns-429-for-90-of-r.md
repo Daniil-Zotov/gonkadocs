@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:02Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1121](https://github.com/gonka-ai/gonka/issues/1121) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #1121](https://github.com/gonka-ai/gonka/issues/1121) every 6 hours. 
 
 # 🔴 Inference /v1/chat/completions on node3 returns 429 for ~90% of requests — single live TA caps community gateways at ~10% pass-rate
 
-**Автор:** [@unameisfine](https://github.com/unameisfine) · **Состояние:** Closed · **Создано:** 2026-04-26 22:40 UTC · **Обновлено:** 2026-05-21 21:03 UTC
+**Author:** [@unameisfine](https://github.com/unameisfine) · **State:** Closed · **Created:** 2026-04-26 22:40 UTC · **Updated:** 2026-05-21 21:03 UTC
 
 ---
 
@@ -157,7 +157,7 @@ or any benchmark scripts on request.
 
 ---
 
-## 💬 Комментарии (2)
+## 💬 Comments (2)
 
 ### Комментарий 1 — [@gonkalabs](https://github.com/gonkalabs)
 

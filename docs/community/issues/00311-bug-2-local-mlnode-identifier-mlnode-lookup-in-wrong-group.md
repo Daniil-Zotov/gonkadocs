@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:53:03Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #311](https://github.com/gonka-ai/gonka/issues/311) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #311](https://github.com/gonka-ai/gonka/issues/311) every 6 hours. 
 
 # 🔴 BUG-2: Local MLNode identifier & MLNode lookup in wrong group
 
-**Автор:** [@gmorgachev](https://github.com/gmorgachev) · **Состояние:** Closed · **Создано:** 2025-09-02 09:28 UTC · **Обновлено:** 2026-01-28 22:34 UTC
+**Author:** [@gmorgachev](https://github.com/gmorgachev) · **State:** Closed · **Created:** 2025-09-02 09:28 UTC · **Updated:** 2026-01-28 22:34 UTC
 
-**Метки:** `bug`
+**Labels:** `bug`
 
 ---
 

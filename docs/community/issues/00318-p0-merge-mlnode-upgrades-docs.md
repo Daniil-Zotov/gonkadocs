@@ -6,21 +6,21 @@ synced_at: 2026-07-06T09:53:25Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #318](https://github.com/gonka-ai/gonka/issues/318) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #318](https://github.com/gonka-ai/gonka/issues/318) every 6 hours. 
 
 # 🔴 [P0] Merge MLNode upgrades + docs
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2025-09-03 22:46 UTC · **Обновлено:** 2026-01-15 23:04 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2025-09-03 22:46 UTC · **Updated:** 2026-01-15 23:04 UTC
 
 ---
 
 ## 📝 Описание
 
-*(пусто)*
+*(empty)*
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
 

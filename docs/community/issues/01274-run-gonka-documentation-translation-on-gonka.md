@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:51:57Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1274](https://github.com/gonka-ai/gonka/issues/1274) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #1274](https://github.com/gonka-ai/gonka/issues/1274) every 6 hours. 
 
 # 🔴 Run Gonka documentation translation on Gonka
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2026-05-29 00:59 UTC · **Обновлено:** 2026-05-29 01:01 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2026-05-29 00:59 UTC · **Updated:** 2026-05-29 01:01 UTC
 
 ---
 
@@ -20,7 +20,7 @@ Connect the Gonka website to Gonka itself and run documentation translation onli
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
 

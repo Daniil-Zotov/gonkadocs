@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:52:39Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #863](https://github.com/gonka-ai/gonka/issues/863) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #863](https://github.com/gonka-ai/gonka/issues/863) every 6 hours. 
 
 # 🔴 Potential RCE via `torch.load()` in ML Training Pipeline
 
-**Автор:** [@VVSMEN](https://github.com/VVSMEN) · **Состояние:** Closed · **Создано:** 2026-03-05 10:44 UTC · **Обновлено:** 2026-03-12 20:25 UTC
+**Author:** [@VVSMEN](https://github.com/VVSMEN) · **State:** Closed · **Created:** 2026-03-05 10:44 UTC · **Updated:** 2026-03-12 20:25 UTC
 
-**Метки:** `Priority: Low`
+**Labels:** `Priority: Low`
 
 ---
 
@@ -167,7 +167,7 @@ The vulnerability is identified at the code level, **not verified on testnet**. 
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@tamazgadaev](https://github.com/tamazgadaev)
 

@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:53:12Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #591](https://github.com/gonka-ai/gonka/issues/591) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #591](https://github.com/gonka-ai/gonka/issues/591) every 6 hours. 
 
 # 🔴 Some security and other improvements for github actions
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2026-01-15 23:36 UTC · **Обновлено:** 2026-01-21 19:49 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2026-01-15 23:36 UTC · **Updated:** 2026-01-21 19:49 UTC
 
 **Веха:** v0.2.7
 
@@ -18,4 +18,4 @@ template: issues-main.html
 
 ## 📝 Описание
 
-*(пусто)*
+*(empty)*

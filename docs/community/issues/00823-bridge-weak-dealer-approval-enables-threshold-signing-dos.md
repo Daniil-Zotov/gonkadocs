@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:52:26Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #823](https://github.com/gonka-ai/gonka/issues/823) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #823](https://github.com/gonka-ai/gonka/issues/823) every 6 hours. 
 
 # 🔴 Bridge: Weak Dealer Approval Enables Threshold Signing DoS
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2026-02-27 22:24 UTC · **Обновлено:** 2026-04-02 23:28 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2026-02-27 22:24 UTC · **Updated:** 2026-04-02 23:28 UTC
 
-**Метки:** `Priority: High`
+**Labels:** `Priority: High`
 
 **Веха:** v0.2.12
 
@@ -46,7 +46,7 @@ Later, the dealer (or colluder) withholds its partial signature, pushing the usa
 
 ---
 
-## 💬 Комментарии (4)
+## 💬 Comments (4)
 
 ### Комментарий 1 — [@x0152](https://github.com/x0152)
 

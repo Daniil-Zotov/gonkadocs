@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:33Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #922](https://github.com/gonka-ai/gonka/issues/922) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #922](https://github.com/gonka-ai/gonka/issues/922) every 6 hours. 
 
 # 🔴 Proposal: Agent identity and delegation governance for Gonka compute
 
-**Автор:** [@aeoess](https://github.com/aeoess) · **Состояние:** Closed · **Создано:** 2026-03-20 00:42 UTC · **Обновлено:** 2026-03-22 19:48 UTC
+**Author:** [@aeoess](https://github.com/aeoess) · **State:** Closed · **Created:** 2026-03-20 00:42 UTC · **Updated:** 2026-03-22 19:48 UTC
 
 ---
 
@@ -47,7 +47,7 @@ Site: https://aeoess.com
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@aeoess](https://github.com/aeoess)
 

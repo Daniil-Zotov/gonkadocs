@@ -5,10 +5,10 @@ template: issues-main.html
 
 # Issues: Priority Medium
 
-Issues с меткой **Priority Medium**. Всего: **5**.
-Обновлено: `2026-07-06 11:14 UTC`.
+Issues with label **Priority Medium**. Total: **5**.
+Updated: `2026-07-06 11:14 UTC`.
 
-[← ко всем Issues](../../index.md)
+[← All Issues](../../index.md)
 
 <ul class="issues-list">
 <li class="issues-list-item">

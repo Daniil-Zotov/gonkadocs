@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:45Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #776](https://github.com/gonka-ai/gonka/issues/776) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #776](https://github.com/gonka-ai/gonka/issues/776) every 6 hours. 
 
 # 🔴 HA infrastructure
 
-**Автор:** [@Laboltus](https://github.com/Laboltus) · **Состояние:** Closed · **Создано:** 2026-02-18 09:41 UTC · **Обновлено:** 2026-03-03 23:52 UTC
+**Author:** [@Laboltus](https://github.com/Laboltus) · **State:** Closed · **Created:** 2026-02-18 09:41 UTC · **Updated:** 2026-03-03 23:52 UTC
 
 ---
 
@@ -25,7 +25,7 @@ Am I right ? Is there some guide on this that I missed ?
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@blizko](https://github.com/blizko)
 

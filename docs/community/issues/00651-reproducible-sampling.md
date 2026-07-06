@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:36Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #651](https://github.com/gonka-ai/gonka/issues/651) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #651](https://github.com/gonka-ai/gonka/issues/651) every 6 hours. 
 
 # 🔴 Reproducible sampling
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2026-01-27 18:58 UTC · **Обновлено:** 2026-03-17 20:00 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2026-01-27 18:58 UTC · **Updated:** 2026-03-17 20:00 UTC
 
 ---
 
@@ -21,7 +21,7 @@ template: issues-main.html
 
 ---
 
-## 💬 Комментарии (2)
+## 💬 Comments (2)
 
 ### Комментарий 1 — [@AlexeySamosadov](https://github.com/AlexeySamosadov)
 

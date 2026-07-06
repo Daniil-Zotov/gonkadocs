@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:52:07Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #936](https://github.com/gonka-ai/gonka/issues/936) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #936](https://github.com/gonka-ai/gonka/issues/936) every 6 hours. 
 
 # 🟢 `devshards`: Implement aggregated BLS signatures
 
-**Автор:** [@dcastro](https://github.com/dcastro) · **Состояние:** Open · **Создано:** 2026-03-23 11:17 UTC · **Обновлено:** 2026-04-29 21:14 UTC
+**Author:** [@dcastro](https://github.com/dcastro) · **State:** Open · **Created:** 2026-03-23 11:17 UTC · **Updated:** 2026-04-29 21:14 UTC
 
-**Метки:** `Priority: Low` `devshards`
+**Labels:** `Priority: Low` `devshards`
 
 ---
 
@@ -26,7 +26,7 @@ See #896
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
 

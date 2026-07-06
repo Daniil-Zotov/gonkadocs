@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:53:36Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #419](https://github.com/gonka-ai/gonka/issues/419) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #419](https://github.com/gonka-ai/gonka/issues/419) every 6 hours. 
 
 # 🔴 New Issue → Request Access to Inference Image
 
-**Автор:** [@rumirzayev-max](https://github.com/rumirzayev-max) · **Состояние:** Closed · **Создано:** 2025-11-06 12:53 UTC · **Обновлено:** 2025-11-17 21:52 UTC
+**Author:** [@rumirzayev-max](https://github.com/rumirzayev-max) · **State:** Closed · **Created:** 2025-11-06 12:53 UTC · **Updated:** 2025-11-17 21:52 UTC
 
 ---
 
@@ -28,7 +28,7 @@ Thanks!
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@DimaOrekhovPS](https://github.com/DimaOrekhovPS)
 

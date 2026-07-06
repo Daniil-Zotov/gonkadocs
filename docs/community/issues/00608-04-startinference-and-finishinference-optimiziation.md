@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:43Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #608](https://github.com/gonka-ai/gonka/issues/608) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #608](https://github.com/gonka-ai/gonka/issues/608) every 6 hours. 
 
 # 🔴 [0/4] `StartInference` and `FinishInference`: optimiziation
 
-**Автор:** [@libermans](https://github.com/libermans) · **Состояние:** Closed · **Создано:** 2026-01-19 01:05 UTC · **Обновлено:** 2026-03-11 20:01 UTC
+**Author:** [@libermans](https://github.com/libermans) · **State:** Closed · **Created:** 2026-01-19 01:05 UTC · **Updated:** 2026-03-11 20:01 UTC
 
 **Веха:** v0.2.11
 
@@ -37,7 +37,7 @@ Unfortunately as TA signature doesn't derived from request original hash, it may
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@gmorgachev](https://github.com/gmorgachev)
 

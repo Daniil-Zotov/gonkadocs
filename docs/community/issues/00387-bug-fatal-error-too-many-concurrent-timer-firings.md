@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:53:26Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #387](https://github.com/gonka-ai/gonka/issues/387) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #387](https://github.com/gonka-ai/gonka/issues/387) every 6 hours. 
 
 # 🔴 Bug: fatal error: too many concurrent timer firings
 
-**Автор:** [@gmorgachev](https://github.com/gmorgachev) · **Состояние:** Closed · **Создано:** 2025-10-09 05:51 UTC · **Обновлено:** 2026-01-15 22:12 UTC
+**Author:** [@gmorgachev](https://github.com/gmorgachev) · **State:** Closed · **Created:** 2025-10-09 05:51 UTC · **Updated:** 2026-01-15 22:12 UTC
 
-**Метки:** `bug`
+**Labels:** `bug`
 
 **Веха:** v0.2.6
 
@@ -50,7 +50,7 @@ runtime.mcall()
 
 ---
 
-## 💬 Комментарии (2)
+## 💬 Comments (2)
 
 ### Комментарий 1 — [@gmorgachev](https://github.com/gmorgachev)
 

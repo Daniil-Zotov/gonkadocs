@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:53:00Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #627](https://github.com/gonka-ai/gonka/issues/627) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #627](https://github.com/gonka-ai/gonka/issues/627) every 6 hours. 
 
 # 🔴 vLLM 0.11.0 — Inference validation
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2026-01-23 19:25 UTC · **Обновлено:** 2026-01-29 22:58 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2026-01-23 19:25 UTC · **Updated:** 2026-01-29 22:58 UTC
 
 **Веха:** v0.2.8
 
@@ -18,11 +18,11 @@ template: issues-main.html
 
 ## 📝 Описание
 
-*(пусто)*
+*(empty)*
 
 ---
 
-## 💬 Комментарии (3)
+## 💬 Comments (3)
 
 ### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
 

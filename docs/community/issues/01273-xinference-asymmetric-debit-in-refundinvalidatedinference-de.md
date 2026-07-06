@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:51:57Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1273](https://github.com/gonka-ai/gonka/issues/1273) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #1273](https://github.com/gonka-ai/gonka/issues/1273) every 6 hours. 
 
 # 🟢 x/inference: asymmetric debit in refundInvalidatedInference — design clarification
 
-**Автор:** [@vitaly-andr](https://github.com/vitaly-andr) · **Состояние:** Open · **Создано:** 2026-05-28 19:14 UTC · **Обновлено:** 2026-05-29 05:26 UTC
+**Author:** [@vitaly-andr](https://github.com/vitaly-andr) · **State:** Open · **Created:** 2026-05-28 19:14 UTC · **Updated:** 2026-05-29 05:26 UTC
 
 ---
 
@@ -91,7 +91,7 @@ Maintainer clarification before any code change:
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@vitaly-andr](https://github.com/vitaly-andr)
 

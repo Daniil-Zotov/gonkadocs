@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:51:53Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1322](https://github.com/gonka-ai/gonka/issues/1322) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #1322](https://github.com/gonka-ai/gonka/issues/1322) every 6 hours. 
 
 # 🔴 Gateway allowlist request
 
-**Автор:** [@Puyre](https://github.com/Puyre) · **Состояние:** Closed · **Создано:** 2026-06-08 15:13 UTC · **Обновлено:** 2026-06-10 15:20 UTC
+**Author:** [@Puyre](https://github.com/Puyre) · **State:** Closed · **Created:** 2026-06-08 15:13 UTC · **Updated:** 2026-06-10 15:20 UTC
 
 ---
 
@@ -86,7 +86,7 @@ Rogi AI
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@Puyre](https://github.com/Puyre)
 

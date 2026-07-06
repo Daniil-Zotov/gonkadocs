@@ -13,7 +13,7 @@ template: issues-main.html
     <span class="issues-number">#1395</span>
   </h1>
   <div class="issues-detail-meta">
-    <span class="issues-meta-item">Открыт</span>
+    <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item">[@maria-mitina](https://github.com/maria-mitina) opened 2026-07-04 11:58 UTC</span>
     <span class="issues-meta-item">0 comments</span>
     <span class="issues-meta-item">Updated 2026-07-04 12:00 UTC</span>
@@ -149,4 +149,4 @@ go test ./inference-chain/x/inference/module/ -run TestApplyPowerCapping -count=
 
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1395](https://github.com/gonka-ai/gonka/issues/1395) каждые 6 часов.
+> 🔄 **Auto-synced:** from [Issue #1395](https://github.com/gonka-ai/gonka/issues/1395) every 6 hours.

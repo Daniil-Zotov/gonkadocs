@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:46Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #850](https://github.com/gonka-ai/gonka/issues/850) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #850](https://github.com/gonka-ai/gonka/issues/850) every 6 hours. 
 
 # 🟢 Bug: ManagedStorage silently skips failed epoch pruning — minPruned advanced before goroutines complete
 
-**Автор:** [@Mayveskii](https://github.com/Mayveskii) · **Состояние:** Open · **Создано:** 2026-03-03 12:04 UTC · **Обновлено:** 2026-03-03 12:04 UTC
+**Author:** [@Mayveskii](https://github.com/Mayveskii) · **State:** Open · **Created:** 2026-03-03 12:04 UTC · **Updated:** 2026-03-03 12:04 UTC
 
 ---
 

@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:52:18Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #924](https://github.com/gonka-ai/gonka/issues/924) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #924](https://github.com/gonka-ai/gonka/issues/924) every 6 hours. 
 
 # 🔴 [P0] Make sure Bitfury community sale works: IBC
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2026-03-20 23:20 UTC · **Обновлено:** 2026-04-11 04:34 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2026-03-20 23:20 UTC · **Updated:** 2026-04-11 04:34 UTC
 
-**Метки:** `Priority: High`
+**Labels:** `Priority: High`
 
 **Веха:** v0.2.12
 
@@ -20,11 +20,11 @@ template: issues-main.html
 
 ## 📝 Описание
 
-*(пусто)*
+*(empty)*
 
 ---
 
-## 💬 Комментарии (3)
+## 💬 Comments (3)
 
 ### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
 

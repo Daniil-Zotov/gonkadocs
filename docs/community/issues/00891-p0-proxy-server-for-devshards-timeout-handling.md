@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:52:27Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #891](https://github.com/gonka-ai/gonka/issues/891) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #891](https://github.com/gonka-ai/gonka/issues/891) every 6 hours. 
 
 # 🔴 [P0] Proxy server for `devshards`: timeout handling
 
-**Автор:** [@dcastro](https://github.com/dcastro) · **Состояние:** Closed · **Создано:** 2026-03-16 13:45 UTC · **Обновлено:** 2026-04-01 03:20 UTC
+**Author:** [@dcastro](https://github.com/dcastro) · **State:** Closed · **Created:** 2026-03-16 13:45 UTC · **Updated:** 2026-04-01 03:20 UTC
 
-**Метки:** `devshards`
+**Labels:** `devshards`
 
 **Веха:** v0.2.12
 
@@ -26,7 +26,7 @@ It should also handle timeout-related mechanisms.
 
 ---
 
-## 💬 Комментарии (2)
+## 💬 Comments (2)
 
 ### Комментарий 1 — [@dcastro](https://github.com/dcastro)
 

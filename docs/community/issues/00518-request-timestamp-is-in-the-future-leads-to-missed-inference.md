@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:53:13Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #518](https://github.com/gonka-ai/gonka/issues/518) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #518](https://github.com/gonka-ai/gonka/issues/518) every 6 hours. 
 
 # 🔴 "Request timestamp is in the future" leads to missed inferences for hosts
 
-**Автор:** [@akup](https://github.com/akup) · **Состояние:** Closed · **Создано:** 2026-01-02 06:22 UTC · **Обновлено:** 2026-01-20 17:55 UTC
+**Author:** [@akup](https://github.com/akup) · **State:** Closed · **Created:** 2026-01-02 06:22 UTC · **Updated:** 2026-01-20 17:55 UTC
 
 **Веха:** v0.2.8
 
@@ -75,7 +75,7 @@ The problem of being behind the consensus block is unknown, and it was seen, tha
 
 ---
 
-## 💬 Комментарии (3)
+## 💬 Comments (3)
 
 ### Комментарий 1 — [@akup](https://github.com/akup)
 

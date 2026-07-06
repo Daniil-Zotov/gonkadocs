@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:53:37Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #431](https://github.com/gonka-ai/gonka/issues/431) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #431](https://github.com/gonka-ai/gonka/issues/431) every 6 hours. 
 
 # 🔴 inferenced:0.2.4 contains outdated hard-coded genesis → AppHash mismatch prevents all nodes from syncing
 
-**Автор:** [@Asplana92](https://github.com/Asplana92) · **Состояние:** Closed · **Создано:** 2025-11-13 20:39 UTC · **Обновлено:** 2025-11-15 22:57 UTC
+**Author:** [@Asplana92](https://github.com/Asplana92) · **State:** Closed · **Created:** 2025-11-13 20:39 UTC · **Updated:** 2025-11-15 22:57 UTC
 
 ---
 
@@ -202,7 +202,7 @@ Happy to test patched builds, provide logs, configs, or help verify new images.
 
 ---
 
-## 💬 Комментарии (6)
+## 💬 Comments (6)
 
 ### Комментарий 1 — [@gmorgachev](https://github.com/gmorgachev)
 

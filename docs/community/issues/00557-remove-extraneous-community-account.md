@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:53:32Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #557](https://github.com/gonka-ai/gonka/issues/557) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #557](https://github.com/gonka-ai/gonka/issues/557) every 6 hours. 
 
 # 🔴 Remove extraneous community account
 
-**Автор:** [@patimen](https://github.com/patimen) · **Состояние:** Closed · **Создано:** 2026-01-14 20:18 UTC · **Обновлено:** 2026-01-15 21:29 UTC
+**Author:** [@patimen](https://github.com/patimen) · **State:** Closed · **Created:** 2026-01-14 20:18 UTC · **Updated:** 2026-01-15 21:29 UTC
 
 **Веха:** v0.2.8
 

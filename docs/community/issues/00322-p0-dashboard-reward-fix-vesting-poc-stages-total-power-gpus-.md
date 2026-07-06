@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:54Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #322](https://github.com/gonka-ai/gonka/issues/322) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #322](https://github.com/gonka-ai/gonka/issues/322) every 6 hours. 
 
 # 🔴 [P0] Dashboard (reward fix + vesting; poc stages; total power; gpu’s; participants with logos and contacts)
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2025-09-03 23:01 UTC · **Обновлено:** 2026-02-10 01:23 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2025-09-03 23:01 UTC · **Updated:** 2026-02-10 01:23 UTC
 
 **Веха:** v0.2.1
 
@@ -18,11 +18,11 @@ template: issues-main.html
 
 ## 📝 Описание
 
-*(пусто)*
+*(empty)*
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
 

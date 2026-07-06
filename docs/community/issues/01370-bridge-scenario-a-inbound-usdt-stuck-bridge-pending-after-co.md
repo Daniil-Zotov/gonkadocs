@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:51:43Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1370](https://github.com/gonka-ai/gonka/issues/1370) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #1370](https://github.com/gonka-ai/gonka/issues/1370) every 6 hours. 
 
 # 🔴 Bridge Scenario A: inbound USDT stuck BRIDGE_PENDING after coordinated node halt (4-validator testnet)
 
-**Автор:** [@maria-mitina](https://github.com/maria-mitina) · **Состояние:** Closed · **Создано:** 2026-06-28 07:37 UTC · **Обновлено:** 2026-06-29 10:50 UTC
+**Author:** [@maria-mitina](https://github.com/maria-mitina) · **State:** Closed · **Created:** 2026-06-28 07:37 UTC · **Updated:** 2026-06-29 10:50 UTC
 
 ---
 
@@ -168,7 +168,7 @@ Manual `bridge-exchange` from validators on **18222**, **18223**, **18226** with
 
 ---
 
-## 💬 Комментарии (2)
+## 💬 Comments (2)
 
 ### Комментарий 1 — [@maria-mitina](https://github.com/maria-mitina)
 

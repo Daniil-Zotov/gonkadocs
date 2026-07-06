@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:56Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #435](https://github.com/gonka-ai/gonka/issues/435) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #435](https://github.com/gonka-ai/gonka/issues/435) every 6 hours. 
 
 # 🟢 Bug Report: api container sends abci_query with height: 0 despite being synced
 
-**Автор:** [@VaniaHilkovets](https://github.com/VaniaHilkovets) · **Состояние:** Open · **Создано:** 2025-11-14 12:45 UTC · **Обновлено:** 2026-02-08 14:14 UTC
+**Author:** [@VaniaHilkovets](https://github.com/VaniaHilkovets) · **State:** Open · **Created:** 2025-11-14 12:45 UTC · **Updated:** 2026-02-08 14:14 UTC
 
 ---
 
@@ -89,7 +89,7 @@ Thank you.
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@AlexeySamosadov](https://github.com/AlexeySamosadov)
 

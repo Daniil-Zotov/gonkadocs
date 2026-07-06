@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:49Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #764](https://github.com/gonka-ai/gonka/issues/764) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #764](https://github.com/gonka-ai/gonka/issues/764) every 6 hours. 
 
 # 🔴 Epoch 158 reward underpayment after v0.2.9: preserved inference-slot weight was reset
 
-**Автор:** [@huxuxuya](https://github.com/huxuxuya) · **Состояние:** Closed · **Создано:** 2026-02-14 16:52 UTC · **Обновлено:** 2026-02-17 22:46 UTC
+**Author:** [@huxuxuya](https://github.com/huxuxuya) · **State:** Closed · **Created:** 2026-02-14 16:52 UTC · **Updated:** 2026-02-17 22:46 UTC
 
 ---
 
@@ -37,7 +37,7 @@ After upgrade v0.2.9, part of epoch 158 rewards appears to be distributed incorr
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@AlexeySamosadov](https://github.com/AlexeySamosadov)
 

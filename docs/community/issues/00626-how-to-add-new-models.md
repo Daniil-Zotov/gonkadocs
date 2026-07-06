@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:50Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #626](https://github.com/gonka-ai/gonka/issues/626) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #626](https://github.com/gonka-ai/gonka/issues/626) every 6 hours. 
 
 # 🔴 How to add new models
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2026-01-23 19:24 UTC · **Обновлено:** 2026-02-11 00:47 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2026-01-23 19:24 UTC · **Updated:** 2026-02-11 00:47 UTC
 
 **Веха:** v0.2.11
 
@@ -22,7 +22,7 @@ This issue outlines a direction for a larger project. Adding new models is not a
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@x0152](https://github.com/x0152)
 

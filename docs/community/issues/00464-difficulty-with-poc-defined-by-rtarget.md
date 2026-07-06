@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:53:25Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #464](https://github.com/gonka-ai/gonka/issues/464) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #464](https://github.com/gonka-ai/gonka/issues/464) every 6 hours. 
 
 # 🔴 Difficulty with PoC, defined by `RTarget`
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2025-12-03 21:23 UTC · **Обновлено:** 2026-01-15 22:20 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2025-12-03 21:23 UTC · **Updated:** 2026-01-15 22:20 UTC
 
 **Веха:** v0.2.6
 

@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:53Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #422](https://github.com/gonka-ai/gonka/issues/422) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #422](https://github.com/gonka-ai/gonka/issues/422) every 6 hours. 
 
 # 🔴 DAPI  nil pointer dereference crash when chain RPC is unavailable
 
-**Автор:** [@mfursov](https://github.com/mfursov) · **Состояние:** Closed · **Создано:** 2025-11-10 02:37 UTC · **Обновлено:** 2026-02-10 03:59 UTC
+**Author:** [@mfursov](https://github.com/mfursov) · **State:** Closed · **Created:** 2025-11-10 02:37 UTC · **Updated:** 2026-02-10 03:59 UTC
 
 **Веха:** v0.2.10
 
@@ -54,7 +54,7 @@ func (a *Assigner) tryClaimingTaskToAssign() {
 
 ---
 
-## 💬 Комментарии (2)
+## 💬 Comments (2)
 
 ### Комментарий 1 — [@AlexeySamosadov](https://github.com/AlexeySamosadov)
 

@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:53:06Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #335](https://github.com/gonka-ai/gonka/issues/335) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #335](https://github.com/gonka-ai/gonka/issues/335) every 6 hours. 
 
 # 🟢 [P1] Check why we often see slashing in logs
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Open · **Создано:** 2025-09-03 23:18 UTC · **Обновлено:** 2026-01-28 02:03 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Open · **Created:** 2025-09-03 23:18 UTC · **Updated:** 2026-01-28 02:03 UTC
 
 ---
 

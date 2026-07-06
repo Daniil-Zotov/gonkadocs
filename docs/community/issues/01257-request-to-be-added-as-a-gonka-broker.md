@@ -13,7 +13,7 @@ template: issues-main.html
     <span class="issues-number">#1257</span>
   </h1>
   <div class="issues-detail-meta">
-    <span class="issues-meta-item">Закрыт</span>
+    <span class="issues-meta-item">Closed</span>
     <span class="issues-meta-item">[@len5ky](https://github.com/len5ky) opened 2026-05-26 15:37 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-07-03 00:47 UTC</span>
@@ -183,7 +183,7 @@ Gonka Relay
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -209,4 +209,4 @@ Overall, the allowlist request is well-formed for governance consideration as fi
 
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1257](https://github.com/gonka-ai/gonka/issues/1257) каждые 6 часов.
+> 🔄 **Auto-synced:** from [Issue #1257](https://github.com/gonka-ai/gonka/issues/1257) every 6 hours.

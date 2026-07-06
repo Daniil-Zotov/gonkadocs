@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:51:52Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #927](https://github.com/gonka-ai/gonka/issues/927) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #927](https://github.com/gonka-ai/gonka/issues/927) every 6 hours. 
 
 # 🔴 [P1] Maintenance window for hosts
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2026-03-20 23:39 UTC · **Обновлено:** 2026-06-22 01:35 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2026-03-20 23:39 UTC · **Updated:** 2026-06-22 01:35 UTC
 
-**Метки:** `enhancement`
+**Labels:** `enhancement`
 
 **Веха:** v0.2.14
 
@@ -26,7 +26,7 @@ The preliminary implementation plan is outlined here https://github.com/gonka-ai
 
 ---
 
-## 💬 Комментарии (3)
+## 💬 Comments (3)
 
 ### Комментарий 1 — [@Ryanchen911](https://github.com/Ryanchen911)
 

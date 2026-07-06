@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:51:52Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #447](https://github.com/gonka-ai/gonka/issues/447) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #447](https://github.com/gonka-ai/gonka/issues/447) every 6 hours. 
 
 # 🟢 Node Registration Does Not Update After Migration (API stuck using old on-chain config)
 
-**Автор:** [@Asplana92](https://github.com/Asplana92) · **Состояние:** Open · **Создано:** 2025-11-20 03:02 UTC · **Обновлено:** 2026-06-11 19:09 UTC
+**Author:** [@Asplana92](https://github.com/Asplana92) · **State:** Open · **Created:** 2025-11-20 03:02 UTC · **Updated:** 2026-06-11 19:09 UTC
 
 ---
 
@@ -280,7 +280,7 @@ raw output of inferenced query inference hardware-nodes-all
 
 ---
 
-## 💬 Комментарии (2)
+## 💬 Comments (2)
 
 ### Комментарий 1 — [@ASLanin](https://github.com/ASLanin)
 

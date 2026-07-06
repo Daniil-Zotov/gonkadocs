@@ -13,7 +13,7 @@ template: issues-main.html
     <span class="issues-number">#1387</span>
   </h1>
   <div class="issues-detail-meta">
-    <span class="issues-meta-item">Открыт</span>
+    <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item">[@maria-mitina](https://github.com/maria-mitina) opened 2026-07-02 15:00 UTC</span>
     <span class="issues-meta-item">2 comments</span>
     <span class="issues-meta-item">Updated 2026-07-06 05:24 UTC</span>
@@ -207,7 +207,7 @@ Requires gateway on 702111 with v2 binary mount and Inference phase (PoC finishe
 
 ---
 
-## 💬 Комментарии (2)
+## 💬 Comments (2)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -230,4 +230,4 @@ Requires gateway on 702111 with v2 binary mount and Inference phase (PoC finishe
 
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1387](https://github.com/gonka-ai/gonka/issues/1387) каждые 6 часов.
+> 🔄 **Auto-synced:** from [Issue #1387](https://github.com/gonka-ai/gonka/issues/1387) every 6 hours.

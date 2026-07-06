@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:10Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #629](https://github.com/gonka-ai/gonka/issues/629) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #629](https://github.com/gonka-ai/gonka/issues/629) every 6 hours. 
 
 # 🔴 [P0] Possible cause of missed inferences
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2026-01-23 19:47 UTC · **Обновлено:** 2026-04-28 18:28 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2026-01-23 19:47 UTC · **Updated:** 2026-04-28 18:28 UTC
 
 ---
 
@@ -20,7 +20,7 @@ We're distributing inference requests on the chain based on the total weight of 
 
 ---
 
-## 💬 Комментарии (4)
+## 💬 Comments (4)
 
 ### Комментарий 1 — [@x0152](https://github.com/x0152)
 

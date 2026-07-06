@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:52:20Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #758](https://github.com/gonka-ai/gonka/issues/758) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #758](https://github.com/gonka-ai/gonka/issues/758) every 6 hours. 
 
 # 🔴  [P1] Certik, Ethereum Bridge, Preliminary Report (v1), Severity: Informational [Priority 6]
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2026-02-14 00:41 UTC · **Обновлено:** 2026-04-09 23:23 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2026-02-14 00:41 UTC · **Updated:** 2026-04-09 23:23 UTC
 
-**Метки:** `Priority: Medium`
+**Labels:** `Priority: Medium`
 
 **Веха:** v0.2.12
 

@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:53:09Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #527](https://github.com/gonka-ai/gonka/issues/527) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #527](https://github.com/gonka-ai/gonka/issues/527) every 6 hours. 
 
 # 🔴 Node resync from snapshot caused missed inference tasks due to large application.db
 
-**Автор:** [@bingcongxihaha](https://github.com/bingcongxihaha) · **Состояние:** Closed · **Создано:** 2026-01-06 16:35 UTC · **Обновлено:** 2026-01-22 00:08 UTC
+**Author:** [@bingcongxihaha](https://github.com/bingcongxihaha) · **State:** Closed · **Created:** 2026-01-06 16:35 UTC · **Updated:** 2026-01-22 00:08 UTC
 
 ---
 
@@ -32,7 +32,7 @@ Thanks in advance for your help.
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
 

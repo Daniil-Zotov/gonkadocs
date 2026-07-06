@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:52:48Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #810](https://github.com/gonka-ai/gonka/issues/810) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #810](https://github.com/gonka-ai/gonka/issues/810) every 6 hours. 
 
 # 🔴 Gonka Node Manager — Automated Node Deployment, Updates, and Monitoring
 
-**Автор:** [@ochenUmnayaKatyshka](https://github.com/ochenUmnayaKatyshka) · **Состояние:** Closed · **Создано:** 2026-02-26 11:49 UTC · **Обновлено:** 2026-02-27 20:15 UTC
+**Author:** [@ochenUmnayaKatyshka](https://github.com/ochenUmnayaKatyshka) · **State:** Closed · **Created:** 2026-02-26 11:49 UTC · **Updated:** 2026-02-27 20:15 UTC
 
-**Метки:** `enhancement` `help wanted`
+**Labels:** `enhancement` `help wanted`
 
 ---
 
@@ -169,7 +169,7 @@ Funding released in stages tied to phase completion. Cost overruns covered by th
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
 

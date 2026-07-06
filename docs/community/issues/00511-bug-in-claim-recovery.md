@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:53:32Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #511](https://github.com/gonka-ai/gonka/issues/511) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #511](https://github.com/gonka-ai/gonka/issues/511) every 6 hours. 
 
 # 🔴 Bug in claim recovery
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2025-12-26 21:55 UTC · **Обновлено:** 2026-01-15 21:44 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2025-12-26 21:55 UTC · **Updated:** 2026-01-15 21:44 UTC
 
 **Веха:** v0.2.6
 
@@ -18,4 +18,4 @@ template: issues-main.html
 
 ## 📝 Описание
 
-*(пусто)*
+*(empty)*

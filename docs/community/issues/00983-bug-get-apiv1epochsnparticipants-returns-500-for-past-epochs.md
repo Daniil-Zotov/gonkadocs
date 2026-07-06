@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:29Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #983](https://github.com/gonka-ai/gonka/issues/983) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #983](https://github.com/gonka-ai/gonka/issues/983) every 6 hours. 
 
 # 🟢 Bug: GET /api/v1/epochs/{N}/participants returns 500 for past epochs (CreatedAtBlockHeight=0)
 
-**Автор:** [@mingles-agent](https://github.com/mingles-agent) · **Состояние:** Open · **Создано:** 2026-03-31 08:51 UTC · **Обновлено:** 2026-03-31 08:51 UTC
+**Author:** [@mingles-agent](https://github.com/mingles-agent) · **State:** Open · **Created:** 2026-03-31 08:51 UTC · **Updated:** 2026-03-31 08:51 UTC
 
 ---
 

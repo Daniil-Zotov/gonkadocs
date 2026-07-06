@@ -13,7 +13,7 @@ template: issues-main.html
     <span class="issues-number">#1385</span>
   </h1>
   <div class="issues-detail-meta">
-    <span class="issues-meta-item">Закрыт</span>
+    <span class="issues-meta-item">Closed</span>
     <span class="issues-meta-item">[@scodeit](https://github.com/scodeit) opened 2026-07-01 16:41 UTC</span>
     <span class="issues-meta-item">2 comments</span>
     <span class="issues-meta-item">Updated 2026-07-03 19:06 UTC</span>
@@ -47,7 +47,7 @@ Please consider adding this address to `devshard_escrow_params.allowed_creator_a
 
 ---
 
-## 💬 Комментарии (2)
+## 💬 Comments (2)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -95,4 +95,4 @@ Thanks again for taking the time to explain the process.
 
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1385](https://github.com/gonka-ai/gonka/issues/1385) каждые 6 часов.
+> 🔄 **Auto-synced:** from [Issue #1385](https://github.com/gonka-ai/gonka/issues/1385) every 6 hours.

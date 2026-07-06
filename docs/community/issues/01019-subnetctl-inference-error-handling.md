@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:51:42Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1019](https://github.com/gonka-ai/gonka/issues/1019) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #1019](https://github.com/gonka-ai/gonka/issues/1019) every 6 hours. 
 
 # 🔴 subnetctl: inference error handling
 
-**Автор:** [@akup](https://github.com/akup) · **Состояние:** Closed · **Создано:** 2026-04-06 02:29 UTC · **Обновлено:** 2026-07-01 06:00 UTC
+**Author:** [@akup](https://github.com/akup) · **State:** Closed · **Created:** 2026-04-06 02:29 UTC · **Updated:** 2026-07-01 06:00 UTC
 
-**Метки:** `Priority: Low`
+**Labels:** `Priority: Low`
 
 **Веха:** v0.2.13-devshard2
 
@@ -113,7 +113,7 @@ That timeout path addresses **slow or stuck executors**, not **misclassified tra
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@unameisfine](https://github.com/unameisfine)
 

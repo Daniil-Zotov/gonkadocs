@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:58Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #658](https://github.com/gonka-ai/gonka/issues/658) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #658](https://github.com/gonka-ai/gonka/issues/658) every 6 hours. 
 
 # 🔴 POC_SLOT attack
 
-**Автор:** [@akup](https://github.com/akup) · **Состояние:** Closed · **Создано:** 2026-01-28 12:51 UTC · **Обновлено:** 2026-02-06 17:58 UTC
+**Author:** [@akup](https://github.com/akup) · **State:** Closed · **Created:** 2026-01-28 12:51 UTC · **Updated:** 2026-02-06 17:58 UTC
 
 **Веха:** v0.2.10
 

@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:32Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #730](https://github.com/gonka-ai/gonka/issues/730) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #730](https://github.com/gonka-ai/gonka/issues/730) every 6 hours. 
 
 # 🔴 [P0] vLLM 0.15.1 Compatibility Experiments
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2026-02-11 01:26 UTC · **Обновлено:** 2026-03-24 00:15 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2026-02-11 01:26 UTC · **Updated:** 2026-03-24 00:15 UTC
 
 **Веха:** v0.2.11
 
@@ -18,11 +18,11 @@ template: issues-main.html
 
 ## 📝 Описание
 
-*(пусто)*
+*(empty)*
 
 ---
 
-## 💬 Комментарии (2)
+## 💬 Comments (2)
 
 ### Комментарий 1 — [@tamazgadaev](https://github.com/tamazgadaev)
 

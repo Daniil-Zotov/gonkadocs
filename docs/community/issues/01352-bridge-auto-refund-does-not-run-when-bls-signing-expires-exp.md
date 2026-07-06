@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:51:44Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1352](https://github.com/gonka-ai/gonka/issues/1352) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #1352](https://github.com/gonka-ai/gonka/issues/1352) every 6 hours. 
 
 # 🟢 Bridge: auto-refund does not run when BLS signing expires (EXPIRED)
 
-**Автор:** [@maria-mitina](https://github.com/maria-mitina) · **Состояние:** Open · **Создано:** 2026-06-19 16:47 UTC · **Обновлено:** 2026-06-27 01:04 UTC
+**Author:** [@maria-mitina](https://github.com/maria-mitina) · **State:** Open · **Created:** 2026-06-19 16:47 UTC · **Updated:** 2026-06-27 01:04 UTC
 
 **Веха:** v0.2.14
 
@@ -73,7 +73,7 @@ Silent `(false, nil)` if hooks empty or pending not found — **no retry queue**
 
 ---
 
-## 💬 Комментарии (2)
+## 💬 Comments (2)
 
 ### Комментарий 1 — [@maria-mitina](https://github.com/maria-mitina)
 

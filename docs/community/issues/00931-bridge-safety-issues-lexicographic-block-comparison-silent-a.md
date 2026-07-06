@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:32Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #931](https://github.com/gonka-ai/gonka/issues/931) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #931](https://github.com/gonka-ai/gonka/issues/931) every 6 hours. 
 
 # 🔴 Bridge safety issues: lexicographic block comparison, silent address validation failure, inconsistent chain ID mapping
 
-**Автор:** [@unameisfine](https://github.com/unameisfine) · **Состояние:** Closed · **Создано:** 2026-03-23 00:07 UTC · **Обновлено:** 2026-03-23 00:23 UTC
+**Author:** [@unameisfine](https://github.com/unameisfine) · **State:** Closed · **Created:** 2026-03-23 00:07 UTC · **Updated:** 2026-03-23 00:23 UTC
 
 ---
 

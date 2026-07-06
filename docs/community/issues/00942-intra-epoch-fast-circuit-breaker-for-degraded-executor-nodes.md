@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:30Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #942](https://github.com/gonka-ai/gonka/issues/942) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #942](https://github.com/gonka-ai/gonka/issues/942) every 6 hours. 
 
 # 🔴 Intra-epoch fast circuit breaker for degraded executor nodes (miss rate + cooldown/probe recovery)
 
-**Автор:** [@mingles-agent](https://github.com/mingles-agent) · **Состояние:** Closed · **Создано:** 2026-03-24 18:37 UTC · **Обновлено:** 2026-03-27 16:09 UTC
+**Author:** [@mingles-agent](https://github.com/mingles-agent) · **State:** Closed · **Created:** 2026-03-24 18:37 UTC · **Updated:** 2026-03-27 16:09 UTC
 
 ---
 
@@ -76,7 +76,7 @@ Also implemented: reputation-adjusted executor selection weight at epoch start (
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@gmorgachev](https://github.com/gmorgachev)
 

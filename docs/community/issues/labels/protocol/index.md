@@ -5,10 +5,10 @@ template: issues-main.html
 
 # Issues: Protocol
 
-Issues с меткой **Protocol**. Всего: **1**.
-Обновлено: `2026-07-06 11:14 UTC`.
+Issues with label **Protocol**. Total: **1**.
+Updated: `2026-07-06 11:14 UTC`.
 
-[← ко всем Issues](../../index.md)
+[← All Issues](../../index.md)
 
 <ul class="issues-list">
 <li class="issues-list-item">

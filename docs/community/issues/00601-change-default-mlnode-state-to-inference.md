@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:53:16Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #601](https://github.com/gonka-ai/gonka/issues/601) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #601](https://github.com/gonka-ai/gonka/issues/601) every 6 hours. 
 
 # 🔴 Change default mlnode state to `INFERENCE`
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2026-01-16 00:11 UTC · **Обновлено:** 2026-01-16 00:12 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2026-01-16 00:11 UTC · **Updated:** 2026-01-16 00:12 UTC
 
 **Веха:** v0.2.5
 
@@ -18,4 +18,4 @@ template: issues-main.html
 
 ## 📝 Описание
 
-*(пусто)*
+*(empty)*

@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:52:49Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #310](https://github.com/gonka-ai/gonka/issues/310) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #310](https://github.com/gonka-ai/gonka/issues/310) every 6 hours. 
 
 # 🟢 BUG-1: Preserved node disabling
 
-**Автор:** [@gmorgachev](https://github.com/gmorgachev) · **Состояние:** Open · **Создано:** 2025-09-01 18:19 UTC · **Обновлено:** 2026-02-12 15:34 UTC
+**Author:** [@gmorgachev](https://github.com/gmorgachev) · **State:** Open · **Created:** 2025-09-01 18:19 UTC · **Updated:** 2026-02-12 15:34 UTC
 
-**Метки:** `bug` `up-for-grabs`
+**Labels:** `bug` `up-for-grabs`
 
 ---
 
@@ -43,7 +43,7 @@ At the same time it's not presented in HardwareNodes (can be checked in: `./infe
 
 ---
 
-## 💬 Комментарии (3)
+## 💬 Comments (3)
 
 ### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
 

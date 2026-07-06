@@ -13,7 +13,7 @@ template: issues-main.html
     <span class="issues-number">#913</span>
   </h1>
   <div class="issues-detail-meta">
-    <span class="issues-meta-item">Закрыт</span>
+    <span class="issues-meta-item">Closed</span>
     <span class="issues-meta-item">[@dcastro](https://github.com/dcastro) opened 2026-03-18 10:28 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-07-01 06:17 UTC</span>
@@ -32,7 +32,7 @@ We need to think of a solution to make this deterministic, and implement it.
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -46,4 +46,4 @@ We need to think of a solution to make this deterministic, and implement it.
 
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #913](https://github.com/gonka-ai/gonka/issues/913) каждые 6 часов.
+> 🔄 **Auto-synced:** from [Issue #913](https://github.com/gonka-ai/gonka/issues/913) every 6 hours.

@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:57Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #660](https://github.com/gonka-ai/gonka/issues/660) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #660](https://github.com/gonka-ai/gonka/issues/660) every 6 hours. 
 
 # 🔴 Short network drop makes the api crash
 
-**Автор:** [@x0152](https://github.com/x0152) · **Состояние:** Closed · **Создано:** 2026-01-28 16:31 UTC · **Обновлено:** 2026-02-06 23:46 UTC
+**Author:** [@x0152](https://github.com/x0152) · **State:** Closed · **Created:** 2026-01-28 16:31 UTC · **Updated:** 2026-02-06 23:46 UTC
 
 **Веха:** v0.2.10
 

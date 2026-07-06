@@ -6,21 +6,21 @@ synced_at: 2026-07-06T09:52:55Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #714](https://github.com/gonka-ai/gonka/issues/714) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #714](https://github.com/gonka-ai/gonka/issues/714) every 6 hours. 
 
 # 🔴 Bug Report: New Nodes Fail to Sign Transactions (Keyring Backend Mismatch)
 
-**Автор:** [@moro3one](https://github.com/moro3one) · **Состояние:** Closed · **Создано:** 2026-02-07 08:47 UTC · **Обновлено:** 2026-02-10 00:33 UTC
+**Author:** [@moro3one](https://github.com/moro3one) · **State:** Closed · **Created:** 2026-02-07 08:47 UTC · **Updated:** 2026-02-10 00:33 UTC
 
 ---
 
 ## 📝 Описание
 
-*(пусто)*
+*(empty)*
 
 ---
 
-## 💬 Комментарии (4)
+## 💬 Comments (4)
 
 ### Комментарий 1 — [@moro3one](https://github.com/moro3one)
 

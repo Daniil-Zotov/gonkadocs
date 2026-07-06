@@ -6,21 +6,21 @@ synced_at: 2026-07-06T09:52:45Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #339](https://github.com/gonka-ai/gonka/issues/339) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #339](https://github.com/gonka-ai/gonka/issues/339) every 6 hours. 
 
 # 🔴 [P1] Distributed vs truly decentralized and trustless and where we there
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2025-09-03 23:20 UTC · **Обновлено:** 2026-03-05 23:42 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2025-09-03 23:20 UTC · **Updated:** 2026-03-05 23:42 UTC
 
 ---
 
 ## 📝 Описание
 
-*(пусто)*
+*(empty)*
 
 ---
 
-## 💬 Комментарии (2)
+## 💬 Comments (2)
 
 ### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
 

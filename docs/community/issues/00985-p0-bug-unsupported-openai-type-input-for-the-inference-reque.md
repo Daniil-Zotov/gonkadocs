@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:25Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #985](https://github.com/gonka-ai/gonka/issues/985) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #985](https://github.com/gonka-ai/gonka/issues/985) every 6 hours. 
 
 # 🔴 [P0] Bug: unsupported OpenAI type input for the inference requests
 
-**Автор:** [@tamazgadaev](https://github.com/tamazgadaev) · **Состояние:** Closed · **Создано:** 2026-03-31 15:15 UTC · **Обновлено:** 2026-04-03 22:36 UTC
+**Author:** [@tamazgadaev](https://github.com/tamazgadaev) · **State:** Closed · **Created:** 2026-03-31 15:15 UTC · **Updated:** 2026-04-03 22:36 UTC
 
 **Веха:** v0.2.12
 
@@ -22,7 +22,7 @@ decentralized-api rejects valid Cursor/OpenAI chat requests where messages[].con
 
 ---
 
-## 💬 Комментарии (4)
+## 💬 Comments (4)
 
 ### Комментарий 1 — [@tamazgadaev](https://github.com/tamazgadaev)
 

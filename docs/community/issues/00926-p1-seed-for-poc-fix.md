@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:52:18Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #926](https://github.com/gonka-ai/gonka/issues/926) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #926](https://github.com/gonka-ai/gonka/issues/926) every 6 hours. 
 
 # 🔴 [P1] Seed for POC fix
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2026-03-20 23:33 UTC · **Обновлено:** 2026-04-11 04:28 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2026-03-20 23:33 UTC · **Updated:** 2026-04-11 04:28 UTC
 
-**Метки:** `Priority: Medium`
+**Labels:** `Priority: Medium`
 
 **Веха:** v0.2.12
 
@@ -26,7 +26,7 @@ template: issues-main.html
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@IgnatovFedor](https://github.com/IgnatovFedor)
 

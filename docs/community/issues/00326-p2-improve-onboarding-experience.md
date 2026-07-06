@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:51:46Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #326](https://github.com/gonka-ai/gonka/issues/326) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #326](https://github.com/gonka-ai/gonka/issues/326) every 6 hours. 
 
 # 🟢 [P2] Improve onboarding experience
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Open · **Создано:** 2025-09-03 23:10 UTC · **Обновлено:** 2026-06-24 01:10 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Open · **Created:** 2025-09-03 23:10 UTC · **Updated:** 2026-06-24 01:10 UTC
 
 **Веха:** v0.2.15
 
@@ -30,7 +30,7 @@ Description of the proposal:
 
 ---
 
-## 💬 Комментарии (4)
+## 💬 Comments (4)
 
 ### Комментарий 1 — [@Pegasus-starry](https://github.com/Pegasus-starry)
 

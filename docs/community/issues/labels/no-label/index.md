@@ -5,10 +5,10 @@ template: issues-main.html
 
 # Issues: No Label
 
-Issues с меткой **No Label**. Всего: **228**.
-Обновлено: `2026-07-06 11:14 UTC`.
+Issues with label **No Label**. Total: **228**.
+Updated: `2026-07-06 11:14 UTC`.
 
-[← ко всем Issues](../../index.md)
+[← All Issues](../../index.md)
 
 <ul class="issues-list">
 <li class="issues-list-item">

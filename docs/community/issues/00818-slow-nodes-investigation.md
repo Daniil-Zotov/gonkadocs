@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:52:36Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #818](https://github.com/gonka-ai/gonka/issues/818) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #818](https://github.com/gonka-ai/gonka/issues/818) every 6 hours. 
 
 # 🟢 Slow nodes investigation
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Open · **Создано:** 2026-02-27 21:07 UTC · **Обновлено:** 2026-03-18 14:23 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Open · **Created:** 2026-02-27 21:07 UTC · **Updated:** 2026-03-18 14:23 UTC
 
-**Метки:** `help wanted` `up-for-grabs` `Priority: High`
+**Labels:** `help wanted` `up-for-grabs` `Priority: High`
 
 ---
 
@@ -30,7 +30,7 @@ Task: Multiple hosts reported node slowdowns in the last days. Need to identify 
 
 ---
 
-## 💬 Комментарии (7)
+## 💬 Comments (7)
 
 ### Комментарий 1 — [@AlexeySamosadov](https://github.com/AlexeySamosadov)
 

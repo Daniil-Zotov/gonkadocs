@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:34Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #630](https://github.com/gonka-ai/gonka/issues/630) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #630](https://github.com/gonka-ai/gonka/issues/630) every 6 hours. 
 
 # 🟢 Research: Ephemeral port exhaustion
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Open · **Создано:** 2026-01-23 20:09 UTC · **Обновлено:** 2026-03-21 19:24 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Open · **Created:** 2026-01-23 20:09 UTC · **Updated:** 2026-03-21 19:24 UTC
 
 ---
 
@@ -25,7 +25,7 @@ After that, feel free to contact me on Discord: `tatianacharchian_07833`.
 
 ---
 
-## 💬 Комментарии (3)
+## 💬 Comments (3)
 
 ### Комментарий 1 — [@AlexeySamosadov](https://github.com/AlexeySamosadov)
 

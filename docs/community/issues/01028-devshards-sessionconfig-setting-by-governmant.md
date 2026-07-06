@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:51:45Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1028](https://github.com/gonka-ai/gonka/issues/1028) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #1028](https://github.com/gonka-ai/gonka/issues/1028) every 6 hours. 
 
 # 🔴 `devshards` `SessionConfig` setting by governmant
 
-**Автор:** [@akup](https://github.com/akup) · **Состояние:** Closed · **Создано:** 2026-04-07 18:44 UTC · **Обновлено:** 2026-06-26 22:40 UTC
+**Author:** [@akup](https://github.com/akup) · **State:** Closed · **Created:** 2026-04-07 18:44 UTC · **Updated:** 2026-06-26 22:40 UTC
 
-**Метки:** `Priority: Low`
+**Labels:** `Priority: Low`
 
 **Веха:** v0.2.13-devshard2
 
@@ -26,7 +26,7 @@ For example https://github.com/gonka-ai/gonka/pull/1005 introduces `MaxInference
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@unameisfine](https://github.com/unameisfine)
 

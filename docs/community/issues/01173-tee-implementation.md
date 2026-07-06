@@ -13,7 +13,7 @@ template: issues-main.html
     <span class="issues-number">#1173</span>
   </h1>
   <div class="issues-detail-meta">
-    <span class="issues-meta-item">Открыт</span>
+    <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-05-16 06:45 UTC</span>
     <span class="issues-meta-item">3 comments</span>
     <span class="issues-meta-item">Updated 2026-07-04 13:32 UTC</span>
@@ -172,7 +172,7 @@ Signed metadata from a TEE key is inherently trusted - the execution environment
 
 ---
 
-## 💬 Комментарии (3)
+## 💬 Comments (3)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -224,4 +224,4 @@ From there we can discuss the next steps. And if you have any questions, feel fr
 
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1173](https://github.com/gonka-ai/gonka/issues/1173) каждые 6 часов.
+> 🔄 **Auto-synced:** from [Issue #1173](https://github.com/gonka-ai/gonka/issues/1173) every 6 hours.

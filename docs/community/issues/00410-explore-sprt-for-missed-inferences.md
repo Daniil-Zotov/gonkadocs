@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:53:01Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #410](https://github.com/gonka-ai/gonka/issues/410) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #410](https://github.com/gonka-ai/gonka/issues/410) every 6 hours. 
 
 # 🔴 Explore SPRT for missed inferences
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2025-10-30 17:03 UTC · **Обновлено:** 2026-01-29 06:04 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2025-10-30 17:03 UTC · **Updated:** 2026-01-29 06:04 UTC
 
 **Веха:** v0.2.5
 
@@ -18,11 +18,11 @@ template: issues-main.html
 
 ## 📝 Описание
 
-*(пусто)*
+*(empty)*
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
 

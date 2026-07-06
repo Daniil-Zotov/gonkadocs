@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:15Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #611](https://github.com/gonka-ai/gonka/issues/611) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #611](https://github.com/gonka-ai/gonka/issues/611) every 6 hours. 
 
 # 🟢 [zpoken] Define and validate scalable off-chain PoC communication beyond Merkle-based commits
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Open · **Создано:** 2026-01-20 21:32 UTC · **Обновлено:** 2026-04-23 01:38 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Open · **Created:** 2026-01-20 21:32 UTC · **Updated:** 2026-04-23 01:38 UTC
 
 ---
 
@@ -32,7 +32,7 @@ Formally define, evaluate, and validate the Mesh / Turbine-based off-chain PoC c
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@akup](https://github.com/akup)
 

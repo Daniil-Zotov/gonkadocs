@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:41Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #652](https://github.com/gonka-ai/gonka/issues/652) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #652](https://github.com/gonka-ai/gonka/issues/652) every 6 hours. 
 
 # 🔴 Certik(CSA-2026-001:Tachyon, was disclosed in CometBFT)
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2026-01-27 19:04 UTC · **Обновлено:** 2026-03-12 18:29 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2026-01-27 19:04 UTC · **Updated:** 2026-03-12 18:29 UTC
 
 **Веха:** v0.2.11
 
@@ -26,7 +26,7 @@ As Gonka is a Cosmos-based project that uses CometBFT, Certik kindly recommends 
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@AlexeySamosadov](https://github.com/AlexeySamosadov)
 

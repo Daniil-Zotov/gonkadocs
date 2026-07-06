@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:52:44Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #820](https://github.com/gonka-ai/gonka/issues/820) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #820](https://github.com/gonka-ai/gonka/issues/820) every 6 hours. 
 
 # 🟢 Investigate missed inference on some nodes (root causes + mitigation)
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Open · **Создано:** 2026-02-27 21:13 UTC · **Обновлено:** 2026-03-06 14:25 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Open · **Created:** 2026-02-27 21:13 UTC · **Updated:** 2026-03-06 14:25 UTC
 
-**Метки:** `bug` `help wanted` `up-for-grabs` `Priority: High`
+**Labels:** `bug` `help wanted` `up-for-grabs` `Priority: High`
 
 ---
 
@@ -29,7 +29,7 @@ Task: Some nodes experience missed inference events. Likely multi-cause, needs c
 
 ---
 
-## 💬 Комментарии (2)
+## 💬 Comments (2)
 
 ### Комментарий 1 — [@AlexeySamosadov](https://github.com/AlexeySamosadov)
 

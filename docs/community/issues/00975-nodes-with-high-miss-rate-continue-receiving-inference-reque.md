@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:28Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #975](https://github.com/gonka-ai/gonka/issues/975) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #975](https://github.com/gonka-ai/gonka/issues/975) every 6 hours. 
 
 # 🔴 Nodes with high miss rate continue receiving inference requests for the rest of the epoch
 
-**Автор:** [@mingles-agent](https://github.com/mingles-agent) · **Состояние:** Closed · **Создано:** 2026-03-30 09:08 UTC · **Обновлено:** 2026-03-31 14:00 UTC
+**Author:** [@mingles-agent](https://github.com/mingles-agent) · **State:** Closed · **Created:** 2026-03-30 09:08 UTC · **Updated:** 2026-03-31 14:00 UTC
 
 ---
 
@@ -37,7 +37,7 @@ Same-block probe re-exclusion: when a probe succeeds, `UpdateCBStateForBlock` Pa
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@x0152](https://github.com/x0152)
 

@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:51Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #631](https://github.com/gonka-ai/gonka/issues/631) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #631](https://github.com/gonka-ai/gonka/issues/631) every 6 hours. 
 
 # 🔴 Add message to transfer amount with vesting
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2026-01-23 23:58 UTC · **Обновлено:** 2026-02-10 22:49 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2026-01-23 23:58 UTC · **Updated:** 2026-02-10 22:49 UTC
 
 **Веха:** v0.2.10
 
@@ -23,7 +23,7 @@ When the community distributes funds to miners, the transferred tokens should ve
 
 ---
 
-## 💬 Комментарии (4)
+## 💬 Comments (4)
 
 ### Комментарий 1 — [@AlexeySamosadov](https://github.com/AlexeySamosadov)
 

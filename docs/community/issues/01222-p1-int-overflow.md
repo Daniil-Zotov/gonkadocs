@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:51:42Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1222](https://github.com/gonka-ai/gonka/issues/1222) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #1222](https://github.com/gonka-ai/gonka/issues/1222) every 6 hours. 
 
 # 🟢 [P1] Int overflow
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Open · **Создано:** 2026-05-21 22:30 UTC · **Обновлено:** 2026-06-30 13:00 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Open · **Created:** 2026-05-21 22:30 UTC · **Updated:** 2026-06-30 13:00 UTC
 
-**Метки:** `Priority: Medium`
+**Labels:** `Priority: Medium`
 
 **Веха:** v0.2.15
 
@@ -24,7 +24,7 @@ The goal of this is to have in place after this a standard way of handling possi
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@olegsuhoparov](https://github.com/olegsuhoparov)
 

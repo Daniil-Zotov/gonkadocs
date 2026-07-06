@@ -98,8 +98,8 @@ document.addEventListener('DOMContentLoaded', function() {
   var filter = document.createElement('div');
   filter.className = 'issues-filter';
   filter.innerHTML =
-    '<label><input type="checkbox" id="issues-show-open" checked> Показать открытые</label>' +
-    '<label><input type="checkbox" id="issues-show-closed"> Показать закрытые</label>' +
+    '<label><input type="checkbox" id="issues-show-open" checked> Show Open</label>' +
+    '<label><input type="checkbox" id="issues-show-closed"> Show Closed</label>' +
     '<span class="issues-filter-count"></span>';
   list.parentNode.insertBefore(filter, list);
 
@@ -117,7 +117,7 @@ document.addEventListener('DOMContentLoaded', function() {
       item.style.display = show ? '' : 'none';
       if (show) visible++;
     });
-    countEl.textContent = visible + ' из ' + items.length + ' issues';
+    countEl.textContent = visible + ' of ' + items.length + ' issues';
   }
 
   cbOpen.addEventListener('change', applyFilter);

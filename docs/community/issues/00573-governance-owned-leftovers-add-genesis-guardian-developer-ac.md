@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:53:27Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #573](https://github.com/gonka-ai/gonka/issues/573) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #573](https://github.com/gonka-ai/gonka/issues/573) every 6 hours. 
 
 # 🔴 Governance-owned leftovers; add genesis guardian + developer access param groups
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2026-01-15 21:18 UTC · **Обновлено:** 2026-01-15 22:06 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2026-01-15 21:18 UTC · **Updated:** 2026-01-15 22:06 UTC
 
 **Веха:** v0.2.7
 
@@ -18,4 +18,4 @@ template: issues-main.html
 
 ## 📝 Описание
 
-*(пусто)*
+*(empty)*

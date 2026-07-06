@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:51:49Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1229](https://github.com/gonka-ai/gonka/issues/1229) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #1229](https://github.com/gonka-ai/gonka/issues/1229) every 6 hours. 
 
 # 🔴 Request for phased DevShards creator allowlist access for local gateway MVP validation
 
-**Автор:** [@sspotanin](https://github.com/sspotanin) · **Состояние:** Closed · **Создано:** 2026-05-22 16:08 UTC · **Обновлено:** 2026-06-23 23:22 UTC
+**Author:** [@sspotanin](https://github.com/sspotanin) · **State:** Closed · **Created:** 2026-05-22 16:08 UTC · **Updated:** 2026-06-23 23:22 UTC
 
 ---
 
@@ -120,7 +120,7 @@ I am happy to coordinate and adjust the validation scope, limits, or rollout pro
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
 

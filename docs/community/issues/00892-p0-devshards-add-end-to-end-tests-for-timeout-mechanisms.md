@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:51:59Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #892](https://github.com/gonka-ai/gonka/issues/892) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #892](https://github.com/gonka-ai/gonka/issues/892) every 6 hours. 
 
 # 🟢 [P0] `devshards`: add end-to-end tests for timeout mechanisms
 
-**Автор:** [@dcastro](https://github.com/dcastro) · **Состояние:** Open · **Создано:** 2026-03-16 13:48 UTC · **Обновлено:** 2026-05-25 18:37 UTC
+**Author:** [@dcastro](https://github.com/dcastro) · **State:** Open · **Created:** 2026-03-16 13:48 UTC · **Updated:** 2026-05-25 18:37 UTC
 
-**Метки:** `Priority: High` `devshards`
+**Labels:** `Priority: High` `devshards`
 
 **Веха:** v0.2.14-devshard3
 
@@ -28,7 +28,7 @@ The proxy server should allow configuring the deadline limits so that the tests 
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@KKizilov](https://github.com/KKizilov)
 

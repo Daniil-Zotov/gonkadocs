@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:10Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #351](https://github.com/gonka-ai/gonka/issues/351) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #351](https://github.com/gonka-ai/gonka/issues/351) every 6 hours. 
 
 # 🔴 BUG: Wrong error message for unsupported models in /chat/completions
 
-**Автор:** [@gmorgachev](https://github.com/gmorgachev) · **Состояние:** Closed · **Создано:** 2025-09-10 23:19 UTC · **Обновлено:** 2026-04-28 18:50 UTC
+**Author:** [@gmorgachev](https://github.com/gmorgachev) · **State:** Closed · **Created:** 2025-09-10 23:19 UTC · **Updated:** 2026-04-28 18:50 UTC
 
 ---
 
@@ -22,7 +22,7 @@ When inference for unsupported message requested, system returns:
 
 ---
 
-## 💬 Комментарии (5)
+## 💬 Comments (5)
 
 ### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
 

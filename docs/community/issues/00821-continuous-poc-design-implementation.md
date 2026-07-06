@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:52:47Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #821](https://github.com/gonka-ai/gonka/issues/821) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #821](https://github.com/gonka-ai/gonka/issues/821) every 6 hours. 
 
 # 🟢 Continuous PoC design + implementation
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Open · **Создано:** 2026-02-27 21:16 UTC · **Обновлено:** 2026-03-03 10:33 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Open · **Created:** 2026-02-27 21:16 UTC · **Updated:** 2026-03-03 10:33 UTC
 
-**Метки:** `enhancement` `help wanted` `up-for-grabs` `Priority: High`
+**Labels:** `enhancement` `help wanted` `up-for-grabs` `Priority: High`
 
 ---
 
@@ -32,7 +32,7 @@ Long-running effort; Many contributors are welcome.
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@AlexeySamosadov](https://github.com/AlexeySamosadov)
 

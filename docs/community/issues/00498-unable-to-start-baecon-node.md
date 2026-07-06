@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:53:09Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #498](https://github.com/gonka-ai/gonka/issues/498) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #498](https://github.com/gonka-ai/gonka/issues/498) every 6 hours. 
 
 # 🔴 Unable to start baecon node
 
-**Автор:** [@Knoxpix](https://github.com/Knoxpix) · **Состояние:** Closed · **Создано:** 2025-12-19 08:41 UTC · **Обновлено:** 2026-01-22 00:12 UTC
+**Author:** [@Knoxpix](https://github.com/Knoxpix) · **State:** Closed · **Created:** 2025-12-19 08:41 UTC · **Updated:** 2026-01-22 00:12 UTC
 
 ---
 
@@ -66,7 +66,7 @@ bridge  | tail: /var/log/geth/geth.log: file truncated`
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
 

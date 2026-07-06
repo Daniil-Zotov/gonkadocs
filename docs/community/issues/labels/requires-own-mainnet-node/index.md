@@ -5,10 +5,10 @@ template: issues-main.html
 
 # Issues: Requires Own Mainnet Node
 
-Issues с меткой **Requires Own Mainnet Node**. Всего: **2**.
-Обновлено: `2026-07-06 11:14 UTC`.
+Issues with label **Requires Own Mainnet Node**. Total: **2**.
+Updated: `2026-07-06 11:14 UTC`.
 
-[← ко всем Issues](../../index.md)
+[← All Issues](../../index.md)
 
 <ul class="issues-list">
 <li class="issues-list-item">

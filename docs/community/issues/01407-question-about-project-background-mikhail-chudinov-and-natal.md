@@ -13,7 +13,7 @@ template: issues-main.html
     <span class="issues-number">#1407</span>
   </h1>
   <div class="issues-detail-meta">
-    <span class="issues-meta-item">Открыт</span>
+    <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item">[@phishdestroy](https://github.com/phishdestroy) opened 2026-07-06 09:23 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-07-06 09:52 UTC</span>
@@ -33,7 +33,7 @@ Is this project just another setup for a scam and stealing money? Or are you jus
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -47,4 +47,4 @@ Is this project just another setup for a scam and stealing money? Or are you jus
 
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1407](https://github.com/gonka-ai/gonka/issues/1407) каждые 6 часов.
+> 🔄 **Auto-synced:** from [Issue #1407](https://github.com/gonka-ai/gonka/issues/1407) every 6 hours.

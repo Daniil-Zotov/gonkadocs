@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:52:04Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1169](https://github.com/gonka-ai/gonka/issues/1169) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #1169](https://github.com/gonka-ai/gonka/issues/1169) every 6 hours. 
 
 # 🟢 [BUG] A short, specific, searchable title.
 
-**Автор:** [@akamitch](https://github.com/akamitch) · **Состояние:** Open · **Создано:** 2026-05-15 13:51 UTC · **Обновлено:** 2026-05-15 13:54 UTC
+**Author:** [@akamitch](https://github.com/akamitch) · **State:** Open · **Created:** 2026-05-15 13:51 UTC · **Updated:** 2026-05-15 13:54 UTC
 
-**Метки:** `bug`
+**Labels:** `bug`
 
 ---
 

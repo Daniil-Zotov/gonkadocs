@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:52:24Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #899](https://github.com/gonka-ai/gonka/issues/899) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #899](https://github.com/gonka-ai/gonka/issues/899) every 6 hours. 
 
 # 🔴 [P0] `devshards`: Add end-to-end inference validation tests
 
-**Автор:** [@heitor-lassarote](https://github.com/heitor-lassarote) · **Состояние:** Closed · **Создано:** 2026-03-16 18:50 UTC · **Обновлено:** 2026-04-07 16:10 UTC
+**Author:** [@heitor-lassarote](https://github.com/heitor-lassarote) · **State:** Closed · **Created:** 2026-03-16 18:50 UTC · **Updated:** 2026-04-07 16:10 UTC
 
-**Метки:** `Priority: High` `devshards`
+**Labels:** `Priority: High` `devshards`
 
 **Веха:** v0.2.12
 
@@ -24,7 +24,7 @@ We should write testermint tests to ensure that inference validations in `devsha
 
 ---
 
-## 💬 Комментарии (3)
+## 💬 Comments (3)
 
 ### Комментарий 1 — [@heitor-lassarote](https://github.com/heitor-lassarote)
 

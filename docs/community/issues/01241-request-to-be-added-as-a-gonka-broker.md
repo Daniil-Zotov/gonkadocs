@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:00Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1241](https://github.com/gonka-ai/gonka/issues/1241) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #1241](https://github.com/gonka-ai/gonka/issues/1241) every 6 hours. 
 
 # 🔴 Request to be added as a Gonka broker
 
-**Автор:** [@olkwwuah](https://github.com/olkwwuah) · **Состояние:** Closed · **Создано:** 2026-05-24 17:24 UTC · **Обновлено:** 2026-05-24 17:26 UTC
+**Author:** [@olkwwuah](https://github.com/olkwwuah) · **State:** Closed · **Created:** 2026-05-24 17:24 UTC · **Updated:** 2026-05-24 17:26 UTC
 
 ---
 

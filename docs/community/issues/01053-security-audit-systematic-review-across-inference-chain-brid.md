@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:08Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1053](https://github.com/gonka-ai/gonka/issues/1053) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #1053](https://github.com/gonka-ai/gonka/issues/1053) every 6 hours. 
 
 # 🟢 Security Audit: Systematic review across inference chain, bridge, subnet, and API layers
 
-**Автор:** [@Doog-bot534](https://github.com/Doog-bot534) · **Состояние:** Open · **Создано:** 2026-04-15 07:05 UTC · **Обновлено:** 2026-04-29 01:45 UTC
+**Author:** [@Doog-bot534](https://github.com/Doog-bot534) · **State:** Open · **Created:** 2026-04-15 07:05 UTC · **Updated:** 2026-04-29 01:45 UTC
 
 **Веха:** v0.2.14
 
@@ -115,7 +115,7 @@ I plan to submit additional fix PRs for the remaining findings if the team is in
 
 ---
 
-## 💬 Комментарии (3)
+## 💬 Comments (3)
 
 ### Комментарий 1 — [@Doog-bot534](https://github.com/Doog-bot534)
 

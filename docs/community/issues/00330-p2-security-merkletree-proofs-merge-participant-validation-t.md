@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:51:47Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #330](https://github.com/gonka-ai/gonka/issues/330) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #330](https://github.com/gonka-ai/gonka/issues/330) every 6 hours. 
 
 # 🟢 [P2] Security MerkleTree Proofs; Merge participant validation till block0; Need to add signature check at recording
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Open · **Создано:** 2025-09-03 23:17 UTC · **Обновлено:** 2026-06-24 01:04 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Open · **Created:** 2025-09-03 23:17 UTC · **Updated:** 2026-06-24 01:04 UTC
 
 **Веха:** v0.2.15
 
@@ -27,7 +27,7 @@ After that, feel free to contact me on Discord: `tatianacharchian_07833`.
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
 

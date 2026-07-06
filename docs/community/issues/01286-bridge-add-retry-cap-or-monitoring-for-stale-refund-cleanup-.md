@@ -13,7 +13,7 @@ template: issues-main.html
     <span class="issues-number">#1286</span>
   </h1>
   <div class="issues-detail-meta">
-    <span class="issues-meta-item">Открыт</span>
+    <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item">[@Ryanchen911](https://github.com/Ryanchen911) opened 2026-06-01 02:34 UTC</span>
     <span class="issues-meta-item">4 comments</span>
     <span class="issues-meta-item">Updated 2026-07-01 21:37 UTC</span>
@@ -66,7 +66,7 @@ Either:
 
 ---
 
-## 💬 Комментарии (4)
+## 💬 Comments (4)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -107,4 +107,4 @@ Either:
 
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1286](https://github.com/gonka-ai/gonka/issues/1286) каждые 6 часов.
+> 🔄 **Auto-synced:** from [Issue #1286](https://github.com/gonka-ai/gonka/issues/1286) every 6 hours.

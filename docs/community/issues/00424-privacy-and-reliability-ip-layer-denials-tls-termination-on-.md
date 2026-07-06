@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:53:37Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #424](https://github.com/gonka-ai/gonka/issues/424) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #424](https://github.com/gonka-ai/gonka/issues/424) every 6 hours. 
 
 # 🟢 Privacy and Reliability: IP-layer denials, TLS termination, on-chain prompt exposure, and faster mitigation of unreliable hosts
 
-**Автор:** [@vvv-tech](https://github.com/vvv-tech) · **Состояние:** Open · **Создано:** 2025-11-10 12:43 UTC · **Обновлено:** 2025-11-10 12:43 UTC
+**Author:** [@vvv-tech](https://github.com/vvv-tech) · **State:** Open · **Created:** 2025-11-10 12:43 UTC · **Updated:** 2025-11-10 12:43 UTC
 
 ---
 

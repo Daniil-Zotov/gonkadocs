@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:51:54Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #521](https://github.com/gonka-ai/gonka/issues/521) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #521](https://github.com/gonka-ai/gonka/issues/521) every 6 hours. 
 
 # 🔴 Create a proxy endpoint that aggregates multiple internal RPC nodes behind a single public-facing address (for crypto wallets)
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2026-01-06 00:34 UTC · **Обновлено:** 2026-06-04 19:10 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2026-01-06 00:34 UTC · **Updated:** 2026-06-04 19:10 UTC
 
 **Веха:** v0.2.14
 
@@ -34,7 +34,7 @@ CC @kotelnikova
 
 ---
 
-## 💬 Комментарии (7)
+## 💬 Comments (7)
 
 ### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
 

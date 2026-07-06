@@ -6,14 +6,14 @@ synced_at: 2026-07-06T09:53:05Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #359](https://github.com/gonka-ai/gonka/issues/359) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #359](https://github.com/gonka-ai/gonka/issues/359) every 6 hours. 
 
 # 🔴 [P0]: AI Developer onboarding: Aiden Chat integration
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2025-09-16 20:30 UTC · **Обновлено:** 2026-01-28 22:22 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2025-09-16 20:30 UTC · **Updated:** 2026-01-28 22:22 UTC
 
 ---
 
 ## 📝 Описание
 
-*(пусто)*
+*(empty)*

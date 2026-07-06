@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:41Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #772](https://github.com/gonka-ai/gonka/issues/772) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #772](https://github.com/gonka-ai/gonka/issues/772) every 6 hours. 
 
 # 🔴 Slashed coins should not be burned
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2026-02-18 01:36 UTC · **Обновлено:** 2026-03-12 18:09 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2026-02-18 01:36 UTC · **Updated:** 2026-03-12 18:09 UTC
 
 **Веха:** v0.2.11
 
@@ -31,7 +31,7 @@ Expected behavior:
 
 ---
 
-## 💬 Комментарии (2)
+## 💬 Comments (2)
 
 ### Комментарий 1 — [@x0152](https://github.com/x0152)
 

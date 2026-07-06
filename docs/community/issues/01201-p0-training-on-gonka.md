@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:52:01Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1201](https://github.com/gonka-ai/gonka/issues/1201) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #1201](https://github.com/gonka-ai/gonka/issues/1201) every 6 hours. 
 
 # 🟢 [P0] Training on Gonka
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Open · **Создано:** 2026-05-19 23:46 UTC · **Обновлено:** 2026-05-21 22:33 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Open · **Created:** 2026-05-19 23:46 UTC · **Updated:** 2026-05-21 22:33 UTC
 
-**Метки:** `up-for-grabs` `Priority: High`
+**Labels:** `up-for-grabs` `Priority: High`
 
 ---
 

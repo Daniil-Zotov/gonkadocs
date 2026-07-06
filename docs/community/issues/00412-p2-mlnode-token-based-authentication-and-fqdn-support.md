@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:51:43Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #412](https://github.com/gonka-ai/gonka/issues/412) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #412](https://github.com/gonka-ai/gonka/issues/412) every 6 hours. 
 
 # 🟢 [P2] MLNode Token-Based Authentication and FQDN Support
 
-**Автор:** [@gmorgachev](https://github.com/gmorgachev) · **Состояние:** Open · **Создано:** 2025-10-31 07:50 UTC · **Обновлено:** 2026-06-27 20:42 UTC
+**Author:** [@gmorgachev](https://github.com/gmorgachev) · **State:** Open · **Created:** 2025-10-31 07:50 UTC · **Updated:** 2026-06-27 20:42 UTC
 
-**Метки:** `Priority: Low`
+**Labels:** `Priority: Low`
 
 **Веха:** v0.2.15
 
@@ -151,7 +151,7 @@ Required changes:
 
 ---
 
-## 💬 Комментарии (6)
+## 💬 Comments (6)
 
 ### Комментарий 1 — [@Pegasus-starry](https://github.com/Pegasus-starry)
 

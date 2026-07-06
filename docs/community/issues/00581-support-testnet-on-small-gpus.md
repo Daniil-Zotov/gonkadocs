@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:53:29Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #581](https://github.com/gonka-ai/gonka/issues/581) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #581](https://github.com/gonka-ai/gonka/issues/581) every 6 hours. 
 
 # 🔴 Support testnet on small GPUs
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2026-01-15 21:59 UTC · **Обновлено:** 2026-01-15 21:59 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2026-01-15 21:59 UTC · **Updated:** 2026-01-15 21:59 UTC
 
 **Веха:** v0.2.4
 
@@ -18,4 +18,4 @@ template: issues-main.html
 
 ## 📝 Описание
 
-*(пусто)*
+*(empty)*

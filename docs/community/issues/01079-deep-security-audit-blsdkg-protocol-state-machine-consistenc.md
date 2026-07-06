@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:11Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1079](https://github.com/gonka-ai/gonka/issues/1079) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #1079](https://github.com/gonka-ai/gonka/issues/1079) every 6 hours. 
 
 # 🔴 Deep Security Audit: BLS/DKG protocol, state machine consistency, and economic logic vulnerabilities
 
-**Автор:** [@Doog-bot534](https://github.com/Doog-bot534) · **Состояние:** Closed · **Создано:** 2026-04-16 03:20 UTC · **Обновлено:** 2026-04-28 16:59 UTC
+**Author:** [@Doog-bot534](https://github.com/Doog-bot534) · **State:** Closed · **Created:** 2026-04-16 03:20 UTC · **Updated:** 2026-04-28 16:59 UTC
 
 ---
 
@@ -80,7 +80,7 @@ Payout address: `gonka10zaal553duxp05nvfpqtsqrm2g0j6j34r8nan7`
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@x0152](https://github.com/x0152)
 

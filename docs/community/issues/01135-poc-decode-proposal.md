@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:52:01Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1135](https://github.com/gonka-ai/gonka/issues/1135) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #1135](https://github.com/gonka-ai/gonka/issues/1135) every 6 hours. 
 
 # 🟢 PoC-decode proposal
 
-**Автор:** [@Red-Caesar](https://github.com/Red-Caesar) · **Состояние:** Open · **Создано:** 2026-04-30 12:35 UTC · **Обновлено:** 2026-05-23 01:49 UTC
+**Author:** [@Red-Caesar](https://github.com/Red-Caesar) · **State:** Open · **Created:** 2026-04-30 12:35 UTC · **Updated:** 2026-05-23 01:49 UTC
 
-**Метки:** `enhancement`
+**Labels:** `enhancement`
 
 ---
 
@@ -85,7 +85,7 @@ Evidence and analysis:
 
 ---
 
-## 💬 Комментарии (5)
+## 💬 Comments (5)
 
 ### Комментарий 1 — [@unameisfine](https://github.com/unameisfine)
 

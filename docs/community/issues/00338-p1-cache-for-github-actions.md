@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:31Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #338](https://github.com/gonka-ai/gonka/issues/338) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #338](https://github.com/gonka-ai/gonka/issues/338) every 6 hours. 
 
 # 🔴 [P1] Cache for Github Actions
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2025-09-03 23:19 UTC · **Обновлено:** 2026-03-25 18:38 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2025-09-03 23:19 UTC · **Updated:** 2026-03-25 18:38 UTC
 
 **Веха:** v0.2.12
 
@@ -18,11 +18,11 @@ template: issues-main.html
 
 ## 📝 Описание
 
-*(пусто)*
+*(empty)*
 
 ---
 
-## 💬 Комментарии (3)
+## 💬 Comments (3)
 
 ### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
 

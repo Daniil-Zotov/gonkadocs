@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:51:50Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1321](https://github.com/gonka-ai/gonka/issues/1321) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #1321](https://github.com/gonka-ai/gonka/issues/1321) every 6 hours. 
 
 # 🔴 Gateway allowlist request
 
-**Автор:** [@bruev](https://github.com/bruev) · **Состояние:** Closed · **Создано:** 2026-06-08 14:26 UTC · **Обновлено:** 2026-06-23 23:03 UTC
+**Author:** [@bruev](https://github.com/bruev) · **State:** Closed · **Created:** 2026-06-08 14:26 UTC · **Updated:** 2026-06-23 23:03 UTC
 
 ---
 
@@ -29,7 +29,7 @@ Purpose: Self-hosted devshard gateway on the linux server
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
 

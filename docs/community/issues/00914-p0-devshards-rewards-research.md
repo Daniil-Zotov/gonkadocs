@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:52:26Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #914](https://github.com/gonka-ai/gonka/issues/914) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #914](https://github.com/gonka-ai/gonka/issues/914) every 6 hours. 
 
 # 🔴 [P0] `devshards` rewards (research)
 
-**Автор:** [@dcastro](https://github.com/dcastro) · **Состояние:** Closed · **Создано:** 2026-03-18 10:43 UTC · **Обновлено:** 2026-04-02 12:31 UTC
+**Author:** [@dcastro](https://github.com/dcastro) · **State:** Closed · **Created:** 2026-03-18 10:43 UTC · **Updated:** 2026-04-02 12:31 UTC
 
-**Метки:** `Priority: High` `devshards`
+**Labels:** `Priority: High` `devshards`
 
 **Веха:** v0.2.12
 
@@ -43,7 +43,7 @@ template: issues-main.html
 
 ---
 
-## 💬 Комментарии (3)
+## 💬 Comments (3)
 
 ### Комментарий 1 — [@dcastro](https://github.com/dcastro)
 

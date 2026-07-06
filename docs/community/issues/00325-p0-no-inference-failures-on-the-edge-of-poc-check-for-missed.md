@@ -6,21 +6,21 @@ synced_at: 2026-07-06T09:52:59Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #325](https://github.com/gonka-ai/gonka/issues/325) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #325](https://github.com/gonka-ai/gonka/issues/325) every 6 hours. 
 
 # 🔴 [P0] No inference failures on the edge of PoC; Check for missed validation during epoch
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2025-09-03 23:09 UTC · **Обновлено:** 2026-02-05 05:17 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2025-09-03 23:09 UTC · **Updated:** 2026-02-05 05:17 UTC
 
 ---
 
 ## 📝 Описание
 
-*(пусто)*
+*(empty)*
 
 ---
 
-## 💬 Комментарии (2)
+## 💬 Comments (2)
 
 ### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
 

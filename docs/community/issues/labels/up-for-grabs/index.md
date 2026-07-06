@@ -5,10 +5,10 @@ template: issues-main.html
 
 # Issues: Up For Grabs
 
-Issues с меткой **Up For Grabs**. Всего: **15**.
-Обновлено: `2026-07-06 11:14 UTC`.
+Issues with label **Up For Grabs**. Total: **15**.
+Updated: `2026-07-06 11:14 UTC`.
 
-[← ко всем Issues](../../index.md)
+[← All Issues](../../index.md)
 
 <ul class="issues-list">
 <li class="issues-list-item">

@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:51:52Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1198](https://github.com/gonka-ai/gonka/issues/1198) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #1198](https://github.com/gonka-ai/gonka/issues/1198) every 6 hours. 
 
 # 🟢 Re-validate VLM inference and validation results from #1026
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Open · **Создано:** 2026-05-19 23:03 UTC · **Обновлено:** 2026-06-11 09:07 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Open · **Created:** 2026-05-19 23:03 UTC · **Updated:** 2026-06-11 09:07 UTC
 
-**Метки:** `up-for-grabs`
+**Labels:** `up-for-grabs`
 
 ---
 
@@ -94,7 +94,7 @@ Please provide a short report in this issue with:
 
 ---
 
-## 💬 Комментарии (7)
+## 💬 Comments (7)
 
 ### Комментарий 1 — [@Ryanchen911](https://github.com/Ryanchen911)
 

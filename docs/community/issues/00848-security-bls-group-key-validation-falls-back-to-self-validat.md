@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:38Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #848](https://github.com/gonka-ai/gonka/issues/848) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #848](https://github.com/gonka-ai/gonka/issues/848) every 6 hours. 
 
 # 🔴 Security: BLS group key validation falls back to self-validation when previous epoch data is missing
 
-**Автор:** [@Mayveskii](https://github.com/Mayveskii) · **Состояние:** Closed · **Создано:** 2026-03-03 12:03 UTC · **Обновлено:** 2026-03-12 22:56 UTC
+**Author:** [@Mayveskii](https://github.com/Mayveskii) · **State:** Closed · **Created:** 2026-03-03 12:03 UTC · **Updated:** 2026-03-12 22:56 UTC
 
 ---
 
@@ -65,7 +65,7 @@ If bootstrapping for the very first epoch is required, handle it explicitly with
 
 ---
 
-## 💬 Комментарии (2)
+## 💬 Comments (2)
 
 ### Комментарий 1 — [@Mayveskii](https://github.com/Mayveskii)
 

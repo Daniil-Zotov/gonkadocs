@@ -6,21 +6,21 @@ synced_at: 2026-07-06T09:52:32Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #619](https://github.com/gonka-ai/gonka/issues/619) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #619](https://github.com/gonka-ai/gonka/issues/619) every 6 hours. 
 
 # 🟢 Inference invalidation by pseudo random sub-group of participant (to decrease amount of `MsgValidation`)
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Open · **Создано:** 2026-01-23 00:24 UTC · **Обновлено:** 2026-03-23 05:53 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Open · **Created:** 2026-01-23 00:24 UTC · **Updated:** 2026-03-23 05:53 UTC
 
 ---
 
 ## 📝 Описание
 
-*(пусто)*
+*(empty)*
 
 ---
 
-## 💬 Комментарии (4)
+## 💬 Comments (4)
 
 ### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
 

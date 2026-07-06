@@ -5,10 +5,10 @@ template: issues-main.html
 
 # Issues: Priority Low
 
-Issues с меткой **Priority Low**. Всего: **13**.
-Обновлено: `2026-07-06 11:14 UTC`.
+Issues with label **Priority Low**. Total: **13**.
+Updated: `2026-07-06 11:14 UTC`.
 
-[← ко всем Issues](../../index.md)
+[← All Issues](../../index.md)
 
 <ul class="issues-list">
 <li class="issues-list-item">

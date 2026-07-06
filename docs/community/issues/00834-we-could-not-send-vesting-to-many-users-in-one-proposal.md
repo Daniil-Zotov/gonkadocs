@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:39Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #834](https://github.com/gonka-ai/gonka/issues/834) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #834](https://github.com/gonka-ai/gonka/issues/834) every 6 hours. 
 
 # 🔴 We could not send vesting to many users in one proposal
 
-**Автор:** [@huxuxuya](https://github.com/huxuxuya) · **Состояние:** Closed · **Создано:** 2026-03-01 22:24 UTC · **Обновлено:** 2026-03-12 20:29 UTC
+**Author:** [@huxuxuya](https://github.com/huxuxuya) · **State:** Closed · **Created:** 2026-03-01 22:24 UTC · **Updated:** 2026-03-12 20:29 UTC
 
 **Веха:** v0.2.11
 

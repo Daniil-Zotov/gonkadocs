@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:52:27Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #895](https://github.com/gonka-ai/gonka/issues/895) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #895](https://github.com/gonka-ai/gonka/issues/895) every 6 hours. 
 
 # 🔴 [P0] Allow hosts to vote on timeouts if they haven't yet seen `MsgStartInference`
 
-**Автор:** [@dcastro](https://github.com/dcastro) · **Состояние:** Closed · **Создано:** 2026-03-16 14:00 UTC · **Обновлено:** 2026-04-01 23:52 UTC
+**Author:** [@dcastro](https://github.com/dcastro) · **State:** Closed · **Created:** 2026-03-16 14:00 UTC · **Updated:** 2026-04-01 23:52 UTC
 
-**Метки:** `devshards`
+**Labels:** `devshards`
 
 **Веха:** v0.2.12
 

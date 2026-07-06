@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:52:03Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1200](https://github.com/gonka-ai/gonka/issues/1200) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #1200](https://github.com/gonka-ai/gonka/issues/1200) every 6 hours. 
 
 # 🟢 Independent review of PoC-decode results
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Open · **Создано:** 2026-05-19 23:36 UTC · **Обновлено:** 2026-05-19 23:36 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Open · **Created:** 2026-05-19 23:36 UTC · **Updated:** 2026-05-19 23:36 UTC
 
-**Метки:** `up-for-grabs`
+**Labels:** `up-for-grabs`
 
 ---
 

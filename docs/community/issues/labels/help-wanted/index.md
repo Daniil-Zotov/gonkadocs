@@ -5,10 +5,10 @@ template: issues-main.html
 
 # Issues: Help Wanted
 
-Issues с меткой **Help Wanted**. Всего: **7**.
-Обновлено: `2026-07-06 11:14 UTC`.
+Issues with label **Help Wanted**. Total: **7**.
+Updated: `2026-07-06 11:14 UTC`.
 
-[← ко всем Issues](../../index.md)
+[← All Issues](../../index.md)
 
 <ul class="issues-list">
 <li class="issues-list-item">

@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:52:48Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #797](https://github.com/gonka-ai/gonka/issues/797) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #797](https://github.com/gonka-ai/gonka/issues/797) every 6 hours. 
 
 # 🔴 New nodes can't join from snapshots with error
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2026-02-24 19:35 UTC · **Обновлено:** 2026-02-25 17:50 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2026-02-24 19:35 UTC · **Updated:** 2026-02-25 17:50 UTC
 
-**Метки:** `help wanted` `up-for-grabs` `Priority: High`
+**Labels:** `help wanted` `up-for-grabs` `Priority: High`
 
 ---
 
@@ -44,7 +44,7 @@ Also, collateral needs to be checked.
 
 ---
 
-## 💬 Комментарии (5)
+## 💬 Comments (5)
 
 ### Комментарий 1 — [@hleb-albau](https://github.com/hleb-albau)
 

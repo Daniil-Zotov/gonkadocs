@@ -13,7 +13,7 @@ template: issues-main.html
     <span class="issues-number">#1319</span>
   </h1>
   <div class="issues-detail-meta">
-    <span class="issues-meta-item">Закрыт</span>
+    <span class="issues-meta-item">Closed</span>
     <span class="issues-meta-item">[@dufok](https://github.com/dufok) opened 2026-06-07 22:20 UTC</span>
     <span class="issues-meta-item">7 comments</span>
     <span class="issues-meta-item">Updated 2026-07-03 15:26 UTC</span>
@@ -130,7 +130,7 @@ Related: #876
 
 ---
 
-## 💬 Комментарии (7)
+## 💬 Comments (7)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -299,4 +299,4 @@ Additional correction on OpenBroker, since it touches your "no fee in between" p
 
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1319](https://github.com/gonka-ai/gonka/issues/1319) каждые 6 часов.
+> 🔄 **Auto-synced:** from [Issue #1319](https://github.com/gonka-ai/gonka/issues/1319) every 6 hours.

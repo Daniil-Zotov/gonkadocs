@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:53:34Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #381](https://github.com/gonka-ai/gonka/issues/381) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #381](https://github.com/gonka-ai/gonka/issues/381) every 6 hours. 
 
 # 🔴 [P0] How to change `inference_url`
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2025-09-30 16:43 UTC · **Обновлено:** 2025-12-08 21:16 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2025-09-30 16:43 UTC · **Updated:** 2025-12-08 21:16 UTC
 
 ---
 
@@ -32,7 +32,7 @@ Such an endpoint should be enough to have voting for claiming the wrong address.
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
 

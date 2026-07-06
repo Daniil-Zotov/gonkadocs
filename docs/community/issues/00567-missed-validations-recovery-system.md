@@ -6,14 +6,14 @@ synced_at: 2026-07-06T09:53:33Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #567](https://github.com/gonka-ai/gonka/issues/567) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #567](https://github.com/gonka-ai/gonka/issues/567) every 6 hours. 
 
 # 🔴 Missed validations recovery system
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2026-01-15 20:05 UTC · **Обновлено:** 2026-01-15 20:05 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2026-01-15 20:05 UTC · **Updated:** 2026-01-15 20:05 UTC
 
 ---
 
 ## 📝 Описание
 
-*(пусто)*
+*(empty)*

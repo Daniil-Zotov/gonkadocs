@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:47Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #344](https://github.com/gonka-ai/gonka/issues/344) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #344](https://github.com/gonka-ai/gonka/issues/344) every 6 hours. 
 
 # 🟢 Intersection between update of `epoch_length` params and PoC procedure can lead to consensus failure
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Open · **Создано:** 2025-09-05 17:52 UTC · **Обновлено:** 2026-02-28 00:31 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Open · **Created:** 2025-09-05 17:52 UTC · **Updated:** 2026-02-28 00:31 UTC
 
 ---
 
@@ -29,7 +29,7 @@ node      | 1:53AM INF service stop impl=baseWAL module=consensus msg="Stopping 
 
 ---
 
-## 💬 Комментарии (2)
+## 💬 Comments (2)
 
 ### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
 

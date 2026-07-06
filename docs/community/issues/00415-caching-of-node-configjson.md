@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:53:36Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #415](https://github.com/gonka-ai/gonka/issues/415) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #415](https://github.com/gonka-ai/gonka/issues/415) every 6 hours. 
 
 # 🔴 Caching of node-config.json
 
-**Автор:** [@DePunk-eth](https://github.com/DePunk-eth) · **Состояние:** Closed · **Создано:** 2025-11-01 18:06 UTC · **Обновлено:** 2025-11-17 19:41 UTC
+**Author:** [@DePunk-eth](https://github.com/DePunk-eth) · **State:** Closed · **Created:** 2025-11-01 18:06 UTC · **Updated:** 2025-11-17 19:41 UTC
 
 ---
 
@@ -20,7 +20,7 @@ gonka.db of dapi has priority over node-config.json and keep first settings of n
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@joesun1983](https://github.com/joesun1983)
 

@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:52:06Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #935](https://github.com/gonka-ai/gonka/issues/935) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #935](https://github.com/gonka-ai/gonka/issues/935) every 6 hours. 
 
 # 🔴 [P0] `devshards` fees
 
-**Автор:** [@dcastro](https://github.com/dcastro) · **Состояние:** Closed · **Создано:** 2026-03-23 11:12 UTC · **Обновлено:** 2026-04-29 21:44 UTC
+**Author:** [@dcastro](https://github.com/dcastro) · **State:** Closed · **Created:** 2026-03-23 11:12 UTC · **Updated:** 2026-04-29 21:44 UTC
 
-**Метки:** `Priority: High` `devshards`
+**Labels:** `Priority: High` `devshards`
 
 **Веха:** v0.2.12
 
@@ -33,7 +33,7 @@ Context: https://github.com/gonka-ai/gonka/issues/914#issuecomment-4090483233
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@KKizilov](https://github.com/KKizilov)
 

@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:53:22Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #587](https://github.com/gonka-ai/gonka/issues/587) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #587](https://github.com/gonka-ai/gonka/issues/587) every 6 hours. 
 
 # 🔴 Rewards: Epoch 117 + Bounty
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2026-01-15 23:29 UTC · **Обновлено:** 2026-01-15 23:29 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2026-01-15 23:29 UTC · **Updated:** 2026-01-15 23:29 UTC
 
 **Веха:** v0.2.7
 
@@ -18,4 +18,4 @@ template: issues-main.html
 
 ## 📝 Описание
 
-*(пусто)*
+*(empty)*

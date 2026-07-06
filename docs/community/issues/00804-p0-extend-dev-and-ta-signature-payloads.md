@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:02Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #804](https://github.com/gonka-ai/gonka/issues/804) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #804](https://github.com/gonka-ai/gonka/issues/804) every 6 hours. 
 
 # 🔴 [P0?] Extend dev and TA signature payloads
 
-**Автор:** [@DimaOrekhovPS](https://github.com/DimaOrekhovPS) · **Состояние:** Closed · **Создано:** 2026-02-25 20:49 UTC · **Обновлено:** 2026-05-21 21:05 UTC
+**Author:** [@DimaOrekhovPS](https://github.com/DimaOrekhovPS) · **State:** Closed · **Created:** 2026-02-25 20:49 UTC · **Updated:** 2026-05-21 21:05 UTC
 
 ---
 
@@ -42,7 +42,7 @@ New payload: `prompt_hash + timestamp + ta_address + executor_address + inferenc
 
 ---
 
-## 💬 Комментарии (2)
+## 💬 Comments (2)
 
 ### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
 

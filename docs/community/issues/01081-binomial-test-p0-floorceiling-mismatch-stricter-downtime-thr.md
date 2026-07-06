@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:17Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1081](https://github.com/gonka-ai/gonka/issues/1081) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #1081](https://github.com/gonka-ai/gonka/issues/1081) every 6 hours. 
 
 # 🔴 Binomial test p0 floor/ceiling mismatch — stricter downtime threshold silently never enforced
 
-**Автор:** [@Doog-bot534](https://github.com/Doog-bot534) · **Состояние:** Closed · **Создано:** 2026-04-16 03:25 UTC · **Обновлено:** 2026-04-20 01:35 UTC
+**Author:** [@Doog-bot534](https://github.com/Doog-bot534) · **State:** Closed · **Created:** 2026-04-16 03:25 UTC · **Updated:** 2026-04-20 01:35 UTC
 
 ---
 
@@ -79,7 +79,7 @@ Payout address: `gonka10zaal553duxp05nvfpqtsqrm2g0j6j34r8nan7`
 
 ---
 
-## 💬 Комментарии (2)
+## 💬 Comments (2)
 
 ### Комментарий 1 — [@unameisfine](https://github.com/unameisfine)
 

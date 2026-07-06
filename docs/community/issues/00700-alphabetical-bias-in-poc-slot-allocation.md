@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:46Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #700](https://github.com/gonka-ai/gonka/issues/700) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #700](https://github.com/gonka-ai/gonka/issues/700) every 6 hours. 
 
 # 🟢 Alphabetical Bias in PoC Slot Allocation
 
-**Автор:** [@huxuxuya](https://github.com/huxuxuya) · **Состояние:** Open · **Создано:** 2026-02-04 12:02 UTC · **Обновлено:** 2026-03-03 23:44 UTC
+**Author:** [@huxuxuya](https://github.com/huxuxuya) · **State:** Open · **Created:** 2026-02-04 12:02 UTC · **Updated:** 2026-03-03 23:44 UTC
 
 ---
 
@@ -31,7 +31,7 @@ Deterministic Shuffle: Implement a pseudo-random shuffle of the participant list
 
 ---
 
-## 💬 Комментарии (3)
+## 💬 Comments (3)
 
 ### Комментарий 1 — [@AlexeySamosadov](https://github.com/AlexeySamosadov)
 

@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:53:17Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #599](https://github.com/gonka-ai/gonka/issues/599) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #599](https://github.com/gonka-ai/gonka/issues/599) every 6 hours. 
 
 # 🔴 BLS for long list of validators & Contract fixes
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2026-01-16 00:06 UTC · **Обновлено:** 2026-01-16 00:06 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2026-01-16 00:06 UTC · **Updated:** 2026-01-16 00:06 UTC
 
 **Веха:** v0.2.5
 
@@ -18,4 +18,4 @@ template: issues-main.html
 
 ## 📝 Описание
 
-*(пусто)*
+*(empty)*

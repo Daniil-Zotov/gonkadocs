@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:52:57Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #467](https://github.com/gonka-ai/gonka/issues/467) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #467](https://github.com/gonka-ai/gonka/issues/467) every 6 hours. 
 
 # 🔴 Unit tests for making sure node version is always a part of endpoint and it's updated when version changes on chain
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2025-12-03 22:52 UTC · **Обновлено:** 2026-02-07 00:40 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2025-12-03 22:52 UTC · **Updated:** 2026-02-07 00:40 UTC
 
-**Метки:** `up-for-grabs`
+**Labels:** `up-for-grabs`
 
 ---
 
@@ -27,7 +27,7 @@ After that, feel free to contact me on Discord: `tatianacharchian_07833`.
 
 ---
 
-## 💬 Комментарии (2)
+## 💬 Comments (2)
 
 ### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
 

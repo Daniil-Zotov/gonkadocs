@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:11Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #908](https://github.com/gonka-ai/gonka/issues/908) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #908](https://github.com/gonka-ai/gonka/issues/908) every 6 hours. 
 
 # 🔴 bls: BlsManager stores context.Background() — DKG gRPC calls have no cancellation or timeout
 
-**Автор:** [@Mayveskii](https://github.com/Mayveskii) · **Состояние:** Closed · **Создано:** 2026-03-17 23:21 UTC · **Обновлено:** 2026-04-28 18:11 UTC
+**Author:** [@Mayveskii](https://github.com/Mayveskii) · **State:** Closed · **Created:** 2026-03-17 23:21 UTC · **Updated:** 2026-04-28 18:11 UTC
 
 ---
 
@@ -94,7 +94,7 @@ Statically verified via AST analysis of commit history (904 commits). No existin
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@x0152](https://github.com/x0152)
 

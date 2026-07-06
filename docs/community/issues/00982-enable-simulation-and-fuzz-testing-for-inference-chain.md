@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:51:53Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #982](https://github.com/gonka-ai/gonka/issues/982) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #982](https://github.com/gonka-ai/gonka/issues/982) every 6 hours. 
 
 # 🟢 Enable simulation and fuzz testing for inference-chain
 
-**Автор:** [@patimen](https://github.com/patimen) · **Состояние:** Open · **Создано:** 2026-03-30 21:41 UTC · **Обновлено:** 2026-06-06 08:01 UTC
+**Author:** [@patimen](https://github.com/patimen) · **State:** Open · **Created:** 2026-03-30 21:41 UTC · **Updated:** 2026-06-06 08:01 UTC
 
-**Метки:** `up-for-grabs`
+**Labels:** `up-for-grabs`
 
 ---
 
@@ -299,7 +299,7 @@ That would give the project a practical starting point without overcommitting to
 
 ---
 
-## 💬 Комментарии (7)
+## 💬 Comments (7)
 
 ### Комментарий 1 — [@hleb-albau](https://github.com/hleb-albau)
 

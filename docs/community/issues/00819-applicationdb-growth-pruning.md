@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:52:40Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #819](https://github.com/gonka-ai/gonka/issues/819) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #819](https://github.com/gonka-ai/gonka/issues/819) every 6 hours. 
 
 # 🔴 `application.db` growth / pruning
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2026-02-27 21:08 UTC · **Обновлено:** 2026-03-12 19:08 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2026-02-27 21:08 UTC · **Updated:** 2026-03-12 19:08 UTC
 
-**Метки:** `bug` `help wanted` `Priority: High`
+**Labels:** `bug` `help wanted` `Priority: High`
 
 **Веха:** v0.2.11
 
@@ -55,7 +55,7 @@ Sustained `application.db` growth can lead to:
 
 ---
 
-## 💬 Комментарии (10)
+## 💬 Comments (10)
 
 ### Комментарий 1 — [@Mayveskii](https://github.com/Mayveskii)
 

@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:51:44Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1358](https://github.com/gonka-ai/gonka/issues/1358) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #1358](https://github.com/gonka-ai/gonka/issues/1358) every 6 hours. 
 
 # 🟢 Inbound bridge votes lost after upgrade simulation (node unavailable for some minutes for upgrade) — no retry, deposits stuck BRIDGE_PENDING
 
-**Автор:** [@maria-mitina](https://github.com/maria-mitina) · **Состояние:** Open · **Создано:** 2026-06-22 17:39 UTC · **Обновлено:** 2026-06-27 01:04 UTC
+**Author:** [@maria-mitina](https://github.com/maria-mitina) · **State:** Open · **Created:** 2026-06-22 17:39 UTC · **Updated:** 2026-06-27 01:04 UTC
 
-**Метки:** `bug` `Priority: High`
+**Labels:** `bug` `Priority: High`
 
 **Веха:** v0.2.14
 

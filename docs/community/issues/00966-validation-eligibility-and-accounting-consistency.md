@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:52:25Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #966](https://github.com/gonka-ai/gonka/issues/966) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #966](https://github.com/gonka-ai/gonka/issues/966) every 6 hours. 
 
 # 🔴 Validation Eligibility and Accounting Consistency
 
-**Автор:** [@akup](https://github.com/akup) · **Состояние:** Closed · **Создано:** 2026-03-27 13:43 UTC · **Обновлено:** 2026-04-03 10:10 UTC
+**Author:** [@akup](https://github.com/akup) · **State:** Closed · **Created:** 2026-03-27 13:43 UTC · **Updated:** 2026-04-03 10:10 UTC
 
-**Метки:** `bug` `enhancement`
+**Labels:** `bug` `enhancement`
 
 ---
 
@@ -74,7 +74,7 @@ When done:
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@akup](https://github.com/akup)
 

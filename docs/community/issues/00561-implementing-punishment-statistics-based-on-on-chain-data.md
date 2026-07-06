@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:52Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #561](https://github.com/gonka-ai/gonka/issues/561) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #561](https://github.com/gonka-ai/gonka/issues/561) every 6 hours. 
 
 # 🔴 Implementing punishment statistics based on on-chain data
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2026-01-15 00:36 UTC · **Обновлено:** 2026-02-10 21:39 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2026-01-15 00:36 UTC · **Updated:** 2026-02-10 21:39 UTC
 
 **Веха:** v0.2.10
 
@@ -18,11 +18,11 @@ template: issues-main.html
 
 ## 📝 Описание
 
-*(пусто)*
+*(empty)*
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
 

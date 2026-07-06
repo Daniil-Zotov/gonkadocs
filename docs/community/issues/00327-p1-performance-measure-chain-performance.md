@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:53:04Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #327](https://github.com/gonka-ai/gonka/issues/327) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #327](https://github.com/gonka-ai/gonka/issues/327) every 6 hours. 
 
 # 🔴 [P1] Performance: Measure chain performance
 
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2025-09-03 23:14 UTC · **Обновлено:** 2026-01-28 22:30 UTC
+**Author:** [@tcharchian](https://github.com/tcharchian) · **State:** Closed · **Created:** 2025-09-03 23:14 UTC · **Updated:** 2026-01-28 22:30 UTC
 
 ---
 

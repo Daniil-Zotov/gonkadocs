@@ -13,7 +13,7 @@ template: issues-main.html
     <span class="issues-number">#1398</span>
   </h1>
   <div class="issues-detail-meta">
-    <span class="issues-meta-item">Открыт</span>
+    <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item">[@niro58](https://github.com/niro58) opened 2026-07-04 20:09 UTC</span>
     <span class="issues-meta-item">0 comments</span>
     <span class="issues-meta-item">Updated 2026-07-04 20:11 UTC</span>
@@ -49,4 +49,4 @@ Happy to share availability telemetry and benchmark results with the network.
 
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1398](https://github.com/gonka-ai/gonka/issues/1398) каждые 6 часов.
+> 🔄 **Auto-synced:** from [Issue #1398](https://github.com/gonka-ai/gonka/issues/1398) every 6 hours.

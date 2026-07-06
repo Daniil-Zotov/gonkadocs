@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:53Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #499](https://github.com/gonka-ai/gonka/issues/499) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #499](https://github.com/gonka-ai/gonka/issues/499) every 6 hours. 
 
 # 🔴 Chat Completions aren't working
 
-**Автор:** [@pentoxine](https://github.com/pentoxine) · **Состояние:** Closed · **Создано:** 2025-12-20 02:05 UTC · **Обновлено:** 2026-02-10 04:04 UTC
+**Author:** [@pentoxine](https://github.com/pentoxine) · **State:** Closed · **Created:** 2025-12-20 02:05 UTC · **Updated:** 2026-02-10 04:04 UTC
 
 **Веха:** v0.2.10
 
@@ -69,7 +69,7 @@ print(response.choices[0].message.content)
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@mtvnastya](https://github.com/mtvnastya)
 

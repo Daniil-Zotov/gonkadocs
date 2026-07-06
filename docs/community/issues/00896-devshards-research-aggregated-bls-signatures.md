@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:52:07Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #896](https://github.com/gonka-ai/gonka/issues/896) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #896](https://github.com/gonka-ai/gonka/issues/896) every 6 hours. 
 
 # 🟢 `devshards`: Research aggregated BLS signatures
 
-**Автор:** [@heitor-lassarote](https://github.com/heitor-lassarote) · **Состояние:** Open · **Создано:** 2026-03-16 15:10 UTC · **Обновлено:** 2026-04-29 21:30 UTC
+**Author:** [@heitor-lassarote](https://github.com/heitor-lassarote) · **State:** Open · **Created:** 2026-03-16 15:10 UTC · **Updated:** 2026-04-29 21:30 UTC
 
-**Метки:** `Priority: Low` `devshards`
+**Labels:** `Priority: Low` `devshards`
 
 ---
 
@@ -28,7 +28,7 @@ To achieve this, one solution is to register the BLS `devshard` public key for e
 
 ---
 
-## 💬 Комментарии (2)
+## 💬 Comments (2)
 
 ### Комментарий 1 — [@KKizilov](https://github.com/KKizilov)
 

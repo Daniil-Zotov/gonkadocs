@@ -27,7 +27,7 @@ nav:
   - Gonka.ai/docs: "/gonka/docs/"
   - Community:
     - Обзор: community/README.md
-    - Дорожная карта: community/roadmap/gonka-network-development-roadmap.md
+    - Roadmap: community/roadmap/gonka-network-development-roadmap.md
     - GRC: community/grc/README.md
     - GSC: community/gsc/regulation.md
     - Discussions:

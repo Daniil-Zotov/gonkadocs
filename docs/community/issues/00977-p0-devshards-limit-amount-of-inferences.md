@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:51:56Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #977](https://github.com/gonka-ai/gonka/issues/977) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #977](https://github.com/gonka-ai/gonka/issues/977) every 6 hours. 
 
 # 🔴 [P0] `devshards`: Limit amount of inferences
 
-**Автор:** [@dcastro](https://github.com/dcastro) · **Состояние:** Closed · **Создано:** 2026-03-30 11:17 UTC · **Обновлено:** 2026-06-01 22:04 UTC
+**Author:** [@dcastro](https://github.com/dcastro) · **State:** Closed · **Created:** 2026-03-30 11:17 UTC · **Updated:** 2026-06-01 22:04 UTC
 
-**Метки:** `enhancement` `devshards`
+**Labels:** `enhancement` `devshards`
 
 **Веха:** v0.2.13-devshard2
 
@@ -29,7 +29,7 @@ Upon settlement, the protocol should verify "Missed inferences + Invalidated inf
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@a-kuprin](https://github.com/a-kuprin)
 

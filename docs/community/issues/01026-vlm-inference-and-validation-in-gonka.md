@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:52:13Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1026](https://github.com/gonka-ai/gonka/issues/1026) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #1026](https://github.com/gonka-ai/gonka/issues/1026) every 6 hours. 
 
 # 🟢 VLM inference and validation in Gonka
 
-**Автор:** [@fedor-konovalenko](https://github.com/fedor-konovalenko) · **Состояние:** Open · **Создано:** 2026-04-07 12:47 UTC · **Обновлено:** 2026-04-27 12:36 UTC
+**Author:** [@fedor-konovalenko](https://github.com/fedor-konovalenko) · **State:** Open · **Created:** 2026-04-07 12:47 UTC · **Updated:** 2026-04-27 12:36 UTC
 
-**Метки:** `enhancement`
+**Labels:** `enhancement`
 
 ---
 
@@ -50,7 +50,7 @@ Results for large "models" will be added a bit later.
 
 ---
 
-## 💬 Комментарии (3)
+## 💬 Comments (3)
 
 ### Комментарий 1 — [@fedor-konovalenko](https://github.com/fedor-konovalenko)
 

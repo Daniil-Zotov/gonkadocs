@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:38Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #849](https://github.com/gonka-ai/gonka/issues/849) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #849](https://github.com/gonka-ai/gonka/issues/849) every 6 hours. 
 
 # 🔴 Bug: DKG permanent failure — dealer consensus uses unweighted participant votes but quorum uses slot weights
 
-**Автор:** [@Mayveskii](https://github.com/Mayveskii) · **Состояние:** Closed · **Создано:** 2026-03-03 12:04 UTC · **Обновлено:** 2026-03-12 22:56 UTC
+**Author:** [@Mayveskii](https://github.com/Mayveskii) · **State:** Closed · **Created:** 2026-03-03 12:04 UTC · **Updated:** 2026-03-12 22:56 UTC
 
 ---
 
@@ -94,7 +94,7 @@ dealerIsValid := totalSlots > 0 && validSlots > totalSlots/2
 
 ---
 
-## 💬 Комментарии (2)
+## 💬 Comments (2)
 
 ### Комментарий 1 — [@Mayveskii](https://github.com/Mayveskii)
 

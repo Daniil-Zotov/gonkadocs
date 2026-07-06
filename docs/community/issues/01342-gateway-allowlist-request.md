@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:51:51Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1342](https://github.com/gonka-ai/gonka/issues/1342) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #1342](https://github.com/gonka-ai/gonka/issues/1342) every 6 hours. 
 
 # 🔴 Gateway allowlist request
 
-**Автор:** [@appgencore](https://github.com/appgencore) · **Состояние:** Closed · **Создано:** 2026-06-13 07:39 UTC · **Обновлено:** 2026-06-23 22:52 UTC
+**Author:** [@appgencore](https://github.com/appgencore) · **State:** Closed · **Created:** 2026-06-13 07:39 UTC · **Updated:** 2026-06-23 22:52 UTC
 
 ---
 
@@ -43,7 +43,7 @@ Thanks!
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
 

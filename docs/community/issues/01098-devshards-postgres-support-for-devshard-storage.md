@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:00Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1098](https://github.com/gonka-ai/gonka/issues/1098) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #1098](https://github.com/gonka-ai/gonka/issues/1098) every 6 hours. 
 
 # 🔴 `devshards` Postgres support for `devshard` storage
 
-**Автор:** [@akup](https://github.com/akup) · **Состояние:** Closed · **Создано:** 2026-04-21 20:36 UTC · **Обновлено:** 2026-05-25 18:30 UTC
+**Author:** [@akup](https://github.com/akup) · **State:** Closed · **Created:** 2026-04-21 20:36 UTC · **Updated:** 2026-05-25 18:30 UTC
 
 **Веха:** v0.2.13
 
@@ -48,7 +48,7 @@ Also we should prune the old epoch's devshard data
 
 ---
 
-## 💬 Комментарии (3)
+## 💬 Comments (3)
 
 ### Комментарий 1 — [@Mayveskii](https://github.com/Mayveskii)
 

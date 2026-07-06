@@ -6,13 +6,13 @@ synced_at: 2026-07-06T09:51:58Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #955](https://github.com/gonka-ai/gonka/issues/955) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #955](https://github.com/gonka-ai/gonka/issues/955) every 6 hours. 
 
 # 🟢 [P0] Make handling of warm keys deterministic (implementation)
 
-**Автор:** [@dcastro](https://github.com/dcastro) · **Состояние:** Open · **Создано:** 2026-03-26 15:12 UTC · **Обновлено:** 2026-05-25 18:47 UTC
+**Author:** [@dcastro](https://github.com/dcastro) · **State:** Open · **Created:** 2026-03-26 15:12 UTC · **Updated:** 2026-05-25 18:47 UTC
 
-**Метки:** `devshards`
+**Labels:** `devshards`
 
 **Веха:** v0.2.14-devshard3
 
@@ -26,7 +26,7 @@ Once research is finished and we agree on a decision, we'll update this issue wi
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Comments (1)
 
 ### Комментарий 1 — [@KKizilov](https://github.com/KKizilov)
 

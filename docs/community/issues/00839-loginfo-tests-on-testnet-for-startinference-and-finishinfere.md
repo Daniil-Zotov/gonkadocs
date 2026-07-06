@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:35Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #839](https://github.com/gonka-ai/gonka/issues/839) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #839](https://github.com/gonka-ai/gonka/issues/839) every 6 hours. 
 
 # 🔴 LogInfo tests on testnet for StartInference and FinishInference
 
-**Автор:** [@maria-mitina](https://github.com/maria-mitina) · **Состояние:** Closed · **Создано:** 2026-03-02 15:50 UTC · **Обновлено:** 2026-03-19 06:35 UTC
+**Author:** [@maria-mitina](https://github.com/maria-mitina) · **State:** Closed · **Created:** 2026-03-02 15:50 UTC · **Updated:** 2026-03-19 06:35 UTC
 
 **Веха:** v0.2.11
 
@@ -27,7 +27,7 @@ We could achieve around 3x improvement under inference to performance of LogInfo
 
 ---
 
-## 💬 Комментарии (3)
+## 💬 Comments (3)
 
 ### Комментарий 1 — [@maria-mitina](https://github.com/maria-mitina)
 

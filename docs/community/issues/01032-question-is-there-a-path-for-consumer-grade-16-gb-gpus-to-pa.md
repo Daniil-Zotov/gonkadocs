@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:23Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1032](https://github.com/gonka-ai/gonka/issues/1032) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #1032](https://github.com/gonka-ai/gonka/issues/1032) every 6 hours. 
 
 # 🔴 Question: is there a path for consumer-grade 16 GB GPUs to participate as lightweight Host nodes?
 
-**Автор:** [@JFFby](https://github.com/JFFby) · **Состояние:** Closed · **Создано:** 2026-04-08 19:42 UTC · **Обновлено:** 2026-04-08 19:43 UTC
+**Author:** [@JFFby](https://github.com/JFFby) · **State:** Closed · **Created:** 2026-04-08 19:42 UTC · **Updated:** 2026-04-08 19:43 UTC
 
 ---
 

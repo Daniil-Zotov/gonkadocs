@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:10Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #438](https://github.com/gonka-ai/gonka/issues/438) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #438](https://github.com/gonka-ai/gonka/issues/438) every 6 hours. 
 
 # 🔴 🐛 Bug: Incorrect Governance Model Matching Causes Registration Failures
 
-**Автор:** [@Asplana92](https://github.com/Asplana92) · **Состояние:** Closed · **Создано:** 2025-11-15 23:53 UTC · **Обновлено:** 2026-04-28 20:48 UTC
+**Author:** [@Asplana92](https://github.com/Asplana92) · **State:** Closed · **Created:** 2025-11-15 23:53 UTC · **Updated:** 2026-04-28 20:48 UTC
 
 ---
 
@@ -376,7 +376,7 @@ Looking forward to contributing to improved operator experience! 🚀
 
 ---
 
-## 💬 Комментарии (2)
+## 💬 Comments (2)
 
 ### Комментарий 1 — [@AlexeySamosadov](https://github.com/AlexeySamosadov)
 

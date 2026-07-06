@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:50Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #672](https://github.com/gonka-ai/gonka/issues/672) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #672](https://github.com/gonka-ai/gonka/issues/672) every 6 hours. 
 
 # 🟢 gRPC always falls back to RPC
 
-**Автор:** [@x0152](https://github.com/x0152) · **Состояние:** Open · **Создано:** 2026-01-30 16:21 UTC · **Обновлено:** 2026-02-12 15:26 UTC
+**Author:** [@x0152](https://github.com/x0152) · **State:** Open · **Created:** 2026-01-30 16:21 UTC · **Updated:** 2026-02-12 15:26 UTC
 
 ---
 
@@ -20,7 +20,7 @@ gRPC is enabled, but requests still use RPC (#685 )
 
 ---
 
-## 💬 Комментарии (2)
+## 💬 Comments (2)
 
 ### Комментарий 1 — [@AlexeySamosadov](https://github.com/AlexeySamosadov)
 

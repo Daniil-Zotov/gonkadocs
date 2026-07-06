@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:51:58Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #803](https://github.com/gonka-ai/gonka/issues/803) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #803](https://github.com/gonka-ai/gonka/issues/803) every 6 hours. 
 
 # 🔴 Punish TA on signature/component mismatch
 
-**Автор:** [@DimaOrekhovPS](https://github.com/DimaOrekhovPS) · **Состояние:** Closed · **Создано:** 2026-02-25 20:47 UTC · **Обновлено:** 2026-05-25 19:10 UTC
+**Author:** [@DimaOrekhovPS](https://github.com/DimaOrekhovPS) · **State:** Closed · **Created:** 2026-02-25 20:47 UTC · **Updated:** 2026-05-25 19:10 UTC
 
 ---
 

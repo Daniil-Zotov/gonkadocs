@@ -6,11 +6,11 @@ synced_at: 2026-07-06T09:52:13Z
 template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #933](https://github.com/gonka-ai/gonka/issues/933) каждые 6 часов. 
+> 🔄 **Auto-synced:** from [Issue #933](https://github.com/gonka-ai/gonka/issues/933) every 6 hours. 
 
 # 🔴 AdjustWeightsByCollateral missing baseWeightRatio range validation — weight inflation for uncollateralized participants
 
-**Автор:** [@unameisfine](https://github.com/unameisfine) · **Состояние:** Closed · **Создано:** 2026-03-23 01:42 UTC · **Обновлено:** 2026-04-27 22:28 UTC
+**Author:** [@unameisfine](https://github.com/unameisfine) · **State:** Closed · **Created:** 2026-03-23 01:42 UTC · **Updated:** 2026-04-27 22:28 UTC
 
 ---
 
@@ -51,7 +51,7 @@ if baseWeightRatio.IsNegative() || baseWeightRatio.GTE(math.LegacyOneDec()) {
 
 ---
 
-## 💬 Комментарии (3)
+## 💬 Comments (3)
 
 ### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
 
