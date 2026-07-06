@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-"""Sync all GitHub Issues from gonka-ai/gonka into community/issues/."""
+"""Sync all GitHub Issues from gonka-ai/gonka into community/issues/.
+
+Generates GitHub-style issue pages with:
+- Main index: all issues listed (no pagination) in GitHub design
+- Label pages: issues filtered by label (no pagination)
+- Individual issue pages: full issue with comments
+"""
 
 import os
 import re
@@ -24,6 +30,11 @@ HEADERS = {
 if GH_TOKEN:
     HEADERS["Authorization"] = f"Bearer {GH_TOKEN}"
 
+# SVG icons for open/closed issues
+ICON_OPEN = '<svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg>'
+ICON_CLOSED = '<svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg>'
+ICON_COMMENT = '<svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg>'
+
 
 def gh_get(path, params=None, retries=3):
     url = f"{API_BASE}{path}"
@@ -44,7 +55,6 @@ def gh_get(path, params=None, retries=3):
 
 
 def list_all_issues():
-    """Fetch all issues (excluding pull requests) with pagination."""
     issues = []
     page = 1
     while True:
@@ -68,7 +78,6 @@ def list_all_issues():
 
 
 def fetch_issue(number):
-    """Fetch single issue with all comments."""
     issue = gh_get(f"/repos/{OWNER}/{REPO}/issues/{number}")
     if not issue:
         return None, []
@@ -112,158 +121,223 @@ def fmt_date_short(iso):
 
 def user_link(user):
     if not user:
-        return "*[deleted]*"
-    return f"[@{user['login']}]({user['html_url']})"
+        return "deleted user"
+    return f'[@{user["login"]}]({user["html_url"]})'
 
 
-def label_badges(labels):
+def label_html(label):
+    """Generate HTML for a single label badge."""
+    name = label["name"]
+    color = label.get("color", "ededed")
+    # Determine text color based on background brightness
+    r, g, b = int(color[:2], 16), int(color[2:4], 16), int(color[4:], 16)
+    brightness = (r * 299 + g * 587 + b * 114) / 1000
+    text_color = "#24292f" if brightness > 128 else "#ffffff"
+    return (
+        f'<span class="issues-label" style="background-color: #{color}; '
+        f'color: {text_color}; border-color: #{color};">{name}</span>'
+    )
+
+
+def labels_html(labels):
     if not labels:
         return ""
-    return " ".join(f"`{l['name']}`" for l in labels)
+    return " ".join(label_html(l) for l in labels)
 
 
-def state_icon(state):
-    return {"open": "\U0001f7e2", "closed": "\U0001f534"}.get(state, "\u26aa")
+def time_ago(iso):
+    """Human-readable time ago."""
+    try:
+        dt = datetime.fromisoformat(iso.replace("Z", "+00:00"))
+        now = datetime.now(timezone.utc)
+        diff = now - dt
+        seconds = int(diff.total_seconds())
+        if seconds < 60:
+            return "just now"
+        elif seconds < 3600:
+            m = seconds // 60
+            return f"{m} minute{'s' if m != 1 else ''} ago"
+        elif seconds < 86400:
+            h = seconds // 3600
+            return f"{h} hour{'s' if h != 1 else ''} ago"
+        elif seconds < 2592000:
+            d = seconds // 86400
+            return f"{d} day{'s' if d != 1 else ''} ago"
+        else:
+            return fmt_date_short(iso)
+    except Exception:
+        return fmt_date_short(iso)
 
 
-def indent_body(body, prefix="> "):
-    return "\n".join(prefix + l if l else prefix.rstrip() for l in (body or "").splitlines())
-
-
-def build_issue_md(issue, comments):
-    sync_time = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-    title_escaped = issue["title"].replace('"', '\\"')
+def issue_list_item_html(issue):
+    """Generate HTML for a single issue in the list."""
+    number = issue["number"]
+    title = issue["title"]
+    state = issue.get("state", "open")
+    user = issue.get("user")
     labels = issue.get("labels", [])
+    body = issue.get("body", "") or ""
+    comments_count = issue.get("comments", 0)
+    updated_at = issue.get("updated_at", "")
+    created_at = issue.get("created_at", "")
 
-    out = [
-        "---",
-        f'title: "#{issue["number"]} — {title_escaped}"',
-        f"source: {issue['html_url']}",
-        f"issue_number: {issue['number']}",
-        f"synced_at: {sync_time}",
-        "---",
-        "",
-        f"> \U0001f504 **Авто-синхронизация:** из [Issue #{issue['number']}]({issue['html_url']}) каждые 6 часов. ",
-        "",
-        f"# {state_icon(issue['state'])} {issue['title']}",
-        "",
-        f"**Автор:** {user_link(issue.get('user'))} · "
-        f"**Состояние:** {issue['state'].title()} · "
-        f"**Создано:** {fmt_date(issue['created_at'])} · "
-        f"**Обновлено:** {fmt_date(issue['updated_at'])}",
-    ]
+    # Truncate body for preview
+    body_preview = body[:200].replace("\n", " ").strip()
+    if len(body) > 200:
+        body_preview += "..."
 
+    status_html = (
+        f'<span class="issues-status issues-status-{state}">'
+        f'{ICON_OPEN if state == "open" else ICON_CLOSED}</span>'
+    )
+
+    labels_part = ""
     if labels:
-        out.append(f"\n**Метки:** {label_badges(labels)}")
+        labels_part = f'<span class="issues-labels">{labels_html(labels)}</span>'
 
-    if issue.get("milestone"):
-        out.append(f"\n**Веха:** {issue['milestone']['title']}")
+    comments_part = ""
+    if comments_count > 0:
+        comments_part = (
+            f'<span class="issues-meta-item">'
+            f'{ICON_COMMENT} {comments_count}</span>'
+        )
 
-    out += [
-        "",
-        "---",
-        "",
-        "## \U0001f4dd Описание",
-        "",
-        issue.get("body") or "*(пусто)*",
-        "",
-    ]
+    # Calculate relative time
+    rel_time = time_ago(updated_at) if updated_at else ""
 
-    if comments:
-        out += ["---", "", f"## \U0001f4ac Комментарии ({len(comments)})", ""]
-        for i, c in enumerate(comments, 1):
-            out += [
-                f"### Комментарий {i} — {user_link(c.get('user'))}", "",
-                f"*{fmt_date(c['created_at'])}*", "",
-                c.get("body") or "*(пусто)*", "",
-            ]
+    return f'''<li class="issues-list-item">
+  {status_html}
+  <div class="issues-body">
+    <div class="issues-title">
+      <a href="{number:05d}-{slugify(title)}/">{title}</a>
+      <span class="issues-number">#{number}</span>
+    </div>
+    {f'<p class="issues-desc">{body_preview}</p>' if body_preview else ''}
+    <div class="issues-labels">{labels_html(labels)}</div>
+    <div class="issues-meta">
+      <span class="issues-meta-item">{user_link(user)} opened {rel_time}</span>
+      {comments_part}
+    </div>
+  </div>
+</li>'''
 
-    return "\n".join(out)
+
+def build_global_index(issues, by_label, by_state, total):
+    sync_time = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    open_count = by_state.get("open", 0)
+    closed_count = by_state.get("closed", 0)
+
+    # Sort by updated_at descending
+    sorted_issues = sorted(issues, key=lambda x: x.get("updated_at", ""), reverse=True)
+
+    items_html = "\n".join(issue_list_item_html(it) for it in sorted_issues)
+
+    out = f"""---
+title: "GitHub Issues"
+template: issues-main.html
+---
+
+# GitHub Issues — `{OWNER}/{REPO}`
+
+Все issues из репозитория [{OWNER}/{REPO}](https://github.com/{OWNER}/{REPO}/issues).
+Всего: **{total}** (🟢 открыто: **{open_count}**, 🔴 закрыто: **{closed_count}**).
+Обновлено: `{sync_time}`.
+
+<ul class="issues-list">
+{items_html}
+</ul>
+"""
+    return out
 
 
 def build_label_index(label_name, label_slug, items):
     sync_time = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    items_sorted = sorted(items, key=lambda x: x["number"], reverse=True)
-    out = [
-        "---",
-        f'title: "Issues: {label_name}"',
-        "---",
-        "",
-        f"# Issues: {label_name}",
-        "",
-        f"Issues с меткой **{label_name}**. Всего: **{len(items_sorted)}**. "
-        f"Обновлено: `{sync_time}`.",
-        "",
-        "[\u2190 ко всемIssues](../index.md)",
-        "",
-        "| # | Заголовок | Состояние | Автор | Обновлено |",
-        "|---:|---|---|---|---|",
-    ]
-    for it in items_sorted:
-        title_clean = it["title"].replace("|", "\\|")
-        out.append(
-            f"| [{it['number']}]({it['_filename']}) "
-            f"| [{title_clean}]({it['_filename']}) "
-            f"| {state_icon(it['state'])} {it['state'].title()} "
-            f"| {user_link(it.get('user'))} "
-            f"| {fmt_date_short(it['updated_at'])} |"
-        )
-    out.append("")
-    return "\n".join(out)
+    items_sorted = sorted(items, key=lambda x: x["updated_at"], reverse=True)
+
+    items_html = "\n".join(issue_list_item_html(it) for it in items_sorted)
+
+    out = f"""---
+title: "Issues: {label_name}"
+template: issues-main.html
+---
+
+# Issues: {label_name}
+
+Issues с меткой **{label_name}**. Всего: **{len(items_sorted)}**.
+Обновлено: `{sync_time}`.
+
+[← ко всем Issues](../../index.md)
+
+<ul class="issues-list">
+{items_html}
+</ul>
+"""
+    return out
 
 
-def build_global_index(by_label, by_state, total):
-    sync_time = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+def build_issue_page(issue, comments):
+    sync_time = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    number = issue["number"]
+    title = issue["title"]
+    state = issue.get("state", "open")
+    user = issue.get("user")
+    labels = issue.get("labels", [])
+    body = issue.get("body") or "*(пусто)*"
 
-    open_count = by_state.get("open", 0)
-    closed_count = by_state.get("closed", 0)
+    state_html = "Открыт" if state == "open" else "Закрыт"
+    status_cls = f"issues-status-{state}"
+    icon = ICON_OPEN if state == "open" else ICON_CLOSED
 
-    out = [
-        "---",
-        'title: "GitHub Issues"',
-        "---",
-        "",
-        f"# GitHub Issues \u2014 `{OWNER}/{REPO}`",
-        "",
-        f"Все issues из репозитория "
-        f"[{OWNER}/{REPO}](https://github.com/{OWNER}/{REPO}/issues). "
-        f"Всего: **{total}** (\U0001f7e2 открыто: **{open_count}**, "
-        f"\U0001f534 закрыто: **{closed_count}**). "
-        f"Обновлено: `{sync_time}`.",
-        "",
-        "## \U0001f4c2 Метки",
-        "",
-        "| Метка | Issues |",
-        "|---|---:|",
-    ]
-    for label_name in sorted(by_label.keys()):
-        items = by_label[label_name]
-        label_slug = items[0]["_label_slug"]
-        out.append(f"| [{label_name}](labels/{label_slug}/index.md) | {len(items)} |")
-    out.append("")
+    out = f"""---
+title: "#{number} — {title}"
+source: {issue['html_url']}
+issue_number: {number}
+synced_at: {sync_time}
+template: issues-main.html
+---
 
-    # Последние 20 обновлённых issues
-    flat = [it for items in by_label.values() for it in items]
-    flat.sort(key=lambda x: x["updated_at"], reverse=True)
-    recent = flat[:20]
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status {status_cls}">{icon}</span>
+    {title}
+    <span class="issues-number">#{number}</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">{state_html}</span>
+    <span class="issues-meta-item">{user_link(user)} opened {fmt_date(issue['created_at'])}</span>
+    <span class="issues-meta-item">{len(comments)} comment{'s' if len(comments) != 1 else ''}</span>
+    <span class="issues-meta-item">Updated {fmt_date(issue['updated_at'])}</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;">{labels_html(labels)}</div>
+</div>
 
-    out += [
-        "## \U0001f552 Последние обновлённые",
-        "",
-        "| # | Заголовок | Состояние | Автор | Обновлено |",
-        "|---:|---|---|---|---|",
-    ]
-    for it in recent:
-        title_clean = it["title"].replace("|", "\\|")
-        out.append(
-            f"| [{it['number']}]({it['_filename']}) "
-            f"| [{title_clean}]({it['_filename']}) "
-            f"| {state_icon(it['state'])} {it['state'].title()} "
-            f"| {user_link(it.get('user'))} "
-            f"| {fmt_date_short(it['updated_at'])} |"
-        )
-    out.append("")
-    return "\n".join(out)
+<div class="issues-content">
+{body}
+</div>
+"""
+
+    if comments:
+        out += f"\n---\n\n## 💬 Комментарии ({len(comments)})\n\n"
+        for i, c in enumerate(comments, 1):
+            cu = c.get("user")
+            out += f'''<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>{user_link(cu)}</span>
+    <span class="issues-meta-item">commented {fmt_date(c['created_at'])}</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    {c.get("body") or "*(пусто)*"}
+  </div>
+</div>
+'''
+
+    # Auto-sync notice
+    out += f"""
+---
+
+> 🔄 **Авто-синхронизация:** из [Issue #{number}]({issue['html_url']}) каждые 6 часов.
+"""
+    return out
 
 
 def main():
@@ -280,9 +354,11 @@ def main():
     labels_dir = OUTPUT_DIR / "labels"
     labels_dir.mkdir(parents=True, exist_ok=True)
 
+    # First pass: collect metadata for all issues
+    issue_metas = []
     for meta in listing:
         number = meta["number"]
-        print(f"  \u2192 #{number} {meta['title'][:60]}")
+        print(f"  → #{number} {meta['title'][:60]}")
         issue, comments = fetch_issue(number)
         if issue is None:
             continue
@@ -294,11 +370,13 @@ def main():
         slug = slugify(issue["title"])
         filename = f"{number:05d}-{slug}.md"
 
+        # Write individual issue page
         (OUTPUT_DIR / filename).write_text(
-            build_issue_md(issue, comments), encoding="utf-8"
+            build_issue_page(issue, comments), encoding="utf-8"
         )
         seen_paths.add(Path(filename))
 
+        # Collect label info
         label_names = [l["name"] for l in labels] if labels else ["no-label"]
         for label_name in label_names:
             label_slug = slugify(label_name, max_len=40)
@@ -308,11 +386,12 @@ def main():
                 "user": issue.get("user"),
                 "state": state,
                 "updated_at": issue["updated_at"],
+                "labels": labels,
                 "_filename": filename,
                 "_label_slug": label_slug,
             })
 
-    # Index по меткам
+    # Generate label index pages
     for label_name, items in by_label.items():
         label_slug = items[0]["_label_slug"]
         label_dir = labels_dir / label_slug
@@ -322,16 +401,32 @@ def main():
         )
         seen_paths.add(Path("labels") / label_slug / "index.md")
 
-    # Глобальный index.md
+    # Generate global index page (all issues, no pagination)
     (OUTPUT_DIR / "index.md").write_text(
-        build_global_index(by_label, by_state, len(listing)), encoding="utf-8"
+        build_global_index(listing, by_label, by_state, len(listing)), encoding="utf-8"
     )
 
-    # Удаляем stale файлы
+    # Generate labels.json for sidebar navigation
+    labels_json = []
+    for label_name in sorted(by_label.keys()):
+        items = by_label[label_name]
+        label_slug = items[0]["_label_slug"]
+        labels_json.append({
+            "name": label_name,
+            "slug": label_slug,
+            "count": len(items),
+        })
+    import json
+    (OUTPUT_DIR / "labels.json").write_text(
+        json.dumps(labels_json, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+    seen_paths.add(Path("labels.json"))
+
+    # Remove stale files
     for path in OUTPUT_DIR.rglob("*.md"):
         rel = path.relative_to(OUTPUT_DIR)
         if rel not in seen_paths:
-            print(f"  \u2717 removing stale {rel}")
+            print(f"  ✗ removing stale {rel}")
             path.unlink()
     for p in sorted(OUTPUT_DIR.glob("*"), reverse=True):
         if p.is_dir() and not any(p.iterdir()):

@@ -1,0 +1,327 @@
+/*───────────────────────────────────────────────────────────────
+   GitHub-style Issues layout
+   Purpose: Mimics GitHub issues UI for gonkadocs.com
+───────────────────────────────────────────────────────────────*/
+
+/* == 0. Issues list container ================================ */
+.issues-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 6px;
+}
+
+.issues-list-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 16px 16px;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  transition: background-color 0.1s;
+}
+
+.issues-list-item:last-child {
+  border-bottom: none;
+}
+
+.issues-list-item:hover {
+  background-color: var(--md-code-bg-color);
+}
+
+/* == 1. Status icon ========================================== */
+.issues-status {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  margin-top: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.issues-status-open {
+  color: #1a7f37;
+}
+
+.issues-status-closed {
+  color: #cf222e;
+}
+
+.issues-status svg {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+}
+
+/* == 2. Issue body =========================================== */
+.issues-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.issues-title {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin: 0 0 4px;
+  color: var(--md-default-fg-color);
+}
+
+.issues-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.issues-title a:hover {
+  color: var(--md-accent-fg-color);
+  text-decoration: underline;
+}
+
+.issues-number {
+  font-weight: 400;
+  color: var(--md-default-fg-color--light);
+  margin-left: 6px;
+}
+
+.issues-desc {
+  font-size: 14px;
+  color: var(--md-default-fg-color--light);
+  margin: 0 0 8px;
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* == 3. Labels =============================================== */
+.issues-labels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 6px;
+}
+
+.issues-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  white-space: nowrap;
+  border: 1px solid transparent;
+}
+
+.issues-label--default {
+  background-color: #d0d7de;
+  color: #24292f;
+}
+
+[data-md-color-scheme="slate"] .issues-label--default {
+  background-color: #3d444d;
+  color: #c9d1d9;
+  border-color: rgba(240, 246, 252, 0.1);
+}
+
+/* == 4. Meta line ============================================ */
+.issues-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  font-size: 12px;
+  color: var(--md-default-fg-color--light);
+  line-height: 1.5;
+}
+
+.issues-meta-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.issues-meta-item svg {
+  width: 14px;
+  height: 14px;
+  fill: currentColor;
+  opacity: 0.7;
+}
+
+.issues-meta-item a {
+  color: var(--md-default-fg-color--light);
+}
+
+.issues-meta-item a:hover {
+  color: var(--md-accent-fg-color);
+}
+
+/* == 5. Issue detail page ==================================== */
+.issues-detail-header {
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.issues-detail-title {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1.3;
+  margin: 0 0 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.issues-detail-title .issues-number {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.issues-detail-meta {
+  font-size: 14px;
+  color: var(--md-default-fg-color--light);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 16px;
+}
+
+.issues-detail-meta .issues-status {
+  display: inline-flex;
+  width: auto;
+  height: auto;
+}
+
+/* == 6. Issue body content =================================== */
+.issues-content {
+  line-height: 1.6;
+}
+
+.issues-content h1 { font-size: 2em; margin-top: 24px; }
+.issues-content h2 { font-size: 1.5em; margin-top: 20px; }
+.issues-content h3 { font-size: 1.25em; margin-top: 16px; }
+
+.issues-content blockquote {
+  border-left: 3px solid var(--md-default-fg-color--lightest);
+  padding-left: 16px;
+  margin-left: 0;
+  color: var(--md-default-fg-color--light);
+}
+
+.issues-content code {
+  background: var(--md-code-bg-color);
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-size: 85%;
+}
+
+.issues-content pre code {
+  background: none;
+  padding: 0;
+  font-size: 100%;
+}
+
+.issues-content img {
+  max-width: 100%;
+  border-radius: 6px;
+}
+
+/* == 7. Comments ============================================= */
+.issues-comment {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 6px;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+
+.issues-comment-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  background: var(--md-code-bg-color);
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.issues-comment-header .issues-meta-item {
+  font-weight: 400;
+}
+
+.issues-comment-body {
+  padding: 16px;
+}
+
+/* == 8. Label colors (GitHub default palette) ================ */
+.issues-label[data-color="b60205"]  { background: #b60205; color: #fff; }
+.issues-label[data-color="d93f0b"]  { background: #d93f0b; color: #fff; }
+.issues-label[data-color="0e8a16"]  { background: #0e8a16; color: #fff; }
+.issues-label[data-color="006b75"]  { background: #006b75; color: #fff; }
+.issues-label[data-color="1d76db"]  { background: #1d76db; color: #fff; }
+.issues-label[data-color="0052cc"]  { background: #0052cc; color: #fff; }
+.issues-label[data-color="5319e7"]  { background: #5319e7; color: #fff; }
+.issues-label[data-color="e4e669"]  { background: #e4e669; color: #24292f; }
+.issues-label[data-color="fbca04"]  { background: #fbca04; color: #24292f; }
+.issues-label[data-color="c5def5"]  { background: #c5def5; color: #24292f; }
+.issues-label[data-color="bfdadc"]  { background: #bfdadc; color: #24292f; }
+.issues-label[data-color="d4c5f9"]  { background: #d4c5f9; color: #24292f; }
+.issues-label[data-color="f9d0c4"]  { background: #f9d0c4; color: #24292f; }
+.issues-label[data-color="ededed"]  { background: #ededed; color: #24292f; }
+
+/* == 9. Sidebar labels ======================================= */
+.md-nav--primary .issues-label-nav {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+}
+
+.md-nav--primary .issues-label-count {
+  font-size: 12px;
+  color: var(--md-default-fg-color--light);
+  font-weight: 400;
+}
+
+/* == 10. Responsive ========================================= */
+@media (max-width: 768px) {
+  .issues-list-item {
+    flex-direction: column;
+    gap: 8px;
+    padding: 12px;
+  }
+
+  .issues-status {
+    margin-top: 0;
+  }
+
+  .issues-title {
+    font-size: 14px;
+  }
+
+  .issues-detail-title {
+    font-size: 20px;
+  }
+}
+
+/* == 11. Empty state ========================================= */
+.issues-empty {
+  text-align: center;
+  padding: 48px 24px;
+  color: var(--md-default-fg-color--light);
+}
+
+.issues-empty svg {
+  width: 48px;
+  height: 48px;
+  fill: currentColor;
+  opacity: 0.4;
+  margin-bottom: 16px;
+}
+
+.issues-empty p {
+  font-size: 16px;
+}

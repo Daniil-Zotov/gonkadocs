@@ -103,6 +103,7 @@ theme:
 
 extra_css:
   - stylesheets/github.css
+  - stylesheets/issues.css
 
 plugins:
   - search:
