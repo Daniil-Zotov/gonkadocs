@@ -1,0 +1,153 @@
+---
+title: "#1265 — Stuck VOTING inferences orphan client escrow when x/group proposals miss quorum"
+source: https://github.com/gonka-ai/gonka/issues/1265
+issue_number: 1265
+synced_at: 2026-07-06T09:51:56Z
+---
+
+> 🔄 **Авто-синхронизация:** из [Issue #1265](https://github.com/gonka-ai/gonka/issues/1265) каждые 6 часов. 
+
+# 🟢 Stuck VOTING inferences orphan client escrow when x/group proposals miss quorum
+
+**Автор:** [@vitaly-andr](https://github.com/vitaly-andr) · **Состояние:** Open · **Создано:** 2026-05-27 19:50 UTC · **Обновлено:** 2026-05-30 17:17 UTC
+
+---
+
+## 📝 Описание
+
+## Summary
+
+`expireInferences` (`inference-chain/x/inference/module/module.go:226-234`) filters by `Status == STARTED` only. When a failing `MsgValidation` transitions an inference to `VOTING` and the resulting x/group proposals don't reach quorum, the inference is silently skipped by the timeout cleanup, the timeout entry is removed unconditionally at line 391, and the client's escrow is permanently held in the inference module account.
+
+Surfaced 2026-05-27 by a multi-seed sim sweep (related to #982 Phase 3 work) — seed 99 triggered a custom `NoStuckVoting` invariant: an inference from epoch 0 was still in `Status=VOTING` at epoch 10.
+
+## Reproducer
+
+A black-box test driving the real `expireInferences` is in #1275:
+`TestExpireInferences_VotingInferenceRefundedOnTimeout`
+(`inference-chain/x/inference/module/expire_voting_stuck_test.go`).
+
+It seeds a `VOTING` inference plus a matching `InferenceTimeout`, then calls the
+real (unexported) `expireInferences` through an `export_test.go` wrapper with a
+mocked bank keeper. On current `main` it fails — the refund is never issued and
+the inference stays `VOTING`; with the fix in #1275 it passes (inference marked
+`EXPIRED`, client escrow refunded).
+
+## Failure mode
+
+1. Client calls `MsgStartInference` — escrow ngonka to inference module account, `Status=STARTED`, `InferenceTimeout` queued at `start_block + ExpirationBlocks`.
+2. Executor calls `MsgFinishInference` — `Status=FINISHED`.
+3. Validator submits failing `MsgValidation` (`msg_server_validation.go:178`) — `Status=VOTING`, two x/group proposals (invalidate, revalidate) created via `submitValidationProposalsWithPolicy` at line 280.
+4. x/group voting window closes without quorum. Neither proposal reaches majority. x/group `EndBlock` tallies and prunes but does not auto-execute — execution requires `MsgExec` or a vote with `Exec_EXEC_TRY` (`cosmos-sdk/x/group/keeper/msg_server.go:771-777`).
+5. Block reaches `InferenceTimeout.ExpirationHeight`. EndBlocker calls `expireInferences` (`module.go:208`).
+6. Filter at `module.go:231` only handles `Status == STARTED`:
+
+   ```go
+   if inference.Status == types.InferenceStatus_STARTED {
+       am.handleExpiredInferenceWithContext(...)
+   }
+   ```
+
+   VOTING falls through. No refund.
+7. `RemoveInferenceTimeout` (`module.go:391`) unconditionally removes the timeout entry.
+8. Inference now permanently `VOTING`, client escrow stuck in inference module account.
+
+## Severity
+
+Liveness for client funds. Not a chain halt — block processing continues. But on every failing `MsgValidation` that misses x/group quorum within the voting window, the client's escrow is lost permanently. The trigger (validators not reaching majority within the voting window) is a routine production condition — network lag, validator restart, split votes — not an exotic edge case.
+
+## Minimal recommended fix
+
+Extend the filter at `module.go:231` to also handle `VOTING`:
+
+```go
+switch inference.Status {
+case types.InferenceStatus_STARTED:
+    am.handleExpiredInferenceWithContext(ctx, inference, expiryCtx)
+case types.InferenceStatus_VOTING:
+    // Voting window expired without consensus. Refund client, mark
+    // EXPIRED, leave x/group proposals to be pruned by x/group EndBlock.
+    am.expireInferenceAndIssueRefund(ctx, inference)
+}
+```
+
+Smallest change that restores liveness. Implements default-to-refund semantics on quorum miss: when validators don't reach consensus, client gets escrow back, executor receives no payment, no slashing.
+
+## Alternative semantics (for separate discussion)
+
+The minimal fix picks one of several reasonable semantics. The following alternatives are worth considering as a separate design discussion (not bundled with this fix):
+
+- **Re-vote on quorum miss.** Open a new proposal pair with current epoch members; retry up to N times; fall back to refund if still no quorum. Maximizes consensus chance but introduces new state (retry counter), a new governance param, proposer-identity handling on retry (the invalidate proposer is the invalidator; the revalidate proposer is the executor, who may have been dropped from the active set), and would require a proposal-close API not currently in the inference module's group interface.
+- **Default-to-invalidate.** Quorum miss = treat as invalidated. Protects client but penalizes executor for validators' technical failures (offline, network lag).
+
+Not recommended: default-to-validate (passive non-voting becomes implicit approval — attack vector); slash non-voting validators (DoS vector via spurious failing validations).
+
+## Open questions for maintainers
+
+- Is default-to-refund acceptable on quorum miss, or do you prefer a different fallback (re-vote, default-to-invalidate)?
+- If re-vote is preferred, that probably belongs in a separate design issue — happy to draft it once the immediate liveness gap is closed.
+
+---
+
+@patimen — touching code you originally wrote (`module.go:231`, commit `2f33567dd7`). Flagging directly since you'd have the most context on the intended semantics here.
+
+
+---
+
+## 💬 Комментарии (5)
+
+### Комментарий 1 — [@vitaly-andr](https://github.com/vitaly-andr)
+
+*2026-05-28 12:46 UTC*
+
+Quick follow-up: applied the filter extension from the body of this issue locally (`module.go:231` → also handle `Status=VOTING` via `expireInferenceAndIssueRefund`) and reran sim. The timeout-stuck path is no longer reachable on seed=99 — sim-full now progresses past the previous failure point.
+
+What surfaced next is a distinct mechanism in the revalidation vote path: validators present in `ActiveParticipantsSet[epoch]` can be absent from the corresponding x/group, and `voteValidationProposal` hard-errors with `voter not found` instead of treating non-member as no-op. Root cause is the permissive `addEpochMembers` (skip on nil-seed, continue on `AddMember` error — `module.go:1134`, `:1143`) which leaves the `ActiveParticipantsSet ⊆ group members` invariant unmaintained.
+
+Filed separately as #1269 with the sim reproduction (seed=99, block 39/500) and a suggested structural pre-check using `GroupMessageKeeper.GroupMembers`. Liveness for that path is now bounded by the timeout cleanup proposed in this issue, so it's a correctness/quorum issue rather than fund-loss.
+
+### Комментарий 2 — [@a-kuprin](https://github.com/a-kuprin)
+
+*2026-05-30 05:18 UTC*
+
+I think we should focus now on devshard inference flow.
+Anyway legacy inference flow will not be supported in the future.
+
+Also do we really have such issue in production environment?
+
+### Комментарий 3 — [@vitaly-andr](https://github.com/vitaly-andr)
+
+*2026-05-30 08:13 UTC*
+
+Thanks for the steer — both points taken.
+
+**On "do we really have this in production?"** — honestly, I can't confirm it from chain state. I scanned ~40k inferences on a mainnet node and found none in `VOTING`, but that's not evidence either way: inferences that enter the epoch-group validation path get a real `epoch_id` and are pruned after `InferencePruningEpochThreshold` epochs (`keeper/pruning.go`), while only the `epoch_id=0` start/finish/expire residue persists. So state inspection structurally can't answer this — it'd need tx history (the public node has `tx_index=off`) or your internal telemetry. Do you have a way to see whether a failing `MsgValidation` → quorum-miss has actually occurred?
+
+My case for the fix isn't "it happens a lot in prod" — it's that the gap is real in the code (`expireInferences` silently skips `VOTING` and still removes the timeout entry, stranding client escrow), the fix is minimal (one `VOTING` branch → refund), and it's required for the #982 sim-full run to stay green (the `no-stuck-voting` invariant catches it deterministically). If the legacy validation flow is genuinely being retired, I'm happy to defer or close #1275 — your call.
+
+**On devshard** — point taken, and I'd like to follow it. The simsx infrastructure from #982 (#1228) is flow-agnostic plumbing; it currently carries only the legacy factories, but it's the natural place to add devshard coverage. I'm happy to write the sim factories + invariants for the escrow/settlement path (`MsgCreateDevshardEscrow` / `MsgSettleDevshardEscrow`). The one open question is how to treat `VerifyDevshardSettlement`'s signature check under simulation — would welcome a hint on the intended approach.
+
+**One ask:** #1228 (the #982 simsx infrastructure) hasn't had a review yet. Could you take a look? It's the foundation everything above builds on, and a first pass from you would help me aim the next round (legacy vs devshard) correctly.
+
+### Комментарий 4 — [@a-kuprin](https://github.com/a-kuprin)
+
+*2026-05-30 15:37 UTC*
+
+> it's the natural place to add devshard coverage
+
+Validation logic of devshard is subject to change in future releases
+
+### Комментарий 5 — [@vitaly-andr](https://github.com/vitaly-andr)
+
+*2026-05-30 17:17 UTC*
+
+@patimen — pulling you in, since you authored #982 and own the original scope.
+
+I want to make sure I'm putting effort where it's actually useful. a-kuprin's steer here is clear, and I agree with it: legacy validation is being retired, and devshard's validation logic is still in flux — so I'll hold off on adding devshard sim coverage until it stabilizes (no point simming a moving target).
+
+What I'm unsure about is the disposition of the work already done on this accepted issue. Two honest questions:
+
+1. **Is the #982 simulation work (#1228) still wanted** as merged infrastructure? It's flow-agnostic and would be the natural place to add devshard coverage later, once that logic settles.
+2. Along the way the sim surfaced two concrete bugs in the **current** flow — stranded client escrow on a quorum-missed timeout (#1265 → #1275) and a revalidation-vote failure when the voter isn't in the epoch group (#1269 → #1276). Both are small fixes on code live in `main` today. **Even if focus shifts to devshard, is there a reason not to land them now?**
+
+If this whole area is being superseded and the fixes aren't worth merging, that's completely fine — I'd just like to know, so I can close things out cleanly rather than leave them open. Whatever fits your roadmap.

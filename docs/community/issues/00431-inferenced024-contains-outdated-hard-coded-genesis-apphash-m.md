@@ -1,0 +1,344 @@
+---
+title: "#431 — inferenced:0.2.4 contains outdated hard-coded genesis → AppHash mismatch prevents all nodes from syncing"
+source: https://github.com/gonka-ai/gonka/issues/431
+issue_number: 431
+synced_at: 2026-07-06T09:53:37Z
+---
+
+> 🔄 **Авто-синхронизация:** из [Issue #431](https://github.com/gonka-ai/gonka/issues/431) каждые 6 часов. 
+
+# 🔴 inferenced:0.2.4 contains outdated hard-coded genesis → AppHash mismatch prevents all nodes from syncing
+
+**Автор:** [@Asplana92](https://github.com/Asplana92) · **Состояние:** Closed · **Создано:** 2025-11-13 20:39 UTC · **Обновлено:** 2025-11-15 22:57 UTC
+
+---
+
+## 📝 Описание
+
+🚨 TL;DR / Summary
+
+The Docker image ghcr.io/product-science/inferenced:0.2.4 contains a hard-coded outdated genesis, causing a permanent AppHash mismatch with the live chain.
+Nodes discover peers, establish MConnection links, but instantly drop all peers due to AppHash validation errors.
+StateSync and BlockSync do not work → MLNode pipeline never starts.
+
+This prevents any new operator from joining the network.
+
+
+
+🐞 Bug: Outdated hard-coded genesis inside inferenced:0.2.4 → AppHash mismatch prevents sync
+
+Affected Containers (from my test environment)
+
+Node (Chain Node / inferenced): d1720fd3ae413
+API: 15d1c336e0fc
+Proxy: 2543bb1b2940a
+
+
+
+🔍 Problem Description
+
+Even when providing a fresh genesis.json from the repository or a working seed node,
+the Chain Node ignores it and uses a baked-in internal genesis.
+
+This results in:
+
+❌ AppHash mismatch
+❌ All peers dropped instantly
+❌ StateSync never starts
+❌ BlockSync never progresses
+❌ MLNode stage never begins
+
+Expected AppHash (from baked-in Docker genesis)
+       91B9DFB33D5CA4E2A9E18755129512000BDBB6B8B3A458BF02EACB32819EC3FDF
+
+Actual network AppHash (current chain)
+       9A3FAFD33F4694FD906B41860C6DA3EA1D5DABF6F6ACB5B8E56CFABBDD8384E13
+
+
+
+
+📜 Logs (AppHash mismatch loop)
+
+ERR error in validation err="wrong Block.Header.AppHash.
+Expected 91B9DFB33D5CA4E2A9E18755129512000BDBB6B8B3A458BF02EACB32819EC3FDF,
+got 9A3FAFD33F4694FD906B41860C6DA3EA1D5DABF6F6ACB5B8E56CFABBDD8384E13"
+module=blocksync
+
+
+
+🌱 Additional Issues Identified
+
+1. Trusting Period Problems
+
+A. Light Client expiration
+Logs show:
+     old header has expired at 2025-08-29
+
+Meaning:
+
+StateSync cannot work at all
+
+trusting period is far in the past
+
+even custom trust_period / trust_height do not help
+
+Light Client rejects all snapshots
+
+
+B. PEX fails silently
+PEX keeps printing:
+       We need more addresses. Sending pexRequest...
+
+But:
+node drops all peers immediately due to AppHash mismatch
+PEX never receives valid peer lists
+node loops forever
+
+
+
+2. MLNode Integration Blocked (architectural note)
+
+Although MLNode was not deployed in this test, the Chain Node crashes before MLNode can participate.
+
+Consequences:
+
+      Chain Node never reaches a stable height
+      API → InferenceD → MLNode pipeline cannot form
+      MLNode is unreachable because the base chain never becomes operational
+
+ This is important for debugging distributed execution.
+
+
+
+
+🔁 Reproduction Steps
+
+1. Clone the repo
+2. Use the official deploy/join Docker Compose setup
+3. Download fresh genesis:
+    curl -L https://raw.githubusercontent.com/gonka-ai/gonka/main/genesis/genesis.json -o genesis.json
+4. Place it into .inference/config/genesis.json
+5. Configure peers from a working seed node
+6. Start:
+      docker compose up -d
+7. Observe AppHash mismatch:
+      docker logs node | grep AppHash
+
+
+
+🧠 Diagnosis
+
+Root cause:
+
+→ The Docker image inferenced:0.2.4 contains an internal outdated genesis.
+
+Therefore:
+
+The node always expects the old AppHash
+Ignores external genesis.json
+Rejects all real network blocks
+Drops all peers
+Fails StateSync
+Fails BlockSync
+Never reaches MLNode stage
+
+
+
+✅ Suggested Fix
+
+1. Regenerate Docker image with updated genesis
+or
+2. Move genesis outside of the binary (recommended)
+Load dynamically (standard in Cosmos/CometBFT chains).
+3. Publish a verified genesis hash in documentation
+So node operators can validate before launch.
+
+
+
+🛠 Suggested PR Enhancement
+
+Automatic fallback when trusting period has expired.
+
+Logic:
+
+If:
+       server_time > trusting_period_end
+
+Then:
+
+ disable StateSync
+
+  print warning:
+          State Sync disabled — trusting period expired. Network likely requires new genesis or upgrade.
+
+fall back to BlockSync
+
+This improves UX and avoids silent failure loops.
+
+
+
+
+🧪 Environment (for reproducibility)
+
+Hetzner VPS, Ubuntu 24.04, 8GB RAM
+Docker 27.x
+Compose v2.29
+All ports validated
+Peers reachable & responsive
+
+
+
+
+🙌 Thank you!
+Happy to test patched builds, provide logs, configs, or help verify new images.
+
+   
+
+
+
+
+
+
+---
+
+## 💬 Комментарии (6)
+
+### Комментарий 1 — [@gmorgachev](https://github.com/gmorgachev)
+
+*2025-11-14 01:08 UTC*
+
+Hello! To reproduce from block 1 (assuming that from the message in discord that your node stucked at height=1) you need to start with initial release and apply all upgrades and patches starting v0.2.0:
+```
+https://github.com/gonka-ai/gonka/releases/tag/release%2Fv0.2.0
+```
+
+Version v0.2.4 can be used to load from snapshot's after v0.2.4. Successfully reproduced from `genesis.json` in repo:
+
+[genesis-reproduce.log](https://github.com/user-attachments/files/23537305/genesis-reproduce.log)
+[genesis-reproduce.md](https://github.com/user-attachments/files/23537306/genesis-reproduce.md)
+
+```
+> sha256sum genesis.json
+47ab596779fce181882bfcc62c7588947a76ac9d0f49d87cb3a6336ae59ff210  genesis.json
+```
+
+
+
+
+### Комментарий 2 — [@Asplana92](https://github.com/Asplana92)
+
+*2025-11-14 02:20 UTC*
+
+Hi Gleb, thanks for the detailed explanation!
+
+I understand — to reproduce the block-1 issue, I need to start from the initial version and apply all updates incrementally starting from v0.2.0.
+
+Here is some additional info from my side:
+
+✅ My setup
+
+Fresh server (Hetzner, Ubuntu 22.04)
+
+Docker 27.3.1
+
+I followed the current official instructions in deploy/join
+
+The genesis I used was taken directly from the repository:
+https://raw.githubusercontent.com/gonka-ai/gonka/refs/heads/main/genesis/genesis.json
+
+❗️Observed mismatch
+
+Even with the official genesis.json, I consistently get:
+
+Image expects AppHash:
+91B9DFB33D5CA24E9187551295120008BDBB6B8B3A458BF02EACB32B19EC3FDF
+
+Network reports AppHash:
+9A3FAFD33F4694FD906B41860C6D3AE1DA5DA8F6F6A8C58BE56CFABBD8384E13
+
+The node discovers peers, RPC works, but it gets stuck at height 1 with a permanent AppHash mismatch.
+
+📎 My genesis file (from repo)
+
+Gist link:
+https://gist.github.com/Asplana92/f35e0b7cf7cf0c4c50ef0644fea3e4e6
+
+Let me know if you need:
+
+my full docker logs
+
+the exact steps I followed
+
+or if you want me to test with version v0.2.0
+
+Happy to help reproduce and debug this! 🙌
+
+### Комментарий 3 — [@Asplana92](https://github.com/Asplana92)
+
+*2025-11-14 02:32 UTC*
+
+I understand that v0.2.4 requires either:
+- A) Starting from v0.2.0 and upgrading through all versions
+- B) Using a snapshot created after v0.2.4
+
+**My situation:**
+✅ Genesis hash is correct: 47ab596779fce181882bfcc62c7588947a76ac9d0f49d87cb3a6336ae59ff210
+✅ 10 peers connected
+❌ Node stuck at height 0 with State Sync enabled (continuously discovering snapshots)
+
+**Questions:**
+1. Is there an official snapshot URL I can download for v0.2.4?
+2. If I disable State Sync, will v0.2.4 work for syncing from block 1, or do I MUST upgrade from v0.2.0?
+
+Your reproduction succeeded with genesis.json - did you disable State Sync or use a snapshot?
+
+**My preference:** Use snapshot (Option B) if available, as it's faster for new deployments.
+
+Thank you for your help! 🚀
+
+### Комментарий 4 — [@Asplana92](https://github.com/Asplana92)
+
+*2025-11-14 03:19 UTC*
+
+@glebmorgachev,
+Thank you for confirming the upgrade path from v0.2.0!
+
+Before I start the full sync process from v0.2.0, I have one important question:
+
+Do you have an official snapshot for v0.2.4?
+
+You mentioned that “v0.2.4 can be used to load from snapshots created after v0.2.4.”
+If such a snapshot exists, could you please share:
+
+📥 Download URL
+
+📊 Snapshot height
+
+📝 Any restoration instructions
+
+This will significantly help new node operators get started without needing multi-week sync from block 1.
+
+If no snapshot is available yet, I’ll proceed with the full upgrade path.
+
+Thank you very much!
+
+### Комментарий 5 — [@gmorgachev](https://github.com/gmorgachev)
+
+*2025-11-14 11:00 UTC*
+
+docker compose files in main branch reference pre-build docker containers https://github.com/gonka-ai/gonka/blob/main/deploy/join/docker-compose.yml
+
+The same ones can be built from main branch
+
+The [quickstart](https://gonka.ai/host/quickstart/) instruction deploys from snapshot automatically until not disabled explicitly 
+
+### Комментарий 6 — [@Asplana92](https://github.com/Asplana92)
+
+*2025-11-15 22:57 UTC*
+
+Great news — the issue is fully resolved! 🎉  
+Everything works perfectly now. Thank you so much for the quick help and support!
+
+I’ll wait for the new epoch to start so I can connect again.  
+Closing the issue — thanks once again! 🚀
+

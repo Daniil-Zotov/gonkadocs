@@ -12,6 +12,11 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [Q&A](/community/discussion/q-a/): Best practices, technical questions
 - [General](/community/discussion/general/): Network reliability, governance
 
+## GitHub Issues (auto-synced)
+
+- [All Issues](/community/issues/): Index of all issues from gonka-ai/gonka
+- [By Label](/community/issues/labels/): Issues grouped by label
+
 ## Protocol Documentation
 
 - [Model Licenses](/gonka/docs/model-licenses/): Supported models and licensing terms
@@ -70,14 +75,6 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [Announcements](/gonka/docs/network-updates/): Auto-synced content
 - [Report a Vulnerability](/gonka/docs/report-vulnerability/): Auto-synced content
 - [Sign Up](/gonka/docs/signup/): Auto-synced content
-- [Benchmark to Choose Optimal Deployment Config for LLMs](/gonka/docs/host/benchmark-to-choose-optimal-deployment-config-for-llms/): Auto-synced content
-- [Gonka Genesis Ceremony](/gonka/docs/host/genesis/): Auto-synced content
-- [How to edit Host public info](/gonka/docs/host/host_info/): Auto-synced content
-- [Kimi K2.6 Bootstrap](/gonka/docs/host/kimi-bootstrap/): Auto-synced content
-- [MiniMax-M2.7 Bootstrap](/gonka/docs/host/minimax-bootstrap/): Auto-synced content
-- [Multiple nodes](/gonka/docs/host/multiple-nodes/): Auto-synced content
-- [[Optional] SSL Setup](/gonka/docs/host/optional-ssl-setup/): Auto-synced content
-- [Proposals](/gonka/docs/host/proposals/): Auto-synced content
 - [Redirecting to Host Benchmark](/gonka/docs/participant/benchmark-to-choose-optimal-deployment-config-for-llms/): Auto-synced content
 - [Redirecting to Host Genesis (New)](/gonka/docs/participant/genesis-new/): Auto-synced content
 - [Redirecting to Host Genesis](/gonka/docs/participant/genesis/): Auto-synced content
@@ -87,13 +84,6 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [Redirecting to Host Multiple Nodes](/gonka/docs/participant/multiple-nodes/): Auto-synced content
 - [Redirecting to Host Network Node API](/gonka/docs/participant/network-node-api/): Auto-synced content
 - [Redirecting to Host Quickstart](/gonka/docs/participant/quickstart/): Auto-synced content
-- [Addresses and keys](/gonka/docs/cross-chain-transfers/ethereum-bridge/addresses-and-keys/): Auto-synced content
-- [Bridge epoch update](/gonka/docs/cross-chain-transfers/ethereum-bridge/bridge-epoch-update/): Auto-synced content
-- [Bridge via dashboard (UI guide)](/gonka/docs/cross-chain-transfers/ethereum-bridge/dashboard/): Auto-synced content
-- [Multisig signer guide](/gonka/docs/cross-chain-transfers/ethereum-bridge/multisig-signer-guide/): Auto-synced content
-- [Ethereum bridge overview](/gonka/docs/cross-chain-transfers/ethereum-bridge/overview/): Auto-synced content
-- [Register a bridge token](/gonka/docs/cross-chain-transfers/ethereum-bridge/register-token/): Auto-synced content
-- [Dashboard & tracker integration](/gonka/docs/cross-chain-transfers/ethereum-bridge/tracker-integration/): Auto-synced content
 - [错误](/gonka/docs/zh/Errors/): Auto-synced content
 - [常见问题](/gonka/docs/zh/FAQ/): Auto-synced content
 - [Architecture](/gonka/docs/zh/architecture/): Auto-synced content
@@ -108,8 +98,15 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [报告漏洞](/gonka/docs/zh/report-vulnerability/): Auto-synced content
 - [注册](/gonka/docs/zh/signup/): Auto-synced content
 - [治理与交易（Cosmos SDK 0.53）](/gonka/docs/zh/transactions-and-governance/): Auto-synced content
-- [运行你自己的网关](/gonka/docs/zh/developer/gateway-developer-quickstart/): Auto-synced content
-- [开发者快速入门](/gonka/docs/zh/developer/quickstart/): Auto-synced content
+- [重定向到主机基准测试](/gonka/docs/zh/participant/benchmark-to-choose-optimal-deployment-config-for-llms/): Auto-synced content
+- [正在重定向到主机起源（新）](/gonka/docs/zh/participant/genesis-new/): Auto-synced content
+- [正在重定向到主机起源](/gonka/docs/zh/participant/genesis/): Auto-synced content
+- [正在重定向到主机硬件规格](/gonka/docs/zh/participant/hardware-specifications/): Auto-synced content
+- [正在重定向到主机密钥管理](/gonka/docs/zh/participant/key-management/): Auto-synced content
+- [重定向到主机多节点设置](/gonka/docs/zh/participant/multi-node-setup-for-review/): Auto-synced content
+- [重定向到托管多个节点](/gonka/docs/zh/participant/multiple-nodes/): Auto-synced content
+- [正在重定向到主机网络节点 API](/gonka/docs/zh/participant/network-node-api/): Auto-synced content
+- [正在重定向到主机快速入门](/gonka/docs/zh/participant/quickstart/): Auto-synced content
 - [LLM 最佳部署配置基准测试](/gonka/docs/zh/host/benchmark-to-choose-optimal-deployment-config-for-llms/): Auto-synced content
 - [抵押品机制](/gonka/docs/zh/host/collateral/): Auto-synced content
 - [Gonka 创世仪式](/gonka/docs/zh/host/genesis-new/): Auto-synced content
@@ -129,15 +126,6 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [配置您的链](/gonka/docs/zh/host/quickstart/): Auto-synced content
 - [奖励机制](/gonka/docs/zh/host/rewards/): Auto-synced content
 - [如何编辑验证者公开信息](/gonka/docs/zh/host/validator_info/): Auto-synced content
-- [重定向到主机基准测试](/gonka/docs/zh/participant/benchmark-to-choose-optimal-deployment-config-for-llms/): Auto-synced content
-- [正在重定向到主机起源（新）](/gonka/docs/zh/participant/genesis-new/): Auto-synced content
-- [正在重定向到主机起源](/gonka/docs/zh/participant/genesis/): Auto-synced content
-- [正在重定向到主机硬件规格](/gonka/docs/zh/participant/hardware-specifications/): Auto-synced content
-- [正在重定向到主机密钥管理](/gonka/docs/zh/participant/key-management/): Auto-synced content
-- [重定向到主机多节点设置](/gonka/docs/zh/participant/multi-node-setup-for-review/): Auto-synced content
-- [重定向到托管多个节点](/gonka/docs/zh/participant/multiple-nodes/): Auto-synced content
-- [正在重定向到主机网络节点 API](/gonka/docs/zh/participant/network-node-api/): Auto-synced content
-- [正在重定向到主机快速入门](/gonka/docs/zh/participant/quickstart/): Auto-synced content
 - [技术集成指南：兑换与跨链桥组件](/gonka/docs/zh/cross-chain-transfers/widget-integration/): Auto-synced content
 - [通过 Kava 提取 USDT（Gonka → 以太坊）](/gonka/docs/zh/cross-chain-transfers/ibc/withdraw-usdt-via-kava/): Auto-synced content
 - [地址与密钥](/gonka/docs/zh/cross-chain-transfers/ethereum-bridge/addresses-and-keys/): Auto-synced content
@@ -156,10 +144,27 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [将 Gonka 网络添加到 Keplr 与 Leap 钱包](/gonka/docs/zh/wallet/external_wallets/): Auto-synced content
 - [定价](/gonka/docs/zh/wallet/pricing/): Auto-synced content
 - [钱包与转账指南](/gonka/docs/zh/wallet/wallet-and-transfer-guide/): Auto-synced content
+- [运行你自己的网关](/gonka/docs/zh/developer/gateway-developer-quickstart/): Auto-synced content
+- [开发者快速入门](/gonka/docs/zh/developer/quickstart/): Auto-synced content
 - [如何在Gonka上创建并提交治理提案](/gonka/docs/zh/governance/creating-proposals/): Auto-synced content
 - [交易与治理](/gonka/docs/zh/governance/transactions-and-governance/): Auto-synced content
 - [提案投票](/gonka/docs/zh/governance/voting-on-proposals/): Auto-synced content
 - [投票权、创世守护者和委托](/gonka/docs/zh/governance/voting-power-eligibility/): Auto-synced content
+- [Benchmark to Choose Optimal Deployment Config for LLMs](/gonka/docs/host/benchmark-to-choose-optimal-deployment-config-for-llms/): Auto-synced content
+- [Gonka Genesis Ceremony](/gonka/docs/host/genesis/): Auto-synced content
+- [How to edit Host public info](/gonka/docs/host/host_info/): Auto-synced content
+- [Kimi K2.6 Bootstrap](/gonka/docs/host/kimi-bootstrap/): Auto-synced content
+- [MiniMax-M2.7 Bootstrap](/gonka/docs/host/minimax-bootstrap/): Auto-synced content
+- [Multiple nodes](/gonka/docs/host/multiple-nodes/): Auto-synced content
+- [[Optional] SSL Setup](/gonka/docs/host/optional-ssl-setup/): Auto-synced content
+- [Proposals](/gonka/docs/host/proposals/): Auto-synced content
+- [Addresses and keys](/gonka/docs/cross-chain-transfers/ethereum-bridge/addresses-and-keys/): Auto-synced content
+- [Bridge epoch update](/gonka/docs/cross-chain-transfers/ethereum-bridge/bridge-epoch-update/): Auto-synced content
+- [Bridge via dashboard (UI guide)](/gonka/docs/cross-chain-transfers/ethereum-bridge/dashboard/): Auto-synced content
+- [Multisig signer guide](/gonka/docs/cross-chain-transfers/ethereum-bridge/multisig-signer-guide/): Auto-synced content
+- [Ethereum bridge overview](/gonka/docs/cross-chain-transfers/ethereum-bridge/overview/): Auto-synced content
+- [Register a bridge token](/gonka/docs/cross-chain-transfers/ethereum-bridge/register-token/): Auto-synced content
+- [Dashboard & tracker integration](/gonka/docs/cross-chain-transfers/ethereum-bridge/tracker-integration/): Auto-synced content
 - [Wallet & Transfer Guide](/gonka/docs/wallet/wallet-and-transfer-guide/): Auto-synced content
 
 ## Community Documentation
@@ -170,12 +175,334 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 
 ### Additional Pages (auto-synced)
 
+- [🟢 BUG-1: Preserved node disabling](/community/issues/00310-bug-1-preserved-node-disabling/): Auto-synced content
+- [🔴 BUG-2: Local MLNode identifier & MLNode lookup in wrong group](/community/issues/00311-bug-2-local-mlnode-identifier-mlnode-lookup-in-wrong-group/): Auto-synced content
+- [🔴 [P0] Negative balance panic](/community/issues/00313-p0-negative-balance-panic/): Auto-synced content
+- [🔴 [P0] Make Seed derived from private key](/community/issues/00314-p0-make-seed-derived-from-private-key/): Auto-synced content
+- [🔴 [P0] Move config to DB (like seed, etc)](/community/issues/00315-p0-move-config-to-db-like-seed-etc/): Auto-synced content
+- [🔴 [P0] Missing validation and inference request threshold adjustment / stattest](/community/issues/00316-p0-missing-validation-and-inference-request-threshold-adjust/): Auto-synced content
+- [🔴 [P0] Epoch length](/community/issues/00317-p0-epoch-length/): Auto-synced content
+- [🔴 [P0] Merge MLNode upgrades + docs](/community/issues/00318-p0-merge-mlnode-upgrades-docs/): Auto-synced content
+- [🔴 [P0] Merge enforced_tokens](/community/issues/00319-p0-merge-enforced-tokens/): Auto-synced content
+- [🔴 [P0] Internal TestNet: k8 / another scripts with new servers](/community/issues/00320-p0-internal-testnet-k8-another-scripts-with-new-servers/): Auto-synced content
+- [🔴 [P0] Threshold + Params for big model](/community/issues/00321-p0-threshold-params-for-big-model/): Auto-synced content
+- [🔴 [P0] Dashboard (reward fix + vesting; poc stages; total power; gpu’s; participants with logos and contacts)](/community/issues/00322-p0-dashboard-reward-fix-vesting-poc-stages-total-power-gpus-/): Auto-synced content
+- [🔴 [P0] Replace model with non-dynamic quantization to avoid quantization mismatch](/community/issues/00323-p0-replace-model-with-non-dynamic-quantization-to-avoid-quan/): Auto-synced content
+- [🔴 [P0] PoC nonce performance improvements (H100 vs 8xH100) — define reasons](/community/issues/00324-p0-poc-nonce-performance-improvements-h100-vs-8xh100-define-/): Auto-synced content
+- [🔴 [P0] No inference failures on the edge of PoC; Check for missed validation during epoch](/community/issues/00325-p0-no-inference-failures-on-the-edge-of-poc-check-for-missed/): Auto-synced content
+- [🟢 [P2] Improve onboarding experience](/community/issues/00326-p2-improve-onboarding-experience/): Auto-synced content
+- [🔴 [P1] Performance: Measure chain performance](/community/issues/00327-p1-performance-measure-chain-performance/): Auto-synced content
+- [🔴 [P1] Off-chain validation data == on demand on-chain inference](/community/issues/00328-p1-off-chain-validation-data-on-demand-on-chain-inference/): Auto-synced content
+- [🔴 [P1] Check data limits for PoC](/community/issues/00329-p1-check-data-limits-for-poc/): Auto-synced content
+- [🟢 [P2] Security MerkleTree Proofs; Merge participant validation till block0; Need to add signature check at recording](/community/issues/00330-p2-security-merkletree-proofs-merge-participant-validation-t/): Auto-synced content
+- [🔴 [P1] API for wallets (Keplr, Leap) / indexers (we do have the API, we need to get the thought process of adding Gonka to different wallets, and see what we are missing.](/community/issues/00331-p1-api-for-wallets-keplr-leap-indexers-we-do-have-the-api-we/): Auto-synced content
+- [🔴 [P1] Merge Bridge](/community/issues/00332-p1-merge-bridge/): Auto-synced content
+- [🔴 [P1] vLLM tools](/community/issues/00333-p1-vllm-tools/): Auto-synced content
+- [🔴 [P1] Key Rotation & Validator info update (warm key, node-id / key,  public url)](/community/issues/00334-p1-key-rotation-validator-info-update-warm-key-node-id-key-p/): Auto-synced content
+- [🟢 [P1] Check why we often see slashing in logs](/community/issues/00335-p1-check-why-we-often-see-slashing-in-logs/): Auto-synced content
+- [🔴 [P1] Retry for inference + don’t send inference to inactive nodes](/community/issues/00336-p1-retry-for-inference-dont-send-inference-to-inactive-nodes/): Auto-synced content
+- [🔴 [P1] Config update process](/community/issues/00337-p1-config-update-process/): Auto-synced content
+- [🔴 [P1] Cache for Github Actions](/community/issues/00338-p1-cache-for-github-actions/): Auto-synced content
+- [🔴 [P1] Distributed vs truly decentralized and trustless and where we there](/community/issues/00339-p1-distributed-vs-truly-decentralized-and-trustless-and-wher/): Auto-synced content
+- [🔴 [P0] Security: Training](/community/issues/00340-p0-security-training/): Auto-synced content
+- [🔴 [P0] Security: Major](/community/issues/00341-p0-security-major/): Auto-synced content
+- [🔴 [P0] Security: Minor](/community/issues/00342-p0-security-minor/): Auto-synced content
+- [🔴 BUG-3: Removing models from inference/model_list is not supported](/community/issues/00343-bug-3-removing-models-from-inferencemodel-list-is-not-suppor/): Auto-synced content
+- [🟢 Intersection between update of `epoch_length` params and PoC procedure can lead to consensus failure](/community/issues/00344-intersection-between-update-of-epoch-length-params-and-poc-p/): Auto-synced content
+- [🔴 [P0]: Add SSL (https) for our dashboard and API (we need it to add us to wallets)](/community/issues/00348-p0-add-ssl-https-for-our-dashboard-and-api-we-need-it-to-add/): Auto-synced content
+- [🔴 [P1]: Utilization in scheduling and PoC uptime and Reward for all Models Support](/community/issues/00349-p1-utilization-in-scheduling-and-poc-uptime-and-reward-for-a/): Auto-synced content
+- [🔴 BUG: Wrong error message for unsupported models in /chat/completions](/community/issues/00351-bug-wrong-error-message-for-unsupported-models-in-chatcomple/): Auto-synced content
+- [🔴 [P0]: AI Developer onboarding: Aiden Chat integration](/community/issues/00359-p0-ai-developer-onboarding-aiden-chat-integration/): Auto-synced content
+- [🟢 [P0]: AI Developer onboarding: T-link integration](/community/issues/00360-p0-ai-developer-onboarding-t-link-integration/): Auto-synced content
+- [🔴 [P0] Threshold + Params for big model. Part 2.](/community/issues/00361-p0-threshold-params-for-big-model-part-2/): Auto-synced content
+- [🟢 The variable `DAPI_API__POC_CALLBACK_URL` is causing a lot of issues. It might be simpler in the future to use `gRPC` and handle callbacks within the same connection instead.](/community/issues/00365-the-variable-dapi-api-poc-callback-url-is-causing-a-lot-of-i/): Auto-synced content
+- [🔴 [P0] How to change `inference_url`](/community/issues/00381-p0-how-to-change-inference-url/): Auto-synced content
+- [🔴 Bug: fatal error: too many concurrent timer firings](/community/issues/00387-bug-fatal-error-too-many-concurrent-timer-firings/): Auto-synced content
+- [🔴 [P0]: Cuda failure + other small fixed](/community/issues/00388-p0-cuda-failure-other-small-fixed/): Auto-synced content
+- [🔴 [P0] Invalid participants in the `ActiveParticipant` list](/community/issues/00394-p0-invalid-participants-in-the-activeparticipant-list/): Auto-synced content
+- [🔴 [P0] Future timestamp investigation](/community/issues/00396-p0-future-timestamp-investigation/): Auto-synced content
+- [🔴 API -> Node Connection Issues](/community/issues/00398-api-node-connection-issues/): Auto-synced content
+- [🔴 [BUG]: API container doesn't start due to "nats: insufficient resources"](/community/issues/00402-bug-api-container-doesnt-start-due-to-nats-insufficient-reso/): Auto-synced content
+- [🔴 [P0] Removing participants for inactivity](/community/issues/00405-p0-removing-participants-for-inactivity/): Auto-synced content
+- [🔴 Switch participant invalidation to SPRT](/community/issues/00409-switch-participant-invalidation-to-sprt/): Auto-synced content
+- [🔴 Explore SPRT for missed inferences](/community/issues/00410-explore-sprt-for-missed-inferences/): Auto-synced content
+- [🟢 [P2] MLNode Token-Based Authentication and FQDN Support](/community/issues/00412-p2-mlnode-token-based-authentication-and-fqdn-support/): Auto-synced content
+- [🔴 Caching of node-config.json](/community/issues/00415-caching-of-node-configjson/): Auto-synced content
+- [🔴 New Issue → Request Access to Inference Image](/community/issues/00419-new-issue-request-access-to-inference-image/): Auto-synced content
+- [🟢 Validators are marked for removal but haven't removed](/community/issues/00421-validators-are-marked-for-removal-but-havent-removed/): Auto-synced content
+- [🔴 DAPI  nil pointer dereference crash when chain RPC is unavailable](/community/issues/00422-dapi-nil-pointer-dereference-crash-when-chain-rpc-is-unavail/): Auto-synced content
+- [🟢 Privacy and Reliability: IP-layer denials, TLS termination, on-chain prompt exposure, and faster mitigation of unreliable hosts](/community/issues/00424-privacy-and-reliability-ip-layer-denials-tls-termination-on-/): Auto-synced content
+- [🔴 Node management](/community/issues/00428-node-management/): Auto-synced content
+- [🔴 Cleaning nats](/community/issues/00429-cleaning-nats/): Auto-synced content
+- [🔴 inferenced:0.2.4 contains outdated hard-coded genesis → AppHash mismatch prevents all nodes from syncing](/community/issues/00431-inferenced024-contains-outdated-hard-coded-genesis-apphash-m/): Auto-synced content
+- [🟢 Bug Report: api container sends abci_query with height: 0 despite being synced](/community/issues/00435-bug-report-api-container-sends-abci-query-with-height-0-desp/): Auto-synced content
+- [🔴 🐛 Bug: Incorrect Governance Model Matching Causes Registration Failures](/community/issues/00438-bug-incorrect-governance-model-matching-causes-registration-/): Auto-synced content
+- [🔴 Stack traces](/community/issues/00439-stack-traces/): Auto-synced content
+- [🔴 All the old keys from the cluster entered the new epoch, even though that cluster was deleted](/community/issues/00440-all-the-old-keys-from-the-cluster-entered-the-new-epoch-even/): Auto-synced content
+- [🟢 Node Registration Does Not Update After Migration (API stuck using old on-chain config)](/community/issues/00447-node-registration-does-not-update-after-migration-api-stuck-/): Auto-synced content
+- [🔴 ML node model management edge cases](/community/issues/00461-ml-node-model-management-edge-cases/): Auto-synced content
+- [🔴 Nodes always available](/community/issues/00463-nodes-always-available/): Auto-synced content
+- [🔴 Difficulty with PoC, defined by `RTarget`](/community/issues/00464-difficulty-with-poc-defined-by-rtarget/): Auto-synced content
+- [🔴 Add a transaction for deleting the governance model. It needs to be added and verified to ensure it does not affect operations in the current epoch](/community/issues/00465-add-a-transaction-for-deleting-the-governance-model-it-needs/): Auto-synced content
+- [🔴 Stop rewriting static config at each app start](/community/issues/00466-stop-rewriting-static-config-at-each-app-start/): Auto-synced content
+- [🔴 Unit tests for making sure node version is always a part of endpoint and it's updated when version changes on chain](/community/issues/00467-unit-tests-for-making-sure-node-version-is-always-a-part-of-/): Auto-synced content
+- [🔴 [P1] Certik (finalization)](/community/issues/00468-p1-certik-finalization/): Auto-synced content
+- [🔴 Move payload off chain](/community/issues/00470-move-payload-off-chain/): Auto-synced content
+- [🔴 Race Condition in Epoch Initialization Causes Random Node Exclusion](/community/issues/00491-race-condition-in-epoch-initialization-causes-random-node-ex/): Auto-synced content
+- [🔴 Unable to start baecon node](/community/issues/00498-unable-to-start-baecon-node/): Auto-synced content
+- [🔴 Chat Completions aren't working](/community/issues/00499-chat-completions-arent-working/): Auto-synced content
+- [🔴 Bug in claim recovery](/community/issues/00511-bug-in-claim-recovery/): Auto-synced content
+- [🔴 "Request timestamp is in the future" leads to missed inferences for hosts](/community/issues/00518-request-timestamp-is-in-the-future-leads-to-missed-inference/): Auto-synced content
+- [🔴 Fix gRPC Endpoint for Cosmostation wallet and Mintscan explorer dashboard](/community/issues/00520-fix-grpc-endpoint-for-cosmostation-wallet-and-mintscan-explo/): Auto-synced content
+- [🔴 Create a proxy endpoint that aggregates multiple internal RPC nodes behind a single public-facing address (for crypto wallets)](/community/issues/00521-create-a-proxy-endpoint-that-aggregates-multiple-internal-rp/): Auto-synced content
+- [🟢 Add support for text-to-video models and inference to the network](/community/issues/00522-add-support-for-text-to-video-models-and-inference-to-the-ne/): Auto-synced content
+- [🔴 Node resync from snapshot caused missed inference tasks due to large application.db](/community/issues/00527-node-resync-from-snapshot-caused-missed-inference-tasks-due-/): Auto-synced content
+- [🔴 Node crash: Decimal precision panic in reputation calculation (v0.2.7-post1)](/community/issues/00546-node-crash-decimal-precision-panic-in-reputation-calculation/): Auto-synced content
+- [🔴 [P2] Free inference exploit](/community/issues/00554-p2-free-inference-exploit/): Auto-synced content
+- [🔴 Remove extraneous community account](/community/issues/00557-remove-extraneous-community-account/): Auto-synced content
+- [🔴 [P2] URLs with `/chat/completions` and `/completions` for Open Router](/community/issues/00558-p2-urls-with-chatcompletions-and-completions-for-open-router/): Auto-synced content
+- [🟢 [P2] Finalizing the WebSocket (merge with `call_Back`, new vLLM will require python side implementation)](/community/issues/00560-p2-finalizing-the-websocket-merge-with-call-back-new-vllm-wi/): Auto-synced content
+- [🔴 Implementing punishment statistics based on on-chain data](/community/issues/00561-implementing-punishment-statistics-based-on-on-chain-data/): Auto-synced content
+- [🔴 GetEpochModel in validation should use inference epoch](/community/issues/00562-getepochmodel-in-validation-should-use-inference-epoch/): Auto-synced content
+- [🔴 Eliminate chain panics and hard-fail paths in consensus and accounting](/community/issues/00564-eliminate-chain-panics-and-hard-fail-paths-in-consensus-and-/): Auto-synced content
+- [🔴 Reward settlement correctness; negative balance prevention](/community/issues/00565-reward-settlement-correctness-negative-balance-prevention/): Auto-synced content
+- [🔴 Epoch and timestamp consistency across inference, validation, and claims](/community/issues/00566-epoch-and-timestamp-consistency-across-inference-validation-/): Auto-synced content
+- [🔴 Missed validations recovery system](/community/issues/00567-missed-validations-recovery-system/): Auto-synced content
+- [🔴 DB handling improvements](/community/issues/00568-db-handling-improvements/): Auto-synced content
+- [🔴 Switch to bytes for storage](/community/issues/00569-switch-to-bytes-for-storage/): Auto-synced content
+- [🔴 Production-grade proxy, SSL, and wallet-compatible endpoints](/community/issues/00570-production-grade-proxy-ssl-and-wallet-compatible-endpoints/): Auto-synced content
+- [🔴 Improve performance of MLNode, support Blackwell](/community/issues/00571-improve-performance-of-mlnode-support-blackwell/): Auto-synced content
+- [🔴 Multi-node testing](/community/issues/00572-multi-node-testing/): Auto-synced content
+- [🔴 Governance-owned leftovers; add genesis guardian + developer access param groups](/community/issues/00573-governance-owned-leftovers-add-genesis-guardian-developer-ac/): Auto-synced content
+- [🔴 Membership for correct epoch for Validation requests](/community/issues/00574-membership-for-correct-epoch-for-validation-requests/): Auto-synced content
+- [🔴 Updated script snippets and MacOS Tahoe 26.1 Docker settings](/community/issues/00575-updated-script-snippets-and-macos-tahoe-261-docker-settings/): Auto-synced content
+- [🔴 Standardize floating point math](/community/issues/00576-standardize-floating-point-math/): Auto-synced content
+- [🔴 Unified Permission handling](/community/issues/00577-unified-permission-handling/): Auto-synced content
+- [🔴 Remove work based rewards and top miner logic](/community/issues/00578-remove-work-based-rewards-and-top-miner-logic/): Auto-synced content
+- [🔴 Schedule for MLNodes to serve inference during PoC](/community/issues/00579-schedule-for-mlnodes-to-serve-inference-during-poc/): Auto-synced content
+- [🔴 Liquidity Pool & Wrapped Token Update](/community/issues/00580-liquidity-pool-wrapped-token-update/): Auto-synced content
+- [🔴 Support testnet on small GPUs](/community/issues/00581-support-testnet-on-small-gpus/): Auto-synced content
+- [🔴 Fix tx timeout](/community/issues/00582-fix-tx-timeout/): Auto-synced content
+- [🔴 Ante Handler to filter PoC transactions](/community/issues/00583-ante-handler-to-filter-poc-transactions/): Auto-synced content
+- [🔴 Change RTarget and scale all weight by 2.5](/community/issues/00584-change-rtarget-and-scale-all-weight-by-25/): Auto-synced content
+- [🔴 Add gates for PoC participation and adding participants](/community/issues/00585-add-gates-for-poc-participation-and-adding-participants/): Auto-synced content
+- [🔴 connect grpc port to proxy](/community/issues/00586-connect-grpc-port-to-proxy/): Auto-synced content
+- [🔴 Rewards: Epoch 117 + Bounty](/community/issues/00587-rewards-epoch-117-bounty/): Auto-synced content
+- [🔴 Broken payload shouldn't lead to missed inferences](/community/issues/00588-broken-payload-shouldnt-lead-to-missed-inferences/): Auto-synced content
+- [🔴 Don't send TX if node is behind](/community/issues/00589-dont-send-tx-if-node-is-behind/): Auto-synced content
+- [🔴 Improve TXManager reliability, add block-based deadlines, don't send invalid TXs](/community/issues/00590-improve-txmanager-reliability-add-block-based-deadlines-dont/): Auto-synced content
+- [🔴 Some security and other improvements for github actions](/community/issues/00591-some-security-and-other-improvements-for-github-actions/): Auto-synced content
+- [🔴 Fix gov tests](/community/issues/00592-fix-gov-tests/): Auto-synced content
+- [🔴 Fix tally voting](/community/issues/00593-fix-tally-voting/): Auto-synced content
+- [🔴 Make sure batch finish/start inferences don't fail](/community/issues/00594-make-sure-batch-finishstart-inferences-dont-fail/): Auto-synced content
+- [🔴 Enable BLS DealerShared recovery if container restarted](/community/issues/00595-enable-bls-dealershared-recovery-if-container-restarted/): Auto-synced content
+- [🔴 Batching for StartInference / FinishInference](/community/issues/00596-batching-for-startinference-finishinference/): Auto-synced content
+- [🔴 PoC params on-chain](/community/issues/00597-poc-params-on-chain/): Auto-synced content
+- [🔴 Epoch performance additional query](/community/issues/00598-epoch-performance-additional-query/): Auto-synced content
+- [🔴 BLS for long list of validators & Contract fixes](/community/issues/00599-bls-for-long-list-of-validators-contract-fixes/): Auto-synced content
+- [🔴 BLS Signature Fixes: Aggreagation and format](/community/issues/00600-bls-signature-fixes-aggreagation-and-format/): Auto-synced content
+- [🔴 Change default mlnode state to `INFERENCE`](/community/issues/00601-change-default-mlnode-state-to-inference/): Auto-synced content
+- [🔴 Fix genesis transfer](/community/issues/00602-fix-genesis-transfer/): Auto-synced content
+- [🔴 Random PoC](/community/issues/00603-random-poc/): Auto-synced content
+- [🔴 Fix not releasing a lock in SetNodeAdminStateCommand](/community/issues/00604-fix-not-releasing-a-lock-in-setnodeadminstatecommand/): Auto-synced content
+- [🔴 [0/4] `StartInference` and `FinishInference`: optimiziation](/community/issues/00608-04-startinference-and-finishinference-optimiziation/): Auto-synced content
+- [🟢 [zpoken] Define and validate scalable off-chain PoC communication beyond Merkle-based commits](/community/issues/00611-zpoken-define-and-validate-scalable-off-chain-poc-communicat/): Auto-synced content
+- [🔴 `/chat/completion` flow development](/community/issues/00612-chatcompletion-flow-development/): Auto-synced content
+- [🔴 Creation of a mathematical model, estimating limits, specifying benchmarks and investigating how to improve scalability.](/community/issues/00613-creation-of-a-mathematical-model-estimating-limits-specifyin/): Auto-synced content
+- [🔴 IBC support, IBC pool](/community/issues/00615-ibc-support-ibc-pool/): Auto-synced content
+- [🟢 Ledger wallet integration](/community/issues/00617-ledger-wallet-integration/): Auto-synced content
+- [🟢 Inference invalidation by pseudo random sub-group of participant (to decrease amount of `MsgValidation`)](/community/issues/00619-inference-invalidation-by-pseudo-random-sub-group-of-partici/): Auto-synced content
+- [🔴 Speed up PoC validation by sample validators](/community/issues/00620-speed-up-poc-validation-by-sample-validators/): Auto-synced content
+- [🔴 How to add new models](/community/issues/00626-how-to-add-new-models/): Auto-synced content
+- [🔴 vLLM 0.11.0 — Inference validation](/community/issues/00627-vllm-0110-inference-validation/): Auto-synced content
+- [🔴 vLLM 0.11.0 — PoC at vLLM 0.11.1](/community/issues/00628-vllm-0110-poc-at-vllm-0111/): Auto-synced content
+- [🔴 [P0] Possible cause of missed inferences](/community/issues/00629-p0-possible-cause-of-missed-inferences/): Auto-synced content
+- [🟢 Research: Ephemeral port exhaustion](/community/issues/00630-research-ephemeral-port-exhaustion/): Auto-synced content
+- [🔴 Add message to transfer amount with vesting](/community/issues/00631-add-message-to-transfer-amount-with-vesting/): Auto-synced content
+- [🟢 State sync snapshots corrupted - all snapshots fail on last 2 chunks (826-827/827)](/community/issues/00632-state-sync-snapshots-corrupted-all-snapshots-fail-on-last-2-/): Auto-synced content
+- [🔴 Avoid truncation for large validation weights](/community/issues/00646-avoid-truncation-for-large-validation-weights/): Auto-synced content
+- [🔴 vLLM 0.11.0 — Migration Proposal](/community/issues/00647-vllm-0110-migration-proposal/): Auto-synced content
+- [🔴 Reproducible sampling](/community/issues/00651-reproducible-sampling/): Auto-synced content
+- [🔴 Certik(CSA-2026-001:Tachyon, was disclosed in CometBFT)](/community/issues/00652-certikcsa-2026-001tachyon-was-disclosed-in-cometbft/): Auto-synced content
+- [🔴 Deep dive into node container](/community/issues/00653-deep-dive-into-node-container/): Auto-synced content
+- [🟢 Optimize mlnode: reduce mlnode image size, refactor api service (proxy part for the start)](/community/issues/00654-optimize-mlnode-reduce-mlnode-image-size-refactor-api-servic/): Auto-synced content
+- [🔴 POC_SLOT attack](/community/issues/00658-poc-slot-attack/): Auto-synced content
+- [🔴 Short network drop makes the api crash](/community/issues/00660-short-network-drop-makes-the-api-crash/): Auto-synced content
+- [🔴 How to try to locate the missing seed](/community/issues/00662-how-to-try-to-locate-the-missing-seed/): Auto-synced content
+- [🔴 Increase artifact storage throughput](/community/issues/00669-increase-artifact-storage-throughput/): Auto-synced content
+- [🟢 gRPC always falls back to RPC](/community/issues/00672-grpc-always-falls-back-to-rpc/): Auto-synced content
+- [🔴 Normalize POC weight on POC phase time](/community/issues/00696-normalize-poc-weight-on-poc-phase-time/): Auto-synced content
+- [🟢 Alphabetical Bias in PoC Slot Allocation](/community/issues/00700-alphabetical-bias-in-poc-slot-allocation/): Auto-synced content
+- [🟢 Inference Slot Hogging](/community/issues/00706-inference-slot-hogging/): Auto-synced content
+- [🔴 Bug Report: New Nodes Fail to Sign Transactions (Keyring Backend Mismatch)](/community/issues/00714-bug-report-new-nodes-fail-to-sign-transactions-keyring-backe/): Auto-synced content
+- [🔴 [P0] Multimodel support](/community/issues/00728-p0-multimodel-support/): Auto-synced content
+- [🔴 Off-chain inference transaction primitives (experimental)](/community/issues/00729-off-chain-inference-transaction-primitives-experimental/): Auto-synced content
+- [🔴 [P0] vLLM 0.15.1 Compatibility Experiments](/community/issues/00730-p0-vllm-0151-compatibility-experiments/): Auto-synced content
+- [🔴 Define changes in the API container for smooth migration](/community/issues/00731-define-changes-in-the-api-container-for-smooth-migration/): Auto-synced content
+- [🔴 [P2] Deleting PoC v1 + Extend state endpoint with PoC metadata](/community/issues/00742-p2-deleting-poc-v1-extend-state-endpoint-with-poc-metadata/): Auto-synced content
+- [🔴 [P1] Don’t require developers to register as Participants to run inference](/community/issues/00744-p1-dont-require-developers-to-register-as-participants-to-ru/): Auto-synced content
+- [🔴 Vested payouts in x/inference ignore caller funding module and always debit inference account](/community/issues/00746-vested-payouts-in-xinference-ignore-caller-funding-module-an/): Auto-synced content
+- [🔴  [P1] Certik, Ethereum Bridge, Preliminary Report (v1), Severity: Discussion [Priority 1]](/community/issues/00753-p1-certik-ethereum-bridge-preliminary-report-v1-severity-dis/): Auto-synced content
+- [🔴  [P1] Certik, Ethereum Bridge, Preliminary Report (v1), Severity: Centralization [Priority 2]](/community/issues/00754-p1-certik-ethereum-bridge-preliminary-report-v1-severity-cen/): Auto-synced content
+- [🔴  [P1] Certik, Ethereum Bridge, Preliminary Report (v1), Severity: Major [Priority 3]](/community/issues/00755-p1-certik-ethereum-bridge-preliminary-report-v1-severity-maj/): Auto-synced content
+- [🔴  [P1] Certik, Ethereum Bridge, Preliminary Report (v1), Severity: Medium [Priority 4]](/community/issues/00756-p1-certik-ethereum-bridge-preliminary-report-v1-severity-med/): Auto-synced content
+- [🔴  [P1] Certik, Ethereum Bridge, Preliminary Report (v1), Severity: Minor [Priority 5]](/community/issues/00757-p1-certik-ethereum-bridge-preliminary-report-v1-severity-min/): Auto-synced content
+- [🔴  [P1] Certik, Ethereum Bridge, Preliminary Report (v1), Severity: Informational [Priority 6]](/community/issues/00758-p1-certik-ethereum-bridge-preliminary-report-v1-severity-inf/): Auto-synced content
+- [🔴 Epoch 158 reward underpayment after v0.2.9: preserved inference-slot weight was reset](/community/issues/00764-epoch-158-reward-underpayment-after-v029-preserved-inference/): Auto-synced content
+- [🔴 Slashed coins should not be burned](/community/issues/00772-slashed-coins-should-not-be-burned/): Auto-synced content
+- [🔴 HA infrastructure](/community/issues/00776-ha-infrastructure/): Auto-synced content
+- [🔴 [1/4] `StartInference` and `FinishInference`](/community/issues/00780-14-startinference-and-finishinference/): Auto-synced content
+- [🔴 [2/4] `StartInference` and `FinishInference`](/community/issues/00781-24-startinference-and-finishinference/): Auto-synced content
+- [🔴 [3/4] `StartInference` and `FinishInference`](/community/issues/00782-34-startinference-and-finishinference/): Auto-synced content
+- [🔴 [4/4] `StartInference` and `FinishInference`](/community/issues/00783-44-startinference-and-finishinference/): Auto-synced content
+- [🔴 [P2] Possible underfunded issues](/community/issues/00784-p2-possible-underfunded-issues/): Auto-synced content
+- [🔴 Automatic cleanup of old propagation proofs](/community/issues/00791-automatic-cleanup-of-old-propagation-proofs/): Auto-synced content
+- [🔴 New nodes can't join from snapshots with error](/community/issues/00797-new-nodes-cant-join-from-snapshots-with-error/): Auto-synced content
+- [🔴 Punish TA on signature/component mismatch](/community/issues/00803-punish-ta-on-signaturecomponent-mismatch/): Auto-synced content
+- [🔴 [P0?] Extend dev and TA signature payloads](/community/issues/00804-p0-extend-dev-and-ta-signature-payloads/): Auto-synced content
+- [🔴 Gonka Node Manager — Automated Node Deployment, Updates, and Monitoring](/community/issues/00810-gonka-node-manager-automated-node-deployment-updates-and-mon/): Auto-synced content
+- [🟢 Slow nodes investigation](/community/issues/00818-slow-nodes-investigation/): Auto-synced content
+- [🔴 `application.db` growth / pruning](/community/issues/00819-applicationdb-growth-pruning/): Auto-synced content
+- [🟢 Investigate missed inference on some nodes (root causes + mitigation)](/community/issues/00820-investigate-missed-inference-on-some-nodes-root-causes-mitig/): Auto-synced content
+- [🟢 Continuous PoC design + implementation](/community/issues/00821-continuous-poc-design-implementation/): Auto-synced content
+- [🔴 Bridge: Weak Dealer Approval Enables Threshold Signing DoS](/community/issues/00823-bridge-weak-dealer-approval-enables-threshold-signing-dos/): Auto-synced content
+- [🔴 We could not send vesting to many users in one proposal](/community/issues/00834-we-could-not-send-vesting-to-many-users-in-one-proposal/): Auto-synced content
+- [🔴 LogInfo tests on testnet for StartInference and FinishInference](/community/issues/00839-loginfo-tests-on-testnet-for-startinference-and-finishinfere/): Auto-synced content
+- [🔴 Security: BLS group key validation falls back to self-validation when previous epoch data is missing](/community/issues/00848-security-bls-group-key-validation-falls-back-to-self-validat/): Auto-synced content
+- [🔴 Bug: DKG permanent failure — dealer consensus uses unweighted participant votes but quorum uses slot weights](/community/issues/00849-bug-dkg-permanent-failure-dealer-consensus-uses-unweighted-p/): Auto-synced content
+- [🟢 Bug: ManagedStorage silently skips failed epoch pruning — minPruned advanced before goroutines complete](/community/issues/00850-bug-managedstorage-silently-skips-failed-epoch-pruning-minpr/): Auto-synced content
+- [🔴 Test voting delegation](/community/issues/00857-test-voting-delegation/): Auto-synced content
+- [🔴 Potential RCE via `torch.load()` in ML Training Pipeline](/community/issues/00863-potential-rce-via-torchload-in-ml-training-pipeline/): Auto-synced content
+- [🔴 Hard‑coded dummy TLS key/certs used for Gloo transport in training manager Body](/community/issues/00865-hardcoded-dummy-tls-keycerts-used-for-gloo-transport-in-trai/): Auto-synced content
+- [🔴 Signed /v1/chat/completions still panics on all three documented mainnet transfer-agent endpoints](/community/issues/00876-signed-v1chatcompletions-still-panics-on-all-three-documente/): Auto-synced content
+- [🔴 Minor safety issues: non-deterministic query, unhandled error continuation, uint64 overflow](/community/issues/00883-minor-safety-issues-non-deterministic-query-unhandled-error-/): Auto-synced content
+- [🔴 Non-deterministic queries, unhandled settlement errors, epoch stats underflow](/community/issues/00885-non-deterministic-queries-unhandled-settlement-errors-epoch-/): Auto-synced content
+- [🔴 [P0] Proxy server for `devshards`: timeout handling](/community/issues/00891-p0-proxy-server-for-devshards-timeout-handling/): Auto-synced content
+- [🟢 [P0] `devshards`: add end-to-end tests for timeout mechanisms](/community/issues/00892-p0-devshards-add-end-to-end-tests-for-timeout-mechanisms/): Auto-synced content
+- [🔴 [P0] Remove float math from `devshards` consensus](/community/issues/00893-p0-remove-float-math-from-devshards-consensus/): Auto-synced content
+- [🔴 [P0] Allow hosts to vote on timeouts if they haven't yet seen `MsgStartInference`](/community/issues/00895-p0-allow-hosts-to-vote-on-timeouts-if-they-havent-yet-seen-m/): Auto-synced content
+- [🟢 `devshards`: Research aggregated BLS signatures](/community/issues/00896-devshards-research-aggregated-bls-signatures/): Auto-synced content
+- [🔴 [P0] `devshards`: Add end-to-end inference validation tests](/community/issues/00899-p0-devshards-add-end-to-end-inference-validation-tests/): Auto-synced content
+- [🔴 bls: BlsManager stores context.Background() — DKG gRPC calls have no cancellation or timeout](/community/issues/00908-bls-blsmanager-stores-contextbackground-dkg-grpc-calls-have-/): Auto-synced content
+- [🔴 [P0] Make handling of warm keys deterministic (research)](/community/issues/00913-p0-make-handling-of-warm-keys-deterministic-research/): Auto-synced content
+- [🔴 [P0] `devshards` rewards (research)](/community/issues/00914-p0-devshards-rewards-research/): Auto-synced content
+- [🟢 [P0] Benchmark `devshards`](/community/issues/00915-p0-benchmark-devshards/): Auto-synced content
+- [🔴 Proposal: Agent identity and delegation governance for Gonka compute](/community/issues/00922-proposal-agent-identity-and-delegation-governance-for-gonka-/): Auto-synced content
+- [🔴 Consensus key mismatch: staking still expects old key after TMKMS key loss](/community/issues/00923-consensus-key-mismatch-staking-still-expects-old-key-after-t/): Auto-synced content
+- [🔴 [P0] Make sure Bitfury community sale works: IBC](/community/issues/00924-p0-make-sure-bitfury-community-sale-works-ibc/): Auto-synced content
+- [🔴 Bridge normalization issue](/community/issues/00925-bridge-normalization-issue/): Auto-synced content
+- [🔴 [P1] Seed for POC fix](/community/issues/00926-p1-seed-for-poc-fix/): Auto-synced content
+- [🔴 [P1] Maintenance window for hosts](/community/issues/00927-p1-maintenance-window-for-hosts/): Auto-synced content
+- [🟢 [P1] Open Questions: Block Gas Limits, Fees, Cost per Participant, and System TX Prioritization](/community/issues/00928-p1-open-questions-block-gas-limits-fees-cost-per-participant/): Auto-synced content
+- [🟢 Inference validation optimization](/community/issues/00929-inference-validation-optimization/): Auto-synced content
+- [🔴 Bridge safety issues: lexicographic block comparison, silent address validation failure, inconsistent chain ID mapping](/community/issues/00931-bridge-safety-issues-lexicographic-block-comparison-silent-a/): Auto-synced content
+- [🔴 AdjustWeightsByCollateral missing baseWeightRatio range validation — weight inflation for uncollateralized participants](/community/issues/00933-adjustweightsbycollateral-missing-baseweightratio-range-vali/): Auto-synced content
+- [🔴 [P0] `devshards` fees](/community/issues/00935-p0-devshards-fees/): Auto-synced content
+- [🟢 `devshards`: Implement aggregated BLS signatures](/community/issues/00936-devshards-implement-aggregated-bls-signatures/): Auto-synced content
+- [🔴 [P0] vLLM 0.15.1](/community/issues/00939-p0-vllm-0151/): Auto-synced content
+- [🔴 Intra-epoch fast circuit breaker for degraded executor nodes (miss rate + cooldown/probe recovery)](/community/issues/00942-intra-epoch-fast-circuit-breaker-for-degraded-executor-nodes/): Auto-synced content
+- [🔴 Nil pointer dereference in /v1/chat/completions — gRPC responses not nil-checked](/community/issues/00946-nil-pointer-dereference-in-v1chatcompletions-grpc-responses-/): Auto-synced content
+- [🔴 Set up IBC channels](/community/issues/00950-set-up-ibc-channels/): Auto-synced content
+- [🟢 [P0] Make handling of warm keys deterministic (implementation)](/community/issues/00955-p0-make-handling-of-warm-keys-deterministic-implementation/): Auto-synced content
+- [🔴 Validation Eligibility and Accounting Consistency](/community/issues/00966-validation-eligibility-and-accounting-consistency/): Auto-synced content
+- [🔴 Nodes with high miss rate continue receiving inference requests for the rest of the epoch](/community/issues/00975-nodes-with-high-miss-rate-continue-receiving-inference-reque/): Auto-synced content
+- [🔴 [P0] `devshards`: Distribute `WorkCoins` at the end of the epoch](/community/issues/00976-p0-devshards-distribute-workcoins-at-the-end-of-the-epoch/): Auto-synced content
+- [🔴 [P0] `devshards`: Limit amount of inferences](/community/issues/00977-p0-devshards-limit-amount-of-inferences/): Auto-synced content
+- [🔴 `devshards` escrow: fund loss on unsettled pruning + missing overflow guards in host stats aggregation](/community/issues/00979-devshards-escrow-fund-loss-on-unsettled-pruning-missing-over/): Auto-synced content
+- [🟢 Enable simulation and fuzz testing for inference-chain](/community/issues/00982-enable-simulation-and-fuzz-testing-for-inference-chain/): Auto-synced content
+- [🟢 Bug: GET /api/v1/epochs/{N}/participants returns 500 for past epochs (CreatedAtBlockHeight=0)](/community/issues/00983-bug-get-apiv1epochsnparticipants-returns-500-for-past-epochs/): Auto-synced content
+- [🔴 [P0] Bug: unsupported OpenAI type input for the inference requests](/community/issues/00985-p0-bug-unsupported-openai-type-input-for-the-inference-reque/): Auto-synced content
+- [🔴 subnetctl: inference error handling](/community/issues/01019-subnetctl-inference-error-handling/): Auto-synced content
+- [🟢 VLM inference and validation in Gonka](/community/issues/01026-vlm-inference-and-validation-in-gonka/): Auto-synced content
+- [🔴 `devshards` `SessionConfig` setting by governmant](/community/issues/01028-devshards-sessionconfig-setting-by-governmant/): Auto-synced content
+- [🔴 Question: is there a path for consumer-grade 16 GB GPUs to participate as lightweight Host nodes?](/community/issues/01032-question-is-there-a-path-for-consumer-grade-16-gb-gpus-to-pa/): Auto-synced content
+- [🟢 Security Audit: Systematic review across inference chain, bridge, subnet, and API layers](/community/issues/01053-security-audit-systematic-review-across-inference-chain-brid/): Auto-synced content
+- [🔴 bug: ClaimRewards error handling — payout path silently continues on failure](/community/issues/01067-bug-claimrewards-error-handling-payout-path-silently-continu/): Auto-synced content
+- [🔴 Deep Security Audit: BLS/DKG protocol, state machine consistency, and economic logic vulnerabilities](/community/issues/01079-deep-security-audit-blsdkg-protocol-state-machine-consistenc/): Auto-synced content
+- [🟢 Bridge: Stale epoch keys can authorize withdrawals up to 365 epochs after rotation](/community/issues/01080-bridge-stale-epoch-keys-can-authorize-withdrawals-up-to-365-/): Auto-synced content
+- [🔴 Binomial test p0 floor/ceiling mismatch — stricter downtime threshold silently never enforced](/community/issues/01081-binomial-test-p0-floorceiling-mismatch-stricter-downtime-thr/): Auto-synced content
+- [🟢 [P2] Devshard escrow stats collection and off chain stats support](/community/issues/01086-p2-devshard-escrow-stats-collection-and-off-chain-stats-supp/): Auto-synced content
+- [🔴 Improve API response for non-existent wallet](/community/issues/01097-improve-api-response-for-non-existent-wallet/): Auto-synced content
+- [🔴 `devshards` Postgres support for `devshard` storage](/community/issues/01098-devshards-postgres-support-for-devshard-storage/): Auto-synced content
+- [🔴 GEB-29](/community/issues/01107-geb-29/): Auto-synced content
+- [🔴 GEB-61](/community/issues/01108-geb-61/): Auto-synced content
+- [🔴 GEB-62](/community/issues/01109-geb-62/): Auto-synced content
+- [🔴 GEB-60](/community/issues/01110-geb-60/): Auto-synced content
+- [🔴 GEB-59](/community/issues/01111-geb-59/): Auto-synced content
+- [🔴 Inference /v1/chat/completions on node3 returns 429 for ~90% of requests — single live TA caps community gateways at ~10% pass-rate](/community/issues/01121-inference-v1chatcompletions-on-node3-returns-429-for-90-of-r/): Auto-synced content
+- [🟢 PoC-decode proposal](/community/issues/01135-poc-decode-proposal/): Auto-synced content
+- [🟢 `devshards` Optimizations for v0.2.13 db usage](/community/issues/01167-devshards-optimizations-for-v0213-db-usage/): Auto-synced content
+- [🟢 [BUG] A short, specific, searchable title.](/community/issues/01169-bug-a-short-specific-searchable-title/): Auto-synced content
+- [🟢 TEE Implementation](/community/issues/01173-tee-implementation/): Auto-synced content
+- [🔴 No available public Kimi-K2.6 inference gateways](/community/issues/01178-no-available-public-kimi-k26-inference-gateways/): Auto-synced content
+- [🟢 Re-validate VLM inference and validation results from #1026](/community/issues/01198-re-validate-vlm-inference-and-validation-results-from-1026/): Auto-synced content
+- [🟢 Reproducible sampling for inference validation](/community/issues/01199-reproducible-sampling-for-inference-validation/): Auto-synced content
+- [🟢 Independent review of PoC-decode results](/community/issues/01200-independent-review-of-poc-decode-results/): Auto-synced content
+- [🟢 [P0] Training on Gonka](/community/issues/01201-p0-training-on-gonka/): Auto-synced content
+- [🟢 chain-halt: `markValidatorForDeletion` jailed branch races CometBFT validator-update lag → slashing fails with ErrNoValidatorFound](/community/issues/01205-chain-halt-markvalidatorfordeletion-jailed-branch-races-come/): Auto-synced content
+- [🟢 [P0] Basic primitives for training](/community/issues/01219-p0-basic-primitives-for-training/): Auto-synced content
+- [🟢 [P0] Off-chain / devshard implementation track](/community/issues/01220-p0-off-chain-devshard-implementation-track/): Auto-synced content
+- [🟢 [P1] Int overflow](/community/issues/01222-p1-int-overflow/): Auto-synced content
+- [🟢 [P1] Clean up the state](/community/issues/01223-p1-clean-up-the-state/): Auto-synced content
+- [🟢 [P2] Clean PoW from MLNode and keep PoC networking patch local](/community/issues/01225-p2-clean-pow-from-mlnode-and-keep-poc-networking-patch-local/): Auto-synced content
+- [🔴 Request for phased DevShards creator allowlist access for local gateway MVP validation](/community/issues/01229-request-for-phased-devshards-creator-allowlist-access-for-lo/): Auto-synced content
+- [🔴 Request to be added as a Gonka broker](/community/issues/01237-request-to-be-added-as-a-gonka-broker/): Auto-synced content
+- [🔴 Request to be added as a Gonka broker](/community/issues/01241-request-to-be-added-as-a-gonka-broker/): Auto-synced content
+- [🔴 Request to be added as a Gonka broker (for run my own gateway)](/community/issues/01245-request-to-be-added-as-a-gonka-broker-for-run-my-own-gateway/): Auto-synced content
+- [🔴 Request to be added as a Gonka broker](/community/issues/01247-request-to-be-added-as-a-gonka-broker/): Auto-synced content
+- [🔴 Request to be added as a Gonka broker](/community/issues/01257-request-to-be-added-as-a-gonka-broker/): Auto-synced content
+- [🔴 Request to be added as a Gonka broker](/community/issues/01262-request-to-be-added-as-a-gonka-broker/): Auto-synced content
+- [🟢 logprobs, top_logprobs conditional stripping](/community/issues/01264-logprobs-top-logprobs-conditional-stripping/): Auto-synced content
+- [🟢 Stuck VOTING inferences orphan client escrow when x/group proposals miss quorum](/community/issues/01265-stuck-voting-inferences-orphan-client-escrow-when-xgroup-pro/): Auto-synced content
+- [🟢 x/inference: revalidation vote fails when voter absent from epoch x/group](/community/issues/01269-xinference-revalidation-vote-fails-when-voter-absent-from-ep/): Auto-synced content
+- [🟢 x/inference: asymmetric debit in refundInvalidatedInference — design clarification](/community/issues/01273-xinference-asymmetric-debit-in-refundinvalidatedinference-de/): Auto-synced content
+- [🔴 Run Gonka documentation translation on Gonka](/community/issues/01274-run-gonka-documentation-translation-on-gonka/): Auto-synced content
+- [🟢 Bridge: merge ETH README messageHash quickfix into v0.2.14](/community/issues/01285-bridge-merge-eth-readme-messagehash-quickfix-into-v0214/): Auto-synced content
+- [🟢 Bridge: add retry cap or monitoring for stale refund cleanup retries](/community/issues/01286-bridge-add-retry-cap-or-monitoring-for-stale-refund-cleanup-/): Auto-synced content
+- [🔴 Self-serve (no-broker) flow is documented as working but returns 401 "model requires an API key" — I want to spend my own GNK directly](/community/issues/01319-self-serve-no-broker-flow-is-documented-as-working-but-retur/): Auto-synced content
+- [🔴 Gateway allowlist request](/community/issues/01321-gateway-allowlist-request/): Auto-synced content
+- [🔴 Gateway allowlist request](/community/issues/01322-gateway-allowlist-request/): Auto-synced content
+- [🔴 How to obtain a broker API key for node4 (or documentation on the broker onboarding process)?](/community/issues/01331-how-to-obtain-a-broker-api-key-for-node4-or-documentation-on/): Auto-synced content
+- [🔴 [BUG] devshard: data race on inflight receiptTime between send goroutine and escalation scheduler (go test -race fails on main)](/community/issues/01341-bug-devshard-data-race-on-inflight-receipttime-between-send-/): Auto-synced content
+- [🔴 Gateway allowlist request](/community/issues/01342-gateway-allowlist-request/): Auto-synced content
+- [🟢 Bridge: auto-refund does not run when BLS signing expires (EXPIRED)](/community/issues/01352-bridge-auto-refund-does-not-run-when-bls-signing-expires-exp/): Auto-synced content
+- [🟢 Inbound bridge votes lost after upgrade simulation (node unavailable for some minutes for upgrade) — no retry, deposits stuck BRIDGE_PENDING](/community/issues/01358-inbound-bridge-votes-lost-after-upgrade-simulation-node-unav/): Auto-synced content
+- [🔴 Bridge Scenario A: inbound USDT stuck BRIDGE_PENDING after coordinated node halt (4-validator testnet)](/community/issues/01370-bridge-scenario-a-inbound-usdt-stuck-bridge-pending-after-co/): Auto-synced content
+- [🔴 Request for DevShards creator allowlist access](/community/issues/01371-request-for-devshards-creator-allowlist-access/): Auto-synced content
+- [🔴 Gateway allowlist request - dev server personal gateway](/community/issues/01385-gateway-allowlist-request-dev-server-personal-gateway/): Auto-synced content
+- [🟢 Gateway in-flight long chat during validator halt: client success vs request outcome failed](/community/issues/01387-gateway-in-flight-long-chat-during-validator-halt-client-suc/): Auto-synced content
+- [🟢 fix(inference): power cap zeros network when zero-weight participants are in settlement](/community/issues/01395-fixinference-power-cap-zeros-network-when-zero-weight-partic/): Auto-synced content
+- [🟢 Gateway allowlist request](/community/issues/01397-gateway-allowlist-request/): Auto-synced content
+- [🟢 Gateway allowlist request: niro](/community/issues/01398-gateway-allowlist-request-niro/): Auto-synced content
+- [🔴 OpenBroker API moved hosts and existing broker accounts (and balances) are gone — follow-up to #1319](/community/issues/01405-openbroker-api-moved-hosts-and-existing-broker-accounts-and-/): Auto-synced content
+- [🟢 Question about project background: Mikhail Chudinov and Natalia](/community/issues/01407-question-about-project-background-mikhail-chudinov-and-natal/): Auto-synced content
+- [🦞 OpenClaw + Gonka AI](/community/discussion/show-and-tell/0811-openclaw-gonka-ai/): Auto-synced content
+- [Prometheus Exporter for Node Monitoring](/community/discussion/show-and-tell/0840-prometheus-exporter-for-node-monitoring/): Auto-synced content
+- [Gonka Labs: How We're Building the Infrastructure for Gonka](/community/discussion/show-and-tell/0880-gonka-labs-how-were-building-the-infrastructure-for-gonka/): Auto-synced content
+- [Gonka.gg - Explorer, Analytics Platform, Data Provider for Gonka](/community/discussion/show-and-tell/0887-gonkagg-explorer-analytics-platform-data-provider-for-gonka/): Auto-synced content
+- [OpenGNK - A Local OpenAI-Compatible Proxy for Gonka](/community/discussion/show-and-tell/0890-opengnk-a-local-openai-compatible-proxy-for-gonka/): Auto-synced content
+- [Gonka Name Service (GNS) - Human Readable names for the Gonka Network](/community/discussion/show-and-tell/0898-gonka-name-service-gns-human-readable-names-for-the-gonka-ne/): Auto-synced content
+- [Gonka Tools: Web Interface for Validators and Mining Operations](/community/discussion/show-and-tell/0906-gonka-tools-web-interface-for-validators-and-mining-operatio/): Auto-synced content
+- [GG Wallet - An Open-Source Browser Wallet strictly for Gonka](/community/discussion/show-and-tell/0938-gg-wallet-an-open-source-browser-wallet-strictly-for-gonka/): Auto-synced content
+- [Gonka Contract Playground - write, compile, simulate, and deploy CosmWasm without leaving the browser](/community/discussion/show-and-tell/0989-gonka-contract-playground-write-compile-simulate-and-deploy-/): Auto-synced content
+- [Gonka AI x Claude Code](/community/discussion/show-and-tell/0999-gonka-ai-x-claude-code/): Auto-synced content
+- [Gonka AI x n8n](/community/discussion/show-and-tell/1027-gonka-ai-x-n8n/): Auto-synced content
+- [rpc.gonka.gg - Managed RPC Infrastructure for Gonka (Infura/Alchemy for Gonka) with opensource core](/community/discussion/show-and-tell/1030-rpcgonkagg-managed-rpc-infrastructure-for-gonka-infuraalchem/): Auto-synced content
+- [Gonka AI x OpenCode](/community/discussion/show-and-tell/1044-gonka-ai-x-opencode/): Auto-synced content
+- [Gonka AI x Kilo](/community/discussion/show-and-tell/1095-gonka-ai-x-kilo/): Auto-synced content
+- [HOW-TO: Create and Submit a Governance Proposal on Gonka](/community/discussion/show-and-tell/1116-how-to-create-and-submit-a-governance-proposal-on-gonka/): Auto-synced content
+- [IBC USDT Withdrawal Guide](/community/discussion/show-and-tell/1141-ibc-usdt-withdrawal-guide/): Auto-synced content
+- [Gonka x Hermes Agent](/community/discussion/show-and-tell/1323-gonka-x-hermes-agent/): Auto-synced content
+- [Gonka x MiMoCode](/community/discussion/show-and-tell/1339-gonka-x-mimocode/): Auto-synced content
+- [OpenBroker - broker for brokers or Devshards as a service.](/community/discussion/show-and-tell/1363-openbroker-broker-for-brokers-or-devshards-as-a-service/): Auto-synced content
+- [Gonka AI Dune Dashboard](/community/discussion/show-and-tell/1374-gonka-ai-dune-dashboard/): Auto-synced content
+- [How to return funds to the Community Pool (IBC USDT)](/community/discussion/show-and-tell/1390-how-to-return-funds-to-the-community-pool-ibc-usdt/): Auto-synced content
+- [Welcome to Gonka Discussions 👋](/community/discussion/announcements/0805-welcome-to-gonka-discussions/): Auto-synced content
 - [Kimi K2.5](/community/discussion/general/0670-kimi-k25/): Auto-synced content
 - [How can governance voting become easier for Hosts?](/community/discussion/general/0798-how-can-governance-voting-become-easier-for-hosts/): Auto-synced content
 - [Network reliability and performance coordination (slow nodes, DB growth, missed inference)](/community/discussion/general/0817-network-reliability-and-performance-coordination-slow-nodes-/): Auto-synced content
 - [Gonka's support of new modalities besides text](/community/discussion/general/0944-gonkas-support-of-new-modalities-besides-text/): Auto-synced content
 - [APS for delegated wallets and agent accounts (Track 2, Project 3)](/community/discussion/general/1304-aps-for-delegated-wallets-and-agent-accounts-track-2-project/): Auto-synced content
-- [Welcome to Gonka Discussions 👋](/community/discussion/announcements/0805-welcome-to-gonka-discussions/): Auto-synced content
 - [Are there plans to add prompt-level confidentiality for hosts?](/community/discussion/q-a/0796-are-there-plans-to-add-prompt-level-confidentiality-for-host/): Auto-synced content
 - [Best Practices for Building AI Agent Systems in 2026](/community/discussion/q-a/0972-best-practices-for-building-ai-agent-systems-in-2026/): Auto-synced content
 - [I would like to ask if the developers intentionally pushed inference data to the main chain, causing some nodes to lose their epoch rewards.](/community/discussion/q-a/1354-i-would-like-to-ask-if-the-developers-intentionally-pushed-i/): Auto-synced content
@@ -222,27 +549,7 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [Finalization protocol proposal (host-initiated, collectors, commit certificate)](/community/discussion/proposals/1369-finalization-protocol-proposal-host-initiated-collectors-com/): Auto-synced content
 - [`devshard` cPoC skip protocol](/community/discussion/proposals/1384-devshard-cpoc-skip-protocol/): Auto-synced content
 - [External Test Lab & Community DevNet](/community/discussion/proposals/1388-external-test-lab-community-devnet/): Auto-synced content
-- [🦞 OpenClaw + Gonka AI](/community/discussion/show-and-tell/0811-openclaw-gonka-ai/): Auto-synced content
-- [Prometheus Exporter for Node Monitoring](/community/discussion/show-and-tell/0840-prometheus-exporter-for-node-monitoring/): Auto-synced content
-- [Gonka Labs: How We're Building the Infrastructure for Gonka](/community/discussion/show-and-tell/0880-gonka-labs-how-were-building-the-infrastructure-for-gonka/): Auto-synced content
-- [Gonka.gg - Explorer, Analytics Platform, Data Provider for Gonka](/community/discussion/show-and-tell/0887-gonkagg-explorer-analytics-platform-data-provider-for-gonka/): Auto-synced content
-- [OpenGNK - A Local OpenAI-Compatible Proxy for Gonka](/community/discussion/show-and-tell/0890-opengnk-a-local-openai-compatible-proxy-for-gonka/): Auto-synced content
-- [Gonka Name Service (GNS) - Human Readable names for the Gonka Network](/community/discussion/show-and-tell/0898-gonka-name-service-gns-human-readable-names-for-the-gonka-ne/): Auto-synced content
-- [Gonka Tools: Web Interface for Validators and Mining Operations](/community/discussion/show-and-tell/0906-gonka-tools-web-interface-for-validators-and-mining-operatio/): Auto-synced content
-- [GG Wallet - An Open-Source Browser Wallet strictly for Gonka](/community/discussion/show-and-tell/0938-gg-wallet-an-open-source-browser-wallet-strictly-for-gonka/): Auto-synced content
-- [Gonka Contract Playground - write, compile, simulate, and deploy CosmWasm without leaving the browser](/community/discussion/show-and-tell/0989-gonka-contract-playground-write-compile-simulate-and-deploy-/): Auto-synced content
-- [Gonka AI x Claude Code](/community/discussion/show-and-tell/0999-gonka-ai-x-claude-code/): Auto-synced content
-- [Gonka AI x n8n](/community/discussion/show-and-tell/1027-gonka-ai-x-n8n/): Auto-synced content
-- [rpc.gonka.gg - Managed RPC Infrastructure for Gonka (Infura/Alchemy for Gonka) with opensource core](/community/discussion/show-and-tell/1030-rpcgonkagg-managed-rpc-infrastructure-for-gonka-infuraalchem/): Auto-synced content
-- [Gonka AI x OpenCode](/community/discussion/show-and-tell/1044-gonka-ai-x-opencode/): Auto-synced content
-- [Gonka AI x Kilo](/community/discussion/show-and-tell/1095-gonka-ai-x-kilo/): Auto-synced content
-- [HOW-TO: Create and Submit a Governance Proposal on Gonka](/community/discussion/show-and-tell/1116-how-to-create-and-submit-a-governance-proposal-on-gonka/): Auto-synced content
-- [IBC USDT Withdrawal Guide](/community/discussion/show-and-tell/1141-ibc-usdt-withdrawal-guide/): Auto-synced content
-- [Gonka x Hermes Agent](/community/discussion/show-and-tell/1323-gonka-x-hermes-agent/): Auto-synced content
-- [Gonka x MiMoCode](/community/discussion/show-and-tell/1339-gonka-x-mimocode/): Auto-synced content
-- [OpenBroker - broker for brokers or Devshards as a service.](/community/discussion/show-and-tell/1363-openbroker-broker-for-brokers-or-devshards-as-a-service/): Auto-synced content
-- [Gonka AI Dune Dashboard](/community/discussion/show-and-tell/1374-gonka-ai-dune-dashboard/): Auto-synced content
-- [How to return funds to the Community Pool (IBC USDT)](/community/discussion/show-and-tell/1390-how-to-return-funds-to-the-community-pool-ibc-usdt/): Auto-synced content
+- [Add a lower-barrier GLM-5.2 option and consider DeepSeek-V4-Flash as the default model](/community/discussion/proposals/1404-add-a-lower-barrier-glm-52-option-and-consider-deepseek-v4-f/): Auto-synced content
 
 ## On-Chain Proposals
 

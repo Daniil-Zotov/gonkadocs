@@ -1,0 +1,334 @@
+---
+title: "#780 — [1/4] `StartInference` and `FinishInference`"
+source: https://github.com/gonka-ai/gonka/issues/780
+issue_number: 780
+synced_at: 2026-07-06T09:52:42Z
+---
+
+> 🔄 **Авто-синхронизация:** из [Issue #780](https://github.com/gonka-ai/gonka/issues/780) каждые 6 часов. 
+
+# 🔴 [1/4] `StartInference` and `FinishInference`
+
+**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2026-02-20 22:20 UTC · **Обновлено:** 2026-03-11 20:05 UTC
+
+**Метки:** `help wanted` `up-for-grabs` `Priority: High` `requires own mainnet node`
+
+**Веха:** v0.2.11
+
+---
+
+## 📝 Описание
+
+# Background
+
+`MsgStartInference` and `MsgFinishInference` are too slow in production. Blocks should be processed by nodes within 1-2 seconds, so that block time stays below 6 seconds. This means that to process 1000 inferences in a block, we need to record 1000 `MsgStartInference`, 1000 `MsgFinishInference`, and 100-200 `MsgValidation` transactions. This means that these transactions should be processed faster than 1ms. Even though they are quite fast in tests, in production with a large state they require 10-20ms, and on some nodes 50ms or more.
+
+There are 2 main areas identified that contribute most of the time to transactions:
+- Signatures validation (57% of `FinishInference` and 63% of `StartInference`)
+- Stats query and recording (40% of `FinishInference` and 30% of `StartInference`)
+
+Download profiling file:
+https://drive.google.com/file/d/1yxY91lzMHxv_MeloAxW1zczcpbkBjZ0t/
+And use command:
+```
+go tool pprof -http=:8080 /Users/davidliberman/Downloads/pprof.inferenced.samples.cpu.001.pb.gz
+```
+
+Screen recoding: https://drive.google.com/file/d/1yxDaJllxCQ-l3ZO6ZuBb5bTEUgZ5t7Yu/view?usp=sharing
+
+And choose flame graph to explore
+
+_**Signature validation**_ can be significantly optimized, reducing the number of signatures to be validated in most scenarios by 5x (from 5 signatures to just 1).
+
+https://github.com/gonka-ai/gonka/issues/608 - which is now implemented by @DimaOrekhovPS
+
+https://github.com/gonka-ai/gonka/pull/779 
+
+**_Stats query and recording_** is designed to make it easier to query usage statistics for inference operations by storing this data on a chain. However, it is too heavy for on-chain operations and should be removed. In the end, we shouldn't read and write any large state record in `MsgStartInference`, `MsgFinishInference`, or `MsgValidation`.
+
+`SetInference` (including the second time it is executed in `HandleInferenceComplete`): 
+- 10% of `FinishInference`, 
+- 12% of `StartInference`, 
+- 14% of Validation
+- 33% is Logging, 
+- 38% `SetOrUpdateInferenceStatsByEpoch`, 
+- 22% `SetOrUpdateInferenceStatusByTime` w/o logging
+
+`HandleInferenceComplete`, excluding `SetInference`, accounts for 16% of `FinishInference` and 4% of `StartInference` (as it is rare for `StartInference` to come second).
+- 20% is Logging
+- 45% is 2xGetEpochGroupData
+- 5% GetEpochIndex
+- 10% SetEpochGroupData, 
+- 20% SetParticipant/GetParticipants w/o logging
+
+`ProcessInferencePayment`: 14% of `FinishInference` and 12% of `StartInference` 
+- 63% is Logging
+- 18% `SetParticipant`/2x`GetParticipant` w/o logging
+- 9% Add/GetTokenomicsData
+
+# Tasks:
+- I.1. Measure this transaction on mainnet but with INFO level logging turned off. Check if it decreases duration by 15% for `FinishInference` and 13% for `StartInference`. When completed report results before moving forward. If we confirm the difference, do the (I.2).
+- I.2. We need to test if that changes if we write logs to files rather than stdout. When results are measured, report them before moving forward. If that works. Do final clean implementation. If didn’t work do (I.3)  (see more details below)
+- I.3. Or we need to move most of the logs of `StartInference` and `FinishInference` (except one per transaction) to DEBUG. Measure results and report them.
+
+**More details for I.2**
+
+1. Question: where is most of the output coming from, and from which part of the code (which file/module in code/python)?
+2. For terminal, Docker, or k8s, we can build a wrapper using redirect_stdout from contextlib.
+
+Important: when redirecting to a file via >, full buffering kicks in (buffer ~8KB). The writes still go through stdout, and flushing can be delayed for minutes. This can significantly slow down the entire process.
+
+After using a wrapper (writing to a file with explicit buffering):
+	•	You control the buffer size yourself (even 1MB).
+	•	No Docker daemon involvement in I/O.
+	•	Ability to do batched writes and use a dedicated writer thread.
+
+Bottom line: it won’t magically become “16x faster,” but the main bottleneck, passing through stdout, will be removed completely. The wrapper will give you the maximum performance your filesystem can provide.
+
+Something like:
+import sys
+from contextlib import redirect_stdout
+
+def run_with_buffered_file(func, log_path, buffer_size=1024*64):
+    """
+    Temproraly redirects stdout to the file with buffer  
+    """
+    with open(log_path, 'w', buffering=buffer_size, encoding='utf-8') as f:
+        with redirect_stdout(f):
+            func()
+or
+def my_task():
+    print("this goes to the file, not to the docker logs")
+    # Subprocess output will NOT be captured unless you redirect it explicitly.
+
+run_with_buffered_file(my_task, "/app/logs/task.log", buffer_size=128*1024)
+
+```
+high-load example / max speed prod gives more >10k rows/sec. 
+
+import threading
+import queue
+import sys
+import time
+from contextlib import redirect_stdout
+
+class AsyncFileWriter:
+    def init(self, filepath, buffer_size=1024*1024, max_queue=10000):
+        self.file = open(filepath, 'a', buffering=buffer_size, encoding='utf-8')
+        self.queue = queue.Queue(maxsize=max_queue)
+        self.running = True
+        threading.Thread(target=self._writer, daemon=True).start()
+
+    def write(self, s):
+        try:
+            self.queue.put_nowait(s)
+        except queue.Full:
+            # Memory overflow protection: flush to the main writer thread.
+            self.file.write(s)
+
+    def flush(self):
+        self.file.flush()
+
+    def _writer(self):
+        while self.running:
+            try:
+                s = self.queue.get(timeout=0.1)
+                self.file.write(s)
+            except queue.Empty:
+                continue
+
+    def close(self):
+        self.running = False
+        time.sleep(0.2)  # Give the queue time to record.
+        self.file.close()
+
+def run_async_logging(func, log_path):
+    writer = AsyncFileWriter(log_path, buffer_size=256*1024)
+    with redirect_stdout(writer):
+        func()
+    writer.close()
+```
+
+Never do this:
+```
+CMD python app.py > /logs/app.log
+```
+It kills performance and adds two unnecessary pipes.
+
+Do this instead:
+```
+FROM python:3.11-slim
+WORKDIR /app
+COPY app.py .
+
+# The -u flag disables Python stdout buffering, but we don’t rely on it:
+# we control file buffering ourselves. Keeping it as a safety measure.
+ENV PYTHONUNBUFFERED=1
+
+CMD ["python", "app.py"]
+```
+Then, in `app.py`, wrap the entry point:
+```
+if __name__ == "__main__":
+    with open("/var/log/app/out.log", "a", buffering=64*1024, encoding="utf-8") as f:
+        tee = Tee(sys.stdout, f)
+        with redirect_stdout(tee):
+            main()
+```
+Result:
+	•	docker logs: you see logs immediately (via sys.stdout).
+	•	The file /var/log/app/out.log is written with a 64KB buffer.
+	•	No Docker daemon involvement in file I/O.
+
+Pay attention:
+- A high-load, max-speed production example outputs >10k lines/sec, showing an 8 to 16x difference.
+- A simple wrapper will already solve the problem and should give a solid 5 to 6x speedup.
+- stdout is the slowest path and it holds a lock until the operation completes.
+- An unbuffered file will be slower than stdout, because every print becomes a write() to disk.
+- A buffered file will be much faster, because it only writes when the 64KB buffer fills.
+
+# Important
+This issue is one of five issues in the [0/4] StartInference and FinishInference series (and correspondingly [1/4], [2/4], [3/4], [4/4]).
+These tasks can be completed independently of each other by different contributors.
+However, this specific task requires maintaining and operating a node on mainnet in order to test and validate the result.
+
+All five issues [0/4], [1/4], [2/4], [3/4], [4/4] in this series must be completed as part of the v0.2.11 upgrade, which is scheduled for the week of February 23. After the v0.2.11 upgrade, these tasks will no longer be relevant, because a different solution can/will be proposed.
+
+---
+
+## 💬 Комментарии (10)
+
+### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
+
+*2026-02-20 22:41 UTC*
+
+If you’re ready to take this task on, please leave a comment here so other community members can see it’s already being worked on.
+
+### Комментарий 2 — [@hleb-albau](https://github.com/hleb-albau)
+
+*2026-02-24 10:30 UTC*
+
+I ran CPU profiling (30 min each) on a synced mainnet node under two configurations: `log_level=info` and `log_level=error`.
+
+  **Results — logging overhead as % of total handler time (including all nested calls):**
+
+  | Handler | Total time (info) | LogInfo overhead | % of handler | After log_level=error | Reduction |
+  |---|---|---|---|---|---|
+  | `_Msg_StartInference_Handler` | 10.33s | 1.14s | **11.0%** | 0.05s (0.4%) | **-95.6%** |
+  | `_Msg_FinishInference_Handler` | 15.40s | 1.66s | **10.8%** | 0.06s (0.4%) | **-96.4%** |
+
+  So ~11% of handler execution is spent in logging. Setting `log_level=error` reduces that to ~0.4% — essentially just the log level check in `Logger()`.
+
+NOTE: CPU profiling is sample-based (100 samples/sec), not a precise timer — it tells us *where* the CPU spends time statistically, not exact wall-clock execution time per call. The 11% figure is a directional signal, not a precise measurement.
+
+
+btw
+1. what is a purpose to have that logs?
+2. what is a purpose to have that logs with INFO level?
+
+
+About the big task itself, 
+i am not familiar with all stuff going on right now on chain, but in past a had experience, that you could use own storage, outside of IAVL tree, and commit to IAVL only small portion of that data.
+
+### Комментарий 3 — [@libermans](https://github.com/libermans)
+
+*2026-02-26 04:11 UTC*
+
+An update on 780. As we can see in traces most of the time spend on logging is due "json" decoding-encoding. Which can be turn off by log_format = "json" (by default it is set to log_format = "plain"). @hleb-albau can you please run the same test but with log_format = "json" config? 
+
+### Комментарий 4 — [@tcharchian](https://github.com/tcharchian)
+
+*2026-02-26 17:47 UTC*
+
+@hleb-albau can I kindly ask you to contact me tania.charchian@productscience.ai
+
+### Комментарий 5 — [@tcharchian](https://github.com/tcharchian)
+
+*2026-02-26 17:48 UTC*
+
+> An update on 780. As we can see in traces most of the time spend on logging is due "json" decoding-encoding. Which can be turn off by log_format = "json" (by default it is set to log_format = "plain"). [@hleb-albau](https://github.com/hleb-albau) can you please run the same test but with log_format = "json" config?
+
+@hleb-albau are you ready to run the same test but with log_format = "json" config?
+
+
+### Комментарий 6 — [@hleb-albau](https://github.com/hleb-albau)
+
+*2026-02-26 20:01 UTC*
+
+> > An update on 780. As we can see in traces most of the time spend on logging is due "json" decoding-encoding. Which can be turn off by log_format = "json" (by default it is set to log_format = "plain"). [@hleb-albau](https://github.com/hleb-albau) can you please run the same test but with log_format = "json" config?
+> 
+> [@hleb-albau](https://github.com/hleb-albau) are you ready to run the same test but with log_format = "json" config?
+
+yes, will do it next 24h
+
+### Комментарий 7 — [@hleb-albau](https://github.com/hleb-albau)
+
+*2026-02-27 10:12 UTC*
+
+  ### Plain  (`prod-30min-logs-plain`)
+
+  | method | cum total | LogInfo | logTransaction | sum log. | % |
+  |---|---|---|---|---|---|
+  | `StartInference` | 5.25s | 0.24s | 0.06s | 0.30s | 5.7% |
+  | `FinishInference` | 6.91s | 0.45s | 0.15s | 0.60s | 8.7% |
+  | `processInferencePayments` | 0.72s | 0.14s | 0.21s | 0.35s | 48.6% |
+
+### JSON (`prod-30min-logs-json`)
+
+  | method | cum total | LogInfo | logTransaction | sum log | %я |                                                                                                                                                                                                                                           
+  |---|---|---|---|---|---|
+  | `StartInference` | 34.78s | 0.54s | — | 0.54s | 1.6% |                                                                                                                                                                                                                                                         
+  | `FinishInference` | 35.90s | 0.85s | — | 0.85s | 2.4% |                                                                                                                                                                                                                                                      
+  | `processInferencePayments` | 2.54s | 0.36s | 0.33s | 0.69s | 27.2% |
+
+NOTE: `StartInference` and  `FinishInference` in that table show total time spent in log, including subfunctions(like `processInferencePayments`). 
+
+--- 
+Zerolog internally stores all data as a JSON string (to minimize allocations) — every Append key=val call simply mutates that string. In our case we always log one message at a time, meaning the JSON is built once and immediately flushed to output.                                                         
+                                                                                                                                                                                                                                                                                                                   
+  In plain log mode, zerolog parses that JSON before writing, reformatting it into a human-readable string with colors. In JSON log mode, the JSON string is written as-is.                                                                                                                                        
+   
+  ---                                                                                                                                                                                                                                                                                                              
+  Looking at `processInferencePayments`, logging still accounts for roughly a quarter of its total time. About half of that quarter is spent building the JSON string — appending key-value pairs one by one. For primitive values (strings, numbers, etc.) this is fast. For struct values, zerolog invokes more complex serialization logic that depends on the struct's shape.
+
+
+  For example, in UpdateParticipantStatus, roughly half of the JSON-building time inside `k.LogInfo("Participant status updated", types.Validation, "address", participant.Address, "original", originalStatus, "new", newStatus, "reason", reason, "stats", participant.CurrentEpochStats)` is spent serializing `participant.CurrentEpochStats`. In other places, the bottleneck is converting types.AccAddress to a string — which internally goes through a cache protected by a mutex or calc bench32. Note: not only `UpdateParticipantStatus` suffer from this, other places in `StartInference` and `FinishInference` have similar  problems.
+
+
+  --- 
+ It might make sense to rework the logger internals to store data as a map instead of a JSON string, so ConsoleWriter could print it directly without parsing JSON first. But it's worth thinking about whether that's actually needed right now.                                                                 
+                                                                                                                                                                                                                                                                                                                   
+  What's definitely worth doing is revisiting what data gets logged. I'll open a PR a bit later to remove the heavy structs from log calls. 
+
+
+### Комментарий 8 — [@AlexeySamosadov](https://github.com/AlexeySamosadov)
+
+*2026-03-03 11:25 UTC*
+
+PR: https://github.com/gonka-ai/gonka/pull/847
+
+### Комментарий 9 — [@AlexeySamosadov](https://github.com/AlexeySamosadov)
+
+*2026-03-03 12:00 UTC*
+
+Summary of what was done in PR #847:
+
+Based on the profiling analysis by @hleb-albau (logging overhead ~11% of handler time at INFO level, heavy struct serialization in `processInferencePayments` accounting for 25-48% of its time), the following changes were implemented:
+
+**~20 LogInfo calls moved to LogDebug** across 7 files in the StartInference/FinishInference hot path:
+- `msg_server_start_inference.go` — 5 calls (entry log, DevPubKey, TransferAgentPubKey, validateTimestamp, addTimeout)
+- `msg_server_finish_inference.go` — 1 call (entry log)
+- `inference.go` — 1 call (developer stat update)
+- `developer_stats_aggregation.go` — 1 call (verbose stat log)
+- `developer_stats_store.go` — 3 calls (record-tracking logs)
+- `payment_handler.go` — 7 calls (escrow, minting, paying, burning, refund)
+- `dynamic_pricing.go` — 1 call + removed heavy `inference` struct from error log (replaced with lightweight fields)
+
+All ERROR/WARN logs preserved. Per-block pricing logs stay at INFO (run once per block, not per inference). Expected result: with `log_level=info` + `log_format=json`, logging overhead should drop from ~11% to well under 1%.
+
+### Комментарий 10 — [@gmorgachev](https://github.com/gmorgachev)
+
+*2026-03-11 20:05 UTC*
+
+The big part of inference flow optimization is merged in https://github.com/gonka-ai/gonka/pull/812
+I'm closing all `[*/4] StartInference and FinishInference: optimiziation` tasks to finalize this work in milestone 0.2.11. I think it'd be better to re-open in case of additinal optimizations required

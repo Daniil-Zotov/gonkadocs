@@ -1,0 +1,133 @@
+---
+title: "#782 — [3/4] `StartInference` and `FinishInference`"
+source: https://github.com/gonka-ai/gonka/issues/782
+issue_number: 782
+synced_at: 2026-07-06T09:52:42Z
+---
+
+> 🔄 **Авто-синхронизация:** из [Issue #782](https://github.com/gonka-ai/gonka/issues/782) каждые 6 часов. 
+
+# 🔴 [3/4] `StartInference` and `FinishInference`
+
+**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Closed · **Создано:** 2026-02-20 22:37 UTC · **Обновлено:** 2026-03-11 20:01 UTC
+
+**Метки:** `Priority: High` `requires own mainnet node`
+
+**Веха:** v0.2.11
+
+---
+
+## 📝 Описание
+
+# Background
+
+`MsgStartInference` and `MsgFinishInference` are too slow in production. Blocks should be processed by nodes within 1-2 seconds, so that block time stays below 6 seconds. This means that to process 1000 inferences in a block, we need to record 1000 `MsgStartInference`, 1000 `MsgFinishInference`, and 100-200 `MsgValidation` transactions. This means that these transactions should be processed faster than 1ms. Even though they are quite fast in tests, in production with a large state they require 10-20ms, and on some nodes 50ms or more.
+
+There are 2 main areas identified that contribute most of the time to transactions:
+- Signatures validation (57% of `FinishInference` and 63% of `StartInference`)
+- Stats query and recording (40% of `FinishInference` and 30% of `StartInference`)
+
+Download profiling file:
+https://drive.google.com/file/d/1yxY91lzMHxv_MeloAxW1zczcpbkBjZ0t/
+And use command:
+```
+go tool pprof -http=:8080 /Users/davidliberman/Downloads/pprof.inferenced.samples.cpu.001.pb.gz
+```
+
+And choose flame graph to explore
+
+Screen recoding: https://drive.google.com/file/d/1yxDaJllxCQ-l3ZO6ZuBb5bTEUgZ5t7Yu/view?usp=sharing
+
+_**Signature validation**_ can be significantly optimized, reducing the number of signatures to be validated in most scenarios by 5x (from 5 signatures to just 1).
+
+https://github.com/gonka-ai/gonka/issues/608 - which is now implemented by @DimaOrekhovPS
+
+https://github.com/gonka-ai/gonka/pull/779 
+
+**_Stats query and recording_** is designed to make it easier to query usage statistics for inference operations by storing this data on a chain. However, it is too heavy for on-chain operations and should be removed. In the end, we shouldn't read and write any large state record in `MsgStartInference`, `MsgFinishInference`, or `MsgValidation`.
+
+`SetInference` (including the second time it is executed in `HandleInferenceComplete`): 
+- 10% of `FinishInference`, 
+- 12% of `StartInference`, 
+- 4% of Validation
+- 33% is Logging, 
+- 38% `SetOrUpdateInferenceStatsByEpoch`, 
+- 22% `SetOrUpdateInferenceStatusByTime` w/o logging
+
+`HandleInferenceComplete`, excluding `SetInference`, accounts for 16% of `FinishInference` and 4% of `StartInference` (as it is rare for `StartInference` to come second).
+- 20% is Logging
+- 45% is 2xGetEpochGroupData
+- 5% GetEpochIndex
+- 10% SetEpochGroupData, 
+- 20% SetParticipant/GetParticipants w/o logging
+
+`ProcessInferencePayment`: 14% of `FinishInference` and 12% of `StartInference` 
+- 63% is Logging
+- 18% `SetParticipant`/2x`GetParticipant` w/o logging
+- 9% Add/GetTokenomicsData
+
+# Tasks:
+In `HandleInferenceComplete`, we also read `GetEpochGroupData` to add `ExecutorReputation`, `ExecutorPower`, and `TotalPower` (of the model group) to `InferenceValidationDetails`, which is then saved for future validation. We also increment `NumberOfRequests` of the epoch group and save it. This operation should also be moved to the `EndBlocker`. Execute `GetEpochGroup` (main and for each required models) and `SetEpochGroup` only once per block.
+
+We should add a key Block+InferenceId in `HandleInferenceComplete` then iterate through  the keys to get Inferences by id during `EndBlocker` to store `InferenceValidationDetails` (clean keys immediately in the `EndBlocker` after the iteration).
+
+After moving those operations to the `EndBlocker`, we need to validate if the endblocker time won't be increased significantly by the action (though adding `GetInference` iterations to `EndBlock` without changing state during transactions) - it should take not more than 50-100ms for 1000 inferences in a mainnet node. The test can be done by adding the read operations to `EndBlocker` mainnet node but without set operation, so that state of the node will stay the same.
+
+# Important
+This issue is one of five issues in the [0/4] StartInference and FinishInference series (and correspondingly [1/4], [2/4], [3/4], [4/4]).
+These tasks can be completed independently of each other by different contributors.
+However, this specific task requires maintaining and operating a node on mainnet in order to test and validate the result.
+
+All five issues [0/4], [1/4], [2/4], [3/4], [4/4] in this series must be completed as part of the v0.2.11 upgrade, which is scheduled for the week of February 23. After the v0.2.11 upgrade, these tasks will no longer be relevant, because a different solution can/will be proposed.
+
+---
+
+## 💬 Комментарии (5)
+
+### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
+
+*2026-02-20 22:41 UTC*
+
+If you’re ready to take this task on, please leave a comment here so other community members can see it’s already being worked on.
+
+### Комментарий 2 — [@akup](https://github.com/akup)
+
+*2026-02-21 15:27 UTC*
+
+I will take it
+
+### Комментарий 3 — [@akup](https://github.com/akup)
+
+*2026-02-24 05:29 UTC*
+
+@libermans I've found that EpochGroupData should be read/write once in a lot of places. It is a relatively large structure and we should optimize on its decoding/encoding on read/write to store.
+
+Moreover there are places where we do not read EpochGroupData but should to. Every operation that is intended to be called by active participant should be checked for was the message came from real active participant. For example StartInference message could be runned by any developer account (currently there is a TA whitelist that blocks this vulnarability, but after removing this whitelist it will be reopened). So any account can start inferences that will not be finished and any honest participant could be slashed. Same thing for validation/invalidation/revalidation.
+But the main point that we very often need to read EpochGroupData to check if message came from active participant (ConfirmationWeight > 0)
+
+So I've implemented a more generic approach using EpochGroupData 2level caches: per-tx cache + per-block cache. We read/write EpochGroupData once to store. Tx-draft-cache is needed because tx can be reverted so we first store in context-binded memory all changes and commit them to per-block cache when tx succeeds. Finally we write the per-block cache at EndBlocker and clear it on block start.
+
+More detailed description is attached to PR, also there is explanation on cosmos SDK optimistic mode, to run txs in parallel on multicore CPUs.
+
+Added PR here: https://github.com/gonka-ai/gonka/pull/793
+Currently i'm taking it to tests on running node
+
+### Комментарий 4 — [@akup](https://github.com/akup)
+
+*2026-02-24 06:12 UTC*
+
+@libermans
+Do we really need to move InferenceValidationDetails to EndBlocker?
+If the only purpose is to have precise value at
+`TrafficBasis:         uint64(math.Max(currentEpochGroup.GroupData.NumberOfRequests, currentEpochGroup.GroupData.PreviousEpochRequests))`
+
+it seams to be not a lot of meaning, as this value changes every block and it could be ok to use previous block value.
+
+I understand that the idea was to move reading and writing currentEpochGroup.GroupData to endBlocker to make it once in one place, but if using caches that are aimed to solve same problem more generically, maybe we could keep updating `InferenceValidationDetails` in message handling without moving to EndBlocker?
+
+### Комментарий 5 — [@gmorgachev](https://github.com/gmorgachev)
+
+*2026-03-11 20:01 UTC*
+
+The big part of inference flow optimization is merged in https://github.com/gonka-ai/gonka/pull/812
+I'm closing all `[*/4] StartInference and FinishInference: optimiziation` tasks to finalize this work in milestone 0.2.11. I think it'd be better to re-open in case of additinal optimizations required

@@ -1,0 +1,97 @@
+---
+title: "#1331 — How to obtain a broker API key for node4 (or documentation on the broker onboarding process)?"
+source: https://github.com/gonka-ai/gonka/issues/1331
+issue_number: 1331
+synced_at: 2026-07-06T09:51:49Z
+---
+
+> 🔄 **Авто-синхронизация:** из [Issue #1331](https://github.com/gonka-ai/gonka/issues/1331) каждые 6 часов. 
+
+# 🔴 How to obtain a broker API key for node4 (or documentation on the broker onboarding process)?
+
+**Автор:** [@Puyre](https://github.com/Puyre) · **Состояние:** Closed · **Создано:** 2026-06-10 15:34 UTC · **Обновлено:** 2026-06-23 23:29 UTC
+
+---
+
+## 📝 Описание
+
+Hi Gonka core team & community,
+
+## Context 
+
+We previously opened an issue requesting inclusion of our address in
+`devshard_escrow_params.allowed_creator_addresses` to run our own
+devshard gateway. After discussing with the community, we concluded we
+don't actually need to operate our own devshard — for our use case it's
+enough to obtain a **broker API key** and send requests through the
+public gateway (node4), the documented path for consuming inference
+without running an allowlisted escrow creator.
+
+That earlier issue has been closed in favor of this one.
+
+## What we're trying to do
+
+We're building an OpenAI-compatible inference gateway that uses Gonka as
+its primary backend — a drop-in replacement for closed AI APIs
+(developers change one `base_url` and keep their existing OpenAI SDK
+code). Under the hood it routes to Gonka by default and falls back to a
+stable provider (OpenRouter) when the network is unavailable, so end
+users get Gonka-level cost savings without being exposed to current
+uptime variance.
+
+To do this we need programmatic inference access through a broker key.
+
+## The actual question
+
+We've confirmed the following behavior ourselves:
+
+- A correctly signed request sent **directly to a participant node** returns
+  `Transfer Agent not allowed` — which is expected behavior, since our
+  wallet is not on the allowlist.
+- The **same signed request sent to `https://node4.gonka.ai`** returns
+  `{"error":{"message":"model \"...\" requires an API key"}}`.
+
+Based on my own testing and on input from community members, I believe
+there is some way to obtain an API key (a broker key) that would let us
+send requests through this node.
+
+Our questions:
+
+1. How does one obtain a broker API key for node4 specifically (not a
+   third-party USD-billed reseller)? Is there an application/onboarding
+   process, and who administers it?
+2. If there's no public process yet, could this be documented? The SDK
+   READMEs and quickstart currently present a signed-wallet path that
+   does not work against node4 without a broker key.
+
+## On-chain identity (for reference)
+
+- Account: `gonka15y6xg0ps5w0u4w3ttx557mf46v82ms8svcavy2`
+- Funded above `devshard_escrow_params.min_amount`, on-chain pubkey
+  published (secp256k1).
+
+## Team and contact
+
+- Contact: `andres@rogilabs.com`
+- TG: `@puyre`
+
+Thanks for reviewing.
+Rogi AI
+
+---
+
+## 💬 Комментарии (1)
+
+### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
+
+*2026-06-23 23:29 UTC*
+
+Hi @Puyre!
+
+On the direct question (a broker API key for node4 specifically): there isn't a public self-serve onboarding process to point you to. node4 is the public gateway that was stood up during the early rollout — whitelisted and rate-limited, intended for demos and bootstrap testing rather than as a production backend. The handful of broker keys behind it were early access arrangements, not an open application flow, and that bootstrap directory isn't being actively expanded. So the `requires an API key` response you're seeing on node4 isn't something there's a documented "apply here" path to resolve — which is also why the signed-wallet SDK path doesn't work against it without one. The two paths that *are* governed and documented are: consume through an existing community broker, or operate your own allowlisted devshard gateway (on-chain governance allowlist).
+
+For what you're actually building, the closest fit is a managed devshard endpoint. One community option is **OpenBroker** (run by Gonka Labs https://github.com/gonka-ai/gonka/discussions/1363): it gives you programmatic devshard access (v1, v2, and future versions) under a wallet that's already whitelisted to operate escrows, so you get the "just hit an endpoint and go" behavior of node4 but built for production rather than demos — no rate limits, no escrow lifecycle on your side, GNK billing with no markup (not a USD reseller), and public per-request/network observability.
+
+It maps directly onto your fallback architecture (Gonka primary → OpenRouter fallback): just make OpenBroker the primary base_url. 
+
+OpenBroker is an **independent third party**, not part of the core protocol — pricing, models, limits, and data handling are set by the operator, so evaluate it on its own merits. If you later decide you do want to operate your own escrows after all, the on-chain allowlist route stays open.

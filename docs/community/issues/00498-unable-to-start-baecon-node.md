@@ -1,0 +1,76 @@
+---
+title: "#498 — Unable to start baecon node"
+source: https://github.com/gonka-ai/gonka/issues/498
+issue_number: 498
+synced_at: 2026-07-06T09:53:09Z
+---
+
+> 🔄 **Авто-синхронизация:** из [Issue #498](https://github.com/gonka-ai/gonka/issues/498) каждые 6 часов. 
+
+# 🔴 Unable to start baecon node
+
+**Автор:** [@Knoxpix](https://github.com/Knoxpix) · **Состояние:** Closed · **Создано:** 2025-12-19 08:41 UTC · **Обновлено:** 2026-01-22 00:12 UTC
+
+---
+
+## 📝 Описание
+
+From this raw log. I need assist how to fix this issue. Or can i change checkpoint origin state and block to other?
+
+`bridge  | Stopping Prysm log formatter (PID: 82343)
+bridge  | 
+bridge  | GETH: INFO [12-19|08:28:53.728] New local node record                    seq=1,765,953,858,893 id=a29a8022f2c83caa ip=203.156.3.38 udp=38205 tcp=30303
+bridge  | Restarting processes due to crash...
+bridge  | Restarting both processes...
+bridge  | Stopping Geth (PID: 82111)
+bridge  | tail: /var/log/geth/geth.log: file truncated
+bridge  | Starting Geth...
+bridge  | GETH: WARN [12-19|08:28:55.180] Unknown config environment variable      envvar=GETH_DATA_DIR
+bridge  | GETH: INFO [12-19|08:28:55.193] Starting Geth on Ethereum mainnet...
+bridge  | GETH: INFO [12-19|08:28:55.194] Bumping default cache on mainnet         provided=1024 updated=4096
+bridge  | GETH: INFO [12-19|08:28:55.197] Maximum peer count                       ETH=50 total=50
+bridge  | GETH: INFO [12-19|08:28:55.198] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+bridge  | GETH: Fatal: Failed to create the protocol stack: datadir already used by another process
+bridge  | Geth failed to stay alive after start (PID: 82797)
+bridge  | Geth restart failed; will retry in monitor loop
+bridge  | Geth process (PID: 82797) died
+bridge  | Prysm process (PID: 82341) exited with status 127
+bridge  | --- Last 100 lines of Prysm raw log ---
+bridge  | PRSM: time="2025-12-19 08:28:46.18" level=info msg="Finished reading JWT secret from /data/jwt/jwt.hex" prefix=execution
+bridge  | PRSM: time="2025-12-19 08:28:46.18" level=info msg="Using checkpoint sync url https://beaconstate.ethstaker.cc/ for value in --genesis-beacon-api-url flag"
+bridge  | PRSM: time="2025-12-19 08:28:46.19" level=info msg="Running on Ethereum Mainnet" prefix=flags
+bridge  | PRSM: time="2025-12-19 08:28:46.19" level=warning msg="In order to receive transaction fees from proposing blocks, you must provide flag --suggested-fee-recipient with a valid ethereum address when starting your beacon node. Please see our documentation for more information on this requirement (https://docs.prylabs.network/docs/execution-node/fee-recipient)." prefix=node
+bridge  | PRSM: time="2025-12-19 08:28:46.19" level=info msg="Checking DB" databasePath="/data/prysm/beaconchaindata" prefix=node
+bridge  | PRSM: time="2025-12-19 08:28:46.19" level=info msg="Opening Bolt DB" path="/data/prysm/beaconchaindata/beaconchain.db" prefix=db
+bridge  | PRSM: time="2025-12-19 08:28:46.20" level=warning msg="Removing database" prefix=node
+bridge  | PRSM: time="2025-12-19 08:28:46.20" level=info msg="Opening Bolt DB" path="/data/prysm/beaconchaindata/beaconchain.db" prefix=db
+bridge  | PRSM: time="2025-12-19 08:28:46.21" level=info msg="Setting genesis validators root" genesis_validators_root=0x4b363db94e286120d76eb905340fdd4e54bfe9f06bf33ff6cf5ad27f511bfe95
+bridge  | PRSM: time="2025-12-19 08:28:46.21" level=warning msg="Removing blob storage" prefix=node
+bridge  | PRSM: time="2025-12-19 08:28:46.21" level=warning msg="Removing data columns storage" prefix=node
+bridge  | PRSM: time="2025-12-19 08:28:46.32" level=info msg="Checkpoint sync - Downloading origin state and block" prefix=node
+bridge  | PRSM: time="2025-12-19 08:28:47.15" level=fatal msg="unable to start beacon node: could not start modules: could not start DB: Error retrieving checkpoint origin state and block: error requesting state by id = finalized: code=502, url=https://beaconstate.ethstaker.cc/eth/v2/debug/beacon/states/finalized, body=response body:
+bridge  | PRSM: <html>
+bridge  | PRSM: <head><title>502 Bad Gateway</title></head>
+bridge  | PRSM: <body>
+bridge  | PRSM: <center><h1>502 Bad Gateway</h1></center>
+bridge  | PRSM: <hr><center>nginx/1.28.0</center>
+bridge  | PRSM: </body>
+bridge  | PRSM: </html>
+bridge  | PRSM: : did not receive 2xx response from API" prefix=main
+bridge  | --- End Prysm raw log excerpt ---
+bridge  | Restarting processes due to crash...
+bridge  | Restarting both processes...
+bridge  | Starting Geth...
+bridge  | tail: /var/log/geth/geth.log: file truncated`
+
+---
+
+## 💬 Комментарии (1)
+
+### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
+
+*2026-01-22 00:12 UTC*
+
+Hi @Knoxpix! Thank you for reaching out.
+Please note that technical support is not provided here.
+For assistance, we kindly recommend asking for help in Gonka [Discord community](https://discord.com/invite/RADwCT2U6R), where community members may be able to support you.

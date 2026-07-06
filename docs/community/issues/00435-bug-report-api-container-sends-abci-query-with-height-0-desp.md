@@ -1,0 +1,99 @@
+---
+title: "#435 — Bug Report: api container sends abci_query with height: 0 despite being synced"
+source: https://github.com/gonka-ai/gonka/issues/435
+issue_number: 435
+synced_at: 2026-07-06T09:52:56Z
+---
+
+> 🔄 **Авто-синхронизация:** из [Issue #435](https://github.com/gonka-ai/gonka/issues/435) каждые 6 часов. 
+
+# 🟢 Bug Report: api container sends abci_query with height: 0 despite being synced
+
+**Автор:** [@VaniaHilkovets](https://github.com/VaniaHilkovets) · **Состояние:** Open · **Создано:** 2025-11-14 12:45 UTC · **Обновлено:** 2026-02-08 14:14 UTC
+
+---
+
+## 📝 Описание
+
+Bug Report: api container sends abci_query with height: 0 despite being synced
+Title: api container sends abci_query for EpochInfo with "height":"0", causing requests to /v1/epochs/current/participants to fail.
+
+Description:
+Hello, I am running a node following the official deployment guide. My node container is fully synced with the mainnet. However, the api container is unable to correctly fetch epoch information, because it sends RPC requests to the node with height: 0, even though it knows the correct current height.
+
+Environment:
+
+Deployment: Docker Compose (docker-compose.yml and docker-compose.mlnode.yml)
+
+Server: Ubuntu 22.04
+
+Images: Using default/latest tags as per the official guide.
+
+Steps to Reproduce:
+
+Set up the node according to the join deployment guide.
+
+Wait for the node container to fully sync (catching_up: false).
+
+Observe the api container logs. It correctly logs the current block height on new blocks.
+
+Make a GET request to the api endpoint: http://81.27.97.154
+
+[log.txt](https://github.com/user-attachments/files/23547425/log.txt)
+
+:8000/v1/epochs/current/participants.
+
+Expected Result:
+The API should return a JSON object with the current epoch participants, as described in the documentation.
+
+Actual Result:
+The API returns a JSON error:
+json
+{"error":"error in json rpc client, with http response metadata: (Status: 200 OK, Protocol HTTP/1.1). RPC error -32603 - Internal error: height must be greater than 0, but got 0"}
+
+
+**Root Cause Analysis & Proof:**
+
+I have performed a `tcpdump` on the internal Docker network to trace the communication between the `api` container (`172.18.0.7`) and the `node` container (`172.18.0.6`).
+
+**1. The `api` container CORRECTLY gets the sync status:**
+The `api` container sends a `status` request and receives a correct response with the current height.
+
+*   **Request from `api`:**
+    ```
+    {"jsonrpc":"2.0", "id":0, "method":"status", "params":{}}
+    ```
+*   **Response from `node`:**
+    ``````json
+    {"jsonrpc":"2.0", "id":0, "result":{ ... "sync_info":{"latest_block_height":"1287647", ... "catching_up":false}, ... }}
+    ```
+
+**2. The `api` container INCORRECTLY queries for epoch info:**
+Immediately after, when processing the external request, the `api` container sends an `abci_query` but **erroneously uses `"height":"0"`** in the parameters.
+
+*   **Faulty Request from `api`:**
+    ```json    ```
+    {"jsonrpc":"2.0", "id":333, "method":"abci_query", "params":{"data":"", "height":"0", "path":"/inference.inference.Query/EpochInfo", "prove":false}}
+    ```
+
+This proves that the `api` container is aware of the correct block height but fails to use it in subsequent critical queries, causing the failure. This appears to be a bug within the `api` client itself.
+
+Could you please advise on which version/tag of the `gonka/api` image is stable and does not have this bug? Or is there a known workaround?
+
+Thank you.
+
+---
+
+*
+
+---
+
+## 💬 Комментарии (1)
+
+### Комментарий 1 — [@AlexeySamosadov](https://github.com/AlexeySamosadov)
+
+*2026-02-08 14:14 UTC*
+
+PR created: https://github.com/gonka-ai/gonka/pull/681
+
+Uses current block height for ABCI queries.
