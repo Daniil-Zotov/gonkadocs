@@ -3,6 +3,7 @@ title: "#424 — Privacy and Reliability: IP-layer denials, TLS termination, on-
 source: https://github.com/gonka-ai/gonka/issues/424
 issue_number: 424
 synced_at: 2026-07-06T09:53:37Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #424](https://github.com/gonka-ai/gonka/issues/424) каждые 6 часов. 

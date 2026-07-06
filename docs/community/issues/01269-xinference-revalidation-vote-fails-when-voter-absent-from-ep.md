@@ -3,6 +3,7 @@ title: "#1269 — x/inference: revalidation vote fails when voter absent from ep
 source: https://github.com/gonka-ai/gonka/issues/1269
 issue_number: 1269
 synced_at: 2026-07-06T09:51:58Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #1269](https://github.com/gonka-ai/gonka/issues/1269) каждые 6 часов. 

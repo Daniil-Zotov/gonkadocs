@@ -3,6 +3,7 @@ title: "#746 — Vested payouts in x/inference ignore caller funding module and 
 source: https://github.com/gonka-ai/gonka/issues/746
 issue_number: 746
 synced_at: 2026-07-06T09:51:54Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #746](https://github.com/gonka-ai/gonka/issues/746) каждые 6 часов. 

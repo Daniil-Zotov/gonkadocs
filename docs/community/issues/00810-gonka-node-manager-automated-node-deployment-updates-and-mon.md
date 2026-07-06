@@ -3,6 +3,7 @@ title: "#810 — Gonka Node Manager — Automated Node Deployment, Updates, and 
 source: https://github.com/gonka-ai/gonka/issues/810
 issue_number: 810
 synced_at: 2026-07-06T09:52:48Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #810](https://github.com/gonka-ai/gonka/issues/810) каждые 6 часов. 

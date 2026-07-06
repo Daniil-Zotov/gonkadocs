@@ -3,6 +3,7 @@ title: "#1032 — Question: is there a path for consumer-grade 16 GB GPUs to par
 source: https://github.com/gonka-ai/gonka/issues/1032
 issue_number: 1032
 synced_at: 2026-07-06T09:52:23Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #1032](https://github.com/gonka-ai/gonka/issues/1032) каждые 6 часов. 

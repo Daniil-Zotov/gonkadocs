@@ -1,5 +1,6 @@
 ---
 title: "Issues: help wanted"
+template: issues-main.html
 ---
 
 # Issues: help wanted

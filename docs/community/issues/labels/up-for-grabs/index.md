@@ -1,5 +1,6 @@
 ---
 title: "Issues: up-for-grabs"
+template: issues-main.html
 ---
 
 # Issues: up-for-grabs

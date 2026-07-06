@@ -3,6 +3,7 @@ title: "#1079 — Deep Security Audit: BLS/DKG protocol, state machine consisten
 source: https://github.com/gonka-ai/gonka/issues/1079
 issue_number: 1079
 synced_at: 2026-07-06T09:52:11Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #1079](https://github.com/gonka-ai/gonka/issues/1079) каждые 6 часов. 

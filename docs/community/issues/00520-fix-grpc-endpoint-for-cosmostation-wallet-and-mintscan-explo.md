@@ -3,6 +3,7 @@ title: "#520 — Fix gRPC Endpoint for Cosmostation wallet and Mintscan explorer
 source: https://github.com/gonka-ai/gonka/issues/520
 issue_number: 520
 synced_at: 2026-07-06T09:53:00Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #520](https://github.com/gonka-ai/gonka/issues/520) каждые 6 часов. 

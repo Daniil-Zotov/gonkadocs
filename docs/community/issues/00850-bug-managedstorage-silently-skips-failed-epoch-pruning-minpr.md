@@ -3,6 +3,7 @@ title: "#850 — Bug: ManagedStorage silently skips failed epoch pruning — min
 source: https://github.com/gonka-ai/gonka/issues/850
 issue_number: 850
 synced_at: 2026-07-06T09:52:46Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #850](https://github.com/gonka-ai/gonka/issues/850) каждые 6 часов. 

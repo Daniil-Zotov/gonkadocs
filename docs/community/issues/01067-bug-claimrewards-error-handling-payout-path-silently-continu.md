@@ -3,6 +3,7 @@ title: "#1067 — bug: ClaimRewards error handling — payout path silently cont
 source: https://github.com/gonka-ai/gonka/issues/1067
 issue_number: 1067
 synced_at: 2026-07-06T09:52:09Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #1067](https://github.com/gonka-ai/gonka/issues/1067) каждые 6 часов. 

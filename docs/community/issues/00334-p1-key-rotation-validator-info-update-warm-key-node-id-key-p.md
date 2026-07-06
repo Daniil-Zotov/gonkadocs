@@ -3,6 +3,7 @@ title: "#334 — [P1] Key Rotation & Validator info update (warm key, node-id / 
 source: https://github.com/gonka-ai/gonka/issues/334
 issue_number: 334
 synced_at: 2026-07-06T09:53:03Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #334](https://github.com/gonka-ai/gonka/issues/334) каждые 6 часов. 

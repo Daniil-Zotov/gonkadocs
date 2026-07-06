@@ -3,6 +3,7 @@ title: "#310 — BUG-1: Preserved node disabling"
 source: https://github.com/gonka-ai/gonka/issues/310
 issue_number: 310
 synced_at: 2026-07-06T09:52:49Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #310](https://github.com/gonka-ai/gonka/issues/310) каждые 6 часов. 

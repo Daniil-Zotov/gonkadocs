@@ -3,6 +3,7 @@ title: "#316 — [P0] Missing validation and inference request threshold adjustm
 source: https://github.com/gonka-ai/gonka/issues/316
 issue_number: 316
 synced_at: 2026-07-06T09:53:29Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #316](https://github.com/gonka-ai/gonka/issues/316) каждые 6 часов. 

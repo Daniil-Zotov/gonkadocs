@@ -3,6 +3,7 @@ title: "#728 — [P0] Multimodel support"
 source: https://github.com/gonka-ai/gonka/issues/728
 issue_number: 728
 synced_at: 2026-07-06T09:52:18Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #728](https://github.com/gonka-ai/gonka/issues/728) каждые 6 часов. 

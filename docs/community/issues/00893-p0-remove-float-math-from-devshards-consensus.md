@@ -3,6 +3,7 @@ title: "#893 — [P0] Remove float math from `devshards` consensus"
 source: https://github.com/gonka-ai/gonka/issues/893
 issue_number: 893
 synced_at: 2026-07-06T09:52:06Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #893](https://github.com/gonka-ai/gonka/issues/893) каждые 6 часов. 

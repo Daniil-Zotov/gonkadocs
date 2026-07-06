@@ -2,19 +2,26 @@
 title: "#1385 — Gateway allowlist request - dev server personal gateway"
 source: https://github.com/gonka-ai/gonka/issues/1385
 issue_number: 1385
-synced_at: 2026-07-06T09:51:39Z
+synced_at: 2026-07-06T10:26:36Z
+template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1385](https://github.com/gonka-ai/gonka/issues/1385) каждые 6 часов. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+    Gateway allowlist request - dev server personal gateway
+    <span class="issues-number">#1385</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Закрыт</span>
+    <span class="issues-meta-item">[@scodeit](https://github.com/scodeit) opened 2026-07-01 16:41 UTC</span>
+    <span class="issues-meta-item">2 comments</span>
+    <span class="issues-meta-item">Updated 2026-07-03 19:06 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🔴 Gateway allowlist request - dev server personal gateway
-
-**Автор:** [@scodeit](https://github.com/scodeit) · **Состояние:** Closed · **Создано:** 2026-07-01 16:41 UTC · **Обновлено:** 2026-07-03 19:06 UTC
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 ## Operator
 - Name: Viacheslav Nikitin
 - Contact: via GitHub issue replies
@@ -36,28 +43,34 @@ synced_at: 2026-07-06T09:51:39Z
 Creator address will be funded with native GNK for escrow deposits once allowlisted.
 
 Please consider adding this address to `devshard_escrow_params.allowed_creator_addresses`.
+</div>
 
 ---
 
 ## 💬 Комментарии (2)
 
-### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
-
-*2026-07-03 00:09 UTC*
-
-Hi @scodeit!
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span class="issues-meta-item">commented 2026-07-03 00:09 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Hi @scodeit!
 
 On the allowlist itself: additions to `devshard_escrow_params.allowed_creator_addresses` happen only through on-chain governance — either a standalone param-change proposal or inclusion in a governance-approved upgrade batch. No maintainer adds an address unilaterally. Filing this issue is the right way to register intent, but inclusion and timing are governance-dependent and not guaranteed, so I want to set expectations honestly rather than leave this sitting as an implied "pending approval."
 
 Before that though, one question worth asking, because it changes what the fastest path is for you. Your stated use case is a personal, solo-use gateway — not a public broker. Running your own devshard gateway buys you two specific things: you pay for inference with your own GNK directly (no third party holding a balance for you), and no operator sits between you and the network. It also costs you the operator side: escrow funding, rotation, settlement, and the governance wait before any of it works.
 
 If what you actually need is just a personal OpenAI-compatible endpoint, that exists today without any of the above. Community brokers are listed in the developer quickstart, and OpenBroker (https://openbroker.gonka.gg, https://github.com/gonka-ai/gonka/discussions/1363) is a GNK-native option with no markup — it deducts your balance 1-to-1 with actual escrow cost, no enrollment or approval wait, and you'd be sending requests within minutes. The honest trade-off: it's custodial (you deposit GNK to an address the operator controls, access runs under their API key), so if self-custody or full control over your request path is the reason you want your own gateway, it doesn't replace this allowlist request — but if the goal is simply "my own inference endpoint for personal use," it answers it completely.
-
-### Комментарий 2 — [@scodeit](https://github.com/scodeit)
-
-*2026-07-03 19:06 UTC*
-
-Hi @tcharchian ! 
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@scodeit](https://github.com/scodeit)</span>
+    <span class="issues-meta-item">commented 2026-07-03 19:06 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Hi @tcharchian ! 
 
 Thanks for the explanation.
 
@@ -77,3 +90,9 @@ I understand that the allowlist is controlled through governance and that there'
 
 Thanks again for taking the time to explain the process.
 
+  </div>
+</div>
+
+---
+
+> 🔄 **Авто-синхронизация:** из [Issue #1385](https://github.com/gonka-ai/gonka/issues/1385) каждые 6 часов.

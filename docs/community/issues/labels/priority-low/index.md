@@ -1,5 +1,6 @@
 ---
 title: "Issues: Priority: Low"
+template: issues-main.html
 ---
 
 # Issues: Priority: Low

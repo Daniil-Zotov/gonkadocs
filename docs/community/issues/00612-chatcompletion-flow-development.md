@@ -3,6 +3,7 @@ title: "#612 — `/chat/completion` flow development"
 source: https://github.com/gonka-ai/gonka/issues/612
 issue_number: 612
 synced_at: 2026-07-06T09:52:26Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #612](https://github.com/gonka-ai/gonka/issues/612) каждые 6 часов. 

@@ -3,6 +3,7 @@ title: "#321 — [P0] Threshold + Params for big model"
 source: https://github.com/gonka-ai/gonka/issues/321
 issue_number: 321
 synced_at: 2026-07-06T09:53:41Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #321](https://github.com/gonka-ai/gonka/issues/321) каждые 6 часов. 

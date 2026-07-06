@@ -3,6 +3,7 @@ title: "#435 — Bug Report: api container sends abci_query with height: 0 despi
 source: https://github.com/gonka-ai/gonka/issues/435
 issue_number: 435
 synced_at: 2026-07-06T09:52:56Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #435](https://github.com/gonka-ai/gonka/issues/435) каждые 6 часов. 

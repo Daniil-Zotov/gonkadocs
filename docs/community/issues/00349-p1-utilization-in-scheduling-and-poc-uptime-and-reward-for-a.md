@@ -3,6 +3,7 @@ title: "#349 — [P1]: Utilization in scheduling and PoC uptime and Reward for a
 source: https://github.com/gonka-ai/gonka/issues/349
 issue_number: 349
 synced_at: 2026-07-06T09:53:05Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #349](https://github.com/gonka-ai/gonka/issues/349) каждые 6 часов. 

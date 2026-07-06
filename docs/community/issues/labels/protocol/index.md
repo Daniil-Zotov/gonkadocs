@@ -1,5 +1,6 @@
 ---
 title: "Issues: protocol"
+template: issues-main.html
 ---
 
 # Issues: protocol

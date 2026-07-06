@@ -2,19 +2,26 @@
 title: "#1395 — fix(inference): power cap zeros network when zero-weight participants are in settlement"
 source: https://github.com/gonka-ai/gonka/issues/1395
 issue_number: 1395
-synced_at: 2026-07-06T09:51:38Z
+synced_at: 2026-07-06T10:26:35Z
+template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1395](https://github.com/gonka-ai/gonka/issues/1395) каждые 6 часов. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+    fix(inference): power cap zeros network when zero-weight participants are in settlement
+    <span class="issues-number">#1395</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Открыт</span>
+    <span class="issues-meta-item">[@maria-mitina](https://github.com/maria-mitina) opened 2026-07-04 11:58 UTC</span>
+    <span class="issues-meta-item">0 comments</span>
+    <span class="issues-meta-item">Updated 2026-07-04 12:00 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🟢 fix(inference): power cap zeros network when zero-weight participants are in settlement
-
-**Автор:** [@maria-mitina](https://github.com/maria-mitina) · **Состояние:** Open · **Создано:** 2026-07-04 11:58 UTC · **Обновлено:** 2026-07-04 12:00 UTC
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 ## Problem
 
 On **gonka-testnet-4**, epoch 15 settlement zeroed all participant weights and cascaded into epochs 16–20 with `total_weight=0` and no active epoch members.
@@ -138,3 +145,8 @@ go test ./inference-chain/x/inference/module/ -run TestApplyPowerCapping -count=
 - Filter or document zero-weight `activeParticipants` before power capping at the call site
 - Harden multi-model transition: build delegation groups from PoC-proven models before `setModelsForParticipants` (`model_assignment.go`)
 - Require bootstrap delegation before sole-eligible-group settlement during model rollout
+</div>
+
+---
+
+> 🔄 **Авто-синхронизация:** из [Issue #1395](https://github.com/gonka-ai/gonka/issues/1395) каждые 6 часов.

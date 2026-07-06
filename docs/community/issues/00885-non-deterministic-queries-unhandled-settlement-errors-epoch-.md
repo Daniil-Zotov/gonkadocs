@@ -3,6 +3,7 @@ title: "#885 — Non-deterministic queries, unhandled settlement errors, epoch s
 source: https://github.com/gonka-ai/gonka/issues/885
 issue_number: 885
 synced_at: 2026-07-06T09:52:12Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #885](https://github.com/gonka-ai/gonka/issues/885) каждые 6 часов. 

@@ -3,6 +3,7 @@ title: "#933 — AdjustWeightsByCollateral missing baseWeightRatio range validat
 source: https://github.com/gonka-ai/gonka/issues/933
 issue_number: 933
 synced_at: 2026-07-06T09:52:13Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #933](https://github.com/gonka-ai/gonka/issues/933) каждые 6 часов. 

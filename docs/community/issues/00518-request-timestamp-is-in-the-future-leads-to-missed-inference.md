@@ -3,6 +3,7 @@ title: "#518 — \"Request timestamp is in the future\" leads to missed inferenc
 source: https://github.com/gonka-ai/gonka/issues/518
 issue_number: 518
 synced_at: 2026-07-06T09:53:13Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #518](https://github.com/gonka-ai/gonka/issues/518) каждые 6 часов. 

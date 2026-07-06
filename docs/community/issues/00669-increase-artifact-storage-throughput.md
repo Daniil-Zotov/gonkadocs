@@ -3,6 +3,7 @@ title: "#669 — Increase artifact storage throughput"
 source: https://github.com/gonka-ai/gonka/issues/669
 issue_number: 669
 synced_at: 2026-07-06T09:52:58Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #669](https://github.com/gonka-ai/gonka/issues/669) каждые 6 часов. 

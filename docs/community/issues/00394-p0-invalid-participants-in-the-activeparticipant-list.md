@@ -3,6 +3,7 @@ title: "#394 — [P0] Invalid participants in the `ActiveParticipant` list"
 source: https://github.com/gonka-ai/gonka/issues/394
 issue_number: 394
 synced_at: 2026-07-06T09:53:35Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #394](https://github.com/gonka-ai/gonka/issues/394) каждые 6 часов. 

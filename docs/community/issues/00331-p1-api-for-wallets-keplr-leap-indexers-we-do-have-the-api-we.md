@@ -3,6 +3,7 @@ title: "#331 — [P1] API for wallets (Keplr, Leap) / indexers (we do have the A
 source: https://github.com/gonka-ai/gonka/issues/331
 issue_number: 331
 synced_at: 2026-07-06T09:53:07Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #331](https://github.com/gonka-ai/gonka/issues/331) каждые 6 часов. 

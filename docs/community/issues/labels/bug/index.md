@@ -1,5 +1,6 @@
 ---
 title: "Issues: bug"
+template: issues-main.html
 ---
 
 # Issues: bug

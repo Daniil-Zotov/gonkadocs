@@ -3,6 +3,7 @@ title: "#617 — Ledger wallet integration"
 source: https://github.com/gonka-ai/gonka/issues/617
 issue_number: 617
 synced_at: 2026-07-06T09:53:09Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #617](https://github.com/gonka-ai/gonka/issues/617) каждые 6 часов. 

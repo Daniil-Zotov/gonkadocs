@@ -3,6 +3,7 @@ title: "#465 — Add a transaction for deleting the governance model. It needs t
 source: https://github.com/gonka-ai/gonka/issues/465
 issue_number: 465
 synced_at: 2026-07-06T09:52:37Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #465](https://github.com/gonka-ai/gonka/issues/465) каждые 6 часов. 

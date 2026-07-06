@@ -3,6 +3,7 @@ title: "#646 — Avoid truncation for large validation weights"
 source: https://github.com/gonka-ai/gonka/issues/646
 issue_number: 646
 synced_at: 2026-07-06T09:51:55Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #646](https://github.com/gonka-ai/gonka/issues/646) каждые 6 часов. 

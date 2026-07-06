@@ -3,6 +3,7 @@ title: "#560 — [P2] Finalizing the WebSocket (merge with `call_Back`, new vLLM
 source: https://github.com/gonka-ai/gonka/issues/560
 issue_number: 560
 synced_at: 2026-07-06T09:51:47Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #560](https://github.com/gonka-ai/gonka/issues/560) каждые 6 часов. 

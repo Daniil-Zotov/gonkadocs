@@ -1,5 +1,6 @@
 ---
 title: "GitHub Issues"
+template: issues-main.html
 ---
 
 # GitHub Issues — `gonka-ai/gonka`

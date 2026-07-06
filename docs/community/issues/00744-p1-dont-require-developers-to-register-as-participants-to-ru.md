@@ -3,6 +3,7 @@ title: "#744 — [P1] Don’t require developers to register as Participants to 
 source: https://github.com/gonka-ai/gonka/issues/744
 issue_number: 744
 synced_at: 2026-07-06T09:52:29Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #744](https://github.com/gonka-ai/gonka/issues/744) каждые 6 часов. 

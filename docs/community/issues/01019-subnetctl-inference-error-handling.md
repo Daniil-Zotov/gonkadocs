@@ -3,6 +3,7 @@ title: "#1019 — subnetctl: inference error handling"
 source: https://github.com/gonka-ai/gonka/issues/1019
 issue_number: 1019
 synced_at: 2026-07-06T09:51:42Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #1019](https://github.com/gonka-ai/gonka/issues/1019) каждые 6 часов. 

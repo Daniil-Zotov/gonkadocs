@@ -1,5 +1,6 @@
 ---
 title: "Issues: no-label"
+template: issues-main.html
 ---
 
 # Issues: no-label

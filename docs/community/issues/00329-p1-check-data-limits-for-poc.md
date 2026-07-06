@@ -3,6 +3,7 @@ title: "#329 — [P1] Check data limits for PoC"
 source: https://github.com/gonka-ai/gonka/issues/329
 issue_number: 329
 synced_at: 2026-07-06T09:52:53Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #329](https://github.com/gonka-ai/gonka/issues/329) каждые 6 часов. 

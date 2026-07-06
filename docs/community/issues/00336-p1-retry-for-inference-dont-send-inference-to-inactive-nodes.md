@@ -3,6 +3,7 @@ title: "#336 — [P1] Retry for inference + don’t send inference to inactive n
 source: https://github.com/gonka-ai/gonka/issues/336
 issue_number: 336
 synced_at: 2026-07-06T09:53:30Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #336](https://github.com/gonka-ai/gonka/issues/336) каждые 6 часов. 

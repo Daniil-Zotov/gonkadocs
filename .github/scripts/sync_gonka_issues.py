@@ -49,6 +49,8 @@ def gh_get(path, params=None, retries=3):
             print(f"  Rate limited, waiting {wait}s...")
             time.sleep(min(wait, 300))
             continue
+        if r.status_code == 422:
+            return None
         r.raise_for_status()
         return r.json()
     return None
@@ -169,8 +171,13 @@ def time_ago(iso):
         return fmt_date_short(iso)
 
 
-def issue_list_item_html(issue):
-    """Generate HTML for a single issue in the list."""
+def issue_list_item_html(issue, base_path=""):
+    """Generate HTML for a single issue in the list.
+    
+    Args:
+        issue: GitHub issue data
+        base_path: Relative path prefix (e.g. "../../" for label subdirectories)
+    """
     number = issue["number"]
     title = issue["title"]
     state = issue.get("state", "open")
@@ -209,7 +216,7 @@ def issue_list_item_html(issue):
   {status_html}
   <div class="issues-body">
     <div class="issues-title">
-      <a href="{number:05d}-{slugify(title)}/">{title}</a>
+      <a href="{base_path}{number:05d}-{slugify(title)}/">{title}</a>
       <span class="issues-number">#{number}</span>
     </div>
     {f'<p class="issues-desc">{body_preview}</p>' if body_preview else ''}
@@ -230,7 +237,7 @@ def build_global_index(issues, by_label, by_state, total):
     # Sort by updated_at descending
     sorted_issues = sorted(issues, key=lambda x: x.get("updated_at", ""), reverse=True)
 
-    items_html = "\n".join(issue_list_item_html(it) for it in sorted_issues)
+    items_html = "\n".join(issue_list_item_html(it, base_path="") for it in sorted_issues)
 
     out = f"""---
 title: "GitHub Issues"
@@ -254,7 +261,7 @@ def build_label_index(label_name, label_slug, items):
     sync_time = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     items_sorted = sorted(items, key=lambda x: x["updated_at"], reverse=True)
 
-    items_html = "\n".join(issue_list_item_html(it) for it in items_sorted)
+    items_html = "\n".join(issue_list_item_html(it, base_path="../../") for it in items_sorted)
 
     out = f"""---
 title: "Issues: {label_name}"

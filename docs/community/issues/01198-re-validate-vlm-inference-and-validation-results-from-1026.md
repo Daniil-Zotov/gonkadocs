@@ -3,6 +3,7 @@ title: "#1198 — Re-validate VLM inference and validation results from #1026"
 source: https://github.com/gonka-ai/gonka/issues/1198
 issue_number: 1198
 synced_at: 2026-07-06T09:51:52Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #1198](https://github.com/gonka-ai/gonka/issues/1198) каждые 6 часов. 

@@ -3,6 +3,7 @@ title: "#440 — All the old keys from the cluster entered the new epoch, even t
 source: https://github.com/gonka-ai/gonka/issues/440
 issue_number: 440
 synced_at: 2026-07-06T09:53:02Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #440](https://github.com/gonka-ai/gonka/issues/440) каждые 6 часов. 

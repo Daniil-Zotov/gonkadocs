@@ -3,6 +3,7 @@ title: "#341 — [P0] Security: Major"
 source: https://github.com/gonka-ai/gonka/issues/341
 issue_number: 341
 synced_at: 2026-07-06T09:53:39Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #341](https://github.com/gonka-ai/gonka/issues/341) каждые 6 часов. 

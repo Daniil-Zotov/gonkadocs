@@ -3,6 +3,7 @@ title: "#581 — Support testnet on small GPUs"
 source: https://github.com/gonka-ai/gonka/issues/581
 issue_number: 581
 synced_at: 2026-07-06T09:53:29Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #581](https://github.com/gonka-ai/gonka/issues/581) каждые 6 часов. 

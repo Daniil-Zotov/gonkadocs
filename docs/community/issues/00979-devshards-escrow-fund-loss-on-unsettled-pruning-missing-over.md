@@ -3,6 +3,7 @@ title: "#979 — `devshards` escrow: fund loss on unsettled pruning + missing ov
 source: https://github.com/gonka-ai/gonka/issues/979
 issue_number: 979
 synced_at: 2026-07-06T09:52:07Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #979](https://github.com/gonka-ai/gonka/issues/979) каждые 6 часов. 

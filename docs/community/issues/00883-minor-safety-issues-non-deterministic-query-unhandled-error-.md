@@ -3,6 +3,7 @@ title: "#883 — Minor safety issues: non-deterministic query, unhandled error c
 source: https://github.com/gonka-ai/gonka/issues/883
 issue_number: 883
 synced_at: 2026-07-06T09:52:12Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #883](https://github.com/gonka-ai/gonka/issues/883) каждые 6 часов. 

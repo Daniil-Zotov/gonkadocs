@@ -1,5 +1,6 @@
 ---
 title: "Issues: devshards"
+template: issues-main.html
 ---
 
 # Issues: devshards

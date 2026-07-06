@@ -3,6 +3,7 @@ title: "#351 — BUG: Wrong error message for unsupported models in /chat/comple
 source: https://github.com/gonka-ai/gonka/issues/351
 issue_number: 351
 synced_at: 2026-07-06T09:52:10Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #351](https://github.com/gonka-ai/gonka/issues/351) каждые 6 часов. 

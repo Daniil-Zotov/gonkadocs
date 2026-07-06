@@ -3,6 +3,7 @@ title: "#927 — [P1] Maintenance window for hosts"
 source: https://github.com/gonka-ai/gonka/issues/927
 issue_number: 927
 synced_at: 2026-07-06T09:51:52Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #927](https://github.com/gonka-ai/gonka/issues/927) каждые 6 часов. 

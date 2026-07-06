@@ -3,6 +3,7 @@ title: "#360 — [P0]: AI Developer onboarding: T-link integration"
 source: https://github.com/gonka-ai/gonka/issues/360
 issue_number: 360
 synced_at: 2026-07-06T09:53:42Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #360](https://github.com/gonka-ai/gonka/issues/360) каждые 6 часов. 

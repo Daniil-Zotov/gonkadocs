@@ -3,6 +3,7 @@ title: "#1081 — Binomial test p0 floor/ceiling mismatch — stricter downtime 
 source: https://github.com/gonka-ai/gonka/issues/1081
 issue_number: 1081
 synced_at: 2026-07-06T09:52:17Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #1081](https://github.com/gonka-ai/gonka/issues/1081) каждые 6 часов. 

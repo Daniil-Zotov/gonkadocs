@@ -3,6 +3,7 @@ title: "#1358 — Inbound bridge votes lost after upgrade simulation (node unava
 source: https://github.com/gonka-ai/gonka/issues/1358
 issue_number: 1358
 synced_at: 2026-07-06T09:51:44Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #1358](https://github.com/gonka-ai/gonka/issues/1358) каждые 6 часов. 

@@ -3,6 +3,7 @@ title: "#323 — [P0] Replace model with non-dynamic quantization to avoid quant
 source: https://github.com/gonka-ai/gonka/issues/323
 issue_number: 323
 synced_at: 2026-07-06T09:53:40Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #323](https://github.com/gonka-ai/gonka/issues/323) каждые 6 часов. 

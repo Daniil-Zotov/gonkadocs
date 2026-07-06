@@ -3,6 +3,7 @@ title: "#527 — Node resync from snapshot caused missed inference tasks due to 
 source: https://github.com/gonka-ai/gonka/issues/527
 issue_number: 527
 synced_at: 2026-07-06T09:53:09Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #527](https://github.com/gonka-ai/gonka/issues/527) каждые 6 часов. 

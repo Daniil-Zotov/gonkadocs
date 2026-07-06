@@ -3,6 +3,7 @@ title: "#1265 — Stuck VOTING inferences orphan client escrow when x/group prop
 source: https://github.com/gonka-ai/gonka/issues/1265
 issue_number: 1265
 synced_at: 2026-07-06T09:51:56Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #1265](https://github.com/gonka-ai/gonka/issues/1265) каждые 6 часов. 

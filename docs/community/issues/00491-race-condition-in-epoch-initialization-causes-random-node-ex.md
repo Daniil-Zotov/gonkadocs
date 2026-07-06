@@ -3,6 +3,7 @@ title: "#491 — Race Condition in Epoch Initialization Causes Random Node Exclu
 source: https://github.com/gonka-ai/gonka/issues/491
 issue_number: 491
 synced_at: 2026-07-06T09:53:34Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #491](https://github.com/gonka-ai/gonka/issues/491) каждые 6 часов. 

@@ -3,6 +3,7 @@ title: "#576 — Standardize floating point math"
 source: https://github.com/gonka-ai/gonka/issues/576
 issue_number: 576
 synced_at: 2026-07-06T09:53:14Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #576](https://github.com/gonka-ai/gonka/issues/576) каждые 6 часов. 

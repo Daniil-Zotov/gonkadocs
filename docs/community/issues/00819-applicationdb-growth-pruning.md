@@ -3,6 +3,7 @@ title: "#819 — `application.db` growth / pruning"
 source: https://github.com/gonka-ai/gonka/issues/819
 issue_number: 819
 synced_at: 2026-07-06T09:52:40Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #819](https://github.com/gonka-ai/gonka/issues/819) каждые 6 часов. 

@@ -2,19 +2,26 @@
 title: "#1405 — OpenBroker API moved hosts and existing broker accounts (and balances) are gone — follow-up to #1319"
 source: https://github.com/gonka-ai/gonka/issues/1405
 issue_number: 1405
-synced_at: 2026-07-06T09:51:37Z
+synced_at: 2026-07-06T10:26:31Z
+template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1405](https://github.com/gonka-ai/gonka/issues/1405) каждые 6 часов. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+    OpenBroker API moved hosts and existing broker accounts (and balances) are gone — follow-up to #1319
+    <span class="issues-number">#1405</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Закрыт</span>
+    <span class="issues-meta-item">[@dufok](https://github.com/dufok) opened 2026-07-06 00:16 UTC</span>
+    <span class="issues-meta-item">2 comments</span>
+    <span class="issues-meta-item">Updated 2026-07-06 01:14 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🔴 OpenBroker API moved hosts and existing broker accounts (and balances) are gone — follow-up to #1319
-
-**Автор:** [@dufok](https://github.com/dufok) · **Состояние:** Closed · **Создано:** 2026-07-06 00:16 UTC · **Обновлено:** 2026-07-06 01:14 UTC
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 Hi @tcharchian — follow-up to #1319, where you recommended OpenBroker as the official developer path ("GNK-settled, 1:1 at cost, no markup, no approval wait"). I took that advice, and I'm reporting what happened, because it will bite other developers onboarding the same way.
 
 ## What happened
@@ -37,16 +44,19 @@ I've also contacted Gonka Labs via their Telegram, but since OpenBroker has no p
 
 For context, I'm building on Gonka: a ComfyUI node pack for Gonka inference (https://github.com/dufok/GonkaAI-forComfyUI) — I'd like to keep GNK-settled inference as its default path.
 
+</div>
 
 ---
 
 ## 💬 Комментарии (2)
 
-### Комментарий 1 — [@dufok](https://github.com/dufok)
-
-*2026-07-06 01:04 UTC*
-
-Resolved — Gonka Labs restored my broker account after I reached out via their Telegram (t.me/gonka_gg). Dashboard access is back, the wallet link is intact, and the balance was restored in full (topped up a little, even — appreciated).
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@dufok](https://github.com/dufok)</span>
+    <span class="issues-meta-item">commented 2026-07-06 01:04 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Resolved — Gonka Labs restored my broker account after I reached out via their Telegram (t.me/gonka_gg). Dashboard access is back, the wallet link is intact, and the balance was restored in full (topped up a little, even — appreciated).
 
 For anyone hitting the same symptoms after the host change:
 - the API now lives at `https://api.openbroker.gonka.gg/v1` (the bare domain serves only the dashboard);
@@ -54,12 +64,15 @@ For anyone hitting the same symptoms after the host change:
 - if your login says "no account found", contact Gonka Labs with your linked wallet address — they sort it out quickly.
 
 Thanks @tcharchian for the pointers in #1319, and thanks to the Gonka Labs team for the fast resolution. Closing.
-
-### Комментарий 2 — [@gonkalabs](https://github.com/gonkalabs)
-
-*2026-07-06 01:09 UTC*
-
-Hi, @dufok, thanks for pointing it out! 
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@gonkalabs](https://github.com/gonkalabs)</span>
+    <span class="issues-meta-item">commented 2026-07-06 01:09 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Hi, @dufok, thanks for pointing it out! 
 
 informing everyone that issue is solved and access is restored for the user. 
 
@@ -68,3 +81,9 @@ This was caused by registration action happening during infrastructure migration
 All updates and notices happen in our tg chat prior to changes. To mitigate all the potential miscommunications in the future, we will mirror notifications about breaking changes in discussion (if there will be any).
 
 Thank You for being the early supporter of the Product 🤝
+  </div>
+</div>
+
+---
+
+> 🔄 **Авто-синхронизация:** из [Issue #1405](https://github.com/gonka-ai/gonka/issues/1405) каждые 6 часов.

@@ -3,6 +3,7 @@ title: "#1229 — Request for phased DevShards creator allowlist access for loca
 source: https://github.com/gonka-ai/gonka/issues/1229
 issue_number: 1229
 synced_at: 2026-07-06T09:51:49Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #1229](https://github.com/gonka-ai/gonka/issues/1229) каждые 6 часов. 

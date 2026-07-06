@@ -3,6 +3,7 @@ title: "#848 — Security: BLS group key validation falls back to self-validatio
 source: https://github.com/gonka-ai/gonka/issues/848
 issue_number: 848
 synced_at: 2026-07-06T09:52:38Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #848](https://github.com/gonka-ai/gonka/issues/848) каждые 6 часов. 

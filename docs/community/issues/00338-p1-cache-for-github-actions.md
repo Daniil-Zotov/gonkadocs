@@ -3,6 +3,7 @@ title: "#338 — [P1] Cache for Github Actions"
 source: https://github.com/gonka-ai/gonka/issues/338
 issue_number: 338
 synced_at: 2026-07-06T09:52:31Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #338](https://github.com/gonka-ai/gonka/issues/338) каждые 6 часов. 

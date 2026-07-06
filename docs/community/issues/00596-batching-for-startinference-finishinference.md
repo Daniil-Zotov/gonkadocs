@@ -3,6 +3,7 @@ title: "#596 — Batching for StartInference / FinishInference"
 source: https://github.com/gonka-ai/gonka/issues/596
 issue_number: 596
 synced_at: 2026-07-06T09:53:19Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #596](https://github.com/gonka-ai/gonka/issues/596) каждые 6 часов. 

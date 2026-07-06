@@ -2,19 +2,26 @@
 title: "#1398 — Gateway allowlist request: niro"
 source: https://github.com/gonka-ai/gonka/issues/1398
 issue_number: 1398
-synced_at: 2026-07-06T09:51:37Z
+synced_at: 2026-07-06T10:26:32Z
+template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1398](https://github.com/gonka-ai/gonka/issues/1398) каждые 6 часов. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+    Gateway allowlist request: niro
+    <span class="issues-number">#1398</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Открыт</span>
+    <span class="issues-meta-item">[@niro58](https://github.com/niro58) opened 2026-07-04 20:09 UTC</span>
+    <span class="issues-meta-item">0 comments</span>
+    <span class="issues-meta-item">Updated 2026-07-04 20:11 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🟢 Gateway allowlist request: niro
-
-**Автор:** [@niro58](https://github.com/niro58) · **Состояние:** Open · **Создано:** 2026-07-04 20:09 UTC · **Обновлено:** 2026-07-04 20:11 UTC
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 ## Operator
 
 Nichita R. — independent developer
@@ -38,3 +45,8 @@ from our own GNK.
 
 Expected volume is tenths thousands of requests/day, around 100-300 mil tokens a day, growing with our user base.
 Happy to share availability telemetry and benchmark results with the network.
+</div>
+
+---
+
+> 🔄 **Авто-синхронизация:** из [Issue #1398](https://github.com/gonka-ai/gonka/issues/1398) каждые 6 часов.

@@ -3,6 +3,7 @@ title: "#946 — Nil pointer dereference in /v1/chat/completions — gRPC respon
 source: https://github.com/gonka-ai/gonka/issues/946
 issue_number: 946
 synced_at: 2026-07-06T09:52:31Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #946](https://github.com/gonka-ai/gonka/issues/946) каждые 6 часов. 

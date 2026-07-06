@@ -3,6 +3,7 @@ title: "#365 — The variable `DAPI_API__POC_CALLBACK_URL` is causing a lot of i
 source: https://github.com/gonka-ai/gonka/issues/365
 issue_number: 365
 synced_at: 2026-07-06T09:52:33Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #365](https://github.com/gonka-ai/gonka/issues/365) каждые 6 часов. 

@@ -3,6 +3,7 @@ title: "#895 — [P0] Allow hosts to vote on timeouts if they haven't yet seen `
 source: https://github.com/gonka-ai/gonka/issues/895
 issue_number: 895
 synced_at: 2026-07-06T09:52:27Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #895](https://github.com/gonka-ai/gonka/issues/895) каждые 6 часов. 

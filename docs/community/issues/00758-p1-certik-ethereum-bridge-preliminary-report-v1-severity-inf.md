@@ -3,6 +3,7 @@ title: "#758 —  [P1] Certik, Ethereum Bridge, Preliminary Report (v1), Severit
 source: https://github.com/gonka-ai/gonka/issues/758
 issue_number: 758
 synced_at: 2026-07-06T09:52:20Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #758](https://github.com/gonka-ai/gonka/issues/758) каждые 6 часов. 

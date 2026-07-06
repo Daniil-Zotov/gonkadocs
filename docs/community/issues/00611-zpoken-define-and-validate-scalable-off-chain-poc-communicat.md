@@ -3,6 +3,7 @@ title: "#611 — [zpoken] Define and validate scalable off-chain PoC communicati
 source: https://github.com/gonka-ai/gonka/issues/611
 issue_number: 611
 synced_at: 2026-07-06T09:52:15Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #611](https://github.com/gonka-ai/gonka/issues/611) каждые 6 часов. 

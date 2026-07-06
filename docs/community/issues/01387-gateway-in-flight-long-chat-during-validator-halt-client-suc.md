@@ -2,21 +2,26 @@
 title: "#1387 — Gateway in-flight long chat during validator halt: client success vs request outcome failed"
 source: https://github.com/gonka-ai/gonka/issues/1387
 issue_number: 1387
-synced_at: 2026-07-06T09:51:36Z
+synced_at: 2026-07-06T10:26:29Z
+template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1387](https://github.com/gonka-ai/gonka/issues/1387) каждые 6 часов. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+    Gateway in-flight long chat during validator halt: client success vs request outcome failed
+    <span class="issues-number">#1387</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Открыт</span>
+    <span class="issues-meta-item">[@maria-mitina](https://github.com/maria-mitina) opened 2026-07-02 15:00 UTC</span>
+    <span class="issues-meta-item">2 comments</span>
+    <span class="issues-meta-item">Updated 2026-07-06 05:24 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
+</div>
 
-# 🟢 Gateway in-flight long chat during validator halt: client success vs request outcome failed
-
-**Автор:** [@maria-mitina](https://github.com/maria-mitina) · **Состояние:** Open · **Создано:** 2026-07-02 15:00 UTC · **Обновлено:** 2026-07-06 05:24 UTC
-
-**Метки:** `bug`
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 ## Summary
 
 During **gonka-testnet-4** experiments on host **702111**, a long streaming chat through the devshard **gateway** (`POST http://127.0.0.1:18080/v1/chat/completions`) was started while all validator **`node`** containers on the 4-node fleet were stopped for **20 seconds**.
@@ -198,19 +203,31 @@ APPROVE=1 HALT_SEC=20 HALT_SERVICES=node \
 ```
 
 Requires gateway on 702111 with v2 binary mount and Inference phase (PoC finished).
+</div>
 
 ---
 
 ## 💬 Комментарии (2)
 
-### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span class="issues-meta-item">commented 2026-07-03 07:29 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    hey @qdanik, would you be interested to work on this issue? 
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@qdanik](https://github.com/qdanik)</span>
+    <span class="issues-meta-item">commented 2026-07-05 22:18 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    @tcharchian you can assign it to me
+  </div>
+</div>
 
-*2026-07-03 07:29 UTC*
+---
 
-hey @qdanik, would you be interested to work on this issue? 
-
-### Комментарий 2 — [@qdanik](https://github.com/qdanik)
-
-*2026-07-05 22:18 UTC*
-
-@tcharchian you can assign it to me
+> 🔄 **Авто-синхронизация:** из [Issue #1387](https://github.com/gonka-ai/gonka/issues/1387) каждые 6 часов.

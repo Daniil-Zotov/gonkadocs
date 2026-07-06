@@ -3,6 +3,7 @@ title: "#863 — Potential RCE via `torch.load()` in ML Training Pipeline"
 source: https://github.com/gonka-ai/gonka/issues/863
 issue_number: 863
 synced_at: 2026-07-06T09:52:39Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #863](https://github.com/gonka-ai/gonka/issues/863) каждые 6 часов. 

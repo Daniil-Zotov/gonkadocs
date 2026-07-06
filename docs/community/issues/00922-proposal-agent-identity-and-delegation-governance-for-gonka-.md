@@ -3,6 +3,7 @@ title: "#922 — Proposal: Agent identity and delegation governance for Gonka co
 source: https://github.com/gonka-ai/gonka/issues/922
 issue_number: 922
 synced_at: 2026-07-06T09:52:33Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #922](https://github.com/gonka-ai/gonka/issues/922) каждые 6 часов. 

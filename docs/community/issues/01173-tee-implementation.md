@@ -2,21 +2,26 @@
 title: "#1173 — TEE Implementation"
 source: https://github.com/gonka-ai/gonka/issues/1173
 issue_number: 1173
-synced_at: 2026-07-06T09:51:38Z
+synced_at: 2026-07-06T10:26:34Z
+template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1173](https://github.com/gonka-ai/gonka/issues/1173) каждые 6 часов. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+    TEE Implementation
+    <span class="issues-number">#1173</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Открыт</span>
+    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-05-16 06:45 UTC</span>
+    <span class="issues-meta-item">3 comments</span>
+    <span class="issues-meta-item">Updated 2026-07-04 13:32 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span> <span class="issues-label" style="background-color: #1d27b4; color: #ffffff; border-color: #1d27b4;">protocol</span></div>
+</div>
 
-# 🟢 TEE Implementation
-
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Open · **Создано:** 2026-05-16 06:45 UTC · **Обновлено:** 2026-07-04 13:32 UTC
-
-**Метки:** `up-for-grabs` `protocol`
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 
 ### Discussed in https://github.com/gonka-ai/gonka/discussions/951
 
@@ -163,36 +168,45 @@ Signed metadata from a TEE key is inherently trusted - the execution environment
 
 **Open Question 4:** Since Confidential MLNodes have less validation overhead, should they receive higher bitcoin-style rewards to incentivize enabling TEE?
 </div>
+</div>
 
 ---
 
 ## 💬 Комментарии (3)
 
-### Комментарий 1 — [@x0152](https://github.com/x0152)
-
-*2026-05-25 21:11 UTC*
-
-Some first experiments on this in #1246 - covers the wiring end-to-end (chain, dapi, ml-node, devshard) + a Phala CVM smoke test
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@x0152](https://github.com/x0152)</span>
+    <span class="issues-meta-item">commented 2026-05-25 21:11 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Some first experiments on this in #1246 - covers the wiring end-to-end (chain, dapi, ml-node, devshard) + a Phala CVM smoke test
 
 Not a final implementation, but should give a head start
-
-### Комментарий 2 — [@mkostrus-gif](https://github.com/mkostrus-gif)
-
-*2026-07-02 19:00 UTC*
-
-Strong +1 for prioritizing this.
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@mkostrus-gif](https://github.com/mkostrus-gif)</span>
+    <span class="issues-meta-item">commented 2026-07-02 19:00 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Strong +1 for prioritizing this.
 
 My blocker is practical, not theoretical: I run AI agents over private operational context, and I cannot route real prompts/responses through Gonka while the selected host can read them. Privacy sanitization is useful as a temporary guardrail, but it does not solve the core threat model.
 
 The feature I would actually use is an attested private inference path: client-verifiable Confidential MLNode/TEE, encrypted prompts and responses, and no sensitive payloads in host-readable logs or disk.
 
 I'm happy to help test an MVP and provide acceptance criteria from real agent workloads. Is there a current roadmap after #1246 for the next milestone where users can help validate it?
-
-### Комментарий 3 — [@x0152](https://github.com/x0152)
-
-*2026-07-04 13:32 UTC*
-
-Hi, thanks for the message!
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@x0152](https://github.com/x0152)</span>
+    <span class="issues-meta-item">commented 2026-07-04 13:32 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Hi, thanks for the message!
 
 #1246 is a first experiments PR - it connects the private path across chain, dapi and ml-node, with a Phala TDX smoke test. It's not the MVP yet, still some work before we can really test it
 
@@ -205,3 +219,9 @@ Just note the MVP is only to show how this can be integrated - not a secure, pro
 
 Maybe you could start with reviewing #1246 and let me know what you think? 
 From there we can discuss the next steps. And if you have any questions, feel free to ask
+  </div>
+</div>
+
+---
+
+> 🔄 **Авто-синхронизация:** из [Issue #1173](https://github.com/gonka-ai/gonka/issues/1173) каждые 6 часов.

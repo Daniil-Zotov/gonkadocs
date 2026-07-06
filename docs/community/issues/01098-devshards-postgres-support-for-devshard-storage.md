@@ -3,6 +3,7 @@ title: "#1098 — `devshards` Postgres support for `devshard` storage"
 source: https://github.com/gonka-ai/gonka/issues/1098
 issue_number: 1098
 synced_at: 2026-07-06T09:52:00Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #1098](https://github.com/gonka-ai/gonka/issues/1098) каждые 6 часов. 

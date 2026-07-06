@@ -3,6 +3,7 @@ title: "#431 — inferenced:0.2.4 contains outdated hard-coded genesis → AppHa
 source: https://github.com/gonka-ai/gonka/issues/431
 issue_number: 431
 synced_at: 2026-07-06T09:53:37Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #431](https://github.com/gonka-ai/gonka/issues/431) каждые 6 часов. 

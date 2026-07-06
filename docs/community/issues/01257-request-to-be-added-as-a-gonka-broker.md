@@ -2,19 +2,26 @@
 title: "#1257 — Request to be added as a Gonka broker"
 source: https://github.com/gonka-ai/gonka/issues/1257
 issue_number: 1257
-synced_at: 2026-07-06T09:51:40Z
+synced_at: 2026-07-06T10:26:38Z
+template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1257](https://github.com/gonka-ai/gonka/issues/1257) каждые 6 часов. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+    Request to be added as a Gonka broker
+    <span class="issues-number">#1257</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Закрыт</span>
+    <span class="issues-meta-item">[@len5ky](https://github.com/len5ky) opened 2026-05-26 15:37 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-07-03 00:47 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🔴 Request to be added as a Gonka broker
-
-**Автор:** [@len5ky](https://github.com/len5ky) · **Состояние:** Closed · **Создано:** 2026-05-26 15:37 UTC · **Обновлено:** 2026-07-03 00:47 UTC
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 Hi Gonka core team & community,
 
 We're requesting inclusion of Gonka Relay as a Gonka broker:
@@ -172,16 +179,19 @@ onward.
 Thanks for reviewing.
 
 Gonka Relay
+</div>
 
 ---
 
 ## 💬 Комментарии (1)
 
-### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
-
-*2026-07-03 00:37 UTC*
-
-Hi @len5ky! Thanks, this is one of the most thorough operator applications filed here. A few things to separate, because you're actually asking for two different things governed differently.
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span class="issues-meta-item">commented 2026-07-03 00:37 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    Hi @len5ky! Thanks, this is one of the most thorough operator applications filed here. A few things to separate, because you're actually asking for two different things governed differently.
 
 On the allowlist (`devshard_escrow_params.allowed_creator_addresses`): additions happen only through on-chain governance — a param-change proposal or inclusion in a governance-approved upgrade batch. No maintainer adds an address unilaterally. Filing this issue with a funded, pubkey-published address is exactly the right way to register intent, but inclusion and timing are governance-dependent and not guaranteed, so please don't gate your roadmap on a specific approval date.
 
@@ -194,3 +204,9 @@ One suggestion that could unblock most of your plan today rather than after a go
 Where your own allowlist entry remains necessary is the part of your design that's creator-specific: client-signed passthrough, controlling your own escrow rotation and settlement, and being a direct on-chain operator for the paid surface. That case stands as filed, and the phased commitments you've laid out are the right kind of material for governance participants to weigh.
 
 Overall, the allowlist request is well-formed for governance consideration as filed. In parallel, nothing blocks you from launching this week on an at-cost managed devshard backend, running the benchmark harness and Phase A/B workloads, building a public track record on the community dashboards — and then bringing both the directory-listing PR and the allowlist case back with real numbers behind them.
+  </div>
+</div>
+
+---
+
+> 🔄 **Авто-синхронизация:** из [Issue #1257](https://github.com/gonka-ai/gonka/issues/1257) каждые 6 часов.

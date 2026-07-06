@@ -3,6 +3,7 @@ title: "#730 — [P0] vLLM 0.15.1 Compatibility Experiments"
 source: https://github.com/gonka-ai/gonka/issues/730
 issue_number: 730
 synced_at: 2026-07-06T09:52:32Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #730](https://github.com/gonka-ai/gonka/issues/730) каждые 6 часов. 

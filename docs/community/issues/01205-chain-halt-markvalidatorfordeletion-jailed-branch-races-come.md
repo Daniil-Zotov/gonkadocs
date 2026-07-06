@@ -3,6 +3,7 @@ title: "#1205 — chain-halt: `markValidatorForDeletion` jailed branch races Com
 source: https://github.com/gonka-ai/gonka/issues/1205
 issue_number: 1205
 synced_at: 2026-07-06T09:52:02Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #1205](https://github.com/gonka-ai/gonka/issues/1205) каждые 6 часов. 

@@ -3,6 +3,7 @@ title: "#573 — Governance-owned leftovers; add genesis guardian + developer ac
 source: https://github.com/gonka-ai/gonka/issues/573
 issue_number: 573
 synced_at: 2026-07-06T09:53:27Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #573](https://github.com/gonka-ai/gonka/issues/573) каждые 6 часов. 

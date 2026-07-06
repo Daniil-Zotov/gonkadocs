@@ -3,6 +3,7 @@ title: "#764 — Epoch 158 reward underpayment after v0.2.9: preserved inference
 source: https://github.com/gonka-ai/gonka/issues/764
 issue_number: 764
 synced_at: 2026-07-06T09:52:49Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #764](https://github.com/gonka-ai/gonka/issues/764) каждые 6 часов. 

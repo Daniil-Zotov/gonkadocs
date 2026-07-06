@@ -3,6 +3,7 @@ title: "#593 — Fix tally voting"
 source: https://github.com/gonka-ai/gonka/issues/593
 issue_number: 593
 synced_at: 2026-07-06T09:53:20Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #593](https://github.com/gonka-ai/gonka/issues/593) каждые 6 часов. 

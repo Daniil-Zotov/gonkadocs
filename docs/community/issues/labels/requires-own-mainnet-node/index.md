@@ -1,5 +1,6 @@
 ---
 title: "Issues: requires own mainnet node"
+template: issues-main.html
 ---
 
 # Issues: requires own mainnet node

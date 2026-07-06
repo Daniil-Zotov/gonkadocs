@@ -3,6 +3,7 @@ title: "#339 — [P1] Distributed vs truly decentralized and trustless and where
 source: https://github.com/gonka-ai/gonka/issues/339
 issue_number: 339
 synced_at: 2026-07-06T09:52:45Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #339](https://github.com/gonka-ai/gonka/issues/339) каждые 6 часов. 

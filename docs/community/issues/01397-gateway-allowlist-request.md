@@ -2,19 +2,26 @@
 title: "#1397 — Gateway allowlist request"
 source: https://github.com/gonka-ai/gonka/issues/1397
 issue_number: 1397
-synced_at: 2026-07-06T09:51:37Z
+synced_at: 2026-07-06T10:26:33Z
+template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1397](https://github.com/gonka-ai/gonka/issues/1397) каждые 6 часов. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+    Gateway allowlist request
+    <span class="issues-number">#1397</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Открыт</span>
+    <span class="issues-meta-item">[@yuritsin-code](https://github.com/yuritsin-code) opened 2026-07-04 15:26 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-07-04 17:14 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
 
-# 🟢 Gateway allowlist request
-
-**Автор:** [@yuritsin-code](https://github.com/yuritsin-code) · **Состояние:** Open · **Создано:** 2026-07-04 15:26 UTC · **Обновлено:** 2026-07-04 17:14 UTC
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 ## Operator
 
 Victor Yuritsyn — independent operator
@@ -41,16 +48,19 @@ from our own GNK.
 Expected volume is modest initially (thousands of requests/day ceiling),
 growing with our bot fleet. Happy to share our availability telemetry with
 the network if useful.
+</div>
 
 ---
 
 ## 💬 Комментарии (1)
 
-### Комментарий 1 — [@yuritsin-code](https://github.com/yuritsin-code)
-
-*2026-07-04 17:14 UTC*
-
-
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@yuritsin-code](https://github.com/yuritsin-code)</span>
+    <span class="issues-meta-item">commented 2026-07-04 17:14 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    
 Hi Gonka team,
 
 We've been analyzing the devshard protocol to understand how multi-turn agent workloads perform on the network, and we have two questions based on our code review.
@@ -75,3 +85,9 @@ We reviewed the reference `node-config.json` files in `deploy/join/` and the par
 
 Thanks for your time — this helps us understand the right strategy for deploying agent workloads on Gonka.
 
+  </div>
+</div>
+
+---
+
+> 🔄 **Авто-синхронизация:** из [Issue #1397](https://github.com/gonka-ai/gonka/issues/1397) каждые 6 часов.

@@ -3,6 +3,7 @@ title: "#313 — [P0] Negative balance panic"
 source: https://github.com/gonka-ai/gonka/issues/313
 issue_number: 313
 synced_at: 2026-07-06T09:53:41Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #313](https://github.com/gonka-ai/gonka/issues/313) каждые 6 часов. 

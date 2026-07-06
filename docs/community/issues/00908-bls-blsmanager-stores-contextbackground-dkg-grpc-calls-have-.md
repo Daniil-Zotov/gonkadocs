@@ -3,6 +3,7 @@ title: "#908 — bls: BlsManager stores context.Background() — DKG gRPC calls 
 source: https://github.com/gonka-ai/gonka/issues/908
 issue_number: 908
 synced_at: 2026-07-06T09:52:11Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #908](https://github.com/gonka-ai/gonka/issues/908) каждые 6 часов. 

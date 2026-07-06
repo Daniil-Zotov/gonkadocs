@@ -3,6 +3,7 @@ title: "#558 — [P2] URLs with `/chat/completions` and `/completions` for Open 
 source: https://github.com/gonka-ai/gonka/issues/558
 issue_number: 558
 synced_at: 2026-07-06T09:52:23Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #558](https://github.com/gonka-ai/gonka/issues/558) каждые 6 часов. 

@@ -3,6 +3,7 @@ title: "#820 — Investigate missed inference on some nodes (root causes + mitig
 source: https://github.com/gonka-ai/gonka/issues/820
 issue_number: 820
 synced_at: 2026-07-06T09:52:44Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #820](https://github.com/gonka-ai/gonka/issues/820) каждые 6 часов. 

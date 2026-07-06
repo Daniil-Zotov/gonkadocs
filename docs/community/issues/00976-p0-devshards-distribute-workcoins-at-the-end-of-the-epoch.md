@@ -3,6 +3,7 @@ title: "#976 — [P0] `devshards`: Distribute `WorkCoins` at the end of the epoc
 source: https://github.com/gonka-ai/gonka/issues/976
 issue_number: 976
 synced_at: 2026-07-06T09:52:17Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #976](https://github.com/gonka-ai/gonka/issues/976) каждые 6 часов. 

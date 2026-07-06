@@ -3,6 +3,7 @@ title: "#714 — Bug Report: New Nodes Fail to Sign Transactions (Keyring Backen
 source: https://github.com/gonka-ai/gonka/issues/714
 issue_number: 714
 synced_at: 2026-07-06T09:52:55Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #714](https://github.com/gonka-ai/gonka/issues/714) каждые 6 часов. 

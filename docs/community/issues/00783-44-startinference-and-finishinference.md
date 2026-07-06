@@ -3,6 +3,7 @@ title: "#783 — [4/4] `StartInference` and `FinishInference`"
 source: https://github.com/gonka-ai/gonka/issues/783
 issue_number: 783
 synced_at: 2026-07-06T09:52:42Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #783](https://github.com/gonka-ai/gonka/issues/783) каждые 6 часов. 

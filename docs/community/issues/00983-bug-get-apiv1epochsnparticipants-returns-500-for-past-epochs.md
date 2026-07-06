@@ -3,6 +3,7 @@ title: "#983 — Bug: GET /api/v1/epochs/{N}/participants returns 500 for past e
 source: https://github.com/gonka-ai/gonka/issues/983
 issue_number: 983
 synced_at: 2026-07-06T09:52:29Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #983](https://github.com/gonka-ai/gonka/issues/983) каждые 6 часов. 

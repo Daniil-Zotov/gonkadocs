@@ -3,6 +3,7 @@ title: "#438 — 🐛 Bug: Incorrect Governance Model Matching Causes Registrati
 source: https://github.com/gonka-ai/gonka/issues/438
 issue_number: 438
 synced_at: 2026-07-06T09:52:10Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #438](https://github.com/gonka-ai/gonka/issues/438) каждые 6 часов. 

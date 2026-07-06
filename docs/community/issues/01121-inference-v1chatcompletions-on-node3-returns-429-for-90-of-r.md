@@ -3,6 +3,7 @@ title: "#1121 — Inference /v1/chat/completions on node3 returns 429 for ~90% o
 source: https://github.com/gonka-ai/gonka/issues/1121
 issue_number: 1121
 synced_at: 2026-07-06T09:52:02Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #1121](https://github.com/gonka-ai/gonka/issues/1121) каждые 6 часов. 

@@ -3,6 +3,7 @@ title: "#658 — POC_SLOT attack"
 source: https://github.com/gonka-ai/gonka/issues/658
 issue_number: 658
 synced_at: 2026-07-06T09:52:58Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #658](https://github.com/gonka-ai/gonka/issues/658) каждые 6 часов. 

@@ -3,6 +3,7 @@ title: "#626 — How to add new models"
 source: https://github.com/gonka-ai/gonka/issues/626
 issue_number: 626
 synced_at: 2026-07-06T09:52:50Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #626](https://github.com/gonka-ai/gonka/issues/626) каждые 6 часов. 

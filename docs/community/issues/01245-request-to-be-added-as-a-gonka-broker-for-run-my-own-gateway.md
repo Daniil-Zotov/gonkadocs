@@ -3,6 +3,7 @@ title: "#1245 — Request to be added as a Gonka broker (for run my own gateway)
 source: https://github.com/gonka-ai/gonka/issues/1245
 issue_number: 1245
 synced_at: 2026-07-06T09:51:50Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #1245](https://github.com/gonka-ai/gonka/issues/1245) каждые 6 часов. 

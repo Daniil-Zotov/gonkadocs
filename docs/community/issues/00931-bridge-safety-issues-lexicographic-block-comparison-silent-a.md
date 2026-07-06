@@ -3,6 +3,7 @@ title: "#931 — Bridge safety issues: lexicographic block comparison, silent ad
 source: https://github.com/gonka-ai/gonka/issues/931
 issue_number: 931
 synced_at: 2026-07-06T09:52:32Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #931](https://github.com/gonka-ai/gonka/issues/931) каждые 6 часов. 

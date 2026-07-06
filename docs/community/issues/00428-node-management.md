@@ -3,6 +3,7 @@ title: "#428 — Node management"
 source: https://github.com/gonka-ai/gonka/issues/428
 issue_number: 428
 synced_at: 2026-07-06T09:52:37Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #428](https://github.com/gonka-ai/gonka/issues/428) каждые 6 часов. 

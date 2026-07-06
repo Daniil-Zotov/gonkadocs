@@ -3,6 +3,7 @@ title: "#942 — Intra-epoch fast circuit breaker for degraded executor nodes (m
 source: https://github.com/gonka-ai/gonka/issues/942
 issue_number: 942
 synced_at: 2026-07-06T09:52:30Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #942](https://github.com/gonka-ai/gonka/issues/942) каждые 6 часов. 

@@ -3,6 +3,7 @@ title: "#849 — Bug: DKG permanent failure — dealer consensus uses unweighted
 source: https://github.com/gonka-ai/gonka/issues/849
 issue_number: 849
 synced_at: 2026-07-06T09:52:38Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #849](https://github.com/gonka-ai/gonka/issues/849) каждые 6 часов. 

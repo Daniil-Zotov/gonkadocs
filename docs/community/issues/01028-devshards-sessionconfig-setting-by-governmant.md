@@ -3,6 +3,7 @@ title: "#1028 — `devshards` `SessionConfig` setting by governmant"
 source: https://github.com/gonka-ai/gonka/issues/1028
 issue_number: 1028
 synced_at: 2026-07-06T09:51:45Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #1028](https://github.com/gonka-ai/gonka/issues/1028) каждые 6 часов. 

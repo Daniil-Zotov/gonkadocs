@@ -3,6 +3,7 @@ title: "#630 — Research: Ephemeral port exhaustion"
 source: https://github.com/gonka-ai/gonka/issues/630
 issue_number: 630
 synced_at: 2026-07-06T09:52:34Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #630](https://github.com/gonka-ai/gonka/issues/630) каждые 6 часов. 

@@ -3,6 +3,7 @@ title: "#568 — DB handling improvements"
 source: https://github.com/gonka-ai/gonka/issues/568
 issue_number: 568
 synced_at: 2026-07-06T09:53:29Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #568](https://github.com/gonka-ai/gonka/issues/568) каждые 6 часов. 

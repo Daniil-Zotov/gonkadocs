@@ -3,6 +3,7 @@ title: "#923 — Consensus key mismatch: staking still expects old key after TMK
 source: https://github.com/gonka-ai/gonka/issues/923
 issue_number: 923
 synced_at: 2026-07-06T09:52:09Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #923](https://github.com/gonka-ai/gonka/issues/923) каждые 6 часов. 

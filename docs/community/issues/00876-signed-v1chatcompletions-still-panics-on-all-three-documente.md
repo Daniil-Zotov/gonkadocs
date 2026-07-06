@@ -3,6 +3,7 @@ title: "#876 — Signed /v1/chat/completions still panics on all three documente
 source: https://github.com/gonka-ai/gonka/issues/876
 issue_number: 876
 synced_at: 2026-07-06T09:51:55Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #876](https://github.com/gonka-ai/gonka/issues/876) каждые 6 часов. 

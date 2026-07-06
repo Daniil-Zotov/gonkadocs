@@ -1,5 +1,6 @@
 ---
 title: "Issues: enhancement"
+template: issues-main.html
 ---
 
 # Issues: enhancement

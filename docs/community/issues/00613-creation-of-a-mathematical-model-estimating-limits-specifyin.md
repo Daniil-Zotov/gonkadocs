@@ -3,6 +3,7 @@ title: "#613 — Creation of a mathematical model, estimating limits, specifying
 source: https://github.com/gonka-ai/gonka/issues/613
 issue_number: 613
 synced_at: 2026-07-06T09:52:28Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #613](https://github.com/gonka-ai/gonka/issues/613) каждые 6 часов. 

@@ -3,6 +3,7 @@ title: "#566 — Epoch and timestamp consistency across inference, validation, a
 source: https://github.com/gonka-ai/gonka/issues/566
 issue_number: 566
 synced_at: 2026-07-06T09:52:56Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #566](https://github.com/gonka-ai/gonka/issues/566) каждые 6 часов. 

@@ -3,6 +3,7 @@ title: "#348 — [P0]: Add SSL (https) for our dashboard and API (we need it to 
 source: https://github.com/gonka-ai/gonka/issues/348
 issue_number: 348
 synced_at: 2026-07-06T09:52:55Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #348](https://github.com/gonka-ai/gonka/issues/348) каждые 6 часов. 

@@ -2,21 +2,26 @@
 title: "#1199 — Reproducible sampling for inference validation"
 source: https://github.com/gonka-ai/gonka/issues/1199
 issue_number: 1199
-synced_at: 2026-07-06T09:51:36Z
+synced_at: 2026-07-06T10:26:30Z
+template: issues-main.html
 ---
 
-> 🔄 **Авто-синхронизация:** из [Issue #1199](https://github.com/gonka-ai/gonka/issues/1199) каждые 6 часов. 
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+    Reproducible sampling for inference validation
+    <span class="issues-number">#1199</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Открыт</span>
+    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-05-19 23:17 UTC</span>
+    <span class="issues-meta-item">5 comments</span>
+    <span class="issues-meta-item">Updated 2026-07-06 02:53 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span></div>
+</div>
 
-# 🟢 Reproducible sampling for inference validation
-
-**Автор:** [@tcharchian](https://github.com/tcharchian) · **Состояние:** Open · **Создано:** 2026-05-19 23:17 UTC · **Обновлено:** 2026-07-06 02:53 UTC
-
-**Метки:** `up-for-grabs`
-
----
-
-## 📝 Описание
-
+<div class="issues-content">
 Review the existing reproducible / deterministic sampling work for inference validation and prepare a careful path toward adding it to MLNode versions.
 
 This task is related to the known inference validation vulnerability described in the inference validation proposal. The proposed direction is a two-stage validation system with a cheap sequence check before the existing distribution check.
@@ -136,28 +141,37 @@ This should be treated as a careful validation / security review task.
 The immediate rollout risk is low if the feature is introduced softly and not enforced right away. However, the validation logic itself is security-sensitive, so the implementation should be reviewed with scrupulous care before being incorporated into strict inference validation.
 
 The priority is to take over the existing work, gradually introduce it into MLNode versions, collect data, and avoid hard enforcement until the approach is reviewed and validated.
+</div>
 
 ---
 
 ## 💬 Комментарии (5)
 
-### Комментарий 1 — [@Ryanchen911](https://github.com/Ryanchen911)
-
-*2026-06-26 11:33 UTC*
-
-hi @tcharchian , does this issue need help? If yes, maybe we  can take this one.
-
-### Комментарий 2 — [@tcharchian](https://github.com/tcharchian)
-
-*2026-06-30 00:53 UTC*
-
-@Ryanchen911, yes please! 
-
-### Комментарий 3 — [@neuron7xLab](https://github.com/neuron7xLab)
-
-*2026-07-02 13:28 UTC*
-
-I ran an adversarial pass on the deterministic sampling dump against the inference-validation proposal.
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@Ryanchen911](https://github.com/Ryanchen911)</span>
+    <span class="issues-meta-item">commented 2026-06-26 11:33 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    hi @tcharchian , does this issue need help? If yes, maybe we  can take this one.
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span class="issues-meta-item">commented 2026-06-30 00:53 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    @Ryanchen911, yes please! 
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@neuron7xLab](https://github.com/neuron7xLab)</span>
+    <span class="issues-meta-item">commented 2026-07-02 13:28 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    I ran an adversarial pass on the deterministic sampling dump against the inference-validation proposal.
 
 **Finding:** the deterministic replay seed was not chain-bound — it was derived from request-controlled material (`f"{user_seed}|{prompt_token_ids}"`), so Stage-1 replay could be detached from the chain inference instance. The proposal requires `run_seed = SHA256(user_seed || inference_id_from_chain)`.
 
@@ -169,19 +183,25 @@ Scope note (updated as review tightened it to match vLLM's actual API):
 - framing is **byte-length-prefixed SHA256 over UTF-8** (portable to Go/Rust/JS), not raw concatenation.
 
 Honest status: reproducible from `pull/56/head`; 10 invariant tests + a golden vector verified locally (isolated harness — full `pytest` needs a built vLLM env); CI is `action_required` (fork approval gate), so not green yet. Complementary to @Ryanchen911's review, not a takeover.
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@Ryanchen911](https://github.com/Ryanchen911)</span>
+    <span class="issues-meta-item">commented 2026-07-06 01:30 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    @neuron7xLab thanks for the focused pass and PR — this lands squarely on the highest-priority item in our‘s review. We flagged the same seed-domain issue: the _dump/v011 derivation f"{user_seed}|{prompt_token_ids}" is request-controlled on both components, so Stage-1 replay can be ground/detached from the chain inference instance. Binding to inference_id_from_chain per the proposal is exactly right.
 
-### Комментарий 4 — [@Ryanchen911](https://github.com/Ryanchen911)
-
-*2026-07-06 01:30 UTC*
-
-@neuron7xLab thanks for the focused pass and PR — this lands squarely on the highest-priority item in our‘s review. We flagged the same seed-domain issue: the _dump/v011 derivation f"{user_seed}|{prompt_token_ids}" is request-controlled on both components, so Stage-1 replay can be ground/detached from the chain inference instance. Binding to inference_id_from_chain per the proposal is exactly right.
-
-
-### Комментарий 5 — [@Ryanchen911](https://github.com/Ryanchen911)
-
-*2026-07-06 02:53 UTC*
-
-## Review summary — reproducible sampling for inference validation
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@Ryanchen911](https://github.com/Ryanchen911)</span>
+    <span class="issues-meta-item">commented 2026-07-06 02:53 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    ## Review summary — reproducible sampling for inference validation
 
 We reviewed the two-stage validation design (proposal §"Proper Fix") against the actual code on all three vllm branches (`_dump`, `v011`, `_merged`) plus the gonka chain-side validator, with an eye on a safe soft-rollout path.
 
@@ -439,3 +459,9 @@ verify.
 
 </details>
 
+  </div>
+</div>
+
+---
+
+> 🔄 **Авто-синхронизация:** из [Issue #1199](https://github.com/gonka-ai/gonka/issues/1199) каждые 6 часов.

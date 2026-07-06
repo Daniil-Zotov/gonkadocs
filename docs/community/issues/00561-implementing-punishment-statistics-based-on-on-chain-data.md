@@ -3,6 +3,7 @@ title: "#561 — Implementing punishment statistics based on on-chain data"
 source: https://github.com/gonka-ai/gonka/issues/561
 issue_number: 561
 synced_at: 2026-07-06T09:52:52Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #561](https://github.com/gonka-ai/gonka/issues/561) каждые 6 часов. 

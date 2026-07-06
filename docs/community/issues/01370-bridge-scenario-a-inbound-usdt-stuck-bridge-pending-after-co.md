@@ -3,6 +3,7 @@ title: "#1370 — Bridge Scenario A: inbound USDT stuck BRIDGE_PENDING after coo
 source: https://github.com/gonka-ai/gonka/issues/1370
 issue_number: 1370
 synced_at: 2026-07-06T09:51:43Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #1370](https://github.com/gonka-ai/gonka/issues/1370) каждые 6 часов. 

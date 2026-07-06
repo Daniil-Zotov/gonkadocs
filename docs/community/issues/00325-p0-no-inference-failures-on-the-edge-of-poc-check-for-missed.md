@@ -3,6 +3,7 @@ title: "#325 — [P0] No inference failures on the edge of PoC; Check for missed
 source: https://github.com/gonka-ai/gonka/issues/325
 issue_number: 325
 synced_at: 2026-07-06T09:52:59Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #325](https://github.com/gonka-ai/gonka/issues/325) каждые 6 часов. 

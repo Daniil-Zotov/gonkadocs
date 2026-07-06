@@ -3,6 +3,7 @@ title: "#330 — [P2] Security MerkleTree Proofs; Merge participant validation t
 source: https://github.com/gonka-ai/gonka/issues/330
 issue_number: 330
 synced_at: 2026-07-06T09:51:47Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #330](https://github.com/gonka-ai/gonka/issues/330) каждые 6 часов. 

@@ -3,6 +3,7 @@ title: "#1219 — [P0] Basic primitives for training"
 source: https://github.com/gonka-ai/gonka/issues/1219
 issue_number: 1219
 synced_at: 2026-07-06T09:51:46Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #1219](https://github.com/gonka-ai/gonka/issues/1219) каждые 6 часов. 

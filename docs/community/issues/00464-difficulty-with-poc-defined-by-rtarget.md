@@ -3,6 +3,7 @@ title: "#464 — Difficulty with PoC, defined by `RTarget`"
 source: https://github.com/gonka-ai/gonka/issues/464
 issue_number: 464
 synced_at: 2026-07-06T09:53:25Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #464](https://github.com/gonka-ai/gonka/issues/464) каждые 6 часов. 

@@ -3,6 +3,7 @@ title: "#985 — [P0] Bug: unsupported OpenAI type input for the inference reque
 source: https://github.com/gonka-ai/gonka/issues/985
 issue_number: 985
 synced_at: 2026-07-06T09:52:25Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #985](https://github.com/gonka-ai/gonka/issues/985) каждые 6 часов. 

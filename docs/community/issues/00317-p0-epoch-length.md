@@ -3,6 +3,7 @@ title: "#317 — [P0] Epoch length"
 source: https://github.com/gonka-ai/gonka/issues/317
 issue_number: 317
 synced_at: 2026-07-06T09:52:54Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #317](https://github.com/gonka-ai/gonka/issues/317) каждые 6 часов. 

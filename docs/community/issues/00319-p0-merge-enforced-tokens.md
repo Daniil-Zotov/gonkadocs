@@ -3,6 +3,7 @@ title: "#319 — [P0] Merge enforced_tokens"
 source: https://github.com/gonka-ai/gonka/issues/319
 issue_number: 319
 synced_at: 2026-07-06T09:53:24Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #319](https://github.com/gonka-ai/gonka/issues/319) каждые 6 часов. 

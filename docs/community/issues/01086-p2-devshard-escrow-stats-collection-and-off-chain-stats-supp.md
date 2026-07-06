@@ -3,6 +3,7 @@ title: "#1086 — [P2] Devshard escrow stats collection and off chain stats supp
 source: https://github.com/gonka-ai/gonka/issues/1086
 issue_number: 1086
 synced_at: 2026-07-06T09:52:03Z
+template: issues-main.html
 ---
 
 > 🔄 **Авто-синхронизация:** из [Issue #1086](https://github.com/gonka-ai/gonka/issues/1086) каждые 6 часов. 
