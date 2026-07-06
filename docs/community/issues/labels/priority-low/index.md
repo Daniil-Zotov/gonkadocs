@@ -1,26 +1,170 @@
 ---
-title: "Issues: Priority: Low"
+title: "Issues: Priority Low"
 template: issues-main.html
 ---
 
-# Issues: Priority: Low
+# Issues: Priority Low
 
-Issues с меткой **Priority: Low**. Всего: **13**. Обновлено: `2026-07-06 09:53 UTC`.
+Issues с меткой **Priority Low**. Всего: **13**.
+Обновлено: `2026-07-06 11:14 UTC`.
 
-[← ко всемIssues](../index.md)
+[← ко всем Issues](../../index.md)
 
-| # | Заголовок | Состояние | Автор | Обновлено |
-|---:|---|---|---|---|
-| [1225](01225-p2-clean-pow-from-mlnode-and-keep-poc-networking-patch-local.md) | [[P2] Clean PoW from MLNode and keep PoC networking patch local](01225-p2-clean-pow-from-mlnode-and-keep-poc-networking-patch-local.md) | 🟢 Open | [@tcharchian](https://github.com/tcharchian) | 2026-06-24 |
-| [1028](01028-devshards-sessionconfig-setting-by-governmant.md) | [`devshards` `SessionConfig` setting by governmant](01028-devshards-sessionconfig-setting-by-governmant.md) | 🔴 Closed | [@akup](https://github.com/akup) | 2026-06-26 |
-| [1019](01019-subnetctl-inference-error-handling.md) | [subnetctl: inference error handling](01019-subnetctl-inference-error-handling.md) | 🔴 Closed | [@akup](https://github.com/akup) | 2026-07-01 |
-| [936](00936-devshards-implement-aggregated-bls-signatures.md) | [`devshards`: Implement aggregated BLS signatures](00936-devshards-implement-aggregated-bls-signatures.md) | 🟢 Open | [@dcastro](https://github.com/dcastro) | 2026-04-29 |
-| [896](00896-devshards-research-aggregated-bls-signatures.md) | [`devshards`: Research aggregated BLS signatures](00896-devshards-research-aggregated-bls-signatures.md) | 🟢 Open | [@heitor-lassarote](https://github.com/heitor-lassarote) | 2026-04-29 |
-| [865](00865-hardcoded-dummy-tls-keycerts-used-for-gloo-transport-in-trai.md) | [Hard‑coded dummy TLS key/certs used for Gloo transport in training manager Body](00865-hardcoded-dummy-tls-keycerts-used-for-gloo-transport-in-trai.md) | 🔴 Closed | [@VVSMEN](https://github.com/VVSMEN) | 2026-03-12 |
-| [863](00863-potential-rce-via-torchload-in-ml-training-pipeline.md) | [Potential RCE via `torch.load()` in ML Training Pipeline](00863-potential-rce-via-torchload-in-ml-training-pipeline.md) | 🔴 Closed | [@VVSMEN](https://github.com/VVSMEN) | 2026-03-12 |
-| [784](00784-p2-possible-underfunded-issues.md) | [[P2] Possible underfunded issues](00784-p2-possible-underfunded-issues.md) | 🔴 Closed | [@tcharchian](https://github.com/tcharchian) | 2026-04-10 |
-| [742](00742-p2-deleting-poc-v1-extend-state-endpoint-with-poc-metadata.md) | [[P2] Deleting PoC v1 + Extend state endpoint with PoC metadata](00742-p2-deleting-poc-v1-extend-state-endpoint-with-poc-metadata.md) | 🔴 Closed | [@IgnatovFedor](https://github.com/IgnatovFedor) | 2026-03-25 |
-| [560](00560-p2-finalizing-the-websocket-merge-with-call-back-new-vllm-wi.md) | [[P2] Finalizing the WebSocket (merge with `call_Back`, new vLLM will require python side implementation)](00560-p2-finalizing-the-websocket-merge-with-call-back-new-vllm-wi.md) | 🟢 Open | [@tcharchian](https://github.com/tcharchian) | 2026-06-24 |
-| [554](00554-p2-free-inference-exploit.md) | [[P2] Free inference exploit](00554-p2-free-inference-exploit.md) | 🔴 Closed | [@akup](https://github.com/akup) | 2026-04-04 |
-| [465](00465-add-a-transaction-for-deleting-the-governance-model-it-needs.md) | [Add a transaction for deleting the governance model. It needs to be added and verified to ensure it does not affect operations in the current epoch](00465-add-a-transaction-for-deleting-the-governance-model-it-needs.md) | 🔴 Closed | [@tcharchian](https://github.com/tcharchian) | 2026-03-12 |
-| [412](00412-p2-mlnode-token-based-authentication-and-fqdn-support.md) | [[P2] MLNode Token-Based Authentication and FQDN Support](00412-p2-mlnode-token-based-authentication-and-fqdn-support.md) | 🟢 Open | [@gmorgachev](https://github.com/gmorgachev) | 2026-06-27 |
+<ul class="issues-list">
+<li class="issues-list-item">
+  <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
+      <a href="../../01225-p2-clean-pow-from-mlnode-and-keep-poc-networking-patch-local/">[P2] Clean PoW from MLNode and keep PoC networking patch local</a>
+      <span class="issues-number">#1225</span>
+    </div>
+    <div class="issues-meta">
+      <span class="issues-meta-item">@tcharchian opened 2026-05-21</span>
+    </div>
+  </div>
+</li>
+<li class="issues-list-item">
+  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
+      <a href="../../01028-devshards-sessionconfig-setting-by-governmant/">`devshards` `SessionConfig` setting by governmant</a>
+      <span class="issues-number">#1028</span>
+    </div>
+    <div class="issues-meta">
+      <span class="issues-meta-item">@akup opened 2026-04-07</span>
+    </div>
+  </div>
+</li>
+<li class="issues-list-item">
+  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
+      <a href="../../01019-subnetctl-inference-error-handling/">subnetctl: inference error handling</a>
+      <span class="issues-number">#1019</span>
+    </div>
+    <div class="issues-meta">
+      <span class="issues-meta-item">@akup opened 2026-04-06</span>
+    </div>
+  </div>
+</li>
+<li class="issues-list-item">
+  <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
+      <a href="../../00936-devshards-implement-aggregated-bls-signatures/">`devshards`: Implement aggregated BLS signatures</a>
+      <span class="issues-number">#936</span>
+    </div>
+    <div class="issues-meta">
+      <span class="issues-meta-item">@dcastro opened 2026-03-23</span>
+    </div>
+  </div>
+</li>
+<li class="issues-list-item">
+  <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
+      <a href="../../00896-devshards-research-aggregated-bls-signatures/">`devshards`: Research aggregated BLS signatures</a>
+      <span class="issues-number">#896</span>
+    </div>
+    <div class="issues-meta">
+      <span class="issues-meta-item">@heitor-lassarote opened 2026-03-16</span>
+    </div>
+  </div>
+</li>
+<li class="issues-list-item">
+  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
+      <a href="../../00865-hardcoded-dummy-tls-keycerts-used-for-gloo-transport-in-trai/">Hard‑coded dummy TLS key/certs used for Gloo transport in training manager Body</a>
+      <span class="issues-number">#865</span>
+    </div>
+    <div class="issues-meta">
+      <span class="issues-meta-item">@VVSMEN opened 2026-03-05</span>
+    </div>
+  </div>
+</li>
+<li class="issues-list-item">
+  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
+      <a href="../../00863-potential-rce-via-torchload-in-ml-training-pipeline/">Potential RCE via `torch.load()` in ML Training Pipeline</a>
+      <span class="issues-number">#863</span>
+    </div>
+    <div class="issues-meta">
+      <span class="issues-meta-item">@VVSMEN opened 2026-03-05</span>
+    </div>
+  </div>
+</li>
+<li class="issues-list-item">
+  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
+      <a href="../../00784-p2-possible-underfunded-issues/">[P2] Possible underfunded issues</a>
+      <span class="issues-number">#784</span>
+    </div>
+    <div class="issues-meta">
+      <span class="issues-meta-item">@tcharchian opened 2026-02-20</span>
+    </div>
+  </div>
+</li>
+<li class="issues-list-item">
+  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
+      <a href="../../00742-p2-deleting-poc-v1-extend-state-endpoint-with-poc-metadata/">[P2] Deleting PoC v1 + Extend state endpoint with PoC metadata</a>
+      <span class="issues-number">#742</span>
+    </div>
+    <div class="issues-meta">
+      <span class="issues-meta-item">@IgnatovFedor opened 2026-02-12</span>
+    </div>
+  </div>
+</li>
+<li class="issues-list-item">
+  <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
+      <a href="../../00560-p2-finalizing-the-websocket-merge-with-call-back-new-vllm-wi/">[P2] Finalizing the WebSocket (merge with `call_Back`, new vLLM will require python side implementation)</a>
+      <span class="issues-number">#560</span>
+    </div>
+    <div class="issues-meta">
+      <span class="issues-meta-item">@tcharchian opened 2026-01-15</span>
+    </div>
+  </div>
+</li>
+<li class="issues-list-item">
+  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
+      <a href="../../00554-p2-free-inference-exploit/">[P2] Free inference exploit</a>
+      <span class="issues-number">#554</span>
+    </div>
+    <div class="issues-meta">
+      <span class="issues-meta-item">@akup opened 2026-01-14</span>
+    </div>
+  </div>
+</li>
+<li class="issues-list-item">
+  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
+      <a href="../../00465-add-a-transaction-for-deleting-the-governance-model-it-needs/">Add a transaction for deleting the governance model. It needs to be added and verified to ensure it does not affect operations in the current epoch</a>
+      <span class="issues-number">#465</span>
+    </div>
+    <div class="issues-meta">
+      <span class="issues-meta-item">@tcharchian opened 2025-12-03</span>
+    </div>
+  </div>
+</li>
+<li class="issues-list-item">
+  <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
+      <a href="../../00412-p2-mlnode-token-based-authentication-and-fqdn-support/">[P2] MLNode Token-Based Authentication and FQDN Support</a>
+      <span class="issues-number">#412</span>
+    </div>
+    <div class="issues-meta">
+      <span class="issues-meta-item">@gmorgachev opened 2025-10-31</span>
+    </div>
+  </div>
+</li>
+</ul>
