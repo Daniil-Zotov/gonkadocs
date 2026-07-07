@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item"><a href="https://github.com/Mayveskii">@Mayveskii</a> opened 2026-04-15 19:40 UTC</span>
+    <span class="issues-meta-item">[@Mayveskii](https://github.com/Mayveskii) opened 2026-04-15 19:40 UTC</span>
     <span class="issues-meta-item">5 comments</span>
     <span class="issues-meta-item">Updated 2026-04-28 20:55 UTC</span>
   </div>
@@ -63,22 +63,25 @@ This was identified during audit of payout error handling in the inference escro
     <span>[@Doog-bot534](https://github.com/Doog-bot534)</span>
     <span class="issues-meta-item">commented 2026-04-16 03:08 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>This issue aligns with the finding in our security audit (#1053, finding #3) and the fix submitted in PR #1051.</p>
-<p>Our PR #1051 takes the simpler approach (return error without calling <code>finishSettle</code>), while the <code>CacheContext</code> approach described here is more comprehensive and aligned with the pattern in PR #948. Happy to update #1051 to use <code>CacheContext</code> if the maintainers prefer that approach.</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    This issue aligns with the finding in our security audit (#1053, finding #3) and the fix submitted in PR #1051.
+
+Our PR #1051 takes the simpler approach (return error without calling `finishSettle`), while the `CacheContext` approach described here is more comprehensive and aligned with the pattern in PR #948. Happy to update #1051 to use `CacheContext` if the maintainers prefer that approach.
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/Mayveskii">@Mayveskii</a></span>
+    <span>[@Mayveskii](https://github.com/Mayveskii)</span>
     <span class="issues-meta-item">commented 2026-04-16 03:37 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<blockquote>
-<p>This issue aligns with the finding in our security audit (<a href="https://github.com/gonka-ai/gonka/issues/1053">#1053</a>, finding <a href="https://github.com/gonka-ai/gonka/pull/3">#3</a>) and the fix submitted in PR <a href="https://github.com/gonka-ai/gonka/pull/1051">#1051</a>.</p>
-<p>Our PR <a href="https://github.com/gonka-ai/gonka/pull/1051">#1051</a> takes the simpler approach (return error without calling <code>finishSettle</code>), while the <code>CacheContext</code> approach described here is more comprehensive and aligned with the pattern in PR <a href="https://github.com/gonka-ai/gonka/pull/948">#948</a>. Happy to update <a href="https://github.com/gonka-ai/gonka/pull/1051">#1051</a> to use <code>CacheContext</code> if the maintainers prefer that approach.</p>
-</blockquote>
-<p>Thanks for the context and the alignment with #1053 finding #3.
+  <div class="issues-comment-body issues-content" markdown="1">
+    > This issue aligns with the finding in our security audit ([#1053](https://github.com/gonka-ai/gonka/issues/1053), finding [#3](https://github.com/gonka-ai/gonka/pull/3)) and the fix submitted in PR [#1051](https://github.com/gonka-ai/gonka/pull/1051).
+> 
+> Our PR [#1051](https://github.com/gonka-ai/gonka/pull/1051) takes the simpler approach (return error without calling `finishSettle`), while the `CacheContext` approach described here is more comprehensive and aligned with the pattern in PR [#948](https://github.com/gonka-ai/gonka/pull/948). Happy to update [#1051](https://github.com/gonka-ai/gonka/pull/1051) to use `CacheContext` if the maintainers prefer that approach.
+
+
+
+Thanks for the context and the alignment with #1053 finding #3.
 For the maintainers' visibility: the fix proposed in this issue and the approach in PR #1051 were already proposed and implemented in commit ec5e453 (https://github.com/gonka-ai/gonka/commit/ec5e453) and PR #1016 (https://github.com/gonka-ai/gonka/pull/1016) (opened Apr 5, closed without merge). It is closed cause of terms of visibily bugs finding that the team set in contrib proccess. That commit predates PR #1051 by 10 days and includes both the error propagation fix and a unit test (TestClaimRewards_PayoutRewardFailure_RollsBackState).
 The approach in ec5e453 goes further than just removing finishSettle:
 1. ClaimRewards: return payoutResponse, nil → return nil, payoutErr — the critical line that enables full TX rollback
@@ -86,7 +89,7 @@ The approach in ec5e453 goes further than just removing finishSettle:
 3. handleUnderfundedWork: finishSettle removed — Cosmos SDK rollback preserves SettleAmount for retry
 4. Unit test: verifies error propagation and that SettleAmount remains in store after failure
 Happy to re-submit as a new PR from Mayveskii/gonka if the maintainers prefer the full approach.
-Regarding the label — this is a bug (fund loss on payment failure), not an enhancement. Could a maintainer update the label from enhancement to bug?</p>
+Regarding the label — this is a bug (fund loss on payment failure), not an enhancement. Could a maintainer update the label from enhancement to bug?
   </div>
 </div>
 <div class="issues-comment">
@@ -94,27 +97,28 @@ Regarding the label — this is a bug (fund loss on payment failure), not an enh
     <span>[@Doog-bot534](https://github.com/Doog-bot534)</span>
     <span class="issues-meta-item">commented 2026-04-16 12:09 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>Good catch on the timeline — I wasn't aware of PR #1016 and commit ec5e453 when I filed #1051. My fix came independently from the audit in #1053 (finding #3), but yours clearly predates it and covers more ground (full TX rollback + unit test). Happy to defer to whichever approach the maintainers prefer. Agreed this should be labeled as bug, not enhancement.</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    Good catch on the timeline — I wasn't aware of PR #1016 and commit ec5e453 when I filed #1051. My fix came independently from the audit in #1053 (finding #3), but yours clearly predates it and covers more ground (full TX rollback + unit test). Happy to defer to whichever approach the maintainers prefer. Agreed this should be labeled as bug, not enhancement.
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/Mayveskii">@Mayveskii</a></span>
+    <span>[@Mayveskii](https://github.com/Mayveskii)</span>
     <span class="issues-meta-item">commented 2026-04-28 19:09 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>@x0152 watch out this one , please</p> 
+  <div class="issues-comment-body issues-content" markdown="1">
+    @x0152 watch out this one , please 
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/x0152">@x0152</a></span>
+    <span>[@x0152](https://github.com/x0152)</span>
     <span class="issues-meta-item">commented 2026-04-28 20:55 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>There were additional non-atomic paths, and they were fully addressed in #789</p>
-<p>Closing as resolved</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    There were additional non-atomic paths, and they were fully addressed in #789
+
+Closing as resolved
   </div>
 </div>
 

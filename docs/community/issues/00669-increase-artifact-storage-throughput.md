@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item"><a href="https://github.com/IgnatovFedor">@IgnatovFedor</a> opened 2026-01-30 06:56 UTC</span>
+    <span class="issues-meta-item">[@IgnatovFedor](https://github.com/IgnatovFedor) opened 2026-01-30 06:56 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-02-06 17:33 UTC</span>
   </div>
@@ -31,11 +31,11 @@ template: issues-main.html
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/DimaOrekhovPS">@DimaOrekhovPS</a></span>
+    <span>[@DimaOrekhovPS](https://github.com/DimaOrekhovPS)</span>
     <span class="issues-meta-item">commented 2026-02-06 17:33 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>@IgnatovFedor @tcharchian Do we want to create a different issue for further improving the storage throughput?</p> 
+  <div class="issues-comment-body issues-content" markdown="1">
+    @IgnatovFedor @tcharchian Do we want to create a different issue for further improving the storage throughput? 
   </div>
 </div>
 

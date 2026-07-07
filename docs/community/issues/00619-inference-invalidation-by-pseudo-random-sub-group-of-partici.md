@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-23 00:24 UTC</span>
+    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-23 00:24 UTC</span>
     <span class="issues-meta-item">4 comments</span>
     <span class="issues-meta-item">Updated 2026-03-23 05:53 UTC</span>
   </div>
@@ -31,39 +31,39 @@ template: issues-main.html
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-01-24 00:15 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>@akup is ready to take ownership of this issue. please try to assign issue to yourself</p> 
+  <div class="issues-comment-body issues-content" markdown="1">
+    @akup is ready to take ownership of this issue. please try to assign issue to yourself 
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/akup">@akup</a></span>
+    <span>[@akup](https://github.com/akup)</span>
     <span class="issues-meta-item">commented 2026-01-28 03:16 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>@tcharchian seams I need to leave a comment first</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    @tcharchian seams I need to leave a comment first
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-03-22 23:14 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>Hey @akup @gmorgachev @0xgonka, do you think it makes sense to keep this issue open for now, or would you recommend closing it already?</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    Hey @akup @gmorgachev @0xgonka, do you think it makes sense to keep this issue open for now, or would you recommend closing it already?
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/akup">@akup</a></span>
+    <span>[@akup](https://github.com/akup)</span>
     <span class="issues-meta-item">commented 2026-03-23 05:53 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>@tcharchian I have a ready solution on this.
-But I need to make few related PRs first. I will do it in next 24h</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    @tcharchian I have a ready solution on this.
+But I need to make few related PRs first. I will do it in next 24h
   </div>
 </div>
 

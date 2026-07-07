@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item"><a href="https://github.com/Puyre">@Puyre</a> opened 2026-06-10 15:34 UTC</span>
+    <span class="issues-meta-item">[@Puyre](https://github.com/Puyre) opened 2026-06-10 15:34 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-06-23 23:29 UTC</span>
   </div>
@@ -92,15 +92,19 @@ Rogi AI
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-06-23 23:29 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>Hi @Puyre!</p>
-<p>On the direct question (a broker API key for node4 specifically): there isn't a public self-serve onboarding process to point you to. node4 is the public gateway that was stood up during the early rollout — whitelisted and rate-limited, intended for demos and bootstrap testing rather than as a production backend. The handful of broker keys behind it were early access arrangements, not an open application flow, and that bootstrap directory isn't being actively expanded. So the <code>requires an API key</code> response you're seeing on node4 isn't something there's a documented "apply here" path to resolve — which is also why the signed-wallet SDK path doesn't work against it without one. The two paths that <em>are</em> governed and documented are: consume through an existing community broker, or operate your own allowlisted devshard gateway (on-chain governance allowlist).</p>
-<p>For what you're actually building, the closest fit is a managed devshard endpoint. One community option is <strong>OpenBroker</strong> (run by Gonka Labs https://github.com/gonka-ai/gonka/discussions/1363): it gives you programmatic devshard access (v1, v2, and future versions) under a wallet that's already whitelisted to operate escrows, so you get the "just hit an endpoint and go" behavior of node4 but built for production rather than demos — no rate limits, no escrow lifecycle on your side, GNK billing with no markup (not a USD reseller), and public per-request/network observability.</p>
-<p>It maps directly onto your fallback architecture (Gonka primary → OpenRouter fallback): just make OpenBroker the primary base_url. </p>
-<p>OpenBroker is an <strong>independent third party</strong>, not part of the core protocol — pricing, models, limits, and data handling are set by the operator, so evaluate it on its own merits. If you later decide you do want to operate your own escrows after all, the on-chain allowlist route stays open.</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    Hi @Puyre!
+
+On the direct question (a broker API key for node4 specifically): there isn't a public self-serve onboarding process to point you to. node4 is the public gateway that was stood up during the early rollout — whitelisted and rate-limited, intended for demos and bootstrap testing rather than as a production backend. The handful of broker keys behind it were early access arrangements, not an open application flow, and that bootstrap directory isn't being actively expanded. So the `requires an API key` response you're seeing on node4 isn't something there's a documented "apply here" path to resolve — which is also why the signed-wallet SDK path doesn't work against it without one. The two paths that *are* governed and documented are: consume through an existing community broker, or operate your own allowlisted devshard gateway (on-chain governance allowlist).
+
+For what you're actually building, the closest fit is a managed devshard endpoint. One community option is **OpenBroker** (run by Gonka Labs https://github.com/gonka-ai/gonka/discussions/1363): it gives you programmatic devshard access (v1, v2, and future versions) under a wallet that's already whitelisted to operate escrows, so you get the "just hit an endpoint and go" behavior of node4 but built for production rather than demos — no rate limits, no escrow lifecycle on your side, GNK billing with no markup (not a USD reseller), and public per-request/network observability.
+
+It maps directly onto your fallback architecture (Gonka primary → OpenRouter fallback): just make OpenBroker the primary base_url. 
+
+OpenBroker is an **independent third party**, not part of the core protocol — pricing, models, limits, and data handling are set by the operator, so evaluate it on its own merits. If you later decide you do want to operate your own escrows after all, the on-chain allowlist route stays open.
   </div>
 </div>
 

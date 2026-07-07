@@ -31,11 +31,11 @@ gonka.db of dapi has priority over node-config.json and keep first settings of n
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/joesun1983">@joesun1983</a></span>
+    <span>[@joesun1983](https://github.com/joesun1983)</span>
     <span class="issues-meta-item">commented 2025-11-07 09:01 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>try to use the admin api  /admin/v1/nodes to update node config</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    try to use the admin api  /admin/v1/nodes to update node config
   </div>
 </div>
 

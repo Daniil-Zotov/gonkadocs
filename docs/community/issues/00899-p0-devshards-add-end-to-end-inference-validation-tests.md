@@ -34,17 +34,17 @@ We should write testermint tests to ensure that inference validations in `devsha
     <span>[@heitor-lassarote](https://github.com/heitor-lassarote)</span>
     <span class="issues-meta-item">commented 2026-03-19 17:46 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>Note: I took a little detour from this task to see if I can make the development loop with testermint a bit quicker, by writing a small REPL to interact with the <code>devshard</code>.</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    Note: I took a little detour from this task to see if I can make the development loop with testermint a bit quicker, by writing a small REPL to interact with the `devshard`.
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/KKizilov">@KKizilov</a></span>
+    <span>[@KKizilov](https://github.com/KKizilov)</span>
     <span class="issues-meta-item">commented 2026-03-26 15:14 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>Will be done by March 27th.</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    Will be done by March 27th.
   </div>
 </div>
 <div class="issues-comment">
@@ -52,10 +52,12 @@ We should write testermint tests to ensure that inference validations in `devsha
     <span>[@heitor-lassarote](https://github.com/heitor-lassarote)</span>
     <span class="issues-meta-item">commented 2026-03-26 15:31 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>I've written a couple of Testermint tests and added an endpoint to get the inference from the proxy server.</p>
-<p>Recently I've been trying to see about changing the session configuration for tests. Although not sure yet if that's the best path forward.</p>
-<p>I expect to push a PR with these tests very soon.</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    I've written a couple of Testermint tests and added an endpoint to get the inference from the proxy server.
+
+Recently I've been trying to see about changing the session configuration for tests. Although not sure yet if that's the best path forward.
+
+I expect to push a PR with these tests very soon.
   </div>
 </div>
 

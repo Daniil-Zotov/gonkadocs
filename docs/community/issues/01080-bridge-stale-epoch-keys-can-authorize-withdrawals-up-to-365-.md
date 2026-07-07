@@ -84,21 +84,21 @@ Payout address: `gonka10zaal553duxp05nvfpqtsqrm2g0j6j34r8nan7`
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/Ryanchen911">@Ryanchen911</a></span>
+    <span>[@Ryanchen911](https://github.com/Ryanchen911)</span>
     <span class="issues-meta-item">commented 2026-06-23 05:59 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>hi @tcharchian , does this issue need help, maybe I can fix it.</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    hi @tcharchian , does this issue need help, maybe I can fix it.
 
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-06-25 01:46 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>Hey @Ryanchen911, let's wait for triage from @GLiberman first please</p> 
+  <div class="issues-comment-body issues-content" markdown="1">
+    Hey @Ryanchen911, let's wait for triage from @GLiberman first please 
   </div>
 </div>
 

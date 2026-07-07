@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item"><a href="https://github.com/VaniaHilkovets">@VaniaHilkovets</a> opened 2025-11-14 12:45 UTC</span>
+    <span class="issues-meta-item">[@VaniaHilkovets](https://github.com/VaniaHilkovets) opened 2025-11-14 12:45 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-02-08 14:14 UTC</span>
   </div>
@@ -100,12 +100,13 @@ Thank you.
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/AlexeySamosadov">@AlexeySamosadov</a></span>
+    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
     <span class="issues-meta-item">commented 2026-02-08 14:14 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>PR created: https://github.com/gonka-ai/gonka/pull/681</p>
-<p>Uses current block height for ABCI queries.</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    PR created: https://github.com/gonka-ai/gonka/pull/681
+
+Uses current block height for ABCI queries.
   </div>
 </div>
 

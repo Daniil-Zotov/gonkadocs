@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2025-09-03 23:20 UTC</span>
+    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2025-09-03 23:20 UTC</span>
     <span class="issues-meta-item">2 comments</span>
     <span class="issues-meta-item">Updated 2026-03-05 23:42 UTC</span>
   </div>
@@ -31,20 +31,20 @@ template: issues-main.html
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-02-28 00:24 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>https://docs.google.com/document/d/1JGbGSAUdedTyd2lqv0314f7unT7-Tm8Xw9Iw2stR1KM/edit?tab=t.0#heading=h.6nthq29wk7fx</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    https://docs.google.com/document/d/1JGbGSAUdedTyd2lqv0314f7unT7-Tm8Xw9Iw2stR1KM/edit?tab=t.0#heading=h.6nthq29wk7fx
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-03-05 23:42 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>https://medium.com/p/04153af31dfa</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    https://medium.com/p/04153af31dfa
   </div>
 </div>
 

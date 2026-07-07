@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-02-11 01:28 UTC</span>
+    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-11 01:28 UTC</span>
     <span class="issues-meta-item">3 comments</span>
     <span class="issues-meta-item">Updated 2026-03-11 19:54 UTC</span>
   </div>
@@ -31,33 +31,31 @@ template: issues-main.html
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/tamazgadaev">@tamazgadaev</a></span>
+    <span>[@tamazgadaev](https://github.com/tamazgadaev)</span>
     <span class="issues-meta-item">commented 2026-03-02 01:18 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<ul>
-<li>Fix the 400/422 issue in API container</li>
-<li>Adjust thresholds a little bit (onchain, not API)</li>
-<li>Do one of the two: a) ignore -9999 logprobs in validation b) enforce top_p and top_k in requests (a) preferred)</li>
-</ul>
+  <div class="issues-comment-body issues-content" markdown="1">
+    - Fix the 400/422 issue in API container
+- Adjust thresholds a little bit (onchain, not API)
+- Do one of the two: a) ignore -9999 logprobs in validation b) enforce top_p and top_k in requests (a) preferred)
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/tamazgadaev">@tamazgadaev</a></span>
+    <span>[@tamazgadaev](https://github.com/tamazgadaev)</span>
     <span class="issues-meta-item">commented 2026-03-03 03:06 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>Actually, we don't strictly need any of these 3 for smooth migration. 1 is desirable, 2 nice to have (and we'll get the threshold values), 3 is not needed</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    Actually, we don't strictly need any of these 3 for smooth migration. 1 is desirable, 2 nice to have (and we'll get the threshold values), 3 is not needed
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/gmorgachev">@gmorgachev</a></span>
+    <span>[@gmorgachev](https://github.com/gmorgachev)</span>
     <span class="issues-meta-item">commented 2026-03-11 19:54 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>i think we need to close this one. fix 400/422 is independent bug to fix</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    i think we need to close this one. fix 400/422 is independent bug to fix
   </div>
 </div>
 

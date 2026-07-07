@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item"><a href="https://github.com/Puyre">@Puyre</a> opened 2026-06-08 15:13 UTC</span>
+    <span class="issues-meta-item">[@Puyre](https://github.com/Puyre) opened 2026-06-08 15:13 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-06-10 15:20 UTC</span>
   </div>
@@ -97,12 +97,12 @@ Rogi AI
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/Puyre">@Puyre</a></span>
+    <span>[@Puyre](https://github.com/Puyre)</span>
     <span class="issues-meta-item">commented 2026-06-10 15:20 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>Closing this — after checking with the Gonka community, I realized we don't need to run our own devshard. Getting a broker key to send requests through node4 will be enough for our case.
-I'll likely open a separate issue requesting a broker key (or asking for documentation on how one can be obtained).</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    Closing this — after checking with the Gonka community, I realized we don't need to run our own devshard. Getting a broker key to send requests through node4 will be enough for our case.
+I'll likely open a separate issue requesting a broker key (or asking for documentation on how one can be obtained).
   </div>
 </div>
 

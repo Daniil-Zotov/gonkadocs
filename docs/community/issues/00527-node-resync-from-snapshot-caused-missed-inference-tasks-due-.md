@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item"><a href="https://github.com/bingcongxihaha">@bingcongxihaha</a> opened 2026-01-06 16:35 UTC</span>
+    <span class="issues-meta-item">[@bingcongxihaha](https://github.com/bingcongxihaha) opened 2026-01-06 16:35 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-01-22 00:08 UTC</span>
   </div>
@@ -43,14 +43,16 @@ Thanks in advance for your help.
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-01-22 00:08 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>Hi @bingcongxihaha! Unfortunately, no inference tasks that are missed while a node is offline (e.g. during resync) cannot be recovered or compensated retroactively. Inference assignment and PoC are performed in real time. If a node is not running and serving requests during that period, those inference opportunities are simply lost.  </p>
-<p>The goal is to prevent forced resyncs by controlling database growth and disk usage.</p>
-<p>Cosmovisor creates a full backup of the .<code>inference/data</code> directory during upgrades. Make sure sufficient disk space is available. If disk usage is high, older backups in <code>.inference</code> <a href="https://gonka.ai/FAQ/#how-much-free-disk-space-is-required-for-a-cosmovisor-update-and-how-can-i-safely-remove-old-backups-from-the-inference-directory">can be safely removed. </a>
-Large <code>application.db</code> files can be reduced using <a href="https://gonka.ai/FAQ/#why-is-my-applicationdb-growing-so-large-and-how-do-i-fix-it">these techniques.</a></p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    Hi @bingcongxihaha! Unfortunately, no inference tasks that are missed while a node is offline (e.g. during resync) cannot be recovered or compensated retroactively. Inference assignment and PoC are performed in real time. If a node is not running and serving requests during that period, those inference opportunities are simply lost.  
+
+The goal is to prevent forced resyncs by controlling database growth and disk usage.
+
+Cosmovisor creates a full backup of the .`inference/data` directory during upgrades. Make sure sufficient disk space is available. If disk usage is high, older backups in `.inference` [can be safely removed. ](https://gonka.ai/FAQ/#how-much-free-disk-space-is-required-for-a-cosmovisor-update-and-how-can-i-safely-remove-old-backups-from-the-inference-directory)
+Large `application.db` files can be reduced using [these techniques.](https://gonka.ai/FAQ/#why-is-my-applicationdb-growing-so-large-and-how-do-i-fix-it)
   </div>
 </div>
 

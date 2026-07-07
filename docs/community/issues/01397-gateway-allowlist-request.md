@@ -59,22 +59,31 @@ the network if useful.
     <span>[@yuritsin-code](https://github.com/yuritsin-code)</span>
     <span class="issues-meta-item">commented 2026-07-04 17:14 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>Hi Gonka team,</p>
-<p>We've been analyzing the devshard protocol to understand how multi-turn agent workloads perform on the network, and we have two questions based on our code review.</p>
-<h3>1. Executor affinity for consecutive nonces</h3>
-<p>We traced the routing logic in the open-source code:</p>
-<ul>
-<li><code>devshard/user/session.go:592</code>: <code>hostIdx := int(nonce % uint64(len(s.group)))</code></li>
-<li><code>devshard/host/host.go:743</code>: <code>executorSlot := h.group[start.InferenceId%uint64(len(h.group))].SlotID</code></li>
-<li><code>devshard/user/session.go:724</code>: <code>InferenceId: nonce</code></li>
-</ul>
-<p>This means each nonce is routed to <code>nonce % len(group)</code>, and since InferenceId == nonce, the target host IS the executor. Consecutive nonces are distributed round-robin across the group.</p>
-<p><strong>Question:</strong> For multi-turn agent conversations where each turn is a new nonce, does the round-robin rotation mean that turns go to different executors (breaking KV-cache affinity), or is there a mechanism (group_size=1 for agent sessions, sticky routing, or a different code path) that keeps a conversation on the same executor?</p>
-<h3>2. vLLM prefix caching status</h3>
-<p>We reviewed the reference <code>node-config.json</code> files in <code>deploy/join/</code> and the participant quickstart docs. None include <code>--enable-prefix-caching</code>. Since vLLM 0.6.0+ requires this flag explicitly (it was default before), we cannot determine if prefix caching is active on Gonka nodes.</p>
-<p><strong>Question:</strong> Is vLLM Automatic Prefix Caching enabled on Gonka inference nodes? What vLLM version does MLNode use?</p>
-<p>Thanks for your time — this helps us understand the right strategy for deploying agent workloads on Gonka.</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    
+Hi Gonka team,
+
+We've been analyzing the devshard protocol to understand how multi-turn agent workloads perform on the network, and we have two questions based on our code review.
+
+### 1. Executor affinity for consecutive nonces
+
+We traced the routing logic in the open-source code:
+
+- `devshard/user/session.go:592`: `hostIdx := int(nonce % uint64(len(s.group)))`
+- `devshard/host/host.go:743`: `executorSlot := h.group[start.InferenceId%uint64(len(h.group))].SlotID`
+- `devshard/user/session.go:724`: `InferenceId: nonce`
+
+This means each nonce is routed to `nonce % len(group)`, and since InferenceId == nonce, the target host IS the executor. Consecutive nonces are distributed round-robin across the group.
+
+**Question:** For multi-turn agent conversations where each turn is a new nonce, does the round-robin rotation mean that turns go to different executors (breaking KV-cache affinity), or is there a mechanism (group_size=1 for agent sessions, sticky routing, or a different code path) that keeps a conversation on the same executor?
+
+### 2. vLLM prefix caching status
+
+We reviewed the reference `node-config.json` files in `deploy/join/` and the participant quickstart docs. None include `--enable-prefix-caching`. Since vLLM 0.6.0+ requires this flag explicitly (it was default before), we cannot determine if prefix caching is active on Gonka nodes.
+
+**Question:** Is vLLM Automatic Prefix Caching enabled on Gonka inference nodes? What vLLM version does MLNode use?
+
+Thanks for your time — this helps us understand the right strategy for deploying agent workloads on Gonka.
 
   </div>
 </div>

@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-27 19:04 UTC</span>
+    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-27 19:04 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-03-12 18:29 UTC</span>
   </div>
@@ -35,12 +35,13 @@ As Gonka is a Cosmos-based project that uses CometBFT, Certik kindly recommends 
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/AlexeySamosadov">@AlexeySamosadov</a></span>
+    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
     <span class="issues-meta-item">commented 2026-02-08 14:14 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>PR created: https://github.com/gonka-ai/gonka/pull/675</p>
-<p>Updates CometBFT to v0.38.21 to fix the Tachyon vulnerability (CSA-2026-001).</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    PR created: https://github.com/gonka-ai/gonka/pull/675
+
+Updates CometBFT to v0.38.21 to fix the Tachyon vulnerability (CSA-2026-001).
   </div>
 </div>
 

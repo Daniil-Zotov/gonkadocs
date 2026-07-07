@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item"><a href="https://github.com/unameisfine">@unameisfine</a> opened 2026-04-26 22:40 UTC</span>
+    <span class="issues-meta-item">[@unameisfine](https://github.com/unameisfine) opened 2026-04-26 22:40 UTC</span>
     <span class="issues-meta-item">2 comments</span>
     <span class="issues-meta-item">Updated 2026-05-21 21:03 UTC</span>
   </div>
@@ -168,25 +168,27 @@ or any benchmark scripts on request.
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/gonkalabs">@gonkalabs</a></span>
+    <span>[@gonkalabs](https://github.com/gonkalabs)</span>
     <span class="issues-meta-item">commented 2026-04-30 09:52 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>Hey @unameisfine - this is the GonkaLabs team.</p>
-<p>To address your question about proxy.gonka.gg consistently sitting above 90% uptime: no, we don't have any special privileges on the network. Here's what's actually under the hood:</p>
-<p>Smart TA rotation - we hop between Transfer Agents instead of pinning to a single one, so a slow or rate-limited TA never blocks the pipeline.
+  <div class="issues-comment-body issues-content" markdown="1">
+    Hey @unameisfine - this is the GonkaLabs team.
+
+To address your question about proxy.gonka.gg consistently sitting above 90% uptime: no, we don't have any special privileges on the network. Here's what's actually under the hood:
+
+Smart TA rotation - we hop between Transfer Agents instead of pinning to a single one, so a slow or rate-limited TA never blocks the pipeline.
 A small upstream wallet pool (3 wallets) - purely for distributing signing load across multiple identities. It doesn't grant any special standing on the network; any user can do the same.
 Configuration tuned via an autoresearch loop - we ran a Karpathy-style trial-and-error loop on the proxy's configuration, optimizing for a single metric: percentage of successful chat completions. Once you have a clean metric, almost any system can be improved by iterating on it.
-So the answer is just: aggressive tuning, nothing more. Everything is open source at https://github.com/gonkalabs/opengnk — feel free to fork it and reproduce the same results.</p>
+So the answer is just: aggressive tuning, nothing more. Everything is open source at https://github.com/gonkalabs/opengnk — feel free to fork it and reproduce the same results.
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-05-21 21:03 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>@unameisfine Please note that the Developer Quickstart has been significantly updated: https://gonka.ai/docs/developer/quickstart/ If you still have any questions after reviewing it, please create a new issue.</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    @unameisfine Please note that the Developer Quickstart has been significantly updated: https://gonka.ai/docs/developer/quickstart/ If you still have any questions after reviewing it, please create a new issue.
   </div>
 </div>
 

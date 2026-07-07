@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 2026-03-23 11:17 UTC</span>
+    <span class="issues-meta-item">[@dcastro](https://github.com/dcastro) opened 2026-03-23 11:17 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-04-29 21:14 UTC</span>
   </div>
@@ -35,11 +35,11 @@ See #896
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-04-29 21:14 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>postpone after Upgrade v0.x.x-devshard2</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    postpone after Upgrade v0.x.x-devshard2
   </div>
 </div>
 

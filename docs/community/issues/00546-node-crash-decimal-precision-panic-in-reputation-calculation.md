@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item"><a href="https://github.com/Olena">@Olena</a> opened 2026-01-12 10:29 UTC</span>
+    <span class="issues-meta-item">[@Olena](https://github.com/Olena) opened 2026-01-12 10:29 UTC</span>
     <span class="issues-meta-item">3 comments</span>
     <span class="issues-meta-item">Updated 2026-01-21 21:11 UTC</span>
   </div>
@@ -218,33 +218,34 @@ Reporter: Node operator with detailed logs and crash dumps available Status: ⚠
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/patimen">@patimen</a></span>
+    <span>[@patimen](https://github.com/patimen)</span>
     <span class="issues-meta-item">commented 2026-01-12 18:14 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>Can you provide a full stack trace for the panic? I do not see any remaining uses of LegacyMustNewDecFromStr.
-For most of the chain, we <em>only</em> use <code>shopspring</code> decimals, not Legacy. In fact, I cannot find places where we use it outside of BLS and chainvalidation.go (and there for only one value quickly)</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    Can you provide a full stack trace for the panic? I do not see any remaining uses of LegacyMustNewDecFromStr.
+For most of the chain, we _only_ use `shopspring` decimals, not Legacy. In fact, I cannot find places where we use it outside of BLS and chainvalidation.go (and there for only one value quickly)
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-01-21 19:54 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>@Olena please take a look at the question above.</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    @Olena please take a look at the question above.
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/gmorgachev">@gmorgachev</a></span>
+    <span>[@gmorgachev](https://github.com/gmorgachev)</span>
     <span class="issues-meta-item">commented 2026-01-21 21:11 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>The log above contains exact issue from <code>ApplyBLSGuardianSlotReservation</code> (0.032335451875111843916048462901 is exact number and error which was in initial issues)
-=&gt; with high probability it's not another issue
-If it'd be one more issue in inference module, the whole chain would halt. I assume 0.2.7 binary was used (e.g. <code>.inference/cosmovisor</code> directory was recreated or symlinks inside modified)</p>
-<p>Closing if there is no new info</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    The log above contains exact issue from `ApplyBLSGuardianSlotReservation` (0.032335451875111843916048462901 is exact number and error which was in initial issues)
+=> with high probability it's not another issue
+If it'd be one more issue in inference module, the whole chain would halt. I assume 0.2.7 binary was used (e.g. `.inference/cosmovisor` directory was recreated or symlinks inside modified)
+
+Closing if there is no new info
   </div>
 </div>
 

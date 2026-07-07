@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2025-12-02 20:12 UTC</span>
+    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2025-12-02 20:12 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-01-24 02:14 UTC</span>
   </div>
@@ -64,11 +64,11 @@ The same edge case could happen, it was the only node serving a particular model
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-01-24 02:14 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>Postponing and closing for now.</p> 
+  <div class="issues-comment-body issues-content" markdown="1">
+    Postponing and closing for now. 
   </div>
 </div>
 

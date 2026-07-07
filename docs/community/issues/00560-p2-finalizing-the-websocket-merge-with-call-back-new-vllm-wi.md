@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15 00:34 UTC</span>
+    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15 00:34 UTC</span>
     <span class="issues-meta-item">5 comments</span>
     <span class="issues-meta-item">Updated 2026-06-24 01:06 UTC</span>
   </div>
@@ -31,47 +31,47 @@ template: issues-main.html
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-01-24 00:13 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>@x0152 is taking ownership of this issue. Please try to assign this issue to yourself</p> 
+  <div class="issues-comment-body issues-content" markdown="1">
+    @x0152 is taking ownership of this issue. Please try to assign this issue to yourself 
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-01-27 18:42 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>WIP https://github.com/x0152/gonka/tree/fix/ws-finalize @patimen @x0152</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    WIP https://github.com/x0152/gonka/tree/fix/ws-finalize @patimen @x0152
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/x0152">@x0152</a></span>
+    <span>[@x0152](https://github.com/x0152)</span>
     <span class="issues-meta-item">commented 2026-01-28 11:23 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>commenting to get assigned</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    commenting to get assigned
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-03-21 01:33 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>Hey @x0152 @akup, it would be great if the two of you could align on the next steps for this task and make the key decisions together. If you are able to move it forward independently, this task could be considered for inclusion in v0.2.12. But overall, this is more of a nice-to-have than a must-have.</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    Hey @x0152 @akup, it would be great if the two of you could align on the next steps for this task and make the key decisions together. If you are able to move it forward independently, this task could be considered for inclusion in v0.2.12. But overall, this is more of a nice-to-have than a must-have.
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-05-21 22:53 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>Hey @x0152, it would be great you could make a decision on the next steps for this task. @patimen John can help answer any questions if needed. If you are able to move it forward independently, this task could be considered for inclusion in v0.2.14. But overall, this is more of a nice-to-have than a must-have.</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    Hey @x0152, it would be great you could make a decision on the next steps for this task. @patimen John can help answer any questions if needed. If you are able to move it forward independently, this task could be considered for inclusion in v0.2.14. But overall, this is more of a nice-to-have than a must-have.
   </div>
 </div>
 

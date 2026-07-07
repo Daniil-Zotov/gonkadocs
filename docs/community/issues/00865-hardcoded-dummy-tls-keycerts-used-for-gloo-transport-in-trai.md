@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item"><a href="https://github.com/VVSMEN">@VVSMEN</a> opened 2026-03-05 13:09 UTC</span>
+    <span class="issues-meta-item">[@VVSMEN](https://github.com/VVSMEN) opened 2026-03-05 13:09 UTC</span>
     <span class="issues-meta-item">2 comments</span>
     <span class="issues-meta-item">Updated 2026-03-12 20:24 UTC</span>
   </div>
@@ -94,20 +94,20 @@ def _start(self, train_dict: dict):
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/tamazgadaev">@tamazgadaev</a></span>
+    <span>[@tamazgadaev](https://github.com/tamazgadaev)</span>
     <span class="issues-meta-item">commented 2026-03-12 19:43 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>This was a quick debug fix. Training is not currently supported and basically needs total revision, so I'd say this issue low-priority</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    This was a quick debug fix. Training is not currently supported and basically needs total revision, so I'd say this issue low-priority
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-03-12 20:24 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>It’s hardcoded for test pipeline, on purpose</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    It’s hardcoded for test pipeline, on purpose
   </div>
 </div>
 

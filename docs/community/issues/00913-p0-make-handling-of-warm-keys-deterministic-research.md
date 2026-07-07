@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 2026-03-18 10:28 UTC</span>
+    <span class="issues-meta-item">[@dcastro](https://github.com/dcastro) opened 2026-03-18 10:28 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-07-01 06:17 UTC</span>
   </div>
@@ -36,11 +36,11 @@ We need to think of a solution to make this deterministic, and implement it.
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/KKizilov">@KKizilov</a></span>
+    <span>[@KKizilov](https://github.com/KKizilov)</span>
     <span class="issues-meta-item">commented 2026-03-26 15:20 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>Will be finished by March 27th.</p> 
+  <div class="issues-comment-body issues-content" markdown="1">
+    Will be finished by March 27th. 
   </div>
 </div>
 

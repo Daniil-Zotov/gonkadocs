@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-02-24 19:35 UTC</span>
+    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-24 19:35 UTC</span>
     <span class="issues-meta-item">5 comments</span>
     <span class="issues-meta-item">Updated 2026-02-25 17:50 UTC</span>
   </div>
@@ -56,51 +56,56 @@ Also, collateral needs to be checked.
     <span>[@hleb-albau](https://github.com/hleb-albau)</span>
     <span class="issues-meta-item">commented 2026-02-24 19:53 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>As a workaround(before fix), it is possible to just compress data folder(except some filers) and distribute it as is archive. Quite popular in cosmos world. See https://snapshots.osmosis.zone/index.html as example</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    As a workaround(before fix), it is possible to just compress data folder(except some filers) and distribute it as is archive. Quite popular in cosmos world. See https://snapshots.osmosis.zone/index.html as example
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-02-24 20:11 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>@hleb-albau thanks, that makes sense and it’s a well-known approach in the Cosmos ecosystem. You are right, it’s more of an operational workaround than a real fix (it doesn’t address the underlying issue we’re trying to solve)</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    @hleb-albau thanks, that makes sense and it’s a well-known approach in the Cosmos ecosystem. You are right, it’s more of an operational workaround than a real fix (it doesn’t address the underlying issue we’re trying to solve)
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/blizko">@blizko</a></span>
+    <span>[@blizko](https://github.com/blizko)</span>
     <span class="issues-meta-item">commented 2026-02-24 21:35 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>Additional feedback:
+  <div class="issues-comment-body issues-content" markdown="1">
+    Additional feedback:
 The issue was observed before collateral slashing was activated. During epoch 179 have been observing same error.
-Known failed attempt time around Feb 21st 01:47 UTC</p>
+Known failed attempt time around Feb 21st 01:47 UTC
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/x0152">@x0152</a></span>
+    <span>[@x0152](https://github.com/x0152)</span>
     <span class="issues-meta-item">commented 2026-02-24 23:49 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>The issue is in <a href="https://github.com/cosmos/iavl/tree/v1.2.4">cosmos/iavl v1.2.4</a></p>
-<p>After snapshot restore, IAVL rebuilds a "fast node" index by iterating the tree. If the iterator hits an error mid-way, it silently stops - the error is never stored (<a href="https://github.com/cosmos/iavl/blob/v1.2.4/iterator.go#L230-L235">iterator.go:230-235</a>). The fast index ends up incomplete, but IAVL marks it as ready</p>
-<p>Then when the node starts processing blocks, <code>Get()</code> checks the fast index, doesn't find the key, and assumes it doesn't exist - without checking the actual tree (<a href="https://github.com/cosmos/iavl/blob/v1.2.4/immutable_tree.go#L192-L198">immutable_tree.go:192-198</a>). The data is in the tree, but the code never reaches it</p>
-<p>That's why slashing module gets <code>nil</code> -&gt; <code>no validator signing info found</code> -&gt; crash</p>
-<p>The exact error that triggers the iterator failure is still unknown - since IAVL swallows it, there's no way to see it without patching the code</p>
-<p><strong>Workaround (was found by @gmorgachev):</strong> setting <code>iavl-disable-fastnode = true</code> on the same snapshot - works immediately. This skips the fast index and reads the tree directly</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    The issue is in [cosmos/iavl v1.2.4](https://github.com/cosmos/iavl/tree/v1.2.4)
+
+After snapshot restore, IAVL rebuilds a "fast node" index by iterating the tree. If the iterator hits an error mid-way, it silently stops - the error is never stored ([iterator.go:230-235](https://github.com/cosmos/iavl/blob/v1.2.4/iterator.go#L230-L235)). The fast index ends up incomplete, but IAVL marks it as ready
+
+Then when the node starts processing blocks, `Get()` checks the fast index, doesn't find the key, and assumes it doesn't exist - without checking the actual tree ([immutable_tree.go:192-198](https://github.com/cosmos/iavl/blob/v1.2.4/immutable_tree.go#L192-L198)). The data is in the tree, but the code never reaches it
+
+That's why slashing module gets `nil` -> `no validator signing info found` -> crash
+
+The exact error that triggers the iterator failure is still unknown - since IAVL swallows it, there's no way to see it without patching the code
+
+**Workaround (was found by @gmorgachev):** setting `iavl-disable-fastnode = true` on the same snapshot - works immediately. This skips the fast index and reads the tree directly
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-02-25 17:50 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>https://gonka.ai/FAQ/#how-do-i-fix-errno-validator-signing-info-found-when-starting-from-a-state-sync-snapshot</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    https://gonka.ai/FAQ/#how-do-i-fix-errno-validator-signing-info-found-when-starting-from-a-state-sync-snapshot
   </div>
 </div>
 

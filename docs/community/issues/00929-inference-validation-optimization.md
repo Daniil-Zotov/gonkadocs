@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-21 19:22 UTC</span>
+    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-21 19:22 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-03-26 09:31 UTC</span>
   </div>
@@ -34,8 +34,8 @@ template: issues-main.html
     <span>[@Red-Caesar](https://github.com/Red-Caesar)</span>
     <span class="issues-meta-item">commented 2026-03-26 09:31 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p><a href="https://github.com/gonka-ai/gonka/pull/952">Here</a> I've opened a proposal for this optimization.</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    [Here](https://github.com/gonka-ai/gonka/pull/952) I've opened a proposal for this optimization.
   </div>
 </div>
 

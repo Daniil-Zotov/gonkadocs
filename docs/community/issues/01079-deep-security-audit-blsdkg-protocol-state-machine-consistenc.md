@@ -91,14 +91,16 @@ Payout address: `gonka10zaal553duxp05nvfpqtsqrm2g0j6j34r8nan7`
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/x0152">@x0152</a></span>
+    <span>[@x0152](https://github.com/x0152)</span>
     <span class="issues-meta-item">commented 2026-04-28 16:59 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>Hi,
-Thanks for the deep audit!</p>
-<p>I am closing this issue for now because several findings are based on incorrect assumptions about how the code currently works, and some points are already addressed in recent changes. </p>
-<p>If you believe a specific issue is still valid, please open a separate issue with a clear reproduction case, and I will review it again</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    Hi,
+Thanks for the deep audit!
+
+I am closing this issue for now because several findings are based on incorrect assumptions about how the code currently works, and some points are already addressed in recent changes. 
+
+If you believe a specific issue is still valid, please open a separate issue with a clear reproduction case, and I will review it again
   </div>
 </div>
 

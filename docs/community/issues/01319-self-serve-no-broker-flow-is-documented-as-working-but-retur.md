@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item"><a href="https://github.com/dufok">@dufok</a> opened 2026-06-07 22:20 UTC</span>
+    <span class="issues-meta-item">[@dufok](https://github.com/dufok) opened 2026-06-07 22:20 UTC</span>
     <span class="issues-meta-item">7 comments</span>
     <span class="issues-meta-item">Updated 2026-07-03 15:26 UTC</span>
   </div>
@@ -134,58 +134,72 @@ Related: #876
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/JamesJi79">@JamesJi79</a></span>
+    <span>[@JamesJi79](https://github.com/JamesJi79)</span>
     <span class="issues-meta-item">commented 2026-06-08 04:53 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>Hello! I took a close look at your issue. The 401 "model requires an API key" is a node-side API key gate, not a signing/auth issue. Your proxy correctly signs requests and your wallet is funded (~295 GNK confirmed on-chain), but the inference nodes reject direct requests that lack a valid broker API key.</p>
-<p><strong>What is happening technically:</strong>
+  <div class="issues-comment-body issues-content" markdown="1">
+    Hello! I took a close look at your issue. The 401 "model requires an API key" is a node-side API key gate, not a signing/auth issue. Your proxy correctly signs requests and your wallet is funded (~295 GNK confirmed on-chain), but the inference nodes reject direct requests that lack a valid broker API key.
+
+**What is happening technically:**
 1. opengnk proxy signs and forwards correctly
 2. Wallet is funded and on-chain registered
 3. Node gate checks for broker API key instead of wallet balance
-4. Unauthenticated /v1/models shows models but authenticated returns count=0</p>
-<p><strong>Two paths:</strong>
+4. Unauthenticated /v1/models shows models but authenticated returns count=0
+
+**Two paths:**
 - Option A (self-serve fix): Gonka team needs to update node-side validation to accept self-serve wallets. Previous issue #876 suggests broker-required is intentional.
-- Option B (workaround): I can help set up a personal broker proxy that gets its own API key, acting as your personal broker without third-party GNK custody.</p>
-<p>I do paid consulting on blockchain/proxy integration. If interested in Option B, I can quote a fixed price. Reach me at james@greentoken.center</p>
+- Option B (workaround): I can help set up a personal broker proxy that gets its own API key, acting as your personal broker without third-party GNK custody.
+
+I do paid consulting on blockchain/proxy integration. If interested in Option B, I can quote a fixed price. Reach me at james@greentoken.center
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/dufok">@dufok</a></span>
+    <span>[@dufok](https://github.com/dufok)</span>
     <span class="issues-meta-item">commented 2026-06-08 12:55 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>Thanks for taking a look and confirming the diagnosis.</p>
-<p>To be clear about what I'm after: I'm specifically looking for an <strong>official fix (Option A)</strong> — node-side validation that accepts a funded, on-chain-registered self-serve wallet, so I can spend my own GNK directly.</p>
-<p>A paid or personal-broker setup (Option B) doesn't fit my goal. The entire reason I chose Gonka is to pay with my own GNK directly, decentralized, with no third party custodying funds, gating access, or charging a fee in between. A "personal broker" still introduces a key/middleman and a cost, which defeats that purpose.</p>
-<p>So I'll wait for the maintainers' response on whether the self-serve path can be supported (or, failing that, for the docs/SDK READMEs to clearly state a broker is mandatory). Appreciate the help, but I'm not looking for paid consulting here.</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    Thanks for taking a look and confirming the diagnosis.
+
+To be clear about what I'm after: I'm specifically looking for an **official fix (Option A)** — node-side validation that accepts a funded, on-chain-registered self-serve wallet, so I can spend my own GNK directly.
+
+A paid or personal-broker setup (Option B) doesn't fit my goal. The entire reason I chose Gonka is to pay with my own GNK directly, decentralized, with no third party custodying funds, gating access, or charging a fee in between. A "personal broker" still introduces a key/middleman and a cost, which defeats that purpose.
+
+So I'll wait for the maintainers' response on whether the self-serve path can be supported (or, failing that, for the docs/SDK READMEs to clearly state a broker is mandatory). Appreciate the help, but I'm not looking for paid consulting here.
 
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/dufok">@dufok</a></span>
+    <span>[@dufok](https://github.com/dufok)</span>
     <span class="issues-meta-item">commented 2026-06-08 13:05 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>I dug into the source to pin down exactly where the gate lives. It turns out to be <strong>two layers</strong>, and only one of them is actually blocking self-serve:</p>
-<h3>Layer 1 — gateway model-access policy (the <code>requires an API key</code> message)</h3>
-<p><code>devshard/cmd/devshardctl/gateway.go → modelAccessError()</code>. Each model has an <code>AccessMode</code> configured by <strong>whoever runs the gateway</strong>:</p>
-<ul>
-<li><code>open</code> → anyone allowed</li>
-<li><code>apikey</code> → must present a key from <em>that gateway's</em> store (<code>requestHasAPIKey</code>)</li>
-<li><code>admin-only</code> → admin key</li>
-</ul>
-<p>The public <code>node4.gonka.ai</code> is itself a devshard gateway whose operator set the models to <code>apikey</code> — which is exactly why a community broker (a gateway with <code>apikey</code> mode + its own billing) is the documented path. <strong>This layer is operator config, not a protocol gate</strong> — if I run my own gateway I can set the models to <code>open</code>. So Layer 1 is not the real blocker.</p>
-<h3>Layer 2 — the actual blocker: on-chain devshard escrow allow-list</h3>
-<p>For my own gateway to pay for inference with my own GNK, it has to open an on-chain devshard escrow. The handler gates on the creator address:</p>
-<pre><code class="language-go">// inference-chain/x/inference/keeper/msg_server_create_devshard_escrow.go
+  <div class="issues-comment-body issues-content" markdown="1">
+    I dug into the source to pin down exactly where the gate lives. It turns out to be **two layers**, and only one of them is actually blocking self-serve:
+
+### Layer 1 — gateway model-access policy (the `requires an API key` message)
+
+`devshard/cmd/devshardctl/gateway.go → modelAccessError()`. Each model has an `AccessMode` configured by **whoever runs the gateway**:
+
+- `open` → anyone allowed
+- `apikey` → must present a key from *that gateway's* store (`requestHasAPIKey`)
+- `admin-only` → admin key
+
+The public `node4.gonka.ai` is itself a devshard gateway whose operator set the models to `apikey` — which is exactly why a community broker (a gateway with `apikey` mode + its own billing) is the documented path. **This layer is operator config, not a protocol gate** — if I run my own gateway I can set the models to `open`. So Layer 1 is not the real blocker.
+
+### Layer 2 — the actual blocker: on-chain devshard escrow allow-list
+
+For my own gateway to pay for inference with my own GNK, it has to open an on-chain devshard escrow. The handler gates on the creator address:
+
+```go
+// inference-chain/x/inference/keeper/msg_server_create_devshard_escrow.go
 if err := k.CheckPermission(goCtx, msg, EscrowAllowListPermission); err != nil {
     return nil, err
 }
-</code></pre>
-<pre><code class="language-go">// inference-chain/x/inference/keeper/params.go
+```
+
+```go
+// inference-chain/x/inference/keeper/params.go
 func (k Keeper) IsAllowedEscrowCreator(ctx, address) bool {
     ep := k.GetDevshardEscrowParams(ctx)
     if len(ep.AllowedCreatorAddresses) == 0 { return true } // empty = open to all
@@ -194,71 +208,91 @@ func (k Keeper) IsAllowedEscrowCreator(ctx, address) bool {
     }
     return false
 }
-</code></pre>
-<p><code>AllowedCreatorAddresses</code> is non-empty (populated via chain upgrades — e.g. <code>app/upgrades/v0_2_13</code> batch-added several <code>gonka1…</code> addresses), my address is not on it, so <code>CreateDevshardEscrow</code> returns <code>ErrNotAllowedEscrowCreator</code>. This is a consensus param, so I can't self-add it.</p>
-<h3>The ask</h3>
-<p>This makes the fix concrete. <strong>Please add my funded, on-chain-registered address to <code>DevshardEscrowParams.AllowedCreatorAddresses</code> in the next upgrade</strong> — exactly as was done in <code>v0_2_13</code>:</p>
-<pre><code>gonka12wmxxm9l4ern8wcdpr4lr750km2l7l58stsvdt   (~295 GNK on-chain)
-</code></pre>
-<p>Then I can run my own devshard gateway and pay for inference directly with my own GNK — the decentralized, no-broker, no-middleman flow the network is designed for.</p>
-<p>Separately, would you consider <strong>relaxing the escrow allow-list</strong> so any sufficiently-funded address can open a devshard escrow? The existing <code>MinAmount</code> / <code>MaxAmount</code> and <code>MaxEscrowsPerEpoch</code> params already provide anti-spam / rate-limiting, so the hard allow-list seems to add little beyond gatekeeping permissionless self-serve. Happy to open a PR for this if it would be welcome.</p>
+```
+
+`AllowedCreatorAddresses` is non-empty (populated via chain upgrades — e.g. `app/upgrades/v0_2_13` batch-added several `gonka1…` addresses), my address is not on it, so `CreateDevshardEscrow` returns `ErrNotAllowedEscrowCreator`. This is a consensus param, so I can't self-add it.
+
+### The ask
+
+This makes the fix concrete. **Please add my funded, on-chain-registered address to `DevshardEscrowParams.AllowedCreatorAddresses` in the next upgrade** — exactly as was done in `v0_2_13`:
+
+```
+gonka12wmxxm9l4ern8wcdpr4lr750km2l7l58stsvdt   (~295 GNK on-chain)
+```
+
+Then I can run my own devshard gateway and pay for inference directly with my own GNK — the decentralized, no-broker, no-middleman flow the network is designed for.
+
+Separately, would you consider **relaxing the escrow allow-list** so any sufficiently-funded address can open a devshard escrow? The existing `MinAmount` / `MaxAmount` and `MaxEscrowsPerEpoch` params already provide anti-spam / rate-limiting, so the hard allow-list seems to add little beyond gatekeeping permissionless self-serve. Happy to open a PR for this if it would be welcome.
 
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-06-23 23:55 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>Hi @dufok! </p>
-<p>The "spend my own GNK, no middleman" flow you want is exactly run your own devshard gateway — and the one thing standing between you and it is having your creator address on that allowlist. There's no hidden self-serve-without-a-gateway path that is withheld; direct signed requests to a participant node returning Transfer Agent not allowed and node4 returning requires an API key are both expected, and the honest end-to-end self-serve path is "own allowlisted gateway → your own escrow → your own GNK."</p>
-<p>On the docs-vs-reality point — you're right, and it's fair. The signed-wallet, broker-less examples in some SDK/READMEs (gonka-openai, opengnk, older inferenced quickstart) present an end-to-end path that doesn't actually complete against node4 today without either a key or your own allowlisted gateway. The developer quickstart has since been restructured around the two paths that genuinely work — consume via a community broker, or run your own allowlisted gateway — but the SDK READMEs you cited still need to be reconciled with that.</p>
-<p>On adding gonka12wmxxm9l4ern8wcdpr4lr750km2l7l58stsvdt to the allowlist. This is the right request, but it's an on-chain governance decision — the allowlist is a consensus param changed only through a governance vote (as in the v0_2_13 batch), not something any maintainer or operator adds unilaterally (treat inclusion and timeline as governance-dependent, not guaranteed).</p>
-<p>Separately, and only for completeness — not as the answer to your request: Gonka Labs recently posted https://github.com/gonka-ai/gonka/discussions/1363, a managed "devshards as a service" gateway under an already-whitelisted wallet. It's the middleman model you've explicitly declined, so I'm not proposing it as a fix — linking it only because it's directly relevant background to the allowlist discussion and shows what the operator path looks like at production scale.</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    Hi @dufok! 
+
+The "spend my own GNK, no middleman" flow you want is exactly run your own devshard gateway — and the one thing standing between you and it is having your creator address on that allowlist. There's no hidden self-serve-without-a-gateway path that is withheld; direct signed requests to a participant node returning Transfer Agent not allowed and node4 returning requires an API key are both expected, and the honest end-to-end self-serve path is "own allowlisted gateway → your own escrow → your own GNK."
+
+On the docs-vs-reality point — you're right, and it's fair. The signed-wallet, broker-less examples in some SDK/READMEs (gonka-openai, opengnk, older inferenced quickstart) present an end-to-end path that doesn't actually complete against node4 today without either a key or your own allowlisted gateway. The developer quickstart has since been restructured around the two paths that genuinely work — consume via a community broker, or run your own allowlisted gateway — but the SDK READMEs you cited still need to be reconciled with that.
+
+On adding gonka12wmxxm9l4ern8wcdpr4lr750km2l7l58stsvdt to the allowlist. This is the right request, but it's an on-chain governance decision — the allowlist is a consensus param changed only through a governance vote (as in the v0_2_13 batch), not something any maintainer or operator adds unilaterally (treat inclusion and timeline as governance-dependent, not guaranteed).
+
+Separately, and only for completeness — not as the answer to your request: Gonka Labs recently posted https://github.com/gonka-ai/gonka/discussions/1363, a managed "devshards as a service" gateway under an already-whitelisted wallet. It's the middleman model you've explicitly declined, so I'm not proposing it as a fix — linking it only because it's directly relevant background to the allowlist discussion and shows what the operator path looks like at production scale.
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/dufok">@dufok</a></span>
+    <span>[@dufok](https://github.com/dufok)</span>
     <span class="issues-meta-item">commented 2026-06-29 23:48 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>Thanks @tcharchian — that's a clear and fair answer, and it actually points me at exactly what I want to do.</p>
-<p>To be concrete: <strong>I want to run and operate my own devshard gateway</strong>, on my own hardware (a server I already own, so infra cost is zero for me), and pay for inference with my own GNK. I'm not looking for a broker to consume — I'm happy to <em>be</em> the allowlisted operator for my own usage. The only thing standing in the way is having my creator address on <code>AllowedCreatorAddresses</code>.</p>
-<p>I looked at the current on-chain param: the allowlist has ~17 operator addresses, and they were added in batches via upgrades (e.g. <code>v0_2_13</code>). So my question is about <strong>process</strong>, not a one-off favor:</p>
-<ol>
-<li><strong>How does an operator get added to <code>AllowedCreatorAddresses</code>?</strong> Is there an application / vetting path to be included in a future upgrade batch (the way the existing 17 were added), or is the only route a standalone governance proposal submitted by the applicant?</li>
-<li>If there are <strong>operator criteria</strong> (uptime, stake, hardware, identity, min GNK, etc.), what are they? I'd like to meet them.</li>
-<li>If a standalone governance proposal is the only way, is that realistic for a small independent operator, or is batch-inclusion-by-the-team the normal path?</li>
-</ol>
-<p>My address (funded, on-chain registered, ready to operate):</p>
-<pre><code>gonka12wmxxm9l4ern8wcdpr4lr750km2l7l58stsvdt
-</code></pre>
-<p>Happy to follow whatever the established process is — just want to know which door to walk through. Thanks!</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    Thanks @tcharchian — that's a clear and fair answer, and it actually points me at exactly what I want to do.
+
+To be concrete: **I want to run and operate my own devshard gateway**, on my own hardware (a server I already own, so infra cost is zero for me), and pay for inference with my own GNK. I'm not looking for a broker to consume — I'm happy to *be* the allowlisted operator for my own usage. The only thing standing in the way is having my creator address on `AllowedCreatorAddresses`.
+
+I looked at the current on-chain param: the allowlist has ~17 operator addresses, and they were added in batches via upgrades (e.g. `v0_2_13`). So my question is about **process**, not a one-off favor:
+
+1. **How does an operator get added to `AllowedCreatorAddresses`?** Is there an application / vetting path to be included in a future upgrade batch (the way the existing 17 were added), or is the only route a standalone governance proposal submitted by the applicant?
+2. If there are **operator criteria** (uptime, stake, hardware, identity, min GNK, etc.), what are they? I'd like to meet them.
+3. If a standalone governance proposal is the only way, is that realistic for a small independent operator, or is batch-inclusion-by-the-team the normal path?
+
+My address (funded, on-chain registered, ready to operate):
+
+```
+gonka12wmxxm9l4ern8wcdpr4lr750km2l7l58stsvdt
+```
+
+Happy to follow whatever the established process is — just want to know which door to walk through. Thanks!
 
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-07-03 00:01 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>Hi @dufok!</p>
-<p>On how the allowlist changes: every modification of <code>DevshardEscrowParams.AllowedCreatorAddresses</code> is an on-chain governance action. There's no maintainer-side "add operator" switch. It's either a standalone governance proposal that updates the param, voted on-chain, or inclusion in a governance-approved chain upgrade batch — which is how the current operators were seeded in <code>v0_2_13</code>. (the initial set was added during the early rollout as part of upgrade handlers, as a bootstrap step to get the first operators online.)  </p>
-<p>There isn't a published operator-vetting checklist I can point you to (as of now).  </p>
-<p>As for which door to walk through: the documented way to register intent is what you've already done here — a public request with your operator identity, contact, creator address, and intended models. That puts it in front of maintainers and governance participants. A standalone proposal is a legitimate route for an independent operator (whether it passes is up to voters).</p>
-<p>Additional correction on OpenBroker, since it touches your "no fee in between" point. It isn't a USD reseller with a margin: it settles in GNK and deducts its ledger 1-to-1 with actual escrow cost, at cost with no markup, and there's no enrollment or approval wait. So on price and time-to-start it's effectively a pass-through you could use today.</p>  
+  <div class="issues-comment-body issues-content" markdown="1">
+    Hi @dufok!
+
+On how the allowlist changes: every modification of `DevshardEscrowParams.AllowedCreatorAddresses` is an on-chain governance action. There's no maintainer-side "add operator" switch. It's either a standalone governance proposal that updates the param, voted on-chain, or inclusion in a governance-approved chain upgrade batch — which is how the current operators were seeded in `v0_2_13`. (the initial set was added during the early rollout as part of upgrade handlers, as a bootstrap step to get the first operators online.)  
+
+There isn't a published operator-vetting checklist I can point you to (as of now).  
+
+As for which door to walk through: the documented way to register intent is what you've already done here — a public request with your operator identity, contact, creator address, and intended models. That puts it in front of maintainers and governance participants. A standalone proposal is a legitimate route for an independent operator (whether it passes is up to voters).
+
+Additional correction on OpenBroker, since it touches your "no fee in between" point. It isn't a USD reseller with a margin: it settles in GNK and deducts its ledger 1-to-1 with actual escrow cost, at cost with no markup, and there's no enrollment or approval wait. So on price and time-to-start it's effectively a pass-through you could use today.  
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/dufok">@dufok</a></span>
+    <span>[@dufok](https://github.com/dufok)</span>
     <span class="issues-meta-item">commented 2026-07-03 15:26 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>Thanks a lot @tcharchian — this fully answers it, and I appreciate the patience and the honest docs-vs-reality acknowledgement. The OpenBroker clarification (GNK-settled, 1:1 at cost, no markup, no approval wait) is exactly what I needed — I'll start there. Cheers.</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    Thanks a lot @tcharchian — this fully answers it, and I appreciate the patience and the honest docs-vs-reality acknowledgement. The OpenBroker clarification (GNK-settled, 1:1 at cost, no markup, no approval wait) is exactly what I needed — I'll start there. Cheers.
 
   </div>
 </div>

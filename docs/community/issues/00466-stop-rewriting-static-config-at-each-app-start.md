@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2025-12-03 22:47 UTC</span>
+    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2025-12-03 22:47 UTC</span>
     <span class="issues-meta-item">2 comments</span>
     <span class="issues-meta-item">Updated 2026-02-06 18:19 UTC</span>
   </div>
@@ -31,20 +31,20 @@ template: issues-main.html
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-02-04 23:36 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>The PR looks good and all the requested changes were made. @DimaOrekhovPS  will be merging it once it passes integration tests.</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    The PR looks good and all the requested changes were made. @DimaOrekhovPS  will be merging it once it passes integration tests.
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/DimaOrekhovPS">@DimaOrekhovPS</a></span>
+    <span>[@DimaOrekhovPS](https://github.com/DimaOrekhovPS)</span>
     <span class="issues-meta-item">commented 2026-02-06 18:19 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>https://github.com/gonka-ai/gonka/pull/644</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    https://github.com/gonka-ai/gonka/pull/644
   </div>
 </div>
 

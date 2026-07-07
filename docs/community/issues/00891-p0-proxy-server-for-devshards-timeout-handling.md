@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 2026-03-16 13:45 UTC</span>
+    <span class="issues-meta-item">[@dcastro](https://github.com/dcastro) opened 2026-03-16 13:45 UTC</span>
     <span class="issues-meta-item">2 comments</span>
     <span class="issues-meta-item">Updated 2026-04-01 03:20 UTC</span>
   </div>
@@ -33,20 +33,20 @@ It should also handle timeout-related mechanisms.
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/dcastro">@dcastro</a></span>
+    <span>[@dcastro](https://github.com/dcastro)</span>
     <span class="issues-meta-item">commented 2026-03-20 08:35 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>Closed in favor of #911</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    Closed in favor of #911
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-03-20 22:41 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>@gmorgachev, you wanted to include this issue in the upgrade v0.2.12. Does https://github.com/gonka-ai/gonka/pull/911 cover everything you expected here?</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    @gmorgachev, you wanted to include this issue in the upgrade v0.2.12. Does https://github.com/gonka-ai/gonka/pull/911 cover everything you expected here?
   </div>
 </div>
 

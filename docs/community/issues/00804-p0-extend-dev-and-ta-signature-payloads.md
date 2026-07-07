@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item"><a href="https://github.com/DimaOrekhovPS">@DimaOrekhovPS</a> opened 2026-02-25 20:49 UTC</span>
+    <span class="issues-meta-item">[@DimaOrekhovPS](https://github.com/DimaOrekhovPS) opened 2026-02-25 20:49 UTC</span>
     <span class="issues-meta-item">2 comments</span>
     <span class="issues-meta-item">Updated 2026-05-21 21:05 UTC</span>
   </div>
@@ -53,20 +53,20 @@ New payload: `prompt_hash + timestamp + ta_address + executor_address + inferenc
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-03-21 00:13 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>Per discussion with @DimaOrekhovPS, this issue may become irrelevant after v0.2.12 and depends on whether we fully switch to the new inference system in the next upgrade or not, wdyt @0xgonka @gmorgachev?</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    Per discussion with @DimaOrekhovPS, this issue may become irrelevant after v0.2.12 and depends on whether we fully switch to the new inference system in the next upgrade or not, wdyt @0xgonka @gmorgachev?
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/0xgonka">@0xgonka</a></span>
+    <span>[@0xgonka](https://github.com/0xgonka)</span>
     <span class="issues-meta-item">commented 2026-03-21 07:45 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>security-wise it is important someone can't just use a dev signature from another inference. I am not sure what PR in 0.2.12 makes this irrelevant but would be happy to take a look if someone can point me in that direction</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    security-wise it is important someone can't just use a dev signature from another inference. I am not sure what PR in 0.2.12 makes this irrelevant but would be happy to take a look if someone can point me in that direction
   </div>
 </div>
 

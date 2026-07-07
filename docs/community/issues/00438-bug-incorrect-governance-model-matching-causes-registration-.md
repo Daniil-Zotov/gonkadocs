@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item"><a href="https://github.com/Asplana92">@Asplana92</a> opened 2025-11-15 23:53 UTC</span>
+    <span class="issues-meta-item">[@Asplana92](https://github.com/Asplana92) opened 2025-11-15 23:53 UTC</span>
     <span class="issues-meta-item">2 comments</span>
     <span class="issues-meta-item">Updated 2026-04-28 20:48 UTC</span>
   </div>
@@ -387,21 +387,22 @@ Looking forward to contributing to improved operator experience! 🚀
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/AlexeySamosadov">@AlexeySamosadov</a></span>
+    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
     <span class="issues-meta-item">commented 2026-02-08 14:14 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>PR created: https://github.com/gonka-ai/gonka/pull/680</p>
-<p>Improves error messages for invalid governance models.</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    PR created: https://github.com/gonka-ai/gonka/pull/680
+
+Improves error messages for invalid governance models.
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/0xgonka">@0xgonka</a></span>
+    <span>[@0xgonka](https://github.com/0xgonka)</span>
     <span class="issues-meta-item">commented 2026-04-28 20:48 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>already fixed</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    already fixed
   </div>
 </div>
 

@@ -39,11 +39,11 @@ Thanks!
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/DimaOrekhovPS">@DimaOrekhovPS</a></span>
+    <span>[@DimaOrekhovPS](https://github.com/DimaOrekhovPS)</span>
     <span class="issues-meta-item">commented 2025-11-17 21:00 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>The images are public for everyone. One possible cause for failing to pull an image is using stale GH credentials, try using <code>docker logout ghcr.io</code> to clear the credentials, then login again with <code>docker login ghcr.io</code> and retry</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    The images are public for everyone. One possible cause for failing to pull an image is using stale GH credentials, try using `docker logout ghcr.io` to clear the credentials, then login again with `docker login ghcr.io` and retry
   </div>
 </div>
 

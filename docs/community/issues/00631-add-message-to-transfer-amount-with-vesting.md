@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-23 23:58 UTC</span>
+    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-23 23:58 UTC</span>
     <span class="issues-meta-item">4 comments</span>
     <span class="issues-meta-item">Updated 2026-02-10 22:49 UTC</span>
   </div>
@@ -32,39 +32,40 @@ When the community distributes funds to miners, the transferred tokens should ve
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/AlexeySamosadov">@AlexeySamosadov</a></span>
+    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
     <span class="issues-meta-item">commented 2026-01-24 21:29 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>Implemented in PR #641 - adds MsgTransferWithVesting message with 180 epoch default vesting, validation, CLI support, and unit tests.</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    Implemented in PR #641 - adds MsgTransferWithVesting message with 180 epoch default vesting, validation, CLI support, and unit tests.
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-01-29 23:47 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>Hi @AlexeySamosadov can I kindly ask you to contact me on Discord? <code>tatianacharchian_07833</code></p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    Hi @AlexeySamosadov can I kindly ask you to contact me on Discord? `tatianacharchian_07833`
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/AlexeySamosadov">@AlexeySamosadov</a></span>
+    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
     <span class="issues-meta-item">commented 2026-01-31 15:18 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p><img width="554" height="402" alt="Image" src="https://github.com/user-attachments/assets/51108f38-eff7-45b9-8114-d9e71c754913" /> Hi @tcharchian i texted you in Discord :)</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    <img width="554" height="402" alt="Image" src="https://github.com/user-attachments/assets/51108f38-eff7-45b9-8114-d9e71c754913" /> Hi @tcharchian i texted you in Discord :)
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/AlexeySamosadov">@AlexeySamosadov</a></span>
+    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
     <span class="issues-meta-item">commented 2026-02-08 14:14 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>PR created: https://github.com/gonka-ai/gonka/pull/641</p>
-<p>Adds MsgTransferWithVesting for vesting transfers.</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    PR created: https://github.com/gonka-ai/gonka/pull/641
+
+Adds MsgTransferWithVesting for vesting transfers.
   </div>
 </div>
 

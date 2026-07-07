@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-23 00:25 UTC</span>
+    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-23 00:25 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-02-10 22:43 UTC</span>
   </div>
@@ -31,11 +31,11 @@ template: issues-main.html
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-02-04 22:59 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>That's implemented and we want to include it. One parameter will be changed but it's good to go</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    That's implemented and we want to include it. One parameter will be changed but it's good to go
   </div>
 </div>
 

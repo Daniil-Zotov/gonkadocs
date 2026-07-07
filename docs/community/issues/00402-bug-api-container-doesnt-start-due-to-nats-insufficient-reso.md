@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2025-10-22 18:36 UTC</span>
+    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2025-10-22 18:36 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-01-15 22:24 UTC</span>
   </div>
@@ -120,12 +120,12 @@ that part is actually also modified in new PR
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2025-12-02 20:28 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>This is related to the <a href="https://github.com/gonka-ai/gonka/issues/429">Cleaning nats issue</a> 
-NATS didn't delete any items from the queue, so the queues were constantly growing. Setting a limit to NATS messages by age must resolve this problem, too. @0xBECEDA @patimen @gmorgachev</p> 
+  <div class="issues-comment-body issues-content" markdown="1">
+    This is related to the [Cleaning nats issue](https://github.com/gonka-ai/gonka/issues/429) 
+NATS didn't delete any items from the queue, so the queues were constantly growing. Setting a limit to NATS messages by age must resolve this problem, too. @0xBECEDA @patimen @gmorgachev 
   </div>
 </div>
 

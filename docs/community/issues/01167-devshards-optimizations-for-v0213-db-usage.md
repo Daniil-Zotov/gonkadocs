@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item"><a href="https://github.com/akup">@akup</a> opened 2026-05-14 15:47 UTC</span>
+    <span class="issues-meta-item">[@akup](https://github.com/akup) opened 2026-05-14 15:47 UTC</span>
     <span class="issues-meta-item">0 comments</span>
     <span class="issues-meta-item">Updated 2026-05-25 18:37 UTC</span>
   </div>

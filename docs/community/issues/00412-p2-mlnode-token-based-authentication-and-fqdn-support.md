@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item"><a href="https://github.com/gmorgachev">@gmorgachev</a> opened 2025-10-31 07:50 UTC</span>
+    <span class="issues-meta-item">[@gmorgachev](https://github.com/gmorgachev) opened 2025-10-31 07:50 UTC</span>
     <span class="issues-meta-item">6 comments</span>
     <span class="issues-meta-item">Updated 2026-06-27 20:42 UTC</span>
   </div>
@@ -161,65 +161,69 @@ Required changes:
     <span>[@Pegasus-starry](https://github.com/Pegasus-starry)</span>
     <span class="issues-meta-item">commented 2025-11-06 04:12 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>Hi @gmorgachev , I have  two questions:
+  <div class="issues-comment-body issues-content" markdown="1">
+    Hi @gmorgachev , I have  two questions:
 New registration (baseURL): Check <baseURL>/readyz (management API readiness endpoint on port 8080): 
-Is it means in the new registration:  the /readyz interface will be used , not using http://<host>:<inference_port>/health any more?     <br />
-And the single-port operation only need to modify this place when checking MLNode health ? </p>
-<p>Validate registration: require either (Host+Ports) OR baseURL, not both. baseURL must be valid HTTP(S) URL. AuthToken is always optional.  :<br />
-Where to do this and do we have a validate method already existed to validate the baseURL?</p>
-<p>Thanks</p>
+Is it means in the new registration:  the /readyz interface will be used , not using http://<host>:<inference_port>/health any more?       
+And the single-port operation only need to modify this place when checking MLNode health ? 
+
+Validate registration: require either (Host+Ports) OR baseURL, not both. baseURL must be valid HTTP(S) URL. AuthToken is always optional.  :  
+Where to do this and do we have a validate method already existed to validate the baseURL?
+
+Thanks
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-02-04 23:26 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>@DimaOrekhovPS did the initial review, but now @DimaOrekhovPS  is waiting for @Pegasus-starry  to resolve conflicts with the current gonka version</p>   
+  <div class="issues-comment-body issues-content" markdown="1">
+    @DimaOrekhovPS did the initial review, but now @DimaOrekhovPS  is waiting for @Pegasus-starry  to resolve conflicts with the current gonka version   
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-03-21 00:56 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>Hey @jacky6block @x0152 @akup! It would be great if you could sync on the next steps for this pull request and make the needed decisions together. If you are able to move it forward on your own, it could potentially be included in v0.2.12. But overall, this is a nice-to-have rather than something critical.</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    Hey @jacky6block @x0152 @akup! It would be great if you could sync on the next steps for this pull request and make the needed decisions together. If you are able to move it forward on your own, it could potentially be included in v0.2.12. But overall, this is a nice-to-have rather than something critical.
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/akup">@akup</a></span>
+    <span>[@akup](https://github.com/akup)</span>
     <span class="issues-meta-item">commented 2026-03-23 06:15 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>All this protections are nice to have. But I want it to be aligned with other features and moving PoC v2 APIs to the repo from vLLM repo.</p>
-<p>Need some time to have a big picture in my head</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    All this protections are nice to have. But I want it to be aligned with other features and moving PoC v2 APIs to the repo from vLLM repo.
+
+Need some time to have a big picture in my head
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/bonujel">@bonujel</a></span>
+    <span>[@bonujel](https://github.com/bonujel)</span>
     <span class="issues-meta-item">commented 2026-06-23 07:47 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>Hi @tcharchian, I'm picking this up and continuing the issue, and currently working on it. (draft pr #1359, blocked by #1296 )
-The new work centralizes MLNode addressing + auth in one place instead of spreading BaseURL/AuthToken across every call site (the #717 approach), and folds in the review feedback.</p>
-<p>It's coupled with the Onboarding changes in #1296, so the new PR #1296 is draft and will be opened once 1296 is approved.
-Thanks to everyone for the earlier work and review here.</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    Hi @tcharchian, I'm picking this up and continuing the issue, and currently working on it. (draft pr #1359, blocked by #1296 )
+The new work centralizes MLNode addressing + auth in one place instead of spreading BaseURL/AuthToken across every call site (the #717 approach), and folds in the review feedback.
+
+It's coupled with the Onboarding changes in #1296, so the new PR #1296 is draft and will be opened once 1296 is approved.
+Thanks to everyone for the earlier work and review here.
 
 
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-06-27 20:42 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>Hi @bonujel, thanks, I see. @DimaOrekhovPS @x0152 are working on v0.2.14 and v0.2.15 and will review https://github.com/gonka-ai/gonka/pull/1296 shortly</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    Hi @bonujel, thanks, I see. @DimaOrekhovPS @x0152 are working on v0.2.14 and v0.2.15 and will review https://github.com/gonka-ai/gonka/pull/1296 shortly
   </div>
 </div>
 

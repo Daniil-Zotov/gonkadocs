@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-05-16 06:45 UTC</span>
+    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-05-16 06:45 UTC</span>
     <span class="issues-meta-item">3 comments</span>
     <span class="issues-meta-item">Updated 2026-07-04 13:32 UTC</span>
   </div>
@@ -176,12 +176,13 @@ Signed metadata from a TEE key is inherently trusted - the execution environment
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/x0152">@x0152</a></span>
+    <span>[@x0152](https://github.com/x0152)</span>
     <span class="issues-meta-item">commented 2026-05-25 21:11 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>Some first experiments on this in #1246 - covers the wiring end-to-end (chain, dapi, ml-node, devshard) + a Phala CVM smoke test</p>
-<p>Not a final implementation, but should give a head start</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    Some first experiments on this in #1246 - covers the wiring end-to-end (chain, dapi, ml-node, devshard) + a Phala CVM smoke test
+
+Not a final implementation, but should give a head start
   </div>
 </div>
 <div class="issues-comment">
@@ -189,28 +190,35 @@ Signed metadata from a TEE key is inherently trusted - the execution environment
     <span>[@mkostrus-gif](https://github.com/mkostrus-gif)</span>
     <span class="issues-meta-item">commented 2026-07-02 19:00 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>Strong +1 for prioritizing this.</p>
-<p>My blocker is practical, not theoretical: I run AI agents over private operational context, and I cannot route real prompts/responses through Gonka while the selected host can read them. Privacy sanitization is useful as a temporary guardrail, but it does not solve the core threat model.</p>
-<p>The feature I would actually use is an attested private inference path: client-verifiable Confidential MLNode/TEE, encrypted prompts and responses, and no sensitive payloads in host-readable logs or disk.</p>
-<p>I'm happy to help test an MVP and provide acceptance criteria from real agent workloads. Is there a current roadmap after #1246 for the next milestone where users can help validate it?</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    Strong +1 for prioritizing this.
+
+My blocker is practical, not theoretical: I run AI agents over private operational context, and I cannot route real prompts/responses through Gonka while the selected host can read them. Privacy sanitization is useful as a temporary guardrail, but it does not solve the core threat model.
+
+The feature I would actually use is an attested private inference path: client-verifiable Confidential MLNode/TEE, encrypted prompts and responses, and no sensitive payloads in host-readable logs or disk.
+
+I'm happy to help test an MVP and provide acceptance criteria from real agent workloads. Is there a current roadmap after #1246 for the next milestone where users can help validate it?
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/x0152">@x0152</a></span>
+    <span>[@x0152](https://github.com/x0152)</span>
     <span class="issues-meta-item">commented 2026-07-04 13:32 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>Hi, thanks for the message!</p>
-<h1>1246 is a first experiments PR - it connects the private path across chain, dapi and ml-node, with a Phala TDX smoke test. It's not the MVP yet, still some work before we can really test it</h1>
-<p>Rough plan (from my mind):
+  <div class="issues-comment-body issues-content" markdown="1">
+    Hi, thanks for the message!
+
+#1246 is a first experiments PR - it connects the private path across chain, dapi and ml-node, with a Phala TDX smoke test. It's not the MVP yet, still some work before we can really test it
+
+Rough plan (from my mind):
 - Review and land #1246 as the base
 - Add dual attestation (intel-tdx + nvidia-cc) so the GPU side is covered too, not just the CPU
-- Do a full end-to-end run on a localtestnet with real Intel TDX + NVIDIA CC hardware (Phala Cloud is probably the easiest for that)</p>
-<p>Just note the MVP is only to show how this can be integrated - not a secure, production-ready version yet. It's just a first direction to build on</p>
-<p>Maybe you could start with reviewing #1246 and let me know what you think? 
-From there we can discuss the next steps. And if you have any questions, feel free to ask</p>
+- Do a full end-to-end run on a localtestnet with real Intel TDX + NVIDIA CC hardware (Phala Cloud is probably the easiest for that)
+
+Just note the MVP is only to show how this can be integrated - not a secure, production-ready version yet. It's just a first direction to build on
+
+Maybe you could start with reviewing #1246 and let me know what you think? 
+From there we can discuss the next steps. And if you have any questions, feel free to ask
   </div>
 </div>
 

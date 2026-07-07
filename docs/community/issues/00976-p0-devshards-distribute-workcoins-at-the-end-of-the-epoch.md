@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 2026-03-30 11:10 UTC</span>
+    <span class="issues-meta-item">[@dcastro](https://github.com/dcastro) opened 2026-03-30 11:10 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-04-21 23:43 UTC</span>
   </div>
@@ -37,11 +37,11 @@ As described in https://github.com/gonka-ai/gonka/issues/914#issuecomment-409048
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-04-21 23:42 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>Very close logic is implemented and merged in https://github.com/gonka-ai/gonka/pull/1087 &amp; https://github.com/gonka-ai/gonka/pull/1069</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    Very close logic is implemented and merged in https://github.com/gonka-ai/gonka/pull/1087 & https://github.com/gonka-ai/gonka/pull/1069
   </div>
 </div>
 

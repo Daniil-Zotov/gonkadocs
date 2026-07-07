@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item"><a href="https://github.com/unameisfine">@unameisfine</a> opened 2026-03-25 15:52 UTC</span>
+    <span class="issues-meta-item">[@unameisfine](https://github.com/unameisfine) opened 2026-03-25 15:52 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-03-25 16:04 UTC</span>
   </div>
@@ -43,11 +43,11 @@ The pattern used elsewhere in the codebase (e.g. `enforceDeveloperAccessGate` al
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/unameisfine">@unameisfine</a></span>
+    <span>[@unameisfine](https://github.com/unameisfine)</span>
     <span class="issues-meta-item">commented 2026-03-25 16:04 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>Closing in favor of #876 — this is the same issue. Posted analysis there instead.</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    Closing in favor of #876 — this is the same issue. Posted analysis there instead.
   </div>
 </div>
 

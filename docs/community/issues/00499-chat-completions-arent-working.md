@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item"><a href="https://github.com/pentoxine">@pentoxine</a> opened 2025-12-20 02:05 UTC</span>
+    <span class="issues-meta-item">[@pentoxine](https://github.com/pentoxine) opened 2025-12-20 02:05 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-02-10 04:04 UTC</span>
   </div>
@@ -78,12 +78,12 @@ print(response.choices[0].message.content)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/mtvnastya">@mtvnastya</a></span>
+    <span>[@mtvnastya](https://github.com/mtvnastya)</span>
     <span class="issues-meta-item">commented 2026-02-10 04:04 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>hi @pentoxine,I'd like to propose this for a bounty for reporting the issue.
-can you please reach out to me in discord @mtvnastya or let me know how I can contact you directly?</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    hi @pentoxine,I'd like to propose this for a bounty for reporting the issue.
+can you please reach out to me in discord @mtvnastya or let me know how I can contact you directly?
   </div>
 </div>
 

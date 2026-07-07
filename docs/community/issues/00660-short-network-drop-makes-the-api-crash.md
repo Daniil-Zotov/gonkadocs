@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item"><a href="https://github.com/x0152">@x0152</a> opened 2026-01-28 16:31 UTC</span>
+    <span class="issues-meta-item">[@x0152](https://github.com/x0152) opened 2026-01-28 16:31 UTC</span>
     <span class="issues-meta-item">0 comments</span>
     <span class="issues-meta-item">Updated 2026-02-06 23:46 UTC</span>
   </div>

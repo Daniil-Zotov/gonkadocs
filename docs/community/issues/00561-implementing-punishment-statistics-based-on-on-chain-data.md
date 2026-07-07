@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15 00:36 UTC</span>
+    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15 00:36 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-02-10 21:39 UTC</span>
   </div>
@@ -31,11 +31,11 @@ template: issues-main.html
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-01-24 00:03 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>@0xMayoor is taking ownership of this task. please try to assign this issue on yourself</p> 
+  <div class="issues-comment-body issues-content" markdown="1">
+    @0xMayoor is taking ownership of this task. please try to assign this issue on yourself 
   </div>
 </div>
 

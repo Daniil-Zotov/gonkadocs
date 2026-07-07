@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-05-21 22:30 UTC</span>
+    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-05-21 22:30 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-06-30 13:00 UTC</span>
   </div>
@@ -31,13 +31,15 @@ The goal of this is to have in place after this a standard way of handling possi
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/olegsuhoparov">@olegsuhoparov</a></span>
+    <span>[@olegsuhoparov](https://github.com/olegsuhoparov)</span>
     <span class="issues-meta-item">commented 2026-06-30 13:00 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>Opened a surgical first PR against main: #1379.</p>
-<p>It ports the already-accepted #1100/#1101 overflow fixes to main and adds two small guards for payout uint64-&gt;int64 conversion and validation totalWeight accumulation.</p>
-<p>I intentionally left broad static analysis and #1017 supply-cap semantics out of scope so this remains reviewable.</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    Opened a surgical first PR against main: #1379.
+
+It ports the already-accepted #1100/#1101 overflow fixes to main and adds two small guards for payout uint64->int64 conversion and validation totalWeight accumulation.
+
+I intentionally left broad static analysis and #1017 supply-cap semantics out of scope so this remains reviewable.
   </div>
 </div>
 

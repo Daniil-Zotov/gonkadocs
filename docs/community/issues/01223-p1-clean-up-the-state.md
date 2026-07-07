@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-05-21 22:34 UTC</span>
+    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-05-21 22:34 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-06-24 01:00 UTC</span>
   </div>
@@ -31,11 +31,11 @@ Review what’s currently stored, identify any leftovers, and remove them.
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/Ryanchen911">@Ryanchen911</a></span>
+    <span>[@Ryanchen911](https://github.com/Ryanchen911)</span>
     <span class="issues-meta-item">commented 2026-05-28 02:09 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>hi @tcharchian ,I will take this one, thank you!</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    hi @tcharchian ,I will take this one, thank you!
   </div>
 </div>
 

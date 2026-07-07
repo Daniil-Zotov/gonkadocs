@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15 20:00 UTC</span>
+    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15 20:00 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-02-09 20:46 UTC</span>
   </div>
@@ -31,11 +31,11 @@ template: issues-main.html
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/patimen">@patimen</a></span>
+    <span>[@patimen](https://github.com/patimen)</span>
     <span class="issues-meta-item">commented 2026-01-22 22:38 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>We have fixes for this, but I want to again revisit it and review it more carefully for v0.2.9</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    We have fixes for this, but I want to again revisit it and review it more carefully for v0.2.9
   </div>
 </div>
 

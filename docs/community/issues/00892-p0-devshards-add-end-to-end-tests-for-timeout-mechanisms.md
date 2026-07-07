@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 2026-03-16 13:48 UTC</span>
+    <span class="issues-meta-item">[@dcastro](https://github.com/dcastro) opened 2026-03-16 13:48 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-05-25 18:37 UTC</span>
   </div>
@@ -35,11 +35,11 @@ The proxy server should allow configuring the deadline limits so that the tests 
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/KKizilov">@KKizilov</a></span>
+    <span>[@KKizilov](https://github.com/KKizilov)</span>
     <span class="issues-meta-item">commented 2026-03-26 15:07 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>Will be done by April 5th.</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    Will be done by April 5th.
   </div>
 </div>
 

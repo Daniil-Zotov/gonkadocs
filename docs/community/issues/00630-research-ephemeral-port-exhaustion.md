@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-23 20:09 UTC</span>
+    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-23 20:09 UTC</span>
     <span class="issues-meta-item">3 comments</span>
     <span class="issues-meta-item">Updated 2026-03-21 19:24 UTC</span>
   </div>
@@ -36,55 +36,71 @@ After that, feel free to contact me on Discord: `tatianacharchian_07833`.
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/AlexeySamosadov">@AlexeySamosadov</a></span>
+    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
     <span class="issues-meta-item">commented 2026-01-24 21:13 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<h2>Ephemeral Port Exhaustion Analysis</h2>
-<h3>Summary</h3>
-<p>Found several patterns that can cause ephemeral port exhaustion due to improper HTTP client usage and missing connection pooling configuration.</p>
-<hr />
-<h3>Critical Issues Found</h3>
-<h4>1. <code>http.DefaultClient</code> usage without pooling config</h4>
-<p><strong>File:</strong> <code>internal/server/public/post_chat_handler.go:367</code></p>
-<pre><code class="language-go">resp, err := http.DefaultClient.Do(req)
-</code></pre>
-<ul>
-<li>DefaultClient has no MaxIdleConns/MaxIdleConnsPerHost limits</li>
-<li>Called in critical inference request path (<code>handleTransferRequest</code>)</li>
-</ul>
-<h4>2. <code>http.Post()</code> calls create new connections each time</h4>
-<p><strong>Files:</strong>
-- <code>internal/server/public/post_chat_handler.go:443</code> - tokenization
-- <code>internal/server/public/post_chat_handler.go:525</code> - executor requests<br />
-- <code>internal/validation/inference_validation.go:897</code> - validation</p>
-<h4>3. <code>NewHttpClient()</code> lacks Transport config</h4>
-<p><strong>File:</strong> <code>utils/http.go:14-18</code></p>
-<pre><code class="language-go">func NewHttpClient(timeout time.Duration) *http.Client {
-    return &amp;http.Client{
+  <div class="issues-comment-body issues-content" markdown="1">
+    ## Ephemeral Port Exhaustion Analysis
+
+### Summary
+Found several patterns that can cause ephemeral port exhaustion due to improper HTTP client usage and missing connection pooling configuration.
+
+---
+
+### Critical Issues Found
+
+#### 1. `http.DefaultClient` usage without pooling config
+**File:** `internal/server/public/post_chat_handler.go:367`
+```go
+resp, err := http.DefaultClient.Do(req)
+```
+- DefaultClient has no MaxIdleConns/MaxIdleConnsPerHost limits
+- Called in critical inference request path (`handleTransferRequest`)
+
+#### 2. `http.Post()` calls create new connections each time
+**Files:**
+- `internal/server/public/post_chat_handler.go:443` - tokenization
+- `internal/server/public/post_chat_handler.go:525` - executor requests  
+- `internal/validation/inference_validation.go:897` - validation
+
+#### 3. `NewHttpClient()` lacks Transport config
+**File:** `utils/http.go:14-18`
+```go
+func NewHttpClient(timeout time.Duration) *http.Client {
+    return &http.Client{
         Timeout: timeout,
     }
 }
-</code></pre>
-<p>Only sets timeout, no connection pooling configuration.</p>
-<h4>4. mlnodeclient creates Client without pooling</h4>
-<p><strong>File:</strong> <code>mlnodeclient/client.go:38-40</code></p>
-<pre><code class="language-go">client: http.Client{
+```
+Only sets timeout, no connection pooling configuration.
+
+#### 4. mlnodeclient creates Client without pooling
+**File:** `mlnodeclient/client.go:38-40`
+```go
+client: http.Client{
     Timeout: 15 * time.Minute,
 }
-</code></pre>
-<h4>5. New clients created per health check</h4>
-<p><strong>File:</strong> <code>internal/server/admin/setup_report.go:549,567</code>
-Creates new <code>http.Client</code> for each health check call.</p>
-<h4>6. No timeout in participant registration</h4>
-<p><strong>File:</strong> <code>participant/participant_registration.go:160</code></p>
-<pre><code class="language-go">client := &amp;http.Client{}  // No timeout!
-</code></pre>
-<hr />
-<h3>Recommended Fix</h3>
-<p>Create a shared HTTP client with proper Transport configuration:</p>
-<pre><code class="language-go">var sharedHTTPClient = &amp;http.Client{
-    Transport: &amp;http.Transport{
+```
+
+#### 5. New clients created per health check
+**File:** `internal/server/admin/setup_report.go:549,567`
+Creates new `http.Client` for each health check call.
+
+#### 6. No timeout in participant registration
+**File:** `participant/participant_registration.go:160`
+```go
+client := &http.Client{}  // No timeout!
+```
+
+---
+
+### Recommended Fix
+
+Create a shared HTTP client with proper Transport configuration:
+
+```go
+var sharedHTTPClient = &http.Client{
+    Transport: &http.Transport{
         MaxIdleConns:        100,
         MaxIdleConnsPerHost: 10,
         MaxConnsPerHost:     20,
@@ -92,35 +108,35 @@ Creates new <code>http.Client</code> for each health check call.</p>
     },
     Timeout: 30 * time.Second,
 }
-</code></pre>
-<h3>Files Requiring Changes</h3>
-<ol>
-<li><code>utils/http.go</code> - Update <code>NewHttpClient()</code> with Transport config</li>
-<li><code>internal/server/public/post_chat_handler.go</code> - Replace <code>http.DefaultClient</code> and <code>http.Post()</code></li>
-<li><code>mlnodeclient/client.go</code> - Add Transport configuration</li>
-<li><code>internal/server/admin/setup_report.go</code> - Reuse single client</li>
-<li><code>participant/participant_registration.go</code> - Use configured client with timeout</li>
-<li><code>internal/validation/inference_validation.go</code> - Replace <code>http.Post()</code></li>
-</ol>
+```
+
+### Files Requiring Changes
+1. `utils/http.go` - Update `NewHttpClient()` with Transport config
+2. `internal/server/public/post_chat_handler.go` - Replace `http.DefaultClient` and `http.Post()`
+3. `mlnodeclient/client.go` - Add Transport configuration
+4. `internal/server/admin/setup_report.go` - Reuse single client
+5. `participant/participant_registration.go` - Use configured client with timeout
+6. `internal/validation/inference_validation.go` - Replace `http.Post()`
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-01-29 00:21 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>Hello @AlexeySamosadov, thank you for your contribution. However, I'd suggest waiting for @libermans or @gmorgachev to give a detailed description of the task and expected results.</p>  
+  <div class="issues-comment-body issues-content" markdown="1">
+    Hello @AlexeySamosadov, thank you for your contribution. However, I'd suggest waiting for @libermans or @gmorgachev to give a detailed description of the task and expected results.  
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/AlexeySamosadov">@AlexeySamosadov</a></span>
+    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
     <span class="issues-meta-item">commented 2026-02-08 14:14 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>PR created: https://github.com/gonka-ai/gonka/pull/656</p>
-<p>Adds HTTP client connection pooling to prevent ephemeral port exhaustion.</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    PR created: https://github.com/gonka-ai/gonka/pull/656
+
+Adds HTTP client connection pooling to prevent ephemeral port exhaustion.
   </div>
 </div>
 

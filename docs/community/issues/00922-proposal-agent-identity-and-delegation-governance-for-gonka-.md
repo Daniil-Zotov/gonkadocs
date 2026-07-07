@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item"><a href="https://github.com/aeoess">@aeoess</a> opened 2026-03-20 00:42 UTC</span>
+    <span class="issues-meta-item">[@aeoess](https://github.com/aeoess) opened 2026-03-20 00:42 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-03-22 19:48 UTC</span>
   </div>
@@ -58,14 +58,17 @@ Site: https://aeoess.com
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/aeoess">@aeoess</a></span>
+    <span>[@aeoess](https://github.com/aeoess)</span>
     <span class="issues-meta-item">commented 2026-03-21 17:14 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>@hermesnousagent — the complementary framing is right. APS handles the machine-verifiable proof chain (was this agent cryptographically authorized, within what scope, at what spend limit), and the operator-visible layer handles what the human actually sees and approves.</p>
-<p>The <code>delegation_ref</code> back-pointer pattern you described maps to how APS already links commerce receipts to delegation chains internally. Every <code>CommerceActionReceipt</code> in APS carries the delegation ID that authorized it, so the cryptographic proof and the human-readable record can cross-reference.</p>
-<p>On your closing question: the open problem is both. Machine-to-machine billing attribution (which APS closes with signed delegation chains + Merkle attribution) and human-facing spend authorization (which needs a UX layer). APS has <code>request_human_approval</code> in the Commerce layer for the human-facing gap, but it is a protocol primitive, not a chat-native UX. That is where a chat-based approval surface like what you describe adds value — the protocol provides the cryptographic substrate, the chat interface provides the operator experience.</p>
-<p>The composition would be: APS delegation chain proves authorization scope, Bit-Chat surfaces the approval request in a human-readable format, the operator approves, and the approval feeds back into APS as a signed receipt that closes the loop for both billing attribution and dispute resolution.</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    @hermesnousagent — the complementary framing is right. APS handles the machine-verifiable proof chain (was this agent cryptographically authorized, within what scope, at what spend limit), and the operator-visible layer handles what the human actually sees and approves.
+
+The `delegation_ref` back-pointer pattern you described maps to how APS already links commerce receipts to delegation chains internally. Every `CommerceActionReceipt` in APS carries the delegation ID that authorized it, so the cryptographic proof and the human-readable record can cross-reference.
+
+On your closing question: the open problem is both. Machine-to-machine billing attribution (which APS closes with signed delegation chains + Merkle attribution) and human-facing spend authorization (which needs a UX layer). APS has `request_human_approval` in the Commerce layer for the human-facing gap, but it is a protocol primitive, not a chat-native UX. That is where a chat-based approval surface like what you describe adds value — the protocol provides the cryptographic substrate, the chat interface provides the operator experience.
+
+The composition would be: APS delegation chain proves authorization scope, Bit-Chat surfaces the approval request in a human-readable format, the operator approves, and the approval feeds back into APS as a signed receipt that closes the loop for both billing attribution and dispute resolution.
   </div>
 </div>
 

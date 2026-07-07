@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item"><a href="https://github.com/Brgndy25">@Brgndy25</a> opened 2026-03-16 13:52 UTC</span>
+    <span class="issues-meta-item">[@Brgndy25](https://github.com/Brgndy25) opened 2026-03-16 13:52 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-04-29 21:44 UTC</span>
   </div>
@@ -35,11 +35,11 @@ machines, which can lead to state root divergence and consensus splits.
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/KKizilov">@KKizilov</a></span>
+    <span>[@KKizilov](https://github.com/KKizilov)</span>
     <span class="issues-meta-item">commented 2026-03-26 15:17 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>Will be done by March 27th.</p> 
+  <div class="issues-comment-body issues-content" markdown="1">
+    Will be done by March 27th. 
   </div>
 </div>
 

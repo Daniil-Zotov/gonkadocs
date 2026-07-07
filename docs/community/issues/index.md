@@ -20,7 +20,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">Is this how our story began in your previous project where your name was Natalia?  I would like to ask, can Mikhail Chudinov come out to play? The one who is a DevOps engineer at NameSilo, formerly He...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/phishdestroy">@phishdestroy</a> opened 12 hours ago</span>
+      <span class="issues-meta-item">[@phishdestroy](https://github.com/phishdestroy) opened 12 hours ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>
@@ -35,7 +35,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">## Model lineup improvement: add an accessible GLM-5.2 candidate and reconsider the default model  ### Problem  At the moment, the network appears to have very limited active capacity for `GLM-5.2`....</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/enonog">@enonog</a> opened 13 hours ago</span>
+      <span class="issues-meta-item">[@enonog](https://github.com/enonog) opened 13 hours ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>
@@ -65,7 +65,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">Review the existing reproducible / deterministic sampling work for inference validation and prepare a careful path toward adding it to MLNode versions.  This task is related to the known inference val...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 1 day ago</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 1 day ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 5</span>
     </div>
   </div>
@@ -80,7 +80,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">Hi @tcharchian — follow-up to #1319, where you recommended OpenBroker as the official developer path ("GNK-settled, 1:1 at cost, no markup, no approval wait"). I took that advice, and I'm reporting wh...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/dufok">@dufok</a> opened 1 day ago</span>
+      <span class="issues-meta-item">[@dufok](https://github.com/dufok) opened 1 day ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>
@@ -95,7 +95,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">## Operator  Nichita R. — independent developer Contact: GitHub @niro58  ## Address  gonka142rw2k5qwh3rxm774z56uzcgfyqfnnclqewr36  ## Models  - MiniMaxAI/MiniMax-M2.7 - moonshotai/Kimi-K2.6  ## Use ca...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/niro58">@niro58</a> opened 2 days ago</span>
+      <span class="issues-meta-item">[@niro58](https://github.com/niro58) opened 2 days ago</span>
       
     </div>
   </div>
@@ -122,12 +122,10 @@ Updated: `2026-07-07 04:31 UTC`.
       <a href="01173-tee-implementation/">TEE Implementation</a>
       <span class="issues-number">#1173</span>
     </div>
-    <p class="issues-desc">### Discussed in https://github.com/gonka-ai/gonka/discussions/951  <div type='discussions-op-text'>  <sup>Originally posted by **mtvnastya** March 25, 2026</sup> # TEE
- 
- This proposal outlines the...</p>
+    <p class="issues-desc">### Discussed in https://github.com/gonka-ai/gonka/discussions/951  <div type='discussions-op-text'>  <sup>Originally posted by **mtvnastya** March 25, 2026</sup> # TEE  This proposal outlines the...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span> <span class="issues-label" style="background-color: #1d27b4; color: #ffffff; border-color: #1d27b4;">protocol</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2 days ago</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 3</span>
     </div>
   </div>
@@ -157,7 +155,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">## Operator - Name: Viacheslav Nikitin - Contact: via GitHub issue replies  ## Intended creator address `gonka1qh620unjez7552csz9mklhjjtl9p7ty5vpznag`  ## Models to serve - MiniMaxAI/MiniMax-M2.7 - (o...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/scodeit">@scodeit</a> opened 3 days ago</span>
+      <span class="issues-meta-item">[@scodeit](https://github.com/scodeit) opened 3 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>
@@ -172,7 +170,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">### Summary  Several official surfaces document a **self-serve, no-broker** end-to-end inference flow (own GNK account + private key → signed request → completion) as if it works. In practice, a funde...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/dufok">@dufok</a> opened 3 days ago</span>
+      <span class="issues-meta-item">[@dufok](https://github.com/dufok) opened 3 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 7</span>
     </div>
   </div>
@@ -187,7 +185,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">Hi Gonka core team & community,  We're requesting inclusion of Gonka Relay as a Gonka broker: adding our on-chain address to `devshard_escrow_params.allowed_creator_addresses` and listing alongside th...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/len5ky">@len5ky</a> opened 4 days ago</span>
+      <span class="issues-meta-item">[@len5ky](https://github.com/len5ky) opened 4 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -202,7 +200,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">Request to add my address to devshard_escrow_params.allowed_creator_addresses for a self-hosted gateway.  Address: gonka1a02jacrjca02f0805v9kpx0h2axjdfxx4vmwls Pubkey: A3X9+ooArJ8UyJX1WpvhnH7JFBcU6Orb...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/GERAunits">@GERAunits</a> opened 4 days ago</span>
+      <span class="issues-meta-item">[@GERAunits](https://github.com/GERAunits) opened 4 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -217,7 +215,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">## Summary  When a threshold signing request reaches COMPLETED, the inference BLS hook calls `CleanupBridgePendingRefundByBlsRequestID` to remove pending bridge refund state.  If this cleanup persiste...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Ryanchen911">@Ryanchen911</a> opened 5 days ago</span>
+      <span class="issues-meta-item">[@Ryanchen911](https://github.com/Ryanchen911) opened 5 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 4</span>
     </div>
   </div>
@@ -232,7 +230,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">At the moment, `devshards` handle hosts' warm keys in a non deterministic way.  Different hosts can check whether a warm key is authorized at different points in time, using the mainnet bridge, and th...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 5 days ago</span>
+      <span class="issues-meta-item">[@dcastro](https://github.com/dcastro) opened 5 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -262,7 +260,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">## Summary  **Today `subnetctl` does not surface many host-side failures during inference.** When the HTTP call to the executor fails (for example **403 Forbidden** with `sender not in group`), the pr...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/akup">@akup</a> opened 5 days ago</span>
+      <span class="issues-meta-item">[@akup](https://github.com/akup) opened 5 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -277,7 +275,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">The goal of this is to have in place after this a standard way of handling possible overflows, have it implemented consistently across the entire codebase and to have a check (preferably a static chec...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #12a6e8; color: #24292f; border-color: #12a6e8;">Priority: Medium</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 6 days ago</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 6 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -307,7 +305,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">## Goal / Problem  Current MLNode registration in the API service requires three static parameters: - Static IP address - PoC port (management API, default 8080) - Inference port (vLLM inference API,...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/gmorgachev">@gmorgachev</a> opened 9 days ago</span>
+      <span class="issues-meta-item">[@gmorgachev](https://github.com/gmorgachev) opened 9 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 6</span>
     </div>
   </div>
@@ -322,7 +320,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">Hi Gonka Core Team and Community, We would like to formally request the inclusion of the Gonka24 gateway in the public broker list. Gonka24 is being developed as a gateway focused on providing reliabl...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/anikiyevichm">@anikiyevichm</a> opened 10 days ago</span>
+      <span class="issues-meta-item">[@anikiyevichm](https://github.com/anikiyevichm) opened 10 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 5</span>
     </div>
   </div>
@@ -367,7 +365,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">## Summary `go test ./cmd/devshardctl/ -race -run TestRunInference` fails on current `main` (8bd883ba3) with 15 data race reports across 13 tests. The dominant race (11 of the 15 reports) has producti...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/redstartechno">@redstartechno</a> opened 10 days ago</span>
+      <span class="issues-meta-item">[@redstartechno](https://github.com/redstartechno) opened 10 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 3</span>
     </div>
   </div>
@@ -382,7 +380,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">Currently devshard `SessionConfig` has a lot of hardcoded values. They should be settable on new escrow start from mainnet, and should be configurable by governance.  For example https://github.com/go...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/akup">@akup</a> opened 10 days ago</span>
+      <span class="issues-meta-item">[@akup](https://github.com/akup) opened 10 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -412,7 +410,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">The framing is simple: you can prepare any container, it will run across different GPUs in the network, a protocol layer will coordinate interaction between nodes, they will perform training, and then...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 12 days ago</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 12 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 4</span>
     </div>
   </div>
@@ -427,7 +425,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">Improve onboarding experience:   - [ ] Clearer logging when node is launched and waiting for PoC - [ ] remove errors which doesn’t mean errors - [ ] automatic testing that everything will work when Po...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 13 days ago</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 13 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 4</span>
     </div>
   </div>
@@ -442,7 +440,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 13 days ago</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 13 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 5</span>
     </div>
   </div>
@@ -457,7 +455,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">This is a future task. A detailed description will be provided in the near future.  Please do not start working on this task without the detailed specification, as it may turn out to be a different di...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 13 days ago</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 13 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -472,7 +470,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">The task was completed by Aleksandr @a-kuprin here: https://github.com/gonka-ai/gonka/pull/994  However, it was submitted from his previous account, which is currently blocked, so the PR is not access...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 13 days ago</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 13 days ago</span>
       
     </div>
   </div>
@@ -487,7 +485,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">Review what’s currently stored, identify any leftovers, and remove them.</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #12a6e8; color: #24292f; border-color: #12a6e8;">Priority: Medium</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 13 days ago</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 13 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -502,7 +500,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">Open for community contributors. Multiple parallel efforts in this direction are welcome to explore different approaches and accelerate progress.</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span> <span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 13 days ago</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 13 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>
@@ -517,7 +515,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">Hi Gonka core team & community,  ## Context   We previously opened an issue requesting inclusion of our address in `devshard_escrow_params.allowed_creator_addresses` to run our own devshard gateway. A...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Puyre">@Puyre</a> opened 13 days ago</span>
+      <span class="issues-meta-item">[@Puyre](https://github.com/Puyre) opened 13 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -532,7 +530,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">## Summary  I am building an OpenAI-compatible reliability gateway for Gonka-hosted models, starting with `moonshotai/Kimi-K2.6`.  The goal is to make Gonka-hosted models practically usable for develo...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/sspotanin">@sspotanin</a> opened 13 days ago</span>
+      <span class="issues-meta-item">[@sspotanin](https://github.com/sspotanin) opened 13 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -562,7 +560,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">Hi Gonka team & community,  I'm requesting inclusion as a Gonka broker and inclusion of our address in the devshard creator allow-list.  Operator: Daniel Contact: Discord @labdalab, Telegram @That_met...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/olkwwuah">@olkwwuah</a> opened 13 days ago</span>
+      <span class="issues-meta-item">[@olkwwuah](https://github.com/olkwwuah) opened 13 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -577,7 +575,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">name: Andrei company: Lunaro project: Lunaro Gonka Gateway github: @bruev Gonka address: gonka1yfr6fcatj5hvx25ucy7uswwsdzdw7aql4uhug3 Models: Qwen/Qwen3-235B-A22B-Instruct-2507-FP8 Purpose: Self-hoste...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/bruev">@bruev</a> opened 13 days ago</span>
+      <span class="issues-meta-item">[@bruev](https://github.com/bruev) opened 13 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -592,7 +590,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">Hi Gonka team,  Requesting to join the Gateway allowlist. We are a bootstrapped startup studio building AI agents and automation tools. We are exploring decentralized AI infrastructure and would like...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/appgencore">@appgencore</a> opened 13 days ago</span>
+      <span class="issues-meta-item">[@appgencore](https://github.com/appgencore) opened 13 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -607,7 +605,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">Hi Gonka core team & community,  We're requesting inclusion of the OpenGonka gateway in the public broker list   Project: OpenGonka Contact: [info@gonkakeeper.com](mailto:info@gonkakeeper.com) — Disco...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/piterberkut">@piterberkut</a> opened 13 days ago</span>
+      <span class="issues-meta-item">[@piterberkut](https://github.com/piterberkut) opened 13 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>
@@ -622,7 +620,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">The proposal is described here https://github.com/gonka-ai/gonka/blob/22639fe25aada8090d971402e136714fa9c3b0e7/proposals/maintenance-windows/maintenance-windows.md  The preliminary implementation plan...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 15 days ago</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 15 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 3</span>
     </div>
   </div>
@@ -637,7 +635,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">🐞 [BUG] Node Registration Cannot Update After Migration (stuck on old on-chain state; diff returns no changes) Summary  After migrating the ML inference server to new infrastructure and switching from...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Asplana92">@Asplana92</a> opened 25 days ago</span>
+      <span class="issues-meta-item">[@Asplana92](https://github.com/Asplana92) opened 25 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>
@@ -652,7 +650,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">Independent re-check of the VLM inference and validation results reported in #1026 before they are used for protocol, model onboarding, or host-facing decisions.  The goal is not to redo the full rese...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 25 days ago</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 25 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 7</span>
     </div>
   </div>
@@ -667,7 +665,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc"># Request to be added as a Gonka gateway operator (devshard creator allowlist)  Hi Gonka core team & community,  We're requesting inclusion of our on-chain address in `devshard_escrow_params.allowed_c...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Puyre">@Puyre</a> opened 26 days ago</span>
+      <span class="issues-meta-item">[@Puyre](https://github.com/Puyre) opened 26 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -682,7 +680,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc"># Proposal: Enable Cosmos SDK Simulation and Fuzz Testing for `inference-chain`  ## Summary  `inference-chain` should make Cosmos SDK simulation and fuzz-style state exploration a near-term engineerin...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/patimen">@patimen</a> opened 2026-06-06</span>
+      <span class="issues-meta-item">[@patimen](https://github.com/patimen) opened 2026-06-06</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 7</span>
     </div>
   </div>
@@ -697,7 +695,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">## Summary `PayParticipantFromModule` in `x/inference` hardcodes `types.ModuleName` (`inference`) when calling `streamvesting.AddVestedRewards`, instead of forwarding the caller-provided `moduleName`....</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Schwartz10">@Schwartz10</a> opened 2026-06-04</span>
+      <span class="issues-meta-item">[@Schwartz10](https://github.com/Schwartz10) opened 2026-06-04</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>
@@ -712,7 +710,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">@GLiberman @gmorgachev please evaluate how viable this solution would be.  Current issue with wallet connections: At the moment, wallets can be configured to use only a single address. If that address...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-06-04</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-06-04</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 7</span>
     </div>
   </div>
@@ -727,7 +725,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">## Summary  Around **2026-03-10 20:28 UTC**, I followed the public Developer Quickstart flow on mainnet using a funded account and observed that inference requests signed using the public Gonka SDK se...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/junior2wnw">@junior2wnw</a> opened 2026-06-03</span>
+      <span class="issues-meta-item">[@junior2wnw](https://github.com/junior2wnw) opened 2026-06-03</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 13</span>
     </div>
   </div>
@@ -742,7 +740,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">#1101</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/x0152">@x0152</a> opened 2026-06-02</span>
+      <span class="issues-meta-item">[@x0152](https://github.com/x0152) opened 2026-06-02</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -757,7 +755,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">## Summary  The Ethereum bridge README currently documents the mint/withdraw `messageHash` format without the `address(this)` bridge contract field, while the actual contract source includes it.  A fi...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Ryanchen911">@Ryanchen911</a> opened 2026-06-02</span>
+      <span class="issues-meta-item">[@Ryanchen911](https://github.com/Ryanchen911) opened 2026-06-02</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 4</span>
     </div>
   </div>
@@ -772,7 +770,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">As described in https://github.com/gonka-ai/gonka/issues/914#issuecomment-4090483233, we want to limit the amount of inferences that can be done in a `devshard`, as a way of limiting the amount of dam...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 2026-06-01</span>
+      <span class="issues-meta-item">[@dcastro](https://github.com/dcastro) opened 2026-06-01</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -817,7 +815,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">Connect the Gonka website to Gonka itself and run documentation translation online through the network. The idea is that Gonka documentation would be maintained only in English as the single source of...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-05-29</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-05-29</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -847,7 +845,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">When cross-message comparison detects a mismatch in TA-signed components (`prompt_hash`, `request_timestamp`, `transfer_agent`, `executor`), the Transfer Agent should be penalized.  ### Context  Curre...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/DimaOrekhovPS">@DimaOrekhovPS</a> opened 2026-05-25</span>
+      <span class="issues-meta-item">[@DimaOrekhovPS](https://github.com/DimaOrekhovPS) opened 2026-05-25</span>
       
     </div>
   </div>
@@ -862,7 +860,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">See #913   Once research is finished and we agree on a decision, we'll update this issue with the implementation steps.</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 2026-05-25</span>
+      <span class="issues-meta-item">[@dcastro](https://github.com/dcastro) opened 2026-05-25</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -877,7 +875,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">During review of https://github.com/gonka-ai/gonka/pull/1143 there was found optimization points for db usage:  1. Do not lock around `createSession` (https://github.com/gonka-ai/gonka/pull/1143#discu...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/akup">@akup</a> opened 2026-05-25</span>
+      <span class="issues-meta-item">[@akup](https://github.com/akup) opened 2026-05-25</span>
       
     </div>
   </div>
@@ -892,7 +890,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">In #891 we're making the proxy server handle timeout-related mechanisms.  We should write end-to-end testermint tests for these mechanisms.  The proxy server should allow configuring the deadline limi...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 2026-05-25</span>
+      <span class="issues-meta-item">[@dcastro](https://github.com/dcastro) opened 2026-05-25</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -907,7 +905,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">With the upgrade 0.2.11, we can stress test and benchmark subnets in test environments.  We should write a benchmark harness for this. Gonka has 3 testnets with 10 different accounts that we can use.</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 2026-05-25</span>
+      <span class="issues-meta-item">[@dcastro](https://github.com/dcastro) opened 2026-05-25</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -922,7 +920,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">## Problem  `devshard/storage` is sqlite-only today (`storage/sqlite.go`, `modernc.org/sqlite`). Running production devshards on embedded sqlite is the wrong default:  - Every `devshardd` instance hol...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/akup">@akup</a> opened 2026-05-25</span>
+      <span class="issues-meta-item">[@akup](https://github.com/akup) opened 2026-05-25</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 3</span>
     </div>
   </div>
@@ -937,7 +935,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">Hi Gonka core team & community,  I'm requesting inclusion as a Gonka broker and inclusion of my address in the devshard creator allow-list.  Operator name: Daniel / LabdaLab Contact: Discord: @labdala...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/olkwwuah">@olkwwuah</a> opened 2026-05-24</span>
+      <span class="issues-meta-item">[@olkwwuah](https://github.com/olkwwuah) opened 2026-05-24</span>
       
     </div>
   </div>
@@ -967,7 +965,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">## WHAT DOES TRAINING ON GONKA MEAN? Being able to train frontier-level models is an important long-term goal to make AI fully independent of centralized datacenters.  ## What decentralized training i...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span> <span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-05-21</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-05-21</span>
       
     </div>
   </div>
@@ -982,7 +980,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">### Dev signature  Currently signs: `original_prompt_hash + timestamp + ta_address`.  Add `model` to prevent a TA or executor from redirecting the inference to a different model after the developer si...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/DimaOrekhovPS">@DimaOrekhovPS</a> opened 2026-05-21</span>
+      <span class="issues-meta-item">[@DimaOrekhovPS](https://github.com/DimaOrekhovPS) opened 2026-05-21</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>
@@ -997,7 +995,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">## Summary  `POST /v1/chat/completions` on the only currently-reachable Transfer Agent (`node3.gonka.ai`) returns `HTTP 429 "rate limit exceeded"` for ~90% of requests, regardless of caller IP, key, o...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/unameisfine">@unameisfine</a> opened 2026-05-21</span>
+      <span class="issues-meta-item">[@unameisfine](https://github.com/unameisfine) opened 2026-05-21</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>
@@ -1027,7 +1025,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">Independently review and re-check the PoC-decode approach from https://github.com/gonka-ai/gonka/issues/1135 and the Axel-T experiments.  Current PoC correlates reasonably well with inference compute,...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-05-19</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-05-19</span>
       
     </div>
   </div>
@@ -1042,7 +1040,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-05-18</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-05-18</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>
@@ -1057,7 +1055,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">## Summary  As of 2026-05-17T06:10:54Z, public monitoring shows zero available Kimi-K2.6 gateways, even though the chain still lists Kimi hosts.  ## Observed  From `https://gonka.pw/providers`:  ```te...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/sspotanin">@sspotanin</a> opened 2026-05-18</span>
+      <span class="issues-meta-item">[@sspotanin](https://github.com/sspotanin) opened 2026-05-18</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -1072,7 +1070,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc"># Governance dashboard: Differend numbers in panel and chart   ## Summary http://gonka.spv.re:8000/dashboard/gonka/gov/51 On tab Votes, i put mouse over chart and see that numbers Yes\No\Veto\Abstain...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/akamitch">@akamitch</a> opened 2026-05-15</span>
+      <span class="issues-meta-item">[@akamitch](https://github.com/akamitch) opened 2026-05-15</span>
       
     </div>
   </div>
@@ -1087,7 +1085,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">## Summary  - Introduces a governance-controlled minimum gas price (`FeeParams.min_gas_price`) enforced at consensus level via a custom `TxFeeChecker`, replacing the current `nil` fee checker that all...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #12a6e8; color: #24292f; border-color: #12a6e8;">Priority: Medium</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-05-07</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-05-07</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -1102,7 +1100,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">independent of upgrade, to do before bridge deploy</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-04-29</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-04-29</span>
       
     </div>
   </div>
@@ -1117,7 +1115,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-04-29</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-04-29</span>
       
     </div>
   </div>
@@ -1132,7 +1130,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">DeterministicFloat, ShouldValidate, and penalizeUnrevealedSeeds use float64 and math.Ceil.   Floating-point arithmetic is not deterministicacross architectures and can produce different results on dif...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Brgndy25">@Brgndy25</a> opened 2026-04-29</span>
+      <span class="issues-meta-item">[@Brgndy25](https://github.com/Brgndy25) opened 2026-04-29</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -1147,7 +1145,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">Context: https://github.com/gonka-ai/gonka/issues/914#issuecomment-4090483233  * Calculate and charge fee for `devshards`     * Initial impl: create_fee + max_nonce * fee_per_nonce         * Reasoning...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 2026-04-29</span>
+      <span class="issues-meta-item">[@dcastro](https://github.com/dcastro) opened 2026-04-29</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -1177,7 +1175,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">## Summary  Three related bugs in subnet escrow settlement and pruning code (v0.2.11):  ### 1. Fund loss in unsettled escrow pruning (Medium)  `distributeUnsettledEscrow` (subnet_pruning.go) silently...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/unameisfine">@unameisfine</a> opened 2026-04-29</span>
+      <span class="issues-meta-item">[@unameisfine](https://github.com/unameisfine) opened 2026-04-29</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>
@@ -1192,7 +1190,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">See #896  # Research  * [Applicability of Aggregated BLS Signatures](https://serokell.notion.site/Applicability-of-Aggregated-BLS-Signatures-31a6c9c166b380b49068d5574277dfd8)</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 2026-04-29</span>
+      <span class="issues-meta-item">[@dcastro](https://github.com/dcastro) opened 2026-04-29</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -1222,7 +1220,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">## Summary  State sync fails for all available snapshots (2309000, 2310000) - the last 2 chunks (826-827 out of 827) are either corrupted or unavailable, causing nodes to crash with IAVL store panic....</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/baranskyi">@baranskyi</a> opened 2026-04-29</span>
+      <span class="issues-meta-item">[@baranskyi](https://github.com/baranskyi) opened 2026-04-29</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 5</span>
     </div>
   </div>
@@ -1237,7 +1235,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">## Summary In `msg_server_claim_rewards.go`, when `PayParticipantFromEscrow` or `PayParticipantFromModule` returns an error, the function logs the error and continues processing instead of returning t...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Mayveskii">@Mayveskii</a> opened 2026-04-28</span>
+      <span class="issues-meta-item">[@Mayveskii](https://github.com/Mayveskii) opened 2026-04-28</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 5</span>
     </div>
   </div>
@@ -1267,7 +1265,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc"># 🐛 Bug Report: Incorrect Governance Model Matching in API  **Severity:** Medium   **Category:** Bug Discovery + Improvement Proposal   **Bounty Program:** Yes ([Discord Announcement](https://discord....</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Asplana92">@Asplana92</a> opened 2026-04-28</span>
+      <span class="issues-meta-item">[@Asplana92](https://github.com/Asplana92) opened 2026-04-28</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>
@@ -1282,7 +1280,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">When inference for unsupported message requested, system returns:  "HTTP/1.1 402 Payment Required"</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/gmorgachev">@gmorgachev</a> opened 2026-04-28</span>
+      <span class="issues-meta-item">[@gmorgachev](https://github.com/gmorgachev) opened 2026-04-28</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 5</span>
     </div>
   </div>
@@ -1297,7 +1295,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">We're distributing inference requests on the chain based on the total weight of the participant, not the weight of the participant's mlnode for a specific `model_id`. Seems like it's easy can be the c...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-04-28</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-04-28</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 4</span>
     </div>
   </div>
@@ -1312,7 +1310,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">## Summary  `NewBlsManager` stores `context.Background()` as a struct field `bm.ctx`. This means two gRPC calls in the DKG dealer path run without any timeout and cannot be cancelled on node shutdown....</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Mayveskii">@Mayveskii</a> opened 2026-04-28</span>
+      <span class="issues-meta-item">[@Mayveskii](https://github.com/Mayveskii) opened 2026-04-28</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -1342,7 +1340,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">## Summary  Found several bugs during code review of `x/inference/keeper/`:  ### 1. Non-deterministic gRPC query responses (consensus risk)  Three query handlers iterate Go maps and return results dir...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/unameisfine">@unameisfine</a> opened 2026-04-27</span>
+      <span class="issues-meta-item">[@unameisfine](https://github.com/unameisfine) opened 2026-04-27</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -1357,7 +1355,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">## Description  Found three minor safety issues during code review:  ### 1. Non-deterministic `GetAllModelPerTokenPrices` response  **File:** `inference-chain/x/inference/keeper/query_dynamic_pricing....</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/unameisfine">@unameisfine</a> opened 2026-04-27</span>
+      <span class="issues-meta-item">[@unameisfine](https://github.com/unameisfine) opened 2026-04-27</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -1372,7 +1370,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">## Description  `calculateRequiredCollateral` (collateral.go:53) correctly validates that `baseWeightRatio` is in the range [0, 1):  ```go if err != nil || bwr.IsNegative() || bwr.GTE(math.LegacyOneDe...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/unameisfine">@unameisfine</a> opened 2026-04-27</span>
+      <span class="issues-meta-item">[@unameisfine](https://github.com/unameisfine) opened 2026-04-27</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 3</span>
     </div>
   </div>
@@ -1387,7 +1385,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-04-27</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-04-27</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -1417,7 +1415,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-04-24</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-04-24</span>
       
     </div>
   </div>
@@ -1432,7 +1430,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-04-24</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-04-24</span>
       
     </div>
   </div>
@@ -1447,7 +1445,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">**Problem** The Merkle tree–based off-chain PoC commit approach is already being implemented as an urgent, short-term solution.   - https://github.com/gonka-ai/gonka/blob/dl/v0.2.8-poc-v2-offchain/pro...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-04-23</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-04-23</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -1462,7 +1460,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-04-22</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-04-22</span>
       
     </div>
   </div>
@@ -1477,7 +1475,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">When querying a non-existent wallet via `GET https://node3.gonka.ai/v1/participants/{address}` the API currently returns a 500 Internal Server Error.  Expected Behavior If the wallet is not found, the...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-04-22</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-04-22</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -1492,7 +1490,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-04-22</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-04-22</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 3</span>
     </div>
   </div>
@@ -1507,7 +1505,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">Implement automatic cleanup of propagation data (bundles and proofs) from old epochs to prevent unbounded storage growth.  **Behavior:** - When entering epoch N, delete all propagation data from epoch...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/slandymani">@slandymani</a> opened 2026-04-22</span>
+      <span class="issues-meta-item">[@slandymani](https://github.com/slandymani) opened 2026-04-22</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -1522,7 +1520,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">As described in https://github.com/gonka-ai/gonka/issues/914#issuecomment-4090483233, we want to:  * Distribute `WorkCoins` at the end of the epoch, instead of upon settlement. * Take `devshards` stat...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 2026-04-21</span>
+      <span class="issues-meta-item">[@dcastro](https://github.com/dcastro) opened 2026-04-21</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -1552,7 +1550,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">A detailed description will be provided by @gmorgachev later on. https://github.com/gonka-ai/gonka/tree/gm/multi-models/proposals/multi-model-poc</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-04-16</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-04-16</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -1567,7 +1565,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-04-11</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-04-11</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 3</span>
     </div>
   </div>
@@ -1582,7 +1580,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">- [x] on-chain params to choose option  - [x] MLNode support - [x] way to monitor it</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #12a6e8; color: #24292f; border-color: #12a6e8;">Priority: Medium</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-04-11</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-04-11</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -1597,7 +1595,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">- [x] GEB-01 | Discussion on Unpaired Burn/BurnFrom on Wrapped Supply in `wrapped-token` Contract - [x] GEB-02 | Discussion on `UpdateMetadata` that Modifies Decimals - [x] GEB-28 | Discussion on Dono...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-04-11</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-04-11</span>
       
     </div>
   </div>
@@ -1612,7 +1610,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">## [P1] Consensus audit  - [x] GOC-02 @patimen  https://github.com/gonka-ai/gonka/pull/1011 - [x] GOC-03 @patimen https://github.com/gonka-ai/gonka/pull/1011 - [x] GOC-23 @patimen https://github.com/g...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-04-10</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-04-10</span>
       
     </div>
   </div>
@@ -1627,7 +1625,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc"># Problem Much of the Gonka system depends on funds being moved in and out of "escrow", which is stored in the types.ModuleName ("inference") account (the "module account"). Payments for inferences ar...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-04-10</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-04-10</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 4</span>
     </div>
   </div>
@@ -1642,7 +1640,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">- [x] GEB-11 | `InstantiateMsg.marketing` Is Ignored - https://github.com/gonka-ai/gonka/pull/814 - [x] GEB-50 | Unused Function `computeParticipantPublicKey()` in `bls_crypto.go` https://github.com/g...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #12a6e8; color: #24292f; border-color: #12a6e8;">Priority: Medium</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-04-09</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-04-09</span>
       
     </div>
   </div>
@@ -1657,7 +1655,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">- [x] GEB-06 | Known Security Issue in Upstream Dependencies - https://github.com/gonka-ai/gonka/pull/675 - [x] GEB-07 | Weak Address Validation in `withdraw()` in `wrapped-token` Contract - https://g...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-04-09</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-04-09</span>
       
     </div>
   </div>
@@ -1672,7 +1670,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">- [x] GEB-04 | Incorrect Signing Threshold in `checkThresholdAndAggregate()` - #822  - [x] GEB-05 | Native Denom Auto-Detection Can Be Misconfigured in `community-sale` Contract - https://github.com/g...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-04-09</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-04-09</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -1687,7 +1685,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">- [x] GEB-03 | Duplicate Slot Indices Inflate Threshold Coverage - #822  - [x] GEB-12 | Dealer Commitments Not Bound to Threshold Degree - #822  - [x] GEB-29 | Weak Dealer Approval Enables Threshold S...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-04-09</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-04-09</span>
       
     </div>
   </div>
@@ -1702,7 +1700,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">- [x] GEB-54 | Centralization Risks in Smart Contracts https://github.com/gonka-ai/gonka/pull/987</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-04-09</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-04-09</span>
       
     </div>
   </div>
@@ -1717,7 +1715,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">Set up IBC channels between Gonka and the chains for USDC (Injective) and USDT (Kava) so that IBC transfers work for these assets.</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/mtvnastya">@mtvnastya</a> opened 2026-04-08</span>
+      <span class="issues-meta-item">[@mtvnastya](https://github.com/mtvnastya) opened 2026-04-08</span>
       
     </div>
   </div>
@@ -1732,7 +1730,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">## Background  I've been going through the whitepaper and PoW security analysis to understand whether consumer GPUs in the ~16 GB VRAM range (RTX 5060 Ti, 5070 Ti, 5080, 5090, etc.) have a realistic p...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/JFFby">@JFFby</a> opened 2026-04-08</span>
+      <span class="issues-meta-item">[@JFFby](https://github.com/JFFby) opened 2026-04-08</span>
       
     </div>
   </div>
@@ -1747,7 +1745,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">Provide a minimal but verifiable example that demonstrates Gonka’s inference capability via standard OpenAI-compatible endpoints, suitable for validation and review by openrouter.ai. We need to run a...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-04-08</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-04-08</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 3</span>
     </div>
   </div>
@@ -1777,7 +1775,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc"># Inference Request Processing: Security Architecture and Fix  ## Overview  This document explains the 2-phase inference request processing system and the security enhancement that prevents unauthoriz...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/akup">@akup</a> opened 2026-04-04</span>
+      <span class="issues-meta-item">[@akup](https://github.com/akup) opened 2026-04-04</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 4</span>
     </div>
   </div>
@@ -1792,7 +1790,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">decentralized-api rejects valid Cursor/OpenAI chat requests where messages[].content is an array of text parts instead of a plain string. The request fails during request parsing on TA/executor becaus...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tamazgadaev">@tamazgadaev</a> opened 2026-04-03</span>
+      <span class="issues-meta-item">[@tamazgadaev](https://github.com/tamazgadaev) opened 2026-04-03</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 4</span>
     </div>
   </div>
@@ -1807,7 +1805,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc"># Validation Eligibility and Accounting Consistency  Work on Inferences and Validations on current version is now legacy. All future work will be concentrated on devnets (shardchains). This PR shouldn...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span> <span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/akup">@akup</a> opened 2026-04-03</span>
+      <span class="issues-meta-item">[@akup](https://github.com/akup) opened 2026-04-03</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -1822,7 +1820,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">**Locations:**  - https://github.com/gonka-ai/gonka/blob/82c43a42c3c2f49b56ee8a32e6458480daf39ca9/inference-chain/x/bls/keeper/phase_transitions.go#L169-L169 - https://github.com/gonka-ai/gonka/blob/8...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-04-02</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-04-02</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 4</span>
     </div>
   </div>
@@ -1837,7 +1835,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">## Tasks  - [ ] Calculate what the fee on `devshards` should be for different `devshard` sizes - [ ] Decide what we're going to implement - [ ] Implement: (tentative plan)     * Calculate and charge f...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 2026-04-02</span>
+      <span class="issues-meta-item">[@dcastro](https://github.com/dcastro) opened 2026-04-02</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 3</span>
     </div>
   </div>
@@ -1852,7 +1850,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-04-01</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-04-01</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 3</span>
     </div>
   </div>
@@ -1867,7 +1865,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">In the current implementation of the "refused timeout" workflow, we seem to rely on all hosts having seen the inference's `MsgStartInference` before the user calls for a vote. If a user calls for a vo...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 2026-04-01</span>
+      <span class="issues-meta-item">[@dcastro](https://github.com/dcastro) opened 2026-04-01</span>
       
     </div>
   </div>
@@ -1882,7 +1880,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">At the moment, the proxy server in `/subnet/cmd/subnetctl` handles 3 types of actions: chat completions (with diff propagation), finalizing `devshards`, and querying the `devshards` status.  It should...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 2026-04-01</span>
+      <span class="issues-meta-item">[@dcastro](https://github.com/dcastro) opened 2026-04-01</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>
@@ -1897,7 +1895,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-31</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-31</span>
       
     </div>
   </div>
@@ -1942,7 +1940,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">Currently, the chain requires a Participant record not only to host, but also to send inference requests. There is no real reason for this, since the public key is available in the Account record afte...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-30</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-30</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 4</span>
     </div>
   </div>
@@ -1972,7 +1970,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">@tamazgadaev, could you please provide a detailed description?</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-26</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-26</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -1987,7 +1985,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">We want the main state endpoint to also expose PoC-related information required by the next vLLM PoC, so that vLLM can rely on a single source of truth. Also poc v1 should be removed.</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/IgnatovFedor">@IgnatovFedor</a> opened 2026-03-25</span>
+      <span class="issues-meta-item">[@IgnatovFedor](https://github.com/IgnatovFedor) opened 2026-03-25</span>
       
     </div>
   </div>
@@ -2002,7 +2000,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-25</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-25</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 3</span>
     </div>
   </div>
@@ -2017,7 +2015,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">Related to #876.  Three gRPC response accesses in `post_chat_handler.go` lack nil guards, causing runtime panics when chain RPC is slow or partially responsive:  1. **`enforceDeveloperAccessGate`** (l...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/unameisfine">@unameisfine</a> opened 2026-03-25</span>
+      <span class="issues-meta-item">[@unameisfine](https://github.com/unameisfine) opened 2026-03-25</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -2032,7 +2030,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-24</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-24</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>
@@ -2047,7 +2045,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-23</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-23</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 4</span>
     </div>
   </div>
@@ -2062,7 +2060,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">## Description  Found three safety issues in the bridge module during code audit:  ### 1. Lexicographic string comparison for block numbers (Medium)  **File:** `x/inference/keeper/bridge_transaction.g...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/unameisfine">@unameisfine</a> opened 2026-03-23</span>
+      <span class="issues-meta-item">[@unameisfine](https://github.com/unameisfine) opened 2026-03-23</span>
       
     </div>
   </div>
@@ -2077,7 +2075,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-22</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-22</span>
       
     </div>
   </div>
@@ -2092,7 +2090,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">Gonka's agent-aware inference gateway handles the compute layer. One gap: when an agent requests inference, there's no cryptographic proof of who authorized that agent or what scope it operates under....</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/aeoess">@aeoess</a> opened 2026-03-22</span>
+      <span class="issues-meta-item">[@aeoess](https://github.com/aeoess) opened 2026-03-22</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>
@@ -2107,7 +2105,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-21</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-21</span>
       
     </div>
   </div>
@@ -2122,7 +2120,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">This is a future task. A detailed description will be provided in the near future.  Please do not start working on this task without the detailed specification, as it may turn out to be a different di...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-21</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-21</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 3</span>
     </div>
   </div>
@@ -2137,7 +2135,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">Axel-t, together with @tamazgadaev is implementing an integrated PoC in vLLM using layer hooks, benchmarking it extensively from all angles, and investigating why H200 and B200 do not show meaningful...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-21</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-21</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 4</span>
     </div>
   </div>
@@ -2167,7 +2165,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-18</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-18</span>
       
     </div>
   </div>
@@ -2182,7 +2180,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">### Discussed in https://github.com/gonka-ai/gonka/discussions/817  <div type='discussions-op-text'>  <sup>Originally posted by **tcharchian** February 27, 2026</sup>  Task: Multiple hosts reported n...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #008672; color: #ffffff; border-color: #008672;">help wanted</span> <span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span> <span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-18</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-18</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 7</span>
     </div>
   </div>
@@ -2197,7 +2195,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">- [ ] Reproducible sampling - [ ] Inference Sampling Validation: protection against speculative decoding</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-17</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-17</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>
@@ -2212,7 +2210,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-13</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-13</span>
       
     </div>
   </div>
@@ -2227,7 +2225,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">- [x] Add field validation for node management API - [x] Add a check for the uniqueness of IP + port combinations - [x] #465</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-12</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-12</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -2242,7 +2240,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">This task is up for grabs. It could potentially be implemented for a minimal bounty, subject to governance approval. @DimaOrekhovPS is ready to answer questions</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span> <span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-12</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-12</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -2257,7 +2255,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">## Location  `inference-chain/x/bls/keeper/msg_server_group_validation.go` — lines 64–74  ## Description  When `GetEpochBLSData` fails with `ErrEpochBLSDataNotFound` for the previous epoch, the code s...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Mayveskii">@Mayveskii</a> opened 2026-03-12</span>
+      <span class="issues-meta-item">[@Mayveskii](https://github.com/Mayveskii) opened 2026-03-12</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>
@@ -2272,7 +2270,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">## Location  `inference-chain/x/bls/keeper/phase_transitions.go` — lines 74 and 295–318  ## Description  The DKG pipeline uses two independent threshold checks with **different weighting schemes** tha...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Mayveskii">@Mayveskii</a> opened 2026-03-12</span>
+      <span class="issues-meta-item">[@Mayveskii](https://github.com/Mayveskii) opened 2026-03-12</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>
@@ -2287,7 +2285,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">**Problem**   We had only single-recipient vesting transfer.   So if we needed to vest tokens to many addresses, we had to add many separate messages   into one governance proposal.    **Main limita...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/huxuxuya">@huxuxuya</a> opened 2026-03-12</span>
+      <span class="issues-meta-item">[@huxuxuya](https://github.com/huxuxuya) opened 2026-03-12</span>
       
     </div>
   </div>
@@ -2302,7 +2300,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">#### Summary This report describes a **potential unsafe deserialization issue** identified during **static/code review**. It has **not been verified on testnet**.   The function `torch.load()` is used...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/VVSMEN">@VVSMEN</a> opened 2026-03-12</span>
+      <span class="issues-meta-item">[@VVSMEN](https://github.com/VVSMEN) opened 2026-03-12</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -2317,7 +2315,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">### Summary The ML training manager for the `mlnode` component is currently configured to use hard‑coded dummy TLS credentials for Gloo’s `TCP_TLS` transport. These credentials are stored in the repos...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/VVSMEN">@VVSMEN</a> opened 2026-03-12</span>
+      <span class="issues-meta-item">[@VVSMEN](https://github.com/VVSMEN) opened 2026-03-12</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>
@@ -2332,7 +2330,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">### Discussed in https://github.com/gonka-ai/gonka/discussions/817  <div type='discussions-op-text'>  <sup>Originally posted by **tcharchian** February 27, 2026</sup>  Task: `application.db` is growi...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span> <span class="issues-label" style="background-color: #008672; color: #ffffff; border-color: #008672;">help wanted</span> <span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-12</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-12</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 10</span>
     </div>
   </div>
@@ -2347,7 +2345,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">A critical vulnerability — CSA-2026-001: Tachyon — was disclosed in CometBFT (Advisory: https://github.com/cometbft/cometbft/security/advisories/GHSA-c32p-wcqj-j677).  According to the disclosure, all...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-12</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-12</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -2362,7 +2360,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">Currently, slashed coins are burned. This behavior should be changed.  Instead of burning slashed funds, they must be redirected to the Governance module account, consistent with how we handle rewards...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-12</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-12</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>
@@ -2377,7 +2375,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc"># Background  `MsgStartInference` and `MsgFinishInference` are too slow in production. Blocks should be processed by nodes within 1-2 seconds, so that block time stays below 6 seconds. This means that...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #008672; color: #ffffff; border-color: #008672;">help wanted</span> <span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span> <span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span> <span class="issues-label" style="background-color: #9214a6; color: #ffffff; border-color: #9214a6;">requires own mainnet node</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-11</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-11</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 10</span>
     </div>
   </div>
@@ -2392,7 +2390,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc"># Background  `MsgStartInference` and `MsgFinishInference` are too slow in production. Blocks should be processed by nodes within 1-2 seconds, so that block time stays below 6 seconds. This means that...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-11</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-11</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 22</span>
     </div>
   </div>
@@ -2407,7 +2405,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc"># Background  `MsgStartInference` and `MsgFinishInference` are too slow in production. Blocks should be processed by nodes within 1-2 seconds, so that block time stays below 6 seconds. This means that...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span> <span class="issues-label" style="background-color: #9214a6; color: #ffffff; border-color: #9214a6;">requires own mainnet node</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-11</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-11</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 5</span>
     </div>
   </div>
@@ -2422,7 +2420,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc"># Background  `MsgStartInference` and `MsgFinishInference` are too slow in production. Blocks should be processed by nodes within 1-2 seconds, so that block time stays below 6 seconds. This means that...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-11</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-11</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 13</span>
     </div>
   </div>
@@ -2437,7 +2435,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">StartInference and FinishInference should be significantly optimized, as they are messages used frequently—potentially 1,000+ times per block. The execution time of these messages should be below 1 ms...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/libermans">@libermans</a> opened 2026-03-11</span>
+      <span class="issues-meta-item">[@libermans](https://github.com/libermans) opened 2026-03-11</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -2452,7 +2450,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-11</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-11</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 3</span>
     </div>
   </div>
@@ -2467,7 +2465,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">### Discussed in https://github.com/gonka-ai/gonka/discussions/817  <div type='discussions-op-text'>  <sup>Originally posted by **tcharchian** February 27, 2026</sup>  Task: Some nodes experience mis...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span> <span class="issues-label" style="background-color: #008672; color: #ffffff; border-color: #008672;">help wanted</span> <span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span> <span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-06</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-06</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>
@@ -2497,7 +2495,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-05</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-05</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>
@@ -2512,7 +2510,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">I'm trying to figure out how to create a highly available node. My understanding at the time is following 1. Full-node can be started in multiple instances and we can use some LB for balance and failo...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Laboltus">@Laboltus</a> opened 2026-03-03</span>
+      <span class="issues-meta-item">[@Laboltus](https://github.com/Laboltus) opened 2026-03-03</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -2527,7 +2525,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">### Description The current implementation of the ML node allocation logic in  x/inference/module/model_assignment.go  contains an alphabetical bias that affects the fairness of the network.  **Alphab...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/huxuxuya">@huxuxuya</a> opened 2026-03-03</span>
+      <span class="issues-meta-item">[@huxuxuya](https://github.com/huxuxuya) opened 2026-03-03</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 3</span>
     </div>
   </div>
@@ -2542,7 +2540,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">## Location  `decentralized-api/payloadstorage/managed_storage.go` — lines 129–138  ## Description  In `ManagedStorage.cleanup()`, `m.minPruned` is advanced to `threshold` **before** the pruning gorou...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Mayveskii">@Mayveskii</a> opened 2026-03-03</span>
+      <span class="issues-meta-item">[@Mayveskii](https://github.com/Mayveskii) opened 2026-03-03</span>
       
     </div>
   </div>
@@ -2557,7 +2555,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">### Discussed in https://github.com/gonka-ai/gonka/discussions/802  <div type='discussions-op-text'>  <sup>Originally posted by **mtvnastya** February 24, 2026</sup> This proposal is closely related...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span> <span class="issues-label" style="background-color: #008672; color: #ffffff; border-color: #008672;">help wanted</span> <span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span> <span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-03</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-03</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -2572,7 +2570,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">**Vulnerability:** Inference Slot Hogging **Severity:** Medium  **Component:** model_assignment.go  ### Description The system always picks the node with the smallest weight for the "safe" inference s...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/huxuxuya">@huxuxuya</a> opened 2026-03-02</span>
+      <span class="issues-meta-item">[@huxuxuya](https://github.com/huxuxuya) opened 2026-03-02</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 4</span>
     </div>
   </div>
@@ -2587,7 +2585,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">- [consensus-failure-epoch-length.log](https://github.com/user-attachments/files/22176980/consensus-failure-epoch-length.log) - https://github.com/gonka-ai/gonka/blob/f0a36298bddf8ba7f924b30ac289ad7f5...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-02-28</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-28</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>
@@ -2602,7 +2600,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">## Executive Summary  Running Gonka nodes currently requires manual CLI-based installation, configuration, and ongoing maintenance. For experienced operators, initial setup typically takes several hou...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span> <span class="issues-label" style="background-color: #008672; color: #ffffff; border-color: #008672;">help wanted</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/ochenUmnayaKatyshka">@ochenUmnayaKatyshka</a> opened 2026-02-27</span>
+      <span class="issues-meta-item">[@ochenUmnayaKatyshka](https://github.com/ochenUmnayaKatyshka) opened 2026-02-27</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -2617,7 +2615,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">**This is an urgent, open issue, and many contributors are working on it in parallel.**  There is a quite weird issue today - new nodes can't join from snapshots with error like that: ``` 5:49AM ERR e...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #008672; color: #ffffff; border-color: #008672;">help wanted</span> <span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span> <span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-02-25</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-25</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 5</span>
     </div>
   </div>
@@ -2632,7 +2630,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">After upgrade v0.2.9, part of epoch 158 rewards appears to be distributed incorrectly.   Validators that had ML nodes in preserved inference slot (POC_SLOT, TimeslotAllocation[1]) were not paid.    Su...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/huxuxuya">@huxuxuya</a> opened 2026-02-17</span>
+      <span class="issues-meta-item">[@huxuxuya](https://github.com/huxuxuya) opened 2026-02-17</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -2647,7 +2645,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc"># Description  When MLNodes are disabled `POST 9200/admin/v1/nodes/<id>/disable`  MLNodes have to work till next PoC according to schedule: ``` enum TimeslotType {   PRE_POC_SLOT = 0;   POC_SLOT = 1;...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span> <span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/gmorgachev">@gmorgachev</a> opened 2026-02-12</span>
+      <span class="issues-meta-item">[@gmorgachev](https://github.com/gmorgachev) opened 2026-02-12</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 3</span>
     </div>
   </div>
@@ -2662,7 +2660,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">gRPC is enabled, but requests still use RPC (#685 )</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/x0152">@x0152</a> opened 2026-02-12</span>
+      <span class="issues-meta-item">[@x0152](https://github.com/x0152) opened 2026-02-12</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>
@@ -2677,7 +2675,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">Validators are marked for removal but haven't removed. Happens in cosmos-sdk  ``` 7:48AM INF marking validator for removal (not in compute results) jailed=false module=x/staking operator=gonkavaloper1...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span> <span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/gmorgachev">@gmorgachev</a> opened 2026-02-12</span>
+      <span class="issues-meta-item">[@gmorgachev](https://github.com/gmorgachev) opened 2026-02-12</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 3</span>
     </div>
   </div>
@@ -2692,7 +2690,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">This issue outlines a direction for a larger project. Adding new models is not a standalone task and has system-level implications for the architecture. The impact on the overall architecture needs to...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-02-11</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-11</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -2707,7 +2705,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">When the community distributes funds to miners, the transferred tokens should vest over a fixed 180-epoch period, rather than being fully available at the time of transfer.</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-02-10</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-10</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 4</span>
     </div>
   </div>
@@ -2722,7 +2720,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-02-10</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-10</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -2737,7 +2735,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-02-10</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-10</span>
       
     </div>
   </div>
@@ -2752,7 +2750,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-02-10</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-10</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -2767,7 +2765,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">``` base_url: http://192.241.240.19:8000/v1 Request signing is enabled through a custom HTTP client implementation. Using Gonka address: gonka1twg5lhad6sc86yjqspanmp94md2dx0fhfppxus INFO:httpx:HTTP Re...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/pentoxine">@pentoxine</a> opened 2026-02-10</span>
+      <span class="issues-meta-item">[@pentoxine](https://github.com/pentoxine) opened 2026-02-10</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -2782,7 +2780,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">**Problem:** DAPI crashes when chain node RPC becomes temporarily unavailable (I/O errors, restarts, network issues)  **Root Cause:** Missing `return` statement after error in `tryClaimingTaskToAssign...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/mfursov">@mfursov</a> opened 2026-02-10</span>
+      <span class="issues-meta-item">[@mfursov](https://github.com/mfursov) opened 2026-02-10</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>
@@ -2797,7 +2795,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-02-10</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-10</span>
       
     </div>
   </div>
@@ -2812,7 +2810,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-02-10</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-10</span>
       
     </div>
   </div>
@@ -2827,7 +2825,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-02-10</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-10</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -2842,7 +2840,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-02-10</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-10</span>
       
     </div>
   </div>
@@ -2857,7 +2855,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-02-10</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-10</span>
       
     </div>
   </div>
@@ -2872,7 +2870,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/moro3one">@moro3one</a> opened 2026-02-10</span>
+      <span class="issues-meta-item">[@moro3one](https://github.com/moro3one) opened 2026-02-10</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 4</span>
     </div>
   </div>
@@ -2887,7 +2885,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-02-09</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-09</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -2902,7 +2900,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">Bug Report: api container sends abci_query with height: 0 despite being synced Title: api container sends abci_query for EpochInfo with "height":"0", causing requests to /v1/epochs/current/participant...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/VaniaHilkovets">@VaniaHilkovets</a> opened 2026-02-08</span>
+      <span class="issues-meta-item">[@VaniaHilkovets](https://github.com/VaniaHilkovets) opened 2026-02-08</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -2917,7 +2915,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">This is a future task. A detailed description will be provided in the near future.  Please do not start working on this task without the detailed specification, as it may turn out to be a different di...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-02-07</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-07</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>
@@ -2932,7 +2930,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">If chain node is unreachable even for short period, the API can crash:  ``` 2026/01/28 14:01:30 ERROR [training-task-assigner] Failed to query chain status err="post failed: Post \"http://genesis-node...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/x0152">@x0152</a> opened 2026-02-06</span>
+      <span class="issues-meta-item">[@x0152](https://github.com/x0152) opened 2026-02-06</span>
       
     </div>
   </div>
@@ -2947,7 +2945,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-02-06</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-06</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>
@@ -2962,7 +2960,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc"># POC_SLOT Attack  ## Overview  An attacker can exploit the current PoC / POC_SLOT allocation logic to obtain a large number of `POC_SLOT = true` positions while running significantly less hardware th...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/akup">@akup</a> opened 2026-02-06</span>
+      <span class="issues-meta-item">[@akup](https://github.com/akup) opened 2026-02-06</span>
       
     </div>
   </div>
@@ -2977,7 +2975,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">#666</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/IgnatovFedor">@IgnatovFedor</a> opened 2026-02-06</span>
+      <span class="issues-meta-item">[@IgnatovFedor](https://github.com/IgnatovFedor) opened 2026-02-06</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -2992,7 +2990,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">Follow-up to #553. Line 68 uses GetEpochModel (current epoch) instead of GetEpochModelForEpoch(ctx, inference.EpochId, inference.Model)</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/x0152">@x0152</a> opened 2026-02-06</span>
+      <span class="issues-meta-item">[@x0152](https://github.com/x0152) opened 2026-02-06</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -3007,7 +3005,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-02-05</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-05</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>
@@ -3022,7 +3020,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-29</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-29</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 3</span>
     </div>
   </div>
@@ -3037,7 +3035,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-29</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-29</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -3052,7 +3050,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc"># 1. Too large HTTP body:  ``` 2025/10/17 11:11:18 INFO Submitting MsgFinishInference subsystem=Inferences inferenceId="KXLiAV7ygVDb+fKlU3LOUZtagN+j/hi3FO77w4mnOb4FxmWyRWh712bwBLJIYzYO/PR79xxMI5EDGEqu...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/gmorgachev">@gmorgachev</a> opened 2026-01-29</span>
+      <span class="issues-meta-item">[@gmorgachev](https://github.com/gmorgachev) opened 2026-01-29</span>
       
     </div>
   </div>
@@ -3067,7 +3065,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-29</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-29</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -3082,7 +3080,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-29</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-29</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -3097,7 +3095,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">All the old keys from the cluster entered the new epoch, even though that cluster was deleted about six hours ago. For some reason, they passed the PoC with a small weight, but it still looks like the...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-29</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-29</span>
       
     </div>
   </div>
@@ -3112,7 +3110,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-29</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-29</span>
       
     </div>
   </div>
@@ -3127,7 +3125,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-29</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-29</span>
       
     </div>
   </div>
@@ -3142,7 +3140,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-29</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-29</span>
       
     </div>
   </div>
@@ -3157,7 +3155,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc"># BUG-2: Local MLNode identifier & MLNode lookup in wrong group  In function getInferenceServingNodeIds  ```  // getInferenceServingNodeIds returns a set of node IDs that have POC_SLOT = true in the c...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/gmorgachev">@gmorgachev</a> opened 2026-01-28</span>
+      <span class="issues-meta-item">[@gmorgachev](https://github.com/gmorgachev) opened 2026-01-28</span>
       
     </div>
   </div>
@@ -3172,7 +3170,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-28</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-28</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -3187,7 +3185,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">Performance: Measure chain performance (number / size of inference request we can actually record on chain a second / a block) - based on the result of the task additional tasks can be created - first...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-28</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-28</span>
       
     </div>
   </div>
@@ -3202,7 +3200,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">Fix the bug in network inference API where sending a request with an unsupported model name incorrectly returns the error 402 Insufficient balance.</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/gmorgachev">@gmorgachev</a> opened 2026-01-28</span>
+      <span class="issues-meta-item">[@gmorgachev](https://github.com/gmorgachev) opened 2026-01-28</span>
       
     </div>
   </div>
@@ -3217,7 +3215,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">This is a future task. A detailed description will be provided in the near future.  Please do not start working on this task without the detailed specification, as it may turn out to be a different di...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-28</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-28</span>
       
     </div>
   </div>
@@ -3232,7 +3230,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-28</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-28</span>
       
     </div>
   </div>
@@ -3247,7 +3245,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">[log.trace.zip](https://github.com/user-attachments/files/23591255/log.trace.zip)  1. node can’t connect to the seed nodes. 2. then `fatal error: too many concurrent timer firings`  ![Image](https://g...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-28</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-28</span>
       
     </div>
   </div>
@@ -3262,7 +3260,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">This is a future task. A detailed description will be provided in the near future.  Please do not start working on this task without the detailed specification, as it may turn out to be a different di...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-28</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-28</span>
       
     </div>
   </div>
@@ -3277,7 +3275,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">https://discord.com/channels/1336477374442770503/1425189436748206171/1446142256900997152 by Axel-T  [vLLM v0.11 Migration Proposal.pdf](https://github.com/user-attachments/files/24866372/vLLM.v0.11.Mi...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-26</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-26</span>
       
     </div>
   </div>
@@ -3292,7 +3290,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc"># Context  For each mlnode a participant can configure a list of models it supports, it’s done via node management admin API (or via `node-config.json`, but only on the first run of the api container)...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-24</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-24</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -3307,7 +3305,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-24</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-24</span>
       
     </div>
   </div>
@@ -3322,7 +3320,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-23</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-23</span>
       
     </div>
   </div>
@@ -3337,7 +3335,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-22</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-22</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -3352,7 +3350,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-22</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-22</span>
       
     </div>
   </div>
@@ -3367,7 +3365,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">From this raw log. I need assist how to fix this issue. Or can i change checkpoint origin state and block to other?  `bridge  | Stopping Prysm log formatter (PID: 82343) bridge  |  bridge  | GETH: INF...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Knoxpix">@Knoxpix</a> opened 2026-01-22</span>
+      <span class="issues-meta-item">[@Knoxpix](https://github.com/Knoxpix) opened 2026-01-22</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -3382,7 +3380,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">Hi,  I encountered an issue with my node where the application.db grew too large. Because of this, I had to stop the node and resync it from a snapshot.  However, during the resync period, the node mi...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/bingcongxihaha">@bingcongxihaha</a> opened 2026-01-22</span>
+      <span class="issues-meta-item">[@bingcongxihaha](https://github.com/bingcongxihaha) opened 2026-01-22</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -3397,7 +3395,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">Node crash: Decimal precision panic in reputation calculation (v0.2.7-post1) Summary Node running v0.2.7-post1 crashes with decimal precision panic during reputation calculation in the x/inference mod...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Olena">@Olena</a> opened 2026-01-21</span>
+      <span class="issues-meta-item">[@Olena](https://github.com/Olena) opened 2026-01-21</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 3</span>
     </div>
   </div>
@@ -3412,7 +3410,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-21</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-21</span>
       
     </div>
   </div>
@@ -3427,7 +3425,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">The defunal "INFERENCE" state for MLNode de-facto didn't work.  it deployed model, but model was not in epoch state => validation would not go to this node => recovery is not possible   take a look at...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-21</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-21</span>
       
     </div>
   </div>
@@ -3442,7 +3440,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-21</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-21</span>
       
     </div>
   </div>
@@ -3457,7 +3455,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-21</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-21</span>
       
     </div>
   </div>
@@ -3472,7 +3470,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-21</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-21</span>
       
     </div>
   </div>
@@ -3487,7 +3485,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-21</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-21</span>
       
     </div>
   </div>
@@ -3502,7 +3500,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-21</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-21</span>
       
     </div>
   </div>
@@ -3517,7 +3515,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc"># Problem  On load healthy nodes are missing inferences that could be served, that leads to striking the hosts.  # What cause the problem  Sometime network is overloaded and up to 1/3 of network-nodes...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/akup">@akup</a> opened 2026-01-20</span>
+      <span class="issues-meta-item">[@akup](https://github.com/akup) opened 2026-01-20</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 3</span>
     </div>
   </div>
@@ -3532,7 +3530,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-20</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-20</span>
       
     </div>
   </div>
@@ -3547,7 +3545,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-20</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-20</span>
       
     </div>
   </div>
@@ -3562,7 +3560,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-20</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-20</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -3577,7 +3575,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-20</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-20</span>
       
     </div>
   </div>
@@ -3592,7 +3590,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">Removing for inactivity  - Goal: to remove inactive/invalid participants faster, not send inference requests to them, not allow them to be TAs / Validators, and remove their voting power - We need to...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-16</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-16</span>
       
     </div>
   </div>
@@ -3607,7 +3605,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-16</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-16</span>
       
     </div>
   </div>
@@ -3622,7 +3620,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-16</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-16</span>
       
     </div>
   </div>
@@ -3637,7 +3635,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-16</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-16</span>
       
     </div>
   </div>
@@ -3652,7 +3650,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-16</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-16</span>
       
     </div>
   </div>
@@ -3667,7 +3665,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-16</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-16</span>
       
     </div>
   </div>
@@ -3682,7 +3680,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-16</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-16</span>
       
     </div>
   </div>
@@ -3697,7 +3695,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -3712,7 +3710,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -3727,7 +3725,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -3742,7 +3740,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -3757,7 +3755,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -3772,7 +3770,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -3787,7 +3785,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -3802,7 +3800,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -3817,7 +3815,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -3832,7 +3830,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -3847,7 +3845,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -3862,7 +3860,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -3877,7 +3875,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -3892,7 +3890,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">- [x] The `node-config.json`, which contains the initial configuration, should not be applied automatically at the start — it should only be applied after an explicit command (otherwise, it creates a...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -3907,7 +3905,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -3922,7 +3920,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -3937,7 +3935,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">API container doesn't start with: ``` ... Signature:cebe1551ed35b140dce921e98cb291b77cdf99bb246be8600445e072bb5f453a2b21479f2551074e21da5ce8ee1d835213227f703cf09f5fe2ac3995be75a987 Claimed:false} Curr...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -3952,7 +3950,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">There is a difficulty with PoC, defined by `RTarget` in the repo. It essentially defines the percentage of "correct" nonces from all nonces => how many nonces participants has to check to find the cor...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -3967,7 +3965,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">Problem with .nats queue being quite big ``` root@CL-Gonka1-NetNode:~/gonka/deploy/join# du -d1 -h .dapi/.nats 3.6G .dapi/.nats/jetstream 3.6G .dapi/.nats ```  Add some cleaning, maybe find a way to c...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -3982,7 +3980,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">node container restarted due to: ``` fatal error: too many concurrent timer firings  runtime stack: runtime.throw({0x5422134?, 0x7f3d16444260?}) 	/usr/local/go/src/runtime/panic.go:1067 +0x48 fp=0x7f3...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/gmorgachev">@gmorgachev</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@gmorgachev](https://github.com/gmorgachev) opened 2026-01-15</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>
@@ -3997,7 +3995,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -4012,7 +4010,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -4027,7 +4025,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -4042,7 +4040,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -4057,7 +4055,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">- [ ] The `api-config.yml` file often goes missing, and this part is needs to be rewritten: https://github.com/gonka-ai/gonka/blob/bacddd41f257b459d85b04786bee06b49a084dff/decentralized-api/apiconfig/...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -4072,7 +4070,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -4087,7 +4085,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -4102,7 +4100,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">Proposal: https://github.com/gonka-ai/gonka/tree/gm/fraud-detection/proposals/fraud-detection-v2</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -4117,7 +4115,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -4132,7 +4130,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">- [x] Identify causes why inference requests are sent to inactive or unresponsive (“dead MLNode”) MLNodes.</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -4147,7 +4145,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -4162,7 +4160,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -4177,7 +4175,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -4192,7 +4190,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -4207,7 +4205,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">Funds associated should be burned</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/patimen">@patimen</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@patimen](https://github.com/patimen) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -4222,7 +4220,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -4237,7 +4235,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -4252,7 +4250,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-06</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-06</span>
       
     </div>
   </div>
@@ -4267,7 +4265,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc"># Bug Report: Race Condition in Epoch Initialization  **Date:** December 13, 2025   **Severity:** High - Causes node exclusion from epoch   **Affected Version:** v0.2.5   **Node:** gonka1yq4vwn7fc9x7l...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/baychak">@baychak</a> opened 2025-12-15</span>
+      <span class="issues-meta-item">[@baychak](https://github.com/baychak) opened 2025-12-15</span>
       
     </div>
   </div>
@@ -4282,7 +4280,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">1. Change `inference_url`. Probably, it should happen immediately and propagate everywhere. 2. Vefigy `inference_url`. Let's think on how can it be verified, at least asynchronousl,y whena  node with...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2025-12-08</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2025-12-08</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -4297,7 +4295,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">1. Threshold + Params for big model;  2. Scripts to compute, re-check for existing;  3. New Models   - [ ] `gpt-oss-120b` - [x] `DeepSeek-R1-0528` - [x] `gemma-3-27b-it` - [x] `Qwen3-30B-A3B-Instruct-...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2025-12-05</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2025-12-05</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>
@@ -4312,7 +4310,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">Proper removal (Check that we also jail => no voting power)</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2025-12-02</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2025-12-02</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -4357,7 +4355,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">🚨 TL;DR / Summary  The Docker image ghcr.io/product-science/inferenced:0.2.4 contains a hard-coded outdated genesis, causing a permanent AppHash mismatch with the live chain. Nodes discover peers, est...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Asplana92">@Asplana92</a> opened 2025-11-15</span>
+      <span class="issues-meta-item">[@Asplana92](https://github.com/Asplana92) opened 2025-11-15</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 6</span>
     </div>
   </div>
@@ -4387,7 +4385,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2025-10-20</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2025-10-20</span>
       
     </div>
   </div>
@@ -4402,7 +4400,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2025-10-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2025-10-15</span>
       
     </div>
   </div>
@@ -4417,7 +4415,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2025-10-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2025-10-15</span>
       
     </div>
   </div>
@@ -4432,7 +4430,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">- [x] GOI-14 | Permissionless Training Operations Enable DoS And Forged Completion - [x] GOI-16 | Missing Access Control In Message Server Handlers - [x] GOI-17 | Dropped Node Rank Updates Are Not Per...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2025-10-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2025-10-15</span>
       
     </div>
   </div>
@@ -4447,7 +4445,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">- [x] GOC-12. Unchecked PubKey–Address Binding Allows Account Squatting - [x] GOC-13. Usage Of Must Marshaling Methods In `EndBlock ExecutedCode` - [x] GOC-14. Unbounded Pruning At Epoch Boundaries Ca...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2025-10-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2025-10-15</span>
       
     </div>
   </div>
@@ -4462,7 +4460,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">- [x] GOC-19 | Count Participant With Zero Balance Is Missing Balance Check - [x] GOC-20 | Go Package Dependency Issues - [x] GOC-22 | Inconsistent Epoch ID Handling In `GetPreviousEpochMLNodesWithInf...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2025-10-09</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2025-10-09</span>
       
     </div>
   </div>
@@ -4477,7 +4475,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2025-09-22</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2025-09-22</span>
       
     </div>
   </div>
@@ -4492,7 +4490,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2025-09-22</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2025-09-22</span>
       
     </div>
   </div>
@@ -4507,7 +4505,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2025-09-22</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2025-09-22</span>
       
     </div>
   </div>
@@ -4522,7 +4520,7 @@ Updated: `2026-07-07 04:31 UTC`.
     <p class="issues-desc">1. Threshold + Params for big model;  2. Scripts to compute, re-check for existing;  3. New Models   - [x] `Qwen3-235B-A22B-Instruct-2507` - [ ] `gpt-oss-120b` - [ ] `DeepSeek-R1-0528` - [ ] `gemma-3-...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2025-09-16</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2025-09-16</span>
       
     </div>
   </div>
@@ -4537,7 +4535,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2025-09-16</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2025-09-16</span>
       
     </div>
   </div>

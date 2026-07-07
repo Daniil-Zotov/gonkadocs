@@ -21,7 +21,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/phishdestroy">@phishdestroy</a> opened 12 hours ago</span>
+      <span class="issues-meta-item">[@phishdestroy](https://github.com/phishdestroy) opened 12 hours ago</span>
       
     </div>
   </div>
@@ -36,7 +36,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/dufok">@dufok</a> opened 1 day ago</span>
+      <span class="issues-meta-item">[@dufok](https://github.com/dufok) opened 1 day ago</span>
       
     </div>
   </div>
@@ -51,7 +51,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/niro58">@niro58</a> opened 2 days ago</span>
+      <span class="issues-meta-item">[@niro58](https://github.com/niro58) opened 2 days ago</span>
       
     </div>
   </div>
@@ -96,7 +96,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/scodeit">@scodeit</a> opened 3 days ago</span>
+      <span class="issues-meta-item">[@scodeit](https://github.com/scodeit) opened 3 days ago</span>
       
     </div>
   </div>
@@ -111,7 +111,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/dufok">@dufok</a> opened 3 days ago</span>
+      <span class="issues-meta-item">[@dufok](https://github.com/dufok) opened 3 days ago</span>
       
     </div>
   </div>
@@ -126,7 +126,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/len5ky">@len5ky</a> opened 4 days ago</span>
+      <span class="issues-meta-item">[@len5ky](https://github.com/len5ky) opened 4 days ago</span>
       
     </div>
   </div>
@@ -141,7 +141,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/GERAunits">@GERAunits</a> opened 4 days ago</span>
+      <span class="issues-meta-item">[@GERAunits](https://github.com/GERAunits) opened 4 days ago</span>
       
     </div>
   </div>
@@ -156,7 +156,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Ryanchen911">@Ryanchen911</a> opened 5 days ago</span>
+      <span class="issues-meta-item">[@Ryanchen911](https://github.com/Ryanchen911) opened 5 days ago</span>
       
     </div>
   </div>
@@ -186,7 +186,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/anikiyevichm">@anikiyevichm</a> opened 10 days ago</span>
+      <span class="issues-meta-item">[@anikiyevichm](https://github.com/anikiyevichm) opened 10 days ago</span>
       
     </div>
   </div>
@@ -216,7 +216,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/redstartechno">@redstartechno</a> opened 10 days ago</span>
+      <span class="issues-meta-item">[@redstartechno](https://github.com/redstartechno) opened 10 days ago</span>
       
     </div>
   </div>
@@ -246,7 +246,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 13 days ago</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 13 days ago</span>
       
     </div>
   </div>
@@ -261,7 +261,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 13 days ago</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 13 days ago</span>
       
     </div>
   </div>
@@ -276,7 +276,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Puyre">@Puyre</a> opened 13 days ago</span>
+      <span class="issues-meta-item">[@Puyre](https://github.com/Puyre) opened 13 days ago</span>
       
     </div>
   </div>
@@ -291,7 +291,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/sspotanin">@sspotanin</a> opened 13 days ago</span>
+      <span class="issues-meta-item">[@sspotanin](https://github.com/sspotanin) opened 13 days ago</span>
       
     </div>
   </div>
@@ -321,7 +321,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/olkwwuah">@olkwwuah</a> opened 13 days ago</span>
+      <span class="issues-meta-item">[@olkwwuah](https://github.com/olkwwuah) opened 13 days ago</span>
       
     </div>
   </div>
@@ -336,7 +336,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/bruev">@bruev</a> opened 13 days ago</span>
+      <span class="issues-meta-item">[@bruev](https://github.com/bruev) opened 13 days ago</span>
       
     </div>
   </div>
@@ -351,7 +351,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/appgencore">@appgencore</a> opened 13 days ago</span>
+      <span class="issues-meta-item">[@appgencore](https://github.com/appgencore) opened 13 days ago</span>
       
     </div>
   </div>
@@ -366,7 +366,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/piterberkut">@piterberkut</a> opened 13 days ago</span>
+      <span class="issues-meta-item">[@piterberkut](https://github.com/piterberkut) opened 13 days ago</span>
       
     </div>
   </div>
@@ -381,7 +381,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Asplana92">@Asplana92</a> opened 25 days ago</span>
+      <span class="issues-meta-item">[@Asplana92](https://github.com/Asplana92) opened 25 days ago</span>
       
     </div>
   </div>
@@ -396,7 +396,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Puyre">@Puyre</a> opened 26 days ago</span>
+      <span class="issues-meta-item">[@Puyre](https://github.com/Puyre) opened 26 days ago</span>
       
     </div>
   </div>
@@ -411,7 +411,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Schwartz10">@Schwartz10</a> opened 2026-06-04</span>
+      <span class="issues-meta-item">[@Schwartz10](https://github.com/Schwartz10) opened 2026-06-04</span>
       
     </div>
   </div>
@@ -426,7 +426,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-06-04</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-06-04</span>
       
     </div>
   </div>
@@ -441,7 +441,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/junior2wnw">@junior2wnw</a> opened 2026-06-03</span>
+      <span class="issues-meta-item">[@junior2wnw](https://github.com/junior2wnw) opened 2026-06-03</span>
       
     </div>
   </div>
@@ -456,7 +456,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/x0152">@x0152</a> opened 2026-06-02</span>
+      <span class="issues-meta-item">[@x0152](https://github.com/x0152) opened 2026-06-02</span>
       
     </div>
   </div>
@@ -471,7 +471,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Ryanchen911">@Ryanchen911</a> opened 2026-06-02</span>
+      <span class="issues-meta-item">[@Ryanchen911](https://github.com/Ryanchen911) opened 2026-06-02</span>
       
     </div>
   </div>
@@ -516,7 +516,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-05-29</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-05-29</span>
       
     </div>
   </div>
@@ -546,7 +546,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/DimaOrekhovPS">@DimaOrekhovPS</a> opened 2026-05-25</span>
+      <span class="issues-meta-item">[@DimaOrekhovPS](https://github.com/DimaOrekhovPS) opened 2026-05-25</span>
       
     </div>
   </div>
@@ -561,7 +561,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/akup">@akup</a> opened 2026-05-25</span>
+      <span class="issues-meta-item">[@akup](https://github.com/akup) opened 2026-05-25</span>
       
     </div>
   </div>
@@ -576,7 +576,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/akup">@akup</a> opened 2026-05-25</span>
+      <span class="issues-meta-item">[@akup](https://github.com/akup) opened 2026-05-25</span>
       
     </div>
   </div>
@@ -591,7 +591,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/olkwwuah">@olkwwuah</a> opened 2026-05-24</span>
+      <span class="issues-meta-item">[@olkwwuah](https://github.com/olkwwuah) opened 2026-05-24</span>
       
     </div>
   </div>
@@ -606,7 +606,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/DimaOrekhovPS">@DimaOrekhovPS</a> opened 2026-05-21</span>
+      <span class="issues-meta-item">[@DimaOrekhovPS](https://github.com/DimaOrekhovPS) opened 2026-05-21</span>
       
     </div>
   </div>
@@ -621,7 +621,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/unameisfine">@unameisfine</a> opened 2026-05-21</span>
+      <span class="issues-meta-item">[@unameisfine](https://github.com/unameisfine) opened 2026-05-21</span>
       
     </div>
   </div>
@@ -651,7 +651,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-05-18</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-05-18</span>
       
     </div>
   </div>
@@ -666,7 +666,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/sspotanin">@sspotanin</a> opened 2026-05-18</span>
+      <span class="issues-meta-item">[@sspotanin](https://github.com/sspotanin) opened 2026-05-18</span>
       
     </div>
   </div>
@@ -681,7 +681,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-04-29</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-04-29</span>
       
     </div>
   </div>
@@ -696,7 +696,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-04-29</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-04-29</span>
       
     </div>
   </div>
@@ -711,7 +711,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/unameisfine">@unameisfine</a> opened 2026-04-29</span>
+      <span class="issues-meta-item">[@unameisfine](https://github.com/unameisfine) opened 2026-04-29</span>
       
     </div>
   </div>
@@ -741,7 +741,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/baranskyi">@baranskyi</a> opened 2026-04-29</span>
+      <span class="issues-meta-item">[@baranskyi](https://github.com/baranskyi) opened 2026-04-29</span>
       
     </div>
   </div>
@@ -771,7 +771,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Asplana92">@Asplana92</a> opened 2026-04-28</span>
+      <span class="issues-meta-item">[@Asplana92](https://github.com/Asplana92) opened 2026-04-28</span>
       
     </div>
   </div>
@@ -786,7 +786,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/gmorgachev">@gmorgachev</a> opened 2026-04-28</span>
+      <span class="issues-meta-item">[@gmorgachev](https://github.com/gmorgachev) opened 2026-04-28</span>
       
     </div>
   </div>
@@ -801,7 +801,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-04-28</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-04-28</span>
       
     </div>
   </div>
@@ -816,7 +816,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Mayveskii">@Mayveskii</a> opened 2026-04-28</span>
+      <span class="issues-meta-item">[@Mayveskii](https://github.com/Mayveskii) opened 2026-04-28</span>
       
     </div>
   </div>
@@ -846,7 +846,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/unameisfine">@unameisfine</a> opened 2026-04-27</span>
+      <span class="issues-meta-item">[@unameisfine](https://github.com/unameisfine) opened 2026-04-27</span>
       
     </div>
   </div>
@@ -861,7 +861,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/unameisfine">@unameisfine</a> opened 2026-04-27</span>
+      <span class="issues-meta-item">[@unameisfine](https://github.com/unameisfine) opened 2026-04-27</span>
       
     </div>
   </div>
@@ -876,7 +876,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/unameisfine">@unameisfine</a> opened 2026-04-27</span>
+      <span class="issues-meta-item">[@unameisfine](https://github.com/unameisfine) opened 2026-04-27</span>
       
     </div>
   </div>
@@ -891,7 +891,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-04-27</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-04-27</span>
       
     </div>
   </div>
@@ -906,7 +906,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-04-24</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-04-24</span>
       
     </div>
   </div>
@@ -921,7 +921,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-04-24</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-04-24</span>
       
     </div>
   </div>
@@ -936,7 +936,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-04-23</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-04-23</span>
       
     </div>
   </div>
@@ -951,7 +951,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-04-22</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-04-22</span>
       
     </div>
   </div>
@@ -966,7 +966,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-04-22</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-04-22</span>
       
     </div>
   </div>
@@ -981,7 +981,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-04-22</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-04-22</span>
       
     </div>
   </div>
@@ -996,7 +996,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/slandymani">@slandymani</a> opened 2026-04-22</span>
+      <span class="issues-meta-item">[@slandymani](https://github.com/slandymani) opened 2026-04-22</span>
       
     </div>
   </div>
@@ -1026,7 +1026,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-04-10</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-04-10</span>
       
     </div>
   </div>
@@ -1041,7 +1041,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/JFFby">@JFFby</a> opened 2026-04-08</span>
+      <span class="issues-meta-item">[@JFFby](https://github.com/JFFby) opened 2026-04-08</span>
       
     </div>
   </div>
@@ -1056,7 +1056,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-04-08</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-04-08</span>
       
     </div>
   </div>
@@ -1071,7 +1071,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tamazgadaev">@tamazgadaev</a> opened 2026-04-03</span>
+      <span class="issues-meta-item">[@tamazgadaev](https://github.com/tamazgadaev) opened 2026-04-03</span>
       
     </div>
   </div>
@@ -1086,7 +1086,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-04-01</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-04-01</span>
       
     </div>
   </div>
@@ -1101,7 +1101,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-31</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-31</span>
       
     </div>
   </div>
@@ -1146,7 +1146,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-30</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-30</span>
       
     </div>
   </div>
@@ -1176,7 +1176,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-26</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-26</span>
       
     </div>
   </div>
@@ -1191,7 +1191,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-25</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-25</span>
       
     </div>
   </div>
@@ -1206,7 +1206,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/unameisfine">@unameisfine</a> opened 2026-03-25</span>
+      <span class="issues-meta-item">[@unameisfine](https://github.com/unameisfine) opened 2026-03-25</span>
       
     </div>
   </div>
@@ -1221,7 +1221,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-24</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-24</span>
       
     </div>
   </div>
@@ -1236,7 +1236,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-23</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-23</span>
       
     </div>
   </div>
@@ -1251,7 +1251,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/unameisfine">@unameisfine</a> opened 2026-03-23</span>
+      <span class="issues-meta-item">[@unameisfine](https://github.com/unameisfine) opened 2026-03-23</span>
       
     </div>
   </div>
@@ -1266,7 +1266,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-22</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-22</span>
       
     </div>
   </div>
@@ -1281,7 +1281,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/aeoess">@aeoess</a> opened 2026-03-22</span>
+      <span class="issues-meta-item">[@aeoess](https://github.com/aeoess) opened 2026-03-22</span>
       
     </div>
   </div>
@@ -1296,7 +1296,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-21</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-21</span>
       
     </div>
   </div>
@@ -1311,7 +1311,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-21</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-21</span>
       
     </div>
   </div>
@@ -1326,7 +1326,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-21</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-21</span>
       
     </div>
   </div>
@@ -1356,7 +1356,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-18</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-18</span>
       
     </div>
   </div>
@@ -1371,7 +1371,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-17</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-17</span>
       
     </div>
   </div>
@@ -1386,7 +1386,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-13</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-13</span>
       
     </div>
   </div>
@@ -1401,7 +1401,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-12</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-12</span>
       
     </div>
   </div>
@@ -1416,7 +1416,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Mayveskii">@Mayveskii</a> opened 2026-03-12</span>
+      <span class="issues-meta-item">[@Mayveskii](https://github.com/Mayveskii) opened 2026-03-12</span>
       
     </div>
   </div>
@@ -1431,7 +1431,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Mayveskii">@Mayveskii</a> opened 2026-03-12</span>
+      <span class="issues-meta-item">[@Mayveskii](https://github.com/Mayveskii) opened 2026-03-12</span>
       
     </div>
   </div>
@@ -1446,7 +1446,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/huxuxuya">@huxuxuya</a> opened 2026-03-12</span>
+      <span class="issues-meta-item">[@huxuxuya](https://github.com/huxuxuya) opened 2026-03-12</span>
       
     </div>
   </div>
@@ -1461,7 +1461,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-12</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-12</span>
       
     </div>
   </div>
@@ -1476,7 +1476,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-12</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-12</span>
       
     </div>
   </div>
@@ -1491,7 +1491,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/libermans">@libermans</a> opened 2026-03-11</span>
+      <span class="issues-meta-item">[@libermans](https://github.com/libermans) opened 2026-03-11</span>
       
     </div>
   </div>
@@ -1506,7 +1506,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-11</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-11</span>
       
     </div>
   </div>
@@ -1536,7 +1536,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-05</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-05</span>
       
     </div>
   </div>
@@ -1551,7 +1551,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Laboltus">@Laboltus</a> opened 2026-03-03</span>
+      <span class="issues-meta-item">[@Laboltus](https://github.com/Laboltus) opened 2026-03-03</span>
       
     </div>
   </div>
@@ -1566,7 +1566,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/huxuxuya">@huxuxuya</a> opened 2026-03-03</span>
+      <span class="issues-meta-item">[@huxuxuya](https://github.com/huxuxuya) opened 2026-03-03</span>
       
     </div>
   </div>
@@ -1581,7 +1581,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Mayveskii">@Mayveskii</a> opened 2026-03-03</span>
+      <span class="issues-meta-item">[@Mayveskii](https://github.com/Mayveskii) opened 2026-03-03</span>
       
     </div>
   </div>
@@ -1596,7 +1596,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/huxuxuya">@huxuxuya</a> opened 2026-03-02</span>
+      <span class="issues-meta-item">[@huxuxuya](https://github.com/huxuxuya) opened 2026-03-02</span>
       
     </div>
   </div>
@@ -1611,7 +1611,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-02-28</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-28</span>
       
     </div>
   </div>
@@ -1626,7 +1626,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/huxuxuya">@huxuxuya</a> opened 2026-02-17</span>
+      <span class="issues-meta-item">[@huxuxuya](https://github.com/huxuxuya) opened 2026-02-17</span>
       
     </div>
   </div>
@@ -1641,7 +1641,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/x0152">@x0152</a> opened 2026-02-12</span>
+      <span class="issues-meta-item">[@x0152](https://github.com/x0152) opened 2026-02-12</span>
       
     </div>
   </div>
@@ -1656,7 +1656,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-02-11</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-11</span>
       
     </div>
   </div>
@@ -1671,7 +1671,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-02-10</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-10</span>
       
     </div>
   </div>
@@ -1686,7 +1686,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-02-10</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-10</span>
       
     </div>
   </div>
@@ -1701,7 +1701,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-02-10</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-10</span>
       
     </div>
   </div>
@@ -1716,7 +1716,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-02-10</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-10</span>
       
     </div>
   </div>
@@ -1731,7 +1731,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/pentoxine">@pentoxine</a> opened 2026-02-10</span>
+      <span class="issues-meta-item">[@pentoxine](https://github.com/pentoxine) opened 2026-02-10</span>
       
     </div>
   </div>
@@ -1746,7 +1746,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/mfursov">@mfursov</a> opened 2026-02-10</span>
+      <span class="issues-meta-item">[@mfursov](https://github.com/mfursov) opened 2026-02-10</span>
       
     </div>
   </div>
@@ -1761,7 +1761,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-02-10</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-10</span>
       
     </div>
   </div>
@@ -1776,7 +1776,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-02-10</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-10</span>
       
     </div>
   </div>
@@ -1791,7 +1791,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-02-10</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-10</span>
       
     </div>
   </div>
@@ -1806,7 +1806,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-02-10</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-10</span>
       
     </div>
   </div>
@@ -1821,7 +1821,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-02-10</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-10</span>
       
     </div>
   </div>
@@ -1836,7 +1836,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/moro3one">@moro3one</a> opened 2026-02-10</span>
+      <span class="issues-meta-item">[@moro3one](https://github.com/moro3one) opened 2026-02-10</span>
       
     </div>
   </div>
@@ -1851,7 +1851,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-02-09</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-09</span>
       
     </div>
   </div>
@@ -1866,7 +1866,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/VaniaHilkovets">@VaniaHilkovets</a> opened 2026-02-08</span>
+      <span class="issues-meta-item">[@VaniaHilkovets](https://github.com/VaniaHilkovets) opened 2026-02-08</span>
       
     </div>
   </div>
@@ -1881,7 +1881,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/x0152">@x0152</a> opened 2026-02-06</span>
+      <span class="issues-meta-item">[@x0152](https://github.com/x0152) opened 2026-02-06</span>
       
     </div>
   </div>
@@ -1896,7 +1896,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-02-06</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-06</span>
       
     </div>
   </div>
@@ -1911,7 +1911,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/akup">@akup</a> opened 2026-02-06</span>
+      <span class="issues-meta-item">[@akup](https://github.com/akup) opened 2026-02-06</span>
       
     </div>
   </div>
@@ -1926,7 +1926,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/IgnatovFedor">@IgnatovFedor</a> opened 2026-02-06</span>
+      <span class="issues-meta-item">[@IgnatovFedor](https://github.com/IgnatovFedor) opened 2026-02-06</span>
       
     </div>
   </div>
@@ -1941,7 +1941,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/x0152">@x0152</a> opened 2026-02-06</span>
+      <span class="issues-meta-item">[@x0152](https://github.com/x0152) opened 2026-02-06</span>
       
     </div>
   </div>
@@ -1956,7 +1956,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-02-05</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-05</span>
       
     </div>
   </div>
@@ -1971,7 +1971,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-29</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-29</span>
       
     </div>
   </div>
@@ -1986,7 +1986,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-29</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-29</span>
       
     </div>
   </div>
@@ -2001,7 +2001,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-29</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-29</span>
       
     </div>
   </div>
@@ -2016,7 +2016,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-29</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-29</span>
       
     </div>
   </div>
@@ -2031,7 +2031,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-29</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-29</span>
       
     </div>
   </div>
@@ -2046,7 +2046,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-29</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-29</span>
       
     </div>
   </div>
@@ -2061,7 +2061,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-29</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-29</span>
       
     </div>
   </div>
@@ -2076,7 +2076,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-29</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-29</span>
       
     </div>
   </div>
@@ -2091,7 +2091,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-28</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-28</span>
       
     </div>
   </div>
@@ -2106,7 +2106,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-28</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-28</span>
       
     </div>
   </div>
@@ -2121,7 +2121,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/gmorgachev">@gmorgachev</a> opened 2026-01-28</span>
+      <span class="issues-meta-item">[@gmorgachev](https://github.com/gmorgachev) opened 2026-01-28</span>
       
     </div>
   </div>
@@ -2136,7 +2136,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-28</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-28</span>
       
     </div>
   </div>
@@ -2151,7 +2151,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-28</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-28</span>
       
     </div>
   </div>
@@ -2166,7 +2166,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-28</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-28</span>
       
     </div>
   </div>
@@ -2181,7 +2181,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-28</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-28</span>
       
     </div>
   </div>
@@ -2196,7 +2196,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-26</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-26</span>
       
     </div>
   </div>
@@ -2211,7 +2211,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-24</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-24</span>
       
     </div>
   </div>
@@ -2226,7 +2226,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-24</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-24</span>
       
     </div>
   </div>
@@ -2241,7 +2241,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-23</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-23</span>
       
     </div>
   </div>
@@ -2256,7 +2256,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-22</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-22</span>
       
     </div>
   </div>
@@ -2271,7 +2271,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-22</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-22</span>
       
     </div>
   </div>
@@ -2286,7 +2286,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Knoxpix">@Knoxpix</a> opened 2026-01-22</span>
+      <span class="issues-meta-item">[@Knoxpix](https://github.com/Knoxpix) opened 2026-01-22</span>
       
     </div>
   </div>
@@ -2301,7 +2301,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/bingcongxihaha">@bingcongxihaha</a> opened 2026-01-22</span>
+      <span class="issues-meta-item">[@bingcongxihaha](https://github.com/bingcongxihaha) opened 2026-01-22</span>
       
     </div>
   </div>
@@ -2316,7 +2316,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Olena">@Olena</a> opened 2026-01-21</span>
+      <span class="issues-meta-item">[@Olena](https://github.com/Olena) opened 2026-01-21</span>
       
     </div>
   </div>
@@ -2331,7 +2331,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-21</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-21</span>
       
     </div>
   </div>
@@ -2346,7 +2346,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-21</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-21</span>
       
     </div>
   </div>
@@ -2361,7 +2361,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-21</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-21</span>
       
     </div>
   </div>
@@ -2376,7 +2376,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-21</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-21</span>
       
     </div>
   </div>
@@ -2391,7 +2391,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-21</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-21</span>
       
     </div>
   </div>
@@ -2406,7 +2406,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-21</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-21</span>
       
     </div>
   </div>
@@ -2421,7 +2421,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-21</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-21</span>
       
     </div>
   </div>
@@ -2436,7 +2436,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/akup">@akup</a> opened 2026-01-20</span>
+      <span class="issues-meta-item">[@akup](https://github.com/akup) opened 2026-01-20</span>
       
     </div>
   </div>
@@ -2451,7 +2451,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-20</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-20</span>
       
     </div>
   </div>
@@ -2466,7 +2466,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-20</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-20</span>
       
     </div>
   </div>
@@ -2481,7 +2481,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-20</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-20</span>
       
     </div>
   </div>
@@ -2496,7 +2496,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-20</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-20</span>
       
     </div>
   </div>
@@ -2511,7 +2511,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-16</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-16</span>
       
     </div>
   </div>
@@ -2526,7 +2526,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-16</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-16</span>
       
     </div>
   </div>
@@ -2541,7 +2541,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-16</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-16</span>
       
     </div>
   </div>
@@ -2556,7 +2556,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-16</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-16</span>
       
     </div>
   </div>
@@ -2571,7 +2571,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-16</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-16</span>
       
     </div>
   </div>
@@ -2586,7 +2586,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-16</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-16</span>
       
     </div>
   </div>
@@ -2601,7 +2601,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-16</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-16</span>
       
     </div>
   </div>
@@ -2616,7 +2616,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -2631,7 +2631,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -2646,7 +2646,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -2661,7 +2661,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -2676,7 +2676,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -2691,7 +2691,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -2706,7 +2706,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -2721,7 +2721,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -2736,7 +2736,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -2751,7 +2751,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -2766,7 +2766,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -2781,7 +2781,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -2796,7 +2796,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -2811,7 +2811,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -2826,7 +2826,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -2841,7 +2841,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -2856,7 +2856,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -2871,7 +2871,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -2886,7 +2886,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -2901,7 +2901,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -2916,7 +2916,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -2931,7 +2931,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -2946,7 +2946,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -2961,7 +2961,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -2976,7 +2976,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -2991,7 +2991,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -3006,7 +3006,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -3021,7 +3021,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -3036,7 +3036,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -3051,7 +3051,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -3066,7 +3066,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -3081,7 +3081,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -3096,7 +3096,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/patimen">@patimen</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@patimen](https://github.com/patimen) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -3111,7 +3111,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -3126,7 +3126,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
@@ -3141,7 +3141,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-06</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-06</span>
       
     </div>
   </div>
@@ -3156,7 +3156,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/baychak">@baychak</a> opened 2025-12-15</span>
+      <span class="issues-meta-item">[@baychak](https://github.com/baychak) opened 2025-12-15</span>
       
     </div>
   </div>
@@ -3171,7 +3171,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2025-12-08</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2025-12-08</span>
       
     </div>
   </div>
@@ -3186,7 +3186,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2025-12-05</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2025-12-05</span>
       
     </div>
   </div>
@@ -3201,7 +3201,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2025-12-02</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2025-12-02</span>
       
     </div>
   </div>
@@ -3246,7 +3246,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Asplana92">@Asplana92</a> opened 2025-11-15</span>
+      <span class="issues-meta-item">[@Asplana92](https://github.com/Asplana92) opened 2025-11-15</span>
       
     </div>
   </div>
@@ -3276,7 +3276,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2025-10-20</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2025-10-20</span>
       
     </div>
   </div>
@@ -3291,7 +3291,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2025-10-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2025-10-15</span>
       
     </div>
   </div>
@@ -3306,7 +3306,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2025-10-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2025-10-15</span>
       
     </div>
   </div>
@@ -3321,7 +3321,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2025-10-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2025-10-15</span>
       
     </div>
   </div>
@@ -3336,7 +3336,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2025-10-15</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2025-10-15</span>
       
     </div>
   </div>
@@ -3351,7 +3351,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2025-10-09</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2025-10-09</span>
       
     </div>
   </div>
@@ -3366,7 +3366,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2025-09-22</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2025-09-22</span>
       
     </div>
   </div>
@@ -3381,7 +3381,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2025-09-22</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2025-09-22</span>
       
     </div>
   </div>
@@ -3396,7 +3396,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2025-09-22</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2025-09-22</span>
       
     </div>
   </div>
@@ -3411,7 +3411,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2025-09-16</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2025-09-16</span>
       
     </div>
   </div>
@@ -3426,7 +3426,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2025-09-16</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2025-09-16</span>
       
     </div>
   </div>

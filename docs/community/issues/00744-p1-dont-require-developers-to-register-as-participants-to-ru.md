@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-02-13 01:16 UTC</span>
+    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-13 01:16 UTC</span>
     <span class="issues-meta-item">4 comments</span>
     <span class="issues-meta-item">Updated 2026-03-30 23:52 UTC</span>
   </div>
@@ -36,42 +36,41 @@ Currently, the chain requires a Participant record not only to host, but also to
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-02-13 01:19 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>@x0152, would you like to work on this issue?</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    @x0152, would you like to work on this issue?
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/x0152">@x0152</a></span>
+    <span>[@x0152](https://github.com/x0152)</span>
     <span class="issues-meta-item">commented 2026-02-13 06:15 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>I'll take it</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    I'll take it
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/gmorgachev">@gmorgachev</a></span>
+    <span>[@gmorgachev](https://github.com/gmorgachev)</span>
     <span class="issues-meta-item">commented 2026-03-11 20:03 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>@tcharchian the PR itself is marked for milestone 0.2.11. what is valid?</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    @tcharchian the PR itself is marked for milestone 0.2.11. what is valid?
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-03-11 20:23 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<blockquote>
-<p><a href="https://github.com/tcharchian">@tcharchian</a> the PR itself is marked for milestone 0.2.11. what is valid?</p>
-</blockquote>
-<p>Per @patimen, let's move it to v0.2.12. https://github.com/gonka-ai/gonka/pull/750#issuecomment-3938311002
-cc: @x0152</p>  
+  <div class="issues-comment-body issues-content" markdown="1">
+    > [@tcharchian](https://github.com/tcharchian) the PR itself is marked for milestone 0.2.11. what is valid?
+
+Per @patimen, let's move it to v0.2.12. https://github.com/gonka-ai/gonka/pull/750#issuecomment-3938311002
+cc: @x0152  
   </div>
 </div>
 

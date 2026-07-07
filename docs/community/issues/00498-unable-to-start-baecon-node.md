@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item"><a href="https://github.com/Knoxpix">@Knoxpix</a> opened 2025-12-19 08:41 UTC</span>
+    <span class="issues-meta-item">[@Knoxpix](https://github.com/Knoxpix) opened 2025-12-19 08:41 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-01-22 00:12 UTC</span>
   </div>
@@ -77,13 +77,13 @@ bridge  | tail: /var/log/geth/geth.log: file truncated`
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-01-22 00:12 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>Hi @Knoxpix! Thank you for reaching out.
+  <div class="issues-comment-body issues-content" markdown="1">
+    Hi @Knoxpix! Thank you for reaching out.
 Please note that technical support is not provided here.
-For assistance, we kindly recommend asking for help in Gonka <a href="https://discord.com/invite/RADwCT2U6R">Discord community</a>, where community members may be able to support you.</p>
+For assistance, we kindly recommend asking for help in Gonka [Discord community](https://discord.com/invite/RADwCT2U6R), where community members may be able to support you.
   </div>
 </div>
 

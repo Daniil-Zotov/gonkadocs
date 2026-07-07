@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item"><a href="https://github.com/akup">@akup</a> opened 2026-03-27 13:43 UTC</span>
+    <span class="issues-meta-item">[@akup](https://github.com/akup) opened 2026-03-27 13:43 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-04-03 10:10 UTC</span>
   </div>
@@ -83,12 +83,13 @@ When done:
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/akup">@akup</a></span>
+    <span>[@akup](https://github.com/akup)</span>
     <span class="issues-meta-item">commented 2026-04-03 10:10 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>Issue should be closed, because now all focus is moving to devshards. Moreover here seed is revealed, but current protocol version doesn't protect from seed early revealing, and some party can cheat with inferenceIds</p>
-<p>@0xMayoor let's accept your PR https://github.com/gonka-ai/gonka/pull/832</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    Issue should be closed, because now all focus is moving to devshards. Moreover here seed is revealed, but current protocol version doesn't protect from seed early revealing, and some party can cheat with inferenceIds
+
+@0xMayoor let's accept your PR https://github.com/gonka-ai/gonka/pull/832
   </div>
 </div>
 

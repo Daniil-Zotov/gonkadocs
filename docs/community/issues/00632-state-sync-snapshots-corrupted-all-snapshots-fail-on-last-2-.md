@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item"><a href="https://github.com/baranskyi">@baranskyi</a> opened 2026-01-24 15:11 UTC</span>
+    <span class="issues-meta-item">[@baranskyi](https://github.com/baranskyi) opened 2026-01-24 15:11 UTC</span>
     <span class="issues-meta-item">5 comments</span>
     <span class="issues-meta-item">Updated 2026-04-29 01:16 UTC</span>
   </div>
@@ -125,86 +125,103 @@ docker logs -f node
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/AlexeySamosadov">@AlexeySamosadov</a></span>
+    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
     <span class="issues-meta-item">commented 2026-01-24 21:47 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<h2>Analysis of State Sync Snapshot Corruption</h2>
-<p>I investigated this issue and found the following:</p>
-<h3>Root Cause Location</h3>
-<p>The snapshot chunking and restoration logic is <strong>not</strong> in the <code>inference-chain</code> repository. It's in the custom Cosmos SDK fork:</p>
-<pre><code>github.com/gonka-ai/cosmos-sdk v0.53.3-ps15
-</code></pre>
-<p>The <code>inference-chain</code> only registers the WASM snapshotter in <code>app/app.go</code>, all chunking logic is delegated to the SDK.</p>
-<h3>Why Last Chunks Fail</h3>
-<p>The failure on the last 2 chunks (826-827/827) suggests the chunks haven't fully propagated across the network yet after snapshot creation. Possible causes:</p>
-<ul>
-<li>Chunk boundary handling in the custom SDK fork</li>
-<li>IAVL export finalization timing</li>
-<li>Network propagation delay for newest chunks</li>
-</ul>
-<h3>Solution</h3>
-<p>The issue resolves itself by <strong>waiting approximately 1 hour</strong>. After that, the chunks synchronize automatically and state sync completes successfully.</p>
-<p>This is likely a propagation timing issue rather than data corruption - the snapshot needs time to fully distribute across the network before all chunks become consistently available.</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    ## Analysis of State Sync Snapshot Corruption
+
+I investigated this issue and found the following:
+
+### Root Cause Location
+
+The snapshot chunking and restoration logic is **not** in the `inference-chain` repository. It's in the custom Cosmos SDK fork:
+
+```
+github.com/gonka-ai/cosmos-sdk v0.53.3-ps15
+```
+
+The `inference-chain` only registers the WASM snapshotter in `app/app.go`, all chunking logic is delegated to the SDK.
+
+### Why Last Chunks Fail
+
+The failure on the last 2 chunks (826-827/827) suggests the chunks haven't fully propagated across the network yet after snapshot creation. Possible causes:
+
+- Chunk boundary handling in the custom SDK fork
+- IAVL export finalization timing
+- Network propagation delay for newest chunks
+
+### Solution
+
+The issue resolves itself by **waiting approximately 1 hour**. After that, the chunks synchronize automatically and state sync completes successfully.
+
+This is likely a propagation timing issue rather than data corruption - the snapshot needs time to fully distribute across the network before all chunks become consistently available.
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/gmorgachev">@gmorgachev</a></span>
+    <span>[@gmorgachev](https://github.com/gmorgachev)</span>
     <span class="issues-meta-item">commented 2026-01-27 06:53 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>When some existing node providing snapshot to another node, it already has full snapshot, all chunks. It's not really propagated more then to this P2P request. Snapshots are downloaded directly.</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    When some existing node providing snapshot to another node, it already has full snapshot, all chunks. It's not really propagated more then to this P2P request. Snapshots are downloaded directly.
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/AlexeySamosadov">@AlexeySamosadov</a></span>
+    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
     <span class="issues-meta-item">commented 2026-02-04 11:46 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<h2>Root Cause Found</h2>
-<p>The issue is a race condition between snapshot pruning and chunk serving during state sync.</p>
-<h3>What happens</h3>
-<ol>
-<li>Snapshot at height H is complete (all 827 chunks on disk, metadata in DB)</li>
-<li>Peer starts downloading chunks: 0, 1, 2, ... 825</li>
-<li>New snapshot at H+1000 finishes creating in a background goroutine</li>
-<li><code>Prune(keepRecent)</code> runs immediately after, calling <code>os.RemoveAll</code> on snapshot H directory</li>
-<li>Peer requests chunks 826-827 → files already deleted → <code>LoadChunk</code> returns nil</li>
-<li>CometBFT sends <code>Missing: true</code>, peer times out after 2 minutes</li>
-<li>After ~1 hour the new snapshot is available and sync succeeds</li>
-</ol>
-<h3>Why it's always the last chunks</h3>
-<p>Chunks are downloaded sequentially (0→N). The peer manages to download most chunks before pruning kicks in, but the tail end gets deleted mid-transfer.</p>
-<h3>Why <code>LoadChunk</code> doesn't protect against this</h3>
-<ul>
-<li><code>LoadChunk</code> runs lock-free, does not check if pruning is in progress</li>
-<li><code>Delete</code>/<code>Prune</code> only check if a snapshot is being <em>saved</em>, not if it's being <em>served</em></li>
-<li>No read-side reference counting exists</li>
-</ul>
-<h3>Fix</h3>
-<p>PR with the fix: https://github.com/gonka-ai/cosmos-sdk/pull/10</p>
-<p>Adds read-side reference counting to the snapshot <code>Store</code>: <code>Delete</code> now waits for active <code>LoadChunk</code> readers to finish before removing files from disk.</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    ## Root Cause Found
+
+The issue is a race condition between snapshot pruning and chunk serving during state sync.
+
+### What happens
+
+1. Snapshot at height H is complete (all 827 chunks on disk, metadata in DB)
+2. Peer starts downloading chunks: 0, 1, 2, ... 825
+3. New snapshot at H+1000 finishes creating in a background goroutine
+4. `Prune(keepRecent)` runs immediately after, calling `os.RemoveAll` on snapshot H directory
+5. Peer requests chunks 826-827 → files already deleted → `LoadChunk` returns nil
+6. CometBFT sends `Missing: true`, peer times out after 2 minutes
+7. After ~1 hour the new snapshot is available and sync succeeds
+
+### Why it's always the last chunks
+
+Chunks are downloaded sequentially (0→N). The peer manages to download most chunks before pruning kicks in, but the tail end gets deleted mid-transfer.
+
+### Why `LoadChunk` doesn't protect against this
+
+- `LoadChunk` runs lock-free, does not check if pruning is in progress
+- `Delete`/`Prune` only check if a snapshot is being *saved*, not if it's being *served*
+- No read-side reference counting exists
+
+### Fix
+
+PR with the fix: https://github.com/gonka-ai/cosmos-sdk/pull/10
+
+Adds read-side reference counting to the snapshot `Store`: `Delete` now waits for active `LoadChunk` readers to finish before removing files from disk.
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/AlexeySamosadov">@AlexeySamosadov</a></span>
+    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
     <span class="issues-meta-item">commented 2026-02-09 18:00 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>@gmorgachev The fix is ready and waiting for review: https://github.com/gonka-ai/cosmos-sdk/pull/10</p>
-<p>Adds read-side reference counting to the snapshot Store so that Prune/Delete waits for active LoadChunk readers to finish before removing files from disk. This prevents the race condition that causes the last chunks to disappear mid-download.</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    @gmorgachev The fix is ready and waiting for review: https://github.com/gonka-ai/cosmos-sdk/pull/10
+
+Adds read-side reference counting to the snapshot Store so that Prune/Delete waits for active LoadChunk readers to finish before removing files from disk. This prevents the race condition that causes the last chunks to disappear mid-download.
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/AlexeySamosadov">@AlexeySamosadov</a></span>
+    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
     <span class="issues-meta-item">commented 2026-02-09 18:00 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
-<p>Also — is the reference counting approach the right direction here, or would you prefer a different strategy (e.g. copy-on-write, or delaying prune until no active sync sessions)?</p>
+  <div class="issues-comment-body issues-content" markdown="1">
+    Also — is the reference counting approach the right direction here, or would you prefer a different strategy (e.g. copy-on-write, or delaying prune until no active sync sessions)?
   </div>
 </div>
 
