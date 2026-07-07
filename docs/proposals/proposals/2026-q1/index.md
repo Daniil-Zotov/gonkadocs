@@ -19,10 +19,6 @@ template: proposals-oview.html
   <input type="checkbox" id="prop-filter-voting" checked>
   <span class="prop-filter-label">Voting</span>
 </label>
-<label class="prop-filter-cb">
-  <input type="checkbox" id="prop-filter-deposit" checked>
-  <span class="prop-filter-label">Deposit</span>
-</label>
 <span class="prop-filter-count"></span>
 
 </div>
@@ -270,7 +266,6 @@ function initProposalsPage() {
       if (status === 'prop-passed' && filters.passed) show = true;
       else if (status === 'prop-rejected' && filters.rejected) show = true;
       else if (status === 'prop-voting' && filters.voting) show = true;
-      else if (status === 'prop-deposit' && filters.deposit) show = true;
       else if (status === 'prop-failed' && filters.rejected) show = true;
       card.style.display = show ? '' : 'none';
       if (show) visible++;
