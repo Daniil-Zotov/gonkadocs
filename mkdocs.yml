@@ -21,6 +21,7 @@ not_in_nav: |
   community/issues/**/*.md
   community/**/*.md
   proposals/preproposals/**/*.md
+  agents.md
   index.md
   README.md
 
@@ -167,7 +168,6 @@ nav:
         - "#3 – Increase PoC Validation Length": proposals/proposals/2025-q3/3/index.md
         - "#2 – Proposal introducing new Qwen3 models": proposals/proposals/2025-q3/2/index.md
         - "#1 – Correct Epoch Length": proposals/proposals/2025-q3/1/index.md
-    - For Agents: agents.md
 
 theme:
   name: material
@@ -285,7 +285,7 @@ extra:
     - title: Community
       url: /community/
     - title: Proposals
-      url: /proposals/
+      url: /proposals/proposals/
     - title: For Agents
       url: /agents/
   comments: true

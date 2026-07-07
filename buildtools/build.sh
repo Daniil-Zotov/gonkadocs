@@ -110,7 +110,7 @@ else:
 # Добавляем extra.tabs для навигационных вкладок (используется tabs.html)
 content = re.sub(
     r'^(extra:)',
-    r'\\1\n  tabs:\n    - title: Gonka.ai/docs\n      url: /gonka/docs/\n    - title: Community\n      url: /community/\n    - title: Proposals\n      url: /proposals/\n    - title: For Agents\n      url: /agents/',
+    r'\\1\n  tabs:\n    - title: Gonka.ai/docs\n      url: /gonka/docs/\n    - title: Community\n      url: /community/\n    - title: Proposals\n      url: /proposals/proposals/\n    - title: For Agents\n      url: /agents/',
     content,
     flags=re.MULTILINE
 )
