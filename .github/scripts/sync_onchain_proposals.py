@@ -478,9 +478,9 @@ def generate_quarter_page(quarter, proposals):
     if cat_counts:
         for cat, cnt in sorted(cat_counts.items(), key=lambda x: x[1], reverse=True):
             pct = (cnt / total * 100) if total else 0
-            cat_rows += f'<div class="qs-row"><span class="qs-label">{cat}</span><span class="qs-bar" style="width:{pct:.0f}%"></span><span class="qs-value">{cnt}</span></div>\n'
+            cat_rows += f'<div class="qs-row"><span class="qs-label">{cat}</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:{pct:.0f}%"></span></span><span class="qs-value">{cnt}</span></div>\n'
     else:
-        cat_rows = '<div class="qs-row"><span class="qs-label">Other</span><span class="qs-bar" style="width:100%"></span><span class="qs-value">{total}</span></div>\n'
+        cat_rows = '<div class="qs-row"><span class="qs-label">Other</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:100%"></span></span><span class="qs-value">{total}</span></div>\n'
 
     amount_rows = ""
     if gnk_total > 0:
@@ -606,104 +606,6 @@ function initProposalsPage() {
 }
 document$.subscribe(initProposalsPage);
 </script>
-
-<style>
-.quarter-summary {
-  background: #f6f8fa;
-  border: 1px solid #d0d7de;
-  border-radius: 8px;
-  padding: 1rem 1.25rem;
-  margin-bottom: 1.5rem;
-}
-.quarter-summary h2 {
-  margin-top: 0;
-  font-size: 1.25rem;
-}
-.qs-stats {
-  display: flex;
-  gap: 1.5rem;
-  flex-wrap: wrap;
-  margin: 0.75rem 0;
-}
-.qs-stat {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-width: 4.5rem;
-}
-.qs-stat .qs-num {
-  font-size: 1.6rem;
-  font-weight: 700;
-  line-height: 1;
-}
-.qs-stat.passed .qs-num { color: #1a7f37; }
-.qs-stat.rejected .qs-num { color: #cf222e; }
-.qs-stat.failed .qs-num { color: #9a6700; }
-.qs-stat .qs-desc {
-  font-size: 0.75rem;
-  color: #57606a;
-  margin-top: 0.25rem;
-  text-align: center;
-}
-.qs-categories {
-  margin-top: 1rem;
-}
-.qs-categories strong {
-  display: block;
-  font-size: 0.85rem;
-  color: #24292f;
-  margin-bottom: 0.4rem;
-}
-.qs-row {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  margin: 0.25rem 0;
-}
-.qs-label {
-  font-size: 0.8rem;
-  color: #57606a;
-  width: 8rem;
-  flex-shrink: 0;
-}
-.qs-bar {
-  height: 6px;
-  background: #0969da;
-  border-radius: 3px;
-  flex-shrink: 0;
-  min-width: 2px;
-}
-.qs-value {
-  font-size: 0.8rem;
-  color: #24292f;
-  font-weight: 600;
-  margin-left: auto;
-}
-.qs-amounts {
-  margin-top: 1rem;
-}
-.qs-amounts strong {
-  display: block;
-  font-size: 0.85rem;
-  color: #24292f;
-  margin-bottom: 0.4rem;
-}
-.qs-amount-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.35rem 0;
-  border-bottom: 1px solid #d0d7de;
-}
-.qs-amount-row:last-child {
-  border-bottom: none;
-}
-.qs-amount-val {
-  font-weight: 600;
-  color: #24292f;
-  font-size: 0.85rem;
-}
-</style>
 '''
 
     return md

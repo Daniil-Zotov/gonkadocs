@@ -36,12 +36,12 @@ template: proposals-oview.html
 
 <div class="qs-categories">
 <strong>By Category</strong>
-  <div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar" style="width:66%"></span><span class="qs-value">29</span></div>
-  <div class="qs-row"><span class="qs-label">Governance Parameters</span><span class="qs-bar" style="width:18%"></span><span class="qs-value">8</span></div>
-  <div class="qs-row"><span class="qs-label">Software Upgrade</span><span class="qs-bar" style="width:7%"></span><span class="qs-value">3</span></div>
-  <div class="qs-row"><span class="qs-label">GRC / Restitution</span><span class="qs-bar" style="width:5%"></span><span class="qs-value">2</span></div>
-  <div class="qs-row"><span class="qs-label">Other</span><span class="qs-bar" style="width:2%"></span><span class="qs-value">1</span></div>
-  <div class="qs-row"><span class="qs-label">Models / IBC</span><span class="qs-bar" style="width:2%"></span><span class="qs-value">1</span></div>
+  <div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:66%"></span></span><span class="qs-value">29</span></div>
+  <div class="qs-row"><span class="qs-label">Governance Parameters</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:18%"></span></span><span class="qs-value">8</span></div>
+  <div class="qs-row"><span class="qs-label">Software Upgrade</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:7%"></span></span><span class="qs-value">3</span></div>
+  <div class="qs-row"><span class="qs-label">GRC / Restitution</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:5%"></span></span><span class="qs-value">2</span></div>
+  <div class="qs-row"><span class="qs-label">Other</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:2%"></span></span><span class="qs-value">1</span></div>
+  <div class="qs-row"><span class="qs-label">Models / IBC</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:2%"></span></span><span class="qs-value">1</span></div>
 </div>
 
 <div class="qs-amounts">

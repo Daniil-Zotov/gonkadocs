@@ -36,9 +36,9 @@ template: proposals-oview.html
 
 <div class="qs-categories">
 <strong>By Category</strong>
-  <div class="qs-row"><span class="qs-label">Governance Parameters</span><span class="qs-bar" style="width:45%"></span><span class="qs-value">5</span></div>
-  <div class="qs-row"><span class="qs-label">Software Upgrade</span><span class="qs-bar" style="width:45%"></span><span class="qs-value">5</span></div>
-  <div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar" style="width:9%"></span><span class="qs-value">1</span></div>
+  <div class="qs-row"><span class="qs-label">Governance Parameters</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:45%"></span></span><span class="qs-value">5</span></div>
+  <div class="qs-row"><span class="qs-label">Software Upgrade</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:45%"></span></span><span class="qs-value">5</span></div>
+  <div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:9%"></span></span><span class="qs-value">1</span></div>
 </div>
 
 <div class="qs-amounts">
