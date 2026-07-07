@@ -330,7 +330,7 @@ template: proposals-oview.html
                 abstain_c = int(tally.get("abstain_count", 0))
                 total_t = yes_c + no_c + veto_c + abstain_c
                 _pct = lambda v: f"({v / total_t * 100:.1f}%)" if total_t > 0 else "(0.0%)"
-                md += f'  <div class="prop-card-tally">\n    Yes {yes_c:,} {_pct(yes_c)}<br>\n    No {no_c:,} {_pct(no_c)}<br>\n    Veto {veto_c:,} {_pct(veto_c)}<br>\n    Abstain {abstain_c:,} {_pct(abstain_c)}\n  </div>\n'
+                md += f'  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes {yes_c:,} {_pct(yes_c)}</span> · <span class="prop-tally-no-text">No {no_c:,} {_pct(no_c)}</span> · <span class="prop-tally-veto-text">Veto {veto_c:,} {_pct(veto_c)}</span> · <span class="prop-tally-abstain-text">Abstain {abstain_c:,} {_pct(abstain_c)}</span></div>\n'
 
             md += "</div>\n\n"
 
@@ -447,7 +447,7 @@ template: proposals-oview.html
             abstain_c = int(tally.get("abstain_count", 0))
             total_t = yes_c + no_c + veto_c + abstain_c
             _pct = lambda v: f"({v / total_t * 100:.1f}%)" if total_t > 0 else "(0.0%)"
-            md += f'  <div class="prop-card-tally">\n    Yes {yes_c:,} {_pct(yes_c)}<br>\n    No {no_c:,} {_pct(no_c)}<br>\n    Veto {veto_c:,} {_pct(veto_c)}<br>\n    Abstain {abstain_c:,} {_pct(abstain_c)}\n  </div>\n'
+            md += f'  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes {yes_c:,} {_pct(yes_c)}</span> · <span class="prop-tally-no-text">No {no_c:,} {_pct(no_c)}</span> · <span class="prop-tally-veto-text">Veto {veto_c:,} {_pct(veto_c)}</span> · <span class="prop-tally-abstain-text">Abstain {abstain_c:,} {_pct(abstain_c)}</span></div>\n'
         md += "</div>\n\n"
 
     md += """</div>

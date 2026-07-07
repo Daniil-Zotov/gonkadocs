@@ -40,12 +40,7 @@ template: proposals-oview.html
     <span>Voting ends 2025-12-26</span>
   </div>
   <div class="prop-card-desc">Expected amount of Confirmation PoC per epoch to 4, p0 for binomial test to 0.1</div>
-  <div class="prop-card-tally">
-    Yes 3,261,413 (100.0%)<br>
-    No 85 (0.0%)<br>
-    Veto 0 (0.0%)<br>
-    Abstain 0 (0.0%)
-  </div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 3,261,413 (100.0%)</span> · <span class="prop-tally-no-text">No 85 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -58,12 +53,7 @@ template: proposals-oview.html
     <span>Voting ends 2025-12-20</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.6</div>
-  <div class="prop-card-tally">
-    Yes 1,985,917 (100.0%)<br>
-    No 0 (0.0%)<br>
-    Veto 0 (0.0%)<br>
-    Abstain 0 (0.0%)
-  </div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 1,985,917 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -76,12 +66,7 @@ template: proposals-oview.html
     <span>Voting ends 2025-12-17</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.6</div>
-  <div class="prop-card-tally">
-    Yes 1,034,445 (100.0%)<br>
-    No 0 (0.0%)<br>
-    Veto 0 (0.0%)<br>
-    Abstain 0 (0.0%)
-  </div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 1,034,445 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -94,12 +79,7 @@ template: proposals-oview.html
     <span>Voting ends 2025-11-27</span>
   </div>
   <div class="prop-card-desc">Sale GNK from Community Fund</div>
-  <div class="prop-card-tally">
-    Yes 1,180,961 (98.8%)<br>
-    No 9,781 (0.8%)<br>
-    Veto 4,577 (0.4%)<br>
-    Abstain 0 (0.0%)
-  </div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 1,180,961 (98.8%)</span> · <span class="prop-tally-no-text">No 9,781 (0.8%)</span> · <span class="prop-tally-veto-text">Veto 4,577 (0.4%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -112,12 +92,7 @@ template: proposals-oview.html
     <span>Voting ends 2025-11-22</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.5</div>
-  <div class="prop-card-tally">
-    Yes 428,459 (100.0%)<br>
-    No 0 (0.0%)<br>
-    Veto 0 (0.0%)<br>
-    Abstain 0 (0.0%)
-  </div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 428,459 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -130,12 +105,7 @@ template: proposals-oview.html
     <span>Voting ends 2025-11-13</span>
   </div>
   <div class="prop-card-desc">Bandwidth Limits</div>
-  <div class="prop-card-tally">
-    Yes 257,565 (100.0%)<br>
-    No 0 (0.0%)<br>
-    Veto 0 (0.0%)<br>
-    Abstain 0 (0.0%)
-  </div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 257,565 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -148,12 +118,7 @@ template: proposals-oview.html
     <span>Voting ends 2025-11-12</span>
   </div>
   <div class="prop-card-desc">Bandwidth Limits</div>
-  <div class="prop-card-tally">
-    Yes 349,596 (100.0%)<br>
-    No 0 (0.0%)<br>
-    Veto 0 (0.0%)<br>
-    Abstain 0 (0.0%)
-  </div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 349,596 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -166,12 +131,7 @@ template: proposals-oview.html
     <span>Voting ends 2025-11-12</span>
   </div>
   <div class="prop-card-desc">Bandwidth Limits</div>
-  <div class="prop-card-tally">
-    Yes 287,496 (100.0%)<br>
-    No 0 (0.0%)<br>
-    Veto 0 (0.0%)<br>
-    Abstain 0 (0.0%)
-  </div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 287,496 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -184,12 +144,7 @@ template: proposals-oview.html
     <span>Voting ends 2025-11-11</span>
   </div>
   <div class="prop-card-desc">Higher Bandwidth Limits & Voting Time Back to 24H</div>
-  <div class="prop-card-tally">
-    Yes 394,887 (100.0%)<br>
-    No 0 (0.0%)<br>
-    Veto 0 (0.0%)<br>
-    Abstain 0 (0.0%)
-  </div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 394,887 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -202,12 +157,7 @@ template: proposals-oview.html
     <span>Voting ends 2025-10-22</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.4</div>
-  <div class="prop-card-tally">
-    Yes 286,826 (100.0%)<br>
-    No 0 (0.0%)<br>
-    Veto 0 (0.0%)<br>
-    Abstain 0 (0.0%)
-  </div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 286,826 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -220,12 +170,7 @@ template: proposals-oview.html
     <span>Voting ends 2025-10-03</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.3</div>
-  <div class="prop-card-tally">
-    Yes 132,672 (100.0%)<br>
-    No 0 (0.0%)<br>
-    Veto 0 (0.0%)<br>
-    Abstain 0 (0.0%)
-  </div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 132,672 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
 </div>
 
 </div>
