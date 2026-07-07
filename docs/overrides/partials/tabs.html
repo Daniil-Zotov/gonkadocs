@@ -1,0 +1,21 @@
+{% if config.extra.tabs %}
+  {% set _tabs = config.extra.tabs %}
+{% else %}
+  {% set _tabs = [
+    {"title": "Gonka.ai/docs", "url": "/gonka/docs/"},
+    {"title": "Community", "url": "/community/"},
+    {"title": "Proposals", "url": "/proposals/proposals/"},
+    {"title": "For Agents", "url": "/agents/"},
+  ] %}
+{% endif %}
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      {% for tab in _tabs %}
+      <li class="md-tabs__item{% if loop.first %} md-tabs__item--active{% endif %}">
+        <a href="{{ tab.url }}" class="md-tabs__link">{{ tab.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</nav>
