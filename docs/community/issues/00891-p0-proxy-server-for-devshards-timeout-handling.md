@@ -2,7 +2,7 @@
 title: "#891 — [P0] Proxy server for `devshards`: timeout handling"
 source: https://github.com/gonka-ai/gonka/issues/891
 issue_number: 891
-synced_at: 2026-07-07T04:29:10Z
+synced_at: 2026-07-07T08:47:21Z
 template: issues-main.html
 ---
 
@@ -37,7 +37,7 @@ It should also handle timeout-related mechanisms.
     <span class="issues-meta-item">commented 2026-03-20 08:35 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>Closed in favor of #911</p>
+    <p>Closed in favor of #911</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -46,7 +46,7 @@ It should also handle timeout-related mechanisms.
     <span class="issues-meta-item">commented 2026-03-20 22:41 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>@gmorgachev, you wanted to include this issue in the upgrade v0.2.12. Does https://github.com/gonka-ai/gonka/pull/911 cover everything you expected here?</p>
+    <p>@gmorgachev, you wanted to include this issue in the upgrade v0.2.12. Does https://github.com/gonka-ai/gonka/pull/911 cover everything you expected here?</p>
   </div>
 </div>
 

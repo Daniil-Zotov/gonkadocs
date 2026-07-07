@@ -2,7 +2,7 @@
 title: "#1079 — Deep Security Audit: BLS/DKG protocol, state machine consistency, and economic logic vulnerabilities"
 source: https://github.com/gonka-ai/gonka/issues/1079
 issue_number: 1079
-synced_at: 2026-07-07T04:28:46Z
+synced_at: 2026-07-07T08:47:05Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@Doog-bot534](https://github.com/Doog-bot534) opened 2026-04-16 03:20 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/Doog-bot534">@Doog-bot534</a> opened 2026-04-16 03:20 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-04-28 16:59 UTC</span>
   </div>
@@ -95,7 +95,7 @@ Payout address: `gonka10zaal553duxp05nvfpqtsqrm2g0j6j34r8nan7`
     <span class="issues-meta-item">commented 2026-04-28 16:59 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>Hi,
+    <p>Hi,
 Thanks for the deep audit!</p>
 <p>I am closing this issue for now because several findings are based on incorrect assumptions about how the code currently works, and some points are already addressed in recent changes. </p>
 <p>If you believe a specific issue is still valid, please open a separate issue with a clear reproduction case, and I will review it again</p>

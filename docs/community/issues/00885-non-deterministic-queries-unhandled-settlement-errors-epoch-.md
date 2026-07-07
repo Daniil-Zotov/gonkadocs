@@ -2,7 +2,7 @@
 title: "#885 — Non-deterministic queries, unhandled settlement errors, epoch stats underflow"
 source: https://github.com/gonka-ai/gonka/issues/885
 issue_number: 885
-synced_at: 2026-07-07T04:28:46Z
+synced_at: 2026-07-07T08:47:06Z
 template: issues-main.html
 ---
 
@@ -76,7 +76,7 @@ Four error return values are silently discarded in the settlement path:
     <span class="issues-meta-item">commented 2026-04-27 22:46 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>Closing — PR #886 was closed as part of refocusing on larger scoped contributions.</p>
+    <p>Closing — PR #886 was closed as part of refocusing on larger scoped contributions.</p>
   </div>
 </div>
 

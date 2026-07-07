@@ -2,7 +2,7 @@
 title: "#394 — [P0] Invalid participants in the `ActiveParticipant` list"
 source: https://github.com/gonka-ai/gonka/issues/394
 issue_number: 394
-synced_at: 2026-07-07T04:30:52Z
+synced_at: 2026-07-07T08:48:26Z
 template: issues-main.html
 ---
 
@@ -35,7 +35,7 @@ Proper removal (Check that we also jail => no voting power)
     <span class="issues-meta-item">commented 2025-10-21 18:41 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<h1>Invalid Participant Exclusion – Feature Specification</h1>
+    <h1>Invalid Participant Exclusion – Feature Specification</h1>
 <h2><strong>Overview</strong></h2>
 <p>This feature refines, fixes and fully tests the mechanism for handling <strong>invalid participants</strong> in the Gonka network. Invalid participants are nodes that have misbehaved (e.g., submitted bad inferences, misconfigured models, attempted cheating, or failed other behavioral criteria). The goal is to ensure they are <strong>excluded from all network responsibilities and consensus mechanisms</strong>, without retroactively altering cryptographically signed data.</p>
 <hr />

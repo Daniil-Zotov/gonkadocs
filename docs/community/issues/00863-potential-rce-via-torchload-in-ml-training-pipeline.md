@@ -2,7 +2,7 @@
 title: "#863 — Potential RCE via `torch.load()` in ML Training Pipeline"
 source: https://github.com/gonka-ai/gonka/issues/863
 issue_number: 863
-synced_at: 2026-07-07T04:29:27Z
+synced_at: 2026-07-07T08:47:32Z
 template: issues-main.html
 ---
 
@@ -180,7 +180,7 @@ The vulnerability is identified at the code level, **not verified on testnet**. 
     <span class="issues-meta-item">commented 2026-03-12 19:44 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>Training is not currently supported and basically needs total revision, so I'd say this issue is low-priority</p>
+    <p>Training is not currently supported and basically needs total revision, so I'd say this issue is low-priority</p>
   </div>
 </div>
 

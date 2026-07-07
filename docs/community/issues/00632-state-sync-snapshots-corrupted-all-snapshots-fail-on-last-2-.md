@@ -2,7 +2,7 @@
 title: "#632 — State sync snapshots corrupted - all snapshots fail on last 2 chunks (826-827/827)"
 source: https://github.com/gonka-ai/gonka/issues/632
 issue_number: 632
-synced_at: 2026-07-07T04:28:41Z
+synced_at: 2026-07-07T08:47:03Z
 template: issues-main.html
 ---
 
@@ -129,7 +129,7 @@ docker logs -f node
     <span class="issues-meta-item">commented 2026-01-24 21:47 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<h2>Analysis of State Sync Snapshot Corruption</h2>
+    <h2>Analysis of State Sync Snapshot Corruption</h2>
 <p>I investigated this issue and found the following:</p>
 <h3>Root Cause Location</h3>
 <p>The snapshot chunking and restoration logic is <strong>not</strong> in the <code>inference-chain</code> repository. It's in the custom Cosmos SDK fork:</p>
@@ -154,7 +154,7 @@ docker logs -f node
     <span class="issues-meta-item">commented 2026-01-27 06:53 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>When some existing node providing snapshot to another node, it already has full snapshot, all chunks. It's not really propagated more then to this P2P request. Snapshots are downloaded directly.</p>
+    <p>When some existing node providing snapshot to another node, it already has full snapshot, all chunks. It's not really propagated more then to this P2P request. Snapshots are downloaded directly.</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -163,7 +163,7 @@ docker logs -f node
     <span class="issues-meta-item">commented 2026-02-04 11:46 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<h2>Root Cause Found</h2>
+    <h2>Root Cause Found</h2>
 <p>The issue is a race condition between snapshot pruning and chunk serving during state sync.</p>
 <h3>What happens</h3>
 <ol>
@@ -194,7 +194,7 @@ docker logs -f node
     <span class="issues-meta-item">commented 2026-02-09 18:00 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>@gmorgachev The fix is ready and waiting for review: https://github.com/gonka-ai/cosmos-sdk/pull/10</p>
+    <p>@gmorgachev The fix is ready and waiting for review: https://github.com/gonka-ai/cosmos-sdk/pull/10</p>
 <p>Adds read-side reference counting to the snapshot Store so that Prune/Delete waits for active LoadChunk readers to finish before removing files from disk. This prevents the race condition that causes the last chunks to disappear mid-download.</p>
   </div>
 </div>
@@ -204,7 +204,7 @@ docker logs -f node
     <span class="issues-meta-item">commented 2026-02-09 18:00 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>Also — is the reference counting approach the right direction here, or would you prefer a different strategy (e.g. copy-on-write, or delaying prune until no active sync sessions)?</p>
+    <p>Also — is the reference counting approach the right direction here, or would you prefer a different strategy (e.g. copy-on-write, or delaying prune until no active sync sessions)?</p>
   </div>
 </div>
 

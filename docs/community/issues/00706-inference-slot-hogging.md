@@ -2,7 +2,7 @@
 title: "#706 — Inference Slot Hogging"
 source: https://github.com/gonka-ai/gonka/issues/706
 issue_number: 706
-synced_at: 2026-07-07T04:29:39Z
+synced_at: 2026-07-07T08:47:40Z
 template: issues-main.html
 ---
 
@@ -54,7 +54,7 @@ A mandatory rotation. If a node was in the safe slot in the previous epoch, it i
     <span class="issues-meta-item">commented 2026-02-08 14:13 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>PR created: https://github.com/gonka-ai/gonka/pull/718</p>
+    <p>PR created: https://github.com/gonka-ai/gonka/pull/718</p>
 <p>Implements rotation logic to prevent the same node from always getting the safe inference slot.</p>
   </div>
 </div>
@@ -64,7 +64,7 @@ A mandatory rotation. If a node was in the safe slot in the previous epoch, it i
     <span class="issues-meta-item">commented 2026-02-12 15:26 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>I have a PR for this: #718 — implements deterministic rotation for PoC slot allocation to prevent hogging. Would appreciate a review when you get a chance.</p>
+    <p>I have a PR for this: #718 — implements deterministic rotation for PoC slot allocation to prevent hogging. Would appreciate a review when you get a chance.</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -73,7 +73,7 @@ A mandatory rotation. If a node was in the safe slot in the previous epoch, it i
     <span class="issues-meta-item">commented 2026-02-24 19:31 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>This task was created in parallel with this PR #707</p>
+    <p>This task was created in parallel with this PR #707</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -82,8 +82,8 @@ A mandatory rotation. If a node was in the safe slot in the previous epoch, it i
     <span class="issues-meta-item">commented 2026-03-02 12:27 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>Assign to me plz. Task already done.</p>
-<h1>707</h1> 
+    <p>Assign to me plz. Task already done.</p>
+<h1>707</h1>
   </div>
 </div>
 

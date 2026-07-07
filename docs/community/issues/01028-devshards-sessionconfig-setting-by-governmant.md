@@ -2,7 +2,7 @@
 title: "#1028 — `devshards` `SessionConfig` setting by governmant"
 source: https://github.com/gonka-ai/gonka/issues/1028
 issue_number: 1028
-synced_at: 2026-07-07T04:28:05Z
+synced_at: 2026-07-07T08:46:40Z
 template: issues-main.html
 ---
 
@@ -37,7 +37,7 @@ For example https://github.com/gonka-ai/gonka/pull/1005 introduces `MaxInference
     <span class="issues-meta-item">commented 2026-04-20 16:35 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>Starting work on this. PR to follow — threading RefusalTimeout, ExecutionTimeout, and ValidationRate through SubnetEscrowParams -&gt; SubnetEscrow -&gt; subnet SessionConfig, same pattern as TokenPrice. ETA: done.</p>
+    <p>Starting work on this. PR to follow — threading RefusalTimeout, ExecutionTimeout, and ValidationRate through SubnetEscrowParams -&gt; SubnetEscrow -&gt; subnet SessionConfig, same pattern as TokenPrice. ETA: done.</p>
   </div>
 </div>
 

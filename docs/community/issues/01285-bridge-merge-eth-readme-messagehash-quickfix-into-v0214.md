@@ -2,7 +2,7 @@
 title: "#1285 — Bridge: merge ETH README messageHash quickfix into v0.2.14"
 source: https://github.com/gonka-ai/gonka/issues/1285
 issue_number: 1285
-synced_at: 2026-07-07T04:28:21Z
+synced_at: 2026-07-07T08:46:50Z
 template: issues-main.html
 ---
 
@@ -85,7 +85,7 @@ However, third-party auditors or integrators using the README could construct an
     <span class="issues-meta-item">commented 2026-06-02 00:50 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>@Ryanchen911, are you ready to write a fix?</p>
+    <p>@Ryanchen911, are you ready to write a fix?</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -94,8 +94,7 @@ However, third-party auditors or integrators using the README could construct an
     <span class="issues-meta-item">commented 2026-06-02 07:15 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>Sure, we will take it,@bonujel is our new colleague of 6block, he will do it.</p>
-
+    <p>Sure, we will take it,@bonujel is our new colleague of 6block, he will do it.</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -104,7 +103,7 @@ However, third-party auditors or integrators using the README could construct an
     <span class="issues-meta-item">commented 2026-06-02 08:24 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>Picking this up — I'll cherry-pick the README <code>messageHash</code> fix from <code>gl/eth-readme-quickfix</code> onto the v0.2.14 line and open a PR shortly.</p>
+    <p>Picking this up — I'll cherry-pick the README <code>messageHash</code> fix from <code>gl/eth-readme-quickfix</code> onto the v0.2.14 line and open a PR shortly.</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -113,7 +112,7 @@ However, third-party auditors or integrators using the README could construct an
     <span class="issues-meta-item">commented 2026-06-02 17:47 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>@GLiberman fyi</p>
+    <p>@GLiberman fyi</p>
   </div>
 </div>
 

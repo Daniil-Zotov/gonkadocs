@@ -2,7 +2,7 @@
 title: "#560 — [P2] Finalizing the WebSocket (merge with `call_Back`, new vLLM will require python side implementation)"
 source: https://github.com/gonka-ai/gonka/issues/560
 issue_number: 560
-synced_at: 2026-07-07T04:28:08Z
+synced_at: 2026-07-07T08:46:42Z
 template: issues-main.html
 ---
 
@@ -35,7 +35,7 @@ template: issues-main.html
     <span class="issues-meta-item">commented 2026-01-24 00:13 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>@x0152 is taking ownership of this issue. Please try to assign this issue to yourself</p> 
+    <p>@x0152 is taking ownership of this issue. Please try to assign this issue to yourself </p>
   </div>
 </div>
 <div class="issues-comment">
@@ -44,7 +44,7 @@ template: issues-main.html
     <span class="issues-meta-item">commented 2026-01-27 18:42 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>WIP https://github.com/x0152/gonka/tree/fix/ws-finalize @patimen @x0152</p>
+    <p>WIP https://github.com/x0152/gonka/tree/fix/ws-finalize @patimen @x0152</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -53,7 +53,7 @@ template: issues-main.html
     <span class="issues-meta-item">commented 2026-01-28 11:23 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>commenting to get assigned</p>
+    <p>commenting to get assigned</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -62,7 +62,7 @@ template: issues-main.html
     <span class="issues-meta-item">commented 2026-03-21 01:33 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>Hey @x0152 @akup, it would be great if the two of you could align on the next steps for this task and make the key decisions together. If you are able to move it forward independently, this task could be considered for inclusion in v0.2.12. But overall, this is more of a nice-to-have than a must-have.</p>
+    <p>Hey @x0152 @akup, it would be great if the two of you could align on the next steps for this task and make the key decisions together. If you are able to move it forward independently, this task could be considered for inclusion in v0.2.12. But overall, this is more of a nice-to-have than a must-have.</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -71,7 +71,7 @@ template: issues-main.html
     <span class="issues-meta-item">commented 2026-05-21 22:53 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>Hey @x0152, it would be great you could make a decision on the next steps for this task. @patimen John can help answer any questions if needed. If you are able to move it forward independently, this task could be considered for inclusion in v0.2.14. But overall, this is more of a nice-to-have than a must-have.</p>
+    <p>Hey @x0152, it would be great you could make a decision on the next steps for this task. @patimen John can help answer any questions if needed. If you are able to move it forward independently, this task could be considered for inclusion in v0.2.14. But overall, this is more of a nice-to-have than a must-have.</p>
   </div>
 </div>
 

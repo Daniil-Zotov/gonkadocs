@@ -2,7 +2,7 @@
 title: "#927 — [P1] Maintenance window for hosts"
 source: https://github.com/gonka-ai/gonka/issues/927
 issue_number: 927
-synced_at: 2026-07-07T04:28:15Z
+synced_at: 2026-07-07T08:46:47Z
 template: issues-main.html
 ---
 
@@ -37,7 +37,7 @@ The preliminary implementation plan is outlined here https://github.com/gonka-ai
     <span class="issues-meta-item">commented 2026-03-30 08:54 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>Hi @tcharchian ,</p>
+    <p>Hi @tcharchian ,</p>
 <p>Thanks for the proposal! We've reviewed the preliminary implementation plan and noticed some gaps regarding the state transitions. Our feedback is as follows:</p>
 <h1>D1 — Missing BeginBlocker state machine for reservation lifecycle</h1>
 <p><strong>Proposal says:</strong> Reservations have four statuses: Scheduled, Active, Completed, Canceled.</p>
@@ -79,8 +79,6 @@ The preliminary implementation plan is outlined here https://github.com/gonka-ai
 <p><strong>Divergence:</strong> A <code>used_this_epoch</code> flag prevents credit accrual in any epoch where a maintenance window was activated.</p>
 <p><strong>Rationale:</strong> With <code>credit_per_epoch = 500</code> and <code>max_duration_blocks = 3000</code>, an operator using maximum windows has a net credit loss per use (spend 3000, earn 500, net −2500). However, if credit accrues during maintenance epochs, an operator using small windows can theoretically never deplete their credit — always staying under maintenance coverage. This is exactly the risk the proposal flags in Open Issue #2.</p>
 <p>Blocking credit accrual in maintenance epochs closes this path: every maintenance use has a net credit cost, making the system self-balancing without requiring fine-tuning of duration caps. The trade-off is that legitimate operators lose one credit accrual opportunity per maintenance use, but this is arguably a fair cost for the exemption they receive.</p>
-
-
   </div>
 </div>
 <div class="issues-comment">
@@ -89,7 +87,7 @@ The preliminary implementation plan is outlined here https://github.com/gonka-ai
     <span class="issues-meta-item">commented 2026-03-30 23:30 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<h1>Maintenance Windows Proposal - Feedback Response Summary</h1>
+    <h1>Maintenance Windows Proposal - Feedback Response Summary</h1>
 <p>Thanks for the review. We updated the proposal and task plan based on your feedback.</p>
 <h2>Changes We Made</h2>
 <h3>D1: Reservation lifecycle state machine</h3>
@@ -157,7 +155,6 @@ The preliminary implementation plan is outlined here https://github.com/gonka-ai
 <li><code>proposals/maintenance-windows/maintenance-windows.md</code></li>
 <li><code>proposals/maintenance-windows/maintenance-windows-todo.md</code></li>
 </ol>
-
   </div>
 </div>
 <div class="issues-comment">
@@ -166,7 +163,7 @@ The preliminary implementation plan is outlined here https://github.com/gonka-ai
     <span class="issues-meta-item">commented 2026-04-01 03:45 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>works in progress</p>
+    <p>works in progress</p>
   </div>
 </div>
 

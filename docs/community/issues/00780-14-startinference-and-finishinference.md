@@ -2,7 +2,7 @@
 title: "#780 — [1/4] `StartInference` and `FinishInference`"
 source: https://github.com/gonka-ai/gonka/issues/780
 issue_number: 780
-synced_at: 2026-07-07T04:29:30Z
+synced_at: 2026-07-07T08:47:34Z
 template: issues-main.html
 ---
 
@@ -208,16 +208,16 @@ All five issues [0/4], [1/4], [2/4], [3/4], [4/4] in this series must be complet
     <span class="issues-meta-item">commented 2026-02-20 22:41 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>If you’re ready to take this task on, please leave a comment here so other community members can see it’s already being worked on.</p>
+    <p>If you’re ready to take this task on, please leave a comment here so other community members can see it’s already being worked on.</p>
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@hleb-albau](https://github.com/hleb-albau)</span>
+    <span><a href="https://github.com/hleb-albau">@hleb-albau</a></span>
     <span class="issues-meta-item">commented 2026-02-24 10:30 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>I ran CPU profiling (30 min each) on a synced mainnet node under two configurations: <code>log_level=info</code> and <code>log_level=error</code>.</p>
+    <p>I ran CPU profiling (30 min each) on a synced mainnet node under two configurations: <code>log_level=info</code> and <code>log_level=error</code>.</p>
 <p><strong>Results — logging overhead as % of total handler time (including all nested calls):</strong></p>
 <table>
 <thead>
@@ -264,7 +264,7 @@ i am not familiar with all stuff going on right now on chain, but in past a had 
     <span class="issues-meta-item">commented 2026-02-26 04:11 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>An update on 780. As we can see in traces most of the time spend on logging is due "json" decoding-encoding. Which can be turn off by log_format = "json" (by default it is set to log_format = "plain"). @hleb-albau can you please run the same test but with log_format = "json" config?</p> 
+    <p>An update on 780. As we can see in traces most of the time spend on logging is due "json" decoding-encoding. Which can be turn off by log_format = "json" (by default it is set to log_format = "plain"). @hleb-albau can you please run the same test but with log_format = "json" config? </p>
   </div>
 </div>
 <div class="issues-comment">
@@ -273,7 +273,7 @@ i am not familiar with all stuff going on right now on chain, but in past a had 
     <span class="issues-meta-item">commented 2026-02-26 17:47 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>@hleb-albau can I kindly ask you to contact me tania.charchian@productscience.ai</p>
+    <p>@hleb-albau can I kindly ask you to contact me tania.charchian@productscience.ai</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -282,20 +282,19 @@ i am not familiar with all stuff going on right now on chain, but in past a had 
     <span class="issues-meta-item">commented 2026-02-26 17:48 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<blockquote>
+    <blockquote>
 <p>An update on 780. As we can see in traces most of the time spend on logging is due "json" decoding-encoding. Which can be turn off by log_format = "json" (by default it is set to log_format = "plain"). <a href="https://github.com/hleb-albau">@hleb-albau</a> can you please run the same test but with log_format = "json" config?</p>
 </blockquote>
 <p>@hleb-albau are you ready to run the same test but with log_format = "json" config?</p>
-
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@hleb-albau](https://github.com/hleb-albau)</span>
+    <span><a href="https://github.com/hleb-albau">@hleb-albau</a></span>
     <span class="issues-meta-item">commented 2026-02-26 20:01 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<blockquote>
+    <blockquote>
 <blockquote>
 <p>An update on 780. As we can see in traces most of the time spend on logging is due "json" decoding-encoding. Which can be turn off by log_format = "json" (by default it is set to log_format = "plain"). <a href="https://github.com/hleb-albau">@hleb-albau</a> can you please run the same test but with log_format = "json" config?</p>
 </blockquote>
@@ -306,11 +305,11 @@ i am not familiar with all stuff going on right now on chain, but in past a had 
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@hleb-albau](https://github.com/hleb-albau)</span>
+    <span><a href="https://github.com/hleb-albau">@hleb-albau</a></span>
     <span class="issues-meta-item">commented 2026-02-27 10:12 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<h3>Plain  (<code>prod-30min-logs-plain</code>)</h3>
+    <p>### Plain  (<code>prod-30min-logs-plain</code>)</p>
 <table>
 <thead>
 <tr>
@@ -397,8 +396,7 @@ i am not familiar with all stuff going on right now on chain, but in past a had 
 <p>For example, in UpdateParticipantStatus, roughly half of the JSON-building time inside <code>k.LogInfo("Participant status updated", types.Validation, "address", participant.Address, "original", originalStatus, "new", newStatus, "reason", reason, "stats", participant.CurrentEpochStats)</code> is spent serializing <code>participant.CurrentEpochStats</code>. In other places, the bottleneck is converting types.AccAddress to a string — which internally goes through a cache protected by a mutex or calc bench32. Note: not only <code>UpdateParticipantStatus</code> suffer from this, other places in <code>StartInference</code> and <code>FinishInference</code> have similar  problems.</p>
 <hr />
 <p>It might make sense to rework the logger internals to store data as a map instead of a JSON string, so ConsoleWriter could print it directly without parsing JSON first. But it's worth thinking about whether that's actually needed right now.                                                                 </p>
-<p>What's definitely worth doing is revisiting what data gets logged. I'll open a PR a bit later to remove the heavy structs from log calls.</p> 
-
+<p>What's definitely worth doing is revisiting what data gets logged. I'll open a PR a bit later to remove the heavy structs from log calls. </p>
   </div>
 </div>
 <div class="issues-comment">
@@ -407,7 +405,7 @@ i am not familiar with all stuff going on right now on chain, but in past a had 
     <span class="issues-meta-item">commented 2026-03-03 11:25 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>PR: https://github.com/gonka-ai/gonka/pull/847</p>
+    <p>PR: https://github.com/gonka-ai/gonka/pull/847</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -416,7 +414,7 @@ i am not familiar with all stuff going on right now on chain, but in past a had 
     <span class="issues-meta-item">commented 2026-03-03 12:00 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>Summary of what was done in PR #847:</p>
+    <p>Summary of what was done in PR #847:</p>
 <p>Based on the profiling analysis by @hleb-albau (logging overhead ~11% of handler time at INFO level, heavy struct serialization in <code>processInferencePayments</code> accounting for 25-48% of its time), the following changes were implemented:</p>
 <p><strong>~20 LogInfo calls moved to LogDebug</strong> across 7 files in the StartInference/FinishInference hot path:
 - <code>msg_server_start_inference.go</code> — 5 calls (entry log, DevPubKey, TransferAgentPubKey, validateTimestamp, addTimeout)
@@ -435,7 +433,7 @@ i am not familiar with all stuff going on right now on chain, but in past a had 
     <span class="issues-meta-item">commented 2026-03-11 20:05 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>The big part of inference flow optimization is merged in https://github.com/gonka-ai/gonka/pull/812
+    <p>The big part of inference flow optimization is merged in https://github.com/gonka-ai/gonka/pull/812
 I'm closing all <code>[*/4] StartInference and FinishInference: optimiziation</code> tasks to finalize this work in milestone 0.2.11. I think it'd be better to re-open in case of additinal optimizations required</p>
   </div>
 </div>

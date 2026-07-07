@@ -2,7 +2,7 @@
 title: "#1387 — Gateway in-flight long chat during validator halt: client success vs request outcome failed"
 source: https://github.com/gonka-ai/gonka/issues/1387
 issue_number: 1387
-synced_at: 2026-07-07T04:27:52Z
+synced_at: 2026-07-07T08:46:31Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item">[@maria-mitina](https://github.com/maria-mitina) opened 2026-07-02 15:00 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 2026-07-02 15:00 UTC</span>
     <span class="issues-meta-item">2 comments</span>
     <span class="issues-meta-item">Updated 2026-07-06 05:24 UTC</span>
   </div>
@@ -215,7 +215,7 @@ Requires gateway on 702111 with v2 binary mount and Inference phase (PoC finishe
     <span class="issues-meta-item">commented 2026-07-03 07:29 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>hey @qdanik, would you be interested to work on this issue?</p> 
+    <p>hey @qdanik, would you be interested to work on this issue? </p>
   </div>
 </div>
 <div class="issues-comment">
@@ -224,7 +224,7 @@ Requires gateway on 702111 with v2 binary mount and Inference phase (PoC finishe
     <span class="issues-meta-item">commented 2026-07-05 22:18 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>@tcharchian you can assign it to me</p>
+    <p>@tcharchian you can assign it to me</p>
   </div>
 </div>
 

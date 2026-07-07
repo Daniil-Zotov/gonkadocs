@@ -2,7 +2,7 @@
 title: "#1247 — Request to be added as a Gonka broker"
 source: https://github.com/gonka-ai/gonka/issues/1247
 issue_number: 1247
-synced_at: 2026-07-07T04:28:13Z
+synced_at: 2026-07-07T08:46:45Z
 template: issues-main.html
 ---
 
@@ -60,12 +60,12 @@ Daniel
     <span class="issues-meta-item">commented 2026-06-23 23:10 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>Hi @olkwwuah!</p>
+    <p>Hi @olkwwuah!</p>
 <p>Two parts to your ask — broker listing and allowlisting your devshard creator address — so a quick note on how each works:</p>
 <p><strong>Allowlisting <code>gonka15uuzwv36ln8mlsmu7ccg6rr3ntj9mh7t9x6n8u</code>.</strong> Operating your own devshard gateway means becoming an on-chain escrow operator, which requires your creator address on the governance-controlled allowlist (<code>devshard_escrow_params.allowed_creator_addresses</code>). That path is open, but inclusion is an on-chain governance decision — no single operator or org adds an address unilaterally — so it goes through a governance request. On top of the allowlist, you'd own the escrow lifecycle yourself: funding, rotation, v1/v2 state roots, and settlement.</p>
 <p><strong>Broker listing.</strong> The community broker directory is a curated, non-exhaustive set from the early rollout and isn't being actively expanded.</p>
 <p>If you'd rather not wait on a governance vote, there are independent, managed gateways in the community that already operate under whitelisted wallets and expose a plain OpenAI-compatible endpoint — so you can start serving inference now without your own allowlisting. One such community option is <strong>OpenBroker</strong> (run by Gonka Labs): https://github.com/gonka-ai/gonka/discussions/1363</p>
-<p>OpenBroker is <strong>independent third party</strong>, not part of the core protocol</p>  
+<p>OpenBroker is <strong>independent third party</strong>, not part of the core protocol  </p>
   </div>
 </div>
 

@@ -2,7 +2,7 @@
 title: "#629 — [P0] Possible cause of missed inferences"
 source: https://github.com/gonka-ai/gonka/issues/629
 issue_number: 629
-synced_at: 2026-07-07T04:28:44Z
+synced_at: 2026-07-07T08:47:05Z
 template: issues-main.html
 ---
 
@@ -35,7 +35,7 @@ We're distributing inference requests on the chain based on the total weight of 
     <span class="issues-meta-item">commented 2026-01-26 08:06 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<h1>642</h1> 
+    <h1>642</h1>
   </div>
 </div>
 <div class="issues-comment">
@@ -44,7 +44,7 @@ We're distributing inference requests on the chain based on the total weight of 
     <span class="issues-meta-item">commented 2026-03-20 23:41 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>@tamazgadaev @IgnatovFedor @0xgonka do we want the same for preserved ML Nodes during PoC phase?</p>
+    <p>@tamazgadaev @IgnatovFedor @0xgonka do we want the same for preserved ML Nodes during PoC phase?</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -53,9 +53,9 @@ We're distributing inference requests on the chain based on the total weight of 
     <span class="issues-meta-item">commented 2026-03-24 23:12 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>This issue is a subset of multi-model support (https://github.com/gonka-ai/gonka/issues/728)
+    <p>This issue is a subset of multi-model support (https://github.com/gonka-ai/gonka/issues/728)
 We'll figure out when to review and merge this issue during work on multimodels https://github.com/gonka-ai/gonka/issues/728
-@x0152 @0xgonka</p> 
+@x0152 @0xgonka </p>
   </div>
 </div>
 <div class="issues-comment">
@@ -64,7 +64,7 @@ We'll figure out when to review and merge this issue during work on multimodels 
     <span class="issues-meta-item">commented 2026-04-28 18:28 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>Closing as resolved by the multi-PoC updates</p>
+    <p>Closing as resolved by the multi-PoC updates</p>
   </div>
 </div>
 

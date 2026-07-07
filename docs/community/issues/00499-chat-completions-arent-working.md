@@ -2,7 +2,7 @@
 title: "#499 — Chat Completions aren't working"
 source: https://github.com/gonka-ai/gonka/issues/499
 issue_number: 499
-synced_at: 2026-07-07T04:29:47Z
+synced_at: 2026-07-07T08:47:45Z
 template: issues-main.html
 ---
 
@@ -82,7 +82,7 @@ print(response.choices[0].message.content)
     <span class="issues-meta-item">commented 2026-02-10 04:04 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>hi @pentoxine,I'd like to propose this for a bounty for reporting the issue.
+    <p>hi @pentoxine,I'd like to propose this for a bounty for reporting the issue.
 can you please reach out to me in discord @mtvnastya or let me know how I can contact you directly?</p>
   </div>
 </div>

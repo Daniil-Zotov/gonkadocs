@@ -2,7 +2,7 @@
 title: "#1341 — [BUG] devshard: data race on inflight receiptTime between send goroutine and escalation scheduler (go test -race fails on main)"
 source: https://github.com/gonka-ai/gonka/issues/1341
 issue_number: 1341
-synced_at: 2026-07-07T04:28:05Z
+synced_at: 2026-07-07T08:46:40Z
 template: issues-main.html
 ---
 
@@ -120,16 +120,16 @@ Goroutine 31 (running) created at:
     <span class="issues-meta-item">commented 2026-06-25 00:19 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>Hey @akup @x0152, what are your thoughts here?</p> 
+    <p>Hey @akup @x0152, what are your thoughts here? </p>
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@a-kuprin](https://github.com/a-kuprin)</span>
+    <span><a href="https://github.com/a-kuprin">@a-kuprin</a></span>
     <span class="issues-meta-item">commented 2026-06-25 17:16 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>@redstartechno fixed here:
+    <p>@redstartechno fixed here:
 https://github.com/gonka-ai/gonka/commit/7b2c7b4dd946d37c32108103dad1a3cdfbdd6d25</p>
   </div>
 </div>
@@ -139,7 +139,7 @@ https://github.com/gonka-ai/gonka/commit/7b2c7b4dd946d37c32108103dad1a3cdfbdd6d2
     <span class="issues-meta-item">commented 2026-06-26 23:54 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>Hi @redstartechno, this does not look like a bug or a vulnerability. It mostly seems to be a test-related issue, but I don’t see how it affects production code. Anyway, thanks for flagging</p>
+    <p>Hi @redstartechno, this does not look like a bug or a vulnerability. It mostly seems to be a test-related issue, but I don’t see how it affects production code. Anyway, thanks for flagging</p>
   </div>
 </div>
 

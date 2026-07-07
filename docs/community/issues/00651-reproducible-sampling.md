@@ -2,7 +2,7 @@
 title: "#651 — Reproducible sampling"
 source: https://github.com/gonka-ai/gonka/issues/651
 issue_number: 651
-synced_at: 2026-07-07T04:29:23Z
+synced_at: 2026-07-07T08:47:29Z
 template: issues-main.html
 ---
 
@@ -36,7 +36,7 @@ template: issues-main.html
     <span class="issues-meta-item">commented 2026-02-08 14:13 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>PR created: https://github.com/gonka-ai/gonka/pull/719</p>
+    <p>PR created: https://github.com/gonka-ai/gonka/pull/719</p>
 <p>Implements Stage 1 Sequence Check for reproducible sampling protection against speculative decoding attacks.</p>
   </div>
 </div>
@@ -46,7 +46,7 @@ template: issues-main.html
     <span class="issues-meta-item">commented 2026-02-12 15:26 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>I have a PR for this: #719 — implements Stage 1 Sequence Check for reproducible sampling protection. Would appreciate a review when you get a chance.</p>
+    <p>I have a PR for this: #719 — implements Stage 1 Sequence Check for reproducible sampling protection. Would appreciate a review when you get a chance.</p>
   </div>
 </div>
 

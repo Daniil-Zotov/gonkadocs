@@ -2,7 +2,7 @@
 title: "#546 — Node crash: Decimal precision panic in reputation calculation (v0.2.7-post1)"
 source: https://github.com/gonka-ai/gonka/issues/546
 issue_number: 546
-synced_at: 2026-07-07T04:30:14Z
+synced_at: 2026-07-07T08:48:02Z
 template: issues-main.html
 ---
 
@@ -222,7 +222,7 @@ Reporter: Node operator with detailed logs and crash dumps available Status: ⚠
     <span class="issues-meta-item">commented 2026-01-12 18:14 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>Can you provide a full stack trace for the panic? I do not see any remaining uses of LegacyMustNewDecFromStr.
+    <p>Can you provide a full stack trace for the panic? I do not see any remaining uses of LegacyMustNewDecFromStr.
 For most of the chain, we <em>only</em> use <code>shopspring</code> decimals, not Legacy. In fact, I cannot find places where we use it outside of BLS and chainvalidation.go (and there for only one value quickly)</p>
   </div>
 </div>
@@ -232,7 +232,7 @@ For most of the chain, we <em>only</em> use <code>shopspring</code> decimals, no
     <span class="issues-meta-item">commented 2026-01-21 19:54 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>@Olena please take a look at the question above.</p>
+    <p>@Olena please take a look at the question above.</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -241,7 +241,7 @@ For most of the chain, we <em>only</em> use <code>shopspring</code> decimals, no
     <span class="issues-meta-item">commented 2026-01-21 21:11 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>The log above contains exact issue from <code>ApplyBLSGuardianSlotReservation</code> (0.032335451875111843916048462901 is exact number and error which was in initial issues)
+    <p>The log above contains exact issue from <code>ApplyBLSGuardianSlotReservation</code> (0.032335451875111843916048462901 is exact number and error which was in initial issues)
 =&gt; with high probability it's not another issue
 If it'd be one more issue in inference module, the whole chain would halt. I assume 0.2.7 binary was used (e.g. <code>.inference/cosmovisor</code> directory was recreated or symlinks inside modified)</p>
 <p>Closing if there is no new info</p>

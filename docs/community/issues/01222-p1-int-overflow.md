@@ -2,7 +2,7 @@
 title: "#1222 — [P1] Int overflow"
 source: https://github.com/gonka-ai/gonka/issues/1222
 issue_number: 1222
-synced_at: 2026-07-07T04:28:01Z
+synced_at: 2026-07-07T08:46:37Z
 template: issues-main.html
 ---
 
@@ -35,7 +35,7 @@ The goal of this is to have in place after this a standard way of handling possi
     <span class="issues-meta-item">commented 2026-06-30 13:00 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>Opened a surgical first PR against main: #1379.</p>
+    <p>Opened a surgical first PR against main: #1379.</p>
 <p>It ports the already-accepted #1100/#1101 overflow fixes to main and adds two small guards for payout uint64-&gt;int64 conversion and validation totalWeight accumulation.</p>
 <p>I intentionally left broad static analysis and #1017 supply-cap semantics out of scope so this remains reviewable.</p>
   </div>

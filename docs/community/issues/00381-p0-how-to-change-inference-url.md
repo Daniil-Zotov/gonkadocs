@@ -2,7 +2,7 @@
 title: "#381 — [P0] How to change `inference_url`"
 source: https://github.com/gonka-ai/gonka/issues/381
 issue_number: 381
-synced_at: 2026-07-07T04:30:51Z
+synced_at: 2026-07-07T08:48:25Z
 template: issues-main.html
 ---
 
@@ -47,7 +47,7 @@ Such an endpoint should be enough to have voting for claiming the wrong address.
     <span class="issues-meta-item">commented 2025-12-08 21:16 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>https://gonka.ai/FAQ/#how-to-change-inference_url</p>
+    <p>https://gonka.ai/FAQ/#how-to-change-inference_url</p>
   </div>
 </div>
 

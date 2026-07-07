@@ -2,7 +2,7 @@
 title: "#646 — Avoid truncation for large validation weights"
 source: https://github.com/gonka-ai/gonka/issues/646
 issue_number: 646
-synced_at: 2026-07-07T04:28:21Z
+synced_at: 2026-07-07T08:46:50Z
 template: issues-main.html
 ---
 
@@ -35,7 +35,7 @@ template: issues-main.html
     <span class="issues-meta-item">commented 2026-02-08 14:14 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>PR created: https://github.com/gonka-ai/gonka/pull/655</p>
+    <p>PR created: https://github.com/gonka-ai/gonka/pull/655</p>
 <p>Fixes uint32 truncation for large validation weights by using int64.</p>
   </div>
 </div>

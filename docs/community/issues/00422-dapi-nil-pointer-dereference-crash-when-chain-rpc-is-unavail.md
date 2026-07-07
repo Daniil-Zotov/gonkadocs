@@ -2,7 +2,7 @@
 title: "#422 — DAPI  nil pointer dereference crash when chain RPC is unavailable"
 source: https://github.com/gonka-ai/gonka/issues/422
 issue_number: 422
-synced_at: 2026-07-07T04:29:48Z
+synced_at: 2026-07-07T08:47:45Z
 template: issues-main.html
 ---
 
@@ -67,7 +67,7 @@ func (a *Assigner) tryClaimingTaskToAssign() {
     <span class="issues-meta-item">commented 2026-01-24 21:05 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>Fixed in PR #639 - added missing return statement after error to prevent nil pointer dereference.</p>
+    <p>Fixed in PR #639 - added missing return statement after error to prevent nil pointer dereference.</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -76,7 +76,7 @@ func (a *Assigner) tryClaimingTaskToAssign() {
     <span class="issues-meta-item">commented 2026-02-10 03:59 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>hi @mfursov, I'd like to propose a bounty for reporting this issue and proposing a fix.
+    <p>hi @mfursov, I'd like to propose a bounty for reporting this issue and proposing a fix.
 reached out to you via email</p>
   </div>
 </div>

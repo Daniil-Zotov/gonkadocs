@@ -2,7 +2,7 @@
 title: "#928 — [P1] Open Questions: Block Gas Limits, Fees, Cost per Participant, and System TX Prioritization"
 source: https://github.com/gonka-ai/gonka/issues/928
 issue_number: 928
-synced_at: 2026-07-07T04:28:36Z
+synced_at: 2026-07-07T08:46:59Z
 template: issues-main.html
 ---
 
@@ -45,7 +45,7 @@ template: issues-main.html
     <span class="issues-meta-item">commented 2026-05-07 22:46 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<h2>Implementation-level review from the current codebase</h2>
+    <h2>Implementation-level review from the current codebase</h2>
 <p>The two-track approach — consensus-level <code>TxFeeChecker</code> + <code>NetworkDutyFeeBypassDecorator</code> modeled on the existing <code>LiquidityPoolFeeBypassDecorator</code> — is the right shape. A few concrete gaps from the current code worth resolving before implementation:</p>
 <h3>1. The "network duty" message set needs to be exhaustive, not exemplary</h3>
 <p>The summary lists "PoC, validations, BLS, weight distributions" — this is the right category but not the complete msg list. Inference defines ~45 msg types (<a href="https://github.com/gonka-ai/gonka/blob/main/inference-chain/x/inference/types/tx.pb.go"><code>tx.pb.go</code></a>). Concrete classification needed before merge:</p>
@@ -100,7 +100,6 @@ template: issues-main.html
 </ul>
 <hr />
 <p>Outline LGTM, but the network-duty msg enumeration (#1) and the authz grant migration (#2) are blockers for safe deployment. Worth landing a follow-on PR with the typed registry of network-duty msg types before the upgrade.</p>
-
   </div>
 </div>
 

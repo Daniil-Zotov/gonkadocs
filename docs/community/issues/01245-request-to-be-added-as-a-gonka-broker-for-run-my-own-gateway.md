@@ -2,7 +2,7 @@
 title: "#1245 — Request to be added as a Gonka broker (for run my own gateway)"
 source: https://github.com/gonka-ai/gonka/issues/1245
 issue_number: 1245
-synced_at: 2026-07-07T04:28:12Z
+synced_at: 2026-07-07T08:46:45Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@Korolev-Oleg](https://github.com/Korolev-Oleg) opened 2026-05-25 13:27 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/Korolev-Oleg">@Korolev-Oleg</a> opened 2026-05-25 13:27 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-06-23 23:17 UTC</span>
   </div>
@@ -52,7 +52,7 @@ but in future maybe in $T / credits
     <span class="issues-meta-item">commented 2026-06-23 23:17 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>Hi @Korolev-Oleg! Before anything can move on the self-hosted gateway side, the address field in the request needs fixing: <strong>Devshard creator address</strong> needs to be a <code>gonka1…</code> account address that you control (the one your gateway will sign escrow transactions from).  </p>
+    <p>Hi @Korolev-Oleg! Before anything can move on the self-hosted gateway side, the address field in the request needs fixing: <strong>Devshard creator address</strong> needs to be a <code>gonka1…</code> account address that you control (the one your gateway will sign escrow transactions from).  </p>
 <p>On the path itself: running your own devshard gateway means becoming an on-chain escrow operator, which requires your <code>gonka1…</code> creator address on the governance-controlled allowlist (<code>devshard_escrow_params.allowed_creator_addresses</code>). That path is open, but inclusion is an on-chain governance decision — no single operator or org adds an address unilaterally — so it goes through a governance request.</p>
 <p>If the goal right now is to build and test against Gonka rather than to operate escrows, there are independent, managed gateways in the community that already run under whitelisted wallets and expose a plain OpenAI-compatible endpoint — so you can start immediately without your own allowlisting. One such community option is <strong>OpenBroker</strong> (run by Gonka Labs): https://github.com/gonka-ai/gonka/discussions/1363</p>
 <p>OpenBroker is <strong>independent third party</strong>, not part of the core protocol  </p>

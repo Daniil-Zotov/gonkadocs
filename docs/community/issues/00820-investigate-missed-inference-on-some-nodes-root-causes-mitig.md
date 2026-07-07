@@ -2,7 +2,7 @@
 title: "#820 — Investigate missed inference on some nodes (root causes + mitigation)"
 source: https://github.com/gonka-ai/gonka/issues/820
 issue_number: 820
-synced_at: 2026-07-07T04:29:34Z
+synced_at: 2026-07-07T08:47:37Z
 template: issues-main.html
 ---
 
@@ -42,7 +42,7 @@ Task: Some nodes experience missed inference events. Likely multi-cause, needs c
     <span class="issues-meta-item">commented 2026-03-03 10:27 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>PR: https://github.com/gonka-ai/gonka/pull/843</p>
+    <p>PR: https://github.com/gonka-ai/gonka/pull/843</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -51,7 +51,7 @@ Task: Some nodes experience missed inference events. Likely multi-cause, needs c
     <span class="issues-meta-item">commented 2026-03-06 14:25 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>Measured data from live network may help narrow root causes here.</p>
+    <p>Measured data from live network may help narrow root causes here.</p>
 <p>Epochs 161–191, 2,503,595 inferences:
 Miss rate: 3.25% (81,360 misses)
 Completion rate: mean 90.4%, σ=7.4%, range 72–99%</p>
@@ -62,7 +62,7 @@ GetRandomExecutor routes to both equally regardless.</p>
 proportional to L9 completion rate. Projection: σ ↓40% as high-miss nodes 
 receive less traffic and face economic incentive to improve.</p>
 <p>Design + data: docs/specs/inference-quality-protocol.md (PR #859 branch)
-Discussion: #860</p> 
+Discussion: #860 </p>
   </div>
 </div>
 

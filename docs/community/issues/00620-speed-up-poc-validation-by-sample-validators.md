@@ -2,7 +2,7 @@
 title: "#620 — Speed up PoC validation by sample validators"
 source: https://github.com/gonka-ai/gonka/issues/620
 issue_number: 620
-synced_at: 2026-07-07T04:29:45Z
+synced_at: 2026-07-07T08:47:44Z
 template: issues-main.html
 ---
 
@@ -35,7 +35,7 @@ template: issues-main.html
     <span class="issues-meta-item">commented 2026-02-04 22:59 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>That's implemented and we want to include it. One parameter will be changed but it's good to go</p>
+    <p>That's implemented and we want to include it. One parameter will be changed but it's good to go</p>
   </div>
 </div>
 

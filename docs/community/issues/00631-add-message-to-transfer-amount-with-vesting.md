@@ -2,7 +2,7 @@
 title: "#631 — Add message to transfer amount with vesting"
 source: https://github.com/gonka-ai/gonka/issues/631
 issue_number: 631
-synced_at: 2026-07-07T04:29:45Z
+synced_at: 2026-07-07T08:47:43Z
 template: issues-main.html
 ---
 
@@ -36,7 +36,7 @@ When the community distributes funds to miners, the transferred tokens should ve
     <span class="issues-meta-item">commented 2026-01-24 21:29 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>Implemented in PR #641 - adds MsgTransferWithVesting message with 180 epoch default vesting, validation, CLI support, and unit tests.</p>
+    <p>Implemented in PR #641 - adds MsgTransferWithVesting message with 180 epoch default vesting, validation, CLI support, and unit tests.</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -45,7 +45,7 @@ When the community distributes funds to miners, the transferred tokens should ve
     <span class="issues-meta-item">commented 2026-01-29 23:47 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>Hi @AlexeySamosadov can I kindly ask you to contact me on Discord? <code>tatianacharchian_07833</code></p>
+    <p>Hi @AlexeySamosadov can I kindly ask you to contact me on Discord? <code>tatianacharchian_07833</code></p>
   </div>
 </div>
 <div class="issues-comment">
@@ -54,7 +54,7 @@ When the community distributes funds to miners, the transferred tokens should ve
     <span class="issues-meta-item">commented 2026-01-31 15:18 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p><img width="554" height="402" alt="Image" src="https://github.com/user-attachments/assets/51108f38-eff7-45b9-8114-d9e71c754913" /> Hi @tcharchian i texted you in Discord :)</p>
+    <p><img width="554" height="402" alt="Image" src="https://github.com/user-attachments/assets/51108f38-eff7-45b9-8114-d9e71c754913" /> Hi @tcharchian i texted you in Discord :)</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -63,7 +63,7 @@ When the community distributes funds to miners, the transferred tokens should ve
     <span class="issues-meta-item">commented 2026-02-08 14:14 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>PR created: https://github.com/gonka-ai/gonka/pull/641</p>
+    <p>PR created: https://github.com/gonka-ai/gonka/pull/641</p>
 <p>Adds MsgTransferWithVesting for vesting transfers.</p>
   </div>
 </div>

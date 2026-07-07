@@ -2,7 +2,7 @@
 title: "#612 — `/chat/completion` flow development"
 source: https://github.com/gonka-ai/gonka/issues/612
 issue_number: 612
-synced_at: 2026-07-07T04:29:08Z
+synced_at: 2026-07-07T08:47:20Z
 template: issues-main.html
 ---
 
@@ -35,7 +35,7 @@ template: issues-main.html
     <span class="issues-meta-item">commented 2026-03-22 22:59 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>Hey @KKizilov, is this issue still in progress?</p> 
+    <p>Hey @KKizilov, is this issue still in progress? </p>
   </div>
 </div>
 <div class="issues-comment">
@@ -44,16 +44,16 @@ template: issues-main.html
     <span class="issues-meta-item">commented 2026-03-23 20:55 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>@KKizilov please check if this issue is actually done or just closed?</p>
+    <p>@KKizilov please check if this issue is actually done or just closed?</p>
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@heitor-lassarote](https://github.com/heitor-lassarote)</span>
+    <span><a href="https://github.com/heitor-lassarote">@heitor-lassarote</a></span>
     <span class="issues-meta-item">commented 2026-03-23 21:08 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>@tcharchian, we were explicitly requested by @gmorgachev to close #740 (the PR that would close this issue) because the work on subnets would also fix the problem while introducing more functionality. The issue should be closed/aborted instead.</p>
+    <p>@tcharchian, we were explicitly requested by @gmorgachev to close #740 (the PR that would close this issue) because the work on subnets would also fix the problem while introducing more functionality. The issue should be closed/aborted instead.</p>
   </div>
 </div>
 

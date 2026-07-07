@@ -2,7 +2,7 @@
 title: "#1237 — Request to be added as a Gonka broker"
 source: https://github.com/gonka-ai/gonka/issues/1237
 issue_number: 1237
-synced_at: 2026-07-07T04:28:15Z
+synced_at: 2026-07-07T08:46:46Z
 template: issues-main.html
 ---
 
@@ -100,7 +100,7 @@ Thanks!
     <span class="issues-meta-item">commented 2026-05-28 18:43 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>@tcharchian , Hi, i see that this issue is completed. What our team should do next to join allowlist with our gonka adress?</p>
+    <p>@tcharchian , Hi, i see that this issue is completed. What our team should do next to join allowlist with our gonka adress?</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -109,7 +109,7 @@ Thanks!
     <span class="issues-meta-item">commented 2026-06-23 22:46 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>Hi! At the moment, the public broker list is not being actively expanded through governance. Inclusion in that list should be handled through the governance process and discussed in the community.</p>
+    <p>Hi! At the moment, the public broker list is not being actively expanded through governance. Inclusion in that list should be handled through the governance process and discussed in the community.</p>
 <p>As a practical alternative, there is now a community-operated option for teams that want to start operating as brokers without waiting for direct access https://github.com/gonka-ai/gonka/discussions/1363.</p>
 <p>OpenBroker provides access to Gonka inference through devshards v1 and v2 under an already whitelisted escrow-operating wallet. It is intended for teams that want to build or test broker-side products without handling escrow enrollment, escrow funding and rotation, v1/v2 state-root differences, or node4 access.</p>
 <p>You can register here:

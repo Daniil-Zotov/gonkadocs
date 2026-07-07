@@ -2,7 +2,7 @@
 title: "#1273 — x/inference: asymmetric debit in refundInvalidatedInference — design clarification"
 source: https://github.com/gonka-ai/gonka/issues/1273
 issue_number: 1273
-synced_at: 2026-07-07T04:28:23Z
+synced_at: 2026-07-07T08:46:52Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item">[@vitaly-andr](https://github.com/vitaly-andr) opened 2026-05-28 19:14 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/vitaly-andr">@vitaly-andr</a> opened 2026-05-28 19:14 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-05-29 05:26 UTC</span>
   </div>
@@ -102,11 +102,11 @@ Maintainer clarification before any code change:
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@vitaly-andr](https://github.com/vitaly-andr)</span>
+    <span><a href="https://github.com/vitaly-andr">@vitaly-andr</a></span>
     <span class="issues-meta-item">commented 2026-05-29 05:26 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p><strong>Update — the asymmetry is pervasive, not a grace-period edge case.</strong></p>
+    <p><strong>Update — the asymmetry is pervasive, not a grace-period edge case.</strong></p>
 <p>While building the simulation/fuzz harness for #982 (Phase 3 — improving simulation quality with custom invariants + multi-seed runs), this asymmetry surfaces on the large majority of seeds, not just the constructed reproducer above.</p>
 <p><strong>Multi-seed evidence.</strong> A <code>bank-backs-positive-balance</code> invariant — <code>module account balance ≥ Σ positive participant CoinBalances</code> — was added and checked post-run across the framework's default seed list (37 seeds, <code>-NumBlocks=100 -BlockSize=100</code>, <code>-GenesisTime</code> pinned for reproducibility):</p>
 <ul>
@@ -120,7 +120,6 @@ Maintainer clarification before any code change:
 <p><code>spendable == total</code> on the module account rules out a locked/vesting artifact — this is genuine under-backing.</p>
 <p><strong>Takeaway:</strong> the asymmetric debit doesn't merely create a recoverable executor debt in rare grace-period conditions — it breaks the module-solvency invariant on ~91% of completing simulation seeds whenever invalidations occur. This strengthens the case that the refund path should reverse the validators' shares (or otherwise reconcile against the escrow actually held), rather than charging the executor alone.</p>
 <p>(Surfaced by the #982 simulation work; the invariant and multi-seed harness are part of that effort.)</p>
-
   </div>
 </div>
 

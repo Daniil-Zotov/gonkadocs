@@ -2,7 +2,7 @@
 title: "#412 — [P2] MLNode Token-Based Authentication and FQDN Support"
 source: https://github.com/gonka-ai/gonka/issues/412
 issue_number: 412
-synced_at: 2026-07-07T04:28:02Z
+synced_at: 2026-07-07T08:46:38Z
 template: issues-main.html
 ---
 
@@ -158,11 +158,11 @@ Required changes:
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Pegasus-starry](https://github.com/Pegasus-starry)</span>
+    <span><a href="https://github.com/Pegasus-starry">@Pegasus-starry</a></span>
     <span class="issues-meta-item">commented 2025-11-06 04:12 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>Hi @gmorgachev , I have  two questions:
+    <p>Hi @gmorgachev , I have  two questions:
 New registration (baseURL): Check <baseURL>/readyz (management API readiness endpoint on port 8080): 
 Is it means in the new registration:  the /readyz interface will be used , not using http://<host>:<inference_port>/health any more?     <br />
 And the single-port operation only need to modify this place when checking MLNode health ? </p>
@@ -177,7 +177,7 @@ Where to do this and do we have a validate method already existed to validate th
     <span class="issues-meta-item">commented 2026-02-04 23:26 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>@DimaOrekhovPS did the initial review, but now @DimaOrekhovPS  is waiting for @Pegasus-starry  to resolve conflicts with the current gonka version</p>   
+    <p>@DimaOrekhovPS did the initial review, but now @DimaOrekhovPS  is waiting for @Pegasus-starry  to resolve conflicts with the current gonka version   </p>
   </div>
 </div>
 <div class="issues-comment">
@@ -186,7 +186,7 @@ Where to do this and do we have a validate method already existed to validate th
     <span class="issues-meta-item">commented 2026-03-21 00:56 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>Hey @jacky6block @x0152 @akup! It would be great if you could sync on the next steps for this pull request and make the needed decisions together. If you are able to move it forward on your own, it could potentially be included in v0.2.12. But overall, this is a nice-to-have rather than something critical.</p>
+    <p>Hey @jacky6block @x0152 @akup! It would be great if you could sync on the next steps for this pull request and make the needed decisions together. If you are able to move it forward on your own, it could potentially be included in v0.2.12. But overall, this is a nice-to-have rather than something critical.</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -195,7 +195,7 @@ Where to do this and do we have a validate method already existed to validate th
     <span class="issues-meta-item">commented 2026-03-23 06:15 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>All this protections are nice to have. But I want it to be aligned with other features and moving PoC v2 APIs to the repo from vLLM repo.</p>
+    <p>All this protections are nice to have. But I want it to be aligned with other features and moving PoC v2 APIs to the repo from vLLM repo.</p>
 <p>Need some time to have a big picture in my head</p>
   </div>
 </div>
@@ -205,12 +205,10 @@ Where to do this and do we have a validate method already existed to validate th
     <span class="issues-meta-item">commented 2026-06-23 07:47 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>Hi @tcharchian, I'm picking this up and continuing the issue, and currently working on it. (draft pr #1359, blocked by #1296 )
+    <p>Hi @tcharchian, I'm picking this up and continuing the issue, and currently working on it. (draft pr #1359, blocked by #1296 )
 The new work centralizes MLNode addressing + auth in one place instead of spreading BaseURL/AuthToken across every call site (the #717 approach), and folds in the review feedback.</p>
 <p>It's coupled with the Onboarding changes in #1296, so the new PR #1296 is draft and will be opened once 1296 is approved.
 Thanks to everyone for the earlier work and review here.</p>
-
-
   </div>
 </div>
 <div class="issues-comment">
@@ -219,7 +217,7 @@ Thanks to everyone for the earlier work and review here.</p>
     <span class="issues-meta-item">commented 2026-06-27 20:42 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>Hi @bonujel, thanks, I see. @DimaOrekhovPS @x0152 are working on v0.2.14 and v0.2.15 and will review https://github.com/gonka-ai/gonka/pull/1296 shortly</p>
+    <p>Hi @bonujel, thanks, I see. @DimaOrekhovPS @x0152 are working on v0.2.14 and v0.2.15 and will review https://github.com/gonka-ai/gonka/pull/1296 shortly</p>
   </div>
 </div>
 

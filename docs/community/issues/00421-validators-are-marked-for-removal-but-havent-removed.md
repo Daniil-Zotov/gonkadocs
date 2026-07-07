@@ -2,7 +2,7 @@
 title: "#421 — Validators are marked for removal but haven't removed"
 source: https://github.com/gonka-ai/gonka/issues/421
 issue_number: 421
-synced_at: 2026-07-07T04:29:43Z
+synced_at: 2026-07-07T08:47:43Z
 template: issues-main.html
 ---
 
@@ -59,7 +59,7 @@ https://github.com/gonka-ai/cosmos-sdk/blob/1ace5dd25d1a78f6b189cbdfec9b76839fe4
     <span class="issues-meta-item">commented 2026-01-28 22:19 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>Needs to be rechecked</p>
+    <p>Needs to be rechecked</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -68,7 +68,7 @@ https://github.com/gonka-ai/cosmos-sdk/blob/1ace5dd25d1a78f6b189cbdfec9b76839fe4
     <span class="issues-meta-item">commented 2026-02-08 15:16 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>PR: https://github.com/gonka-ai/gonka/pull/720</p>
+    <p>PR: https://github.com/gonka-ai/gonka/pull/720</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -77,7 +77,7 @@ https://github.com/gonka-ai/cosmos-sdk/blob/1ace5dd25d1a78f6b189cbdfec9b76839fe4
     <span class="issues-meta-item">commented 2026-02-12 15:25 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>I already have a PR for this: #720 — it implements validator removal cleanup hooks. Would appreciate a review when you get a chance.</p>
+    <p>I already have a PR for this: #720 — it implements validator removal cleanup hooks. Would appreciate a review when you get a chance.</p>
   </div>
 </div>
 

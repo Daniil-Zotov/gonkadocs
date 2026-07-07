@@ -2,7 +2,7 @@
 title: "#527 — Node resync from snapshot caused missed inference tasks due to large application.db"
 source: https://github.com/gonka-ai/gonka/issues/527
 issue_number: 527
-synced_at: 2026-07-07T04:30:13Z
+synced_at: 2026-07-07T08:48:01Z
 template: issues-main.html
 ---
 
@@ -47,7 +47,7 @@ Thanks in advance for your help.
     <span class="issues-meta-item">commented 2026-01-22 00:08 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>Hi @bingcongxihaha! Unfortunately, no inference tasks that are missed while a node is offline (e.g. during resync) cannot be recovered or compensated retroactively. Inference assignment and PoC are performed in real time. If a node is not running and serving requests during that period, those inference opportunities are simply lost.  </p>
+    <p>Hi @bingcongxihaha! Unfortunately, no inference tasks that are missed while a node is offline (e.g. during resync) cannot be recovered or compensated retroactively. Inference assignment and PoC are performed in real time. If a node is not running and serving requests during that period, those inference opportunities are simply lost.  </p>
 <p>The goal is to prevent forced resyncs by controlling database growth and disk usage.</p>
 <p>Cosmovisor creates a full backup of the .<code>inference/data</code> directory during upgrades. Make sure sufficient disk space is available. If disk usage is high, older backups in <code>.inference</code> <a href="https://gonka.ai/FAQ/#how-much-free-disk-space-is-required-for-a-cosmovisor-update-and-how-can-i-safely-remove-old-backups-from-the-inference-directory">can be safely removed. </a>
 Large <code>application.db</code> files can be reduced using <a href="https://gonka.ai/FAQ/#why-is-my-applicationdb-growing-so-large-and-how-do-i-fix-it">these techniques.</a></p>

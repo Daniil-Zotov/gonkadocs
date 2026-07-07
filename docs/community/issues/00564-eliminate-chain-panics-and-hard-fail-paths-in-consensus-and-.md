@@ -2,7 +2,7 @@
 title: "#564 — Eliminate chain panics and hard-fail paths in consensus and accounting"
 source: https://github.com/gonka-ai/gonka/issues/564
 issue_number: 564
-synced_at: 2026-07-07T04:30:20Z
+synced_at: 2026-07-07T08:48:05Z
 template: issues-main.html
 ---
 

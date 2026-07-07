@@ -2,7 +2,7 @@
 title: "#575 — Updated script snippets and MacOS Tahoe 26.1 Docker settings"
 source: https://github.com/gonka-ai/gonka/issues/575
 issue_number: 575
-synced_at: 2026-07-07T04:30:21Z
+synced_at: 2026-07-07T08:48:06Z
 template: issues-main.html
 ---
 
@@ -31,11 +31,11 @@ template: issues-main.html
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@maria-mitina](https://github.com/maria-mitina)</span>
+    <span><a href="https://github.com/maria-mitina">@maria-mitina</a></span>
     <span class="issues-meta-item">commented 2026-01-15 21:50 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>@tcharchian should we close this ticket since the PR has been merged?</p>
+    <p>@tcharchian should we close this ticket since the PR has been merged?</p>
   </div>
 </div>
 

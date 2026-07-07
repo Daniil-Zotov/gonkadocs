@@ -2,7 +2,7 @@
 title: "#672 — gRPC always falls back to RPC"
 source: https://github.com/gonka-ai/gonka/issues/672
 issue_number: 672
-synced_at: 2026-07-07T04:29:43Z
+synced_at: 2026-07-07T08:47:42Z
 template: issues-main.html
 ---
 
@@ -35,7 +35,7 @@ gRPC is enabled, but requests still use RPC (#685 )
     <span class="issues-meta-item">commented 2026-02-08 14:13 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>PR created: https://github.com/gonka-ai/gonka/pull/694</p>
+    <p>PR created: https://github.com/gonka-ai/gonka/pull/694</p>
 <p>Enables gRPC for chain queries instead of RPC fallback.</p>
   </div>
 </div>
@@ -45,7 +45,7 @@ gRPC is enabled, but requests still use RPC (#685 )
     <span class="issues-meta-item">commented 2026-02-12 15:26 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>I have a PR for this: #694 — adds optional gRPC transport for chain queries. Would appreciate a review when you get a chance.</p>
+    <p>I have a PR for this: #694 — adds optional gRPC transport for chain queries. Would appreciate a review when you get a chance.</p>
   </div>
 </div>
 

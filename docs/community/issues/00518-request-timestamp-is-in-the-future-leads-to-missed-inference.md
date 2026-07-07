@@ -2,7 +2,7 @@
 title: "#518 — "Request timestamp is in the future" leads to missed inferences for hosts"
 source: https://github.com/gonka-ai/gonka/issues/518
 issue_number: 518
-synced_at: 2026-07-07T04:30:19Z
+synced_at: 2026-07-07T08:48:05Z
 template: issues-main.html
 ---
 
@@ -88,7 +88,7 @@ The problem of being behind the consensus block is unknown, and it was seen, tha
     <span class="issues-meta-item">commented 2026-01-02 06:35 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>Also use of hardcoded value 60*60 at node level is VERY BAD.
+    <p>Also use of hardcoded value 60*60 at node level is VERY BAD.
 And it could be fixed by parameters. Moreover it even doesn't need extra parameters, and can use <code>timestampExpirationNs</code> and <code>timestampAdvanceNs</code> that are regulated by the voting.</p>
   </div>
 </div>
@@ -98,9 +98,7 @@ And it could be fixed by parameters. Moreover it even doesn't need extra paramet
     <span class="issues-meta-item">commented 2026-01-07 18:31 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>+1, same issue. Node falls behind during PoC, missing inferences. This fix would help.</p>
-
-
+    <p>+1, same issue. Node falls behind during PoC, missing inferences. This fix would help.</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -109,7 +107,7 @@ And it could be fixed by parameters. Moreover it even doesn't need extra paramet
     <span class="issues-meta-item">commented 2026-01-14 12:27 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>It is fixed by this PR:
+    <p>It is fixed by this PR:
 https://github.com/gonka-ai/gonka/pull/549</p>
   </div>
 </div>

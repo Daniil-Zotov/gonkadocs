@@ -2,7 +2,7 @@
 title: "#1397 — Gateway allowlist request"
 source: https://github.com/gonka-ai/gonka/issues/1397
 issue_number: 1397
-synced_at: 2026-07-07T04:27:54Z
+synced_at: 2026-07-07T08:46:33Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item">[@yuritsin-code](https://github.com/yuritsin-code) opened 2026-07-04 15:26 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/yuritsin-code">@yuritsin-code</a> opened 2026-07-04 15:26 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-07-04 17:14 UTC</span>
   </div>
@@ -56,11 +56,11 @@ the network if useful.
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@yuritsin-code](https://github.com/yuritsin-code)</span>
+    <span><a href="https://github.com/yuritsin-code">@yuritsin-code</a></span>
     <span class="issues-meta-item">commented 2026-07-04 17:14 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>Hi Gonka team,</p>
+    <p>Hi Gonka team,</p>
 <p>We've been analyzing the devshard protocol to understand how multi-turn agent workloads perform on the network, and we have two questions based on our code review.</p>
 <h3>1. Executor affinity for consecutive nonces</h3>
 <p>We traced the routing logic in the open-source code:</p>
@@ -75,7 +75,6 @@ the network if useful.
 <p>We reviewed the reference <code>node-config.json</code> files in <code>deploy/join/</code> and the participant quickstart docs. None include <code>--enable-prefix-caching</code>. Since vLLM 0.6.0+ requires this flag explicitly (it was default before), we cannot determine if prefix caching is active on Gonka nodes.</p>
 <p><strong>Question:</strong> Is vLLM Automatic Prefix Caching enabled on Gonka inference nodes? What vLLM version does MLNode use?</p>
 <p>Thanks for your time — this helps us understand the right strategy for deploying agent workloads on Gonka.</p>
-
   </div>
 </div>
 

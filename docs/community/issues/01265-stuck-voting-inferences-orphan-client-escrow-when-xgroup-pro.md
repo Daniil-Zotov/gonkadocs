@@ -2,7 +2,7 @@
 title: "#1265 — Stuck VOTING inferences orphan client escrow when x/group proposals miss quorum"
 source: https://github.com/gonka-ai/gonka/issues/1265
 issue_number: 1265
-synced_at: 2026-07-07T04:28:23Z
+synced_at: 2026-07-07T08:46:51Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item">[@vitaly-andr](https://github.com/vitaly-andr) opened 2026-05-27 19:50 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/vitaly-andr">@vitaly-andr</a> opened 2026-05-27 19:50 UTC</span>
     <span class="issues-meta-item">5 comments</span>
     <span class="issues-meta-item">Updated 2026-05-30 17:17 UTC</span>
   </div>
@@ -106,33 +106,33 @@ Not recommended: default-to-validate (passive non-voting becomes implicit approv
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@vitaly-andr](https://github.com/vitaly-andr)</span>
+    <span><a href="https://github.com/vitaly-andr">@vitaly-andr</a></span>
     <span class="issues-meta-item">commented 2026-05-28 12:46 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>Quick follow-up: applied the filter extension from the body of this issue locally (<code>module.go:231</code> → also handle <code>Status=VOTING</code> via <code>expireInferenceAndIssueRefund</code>) and reran sim. The timeout-stuck path is no longer reachable on seed=99 — sim-full now progresses past the previous failure point.</p>
+    <p>Quick follow-up: applied the filter extension from the body of this issue locally (<code>module.go:231</code> → also handle <code>Status=VOTING</code> via <code>expireInferenceAndIssueRefund</code>) and reran sim. The timeout-stuck path is no longer reachable on seed=99 — sim-full now progresses past the previous failure point.</p>
 <p>What surfaced next is a distinct mechanism in the revalidation vote path: validators present in <code>ActiveParticipantsSet[epoch]</code> can be absent from the corresponding x/group, and <code>voteValidationProposal</code> hard-errors with <code>voter not found</code> instead of treating non-member as no-op. Root cause is the permissive <code>addEpochMembers</code> (skip on nil-seed, continue on <code>AddMember</code> error — <code>module.go:1134</code>, <code>:1143</code>) which leaves the <code>ActiveParticipantsSet ⊆ group members</code> invariant unmaintained.</p>
 <p>Filed separately as #1269 with the sim reproduction (seed=99, block 39/500) and a suggested structural pre-check using <code>GroupMessageKeeper.GroupMembers</code>. Liveness for that path is now bounded by the timeout cleanup proposed in this issue, so it's a correctness/quorum issue rather than fund-loss.</p>
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@a-kuprin](https://github.com/a-kuprin)</span>
+    <span><a href="https://github.com/a-kuprin">@a-kuprin</a></span>
     <span class="issues-meta-item">commented 2026-05-30 05:18 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>I think we should focus now on devshard inference flow.
+    <p>I think we should focus now on devshard inference flow.
 Anyway legacy inference flow will not be supported in the future.</p>
 <p>Also do we really have such issue in production environment?</p>
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@vitaly-andr](https://github.com/vitaly-andr)</span>
+    <span><a href="https://github.com/vitaly-andr">@vitaly-andr</a></span>
     <span class="issues-meta-item">commented 2026-05-30 08:13 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>Thanks for the steer — both points taken.</p>
+    <p>Thanks for the steer — both points taken.</p>
 <p><strong>On "do we really have this in production?"</strong> — honestly, I can't confirm it from chain state. I scanned ~40k inferences on a mainnet node and found none in <code>VOTING</code>, but that's not evidence either way: inferences that enter the epoch-group validation path get a real <code>epoch_id</code> and are pruned after <code>InferencePruningEpochThreshold</code> epochs (<code>keeper/pruning.go</code>), while only the <code>epoch_id=0</code> start/finish/expire residue persists. So state inspection structurally can't answer this — it'd need tx history (the public node has <code>tx_index=off</code>) or your internal telemetry. Do you have a way to see whether a failing <code>MsgValidation</code> → quorum-miss has actually occurred?</p>
 <p>My case for the fix isn't "it happens a lot in prod" — it's that the gap is real in the code (<code>expireInferences</code> silently skips <code>VOTING</code> and still removes the timeout entry, stranding client escrow), the fix is minimal (one <code>VOTING</code> branch → refund), and it's required for the #982 sim-full run to stay green (the <code>no-stuck-voting</code> invariant catches it deterministically). If the legacy validation flow is genuinely being retired, I'm happy to defer or close #1275 — your call.</p>
 <p><strong>On devshard</strong> — point taken, and I'd like to follow it. The simsx infrastructure from #982 (#1228) is flow-agnostic plumbing; it currently carries only the legacy factories, but it's the natural place to add devshard coverage. I'm happy to write the sim factories + invariants for the escrow/settlement path (<code>MsgCreateDevshardEscrow</code> / <code>MsgSettleDevshardEscrow</code>). The one open question is how to treat <code>VerifyDevshardSettlement</code>'s signature check under simulation — would welcome a hint on the intended approach.</p>
@@ -141,11 +141,11 @@ Anyway legacy inference flow will not be supported in the future.</p>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@a-kuprin](https://github.com/a-kuprin)</span>
+    <span><a href="https://github.com/a-kuprin">@a-kuprin</a></span>
     <span class="issues-meta-item">commented 2026-05-30 15:37 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<blockquote>
+    <blockquote>
 <p>it's the natural place to add devshard coverage</p>
 </blockquote>
 <p>Validation logic of devshard is subject to change in future releases</p>
@@ -153,11 +153,11 @@ Anyway legacy inference flow will not be supported in the future.</p>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@vitaly-andr](https://github.com/vitaly-andr)</span>
+    <span><a href="https://github.com/vitaly-andr">@vitaly-andr</a></span>
     <span class="issues-meta-item">commented 2026-05-30 17:17 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>@patimen — pulling you in, since you authored #982 and own the original scope.</p>
+    <p>@patimen — pulling you in, since you authored #982 and own the original scope.</p>
 <p>I want to make sure I'm putting effort where it's actually useful. a-kuprin's steer here is clear, and I agree with it: legacy validation is being retired, and devshard's validation logic is still in flux — so I'll hold off on adding devshard sim coverage until it stabilizes (no point simming a moving target).</p>
 <p>What I'm unsure about is the disposition of the work already done on this accepted issue. Two honest questions:</p>
 <ol>

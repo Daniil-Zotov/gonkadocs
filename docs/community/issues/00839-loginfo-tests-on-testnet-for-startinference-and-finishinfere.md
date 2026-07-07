@@ -2,7 +2,7 @@
 title: "#839 — LogInfo tests on testnet for StartInference and FinishInference"
 source: https://github.com/gonka-ai/gonka/issues/839
 issue_number: 839
-synced_at: 2026-07-07T04:29:21Z
+synced_at: 2026-07-07T08:47:28Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@maria-mitina](https://github.com/maria-mitina) opened 2026-03-02 15:50 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 2026-03-02 15:50 UTC</span>
     <span class="issues-meta-item">3 comments</span>
     <span class="issues-meta-item">Updated 2026-03-19 06:35 UTC</span>
   </div>
@@ -36,29 +36,29 @@ We could achieve around 3x improvement under inference to performance of LogInfo
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@maria-mitina](https://github.com/maria-mitina)</span>
+    <span><a href="https://github.com/maria-mitina">@maria-mitina</a></span>
     <span class="issues-meta-item">commented 2026-03-02 15:51 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>Should we continue with the log_level=info and log_level=error?</p>
+    <p>Should we continue with the log_level=info and log_level=error?</p>
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@hleb-albau](https://github.com/hleb-albau)</span>
+    <span><a href="https://github.com/hleb-albau">@hleb-albau</a></span>
     <span class="issues-meta-item">commented 2026-03-02 16:34 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>x3 for start/finish inference, or x3 for logging?</p>
+    <p>x3 for start/finish inference, or x3 for logging?</p>
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@maria-mitina](https://github.com/maria-mitina)</span>
+    <span><a href="https://github.com/maria-mitina">@maria-mitina</a></span>
     <span class="issues-meta-item">commented 2026-03-03 08:44 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>@hleb-albau 3x improvement under inference to performance of LogInfo</p>
+    <p>@hleb-albau 3x improvement under inference to performance of LogInfo</p>
   </div>
 </div>
 

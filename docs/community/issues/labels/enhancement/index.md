@@ -6,7 +6,7 @@ template: issues-main.html
 # Issues: enhancement
 
 Issues with label **enhancement**. Total: **12**.
-Updated: `2026-07-07 04:31 UTC`.
+Updated: `2026-07-07 08:48 UTC`.
 
 [← All Issues](../../index.md)
 
@@ -21,7 +21,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/enonog">@enonog</a> opened 13 hours ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/enonog">@enonog</a> opened 18 hours ago</span>
       
     </div>
   </div>
@@ -36,7 +36,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@a-kuprin](https://github.com/a-kuprin) opened 5 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/a-kuprin">@a-kuprin</a> opened 6 days ago</span>
       
     </div>
   </div>
@@ -81,7 +81,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@Red-Caesar](https://github.com/Red-Caesar) opened 2026-05-23</span>
+      <span class="issues-meta-item"><a href="https://github.com/Red-Caesar">@Red-Caesar</a> opened 2026-05-23</span>
       
     </div>
   </div>
@@ -111,7 +111,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@fedor-konovalenko](https://github.com/fedor-konovalenko) opened 2026-04-27</span>
+      <span class="issues-meta-item"><a href="https://github.com/fedor-konovalenko">@fedor-konovalenko</a> opened 2026-04-27</span>
       
     </div>
   </div>

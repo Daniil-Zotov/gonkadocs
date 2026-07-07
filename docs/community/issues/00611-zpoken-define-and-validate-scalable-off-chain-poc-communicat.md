@@ -2,7 +2,7 @@
 title: "#611 — [zpoken] Define and validate scalable off-chain PoC communication beyond Merkle-based commits"
 source: https://github.com/gonka-ai/gonka/issues/611
 issue_number: 611
-synced_at: 2026-07-07T04:28:51Z
+synced_at: 2026-07-07T08:47:09Z
 template: issues-main.html
 ---
 
@@ -47,7 +47,7 @@ Formally define, evaluate, and validate the Mesh / Turbine-based off-chain PoC c
     <span class="issues-meta-item">commented 2026-01-23 11:21 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>Why gossip is just overlooked?</p>
+    <p>Why gossip is just overlooked?</p>
 <p>While it will have more latency (this 100ms are neglectable compared to block finalization time), it consumes much less resources and bandwidth.
 In article, in comparison it is stated that gossip needs 12 connections, while turbine tree 32 connections.
 But to have good protection against nodes control attack, we need to have up to 8 trees, and this is 256 connections, that is 20 times more then gossip.

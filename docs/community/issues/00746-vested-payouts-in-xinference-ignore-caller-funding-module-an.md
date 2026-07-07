@@ -2,7 +2,7 @@
 title: "#746 — Vested payouts in x/inference ignore caller funding module and always debit inference account"
 source: https://github.com/gonka-ai/gonka/issues/746
 issue_number: 746
-synced_at: 2026-07-07T04:28:19Z
+synced_at: 2026-07-07T08:46:49Z
 template: issues-main.html
 ---
 
@@ -62,7 +62,7 @@ instead of:
     <span class="issues-meta-item">commented 2026-02-17 21:52 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>PR with fix: #770 — forwards the caller-provided module name in vested payouts instead of hardcoding "inference".</p>
+    <p>PR with fix: #770 — forwards the caller-provided module name in vested payouts instead of hardcoding "inference".</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -71,7 +71,7 @@ instead of:
     <span class="issues-meta-item">commented 2026-02-19 00:32 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>@Schwartz10, have you noticed that the top reward module is not used?</p>
+    <p>@Schwartz10, have you noticed that the top reward module is not used?</p>
   </div>
 </div>
 

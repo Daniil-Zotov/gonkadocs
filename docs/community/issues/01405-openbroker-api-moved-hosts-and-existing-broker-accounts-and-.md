@@ -2,7 +2,7 @@
 title: "#1405 — OpenBroker API moved hosts and existing broker accounts (and balances) are gone — follow-up to #1319"
 source: https://github.com/gonka-ai/gonka/issues/1405
 issue_number: 1405
-synced_at: 2026-07-07T04:27:53Z
+synced_at: 2026-07-07T08:46:32Z
 template: issues-main.html
 ---
 
@@ -56,7 +56,7 @@ For context, I'm building on Gonka: a ComfyUI node pack for Gonka inference (htt
     <span class="issues-meta-item">commented 2026-07-06 01:04 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>Resolved — Gonka Labs restored my broker account after I reached out via their Telegram (t.me/gonka_gg). Dashboard access is back, the wallet link is intact, and the balance was restored in full (topped up a little, even — appreciated).</p>
+    <p>Resolved — Gonka Labs restored my broker account after I reached out via their Telegram (t.me/gonka_gg). Dashboard access is back, the wallet link is intact, and the balance was restored in full (topped up a little, even — appreciated).</p>
 <p>For anyone hitting the same symptoms after the host change:
 - the API now lives at <code>https://api.openbroker.gonka.gg/v1</code> (the bare domain serves only the dashboard);
 - old <code>obk-…</code> keys are invalid — create a fresh one in the dashboard;
@@ -70,7 +70,7 @@ For context, I'm building on Gonka: a ComfyUI node pack for Gonka inference (htt
     <span class="issues-meta-item">commented 2026-07-06 01:09 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>Hi, @dufok, thanks for pointing it out! </p>
+    <p>Hi, @dufok, thanks for pointing it out! </p>
 <p>informing everyone that issue is solved and access is restored for the user. </p>
 <p>This was caused by registration action happening during infrastructure migration and is not a subject for any more occurances in the future (<em>that was forced due to datacenter malfunction that required swift actions and full infra migration. All users who did complete the registration flow before migration - were moved correctly</em>). <strong>System is operational (including registrations)</strong>.</p>
 <p>All updates and notices happen in our tg chat prior to changes. To mitigate all the potential miscommunications in the future, we will mirror notifications about breaking changes in discussion (if there will be any).</p>

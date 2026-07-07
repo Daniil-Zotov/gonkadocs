@@ -2,7 +2,7 @@
 title: "#1407 — Question about project background: Mikhail Chudinov and Natalia"
 source: https://github.com/gonka-ai/gonka/issues/1407
 issue_number: 1407
-synced_at: 2026-07-07T04:27:50Z
+synced_at: 2026-07-07T08:46:30Z
 template: issues-main.html
 ---
 
@@ -41,7 +41,7 @@ Is this project just another setup for a scam and stealing money? Or are you jus
     <span class="issues-meta-item">commented 2026-07-06 09:52 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p><strong>You call him Mitch — before the rebranding, he was in a Russian-speaking Telegram chat (the one that also featured an escrow service and a no-KYC crypto exchange). The design is excellent, but as for the rest, I highly doubt it. I urge everyone to be careful.</strong></p>
+    <p><strong>You call him Mitch — before the rebranding, he was in a Russian-speaking Telegram chat (the one that also featured an escrow service and a no-KYC crypto exchange). The design is excellent, but as for the rest, I highly doubt it. I urge everyone to be careful.</strong></p>
   </div>
 </div>
 <div class="issues-comment">
@@ -50,7 +50,7 @@ Is this project just another setup for a scam and stealing money? Or are you jus
     <span class="issues-meta-item">commented 2026-07-06 15:50 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>Hi! 👋</p>
+    <p>Hi! 👋</p>
 <p>I'm <strong>Mikhail Chudinov</strong>, known online as <strong>Mtch</strong> since 2003.</p>
 <p>I don't work at gonka.ai — I have a separate private project, <a href="https://gonka.top">gonka.top</a>, where I help people mine Gonka, set up servers, provide consulting, and sell already-mined coins.</p>
 <p>I send coins from this wallet: <a href="https://gonka.gg/address/gonka1juwk05glldgn7850a3547jsl7l4vrhx9k5g3cr">gonka1juwk05glldgn7850a3547jsl7l4vrhx9k5g3cr</a> — you can check the volumes in the explorer; the wallet is signed in GNS.</p>

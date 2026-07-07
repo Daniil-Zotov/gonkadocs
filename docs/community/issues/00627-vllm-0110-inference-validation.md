@@ -2,7 +2,7 @@
 title: "#627 — vLLM 0.11.0 — Inference validation"
 source: https://github.com/gonka-ai/gonka/issues/627
 issue_number: 627
-synced_at: 2026-07-07T04:29:58Z
+synced_at: 2026-07-07T08:47:52Z
 template: issues-main.html
 ---
 
@@ -35,7 +35,7 @@ template: issues-main.html
     <span class="issues-meta-item">commented 2026-01-23 19:25 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>Done by Axel-t</p>
+    <p>Done by Axel-t</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -44,7 +44,7 @@ template: issues-main.html
     <span class="issues-meta-item">commented 2026-01-24 02:00 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>@tamazgadaev, please help me write what was done and attach the result. Thank you!</p>
+    <p>@tamazgadaev, please help me write what was done and attach the result. Thank you!</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -53,8 +53,7 @@ template: issues-main.html
     <span class="issues-meta-item">commented 2026-01-26 17:48 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p><img width="1171" height="697" alt="Image" src="https://github.com/user-attachments/assets/bba3fbf4-7e92-4726-8d9b-6e85ffedfd7f" /> test inference validation for the new 011 vllm container and compute thresholds for qwen235B</p>
-
+    <p><img width="1171" height="697" alt="Image" src="https://github.com/user-attachments/assets/bba3fbf4-7e92-4726-8d9b-6e85ffedfd7f" /> test inference validation for the new 011 vllm container and compute thresholds for qwen235B</p>
   </div>
 </div>
 

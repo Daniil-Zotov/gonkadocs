@@ -2,7 +2,7 @@
 title: "#714 — Bug Report: New Nodes Fail to Sign Transactions (Keyring Backend Mismatch)"
 source: https://github.com/gonka-ai/gonka/issues/714
 issue_number: 714
-synced_at: 2026-07-07T04:29:52Z
+synced_at: 2026-07-07T08:47:48Z
 template: issues-main.html
 ---
 
@@ -35,7 +35,7 @@ template: issues-main.html
     <span class="issues-meta-item">commented 2026-02-07 08:52 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>Bug report: New nodes fail to sign transactions due to Keyring Backend mismatch in Docker config. Fix included in description.</p>
+    <p>Bug report: New nodes fail to sign transactions due to Keyring Backend mismatch in Docker config. Fix included in description.</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -44,7 +44,7 @@ template: issues-main.html
     <span class="issues-meta-item">commented 2026-02-07 08:58 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>FULL BUG REPORT:
+    <p>FULL BUG REPORT:
 Severity: High
 Environment: Mainnet / Docker Compose</p>
 <p>Summary:
@@ -58,7 +58,7 @@ The current Docker deployment setup for new join nodes fails to initialize the a
     <span class="issues-meta-item">commented 2026-02-07 21:18 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>Current onboarding pipeline uses manually creating warm key with <code>file</code> keyring backend:
+    <p>Current onboarding pipeline uses manually creating warm key with <code>file</code> keyring backend:
 https://gonka.ai/host/quickstart/#31-server-create-ml-operational-key</p>
 <p>Explicitly suggest:</p>
 <pre><code>printf '%s\n%s\n' &quot;$KEYRING_PASSWORD&quot; &quot;$KEYRING_PASSWORD&quot; | inferenced keys add &quot;$KEY_NAME&quot; --keyring-backend file
@@ -98,7 +98,7 @@ fi
     <span class="issues-meta-item">commented 2026-02-08 14:13 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>PR created: https://github.com/gonka-ai/gonka/pull/715</p>
+    <p>PR created: https://github.com/gonka-ai/gonka/pull/715</p>
 <p>Fixes keyring backend mismatch for new join nodes.</p>
   </div>
 </div>

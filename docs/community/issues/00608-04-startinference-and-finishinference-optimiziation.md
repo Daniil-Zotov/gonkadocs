@@ -2,7 +2,7 @@
 title: "#608 — [0/4] `StartInference` and `FinishInference`: optimiziation"
 source: https://github.com/gonka-ai/gonka/issues/608
 issue_number: 608
-synced_at: 2026-07-07T04:29:33Z
+synced_at: 2026-07-07T08:47:36Z
 template: issues-main.html
 ---
 
@@ -50,7 +50,7 @@ Unfortunately as TA signature doesn't derived from request original hash, it may
     <span class="issues-meta-item">commented 2026-03-11 20:01 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>The big part of inference flow optimization is merged in https://github.com/gonka-ai/gonka/pull/812
+    <p>The big part of inference flow optimization is merged in https://github.com/gonka-ai/gonka/pull/812
 I'm closing all <code>[*/4] StartInference and FinishInference: optimiziation</code> tasks to finalize this work in milestone 0.2.11. I think it'd be better to re-open in case of additinal optimizations required</p>
   </div>
 </div>

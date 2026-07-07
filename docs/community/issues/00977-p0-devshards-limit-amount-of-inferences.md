@@ -2,7 +2,7 @@
 title: "#977 — [P0] `devshards`: Limit amount of inferences"
 source: https://github.com/gonka-ai/gonka/issues/977
 issue_number: 977
-synced_at: 2026-07-07T04:28:22Z
+synced_at: 2026-07-07T08:46:51Z
 template: issues-main.html
 ---
 
@@ -36,12 +36,12 @@ Upon settlement, the protocol should verify "Missed inferences + Invalidated inf
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@a-kuprin](https://github.com/a-kuprin)</span>
+    <span><a href="https://github.com/a-kuprin">@a-kuprin</a></span>
     <span class="issues-meta-item">commented 2026-05-26 21:49 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>At 0.2.13 nonce limit was introduced. Inference count could be limited by nonces limit and there is no need in extra parameter.
-Handling on devshard side is implemented at https://github.com/gonka-ai/gonka/pull/1258</p> 
+    <p>At 0.2.13 nonce limit was introduced. Inference count could be limited by nonces limit and there is no need in extra parameter.
+Handling on devshard side is implemented at https://github.com/gonka-ai/gonka/pull/1258 </p>
   </div>
 </div>
 

@@ -2,7 +2,7 @@
 title: "#626 — How to add new models"
 source: https://github.com/gonka-ai/gonka/issues/626
 issue_number: 626
-synced_at: 2026-07-07T04:29:44Z
+synced_at: 2026-07-07T08:47:43Z
 template: issues-main.html
 ---
 
@@ -35,7 +35,7 @@ This issue outlines a direction for a larger project. Adding new models is not a
     <span class="issues-meta-item">commented 2026-01-29 18:51 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>If I understood current implementation correctly, then as minimum will be great to use adapter pattern on MLNode side, so poc flow can be defined per model without changing core vllm code. The idea is to keep adapters in mlnode and load them in vllm automatically by model_id, so adding new model is just adding a new adapter implementation and tests on MLNode side</p>
+    <p>If I understood current implementation correctly, then as minimum will be great to use adapter pattern on MLNode side, so poc flow can be defined per model without changing core vllm code. The idea is to keep adapters in mlnode and load them in vllm automatically by model_id, so adding new model is just adding a new adapter implementation and tests on MLNode side</p>
 <p>As simple example:</p>
 <h3><strong>Adapter core</strong></h3>
 <pre><code class="language-python">class HookTap:

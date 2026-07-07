@@ -2,7 +2,7 @@
 title: "#1080 — Bridge: Stale epoch keys can authorize withdrawals up to 365 epochs after rotation"
 source: https://github.com/gonka-ai/gonka/issues/1080
 issue_number: 1080
-synced_at: 2026-07-07T04:28:06Z
+synced_at: 2026-07-07T08:46:41Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item">[@Doog-bot534](https://github.com/Doog-bot534) opened 2026-04-16 03:24 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/Doog-bot534">@Doog-bot534</a> opened 2026-04-16 03:24 UTC</span>
     <span class="issues-meta-item">2 comments</span>
     <span class="issues-meta-item">Updated 2026-06-25 01:46 UTC</span>
   </div>
@@ -88,8 +88,7 @@ Payout address: `gonka10zaal553duxp05nvfpqtsqrm2g0j6j34r8nan7`
     <span class="issues-meta-item">commented 2026-06-23 05:59 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>hi @tcharchian , does this issue need help, maybe I can fix it.</p>
-
+    <p>hi @tcharchian , does this issue need help, maybe I can fix it.</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -98,7 +97,7 @@ Payout address: `gonka10zaal553duxp05nvfpqtsqrm2g0j6j34r8nan7`
     <span class="issues-meta-item">commented 2026-06-25 01:46 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>Hey @Ryanchen911, let's wait for triage from @GLiberman first please</p> 
+    <p>Hey @Ryanchen911, let's wait for triage from @GLiberman first please </p>
   </div>
 </div>
 

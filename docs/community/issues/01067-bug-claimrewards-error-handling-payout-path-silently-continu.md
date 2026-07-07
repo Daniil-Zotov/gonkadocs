@@ -2,7 +2,7 @@
 title: "#1067 — bug: ClaimRewards error handling — payout path silently continues on failure"
 source: https://github.com/gonka-ai/gonka/issues/1067
 issue_number: 1067
-synced_at: 2026-07-07T04:28:42Z
+synced_at: 2026-07-07T08:47:03Z
 template: issues-main.html
 ---
 
@@ -60,11 +60,11 @@ This was identified during audit of payout error handling in the inference escro
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Doog-bot534](https://github.com/Doog-bot534)</span>
+    <span><a href="https://github.com/Doog-bot534">@Doog-bot534</a></span>
     <span class="issues-meta-item">commented 2026-04-16 03:08 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>This issue aligns with the finding in our security audit (#1053, finding #3) and the fix submitted in PR #1051.</p>
+    <p>This issue aligns with the finding in our security audit (#1053, finding #3) and the fix submitted in PR #1051.</p>
 <p>Our PR #1051 takes the simpler approach (return error without calling <code>finishSettle</code>), while the <code>CacheContext</code> approach described here is more comprehensive and aligned with the pattern in PR #948. Happy to update #1051 to use <code>CacheContext</code> if the maintainers prefer that approach.</p>
   </div>
 </div>
@@ -74,7 +74,7 @@ This was identified during audit of payout error handling in the inference escro
     <span class="issues-meta-item">commented 2026-04-16 03:37 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<blockquote>
+    <blockquote>
 <p>This issue aligns with the finding in our security audit (<a href="https://github.com/gonka-ai/gonka/issues/1053">#1053</a>, finding <a href="https://github.com/gonka-ai/gonka/pull/3">#3</a>) and the fix submitted in PR <a href="https://github.com/gonka-ai/gonka/pull/1051">#1051</a>.</p>
 <p>Our PR <a href="https://github.com/gonka-ai/gonka/pull/1051">#1051</a> takes the simpler approach (return error without calling <code>finishSettle</code>), while the <code>CacheContext</code> approach described here is more comprehensive and aligned with the pattern in PR <a href="https://github.com/gonka-ai/gonka/pull/948">#948</a>. Happy to update <a href="https://github.com/gonka-ai/gonka/pull/1051">#1051</a> to use <code>CacheContext</code> if the maintainers prefer that approach.</p>
 </blockquote>
@@ -91,11 +91,11 @@ Regarding the label — this is a bug (fund loss on payment failure), not an enh
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Doog-bot534](https://github.com/Doog-bot534)</span>
+    <span><a href="https://github.com/Doog-bot534">@Doog-bot534</a></span>
     <span class="issues-meta-item">commented 2026-04-16 12:09 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>Good catch on the timeline — I wasn't aware of PR #1016 and commit ec5e453 when I filed #1051. My fix came independently from the audit in #1053 (finding #3), but yours clearly predates it and covers more ground (full TX rollback + unit test). Happy to defer to whichever approach the maintainers prefer. Agreed this should be labeled as bug, not enhancement.</p>
+    <p>Good catch on the timeline — I wasn't aware of PR #1016 and commit ec5e453 when I filed #1051. My fix came independently from the audit in #1053 (finding #3), but yours clearly predates it and covers more ground (full TX rollback + unit test). Happy to defer to whichever approach the maintainers prefer. Agreed this should be labeled as bug, not enhancement.</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -104,7 +104,7 @@ Regarding the label — this is a bug (fund loss on payment failure), not an enh
     <span class="issues-meta-item">commented 2026-04-28 19:09 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>@x0152 watch out this one , please</p> 
+    <p>@x0152 watch out this one , please </p>
   </div>
 </div>
 <div class="issues-comment">
@@ -113,7 +113,7 @@ Regarding the label — this is a bug (fund loss on payment failure), not an enh
     <span class="issues-meta-item">commented 2026-04-28 20:55 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>There were additional non-atomic paths, and they were fully addressed in #789</p>
+    <p>There were additional non-atomic paths, and they were fully addressed in #789</p>
 <p>Closing as resolved</p>
   </div>
 </div>

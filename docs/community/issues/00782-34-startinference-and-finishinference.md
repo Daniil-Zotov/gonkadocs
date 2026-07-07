@@ -2,7 +2,7 @@
 title: "#782 — [3/4] `StartInference` and `FinishInference`"
 source: https://github.com/gonka-ai/gonka/issues/782
 issue_number: 782
-synced_at: 2026-07-07T04:29:32Z
+synced_at: 2026-07-07T08:47:35Z
 template: issues-main.html
 ---
 
@@ -94,7 +94,7 @@ All five issues [0/4], [1/4], [2/4], [3/4], [4/4] in this series must be complet
     <span class="issues-meta-item">commented 2026-02-20 22:41 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>If you’re ready to take this task on, please leave a comment here so other community members can see it’s already being worked on.</p>
+    <p>If you’re ready to take this task on, please leave a comment here so other community members can see it’s already being worked on.</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -103,7 +103,7 @@ All five issues [0/4], [1/4], [2/4], [3/4], [4/4] in this series must be complet
     <span class="issues-meta-item">commented 2026-02-21 15:27 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>I will take it</p>
+    <p>I will take it</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -112,7 +112,7 @@ All five issues [0/4], [1/4], [2/4], [3/4], [4/4] in this series must be complet
     <span class="issues-meta-item">commented 2026-02-24 05:29 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>@libermans I've found that EpochGroupData should be read/write once in a lot of places. It is a relatively large structure and we should optimize on its decoding/encoding on read/write to store.</p>
+    <p>@libermans I've found that EpochGroupData should be read/write once in a lot of places. It is a relatively large structure and we should optimize on its decoding/encoding on read/write to store.</p>
 <p>Moreover there are places where we do not read EpochGroupData but should to. Every operation that is intended to be called by active participant should be checked for was the message came from real active participant. For example StartInference message could be runned by any developer account (currently there is a TA whitelist that blocks this vulnarability, but after removing this whitelist it will be reopened). So any account can start inferences that will not be finished and any honest participant could be slashed. Same thing for validation/invalidation/revalidation.
 But the main point that we very often need to read EpochGroupData to check if message came from active participant (ConfirmationWeight &gt; 0)</p>
 <p>So I've implemented a more generic approach using EpochGroupData 2level caches: per-tx cache + per-block cache. We read/write EpochGroupData once to store. Tx-draft-cache is needed because tx can be reverted so we first store in context-binded memory all changes and commit them to per-block cache when tx succeeds. Finally we write the per-block cache at EndBlocker and clear it on block start.</p>
@@ -127,7 +127,7 @@ Currently i'm taking it to tests on running node</p>
     <span class="issues-meta-item">commented 2026-02-24 06:12 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>@libermans
+    <p>@libermans
 Do we really need to move InferenceValidationDetails to EndBlocker?
 If the only purpose is to have precise value at
 <code>TrafficBasis:         uint64(math.Max(currentEpochGroup.GroupData.NumberOfRequests, currentEpochGroup.GroupData.PreviousEpochRequests))</code></p>
@@ -141,7 +141,7 @@ If the only purpose is to have precise value at
     <span class="issues-meta-item">commented 2026-03-11 20:01 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>The big part of inference flow optimization is merged in https://github.com/gonka-ai/gonka/pull/812
+    <p>The big part of inference flow optimization is merged in https://github.com/gonka-ai/gonka/pull/812
 I'm closing all <code>[*/4] StartInference and FinishInference: optimiziation</code> tasks to finalize this work in milestone 0.2.11. I think it'd be better to re-open in case of additinal optimizations required</p>
   </div>
 </div>

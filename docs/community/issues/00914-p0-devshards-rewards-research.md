@@ -2,7 +2,7 @@
 title: "#914 — [P0] `devshards` rewards (research)"
 source: https://github.com/gonka-ai/gonka/issues/914
 issue_number: 914
-synced_at: 2026-07-07T04:29:08Z
+synced_at: 2026-07-07T08:47:20Z
 template: issues-main.html
 ---
 
@@ -54,7 +54,7 @@ template: issues-main.html
     <span class="issues-meta-item">commented 2026-03-19 14:19 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<h2>Current situation</h2>
+    <h2>Current situation</h2>
 <p>There are 2 kinds of rewards for inferences done on-chain (outside of <code>devshards</code>):
 * <code>WorkCoins</code>: transferred from the user to hosts. It's a direct payment for work done running inferences.
 * <code>RewardCoins</code>: mined coins distributed to hosts, proportional to their weight.
@@ -104,8 +104,6 @@ template: issues-main.html
 <p><strong>Question</strong>: how should we quantify this fee?
 In general, fees need to be greater than the theoretical profit in order to discourage a given behaviour.
 However, this attack is not profit-driven.</p>
-
-
   </div>
 </div>
 <div class="issues-comment">
@@ -114,7 +112,7 @@ However, this attack is not profit-driven.</p>
     <span class="issues-meta-item">commented 2026-03-19 18:14 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>Meeting Notes 2026/03/19</p>
+    <p>Meeting Notes 2026/03/19</p>
 <ul>
 <li>Total RewardCoins for one whole epoch is 300k GNK, split by weight across all ACTIVE participants.</li>
 <li>Let's say the dishonest actor has to create 3k <code>devshards</code> to be able to exploit one (with 99% confidence)</li>
@@ -137,7 +135,7 @@ However, this attack is not profit-driven.</p>
     <span class="issues-meta-item">commented 2026-03-26 15:07 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>The research part will be in Progress, but doesn't block the implementation.</p> 
+    <p>The research part will be in Progress, but doesn't block the implementation. </p>
   </div>
 </div>
 

@@ -2,7 +2,7 @@
 title: "#1331 — How to obtain a broker API key for node4 (or documentation on the broker onboarding process)?"
 source: https://github.com/gonka-ai/gonka/issues/1331
 issue_number: 1331
-synced_at: 2026-07-07T04:28:11Z
+synced_at: 2026-07-07T08:46:44Z
 template: issues-main.html
 ---
 
@@ -96,7 +96,7 @@ Rogi AI
     <span class="issues-meta-item">commented 2026-06-23 23:29 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>Hi @Puyre!</p>
+    <p>Hi @Puyre!</p>
 <p>On the direct question (a broker API key for node4 specifically): there isn't a public self-serve onboarding process to point you to. node4 is the public gateway that was stood up during the early rollout — whitelisted and rate-limited, intended for demos and bootstrap testing rather than as a production backend. The handful of broker keys behind it were early access arrangements, not an open application flow, and that bootstrap directory isn't being actively expanded. So the <code>requires an API key</code> response you're seeing on node4 isn't something there's a documented "apply here" path to resolve — which is also why the signed-wallet SDK path doesn't work against it without one. The two paths that <em>are</em> governed and documented are: consume through an existing community broker, or operate your own allowlisted devshard gateway (on-chain governance allowlist).</p>
 <p>For what you're actually building, the closest fit is a managed devshard endpoint. One community option is <strong>OpenBroker</strong> (run by Gonka Labs https://github.com/gonka-ai/gonka/discussions/1363): it gives you programmatic devshard access (v1, v2, and future versions) under a wallet that's already whitelisted to operate escrows, so you get the "just hit an endpoint and go" behavior of node4 but built for production rather than demos — no rate limits, no escrow lifecycle on your side, GNK billing with no markup (not a USD reseller), and public per-request/network observability.</p>
 <p>It maps directly onto your fallback architecture (Gonka primary → OpenRouter fallback): just make OpenBroker the primary base_url. </p>

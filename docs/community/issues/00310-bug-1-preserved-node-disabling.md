@@ -2,7 +2,7 @@
 title: "#310 — BUG-1: Preserved node disabling"
 source: https://github.com/gonka-ai/gonka/issues/310
 issue_number: 310
-synced_at: 2026-07-07T04:29:42Z
+synced_at: 2026-07-07T08:47:42Z
 template: issues-main.html
 ---
 
@@ -56,7 +56,7 @@ At the same time it's not presented in HardwareNodes (can be checked in: `./infe
     <span class="issues-meta-item">commented 2026-01-28 22:35 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>up-tp-grabs, but needs to be rechecked</p>
+    <p>up-tp-grabs, but needs to be rechecked</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -65,7 +65,7 @@ At the same time it's not presented in HardwareNodes (can be checked in: `./infe
     <span class="issues-meta-item">commented 2026-02-08 14:14 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>PR created: https://github.com/gonka-ai/gonka/pull/682</p>
+    <p>PR created: https://github.com/gonka-ai/gonka/pull/682</p>
 <p>Skips disabled nodes from governance model population.</p>
   </div>
 </div>
@@ -75,7 +75,7 @@ At the same time it's not presented in HardwareNodes (can be checked in: `./infe
     <span class="issues-meta-item">commented 2026-02-12 15:34 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>I have a PR for this: #682 — skips disabled nodes from governance model population. Would appreciate a review when you get a chance.</p>
+    <p>I have a PR for this: #682 — skips disabled nodes from governance model population. Would appreciate a review when you get a chance.</p>
   </div>
 </div>
 

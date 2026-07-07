@@ -2,7 +2,7 @@
 title: "#1352 — Bridge: auto-refund does not run when BLS signing expires (EXPIRED)"
 source: https://github.com/gonka-ai/gonka/issues/1352
 issue_number: 1352
-synced_at: 2026-07-07T04:28:03Z
+synced_at: 2026-07-07T08:46:39Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item">[@maria-mitina](https://github.com/maria-mitina) opened 2026-06-19 16:47 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 2026-06-19 16:47 UTC</span>
     <span class="issues-meta-item">2 comments</span>
     <span class="issues-meta-item">Updated 2026-06-27 01:04 UTC</span>
   </div>
@@ -82,11 +82,11 @@ Silent `(false, nil)` if hooks empty or pending not found — **no retry queue**
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@maria-mitina](https://github.com/maria-mitina)</span>
+    <span><a href="https://github.com/maria-mitina">@maria-mitina</a></span>
     <span class="issues-meta-item">commented 2026-06-19 17:03 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<h1>Testnet evidence retrieval (<code>gonka-testnet-4</code>)</h1>
+    <h1>Testnet evidence retrieval (<code>gonka-testnet-4</code>)</h1>
 <p>Run on seed host <code>702111</code>:</p>
 <pre><code class="language-bash">ssh decentai@xj7-5.s.filfox.io -p 18222
 cd /srv/dai
@@ -386,16 +386,15 @@ export BLS_ID='7Zr3ERnMcKniqxDd9eEqnM91iVLtvrrY+uAYUIIEOdg='
 <li>BLS failure events appear in <strong><code>finalize_block_events</code></strong>, not <code>txs_results</code>.</li>
 <li>Use <code>--page-limit</code> (not <code>--limit</code>) for <code>query bls signing-history</code>.</li>
 </ul>
-
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@maria-mitina](https://github.com/maria-mitina)</span>
+    <span><a href="https://github.com/maria-mitina">@maria-mitina</a></span>
     <span class="issues-meta-item">commented 2026-06-20 05:27 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>at the moment all filfox servers are down </p>
+    <p>at the moment all filfox servers are down </p>
 <p><img width="597" height="87" alt="Image" src="https://github.com/user-attachments/assets/38a75e11-eb3d-4c65-a54f-dc9e98227a2b" /></p>
 <p>when they come back, i will need to take back and restore the environment to continue with testing. The data above will be gone. But we can simulate again on request</p>
   </div>

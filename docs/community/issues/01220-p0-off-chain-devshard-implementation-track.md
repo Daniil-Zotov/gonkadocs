@@ -2,7 +2,7 @@
 title: "#1220 — [P0] Off-chain / devshard implementation track"
 source: https://github.com/gonka-ai/gonka/issues/1220
 issue_number: 1220
-synced_at: 2026-07-07T04:28:10Z
+synced_at: 2026-07-07T08:46:43Z
 template: issues-main.html
 ---
 
@@ -35,7 +35,7 @@ Open for community contributors. Multiple parallel efforts in this direction are
     <span class="issues-meta-item">commented 2026-06-22 23:37 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>Hi, @tcharchian 
+    <p>Hi, @tcharchian 
 I’d like to work on this issue.</p>
 <p>I reviewed the current <code>devshard</code> structure and would like to start with a scoped implementation pass rather than trying to cover the whole off-chain/devshard track at once.</p>
 <p>My initial plan is:</p>
@@ -47,7 +47,6 @@ I’d like to work on this issue.</p>
 <li>Open a focused PR linked to this issue</li>
 </ol>
 <p>Before I start the implementation, could you confirm whether there is a preferred first milestone or acceptance criteria for this track? If there is no strict preference, I can start by proposing a small PR around the current devshard flow and iterate from maintainer feedback.</p>
-
   </div>
 </div>
 <div class="issues-comment">
@@ -56,7 +55,7 @@ I’d like to work on this issue.</p>
     <span class="issues-meta-item">commented 2026-06-23 21:31 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>hi @orvionx, thanks for you interest!</p>
+    <p>hi @orvionx, thanks for you interest!</p>
 <p>I'd say that these milestones are very broad to assess at this stage.
 there are some important differences between inference off-chain logic (devshards) and requirements for training.</p>
 <p>specifically, because inference is a very well-defined flow and all devshards are doing exactly the same work all the time. 

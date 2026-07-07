@@ -2,7 +2,7 @@
 title: "#1223 — [P1] Clean up the state"
 source: https://github.com/gonka-ai/gonka/issues/1223
 issue_number: 1223
-synced_at: 2026-07-07T04:28:10Z
+synced_at: 2026-07-07T08:46:43Z
 template: issues-main.html
 ---
 
@@ -35,7 +35,7 @@ Review what’s currently stored, identify any leftovers, and remove them.
     <span class="issues-meta-item">commented 2026-05-28 02:09 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>hi @tcharchian ,I will take this one, thank you!</p>
+    <p>hi @tcharchian ,I will take this one, thank you!</p>
   </div>
 </div>
 

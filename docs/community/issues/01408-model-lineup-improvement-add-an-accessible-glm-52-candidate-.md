@@ -2,7 +2,7 @@
 title: "#1408 — Model lineup improvement: add an accessible GLM-5.2 candidate and reconsider MiniMax-M2.7 as default"
 source: https://github.com/gonka-ai/gonka/issues/1408
 issue_number: 1408
-synced_at: 2026-07-07T04:27:51Z
+synced_at: 2026-07-07T08:46:31Z
 template: issues-main.html
 ---
 
@@ -164,7 +164,7 @@ Please consider:
     <span class="issues-meta-item">commented 2026-07-06 12:33 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<p>Additional note on <code>PhalaCloud/GLM-5.2-W4AFP8</code>:</p>
+    <p>Additional note on <code>PhalaCloud/GLM-5.2-W4AFP8</code>:</p>
 <p>This option may be especially promising. In practical use, its quality may be very close to, or in some cases even better than, the official FP8 release, while also providing very high token generation speed.</p>
 <p>However, the main uncertainty is vLLM compatibility. The model card currently documents SGLang usage, but it is not fully clear whether it can run reliably under vLLM in Gonka's MLNode environment.</p>
 <p>Since SGLang and vLLM share many important production inference capabilities, this model still seems worth testing. If it can be made compatible with Gonka's serving stack, it may be one of the best GLM-5.2 candidates for increasing host adoption and real user demand.</p>
@@ -176,7 +176,7 @@ Please consider:
     <span class="issues-meta-item">commented 2026-07-06 14:43 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-<h2>Additional suggestion: give GLM-5.2 a temporary weight incentive</h2>
+    <h2>Additional suggestion: give GLM-5.2 a temporary weight incentive</h2>
 <p>If the goal is to increase GLM-5.2 availability on the network, adding a quantized GLM-5.2 model may not be enough by itself.</p>
 <p>I suggest considering a temporary weight incentive for GLM-5.2 models, for example:</p>
 <ul>
