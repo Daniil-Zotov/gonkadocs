@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+{{ super() }}
+<style>
+  .md-sidebar--secondary {
+    display: none !important;
+  }
+
+  .md-content {
+    max-width: none !important;
+  }
+
+  .proposals-sidebar {
+    display: block;
+    position: sticky;
+    top: 76px;
+    height: calc(100vh - 76px);
+    overflow-y: hidden;
+    flex-shrink: 0;
+    width: 200px;
+    min-width: 200px;
+    border-left: 1px solid var(--md-default-fg-color--lightest);
+    padding: 16px 0;
+  }
+
+  @media (max-width: 1200px) {
+    .proposals-sidebar {
+      display: none;
+    }
+  }
+</style>
+{% endblock %}
+
+{% block content %}
+  {{ super() }}
+  {% include "partials/proposals-sidebar.html" %}
+{% endblock %}
+
+{% block scripts %}
+{{ super() }}
+<script>
+document$.subscribe(function() {
+  var content = document.querySelector('.md-content');
+  if (!content) return;
+
+  document.querySelectorAll('.md-content > .proposals-sidebar').forEach(function(el) {
+    el.remove();
+  });
+
+  content.style.display = 'flex';
+  content.style.flexDirection = 'row';
+
+  var inner = content.querySelector('.md-content__inner');
+  var sidebar = inner ? inner.querySelector('.proposals-sidebar') : null;
+  if (sidebar) {
+    content.appendChild(sidebar);
+  }
+});
+</script>
+{% endblock %}

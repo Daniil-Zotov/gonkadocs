@@ -1,0 +1,64 @@
+---
+title: "#69 – Increase minimum governance deposit to 500 GNK"
+description: "Increase the minimum deposit required to submit a governance proposal from the current value to 500 GNK. Also sets expedited minimum deposit to 1000 GNK."
+template: proposals-proposals-main.html
+---
+
+# #69 – Increase minimum governance deposit to 500 GNK
+
+<div class="prop-detail-header" markdown="1">
+
+<span class="prop-badge prop-rejected">Failed</span>
+
+**Proposal ID:** `69`
+
+**Type:** Update Params
+
+**Submit:** 2026-06-05 19:21 UTC
+
+**Voting:** 2026-06-05 19:26 UTC → 2026-06-07 19:26 UTC
+
+**Proposer:** `gonka197hqnwcl30x4js3egvaujjmfknlxy7rmfw3y6k`
+
+**Failed reason:** maximum deposit period must not be nil: 0
+
+</div>
+
+Increase the minimum deposit required to submit a governance proposal from the current value to 500 GNK. Also sets expedited minimum deposit to 1000 GNK.
+
+---
+
+## Final Tally
+
+
+<div class="prop-tally">
+  <div class="prop-tally-bar">
+    <div class="prop-tally-yes" style="width:96.9%"></div>
+    <div class="prop-tally-no" style="width:0.0%"></div>
+    <div class="prop-tally-veto" style="width:2.0%"></div>
+    <div class="prop-tally-abstain" style="width:1.1%"></div>
+  </div>
+  <div class="prop-tally-stats">
+    <span class="prop-tally-yes-text">Yes 199,799 (96.9%)</span>
+    <span class="prop-tally-no-text">No 46 (0.0%)</span>
+    <span class="prop-tally-veto-text">Veto 4,202 (2.0%)</span>
+    <span class="prop-tally-abstain-text">Abstain 2,210 (1.1%)</span>
+  </div>
+</div>
+
+
+---
+
+## Messages
+
+| # | Type |
+| :- | :--- |
+| 1 | `/cosmos.gov.v1.MsgUpdateParams` |
+
+---
+
+<div class="prop-footer" markdown="1">
+
+[View on Mintscan](https://www.mintscan.io/gonka/proposals/69) · [View on Ping](https://ping.pub/gonka/gov/69) · Data synced from [rpc.gonka.gg](https://rpc.gonka.gg)
+
+</div>

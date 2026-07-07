@@ -1,0 +1,19 @@
+{# Proposals sidebar — lists quarters #}
+<aside class="proposals-sidebar">
+  <nav class="md-nav md-nav--issues" aria-label="Proposals">
+    <label class="md-nav__title" for="__proposals_drawer">
+      <span class="md-nav__icon md-icon"></span>
+      Proposals
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      <li class="md-nav__item">
+        <a href="/proposals/proposals/" class="md-nav__link">
+          <span class="md-ellipsis">All Proposals</span>
+        </a>
+      </li>
+      <li class="md-nav__item md-nav__item--separator" style="margin: 8px 0; border-top: 1px solid var(--md-default-fg-color--lightest);"></li>
+      <li class="prop-sidebar-title">Quarters</li>
+      {% include "partials/proposals-quarters-nav.html" ignore missing %}
+    </ul>
+  </nav>
+</aside>

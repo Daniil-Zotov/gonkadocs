@@ -1,0 +1,64 @@
+---
+title: "#50 – Retroactive bounty: open-source PoC throughput optimization (+10–12% measured) with 250 total installations"
+description: "Retroactive 20K GNK bounty for an open-sourced PoC optimization measuring +10.2% on B200 and +12.5% on H100 with Qwen3-235B-FP8. One-line patch, verified on-chain by independent miners. Details: https"
+template: proposals-proposals-main.html
+---
+
+# #50 – Retroactive bounty: open-source PoC throughput optimization (+10–12% measured) with 250 total installations
+
+<div class="prop-detail-header" markdown="1">
+
+<span class="prop-badge prop-passed">Passed</span>
+
+**Proposal ID:** `50`
+
+**Type:** Community Pool Spend
+
+**Submit:** 2026-05-07 15:54 UTC
+
+**Voting:** 2026-05-07 15:54 UTC → 2026-05-09 15:54 UTC
+
+**Proposer:** `gonka14fxt7xlj74h54u5lz8epz0qeuhpka6xjhzsyq3`
+
+**Metadata:** [https://vote.gonka.vip/tenders/6392c2ea-7fb8-45c7-b1ec-80fb16d81d93](https://vote.gonka.vip/tenders/6392c2ea-7fb8-45c7-b1ec-80fb16d81d93)
+
+</div>
+
+Retroactive 20K GNK bounty for an open-sourced PoC optimization measuring +10.2% on B200 and +12.5% on H100 with Qwen3-235B-FP8. One-line patch, verified on-chain by independent miners. Details: https://vote.gonka.vip/tenders/6392c2ea-7fb8-45c7-b1ec-80fb16d81d93
+
+---
+
+## Final Tally
+
+
+<div class="prop-tally">
+  <div class="prop-tally-bar">
+    <div class="prop-tally-yes" style="width:59.1%"></div>
+    <div class="prop-tally-no" style="width:0.0%"></div>
+    <div class="prop-tally-veto" style="width:0.0%"></div>
+    <div class="prop-tally-abstain" style="width:40.9%"></div>
+  </div>
+  <div class="prop-tally-stats">
+    <span class="prop-tally-yes-text">Yes 281,723 (59.1%)</span>
+    <span class="prop-tally-no-text">No 0 (0.0%)</span>
+    <span class="prop-tally-veto-text">Veto 0 (0.0%)</span>
+    <span class="prop-tally-abstain-text">Abstain 194,589 (40.9%)</span>
+  </div>
+</div>
+
+
+---
+
+## Messages
+
+| # | Type |
+| :- | :--- |
+| 1 | `/cosmos.distribution.v1beta1.MsgCommunityPoolSpend` |
+
+---
+
+<div class="prop-footer" markdown="1">
+
+[View on Mintscan](https://www.mintscan.io/gonka/proposals/50) · [View on Ping](https://ping.pub/gonka/gov/50) · Data synced from [rpc.gonka.gg](https://rpc.gonka.gg)
+
+</div>

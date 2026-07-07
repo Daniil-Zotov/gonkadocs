@@ -1,0 +1,39 @@
+name: Sync On-Chain Proposals
+
+on:
+  schedule:
+    - cron: '30 */1 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Sync on-chain proposals
+        run: python .github/scripts/sync_onchain_proposals.py
+
+      - name: Commit changes
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add docs/proposals/proposals/ docs/overrides/partials/proposals-quarters-nav.html mkdocs.yml
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore(docs): sync on-chain governance proposals from mainnet"
+            git push
+          fi

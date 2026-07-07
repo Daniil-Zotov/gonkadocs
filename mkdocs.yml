@@ -21,6 +21,7 @@ not_in_nav: |
   community/issues/**/*.md
   community/**/*.md
   proposals/preproposals/**/*.md
+  proposals/proposals/**/*.md
   index.md
   README.md
 
@@ -41,7 +42,12 @@ nav:
     - Issues:
       - Обзор: community/issues/index.md
   - Proposals:
-    - On-Chain Governance: proposals/README.md
+    - On-Chain Governance: proposals/proposals/index.md
+    - 2026-Q3: proposals/proposals/2026-q3/index.md
+    - 2026-Q2: proposals/proposals/2026-q2/index.md
+    - 2026-Q1: proposals/proposals/2026-q1/index.md
+    - 2025-Q4: proposals/proposals/2025-q4/index.md
+    - 2025-Q3: proposals/proposals/2025-q3/index.md
     - Pre-Proposals:
       - Overview: proposals/preproposals/index.md
       - Active:
@@ -140,10 +146,12 @@ theme:
 
 hooks:
   - hooks/issues_nav.py
+  - hooks/proposals_nav.py
 
 extra_css:
   - stylesheets/github.css
   - stylesheets/issues.css
+  - stylesheets/proposals.css
 
 plugins:
   - search:

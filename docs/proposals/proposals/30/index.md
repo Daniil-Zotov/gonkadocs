@@ -1,0 +1,65 @@
+---
+title: "#30 – Test Proposal"
+description: "Testing governance voting from the wallet app."
+template: proposals-proposals-main.html
+---
+
+# #30 – Test Proposal
+
+<div class="prop-detail-header" markdown="1">
+
+<span class="prop-badge prop-rejected">Rejected</span>
+
+**Proposal ID:** `30`
+
+**Type:** —
+
+**Submit:** 2026-03-09 02:33 UTC
+
+**Voting:** 2026-03-09 02:37 UTC → 2026-03-10 02:37 UTC
+
+**Proposer:** `gonka1awyggfq4e32d4y66ttq3hyud7dyrr0ajf8af0w`
+
+**Metadata:** [Test proposal for governance UI](Test proposal for governance UI)
+
+**Failed reason:** proposal did not get enough votes to pass
+
+</div>
+
+Testing governance voting from the wallet app.
+
+---
+
+## Final Tally
+
+
+<div class="prop-tally">
+  <div class="prop-tally-bar">
+    <div class="prop-tally-yes" style="width:0.0%"></div>
+    <div class="prop-tally-no" style="width:100.0%"></div>
+    <div class="prop-tally-veto" style="width:0.0%"></div>
+    <div class="prop-tally-abstain" style="width:0.0%"></div>
+  </div>
+  <div class="prop-tally-stats">
+    <span class="prop-tally-yes-text">Yes 0 (0.0%)</span>
+    <span class="prop-tally-no-text">No 47 (100.0%)</span>
+    <span class="prop-tally-veto-text">Veto 0 (0.0%)</span>
+    <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span>
+  </div>
+</div>
+
+
+---
+
+## Messages
+
+| # | Type |
+| :- | :--- |
+
+---
+
+<div class="prop-footer" markdown="1">
+
+[View on Mintscan](https://www.mintscan.io/gonka/proposals/30) · [View on Ping](https://ping.pub/gonka/gov/30) · Data synced from [rpc.gonka.gg](https://rpc.gonka.gg)
+
+</div>

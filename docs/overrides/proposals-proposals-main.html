@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+{{ super() }}
+<style>
+  .md-sidebar--secondary {
+    display: none !important;
+  }
+
+  .md-content {
+    max-width: none !important;
+  }
+</style>
+{% endblock %}
+
+{% block content %}
+  {{ super() }}
+{% endblock %}

@@ -1,0 +1,64 @@
+---
+title: "#66 – test proposal - 测试方案"
+description: "test proposal - 测试方案"
+template: proposals-proposals-main.html
+---
+
+# #66 – test proposal - 测试方案
+
+<div class="prop-detail-header" markdown="1">
+
+<span class="prop-badge prop-rejected">Rejected</span>
+
+**Proposal ID:** `66`
+
+**Type:** Execute Contract
+
+**Submit:** 2026-06-03 17:45 UTC
+
+**Voting:** 2026-06-03 17:45 UTC → 2026-06-05 17:45 UTC
+
+**Proposer:** `gonka1hwyjwehgp6e5pgpg0ye4a7unwu5q9xzljpuwr5`
+
+**Failed reason:** proposal did not get enough votes to pass
+
+</div>
+
+test proposal - 测试方案
+
+---
+
+## Final Tally
+
+
+<div class="prop-tally">
+  <div class="prop-tally-bar">
+    <div class="prop-tally-yes" style="width:0.0%"></div>
+    <div class="prop-tally-no" style="width:0.0%"></div>
+    <div class="prop-tally-veto" style="width:100.0%"></div>
+    <div class="prop-tally-abstain" style="width:0.0%"></div>
+  </div>
+  <div class="prop-tally-stats">
+    <span class="prop-tally-yes-text">Yes 0 (0.0%)</span>
+    <span class="prop-tally-no-text">No 0 (0.0%)</span>
+    <span class="prop-tally-veto-text">Veto 579,377 (100.0%)</span>
+    <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span>
+  </div>
+</div>
+
+
+---
+
+## Messages
+
+| # | Type |
+| :- | :--- |
+| 1 | `/cosmwasm.wasm.v1.MsgExecuteContract` |
+
+---
+
+<div class="prop-footer" markdown="1">
+
+[View on Mintscan](https://www.mintscan.io/gonka/proposals/66) · [View on Ping](https://ping.pub/gonka/gov/66) · Data synced from [rpc.gonka.gg](https://rpc.gonka.gg)
+
+</div>
