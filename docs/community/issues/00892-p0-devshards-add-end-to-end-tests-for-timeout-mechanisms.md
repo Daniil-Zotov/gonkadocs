@@ -2,7 +2,7 @@
 title: "#892 — [P0] `devshards`: add end-to-end tests for timeout mechanisms"
 source: https://github.com/gonka-ai/gonka/issues/892
 issue_number: 892
-synced_at: 2026-07-07T08:46:54Z
+synced_at: 2026-07-07T04:28:27Z
 template: issues-main.html
 ---
 
@@ -39,7 +39,7 @@ The proxy server should allow configuring the deadline limits so that the tests 
     <span class="issues-meta-item">commented 2026-03-26 15:07 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Will be done by April 5th.</p>
+<p>Will be done by April 5th.</p>
   </div>
 </div>
 

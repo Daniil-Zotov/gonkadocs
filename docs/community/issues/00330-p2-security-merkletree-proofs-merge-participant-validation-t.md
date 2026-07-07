@@ -2,7 +2,7 @@
 title: "#330 — [P2] Security MerkleTree Proofs; Merge participant validation till block0; Need to add signature check at recording"
 source: https://github.com/gonka-ai/gonka/issues/330
 issue_number: 330
-synced_at: 2026-07-07T08:46:42Z
+synced_at: 2026-07-07T04:28:09Z
 template: issues-main.html
 ---
 
@@ -40,8 +40,8 @@ After that, feel free to contact me on Discord: `tatianacharchian_07833`.
     <span class="issues-meta-item">commented 2025-12-04 18:58 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>https://github.com/gonka-ai/gonka-openai/pull/2
-https://github.com/gonka-ai/gonka-utils/pull/1 </p>
+<p>https://github.com/gonka-ai/gonka-openai/pull/2
+https://github.com/gonka-ai/gonka-utils/pull/1</p> 
   </div>
 </div>
 

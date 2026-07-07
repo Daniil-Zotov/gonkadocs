@@ -2,7 +2,7 @@
 title: "#1321 — Gateway allowlist request"
 source: https://github.com/gonka-ai/gonka/issues/1321
 issue_number: 1321
-synced_at: 2026-07-07T08:46:45Z
+synced_at: 2026-07-07T04:28:14Z
 template: issues-main.html
 ---
 
@@ -44,10 +44,10 @@ Purpose: Self-hosted devshard gateway on the linux server
     <span class="issues-meta-item">commented 2026-06-23 23:03 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Hi @bruev!</p>
+<p>Hi @bruev!</p>
 <p>To set expectations on the self-hosted path you asked for: running your own devshard gateway means becoming an on-chain escrow operator. Your <code>gonka1…</code> creator address has to be on the governance-controlled allowlist (<code>devshard_escrow_params.allowed_creator_addresses</code>) before it can open escrows, and you take on the operator side yourself — funding, rotating, and settling escrows, handling v1/v2 state roots, etc. That path stays fully open: inclusion is an on-chain governance decision (no single operator adds an address), so the way to pursue it is to request consideration via governance.  </p>
 <p>If you'd rather not wait on a governance vote, there are independent, managed gateways in the community that already operate under whitelisted wallets and expose a plain OpenAI-compatible endpoint — so you can start now without your own allowlisting or enrollment. One such community option is <strong>OpenBroker</strong> (run by Gonka Labs) https://github.com/gonka-ai/gonka/discussions/1363</p>
-<p>OpenBroker is <strong>independent third party</strong>, not part of the core protocol. </p>
+<p>OpenBroker is <strong>independent third party</strong>, not part of the core protocol.</p> 
   </div>
 </div>
 

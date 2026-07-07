@@ -2,7 +2,7 @@
 title: "#933 — AdjustWeightsByCollateral missing baseWeightRatio range validation — weight inflation for uncollateralized participants"
 source: https://github.com/gonka-ai/gonka/issues/933
 issue_number: 933
-synced_at: 2026-07-07T08:47:07Z
+synced_at: 2026-07-07T04:28:48Z
 template: issues-main.html
 ---
 
@@ -66,7 +66,7 @@ if baseWeightRatio.IsNegative() || baseWeightRatio.GTE(math.LegacyOneDec()) {
     <span class="issues-meta-item">commented 2026-03-23 05:10 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>@unameisfine, new issues need to go through the triage process first. To help move things forward a bit faster, I’d recommend posting them in Discord or any other available channels so the community can take a look and share early feedback.</p>
+<p>@unameisfine, new issues need to go through the triage process first. To help move things forward a bit faster, I’d recommend posting them in Discord or any other available channels so the community can take a look and share early feedback.</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -75,7 +75,7 @@ if baseWeightRatio.IsNegative() || baseWeightRatio.GTE(math.LegacyOneDec()) {
     <span class="issues-meta-item">commented 2026-04-26 20:00 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <blockquote>
+<blockquote>
 <p>If governance sets baseWeightRatio &gt;= 1.0</p>
 </blockquote>
 <p>why would do that? that's contradict of the idea of base weight ratio</p>
@@ -87,7 +87,7 @@ if baseWeightRatio.IsNegative() || baseWeightRatio.GTE(math.LegacyOneDec()) {
     <span class="issues-meta-item">commented 2026-04-26 22:03 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Fair point — governance setting an invalid ratio is unrealistic. Closing the PR.</p>
+<p>Fair point — governance setting an invalid ratio is unrealistic. Closing the PR.</p>
   </div>
 </div>
 

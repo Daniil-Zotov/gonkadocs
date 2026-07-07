@@ -2,7 +2,7 @@
 title: "#926 — [P1] Seed for POC fix"
 source: https://github.com/gonka-ai/gonka/issues/926
 issue_number: 926
-synced_at: 2026-07-07T08:47:12Z
+synced_at: 2026-07-07T04:28:57Z
 template: issues-main.html
 ---
 
@@ -37,7 +37,7 @@ template: issues-main.html
     <span class="issues-meta-item">commented 2026-03-31 17:54 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <h1>Proposal: Concatenated Murmur (concat_murmur)</h1>
+<h1>Proposal: Concatenated Murmur (concat_murmur)</h1>
 <h2>The problem</h2>
 <p><code>_seed_from_string</code> computes sha256(seed_string) but discards 224 of the 256 bits:</p>
 <pre><code class="language-python">return int(h[:8], 16)  # only 32 bits used

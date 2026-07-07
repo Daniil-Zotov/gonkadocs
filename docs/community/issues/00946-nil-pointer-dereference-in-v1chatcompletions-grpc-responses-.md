@@ -2,7 +2,7 @@
 title: "#946 — Nil pointer dereference in /v1/chat/completions — gRPC responses not nil-checked"
 source: https://github.com/gonka-ai/gonka/issues/946
 issue_number: 946
-synced_at: 2026-07-07T08:47:24Z
+synced_at: 2026-07-07T04:29:15Z
 template: issues-main.html
 ---
 
@@ -47,7 +47,7 @@ The pattern used elsewhere in the codebase (e.g. `enforceDeveloperAccessGate` al
     <span class="issues-meta-item">commented 2026-03-25 16:04 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Closing in favor of #876 — this is the same issue. Posted analysis there instead.</p>
+<p>Closing in favor of #876 — this is the same issue. Posted analysis there instead.</p>
   </div>
 </div>
 

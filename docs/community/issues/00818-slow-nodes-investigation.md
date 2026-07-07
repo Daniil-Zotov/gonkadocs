@@ -2,7 +2,7 @@
 title: "#818 — Slow nodes investigation"
 source: https://github.com/gonka-ai/gonka/issues/818
 issue_number: 818
-synced_at: 2026-07-07T08:47:29Z
+synced_at: 2026-07-07T04:29:22Z
 template: issues-main.html
 ---
 
@@ -43,7 +43,7 @@ Task: Multiple hosts reported node slowdowns in the last days. Need to identify 
     <span class="issues-meta-item">commented 2026-03-03 10:33 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>PR: https://github.com/gonka-ai/gonka/pull/844</p>
+<p>PR: https://github.com/gonka-ai/gonka/pull/844</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -52,7 +52,7 @@ Task: Multiple hosts reported node slowdowns in the last days. Need to identify 
     <span class="issues-meta-item">commented 2026-03-03 18:20 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <ul>
+<ul>
 <li>Imho for bottleneck location and deep diagnostics - we need some profiling, debug, logs and metrics here.
 also imho cosmos-SDK, IAVLX (SDK v0.54+), write operation and some gRPC I mention upper should help.
 (doesn't solve totally more postpone bottlenecks will appear later, but they will still appear under heavy load on a larger network.)</li>
@@ -65,7 +65,7 @@ also imho cosmos-SDK, IAVLX (SDK v0.54+), write operation and some gRPC I mentio
     <span class="issues-meta-item">commented 2026-03-04 09:16 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <blockquote>
+<blockquote>
 <ul>
 <li>Imho for bottleneck location and deep diagnostics - we need some profiling, debug, logs and metrics here.
   also imho cosmos-SDK, IAVLX (SDK v0.54+), write operation and some gRPC I mention upper should help.
@@ -73,6 +73,8 @@ also imho cosmos-SDK, IAVLX (SDK v0.54+), write operation and some gRPC I mentio
 </ul>
 </blockquote>
 <p>https://gonka.gg/public-api/</p>
+
+
   </div>
 </div>
 <div class="issues-comment">
@@ -81,7 +83,7 @@ also imho cosmos-SDK, IAVLX (SDK v0.54+), write operation and some gRPC I mentio
     <span class="issues-meta-item">commented 2026-03-06 14:21 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>L8 (latency consistency) axis in GiP #860 measures this directly.</p>
+<p>L8 (latency consistency) axis in GiP #860 measures this directly.</p>
 <p>Live measurement (proxy.gonka.gg, Qwen3-235B, 16 requests, Mar 6 2026):
   mean:  1280ms
   σ:     876ms
@@ -106,7 +108,7 @@ Discussion: #860</p>
     <span class="issues-meta-item">commented 2026-03-06 22:33 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>My imho - 16 requests is too small measurement.
+<p>My imho - 16 requests is too small measurement.
 - I see several logical errors, risks, and unobvious long-term consequences here
 1) The measurements were taken on a MiniLM-L6-v2 (384 dimensions, without a GPU). 
 GPUs behave differently and have high latencies write/read shared mem, especially for large requests, up to seconds!
@@ -131,7 +133,7 @@ p2p mesh for btc is ok, for Gonka imho different way.</p>
     <span class="issues-meta-item">commented 2026-03-18 14:20 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <blockquote>
+<blockquote>
 <p>RE</p>
 </blockquote>
 <p>My calculations for splitting results between participants for efficiency are supported by current pull requests, but the instance is initialized with Docker and doesn't use the GPU. While the bridge idea is relevant and is reflected in the metrics from your point 2, it's worth addressing separately.</p>
@@ -146,7 +148,7 @@ p2p mesh for btc is ok, for Gonka imho different way.</p>
     <span class="issues-meta-item">commented 2026-03-18 14:23 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <blockquote>
+<blockquote>
 <ul>
 <li>Imho for bottleneck location and deep diagnostics - we need some profiling, debug, logs and metrics here.
   also imho cosmos-SDK, IAVLX (SDK v0.54+), write operation and some gRPC I mention upper should help.

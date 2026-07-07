@@ -6,7 +6,7 @@ template: issues-main.html
 # Issues: no-label
 
 Issues with label **no-label**. Total: **228**.
-Updated: `2026-07-07 08:48 UTC`.
+Updated: `2026-07-07 04:31 UTC`.
 
 [← All Issues](../../index.md)
 
@@ -21,7 +21,7 @@ Updated: `2026-07-07 08:48 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/phishdestroy">@phishdestroy</a> opened 16 hours ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/phishdestroy">@phishdestroy</a> opened 12 hours ago</span>
       
     </div>
   </div>
@@ -66,7 +66,7 @@ Updated: `2026-07-07 08:48 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/yuritsin-code">@yuritsin-code</a> opened 2 days ago</span>
+      <span class="issues-meta-item">[@yuritsin-code](https://github.com/yuritsin-code) opened 2 days ago</span>
       
     </div>
   </div>
@@ -81,7 +81,7 @@ Updated: `2026-07-07 08:48 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 2 days ago</span>
+      <span class="issues-meta-item">[@maria-mitina](https://github.com/maria-mitina) opened 2 days ago</span>
       
     </div>
   </div>
@@ -171,7 +171,7 @@ Updated: `2026-07-07 08:48 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 7 days ago</span>
+      <span class="issues-meta-item">[@maria-mitina](https://github.com/maria-mitina) opened 7 days ago</span>
       
     </div>
   </div>
@@ -201,7 +201,7 @@ Updated: `2026-07-07 08:48 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 10 days ago</span>
+      <span class="issues-meta-item">[@maria-mitina](https://github.com/maria-mitina) opened 10 days ago</span>
       
     </div>
   </div>
@@ -231,7 +231,7 @@ Updated: `2026-07-07 08:48 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Doog-bot534">@Doog-bot534</a> opened 12 days ago</span>
+      <span class="issues-meta-item">[@Doog-bot534](https://github.com/Doog-bot534) opened 12 days ago</span>
       
     </div>
   </div>
@@ -306,7 +306,7 @@ Updated: `2026-07-07 08:48 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Korolev-Oleg">@Korolev-Oleg</a> opened 13 days ago</span>
+      <span class="issues-meta-item">[@Korolev-Oleg](https://github.com/Korolev-Oleg) opened 13 days ago</span>
       
     </div>
   </div>
@@ -486,7 +486,7 @@ Updated: `2026-07-07 08:48 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/vitaly-andr">@vitaly-andr</a> opened 2026-05-30</span>
+      <span class="issues-meta-item">[@vitaly-andr](https://github.com/vitaly-andr) opened 2026-05-30</span>
       
     </div>
   </div>
@@ -501,7 +501,7 @@ Updated: `2026-07-07 08:48 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/vitaly-andr">@vitaly-andr</a> opened 2026-05-29</span>
+      <span class="issues-meta-item">[@vitaly-andr](https://github.com/vitaly-andr) opened 2026-05-29</span>
       
     </div>
   </div>
@@ -531,7 +531,7 @@ Updated: `2026-07-07 08:48 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/vitaly-andr">@vitaly-andr</a> opened 2026-05-28</span>
+      <span class="issues-meta-item">[@vitaly-andr](https://github.com/vitaly-andr) opened 2026-05-28</span>
       
     </div>
   </div>
@@ -636,7 +636,7 @@ Updated: `2026-07-07 08:48 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/vitaly-andr">@vitaly-andr</a> opened 2026-05-20</span>
+      <span class="issues-meta-item">[@vitaly-andr](https://github.com/vitaly-andr) opened 2026-05-20</span>
       
     </div>
   </div>
@@ -726,7 +726,7 @@ Updated: `2026-07-07 08:48 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Doog-bot534">@Doog-bot534</a> opened 2026-04-29</span>
+      <span class="issues-meta-item">[@Doog-bot534](https://github.com/Doog-bot534) opened 2026-04-29</span>
       
     </div>
   </div>
@@ -756,7 +756,7 @@ Updated: `2026-07-07 08:48 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/krizis-sila">@krizis-sila</a> opened 2026-04-28</span>
+      <span class="issues-meta-item">[@krizis-sila](https://github.com/krizis-sila) opened 2026-04-28</span>
       
     </div>
   </div>
@@ -831,7 +831,7 @@ Updated: `2026-07-07 08:48 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Doog-bot534">@Doog-bot534</a> opened 2026-04-28</span>
+      <span class="issues-meta-item">[@Doog-bot534](https://github.com/Doog-bot534) opened 2026-04-28</span>
       
     </div>
   </div>
@@ -1011,7 +1011,7 @@ Updated: `2026-07-07 08:48 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Doog-bot534">@Doog-bot534</a> opened 2026-04-20</span>
+      <span class="issues-meta-item">[@Doog-bot534](https://github.com/Doog-bot534) opened 2026-04-20</span>
       
     </div>
   </div>
@@ -1116,7 +1116,7 @@ Updated: `2026-07-07 08:48 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/mingles-agent">@mingles-agent</a> opened 2026-03-31</span>
+      <span class="issues-meta-item">[@mingles-agent](https://github.com/mingles-agent) opened 2026-03-31</span>
       
     </div>
   </div>
@@ -1131,7 +1131,7 @@ Updated: `2026-07-07 08:48 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/mingles-agent">@mingles-agent</a> opened 2026-03-31</span>
+      <span class="issues-meta-item">[@mingles-agent](https://github.com/mingles-agent) opened 2026-03-31</span>
       
     </div>
   </div>
@@ -1161,7 +1161,7 @@ Updated: `2026-07-07 08:48 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/mingles-agent">@mingles-agent</a> opened 2026-03-27</span>
+      <span class="issues-meta-item">[@mingles-agent](https://github.com/mingles-agent) opened 2026-03-27</span>
       
     </div>
   </div>
@@ -1341,7 +1341,7 @@ Updated: `2026-07-07 08:48 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 2026-03-19</span>
+      <span class="issues-meta-item">[@maria-mitina](https://github.com/maria-mitina) opened 2026-03-19</span>
       
     </div>
   </div>
@@ -1521,7 +1521,7 @@ Updated: `2026-07-07 08:48 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 2026-03-06</span>
+      <span class="issues-meta-item">[@maria-mitina](https://github.com/maria-mitina) opened 2026-03-06</span>
       
     </div>
   </div>
@@ -3216,7 +3216,7 @@ Updated: `2026-07-07 08:48 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/rumirzayev-max">@rumirzayev-max</a> opened 2025-11-17</span>
+      <span class="issues-meta-item">[@rumirzayev-max](https://github.com/rumirzayev-max) opened 2025-11-17</span>
       
     </div>
   </div>
@@ -3231,7 +3231,7 @@ Updated: `2026-07-07 08:48 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/DePunk-eth">@DePunk-eth</a> opened 2025-11-17</span>
+      <span class="issues-meta-item">[@DePunk-eth](https://github.com/DePunk-eth) opened 2025-11-17</span>
       
     </div>
   </div>
@@ -3261,7 +3261,7 @@ Updated: `2026-07-07 08:48 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/vvv-tech">@vvv-tech</a> opened 2025-11-10</span>
+      <span class="issues-meta-item">[@vvv-tech](https://github.com/vvv-tech) opened 2025-11-10</span>
       
     </div>
   </div>

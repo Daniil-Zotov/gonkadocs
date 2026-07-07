@@ -2,7 +2,7 @@
 title: "#630 — Research: Ephemeral port exhaustion"
 source: https://github.com/gonka-ai/gonka/issues/630
 issue_number: 630
-synced_at: 2026-07-07T08:47:27Z
+synced_at: 2026-07-07T04:29:20Z
 template: issues-main.html
 ---
 
@@ -40,7 +40,7 @@ After that, feel free to contact me on Discord: `tatianacharchian_07833`.
     <span class="issues-meta-item">commented 2026-01-24 21:13 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <h2>Ephemeral Port Exhaustion Analysis</h2>
+<h2>Ephemeral Port Exhaustion Analysis</h2>
 <h3>Summary</h3>
 <p>Found several patterns that can cause ephemeral port exhaustion due to improper HTTP client usage and missing connection pooling configuration.</p>
 <hr />
@@ -110,7 +110,7 @@ Creates new <code>http.Client</code> for each health check call.</p>
     <span class="issues-meta-item">commented 2026-01-29 00:21 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Hello @AlexeySamosadov, thank you for your contribution. However, I'd suggest waiting for @libermans or @gmorgachev to give a detailed description of the task and expected results.  </p>
+<p>Hello @AlexeySamosadov, thank you for your contribution. However, I'd suggest waiting for @libermans or @gmorgachev to give a detailed description of the task and expected results.</p>  
   </div>
 </div>
 <div class="issues-comment">
@@ -119,7 +119,7 @@ Creates new <code>http.Client</code> for each health check call.</p>
     <span class="issues-meta-item">commented 2026-02-08 14:14 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>PR created: https://github.com/gonka-ai/gonka/pull/656</p>
+<p>PR created: https://github.com/gonka-ai/gonka/pull/656</p>
 <p>Adds HTTP client connection pooling to prevent ephemeral port exhaustion.</p>
   </div>
 </div>

@@ -2,7 +2,7 @@
 title: "#849 — Bug: DKG permanent failure — dealer consensus uses unweighted participant votes but quorum uses slot weights"
 source: https://github.com/gonka-ai/gonka/issues/849
 issue_number: 849
-synced_at: 2026-07-07T08:47:31Z
+synced_at: 2026-07-07T04:29:26Z
 template: issues-main.html
 ---
 
@@ -109,7 +109,7 @@ dealerIsValid := totalSlots > 0 && validSlots > totalSlots/2
     <span class="issues-meta-item">commented 2026-03-03 12:56 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Fix submitted in PR #852</p>
+<p>Fix submitted in PR #852</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -118,7 +118,7 @@ dealerIsValid := totalSlots > 0 && validSlots > totalSlots/2
     <span class="issues-meta-item">commented 2026-03-12 20:08 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Hi @Mayveskii</p>
+<p>Hi @Mayveskii</p>
 <p>As discussed in #852, this problem is already covered by issue #823
 Could you please close this issue?</p>
 <p>Thanks!</p>

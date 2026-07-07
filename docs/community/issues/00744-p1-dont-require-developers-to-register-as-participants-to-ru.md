@@ -2,7 +2,7 @@
 title: "#744 — [P1] Don’t require developers to register as Participants to run inference"
 source: https://github.com/gonka-ai/gonka/issues/744
 issue_number: 744
-synced_at: 2026-07-07T08:47:22Z
+synced_at: 2026-07-07T04:29:12Z
 template: issues-main.html
 ---
 
@@ -40,7 +40,7 @@ Currently, the chain requires a Participant record not only to host, but also to
     <span class="issues-meta-item">commented 2026-02-13 01:19 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>@x0152, would you like to work on this issue?</p>
+<p>@x0152, would you like to work on this issue?</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -49,7 +49,7 @@ Currently, the chain requires a Participant record not only to host, but also to
     <span class="issues-meta-item">commented 2026-02-13 06:15 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>I'll take it</p>
+<p>I'll take it</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -58,7 +58,7 @@ Currently, the chain requires a Participant record not only to host, but also to
     <span class="issues-meta-item">commented 2026-03-11 20:03 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>@tcharchian the PR itself is marked for milestone 0.2.11. what is valid?</p>
+<p>@tcharchian the PR itself is marked for milestone 0.2.11. what is valid?</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -67,11 +67,11 @@ Currently, the chain requires a Participant record not only to host, but also to
     <span class="issues-meta-item">commented 2026-03-11 20:23 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <blockquote>
+<blockquote>
 <p><a href="https://github.com/tcharchian">@tcharchian</a> the PR itself is marked for milestone 0.2.11. what is valid?</p>
 </blockquote>
 <p>Per @patimen, let's move it to v0.2.12. https://github.com/gonka-ai/gonka/pull/750#issuecomment-3938311002
-cc: @x0152  </p>
+cc: @x0152</p>  
   </div>
 </div>
 

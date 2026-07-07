@@ -2,7 +2,7 @@
 title: "#447 — Node Registration Does Not Update After Migration (API stuck using old on-chain config)"
 source: https://github.com/gonka-ai/gonka/issues/447
 issue_number: 447
-synced_at: 2026-07-07T08:46:47Z
+synced_at: 2026-07-07T04:28:16Z
 template: issues-main.html
 ---
 
@@ -295,7 +295,7 @@ raw output of inferenced query inference hardware-nodes-all
     <span class="issues-meta-item">commented 2025-11-24 21:21 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>As far as I get it the api container's (ghcr.io/product-science/api:0.2.5) main process does not reread or at least do not apply <code>node-config.json</code> after the first time creation of  the <code>.dapi/gonka.db</code>
+<p>As far as I get it the api container's (ghcr.io/product-science/api:0.2.5) main process does not reread or at least do not apply <code>node-config.json</code> after the first time creation of  the <code>.dapi/gonka.db</code>
 query from the db <code>sqlite&gt; SELECT * FROM inference_nodes LIMIT 20;</code> shows first time used data in <code>models_json</code> regardless of <code>node-config.json</code> contents at the last run. May be all other params are WORM in db.</p>
   </div>
 </div>
@@ -305,7 +305,7 @@ query from the db <code>sqlite&gt; SELECT * FROM inference_nodes LIMIT 20;</code
     <span class="issues-meta-item">commented 2026-06-11 19:09 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>I dug into this from the current <code>main</code> code while looking for the cause, and found two separate layers that together produce the "stuck registration" behavior. Sharing in case it helps — I'm a contributor, not a maintainer, so treat the design parts as observations.</p>
+<p>I dug into this from the current <code>main</code> code while looking for the cause, and found two separate layers that together produce the "stuck registration" behavior. Sharing in case it helps — I'm a contributor, not a maintainer, so treat the design parts as observations.</p>
 <p><strong>Layer 1 — <code>node_config.json</code> is merged only once, by design.</strong>
 <code>ConfigManager.LoadNodeConfig</code> (<code>decentralized-api/apiconfig/config_manager.go</code>) merges <code>node_config.json</code> into the API's local database a single time, gated by a <code>node_config_merged</code> flag stored in that database. After the first run, edits to <code>node_config.json</code> are intentionally ignored ("Node config already merged. Skipping"). Runtime node management is expected to go through the admin API instead: <code>POST/PUT/DELETE /admin/v1/nodes</code> (<code>internal/server/admin/server.go</code>). Two practical consequences for your case:</p>
 <ul>

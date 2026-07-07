@@ -2,7 +2,7 @@
 title: "#619 — Inference invalidation by pseudo random sub-group of participant (to decrease amount of `MsgValidation`)"
 source: https://github.com/gonka-ai/gonka/issues/619
 issue_number: 619
-synced_at: 2026-07-07T08:47:25Z
+synced_at: 2026-07-07T04:29:16Z
 template: issues-main.html
 ---
 
@@ -35,7 +35,7 @@ template: issues-main.html
     <span class="issues-meta-item">commented 2026-01-24 00:15 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>@akup is ready to take ownership of this issue. please try to assign issue to yourself </p>
+<p>@akup is ready to take ownership of this issue. please try to assign issue to yourself</p> 
   </div>
 </div>
 <div class="issues-comment">
@@ -44,7 +44,7 @@ template: issues-main.html
     <span class="issues-meta-item">commented 2026-01-28 03:16 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>@tcharchian seams I need to leave a comment first</p>
+<p>@tcharchian seams I need to leave a comment first</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -53,7 +53,7 @@ template: issues-main.html
     <span class="issues-meta-item">commented 2026-03-22 23:14 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Hey @akup @gmorgachev @0xgonka, do you think it makes sense to keep this issue open for now, or would you recommend closing it already?</p>
+<p>Hey @akup @gmorgachev @0xgonka, do you think it makes sense to keep this issue open for now, or would you recommend closing it already?</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -62,7 +62,7 @@ template: issues-main.html
     <span class="issues-meta-item">commented 2026-03-23 05:53 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>@tcharchian I have a ready solution on this.
+<p>@tcharchian I have a ready solution on this.
 But I need to make few related PRs first. I will do it in next 24h</p>
   </div>
 </div>

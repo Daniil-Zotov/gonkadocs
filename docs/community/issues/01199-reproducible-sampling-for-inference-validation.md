@@ -2,7 +2,7 @@
 title: "#1199 — Reproducible sampling for inference validation"
 source: https://github.com/gonka-ai/gonka/issues/1199
 issue_number: 1199
-synced_at: 2026-07-07T08:46:32Z
+synced_at: 2026-07-07T04:27:52Z
 template: issues-main.html
 ---
 
@@ -153,7 +153,7 @@ The priority is to take over the existing work, gradually introduce it into MLNo
     <span class="issues-meta-item">commented 2026-06-26 11:33 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>hi @tcharchian , does this issue need help? If yes, maybe we  can take this one.</p>
+<p>hi @tcharchian , does this issue need help? If yes, maybe we  can take this one.</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -162,7 +162,7 @@ The priority is to take over the existing work, gradually introduce it into MLNo
     <span class="issues-meta-item">commented 2026-06-30 00:53 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>@Ryanchen911, yes please! </p>
+<p>@Ryanchen911, yes please!</p> 
   </div>
 </div>
 <div class="issues-comment">
@@ -171,7 +171,7 @@ The priority is to take over the existing work, gradually introduce it into MLNo
     <span class="issues-meta-item">commented 2026-07-02 13:28 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>I ran an adversarial pass on the deterministic sampling dump against the inference-validation proposal.</p>
+<p>I ran an adversarial pass on the deterministic sampling dump against the inference-validation proposal.</p>
 <p><strong>Finding:</strong> the deterministic replay seed was not chain-bound — it was derived from request-controlled material (<code>f"{user_seed}|{prompt_token_ids}"</code>), so Stage-1 replay could be detached from the chain inference instance. The proposal requires <code>run_seed = SHA256(user_seed || inference_id_from_chain)</code>.</p>
 <p>I opened a focused PR against <code>gonka-ai/vllm:tg/detemrinistic_sampling_dump</code> — gonka-ai/vllm#56 — with a chain-bound seed primitive + tests.</p>
 <p>Scope note (updated as review tightened it to match vLLM's actual API):
@@ -187,7 +187,8 @@ The priority is to take over the existing work, gradually introduce it into MLNo
     <span class="issues-meta-item">commented 2026-07-06 01:30 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>@neuron7xLab thanks for the focused pass and PR — this lands squarely on the highest-priority item in our‘s review. We flagged the same seed-domain issue: the _dump/v011 derivation f"{user_seed}|{prompt_token_ids}" is request-controlled on both components, so Stage-1 replay can be ground/detached from the chain inference instance. Binding to inference_id_from_chain per the proposal is exactly right.</p>
+<p>@neuron7xLab thanks for the focused pass and PR — this lands squarely on the highest-priority item in our‘s review. We flagged the same seed-domain issue: the _dump/v011 derivation f"{user_seed}|{prompt_token_ids}" is request-controlled on both components, so Stage-1 replay can be ground/detached from the chain inference instance. Binding to inference_id_from_chain per the proposal is exactly right.</p>
+
   </div>
 </div>
 <div class="issues-comment">
@@ -196,7 +197,7 @@ The priority is to take over the existing work, gradually introduce it into MLNo
     <span class="issues-meta-item">commented 2026-07-06 02:53 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <h2>Review summary — reproducible sampling for inference validation</h2>
+<h2>Review summary — reproducible sampling for inference validation</h2>
 <p>We reviewed the two-stage validation design (proposal §"Proper Fix") against the actual code on all three vllm branches (<code>_dump</code>, <code>v011</code>, <code>_merged</code>) plus the gonka chain-side validator, with an eye on a safe soft-rollout path.</p>
 <p><strong>Final recommendation: needs additional review — not ready for soft MLNode integration yet.</strong> The design is sound and matches the two-stage proposal; the implementation is real but split across two branches (each ~half) and not yet end-to-end runnable against real executor artifacts.</p>
 <p><strong>Three blockers gate enforcement:</strong>
@@ -473,6 +474,7 @@ verify.</p>
 <li><strong>Final recommendation:</strong> <strong>Needs additional review.</strong> The integer primitive is adoptable as a library now; the <code>_merged</code> branch is the right base to continue on; but the executor hot-path conversion (E1), seed hardening (S1), and cross-language parity (S3) must land — all requiring GPU/protocol changes — before any enforcement.</li>
 </ul>
 </details>
+
   </div>
 </div>
 

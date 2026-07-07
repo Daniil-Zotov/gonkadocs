@@ -2,7 +2,7 @@
 title: "#1086 — [P2] Devshard escrow stats collection and off chain stats support"
 source: https://github.com/gonka-ai/gonka/issues/1086
 issue_number: 1086
-synced_at: 2026-07-07T08:46:58Z
+synced_at: 2026-07-07T04:28:34Z
 template: issues-main.html
 ---
 
@@ -35,7 +35,7 @@ template: issues-main.html
     <span class="issues-meta-item">commented 2026-04-21 20:15 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Isn't it related PR? where something was already solved
+<p>Isn't it related PR? where something was already solved
 https://github.com/gonka-ai/gonka/pull/1001</p>
 <p>and important questions on shard finalization were raised here: https://github.com/gonka-ai/gonka/pull/1000</p>
   </div>
@@ -46,7 +46,7 @@ https://github.com/gonka-ai/gonka/pull/1001</p>
     <span class="issues-meta-item">commented 2026-04-29 21:03 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>@GLiberman please respond @akup </p>
+<p>@GLiberman please respond @akup</p> 
   </div>
 </div>
 

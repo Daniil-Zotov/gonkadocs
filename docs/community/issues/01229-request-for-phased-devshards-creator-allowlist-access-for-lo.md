@@ -2,7 +2,7 @@
 title: "#1229 — Request for phased DevShards creator allowlist access for local gateway MVP validation"
 source: https://github.com/gonka-ai/gonka/issues/1229
 issue_number: 1229
-synced_at: 2026-07-07T08:46:44Z
+synced_at: 2026-07-07T04:28:12Z
 template: issues-main.html
 ---
 
@@ -135,7 +135,7 @@ I am happy to coordinate and adjust the validation scope, limits, or rollout pro
     <span class="issues-meta-item">commented 2026-06-23 23:22 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Hi @sspotanin!</p>
+<p>Hi @sspotanin!</p>
 <p>On the process you asked about: allowlisting a <code>gonka1…</code> creator address is an on-chain governance decision. Addresses on <code>devshard_escrow_params.allowed_creator_addresses</code> are added through a governance vote — no single maintainer or operator adds one unilaterally.  To be clear, your actual ask (validating the creator/operator path locally) does require the allowlist; that's the part where you create and settle escrows yourself, and no managed service substitutes for it. So nothing below replaces this request.</p>
 <p>That said, given the specific gap you're targeting (reliability for sustained agentic sessions), one community option worth being aware of in parallel is <strong>OpenBroker</strong> (run by Gonka Labs). https://github.com/gonka-ai/gonka/discussions/1363 It's a managed devshard platform that runs v1/v2 (and future versions) at production scale with full per-request and network observability, and it's explicitly used as a live testbed for exercising devshard versions under load. Two ways it might be useful while the governance request is reviewed:</p>
 <ul>

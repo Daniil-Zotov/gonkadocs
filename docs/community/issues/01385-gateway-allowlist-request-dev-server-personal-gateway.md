@@ -2,7 +2,7 @@
 title: "#1385 — Gateway allowlist request - dev server personal gateway"
 source: https://github.com/gonka-ai/gonka/issues/1385
 issue_number: 1385
-synced_at: 2026-07-07T08:46:34Z
+synced_at: 2026-07-07T04:27:56Z
 template: issues-main.html
 ---
 
@@ -55,7 +55,7 @@ Please consider adding this address to `devshard_escrow_params.allowed_creator_a
     <span class="issues-meta-item">commented 2026-07-03 00:09 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Hi @scodeit!</p>
+<p>Hi @scodeit!</p>
 <p>On the allowlist itself: additions to <code>devshard_escrow_params.allowed_creator_addresses</code> happen only through on-chain governance — either a standalone param-change proposal or inclusion in a governance-approved upgrade batch. No maintainer adds an address unilaterally. Filing this issue is the right way to register intent, but inclusion and timing are governance-dependent and not guaranteed, so I want to set expectations honestly rather than leave this sitting as an implied "pending approval."</p>
 <p>Before that though, one question worth asking, because it changes what the fastest path is for you. Your stated use case is a personal, solo-use gateway — not a public broker. Running your own devshard gateway buys you two specific things: you pay for inference with your own GNK directly (no third party holding a balance for you), and no operator sits between you and the network. It also costs you the operator side: escrow funding, rotation, settlement, and the governance wait before any of it works.</p>
 <p>If what you actually need is just a personal OpenAI-compatible endpoint, that exists today without any of the above. Community brokers are listed in the developer quickstart, and OpenBroker (https://openbroker.gonka.gg, https://github.com/gonka-ai/gonka/discussions/1363) is a GNK-native option with no markup — it deducts your balance 1-to-1 with actual escrow cost, no enrollment or approval wait, and you'd be sending requests within minutes. The honest trade-off: it's custodial (you deposit GNK to an address the operator controls, access runs under their API key), so if self-custody or full control over your request path is the reason you want your own gateway, it doesn't replace this allowlist request — but if the goal is simply "my own inference endpoint for personal use," it answers it completely.</p>
@@ -67,7 +67,7 @@ Please consider adding this address to `devshard_escrow_params.allowed_creator_a
     <span class="issues-meta-item">commented 2026-07-03 19:06 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Hi @tcharchian ! </p>
+<p>Hi @tcharchian ! </p>
 <p>Thanks for the explanation.</p>
 <p>I did look at OpenBroker, but it's not really what I'm trying to build.</p>
 <p>The main reason for requesting a creator address is that I don't want an intermediary between my infrastructure and the network. I prefer to operate my own gateway, manage my own escrow, and keep the entire request path under my control.</p>
@@ -77,6 +77,7 @@ Please consider adding this address to `devshard_escrow_params.allowed_creator_a
 <p>If the platform proves to be a good fit, I'd also be interested in running a gateway for others in the future. I'd rather learn how to operate the full stack now than start with a broker and redesign everything later.</p>
 <p>I understand that the allowlist is controlled through governance and that there's no guarantee or fixed timeline. That's completely fine. I just wanted to register my interest so the address can be considered whenever the next proposal is put together.</p>
 <p>Thanks again for taking the time to explain the process.</p>
+
   </div>
 </div>
 

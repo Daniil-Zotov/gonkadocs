@@ -2,7 +2,7 @@
 title: "#896 — `devshards`: Research aggregated BLS signatures"
 source: https://github.com/gonka-ai/gonka/issues/896
 issue_number: 896
-synced_at: 2026-07-07T08:47:01Z
+synced_at: 2026-07-07T04:28:39Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item"><a href="https://github.com/heitor-lassarote">@heitor-lassarote</a> opened 2026-03-16 15:10 UTC</span>
+    <span class="issues-meta-item">[@heitor-lassarote](https://github.com/heitor-lassarote) opened 2026-03-16 15:10 UTC</span>
     <span class="issues-meta-item">2 comments</span>
     <span class="issues-meta-item">Updated 2026-04-29 21:30 UTC</span>
   </div>
@@ -41,7 +41,7 @@ To achieve this, one solution is to register the BLS `devshard` public key for e
     <span class="issues-meta-item">commented 2026-03-26 15:16 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Will be done fast after finishing #913 </p>
+<p>Will be done fast after finishing #913</p> 
   </div>
 </div>
 <div class="issues-comment">
@@ -50,7 +50,7 @@ To achieve this, one solution is to register the BLS `devshard` public key for e
     <span class="issues-meta-item">commented 2026-04-29 21:15 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>postpone review after Upgrade v0.x.x-devshard2</p>
+<p>postpone review after Upgrade v0.x.x-devshard2</p>
   </div>
 </div>
 

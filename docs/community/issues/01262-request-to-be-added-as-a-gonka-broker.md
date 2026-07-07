@@ -2,7 +2,7 @@
 title: "#1262 — Request to be added as a Gonka broker"
 source: https://github.com/gonka-ai/gonka/issues/1262
 issue_number: 1262
-synced_at: 2026-07-07T08:46:39Z
+synced_at: 2026-07-07T04:28:03Z
 template: issues-main.html
 ---
 
@@ -78,7 +78,7 @@ Target audience:
     <span class="issues-meta-item">commented 2026-05-28 14:54 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>@tcharchian , Hi, i see that this issue is completed. What our team should do next to join allowlist with our gonka adress?</p>
+<p>@tcharchian , Hi, i see that this issue is completed. What our team should do next to join allowlist with our gonka adress?</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -87,7 +87,7 @@ Target audience:
     <span class="issues-meta-item">commented 2026-06-23 22:47 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Hi! At the moment, the public broker list is not being actively expanded through governance. Inclusion in that list should be handled through the governance process and discussed in the community.</p>
+<p>Hi! At the moment, the public broker list is not being actively expanded through governance. Inclusion in that list should be handled through the governance process and discussed in the community.</p>
 <p>As a practical alternative, there is now a community-operated option for teams that want to start operating as brokers without waiting for direct access https://github.com/gonka-ai/gonka/discussions/1363.</p>
 <p>OpenBroker provides access to Gonka inference through devshards v1 and v2 under an already whitelisted escrow-operating wallet. It is intended for teams that want to build or test broker-side products without handling escrow enrollment, escrow funding and rotation, v1/v2 state-root differences, or node4 access.</p>
 <p>You can register here:
@@ -105,7 +105,7 @@ https://openbroker.gonka.gg/stats</p>
     <span class="issues-meta-item">commented 2026-06-24 07:42 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>@tcharchian 
+<p>@tcharchian 
 Hi, thanks for the clarification.</p>
 <p>Our team is already going through the onboarding process with OpenBroker, and we appreciate this option as a practical way to start operating.</p>
 <p>At the same time, we would still like to continue the discussion around being included in the official broker list, especially here: https://gonka.ai/docs/developer/quickstart/</p>
@@ -118,7 +118,7 @@ Hi, thanks for the clarification.</p>
     <span class="issues-meta-item">commented 2026-06-24 10:35 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>https://github.com/gonka-ai/gonka-docs/pull/1252 - We have prepared a PR</p>
+<p>https://github.com/gonka-ai/gonka-docs/pull/1252 - We have prepared a PR</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -127,7 +127,7 @@ Hi, thanks for the clarification.</p>
     <span class="issues-meta-item">commented 2026-06-27 01:27 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Hi @anikiyevichm, I wanted to raise a concern about the way your website is currently presented.
+<p>Hi @anikiyevichm, I wanted to raise a concern about the way your website is currently presented.
 All footer links on the site point to the official Gonka channels and gonka.ai. Even the “Docs” link in the website header does not lead to your own documentation, but to the official Gonka docs on gonka.ai.
 The site also lists Gonka’s audits and partners in a way that makes it look like those audits and partnerships apply to your service directly.</p>
 <p>Overall, the website is structured and presented differently from other brokers’ websites, and I think it may be misleading for users. It creates the impression that this is an official Gonka website, or that Gonka’s official partners, audits, and documentation are associated with your broker specifically.</p>

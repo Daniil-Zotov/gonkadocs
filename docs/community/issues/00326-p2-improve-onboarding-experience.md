@@ -2,7 +2,7 @@
 title: "#326 — [P2] Improve onboarding experience"
 source: https://github.com/gonka-ai/gonka/issues/326
 issue_number: 326
-synced_at: 2026-07-07T08:46:41Z
+synced_at: 2026-07-07T04:28:07Z
 template: issues-main.html
 ---
 
@@ -39,11 +39,11 @@ Description of the proposal:
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/Pegasus-starry">@Pegasus-starry</a></span>
+    <span>[@Pegasus-starry](https://github.com/Pegasus-starry)</span>
     <span class="issues-meta-item">commented 2025-12-08 18:47 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <ol>
+<ol>
 <li>How to judge if participant is actually in active set?  Is it the state from client: "current_status": "INFERENCE"?</li>
 <li>About "Pre-PoC Validation Flow...Manual testing request through admin interface...Send test inference request and validate response".  How to do this scenario? Is it to invoke mlnode interface "/v1/pow/init/generate" of mlnode in directory decentralized-api/internal/server/admin/?</li>
 <li>About "Provide countdown timers for user interfaces &amp; Alert users when they should be online."，is it need to provide one new interface and where the countdown info should be shown?  what's more,  how to alert users proactively?<br />
@@ -57,7 +57,7 @@ Or just shown in log ?</li>
     <span class="issues-meta-item">commented 2025-12-09 01:15 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <ol>
+<ol>
 <li>
 <p>You can use query defined in <code>query_current_epoch_group_data.go</code> and then iterate over participants. If you need to access this data in <code>decentralized-api</code> please make a client with <code>NewInferenceQueryClient</code></p>
 </li>
@@ -76,7 +76,7 @@ Or just shown in log ?</li>
     <span class="issues-meta-item">commented 2026-03-21 01:03 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Hey @zyz-007 @jacky6block @icydark @wushuo-6 @mumu714 @Ryanchen911 @x0152 @akup! It would be great if some of you could sync on the next steps for this pull request and make the needed decisions together. If you are able to move it forward on your own, it could potentially be included in v0.2.12. But overall, this is a nice-to-have rather than something critical.</p>
+<p>Hey @zyz-007 @jacky6block @icydark @wushuo-6 @mumu714 @Ryanchen911 @x0152 @akup! It would be great if some of you could sync on the next steps for this pull request and make the needed decisions together. If you are able to move it forward on your own, it could potentially be included in v0.2.12. But overall, this is a nice-to-have rather than something critical.</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -85,8 +85,10 @@ Or just shown in log ?</li>
     <span class="issues-meta-item">commented 2026-05-22 01:04 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Hey @zyz-007 @jacky6block @icydark @Ryanchen911 @x0152! It would be great if some of you could sync on the next steps for this issue and make the needed decisions together. If you are able to move it forward on your own, it could potentially be included in v0.2.14. But overall, this is a nice-to-have rather than something critical.</p>
+<p>Hey @zyz-007 @jacky6block @icydark @Ryanchen911 @x0152! It would be great if some of you could sync on the next steps for this issue and make the needed decisions together. If you are able to move it forward on your own, it could potentially be included in v0.2.14. But overall, this is a nice-to-have rather than something critical.</p>
 <p>See: https://github.com/gonka-ai/gonka/pull/866#issuecomment-4172544143</p>
+
+
   </div>
 </div>
 

@@ -2,7 +2,7 @@
 title: "#700 — Alphabetical Bias in PoC Slot Allocation"
 source: https://github.com/gonka-ai/gonka/issues/700
 issue_number: 700
-synced_at: 2026-07-07T08:47:38Z
+synced_at: 2026-07-07T04:29:37Z
 template: issues-main.html
 ---
 
@@ -46,7 +46,7 @@ Deterministic Shuffle: Implement a pseudo-random shuffle of the participant list
     <span class="issues-meta-item">commented 2026-02-18 10:47 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Fix submitted in PR #777 — adds a deterministic SHA256-seeded Fisher-Yates shuffle to <code>allocateMLNodePerPoCForModel</code>, following the same pattern already used in <code>sampleEligibleParticipantsWithHistory</code>. All 27 tests pass.</p>
+<p>Fix submitted in PR #777 — adds a deterministic SHA256-seeded Fisher-Yates shuffle to <code>allocateMLNodePerPoCForModel</code>, following the same pattern already used in <code>sampleEligibleParticipantsWithHistory</code>. All 27 tests pass.</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -55,8 +55,8 @@ Deterministic Shuffle: Implement a pseudo-random shuffle of the participant list
     <span class="issues-meta-item">commented 2026-03-02 12:26 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Assign to me plz. Task already done.</p>
-<h1>701</h1>
+<p>Assign to me plz. Task already done.</p>
+<h1>701</h1> 
   </div>
 </div>
 <div class="issues-comment">
@@ -65,7 +65,7 @@ Deterministic Shuffle: Implement a pseudo-random shuffle of the participant list
     <span class="issues-meta-item">commented 2026-03-03 23:44 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>@akup, I believe you worked on PoC Slot attack. Do you want to review these issues and PRs? Thanks</p>
+<p>@akup, I believe you worked on PoC Slot attack. Do you want to review these issues and PRs? Thanks</p>
   </div>
 </div>
 

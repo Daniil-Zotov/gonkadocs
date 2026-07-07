@@ -2,7 +2,7 @@
 title: "#915 — [P0] Benchmark `devshards`"
 source: https://github.com/gonka-ai/gonka/issues/915
 issue_number: 915
-synced_at: 2026-07-07T08:46:54Z
+synced_at: 2026-07-07T04:28:28Z
 template: issues-main.html
 ---
 
@@ -37,7 +37,7 @@ We should write a benchmark harness for this. Gonka has 3 testnets with 10 diffe
     <span class="issues-meta-item">commented 2026-03-26 15:20 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>The deadline is April 5th. </p>
+<p>The deadline is April 5th.</p> 
   </div>
 </div>
 

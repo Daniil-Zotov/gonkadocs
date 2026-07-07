@@ -2,7 +2,7 @@
 title: "#784 — [P2] Possible underfunded issues"
 source: https://github.com/gonka-ai/gonka/issues/784
 issue_number: 784
-synced_at: 2026-07-07T08:47:14Z
+synced_at: 2026-07-07T04:28:59Z
 template: issues-main.html
 ---
 
@@ -62,7 +62,7 @@ Any other method, as long as it serves the purpose, would work.
     <span class="issues-meta-item">commented 2026-02-21 08:10 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Working on it!</p>
+<p>Working on it!</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -71,7 +71,7 @@ Any other method, as long as it serves the purpose, would work.
     <span class="issues-meta-item">commented 2026-02-21 14:20 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <h2>Task 1 — analysis (updated with IDs)</h2>
+<h2>Task 1 — analysis (updated with IDs)</h2>
 <p><em>Same findings as before, now with IDs so the Task 2 PRs can reference them.</em></p>
 <p>Went through every runtime path where coins move out of a module account — <code>inference</code>, <code>bridge_escrow</code>, <code>top_reward</code>, <code>collateral</code>, <code>streamvesting</code>. Checked what happens if the sending account is underfunded at that moment.</p>
 <p>Found ~25 distinct payout/refund paths. 12 handle it fine (error returned, state rolls back). 13 have issues, plus 2 more found while working on the fixes. Listed below.</p>
@@ -109,6 +109,7 @@ Any other method, as long as it serves the purpose, would work.
 <hr />
 <h3>what's fine</h3>
 <p>Direct payments, vested payments, burns, refund wrapper, governance transfers, invalidation refunds, bridge release/rollback, slash/burn, minting — all return errors correctly.</p>
+
   </div>
 </div>
 <div class="issues-comment">
@@ -117,7 +118,7 @@ Any other method, as long as it serves the purpose, would work.
     <span class="issues-meta-item">commented 2026-02-22 18:38 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <h2>Task 2 — fixes</h2>
+<h2>Task 2 — fixes</h2>
 <p>Two PRs.</p>
 <p><strong>PR 1</strong> (#787) — settlement bugs in <code>accountsettle.go</code>. Panic fix, CacheContext wrap, error checking, cleanup separation. Covers F-01 through F-05.</p>
 <p><strong>PR 2</strong> (#789) — applies the same CacheContext approach to ClaimRewards, inference expiry, streamvesting, and FinishInference. Also did a full integer narrowing audit and EndBlock error path audit. Covers F-06, F-07, F-08, F-09, F-12, F-14, F-15. Each atomicity fix has a rollback test that would fail without CacheContext (proving the bug) and passes with it (proving the fix).</p>
@@ -128,6 +129,7 @@ Any other method, as long as it serves the purpose, would work.
 <li><strong>[F-11]</strong> collateral unbonding aborts on first failure. Should the loop keep going and leave the failed entry for next epoch, or should the whole batch fail?</li>
 <li><strong>[F-13]</strong> <code>addTimeout</code> is void. If the timeout write fails, inference sits in STARTED forever. Should StartInference roll back the whole inference, or continue without expiry tracking?</li>
 </ul>
+
   </div>
 </div>
 <div class="issues-comment">
@@ -136,7 +138,7 @@ Any other method, as long as it serves the purpose, would work.
     <span class="issues-meta-item">commented 2026-02-23 14:50 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <h2>Task 3 — standardized handling for underfunded events</h2>
+<h2>Task 3 — standardized handling for underfunded events</h2>
 <p>Principles based off Task 1 analysis and Task 2 fixes. Every fund-movement path should conform to these. Exceptions listed at the bottom.</p>
 <hr />
 <h3>Principles</h3>
@@ -195,6 +197,7 @@ Needs teaam input.</p>
 <hr />
 <h3>How to verify</h3>
 <p>TASK 4</p>
+
   </div>
 </div>
 

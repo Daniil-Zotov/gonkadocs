@@ -2,7 +2,7 @@
 title: "#985 — [P0] Bug: unsupported OpenAI type input for the inference requests"
 source: https://github.com/gonka-ai/gonka/issues/985
 issue_number: 985
-synced_at: 2026-07-07T08:47:18Z
+synced_at: 2026-07-07T04:29:06Z
 template: issues-main.html
 ---
 
@@ -35,7 +35,7 @@ decentralized-api rejects valid Cursor/OpenAI chat requests where messages[].con
     <span class="issues-meta-item">commented 2026-03-31 15:16 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Check David's thoughts on this in the branch: https://github.com/gonka-ai/gonka/compare/main...codex/dl/diagnose-multimodal-content-parsing</p>
+<p>Check David's thoughts on this in the branch: https://github.com/gonka-ai/gonka/compare/main...codex/dl/diagnose-multimodal-content-parsing</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -44,8 +44,8 @@ decentralized-api rejects valid Cursor/OpenAI chat requests where messages[].con
     <span class="issues-meta-item">commented 2026-03-31 15:16 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>@tcharchian FYI
-@patimen @DimaOrekhovPS Can you take a look? </p>
+<p>@tcharchian FYI
+@patimen @DimaOrekhovPS Can you take a look?</p> 
   </div>
 </div>
 <div class="issues-comment">
@@ -54,7 +54,7 @@ decentralized-api rejects valid Cursor/OpenAI chat requests where messages[].con
     <span class="issues-meta-item">commented 2026-03-31 16:31 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Hey! If we're talking about the current /v1/chat/completions endpoint then #614 covers this</p>
+<p>Hey! If we're talking about the current /v1/chat/completions endpoint then #614 covers this</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -63,7 +63,7 @@ decentralized-api rejects valid Cursor/OpenAI chat requests where messages[].con
     <span class="issues-meta-item">commented 2026-04-01 03:09 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>@x0152 thanks! @DimaOrekhovPS will be working on merging David's changes first. And then will ask you @x0152  to merge them in David's branch. Hope that works for you</p>
+<p>@x0152 thanks! @DimaOrekhovPS will be working on merging David's changes first. And then will ask you @x0152  to merge them in David's branch. Hope that works for you</p>
   </div>
 </div>
 

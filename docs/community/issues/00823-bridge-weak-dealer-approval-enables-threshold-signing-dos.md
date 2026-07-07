@@ -2,7 +2,7 @@
 title: "#823 — Bridge: Weak Dealer Approval Enables Threshold Signing DoS"
 source: https://github.com/gonka-ai/gonka/issues/823
 issue_number: 823
-synced_at: 2026-07-07T08:47:19Z
+synced_at: 2026-07-07T04:29:07Z
 template: issues-main.html
 ---
 
@@ -57,7 +57,7 @@ Later, the dealer (or colluder) withholds its partial signature, pushing the usa
     <span class="issues-meta-item">commented 2026-02-28 13:19 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>I'd like to help with this </p>
+<p>I'd like to help with this </p>
 <h1>825 (WIP)</h1>
   </div>
 </div>
@@ -67,7 +67,7 @@ Later, the dealer (or colluder) withholds its partial signature, pushing the usa
     <span class="issues-meta-item">commented 2026-03-02 05:10 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>@x0152 Can you please explain, how does proof work in your implementation?</p>
+<p>@x0152 Can you please explain, how does proof work in your implementation?</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -76,7 +76,7 @@ Later, the dealer (or colluder) withholds its partial signature, pushing the usa
     <span class="issues-meta-item">commented 2026-03-02 11:52 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>It's not finished yet but what I already made:
+<p>It's not finished yet but what I already made:
 1. Proof for true votes - when a participant votes true for a dealer, they must sign a message using shares they got from that dealer. The chain checks this signature against the dealer's public commitments. If signature is invalid or missing, the vote is rejected. So you can't vote true without actually having valid shares
 2. Slot-weighted quorum - dealer approval is now counted by slots, not by number of participants. The dealer also can't approve itself</p>
 <p>Also added a description to the PR</p>
@@ -88,7 +88,7 @@ Later, the dealer (or colluder) withholds its partial signature, pushing the usa
     <span class="issues-meta-item">commented 2026-03-02 16:19 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <blockquote>
+<blockquote>
 <ol>
 <li>Proof for true votes - when a participant votes true for a dealer, they must sign a message using shares they got from that dealer. The chain checks this signature against the dealer's public commitments. If signature is invalid or missing, the vote is rejected. So you can't vote true without actually having valid shares</li>
 </ol>

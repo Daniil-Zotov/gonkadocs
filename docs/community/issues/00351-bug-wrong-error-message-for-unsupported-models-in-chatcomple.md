@@ -2,7 +2,7 @@
 title: "#351 — BUG: Wrong error message for unsupported models in /chat/completions"
 source: https://github.com/gonka-ai/gonka/issues/351
 issue_number: 351
-synced_at: 2026-07-07T08:47:04Z
+synced_at: 2026-07-07T04:28:44Z
 template: issues-main.html
 ---
 
@@ -37,7 +37,7 @@ When inference for unsupported message requested, system returns:
     <span class="issues-meta-item">commented 2026-01-28 22:23 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Needs to be rechecked</p>
+<p>Needs to be rechecked</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -46,7 +46,7 @@ When inference for unsupported message requested, system returns:
     <span class="issues-meta-item">commented 2026-02-08 14:14 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>PR created: https://github.com/gonka-ai/gonka/pull/679</p>
+<p>PR created: https://github.com/gonka-ai/gonka/pull/679</p>
 <p>Fixes wrong error message for unsupported models in /chat/completions.</p>
   </div>
 </div>
@@ -56,7 +56,7 @@ When inference for unsupported message requested, system returns:
     <span class="issues-meta-item">commented 2026-02-12 15:26 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>I already have a PR for this: #679 — fixes the wrong error message for unsupported models. Would appreciate a review when you get a chance.</p>
+<p>I already have a PR for this: #679 — fixes the wrong error message for unsupported models. Would appreciate a review when you get a chance.</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -65,7 +65,7 @@ When inference for unsupported message requested, system returns:
     <span class="issues-meta-item">commented 2026-03-19 22:42 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Starting work on this. Previous PR was closed as stale — will investigate the current error handling path and submit a fix. ETA: 2-3 days.</p>
+<p>Starting work on this. Previous PR was closed as stale — will investigate the current error handling path and submit a fix. ETA: 2-3 days.</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -74,7 +74,7 @@ When inference for unsupported message requested, system returns:
     <span class="issues-meta-item">commented 2026-04-28 17:15 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Already fixed in #614. Closing</p>
+<p>Already fixed in #614. Closing</p>
   </div>
 </div>
 

@@ -2,7 +2,7 @@
 title: "#1053 — Security Audit: Systematic review across inference chain, bridge, subnet, and API layers"
 source: https://github.com/gonka-ai/gonka/issues/1053
 issue_number: 1053
-synced_at: 2026-07-07T08:47:02Z
+synced_at: 2026-07-07T04:28:41Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item"><a href="https://github.com/Doog-bot534">@Doog-bot534</a> opened 2026-04-15 07:05 UTC</span>
+    <span class="issues-meta-item">[@Doog-bot534](https://github.com/Doog-bot534) opened 2026-04-15 07:05 UTC</span>
     <span class="issues-meta-item">3 comments</span>
     <span class="issues-meta-item">Updated 2026-04-29 01:45 UTC</span>
   </div>
@@ -124,11 +124,11 @@ I plan to submit additional fix PRs for the remaining findings if the team is in
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/Doog-bot534">@Doog-bot534</a></span>
+    <span>[@Doog-bot534](https://github.com/Doog-bot534)</span>
     <span class="issues-meta-item">commented 2026-04-15 07:14 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <h2>Payout Address</h2>
+<h2>Payout Address</h2>
 <p>If any of the findings or fix PRs (#1050, #1051, #1052, #1054, #1055, #1056, #1057) are eligible for bounty rewards, please send to:</p>
 <pre><code>gonka10zaal553duxp05nvfpqtsqrm2g0j6j34r8nan7
 </code></pre>
@@ -137,11 +137,11 @@ I plan to submit additional fix PRs for the remaining findings if the team is in
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/Doog-bot534">@Doog-bot534</a></span>
+    <span>[@Doog-bot534](https://github.com/Doog-bot534)</span>
     <span class="issues-meta-item">commented 2026-04-20 02:00 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>2026-04-20 self-review update: withdrawing findings <strong>#3, #8, #16, #21</strong> (see "Withdrawn findings" section in the updated body). Same review pass closed PRs #1077 and #1058.</p>
+<p>2026-04-20 self-review update: withdrawing findings <strong>#3, #8, #16, #21</strong> (see "Withdrawn findings" section in the updated body). Same review pass closed PRs #1077 and #1058.</p>
 <p>Rationale:
 - <strong>#3, #8</strong> (subnetctl zero-auth, unbounded body) — <code>subnetctl</code> is a user-side local CLI proxy for the escrow owner (localhost:8080), not a multi-tenant service. Threat model doesn't apply.
 - <strong>#16</strong> (SSRF via escrowID in REST bridge) — <code>baseURL</code> is operator-controlled config, so this is a same-origin internal-path concern, same class as the earlier withdrawn #1064.
@@ -151,11 +151,11 @@ I plan to submit additional fix PRs for the remaining findings if the team is in
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/Doog-bot534">@Doog-bot534</a></span>
+    <span>[@Doog-bot534](https://github.com/Doog-bot534)</span>
     <span class="issues-meta-item">commented 2026-04-20 14:54 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <h2>Cleanup summary (2026-04-20)</h2>
+<h2>Cleanup summary (2026-04-20)</h2>
 <p>Per maintainer feedback on PR quality, I've completed a self-audit of all submissions under this umbrella. Summary:</p>
 <h3>Withdrawn (target removed code)</h3>
 <ul>
@@ -227,6 +227,7 @@ I plan to submit additional fix PRs for the remaining findings if the team is in
 </tbody>
 </table>
 <p>Going forward I'll only submit PRs after running ai-reviewer locally and validating against current master.</p>
+
   </div>
 </div>
 

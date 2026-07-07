@@ -2,7 +2,7 @@
 title: "#1257 — Request to be added as a Gonka broker"
 source: https://github.com/gonka-ai/gonka/issues/1257
 issue_number: 1257
-synced_at: 2026-07-07T08:46:35Z
+synced_at: 2026-07-07T04:27:57Z
 template: issues-main.html
 ---
 
@@ -76,7 +76,7 @@ stabilize.
 
 - Operator: len5ky
 - Contact: len5ky@gonkarelay.com
-- GitHub: [@len5ky](https://github.com/len5ky)
+- GitHub: <a href="https://github.com/len5ky">@len5ky</a>
 - Discord: nsky9985
 
 ## On-chain identity
@@ -191,7 +191,7 @@ Gonka Relay
     <span class="issues-meta-item">commented 2026-07-03 00:37 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Hi @len5ky! Thanks, this is one of the most thorough operator applications filed here. A few things to separate, because you're actually asking for two different things governed differently.</p>
+<p>Hi @len5ky! Thanks, this is one of the most thorough operator applications filed here. A few things to separate, because you're actually asking for two different things governed differently.</p>
 <p>On the allowlist (<code>devshard_escrow_params.allowed_creator_addresses</code>): additions happen only through on-chain governance — a param-change proposal or inclusion in a governance-approved upgrade batch. No maintainer adds an address unilaterally. Filing this issue with a funded, pubkey-published address is exactly the right way to register intent, but inclusion and timing are governance-dependent and not guaranteed, so please don't gate your roadmap on a specific approval date.</p>
 <p>On directory listing, stand your endpoint up on a managed devshard backend (more on that below), run real traffic, and let the numbers accumulate — community observability dashboards like G-Meter (https://meter.gonka.gg/), Gonka Power (https://power.gnk.space/), https://openbroker.gonka.gg/stats independently probe public broker endpoints, so your stats become verifiable by anyone. Once gonkarelay.com is live and has a few weeks of good public numbers behind it, a pull request to the docs adding it to the broker list is the natural next step.</p>
 <p>One factual update for your plan: <code>Qwen/Qwen3-235B-A22B-Instruct-2507-FP8</code> has been retired from the network, so the benchmarking matrix and the "secondary model" intent should be re-scoped around what's currently active — the model set is decided by governance per epoch, so check the live list via <code>GET /v1/models</code>. </p>

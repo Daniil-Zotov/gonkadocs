@@ -2,7 +2,7 @@
 title: "#1081 — Binomial test p0 floor/ceiling mismatch — stricter downtime threshold silently never enforced"
 source: https://github.com/gonka-ai/gonka/issues/1081
 issue_number: 1081
-synced_at: 2026-07-07T08:47:11Z
+synced_at: 2026-07-07T04:28:55Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item"><a href="https://github.com/Doog-bot534">@Doog-bot534</a> opened 2026-04-16 03:25 UTC</span>
+    <span class="issues-meta-item">[@Doog-bot534](https://github.com/Doog-bot534) opened 2026-04-16 03:25 UTC</span>
     <span class="issues-meta-item">2 comments</span>
     <span class="issues-meta-item">Updated 2026-04-20 01:35 UTC</span>
   </div>
@@ -94,7 +94,7 @@ Payout address: `gonka10zaal553duxp05nvfpqtsqrm2g0j6j34r8nan7`
     <span class="issues-meta-item">commented 2026-04-19 19:22 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Reviewed the code paths. I believe this mismatch is <strong>not exploitable</strong> in the current codebase — here's why:</p>
+<p>Reviewed the code paths. I believe this mismatch is <strong>not exploitable</strong> in the current codebase — here's why:</p>
 <p><strong><code>getDynamicP0</code> always returns an exact permille</strong></p>
 <p><code>getDynamicP0</code> (bitcoin_rewards.go:558) returns <code>permilleToP0Decimal(finalPermille)</code>, where <code>finalPermille</code> is always one of the supported table values (50, 100, 200, 300, 400, 500) — produced by <code>ceilToSupportedP0Permille</code>.</p>
 <p><code>permilleToP0Decimal(100)</code> → <code>Decimal{Value: 100, Exponent: -3}</code> → exactly <code>0.100</code>.</p>
@@ -108,11 +108,11 @@ Payout address: `gonka10zaal553duxp05nvfpqtsqrm2g0j6j34r8nan7`
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/Doog-bot534">@Doog-bot534</a></span>
+    <span>[@Doog-bot534](https://github.com/Doog-bot534)</span>
     <span class="issues-meta-item">commented 2026-04-20 01:35 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Thanks @unameisfine for the thorough walkthrough — you're right, and I've reverified against the code paths.</p>
+<p>Thanks @unameisfine for the thorough walkthrough — you're right, and I've reverified against the code paths.</p>
 <p><strong>Confirmed on my side:</strong></p>
 <ol>
 <li><code>getDynamicP0</code> always returns <code>permilleToP0Decimal(finalPermille)</code> where <code>finalPermille</code> ∈ {50, 100, 200, 300, 400, 500} after <code>ceilToSupportedP0Permille</code>. The returned <code>Decimal{Value: N, Exponent: -3}</code> is exactly <code>N/1000</code>, so <code>decimalToPermille</code> (floor) produces the same permille as the ceiling-based selection — no mismatch reaches <code>MissedStatTest</code>.</li>

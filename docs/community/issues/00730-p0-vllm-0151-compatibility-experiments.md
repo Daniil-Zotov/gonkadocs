@@ -2,7 +2,7 @@
 title: "#730 — [P0] vLLM 0.15.1 Compatibility Experiments"
 source: https://github.com/gonka-ai/gonka/issues/730
 issue_number: 730
-synced_at: 2026-07-07T08:47:25Z
+synced_at: 2026-07-07T04:29:16Z
 template: issues-main.html
 ---
 
@@ -35,7 +35,7 @@ template: issues-main.html
     <span class="issues-meta-item">commented 2026-03-03 03:04 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>PoC and inference (tentatively) seem compatible, in the next 2 days we'll try to deploy 2 nodes with 15 version and know for sute about the comaptibility</p>
+<p>PoC and inference (tentatively) seem compatible, in the next 2 days we'll try to deploy 2 nodes with 15 version and know for sute about the comaptibility</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -44,7 +44,7 @@ template: issues-main.html
     <span class="issues-meta-item">commented 2026-03-17 19:15 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <h1>ML Node Migration to vLLM 0.15.1 — Results and Artifacts</h1>
+<h1>ML Node Migration to vLLM 0.15.1 — Results and Artifacts</h1>
 <h2>Summary</h2>
 <p>The <a href="https://github.com/kaitakuai">kaitaku.ai</a> team together with Tamaz Gadaev completed the migration of ML Node from vLLM 0.9.1 to 0.15.1 for the Gonka network, including:</p>
 <ul>
@@ -675,6 +675,8 @@ template: issues-main.html
 </tr>
 </tbody>
 </table>
+
+
   </div>
 </div>
 

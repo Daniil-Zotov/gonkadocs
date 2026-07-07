@@ -2,7 +2,7 @@
 title: "#1219 — [P0] Basic primitives for training"
 source: https://github.com/gonka-ai/gonka/issues/1219
 issue_number: 1219
-synced_at: 2026-07-07T08:46:41Z
+synced_at: 2026-07-07T04:28:06Z
 template: issues-main.html
 ---
 
@@ -39,7 +39,7 @@ Put together a lightweight training flow without the heavy logic we have in devs
     <span class="issues-meta-item">commented 2026-06-23 19:38 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Here's the draft plan and draft of the first-stage PR:</p>
+<p>Here's the draft plan and draft of the first-stage PR:</p>
 <p>Plan (draft): https://docs.google.com/document/d/1LLZngQ7VoIL3DVT8St40XLE8HcRcxyNXZueyzoQfWuE/edit?tab=t.0
 PR (stage 1): #1350 </p>
 <p>Any help is welcome, from shaping the plan to implementation and reviews</p>
@@ -51,7 +51,7 @@ PR (stage 1): #1350 </p>
     <span class="issues-meta-item">commented 2026-06-23 21:44 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Hi @mtvnastya , I’d like to help with this if there is still an open sub-scope.</p>
+<p>Hi @mtvnastya , I’d like to help with this if there is still an open sub-scope.</p>
 <p>My understanding is that this should be a lightweight mainnet training primitive, not a full devshards port: define/register a training workload, dispatch it to ML nodes, track basic execution state/result metadata, and leave redeployment/heavy orchestration out of scope.</p>
 <p>I can start with a small PR around the training task/request model + API flow + minimal tests, then follow up with ML-node execution hooks if that direction works.</p>
 <p>Could you confirm which part you’d prefer contributors to start with?</p>
@@ -63,8 +63,10 @@ PR (stage 1): #1350 </p>
     <span class="issues-meta-item">commented 2026-06-24 22:54 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Hi @orvionx, I've already started working on this and opened a draft PR for the first stage: #1350. There's also a draft plan here: https://docs.google.com/document/d/1LLZngQ7VoIL3DVT8St40XLE8HcRcxyNXZueyzoQfWuE/edit?tab=t.0</p>
+<p>Hi @orvionx, I've already started working on this and opened a draft PR for the first stage: #1350. There's also a draft plan here: https://docs.google.com/document/d/1LLZngQ7VoIL3DVT8St40XLE8HcRcxyNXZueyzoQfWuE/edit?tab=t.0</p>
 <p>I'd be happy if you could join. Could you take a look at the plan and share your thoughts? Stage 2 can be implemented in parallel with stage 1</p>
+
+
   </div>
 </div>
 <div class="issues-comment">
@@ -73,7 +75,7 @@ PR (stage 1): #1350 </p>
     <span class="issues-meta-item">commented 2026-06-24 23:03 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Hi @x0152 Thanks for the mention — I’d be happy to join and help with this.</p>
+<p>Hi @x0152 Thanks for the mention — I’d be happy to join and help with this.</p>
 <p>I reviewed the Stage 1 direction from PR #1350. My understanding is that Stage 1 mainly covers the on-chain reservation/release lifecycle, while Stage 2 can focus more on the actual training execution layer and coordination flow between reserved nodes.</p>
 <p>My initial thoughts:</p>
 <ul>
@@ -84,6 +86,7 @@ PR (stage 1): #1350 </p>
 <li>I can also help with tests around edge cases and documentation for how hosts/researchers should use the flow.</li>
 </ul>
 <p>I’ll continue reviewing the plan in more detail, but overall I agree that Stage 2 looks suitable to implement in parallel with Stage 1 if the interface boundary is defined clearly.</p>
+
   </div>
 </div>
 

@@ -2,7 +2,7 @@
 title: "#764 — Epoch 158 reward underpayment after v0.2.9: preserved inference-slot weight was reset"
 source: https://github.com/gonka-ai/gonka/issues/764
 issue_number: 764
-synced_at: 2026-07-07T08:47:41Z
+synced_at: 2026-07-07T04:29:41Z
 template: issues-main.html
 ---
 
@@ -52,7 +52,7 @@ After upgrade v0.2.9, part of epoch 158 rewards appears to be distributed incorr
     <span class="issues-meta-item">commented 2026-02-17 21:52 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>PR with fix: #771 — removes resetPocSlotsInEpochGroupData from v0.2.9 upgrade handler. This function reset TimeslotAllocation[1] in EpochGroupData which is read during reward settlement, zeroing preservedWeight for all validators in epoch 158.</p>
+<p>PR with fix: #771 — removes resetPocSlotsInEpochGroupData from v0.2.9 upgrade handler. This function reset TimeslotAllocation[1] in EpochGroupData which is read during reward settlement, zeroing preservedWeight for all validators in epoch 158.</p>
 <p>Note: this is a forward-fix for chain replay correctness. Compensation for epoch 158 affected validators requires a separate governance proposal.</p>
   </div>
 </div>

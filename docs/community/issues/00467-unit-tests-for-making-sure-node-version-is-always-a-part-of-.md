@@ -2,7 +2,7 @@
 title: "#467 — Unit tests for making sure node version is always a part of endpoint and it's updated when version changes on chain"
 source: https://github.com/gonka-ai/gonka/issues/467
 issue_number: 467
-synced_at: 2026-07-07T08:47:49Z
+synced_at: 2026-07-07T04:29:54Z
 template: issues-main.html
 ---
 
@@ -40,7 +40,7 @@ After that, feel free to contact me on Discord: `tatianacharchian_07833`.
     <span class="issues-meta-item">commented 2026-01-23 20:30 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Task is open for contribution and @DimaOrekhovPS can help if any questions arise</p>
+<p>Task is open for contribution and @DimaOrekhovPS can help if any questions arise</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -49,7 +49,7 @@ After that, feel free to contact me on Discord: `tatianacharchian_07833`.
     <span class="issues-meta-item">commented 2026-01-24 21:05 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Added unit tests in PR #640 - covers SetCurrentNodeVersion, ShouldRefreshClients, SyncVersionFromChain, and version update triggering client refresh.</p>
+<p>Added unit tests in PR #640 - covers SetCurrentNodeVersion, ShouldRefreshClients, SyncVersionFromChain, and version update triggering client refresh.</p>
   </div>
 </div>
 

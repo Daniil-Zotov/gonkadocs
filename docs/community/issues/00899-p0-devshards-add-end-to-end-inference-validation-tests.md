@@ -2,7 +2,7 @@
 title: "#899 — [P0] `devshards`: Add end-to-end inference validation tests"
 source: https://github.com/gonka-ai/gonka/issues/899
 issue_number: 899
-synced_at: 2026-07-07T08:47:18Z
+synced_at: 2026-07-07T04:29:05Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item"><a href="https://github.com/heitor-lassarote">@heitor-lassarote</a> opened 2026-03-16 18:50 UTC</span>
+    <span class="issues-meta-item">[@heitor-lassarote](https://github.com/heitor-lassarote) opened 2026-03-16 18:50 UTC</span>
     <span class="issues-meta-item">3 comments</span>
     <span class="issues-meta-item">Updated 2026-04-07 16:10 UTC</span>
   </div>
@@ -31,11 +31,11 @@ We should write testermint tests to ensure that inference validations in `devsha
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/heitor-lassarote">@heitor-lassarote</a></span>
+    <span>[@heitor-lassarote](https://github.com/heitor-lassarote)</span>
     <span class="issues-meta-item">commented 2026-03-19 17:46 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Note: I took a little detour from this task to see if I can make the development loop with testermint a bit quicker, by writing a small REPL to interact with the <code>devshard</code>.</p>
+<p>Note: I took a little detour from this task to see if I can make the development loop with testermint a bit quicker, by writing a small REPL to interact with the <code>devshard</code>.</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -44,16 +44,16 @@ We should write testermint tests to ensure that inference validations in `devsha
     <span class="issues-meta-item">commented 2026-03-26 15:14 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Will be done by March 27th.</p>
+<p>Will be done by March 27th.</p>
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/heitor-lassarote">@heitor-lassarote</a></span>
+    <span>[@heitor-lassarote](https://github.com/heitor-lassarote)</span>
     <span class="issues-meta-item">commented 2026-03-26 15:31 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>I've written a couple of Testermint tests and added an endpoint to get the inference from the proxy server.</p>
+<p>I've written a couple of Testermint tests and added an endpoint to get the inference from the proxy server.</p>
 <p>Recently I've been trying to see about changing the session configuration for tests. Although not sure yet if that's the best path forward.</p>
 <p>I expect to push a PR with these tests very soon.</p>
   </div>

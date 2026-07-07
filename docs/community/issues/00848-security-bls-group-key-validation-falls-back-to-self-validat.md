@@ -2,7 +2,7 @@
 title: "#848 — Security: BLS group key validation falls back to self-validation when previous epoch data is missing"
 source: https://github.com/gonka-ai/gonka/issues/848
 issue_number: 848
-synced_at: 2026-07-07T08:47:31Z
+synced_at: 2026-07-07T04:29:25Z
 template: issues-main.html
 ---
 
@@ -80,7 +80,7 @@ If bootstrapping for the very first epoch is required, handle it explicitly with
     <span class="issues-meta-item">commented 2026-03-03 12:15 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Investigated the fallback path at line 74 of <code>msg_server_group_validation.go</code>.</p>
+<p>Investigated the fallback path at line 74 of <code>msg_server_group_validation.go</code>.</p>
 <p>When <code>previousEpochBLSData</code> is not found, the code assigns <code>previousEpochBLSData = newEpochBLSData</code>.
 This means:
 1. <code>verifyBLSPartialSignatureBlst</code> checks signatures against the new epoch's own slot keys
@@ -96,7 +96,7 @@ accepted without any external verification. Fix: return error when previous epoc
     <span class="issues-meta-item">commented 2026-03-03 12:16 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <blockquote>
+<blockquote>
 <p>Investigated the fallback path at line 74 of <code>msg_server_group_validation.go</code>.</p>
 <p>When <code>previousEpochBLSData</code> is not found, the code assigns <code>previousEpochBLSData = newEpochBLSData</code>. This means:</p>
 <ol>

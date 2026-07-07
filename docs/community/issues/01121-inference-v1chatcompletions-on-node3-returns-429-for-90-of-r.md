@@ -2,7 +2,7 @@
 title: "#1121 — Inference /v1/chat/completions on node3 returns 429 for ~90% of requests — single live TA caps community gateways at ~10% pass-rate"
 source: https://github.com/gonka-ai/gonka/issues/1121
 issue_number: 1121
-synced_at: 2026-07-07T08:46:57Z
+synced_at: 2026-07-07T04:28:32Z
 template: issues-main.html
 ---
 
@@ -172,7 +172,7 @@ or any benchmark scripts on request.
     <span class="issues-meta-item">commented 2026-04-30 09:52 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Hey @unameisfine - this is the GonkaLabs team.</p>
+<p>Hey @unameisfine - this is the GonkaLabs team.</p>
 <p>To address your question about proxy.gonka.gg consistently sitting above 90% uptime: no, we don't have any special privileges on the network. Here's what's actually under the hood:</p>
 <p>Smart TA rotation - we hop between Transfer Agents instead of pinning to a single one, so a slow or rate-limited TA never blocks the pipeline.
 A small upstream wallet pool (3 wallets) - purely for distributing signing load across multiple identities. It doesn't grant any special standing on the network; any user can do the same.
@@ -186,7 +186,7 @@ So the answer is just: aggressive tuning, nothing more. Everything is open sourc
     <span class="issues-meta-item">commented 2026-05-21 21:03 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>@unameisfine Please note that the Developer Quickstart has been significantly updated: https://gonka.ai/docs/developer/quickstart/ If you still have any questions after reviewing it, please create a new issue.</p>
+<p>@unameisfine Please note that the Developer Quickstart has been significantly updated: https://gonka.ai/docs/developer/quickstart/ If you still have any questions after reviewing it, please create a new issue.</p>
   </div>
 </div>
 

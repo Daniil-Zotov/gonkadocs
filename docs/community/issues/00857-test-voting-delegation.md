@@ -2,7 +2,7 @@
 title: "#857 — Test voting delegation"
 source: https://github.com/gonka-ai/gonka/issues/857
 issue_number: 857
-synced_at: 2026-07-07T08:47:37Z
+synced_at: 2026-07-07T04:29:35Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 2026-03-03 18:30 UTC</span>
+    <span class="issues-meta-item">[@maria-mitina](https://github.com/maria-mitina) opened 2026-03-03 18:30 UTC</span>
     <span class="issues-meta-item">4 comments</span>
     <span class="issues-meta-item">Updated 2026-03-06 00:15 UTC</span>
   </div>
@@ -40,11 +40,11 @@ Testnet will be used for the flow verification.
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/maria-mitina">@maria-mitina</a></span>
+    <span>[@maria-mitina](https://github.com/maria-mitina)</span>
     <span class="issues-meta-item">commented 2026-03-04 12:15 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>all test cases on testnet PASSED with a caveat that the TX does not fail explicitly. (<strong>Expected:</strong> Tx fails (e.g. “authorization not found” / “unauthorized”). <strong>Reality:</strong> Nothing indicating that the voting did not go through)</p>
+<p>all test cases on testnet PASSED with a caveat that the TX does not fail explicitly. (<strong>Expected:</strong> Tx fails (e.g. “authorization not found” / “unauthorized”). <strong>Reality:</strong> Nothing indicating that the voting did not go through)</p>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 <head>
@@ -144,6 +144,7 @@ Tally | Query votes after success | Granter appears with correct option
 
 </body>
 </html>
+
   </div>
 </div>
 <div class="issues-comment">
@@ -152,7 +153,8 @@ Tally | Query votes after success | Granter appears with correct option
     <span class="issues-meta-item">commented 2026-03-05 23:46 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Hey @mayveskii, could you please clarify why you referenced this issue in [d4e74c4] and [e5995db]? Do you have any issues with delegating?</p>
+<p>Hey @mayveskii, could you please clarify why you referenced this issue in [d4e74c4] and [e5995db]? Do you have any issues with delegating?</p>
+
   </div>
 </div>
 <div class="issues-comment">
@@ -161,7 +163,7 @@ Tally | Query votes after success | Granter appears with correct option
     <span class="issues-meta-item">commented 2026-03-06 00:05 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <blockquote>
+<blockquote>
 <p>Hey <a href="https://github.com/Mayveskii">@Mayveskii</a>, could you please clarify why you referenced this issue in [<a href="https://github.com/gonka-ai/gonka/commit/d4e74c4da683bb4a1ee894a5004af2247ac65c3c">d4e74c4</a>] and [<a href="https://github.com/gonka-ai/gonka/commit/e5995db2391d9d1b9037ffd0b3c5d2344437bd2c">e5995db</a>]? Do you have any issues with delegating?</p>
 </blockquote>
 <p>Hi, Tanya!  I'm interested in participating as a grantee in the delegation test.</p>
@@ -177,7 +179,7 @@ Currently working on GIP #859 (semantic cache) and need tokens for both the dele
     <span class="issues-meta-item">commented 2026-03-06 00:15 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <blockquote>
+<blockquote>
 <p>Hey <a href="https://github.com/Mayveskii">@Mayveskii</a>, could you please clarify why you referenced this issue in [<a href="https://github.com/gonka-ai/gonka/commit/d4e74c4da683bb4a1ee894a5004af2247ac65c3c">d4e74c4</a>] and [<a href="https://github.com/gonka-ai/gonka/commit/e5995db2391d9d1b9037ffd0b3c5d2344437bd2c">e5995db</a>]? Do you have any issues with delegating?</p>
 </blockquote>
 <p>I referenced it intentionally — while working on GIP #859 

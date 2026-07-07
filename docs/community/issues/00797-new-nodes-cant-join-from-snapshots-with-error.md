@@ -2,7 +2,7 @@
 title: "#797 — New nodes can't join from snapshots with error"
 source: https://github.com/gonka-ai/gonka/issues/797
 issue_number: 797
-synced_at: 2026-07-07T08:47:41Z
+synced_at: 2026-07-07T04:29:41Z
 template: issues-main.html
 ---
 
@@ -53,11 +53,11 @@ Also, collateral needs to be checked.
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/hleb-albau">@hleb-albau</a></span>
+    <span>[@hleb-albau](https://github.com/hleb-albau)</span>
     <span class="issues-meta-item">commented 2026-02-24 19:53 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>As a workaround(before fix), it is possible to just compress data folder(except some filers) and distribute it as is archive. Quite popular in cosmos world. See https://snapshots.osmosis.zone/index.html as example</p>
+<p>As a workaround(before fix), it is possible to just compress data folder(except some filers) and distribute it as is archive. Quite popular in cosmos world. See https://snapshots.osmosis.zone/index.html as example</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -66,7 +66,7 @@ Also, collateral needs to be checked.
     <span class="issues-meta-item">commented 2026-02-24 20:11 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>@hleb-albau thanks, that makes sense and it’s a well-known approach in the Cosmos ecosystem. You are right, it’s more of an operational workaround than a real fix (it doesn’t address the underlying issue we’re trying to solve)</p>
+<p>@hleb-albau thanks, that makes sense and it’s a well-known approach in the Cosmos ecosystem. You are right, it’s more of an operational workaround than a real fix (it doesn’t address the underlying issue we’re trying to solve)</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -75,7 +75,7 @@ Also, collateral needs to be checked.
     <span class="issues-meta-item">commented 2026-02-24 21:35 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Additional feedback:
+<p>Additional feedback:
 The issue was observed before collateral slashing was activated. During epoch 179 have been observing same error.
 Known failed attempt time around Feb 21st 01:47 UTC</p>
   </div>
@@ -86,7 +86,7 @@ Known failed attempt time around Feb 21st 01:47 UTC</p>
     <span class="issues-meta-item">commented 2026-02-24 23:49 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>The issue is in <a href="https://github.com/cosmos/iavl/tree/v1.2.4">cosmos/iavl v1.2.4</a></p>
+<p>The issue is in <a href="https://github.com/cosmos/iavl/tree/v1.2.4">cosmos/iavl v1.2.4</a></p>
 <p>After snapshot restore, IAVL rebuilds a "fast node" index by iterating the tree. If the iterator hits an error mid-way, it silently stops - the error is never stored (<a href="https://github.com/cosmos/iavl/blob/v1.2.4/iterator.go#L230-L235">iterator.go:230-235</a>). The fast index ends up incomplete, but IAVL marks it as ready</p>
 <p>Then when the node starts processing blocks, <code>Get()</code> checks the fast index, doesn't find the key, and assumes it doesn't exist - without checking the actual tree (<a href="https://github.com/cosmos/iavl/blob/v1.2.4/immutable_tree.go#L192-L198">immutable_tree.go:192-198</a>). The data is in the tree, but the code never reaches it</p>
 <p>That's why slashing module gets <code>nil</code> -&gt; <code>no validator signing info found</code> -&gt; crash</p>
@@ -100,7 +100,7 @@ Known failed attempt time around Feb 21st 01:47 UTC</p>
     <span class="issues-meta-item">commented 2026-02-25 17:50 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>https://gonka.ai/FAQ/#how-do-i-fix-errno-validator-signing-info-found-when-starting-from-a-state-sync-snapshot</p>
+<p>https://gonka.ai/FAQ/#how-do-i-fix-errno-validator-signing-info-found-when-starting-from-a-state-sync-snapshot</p>
   </div>
 </div>
 

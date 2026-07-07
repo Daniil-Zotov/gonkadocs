@@ -2,7 +2,7 @@
 title: "#387 — Bug: fatal error: too many concurrent timer firings"
 source: https://github.com/gonka-ai/gonka/issues/387
 issue_number: 387
-synced_at: 2026-07-07T08:48:17Z
+synced_at: 2026-07-07T04:30:39Z
 template: issues-main.html
 ---
 
@@ -61,7 +61,7 @@ runtime.mcall()
     <span class="issues-meta-item">commented 2025-10-19 04:36 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>One more case:
+<p>One more case:
 <a href="https://github.com/user-attachments/files/22988429/issue-4.log">issue-4.log</a></p>
   </div>
 </div>
@@ -71,7 +71,7 @@ runtime.mcall()
     <span class="issues-meta-item">commented 2025-11-22 00:53 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Seems like we need to bump go version: https://github.com/golang/go/issues/69880
+<p>Seems like we need to bump go version: https://github.com/golang/go/issues/69880
 TODO: propoperly test compartibility</p>
   </div>
 </div>

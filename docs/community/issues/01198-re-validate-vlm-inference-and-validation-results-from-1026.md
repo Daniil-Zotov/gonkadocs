@@ -2,7 +2,7 @@
 title: "#1198 — Re-validate VLM inference and validation results from #1026"
 source: https://github.com/gonka-ai/gonka/issues/1198
 issue_number: 1198
-synced_at: 2026-07-07T08:46:48Z
+synced_at: 2026-07-07T04:28:17Z
 template: issues-main.html
 ---
 
@@ -107,7 +107,7 @@ Please provide a short report in this issue with:
     <span class="issues-meta-item">commented 2026-05-22 08:30 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>hi Tania ,i plan to take this one</p>
+<p>hi Tania ,i plan to take this one</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -116,7 +116,7 @@ Please provide a short report in this issue with:
     <span class="issues-meta-item">commented 2026-05-25 09:34 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>cc @fedor-konovalenko @tcharchian</p>
+<p>cc @fedor-konovalenko @tcharchian</p>
 <h1>Independent Re-Check of VLM Inference/Validation Results (#1026, PR #1150)</h1>
 <p><strong>Reviewer:</strong> @Ryanchen911
 <strong>Scope:</strong> Static methodology review of PR #1150 and the Qwen3-VL-235B-FP8 threshold calibration in <code>qwen3-VL-235B_thresholds-new.ipynb</code>, plus the companion <code>qwen2-2B-VL_thresholds.ipynb</code>. I did not re-run inference/validation on GPUs (no access to 4×A100/H100), and the raw <code>validation_results.jsonl</code> files live in GDrive rather than in the PR, so the numerical results themselves were not independently regenerated. Findings below come from reading the scripts, notebooks, committed configs, and comparing against the existing text-validation flow.</p>
@@ -257,15 +257,16 @@ labels_pred[(all_distances &gt;= lower) &amp; (all_distances &lt;= upper)] = 1
 <li><strong>O4</strong> — add a small fixture-based test for <code>distance2()</code>, plus a CI check that the notebook's printed fraud share matches a value declared in the README.</li>
 </ol>
 <p>Once Q1–Q4 are addressed, an updated headline number from a held-out evaluation would be the right basis for the onboarding decision. Happy to help review any follow-up changes.</p>
+
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/fedor-konovalenko">@fedor-konovalenko</a></span>
+    <span>[@fedor-konovalenko](https://github.com/fedor-konovalenko)</span>
     <span class="issues-meta-item">commented 2026-06-06 22:43 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>First of all, thank you very much for such detailed, valuable, and helpful comments and feedback. I will do my best to take them into account.</p>
+<p>First of all, thank you very much for such detailed, valuable, and helpful comments and feedback. I will do my best to take them into account.</p>
 <p><strong>Q1. Were inference and validation actually run on different hosts?</strong>
 <strong>Answer 1:</strong> 
 Yes, inference and validation were performed on physically different hosts.</p>
@@ -300,16 +301,16 @@ O8 - The proposed verification will require additional experiments with larger m
     <span class="issues-meta-item">commented 2026-06-08 01:55 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Thanks for the thorough turnaround — this addresses almost everything, and the deferral of O3/O4/O8 to the integration stage is fine by me.</p>
+<p>Thanks for the thorough turnaround — this addresses almost everything, and the deferral of O3/O4/O8 to the integration stage is fine by me.</p>
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/fedor-konovalenko">@fedor-konovalenko</a></span>
+    <span>[@fedor-konovalenko](https://github.com/fedor-konovalenko)</span>
     <span class="issues-meta-item">commented 2026-06-10 13:28 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Thanks! </p>
+<p>Thanks! </p>
 <p>And here are results of fraud detection scenario: 7B VLM as 235B VLM.
 F1 score = 100%</p>
 <p><a href="https://github.com/machine-intelligence-laboratory/gonka/blob/32975b57567bcf09e8c858e5bd57259cba773943/mlnode/packages/benchmarks/notebooks/qwen3-VL-235B-vs-7B_thresholds.ipynb">notebook</a></p>
@@ -321,17 +322,17 @@ F1 score = 100%</p>
     <span class="issues-meta-item">commented 2026-06-11 08:42 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Overall this looks good to me. Thanks for the thorough iterations.</p>
+<p>Overall this looks good to me. Thanks for the thorough iterations.</p>
 <p>One tiny carryover in qwen3-VL-235B-vs-7B_thresholds.ipynb: the fraud cell still says "99% of fraud samples" (output is 1.0) and the honest cell says "INT8 on both sides" though the set here is FP8 — leftover template text, same as O1. Easy fix whenever.</p>
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/fedor-konovalenko">@fedor-konovalenko</a></span>
+    <span>[@fedor-konovalenko](https://github.com/fedor-konovalenko)</span>
     <span class="issues-meta-item">commented 2026-06-11 09:07 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Sorry, I really used old template :(
+<p>Sorry, I really used old template :(
 Fixed</p>
   </div>
 </div>

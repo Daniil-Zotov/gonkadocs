@@ -2,7 +2,7 @@
 title: "#1135 — PoC-decode proposal"
 source: https://github.com/gonka-ai/gonka/issues/1135
 issue_number: 1135
-synced_at: 2026-07-07T08:46:55Z
+synced_at: 2026-07-07T04:28:30Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item"><a href="https://github.com/Red-Caesar">@Red-Caesar</a> opened 2026-04-30 12:35 UTC</span>
+    <span class="issues-meta-item">[@Red-Caesar](https://github.com/Red-Caesar) opened 2026-04-30 12:35 UTC</span>
     <span class="issues-meta-item">5 comments</span>
     <span class="issues-meta-item">Updated 2026-05-23 01:49 UTC</span>
   </div>
@@ -98,7 +98,7 @@ Evidence and analysis:
     <span class="issues-meta-item">commented 2026-05-04 21:40 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Nice work on the experimental validation — the honest-vs-fraud scatter plots are convincing for the 7B setup, and the seed-chaining between decode steps (using previous k-point ID to select next dimensions) is a solid anti-prediction measure.</p>
+<p>Nice work on the experimental validation — the honest-vs-fraud scatter plots are convincing for the 7B setup, and the seed-chaining between decode steps (using previous k-point ID to select next dimensions) is a solid anti-prediction measure.</p>
 <p>A few implementation-level observations from the current PoC pipeline:</p>
 <h3>1. Integration with existing validation data path</h3>
 <p>Current PoC artifacts are compact: each <code>PoCArtifactV2</code> carries a nonce + opaque vector bytes, and validation produces a single scalar distance compared via binomial test (<code>pow/data.py:220-228</code>, threshold <code>PROBABILITY_MISMATCH = 5e-4</code>).</p>
@@ -126,11 +126,11 @@ Evidence and analysis:
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/Red-Caesar">@Red-Caesar</a></span>
+    <span>[@Red-Caesar](https://github.com/Red-Caesar)</span>
     <span class="issues-meta-item">commented 2026-05-21 08:24 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Sorry for the delayed reply.</p>
+<p>Sorry for the delayed reply.</p>
 <p>On CUDA graph support: this is indeed a critical concern. We are currently investigating options for it.</p>
 <p>On model generalization and honest-mismatch rates: we've collected mismatch data for Qwen3-235B on A100 and are in the process of collecting on H100 as well. </p>
 <p><img width="1075" height="603" alt="Image" src="https://github.com/user-attachments/assets/2229e135-6618-49ba-acb2-39e76d404c1e" /></p>
@@ -143,7 +143,7 @@ Evidence and analysis:
     <span class="issues-meta-item">commented 2026-05-21 12:20 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>hi @unameisfine !</p>
+<p>hi @unameisfine !</p>
 <blockquote>
 <p>Does the validator need to re-run the full autoregressive decode to verify? If yes, validation cost equals inference cost (currently the validator only does a single prefill pass).</p>
 </blockquote>
@@ -154,15 +154,16 @@ Evidence and analysis:
 I think this research i focused more on replacement of PoC, not an inference validation. Why do you think SPRT / per request stats is needed? I</li>
 </ol>
 </blockquote>
+
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/Red-Caesar">@Red-Caesar</a></span>
+    <span>[@Red-Caesar](https://github.com/Red-Caesar)</span>
     <span class="issues-meta-item">commented 2026-05-22 10:48 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Here are the results for h100</p>
+<p>Here are the results for h100</p>
 <p><img width="1052" height="647" alt="Image" src="https://github.com/user-attachments/assets/5d2cfda3-8500-4d24-81fe-67edd8a58144" /></p>
   </div>
 </div>
@@ -172,7 +173,7 @@ I think this research i focused more on replacement of PoC, not an inference val
     <span class="issues-meta-item">commented 2026-05-23 01:49 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Thanks — went through <code>vllm/poc/poc_model_runner.py</code>. Confirmed:
+<p>Thanks — went through <code>vllm/poc/poc_model_runner.py</code>. Confirmed:
 <code>SPHERE_DIM=256</code>, <code>SPHERE_POINTS=16</code> (L39-40), codebook built once via
 Thomson-problem gradient descent, <code>nearest_sphere_index</code> = cosine-similarity
 argmax. Validation flow uses <code>inference_k_points_steps</code> to drive both the
@@ -215,6 +216,7 @@ where that floor sits. Bumping <code>SPHERE_POINTS</code> from 16 to 64/256 (the
 cells and raises the floor at some honest-mismatch cost — the
 parameter-sensitivity question from earlier, now with the cross-hardware data
 anchoring the tradeoff.</p>
+
   </div>
 </div>
 

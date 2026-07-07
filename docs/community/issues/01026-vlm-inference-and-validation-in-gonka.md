@@ -2,7 +2,7 @@
 title: "#1026 — VLM inference and validation in Gonka"
 source: https://github.com/gonka-ai/gonka/issues/1026
 issue_number: 1026
-synced_at: 2026-07-07T08:47:08Z
+synced_at: 2026-07-07T04:28:49Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item"><a href="https://github.com/fedor-konovalenko">@fedor-konovalenko</a> opened 2026-04-07 12:47 UTC</span>
+    <span class="issues-meta-item">[@fedor-konovalenko](https://github.com/fedor-konovalenko) opened 2026-04-07 12:47 UTC</span>
     <span class="issues-meta-item">3 comments</span>
     <span class="issues-meta-item">Updated 2026-04-27 12:36 UTC</span>
   </div>
@@ -59,21 +59,21 @@ Results for large "models" will be added a bit later.
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/fedor-konovalenko">@fedor-konovalenko</a></span>
+    <span>[@fedor-konovalenko](https://github.com/fedor-konovalenko)</span>
     <span class="issues-meta-item">commented 2026-04-09 17:32 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Here are the results for large model - <a href="https://huggingface.co/Qwen/Qwen3-VL-235B-A22B-Instruct">/Qwen/Qwen3-VL-235B-A22B-Instruct</a></p>
+<p>Here are the results for large model - <a href="https://huggingface.co/Qwen/Qwen3-VL-235B-A22B-Instruct">/Qwen/Qwen3-VL-235B-A22B-Instruct</a></p>
 <p><a href="https://github.com/machine-intelligence-laboratory/gonka/blob/49bc8a97d354459386608ff91da2b15dba77f63a/mlnode/packages/benchmarks/notebooks/qwen3-VL-235B_thresholds.ipynb">link</a></p>
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/fedor-konovalenko">@fedor-konovalenko</a></span>
+    <span>[@fedor-konovalenko](https://github.com/fedor-konovalenko)</span>
     <span class="issues-meta-item">commented 2026-04-27 11:20 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>And here are the results with the <a href="https://github.com/gonka-ai/vllm/tree/tg/scratchpad_for_mode">latest version of Gonka-VLM</a></p>
+<p>And here are the results with the <a href="https://github.com/gonka-ai/vllm/tree/tg/scratchpad_for_mode">latest version of Gonka-VLM</a></p>
 <p><a href="https://github.com/machine-intelligence-laboratory/gonka/blob/2a284094f107cddba5f53749dc03c55f5abf51ed/mlnode/packages/benchmarks/notebooks/qwen3-VL-235B_thresholds-new.ipynb">notebook</a>
 <a href="https://github.com/machine-intelligence-laboratory/gonka/blob/2a284094f107cddba5f53749dc03c55f5abf51ed/proposals/visual_models/README-new.md">results</a></p>
 <p>The fraud detection accuracy is about 99%</p>
@@ -81,11 +81,11 @@ Results for large "models" will be added a bit later.
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/fedor-konovalenko">@fedor-konovalenko</a></span>
+    <span>[@fedor-konovalenko](https://github.com/fedor-konovalenko)</span>
     <span class="issues-meta-item">commented 2026-04-27 12:36 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <h1>Models Proposal</h1>
+<h1>Models Proposal</h1>
 <p>This is a proposal to add the <a href="https://huggingface.co/Qwen/Qwen3-VL-235B-A22B-Instruct-FP8">Qwen/Qwen3-VL-235B-A22B-Instruct-FP8</a> multimodal model to the Gonka inference network. </p>
 <p>Validation thresholds for all the models were computed using the standard procedure described in the <a href="../../mlnode/packages/benchmarks/scripts/inference_validation/README.md">inference validation scripts README</a>.</p>
 <p>There is respective notebook with the details of experiments and <a href="https://drive.google.com/file/d/1aIi0RQDArmaP_68I_yG_X5l-BJUfCXmI/view?usp=share_link">gdrive folder</a> with raw inference-validation data.</p>
@@ -157,6 +157,7 @@ Results for large "models" will be added a bit later.
   --exp-dir /root/validation \
   --images-dir /root/flickr8k_images/test/
 </code></pre>
+
   </div>
 </div>
 

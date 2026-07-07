@@ -2,7 +2,7 @@
 title: "#338 — [P1] Cache for Github Actions"
 source: https://github.com/gonka-ai/gonka/issues/338
 issue_number: 338
-synced_at: 2026-07-07T08:47:24Z
+synced_at: 2026-07-07T04:29:15Z
 template: issues-main.html
 ---
 
@@ -35,7 +35,7 @@ template: issues-main.html
     <span class="issues-meta-item">commented 2026-01-24 01:45 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>https://github.com/gonka-ai/gonka/pull/509</p>
+<p>https://github.com/gonka-ai/gonka/pull/509</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -44,7 +44,7 @@ template: issues-main.html
     <span class="issues-meta-item">commented 2026-03-12 08:28 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>@IgnatovFedor what is our status?</p>
+<p>@IgnatovFedor what is our status?</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -53,7 +53,7 @@ template: issues-main.html
     <span class="issues-meta-item">commented 2026-03-12 12:34 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <blockquote>
+<blockquote>
 <p><a href="https://github.com/IgnatovFedor">@IgnatovFedor</a> what is our status?</p>
 </blockquote>
 <p>@gmorgachev , PR is opened, currently addressing Copilot review comments. Validating the changes - should be done soon.</p>
