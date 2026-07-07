@@ -484,7 +484,7 @@ document$.subscribe(initProposalsPage);
 
 # ── update mkdocs.yml nav ──────────────────────────────────────
 
-def update_mkdocs_nav(sorted_quarters):
+def update_mkdocs_nav(sorted_quarters, proposals_by_quarter):
     if not MKDOCS_YML.exists():
         print(f"mkdocs.yml not found at {MKDOCS_YML}, skipping nav update")
         return
@@ -495,7 +495,16 @@ def update_mkdocs_nav(sorted_quarters):
     nav_lines.append("    - On-Chain Governance: proposals/proposals/index.md")
     for q in sorted_quarters:
         q_lower = q.lower()
-        nav_lines.append(f'    - {q}: proposals/proposals/{q_lower}/index.md')
+        props = proposals_by_quarter.get(q, [])
+        # Sort by descending ID
+        props_sorted = sorted(props, key=lambda x: int(x["id"]), reverse=True)
+        nav_lines.append(f"    - {q}:")
+        nav_lines.append(f'      - Overview: proposals/proposals/{q_lower}/index.md')
+        for p in props_sorted:
+            pid = p["id"]
+            title = p.get("title", f"Proposal #{pid}").strip()
+            title_esc = title.replace('"', '\\"')
+            nav_lines.append(f'      - "#{pid} – {title_esc}": proposals/proposals/{pid}/index.md')
 
     new_nav = "\n".join(nav_lines)
 
@@ -511,7 +520,7 @@ def update_mkdocs_nav(sorted_quarters):
         return
 
     MKDOCS_YML.write_text(new_content, encoding="utf-8")
-    print(f"Updated mkdocs.yml nav with {len(sorted_quarters)} quarters")
+    print(f"Updated mkdocs.yml nav with {len(sorted_quarters)} quarters and {sum(len(v) for v in proposals_by_quarter.values())} proposals")
 
 
 # ── main ────────────────────────────────────────────────────────
@@ -533,6 +542,10 @@ def main():
         else:
             q = "Unknown"
         proposals_by_quarter.setdefault(q, []).append(p)
+
+    # Sort within each quarter by descending proposal ID
+    for q in proposals_by_quarter:
+        proposals_by_quarter[q].sort(key=lambda x: int(x["id"]), reverse=True)
 
     sorted_quarters = sorted(proposals_by_quarter.keys(), reverse=True)
 
@@ -562,19 +575,8 @@ def main():
     overview_md = generate_overview(proposals_by_quarter)
     (OUTPUT_DIR / "index.md").write_text(overview_md, encoding="utf-8")
 
-    # Generate sidebar quarters nav partial
-    nav_partial_dir = Path("docs/overrides/partials")
-    nav_partial_dir.mkdir(parents=True, exist_ok=True)
-    nav_lines = []
-    for q in sorted_quarters:
-        q_lower = q.lower()
-        q_count = len(proposals_by_quarter[q])
-        nav_lines.append(f'<li class="md-nav__item"><a href="/proposals/proposals/{q_lower}/" class="md-nav__link"><span class="md-ellipsis">{q}</span><span class="prop-sidebar-count">{q_count}</span></a></li>')
-    (nav_partial_dir / "proposals-quarters-nav.html").write_text("\n".join(nav_lines) + "\n", encoding="utf-8")
-    print(f"Generated quarters nav with {len(sorted_quarters)} entries")
-
     # Update nav
-    update_mkdocs_nav(sorted_quarters)
+    update_mkdocs_nav(sorted_quarters, proposals_by_quarter)
 
     print(f"\nDone. {len(proposals)} proposals in {len(sorted_quarters)} quarters → {OUTPUT_DIR}")
 

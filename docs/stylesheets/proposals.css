@@ -253,51 +253,6 @@
   text-align: center;
 }
 
-/* ── Sidebar ───────────────────────────────────────────────── */
-.prop-sidebar-title {
-  font-size: 12px;
-  font-weight: 600;
-  color: var(--md-default-fg-color--light);
-  padding: 4px 16px;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-
-.prop-sidebar-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.prop-sidebar-item {
-  display: block;
-}
-
-.prop-sidebar-link {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  padding: 4px 16px;
-  font-size: 14px;
-  color: var(--md-default-fg-color);
-  text-decoration: none;
-}
-
-.prop-sidebar-link:hover {
-  color: var(--md-accent-fg-color);
-}
-
-.prop-sidebar-link.prop-sidebar-active {
-  font-weight: 600;
-  color: var(--md-accent-fg-color);
-}
-
-.prop-sidebar-count {
-  margin-left: auto;
-  font-size: 12px;
-  color: var(--md-default-fg-color--light);
-}
-
 /* ── Responsive ────────────────────────────────────────────── */
 @media (max-width: 768px) {
   .prop-card-header {

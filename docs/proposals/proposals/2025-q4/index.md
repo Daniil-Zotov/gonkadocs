@@ -32,106 +32,28 @@ template: proposals-oview.html
 <p>11 proposals</p>
 <div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
-    <a href="../7/" class="prop-card-title">#7 – Upgrade Proposal: v0.2.3</a>
+    <a href="../17/" class="prop-card-title">#17 – Expected amount of Confirmation PoC per epoch</a>
     <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
-    <span>Submitted 2025-10-03</span>
-    <span>Voting ends 2025-10-03</span>
+    <span>Submitted 2025-12-25</span>
+    <span>Voting ends 2025-12-26</span>
   </div>
-  <div class="prop-card-desc">Upgrade Proposal: v0.2.3</div>
-  <div class="prop-card-tally">👍 132,672 · 👎 0 · ⚖️ 132,672 total</div>
+  <div class="prop-card-desc">Expected amount of Confirmation PoC per epoch to 4, p0 for binomial test to 0.1</div>
+  <div class="prop-card-tally">👍 3,261,413 · 👎 85 · ⚖️ 3,261,498 total</div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
-    <a href="../8/" class="prop-card-title">#8 – Upgrade Proposal: v0.2.4</a>
+    <a href="../16/" class="prop-card-title">#16 – Upgrade Proposal: v0.2.6</a>
     <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
-    <span>Submitted 2025-10-22</span>
-    <span>Voting ends 2025-10-22</span>
+    <span>Submitted 2025-12-19</span>
+    <span>Voting ends 2025-12-20</span>
   </div>
-  <div class="prop-card-desc">Upgrade Proposal: v0.2.4</div>
-  <div class="prop-card-tally">👍 286,826 · 👎 0 · ⚖️ 286,826 total</div>
-</div>
-
-<div class="prop-card" data-status="prop-passed">
-  <div class="prop-card-header">
-    <a href="../9/" class="prop-card-title">#9 – Higher Bandwidth Limits & Voting Time Back to 24H</a>
-    <span class="prop-badge prop-passed">Passed</span>
-  </div>
-  <div class="prop-card-meta">
-    <span>Submitted 2025-11-11</span>
-    <span>Voting ends 2025-11-11</span>
-  </div>
-  <div class="prop-card-desc">Higher Bandwidth Limits & Voting Time Back to 24H</div>
-  <div class="prop-card-tally">👍 394,887 · 👎 0 · ⚖️ 394,887 total</div>
-</div>
-
-<div class="prop-card" data-status="prop-passed">
-  <div class="prop-card-header">
-    <a href="../10/" class="prop-card-title">#10 – Bandwidth Limits</a>
-    <span class="prop-badge prop-passed">Passed</span>
-  </div>
-  <div class="prop-card-meta">
-    <span>Submitted 2025-11-12</span>
-    <span>Voting ends 2025-11-12</span>
-  </div>
-  <div class="prop-card-desc">Bandwidth Limits</div>
-  <div class="prop-card-tally">👍 287,496 · 👎 0 · ⚖️ 287,496 total</div>
-</div>
-
-<div class="prop-card" data-status="prop-passed">
-  <div class="prop-card-header">
-    <a href="../11/" class="prop-card-title">#11 – Bandwidth Limits</a>
-    <span class="prop-badge prop-passed">Passed</span>
-  </div>
-  <div class="prop-card-meta">
-    <span>Submitted 2025-11-12</span>
-    <span>Voting ends 2025-11-12</span>
-  </div>
-  <div class="prop-card-desc">Bandwidth Limits</div>
-  <div class="prop-card-tally">👍 349,596 · 👎 0 · ⚖️ 349,596 total</div>
-</div>
-
-<div class="prop-card" data-status="prop-passed">
-  <div class="prop-card-header">
-    <a href="../12/" class="prop-card-title">#12 – Bandwidth Limits</a>
-    <span class="prop-badge prop-passed">Passed</span>
-  </div>
-  <div class="prop-card-meta">
-    <span>Submitted 2025-11-12</span>
-    <span>Voting ends 2025-11-13</span>
-  </div>
-  <div class="prop-card-desc">Bandwidth Limits</div>
-  <div class="prop-card-tally">👍 257,565 · 👎 0 · ⚖️ 257,565 total</div>
-</div>
-
-<div class="prop-card" data-status="prop-passed">
-  <div class="prop-card-header">
-    <a href="../13/" class="prop-card-title">#13 – Upgrade Proposal: v0.2.5</a>
-    <span class="prop-badge prop-passed">Passed</span>
-  </div>
-  <div class="prop-card-meta">
-    <span>Submitted 2025-11-21</span>
-    <span>Voting ends 2025-11-22</span>
-  </div>
-  <div class="prop-card-desc">Upgrade Proposal: v0.2.5</div>
-  <div class="prop-card-tally">👍 428,459 · 👎 0 · ⚖️ 428,459 total</div>
-</div>
-
-<div class="prop-card" data-status="prop-passed">
-  <div class="prop-card-header">
-    <a href="../14/" class="prop-card-title">#14 – Sale GNK from Community Fund</a>
-    <span class="prop-badge prop-passed">Passed</span>
-  </div>
-  <div class="prop-card-meta">
-    <span>Submitted 2025-11-26</span>
-    <span>Voting ends 2025-11-27</span>
-  </div>
-  <div class="prop-card-desc">Sale GNK from Community Fund</div>
-  <div class="prop-card-tally">👍 1,180,961 · 👎 9,781 · ⚖️ 1,195,319 total</div>
+  <div class="prop-card-desc">Upgrade Proposal: v0.2.6</div>
+  <div class="prop-card-tally">👍 1,985,917 · 👎 0 · ⚖️ 1,985,917 total</div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -149,28 +71,106 @@ template: proposals-oview.html
 
 <div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
-    <a href="../16/" class="prop-card-title">#16 – Upgrade Proposal: v0.2.6</a>
+    <a href="../14/" class="prop-card-title">#14 – Sale GNK from Community Fund</a>
     <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
-    <span>Submitted 2025-12-19</span>
-    <span>Voting ends 2025-12-20</span>
+    <span>Submitted 2025-11-26</span>
+    <span>Voting ends 2025-11-27</span>
   </div>
-  <div class="prop-card-desc">Upgrade Proposal: v0.2.6</div>
-  <div class="prop-card-tally">👍 1,985,917 · 👎 0 · ⚖️ 1,985,917 total</div>
+  <div class="prop-card-desc">Sale GNK from Community Fund</div>
+  <div class="prop-card-tally">👍 1,180,961 · 👎 9,781 · ⚖️ 1,195,319 total</div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
-    <a href="../17/" class="prop-card-title">#17 – Expected amount of Confirmation PoC per epoch</a>
+    <a href="../13/" class="prop-card-title">#13 – Upgrade Proposal: v0.2.5</a>
     <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
-    <span>Submitted 2025-12-25</span>
-    <span>Voting ends 2025-12-26</span>
+    <span>Submitted 2025-11-21</span>
+    <span>Voting ends 2025-11-22</span>
   </div>
-  <div class="prop-card-desc">Expected amount of Confirmation PoC per epoch to 4, p0 for binomial test to 0.1</div>
-  <div class="prop-card-tally">👍 3,261,413 · 👎 85 · ⚖️ 3,261,498 total</div>
+  <div class="prop-card-desc">Upgrade Proposal: v0.2.5</div>
+  <div class="prop-card-tally">👍 428,459 · 👎 0 · ⚖️ 428,459 total</div>
+</div>
+
+<div class="prop-card" data-status="prop-passed">
+  <div class="prop-card-header">
+    <a href="../12/" class="prop-card-title">#12 – Bandwidth Limits</a>
+    <span class="prop-badge prop-passed">Passed</span>
+  </div>
+  <div class="prop-card-meta">
+    <span>Submitted 2025-11-12</span>
+    <span>Voting ends 2025-11-13</span>
+  </div>
+  <div class="prop-card-desc">Bandwidth Limits</div>
+  <div class="prop-card-tally">👍 257,565 · 👎 0 · ⚖️ 257,565 total</div>
+</div>
+
+<div class="prop-card" data-status="prop-passed">
+  <div class="prop-card-header">
+    <a href="../11/" class="prop-card-title">#11 – Bandwidth Limits</a>
+    <span class="prop-badge prop-passed">Passed</span>
+  </div>
+  <div class="prop-card-meta">
+    <span>Submitted 2025-11-12</span>
+    <span>Voting ends 2025-11-12</span>
+  </div>
+  <div class="prop-card-desc">Bandwidth Limits</div>
+  <div class="prop-card-tally">👍 349,596 · 👎 0 · ⚖️ 349,596 total</div>
+</div>
+
+<div class="prop-card" data-status="prop-passed">
+  <div class="prop-card-header">
+    <a href="../10/" class="prop-card-title">#10 – Bandwidth Limits</a>
+    <span class="prop-badge prop-passed">Passed</span>
+  </div>
+  <div class="prop-card-meta">
+    <span>Submitted 2025-11-12</span>
+    <span>Voting ends 2025-11-12</span>
+  </div>
+  <div class="prop-card-desc">Bandwidth Limits</div>
+  <div class="prop-card-tally">👍 287,496 · 👎 0 · ⚖️ 287,496 total</div>
+</div>
+
+<div class="prop-card" data-status="prop-passed">
+  <div class="prop-card-header">
+    <a href="../9/" class="prop-card-title">#9 – Higher Bandwidth Limits & Voting Time Back to 24H</a>
+    <span class="prop-badge prop-passed">Passed</span>
+  </div>
+  <div class="prop-card-meta">
+    <span>Submitted 2025-11-11</span>
+    <span>Voting ends 2025-11-11</span>
+  </div>
+  <div class="prop-card-desc">Higher Bandwidth Limits & Voting Time Back to 24H</div>
+  <div class="prop-card-tally">👍 394,887 · 👎 0 · ⚖️ 394,887 total</div>
+</div>
+
+<div class="prop-card" data-status="prop-passed">
+  <div class="prop-card-header">
+    <a href="../8/" class="prop-card-title">#8 – Upgrade Proposal: v0.2.4</a>
+    <span class="prop-badge prop-passed">Passed</span>
+  </div>
+  <div class="prop-card-meta">
+    <span>Submitted 2025-10-22</span>
+    <span>Voting ends 2025-10-22</span>
+  </div>
+  <div class="prop-card-desc">Upgrade Proposal: v0.2.4</div>
+  <div class="prop-card-tally">👍 286,826 · 👎 0 · ⚖️ 286,826 total</div>
+</div>
+
+<div class="prop-card" data-status="prop-passed">
+  <div class="prop-card-header">
+    <a href="../7/" class="prop-card-title">#7 – Upgrade Proposal: v0.2.3</a>
+    <span class="prop-badge prop-passed">Passed</span>
+  </div>
+  <div class="prop-card-meta">
+    <span>Submitted 2025-10-03</span>
+    <span>Voting ends 2025-10-03</span>
+  </div>
+  <div class="prop-card-desc">Upgrade Proposal: v0.2.3</div>
+  <div class="prop-card-tally">👍 132,672 · 👎 0 · ⚖️ 132,672 total</div>
 </div>
 
 </div>

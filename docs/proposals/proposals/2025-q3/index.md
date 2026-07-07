@@ -32,41 +32,28 @@ template: proposals-oview.html
 <p>6 proposals</p>
 <div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
-    <a href="../1/" class="prop-card-title">#1 – Correct Epoch Length</a>
+    <a href="../6/" class="prop-card-title">#6 – Upgrade Proposal: v0.2.2</a>
     <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
-    <span>Submitted 2025-09-05</span>
-    <span>Voting ends 2025-09-07</span>
+    <span>Submitted 2025-09-24</span>
+    <span>Voting ends 2025-09-25</span>
   </div>
-  <div class="prop-card-desc">Proposal updates epoch_length and restrictions length according to real block length in seconds.</div>
-  <div class="prop-card-tally">👍 74,474 · 👎 0 · ⚖️ 74,474 total</div>
+  <div class="prop-card-desc">Upgrade Proposal: v0.2.2</div>
+  <div class="prop-card-tally">👍 130,079 · 👎 0 · ⚖️ 130,079 total</div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
-    <a href="../2/" class="prop-card-title">#2 – Proposal introducing new Qwen3 models</a>
+    <a href="../5/" class="prop-card-title">#5 – Expedite voting for upgrades</a>
     <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
-    <span>Submitted 2025-09-09</span>
-    <span>Voting ends 2025-09-11</span>
+    <span>Submitted 2025-09-23</span>
+    <span>Voting ends 2025-09-23</span>
   </div>
-  <div class="prop-card-desc">This proposal introduces new Qwen3 models including Qwen3-32B-FP8 and Qwen3-235B-A22B-Instruct-2507-FP8, along with updating parameters for Qwen2.5-7B-Instruct and QwQ-32B.</div>
-  <div class="prop-card-tally">👍 62,612 · 👎 0 · ⚖️ 62,612 total</div>
-</div>
-
-<div class="prop-card" data-status="prop-passed">
-  <div class="prop-card-header">
-    <a href="../3/" class="prop-card-title">#3 – Increase PoC Validation Length</a>
-    <span class="prop-badge prop-passed">Passed</span>
-  </div>
-  <div class="prop-card-meta">
-    <span>Submitted 2025-09-20</span>
-    <span>Voting ends 2025-09-20</span>
-  </div>
-  <div class="prop-card-desc">Proposal updates poc_validation_duration from 20 to 100.</div>
-  <div class="prop-card-tally">👍 162,514 · 👎 0 · ⚖️ 162,514 total</div>
+  <div class="prop-card-desc">Expedite voting for upgrades</div>
+  <div class="prop-card-tally">👍 172,265 · 👎 0 · ⚖️ 172,265 total</div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -84,28 +71,41 @@ template: proposals-oview.html
 
 <div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
-    <a href="../5/" class="prop-card-title">#5 – Expedite voting for upgrades</a>
+    <a href="../3/" class="prop-card-title">#3 – Increase PoC Validation Length</a>
     <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
-    <span>Submitted 2025-09-23</span>
-    <span>Voting ends 2025-09-23</span>
+    <span>Submitted 2025-09-20</span>
+    <span>Voting ends 2025-09-20</span>
   </div>
-  <div class="prop-card-desc">Expedite voting for upgrades</div>
-  <div class="prop-card-tally">👍 172,265 · 👎 0 · ⚖️ 172,265 total</div>
+  <div class="prop-card-desc">Proposal updates poc_validation_duration from 20 to 100.</div>
+  <div class="prop-card-tally">👍 162,514 · 👎 0 · ⚖️ 162,514 total</div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
-    <a href="../6/" class="prop-card-title">#6 – Upgrade Proposal: v0.2.2</a>
+    <a href="../2/" class="prop-card-title">#2 – Proposal introducing new Qwen3 models</a>
     <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
-    <span>Submitted 2025-09-24</span>
-    <span>Voting ends 2025-09-25</span>
+    <span>Submitted 2025-09-09</span>
+    <span>Voting ends 2025-09-11</span>
   </div>
-  <div class="prop-card-desc">Upgrade Proposal: v0.2.2</div>
-  <div class="prop-card-tally">👍 130,079 · 👎 0 · ⚖️ 130,079 total</div>
+  <div class="prop-card-desc">This proposal introduces new Qwen3 models including Qwen3-32B-FP8 and Qwen3-235B-A22B-Instruct-2507-FP8, along with updating parameters for Qwen2.5-7B-Instruct and QwQ-32B.</div>
+  <div class="prop-card-tally">👍 62,612 · 👎 0 · ⚖️ 62,612 total</div>
+</div>
+
+<div class="prop-card" data-status="prop-passed">
+  <div class="prop-card-header">
+    <a href="../1/" class="prop-card-title">#1 – Correct Epoch Length</a>
+    <span class="prop-badge prop-passed">Passed</span>
+  </div>
+  <div class="prop-card-meta">
+    <span>Submitted 2025-09-05</span>
+    <span>Voting ends 2025-09-07</span>
+  </div>
+  <div class="prop-card-desc">Proposal updates epoch_length and restrictions length according to real block length in seconds.</div>
+  <div class="prop-card-tally">👍 74,474 · 👎 0 · ⚖️ 74,474 total</div>
 </div>
 
 </div>
