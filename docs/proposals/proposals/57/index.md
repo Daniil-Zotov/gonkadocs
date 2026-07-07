@@ -1,6 +1,8 @@
 ---
 title: "#57 – Approve the Gonka Network Development Roadmap"
-description: "This proposal approves the Gonka Network Development Roadmap as a strategic direction document for Gonka's future development tracks.  If approved, the roadmap should become the shared vision for Gonk"
+description: "This proposal approves the Gonka Network Development Roadmap as a strategic direction document for Gonka's future development tracks.
+
+If approved, the roadmap should become the shared vision for Gonk"
 template: proposals-proposals-main.html
 ---
 

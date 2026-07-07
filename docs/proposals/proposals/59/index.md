@@ -20,7 +20,7 @@ template: proposals-proposals-main.html
 
 **Proposer:** `gonka1tg7x8pv5lfnytkr9av3532mf2qq22ysdxxzr87`
 
-**Metadata:** [Examples of work the team contributed to: https://www.youtube.com/watch?v=HzF6kyS3Fb8 | https://www.udemy.com/course/build-smart-contracts-for-cardano-blockchain/](Examples of work the team contributed to: https://www.youtube.com/watch?v=HzF6kyS3Fb8 | https://www.udemy.com/course/build-smart-contracts-for-cardano-blockchain/)
+**Metadata:** `Examples of work the team contributed to: https://www.youtube.com/watch?v=HzF6kyS3Fb8 | https://www.udemy.com/course/build-smart-contracts-for-cardano-blockchain/`
 
 **Failed reason:** proposal did not get enough votes to pass
 

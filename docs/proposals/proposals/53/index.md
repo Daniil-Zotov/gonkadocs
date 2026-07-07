@@ -1,6 +1,13 @@
 ---
-title: "#53 – INC4 \| Gonka NOP - grant for the node deployment tool"
-description: "# Gonka NOP: grant for the node deployment tool  50,000 USDT from the CommunityPool to INC4 Full proposal: https://github.com/gonka-ai/gonka/discussions/1192  ## What it is  gonka-nop (Node Onboarding"
+title: "#53 – INC4 | Gonka NOP - grant for the node deployment tool"
+description: "# Gonka NOP: grant for the node deployment tool
+
+50,000 USDT from the CommunityPool to INC4
+Full proposal: https://github.com/gonka-ai/gonka/discussions/1192
+
+## What it is
+
+gonka-nop (Node Onboarding"
 template: proposals-proposals-main.html
 ---
 

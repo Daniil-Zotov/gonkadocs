@@ -20,7 +20,7 @@ template: proposals-proposals-main.html
 
 **Proposer:** `gonka15vunu0new53m83ccvfcmkf84v7q4s8ldsjfu4y`
 
-**Metadata:** [e30=](e30=)
+**Metadata:** `e30=`
 
 **Failed reason:** proposal did not get enough votes to pass
 

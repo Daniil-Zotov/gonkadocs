@@ -1,5 +1,5 @@
 ---
-title: "#41 – INC4 \| Gonka Node Observability Platform"
+title: "#41 – INC4 | Gonka Node Observability Platform"
 description: "Today's explorers and dashboards only show on-chain data, leaving the off-chain state of validators completely opaque. The few operators who do run their own monitoring use different tools, different "
 template: proposals-proposals-main.html
 ---

@@ -1,6 +1,9 @@
 ---
 title: "#35 – gonka.ai / TheSoul social media awareness project"
-description: "This proposal seeks community approval for a global media initiative to build awareness of decentralized AI and position Gonka as core AI infrastructure.  Key elements: Led by TheSoul Group (full-cycl"
+description: "This proposal seeks community approval for a global media initiative to build awareness of decentralized AI and position Gonka as core AI infrastructure.
+
+Key elements:
+Led by TheSoul Group (full-cycl"
 template: proposals-proposals-main.html
 ---
 

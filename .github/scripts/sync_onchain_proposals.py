@@ -37,6 +37,14 @@ def escape_md_block(text):
     return str(text)
 
 
+def yaml_str(text):
+    """Escape for YAML double-quoted string value."""
+    if not text:
+        return '""'
+    s = str(text).replace("\\", "\\\\").replace('"', '\\"')
+    return f'"{s}"'
+
+
 def get_quarter(dt):
     return f"{dt.year}-Q{(dt.month - 1) // 3 + 1}"
 
@@ -184,9 +192,10 @@ def generate_proposal_page(proposal):
 </div>
 """
 
+    summary_short = summary[:200] if summary else ""
     md = f"""---
-title: "#{pid} – {escape_md(title)}"
-description: "{escape_md(summary[:200]) if summary else f'Proposal #{pid}'}"
+title: {yaml_str(f"#{pid} – {title}")}
+description: {yaml_str(summary_short if summary_short else f"Proposal #{pid}")}
 template: proposals-proposals-main.html
 ---
 
@@ -210,7 +219,10 @@ template: proposals-proposals-main.html
     if proposer:
         md += f"**Proposer:** `{proposer}`\n\n"
     if metadata_url:
-        md += f"**Metadata:** [{metadata_url}]({metadata_url})\n\n"
+        if metadata_url.startswith("http://") or metadata_url.startswith("https://"):
+            md += f"**Metadata:** [{metadata_url}]({metadata_url})\n\n"
+        else:
+            md += f"**Metadata:** `{metadata_url}`\n\n"
     if failed_reason:
         md += f"**Failed reason:** {failed_reason}\n\n"
 

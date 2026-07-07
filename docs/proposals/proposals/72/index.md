@@ -20,7 +20,7 @@ template: proposals-proposals-main.html
 
 **Proposer:** `gonka1afj0tz53z56zngs425m83vxl5y2xmwm692hfrn`
 
-**Metadata:** [ipfs://](ipfs://)
+**Metadata:** `ipfs://`
 
 **Failed reason:** proposal did not get enough votes to pass
 

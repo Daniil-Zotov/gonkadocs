@@ -1,6 +1,10 @@
 ---
 title: "#74 – Gonka Labs: Maintaining Infrastructure, Improving Products, and Launching New Ones"
-description: "Full proposal: https://gonkalabs.com/proposal  This proposal funds the next six months of work for the Gonka ecosystem.  The focus is production-grade infrastructure and high-use products: Gonka.gg V2"
+description: "Full proposal: https://gonkalabs.com/proposal
+
+This proposal funds the next six months of work for the Gonka ecosystem.
+
+The focus is production-grade infrastructure and high-use products: Gonka.gg V2"
 template: proposals-proposals-main.html
 ---
 

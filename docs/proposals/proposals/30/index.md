@@ -20,7 +20,7 @@ template: proposals-proposals-main.html
 
 **Proposer:** `gonka1awyggfq4e32d4y66ttq3hyud7dyrr0ajf8af0w`
 
-**Metadata:** [Test proposal for governance UI](Test proposal for governance UI)
+**Metadata:** `Test proposal for governance UI`
 
 **Failed reason:** proposal did not get enough votes to pass
 

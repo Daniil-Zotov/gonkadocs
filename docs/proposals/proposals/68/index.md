@@ -1,6 +1,8 @@
 ---
 title: "#68 – Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)"
-description: "The proposal is reopened for voting at the initiative of several hosts who did not participate in the previous round.  • There are no changes to the substance of the proposal; only timeline commitment"
+description: "The proposal is reopened for voting at the initiative of several hosts who did not participate in the previous round.
+
+• There are no changes to the substance of the proposal; only timeline commitment"
 template: proposals-proposals-main.html
 ---
 

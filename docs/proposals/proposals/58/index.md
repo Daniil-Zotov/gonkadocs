@@ -1,6 +1,9 @@
 ---
 title: "#58 – Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)"
-description: "# Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)  70,000 USDT from the CommunityPool for a dedicated Falcon Finance deep-dive on Gonka AI. Full proposal: https://vote.gonka.vip/tenders"
+description: "# Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)
+
+70,000 USDT from the CommunityPool for a dedicated Falcon Finance deep-dive on Gonka AI.
+Full proposal: https://vote.gonka.vip/tenders"
 template: proposals-proposals-main.html
 ---
 
