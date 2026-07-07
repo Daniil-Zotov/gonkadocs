@@ -326,8 +326,11 @@ template: proposals-oview.html
                 md += f'  <div class="prop-card-desc">{escape_md(short_summary)}</div>\n'
 
             if yes_c + no_c > 0:
-                total_t = yes_c + no_c + int(tally.get("abstain_count", 0)) + int(tally.get("no_with_veto_count", 0))
-                md += f'  <div class="prop-card-tally">👍 {yes_c:,} · 👎 {no_c:,} · ⚖️ {total_t:,} total</div>\n'
+                veto_c = int(tally.get("no_with_veto_count", 0))
+                abstain_c = int(tally.get("abstain_count", 0))
+                total_t = yes_c + no_c + veto_c + abstain_c
+                _pct = lambda v: f"({v / total_t * 100:.1f}%)" if total_t > 0 else "(0.0%)"
+                md += f'  <div class="prop-card-tally">\n    Yes {yes_c:,} {_pct(yes_c)}<br>\n    No {no_c:,} {_pct(no_c)}<br>\n    Veto {veto_c:,} {_pct(veto_c)}<br>\n    Abstain {abstain_c:,} {_pct(abstain_c)}\n  </div>\n'
 
             md += "</div>\n\n"
 
@@ -440,8 +443,11 @@ template: proposals-oview.html
         if short_summary:
             md += f'  <div class="prop-card-desc">{escape_md(short_summary)}</div>\n'
         if yes_c + no_c > 0:
-            total_t = yes_c + no_c + int(tally.get("abstain_count", 0)) + int(tally.get("no_with_veto_count", 0))
-            md += f'  <div class="prop-card-tally">👍 {yes_c:,} · 👎 {no_c:,} · ⚖️ {total_t:,} total</div>\n'
+            veto_c = int(tally.get("no_with_veto_count", 0))
+            abstain_c = int(tally.get("abstain_count", 0))
+            total_t = yes_c + no_c + veto_c + abstain_c
+            _pct = lambda v: f"({v / total_t * 100:.1f}%)" if total_t > 0 else "(0.0%)"
+            md += f'  <div class="prop-card-tally">\n    Yes {yes_c:,} {_pct(yes_c)}<br>\n    No {no_c:,} {_pct(no_c)}<br>\n    Veto {veto_c:,} {_pct(veto_c)}<br>\n    Abstain {abstain_c:,} {_pct(abstain_c)}\n  </div>\n'
         md += "</div>\n\n"
 
     md += """</div>

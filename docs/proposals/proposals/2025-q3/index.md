@@ -40,7 +40,12 @@ template: proposals-oview.html
     <span>Voting ends 2025-09-25</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.2</div>
-  <div class="prop-card-tally">👍 130,079 · 👎 0 · ⚖️ 130,079 total</div>
+  <div class="prop-card-tally">
+    Yes 130,079 (100.0%)<br>
+    No 0 (0.0%)<br>
+    Veto 0 (0.0%)<br>
+    Abstain 0 (0.0%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -53,7 +58,12 @@ template: proposals-oview.html
     <span>Voting ends 2025-09-23</span>
   </div>
   <div class="prop-card-desc">Expedite voting for upgrades</div>
-  <div class="prop-card-tally">👍 172,265 · 👎 0 · ⚖️ 172,265 total</div>
+  <div class="prop-card-tally">
+    Yes 172,265 (100.0%)<br>
+    No 0 (0.0%)<br>
+    Veto 0 (0.0%)<br>
+    Abstain 0 (0.0%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -66,7 +76,12 @@ template: proposals-oview.html
     <span>Voting ends 2025-09-24</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.2</div>
-  <div class="prop-card-tally">👍 109 · 👎 0 · ⚖️ 109,746 total</div>
+  <div class="prop-card-tally">
+    Yes 109 (0.1%)<br>
+    No 0 (0.0%)<br>
+    Veto 109,637 (99.9%)<br>
+    Abstain 0 (0.0%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -79,7 +94,12 @@ template: proposals-oview.html
     <span>Voting ends 2025-09-20</span>
   </div>
   <div class="prop-card-desc">Proposal updates poc_validation_duration from 20 to 100.</div>
-  <div class="prop-card-tally">👍 162,514 · 👎 0 · ⚖️ 162,514 total</div>
+  <div class="prop-card-tally">
+    Yes 162,514 (100.0%)<br>
+    No 0 (0.0%)<br>
+    Veto 0 (0.0%)<br>
+    Abstain 0 (0.0%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -92,7 +112,12 @@ template: proposals-oview.html
     <span>Voting ends 2025-09-11</span>
   </div>
   <div class="prop-card-desc">This proposal introduces new Qwen3 models including Qwen3-32B-FP8 and Qwen3-235B-A22B-Instruct-2507-FP8, along with updating parameters for Qwen2.5-7B-Instruct and QwQ-32B.</div>
-  <div class="prop-card-tally">👍 62,612 · 👎 0 · ⚖️ 62,612 total</div>
+  <div class="prop-card-tally">
+    Yes 62,612 (100.0%)<br>
+    No 0 (0.0%)<br>
+    Veto 0 (0.0%)<br>
+    Abstain 0 (0.0%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -105,7 +130,12 @@ template: proposals-oview.html
     <span>Voting ends 2025-09-07</span>
   </div>
   <div class="prop-card-desc">Proposal updates epoch_length and restrictions length according to real block length in seconds.</div>
-  <div class="prop-card-tally">👍 74,474 · 👎 0 · ⚖️ 74,474 total</div>
+  <div class="prop-card-tally">
+    Yes 74,474 (100.0%)<br>
+    No 0 (0.0%)<br>
+    Veto 0 (0.0%)<br>
+    Abstain 0 (0.0%)
+  </div>
 </div>
 
 </div>

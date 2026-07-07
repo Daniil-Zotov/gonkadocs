@@ -40,7 +40,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-06-26</span>
   </div>
   <div class="prop-card-desc">Add Kimi K2.6 and GLM 5.2 model</div>
-  <div class="prop-card-tally">👍 330,364 · 👎 0 · ⚖️ 330,364 total</div>
+  <div class="prop-card-tally">
+    Yes 330,364 (100.0%)<br>
+    No 0 (0.0%)<br>
+    Veto 0 (0.0%)<br>
+    Abstain 0 (0.0%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -53,7 +58,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-06-25</span>
   </div>
   <div class="prop-card-desc">Set delegation initial_model_id to MiniMaxAI/MiniMax-M2.7, keep only MiniMaxAI/MiniMax-M2.7 in PoC params, remove Qwen/Qwen3-235B-A22B-Instruct-2507-FP8, moonshotai/Kimi-K2.6 from PoC params, and dele…</div>
-  <div class="prop-card-tally">👍 255,215 · 👎 170 · ⚖️ 262,775 total</div>
+  <div class="prop-card-tally">
+    Yes 255,215 (97.1%)<br>
+    No 170 (0.1%)<br>
+    Veto 0 (0.0%)<br>
+    Abstain 7,390 (2.8%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -66,7 +76,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-06-26</span>
   </div>
   <div class="prop-card-desc">We are INPUT Global - a leading web3 marketing communications agency. We offer 3 month PR campaign to establish trust and market legitimacy of Gonka across 2 audiences: global business and crypto-nati…</div>
-  <div class="prop-card-tally">👍 152,042 · 👎 71 · ⚖️ 152,113 total</div>
+  <div class="prop-card-tally">
+    Yes 152,042 (100.0%)<br>
+    No 71 (0.0%)<br>
+    Veto 0 (0.0%)<br>
+    Abstain 0 (0.0%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -79,7 +94,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-06-17</span>
   </div>
   <div class="prop-card-desc">Register devshard approved version v2.</div>
-  <div class="prop-card-tally">👍 239,924 · 👎 17 · ⚖️ 239,957 total</div>
+  <div class="prop-card-tally">
+    Yes 239,924 (100.0%)<br>
+    No 17 (0.0%)<br>
+    Veto 0 (0.0%)<br>
+    Abstain 16 (0.0%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -104,7 +124,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-06-12</span>
   </div>
   <div class="prop-card-desc">Full proposal: https://gonkalabs.com/proposal  This proposal funds the next six months of work for the Gonka ecosystem.  The focus is production-grade infrastructure and high-use products: Gonka.gg V2…</div>
-  <div class="prop-card-tally">👍 305,163 · 👎 3,791 · ⚖️ 383,273 total</div>
+  <div class="prop-card-tally">
+    Yes 305,163 (79.6%)<br>
+    No 3,791 (1.0%)<br>
+    Veto 15 (0.0%)<br>
+    Abstain 74,304 (19.4%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -117,7 +142,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-06-12</span>
   </div>
   <div class="prop-card-desc">Increase the minimum deposit required to submit a governance proposal to 500 GNK (500,000,000,000 ngonka) and expedited minimum deposit to 1000 GNK (1,000,000,000,000 ngonka). This resubmits proposal …</div>
-  <div class="prop-card-tally">👍 295,843 · 👎 40 · ⚖️ 307,278 total</div>
+  <div class="prop-card-tally">
+    Yes 295,843 (96.3%)<br>
+    No 40 (0.0%)<br>
+    Veto 572 (0.2%)<br>
+    Abstain 10,823 (3.5%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -130,7 +160,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-06-12</span>
   </div>
   <div class="prop-card-desc">Adds a community-operated wallet to devshard_escrow_params.allowed_creator_addresses, enabling it to create a devshard escrow and operate as an additional self-hosted inference gateway/transfer agent.…</div>
-  <div class="prop-card-tally">👍 5,337 · 👎 7,953 · ⚖️ 243,945 total</div>
+  <div class="prop-card-tally">
+    Yes 5,337 (2.2%)<br>
+    No 7,953 (3.3%)<br>
+    Veto 221,234 (90.7%)<br>
+    Abstain 9,421 (3.9%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -143,7 +178,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-06-10</span>
   </div>
   <div class="prop-card-desc">We're a comms team specializing in Organic PR for crypto and tech projects. With strong competition in the space and no active events or marketing currently running for Gonka, we propose a 3-month Org…</div>
-  <div class="prop-card-tally">👍 180,108 · 👎 72 · ⚖️ 180,413 total</div>
+  <div class="prop-card-tally">
+    Yes 180,108 (99.8%)<br>
+    No 72 (0.0%)<br>
+    Veto 0 (0.0%)<br>
+    Abstain 233 (0.1%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -156,7 +196,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-06-08</span>
   </div>
   <div class="prop-card-desc">Release 246,000 GNK from Community Fund to finalize GNK Racers — a multiplayer side-view racing mini-app with a live working prototype (@GNKRacers_bot). The game drives new user acquisition, wallet ac…</div>
-  <div class="prop-card-tally">👍 38,621 · 👎 107,644 · ⚖️ 154,751 total</div>
+  <div class="prop-card-tally">
+    Yes 38,621 (25.0%)<br>
+    No 107,644 (69.6%)<br>
+    Veto 6,241 (4.0%)<br>
+    Abstain 2,245 (1.5%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -169,7 +214,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-06-07</span>
   </div>
   <div class="prop-card-desc">Increase the minimum deposit required to submit a governance proposal from the current value to 500 GNK. Also sets expedited minimum deposit to 1000 GNK.</div>
-  <div class="prop-card-tally">👍 199,799 · 👎 46 · ⚖️ 206,257 total</div>
+  <div class="prop-card-tally">
+    Yes 199,799 (96.9%)<br>
+    No 46 (0.0%)<br>
+    Veto 4,202 (2.0%)<br>
+    Abstain 2,210 (1.1%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -182,7 +232,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-06-07</span>
   </div>
   <div class="prop-card-desc">The proposal is reopened for voting at the initiative of several hosts who did not participate in the previous round.  • There are no changes to the substance of the proposal; only timeline commitment…</div>
-  <div class="prop-card-tally">👍 260,353 · 👎 749 · ⚖️ 269,936 total</div>
+  <div class="prop-card-tally">
+    Yes 260,353 (96.4%)<br>
+    No 749 (0.3%)<br>
+    Veto 6,288 (2.3%)<br>
+    Abstain 2,546 (0.9%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -195,7 +250,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-06-05</span>
   </div>
   <div class="prop-card-desc">Distribute restitution for Kimi operators across epochs 265-276. Epochs 265-266: external attack causing CPoC degradation and nonce exclusion. Epochs 267-276: ComputeGroupCap systematic underpayment d…</div>
-  <div class="prop-card-tally">👍 319,920 · 👎 150 · ⚖️ 405,437 total</div>
+  <div class="prop-card-tally">
+    Yes 319,920 (78.9%)<br>
+    No 150 (0.0%)<br>
+    Veto 84,623 (20.9%)<br>
+    Abstain 744 (0.2%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -220,7 +280,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-06-04</span>
   </div>
   <div class="prop-card-desc">Full 360-degree digital and social strategy for Gonka.AI: channel matrix, content plan, segment messaging, social strategy, and brand-voice guidelines. Single-tranche payment of 100,000 GNK to TheSoul…</div>
-  <div class="prop-card-tally">👍 220,798 · 👎 0 · ⚖️ 325,210 total</div>
+  <div class="prop-card-tally">
+    Yes 220,798 (67.9%)<br>
+    No 0 (0.0%)<br>
+    Veto 70,043 (21.5%)<br>
+    Abstain 34,369 (10.6%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -233,7 +298,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-06-04</span>
   </div>
   <div class="prop-card-desc">Web analytics, attribution, and funnel dashboarding for Gonka.AI: GA4 implementation, UTM taxonomy, event tracking, and conversion reporting. Single-tranche payment of 28,000 GNK to TheSoul on proposa…</div>
-  <div class="prop-card-tally">👍 220,798 · 👎 0 · ⚖️ 325,210 total</div>
+  <div class="prop-card-tally">
+    Yes 220,798 (67.9%)<br>
+    No 0 (0.0%)<br>
+    Veto 70,043 (21.5%)<br>
+    Abstain 34,369 (10.6%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -246,7 +316,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-06-04</span>
   </div>
   <div class="prop-card-desc">Full redesign of gonka.ai plus dedicated landing pages for miners, inference buyers, and investors, built on the brandbook from Offer 1.2. Single-tranche payment of 10,000 USDT to TheSoul on proposal …</div>
-  <div class="prop-card-tally">👍 220,798 · 👎 0 · ⚖️ 325,210 total</div>
+  <div class="prop-card-tally">
+    Yes 220,798 (67.9%)<br>
+    No 0 (0.0%)<br>
+    Veto 70,043 (21.5%)<br>
+    Abstain 34,369 (10.6%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -259,7 +334,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-06-04</span>
   </div>
   <div class="prop-card-desc">Crypto-influencer pilot campaign for Gonka.AI across selected tier-1 creators, with a full performance report and scaling recommendations. Single-tranche payment of 50,000 USDT to TheSoul on proposal …</div>
-  <div class="prop-card-tally">👍 220,798 · 👎 0 · ⚖️ 325,210 total</div>
+  <div class="prop-card-tally">
+    Yes 220,798 (67.9%)<br>
+    No 0 (0.0%)<br>
+    Veto 70,043 (21.5%)<br>
+    Abstain 34,369 (10.6%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -272,7 +352,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-06-04</span>
   </div>
   <div class="prop-card-desc">Brand identity system for Gonka.AI: logo, typography, color system, graphic language, layout principles, and templates, built on the positioning from Offer 1.1. Single-tranche payment of 20,000 USDT t…</div>
-  <div class="prop-card-tally">👍 220,798 · 👎 0 · ⚖️ 325,210 total</div>
+  <div class="prop-card-tally">
+    Yes 220,798 (67.9%)<br>
+    No 0 (0.0%)<br>
+    Veto 70,043 (21.5%)<br>
+    Abstain 34,369 (10.6%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -285,7 +370,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-06-04</span>
   </div>
   <div class="prop-card-desc">Brand audit, competitive positioning, and audience segmentation for Gonka.AI. Single-tranche payment of 25,000 USDT to TheSoul on proposal pass. Full offer document: see the metadata URL.</div>
-  <div class="prop-card-tally">👍 220,798 · 👎 0 · ⚖️ 325,210 total</div>
+  <div class="prop-card-tally">
+    Yes 220,798 (67.9%)<br>
+    No 0 (0.0%)<br>
+    Veto 70,043 (21.5%)<br>
+    Abstain 34,369 (10.6%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -298,7 +388,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-06-02</span>
   </div>
   <div class="prop-card-desc">Funds milestone 1 (upfront prepayment) of a community-produced onboarding video guide for Gonka. Deliverable: a series of ~15 short, interactive, easy-to-follow videos covering A-to-Z onboarding for b…</div>
-  <div class="prop-card-tally">👍 24,505 · 👎 0 · ⚖️ 56,204 total</div>
+  <div class="prop-card-tally">
+    Yes 24,505 (43.6%)<br>
+    No 0 (0.0%)<br>
+    Veto 0 (0.0%)<br>
+    Abstain 31,699 (56.4%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -311,7 +406,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-05-30</span>
   </div>
   <div class="prop-card-desc"># Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)  70,000 USDT from the CommunityPool for a dedicated Falcon Finance deep-dive on Gonka AI. Full proposal: https://vote.gonka.vip/tenders…</div>
-  <div class="prop-card-tally">👍 98,018 · 👎 0 · ⚖️ 183,715 total</div>
+  <div class="prop-card-tally">
+    Yes 98,018 (53.4%)<br>
+    No 0 (0.0%)<br>
+    Veto 85,697 (46.6%)<br>
+    Abstain 0 (0.0%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -324,7 +424,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-05-30</span>
   </div>
   <div class="prop-card-desc">This proposal approves the Gonka Network Development Roadmap as a strategic direction document for Gonka's future development tracks.  If approved, the roadmap should become the shared vision for Gonk…</div>
-  <div class="prop-card-tally">👍 257,150 · 👎 0 · ⚖️ 257,150 total</div>
+  <div class="prop-card-tally">
+    Yes 257,150 (100.0%)<br>
+    No 0 (0.0%)<br>
+    Veto 0 (0.0%)<br>
+    Abstain 0 (0.0%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -337,7 +442,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-05-27</span>
   </div>
   <div class="prop-card-desc"># Gonka NOP: grant for the node deployment tool  50,000 USDT from the CommunityPool to INC4 Full proposal: https://github.com/gonka-ai/gonka/discussions/1192  ## What it is  gonka-nop (Node Onboarding…</div>
-  <div class="prop-card-tally">👍 31,851 · 👎 9,566 · ⚖️ 54,378 total</div>
+  <div class="prop-card-tally">
+    Yes 31,851 (58.6%)<br>
+    No 9,566 (17.6%)<br>
+    Veto 12,961 (23.8%)<br>
+    Abstain 0 (0.0%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -350,7 +460,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-05-23</span>
   </div>
   <div class="prop-card-desc">Distribute restitution for Cases 2, 3, and 4 across epochs 248-254. Case 2: preserver weight double-scaling bug (epochs 249-253). Case 3: epoch loss restitution: broad epoch losses, consecutive failur…</div>
-  <div class="prop-card-tally">👍 188,670 · 👎 0 · ⚖️ 308,505 total</div>
+  <div class="prop-card-tally">
+    Yes 188,670 (61.2%)<br>
+    No 0 (0.0%)<br>
+    Veto 0 (0.0%)<br>
+    Abstain 119,835 (38.8%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -363,7 +478,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-05-22</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.13</div>
-  <div class="prop-card-tally">👍 228,216 · 👎 0 · ⚖️ 363,287 total</div>
+  <div class="prop-card-tally">
+    Yes 228,216 (62.8%)<br>
+    No 0 (0.0%)<br>
+    Veto 0 (0.0%)<br>
+    Abstain 135,071 (37.2%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -376,7 +496,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-05-21</span>
   </div>
   <div class="prop-card-desc"># Gonka NOP: grant for the node deployment tool  50,000 USDT from the CommunityPool to INC4 Full proposal: https://github.com/gonka-ai/gonka/discussions/1192  ## What it is  gonka-nop (Node Onboarding…</div>
-  <div class="prop-card-tally">👍 139,052 · 👎 0 · ⚖️ 297,247 total</div>
+  <div class="prop-card-tally">
+    Yes 139,052 (46.8%)<br>
+    No 0 (0.0%)<br>
+    Veto 158,195 (53.2%)<br>
+    Abstain 0 (0.0%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -389,7 +514,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-05-17</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.13</div>
-  <div class="prop-card-tally">👍 88,420 · 👎 0 · ⚖️ 259,219 total</div>
+  <div class="prop-card-tally">
+    Yes 88,420 (34.1%)<br>
+    No 0 (0.0%)<br>
+    Veto 170,799 (65.9%)<br>
+    Abstain 0 (0.0%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -402,7 +532,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-05-15</span>
   </div>
   <div class="prop-card-desc">6Block, a long-term Gonka mining and infrastructure participant, proposes that the Gonka community allocate 75,000 USDT to support Gonka's participation at WebX Asia / WebX 2026 in Tokyo. 6Block has a…</div>
-  <div class="prop-card-tally">👍 395,003 · 👎 1,767 · ⚖️ 629,262 total</div>
+  <div class="prop-card-tally">
+    Yes 395,003 (62.8%)<br>
+    No 1,767 (0.3%)<br>
+    Veto 64,217 (10.2%)<br>
+    Abstain 168,275 (26.7%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -415,7 +550,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-05-09</span>
   </div>
   <div class="prop-card-desc">Retroactive 20K GNK bounty for an open-sourced PoC optimization measuring +10.2% on B200 and +12.5% on H100 with Qwen3-235B-FP8. One-line patch, verified on-chain by independent miners. Details: https…</div>
-  <div class="prop-card-tally">👍 281,723 · 👎 0 · ⚖️ 476,312 total</div>
+  <div class="prop-card-tally">
+    Yes 281,723 (59.1%)<br>
+    No 0 (0.0%)<br>
+    Veto 0 (0.0%)<br>
+    Abstain 194,589 (40.9%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -428,7 +568,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-05-07</span>
   </div>
   <div class="prop-card-desc">We're ICG - AI Influencer Lab, a team that builds and scales hyper-realistic AI avatars on Instagram, TikTok, and YouTube as full ambassadors across verticals. We manage 160+ accounts in AI, finance, …</div>
-  <div class="prop-card-tally">👍 496,683 · 👎 0 · ⚖️ 698,243 total</div>
+  <div class="prop-card-tally">
+    Yes 496,683 (71.1%)<br>
+    No 0 (0.0%)<br>
+    Veto 0 (0.0%)<br>
+    Abstain 201,560 (28.9%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -441,7 +586,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-05-05</span>
   </div>
   <div class="prop-card-desc">During the Kimi-K2.6 bootstrap, the 30% direct participation threshold proved hard to meet. To avoid the risk of Kimi-K2.6 becoming ineligible in a future epoch and to simplify onboarding of further m…</div>
-  <div class="prop-card-tally">👍 808,529 · 👎 0 · ⚖️ 808,529 total</div>
+  <div class="prop-card-tally">
+    Yes 808,529 (100.0%)<br>
+    No 0 (0.0%)<br>
+    Veto 0 (0.0%)<br>
+    Abstain 0 (0.0%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -454,7 +604,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-05-06</span>
   </div>
   <div class="prop-card-desc">Retroactive 20K GNK bounty for an open-sourced PoC optimization measuring +10.2% on B200 and +12.5% on H100 with Qwen3-235B-FP8. One-line patch, verified on-chain by independent miners. Details: https…</div>
-  <div class="prop-card-tally">👍 70,819 · 👎 0 · ⚖️ 210,647 total</div>
+  <div class="prop-card-tally">
+    Yes 70,819 (33.6%)<br>
+    No 0 (0.0%)<br>
+    Veto 0 (0.0%)<br>
+    Abstain 139,828 (66.4%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -467,7 +622,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-05-04</span>
   </div>
   <div class="prop-card-desc">Two prior upgrades changed the lifecycle of unpaid miner rewards. v0.2.9 (proposal #26, 2026-02-01): when a participant is penalized during cPoC validation, the unaccounted portion of their epoch rewa…</div>
-  <div class="prop-card-tally">👍 97,030 · 👎 0 · ⚖️ 269,867 total</div>
+  <div class="prop-card-tally">
+    Yes 97,030 (36.0%)<br>
+    No 0 (0.0%)<br>
+    Veto 0 (0.0%)<br>
+    Abstain 172,837 (64.0%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -480,7 +640,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-05-01</span>
   </div>
   <div class="prop-card-desc">Replace scattered governance discussions and complex CLI voting with a unified Governance Portal - a single interface for all Gonka governance activity. The portal includes: a proposal feed across Dis…</div>
-  <div class="prop-card-tally">👍 118,126 · 👎 0 · ⚖️ 462,089 total</div>
+  <div class="prop-card-tally">
+    Yes 118,126 (25.6%)<br>
+    No 0 (0.0%)<br>
+    Veto 210,906 (45.6%)<br>
+    Abstain 133,057 (28.8%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -493,7 +658,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-04-30</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.12</div>
-  <div class="prop-card-tally">👍 506,142 · 👎 2,057 · ⚖️ 508,199 total</div>
+  <div class="prop-card-tally">
+    Yes 506,142 (99.6%)<br>
+    No 2,057 (0.4%)<br>
+    Veto 0 (0.0%)<br>
+    Abstain 0 (0.0%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -506,7 +676,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-04-27</span>
   </div>
   <div class="prop-card-desc">Today, participating in Gonka governance requires following multiple channels simultaneously — GitHub, Discord, CLI — just to cast a single vote. Most miners miss proposals entirely or vote too late. …</div>
-  <div class="prop-card-tally">👍 123,104 · 👎 335,534 · ⚖️ 464,551 total</div>
+  <div class="prop-card-tally">
+    Yes 123,104 (26.5%)<br>
+    No 335,534 (72.2%)<br>
+    Veto 5,913 (1.3%)<br>
+    Abstain 0 (0.0%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -519,7 +694,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-04-19</span>
   </div>
   <div class="prop-card-desc">We are DeAI Nation, a global nonprofit organization supporting and promoting the decentralized AI ecosystem, and authors of the State of DeAI 2026 report. We propose that the Gonka community become a …</div>
-  <div class="prop-card-tally">👍 375,771 · 👎 0 · ⚖️ 547,821 total</div>
+  <div class="prop-card-tally">
+    Yes 375,771 (68.6%)<br>
+    No 0 (0.0%)<br>
+    Veto 0 (0.0%)<br>
+    Abstain 172,050 (31.4%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -532,7 +712,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-04-18</span>
   </div>
   <div class="prop-card-desc">Today's explorers and dashboards only show on-chain data, leaving the off-chain state of validators completely opaque. The few operators who do run their own monitoring use different tools, different …</div>
-  <div class="prop-card-tally">👍 17,955 · 👎 13,494 · ⚖️ 31,449 total</div>
+  <div class="prop-card-tally">
+    Yes 17,955 (57.1%)<br>
+    No 13,494 (42.9%)<br>
+    Veto 0 (0.0%)<br>
+    Abstain 0 (0.0%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -545,7 +730,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-04-14</span>
   </div>
   <div class="prop-card-desc">This proposal updates x/gov: the standard voting period becomes 48 hours (was 24), and the expedited voting period becomes 12 hours (was 3). All other governance parameters remain at their current on-…</div>
-  <div class="prop-card-tally">👍 377,158 · 👎 0 · ⚖️ 653,978 total</div>
+  <div class="prop-card-tally">
+    Yes 377,158 (57.7%)<br>
+    No 0 (0.0%)<br>
+    Veto 12,030 (1.8%)<br>
+    Abstain 264,790 (40.5%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -558,7 +748,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-04-10</span>
   </div>
   <div class="prop-card-desc">Saccade Media House is a creative team of tech entrepreneurs who know how to tell stories. We've built content for international tech brands and the founders behind them. We propose a Community Series…</div>
-  <div class="prop-card-tally">👍 394,971 · 👎 183 · ⚖️ 519,741 total</div>
+  <div class="prop-card-tally">
+    Yes 394,971 (76.0%)<br>
+    No 183 (0.0%)<br>
+    Veto 0 (0.0%)<br>
+    Abstain 124,587 (24.0%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -571,7 +766,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-04-09</span>
   </div>
   <div class="prop-card-desc">If you agree say YES — Solution 1: Produce a short review video with 1-2 active community members. Solution 2: Introduce the project to BD managers of major CIS exchanges for listings. Solution 3 (Reg…</div>
-  <div class="prop-card-tally">👍 0 · 👎 183 · ⚖️ 8,076 total</div>
+  <div class="prop-card-tally">
+    Yes 0 (0.0%)<br>
+    No 183 (2.3%)<br>
+    Veto 7,893 (97.7%)<br>
+    Abstain 0 (0.0%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -584,7 +784,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-04-08</span>
   </div>
   <div class="prop-card-desc">If you are against MLM projects around gonka.ai, vote YES. All funds will be used to counter such projects. The amount is symbolic.</div>
-  <div class="prop-card-tally">👍 957 · 👎 0 · ⚖️ 957 total</div>
+  <div class="prop-card-tally">
+    Yes 957 (100.0%)<br>
+    No 0 (0.0%)<br>
+    Veto 0 (0.0%)<br>
+    Abstain 0 (0.0%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -597,7 +802,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-04-02</span>
   </div>
   <div class="prop-card-desc">Register IBC token metadata and approve the denomination for trading on Gonka mainnet.</div>
-  <div class="prop-card-tally">👍 421,414 · 👎 0 · ⚖️ 423,202 total</div>
+  <div class="prop-card-tally">
+    Yes 421,414 (99.6%)<br>
+    No 0 (0.0%)<br>
+    Veto 0 (0.0%)<br>
+    Abstain 1,788 (0.4%)
+  </div>
 </div>
 
 </div>

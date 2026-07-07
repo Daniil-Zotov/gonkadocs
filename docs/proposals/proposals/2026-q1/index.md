@@ -40,7 +40,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-03-31</span>
   </div>
   <div class="prop-card-desc">This proposal seeks community approval for a global media initiative to build awareness of decentralized AI and position Gonka as core AI infrastructure.  Key elements: Led by TheSoul Group (full-cycl…</div>
-  <div class="prop-card-tally">👍 9,150 · 👎 10,325 · ⚖️ 35,864 total</div>
+  <div class="prop-card-tally">
+    Yes 9,150 (25.5%)<br>
+    No 10,325 (28.8%)<br>
+    Veto 2,450 (6.8%)<br>
+    Abstain 13,939 (38.9%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -65,7 +70,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-03-27</span>
   </div>
   <div class="prop-card-desc">Distribute compensation for CPoC bug affected participants in epochs 132-133.</div>
-  <div class="prop-card-tally">👍 184,243 · 👎 0 · ⚖️ 440,539 total</div>
+  <div class="prop-card-tally">
+    Yes 184,243 (41.8%)<br>
+    No 0 (0.0%)<br>
+    Veto 0 (0.0%)<br>
+    Abstain 256,296 (58.2%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -78,7 +88,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-03-24</span>
   </div>
   <div class="prop-card-desc">Distribute compensation proportional to epoch 158 lost preserved weights. Implemented as one MsgBatchTransferWithVesting.</div>
-  <div class="prop-card-tally">👍 501,114 · 👎 0 · ⚖️ 501,114 total</div>
+  <div class="prop-card-tally">
+    Yes 501,114 (100.0%)<br>
+    No 0 (0.0%)<br>
+    Veto 0 (0.0%)<br>
+    Abstain 0 (0.0%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -91,7 +106,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-03-20</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.11</div>
-  <div class="prop-card-tally">👍 673,699 · 👎 0 · ⚖️ 673,699 total</div>
+  <div class="prop-card-tally">
+    Yes 673,699 (100.0%)<br>
+    No 0 (0.0%)<br>
+    Veto 0 (0.0%)<br>
+    Abstain 0 (0.0%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -104,7 +124,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-03-10</span>
   </div>
   <div class="prop-card-desc">Testing governance voting from the wallet app.</div>
-  <div class="prop-card-tally">👍 0 · 👎 47 · ⚖️ 47 total</div>
+  <div class="prop-card-tally">
+    Yes 0 (0.0%)<br>
+    No 47 (100.0%)<br>
+    Veto 0 (0.0%)<br>
+    Abstain 0 (0.0%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -117,7 +142,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-02-20</span>
   </div>
   <div class="prop-card-desc">Remove TransferAgent allowlist restrictions (empty list = all TAs allowed) and increase per-token pricing 100x (min 100, base 10000 ngonka) to reduce spam.</div>
-  <div class="prop-card-tally">👍 7,314 · 👎 0 · ⚖️ 250,374 total</div>
+  <div class="prop-card-tally">
+    Yes 7,314 (2.9%)<br>
+    No 0 (0.0%)<br>
+    Veto 243,060 (97.1%)<br>
+    Abstain 0 (0.0%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -130,7 +160,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-02-19</span>
   </div>
   <div class="prop-card-desc">0.032 GNK per 1 unit of power, 0.01% slashing for miss rate or jail, 0.5% slashing for invalid inference</div>
-  <div class="prop-card-tally">👍 314,460 · 👎 11,504 · ⚖️ 325,964 total</div>
+  <div class="prop-card-tally">
+    Yes 314,460 (96.5%)<br>
+    No 11,504 (3.5%)<br>
+    Veto 0 (0.0%)<br>
+    Abstain 0 (0.0%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -143,7 +178,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-02-18</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.10</div>
-  <div class="prop-card-tally">👍 1,540,653 · 👎 0 · ⚖️ 1,540,653 total</div>
+  <div class="prop-card-tally">
+    Yes 1,540,653 (100.0%)<br>
+    No 0 (0.0%)<br>
+    Veto 0 (0.0%)<br>
+    Abstain 0 (0.0%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -156,7 +196,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-02-01</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.9</div>
-  <div class="prop-card-tally">👍 2,708,406 · 👎 0 · ⚖️ 2,708,406 total</div>
+  <div class="prop-card-tally">
+    Yes 2,708,406 (100.0%)<br>
+    No 0 (0.0%)<br>
+    Veto 0 (0.0%)<br>
+    Abstain 0 (0.0%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -169,7 +214,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-01-29</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.8</div>
-  <div class="prop-card-tally">👍 4,153,562 · 👎 0 · ⚖️ 4,153,562 total</div>
+  <div class="prop-card-tally">
+    Yes 4,153,562 (100.0%)<br>
+    No 0 (0.0%)<br>
+    Veto 0 (0.0%)<br>
+    Abstain 0 (0.0%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -194,7 +244,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-01-18</span>
   </div>
   <div class="prop-card-desc">Update Expiration Dates for Developer Access and Participant Allowlist</div>
-  <div class="prop-card-tally">👍 3,476,742 · 👎 2,836 · ⚖️ 3,479,578 total</div>
+  <div class="prop-card-tally">
+    Yes 3,476,742 (99.9%)<br>
+    No 2,836 (0.1%)<br>
+    Veto 0 (0.0%)<br>
+    Abstain 0 (0.0%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -207,7 +262,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-01-12</span>
   </div>
   <div class="prop-card-desc">https://github.com/product-science/filter/tree/0354c37eb6c827f00c1e889a2b7de9952a9b84ba</div>
-  <div class="prop-card-tally">👍 3,020,391 · 👎 0 · ⚖️ 3,020,391 total</div>
+  <div class="prop-card-tally">
+    Yes 3,020,391 (100.0%)<br>
+    No 0 (0.0%)<br>
+    Veto 0 (0.0%)<br>
+    Abstain 0 (0.0%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -220,7 +280,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-01-10</span>
   </div>
   <div class="prop-card-desc">https://github.com/product-science/filter/tree/ae59d27f04a70039bcfca94ae656e723982150cd</div>
-  <div class="prop-card-tally">👍 2,111,775 · 👎 90,320 · ⚖️ 2,342,702 total</div>
+  <div class="prop-card-tally">
+    Yes 2,111,775 (90.1%)<br>
+    No 90,320 (3.9%)<br>
+    Veto 140,607 (6.0%)<br>
+    Abstain 0 (0.0%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -233,7 +298,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-01-08</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.7</div>
-  <div class="prop-card-tally">👍 3,886,156 · 👎 148,604 · ⚖️ 4,042,856 total</div>
+  <div class="prop-card-tally">
+    Yes 3,886,156 (96.1%)<br>
+    No 148,604 (3.7%)<br>
+    Veto 8,096 (0.2%)<br>
+    Abstain 0 (0.0%)
+  </div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -246,7 +316,12 @@ template: proposals-oview.html
     <span>Voting ends 2026-01-05</span>
   </div>
   <div class="prop-card-desc">Test proposal</div>
-  <div class="prop-card-tally">👍 4,237 · 👎 0 · ⚖️ 4,237 total</div>
+  <div class="prop-card-tally">
+    Yes 4,237 (100.0%)<br>
+    No 0 (0.0%)<br>
+    Veto 0 (0.0%)<br>
+    Abstain 0 (0.0%)
+  </div>
 </div>
 
 </div>

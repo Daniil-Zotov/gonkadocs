@@ -164,6 +164,8 @@
 .prop-card-tally {
   font-size: 12px;
   color: var(--md-default-fg-color--light);
+  line-height: 1.6;
+  margin-top: 6px;
 }
 
 /* ── Detail page ───────────────────────────────────────────── */
