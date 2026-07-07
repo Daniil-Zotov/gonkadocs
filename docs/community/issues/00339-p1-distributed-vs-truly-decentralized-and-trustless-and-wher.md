@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 *(empty)*
 </div>
 
@@ -34,7 +34,7 @@ template: issues-main.html
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-02-28 00:24 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     https://docs.google.com/document/d/1JGbGSAUdedTyd2lqv0314f7unT7-Tm8Xw9Iw2stR1KM/edit?tab=t.0#heading=h.6nthq29wk7fx
   </div>
 </div>
@@ -43,7 +43,7 @@ template: issues-main.html
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-03-05 23:42 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     https://medium.com/p/04153af31dfa
   </div>
 </div>

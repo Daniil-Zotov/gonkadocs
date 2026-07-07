@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 Hi Gonka team,
 
 Requesting to join the Gateway allowlist.
@@ -57,7 +57,7 @@ Thanks!
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-06-23 22:52 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Hi! At the moment, the public broker list is not being actively expanded through governance. Inclusion in that list should be handled through the governance process and discussed in the community.
 
 As a practical alternative, there is now a community-operated option for teams that want to start operating as brokers without waiting for direct access https://github.com/gonka-ai/gonka/discussions/1363.

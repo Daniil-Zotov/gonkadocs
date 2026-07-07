@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span> <span class="issues-label" style="background-color: #008672; color: #ffffff; border-color: #008672;">help wanted</span> <span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span> <span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 
 ### Discussed in https://github.com/gonka-ai/gonka/discussions/802
 
@@ -44,7 +44,7 @@ Long-running effort; Many contributors are welcome.
     <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
     <span class="issues-meta-item">commented 2026-03-03 10:33 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     PR: https://github.com/gonka-ai/gonka/pull/845
   </div>
 </div>

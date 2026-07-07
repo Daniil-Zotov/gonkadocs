@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 Set up IBC channels between Gonka and the chains for USDC (Injective) and USDT (Kava) so that IBC transfers work for these assets.
 </div>
 

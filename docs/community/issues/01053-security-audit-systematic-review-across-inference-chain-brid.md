@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ## Summary
 
 Systematic security audit covering four major components of the Gonka network. Found **1 Critical, 5 High, 10+ Medium** severity issues across the codebase. Fix PRs submitted for the top 3 findings.
@@ -127,7 +127,7 @@ I plan to submit additional fix PRs for the remaining findings if the team is in
     <span>[@Doog-bot534](https://github.com/Doog-bot534)</span>
     <span class="issues-meta-item">commented 2026-04-15 07:14 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     ## Payout Address
 
 If any of the findings or fix PRs (#1050, #1051, #1052, #1054, #1055, #1056, #1057) are eligible for bounty rewards, please send to:
@@ -144,7 +144,7 @@ Happy to discuss any of the findings in more detail or submit additional fixes f
     <span>[@Doog-bot534](https://github.com/Doog-bot534)</span>
     <span class="issues-meta-item">commented 2026-04-20 02:00 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     2026-04-20 self-review update: withdrawing findings **#3, #8, #16, #21** (see "Withdrawn findings" section in the updated body). Same review pass closed PRs #1077 and #1058.
 
 Rationale:
@@ -160,7 +160,7 @@ Keeping the queue focused on actionable findings. The other 17 items (including 
     <span>[@Doog-bot534](https://github.com/Doog-bot534)</span>
     <span class="issues-meta-item">commented 2026-04-20 14:54 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     ## Cleanup summary (2026-04-20)
 
 Per maintainer feedback on PR quality, I've completed a self-audit of all submissions under this umbrella. Summary:

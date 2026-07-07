@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ## Summary
 
 When an outbound `RequestBridgeMint` BLS request reaches terminal **`EXPIRED`** (threshold not met), the chain emits `inference.bls.EventThresholdSigningFailed` but **does not** auto-refund bridge escrow. GNK stays locked until the user calls **`cancel-bridge-operation`** with the plaintext `request_id` from `bridge_mint_requested`.
@@ -85,7 +85,7 @@ Silent `(false, nil)` if hooks empty or pending not found — **no retry queue**
     <span>[@maria-mitina](https://github.com/maria-mitina)</span>
     <span class="issues-meta-item">commented 2026-06-19 17:03 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     # Testnet evidence retrieval (`gonka-testnet-4`)
 
 Run on seed host `702111`:
@@ -432,7 +432,7 @@ export BLS_ID='7Zr3ERnMcKniqxDd9eEqnM91iVLtvrrY+uAYUIIEOdg='
     <span>[@maria-mitina](https://github.com/maria-mitina)</span>
     <span class="issues-meta-item">commented 2026-06-20 05:27 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     at the moment all filfox servers are down 
 
 <img width="597" height="87" alt="Image" src="https://github.com/user-attachments/assets/38a75e11-eb3d-4c65-a54f-dc9e98227a2b" />

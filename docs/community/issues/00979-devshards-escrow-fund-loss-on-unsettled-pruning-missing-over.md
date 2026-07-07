@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ## Summary
 
 Three related bugs in subnet escrow settlement and pruning code (v0.2.11):
@@ -61,7 +61,7 @@ Three related bugs in subnet escrow settlement and pruning code (v0.2.11):
     <span>[@unameisfine](https://github.com/unameisfine)</span>
     <span class="issues-meta-item">commented 2026-04-27 22:46 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Closing — covered by PRs #1013, #1014, #1015.
   </div>
 </div>
@@ -70,7 +70,7 @@ Three related bugs in subnet escrow settlement and pruning code (v0.2.11):
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-04-29 21:27 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @akup please take a look
   </div>
 </div>

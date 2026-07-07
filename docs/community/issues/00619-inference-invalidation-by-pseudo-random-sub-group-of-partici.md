@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 *(empty)*
 </div>
 
@@ -34,7 +34,7 @@ template: issues-main.html
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-01-24 00:15 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @akup is ready to take ownership of this issue. please try to assign issue to yourself 
   </div>
 </div>
@@ -43,7 +43,7 @@ template: issues-main.html
     <span>[@akup](https://github.com/akup)</span>
     <span class="issues-meta-item">commented 2026-01-28 03:16 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @tcharchian seams I need to leave a comment first
   </div>
 </div>
@@ -52,7 +52,7 @@ template: issues-main.html
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-03-22 23:14 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Hey @akup @gmorgachev @0xgonka, do you think it makes sense to keep this issue open for now, or would you recommend closing it already?
   </div>
 </div>
@@ -61,7 +61,7 @@ template: issues-main.html
     <span>[@akup](https://github.com/akup)</span>
     <span class="issues-meta-item">commented 2026-03-23 05:53 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @tcharchian I have a ready solution on this.
 But I need to make few related PRs first. I will do it in next 24h
   </div>

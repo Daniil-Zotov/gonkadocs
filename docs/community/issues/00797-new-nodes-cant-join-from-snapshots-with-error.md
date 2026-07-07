@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #008672; color: #ffffff; border-color: #008672;">help wanted</span> <span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span> <span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 **This is an urgent, open issue, and many contributors are working on it in parallel.**
 
 There is a quite weird issue today - new nodes can't join from snapshots with error like that:
@@ -56,7 +56,7 @@ Also, collateral needs to be checked.
     <span>[@hleb-albau](https://github.com/hleb-albau)</span>
     <span class="issues-meta-item">commented 2026-02-24 19:53 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     As a workaround(before fix), it is possible to just compress data folder(except some filers) and distribute it as is archive. Quite popular in cosmos world. See https://snapshots.osmosis.zone/index.html as example
   </div>
 </div>
@@ -65,7 +65,7 @@ Also, collateral needs to be checked.
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-02-24 20:11 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @hleb-albau thanks, that makes sense and it’s a well-known approach in the Cosmos ecosystem. You are right, it’s more of an operational workaround than a real fix (it doesn’t address the underlying issue we’re trying to solve)
   </div>
 </div>
@@ -74,7 +74,7 @@ Also, collateral needs to be checked.
     <span>[@blizko](https://github.com/blizko)</span>
     <span class="issues-meta-item">commented 2026-02-24 21:35 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Additional feedback:
 The issue was observed before collateral slashing was activated. During epoch 179 have been observing same error.
 Known failed attempt time around Feb 21st 01:47 UTC
@@ -85,7 +85,7 @@ Known failed attempt time around Feb 21st 01:47 UTC
     <span>[@x0152](https://github.com/x0152)</span>
     <span class="issues-meta-item">commented 2026-02-24 23:49 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     The issue is in [cosmos/iavl v1.2.4](https://github.com/cosmos/iavl/tree/v1.2.4)
 
 After snapshot restore, IAVL rebuilds a "fast node" index by iterating the tree. If the iterator hits an error mid-way, it silently stops - the error is never stored ([iterator.go:230-235](https://github.com/cosmos/iavl/blob/v1.2.4/iterator.go#L230-L235)). The fast index ends up incomplete, but IAVL marks it as ready
@@ -104,7 +104,7 @@ The exact error that triggers the iterator failure is still unknown - since IAVL
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-02-25 17:50 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     https://gonka.ai/FAQ/#how-do-i-fix-errno-validator-signing-info-found-when-starting-from-a-state-sync-snapshot
   </div>
 </div>

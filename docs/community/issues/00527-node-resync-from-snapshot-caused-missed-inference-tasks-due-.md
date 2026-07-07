@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 Hi,
 
 I encountered an issue with my node where the application.db grew too large.
@@ -46,7 +46,7 @@ Thanks in advance for your help.
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-01-22 00:08 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Hi @bingcongxihaha! Unfortunately, no inference tasks that are missed while a node is offline (e.g. during resync) cannot be recovered or compensated retroactively. Inference assignment and PoC are performed in real time. If a node is not running and serving requests during that period, those inference opportunities are simply lost.  
 
 The goal is to prevent forced resyncs by controlling database growth and disk usage.

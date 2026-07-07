@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 - [consensus-failure-epoch-length.log](https://github.com/user-attachments/files/22176980/consensus-failure-epoch-length.log)
 - https://github.com/gonka-ai/gonka/blob/f0a36298bddf8ba7f924b30ac289ad7f50a7a8d8/inference-chain/x/inference/keeper/power.go#L53
 ```
@@ -43,7 +43,7 @@ node      | 1:53AM INF service stop impl=baseWAL module=consensus msg="Stopping 
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-01-28 22:26 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @DimaOrekhovPS or @patimen please give more details for this task
   </div>
 </div>
@@ -52,7 +52,7 @@ node      | 1:53AM INF service stop impl=baseWAL module=consensus msg="Stopping 
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-02-28 00:31 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @patimen please give more details for this task
 
 

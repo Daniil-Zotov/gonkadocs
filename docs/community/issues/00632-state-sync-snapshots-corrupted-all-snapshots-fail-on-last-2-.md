@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ## Summary
 
 State sync fails for all available snapshots (2309000, 2310000) - the last 2 chunks (826-827 out of 827) are either corrupted or unavailable, causing nodes to crash with IAVL store panic.
@@ -128,7 +128,7 @@ docker logs -f node
     <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
     <span class="issues-meta-item">commented 2026-01-24 21:47 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     ## Analysis of State Sync Snapshot Corruption
 
 I investigated this issue and found the following:
@@ -163,7 +163,7 @@ This is likely a propagation timing issue rather than data corruption - the snap
     <span>[@gmorgachev](https://github.com/gmorgachev)</span>
     <span class="issues-meta-item">commented 2026-01-27 06:53 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     When some existing node providing snapshot to another node, it already has full snapshot, all chunks. It's not really propagated more then to this P2P request. Snapshots are downloaded directly.
   </div>
 </div>
@@ -172,7 +172,7 @@ This is likely a propagation timing issue rather than data corruption - the snap
     <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
     <span class="issues-meta-item">commented 2026-02-04 11:46 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     ## Root Cause Found
 
 The issue is a race condition between snapshot pruning and chunk serving during state sync.
@@ -209,7 +209,7 @@ Adds read-side reference counting to the snapshot `Store`: `Delete` now waits fo
     <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
     <span class="issues-meta-item">commented 2026-02-09 18:00 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @gmorgachev The fix is ready and waiting for review: https://github.com/gonka-ai/cosmos-sdk/pull/10
 
 Adds read-side reference counting to the snapshot Store so that Prune/Delete waits for active LoadChunk readers to finish before removing files from disk. This prevents the race condition that causes the last chunks to disappear mid-download.
@@ -220,7 +220,7 @@ Adds read-side reference counting to the snapshot Store so that Prune/Delete wai
     <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
     <span class="issues-meta-item">commented 2026-02-09 18:00 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Also — is the reference counting approach the right direction here, or would you prefer a different strategy (e.g. copy-on-write, or delaying prune until no active sync sessions)?
   </div>
 </div>

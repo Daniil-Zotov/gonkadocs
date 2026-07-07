@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 Independent re-check of the VLM inference and validation results reported in #1026 before they are used for protocol, model onboarding, or host-facing decisions.
 
 The goal is not to redo the full research from scratch, but to verify that the reported methodology, scripts, artifacts, thresholds, and conclusions are reproducible and technically sound.
@@ -106,7 +106,7 @@ Please provide a short report in this issue with:
     <span>[@Ryanchen911](https://github.com/Ryanchen911)</span>
     <span class="issues-meta-item">commented 2026-05-22 08:30 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     hi Tania ,i plan to take this one
   </div>
 </div>
@@ -115,7 +115,7 @@ Please provide a short report in this issue with:
     <span>[@Ryanchen911](https://github.com/Ryanchen911)</span>
     <span class="issues-meta-item">commented 2026-05-25 09:34 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     cc @fedor-konovalenko @tcharchian
 # Independent Re-Check of VLM Inference/Validation Results (#1026, PR #1150)
 
@@ -272,7 +272,7 @@ Once Q1–Q4 are addressed, an updated headline number from a held-out evaluatio
     <span>[@fedor-konovalenko](https://github.com/fedor-konovalenko)</span>
     <span class="issues-meta-item">commented 2026-06-06 22:43 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     First of all, thank you very much for such detailed, valuable, and helpful comments and feedback. I will do my best to take them into account.
 
 
@@ -314,7 +314,7 @@ O8 - The proposed verification will require additional experiments with larger m
     <span>[@Ryanchen911](https://github.com/Ryanchen911)</span>
     <span class="issues-meta-item">commented 2026-06-08 01:55 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Thanks for the thorough turnaround — this addresses almost everything, and the deferral of O3/O4/O8 to the integration stage is fine by me.
   </div>
 </div>
@@ -323,7 +323,7 @@ O8 - The proposed verification will require additional experiments with larger m
     <span>[@fedor-konovalenko](https://github.com/fedor-konovalenko)</span>
     <span class="issues-meta-item">commented 2026-06-10 13:28 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Thanks! 
 
 And here are results of fraud detection scenario: 7B VLM as 235B VLM.
@@ -337,7 +337,7 @@ F1 score = 100%
     <span>[@Ryanchen911](https://github.com/Ryanchen911)</span>
     <span class="issues-meta-item">commented 2026-06-11 08:42 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Overall this looks good to me. Thanks for the thorough iterations.
 
 One tiny carryover in qwen3-VL-235B-vs-7B_thresholds.ipynb: the fraud cell still says "99% of fraud samples" (output is 1.0) and the honest cell says "INT8 on both sides" though the set here is FP8 — leftover template text, same as O1. Easy fix whenever.
@@ -348,7 +348,7 @@ One tiny carryover in qwen3-VL-235B-vs-7B_thresholds.ipynb: the fraud cell still
     <span>[@fedor-konovalenko](https://github.com/fedor-konovalenko)</span>
     <span class="issues-meta-item">commented 2026-06-11 09:07 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Sorry, I really used old template :(
 Fixed
   </div>

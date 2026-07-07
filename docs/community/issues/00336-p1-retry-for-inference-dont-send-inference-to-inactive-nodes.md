@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 - [x] Identify causes why inference requests are sent to inactive or unresponsive (“dead MLNode”) MLNodes.
 </div>
 

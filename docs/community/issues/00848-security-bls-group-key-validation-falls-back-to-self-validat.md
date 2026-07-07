@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ## Location
 
 `inference-chain/x/bls/keeper/msg_server_group_validation.go` — lines 64–74
@@ -79,7 +79,7 @@ If bootstrapping for the very first epoch is required, handle it explicitly with
     <span>[@Mayveskii](https://github.com/Mayveskii)</span>
     <span class="issues-meta-item">commented 2026-03-03 12:15 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Investigated the fallback path at line 74 of `msg_server_group_validation.go`.
 
 When `previousEpochBLSData` is not found, the code assigns `previousEpochBLSData = newEpochBLSData`.
@@ -98,7 +98,7 @@ PR: https://github.com/Mayveskii/gonka/pull/new/fix/848-bls-self-validation
     <span>[@Mayveskii](https://github.com/Mayveskii)</span>
     <span class="issues-meta-item">commented 2026-03-03 12:16 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     > Investigated the fallback path at line 74 of `msg_server_group_validation.go`.
 > 
 > When `previousEpochBLSData` is not found, the code assigns `previousEpochBLSData = newEpochBLSData`. This means:

@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ## Summary
 
 Manual reproduction of **Scenario A** (coordinated `node` halt with `bridge` + `api` kept running) on **gonka-testnet-4** with a live **Sepolia USDT** inbound deposit. Result: **FAIL** — deposit ingested by API on all hosts, but only **1/4** validator votes landed on-chain; deposit remains **`BRIDGE_PENDING`** with no second USDT mint.
@@ -182,7 +182,7 @@ Manual `bridge-exchange` from validators on **18222**, **18223**, **18226** with
     <span>[@maria-mitina](https://github.com/maria-mitina)</span>
     <span class="issues-meta-item">commented 2026-06-28 07:37 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     ## Log file direct links (gist)
 
 Gist: https://gist.github.com/maria-mitina/6dc628e81592ec99dc094624c01d4ac9
@@ -207,7 +207,7 @@ Local copy path in repo workspace: `docs/bridge-scenario-a-2026-06-28/logs/`
     <span>[@maria-mitina](https://github.com/maria-mitina)</span>
     <span class="issues-meta-item">commented 2026-06-29 10:50 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     duplicate of https://github.com/gonka-ai/gonka/issues/1358 
   </div>
 </div>

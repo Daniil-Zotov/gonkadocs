@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ## Summary
 
 I am building an OpenAI-compatible reliability gateway for Gonka-hosted models, starting with `moonshotai/Kimi-K2.6`.
@@ -134,7 +134,7 @@ I am happy to coordinate and adjust the validation scope, limits, or rollout pro
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-06-23 23:22 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Hi @sspotanin!
 
 On the process you asked about: allowlisting a `gonka1…` creator address is an on-chain governance decision. Addresses on `devshard_escrow_params.allowed_creator_addresses` are added through a governance vote — no single maintainer or operator adds one unilaterally.  To be clear, your actual ask (validating the creator/operator path locally) does require the allowlist; that's the part where you create and settle escrows yourself, and no managed service substitutes for it. So nothing below replaces this request.

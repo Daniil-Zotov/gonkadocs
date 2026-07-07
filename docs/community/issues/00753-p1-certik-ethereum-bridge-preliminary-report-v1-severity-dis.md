@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 - [x] GEB-01 | Discussion on Unpaired Burn/BurnFrom on Wrapped Supply in `wrapped-token` Contract
 - [x] GEB-02 | Discussion on `UpdateMetadata` that Modifies Decimals
 - [x] GEB-28 | Discussion on Donor Mechanism

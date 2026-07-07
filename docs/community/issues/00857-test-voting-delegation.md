@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 In order to make voting more convenient for the contributors, we are exploring delegation of voting rights. The flow of the delegation is the following:
 Granter gives grantee permission to send specific message types on their behalf. The grantee uses MsgExec to run those messages; the chain checks the authz grant and treats the message as coming from the granter.
 
@@ -43,7 +43,7 @@ Testnet will be used for the flow verification.
     <span>[@maria-mitina](https://github.com/maria-mitina)</span>
     <span class="issues-meta-item">commented 2026-03-04 12:15 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     all test cases on testnet PASSED with a caveat that the TX does not fail explicitly. (**Expected:** Tx fails (e.g. “authorization not found” / “unauthorized”). **Reality:** Nothing indicating that the voting did not go through)
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
@@ -153,7 +153,7 @@ Tally | Query votes after success | Granter appears with correct option
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-03-05 23:46 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Hey @mayveskii, could you please clarify why you referenced this issue in [d4e74c4] and [e5995db]? Do you have any issues with delegating?
 
   </div>
@@ -163,7 +163,7 @@ Tally | Query votes after success | Granter appears with correct option
     <span>[@Mayveskii](https://github.com/Mayveskii)</span>
     <span class="issues-meta-item">commented 2026-03-06 00:05 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     > Hey [@Mayveskii](https://github.com/Mayveskii), could you please clarify why you referenced this issue in [[d4e74c4](https://github.com/gonka-ai/gonka/commit/d4e74c4da683bb4a1ee894a5004af2247ac65c3c)] and [[e5995db](https://github.com/gonka-ai/gonka/commit/e5995db2391d9d1b9037ffd0b3c5d2344437bd2c)]? Do you have any issues with delegating?
 
 Hi, Tanya!  I'm interested in participating as a grantee in the delegation test.
@@ -180,7 +180,7 @@ Currently working on GIP #859 (semantic cache) and need tokens for both the dele
     <span>[@Mayveskii](https://github.com/Mayveskii)</span>
     <span class="issues-meta-item">commented 2026-03-06 00:15 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     > Hey [@Mayveskii](https://github.com/Mayveskii), could you please clarify why you referenced this issue in [[d4e74c4](https://github.com/gonka-ai/gonka/commit/d4e74c4da683bb4a1ee894a5004af2247ac65c3c)] and [[e5995db](https://github.com/gonka-ai/gonka/commit/e5995db2391d9d1b9037ffd0b3c5d2344437bd2c)]? Do you have any issues with delegating?
 
 I referenced it intentionally — while working on GIP #859 

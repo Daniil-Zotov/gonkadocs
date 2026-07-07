@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 Implement automatic cleanup of propagation data (bundles and proofs) from old epochs to prevent unbounded storage growth.
 
 **Behavior:**
@@ -43,7 +43,7 @@ Implement automatic cleanup of propagation data (bundles and proofs) from old ep
     <span>[@slandymani](https://github.com/slandymani)</span>
     <span class="issues-meta-item">commented 2026-02-23 10:18 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     https://github.com/gonka-ai/gonka/pull/792
   </div>
 </div>

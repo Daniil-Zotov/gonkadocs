@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span> <span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 Open for community contributors. Multiple parallel efforts in this direction are welcome to explore different approaches and accelerate progress.
 </div>
 
@@ -34,7 +34,7 @@ Open for community contributors. Multiple parallel efforts in this direction are
     <span>[@orvionx](https://github.com/orvionx)</span>
     <span class="issues-meta-item">commented 2026-06-22 23:37 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Hi, @tcharchian 
 I’d like to work on this issue.
 
@@ -57,7 +57,7 @@ Before I start the implementation, could you confirm whether there is a preferre
     <span>[@mtvnastya](https://github.com/mtvnastya)</span>
     <span class="issues-meta-item">commented 2026-06-23 21:31 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     hi @orvionx, thanks for you interest!
 
 I'd say that these milestones are very broad to assess at this stage.

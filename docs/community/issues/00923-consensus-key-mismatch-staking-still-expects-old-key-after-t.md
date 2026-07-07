@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 Hello,
 
 I need help with a validator consensus key mismatch on Gonka mainnet.
@@ -73,7 +73,7 @@ Thank you.
     <span>[@0xgonka](https://github.com/0xgonka)</span>
     <span class="issues-meta-item">commented 2026-04-28 20:53 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     this is likely stale by now. We can re-open if there are subsequent reports but looks like it might have been a fluke
 
 

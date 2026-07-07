@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 This is a future task. A detailed description will be provided in the near future.
 
 Please do not start working on this task without the detailed specification, as it may turn out to be a different direction than expected, which could reduce the chances of receiving a reward.
@@ -39,7 +39,7 @@ After that, feel free to contact me on Discord: `tatianacharchian_07833`.
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-01-23 20:30 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Task is open for contribution and @DimaOrekhovPS can help if any questions arise
   </div>
 </div>
@@ -48,7 +48,7 @@ After that, feel free to contact me on Discord: `tatianacharchian_07833`.
     <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
     <span class="issues-meta-item">commented 2026-01-24 21:05 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Added unit tests in PR #640 - covers SetCurrentNodeVersion, ShouldRefreshClients, SyncVersionFromChain, and version update triggering client refresh.
   </div>
 </div>

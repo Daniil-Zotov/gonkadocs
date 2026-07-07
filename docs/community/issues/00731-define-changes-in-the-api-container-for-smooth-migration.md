@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 *(empty)*
 </div>
 
@@ -34,7 +34,7 @@ template: issues-main.html
     <span>[@tamazgadaev](https://github.com/tamazgadaev)</span>
     <span class="issues-meta-item">commented 2026-03-02 01:18 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     - Fix the 400/422 issue in API container
 - Adjust thresholds a little bit (onchain, not API)
 - Do one of the two: a) ignore -9999 logprobs in validation b) enforce top_p and top_k in requests (a) preferred)
@@ -45,7 +45,7 @@ template: issues-main.html
     <span>[@tamazgadaev](https://github.com/tamazgadaev)</span>
     <span class="issues-meta-item">commented 2026-03-03 03:06 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Actually, we don't strictly need any of these 3 for smooth migration. 1 is desirable, 2 nice to have (and we'll get the threshold values), 3 is not needed
   </div>
 </div>
@@ -54,7 +54,7 @@ template: issues-main.html
     <span>[@gmorgachev](https://github.com/gmorgachev)</span>
     <span class="issues-meta-item">commented 2026-03-11 19:54 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     i think we need to close this one. fix 400/422 is independent bug to fix
   </div>
 </div>

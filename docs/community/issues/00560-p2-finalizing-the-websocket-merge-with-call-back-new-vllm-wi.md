@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 *(empty)*
 </div>
 
@@ -34,7 +34,7 @@ template: issues-main.html
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-01-24 00:13 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @x0152 is taking ownership of this issue. Please try to assign this issue to yourself 
   </div>
 </div>
@@ -43,7 +43,7 @@ template: issues-main.html
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-01-27 18:42 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     WIP https://github.com/x0152/gonka/tree/fix/ws-finalize @patimen @x0152
   </div>
 </div>
@@ -52,7 +52,7 @@ template: issues-main.html
     <span>[@x0152](https://github.com/x0152)</span>
     <span class="issues-meta-item">commented 2026-01-28 11:23 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     commenting to get assigned
   </div>
 </div>
@@ -61,7 +61,7 @@ template: issues-main.html
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-03-21 01:33 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Hey @x0152 @akup, it would be great if the two of you could align on the next steps for this task and make the key decisions together. If you are able to move it forward independently, this task could be considered for inclusion in v0.2.12. But overall, this is more of a nice-to-have than a must-have.
   </div>
 </div>
@@ -70,7 +70,7 @@ template: issues-main.html
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-05-21 22:53 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Hey @x0152, it would be great you could make a decision on the next steps for this task. @patimen John can help answer any questions if needed. If you are able to move it forward independently, this task could be considered for inclusion in v0.2.14. But overall, this is more of a nice-to-have than a must-have.
   </div>
 </div>

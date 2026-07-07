@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 # Problem
 
 On load healthy nodes are missing inferences that could be served, that leads to striking the hosts.
@@ -87,7 +87,7 @@ The problem of being behind the consensus block is unknown, and it was seen, tha
     <span>[@akup](https://github.com/akup)</span>
     <span class="issues-meta-item">commented 2026-01-02 06:35 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Also use of hardcoded value 60*60 at node level is VERY BAD.
 And it could be fixed by parameters. Moreover it even doesn't need extra parameters, and can use `timestampExpirationNs` and `timestampAdvanceNs` that are regulated by the voting.
   </div>
@@ -97,7 +97,7 @@ And it could be fixed by parameters. Moreover it even doesn't need extra paramet
     <span>[@trokl1](https://github.com/trokl1)</span>
     <span class="issues-meta-item">commented 2026-01-07 18:31 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     +1, same issue. Node falls behind during PoC, missing inferences. This fix would help.
 
 
@@ -108,7 +108,7 @@ And it could be fixed by parameters. Moreover it even doesn't need extra paramet
     <span>[@akup](https://github.com/akup)</span>
     <span class="issues-meta-item">commented 2026-01-14 12:27 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     It is fixed by this PR:
 https://github.com/gonka-ai/gonka/pull/549
   </div>

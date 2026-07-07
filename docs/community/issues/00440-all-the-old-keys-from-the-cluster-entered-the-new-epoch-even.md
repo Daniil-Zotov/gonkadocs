@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 All the old keys from the cluster entered the new epoch, even though that cluster was deleted about six hours ago. For some reason, they passed the PoC with a small weight, but it still looks like they shouldn’t have appeared there at all.
 
 The cluster was shut down and the warm keys were deleted.

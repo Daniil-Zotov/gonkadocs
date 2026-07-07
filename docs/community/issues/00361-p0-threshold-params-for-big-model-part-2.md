@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 1. Threshold + Params for big model; 
 2. Scripts to compute, re-check for existing; 
 3. New Models 
@@ -47,7 +47,7 @@ template: issues-main.html
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2025-12-05 22:16 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     GPT-OSS can be implemented after the vLLM update. Right now, it is being handled by community contributors from the bounty program  https://discord.com/channels/1336477374442770503/1425189436748206171/1446142256900997152
 
   </div>
@@ -57,7 +57,7 @@ template: issues-main.html
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2025-12-05 22:18 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     The threshold-calculation task is completed for the models listed above (except GTP-OSS). They haven’t deployed it to the chain yet. They will most likely be deployed after the vLLM update  
   </div>
 </div>

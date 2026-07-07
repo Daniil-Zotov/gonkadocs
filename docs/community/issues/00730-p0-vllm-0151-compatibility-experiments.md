@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 *(empty)*
 </div>
 
@@ -34,7 +34,7 @@ template: issues-main.html
     <span>[@tamazgadaev](https://github.com/tamazgadaev)</span>
     <span class="issues-meta-item">commented 2026-03-03 03:04 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     PoC and inference (tentatively) seem compatible, in the next 2 days we'll try to deploy 2 nodes with 15 version and know for sute about the comaptibility
   </div>
 </div>
@@ -43,7 +43,7 @@ template: issues-main.html
     <span>[@baychak](https://github.com/baychak)</span>
     <span class="issues-meta-item">commented 2026-03-17 19:15 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     # ML Node Migration to vLLM 0.15.1 — Results and Artifacts
 
 ## Summary

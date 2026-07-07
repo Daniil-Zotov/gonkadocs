@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 In the current implementation of the "refused timeout" workflow, we seem to rely on all hosts having seen the inference's `MsgStartInference` before the user calls for a vote.
 If a user calls for a vote, and a Host does not yet have the inference in its `EscrowState`, then it votes "no" (function `VerifyRefusedTimeout`)
 

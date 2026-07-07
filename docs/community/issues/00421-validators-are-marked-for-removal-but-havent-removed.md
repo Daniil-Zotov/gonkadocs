@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span> <span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 Validators are marked for removal but haven't removed. Happens in cosmos-sdk 
 ```
 7:48AM INF marking validator for removal (not in compute results) jailed=false module=x/staking operator=gonkavaloper1p5zz3d87hy5gn5jphhnljkv7pg06xj6gaa7g6p status=BOND_STATUS_UNBONDED
@@ -58,7 +58,7 @@ https://github.com/gonka-ai/cosmos-sdk/blob/1ace5dd25d1a78f6b189cbdfec9b76839fe4
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-01-28 22:19 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Needs to be rechecked
   </div>
 </div>
@@ -67,7 +67,7 @@ https://github.com/gonka-ai/cosmos-sdk/blob/1ace5dd25d1a78f6b189cbdfec9b76839fe4
     <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
     <span class="issues-meta-item">commented 2026-02-08 15:16 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     PR: https://github.com/gonka-ai/gonka/pull/720
   </div>
 </div>
@@ -76,7 +76,7 @@ https://github.com/gonka-ai/cosmos-sdk/blob/1ace5dd25d1a78f6b189cbdfec9b76839fe4
     <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
     <span class="issues-meta-item">commented 2026-02-12 15:25 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     I already have a PR for this: #720 — it implements validator removal cleanup hooks. Would appreciate a review when you get a chance.
   </div>
 </div>

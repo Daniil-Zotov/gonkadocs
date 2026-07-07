@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 *(empty)*
 </div>
 
@@ -34,7 +34,7 @@ template: issues-main.html
     <span>[@moro3one](https://github.com/moro3one)</span>
     <span class="issues-meta-item">commented 2026-02-07 08:52 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Bug report: New nodes fail to sign transactions due to Keyring Backend mismatch in Docker config. Fix included in description.
   </div>
 </div>
@@ -43,7 +43,7 @@ template: issues-main.html
     <span>[@moro3one](https://github.com/moro3one)</span>
     <span class="issues-meta-item">commented 2026-02-07 08:58 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     FULL BUG REPORT:
 Severity: High
 Environment: Mainnet / Docker Compose
@@ -59,7 +59,7 @@ This results in the api service being unable to find the operator's private key,
     <span>[@gmorgachev](https://github.com/gmorgachev)</span>
     <span class="issues-meta-item">commented 2026-02-07 21:18 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Current onboarding pipeline uses manually creating warm key with `file` keyring backend:
 https://gonka.ai/host/quickstart/#31-server-create-ml-operational-key
 
@@ -106,7 +106,7 @@ If i'm not missing smth, the `source config.env` step was skipped which caused u
     <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
     <span class="issues-meta-item">commented 2026-02-08 14:13 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     PR created: https://github.com/gonka-ai/gonka/pull/715
 
 Fixes keyring backend mismatch for new join nodes.

@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ## Problem
 
 The SPRT-based deactivation (`getInactiveStatus`) is the existing mechanism for removing degraded nodes from the executor pool. It is statistically sound but **slow by design** — it requires 10–50+ inferences before accumulating enough confidence to act.
@@ -90,7 +90,7 @@ Also implemented: reputation-adjusted executor selection weight at epoch start (
     <span>[@gmorgachev](https://github.com/gmorgachev)</span>
     <span class="issues-meta-item">commented 2026-03-24 19:56 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     1. SPRT is explicitly disabled on mainnet now 
 2. Could you elaborate what you mean by stake? 
   </div>

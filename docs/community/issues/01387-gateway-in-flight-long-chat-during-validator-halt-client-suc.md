@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ## Summary
 
 During **gonka-testnet-4** experiments on host **702111**, a long streaming chat through the devshard **gateway** (`POST http://127.0.0.1:18080/v1/chat/completions`) was started while all validator **`node`** containers on the 4-node fleet were stopped for **20 seconds**.
@@ -214,7 +214,7 @@ Requires gateway on 702111 with v2 binary mount and Inference phase (PoC finishe
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-07-03 07:29 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     hey @qdanik, would you be interested to work on this issue? 
   </div>
 </div>
@@ -223,7 +223,7 @@ Requires gateway on 702111 with v2 binary mount and Inference phase (PoC finishe
     <span>[@qdanik](https://github.com/qdanik)</span>
     <span class="issues-meta-item">commented 2026-07-05 22:18 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @tcharchian you can assign it to me
   </div>
 </div>

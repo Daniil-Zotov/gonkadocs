@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 In #891 we're making the proxy server handle timeout-related mechanisms.
 
 We should write end-to-end testermint tests for these mechanisms.
@@ -38,7 +38,7 @@ The proxy server should allow configuring the deadline limits so that the tests 
     <span>[@KKizilov](https://github.com/KKizilov)</span>
     <span class="issues-meta-item">commented 2026-03-26 15:07 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Will be done by April 5th.
   </div>
 </div>

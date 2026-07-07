@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ## Summary
 
 `expireInferences` (`inference-chain/x/inference/module/module.go:226-234`) filters by `Status == STARTED` only. When a failing `MsgValidation` transitions an inference to `VOTING` and the resulting x/group proposals don't reach quorum, the inference is silently skipped by the timeout cleanup, the timeout entry is removed unconditionally at line 391, and the client's escrow is permanently held in the inference module account.
@@ -109,7 +109,7 @@ Not recommended: default-to-validate (passive non-voting becomes implicit approv
     <span>[@vitaly-andr](https://github.com/vitaly-andr)</span>
     <span class="issues-meta-item">commented 2026-05-28 12:46 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Quick follow-up: applied the filter extension from the body of this issue locally (`module.go:231` → also handle `Status=VOTING` via `expireInferenceAndIssueRefund`) and reran sim. The timeout-stuck path is no longer reachable on seed=99 — sim-full now progresses past the previous failure point.
 
 What surfaced next is a distinct mechanism in the revalidation vote path: validators present in `ActiveParticipantsSet[epoch]` can be absent from the corresponding x/group, and `voteValidationProposal` hard-errors with `voter not found` instead of treating non-member as no-op. Root cause is the permissive `addEpochMembers` (skip on nil-seed, continue on `AddMember` error — `module.go:1134`, `:1143`) which leaves the `ActiveParticipantsSet ⊆ group members` invariant unmaintained.
@@ -122,7 +122,7 @@ Filed separately as #1269 with the sim reproduction (seed=99, block 39/500) and 
     <span>[@a-kuprin](https://github.com/a-kuprin)</span>
     <span class="issues-meta-item">commented 2026-05-30 05:18 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     I think we should focus now on devshard inference flow.
 Anyway legacy inference flow will not be supported in the future.
 
@@ -134,7 +134,7 @@ Also do we really have such issue in production environment?
     <span>[@vitaly-andr](https://github.com/vitaly-andr)</span>
     <span class="issues-meta-item">commented 2026-05-30 08:13 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Thanks for the steer — both points taken.
 
 **On "do we really have this in production?"** — honestly, I can't confirm it from chain state. I scanned ~40k inferences on a mainnet node and found none in `VOTING`, but that's not evidence either way: inferences that enter the epoch-group validation path get a real `epoch_id` and are pruned after `InferencePruningEpochThreshold` epochs (`keeper/pruning.go`), while only the `epoch_id=0` start/finish/expire residue persists. So state inspection structurally can't answer this — it'd need tx history (the public node has `tx_index=off`) or your internal telemetry. Do you have a way to see whether a failing `MsgValidation` → quorum-miss has actually occurred?
@@ -151,7 +151,7 @@ My case for the fix isn't "it happens a lot in prod" — it's that the gap is re
     <span>[@a-kuprin](https://github.com/a-kuprin)</span>
     <span class="issues-meta-item">commented 2026-05-30 15:37 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     > it's the natural place to add devshard coverage
 
 Validation logic of devshard is subject to change in future releases
@@ -162,7 +162,7 @@ Validation logic of devshard is subject to change in future releases
     <span>[@vitaly-andr](https://github.com/vitaly-andr)</span>
     <span class="issues-meta-item">commented 2026-05-30 17:17 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @patimen — pulling you in, since you authored #982 and own the original scope.
 
 I want to make sure I'm putting effort where it's actually useful. a-kuprin's steer here is clear, and I agree with it: legacy validation is being retired, and devshard's validation logic is still in flux — so I'll hold off on adding devshard sim coverage until it stabilizes (no point simming a moving target).

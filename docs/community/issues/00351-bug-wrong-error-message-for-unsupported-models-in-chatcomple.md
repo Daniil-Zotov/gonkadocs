@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 When inference for unsupported message requested, system returns:
 
 "HTTP/1.1 402 Payment Required"
@@ -36,7 +36,7 @@ When inference for unsupported message requested, system returns:
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-01-28 22:23 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Needs to be rechecked
   </div>
 </div>
@@ -45,7 +45,7 @@ When inference for unsupported message requested, system returns:
     <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
     <span class="issues-meta-item">commented 2026-02-08 14:14 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     PR created: https://github.com/gonka-ai/gonka/pull/679
 
 Fixes wrong error message for unsupported models in /chat/completions.
@@ -56,7 +56,7 @@ Fixes wrong error message for unsupported models in /chat/completions.
     <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
     <span class="issues-meta-item">commented 2026-02-12 15:26 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     I already have a PR for this: #679 — fixes the wrong error message for unsupported models. Would appreciate a review when you get a chance.
   </div>
 </div>
@@ -65,7 +65,7 @@ Fixes wrong error message for unsupported models in /chat/completions.
     <span>[@unameisfine](https://github.com/unameisfine)</span>
     <span class="issues-meta-item">commented 2026-03-19 22:42 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Starting work on this. Previous PR was closed as stale — will investigate the current error handling path and submit a fix. ETA: 2-3 days.
   </div>
 </div>
@@ -74,7 +74,7 @@ Fixes wrong error message for unsupported models in /chat/completions.
     <span>[@x0152](https://github.com/x0152)</span>
     <span class="issues-meta-item">commented 2026-04-28 17:15 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Already fixed in #614. Closing
   </div>
 </div>

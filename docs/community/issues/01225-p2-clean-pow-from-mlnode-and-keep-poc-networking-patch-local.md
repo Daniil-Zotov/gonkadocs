@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 The task was completed by Aleksandr @a-kuprin here: https://github.com/gonka-ai/gonka/pull/994
 
 However, it was submitted from his previous account, which is currently blocked, so the PR is not accessible at the moment. Waiting for the account to be unblocked.

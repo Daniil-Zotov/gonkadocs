@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 # Request to be added as a Gonka gateway operator (devshard creator allowlist)
 
 Hi Gonka core team & community,
@@ -100,7 +100,7 @@ Rogi AI
     <span>[@Puyre](https://github.com/Puyre)</span>
     <span class="issues-meta-item">commented 2026-06-10 15:20 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Closing this — after checking with the Gonka community, I realized we don't need to run our own devshard. Getting a broker key to send requests through node4 will be enough for our case.
 I'll likely open a separate issue requesting a broker key (or asking for documentation on how one can be obtained).
   </div>

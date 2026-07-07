@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ## Summary
 In `msg_server_claim_rewards.go`, when `PayParticipantFromEscrow` or `PayParticipantFromModule` returns an error, the function logs the error and continues processing instead of returning the error. This can result in partial payouts or silent fund loss when the payment path fails.
 ## Motivation
@@ -63,7 +63,7 @@ This was identified during audit of payout error handling in the inference escro
     <span>[@Doog-bot534](https://github.com/Doog-bot534)</span>
     <span class="issues-meta-item">commented 2026-04-16 03:08 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     This issue aligns with the finding in our security audit (#1053, finding #3) and the fix submitted in PR #1051.
 
 Our PR #1051 takes the simpler approach (return error without calling `finishSettle`), while the `CacheContext` approach described here is more comprehensive and aligned with the pattern in PR #948. Happy to update #1051 to use `CacheContext` if the maintainers prefer that approach.
@@ -74,7 +74,7 @@ Our PR #1051 takes the simpler approach (return error without calling `finishSet
     <span>[@Mayveskii](https://github.com/Mayveskii)</span>
     <span class="issues-meta-item">commented 2026-04-16 03:37 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     > This issue aligns with the finding in our security audit ([#1053](https://github.com/gonka-ai/gonka/issues/1053), finding [#3](https://github.com/gonka-ai/gonka/pull/3)) and the fix submitted in PR [#1051](https://github.com/gonka-ai/gonka/pull/1051).
 > 
 > Our PR [#1051](https://github.com/gonka-ai/gonka/pull/1051) takes the simpler approach (return error without calling `finishSettle`), while the `CacheContext` approach described here is more comprehensive and aligned with the pattern in PR [#948](https://github.com/gonka-ai/gonka/pull/948). Happy to update [#1051](https://github.com/gonka-ai/gonka/pull/1051) to use `CacheContext` if the maintainers prefer that approach.
@@ -97,7 +97,7 @@ Regarding the label — this is a bug (fund loss on payment failure), not an enh
     <span>[@Doog-bot534](https://github.com/Doog-bot534)</span>
     <span class="issues-meta-item">commented 2026-04-16 12:09 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Good catch on the timeline — I wasn't aware of PR #1016 and commit ec5e453 when I filed #1051. My fix came independently from the audit in #1053 (finding #3), but yours clearly predates it and covers more ground (full TX rollback + unit test). Happy to defer to whichever approach the maintainers prefer. Agreed this should be labeled as bug, not enhancement.
   </div>
 </div>
@@ -106,7 +106,7 @@ Regarding the label — this is a bug (fund loss on payment failure), not an enh
     <span>[@Mayveskii](https://github.com/Mayveskii)</span>
     <span class="issues-meta-item">commented 2026-04-28 19:09 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @x0152 watch out this one , please 
   </div>
 </div>
@@ -115,7 +115,7 @@ Regarding the label — this is a bug (fund loss on payment failure), not an enh
     <span>[@x0152](https://github.com/x0152)</span>
     <span class="issues-meta-item">commented 2026-04-28 20:55 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     There were additional non-atomic paths, and they were fully addressed in #789
 
 Closing as resolved

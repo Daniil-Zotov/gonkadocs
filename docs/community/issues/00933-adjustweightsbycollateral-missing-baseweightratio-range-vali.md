@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ## Description
 
 `calculateRequiredCollateral` (collateral.go:53) correctly validates that `baseWeightRatio` is in the range [0, 1):
@@ -65,7 +65,7 @@ if baseWeightRatio.IsNegative() || baseWeightRatio.GTE(math.LegacyOneDec()) {
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-03-23 05:10 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @unameisfine, new issues need to go through the triage process first. To help move things forward a bit faster, I’d recommend posting them in Discord or any other available channels so the community can take a look and share early feedback.
   </div>
 </div>
@@ -74,7 +74,7 @@ if baseWeightRatio.IsNegative() || baseWeightRatio.GTE(math.LegacyOneDec()) {
     <span>[@gmorgachev](https://github.com/gmorgachev)</span>
     <span class="issues-meta-item">commented 2026-04-26 20:00 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     > If governance sets baseWeightRatio >= 1.0
 
 why would do that? that's contradict of the idea of base weight ratio
@@ -85,7 +85,7 @@ why would do that? that's contradict of the idea of base weight ratio
     <span>[@unameisfine](https://github.com/unameisfine)</span>
     <span class="issues-meta-item">commented 2026-04-26 22:03 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Fair point — governance setting an invalid ratio is unrealistic. Closing the PR.
   </div>
 </div>

@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 1. Threshold + Params for big model; 
 2. Scripts to compute, re-check for existing; 
 3. New Models 

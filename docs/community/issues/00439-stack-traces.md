@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 [log.trace.zip](https://github.com/user-attachments/files/23591255/log.trace.zip)
 
 1. node can’t connect to the seed nodes.

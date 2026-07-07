@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 Currently, the chain requires a Participant record not only to host, but also to send inference requests. There is no real reason for this, since the public key is available in the Account record after the first on-chain transaction signed by that account is executed. That should be sufficient.
 
 - [ ] Remove the requirement to create a Participant record.
@@ -39,7 +39,7 @@ Currently, the chain requires a Participant record not only to host, but also to
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-02-13 01:19 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @x0152, would you like to work on this issue?
   </div>
 </div>
@@ -48,7 +48,7 @@ Currently, the chain requires a Participant record not only to host, but also to
     <span>[@x0152](https://github.com/x0152)</span>
     <span class="issues-meta-item">commented 2026-02-13 06:15 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     I'll take it
   </div>
 </div>
@@ -57,7 +57,7 @@ Currently, the chain requires a Participant record not only to host, but also to
     <span>[@gmorgachev](https://github.com/gmorgachev)</span>
     <span class="issues-meta-item">commented 2026-03-11 20:03 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @tcharchian the PR itself is marked for milestone 0.2.11. what is valid?
   </div>
 </div>
@@ -66,7 +66,7 @@ Currently, the chain requires a Participant record not only to host, but also to
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-03-11 20:23 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     > [@tcharchian](https://github.com/tcharchian) the PR itself is marked for milestone 0.2.11. what is valid?
 
 Per @patimen, let's move it to v0.2.12. https://github.com/gonka-ai/gonka/pull/750#issuecomment-3938311002

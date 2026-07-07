@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span> <span class="issues-label" style="background-color: #008672; color: #ffffff; border-color: #008672;">help wanted</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ## Executive Summary
 
 Running Gonka nodes currently requires manual CLI-based installation, configuration, and ongoing maintenance. For experienced operators, initial setup typically takes several hours per node. For less experienced participants, the process often stretches to one or two days — or results in abandonment before a node is ever launched.
@@ -181,7 +181,7 @@ Funding released in stages tied to phase completion. Cost overruns covered by th
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-02-27 00:11 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Hi @ochenUmnayaKatyshka! I'd suggetst publishing proposals in Discussion section: https://github.com/gonka-ai/gonka/discussions/categories/proposals
   </div>
 </div>

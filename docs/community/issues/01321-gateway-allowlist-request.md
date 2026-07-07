@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 name: Andrei
 company: Lunaro
 project: Lunaro Gonka Gateway
@@ -43,7 +43,7 @@ Purpose: Self-hosted devshard gateway on the linux server
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-06-23 23:03 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Hi @bruev!
 
 To set expectations on the self-hosted path you asked for: running your own devshard gateway means becoming an on-chain escrow operator. Your `gonka1…` creator address has to be on the governance-controlled allowlist (`devshard_escrow_params.allowed_creator_addresses`) before it can open escrows, and you take on the operator side yourself — funding, rotating, and settling escrows, handling v1/v2 state roots, etc. That path stays fully open: inclusion is an on-chain governance decision (no single operator adds an address), so the way to pursue it is to request consideration via governance.  

@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 We want the main state endpoint to also expose PoC-related information required by the next vLLM PoC, so that vLLM can rely on a single source of truth.
 Also poc v1 should be removed.
 </div>

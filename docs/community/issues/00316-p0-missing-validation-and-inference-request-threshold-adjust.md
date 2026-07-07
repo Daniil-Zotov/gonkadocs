@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 Proposal: https://github.com/gonka-ai/gonka/tree/gm/fraud-detection/proposals/fraud-detection-v2
 </div>
 

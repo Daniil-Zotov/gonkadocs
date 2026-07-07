@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ## Summary
 `go test ./cmd/devshardctl/ -race -run TestRunInference` fails on current `main` (8bd883ba3) with 15 data race reports across 13 tests. The dominant race (11 of the 15 reports) has production code on both sides: the send goroutine writes `inf.receiptTime` inside `receiptOnce.Do` (`redundancy.go:1491`) while the orchestrator's escalation scheduler reads `inf.receiptTime.IsZero()` without synchronization (`redundancy.go:2251`, in `escalationForInflight` ← `nextEscalationTrigger` ← `awaitRace` ← `RunInference`).
 
@@ -119,7 +119,7 @@ Goroutine 31 (running) created at:
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-06-25 00:19 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Hey @akup @x0152, what are your thoughts here? 
   </div>
 </div>
@@ -128,7 +128,7 @@ Goroutine 31 (running) created at:
     <span>[@a-kuprin](https://github.com/a-kuprin)</span>
     <span class="issues-meta-item">commented 2026-06-25 17:16 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @redstartechno fixed here:
 https://github.com/gonka-ai/gonka/commit/7b2c7b4dd946d37c32108103dad1a3cdfbdd6d25
   </div>
@@ -138,7 +138,7 @@ https://github.com/gonka-ai/gonka/commit/7b2c7b4dd946d37c32108103dad1a3cdfbdd6d2
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-06-26 23:54 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Hi @redstartechno, this does not look like a bug or a vulnerability. It mostly seems to be a test-related issue, but I don’t see how it affects production code. Anyway, thanks for flagging
   </div>
 </div>

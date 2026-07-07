@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ### Summary
 - Transfer Agents (TAs) can deny requests at the IP layer (e.g., Nginx) without protocol penalties, hurting availability.
 - TLS terminates on hosts; plaintext is visible at the host and intra-node hops. No true end-to-end client→executor encryption by default.

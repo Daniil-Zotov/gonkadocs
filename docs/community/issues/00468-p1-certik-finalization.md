@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ## [P1] Consensus audit 
 - [x] GOC-02 @patimen  https://github.com/gonka-ai/gonka/pull/1011
 - [x] GOC-03 @patimen https://github.com/gonka-ai/gonka/pull/1011

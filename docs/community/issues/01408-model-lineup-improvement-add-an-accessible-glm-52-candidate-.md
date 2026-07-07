@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ## Model lineup improvement: add an accessible GLM-5.2 candidate and reconsider the default model
 
 ### Problem
@@ -163,7 +163,7 @@ Please consider:
     <span>[@enonog](https://github.com/enonog)</span>
     <span class="issues-meta-item">commented 2026-07-06 12:33 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Additional note on `PhalaCloud/GLM-5.2-W4AFP8`:
 
 This option may be especially promising. In practical use, its quality may be very close to, or in some cases even better than, the official FP8 release, while also providing very high token generation speed.
@@ -178,7 +178,7 @@ Since SGLang and vLLM share many important production inference capabilities, th
     <span>[@enonog](https://github.com/enonog)</span>
     <span class="issues-meta-item">commented 2026-07-06 14:43 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     ## Additional suggestion: give GLM-5.2 a temporary weight incentive
 
 If the goal is to increase GLM-5.2 availability on the network, adding a quantized GLM-5.2 model may not be enough by itself.

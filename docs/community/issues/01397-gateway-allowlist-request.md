@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ## Operator
 
 Victor Yuritsyn — independent operator
@@ -59,7 +59,7 @@ the network if useful.
     <span>[@yuritsin-code](https://github.com/yuritsin-code)</span>
     <span class="issues-meta-item">commented 2026-07-04 17:14 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     
 Hi Gonka team,
 

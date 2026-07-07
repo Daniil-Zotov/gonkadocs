@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 Fix the bug in network inference API where sending a request with an unsupported model name incorrectly returns the error 402 Insufficient balance.
 </div>
 

@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #008672; color: #ffffff; border-color: #008672;">help wanted</span> <span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span> <span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span> <span class="issues-label" style="background-color: #9214a6; color: #ffffff; border-color: #9214a6;">requires own mainnet node</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 # Background
 
 `MsgStartInference` and `MsgFinishInference` are too slow in production. Blocks should be processed by nodes within 1-2 seconds, so that block time stays below 6 seconds. This means that to process 1000 inferences in a block, we need to record 1000 `MsgStartInference`, 1000 `MsgFinishInference`, and 100-200 `MsgValidation` transactions. This means that these transactions should be processed faster than 1ms. Even though they are quite fast in tests, in production with a large state they require 10-20ms, and on some nodes 50ms or more.
@@ -207,7 +207,7 @@ All five issues [0/4], [1/4], [2/4], [3/4], [4/4] in this series must be complet
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-02-20 22:41 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     If youâ€™re ready to take this task on, please leave a comment here so other community members can see itâ€™s already being worked on.
   </div>
 </div>
@@ -216,7 +216,7 @@ All five issues [0/4], [1/4], [2/4], [3/4], [4/4] in this series must be complet
     <span>[@hleb-albau](https://github.com/hleb-albau)</span>
     <span class="issues-meta-item">commented 2026-02-24 10:30 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     I ran CPU profiling (30 min each) on a synced mainnet node under two configurations: `log_level=info` and `log_level=error`.
 
   **Results â€” logging overhead as % of total handler time (including all nested calls):**
@@ -245,7 +245,7 @@ i am not familiar with all stuff going on right now on chain, but in past a had 
     <span>[@libermans](https://github.com/libermans)</span>
     <span class="issues-meta-item">commented 2026-02-26 04:11 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     An update on 780. As we can see in traces most of the time spend on logging is due "json" decoding-encoding. Which can be turn off by log_format = "json" (by default it is set to log_format = "plain"). @hleb-albau can you please run the same test but with log_format = "json" config? 
   </div>
 </div>
@@ -254,7 +254,7 @@ i am not familiar with all stuff going on right now on chain, but in past a had 
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-02-26 17:47 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @hleb-albau can I kindly ask you to contact me tania.charchian@productscience.ai
   </div>
 </div>
@@ -263,7 +263,7 @@ i am not familiar with all stuff going on right now on chain, but in past a had 
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-02-26 17:48 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     > An update on 780. As we can see in traces most of the time spend on logging is due "json" decoding-encoding. Which can be turn off by log_format = "json" (by default it is set to log_format = "plain"). [@hleb-albau](https://github.com/hleb-albau) can you please run the same test but with log_format = "json" config?
 
 @hleb-albau are you ready to run the same test but with log_format = "json" config?
@@ -275,7 +275,7 @@ i am not familiar with all stuff going on right now on chain, but in past a had 
     <span>[@hleb-albau](https://github.com/hleb-albau)</span>
     <span class="issues-meta-item">commented 2026-02-26 20:01 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     > > An update on 780. As we can see in traces most of the time spend on logging is due "json" decoding-encoding. Which can be turn off by log_format = "json" (by default it is set to log_format = "plain"). [@hleb-albau](https://github.com/hleb-albau) can you please run the same test but with log_format = "json" config?
 > 
 > [@hleb-albau](https://github.com/hleb-albau) are you ready to run the same test but with log_format = "json" config?
@@ -288,7 +288,7 @@ yes, will do it next 24h
     <span>[@hleb-albau](https://github.com/hleb-albau)</span>
     <span class="issues-meta-item">commented 2026-02-27 10:12 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
       ### Plain  (`prod-30min-logs-plain`)
 
   | method | cum total | LogInfo | logTransaction | sum log. | % |
@@ -331,7 +331,7 @@ Zerolog internally stores all data as a JSON string (to minimize allocations) â€
     <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
     <span class="issues-meta-item">commented 2026-03-03 11:25 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     PR: https://github.com/gonka-ai/gonka/pull/847
   </div>
 </div>
@@ -340,7 +340,7 @@ Zerolog internally stores all data as a JSON string (to minimize allocations) â€
     <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
     <span class="issues-meta-item">commented 2026-03-03 12:00 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Summary of what was done in PR #847:
 
 Based on the profiling analysis by @hleb-albau (logging overhead ~11% of handler time at INFO level, heavy struct serialization in `processInferencePayments` accounting for 25-48% of its time), the following changes were implemented:
@@ -362,7 +362,7 @@ All ERROR/WARN logs preserved. Per-block pricing logs stay at INFO (run once per
     <span>[@gmorgachev](https://github.com/gmorgachev)</span>
     <span class="issues-meta-item">commented 2026-03-11 20:05 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     The big part of inference flow optimization is merged in https://github.com/gonka-ai/gonka/pull/812
 I'm closing all `[*/4] StartInference and FinishInference: optimiziation` tasks to finalize this work in milestone 0.2.11. I think it'd be better to re-open in case of additinal optimizations required
   </div>

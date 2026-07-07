@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 - [x] GEB-03 | Duplicate Slot Indices Inflate Threshold Coverage - #822 
 - [x] GEB-12 | Dealer Commitments Not Bound to Threshold Degree - #822 
 - [x] GEB-29 | Weak Dealer Approval Enables Threshold Signing DoS] - #988 

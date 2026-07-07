@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ## Operator
 - Name: Viacheslav Nikitin
 - Contact: via GitHub issue replies
@@ -54,7 +54,7 @@ Please consider adding this address to `devshard_escrow_params.allowed_creator_a
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-07-03 00:09 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Hi @scodeit!
 
 On the allowlist itself: additions to `devshard_escrow_params.allowed_creator_addresses` happen only through on-chain governance — either a standalone param-change proposal or inclusion in a governance-approved upgrade batch. No maintainer adds an address unilaterally. Filing this issue is the right way to register intent, but inclusion and timing are governance-dependent and not guaranteed, so I want to set expectations honestly rather than leave this sitting as an implied "pending approval."
@@ -69,7 +69,7 @@ If what you actually need is just a personal OpenAI-compatible endpoint, that ex
     <span>[@scodeit](https://github.com/scodeit)</span>
     <span class="issues-meta-item">commented 2026-07-03 19:06 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Hi @tcharchian ! 
 
 Thanks for the explanation.

@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 Connect the Gonka website to Gonka itself and run documentation translation online through the network. The idea is that Gonka documentation would be maintained only in English as the single source of truth, while the website automatically translates it into the required languages, such as Chinese, Russian, and others.
 </div>
 
@@ -34,7 +34,7 @@ Connect the Gonka website to Gonka itself and run documentation translation onli
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-05-29 01:01 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     https://github.com/gonka-ai/gonka-docs/issues/1149
   </div>
 </div>

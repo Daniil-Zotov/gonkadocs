@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 https://discord.com/channels/1336477374442770503/1425189436748206171/1446142256900997152 by Axel-T
 
 [vLLM v0.11 Migration Proposal.pdf](https://github.com/user-attachments/files/24866372/vLLM.v0.11.Migration.Proposal.pdf)

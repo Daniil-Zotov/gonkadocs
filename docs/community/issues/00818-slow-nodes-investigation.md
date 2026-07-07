@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #008672; color: #ffffff; border-color: #008672;">help wanted</span> <span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span> <span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 
 ### Discussed in https://github.com/gonka-ai/gonka/discussions/817
 
@@ -42,7 +42,7 @@ Task: Multiple hosts reported node slowdowns in the last days. Need to identify 
     <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
     <span class="issues-meta-item">commented 2026-03-03 10:33 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     PR: https://github.com/gonka-ai/gonka/pull/844
   </div>
 </div>
@@ -51,7 +51,7 @@ Task: Multiple hosts reported node slowdowns in the last days. Need to identify 
     <span>[@sysmanalex](https://github.com/sysmanalex)</span>
     <span class="issues-meta-item">commented 2026-03-03 18:20 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     - Imho for bottleneck location and deep diagnostics - we need some profiling, debug, logs and metrics here.
 also imho cosmos-SDK, IAVLX (SDK v0.54+), write operation and some gRPC I mention upper should help.
 (doesn't solve totally more postpone bottlenecks will appear later, but they will still appear under heavy load on a larger network.)
@@ -62,7 +62,7 @@ also imho cosmos-SDK, IAVLX (SDK v0.54+), write operation and some gRPC I mentio
     <span>[@Mayveskii](https://github.com/Mayveskii)</span>
     <span class="issues-meta-item">commented 2026-03-04 09:16 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     > * Imho for bottleneck location and deep diagnostics - we need some profiling, debug, logs and metrics here.
 >   also imho cosmos-SDK, IAVLX (SDK v0.54+), write operation and some gRPC I mention upper should help.
 >   (doesn't solve totally more postpone bottlenecks will appear later, but they will still appear under heavy load on a larger network.)
@@ -78,7 +78,7 @@ https://gonka.gg/public-api/
     <span>[@Mayveskii](https://github.com/Mayveskii)</span>
     <span class="issues-meta-item">commented 2026-03-06 14:21 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     L8 (latency consistency) axis in GiP #860 measures this directly.
 
 Live measurement (proxy.gonka.gg, Qwen3-235B, 16 requests, Mar 6 2026):
@@ -108,7 +108,7 @@ Discussion: #860
     <span>[@sysmanalex](https://github.com/sysmanalex)</span>
     <span class="issues-meta-item">commented 2026-03-06 22:33 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     My imho - 16 requests is too small measurement.
 - I see several logical errors, risks, and unobvious long-term consequences here
 1) The measurements were taken on a MiniLM-L6-v2 (384 dimensions, without a GPU). 
@@ -133,7 +133,7 @@ p2p mesh for btc is ok, for Gonka imho different way.
     <span>[@Mayveskii](https://github.com/Mayveskii)</span>
     <span class="issues-meta-item">commented 2026-03-18 14:20 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     >RE
 
 My calculations for splitting results between participants for efficiency are supported by current pull requests, but the instance is initialized with Docker and doesn't use the GPU. While the bridge idea is relevant and is reflected in the metrics from your point 2, it's worth addressing separately.
@@ -150,7 +150,7 @@ How this might impact the protocol, hosts, and a separate pull request.
     <span>[@Mayveskii](https://github.com/Mayveskii)</span>
     <span class="issues-meta-item">commented 2026-03-18 14:23 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     > * Imho for bottleneck location and deep diagnostics - we need some profiling, debug, logs and metrics here.
 >   also imho cosmos-SDK, IAVLX (SDK v0.54+), write operation and some gRPC I mention upper should help.
 >   (doesn't solve totally more postpone bottlenecks will appear later, but they will still appear under heavy load on a larger network.)

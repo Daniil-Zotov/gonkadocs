@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 Hi Gonka core team & community,
 
 We're requesting inclusion of Gonka Relay as a Gonka broker:
@@ -190,7 +190,7 @@ Gonka Relay
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-07-03 00:37 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Hi @len5ky! Thanks, this is one of the most thorough operator applications filed here. A few things to separate, because you're actually asking for two different things governed differently.
 
 On the allowlist (`devshard_escrow_params.allowed_creator_addresses`): additions happen only through on-chain governance — a param-change proposal or inclusion in a governance-approved upgrade batch. No maintainer adds an address unilaterally. Filing this issue with a funded, pubkey-published address is exactly the right way to register intent, but inclusion and timing are governance-dependent and not guaranteed, so please don't gate your roadmap on a specific approval date.

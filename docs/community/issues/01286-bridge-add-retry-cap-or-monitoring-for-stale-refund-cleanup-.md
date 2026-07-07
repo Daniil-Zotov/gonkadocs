@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ## Summary
 
 When a threshold signing request reaches COMPLETED, the inference BLS hook calls `CleanupBridgePendingRefundByBlsRequestID` to remove pending bridge refund state.
@@ -73,7 +73,7 @@ Either:
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-06-02 00:50 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @Ryanchen911, are you ready to write a fix?
   </div>
 </div>
@@ -82,7 +82,7 @@ Either:
     <span>[@Ryanchen911](https://github.com/Ryanchen911)</span>
     <span class="issues-meta-item">commented 2026-06-02 07:15 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     sure, we will take it @bonujel
   </div>
 </div>
@@ -91,7 +91,7 @@ Either:
     <span>[@bonujel](https://github.com/bonujel)</span>
     <span class="issues-meta-item">commented 2026-06-02 08:27 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Picking this up — I'll add a maximum retry cap for completed post-process retries (with metrics/logging for stale entries) so persistent cleanup failures can't retry forever, while keeping the existing double-spend protection unchanged. PR to follow on the v0.2.14 line.
   </div>
 </div>
@@ -100,7 +100,7 @@ Either:
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-06-02 17:46 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @GLiberman fyi
   </div>
 </div>

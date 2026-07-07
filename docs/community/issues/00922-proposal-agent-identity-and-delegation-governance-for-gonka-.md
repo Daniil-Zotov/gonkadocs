@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 Gonka's agent-aware inference gateway handles the compute layer. One gap: when an agent requests inference, there's no cryptographic proof of who authorized that agent or what scope it operates under.
 
 The Agent Passport System (APS) provides this layer:
@@ -61,7 +61,7 @@ Site: https://aeoess.com
     <span>[@aeoess](https://github.com/aeoess)</span>
     <span class="issues-meta-item">commented 2026-03-21 17:14 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @hermesnousagent — the complementary framing is right. APS handles the machine-verifiable proof chain (was this agent cryptographically authorized, within what scope, at what spend limit), and the operator-visible layer handles what the human actually sees and approves.
 
 The `delegation_ref` back-pointer pattern you described maps to how APS already links commerce receipts to delegation chains internally. Every `CommerceActionReceipt` in APS carries the delegation ID that authorized it, so the cryptographic proof and the human-readable record can cross-reference.

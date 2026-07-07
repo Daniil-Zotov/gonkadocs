@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 # PoC-decode: Extending Proof-of-Compute to Decode Steps
 
 ## Summary
@@ -97,7 +97,7 @@ Evidence and analysis:
     <span>[@unameisfine](https://github.com/unameisfine)</span>
     <span class="issues-meta-item">commented 2026-05-04 21:40 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Nice work on the experimental validation — the honest-vs-fraud scatter plots are convincing for the 7B setup, and the seed-chaining between decode steps (using previous k-point ID to select next dimensions) is a solid anti-prediction measure.
 
 A few implementation-level observations from the current PoC pipeline:
@@ -146,7 +146,7 @@ Overall a promising direction — extending PoC to decode is clearly the right m
     <span>[@Red-Caesar](https://github.com/Red-Caesar)</span>
     <span class="issues-meta-item">commented 2026-05-21 08:24 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Sorry for the delayed reply.
 
 On CUDA graph support: this is indeed a critical concern. We are currently investigating options for it.
@@ -163,7 +163,7 @@ On model generalization and honest-mismatch rates: we've collected mismatch data
     <span>[@gmorgachev](https://github.com/gmorgachev)</span>
     <span class="issues-meta-item">commented 2026-05-21 12:20 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     hi @unameisfine !
 
 > Does the validator need to re-run the full autoregressive decode to verify? If yes, validation cost equals inference cost (currently the validator only does a single prefill pass).
@@ -180,7 +180,7 @@ I think this research i focused more on replacement of PoC, not an inference val
     <span>[@Red-Caesar](https://github.com/Red-Caesar)</span>
     <span class="issues-meta-item">commented 2026-05-22 10:48 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Here are the results for h100
 
 <img width="1052" height="647" alt="Image" src="https://github.com/user-attachments/assets/5d2cfda3-8500-4d24-81fe-67edd8a58144" />
@@ -191,7 +191,7 @@ I think this research i focused more on replacement of PoC, not an inference val
     <span>[@unameisfine](https://github.com/unameisfine)</span>
     <span class="issues-meta-item">commented 2026-05-23 01:49 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Thanks — went through `vllm/poc/poc_model_runner.py`. Confirmed:
 `SPHERE_DIM=256`, `SPHERE_POINTS=16` (L39-40), codebook built once via
 Thomson-problem gradient descent, `nearest_sphere_index` = cosine-similarity

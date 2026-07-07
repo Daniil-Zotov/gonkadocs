@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 Is this how our story began in your previous project where your name was Natalia?
 
 I would like to ask, can Mikhail Chudinov come out to play? The one who is a DevOps engineer at NameSilo, formerly Head of IT at SuperKopilka (a Russian financial pyramid, collapsed in 2017) for ~10 years. Also: COO at AtomX.online (a no-KYC crypto project), Poker Club Manager at Red Rock. A self-described "crypto enthusiast."
@@ -40,7 +40,7 @@ Is this project just another setup for a scam and stealing money? Or are you jus
     <span>[@phishdestroy](https://github.com/phishdestroy)</span>
     <span class="issues-meta-item">commented 2026-07-06 09:52 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     **You call him Mitch — before the rebranding, he was in a Russian-speaking Telegram chat (the one that also featured an escrow service and a no-KYC crypto exchange). The design is excellent, but as for the rest, I highly doubt it. I urge everyone to be careful.**
   </div>
 </div>
@@ -49,7 +49,7 @@ Is this project just another setup for a scam and stealing money? Or are you jus
     <span>[@akamitch](https://github.com/akamitch)</span>
     <span class="issues-meta-item">commented 2026-07-06 15:50 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Hi! 👋
 
 I'm **Mikhail Chudinov**, known online as **Mtch** since 2003.

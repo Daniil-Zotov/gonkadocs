@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 # 🐛 Bug Report: Incorrect Governance Model Matching in API
 
 **Severity:** Medium  
@@ -390,7 +390,7 @@ Looking forward to contributing to improved operator experience! 🚀
     <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
     <span class="issues-meta-item">commented 2026-02-08 14:14 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     PR created: https://github.com/gonka-ai/gonka/pull/680
 
 Improves error messages for invalid governance models.
@@ -401,7 +401,7 @@ Improves error messages for invalid governance models.
     <span>[@0xgonka](https://github.com/0xgonka)</span>
     <span class="issues-meta-item">commented 2026-04-28 20:48 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     already fixed
   </div>
 </div>

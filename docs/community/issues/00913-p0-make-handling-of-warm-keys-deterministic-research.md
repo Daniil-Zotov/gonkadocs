@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 At the moment, `devshards` handle hosts' warm keys in a non deterministic way.
 
 Different hosts can check whether a warm key is authorized at different points in time, using the mainnet bridge, and therefore get different results.
@@ -39,7 +39,7 @@ We need to think of a solution to make this deterministic, and implement it.
     <span>[@KKizilov](https://github.com/KKizilov)</span>
     <span class="issues-meta-item">commented 2026-03-26 15:20 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Will be finished by March 27th. 
   </div>
 </div>

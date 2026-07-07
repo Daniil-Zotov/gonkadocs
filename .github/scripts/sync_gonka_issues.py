@@ -332,7 +332,7 @@ template: issues-main.html
     <span>{user_link(cu)}</span>
     <span class="issues-meta-item">commented {fmt_date(c['created_at'])}</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     {c.get("body") or "*(empty)*"}
   </div>
 </div>

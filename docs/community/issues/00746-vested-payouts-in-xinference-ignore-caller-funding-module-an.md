@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ## Summary
 `PayParticipantFromModule` in `x/inference` hardcodes `types.ModuleName` (`inference`) when calling `streamvesting.AddVestedRewards`, instead of forwarding the caller-provided `moduleName`.
 
@@ -61,7 +61,7 @@ instead of:
     <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
     <span class="issues-meta-item">commented 2026-02-17 21:52 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     PR with fix: #770 — forwards the caller-provided module name in vested payouts instead of hardcoding "inference".
   </div>
 </div>
@@ -70,7 +70,7 @@ instead of:
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-02-19 00:32 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @Schwartz10, have you noticed that the top reward module is not used?
   </div>
 </div>

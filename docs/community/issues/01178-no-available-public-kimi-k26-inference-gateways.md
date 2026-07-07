@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ## Summary
 
 As of 2026-05-17T06:10:54Z, public monitoring shows zero available Kimi-K2.6 gateways, even though the chain still lists Kimi hosts.
@@ -89,7 +89,7 @@ This looks related to public Kimi gateway availability rather than total network
     <span>[@sspotanin](https://github.com/sspotanin)</span>
     <span class="issues-meta-item">commented 2026-05-18 10:50 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     works fine today
   </div>
 </div>

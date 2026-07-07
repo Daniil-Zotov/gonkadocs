@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 When cross-message comparison detects a mismatch in TA-signed components (`prompt_hash`, `request_timestamp`, `transfer_agent`, `executor`), the Transfer Agent should be penalized.
 
 ### Context

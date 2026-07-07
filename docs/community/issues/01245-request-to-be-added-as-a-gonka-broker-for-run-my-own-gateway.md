@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 **Operator name and contact (email or Discord handle).**
 1kor.oleg@gmail.com 
 @unixverse_cli
@@ -51,7 +51,7 @@ but in future maybe in $T / credits
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-06-23 23:17 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Hi @Korolev-Oleg! Before anything can move on the self-hosted gateway side, the address field in the request needs fixing: **Devshard creator address** needs to be a `gonka1…` account address that you control (the one your gateway will sign escrow transactions from).  
 
 On the path itself: running your own devshard gateway means becoming an on-chain escrow operator, which requires your `gonka1…` creator address on the governance-controlled allowlist (`devshard_escrow_params.allowed_creator_addresses`). That path is open, but inclusion is an on-chain governance decision — no single operator or org adds an address unilaterally — so it goes through a governance request.

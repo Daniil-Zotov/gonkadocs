@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 The proposal is described here https://github.com/gonka-ai/gonka/blob/22639fe25aada8090d971402e136714fa9c3b0e7/proposals/maintenance-windows/maintenance-windows.md
 
 The preliminary implementation plan is outlined here https://github.com/gonka-ai/gonka/commit/219e975ae1b8a74d895e6a09ab5a26f629efd6f3, but it would be great if you could review it with a critical eye and suggest your own implementation approach based on your experience  
@@ -36,7 +36,7 @@ The preliminary implementation plan is outlined here https://github.com/gonka-ai
     <span>[@Ryanchen911](https://github.com/Ryanchen911)</span>
     <span class="issues-meta-item">commented 2026-03-30 08:54 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Hi @tcharchian ,
 
 Thanks for the proposal! We've reviewed the preliminary implementation plan and noticed some gaps regarding the state transitions. Our feedback is as follows:
@@ -113,7 +113,7 @@ Blocking credit accrual in maintenance epochs closes this path: every maintenanc
     <span>[@patimen](https://github.com/patimen)</span>
     <span class="issues-meta-item">commented 2026-03-30 23:30 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     # Maintenance Windows Proposal - Feedback Response Summary
 
 Thanks for the review. We updated the proposal and task plan based on your feedback.
@@ -213,7 +213,7 @@ The following documents were updated:
     <span>[@Ryanchen911](https://github.com/Ryanchen911)</span>
     <span class="issues-meta-item">commented 2026-04-01 03:45 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     works in progress
   </div>
 </div>

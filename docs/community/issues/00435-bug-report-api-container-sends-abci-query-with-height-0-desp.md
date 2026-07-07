@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 Bug Report: api container sends abci_query with height: 0 despite being synced
 Title: api container sends abci_query for EpochInfo with "height":"0", causing requests to /v1/epochs/current/participants to fail.
 
@@ -103,7 +103,7 @@ Thank you.
     <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
     <span class="issues-meta-item">commented 2026-02-08 14:14 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     PR created: https://github.com/gonka-ai/gonka/pull/681
 
 Uses current block height for ABCI queries.

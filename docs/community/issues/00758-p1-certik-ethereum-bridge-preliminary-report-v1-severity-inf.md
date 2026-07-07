@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #12a6e8; color: #24292f; border-color: #12a6e8;">Priority: Medium</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 - [x] GEB-11 | `InstantiateMsg.marketing` Is Ignored - https://github.com/gonka-ai/gonka/pull/814
 - [x] GEB-50 | Unused Function `computeParticipantPublicKey()` in `bls_crypto.go` https://github.com/gonka-ai/gonka/pull/949
 - [x] GEB-58 | `ProcessThresholdSigningRequested()` Incorrectly Returns Error https://github.com/gonka-ai/gonka/pull/949

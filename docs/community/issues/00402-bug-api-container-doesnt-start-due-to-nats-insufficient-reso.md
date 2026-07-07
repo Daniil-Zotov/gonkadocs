@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 API container doesn't start with:
 ```
 ...
@@ -123,7 +123,7 @@ that part is actually also modified in new PR
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2025-12-02 20:28 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     This is related to the [Cleaning nats issue](https://github.com/gonka-ai/gonka/issues/429) 
 NATS didn't delete any items from the queue, so the queues were constantly growing. Setting a limit to NATS messages by age must resolve this problem, too. @0xBECEDA @patimen @gmorgachev 
   </div>

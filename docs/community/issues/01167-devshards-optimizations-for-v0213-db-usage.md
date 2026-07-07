@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 During review of https://github.com/gonka-ai/gonka/pull/1143 there was found optimization points for db usage:
 
 1. Do not lock around `createSession` (https://github.com/gonka-ai/gonka/pull/1143#discussion_r3200794751)

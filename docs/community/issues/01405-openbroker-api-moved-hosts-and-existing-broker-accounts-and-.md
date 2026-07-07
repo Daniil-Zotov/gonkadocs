@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 Hi @tcharchian — follow-up to #1319, where you recommended OpenBroker as the official developer path ("GNK-settled, 1:1 at cost, no markup, no approval wait"). I took that advice, and I'm reporting what happened, because it will bite other developers onboarding the same way.
 
 ## What happened
@@ -55,7 +55,7 @@ For context, I'm building on Gonka: a ComfyUI node pack for Gonka inference (htt
     <span>[@dufok](https://github.com/dufok)</span>
     <span class="issues-meta-item">commented 2026-07-06 01:04 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Resolved — Gonka Labs restored my broker account after I reached out via their Telegram (t.me/gonka_gg). Dashboard access is back, the wallet link is intact, and the balance was restored in full (topped up a little, even — appreciated).
 
 For anyone hitting the same symptoms after the host change:
@@ -71,7 +71,7 @@ Thanks @tcharchian for the pointers in #1319, and thanks to the Gonka Labs team 
     <span>[@gonkalabs](https://github.com/gonkalabs)</span>
     <span class="issues-meta-item">commented 2026-07-06 01:09 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Hi, @dufok, thanks for pointing it out! 
 
 informing everyone that issue is solved and access is restored for the user. 

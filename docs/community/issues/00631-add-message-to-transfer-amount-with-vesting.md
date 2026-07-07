@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 When the community distributes funds to miners, the transferred tokens should vest over a fixed 180-epoch period, rather than being fully available at the time of transfer.
 
 </div>
@@ -35,7 +35,7 @@ When the community distributes funds to miners, the transferred tokens should ve
     <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
     <span class="issues-meta-item">commented 2026-01-24 21:29 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Implemented in PR #641 - adds MsgTransferWithVesting message with 180 epoch default vesting, validation, CLI support, and unit tests.
   </div>
 </div>
@@ -44,7 +44,7 @@ When the community distributes funds to miners, the transferred tokens should ve
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-01-29 23:47 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Hi @AlexeySamosadov can I kindly ask you to contact me on Discord? `tatianacharchian_07833`
   </div>
 </div>
@@ -53,7 +53,7 @@ When the community distributes funds to miners, the transferred tokens should ve
     <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
     <span class="issues-meta-item">commented 2026-01-31 15:18 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     <img width="554" height="402" alt="Image" src="https://github.com/user-attachments/assets/51108f38-eff7-45b9-8114-d9e71c754913" /> Hi @tcharchian i texted you in Discord :)
   </div>
 </div>
@@ -62,7 +62,7 @@ When the community distributes funds to miners, the transferred tokens should ve
     <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
     <span class="issues-meta-item">commented 2026-02-08 14:14 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     PR created: https://github.com/gonka-ai/gonka/pull/641
 
 Adds MsgTransferWithVesting for vesting transfers.

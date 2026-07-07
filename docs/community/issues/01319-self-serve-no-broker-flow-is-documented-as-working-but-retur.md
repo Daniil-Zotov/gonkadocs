@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ### Summary
 
 Several official surfaces document a **self-serve, no-broker** end-to-end inference
@@ -137,7 +137,7 @@ Related: #876
     <span>[@JamesJi79](https://github.com/JamesJi79)</span>
     <span class="issues-meta-item">commented 2026-06-08 04:53 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Hello! I took a close look at your issue. The 401 "model requires an API key" is a node-side API key gate, not a signing/auth issue. Your proxy correctly signs requests and your wallet is funded (~295 GNK confirmed on-chain), but the inference nodes reject direct requests that lack a valid broker API key.
 
 **What is happening technically:**
@@ -158,7 +158,7 @@ I do paid consulting on blockchain/proxy integration. If interested in Option B,
     <span>[@dufok](https://github.com/dufok)</span>
     <span class="issues-meta-item">commented 2026-06-08 12:55 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Thanks for taking a look and confirming the diagnosis.
 
 To be clear about what I'm after: I'm specifically looking for an **official fix (Option A)** — node-side validation that accepts a funded, on-chain-registered self-serve wallet, so I can spend my own GNK directly.
@@ -174,7 +174,7 @@ So I'll wait for the maintainers' response on whether the self-serve path can be
     <span>[@dufok](https://github.com/dufok)</span>
     <span class="issues-meta-item">commented 2026-06-08 13:05 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     I dug into the source to pin down exactly where the gate lives. It turns out to be **two layers**, and only one of them is actually blocking self-serve:
 
 ### Layer 1 — gateway model-access policy (the `requires an API key` message)
@@ -231,7 +231,7 @@ Separately, would you consider **relaxing the escrow allow-list** so any suffici
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-06-23 23:55 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Hi @dufok! 
 
 The "spend my own GNK, no middleman" flow you want is exactly run your own devshard gateway — and the one thing standing between you and it is having your creator address on that allowlist. There's no hidden self-serve-without-a-gateway path that is withheld; direct signed requests to a participant node returning Transfer Agent not allowed and node4 returning requires an API key are both expected, and the honest end-to-end self-serve path is "own allowlisted gateway → your own escrow → your own GNK."
@@ -248,7 +248,7 @@ Separately, and only for completeness — not as the answer to your request: Gon
     <span>[@dufok](https://github.com/dufok)</span>
     <span class="issues-meta-item">commented 2026-06-29 23:48 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Thanks @tcharchian — that's a clear and fair answer, and it actually points me at exactly what I want to do.
 
 To be concrete: **I want to run and operate my own devshard gateway**, on my own hardware (a server I already own, so infra cost is zero for me), and pay for inference with my own GNK. I'm not looking for a broker to consume — I'm happy to *be* the allowlisted operator for my own usage. The only thing standing in the way is having my creator address on `AllowedCreatorAddresses`.
@@ -274,7 +274,7 @@ Happy to follow whatever the established process is — just want to know which 
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-07-03 00:01 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Hi @dufok!
 
 On how the allowlist changes: every modification of `DevshardEscrowParams.AllowedCreatorAddresses` is an on-chain governance action. There's no maintainer-side "add operator" switch. It's either a standalone governance proposal that updates the param, voted on-chain, or inclusion in a governance-approved chain upgrade batch — which is how the current operators were seeded in `v0_2_13`. (the initial set was added during the early rollout as part of upgrade handlers, as a bootstrap step to get the first operators online.)  
@@ -291,7 +291,7 @@ Additional correction on OpenBroker, since it touches your "no fee in between" p
     <span>[@dufok](https://github.com/dufok)</span>
     <span class="issues-meta-item">commented 2026-07-03 15:26 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Thanks a lot @tcharchian — this fully answers it, and I appreciate the patience and the honest docs-vs-reality acknowledgement. The OpenBroker clarification (GNK-settled, 1:1 at cost, no markup, no approval wait) is exactly what I needed — I'll start there. Cheers.
 
   </div>

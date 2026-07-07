@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 StartInference and FinishInference should be significantly optimized, as they are messages used frequently—potentially 1,000+ times per block. The execution time of these messages should be below 1 ms, ideally below 0.2 ms. (currently with 1000 participants, and 1 grantee per account, StartInference can be 0.4-0.5ms, and FinishInference 4-5ms)
 
 1. The biggest contributor to the execution time of FinishInference (or late StartInference) is reading and writing EpochGroup. EpochGroup shouldn’t be read or written in frequently executed messages, and unmarshaling/marshaling that large blob is too slow. We should either move the values we need to access/edit into separate records, or process these updates in EndBlocker.
@@ -49,7 +49,7 @@ Unfortunately as TA signature doesn't derived from request original hash, it may
     <span>[@gmorgachev](https://github.com/gmorgachev)</span>
     <span class="issues-meta-item">commented 2026-03-11 20:01 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     The big part of inference flow optimization is merged in https://github.com/gonka-ai/gonka/pull/812
 I'm closing all `[*/4] StartInference and FinishInference: optimiziation` tasks to finalize this work in milestone 0.2.11. I think it'd be better to re-open in case of additinal optimizations required
   </div>

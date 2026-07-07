@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span> <span class="issues-label" style="background-color: #1d27b4; color: #ffffff; border-color: #1d27b4;">protocol</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 
 ### Discussed in https://github.com/gonka-ai/gonka/discussions/951
 
@@ -179,7 +179,7 @@ Signed metadata from a TEE key is inherently trusted - the execution environment
     <span>[@x0152](https://github.com/x0152)</span>
     <span class="issues-meta-item">commented 2026-05-25 21:11 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Some first experiments on this in #1246 - covers the wiring end-to-end (chain, dapi, ml-node, devshard) + a Phala CVM smoke test
 
 Not a final implementation, but should give a head start
@@ -190,7 +190,7 @@ Not a final implementation, but should give a head start
     <span>[@mkostrus-gif](https://github.com/mkostrus-gif)</span>
     <span class="issues-meta-item">commented 2026-07-02 19:00 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Strong +1 for prioritizing this.
 
 My blocker is practical, not theoretical: I run AI agents over private operational context, and I cannot route real prompts/responses through Gonka while the selected host can read them. Privacy sanitization is useful as a temporary guardrail, but it does not solve the core threat model.
@@ -205,7 +205,7 @@ I'm happy to help test an MVP and provide acceptance criteria from real agent wo
     <span>[@x0152](https://github.com/x0152)</span>
     <span class="issues-meta-item">commented 2026-07-04 13:32 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Hi, thanks for the message!
 
 #1246 is a first experiments PR - it connects the private path across chain, dapi and ml-node, with a Phala TDX smoke test. It's not the MVP yet, still some work before we can really test it

@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 1. Change `inference_url`. Probably, it should happen immediately and propagate everywhere.
 2. Vefigy `inference_url`. Let's think on how can it be verified, at least asynchronousl,y whena  node with that URL is already running
 Example: `api` container has a new endpoint /v1/verify, which returns:
@@ -46,7 +46,7 @@ Such an endpoint should be enough to have voting for claiming the wrong address.
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2025-12-08 21:16 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     https://gonka.ai/FAQ/#how-to-change-inference_url
   </div>
 </div>

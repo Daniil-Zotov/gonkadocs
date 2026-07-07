@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #12a6e8; color: #24292f; border-color: #12a6e8;">Priority: Medium</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ## Summary
 
 - Introduces a governance-controlled minimum gas price (`FeeParams.min_gas_price`) enforced at consensus level via a custom `TxFeeChecker`, replacing the current `nil` fee checker that allows zero-fee transactions
@@ -44,7 +44,7 @@ template: issues-main.html
     <span>[@unameisfine](https://github.com/unameisfine)</span>
     <span class="issues-meta-item">commented 2026-05-07 22:46 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     ## Implementation-level review from the current codebase
 
 The two-track approach — consensus-level `TxFeeChecker` + `NetworkDutyFeeBypassDecorator` modeled on the existing `LiquidityPoolFeeBypassDecorator` — is the right shape. A few concrete gaps from the current code worth resolving before implementation:

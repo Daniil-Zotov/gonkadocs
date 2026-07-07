@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 🚨 TL;DR / Summary
 
 The Docker image ghcr.io/product-science/inferenced:0.2.4 contains a hard-coded outdated genesis, causing a permanent AppHash mismatch with the live chain.
@@ -216,7 +216,7 @@ Happy to test patched builds, provide logs, configs, or help verify new images.
     <span>[@gmorgachev](https://github.com/gmorgachev)</span>
     <span class="issues-meta-item">commented 2025-11-14 01:08 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Hello! To reproduce from block 1 (assuming that from the message in discord that your node stucked at height=1) you need to start with initial release and apply all upgrades and patches starting v0.2.0:
 ```
 https://github.com/gonka-ai/gonka/releases/tag/release%2Fv0.2.0
@@ -241,7 +241,7 @@ Version v0.2.4 can be used to load from snapshot's after v0.2.4. Successfully re
     <span>[@Asplana92](https://github.com/Asplana92)</span>
     <span class="issues-meta-item">commented 2025-11-14 02:20 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Hi Gleb, thanks for the detailed explanation!
 
 I understand — to reproduce the block-1 issue, I need to start from the initial version and apply all updates incrementally starting from v0.2.0.
@@ -292,7 +292,7 @@ Happy to help reproduce and debug this! 🙌
     <span>[@Asplana92](https://github.com/Asplana92)</span>
     <span class="issues-meta-item">commented 2025-11-14 02:32 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     I understand that v0.2.4 requires either:
 - A) Starting from v0.2.0 and upgrading through all versions
 - B) Using a snapshot created after v0.2.4
@@ -318,7 +318,7 @@ Thank you for your help! 🚀
     <span>[@Asplana92](https://github.com/Asplana92)</span>
     <span class="issues-meta-item">commented 2025-11-14 03:19 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @glebmorgachev,
 Thank you for confirming the upgrade path from v0.2.0!
 
@@ -347,7 +347,7 @@ Thank you very much!
     <span>[@gmorgachev](https://github.com/gmorgachev)</span>
     <span class="issues-meta-item">commented 2025-11-14 11:00 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     docker compose files in main branch reference pre-build docker containers https://github.com/gonka-ai/gonka/blob/main/deploy/join/docker-compose.yml
 
 The same ones can be built from main branch
@@ -360,7 +360,7 @@ The [quickstart](https://gonka.ai/host/quickstart/) instruction deploys from sna
     <span>[@Asplana92](https://github.com/Asplana92)</span>
     <span class="issues-meta-item">commented 2025-11-15 22:57 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Great news — the issue is fully resolved! 🎉  
 Everything works perfectly now. Thank you so much for the quick help and support!
 

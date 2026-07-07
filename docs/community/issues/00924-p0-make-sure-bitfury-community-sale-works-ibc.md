@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 *(empty)*
 </div>
 
@@ -34,7 +34,7 @@ template: issues-main.html
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-03-20 23:21 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @maria-mitina said that Community Sale contract tested with IBC, worked well.
 @GLiberman @0xgonka do we have other scenarios to try?
   </div>
@@ -44,7 +44,7 @@ template: issues-main.html
     <span>[@maria-mitina](https://github.com/maria-mitina)</span>
     <span class="issues-meta-item">commented 2026-03-25 09:11 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     it will be great to confirm/decide whether bridge is needed for the Bitfury scenario.
 If yes, we will work this scenario out and test.
 
@@ -56,7 +56,7 @@ If yes, we will work this scenario out and test.
     <span>[@maria-mitina](https://github.com/maria-mitina)</span>
     <span class="issues-meta-item">commented 2026-03-25 17:15 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @mtvnastya and I had a discussion about it, and bridge is needed for the Bitfury contract. We need to fix the hardcoded chainId and rebuild the binary. Happy to test after that 
 @GLiberman - any chance you could update us on the bridge fix? 
 

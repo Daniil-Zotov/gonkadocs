@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 node container restarted due to:
 ```
 fatal error: too many concurrent timer firings
@@ -60,7 +60,7 @@ runtime.mcall()
     <span>[@gmorgachev](https://github.com/gmorgachev)</span>
     <span class="issues-meta-item">commented 2025-10-19 04:36 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     One more case:
 [issue-4.log](https://github.com/user-attachments/files/22988429/issue-4.log)
   </div>
@@ -70,7 +70,7 @@ runtime.mcall()
     <span>[@gmorgachev](https://github.com/gmorgachev)</span>
     <span class="issues-meta-item">commented 2025-11-22 00:53 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Seems like we need to bump go version: https://github.com/golang/go/issues/69880
 TODO: propoperly test compartibility
   </div>

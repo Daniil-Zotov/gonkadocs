@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 Problem with .nats queue being quite big
 ```
 root@CL-Gonka1-NetNode:~/gonka/deploy/join# du -d1 -h .dapi/.nats

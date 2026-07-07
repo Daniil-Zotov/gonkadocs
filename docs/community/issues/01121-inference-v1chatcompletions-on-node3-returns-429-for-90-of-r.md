@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ## Summary
 
 `POST /v1/chat/completions` on the only currently-reachable Transfer Agent
@@ -171,7 +171,7 @@ or any benchmark scripts on request.
     <span>[@gonkalabs](https://github.com/gonkalabs)</span>
     <span class="issues-meta-item">commented 2026-04-30 09:52 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Hey @unameisfine - this is the GonkaLabs team.
 
 To address your question about proxy.gonka.gg consistently sitting above 90% uptime: no, we don't have any special privileges on the network. Here's what's actually under the hood:
@@ -187,7 +187,7 @@ So the answer is just: aggressive tuning, nothing more. Everything is open sourc
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-05-21 21:03 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @unameisfine Please note that the Developer Quickstart has been significantly updated: https://gonka.ai/docs/developer/quickstart/ If you still have any questions after reviewing it, please create a new issue.
   </div>
 </div>

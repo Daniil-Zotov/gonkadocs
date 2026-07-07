@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 Hi Gonka Core Team and Community,
 We would like to formally request the inclusion of the Gonka24 gateway in
 the public broker list.
@@ -77,7 +77,7 @@ Target audience:
     <span>[@anikiyevichm](https://github.com/anikiyevichm)</span>
     <span class="issues-meta-item">commented 2026-05-28 14:54 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @tcharchian , Hi, i see that this issue is completed. What our team should do next to join allowlist with our gonka adress?
   </div>
 </div>
@@ -86,7 +86,7 @@ Target audience:
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-06-23 22:47 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Hi! At the moment, the public broker list is not being actively expanded through governance. Inclusion in that list should be handled through the governance process and discussed in the community.
 
 As a practical alternative, there is now a community-operated option for teams that want to start operating as brokers without waiting for direct access https://github.com/gonka-ai/gonka/discussions/1363.
@@ -110,7 +110,7 @@ This should let you start while the governance discussion around inclusion/white
     <span>[@anikiyevichm](https://github.com/anikiyevichm)</span>
     <span class="issues-meta-item">commented 2026-06-24 07:42 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @tcharchian 
 Hi, thanks for the clarification.
 
@@ -126,7 +126,7 @@ The reason is that during conversations with potential customers, especially B2B
     <span>[@anikiyevichm](https://github.com/anikiyevichm)</span>
     <span class="issues-meta-item">commented 2026-06-24 10:35 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     https://github.com/gonka-ai/gonka-docs/pull/1252 - We have prepared a PR
   </div>
 </div>
@@ -135,7 +135,7 @@ The reason is that during conversations with potential customers, especially B2B
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-06-27 01:27 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Hi @anikiyevichm, I wanted to raise a concern about the way your website is currently presented.
 All footer links on the site point to the official Gonka channels and gonka.ai. Even the “Docs” link in the website header does not lead to your own documentation, but to the official Gonka docs on gonka.ai.
 The site also lists Gonka’s audits and partners in a way that makes it look like those audits and partnerships apply to your service directly.

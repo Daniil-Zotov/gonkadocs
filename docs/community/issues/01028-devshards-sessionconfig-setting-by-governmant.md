@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 Currently devshard `SessionConfig` has a lot of hardcoded values. They should be settable on new escrow start from mainnet, and should be configurable by governance.
 
 For example https://github.com/gonka-ai/gonka/pull/1005 introduces `MaxInferencesPerSubnet` that is also used for checking at `‎inference-chain/x/inference/keeper/subnet_settlement.go` that is breaking single source of truth rule
@@ -36,7 +36,7 @@ For example https://github.com/gonka-ai/gonka/pull/1005 introduces `MaxInference
     <span>[@unameisfine](https://github.com/unameisfine)</span>
     <span class="issues-meta-item">commented 2026-04-20 16:35 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Starting work on this. PR to follow — threading RefusalTimeout, ExecutionTimeout, and ValidationRate through SubnetEscrowParams -> SubnetEscrow -> subnet SessionConfig, same pattern as TokenPrice. ETA: done.
   </div>
 </div>

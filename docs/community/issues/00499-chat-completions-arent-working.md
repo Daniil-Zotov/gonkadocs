@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ```
 base_url: http://192.241.240.19:8000/v1
 Request signing is enabled through a custom HTTP client implementation.
@@ -81,7 +81,7 @@ print(response.choices[0].message.content)
     <span>[@mtvnastya](https://github.com/mtvnastya)</span>
     <span class="issues-meta-item">commented 2026-02-10 04:04 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     hi @pentoxine,I'd like to propose this for a bounty for reporting the issue.
 can you please reach out to me in discord @mtvnastya or let me know how I can contact you directly?
   </div>

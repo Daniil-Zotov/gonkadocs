@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 *(empty)*
 </div>
 
@@ -34,7 +34,7 @@ template: issues-main.html
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-03-22 22:59 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Hey @KKizilov, is this issue still in progress? 
   </div>
 </div>
@@ -43,7 +43,7 @@ template: issues-main.html
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-03-23 20:55 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @KKizilov please check if this issue is actually done or just closed?
   </div>
 </div>
@@ -52,7 +52,7 @@ template: issues-main.html
     <span>[@heitor-lassarote](https://github.com/heitor-lassarote)</span>
     <span class="issues-meta-item">commented 2026-03-23 21:08 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @tcharchian, we were explicitly requested by @gmorgachev to close #740 (the PR that would close this issue) because the work on subnets would also fix the problem while introducing more functionality. The issue should be closed/aborted instead.
   </div>
 </div>

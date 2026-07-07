@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
   **Problem**
   We had only single-recipient vesting transfer.
   So if we needed to vest tokens to many addresses, we had to add many separate messages

@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span> <span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 # Validation Eligibility and Accounting Consistency
 
 Work on Inferences and Validations on current version is now legacy. All future work will be concentrated on devnets (shardchains). This PR shouldn't be high priority or probably should be closed in nearest future.
@@ -86,7 +86,7 @@ When done:
     <span>[@akup](https://github.com/akup)</span>
     <span class="issues-meta-item">commented 2026-04-03 10:10 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Issue should be closed, because now all focus is moving to devshards. Moreover here seed is revealed, but current protocol version doesn't protect from seed early revealing, and some party can cheat with inferenceIds
 
 @0xMayoor let's accept your PR https://github.com/gonka-ai/gonka/pull/832

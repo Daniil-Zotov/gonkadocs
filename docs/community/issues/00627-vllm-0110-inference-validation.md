@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 *(empty)*
 </div>
 
@@ -34,7 +34,7 @@ template: issues-main.html
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-01-23 19:25 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Done by Axel-t
   </div>
 </div>
@@ -43,7 +43,7 @@ template: issues-main.html
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-01-24 02:00 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @tamazgadaev, please help me write what was done and attach the result. Thank you!
   </div>
 </div>
@@ -52,7 +52,7 @@ template: issues-main.html
     <span>[@tamazgadaev](https://github.com/tamazgadaev)</span>
     <span class="issues-meta-item">commented 2026-01-26 17:48 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     <img width="1171" height="697" alt="Image" src="https://github.com/user-attachments/assets/bba3fbf4-7e92-4726-8d9b-6e85ffedfd7f" /> test inference validation for the new 011 vllm container and compute thresholds for qwen235B
 
   </div>

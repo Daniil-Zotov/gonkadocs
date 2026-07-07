@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 # Title
 VLM inference and validation in Gonka
 ## Summary
@@ -62,7 +62,7 @@ Results for large "models" will be added a bit later.
     <span>[@fedor-konovalenko](https://github.com/fedor-konovalenko)</span>
     <span class="issues-meta-item">commented 2026-04-09 17:32 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Here are the results for large model - [/Qwen/Qwen3-VL-235B-A22B-Instruct](https://huggingface.co/Qwen/Qwen3-VL-235B-A22B-Instruct)
 
 [link](https://github.com/machine-intelligence-laboratory/gonka/blob/49bc8a97d354459386608ff91da2b15dba77f63a/mlnode/packages/benchmarks/notebooks/qwen3-VL-235B_thresholds.ipynb)
@@ -73,7 +73,7 @@ Results for large "models" will be added a bit later.
     <span>[@fedor-konovalenko](https://github.com/fedor-konovalenko)</span>
     <span class="issues-meta-item">commented 2026-04-27 11:20 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     And here are the results with the [latest version of Gonka-VLM](https://github.com/gonka-ai/vllm/tree/tg/scratchpad_for_mode)
 
 [notebook](https://github.com/machine-intelligence-laboratory/gonka/blob/2a284094f107cddba5f53749dc03c55f5abf51ed/mlnode/packages/benchmarks/notebooks/qwen3-VL-235B_thresholds-new.ipynb)
@@ -87,7 +87,7 @@ The fraud detection accuracy is about 99%
     <span>[@fedor-konovalenko](https://github.com/fedor-konovalenko)</span>
     <span class="issues-meta-item">commented 2026-04-27 12:36 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     # Models Proposal
 
 This is a proposal to add the [Qwen/Qwen3-VL-235B-A22B-Instruct-FP8](https://huggingface.co/Qwen/Qwen3-VL-235B-A22B-Instruct-FP8) multimodal model to the Gonka inference network. 

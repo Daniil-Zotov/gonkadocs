@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 With the upgrade 0.2.11, we can stress test and benchmark subnets in test environments.
 
 We should write a benchmark harness for this. Gonka has 3 testnets with 10 different accounts that we can use.
@@ -36,7 +36,7 @@ We should write a benchmark harness for this. Gonka has 3 testnets with 10 diffe
     <span>[@KKizilov](https://github.com/KKizilov)</span>
     <span class="issues-meta-item">commented 2026-03-26 15:20 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     The deadline is April 5th. 
   </div>
 </div>

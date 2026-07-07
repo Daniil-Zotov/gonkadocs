@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 - [x] GOI-14 | Permissionless Training Operations Enable DoS And Forged Completion
 - [x] GOI-16 | Missing Access Control In Message Server Handlers
 - [x] GOI-17 | Dropped Node Rank Updates Are Not Persisted After Rerank

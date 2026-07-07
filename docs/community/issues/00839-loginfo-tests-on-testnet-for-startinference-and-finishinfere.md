@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 To investigate the impact of log_format = "json" vs log_format = "plain" on node performance, a [number of experiments were executed on Testnet](https://docs.google.com/spreadsheets/d/1GkV6tn5tgQ3eL7VgAF4JaBWerqsN-fGHc6KEKNigFog/edit?pli=1&gid=586520582#gid=586520582). This is not compared to [mainnet performance](https://github.com/gonka-ai/gonka/issues/780#issuecomment-3972000833), however in isolation supports the same conclusion.  
 We could achieve around 3x improvement under inference to performance of LogInfo, when switching to log_format = "json".
 
@@ -39,7 +39,7 @@ We could achieve around 3x improvement under inference to performance of LogInfo
     <span>[@maria-mitina](https://github.com/maria-mitina)</span>
     <span class="issues-meta-item">commented 2026-03-02 15:51 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Should we continue with the log_level=info and log_level=error?
   </div>
 </div>
@@ -48,7 +48,7 @@ We could achieve around 3x improvement under inference to performance of LogInfo
     <span>[@hleb-albau](https://github.com/hleb-albau)</span>
     <span class="issues-meta-item">commented 2026-03-02 16:34 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     x3 for start/finish inference, or x3 for logging?
   </div>
 </div>
@@ -57,7 +57,7 @@ We could achieve around 3x improvement under inference to performance of LogInfo
     <span>[@maria-mitina](https://github.com/maria-mitina)</span>
     <span class="issues-meta-item">commented 2026-03-03 08:44 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @hleb-albau 3x improvement under inference to performance of LogInfo
   </div>
 </div>

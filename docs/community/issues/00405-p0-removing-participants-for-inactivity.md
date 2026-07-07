@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 Removing for inactivity
 
 - Goal: to remove inactive/invalid participants faster, not send inference requests to them, not allow them to be TAs / Validators, and remove their voting power

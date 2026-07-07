@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 Node crash: Decimal precision panic in reputation calculation (v0.2.7-post1)
 Summary
 Node running v0.2.7-post1 crashes with decimal precision panic during reputation calculation in the x/inference module, despite the BLS decimal precision fix included in this release. This indicates the v0.2.7-post1 fix is incomplete and does not cover all decimal precision issues.
@@ -221,7 +221,7 @@ Reporter: Node operator with detailed logs and crash dumps available Status: ⚠
     <span>[@patimen](https://github.com/patimen)</span>
     <span class="issues-meta-item">commented 2026-01-12 18:14 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Can you provide a full stack trace for the panic? I do not see any remaining uses of LegacyMustNewDecFromStr.
 For most of the chain, we _only_ use `shopspring` decimals, not Legacy. In fact, I cannot find places where we use it outside of BLS and chainvalidation.go (and there for only one value quickly)
   </div>
@@ -231,7 +231,7 @@ For most of the chain, we _only_ use `shopspring` decimals, not Legacy. In fact,
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-01-21 19:54 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @Olena please take a look at the question above.
   </div>
 </div>
@@ -240,7 +240,7 @@ For most of the chain, we _only_ use `shopspring` decimals, not Legacy. In fact,
     <span>[@gmorgachev](https://github.com/gmorgachev)</span>
     <span class="issues-meta-item">commented 2026-01-21 21:11 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     The log above contains exact issue from `ApplyBLSGuardianSlotReservation` (0.032335451875111843916048462901 is exact number and error which was in initial issues)
 => with high probability it's not another issue
 If it'd be one more issue in inference module, the whole chain would halt. I assume 0.2.7 binary was used (e.g. `.inference/cosmovisor` directory was recreated or symlinks inside modified)

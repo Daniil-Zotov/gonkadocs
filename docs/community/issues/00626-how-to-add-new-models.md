@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 This issue outlines a direction for a larger project. Adding new models is not a standalone task and has system-level implications for the architecture. The impact on the overall architecture needs to be evaluated first, and a conceptual description should be provided upfront before any implementation begins.
 </div>
 
@@ -34,7 +34,7 @@ This issue outlines a direction for a larger project. Adding new models is not a
     <span>[@x0152](https://github.com/x0152)</span>
     <span class="issues-meta-item">commented 2026-01-29 18:51 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     If I understood current implementation correctly, then as minimum will be great to use adapter pattern on MLNode side, so poc flow can be defined per model without changing core vllm code. The idea is to keep adapters in mlnode and load them in vllm automatically by model_id, so adding new model is just adding a new adapter implementation and tests on MLNode side
 
 As simple example:

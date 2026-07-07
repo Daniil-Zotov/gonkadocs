@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 - [x] GOC-12. Unchecked PubKey–Address Binding Allows Account Squatting
 - [x] GOC-13. Usage Of Must Marshaling Methods In `EndBlock ExecutedCode`
 - [x] GOC-14. Unbounded Pruning At Epoch Boundaries Can Stall `EndBlock`

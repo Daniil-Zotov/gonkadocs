@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 A critical vulnerability — CSA-2026-001: Tachyon — was disclosed in CometBFT (Advisory: https://github.com/cometbft/cometbft/security/advisories/GHSA-c32p-wcqj-j677).
 
 According to the disclosure, all versions of CometBFT are affected. The issue has been addressed in CometBFT versions v0.38.21 and v0.37.18.
@@ -38,7 +38,7 @@ As Gonka is a Cosmos-based project that uses CometBFT, Certik kindly recommends 
     <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
     <span class="issues-meta-item">commented 2026-02-08 14:14 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     PR created: https://github.com/gonka-ai/gonka/pull/675
 
 Updates CometBFT to v0.38.21 to fix the Tachyon vulnerability (CSA-2026-001).

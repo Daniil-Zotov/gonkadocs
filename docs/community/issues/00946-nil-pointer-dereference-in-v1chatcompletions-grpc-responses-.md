@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 Related to #876.
 
 Three gRPC response accesses in `post_chat_handler.go` lack nil guards, causing runtime panics when chain RPC is slow or partially responsive:
@@ -46,7 +46,7 @@ The pattern used elsewhere in the codebase (e.g. `enforceDeveloperAccessGate` al
     <span>[@unameisfine](https://github.com/unameisfine)</span>
     <span class="issues-meta-item">commented 2026-03-25 16:04 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Closing in favor of #876 — this is the same issue. Posted analysis there instead.
   </div>
 </div>

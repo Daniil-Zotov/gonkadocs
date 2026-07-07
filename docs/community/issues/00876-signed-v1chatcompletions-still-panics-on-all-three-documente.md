@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ## Summary
 
 Around **2026-03-10 20:28 UTC**, I followed the public Developer Quickstart flow on mainnet using a funded account and observed that inference requests signed using the public Gonka SDK semantics failed on **all three documented active transfer-agent endpoints** with the same internal server panic.
@@ -201,7 +201,7 @@ Wallet (if bounty attribution is relevant): `gonka1glph4syjlx347ptv2n7qfz67sryrh
     <span>[@junior2wnw](https://github.com/junior2wnw)</span>
     <span class="issues-meta-item">commented 2026-03-10 20:36 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Adding a fresh spot-check here to reduce maintainer validation time.
 
 ## Fresh reproduction (UTC)
@@ -313,7 +313,7 @@ This is intentionally sanitized. I can provide the exact reproduction script and
     <span>[@junior2wnw](https://github.com/junior2wnw)</span>
     <span class="issues-meta-item">commented 2026-03-10 21:51 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Downstream note from a live client.
 
 This issue currently blocks the Gonka-backed chat path in `Klava`:
@@ -336,7 +336,7 @@ If bounty attribution metadata is useful later, my Gonka address is:
     <span>[@junior2wnw](https://github.com/junior2wnw)</span>
     <span class="issues-meta-item">commented 2026-03-11 20:34 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     One more downstream signal from the live client side.
 
 I kept the current Gonka integration path intact and documented the current client boundary here:
@@ -362,7 +362,7 @@ If a maintainer wants a freshly minimized reproduction bundle again, I can post 
     <span>[@unameisfine](https://github.com/unameisfine)</span>
     <span class="issues-meta-item">commented 2026-03-25 16:05 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Found three nil-unguarded gRPC response accesses in `post_chat_handler.go` that can cause the panic described here:
 
 1. **`enforceDeveloperAccessGate`** (line 250): `paramsResp.Params.DeveloperAccessParams` — panics if `paramsResp` is nil. Called for ALL requests.
@@ -381,7 +381,7 @@ Fix in PR #947 — adds nil guards to all three locations (3 lines changed).
     <span>[@x0152](https://github.com/x0152)</span>
     <span class="issues-meta-item">commented 2026-03-26 14:32 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @junior2wnw Hi
 Tried your script - buildAuthorization double-hashes the message, so the server returns 401 "invalid signature". Fix: pass raw bytes to secp256k1.sign(message, ...) instead of secp256k1.sign(sha256(message), ...). After that, inference returns 200
 
@@ -403,7 +403,7 @@ Could you rerun with this fix and check if the 500 panic still reproduces? It's 
     <span>[@zhaog100](https://github.com/zhaog100)</span>
     <span class="issues-meta-item">commented 2026-03-26 15:30 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     /attempt
   </div>
 </div>
@@ -412,7 +412,7 @@ Could you rerun with this fix and check if the 500 panic still reproduces? It's 
     <span>[@zhaog100](https://github.com/zhaog100)</span>
     <span class="issues-meta-item">commented 2026-03-26 15:30 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     /attempt
   </div>
 </div>
@@ -421,7 +421,7 @@ Could you rerun with this fix and check if the 500 panic still reproduces? It's 
     <span>[@zhaog100](https://github.com/zhaog100)</span>
     <span class="issues-meta-item">commented 2026-03-26 16:00 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     /attempt
   </div>
 </div>
@@ -430,7 +430,7 @@ Could you rerun with this fix and check if the 500 panic still reproduces? It's 
     <span>[@unameisfine](https://github.com/unameisfine)</span>
     <span class="issues-meta-item">commented 2026-03-28 20:31 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Found the same InjectParamsIntoContext pattern in two more handlers — StartInference and FinishInference silently continue with broken context when params store is corrupted.
 
 This is the same bug fixed for Validation in #968, but in the other two critical message handlers.
@@ -445,7 +445,7 @@ Fix in PR (link below) — regression tests confirm FAIL without fix, PASS with 
     <span>[@junior2wnw](https://github.com/junior2wnw)</span>
     <span class="issues-meta-item">commented 2026-03-30 20:17 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Thanks - I reran this on March 31, 2026 against the currently documented public mainnet transfer-agent endpoints using a funded external requester account, and I tested both signing variants:
 
 1. the current public `gonka-openai` SDK style
@@ -507,7 +507,7 @@ If useful, I can also post a fresh March 31 endpoint matrix with exact status/bo
     <span>[@junior2wnw](https://github.com/junior2wnw)</span>
     <span class="issues-meta-item">commented 2026-04-27 13:18 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Hi, quick follow-up on #876.
 
 I noticed #947 explored a possible fix path and added an integration test for the signed `/v1/chat/completions` flow, but it was later closed unmerged. Since this issue is still in Triage/New, let me know if a fresh retest against the public endpoints or the private reproduction details from the report would help.
@@ -520,7 +520,7 @@ Happy to validate a patched deployment if useful.
     <span>[@dufok](https://github.com/dufok)</span>
     <span class="issues-meta-item">commented 2026-05-29 16:02 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     ### Fresh repro 2026-05-29 — distinct 401 variant: per-model "requires an API key" (not signature/panic)
 
 Following up ~1 month after the last activity here — the documented public mainnet inference flow is still not usable for an external developer, but I hit a **different failure mode** than the panic/`invalid signature`/`429` already in this thread, so flagging it in case it is a separate access-control layer worth its own issue.
@@ -564,7 +564,7 @@ So all three documented signing headers are present — this is past the unsigne
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-06-03 06:10 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Hi @dufok, the Developer Quickstart has been updated. If you have any other questions, please open a new issue
   </div>
 </div>

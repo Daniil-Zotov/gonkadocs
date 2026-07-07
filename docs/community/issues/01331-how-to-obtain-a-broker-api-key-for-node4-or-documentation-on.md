@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 Hi Gonka core team & community,
 
 ## Context 
@@ -95,7 +95,7 @@ Rogi AI
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-06-23 23:29 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Hi @Puyre!
 
 On the direct question (a broker API key for node4 specifically): there isn't a public self-serve onboarding process to point you to. node4 is the public gateway that was stood up during the early rollout — whitelisted and rate-limited, intended for demos and bootstrap testing rather than as a production backend. The handful of broker keys behind it were early access arrangements, not an open application flow, and that bootstrap directory isn't being actively expanded. So the `requires an API key` response you're seeing on node4 isn't something there's a documented "apply here" path to resolve — which is also why the signed-wallet SDK path doesn't work against it without one. The two paths that *are* governed and documented are: consume through an existing community broker, or operate your own allowlisted devshard gateway (on-chain governance allowlist).

@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ## Background
 
 I've been going through the whitepaper and PoW security analysis to understand whether consumer GPUs in the ~16 GB VRAM range (RTX 5060 Ti, 5070 Ti, 5080, 5090, etc.) have a realistic path to participating as Hosts — or whether the current design effectively requires datacenter-class hardware to earn meaningful rewards.

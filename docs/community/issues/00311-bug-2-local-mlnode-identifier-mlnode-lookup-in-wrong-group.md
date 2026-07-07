@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 # BUG-2: Local MLNode identifier & MLNode lookup in wrong group
 
 In function getInferenceServingNodeIds

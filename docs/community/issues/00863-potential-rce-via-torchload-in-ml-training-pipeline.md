@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 #### Summary
 This report describes a **potential unsafe deserialization issue** identified during **static/code review**. It has **not been verified on testnet**.  
 The function `torch.load()` is used to load saved weights and training states without any protection mechanisms, which theoretically allows an attacker to inject and execute arbitrary code when loading model files. This vector could be exploited to create a "Dormant + Trigger" worm that silently infects network nodes and later paralyzes the network on command.  
@@ -179,7 +179,7 @@ The vulnerability is identified at the code level, **not verified on testnet**. 
     <span>[@tamazgadaev](https://github.com/tamazgadaev)</span>
     <span class="issues-meta-item">commented 2026-03-12 19:44 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Training is not currently supported and basically needs total revision, so I'd say this issue is low-priority
   </div>
 </div>

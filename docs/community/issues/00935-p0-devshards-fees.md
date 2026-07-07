@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 Context: https://github.com/gonka-ai/gonka/issues/914#issuecomment-4090483233
 
 * Calculate and charge fee for `devshards`
@@ -43,7 +43,7 @@ Context: https://github.com/gonka-ai/gonka/issues/914#issuecomment-4090483233
     <span>[@KKizilov](https://github.com/KKizilov)</span>
     <span class="issues-meta-item">commented 2026-03-26 15:06 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     > Calculate and charge fee for subnets
  Will be done by March 29th.
 

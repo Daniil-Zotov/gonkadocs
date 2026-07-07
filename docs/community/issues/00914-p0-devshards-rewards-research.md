@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ## Tasks
 
 - [ ] Calculate what the fee on `devshards` should be for different `devshard` sizes
@@ -53,7 +53,7 @@ template: issues-main.html
     <span>[@dcastro](https://github.com/dcastro)</span>
     <span class="issues-meta-item">commented 2026-03-19 14:19 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     ## Current situation
 
 There are 2 kinds of rewards for inferences done on-chain (outside of `devshards`):
@@ -134,7 +134,7 @@ However, this attack is not profit-driven.
     <span>[@dcastro](https://github.com/dcastro)</span>
     <span class="issues-meta-item">commented 2026-03-19 18:14 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     
 Meeting Notes 2026/03/19
 
@@ -152,7 +152,7 @@ Meeting Notes 2026/03/19
     <span>[@KKizilov](https://github.com/KKizilov)</span>
     <span class="issues-meta-item">commented 2026-03-26 15:07 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     The research part will be in Progress, but doesn't block the implementation. 
   </div>
 </div>

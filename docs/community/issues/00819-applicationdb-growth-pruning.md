@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span> <span class="issues-label" style="background-color: #008672; color: #ffffff; border-color: #008672;">help wanted</span> <span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 
 ### Discussed in https://github.com/gonka-ai/gonka/discussions/817
 
@@ -65,7 +65,7 @@ Sustained `application.db` growth can lead to:
     <span>[@Mayveskii](https://github.com/Mayveskii)</span>
     <span class="issues-meta-item">commented 2026-03-03 07:58 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     I’d like to work on this issue, will start by reproducing application.db growth and investigating pruning behavior
   </div>
 </div>
@@ -74,7 +74,7 @@ Sustained `application.db` growth can lead to:
     <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
     <span class="issues-meta-item">commented 2026-03-03 11:13 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     PR: https://github.com/gonka-ai/gonka/pull/846
   </div>
 </div>
@@ -83,7 +83,7 @@ Sustained `application.db` growth can lead to:
     <span>[@Mayveskii](https://github.com/Mayveskii)</span>
     <span class="issues-meta-item">commented 2026-03-03 11:36 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Root cause: application.db growth — code review + live data
 TL;DR: Not a config problem. The pruning system silently deletes nothing on nodes that missed upgrade v0.2.4 (InferencePruningMax = 0 in DefaultEpochParams), and 9+ large collections were never pruned at all.
 Live data (epochs 158–188, gonka.gg):
@@ -100,7 +100,7 @@ Deprecated payload fields still stored on-chain. inference.proto still carries p
     <span>[@Mayveskii](https://github.com/Mayveskii)</span>
     <span class="issues-meta-item">commented 2026-03-03 11:36 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     > PR: [#846](https://github.com/gonka-ai/gonka/pull/846)
 
 were exactly working on it....
@@ -112,7 +112,7 @@ were exactly working on it....
     <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
     <span class="issues-meta-item">commented 2026-03-03 12:00 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Summary of what was done in PR #846:
 
 Root cause identified: **9 epoch-keyed collections were never pruned**, only 3 were cleaned up (Inferences, PoCBatches, PoCValidations v1). The unpruned collections:
@@ -137,7 +137,7 @@ Fix: extended `Prune()` to clean all 9 collections, added fallback default (5000
     <span>[@sysmanalex](https://github.com/sysmanalex)</span>
     <span class="issues-meta-item">commented 2026-03-03 18:14 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     [!NOTE]
 -  purning problem is part of IAVL bugs (will be fixed/can be - by migration to IAVLX v0.54) 100% 
 Pruning isn't explicitly configured in app/app.go -> the Cosmos SDK default is used.
@@ -207,7 +207,7 @@ p.s. I can make sample code for inference/end_blocker/keeper.go if needed. but u
     <span>[@gmorgachev](https://github.com/gmorgachev)</span>
     <span class="issues-meta-item">commented 2026-03-04 00:00 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     > Root cause: application.db growth — code review + live data TL;DR: Not a config problem. The pruning system silently deletes nothing on nodes that missed upgrade v0.2.4 (InferencePruningMax = 0 in DefaultEpochParams), and 9+ large collections were never pruned at all. Live data (epochs 158–188, gonka.gg): 2.3M inferences over 31 epochs, peak 241K/epoch Estimated application.db growth: ~7 GB (with payloads) / ~1.2 GB (metadata only) Root causes in code: InferencePruningMax = 0 by default (inference-chain/x/inference/types/params.go, DefaultEpochParams). On nodes without upgrade v0.2.4, pruning deletes zero records per block. The upgrade handler (app/upgrades/v0_2_4/upgrades.go) sets it to 5000 — but only for nodes that actually ran it. Deprecated payload fields still stored on-chain. inference.proto still carries prompt_payload, response_payload, original_prompt inside every Inference written to application.db via SetInference. 9 large epoch-keyed collections never pruned. EpochPerformanceSummaries, ConfirmationPoCEvents, PoCValidationsV2, MLNodeWeightDistributions and others in keeper.go have zero pruning logic and grow unboundedly regardless of config.
 
 
@@ -225,7 +225,7 @@ This parameter stored on chain => all nodes who in sync with chain will use the 
     <span>[@Lelouch33](https://github.com/Lelouch33)</span>
     <span class="issues-meta-item">commented 2026-03-04 09:32 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     ## Fix: pruning freeze caused by gaps in `pruneSnapshotHeights`
 
 ### Summary
@@ -420,7 +420,7 @@ Steady state: array has 1 element, advances with each snapshot.
     <span>[@gmorgachev](https://github.com/gmorgachev)</span>
     <span class="issues-meta-item">commented 2026-03-05 06:23 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @Lelouch33 seems like that really solves problem, let's finalize details and make compartible release
   </div>
 </div>
@@ -429,7 +429,7 @@ Steady state: array has 1 element, advances with each snapshot.
     <span>[@Lelouch33](https://github.com/Lelouch33)</span>
     <span class="issues-meta-item">commented 2026-03-05 23:22 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     https://github.com/gonka-ai/gonka/pull/867
   </div>
 </div>

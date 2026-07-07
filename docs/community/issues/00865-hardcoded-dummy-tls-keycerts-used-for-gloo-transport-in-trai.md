@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ### Summary
 The ML training manager for the `mlnode` component is currently configured to use hard‑coded dummy TLS credentials for Gloo’s `TCP_TLS` transport. These credentials are stored in the repository and wired into the runtime via environment variables. The code still contains a `TODO` comment indicating that real certificates should replace these placeholders, but this change has not yet been implemented.
 
@@ -97,7 +97,7 @@ def _start(self, train_dict: dict):
     <span>[@tamazgadaev](https://github.com/tamazgadaev)</span>
     <span class="issues-meta-item">commented 2026-03-12 19:43 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     This was a quick debug fix. Training is not currently supported and basically needs total revision, so I'd say this issue low-priority
   </div>
 </div>
@@ -106,7 +106,7 @@ def _start(self, train_dict: dict):
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-03-12 20:24 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     It’s hardcoded for test pipeline, on purpose
   </div>
 </div>

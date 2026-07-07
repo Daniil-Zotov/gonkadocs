@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 When querying a non-existent wallet via `GET https://node3.gonka.ai/v1/participants/{address}` the API currently returns a 500 Internal Server Error.
 
 Expected Behavior
@@ -40,7 +40,7 @@ A missing wallet is a valid client-side case, not a server error. Returning 404 
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-04-22 22:21 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     https://github.com/gonka-ai/gonka/pull/750
   </div>
 </div>

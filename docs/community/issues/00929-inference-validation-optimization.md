@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 @tamazgadaev, could you please provide a detailed description?
 </div>
 
@@ -34,7 +34,7 @@ template: issues-main.html
     <span>[@Red-Caesar](https://github.com/Red-Caesar)</span>
     <span class="issues-meta-item">commented 2026-03-26 09:31 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     [Here](https://github.com/gonka-ai/gonka/pull/952) I've opened a proposal for this optimization.
   </div>
 </div>

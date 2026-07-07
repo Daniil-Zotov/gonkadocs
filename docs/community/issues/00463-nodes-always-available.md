@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 The defunal "INFERENCE" state for MLNode de-facto didn't work. 
 it deployed model, but model was not in epoch state
 => validation would not go to this node => recovery is not possible 

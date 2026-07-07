@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 As described in https://github.com/gonka-ai/gonka/issues/914#issuecomment-4090483233, we want to limit the amount of inferences that can be done in a `devshard`, as a way of limiting the amount of damage a hijacked `devshard` can cause on the network.
 
 For now, let's say each `devshard` can run up to 2k inferences.
@@ -39,7 +39,7 @@ Upon settlement, the protocol should verify "Missed inferences + Invalidated inf
     <span>[@a-kuprin](https://github.com/a-kuprin)</span>
     <span class="issues-meta-item">commented 2026-05-26 21:49 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     At 0.2.13 nonce limit was introduced. Inference count could be limited by nonces limit and there is no need in extra parameter.
 Handling on devshard side is implemented at https://github.com/gonka-ai/gonka/pull/1258 
   </div>

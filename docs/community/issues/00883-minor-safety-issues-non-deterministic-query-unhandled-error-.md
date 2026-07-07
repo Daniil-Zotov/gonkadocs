@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ## Description
 
 Found three minor safety issues during code review:
@@ -62,7 +62,7 @@ See PR linked below with fixes for all three issues.
     <span>[@unameisfine](https://github.com/unameisfine)</span>
     <span class="issues-meta-item">commented 2026-04-27 22:46 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Closing — PR #884 was closed as part of refocusing on larger scoped contributions.
   </div>
 </div>

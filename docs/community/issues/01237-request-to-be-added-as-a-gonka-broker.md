@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 Hi Gonka core team & community,
 
 We're requesting inclusion of the OpenGonka gateway in the public broker
@@ -99,7 +99,7 @@ Thanks!
     <span>[@piterberkut](https://github.com/piterberkut)</span>
     <span class="issues-meta-item">commented 2026-05-28 18:43 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @tcharchian , Hi, i see that this issue is completed. What our team should do next to join allowlist with our gonka adress?
   </div>
 </div>
@@ -108,7 +108,7 @@ Thanks!
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-06-23 22:46 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Hi! At the moment, the public broker list is not being actively expanded through governance. Inclusion in that list should be handled through the governance process and discussed in the community.
 
 As a practical alternative, there is now a community-operated option for teams that want to start operating as brokers without waiting for direct access https://github.com/gonka-ai/gonka/discussions/1363.

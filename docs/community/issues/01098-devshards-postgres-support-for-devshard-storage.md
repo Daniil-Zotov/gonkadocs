@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ## Problem
 
 `devshard/storage` is sqlite-only today (`storage/sqlite.go`,
@@ -60,7 +60,7 @@ Also we should prune the old epoch's devshard data
     <span>[@Mayveskii](https://github.com/Mayveskii)</span>
     <span class="issues-meta-item">commented 2026-04-24 20:22 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     >RE
 
 Hi, can i grab this one for couple of week ? 
@@ -71,7 +71,7 @@ Hi, can i grab this one for couple of week ?
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-04-29 21:21 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     https://github.com/gonka-ai/gonka/pull/1126
   </div>
 </div>
@@ -80,7 +80,7 @@ Hi, can i grab this one for couple of week ?
     <span>[@x0152](https://github.com/x0152)</span>
     <span class="issues-meta-item">commented 2026-05-07 08:41 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Closed by #1145 
   </div>
 </div>

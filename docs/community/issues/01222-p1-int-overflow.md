@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #12a6e8; color: #24292f; border-color: #12a6e8;">Priority: Medium</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 The goal of this is to have in place after this a standard way of handling possible overflows, have it implemented consistently across the entire codebase and to have a check (preferably a static check, an AI persona if necessary as a backup) that flags anything that doesn't use the established pattern
 </div>
 
@@ -34,7 +34,7 @@ The goal of this is to have in place after this a standard way of handling possi
     <span>[@olegsuhoparov](https://github.com/olegsuhoparov)</span>
     <span class="issues-meta-item">commented 2026-06-30 13:00 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Opened a surgical first PR against main: #1379.
 
 It ports the already-accepted #1100/#1101 overflow fixes to main and adds two small guards for payout uint64->int64 conversion and validation totalWeight accumulation.

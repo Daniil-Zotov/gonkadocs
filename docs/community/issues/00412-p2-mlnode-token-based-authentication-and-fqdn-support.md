@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ## Goal / Problem
 
 Current MLNode registration in the API service requires three static parameters:
@@ -161,7 +161,7 @@ Required changes:
     <span>[@Pegasus-starry](https://github.com/Pegasus-starry)</span>
     <span class="issues-meta-item">commented 2025-11-06 04:12 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Hi @gmorgachev , I have  two questions:
 New registration (baseURL): Check <baseURL>/readyz (management API readiness endpoint on port 8080): 
 Is it means in the new registration:  the /readyz interface will be used , not using http://<host>:<inference_port>/health any more?       
@@ -178,7 +178,7 @@ Thanks
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-02-04 23:26 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @DimaOrekhovPS did the initial review, but now @DimaOrekhovPS  is waiting for @Pegasus-starry  to resolve conflicts with the current gonka version   
   </div>
 </div>
@@ -187,7 +187,7 @@ Thanks
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-03-21 00:56 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Hey @jacky6block @x0152 @akup! It would be great if you could sync on the next steps for this pull request and make the needed decisions together. If you are able to move it forward on your own, it could potentially be included in v0.2.12. But overall, this is a nice-to-have rather than something critical.
   </div>
 </div>
@@ -196,7 +196,7 @@ Thanks
     <span>[@akup](https://github.com/akup)</span>
     <span class="issues-meta-item">commented 2026-03-23 06:15 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     All this protections are nice to have. But I want it to be aligned with other features and moving PoC v2 APIs to the repo from vLLM repo.
 
 Need some time to have a big picture in my head
@@ -207,7 +207,7 @@ Need some time to have a big picture in my head
     <span>[@bonujel](https://github.com/bonujel)</span>
     <span class="issues-meta-item">commented 2026-06-23 07:47 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Hi @tcharchian, I'm picking this up and continuing the issue, and currently working on it. (draft pr #1359, blocked by #1296 )
 The new work centralizes MLNode addressing + auth in one place instead of spreading BaseURL/AuthToken across every call site (the #717 approach), and folds in the review feedback.
 
@@ -222,7 +222,7 @@ Thanks to everyone for the earlier work and review here.
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-06-27 20:42 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Hi @bonujel, thanks, I see. @DimaOrekhovPS @x0152 are working on v0.2.14 and v0.2.15 and will review https://github.com/gonka-ai/gonka/pull/1296 shortly
   </div>
 </div>

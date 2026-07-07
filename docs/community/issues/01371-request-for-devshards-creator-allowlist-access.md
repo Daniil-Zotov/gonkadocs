@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 Request to add my address to devshard_escrow_params.allowed_creator_addresses for a self-hosted gateway.
 
 Address: gonka1a02jacrjca02f0805v9kpx0h2axjdfxx4vmwls
@@ -47,7 +47,7 @@ Use case: personal self-hosted gateway for AI-assisted programming, code review,
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-07-03 00:13 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Hi @GERAunits! Additions to `devshard_escrow_params.allowed_creator_addresses` happen only through on-chain governance — a param-change proposal or inclusion in a governance-approved upgrade batch. No maintainer adds an address unilaterally, so filing this issue registers your intent, but inclusion and timing are governance-dependent and not guaranteed.
 
 Given your use case — personal, low-volume, no public endpoint, no resale — it's worth asking what running your own gateway actually buys you here. It gives you two things: paying for inference with your own GNK directly, with no third party holding a balance for you, and no operator between you and the network (relevant if you don't want anyone else seeing your code and documents in transit). In exchange you take on escrow funding, rotation, and settlement, plus the governance wait before any of it works.

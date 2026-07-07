@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 After upgrade v0.2.9, part of epoch 158 rewards appears to be distributed incorrectly.
   Validators that had ML nodes in preserved inference slot (POC_SLOT, TimeslotAllocation[1]) were not paid.
 
@@ -51,7 +51,7 @@ After upgrade v0.2.9, part of epoch 158 rewards appears to be distributed incorr
     <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
     <span class="issues-meta-item">commented 2026-02-17 21:52 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     PR with fix: #771 — removes resetPocSlotsInEpochGroupData from v0.2.9 upgrade handler. This function reset TimeslotAllocation[1] in EpochGroupData which is read during reward settlement, zeroing preservedWeight for all validators in epoch 158.
 
 Note: this is a forward-fix for chain replay correctness. Compensation for epoch 158 affected validators requires a separate governance proposal.

@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 - [ ] The `api-config.yml` file often goes missing, and this part is needs to be rewritten: https://github.com/gonka-ai/gonka/blob/bacddd41f257b459d85b04786bee06b49a084dff/decentralized-api/apiconfig/config_manager.go#L302
 - [ ] The `api-config` should be split into two parts:
       - a static configuration file

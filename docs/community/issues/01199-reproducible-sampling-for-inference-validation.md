@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 Review the existing reproducible / deterministic sampling work for inference validation and prepare a careful path toward adding it to MLNode versions.
 
 This task is related to the known inference validation vulnerability described in the inference validation proposal. The proposed direction is a two-stage validation system with a cheap sequence check before the existing distribution check.
@@ -152,7 +152,7 @@ The priority is to take over the existing work, gradually introduce it into MLNo
     <span>[@Ryanchen911](https://github.com/Ryanchen911)</span>
     <span class="issues-meta-item">commented 2026-06-26 11:33 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     hi @tcharchian , does this issue need help? If yes, maybe we  can take this one.
   </div>
 </div>
@@ -161,7 +161,7 @@ The priority is to take over the existing work, gradually introduce it into MLNo
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-06-30 00:53 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @Ryanchen911, yes please! 
   </div>
 </div>
@@ -170,7 +170,7 @@ The priority is to take over the existing work, gradually introduce it into MLNo
     <span>[@neuron7xLab](https://github.com/neuron7xLab)</span>
     <span class="issues-meta-item">commented 2026-07-02 13:28 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     I ran an adversarial pass on the deterministic sampling dump against the inference-validation proposal.
 
 **Finding:** the deterministic replay seed was not chain-bound — it was derived from request-controlled material (`f"{user_seed}|{prompt_token_ids}"`), so Stage-1 replay could be detached from the chain inference instance. The proposal requires `run_seed = SHA256(user_seed || inference_id_from_chain)`.
@@ -190,7 +190,7 @@ Honest status: reproducible from `pull/56/head`; 10 invariant tests + a golden v
     <span>[@Ryanchen911](https://github.com/Ryanchen911)</span>
     <span class="issues-meta-item">commented 2026-07-06 01:30 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @neuron7xLab thanks for the focused pass and PR — this lands squarely on the highest-priority item in our‘s review. We flagged the same seed-domain issue: the _dump/v011 derivation f"{user_seed}|{prompt_token_ids}" is request-controlled on both components, so Stage-1 replay can be ground/detached from the chain inference instance. Binding to inference_id_from_chain per the proposal is exactly right.
 
   </div>
@@ -200,7 +200,7 @@ Honest status: reproducible from `pull/56/head`; 10 invariant tests + a golden v
     <span>[@Ryanchen911](https://github.com/Ryanchen911)</span>
     <span class="issues-meta-item">commented 2026-07-06 02:53 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     ## Review summary — reproducible sampling for inference validation
 
 We reviewed the two-stage validation design (proposal §"Proper Fix") against the actual code on all three vllm branches (`_dump`, `v011`, `_merged`) plus the gonka chain-side validator, with an eye on a safe soft-rollout path.

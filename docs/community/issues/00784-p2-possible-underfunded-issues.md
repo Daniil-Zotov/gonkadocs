@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 # Problem
 Much of the Gonka system depends on funds being moved in and out of "escrow", which is stored in the types.ModuleName ("inference") account (the "module account"). Payments for inferences are moved here as well as money for rewards. There are also (possibly) movement from or to other module accounts (such as collateral, governance and streamvesting).
 
@@ -61,7 +61,7 @@ Any other method, as long as it serves the purpose, would work.
     <span>[@0xMayoor](https://github.com/0xMayoor)</span>
     <span class="issues-meta-item">commented 2026-02-21 08:10 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Working on it!
   </div>
 </div>
@@ -70,7 +70,7 @@ Any other method, as long as it serves the purpose, would work.
     <span>[@0xMayoor](https://github.com/0xMayoor)</span>
     <span class="issues-meta-item">commented 2026-02-21 14:20 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     ## Task 1 — analysis (updated with IDs)
 
 _Same findings as before, now with IDs so the Task 2 PRs can reference them._
@@ -124,7 +124,7 @@ Direct payments, vested payments, burns, refund wrapper, governance transfers, i
     <span>[@0xMayoor](https://github.com/0xMayoor)</span>
     <span class="issues-meta-item">commented 2026-02-22 18:38 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     ## Task 2 — fixes
 
 Two PRs.
@@ -148,7 +148,7 @@ Three findings still open — they all need a design decision before fix:
     <span>[@0xMayoor](https://github.com/0xMayoor)</span>
     <span class="issues-meta-item">commented 2026-02-23 14:50 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     ## Task 3 — standardized handling for underfunded events
 
 Principles based off Task 1 analysis and Task 2 fixes. Every fund-movement path should conform to these. Exceptions listed at the bottom.

@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 Hi, I need access to the GHCR image to run inferenced nodes.
 
 My GitHub username: rumirzayev-max
@@ -42,7 +42,7 @@ Thanks!
     <span>[@DimaOrekhovPS](https://github.com/DimaOrekhovPS)</span>
     <span class="issues-meta-item">commented 2025-11-17 21:00 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     The images are public for everyone. One possible cause for failing to pull an image is using stale GH credentials, try using `docker logout ghcr.io` to clear the credentials, then login again with `docker login ghcr.io` and retry
   </div>
 </div>

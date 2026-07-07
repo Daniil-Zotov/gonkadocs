@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 gonka.db of dapi has priority over node-config.json and keep first settings of node.
 </div>
 
@@ -34,7 +34,7 @@ gonka.db of dapi has priority over node-config.json and keep first settings of n
     <span>[@joesun1983](https://github.com/joesun1983)</span>
     <span class="issues-meta-item">commented 2025-11-07 09:01 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     try to use the admin api  /admin/v1/nodes to update node config
   </div>
 </div>

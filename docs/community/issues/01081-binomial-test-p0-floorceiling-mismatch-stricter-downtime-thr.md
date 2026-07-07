@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ## Summary
 
 A floor vs. ceiling inconsistency in `decimalToPermille` causes the dynamic p0 selection and the actual binomial test to use **different p0 tables**. Validators who should be punished under the stricter threshold pass the test using the more lenient table.
@@ -93,7 +93,7 @@ Payout address: `gonka10zaal553duxp05nvfpqtsqrm2g0j6j34r8nan7`
     <span>[@unameisfine](https://github.com/unameisfine)</span>
     <span class="issues-meta-item">commented 2026-04-19 19:22 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Reviewed the code paths. I believe this mismatch is **not exploitable** in the current codebase — here's why:
 
 **`getDynamicP0` always returns an exact permille**
@@ -120,7 +120,7 @@ Unifying the rounding functions is still reasonable as defensive hardening, but 
     <span>[@Doog-bot534](https://github.com/Doog-bot534)</span>
     <span class="issues-meta-item">commented 2026-04-20 01:35 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Thanks @unameisfine for the thorough walkthrough — you're right, and I've reverified against the code paths.
 
 **Confirmed on my side:**

@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 The framing is simple: you can prepare any container, it will run across different GPUs in the network, a protocol layer will coordinate interaction between nodes, they will perform training, and then use a protocol-level voting mechanism to determine which participants behaved correctly.
 
 We intentionally ignore the automatic redeployment problem for now. 
@@ -38,7 +38,7 @@ Put together a lightweight training flow without the heavy logic we have in devs
     <span>[@x0152](https://github.com/x0152)</span>
     <span class="issues-meta-item">commented 2026-06-23 19:38 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Here's the draft plan and draft of the first-stage PR:
 
 Plan (draft): https://docs.google.com/document/d/1LLZngQ7VoIL3DVT8St40XLE8HcRcxyNXZueyzoQfWuE/edit?tab=t.0
@@ -52,7 +52,7 @@ Any help is welcome, from shaping the plan to implementation and reviews
     <span>[@orvionx](https://github.com/orvionx)</span>
     <span class="issues-meta-item">commented 2026-06-23 21:44 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Hi @mtvnastya , I’d like to help with this if there is still an open sub-scope.
 
 My understanding is that this should be a lightweight mainnet training primitive, not a full devshards port: define/register a training workload, dispatch it to ML nodes, track basic execution state/result metadata, and leave redeployment/heavy orchestration out of scope.
@@ -67,7 +67,7 @@ Could you confirm which part you’d prefer contributors to start with?
     <span>[@x0152](https://github.com/x0152)</span>
     <span class="issues-meta-item">commented 2026-06-24 22:54 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Hi @orvionx, I've already started working on this and opened a draft PR for the first stage: #1350. There's also a draft plan here: https://docs.google.com/document/d/1LLZngQ7VoIL3DVT8St40XLE8HcRcxyNXZueyzoQfWuE/edit?tab=t.0
 
 I'd be happy if you could join. Could you take a look at the plan and share your thoughts? Stage 2 can be implemented in parallel with stage 1
@@ -80,7 +80,7 @@ I'd be happy if you could join. Could you take a look at the plan and share your
     <span>[@orvionx](https://github.com/orvionx)</span>
     <span class="issues-meta-item">commented 2026-06-24 23:03 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Hi @x0152 Thanks for the mention — I’d be happy to join and help with this.
 
 I reviewed the Stage 1 direction from PR #1350. My understanding is that Stage 1 mainly covers the on-chain reservation/release lifecycle, while Stage 2 can focus more on the actual training execution layer and coordination flow between reserved nodes.

@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 **Problem**
 The Merkle tree–based off-chain PoC commit approach is already being implemented as an urgent, short-term solution. 
 
@@ -46,7 +46,7 @@ Formally define, evaluate, and validate the Mesh / Turbine-based off-chain PoC c
     <span>[@akup](https://github.com/akup)</span>
     <span class="issues-meta-item">commented 2026-01-23 11:21 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Why gossip is just overlooked?
 
 While it will have more latency (this 100ms are neglectable compared to block finalization time), it consumes much less resources and bandwidth.

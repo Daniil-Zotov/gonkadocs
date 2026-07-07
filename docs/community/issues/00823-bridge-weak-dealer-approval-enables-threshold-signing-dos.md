@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 **Locations:** 
 - https://github.com/gonka-ai/gonka/blob/82c43a42c3c2f49b56ee8a32e6458480daf39ca9/inference-chain/x/bls/keeper/phase_transitions.go#L169-L169
 - https://github.com/gonka-ai/gonka/blob/82c43a42c3c2f49b56ee8a32e6458480daf39ca9/inference-chain/x/bls/keeper/threshold_signing.go#L296-L302
@@ -56,7 +56,7 @@ Later, the dealer (or colluder) withholds its partial signature, pushing the usa
     <span>[@x0152](https://github.com/x0152)</span>
     <span class="issues-meta-item">commented 2026-02-28 13:19 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     I'd like to help with this 
 #825 (WIP)
   </div>
@@ -66,7 +66,7 @@ Later, the dealer (or colluder) withholds its partial signature, pushing the usa
     <span>[@libermans](https://github.com/libermans)</span>
     <span class="issues-meta-item">commented 2026-03-02 05:10 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @x0152 Can you please explain, how does proof work in your implementation?
   </div>
 </div>
@@ -75,7 +75,7 @@ Later, the dealer (or colluder) withholds its partial signature, pushing the usa
     <span>[@x0152](https://github.com/x0152)</span>
     <span class="issues-meta-item">commented 2026-03-02 11:52 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     It's not finished yet but what I already made:
 1. Proof for true votes - when a participant votes true for a dealer, they must sign a message using shares they got from that dealer. The chain checks this signature against the dealer's public commitments. If signature is invalid or missing, the vote is rejected. So you can't vote true without actually having valid shares
 2. Slot-weighted quorum - dealer approval is now counted by slots, not by number of participants. The dealer also can't approve itself
@@ -88,7 +88,7 @@ Also added a description to the PR
     <span>[@akup](https://github.com/akup)</span>
     <span class="issues-meta-item">commented 2026-03-02 16:19 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     > 1. Proof for true votes - when a participant votes true for a dealer, they must sign a message using shares they got from that dealer. The chain checks this signature against the dealer's public commitments. If signature is invalid or missing, the vote is rejected. So you can't vote true without actually having valid shares
 
 But the real problem in the issue is, that participant should prove that they have invalid share.A malicious dealer can send valid shares to ~50% of recipients and garbage to the rest. Malicious dealer doesn't need that participants with invalid shares vote true for him, it isn't key for the attack.

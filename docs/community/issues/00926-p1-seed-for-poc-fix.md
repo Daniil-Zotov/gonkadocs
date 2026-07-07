@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #12a6e8; color: #24292f; border-color: #12a6e8;">Priority: Medium</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 - [x] on-chain params to choose option 
 - [x] MLNode support
 - [x] way to monitor it
@@ -36,7 +36,7 @@ template: issues-main.html
     <span>[@IgnatovFedor](https://github.com/IgnatovFedor)</span>
     <span class="issues-meta-item">commented 2026-03-31 17:54 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     # Proposal: Concatenated Murmur (concat_murmur)
 
 ## The problem

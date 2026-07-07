@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 @GLiberman @gmorgachev please evaluate how viable this solution would be.
 
 Current issue with wallet connections:
@@ -46,7 +46,7 @@ CC @kotelnikova
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-01-23 19:23 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @kotelnikova, could you please share the technical requirements?
   </div>
 </div>
@@ -55,7 +55,7 @@ CC @kotelnikova
     <span>[@Ryanchen911](https://github.com/Ryanchen911)</span>
     <span class="issues-meta-item">commented 2026-06-03 02:19 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     I'll take it, thank you! @tcharchian 
   </div>
 </div>
@@ -64,7 +64,7 @@ CC @kotelnikova
     <span>[@gonkalabs](https://github.com/gonkalabs)</span>
     <span class="issues-meta-item">commented 2026-06-03 22:32 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Hi!
 
 Just to add some context from our side: https://rpc.gonka.gg acts as a routing layer in front of multiple RPC upstreams. It routes traffic between our own RPC nodes (we have multiple own feather rpc nodes) and node1.gonka.ai-node3.gonka.ai, periodically health-checks each upstream, and automatically fails over when one of them becomes unavailable.
@@ -79,7 +79,7 @@ At the moment, we are processing several million RPC requests per day through ou
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-06-03 22:47 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @gonkalabs thanks, this makes sense. Would it be possible to extend the upstream pool with for example 6block and Hyperfusion, as fallback upstreams as well?
 
 Do your health checks only verify availability, or do they also check whether the upstream is lagging behind? For wallet reliability, it would be important to fail over not only when a node is down, but also when it is stale.
@@ -90,7 +90,7 @@ Do your health checks only verify availability, or do they also check whether th
     <span>[@gonkalabs](https://github.com/gonkalabs)</span>
     <span class="issues-meta-item">commented 2026-06-03 23:09 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @tcharchian Yes, we can extend the upstream pool with more members: hyperfusion, 6block - no problem! 
 
 Yes, we test chain-tip lag of upstreams as well as latency and general up/down status, so stale detection is one of the criteria when service selects the upstream for a request
@@ -101,7 +101,7 @@ Yes, we test chain-tip lag of upstreams as well as latency and general up/down s
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-06-03 23:26 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @gonkalabs thanks, please let me know once you add more members
   </div>
 </div>
@@ -110,7 +110,7 @@ Yes, we test chain-tip lag of upstreams as well as latency and general up/down s
     <span>[@gonkalabs](https://github.com/gonkalabs)</span>
     <span class="issues-meta-item">commented 2026-06-04 18:51 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @gonkalabs we added Hyperfusion and 6block rpc to the upstream list! 
 
 Bellow is a diagram of routing. All nodes are latency, tip-tested.

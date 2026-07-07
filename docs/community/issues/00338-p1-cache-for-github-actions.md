@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 *(empty)*
 </div>
 
@@ -34,7 +34,7 @@ template: issues-main.html
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-01-24 01:45 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     https://github.com/gonka-ai/gonka/pull/509
   </div>
 </div>
@@ -43,7 +43,7 @@ template: issues-main.html
     <span>[@gmorgachev](https://github.com/gmorgachev)</span>
     <span class="issues-meta-item">commented 2026-03-12 08:28 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @IgnatovFedor what is our status?
   </div>
 </div>
@@ -52,7 +52,7 @@ template: issues-main.html
     <span>[@IgnatovFedor](https://github.com/IgnatovFedor)</span>
     <span class="issues-meta-item">commented 2026-03-12 12:34 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     > [@IgnatovFedor](https://github.com/IgnatovFedor) what is our status?
 
 @gmorgachev , PR is opened, currently addressing Copilot review comments. Validating the changes - should be done soon.

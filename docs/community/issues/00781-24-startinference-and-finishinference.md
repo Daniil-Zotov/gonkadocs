@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 # Background
 
 `MsgStartInference` and `MsgFinishInference` are too slow in production. Blocks should be processed by nodes within 1-2 seconds, so that block time stays below 6 seconds. This means that to process 1000 inferences in a block, we need to record 1000 `MsgStartInference`, 1000 `MsgFinishInference`, and 100-200 `MsgValidation` transactions. This means that these transactions should be processed faster than 1ms. Even though they are quite fast in tests, in production with a large state they require 10-20ms, and on some nodes 50ms or more.
@@ -93,7 +93,7 @@ All five issues [0/4], [1/4], [2/4], [3/4], [4/4] in this series must be complet
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-02-20 22:41 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     If you’re ready to take this task on, please leave a comment here so other community members can see it’s already being worked on.
   </div>
 </div>
@@ -102,7 +102,7 @@ All five issues [0/4], [1/4], [2/4], [3/4], [4/4] in this series must be complet
     <span>[@akup](https://github.com/akup)</span>
     <span class="issues-meta-item">commented 2026-02-21 04:08 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     It is important to mention, that SetInference -> SetDeveloperStats are also called at validation, revalidation, invalidation.
 There we only change the status of the existing inference.
 So when we move DevelopersStats off-chain, we also should handle validation events (and emit new events if needed).
@@ -113,7 +113,7 @@ So when we move DevelopersStats off-chain, we also should handle validation even
     <span>[@libermans](https://github.com/libermans)</span>
     <span class="issues-meta-item">commented 2026-02-21 05:20 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Yes, correct. 
 
 Also DeveloperStats are used for DynamicPricing and MaximumInvalidationsReached, we should use some optimal storage for that values but likely should be implemented after both this task and https://github.com/gonka-ai/gonka/issues/782 finished.
@@ -124,7 +124,7 @@ Also DeveloperStats are used for DynamicPricing and MaximumInvalidationsReached,
     <span>[@x0152](https://github.com/x0152)</span>
     <span class="issues-meta-item">commented 2026-02-22 12:02 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     I'd like to take this on and start with draft #788. I'm ready to pass ownership If someone has a stronger approach
   </div>
 </div>
@@ -133,7 +133,7 @@ Also DeveloperStats are used for DynamicPricing and MaximumInvalidationsReached,
     <span>[@x0152](https://github.com/x0152)</span>
     <span class="issues-meta-item">commented 2026-02-23 21:14 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     With stats computation moved off-chain, StatsByTimePeriodByDeveloper and StatsByDeveloperAndEpochsBackwards will only return legacy data no longer updated after cutover (kept for compatibility). Do we need new dapi endpoints for per-developer stats from the local store, or is that out of scope now?
 
 
@@ -146,7 +146,7 @@ StatsByTimePeriodByDeveloper and StatsByDeveloperAndEpochsBackwards are not call
     <span>[@libermans](https://github.com/libermans)</span>
     <span class="issues-meta-item">commented 2026-02-24 00:53 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Per-developer. I don't think we use it now anywhere, so out of scope likely
 
 For DynamicPricing and MaximumInvalidationsReached we need an on-chain storage, I would say with rolling sum for X blocks (the amount of blocks we get from params for DynamicPricing and MaximumInvalidationsReached). Which I would prefer to be in EndBlocker.
@@ -161,7 +161,7 @@ How would you implement it?
     <span>[@libermans](https://github.com/libermans)</span>
     <span class="issues-meta-item">commented 2026-02-24 01:27 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @x0152 I see that you actually store the values directly in HandleComplete. Do you think that it will be faster that way? Should we clean the old keys to not store them for entire history on chain for every block?
 
 Have you implemented it only for DynamicPricing or for MaximumInvalidationsReached as well? 
@@ -172,7 +172,7 @@ Have you implemented it only for DynamicPricing or for MaximumInvalidationsReach
     <span>[@akup](https://github.com/akup)</span>
     <span class="issues-meta-item">commented 2026-02-24 05:50 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     > [@akup](https://github.com/akup) have you moved the iterating though inferences to EndBlocker for InferenceValidationDetails in 782?
 
 I've implemented another approach it is described (with motivation) in details at https://github.com/gonka-ai/gonka/pull/793
@@ -184,7 +184,7 @@ Need to discuss it.
     <span>[@x0152](https://github.com/x0152)</span>
     <span class="issues-meta-item">commented 2026-02-24 07:24 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     I added lightweight on-chain storage for both DynamicPricing and MaximumInvalidationsReached (via GetSummaryByModelAndTime). To keep business logic working after removing DeveloperStats from the hot path, we now write only a fixed 24-byte aggregate per (model, second), which should stay fast under load. This is a temporary compromise (a better long-term option is rolling sums in EndBlocker after current tasks), but local benchmarks already show ~20x faster execution and ~30x lower memory usage.
 
 Pruning is definitely needed, and if this approach is accepted, I will add it next
@@ -195,7 +195,7 @@ Pruning is definitely needed, and if this approach is accepted, I will add it ne
     <span>[@x0152](https://github.com/x0152)</span>
     <span class="issues-meta-item">commented 2026-02-24 14:21 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Added description to PR #788 with "Out of scope" section (from my point of view). Let me know if any of those items are critical for this PR and I should include them
   </div>
 </div>
@@ -204,7 +204,7 @@ Pruning is definitely needed, and if this approach is accepted, I will add it ne
     <span>[@akup](https://github.com/akup)</span>
     <span class="issues-meta-item">commented 2026-03-04 16:00 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @x0152 are you going to implement rolling sums for X blocks at this commit?
   </div>
 </div>
@@ -213,7 +213,7 @@ Pruning is definitely needed, and if this approach is accepted, I will add it ne
     <span>[@x0152](https://github.com/x0152)</span>
     <span class="issues-meta-item">commented 2026-03-04 16:09 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @akup This issue is already closed by PR #812, so there's no point in implementing and maintaining rolling sums here
   </div>
 </div>
@@ -222,7 +222,7 @@ Pruning is definitely needed, and if this approach is accepted, I will add it ne
     <span>[@gmorgachev](https://github.com/gmorgachev)</span>
     <span class="issues-meta-item">commented 2026-03-11 20:01 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     The big part of inference flow optimization is merged in https://github.com/gonka-ai/gonka/pull/812
 I'm closing all `[*/4] StartInference and FinishInference: optimiziation` tasks to finalize this work in milestone 0.2.11. I think it'd be better to re-open in case of additinal optimizations required
   </div>

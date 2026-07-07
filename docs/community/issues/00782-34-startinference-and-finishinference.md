@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span> <span class="issues-label" style="background-color: #9214a6; color: #ffffff; border-color: #9214a6;">requires own mainnet node</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 # Background
 
 `MsgStartInference` and `MsgFinishInference` are too slow in production. Blocks should be processed by nodes within 1-2 seconds, so that block time stays below 6 seconds. This means that to process 1000 inferences in a block, we need to record 1000 `MsgStartInference`, 1000 `MsgFinishInference`, and 100-200 `MsgValidation` transactions. This means that these transactions should be processed faster than 1ms. Even though they are quite fast in tests, in production with a large state they require 10-20ms, and on some nodes 50ms or more.
@@ -93,7 +93,7 @@ All five issues [0/4], [1/4], [2/4], [3/4], [4/4] in this series must be complet
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-02-20 22:41 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     If you’re ready to take this task on, please leave a comment here so other community members can see it’s already being worked on.
   </div>
 </div>
@@ -102,7 +102,7 @@ All five issues [0/4], [1/4], [2/4], [3/4], [4/4] in this series must be complet
     <span>[@akup](https://github.com/akup)</span>
     <span class="issues-meta-item">commented 2026-02-21 15:27 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     I will take it
   </div>
 </div>
@@ -111,7 +111,7 @@ All five issues [0/4], [1/4], [2/4], [3/4], [4/4] in this series must be complet
     <span>[@akup](https://github.com/akup)</span>
     <span class="issues-meta-item">commented 2026-02-24 05:29 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @libermans I've found that EpochGroupData should be read/write once in a lot of places. It is a relatively large structure and we should optimize on its decoding/encoding on read/write to store.
 
 Moreover there are places where we do not read EpochGroupData but should to. Every operation that is intended to be called by active participant should be checked for was the message came from real active participant. For example StartInference message could be runned by any developer account (currently there is a TA whitelist that blocks this vulnarability, but after removing this whitelist it will be reopened). So any account can start inferences that will not be finished and any honest participant could be slashed. Same thing for validation/invalidation/revalidation.
@@ -130,7 +130,7 @@ Currently i'm taking it to tests on running node
     <span>[@akup](https://github.com/akup)</span>
     <span class="issues-meta-item">commented 2026-02-24 06:12 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @libermans
 Do we really need to move InferenceValidationDetails to EndBlocker?
 If the only purpose is to have precise value at
@@ -146,7 +146,7 @@ I understand that the idea was to move reading and writing currentEpochGroup.Gro
     <span>[@gmorgachev](https://github.com/gmorgachev)</span>
     <span class="issues-meta-item">commented 2026-03-11 20:01 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     The big part of inference flow optimization is merged in https://github.com/gonka-ai/gonka/pull/812
 I'm closing all `[*/4] StartInference and FinishInference: optimiziation` tasks to finalize this work in milestone 0.2.11. I think it'd be better to re-open in case of additinal optimizations required
   </div>

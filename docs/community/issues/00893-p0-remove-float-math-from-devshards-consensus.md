@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 DeterministicFloat, ShouldValidate, and penalizeUnrevealedSeeds use float64 and math.Ceil. 
 
 Floating-point arithmetic is not deterministicacross architectures and can produce different results on different
@@ -38,7 +38,7 @@ machines, which can lead to state root divergence and consensus splits.
     <span>[@KKizilov](https://github.com/KKizilov)</span>
     <span class="issues-meta-item">commented 2026-03-26 15:17 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Will be done by March 27th. 
   </div>
 </div>

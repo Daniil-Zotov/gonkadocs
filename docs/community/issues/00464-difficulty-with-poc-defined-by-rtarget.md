@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 There is a difficulty with PoC, defined by `RTarget` in the repo. It essentially defines the percentage of "correct" nonces from all nonces => how many nonces participants has to check to find the correct one. 
 
 Let's say we:

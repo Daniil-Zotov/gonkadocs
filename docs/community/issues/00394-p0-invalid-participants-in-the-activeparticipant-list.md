@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 Proper removal (Check that we also jail => no voting power)
 </div>
 
@@ -34,7 +34,7 @@ Proper removal (Check that we also jail => no voting power)
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2025-10-21 18:41 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     # Invalid Participant Exclusion – Feature Specification
 
 ## **Overview**

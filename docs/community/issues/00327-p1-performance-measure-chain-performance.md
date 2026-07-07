@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 Performance: Measure chain performance (number / size of inference request we can actually record on chain a second / a block) - based on the result of the task additional tasks can be created - first assumption is the next task 
 Previous estimations: 
 https://docs.google.com/spreadsheets/d/1MHkfS8GVN-4cRjbSDJIUfC1MQQVNZU2wvPVN-bvZNHk/edit?usp=sharing

@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 # Background
 
 `MsgStartInference` and `MsgFinishInference` are too slow in production. Blocks should be processed by nodes within 1-2 seconds, so that block time stays below 6 seconds. This means that to process 1000 inferences in a block, we need to record 1000 `MsgStartInference`, 1000 `MsgFinishInference`, and 100-200 `MsgValidation` transactions. This means that these transactions should be processed faster than 1ms. Even though they are quite fast in tests, in production with a large state they require 10-20ms, and on some nodes 50ms or more.
@@ -91,7 +91,7 @@ All five issues [0/4], [1/4], [2/4], [3/4], [4/4] in this series must be complet
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-02-20 22:40 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     If you’re ready to take this task on, please leave a comment here so other community members can see it’s already being worked on.
   </div>
 </div>
@@ -100,7 +100,7 @@ All five issues [0/4], [1/4], [2/4], [3/4], [4/4] in this series must be complet
     <span>[@akup](https://github.com/akup)</span>
     <span class="issues-meta-item">commented 2026-02-21 04:32 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     According to GetParams. If we read it for each transaction, it could be read once per block, to also optimize reads on each transaction.
 
 We change params not so often and only by authority or proposals, so we can afford per block cache for params.
@@ -111,7 +111,7 @@ We change params not so often and only by authority or proposals, so we can affo
     <span>[@libermans](https://github.com/libermans)</span>
     <span class="issues-meta-item">commented 2026-02-21 05:23 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     The challenge that params can be changed through a transaction, so we can't use per block cache. But can use per transaction cache for Start, Finish, Validate.
 
 I would add additional functions to Keeper with GetParam, to store cache and clean it, and run store cache in the begging of the transactions and defer clean.
@@ -122,7 +122,7 @@ I would add additional functions to Keeper with GetParam, to store cache and cle
     <span>[@akup](https://github.com/akup)</span>
     <span class="issues-meta-item">commented 2026-02-21 05:23 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     According the ComputeStatus it seams we can completely skip it on HandleInferenceComplete and ProcessInferencePayment.
 
 Calculations there are:
@@ -140,7 +140,7 @@ So we can skip ComputeStatus for inference complete?
     <span>[@libermans](https://github.com/libermans)</span>
     <span class="issues-meta-item">commented 2026-02-21 05:27 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     You actually right, so we may add parameter for the function to skip compute status and use it in the Start/Finish. 
   </div>
 </div>
@@ -149,7 +149,7 @@ So we can skip ComputeStatus for inference complete?
     <span>[@akup](https://github.com/akup)</span>
     <span class="issues-meta-item">commented 2026-02-21 05:27 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     According to GetParams. Yes they can change through the transaction. but only if we set them (via authority or proposal).
 
 And I think that it is absolutely affordable to ignore this change till the block ends, and use the change only on the next blocks
@@ -160,7 +160,7 @@ And I think that it is absolutely affordable to ignore this change till the bloc
     <span>[@libermans](https://github.com/libermans)</span>
     <span class="issues-meta-item">commented 2026-02-21 05:31 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     You may be right here, that we can wait for the next block. I'm thinking about corner cases, like can we do multiple changes within one block, which require us to read parameters, but likely you right. It just usually not recommended to have any cache per block, to insure determinism. But you may be right that there is no case for non-determinism here. 
   </div>
 </div>
@@ -169,7 +169,7 @@ And I think that it is absolutely affordable to ignore this change till the bloc
     <span>[@akup](https://github.com/akup)</span>
     <span class="issues-meta-item">commented 2026-02-21 05:34 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Even if we do multiple changes per one block, I think it is something very strange if the change is reading previous state...
 
 Anyway we control this by proposals and can manage to be in separate blocks
@@ -180,7 +180,7 @@ Anyway we control this by proposals and can manage to be in separate blocks
     <span>[@x0152](https://github.com/x0152)</span>
     <span class="issues-meta-item">commented 2026-02-21 11:20 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     I'd like to help with this issue if no one is working on it yet
   </div>
 </div>
@@ -189,7 +189,7 @@ Anyway we control this by proposals and can manage to be in separate blocks
     <span>[@x0152](https://github.com/x0152)</span>
     <span class="issues-meta-item">commented 2026-02-21 12:02 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     > Even if we do multiple changes per one block, I think it is something very strange if the change is reading previous state...
 > 
 > Anyway we control this by proposals and can manage to be in separate blocks
@@ -211,7 +211,7 @@ Since v0.2.11 is close, I suggest we keep quick safe fixes now (including local 
     <span>[@x0152](https://github.com/x0152)</span>
     <span class="issues-meta-item">commented 2026-02-21 12:15 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     > According the ComputeStatus it seams we can completely skip it on HandleInferenceComplete and ProcessInferencePayment.
 > 
 > Calculations there are: probabilityOfConsecutiveFailures (don't change on inference completion and will not throw error) getInvalidationStatus (isn't related to inference completion and should be skipped) getInactiveStatus (can not fail if we completed inference and could be skipped) getConfirmationPoCStatus (isn't related to inference completion)
@@ -226,7 +226,7 @@ If we skip ComputeStatus on HandleInferenceComplete, then InactiveLLR won't be u
     <span>[@akup](https://github.com/akup)</span>
     <span class="issues-meta-item">commented 2026-02-21 15:25 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     > If we skip ComputeStatus on HandleInferenceComplete, then InactiveLLR won't be updated with the successful inference result. What do you think?
 
 InactiveLLR is used only here when we compute the status and it has effect on logic only if it fails. When Participant became inactive it can become active again only on next epoch. Serving inference will not change it's status to inactive from active. So inactiveLLR can be just for information for get queries.
@@ -240,7 +240,7 @@ So for performance it is better to skip it here.
     <span>[@akup](https://github.com/akup)</span>
     <span class="issues-meta-item">commented 2026-02-21 15:27 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     > I'd like to help with this issue if no one is working on it yet
 
 @x0152 I've already started it with [782](https://github.com/gonka-ai/gonka/issues/782)
@@ -252,7 +252,7 @@ So for performance it is better to skip it here.
     <span>[@akup](https://github.com/akup)</span>
     <span class="issues-meta-item">commented 2026-02-21 15:44 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     > I agree block height caching can help, and it may improve consistency when workers run in parallel. But we still need more testing to prove it is safe and useful in multi-node setups
 
 It's onchain logic, it's hard to compare with the case of  'x-cosmos-block-height' when there is offchain communication with multiple chain nodes that can have different height.
@@ -265,7 +265,7 @@ Here we are determenistic every node on height X has the same state and input, a
     <span>[@x0152](https://github.com/x0152)</span>
     <span class="issues-meta-item">commented 2026-02-21 19:27 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     > InactiveLLR is used only here when we compute the status and it has effect on logic only if it fails. When Participant became inactive it can become active again only on next epoch. Serving inference will not change it's status to inactive from active. So inactiveLLR can be just for information for get queries. But I don't think we should store and calculate something on chain that is just for information, all of this could be caluclated offchain.
 > 
 > So for performance it is better to skip it here.
@@ -282,7 +282,7 @@ Moving this offchain is not trivial task, since InactiveLLR is consensus state u
     <span>[@x0152](https://github.com/x0152)</span>
     <span class="issues-meta-item">commented 2026-02-21 19:34 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     > > I agree block height caching can help, and it may improve consistency when workers run in parallel. But we still need more testing to prove it is safe and useful in multi-node setups
 > 
 > It's onchain logic, it's hard to compare with the case of 'x-cosmos-block-height' when there is offchain communication with multiple chain nodes that can have different height.
@@ -297,7 +297,7 @@ my bad, mixed up dapi and on-chain context here, sorry
     <span>[@akup](https://github.com/akup)</span>
     <span class="issues-meta-item">commented 2026-02-23 09:35 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     > InactiveLLR tracks both passes and misses.
 
 It doesn't track them, it is used for status computations. `InferenceCount` and `MissedRequests` are tracked at `Participant. CurrentEpochStats` and we don't miss this tracking by skipping status recomputation. The logic is that first we change this InferenceCount and MissedRequests, and then we set the Participant, it calls setting Participant status, that is calculated from this parameters. But if we serve the inference successfully participant can't change it's status and we don't need to compute it.
@@ -308,7 +308,7 @@ It doesn't track them, it is used for status computations. `InferenceCount` and 
     <span>[@x0152](https://github.com/x0152)</span>
     <span class="issues-meta-item">commented 2026-02-23 12:46 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Sorry for pushing on this, I just want to understand where I'm wrong
 
 I wrote a quick test to check this (50 completions + 6 misses):
@@ -368,7 +368,7 @@ Did I misunderstand anything in this reasoning?
     <span>[@akup](https://github.com/akup)</span>
     <span class="issues-meta-item">commented 2026-02-23 16:46 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @x0152 you are correct. And it is really nice to pushing on this.
 
 The point is that `ComputeStatus` is using `Participant.CurrentEpochStats.InactiveLLR` for next delta calculation.
@@ -387,7 +387,7 @@ Actually I've finished by selectable skipping of probabilityOfConsecutiveFailure
     <span>[@akup](https://github.com/akup)</span>
     <span class="issues-meta-item">commented 2026-02-23 17:00 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @x0152 so to extend your test:
 
 ```go
@@ -426,7 +426,7 @@ In this case InactiveLLR will be same with case A, when you Compute on every pas
     <span>[@x0152](https://github.com/x0152)</span>
     <span class="issues-meta-item">commented 2026-02-23 21:27 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Got you. Thanks for detailed explanation
   </div>
 </div>
@@ -435,7 +435,7 @@ In this case InactiveLLR will be same with case A, when you Compute on every pas
     <span>[@gmorgachev](https://github.com/gmorgachev)</span>
     <span class="issues-meta-item">commented 2026-03-11 20:01 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     The big part of inference flow optimization is merged in https://github.com/gonka-ai/gonka/pull/812
 I'm closing all `[*/4] StartInference and FinishInference: optimiziation` tasks to finalize this work in milestone 0.2.11. I think it'd be better to re-open in case of additinal optimizations required
   </div>

@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 # Proposal: Enable Cosmos SDK Simulation and Fuzz Testing for `inference-chain`
 
 ## Summary
@@ -311,7 +311,7 @@ That would give the project a practical starting point without overcommitting to
     <span>[@hleb-albau](https://github.com/hleb-albau)</span>
     <span class="issues-meta-item">commented 2026-03-31 10:44 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
      grabbing
 
 Upd: still have problems with health, release grabbing :(
@@ -323,7 +323,7 @@ you can start from PR i done
     <span>[@vitaly-andr](https://github.com/vitaly-andr)</span>
     <span class="issues-meta-item">commented 2026-05-08 09:28 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Hi @patimen, I'd like to take this on.
 
 Per @hleb-albau's release ("you can start from PR i done"), starting fresh from `main` rather than building on PR #995. That PR removes 3 upstream tests (`TestAppImportExport`, `TestAppSimulationAfterImport`, `TestAppStateDeterminism`) without restoring their semantics under simsx. Crediting Hleb for the Make-target naming and `fixBankGenesisState` helper.
@@ -343,7 +343,7 @@ PR-A is locally complete; finalizing ai-reviewer pass before pushing. Will link 
     <span>[@vitaly-andr](https://github.com/vitaly-andr)</span>
     <span class="issues-meta-item">commented 2026-05-08 18:18 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Phase 1 PR opened: #1156. Scope is intentionally narrow ("make simulation runnable") so subsequent phases can land incrementally per the proposal; Phase 2 first-wave x/inference real ops to follow as a separate PR.
 
 cc @patimen as the issue author for review and scope feedback.
@@ -354,7 +354,7 @@ cc @patimen as the issue author for review and scope feedback.
     <span>[@vitaly-andr](https://github.com/vitaly-andr)</span>
     <span class="issues-meta-item">commented 2026-05-18 08:12 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Update: Phase 1 and Phase 2 are now combined in #1182, which supersedes #1156 (closed).
 
 The comment above said Phase 2 would follow as a separate PR. Combining them instead matches the issue's "Proposed Next Step", which bundles run ergonomics and first-wave operation support into a single milestone — one self-contained, reviewable PR that exercises real `x/inference` logic rather than plumbing alone.
@@ -368,7 +368,7 @@ The comment above said Phase 2 would follow as a separate PR. Combining them ins
     <span>[@vitaly-andr](https://github.com/vitaly-andr)</span>
     <span class="issues-meta-item">commented 2026-05-22 14:13 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Phase 1 + 2 + 3 combined PR opened: #1228 (supersedes #1182, which is now closed).
 
 Full local-verification milestone:
@@ -384,7 +384,7 @@ V2 PoC chain factory family on cosmos-sdk simsx `HasFutureOpsRegistry`; sim-full
     <span>[@vitaly-andr](https://github.com/vitaly-andr)</span>
     <span class="issues-meta-item">commented 2026-05-29 14:59 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     **Status update — Phase 1–3 complete and assembled for review.**
 
 The simulator now runs end-to-end and exercises real `x/inference` logic — and, the point of this issue, the seeded runs have **surfaced several actionable bugs**. Everything is assembled as focused, individually reviewable PRs.
@@ -416,7 +416,7 @@ The simulator now runs end-to-end and exercises real `x/inference` logic — and
     <span>[@vitaly-andr](https://github.com/vitaly-andr)</span>
     <span class="issues-meta-item">commented 2026-06-06 08:01 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     **A second staking-liveness halt — surfaced running the sim on `#14 + #16`.**
 
 Building the suite on a fork with both fork PRs applied (`#14` GON-191 + `#16` `markValidatorForDeletion`), the multi-seed sweep still halted: **27 / 37 seeds** with `block finalization failed: validator does not exist`.

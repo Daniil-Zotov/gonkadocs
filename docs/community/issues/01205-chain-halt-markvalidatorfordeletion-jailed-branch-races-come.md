@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ## Summary
 
 In the [`gonka-ai/cosmos-sdk`](https://github.com/gonka-ai/cosmos-sdk) fork, the jailed branch of `markValidatorForDeletion` (`x/staking/keeper/compute.go:559-563`) immediately deletes the validator record **and** the `ValidatorByConsAddr` index via `deleteValidatorInternal` (`x/staking/keeper/val_state_change.go:78-126`). When `SetComputeValidators` runs with a set that excludes a still-jailed validator, this branch fires. CometBFT, however, continues to include the deleted validator in `LastCommit` for `ValidatorUpdateDelay` blocks (≈ 2 effective blocks: `header.Height + 1 + 1` per cometbft `state/execution.go`'s "next next height" rule). On the next block, `slashing.BeginBlocker` (`x/slashing/abci.go:24-29`) walks `LastCommit` votes and calls `HandleValidatorSignature → GetValidatorByConsAddr` (`x/slashing/keeper/infractions.go:26-30`). The lookup returns a bare `stakingtypes.ErrNoValidatorFound` → `BeginBlocker` returns an error → consensus halts.

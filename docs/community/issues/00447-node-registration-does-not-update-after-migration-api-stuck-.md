@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 🐞 [BUG] Node Registration Cannot Update After Migration (stuck on old on-chain state; diff returns no changes)
 Summary
 
@@ -294,7 +294,7 @@ raw output of inferenced query inference hardware-nodes-all
     <span>[@ASLanin](https://github.com/ASLanin)</span>
     <span class="issues-meta-item">commented 2025-11-24 21:21 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     As far as I get it the api container's (ghcr.io/product-science/api:0.2.5) main process does not reread or at least do not apply `node-config.json` after the first time creation of  the `.dapi/gonka.db`
 query from the db `sqlite> SELECT * FROM inference_nodes LIMIT 20;` shows first time used data in `models_json` regardless of `node-config.json` contents at the last run. May be all other params are WORM in db.
   </div>
@@ -304,7 +304,7 @@ query from the db `sqlite> SELECT * FROM inference_nodes LIMIT 20;` shows first 
     <span>[@redstartechno](https://github.com/redstartechno)</span>
     <span class="issues-meta-item">commented 2026-06-11 19:09 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     I dug into this from the current `main` code while looking for the cause, and found two separate layers that together produce the "stuck registration" behavior. Sharing in case it helps — I'm a contributor, not a maintainer, so treat the design parts as observations.
 
 **Layer 1 — `node_config.json` is merged only once, by design.**

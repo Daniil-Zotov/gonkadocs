@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 *(empty)*
 </div>
 
@@ -34,7 +34,7 @@ template: issues-main.html
     <span>[@akup](https://github.com/akup)</span>
     <span class="issues-meta-item">commented 2026-04-21 20:15 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Isn't it related PR? where something was already solved
 https://github.com/gonka-ai/gonka/pull/1001
 
@@ -46,7 +46,7 @@ and important questions on shard finalization were raised here: https://github.c
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-04-29 21:03 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @GLiberman please respond @akup 
   </div>
 </div>

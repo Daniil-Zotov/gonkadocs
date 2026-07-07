@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 # Context
 
 For each mlnode a participant can configure a list of models it supports, it’s done via node management admin API (or via `node-config.json`, but only on the first run of the api container).
@@ -67,7 +67,7 @@ The same edge case could happen, it was the only node serving a particular model
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-01-24 02:14 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Postponing and closing for now. 
   </div>
 </div>

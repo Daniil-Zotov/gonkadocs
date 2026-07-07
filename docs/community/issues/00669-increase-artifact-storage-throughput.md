@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 #666 
 </div>
 
@@ -34,7 +34,7 @@ template: issues-main.html
     <span>[@DimaOrekhovPS](https://github.com/DimaOrekhovPS)</span>
     <span class="issues-meta-item">commented 2026-02-06 17:33 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @IgnatovFedor @tcharchian Do we want to create a different issue for further improving the storage throughput? 
   </div>
 </div>

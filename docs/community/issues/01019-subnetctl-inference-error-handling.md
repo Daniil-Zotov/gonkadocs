@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ## Summary
 
 **Today `subnetctl` does not surface many host-side failures during inference.** When the HTTP call to the executor fails (for example **403 Forbidden** with `sender not in group`), the proxy treats that as “no response yet” and **waits through refusal / execution timeouts** before eventually failing with timeout-related errors (for example insufficient timeout votes). The original transport error is **not** returned to the API client immediately.
@@ -123,7 +123,7 @@ That timeout path addresses **slow or stuck executors**, not **misclassified tra
     <span>[@unameisfine](https://github.com/unameisfine)</span>
     <span class="issues-meta-item">commented 2026-04-08 21:06 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Taking this. Submitted a minimal fix that addresses the core symptom (fatal 4xx swallowed into timeouts) in PR to follow, leaving the broader phase-aware retry design (§2 and §3 in the issue) for a separate change.
   </div>
 </div>

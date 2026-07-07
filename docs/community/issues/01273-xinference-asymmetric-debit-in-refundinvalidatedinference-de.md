@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ## Question
 
 `refundInvalidatedInference` ([`x/inference/keeper/msg_server_invalidate_inference.go:64-79`](https://github.com/gonka-ai/gonka/blob/main/inference-chain/x/inference/keeper/msg_server_invalidate_inference.go#L64-L79)) issues a full-`ActualCost` escrow refund to `RequestedBy` (the client) while debiting the **same** full `ActualCost` from `executor.CoinBalance` **only** (`:74`).
@@ -105,7 +105,7 @@ Maintainer clarification before any code change:
     <span>[@vitaly-andr](https://github.com/vitaly-andr)</span>
     <span class="issues-meta-item">commented 2026-05-29 05:26 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     **Update — the asymmetry is pervasive, not a grace-period edge case.**
 
 While building the simulation/fuzz harness for #982 (Phase 3 — improving simulation quality with custom invariants + multi-seed runs), this asymmetry surfaces on the large majority of seeds, not just the constructed reproducer above.

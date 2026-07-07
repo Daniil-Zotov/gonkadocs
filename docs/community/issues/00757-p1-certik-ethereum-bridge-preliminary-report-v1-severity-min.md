@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 - [x] GEB-06 | Known Security Issue in Upstream Dependencies - https://github.com/gonka-ai/gonka/pull/675
 - [x] GEB-07 | Weak Address Validation in `withdraw()` in `wrapped-token` Contract - https://github.com/gonka-ai/gonka/pull/814
 - [x] GEB-08 | `ADMIN` Role Cannot Not Be Updated https://github.com/gonka-ai/gonka/pull/949

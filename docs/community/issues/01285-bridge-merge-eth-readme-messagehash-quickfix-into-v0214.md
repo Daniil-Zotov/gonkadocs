@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ## Summary
 
 The Ethereum bridge README currently documents the mint/withdraw `messageHash` format without the `address(this)` bridge contract field, while the actual contract source includes it.
@@ -84,7 +84,7 @@ However, third-party auditors or integrators using the README could construct an
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-06-02 00:50 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @Ryanchen911, are you ready to write a fix?
   </div>
 </div>
@@ -93,7 +93,7 @@ However, third-party auditors or integrators using the README could construct an
     <span>[@Ryanchen911](https://github.com/Ryanchen911)</span>
     <span class="issues-meta-item">commented 2026-06-02 07:15 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Sure, we will take it,@bonujel is our new colleague of 6block, he will do it.
 
   </div>
@@ -103,7 +103,7 @@ However, third-party auditors or integrators using the README could construct an
     <span>[@bonujel](https://github.com/bonujel)</span>
     <span class="issues-meta-item">commented 2026-06-02 08:24 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Picking this up — I'll cherry-pick the README `messageHash` fix from `gl/eth-readme-quickfix` onto the v0.2.14 line and open a PR shortly.
   </div>
 </div>
@@ -112,7 +112,7 @@ However, third-party auditors or integrators using the README could construct an
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-06-02 17:47 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @GLiberman fyi
   </div>
 </div>

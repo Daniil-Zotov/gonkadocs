@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 Provide a minimal but verifiable example that demonstrates Gonka’s inference capability via standard OpenAI-compatible endpoints, suitable for validation and review by openrouter.ai. We need to run a simple inference and provide publicly accessible URLs for the following endpoints:
 - `/completions`
 - `/chat/completions`
@@ -54,7 +54,7 @@ This will help ensure full compatibility and avoid iteration during validation.
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-01-23 01:14 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @x0152 feel free to ask @kotelnikova any questions here as well 
   </div>
 </div>
@@ -63,7 +63,7 @@ This will help ensure full compatibility and avoid iteration during validation.
     <span>[@libermans](https://github.com/libermans)</span>
     <span class="issues-meta-item">commented 2026-02-18 01:17 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Should it work with no "request signing" needed? With "api key" requests? Do we have requirements from them? @kotelnikova @tcharchian 
   </div>
 </div>
@@ -72,7 +72,7 @@ This will help ensure full compatibility and avoid iteration during validation.
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-02-19 03:20 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     After review https://github.com/gonka-ai/gonka/pull/614, the merge is temporarily paused. A community broker must be identified to serve as an intermediary between OpenRouter and Gonka. Once that structure is defined, the required adjustments on the integration side will become clearer.
 
 In particular, this will determine whether separate endpoints (for example, with /openrouter in the address) are necessary, or whether a different architectural approach would be more appropriate.

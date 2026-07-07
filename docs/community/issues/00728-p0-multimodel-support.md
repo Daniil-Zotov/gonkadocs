@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 A detailed description will be provided by @gmorgachev later on.
 https://github.com/gonka-ai/gonka/tree/gm/multi-models/proposals/multi-model-poc
 </div>
@@ -35,7 +35,7 @@ https://github.com/gonka-ai/gonka/tree/gm/multi-models/proposals/multi-model-poc
     <span>[@gmorgachev](https://github.com/gmorgachev)</span>
     <span class="issues-meta-item">commented 2026-03-05 17:47 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     @tcharchian let's move to 0.2.12
   </div>
 </div>

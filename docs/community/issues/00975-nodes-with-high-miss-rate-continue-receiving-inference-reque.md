@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ## Problem
 
 Nodes with consistently high miss rates (wrong answers, timeouts) remain in the executor pool for the entire epoch. There is no mid-epoch mechanism to stop routing client inference requests to them.
@@ -51,7 +51,7 @@ Same-block probe re-exclusion: when a probe succeeds, `UpdateCBStateForBlock` Pa
     <span>[@x0152](https://github.com/x0152)</span>
     <span class="issues-meta-item">commented 2026-03-30 19:28 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     Description doesn't match what's actually in the code and mixes a few things together. Feel free to reopen if you can show a specific case where this happens
   </div>
 </div>

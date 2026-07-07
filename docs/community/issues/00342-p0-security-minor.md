@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 - [x] GOC-19 | Count Participant With Zero Balance Is Missing Balance Check
 - [x] GOC-20 | Go Package Dependency Issues
 - [x] GOC-22 | Inconsistent Epoch ID Handling In `GetPreviousEpochMLNodesWithInferenceAllocation`

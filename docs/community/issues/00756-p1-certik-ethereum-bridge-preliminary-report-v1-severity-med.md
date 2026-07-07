@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 - [x] GEB-04 | Incorrect Signing Threshold in `checkThresholdAndAggregate()` - #822 
 - [x] GEB-05 | Native Denom Auto-Detection Can Be Misconfigured in `community-sale` Contract - https://github.com/gonka-ai/gonka/pull/814
 - [x] GEB-13 | Aggregation of BLS Partial Signature Does Not Eliminate Duplicates - #822 
@@ -43,7 +43,7 @@ template: issues-main.html
     <span>[@GLiberman](https://github.com/GLiberman)</span>
     <span class="issues-meta-item">commented 2026-02-27 19:29 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content">
+  <div class="issues-comment-body issues-content" markdown="1">
     GEB-05, GEB-15, GEB-36
 
 https://github.com/gonka-ai/gonka/pull/814
