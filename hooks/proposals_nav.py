@@ -26,28 +26,19 @@ def _inject_collapse_script(html):
     script = """
 <script>
 (function() {
-  var Q = [2,3,4,5,6];
   function collapseQuarters() {
-    for (var i = 0; i < Q.length; i++) {
-      var cb = document.getElementById('__nav_3_' + Q[i]);
+    for (var i = 2; i <= 6; i++) {
+      var cb = document.getElementById('__nav_3_' + i);
       if (cb) cb.checked = false;
     }
   }
   collapseQuarters();
-  var delays = [50, 150, 500, 1500, 3000, 5000];
-  for (var d = 0; d < delays.length; d++) {
-    setTimeout(collapseQuarters, delays[d]);
-  }
-  window.addEventListener('load', function() {
-    collapseQuarters();
-    setTimeout(collapseQuarters, 1000);
-    setTimeout(collapseQuarters, 3000);
-  });
+  setTimeout(collapseQuarters, 200);
+  setTimeout(collapseQuarters, 1000);
   if (typeof document$ !== 'undefined') {
     document$.subscribe(function() {
-      setTimeout(collapseQuarters, 50);
-      setTimeout(collapseQuarters, 500);
-      setTimeout(collapseQuarters, 2000);
+      collapseQuarters();
+      setTimeout(collapseQuarters, 300);
     });
   }
 })();
