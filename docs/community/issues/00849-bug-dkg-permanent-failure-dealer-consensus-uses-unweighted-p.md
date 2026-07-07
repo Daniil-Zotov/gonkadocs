@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content" markdown="1">
+<div class="issues-content">
 ## Location
 
 `inference-chain/x/bls/keeper/phase_transitions.go` — lines 74 and 295–318
@@ -108,8 +108,8 @@ dealerIsValid := totalSlots > 0 && validSlots > totalSlots/2
     <span>[@Mayveskii](https://github.com/Mayveskii)</span>
     <span class="issues-meta-item">commented 2026-03-03 12:56 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Fix submitted in PR #852
+  <div class="issues-comment-body issues-content">
+    <p>Fix submitted in PR #852</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -117,15 +117,12 @@ dealerIsValid := totalSlots > 0 && validSlots > totalSlots/2
     <span>[@x0152](https://github.com/x0152)</span>
     <span class="issues-meta-item">commented 2026-03-12 20:08 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Hi @Mayveskii
-
-As discussed in #852, this problem is already covered by issue #823
-Could you please close this issue?
-
-Thanks!
-
-P.S. I think #848 could be closed as well (as we discussed in #851)
+  <div class="issues-comment-body issues-content">
+    <p>Hi @Mayveskii</p>
+<p>As discussed in #852, this problem is already covered by issue #823
+Could you please close this issue?</p>
+<p>Thanks!</p>
+<p>P.S. I think #848 could be closed as well (as we discussed in #851)</p>
   </div>
 </div>
 

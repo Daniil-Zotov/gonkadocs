@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
 </div>
 
-<div class="issues-content" markdown="1">
+<div class="issues-content">
 **Locations:** 
 - https://github.com/gonka-ai/gonka/blob/82c43a42c3c2f49b56ee8a32e6458480daf39ca9/inference-chain/x/bls/keeper/phase_transitions.go#L169-L169
 - https://github.com/gonka-ai/gonka/blob/82c43a42c3c2f49b56ee8a32e6458480daf39ca9/inference-chain/x/bls/keeper/threshold_signing.go#L296-L302
@@ -56,9 +56,9 @@ Later, the dealer (or colluder) withholds its partial signature, pushing the usa
     <span>[@x0152](https://github.com/x0152)</span>
     <span class="issues-meta-item">commented 2026-02-28 13:19 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    I'd like to help with this 
-#825 (WIP)
+  <div class="issues-comment-body issues-content">
+    <p>I'd like to help with this </p>
+<h1>825 (WIP)</h1>
   </div>
 </div>
 <div class="issues-comment">
@@ -66,8 +66,8 @@ Later, the dealer (or colluder) withholds its partial signature, pushing the usa
     <span>[@libermans](https://github.com/libermans)</span>
     <span class="issues-meta-item">commented 2026-03-02 05:10 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    @x0152 Can you please explain, how does proof work in your implementation?
+  <div class="issues-comment-body issues-content">
+    <p>@x0152 Can you please explain, how does proof work in your implementation?</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -75,12 +75,11 @@ Later, the dealer (or colluder) withholds its partial signature, pushing the usa
     <span>[@x0152](https://github.com/x0152)</span>
     <span class="issues-meta-item">commented 2026-03-02 11:52 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    It's not finished yet but what I already made:
+  <div class="issues-comment-body issues-content">
+    <p>It's not finished yet but what I already made:
 1. Proof for true votes - when a participant votes true for a dealer, they must sign a message using shares they got from that dealer. The chain checks this signature against the dealer's public commitments. If signature is invalid or missing, the vote is rejected. So you can't vote true without actually having valid shares
-2. Slot-weighted quorum - dealer approval is now counted by slots, not by number of participants. The dealer also can't approve itself
-
-Also added a description to the PR
+2. Slot-weighted quorum - dealer approval is now counted by slots, not by number of participants. The dealer also can't approve itself</p>
+<p>Also added a description to the PR</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -88,19 +87,19 @@ Also added a description to the PR
     <span>[@akup](https://github.com/akup)</span>
     <span class="issues-meta-item">commented 2026-03-02 16:19 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    > 1. Proof for true votes - when a participant votes true for a dealer, they must sign a message using shares they got from that dealer. The chain checks this signature against the dealer's public commitments. If signature is invalid or missing, the vote is rejected. So you can't vote true without actually having valid shares
-
-But the real problem in the issue is, that participant should prove that they have invalid share.A malicious dealer can send valid shares to ~50% of recipients and garbage to the rest. Malicious dealer doesn't need that participants with invalid shares vote true for him, it isn't key for the attack.
-
-And participants can open invalid shares to chain (as they are invalid they could be shown as they are not the secret) to prove the dealer is the attacker.
-So participants should check first the share against commitment, and if it doesn't match, they should send the invalid share to chain, if there is at least one invalid share, exclude the attacker (taking his collateral)
-
-p.s.:
+  <div class="issues-comment-body issues-content">
+    <blockquote>
+<ol>
+<li>Proof for true votes - when a participant votes true for a dealer, they must sign a message using shares they got from that dealer. The chain checks this signature against the dealer's public commitments. If signature is invalid or missing, the vote is rejected. So you can't vote true without actually having valid shares</li>
+</ol>
+</blockquote>
+<p>But the real problem in the issue is, that participant should prove that they have invalid share.A malicious dealer can send valid shares to ~50% of recipients and garbage to the rest. Malicious dealer doesn't need that participants with invalid shares vote true for him, it isn't key for the attack.</p>
+<p>And participants can open invalid shares to chain (as they are invalid they could be shown as they are not the secret) to prove the dealer is the attacker.
+So participants should check first the share against commitment, and if it doesn't match, they should send the invalid share to chain, if there is at least one invalid share, exclude the attacker (taking his collateral)</p>
+<p>p.s.:
 It seams the problem is already solved here:
-https://github.com/gonka-ai/gonka/commit/6211d32109e89a913d2070d05e54d7bbb6fe8951#diff-89c99e1a367a5b8cc41a94e676865a63e9ed86554cdbf04000b4d5297381b8f9
-
-But InvalidDealers should be tracked there to take collateral from them and exclude from the epoch
+https://github.com/gonka-ai/gonka/commit/6211d32109e89a913d2070d05e54d7bbb6fe8951#diff-89c99e1a367a5b8cc41a94e676865a63e9ed86554cdbf04000b4d5297381b8f9</p>
+<p>But InvalidDealers should be tracked there to take collateral from them and exclude from the epoch</p>
   </div>
 </div>
 

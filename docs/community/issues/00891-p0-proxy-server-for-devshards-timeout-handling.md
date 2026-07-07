@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
 </div>
 
-<div class="issues-content" markdown="1">
+<div class="issues-content">
 At the moment, the proxy server in `/subnet/cmd/subnetctl` handles 3 types of actions: chat completions (with diff propagation), finalizing `devshards`, and querying the `devshards` status.
 
 It should also handle timeout-related mechanisms.
@@ -36,8 +36,8 @@ It should also handle timeout-related mechanisms.
     <span>[@dcastro](https://github.com/dcastro)</span>
     <span class="issues-meta-item">commented 2026-03-20 08:35 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Closed in favor of #911
+  <div class="issues-comment-body issues-content">
+    <p>Closed in favor of #911</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -45,8 +45,8 @@ It should also handle timeout-related mechanisms.
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-03-20 22:41 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    @gmorgachev, you wanted to include this issue in the upgrade v0.2.12. Does https://github.com/gonka-ai/gonka/pull/911 cover everything you expected here?
+  <div class="issues-comment-body issues-content">
+    <p>@gmorgachev, you wanted to include this issue in the upgrade v0.2.12. Does https://github.com/gonka-ai/gonka/pull/911 cover everything you expected here?</p>
   </div>
 </div>
 

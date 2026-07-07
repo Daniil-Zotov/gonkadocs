@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content" markdown="1">
+<div class="issues-content">
 ## Summary
 
 `NewBlsManager` stores `context.Background()` as a struct field `bm.ctx`. This means two gRPC calls in the DKG dealer path run without any timeout and cannot be cancelled on node shutdown.
@@ -108,8 +108,8 @@ Statically verified via AST analysis of commit history (904 commits). No existin
     <span>[@x0152](https://github.com/x0152)</span>
     <span class="issues-meta-item">commented 2026-04-28 18:11 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    for the same reason as #909
+  <div class="issues-comment-body issues-content">
+    <p>for the same reason as #909</p>
   </div>
 </div>
 

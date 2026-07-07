@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span> <span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span></div>
 </div>
 
-<div class="issues-content" markdown="1">
+<div class="issues-content">
 # Description
 
 When MLNodes are disabled `POST 9200/admin/v1/nodes/<id>/disable`
@@ -55,8 +55,8 @@ At the same time it's not presented in HardwareNodes (can be checked in: `./infe
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-01-28 22:35 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    up-tp-grabs, but needs to be rechecked
+  <div class="issues-comment-body issues-content">
+    <p>up-tp-grabs, but needs to be rechecked</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -64,10 +64,9 @@ At the same time it's not presented in HardwareNodes (can be checked in: `./infe
     <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
     <span class="issues-meta-item">commented 2026-02-08 14:14 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    PR created: https://github.com/gonka-ai/gonka/pull/682
-
-Skips disabled nodes from governance model population.
+  <div class="issues-comment-body issues-content">
+    <p>PR created: https://github.com/gonka-ai/gonka/pull/682</p>
+<p>Skips disabled nodes from governance model population.</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -75,8 +74,8 @@ Skips disabled nodes from governance model population.
     <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
     <span class="issues-meta-item">commented 2026-02-12 15:34 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    I have a PR for this: #682 — skips disabled nodes from governance model population. Would appreciate a review when you get a chance.
+  <div class="issues-comment-body issues-content">
+    <p>I have a PR for this: #682 — skips disabled nodes from governance model population. Would appreciate a review when you get a chance.</p>
   </div>
 </div>
 

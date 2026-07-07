@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content" markdown="1">
+<div class="issues-content">
 Currently, slashed coins are burned.
 This behavior should be changed.
 
@@ -43,8 +43,8 @@ Expected behavior:
     <span>[@x0152](https://github.com/x0152)</span>
     <span class="issues-meta-item">commented 2026-02-18 09:23 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    #775 
+  <div class="issues-comment-body issues-content">
+    <h1>775</h1>
   </div>
 </div>
 <div class="issues-comment">
@@ -52,8 +52,8 @@ Expected behavior:
     <span>[@gmorgachev](https://github.com/gmorgachev)</span>
     <span class="issues-meta-item">commented 2026-02-26 18:29 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    @patimen 
+  <div class="issues-comment-body issues-content">
+    <p>@patimen</p>
   </div>
 </div>
 

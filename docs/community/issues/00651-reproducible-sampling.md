@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content" markdown="1">
+<div class="issues-content">
 - [ ] Reproducible sampling
 - [ ] Inference Sampling Validation: protection against speculative decoding 
 </div>
@@ -35,10 +35,9 @@ template: issues-main.html
     <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
     <span class="issues-meta-item">commented 2026-02-08 14:13 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    PR created: https://github.com/gonka-ai/gonka/pull/719
-
-Implements Stage 1 Sequence Check for reproducible sampling protection against speculative decoding attacks.
+  <div class="issues-comment-body issues-content">
+    <p>PR created: https://github.com/gonka-ai/gonka/pull/719</p>
+<p>Implements Stage 1 Sequence Check for reproducible sampling protection against speculative decoding attacks.</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -46,8 +45,8 @@ Implements Stage 1 Sequence Check for reproducible sampling protection against s
     <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
     <span class="issues-meta-item">commented 2026-02-12 15:26 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    I have a PR for this: #719 — implements Stage 1 Sequence Check for reproducible sampling protection. Would appreciate a review when you get a chance.
+  <div class="issues-comment-body issues-content">
+    <p>I have a PR for this: #719 — implements Stage 1 Sequence Check for reproducible sampling protection. Would appreciate a review when you get a chance.</p>
   </div>
 </div>
 

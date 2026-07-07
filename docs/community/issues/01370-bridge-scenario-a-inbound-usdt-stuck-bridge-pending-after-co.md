@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content" markdown="1">
+<div class="issues-content">
 ## Summary
 
 Manual reproduction of **Scenario A** (coordinated `node` halt with `bridge` + `api` kept running) on **gonka-testnet-4** with a live **Sepolia USDT** inbound deposit. Result: **FAIL** — deposit ingested by API on all hosts, but only **1/4** validator votes landed on-chain; deposit remains **`BRIDGE_PENDING`** with no second USDT mint.
@@ -182,24 +182,24 @@ Manual `bridge-exchange` from validators on **18222**, **18223**, **18226** with
     <span>[@maria-mitina](https://github.com/maria-mitina)</span>
     <span class="issues-meta-item">commented 2026-06-28 07:37 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    ## Log file direct links (gist)
-
-Gist: https://gist.github.com/maria-mitina/6dc628e81592ec99dc094624c01d4ac9
-
-### API logs (broadcast failure window)
-- [api-18222-702111.log](https://gist.githubusercontent.com/maria-mitina/6dc628e81592ec99dc094624c01d4ac9/raw/api-18222-702111.log) — **Broadcast failed** @ 07:20:25
-- [api-18223-702127.log](https://gist.githubusercontent.com/maria-mitina/6dc628e81592ec99dc094624c01d4ac9/raw/api-18223-702127.log) — **stale + Broadcast failed** @ 07:20:25
-- [api-18226-702105.log](https://gist.githubusercontent.com/maria-mitina/6dc628e81592ec99dc094624c01d4ac9/raw/api-18226-702105.log) — **stale + Broadcast failed** @ 07:20:25
-- [api-18221-702112.log](https://gist.githubusercontent.com/maria-mitina/6dc628e81592ec99dc094624c01d4ac9/raw/api-18221-702112.log) — successful vote @ 07:20:38
-
-### Bridge (Geth) logs (blocks 11156630–11156670 + halt period)
-- [bridge-18222-702111.log](https://gist.githubusercontent.com/maria-mitina/6dc628e81592ec99dc094624c01d4ac9/raw/bridge-18222-702111.log)
-- [bridge-18223-702127.log](https://gist.githubusercontent.com/maria-mitina/6dc628e81592ec99dc094624c01d4ac9/raw/bridge-18223-702127.log)
-- [bridge-18226-702105.log](https://gist.githubusercontent.com/maria-mitina/6dc628e81592ec99dc094624c01d4ac9/raw/bridge-18226-702105.log)
-- [bridge-18221-702112.log](https://gist.githubusercontent.com/maria-mitina/6dc628e81592ec99dc094624c01d4ac9/raw/bridge-18221-702112.log)
-
-Local copy path in repo workspace: `docs/bridge-scenario-a-2026-06-28/logs/`
+  <div class="issues-comment-body issues-content">
+    <h2>Log file direct links (gist)</h2>
+<p>Gist: https://gist.github.com/maria-mitina/6dc628e81592ec99dc094624c01d4ac9</p>
+<h3>API logs (broadcast failure window)</h3>
+<ul>
+<li><a href="https://gist.githubusercontent.com/maria-mitina/6dc628e81592ec99dc094624c01d4ac9/raw/api-18222-702111.log">api-18222-702111.log</a> — <strong>Broadcast failed</strong> @ 07:20:25</li>
+<li><a href="https://gist.githubusercontent.com/maria-mitina/6dc628e81592ec99dc094624c01d4ac9/raw/api-18223-702127.log">api-18223-702127.log</a> — <strong>stale + Broadcast failed</strong> @ 07:20:25</li>
+<li><a href="https://gist.githubusercontent.com/maria-mitina/6dc628e81592ec99dc094624c01d4ac9/raw/api-18226-702105.log">api-18226-702105.log</a> — <strong>stale + Broadcast failed</strong> @ 07:20:25</li>
+<li><a href="https://gist.githubusercontent.com/maria-mitina/6dc628e81592ec99dc094624c01d4ac9/raw/api-18221-702112.log">api-18221-702112.log</a> — successful vote @ 07:20:38</li>
+</ul>
+<h3>Bridge (Geth) logs (blocks 11156630–11156670 + halt period)</h3>
+<ul>
+<li><a href="https://gist.githubusercontent.com/maria-mitina/6dc628e81592ec99dc094624c01d4ac9/raw/bridge-18222-702111.log">bridge-18222-702111.log</a></li>
+<li><a href="https://gist.githubusercontent.com/maria-mitina/6dc628e81592ec99dc094624c01d4ac9/raw/bridge-18223-702127.log">bridge-18223-702127.log</a></li>
+<li><a href="https://gist.githubusercontent.com/maria-mitina/6dc628e81592ec99dc094624c01d4ac9/raw/bridge-18226-702105.log">bridge-18226-702105.log</a></li>
+<li><a href="https://gist.githubusercontent.com/maria-mitina/6dc628e81592ec99dc094624c01d4ac9/raw/bridge-18221-702112.log">bridge-18221-702112.log</a></li>
+</ul>
+<p>Local copy path in repo workspace: <code>docs/bridge-scenario-a-2026-06-28/logs/</code></p>
   </div>
 </div>
 <div class="issues-comment">
@@ -207,8 +207,8 @@ Local copy path in repo workspace: `docs/bridge-scenario-a-2026-06-28/logs/`
     <span>[@maria-mitina](https://github.com/maria-mitina)</span>
     <span class="issues-meta-item">commented 2026-06-29 10:50 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    duplicate of https://github.com/gonka-ai/gonka/issues/1358 
+  <div class="issues-comment-body issues-content">
+    <p>duplicate of https://github.com/gonka-ai/gonka/issues/1358</p>
   </div>
 </div>
 

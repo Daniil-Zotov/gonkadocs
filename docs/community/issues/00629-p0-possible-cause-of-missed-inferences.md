@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content" markdown="1">
+<div class="issues-content">
 We're distributing inference requests on the chain based on the total weight of the participant, not the weight of the participant's mlnode for a specific `model_id`. Seems like it's easy can be the cause of missed inferences (e.g. I have 100 nodes for `model_id1` and 3 nodes for `model_id2`, but I get the amount of requests based on the weight of 103 nodes for `model_id2`)
 </div>
 
@@ -34,8 +34,8 @@ We're distributing inference requests on the chain based on the total weight of 
     <span>[@x0152](https://github.com/x0152)</span>
     <span class="issues-meta-item">commented 2026-01-26 08:06 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    #642 
+  <div class="issues-comment-body issues-content">
+    <h1>642</h1>
   </div>
 </div>
 <div class="issues-comment">
@@ -43,8 +43,8 @@ We're distributing inference requests on the chain based on the total weight of 
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-03-20 23:41 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    @tamazgadaev @IgnatovFedor @0xgonka do we want the same for preserved ML Nodes during PoC phase?
+  <div class="issues-comment-body issues-content">
+    <p>@tamazgadaev @IgnatovFedor @0xgonka do we want the same for preserved ML Nodes during PoC phase?</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -52,10 +52,10 @@ We're distributing inference requests on the chain based on the total weight of 
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-03-24 23:12 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    This issue is a subset of multi-model support (https://github.com/gonka-ai/gonka/issues/728)
+  <div class="issues-comment-body issues-content">
+    <p>This issue is a subset of multi-model support (https://github.com/gonka-ai/gonka/issues/728)
 We'll figure out when to review and merge this issue during work on multimodels https://github.com/gonka-ai/gonka/issues/728
-@x0152 @0xgonka 
+@x0152 @0xgonka</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -63,8 +63,8 @@ We'll figure out when to review and merge this issue during work on multimodels 
     <span>[@x0152](https://github.com/x0152)</span>
     <span class="issues-meta-item">commented 2026-04-28 18:28 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Closing as resolved by the multi-PoC updates
+  <div class="issues-comment-body issues-content">
+    <p>Closing as resolved by the multi-PoC updates</p>
   </div>
 </div>
 

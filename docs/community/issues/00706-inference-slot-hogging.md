@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content" markdown="1">
+<div class="issues-content">
 **Vulnerability:** Inference Slot Hogging
 **Severity:** Medium 
 **Component:** model_assignment.go
@@ -53,10 +53,9 @@ A mandatory rotation. If a node was in the safe slot in the previous epoch, it i
     <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
     <span class="issues-meta-item">commented 2026-02-08 14:13 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    PR created: https://github.com/gonka-ai/gonka/pull/718
-
-Implements rotation logic to prevent the same node from always getting the safe inference slot.
+  <div class="issues-comment-body issues-content">
+    <p>PR created: https://github.com/gonka-ai/gonka/pull/718</p>
+<p>Implements rotation logic to prevent the same node from always getting the safe inference slot.</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -64,8 +63,8 @@ Implements rotation logic to prevent the same node from always getting the safe 
     <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
     <span class="issues-meta-item">commented 2026-02-12 15:26 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    I have a PR for this: #718 — implements deterministic rotation for PoC slot allocation to prevent hogging. Would appreciate a review when you get a chance.
+  <div class="issues-comment-body issues-content">
+    <p>I have a PR for this: #718 — implements deterministic rotation for PoC slot allocation to prevent hogging. Would appreciate a review when you get a chance.</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -73,8 +72,8 @@ Implements rotation logic to prevent the same node from always getting the safe 
     <span>[@huxuxuya](https://github.com/huxuxuya)</span>
     <span class="issues-meta-item">commented 2026-02-24 19:31 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-     This task was created in parallel with this PR #707
+  <div class="issues-comment-body issues-content">
+    <p>This task was created in parallel with this PR #707</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -82,9 +81,9 @@ Implements rotation logic to prevent the same node from always getting the safe 
     <span>[@huxuxuya](https://github.com/huxuxuya)</span>
     <span class="issues-meta-item">commented 2026-03-02 12:27 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Assign to me plz. Task already done.
-#707 
+  <div class="issues-comment-body issues-content">
+    <p>Assign to me plz. Task already done.</p>
+<h1>707</h1>
   </div>
 </div>
 

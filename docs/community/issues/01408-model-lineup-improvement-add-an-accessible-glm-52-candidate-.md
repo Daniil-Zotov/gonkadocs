@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span></div>
 </div>
 
-<div class="issues-content" markdown="1">
+<div class="issues-content">
 ## Model lineup improvement: add an accessible GLM-5.2 candidate and reconsider the default model
 
 ### Problem
@@ -163,14 +163,11 @@ Please consider:
     <span>[@enonog](https://github.com/enonog)</span>
     <span class="issues-meta-item">commented 2026-07-06 12:33 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Additional note on `PhalaCloud/GLM-5.2-W4AFP8`:
-
-This option may be especially promising. In practical use, its quality may be very close to, or in some cases even better than, the official FP8 release, while also providing very high token generation speed.
-
-However, the main uncertainty is vLLM compatibility. The model card currently documents SGLang usage, but it is not fully clear whether it can run reliably under vLLM in Gonka's MLNode environment.
-
-Since SGLang and vLLM share many important production inference capabilities, this model still seems worth testing. If it can be made compatible with Gonka's serving stack, it may be one of the best GLM-5.2 candidates for increasing host adoption and real user demand.
+  <div class="issues-comment-body issues-content">
+    <p>Additional note on <code>PhalaCloud/GLM-5.2-W4AFP8</code>:</p>
+<p>This option may be especially promising. In practical use, its quality may be very close to, or in some cases even better than, the official FP8 release, while also providing very high token generation speed.</p>
+<p>However, the main uncertainty is vLLM compatibility. The model card currently documents SGLang usage, but it is not fully clear whether it can run reliably under vLLM in Gonka's MLNode environment.</p>
+<p>Since SGLang and vLLM share many important production inference capabilities, this model still seems worth testing. If it can be made compatible with Gonka's serving stack, it may be one of the best GLM-5.2 candidates for increasing host adoption and real user demand.</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -178,26 +175,23 @@ Since SGLang and vLLM share many important production inference capabilities, th
     <span>[@enonog](https://github.com/enonog)</span>
     <span class="issues-meta-item">commented 2026-07-06 14:43 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    ## Additional suggestion: give GLM-5.2 a temporary weight incentive
-
-If the goal is to increase GLM-5.2 availability on the network, adding a quantized GLM-5.2 model may not be enough by itself.
-
-I suggest considering a temporary weight incentive for GLM-5.2 models, for example:
-
-- GLM-5.2 models receive a 10% higher weight coefficient than comparable models during the bootstrap period.
-
-The reason is simple: hosts usually choose models based on expected reward, operational risk, memory requirements, and demand uncertainty. If GLM-5.2 has higher setup complexity or higher hardware requirements, many hosts may still prefer the easier default model even if GLM-5.2 has stronger user demand.
-
-A temporary 10% weight bonus could help:
-
-- increase host willingness to serve GLM-5.2
-- improve GLM-5.2 availability
-- test real user demand faster
-- reduce concentration around the default model
-- make the network more attractive to developers who want GLM-5.2 inference
-
-This does not need to be permanent. It could be applied only during a bootstrap period and then adjusted based on actual inference demand, host participation, PoC stability, and network utilization.
+  <div class="issues-comment-body issues-content">
+    <h2>Additional suggestion: give GLM-5.2 a temporary weight incentive</h2>
+<p>If the goal is to increase GLM-5.2 availability on the network, adding a quantized GLM-5.2 model may not be enough by itself.</p>
+<p>I suggest considering a temporary weight incentive for GLM-5.2 models, for example:</p>
+<ul>
+<li>GLM-5.2 models receive a 10% higher weight coefficient than comparable models during the bootstrap period.</li>
+</ul>
+<p>The reason is simple: hosts usually choose models based on expected reward, operational risk, memory requirements, and demand uncertainty. If GLM-5.2 has higher setup complexity or higher hardware requirements, many hosts may still prefer the easier default model even if GLM-5.2 has stronger user demand.</p>
+<p>A temporary 10% weight bonus could help:</p>
+<ul>
+<li>increase host willingness to serve GLM-5.2</li>
+<li>improve GLM-5.2 availability</li>
+<li>test real user demand faster</li>
+<li>reduce concentration around the default model</li>
+<li>make the network more attractive to developers who want GLM-5.2 inference</li>
+</ul>
+<p>This does not need to be permanent. It could be applied only during a bootstrap period and then adjusted based on actual inference demand, host participation, PoC stability, and network utilization.</p>
   </div>
 </div>
 

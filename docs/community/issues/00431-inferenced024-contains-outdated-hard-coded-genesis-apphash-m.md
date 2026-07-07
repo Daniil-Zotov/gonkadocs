@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content" markdown="1">
+<div class="issues-content">
 🚨 TL;DR / Summary
 
 The Docker image ghcr.io/product-science/inferenced:0.2.4 contains a hard-coded outdated genesis, causing a permanent AppHash mismatch with the live chain.
@@ -216,24 +216,16 @@ Happy to test patched builds, provide logs, configs, or help verify new images.
     <span>[@gmorgachev](https://github.com/gmorgachev)</span>
     <span class="issues-meta-item">commented 2025-11-14 01:08 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Hello! To reproduce from block 1 (assuming that from the message in discord that your node stucked at height=1) you need to start with initial release and apply all upgrades and patches starting v0.2.0:
-```
-https://github.com/gonka-ai/gonka/releases/tag/release%2Fv0.2.0
-```
-
-Version v0.2.4 can be used to load from snapshot's after v0.2.4. Successfully reproduced from `genesis.json` in repo:
-
-[genesis-reproduce.log](https://github.com/user-attachments/files/23537305/genesis-reproduce.log)
-[genesis-reproduce.md](https://github.com/user-attachments/files/23537306/genesis-reproduce.md)
-
-```
-> sha256sum genesis.json
+  <div class="issues-comment-body issues-content">
+    <p>Hello! To reproduce from block 1 (assuming that from the message in discord that your node stucked at height=1) you need to start with initial release and apply all upgrades and patches starting v0.2.0:</p>
+<pre><code>https://github.com/gonka-ai/gonka/releases/tag/release%2Fv0.2.0
+</code></pre>
+<p>Version v0.2.4 can be used to load from snapshot's after v0.2.4. Successfully reproduced from <code>genesis.json</code> in repo:</p>
+<p><a href="https://github.com/user-attachments/files/23537305/genesis-reproduce.log">genesis-reproduce.log</a>
+<a href="https://github.com/user-attachments/files/23537306/genesis-reproduce.md">genesis-reproduce.md</a></p>
+<pre><code>&gt; sha256sum genesis.json
 47ab596779fce181882bfcc62c7588947a76ac9d0f49d87cb3a6336ae59ff210  genesis.json
-```
-
-
-
+</code></pre>
   </div>
 </div>
 <div class="issues-comment">
@@ -241,50 +233,31 @@ Version v0.2.4 can be used to load from snapshot's after v0.2.4. Successfully re
     <span>[@Asplana92](https://github.com/Asplana92)</span>
     <span class="issues-meta-item">commented 2025-11-14 02:20 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Hi Gleb, thanks for the detailed explanation!
-
-I understand — to reproduce the block-1 issue, I need to start from the initial version and apply all updates incrementally starting from v0.2.0.
-
-Here is some additional info from my side:
-
-✅ My setup
-
-Fresh server (Hetzner, Ubuntu 22.04)
-
-Docker 27.3.1
-
-I followed the current official instructions in deploy/join
-
-The genesis I used was taken directly from the repository:
-https://raw.githubusercontent.com/gonka-ai/gonka/refs/heads/main/genesis/genesis.json
-
-❗️Observed mismatch
-
-Even with the official genesis.json, I consistently get:
-
-Image expects AppHash:
-91B9DFB33D5CA24E9187551295120008BDBB6B8B3A458BF02EACB32B19EC3FDF
-
-Network reports AppHash:
-9A3FAFD33F4694FD906B41860C6D3AE1DA5DA8F6F6A8C58BE56CFABBD8384E13
-
-The node discovers peers, RPC works, but it gets stuck at height 1 with a permanent AppHash mismatch.
-
-📎 My genesis file (from repo)
-
-Gist link:
-https://gist.github.com/Asplana92/f35e0b7cf7cf0c4c50ef0644fea3e4e6
-
-Let me know if you need:
-
-my full docker logs
-
-the exact steps I followed
-
-or if you want me to test with version v0.2.0
-
-Happy to help reproduce and debug this! 🙌
+  <div class="issues-comment-body issues-content">
+    <p>Hi Gleb, thanks for the detailed explanation!</p>
+<p>I understand — to reproduce the block-1 issue, I need to start from the initial version and apply all updates incrementally starting from v0.2.0.</p>
+<p>Here is some additional info from my side:</p>
+<p>✅ My setup</p>
+<p>Fresh server (Hetzner, Ubuntu 22.04)</p>
+<p>Docker 27.3.1</p>
+<p>I followed the current official instructions in deploy/join</p>
+<p>The genesis I used was taken directly from the repository:
+https://raw.githubusercontent.com/gonka-ai/gonka/refs/heads/main/genesis/genesis.json</p>
+<p>❗️Observed mismatch</p>
+<p>Even with the official genesis.json, I consistently get:</p>
+<p>Image expects AppHash:
+91B9DFB33D5CA24E9187551295120008BDBB6B8B3A458BF02EACB32B19EC3FDF</p>
+<p>Network reports AppHash:
+9A3FAFD33F4694FD906B41860C6D3AE1DA5DA8F6F6A8C58BE56CFABBD8384E13</p>
+<p>The node discovers peers, RPC works, but it gets stuck at height 1 with a permanent AppHash mismatch.</p>
+<p>📎 My genesis file (from repo)</p>
+<p>Gist link:
+https://gist.github.com/Asplana92/f35e0b7cf7cf0c4c50ef0644fea3e4e6</p>
+<p>Let me know if you need:</p>
+<p>my full docker logs</p>
+<p>the exact steps I followed</p>
+<p>or if you want me to test with version v0.2.0</p>
+<p>Happy to help reproduce and debug this! 🙌</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -292,25 +265,20 @@ Happy to help reproduce and debug this! 🙌
     <span>[@Asplana92](https://github.com/Asplana92)</span>
     <span class="issues-meta-item">commented 2025-11-14 02:32 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    I understand that v0.2.4 requires either:
+  <div class="issues-comment-body issues-content">
+    <p>I understand that v0.2.4 requires either:
 - A) Starting from v0.2.0 and upgrading through all versions
-- B) Using a snapshot created after v0.2.4
-
-**My situation:**
+- B) Using a snapshot created after v0.2.4</p>
+<p><strong>My situation:</strong>
 ✅ Genesis hash is correct: 47ab596779fce181882bfcc62c7588947a76ac9d0f49d87cb3a6336ae59ff210
 ✅ 10 peers connected
-❌ Node stuck at height 0 with State Sync enabled (continuously discovering snapshots)
-
-**Questions:**
+❌ Node stuck at height 0 with State Sync enabled (continuously discovering snapshots)</p>
+<p><strong>Questions:</strong>
 1. Is there an official snapshot URL I can download for v0.2.4?
-2. If I disable State Sync, will v0.2.4 work for syncing from block 1, or do I MUST upgrade from v0.2.0?
-
-Your reproduction succeeded with genesis.json - did you disable State Sync or use a snapshot?
-
-**My preference:** Use snapshot (Option B) if available, as it's faster for new deployments.
-
-Thank you for your help! 🚀
+2. If I disable State Sync, will v0.2.4 work for syncing from block 1, or do I MUST upgrade from v0.2.0?</p>
+<p>Your reproduction succeeded with genesis.json - did you disable State Sync or use a snapshot?</p>
+<p><strong>My preference:</strong> Use snapshot (Option B) if available, as it's faster for new deployments.</p>
+<p>Thank you for your help! 🚀</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -318,28 +286,19 @@ Thank you for your help! 🚀
     <span>[@Asplana92](https://github.com/Asplana92)</span>
     <span class="issues-meta-item">commented 2025-11-14 03:19 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    @glebmorgachev,
-Thank you for confirming the upgrade path from v0.2.0!
-
-Before I start the full sync process from v0.2.0, I have one important question:
-
-Do you have an official snapshot for v0.2.4?
-
-You mentioned that “v0.2.4 can be used to load from snapshots created after v0.2.4.”
-If such a snapshot exists, could you please share:
-
-📥 Download URL
-
-📊 Snapshot height
-
-📝 Any restoration instructions
-
-This will significantly help new node operators get started without needing multi-week sync from block 1.
-
-If no snapshot is available yet, I’ll proceed with the full upgrade path.
-
-Thank you very much!
+  <div class="issues-comment-body issues-content">
+    <p>@glebmorgachev,
+Thank you for confirming the upgrade path from v0.2.0!</p>
+<p>Before I start the full sync process from v0.2.0, I have one important question:</p>
+<p>Do you have an official snapshot for v0.2.4?</p>
+<p>You mentioned that “v0.2.4 can be used to load from snapshots created after v0.2.4.”
+If such a snapshot exists, could you please share:</p>
+<p>📥 Download URL</p>
+<p>📊 Snapshot height</p>
+<p>📝 Any restoration instructions</p>
+<p>This will significantly help new node operators get started without needing multi-week sync from block 1.</p>
+<p>If no snapshot is available yet, I’ll proceed with the full upgrade path.</p>
+<p>Thank you very much!</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -347,12 +306,10 @@ Thank you very much!
     <span>[@gmorgachev](https://github.com/gmorgachev)</span>
     <span class="issues-meta-item">commented 2025-11-14 11:00 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    docker compose files in main branch reference pre-build docker containers https://github.com/gonka-ai/gonka/blob/main/deploy/join/docker-compose.yml
-
-The same ones can be built from main branch
-
-The [quickstart](https://gonka.ai/host/quickstart/) instruction deploys from snapshot automatically until not disabled explicitly 
+  <div class="issues-comment-body issues-content">
+    <p>docker compose files in main branch reference pre-build docker containers https://github.com/gonka-ai/gonka/blob/main/deploy/join/docker-compose.yml</p>
+<p>The same ones can be built from main branch</p>
+<p>The <a href="https://gonka.ai/host/quickstart/">quickstart</a> instruction deploys from snapshot automatically until not disabled explicitly</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -360,13 +317,11 @@ The [quickstart](https://gonka.ai/host/quickstart/) instruction deploys from sna
     <span>[@Asplana92](https://github.com/Asplana92)</span>
     <span class="issues-meta-item">commented 2025-11-15 22:57 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Great news — the issue is fully resolved! 🎉  
-Everything works perfectly now. Thank you so much for the quick help and support!
-
-I’ll wait for the new epoch to start so I can connect again.  
-Closing the issue — thanks once again! 🚀
-
+  <div class="issues-comment-body issues-content">
+    <p>Great news — the issue is fully resolved! 🎉<br />
+Everything works perfectly now. Thank you so much for the quick help and support!</p>
+<p>I’ll wait for the new epoch to start so I can connect again.<br />
+Closing the issue — thanks once again! 🚀</p>
   </div>
 </div>
 

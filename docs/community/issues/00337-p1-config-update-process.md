@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content" markdown="1">
+<div class="issues-content">
 - [x] The `node-config.json`, which contains the initial configuration, should not be applied automatically at the start — it should only be applied after an explicit command (otherwise, it creates a mess).
 - [x] We need an `UPDATE nodes/:id` endpoint to modify node parameters, and some way to understand what exactly is being changed — so that a node’s status updates after the next PoC. Right now, when you delete and re-add a node, it results in chaos.
 </div>
@@ -35,8 +35,8 @@ template: issues-main.html
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-01-15 23:10 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    #390 #281 #240 
+  <div class="issues-comment-body issues-content">
+    <h1>390 #281 #240</h1>
   </div>
 </div>
 

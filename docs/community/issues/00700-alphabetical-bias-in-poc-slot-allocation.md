@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content" markdown="1">
+<div class="issues-content">
 ### Description
 The current implementation of the ML node allocation logic in 
 x/inference/module/model_assignment.go
@@ -45,8 +45,8 @@ Deterministic Shuffle: Implement a pseudo-random shuffle of the participant list
     <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
     <span class="issues-meta-item">commented 2026-02-18 10:47 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Fix submitted in PR #777 — adds a deterministic SHA256-seeded Fisher-Yates shuffle to `allocateMLNodePerPoCForModel`, following the same pattern already used in `sampleEligibleParticipantsWithHistory`. All 27 tests pass.
+  <div class="issues-comment-body issues-content">
+    <p>Fix submitted in PR #777 — adds a deterministic SHA256-seeded Fisher-Yates shuffle to <code>allocateMLNodePerPoCForModel</code>, following the same pattern already used in <code>sampleEligibleParticipantsWithHistory</code>. All 27 tests pass.</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -54,9 +54,9 @@ Deterministic Shuffle: Implement a pseudo-random shuffle of the participant list
     <span>[@huxuxuya](https://github.com/huxuxuya)</span>
     <span class="issues-meta-item">commented 2026-03-02 12:26 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Assign to me plz. Task already done.
-#701 
+  <div class="issues-comment-body issues-content">
+    <p>Assign to me plz. Task already done.</p>
+<h1>701</h1>
   </div>
 </div>
 <div class="issues-comment">
@@ -64,8 +64,8 @@ Deterministic Shuffle: Implement a pseudo-random shuffle of the participant list
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-03-03 23:44 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    @akup, I believe you worked on PoC Slot attack. Do you want to review these issues and PRs? Thanks
+  <div class="issues-comment-body issues-content">
+    <p>@akup, I believe you worked on PoC Slot attack. Do you want to review these issues and PRs? Thanks</p>
   </div>
 </div>
 

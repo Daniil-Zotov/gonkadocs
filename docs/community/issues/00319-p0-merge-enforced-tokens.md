@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content" markdown="1">
+<div class="issues-content">
 *(empty)*
 </div>
 
@@ -34,8 +34,8 @@ template: issues-main.html
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-01-15 23:06 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    #256
+  <div class="issues-comment-body issues-content">
+    <h1>256</h1>
   </div>
 </div>
 

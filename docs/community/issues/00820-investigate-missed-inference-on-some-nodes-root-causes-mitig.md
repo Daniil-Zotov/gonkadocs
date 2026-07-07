@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span> <span class="issues-label" style="background-color: #008672; color: #ffffff; border-color: #008672;">help wanted</span> <span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span> <span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
 </div>
 
-<div class="issues-content" markdown="1">
+<div class="issues-content">
 
 ### Discussed in https://github.com/gonka-ai/gonka/discussions/817
 
@@ -41,8 +41,8 @@ Task: Some nodes experience missed inference events. Likely multi-cause, needs c
     <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
     <span class="issues-meta-item">commented 2026-03-03 10:27 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    PR: https://github.com/gonka-ai/gonka/pull/843
+  <div class="issues-comment-body issues-content">
+    <p>PR: https://github.com/gonka-ai/gonka/pull/843</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -50,23 +50,19 @@ Task: Some nodes experience missed inference events. Likely multi-cause, needs c
     <span>[@Mayveskii](https://github.com/Mayveskii)</span>
     <span class="issues-meta-item">commented 2026-03-06 14:25 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Measured data from live network may help narrow root causes here.
-
-Epochs 161–191, 2,503,595 inferences:
+  <div class="issues-comment-body issues-content">
+    <p>Measured data from live network may help narrow root causes here.</p>
+<p>Epochs 161–191, 2,503,595 inferences:
 Miss rate: 3.25% (81,360 misses)
-Completion rate: mean 90.4%, σ=7.4%, range 72–99%
-
-The σ=7.4% variance is the signal — not the mean.
+Completion rate: mean 90.4%, σ=7.4%, range 72–99%</p>
+<p>The σ=7.4% variance is the signal — not the mean.
 Some nodes miss 28% of assigned inferences while others miss 1%.
-GetRandomExecutor routes to both equally regardless.
-
-Phase 4 of GiP #860 proposes GetQualityWeightedExecutor — routes traffic 
+GetRandomExecutor routes to both equally regardless.</p>
+<p>Phase 4 of GiP #860 proposes GetQualityWeightedExecutor — routes traffic 
 proportional to L9 completion rate. Projection: σ ↓40% as high-miss nodes 
-receive less traffic and face economic incentive to improve.
-
-Design + data: docs/specs/inference-quality-protocol.md (PR #859 branch)
-Discussion: #860 
+receive less traffic and face economic incentive to improve.</p>
+<p>Design + data: docs/specs/inference-quality-protocol.md (PR #859 branch)
+Discussion: #860</p>
   </div>
 </div>
 

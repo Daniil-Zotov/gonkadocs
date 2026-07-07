@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content" markdown="1">
+<div class="issues-content">
 From this raw log. I need assist how to fix this issue. Or can i change checkpoint origin state and block to other?
 
 `bridge  | Stopping Prysm log formatter (PID: 82343)
@@ -80,10 +80,10 @@ bridge  | tail: /var/log/geth/geth.log: file truncated`
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-01-22 00:12 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Hi @Knoxpix! Thank you for reaching out.
+  <div class="issues-comment-body issues-content">
+    <p>Hi @Knoxpix! Thank you for reaching out.
 Please note that technical support is not provided here.
-For assistance, we kindly recommend asking for help in Gonka [Discord community](https://discord.com/invite/RADwCT2U6R), where community members may be able to support you.
+For assistance, we kindly recommend asking for help in Gonka <a href="https://discord.com/invite/RADwCT2U6R">Discord community</a>, where community members may be able to support you.</p>
   </div>
 </div>
 

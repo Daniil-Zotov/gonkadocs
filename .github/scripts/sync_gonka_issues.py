@@ -15,6 +15,7 @@ from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 
+import markdown
 import requests
 
 OWNER = os.environ.get("REPO_OWNER", "gonka-ai")
@@ -323,17 +324,26 @@ template: issues-main.html
 </div>
 """
 
+    def render_md(text):
+        if not text:
+            return "*(empty)*"
+        try:
+            return markdown.markdown(text, extensions=['md_in_html', 'extra'])
+        except Exception:
+            return text
+
     if comments:
         out += f"\n---\n\n## 💬 Comments ({len(comments)})\n\n"
         for i, c in enumerate(comments, 1):
             cu = c.get("user")
+            body_html = render_md(c.get("body"))
             out += f'''<div class="issues-comment">
   <div class="issues-comment-header">
     <span>{user_link(cu)}</span>
     <span class="issues-meta-item">commented {fmt_date(c['created_at'])}</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    {c.get("body") or "*(empty)*"}
+  <div class="issues-comment-body issues-content">
+    {body_html}
   </div>
 </div>
 '''

@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span></div>
 </div>
 
-<div class="issues-content" markdown="1">
+<div class="issues-content">
 Review the existing reproducible / deterministic sampling work for inference validation and prepare a careful path toward adding it to MLNode versions.
 
 This task is related to the known inference validation vulnerability described in the inference validation proposal. The proposed direction is a two-stage validation system with a cheap sequence check before the existing distribution check.
@@ -152,8 +152,8 @@ The priority is to take over the existing work, gradually introduce it into MLNo
     <span>[@Ryanchen911](https://github.com/Ryanchen911)</span>
     <span class="issues-meta-item">commented 2026-06-26 11:33 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    hi @tcharchian , does this issue need help? If yes, maybe we  can take this one.
+  <div class="issues-comment-body issues-content">
+    <p>hi @tcharchian , does this issue need help? If yes, maybe we  can take this one.</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -161,8 +161,8 @@ The priority is to take over the existing work, gradually introduce it into MLNo
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-06-30 00:53 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    @Ryanchen911, yes please! 
+  <div class="issues-comment-body issues-content">
+    <p>@Ryanchen911, yes please!</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -170,19 +170,15 @@ The priority is to take over the existing work, gradually introduce it into MLNo
     <span>[@neuron7xLab](https://github.com/neuron7xLab)</span>
     <span class="issues-meta-item">commented 2026-07-02 13:28 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    I ran an adversarial pass on the deterministic sampling dump against the inference-validation proposal.
-
-**Finding:** the deterministic replay seed was not chain-bound — it was derived from request-controlled material (`f"{user_seed}|{prompt_token_ids}"`), so Stage-1 replay could be detached from the chain inference instance. The proposal requires `run_seed = SHA256(user_seed || inference_id_from_chain)`.
-
-I opened a focused PR against `gonka-ai/vllm:tg/detemrinistic_sampling_dump` — gonka-ai/vllm#56 — with a chain-bound seed primitive + tests.
-
-Scope note (updated as review tightened it to match vLLM's actual API):
-- `user_seed` is **`int`-only** (vLLM `SamplingParams.seed` / OpenAI `seed` are `Optional[int]`); `bool`/non-`int` fail closed, so a str `"7"` can't collide with int `7`.
-- the chain id must be a non-empty `str`, hashed **byte-exact** (no stripping); missing/empty/whitespace-only/non-`str` fail closed.
-- framing is **byte-length-prefixed SHA256 over UTF-8** (portable to Go/Rust/JS), not raw concatenation.
-
-Honest status: reproducible from `pull/56/head`; 10 invariant tests + a golden vector verified locally (isolated harness — full `pytest` needs a built vLLM env); CI is `action_required` (fork approval gate), so not green yet. Complementary to @Ryanchen911's review, not a takeover.
+  <div class="issues-comment-body issues-content">
+    <p>I ran an adversarial pass on the deterministic sampling dump against the inference-validation proposal.</p>
+<p><strong>Finding:</strong> the deterministic replay seed was not chain-bound — it was derived from request-controlled material (<code>f"{user_seed}|{prompt_token_ids}"</code>), so Stage-1 replay could be detached from the chain inference instance. The proposal requires <code>run_seed = SHA256(user_seed || inference_id_from_chain)</code>.</p>
+<p>I opened a focused PR against <code>gonka-ai/vllm:tg/detemrinistic_sampling_dump</code> — gonka-ai/vllm#56 — with a chain-bound seed primitive + tests.</p>
+<p>Scope note (updated as review tightened it to match vLLM's actual API):
+- <code>user_seed</code> is <strong><code>int</code>-only</strong> (vLLM <code>SamplingParams.seed</code> / OpenAI <code>seed</code> are <code>Optional[int]</code>); <code>bool</code>/non-<code>int</code> fail closed, so a str <code>"7"</code> can't collide with int <code>7</code>.
+- the chain id must be a non-empty <code>str</code>, hashed <strong>byte-exact</strong> (no stripping); missing/empty/whitespace-only/non-<code>str</code> fail closed.
+- framing is <strong>byte-length-prefixed SHA256 over UTF-8</strong> (portable to Go/Rust/JS), not raw concatenation.</p>
+<p>Honest status: reproducible from <code>pull/56/head</code>; 10 invariant tests + a golden vector verified locally (isolated harness — full <code>pytest</code> needs a built vLLM env); CI is <code>action_required</code> (fork approval gate), so not green yet. Complementary to @Ryanchen911's review, not a takeover.</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -190,9 +186,8 @@ Honest status: reproducible from `pull/56/head`; 10 invariant tests + a golden v
     <span>[@Ryanchen911](https://github.com/Ryanchen911)</span>
     <span class="issues-meta-item">commented 2026-07-06 01:30 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    @neuron7xLab thanks for the focused pass and PR — this lands squarely on the highest-priority item in our‘s review. We flagged the same seed-domain issue: the _dump/v011 derivation f"{user_seed}|{prompt_token_ids}" is request-controlled on both components, so Stage-1 replay can be ground/detached from the chain inference instance. Binding to inference_id_from_chain per the proposal is exactly right.
-
+  <div class="issues-comment-body issues-content">
+    <p>@neuron7xLab thanks for the focused pass and PR — this lands squarely on the highest-priority item in our‘s review. We flagged the same seed-domain issue: the _dump/v011 derivation f"{user_seed}|{prompt_token_ids}" is request-controlled on both components, so Stage-1 replay can be ground/detached from the chain inference instance. Binding to inference_id_from_chain per the proposal is exactly right.</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -200,22 +195,16 @@ Honest status: reproducible from `pull/56/head`; 10 invariant tests + a golden v
     <span>[@Ryanchen911](https://github.com/Ryanchen911)</span>
     <span class="issues-meta-item">commented 2026-07-06 02:53 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    ## Review summary — reproducible sampling for inference validation
-
-We reviewed the two-stage validation design (proposal §"Proper Fix") against the actual code on all three vllm branches (`_dump`, `v011`, `_merged`) plus the gonka chain-side validator, with an eye on a safe soft-rollout path.
-
-**Final recommendation: needs additional review — not ready for soft MLNode integration yet.** The design is sound and matches the two-stage proposal; the implementation is real but split across two branches (each ~half) and not yet end-to-end runnable against real executor artifacts.
-
-**Three blockers gate enforcement:**
-- **S1 — seed not chain-bound.** Both branches seed from `f"{user_seed}|{prompt_token_ids}"` (executor-controllable → grindable + tokenizer-fragile). The proposal requires `SHA256(user_seed ‖ inference_id_from_chain)`. Primitive fix now in flight: `gonka-ai/vllm#56` (`derive_chain_bound_seed`) — should converge with #13 and get wired into a call site.
-- **E1 — executor (GPU float) vs validator (CPU decimal) weights aren't bit-identical.** Zero-tolerance replay will false-reject real artifacts until the executor path adopts the decimal pipeline (ADR 0003; needs GPU verification).
-- **S3 — no Python↔Go parity.** The chain validator is Go; there is no Go implementation of the decimal pipeline/RNG and cross-language bit-parity has never been tested.
-
-**Safe now / non-enforcing:** the integer `deterministic_utils.py` as a torch-free library (after the S2 local-decimal-context fix, ADR 0002); the perplexity quick-fix as telemetry (gonka's `get_metric` ≈ 1/PPL); everything behind `VLLM_DETERMINISTIC_SAMPLING`, recording verdicts without slashing while collecting Stage-1 false-positive data (target: zero, by model/quant/hardware).
-
-Full report below (findings S1/E1/S3/A1/A2/S2 + edge cases + rollout data + next steps).
-
+  <div class="issues-comment-body issues-content">
+    <h2>Review summary — reproducible sampling for inference validation</h2>
+<p>We reviewed the two-stage validation design (proposal §"Proper Fix") against the actual code on all three vllm branches (<code>_dump</code>, <code>v011</code>, <code>_merged</code>) plus the gonka chain-side validator, with an eye on a safe soft-rollout path.</p>
+<p><strong>Final recommendation: needs additional review — not ready for soft MLNode integration yet.</strong> The design is sound and matches the two-stage proposal; the implementation is real but split across two branches (each ~half) and not yet end-to-end runnable against real executor artifacts.</p>
+<p><strong>Three blockers gate enforcement:</strong>
+- <strong>S1 — seed not chain-bound.</strong> Both branches seed from <code>f"{user_seed}|{prompt_token_ids}"</code> (executor-controllable → grindable + tokenizer-fragile). The proposal requires <code>SHA256(user_seed ‖ inference_id_from_chain)</code>. Primitive fix now in flight: <code>gonka-ai/vllm#56</code> (<code>derive_chain_bound_seed</code>) — should converge with #13 and get wired into a call site.
+- <strong>E1 — executor (GPU float) vs validator (CPU decimal) weights aren't bit-identical.</strong> Zero-tolerance replay will false-reject real artifacts until the executor path adopts the decimal pipeline (ADR 0003; needs GPU verification).
+- <strong>S3 — no Python↔Go parity.</strong> The chain validator is Go; there is no Go implementation of the decimal pipeline/RNG and cross-language bit-parity has never been tested.</p>
+<p><strong>Safe now / non-enforcing:</strong> the integer <code>deterministic_utils.py</code> as a torch-free library (after the S2 local-decimal-context fix, ADR 0002); the perplexity quick-fix as telemetry (gonka's <code>get_metric</code> ≈ 1/PPL); everything behind <code>VLLM_DETERMINISTIC_SAMPLING</code>, recording verdicts without slashing while collecting Stage-1 false-positive data (target: zero, by model/quant/hardware).</p>
+<p>Full report below (findings S1/E1/S3/A1/A2/S2 + edge cases + rollout data + next steps).</p>
 <details>
 <summary><b>Full review report (click to expand)</b></summary>
 
@@ -458,7 +447,6 @@ verify.
 - **Final recommendation:** **Needs additional review.** The integer primitive is adoptable as a library now; the `_merged` branch is the right base to continue on; but the executor hot-path conversion (E1), seed hardening (S1), and cross-language parity (S3) must land — all requiring GPU/protocol changes — before any enforcement.
 
 </details>
-
   </div>
 </div>
 

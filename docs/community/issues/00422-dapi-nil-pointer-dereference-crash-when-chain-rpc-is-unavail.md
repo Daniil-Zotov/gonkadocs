@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content" markdown="1">
+<div class="issues-content">
 **Problem:** DAPI crashes when chain node RPC becomes temporarily unavailable (I/O errors, restarts, network issues)
 
 **Root Cause:** Missing `return` statement after error in `tryClaimingTaskToAssign()` function
@@ -66,8 +66,8 @@ func (a *Assigner) tryClaimingTaskToAssign() {
     <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
     <span class="issues-meta-item">commented 2026-01-24 21:05 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Fixed in PR #639 - added missing return statement after error to prevent nil pointer dereference.
+  <div class="issues-comment-body issues-content">
+    <p>Fixed in PR #639 - added missing return statement after error to prevent nil pointer dereference.</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -75,9 +75,9 @@ func (a *Assigner) tryClaimingTaskToAssign() {
     <span>[@mtvnastya](https://github.com/mtvnastya)</span>
     <span class="issues-meta-item">commented 2026-02-10 03:59 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    hi @mfursov, I'd like to propose a bounty for reporting this issue and proposing a fix.
-reached out to you via email
+  <div class="issues-comment-body issues-content">
+    <p>hi @mfursov, I'd like to propose a bounty for reporting this issue and proposing a fix.
+reached out to you via email</p>
   </div>
 </div>
 

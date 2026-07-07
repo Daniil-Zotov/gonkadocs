@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content" markdown="1">
+<div class="issues-content">
 Hi @tcharchian — follow-up to #1319, where you recommended OpenBroker as the official developer path ("GNK-settled, 1:1 at cost, no markup, no approval wait"). I took that advice, and I'm reporting what happened, because it will bite other developers onboarding the same way.
 
 ## What happened
@@ -55,15 +55,13 @@ For context, I'm building on Gonka: a ComfyUI node pack for Gonka inference (htt
     <span>[@dufok](https://github.com/dufok)</span>
     <span class="issues-meta-item">commented 2026-07-06 01:04 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Resolved — Gonka Labs restored my broker account after I reached out via their Telegram (t.me/gonka_gg). Dashboard access is back, the wallet link is intact, and the balance was restored in full (topped up a little, even — appreciated).
-
-For anyone hitting the same symptoms after the host change:
-- the API now lives at `https://api.openbroker.gonka.gg/v1` (the bare domain serves only the dashboard);
-- old `obk-…` keys are invalid — create a fresh one in the dashboard;
-- if your login says "no account found", contact Gonka Labs with your linked wallet address — they sort it out quickly.
-
-Thanks @tcharchian for the pointers in #1319, and thanks to the Gonka Labs team for the fast resolution. Closing.
+  <div class="issues-comment-body issues-content">
+    <p>Resolved — Gonka Labs restored my broker account after I reached out via their Telegram (t.me/gonka_gg). Dashboard access is back, the wallet link is intact, and the balance was restored in full (topped up a little, even — appreciated).</p>
+<p>For anyone hitting the same symptoms after the host change:
+- the API now lives at <code>https://api.openbroker.gonka.gg/v1</code> (the bare domain serves only the dashboard);
+- old <code>obk-…</code> keys are invalid — create a fresh one in the dashboard;
+- if your login says "no account found", contact Gonka Labs with your linked wallet address — they sort it out quickly.</p>
+<p>Thanks @tcharchian for the pointers in #1319, and thanks to the Gonka Labs team for the fast resolution. Closing.</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -71,16 +69,12 @@ Thanks @tcharchian for the pointers in #1319, and thanks to the Gonka Labs team 
     <span>[@gonkalabs](https://github.com/gonkalabs)</span>
     <span class="issues-meta-item">commented 2026-07-06 01:09 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Hi, @dufok, thanks for pointing it out! 
-
-informing everyone that issue is solved and access is restored for the user. 
-
-This was caused by registration action happening during infrastructure migration and is not a subject for any more occurances in the future (_that was forced due to datacenter malfunction that required swift actions and full infra migration. All users who did complete the registration flow before migration - were moved correctly_). **System is operational (including registrations)**.
-
-All updates and notices happen in our tg chat prior to changes. To mitigate all the potential miscommunications in the future, we will mirror notifications about breaking changes in discussion (if there will be any).
-
-Thank You for being the early supporter of the Product 🤝
+  <div class="issues-comment-body issues-content">
+    <p>Hi, @dufok, thanks for pointing it out! </p>
+<p>informing everyone that issue is solved and access is restored for the user. </p>
+<p>This was caused by registration action happening during infrastructure migration and is not a subject for any more occurances in the future (<em>that was forced due to datacenter malfunction that required swift actions and full infra migration. All users who did complete the registration flow before migration - were moved correctly</em>). <strong>System is operational (including registrations)</strong>.</p>
+<p>All updates and notices happen in our tg chat prior to changes. To mitigate all the potential miscommunications in the future, we will mirror notifications about breaking changes in discussion (if there will be any).</p>
+<p>Thank You for being the early supporter of the Product 🤝</p>
   </div>
 </div>
 

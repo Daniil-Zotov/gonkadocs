@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content" markdown="1">
+<div class="issues-content">
 gRPC is enabled, but requests still use RPC (#685 )
 </div>
 
@@ -34,10 +34,9 @@ gRPC is enabled, but requests still use RPC (#685 )
     <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
     <span class="issues-meta-item">commented 2026-02-08 14:13 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    PR created: https://github.com/gonka-ai/gonka/pull/694
-
-Enables gRPC for chain queries instead of RPC fallback.
+  <div class="issues-comment-body issues-content">
+    <p>PR created: https://github.com/gonka-ai/gonka/pull/694</p>
+<p>Enables gRPC for chain queries instead of RPC fallback.</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -45,8 +44,8 @@ Enables gRPC for chain queries instead of RPC fallback.
     <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
     <span class="issues-meta-item">commented 2026-02-12 15:26 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    I have a PR for this: #694 — adds optional gRPC transport for chain queries. Would appreciate a review when you get a chance.
+  <div class="issues-comment-body issues-content">
+    <p>I have a PR for this: #694 — adds optional gRPC transport for chain queries. Would appreciate a review when you get a chance.</p>
   </div>
 </div>
 

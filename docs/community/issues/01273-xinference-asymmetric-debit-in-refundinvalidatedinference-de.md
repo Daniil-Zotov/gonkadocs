@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content" markdown="1">
+<div class="issues-content">
 ## Question
 
 `refundInvalidatedInference` ([`x/inference/keeper/msg_server_invalidate_inference.go:64-79`](https://github.com/gonka-ai/gonka/blob/main/inference-chain/x/inference/keeper/msg_server_invalidate_inference.go#L64-L79)) issues a full-`ActualCost` escrow refund to `RequestedBy` (the client) while debiting the **same** full `ActualCost` from `executor.CoinBalance` **only** (`:74`).
@@ -105,30 +105,21 @@ Maintainer clarification before any code change:
     <span>[@vitaly-andr](https://github.com/vitaly-andr)</span>
     <span class="issues-meta-item">commented 2026-05-29 05:26 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    **Update — the asymmetry is pervasive, not a grace-period edge case.**
-
-While building the simulation/fuzz harness for #982 (Phase 3 — improving simulation quality with custom invariants + multi-seed runs), this asymmetry surfaces on the large majority of seeds, not just the constructed reproducer above.
-
-**Multi-seed evidence.** A `bank-backs-positive-balance` invariant — `module account balance ≥ Σ positive participant CoinBalances` — was added and checked post-run across the framework's default seed list (37 seeds, `-NumBlocks=100 -BlockSize=100`, `-GenesisTime` pinned for reproducibility):
-
-- **30 of 33 completing seeds break module solvency** (the other 3 pass; 5 seeds skipped early on an unrelated sim-substrate limitation — empty validator set — and never reached the check).
-- Gaps range from ~1k to ~3.6M ngonka, e.g. `module account … has 27284434 ngonka spendable (27284434 total) but participants are owed 28400962` (gap 1,116,528 on seed=99).
-
-**Root cause confirmed (seed=99, verbose trace).** 16 invalidations occurred, each emitting the asymmetric debit:
-
-```
-Invalid Inference subtracted from Executor CoinBalance  actualCost=479000 coinBalance=-479000 executor=gonka194weg3...
-```
-
-The executor is debited the **full** `ActualCost` (going into negative/debt), while the validators' work-shares for the same inference — credited earlier via `shareWorkWithValidators` — are **not** reversed. The module account, having refunded the client the full `ActualCost`, is left under-funded by approximately the sum of those un-reversed validator shares. The ~1.12M ngonka gap on seed=99 matches the validator-share total across the 16 invalidated inferences.
-
-`spendable == total` on the module account rules out a locked/vesting artifact — this is genuine under-backing.
-
-**Takeaway:** the asymmetric debit doesn't merely create a recoverable executor debt in rare grace-period conditions — it breaks the module-solvency invariant on ~91% of completing simulation seeds whenever invalidations occur. This strengthens the case that the refund path should reverse the validators' shares (or otherwise reconcile against the escrow actually held), rather than charging the executor alone.
-
-(Surfaced by the #982 simulation work; the invariant and multi-seed harness are part of that effort.)
-
+  <div class="issues-comment-body issues-content">
+    <p><strong>Update — the asymmetry is pervasive, not a grace-period edge case.</strong></p>
+<p>While building the simulation/fuzz harness for #982 (Phase 3 — improving simulation quality with custom invariants + multi-seed runs), this asymmetry surfaces on the large majority of seeds, not just the constructed reproducer above.</p>
+<p><strong>Multi-seed evidence.</strong> A <code>bank-backs-positive-balance</code> invariant — <code>module account balance ≥ Σ positive participant CoinBalances</code> — was added and checked post-run across the framework's default seed list (37 seeds, <code>-NumBlocks=100 -BlockSize=100</code>, <code>-GenesisTime</code> pinned for reproducibility):</p>
+<ul>
+<li><strong>30 of 33 completing seeds break module solvency</strong> (the other 3 pass; 5 seeds skipped early on an unrelated sim-substrate limitation — empty validator set — and never reached the check).</li>
+<li>Gaps range from ~1k to ~3.6M ngonka, e.g. <code>module account … has 27284434 ngonka spendable (27284434 total) but participants are owed 28400962</code> (gap 1,116,528 on seed=99).</li>
+</ul>
+<p><strong>Root cause confirmed (seed=99, verbose trace).</strong> 16 invalidations occurred, each emitting the asymmetric debit:</p>
+<pre><code>Invalid Inference subtracted from Executor CoinBalance  actualCost=479000 coinBalance=-479000 executor=gonka194weg3...
+</code></pre>
+<p>The executor is debited the <strong>full</strong> <code>ActualCost</code> (going into negative/debt), while the validators' work-shares for the same inference — credited earlier via <code>shareWorkWithValidators</code> — are <strong>not</strong> reversed. The module account, having refunded the client the full <code>ActualCost</code>, is left under-funded by approximately the sum of those un-reversed validator shares. The ~1.12M ngonka gap on seed=99 matches the validator-share total across the 16 invalidated inferences.</p>
+<p><code>spendable == total</code> on the module account rules out a locked/vesting artifact — this is genuine under-backing.</p>
+<p><strong>Takeaway:</strong> the asymmetric debit doesn't merely create a recoverable executor debt in rare grace-period conditions — it breaks the module-solvency invariant on ~91% of completing simulation seeds whenever invalidations occur. This strengthens the case that the refund path should reverse the validators' shares (or otherwise reconcile against the escrow actually held), rather than charging the executor alone.</p>
+<p>(Surfaced by the #982 simulation work; the invariant and multi-seed harness are part of that effort.)</p>
   </div>
 </div>
 

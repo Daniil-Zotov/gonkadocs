@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
 </div>
 
-<div class="issues-content" markdown="1">
+<div class="issues-content">
 Currently, the design for `devshards` requests a list of all hosts signatures for the settlement transaction. To reduce the transaction size, we'd like to investigate and implement an aggregated BLS signature (plus a bitset for which hosts signed).
 
 To achieve this, one solution is to register the BLS `devshard` public key for each participant in the mainnet.
@@ -40,8 +40,8 @@ To achieve this, one solution is to register the BLS `devshard` public key for e
     <span>[@KKizilov](https://github.com/KKizilov)</span>
     <span class="issues-meta-item">commented 2026-03-26 15:16 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Will be done fast after finishing #913 
+  <div class="issues-comment-body issues-content">
+    <p>Will be done fast after finishing #913</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -49,8 +49,8 @@ To achieve this, one solution is to register the BLS `devshard` public key for e
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-04-29 21:15 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    postpone review after Upgrade v0.x.x-devshard2
+  <div class="issues-comment-body issues-content">
+    <p>postpone review after Upgrade v0.x.x-devshard2</p>
   </div>
 </div>
 

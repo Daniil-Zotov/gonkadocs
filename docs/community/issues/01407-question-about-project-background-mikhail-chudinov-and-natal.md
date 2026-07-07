@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content" markdown="1">
+<div class="issues-content">
 Is this how our story began in your previous project where your name was Natalia?
 
 I would like to ask, can Mikhail Chudinov come out to play? The one who is a DevOps engineer at NameSilo, formerly Head of IT at SuperKopilka (a Russian financial pyramid, collapsed in 2017) for ~10 years. Also: COO at AtomX.online (a no-KYC crypto project), Poker Club Manager at Red Rock. A self-described "crypto enthusiast."
@@ -40,8 +40,8 @@ Is this project just another setup for a scam and stealing money? Or are you jus
     <span>[@phishdestroy](https://github.com/phishdestroy)</span>
     <span class="issues-meta-item">commented 2026-07-06 09:52 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    **You call him Mitch — before the rebranding, he was in a Russian-speaking Telegram chat (the one that also featured an escrow service and a no-KYC crypto exchange). The design is excellent, but as for the rest, I highly doubt it. I urge everyone to be careful.**
+  <div class="issues-comment-body issues-content">
+    <p><strong>You call him Mitch — before the rebranding, he was in a Russian-speaking Telegram chat (the one that also featured an escrow service and a no-KYC crypto exchange). The design is excellent, but as for the rest, I highly doubt it. I urge everyone to be careful.</strong></p>
   </div>
 </div>
 <div class="issues-comment">
@@ -49,27 +49,22 @@ Is this project just another setup for a scam and stealing money? Or are you jus
     <span>[@akamitch](https://github.com/akamitch)</span>
     <span class="issues-meta-item">commented 2026-07-06 15:50 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Hi! 👋
-
-I'm **Mikhail Chudinov**, known online as **Mtch** since 2003.
-
-I don't work at gonka.ai — I have a separate private project, [gonka.top](https://gonka.top), where I help people mine Gonka, set up servers, provide consulting, and sell already-mined coins.
-
-I send coins from this wallet: [gonka1juwk05glldgn7850a3547jsl7l4vrhx9k5g3cr](https://gonka.gg/address/gonka1juwk05glldgn7850a3547jsl7l4vrhx9k5g3cr) — you can check the volumes in the explorer; the wallet is signed in GNS.
-
-I confirm that I worked at **NameSilo**, **SuperKopilka**, **AtomX.online**, and even ran the offline **Poker Club Red Rock** as Manager.
-
-**Where you can find me:**
-
-- Telegram: [t.me/akamitch](https://t.me/akamitch) — can be found in many places on Google
-- Reddit (old posts): [A fresh look at Atomic Swap](https://www.reddit.com/r/ethereum/comments/16whu3v/a_fresh_look_at_atomic_swap/)
-- Habr (Russian IT platform): [my articles](https://habr.com/ru/articles/923150/)
-- Bitcointalk: [my profile](https://bitcointalk.org/index.php?action=profile;u=62988)
-- YouTube (since December 2025): [Gonka news in Russian](https://www.youtube.com/@gonka-top)
-
-As for who Natalia from xmrwallet is — I have no idea. 🤷
-</details>
+  <div class="issues-comment-body issues-content">
+    <p>Hi! 👋</p>
+<p>I'm <strong>Mikhail Chudinov</strong>, known online as <strong>Mtch</strong> since 2003.</p>
+<p>I don't work at gonka.ai — I have a separate private project, <a href="https://gonka.top">gonka.top</a>, where I help people mine Gonka, set up servers, provide consulting, and sell already-mined coins.</p>
+<p>I send coins from this wallet: <a href="https://gonka.gg/address/gonka1juwk05glldgn7850a3547jsl7l4vrhx9k5g3cr">gonka1juwk05glldgn7850a3547jsl7l4vrhx9k5g3cr</a> — you can check the volumes in the explorer; the wallet is signed in GNS.</p>
+<p>I confirm that I worked at <strong>NameSilo</strong>, <strong>SuperKopilka</strong>, <strong>AtomX.online</strong>, and even ran the offline <strong>Poker Club Red Rock</strong> as Manager.</p>
+<p><strong>Where you can find me:</strong></p>
+<ul>
+<li>Telegram: <a href="https://t.me/akamitch">t.me/akamitch</a> — can be found in many places on Google</li>
+<li>Reddit (old posts): <a href="https://www.reddit.com/r/ethereum/comments/16whu3v/a_fresh_look_at_atomic_swap/">A fresh look at Atomic Swap</a></li>
+<li>Habr (Russian IT platform): <a href="https://habr.com/ru/articles/923150/">my articles</a></li>
+<li>Bitcointalk: <a href="https://bitcointalk.org/index.php?action=profile;u=62988">my profile</a></li>
+<li>YouTube (since December 2025): <a href="https://www.youtube.com/@gonka-top">Gonka news in Russian</a></li>
+</ul>
+<p>As for who Natalia from xmrwallet is — I have no idea. 🤷
+</details></p>
   </div>
 </div>
 
