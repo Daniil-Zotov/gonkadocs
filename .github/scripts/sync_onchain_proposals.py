@@ -527,14 +527,14 @@ def update_mkdocs_nav(sorted_quarters, proposals_by_quarter):
     new_nav = "\n".join(nav_lines)
 
     # Replace existing On-Chain Governance nav block
-    pattern = r"    - On-Chain Governance:.*?(?=\n    - Pre-Proposals:)"
+    pattern = r"    - On-Chain Governance:.*?(?=\n    - For Agents:)"
     replacement = new_nav
 
     new_content = re.sub(pattern, replacement, content, flags=re.DOTALL)
 
     if new_content == content:
         print("Warning: nav replacement failed, mkdocs.yml unchanged")
-        print("Make sure 'On-Chain Governance:' exists before 'Pre-Proposals:' in nav")
+        print("Make sure 'On-Chain Governance:' exists before 'For Agents:' in nav")
         return
 
     MKDOCS_YML.write_text(new_content, encoding="utf-8")
