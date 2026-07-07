@@ -93,27 +93,3 @@
 
   </nav>
 </header>
-
-<script>
-(function() {
-  function updateActiveTab() {
-    var path = window.location.pathname;
-    var tabs = document.querySelectorAll('.md-tabs__item');
-    if (!tabs.length) return;
-    tabs.forEach(function(t) { t.classList.remove('md-tabs__item--active'); });
-    if (path.startsWith('/gonka/docs/') && tabs[0]) {
-      tabs[0].classList.add('md-tabs__item--active');
-    } else if (path.startsWith('/community/') && tabs[1]) {
-      tabs[1].classList.add('md-tabs__item--active');
-    } else if (path.startsWith('/proposals/') && tabs[2]) {
-      tabs[2].classList.add('md-tabs__item--active');
-    } else if (path.startsWith('/agents/') && tabs[3]) {
-      tabs[3].classList.add('md-tabs__item--active');
-    }
-  }
-  updateActiveTab();
-  if (typeof document$ !== 'undefined') {
-    document$.subscribe(function() { setTimeout(updateActiveTab, 50); });
-  }
-})();
-</script>
