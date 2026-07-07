@@ -16,26 +16,3 @@
     </ul>
   </div>
 </nav>
-
-<script>
-(function() {
-  function updateActiveTab() {
-    var path = window.location.pathname;
-    var tabs = document.querySelectorAll('.md-tabs__item');
-    tabs.forEach(function(t) { t.classList.remove('md-tabs__item--active'); });
-    if (path.startsWith('/gonka/docs/')) {
-      if (tabs[0]) tabs[0].classList.add('md-tabs__item--active');
-    } else if (path.startsWith('/community/')) {
-      if (tabs[1]) tabs[1].classList.add('md-tabs__item--active');
-    } else if (path.startsWith('/proposals/')) {
-      if (tabs[2]) tabs[2].classList.add('md-tabs__item--active');
-    } else if (path.startsWith('/agents/')) {
-      if (tabs[3]) tabs[3].classList.add('md-tabs__item--active');
-    }
-  }
-  updateActiveTab();
-  if (typeof document$ !== 'undefined') {
-    document$.subscribe(function() { setTimeout(updateActiveTab, 50); });
-  }
-})();
-</script>

@@ -6,6 +6,8 @@ on:
     paths:
       - 'docs/**'
       - 'mkdocs.yml'
+      - 'hooks/**'
+      - 'buildtools/**'
       - '.github/workflows/deploy-docs.yml'
   workflow_dispatch:
 
