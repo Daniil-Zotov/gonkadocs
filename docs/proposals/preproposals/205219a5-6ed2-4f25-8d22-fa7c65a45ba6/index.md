@@ -252,7 +252,7 @@ The Project Lead and Infrastructure Lead receive no monthly compensation from th
 
 | Voter | Amount | Date |
 | :----- | :----- | :--- |
-| `gonka1gm...gzg6ry` | 400.0K GNK | 2026-07-06 19:38 |
+| `gonka1gm...gzg6ry` | 400.0K GNK | 2026-07-07 00:14 |
 
 ---
 
@@ -266,7 +266,7 @@ The Project Lead and Infrastructure Lead receive no monthly compensation from th
 ---
 
 ### 💬 Andrey A
-*2026-07-06 07:42* · 👍 0 · 👎 0
+*2026-07-06 07:42* · 👍 1 · 👎 0
 
 Поделюсь мыслями.  Не ставлю под сомнение факт, что core-тим сообщили о необходимости этой структуры именно в таком виде, с этим просто есть 100% доверие. С других же сторон информация менее известна. 
 
