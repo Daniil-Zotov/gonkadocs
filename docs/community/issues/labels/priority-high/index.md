@@ -6,7 +6,7 @@ template: issues-main.html
 # Issues: Priority: High
 
 Issues with label **Priority: High**. Total: **29**.
-Updated: `2026-07-06 23:35 UTC`.
+Updated: `2026-07-07 04:31 UTC`.
 
 [← All Issues](../../index.md)
 
@@ -36,7 +36,7 @@ Updated: `2026-07-06 23:35 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span> <span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@maria-mitina](https://github.com/maria-mitina) opened 9 days ago</span>
+      <span class="issues-meta-item">[@maria-mitina](https://github.com/maria-mitina) opened 10 days ago</span>
       
     </div>
   </div>
@@ -66,7 +66,7 @@ Updated: `2026-07-06 23:35 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span> <span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 12 days ago</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 13 days ago</span>
       
     </div>
   </div>

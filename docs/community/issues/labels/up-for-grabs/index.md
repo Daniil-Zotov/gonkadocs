@@ -6,7 +6,7 @@ template: issues-main.html
 # Issues: up-for-grabs
 
 Issues with label **up-for-grabs**. Total: **15**.
-Updated: `2026-07-06 23:35 UTC`.
+Updated: `2026-07-07 04:31 UTC`.
 
 [← All Issues](../../index.md)
 
@@ -21,7 +21,7 @@ Updated: `2026-07-06 23:35 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 20 hours ago</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 1 day ago</span>
       
     </div>
   </div>
@@ -51,7 +51,7 @@ Updated: `2026-07-06 23:35 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span> <span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 12 days ago</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 13 days ago</span>
       
     </div>
   </div>
