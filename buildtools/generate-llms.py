@@ -216,7 +216,7 @@ def build_section_entries(section: dict) -> list[str]:
 def main():
     parts = []
     parts.append("# Gonka Docs\n")
-    parts.append(f"> Gonka is a decentralized AI inference network with Proof of Compute consensus. This portal unifies official protocol documentation, GitHub Discussions, community governance docs, and on-chain proposals into a single searchable site at gonkadocs.com.\n")
+    parts.append(f"> Gonka is a decentralized AI inference network with Proof of Compute consensus. This portal unifies official protocol documentation, GitHub Discussions, community governance docs, on-chain proposals, and community pre-proposals into a single searchable site at gonkadocs.com.\n")
     parts.append("Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute goes to useful LLM inference. Hosts contribute GPU resources and earn GNK tokens. Developers access inference through OpenAI-compatible APIs via community brokers or self-hosted gateways. The network runs epochs (~24h) with on-chain governance.\n")
 
     # GitHub discussions section (always included)

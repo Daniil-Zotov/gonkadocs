@@ -210,7 +210,7 @@ def read_gonka_page(url_path: str) -> str:
                 content = content[:50000] + "\n\n[... truncated, full content at " + SITE_URL + "/" + path + "/]"
             return f"# {path}\n\nSource: {SITE_URL}/{path}/\n\n{content}"
 
-    return f"Page not found: {url_path}. Use search_gonka_docs to find the correct path."
+    return f"Page not found: {url_path}. Use search_gonka_docs to find the correct path or check /proposals/ for on-chain proposals and pre-proposals."
 
 
 @mcp.tool()
@@ -234,7 +234,7 @@ Official technical documentation for the Gonka protocol.
 - Governance — Transactions, voting power, proposals
 - Model Licenses — Supported models
 
-## GitHub Discussions (/gonka/discussion/)
+## GitHub Discussions (/community/discussion/)
 71 discussions from gonka-ai/gonka repository.
 - Proposals (42) — Technical and funding proposals
 - Show and Tell (20) — Community projects
@@ -249,7 +249,7 @@ Community governance and planning documents.
 - GSC — Self-Governance Committee (charter)
 
 ## On-Chain Proposals (/proposals/)
-Full table of 75 governance proposals with statuses and summaries.
+Full table of governance proposals with statuses and summaries, plus pre-proposals (community grant requests and polls).
 
 ## Machine-Readable
 - /llms.txt — AI agent entry point

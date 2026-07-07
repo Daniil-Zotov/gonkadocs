@@ -79,7 +79,7 @@ Key sections:
   /community/            → Roadmap, GRC, GSC
   /community/discussion/ → GitHub Discussions (proposals, Q&A, show-and-tell)
   /community/issues/     → GitHub Issues (bugs, features, enhancements)
-  /proposals/            → On-chain governance proposals
+  /proposals/            → On-chain governance proposals & pre-proposals
 
 Fetch /llms-full.txt for complete documentation before writing code.
 ```
@@ -132,6 +132,7 @@ Key topics:
 - Host: GPU resource connection, node management
 - Wallet: Accounts, collateral, cross-chain (USDT/GNK)
 - Governance: Proposals, voting, GRC, GSC
+- Pre-Proposals: Community grant requests and polls
 - Issues: Bugs, feature requests, enhancements from gonka-ai/gonka
 ```
 
