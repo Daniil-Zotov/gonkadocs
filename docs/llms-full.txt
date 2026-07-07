@@ -16592,7 +16592,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-07-07 05:04 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-07-07 15:11 UTC*
 
 ---
 
@@ -21836,11 +21836,7 @@ Clarkkent8494
 
 ## Full Proposal
 
-External Test Lab & Community DevNet
-
-*4-month pilot proposal for community-owned testing infrastructure and QA capacity*
-
-# 1. Executive Summary
+Executive Summary
 
 This proposal requests funding for a 4-month pilot of External Test Lab & Community DevNet: a community-owned testing function for Gonka protocol upgrades, DevShards, inference flows, host/broker operations, and geographically distributed network behavior before governance decisions and production rollout.
 
@@ -22003,8 +21999,6 @@ The proposal funds two external QA / Infrastructure Testing Engineers.
 
 # 8. Project Owners and Accountability
 
-# 8. Project Owners and Accountability
-
 | Role | Proposed owner | Responsibilities |
 | --- | --- | --- |
 | **Project Lead** | [Sergii Paranko](https://www.linkedin.com/in/paranko/) (S∃ga L∈nin) | Overall project accountability, governance coordination, scope and milestone control, QA contractor selection and onboarding, public reporting, and testing laboratory oversight. |
@@ -22134,11 +22128,11 @@ Approve a 4-month pilot of External Test Lab & Community DevNet with a maximum b
 
 | Voter | Amount | Date |
 | :----- | :----- | :--- |
-| `gonka1gm...gzg6ry` | 400.0K GNK | 2026-07-07 04:58 |
+| `gonka1gm...gzg6ry` | 400.0K GNK | 2026-07-07 15:08 |
 
 ---
 
-## Comments (2)
+## Comments (4)
 
 ### 💬 Dem | Démíngān
 *2026-07-04 12:15* · 👍 4 · 👎 0
@@ -22161,6 +22155,32 @@ Approve a 4-month pilot of External Test Lab & Community DevNet with a maximum b
 Если что-то из опыта не отражено в линкедин, прошу усилить пропосал этой информацией. Если релевантного опыта нет, то прошу пояснить, почему он считается не обязательными и в чем именно интерес команды заниматься этой темой. Потому что, если интереса нет, то энтузиазм может очень быстро закончиться.
 
 В общем, основные вопросы не относительно актуальности пропосала и не о суммах в нем.
+
+---
+
+### 💬 Sergii Paranko
+*2026-07-07 05:11* · 👍 0 · 👎 0
+
+Андрей, спасибо за содержательный комментарий. Вопрос понятный и справедливый.
+
+Важное уточнение: я не планирую лично выполнять роль QA/SDET-инженера или подменять собой профильную экспертизу.
+
+Тестированием будут заниматься профильные QA / Infrastructure Testing Engineers. В моих прошлых проектах у меня регулярно были команды тестирования, за которые я как руководитель отвечал организационно: постановка процесса, приоритизация, контроль. В некоторых проектах тестирование было размером с половину команды разработки. Здесь масштаб сильно меньше: небольшая внешняя лаборатория.
+
+Кто поможет с технической валидацией специалистов-тестировщиков и их онбордингом я указал в пункте 10 (Protocol Maintainer Coordination). А качество работы лаборатории будем показывать: все артефакты публичные, участники сообщества с экспертизой смогут оценить и подсказать.
+
+Митч нужен как раз для devops-инфраструктуры: региональное размещение, мониторинг, стабильность, плюс поиск и организация найма burst GPU-ресурсов для почасовых тестов, когда они нужны.
+
+Что касается мотивации: она такая же, как и с роадмапом: не хочу, чтобы мои инвестиции обесценились, а лучше бы они выросли в цене. Вознаграждение за проект тоже станет весомее, когда сеть станет стабильнее и защищеннее от критических багов.
+
+---
+
+### 💬 Sergii Paranko
+*2026-07-07 05:28* · 👍 0 · 👎 0
+
+Пропозал обновлён по ходу обсуждения на GitHub с Protocol Maintainer: немного снижен бюджет, уточнены цели Community DevNet, доступ к DevNet, топология Network Nodes / MLNodes, требования по GPU и порядок использования ресурсов burst GPU.
+
+Обсуждение: https://github.com/gonka-ai/gonka/discussions/1388
 
 ---
 
@@ -23542,8 +23562,23 @@ document$.subscribe(initProposalsPage);
   
   Voting
 
-2026-Q2
-44 proposals
+## 2026-q2 Summary
+
+44Total Proposals
+27Passed (61%)
+16Rejected (36%)
+1Failed (2%)
+
+By Category
+  Funding / Grants29
+  Governance Parameters8
+  Software Upgrade3
+  GRC / Restitution2
+  Other1
+  Models / IBC1
+
+Approved Funding
+GNK allocated1,788,702 GNKUSDT allocated$545,000
 
   
     #79 – Add Kimi K2.6 and GLM 5.2 model
@@ -26594,8 +26629,19 @@ Register IBC token metadata and approve the denomination for trading on Gonka ma
   
   Voting
 
-2025-Q3
-6 proposals
+## 2025-q3 Summary
+
+6Total Proposals
+5Passed (83%)
+1Rejected (17%)
+
+By Category
+  Governance Parameters3
+  Software Upgrade2
+  Models / IBC1
+
+Approved Funding
+No funding proposals
 
   
     #6 – Upgrade Proposal: v0.2.2
@@ -27023,8 +27069,19 @@ Upgrade Proposal: v0.2.2
   
   Voting
 
-2025-Q4
-11 proposals
+## 2025-q4 Summary
+
+11Total Proposals
+10Passed (91%)
+1Rejected (9%)
+
+By Category
+  Governance Parameters5
+  Software Upgrade5
+  Funding / Grants1
+
+Approved Funding
+No funding proposals
 
   
     #17 – Expected amount of Confirmation PoC per epoch
@@ -27749,8 +27806,17 @@ Sale GNK from Community Fund
   
   Voting
 
-2026-Q3
-1 proposals
+## 2026-q3 Summary
+
+1Total Proposals
+0Passed (0%)
+0Rejected (0%)
+
+By Category
+  Funding / Grants1
+
+Approved Funding
+No funding proposals
 
   
     #80 – GRC Proposal #3 - Restitution
@@ -27845,8 +27911,20 @@ Restitution payout for confirmed GRC Proposal #3 cases, with Case 05 payments fr
   
   Voting
 
-2026-Q1
-17 proposals
+## 2026-q1 Summary
+
+17Total Proposals
+10Passed (59%)
+7Rejected (41%)
+
+By Category
+  Software Upgrade6
+  Governance Parameters5
+  Funding / Grants4
+  Other2
+
+Approved Funding
+No funding proposals
 
   
     #35 – gonka.ai / TheSoul social media awareness project
