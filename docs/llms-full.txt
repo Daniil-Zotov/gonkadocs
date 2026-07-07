@@ -22722,13 +22722,14 @@ alexandr8475
 
   
     #80 – GRC Proposal #3 - Restitution
-    Voting
+    Rejected
   
   
     Submitted 2026-07-05
     Voting ends 2026-07-07
   
   Restitution payout for confirmed GRC Proposal #3 cases, with Case 05 payments from proposal_id=67 deducted where the same address and epoch were already compensated, and positive victim outputs below …
+  Yes 16,378 (10.4%) · No 94,721 (60.4%) · Veto 39,454 (25.1%) · Abstain 6,344 (4.0%)
 
 ## 2026-Q2
 
@@ -23600,7 +23601,7 @@ alexandr8475
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-79 proposals across 5 quarters. Last updated: 2026-07-07 16:04 UTC
+79 proposals across 5 quarters. Last updated: 2026-07-07 22:39 UTC
 
 function initProposalsPage() {
   var checkboxes = document.querySelectorAll('.prop-oview-filter input[type=checkbox]');
@@ -27906,7 +27907,7 @@ Sale GNK from Community Fund
 
 1Total Proposals
 0Passed (0%)
-0Rejected (0%)
+1Rejected (100%)
 
 By Category
 Funding / Grants1
@@ -27919,13 +27920,14 @@ No funding proposals
 
   
     #80 – GRC Proposal #3 - Restitution
-    Voting
+    Rejected
   
   
     Submitted 2026-07-05
     Voting ends 2026-07-07
   
   Restitution payout for confirmed GRC Proposal #3 cases, with Case 05 payments from proposal_id=67 deducted where the same address and epoch were already compensated, and positive victim outputs below …
+  Yes 16,378 (10.4%) · No 94,721 (60.4%) · Veto 39,454 (25.1%) · Abstain 6,344 (4.0%)
 
 ← Back to all proposals
 
@@ -27962,7 +27964,7 @@ document$.subscribe(initProposalsPage);
 
 # #80 – GRC Proposal #3 - Restitution
 
-Voting
+Rejected
 
 **Proposal ID:** `80`
 
@@ -27976,7 +27978,26 @@ Voting
 
 **Metadata:** [https://github.com/huxuxuya/GRC-3-result](https://github.com/huxuxuya/GRC-3-result)
 
+**Failed reason:** proposal did not get enough votes to pass
+
 Restitution payout for confirmed GRC Proposal #3 cases, with Case 05 payments from proposal_id=67 deducted where the same address and epoch were already compensated, and positive victim outputs below the chain minimum raised to 10 GNK.
+
+---
+
+## Final Tally
+
+  
+    
+    
+    
+    
+  
+  
+    Yes 16,378 (10.4%)
+    No 94,721 (60.4%)
+    Veto 39,454 (25.1%)
+    Abstain 6,344 (4.0%)
+  
 
 ---
 
