@@ -28,16 +28,17 @@ template: proposals-oview.html
 
 *1 proposals*
 
-<div class="prop-card" data-status="prop-voting">
+<div class="prop-card" data-status="prop-rejected">
   <div class="prop-card-header">
     <a href="2026-q3/80/" class="prop-card-title">#80 – GRC Proposal #3 - Restitution</a>
-    <span class="prop-badge prop-voting">Voting</span>
+    <span class="prop-badge prop-rejected">Rejected</span>
   </div>
   <div class="prop-card-meta">
     <span>Submitted 2026-07-05</span>
     <span>Voting ends 2026-07-07</span>
   </div>
   <div class="prop-card-desc">Restitution payout for confirmed GRC Proposal #3 cases, with Case 05 payments from proposal_id=67 deducted where the same address and epoch were already compensated, and positive victim outputs below …</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 16,378 (10.4%)</span> · <span class="prop-tally-no-text">No 94,721 (60.4%)</span> · <span class="prop-tally-veto-text">Veto 39,454 (25.1%)</span> · <span class="prop-tally-abstain-text">Abstain 6,344 (4.0%)</span></div>
 </div>
 
 </div>
@@ -1076,7 +1077,7 @@ template: proposals-oview.html
 
 </div>
 <div class="prop-oview-stats">
-<em>79 proposals across 5 quarters. Last updated: 2026-07-07 16:04 UTC</em>
+<em>79 proposals across 5 quarters. Last updated: 2026-07-07 22:39 UTC</em>
 </div>
 
 <script>

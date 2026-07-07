@@ -8,7 +8,7 @@ template: proposals-proposals-main.html
 
 <div class="prop-detail-header" markdown="1">
 
-<span class="prop-badge prop-voting">Voting</span>
+<span class="prop-badge prop-rejected">Rejected</span>
 
 **Proposal ID:** `80`
 
@@ -22,9 +22,32 @@ template: proposals-proposals-main.html
 
 **Metadata:** [https://github.com/huxuxuya/GRC-3-result](https://github.com/huxuxuya/GRC-3-result)
 
+**Failed reason:** proposal did not get enough votes to pass
+
 </div>
 
 Restitution payout for confirmed GRC Proposal #3 cases, with Case 05 payments from proposal_id=67 deducted where the same address and epoch were already compensated, and positive victim outputs below the chain minimum raised to 10 GNK.
+
+---
+
+## Final Tally
+
+
+<div class="prop-tally">
+  <div class="prop-tally-bar">
+    <div class="prop-tally-yes" style="width:10.4%"></div>
+    <div class="prop-tally-no" style="width:60.4%"></div>
+    <div class="prop-tally-veto" style="width:25.1%"></div>
+    <div class="prop-tally-abstain" style="width:4.0%"></div>
+  </div>
+  <div class="prop-tally-stats">
+    <span class="prop-tally-yes-text">Yes 16,378 (10.4%)</span>
+    <span class="prop-tally-no-text">No 94,721 (60.4%)</span>
+    <span class="prop-tally-veto-text">Veto 39,454 (25.1%)</span>
+    <span class="prop-tally-abstain-text">Abstain 6,344 (4.0%)</span>
+  </div>
+</div>
+
 
 ---
 
