@@ -123,6 +123,69 @@ def get_message_types(messages):
     return ", ".join(sorted(types)) if types else "—"
 
 
+def parse_amounts(text):
+    """Extract GNK and USDT amounts from proposal text body."""
+    if not text:
+        return (0, 0)
+    text = str(text)
+
+    gnk_total = 0
+    gnk_pattern = re.compile(r"([\d,]+(?:\.\d+)?)\s*(K?)\s*GNK", re.IGNORECASE)
+    for match in gnk_pattern.finditer(text):
+        num_str = match.group(1).replace(",", "")
+        k_suffix = match.group(2).upper()
+        try:
+            val = float(num_str)
+            if k_suffix == "K":
+                val *= 1000
+            gnk_total += int(val)
+        except ValueError:
+            pass
+
+    usdt_total = 0
+    usdt_pattern = re.compile(r"\$([\d,]+(?:\.\d+)?)\s*(K?)|([\d,]+(?:\.\d+)?)\s*(K?)\s*USDT", re.IGNORECASE)
+    for match in usdt_pattern.finditer(text):
+        if match.group(1):
+            num_str = match.group(1).replace(",", "")
+            k_suffix = match.group(2).upper()
+            try:
+                val = float(num_str)
+                if k_suffix == "K":
+                    val *= 1000
+                usdt_total += int(val)
+            except ValueError:
+                pass
+        else:
+            num_str = match.group(3).replace(",", "")
+            k_suffix = match.group(4).upper()
+            try:
+                val = float(num_str)
+                if k_suffix == "K":
+                    val *= 1000
+                usdt_total += int(val)
+            except ValueError:
+                pass
+
+    return (gnk_total, usdt_total)
+
+
+def categorize_type(msg_type):
+    """Categorize proposal types into high-level buckets."""
+    s = (msg_type or "").lower()
+    if "upgrade" in s:
+        return "Software Upgrade"
+    elif "update params" in s or "allow list" in s:
+        return "Governance Parameters"
+    elif "community pool spend" in s or "execute contract" in s:
+        return "Funding / Grants"
+    elif "batch transfer" in s or "grc" in s or "restitution" in s or "compensation" in s:
+        return "GRC / Restitution"
+    elif "register model" in s or "register ibc" in s or "ibc" in s:
+        return "Models / IBC"
+    else:
+        return "Other"
+
+
 # ── fetch proposals ────────────────────────────────────────────
 
 def fetch_proposals():
@@ -300,7 +363,7 @@ template: proposals-oview.html
     for q in sorted_quarters:
         props = proposals_by_quarter[q]
         total += len(props)
-            md += f'<div class="prop-quarter" id="{q.lower()}" markdown="1">\n'
+        md += f'<div class="prop-quarter" id="{q.lower()}" markdown="1">\n'
         md += f"## {q}\n\n"
         md += f"*{len(props)} proposals*\n\n"
 
@@ -390,7 +453,42 @@ document$.subscribe(initProposalsPage);
 
 def generate_quarter_page(quarter, proposals):
     props = proposals
-    md = f"""---
+    total = len(props)
+    passed = sum(1 for p in props if p.get("status", "").lower() == "proposal_status_passed")
+    rejected = sum(1 for p in props if p.get("status", "").lower() == "proposal_status_rejected")
+    failed = sum(1 for p in props if p.get("status", "").lower() == "proposal_status_failed")
+    pct_passed = (passed / total * 100) if total else 0
+    pct_rejected = (rejected / total * 100) if total else 0
+    pct_failed = (failed / total * 100) if total else 0
+
+    # Categories
+    cat_counts = {}
+    gnk_total = 0
+    usdt_total = 0
+    for p in props:
+        msg_types = get_message_types(p.get("messages", []))
+        cat = categorize_type(msg_types)
+        cat_counts[cat] = cat_counts.get(cat, 0) + 1
+        if p.get("status", "").lower() == "proposal_status_passed":
+            _gnk, _usdt = parse_amounts(p.get("summary", ""))
+            gnk_total += _gnk
+            usdt_total += _usdt
+
+    cat_rows = ""
+    if cat_counts:
+        for cat, cnt in sorted(cat_counts.items(), key=lambda x: x[1], reverse=True):
+            pct = (cnt / total * 100) if total else 0
+            cat_rows += f'<div class="qs-row"><span class="qs-label">{cat}</span><span class="qs-bar" style="width:{pct:.0f}%"></span><span class="qs-value">{cnt}</span></div>\n'
+    else:
+        cat_rows = '<div class="qs-row"><span class="qs-label">Other</span><span class="qs-bar" style="width:100%"></span><span class="qs-value">{total}</span></div>\n'
+
+    amount_rows = ""
+    if gnk_total > 0:
+        amount_rows += f'<div class="qs-amount-row"><span class="qs-amount-label">GNK allocated</span><span class="qs-amount-val">{gnk_total:,.0f} GNK</span></div>\n'
+    if usdt_total > 0:
+        amount_rows += f'<div class="qs-amount-row"><span class="qs-amount-label">USDT allocated</span><span class="qs-amount-val">${usdt_total:,.0f}</span></div>\n'
+
+    md = f'''---
 title: "{quarter} Proposals"
 template: proposals-oview.html
 ---
@@ -415,10 +513,32 @@ template: proposals-oview.html
 
 </div>
 
+<div class="quarter-summary" markdown="1">
+
+## {quarter} Summary
+
+<div class="qs-stats">
+<div class="qs-stat total"><span class="qs-num">{total}</span><span class="qs-desc">Total Proposals</span></div>
+<div class="qs-stat passed"><span class="qs-num">{passed}</span><span class="qs-desc">Passed ({pct_passed:.0f}%)</span></div>
+<div class="qs-stat rejected"><span class="qs-num">{rejected}</span><span class="qs-desc">Rejected ({pct_rejected:.0f}%)</span></div>
+{f'<div class="qs-stat failed"><span class="qs-num">{failed}</span><span class="qs-desc">Failed ({pct_failed:.0f}%)</span></div>' if failed > 0 else ''}
+</div>
+
+<div class="qs-categories">
+<strong>By Category</strong>
+{cat_rows}</div>
+
+<div class="qs-amounts">
+<strong>Approved Funding</strong>
+{amount_rows if amount_rows else '<div class="qs-amount-row"><span class="qs-amount-label">No funding proposals</span></div>'}
+</div>
+
+</div>
+
 <div class="prop-quarter">
 <h2>{quarter}</h2>
 <p>{len(props)} proposals</p>
-"""
+'''
 
     for p in props:
         pid = p["id"]
@@ -434,7 +554,7 @@ template: proposals-oview.html
         summary = p.get("summary", "")
         short_summary = summary[:200] + "…" if summary and len(summary) > 200 else (summary or "")
 
-        md += f"""<div class="prop-card" data-status="{status_css_cls}">
+        md += f'''<div class="prop-card" data-status="{status_css_cls}">
   <div class="prop-card-header">
     <a href="{pid}/" class="prop-card-title">#{pid} – {title}</a>
     <span class="prop-badge {status_css_cls}">{status_label}</span>
@@ -443,7 +563,7 @@ template: proposals-oview.html
     <span>Submitted {submit_time}</span>
     <span>Voting ends {voting_end}</span>
   </div>
-"""
+'''
         if short_summary:
             md += f'  <div class="prop-card-desc">{escape_md(short_summary)}</div>\n'
         if yes_c + no_c > 0:
@@ -454,40 +574,137 @@ template: proposals-oview.html
             md += f'  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes {yes_c:,} {_pct(yes_c)}</span> · <span class="prop-tally-no-text">No {no_c:,} {_pct(no_c)}</span> · <span class="prop-tally-veto-text">Veto {veto_c:,} {_pct(veto_c)}</span> · <span class="prop-tally-abstain-text">Abstain {abstain_c:,} {_pct(abstain_c)}</span></div>\n'
         md += "</div>\n\n"
 
-    md += """</div>
+    md += '''</div>
 
 <p><a href="../"><em>← Back to all proposals</em></a></p>
 
 <script>
 function initProposalsPage() {
-  var checkboxes = document.querySelectorAll('.prop-oview-filter input[type=checkbox]');
-  var cards = document.querySelectorAll('.prop-card');
-  var countEl = document.querySelector('.prop-filter-count');
+  var checkboxes = document.querySelectorAll(\'.prop-oview-filter input[type=checkbox]\');
+  var cards = document.querySelectorAll(\'.prop-card\');
+  var countEl = document.querySelector(\'.prop-filter-count\');
   function apply() {
     var filters = {};
     checkboxes.forEach(function(cb) {
-      filters[cb.id.replace('prop-filter-', '')] = cb.checked;
+      filters[cb.id.replace(\'prop-filter-\', \'\')] = cb.checked;
     });
     var visible = 0;
     cards.forEach(function(card) {
-      var status = card.getAttribute('data-status');
+      var status = card.getAttribute(\'data-status\');
       var show = false;
-      if (status === 'prop-passed' && filters.passed) show = true;
-      else if (status === 'prop-rejected' && filters.rejected) show = true;
-      else if (status === 'prop-voting' && filters.voting) show = true;
-      
-      else if (status === 'prop-failed' && filters.rejected) show = true;
-      card.style.display = show ? '' : 'none';
+      if (status === \'prop-passed\' && filters.passed) show = true;
+      else if (status === \'prop-rejected\' && filters.rejected) show = true;
+      else if (status === \'prop-voting\' && filters.voting) show = true;
+      else if (status === \'prop-failed\' && filters.rejected) show = true;
+      card.style.display = show ? \'\' : \'none\';
       if (show) visible++;
     });
-    countEl.textContent = visible + ' of ' + cards.length + ' proposals';
+    countEl.textContent = visible + \' of \' + cards.length + \' proposals\';
   }
-  checkboxes.forEach(function(cb) { cb.addEventListener('change', apply); });
+  checkboxes.forEach(function(cb) { cb.addEventListener(\'change\', apply); });
   apply();
 }
 document$.subscribe(initProposalsPage);
 </script>
-"""
+
+<style>
+.quarter-summary {
+  background: #f6f8fa;
+  border: 1px solid #d0d7de;
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.5rem;
+}
+.quarter-summary h2 {
+  margin-top: 0;
+  font-size: 1.25rem;
+}
+.qs-stats {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin: 0.75rem 0;
+}
+.qs-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 4.5rem;
+}
+.qs-stat .qs-num {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1;
+}
+.qs-stat.passed .qs-num { color: #1a7f37; }
+.qs-stat.rejected .qs-num { color: #cf222e; }
+.qs-stat.failed .qs-num { color: #9a6700; }
+.qs-stat .qs-desc {
+  font-size: 0.75rem;
+  color: #57606a;
+  margin-top: 0.25rem;
+  text-align: center;
+}
+.qs-categories {
+  margin-top: 1rem;
+}
+.qs-categories strong {
+  display: block;
+  font-size: 0.85rem;
+  color: #24292f;
+  margin-bottom: 0.4rem;
+}
+.qs-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0.25rem 0;
+}
+.qs-label {
+  font-size: 0.8rem;
+  color: #57606a;
+  width: 8rem;
+  flex-shrink: 0;
+}
+.qs-bar {
+  height: 6px;
+  background: #0969da;
+  border-radius: 3px;
+  flex-shrink: 0;
+  min-width: 2px;
+}
+.qs-value {
+  font-size: 0.8rem;
+  color: #24292f;
+  font-weight: 600;
+  margin-left: auto;
+}
+.qs-amounts {
+  margin-top: 1rem;
+}
+.qs-amounts strong {
+  display: block;
+  font-size: 0.85rem;
+  color: #24292f;
+  margin-bottom: 0.4rem;
+}
+.qs-amount-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.35rem 0;
+  border-bottom: 1px solid #d0d7de;
+}
+.qs-amount-row:last-child {
+  border-bottom: none;
+}
+.qs-amount-val {
+  font-weight: 600;
+  color: #24292f;
+  font-size: 0.85rem;
+}
+</style>
+'''
 
     return md
 

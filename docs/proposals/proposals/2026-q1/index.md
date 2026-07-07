@@ -23,9 +23,33 @@ template: proposals-oview.html
 
 </div>
 
+<div class="quarter-summary" markdown="1">
+
+## 2026-q1 Summary
+
+<div class="qs-stats">
+<div class="qs-stat total"><span class="qs-num">17</span><span class="qs-desc">Total Proposals</span></div>
+<div class="qs-stat passed"><span class="qs-num">10</span><span class="qs-desc">Passed (59%)</span></div>
+<div class="qs-stat rejected"><span class="qs-num">7</span><span class="qs-desc">Rejected (41%)</span></div>
+
+</div>
+
+<div class="qs-categories">
+<strong>By Category</strong>
+  <div class="qs-row"><span class="qs-label">Software Upgrade</span><span class="qs-bar" style="width:35%"></span><span class="qs-value">6</span></div>
+  <div class="qs-row"><span class="qs-label">Governance Parameters</span><span class="qs-bar" style="width:29%"></span><span class="qs-value">5</span></div>
+  <div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar" style="width:24%"></span><span class="qs-value">4</span></div>
+  <div class="qs-row"><span class="qs-label">Other</span><span class="qs-bar" style="width:12%"></span><span class="qs-value">2</span></div>
+</div>
+
+<div class="qs-amounts">
+<strong>Approved Funding</strong>
+<div class="qs-amount-row"><span class="qs-amount-label">No funding proposals</span></div>
+</div>
+
+</div>
+
 <div class="prop-quarter">
-<h2>2026-Q1</h2>
-<p>17 proposals</p>
 <div class="prop-card" data-status="prop-rejected">
   <div class="prop-card-header">
     <a href="35/" class="prop-card-title">#35 – gonka.ai / TheSoul social media awareness project</a>

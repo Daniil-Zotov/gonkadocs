@@ -23,9 +23,30 @@ template: proposals-oview.html
 
 </div>
 
+<div class="quarter-summary" markdown="1">
+
+## 2026-q3 Summary
+
+<div class="qs-stats">
+<div class="qs-stat total"><span class="qs-num">1</span><span class="qs-desc">Total Proposals</span></div>
+<div class="qs-stat passed"><span class="qs-num">0</span><span class="qs-desc">Passed (0%)</span></div>
+<div class="qs-stat rejected"><span class="qs-num">0</span><span class="qs-desc">Rejected (0%)</span></div>
+
+</div>
+
+<div class="qs-categories">
+<strong>By Category</strong>
+  <div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar" style="width:100%"></span><span class="qs-value">1</span></div>
+</div>
+
+<div class="qs-amounts">
+<strong>Approved Funding</strong>
+<div class="qs-amount-row"><span class="qs-amount-label">No funding proposals</span></div>
+</div>
+
+</div>
+
 <div class="prop-quarter">
-<h2>2026-Q3</h2>
-<p>1 proposals</p>
 <div class="prop-card" data-status="prop-voting">
   <div class="prop-card-header">
     <a href="80/" class="prop-card-title">#80 – GRC Proposal #3 - Restitution</a>

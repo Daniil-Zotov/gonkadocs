@@ -23,9 +23,35 @@ template: proposals-oview.html
 
 </div>
 
+<div class="quarter-summary" markdown="1">
+
+## 2026-q2 Summary
+
+<div class="qs-stats">
+<div class="qs-stat total"><span class="qs-num">44</span><span class="qs-desc">Total Proposals</span></div>
+<div class="qs-stat passed"><span class="qs-num">27</span><span class="qs-desc">Passed (61%)</span></div>
+<div class="qs-stat rejected"><span class="qs-num">16</span><span class="qs-desc">Rejected (36%)</span></div>
+<div class="qs-stat failed"><span class="qs-num">1</span><span class="qs-desc">Failed (2%)</span></div>
+</div>
+
+<div class="qs-categories">
+<strong>By Category</strong>
+  <div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar" style="width:66%"></span><span class="qs-value">29</span></div>
+  <div class="qs-row"><span class="qs-label">Governance Parameters</span><span class="qs-bar" style="width:18%"></span><span class="qs-value">8</span></div>
+  <div class="qs-row"><span class="qs-label">Software Upgrade</span><span class="qs-bar" style="width:7%"></span><span class="qs-value">3</span></div>
+  <div class="qs-row"><span class="qs-label">GRC / Restitution</span><span class="qs-bar" style="width:5%"></span><span class="qs-value">2</span></div>
+  <div class="qs-row"><span class="qs-label">Other</span><span class="qs-bar" style="width:2%"></span><span class="qs-value">1</span></div>
+  <div class="qs-row"><span class="qs-label">Models / IBC</span><span class="qs-bar" style="width:2%"></span><span class="qs-value">1</span></div>
+</div>
+
+<div class="qs-amounts">
+<strong>Approved Funding</strong>
+<div class="qs-amount-row"><span class="qs-amount-label">GNK allocated</span><span class="qs-amount-val">1,788,702 GNK</span></div><div class="qs-amount-row"><span class="qs-amount-label">USDT allocated</span><span class="qs-amount-val">$545,000</span></div>
+</div>
+
+</div>
+
 <div class="prop-quarter">
-<h2>2026-Q2</h2>
-<p>44 proposals</p>
 <div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
     <a href="79/" class="prop-card-title">#79 – Add Kimi K2.6 and GLM 5.2 model</a>
