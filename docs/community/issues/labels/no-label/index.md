@@ -6,7 +6,7 @@ template: issues-main.html
 # Issues: no-label
 
 Issues with label **no-label**. Total: **228**.
-Updated: `2026-07-07 21:47 UTC`.
+Updated: `2026-07-07 23:20 UTC`.
 
 [← All Issues](../../index.md)
 
@@ -306,7 +306,7 @@ Updated: `2026-07-07 21:47 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@Korolev-Oleg](https://github.com/Korolev-Oleg) opened 13 days ago</span>
+      <span class="issues-meta-item">[@Korolev-Oleg](https://github.com/Korolev-Oleg) opened 14 days ago</span>
       
     </div>
   </div>
@@ -321,7 +321,7 @@ Updated: `2026-07-07 21:47 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@olkwwuah](https://github.com/olkwwuah) opened 13 days ago</span>
+      <span class="issues-meta-item">[@olkwwuah](https://github.com/olkwwuah) opened 14 days ago</span>
       
     </div>
   </div>
@@ -336,7 +336,7 @@ Updated: `2026-07-07 21:47 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@bruev](https://github.com/bruev) opened 13 days ago</span>
+      <span class="issues-meta-item">[@bruev](https://github.com/bruev) opened 14 days ago</span>
       
     </div>
   </div>
@@ -351,7 +351,7 @@ Updated: `2026-07-07 21:47 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@appgencore](https://github.com/appgencore) opened 13 days ago</span>
+      <span class="issues-meta-item">[@appgencore](https://github.com/appgencore) opened 14 days ago</span>
       
     </div>
   </div>
@@ -366,7 +366,7 @@ Updated: `2026-07-07 21:47 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@piterberkut](https://github.com/piterberkut) opened 13 days ago</span>
+      <span class="issues-meta-item">[@piterberkut](https://github.com/piterberkut) opened 14 days ago</span>
       
     </div>
   </div>
