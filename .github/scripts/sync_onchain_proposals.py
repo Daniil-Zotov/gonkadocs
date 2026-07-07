@@ -304,7 +304,7 @@ template: proposals-oview.html
     for q in sorted_quarters:
         props = proposals_by_quarter[q]
         total += len(props)
-        md += f'<div class="prop-quarter" id="{q.lower()}">\n'
+            md += f'<div class="prop-quarter" id="{q.lower()}" markdown="1">\n'
         md += f"## {q}\n\n"
         md += f"*{len(props)} proposals*\n\n"
 
