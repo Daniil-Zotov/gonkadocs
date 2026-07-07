@@ -510,24 +510,25 @@ def update_mkdocs_nav(sorted_quarters, proposals_by_quarter):
     content = MKDOCS_YML.read_text(encoding="utf-8")
 
     nav_lines = []
-    nav_lines.append("    - On-Chain Governance: proposals/proposals/index.md")
+    nav_lines.append("    - On-Chain Governance Proposals:")
+    nav_lines.append("      - On-Chain Governance: proposals/proposals/index.md")
     for q in sorted_quarters:
         q_lower = q.lower()
         props = proposals_by_quarter.get(q, [])
         # Sort by descending ID
         props_sorted = sorted(props, key=lambda x: int(x["id"]), reverse=True)
-        nav_lines.append(f"    - {q}:")
-        nav_lines.append(f'      - Overview: proposals/proposals/{q_lower}/index.md')
+        nav_lines.append(f"      - {q}:")
+        nav_lines.append(f'        - Overview: proposals/proposals/{q_lower}/index.md')
         for p in props_sorted:
             pid = p["id"]
             title = p.get("title", f"Proposal #{pid}").strip()
             title_esc = title.replace('"', '\\"')
-            nav_lines.append(f'      - "#{pid} – {title_esc}": proposals/proposals/{q_lower}/{pid}/index.md')
+            nav_lines.append(f'        - "#{pid} – {title_esc}": proposals/proposals/{q_lower}/{pid}/index.md')
 
     new_nav = "\n".join(nav_lines)
 
     # Replace existing On-Chain Governance nav block
-    pattern = r"    - On-Chain Governance:.*?(?=\n    - For Agents:)"
+    pattern = r"    - On-Chain Governance.*?(?=\n    - For Agents:)"
     replacement = new_nav
 
     new_content = re.sub(pattern, replacement, content, flags=re.DOTALL)
