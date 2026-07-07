@@ -19,89 +19,87 @@ template: proposals-oview.html
   <input type="checkbox" id="prop-filter-voting" checked>
   <span class="prop-filter-label">Voting</span>
 </label>
+<label class="prop-filter-cb">
+  <input type="checkbox" id="prop-filter-deposit" checked>
+  <span class="prop-filter-label">Deposit</span>
+</label>
 <span class="prop-filter-count"></span>
 
 </div>
 
 <div class="prop-quarter">
-<h2>2025-Q3</h2>
+<h2>2025-q3</h2>
 <p>6 proposals</p>
 <div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
-    <a href="../6/" class="prop-card-title">#6 – Upgrade Proposal: v0.2.2</a>
+    <a href="6/" class="prop-card-title">#6 - Upgrade Proposal: v0.2.2</a>
     <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
-    <span>Submitted 2025-09-24</span>
-    <span>Voting ends 2025-09-25</span>
+    <span>Submitted 2025-09-24 23:08 UTC</span>
+    <span>Voting ends 2025-09-25 02:08</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.2</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 130,079 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
-    <a href="../5/" class="prop-card-title">#5 – Expedite voting for upgrades</a>
+    <a href="5/" class="prop-card-title">#5 - Expedite voting for upgrades</a>
     <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
-    <span>Submitted 2025-09-23</span>
-    <span>Voting ends 2025-09-23</span>
+    <span>Submitted 2025-09-23 06:39 UTC</span>
+    <span>Voting ends 2025-09-23 18:39</span>
   </div>
   <div class="prop-card-desc">Expedite voting for upgrades</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 172,265 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
   <div class="prop-card-header">
-    <a href="../4/" class="prop-card-title">#4 – Upgrade Proposal: v0.2.2</a>
+    <a href="4/" class="prop-card-title">#4 - Upgrade Proposal: v0.2.2</a>
     <span class="prop-badge prop-rejected">Rejected</span>
   </div>
   <div class="prop-card-meta">
-    <span>Submitted 2025-09-22</span>
-    <span>Voting ends 2025-09-24</span>
+    <span>Submitted 2025-09-22 10:02 UTC</span>
+    <span>Voting ends 2025-09-24 10:02</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.2</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 109 (0.1%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 109,637 (99.9%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
-    <a href="../3/" class="prop-card-title">#3 – Increase PoC Validation Length</a>
+    <a href="3/" class="prop-card-title">#3 - Increase PoC Validation Length</a>
     <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
-    <span>Submitted 2025-09-20</span>
-    <span>Voting ends 2025-09-20</span>
+    <span>Submitted 2025-09-20 05:16 UTC</span>
+    <span>Voting ends 2025-09-20 17:16</span>
   </div>
   <div class="prop-card-desc">Proposal updates poc_validation_duration from 20 to 100.</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 162,514 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
-    <a href="../2/" class="prop-card-title">#2 – Proposal introducing new Qwen3 models</a>
+    <a href="2/" class="prop-card-title">#2 - Proposal introducing new Qwen3 models</a>
     <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
-    <span>Submitted 2025-09-09</span>
-    <span>Voting ends 2025-09-11</span>
+    <span>Submitted 2025-09-09 21:40 UTC</span>
+    <span>Voting ends 2025-09-11 21:40</span>
   </div>
   <div class="prop-card-desc">This proposal introduces new Qwen3 models including Qwen3-32B-FP8 and Qwen3-235B-A22B-Instruct-2507-FP8, along with updating parameters for Qwen2.5-7B-Instruct and QwQ-32B.</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 62,612 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
-    <a href="../1/" class="prop-card-title">#1 – Correct Epoch Length</a>
+    <a href="1/" class="prop-card-title">#1 - Correct Epoch Length</a>
     <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
-    <span>Submitted 2025-09-05</span>
-    <span>Voting ends 2025-09-07</span>
+    <span>Submitted 2025-09-05 21:51 UTC</span>
+    <span>Voting ends 2025-09-07 21:51</span>
   </div>
   <div class="prop-card-desc">Proposal updates epoch_length and restrictions length according to real block length in seconds.</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 74,474 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
 </div>
 
 </div>
@@ -125,6 +123,7 @@ function initProposalsPage() {
       if (status === 'prop-passed' && filters.passed) show = true;
       else if (status === 'prop-rejected' && filters.rejected) show = true;
       else if (status === 'prop-voting' && filters.voting) show = true;
+      else if (status === 'prop-deposit' && filters.deposit) show = true;
       else if (status === 'prop-failed' && filters.rejected) show = true;
       card.style.display = show ? '' : 'none';
       if (show) visible++;

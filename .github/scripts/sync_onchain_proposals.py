@@ -326,7 +326,7 @@ template: proposals-oview.html
 
             md += f"""<div class="prop-card" data-status="{status_css_cls}">
   <div class="prop-card-header">
-    <a href="{pid}/" class="prop-card-title">#{pid} – {title}</a>
+    <a href="{q.lower()}/{pid}/" class="prop-card-title">#{pid} – {title}</a>
     <span class="prop-badge {status_css_cls}">{status_label}</span>
   </div>
   <div class="prop-card-meta">
@@ -444,7 +444,7 @@ template: proposals-oview.html
 
         md += f"""<div class="prop-card" data-status="{status_css_cls}">
   <div class="prop-card-header">
-    <a href="../{pid}/" class="prop-card-title">#{pid} – {title}</a>
+    <a href="{pid}/" class="prop-card-title">#{pid} – {title}</a>
     <span class="prop-badge {status_css_cls}">{status_label}</span>
   </div>
   <div class="prop-card-meta">
@@ -522,7 +522,7 @@ def update_mkdocs_nav(sorted_quarters, proposals_by_quarter):
             pid = p["id"]
             title = p.get("title", f"Proposal #{pid}").strip()
             title_esc = title.replace('"', '\\"')
-            nav_lines.append(f'      - "#{pid} – {title_esc}": proposals/proposals/{pid}/index.md')
+            nav_lines.append(f'      - "#{pid} – {title_esc}": proposals/proposals/{q_lower}/{pid}/index.md')
 
     new_nav = "\n".join(nav_lines)
 
@@ -570,12 +570,21 @@ def main():
     # Ensure output dir exists
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-    # Generate individual proposal pages
+    # Generate individual proposal pages (organized by quarter)
     print(f"\nGenerating {len(proposals)} proposal pages...")
     for p in proposals:
         pid = p["id"]
-        prop_dir = OUTPUT_DIR / pid
-        prop_dir.mkdir(exist_ok=True)
+        submit = p.get("submit_time", "")
+        if submit:
+            try:
+                dt = datetime.fromisoformat(submit.replace("Z", "+00:00"))
+                q_lower = get_quarter(dt).lower()
+            except (ValueError, TypeError):
+                q_lower = "unknown"
+        else:
+            q_lower = "unknown"
+        prop_dir = OUTPUT_DIR / q_lower / pid
+        prop_dir.mkdir(parents=True, exist_ok=True)
         page_md = generate_proposal_page(p)
         (prop_dir / "index.md").write_text(page_md, encoding="utf-8")
 
