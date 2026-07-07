@@ -2,7 +2,7 @@
 title: "#1319 — Self-serve (no-broker) flow is documented as working but returns 401 "model requires an API key" — I want to spend my own GNK directly"
 source: https://github.com/gonka-ai/gonka/issues/1319
 issue_number: 1319
-synced_at: 2026-07-07T04:27:57Z
+synced_at: 2026-07-07T20:18:29Z
 template: issues-main.html
 ---
 
@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ### Summary
 
 Several official surfaces document a **self-serve, no-broker** end-to-end inference
@@ -246,7 +246,7 @@ func (k Keeper) IsAllowedEscrowCreator(ctx, address) bool {
 <p>On how the allowlist changes: every modification of <code>DevshardEscrowParams.AllowedCreatorAddresses</code> is an on-chain governance action. There's no maintainer-side "add operator" switch. It's either a standalone governance proposal that updates the param, voted on-chain, or inclusion in a governance-approved chain upgrade batch — which is how the current operators were seeded in <code>v0_2_13</code>. (the initial set was added during the early rollout as part of upgrade handlers, as a bootstrap step to get the first operators online.)  </p>
 <p>There isn't a published operator-vetting checklist I can point you to (as of now).  </p>
 <p>As for which door to walk through: the documented way to register intent is what you've already done here — a public request with your operator identity, contact, creator address, and intended models. That puts it in front of maintainers and governance participants. A standalone proposal is a legitimate route for an independent operator (whether it passes is up to voters).</p>
-<p>Additional correction on OpenBroker, since it touches your "no fee in between" point. It isn't a USD reseller with a margin: it settles in GNK and deducts its ledger 1-to-1 with actual escrow cost, at cost with no markup, and there's no enrollment or approval wait. So on price and time-to-start it's effectively a pass-through you could use today.</p>
+<p>Additional correction on OpenBroker, since it touches your "no fee in between" point. It isn't a USD reseller with a margin: it settles in GNK and deducts its ledger 1-to-1 with actual escrow cost, at cost with no markup, and there's no enrollment or approval wait. So on price and time-to-start it's effectively a pass-through you could use today.  </p>
   </div>
 </div>
 <div class="issues-comment">

@@ -2,7 +2,7 @@
 title: "#782 — [3/4] `StartInference` and `FinishInference`"
 source: https://github.com/gonka-ai/gonka/issues/782
 issue_number: 782
-synced_at: 2026-07-07T04:29:32Z
+synced_at: 2026-07-07T20:19:31Z
 template: issues-main.html
 ---
 
@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span> <span class="issues-label" style="background-color: #9214a6; color: #ffffff; border-color: #9214a6;">requires own mainnet node</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 # Background
 
 `MsgStartInference` and `MsgFinishInference` are too slow in production. Blocks should be processed by nodes within 1-2 seconds, so that block time stays below 6 seconds. This means that to process 1000 inferences in a block, we need to record 1000 `MsgStartInference`, 1000 `MsgFinishInference`, and 100-200 `MsgValidation` transactions. This means that these transactions should be processed faster than 1ms. Even though they are quite fast in tests, in production with a large state they require 10-20ms, and on some nodes 50ms or more.

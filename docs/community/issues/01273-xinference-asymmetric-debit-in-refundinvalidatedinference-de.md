@@ -2,7 +2,7 @@
 title: "#1273 — x/inference: asymmetric debit in refundInvalidatedInference — design clarification"
 source: https://github.com/gonka-ai/gonka/issues/1273
 issue_number: 1273
-synced_at: 2026-07-07T04:28:23Z
+synced_at: 2026-07-07T20:18:46Z
 template: issues-main.html
 ---
 
@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ## Question
 
 `refundInvalidatedInference` ([`x/inference/keeper/msg_server_invalidate_inference.go:64-79`](https://github.com/gonka-ai/gonka/blob/main/inference-chain/x/inference/keeper/msg_server_invalidate_inference.go#L64-L79)) issues a full-`ActualCost` escrow refund to `RequestedBy` (the client) while debiting the **same** full `ActualCost` from `executor.CoinBalance` **only** (`:74`).

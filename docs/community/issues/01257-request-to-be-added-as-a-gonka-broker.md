@@ -2,7 +2,7 @@
 title: "#1257 — Request to be added as a Gonka broker"
 source: https://github.com/gonka-ai/gonka/issues/1257
 issue_number: 1257
-synced_at: 2026-07-07T04:27:57Z
+synced_at: 2026-07-07T20:18:29Z
 template: issues-main.html
 ---
 
@@ -190,20 +190,14 @@ Gonka Relay
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-07-03 00:37 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Hi @len5ky! Thanks, this is one of the most thorough operator applications filed here. A few things to separate, because you're actually asking for two different things governed differently.
-
-On the allowlist (`devshard_escrow_params.allowed_creator_addresses`): additions happen only through on-chain governance — a param-change proposal or inclusion in a governance-approved upgrade batch. No maintainer adds an address unilaterally. Filing this issue with a funded, pubkey-published address is exactly the right way to register intent, but inclusion and timing are governance-dependent and not guaranteed, so please don't gate your roadmap on a specific approval date.
-
-On directory listing, stand your endpoint up on a managed devshard backend (more on that below), run real traffic, and let the numbers accumulate — community observability dashboards like G-Meter (https://meter.gonka.gg/), Gonka Power (https://power.gnk.space/), https://openbroker.gonka.gg/stats independently probe public broker endpoints, so your stats become verifiable by anyone. Once gonkarelay.com is live and has a few weeks of good public numbers behind it, a pull request to the docs adding it to the broker list is the natural next step.
-
-One factual update for your plan: `Qwen/Qwen3-235B-A22B-Instruct-2507-FP8` has been retired from the network, so the benchmarking matrix and the "secondary model" intent should be re-scoped around what's currently active — the model set is decided by governance per epoch, so check the live list via `GET /v1/models`. 
-
-One suggestion that could unblock most of your plan today rather than after a governance vote: your Phase A (validation, benchmarking harness) and Phase B (in-house LLM tooling, OSS-agentic integrations) don't strictly require being the escrow creator — they require throughput against real devshards. OpenBroker (https://openbroker.gonka.gg, https://github.com/gonka-ai/gonka/discussions/1363) provides exactly that: GNK-settled at cost with no markup (ledger deducted 1-to-1 with escrow cost), no enrollment wait, both protocol versions, and no rate caps beyond network capacity. Since you already hold GNK, the economics are equivalent to running your own escrows. The honest caveat, it's custodial (you deposit to an address the operator controls, access via their API key), and your latency numbers would include their proxy hop — worth stating in your methodology if you publish benchmarks gathered through it. But it would let the capacity-benchmarking and in-house workloads start now, and your published TTFT/throughput/tail-latency data would be genuinely valuable to the network either way.
-
-Where your own allowlist entry remains necessary is the part of your design that's creator-specific: client-signed passthrough, controlling your own escrow rotation and settlement, and being a direct on-chain operator for the paid surface. That case stands as filed, and the phased commitments you've laid out are the right kind of material for governance participants to weigh.
-
-Overall, the allowlist request is well-formed for governance consideration as filed. In parallel, nothing blocks you from launching this week on an at-cost managed devshard backend, running the benchmark harness and Phase A/B workloads, building a public track record on the community dashboards — and then bringing both the directory-listing PR and the allowlist case back with real numbers behind them.
+  <div class="issues-comment-body issues-content">
+    <p>Hi @len5ky! Thanks, this is one of the most thorough operator applications filed here. A few things to separate, because you're actually asking for two different things governed differently.</p>
+<p>On the allowlist (<code>devshard_escrow_params.allowed_creator_addresses</code>): additions happen only through on-chain governance — a param-change proposal or inclusion in a governance-approved upgrade batch. No maintainer adds an address unilaterally. Filing this issue with a funded, pubkey-published address is exactly the right way to register intent, but inclusion and timing are governance-dependent and not guaranteed, so please don't gate your roadmap on a specific approval date.</p>
+<p>On directory listing, stand your endpoint up on a managed devshard backend (more on that below), run real traffic, and let the numbers accumulate — community observability dashboards like G-Meter (https://meter.gonka.gg/), Gonka Power (https://power.gnk.space/), https://openbroker.gonka.gg/stats independently probe public broker endpoints, so your stats become verifiable by anyone. Once gonkarelay.com is live and has a few weeks of good public numbers behind it, a pull request to the docs adding it to the broker list is the natural next step.</p>
+<p>One factual update for your plan: <code>Qwen/Qwen3-235B-A22B-Instruct-2507-FP8</code> has been retired from the network, so the benchmarking matrix and the "secondary model" intent should be re-scoped around what's currently active — the model set is decided by governance per epoch, so check the live list via <code>GET /v1/models</code>. </p>
+<p>One suggestion that could unblock most of your plan today rather than after a governance vote: your Phase A (validation, benchmarking harness) and Phase B (in-house LLM tooling, OSS-agentic integrations) don't strictly require being the escrow creator — they require throughput against real devshards. OpenBroker (https://openbroker.gonka.gg, https://github.com/gonka-ai/gonka/discussions/1363) provides exactly that: GNK-settled at cost with no markup (ledger deducted 1-to-1 with escrow cost), no enrollment wait, both protocol versions, and no rate caps beyond network capacity. Since you already hold GNK, the economics are equivalent to running your own escrows. The honest caveat, it's custodial (you deposit to an address the operator controls, access via their API key), and your latency numbers would include their proxy hop — worth stating in your methodology if you publish benchmarks gathered through it. But it would let the capacity-benchmarking and in-house workloads start now, and your published TTFT/throughput/tail-latency data would be genuinely valuable to the network either way.</p>
+<p>Where your own allowlist entry remains necessary is the part of your design that's creator-specific: client-signed passthrough, controlling your own escrow rotation and settlement, and being a direct on-chain operator for the paid surface. That case stands as filed, and the phased commitments you've laid out are the right kind of material for governance participants to weigh.</p>
+<p>Overall, the allowlist request is well-formed for governance consideration as filed. In parallel, nothing blocks you from launching this week on an at-cost managed devshard backend, running the benchmark harness and Phase A/B workloads, building a public track record on the community dashboards — and then bringing both the directory-listing PR and the allowlist case back with real numbers behind them.</p>
   </div>
 </div>
 

@@ -2,7 +2,7 @@
 title: "#928 — [P1] Open Questions: Block Gas Limits, Fees, Cost per Participant, and System TX Prioritization"
 source: https://github.com/gonka-ai/gonka/issues/928
 issue_number: 928
-synced_at: 2026-07-07T04:28:36Z
+synced_at: 2026-07-07T20:18:54Z
 template: issues-main.html
 ---
 
@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #12a6e8; color: #24292f; border-color: #12a6e8;">Priority: Medium</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ## Summary
 
 - Introduces a governance-controlled minimum gas price (`FeeParams.min_gas_price`) enforced at consensus level via a custom `TxFeeChecker`, replacing the current `nil` fee checker that allows zero-fee transactions

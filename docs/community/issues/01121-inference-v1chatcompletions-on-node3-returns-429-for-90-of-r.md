@@ -2,7 +2,7 @@
 title: "#1121 — Inference /v1/chat/completions on node3 returns 429 for ~90% of requests — single live TA caps community gateways at ~10% pass-rate"
 source: https://github.com/gonka-ai/gonka/issues/1121
 issue_number: 1121
-synced_at: 2026-07-07T04:28:32Z
+synced_at: 2026-07-07T20:18:52Z
 template: issues-main.html
 ---
 
@@ -171,15 +171,13 @@ or any benchmark scripts on request.
     <span>[@gonkalabs](https://github.com/gonkalabs)</span>
     <span class="issues-meta-item">commented 2026-04-30 09:52 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Hey @unameisfine - this is the GonkaLabs team.
-
-To address your question about proxy.gonka.gg consistently sitting above 90% uptime: no, we don't have any special privileges on the network. Here's what's actually under the hood:
-
-Smart TA rotation - we hop between Transfer Agents instead of pinning to a single one, so a slow or rate-limited TA never blocks the pipeline.
+  <div class="issues-comment-body issues-content">
+    <p>Hey @unameisfine - this is the GonkaLabs team.</p>
+<p>To address your question about proxy.gonka.gg consistently sitting above 90% uptime: no, we don't have any special privileges on the network. Here's what's actually under the hood:</p>
+<p>Smart TA rotation - we hop between Transfer Agents instead of pinning to a single one, so a slow or rate-limited TA never blocks the pipeline.
 A small upstream wallet pool (3 wallets) - purely for distributing signing load across multiple identities. It doesn't grant any special standing on the network; any user can do the same.
 Configuration tuned via an autoresearch loop - we ran a Karpathy-style trial-and-error loop on the proxy's configuration, optimizing for a single metric: percentage of successful chat completions. Once you have a clean metric, almost any system can be improved by iterating on it.
-So the answer is just: aggressive tuning, nothing more. Everything is open source at https://github.com/gonkalabs/opengnk — feel free to fork it and reproduce the same results.
+So the answer is just: aggressive tuning, nothing more. Everything is open source at https://github.com/gonkalabs/opengnk — feel free to fork it and reproduce the same results.</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -187,8 +185,8 @@ So the answer is just: aggressive tuning, nothing more. Everything is open sourc
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-05-21 21:03 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    @unameisfine Please note that the Developer Quickstart has been significantly updated: https://gonka.ai/docs/developer/quickstart/ If you still have any questions after reviewing it, please create a new issue.
+  <div class="issues-comment-body issues-content">
+    <p>@unameisfine Please note that the Developer Quickstart has been significantly updated: https://gonka.ai/docs/developer/quickstart/ If you still have any questions after reviewing it, please create a new issue.</p>
   </div>
 </div>
 

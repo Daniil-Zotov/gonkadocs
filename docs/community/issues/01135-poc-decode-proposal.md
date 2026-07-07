@@ -2,7 +2,7 @@
 title: "#1135 — PoC-decode proposal"
 source: https://github.com/gonka-ai/gonka/issues/1135
 issue_number: 1135
-synced_at: 2026-07-07T04:28:30Z
+synced_at: 2026-07-07T20:18:50Z
 template: issues-main.html
 ---
 
@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 # PoC-decode: Extending Proof-of-Compute to Decode Steps
 
 ## Summary

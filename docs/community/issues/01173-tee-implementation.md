@@ -2,7 +2,7 @@
 title: "#1173 — TEE Implementation"
 source: https://github.com/gonka-ai/gonka/issues/1173
 issue_number: 1173
-synced_at: 2026-07-07T04:27:55Z
+synced_at: 2026-07-07T20:18:28Z
 template: issues-main.html
 ---
 
@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span> <span class="issues-label" style="background-color: #1d27b4; color: #ffffff; border-color: #1d27b4;">protocol</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 
 ### Discussed in https://github.com/gonka-ai/gonka/discussions/951
 

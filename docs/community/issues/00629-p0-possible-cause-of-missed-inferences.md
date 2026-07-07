@@ -2,7 +2,7 @@
 title: "#629 — [P0] Possible cause of missed inferences"
 source: https://github.com/gonka-ai/gonka/issues/629
 issue_number: 629
-synced_at: 2026-07-07T04:28:44Z
+synced_at: 2026-07-07T20:19:00Z
 template: issues-main.html
 ---
 
@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 We're distributing inference requests on the chain based on the total weight of the participant, not the weight of the participant's mlnode for a specific `model_id`. Seems like it's easy can be the cause of missed inferences (e.g. I have 100 nodes for `model_id1` and 3 nodes for `model_id2`, but I get the amount of requests based on the weight of 103 nodes for `model_id2`)
 </div>
 
@@ -55,7 +55,7 @@ We're distributing inference requests on the chain based on the total weight of 
   <div class="issues-comment-body issues-content">
     <p>This issue is a subset of multi-model support (https://github.com/gonka-ai/gonka/issues/728)
 We'll figure out when to review and merge this issue during work on multimodels https://github.com/gonka-ai/gonka/issues/728
-@x0152 @0xgonka</p>
+@x0152 @0xgonka </p>
   </div>
 </div>
 <div class="issues-comment">

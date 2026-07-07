@@ -2,7 +2,7 @@
 title: "#927 — [P1] Maintenance window for hosts"
 source: https://github.com/gonka-ai/gonka/issues/927
 issue_number: 927
-synced_at: 2026-07-07T04:28:15Z
+synced_at: 2026-07-07T20:18:41Z
 template: issues-main.html
 ---
 
@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 The proposal is described here https://github.com/gonka-ai/gonka/blob/22639fe25aada8090d971402e136714fa9c3b0e7/proposals/maintenance-windows/maintenance-windows.md
 
 The preliminary implementation plan is outlined here https://github.com/gonka-ai/gonka/commit/219e975ae1b8a74d895e6a09ab5a26f629efd6f3, but it would be great if you could review it with a critical eye and suggest your own implementation approach based on your experience  

@@ -2,7 +2,7 @@
 title: "#652 — Certik(CSA-2026-001:Tachyon, was disclosed in CometBFT)"
 source: https://github.com/gonka-ai/gonka/issues/652
 issue_number: 652
-synced_at: 2026-07-07T04:29:29Z
+synced_at: 2026-07-07T20:19:29Z
 template: issues-main.html
 ---
 
@@ -38,10 +38,9 @@ As Gonka is a Cosmos-based project that uses CometBFT, Certik kindly recommends 
     <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
     <span class="issues-meta-item">commented 2026-02-08 14:14 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    PR created: https://github.com/gonka-ai/gonka/pull/675
-
-Updates CometBFT to v0.38.21 to fix the Tachyon vulnerability (CSA-2026-001).
+  <div class="issues-comment-body issues-content">
+    <p>PR created: https://github.com/gonka-ai/gonka/pull/675</p>
+<p>Updates CometBFT to v0.38.21 to fix the Tachyon vulnerability (CSA-2026-001).</p>
   </div>
 </div>
 

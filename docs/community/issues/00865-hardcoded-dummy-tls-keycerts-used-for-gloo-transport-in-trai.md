@@ -2,7 +2,7 @@
 title: "#865 — Hard‑coded dummy TLS key/certs used for Gloo transport in training manager Body"
 source: https://github.com/gonka-ai/gonka/issues/865
 issue_number: 865
-synced_at: 2026-07-07T04:29:28Z
+synced_at: 2026-07-07T20:19:29Z
 template: issues-main.html
 ---
 
@@ -97,8 +97,8 @@ def _start(self, train_dict: dict):
     <span>[@tamazgadaev](https://github.com/tamazgadaev)</span>
     <span class="issues-meta-item">commented 2026-03-12 19:43 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    This was a quick debug fix. Training is not currently supported and basically needs total revision, so I'd say this issue low-priority
+  <div class="issues-comment-body issues-content">
+    <p>This was a quick debug fix. Training is not currently supported and basically needs total revision, so I'd say this issue low-priority</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -106,8 +106,8 @@ def _start(self, train_dict: dict):
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-03-12 20:24 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    It’s hardcoded for test pipeline, on purpose
+  <div class="issues-comment-body issues-content">
+    <p>It’s hardcoded for test pipeline, on purpose</p>
   </div>
 </div>
 

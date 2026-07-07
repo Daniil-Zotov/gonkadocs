@@ -2,7 +2,7 @@
 title: "#1178 — No available public Kimi-K2.6 inference gateways"
 source: https://github.com/gonka-ai/gonka/issues/1178
 issue_number: 1178
-synced_at: 2026-07-07T04:28:34Z
+synced_at: 2026-07-07T20:18:53Z
 template: issues-main.html
 ---
 
@@ -89,8 +89,8 @@ This looks related to public Kimi gateway availability rather than total network
     <span>[@sspotanin](https://github.com/sspotanin)</span>
     <span class="issues-meta-item">commented 2026-05-18 10:50 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    works fine today
+  <div class="issues-comment-body issues-content">
+    <p>works fine today</p>
   </div>
 </div>
 

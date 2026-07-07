@@ -2,7 +2,7 @@
 title: "#804 — [P0?] Extend dev and TA signature payloads"
 source: https://github.com/gonka-ai/gonka/issues/804
 issue_number: 804
-synced_at: 2026-07-07T04:28:31Z
+synced_at: 2026-07-07T20:18:51Z
 template: issues-main.html
 ---
 
@@ -56,8 +56,8 @@ New payload: `prompt_hash + timestamp + ta_address + executor_address + inferenc
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-03-21 00:13 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Per discussion with @DimaOrekhovPS, this issue may become irrelevant after v0.2.12 and depends on whether we fully switch to the new inference system in the next upgrade or not, wdyt @0xgonka @gmorgachev?
+  <div class="issues-comment-body issues-content">
+    <p>Per discussion with @DimaOrekhovPS, this issue may become irrelevant after v0.2.12 and depends on whether we fully switch to the new inference system in the next upgrade or not, wdyt @0xgonka @gmorgachev?</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -65,8 +65,8 @@ New payload: `prompt_hash + timestamp + ta_address + executor_address + inferenc
     <span>[@0xgonka](https://github.com/0xgonka)</span>
     <span class="issues-meta-item">commented 2026-03-21 07:45 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    security-wise it is important someone can't just use a dev signature from another inference. I am not sure what PR in 0.2.12 makes this irrelevant but would be happy to take a look if someone can point me in that direction
+  <div class="issues-comment-body issues-content">
+    <p>security-wise it is important someone can't just use a dev signature from another inference. I am not sure what PR in 0.2.12 makes this irrelevant but would be happy to take a look if someone can point me in that direction</p>
   </div>
 </div>
 

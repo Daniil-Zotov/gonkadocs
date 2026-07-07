@@ -2,7 +2,7 @@
 title: "#612 — `/chat/completion` flow development"
 source: https://github.com/gonka-ai/gonka/issues/612
 issue_number: 612
-synced_at: 2026-07-07T04:29:08Z
+synced_at: 2026-07-07T20:19:16Z
 template: issues-main.html
 ---
 
@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 *(empty)*
 </div>
 
@@ -35,7 +35,7 @@ template: issues-main.html
     <span class="issues-meta-item">commented 2026-03-22 22:59 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Hey @KKizilov, is this issue still in progress?</p>
+    <p>Hey @KKizilov, is this issue still in progress? </p>
   </div>
 </div>
 <div class="issues-comment">

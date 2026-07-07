@@ -2,7 +2,7 @@
 title: "#412 — [P2] MLNode Token-Based Authentication and FQDN Support"
 source: https://github.com/gonka-ai/gonka/issues/412
 issue_number: 412
-synced_at: 2026-07-07T04:28:02Z
+synced_at: 2026-07-07T20:18:32Z
 template: issues-main.html
 ---
 
@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ## Goal / Problem
 
 Current MLNode registration in the API service requires three static parameters:
@@ -177,7 +177,7 @@ Where to do this and do we have a validate method already existed to validate th
     <span class="issues-meta-item">commented 2026-02-04 23:26 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>@DimaOrekhovPS did the initial review, but now @DimaOrekhovPS  is waiting for @Pegasus-starry  to resolve conflicts with the current gonka version</p>
+    <p>@DimaOrekhovPS did the initial review, but now @DimaOrekhovPS  is waiting for @Pegasus-starry  to resolve conflicts with the current gonka version   </p>
   </div>
 </div>
 <div class="issues-comment">

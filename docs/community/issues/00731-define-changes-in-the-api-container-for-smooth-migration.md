@@ -2,7 +2,7 @@
 title: "#731 — Define changes in the API container for smooth migration"
 source: https://github.com/gonka-ai/gonka/issues/731
 issue_number: 731
-synced_at: 2026-07-07T04:29:34Z
+synced_at: 2026-07-07T20:19:33Z
 template: issues-main.html
 ---
 
@@ -34,10 +34,12 @@ template: issues-main.html
     <span>[@tamazgadaev](https://github.com/tamazgadaev)</span>
     <span class="issues-meta-item">commented 2026-03-02 01:18 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    - Fix the 400/422 issue in API container
-- Adjust thresholds a little bit (onchain, not API)
-- Do one of the two: a) ignore -9999 logprobs in validation b) enforce top_p and top_k in requests (a) preferred)
+  <div class="issues-comment-body issues-content">
+    <ul>
+<li>Fix the 400/422 issue in API container</li>
+<li>Adjust thresholds a little bit (onchain, not API)</li>
+<li>Do one of the two: a) ignore -9999 logprobs in validation b) enforce top_p and top_k in requests (a) preferred)</li>
+</ul>
   </div>
 </div>
 <div class="issues-comment">
@@ -45,8 +47,8 @@ template: issues-main.html
     <span>[@tamazgadaev](https://github.com/tamazgadaev)</span>
     <span class="issues-meta-item">commented 2026-03-03 03:06 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Actually, we don't strictly need any of these 3 for smooth migration. 1 is desirable, 2 nice to have (and we'll get the threshold values), 3 is not needed
+  <div class="issues-comment-body issues-content">
+    <p>Actually, we don't strictly need any of these 3 for smooth migration. 1 is desirable, 2 nice to have (and we'll get the threshold values), 3 is not needed</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -54,8 +56,8 @@ template: issues-main.html
     <span>[@gmorgachev](https://github.com/gmorgachev)</span>
     <span class="issues-meta-item">commented 2026-03-11 19:54 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    i think we need to close this one. fix 400/422 is independent bug to fix
+  <div class="issues-comment-body issues-content">
+    <p>i think we need to close this one. fix 400/422 is independent bug to fix</p>
   </div>
 </div>
 

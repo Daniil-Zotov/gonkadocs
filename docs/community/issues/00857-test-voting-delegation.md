@@ -2,7 +2,7 @@
 title: "#857 — Test voting delegation"
 source: https://github.com/gonka-ai/gonka/issues/857
 issue_number: 857
-synced_at: 2026-07-07T04:29:35Z
+synced_at: 2026-07-07T20:19:33Z
 template: issues-main.html
 ---
 
@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 In order to make voting more convenient for the contributors, we are exploring delegation of voting rights. The flow of the delegation is the following:
 Granter gives grantee permission to send specific message types on their behalf. The grantee uses MsgExec to run those messages; the chain checks the authz grant and treats the message as coming from the granter.
 

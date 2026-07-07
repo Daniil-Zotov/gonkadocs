@@ -2,7 +2,7 @@
 title: "#781 — [2/4] `StartInference` and `FinishInference`"
 source: https://github.com/gonka-ai/gonka/issues/781
 issue_number: 781
-synced_at: 2026-07-07T04:29:32Z
+synced_at: 2026-07-07T20:19:32Z
 template: issues-main.html
 ---
 
@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 # Background
 
 `MsgStartInference` and `MsgFinishInference` are too slow in production. Blocks should be processed by nodes within 1-2 seconds, so that block time stays below 6 seconds. This means that to process 1000 inferences in a block, we need to record 1000 `MsgStartInference`, 1000 `MsgFinishInference`, and 100-200 `MsgValidation` transactions. This means that these transactions should be processed faster than 1ms. Even though they are quite fast in tests, in production with a large state they require 10-20ms, and on some nodes 50ms or more.
@@ -156,7 +156,7 @@ So when we move DevelopersStats off-chain, we also should handle validation even
   </div>
   <div class="issues-comment-body issues-content">
     <p>@x0152 I see that you actually store the values directly in HandleComplete. Do you think that it will be faster that way? Should we clean the old keys to not store them for entire history on chain for every block?</p>
-<p>Have you implemented it only for DynamicPricing or for MaximumInvalidationsReached as well?</p>
+<p>Have you implemented it only for DynamicPricing or for MaximumInvalidationsReached as well? </p>
   </div>
 </div>
 <div class="issues-comment">
@@ -169,7 +169,7 @@ So when we move DevelopersStats off-chain, we also should handle validation even
 <p><a href="https://github.com/akup">@akup</a> have you moved the iterating though inferences to EndBlocker for InferenceValidationDetails in 782?</p>
 </blockquote>
 <p>I've implemented another approach it is described (with motivation) in details at https://github.com/gonka-ai/gonka/pull/793
-Need to discuss it.</p>
+Need to discuss it. </p>
   </div>
 </div>
 <div class="issues-comment">

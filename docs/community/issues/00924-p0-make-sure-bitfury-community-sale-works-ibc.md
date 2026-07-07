@@ -2,7 +2,7 @@
 title: "#924 — [P0] Make sure Bitfury community sale works: IBC"
 source: https://github.com/gonka-ai/gonka/issues/924
 issue_number: 924
-synced_at: 2026-07-07T04:28:56Z
+synced_at: 2026-07-07T20:19:08Z
 template: issues-main.html
 ---
 
@@ -34,9 +34,9 @@ template: issues-main.html
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-03-20 23:21 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    @maria-mitina said that Community Sale contract tested with IBC, worked well.
-@GLiberman @0xgonka do we have other scenarios to try?
+  <div class="issues-comment-body issues-content">
+    <p>@maria-mitina said that Community Sale contract tested with IBC, worked well.
+@GLiberman @0xgonka do we have other scenarios to try?</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -44,11 +44,9 @@ template: issues-main.html
     <span>[@maria-mitina](https://github.com/maria-mitina)</span>
     <span class="issues-meta-item">commented 2026-03-25 09:11 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    it will be great to confirm/decide whether bridge is needed for the Bitfury scenario.
-If yes, we will work this scenario out and test.
-
-
+  <div class="issues-comment-body issues-content">
+    <p>it will be great to confirm/decide whether bridge is needed for the Bitfury scenario.
+If yes, we will work this scenario out and test.</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -56,11 +54,10 @@ If yes, we will work this scenario out and test.
     <span>[@maria-mitina](https://github.com/maria-mitina)</span>
     <span class="issues-meta-item">commented 2026-03-25 17:15 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    @mtvnastya and I had a discussion about it, and bridge is needed for the Bitfury contract. We need to fix the hardcoded chainId and rebuild the binary. Happy to test after that 
-@GLiberman - any chance you could update us on the bridge fix? 
-
-FYI, @tcharchian 
+  <div class="issues-comment-body issues-content">
+    <p>@mtvnastya and I had a discussion about it, and bridge is needed for the Bitfury contract. We need to fix the hardcoded chainId and rebuild the binary. Happy to test after that 
+@GLiberman - any chance you could update us on the bridge fix? </p>
+<p>FYI, @tcharchian </p>
   </div>
 </div>
 

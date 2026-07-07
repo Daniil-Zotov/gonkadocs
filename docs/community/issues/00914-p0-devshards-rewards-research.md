@@ -2,7 +2,7 @@
 title: "#914 — [P0] `devshards` rewards (research)"
 source: https://github.com/gonka-ai/gonka/issues/914
 issue_number: 914
-synced_at: 2026-07-07T04:29:08Z
+synced_at: 2026-07-07T20:19:15Z
 template: issues-main.html
 ---
 
@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ## Tasks
 
 - [ ] Calculate what the fee on `devshards` should be for different `devshard` sizes
@@ -135,7 +135,7 @@ However, this attack is not profit-driven.</p>
     <span class="issues-meta-item">commented 2026-03-26 15:07 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>The research part will be in Progress, but doesn't block the implementation.</p>
+    <p>The research part will be in Progress, but doesn't block the implementation. </p>
   </div>
 </div>
 

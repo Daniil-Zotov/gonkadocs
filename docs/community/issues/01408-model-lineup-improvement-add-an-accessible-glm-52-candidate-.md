@@ -2,7 +2,7 @@
 title: "#1408 — Model lineup improvement: add an accessible GLM-5.2 candidate and reconsider MiniMax-M2.7 as default"
 source: https://github.com/gonka-ai/gonka/issues/1408
 issue_number: 1408
-synced_at: 2026-07-07T04:27:51Z
+synced_at: 2026-07-07T20:18:25Z
 template: issues-main.html
 ---
 
@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ## Model lineup improvement: add an accessible GLM-5.2 candidate and reconsider the default model
 
 ### Problem

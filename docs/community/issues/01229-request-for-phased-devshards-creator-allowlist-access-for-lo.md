@@ -2,7 +2,7 @@
 title: "#1229 — Request for phased DevShards creator allowlist access for local gateway MVP validation"
 source: https://github.com/gonka-ai/gonka/issues/1229
 issue_number: 1229
-synced_at: 2026-07-07T04:28:12Z
+synced_at: 2026-07-07T20:18:39Z
 template: issues-main.html
 ---
 
@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ## Summary
 
 I am building an OpenAI-compatible reliability gateway for Gonka-hosted models, starting with `moonshotai/Kimi-K2.6`.

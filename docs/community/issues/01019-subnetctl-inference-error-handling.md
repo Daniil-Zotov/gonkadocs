@@ -2,7 +2,7 @@
 title: "#1019 — subnetctl: inference error handling"
 source: https://github.com/gonka-ai/gonka/issues/1019
 issue_number: 1019
-synced_at: 2026-07-07T04:28:00Z
+synced_at: 2026-07-07T20:18:32Z
 template: issues-main.html
 ---
 
@@ -123,8 +123,8 @@ That timeout path addresses **slow or stuck executors**, not **misclassified tra
     <span>[@unameisfine](https://github.com/unameisfine)</span>
     <span class="issues-meta-item">commented 2026-04-08 21:06 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Taking this. Submitted a minimal fix that addresses the core symptom (fatal 4xx swallowed into timeouts) in PR to follow, leaving the broader phase-aware retry design (§2 and §3 in the issue) for a separate change.
+  <div class="issues-comment-body issues-content">
+    <p>Taking this. Submitted a minimal fix that addresses the core symptom (fatal 4xx swallowed into timeouts) in PR to follow, leaving the broader phase-aware retry design (§2 and §3 in the issue) for a separate change.</p>
   </div>
 </div>
 

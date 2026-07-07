@@ -2,7 +2,7 @@
 title: "#891 — [P0] Proxy server for `devshards`: timeout handling"
 source: https://github.com/gonka-ai/gonka/issues/891
 issue_number: 891
-synced_at: 2026-07-07T04:29:10Z
+synced_at: 2026-07-07T20:19:16Z
 template: issues-main.html
 ---
 
@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 At the moment, the proxy server in `/subnet/cmd/subnetctl` handles 3 types of actions: chat completions (with diff propagation), finalizing `devshards`, and querying the `devshards` status.
 
 It should also handle timeout-related mechanisms.

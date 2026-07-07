@@ -2,7 +2,7 @@
 title: "#631 — Add message to transfer amount with vesting"
 source: https://github.com/gonka-ai/gonka/issues/631
 issue_number: 631
-synced_at: 2026-07-07T04:29:45Z
+synced_at: 2026-07-07T20:19:40Z
 template: issues-main.html
 ---
 
@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 When the community distributes funds to miners, the transferred tokens should vest over a fixed 180-epoch period, rather than being fully available at the time of transfer.
 
 </div>

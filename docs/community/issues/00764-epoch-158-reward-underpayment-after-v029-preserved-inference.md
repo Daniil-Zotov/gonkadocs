@@ -2,7 +2,7 @@
 title: "#764 — Epoch 158 reward underpayment after v0.2.9: preserved inference-slot weight was reset"
 source: https://github.com/gonka-ai/gonka/issues/764
 issue_number: 764
-synced_at: 2026-07-07T04:29:41Z
+synced_at: 2026-07-07T20:19:37Z
 template: issues-main.html
 ---
 
@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 After upgrade v0.2.9, part of epoch 158 rewards appears to be distributed incorrectly.
   Validators that had ML nodes in preserved inference slot (POC_SLOT, TimeslotAllocation[1]) were not paid.
 

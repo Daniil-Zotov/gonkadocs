@@ -2,7 +2,7 @@
 title: "#630 — Research: Ephemeral port exhaustion"
 source: https://github.com/gonka-ai/gonka/issues/630
 issue_number: 630
-synced_at: 2026-07-07T04:29:20Z
+synced_at: 2026-07-07T20:19:23Z
 template: issues-main.html
 ---
 
@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 This is a future task. A detailed description will be provided in the near future.
 
 Please do not start working on this task without the detailed specification, as it may turn out to be a different direction than expected, which could reduce the chances of receiving a reward.
@@ -110,7 +110,7 @@ Creates new <code>http.Client</code> for each health check call.</p>
     <span class="issues-meta-item">commented 2026-01-29 00:21 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Hello @AlexeySamosadov, thank you for your contribution. However, I'd suggest waiting for @libermans or @gmorgachev to give a detailed description of the task and expected results.</p>
+    <p>Hello @AlexeySamosadov, thank you for your contribution. However, I'd suggest waiting for @libermans or @gmorgachev to give a detailed description of the task and expected results.  </p>
   </div>
 </div>
 <div class="issues-comment">

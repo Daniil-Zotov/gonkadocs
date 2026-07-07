@@ -2,7 +2,7 @@
 title: "#744 — [P1] Don’t require developers to register as Participants to run inference"
 source: https://github.com/gonka-ai/gonka/issues/744
 issue_number: 744
-synced_at: 2026-07-07T04:29:12Z
+synced_at: 2026-07-07T20:19:18Z
 template: issues-main.html
 ---
 
@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 Currently, the chain requires a Participant record not only to host, but also to send inference requests. There is no real reason for this, since the public key is available in the Account record after the first on-chain transaction signed by that account is executed. That should be sufficient.
 
 - [ ] Remove the requirement to create a Participant record.
@@ -71,7 +71,7 @@ Currently, the chain requires a Participant record not only to host, but also to
 <p><a href="https://github.com/tcharchian">@tcharchian</a> the PR itself is marked for milestone 0.2.11. what is valid?</p>
 </blockquote>
 <p>Per @patimen, let's move it to v0.2.12. https://github.com/gonka-ai/gonka/pull/750#issuecomment-3938311002
-cc: @x0152</p>
+cc: @x0152  </p>
   </div>
 </div>
 

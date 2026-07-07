@@ -2,7 +2,7 @@
 title: "#772 — Slashed coins should not be burned"
 source: https://github.com/gonka-ai/gonka/issues/772
 issue_number: 772
-synced_at: 2026-07-07T04:29:30Z
+synced_at: 2026-07-07T20:19:30Z
 template: issues-main.html
 ---
 
@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 Currently, slashed coins are burned.
 This behavior should be changed.
 
@@ -53,7 +53,7 @@ Expected behavior:
     <span class="issues-meta-item">commented 2026-02-26 18:29 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>@patimen</p>
+    <p>@patimen </p>
   </div>
 </div>
 

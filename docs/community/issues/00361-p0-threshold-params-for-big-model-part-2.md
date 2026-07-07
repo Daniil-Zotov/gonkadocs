@@ -2,7 +2,7 @@
 title: "#361 — [P0] Threshold + Params for big model. Part 2."
 source: https://github.com/gonka-ai/gonka/issues/361
 issue_number: 361
-synced_at: 2026-07-07T04:30:51Z
+synced_at: 2026-07-07T20:20:23Z
 template: issues-main.html
 ---
 
@@ -47,9 +47,8 @@ template: issues-main.html
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2025-12-05 22:16 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    GPT-OSS can be implemented after the vLLM update. Right now, it is being handled by community contributors from the bounty program  https://discord.com/channels/1336477374442770503/1425189436748206171/1446142256900997152
-
+  <div class="issues-comment-body issues-content">
+    <p>GPT-OSS can be implemented after the vLLM update. Right now, it is being handled by community contributors from the bounty program  https://discord.com/channels/1336477374442770503/1425189436748206171/1446142256900997152</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -57,8 +56,8 @@ template: issues-main.html
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2025-12-05 22:18 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    The threshold-calculation task is completed for the models listed above (except GTP-OSS). They haven’t deployed it to the chain yet. They will most likely be deployed after the vLLM update  
+  <div class="issues-comment-body issues-content">
+    <p>The threshold-calculation task is completed for the models listed above (except GTP-OSS). They haven’t deployed it to the chain yet. They will most likely be deployed after the vLLM update  </p>
   </div>
 </div>
 

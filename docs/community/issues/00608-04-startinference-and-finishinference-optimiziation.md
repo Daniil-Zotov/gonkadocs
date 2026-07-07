@@ -2,7 +2,7 @@
 title: "#608 — [0/4] `StartInference` and `FinishInference`: optimiziation"
 source: https://github.com/gonka-ai/gonka/issues/608
 issue_number: 608
-synced_at: 2026-07-07T04:29:33Z
+synced_at: 2026-07-07T20:19:32Z
 template: issues-main.html
 ---
 
@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 StartInference and FinishInference should be significantly optimized, as they are messages used frequently—potentially 1,000+ times per block. The execution time of these messages should be below 1 ms, ideally below 0.2 ms. (currently with 1000 participants, and 1 grantee per account, StartInference can be 0.4-0.5ms, and FinishInference 4-5ms)
 
 1. The biggest contributor to the execution time of FinishInference (or late StartInference) is reading and writing EpochGroup. EpochGroup shouldn’t be read or written in frequently executed messages, and unmarshaling/marshaling that large blob is too slow. We should either move the values we need to access/edit into separate records, or process these updates in EndBlocker.

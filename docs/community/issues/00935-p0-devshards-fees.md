@@ -2,7 +2,7 @@
 title: "#935 — [P0] `devshards` fees"
 source: https://github.com/gonka-ai/gonka/issues/935
 issue_number: 935
-synced_at: 2026-07-07T04:28:38Z
+synced_at: 2026-07-07T20:18:56Z
 template: issues-main.html
 ---
 
@@ -43,12 +43,12 @@ Context: https://github.com/gonka-ai/gonka/issues/914#issuecomment-4090483233
     <span>[@KKizilov](https://github.com/KKizilov)</span>
     <span class="issues-meta-item">commented 2026-03-26 15:06 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    > Calculate and charge fee for subnets
- Will be done by March 29th.
-
-All the remaining items will be done by April 5th
-
+  <div class="issues-comment-body issues-content">
+    <blockquote>
+<p>Calculate and charge fee for subnets
+ Will be done by March 29th.</p>
+</blockquote>
+<p>All the remaining items will be done by April 5th</p>
   </div>
 </div>
 

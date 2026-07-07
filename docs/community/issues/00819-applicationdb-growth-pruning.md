@@ -2,7 +2,7 @@
 title: "#819 — `application.db` growth / pruning"
 source: https://github.com/gonka-ai/gonka/issues/819
 issue_number: 819
-synced_at: 2026-07-07T04:29:28Z
+synced_at: 2026-07-07T20:19:29Z
 template: issues-main.html
 ---
 
@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span> <span class="issues-label" style="background-color: #008672; color: #ffffff; border-color: #008672;">help wanted</span> <span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 
 ### Discussed in https://github.com/gonka-ai/gonka/discussions/817
 
@@ -185,7 +185,7 @@ application.db will become 3-5x smaller and will be more properly used.</p>
 best in class solution -  IAVLX (SDK v0.54+) commit 20ms vs 150++ms.
 iavl-cache-size = 5000000 в app.toml // more RAM better.
 inter-block-cache = true</p>
-<p>p.s. I can make sample code for inference/end_blocker/keeper.go if needed. but upper should work fine and fix problem asap.</p>
+<p>p.s. I can make sample code for inference/end_blocker/keeper.go if needed. but upper should work fine and fix problem asap. </p>
   </div>
 </div>
 <div class="issues-comment">
@@ -198,7 +198,7 @@ inter-block-cache = true</p>
 <p>Root cause: application.db growth — code review + live data TL;DR: Not a config problem. The pruning system silently deletes nothing on nodes that missed upgrade v0.2.4 (InferencePruningMax = 0 in DefaultEpochParams), and 9+ large collections were never pruned at all. Live data (epochs 158–188, gonka.gg): 2.3M inferences over 31 epochs, peak 241K/epoch Estimated application.db growth: ~7 GB (with payloads) / ~1.2 GB (metadata only) Root causes in code: InferencePruningMax = 0 by default (inference-chain/x/inference/types/params.go, DefaultEpochParams). On nodes without upgrade v0.2.4, pruning deletes zero records per block. The upgrade handler (app/upgrades/v0_2_4/upgrades.go) sets it to 5000 — but only for nodes that actually ran it. Deprecated payload fields still stored on-chain. inference.proto still carries prompt_payload, response_payload, original_prompt inside every Inference written to application.db via SetInference. 9 large epoch-keyed collections never pruned. EpochPerformanceSummaries, ConfirmationPoCEvents, PoCValidationsV2, MLNodeWeightDistributions and others in keeper.go have zero pruning logic and grow unboundedly regardless of config.</p>
 <p>n nodes that missed upgrade v0.2.4</p>
 </blockquote>
-<p>This parameter stored on chain =&gt; all nodes who in sync with chain will use the one from 0.2.4 upgrade handler</p>
+<p>This parameter stored on chain =&gt; all nodes who in sync with chain will use the one from 0.2.4 upgrade handler </p>
   </div>
 </div>
 <div class="issues-comment">

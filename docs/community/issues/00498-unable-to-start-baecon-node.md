@@ -2,7 +2,7 @@
 title: "#498 — Unable to start baecon node"
 source: https://github.com/gonka-ai/gonka/issues/498
 issue_number: 498
-synced_at: 2026-07-07T04:30:12Z
+synced_at: 2026-07-07T20:19:57Z
 template: issues-main.html
 ---
 
@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 From this raw log. I need assist how to fix this issue. Or can i change checkpoint origin state and block to other?
 
 `bridge  | Stopping Prysm log formatter (PID: 82343)

@@ -2,7 +2,7 @@
 title: "#784 — [P2] Possible underfunded issues"
 source: https://github.com/gonka-ai/gonka/issues/784
 issue_number: 784
-synced_at: 2026-07-07T04:28:59Z
+synced_at: 2026-07-07T20:19:09Z
 template: issues-main.html
 ---
 
@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 # Problem
 Much of the Gonka system depends on funds being moved in and out of "escrow", which is stored in the types.ModuleName ("inference") account (the "module account"). Payments for inferences are moved here as well as money for rewards. There are also (possibly) movement from or to other module accounts (such as collateral, governance and streamvesting).
 

@@ -2,7 +2,7 @@
 title: "#1274 — Run Gonka documentation translation on Gonka"
 source: https://github.com/gonka-ai/gonka/issues/1274
 issue_number: 1274
-synced_at: 2026-07-07T04:28:24Z
+synced_at: 2026-07-07T20:18:47Z
 template: issues-main.html
 ---
 
@@ -34,8 +34,8 @@ Connect the Gonka website to Gonka itself and run documentation translation onli
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-05-29 01:01 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    https://github.com/gonka-ai/gonka-docs/issues/1149
+  <div class="issues-comment-body issues-content">
+    <p>https://github.com/gonka-ai/gonka-docs/issues/1149</p>
   </div>
 </div>
 

@@ -2,7 +2,7 @@
 title: "#1081 — Binomial test p0 floor/ceiling mismatch — stricter downtime threshold silently never enforced"
 source: https://github.com/gonka-ai/gonka/issues/1081
 issue_number: 1081
-synced_at: 2026-07-07T04:28:55Z
+synced_at: 2026-07-07T20:19:07Z
 template: issues-main.html
 ---
 
@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ## Summary
 
 A floor vs. ceiling inconsistency in `decimalToPermille` causes the dynamic p0 selection and the actual binomial test to use **different p0 tables**. Validators who should be punished under the stricter threshold pass the test using the more lenient table.

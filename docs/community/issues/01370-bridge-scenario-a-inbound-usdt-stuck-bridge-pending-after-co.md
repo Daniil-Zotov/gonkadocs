@@ -2,7 +2,7 @@
 title: "#1370 — Bridge Scenario A: inbound USDT stuck BRIDGE_PENDING after coordinated node halt (4-validator testnet)"
 source: https://github.com/gonka-ai/gonka/issues/1370
 issue_number: 1370
-synced_at: 2026-07-07T04:28:02Z
+synced_at: 2026-07-07T20:18:32Z
 template: issues-main.html
 ---
 
@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ## Summary
 
 Manual reproduction of **Scenario A** (coordinated `node` halt with `bridge` + `api` kept running) on **gonka-testnet-4** with a live **Sepolia USDT** inbound deposit. Result: **FAIL** — deposit ingested by API on all hosts, but only **1/4** validator votes landed on-chain; deposit remains **`BRIDGE_PENDING`** with no second USDT mint.
@@ -208,7 +208,7 @@ Manual `bridge-exchange` from validators on **18222**, **18223**, **18226** with
     <span class="issues-meta-item">commented 2026-06-29 10:50 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>duplicate of https://github.com/gonka-ai/gonka/issues/1358</p>
+    <p>duplicate of https://github.com/gonka-ai/gonka/issues/1358 </p>
   </div>
 </div>
 
