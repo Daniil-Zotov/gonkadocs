@@ -1,6 +1,6 @@
 ---
 source: https://docs.google.com/document/d/1xPmMFoXhhVXeTTvGwQ_tGCcZJgIwViqok-H08yod_Pk/edit
-synced_at: 2026-07-07T17:28:09Z
+synced_at: 2026-07-07T20:17:13Z
 ---
 
 > **Auto-sync:** this document is automatically synchronized from [Google Docs](https://docs.google.com/document/d/1xPmMFoXhhVXeTTvGwQ_tGCcZJgIwViqok-H08yod_Pk/edit) every hour. Direct edits in the repository will be overwritten.
