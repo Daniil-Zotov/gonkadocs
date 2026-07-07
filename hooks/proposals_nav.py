@@ -21,6 +21,26 @@ def _ensure_unchecked(html, nav_id):
         html = html[:match.start()] + attrs + suffix + html[match.end():]
     return html
 
+def _inject_collapse_script(html):
+    """Inject JS to collapse quarter nav sections after Material's nav init."""
+    script = """
+<script>
+(function() {
+  function collapseQuarters() {
+    for (var i = 2; i <= 6; i++) {
+      var cb = document.getElementById('__nav_3_' + i);
+      if (cb) cb.checked = false;
+    }
+  }
+  collapseQuarters();
+  if (typeof document$ !== 'undefined') {
+    document$.subscribe(collapseQuarters);
+  }
+})();
+</script>
+"""
+    return html.replace("</body>", script.strip() + "\n</body>")
+
 def on_post_page(output, page=None, config=None):
     if page is None or page.file is None:
         return output
@@ -31,4 +51,6 @@ def on_post_page(output, page=None, config=None):
         # Collapse all quarter subsections (nav_3_2 through nav_3_6)
         for i in range(2, 7):
             output = _ensure_unchecked(output, f"__nav_3_{i}")
+        # Inject JS to re-collapse quarters after Material's client-side nav init
+        output = _inject_collapse_script(output)
     return output
