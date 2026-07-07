@@ -30,7 +30,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
-          git add docs/proposals/proposals/ docs/overrides/partials/proposals-quarters-nav.html mkdocs.yml
+          git add docs/proposals/proposals/ mkdocs.yml
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
