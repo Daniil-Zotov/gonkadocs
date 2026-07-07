@@ -28,18 +28,18 @@ template: proposals-oview.html
 </div>
 
 <div class="prop-quarter">
-<h2>2026-q3</h2>
+<h2>2026-Q3</h2>
 <p>1 proposals</p>
 <div class="prop-card" data-status="prop-voting">
   <div class="prop-card-header">
-    <a href="80/" class="prop-card-title">#80 - GRC Proposal #3 - Restitution</a>
+    <a href="80/" class="prop-card-title">#80 – GRC Proposal #3 - Restitution</a>
     <span class="prop-badge prop-voting">Voting</span>
   </div>
   <div class="prop-card-meta">
-    <span>Submitted 2026-07-05 19:40 UTC</span>
-    <span>Voting ends 2026-07-07 19:40</span>
+    <span>Submitted 2026-07-05</span>
+    <span>Voting ends 2026-07-07</span>
   </div>
-  <div class="prop-card-desc">Restitution payout for confirmed GRC Proposal #3 cases, with Case 05 payments from proposal_id=67 deducted where the same address and epoch were already compensated, and positive victim outputs below </div>
+  <div class="prop-card-desc">Restitution payout for confirmed GRC Proposal #3 cases, with Case 05 payments from proposal_id=67 deducted where the same address and epoch were already compensated, and positive victim outputs below …</div>
 </div>
 
 </div>

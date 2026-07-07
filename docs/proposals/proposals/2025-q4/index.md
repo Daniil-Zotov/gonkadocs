@@ -28,138 +28,149 @@ template: proposals-oview.html
 </div>
 
 <div class="prop-quarter">
-<h2>2025-q4</h2>
+<h2>2025-Q4</h2>
 <p>11 proposals</p>
 <div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
-    <a href="17/" class="prop-card-title">#17 - Expected amount of Confirmation PoC per epoch</a>
+    <a href="17/" class="prop-card-title">#17 – Expected amount of Confirmation PoC per epoch</a>
     <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
-    <span>Submitted 2025-12-25 21:22 UTC</span>
-    <span>Voting ends 2025-12-26 21:22</span>
+    <span>Submitted 2025-12-25</span>
+    <span>Voting ends 2025-12-26</span>
   </div>
   <div class="prop-card-desc">Expected amount of Confirmation PoC per epoch to 4, p0 for binomial test to 0.1</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 3,261,413 (100.0%)</span> · <span class="prop-tally-no-text">No 85 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
-    <a href="16/" class="prop-card-title">#16 - Upgrade Proposal: v0.2.6</a>
+    <a href="16/" class="prop-card-title">#16 – Upgrade Proposal: v0.2.6</a>
     <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
-    <span>Submitted 2025-12-19 17:09 UTC</span>
-    <span>Voting ends 2025-12-20 17:09</span>
+    <span>Submitted 2025-12-19</span>
+    <span>Voting ends 2025-12-20</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.6</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 1,985,917 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
   <div class="prop-card-header">
-    <a href="15/" class="prop-card-title">#15 - Upgrade Proposal: v0.2.6</a>
+    <a href="15/" class="prop-card-title">#15 – Upgrade Proposal: v0.2.6</a>
     <span class="prop-badge prop-rejected">Rejected</span>
   </div>
   <div class="prop-card-meta">
-    <span>Submitted 2025-12-16 11:12 UTC</span>
-    <span>Voting ends 2025-12-17 11:12</span>
+    <span>Submitted 2025-12-16</span>
+    <span>Voting ends 2025-12-17</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.6</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 1,034,445 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
-    <a href="14/" class="prop-card-title">#14 - Sale GNK from Community Fund</a>
+    <a href="14/" class="prop-card-title">#14 – Sale GNK from Community Fund</a>
     <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
-    <span>Submitted 2025-11-26 09:35 UTC</span>
-    <span>Voting ends 2025-11-27 09:35</span>
+    <span>Submitted 2025-11-26</span>
+    <span>Voting ends 2025-11-27</span>
   </div>
   <div class="prop-card-desc">Sale GNK from Community Fund</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 1,180,961 (98.8%)</span> · <span class="prop-tally-no-text">No 9,781 (0.8%)</span> · <span class="prop-tally-veto-text">Veto 4,577 (0.4%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
-    <a href="13/" class="prop-card-title">#13 - Upgrade Proposal: v0.2.5</a>
+    <a href="13/" class="prop-card-title">#13 – Upgrade Proposal: v0.2.5</a>
     <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
-    <span>Submitted 2025-11-21 09:13 UTC</span>
-    <span>Voting ends 2025-11-22 09:13</span>
+    <span>Submitted 2025-11-21</span>
+    <span>Voting ends 2025-11-22</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.5</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 428,459 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
-    <a href="12/" class="prop-card-title">#12 - Bandwidth Limits</a>
+    <a href="12/" class="prop-card-title">#12 – Bandwidth Limits</a>
     <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
-    <span>Submitted 2025-11-12 21:22 UTC</span>
-    <span>Voting ends 2025-11-13 00:22</span>
+    <span>Submitted 2025-11-12</span>
+    <span>Voting ends 2025-11-13</span>
   </div>
   <div class="prop-card-desc">Bandwidth Limits</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 257,565 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
-    <a href="11/" class="prop-card-title">#11 - Bandwidth Limits</a>
+    <a href="11/" class="prop-card-title">#11 – Bandwidth Limits</a>
     <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
-    <span>Submitted 2025-11-12 20:00 UTC</span>
-    <span>Voting ends 2025-11-12 23:00</span>
+    <span>Submitted 2025-11-12</span>
+    <span>Voting ends 2025-11-12</span>
   </div>
   <div class="prop-card-desc">Bandwidth Limits</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 349,596 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
-    <a href="10/" class="prop-card-title">#10 - Bandwidth Limits</a>
+    <a href="10/" class="prop-card-title">#10 – Bandwidth Limits</a>
     <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
-    <span>Submitted 2025-11-12 19:26 UTC</span>
-    <span>Voting ends 2025-11-12 22:26</span>
+    <span>Submitted 2025-11-12</span>
+    <span>Voting ends 2025-11-12</span>
   </div>
   <div class="prop-card-desc">Bandwidth Limits</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 287,496 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
-    <a href="9/" class="prop-card-title">#9 - Higher Bandwidth Limits & Voting Time Back to 24H</a>
+    <a href="9/" class="prop-card-title">#9 – Higher Bandwidth Limits & Voting Time Back to 24H</a>
     <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
-    <span>Submitted 2025-11-11 09:22 UTC</span>
-    <span>Voting ends 2025-11-11 12:22</span>
+    <span>Submitted 2025-11-11</span>
+    <span>Voting ends 2025-11-11</span>
   </div>
   <div class="prop-card-desc">Higher Bandwidth Limits & Voting Time Back to 24H</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 394,887 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
-    <a href="8/" class="prop-card-title">#8 - Upgrade Proposal: v0.2.4</a>
+    <a href="8/" class="prop-card-title">#8 – Upgrade Proposal: v0.2.4</a>
     <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
-    <span>Submitted 2025-10-22 05:46 UTC</span>
-    <span>Voting ends 2025-10-22 08:46</span>
+    <span>Submitted 2025-10-22</span>
+    <span>Voting ends 2025-10-22</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.4</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 286,826 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
-    <a href="7/" class="prop-card-title">#7 - Upgrade Proposal: v0.2.3</a>
+    <a href="7/" class="prop-card-title">#7 – Upgrade Proposal: v0.2.3</a>
     <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
-    <span>Submitted 2025-10-03 04:53 UTC</span>
-    <span>Voting ends 2025-10-03 07:53</span>
+    <span>Submitted 2025-10-03</span>
+    <span>Voting ends 2025-10-03</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.3</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 132,672 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
 </div>
 
 </div>

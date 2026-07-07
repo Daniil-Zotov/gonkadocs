@@ -28,208 +28,225 @@ template: proposals-oview.html
 </div>
 
 <div class="prop-quarter">
-<h2>2026-q1</h2>
+<h2>2026-Q1</h2>
 <p>17 proposals</p>
 <div class="prop-card" data-status="prop-rejected">
   <div class="prop-card-header">
-    <a href="35/" class="prop-card-title">#35 - gonka.ai / TheSoul social media awareness project</a>
+    <a href="35/" class="prop-card-title">#35 – gonka.ai / TheSoul social media awareness project</a>
     <span class="prop-badge prop-rejected">Rejected</span>
   </div>
   <div class="prop-card-meta">
-    <span>Submitted 2026-03-30 06:47 UTC</span>
-    <span>Voting ends 2026-03-31 06:47</span>
+    <span>Submitted 2026-03-30</span>
+    <span>Voting ends 2026-03-31</span>
   </div>
+  <div class="prop-card-desc">This proposal seeks community approval for a global media initiative to build awareness of decentralized AI and position Gonka as core AI infrastructure.  Key elements: Led by TheSoul Group (full-cycl…</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 9,150 (25.5%)</span> · <span class="prop-tally-no-text">No 10,325 (28.8%)</span> · <span class="prop-tally-veto-text">Veto 2,450 (6.8%)</span> · <span class="prop-tally-abstain-text">Abstain 13,939 (38.9%)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
   <div class="prop-card-header">
-    <a href="34/" class="prop-card-title">#34 - gonka.ai / TheSoul social media awareness project</a>
+    <a href="34/" class="prop-card-title">#34 – gonka.ai / TheSoul social media awareness project</a>
     <span class="prop-badge prop-rejected">Rejected</span>
   </div>
   <div class="prop-card-meta">
-    <span>Submitted 2026-03-30 06:37 UTC</span>
-    <span>Voting ends 2026-03-31 06:37</span>
+    <span>Submitted 2026-03-30</span>
+    <span>Voting ends 2026-03-31</span>
   </div>
+  <div class="prop-card-desc">This proposal seeks community approval for a global media initiative to build awareness of decentralized AI and position Gonka as core AI infrastructure.  Key elements: Led by TheSoul Group (full-cycl…</div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
-    <a href="33/" class="prop-card-title">#33 - Epochs 132-133 compensation payout from gov module</a>
+    <a href="33/" class="prop-card-title">#33 – Epochs 132-133 compensation payout from gov module</a>
     <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
-    <span>Submitted 2026-03-26 15:10 UTC</span>
-    <span>Voting ends 2026-03-27 15:10</span>
+    <span>Submitted 2026-03-26</span>
+    <span>Voting ends 2026-03-27</span>
   </div>
   <div class="prop-card-desc">Distribute compensation for CPoC bug affected participants in epochs 132-133.</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 184,243 (41.8%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 256,296 (58.2%)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
-    <a href="32/" class="prop-card-title">#32 - Epoch 158 compensation payout from gov module (batch vesting)</a>
+    <a href="32/" class="prop-card-title">#32 – Epoch 158 compensation payout from gov module (batch vesting)</a>
     <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
-    <span>Submitted 2026-03-23 17:30 UTC</span>
-    <span>Voting ends 2026-03-24 17:30</span>
+    <span>Submitted 2026-03-23</span>
+    <span>Voting ends 2026-03-24</span>
   </div>
   <div class="prop-card-desc">Distribute compensation proportional to epoch 158 lost preserved weights. Implemented as one MsgBatchTransferWithVesting.</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 501,114 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
-    <a href="31/" class="prop-card-title">#31 - Upgrade Proposal: v0.2.11</a>
+    <a href="31/" class="prop-card-title">#31 – Upgrade Proposal: v0.2.11</a>
     <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
-    <span>Submitted 2026-03-19 05:59 UTC</span>
-    <span>Voting ends 2026-03-20 05:59</span>
+    <span>Submitted 2026-03-19</span>
+    <span>Voting ends 2026-03-20</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.11</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 673,699 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
   <div class="prop-card-header">
-    <a href="30/" class="prop-card-title">#30 - Test Proposal</a>
+    <a href="30/" class="prop-card-title">#30 – Test Proposal</a>
     <span class="prop-badge prop-rejected">Rejected</span>
   </div>
   <div class="prop-card-meta">
-    <span>Submitted 2026-03-09 02:33 UTC</span>
-    <span>Voting ends 2026-03-10 02:37</span>
+    <span>Submitted 2026-03-09</span>
+    <span>Voting ends 2026-03-10</span>
   </div>
   <div class="prop-card-desc">Testing governance voting from the wallet app.</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 0 (0.0%)</span> · <span class="prop-tally-no-text">No 47 (100.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
   <div class="prop-card-header">
-    <a href="29/" class="prop-card-title">#29 - Network Parameters Update: Disable TA Allowlist, Increase Prices 100x</a>
+    <a href="29/" class="prop-card-title">#29 – Network Parameters Update: Disable TA Allowlist, Increase Prices 100x</a>
     <span class="prop-badge prop-rejected">Rejected</span>
   </div>
   <div class="prop-card-meta">
-    <span>Submitted 2026-02-19 16:03 UTC</span>
-    <span>Voting ends 2026-02-20 16:03</span>
+    <span>Submitted 2026-02-19</span>
+    <span>Voting ends 2026-02-20</span>
   </div>
   <div class="prop-card-desc">Remove TransferAgent allowlist restrictions (empty list = all TAs allowed) and increase per-token pricing 100x (min 100, base 10000 ngonka) to reduce spam.</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 7,314 (2.9%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 243,060 (97.1%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
   <div class="prop-card-header">
-    <a href="28/" class="prop-card-title">#28 - Collateral Parameters Update</a>
+    <a href="28/" class="prop-card-title">#28 – Collateral Parameters Update</a>
     <span class="prop-badge prop-rejected">Rejected</span>
   </div>
   <div class="prop-card-meta">
-    <span>Submitted 2026-02-18 07:27 UTC</span>
-    <span>Voting ends 2026-02-19 07:27</span>
+    <span>Submitted 2026-02-18</span>
+    <span>Voting ends 2026-02-19</span>
   </div>
   <div class="prop-card-desc">0.032 GNK per 1 unit of power, 0.01% slashing for miss rate or jail, 0.5% slashing for invalid inference</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 314,460 (96.5%)</span> · <span class="prop-tally-no-text">No 11,504 (3.5%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
-    <a href="27/" class="prop-card-title">#27 - Upgrade Proposal: v0.2.10</a>
+    <a href="27/" class="prop-card-title">#27 – Upgrade Proposal: v0.2.10</a>
     <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
-    <span>Submitted 2026-02-17 09:26 UTC</span>
-    <span>Voting ends 2026-02-18 09:26</span>
+    <span>Submitted 2026-02-17</span>
+    <span>Voting ends 2026-02-18</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.10</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 1,540,653 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
-    <a href="26/" class="prop-card-title">#26 - Upgrade Proposal: v0.2.9</a>
+    <a href="26/" class="prop-card-title">#26 – Upgrade Proposal: v0.2.9</a>
     <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
-    <span>Submitted 2026-01-31 22:02 UTC</span>
-    <span>Voting ends 2026-02-01 22:02</span>
+    <span>Submitted 2026-01-31</span>
+    <span>Voting ends 2026-02-01</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.9</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 2,708,406 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
-    <a href="25/" class="prop-card-title">#25 - Upgrade Proposal: v0.2.8</a>
+    <a href="25/" class="prop-card-title">#25 – Upgrade Proposal: v0.2.8</a>
     <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
-    <span>Submitted 2026-01-28 03:02 UTC</span>
-    <span>Voting ends 2026-01-29 03:02</span>
+    <span>Submitted 2026-01-28</span>
+    <span>Voting ends 2026-01-29</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.8</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 4,153,562 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
   <div class="prop-card-header">
-    <a href="24/" class="prop-card-title">#24 - Upgrade Proposal: v0.2.8</a>
+    <a href="24/" class="prop-card-title">#24 – Upgrade Proposal: v0.2.8</a>
     <span class="prop-badge prop-rejected">Rejected</span>
   </div>
   <div class="prop-card-meta">
-    <span>Submitted 2026-01-28 00:32 UTC</span>
-    <span>Voting ends 2026-01-29 00:32</span>
+    <span>Submitted 2026-01-28</span>
+    <span>Voting ends 2026-01-29</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.8</div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
-    <a href="22/" class="prop-card-title">#22 - Allowlist Timing</a>
+    <a href="22/" class="prop-card-title">#22 – Allowlist Timing</a>
     <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
-    <span>Submitted 2026-01-17 05:28 UTC</span>
-    <span>Voting ends 2026-01-18 05:28</span>
+    <span>Submitted 2026-01-17</span>
+    <span>Voting ends 2026-01-18</span>
   </div>
   <div class="prop-card-desc">Update Expiration Dates for Developer Access and Participant Allowlist</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 3,476,742 (99.9%)</span> · <span class="prop-tally-no-text">No 2,836 (0.1%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
-    <a href="21/" class="prop-card-title">#21 - Fix mistakes in allowlist</a>
+    <a href="21/" class="prop-card-title">#21 – Fix mistakes in allowlist</a>
     <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
-    <span>Submitted 2026-01-11 06:04 UTC</span>
-    <span>Voting ends 2026-01-12 06:04</span>
+    <span>Submitted 2026-01-11</span>
+    <span>Voting ends 2026-01-12</span>
   </div>
   <div class="prop-card-desc">https://github.com/product-science/filter/tree/0354c37eb6c827f00c1e889a2b7de9952a9b84ba</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 3,020,391 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
-    <a href="20/" class="prop-card-title">#20 - Enable Whitelist</a>
+    <a href="20/" class="prop-card-title">#20 – Enable Whitelist</a>
     <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
-    <span>Submitted 2026-01-09 06:46 UTC</span>
-    <span>Voting ends 2026-01-10 06:46</span>
+    <span>Submitted 2026-01-09</span>
+    <span>Voting ends 2026-01-10</span>
   </div>
   <div class="prop-card-desc">https://github.com/product-science/filter/tree/ae59d27f04a70039bcfca94ae656e723982150cd</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 2,111,775 (90.1%)</span> · <span class="prop-tally-no-text">No 90,320 (3.9%)</span> · <span class="prop-tally-veto-text">Veto 140,607 (6.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
-    <a href="19/" class="prop-card-title">#19 - Upgrade Proposal: v0.2.7</a>
+    <a href="19/" class="prop-card-title">#19 – Upgrade Proposal: v0.2.7</a>
     <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
-    <span>Submitted 2026-01-07 04:23 UTC</span>
-    <span>Voting ends 2026-01-08 04:23</span>
+    <span>Submitted 2026-01-07</span>
+    <span>Voting ends 2026-01-08</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.7</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 3,886,156 (96.1%)</span> · <span class="prop-tally-no-text">No 148,604 (3.7%)</span> · <span class="prop-tally-veto-text">Veto 8,096 (0.2%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
   <div class="prop-card-header">
-    <a href="18/" class="prop-card-title">#18 - Test</a>
+    <a href="18/" class="prop-card-title">#18 – Test</a>
     <span class="prop-badge prop-rejected">Rejected</span>
   </div>
   <div class="prop-card-meta">
-    <span>Submitted 2026-01-04 13:07 UTC</span>
-    <span>Voting ends 2026-01-05 13:07</span>
+    <span>Submitted 2026-01-04</span>
+    <span>Voting ends 2026-01-05</span>
   </div>
   <div class="prop-card-desc">Test proposal</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 4,237 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
 </div>
 
 </div>
