@@ -32,9 +32,9 @@ def _inject_collapse_script(html):
       if (cb) cb.checked = false;
     }
   }
-  collapseQuarters();
+  setTimeout(collapseQuarters, 100);
   if (typeof document$ !== 'undefined') {
-    document$.subscribe(collapseQuarters);
+    document$.subscribe(function() { setTimeout(collapseQuarters, 100); });
   }
 })();
 </script>
