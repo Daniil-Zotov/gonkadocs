@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-20 22:20 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-02-20 22:20 UTC</span>
     <span class="issues-meta-item">10 comments</span>
     <span class="issues-meta-item">Updated 2026-03-11 20:05 UTC</span>
   </div>
@@ -204,11 +204,11 @@ All five issues [0/4], [1/4], [2/4], [3/4], [4/4] in this series must be complet
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-02-20 22:41 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    If you’re ready to take this task on, please leave a comment here so other community members can see it’s already being worked on.
+  <div class="issues-comment-body issues-content">
+<p>If you’re ready to take this task on, please leave a comment here so other community members can see it’s already being worked on.</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -216,57 +216,76 @@ All five issues [0/4], [1/4], [2/4], [3/4], [4/4] in this series must be complet
     <span>[@hleb-albau](https://github.com/hleb-albau)</span>
     <span class="issues-meta-item">commented 2026-02-24 10:30 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    I ran CPU profiling (30 min each) on a synced mainnet node under two configurations: `log_level=info` and `log_level=error`.
-
-  **Results — logging overhead as % of total handler time (including all nested calls):**
-
-  | Handler | Total time (info) | LogInfo overhead | % of handler | After log_level=error | Reduction |
-  |---|---|---|---|---|---|
-  | `_Msg_StartInference_Handler` | 10.33s | 1.14s | **11.0%** | 0.05s (0.4%) | **-95.6%** |
-  | `_Msg_FinishInference_Handler` | 15.40s | 1.66s | **10.8%** | 0.06s (0.4%) | **-96.4%** |
-
-  So ~11% of handler execution is spent in logging. Setting `log_level=error` reduces that to ~0.4% — essentially just the log level check in `Logger()`.
-
-NOTE: CPU profiling is sample-based (100 samples/sec), not a precise timer — it tells us *where* the CPU spends time statistically, not exact wall-clock execution time per call. The 11% figure is a directional signal, not a precise measurement.
-
-
-btw
+  <div class="issues-comment-body issues-content">
+<p>I ran CPU profiling (30 min each) on a synced mainnet node under two configurations: <code>log_level=info</code> and <code>log_level=error</code>.</p>
+<p><strong>Results — logging overhead as % of total handler time (including all nested calls):</strong></p>
+<table>
+<thead>
+<tr>
+<th>Handler</th>
+<th>Total time (info)</th>
+<th>LogInfo overhead</th>
+<th>% of handler</th>
+<th>After log_level=error</th>
+<th>Reduction</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>_Msg_StartInference_Handler</code></td>
+<td>10.33s</td>
+<td>1.14s</td>
+<td><strong>11.0%</strong></td>
+<td>0.05s (0.4%)</td>
+<td><strong>-95.6%</strong></td>
+</tr>
+<tr>
+<td><code>_Msg_FinishInference_Handler</code></td>
+<td>15.40s</td>
+<td>1.66s</td>
+<td><strong>10.8%</strong></td>
+<td>0.06s (0.4%)</td>
+<td><strong>-96.4%</strong></td>
+</tr>
+</tbody>
+</table>
+<p>So ~11% of handler execution is spent in logging. Setting <code>log_level=error</code> reduces that to ~0.4% — essentially just the log level check in <code>Logger()</code>.</p>
+<p>NOTE: CPU profiling is sample-based (100 samples/sec), not a precise timer — it tells us <em>where</em> the CPU spends time statistically, not exact wall-clock execution time per call. The 11% figure is a directional signal, not a precise measurement.</p>
+<p>btw
 1. what is a purpose to have that logs?
-2. what is a purpose to have that logs with INFO level?
-
-
-About the big task itself, 
-i am not familiar with all stuff going on right now on chain, but in past a had experience, that you could use own storage, outside of IAVL tree, and commit to IAVL only small portion of that data.
+2. what is a purpose to have that logs with INFO level?</p>
+<p>About the big task itself, 
+i am not familiar with all stuff going on right now on chain, but in past a had experience, that you could use own storage, outside of IAVL tree, and commit to IAVL only small portion of that data.</p>
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@libermans](https://github.com/libermans)</span>
+    <span><a href="https://github.com/libermans">@libermans</a></span>
     <span class="issues-meta-item">commented 2026-02-26 04:11 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    An update on 780. As we can see in traces most of the time spend on logging is due "json" decoding-encoding. Which can be turn off by log_format = "json" (by default it is set to log_format = "plain"). @hleb-albau can you please run the same test but with log_format = "json" config? 
+  <div class="issues-comment-body issues-content">
+<p>An update on 780. As we can see in traces most of the time spend on logging is due "json" decoding-encoding. Which can be turn off by log_format = "json" (by default it is set to log_format = "plain"). @hleb-albau can you please run the same test but with log_format = "json" config?</p> 
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-02-26 17:47 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    @hleb-albau can I kindly ask you to contact me tania.charchian@productscience.ai
+  <div class="issues-comment-body issues-content">
+<p>@hleb-albau can I kindly ask you to contact me tania.charchian@productscience.ai</p>
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-02-26 17:48 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    > An update on 780. As we can see in traces most of the time spend on logging is due "json" decoding-encoding. Which can be turn off by log_format = "json" (by default it is set to log_format = "plain"). [@hleb-albau](https://github.com/hleb-albau) can you please run the same test but with log_format = "json" config?
-
-@hleb-albau are you ready to run the same test but with log_format = "json" config?
+  <div class="issues-comment-body issues-content">
+<blockquote>
+<p>An update on 780. As we can see in traces most of the time spend on logging is due "json" decoding-encoding. Which can be turn off by log_format = "json" (by default it is set to log_format = "plain"). <a href="https://github.com/hleb-albau">@hleb-albau</a> can you please run the same test but with log_format = "json" config?</p>
+</blockquote>
+<p>@hleb-albau are you ready to run the same test but with log_format = "json" config?</p>
 
   </div>
 </div>
@@ -275,12 +294,14 @@ i am not familiar with all stuff going on right now on chain, but in past a had 
     <span>[@hleb-albau](https://github.com/hleb-albau)</span>
     <span class="issues-meta-item">commented 2026-02-26 20:01 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    > > An update on 780. As we can see in traces most of the time spend on logging is due "json" decoding-encoding. Which can be turn off by log_format = "json" (by default it is set to log_format = "plain"). [@hleb-albau](https://github.com/hleb-albau) can you please run the same test but with log_format = "json" config?
-> 
-> [@hleb-albau](https://github.com/hleb-albau) are you ready to run the same test but with log_format = "json" config?
-
-yes, will do it next 24h
+  <div class="issues-comment-body issues-content">
+<blockquote>
+<blockquote>
+<p>An update on 780. As we can see in traces most of the time spend on logging is due "json" decoding-encoding. Which can be turn off by log_format = "json" (by default it is set to log_format = "plain"). <a href="https://github.com/hleb-albau">@hleb-albau</a> can you please run the same test but with log_format = "json" config?</p>
+</blockquote>
+<p><a href="https://github.com/hleb-albau">@hleb-albau</a> are you ready to run the same test but with log_format = "json" config?</p>
+</blockquote>
+<p>yes, will do it next 24h</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -288,83 +309,134 @@ yes, will do it next 24h
     <span>[@hleb-albau](https://github.com/hleb-albau)</span>
     <span class="issues-meta-item">commented 2026-02-27 10:12 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-      ### Plain  (`prod-30min-logs-plain`)
-
-  | method | cum total | LogInfo | logTransaction | sum log. | % |
-  |---|---|---|---|---|---|
-  | `StartInference` | 5.25s | 0.24s | 0.06s | 0.30s | 5.7% |
-  | `FinishInference` | 6.91s | 0.45s | 0.15s | 0.60s | 8.7% |
-  | `processInferencePayments` | 0.72s | 0.14s | 0.21s | 0.35s | 48.6% |
-
-### JSON (`prod-30min-logs-json`)
-
-  | method | cum total | LogInfo | logTransaction | sum log | %я |                                                                                                                                                                                                                                           
-  |---|---|---|---|---|---|
-  | `StartInference` | 34.78s | 0.54s | — | 0.54s | 1.6% |                                                                                                                                                                                                                                                         
-  | `FinishInference` | 35.90s | 0.85s | — | 0.85s | 2.4% |                                                                                                                                                                                                                                                      
-  | `processInferencePayments` | 2.54s | 0.36s | 0.33s | 0.69s | 27.2% |
-
-NOTE: `StartInference` and  `FinishInference` in that table show total time spent in log, including subfunctions(like `processInferencePayments`). 
-
---- 
-Zerolog internally stores all data as a JSON string (to minimize allocations) — every Append key=val call simply mutates that string. In our case we always log one message at a time, meaning the JSON is built once and immediately flushed to output.                                                         
-                                                                                                                                                                                                                                                                                                                   
-  In plain log mode, zerolog parses that JSON before writing, reformatting it into a human-readable string with colors. In JSON log mode, the JSON string is written as-is.                                                                                                                                        
-   
-  ---                                                                                                                                                                                                                                                                                                              
-  Looking at `processInferencePayments`, logging still accounts for roughly a quarter of its total time. About half of that quarter is spent building the JSON string — appending key-value pairs one by one. For primitive values (strings, numbers, etc.) this is fast. For struct values, zerolog invokes more complex serialization logic that depends on the struct's shape.
-
-
-  For example, in UpdateParticipantStatus, roughly half of the JSON-building time inside `k.LogInfo("Participant status updated", types.Validation, "address", participant.Address, "original", originalStatus, "new", newStatus, "reason", reason, "stats", participant.CurrentEpochStats)` is spent serializing `participant.CurrentEpochStats`. In other places, the bottleneck is converting types.AccAddress to a string — which internally goes through a cache protected by a mutex or calc bench32. Note: not only `UpdateParticipantStatus` suffer from this, other places in `StartInference` and `FinishInference` have similar  problems.
-
-
-  --- 
- It might make sense to rework the logger internals to store data as a map instead of a JSON string, so ConsoleWriter could print it directly without parsing JSON first. But it's worth thinking about whether that's actually needed right now.                                                                 
-                                                                                                                                                                                                                                                                                                                   
-  What's definitely worth doing is revisiting what data gets logged. I'll open a PR a bit later to remove the heavy structs from log calls. 
+  <div class="issues-comment-body issues-content">
+<h3>Plain  (<code>prod-30min-logs-plain</code>)</h3>
+<table>
+<thead>
+<tr>
+<th>method</th>
+<th>cum total</th>
+<th>LogInfo</th>
+<th>logTransaction</th>
+<th>sum log.</th>
+<th>%</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>StartInference</code></td>
+<td>5.25s</td>
+<td>0.24s</td>
+<td>0.06s</td>
+<td>0.30s</td>
+<td>5.7%</td>
+</tr>
+<tr>
+<td><code>FinishInference</code></td>
+<td>6.91s</td>
+<td>0.45s</td>
+<td>0.15s</td>
+<td>0.60s</td>
+<td>8.7%</td>
+</tr>
+<tr>
+<td><code>processInferencePayments</code></td>
+<td>0.72s</td>
+<td>0.14s</td>
+<td>0.21s</td>
+<td>0.35s</td>
+<td>48.6%</td>
+</tr>
+</tbody>
+</table>
+<h3>JSON (<code>prod-30min-logs-json</code>)</h3>
+<table>
+<thead>
+<tr>
+<th>method</th>
+<th>cum total</th>
+<th>LogInfo</th>
+<th>logTransaction</th>
+<th>sum log</th>
+<th>%я</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>StartInference</code></td>
+<td>34.78s</td>
+<td>0.54s</td>
+<td>—</td>
+<td>0.54s</td>
+<td>1.6%</td>
+</tr>
+<tr>
+<td><code>FinishInference</code></td>
+<td>35.90s</td>
+<td>0.85s</td>
+<td>—</td>
+<td>0.85s</td>
+<td>2.4%</td>
+</tr>
+<tr>
+<td><code>processInferencePayments</code></td>
+<td>2.54s</td>
+<td>0.36s</td>
+<td>0.33s</td>
+<td>0.69s</td>
+<td>27.2%</td>
+</tr>
+</tbody>
+</table>
+<p>NOTE: <code>StartInference</code> and  <code>FinishInference</code> in that table show total time spent in log, including subfunctions(like <code>processInferencePayments</code>). </p>
+<hr />
+<p>Zerolog internally stores all data as a JSON string (to minimize allocations) — every Append key=val call simply mutates that string. In our case we always log one message at a time, meaning the JSON is built once and immediately flushed to output.                                                         </p>
+<p>In plain log mode, zerolog parses that JSON before writing, reformatting it into a human-readable string with colors. In JSON log mode, the JSON string is written as-is.                                                                                                                                        </p>
+<hr />
+<p>Looking at <code>processInferencePayments</code>, logging still accounts for roughly a quarter of its total time. About half of that quarter is spent building the JSON string — appending key-value pairs one by one. For primitive values (strings, numbers, etc.) this is fast. For struct values, zerolog invokes more complex serialization logic that depends on the struct's shape.</p>
+<p>For example, in UpdateParticipantStatus, roughly half of the JSON-building time inside <code>k.LogInfo("Participant status updated", types.Validation, "address", participant.Address, "original", originalStatus, "new", newStatus, "reason", reason, "stats", participant.CurrentEpochStats)</code> is spent serializing <code>participant.CurrentEpochStats</code>. In other places, the bottleneck is converting types.AccAddress to a string — which internally goes through a cache protected by a mutex or calc bench32. Note: not only <code>UpdateParticipantStatus</code> suffer from this, other places in <code>StartInference</code> and <code>FinishInference</code> have similar  problems.</p>
+<hr />
+<p>It might make sense to rework the logger internals to store data as a map instead of a JSON string, so ConsoleWriter could print it directly without parsing JSON first. But it's worth thinking about whether that's actually needed right now.                                                                 </p>
+<p>What's definitely worth doing is revisiting what data gets logged. I'll open a PR a bit later to remove the heavy structs from log calls.</p> 
 
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
+    <span><a href="https://github.com/AlexeySamosadov">@AlexeySamosadov</a></span>
     <span class="issues-meta-item">commented 2026-03-03 11:25 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    PR: https://github.com/gonka-ai/gonka/pull/847
+  <div class="issues-comment-body issues-content">
+<p>PR: https://github.com/gonka-ai/gonka/pull/847</p>
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
+    <span><a href="https://github.com/AlexeySamosadov">@AlexeySamosadov</a></span>
     <span class="issues-meta-item">commented 2026-03-03 12:00 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Summary of what was done in PR #847:
-
-Based on the profiling analysis by @hleb-albau (logging overhead ~11% of handler time at INFO level, heavy struct serialization in `processInferencePayments` accounting for 25-48% of its time), the following changes were implemented:
-
-**~20 LogInfo calls moved to LogDebug** across 7 files in the StartInference/FinishInference hot path:
-- `msg_server_start_inference.go` — 5 calls (entry log, DevPubKey, TransferAgentPubKey, validateTimestamp, addTimeout)
-- `msg_server_finish_inference.go` — 1 call (entry log)
-- `inference.go` — 1 call (developer stat update)
-- `developer_stats_aggregation.go` — 1 call (verbose stat log)
-- `developer_stats_store.go` — 3 calls (record-tracking logs)
-- `payment_handler.go` — 7 calls (escrow, minting, paying, burning, refund)
-- `dynamic_pricing.go` — 1 call + removed heavy `inference` struct from error log (replaced with lightweight fields)
-
-All ERROR/WARN logs preserved. Per-block pricing logs stay at INFO (run once per block, not per inference). Expected result: with `log_level=info` + `log_format=json`, logging overhead should drop from ~11% to well under 1%.
+  <div class="issues-comment-body issues-content">
+<p>Summary of what was done in PR #847:</p>
+<p>Based on the profiling analysis by @hleb-albau (logging overhead ~11% of handler time at INFO level, heavy struct serialization in <code>processInferencePayments</code> accounting for 25-48% of its time), the following changes were implemented:</p>
+<p><strong>~20 LogInfo calls moved to LogDebug</strong> across 7 files in the StartInference/FinishInference hot path:
+- <code>msg_server_start_inference.go</code> — 5 calls (entry log, DevPubKey, TransferAgentPubKey, validateTimestamp, addTimeout)
+- <code>msg_server_finish_inference.go</code> — 1 call (entry log)
+- <code>inference.go</code> — 1 call (developer stat update)
+- <code>developer_stats_aggregation.go</code> — 1 call (verbose stat log)
+- <code>developer_stats_store.go</code> — 3 calls (record-tracking logs)
+- <code>payment_handler.go</code> — 7 calls (escrow, minting, paying, burning, refund)
+- <code>dynamic_pricing.go</code> — 1 call + removed heavy <code>inference</code> struct from error log (replaced with lightweight fields)</p>
+<p>All ERROR/WARN logs preserved. Per-block pricing logs stay at INFO (run once per block, not per inference). Expected result: with <code>log_level=info</code> + <code>log_format=json</code>, logging overhead should drop from ~11% to well under 1%.</p>
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@gmorgachev](https://github.com/gmorgachev)</span>
+    <span><a href="https://github.com/gmorgachev">@gmorgachev</a></span>
     <span class="issues-meta-item">commented 2026-03-11 20:05 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    The big part of inference flow optimization is merged in https://github.com/gonka-ai/gonka/pull/812
-I'm closing all `[*/4] StartInference and FinishInference: optimiziation` tasks to finalize this work in milestone 0.2.11. I think it'd be better to re-open in case of additinal optimizations required
+  <div class="issues-comment-body issues-content">
+<p>The big part of inference flow optimization is merged in https://github.com/gonka-ai/gonka/pull/812
+I'm closing all <code>[*/4] StartInference and FinishInference: optimiziation</code> tasks to finalize this work in milestone 0.2.11. I think it'd be better to re-open in case of additinal optimizations required</p>
   </div>
 </div>
 

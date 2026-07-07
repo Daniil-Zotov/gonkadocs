@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item">[@Asplana92](https://github.com/Asplana92) opened 2025-11-20 03:02 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/Asplana92">@Asplana92</a> opened 2025-11-20 03:02 UTC</span>
     <span class="issues-meta-item">2 comments</span>
     <span class="issues-meta-item">Updated 2026-06-11 19:09 UTC</span>
   </div>
@@ -291,36 +291,32 @@ raw output of inferenced query inference hardware-nodes-all
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@ASLanin](https://github.com/ASLanin)</span>
+    <span><a href="https://github.com/ASLanin">@ASLanin</a></span>
     <span class="issues-meta-item">commented 2025-11-24 21:21 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    As far as I get it the api container's (ghcr.io/product-science/api:0.2.5) main process does not reread or at least do not apply `node-config.json` after the first time creation of  the `.dapi/gonka.db`
-query from the db `sqlite> SELECT * FROM inference_nodes LIMIT 20;` shows first time used data in `models_json` regardless of `node-config.json` contents at the last run. May be all other params are WORM in db.
+  <div class="issues-comment-body issues-content">
+<p>As far as I get it the api container's (ghcr.io/product-science/api:0.2.5) main process does not reread or at least do not apply <code>node-config.json</code> after the first time creation of  the <code>.dapi/gonka.db</code>
+query from the db <code>sqlite&gt; SELECT * FROM inference_nodes LIMIT 20;</code> shows first time used data in <code>models_json</code> regardless of <code>node-config.json</code> contents at the last run. May be all other params are WORM in db.</p>
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@redstartechno](https://github.com/redstartechno)</span>
+    <span><a href="https://github.com/redstartechno">@redstartechno</a></span>
     <span class="issues-meta-item">commented 2026-06-11 19:09 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    I dug into this from the current `main` code while looking for the cause, and found two separate layers that together produce the "stuck registration" behavior. Sharing in case it helps — I'm a contributor, not a maintainer, so treat the design parts as observations.
-
-**Layer 1 — `node_config.json` is merged only once, by design.**
-`ConfigManager.LoadNodeConfig` (`decentralized-api/apiconfig/config_manager.go`) merges `node_config.json` into the API's local database a single time, gated by a `node_config_merged` flag stored in that database. After the first run, edits to `node_config.json` are intentionally ignored ("Node config already merged. Skipping"). Runtime node management is expected to go through the admin API instead: `POST/PUT/DELETE /admin/v1/nodes` (`internal/server/admin/server.go`). Two practical consequences for your case:
-
-- Updating an existing node: `PUT /admin/v1/nodes/{id}` with the new host/port/models/hardware updates local state without touching config files.
-- A fresh database does re-trigger the merge, but only if `NODE_CONFIG_PATH` is set in the API container's environment — if it isn't, the loader logs "NODE_CONFIG_PATH not set. No additional nodes will be added to config" and loads nothing. That might explain why wiping `~/.dapi` appeared not to help.
-
-**Layer 2 — host/port changes were never synced to chain, even with correct local state.**
-The 60-second sync loop decides whether to resubmit a node by comparing it to the on-chain record with `areHardwareNodesEqual` (`decentralized-api/broker/broker.go`). That comparison covered id, status, hardware, models and version — but not `Host` or `Port`, although both are submitted and stored on chain. So a migration that only changes the endpoint (same GPU, same models) was reported as "no diff" forever, including after an admin-API update. I've opened #1337 to fix this.
-
-Note that your specific snapshot (on-chain models/hardware completely different from local config, yet "No diff to submit") points at layer 1: the broker was still operating on the old local state from the database, so local and chain genuinely matched. With local state corrected via the admin API (or a re-merge), the model/hardware differences should already trigger a submission today; #1337 additionally covers the host/port-only case.
-
-One related limitation while reading the code: `InferencePort` is not part of the on-chain `HardwareNode` record at all (only the PoC port is stored), so inference-port-only changes can't be detected by this mechanism regardless.
-
-Whether `node_config.json` should stay merge-once (vs. re-syncing on restart) is a design question for the maintainers — the operator expectation in this issue suggests it at least deserves clearer documentation.
+  <div class="issues-comment-body issues-content">
+<p>I dug into this from the current <code>main</code> code while looking for the cause, and found two separate layers that together produce the "stuck registration" behavior. Sharing in case it helps — I'm a contributor, not a maintainer, so treat the design parts as observations.</p>
+<p><strong>Layer 1 — <code>node_config.json</code> is merged only once, by design.</strong>
+<code>ConfigManager.LoadNodeConfig</code> (<code>decentralized-api/apiconfig/config_manager.go</code>) merges <code>node_config.json</code> into the API's local database a single time, gated by a <code>node_config_merged</code> flag stored in that database. After the first run, edits to <code>node_config.json</code> are intentionally ignored ("Node config already merged. Skipping"). Runtime node management is expected to go through the admin API instead: <code>POST/PUT/DELETE /admin/v1/nodes</code> (<code>internal/server/admin/server.go</code>). Two practical consequences for your case:</p>
+<ul>
+<li>Updating an existing node: <code>PUT /admin/v1/nodes/{id}</code> with the new host/port/models/hardware updates local state without touching config files.</li>
+<li>A fresh database does re-trigger the merge, but only if <code>NODE_CONFIG_PATH</code> is set in the API container's environment — if it isn't, the loader logs "NODE_CONFIG_PATH not set. No additional nodes will be added to config" and loads nothing. That might explain why wiping <code>~/.dapi</code> appeared not to help.</li>
+</ul>
+<p><strong>Layer 2 — host/port changes were never synced to chain, even with correct local state.</strong>
+The 60-second sync loop decides whether to resubmit a node by comparing it to the on-chain record with <code>areHardwareNodesEqual</code> (<code>decentralized-api/broker/broker.go</code>). That comparison covered id, status, hardware, models and version — but not <code>Host</code> or <code>Port</code>, although both are submitted and stored on chain. So a migration that only changes the endpoint (same GPU, same models) was reported as "no diff" forever, including after an admin-API update. I've opened #1337 to fix this.</p>
+<p>Note that your specific snapshot (on-chain models/hardware completely different from local config, yet "No diff to submit") points at layer 1: the broker was still operating on the old local state from the database, so local and chain genuinely matched. With local state corrected via the admin API (or a re-merge), the model/hardware differences should already trigger a submission today; #1337 additionally covers the host/port-only case.</p>
+<p>One related limitation while reading the code: <code>InferencePort</code> is not part of the on-chain <code>HardwareNode</code> record at all (only the PoC port is stored), so inference-port-only changes can't be detected by this mechanism regardless.</p>
+<p>Whether <code>node_config.json</code> should stay merge-once (vs. re-syncing on restart) is a design question for the maintainers — the operator expectation in this issue suggests it at least deserves clearer documentation.</p>
   </div>
 </div>
 

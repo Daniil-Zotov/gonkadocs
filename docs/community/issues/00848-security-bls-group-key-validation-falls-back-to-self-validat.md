@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@Mayveskii](https://github.com/Mayveskii) opened 2026-03-03 12:03 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/Mayveskii">@Mayveskii</a> opened 2026-03-03 12:03 UTC</span>
     <span class="issues-meta-item">2 comments</span>
     <span class="issues-meta-item">Updated 2026-03-12 22:56 UTC</span>
   </div>
@@ -76,64 +76,54 @@ If bootstrapping for the very first epoch is required, handle it explicitly with
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Mayveskii](https://github.com/Mayveskii)</span>
+    <span><a href="https://github.com/Mayveskii">@Mayveskii</a></span>
     <span class="issues-meta-item">commented 2026-03-03 12:15 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Investigated the fallback path at line 74 of `msg_server_group_validation.go`.
-
-When `previousEpochBLSData` is not found, the code assigns `previousEpochBLSData = newEpochBLSData`.
+  <div class="issues-comment-body issues-content">
+<p>Investigated the fallback path at line 74 of <code>msg_server_group_validation.go</code>.</p>
+<p>When <code>previousEpochBLSData</code> is not found, the code assigns <code>previousEpochBLSData = newEpochBLSData</code>.
 This means:
-1. `verifyBLSPartialSignatureBlst` checks signatures against the new epoch's own slot keys
-2. `verifyFinalSignatureBlst` checks the aggregate against the new epoch's own `GroupPublicKey`
-
-A validator who controls epoch N's DKG output can trigger this path to get epoch N+1's key
-accepted without any external verification. Fix: return error when previous epoch data is missing.
-
-PR: https://github.com/Mayveskii/gonka/pull/new/fix/848-bls-self-validation
+1. <code>verifyBLSPartialSignatureBlst</code> checks signatures against the new epoch's own slot keys
+2. <code>verifyFinalSignatureBlst</code> checks the aggregate against the new epoch's own <code>GroupPublicKey</code></p>
+<p>A validator who controls epoch N's DKG output can trigger this path to get epoch N+1's key
+accepted without any external verification. Fix: return error when previous epoch data is missing.</p>
+<p>PR: https://github.com/Mayveskii/gonka/pull/new/fix/848-bls-self-validation</p>
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Mayveskii](https://github.com/Mayveskii)</span>
+    <span><a href="https://github.com/Mayveskii">@Mayveskii</a></span>
     <span class="issues-meta-item">commented 2026-03-03 12:16 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    > Investigated the fallback path at line 74 of `msg_server_group_validation.go`.
-> 
-> When `previousEpochBLSData` is not found, the code assigns `previousEpochBLSData = newEpochBLSData`. This means:
-> 
-> 1. `verifyBLSPartialSignatureBlst` checks signatures against the new epoch's own slot keys
-> 2. `verifyFinalSignatureBlst` checks the aggregate against the new epoch's own `GroupPublicKey`
-> 
-> A validator who controls epoch N's DKG output can trigger this path to get epoch N+1's key accepted without any external verification. Fix: return error when previous epoch data is missing.
-> 
-> PR: https://github.com/Mayveskii/gonka/pull/new/fix/848-bls-self-validation
-
-## Summary
-
-Closes #848
-
-When `GetEpochBLSData` for `previousEpochId` returned `ErrEpochBLSDataNotFound`,
-the handler silently fell back to `previousEpochBLSData = newEpochBLSData`.
-
-This allowed any epoch to self-certify its own group key:
-- partial signatures were verified against the **new epoch's own** individual keys
-- the aggregated final signature was verified against the **new epoch's own** `GroupPublicKey`
-
-The chain-of-trust between epochs was completely bypassed.
-
-## Fix
-
-Removed the fallback entirely. When previous epoch data is unavailable, the handler
+  <div class="issues-comment-body issues-content">
+<blockquote>
+<p>Investigated the fallback path at line 74 of <code>msg_server_group_validation.go</code>.</p>
+<p>When <code>previousEpochBLSData</code> is not found, the code assigns <code>previousEpochBLSData = newEpochBLSData</code>. This means:</p>
+<ol>
+<li><code>verifyBLSPartialSignatureBlst</code> checks signatures against the new epoch's own slot keys</li>
+<li><code>verifyFinalSignatureBlst</code> checks the aggregate against the new epoch's own <code>GroupPublicKey</code></li>
+</ol>
+<p>A validator who controls epoch N's DKG output can trigger this path to get epoch N+1's key accepted without any external verification. Fix: return error when previous epoch data is missing.</p>
+<p>PR: https://github.com/Mayveskii/gonka/pull/new/fix/848-bls-self-validation</p>
+</blockquote>
+<h2>Summary</h2>
+<p>Closes #848</p>
+<p>When <code>GetEpochBLSData</code> for <code>previousEpochId</code> returned <code>ErrEpochBLSDataNotFound</code>,
+the handler silently fell back to <code>previousEpochBLSData = newEpochBLSData</code>.</p>
+<p>This allowed any epoch to self-certify its own group key:
+- partial signatures were verified against the <strong>new epoch's own</strong> individual keys
+- the aggregated final signature was verified against the <strong>new epoch's own</strong> <code>GroupPublicKey</code></p>
+<p>The chain-of-trust between epochs was completely bypassed.</p>
+<h2>Fix</h2>
+<p>Removed the fallback entirely. When previous epoch data is unavailable, the handler
 now returns an explicit error. This is the only correct behavior — group key validation
-is meaningless without an independent previous epoch as the verifier.
-
-## Files changed
-
-- `inference-chain/x/bls/keeper/msg_server_group_validation.go`
-  - removed unused `errors` import
-  - replaced 13-line silent fallback with a hard error return
+is meaningless without an independent previous epoch as the verifier.</p>
+<h2>Files changed</h2>
+<ul>
+<li><code>inference-chain/x/bls/keeper/msg_server_group_validation.go</code></li>
+<li>removed unused <code>errors</code> import</li>
+<li>replaced 13-line silent fallback with a hard error return</li>
+</ul>
   </div>
 </div>
 

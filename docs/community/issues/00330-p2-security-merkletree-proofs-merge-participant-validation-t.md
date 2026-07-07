@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2025-09-03 23:17 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2025-09-03 23:17 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-06-24 01:04 UTC</span>
   </div>
@@ -36,12 +36,12 @@ After that, feel free to contact me on Discord: `tatianacharchian_07833`.
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2025-12-04 18:58 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    https://github.com/gonka-ai/gonka-openai/pull/2
-https://github.com/gonka-ai/gonka-utils/pull/1 
+  <div class="issues-comment-body issues-content">
+<p>https://github.com/gonka-ai/gonka-openai/pull/2
+https://github.com/gonka-ai/gonka-utils/pull/1</p> 
   </div>
 </div>
 

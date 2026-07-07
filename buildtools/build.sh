@@ -78,9 +78,31 @@ rm -rf "$OVR_DIR"
 cp -r overrides "$OVR_DIR"
 cp -r "$ROOT/buildtools/gonka-overrides/"* "$OVR_DIR/"
 
-sed -e "s|site_url: .*|site_url: ${SITE_URL}|" \
-    -e "s|custom_dir: overrides|custom_dir: ${OVR_DIR}|" \
-    mkdocs.yml > "$BUILD_CFG"
+# Patch the build config: add navigation.tabs and fix site_url + custom_dir
+# Using Python instead of sed for macOS/Linux portability and YAML safety
+cp mkdocs.yml "$BUILD_CFG"
+python3 - "$BUILD_CFG" "${SITE_URL}" "${OVR_DIR}" <<'PYEOF'
+import sys, re
+
+cfg_path, site_url, ovr_dir = sys.argv[1], sys.argv[2], sys.argv[3]
+
+with open(cfg_path, 'r') as f:
+    content = f.read()
+
+content = re.sub(r'^site_url: .*', f'site_url: {site_url}', content, flags=re.MULTILINE)
+content = re.sub(r'^(\s*)custom_dir: overrides', rf'\1custom_dir: {ovr_dir}', content, flags=re.MULTILINE)
+# Add navigation.tabs to features if not already present
+if 'navigation.tabs' not in content:
+    content = re.sub(
+        r'(    - navigation\.sections\n)',
+        r'\1    - navigation.tabs\n',
+        content,
+        count=1,
+    )
+
+with open(cfg_path, 'w') as f:
+    f.write(content)
+PYEOF
 python3 -m mkdocs build --config-file "$BUILD_CFG" --site-dir "$SITE_DIR/gonka/docs"
 rm -rf "$BUILD_CFG" "$OVR_DIR"
 

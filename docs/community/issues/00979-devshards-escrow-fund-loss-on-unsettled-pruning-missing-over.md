@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@unameisfine](https://github.com/unameisfine) opened 2026-03-30 17:05 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/unameisfine">@unameisfine</a> opened 2026-03-30 17:05 UTC</span>
     <span class="issues-meta-item">2 comments</span>
     <span class="issues-meta-item">Updated 2026-04-29 21:27 UTC</span>
   </div>
@@ -58,20 +58,20 @@ Three related bugs in subnet escrow settlement and pruning code (v0.2.11):
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@unameisfine](https://github.com/unameisfine)</span>
+    <span><a href="https://github.com/unameisfine">@unameisfine</a></span>
     <span class="issues-meta-item">commented 2026-04-27 22:46 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Closing — covered by PRs #1013, #1014, #1015.
+  <div class="issues-comment-body issues-content">
+<p>Closing — covered by PRs #1013, #1014, #1015.</p>
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-04-29 21:27 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    @akup please take a look
+  <div class="issues-comment-body issues-content">
+<p>@akup please take a look</p>
   </div>
 </div>
 

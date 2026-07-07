@@ -48,11 +48,11 @@ Same-block probe re-exclusion: when a probe succeeds, `UpdateCBStateForBlock` Pa
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@x0152](https://github.com/x0152)</span>
+    <span><a href="https://github.com/x0152">@x0152</a></span>
     <span class="issues-meta-item">commented 2026-03-30 19:28 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Description doesn't match what's actually in the code and mixes a few things together. Feel free to reopen if you can show a specific case where this happens
+  <div class="issues-comment-body issues-content">
+<p>Description doesn't match what's actually in the code and mixes a few things together. Feel free to reopen if you can show a specific case where this happens</p>
   </div>
 </div>
 

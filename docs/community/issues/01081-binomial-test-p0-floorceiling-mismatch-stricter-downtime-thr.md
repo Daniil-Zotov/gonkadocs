@@ -90,29 +90,20 @@ Payout address: `gonka10zaal553duxp05nvfpqtsqrm2g0j6j34r8nan7`
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@unameisfine](https://github.com/unameisfine)</span>
+    <span><a href="https://github.com/unameisfine">@unameisfine</a></span>
     <span class="issues-meta-item">commented 2026-04-19 19:22 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Reviewed the code paths. I believe this mismatch is **not exploitable** in the current codebase — here's why:
-
-**`getDynamicP0` always returns an exact permille**
-
-`getDynamicP0` (bitcoin_rewards.go:558) returns `permilleToP0Decimal(finalPermille)`, where `finalPermille` is always one of the supported table values (50, 100, 200, 300, 400, 500) — produced by `ceilToSupportedP0Permille`.
-
-`permilleToP0Decimal(100)` → `Decimal{Value: 100, Exponent: -3}` → exactly `0.100`.
-
-When `MissedStatTest` receives this value: `0.100 * 1000 = 100.0` → `IntPart() = 100` → selects the correct table. Floor and ceiling are identical for exact permille values.
-
-**The bypass case is also safe**
-
-The only path where a non-rounded p0 reaches `MissedStatTest` is when governance sets `BinomTestP0 > 0.500` (bitcoin_rewards.go:476 — returns the raw governance value). In that case, `decimalToPermille` returns `-1` (unsupported), and `MissedStatTest` correctly falls back to the exact `BinomialPValue` computation (stats.go:96-101) — no table lookup involved.
-
-**The inconsistency is real, the exploit scenario is not**
-
-The two functions (`decimalToPermille` floor vs `decimalToPermilleCeil` ceil) do use different rounding, but because `getDynamicP0` always snaps to an exact supported permille before returning, the floor/ceiling difference never manifests in practice. The described scenario (p0=0.1004 using different tables) cannot occur — `getDynamicP0` would map 0.1004 to 0.200 before it ever reaches `MissedStatTest`.
-
-Unifying the rounding functions is still reasonable as defensive hardening, but the severity should be Low (code smell) rather than High (active exploit).
+  <div class="issues-comment-body issues-content">
+<p>Reviewed the code paths. I believe this mismatch is <strong>not exploitable</strong> in the current codebase — here's why:</p>
+<p><strong><code>getDynamicP0</code> always returns an exact permille</strong></p>
+<p><code>getDynamicP0</code> (bitcoin_rewards.go:558) returns <code>permilleToP0Decimal(finalPermille)</code>, where <code>finalPermille</code> is always one of the supported table values (50, 100, 200, 300, 400, 500) — produced by <code>ceilToSupportedP0Permille</code>.</p>
+<p><code>permilleToP0Decimal(100)</code> → <code>Decimal{Value: 100, Exponent: -3}</code> → exactly <code>0.100</code>.</p>
+<p>When <code>MissedStatTest</code> receives this value: <code>0.100 * 1000 = 100.0</code> → <code>IntPart() = 100</code> → selects the correct table. Floor and ceiling are identical for exact permille values.</p>
+<p><strong>The bypass case is also safe</strong></p>
+<p>The only path where a non-rounded p0 reaches <code>MissedStatTest</code> is when governance sets <code>BinomTestP0 &gt; 0.500</code> (bitcoin_rewards.go:476 — returns the raw governance value). In that case, <code>decimalToPermille</code> returns <code>-1</code> (unsupported), and <code>MissedStatTest</code> correctly falls back to the exact <code>BinomialPValue</code> computation (stats.go:96-101) — no table lookup involved.</p>
+<p><strong>The inconsistency is real, the exploit scenario is not</strong></p>
+<p>The two functions (<code>decimalToPermille</code> floor vs <code>decimalToPermilleCeil</code> ceil) do use different rounding, but because <code>getDynamicP0</code> always snaps to an exact supported permille before returning, the floor/ceiling difference never manifests in practice. The described scenario (p0=0.1004 using different tables) cannot occur — <code>getDynamicP0</code> would map 0.1004 to 0.200 before it ever reaches <code>MissedStatTest</code>.</p>
+<p>Unifying the rounding functions is still reasonable as defensive hardening, but the severity should be Low (code smell) rather than High (active exploit).</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -120,18 +111,16 @@ Unifying the rounding functions is still reasonable as defensive hardening, but 
     <span>[@Doog-bot534](https://github.com/Doog-bot534)</span>
     <span class="issues-meta-item">commented 2026-04-20 01:35 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Thanks @unameisfine for the thorough walkthrough — you're right, and I've reverified against the code paths.
-
-**Confirmed on my side:**
-
-1. `getDynamicP0` always returns `permilleToP0Decimal(finalPermille)` where `finalPermille` ∈ {50, 100, 200, 300, 400, 500} after `ceilToSupportedP0Permille`. The returned `Decimal{Value: N, Exponent: -3}` is exactly `N/1000`, so `decimalToPermille` (floor) produces the same permille as the ceiling-based selection — no mismatch reaches `MissedStatTest`.
-2. The governance `BinomTestP0 > 0.500` path returns the raw value, `decimalToPermille` returns `-1`, and `MissedStatTest` falls back to the exact `BinomialPValue` computation (stats.go:96-101). No table lookup, no rounding mismatch.
-3. The claim-rewards path (`msg_server_claim_rewards.go:264`) uses raw governance `BinomTestP0` but does not go through any ceiling-based selection, so the described divergence scenario also can't manifest there.
-
-The two rounding functions do diverge in isolation, but every production caller snaps to an exact permille before reaching the stat test. The exploit scenario as I described it is not reachable on current `main`.
-
-Downgrading severity assessment to **Low / code hygiene** — unifying the rounding helpers would still be reasonable defensive cleanup, but this is not an active vulnerability. Closing to keep the queue clean. Apologies for the noise.
+  <div class="issues-comment-body issues-content">
+<p>Thanks @unameisfine for the thorough walkthrough — you're right, and I've reverified against the code paths.</p>
+<p><strong>Confirmed on my side:</strong></p>
+<ol>
+<li><code>getDynamicP0</code> always returns <code>permilleToP0Decimal(finalPermille)</code> where <code>finalPermille</code> ∈ {50, 100, 200, 300, 400, 500} after <code>ceilToSupportedP0Permille</code>. The returned <code>Decimal{Value: N, Exponent: -3}</code> is exactly <code>N/1000</code>, so <code>decimalToPermille</code> (floor) produces the same permille as the ceiling-based selection — no mismatch reaches <code>MissedStatTest</code>.</li>
+<li>The governance <code>BinomTestP0 &gt; 0.500</code> path returns the raw value, <code>decimalToPermille</code> returns <code>-1</code>, and <code>MissedStatTest</code> falls back to the exact <code>BinomialPValue</code> computation (stats.go:96-101). No table lookup, no rounding mismatch.</li>
+<li>The claim-rewards path (<code>msg_server_claim_rewards.go:264</code>) uses raw governance <code>BinomTestP0</code> but does not go through any ceiling-based selection, so the described divergence scenario also can't manifest there.</li>
+</ol>
+<p>The two rounding functions do diverge in isolation, but every production caller snaps to an exact permille before reaching the stat test. The exploit scenario as I described it is not reachable on current <code>main</code>.</p>
+<p>Downgrading severity assessment to <strong>Low / code hygiene</strong> — unifying the rounding helpers would still be reasonable defensive cleanup, but this is not an active vulnerability. Closing to keep the queue clean. Apologies for the noise.</p>
   </div>
 </div>
 

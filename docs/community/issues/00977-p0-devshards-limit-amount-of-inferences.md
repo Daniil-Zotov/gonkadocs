@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@dcastro](https://github.com/dcastro) opened 2026-03-30 11:17 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 2026-03-30 11:17 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-06-01 22:04 UTC</span>
   </div>
@@ -39,9 +39,9 @@ Upon settlement, the protocol should verify "Missed inferences + Invalidated inf
     <span>[@a-kuprin](https://github.com/a-kuprin)</span>
     <span class="issues-meta-item">commented 2026-05-26 21:49 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    At 0.2.13 nonce limit was introduced. Inference count could be limited by nonces limit and there is no need in extra parameter.
-Handling on devshard side is implemented at https://github.com/gonka-ai/gonka/pull/1258 
+  <div class="issues-comment-body issues-content">
+<p>At 0.2.13 nonce limit was introduced. Inference count could be limited by nonces limit and there is no need in extra parameter.
+Handling on devshard side is implemented at https://github.com/gonka-ai/gonka/pull/1258</p> 
   </div>
 </div>
 

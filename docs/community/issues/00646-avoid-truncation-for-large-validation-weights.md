@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@x0152](https://github.com/x0152) opened 2026-01-26 18:10 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/x0152">@x0152</a> opened 2026-01-26 18:10 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-06-02 17:54 UTC</span>
   </div>
@@ -31,13 +31,12 @@ template: issues-main.html
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
+    <span><a href="https://github.com/AlexeySamosadov">@AlexeySamosadov</a></span>
     <span class="issues-meta-item">commented 2026-02-08 14:14 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    PR created: https://github.com/gonka-ai/gonka/pull/655
-
-Fixes uint32 truncation for large validation weights by using int64.
+  <div class="issues-comment-body issues-content">
+<p>PR created: https://github.com/gonka-ai/gonka/pull/655</p>
+<p>Fixes uint32 truncation for large validation weights by using int64.</p>
   </div>
 </div>
 

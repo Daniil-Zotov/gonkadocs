@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@unameisfine](https://github.com/unameisfine) opened 2026-03-13 17:49 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/unameisfine">@unameisfine</a> opened 2026-03-13 17:49 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-04-27 22:46 UTC</span>
   </div>
@@ -59,11 +59,11 @@ See PR linked below with fixes for all three issues.
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@unameisfine](https://github.com/unameisfine)</span>
+    <span><a href="https://github.com/unameisfine">@unameisfine</a></span>
     <span class="issues-meta-item">commented 2026-04-27 22:46 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Closing — PR #884 was closed as part of refocusing on larger scoped contributions.
+  <div class="issues-comment-body issues-content">
+<p>Closing — PR #884 was closed as part of refocusing on larger scoped contributions.</p>
   </div>
 </div>
 

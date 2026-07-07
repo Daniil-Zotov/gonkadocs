@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-14 00:32 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-02-14 00:32 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-04-09 23:23 UTC</span>
   </div>
@@ -40,13 +40,12 @@ template: issues-main.html
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@GLiberman](https://github.com/GLiberman)</span>
+    <span><a href="https://github.com/GLiberman">@GLiberman</a></span>
     <span class="issues-meta-item">commented 2026-02-27 19:29 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    GEB-05, GEB-15, GEB-36
-
-https://github.com/gonka-ai/gonka/pull/814
+  <div class="issues-comment-body issues-content">
+<p>GEB-05, GEB-15, GEB-36</p>
+<p>https://github.com/gonka-ai/gonka/pull/814</p>
   </div>
 </div>
 

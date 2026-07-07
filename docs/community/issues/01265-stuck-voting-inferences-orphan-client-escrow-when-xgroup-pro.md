@@ -109,12 +109,10 @@ Not recommended: default-to-validate (passive non-voting becomes implicit approv
     <span>[@vitaly-andr](https://github.com/vitaly-andr)</span>
     <span class="issues-meta-item">commented 2026-05-28 12:46 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Quick follow-up: applied the filter extension from the body of this issue locally (`module.go:231` → also handle `Status=VOTING` via `expireInferenceAndIssueRefund`) and reran sim. The timeout-stuck path is no longer reachable on seed=99 — sim-full now progresses past the previous failure point.
-
-What surfaced next is a distinct mechanism in the revalidation vote path: validators present in `ActiveParticipantsSet[epoch]` can be absent from the corresponding x/group, and `voteValidationProposal` hard-errors with `voter not found` instead of treating non-member as no-op. Root cause is the permissive `addEpochMembers` (skip on nil-seed, continue on `AddMember` error — `module.go:1134`, `:1143`) which leaves the `ActiveParticipantsSet ⊆ group members` invariant unmaintained.
-
-Filed separately as #1269 with the sim reproduction (seed=99, block 39/500) and a suggested structural pre-check using `GroupMessageKeeper.GroupMembers`. Liveness for that path is now bounded by the timeout cleanup proposed in this issue, so it's a correctness/quorum issue rather than fund-loss.
+  <div class="issues-comment-body issues-content">
+<p>Quick follow-up: applied the filter extension from the body of this issue locally (<code>module.go:231</code> → also handle <code>Status=VOTING</code> via <code>expireInferenceAndIssueRefund</code>) and reran sim. The timeout-stuck path is no longer reachable on seed=99 — sim-full now progresses past the previous failure point.</p>
+<p>What surfaced next is a distinct mechanism in the revalidation vote path: validators present in <code>ActiveParticipantsSet[epoch]</code> can be absent from the corresponding x/group, and <code>voteValidationProposal</code> hard-errors with <code>voter not found</code> instead of treating non-member as no-op. Root cause is the permissive <code>addEpochMembers</code> (skip on nil-seed, continue on <code>AddMember</code> error — <code>module.go:1134</code>, <code>:1143</code>) which leaves the <code>ActiveParticipantsSet ⊆ group members</code> invariant unmaintained.</p>
+<p>Filed separately as #1269 with the sim reproduction (seed=99, block 39/500) and a suggested structural pre-check using <code>GroupMessageKeeper.GroupMembers</code>. Liveness for that path is now bounded by the timeout cleanup proposed in this issue, so it's a correctness/quorum issue rather than fund-loss.</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -122,11 +120,10 @@ Filed separately as #1269 with the sim reproduction (seed=99, block 39/500) and 
     <span>[@a-kuprin](https://github.com/a-kuprin)</span>
     <span class="issues-meta-item">commented 2026-05-30 05:18 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    I think we should focus now on devshard inference flow.
-Anyway legacy inference flow will not be supported in the future.
-
-Also do we really have such issue in production environment?
+  <div class="issues-comment-body issues-content">
+<p>I think we should focus now on devshard inference flow.
+Anyway legacy inference flow will not be supported in the future.</p>
+<p>Also do we really have such issue in production environment?</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -134,16 +131,12 @@ Also do we really have such issue in production environment?
     <span>[@vitaly-andr](https://github.com/vitaly-andr)</span>
     <span class="issues-meta-item">commented 2026-05-30 08:13 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Thanks for the steer — both points taken.
-
-**On "do we really have this in production?"** — honestly, I can't confirm it from chain state. I scanned ~40k inferences on a mainnet node and found none in `VOTING`, but that's not evidence either way: inferences that enter the epoch-group validation path get a real `epoch_id` and are pruned after `InferencePruningEpochThreshold` epochs (`keeper/pruning.go`), while only the `epoch_id=0` start/finish/expire residue persists. So state inspection structurally can't answer this — it'd need tx history (the public node has `tx_index=off`) or your internal telemetry. Do you have a way to see whether a failing `MsgValidation` → quorum-miss has actually occurred?
-
-My case for the fix isn't "it happens a lot in prod" — it's that the gap is real in the code (`expireInferences` silently skips `VOTING` and still removes the timeout entry, stranding client escrow), the fix is minimal (one `VOTING` branch → refund), and it's required for the #982 sim-full run to stay green (the `no-stuck-voting` invariant catches it deterministically). If the legacy validation flow is genuinely being retired, I'm happy to defer or close #1275 — your call.
-
-**On devshard** — point taken, and I'd like to follow it. The simsx infrastructure from #982 (#1228) is flow-agnostic plumbing; it currently carries only the legacy factories, but it's the natural place to add devshard coverage. I'm happy to write the sim factories + invariants for the escrow/settlement path (`MsgCreateDevshardEscrow` / `MsgSettleDevshardEscrow`). The one open question is how to treat `VerifyDevshardSettlement`'s signature check under simulation — would welcome a hint on the intended approach.
-
-**One ask:** #1228 (the #982 simsx infrastructure) hasn't had a review yet. Could you take a look? It's the foundation everything above builds on, and a first pass from you would help me aim the next round (legacy vs devshard) correctly.
+  <div class="issues-comment-body issues-content">
+<p>Thanks for the steer — both points taken.</p>
+<p><strong>On "do we really have this in production?"</strong> — honestly, I can't confirm it from chain state. I scanned ~40k inferences on a mainnet node and found none in <code>VOTING</code>, but that's not evidence either way: inferences that enter the epoch-group validation path get a real <code>epoch_id</code> and are pruned after <code>InferencePruningEpochThreshold</code> epochs (<code>keeper/pruning.go</code>), while only the <code>epoch_id=0</code> start/finish/expire residue persists. So state inspection structurally can't answer this — it'd need tx history (the public node has <code>tx_index=off</code>) or your internal telemetry. Do you have a way to see whether a failing <code>MsgValidation</code> → quorum-miss has actually occurred?</p>
+<p>My case for the fix isn't "it happens a lot in prod" — it's that the gap is real in the code (<code>expireInferences</code> silently skips <code>VOTING</code> and still removes the timeout entry, stranding client escrow), the fix is minimal (one <code>VOTING</code> branch → refund), and it's required for the #982 sim-full run to stay green (the <code>no-stuck-voting</code> invariant catches it deterministically). If the legacy validation flow is genuinely being retired, I'm happy to defer or close #1275 — your call.</p>
+<p><strong>On devshard</strong> — point taken, and I'd like to follow it. The simsx infrastructure from #982 (#1228) is flow-agnostic plumbing; it currently carries only the legacy factories, but it's the natural place to add devshard coverage. I'm happy to write the sim factories + invariants for the escrow/settlement path (<code>MsgCreateDevshardEscrow</code> / <code>MsgSettleDevshardEscrow</code>). The one open question is how to treat <code>VerifyDevshardSettlement</code>'s signature check under simulation — would welcome a hint on the intended approach.</p>
+<p><strong>One ask:</strong> #1228 (the #982 simsx infrastructure) hasn't had a review yet. Could you take a look? It's the foundation everything above builds on, and a first pass from you would help me aim the next round (legacy vs devshard) correctly.</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -151,10 +144,11 @@ My case for the fix isn't "it happens a lot in prod" — it's that the gap is re
     <span>[@a-kuprin](https://github.com/a-kuprin)</span>
     <span class="issues-meta-item">commented 2026-05-30 15:37 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    > it's the natural place to add devshard coverage
-
-Validation logic of devshard is subject to change in future releases
+  <div class="issues-comment-body issues-content">
+<blockquote>
+<p>it's the natural place to add devshard coverage</p>
+</blockquote>
+<p>Validation logic of devshard is subject to change in future releases</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -162,17 +156,15 @@ Validation logic of devshard is subject to change in future releases
     <span>[@vitaly-andr](https://github.com/vitaly-andr)</span>
     <span class="issues-meta-item">commented 2026-05-30 17:17 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    @patimen — pulling you in, since you authored #982 and own the original scope.
-
-I want to make sure I'm putting effort where it's actually useful. a-kuprin's steer here is clear, and I agree with it: legacy validation is being retired, and devshard's validation logic is still in flux — so I'll hold off on adding devshard sim coverage until it stabilizes (no point simming a moving target).
-
-What I'm unsure about is the disposition of the work already done on this accepted issue. Two honest questions:
-
-1. **Is the #982 simulation work (#1228) still wanted** as merged infrastructure? It's flow-agnostic and would be the natural place to add devshard coverage later, once that logic settles.
-2. Along the way the sim surfaced two concrete bugs in the **current** flow — stranded client escrow on a quorum-missed timeout (#1265 → #1275) and a revalidation-vote failure when the voter isn't in the epoch group (#1269 → #1276). Both are small fixes on code live in `main` today. **Even if focus shifts to devshard, is there a reason not to land them now?**
-
-If this whole area is being superseded and the fixes aren't worth merging, that's completely fine — I'd just like to know, so I can close things out cleanly rather than leave them open. Whatever fits your roadmap.
+  <div class="issues-comment-body issues-content">
+<p>@patimen — pulling you in, since you authored #982 and own the original scope.</p>
+<p>I want to make sure I'm putting effort where it's actually useful. a-kuprin's steer here is clear, and I agree with it: legacy validation is being retired, and devshard's validation logic is still in flux — so I'll hold off on adding devshard sim coverage until it stabilizes (no point simming a moving target).</p>
+<p>What I'm unsure about is the disposition of the work already done on this accepted issue. Two honest questions:</p>
+<ol>
+<li><strong>Is the #982 simulation work (#1228) still wanted</strong> as merged infrastructure? It's flow-agnostic and would be the natural place to add devshard coverage later, once that logic settles.</li>
+<li>Along the way the sim surfaced two concrete bugs in the <strong>current</strong> flow — stranded client escrow on a quorum-missed timeout (#1265 → #1275) and a revalidation-vote failure when the voter isn't in the epoch group (#1269 → #1276). Both are small fixes on code live in <code>main</code> today. <strong>Even if focus shifts to devshard, is there a reason not to land them now?</strong></li>
+</ol>
+<p>If this whole area is being superseded and the fixes aren't worth merging, that's completely fine — I'd just like to know, so I can close things out cleanly rather than leave them open. Whatever fits your roadmap.</p>
   </div>
 </div>
 

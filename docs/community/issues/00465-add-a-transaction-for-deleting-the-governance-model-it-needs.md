@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2025-12-03 22:40 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2025-12-03 22:40 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-03-12 23:39 UTC</span>
   </div>
@@ -32,11 +32,11 @@ This task is up for grabs. It could potentially be implemented for a minimal bou
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@x0152](https://github.com/x0152)</span>
+    <span><a href="https://github.com/x0152">@x0152</a></span>
     <span class="issues-meta-item">commented 2026-02-18 07:19 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Ready to take
+  <div class="issues-comment-body issues-content">
+<p>Ready to take</p>
   </div>
 </div>
 

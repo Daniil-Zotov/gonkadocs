@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@huxuxuya](https://github.com/huxuxuya) opened 2026-02-14 16:52 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/huxuxuya">@huxuxuya</a> opened 2026-02-14 16:52 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-02-17 22:46 UTC</span>
   </div>
@@ -48,13 +48,12 @@ After upgrade v0.2.9, part of epoch 158 rewards appears to be distributed incorr
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
+    <span><a href="https://github.com/AlexeySamosadov">@AlexeySamosadov</a></span>
     <span class="issues-meta-item">commented 2026-02-17 21:52 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    PR with fix: #771 — removes resetPocSlotsInEpochGroupData from v0.2.9 upgrade handler. This function reset TimeslotAllocation[1] in EpochGroupData which is read during reward settlement, zeroing preservedWeight for all validators in epoch 158.
-
-Note: this is a forward-fix for chain replay correctness. Compensation for epoch 158 affected validators requires a separate governance proposal.
+  <div class="issues-comment-body issues-content">
+<p>PR with fix: #771 — removes resetPocSlotsInEpochGroupData from v0.2.9 upgrade handler. This function reset TimeslotAllocation[1] in EpochGroupData which is read during reward settlement, zeroing preservedWeight for all validators in epoch 158.</p>
+<p>Note: this is a forward-fix for chain replay correctness. Compensation for epoch 158 affected validators requires a separate governance proposal.</p>
   </div>
 </div>
 

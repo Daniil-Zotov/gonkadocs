@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2025-09-03 23:09 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2025-09-03 23:09 UTC</span>
     <span class="issues-meta-item">2 comments</span>
     <span class="issues-meta-item">Updated 2026-02-05 05:17 UTC</span>
   </div>
@@ -31,20 +31,20 @@ template: issues-main.html
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-01-15 00:24 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    #517 #541 #516 #525 partially address
+  <div class="issues-comment-body issues-content">
+<h1>517 #541 #516 #525 partially address</h1>
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-02-03 22:58 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    outdated
+  <div class="issues-comment-body issues-content">
+<p>outdated</p>
   </div>
 </div>
 

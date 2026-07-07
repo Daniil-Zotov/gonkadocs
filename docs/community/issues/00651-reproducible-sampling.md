@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-27 18:58 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-27 18:58 UTC</span>
     <span class="issues-meta-item">2 comments</span>
     <span class="issues-meta-item">Updated 2026-03-17 20:00 UTC</span>
   </div>
@@ -32,22 +32,21 @@ template: issues-main.html
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
+    <span><a href="https://github.com/AlexeySamosadov">@AlexeySamosadov</a></span>
     <span class="issues-meta-item">commented 2026-02-08 14:13 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    PR created: https://github.com/gonka-ai/gonka/pull/719
-
-Implements Stage 1 Sequence Check for reproducible sampling protection against speculative decoding attacks.
+  <div class="issues-comment-body issues-content">
+<p>PR created: https://github.com/gonka-ai/gonka/pull/719</p>
+<p>Implements Stage 1 Sequence Check for reproducible sampling protection against speculative decoding attacks.</p>
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
+    <span><a href="https://github.com/AlexeySamosadov">@AlexeySamosadov</a></span>
     <span class="issues-meta-item">commented 2026-02-12 15:26 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    I have a PR for this: #719 — implements Stage 1 Sequence Check for reproducible sampling protection. Would appreciate a review when you get a chance.
+  <div class="issues-comment-body issues-content">
+<p>I have a PR for this: #719 — implements Stage 1 Sequence Check for reproducible sampling protection. Would appreciate a review when you get a chance.</p>
   </div>
 </div>
 

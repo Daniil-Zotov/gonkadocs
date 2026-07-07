@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-20 23:20 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-20 23:20 UTC</span>
     <span class="issues-meta-item">3 comments</span>
     <span class="issues-meta-item">Updated 2026-04-11 04:34 UTC</span>
   </div>
@@ -31,12 +31,12 @@ template: issues-main.html
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-03-20 23:21 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    @maria-mitina said that Community Sale contract tested with IBC, worked well.
-@GLiberman @0xgonka do we have other scenarios to try?
+  <div class="issues-comment-body issues-content">
+<p>@maria-mitina said that Community Sale contract tested with IBC, worked well.
+@GLiberman @0xgonka do we have other scenarios to try?</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -44,9 +44,9 @@ template: issues-main.html
     <span>[@maria-mitina](https://github.com/maria-mitina)</span>
     <span class="issues-meta-item">commented 2026-03-25 09:11 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    it will be great to confirm/decide whether bridge is needed for the Bitfury scenario.
-If yes, we will work this scenario out and test.
+  <div class="issues-comment-body issues-content">
+<p>it will be great to confirm/decide whether bridge is needed for the Bitfury scenario.
+If yes, we will work this scenario out and test.</p>
 
 
   </div>
@@ -56,11 +56,10 @@ If yes, we will work this scenario out and test.
     <span>[@maria-mitina](https://github.com/maria-mitina)</span>
     <span class="issues-meta-item">commented 2026-03-25 17:15 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    @mtvnastya and I had a discussion about it, and bridge is needed for the Bitfury contract. We need to fix the hardcoded chainId and rebuild the binary. Happy to test after that 
-@GLiberman - any chance you could update us on the bridge fix? 
-
-FYI, @tcharchian 
+  <div class="issues-comment-body issues-content">
+<p>@mtvnastya and I had a discussion about it, and bridge is needed for the Bitfury contract. We need to fix the hardcoded chainId and rebuild the binary. Happy to test after that 
+@GLiberman - any chance you could update us on the bridge fix? </p>
+<p>FYI, @tcharchian</p> 
   </div>
 </div>
 

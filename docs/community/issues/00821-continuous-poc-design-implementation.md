@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-27 21:16 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-02-27 21:16 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-03-03 10:33 UTC</span>
   </div>
@@ -41,11 +41,11 @@ Long-running effort; Many contributors are welcome.
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
+    <span><a href="https://github.com/AlexeySamosadov">@AlexeySamosadov</a></span>
     <span class="issues-meta-item">commented 2026-03-03 10:33 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    PR: https://github.com/gonka-ai/gonka/pull/845
+  <div class="issues-comment-body issues-content">
+<p>PR: https://github.com/gonka-ai/gonka/pull/845</p>
   </div>
 </div>
 

@@ -43,9 +43,8 @@ Testnet will be used for the flow verification.
     <span>[@maria-mitina](https://github.com/maria-mitina)</span>
     <span class="issues-meta-item">commented 2026-03-04 12:15 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    all test cases on testnet PASSED with a caveat that the TX does not fail explicitly. (**Expected:** Tx fails (e.g. “authorization not found” / “unauthorized”). **Reality:** Nothing indicating that the voting did not go through)
-
+  <div class="issues-comment-body issues-content">
+<p>all test cases on testnet PASSED with a caveat that the TX does not fail explicitly. (<strong>Expected:</strong> Tx fails (e.g. “authorization not found” / “unauthorized”). <strong>Reality:</strong> Nothing indicating that the voting did not go through)</p>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 <head>
@@ -150,44 +149,44 @@ Tally | Query votes after success | Granter appears with correct option
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-03-05 23:46 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Hey @mayveskii, could you please clarify why you referenced this issue in [d4e74c4] and [e5995db]? Do you have any issues with delegating?
+  <div class="issues-comment-body issues-content">
+<p>Hey @mayveskii, could you please clarify why you referenced this issue in [d4e74c4] and [e5995db]? Do you have any issues with delegating?</p>
 
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Mayveskii](https://github.com/Mayveskii)</span>
+    <span><a href="https://github.com/Mayveskii">@Mayveskii</a></span>
     <span class="issues-meta-item">commented 2026-03-06 00:05 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    > Hey [@Mayveskii](https://github.com/Mayveskii), could you please clarify why you referenced this issue in [[d4e74c4](https://github.com/gonka-ai/gonka/commit/d4e74c4da683bb4a1ee894a5004af2247ac65c3c)] and [[e5995db](https://github.com/gonka-ai/gonka/commit/e5995db2391d9d1b9037ffd0b3c5d2344437bd2c)]? Do you have any issues with delegating?
-
-Hi, Tanya!  I'm interested in participating as a grantee in the delegation test.
-
-My address: gonka1l38meyucc0ajwdhn6ssevsj0xpvm3dysu59mh8
-Account registered on-chain: account_number 1130693
-
-Could you also send a small amount of tokens to this address so I can participate? 
-Currently working on GIP #859 (semantic cache) and need tokens for both the delegation test and inference validation.
+  <div class="issues-comment-body issues-content">
+<blockquote>
+<p>Hey <a href="https://github.com/Mayveskii">@Mayveskii</a>, could you please clarify why you referenced this issue in [<a href="https://github.com/gonka-ai/gonka/commit/d4e74c4da683bb4a1ee894a5004af2247ac65c3c">d4e74c4</a>] and [<a href="https://github.com/gonka-ai/gonka/commit/e5995db2391d9d1b9037ffd0b3c5d2344437bd2c">e5995db</a>]? Do you have any issues with delegating?</p>
+</blockquote>
+<p>Hi, Tanya!  I'm interested in participating as a grantee in the delegation test.</p>
+<p>My address: gonka1l38meyucc0ajwdhn6ssevsj0xpvm3dysu59mh8
+Account registered on-chain: account_number 1130693</p>
+<p>Could you also send a small amount of tokens to this address so I can participate? 
+Currently working on GIP #859 (semantic cache) and need tokens for both the delegation test and inference validation.</p>
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Mayveskii](https://github.com/Mayveskii)</span>
+    <span><a href="https://github.com/Mayveskii">@Mayveskii</a></span>
     <span class="issues-meta-item">commented 2026-03-06 00:15 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    > Hey [@Mayveskii](https://github.com/Mayveskii), could you please clarify why you referenced this issue in [[d4e74c4](https://github.com/gonka-ai/gonka/commit/d4e74c4da683bb4a1ee894a5004af2247ac65c3c)] and [[e5995db](https://github.com/gonka-ai/gonka/commit/e5995db2391d9d1b9037ffd0b3c5d2344437bd2c)]? Do you have any issues with delegating?
-
-I referenced it intentionally — while working on GIP #859 
+  <div class="issues-comment-body issues-content">
+<blockquote>
+<p>Hey <a href="https://github.com/Mayveskii">@Mayveskii</a>, could you please clarify why you referenced this issue in [<a href="https://github.com/gonka-ai/gonka/commit/d4e74c4da683bb4a1ee894a5004af2247ac65c3c">d4e74c4</a>] and [<a href="https://github.com/gonka-ai/gonka/commit/e5995db2391d9d1b9037ffd0b3c5d2344437bd2c">e5995db</a>]? Do you have any issues with delegating?</p>
+</blockquote>
+<p>I referenced it intentionally — while working on GIP #859 
 I found that MsgSubmitCacheQualitySummary was missing from 
 InferenceOperationKeyPerms, which was blocking the Grant→Exec→Revoke 
 flow you're testing in #857. Fixed it as part of the same permissions audit. 
-No issues with delegating.
+No issues with delegating.</p>
   </div>
 </div>
 

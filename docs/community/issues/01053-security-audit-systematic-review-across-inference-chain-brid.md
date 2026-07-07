@@ -127,16 +127,12 @@ I plan to submit additional fix PRs for the remaining findings if the team is in
     <span>[@Doog-bot534](https://github.com/Doog-bot534)</span>
     <span class="issues-meta-item">commented 2026-04-15 07:14 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    ## Payout Address
-
-If any of the findings or fix PRs (#1050, #1051, #1052, #1054, #1055, #1056, #1057) are eligible for bounty rewards, please send to:
-
-```
-gonka10zaal553duxp05nvfpqtsqrm2g0j6j34r8nan7
-```
-
-Happy to discuss any of the findings in more detail or submit additional fixes for the remaining issues listed above.
+  <div class="issues-comment-body issues-content">
+<h2>Payout Address</h2>
+<p>If any of the findings or fix PRs (#1050, #1051, #1052, #1054, #1055, #1056, #1057) are eligible for bounty rewards, please send to:</p>
+<pre><code>gonka10zaal553duxp05nvfpqtsqrm2g0j6j34r8nan7
+</code></pre>
+<p>Happy to discuss any of the findings in more detail or submit additional fixes for the remaining issues listed above.</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -144,15 +140,13 @@ Happy to discuss any of the findings in more detail or submit additional fixes f
     <span>[@Doog-bot534](https://github.com/Doog-bot534)</span>
     <span class="issues-meta-item">commented 2026-04-20 02:00 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    2026-04-20 self-review update: withdrawing findings **#3, #8, #16, #21** (see "Withdrawn findings" section in the updated body). Same review pass closed PRs #1077 and #1058.
-
-Rationale:
-- **#3, #8** (subnetctl zero-auth, unbounded body) — `subnetctl` is a user-side local CLI proxy for the escrow owner (localhost:8080), not a multi-tenant service. Threat model doesn't apply.
-- **#16** (SSRF via escrowID in REST bridge) — `baseURL` is operator-controlled config, so this is a same-origin internal-path concern, same class as the earlier withdrawn #1064.
-- **#21** (TokenomicsData uint64 overflow) — direct duplicate of already-withdrawn #1062; requires > 2^64 accumulation which is not reachable in practice.
-
-Keeping the queue focused on actionable findings. The other 17 items (including the Critical #1 and the High findings #2/#4/#5) remain valid.
+  <div class="issues-comment-body issues-content">
+<p>2026-04-20 self-review update: withdrawing findings <strong>#3, #8, #16, #21</strong> (see "Withdrawn findings" section in the updated body). Same review pass closed PRs #1077 and #1058.</p>
+<p>Rationale:
+- <strong>#3, #8</strong> (subnetctl zero-auth, unbounded body) — <code>subnetctl</code> is a user-side local CLI proxy for the escrow owner (localhost:8080), not a multi-tenant service. Threat model doesn't apply.
+- <strong>#16</strong> (SSRF via escrowID in REST bridge) — <code>baseURL</code> is operator-controlled config, so this is a same-origin internal-path concern, same class as the earlier withdrawn #1064.
+- <strong>#21</strong> (TokenomicsData uint64 overflow) — direct duplicate of already-withdrawn #1062; requires &gt; 2^64 accumulation which is not reachable in practice.</p>
+<p>Keeping the queue focused on actionable findings. The other 17 items (including the Critical #1 and the High findings #2/#4/#5) remain valid.</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -160,43 +154,79 @@ Keeping the queue focused on actionable findings. The other 17 items (including 
     <span>[@Doog-bot534](https://github.com/Doog-bot534)</span>
     <span class="issues-meta-item">commented 2026-04-20 14:54 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    ## Cleanup summary (2026-04-20)
-
-Per maintainer feedback on PR quality, I've completed a self-audit of all submissions under this umbrella. Summary:
-
-### Withdrawn (target removed code)
-
-- #1082, #1083 — both targeted `AssignTrainingTask` / `CreateDummyTrainingTask` in the training module which was removed in #1009 (2026-04-07). Closed with apology.
-
-### Withdrawn from this audit (previous waves)
-
-- F3, F8, F16, F21 sub-findings in this issue body — dropped after re-verification against current code.
-
-### Revised after self-review
-
-All 8 remaining open PRs were run through gonka-ai/ai-reviewer personas (skeptic + chain_security / dapi-behavioral-correctness). Full review output posted as comments on each PR.
-
-Code changes pushed in response to ai-reviewer findings:
-- **#1054** — log original error server-side before generic response
-- **#1055** — add IPv4-mapped IPv6 to SSRF blocklist; document DNS-rebinding as follow-up
-- **#1063** — include query string in signed payload (closes parameter-tampering replay)
-- **#1050** — rewrote body to reflect actual severity (preventive, not "chain fork")
-
-### Remaining 8 open PRs
-
-| PR | Severity (revised) | Status |
-|---|---|---|
-| #1050 consensus float64 | Low (preventive) | ready |
-| #1052 PoC V2 permissions | Medium | ready |
-| #1054 error handler leak | Low | revised, ready |
-| #1055 SSRF partial mitigation | Medium | revised, ready |
-| #1056 rate limiter eviction | Low-Medium | ready |
-| #1057 warm key TTL | Low-Medium | ready |
-| #1060 debug endpoints | Low | ready |
-| #1063 GET auth | Medium | revised, ready |
-
-Going forward I'll only submit PRs after running ai-reviewer locally and validating against current master.
+  <div class="issues-comment-body issues-content">
+<h2>Cleanup summary (2026-04-20)</h2>
+<p>Per maintainer feedback on PR quality, I've completed a self-audit of all submissions under this umbrella. Summary:</p>
+<h3>Withdrawn (target removed code)</h3>
+<ul>
+<li>
+<h1>1082, #1083 — both targeted <code>AssignTrainingTask</code> / <code>CreateDummyTrainingTask</code> in the training module which was removed in #1009 (2026-04-07). Closed with apology.</h1>
+</li>
+</ul>
+<h3>Withdrawn from this audit (previous waves)</h3>
+<ul>
+<li>F3, F8, F16, F21 sub-findings in this issue body — dropped after re-verification against current code.</li>
+</ul>
+<h3>Revised after self-review</h3>
+<p>All 8 remaining open PRs were run through gonka-ai/ai-reviewer personas (skeptic + chain_security / dapi-behavioral-correctness). Full review output posted as comments on each PR.</p>
+<p>Code changes pushed in response to ai-reviewer findings:
+- <strong>#1054</strong> — log original error server-side before generic response
+- <strong>#1055</strong> — add IPv4-mapped IPv6 to SSRF blocklist; document DNS-rebinding as follow-up
+- <strong>#1063</strong> — include query string in signed payload (closes parameter-tampering replay)
+- <strong>#1050</strong> — rewrote body to reflect actual severity (preventive, not "chain fork")</p>
+<h3>Remaining 8 open PRs</h3>
+<table>
+<thead>
+<tr>
+<th>PR</th>
+<th>Severity (revised)</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>#1050 consensus float64</td>
+<td>Low (preventive)</td>
+<td>ready</td>
+</tr>
+<tr>
+<td>#1052 PoC V2 permissions</td>
+<td>Medium</td>
+<td>ready</td>
+</tr>
+<tr>
+<td>#1054 error handler leak</td>
+<td>Low</td>
+<td>revised, ready</td>
+</tr>
+<tr>
+<td>#1055 SSRF partial mitigation</td>
+<td>Medium</td>
+<td>revised, ready</td>
+</tr>
+<tr>
+<td>#1056 rate limiter eviction</td>
+<td>Low-Medium</td>
+<td>ready</td>
+</tr>
+<tr>
+<td>#1057 warm key TTL</td>
+<td>Low-Medium</td>
+<td>ready</td>
+</tr>
+<tr>
+<td>#1060 debug endpoints</td>
+<td>Low</td>
+<td>ready</td>
+</tr>
+<tr>
+<td>#1063 GET auth</td>
+<td>Medium</td>
+<td>revised, ready</td>
+</tr>
+</tbody>
+</table>
+<p>Going forward I'll only submit PRs after running ai-reviewer locally and validating against current master.</p>
 
   </div>
 </div>

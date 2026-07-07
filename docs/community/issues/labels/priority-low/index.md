@@ -21,7 +21,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@akup](https://github.com/akup) opened 5 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/akup">@akup</a> opened 5 days ago</span>
       
     </div>
   </div>
@@ -36,7 +36,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@gmorgachev](https://github.com/gmorgachev) opened 9 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/gmorgachev">@gmorgachev</a> opened 9 days ago</span>
       
     </div>
   </div>
@@ -51,7 +51,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@akup](https://github.com/akup) opened 10 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/akup">@akup</a> opened 10 days ago</span>
       
     </div>
   </div>
@@ -66,7 +66,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 13 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 13 days ago</span>
       
     </div>
   </div>
@@ -81,7 +81,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 13 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 13 days ago</span>
       
     </div>
   </div>
@@ -111,7 +111,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@dcastro](https://github.com/dcastro) opened 2026-04-29</span>
+      <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 2026-04-29</span>
       
     </div>
   </div>
@@ -126,7 +126,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-04-10</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-04-10</span>
       
     </div>
   </div>
@@ -141,7 +141,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@akup](https://github.com/akup) opened 2026-04-04</span>
+      <span class="issues-meta-item"><a href="https://github.com/akup">@akup</a> opened 2026-04-04</span>
       
     </div>
   </div>
@@ -156,7 +156,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@IgnatovFedor](https://github.com/IgnatovFedor) opened 2026-03-25</span>
+      <span class="issues-meta-item"><a href="https://github.com/IgnatovFedor">@IgnatovFedor</a> opened 2026-03-25</span>
       
     </div>
   </div>
@@ -171,7 +171,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span> <span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-12</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-12</span>
       
     </div>
   </div>
@@ -186,7 +186,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@VVSMEN](https://github.com/VVSMEN) opened 2026-03-12</span>
+      <span class="issues-meta-item"><a href="https://github.com/VVSMEN">@VVSMEN</a> opened 2026-03-12</span>
       
     </div>
   </div>
@@ -201,7 +201,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@VVSMEN](https://github.com/VVSMEN) opened 2026-03-12</span>
+      <span class="issues-meta-item"><a href="https://github.com/VVSMEN">@VVSMEN</a> opened 2026-03-12</span>
       
     </div>
   </div>

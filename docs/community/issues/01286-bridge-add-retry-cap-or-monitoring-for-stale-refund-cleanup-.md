@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item">[@Ryanchen911](https://github.com/Ryanchen911) opened 2026-06-01 02:34 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/Ryanchen911">@Ryanchen911</a> opened 2026-06-01 02:34 UTC</span>
     <span class="issues-meta-item">4 comments</span>
     <span class="issues-meta-item">Updated 2026-07-01 21:37 UTC</span>
   </div>
@@ -70,38 +70,38 @@ Either:
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-06-02 00:50 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    @Ryanchen911, are you ready to write a fix?
+  <div class="issues-comment-body issues-content">
+<p>@Ryanchen911, are you ready to write a fix?</p>
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Ryanchen911](https://github.com/Ryanchen911)</span>
+    <span><a href="https://github.com/Ryanchen911">@Ryanchen911</a></span>
     <span class="issues-meta-item">commented 2026-06-02 07:15 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    sure, we will take it @bonujel
+  <div class="issues-comment-body issues-content">
+<p>sure, we will take it @bonujel</p>
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@bonujel](https://github.com/bonujel)</span>
+    <span><a href="https://github.com/bonujel">@bonujel</a></span>
     <span class="issues-meta-item">commented 2026-06-02 08:27 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Picking this up — I'll add a maximum retry cap for completed post-process retries (with metrics/logging for stale entries) so persistent cleanup failures can't retry forever, while keeping the existing double-spend protection unchanged. PR to follow on the v0.2.14 line.
+  <div class="issues-comment-body issues-content">
+<p>Picking this up — I'll add a maximum retry cap for completed post-process retries (with metrics/logging for stale entries) so persistent cleanup failures can't retry forever, while keeping the existing double-spend protection unchanged. PR to follow on the v0.2.14 line.</p>
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-06-02 17:46 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    @GLiberman fyi
+  <div class="issues-comment-body issues-content">
+<p>@GLiberman fyi</p>
   </div>
 </div>
 

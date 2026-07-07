@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item">[@huxuxuya](https://github.com/huxuxuya) opened 2026-02-05 18:52 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/huxuxuya">@huxuxuya</a> opened 2026-02-05 18:52 UTC</span>
     <span class="issues-meta-item">4 comments</span>
     <span class="issues-meta-item">Updated 2026-03-02 12:27 UTC</span>
   </div>
@@ -50,41 +50,40 @@ A mandatory rotation. If a node was in the safe slot in the previous epoch, it i
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
+    <span><a href="https://github.com/AlexeySamosadov">@AlexeySamosadov</a></span>
     <span class="issues-meta-item">commented 2026-02-08 14:13 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    PR created: https://github.com/gonka-ai/gonka/pull/718
-
-Implements rotation logic to prevent the same node from always getting the safe inference slot.
+  <div class="issues-comment-body issues-content">
+<p>PR created: https://github.com/gonka-ai/gonka/pull/718</p>
+<p>Implements rotation logic to prevent the same node from always getting the safe inference slot.</p>
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
+    <span><a href="https://github.com/AlexeySamosadov">@AlexeySamosadov</a></span>
     <span class="issues-meta-item">commented 2026-02-12 15:26 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    I have a PR for this: #718 — implements deterministic rotation for PoC slot allocation to prevent hogging. Would appreciate a review when you get a chance.
+  <div class="issues-comment-body issues-content">
+<p>I have a PR for this: #718 — implements deterministic rotation for PoC slot allocation to prevent hogging. Would appreciate a review when you get a chance.</p>
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@huxuxuya](https://github.com/huxuxuya)</span>
+    <span><a href="https://github.com/huxuxuya">@huxuxuya</a></span>
     <span class="issues-meta-item">commented 2026-02-24 19:31 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-     This task was created in parallel with this PR #707
+  <div class="issues-comment-body issues-content">
+<p>This task was created in parallel with this PR #707</p>
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@huxuxuya](https://github.com/huxuxuya)</span>
+    <span><a href="https://github.com/huxuxuya">@huxuxuya</a></span>
     <span class="issues-meta-item">commented 2026-03-02 12:27 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Assign to me plz. Task already done.
-#707 
+  <div class="issues-comment-body issues-content">
+<p>Assign to me plz. Task already done.</p>
+<h1>707</h1> 
   </div>
 </div>
 

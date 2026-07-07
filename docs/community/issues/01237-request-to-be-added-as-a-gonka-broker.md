@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@piterberkut](https://github.com/piterberkut) opened 2026-05-23 13:54 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/piterberkut">@piterberkut</a> opened 2026-05-23 13:54 UTC</span>
     <span class="issues-meta-item">2 comments</span>
     <span class="issues-meta-item">Updated 2026-06-23 22:46 UTC</span>
   </div>
@@ -96,35 +96,29 @@ Thanks!
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@piterberkut](https://github.com/piterberkut)</span>
+    <span><a href="https://github.com/piterberkut">@piterberkut</a></span>
     <span class="issues-meta-item">commented 2026-05-28 18:43 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    @tcharchian , Hi, i see that this issue is completed. What our team should do next to join allowlist with our gonka adress?
+  <div class="issues-comment-body issues-content">
+<p>@tcharchian , Hi, i see that this issue is completed. What our team should do next to join allowlist with our gonka adress?</p>
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-06-23 22:46 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Hi! At the moment, the public broker list is not being actively expanded through governance. Inclusion in that list should be handled through the governance process and discussed in the community.
-
-As a practical alternative, there is now a community-operated option for teams that want to start operating as brokers without waiting for direct access https://github.com/gonka-ai/gonka/discussions/1363.
-
-OpenBroker provides access to Gonka inference through devshards v1 and v2 under an already whitelisted escrow-operating wallet. It is intended for teams that want to build or test broker-side products without handling escrow enrollment, escrow funding and rotation, v1/v2 state-root differences, or node4 access.
-
-You can register here:
-https://openbroker.gonka.gg/register
-
-Endpoint:
-https://openbroker.gonka.gg/v1
-
-Stats:
-https://openbroker.gonka.gg/stats
-
-This should let you start while the governance discussion around inclusion/white-listing continues separately.
+  <div class="issues-comment-body issues-content">
+<p>Hi! At the moment, the public broker list is not being actively expanded through governance. Inclusion in that list should be handled through the governance process and discussed in the community.</p>
+<p>As a practical alternative, there is now a community-operated option for teams that want to start operating as brokers without waiting for direct access https://github.com/gonka-ai/gonka/discussions/1363.</p>
+<p>OpenBroker provides access to Gonka inference through devshards v1 and v2 under an already whitelisted escrow-operating wallet. It is intended for teams that want to build or test broker-side products without handling escrow enrollment, escrow funding and rotation, v1/v2 state-root differences, or node4 access.</p>
+<p>You can register here:
+https://openbroker.gonka.gg/register</p>
+<p>Endpoint:
+https://openbroker.gonka.gg/v1</p>
+<p>Stats:
+https://openbroker.gonka.gg/stats</p>
+<p>This should let you start while the governance discussion around inclusion/white-listing continues separately.</p>
   </div>
 </div>
 

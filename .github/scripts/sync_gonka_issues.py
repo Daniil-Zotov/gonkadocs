@@ -15,6 +15,7 @@ from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 
+import markdown
 import requests
 
 OWNER = os.environ.get("REPO_OWNER", "gonka-ai")
@@ -121,10 +122,36 @@ def fmt_date_short(iso):
         return (iso or "")[:10]
 
 
+MD_EXT = [
+    "markdown.extensions.extra",
+    "markdown.extensions.sane_lists",
+    "markdown.extensions.md_in_html",
+]
+
+def render_md(text):
+    if not text or text.strip() in ("", "*(empty)*"):
+        return text
+    # Enable markdown processing inside <details> blocks
+    text = text.replace("<details>", '<details markdown="1">')
+    text = text.replace("<summary>", '<summary markdown="1">')
+    return markdown.markdown(text, extensions=MD_EXT)
+
+def render_md_for_migration(text):
+    """Same as render_md but with dedent for content extracted from HTML."""
+    if not text or text.strip() in ("", "*(empty)*"):
+        return text
+    import textwrap
+    text = textwrap.dedent(text).strip()
+    text = text.replace("<details>", '<details markdown="1">')
+    text = text.replace("<summary>", '<summary markdown="1">')
+    return markdown.markdown(text, extensions=MD_EXT)
+
 def user_link(user):
     if not user:
         return "deleted user"
-    return f'[@{user["login"]}]({user["html_url"]})'
+    login = user["login"]
+    url = user["html_url"]
+    return f'<a href="{url}">@{login}</a>'
 
 
 def label_html(label):
@@ -327,13 +354,14 @@ template: issues-main.html
         out += f"\n---\n\n## 💬 Comments ({len(comments)})\n\n"
         for i, c in enumerate(comments, 1):
             cu = c.get("user")
+            body_html = render_md(c.get("body"))
             out += f'''<div class="issues-comment">
   <div class="issues-comment-header">
     <span>{user_link(cu)}</span>
     <span class="issues-meta-item">commented {fmt_date(c['created_at'])}</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    {c.get("body") or "*(empty)*"}
+  <div class="issues-comment-body issues-content">
+    {body_html or "*(empty)*"}
   </div>
 </div>
 '''

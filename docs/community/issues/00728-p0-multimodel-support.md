@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-11 00:43 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-02-11 00:43 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-04-16 13:55 UTC</span>
   </div>
@@ -32,11 +32,11 @@ https://github.com/gonka-ai/gonka/tree/gm/multi-models/proposals/multi-model-poc
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@gmorgachev](https://github.com/gmorgachev)</span>
+    <span><a href="https://github.com/gmorgachev">@gmorgachev</a></span>
     <span class="issues-meta-item">commented 2026-03-05 17:47 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    @tcharchian let's move to 0.2.12
+  <div class="issues-comment-body issues-content">
+<p>@tcharchian let's move to 0.2.12</p>
   </div>
 </div>
 

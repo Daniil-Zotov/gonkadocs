@@ -37,20 +37,20 @@ To achieve this, one solution is to register the BLS `devshard` public key for e
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@KKizilov](https://github.com/KKizilov)</span>
+    <span><a href="https://github.com/KKizilov">@KKizilov</a></span>
     <span class="issues-meta-item">commented 2026-03-26 15:16 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Will be done fast after finishing #913 
+  <div class="issues-comment-body issues-content">
+<p>Will be done fast after finishing #913</p> 
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-04-29 21:15 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    postpone review after Upgrade v0.x.x-devshard2
+  <div class="issues-comment-body issues-content">
+<p>postpone review after Upgrade v0.x.x-devshard2</p>
   </div>
 </div>
 

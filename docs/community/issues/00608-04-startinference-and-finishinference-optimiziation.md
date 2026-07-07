@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@libermans](https://github.com/libermans) opened 2026-01-19 01:05 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/libermans">@libermans</a> opened 2026-01-19 01:05 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-03-11 20:01 UTC</span>
   </div>
@@ -46,12 +46,12 @@ Unfortunately as TA signature doesn't derived from request original hash, it may
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@gmorgachev](https://github.com/gmorgachev)</span>
+    <span><a href="https://github.com/gmorgachev">@gmorgachev</a></span>
     <span class="issues-meta-item">commented 2026-03-11 20:01 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    The big part of inference flow optimization is merged in https://github.com/gonka-ai/gonka/pull/812
-I'm closing all `[*/4] StartInference and FinishInference: optimiziation` tasks to finalize this work in milestone 0.2.11. I think it'd be better to re-open in case of additinal optimizations required
+  <div class="issues-comment-body issues-content">
+<p>The big part of inference flow optimization is merged in https://github.com/gonka-ai/gonka/pull/812
+I'm closing all <code>[*/4] StartInference and FinishInference: optimiziation</code> tasks to finalize this work in milestone 0.2.11. I think it'd be better to re-open in case of additinal optimizations required</p>
   </div>
 </div>
 

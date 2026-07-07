@@ -21,7 +21,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@enonog](https://github.com/enonog) opened 13 hours ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/enonog">@enonog</a> opened 13 hours ago</span>
       
     </div>
   </div>
@@ -51,7 +51,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 15 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 15 days ago</span>
       
     </div>
   </div>
@@ -66,7 +66,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@dcastro](https://github.com/dcastro) opened 2026-06-01</span>
+      <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 2026-06-01</span>
       
     </div>
   </div>
@@ -96,7 +96,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@Mayveskii](https://github.com/Mayveskii) opened 2026-04-28</span>
+      <span class="issues-meta-item"><a href="https://github.com/Mayveskii">@Mayveskii</a> opened 2026-04-28</span>
       
     </div>
   </div>
@@ -126,7 +126,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@dcastro](https://github.com/dcastro) opened 2026-04-21</span>
+      <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 2026-04-21</span>
       
     </div>
   </div>
@@ -141,7 +141,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span> <span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@akup](https://github.com/akup) opened 2026-04-03</span>
+      <span class="issues-meta-item"><a href="https://github.com/akup">@akup</a> opened 2026-04-03</span>
       
     </div>
   </div>
@@ -156,7 +156,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span> <span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-12</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-12</span>
       
     </div>
   </div>
@@ -171,7 +171,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span> <span class="issues-label" style="background-color: #008672; color: #ffffff; border-color: #008672;">help wanted</span> <span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span> <span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-03</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-03</span>
       
     </div>
   </div>
@@ -186,7 +186,7 @@ Updated: `2026-07-07 04:31 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span> <span class="issues-label" style="background-color: #008672; color: #ffffff; border-color: #008672;">help wanted</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@ochenUmnayaKatyshka](https://github.com/ochenUmnayaKatyshka) opened 2026-02-27</span>
+      <span class="issues-meta-item"><a href="https://github.com/ochenUmnayaKatyshka">@ochenUmnayaKatyshka</a> opened 2026-02-27</span>
       
     </div>
   </div>

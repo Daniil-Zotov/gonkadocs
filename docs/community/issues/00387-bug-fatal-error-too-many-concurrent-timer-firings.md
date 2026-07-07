@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@gmorgachev](https://github.com/gmorgachev) opened 2025-10-09 05:51 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/gmorgachev">@gmorgachev</a> opened 2025-10-09 05:51 UTC</span>
     <span class="issues-meta-item">2 comments</span>
     <span class="issues-meta-item">Updated 2026-01-15 22:12 UTC</span>
   </div>
@@ -57,22 +57,22 @@ runtime.mcall()
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@gmorgachev](https://github.com/gmorgachev)</span>
+    <span><a href="https://github.com/gmorgachev">@gmorgachev</a></span>
     <span class="issues-meta-item">commented 2025-10-19 04:36 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    One more case:
-[issue-4.log](https://github.com/user-attachments/files/22988429/issue-4.log)
+  <div class="issues-comment-body issues-content">
+<p>One more case:
+<a href="https://github.com/user-attachments/files/22988429/issue-4.log">issue-4.log</a></p>
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@gmorgachev](https://github.com/gmorgachev)</span>
+    <span><a href="https://github.com/gmorgachev">@gmorgachev</a></span>
     <span class="issues-meta-item">commented 2025-11-22 00:53 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Seems like we need to bump go version: https://github.com/golang/go/issues/69880
-TODO: propoperly test compartibility
+  <div class="issues-comment-body issues-content">
+<p>Seems like we need to bump go version: https://github.com/golang/go/issues/69880
+TODO: propoperly test compartibility</p>
   </div>
 </div>
 

@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2025-09-03 23:01 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2025-09-03 23:01 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-02-10 01:23 UTC</span>
   </div>
@@ -31,11 +31,11 @@ template: issues-main.html
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2025-09-16 16:57 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    https://docs.google.com/spreadsheets/d/1objmukml2txGK5Yr4k9GsP5K9EUFhG04L8GqqST3XYY/edit?gid=0#gid=0
+  <div class="issues-comment-body issues-content">
+<p>https://docs.google.com/spreadsheets/d/1objmukml2txGK5Yr4k9GsP5K9EUFhG04L8GqqST3XYY/edit?gid=0#gid=0</p>
   </div>
 </div>
 

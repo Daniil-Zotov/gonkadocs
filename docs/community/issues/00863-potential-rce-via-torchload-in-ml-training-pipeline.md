@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@VVSMEN](https://github.com/VVSMEN) opened 2026-03-05 10:44 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/VVSMEN">@VVSMEN</a> opened 2026-03-05 10:44 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-03-12 20:25 UTC</span>
   </div>
@@ -176,11 +176,11 @@ The vulnerability is identified at the code level, **not verified on testnet**. 
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tamazgadaev](https://github.com/tamazgadaev)</span>
+    <span><a href="https://github.com/tamazgadaev">@tamazgadaev</a></span>
     <span class="issues-meta-item">commented 2026-03-12 19:44 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Training is not currently supported and basically needs total revision, so I'd say this issue is low-priority
+  <div class="issues-comment-body issues-content">
+<p>Training is not currently supported and basically needs total revision, so I'd say this issue is low-priority</p>
   </div>
 </div>
 

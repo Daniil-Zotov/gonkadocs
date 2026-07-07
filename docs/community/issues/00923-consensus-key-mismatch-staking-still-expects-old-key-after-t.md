@@ -70,11 +70,11 @@ Thank you.
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@0xgonka](https://github.com/0xgonka)</span>
+    <span><a href="https://github.com/0xgonka">@0xgonka</a></span>
     <span class="issues-meta-item">commented 2026-04-28 20:53 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    this is likely stale by now. We can re-open if there are subsequent reports but looks like it might have been a fluke
+  <div class="issues-comment-body issues-content">
+<p>this is likely stale by now. We can re-open if there are subsequent reports but looks like it might have been a fluke</p>
 
 
   </div>

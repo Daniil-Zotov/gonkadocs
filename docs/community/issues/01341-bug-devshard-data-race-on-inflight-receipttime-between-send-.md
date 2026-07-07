@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@redstartechno](https://github.com/redstartechno) opened 2026-06-12 20:05 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/redstartechno">@redstartechno</a> opened 2026-06-12 20:05 UTC</span>
     <span class="issues-meta-item">3 comments</span>
     <span class="issues-meta-item">Updated 2026-06-26 23:54 UTC</span>
   </div>
@@ -116,11 +116,11 @@ Goroutine 31 (running) created at:
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-06-25 00:19 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Hey @akup @x0152, what are your thoughts here? 
+  <div class="issues-comment-body issues-content">
+<p>Hey @akup @x0152, what are your thoughts here?</p> 
   </div>
 </div>
 <div class="issues-comment">
@@ -128,18 +128,18 @@ Goroutine 31 (running) created at:
     <span>[@a-kuprin](https://github.com/a-kuprin)</span>
     <span class="issues-meta-item">commented 2026-06-25 17:16 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    @redstartechno fixed here:
-https://github.com/gonka-ai/gonka/commit/7b2c7b4dd946d37c32108103dad1a3cdfbdd6d25
+  <div class="issues-comment-body issues-content">
+<p>@redstartechno fixed here:
+https://github.com/gonka-ai/gonka/commit/7b2c7b4dd946d37c32108103dad1a3cdfbdd6d25</p>
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-06-26 23:54 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Hi @redstartechno, this does not look like a bug or a vulnerability. It mostly seems to be a test-related issue, but I don’t see how it affects production code. Anyway, thanks for flagging
+  <div class="issues-comment-body issues-content">
+<p>Hi @redstartechno, this does not look like a bug or a vulnerability. It mostly seems to be a test-related issue, but I don’t see how it affects production code. Anyway, thanks for flagging</p>
   </div>
 </div>
 

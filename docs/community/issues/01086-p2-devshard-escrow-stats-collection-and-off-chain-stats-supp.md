@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-04-16 23:28 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-04-16 23:28 UTC</span>
     <span class="issues-meta-item">2 comments</span>
     <span class="issues-meta-item">Updated 2026-05-18 22:42 UTC</span>
   </div>
@@ -31,23 +31,22 @@ template: issues-main.html
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@akup](https://github.com/akup)</span>
+    <span><a href="https://github.com/akup">@akup</a></span>
     <span class="issues-meta-item">commented 2026-04-21 20:15 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Isn't it related PR? where something was already solved
-https://github.com/gonka-ai/gonka/pull/1001
-
-and important questions on shard finalization were raised here: https://github.com/gonka-ai/gonka/pull/1000
+  <div class="issues-comment-body issues-content">
+<p>Isn't it related PR? where something was already solved
+https://github.com/gonka-ai/gonka/pull/1001</p>
+<p>and important questions on shard finalization were raised here: https://github.com/gonka-ai/gonka/pull/1000</p>
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-04-29 21:03 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    @GLiberman please respond @akup 
+  <div class="issues-comment-body issues-content">
+<p>@GLiberman please respond @akup</p> 
   </div>
 </div>
 

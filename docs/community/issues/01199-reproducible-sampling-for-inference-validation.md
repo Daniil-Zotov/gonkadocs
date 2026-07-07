@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-05-19 23:17 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-05-19 23:17 UTC</span>
     <span class="issues-meta-item">5 comments</span>
     <span class="issues-meta-item">Updated 2026-07-06 02:53 UTC</span>
   </div>
@@ -149,314 +149,330 @@ The priority is to take over the existing work, gradually introduce it into MLNo
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Ryanchen911](https://github.com/Ryanchen911)</span>
+    <span><a href="https://github.com/Ryanchen911">@Ryanchen911</a></span>
     <span class="issues-meta-item">commented 2026-06-26 11:33 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    hi @tcharchian , does this issue need help? If yes, maybe we  can take this one.
+  <div class="issues-comment-body issues-content">
+<p>hi @tcharchian , does this issue need help? If yes, maybe we  can take this one.</p>
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-06-30 00:53 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    @Ryanchen911, yes please! 
+  <div class="issues-comment-body issues-content">
+<p>@Ryanchen911, yes please!</p> 
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@neuron7xLab](https://github.com/neuron7xLab)</span>
+    <span><a href="https://github.com/neuron7xLab">@neuron7xLab</a></span>
     <span class="issues-meta-item">commented 2026-07-02 13:28 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    I ran an adversarial pass on the deterministic sampling dump against the inference-validation proposal.
-
-**Finding:** the deterministic replay seed was not chain-bound — it was derived from request-controlled material (`f"{user_seed}|{prompt_token_ids}"`), so Stage-1 replay could be detached from the chain inference instance. The proposal requires `run_seed = SHA256(user_seed || inference_id_from_chain)`.
-
-I opened a focused PR against `gonka-ai/vllm:tg/detemrinistic_sampling_dump` — gonka-ai/vllm#56 — with a chain-bound seed primitive + tests.
-
-Scope note (updated as review tightened it to match vLLM's actual API):
-- `user_seed` is **`int`-only** (vLLM `SamplingParams.seed` / OpenAI `seed` are `Optional[int]`); `bool`/non-`int` fail closed, so a str `"7"` can't collide with int `7`.
-- the chain id must be a non-empty `str`, hashed **byte-exact** (no stripping); missing/empty/whitespace-only/non-`str` fail closed.
-- framing is **byte-length-prefixed SHA256 over UTF-8** (portable to Go/Rust/JS), not raw concatenation.
-
-Honest status: reproducible from `pull/56/head`; 10 invariant tests + a golden vector verified locally (isolated harness — full `pytest` needs a built vLLM env); CI is `action_required` (fork approval gate), so not green yet. Complementary to @Ryanchen911's review, not a takeover.
+  <div class="issues-comment-body issues-content">
+<p>I ran an adversarial pass on the deterministic sampling dump against the inference-validation proposal.</p>
+<p><strong>Finding:</strong> the deterministic replay seed was not chain-bound — it was derived from request-controlled material (<code>f"{user_seed}|{prompt_token_ids}"</code>), so Stage-1 replay could be detached from the chain inference instance. The proposal requires <code>run_seed = SHA256(user_seed || inference_id_from_chain)</code>.</p>
+<p>I opened a focused PR against <code>gonka-ai/vllm:tg/detemrinistic_sampling_dump</code> — gonka-ai/vllm#56 — with a chain-bound seed primitive + tests.</p>
+<p>Scope note (updated as review tightened it to match vLLM's actual API):
+- <code>user_seed</code> is <strong><code>int</code>-only</strong> (vLLM <code>SamplingParams.seed</code> / OpenAI <code>seed</code> are <code>Optional[int]</code>); <code>bool</code>/non-<code>int</code> fail closed, so a str <code>"7"</code> can't collide with int <code>7</code>.
+- the chain id must be a non-empty <code>str</code>, hashed <strong>byte-exact</strong> (no stripping); missing/empty/whitespace-only/non-<code>str</code> fail closed.
+- framing is <strong>byte-length-prefixed SHA256 over UTF-8</strong> (portable to Go/Rust/JS), not raw concatenation.</p>
+<p>Honest status: reproducible from <code>pull/56/head</code>; 10 invariant tests + a golden vector verified locally (isolated harness — full <code>pytest</code> needs a built vLLM env); CI is <code>action_required</code> (fork approval gate), so not green yet. Complementary to @Ryanchen911's review, not a takeover.</p>
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Ryanchen911](https://github.com/Ryanchen911)</span>
+    <span><a href="https://github.com/Ryanchen911">@Ryanchen911</a></span>
     <span class="issues-meta-item">commented 2026-07-06 01:30 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    @neuron7xLab thanks for the focused pass and PR — this lands squarely on the highest-priority item in our‘s review. We flagged the same seed-domain issue: the _dump/v011 derivation f"{user_seed}|{prompt_token_ids}" is request-controlled on both components, so Stage-1 replay can be ground/detached from the chain inference instance. Binding to inference_id_from_chain per the proposal is exactly right.
+  <div class="issues-comment-body issues-content">
+<p>@neuron7xLab thanks for the focused pass and PR — this lands squarely on the highest-priority item in our‘s review. We flagged the same seed-domain issue: the _dump/v011 derivation f"{user_seed}|{prompt_token_ids}" is request-controlled on both components, so Stage-1 replay can be ground/detached from the chain inference instance. Binding to inference_id_from_chain per the proposal is exactly right.</p>
 
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Ryanchen911](https://github.com/Ryanchen911)</span>
+    <span><a href="https://github.com/Ryanchen911">@Ryanchen911</a></span>
     <span class="issues-meta-item">commented 2026-07-06 02:53 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    ## Review summary — reproducible sampling for inference validation
-
-We reviewed the two-stage validation design (proposal §"Proper Fix") against the actual code on all three vllm branches (`_dump`, `v011`, `_merged`) plus the gonka chain-side validator, with an eye on a safe soft-rollout path.
-
-**Final recommendation: needs additional review — not ready for soft MLNode integration yet.** The design is sound and matches the two-stage proposal; the implementation is real but split across two branches (each ~half) and not yet end-to-end runnable against real executor artifacts.
-
-**Three blockers gate enforcement:**
-- **S1 — seed not chain-bound.** Both branches seed from `f"{user_seed}|{prompt_token_ids}"` (executor-controllable → grindable + tokenizer-fragile). The proposal requires `SHA256(user_seed ‖ inference_id_from_chain)`. Primitive fix now in flight: `gonka-ai/vllm#56` (`derive_chain_bound_seed`) — should converge with #13 and get wired into a call site.
-- **E1 — executor (GPU float) vs validator (CPU decimal) weights aren't bit-identical.** Zero-tolerance replay will false-reject real artifacts until the executor path adopts the decimal pipeline (ADR 0003; needs GPU verification).
-- **S3 — no Python↔Go parity.** The chain validator is Go; there is no Go implementation of the decimal pipeline/RNG and cross-language bit-parity has never been tested.
-
-**Safe now / non-enforcing:** the integer `deterministic_utils.py` as a torch-free library (after the S2 local-decimal-context fix, ADR 0002); the perplexity quick-fix as telemetry (gonka's `get_metric` ≈ 1/PPL); everything behind `VLLM_DETERMINISTIC_SAMPLING`, recording verdicts without slashing while collecting Stage-1 false-positive data (target: zero, by model/quant/hardware).
-
-Full report below (findings S1/E1/S3/A1/A2/S2 + edge cases + rollout data + next steps).
-
+  <div class="issues-comment-body issues-content">
+<h2>Review summary — reproducible sampling for inference validation</h2>
+<p>We reviewed the two-stage validation design (proposal §"Proper Fix") against the actual code on all three vllm branches (<code>_dump</code>, <code>v011</code>, <code>_merged</code>) plus the gonka chain-side validator, with an eye on a safe soft-rollout path.</p>
+<p><strong>Final recommendation: needs additional review — not ready for soft MLNode integration yet.</strong> The design is sound and matches the two-stage proposal; the implementation is real but split across two branches (each ~half) and not yet end-to-end runnable against real executor artifacts.</p>
+<p><strong>Three blockers gate enforcement:</strong>
+- <strong>S1 — seed not chain-bound.</strong> Both branches seed from <code>f"{user_seed}|{prompt_token_ids}"</code> (executor-controllable → grindable + tokenizer-fragile). The proposal requires <code>SHA256(user_seed ‖ inference_id_from_chain)</code>. Primitive fix now in flight: <code>gonka-ai/vllm#56</code> (<code>derive_chain_bound_seed</code>) — should converge with #13 and get wired into a call site.
+- <strong>E1 — executor (GPU float) vs validator (CPU decimal) weights aren't bit-identical.</strong> Zero-tolerance replay will false-reject real artifacts until the executor path adopts the decimal pipeline (ADR 0003; needs GPU verification).
+- <strong>S3 — no Python↔Go parity.</strong> The chain validator is Go; there is no Go implementation of the decimal pipeline/RNG and cross-language bit-parity has never been tested.</p>
+<p><strong>Safe now / non-enforcing:</strong> the integer <code>deterministic_utils.py</code> as a torch-free library (after the S2 local-decimal-context fix, ADR 0002); the perplexity quick-fix as telemetry (gonka's <code>get_metric</code> ≈ 1/PPL); everything behind <code>VLLM_DETERMINISTIC_SAMPLING</code>, recording verdicts without slashing while collecting Stage-1 false-positive data (target: zero, by model/quant/hardware).</p>
+<p>Full report below (findings S1/E1/S3/A1/A2/S2 + edge cases + rollout data + next steps).</p>
 <details>
 <summary><b>Full review report (click to expand)</b></summary>
-
-# Issue #1199 — Reproducible Sampling for Inference Validation: Review Report
-
-**Reviewers:** @Ryanchen911, @bonujel · **Date:** 2026-07-03
-**Scope:** Security/validation review of the two-stage validation design and the base deterministic-sampling implementation, plus a safe MLNode rollout path.
-
-**Sources reviewed**
-- Proposal: `proposals/inference-validation/inference-validation.md` (§"Proper Fix: Two-Stage Validation System")
-- Design doc: `docs/DETERMINISTIC_SAMPLING_VALIDATION.md`
-- Actual code across **three** vllm branches (source of truth for status):
-  - `gonka-ai/vllm @ tg/detemrinistic_sampling_dump` — integer (decimal) sampling algorithm, unwired
-  - `gonka-ai/vllm @ tg/deterministic_sampling_v011` — full system skeleton, float sampling
-  - `bonujel/vllm @ tg/deterministic_sampling_merged` — merge of the two + validator replay + ADRs
-  - `gonka-ai/vllm#56` (@neuron7xLab) — chain-bound seed primitive (`derive_chain_bound_seed`) + tests, addresses S1
-- Gonka side: `mlnode/packages/benchmarks/src/validation/utils.py`, `decentralized-api/internal/validation/inference_validation.go`
-
----
-
-## TL;DR / Final recommendation
-
-**Needs additional review — not ready for soft MLNode integration yet.**
-
-The *design* is sound and substantially aligned with the two-stage proposal. The
-*implementation is split across two branches, each doing roughly half*:
-
-- **`v011`** has the full system skeleton — `VLLM_DETERMINISTIC_SAMPLING` env flag, worker
-  seed wiring (`gpu_model_runner.py`), a `deterministic_sampler.py`, and the validator-side
-  `validation_logic.py` (replay + distance). **But its executor sampling path uses GPU
-  float32**, which drifts across GPUs/drivers and can flip a token when a probability sits
-  on a filter boundary → risk of falsely flagging an honest participant.
-- **`_dump`** fixes exactly that: an **integer (decimal) weight pipeline** that is
-  bit-stable and won't drift. **But it is only the algorithm — nothing imports it.**
-
-The **`_merged`** branch is the right next move: it ports the integer algorithm
-onto the skeleton, adds a pure-CPU validator replay (`validation_sampling.py`,
-`verify_sampling_from_logprobs`), pins the float→string form, and records the open blockers
-as ADRs. It is verified **validator-side only** — the executor still emits float-derived
-weights, so replay against *real* executor artifacts will still false-reject until the
-executor path is switched to the decimal pipeline (ADR 0003).
-
-The core integer primitive is adoptable as a library today. The executor hot-path change,
+<h1>Issue #1199 — Reproducible Sampling for Inference Validation: Review Report</h1>
+<p><strong>Reviewers:</strong> @Ryanchen911, @bonujel · <strong>Date:</strong> 2026-07-03
+<strong>Scope:</strong> Security/validation review of the two-stage validation design and the base deterministic-sampling implementation, plus a safe MLNode rollout path.</p>
+<p><strong>Sources reviewed</strong>
+- Proposal: <code>proposals/inference-validation/inference-validation.md</code> (§"Proper Fix: Two-Stage Validation System")
+- Design doc: <code>docs/DETERMINISTIC_SAMPLING_VALIDATION.md</code>
+- Actual code across <strong>three</strong> vllm branches (source of truth for status):
+  - <code>gonka-ai/vllm @ tg/detemrinistic_sampling_dump</code> — integer (decimal) sampling algorithm, unwired
+  - <code>gonka-ai/vllm @ tg/deterministic_sampling_v011</code> — full system skeleton, float sampling
+  - <code>bonujel/vllm @ tg/deterministic_sampling_merged</code> — merge of the two + validator replay + ADRs
+  - <code>gonka-ai/vllm#56</code> (@neuron7xLab) — chain-bound seed primitive (<code>derive_chain_bound_seed</code>) + tests, addresses S1
+- Gonka side: <code>mlnode/packages/benchmarks/src/validation/utils.py</code>, <code>decentralized-api/internal/validation/inference_validation.go</code></p>
+<hr />
+<h2>TL;DR / Final recommendation</h2>
+<p><strong>Needs additional review — not ready for soft MLNode integration yet.</strong></p>
+<p>The <em>design</em> is sound and substantially aligned with the two-stage proposal. The
+<em>implementation is split across two branches, each doing roughly half</em>:</p>
+<ul>
+<li><strong><code>v011</code></strong> has the full system skeleton — <code>VLLM_DETERMINISTIC_SAMPLING</code> env flag, worker
+  seed wiring (<code>gpu_model_runner.py</code>), a <code>deterministic_sampler.py</code>, and the validator-side
+  <code>validation_logic.py</code> (replay + distance). <strong>But its executor sampling path uses GPU
+  float32</strong>, which drifts across GPUs/drivers and can flip a token when a probability sits
+  on a filter boundary → risk of falsely flagging an honest participant.</li>
+<li><strong><code>_dump</code></strong> fixes exactly that: an <strong>integer (decimal) weight pipeline</strong> that is
+  bit-stable and won't drift. <strong>But it is only the algorithm — nothing imports it.</strong></li>
+</ul>
+<p>The <strong><code>_merged</code></strong> branch is the right next move: it ports the integer algorithm
+onto the skeleton, adds a pure-CPU validator replay (<code>validation_sampling.py</code>,
+<code>verify_sampling_from_logprobs</code>), pins the float→string form, and records the open blockers
+as ADRs. It is verified <strong>validator-side only</strong> — the executor still emits float-derived
+weights, so replay against <em>real</em> executor artifacts will still false-reject until the
+executor path is switched to the decimal pipeline (ADR 0003).</p>
+<p>The core integer primitive is adoptable as a library today. The executor hot-path change,
 the seed hardening, and cross-language (Python↔Go) parity must land before this becomes
-enforcing validation logic.
-
----
-
-## 1. Does the implementation match the two-stage proposal?
-
-**Design: yes, with one naming remap and one mechanism upgrade.**
-
-| Proposal | Doc | Match |
-|---|---|---|
-| Stage 1 — Sequence Check (cheap, RNG replay) | "Check 2" — Sampling Replay | ✅ same purpose |
-| Stage 2 — Distribution Check (expensive) | "Check 1" — Logprob Distance | ✅ same purpose |
-| Order: cheap check first, reject before expensive | Check 2 runs *before* inference, Check 1 *after* | ✅ consistent (cheap-first) |
-
-The confusing part is only naming: the proposal's **Stage 1** is the doc's **Check 2**. Execution order is still correct — the cheap CPU replay gates the expensive GPU inference.
-
-**Mechanism upgrade (acceptable, arguably better than the proposal):**
-- Proposal Stage 1 samples directly over the artifact's top-k list: `verify chosen == top_k[sampled_index]`.
-- Doc/impl runs the *full* decimal pipeline (temperature → softmax → top_k/top_p/min_p → quantize to int weights) then SHA256 categorical sampling.
-
-The doc's version reproduces the real sampling parameters, so it's a stronger binding. Fine — but it is *more* code to get bit-exactly right on both sides, which raises the false-positive risk (see §6).
-
-**Does Stage 1 actually close the pre-fill hole?** Yes, in principle. A pre-fill attacker generates the sequence with a cheap model and computes real-model logprobs in a single pass. Stage 1 forces the reported token at each position to equal `deterministic_sample(real_model_logprobs, RNG)`. The cheap model's chosen token generally won't match that, so the artifact is rejected — unless the attacker re-samples each position from the real-model distribution token-by-token, which *is* real sequential generation. That's exactly the cost we want to impose. This holds **only if the RNG stream can't be ground**, which depends on seed binding (see §2, finding S1).
-
----
-
-## 2. Seed, RNG, and replay logic
-
-`Sha256CounterRNG` (`deterministic_utils.py`) is clean and portable: `u64 = SHA256(seed_bytes ‖ counter_be)[:8]`, counter++ per draw, unbiased rejection sampling in `uint64_below`, linear-scan categorical sampler. This is trivially reproducible in Go and Python and is the right primitive.
-
-**Finding S1 (design mismatch, security-relevant) — seed derivation diverges from the proposal.**
-- Proposal: `run_seed = SHA256(user_seed ‖ inference_id_from_chain)` — bound to the chain-issued, unpredictable inference ID.
-- Doc/impl: `seed_str = f"{user_seed}|{prompt_token_ids}"` — bound to user seed + prompt tokens, **not** the chain inference ID.
-
-Consequences of the doc's choice:
-1. **No binding to chain identity** → the same `(user_seed, prompt)` yields the same RNG stream, enabling precomputation and cross-request artifact replay. The proposal deliberately mixes in `inference_id` to prevent this.
-2. **Requires the validator to re-tokenize the prompt identically.** Any tokenizer version/config drift between executor and validator changes `prompt_token_ids` → different seed → guaranteed replay mismatch → **false fraud on an honest inference**. This is a latent false-positive source.
-
-This must be reconciled before enforcement. Recommend adopting the proposal's `inference_id`-bound seed (the chain already stores `inference_id`), or at minimum mixing it in.
-
-**Status — a focused PR now addresses the primitive.** `gonka-ai/vllm#56` (@neuron7xLab) was
-opened against `_dump`, adding `derive_chain_bound_seed(user_seed, inference_id_from_chain)`
-to `deterministic_utils.py` + 10 invariant tests + a golden vector, and correcting the doc's
+enforcing validation logic.</p>
+<hr />
+<h2>1. Does the implementation match the two-stage proposal?</h2>
+<p><strong>Design: yes, with one naming remap and one mechanism upgrade.</strong></p>
+<table>
+<thead>
+<tr>
+<th>Proposal</th>
+<th>Doc</th>
+<th>Match</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Stage 1 — Sequence Check (cheap, RNG replay)</td>
+<td>"Check 2" — Sampling Replay</td>
+<td>✅ same purpose</td>
+</tr>
+<tr>
+<td>Stage 2 — Distribution Check (expensive)</td>
+<td>"Check 1" — Logprob Distance</td>
+<td>✅ same purpose</td>
+</tr>
+<tr>
+<td>Order: cheap check first, reject before expensive</td>
+<td>Check 2 runs <em>before</em> inference, Check 1 <em>after</em></td>
+<td>✅ consistent (cheap-first)</td>
+</tr>
+</tbody>
+</table>
+<p>The confusing part is only naming: the proposal's <strong>Stage 1</strong> is the doc's <strong>Check 2</strong>. Execution order is still correct — the cheap CPU replay gates the expensive GPU inference.</p>
+<p><strong>Mechanism upgrade (acceptable, arguably better than the proposal):</strong>
+- Proposal Stage 1 samples directly over the artifact's top-k list: <code>verify chosen == top_k[sampled_index]</code>.
+- Doc/impl runs the <em>full</em> decimal pipeline (temperature → softmax → top_k/top_p/min_p → quantize to int weights) then SHA256 categorical sampling.</p>
+<p>The doc's version reproduces the real sampling parameters, so it's a stronger binding. Fine — but it is <em>more</em> code to get bit-exactly right on both sides, which raises the false-positive risk (see §6).</p>
+<p><strong>Does Stage 1 actually close the pre-fill hole?</strong> Yes, in principle. A pre-fill attacker generates the sequence with a cheap model and computes real-model logprobs in a single pass. Stage 1 forces the reported token at each position to equal <code>deterministic_sample(real_model_logprobs, RNG)</code>. The cheap model's chosen token generally won't match that, so the artifact is rejected — unless the attacker re-samples each position from the real-model distribution token-by-token, which <em>is</em> real sequential generation. That's exactly the cost we want to impose. This holds <strong>only if the RNG stream can't be ground</strong>, which depends on seed binding (see §2, finding S1).</p>
+<hr />
+<h2>2. Seed, RNG, and replay logic</h2>
+<p><code>Sha256CounterRNG</code> (<code>deterministic_utils.py</code>) is clean and portable: <code>u64 = SHA256(seed_bytes ‖ counter_be)[:8]</code>, counter++ per draw, unbiased rejection sampling in <code>uint64_below</code>, linear-scan categorical sampler. This is trivially reproducible in Go and Python and is the right primitive.</p>
+<p><strong>Finding S1 (design mismatch, security-relevant) — seed derivation diverges from the proposal.</strong>
+- Proposal: <code>run_seed = SHA256(user_seed ‖ inference_id_from_chain)</code> — bound to the chain-issued, unpredictable inference ID.
+- Doc/impl: <code>seed_str = f"{user_seed}|{prompt_token_ids}"</code> — bound to user seed + prompt tokens, <strong>not</strong> the chain inference ID.</p>
+<p>Consequences of the doc's choice:
+1. <strong>No binding to chain identity</strong> → the same <code>(user_seed, prompt)</code> yields the same RNG stream, enabling precomputation and cross-request artifact replay. The proposal deliberately mixes in <code>inference_id</code> to prevent this.
+2. <strong>Requires the validator to re-tokenize the prompt identically.</strong> Any tokenizer version/config drift between executor and validator changes <code>prompt_token_ids</code> → different seed → guaranteed replay mismatch → <strong>false fraud on an honest inference</strong>. This is a latent false-positive source.</p>
+<p>This must be reconciled before enforcement. Recommend adopting the proposal's <code>inference_id</code>-bound seed (the chain already stores <code>inference_id</code>), or at minimum mixing it in.</p>
+<p><strong>Status — a focused PR now addresses the primitive.</strong> <code>gonka-ai/vllm#56</code> (@neuron7xLab) was
+opened against <code>_dump</code>, adding <code>derive_chain_bound_seed(user_seed, inference_id_from_chain)</code>
+to <code>deterministic_utils.py</code> + 10 invariant tests + a golden vector, and correcting the doc's
 seed derivation everywhere. Reviewed the diff — the design is careful and directly
 addresses S1:
-- Uses **byte-length-prefixed, domain-separated SHA256 over UTF-8** (not raw concat), which
-  also removes the concatenation-ambiguity bug in the naive `f"{seed}{id}"` form
-  (`(4,"2x")` vs `(42,"x")`). This is the right framing for Python↔Go parity (S3).
-- **Fails closed**: rejects missing/empty/non-`str`/non-printable-ASCII/over-length chain id,
-  and non-exact-`int` / out-of-int64-range `user_seed`. The printable-ASCII-only rule is a
+- Uses <strong>byte-length-prefixed, domain-separated SHA256 over UTF-8</strong> (not raw concat), which
+  also removes the concatenation-ambiguity bug in the naive <code>f"{seed}{id}"</code> form
+  (<code>(4,"2x")</code> vs <code>(42,"x")</code>). This is the right framing for Python↔Go parity (S3).
+- <strong>Fails closed</strong>: rejects missing/empty/non-<code>str</code>/non-printable-ASCII/over-length chain id,
+  and non-exact-<code>int</code> / out-of-int64-range <code>user_seed</code>. The printable-ASCII-only rule is a
   deliberate, well-reasoned choice to keep the accept/reject boundary language-invariant
-  (a `strip()`/whitespace predicate differs per runtime and would split consensus).
-- **Scoped honestly**: it lands only the primitive — **no call site constructs the seed yet**.
-  `gpu_model_runner.py` still needs wiring, and MLNode must actually pass the chain
-  `inference_id` into vLLM. So S1 moves from "unaddressed" to "primitive ready, wiring +
+  (a <code>strip()</code>/whitespace predicate differs per runtime and would split consensus).
+- <strong>Scoped honestly</strong>: it lands only the primitive — <strong>no call site constructs the seed yet</strong>.
+  <code>gpu_model_runner.py</code> still needs wiring, and MLNode must actually pass the chain
+  <code>inference_id</code> into vLLM. So S1 moves from "unaddressed" to "primitive ready, wiring +
   MLNode plumbing still open." CI is fork-gated (not green yet).
-- Overlaps PR #13 (same idea on `main`, bound to `request_id`); note that vLLM's `request_id`
-  is executor-controllable (`"chatcmpl-"+X-Request-Id`/`uuid4()`), so #56's insistence on a
-  *chain*-provided id that fails closed when absent is the safer contract. These should
-  converge into one primitive.
-
-**Remaining S1 work:** wire `derive_chain_bound_seed` into the worker, define how MLNode
-sources and passes `inference_id_from_chain`, and confirm the Go validator uses the identical
-framing (folds into S3 parity).
-
-**Finding S2 — global decimal context mutation.** `deterministic_utils.py` sets `getcontext().prec = 10` / `ROUND_HALF_EVEN` at import time. `getcontext()` is process-global; in the vLLM serving process this silently reconfigures Decimal for every other consumer, and conversely any other module that touches the context breaks reproducibility. Use `decimal.localcontext()` around the pipeline instead of mutating the global context.
-
----
-
-## 3. Artifact contents
-
-The artifact format in the doc (§"Artifact Format") contains what replay needs: per-position `token` (sampled ID as string), `logprobs` (post-penalty, token-ID-keyed), and `request_params` including `seed`, `temperature`, `top_p`, `top_logprobs`. This matches the proposal's storage requirements (top-k probs + exact token sequence, already on-chain) plus the added `run_seed`.
-
-**Finding A1 (contract mismatch, real divergence risk) — float vs string logprobs.**
-- Doc reference impl: `logprobs_to_weights(logprobs: dict[str, float])` and converts via `Decimal(repr(f))`.
-- Actual `deterministic_utils.logprobs_to_weights(logprob_strings: Dict[str, str])` takes **strings already** and does `Decimal(s)` directly — no `repr`.
-
-The entire reproducibility guarantee rests on both sides producing the *identical* decimal string from the same float64. The doc says that canonical form is `repr(float)`; the `_dump` primitive pushes that responsibility to the caller and never pins it. If executor and validator stringify the float differently (`repr` vs `json.dumps` vs `%.17g`), weights diverge and an honest inference is flagged as fraud. **There must be exactly one shared function that owns float→string, used by both sides, with the canonical form pinned in the spec.**
-
-**Status (`_merged`):** partially addressed. On `_merged`, `validation_sampling.verify_sampling_from_logprobs` pins the conversion to `repr(f)` at a single point and records it in ADR 0001. Two gaps remain: (a) this pins it only on the *validator* side — the executor path must use the identical function (tied to ADR 0003), and (b) the Go chain-side validator must reproduce the same canonical string, which is untested (see S3 below).
-
-**Finding A2 — resolved vs user-specified params.** The doc correctly notes (Tricky Moments §2) the artifact must record *resolved* sampling params (after model defaults), not user-specified. The gonka `RequestParams`/`inference()` path currently forwards only user-set extras; this needs verification once wiring exists.
-
----
-
-## 4. Implementation status (code is the source of truth)
-
-**The work is split across two gonka-ai branches, each implementing a different half of the
-same feature.** Neither is end-to-end runnable on its own; the `_merged` branch is
-the first that runs validator-side.
-
-| Item (doc Steps) | `_dump` (integer algo) | `v011` (skeleton) | `_merged` (consolidated) |
-|---|---|---|---|
-| `deterministic_utils.py` — integer/decimal weight pipeline | ✅ present, **unwired** | ✅ present (float variant used by sampler) | ✅ ported onto skeleton |
-| `VLLM_DETERMINISTIC_SAMPLING` env flag (Step 2) | ❌ | ✅ | ✅ |
-| `deterministic_sampler.py` / sampler branch (Step 3) | ❌ | ✅ **but GPU float32** | ✅ (executor still float — ADR 0003) |
-| `gpu_model_runner.py` seed derivation (Step 4) | ❌ | ✅ `f"{seed}\|{prompt_repr}"` (no `inference_id`) | ✅ (same, seed not yet hardened) |
-| `EnforcedToken.logprobs` / data model (Step 6) | ❌ (`token`/`top_tokens` only) | ⚠️ partial in `validation.py` | ⚠️ partial |
-| Validator replay — Check 2 (Step 7) | ❌ | ✅ `validation_logic.verify_sampling_sequence` | ✅ `validation_sampling.verify_sampling_from_logprobs` (pure CPU) |
-| Validator distance — Check 1 (Step 7) | ❌ | ✅ `validation_logic.position_distance/compute_distance` | ✅ |
-| `serving_chat.py` orchestration + response fields (Step 5) | ❌ | ⚠️ partial | ⚠️ partial |
-| Tests (Step 9) | ⚠️ `test_sampler_interface.py` stale/broken | some | ✅ `test_replay_smoke.py` (self-consistent artifacts only) |
-
-Across both branches the validator replay + distance logic **does exist** (on `v011`,
-`validation_logic.py`), and the `_merged` branch adds a clean pure-CPU replay module with a
-passing smoke test. The stale/broken `test_sampler_interface.py` (imports `sampling_weights`,
-`deterministic_rngs`, etc. — the superseded weight-reporting design) is a `_dump`-branch
-artifact, superseded by the merge.
-
-**The real completeness gap is not "missing files" — it's two incompatible weight paths
-(ADR 0003).** The executor produces weights on GPU as `(probs * 2^16).round()` from
-float32 softmax; the validator derives weights from logprob *strings* via the pure-decimal
-pipeline. These are **not bit-identical** (GPU float drift; `.round()` is not decimal
-HALF_EVEN). So the zero-tolerance replay (Check 2) will **false-reject real executor artifacts**
+- Overlaps PR #13 (same idea on <code>main</code>, bound to <code>request_id</code>); note that vLLM's <code>request_id</code>
+  is executor-controllable (<code>"chatcmpl-"+X-Request-Id</code>/<code>uuid4()</code>), so #56's insistence on a
+  <em>chain</em>-provided id that fails closed when absent is the safer contract. These should
+  converge into one primitive.</p>
+<p><strong>Remaining S1 work:</strong> wire <code>derive_chain_bound_seed</code> into the worker, define how MLNode
+sources and passes <code>inference_id_from_chain</code>, and confirm the Go validator uses the identical
+framing (folds into S3 parity).</p>
+<p><strong>Finding S2 — global decimal context mutation.</strong> <code>deterministic_utils.py</code> sets <code>getcontext().prec = 10</code> / <code>ROUND_HALF_EVEN</code> at import time. <code>getcontext()</code> is process-global; in the vLLM serving process this silently reconfigures Decimal for every other consumer, and conversely any other module that touches the context breaks reproducibility. Use <code>decimal.localcontext()</code> around the pipeline instead of mutating the global context.</p>
+<hr />
+<h2>3. Artifact contents</h2>
+<p>The artifact format in the doc (§"Artifact Format") contains what replay needs: per-position <code>token</code> (sampled ID as string), <code>logprobs</code> (post-penalty, token-ID-keyed), and <code>request_params</code> including <code>seed</code>, <code>temperature</code>, <code>top_p</code>, <code>top_logprobs</code>. This matches the proposal's storage requirements (top-k probs + exact token sequence, already on-chain) plus the added <code>run_seed</code>.</p>
+<p><strong>Finding A1 (contract mismatch, real divergence risk) — float vs string logprobs.</strong>
+- Doc reference impl: <code>logprobs_to_weights(logprobs: dict[str, float])</code> and converts via <code>Decimal(repr(f))</code>.
+- Actual <code>deterministic_utils.logprobs_to_weights(logprob_strings: Dict[str, str])</code> takes <strong>strings already</strong> and does <code>Decimal(s)</code> directly — no <code>repr</code>.</p>
+<p>The entire reproducibility guarantee rests on both sides producing the <em>identical</em> decimal string from the same float64. The doc says that canonical form is <code>repr(float)</code>; the <code>_dump</code> primitive pushes that responsibility to the caller and never pins it. If executor and validator stringify the float differently (<code>repr</code> vs <code>json.dumps</code> vs <code>%.17g</code>), weights diverge and an honest inference is flagged as fraud. <strong>There must be exactly one shared function that owns float→string, used by both sides, with the canonical form pinned in the spec.</strong></p>
+<p><strong>Status (<code>_merged</code>):</strong> partially addressed. On <code>_merged</code>, <code>validation_sampling.verify_sampling_from_logprobs</code> pins the conversion to <code>repr(f)</code> at a single point and records it in ADR 0001. Two gaps remain: (a) this pins it only on the <em>validator</em> side — the executor path must use the identical function (tied to ADR 0003), and (b) the Go chain-side validator must reproduce the same canonical string, which is untested (see S3 below).</p>
+<p><strong>Finding A2 — resolved vs user-specified params.</strong> The doc correctly notes (Tricky Moments §2) the artifact must record <em>resolved</em> sampling params (after model defaults), not user-specified. The gonka <code>RequestParams</code>/<code>inference()</code> path currently forwards only user-set extras; this needs verification once wiring exists.</p>
+<hr />
+<h2>4. Implementation status (code is the source of truth)</h2>
+<p><strong>The work is split across two gonka-ai branches, each implementing a different half of the
+same feature.</strong> Neither is end-to-end runnable on its own; the <code>_merged</code> branch is
+the first that runs validator-side.</p>
+<table>
+<thead>
+<tr>
+<th>Item (doc Steps)</th>
+<th><code>_dump</code> (integer algo)</th>
+<th><code>v011</code> (skeleton)</th>
+<th><code>_merged</code> (consolidated)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>deterministic_utils.py</code> — integer/decimal weight pipeline</td>
+<td>✅ present, <strong>unwired</strong></td>
+<td>✅ present (float variant used by sampler)</td>
+<td>✅ ported onto skeleton</td>
+</tr>
+<tr>
+<td><code>VLLM_DETERMINISTIC_SAMPLING</code> env flag (Step 2)</td>
+<td>❌</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td><code>deterministic_sampler.py</code> / sampler branch (Step 3)</td>
+<td>❌</td>
+<td>✅ <strong>but GPU float32</strong></td>
+<td>✅ (executor still float — ADR 0003)</td>
+</tr>
+<tr>
+<td><code>gpu_model_runner.py</code> seed derivation (Step 4)</td>
+<td>❌</td>
+<td>✅ <code>f"{seed}\|{prompt_repr}"</code> (no <code>inference_id</code>)</td>
+<td>✅ (same, seed not yet hardened)</td>
+</tr>
+<tr>
+<td><code>EnforcedToken.logprobs</code> / data model (Step 6)</td>
+<td>❌ (<code>token</code>/<code>top_tokens</code> only)</td>
+<td>⚠️ partial in <code>validation.py</code></td>
+<td>⚠️ partial</td>
+</tr>
+<tr>
+<td>Validator replay — Check 2 (Step 7)</td>
+<td>❌</td>
+<td>✅ <code>validation_logic.verify_sampling_sequence</code></td>
+<td>✅ <code>validation_sampling.verify_sampling_from_logprobs</code> (pure CPU)</td>
+</tr>
+<tr>
+<td>Validator distance — Check 1 (Step 7)</td>
+<td>❌</td>
+<td>✅ <code>validation_logic.position_distance/compute_distance</code></td>
+<td>✅</td>
+</tr>
+<tr>
+<td><code>serving_chat.py</code> orchestration + response fields (Step 5)</td>
+<td>❌</td>
+<td>⚠️ partial</td>
+<td>⚠️ partial</td>
+</tr>
+<tr>
+<td>Tests (Step 9)</td>
+<td>⚠️ <code>test_sampler_interface.py</code> stale/broken</td>
+<td>some</td>
+<td>✅ <code>test_replay_smoke.py</code> (self-consistent artifacts only)</td>
+</tr>
+</tbody>
+</table>
+<p>Across both branches the validator replay + distance logic <strong>does exist</strong> (on <code>v011</code>,
+<code>validation_logic.py</code>), and the <code>_merged</code> branch adds a clean pure-CPU replay module with a
+passing smoke test. The stale/broken <code>test_sampler_interface.py</code> (imports <code>sampling_weights</code>,
+<code>deterministic_rngs</code>, etc. — the superseded weight-reporting design) is a <code>_dump</code>-branch
+artifact, superseded by the merge.</p>
+<p><strong>The real completeness gap is not "missing files" — it's two incompatible weight paths
+(ADR 0003).</strong> The executor produces weights on GPU as <code>(probs * 2^16).round()</code> from
+float32 softmax; the validator derives weights from logprob <em>strings</em> via the pure-decimal
+pipeline. These are <strong>not bit-identical</strong> (GPU float drift; <code>.round()</code> is not decimal
+HALF_EVEN). So the zero-tolerance replay (Check 2) will <strong>false-reject real executor artifacts</strong>
 until the executor hot path is switched to the decimal pipeline. This is correctly scoped out
 of the merge (needs GPU + production hot-path change) and documented as a blocker, not an
-optional optimization — which is the right call.
-
-**Net:** substantially more exists than "one primitive module." What's missing for
+optional optimization — which is the right call.</p>
+<p><strong>Net:</strong> substantially more exists than "one primitive module." What's missing for
 enforcement is: (1) executor path → decimal weights (ADR 0003), (2) seed hardening (S1),
 (3) Python↔Go parity. All three touch the model hot path or the protocol and require GPU to
-verify.
-
----
-
-## 5. Safe MLNode rollout
-
-**Safe to adopt now**
-- The `_dump`/`_merged` integer `deterministic_utils.py` as a standalone, torch-free library, *after* fixing S2 (local decimal context — ADR 0002 already proposes this). Add its unit tests (RNG reproducibility, pipeline determinism, categorical sampling) — and, importantly, a **Python↔Go parity test** since the chain side is Go.
-- The `_merged` validator-side replay (`validation_sampling.py`) as the reference Check-2 implementation, with the explicit understanding (ADR 0003) that it only matches *self-consistent* artifacts until the executor path is converted.
-- The interim **perplexity quick-fix** is a lower-risk parallel track: gonka's `get_metric` in `validation/utils.py` already computes the geometric mean of per-token probs (≈ 1/PPL). It can ship as non-enforcing telemetry well before the full two-stage system.
-
-**Behind a flag / non-enforcing first**
-- Everything else goes behind `VLLM_DETERMINISTIC_SAMPLING` (default off).
-- Executor emits `deterministic_sampling_valid` + `distances`; the chain **records but does not slash** on Stage-1 (replay) failures during the data-collection phase.
-- The executor-path decimal conversion (ADR 0003) can land behind the same flag and run in shadow (compute decimal weights alongside the float path, log divergences) before it drives anything.
-
-**Data to collect before enabling strict enforcement**
-- Stage-1 **false-positive rate**: honest inferences that fail replay, broken down by model, quantization, and hardware/arch. Target: **zero** false positives (a slashing system's cost of wrongly flagging an honest participant is far higher than a missed fraud).
+verify.</p>
+<hr />
+<h2>5. Safe MLNode rollout</h2>
+<p><strong>Safe to adopt now</strong>
+- The <code>_dump</code>/<code>_merged</code> integer <code>deterministic_utils.py</code> as a standalone, torch-free library, <em>after</em> fixing S2 (local decimal context — ADR 0002 already proposes this). Add its unit tests (RNG reproducibility, pipeline determinism, categorical sampling) — and, importantly, a <strong>Python↔Go parity test</strong> since the chain side is Go.
+- The <code>_merged</code> validator-side replay (<code>validation_sampling.py</code>) as the reference Check-2 implementation, with the explicit understanding (ADR 0003) that it only matches <em>self-consistent</em> artifacts until the executor path is converted.
+- The interim <strong>perplexity quick-fix</strong> is a lower-risk parallel track: gonka's <code>get_metric</code> in <code>validation/utils.py</code> already computes the geometric mean of per-token probs (≈ 1/PPL). It can ship as non-enforcing telemetry well before the full two-stage system.</p>
+<p><strong>Behind a flag / non-enforcing first</strong>
+- Everything else goes behind <code>VLLM_DETERMINISTIC_SAMPLING</code> (default off).
+- Executor emits <code>deterministic_sampling_valid</code> + <code>distances</code>; the chain <strong>records but does not slash</strong> on Stage-1 (replay) failures during the data-collection phase.
+- The executor-path decimal conversion (ADR 0003) can land behind the same flag and run in shadow (compute decimal weights alongside the float path, log divergences) before it drives anything.</p>
+<p><strong>Data to collect before enabling strict enforcement</strong>
+- Stage-1 <strong>false-positive rate</strong>: honest inferences that fail replay, broken down by model, quantization, and hardware/arch. Target: <strong>zero</strong> false positives (a slashing system's cost of wrongly flagging an honest participant is far higher than a missed fraud).
 - Distance distributions with vs without deterministic mode (does the reordered penalty pipeline shift Check-1 thresholds?).
 - Tokenizer determinism across MLNode versions (directly tied to finding S1).
-- **Realistic performance:** the doc's ~18µs/position is a single-position microbenchmark. Measure at production batch sizes with top-K CPU transfer and the reordered penalty path in the hot loop.
-- Python↔Go bit-parity on shared test vectors.
-
-**What should block strict enforcement**
-- **E1 — executor path emits decimal-derived weights** (ADR 0003). Until this lands, real artifacts false-reject; this is the single biggest blocker.
-- **S1 — seed derivation** reconciled and bound to `inference_id`.
-- **A1/S3 — canonical float string** pinned and shared by *one* function across executor, Python validator, and the Go chain path; proven by parity vectors.
+- <strong>Realistic performance:</strong> the doc's ~18µs/position is a single-position microbenchmark. Measure at production batch sizes with top-K CPU transfer and the reordered penalty path in the hot loop.
+- Python↔Go bit-parity on shared test vectors.</p>
+<p><strong>What should block strict enforcement</strong>
+- <strong>E1 — executor path emits decimal-derived weights</strong> (ADR 0003). Until this lands, real artifacts false-reject; this is the single biggest blocker.
+- <strong>S1 — seed derivation</strong> reconciled and bound to <code>inference_id</code>.
+- <strong>A1/S3 — canonical float string</strong> pinned and shared by <em>one</em> function across executor, Python validator, and the Go chain path; proven by parity vectors.
 - Zero observed Stage-1 false positives over a large honest sample.
-- Cross-node / cross-arch reproducibility CI green, including Go parity.
-
-**Should wait**
-- Any executor `sampler.py` hot-path change beyond shadow mode (perf + correctness risk; GPU verification required).
-- Turning Stage-1 replay failures into slashing.
-
----
-
-## 6. Vulnerabilities / edge cases
-
-1. **S1 — seed not bound to `inference_id`** (design): both branches derive `f"{seed}|{prompt_repr}"`. The seed component is executor-controllable, so an attacker can locally re-roll seeds until one makes a forged result pass replay; it also makes the check tokenizer-fragile → false fraud. *Highest priority security bug — blocks enforcement.* **Primitive fix in flight: `gonka-ai/vllm#56` (`derive_chain_bound_seed`), not yet wired into a call site (see §2).**
-2. **E1 — executor (GPU float) vs validator (CPU decimal) weight paths are not bit-identical** (impl, ADR 0003): `(probs*2^16).round()` on float32 ≠ decimal HALF_EVEN pipeline. Zero-tolerance replay false-rejects real artifacts. *Biggest completeness blocker.*
-3. **S3 — no Python↔Go parity implementation** (impl): the chain validator is Go; there is no Go implementation of the decimal pipeline / RNG, and cross-language bit-parity has never been tested. Divergence here = false fraud at scale. *Blocks enforcement.*
-4. **A1 — float→string canonicalization** (design/impl): pinned to `repr(f)` on the validator in `_merged` (ADR 0001), but not yet shared with the executor or the Go side. Tied to E1/S3.
-5. **S2 — global decimal context mutation** (impl): `_dump` mutates `getcontext()` at import; use `localcontext()` (ADR 0002 proposes this).
-6. **Candidate-token ordering mismatch** (impl): one side sorts by token-ID string, another by numeric ID. Even with bit-identical weights, an order mismatch shifts the categorical index → false fraud. Must be pinned to one order on all three sides.
-7. **Temperature = 0 (greedy)** bypasses the decimal pipeline and the replay check entirely; Stage 1 contributes *nothing* at temp 0 — only the distance check defends. Acceptable (argmax is deterministic and pre-fill still needs matching argmax), but it means a class of inferences has no sequence binding. Document explicitly or disallow temp-0 in validation.
-8. **Top-K clamping** (`top_k` effectively `min(top_k, max_num_logprobs)`): if `top_logprobs` is unset the server must apply a fixed default, and the artifact must record it, or executor/validator reconstruct different distributions. `min_p` empty-set fallback (pick max) and residual tie-break (`(weight, token_id)` lexicographic) must be identical on all sides — no cross-language test yet.
-9. **`sample_categorical_weights` total ≤ 0 → returns last index** silently. Consistent across sides, but in zero-tolerance validation a silent fallback can mask an upstream bug; prefer to raise or log.
-10. **Distance check unchanged** as the sole defense against wrong-model/quantization; Stage 1 adds nothing there. Enforcement still hinges on distance-threshold calibration, which this work does not address.
-
----
-
-## 7. Recommended next steps
-
-1. **Land the executor decimal-weight path** (E1 / ADR 0003) behind the flag, first in shadow mode (log float-vs-decimal divergence), then as the artifact source. Requires GPU verification.
-2. **Reconcile seed derivation** with the proposal — bind `run_seed` to chain `inference_id` (S1). Primitive already proposed in `gonka-ai/vllm#56`; converge it with PR #13, then **wire it into `gpu_model_runner.py`** and define how MLNode passes `inference_id_from_chain` into vLLM.
-3. **Pin one candidate-token order and one float→string form** shared by executor, Python validator, and the Go chain path (A1/S3, ordering).
-4. **Write the Go implementation + a Python↔Go parity vector test** (fixed inputs → expected weights + expected token), run in both CIs (S3). This is the gate that "cross-language reproducibility" has never actually been tested.
-5. **Fix S2** (local decimal context, ADR 0002) and land the integer `deterministic_utils.py` + real unit tests.
-6. **Retire the stale `test_sampler_interface.py`** (superseded by the merge).
-7. **Continue consolidating on the `_merged` branch**; complete serving-layer orchestration + response fields (`deterministic_sampling_valid`, `distances`) non-enforcing.
-8. **Ship the perplexity quick-fix as telemetry** in parallel (low risk, uses existing `get_metric`).
-9. **Run the non-enforcing data-collection phase**; gate strict enforcement on the exit criteria in §5.
-
----
-
-## 8. Requested summary answers
-
-- **Matches the two-stage proposal?** Design yes (naming remap + a stronger replay mechanism); one seed-derivation divergence (S1) to reconcile.
-- **Already implemented?** `v011` has the full skeleton + validator replay/distance (float sampling); `_dump` has the bit-stable integer algorithm (unwired); `_merged` unifies them and adds a pure-CPU validator replay with a passing smoke test. Not end-to-end runnable against real executor artifacts yet.
-- **Still to modify/create?** Executor decimal-weight path (E1/ADR 0003), seed hardening (S1), Go parity implementation + tests (S3), shared token-ordering/float-string contract, serving orchestration + response fields.
-- **Ready for soft MLNode integration?** Not yet — but the `_merged` branch is the correct consolidation and is validator-side runnable.
-- **Keep non-enforcing:** all Stage-1 replay verdicts until E1/S1/S3 are closed and false-positive data is in.
-- **Data before strict validation:** Stage-1 false-positive rate by model/quant/hardware, tokenizer determinism, realistic perf, Python↔Go parity.
-- **Vulnerabilities/mismatches:** S1 (seed↔inference_id — primitive fix in flight, `vllm#56`), E1 (executor float vs validator decimal weights), S3 (no Go parity), A1 (float string), token-ordering, S2 (global decimal ctx), temp-0 gap, top-K/default handling.
-- **Final recommendation:** **Needs additional review.** The integer primitive is adoptable as a library now; the `_merged` branch is the right base to continue on; but the executor hot-path conversion (E1), seed hardening (S1), and cross-language parity (S3) must land — all requiring GPU/protocol changes — before any enforcement.
-
+- Cross-node / cross-arch reproducibility CI green, including Go parity.</p>
+<p><strong>Should wait</strong>
+- Any executor <code>sampler.py</code> hot-path change beyond shadow mode (perf + correctness risk; GPU verification required).
+- Turning Stage-1 replay failures into slashing.</p>
+<hr />
+<h2>6. Vulnerabilities / edge cases</h2>
+<ol>
+<li><strong>S1 — seed not bound to <code>inference_id</code></strong> (design): both branches derive <code>f"{seed}|{prompt_repr}"</code>. The seed component is executor-controllable, so an attacker can locally re-roll seeds until one makes a forged result pass replay; it also makes the check tokenizer-fragile → false fraud. <em>Highest priority security bug — blocks enforcement.</em> <strong>Primitive fix in flight: <code>gonka-ai/vllm#56</code> (<code>derive_chain_bound_seed</code>), not yet wired into a call site (see §2).</strong></li>
+<li><strong>E1 — executor (GPU float) vs validator (CPU decimal) weight paths are not bit-identical</strong> (impl, ADR 0003): <code>(probs*2^16).round()</code> on float32 ≠ decimal HALF_EVEN pipeline. Zero-tolerance replay false-rejects real artifacts. <em>Biggest completeness blocker.</em></li>
+<li><strong>S3 — no Python↔Go parity implementation</strong> (impl): the chain validator is Go; there is no Go implementation of the decimal pipeline / RNG, and cross-language bit-parity has never been tested. Divergence here = false fraud at scale. <em>Blocks enforcement.</em></li>
+<li><strong>A1 — float→string canonicalization</strong> (design/impl): pinned to <code>repr(f)</code> on the validator in <code>_merged</code> (ADR 0001), but not yet shared with the executor or the Go side. Tied to E1/S3.</li>
+<li><strong>S2 — global decimal context mutation</strong> (impl): <code>_dump</code> mutates <code>getcontext()</code> at import; use <code>localcontext()</code> (ADR 0002 proposes this).</li>
+<li><strong>Candidate-token ordering mismatch</strong> (impl): one side sorts by token-ID string, another by numeric ID. Even with bit-identical weights, an order mismatch shifts the categorical index → false fraud. Must be pinned to one order on all three sides.</li>
+<li><strong>Temperature = 0 (greedy)</strong> bypasses the decimal pipeline and the replay check entirely; Stage 1 contributes <em>nothing</em> at temp 0 — only the distance check defends. Acceptable (argmax is deterministic and pre-fill still needs matching argmax), but it means a class of inferences has no sequence binding. Document explicitly or disallow temp-0 in validation.</li>
+<li><strong>Top-K clamping</strong> (<code>top_k</code> effectively <code>min(top_k, max_num_logprobs)</code>): if <code>top_logprobs</code> is unset the server must apply a fixed default, and the artifact must record it, or executor/validator reconstruct different distributions. <code>min_p</code> empty-set fallback (pick max) and residual tie-break (<code>(weight, token_id)</code> lexicographic) must be identical on all sides — no cross-language test yet.</li>
+<li><strong><code>sample_categorical_weights</code> total ≤ 0 → returns last index</strong> silently. Consistent across sides, but in zero-tolerance validation a silent fallback can mask an upstream bug; prefer to raise or log.</li>
+<li><strong>Distance check unchanged</strong> as the sole defense against wrong-model/quantization; Stage 1 adds nothing there. Enforcement still hinges on distance-threshold calibration, which this work does not address.</li>
+</ol>
+<hr />
+<h2>7. Recommended next steps</h2>
+<ol>
+<li><strong>Land the executor decimal-weight path</strong> (E1 / ADR 0003) behind the flag, first in shadow mode (log float-vs-decimal divergence), then as the artifact source. Requires GPU verification.</li>
+<li><strong>Reconcile seed derivation</strong> with the proposal — bind <code>run_seed</code> to chain <code>inference_id</code> (S1). Primitive already proposed in <code>gonka-ai/vllm#56</code>; converge it with PR #13, then <strong>wire it into <code>gpu_model_runner.py</code></strong> and define how MLNode passes <code>inference_id_from_chain</code> into vLLM.</li>
+<li><strong>Pin one candidate-token order and one float→string form</strong> shared by executor, Python validator, and the Go chain path (A1/S3, ordering).</li>
+<li><strong>Write the Go implementation + a Python↔Go parity vector test</strong> (fixed inputs → expected weights + expected token), run in both CIs (S3). This is the gate that "cross-language reproducibility" has never actually been tested.</li>
+<li><strong>Fix S2</strong> (local decimal context, ADR 0002) and land the integer <code>deterministic_utils.py</code> + real unit tests.</li>
+<li><strong>Retire the stale <code>test_sampler_interface.py</code></strong> (superseded by the merge).</li>
+<li><strong>Continue consolidating on the <code>_merged</code> branch</strong>; complete serving-layer orchestration + response fields (<code>deterministic_sampling_valid</code>, <code>distances</code>) non-enforcing.</li>
+<li><strong>Ship the perplexity quick-fix as telemetry</strong> in parallel (low risk, uses existing <code>get_metric</code>).</li>
+<li><strong>Run the non-enforcing data-collection phase</strong>; gate strict enforcement on the exit criteria in §5.</li>
+</ol>
+<hr />
+<h2>8. Requested summary answers</h2>
+<ul>
+<li><strong>Matches the two-stage proposal?</strong> Design yes (naming remap + a stronger replay mechanism); one seed-derivation divergence (S1) to reconcile.</li>
+<li><strong>Already implemented?</strong> <code>v011</code> has the full skeleton + validator replay/distance (float sampling); <code>_dump</code> has the bit-stable integer algorithm (unwired); <code>_merged</code> unifies them and adds a pure-CPU validator replay with a passing smoke test. Not end-to-end runnable against real executor artifacts yet.</li>
+<li><strong>Still to modify/create?</strong> Executor decimal-weight path (E1/ADR 0003), seed hardening (S1), Go parity implementation + tests (S3), shared token-ordering/float-string contract, serving orchestration + response fields.</li>
+<li><strong>Ready for soft MLNode integration?</strong> Not yet — but the <code>_merged</code> branch is the correct consolidation and is validator-side runnable.</li>
+<li><strong>Keep non-enforcing:</strong> all Stage-1 replay verdicts until E1/S1/S3 are closed and false-positive data is in.</li>
+<li><strong>Data before strict validation:</strong> Stage-1 false-positive rate by model/quant/hardware, tokenizer determinism, realistic perf, Python↔Go parity.</li>
+<li><strong>Vulnerabilities/mismatches:</strong> S1 (seed↔inference_id — primitive fix in flight, <code>vllm#56</code>), E1 (executor float vs validator decimal weights), S3 (no Go parity), A1 (float string), token-ordering, S2 (global decimal ctx), temp-0 gap, top-K/default handling.</li>
+<li><strong>Final recommendation:</strong> <strong>Needs additional review.</strong> The integer primitive is adoptable as a library now; the <code>_merged</code> branch is the right base to continue on; but the executor hot-path conversion (E1), seed hardening (S1), and cross-language parity (S3) must land — all requiring GPU/protocol changes — before any enforcement.</li>
+</ul>
 </details>
 
   </div>

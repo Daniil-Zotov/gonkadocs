@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-20 21:32 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-20 21:32 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-04-23 01:38 UTC</span>
   </div>
@@ -43,19 +43,17 @@ Formally define, evaluate, and validate the Mesh / Turbine-based off-chain PoC c
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@akup](https://github.com/akup)</span>
+    <span><a href="https://github.com/akup">@akup</a></span>
     <span class="issues-meta-item">commented 2026-01-23 11:21 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Why gossip is just overlooked?
-
-While it will have more latency (this 100ms are neglectable compared to block finalization time), it consumes much less resources and bandwidth.
+  <div class="issues-comment-body issues-content">
+<p>Why gossip is just overlooked?</p>
+<p>While it will have more latency (this 100ms are neglectable compared to block finalization time), it consumes much less resources and bandwidth.
 In article, in comparison it is stated that gossip needs 12 connections, while turbine tree 32 connections.
 But to have good protection against nodes control attack, we need to have up to 8 trees, and this is 256 connections, that is 20 times more then gossip.
 This multiple connections even with Solomon-reed (additional encoding/decoding resources) will increase bandwidth consumption as well.
-Moreover gossip is more adaptive and selfheeling and always will find the route.
-
-I think this points should be taken into account on protocol selection
+Moreover gossip is more adaptive and selfheeling and always will find the route.</p>
+<p>I think this points should be taken into account on protocol selection</p>
   </div>
 </div>
 

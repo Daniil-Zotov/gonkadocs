@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@olkwwuah](https://github.com/olkwwuah) opened 2026-05-26 07:27 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/olkwwuah">@olkwwuah</a> opened 2026-05-26 07:27 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-06-23 23:10 UTC</span>
   </div>
@@ -56,21 +56,16 @@ Daniel
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-06-23 23:10 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Hi @olkwwuah!
-
-Two parts to your ask — broker listing and allowlisting your devshard creator address — so a quick note on how each works:
-
-**Allowlisting `gonka15uuzwv36ln8mlsmu7ccg6rr3ntj9mh7t9x6n8u`.** Operating your own devshard gateway means becoming an on-chain escrow operator, which requires your creator address on the governance-controlled allowlist (`devshard_escrow_params.allowed_creator_addresses`). That path is open, but inclusion is an on-chain governance decision — no single operator or org adds an address unilaterally — so it goes through a governance request. On top of the allowlist, you'd own the escrow lifecycle yourself: funding, rotation, v1/v2 state roots, and settlement.
-
-**Broker listing.** The community broker directory is a curated, non-exhaustive set from the early rollout and isn't being actively expanded.
-
-If you'd rather not wait on a governance vote, there are independent, managed gateways in the community that already operate under whitelisted wallets and expose a plain OpenAI-compatible endpoint — so you can start serving inference now without your own allowlisting. One such community option is **OpenBroker** (run by Gonka Labs): https://github.com/gonka-ai/gonka/discussions/1363
-
-OpenBroker is **independent third party**, not part of the core protocol  
+  <div class="issues-comment-body issues-content">
+<p>Hi @olkwwuah!</p>
+<p>Two parts to your ask — broker listing and allowlisting your devshard creator address — so a quick note on how each works:</p>
+<p><strong>Allowlisting <code>gonka15uuzwv36ln8mlsmu7ccg6rr3ntj9mh7t9x6n8u</code>.</strong> Operating your own devshard gateway means becoming an on-chain escrow operator, which requires your creator address on the governance-controlled allowlist (<code>devshard_escrow_params.allowed_creator_addresses</code>). That path is open, but inclusion is an on-chain governance decision — no single operator or org adds an address unilaterally — so it goes through a governance request. On top of the allowlist, you'd own the escrow lifecycle yourself: funding, rotation, v1/v2 state roots, and settlement.</p>
+<p><strong>Broker listing.</strong> The community broker directory is a curated, non-exhaustive set from the early rollout and isn't being actively expanded.</p>
+<p>If you'd rather not wait on a governance vote, there are independent, managed gateways in the community that already operate under whitelisted wallets and expose a plain OpenAI-compatible endpoint — so you can start serving inference now without your own allowlisting. One such community option is <strong>OpenBroker</strong> (run by Gonka Labs): https://github.com/gonka-ai/gonka/discussions/1363</p>
+<p>OpenBroker is <strong>independent third party</strong>, not part of the core protocol</p>  
   </div>
 </div>
 

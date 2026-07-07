@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-23 19:25 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-23 19:25 UTC</span>
     <span class="issues-meta-item">3 comments</span>
     <span class="issues-meta-item">Updated 2026-01-29 22:58 UTC</span>
   </div>
@@ -31,29 +31,29 @@ template: issues-main.html
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-01-23 19:25 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Done by Axel-t
+  <div class="issues-comment-body issues-content">
+<p>Done by Axel-t</p>
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-01-24 02:00 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    @tamazgadaev, please help me write what was done and attach the result. Thank you!
+  <div class="issues-comment-body issues-content">
+<p>@tamazgadaev, please help me write what was done and attach the result. Thank you!</p>
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tamazgadaev](https://github.com/tamazgadaev)</span>
+    <span><a href="https://github.com/tamazgadaev">@tamazgadaev</a></span>
     <span class="issues-meta-item">commented 2026-01-26 17:48 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    <img width="1171" height="697" alt="Image" src="https://github.com/user-attachments/assets/bba3fbf4-7e92-4726-8d9b-6e85ffedfd7f" /> test inference validation for the new 011 vllm container and compute thresholds for qwen235B
+  <div class="issues-comment-body issues-content">
+<p><img width="1171" height="697" alt="Image" src="https://github.com/user-attachments/assets/bba3fbf4-7e92-4726-8d9b-6e85ffedfd7f" /> test inference validation for the new 011 vllm container and compute thresholds for qwen235B</p>
 
   </div>
 </div>

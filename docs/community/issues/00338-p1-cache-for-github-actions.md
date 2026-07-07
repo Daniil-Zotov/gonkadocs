@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2025-09-03 23:19 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2025-09-03 23:19 UTC</span>
     <span class="issues-meta-item">3 comments</span>
     <span class="issues-meta-item">Updated 2026-03-25 18:38 UTC</span>
   </div>
@@ -31,31 +31,32 @@ template: issues-main.html
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-01-24 01:45 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    https://github.com/gonka-ai/gonka/pull/509
+  <div class="issues-comment-body issues-content">
+<p>https://github.com/gonka-ai/gonka/pull/509</p>
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@gmorgachev](https://github.com/gmorgachev)</span>
+    <span><a href="https://github.com/gmorgachev">@gmorgachev</a></span>
     <span class="issues-meta-item">commented 2026-03-12 08:28 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    @IgnatovFedor what is our status?
+  <div class="issues-comment-body issues-content">
+<p>@IgnatovFedor what is our status?</p>
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@IgnatovFedor](https://github.com/IgnatovFedor)</span>
+    <span><a href="https://github.com/IgnatovFedor">@IgnatovFedor</a></span>
     <span class="issues-meta-item">commented 2026-03-12 12:34 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    > [@IgnatovFedor](https://github.com/IgnatovFedor) what is our status?
-
-@gmorgachev , PR is opened, currently addressing Copilot review comments. Validating the changes - should be done soon.
+  <div class="issues-comment-body issues-content">
+<blockquote>
+<p><a href="https://github.com/IgnatovFedor">@IgnatovFedor</a> what is our status?</p>
+</blockquote>
+<p>@gmorgachev , PR is opened, currently addressing Copilot review comments. Validating the changes - should be done soon.</p>
   </div>
 </div>
 

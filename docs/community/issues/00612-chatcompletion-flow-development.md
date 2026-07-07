@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-20 21:37 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-20 21:37 UTC</span>
     <span class="issues-meta-item">3 comments</span>
     <span class="issues-meta-item">Updated 2026-04-01 23:53 UTC</span>
   </div>
@@ -31,20 +31,20 @@ template: issues-main.html
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-03-22 22:59 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Hey @KKizilov, is this issue still in progress? 
+  <div class="issues-comment-body issues-content">
+<p>Hey @KKizilov, is this issue still in progress?</p> 
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-03-23 20:55 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    @KKizilov please check if this issue is actually done or just closed?
+  <div class="issues-comment-body issues-content">
+<p>@KKizilov please check if this issue is actually done or just closed?</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -52,8 +52,8 @@ template: issues-main.html
     <span>[@heitor-lassarote](https://github.com/heitor-lassarote)</span>
     <span class="issues-meta-item">commented 2026-03-23 21:08 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    @tcharchian, we were explicitly requested by @gmorgachev to close #740 (the PR that would close this issue) because the work on subnets would also fix the problem while introducing more functionality. The issue should be closed/aborted instead.
+  <div class="issues-comment-body issues-content">
+<p>@tcharchian, we were explicitly requested by @gmorgachev to close #740 (the PR that would close this issue) because the work on subnets would also fix the problem while introducing more functionality. The issue should be closed/aborted instead.</p>
   </div>
 </div>
 

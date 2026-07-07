@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item">[@dcastro](https://github.com/dcastro) opened 2026-03-18 10:49 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 2026-03-18 10:49 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-05-25 18:36 UTC</span>
   </div>
@@ -33,11 +33,11 @@ We should write a benchmark harness for this. Gonka has 3 testnets with 10 diffe
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@KKizilov](https://github.com/KKizilov)</span>
+    <span><a href="https://github.com/KKizilov">@KKizilov</a></span>
     <span class="issues-meta-item">commented 2026-03-26 15:20 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    The deadline is April 5th. 
+  <div class="issues-comment-body issues-content">
+<p>The deadline is April 5th.</p> 
   </div>
 </div>
 

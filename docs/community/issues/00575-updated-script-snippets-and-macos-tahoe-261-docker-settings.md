@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15 21:33 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-15 21:33 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-01-20 17:51 UTC</span>
   </div>
@@ -34,8 +34,8 @@ template: issues-main.html
     <span>[@maria-mitina](https://github.com/maria-mitina)</span>
     <span class="issues-meta-item">commented 2026-01-15 21:50 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    @tcharchian should we close this ticket since the PR has been merged?
+  <div class="issues-comment-body issues-content">
+<p>@tcharchian should we close this ticket since the PR has been merged?</p>
   </div>
 </div>
 

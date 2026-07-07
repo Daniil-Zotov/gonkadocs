@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2025-12-03 22:52 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2025-12-03 22:52 UTC</span>
     <span class="issues-meta-item">2 comments</span>
     <span class="issues-meta-item">Updated 2026-02-07 00:40 UTC</span>
   </div>
@@ -36,20 +36,20 @@ After that, feel free to contact me on Discord: `tatianacharchian_07833`.
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-01-23 20:30 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Task is open for contribution and @DimaOrekhovPS can help if any questions arise
+  <div class="issues-comment-body issues-content">
+<p>Task is open for contribution and @DimaOrekhovPS can help if any questions arise</p>
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
+    <span><a href="https://github.com/AlexeySamosadov">@AlexeySamosadov</a></span>
     <span class="issues-meta-item">commented 2026-01-24 21:05 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Added unit tests in PR #640 - covers SetCurrentNodeVersion, ShouldRefreshClients, SyncVersionFromChain, and version update triggering client refresh.
+  <div class="issues-comment-body issues-content">
+<p>Added unit tests in PR #640 - covers SetCurrentNodeVersion, ShouldRefreshClients, SyncVersionFromChain, and version update triggering client refresh.</p>
   </div>
 </div>
 

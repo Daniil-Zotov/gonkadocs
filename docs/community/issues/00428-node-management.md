@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2025-11-12 17:37 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2025-11-12 17:37 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-03-12 23:39 UTC</span>
   </div>
@@ -33,14 +33,15 @@ template: issues-main.html
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2025-12-03 22:50 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    - [x] Finish node management docs page and create PR  https://github.com/gonka-ai/gonka-docs/pull/533
-- [x] One more docs todo: add /stop call to the how-to-simulate FAQ  https://gonka.ai/FAQ/#how-to-simulate-proof-of-compute-poc
-
-@DimaOrekhovPS 
+  <div class="issues-comment-body issues-content">
+<ul>
+<li>[x] Finish node management docs page and create PR  https://github.com/gonka-ai/gonka-docs/pull/533</li>
+<li>[x] One more docs todo: add /stop call to the how-to-simulate FAQ  https://gonka.ai/FAQ/#how-to-simulate-proof-of-compute-poc</li>
+</ul>
+<p>@DimaOrekhovPS</p> 
   </div>
 </div>
 

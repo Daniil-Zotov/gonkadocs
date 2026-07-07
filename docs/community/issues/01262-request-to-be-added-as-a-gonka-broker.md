@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@anikiyevichm](https://github.com/anikiyevichm) opened 2026-05-27 16:11 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/anikiyevichm">@anikiyevichm</a> opened 2026-05-27 16:11 UTC</span>
     <span class="issues-meta-item">5 comments</span>
     <span class="issues-meta-item">Updated 2026-06-27 01:27 UTC</span>
   </div>
@@ -74,75 +74,64 @@ Target audience:
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@anikiyevichm](https://github.com/anikiyevichm)</span>
+    <span><a href="https://github.com/anikiyevichm">@anikiyevichm</a></span>
     <span class="issues-meta-item">commented 2026-05-28 14:54 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    @tcharchian , Hi, i see that this issue is completed. What our team should do next to join allowlist with our gonka adress?
+  <div class="issues-comment-body issues-content">
+<p>@tcharchian , Hi, i see that this issue is completed. What our team should do next to join allowlist with our gonka adress?</p>
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-06-23 22:47 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Hi! At the moment, the public broker list is not being actively expanded through governance. Inclusion in that list should be handled through the governance process and discussed in the community.
-
-As a practical alternative, there is now a community-operated option for teams that want to start operating as brokers without waiting for direct access https://github.com/gonka-ai/gonka/discussions/1363.
-
-OpenBroker provides access to Gonka inference through devshards v1 and v2 under an already whitelisted escrow-operating wallet. It is intended for teams that want to build or test broker-side products without handling escrow enrollment, escrow funding and rotation, v1/v2 state-root differences, or node4 access.
-
-You can register here:
-https://openbroker.gonka.gg/register
-
-Endpoint:
-https://openbroker.gonka.gg/v1
-
-Stats:
-https://openbroker.gonka.gg/stats
-
-This should let you start while the governance discussion around inclusion/white-listing continues separately.
+  <div class="issues-comment-body issues-content">
+<p>Hi! At the moment, the public broker list is not being actively expanded through governance. Inclusion in that list should be handled through the governance process and discussed in the community.</p>
+<p>As a practical alternative, there is now a community-operated option for teams that want to start operating as brokers without waiting for direct access https://github.com/gonka-ai/gonka/discussions/1363.</p>
+<p>OpenBroker provides access to Gonka inference through devshards v1 and v2 under an already whitelisted escrow-operating wallet. It is intended for teams that want to build or test broker-side products without handling escrow enrollment, escrow funding and rotation, v1/v2 state-root differences, or node4 access.</p>
+<p>You can register here:
+https://openbroker.gonka.gg/register</p>
+<p>Endpoint:
+https://openbroker.gonka.gg/v1</p>
+<p>Stats:
+https://openbroker.gonka.gg/stats</p>
+<p>This should let you start while the governance discussion around inclusion/white-listing continues separately.</p>
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@anikiyevichm](https://github.com/anikiyevichm)</span>
+    <span><a href="https://github.com/anikiyevichm">@anikiyevichm</a></span>
     <span class="issues-meta-item">commented 2026-06-24 07:42 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    @tcharchian 
-Hi, thanks for the clarification.
-
-Our team is already going through the onboarding process with OpenBroker, and we appreciate this option as a practical way to start operating.
-
-At the same time, we would still like to continue the discussion around being included in the official broker list, especially here: https://gonka.ai/docs/developer/quickstart/
-
-The reason is that during conversations with potential customers, especially B2B clients and contractors, we are sometimes asked why our service is not listed there. This creates additional friction in sales and makes it harder for us to establish trust as a broker-side provider.
+  <div class="issues-comment-body issues-content">
+<p>@tcharchian 
+Hi, thanks for the clarification.</p>
+<p>Our team is already going through the onboarding process with OpenBroker, and we appreciate this option as a practical way to start operating.</p>
+<p>At the same time, we would still like to continue the discussion around being included in the official broker list, especially here: https://gonka.ai/docs/developer/quickstart/</p>
+<p>The reason is that during conversations with potential customers, especially B2B clients and contractors, we are sometimes asked why our service is not listed there. This creates additional friction in sales and makes it harder for us to establish trust as a broker-side provider.</p>
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@anikiyevichm](https://github.com/anikiyevichm)</span>
+    <span><a href="https://github.com/anikiyevichm">@anikiyevichm</a></span>
     <span class="issues-meta-item">commented 2026-06-24 10:35 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    https://github.com/gonka-ai/gonka-docs/pull/1252 - We have prepared a PR
+  <div class="issues-comment-body issues-content">
+<p>https://github.com/gonka-ai/gonka-docs/pull/1252 - We have prepared a PR</p>
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-06-27 01:27 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Hi @anikiyevichm, I wanted to raise a concern about the way your website is currently presented.
+  <div class="issues-comment-body issues-content">
+<p>Hi @anikiyevichm, I wanted to raise a concern about the way your website is currently presented.
 All footer links on the site point to the official Gonka channels and gonka.ai. Even the “Docs” link in the website header does not lead to your own documentation, but to the official Gonka docs on gonka.ai.
-The site also lists Gonka’s audits and partners in a way that makes it look like those audits and partnerships apply to your service directly.
-
-Overall, the website is structured and presented differently from other brokers’ websites, and I think it may be misleading for users. It creates the impression that this is an official Gonka website, or that Gonka’s official partners, audits, and documentation are associated with your broker specifically.
-
-Could you please review this and adjust the website so that it is clearly positioned as an independent broker, with proper distinction from the official Gonka website and channels?
+The site also lists Gonka’s audits and partners in a way that makes it look like those audits and partnerships apply to your service directly.</p>
+<p>Overall, the website is structured and presented differently from other brokers’ websites, and I think it may be misleading for users. It creates the impression that this is an official Gonka website, or that Gonka’s official partners, audits, and documentation are associated with your broker specifically.</p>
+<p>Could you please review this and adjust the website so that it is clearly positioned as an independent broker, with proper distinction from the official Gonka website and channels?</p>
   </div>
 </div>
 

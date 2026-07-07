@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@sspotanin](https://github.com/sspotanin) opened 2026-05-22 16:08 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/sspotanin">@sspotanin</a> opened 2026-05-22 16:08 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-06-23 23:22 UTC</span>
   </div>
@@ -131,20 +131,18 @@ I am happy to coordinate and adjust the validation scope, limits, or rollout pro
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-06-23 23:22 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Hi @sspotanin!
-
-On the process you asked about: allowlisting a `gonka1…` creator address is an on-chain governance decision. Addresses on `devshard_escrow_params.allowed_creator_addresses` are added through a governance vote — no single maintainer or operator adds one unilaterally.  To be clear, your actual ask (validating the creator/operator path locally) does require the allowlist; that's the part where you create and settle escrows yourself, and no managed service substitutes for it. So nothing below replaces this request.
-
-That said, given the specific gap you're targeting (reliability for sustained agentic sessions), one community option worth being aware of in parallel is **OpenBroker** (run by Gonka Labs). https://github.com/gonka-ai/gonka/discussions/1363 It's a managed devshard platform that runs v1/v2 (and future versions) at production scale with full per-request and network observability, and it's explicitly used as a live testbed for exercising devshard versions under load. Two ways it might be useful while the governance request is reviewed:
-
-- **As a stable reference endpoint** to build and benchmark the OpenAI-compatible client side of your gateway against — streaming, tool-call compatibility, long sessions — so that work isn't blocked on allowlisting.
-- **As a production-scale baseline** for the reliability behaviors you're measuring, since it surfaces real telemetry and failure modes rather than single-turn happy-path responses.
-
-OpenBroker is an **independent third party**, not part of the core protocol, and exactly the kind of existing option you said you've already evaluated — so treat it as a reference/benchmark, not as the answer to the reliability gap you're building toward. It's just a way to keep the client-side work moving in parallel with the allowlist governance process.
+  <div class="issues-comment-body issues-content">
+<p>Hi @sspotanin!</p>
+<p>On the process you asked about: allowlisting a <code>gonka1…</code> creator address is an on-chain governance decision. Addresses on <code>devshard_escrow_params.allowed_creator_addresses</code> are added through a governance vote — no single maintainer or operator adds one unilaterally.  To be clear, your actual ask (validating the creator/operator path locally) does require the allowlist; that's the part where you create and settle escrows yourself, and no managed service substitutes for it. So nothing below replaces this request.</p>
+<p>That said, given the specific gap you're targeting (reliability for sustained agentic sessions), one community option worth being aware of in parallel is <strong>OpenBroker</strong> (run by Gonka Labs). https://github.com/gonka-ai/gonka/discussions/1363 It's a managed devshard platform that runs v1/v2 (and future versions) at production scale with full per-request and network observability, and it's explicitly used as a live testbed for exercising devshard versions under load. Two ways it might be useful while the governance request is reviewed:</p>
+<ul>
+<li><strong>As a stable reference endpoint</strong> to build and benchmark the OpenAI-compatible client side of your gateway against — streaming, tool-call compatibility, long sessions — so that work isn't blocked on allowlisting.</li>
+<li><strong>As a production-scale baseline</strong> for the reliability behaviors you're measuring, since it surfaces real telemetry and failure modes rather than single-turn happy-path responses.</li>
+</ul>
+<p>OpenBroker is an <strong>independent third party</strong>, not part of the core protocol, and exactly the kind of existing option you said you've already evaluated — so treat it as a reference/benchmark, not as the answer to the reliability gap you're building toward. It's just a way to keep the client-side work moving in parallel with the allowlist governance process.</p>
   </div>
 </div>
 

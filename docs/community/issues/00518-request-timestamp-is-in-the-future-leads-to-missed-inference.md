@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@akup](https://github.com/akup) opened 2026-01-02 06:22 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/akup">@akup</a> opened 2026-01-02 06:22 UTC</span>
     <span class="issues-meta-item">3 comments</span>
     <span class="issues-meta-item">Updated 2026-01-20 17:55 UTC</span>
   </div>
@@ -84,33 +84,33 @@ The problem of being behind the consensus block is unknown, and it was seen, tha
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@akup](https://github.com/akup)</span>
+    <span><a href="https://github.com/akup">@akup</a></span>
     <span class="issues-meta-item">commented 2026-01-02 06:35 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Also use of hardcoded value 60*60 at node level is VERY BAD.
-And it could be fixed by parameters. Moreover it even doesn't need extra parameters, and can use `timestampExpirationNs` and `timestampAdvanceNs` that are regulated by the voting.
+  <div class="issues-comment-body issues-content">
+<p>Also use of hardcoded value 60*60 at node level is VERY BAD.
+And it could be fixed by parameters. Moreover it even doesn't need extra parameters, and can use <code>timestampExpirationNs</code> and <code>timestampAdvanceNs</code> that are regulated by the voting.</p>
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@trokl1](https://github.com/trokl1)</span>
+    <span><a href="https://github.com/trokl1">@trokl1</a></span>
     <span class="issues-meta-item">commented 2026-01-07 18:31 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    +1, same issue. Node falls behind during PoC, missing inferences. This fix would help.
+  <div class="issues-comment-body issues-content">
+<p>+1, same issue. Node falls behind during PoC, missing inferences. This fix would help.</p>
 
 
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@akup](https://github.com/akup)</span>
+    <span><a href="https://github.com/akup">@akup</a></span>
     <span class="issues-meta-item">commented 2026-01-14 12:27 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    It is fixed by this PR:
-https://github.com/gonka-ai/gonka/pull/549
+  <div class="issues-comment-body issues-content">
+<p>It is fixed by this PR:
+https://github.com/gonka-ai/gonka/pull/549</p>
   </div>
 </div>
 

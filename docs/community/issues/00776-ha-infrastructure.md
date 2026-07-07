@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@Laboltus](https://github.com/Laboltus) opened 2026-02-18 09:41 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/Laboltus">@Laboltus</a> opened 2026-02-18 09:41 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-03-03 23:52 UTC</span>
   </div>
@@ -36,11 +36,11 @@ Am I right ? Is there some guide on this that I missed ?
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@blizko](https://github.com/blizko)</span>
+    <span><a href="https://github.com/blizko">@blizko</a></span>
     <span class="issues-meta-item">commented 2026-03-03 08:44 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    This topic is raised as discussion https://github.com/gonka-ai/gonka/discussions/837
+  <div class="issues-comment-body issues-content">
+<p>This topic is raised as discussion https://github.com/gonka-ai/gonka/discussions/837</p>
   </div>
 </div>
 

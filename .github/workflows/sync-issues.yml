@@ -21,7 +21,7 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install --quiet requests
+        run: pip install --quiet requests markdown
 
       - name: Sync all issues
         env:

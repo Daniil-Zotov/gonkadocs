@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2025-09-03 23:10 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2025-09-03 23:10 UTC</span>
     <span class="issues-meta-item">4 comments</span>
     <span class="issues-meta-item">Updated 2026-06-24 01:10 UTC</span>
   </div>
@@ -42,44 +42,51 @@ Description of the proposal:
     <span>[@Pegasus-starry](https://github.com/Pegasus-starry)</span>
     <span class="issues-meta-item">commented 2025-12-08 18:47 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    1. How to judge if participant is actually in active set?  Is it the state from client: "current_status": "INFERENCE"?
-2. About "Pre-PoC Validation Flow...Manual testing request through admin interface...Send test inference request and validate response".  How to do this scenario? Is it to invoke mlnode interface "/v1/pow/init/generate" of mlnode in directory decentralized-api/internal/server/admin/?
-3. About "Provide countdown timers for user interfaces & Alert users when they should be online."，is it need to provide one new interface and where the countdown info should be shown?  what's more,  how to alert users proactively?  
-Or just shown in log ?
+  <div class="issues-comment-body issues-content">
+<ol>
+<li>How to judge if participant is actually in active set?  Is it the state from client: "current_status": "INFERENCE"?</li>
+<li>About "Pre-PoC Validation Flow...Manual testing request through admin interface...Send test inference request and validate response".  How to do this scenario? Is it to invoke mlnode interface "/v1/pow/init/generate" of mlnode in directory decentralized-api/internal/server/admin/?</li>
+<li>About "Provide countdown timers for user interfaces &amp; Alert users when they should be online."，is it need to provide one new interface and where the countdown info should be shown?  what's more,  how to alert users proactively?<br />
+Or just shown in log ?</li>
+</ol>
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@DimaOrekhovPS](https://github.com/DimaOrekhovPS)</span>
+    <span><a href="https://github.com/DimaOrekhovPS">@DimaOrekhovPS</a></span>
     <span class="issues-meta-item">commented 2025-12-09 01:15 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    1. You can use query defined in `query_current_epoch_group_data.go` and then iterate over participants. If you need to access this data in `decentralized-api` please make a client with `NewInferenceQueryClient`
-
-2. I think we should create a new admin endpoint, something like `admin/v1/test-poc`, then it should automatically locate all nodes that aren't busy and start PoC by sending `/v1/pow/init/generate` to them. Ideally it should also confirm that it receives the batches back. Maybe it should an external script? @gmorgachev what do you think?
-
-3. I think the proposal just asks to show this info in logs clearly
+  <div class="issues-comment-body issues-content">
+<ol>
+<li>
+<p>You can use query defined in <code>query_current_epoch_group_data.go</code> and then iterate over participants. If you need to access this data in <code>decentralized-api</code> please make a client with <code>NewInferenceQueryClient</code></p>
+</li>
+<li>
+<p>I think we should create a new admin endpoint, something like <code>admin/v1/test-poc</code>, then it should automatically locate all nodes that aren't busy and start PoC by sending <code>/v1/pow/init/generate</code> to them. Ideally it should also confirm that it receives the batches back. Maybe it should an external script? @gmorgachev what do you think?</p>
+</li>
+<li>
+<p>I think the proposal just asks to show this info in logs clearly</p>
+</li>
+</ol>
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-03-21 01:03 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Hey @zyz-007 @jacky6block @icydark @wushuo-6 @mumu714 @Ryanchen911 @x0152 @akup! It would be great if some of you could sync on the next steps for this pull request and make the needed decisions together. If you are able to move it forward on your own, it could potentially be included in v0.2.12. But overall, this is a nice-to-have rather than something critical.
+  <div class="issues-comment-body issues-content">
+<p>Hey @zyz-007 @jacky6block @icydark @wushuo-6 @mumu714 @Ryanchen911 @x0152 @akup! It would be great if some of you could sync on the next steps for this pull request and make the needed decisions together. If you are able to move it forward on your own, it could potentially be included in v0.2.12. But overall, this is a nice-to-have rather than something critical.</p>
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-05-22 01:04 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Hey @zyz-007 @jacky6block @icydark @Ryanchen911 @x0152! It would be great if some of you could sync on the next steps for this issue and make the needed decisions together. If you are able to move it forward on your own, it could potentially be included in v0.2.14. But overall, this is a nice-to-have rather than something critical.
-
-See: https://github.com/gonka-ai/gonka/pull/866#issuecomment-4172544143
+  <div class="issues-comment-body issues-content">
+<p>Hey @zyz-007 @jacky6block @icydark @Ryanchen911 @x0152! It would be great if some of you could sync on the next steps for this issue and make the needed decisions together. If you are able to move it forward on your own, it could potentially be included in v0.2.14. But overall, this is a nice-to-have rather than something critical.</p>
+<p>See: https://github.com/gonka-ai/gonka/pull/866#issuecomment-4172544143</p>
 
 
   </div>

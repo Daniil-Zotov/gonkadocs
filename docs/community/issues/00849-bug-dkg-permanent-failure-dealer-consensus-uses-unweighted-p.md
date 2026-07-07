@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@Mayveskii](https://github.com/Mayveskii) opened 2026-03-03 12:04 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/Mayveskii">@Mayveskii</a> opened 2026-03-03 12:04 UTC</span>
     <span class="issues-meta-item">2 comments</span>
     <span class="issues-meta-item">Updated 2026-03-12 22:56 UTC</span>
   </div>
@@ -105,27 +105,24 @@ dealerIsValid := totalSlots > 0 && validSlots > totalSlots/2
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Mayveskii](https://github.com/Mayveskii)</span>
+    <span><a href="https://github.com/Mayveskii">@Mayveskii</a></span>
     <span class="issues-meta-item">commented 2026-03-03 12:56 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Fix submitted in PR #852
+  <div class="issues-comment-body issues-content">
+<p>Fix submitted in PR #852</p>
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@x0152](https://github.com/x0152)</span>
+    <span><a href="https://github.com/x0152">@x0152</a></span>
     <span class="issues-meta-item">commented 2026-03-12 20:08 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Hi @Mayveskii
-
-As discussed in #852, this problem is already covered by issue #823
-Could you please close this issue?
-
-Thanks!
-
-P.S. I think #848 could be closed as well (as we discussed in #851)
+  <div class="issues-comment-body issues-content">
+<p>Hi @Mayveskii</p>
+<p>As discussed in #852, this problem is already covered by issue #823
+Could you please close this issue?</p>
+<p>Thanks!</p>
+<p>P.S. I think #848 could be closed as well (as we discussed in #851)</p>
   </div>
 </div>
 

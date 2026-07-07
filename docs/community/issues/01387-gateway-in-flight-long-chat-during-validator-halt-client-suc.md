@@ -211,20 +211,20 @@ Requires gateway on 702111 with v2 binary mount and Inference phase (PoC finishe
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-07-03 07:29 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    hey @qdanik, would you be interested to work on this issue? 
+  <div class="issues-comment-body issues-content">
+<p>hey @qdanik, would you be interested to work on this issue?</p> 
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@qdanik](https://github.com/qdanik)</span>
+    <span><a href="https://github.com/qdanik">@qdanik</a></span>
     <span class="issues-meta-item">commented 2026-07-05 22:18 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    @tcharchian you can assign it to me
+  <div class="issues-comment-body issues-content">
+<p>@tcharchian you can assign it to me</p>
   </div>
 </div>
 

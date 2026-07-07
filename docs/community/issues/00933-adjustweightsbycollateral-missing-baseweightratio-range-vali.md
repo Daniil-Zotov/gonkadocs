@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@unameisfine](https://github.com/unameisfine) opened 2026-03-23 01:42 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/unameisfine">@unameisfine</a> opened 2026-03-23 01:42 UTC</span>
     <span class="issues-meta-item">3 comments</span>
     <span class="issues-meta-item">Updated 2026-04-27 22:28 UTC</span>
   </div>
@@ -62,31 +62,32 @@ if baseWeightRatio.IsNegative() || baseWeightRatio.GTE(math.LegacyOneDec()) {
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-03-23 05:10 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    @unameisfine, new issues need to go through the triage process first. To help move things forward a bit faster, I’d recommend posting them in Discord or any other available channels so the community can take a look and share early feedback.
+  <div class="issues-comment-body issues-content">
+<p>@unameisfine, new issues need to go through the triage process first. To help move things forward a bit faster, I’d recommend posting them in Discord or any other available channels so the community can take a look and share early feedback.</p>
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@gmorgachev](https://github.com/gmorgachev)</span>
+    <span><a href="https://github.com/gmorgachev">@gmorgachev</a></span>
     <span class="issues-meta-item">commented 2026-04-26 20:00 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    > If governance sets baseWeightRatio >= 1.0
-
-why would do that? that's contradict of the idea of base weight ratio
+  <div class="issues-comment-body issues-content">
+<blockquote>
+<p>If governance sets baseWeightRatio &gt;= 1.0</p>
+</blockquote>
+<p>why would do that? that's contradict of the idea of base weight ratio</p>
   </div>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@unameisfine](https://github.com/unameisfine)</span>
+    <span><a href="https://github.com/unameisfine">@unameisfine</a></span>
     <span class="issues-meta-item">commented 2026-04-26 22:03 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Fair point — governance setting an invalid ratio is unrealistic. Closing the PR.
+  <div class="issues-comment-body issues-content">
+<p>Fair point — governance setting an invalid ratio is unrealistic. Closing the PR.</p>
   </div>
 </div>
 
