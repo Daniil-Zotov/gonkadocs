@@ -1,6 +1,8 @@
 ---
 title: For AI Agents
 description: How AI agents discover and use Gonka documentation
+hide:
+  - navigation
 ---
 
 <style>
