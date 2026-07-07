@@ -76,6 +76,6 @@ https://www.canva.com/design/DAG5x5pF3M4/VycFkb80_elACWPiaNMOQg/view
 
 <div class="prop-footer" markdown="1">
 
-[View on Mintscan](https://www.mintscan.io/gonka/proposals/35) · [View on Ping](https://ping.pub/gonka/gov/35) · Data synced from [rpc.gonka.gg](https://rpc.gonka.gg)
+[View on gonka.gg](https://gonka.gg/network/proposals/35){:target="_blank"}
 
 </div>

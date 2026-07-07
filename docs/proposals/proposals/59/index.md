@@ -61,6 +61,6 @@ Funds milestone 1 (upfront prepayment) of a community-produced onboarding video 
 
 <div class="prop-footer" markdown="1">
 
-[View on Mintscan](https://www.mintscan.io/gonka/proposals/59) · [View on Ping](https://ping.pub/gonka/gov/59) · Data synced from [rpc.gonka.gg](https://rpc.gonka.gg)
+[View on gonka.gg](https://gonka.gg/network/proposals/59){:target="_blank"}
 
 </div>

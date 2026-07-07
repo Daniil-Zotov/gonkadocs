@@ -63,6 +63,6 @@ This proposal introduces new Qwen3 models including Qwen3-32B-FP8 and Qwen3-235B
 
 <div class="prop-footer" markdown="1">
 
-[View on Mintscan](https://www.mintscan.io/gonka/proposals/2) · [View on Ping](https://ping.pub/gonka/gov/2) · Data synced from [rpc.gonka.gg](https://rpc.gonka.gg)
+[View on gonka.gg](https://gonka.gg/network/proposals/2){:target="_blank"}
 
 </div>

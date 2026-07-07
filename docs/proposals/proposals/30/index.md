@@ -60,6 +60,6 @@ Testing governance voting from the wallet app.
 
 <div class="prop-footer" markdown="1">
 
-[View on Mintscan](https://www.mintscan.io/gonka/proposals/30) · [View on Ping](https://ping.pub/gonka/gov/30) · Data synced from [rpc.gonka.gg](https://rpc.gonka.gg)
+[View on gonka.gg](https://gonka.gg/network/proposals/30){:target="_blank"}
 
 </div>

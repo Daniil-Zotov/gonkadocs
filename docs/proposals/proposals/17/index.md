@@ -57,6 +57,6 @@ Expected amount of Confirmation PoC per epoch to 4, p0 for binomial test to 0.1
 
 <div class="prop-footer" markdown="1">
 
-[View on Mintscan](https://www.mintscan.io/gonka/proposals/17) · [View on Ping](https://ping.pub/gonka/gov/17) · Data synced from [rpc.gonka.gg](https://rpc.gonka.gg)
+[View on gonka.gg](https://gonka.gg/network/proposals/17){:target="_blank"}
 
 </div>

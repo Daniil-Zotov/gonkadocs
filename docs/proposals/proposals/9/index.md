@@ -58,6 +58,6 @@ Higher Bandwidth Limits & Voting Time Back to 24H
 
 <div class="prop-footer" markdown="1">
 
-[View on Mintscan](https://www.mintscan.io/gonka/proposals/9) · [View on Ping](https://ping.pub/gonka/gov/9) · Data synced from [rpc.gonka.gg](https://rpc.gonka.gg)
+[View on gonka.gg](https://gonka.gg/network/proposals/9){:target="_blank"}
 
 </div>

@@ -91,6 +91,6 @@ Live walkthrough on YouTube (by Gonka.Top@Mitch): https://www.youtube.com/watch?
 
 <div class="prop-footer" markdown="1">
 
-[View on Mintscan](https://www.mintscan.io/gonka/proposals/53) · [View on Ping](https://ping.pub/gonka/gov/53) · Data synced from [rpc.gonka.gg](https://rpc.gonka.gg)
+[View on gonka.gg](https://gonka.gg/network/proposals/53){:target="_blank"}
 
 </div>

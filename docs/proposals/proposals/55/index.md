@@ -63,6 +63,6 @@ Distribute restitution for Cases 2, 3, and 4 across epochs 248-254. Case 2: pres
 
 <div class="prop-footer" markdown="1">
 
-[View on Mintscan](https://www.mintscan.io/gonka/proposals/55) · [View on Ping](https://ping.pub/gonka/gov/55) · Data synced from [rpc.gonka.gg](https://rpc.gonka.gg)
+[View on gonka.gg](https://gonka.gg/network/proposals/55){:target="_blank"}
 
 </div>

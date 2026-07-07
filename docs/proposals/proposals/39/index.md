@@ -59,6 +59,6 @@ Saccade Media House is a creative team of tech entrepreneurs who know how to tel
 
 <div class="prop-footer" markdown="1">
 
-[View on Mintscan](https://www.mintscan.io/gonka/proposals/39) · [View on Ping](https://ping.pub/gonka/gov/39) · Data synced from [rpc.gonka.gg](https://rpc.gonka.gg)
+[View on gonka.gg](https://gonka.gg/network/proposals/39){:target="_blank"}
 
 </div>

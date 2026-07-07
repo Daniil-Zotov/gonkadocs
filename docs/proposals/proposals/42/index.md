@@ -59,6 +59,6 @@ We are DeAI Nation, a global nonprofit organization supporting and promoting the
 
 <div class="prop-footer" markdown="1">
 
-[View on Mintscan](https://www.mintscan.io/gonka/proposals/42) · [View on Ping](https://ping.pub/gonka/gov/42) · Data synced from [rpc.gonka.gg](https://rpc.gonka.gg)
+[View on gonka.gg](https://gonka.gg/network/proposals/42){:target="_blank"}
 
 </div>

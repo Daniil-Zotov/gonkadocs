@@ -69,6 +69,6 @@ Full proposal: https://app.notion.com/p/Gonka-AI-AI-Influencer-Lab-Proposal-3514
 
 <div class="prop-footer" markdown="1">
 
-[View on Mintscan](https://www.mintscan.io/gonka/proposals/49) · [View on Ping](https://ping.pub/gonka/gov/49) · Data synced from [rpc.gonka.gg](https://rpc.gonka.gg)
+[View on gonka.gg](https://gonka.gg/network/proposals/49){:target="_blank"}
 
 </div>

@@ -61,6 +61,6 @@ Today, participating in Gonka governance requires following multiple channels si
 
 <div class="prop-footer" markdown="1">
 
-[View on Mintscan](https://www.mintscan.io/gonka/proposals/43) · [View on Ping](https://ping.pub/gonka/gov/43) · Data synced from [rpc.gonka.gg](https://rpc.gonka.gg)
+[View on gonka.gg](https://gonka.gg/network/proposals/43){:target="_blank"}
 
 </div>

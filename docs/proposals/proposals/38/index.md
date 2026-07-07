@@ -62,6 +62,6 @@ If you agree say YES — Solution 1: Produce a short review video with 1-2 activ
 
 <div class="prop-footer" markdown="1">
 
-[View on Mintscan](https://www.mintscan.io/gonka/proposals/38) · [View on Ping](https://ping.pub/gonka/gov/38) · Data synced from [rpc.gonka.gg](https://rpc.gonka.gg)
+[View on gonka.gg](https://gonka.gg/network/proposals/38){:target="_blank"}
 
 </div>

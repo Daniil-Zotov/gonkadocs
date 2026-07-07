@@ -59,6 +59,6 @@ Full redesign of gonka.ai plus dedicated landing pages for miners, inference buy
 
 <div class="prop-footer" markdown="1">
 
-[View on Mintscan](https://www.mintscan.io/gonka/proposals/63) · [View on Ping](https://ping.pub/gonka/gov/63) · Data synced from [rpc.gonka.gg](https://rpc.gonka.gg)
+[View on gonka.gg](https://gonka.gg/network/proposals/63){:target="_blank"}
 
 </div>

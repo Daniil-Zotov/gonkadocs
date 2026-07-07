@@ -61,6 +61,6 @@ Set delegation initial_model_id to MiniMaxAI/MiniMax-M2.7, keep only MiniMaxAI/M
 
 <div class="prop-footer" markdown="1">
 
-[View on Mintscan](https://www.mintscan.io/gonka/proposals/78) · [View on Ping](https://ping.pub/gonka/gov/78) · Data synced from [rpc.gonka.gg](https://rpc.gonka.gg)
+[View on gonka.gg](https://gonka.gg/network/proposals/78){:target="_blank"}
 
 </div>

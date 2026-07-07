@@ -90,6 +90,6 @@ The Foundation's legal structure, responsibilities, accountability model, treasu
 
 <div class="prop-footer" markdown="1">
 
-[View on Mintscan](https://www.mintscan.io/gonka/proposals/57) · [View on Ping](https://ping.pub/gonka/gov/57) · Data synced from [rpc.gonka.gg](https://rpc.gonka.gg)
+[View on gonka.gg](https://gonka.gg/network/proposals/57){:target="_blank"}
 
 </div>

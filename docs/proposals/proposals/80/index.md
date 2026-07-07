@@ -43,6 +43,6 @@ Restitution payout for confirmed GRC Proposal #3 cases, with Case 05 payments fr
 
 <div class="prop-footer" markdown="1">
 
-[View on Mintscan](https://www.mintscan.io/gonka/proposals/80) · [View on Ping](https://ping.pub/gonka/gov/80) · Data synced from [rpc.gonka.gg](https://rpc.gonka.gg)
+[View on gonka.gg](https://gonka.gg/network/proposals/80){:target="_blank"}
 
 </div>

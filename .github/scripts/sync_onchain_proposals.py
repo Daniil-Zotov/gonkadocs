@@ -244,7 +244,7 @@ template: proposals-proposals-main.html
 
 <div class="prop-footer" markdown="1">
 
-[View on Mintscan](https://www.mintscan.io/gonka/proposals/{pid}) · [View on Ping](https://ping.pub/gonka/gov/{pid}) · Data synced from [rpc.gonka.gg]({RPC_BASE})
+[View on gonka.gg](https://gonka.gg/network/proposals/{pid}){{:target="_blank"}}
 
 </div>
 """

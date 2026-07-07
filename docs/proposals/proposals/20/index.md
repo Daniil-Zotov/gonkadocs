@@ -58,6 +58,6 @@ https://github.com/product-science/filter/tree/ae59d27f04a70039bcfca94ae656e7239
 
 <div class="prop-footer" markdown="1">
 
-[View on Mintscan](https://www.mintscan.io/gonka/proposals/20) · [View on Ping](https://ping.pub/gonka/gov/20) · Data synced from [rpc.gonka.gg](https://rpc.gonka.gg)
+[View on gonka.gg](https://gonka.gg/network/proposals/20){:target="_blank"}
 
 </div>

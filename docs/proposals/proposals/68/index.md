@@ -73,6 +73,6 @@ Full proposal: https://vote.gonka.vip/tenders/550f71de-897f-4ce5-8af8-97854775f8
 
 <div class="prop-footer" markdown="1">
 
-[View on Mintscan](https://www.mintscan.io/gonka/proposals/68) · [View on Ping](https://ping.pub/gonka/gov/68) · Data synced from [rpc.gonka.gg](https://rpc.gonka.gg)
+[View on gonka.gg](https://gonka.gg/network/proposals/68){:target="_blank"}
 
 </div>

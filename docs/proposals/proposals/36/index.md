@@ -58,6 +58,6 @@ Register IBC token metadata and approve the denomination for trading on Gonka ma
 
 <div class="prop-footer" markdown="1">
 
-[View on Mintscan](https://www.mintscan.io/gonka/proposals/36) · [View on Ping](https://ping.pub/gonka/gov/36) · Data synced from [rpc.gonka.gg](https://rpc.gonka.gg)
+[View on gonka.gg](https://gonka.gg/network/proposals/36){:target="_blank"}
 
 </div>

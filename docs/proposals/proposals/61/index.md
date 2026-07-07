@@ -59,6 +59,6 @@ Brand identity system for Gonka.AI: logo, typography, color system, graphic lang
 
 <div class="prop-footer" markdown="1">
 
-[View on Mintscan](https://www.mintscan.io/gonka/proposals/61) · [View on Ping](https://ping.pub/gonka/gov/61) · Data synced from [rpc.gonka.gg](https://rpc.gonka.gg)
+[View on gonka.gg](https://gonka.gg/network/proposals/61){:target="_blank"}
 
 </div>
