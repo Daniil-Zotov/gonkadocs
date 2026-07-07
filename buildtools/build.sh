@@ -81,6 +81,21 @@ cp -r "$ROOT/buildtools/gonka-overrides/"* "$OVR_DIR/"
 sed -e "s|site_url: .*|site_url: ${SITE_URL}|" \
     -e "s|custom_dir: overrides|custom_dir: ${OVR_DIR}|" \
     mkdocs.yml > "$BUILD_CFG"
+python3 - "$BUILD_CFG" <<'PYEOF'
+import sys, re
+cfg = sys.argv[1]
+with open(cfg) as f:
+    content = f.read()
+if 'navigation.tabs' not in content and 'navigation.sections' in content:
+    content = re.sub(
+        r'(    - navigation\.sections\n)',
+        r'\1    - navigation.tabs\n',
+        content,
+        count=1,
+    )
+with open(cfg, 'w') as f:
+    f.write(content)
+PYEOF
 python3 -m mkdocs build --config-file "$BUILD_CFG" --site-dir "$SITE_DIR/gonka/docs"
 rm -rf "$BUILD_CFG" "$OVR_DIR"
 
