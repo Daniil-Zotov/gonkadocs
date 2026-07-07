@@ -6,11 +6,11 @@
   "@context": "https://schema.org",
   "@type": "WebSite",
   "name": "Gonka Docs",
-  "url": "https://gonkadocs.com",
+  "url": "{{ config.site_url }}",
   "description": "Unified documentation portal for Gonka — a decentralized AI inference network with Proof of Compute consensus.",
   "potentialAction": {
     "@type": "SearchAction",
-    "target": "https://gonkadocs.com/search/?q={search_term_string}",
+    "target": "{{ config.site_url }}search/?q={search_term_string}",
     "query-input": "required name=search_term_string"
   }
 }
@@ -20,7 +20,7 @@
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "Gonka Documentation",
-  "url": "https://gonkadocs.com",
+  "url": "{{ config.site_url }}",
   "description": "Official documentation, community discussions, governance proposals, and development roadmap for the Gonka decentralized AI network.",
   "mainEntity": {
     "@type": "ItemList",
@@ -29,25 +29,25 @@
         "@type": "ListItem",
         "position": 1,
         "name": "Protocol Documentation",
-        "url": "https://gonkadocs.com/gonka/docs/"
+        "url": "{{ config.site_url }}gonka/docs/"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "GitHub Discussions",
-        "url": "https://gonkadocs.com/gonka/discussion/"
+        "url": "{{ config.site_url }}community/discussion/"
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": "Community",
-        "url": "https://gonkadocs.com/community/"
+        "url": "{{ config.site_url }}community/"
       },
       {
         "@type": "ListItem",
         "position": 4,
         "name": "Governance Proposals",
-        "url": "https://gonkadocs.com/proposals/"
+        "url": "{{ config.site_url }}proposals/"
       }
     ]
   }

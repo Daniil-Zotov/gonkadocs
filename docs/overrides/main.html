@@ -11,9 +11,17 @@
     function initCommunityNav() {
       var path = window.location.pathname.replace(/\/$/, '');
 
-      function expandNav(id) {
-        var toggle = document.getElementById(id);
-        if (toggle) toggle.checked = true;
+      function expandNavByHref(hrefPrefix) {
+        document.querySelectorAll('.md-nav__link').forEach(function(link) {
+          var href = link.getAttribute('href');
+          if (href && href.indexOf(hrefPrefix) !== -1) {
+            var item = link.closest('.md-nav__item--nested');
+            if (item) {
+              var toggle = item.querySelector('.md-nav__toggle');
+              if (toggle) toggle.checked = true;
+            }
+          }
+        });
       }
 
       function resolvePath(href) {
@@ -35,10 +43,10 @@
         return;
       }
 
-      expandNav('__nav_2');
+      expandNavByHref('/community/');
 
       if (path.indexOf('/community/issues/') !== -1) {
-        expandNav('__nav_2_6');
+        expandNavByHref('/community/issues/');
         var isLabel = path.indexOf('/community/issues/labels/') !== -1;
         document.querySelectorAll('.md-sidebar--primary .md-nav__link').forEach(function(link) {
           var linkPath = resolvePath(link.getAttribute('href'));
@@ -52,7 +60,7 @@
         return;
       }
 
-      expandNav('__nav_2_5');
+      expandNavByHref('/community/discussion/');
       var bestLink = null;
       var bestLen = 0;
       document.querySelectorAll('.md-sidebar--primary .md-nav__link').forEach(function(link) {

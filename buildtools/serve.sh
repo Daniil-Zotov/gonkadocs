@@ -4,26 +4,28 @@
 # ВАЖНО: `mkdocs serve` здесь НЕ подходит — он обслуживает только основной
 # mkdocs.yml, в котором раздел Gonka исключён (exclude_docs) и собирается
 # отдельно. Поэтому для полного предпросмотра собираем сайт через build.sh
-# и отдаём статику под тем же префиксом, что и на GitHub Pages (/gonkadocs/).
+# и отдаём статику под тем же префиксом, что и на GitHub Pages
+# (по умолчанию /gonkadocs/, можно переопределить через PREFIX).
 #
-# Открой: http://127.0.0.1:8000/gonkadocs/
+# Открой: http://127.0.0.1:8000$PREFIX
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 SITE_DIR="$ROOT/_site"
 PORT="${1:-8000}"
+PREFIX="${PREFIX:-/gonkadocs}"
 
 # 1. Полная сборка.
 bash "$ROOT/buildtools/build.sh"
 
-# 2. Эмулируем префикс /gonkadocs/ через временный каталог с симлинком.
+# 2. Эмулируем префикс через временный каталог с симлинком.
 SERVE_ROOT="$(mktemp -d)"
 chmod 755 "$SERVE_ROOT"
-ln -s "$SITE_DIR" "$SERVE_ROOT/gonkadocs"
+ln -s "$SITE_DIR" "${SERVE_ROOT}${PREFIX}"
 trap 'rm -rf "$SERVE_ROOT"' EXIT
 
 echo
-echo "==> Открой: http://127.0.0.1:${PORT}/gonkadocs/"
+echo "==> Открой: http://127.0.0.1:${PORT}${PREFIX}/"
 echo "==> Ctrl+C для остановки"
 cd "$SERVE_ROOT"
 python3 -m http.server "$PORT"

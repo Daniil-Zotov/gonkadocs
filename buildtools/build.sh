@@ -20,6 +20,10 @@ set -euo pipefail
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 SITE_DIR="$ROOT/_site"
+GONKA_ROOT="$ROOT/docs/gonka/docs"
+
+# Окружение: URL для i18n переключателя (продакшен по умолчанию)
+GONKA_SITE_URL="${GONKA_SITE_URL:-https://gonkadocs.com/gonka/docs/}"
 
 echo "==> [0/7] Генерация llms.txt и llms-full.txt для AI-агентов"
 python3 "$ROOT/buildtools/generate-llms.py"
@@ -30,44 +34,30 @@ cd "$ROOT"
 python3 -m mkdocs build --clean --site-dir "$SITE_DIR"
 
 echo "==> [2/7] Сборка раздела Gonka (родной конфиг оригинала, i18n en+zh) -> $SITE_DIR/gonka/docs"
-cd "$ROOT/docs/gonka/docs"
+cd "$GONKA_ROOT"
 
 # В оригинале docs/index.md — это ЛЕНДИНГ gonka.ai (template home.html), а не
 # документация. Сам оригинал при сборке /docs/ подменяет index.md на
-# introduction.md (см. его buildtools/prepare-stages.sh). Повторяем это: на
-# время сборки промотируем introduction.md -> index.md, после сборки
-# восстанавливаем исходные файлы, чтобы не портить синканутый репозиторий.
-DOCS="docs"
-declare -a _restore=()
-_swap_intro() {
-  local dir="$1"            # "" для en, "zh/" для zh
-  local idx="$DOCS/${dir}index.md"
-  local intro="$DOCS/${dir}introduction.md"
+# introduction.md (см. его buildtools/prepare-stages.sh). Повторяем это,
+# НО через временную копию, чтобы не мутировать синканутые файлы.
+DOCS_SRC="docs"
+DOCS_TMP=".docs.tmp"
+rm -rf "$DOCS_TMP"
+cp -r "$DOCS_SRC" "$DOCS_TMP"
+
+# Swap introduction.md → index.md в temp-копии (безопасно, не трогает оригиналы)
+for dir in "" "zh/"; do
+  idx="$DOCS_TMP/${dir}index.md"
+  intro="$DOCS_TMP/${dir}introduction.md"
   if [ -f "$intro" ]; then
-    if [ -f "$idx" ]; then
-      cp "$idx" "$idx.landing.bak"
-      _restore+=("$idx")
-    fi
     cp "$intro" "$idx"
   fi
-}
-_restore_intro() {
-  for idx in "${_restore[@]}"; do
-    if [ -f "$idx.landing.bak" ]; then
-      mv "$idx.landing.bak" "$idx"
-    fi
-  done
-}
-trap _restore_intro EXIT
-
-_swap_intro ""
-_swap_intro "zh/"
+done
 
 # Переопределяем site_url для корректной работы i18n переключателя.
 # Оригинальный site_url указывает на gonka.ai — это ломает ссылки на zh/lang
 # при развёртывании под путём /gonkadocs/gonka/docs/. Создаём временную копию
 # конфига с исправленным site_url и собираем по ней.
-SITE_URL="https://gonkadocs.com/gonka/docs/"
 BUILD_CFG=".mkdocs.yml.build"
 
 # Мержим overrides: upstream originals + наши shared-шаблоны.
@@ -78,14 +68,59 @@ rm -rf "$OVR_DIR"
 cp -r overrides "$OVR_DIR"
 cp -r "$ROOT/buildtools/gonka-overrides/"* "$OVR_DIR/"
 
-sed -e "s|site_url: .*|site_url: ${SITE_URL}|" \
-    -e "s|custom_dir: overrides|custom_dir: ${OVR_DIR}|" \
-    mkdocs.yml > "$BUILD_CFG"
-python3 -m mkdocs build --config-file "$BUILD_CFG" --site-dir "$SITE_DIR/gonka/docs"
-rm -rf "$BUILD_CFG" "$OVR_DIR"
+cp mkdocs.yml "$BUILD_CFG"
 
-_restore_intro
-trap - EXIT
+# Исправляем ключи через Python (точнее sed, т.к. YAML может иметь отступы)
+python3 -c "
+import re
+
+with open('$BUILD_CFG') as f:
+    content = f.read()
+
+content = re.sub(
+    r'^site_url:.*',
+    'site_url: $GONKA_SITE_URL',
+    content,
+    flags=re.MULTILINE
+)
+
+content = re.sub(
+    r'^( *)custom_dir:.*',
+    r'\1custom_dir: $OVR_DIR',
+    content,
+    flags=re.MULTILINE
+)
+
+# Добавляем docs_dir, если его нет
+if not re.search(r'^docs_dir:', content, re.MULTILINE):
+    content = re.sub(
+        r'^site_url:.*',
+        lambda m: m.group(0) + '\ndocs_dir: $DOCS_TMP',
+        content,
+        flags=re.MULTILINE
+    )
+else:
+    content = re.sub(
+        r'^docs_dir:.*',
+        'docs_dir: $DOCS_TMP',
+        content,
+        flags=re.MULTILINE
+    )
+
+# Добавляем extra.tabs для навигационных вкладок (используется tabs.html)
+content = re.sub(
+    r'^(extra:)',
+    r'\\1\n  tabs:\n    - title: Gonka.ai/docs\n      url: /gonka/docs/\n    - title: Community\n      url: /community/\n    - title: Proposals\n      url: /proposals/\n    - title: For Agents\n      url: /agents/',
+    content,
+    flags=re.MULTILINE
+)
+
+with open('$BUILD_CFG', 'w') as f:
+    f.write(content)
+"
+
+python3 -m mkdocs build --config-file "$BUILD_CFG" --site-dir "$SITE_DIR/gonka/docs"
+rm -rf "$BUILD_CFG" "$OVR_DIR" "$DOCS_TMP"
 
 # CNAME принадлежит только корню сайта (домен GitHub Pages задаётся один раз).
 # Оригинал кладёт свой CNAME (gonka.ai) в docs/ — удаляем его из подкаталога.
@@ -107,23 +142,65 @@ rm -f "$SITE_DIR/gonka/docs/CNAME"
 #   docs/wallet/create-account/index.html  -> ../../images/
 #   docs/cross-chain.../dashboard/index.html -> ../../../images/
 #
-# Используем Python-скрипт, который вычисляет правильный префикс "../"
-# для каждого HTML-файла в зависимости от его пути.
+# Используем lxml.html для надёжного парсинга (обрабатывает src=, href=,
+# url(), одинарные/двойные кавычки, <source>, <image> в SVG).
 # -----------------------------------------------------------------------
 echo "==> [3/7] Пост-обработка: исправление путей к изображениям (/images/ -> ..N/images/)"
-echo "==> [пост-обработка] Исправление language switcher (LINK_EN/LINK_ZH -> реальные пути)"
 python3 - "$SITE_DIR/gonka/docs" <<'PYEOF'
-import os, re, sys
+import os, sys
+from html.parser import HTMLParser
 
 docs_root = sys.argv[1]
+
+class ImageFixer(HTMLParser):
+    def __init__(self, prefix):
+        super().__init__(convert_charrefs=False)
+        self.prefix = prefix
+        self.result = []
+        self.in_style = False
+        self.style_content = ""
+
+    def handle_starttag(self, tag, attrs):
+        new_attrs = list(attrs)
+        changed = False
+        for i, (name, value) in enumerate(attrs):
+            if name in ('src', 'href') and value.startswith('/images/'):
+                new_attrs[i] = (name, self.prefix + value[1:])
+                changed = True
+            elif name == 'style' and '/images/' in value:
+                new_attrs[i] = (name, value.replace('/images/', self.prefix + 'images/'))
+                changed = True
+        attrs_str = ''
+        for name, value in new_attrs:
+            if value is None:
+                attrs_str += f' {name}'
+            else:
+                escaped = value.replace('&', '&amp;').replace('"', '&quot;')
+                attrs_str += f' {name}="{escaped}"'
+        self.result.append(f'<{tag}{attrs_str}>')
+
+    def handle_endtag(self, tag):
+        self.result.append(f'</{tag}>')
+
+    def handle_data(self, data):
+        if '/images/' in data:
+            data = data.replace('/images/', self.prefix + 'images/')
+        self.result.append(data)
+
+    def handle_comment(self, data):
+        self.result.append(f'<!--{data}-->')
+
+    def handle_entityref(self, name):
+        self.result.append(f'&{name};')
+
+    def handle_charref(self, name):
+        self.result.append(f'&#{name};')
 
 for dirpath, _, filenames in os.walk(docs_root):
     for fn in filenames:
         if not fn.endswith('.html'):
             continue
         fpath = os.path.join(dirpath, fn)
-        # Глубина файла относительно docs_root:
-        # wallet/create-account/index.html -> 2 -> "../../"
         rel = os.path.relpath(fpath, docs_root)
         depth = rel.count(os.sep)
         prefix = '../' * depth
@@ -131,52 +208,30 @@ for dirpath, _, filenames in os.walk(docs_root):
         with open(fpath, 'r', encoding='utf-8') as f:
             content = f.read()
 
-        changed = False
+        if '/images/' not in content:
+            continue
 
-        # --- Fix 1: image paths ---
-        if '/images/' in content:
-            new = content.replace('src="/images/', f'src="{prefix}images/')
-            new = new.replace('href="/images/', f'href="{prefix}images/')
-            if new != content:
-                content = new
-                changed = True
-                print(f"  fixed images: {rel} ({depth} levels)")
+        fixer = ImageFixer(prefix)
+        fixer.feed(content)
+        result = ''.join(fixer.result)
 
-        # --- Fix 2: language switcher ---
-        # i18n plugin generates correct <link rel="alternate" href="..."> tags.
-        # Extract them and replace LINK_EN / LINK_ZH placeholders in our header.
-        if 'LINK_EN' in content or 'LINK_ZH' in content:
-            en_href = zh_href = None
-            for m in re.finditer(
-                r'<link\s+rel="alternate"\s+href="([^"]+)"\s+hreflang="(\w+)"',
-                content
-            ):
-                url, lang = m.group(1), m.group(2)
-                if lang == 'en':
-                    en_href = url
-                elif lang == 'zh':
-                    zh_href = url
-            if en_href:
-                content = content.replace('href="LINK_EN"', f'href="{en_href}"')
-                changed = True
-            if zh_href:
-                content = content.replace('href="LINK_ZH"', f'href="{zh_href}"')
-                changed = True
-            if en_href or zh_href:
-                print(f"  fixed i18n: {rel} (en={en_href}, zh={zh_href})")
-
-        if changed:
+        if result != content:
             with open(fpath, 'w', encoding='utf-8') as f:
-                f.write(content)
+                f.write(result)
+            print(f"  fixed images: {rel} ({depth} levels)")
 PYEOF
 
 echo "==> [4/7] Объединение поисковых индексов (main + gonka/docs)"
-python3 - "$SITE_DIR" <<'PYEOF'
+python3 - "$SITE_DIR" "$SITE_DIR/gonka/docs" <<'PYEOF'
 import json, os, sys
 
 site_root = sys.argv[1]
+gonka_site_dir = sys.argv[2]
 main_index_path = os.path.join(site_root, "search", "search_index.json")
-gonka_index_path = os.path.join(site_root, "gonka", "docs", "search", "search_index.json")
+gonka_index_path = os.path.join(gonka_site_dir, "search", "search_index.json")
+
+# Вычисляем префикс из пути gonka_site_dir относительно site_root
+gonka_prefix = os.path.relpath(gonka_site_dir, site_root) + "/"
 
 if not os.path.exists(main_index_path):
     print("  Main search index not found, skipping merge")
@@ -195,11 +250,10 @@ if os.path.exists(gonka_index_path):
     added = 0
     for doc in gonka_index.get("docs", []):
         loc = doc.get("location", "")
-        # Add gonka/docs/ prefix to relative paths
         if loc and not loc.startswith("/") and not loc.startswith("http"):
-            new_loc = f"gonka/docs/{loc}"
+            new_loc = gonka_prefix + loc
         elif loc == "":
-            new_loc = "gonka/docs/"
+            new_loc = gonka_prefix.rstrip("/")
         else:
             new_loc = loc
         
@@ -225,6 +279,7 @@ python3 "$ROOT/buildtools/generate-page-md.py" "$SITE_DIR"
 echo "==> [6/7] Объединение sitemap.xml (main + gonka/docs)"
 python3 - "$SITE_DIR" <<'PYEOF'
 import os, re, sys
+from datetime import datetime, timezone
 
 site_root = sys.argv[1]
 main_sitemap = os.path.join(site_root, "sitemap.xml")
@@ -250,6 +305,8 @@ gonka_urls = re.findall(r'(<url>.*?</url>)', gonka_content, re.DOTALL)
 # Extract existing <loc> from main sitemap to avoid duplicates
 existing_locs = set(re.findall(r'<loc>(.*?)</loc>', main_content))
 
+today = datetime.now(timezone.utc).date().isoformat()
+
 added = 0
 new_entries = []
 for url_block in gonka_urls:
@@ -257,15 +314,13 @@ for url_block in gonka_urls:
     if loc_match:
         loc = loc_match.group(1)
         if loc not in existing_locs:
-            # Simplify: use <loc> and <lastmod> only (drop xhtml:link, changefreq)
             lastmod_match = re.search(r'<lastmod>(.*?)</lastmod>', url_block)
-            lastmod = lastmod_match.group(1) if lastmod_match else "2026-07-04"
+            lastmod = lastmod_match.group(1) if lastmod_match else today
             new_entries.append(f'    <url>\n         <loc>{loc}</loc>\n         <lastmod>{lastmod}</lastmod>\n    </url>')
             existing_locs.add(loc)
             added += 1
 
 if new_entries:
-    # Insert before closing </urlset>
     insert_before = '</urlset>'
     new_urls = '\n'.join(new_entries)
     main_content = main_content.replace(insert_before, f'{new_urls}\n{insert_before}')

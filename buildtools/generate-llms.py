@@ -18,7 +18,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DOCS = ROOT / "docs"
-SITE_URL = "https://gonkadocs.com"
+SITE_URL = os.environ.get("GONKA_SITE_URL", "https://gonkadocs.com").rstrip("/")
 
 # Section scan configurations
 # (scan_dir, section_heading, url_prefix, description)
