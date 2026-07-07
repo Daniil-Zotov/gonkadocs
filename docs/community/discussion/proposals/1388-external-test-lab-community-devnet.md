@@ -3,14 +3,14 @@ title: "#1388 — External Test Lab & Community DevNet"
 source: https://github.com/gonka-ai/gonka/discussions/1388
 discussion_number: 1388
 category: proposals
-synced_at: 2026-07-07T05:02:31Z
+synced_at: 2026-07-07T12:07:25Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1388](https://github.com/gonka-ai/gonka/discussions/1388) every hour. 
 
 # External Test Lab & Community DevNet
 
-**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :bulb: Proposals · **Создано:** 2026-07-02 22:04 UTC · **Обновлено:** 2026-07-07 05:00 UTC
+**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :bulb: Proposals · **Создано:** 2026-07-02 22:04 UTC · **Обновлено:** 2026-07-07 05:27 UTC
 
 ---
 
@@ -388,3 +388,7 @@ Ideally, we should engage the developers of the popular trackers and block explo
 I think they'll be interested in this on their own.
 
 
+
+**↳ Ответ от [@paranjko](https://github.com/paranjko)** · *2026-07-07 05:27 UTC*
+
+> Ah, yes, if we mean hosts connecting their own machines to the DevNet, then absolutely, that should be welcome from the start. I was thinking more about controlled access to project-managed resources, where cost, abuse, or stability risks are involved.
