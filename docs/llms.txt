@@ -101,6 +101,7 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 
 ### Additional Pages (auto-synced)
 
+- [**Устав Комитета поддержки самоуправления**](/community/governance support committee/regulation/): Auto-synced content
 - [Go-to-market committee: состав и экспертиза](/community/go-to-market committee/members/): Auto-synced content
 
 ## On-Chain Proposals
