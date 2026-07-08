@@ -185,6 +185,11 @@
   color: var(--md-default-fg-color--light);
 }
 
+.prop-card-funding-rejected {
+  color: var(--md-default-fg-color--light);
+  text-decoration: line-through;
+}
+
 /* ── Detail page ───────────────────────────────────────────── */
 .prop-detail-header {
   border: 1px solid var(--md-default-fg-color--lightest);
@@ -258,6 +263,11 @@
 
 .prop-funding-line-voting {
   color: var(--md-default-fg-color--light);
+}
+
+.prop-funding-line-rejected {
+  color: var(--md-default-fg-color--light);
+  text-decoration: line-through;
 }
 
 /* ── Contract details spoiler ──────────────────────────────── */

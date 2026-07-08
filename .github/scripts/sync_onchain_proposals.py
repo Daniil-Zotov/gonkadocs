@@ -458,7 +458,12 @@ def generate_proposal_page(proposal, prop_dir):
     funding_parts = funding_parts_by_source(amt_by_source)
     funding_html = ""
     if funding_parts:
-        _funding_cls = "prop-funding-line" if status_css_cls != "prop-voting" else "prop-funding-line prop-funding-line-voting"
+        if status_css_cls == "prop-passed":
+            _funding_cls = "prop-funding-line"
+        elif status_css_cls == "prop-voting":
+            _funding_cls = "prop-funding-line prop-funding-line-voting"
+        else:
+            _funding_cls = "prop-funding-line prop-funding-line-rejected"
         funding_html = f'<div class="{_funding_cls}">{" · ".join(funding_parts)}</div>\n'
 
     summary_short = summary[:200] if summary else ""
@@ -676,12 +681,16 @@ template: proposals-oview.html
                 _tally_line = f'<span class="prop-tally-yes-text">Yes {yes_c:,} {_pct(yes_c)}</span> · <span class="prop-tally-no-text">No {no_c:,} {_pct(no_c)}</span> · <span class="prop-tally-veto-text">Veto {veto_c:,} {_pct(veto_c)}</span> · <span class="prop-tally-abstain-text">Abstain {abstain_c:,} {_pct(abstain_c)}</span>'
 
                 _funding_html = ""
-                if status_css_cls == "prop-passed" or status_css_cls == "prop-voting":
-                    _amt_by_source = parse_amounts_by_source(p.get("messages", []))
-                    _funding_parts = funding_parts_by_source(_amt_by_source)
-                    if _funding_parts:
-                        _funding_cls = "prop-card-funding" if status_css_cls == "prop-passed" else "prop-card-funding prop-card-funding-voting"
-                        _funding_html = f'<span class="{_funding_cls}">{" · ".join(_funding_parts)}</span>'
+                _amt_by_source = parse_amounts_by_source(p.get("messages", []))
+                _funding_parts = funding_parts_by_source(_amt_by_source)
+                if _funding_parts:
+                    if status_css_cls == "prop-passed":
+                        _funding_cls = "prop-card-funding"
+                    elif status_css_cls == "prop-voting":
+                        _funding_cls = "prop-card-funding prop-card-funding-voting"
+                    else:
+                        _funding_cls = "prop-card-funding prop-card-funding-rejected"
+                    _funding_html = f'<span class="{_funding_cls}">{" · ".join(_funding_parts)}</span>'
 
                 md += f'  <div class="prop-card-tally">{_tally_line}{_funding_html}</div>\n'
 
@@ -858,12 +867,16 @@ template: proposals-oview.html
             _tally_line = f'<span class="prop-tally-yes-text">Yes {yes_c:,} {_pct(yes_c)}</span> · <span class="prop-tally-no-text">No {no_c:,} {_pct(no_c)}</span> · <span class="prop-tally-veto-text">Veto {veto_c:,} {_pct(veto_c)}</span> · <span class="prop-tally-abstain-text">Abstain {abstain_c:,} {_pct(abstain_c)}</span>'
 
             _funding_html = ""
-            if status_css_cls == "prop-passed" or status_css_cls == "prop-voting":
-                _amt_by_source = parse_amounts_by_source(p.get("messages", []))
-                _funding_parts = funding_parts_by_source(_amt_by_source)
-                if _funding_parts:
-                    _funding_cls = "prop-card-funding" if status_css_cls == "prop-passed" else "prop-card-funding prop-card-funding-voting"
-                    _funding_html = f'<span class="{_funding_cls}">{" · ".join(_funding_parts)}</span>'
+            _amt_by_source = parse_amounts_by_source(p.get("messages", []))
+            _funding_parts = funding_parts_by_source(_amt_by_source)
+            if _funding_parts:
+                if status_css_cls == "prop-passed":
+                    _funding_cls = "prop-card-funding"
+                elif status_css_cls == "prop-voting":
+                    _funding_cls = "prop-card-funding prop-card-funding-voting"
+                else:
+                    _funding_cls = "prop-card-funding prop-card-funding-rejected"
+                _funding_html = f'<span class="{_funding_cls}">{" · ".join(_funding_parts)}</span>'
 
             md += f'  <div class="prop-card-tally">{_tally_line}{_funding_html}</div>\n'
         md += "</div>\n\n"

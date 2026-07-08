@@ -63,7 +63,7 @@ template: proposals-oview.html
     <span>Voting ends 2026-03-31</span>
   </div>
   <div class="prop-card-desc">This proposal seeks community approval for a global media initiative to build awareness of decentralized AI and position Gonka as core AI infrastructure.  Key elements: Led by TheSoul Group (full-cycl…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 9,150 (25.5%)</span> · <span class="prop-tally-no-text">No 10,325 (28.8%)</span> · <span class="prop-tally-veto-text">Veto 2,450 (6.8%)</span> · <span class="prop-tally-abstain-text">Abstain 13,939 (38.9%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 9,150 (25.5%)</span> · <span class="prop-tally-no-text">No 10,325 (28.8%)</span> · <span class="prop-tally-veto-text">Veto 2,450 (6.8%)</span> · <span class="prop-tally-abstain-text">Abstain 13,939 (38.9%)</span><span class="prop-card-funding prop-card-funding-rejected">970,000 GNK · Community Pool</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">

@@ -168,7 +168,7 @@ template: proposals-oview.html
     <span>Voting ends 2026-06-10</span>
   </div>
   <div class="prop-card-desc">We're a comms team specializing in Organic PR for crypto and tech projects. With strong competition in the space and no active events or marketing currently running for Gonka, we propose a 3-month Org…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 180,108 (99.8%)</span> · <span class="prop-tally-no-text">No 72 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 233 (0.1%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 180,108 (99.8%)</span> · <span class="prop-tally-no-text">No 72 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 233 (0.1%)</span><span class="prop-card-funding prop-card-funding-rejected">$75,000 · Community Pool</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -181,7 +181,7 @@ template: proposals-oview.html
     <span>Voting ends 2026-06-08</span>
   </div>
   <div class="prop-card-desc">Release 246,000 GNK from Community Fund to finalize GNK Racers — a multiplayer side-view racing mini-app with a live working prototype (@GNKRacers_bot). The game drives new user acquisition, wallet ac…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 38,621 (25.0%)</span> · <span class="prop-tally-no-text">No 107,644 (69.6%)</span> · <span class="prop-tally-veto-text">Veto 6,241 (4.0%)</span> · <span class="prop-tally-abstain-text">Abstain 2,245 (1.5%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 38,621 (25.0%)</span> · <span class="prop-tally-no-text">No 107,644 (69.6%)</span> · <span class="prop-tally-veto-text">Veto 6,241 (4.0%)</span> · <span class="prop-tally-abstain-text">Abstain 2,245 (1.5%)</span><span class="prop-card-funding prop-card-funding-rejected">246,000 GNK · Community Pool</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -323,7 +323,7 @@ template: proposals-oview.html
     <span>Voting ends 2026-06-02</span>
   </div>
   <div class="prop-card-desc">Funds milestone 1 (upfront prepayment) of a community-produced onboarding video guide for Gonka. Deliverable: a series of ~15 short, interactive, easy-to-follow videos covering A-to-Z onboarding for b…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 24,505 (43.6%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 31,699 (56.4%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 24,505 (43.6%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 31,699 (56.4%)</span><span class="prop-card-funding prop-card-funding-rejected">$5,000 · Community Pool</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -336,7 +336,7 @@ template: proposals-oview.html
     <span>Voting ends 2026-05-30</span>
   </div>
   <div class="prop-card-desc"># Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)  70,000 USDT from the CommunityPool for a dedicated Falcon Finance deep-dive on Gonka AI. Full proposal: https://vote.gonka.vip/tenders…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 98,018 (53.4%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 85,697 (46.6%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 98,018 (53.4%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 85,697 (46.6%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-funding prop-card-funding-rejected">$70,000 · Community Pool</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -362,7 +362,7 @@ template: proposals-oview.html
     <span>Voting ends 2026-05-27</span>
   </div>
   <div class="prop-card-desc"># Gonka NOP: grant for the node deployment tool  50,000 USDT from the CommunityPool to INC4 Full proposal: https://github.com/gonka-ai/gonka/discussions/1192  ## What it is  gonka-nop (Node Onboarding…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 31,851 (58.6%)</span> · <span class="prop-tally-no-text">No 9,566 (17.6%)</span> · <span class="prop-tally-veto-text">Veto 12,961 (23.8%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 31,851 (58.6%)</span> · <span class="prop-tally-no-text">No 9,566 (17.6%)</span> · <span class="prop-tally-veto-text">Veto 12,961 (23.8%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-funding prop-card-funding-rejected">$50,000 · Community Pool</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -401,7 +401,7 @@ template: proposals-oview.html
     <span>Voting ends 2026-05-21</span>
   </div>
   <div class="prop-card-desc"># Gonka NOP: grant for the node deployment tool  50,000 USDT from the CommunityPool to INC4 Full proposal: https://github.com/gonka-ai/gonka/discussions/1192  ## What it is  gonka-nop (Node Onboarding…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 139,052 (46.8%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 158,195 (53.2%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 139,052 (46.8%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 158,195 (53.2%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-funding prop-card-funding-rejected">$50,000 · Community Pool</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -479,7 +479,7 @@ template: proposals-oview.html
     <span>Voting ends 2026-05-06</span>
   </div>
   <div class="prop-card-desc">Retroactive 20K GNK bounty for an open-sourced PoC optimization measuring +10.2% on B200 and +12.5% on H100 with Qwen3-235B-FP8. One-line patch, verified on-chain by independent miners. Details: https…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 70,819 (33.6%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 139,828 (66.4%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 70,819 (33.6%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 139,828 (66.4%)</span><span class="prop-card-funding prop-card-funding-rejected">20,000 GNK · Community Pool</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -505,7 +505,7 @@ template: proposals-oview.html
     <span>Voting ends 2026-05-01</span>
   </div>
   <div class="prop-card-desc">Replace scattered governance discussions and complex CLI voting with a unified Governance Portal - a single interface for all Gonka governance activity. The portal includes: a proposal feed across Dis…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 118,126 (25.6%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 210,906 (45.6%)</span> · <span class="prop-tally-abstain-text">Abstain 133,057 (28.8%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 118,126 (25.6%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 210,906 (45.6%)</span> · <span class="prop-tally-abstain-text">Abstain 133,057 (28.8%)</span><span class="prop-card-funding prop-card-funding-rejected">119,000 GNK · Community Pool</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -531,7 +531,7 @@ template: proposals-oview.html
     <span>Voting ends 2026-04-27</span>
   </div>
   <div class="prop-card-desc">Today, participating in Gonka governance requires following multiple channels simultaneously — GitHub, Discord, CLI — just to cast a single vote. Most miners miss proposals entirely or vote too late. …</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 123,104 (26.5%)</span> · <span class="prop-tally-no-text">No 335,534 (72.2%)</span> · <span class="prop-tally-veto-text">Veto 5,913 (1.3%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 123,104 (26.5%)</span> · <span class="prop-tally-no-text">No 335,534 (72.2%)</span> · <span class="prop-tally-veto-text">Veto 5,913 (1.3%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-funding prop-card-funding-rejected">104,166 GNK · Community Pool</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -557,7 +557,7 @@ template: proposals-oview.html
     <span>Voting ends 2026-04-18</span>
   </div>
   <div class="prop-card-desc">Today's explorers and dashboards only show on-chain data, leaving the off-chain state of validators completely opaque. The few operators who do run their own monitoring use different tools, different …</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 17,955 (57.1%)</span> · <span class="prop-tally-no-text">No 13,494 (42.9%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 17,955 (57.1%)</span> · <span class="prop-tally-no-text">No 13,494 (42.9%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-funding prop-card-funding-rejected">$96,000 · Community Pool</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -596,7 +596,7 @@ template: proposals-oview.html
     <span>Voting ends 2026-04-09</span>
   </div>
   <div class="prop-card-desc">If you agree say YES — Solution 1: Produce a short review video with 1-2 active community members. Solution 2: Introduce the project to BD managers of major CIS exchanges for listings. Solution 3 (Reg…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 0 (0.0%)</span> · <span class="prop-tally-no-text">No 183 (2.3%)</span> · <span class="prop-tally-veto-text">Veto 7,893 (97.7%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 0 (0.0%)</span> · <span class="prop-tally-no-text">No 183 (2.3%)</span> · <span class="prop-tally-veto-text">Veto 7,893 (97.7%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-funding prop-card-funding-rejected">20,000 GNK · Community Pool · 25,000 GNK · Gov Module</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -609,7 +609,7 @@ template: proposals-oview.html
     <span>Voting ends 2026-04-08</span>
   </div>
   <div class="prop-card-desc">If you are against MLM projects around gonka.ai, vote YES. All funds will be used to counter such projects. The amount is symbolic.</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 957 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 957 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-funding prop-card-funding-rejected">1 GNK · Community Pool</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
