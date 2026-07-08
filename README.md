@@ -34,6 +34,15 @@ Auto-synced from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues) ever
 - Full issue tracker with labels, status filters, and comments
 - Label-based navigation
 
+### On-Chain Proposals (`/proposals/proposals/`)
+Auto-synced from [rpc.gonka.gg](https://rpc.gonka.gg) every hour. Proposals are organized by quarter:
+
+- **Quarterly overviews** — per-quarter summaries with pass/reject/fail rates, category breakdowns, and approved funding totals by source
+- **Individual proposal pages** — detailed view with status, tally results, funding amount and source (Community Pool / Gov Module), and on-chain contract messages
+- **Funding source tracking** — each proposal shows where funding originates: `Community Pool` (community pool spend, execute contract) or `Gov Module` (batch vesting, multi-send)
+- **Status filters** — filter by Passed / Rejected / Voting
+- **Tally results** — Yes/No/Veto/Abstain counts and percentages on every card
+
 ### Pre-Proposals (`/proposals/preproposals/`)
 Auto-synced from [gonka.vote](https://gonka.vote) every hour.
 
@@ -44,9 +53,6 @@ Auto-synced from [gonka.vote](https://gonka.vote) every hour.
 - **Roadmap** — three-horizon development strategy
 - **GRC** — restitution committee (bug compensation)
 - **GSC** — self-regulation committee
-
-### On-Chain Proposals (`/proposals/`)
-Dashboard of all governance proposals with statuses and descriptions.
 
 ---
 
@@ -124,18 +130,19 @@ buildtools/build.sh
 
 ## Auto-Sync
 
-7 GitHub Actions workflows automatically update content every hour:
+8 GitHub Actions workflows automatically update content:
 
-| Workflow | Source | Syncs |
-|----------|--------|-------|
-| `sync-gonka-ai-docs.yml` | gonka-ai/gonka-docs | Protocol documentation |
-| `sync-discussions.yml` | gonka-ai/gonka (GraphQL) | GitHub Discussions |
-| `sync-issues.yml` | gonka-ai/gonka (REST) | GitHub Issues |
-| `sync-preproposals.yml` | gonka.vote (REST) | Pre-Proposals |
-| `sync-gdocs.yml` | Google Docs | GSC regulation |
-| `sync-roadmap.yml` | gonka-ai/gonka | Roadmap |
+| Workflow | Source | Syncs | Triggers Deploy |
+|----------|--------|-------|:---:|
+| `sync-gonka-ai-docs.yml` | gonka-ai/gonka-docs | Protocol documentation | via push |
+| `sync-onchain-proposals.yml` | rpc.gonka.gg | On-chain governance proposals | via API |
+| `sync-discussions.yml` | gonka-ai/gonka (GraphQL) | GitHub Discussions | via push |
+| `sync-issues.yml` | gonka-ai/gonka (REST) | GitHub Issues | via push |
+| `sync-preproposals.yml` | gonka.vote (REST) | Pre-Proposals | via push |
+| `sync-gdocs.yml` | Google Docs | GSC regulation | via push |
+| `sync-roadmap.yml` | gonka-ai/gonka | Roadmap | via push |
 
-All sync workflows regenerate `llms.txt` and `llms-full.txt` after each update.
+Every sync triggers the `deploy-docs.yml` workflow, which regenerates `llms.txt` and `llms-full.txt` and deploys the updated site to GitHub Pages.
 
 ---
 
@@ -173,9 +180,15 @@ gonkadocs/
 │   ├── robots.txt                # AI crawler permissions
 │   ├── openapi.yaml              # API specification
 │   ├── index.md                  # Homepage
+│   ├── agents.md                 # AI agent setup guide
 │   ├── overrides/                # MkDocs Material overrides
+│   │   ├── partials/tabs.html    # Navigation tabs
+│   │   ├── proposals-main.html   # Proposal detail template
+│   │   ├── proposals-oview.html  # Proposal overview template
+│   │   └── proposals-proposals-main.html
 │   ├── stylesheets/
-│   │   └── github.css            # GitHub Primer theme
+│   │   ├── github.css            # GitHub Primer theme
+│   │   └── proposals.css         # Proposal card, filter, and quarter summary styles
 │   ├── gonka/
 │   │   ├── docs/                 # Protocol documentation (synced)
 │   │   └── discussion/           # GitHub Discussions (synced)
@@ -185,13 +198,22 @@ gonkadocs/
 │   │   ├── roadmap/              # Roadmap (synced)
 │   │   ├── grc/                  # Restitution committee
 │   │   └── gsc/                  # Self-regulation committee (synced)
-│   └── proposals/                # On-chain proposals + Pre-Proposals (synced)
+│   └── proposals/
+│       ├── proposals/            # On-chain proposals by quarter
+│       │   ├── index.md          # Overview with filter + summary
+│       │   ├── 2025-q3/         # Per-quarter pages
+│       │   ├── 2025-q4/
+│       │   ├── 2026-q1/
+│       │   ├── 2026-q2/
+│       │   └── 2026-q3/
+│       └── preproposals/         # Pre-Proposals (synced)
 ├── hooks/
 │   └── issues_nav.py             # MkDocs hook for issue page navigation
 ├── mcp.json                      # MCP server config
 └── .github/workflows/
     ├── deploy-docs.yml           # Deploy to GitHub Pages
     ├── sync-gonka-ai-docs.yml    # Sync documentation
+    ├── sync-onchain-proposals.yml# Sync on-chain proposals
     ├── sync-discussions.yml      # Sync discussions
     ├── sync-issues.yml           # Sync issues
     ├── sync-preproposals.yml     # Sync pre-proposals

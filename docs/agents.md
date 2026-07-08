@@ -81,7 +81,8 @@ Key sections:
   /community/            → Roadmap, GRC, GSC
   /community/discussion/ → GitHub Discussions (proposals, Q&A, show-and-tell)
   /community/issues/     → GitHub Issues (bugs, features, enhancements)
-  /proposals/            → On-chain governance proposals & pre-proposals
+  /proposals/proposals/  → On-chain governance proposals by quarter with funding amounts and source (Community Pool / Gov Module)
+  /proposals/preproposals/ → Community pre-proposals (off-chain indicative polls)
 
 Fetch /llms-full.txt for complete documentation before writing code.
 ```
@@ -134,7 +135,8 @@ Key topics:
 - Host: GPU resource connection, node management
 - Wallet: Accounts, collateral, cross-chain (USDT/GNK)
 - Governance: Proposals, voting, GRC, GSC
-- Pre-Proposals: Community grant requests and polls
+- On-Chain Proposals: /proposals/proposals/ — quarterly overviews with status, funding amounts, and source (Community Pool / Gov Module)
+- Pre-Proposals: /proposals/preproposals/ — community grant requests and polls
 - Issues: Bugs, feature requests, enhancements from gonka-ai/gonka
 ```
 
@@ -146,7 +148,8 @@ For fully autonomous agents (LangChain, AutoGPT, custom bots), the recommended f
 
 1. Fetch `https://gonkadocs.com/llms.txt` for quick context (project overview, key concepts)
 2. If more detail is needed, fetch `https://gonkadocs.com/llms-full.txt` for complete documentation
-3. Or use the MCP server for structured access with tools
+3. For proposals: fetch `/proposals/proposals/` for the overview page, then drill into a specific quarter (e.g., `/proposals/proposals/2026-q2/`) and individual proposal pages (e.g., `/proposals/proposals/2026-q2/74/`) — each page includes funding amounts with source labels
+4. Or use the MCP server for structured access with tools
 
 ```python
 # Example: Python agent discovering Gonka docs
@@ -174,6 +177,7 @@ for doc in search_index["docs"]:
 - **Get started quickly** — developer quickstart, gateway setup, host GPU resources
 - **Manage wallets** — accounts, collateral, cross-chain bridges (USDT/GNK via Ethereum/IBC)
 - **Participate in governance** — read and submit proposals, vote, understand GRC/GSC
+- **Track on-chain funding** — each proposal shows the funding amount and source (`Community Pool` or `Gov Module`), organized by quarter with per-quarter summaries and totals
 - **Explore community** — discussions, show-and-tell projects, Q&A, roadmap
 - **Use the API** — OpenAI-compatible inference endpoint, node management APIs
 
@@ -201,8 +205,18 @@ for doc in search_index["docs"]:
 <div class="agents-example">
   <p class="agents-example-q">User: "What governance proposals are active?"</p>
   <p class="agents-example-a">
-    Agent fetches <code>/proposals/</code> page and lists current proposals with
-    their statuses and descriptions.
+    Agent fetches <code>/proposals/proposals/</code> page, identifies active proposals
+    by status badge, and lists them with their descriptions, tally results, and
+    funding amounts with sources (<code>Community Pool</code> / <code>Gov Module</code>).
+  </p>
+</div>
+
+<div class="agents-example">
+  <p class="agents-example-q">User: "How much funding has been approved this quarter and where does it come from?"</p>
+  <p class="agents-example-a">
+    Agent fetches <code>/proposals/proposals/</code>, reads the current quarter's summary
+    section which includes the total approved GNK/USDT broken down by funding source
+    (<code>Community Pool</code> and <code>Gov Module</code>).
   </p>
 </div>
 
