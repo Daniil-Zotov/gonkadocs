@@ -1,0 +1,61 @@
+---
+title: "#61 – TheSoul - Offer 1.2: Brandbook (20,000 USDT)"
+description: "Brand identity system for Gonka.AI: logo, typography, color system, graphic language, layout principles, and templates, built on the positioning from Offer 1.1. Single-tranche payment of 20,000 USDT t"
+template: proposals-proposals-main.html
+---
+
+# #61 – TheSoul - Offer 1.2: Brandbook (20,000 USDT)
+
+<div class="prop-detail-header" markdown="1">
+
+<span class="prop-badge prop-passed">Passed</span>
+
+**Proposal ID:** `61`
+
+**Type:** Execute Contract
+
+**Submit:** 2026-01-01 00:00 UTC
+
+**Voting:**  → 2026-01-02 00:00 UTC
+
+<div class="prop-funding-line">$20,000 · Community Pool</div>
+
+
+[View on gonka.gg](https://gonka.gg/network/proposals/61){:target="_blank"}
+
+</div>
+
+Brand identity system for Gonka.AI: logo, typography, color system, graphic language, layout principles, and templates, built on the positioning from Offer 1.1. Single-tranche payment of 20,000 USDT t
+
+---
+
+## Messages
+
+| # | Type |
+| :- | :--- |
+| 1 | `/cosmwasm.wasm.v1.MsgExecuteContract` |
+
+<details class="prop-contracts">
+<summary>Contract Details</summary>
+
+```json
+[
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "contract": "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2",
+    "msg": {
+      "withdraw_ibc": {
+        "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+        "amount": "20000000000",
+        "recipient": "gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm"
+      }
+    },
+    "funds": []
+  }
+]
+```
+
+</details>
+
+---

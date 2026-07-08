@@ -14,21 +14,18 @@ template: proposals-proposals-main.html
 
 **Type:** Batch Transfer With Vesting
 
-**Submit:** 2026-07-08 05:57 UTC
+**Submit:** 2026-01-01 00:00 UTC
 
-**Voting:** 2026-07-08 05:57 UTC → 2026-07-10 05:57 UTC
+**Voting:**  → 2026-01-02 00:00 UTC
 
-**Proposer:** [`gonka123pr0p0salv96xvne9qln70x3usvpyscug5f9a`](https://gonka.gg/address/gonka123pr0p0salv96xvne9qln70x3usvpyscug5f9a){:target="_blank"}
-
-**Metadata:** [https://github.com/votkon/gonka-kimi-e306-issue](https://github.com/votkon/gonka-kimi-e306-issue)
-
+<div class="prop-funding-line prop-funding-line-voting">175,082 GNK · Gov Module</div>
 
 
 [View on gonka.gg](https://gonka.gg/network/proposals/81){:target="_blank"}
 
 </div>
 
-Distribute restitution for Kimi operators affected by cPoC validation failure in epochs 306-309. The Kimi validation path failed starting in e306 causing confirmation_weight suppression for Kimi operators while non-Kimi operators ran normally. Failure worsened in e307 and carried into the e309 bootstrap attempt. Total: 175082.07 GONKA to 19 addresses, vested over 170 days (160 epochs).
+Distribute restitution for Kimi operators affected by cPoC validation failure in epochs 306-309. The Kimi validation path failed starting in e306 causing confirmation_weight suppression for Kimi opera
 
 ---
 

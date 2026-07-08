@@ -324,10 +324,16 @@ def parse_amounts_by_source(messages):
 
         elif "MsgBatchTransferWithVesting" in t:
             for o in m.get("outputs", []):
-                try:
-                    gnk_raw += int(o.get("amount", "0"))
-                except (ValueError, TypeError):
-                    pass
+                for c in (o.get("amount") or []):
+                    denom = c.get("denom", "")
+                    try:
+                        amt = int(c.get("amount", "0"))
+                    except (ValueError, TypeError):
+                        continue
+                    if denom == "ngonka":
+                        gnk_raw += amt
+                    elif denom == USDT_IBC_DENOM:
+                        usdt_raw += amt
 
         elif "MsgTransferWithVesting" in t:
             for c in m.get("amount", []):
