@@ -81,4 +81,4 @@ Track bugs, feature requests, and enhancements from the [gonka-ai/gonka](https:/
 
 ---
 
-*This documentation is maintained by the Gonka community. Last updated: 2026.*
+*This documentation is maintained by the Gonka community.*

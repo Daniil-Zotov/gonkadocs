@@ -299,6 +299,36 @@
 .prop-contracts summary::-webkit-details-marker {
   display: none;
 }
+
+/* Remove Material's default ::before icon (needs higher specificity) */
+.md-typeset .prop-contracts summary::before,
+.md-typeset .prop-full summary::before {
+  content: none !important;
+  display: none !important;
+  background: none !important;
+  mask-image: none !important;
+  -webkit-mask-image: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Arrow on the RIGHT side */
+.prop-contracts summary::after,
+.prop-full summary::after {
+  content: "▼";
+  font-size: 10px;
+  float: right;
+  color: var(--md-accent-fg-color);
+  transition: transform 0.15s;
+  margin-top: 3px;
+}
+.prop-contracts[open] summary::after,
+.prop-full[open] summary::after {
+  transform: rotate(180deg);
+}
+
 .prop-contracts pre {
   margin-top: 8px;
   max-height: 400px;
