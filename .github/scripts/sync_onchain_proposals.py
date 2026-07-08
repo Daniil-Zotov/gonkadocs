@@ -403,16 +403,6 @@ template: proposals-oview.html
                 _pct = lambda v: f"({v / total_t * 100:.1f}%)" if total_t > 0 else "(0.0%)"
                 md += f'  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes {yes_c:,} {_pct(yes_c)}</span> · <span class="prop-tally-no-text">No {no_c:,} {_pct(no_c)}</span> · <span class="prop-tally-veto-text">Veto {veto_c:,} {_pct(veto_c)}</span> · <span class="prop-tally-abstain-text">Abstain {abstain_c:,} {_pct(abstain_c)}</span></div>\n'
 
-            if status_css_cls == "prop-passed":
-                _gnk, _usdt = parse_amounts(summary)
-                _funding_parts = []
-                if _gnk > 0:
-                    _funding_parts.append(f'{_gnk:,} GNK')
-                if _usdt > 0:
-                    _funding_parts.append(f'${_usdt:,}')
-                if _funding_parts:
-                    md += f'  <div class="prop-card-funding">{" · ".join(_funding_parts)}</div>\n'
-
             md += "</div>\n\n"
 
         md += "</div>\n"
@@ -582,15 +572,6 @@ template: proposals-oview.html
             total_t = yes_c + no_c + veto_c + abstain_c
             _pct = lambda v: f"({v / total_t * 100:.1f}%)" if total_t > 0 else "(0.0%)"
             md += f'  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes {yes_c:,} {_pct(yes_c)}</span> · <span class="prop-tally-no-text">No {no_c:,} {_pct(no_c)}</span> · <span class="prop-tally-veto-text">Veto {veto_c:,} {_pct(veto_c)}</span> · <span class="prop-tally-abstain-text">Abstain {abstain_c:,} {_pct(abstain_c)}</span></div>\n'
-        if status_css_cls == "prop-passed":
-            _gnk, _usdt = parse_amounts(summary)
-            _funding_parts = []
-            if _gnk > 0:
-                _funding_parts.append(f'{_gnk:,} GNK')
-            if _usdt > 0:
-                _funding_parts.append(f'${_usdt:,}')
-            if _funding_parts:
-                md += f'  <div class="prop-card-funding">{" · ".join(_funding_parts)}</div>\n'
         md += "</div>\n\n"
 
     md += '''</div>

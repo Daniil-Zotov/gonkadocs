@@ -255,15 +255,6 @@
   text-align: center;
 }
 
-/* ── Funding amount on card ───────────────────────────────── */
-.prop-card-funding {
-  font-size: 12px;
-  font-weight: 600;
-  color: var(--md-accent-fg-color);
-  line-height: 1.6;
-  margin-top: 6px;
-}
-
 /* ── Responsive ────────────────────────────────────────────── */
 @media (max-width: 768px) {
   .prop-card-header {
