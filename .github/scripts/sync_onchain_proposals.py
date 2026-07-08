@@ -956,9 +956,30 @@ def update_mkdocs_nav(sorted_quarters, proposals_by_quarter):
 
 # ── main ────────────────────────────────────────────────────────
 
+def fetch_live_tally(proposal_id):
+    """Fetch the live tally for a voting proposal (the list endpoint returns zeros)."""
+    try:
+        resp = requests.get(f"{RPC_BASE}/cosmos/gov/v1/proposals/{proposal_id}/tally", timeout=10)
+        resp.raise_for_status()
+        return resp.json().get("tally", {})
+    except Exception as e:
+        print(f"  Warning: could not fetch tally for #{proposal_id}: {e}")
+        return {}
+
+
 def main():
     print("=== Sync On-Chain Proposals ===")
     proposals = fetch_proposals()
+
+    # Patch tally for voting proposals (list endpoint returns all zeros)
+    print("Fetching live tallies for voting proposals...")
+    for p in proposals:
+        if p.get("status") == "PROPOSAL_STATUS_VOTING_PERIOD":
+            pid = p["id"]
+            live = fetch_live_tally(pid)
+            if live:
+                p["final_tally_result"] = live
+                print(f"  #{pid}: patched tally → {live}")
 
     # Parse and organize
     proposals_by_quarter = {}
