@@ -23,6 +23,10 @@ template: proposals-proposals-main.html
 **Metadata:** [https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/1](https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/1)
 
 <div class="prop-funding-line">$25,000 · Community Pool</div>
+
+
+[View on gonka.gg](https://gonka.gg/network/proposals/60){:target="_blank"}
+
 </div>
 
 Brand audit, competitive positioning, and audience segmentation for Gonka.AI. Single-tranche payment of 25,000 USDT to TheSoul on proposal pass. Full offer document: see the metadata URL.
@@ -80,9 +84,3 @@ Brand audit, competitive positioning, and audience segmentation for Gonka.AI. Si
 </details>
 
 ---
-
-<div class="prop-footer" markdown="1">
-
-[View on gonka.gg](https://gonka.gg/network/proposals/60){:target="_blank"}
-
-</div>

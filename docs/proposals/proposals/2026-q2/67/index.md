@@ -22,6 +22,10 @@ template: proposals-proposals-main.html
 
 **Metadata:** [https://github.com/votkon/gonka-kimi-restitution](https://github.com/votkon/gonka-kimi-restitution)
 
+
+
+[View on gonka.gg](https://gonka.gg/network/proposals/67){:target="_blank"}
+
 </div>
 
 Distribute restitution for Kimi operators across epochs 265-276. Epochs 265-266: external attack causing CPoC degradation and nonce exclusion. Epochs 267-276: ComputeGroupCap systematic underpayment due to attack-induced N-1 weight collapse. Total: 946,509.93 GNK to 53 addresses.
@@ -541,9 +545,3 @@ Distribute restitution for Kimi operators across epochs 265-276. Epochs 265-266:
 </details>
 
 ---
-
-<div class="prop-footer" markdown="1">
-
-[View on gonka.gg](https://gonka.gg/network/proposals/67){:target="_blank"}
-
-</div>

@@ -22,6 +22,10 @@ template: proposals-proposals-main.html
 
 **Metadata:** [https://github.com/votkon/gonka-kimi-e306-issue](https://github.com/votkon/gonka-kimi-e306-issue)
 
+
+
+[View on gonka.gg](https://gonka.gg/network/proposals/81){:target="_blank"}
+
 </div>
 
 Distribute restitution for Kimi operators affected by cPoC validation failure in epochs 306-309. The Kimi validation path failed starting in e306 causing confirmation_weight suppression for Kimi operators while non-Kimi operators ran normally. Failure worsened in e307 and carried into the e309 bootstrap attempt. Total: 175082.07 GONKA to 19 addresses, vested over 170 days (160 epochs).
@@ -223,9 +227,3 @@ Distribute restitution for Kimi operators affected by cPoC validation failure in
 </details>
 
 ---
-
-<div class="prop-footer" markdown="1">
-
-[View on gonka.gg](https://gonka.gg/network/proposals/81){:target="_blank"}
-
-</div>

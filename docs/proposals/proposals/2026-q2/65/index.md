@@ -23,6 +23,10 @@ template: proposals-proposals-main.html
 **Metadata:** [https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/6](https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/6)
 
 <div class="prop-funding-line">100,000 GNK · Community Pool</div>
+
+
+[View on gonka.gg](https://gonka.gg/network/proposals/65){:target="_blank"}
+
 </div>
 
 Full 360-degree digital and social strategy for Gonka.AI: channel matrix, content plan, segment messaging, social strategy, and brand-voice guidelines. Single-tranche payment of 100,000 GNK to TheSoul on proposal pass. Full offer document: see the metadata URL.
@@ -78,9 +82,3 @@ Full 360-degree digital and social strategy for Gonka.AI: channel matrix, conten
 </details>
 
 ---
-
-<div class="prop-footer" markdown="1">
-
-[View on gonka.gg](https://gonka.gg/network/proposals/65){:target="_blank"}
-
-</div>

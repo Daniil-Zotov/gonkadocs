@@ -23,6 +23,10 @@ template: proposals-proposals-main.html
 **Metadata:** [https://github.com/6block/gonka-webx-proposal/blob/main/README.md](https://github.com/6block/gonka-webx-proposal/blob/main/README.md)
 
 <div class="prop-funding-line">$75,000 · Community Pool</div>
+
+
+[View on gonka.gg](https://gonka.gg/network/proposals/51){:target="_blank"}
+
 </div>
 
 6Block, a long-term Gonka mining and infrastructure participant, proposes that the Gonka community allocate 75,000 USDT to support Gonka's participation at WebX Asia / WebX 2026 in Tokyo. 6Block has already committed 50% of the needed 150,000 USDT of its own funds for the official Platinum sponsorship. If approved, the funds will be transferred to 6Block's designated wallet and used for event execution (team travel, accommodation, booth production, materials, media support, partner coordination). 6Block will provide a post-event summary to the community. Full proposal: https://github.com/6block/gonka-webx-proposal/blob/main/README.md
@@ -80,9 +84,3 @@ template: proposals-proposals-main.html
 </details>
 
 ---
-
-<div class="prop-footer" markdown="1">
-
-[View on gonka.gg](https://gonka.gg/network/proposals/51){:target="_blank"}
-
-</div>

@@ -22,6 +22,10 @@ template: proposals-proposals-main.html
 
 **Proposer:** `gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le`
 
+
+
+[View on gonka.gg](https://gonka.gg/network/proposals/79){:target="_blank"}
+
 </div>
 
 Add Kimi K2.6 and GLM 5.2 model
@@ -536,9 +540,3 @@ Add Kimi K2.6 and GLM 5.2 model
 </details>
 
 ---
-
-<div class="prop-footer" markdown="1">
-
-[View on gonka.gg](https://gonka.gg/network/proposals/79){:target="_blank"}
-
-</div>

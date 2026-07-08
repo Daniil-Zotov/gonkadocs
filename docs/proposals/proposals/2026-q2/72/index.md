@@ -24,6 +24,10 @@ template: proposals-proposals-main.html
 
 **Failed reason:** proposal did not get enough votes to pass
 
+
+
+[View on gonka.gg](https://gonka.gg/network/proposals/72){:target="_blank"}
+
 </div>
 
 Adds a community-operated wallet to devshard_escrow_params.allowed_creator_addresses, enabling it to create a devshard escrow and operate as an additional self-hosted inference gateway/transfer agent. This is a minimal addition (appends one address) and does not remove or modify any existing operator. Goal: lower the barrier for independent node operators to participate as devshard/transfer-agent providers, improving network decentralization.
@@ -484,9 +488,3 @@ Adds a community-operated wallet to devshard_escrow_params.allowed_creator_addre
 </details>
 
 ---
-
-<div class="prop-footer" markdown="1">
-
-[View on gonka.gg](https://gonka.gg/network/proposals/72){:target="_blank"}
-
-</div>

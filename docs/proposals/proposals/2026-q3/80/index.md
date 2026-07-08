@@ -25,6 +25,10 @@ template: proposals-proposals-main.html
 **Failed reason:** proposal did not get enough votes to pass
 
 <div class="prop-funding-line">47,850 GNK · Community Pool</div>
+
+
+[View on gonka.gg](https://gonka.gg/network/proposals/80){:target="_blank"}
+
 </div>
 
 Restitution payout for confirmed GRC Proposal #3 cases, with Case 05 payments from proposal_id=67 deducted where the same address and epoch were already compensated, and positive victim outputs below the chain minimum raised to 10 GNK.
@@ -496,9 +500,3 @@ Restitution payout for confirmed GRC Proposal #3 cases, with Case 05 payments fr
 </details>
 
 ---
-
-<div class="prop-footer" markdown="1">
-
-[View on gonka.gg](https://gonka.gg/network/proposals/80){:target="_blank"}
-
-</div>

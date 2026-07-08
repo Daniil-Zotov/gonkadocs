@@ -26,6 +26,10 @@ template: proposals-proposals-main.html
 **Failed reason:** proposal did not get enough votes to pass
 
 <div class="prop-funding-line">970,000 GNK · Community Pool</div>
+
+
+[View on gonka.gg](https://gonka.gg/network/proposals/34){:target="_blank"}
+
 </div>
 
 This proposal seeks community approval for a global media initiative to build awareness of decentralized AI and position Gonka as core AI infrastructure.
@@ -77,9 +81,3 @@ https://www.canva.com/design/DAG5x5pF3M4/VycFkb80_elACWPiaNMOQg/view
 </details>
 
 ---
-
-<div class="prop-footer" markdown="1">
-
-[View on gonka.gg](https://gonka.gg/network/proposals/34){:target="_blank"}
-
-</div>

@@ -23,6 +23,10 @@ template: proposals-proposals-main.html
 **Metadata:** [https://github.com/huxuxuya/epoch158/blob/main/SIMPLE_COIN_AMOUNT_LOGIC.md](https://github.com/huxuxuya/epoch158/blob/main/SIMPLE_COIN_AMOUNT_LOGIC.md)
 
 <div class="prop-funding-line">500 GNK · Community Pool</div>
+
+
+[View on gonka.gg](https://gonka.gg/network/proposals/32){:target="_blank"}
+
 </div>
 
 Distribute compensation proportional to epoch 158 lost preserved weights. Implemented as one MsgBatchTransferWithVesting.
@@ -1319,9 +1323,3 @@ Distribute compensation proportional to epoch 158 lost preserved weights. Implem
 </details>
 
 ---
-
-<div class="prop-footer" markdown="1">
-
-[View on gonka.gg](https://gonka.gg/network/proposals/32){:target="_blank"}
-
-</div>

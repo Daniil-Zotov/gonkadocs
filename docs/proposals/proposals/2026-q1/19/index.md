@@ -22,6 +22,10 @@ template: proposals-proposals-main.html
 
 **Metadata:** [https://github.com/gonka-ai/gonka/blob/d18165669326fffd6732bc124183a72c076a69ee/proposals/governance-artifacts/update-v0.2.7/README.md](https://github.com/gonka-ai/gonka/blob/d18165669326fffd6732bc124183a72c076a69ee/proposals/governance-artifacts/update-v0.2.7/README.md)
 
+
+
+[View on gonka.gg](https://gonka.gg/network/proposals/19){:target="_blank"}
+
 </div>
 
 Upgrade Proposal: v0.2.7
@@ -77,9 +81,3 @@ Upgrade Proposal: v0.2.7
 </details>
 
 ---
-
-<div class="prop-footer" markdown="1">
-
-[View on gonka.gg](https://gonka.gg/network/proposals/19){:target="_blank"}
-
-</div>

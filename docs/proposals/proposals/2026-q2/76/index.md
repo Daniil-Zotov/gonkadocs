@@ -21,6 +21,10 @@ template: proposals-proposals-main.html
 **Proposer:** `gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le`
 
 <div class="prop-funding-line">$93,600 · Community Pool</div>
+
+
+[View on gonka.gg](https://gonka.gg/network/proposals/76){:target="_blank"}
+
 </div>
 
 Register devshard approved version v2.
@@ -611,9 +615,3 @@ Register devshard approved version v2.
 </details>
 
 ---
-
-<div class="prop-footer" markdown="1">
-
-[View on gonka.gg](https://gonka.gg/network/proposals/76){:target="_blank"}
-
-</div>

@@ -25,6 +25,10 @@ template: proposals-proposals-main.html
 **Failed reason:** proposal did not get enough votes to pass
 
 <div class="prop-funding-line">246,000 GNK · Community Pool</div>
+
+
+[View on gonka.gg](https://gonka.gg/network/proposals/70){:target="_blank"}
+
 </div>
 
 Release 246,000 GNK from Community Fund to finalize GNK Racers — a multiplayer side-view racing mini-app with a live working prototype (@GNKRacers_bot). The game drives new user acquisition, wallet activations, and GNK wagering velocity on Gonka, with future AI-agent auto-races generating Host GPU inference demand (Q1 2027). Single allocation requested to streamline cross-functional production and marketing execution. Full transparent budget, team breakdown, and deliverables: https://github.com/Pestarzt0011/GNKRacers-proposal. Bi-weekly progress reporting committed.
@@ -80,9 +84,3 @@ Release 246,000 GNK from Community Fund to finalize GNK Racers — a multiplayer
 </details>
 
 ---
-
-<div class="prop-footer" markdown="1">
-
-[View on gonka.gg](https://gonka.gg/network/proposals/70){:target="_blank"}
-
-</div>

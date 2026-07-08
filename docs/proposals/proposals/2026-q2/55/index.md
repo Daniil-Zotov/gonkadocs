@@ -23,6 +23,10 @@ template: proposals-proposals-main.html
 **Metadata:** [https://github.com/votkon/grc-proposal-2](https://github.com/votkon/grc-proposal-2)
 
 <div class="prop-funding-line">39,722 GNK · Community Pool</div>
+
+
+[View on gonka.gg](https://gonka.gg/network/proposals/55){:target="_blank"}
+
 </div>
 
 Distribute restitution for Cases 2, 3, and 4 across epochs 248-254. Case 2: preserver weight double-scaling bug (epochs 249-253). Case 3: epoch loss restitution: broad epoch losses, consecutive failures restriction, and remaining delta (epochs 248, 249, 250). Case 4: API startup blocking issue (epoch 254). Total: 306,307.29 GNK to 90 addresses. Bounties: 39,722.20 GNK to 4 addresses.
@@ -932,9 +936,3 @@ Distribute restitution for Cases 2, 3, and 4 across epochs 248-254. Case 2: pres
 </details>
 
 ---
-
-<div class="prop-footer" markdown="1">
-
-[View on gonka.gg](https://gonka.gg/network/proposals/55){:target="_blank"}
-
-</div>

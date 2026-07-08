@@ -20,6 +20,10 @@ template: proposals-proposals-main.html
 
 **Proposer:** `gonka1m9sf2rpg635efaw59djqlxkqew9sxvmqd6g343`
 
+
+
+[View on gonka.gg](https://gonka.gg/network/proposals/36){:target="_blank"}
+
 </div>
 
 Register IBC token metadata and approve the denomination for trading on Gonka mainnet.
@@ -81,9 +85,3 @@ Register IBC token metadata and approve the denomination for trading on Gonka ma
 </details>
 
 ---
-
-<div class="prop-footer" markdown="1">
-
-[View on gonka.gg](https://gonka.gg/network/proposals/36){:target="_blank"}
-
-</div>

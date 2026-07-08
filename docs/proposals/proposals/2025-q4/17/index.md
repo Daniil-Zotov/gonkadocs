@@ -20,6 +20,10 @@ template: proposals-proposals-main.html
 
 **Proposer:** `gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`
 
+
+
+[View on gonka.gg](https://gonka.gg/network/proposals/17){:target="_blank"}
+
 </div>
 
 Expected amount of Confirmation PoC per epoch to 4, p0 for binomial test to 0.1
@@ -321,9 +325,3 @@ Expected amount of Confirmation PoC per epoch to 4, p0 for binomial test to 0.1
 </details>
 
 ---
-
-<div class="prop-footer" markdown="1">
-
-[View on gonka.gg](https://gonka.gg/network/proposals/17){:target="_blank"}
-
-</div>

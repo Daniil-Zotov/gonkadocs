@@ -24,6 +24,10 @@ template: proposals-proposals-main.html
 
 **Failed reason:** proposal did not get enough votes to pass
 
+
+
+[View on gonka.gg](https://gonka.gg/network/proposals/52){:target="_blank"}
+
 </div>
 
 Upgrade Proposal: v0.2.13
@@ -79,9 +83,3 @@ Upgrade Proposal: v0.2.13
 </details>
 
 ---
-
-<div class="prop-footer" markdown="1">
-
-[View on gonka.gg](https://gonka.gg/network/proposals/52){:target="_blank"}
-
-</div>

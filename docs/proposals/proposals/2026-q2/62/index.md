@@ -23,6 +23,10 @@ template: proposals-proposals-main.html
 **Metadata:** [https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/3](https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/3)
 
 <div class="prop-funding-line">$50,000 · Community Pool</div>
+
+
+[View on gonka.gg](https://gonka.gg/network/proposals/62){:target="_blank"}
+
 </div>
 
 Crypto-influencer pilot campaign for Gonka.AI across selected tier-1 creators, with a full performance report and scaling recommendations. Single-tranche payment of 50,000 USDT to TheSoul on proposal pass. Full offer document: see the metadata URL.
@@ -80,9 +84,3 @@ Crypto-influencer pilot campaign for Gonka.AI across selected tier-1 creators, w
 </details>
 
 ---
-
-<div class="prop-footer" markdown="1">
-
-[View on gonka.gg](https://gonka.gg/network/proposals/62){:target="_blank"}
-
-</div>

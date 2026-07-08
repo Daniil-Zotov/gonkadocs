@@ -20,6 +20,10 @@ template: proposals-proposals-main.html
 
 **Proposer:** `gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`
 
+
+
+[View on gonka.gg](https://gonka.gg/network/proposals/20){:target="_blank"}
+
 </div>
 
 https://github.com/product-science/filter/tree/ae59d27f04a70039bcfca94ae656e723982150cd
@@ -2155,9 +2159,3 @@ https://github.com/product-science/filter/tree/ae59d27f04a70039bcfca94ae656e7239
 </details>
 
 ---
-
-<div class="prop-footer" markdown="1">
-
-[View on gonka.gg](https://gonka.gg/network/proposals/20){:target="_blank"}
-
-</div>

@@ -24,6 +24,10 @@ template: proposals-proposals-main.html
 
 **Failed reason:** proposal did not get enough votes to pass
 
+
+
+[View on gonka.gg](https://gonka.gg/network/proposals/30){:target="_blank"}
+
 </div>
 
 Testing governance voting from the wallet app.
@@ -66,9 +70,3 @@ Testing governance voting from the wallet app.
 </details>
 
 ---
-
-<div class="prop-footer" markdown="1">
-
-[View on gonka.gg](https://gonka.gg/network/proposals/30){:target="_blank"}
-
-</div>

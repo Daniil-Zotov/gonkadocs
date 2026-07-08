@@ -23,6 +23,10 @@ template: proposals-proposals-main.html
 **Metadata:** [https://github.com/gonkavip/taxreturn/blob/main/README.md](https://github.com/gonkavip/taxreturn/blob/main/README.md)
 
 <div class="prop-funding-line">832 GNK · Gov Module</div>
+
+
+[View on gonka.gg](https://gonka.gg/network/proposals/46){:target="_blank"}
+
 </div>
 
 Two prior upgrades changed the lifecycle of unpaid miner rewards. v0.2.9 (proposal #26, 2026-02-01): when a participant is penalized during cPoC validation, the unaccounted portion of their epoch reward is no longer redistributed among the remaining participants in the epoch — it is sent to the gov module account. v0.2.11 (proposal #31, 2026-03-20, PR #775): slashed collateral was likewise routed to the gov account instead of being burned. As a result the gov account (gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33) has accumulated roughly 3 053 801 GNK of withheld miner rewards over epochs 132–247. These coins were originally minted as miner reward, not as community subsidy. The community pool (gonka1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8h2rzwa, separate account) already holds ~103M GNK + 10K IBC USDT for community initiatives.
@@ -14720,9 +14724,3 @@ Notes. The proposer takes no fee — every ngonka returns to the miners. Hamilto
 </details>
 
 ---
-
-<div class="prop-footer" markdown="1">
-
-[View on gonka.gg](https://gonka.gg/network/proposals/46){:target="_blank"}
-
-</div>

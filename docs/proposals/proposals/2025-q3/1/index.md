@@ -22,6 +22,10 @@ template: proposals-proposals-main.html
 
 **Metadata:** [https://github.com/gonka-ai/gonka/blob/9f34f2c3c8203d8ae269934facaa79069f4d8012/proposals/epoch-length/README.md](https://github.com/gonka-ai/gonka/blob/9f34f2c3c8203d8ae269934facaa79069f4d8012/proposals/epoch-length/README.md)
 
+
+
+[View on gonka.gg](https://gonka.gg/network/proposals/1){:target="_blank"}
+
 </div>
 
 Proposal updates epoch_length and restrictions length according to real block length in seconds.
@@ -280,9 +284,3 @@ Proposal updates epoch_length and restrictions length according to real block le
 </details>
 
 ---
-
-<div class="prop-footer" markdown="1">
-
-[View on gonka.gg](https://gonka.gg/network/proposals/1){:target="_blank"}
-
-</div>

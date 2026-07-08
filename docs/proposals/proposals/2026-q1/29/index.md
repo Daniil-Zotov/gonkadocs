@@ -24,6 +24,10 @@ template: proposals-proposals-main.html
 
 **Failed reason:** proposal did not get enough votes to pass
 
+
+
+[View on gonka.gg](https://gonka.gg/network/proposals/29){:target="_blank"}
+
 </div>
 
 Remove TransferAgent allowlist restrictions (empty list = all TAs allowed) and increase per-token pricing 100x (min 100, base 10000 ngonka) to reduce spam.
@@ -377,9 +381,3 @@ Remove TransferAgent allowlist restrictions (empty list = all TAs allowed) and i
 </details>
 
 ---
-
-<div class="prop-footer" markdown="1">
-
-[View on gonka.gg](https://gonka.gg/network/proposals/29){:target="_blank"}
-
-</div>

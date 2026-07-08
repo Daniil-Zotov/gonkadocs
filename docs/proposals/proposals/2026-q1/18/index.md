@@ -24,6 +24,10 @@ template: proposals-proposals-main.html
 
 **Failed reason:** proposal did not get enough votes to pass
 
+
+
+[View on gonka.gg](https://gonka.gg/network/proposals/18){:target="_blank"}
+
 </div>
 
 Test proposal
@@ -66,9 +70,3 @@ Test proposal
 </details>
 
 ---
-
-<div class="prop-footer" markdown="1">
-
-[View on gonka.gg](https://gonka.gg/network/proposals/18){:target="_blank"}
-
-</div>

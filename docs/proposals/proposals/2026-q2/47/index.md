@@ -25,6 +25,10 @@ template: proposals-proposals-main.html
 **Failed reason:** proposal did not get enough votes to pass
 
 <div class="prop-funding-line">20,000 GNK · Community Pool</div>
+
+
+[View on gonka.gg](https://gonka.gg/network/proposals/47){:target="_blank"}
+
 </div>
 
 Retroactive 20K GNK bounty for an open-sourced PoC optimization measuring +10.2% on B200 and +12.5% on H100 with Qwen3-235B-FP8. One-line patch, verified on-chain by independent miners. Details: https://vote.gonka.vip/tenders/6392c2ea-7fb8-45c7-b1ec-80fb16d81d93
@@ -80,9 +84,3 @@ Retroactive 20K GNK bounty for an open-sourced PoC optimization measuring +10.2%
 </details>
 
 ---
-
-<div class="prop-footer" markdown="1">
-
-[View on gonka.gg](https://gonka.gg/network/proposals/47){:target="_blank"}
-
-</div>

@@ -24,6 +24,10 @@ template: proposals-proposals-main.html
 
 **Metadata:** [https://github.com/gonka-ai/gonka/pull/1266](https://github.com/gonka-ai/gonka/pull/1266)
 
+
+
+[View on gonka.gg](https://gonka.gg/network/proposals/57){:target="_blank"}
+
 </div>
 
 This proposal approves the Gonka Network Development Roadmap as a strategic direction document for Gonka's future development tracks.
@@ -98,9 +102,3 @@ The Foundation's legal structure, responsibilities, accountability model, treasu
 </details>
 
 ---
-
-<div class="prop-footer" markdown="1">
-
-[View on gonka.gg](https://gonka.gg/network/proposals/57){:target="_blank"}
-
-</div>

@@ -22,6 +22,10 @@ template: proposals-proposals-main.html
 
 **Metadata:** [https://github.com/gonka-ai/gonka/blob/c8668fd0f6144109165e0386f55fe22eb3cb27c7/proposals/governance-artifacts/models-1/README.md](https://github.com/gonka-ai/gonka/blob/c8668fd0f6144109165e0386f55fe22eb3cb27c7/proposals/governance-artifacts/models-1/README.md)
 
+
+
+[View on gonka.gg](https://gonka.gg/network/proposals/2){:target="_blank"}
+
 </div>
 
 This proposal introduces new Qwen3 models including Qwen3-32B-FP8 and Qwen3-235B-A22B-Instruct-2507-FP8, along with updating parameters for Qwen2.5-7B-Instruct and QwQ-32B.
@@ -161,9 +165,3 @@ This proposal introduces new Qwen3 models including Qwen3-32B-FP8 and Qwen3-235B
 </details>
 
 ---
-
-<div class="prop-footer" markdown="1">
-
-[View on gonka.gg](https://gonka.gg/network/proposals/2){:target="_blank"}
-
-</div>

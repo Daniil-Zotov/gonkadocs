@@ -22,6 +22,10 @@ template: proposals-proposals-main.html
 
 **Failed reason:** maximum deposit period must not be nil: 0
 
+
+
+[View on gonka.gg](https://gonka.gg/network/proposals/69){:target="_blank"}
+
 </div>
 
 Increase the minimum deposit required to submit a governance proposal from the current value to 500 GNK. Also sets expedited minimum deposit to 1000 GNK.
@@ -98,9 +102,3 @@ Increase the minimum deposit required to submit a governance proposal from the c
 </details>
 
 ---
-
-<div class="prop-footer" markdown="1">
-
-[View on gonka.gg](https://gonka.gg/network/proposals/69){:target="_blank"}
-
-</div>

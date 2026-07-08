@@ -23,6 +23,10 @@ template: proposals-proposals-main.html
 **Metadata:** [https://github.com/votkon/epoch-132-analysis](https://github.com/votkon/epoch-132-analysis)
 
 <div class="prop-funding-line">3,100 GNK · Community Pool</div>
+
+
+[View on gonka.gg](https://gonka.gg/network/proposals/33){:target="_blank"}
+
 </div>
 
 Distribute compensation for CPoC bug affected participants in epochs 132-133.
@@ -545,9 +549,3 @@ Distribute compensation for CPoC bug affected participants in epochs 132-133.
 </details>
 
 ---
-
-<div class="prop-footer" markdown="1">
-
-[View on gonka.gg](https://gonka.gg/network/proposals/33){:target="_blank"}
-
-</div>

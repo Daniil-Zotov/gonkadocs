@@ -22,6 +22,10 @@ template: proposals-proposals-main.html
 
 **Failed reason:** proposal did not get enough votes to pass
 
+
+
+[View on gonka.gg](https://gonka.gg/network/proposals/28){:target="_blank"}
+
 </div>
 
 0.032 GNK per 1 unit of power, 0.01% slashing for miss rate or jail, 0.5% slashing for invalid inference
@@ -383,9 +387,3 @@ template: proposals-proposals-main.html
 </details>
 
 ---
-
-<div class="prop-footer" markdown="1">
-
-[View on gonka.gg](https://gonka.gg/network/proposals/28){:target="_blank"}
-
-</div>

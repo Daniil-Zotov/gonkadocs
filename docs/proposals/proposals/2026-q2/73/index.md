@@ -20,6 +20,10 @@ template: proposals-proposals-main.html
 
 **Proposer:** `gonka1337v0tk0ng0dhmz2pk9qv0gsvpe48eafppc6u8`
 
+
+
+[View on gonka.gg](https://gonka.gg/network/proposals/73){:target="_blank"}
+
 </div>
 
 Increase the minimum deposit required to submit a governance proposal to 500 GNK (500,000,000,000 ngonka) and expedited minimum deposit to 1000 GNK (1,000,000,000,000 ngonka). This resubmits proposal #69 which passed community vote but failed to execute due to incomplete governance parameter specification.
@@ -96,9 +100,3 @@ Increase the minimum deposit required to submit a governance proposal to 500 GNK
 </details>
 
 ---
-
-<div class="prop-footer" markdown="1">
-
-[View on gonka.gg](https://gonka.gg/network/proposals/73){:target="_blank"}
-
-</div>

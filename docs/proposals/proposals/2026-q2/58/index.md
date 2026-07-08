@@ -28,6 +28,10 @@ template: proposals-proposals-main.html
 **Failed reason:** proposal did not get enough votes to pass
 
 <div class="prop-funding-line">$70,000 · Community Pool</div>
+
+
+[View on gonka.gg](https://gonka.gg/network/proposals/58){:target="_blank"}
+
 </div>
 
 # Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)
@@ -106,9 +110,3 @@ This is a full-scale analytical deep-dive that builds genuine trust rather than 
 </details>
 
 ---
-
-<div class="prop-footer" markdown="1">
-
-[View on gonka.gg](https://gonka.gg/network/proposals/58){:target="_blank"}
-
-</div>

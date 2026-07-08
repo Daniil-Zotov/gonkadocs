@@ -22,6 +22,10 @@ template: proposals-proposals-main.html
 
 **Proposer:** `gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le`
 
+
+
+[View on gonka.gg](https://gonka.gg/network/proposals/48){:target="_blank"}
+
 </div>
 
 During the Kimi-K2.6 bootstrap, the 30% direct participation threshold proved hard to meet. To avoid the risk of Kimi-K2.6 becoming ineligible in a future epoch and to simplify onboarding of further models, this proposal lowers the threshold to 10%. The security model is preserved: PoC validation itself is unchanged and still requires a supermajority of validation power to accept results. It is expedited so the change takes effect before the next PoC.
@@ -454,9 +458,3 @@ During the Kimi-K2.6 bootstrap, the 30% direct participation threshold proved ha
 </details>
 
 ---
-
-<div class="prop-footer" markdown="1">
-
-[View on gonka.gg](https://gonka.gg/network/proposals/48){:target="_blank"}
-
-</div>

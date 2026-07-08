@@ -20,6 +20,10 @@ template: proposals-proposals-main.html
 
 **Proposer:** `gonka1k6p754pyhxud2399knyccgjpjvdafj2u9xlgyf`
 
+
+
+[View on gonka.gg](https://gonka.gg/network/proposals/40){:target="_blank"}
+
 </div>
 
 This proposal updates x/gov: the standard voting period becomes 48 hours (was 24), and the expedited voting period becomes 12 hours (was 3). All other governance parameters remain at their current on-chain values.
@@ -96,9 +100,3 @@ This proposal updates x/gov: the standard voting period becomes 48 hours (was 24
 </details>
 
 ---
-
-<div class="prop-footer" markdown="1">
-
-[View on gonka.gg](https://gonka.gg/network/proposals/40){:target="_blank"}
-
-</div>

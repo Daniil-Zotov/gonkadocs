@@ -489,7 +489,11 @@ template: proposals-proposals-main.html
     if funding_html:
         md += funding_html
 
-    md += """</div>
+    md += f"""
+
+[View on gonka.gg](https://gonka.gg/network/proposals/{pid}){{:target="_blank"}}
+
+</div>
 
 """
 
@@ -525,14 +529,7 @@ template: proposals-proposals-main.html
 
 </details>
 
----
-
-<div class="prop-footer" markdown="1">
-
-[View on gonka.gg](https://gonka.gg/network/proposals/{pid}){{:target="_blank"}}
-
-</div>
-"""
+---"""
 
     return md
 

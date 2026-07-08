@@ -21,6 +21,10 @@ template: proposals-proposals-main.html
 **Proposer:** `gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`
 
 <div class="prop-funding-line">20,000,000 GNK · Community Pool</div>
+
+
+[View on gonka.gg](https://gonka.gg/network/proposals/14){:target="_blank"}
+
 </div>
 
 Sale GNK from Community Fund
@@ -76,9 +80,3 @@ Sale GNK from Community Fund
 </details>
 
 ---
-
-<div class="prop-footer" markdown="1">
-
-[View on gonka.gg](https://gonka.gg/network/proposals/14){:target="_blank"}
-
-</div>

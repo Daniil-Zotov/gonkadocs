@@ -24,6 +24,10 @@ template: proposals-proposals-main.html
 
 **Metadata:** [https://github.com/gonka-ai/gonka/blob/2bf281cec95eaef061e2dfe46d4d104a7e1c2229/proposals/poc-validation-length/README.md](https://github.com/gonka-ai/gonka/blob/2bf281cec95eaef061e2dfe46d4d104a7e1c2229/proposals/poc-validation-length/README.md)
 
+
+
+[View on gonka.gg](https://gonka.gg/network/proposals/3){:target="_blank"}
+
 </div>
 
 Proposal updates poc_validation_duration from 20 to 100.
@@ -259,9 +263,3 @@ Proposal updates poc_validation_duration from 20 to 100.
 </details>
 
 ---
-
-<div class="prop-footer" markdown="1">
-
-[View on gonka.gg](https://gonka.gg/network/proposals/3){:target="_blank"}
-
-</div>

@@ -23,6 +23,10 @@ template: proposals-proposals-main.html
 **Metadata:** [https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/4](https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/4)
 
 <div class="prop-funding-line">$10,000 · Community Pool</div>
+
+
+[View on gonka.gg](https://gonka.gg/network/proposals/63){:target="_blank"}
+
 </div>
 
 Full redesign of gonka.ai plus dedicated landing pages for miners, inference buyers, and investors, built on the brandbook from Offer 1.2. Single-tranche payment of 10,000 USDT to TheSoul on proposal pass. Full offer document: see the metadata URL.
@@ -80,9 +84,3 @@ Full redesign of gonka.ai plus dedicated landing pages for miners, inference buy
 </details>
 
 ---
-
-<div class="prop-footer" markdown="1">
-
-[View on gonka.gg](https://gonka.gg/network/proposals/63){:target="_blank"}
-
-</div>
