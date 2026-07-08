@@ -22716,6 +22716,9 @@ alexandr8475
   
   Voting
 
+  
+  With Funding
+
 ## Overview
 
 80Total Proposals
@@ -23627,7 +23630,7 @@ Models / IBC2
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-80 proposals across 5 quarters. Last updated: 2026-07-08 08:55 UTC
+80 proposals across 5 quarters. Last updated: 2026-07-08 09:57 UTC
 
 function initProposalsPage() {
   var checkboxes = document.querySelectorAll('.prop-oview-filter input[type=checkbox]');
@@ -23648,6 +23651,9 @@ function initProposalsPage() {
       else if (status === 'prop-voting' && filters.voting) show = true;
       
       else if (status === 'prop-failed' && filters.rejected) show = true;
+      if (show && filters.funding) {
+        show = card.querySelector('.prop-card-funding') !== null;
+      }
       card.style.display = show ? '' : 'none';
       if (show) visible++;
     });
@@ -23674,6 +23680,9 @@ document$.subscribe(initProposalsPage);
 
   
   Voting
+
+  
+  With Funding
 
 ## 2026-Q2 Summary
 
@@ -24195,6 +24204,9 @@ function initProposalsPage() {
       else if (status === 'prop-rejected' && filters.rejected) show = true;
       else if (status === 'prop-voting' && filters.voting) show = true;
       else if (status === 'prop-failed' && filters.rejected) show = true;
+      if (show && filters.funding) {
+        show = card.querySelector('.prop-card-funding') !== null;
+      }
       card.style.display = show ? '' : 'none';
       if (show) visible++;
     });
@@ -45800,6 +45812,9 @@ Contract Details
   
   Voting
 
+  
+  With Funding
+
 ## 2025-Q3 Summary
 
 6Total Proposals
@@ -45898,6 +45913,9 @@ function initProposalsPage() {
       else if (status === 'prop-rejected' && filters.rejected) show = true;
       else if (status === 'prop-voting' && filters.voting) show = true;
       else if (status === 'prop-failed' && filters.rejected) show = true;
+      if (show && filters.funding) {
+        show = card.querySelector('.prop-card-funding') !== null;
+      }
       card.style.display = show ? '' : 'none';
       if (show) visible++;
     });
@@ -46829,6 +46847,9 @@ Contract Details
   
   Voting
 
+  
+  With Funding
+
 ## 2025-Q4 Summary
 
 11Total Proposals
@@ -46984,6 +47005,9 @@ function initProposalsPage() {
       else if (status === 'prop-rejected' && filters.rejected) show = true;
       else if (status === 'prop-voting' && filters.voting) show = true;
       else if (status === 'prop-failed' && filters.rejected) show = true;
+      if (show && filters.funding) {
+        show = card.querySelector('.prop-card-funding') !== null;
+      }
       card.style.display = show ? '' : 'none';
       if (show) visible++;
     });
@@ -48765,6 +48789,9 @@ Contract Details
   
   Voting
 
+  
+  With Funding
+
 ## 2026-Q3 Summary
 
 2Total Proposals
@@ -48817,6 +48844,9 @@ function initProposalsPage() {
       else if (status === 'prop-rejected' && filters.rejected) show = true;
       else if (status === 'prop-voting' && filters.voting) show = true;
       else if (status === 'prop-failed' && filters.rejected) show = true;
+      if (show && filters.funding) {
+        show = card.querySelector('.prop-card-funding') !== null;
+      }
       card.style.display = show ? '' : 'none';
       if (show) visible++;
     });
@@ -49550,6 +49580,9 @@ Contract Details
   
   Voting
 
+  
+  With Funding
+
 ## 2026-Q1 Summary
 
 17Total Proposals
@@ -49770,6 +49803,9 @@ function initProposalsPage() {
       else if (status === 'prop-rejected' && filters.rejected) show = true;
       else if (status === 'prop-voting' && filters.voting) show = true;
       else if (status === 'prop-failed' && filters.rejected) show = true;
+      if (show && filters.funding) {
+        show = card.querySelector('.prop-card-funding') !== null;
+      }
       card.style.display = show ? '' : 'none';
       if (show) visible++;
     });

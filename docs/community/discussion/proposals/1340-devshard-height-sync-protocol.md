@@ -3,7 +3,7 @@ title: "#1340 — `devshard` Height-sync protocol"
 source: https://github.com/gonka-ai/gonka/discussions/1340
 discussion_number: 1340
 category: proposals
-synced_at: 2026-07-08T07:38:52Z
+synced_at: 2026-07-08T10:29:00Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1340](https://github.com/gonka-ai/gonka/discussions/1340) every hour. 
@@ -271,7 +271,7 @@ stateDiagram-v2
     [*] --> Omit
     Omit --> Anchor: nonce in sync turn / forced turn / lazy carry
     Anchor --> Omit: next nonce outside window
-    Anchor --> Strong: |H − local_aligned| > D OR forced (StrongRequired)
+    Anchor --> Strong: \|H − local_aligned\| > D OR forced (StrongRequired)
     Strong --> Anchor: peer realigned, within D again
     Anchor --> Anchor: cadence next turn
     Strong --> Strong: still > D

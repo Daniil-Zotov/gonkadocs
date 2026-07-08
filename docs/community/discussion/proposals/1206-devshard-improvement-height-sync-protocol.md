@@ -3,7 +3,7 @@ title: "#1206 — `devshard improvement` Height-sync protocol"
 source: https://github.com/gonka-ai/gonka/discussions/1206
 discussion_number: 1206
 category: proposals
-synced_at: 2026-07-08T07:39:01Z
+synced_at: 2026-07-08T10:29:07Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1206](https://github.com/gonka-ai/gonka/discussions/1206) every hour. 
@@ -261,7 +261,7 @@ stateDiagram-v2
     [*] --> Omit
     Omit --> Anchor: nonce in sync turn / forced turn / lazy carry
     Anchor --> Omit: next nonce outside window
-    Anchor --> Strong: |H − local_aligned| > D OR forced (StrongRequired)
+    Anchor --> Strong: \|H − local_aligned\| > D OR forced (StrongRequired)
     Strong --> Anchor: peer realigned, within D again
     Anchor --> Anchor: cadence next turn
     Strong --> Strong: still > D
@@ -381,7 +381,7 @@ flowchart TD
     O -- yes --> O1[INVALID<br/>sync_turn_anchor_missing]
     O -- no --> O2[VALID_OMIT]
     B -- yes --> C{Anchor or Strong?}
-    C -- Anchor --> D{|H − local_aligned| > D?}
+    C -- Anchor --> D{\|H − local_aligned\| > D?}
     D -- yes --> D1[INVALID<br/>strong_required]
     D -- no --> E{carry-forward<br/>originator set?}
     E -- yes --> F{originator within F?}
