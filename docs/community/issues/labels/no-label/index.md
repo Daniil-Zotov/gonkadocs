@@ -5,8 +5,8 @@ template: issues-main.html
 
 # Issues: no-label
 
-Issues with label **no-label**. Total: **228**.
-Updated: `2026-07-08 12:01 UTC`.
+Issues with label **no-label**. Total: **178**.
+Updated: `2026-07-08 14:47 UTC`.
 
 [← All Issues](../../index.md)
 
@@ -21,7 +21,7 @@ Updated: `2026-07-08 12:01 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@yuritsin-code](https://github.com/yuritsin-code) opened 11 hours ago</span>
+      <span class="issues-meta-item">[@yuritsin-code](https://github.com/yuritsin-code) opened 13 hours ago</span>
       
     </div>
   </div>
@@ -36,7 +36,7 @@ Updated: `2026-07-08 12:01 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 12 hours ago</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 15 hours ago</span>
       
     </div>
   </div>
@@ -51,7 +51,7 @@ Updated: `2026-07-08 12:01 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@maria-mitina](https://github.com/maria-mitina) opened 12 hours ago</span>
+      <span class="issues-meta-item">[@maria-mitina](https://github.com/maria-mitina) opened 15 hours ago</span>
       
     </div>
   </div>
@@ -66,7 +66,7 @@ Updated: `2026-07-08 12:01 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@Ryanchen911](https://github.com/Ryanchen911) opened 12 hours ago</span>
+      <span class="issues-meta-item">[@Ryanchen911](https://github.com/Ryanchen911) opened 15 hours ago</span>
       
     </div>
   </div>
@@ -1632,6 +1632,36 @@ Updated: `2026-07-08 12:01 UTC`.
   </div>
 </li>
 <li class="issues-list-item">
+  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
+      <a href="../../00764-epoch-158-reward-underpayment-after-v029-preserved-inference/">Epoch 158 reward underpayment after v0.2.9: preserved inference-slot weight was reset</a>
+      <span class="issues-number">#764</span>
+    </div>
+    
+    <div class="issues-labels"></div>
+    <div class="issues-meta">
+      <span class="issues-meta-item">[@huxuxuya](https://github.com/huxuxuya) opened 2026-02-17</span>
+      
+    </div>
+  </div>
+</li>
+<li class="issues-list-item">
+  <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
+      <a href="../../00672-grpc-always-falls-back-to-rpc/">gRPC always falls back to RPC</a>
+      <span class="issues-number">#672</span>
+    </div>
+    
+    <div class="issues-labels"></div>
+    <div class="issues-meta">
+      <span class="issues-meta-item">[@x0152](https://github.com/x0152) opened 2026-02-12</span>
+      
+    </div>
+  </div>
+</li>
+<li class="issues-list-item">
   <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
   <div class="issues-body">
     <div class="issues-title">
@@ -1665,8 +1695,53 @@ Updated: `2026-07-08 12:01 UTC`.
   <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
   <div class="issues-body">
     <div class="issues-title">
+      <a href="../../00626-how-to-add-new-models/">How to add new models</a>
+      <span class="issues-number">#626</span>
+    </div>
+    
+    <div class="issues-labels"></div>
+    <div class="issues-meta">
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-11</span>
+      
+    </div>
+  </div>
+</li>
+<li class="issues-list-item">
+  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
       <a href="../../00631-add-message-to-transfer-amount-with-vesting/">Add message to transfer amount with vesting</a>
       <span class="issues-number">#631</span>
+    </div>
+    
+    <div class="issues-labels"></div>
+    <div class="issues-meta">
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-10</span>
+      
+    </div>
+  </div>
+</li>
+<li class="issues-list-item">
+  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
+      <a href="../../00631-add-message-to-transfer-amount-with-vesting/">Add message to transfer amount with vesting</a>
+      <span class="issues-number">#631</span>
+    </div>
+    
+    <div class="issues-labels"></div>
+    <div class="issues-meta">
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-10</span>
+      
+    </div>
+  </div>
+</li>
+<li class="issues-list-item">
+  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
+      <a href="../../00620-speed-up-poc-validation-by-sample-validators/">Speed up PoC validation by sample validators</a>
+      <span class="issues-number">#620</span>
     </div>
     
     <div class="issues-labels"></div>
@@ -1710,6 +1785,21 @@ Updated: `2026-07-08 12:01 UTC`.
   <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
   <div class="issues-body">
     <div class="issues-title">
+      <a href="../../00696-normalize-poc-weight-on-poc-phase-time/">Normalize POC weight on POC phase time</a>
+      <span class="issues-number">#696</span>
+    </div>
+    
+    <div class="issues-labels"></div>
+    <div class="issues-meta">
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-10</span>
+      
+    </div>
+  </div>
+</li>
+<li class="issues-list-item">
+  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
       <a href="../../00561-implementing-punishment-statistics-based-on-on-chain-data/">Implementing punishment statistics based on on-chain data</a>
       <span class="issues-number">#561</span>
     </div>
@@ -1717,6 +1807,36 @@ Updated: `2026-07-08 12:01 UTC`.
     <div class="issues-labels"></div>
     <div class="issues-meta">
       <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-10</span>
+      
+    </div>
+  </div>
+</li>
+<li class="issues-list-item">
+  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
+      <a href="../../00561-implementing-punishment-statistics-based-on-on-chain-data/">Implementing punishment statistics based on on-chain data</a>
+      <span class="issues-number">#561</span>
+    </div>
+    
+    <div class="issues-labels"></div>
+    <div class="issues-meta">
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-10</span>
+      
+    </div>
+  </div>
+</li>
+<li class="issues-list-item">
+  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
+      <a href="../../00499-chat-completions-arent-working/">Chat Completions aren't working</a>
+      <span class="issues-number">#499</span>
+    </div>
+    
+    <div class="issues-labels"></div>
+    <div class="issues-meta">
+      <span class="issues-meta-item">[@pentoxine](https://github.com/pentoxine) opened 2026-02-10</span>
       
     </div>
   </div>
@@ -1755,8 +1875,53 @@ Updated: `2026-07-08 12:01 UTC`.
   <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
   <div class="issues-body">
     <div class="issues-title">
+      <a href="../../00422-dapi-nil-pointer-dereference-crash-when-chain-rpc-is-unavail/">DAPI  nil pointer dereference crash when chain RPC is unavailable</a>
+      <span class="issues-number">#422</span>
+    </div>
+    
+    <div class="issues-labels"></div>
+    <div class="issues-meta">
+      <span class="issues-meta-item">[@mfursov](https://github.com/mfursov) opened 2026-02-10</span>
+      
+    </div>
+  </div>
+</li>
+<li class="issues-list-item">
+  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
       <a href="../../00329-p1-check-data-limits-for-poc/">[P1] Check data limits for PoC</a>
       <span class="issues-number">#329</span>
+    </div>
+    
+    <div class="issues-labels"></div>
+    <div class="issues-meta">
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-10</span>
+      
+    </div>
+  </div>
+</li>
+<li class="issues-list-item">
+  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
+      <a href="../../00329-p1-check-data-limits-for-poc/">[P1] Check data limits for PoC</a>
+      <span class="issues-number">#329</span>
+    </div>
+    
+    <div class="issues-labels"></div>
+    <div class="issues-meta">
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-10</span>
+      
+    </div>
+  </div>
+</li>
+<li class="issues-list-item">
+  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
+      <a href="../../00317-p0-epoch-length/">[P0] Epoch length</a>
+      <span class="issues-number">#317</span>
     </div>
     
     <div class="issues-labels"></div>
@@ -1800,8 +1965,53 @@ Updated: `2026-07-08 12:01 UTC`.
   <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
   <div class="issues-body">
     <div class="issues-title">
+      <a href="../../00322-p0-dashboard-reward-fix-vesting-poc-stages-total-power-gpus-/">[P0] Dashboard (reward fix + vesting; poc stages; total power; gpu’s; participants with logos and contacts)</a>
+      <span class="issues-number">#322</span>
+    </div>
+    
+    <div class="issues-labels"></div>
+    <div class="issues-meta">
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-10</span>
+      
+    </div>
+  </div>
+</li>
+<li class="issues-list-item">
+  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
       <a href="../../00348-p0-add-ssl-https-for-our-dashboard-and-api-we-need-it-to-add/">[P0]: Add SSL (https) for our dashboard and API (we need it to add us to wallets)</a>
       <span class="issues-number">#348</span>
+    </div>
+    
+    <div class="issues-labels"></div>
+    <div class="issues-meta">
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-10</span>
+      
+    </div>
+  </div>
+</li>
+<li class="issues-list-item">
+  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
+      <a href="../../00348-p0-add-ssl-https-for-our-dashboard-and-api-we-need-it-to-add/">[P0]: Add SSL (https) for our dashboard and API (we need it to add us to wallets)</a>
+      <span class="issues-number">#348</span>
+    </div>
+    
+    <div class="issues-labels"></div>
+    <div class="issues-meta">
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-10</span>
+      
+    </div>
+  </div>
+</li>
+<li class="issues-list-item">
+  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
+      <a href="../../00653-deep-dive-into-node-container/">Deep dive into node container</a>
+      <span class="issues-number">#653</span>
     </div>
     
     <div class="issues-labels"></div>
@@ -1845,6 +2055,36 @@ Updated: `2026-07-08 12:01 UTC`.
   <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
   <div class="issues-body">
     <div class="issues-title">
+      <a href="../../00714-bug-report-new-nodes-fail-to-sign-transactions-keyring-backe/">Bug Report: New Nodes Fail to Sign Transactions (Keyring Backend Mismatch)</a>
+      <span class="issues-number">#714</span>
+    </div>
+    
+    <div class="issues-labels"></div>
+    <div class="issues-meta">
+      <span class="issues-meta-item">[@moro3one](https://github.com/moro3one) opened 2026-02-10</span>
+      
+    </div>
+  </div>
+</li>
+<li class="issues-list-item">
+  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
+      <a href="../../00566-epoch-and-timestamp-consistency-across-inference-validation-/">Epoch and timestamp consistency across inference, validation, and claims</a>
+      <span class="issues-number">#566</span>
+    </div>
+    
+    <div class="issues-labels"></div>
+    <div class="issues-meta">
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-09</span>
+      
+    </div>
+  </div>
+</li>
+<li class="issues-list-item">
+  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
       <a href="../../00566-epoch-and-timestamp-consistency-across-inference-validation-/">Epoch and timestamp consistency across inference, validation, and claims</a>
       <span class="issues-number">#566</span>
     </div>
@@ -1872,1006 +2112,16 @@ Updated: `2026-07-08 12:01 UTC`.
   </div>
 </li>
 <li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00660-short-network-drop-makes-the-api-crash/">Short network drop makes the api crash</a>
-      <span class="issues-number">#660</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@x0152](https://github.com/x0152) opened 2026-02-06</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00466-stop-rewriting-static-config-at-each-app-start/">Stop rewriting static config at each app start</a>
-      <span class="issues-number">#466</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-06</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00658-poc-slot-attack/">POC_SLOT attack</a>
-      <span class="issues-number">#658</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@akup](https://github.com/akup) opened 2026-02-06</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00669-increase-artifact-storage-throughput/">Increase artifact storage throughput</a>
-      <span class="issues-number">#669</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@IgnatovFedor](https://github.com/IgnatovFedor) opened 2026-02-06</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00562-getepochmodel-in-validation-should-use-inference-epoch/">GetEpochModel in validation should use inference epoch</a>
-      <span class="issues-number">#562</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@x0152](https://github.com/x0152) opened 2026-02-06</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00325-p0-no-inference-failures-on-the-edge-of-poc-check-for-missed/">[P0] No inference failures on the edge of PoC; Check for missed validation during epoch</a>
-      <span class="issues-number">#325</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-05</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00627-vllm-0110-inference-validation/">vLLM 0.11.0 — Inference validation</a>
-      <span class="issues-number">#627</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-29</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00520-fix-grpc-endpoint-for-cosmostation-wallet-and-mintscan-explo/">Fix gRPC Endpoint for Cosmostation wallet and Mintscan explorer dashboard</a>
-      <span class="issues-number">#520</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-29</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00409-switch-participant-invalidation-to-sprt/">Switch participant invalidation to SPRT</a>
-      <span class="issues-number">#409</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-29</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00410-explore-sprt-for-missed-inferences/">Explore SPRT for missed inferences</a>
-      <span class="issues-number">#410</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-29</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00440-all-the-old-keys-from-the-cluster-entered-the-new-epoch-even/">All the old keys from the cluster entered the new epoch, even though that cluster was deleted</a>
-      <span class="issues-number">#440</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-29</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00662-how-to-try-to-locate-the-missing-seed/">How to try to locate the missing seed</a>
-      <span class="issues-number">#662</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-29</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00334-p1-key-rotation-validator-info-update-warm-key-node-id-key-p/">[P1] Key Rotation & Validator info update (warm key, node-id / key,  public url)</a>
-      <span class="issues-number">#334</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-29</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00328-p1-off-chain-validation-data-on-demand-on-chain-inference/">[P1] Off-chain validation data == on demand on-chain inference</a>
-      <span class="issues-number">#328</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-29</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00324-p0-poc-nonce-performance-improvements-h100-vs-8xh100-define-/">[P0] PoC nonce performance improvements (H100 vs 8xH100) — define reasons</a>
-      <span class="issues-number">#324</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-28</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00327-p1-performance-measure-chain-performance/">[P1] Performance: Measure chain performance</a>
-      <span class="issues-number">#327</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-28</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00343-bug-3-removing-models-from-inferencemodel-list-is-not-suppor/">BUG-3: Removing models from inference/model_list is not supported</a>
-      <span class="issues-number">#343</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@gmorgachev](https://github.com/gmorgachev) opened 2026-01-28</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00349-p1-utilization-in-scheduling-and-poc-uptime-and-reward-for-a/">[P1]: Utilization in scheduling and PoC uptime and Reward for all Models Support</a>
-      <span class="issues-number">#349</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-28</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00359-p0-ai-developer-onboarding-aiden-chat-integration/">[P0]: AI Developer onboarding: Aiden Chat integration</a>
-      <span class="issues-number">#359</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-28</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00439-stack-traces/">Stack traces</a>
-      <span class="issues-number">#439</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-28</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
   <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
   <div class="issues-body">
     <div class="issues-title">
-      <a href="../../00335-p1-check-why-we-often-see-slashing-in-logs/">[P1] Check why we often see slashing in logs</a>
-      <span class="issues-number">#335</span>
+      <a href="../../00435-bug-report-api-container-sends-abci-query-with-height-0-desp/">Bug Report: api container sends abci_query with height: 0 despite being synced</a>
+      <span class="issues-number">#435</span>
     </div>
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-28</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00647-vllm-0110-migration-proposal/">vLLM 0.11.0 — Migration Proposal</a>
-      <span class="issues-number">#647</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-26</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00461-ml-node-model-management-edge-cases/">ML node model management edge cases</a>
-      <span class="issues-number">#461</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-24</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00331-p1-api-for-wallets-keplr-leap-indexers-we-do-have-the-api-we/">[P1] API for wallets (Keplr, Leap) / indexers (we do have the API, we need to get the thought process of adding Gonka to different wallets, and see what we are missing.</a>
-      <span class="issues-number">#331</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-24</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00396-p0-future-timestamp-investigation/">[P0] Future timestamp investigation</a>
-      <span class="issues-number">#396</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-23</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00574-membership-for-correct-epoch-for-validation-requests/">Membership for correct epoch for Validation requests</a>
-      <span class="issues-number">#574</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-22</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00617-ledger-wallet-integration/">Ledger wallet integration</a>
-      <span class="issues-number">#617</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-22</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00498-unable-to-start-baecon-node/">Unable to start baecon node</a>
-      <span class="issues-number">#498</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@Knoxpix](https://github.com/Knoxpix) opened 2026-01-22</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00527-node-resync-from-snapshot-caused-missed-inference-tasks-due-/">Node resync from snapshot caused missed inference tasks due to large application.db</a>
-      <span class="issues-number">#527</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@bingcongxihaha](https://github.com/bingcongxihaha) opened 2026-01-22</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00546-node-crash-decimal-precision-panic-in-reputation-calculation/">Node crash: Decimal precision panic in reputation calculation (v0.2.7-post1)</a>
-      <span class="issues-number">#546</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@Olena](https://github.com/Olena) opened 2026-01-21</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00332-p1-merge-bridge/">[P1] Merge Bridge</a>
-      <span class="issues-number">#332</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-21</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00463-nodes-always-available/">Nodes always available</a>
-      <span class="issues-number">#463</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-21</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00586-connect-grpc-port-to-proxy/">connect grpc port to proxy</a>
-      <span class="issues-number">#586</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-21</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00589-dont-send-tx-if-node-is-behind/">Don't send TX if node is behind</a>
-      <span class="issues-number">#589</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-21</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00591-some-security-and-other-improvements-for-github-actions/">Some security and other improvements for github actions</a>
-      <span class="issues-number">#591</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-21</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00604-fix-not-releasing-a-lock-in-setnodeadminstatecommand/">Fix not releasing a lock in SetNodeAdminStateCommand</a>
-      <span class="issues-number">#604</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-21</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00570-production-grade-proxy-ssl-and-wallet-compatible-endpoints/">Production-grade proxy, SSL, and wallet-compatible endpoints</a>
-      <span class="issues-number">#570</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-21</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00518-request-timestamp-is-in-the-future-leads-to-missed-inference/">"Request timestamp is in the future" leads to missed inferences for hosts</a>
-      <span class="issues-number">#518</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@akup](https://github.com/akup) opened 2026-01-20</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00564-eliminate-chain-panics-and-hard-fail-paths-in-consensus-and-/">Eliminate chain panics and hard-fail paths in consensus and accounting</a>
-      <span class="issues-number">#564</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-20</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00576-standardize-floating-point-math/">Standardize floating point math</a>
-      <span class="issues-number">#576</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-20</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00575-updated-script-snippets-and-macos-tahoe-261-docker-settings/">Updated script snippets and MacOS Tahoe 26.1 Docker settings</a>
-      <span class="issues-number">#575</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-20</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00565-reward-settlement-correctness-negative-balance-prevention/">Reward settlement correctness; negative balance prevention</a>
-      <span class="issues-number">#565</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-20</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00405-p0-removing-participants-for-inactivity/">[P0] Removing participants for inactivity</a>
-      <span class="issues-number">#405</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-16</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00603-random-poc/">Random PoC</a>
-      <span class="issues-number">#603</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-16</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00602-fix-genesis-transfer/">Fix genesis transfer</a>
-      <span class="issues-number">#602</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-16</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00601-change-default-mlnode-state-to-inference/">Change default mlnode state to `INFERENCE`</a>
-      <span class="issues-number">#601</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-16</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00600-bls-signature-fixes-aggreagation-and-format/">BLS Signature Fixes: Aggreagation and format</a>
-      <span class="issues-number">#600</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-16</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00599-bls-for-long-list-of-validators-contract-fixes/">BLS for long list of validators & Contract fixes</a>
-      <span class="issues-number">#599</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-16</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00598-epoch-performance-additional-query/">Epoch performance additional query</a>
-      <span class="issues-number">#598</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-16</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00470-move-payload-off-chain/">Move payload off chain</a>
-      <span class="issues-number">#470</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00597-poc-params-on-chain/">PoC params on-chain</a>
-      <span class="issues-number">#597</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00596-batching-for-startinference-finishinference/">Batching for StartInference / FinishInference</a>
-      <span class="issues-number">#596</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00595-enable-bls-dealershared-recovery-if-container-restarted/">Enable BLS DealerShared recovery if container restarted</a>
-      <span class="issues-number">#595</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00594-make-sure-batch-finishstart-inferences-dont-fail/">Make sure batch finish/start inferences don't fail</a>
-      <span class="issues-number">#594</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00593-fix-tally-voting/">Fix tally voting</a>
-      <span class="issues-number">#593</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00592-fix-gov-tests/">Fix gov tests</a>
-      <span class="issues-number">#592</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00590-improve-txmanager-reliability-add-block-based-deadlines-dont/">Improve TXManager reliability, add block-based deadlines, don't send invalid TXs</a>
-      <span class="issues-number">#590</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00588-broken-payload-shouldnt-lead-to-missed-inferences/">Broken payload shouldn't lead to missed inferences</a>
-      <span class="issues-number">#588</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00587-rewards-epoch-117-bounty/">Rewards: Epoch 117 + Bounty</a>
-      <span class="issues-number">#587</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00585-add-gates-for-poc-participation-and-adding-participants/">Add gates for PoC participation and adding participants</a>
-      <span class="issues-number">#585</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00584-change-rtarget-and-scale-all-weight-by-25/">Change RTarget and scale all weight by 2.5</a>
-      <span class="issues-number">#584</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00583-ante-handler-to-filter-poc-transactions/">Ante Handler to filter PoC transactions</a>
-      <span class="issues-number">#583</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00337-p1-config-update-process/">[P1] Config update process</a>
-      <span class="issues-number">#337</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00319-p0-merge-enforced-tokens/">[P0] Merge enforced_tokens</a>
-      <span class="issues-number">#319</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00318-p0-merge-mlnode-upgrades-docs/">[P0] Merge MLNode upgrades + docs</a>
-      <span class="issues-number">#318</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00464-difficulty-with-poc-defined-by-rtarget/">Difficulty with PoC, defined by `RTarget`</a>
-      <span class="issues-number">#464</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../00429-cleaning-nats/">Cleaning nats</a>
-      <span class="issues-number">#429</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
+      <span class="issues-meta-item">[@VaniaHilkovets](https://github.com/VaniaHilkovets) opened 2026-02-08</span>
       
     </div>
   </div>

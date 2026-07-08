@@ -5,8 +5,8 @@ template: issues-main.html
 
 # Issues: up-for-grabs
 
-Issues with label **up-for-grabs**. Total: **15**.
-Updated: `2026-07-08 12:01 UTC`.
+Issues with label **up-for-grabs**. Total: **18**.
+Updated: `2026-07-08 14:47 UTC`.
 
 [← All Issues](../../index.md)
 
@@ -36,7 +36,7 @@ Updated: `2026-07-08 12:01 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span> <span class="issues-label" style="background-color: #1d27b4; color: #ffffff; border-color: #1d27b4;">protocol</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 3 days ago</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 4 days ago</span>
       
     </div>
   </div>
@@ -210,6 +210,21 @@ Updated: `2026-07-08 12:01 UTC`.
   <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
   <div class="issues-body">
     <div class="issues-title">
+      <a href="../../00310-bug-1-preserved-node-disabling/">BUG-1: Preserved node disabling</a>
+      <span class="issues-number">#310</span>
+    </div>
+    
+    <div class="issues-labels"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span> <span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span></div>
+    <div class="issues-meta">
+      <span class="issues-meta-item">[@gmorgachev](https://github.com/gmorgachev) opened 2026-02-12</span>
+      
+    </div>
+  </div>
+</li>
+<li class="issues-list-item">
+  <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
       <a href="../../00421-validators-are-marked-for-removal-but-havent-removed/">Validators are marked for removal but haven't removed</a>
       <span class="issues-number">#421</span>
     </div>
@@ -217,6 +232,36 @@ Updated: `2026-07-08 12:01 UTC`.
     <div class="issues-labels"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span> <span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span></div>
     <div class="issues-meta">
       <span class="issues-meta-item">[@gmorgachev](https://github.com/gmorgachev) opened 2026-02-12</span>
+      
+    </div>
+  </div>
+</li>
+<li class="issues-list-item">
+  <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
+      <a href="../../00421-validators-are-marked-for-removal-but-havent-removed/">Validators are marked for removal but haven't removed</a>
+      <span class="issues-number">#421</span>
+    </div>
+    
+    <div class="issues-labels"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span> <span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span></div>
+    <div class="issues-meta">
+      <span class="issues-meta-item">[@gmorgachev](https://github.com/gmorgachev) opened 2026-02-12</span>
+      
+    </div>
+  </div>
+</li>
+<li class="issues-list-item">
+  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
+      <a href="../../00467-unit-tests-for-making-sure-node-version-is-always-a-part-of-/">Unit tests for making sure node version is always a part of endpoint and it's updated when version changes on chain</a>
+      <span class="issues-number">#467</span>
+    </div>
+    
+    <div class="issues-labels"><span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span></div>
+    <div class="issues-meta">
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-07</span>
       
     </div>
   </div>
