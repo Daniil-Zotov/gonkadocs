@@ -44,7 +44,7 @@ def linkify(text):
     import re
     s = str(text)
     s = re.sub(r'https?://[^\s<>"\'()]+', lambda m: f'<a href="{m.group(0)}" target="_blank">{m.group(0)}</a>', s)
-    s = re.sub(r'\b(gonka1[a-z0-9]{38})\b', lambda m: f'<a href="https://gonka.gg/address/{m.group(1)}" target="_blank">{m.group(1)}</a>', s)
+    s = re.sub(r'\b(gonka1[ac-hj-np-z02-9]{38,})\b', lambda m: f'<a href="https://gonka.gg/address/{m.group(1)}" target="_blank">{m.group(1)}</a>', s)
     return s
 
 
@@ -55,7 +55,7 @@ def linkify_md(text):
     import re
     s = str(text)
     s = re.sub(r'(?<!<)(https?://[^\s<>"\'()]+)(?!>)', lambda m: f'<{m.group(1)}>', s)
-    s = re.sub(r'\b(gonka1[a-z0-9]{38})\b', lambda m: f'[{m.group(1)}](https://gonka.gg/address/{m.group(1)})', s)
+    s = re.sub(r'\b(gonka1[ac-hj-np-z02-9]{38,})\b', lambda m: f'[{m.group(1)}](https://gonka.gg/address/{m.group(1)})', s)
     return s
 
 

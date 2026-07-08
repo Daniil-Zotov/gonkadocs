@@ -35,7 +35,7 @@ template: proposals-proposals-main.html
 
 The budget is held by an immutable escrow contract and released as 4 monthly tranches of 22,000 USDT plus 2x40,000 GNK recognition to the Project and Infrastructure Leads at the end of the pilot. Month 1 is prepaid; each next tranche unlocks 4 days after the month ends. Hosts can always cancel via a one-time governance clawback that returns all remaining funds to the Community Pool.
 
-Contract: code_id 107, checksum 94b141625b7641e6ad57266420b18a4af72eac49b8110cb92719755590b463bd, escrow address gonka1g57f45qjvn0529vpgj8x8mzt8r5k4audchm3pp9pezywxwf4rexqlj8ayw. No admin, no migration - recipients and amounts can never change. Source and verification: <https://github.com/paranjko/testlab-devnet-escrow/tree/1b2e529876141816b5c2130840d04fb93694bf72>
+Contract: code_id 107, checksum 94b141625b7641e6ad57266420b18a4af72eac49b8110cb92719755590b463bd, escrow address [gonka1g57f45qjvn0529vpgj8x8mzt8r5k4audchm3pp9pezywxwf4rexqlj8ayw](https://gonka.gg/address/gonka1g57f45qjvn0529vpgj8x8mzt8r5k4audchm3pp9pezywxwf4rexqlj8ayw). No admin, no migration - recipients and amounts can never change. Source and verification: <https://github.com/paranjko/testlab-devnet-escrow/tree/1b2e529876141816b5c2130840d04fb93694bf72>
 
 ---
 
