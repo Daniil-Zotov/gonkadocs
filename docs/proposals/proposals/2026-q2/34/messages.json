@@ -1,0 +1,13 @@
+[
+  {
+    "@type": "/cosmos.distribution.v1beta1.MsgCommunityPoolSpend",
+    "authority": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "recipient": "gonka1ls44amlsum476ajg48dzq09uh9am8rg8qdl2q4r03h75ujfk2t0stkevej",
+    "amount": [
+      {
+        "denom": "ngonka",
+        "amount": "970000000000000"
+      }
+    ]
+  }
+]

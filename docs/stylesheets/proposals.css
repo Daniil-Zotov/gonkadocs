@@ -181,6 +181,10 @@
   padding-left: 12px;
 }
 
+.prop-card-funding-voting {
+  color: var(--md-default-fg-color--light);
+}
+
 /* ── Detail page ───────────────────────────────────────────── */
 .prop-detail-header {
   border: 1px solid var(--md-default-fg-color--lightest);
@@ -247,6 +251,10 @@
   font-weight: 600;
   color: var(--md-accent-fg-color);
   margin-top: 4px;
+}
+
+.prop-funding-line-voting {
+  color: var(--md-default-fg-color--light);
 }
 
 /* ── Contract details spoiler ──────────────────────────────── */
