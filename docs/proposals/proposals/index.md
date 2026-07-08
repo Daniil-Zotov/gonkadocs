@@ -19,6 +19,10 @@ template: proposals-oview.html
   <input type="checkbox" id="prop-filter-voting" checked>
   <span class="prop-filter-label">Voting</span>
 </label>
+<label class="prop-filter-cb">
+  <input type="checkbox" id="prop-filter-funding">
+  <span class="prop-filter-label">With Funding</span>
+</label>
 <span class="prop-filter-count"></span>
 
 </div>
@@ -1114,7 +1118,7 @@ template: proposals-oview.html
 
 </div>
 <div class="prop-oview-stats">
-<em>80 proposals across 5 quarters. Last updated: 2026-07-08 08:55 UTC</em>
+<em>80 proposals across 5 quarters. Last updated: 2026-07-08 09:57 UTC</em>
 </div>
 
 <script>
@@ -1137,6 +1141,9 @@ function initProposalsPage() {
       else if (status === 'prop-voting' && filters.voting) show = true;
       
       else if (status === 'prop-failed' && filters.rejected) show = true;
+      if (show && filters.funding) {
+        show = card.querySelector('.prop-card-funding') !== null;
+      }
       card.style.display = show ? '' : 'none';
       if (show) visible++;
     });

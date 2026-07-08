@@ -563,12 +563,16 @@ template: proposals-oview.html
   <input type="checkbox" id="prop-filter-voting" checked>
   <span class="prop-filter-label">Voting</span>
 </label>
+<label class="prop-filter-cb">
+  <input type="checkbox" id="prop-filter-funding">
+  <span class="prop-filter-label">With Funding</span>
+</label>
 <span class="prop-filter-count"></span>
 
 </div>
 
 """
-
+ 
     # Compute overall stats
     total = 0
     all_props = []
@@ -704,6 +708,9 @@ function initProposalsPage() {{
       else if (status === 'prop-voting' && filters.voting) show = true;
       
       else if (status === 'prop-failed' && filters.rejected) show = true;
+      if (show && filters.funding) {{
+        show = card.querySelector('.prop-card-funding') !== null;
+      }}
       card.style.display = show ? '' : 'none';
       if (show) visible++;
     }});
@@ -779,6 +786,10 @@ template: proposals-oview.html
 <label class="prop-filter-cb">
   <input type="checkbox" id="prop-filter-voting" checked>
   <span class="prop-filter-label">Voting</span>
+</label>
+<label class="prop-filter-cb">
+  <input type="checkbox" id="prop-filter-funding">
+  <span class="prop-filter-label">With Funding</span>
 </label>
 <span class="prop-filter-count"></span>
 
@@ -872,6 +883,9 @@ function initProposalsPage() {
       else if (status === \'prop-rejected\' && filters.rejected) show = true;
       else if (status === \'prop-voting\' && filters.voting) show = true;
       else if (status === \'prop-failed\' && filters.rejected) show = true;
+      if (show && filters.funding) {
+        show = card.querySelector(\'.prop-card-funding\') !== null;
+      }
       card.style.display = show ? \'\' : \'none\';
       if (show) visible++;
     });
