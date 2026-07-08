@@ -270,16 +270,23 @@
   user-select: none;
   list-style: none;
   display: block;
-  padding-left: 20px;
+  padding-left: 24px;
+  position: relative;
 }
 .prop-contracts summary::-webkit-details-marker {
   display: none;
 }
 .prop-contracts summary::before {
-  content: "▶";
+  content: "▶" !important;
   font-size: 10px;
-  margin-right: 6px;
+  position: absolute;
+  left: 6px;
+  top: 4px;
   transition: transform 0.15s;
+  background: none !important;
+  width: auto !important;
+  height: auto !important;
+  margin: 0 !important;
 }
 .prop-contracts[open] summary::before {
   transform: rotate(90deg);
