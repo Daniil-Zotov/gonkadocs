@@ -27,7 +27,7 @@ template: proposals-proposals-main.html
 
 **Failed reason:** proposal did not get enough votes to pass
 
-<div class="prop-funding-line">$70,000</div>
+<div class="prop-funding-line">$70,000 · Community Pool</div>
 </div>
 
 # Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)

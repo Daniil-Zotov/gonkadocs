@@ -22,7 +22,7 @@ template: proposals-proposals-main.html
 
 **Metadata:** [https://github.com/votkon/epoch-132-analysis](https://github.com/votkon/epoch-132-analysis)
 
-<div class="prop-funding-line">3,100 GNK</div>
+<div class="prop-funding-line">3,100 GNK · Community Pool</div>
 </div>
 
 Distribute compensation for CPoC bug affected participants in epochs 132-133.

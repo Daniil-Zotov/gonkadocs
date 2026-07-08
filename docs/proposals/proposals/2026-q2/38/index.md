@@ -24,7 +24,7 @@ template: proposals-proposals-main.html
 
 **Failed reason:** proposal did not get enough votes to pass
 
-<div class="prop-funding-line">20,000 GNK</div>
+<div class="prop-funding-line">20,000 GNK · Community Pool</div>
 </div>
 
 If you agree say YES — Solution 1: Produce a short review video with 1-2 active community members. Solution 2: Introduce the project to BD managers of major CIS exchanges for listings. Solution 3 (Regulatory safety): To avoid future regulatory risks, we will run regular token drops

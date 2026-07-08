@@ -272,6 +272,108 @@ def parse_amounts_from_messages(messages):
     return int(gnk_total), int(usdt_total)
 
 
+def parse_amounts_by_source(messages):
+    """Extract GNK and USDT amounts grouped by funding source.
+
+    Returns dict[str, tuple[int, int]] mapping source name to (gnk, usdt).
+    Sources: "Community Pool" (MsgCommunityPoolSpend, MsgExecuteContract)
+             "Gov Module" (MsgBatchTransferWithVesting, MsgTransferWithVesting, MsgMultiSend)
+    """
+    USDT_IBC_DENOM = "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4"
+    raw = {}
+
+    for m in messages:
+        t = m.get("@type", "")
+
+        if "MsgCommunityPoolSpend" in t or "MsgExecuteContract" in t:
+            source = "Community Pool"
+        elif "MsgBatchTransferWithVesting" in t or "MsgTransferWithVesting" in t or "MsgMultiSend" in t:
+            source = "Gov Module"
+        else:
+            continue
+
+        gnk_raw, usdt_raw = raw.get(source, (0, 0))
+
+        if "MsgCommunityPoolSpend" in t:
+            for c in m.get("amount", []):
+                denom = c.get("denom", "")
+                try:
+                    amt = int(c.get("amount", "0"))
+                except (ValueError, TypeError):
+                    continue
+                if denom == "ngonka":
+                    gnk_raw += amt
+                elif denom == USDT_IBC_DENOM:
+                    usdt_raw += amt
+
+        elif "MsgExecuteContract" in t:
+            wi = m.get("msg", {}).get("withdraw_ibc", {})
+            if wi and wi.get("denom") == USDT_IBC_DENOM:
+                try:
+                    usdt_raw += int(wi.get("amount", "0"))
+                except (ValueError, TypeError):
+                    pass
+            for c in m.get("funds", []):
+                denom = c.get("denom", "")
+                try:
+                    amt = int(c.get("amount", "0"))
+                except (ValueError, TypeError):
+                    continue
+                if denom == "ngonka":
+                    gnk_raw += amt
+
+        elif "MsgBatchTransferWithVesting" in t:
+            for o in m.get("outputs", []):
+                try:
+                    gnk_raw += int(o.get("amount", "0"))
+                except (ValueError, TypeError):
+                    pass
+
+        elif "MsgTransferWithVesting" in t:
+            for c in m.get("amount", []):
+                denom = c.get("denom", "")
+                try:
+                    amt = int(c.get("amount", "0"))
+                except (ValueError, TypeError):
+                    continue
+                if denom == "ngonka":
+                    gnk_raw += amt
+
+        elif "MsgMultiSend" in t:
+            for inp in m.get("inputs", []):
+                for c in inp.get("coins", []):
+                    denom = c.get("denom", "")
+                    try:
+                        amt = int(c.get("amount", "0"))
+                    except (ValueError, TypeError):
+                        continue
+                    if denom == "ngonka":
+                        gnk_raw += amt
+
+        raw[source] = (gnk_raw, usdt_raw)
+
+    return {src: (int(gnk / 1_000_000_000), int(usdt / 1_000_000)) for src, (gnk, usdt) in raw.items()}
+
+
+def funding_parts_by_source(amt_by_source):
+    """Convert parse_amounts_by_source result to display strings.
+
+    Returns list of strings like "100,000 GNK · Community Pool".
+    """
+    parts = []
+    for source in sorted(amt_by_source.keys()):
+        gnk, usdt = amt_by_source[source]
+        sub = []
+        if gnk > 0:
+            sub.append(f"{gnk:,} GNK")
+        if usdt > 0:
+            sub.append(f"${usdt:,}")
+        if sub:
+            sub.append(source)
+            parts.append(" · ".join(sub))
+    return parts
+
+
 # ── fetch proposals ────────────────────────────────────────────
 
 def fetch_proposals():
@@ -319,7 +421,7 @@ def generate_proposal_page(proposal, prop_dir):
     total_votes = yes_count + no_count + abstain_count + no_with_veto_count
 
     # Extract funding from messages
-    gnk_fund, usdt_fund = parse_amounts_from_messages(messages)
+    amt_by_source = parse_amounts_by_source(messages)
 
     # Status badge HTML
     badge_html = f'<span class="prop-badge {status_css_cls}">{status_label}</span>'
@@ -346,11 +448,7 @@ def generate_proposal_page(proposal, prop_dir):
 """
 
     # Funding line
-    funding_parts = []
-    if gnk_fund > 0:
-        funding_parts.append(f'{gnk_fund:,} GNK')
-    if usdt_fund > 0:
-        funding_parts.append(f'${usdt_fund:,}')
+    funding_parts = funding_parts_by_source(amt_by_source)
     funding_html = ""
     if funding_parts:
         funding_html = f'<div class="prop-funding-line">{" · ".join(funding_parts)}</div>\n'
@@ -496,18 +594,14 @@ template: proposals-oview.html
             pct = (cnt / total * 100) if total else 0
             all_cat_rows += f'<div class="qs-row"><span class="qs-label">{cat}</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:{pct:.0f}%"></span></span><span class="qs-value">{cnt}</span></div>\n'
 
-    o_gnk = 0
-    o_usdt = 0
+    o_amt_by_source = {}
     for p in all_props:
         if p.get("status", "").lower() == "proposal_status_passed":
-            _g, _u = parse_amounts_from_messages(p.get("messages", []))
-            o_gnk += _g
-            o_usdt += _u
-    o_funding_parts = []
-    if o_gnk > 0:
-        o_funding_parts.append(f'{o_gnk:,} GNK')
-    if o_usdt > 0:
-        o_funding_parts.append(f'${o_usdt:,}')
+            _src_amt = parse_amounts_by_source(p.get("messages", []))
+            for src, (_g, _u) in _src_amt.items():
+                pg, pu = o_amt_by_source.get(src, (0, 0))
+                o_amt_by_source[src] = (pg + _g, pu + _u)
+    o_funding_parts = funding_parts_by_source(o_amt_by_source)
     o_funding_line = f'<div class="qs-funding-line">{" · ".join(o_funding_parts)}</div>\n' if o_funding_parts else ""
 
     md += f'''<div class="quarter-summary" markdown="1">
@@ -574,12 +668,8 @@ template: proposals-oview.html
 
                 _funding_html = ""
                 if status_css_cls == "prop-passed":
-                    _gnk, _usdt = parse_amounts_from_messages(p.get("messages", []))
-                    _funding_parts = []
-                    if _gnk > 0:
-                        _funding_parts.append(f'{_gnk:,} GNK')
-                    if _usdt > 0:
-                        _funding_parts.append(f'${_usdt:,}')
+                    _amt_by_source = parse_amounts_by_source(p.get("messages", []))
+                    _funding_parts = funding_parts_by_source(_amt_by_source)
                     if _funding_parts:
                         _funding_html = f'<span class="prop-card-funding">{" · ".join(_funding_parts)}</span>'
 
@@ -659,18 +749,14 @@ def generate_quarter_page(quarter, proposals):
         cat_rows = '<div class="qs-row"><span class="qs-label">Other</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:100%"></span></span><span class="qs-value">{total}</span></div>\n'
 
     # Funding totals from passed proposals
-    q_gnk = 0
-    q_usdt = 0
+    q_amt_by_source = {}
     for p in props:
         if p.get("status", "").lower() == "proposal_status_passed":
-            _g, _u = parse_amounts_from_messages(p.get("messages", []))
-            q_gnk += _g
-            q_usdt += _u
-    q_funding_parts = []
-    if q_gnk > 0:
-        q_funding_parts.append(f'{q_gnk:,} GNK')
-    if q_usdt > 0:
-        q_funding_parts.append(f'${q_usdt:,}')
+            _src_amt = parse_amounts_by_source(p.get("messages", []))
+            for src, (_g, _u) in _src_amt.items():
+                pg, pu = q_amt_by_source.get(src, (0, 0))
+                q_amt_by_source[src] = (pg + _g, pu + _u)
+    q_funding_parts = funding_parts_by_source(q_amt_by_source)
     q_funding_line = f'<div class="qs-funding-line">{" · ".join(q_funding_parts)}</div>\n' if q_funding_parts else ""
 
     md = f'''---
@@ -756,12 +842,8 @@ template: proposals-oview.html
 
             _funding_html = ""
             if status_css_cls == "prop-passed":
-                _gnk, _usdt = parse_amounts_from_messages(p.get("messages", []))
-                _funding_parts = []
-                if _gnk > 0:
-                    _funding_parts.append(f'{_gnk:,} GNK')
-                if _usdt > 0:
-                    _funding_parts.append(f'${_usdt:,}')
+                _amt_by_source = parse_amounts_by_source(p.get("messages", []))
+                _funding_parts = funding_parts_by_source(_amt_by_source)
                 if _funding_parts:
                     _funding_html = f'<span class="prop-card-funding">{" · ".join(_funding_parts)}</span>'
 

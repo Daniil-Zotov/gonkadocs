@@ -22,7 +22,7 @@ template: proposals-proposals-main.html
 
 **Failed reason:** proposal did not get enough votes to pass
 
-<div class="prop-funding-line">$1,000,000</div>
+<div class="prop-funding-line">$1,000,000 · Community Pool</div>
 </div>
 
 test proposal - 测试方案

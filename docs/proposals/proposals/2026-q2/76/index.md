@@ -20,7 +20,7 @@ template: proposals-proposals-main.html
 
 **Proposer:** `gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le`
 
-<div class="prop-funding-line">$93,600</div>
+<div class="prop-funding-line">$93,600 · Community Pool</div>
 </div>
 
 Register devshard approved version v2.

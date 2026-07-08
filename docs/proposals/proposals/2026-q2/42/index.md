@@ -22,7 +22,7 @@ template: proposals-proposals-main.html
 
 **Metadata:** [https://github.com/DeAI-Nation/summit-proposal/blob/main/README.md](https://github.com/DeAI-Nation/summit-proposal/blob/main/README.md)
 
-<div class="prop-funding-line">$10,000</div>
+<div class="prop-funding-line">$10,000 · Community Pool</div>
 </div>
 
 We are DeAI Nation, a global nonprofit organization supporting and promoting the decentralized AI ecosystem, and authors of the State of DeAI 2026 report. We propose that the Gonka community become a sponsor of a scientific panel discussion at the Global Compute Sovereignty Summit in Tashkent, Uzbekistan. Cost: 10,000 USDT. If the vote is successful, the panel will receive official 'Supported by the Gonka community' status. This is a strong opportunity for the community to position itself as a key driver supporting research in this area in front of hundreds of business executives, government officials, and investors, including the Minister of Digital Technologies of the Republic of Uzbekistan Sherzod Shermatov, Executive Director of the Saudi-Uzbek Council Faisal Ba Abdullah, and CEO of Al Fardan Ventures Mohammed Al Fardan. More information about the summit: https://gcss.outsource.gov.uz Detailed proposal: https://github.com/DeAI-Nation/summit-proposal/blob/main/README.md

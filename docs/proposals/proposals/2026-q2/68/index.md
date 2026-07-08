@@ -24,7 +24,7 @@ template: proposals-proposals-main.html
 
 **Metadata:** [https://vote.gonka.vip/tenders/550f71de-897f-4ce5-8af8-97854775f8b2](https://vote.gonka.vip/tenders/550f71de-897f-4ce5-8af8-97854775f8b2)
 
-<div class="prop-funding-line">$70,000</div>
+<div class="prop-funding-line">$70,000 · Community Pool</div>
 </div>
 
 The proposal is reopened for voting at the initiative of several hosts who did not participate in the previous round.

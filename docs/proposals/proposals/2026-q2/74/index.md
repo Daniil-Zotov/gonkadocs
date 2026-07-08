@@ -26,7 +26,7 @@ template: proposals-proposals-main.html
 
 **Metadata:** [https://gonkalabs.com/proposal](https://gonkalabs.com/proposal)
 
-<div class="prop-funding-line">330,000 GNK · $70,000</div>
+<div class="prop-funding-line">$70,000 · Community Pool · 330,000 GNK · Gov Module</div>
 </div>
 
 Full proposal: https://gonkalabs.com/proposal

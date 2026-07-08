@@ -24,7 +24,7 @@ template: proposals-proposals-main.html
 
 **Failed reason:** proposal did not get enough votes to pass
 
-<div class="prop-funding-line">$300,000</div>
+<div class="prop-funding-line">$300,000 · Community Pool</div>
 </div>
 
 IMPORTANT: Below is a condensed version of the proposal. It highlights only the key points and does not disclose all details of the initiative, implementation mechanics, KPIs, or terms. It is strongly recommended to review the full version of the document via the link: https://vote.gonka.vip/tenders/ed8148eb-535e-4677-9a6b-5316c81c996a

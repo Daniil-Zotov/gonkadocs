@@ -41,7 +41,7 @@ template: proposals-oview.html
 <div class="qs-row"><span class="qs-label">Other</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:12%"></span></span><span class="qs-value">2</span></div>
 </div>
 
-<div class="qs-funding-line">3,600 GNK</div>
+<div class="qs-funding-line">3,600 GNK · Community Pool</div>
 
 
 </div>
@@ -84,7 +84,7 @@ template: proposals-oview.html
     <span>Voting ends 2026-03-27</span>
   </div>
   <div class="prop-card-desc">Distribute compensation for CPoC bug affected participants in epochs 132-133.</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 184,243 (41.8%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 256,296 (58.2%)</span><span class="prop-card-funding">3,100 GNK</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 184,243 (41.8%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 256,296 (58.2%)</span><span class="prop-card-funding">3,100 GNK · Community Pool</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -97,7 +97,7 @@ template: proposals-oview.html
     <span>Voting ends 2026-03-24</span>
   </div>
   <div class="prop-card-desc">Distribute compensation proportional to epoch 158 lost preserved weights. Implemented as one MsgBatchTransferWithVesting.</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 501,114 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-funding">500 GNK</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 501,114 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-funding">500 GNK · Community Pool</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">

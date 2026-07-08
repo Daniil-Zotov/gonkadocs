@@ -24,7 +24,7 @@ template: proposals-proposals-main.html
 
 **Failed reason:** proposal did not get enough votes to pass
 
-<div class="prop-funding-line">1 GNK</div>
+<div class="prop-funding-line">1 GNK · Community Pool</div>
 </div>
 
 If you are against MLM projects around gonka.ai, vote YES. All funds will be used to counter such projects. The amount is symbolic.

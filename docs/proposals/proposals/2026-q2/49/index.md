@@ -22,7 +22,7 @@ template: proposals-proposals-main.html
 
 **Metadata:** [https://app.notion.com/p/Gonka-AI-AI-Influencer-Lab-Proposal-3514ff1f5a9a81faae76efbeb153cbe2](https://app.notion.com/p/Gonka-AI-AI-Influencer-Lab-Proposal-3514ff1f5a9a81faae76efbeb153cbe2)
 
-<div class="prop-funding-line">$45,000</div>
+<div class="prop-funding-line">$45,000 · Community Pool</div>
 </div>
 
 We're ICG - AI Influencer Lab, a team that builds and scales hyper-realistic AI avatars on Instagram, TikTok, and YouTube as full ambassadors across verticals. We manage 160+ accounts in AI, finance, crypto, and tech, and generate 100M+ organic monthly views. Our avatars in tech/AI are followed by Mark Cuban, Mark Ruffalo, the UAE Minister of Energy, thousands of entrepreneurs, and the AI-native crowd.

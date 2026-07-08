@@ -31,7 +31,7 @@ template: proposals-proposals-main.html
 
 **Failed reason:** proposal did not get enough votes to pass
 
-<div class="prop-funding-line">$50,000</div>
+<div class="prop-funding-line">$50,000 · Community Pool</div>
 </div>
 
 # Gonka NOP: grant for the node deployment tool

@@ -25,7 +25,7 @@ template: proposals-proposals-main.html
 
 **Failed reason:** proposal did not get enough votes to pass
 
-<div class="prop-funding-line">970,000 GNK</div>
+<div class="prop-funding-line">970,000 GNK · Community Pool</div>
 </div>
 
 This proposal seeks community approval for a global media initiative to build awareness of decentralized AI and position Gonka as core AI infrastructure.
