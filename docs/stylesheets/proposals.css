@@ -283,25 +283,10 @@
   user-select: none;
   list-style: none;
   display: block;
-  padding-left: 22px;
-  position: relative;
 }
 .prop-contracts summary::-webkit-details-marker {
   display: none;
 }
-.prop-contracts summary::before {
-  content: "▶";
-  font-size: 11px;
-  position: absolute;
-  left: 4px;
-  top: 3px;
-  transition: transform 0.15s;
-  color: var(--md-accent-fg-color);
-}
-.prop-contracts[open] summary::before {
-  transform: rotate(90deg);
-}
-
 .prop-contracts pre {
   margin-top: 8px;
   max-height: 400px;
@@ -477,26 +462,10 @@
   user-select: none;
   list-style: none;
   display: block;
-  padding-left: 22px;
-  position: relative;
 }
 
 .prop-full summary::-webkit-details-marker {
   display: none;
-}
-
-.prop-full summary::before {
-  content: "▶";
-  font-size: 11px;
-  position: absolute;
-  left: 4px;
-  top: 3px;
-  transition: transform 0.15s;
-  color: var(--md-accent-fg-color);
-}
-
-.prop-full[open] summary::before {
-  transform: rotate(90deg);
 }
 
 .prop-full > :not(summary) {
