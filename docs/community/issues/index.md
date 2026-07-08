@@ -7,7 +7,7 @@ template: issues-main.html
 
 All issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).
 Total: **302** (🟢 open: **66**, 🔴 closed: **236**).
-Updated: `2026-07-08 03:53 UTC`.
+Updated: `2026-07-08 06:44 UTC`.
 
 <ul class="issues-list">
 <li class="issues-list-item">
@@ -20,7 +20,7 @@ Updated: `2026-07-08 03:53 UTC`.
     <p class="issues-desc">## Operator  Victor Yuritsyn — independent operator Contact: GitHub @yuritsin-code  ## Address  gonka1calhwf505afx0aeeuzjsraw0y3wvak06gklee2  ## Models  - MiniMaxAI/MiniMax-M2.7 - moonshotai/Kimi-K2.6...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@yuritsin-code](https://github.com/yuritsin-code) opened 3 hours ago</span>
+      <span class="issues-meta-item">[@yuritsin-code](https://github.com/yuritsin-code) opened 5 hours ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>
@@ -35,7 +35,7 @@ Updated: `2026-07-08 03:53 UTC`.
     <p class="issues-desc">## Summary  Upgrade simulation (paused only the Gonka `node` container which halts the chain) while bridge (Geth) and `api` stay up. Inbound bridge deposits are detected and queued on unpause, but **v...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span> <span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@maria-mitina](https://github.com/maria-mitina) opened 4 hours ago</span>
+      <span class="issues-meta-item">[@maria-mitina](https://github.com/maria-mitina) opened 7 hours ago</span>
       
     </div>
   </div>
@@ -50,7 +50,7 @@ Updated: `2026-07-08 03:53 UTC`.
     <p class="issues-desc">## Summary  - Introduces a governance-controlled minimum gas price (`FeeParams.min_gas_price`) enforced at consensus level via a custom `TxFeeChecker`, replacing the current `nil` fee checker that all...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #12a6e8; color: #24292f; border-color: #12a6e8;">Priority: Medium</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 4 hours ago</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 7 hours ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -65,7 +65,7 @@ Updated: `2026-07-08 03:53 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 4 hours ago</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 7 hours ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>
@@ -80,7 +80,7 @@ Updated: `2026-07-08 03:53 UTC`.
     <p class="issues-desc">## Summary  When an outbound `RequestBridgeMint` BLS request reaches terminal **`EXPIRED`** (threshold not met), the chain emits `inference.bls.EventThresholdSigningFailed` but **does not** auto-refun...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@maria-mitina](https://github.com/maria-mitina) opened 4 hours ago</span>
+      <span class="issues-meta-item">[@maria-mitina](https://github.com/maria-mitina) opened 7 hours ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>
@@ -95,7 +95,7 @@ Updated: `2026-07-08 03:53 UTC`.
     <p class="issues-desc">## Summary  The Ethereum bridge README currently documents the mint/withdraw `messageHash` format without the `address(this)` bridge contract field, while the actual contract source includes it.  A fi...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@Ryanchen911](https://github.com/Ryanchen911) opened 4 hours ago</span>
+      <span class="issues-meta-item">[@Ryanchen911](https://github.com/Ryanchen911) opened 7 hours ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 4</span>
     </div>
   </div>
@@ -110,7 +110,7 @@ Updated: `2026-07-08 03:53 UTC`.
     <p class="issues-desc">The goal of this is to have in place after this a standard way of handling possible overflows, have it implemented consistently across the entire codebase and to have a check (preferably a static chec...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #12a6e8; color: #24292f; border-color: #12a6e8;">Priority: Medium</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 17 hours ago</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 20 hours ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>
@@ -155,7 +155,7 @@ Updated: `2026-07-08 03:53 UTC`.
     <p class="issues-desc">## Summary  During **gonka-testnet-4** experiments on host **702111**, a long streaming chat through the devshard **gateway** (`POST http://127.0.0.1:18080/v1/chat/completions`) was started while all...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@maria-mitina](https://github.com/maria-mitina) opened 1 day ago</span>
+      <span class="issues-meta-item">[@maria-mitina](https://github.com/maria-mitina) opened 2 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>
@@ -320,7 +320,7 @@ Updated: `2026-07-08 03:53 UTC`.
     <p class="issues-desc">At the moment, `devshards` handle hosts' warm keys in a non deterministic way.  Different hosts can check whether a warm key is authorized at different points in time, using the mainnet bridge, and th...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@dcastro](https://github.com/dcastro) opened 6 days ago</span>
+      <span class="issues-meta-item">[@dcastro](https://github.com/dcastro) opened 7 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -335,7 +335,7 @@ Updated: `2026-07-08 03:53 UTC`.
     <p class="issues-desc">The gateway forces logprobs upstream for validation, but clients who never asked for logprobs should not see them in the response (OpenAI-compatible default). Clients who explicitly set `logprobs: tru...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@a-kuprin](https://github.com/a-kuprin) opened 6 days ago</span>
+      <span class="issues-meta-item">[@a-kuprin](https://github.com/a-kuprin) opened 7 days ago</span>
       
     </div>
   </div>
@@ -350,7 +350,7 @@ Updated: `2026-07-08 03:53 UTC`.
     <p class="issues-desc">## Summary  **Today `subnetctl` does not surface many host-side failures during inference.** When the HTTP call to the executor fails (for example **403 Forbidden** with `sender not in group`), the pr...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@akup](https://github.com/akup) opened 6 days ago</span>
+      <span class="issues-meta-item">[@akup](https://github.com/akup) opened 7 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
