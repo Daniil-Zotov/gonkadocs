@@ -316,14 +316,14 @@ Approve a 4-month pilot of External Test Lab & Community DevNet with a maximum b
 
 | Voter | Amount | Date |
 | :----- | :----- | :--- |
-| `gonka1gm...gzg6ry` | 400.0K GNK | 2026-07-08 09:28 |
+| `gonka1gm...gzg6ry` | 400.0K GNK | 2026-07-08 11:48 |
 
 ---
 
 ## Comments (4)
 
 ### 💬 Dem | Démíngān
-*2026-07-04 12:15* · 👍 4 · 👎 0
+*2026-07-04 12:15* · 👍 5 · 👎 0
 
 АМА: https://youtu.be/tYfeXANyPtM?si=X7g-H1awc1PB1uqI&t=1957
 

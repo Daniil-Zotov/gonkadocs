@@ -16592,7 +16592,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-07-08 09:32 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-07-08 11:55 UTC*
 
 ---
 
@@ -22128,14 +22128,14 @@ Approve a 4-month pilot of External Test Lab & Community DevNet with a maximum b
 
 | Voter | Amount | Date |
 | :----- | :----- | :--- |
-| `gonka1gm...gzg6ry` | 400.0K GNK | 2026-07-08 09:28 |
+| `gonka1gm...gzg6ry` | 400.0K GNK | 2026-07-08 11:48 |
 
 ---
 
 ## Comments (4)
 
 ### 💬 Dem | Démíngān
-*2026-07-04 12:15* · 👍 4 · 👎 0
+*2026-07-04 12:15* · 👍 5 · 👎 0
 
 АМА: https://youtu.be/tYfeXANyPtM?si=X7g-H1awc1PB1uqI&t=1957
 
@@ -22721,23 +22721,34 @@ alexandr8475
 
 ## Overview
 
-80Total Proposals
-52Passed (65%)
+81Total Proposals
+52Passed (64%)
 26Rejected (32%)
 1Failed (1%)
 
-Funding / Grants35
+Funding / Grants36
 Governance Parameters21
 Software Upgrade16
 GRC / Restitution3
 Other3
 Models / IBC2
 
-20,222,572 GNK · $543,600 · Community Pool · 330,832 GNK · Gov Module
+20,222,572 GNK · $543,600 · Community Pool · 4,691,460 GNK · Gov Module
 
 ## 2026-Q3
 
-*2 proposals*
+*3 proposals*
+
+  
+    #82 – External Test Lab x Community DevNet
+    Voting
+  
+  
+    Submitted 2026-07-08
+    Voting ends 2026-07-10
+  
+  4-month pilot of the External Test Lab & Community DevNet: a community-owned testing layer for Gonka. Full proposal and discussion: https://github.com/gonka-ai/gonka/discussions/1388  The budget is he…
+  Yes 0 (0.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)80,000 GNK · $88,000 · Community Pool
 
   
     #81 – Kimi cPoC Restitution (epochs 306-309)
@@ -22748,6 +22759,7 @@ Models / IBC2
     Voting ends 2026-07-10
   
   Distribute restitution for Kimi operators affected by cPoC validation failure in epochs 306-309. The Kimi validation path failed starting in e306 causing confirmation_weight suppression for Kimi opera…
+  Yes 107,866 (93.9%) · No 5,966 (5.2%) · Veto 1,089 (0.9%) · Abstain 0 (0.0%)175,082 GNK · Gov Module
 
   
     #80 – GRC Proposal #3 - Restitution
@@ -22758,7 +22770,7 @@ Models / IBC2
     Voting ends 2026-07-07
   
   Restitution payout for confirmed GRC Proposal #3 cases, with Case 05 payments from proposal_id=67 deducted where the same address and epoch were already compensated, and positive victim outputs below …
-  Yes 16,378 (10.4%) · No 94,721 (60.4%) · Veto 39,454 (25.1%) · Abstain 6,344 (4.0%)
+  Yes 16,378 (10.4%) · No 94,721 (60.4%) · Veto 39,454 (25.1%) · Abstain 6,344 (4.0%)47,850 GNK · Community Pool · 70,184 GNK · Gov Module
 
 ## 2026-Q2
 
@@ -22860,7 +22872,7 @@ Models / IBC2
     Voting ends 2026-06-10
   
   We're a comms team specializing in Organic PR for crypto and tech projects. With strong competition in the space and no active events or marketing currently running for Gonka, we propose a 3-month Org…
-  Yes 180,108 (99.8%) · No 72 (0.0%) · Veto 0 (0.0%) · Abstain 233 (0.1%)
+  Yes 180,108 (99.8%) · No 72 (0.0%) · Veto 0 (0.0%) · Abstain 233 (0.1%)$75,000 · Community Pool
 
   
     #70 – GNK Racers: Launch GameFi Mini-App to Drive User Growth & Wallet Activity
@@ -22871,7 +22883,7 @@ Models / IBC2
     Voting ends 2026-06-08
   
   Release 246,000 GNK from Community Fund to finalize GNK Racers — a multiplayer side-view racing mini-app with a live working prototype (@GNKRacers_bot). The game drives new user acquisition, wallet ac…
-  Yes 38,621 (25.0%) · No 107,644 (69.6%) · Veto 6,241 (4.0%) · Abstain 2,245 (1.5%)
+  Yes 38,621 (25.0%) · No 107,644 (69.6%) · Veto 6,241 (4.0%) · Abstain 2,245 (1.5%)246,000 GNK · Community Pool
 
   
     #69 – Increase minimum governance deposit to 500 GNK
@@ -22904,7 +22916,7 @@ Models / IBC2
     Voting ends 2026-06-05
   
   Distribute restitution for Kimi operators across epochs 265-276. Epochs 265-266: external attack causing CPoC degradation and nonce exclusion. Epochs 267-276: ComputeGroupCap systematic underpayment d…
-  Yes 319,920 (78.9%) · No 150 (0.0%) · Veto 84,623 (20.9%) · Abstain 744 (0.2%)
+  Yes 319,920 (78.9%) · No 150 (0.0%) · Veto 84,623 (20.9%) · Abstain 744 (0.2%)946,509 GNK · Gov Module
 
   
     #66 – test proposal - 测试方案
@@ -22991,7 +23003,7 @@ Models / IBC2
     Voting ends 2026-06-02
   
   Funds milestone 1 (upfront prepayment) of a community-produced onboarding video guide for Gonka. Deliverable: a series of ~15 short, interactive, easy-to-follow videos covering A-to-Z onboarding for b…
-  Yes 24,505 (43.6%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 31,699 (56.4%)
+  Yes 24,505 (43.6%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 31,699 (56.4%)$5,000 · Community Pool
 
   
     #58 – Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)
@@ -23002,7 +23014,7 @@ Models / IBC2
     Voting ends 2026-05-30
   
   # Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)  70,000 USDT from the CommunityPool for a dedicated Falcon Finance deep-dive on Gonka AI. Full proposal: https://vote.gonka.vip/tenders…
-  Yes 98,018 (53.4%) · No 0 (0.0%) · Veto 85,697 (46.6%) · Abstain 0 (0.0%)
+  Yes 98,018 (53.4%) · No 0 (0.0%) · Veto 85,697 (46.6%) · Abstain 0 (0.0%)$70,000 · Community Pool
 
   
     #57 – Approve the Gonka Network Development Roadmap
@@ -23024,7 +23036,7 @@ Models / IBC2
     Voting ends 2026-05-27
   
   # Gonka NOP: grant for the node deployment tool  50,000 USDT from the CommunityPool to INC4 Full proposal: https://github.com/gonka-ai/gonka/discussions/1192  ## What it is  gonka-nop (Node Onboarding…
-  Yes 31,851 (58.6%) · No 9,566 (17.6%) · Veto 12,961 (23.8%) · Abstain 0 (0.0%)
+  Yes 31,851 (58.6%) · No 9,566 (17.6%) · Veto 12,961 (23.8%) · Abstain 0 (0.0%)$50,000 · Community Pool
 
   
     #55 – GRC Proposal #2 - Restitution (epochs 248-254)
@@ -23035,7 +23047,7 @@ Models / IBC2
     Voting ends 2026-05-23
   
   Distribute restitution for Cases 2, 3, and 4 across epochs 248-254. Case 2: preserver weight double-scaling bug (epochs 249-253). Case 3: epoch loss restitution: broad epoch losses, consecutive failur…
-  Yes 188,670 (61.2%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 119,835 (38.8%)39,722 GNK · Community Pool
+  Yes 188,670 (61.2%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 119,835 (38.8%)39,722 GNK · Community Pool · 306,307 GNK · Gov Module
 
   
     #54 – Upgrade Proposal: v0.2.13
@@ -23057,7 +23069,7 @@ Models / IBC2
     Voting ends 2026-05-21
   
   # Gonka NOP: grant for the node deployment tool  50,000 USDT from the CommunityPool to INC4 Full proposal: https://github.com/gonka-ai/gonka/discussions/1192  ## What it is  gonka-nop (Node Onboarding…
-  Yes 139,052 (46.8%) · No 0 (0.0%) · Veto 158,195 (53.2%) · Abstain 0 (0.0%)
+  Yes 139,052 (46.8%) · No 0 (0.0%) · Veto 158,195 (53.2%) · Abstain 0 (0.0%)$50,000 · Community Pool
 
   
     #52 – Upgrade Proposal: v0.2.13
@@ -23123,7 +23135,7 @@ Models / IBC2
     Voting ends 2026-05-06
   
   Retroactive 20K GNK bounty for an open-sourced PoC optimization measuring +10.2% on B200 and +12.5% on H100 with Qwen3-235B-FP8. One-line patch, verified on-chain by independent miners. Details: https…
-  Yes 70,819 (33.6%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 139,828 (66.4%)
+  Yes 70,819 (33.6%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 139,828 (66.4%)20,000 GNK · Community Pool
 
   
     #46 – Epochs 132-247 compensation payout from gov module (batch vesting)
@@ -23134,7 +23146,7 @@ Models / IBC2
     Voting ends 2026-05-04
   
   Two prior upgrades changed the lifecycle of unpaid miner rewards. v0.2.9 (proposal #26, 2026-02-01): when a participant is penalized during cPoC validation, the unaccounted portion of their epoch rewa…
-  Yes 97,030 (36.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 172,837 (64.0%)832 GNK · Gov Module
+  Yes 97,030 (36.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 172,837 (64.0%)3,053,800 GNK · Gov Module
 
   
     #45 – Governance Architecture Proposal for the Gonka.ai Network
@@ -23145,7 +23157,7 @@ Models / IBC2
     Voting ends 2026-05-01
   
   Replace scattered governance discussions and complex CLI voting with a unified Governance Portal - a single interface for all Gonka governance activity. The portal includes: a proposal feed across Dis…
-  Yes 118,126 (25.6%) · No 0 (0.0%) · Veto 210,906 (45.6%) · Abstain 133,057 (28.8%)
+  Yes 118,126 (25.6%) · No 0 (0.0%) · Veto 210,906 (45.6%) · Abstain 133,057 (28.8%)119,000 GNK · Community Pool
 
   
     #44 – Upgrade Proposal: v0.2.12
@@ -23167,7 +23179,7 @@ Models / IBC2
     Voting ends 2026-04-27
   
   Today, participating in Gonka governance requires following multiple channels simultaneously — GitHub, Discord, CLI — just to cast a single vote. Most miners miss proposals entirely or vote too late. …
-  Yes 123,104 (26.5%) · No 335,534 (72.2%) · Veto 5,913 (1.3%) · Abstain 0 (0.0%)
+  Yes 123,104 (26.5%) · No 335,534 (72.2%) · Veto 5,913 (1.3%) · Abstain 0 (0.0%)104,166 GNK · Community Pool
 
   
     #42 – Support Gonka at Global Compute Sovereignty Summit
@@ -23189,7 +23201,7 @@ Models / IBC2
     Voting ends 2026-04-18
   
   Today's explorers and dashboards only show on-chain data, leaving the off-chain state of validators completely opaque. The few operators who do run their own monitoring use different tools, different …
-  Yes 17,955 (57.1%) · No 13,494 (42.9%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 17,955 (57.1%) · No 13,494 (42.9%) · Veto 0 (0.0%) · Abstain 0 (0.0%)$96,000 · Community Pool
 
   
     #40 – Governance: extend voting period to 48 hours
@@ -23222,7 +23234,7 @@ Models / IBC2
     Voting ends 2026-04-09
   
   If you agree say YES — Solution 1: Produce a short review video with 1-2 active community members. Solution 2: Introduce the project to BD managers of major CIS exchanges for listings. Solution 3 (Reg…
-  Yes 0 (0.0%) · No 183 (2.3%) · Veto 7,893 (97.7%) · Abstain 0 (0.0%)
+  Yes 0 (0.0%) · No 183 (2.3%) · Veto 7,893 (97.7%) · Abstain 0 (0.0%)20,000 GNK · Community Pool · 25,000 GNK · Gov Module
 
   
     #37 – What is your stance on MLM projects around gonka.ai?
@@ -23233,7 +23245,7 @@ Models / IBC2
     Voting ends 2026-04-08
   
   If you are against MLM projects around gonka.ai, vote YES. All funds will be used to counter such projects. The amount is symbolic.
-  Yes 957 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 957 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)1 GNK · Community Pool
 
   
     #36 – Register Kava USDT IBC metadata and approve for trading
@@ -23259,7 +23271,7 @@ Models / IBC2
     Voting ends 2026-03-31
   
   This proposal seeks community approval for a global media initiative to build awareness of decentralized AI and position Gonka as core AI infrastructure.  Key elements: Led by TheSoul Group (full-cycl…
-  Yes 9,150 (25.5%) · No 10,325 (28.8%) · Veto 2,450 (6.8%) · Abstain 13,939 (38.9%)
+  Yes 9,150 (25.5%) · No 10,325 (28.8%) · Veto 2,450 (6.8%) · Abstain 13,939 (38.9%)970,000 GNK · Community Pool
 
   
     #34 – gonka.ai / TheSoul social media awareness project
@@ -23280,7 +23292,7 @@ Models / IBC2
     Voting ends 2026-03-27
   
   Distribute compensation for CPoC bug affected participants in epochs 132-133.
-  Yes 184,243 (41.8%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 256,296 (58.2%)3,100 GNK · Community Pool
+  Yes 184,243 (41.8%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 256,296 (58.2%)3,100 GNK · Community Pool · 24,806 GNK · Gov Module
 
   
     #32 – Epoch 158 compensation payout from gov module (batch vesting)
@@ -23291,7 +23303,7 @@ Models / IBC2
     Voting ends 2026-03-24
   
   Distribute compensation proportional to epoch 158 lost preserved weights. Implemented as one MsgBatchTransferWithVesting.
-  Yes 501,114 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)500 GNK · Community Pool
+  Yes 501,114 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)500 GNK · Community Pool · 30,038 GNK · Gov Module
 
   
     #31 – Upgrade Proposal: v0.2.11
@@ -23630,7 +23642,7 @@ Models / IBC2
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-80 proposals across 5 quarters. Last updated: 2026-07-08 10:43 UTC
+81 proposals across 5 quarters. Last updated: 2026-07-08 11:45 UTC
 
 function initProposalsPage() {
   var checkboxes = document.querySelectorAll('.prop-oview-filter input[type=checkbox]');
@@ -23698,7 +23710,7 @@ GRC / Restitution2
 Other1
 Models / IBC1
 
-218,972 GNK · $543,600 · Community Pool · 330,832 GNK · Gov Module
+218,972 GNK · $543,600 · Community Pool · 4,636,616 GNK · Gov Module
 
 2026-Q2
 44 proposals
@@ -23799,7 +23811,7 @@ Models / IBC1
     Voting ends 2026-06-10
   
   We're a comms team specializing in Organic PR for crypto and tech projects. With strong competition in the space and no active events or marketing currently running for Gonka, we propose a 3-month Org…
-  Yes 180,108 (99.8%) · No 72 (0.0%) · Veto 0 (0.0%) · Abstain 233 (0.1%)
+  Yes 180,108 (99.8%) · No 72 (0.0%) · Veto 0 (0.0%) · Abstain 233 (0.1%)$75,000 · Community Pool
 
   
     #70 – GNK Racers: Launch GameFi Mini-App to Drive User Growth & Wallet Activity
@@ -23810,7 +23822,7 @@ Models / IBC1
     Voting ends 2026-06-08
   
   Release 246,000 GNK from Community Fund to finalize GNK Racers — a multiplayer side-view racing mini-app with a live working prototype (@GNKRacers_bot). The game drives new user acquisition, wallet ac…
-  Yes 38,621 (25.0%) · No 107,644 (69.6%) · Veto 6,241 (4.0%) · Abstain 2,245 (1.5%)
+  Yes 38,621 (25.0%) · No 107,644 (69.6%) · Veto 6,241 (4.0%) · Abstain 2,245 (1.5%)246,000 GNK · Community Pool
 
   
     #69 – Increase minimum governance deposit to 500 GNK
@@ -23843,7 +23855,7 @@ Models / IBC1
     Voting ends 2026-06-05
   
   Distribute restitution for Kimi operators across epochs 265-276. Epochs 265-266: external attack causing CPoC degradation and nonce exclusion. Epochs 267-276: ComputeGroupCap systematic underpayment d…
-  Yes 319,920 (78.9%) · No 150 (0.0%) · Veto 84,623 (20.9%) · Abstain 744 (0.2%)
+  Yes 319,920 (78.9%) · No 150 (0.0%) · Veto 84,623 (20.9%) · Abstain 744 (0.2%)946,509 GNK · Gov Module
 
   
     #66 – test proposal - 测试方案
@@ -23930,7 +23942,7 @@ Models / IBC1
     Voting ends 2026-06-02
   
   Funds milestone 1 (upfront prepayment) of a community-produced onboarding video guide for Gonka. Deliverable: a series of ~15 short, interactive, easy-to-follow videos covering A-to-Z onboarding for b…
-  Yes 24,505 (43.6%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 31,699 (56.4%)
+  Yes 24,505 (43.6%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 31,699 (56.4%)$5,000 · Community Pool
 
   
     #58 – Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)
@@ -23941,7 +23953,7 @@ Models / IBC1
     Voting ends 2026-05-30
   
   # Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)  70,000 USDT from the CommunityPool for a dedicated Falcon Finance deep-dive on Gonka AI. Full proposal: https://vote.gonka.vip/tenders…
-  Yes 98,018 (53.4%) · No 0 (0.0%) · Veto 85,697 (46.6%) · Abstain 0 (0.0%)
+  Yes 98,018 (53.4%) · No 0 (0.0%) · Veto 85,697 (46.6%) · Abstain 0 (0.0%)$70,000 · Community Pool
 
   
     #57 – Approve the Gonka Network Development Roadmap
@@ -23963,7 +23975,7 @@ Models / IBC1
     Voting ends 2026-05-27
   
   # Gonka NOP: grant for the node deployment tool  50,000 USDT from the CommunityPool to INC4 Full proposal: https://github.com/gonka-ai/gonka/discussions/1192  ## What it is  gonka-nop (Node Onboarding…
-  Yes 31,851 (58.6%) · No 9,566 (17.6%) · Veto 12,961 (23.8%) · Abstain 0 (0.0%)
+  Yes 31,851 (58.6%) · No 9,566 (17.6%) · Veto 12,961 (23.8%) · Abstain 0 (0.0%)$50,000 · Community Pool
 
   
     #55 – GRC Proposal #2 - Restitution (epochs 248-254)
@@ -23974,7 +23986,7 @@ Models / IBC1
     Voting ends 2026-05-23
   
   Distribute restitution for Cases 2, 3, and 4 across epochs 248-254. Case 2: preserver weight double-scaling bug (epochs 249-253). Case 3: epoch loss restitution: broad epoch losses, consecutive failur…
-  Yes 188,670 (61.2%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 119,835 (38.8%)39,722 GNK · Community Pool
+  Yes 188,670 (61.2%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 119,835 (38.8%)39,722 GNK · Community Pool · 306,307 GNK · Gov Module
 
   
     #54 – Upgrade Proposal: v0.2.13
@@ -23996,7 +24008,7 @@ Models / IBC1
     Voting ends 2026-05-21
   
   # Gonka NOP: grant for the node deployment tool  50,000 USDT from the CommunityPool to INC4 Full proposal: https://github.com/gonka-ai/gonka/discussions/1192  ## What it is  gonka-nop (Node Onboarding…
-  Yes 139,052 (46.8%) · No 0 (0.0%) · Veto 158,195 (53.2%) · Abstain 0 (0.0%)
+  Yes 139,052 (46.8%) · No 0 (0.0%) · Veto 158,195 (53.2%) · Abstain 0 (0.0%)$50,000 · Community Pool
 
   
     #52 – Upgrade Proposal: v0.2.13
@@ -24062,7 +24074,7 @@ Models / IBC1
     Voting ends 2026-05-06
   
   Retroactive 20K GNK bounty for an open-sourced PoC optimization measuring +10.2% on B200 and +12.5% on H100 with Qwen3-235B-FP8. One-line patch, verified on-chain by independent miners. Details: https…
-  Yes 70,819 (33.6%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 139,828 (66.4%)
+  Yes 70,819 (33.6%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 139,828 (66.4%)20,000 GNK · Community Pool
 
   
     #46 – Epochs 132-247 compensation payout from gov module (batch vesting)
@@ -24073,7 +24085,7 @@ Models / IBC1
     Voting ends 2026-05-04
   
   Two prior upgrades changed the lifecycle of unpaid miner rewards. v0.2.9 (proposal #26, 2026-02-01): when a participant is penalized during cPoC validation, the unaccounted portion of their epoch rewa…
-  Yes 97,030 (36.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 172,837 (64.0%)832 GNK · Gov Module
+  Yes 97,030 (36.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 172,837 (64.0%)3,053,800 GNK · Gov Module
 
   
     #45 – Governance Architecture Proposal for the Gonka.ai Network
@@ -24084,7 +24096,7 @@ Models / IBC1
     Voting ends 2026-05-01
   
   Replace scattered governance discussions and complex CLI voting with a unified Governance Portal - a single interface for all Gonka governance activity. The portal includes: a proposal feed across Dis…
-  Yes 118,126 (25.6%) · No 0 (0.0%) · Veto 210,906 (45.6%) · Abstain 133,057 (28.8%)
+  Yes 118,126 (25.6%) · No 0 (0.0%) · Veto 210,906 (45.6%) · Abstain 133,057 (28.8%)119,000 GNK · Community Pool
 
   
     #44 – Upgrade Proposal: v0.2.12
@@ -24106,7 +24118,7 @@ Models / IBC1
     Voting ends 2026-04-27
   
   Today, participating in Gonka governance requires following multiple channels simultaneously — GitHub, Discord, CLI — just to cast a single vote. Most miners miss proposals entirely or vote too late. …
-  Yes 123,104 (26.5%) · No 335,534 (72.2%) · Veto 5,913 (1.3%) · Abstain 0 (0.0%)
+  Yes 123,104 (26.5%) · No 335,534 (72.2%) · Veto 5,913 (1.3%) · Abstain 0 (0.0%)104,166 GNK · Community Pool
 
   
     #42 – Support Gonka at Global Compute Sovereignty Summit
@@ -24128,7 +24140,7 @@ Models / IBC1
     Voting ends 2026-04-18
   
   Today's explorers and dashboards only show on-chain data, leaving the off-chain state of validators completely opaque. The few operators who do run their own monitoring use different tools, different …
-  Yes 17,955 (57.1%) · No 13,494 (42.9%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 17,955 (57.1%) · No 13,494 (42.9%) · Veto 0 (0.0%) · Abstain 0 (0.0%)$96,000 · Community Pool
 
   
     #40 – Governance: extend voting period to 48 hours
@@ -24161,7 +24173,7 @@ Models / IBC1
     Voting ends 2026-04-09
   
   If you agree say YES — Solution 1: Produce a short review video with 1-2 active community members. Solution 2: Introduce the project to BD managers of major CIS exchanges for listings. Solution 3 (Reg…
-  Yes 0 (0.0%) · No 183 (2.3%) · Veto 7,893 (97.7%) · Abstain 0 (0.0%)
+  Yes 0 (0.0%) · No 183 (2.3%) · Veto 7,893 (97.7%) · Abstain 0 (0.0%)20,000 GNK · Community Pool · 25,000 GNK · Gov Module
 
   
     #37 – What is your stance on MLM projects around gonka.ai?
@@ -24172,7 +24184,7 @@ Models / IBC1
     Voting ends 2026-04-08
   
   If you are against MLM projects around gonka.ai, vote YES. All funds will be used to counter such projects. The amount is symbolic.
-  Yes 957 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 957 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)1 GNK · Community Pool
 
   
     #36 – Register Kava USDT IBC metadata and approve for trading
@@ -24256,6 +24268,7 @@ Register devshard approved version v2.
     No 17 (0.0%)
     Veto 0 (0.0%)
     Abstain 16 (0.0%)
+    Total 239,957 votes
   
 
 ---
@@ -24860,6 +24873,7 @@ Add Kimi K2.6 and GLM 5.2 model
     No 0 (0.0%)
     Veto 0 (0.0%)
     Abstain 0 (0.0%)
+    Total 330,364 votes
   
 
 ---
@@ -25390,6 +25404,7 @@ Brand audit, competitive positioning, and audience segmentation for Gonka.AI. Si
     No 0 (0.0%)
     Veto 70,043 (21.5%)
     Abstain 34,369 (10.6%)
+    Total 325,210 votes
   
 
 ---
@@ -25446,7 +25461,7 @@ Passed
 
 [View on gonka.gg](https://gonka.gg/network/proposals/50){:target="_blank"}
 
-Retroactive 20K GNK bounty for an open-sourced PoC optimization measuring +10.2% on B200 and +12.5% on H100 with Qwen3-235B-FP8. One-line patch, verified on-chain by independent miners. Details: https://vote.gonka.vip/tenders/6392c2ea-7fb8-45c7-b1ec-80fb16d81d93
+Retroactive 20K GNK bounty for an open-sourced PoC optimization measuring +10.2% on B200 and +12.5% on H100 with Qwen3-235B-FP8. One-line patch, verified on-chain by independent miners. Details: 
 
 ---
 
@@ -25463,6 +25478,7 @@ Retroactive 20K GNK bounty for an open-sourced PoC optimization measuring +10.2%
     No 0 (0.0%)
     Veto 0 (0.0%)
     Abstain 194,589 (40.9%)
+    Total 476,312 votes
   
 
 ---
@@ -25534,6 +25550,7 @@ Full 360-degree digital and social strategy for Gonka.AI: channel matrix, conten
     No 0 (0.0%)
     Veto 70,043 (21.5%)
     Abstain 34,369 (10.6%)
+    Total 325,210 votes
   
 
 ---
@@ -25605,6 +25622,7 @@ Crypto-influencer pilot campaign for Gonka.AI across selected tier-1 creators, w
     No 0 (0.0%)
     Veto 70,043 (21.5%)
     Abstain 34,369 (10.6%)
+    Total 325,210 votes
   
 
 ---
@@ -25663,7 +25681,7 @@ Rejected
 
 [View on gonka.gg](https://gonka.gg/network/proposals/47){:target="_blank"}
 
-Retroactive 20K GNK bounty for an open-sourced PoC optimization measuring +10.2% on B200 and +12.5% on H100 with Qwen3-235B-FP8. One-line patch, verified on-chain by independent miners. Details: https://vote.gonka.vip/tenders/6392c2ea-7fb8-45c7-b1ec-80fb16d81d93
+Retroactive 20K GNK bounty for an open-sourced PoC optimization measuring +10.2% on B200 and +12.5% on H100 with Qwen3-235B-FP8. One-line patch, verified on-chain by independent miners. Details: 
 
 ---
 
@@ -25680,6 +25698,7 @@ Retroactive 20K GNK bounty for an open-sourced PoC optimization measuring +10.2%
     No 0 (0.0%)
     Veto 0 (0.0%)
     Abstain 139,828 (66.4%)
+    Total 210,647 votes
   
 
 ---
@@ -25732,7 +25751,7 @@ Rejected
 
 **Failed reason:** proposal did not get enough votes to pass
 
-20,000 GNK · Community Pool
+20,000 GNK · Community Pool · 25,000 GNK · Gov Module
 
 [View on gonka.gg](https://gonka.gg/network/proposals/38){:target="_blank"}
 
@@ -25753,6 +25772,7 @@ If you agree say YES — Solution 1: Produce a short review video with 1-2 activ
     No 183 (2.3%)
     Veto 7,893 (97.7%)
     Abstain 0 (0.0%)
+    Total 8,076 votes
   
 
 ---
@@ -25829,7 +25849,7 @@ $50,000 · Community Pool
 # Gonka NOP: grant for the node deployment tool
 
 50,000 USDT from the CommunityPool to INC4
-Full proposal: https://github.com/gonka-ai/gonka/discussions/1192
+Full proposal: 
 
 ## What it is
 
@@ -25854,9 +25874,9 @@ The broader the operator set, the more resilient the network.
 
 ## Links
 
-Repository on GitHub: https://github.com/inc4/gonka-nop
-Documentation: https://github.com/inc4/gonka-nop/blob/main/README.md
-Live walkthrough on YouTube (by Gonka.Top@Mitch): https://www.youtube.com/watch?v=1t9GEMN92Vo
+Repository on GitHub: 
+Documentation: 
+Live walkthrough on YouTube (by Gonka.Top@Mitch): 
 
 ---
 
@@ -25873,6 +25893,7 @@ Live walkthrough on YouTube (by Gonka.Top@Mitch): https://www.youtube.com/watch?
     No 0 (0.0%)
     Veto 158,195 (53.2%)
     Abstain 0 (0.0%)
+    Total 297,247 votes
   
 
 ---
@@ -25942,6 +25963,7 @@ This proposal updates x/gov: the standard voting period becomes 48 hours (was 24
     No 0 (0.0%)
     Veto 12,030 (1.8%)
     Abstain 264,790 (40.5%)
+    Total 653,978 votes
   
 
 ---
@@ -26013,6 +26035,8 @@ Passed
 
 **Metadata:** [https://github.com/votkon/gonka-kimi-restitution](https://github.com/votkon/gonka-kimi-restitution)
 
+946,509 GNK · Gov Module
+
 [View on gonka.gg](https://gonka.gg/network/proposals/67){:target="_blank"}
 
 Distribute restitution for Kimi operators across epochs 265-276. Epochs 265-266: external attack causing CPoC degradation and nonce exclusion. Epochs 267-276: ComputeGroupCap systematic underpayment due to attack-induced N-1 weight collapse. Total: 946,509.93 GNK to 53 addresses.
@@ -26032,6 +26056,7 @@ Distribute restitution for Kimi operators across epochs 265-276. Epochs 265-266:
     No 150 (0.0%)
     Veto 84,623 (20.9%)
     Abstain 744 (0.2%)
+    Total 405,437 votes
   
 
 ---
@@ -26567,6 +26592,7 @@ Adds a community-operated wallet to devshard_escrow_params.allowed_creator_addre
     No 7,953 (3.3%)
     Veto 221,234 (90.7%)
     Abstain 9,421 (3.9%)
+    Total 243,945 votes
   
 
 ---
@@ -27032,7 +27058,7 @@ The proposal is reopened for voting at the initiative of several hosts who did n
 • We are now committing to an implementation timeframe of 25–60 days.
 • The inference product has significantly improved, so by the time the video is released, the GonkaAI will be in a much stronger position.
 
-Falcon Finance https://www.youtube.com/@FalconFinanceX is a highly influential YouTube channel by Alexander Sokolovsky (160k+ subscribers, 100k–600k+ views per video) reaching a thoughtful audience interested in the economy and the future. In October 2025, Alexander released the viral Liberman brothers interview ("OpenAI is a bubble"), which became the first touchpoint with Gonka AI for many of our current active community members.
+Falcon Finance  is a highly influential YouTube channel by Alexander Sokolovsky (160k+ subscribers, 100k–600k+ views per video) reaching a thoughtful audience interested in the economy and the future. In October 2025, Alexander released the viral Liberman brothers interview ("OpenAI is a bubble"), which became the first touchpoint with Gonka AI for many of our current active community members.
 
 Proposal for Gonka: Fund a dedicated 25–35 minute high-quality, author-driven video exploring the core dilemma of the AI future. The video will contrast the path of corporate monopoly with the decentralized, open AI approach. Gonka AI will be deeply and natively integrated as the prime example of the positive scenario — showcasing useful Proof-of-Work and open compute infrastructure.
 
@@ -27040,7 +27066,7 @@ Value & Projections: This is a full-scale analytical deep-dive that builds genui
 
 Cost: 70,000 USD for full end-to-end production and permanent publication.
 
-Full proposal: https://vote.gonka.vip/tenders/550f71de-897f-4ce5-8af8-97854775f8b2
+Full proposal: 
 
 ---
 
@@ -27057,6 +27083,7 @@ Full proposal: https://vote.gonka.vip/tenders/550f71de-897f-4ce5-8af8-97854775f8
     No 749 (0.3%)
     Veto 6,288 (2.3%)
     Abstain 2,546 (0.9%)
+    Total 269,936 votes
   
 
 ---
@@ -27130,6 +27157,7 @@ Brand identity system for Gonka.AI: logo, typography, color system, graphic lang
     No 0 (0.0%)
     Veto 70,043 (21.5%)
     Abstain 34,369 (10.6%)
+    Total 325,210 votes
   
 
 ---
@@ -27201,6 +27229,7 @@ Set delegation initial_model_id to MiniMaxAI/MiniMax-M2.7, keep only MiniMaxAI/M
     No 170 (0.1%)
     Veto 0 (0.0%)
     Abstain 7,390 (2.8%)
+    Total 262,775 votes
   
 
 ---
@@ -27632,7 +27661,7 @@ Rejected
 
 [View on gonka.gg](https://gonka.gg/network/proposals/43){:target="_blank"}
 
-Today, participating in Gonka governance requires following multiple channels simultaneously — GitHub, Discord, CLI — just to cast a single vote. Most miners miss proposals entirely or vote too late. Low participation threatens quorum and undermines the network's ability to make decisions. We propose a unified Governance Portal that brings all governance activity into one place: a proposal feed, miner-weighted ratings, deposit crowdfunding, and browser-based voting via a restricted hot key. No CLI required. No missed votes. Funding request: 50,000 USDT equivalent in GNK, paid in full upon approval. Full proposal and prototype: https://github.com/gonka-ai/gonka/discussions/1104
+Today, participating in Gonka governance requires following multiple channels simultaneously — GitHub, Discord, CLI — just to cast a single vote. Most miners miss proposals entirely or vote too late. Low participation threatens quorum and undermines the network's ability to make decisions. We propose a unified Governance Portal that brings all governance activity into one place: a proposal feed, miner-weighted ratings, deposit crowdfunding, and browser-based voting via a restricted hot key. No CLI required. No missed votes. Funding request: 50,000 USDT equivalent in GNK, paid in full upon approval. Full proposal and prototype: 
 
 ---
 
@@ -27649,6 +27678,7 @@ Today, participating in Gonka governance requires following multiple channels si
     No 335,534 (72.2%)
     Veto 5,913 (1.3%)
     Abstain 0 (0.0%)
+    Total 464,551 votes
   
 
 ---
@@ -27703,7 +27733,7 @@ Passed
 
 [View on gonka.gg](https://gonka.gg/network/proposals/39){:target="_blank"}
 
-Saccade Media House is a creative team of tech entrepreneurs who know how to tell stories. We've built content for international tech brands and the founders behind them. We propose a Community Series — a film about why Gonka exists and who stands behind it. The goal: a viewer walks away thinking — "this is something real, I want to be part of it." Timeline: 30–35 days, Cinematic approach. Duration: 7–10 minutes. Budget: 31,250 GNK. We believe AI content overload will trigger a quality Renaissance. We build for the ones who stay. After the first film, we'll invite the community to a creative session — to define the priority audience and shape the top 3 narrative themes for what comes next. Before you vote — we made something for you: an awareness video, three shorts as a gift, and a full breakdown of our approach. Link: https://miro.com/app/board/uXjVG6L2uvQ=/
+Saccade Media House is a creative team of tech entrepreneurs who know how to tell stories. We've built content for international tech brands and the founders behind them. We propose a Community Series — a film about why Gonka exists and who stands behind it. The goal: a viewer walks away thinking — "this is something real, I want to be part of it." Timeline: 30–35 days, Cinematic approach. Duration: 7–10 minutes. Budget: 31,250 GNK. We believe AI content overload will trigger a quality Renaissance. We build for the ones who stay. After the first film, we'll invite the community to a creative session — to define the priority audience and shape the top 3 narrative themes for what comes next. Before you vote — we made something for you: an awareness video, three shorts as a gift, and a full breakdown of our approach. Link: 
 
 ---
 
@@ -27720,6 +27750,7 @@ Saccade Media House is a creative team of tech entrepreneurs who know how to tel
     No 183 (0.0%)
     Veto 0 (0.0%)
     Abstain 124,587 (24.0%)
+    Total 519,741 votes
   
 
 ---
@@ -27776,7 +27807,7 @@ Rejected
 
 [View on gonka.gg](https://gonka.gg/network/proposals/70){:target="_blank"}
 
-Release 246,000 GNK from Community Fund to finalize GNK Racers — a multiplayer side-view racing mini-app with a live working prototype (@GNKRacers_bot). The game drives new user acquisition, wallet activations, and GNK wagering velocity on Gonka, with future AI-agent auto-races generating Host GPU inference demand (Q1 2027). Single allocation requested to streamline cross-functional production and marketing execution. Full transparent budget, team breakdown, and deliverables: https://github.com/Pestarzt0011/GNKRacers-proposal. Bi-weekly progress reporting committed.
+Release 246,000 GNK from Community Fund to finalize GNK Racers — a multiplayer side-view racing mini-app with a live working prototype (@GNKRacers_bot). The game drives new user acquisition, wallet activations, and GNK wagering velocity on Gonka, with future AI-agent auto-races generating Host GPU inference demand (Q1 2027). Single allocation requested to streamline cross-functional production and marketing execution. Full transparent budget, team breakdown, and deliverables:  Bi-weekly progress reporting committed.
 
 ---
 
@@ -27793,6 +27824,7 @@ Release 246,000 GNK from Community Fund to finalize GNK Racers — a multiplayer
     No 107,644 (69.6%)
     Veto 6,241 (4.0%)
     Abstain 2,245 (1.5%)
+    Total 154,751 votes
   
 
 ---
@@ -27861,7 +27893,7 @@ Detecting and preventing even a single major network-wide incident, or a series 
 
 We request 96K in USDT over 12 months, paid in quarterly tranches, to deploy and maintain a production-grade observability platform — custom Gonka exporters, fleet-wide and individual dashboards, opt-in log aggregation, external endpoint health checks, alerting and SLA reporting, hands-on validator onboarding, incident response support, and ongoing operational maintenance. All code, configurations, and dashboards will be open-source and published in public GitHub repositories.
 
-Full proposal and discussion: https://github.com/gonka-ai/gonka/discussions/1085
+Full proposal and discussion: 
 
 ---
 
@@ -27878,6 +27910,7 @@ Full proposal and discussion: https://github.com/gonka-ai/gonka/discussions/1085
     No 13,494 (42.9%)
     Veto 0 (0.0%)
     Abstain 0 (0.0%)
+    Total 31,449 votes
   
 
 ---
@@ -27949,6 +27982,7 @@ Web analytics, attribution, and funnel dashboarding for Gonka.AI: GA4 implementa
     No 0 (0.0%)
     Veto 70,043 (21.5%)
     Abstain 34,369 (10.6%)
+    Total 325,210 votes
   
 
 ---
@@ -28018,6 +28052,7 @@ Upgrade Proposal: v0.2.13
     No 0 (0.0%)
     Veto 0 (0.0%)
     Abstain 135,071 (37.2%)
+    Total 363,287 votes
   
 
 ---
@@ -28089,6 +28124,7 @@ Full redesign of gonka.ai plus dedicated landing pages for miners, inference buy
     No 0 (0.0%)
     Veto 70,043 (21.5%)
     Abstain 34,369 (10.6%)
+    Total 325,210 votes
   
 
 ---
@@ -28141,13 +28177,13 @@ Passed
 
 **Metadata:** [https://github.com/gonkavip/taxreturn/blob/main/README.md](https://github.com/gonkavip/taxreturn/blob/main/README.md)
 
-832 GNK · Gov Module
+3,053,800 GNK · Gov Module
 
 [View on gonka.gg](https://gonka.gg/network/proposals/46){:target="_blank"}
 
 Two prior upgrades changed the lifecycle of unpaid miner rewards. v0.2.9 (proposal #26, 2026-02-01): when a participant is penalized during cPoC validation, the unaccounted portion of their epoch reward is no longer redistributed among the remaining participants in the epoch — it is sent to the gov module account. v0.2.11 (proposal #31, 2026-03-20, PR #775): slashed collateral was likewise routed to the gov account instead of being burned. As a result the gov account (gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33) has accumulated roughly 3 053 801 GNK of withheld miner rewards over epochs 132–247. These coins were originally minted as miner reward, not as community subsidy. The community pool (gonka1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8h2rzwa, separate account) already holds ~103M GNK + 10K IBC USDT for community initiatives.
 
-What this proposal does. Returns the historical inflow of epochs 132–247 to the miners who actually performed in those epochs, proportional to each miner's rewarded_coins. Distribution is computed deterministically from on-chain data via a single Python script: see https://github.com/gonkavip/taxreturn for the full algorithm, reproducible code, and the exact payout CSV. Total to be distributed: 3 053 800.853 GNK across 1 623 recipients.
+What this proposal does. Returns the historical inflow of epochs 132–247 to the miners who actually performed in those epochs, proportional to each miner's rewarded_coins. Distribution is computed deterministically from on-chain data via a single Python script: see  for the full algorithm, reproducible code, and the exact payout CSV. Total to be distributed: 3 053 800.853 GNK across 1 623 recipients.
 
 Execution. Recipients with share ≥ 10 GNK (1 204 miners, 3 052 968.210 GNK) are paid via MsgBatchTransferWithVesting with 180-epoch vesting (same instrument used by proposals #32 and #33), split into 3 batches of ≤500 outputs as required by the streamvesting module. Recipients with share  247 plus minor pre-132 entries) and is not addressed by this proposal.
 
@@ -28166,6 +28202,7 @@ Execution. Recipients with share ≥ 10 GNK (1 204 miners, 3 052 968.210 GNK) ar
     No 0 (0.0%)
     Veto 0 (0.0%)
     Abstain 172,837 (64.0%)
+    Total 269,867 votes
   
 
 ---
@@ -42873,6 +42910,7 @@ test proposal - 测试方案
     No 0 (0.0%)
     Veto 579,377 (100.0%)
     Abstain 0 (0.0%)
+    Total 579,377 votes
   
 
 ---
@@ -42931,7 +42969,7 @@ Rejected
 
 [View on gonka.gg](https://gonka.gg/network/proposals/45){:target="_blank"}
 
-Replace scattered governance discussions and complex CLI voting with a unified Governance Portal - a single interface for all Gonka governance activity. The portal includes: a proposal feed across Discussion/Voting/Archive stages, miner-weighted ranking, crowdfunded deposit collection, targeted notifications (Telegram/email/on-site), and browser-based voting via restricted hot keys (no CLI required). Critical point: this is not just a convenient UI - the crowdfunded deposit mechanism acts as an economic quality filter that screens proposals before they reach on-chain voting, preventing low-effort or spam proposals from consuming validator attention. Funding request: 50,000 USDT (~119,000 GNK), split into Phase 1 MVP (30,000 USDT - portal frontend/backend, wallet auth, deposit crowdfunding) and Phase 2 (20,000 USDT - escrow contracts, dynamic quorum, reputation systems). Code will be open-sourced upon launch. We guarantee 90 days of post-launch support; afterwards, the portal becomes community-owned and further support/maintenance will be funded through community governance votes. Prototype: https://vote-demo.gonkabroker.com. Full discussion: https://github.com/gonka-ai/gonka/discussions/1104.
+Replace scattered governance discussions and complex CLI voting with a unified Governance Portal - a single interface for all Gonka governance activity. The portal includes: a proposal feed across Discussion/Voting/Archive stages, miner-weighted ranking, crowdfunded deposit collection, targeted notifications (Telegram/email/on-site), and browser-based voting via restricted hot keys (no CLI required). Critical point: this is not just a convenient UI - the crowdfunded deposit mechanism acts as an economic quality filter that screens proposals before they reach on-chain voting, preventing low-effort or spam proposals from consuming validator attention. Funding request: 50,000 USDT (~119,000 GNK), split into Phase 1 MVP (30,000 USDT - portal frontend/backend, wallet auth, deposit crowdfunding) and Phase 2 (20,000 USDT - escrow contracts, dynamic quorum, reputation systems). Code will be open-sourced upon launch. We guarantee 90 days of post-launch support; afterwards, the portal becomes community-owned and further support/maintenance will be funded through community governance votes. Prototype:  Full discussion: 
 
 ---
 
@@ -42948,6 +42986,7 @@ Replace scattered governance discussions and complex CLI voting with a unified G
     No 0 (0.0%)
     Veto 210,906 (45.6%)
     Abstain 133,057 (28.8%)
+    Total 462,089 votes
   
 
 ---
@@ -43002,7 +43041,7 @@ $75,000 · Community Pool
 
 [View on gonka.gg](https://gonka.gg/network/proposals/51){:target="_blank"}
 
-6Block, a long-term Gonka mining and infrastructure participant, proposes that the Gonka community allocate 75,000 USDT to support Gonka's participation at WebX Asia / WebX 2026 in Tokyo. 6Block has already committed 50% of the needed 150,000 USDT of its own funds for the official Platinum sponsorship. If approved, the funds will be transferred to 6Block's designated wallet and used for event execution (team travel, accommodation, booth production, materials, media support, partner coordination). 6Block will provide a post-event summary to the community. Full proposal: https://github.com/6block/gonka-webx-proposal/blob/main/README.md
+6Block, a long-term Gonka mining and infrastructure participant, proposes that the Gonka community allocate 75,000 USDT to support Gonka's participation at WebX Asia / WebX 2026 in Tokyo. 6Block has already committed 50% of the needed 150,000 USDT of its own funds for the official Platinum sponsorship. If approved, the funds will be transferred to 6Block's designated wallet and used for event execution (team travel, accommodation, booth production, materials, media support, partner coordination). 6Block will provide a post-event summary to the community. Full proposal: 
 
 ---
 
@@ -43019,6 +43058,7 @@ $75,000 · Community Pool
     No 1,767 (0.3%)
     Veto 64,217 (10.2%)
     Abstain 168,275 (26.7%)
+    Total 629,262 votes
   
 
 ---
@@ -43075,7 +43115,7 @@ $70,000 · Community Pool · 330,000 GNK · Gov Module
 
 [View on gonka.gg](https://gonka.gg/network/proposals/74){:target="_blank"}
 
-Full proposal: https://gonkalabs.com/proposal
+Full proposal: 
 
 This proposal funds the next six months of work for the Gonka ecosystem.
 
@@ -43087,7 +43127,7 @@ Accountability commitments include monthly public progress and spending reports,
 
 Budget: 70,000 USDT paid immediately to cover six months of server infrastructure, monitoring, operations, and guaranteed stablecoin compensation; plus 330,000 GNK vested to the core team over 180 Gonka vesting epochs, aligning the team with long-term network growth.
 
-Full proposal: https://gonkalabs.com/proposal
+Full proposal: 
 
 ---
 
@@ -43104,6 +43144,7 @@ Full proposal: https://gonkalabs.com/proposal
     No 3,791 (1.0%)
     Veto 15 (0.0%)
     Abstain 74,304 (19.4%)
+    Total 383,273 votes
   
 
 ---
@@ -43188,6 +43229,7 @@ Increase the minimum deposit required to submit a governance proposal from the c
     No 46 (0.0%)
     Veto 4,202 (2.0%)
     Abstain 2,210 (1.1%)
+    Total 206,257 votes
   
 
 ---
@@ -43259,7 +43301,7 @@ Passed
 
 **Metadata:** [https://github.com/votkon/grc-proposal-2](https://github.com/votkon/grc-proposal-2)
 
-39,722 GNK · Community Pool
+39,722 GNK · Community Pool · 306,307 GNK · Gov Module
 
 [View on gonka.gg](https://gonka.gg/network/proposals/55){:target="_blank"}
 
@@ -43280,6 +43322,7 @@ Distribute restitution for Cases 2, 3, and 4 across epochs 248-254. Case 2: pres
     No 0 (0.0%)
     Veto 0 (0.0%)
     Abstain 119,835 (38.8%)
+    Total 308,505 votes
   
 
 ---
@@ -44190,7 +44233,7 @@ $300,000 · Community Pool
 
 [View on gonka.gg](https://gonka.gg/network/proposals/75){:target="_blank"}
 
-IMPORTANT: Below is a condensed version of the proposal. It highlights only the key points and does not disclose all details of the initiative, implementation mechanics, KPIs, or terms. It is strongly recommended to review the full version of the document via the link: https://vote.gonka.vip/tenders/ed8148eb-535e-4677-9a6b-5316c81c996a
+IMPORTANT: Below is a condensed version of the proposal. It highlights only the key points and does not disclose all details of the initiative, implementation mechanics, KPIs, or terms. It is strongly recommended to review the full version of the document via the link: 
 
 Private Inc × Gonka — Network Growth Initiative
 
@@ -44260,7 +44303,7 @@ The funds are intended to be used primarily for attracting new users, developers
 
 Successful completion of the first phase will provide measurable results and help determine the potential for further scaling of the growth program.
 
-IMPORTANT: This is a condensed version of the document and does not include many important details, calculations, implementation terms, or supporting rationale. To fully understand the proposal, please review the complete version of the document via the following link: https://vote.gonka.vip/tenders/ed8148eb-535e-4677-9a6b-5316c81c996a
+IMPORTANT: This is a condensed version of the document and does not include many important details, calculations, implementation terms, or supporting rationale. To fully understand the proposal, please review the complete version of the document via the following link: 
 
 ---
 
@@ -44277,6 +44320,7 @@ IMPORTANT: This is a condensed version of the document and does not include many
     No 0 (0.0%)
     Veto 313,499 (100.0%)
     Abstain 0 (0.0%)
+    Total 313,499 votes
   
 
 ---
@@ -44346,6 +44390,7 @@ Increase the minimum deposit required to submit a governance proposal to 500 GNK
     No 40 (0.0%)
     Veto 572 (0.2%)
     Abstain 10,823 (3.5%)
+    Total 307,278 votes
   
 
 ---
@@ -44423,7 +44468,7 @@ $75,000 · Community Pool
 
 [View on gonka.gg](https://gonka.gg/network/proposals/71){:target="_blank"}
 
-We're a comms team specializing in Organic PR for crypto and tech projects. With strong competition in the space and no active events or marketing currently running for Gonka, we propose a 3-month Organic PR campaign built around one idea: create a new category in decentralized AI space and make Gonka the name that owns it. We do this through earned, credible coverage in top-tier media rather than paid placements. The campaign runs on two parallel tracks: a mainstream track targeting general tech and business audiences via outlets like Forbes, Wired, Bloomberg, The Verge, and Fortune; and a crypto-native track targeting technically sophisticated founders and builders via podcasts like Bankless and Unchained. We amplify reach by working with the personal brands of the Lieberman brothers and other speakers from the community, positioning them as the faces of the category. Deliverables include native editorial content, podcasts, speakerships at the conferences and a flagship industry report built on real market data to anchor Gonka as a thought leader. KPIs over 3 months: a minimum of 35 unique placements - Top Tier, Tier 1 and Tier 2 media (the full list is inside the deck), daily monitoring of the news agenda for reactive opportunities, and a monthly competitive PR analysis. Cost: 75,000 USDT for 3 months. Full proposal: https://www.figma.com/deck/qd7a7bkcit9O1LZ8whP9Ei loom: https://www.loom.com/share/f2bd2f2b831f4c78bc5d4878059d8291
+We're a comms team specializing in Organic PR for crypto and tech projects. With strong competition in the space and no active events or marketing currently running for Gonka, we propose a 3-month Organic PR campaign built around one idea: create a new category in decentralized AI space and make Gonka the name that owns it. We do this through earned, credible coverage in top-tier media rather than paid placements. The campaign runs on two parallel tracks: a mainstream track targeting general tech and business audiences via outlets like Forbes, Wired, Bloomberg, The Verge, and Fortune; and a crypto-native track targeting technically sophisticated founders and builders via podcasts like Bankless and Unchained. We amplify reach by working with the personal brands of the Lieberman brothers and other speakers from the community, positioning them as the faces of the category. Deliverables include native editorial content, podcasts, speakerships at the conferences and a flagship industry report built on real market data to anchor Gonka as a thought leader. KPIs over 3 months: a minimum of 35 unique placements - Top Tier, Tier 1 and Tier 2 media (the full list is inside the deck), daily monitoring of the news agenda for reactive opportunities, and a monthly competitive PR analysis. Cost: 75,000 USDT for 3 months. Full proposal:  loom: 
 
 ---
 
@@ -44440,6 +44485,7 @@ We're a comms team specializing in Organic PR for crypto and tech projects. With
     No 72 (0.0%)
     Veto 0 (0.0%)
     Abstain 233 (0.1%)
+    Total 180,413 votes
   
 
 ---
@@ -44511,6 +44557,7 @@ During the Kimi-K2.6 bootstrap, the 30% direct participation threshold proved ha
     No 0 (0.0%)
     Veto 0 (0.0%)
     Abstain 0 (0.0%)
+    Total 808,529 votes
   
 
 ---
@@ -44944,7 +44991,7 @@ $5,000 · Community Pool
 
 [View on gonka.gg](https://gonka.gg/network/proposals/59){:target="_blank"}
 
-Funds milestone 1 (upfront prepayment) of a community-produced onboarding video guide for Gonka. Deliverable: a series of ~15 short, interactive, easy-to-follow videos covering A-to-Z onboarding for both hosts and inference users, following the official Gonka documentation. Produced by a 3-person team that has contributed to blockchain education content, including work on explanatory videos for CoinGecko and on paid, well-reviewed Udemy blockchain courses. Total project budget: 15,000 USDT, split across two governance proposals to cap network risk. This proposal disburses 5,000 USDT (~33%) as upfront funding; a second proposal will request the remaining 10,000 USDT on delivery (target ~3 weeks). Recipient: gonka1tg7x8pv5lfnytkr9av3532mf2qq22ysdxxzr87. Amount: 5,000 USDT. Examples of prior work: https://www.youtube.com/watch?v=HzF6kyS3Fb8 and https://www.udemy.com/course/build-smart-contracts-for-cardano-blockchain/ . Questions: rohan.sm.content@outlook.com.
+Funds milestone 1 (upfront prepayment) of a community-produced onboarding video guide for Gonka. Deliverable: a series of ~15 short, interactive, easy-to-follow videos covering A-to-Z onboarding for both hosts and inference users, following the official Gonka documentation. Produced by a 3-person team that has contributed to blockchain education content, including work on explanatory videos for CoinGecko and on paid, well-reviewed Udemy blockchain courses. Total project budget: 15,000 USDT, split across two governance proposals to cap network risk. This proposal disburses 5,000 USDT (~33%) as upfront funding; a second proposal will request the remaining 10,000 USDT on delivery (target ~3 weeks). Recipient: gonka1tg7x8pv5lfnytkr9av3532mf2qq22ysdxxzr87. Amount: 5,000 USDT. Examples of prior work:  and  . Questions: rohan.sm.content@outlook.com.
 
 ---
 
@@ -44961,6 +45008,7 @@ Funds milestone 1 (upfront prepayment) of a community-produced onboarding video 
     No 0 (0.0%)
     Veto 0 (0.0%)
     Abstain 31,699 (56.4%)
+    Total 56,204 votes
   
 
 ---
@@ -45022,11 +45070,11 @@ $70,000 · Community Pool
 # Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)
 
 70,000 USDT from the CommunityPool for a dedicated Falcon Finance deep-dive on Gonka AI.
-Full proposal: https://vote.gonka.vip/tenders/550f71de-897f-4ce5-8af8-97854775f8b2
+Full proposal: 
 
 ## About the channel
 
-Falcon Finance (https://www.youtube.com/@FalconFinanceX) is a highly influential YouTube channel by Alexander Sokolovsky (160k+ subscribers, 100k–600k+ views per video) reaching a thoughtful audience interested in the economy and the future. In October 2025, Alexander released the viral Liberman brothers interview ("OpenAI is a bubble"), which became the first touchpoint with Gonka AI for many of our current active community members.
+Falcon Finance () is a highly influential YouTube channel by Alexander Sokolovsky (160k+ subscribers, 100k–600k+ views per video) reaching a thoughtful audience interested in the economy and the future. In October 2025, Alexander released the viral Liberman brothers interview ("OpenAI is a bubble"), which became the first touchpoint with Gonka AI for many of our current active community members.
 
 ## What the grant covers
 
@@ -45057,6 +45105,7 @@ This is a full-scale analytical deep-dive that builds genuine trust rather than 
     No 0 (0.0%)
     Veto 85,697 (46.6%)
     Abstain 0 (0.0%)
+    Total 183,715 votes
   
 
 ---
@@ -45130,6 +45179,7 @@ Upgrade Proposal: v0.2.13
     No 0 (0.0%)
     Veto 170,799 (65.9%)
     Abstain 0 (0.0%)
+    Total 259,219 votes
   
 
 ---
@@ -45184,7 +45234,7 @@ $10,000 · Community Pool
 
 [View on gonka.gg](https://gonka.gg/network/proposals/42){:target="_blank"}
 
-We are DeAI Nation, a global nonprofit organization supporting and promoting the decentralized AI ecosystem, and authors of the State of DeAI 2026 report. We propose that the Gonka community become a sponsor of a scientific panel discussion at the Global Compute Sovereignty Summit in Tashkent, Uzbekistan. Cost: 10,000 USDT. If the vote is successful, the panel will receive official 'Supported by the Gonka community' status. This is a strong opportunity for the community to position itself as a key driver supporting research in this area in front of hundreds of business executives, government officials, and investors, including the Minister of Digital Technologies of the Republic of Uzbekistan Sherzod Shermatov, Executive Director of the Saudi-Uzbek Council Faisal Ba Abdullah, and CEO of Al Fardan Ventures Mohammed Al Fardan. More information about the summit: https://gcss.outsource.gov.uz Detailed proposal: https://github.com/DeAI-Nation/summit-proposal/blob/main/README.md
+We are DeAI Nation, a global nonprofit organization supporting and promoting the decentralized AI ecosystem, and authors of the State of DeAI 2026 report. We propose that the Gonka community become a sponsor of a scientific panel discussion at the Global Compute Sovereignty Summit in Tashkent, Uzbekistan. Cost: 10,000 USDT. If the vote is successful, the panel will receive official 'Supported by the Gonka community' status. This is a strong opportunity for the community to position itself as a key driver supporting research in this area in front of hundreds of business executives, government officials, and investors, including the Minister of Digital Technologies of the Republic of Uzbekistan Sherzod Shermatov, Executive Director of the Saudi-Uzbek Council Faisal Ba Abdullah, and CEO of Al Fardan Ventures Mohammed Al Fardan. More information about the summit:  Detailed proposal: 
 
 ---
 
@@ -45201,6 +45251,7 @@ We are DeAI Nation, a global nonprofit organization supporting and promoting the
     No 0 (0.0%)
     Veto 0 (0.0%)
     Abstain 172,050 (31.4%)
+    Total 547,821 votes
   
 
 ---
@@ -45272,6 +45323,7 @@ Upgrade Proposal: v0.2.12
     No 2,057 (0.4%)
     Veto 0 (0.0%)
     Abstain 0 (0.0%)
+    Total 508,199 votes
   
 
 ---
@@ -45328,9 +45380,9 @@ This proposal approves the Gonka Network Development Roadmap as a strategic dire
 
 If approved, the roadmap should become the shared vision for Gonka's future.
 
-The roadmap has been submitted as a pull request to the public repository: https://github.com/gonka-ai/gonka/pull/1266
+The roadmap has been submitted as a pull request to the public repository: 
 
-You can read the full text here: https://github.com/gonka-ai/gonka/blob/da8750873216e3a96a1ac19fbd64bbf052f2160b/proposals/gonka-network-development-roadmap.md
+You can read the full text here: 
 
 *If passed, repository maintainers should merge the pull request.*
 
@@ -45373,6 +45425,7 @@ The Foundation's legal structure, responsibilities, accountability model, treasu
     No 0 (0.0%)
     Veto 0 (0.0%)
     Abstain 0 (0.0%)
+    Total 257,150 votes
   
 
 ---
@@ -45433,6 +45486,7 @@ If you are against MLM projects around gonka.ai, vote YES. All funds will be use
     No 0 (0.0%)
     Veto 0 (0.0%)
     Abstain 0 (0.0%)
+    Total 957 votes
   
 
 ---
@@ -45497,7 +45551,7 @@ Cost: 45,000 USDT for 3 months (15,000 USDT/month for 5 avatars).
 
 Short pitch: We propose launching 5 AI avatars to give Gonka massive, trustworthy media reach, capture AI FOMO, and drive adoption.
 
-Full proposal: https://app.notion.com/p/Gonka-AI-AI-Influencer-Lab-Proposal-3514ff1f5a9a81faae76efbeb153cbe2
+Full proposal: 
 
 ---
 
@@ -45514,6 +45568,7 @@ Full proposal: https://app.notion.com/p/Gonka-AI-AI-Influencer-Lab-Proposal-3514
     No 0 (0.0%)
     Veto 0 (0.0%)
     Abstain 201,560 (28.9%)
+    Total 698,243 votes
   
 
 ---
@@ -45575,7 +45630,7 @@ $50,000 · Community Pool
 # Gonka NOP: grant for the node deployment tool
 
 50,000 USDT from the CommunityPool to INC4
-Full proposal: https://github.com/gonka-ai/gonka/discussions/1192
+Full proposal: 
 
 ## What it is
 
@@ -45600,9 +45655,9 @@ The broader the operator set, the more resilient the network.
 
 ## Links
 
-Repository on GitHub: https://github.com/inc4/gonka-nop
-Documentation: https://github.com/inc4/gonka-nop/blob/main/README.md
-Live walkthrough on YouTube (by Gonka.Top@Mitch): https://www.youtube.com/watch?v=1t9GEMN92Vo
+Repository on GitHub: 
+Documentation: 
+Live walkthrough on YouTube (by Gonka.Top@Mitch): 
 
 ---
 
@@ -45619,6 +45674,7 @@ Live walkthrough on YouTube (by Gonka.Top@Mitch): https://www.youtube.com/watch?
     No 9,566 (17.6%)
     Veto 12,961 (23.8%)
     Abstain 0 (0.0%)
+    Total 54,378 votes
   
 
 ---
@@ -45675,7 +45731,7 @@ $75,000 · Community Pool
 
 [View on gonka.gg](https://gonka.gg/network/proposals/77){:target="_blank"}
 
-We are INPUT Global - a leading web3 marketing communications agency. We offer 3 month PR campaign to establish trust and market legitimacy of Gonka across 2 audiences: global business and crypto-native. Deliverables include native editorial content, podcasts, speakerships at the conferences and a flagship industry report built on real market data to anchor Gonka as a thought leader. KPIs: a minimum of 35 unique placements - Top Tier, Tier 1 and Tier 2 media (the full list is inside the deck), daily monitoring of the news agenda for reactive opportunities, and a monthly competitive PR analysis. Cost: 75,000 USDT for 3 months. Full proposal: https://www.figma.com/deck/qd7a7bkcit9O1LZ8whP9Ei loom: https://www.loom.com/share/f2bd2f2b831f4c78bc5d4878059d8291
+We are INPUT Global - a leading web3 marketing communications agency. We offer 3 month PR campaign to establish trust and market legitimacy of Gonka across 2 audiences: global business and crypto-native. Deliverables include native editorial content, podcasts, speakerships at the conferences and a flagship industry report built on real market data to anchor Gonka as a thought leader. KPIs: a minimum of 35 unique placements - Top Tier, Tier 1 and Tier 2 media (the full list is inside the deck), daily monitoring of the news agenda for reactive opportunities, and a monthly competitive PR analysis. Cost: 75,000 USDT for 3 months. Full proposal:  loom: 
 
 ---
 
@@ -45692,6 +45748,7 @@ We are INPUT Global - a leading web3 marketing communications agency. We offer 3
     No 71 (0.0%)
     Veto 0 (0.0%)
     Abstain 0 (0.0%)
+    Total 152,113 votes
   
 
 ---
@@ -45761,6 +45818,7 @@ Register IBC token metadata and approve the denomination for trading on Gonka ma
     No 0 (0.0%)
     Veto 0 (0.0%)
     Abstain 1,788 (0.4%)
+    Total 423,202 votes
   
 
 ---
@@ -45965,6 +46023,7 @@ Expedite voting for upgrades
     No 0 (0.0%)
     Veto 0 (0.0%)
     Abstain 0 (0.0%)
+    Total 172,265 votes
   
 
 ---
@@ -46057,6 +46116,7 @@ Proposal updates poc_validation_duration from 20 to 100.
     No 0 (0.0%)
     Veto 0 (0.0%)
     Abstain 0 (0.0%)
+    Total 162,514 votes
   
 
 ---
@@ -46308,6 +46368,7 @@ Upgrade Proposal: v0.2.2
     No 0 (0.0%)
     Veto 109,637 (99.9%)
     Abstain 0 (0.0%)
+    Total 109,746 votes
   
 
 ---
@@ -46377,6 +46438,7 @@ Proposal updates epoch_length and restrictions length according to real block le
     No 0 (0.0%)
     Veto 0 (0.0%)
     Abstain 0 (0.0%)
+    Total 74,474 votes
   
 
 ---
@@ -46649,6 +46711,7 @@ This proposal introduces new Qwen3 models including Qwen3-32B-FP8 and Qwen3-235B
     No 0 (0.0%)
     Veto 0 (0.0%)
     Abstain 0 (0.0%)
+    Total 62,612 votes
   
 
 ---
@@ -46802,6 +46865,7 @@ Upgrade Proposal: v0.2.2
     No 0 (0.0%)
     Veto 0 (0.0%)
     Abstain 0 (0.0%)
+    Total 130,079 votes
   
 
 ---
@@ -47057,6 +47121,7 @@ Upgrade Proposal: v0.2.5
     No 0 (0.0%)
     Veto 0 (0.0%)
     Abstain 0 (0.0%)
+    Total 428,459 votes
   
 
 ---
@@ -47124,6 +47189,7 @@ Higher Bandwidth Limits & Voting Time Back to 24H
     No 0 (0.0%)
     Veto 0 (0.0%)
     Abstain 0 (0.0%)
+    Total 394,887 votes
   
 
 ---
@@ -47406,6 +47472,7 @@ Upgrade Proposal: v0.2.4
     No 0 (0.0%)
     Veto 0 (0.0%)
     Abstain 0 (0.0%)
+    Total 286,826 votes
   
 
 ---
@@ -47475,6 +47542,7 @@ Upgrade Proposal: v0.2.3
     No 0 (0.0%)
     Veto 0 (0.0%)
     Abstain 0 (0.0%)
+    Total 132,672 votes
   
 
 ---
@@ -47544,6 +47612,7 @@ Upgrade Proposal: v0.2.6
     No 0 (0.0%)
     Veto 0 (0.0%)
     Abstain 0 (0.0%)
+    Total 1,985,917 votes
   
 
 ---
@@ -47613,6 +47682,7 @@ Bandwidth Limits
     No 0 (0.0%)
     Veto 0 (0.0%)
     Abstain 0 (0.0%)
+    Total 257,565 votes
   
 
 ---
@@ -47860,6 +47930,7 @@ Expected amount of Confirmation PoC per epoch to 4, p0 for binomial test to 0.1
     No 85 (0.0%)
     Veto 0 (0.0%)
     Abstain 0 (0.0%)
+    Total 3,261,498 votes
   
 
 ---
@@ -48177,6 +48248,7 @@ Upgrade Proposal: v0.2.6
     No 0 (0.0%)
     Veto 0 (0.0%)
     Abstain 0 (0.0%)
+    Total 1,034,445 votes
   
 
 ---
@@ -48246,6 +48318,7 @@ Bandwidth Limits
     No 0 (0.0%)
     Veto 0 (0.0%)
     Abstain 0 (0.0%)
+    Total 287,496 votes
   
 
 ---
@@ -48495,6 +48568,7 @@ Bandwidth Limits
     No 0 (0.0%)
     Veto 0 (0.0%)
     Abstain 0 (0.0%)
+    Total 349,596 votes
   
 
 ---
@@ -48744,6 +48818,7 @@ Sale GNK from Community Fund
     No 9,781 (0.8%)
     Veto 4,577 (0.4%)
     Abstain 0 (0.0%)
+    Total 1,195,319 votes
   
 
 ---
@@ -48794,15 +48869,26 @@ Contract Details
 
 ## 2026-Q3 Summary
 
-2Total Proposals
+3Total Proposals
 0Passed (0%)
-1Rejected (50%)
+1Rejected (33%)
 
+Funding / Grants2
 GRC / Restitution1
-Funding / Grants1
 
 2026-Q3
-2 proposals
+3 proposals
+
+  
+    #82 – External Test Lab x Community DevNet
+    Voting
+  
+  
+    Submitted 2026-07-08
+    Voting ends 2026-07-10
+  
+  4-month pilot of the External Test Lab & Community DevNet: a community-owned testing layer for Gonka. Full proposal and discussion: https://github.com/gonka-ai/gonka/discussions/1388  The budget is he…
+  Yes 0 (0.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)80,000 GNK · $88,000 · Community Pool
 
   
     #81 – Kimi cPoC Restitution (epochs 306-309)
@@ -48813,6 +48899,7 @@ Funding / Grants1
     Voting ends 2026-07-10
   
   Distribute restitution for Kimi operators affected by cPoC validation failure in epochs 306-309. The Kimi validation path failed starting in e306 causing confirmation_weight suppression for Kimi opera…
+  Yes 107,866 (93.9%) · No 5,966 (5.2%) · Veto 1,089 (0.9%) · Abstain 0 (0.0%)175,082 GNK · Gov Module
 
   
     #80 – GRC Proposal #3 - Restitution
@@ -48823,7 +48910,7 @@ Funding / Grants1
     Voting ends 2026-07-07
   
   Restitution payout for confirmed GRC Proposal #3 cases, with Case 05 payments from proposal_id=67 deducted where the same address and epoch were already compensated, and positive victim outputs below …
-  Yes 16,378 (10.4%) · No 94,721 (60.4%) · Veto 39,454 (25.1%) · Abstain 6,344 (4.0%)
+  Yes 16,378 (10.4%) · No 94,721 (60.4%) · Veto 39,454 (25.1%) · Abstain 6,344 (4.0%)47,850 GNK · Community Pool · 70,184 GNK · Gov Module
 
 ← Back to all proposals
 
@@ -48859,6 +48946,131 @@ document$.subscribe(initProposalsPage);
 
 ---
 
+## #82 – External Test Lab x Community DevNet
+
+# #82 – External Test Lab x Community DevNet
+
+Voting
+
+**Proposal ID:** `82`
+
+**Type:** Community Pool Spend, Execute Contract, Instantiate Contract2
+
+**Submit:** 2026-07-08 11:31 UTC
+
+**Voting:** 2026-07-08 11:31 UTC → 2026-07-10 11:31 UTC
+
+**Proposer:** [`gonka1k6p754pyhxud2399knyccgjpjvdafj2u9xlgyf`](https://gonka.gg/address/gonka1k6p754pyhxud2399knyccgjpjvdafj2u9xlgyf){:target="_blank"}
+
+**Metadata:** [https://github.com/gonka-ai/gonka/discussions/1388](https://github.com/gonka-ai/gonka/discussions/1388)
+
+80,000 GNK · $88,000 · Community Pool
+
+[View on gonka.gg](https://gonka.gg/network/proposals/82){:target="_blank"}
+
+4-month pilot of the External Test Lab & Community DevNet: a community-owned testing layer for Gonka. Full proposal and discussion: 
+
+The budget is held by an immutable escrow contract and released as 4 monthly tranches of 22,000 USDT plus 2x40,000 GNK recognition to the Project and Infrastructure Leads at the end of the pilot. Month 1 is prepaid; each next tranche unlocks 4 days after the month ends. Hosts can always cancel via a one-time governance clawback that returns all remaining funds to the Community Pool.
+
+Contract: code_id 107, checksum 94b141625b7641e6ad57266420b18a4af72eac49b8110cb92719755590b463bd, escrow address gonka1g57f45qjvn0529vpgj8x8mzt8r5k4audchm3pp9pezywxwf4rexqlj8ayw. No admin, no migration - recipients and amounts can never change. Source and verification: 
+
+---
+
+## Messages
+
+| # | Type |
+| :- | :--- |
+| 1 | `/cosmwasm.wasm.v1.MsgInstantiateContract2` |
+| 2 | `/cosmos.distribution.v1beta1.MsgCommunityPoolSpend` |
+| 3 | `/cosmwasm.wasm.v1.MsgExecuteContract` |
+
+Contract Details
+
+```json
+[
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgInstantiateContract2",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "admin": "",
+    "code_id": "107",
+    "label": "testlab-devnet-milestone-escrow",
+    "msg": {
+      "governance": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+      "payouts": [
+        {
+          "recipient": "gonka1pn5953zm5j29w23u8csz4uuqwpg486j05e9aj4",
+          "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+          "amount": "22000000000",
+          "unlock_after_days": 0
+        },
+        {
+          "recipient": "gonka1pn5953zm5j29w23u8csz4uuqwpg486j05e9aj4",
+          "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+          "amount": "22000000000",
+          "unlock_after_days": 34
+        },
+        {
+          "recipient": "gonka1pn5953zm5j29w23u8csz4uuqwpg486j05e9aj4",
+          "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+          "amount": "22000000000",
+          "unlock_after_days": 64
+        },
+        {
+          "recipient": "gonka1pn5953zm5j29w23u8csz4uuqwpg486j05e9aj4",
+          "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+          "amount": "22000000000",
+          "unlock_after_days": 94
+        },
+        {
+          "recipient": "gonka1pn5953zm5j29w23u8csz4uuqwpg486j05e9aj4",
+          "denom": "ngonka",
+          "amount": "40000000000000",
+          "unlock_after_days": 124
+        },
+        {
+          "recipient": "gonka1fx65y7jfce6q4cj3zf7wvfuse3juu7c8gg0hqp",
+          "denom": "ngonka",
+          "amount": "40000000000000",
+          "unlock_after_days": 124
+        }
+      ],
+      "close_after_days": 200
+    },
+    "funds": [],
+    "salt": "dGVzdGxhYi1kZXZuZXQtcGlsb3Q=",
+    "fix_msg": false
+  },
+  {
+    "@type": "/cosmos.distribution.v1beta1.MsgCommunityPoolSpend",
+    "authority": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "recipient": "gonka1g57f45qjvn0529vpgj8x8mzt8r5k4audchm3pp9pezywxwf4rexqlj8ayw",
+    "amount": [
+      {
+        "denom": "ngonka",
+        "amount": "80000000000000"
+      }
+    ]
+  },
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "contract": "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2",
+    "msg": {
+      "withdraw_ibc": {
+        "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+        "amount": "88000000000",
+        "recipient": "gonka1g57f45qjvn0529vpgj8x8mzt8r5k4audchm3pp9pezywxwf4rexqlj8ayw"
+      }
+    },
+    "funds": []
+  }
+]
+```
+
+---
+
+---
+
 ## #80 – GRC Proposal #3 - Restitution
 
 # #80 – GRC Proposal #3 - Restitution
@@ -48879,7 +49091,7 @@ Rejected
 
 **Failed reason:** proposal did not get enough votes to pass
 
-47,850 GNK · Community Pool
+47,850 GNK · Community Pool · 70,184 GNK · Gov Module
 
 [View on gonka.gg](https://gonka.gg/network/proposals/80){:target="_blank"}
 
@@ -48900,6 +49112,7 @@ Restitution payout for confirmed GRC Proposal #3 cases, with Case 05 payments fr
     No 94,721 (60.4%)
     Veto 39,454 (25.1%)
     Abstain 6,344 (4.0%)
+    Total 156,897 votes
   
 
 ---
@@ -49366,9 +49579,29 @@ Voting
 
 **Metadata:** [https://github.com/votkon/gonka-kimi-e306-issue](https://github.com/votkon/gonka-kimi-e306-issue)
 
+175,082 GNK · Gov Module
+
 [View on gonka.gg](https://gonka.gg/network/proposals/81){:target="_blank"}
 
 Distribute restitution for Kimi operators affected by cPoC validation failure in epochs 306-309. The Kimi validation path failed starting in e306 causing confirmation_weight suppression for Kimi operators while non-Kimi operators ran normally. Failure worsened in e307 and carried into the e309 bootstrap attempt. Total: 175082.07 GONKA to 19 addresses, vested over 170 days (160 epochs).
+
+---
+
+## Final Tally
+
+  
+    
+    
+    
+    
+  
+  
+    Yes 107,866 (93.9%)
+    No 5,966 (5.2%)
+    Veto 1,089 (0.9%)
+    Abstain 0 (0.0%)
+    Total 114,921 votes
+  
 
 ---
 
@@ -49594,7 +49827,7 @@ Governance Parameters5
 Funding / Grants4
 Other2
 
-3,600 GNK · Community Pool
+3,600 GNK · Community Pool · 54,844 GNK · Gov Module
 
 2026-Q1
 17 proposals
@@ -49608,7 +49841,7 @@ Other2
     Voting ends 2026-03-31
   
   This proposal seeks community approval for a global media initiative to build awareness of decentralized AI and position Gonka as core AI infrastructure.  Key elements: Led by TheSoul Group (full-cycl…
-  Yes 9,150 (25.5%) · No 10,325 (28.8%) · Veto 2,450 (6.8%) · Abstain 13,939 (38.9%)
+  Yes 9,150 (25.5%) · No 10,325 (28.8%) · Veto 2,450 (6.8%) · Abstain 13,939 (38.9%)970,000 GNK · Community Pool
 
   
     #34 – gonka.ai / TheSoul social media awareness project
@@ -49629,7 +49862,7 @@ Other2
     Voting ends 2026-03-27
   
   Distribute compensation for CPoC bug affected participants in epochs 132-133.
-  Yes 184,243 (41.8%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 256,296 (58.2%)3,100 GNK · Community Pool
+  Yes 184,243 (41.8%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 256,296 (58.2%)3,100 GNK · Community Pool · 24,806 GNK · Gov Module
 
   
     #32 – Epoch 158 compensation payout from gov module (batch vesting)
@@ -49640,7 +49873,7 @@ Other2
     Voting ends 2026-03-24
   
   Distribute compensation proportional to epoch 158 lost preserved weights. Implemented as one MsgBatchTransferWithVesting.
-  Yes 501,114 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)500 GNK · Community Pool
+  Yes 501,114 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)500 GNK · Community Pool · 30,038 GNK · Gov Module
 
   
     #31 – Upgrade Proposal: v0.2.11
@@ -49855,6 +50088,7 @@ Upgrade Proposal: v0.2.7
     No 148,604 (3.7%)
     Veto 8,096 (0.2%)
     Abstain 0 (0.0%)
+    Total 4,042,856 votes
   
 
 ---
@@ -49926,7 +50160,6 @@ Budget: GNK 970,000 per year
 Timeline: setup -> launch -> full scale (3 months)
 
 Full presentation:
-https://www.canva.com/design/DAG5x5pF3M4/VycFkb80_elACWPiaNMOQg/view
 
 ---
 
@@ -49993,6 +50226,7 @@ Update Expiration Dates for Developer Access and Participant Allowlist
     No 2,836 (0.1%)
     Veto 0 (0.0%)
     Abstain 0 (0.0%)
+    Total 3,479,578 votes
   
 
 ---
@@ -50345,6 +50579,7 @@ Upgrade Proposal: v0.2.10
     No 0 (0.0%)
     Veto 0 (0.0%)
     Abstain 0 (0.0%)
+    Total 1,540,653 votes
   
 
 ---
@@ -50416,6 +50651,7 @@ Upgrade Proposal: v0.2.8
     No 0 (0.0%)
     Veto 3,775,640 (100.0%)
     Abstain 0 (0.0%)
+    Total 3,775,640 votes
   
 
 ---
@@ -50466,8 +50702,6 @@ Passed
 
 [View on gonka.gg](https://gonka.gg/network/proposals/20){:target="_blank"}
 
-https://github.com/product-science/filter/tree/ae59d27f04a70039bcfca94ae656e723982150cd
-
 ---
 
 ## Final Tally
@@ -50483,6 +50717,7 @@ https://github.com/product-science/filter/tree/ae59d27f04a70039bcfca94ae656e7239
     No 90,320 (3.9%)
     Veto 140,607 (6.0%)
     Abstain 0 (0.0%)
+    Total 2,342,702 votes
   
 
 ---
@@ -52632,6 +52867,7 @@ Upgrade Proposal: v0.2.9
     No 0 (0.0%)
     Veto 0 (0.0%)
     Abstain 0 (0.0%)
+    Total 2,708,406 votes
   
 
 ---
@@ -52703,6 +52939,7 @@ Remove TransferAgent allowlist restrictions (empty list = all TAs allowed) and i
     No 0 (0.0%)
     Veto 243,060 (97.1%)
     Abstain 0 (0.0%)
+    Total 250,374 votes
   
 
 ---
@@ -53072,7 +53309,6 @@ Budget: GNK 970,000 per year
 Timeline: setup -> launch -> full scale (3 months)
 
 Full presentation:
-https://www.canva.com/design/DAG5x5pF3M4/VycFkb80_elACWPiaNMOQg/view
 
 ---
 
@@ -53089,6 +53325,7 @@ https://www.canva.com/design/DAG5x5pF3M4/VycFkb80_elACWPiaNMOQg/view
     No 10,325 (28.8%)
     Veto 2,450 (6.8%)
     Abstain 13,939 (38.9%)
+    Total 35,864 votes
   
 
 ---
@@ -53139,7 +53376,7 @@ Passed
 
 **Metadata:** [https://github.com/huxuxuya/epoch158/blob/main/SIMPLE_COIN_AMOUNT_LOGIC.md](https://github.com/huxuxuya/epoch158/blob/main/SIMPLE_COIN_AMOUNT_LOGIC.md)
 
-500 GNK · Community Pool
+500 GNK · Community Pool · 30,038 GNK · Gov Module
 
 [View on gonka.gg](https://gonka.gg/network/proposals/32){:target="_blank"}
 
@@ -53160,6 +53397,7 @@ Distribute compensation proportional to epoch 158 lost preserved weights. Implem
     No 0 (0.0%)
     Veto 0 (0.0%)
     Abstain 0 (0.0%)
+    Total 501,114 votes
   
 
 ---
@@ -54472,6 +54710,7 @@ Testing governance voting from the wallet app.
     No 47 (100.0%)
     Veto 0 (0.0%)
     Abstain 0 (0.0%)
+    Total 47 votes
   
 
 ---
@@ -54528,6 +54767,7 @@ Upgrade Proposal: v0.2.8
     No 0 (0.0%)
     Veto 0 (0.0%)
     Abstain 0 (0.0%)
+    Total 4,153,562 votes
   
 
 ---
@@ -54597,6 +54837,7 @@ Upgrade Proposal: v0.2.11
     No 0 (0.0%)
     Veto 0 (0.0%)
     Abstain 0 (0.0%)
+    Total 673,699 votes
   
 
 ---
@@ -54647,7 +54888,7 @@ Passed
 
 **Metadata:** [https://github.com/votkon/epoch-132-analysis](https://github.com/votkon/epoch-132-analysis)
 
-3,100 GNK · Community Pool
+3,100 GNK · Community Pool · 24,806 GNK · Gov Module
 
 [View on gonka.gg](https://gonka.gg/network/proposals/33){:target="_blank"}
 
@@ -54668,6 +54909,7 @@ Distribute compensation for CPoC bug affected participants in epochs 132-133.
     No 0 (0.0%)
     Veto 0 (0.0%)
     Abstain 256,296 (58.2%)
+    Total 440,539 votes
   
 
 ---
@@ -55206,6 +55448,7 @@ Test proposal
     No 0 (0.0%)
     Veto 0 (0.0%)
     Abstain 0 (0.0%)
+    Total 4,237 votes
   
 
 ---
@@ -55243,8 +55486,6 @@ Passed
 
 [View on gonka.gg](https://gonka.gg/network/proposals/21){:target="_blank"}
 
-https://github.com/product-science/filter/tree/0354c37eb6c827f00c1e889a2b7de9952a9b84ba
-
 ---
 
 ## Final Tally
@@ -55260,6 +55501,7 @@ https://github.com/product-science/filter/tree/0354c37eb6c827f00c1e889a2b7de9952
     No 0 (0.0%)
     Veto 0 (0.0%)
     Abstain 0 (0.0%)
+    Total 3,020,391 votes
   
 
 ---
@@ -55638,6 +55880,7 @@ Rejected
     No 11,504 (3.5%)
     Veto 0 (0.0%)
     Abstain 0 (0.0%)
+    Total 325,964 votes
   
 
 ---
