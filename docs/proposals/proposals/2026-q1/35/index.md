@@ -49,7 +49,7 @@ Budget: GNK 970,000 per year
 Timeline: setup -> launch -> full scale (3 months)
 
 Full presentation:
-https://www.canva.com/design/DAG5x5pF3M4/VycFkb80_elACWPiaNMOQg/view
+<https://www.canva.com/design/DAG5x5pF3M4/VycFkb80_elACWPiaNMOQg/view>
 
 ---
 

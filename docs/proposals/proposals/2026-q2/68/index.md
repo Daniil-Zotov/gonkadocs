@@ -37,7 +37,7 @@ The proposal is reopened for voting at the initiative of several hosts who did n
 • We are now committing to an implementation timeframe of 25–60 days.
 • The inference product has significantly improved, so by the time the video is released, the GonkaAI will be in a much stronger position.
 
-Falcon Finance https://www.youtube.com/@FalconFinanceX is a highly influential YouTube channel by Alexander Sokolovsky (160k+ subscribers, 100k–600k+ views per video) reaching a thoughtful audience interested in the economy and the future. In October 2025, Alexander released the viral Liberman brothers interview ("OpenAI is a bubble"), which became the first touchpoint with Gonka AI for many of our current active community members.
+Falcon Finance <https://www.youtube.com/@FalconFinanceX> is a highly influential YouTube channel by Alexander Sokolovsky (160k+ subscribers, 100k–600k+ views per video) reaching a thoughtful audience interested in the economy and the future. In October 2025, Alexander released the viral Liberman brothers interview ("OpenAI is a bubble"), which became the first touchpoint with Gonka AI for many of our current active community members.
 
 Proposal for Gonka: Fund a dedicated 25–35 minute high-quality, author-driven video exploring the core dilemma of the AI future. The video will contrast the path of corporate monopoly with the decentralized, open AI approach. Gonka AI will be deeply and natively integrated as the prime example of the positive scenario — showcasing useful Proof-of-Work and open compute infrastructure.
 
@@ -45,7 +45,7 @@ Value & Projections: This is a full-scale analytical deep-dive that builds genui
 
 Cost: 70,000 USD for full end-to-end production and permanent publication.
 
-Full proposal: https://vote.gonka.vip/tenders/550f71de-897f-4ce5-8af8-97854775f8b2
+Full proposal: <https://vote.gonka.vip/tenders/550f71de-897f-4ce5-8af8-97854775f8b2>
 
 ---
 

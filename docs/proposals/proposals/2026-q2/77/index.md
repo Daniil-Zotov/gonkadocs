@@ -29,7 +29,7 @@ template: proposals-proposals-main.html
 
 </div>
 
-We are INPUT Global - a leading web3 marketing communications agency. We offer 3 month PR campaign to establish trust and market legitimacy of Gonka across 2 audiences: global business and crypto-native. Deliverables include native editorial content, podcasts, speakerships at the conferences and a flagship industry report built on real market data to anchor Gonka as a thought leader. KPIs: a minimum of 35 unique placements - Top Tier, Tier 1 and Tier 2 media (the full list is inside the deck), daily monitoring of the news agenda for reactive opportunities, and a monthly competitive PR analysis. Cost: 75,000 USDT for 3 months. Full proposal: https://www.figma.com/deck/qd7a7bkcit9O1LZ8whP9Ei loom: https://www.loom.com/share/f2bd2f2b831f4c78bc5d4878059d8291
+We are INPUT Global - a leading web3 marketing communications agency. We offer 3 month PR campaign to establish trust and market legitimacy of Gonka across 2 audiences: global business and crypto-native. Deliverables include native editorial content, podcasts, speakerships at the conferences and a flagship industry report built on real market data to anchor Gonka as a thought leader. KPIs: a minimum of 35 unique placements - Top Tier, Tier 1 and Tier 2 media (the full list is inside the deck), daily monitoring of the news agenda for reactive opportunities, and a monthly competitive PR analysis. Cost: 75,000 USDT for 3 months. Full proposal: <https://www.figma.com/deck/qd7a7bkcit9O1LZ8whP9Ei> loom: <https://www.loom.com/share/f2bd2f2b831f4c78bc5d4878059d8291>
 
 ---
 

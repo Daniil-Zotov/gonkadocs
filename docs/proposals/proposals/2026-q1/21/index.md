@@ -26,7 +26,7 @@ template: proposals-proposals-main.html
 
 </div>
 
-https://github.com/product-science/filter/tree/0354c37eb6c827f00c1e889a2b7de9952a9b84ba
+<https://github.com/product-science/filter/tree/0354c37eb6c827f00c1e889a2b7de9952a9b84ba>
 
 ---
 

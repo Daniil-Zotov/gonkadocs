@@ -39,7 +39,7 @@ Cost: 45,000 USDT for 3 months (15,000 USDT/month for 5 avatars).
 
 Short pitch: We propose launching 5 AI avatars to give Gonka massive, trustworthy media reach, capture AI FOMO, and drive adoption.
 
-Full proposal: https://app.notion.com/p/Gonka-AI-AI-Influencer-Lab-Proposal-3514ff1f5a9a81faae76efbeb153cbe2
+Full proposal: <https://app.notion.com/p/Gonka-AI-AI-Influencer-Lab-Proposal-3514ff1f5a9a81faae76efbeb153cbe2>
 
 ---
 

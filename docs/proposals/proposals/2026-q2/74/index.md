@@ -33,7 +33,7 @@ template: proposals-proposals-main.html
 
 </div>
 
-Full proposal: https://gonkalabs.com/proposal
+Full proposal: <https://gonkalabs.com/proposal>
 
 This proposal funds the next six months of work for the Gonka ecosystem.
 
@@ -45,7 +45,7 @@ Accountability commitments include monthly public progress and spending reports,
 
 Budget: 70,000 USDT paid immediately to cover six months of server infrastructure, monitoring, operations, and guaranteed stablecoin compensation; plus 330,000 GNK vested to the core team over 180 Gonka vesting epochs, aligning the team with long-term network growth.
 
-Full proposal: https://gonkalabs.com/proposal
+Full proposal: <https://gonkalabs.com/proposal>
 
 ---
 

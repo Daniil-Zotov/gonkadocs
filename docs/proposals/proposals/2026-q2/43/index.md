@@ -31,7 +31,7 @@ template: proposals-proposals-main.html
 
 </div>
 
-Today, participating in Gonka governance requires following multiple channels simultaneously — GitHub, Discord, CLI — just to cast a single vote. Most miners miss proposals entirely or vote too late. Low participation threatens quorum and undermines the network's ability to make decisions. We propose a unified Governance Portal that brings all governance activity into one place: a proposal feed, miner-weighted ratings, deposit crowdfunding, and browser-based voting via a restricted hot key. No CLI required. No missed votes. Funding request: 50,000 USDT equivalent in GNK, paid in full upon approval. Full proposal and prototype: https://github.com/gonka-ai/gonka/discussions/1104
+Today, participating in Gonka governance requires following multiple channels simultaneously — GitHub, Discord, CLI — just to cast a single vote. Most miners miss proposals entirely or vote too late. Low participation threatens quorum and undermines the network's ability to make decisions. We propose a unified Governance Portal that brings all governance activity into one place: a proposal feed, miner-weighted ratings, deposit crowdfunding, and browser-based voting via a restricted hot key. No CLI required. No missed votes. Funding request: 50,000 USDT equivalent in GNK, paid in full upon approval. Full proposal and prototype: <https://github.com/gonka-ai/gonka/discussions/1104>
 
 ---
 

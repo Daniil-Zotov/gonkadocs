@@ -128,7 +128,7 @@ template: proposals-oview.html
     <span>Submitted 2026-06-10</span>
     <span>Voting ends 2026-06-12</span>
   </div>
-  <div class="prop-card-desc">Full proposal: https://gonkalabs.com/proposal  This proposal funds the next six months of work for the Gonka ecosystem.  The focus is production-grade infrastructure and high-use products: Gonka.gg V2…</div>
+  <div class="prop-card-desc">Full proposal: <a href="https://gonkalabs.com/proposal" target="_blank">https://gonkalabs.com/proposal</a>  This proposal funds the next six months of work for the Gonka ecosystem.  The focus is production-grade infrastructure and high-use products: Gonka.gg V2…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 305,163 (79.6%)</span> · <span class="prop-tally-no-text">No 3,791 (1.0%)</span> · <span class="prop-tally-veto-text">Veto 15 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 74,304 (19.4%)</span><span class="prop-card-funding">$70,000 · Community Pool · 330,000 GNK · Gov Module</span></div>
 </div>
 
@@ -335,7 +335,7 @@ template: proposals-oview.html
     <span>Submitted 2026-05-28</span>
     <span>Voting ends 2026-05-30</span>
   </div>
-  <div class="prop-card-desc"># Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)  70,000 USDT from the CommunityPool for a dedicated Falcon Finance deep-dive on Gonka AI. Full proposal: https://vote.gonka.vip/tenders…</div>
+  <div class="prop-card-desc"># Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)  70,000 USDT from the CommunityPool for a dedicated Falcon Finance deep-dive on Gonka AI. Full proposal: <a href="https://vote.gonka.vip/tenders…" target="_blank">https://vote.gonka.vip/tenders…</a></div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 98,018 (53.4%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 85,697 (46.6%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-funding prop-card-funding-rejected">$70,000 · Community Pool</span></div>
 </div>
 
@@ -361,7 +361,7 @@ template: proposals-oview.html
     <span>Submitted 2026-05-25</span>
     <span>Voting ends 2026-05-27</span>
   </div>
-  <div class="prop-card-desc"># Gonka NOP: grant for the node deployment tool  50,000 USDT from the CommunityPool to INC4 Full proposal: https://github.com/gonka-ai/gonka/discussions/1192  ## What it is  gonka-nop (Node Onboarding…</div>
+  <div class="prop-card-desc"># Gonka NOP: grant for the node deployment tool  50,000 USDT from the CommunityPool to INC4 Full proposal: <a href="https://github.com/gonka-ai/gonka/discussions/1192" target="_blank">https://github.com/gonka-ai/gonka/discussions/1192</a>  ## What it is  gonka-nop (Node Onboarding…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 31,851 (58.6%)</span> · <span class="prop-tally-no-text">No 9,566 (17.6%)</span> · <span class="prop-tally-veto-text">Veto 12,961 (23.8%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-funding prop-card-funding-rejected">$50,000 · Community Pool</span></div>
 </div>
 
@@ -400,7 +400,7 @@ template: proposals-oview.html
     <span>Submitted 2026-05-19</span>
     <span>Voting ends 2026-05-21</span>
   </div>
-  <div class="prop-card-desc"># Gonka NOP: grant for the node deployment tool  50,000 USDT from the CommunityPool to INC4 Full proposal: https://github.com/gonka-ai/gonka/discussions/1192  ## What it is  gonka-nop (Node Onboarding…</div>
+  <div class="prop-card-desc"># Gonka NOP: grant for the node deployment tool  50,000 USDT from the CommunityPool to INC4 Full proposal: <a href="https://github.com/gonka-ai/gonka/discussions/1192" target="_blank">https://github.com/gonka-ai/gonka/discussions/1192</a>  ## What it is  gonka-nop (Node Onboarding…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 139,052 (46.8%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 158,195 (53.2%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-funding prop-card-funding-rejected">$50,000 · Community Pool</span></div>
 </div>
 

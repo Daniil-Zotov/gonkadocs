@@ -41,7 +41,7 @@ template: proposals-proposals-main.html
 # Gonka NOP: grant for the node deployment tool
 
 50,000 USDT from the CommunityPool to INC4
-Full proposal: https://github.com/gonka-ai/gonka/discussions/1192
+Full proposal: <https://github.com/gonka-ai/gonka/discussions/1192>
 
 ## What it is
 
@@ -66,9 +66,9 @@ The broader the operator set, the more resilient the network.
 
 ## Links
 
-Repository on GitHub: https://github.com/inc4/gonka-nop
-Documentation: https://github.com/inc4/gonka-nop/blob/main/README.md
-Live walkthrough on YouTube (by Gonka.Top@Mitch): https://www.youtube.com/watch?v=1t9GEMN92Vo
+Repository on GitHub: <https://github.com/inc4/gonka-nop>
+Documentation: <https://github.com/inc4/gonka-nop/blob/main/README.md>
+Live walkthrough on YouTube (by Gonka.Top@Mitch): <https://www.youtube.com/watch?v=1t9GEMN92Vo>
 
 ---
 

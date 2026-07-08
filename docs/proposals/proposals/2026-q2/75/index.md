@@ -31,7 +31,7 @@ template: proposals-proposals-main.html
 
 </div>
 
-IMPORTANT: Below is a condensed version of the proposal. It highlights only the key points and does not disclose all details of the initiative, implementation mechanics, KPIs, or terms. It is strongly recommended to review the full version of the document via the link: https://vote.gonka.vip/tenders/ed8148eb-535e-4677-9a6b-5316c81c996a
+IMPORTANT: Below is a condensed version of the proposal. It highlights only the key points and does not disclose all details of the initiative, implementation mechanics, KPIs, or terms. It is strongly recommended to review the full version of the document via the link: <https://vote.gonka.vip/tenders/ed8148eb-535e-4677-9a6b-5316c81c996a>
 
 Private Inc × Gonka — Network Growth Initiative
 
@@ -101,7 +101,7 @@ The funds are intended to be used primarily for attracting new users, developers
 
 Successful completion of the first phase will provide measurable results and help determine the potential for further scaling of the growth program.
 
-IMPORTANT: This is a condensed version of the document and does not include many important details, calculations, implementation terms, or supporting rationale. To fully understand the proposal, please review the complete version of the document via the following link: https://vote.gonka.vip/tenders/ed8148eb-535e-4677-9a6b-5316c81c996a
+IMPORTANT: This is a condensed version of the document and does not include many important details, calculations, implementation terms, or supporting rationale. To fully understand the proposal, please review the complete version of the document via the following link: <https://vote.gonka.vip/tenders/ed8148eb-535e-4677-9a6b-5316c81c996a>
 
 ---
 

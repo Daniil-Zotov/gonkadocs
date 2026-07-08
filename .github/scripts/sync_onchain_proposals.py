@@ -37,6 +37,22 @@ def escape_md_block(text):
     return str(text)
 
 
+def linkify(text):
+    """Convert URLs to clickable HTML links."""
+    if not text:
+        return ""
+    import re
+    return re.sub(r'https?://[^\s<>"\'()]+', lambda m: f'<a href="{m.group(0)}" target="_blank">{m.group(0)}</a>', str(text))
+
+
+def linkify_md(text):
+    """Convert URLs to Markdown auto-links (<url>)."""
+    if not text:
+        return ""
+    import re
+    return re.sub(r'(?<!<)(https?://[^\s<>"\'()]+)(?!>)', lambda m: f'<{m.group(1)}>', str(text))
+
+
 def yaml_str(text):
     """Escape for YAML double-quoted string value."""
     if not text:
@@ -511,7 +527,7 @@ template: proposals-proposals-main.html
 """
 
     if summary:
-        md += f"{summary}\n\n---\n\n"
+        md += f"{linkify_md(summary)}\n\n---\n\n"
 
     if tally_html:
         md += f"""## Final Tally
@@ -671,7 +687,7 @@ template: proposals-oview.html
   </div>
 """
             if short_summary:
-                md += f'  <div class="prop-card-desc">{escape_md(short_summary)}</div>\n'
+                md += f'  <div class="prop-card-desc">{linkify(escape_md(short_summary))}</div>\n'
 
             if yes_c + no_c > 0 or status_css_cls in ("prop-passed", "prop-voting"):
                 veto_c = int(tally.get("no_with_veto_count", 0))
@@ -858,7 +874,7 @@ template: proposals-oview.html
   </div>
 '''
         if short_summary:
-            md += f'  <div class="prop-card-desc">{escape_md(short_summary)}</div>\n'
+            md += f'  <div class="prop-card-desc">{linkify(escape_md(short_summary))}</div>\n'
         if yes_c + no_c > 0 or status_css_cls in ("prop-passed", "prop-voting"):
             veto_c = int(tally.get("no_with_veto_count", 0))
             abstain_c = int(tally.get("abstain_count", 0))

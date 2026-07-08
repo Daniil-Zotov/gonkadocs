@@ -229,7 +229,7 @@ template: proposals-oview.html
     <span>Submitted 2026-01-11</span>
     <span>Voting ends 2026-01-12</span>
   </div>
-  <div class="prop-card-desc">https://github.com/product-science/filter/tree/0354c37eb6c827f00c1e889a2b7de9952a9b84ba</div>
+  <div class="prop-card-desc"><a href="https://github.com/product-science/filter/tree/0354c37eb6c827f00c1e889a2b7de9952a9b84ba" target="_blank">https://github.com/product-science/filter/tree/0354c37eb6c827f00c1e889a2b7de9952a9b84ba</a></div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 3,020,391 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
 </div>
 
@@ -242,7 +242,7 @@ template: proposals-oview.html
     <span>Submitted 2026-01-09</span>
     <span>Voting ends 2026-01-10</span>
   </div>
-  <div class="prop-card-desc">https://github.com/product-science/filter/tree/ae59d27f04a70039bcfca94ae656e723982150cd</div>
+  <div class="prop-card-desc"><a href="https://github.com/product-science/filter/tree/ae59d27f04a70039bcfca94ae656e723982150cd" target="_blank">https://github.com/product-science/filter/tree/ae59d27f04a70039bcfca94ae656e723982150cd</a></div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 2,111,775 (90.1%)</span> · <span class="prop-tally-no-text">No 90,320 (3.9%)</span> · <span class="prop-tally-veto-text">Veto 140,607 (6.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
 </div>
 

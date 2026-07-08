@@ -43,7 +43,7 @@ Detecting and preventing even a single major network-wide incident, or a series 
 
 We request 96K in USDT over 12 months, paid in quarterly tranches, to deploy and maintain a production-grade observability platform — custom Gonka exporters, fleet-wide and individual dashboards, opt-in log aggregation, external endpoint health checks, alerting and SLA reporting, hands-on validator onboarding, incident response support, and ongoing operational maintenance. All code, configurations, and dashboards will be open-source and published in public GitHub repositories.
 
-Full proposal and discussion: https://github.com/gonka-ai/gonka/discussions/1085
+Full proposal and discussion: <https://github.com/gonka-ai/gonka/discussions/1085>
 
 ---
 

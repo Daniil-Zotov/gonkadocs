@@ -37,11 +37,11 @@ template: proposals-proposals-main.html
 # Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)
 
 70,000 USDT from the CommunityPool for a dedicated Falcon Finance deep-dive on Gonka AI.
-Full proposal: https://vote.gonka.vip/tenders/550f71de-897f-4ce5-8af8-97854775f8b2
+Full proposal: <https://vote.gonka.vip/tenders/550f71de-897f-4ce5-8af8-97854775f8b2>
 
 ## About the channel
 
-Falcon Finance (https://www.youtube.com/@FalconFinanceX) is a highly influential YouTube channel by Alexander Sokolovsky (160k+ subscribers, 100k–600k+ views per video) reaching a thoughtful audience interested in the economy and the future. In October 2025, Alexander released the viral Liberman brothers interview ("OpenAI is a bubble"), which became the first touchpoint with Gonka AI for many of our current active community members.
+Falcon Finance (<https://www.youtube.com/@FalconFinanceX>) is a highly influential YouTube channel by Alexander Sokolovsky (160k+ subscribers, 100k–600k+ views per video) reaching a thoughtful audience interested in the economy and the future. In October 2025, Alexander released the viral Liberman brothers interview ("OpenAI is a bubble"), which became the first touchpoint with Gonka AI for many of our current active community members.
 
 ## What the grant covers
 

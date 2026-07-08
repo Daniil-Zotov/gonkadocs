@@ -34,9 +34,9 @@ This proposal approves the Gonka Network Development Roadmap as a strategic dire
 
 If approved, the roadmap should become the shared vision for Gonka's future.
 
-The roadmap has been submitted as a pull request to the public repository: https://github.com/gonka-ai/gonka/pull/1266
+The roadmap has been submitted as a pull request to the public repository: <https://github.com/gonka-ai/gonka/pull/1266>
 
-You can read the full text here: https://github.com/gonka-ai/gonka/blob/da8750873216e3a96a1ac19fbd64bbf052f2160b/proposals/gonka-network-development-roadmap.md
+You can read the full text here: <https://github.com/gonka-ai/gonka/blob/da8750873216e3a96a1ac19fbd64bbf052f2160b/proposals/gonka-network-development-roadmap.md>
 
 *If passed, repository maintainers should merge the pull request.*
 
