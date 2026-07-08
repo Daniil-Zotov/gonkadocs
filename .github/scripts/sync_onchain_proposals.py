@@ -508,22 +508,25 @@ template: proposals-oview.html
             if short_summary:
                 md += f'  <div class="prop-card-desc">{escape_md(short_summary)}</div>\n'
 
-            if yes_c + no_c > 0:
+            if yes_c + no_c > 0 or status_css_cls == "prop-passed":
                 veto_c = int(tally.get("no_with_veto_count", 0))
                 abstain_c = int(tally.get("abstain_count", 0))
                 total_t = yes_c + no_c + veto_c + abstain_c
                 _pct = lambda v: f"({v / total_t * 100:.1f}%)" if total_t > 0 else "(0.0%)"
-                md += f'  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes {yes_c:,} {_pct(yes_c)}</span> · <span class="prop-tally-no-text">No {no_c:,} {_pct(no_c)}</span> · <span class="prop-tally-veto-text">Veto {veto_c:,} {_pct(veto_c)}</span> · <span class="prop-tally-abstain-text">Abstain {abstain_c:,} {_pct(abstain_c)}</span></div>\n'
+                _tally_line = f'<span class="prop-tally-yes-text">Yes {yes_c:,} {_pct(yes_c)}</span> · <span class="prop-tally-no-text">No {no_c:,} {_pct(no_c)}</span> · <span class="prop-tally-veto-text">Veto {veto_c:,} {_pct(veto_c)}</span> · <span class="prop-tally-abstain-text">Abstain {abstain_c:,} {_pct(abstain_c)}</span>'
 
-            if status_css_cls == "prop-passed":
-                _gnk, _usdt = parse_amounts_from_messages(p.get("messages", []))
-                _funding_parts = []
-                if _gnk > 0:
-                    _funding_parts.append(f'{_gnk:,} GNK')
-                if _usdt > 0:
-                    _funding_parts.append(f'${_usdt:,}')
-                if _funding_parts:
-                    md += f'  <div class="prop-card-tally" style="margin-top:2px">{" · ".join(_funding_parts)}</div>\n'
+                _funding_html = ""
+                if status_css_cls == "prop-passed":
+                    _gnk, _usdt = parse_amounts_from_messages(p.get("messages", []))
+                    _funding_parts = []
+                    if _gnk > 0:
+                        _funding_parts.append(f'{_gnk:,} GNK')
+                    if _usdt > 0:
+                        _funding_parts.append(f'${_usdt:,}')
+                    if _funding_parts:
+                        _funding_html = f'<span class="prop-card-funding">{" · ".join(_funding_parts)}</span>'
+
+                md += f'  <div class="prop-card-tally">{_tally_line}{_funding_html}</div>\n'
 
             md += "</div>\n\n"
 
@@ -670,21 +673,25 @@ template: proposals-oview.html
 '''
         if short_summary:
             md += f'  <div class="prop-card-desc">{escape_md(short_summary)}</div>\n'
-        if yes_c + no_c > 0:
+        if yes_c + no_c > 0 or status_css_cls == "prop-passed":
             veto_c = int(tally.get("no_with_veto_count", 0))
             abstain_c = int(tally.get("abstain_count", 0))
             total_t = yes_c + no_c + veto_c + abstain_c
             _pct = lambda v: f"({v / total_t * 100:.1f}%)" if total_t > 0 else "(0.0%)"
-            md += f'  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes {yes_c:,} {_pct(yes_c)}</span> · <span class="prop-tally-no-text">No {no_c:,} {_pct(no_c)}</span> · <span class="prop-tally-veto-text">Veto {veto_c:,} {_pct(veto_c)}</span> · <span class="prop-tally-abstain-text">Abstain {abstain_c:,} {_pct(abstain_c)}</span></div>\n'
-        if status_css_cls == "prop-passed":
-            _gnk, _usdt = parse_amounts_from_messages(p.get("messages", []))
-            _funding_parts = []
-            if _gnk > 0:
-                _funding_parts.append(f'{_gnk:,} GNK')
-            if _usdt > 0:
-                _funding_parts.append(f'${_usdt:,}')
-            if _funding_parts:
-                md += f'  <div class="prop-card-tally" style="margin-top:2px">{" · ".join(_funding_parts)}</div>\n'
+            _tally_line = f'<span class="prop-tally-yes-text">Yes {yes_c:,} {_pct(yes_c)}</span> · <span class="prop-tally-no-text">No {no_c:,} {_pct(no_c)}</span> · <span class="prop-tally-veto-text">Veto {veto_c:,} {_pct(veto_c)}</span> · <span class="prop-tally-abstain-text">Abstain {abstain_c:,} {_pct(abstain_c)}</span>'
+
+            _funding_html = ""
+            if status_css_cls == "prop-passed":
+                _gnk, _usdt = parse_amounts_from_messages(p.get("messages", []))
+                _funding_parts = []
+                if _gnk > 0:
+                    _funding_parts.append(f'{_gnk:,} GNK')
+                if _usdt > 0:
+                    _funding_parts.append(f'${_usdt:,}')
+                if _funding_parts:
+                    _funding_html = f'<span class="prop-card-funding">{" · ".join(_funding_parts)}</span>'
+
+            md += f'  <div class="prop-card-tally">{_tally_line}{_funding_html}</div>\n'
         md += "</div>\n\n"
 
     md += '''</div>
