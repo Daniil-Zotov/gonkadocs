@@ -22,6 +22,7 @@ template: proposals-proposals-main.html
 
 **Metadata:** [https://github.com/votkon/gonka-kimi-restitution](https://github.com/votkon/gonka-kimi-restitution)
 
+<div class="prop-funding-line">946,509 GNK · Gov Module</div>
 
 
 [View on gonka.gg](https://gonka.gg/network/proposals/67){:target="_blank"}

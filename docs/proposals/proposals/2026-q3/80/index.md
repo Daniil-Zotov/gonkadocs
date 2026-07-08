@@ -14,9 +14,15 @@ template: proposals-proposals-main.html
 
 **Type:** Batch Transfer With Vesting, Community Pool Spend
 
-**Submit:** 2026-01-01 00:00 UTC
+**Submit:** 2026-07-05 19:40 UTC
 
-**Voting:**  → 2026-01-02 00:00 UTC
+**Voting:** 2026-07-05 19:40 UTC → 2026-07-07 19:40 UTC
+
+**Proposer:** [`gonka100s7x2t0npruu9ta02306qfmaened3vg3a9dn6`](https://gonka.gg/address/gonka100s7x2t0npruu9ta02306qfmaened3vg3a9dn6){:target="_blank"}
+
+**Metadata:** [https://github.com/huxuxuya/GRC-3-result](https://github.com/huxuxuya/GRC-3-result)
+
+**Failed reason:** proposal did not get enough votes to pass
 
 <div class="prop-funding-line">47,850 GNK · Community Pool · 70,184 GNK · Gov Module</div>
 
@@ -25,7 +31,28 @@ template: proposals-proposals-main.html
 
 </div>
 
-Restitution payout for confirmed GRC Proposal #3 cases, with Case 05 payments from proposal_id=67 deducted where the same address and epoch were already compensated, and positive victim outputs below 
+Restitution payout for confirmed GRC Proposal #3 cases, with Case 05 payments from proposal_id=67 deducted where the same address and epoch were already compensated, and positive victim outputs below the chain minimum raised to 10 GNK.
+
+---
+
+## Final Tally
+
+
+<div class="prop-tally">
+  <div class="prop-tally-bar">
+    <div class="prop-tally-yes" style="width:10.4%"></div>
+    <div class="prop-tally-no" style="width:60.4%"></div>
+    <div class="prop-tally-veto" style="width:25.1%"></div>
+    <div class="prop-tally-abstain" style="width:4.0%"></div>
+  </div>
+  <div class="prop-tally-stats">
+    <span class="prop-tally-yes-text">Yes 16,378 (10.4%)</span>
+    <span class="prop-tally-no-text">No 94,721 (60.4%)</span>
+    <span class="prop-tally-veto-text">Veto 39,454 (25.1%)</span>
+    <span class="prop-tally-abstain-text">Abstain 6,344 (4.0%)</span>
+  </div>
+</div>
+
 
 ---
 

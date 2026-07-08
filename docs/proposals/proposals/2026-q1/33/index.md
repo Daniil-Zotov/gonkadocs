@@ -22,7 +22,7 @@ template: proposals-proposals-main.html
 
 **Metadata:** [https://github.com/votkon/epoch-132-analysis](https://github.com/votkon/epoch-132-analysis)
 
-<div class="prop-funding-line">3,100 GNK · Community Pool</div>
+<div class="prop-funding-line">3,100 GNK · Community Pool · 24,806 GNK · Gov Module</div>
 
 
 [View on gonka.gg](https://gonka.gg/network/proposals/33){:target="_blank"}

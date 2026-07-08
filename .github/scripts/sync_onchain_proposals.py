@@ -667,7 +667,7 @@ template: proposals-oview.html
             if short_summary:
                 md += f'  <div class="prop-card-desc">{escape_md(short_summary)}</div>\n'
 
-            if yes_c + no_c > 0 or status_css_cls == "prop-passed":
+            if yes_c + no_c > 0 or status_css_cls in ("prop-passed", "prop-voting"):
                 veto_c = int(tally.get("no_with_veto_count", 0))
                 abstain_c = int(tally.get("abstain_count", 0))
                 total_t = yes_c + no_c + veto_c + abstain_c
@@ -849,7 +849,7 @@ template: proposals-oview.html
 '''
         if short_summary:
             md += f'  <div class="prop-card-desc">{escape_md(short_summary)}</div>\n'
-        if yes_c + no_c > 0 or status_css_cls == "prop-passed":
+        if yes_c + no_c > 0 or status_css_cls in ("prop-passed", "prop-voting"):
             veto_c = int(tally.get("no_with_veto_count", 0))
             abstain_c = int(tally.get("abstain_count", 0))
             total_t = yes_c + no_c + veto_c + abstain_c

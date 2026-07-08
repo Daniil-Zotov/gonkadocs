@@ -22,7 +22,7 @@ template: proposals-proposals-main.html
 
 **Metadata:** [https://github.com/huxuxuya/epoch158/blob/main/SIMPLE_COIN_AMOUNT_LOGIC.md](https://github.com/huxuxuya/epoch158/blob/main/SIMPLE_COIN_AMOUNT_LOGIC.md)
 
-<div class="prop-funding-line">500 GNK · Community Pool</div>
+<div class="prop-funding-line">500 GNK · Community Pool · 30,038 GNK · Gov Module</div>
 
 
 [View on gonka.gg](https://gonka.gg/network/proposals/32){:target="_blank"}

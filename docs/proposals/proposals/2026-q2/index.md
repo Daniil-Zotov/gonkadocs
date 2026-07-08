@@ -47,7 +47,7 @@ template: proposals-oview.html
 <div class="qs-row"><span class="qs-label">Models / IBC</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:2%"></span></span><span class="qs-value">1</span></div>
 </div>
 
-<div class="qs-funding-line">218,972 GNK · $543,600 · Community Pool · 330,832 GNK · Gov Module</div>
+<div class="qs-funding-line">218,972 GNK · $543,600 · Community Pool · 4,636,616 GNK · Gov Module</div>
 
 
 </div>
@@ -220,7 +220,7 @@ template: proposals-oview.html
     <span>Voting ends 2026-06-05</span>
   </div>
   <div class="prop-card-desc">Distribute restitution for Kimi operators across epochs 265-276. Epochs 265-266: external attack causing CPoC degradation and nonce exclusion. Epochs 267-276: ComputeGroupCap systematic underpayment d…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 319,920 (78.9%)</span> · <span class="prop-tally-no-text">No 150 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 84,623 (20.9%)</span> · <span class="prop-tally-abstain-text">Abstain 744 (0.2%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 319,920 (78.9%)</span> · <span class="prop-tally-no-text">No 150 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 84,623 (20.9%)</span> · <span class="prop-tally-abstain-text">Abstain 744 (0.2%)</span><span class="prop-card-funding">946,509 GNK · Gov Module</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -375,7 +375,7 @@ template: proposals-oview.html
     <span>Voting ends 2026-05-23</span>
   </div>
   <div class="prop-card-desc">Distribute restitution for Cases 2, 3, and 4 across epochs 248-254. Case 2: preserver weight double-scaling bug (epochs 249-253). Case 3: epoch loss restitution: broad epoch losses, consecutive failur…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 188,670 (61.2%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 119,835 (38.8%)</span><span class="prop-card-funding">39,722 GNK · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 188,670 (61.2%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 119,835 (38.8%)</span><span class="prop-card-funding">39,722 GNK · Community Pool · 306,307 GNK · Gov Module</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -492,7 +492,7 @@ template: proposals-oview.html
     <span>Voting ends 2026-05-04</span>
   </div>
   <div class="prop-card-desc">Two prior upgrades changed the lifecycle of unpaid miner rewards. v0.2.9 (proposal #26, 2026-02-01): when a participant is penalized during cPoC validation, the unaccounted portion of their epoch rewa…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 97,030 (36.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 172,837 (64.0%)</span><span class="prop-card-funding">832 GNK · Gov Module</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 97,030 (36.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 172,837 (64.0%)</span><span class="prop-card-funding">3,053,800 GNK · Gov Module</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">

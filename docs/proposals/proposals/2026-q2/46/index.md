@@ -22,7 +22,7 @@ template: proposals-proposals-main.html
 
 **Metadata:** [https://github.com/gonkavip/taxreturn/blob/main/README.md](https://github.com/gonkavip/taxreturn/blob/main/README.md)
 
-<div class="prop-funding-line">832 GNK · Gov Module</div>
+<div class="prop-funding-line">3,053,800 GNK · Gov Module</div>
 
 
 [View on gonka.gg](https://gonka.gg/network/proposals/46){:target="_blank"}

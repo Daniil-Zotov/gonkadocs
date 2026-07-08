@@ -22,7 +22,7 @@ template: proposals-proposals-main.html
 
 **Metadata:** [https://github.com/votkon/grc-proposal-2](https://github.com/votkon/grc-proposal-2)
 
-<div class="prop-funding-line">39,722 GNK · Community Pool</div>
+<div class="prop-funding-line">39,722 GNK · Community Pool · 306,307 GNK · Gov Module</div>
 
 
 [View on gonka.gg](https://gonka.gg/network/proposals/55){:target="_blank"}
