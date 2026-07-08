@@ -41,7 +41,7 @@ template: proposals-oview.html
 <div class="qs-row"><span class="qs-label">Other</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:12%"></span></span><span class="qs-value">2</span></div>
 </div>
 
-<div class="qs-funding-row"><span class="qs-funding-label">GNK</span><span class="qs-funding-val">3,600</span></div>
+<div class="qs-funding-line">3,600 GNK</div>
 
 
 </div>

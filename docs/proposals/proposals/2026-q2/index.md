@@ -43,8 +43,7 @@ template: proposals-oview.html
 <div class="qs-row"><span class="qs-label">Models / IBC</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:2%"></span></span><span class="qs-value">1</span></div>
 </div>
 
-<div class="qs-funding-row"><span class="qs-funding-label">GNK</span><span class="qs-funding-val">549,804</span></div>
-<div class="qs-funding-row"><span class="qs-funding-label">USDT</span><span class="qs-funding-val">$543,600</span></div>
+<div class="qs-funding-line">549,804 GNK · $543,600</div>
 
 
 </div>

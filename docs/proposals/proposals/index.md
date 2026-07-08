@@ -23,6 +23,31 @@ template: proposals-oview.html
 
 </div>
 
+<div class="quarter-summary" markdown="1">
+
+## Overview
+
+<div class="qs-stats">
+<div class="qs-stat total"><span class="qs-num">80</span><span class="qs-desc">Total Proposals</span></div>
+<div class="qs-stat passed"><span class="qs-num">52</span><span class="qs-desc">Passed (65%)</span></div>
+<div class="qs-stat rejected"><span class="qs-num">26</span><span class="qs-desc">Rejected (32%)</span></div>
+<div class="qs-stat failed"><span class="qs-num">1</span><span class="qs-desc">Failed (1%)</span></div>
+</div>
+
+<div class="qs-categories">
+<div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:44%"></span></span><span class="qs-value">35</span></div>
+<div class="qs-row"><span class="qs-label">Governance Parameters</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:26%"></span></span><span class="qs-value">21</span></div>
+<div class="qs-row"><span class="qs-label">Software Upgrade</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:20%"></span></span><span class="qs-value">16</span></div>
+<div class="qs-row"><span class="qs-label">GRC / Restitution</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:4%"></span></span><span class="qs-value">3</span></div>
+<div class="qs-row"><span class="qs-label">Other</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:4%"></span></span><span class="qs-value">3</span></div>
+<div class="qs-row"><span class="qs-label">Models / IBC</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:2%"></span></span><span class="qs-value">2</span></div>
+</div>
+
+<div class="qs-funding-line">20,553,404 GNK · $543,600</div>
+
+
+</div>
+
 <div class="prop-quarter" id="2026-q3" markdown="1">
 ## 2026-Q3
 
@@ -1088,9 +1113,8 @@ template: proposals-oview.html
 </div>
 
 </div>
-<div class="prop-oview-funding">Total approved funding: 20,553,404 GNK · $543,600</div>
 <div class="prop-oview-stats">
-<em>80 proposals across 5 quarters. Last updated: 2026-07-08 08:35 UTC</em>
+<em>80 proposals across 5 quarters. Last updated: 2026-07-08 08:41 UTC</em>
 </div>
 
 <script>

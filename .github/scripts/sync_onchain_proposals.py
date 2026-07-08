@@ -471,10 +471,67 @@ template: proposals-oview.html
 
 """
 
+    # Compute overall stats
     total = 0
+    all_props = []
     for q in sorted_quarters:
         props = proposals_by_quarter[q]
+        all_props.extend(props)
         total += len(props)
+    all_passed = sum(1 for p in all_props if p.get("status", "").lower() == "proposal_status_passed")
+    all_rejected = sum(1 for p in all_props if p.get("status", "").lower() == "proposal_status_rejected")
+    all_failed = sum(1 for p in all_props if p.get("status", "").lower() == "proposal_status_failed")
+    all_pct_passed = (all_passed / total * 100) if total else 0
+    all_pct_rejected = (all_rejected / total * 100) if total else 0
+    all_pct_failed = (all_failed / total * 100) if total else 0
+
+    all_cat_counts = {}
+    for p in all_props:
+        msg_types = get_message_types(p.get("messages", []))
+        cat = categorize_type(msg_types)
+        all_cat_counts[cat] = all_cat_counts.get(cat, 0) + 1
+    all_cat_rows = ""
+    if all_cat_counts:
+        for cat, cnt in sorted(all_cat_counts.items(), key=lambda x: x[1], reverse=True):
+            pct = (cnt / total * 100) if total else 0
+            all_cat_rows += f'<div class="qs-row"><span class="qs-label">{cat}</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:{pct:.0f}%"></span></span><span class="qs-value">{cnt}</span></div>\n'
+
+    o_gnk = 0
+    o_usdt = 0
+    for p in all_props:
+        if p.get("status", "").lower() == "proposal_status_passed":
+            _g, _u = parse_amounts_from_messages(p.get("messages", []))
+            o_gnk += _g
+            o_usdt += _u
+    o_funding_parts = []
+    if o_gnk > 0:
+        o_funding_parts.append(f'{o_gnk:,} GNK')
+    if o_usdt > 0:
+        o_funding_parts.append(f'${o_usdt:,}')
+    o_funding_line = f'<div class="qs-funding-line">{" · ".join(o_funding_parts)}</div>\n' if o_funding_parts else ""
+
+    md += f'''<div class="quarter-summary" markdown="1">
+
+## Overview
+
+<div class="qs-stats">
+<div class="qs-stat total"><span class="qs-num">{total}</span><span class="qs-desc">Total Proposals</span></div>
+<div class="qs-stat passed"><span class="qs-num">{all_passed}</span><span class="qs-desc">Passed ({all_pct_passed:.0f}%)</span></div>
+<div class="qs-stat rejected"><span class="qs-num">{all_rejected}</span><span class="qs-desc">Rejected ({all_pct_rejected:.0f}%)</span></div>
+{f'<div class="qs-stat failed"><span class="qs-num">{all_failed}</span><span class="qs-desc">Failed ({all_pct_failed:.0f}%)</span></div>' if all_failed > 0 else ''}
+</div>
+
+<div class="qs-categories">
+{all_cat_rows}</div>
+
+{o_funding_line}
+
+</div>
+
+'''
+
+    for q in sorted_quarters:
+        props = proposals_by_quarter[q]
         md += f'<div class="prop-quarter" id="{q.lower()}" markdown="1">\n'
         md += f"## {q}\n\n"
         md += f"*{len(props)} proposals*\n\n"
@@ -532,26 +589,8 @@ template: proposals-oview.html
 
         md += "</div>\n"
 
-    # overall funding totals
-    o_gnk = 0
-    o_usdt = 0
-    for q in sorted_quarters:
-        for p in proposals_by_quarter[q]:
-            if p.get("status", "").lower() == "proposal_status_passed":
-                _g, _u = parse_amounts_from_messages(p.get("messages", []))
-                o_gnk += _g
-                o_usdt += _u
-    o_funding_html = ""
-    if o_gnk > 0 or o_usdt > 0:
-        parts = []
-        if o_gnk > 0:
-            parts.append(f'{o_gnk:,} GNK')
-        if o_usdt > 0:
-            parts.append(f'${o_usdt:,}')
-        o_funding_html = f'<div class="prop-oview-funding">Total approved funding: {" · ".join(parts)}</div>\n'
-
     # stats bar
-    md += f"""{o_funding_html}<div class="prop-oview-stats">
+    md += f"""<div class="prop-oview-stats">
 <em>{total} proposals across {len(sorted_quarters)} quarters. Last updated: {datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")}</em>
 </div>
 
@@ -627,11 +666,12 @@ def generate_quarter_page(quarter, proposals):
             _g, _u = parse_amounts_from_messages(p.get("messages", []))
             q_gnk += _g
             q_usdt += _u
-    q_funding_rows = ""
+    q_funding_parts = []
     if q_gnk > 0:
-        q_funding_rows += f'<div class="qs-funding-row"><span class="qs-funding-label">GNK</span><span class="qs-funding-val">{q_gnk:,}</span></div>\n'
+        q_funding_parts.append(f'{q_gnk:,} GNK')
     if q_usdt > 0:
-        q_funding_rows += f'<div class="qs-funding-row"><span class="qs-funding-label">USDT</span><span class="qs-funding-val">${q_usdt:,}</span></div>\n'
+        q_funding_parts.append(f'${q_usdt:,}')
+    q_funding_line = f'<div class="qs-funding-line">{" · ".join(q_funding_parts)}</div>\n' if q_funding_parts else ""
 
     md = f'''---
 title: "{quarter} Proposals"
@@ -672,7 +712,7 @@ template: proposals-oview.html
 <div class="qs-categories">
 {cat_rows}</div>
 
-{q_funding_rows if q_funding_rows else ''}
+{q_funding_line}
 
 </div>
 

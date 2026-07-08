@@ -268,39 +268,14 @@
   overflow: auto;
 }
 
-/* ── Funding summary on quarter page ───────────────────────── */
-.qs-funding-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 6px 0;
-  font-size: 12px;
+/* ── Funding line in quarter/overview summary ──────────────── */
+.qs-funding-line {
+  margin-top: 10px;
+  padding-top: 10px;
   border-top: 1px solid var(--md-default-fg-color--lightest);
-  margin-top: 4px;
-}
-
-.qs-funding-row:first-of-type {
-  margin-top: 12px;
-}
-
-.qs-funding-label {
-  font-weight: 500;
-  color: var(--md-default-fg-color--light);
-}
-
-.qs-funding-val {
-  font-family: var(--md-code-font-family);
+  font-size: 12px;
   font-weight: 600;
   color: var(--md-accent-fg-color);
-}
-
-/* ── Overall funding on overview page ──────────────────────── */
-.prop-oview-funding {
-  text-align: center;
-  font-size: 14px;
-  font-weight: 600;
-  color: var(--md-accent-fg-color);
-  padding: 8px 0 4px;
 }
 
 /* ── Footer ────────────────────────────────────────────────── */
