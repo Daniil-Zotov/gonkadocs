@@ -234,6 +234,7 @@ theme:
       quote: octicons/quote-16
 
 hooks:
+  - hooks/full_proposal.py
   - hooks/issues_nav.py
   - hooks/proposals_nav.py
 

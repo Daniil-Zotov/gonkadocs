@@ -461,3 +461,52 @@
   min-width: 1.5ch;
   text-align: right;
 }
+
+/*───────────────────────────────────────────────────────────────
+   Full proposal spoiler (.prop-full)
+   Injected by hooks/full_proposal.py
+───────────────────────────────────────────────────────────────*/
+
+.prop-full {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  margin: 1rem 0 0.5rem 0;
+  background: var(--md-code-bg-color);
+}
+
+.prop-full summary {
+  list-style: none;
+  cursor: pointer;
+  font-weight: 600;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.prop-full summary::-webkit-details-marker {
+  display: none;
+}
+
+.prop-full summary::before {
+  content: "▶";
+  font-size: 0.75rem;
+  transition: transform 0.2s;
+  display: inline-block;
+  color: var(--md-default-fg-color--light);
+}
+
+.prop-full[open] summary::before {
+  transform: rotate(90deg);
+}
+
+.prop-full > :not(summary) {
+  margin-top: 0.75rem;
+}
+
+/* Horizontal rule above the Full Proposal heading */
+.prop-full ~ h2#full-proposal + details.prop-full,
+h2#full-proposal {
+  margin-top: 1.5rem;
+}
