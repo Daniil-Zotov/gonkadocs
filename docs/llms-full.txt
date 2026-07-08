@@ -16904,7 +16904,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-07-08 18:40 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-07-08 20:36 UTC*
 
 ---
 
@@ -22440,7 +22440,7 @@ Approve a 4-month pilot of External Test Lab & Community DevNet with a maximum b
 
 | Voter | Amount | Date |
 | :----- | :----- | :--- |
-| `gonka1gm...gzg6ry` | 400.0K GNK | 2026-07-08 18:34 |
+| `gonka1gm...gzg6ry` | 400.0K GNK | 2026-07-08 20:34 |
 
 ---
 
@@ -49255,6 +49255,12 @@ function initProposalsPage() {
   apply();
 }
 document$.subscribe(initProposalsPage);
+
+---
+
+## Full Proposal
+
+
 
 ---
 
