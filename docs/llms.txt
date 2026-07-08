@@ -99,6 +99,10 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [GRC (Restitution Committee)](/community/grc/README/): Compensation framework for protocol bugs
 - [GSC (Self-Governance Committee)](/community/gsc/regulation/): Community governance charter
 
+### Additional Pages (auto-synced)
+
+- [Go-to-market committee: состав и экспертиза](/community/go-to-market committee/members/): Auto-synced content
+
 ## On-Chain Proposals
 
 - [Proposals Dashboard](/proposals/README/): Full table of on-chain governance proposals
