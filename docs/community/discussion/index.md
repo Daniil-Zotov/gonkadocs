@@ -4,7 +4,7 @@ title: "GitHub Discussions"
 
 # GitHub Discussions — `gonka-ai/gonka`
 
-Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **74**. Обновлено: `2026-07-08 12:49 UTC`.
+Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **74**. Обновлено: `2026-07-08 15:30 UTC`.
 
 ## 📂 Категории
 
@@ -20,6 +20,7 @@ title: "GitHub Discussions"
 
 | # | Заголовок | Категория | Автор | Обновлено |
 |---:|---|---|---|---|
+| [1141](show-and-tell/1141-ibc-usdt-withdrawal-guide.md) | [IBC USDT Withdrawal Guide](show-and-tell/1141-ibc-usdt-withdrawal-guide.md) | :raised_hands: Show and Tell | [@paranjko](https://github.com/paranjko) | 2026-07-08 |
 | [1388](proposals/1388-external-test-lab-community-devnet.md) | [External Test Lab & Community DevNet](proposals/1388-external-test-lab-community-devnet.md) | :bulb: Proposals | [@paranjko](https://github.com/paranjko) | 2026-07-07 |
 | [1404](proposals/1404-add-a-lower-barrier-glm-52-option-and-consider-deepseek-v4-f.md) | [Add a lower-barrier GLM-5.2 option and consider DeepSeek-V4-Flash as the default model](proposals/1404-add-a-lower-barrier-glm-52-option-and-consider-deepseek-v4-f.md) | :bulb: Proposals | [@enonog](https://github.com/enonog) | 2026-07-06 |
 | [1363](show-and-tell/1363-openbroker-broker-for-brokers-or-devshards-as-a-service.md) | [OpenBroker - broker for brokers or Devshards as a service.](show-and-tell/1363-openbroker-broker-for-brokers-or-devshards-as-a-service.md) | :raised_hands: Show and Tell | [@gonkalabs](https://github.com/gonkalabs) | 2026-07-04 |
@@ -39,4 +40,3 @@ title: "GitHub Discussions"
 | [1323](show-and-tell/1323-gonka-x-hermes-agent.md) | [Gonka x Hermes Agent](show-and-tell/1323-gonka-x-hermes-agent.md) | :raised_hands: Show and Tell | [@Dankosik](https://github.com/Dankosik) | 2026-06-08 |
 | [951](proposals/0951-tee-implementation.md) | [TEE Implementation](proposals/0951-tee-implementation.md) | :bulb: Proposals | [@mtvnastya](https://github.com/mtvnastya) | 2026-06-05 |
 | [1304](general/1304-aps-for-delegated-wallets-and-agent-accounts-track-2-project.md) | [APS for delegated wallets and agent accounts (Track 2, Project 3)](general/1304-aps-for-delegated-wallets-and-agent-accounts-track-2-project.md) | :speech_balloon: General | [@aeoess](https://github.com/aeoess) | 2026-06-04 |
-| [1185](proposals/1185-public-review-gonka-network-development-roadmap.md) | [[Public Review] Gonka Network Development Roadmap](proposals/1185-public-review-gonka-network-development-roadmap.md) | :bulb: Proposals | [@paranjko](https://github.com/paranjko) | 2026-05-27 |

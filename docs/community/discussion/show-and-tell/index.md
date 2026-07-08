@@ -4,7 +4,7 @@ title: ":raised_hands: Show and Tell"
 
 # :raised_hands: Show and Tell
 
-Дискуссии в категории **:raised_hands: Show and Tell**. Всего: **21**. Обновлено: `2026-07-08 12:49 UTC`.
+Дискуссии в категории **:raised_hands: Show and Tell**. Всего: **21**. Обновлено: `2026-07-08 15:30 UTC`.
 
 [← ко всем категориям](../index.md)
 
@@ -15,7 +15,7 @@ title: ":raised_hands: Show and Tell"
 | [1363](1363-openbroker-broker-for-brokers-or-devshards-as-a-service.md) | [OpenBroker - broker for brokers or Devshards as a service.](1363-openbroker-broker-for-brokers-or-devshards-as-a-service.md) | [@gonkalabs](https://github.com/gonkalabs) | 2026-07-04 |
 | [1339](1339-gonka-x-mimocode.md) | [Gonka x MiMoCode](1339-gonka-x-mimocode.md) | [@Dankosik](https://github.com/Dankosik) | 2026-06-12 |
 | [1323](1323-gonka-x-hermes-agent.md) | [Gonka x Hermes Agent](1323-gonka-x-hermes-agent.md) | [@Dankosik](https://github.com/Dankosik) | 2026-06-08 |
-| [1141](1141-ibc-usdt-withdrawal-guide.md) | [IBC USDT Withdrawal Guide](1141-ibc-usdt-withdrawal-guide.md) | [@paranjko](https://github.com/paranjko) | 2026-05-20 |
+| [1141](1141-ibc-usdt-withdrawal-guide.md) | [IBC USDT Withdrawal Guide](1141-ibc-usdt-withdrawal-guide.md) | [@paranjko](https://github.com/paranjko) | 2026-07-08 |
 | [1116](1116-how-to-create-and-submit-a-governance-proposal-on-gonka.md) | [HOW-TO: Create and Submit a Governance Proposal on Gonka](1116-how-to-create-and-submit-a-governance-proposal-on-gonka.md) | [@paranjko](https://github.com/paranjko) | 2026-04-24 |
 | [1095](1095-gonka-ai-x-kilo.md) | [Gonka AI x Kilo](1095-gonka-ai-x-kilo.md) | [@Dankosik](https://github.com/Dankosik) | 2026-04-21 |
 | [1044](1044-gonka-ai-x-opencode.md) | [Gonka AI x OpenCode](1044-gonka-ai-x-opencode.md) | [@Dankosik](https://github.com/Dankosik) | 2026-04-13 |

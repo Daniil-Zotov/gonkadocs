@@ -3,14 +3,14 @@ title: "#1141 — IBC USDT Withdrawal Guide"
 source: https://github.com/gonka-ai/gonka/discussions/1141
 discussion_number: 1141
 category: show-and-tell
-synced_at: 2026-07-08T12:49:03Z
+synced_at: 2026-07-08T15:30:15Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1141](https://github.com/gonka-ai/gonka/discussions/1141) every hour. 
 
 # IBC USDT Withdrawal Guide
 
-**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-05-01 12:55 UTC · **Обновлено:** 2026-05-20 21:17 UTC
+**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-05-01 12:55 UTC · **Обновлено:** 2026-07-08 13:45 UTC
 
 ---
 
@@ -309,3 +309,9 @@ So it was just use keplr to move to KAVA and use squidrouter to move directly to
 > I think as it is looking for different routes it highly depend on a moment.
 > When I've used it, it was no more than 1 minute to go through all transfers and final fee was ok.
 > Anyway it is normal practice in bridge routers to look on different apps and decide what matches better at each moment
+
+**↳ Ответ от [@rufatpro](https://github.com/rufatpro)** · *2026-07-08 13:45 UTC*
+
+> > @paranjko BTW. I've used https://app.squidrouter.com to move KAVA IBC USDT, to ETH USDT directly. So it was just use keplr to move to KAVA and use squidrouter to move directly to ETH USDT
+>
+> Согласен, что это самый удобный способ вывода, вез всяких там газов и других танцов с бубном, но ликвидность там маленькая.
