@@ -22718,7 +22718,17 @@ alexandr8475
 
 ## 2026-Q3
 
-*1 proposals*
+*2 proposals*
+
+  
+    #81 – Kimi cPoC Restitution (epochs 306-309)
+    Voting
+  
+  
+    Submitted 2026-07-08
+    Voting ends 2026-07-10
+  
+  Distribute restitution for Kimi operators affected by cPoC validation failure in epochs 306-309. The Kimi validation path failed starting in e306 causing confirmation_weight suppression for Kimi opera…
 
   
     #80 – GRC Proposal #3 - Restitution
@@ -22767,6 +22777,7 @@ alexandr8475
   
   We are INPUT Global - a leading web3 marketing communications agency. We offer 3 month PR campaign to establish trust and market legitimacy of Gonka across 2 audiences: global business and crypto-nati…
   Yes 152,042 (100.0%) · No 71 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  $75,000
 
   
     #76 – Governance 16: devshard v2 and bounty payouts
@@ -22799,6 +22810,7 @@ alexandr8475
   
   Full proposal: https://gonkalabs.com/proposal  This proposal funds the next six months of work for the Gonka ecosystem.  The focus is production-grade infrastructure and high-use products: Gonka.gg V2…
   Yes 305,163 (79.6%) · No 3,791 (1.0%) · Veto 15 (0.0%) · Abstain 74,304 (19.4%)
+  330,000 GNK · $70,000
 
   
     #73 – Increase minimum governance deposit to 500 GNK and expedited minimum deposit to 1000 GNK
@@ -22810,6 +22822,7 @@ alexandr8475
   
   Increase the minimum deposit required to submit a governance proposal to 500 GNK (500,000,000,000 ngonka) and expedited minimum deposit to 1000 GNK (1,000,000,000,000 ngonka). This resubmits proposal …
   Yes 295,843 (96.3%) · No 40 (0.0%) · Veto 572 (0.2%) · Abstain 10,823 (3.5%)
+  1,500 GNK
 
   
     #72 – Open devshard escrow creation to community wallet gonka1afj0tz53z56zngs425m83vxl5y2xmwm692hfrn
@@ -22876,6 +22889,7 @@ alexandr8475
   
   Distribute restitution for Kimi operators across epochs 265-276. Epochs 265-266: external attack causing CPoC degradation and nonce exclusion. Epochs 267-276: ComputeGroupCap systematic underpayment d…
   Yes 319,920 (78.9%) · No 150 (0.0%) · Veto 84,623 (20.9%) · Abstain 744 (0.2%)
+  946,509 GNK
 
   
     #66 – test proposal - 测试方案
@@ -22897,6 +22911,7 @@ alexandr8475
   
   Full 360-degree digital and social strategy for Gonka.AI: channel matrix, content plan, segment messaging, social strategy, and brand-voice guidelines. Single-tranche payment of 100,000 GNK to TheSoul…
   Yes 220,798 (67.9%) · No 0 (0.0%) · Veto 70,043 (21.5%) · Abstain 34,369 (10.6%)
+  100,000 GNK
 
   
     #64 – TheSoul - Offer 2.2: Analytics and attribution (28,000 GNK)
@@ -22908,6 +22923,7 @@ alexandr8475
   
   Web analytics, attribution, and funnel dashboarding for Gonka.AI: GA4 implementation, UTM taxonomy, event tracking, and conversion reporting. Single-tranche payment of 28,000 GNK to TheSoul on proposa…
   Yes 220,798 (67.9%) · No 0 (0.0%) · Veto 70,043 (21.5%) · Abstain 34,369 (10.6%)
+  28,000 GNK
 
   
     #63 – TheSoul - Offer 2.1: Website and landings (10,000 USDT)
@@ -22919,6 +22935,7 @@ alexandr8475
   
   Full redesign of gonka.ai plus dedicated landing pages for miners, inference buyers, and investors, built on the brandbook from Offer 1.2. Single-tranche payment of 10,000 USDT to TheSoul on proposal …
   Yes 220,798 (67.9%) · No 0 (0.0%) · Veto 70,043 (21.5%) · Abstain 34,369 (10.6%)
+  $10,000
 
   
     #62 – TheSoul - Offer 1.3: Influencer pilot (50,000 USDT)
@@ -22930,6 +22947,7 @@ alexandr8475
   
   Crypto-influencer pilot campaign for Gonka.AI across selected tier-1 creators, with a full performance report and scaling recommendations. Single-tranche payment of 50,000 USDT to TheSoul on proposal …
   Yes 220,798 (67.9%) · No 0 (0.0%) · Veto 70,043 (21.5%) · Abstain 34,369 (10.6%)
+  $50,000
 
   
     #61 – TheSoul - Offer 1.2: Brandbook (20,000 USDT)
@@ -22941,6 +22959,7 @@ alexandr8475
   
   Brand identity system for Gonka.AI: logo, typography, color system, graphic language, layout principles, and templates, built on the positioning from Offer 1.1. Single-tranche payment of 20,000 USDT t…
   Yes 220,798 (67.9%) · No 0 (0.0%) · Veto 70,043 (21.5%) · Abstain 34,369 (10.6%)
+  $20,000
 
   
     #60 – TheSoul - Offer 1.1: Brand positioning (25,000 USDT)
@@ -22952,6 +22971,7 @@ alexandr8475
   
   Brand audit, competitive positioning, and audience segmentation for Gonka.AI. Single-tranche payment of 25,000 USDT to TheSoul on proposal pass. Full offer document: see the metadata URL.
   Yes 220,798 (67.9%) · No 0 (0.0%) · Veto 70,043 (21.5%) · Abstain 34,369 (10.6%)
+  $25,000
 
   
     #59 – Gonka Onboarding Video Guide — Milestone 1 (Prepayment)
@@ -23007,6 +23027,7 @@ alexandr8475
   
   Distribute restitution for Cases 2, 3, and 4 across epochs 248-254. Case 2: preserver weight double-scaling bug (epochs 249-253). Case 3: epoch loss restitution: broad epoch losses, consecutive failur…
   Yes 188,670 (61.2%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 119,835 (38.8%)
+  346,029 GNK
 
   
     #54 – Upgrade Proposal: v0.2.13
@@ -23051,6 +23072,7 @@ alexandr8475
   
   6Block, a long-term Gonka mining and infrastructure participant, proposes that the Gonka community allocate 75,000 USDT to support Gonka's participation at WebX Asia / WebX 2026 in Tokyo. 6Block has a…
   Yes 395,003 (62.8%) · No 1,767 (0.3%) · Veto 64,217 (10.2%) · Abstain 168,275 (26.7%)
+  $225,000
 
   
     #50 – Retroactive bounty: open-source PoC throughput optimization (+10–12% measured) with 250 total installations
@@ -23062,6 +23084,7 @@ alexandr8475
   
   Retroactive 20K GNK bounty for an open-sourced PoC optimization measuring +10.2% on B200 and +12.5% on H100 with Qwen3-235B-FP8. One-line patch, verified on-chain by independent miners. Details: https…
   Yes 281,723 (59.1%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 194,589 (40.9%)
+  20,000 GNK
 
   
     #49 – Gonka Media Dominance in TechL/AI with 5 AI Influencers
@@ -23073,6 +23096,7 @@ alexandr8475
   
   We're ICG - AI Influencer Lab, a team that builds and scales hyper-realistic AI avatars on Instagram, TikTok, and YouTube as full ambassadors across verticals. We manage 160+ accounts in AI, finance, …
   Yes 496,683 (71.1%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 201,560 (28.9%)
+  $60,000
 
   
     #48 – Lower Direct Participation Threshold to 10%
@@ -23106,6 +23130,7 @@ alexandr8475
   
   Two prior upgrades changed the lifecycle of unpaid miner rewards. v0.2.9 (proposal #26, 2026-02-01): when a participant is penalized during cPoC validation, the unaccounted portion of their epoch rewa…
   Yes 97,030 (36.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 172,837 (64.0%)
+  3,601 GNK
 
   
     #45 – Governance Architecture Proposal for the Gonka.ai Network
@@ -23150,6 +23175,7 @@ alexandr8475
   
   We are DeAI Nation, a global nonprofit organization supporting and promoting the decentralized AI ecosystem, and authors of the State of DeAI 2026 report. We propose that the Gonka community become a …
   Yes 375,771 (68.6%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 172,050 (31.4%)
+  $10,000
 
   
     #41 – INC4 | Gonka Node Observability Platform
@@ -23183,6 +23209,7 @@ alexandr8475
   
   Saccade Media House is a creative team of tech entrepreneurs who know how to tell stories. We've built content for international tech brands and the founders behind them. We propose a Community Series…
   Yes 394,971 (76.0%) · No 183 (0.0%) · Veto 0 (0.0%) · Abstain 124,587 (24.0%)
+  31,250 GNK
 
   
     #38 – CryptoCommons: Community Support & Token Promotion Plan
@@ -23601,7 +23628,7 @@ alexandr8475
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-79 proposals across 5 quarters. Last updated: 2026-07-08 04:49 UTC
+80 proposals across 5 quarters. Last updated: 2026-07-08 07:56 UTC
 
 function initProposalsPage() {
   var checkboxes = document.querySelectorAll('.prop-oview-filter input[type=checkbox]');
@@ -23703,6 +23730,7 @@ USDT allocated$545,000
   
   We are INPUT Global - a leading web3 marketing communications agency. We offer 3 month PR campaign to establish trust and market legitimacy of Gonka across 2 audiences: global business and crypto-nati…
   Yes 152,042 (100.0%) · No 71 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  $75,000
 
   
     #76 – Governance 16: devshard v2 and bounty payouts
@@ -23735,6 +23763,7 @@ USDT allocated$545,000
   
   Full proposal: https://gonkalabs.com/proposal  This proposal funds the next six months of work for the Gonka ecosystem.  The focus is production-grade infrastructure and high-use products: Gonka.gg V2…
   Yes 305,163 (79.6%) · No 3,791 (1.0%) · Veto 15 (0.0%) · Abstain 74,304 (19.4%)
+  330,000 GNK · $70,000
 
   
     #73 – Increase minimum governance deposit to 500 GNK and expedited minimum deposit to 1000 GNK
@@ -23746,6 +23775,7 @@ USDT allocated$545,000
   
   Increase the minimum deposit required to submit a governance proposal to 500 GNK (500,000,000,000 ngonka) and expedited minimum deposit to 1000 GNK (1,000,000,000,000 ngonka). This resubmits proposal …
   Yes 295,843 (96.3%) · No 40 (0.0%) · Veto 572 (0.2%) · Abstain 10,823 (3.5%)
+  1,500 GNK
 
   
     #72 – Open devshard escrow creation to community wallet gonka1afj0tz53z56zngs425m83vxl5y2xmwm692hfrn
@@ -23812,6 +23842,7 @@ USDT allocated$545,000
   
   Distribute restitution for Kimi operators across epochs 265-276. Epochs 265-266: external attack causing CPoC degradation and nonce exclusion. Epochs 267-276: ComputeGroupCap systematic underpayment d…
   Yes 319,920 (78.9%) · No 150 (0.0%) · Veto 84,623 (20.9%) · Abstain 744 (0.2%)
+  946,509 GNK
 
   
     #66 – test proposal - 测试方案
@@ -23833,6 +23864,7 @@ USDT allocated$545,000
   
   Full 360-degree digital and social strategy for Gonka.AI: channel matrix, content plan, segment messaging, social strategy, and brand-voice guidelines. Single-tranche payment of 100,000 GNK to TheSoul…
   Yes 220,798 (67.9%) · No 0 (0.0%) · Veto 70,043 (21.5%) · Abstain 34,369 (10.6%)
+  100,000 GNK
 
   
     #64 – TheSoul - Offer 2.2: Analytics and attribution (28,000 GNK)
@@ -23844,6 +23876,7 @@ USDT allocated$545,000
   
   Web analytics, attribution, and funnel dashboarding for Gonka.AI: GA4 implementation, UTM taxonomy, event tracking, and conversion reporting. Single-tranche payment of 28,000 GNK to TheSoul on proposa…
   Yes 220,798 (67.9%) · No 0 (0.0%) · Veto 70,043 (21.5%) · Abstain 34,369 (10.6%)
+  28,000 GNK
 
   
     #63 – TheSoul - Offer 2.1: Website and landings (10,000 USDT)
@@ -23855,6 +23888,7 @@ USDT allocated$545,000
   
   Full redesign of gonka.ai plus dedicated landing pages for miners, inference buyers, and investors, built on the brandbook from Offer 1.2. Single-tranche payment of 10,000 USDT to TheSoul on proposal …
   Yes 220,798 (67.9%) · No 0 (0.0%) · Veto 70,043 (21.5%) · Abstain 34,369 (10.6%)
+  $10,000
 
   
     #62 – TheSoul - Offer 1.3: Influencer pilot (50,000 USDT)
@@ -23866,6 +23900,7 @@ USDT allocated$545,000
   
   Crypto-influencer pilot campaign for Gonka.AI across selected tier-1 creators, with a full performance report and scaling recommendations. Single-tranche payment of 50,000 USDT to TheSoul on proposal …
   Yes 220,798 (67.9%) · No 0 (0.0%) · Veto 70,043 (21.5%) · Abstain 34,369 (10.6%)
+  $50,000
 
   
     #61 – TheSoul - Offer 1.2: Brandbook (20,000 USDT)
@@ -23877,6 +23912,7 @@ USDT allocated$545,000
   
   Brand identity system for Gonka.AI: logo, typography, color system, graphic language, layout principles, and templates, built on the positioning from Offer 1.1. Single-tranche payment of 20,000 USDT t…
   Yes 220,798 (67.9%) · No 0 (0.0%) · Veto 70,043 (21.5%) · Abstain 34,369 (10.6%)
+  $20,000
 
   
     #60 – TheSoul - Offer 1.1: Brand positioning (25,000 USDT)
@@ -23888,6 +23924,7 @@ USDT allocated$545,000
   
   Brand audit, competitive positioning, and audience segmentation for Gonka.AI. Single-tranche payment of 25,000 USDT to TheSoul on proposal pass. Full offer document: see the metadata URL.
   Yes 220,798 (67.9%) · No 0 (0.0%) · Veto 70,043 (21.5%) · Abstain 34,369 (10.6%)
+  $25,000
 
   
     #59 – Gonka Onboarding Video Guide — Milestone 1 (Prepayment)
@@ -23943,6 +23980,7 @@ USDT allocated$545,000
   
   Distribute restitution for Cases 2, 3, and 4 across epochs 248-254. Case 2: preserver weight double-scaling bug (epochs 249-253). Case 3: epoch loss restitution: broad epoch losses, consecutive failur…
   Yes 188,670 (61.2%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 119,835 (38.8%)
+  346,029 GNK
 
   
     #54 – Upgrade Proposal: v0.2.13
@@ -23987,6 +24025,7 @@ USDT allocated$545,000
   
   6Block, a long-term Gonka mining and infrastructure participant, proposes that the Gonka community allocate 75,000 USDT to support Gonka's participation at WebX Asia / WebX 2026 in Tokyo. 6Block has a…
   Yes 395,003 (62.8%) · No 1,767 (0.3%) · Veto 64,217 (10.2%) · Abstain 168,275 (26.7%)
+  $225,000
 
   
     #50 – Retroactive bounty: open-source PoC throughput optimization (+10–12% measured) with 250 total installations
@@ -23998,6 +24037,7 @@ USDT allocated$545,000
   
   Retroactive 20K GNK bounty for an open-sourced PoC optimization measuring +10.2% on B200 and +12.5% on H100 with Qwen3-235B-FP8. One-line patch, verified on-chain by independent miners. Details: https…
   Yes 281,723 (59.1%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 194,589 (40.9%)
+  20,000 GNK
 
   
     #49 – Gonka Media Dominance in TechL/AI with 5 AI Influencers
@@ -24009,6 +24049,7 @@ USDT allocated$545,000
   
   We're ICG - AI Influencer Lab, a team that builds and scales hyper-realistic AI avatars on Instagram, TikTok, and YouTube as full ambassadors across verticals. We manage 160+ accounts in AI, finance, …
   Yes 496,683 (71.1%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 201,560 (28.9%)
+  $60,000
 
   
     #48 – Lower Direct Participation Threshold to 10%
@@ -24042,6 +24083,7 @@ USDT allocated$545,000
   
   Two prior upgrades changed the lifecycle of unpaid miner rewards. v0.2.9 (proposal #26, 2026-02-01): when a participant is penalized during cPoC validation, the unaccounted portion of their epoch rewa…
   Yes 97,030 (36.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 172,837 (64.0%)
+  3,601 GNK
 
   
     #45 – Governance Architecture Proposal for the Gonka.ai Network
@@ -24086,6 +24128,7 @@ USDT allocated$545,000
   
   We are DeAI Nation, a global nonprofit organization supporting and promoting the decentralized AI ecosystem, and authors of the State of DeAI 2026 report. We propose that the Gonka community become a …
   Yes 375,771 (68.6%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 172,050 (31.4%)
+  $10,000
 
   
     #41 – INC4 | Gonka Node Observability Platform
@@ -24119,6 +24162,7 @@ USDT allocated$545,000
   
   Saccade Media House is a creative team of tech entrepreneurs who know how to tell stories. We've built content for international tech brands and the founders behind them. We propose a Community Series…
   Yes 394,971 (76.0%) · No 183 (0.0%) · Veto 0 (0.0%) · Abstain 124,587 (24.0%)
+  31,250 GNK
 
   
     #38 – CryptoCommons: Community Support & Token Promotion Plan
@@ -27905,18 +27949,29 @@ Sale GNK from Community Fund
 
 ## 2026-Q3 Summary
 
-1Total Proposals
+2Total Proposals
 0Passed (0%)
-1Rejected (100%)
+1Rejected (50%)
 
 By Category
+GRC / Restitution1
 Funding / Grants1
 
 Approved Funding
 No funding proposals
 
 2026-Q3
-1 proposals
+2 proposals
+
+  
+    #81 – Kimi cPoC Restitution (epochs 306-309)
+    Voting
+  
+  
+    Submitted 2026-07-08
+    Voting ends 2026-07-10
+  
+  Distribute restitution for Kimi operators affected by cPoC validation failure in epochs 306-309. The Kimi validation path failed starting in e306 causing confirmation_weight suppression for Kimi opera…
 
   
     #80 – GRC Proposal #3 - Restitution
@@ -28015,6 +28070,40 @@ Restitution payout for confirmed GRC Proposal #3 cases, with Case 05 payments fr
 ---
 
 [View on gonka.gg](https://gonka.gg/network/proposals/80){:target="_blank"}
+
+---
+
+## #81 – Kimi cPoC Restitution (epochs 306-309)
+
+# #81 – Kimi cPoC Restitution (epochs 306-309)
+
+Voting
+
+**Proposal ID:** `81`
+
+**Type:** Batch Transfer With Vesting
+
+**Submit:** 2026-07-08 05:57 UTC
+
+**Voting:** 2026-07-08 05:57 UTC → 2026-07-10 05:57 UTC
+
+**Proposer:** `gonka123pr0p0salv96xvne9qln70x3usvpyscug5f9a`
+
+**Metadata:** [https://github.com/votkon/gonka-kimi-e306-issue](https://github.com/votkon/gonka-kimi-e306-issue)
+
+Distribute restitution for Kimi operators affected by cPoC validation failure in epochs 306-309. The Kimi validation path failed starting in e306 causing confirmation_weight suppression for Kimi operators while non-Kimi operators ran normally. Failure worsened in e307 and carried into the e309 bootstrap attempt. Total: 175082.07 GONKA to 19 addresses, vested over 170 days (160 epochs).
+
+---
+
+## Messages
+
+| # | Type |
+| :- | :--- |
+| 1 | `/inference.streamvesting.MsgBatchTransferWithVesting` |
+
+---
+
+[View on gonka.gg](https://gonka.gg/network/proposals/81){:target="_blank"}
 
 ---
 
