@@ -261,7 +261,8 @@
   color: var(--md-accent-fg-color);
   user-select: none;
   list-style: none;
-  padding-left: 6px;
+  display: block;
+  padding-left: 20px;
 }
 .prop-contracts summary::-webkit-details-marker {
   display: none;
