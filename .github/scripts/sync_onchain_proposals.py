@@ -38,19 +38,25 @@ def escape_md_block(text):
 
 
 def linkify(text):
-    """Convert URLs to clickable HTML links."""
+    """Convert URLs and gonka1 addresses to clickable HTML links."""
     if not text:
         return ""
     import re
-    return re.sub(r'https?://[^\s<>"\'()]+', lambda m: f'<a href="{m.group(0)}" target="_blank">{m.group(0)}</a>', str(text))
+    s = str(text)
+    s = re.sub(r'https?://[^\s<>"\'()]+', lambda m: f'<a href="{m.group(0)}" target="_blank">{m.group(0)}</a>', s)
+    s = re.sub(r'\b(gonka1[a-z0-9]{38})\b', lambda m: f'<a href="https://gonka.gg/address/{m.group(1)}" target="_blank">{m.group(1)}</a>', s)
+    return s
 
 
 def linkify_md(text):
-    """Convert URLs to Markdown auto-links (<url>)."""
+    """Convert URLs and gonka1 addresses to Markdown links."""
     if not text:
         return ""
     import re
-    return re.sub(r'(?<!<)(https?://[^\s<>"\'()]+)(?!>)', lambda m: f'<{m.group(1)}>', str(text))
+    s = str(text)
+    s = re.sub(r'(?<!<)(https?://[^\s<>"\'()]+)(?!>)', lambda m: f'<{m.group(1)}>', s)
+    s = re.sub(r'\b(gonka1[a-z0-9]{38})\b', lambda m: f'[{m.group(1)}](https://gonka.gg/address/{m.group(1)})', s)
+    return s
 
 
 def yaml_str(text):

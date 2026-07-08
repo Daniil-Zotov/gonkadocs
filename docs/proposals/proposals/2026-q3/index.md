@@ -73,7 +73,7 @@ template: proposals-oview.html
     <span>Voting ends 2026-07-10</span>
   </div>
   <div class="prop-card-desc">Distribute restitution for Kimi operators affected by cPoC validation failure in epochs 306-309. The Kimi validation path failed starting in e306 causing confirmation_weight suppression for Kimi opera…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 107,866 (93.9%)</span> · <span class="prop-tally-no-text">No 5,966 (5.2%)</span> · <span class="prop-tally-veto-text">Veto 1,089 (0.9%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-funding prop-card-funding-voting">175,082 GNK · Gov Module</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 0 (0.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-funding prop-card-funding-voting">175,082 GNK · Gov Module</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">

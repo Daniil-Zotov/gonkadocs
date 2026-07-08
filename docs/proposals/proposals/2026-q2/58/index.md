@@ -55,7 +55,7 @@ This is a full-scale analytical deep-dive that builds genuine trust rather than 
 
 - 70,000 USD for full end-to-end production and permanent publication
 - Single payment, no vesting or tranches
-- Recipient: gonka1w6amu8jg623pqrfw3a8wxlz0s2ph2yp0wvpuu3
+- Recipient: [gonka1w6amu8jg623pqrfw3a8wxlz0s2ph2yp0wvpuu3](https://gonka.gg/address/gonka1w6amu8jg623pqrfw3a8wxlz0s2ph2yp0wvpuu3)
 
 ---
 
