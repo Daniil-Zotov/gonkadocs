@@ -23954,7 +23954,7 @@ Models / IBC2
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-81 proposals across 5 quarters. Last updated: 2026-07-08 20:05 UTC
+81 proposals across 5 quarters. Last updated: 2026-07-08 21:44 UTC
 
 function initProposalsPage() {
   var checkboxes = document.querySelectorAll('.prop-oview-filter input[type=checkbox]');
@@ -50182,6 +50182,116 @@ Contract Details
 ```
 
 ---
+
+---
+
+## Kimi cPoC Validation Failure, Epochs 306–309
+
+# Kimi cPoC Validation Failure, Epochs 306–309
+
+| Field | Value |
+|---|---|
+| **Case** | Kimi operator restitution: cPoC validation failure (e306–e307) + bootstrap carry-over (e309) |
+| Epochs affected | 306, 307, 309 |
+| Affected participants | 19 unique addresses |
+| Estimated compensation | 175,082.07 GONKA |
+| **Cause** | The Kimi cPoC validation path failed starting in epoch 306. Validator nodes were unable to vote on submitted Kimi nonces, causing `confirmation_weight` to be severely suppressed for Kimi operators while non-Kimi operators ran normally. The issue persisted through e307 and carried into the e309 bootstrap attempt. |
+| **Can it happen again?** | Reduced risk — the validation infrastructure was reviewed and a guardian node is explicitly designated for Kimi bootstrap support from e311 onward (per proposal #79). |
+| **Mitigation / fix** | Proposal #78 (June 25, 2026) removed Kimi from the active model lineup. Proposal #79 (June 26, 2026, expedited) restored Kimi with `weight_scale_factor=0.9` and added `zai-org/GLM-5.2-FP8`. Epoch 311 is the first clean epoch. |
+
+---
+
+## Overview
+
+Starting in epoch 306, `moonshotai/Kimi-K2.6` operators experienced a severe
+confirmation weight collapse. The Kimi cPoC validation path stopped functioning:
+other network participants could not vote on Kimi cPoC submissions, so nonces
+accumulated as "no vote" weight rather than approved weight. This drove confirm
+ratios down to near zero for Kimi operators while all non-Kimi operators
+continued operating normally at 97–125% confirm ratios.
+
+The chain's reward formula uses `confirmation_weight` as the measure of
+confirmed work. Operators whose confirmation weight was suppressed received
+proportionally less than their earned share of epoch rewards.
+
+E305 (the epoch immediately before) is confirmed clean — Kimi operators had
+normal confirm ratios across the board. The failure began in e306.
+
+Governance proposal #78 (passed June 25, 2026) removed Kimi from the active
+model lineup while the issue was diagnosed. Proposal #79 (passed June 26,
+2026, expedited, 12h voting window) restored Kimi with revised parameters.
+The first bootstrap attempt under the restored params was epoch 309, in which
+Kimi operators again experienced partial confirmation weight suppression —
+the underlying issue had not been fully resolved. Epoch 311 is the first epoch
+where Kimi operated cleanly.
+
+---
+
+## Epoch Block Heights
+
+| Epoch | PoC Start | Epoch End | Notes |
+|-------|-----------|-----------|-------|
+| 305 | 4,705,610 | 4,721,400 | Clean baseline — all Kimi operators healthy |
+| 306 | 4,721,001 | 4,736,791 | **First failure epoch** |
+| 307 | 4,736,392 | 4,752,182 | **Failure continues — worsens** |
+| 308 | 4,751,783 | 4,767,573 | Kimi removed by prop #78 — no compensation |
+| 309 | 4,767,174 | 4,782,964 | **Bootstrap attempt — partial failure** |
+| 310 | 4,782,565 | 4,798,355 | Zero Kimi commits — no compensation |
+| 311 | 4,797,956 | 4,813,746 | Bootstrap succeeds — clean |
+
+Reward formula: `323,000 × e^(−0.000475 × (epoch − 1))` GONKA.
+
+| Epoch | Theoretical Reward |
+|-------|--------------------|
+| 306 | 279,437.13 GONKA |
+| 307 | 279,304.43 GONKA |
+| 309 | 279,039.21 GONKA |
+
+---
+
+## Root Cause Evidence
+
+`confirmation_weight` is initialized at epoch start from a fresh ML-node
+measurement and can only be lowered by subsequent cPoC min-take events. The
+diagnostic signal is whether `conf_w  0` (or excluded from vw
+   entirely but have on-chain commits — applies to 2 operators in e307), **and**
+3. Their confirm ratio was depressed relative to the non-Kimi baseline
+   (operationally: `actual_rewards :26657
+INFERENCED_BINARY=/path/to/inferenced
+```
+
+The `.env` is loaded from `../gonka-segment-report/.env`.
+
+```bash
+python3 e306/calculate_compensation_306.py
+python3 e307/calculate_compensation_307.py
+python3 e309/calculate_compensation_309.py
+python3 aggregate_compensation.py
+```
+
+---
+
+## Chain Query Reference
+
+```bash
+# PoC nonce commits for an epoch
+inferenced query inference all-poc-v2-store-commits  \
+  --node  --height  -o json
+
+# Epoch group data (validation weights, confirmation weights)
+inferenced query inference show-epoch-group-data  \
+  --node  --height  -o json
+
+# Per-participant reward summary
+inferenced query inference show-epoch-performance-summary-by-participant \
+    --node  -o json
+```
+
+| Epoch | poc_start | epoch_end |
+|-------|-----------|-----------|
+| 306 | 4,721,001 | 4,736,791 |
+| 307 | 4,736,392 | 4,752,182 |
+| 309 | 4,767,174 | 4,782,964 |
 
 ---
 
