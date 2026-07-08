@@ -449,7 +449,7 @@ def generate_proposal_page(proposal, prop_dir):
     <span class="prop-tally-no-text">No {no_count:,} ({pct(no_count)})</span>
     <span class="prop-tally-veto-text">Veto {no_with_veto_count:,} ({pct(no_with_veto_count)})</span>
     <span class="prop-tally-abstain-text">Abstain {abstain_count:,} ({pct(abstain_count)})</span>
-    <span class="prop-tally-quorum-text">Quorum {QUORUM_PCT:.1f}%</span>
+    <span class="prop-tally-total-text">Total {total_votes:,} votes</span>
   </div>
 </div>
 """
@@ -673,7 +673,7 @@ template: proposals-oview.html
                 abstain_c = int(tally.get("abstain_count", 0))
                 total_t = yes_c + no_c + veto_c + abstain_c
                 _pct = lambda v: f"({v / total_t * 100:.1f}%)" if total_t > 0 else "(0.0%)"
-                _tally_line = f'<span class="prop-tally-yes-text">Yes {yes_c:,} {_pct(yes_c)}</span> · <span class="prop-tally-no-text">No {no_c:,} {_pct(no_c)}</span> · <span class="prop-tally-veto-text">Veto {veto_c:,} {_pct(veto_c)}</span> · <span class="prop-tally-abstain-text">Abstain {abstain_c:,} {_pct(abstain_c)}</span> · <span class="prop-tally-quorum-text">Quorum {QUORUM_PCT:.1f}%</span>'
+                _tally_line = f'<span class="prop-tally-yes-text">Yes {yes_c:,} {_pct(yes_c)}</span> · <span class="prop-tally-no-text">No {no_c:,} {_pct(no_c)}</span> · <span class="prop-tally-veto-text">Veto {veto_c:,} {_pct(veto_c)}</span> · <span class="prop-tally-abstain-text">Abstain {abstain_c:,} {_pct(abstain_c)}</span>'
 
                 _funding_html = ""
                 if status_css_cls == "prop-passed" or status_css_cls == "prop-voting":
@@ -855,7 +855,7 @@ template: proposals-oview.html
             abstain_c = int(tally.get("abstain_count", 0))
             total_t = yes_c + no_c + veto_c + abstain_c
             _pct = lambda v: f"({v / total_t * 100:.1f}%)" if total_t > 0 else "(0.0%)"
-            _tally_line = f'<span class="prop-tally-yes-text">Yes {yes_c:,} {_pct(yes_c)}</span> · <span class="prop-tally-no-text">No {no_c:,} {_pct(no_c)}</span> · <span class="prop-tally-veto-text">Veto {veto_c:,} {_pct(veto_c)}</span> · <span class="prop-tally-abstain-text">Abstain {abstain_c:,} {_pct(abstain_c)}</span> · <span class="prop-tally-quorum-text">Quorum {QUORUM_PCT:.1f}%</span>'
+            _tally_line = f'<span class="prop-tally-yes-text">Yes {yes_c:,} {_pct(yes_c)}</span> · <span class="prop-tally-no-text">No {no_c:,} {_pct(no_c)}</span> · <span class="prop-tally-veto-text">Veto {veto_c:,} {_pct(veto_c)}</span> · <span class="prop-tally-abstain-text">Abstain {abstain_c:,} {_pct(abstain_c)}</span>'
 
             _funding_html = ""
             if status_css_cls == "prop-passed" or status_css_cls == "prop-voting":
@@ -955,22 +955,6 @@ def update_mkdocs_nav(sorted_quarters, proposals_by_quarter):
     print(f"Updated mkdocs.yml nav with {len(sorted_quarters)} quarters and {sum(len(v) for v in proposals_by_quarter.values())} proposals")
 
 
-# ── gov params ──────────────────────────────────────────────────
-
-QUORUM_PCT = 0.0
-
-def fetch_gov_params():
-    global QUORUM_PCT
-    try:
-        resp = requests.get(f"{RPC_BASE}/cosmos/gov/v1/params/tallying", timeout=10)
-        resp.raise_for_status()
-        raw = resp.json().get("tally_params", {}).get("quorum", "0")
-        QUORUM_PCT = float(raw) * 100
-        print(f"  Gov params → quorum {QUORUM_PCT:.1f}%")
-    except Exception as e:
-        print(f"  Warning: could not fetch gov params: {e}")
-
-
 # ── main ────────────────────────────────────────────────────────
 
 def fetch_live_tally(proposal_id):
@@ -987,10 +971,6 @@ def fetch_live_tally(proposal_id):
 def main():
     print("=== Sync On-Chain Proposals ===")
     proposals = fetch_proposals()
-
-    # Fetch governance parameters (quorum, etc.)
-    print("Fetching governance parameters...")
-    fetch_gov_params()
 
     # Patch tally for voting proposals (list endpoint returns all zeros)
     print("Fetching live tallies for voting proposals...")

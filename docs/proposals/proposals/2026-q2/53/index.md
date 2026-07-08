@@ -87,7 +87,7 @@ Live walkthrough on YouTube (by Gonka.Top@Mitch): https://www.youtube.com/watch?
     <span class="prop-tally-no-text">No 0 (0.0%)</span>
     <span class="prop-tally-veto-text">Veto 158,195 (53.2%)</span>
     <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span>
-    <span class="prop-tally-quorum-text">Quorum 25.0%</span>
+    <span class="prop-tally-total-text">Total 297,247 votes</span>
   </div>
 </div>
 

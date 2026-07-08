@@ -120,7 +120,7 @@ IMPORTANT: This is a condensed version of the document and does not include many
     <span class="prop-tally-no-text">No 0 (0.0%)</span>
     <span class="prop-tally-veto-text">Veto 313,499 (100.0%)</span>
     <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span>
-    <span class="prop-tally-quorum-text">Quorum 25.0%</span>
+    <span class="prop-tally-total-text">Total 313,499 votes</span>
   </div>
 </div>
 

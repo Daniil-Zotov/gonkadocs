@@ -45,7 +45,7 @@ https://github.com/product-science/filter/tree/ae59d27f04a70039bcfca94ae656e7239
     <span class="prop-tally-no-text">No 90,320 (3.9%)</span>
     <span class="prop-tally-veto-text">Veto 140,607 (6.0%)</span>
     <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span>
-    <span class="prop-tally-quorum-text">Quorum 25.0%</span>
+    <span class="prop-tally-total-text">Total 2,342,702 votes</span>
   </div>
 </div>
 

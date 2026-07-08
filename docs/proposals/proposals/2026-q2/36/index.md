@@ -45,7 +45,7 @@ Register IBC token metadata and approve the denomination for trading on Gonka ma
     <span class="prop-tally-no-text">No 0 (0.0%)</span>
     <span class="prop-tally-veto-text">Veto 0 (0.0%)</span>
     <span class="prop-tally-abstain-text">Abstain 1,788 (0.4%)</span>
-    <span class="prop-tally-quorum-text">Quorum 25.0%</span>
+    <span class="prop-tally-total-text">Total 423,202 votes</span>
   </div>
 </div>
 

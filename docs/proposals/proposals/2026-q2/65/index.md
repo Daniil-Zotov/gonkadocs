@@ -48,7 +48,7 @@ Full 360-degree digital and social strategy for Gonka.AI: channel matrix, conten
     <span class="prop-tally-no-text">No 0 (0.0%)</span>
     <span class="prop-tally-veto-text">Veto 70,043 (21.5%)</span>
     <span class="prop-tally-abstain-text">Abstain 34,369 (10.6%)</span>
-    <span class="prop-tally-quorum-text">Quorum 25.0%</span>
+    <span class="prop-tally-total-text">Total 325,210 votes</span>
   </div>
 </div>
 

@@ -48,7 +48,7 @@ We are DeAI Nation, a global nonprofit organization supporting and promoting the
     <span class="prop-tally-no-text">No 0 (0.0%)</span>
     <span class="prop-tally-veto-text">Veto 0 (0.0%)</span>
     <span class="prop-tally-abstain-text">Abstain 172,050 (31.4%)</span>
-    <span class="prop-tally-quorum-text">Quorum 25.0%</span>
+    <span class="prop-tally-total-text">Total 547,821 votes</span>
   </div>
 </div>
 
