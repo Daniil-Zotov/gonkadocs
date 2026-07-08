@@ -10,6 +10,13 @@ from datetime import datetime, timezone
 from pathlib import Path
 import requests
 
+
+def sanitize_mermaid(text):
+    """Replace invalid \| escapes inside ```mermaid blocks with |."""
+    def _replace(m):
+        return m.group(0).replace("\\|", "|")
+    return re.sub(r"```mermaid\n.*?```", _replace, text, flags=re.DOTALL)
+
 OWNER = os.environ["REPO_OWNER"]
 REPO = os.environ["REPO_NAME"]
 OUTPUT_DIR = Path(os.environ["OUTPUT_DIR"])
@@ -179,7 +186,7 @@ def build_discussion_md(d):
         "",
         "## 📝 Описание",
         "",
-        d["body"] or "*(пусто)*",
+        sanitize_mermaid(d["body"] or "*(пусто)*"),
         "",
     ]
 
@@ -189,7 +196,7 @@ def build_discussion_md(d):
             "---", "",
             "## ✅ Выбранный ответ", "",
             f"**От:** {user_link(a['author'])} · *{fmt_date(a['createdAt'])}*", "",
-            a["body"] or "*(пусто)*", "",
+            sanitize_mermaid(a["body"] or "*(пусто)*"), "",
         ]
 
     comments = d["comments"]["nodes"]
@@ -200,12 +207,12 @@ def build_discussion_md(d):
             out += [
                 f"### Комментарий {i}{mark} — {user_link(c['author'])}", "",
                 f"*{fmt_date(c['createdAt'])}*", "",
-                c["body"] or "*(пусто)*", "",
+                sanitize_mermaid(c["body"] or "*(пусто)*"), "",
             ]
             for r in c.get("replies", {}).get("nodes", []):
                 out += [
                     f"**↳ Ответ от {user_link(r['author'])}** · *{fmt_date(r['createdAt'])}*", "",
-                    indent_body(r["body"] or "*(пусто)*"), "",
+                    indent_body(sanitize_mermaid(r["body"] or "*(пусто)*")), "",
                 ]
 
     return "\n".join(out)

@@ -274,7 +274,7 @@ stateDiagram-v2
     [*] --> Omit
     Omit --> Anchor: nonce in sync turn / forced turn / lazy carry
     Anchor --> Omit: next nonce outside window
-    Anchor --> Strong: \|H − local_aligned\| > D OR forced (StrongRequired)
+    Anchor --> Strong: |H − local_aligned| > D OR forced (StrongRequired)
     Strong --> Anchor: peer realigned, within D again
     Anchor --> Anchor: cadence next turn
     Strong --> Strong: still > D
@@ -394,7 +394,7 @@ flowchart TD
     O -- yes --> O1[INVALID<br/>sync_turn_anchor_missing]
     O -- no --> O2[VALID_OMIT]
     B -- yes --> C{Anchor or Strong?}
-    C -- Anchor --> D{\|H − local_aligned\| > D?}
+    C -- Anchor --> D{|H − local_aligned| > D?}
     D -- yes --> D1[INVALID<br/>strong_required]
     D -- no --> E{carry-forward<br/>originator set?}
     E -- yes --> F{originator within F?}
