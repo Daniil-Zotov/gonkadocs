@@ -22748,7 +22748,7 @@ Models / IBC2
     Voting ends 2026-07-10
   
   4-month pilot of the External Test Lab & Community DevNet: a community-owned testing layer for Gonka. Full proposal and discussion: https://github.com/gonka-ai/gonka/discussions/1388  The budget is he…
-  Yes 0 (0.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)80,000 GNK · $88,000 · Community Pool
+  Yes 65,591 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)80,000 GNK · $88,000 · Community Pool
 
   
     #81 – Kimi cPoC Restitution (epochs 306-309)
@@ -22759,7 +22759,7 @@ Models / IBC2
     Voting ends 2026-07-10
   
   Distribute restitution for Kimi operators affected by cPoC validation failure in epochs 306-309. The Kimi validation path failed starting in e306 causing confirmation_weight suppression for Kimi opera…
-  Yes 122,672 (94.6%) · No 5,966 (4.6%) · Veto 1,089 (0.8%) · Abstain 0 (0.0%)175,082 GNK · Gov Module
+  Yes 160,928 (95.8%) · No 5,966 (3.6%) · Veto 1,089 (0.6%) · Abstain 0 (0.0%)175,082 GNK · Gov Module
 
   
     #80 – GRC Proposal #3 - Restitution
@@ -23642,7 +23642,7 @@ Models / IBC2
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-81 proposals across 5 quarters. Last updated: 2026-07-08 13:09 UTC
+81 proposals across 5 quarters. Last updated: 2026-07-08 15:51 UTC
 
 function initProposalsPage() {
   var checkboxes = document.querySelectorAll('.prop-oview-filter input[type=checkbox]');
@@ -48888,7 +48888,7 @@ GRC / Restitution1
     Voting ends 2026-07-10
   
   4-month pilot of the External Test Lab & Community DevNet: a community-owned testing layer for Gonka. Full proposal and discussion: https://github.com/gonka-ai/gonka/discussions/1388  The budget is he…
-  Yes 0 (0.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)80,000 GNK · $88,000 · Community Pool
+  Yes 65,591 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)80,000 GNK · $88,000 · Community Pool
 
   
     #81 – Kimi cPoC Restitution (epochs 306-309)
@@ -48899,7 +48899,7 @@ GRC / Restitution1
     Voting ends 2026-07-10
   
   Distribute restitution for Kimi operators affected by cPoC validation failure in epochs 306-309. The Kimi validation path failed starting in e306 causing confirmation_weight suppression for Kimi opera…
-  Yes 122,672 (94.6%) · No 5,966 (4.6%) · Veto 1,089 (0.8%) · Abstain 0 (0.0%)175,082 GNK · Gov Module
+  Yes 160,928 (95.8%) · No 5,966 (3.6%) · Veto 1,089 (0.6%) · Abstain 0 (0.0%)175,082 GNK · Gov Module
 
   
     #80 – GRC Proposal #3 - Restitution
@@ -48973,6 +48973,24 @@ Voting
 The budget is held by an immutable escrow contract and released as 4 monthly tranches of 22,000 USDT plus 2x40,000 GNK recognition to the Project and Infrastructure Leads at the end of the pilot. Month 1 is prepaid; each next tranche unlocks 4 days after the month ends. Hosts can always cancel via a one-time governance clawback that returns all remaining funds to the Community Pool.
 
 Contract: code_id 107, checksum 94b141625b7641e6ad57266420b18a4af72eac49b8110cb92719755590b463bd, escrow address [gonka1g57f45qjvn0529vpgj8x8mzt8r5k4audchm3pp9pezywxwf4rexqlj8ayw](https://gonka.gg/address/gonka1g57f45qjvn0529vpgj8x8mzt8r5k4audchm3pp9pezywxwf4rexqlj8ayw). No admin, no migration - recipients and amounts can never change. Source and verification: 
+
+---
+
+## Final Tally
+
+  
+    
+    
+    
+    
+  
+  
+    Yes 65,591 (100.0%)
+    No 0 (0.0%)
+    Veto 0 (0.0%)
+    Abstain 0 (0.0%)
+    Total 65,591 votes
+  
 
 ---
 
@@ -49596,11 +49614,11 @@ Distribute restitution for Kimi operators affected by cPoC validation failure in
     
   
   
-    Yes 122,672 (94.6%)
-    No 5,966 (4.6%)
-    Veto 1,089 (0.8%)
+    Yes 160,928 (95.8%)
+    No 5,966 (3.6%)
+    Veto 1,089 (0.6%)
     Abstain 0 (0.0%)
-    Total 129,727 votes
+    Total 167,983 votes
   
 
 ---
