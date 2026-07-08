@@ -25,7 +25,7 @@ template: proposals-oview.html
 
 <div class="quarter-summary" markdown="1">
 
-## 2025-q4 Summary
+## 2025-Q4 Summary
 
 <div class="qs-stats">
 <div class="qs-stat total"><span class="qs-num">11</span><span class="qs-desc">Total Proposals</span></div>
@@ -36,9 +36,9 @@ template: proposals-oview.html
 
 <div class="qs-categories">
 <strong>By Category</strong>
-  <div class="qs-row"><span class="qs-label">Governance Parameters</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:45%"></span></span><span class="qs-value">5</span></div>
-  <div class="qs-row"><span class="qs-label">Software Upgrade</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:45%"></span></span><span class="qs-value">5</span></div>
-  <div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:9%"></span></span><span class="qs-value">1</span></div>
+<div class="qs-row"><span class="qs-label">Governance Parameters</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:45%"></span></span><span class="qs-value">5</span></div>
+<div class="qs-row"><span class="qs-label">Software Upgrade</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:45%"></span></span><span class="qs-value">5</span></div>
+<div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:9%"></span></span><span class="qs-value">1</span></div>
 </div>
 
 <div class="qs-amounts">
@@ -49,6 +49,8 @@ template: proposals-oview.html
 </div>
 
 <div class="prop-quarter">
+<h2>2025-Q4</h2>
+<p>11 proposals</p>
 <div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
     <a href="17/" class="prop-card-title">#17 – Expected amount of Confirmation PoC per epoch</a>

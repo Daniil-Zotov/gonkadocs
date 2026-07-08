@@ -403,6 +403,16 @@ template: proposals-oview.html
                 _pct = lambda v: f"({v / total_t * 100:.1f}%)" if total_t > 0 else "(0.0%)"
                 md += f'  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes {yes_c:,} {_pct(yes_c)}</span> · <span class="prop-tally-no-text">No {no_c:,} {_pct(no_c)}</span> · <span class="prop-tally-veto-text">Veto {veto_c:,} {_pct(veto_c)}</span> · <span class="prop-tally-abstain-text">Abstain {abstain_c:,} {_pct(abstain_c)}</span></div>\n'
 
+            if status_css_cls == "prop-passed":
+                _gnk, _usdt = parse_amounts(summary)
+                _funding_parts = []
+                if _gnk > 0:
+                    _funding_parts.append(f'{_gnk:,} GNK')
+                if _usdt > 0:
+                    _funding_parts.append(f'${_usdt:,}')
+                if _funding_parts:
+                    md += f'  <div class="prop-card-funding">{" · ".join(_funding_parts)}</div>\n'
+
             md += "</div>\n\n"
 
         md += "</div>\n"
@@ -572,6 +582,15 @@ template: proposals-oview.html
             total_t = yes_c + no_c + veto_c + abstain_c
             _pct = lambda v: f"({v / total_t * 100:.1f}%)" if total_t > 0 else "(0.0%)"
             md += f'  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes {yes_c:,} {_pct(yes_c)}</span> · <span class="prop-tally-no-text">No {no_c:,} {_pct(no_c)}</span> · <span class="prop-tally-veto-text">Veto {veto_c:,} {_pct(veto_c)}</span> · <span class="prop-tally-abstain-text">Abstain {abstain_c:,} {_pct(abstain_c)}</span></div>\n'
+        if status_css_cls == "prop-passed":
+            _gnk, _usdt = parse_amounts(summary)
+            _funding_parts = []
+            if _gnk > 0:
+                _funding_parts.append(f'{_gnk:,} GNK')
+            if _usdt > 0:
+                _funding_parts.append(f'${_usdt:,}')
+            if _funding_parts:
+                md += f'  <div class="prop-card-funding">{" · ".join(_funding_parts)}</div>\n'
         md += "</div>\n\n"
 
     md += '''</div>
@@ -639,14 +658,19 @@ def update_mkdocs_nav(sorted_quarters, proposals_by_quarter):
     new_nav = "\n".join(nav_lines)
 
     # Replace existing On-Chain Governance nav block
-    pattern = r"    - On-Chain Governance.*?(?=\n    - For Agents:)"
+    # On-Chain Governance is the last nav item before `theme:` top-level key
+    pattern = r"    - On-Chain Governance Proposals:.*?(?=\ntheme:)"
     replacement = new_nav
+
+    # Check if pattern exists before attempting replacement
+    if not re.search(pattern, content, re.DOTALL):
+        print("Warning: could not find On-Chain Governance nav block in mkdocs.yml")
+        return
 
     new_content = re.sub(pattern, replacement, content, flags=re.DOTALL)
 
     if new_content == content:
-        print("Warning: nav replacement failed, mkdocs.yml unchanged")
-        print("Make sure 'On-Chain Governance:' exists before 'For Agents:' in nav")
+        print("On-chain governance nav is already up to date")
         return
 
     MKDOCS_YML.write_text(new_content, encoding="utf-8")
