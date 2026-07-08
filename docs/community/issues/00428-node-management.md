@@ -2,7 +2,7 @@
 title: "#428 — Node management"
 source: https://github.com/gonka-ai/gonka/issues/428
 issue_number: 428
-synced_at: 2026-07-07T04:29:24Z
+synced_at: 2026-07-08T06:42:47Z
 template: issues-main.html
 ---
 
@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 - [x] Add field validation for node management API
 - [x] Add a check for the uniqueness of IP + port combinations
 - [x] #465
@@ -41,7 +41,7 @@ template: issues-main.html
 <li>[x] Finish node management docs page and create PR  https://github.com/gonka-ai/gonka-docs/pull/533</li>
 <li>[x] One more docs todo: add /stop call to the how-to-simulate FAQ  https://gonka.ai/FAQ/#how-to-simulate-proof-of-compute-poc</li>
 </ul>
-<p>@DimaOrekhovPS</p>
+<p>@DimaOrekhovPS </p>
   </div>
 </div>
 

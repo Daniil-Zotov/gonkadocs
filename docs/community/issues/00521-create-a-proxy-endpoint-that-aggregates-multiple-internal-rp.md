@@ -2,7 +2,7 @@
 title: "#521 — Create a proxy endpoint that aggregates multiple internal RPC nodes behind a single public-facing address (for crypto wallets)"
 source: https://github.com/gonka-ai/gonka/issues/521
 issue_number: 521
-synced_at: 2026-07-07T04:28:19Z
+synced_at: 2026-07-08T06:41:45Z
 template: issues-main.html
 ---
 
@@ -46,8 +46,8 @@ CC @kotelnikova
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-01-23 19:23 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    @kotelnikova, could you please share the technical requirements?
+  <div class="issues-comment-body issues-content">
+    <p>@kotelnikova, could you please share the technical requirements?</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -55,8 +55,8 @@ CC @kotelnikova
     <span>[@Ryanchen911](https://github.com/Ryanchen911)</span>
     <span class="issues-meta-item">commented 2026-06-03 02:19 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    I'll take it, thank you! @tcharchian 
+  <div class="issues-comment-body issues-content">
+    <p>I'll take it, thank you! @tcharchian </p>
   </div>
 </div>
 <div class="issues-comment">
@@ -64,14 +64,11 @@ CC @kotelnikova
     <span>[@gonkalabs](https://github.com/gonkalabs)</span>
     <span class="issues-meta-item">commented 2026-06-03 22:32 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Hi!
-
-Just to add some context from our side: https://rpc.gonka.gg acts as a routing layer in front of multiple RPC upstreams. It routes traffic between our own RPC nodes (we have multiple own feather rpc nodes) and node1.gonka.ai-node3.gonka.ai, periodically health-checks each upstream, and automatically fails over when one of them becomes unavailable.
-
-The routing priority is set to prefer our own Feather RPC nodes first, so we do not put unnecessary load on the core gonka.ai RPC infrastructure. The upstream pool can be extended if needed to almost any size.
-
-At the moment, we are processing several million RPC requests per day through our rpc layer, which is roughly 20% of the current capacity. Capacity is mostly limited by server resources, so we can scale it up if traffic grows.
+  <div class="issues-comment-body issues-content">
+    <p>Hi!</p>
+<p>Just to add some context from our side: https://rpc.gonka.gg acts as a routing layer in front of multiple RPC upstreams. It routes traffic between our own RPC nodes (we have multiple own feather rpc nodes) and node1.gonka.ai-node3.gonka.ai, periodically health-checks each upstream, and automatically fails over when one of them becomes unavailable.</p>
+<p>The routing priority is set to prefer our own Feather RPC nodes first, so we do not put unnecessary load on the core gonka.ai RPC infrastructure. The upstream pool can be extended if needed to almost any size.</p>
+<p>At the moment, we are processing several million RPC requests per day through our rpc layer, which is roughly 20% of the current capacity. Capacity is mostly limited by server resources, so we can scale it up if traffic grows.</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -79,10 +76,9 @@ At the moment, we are processing several million RPC requests per day through ou
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-06-03 22:47 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    @gonkalabs thanks, this makes sense. Would it be possible to extend the upstream pool with for example 6block and Hyperfusion, as fallback upstreams as well?
-
-Do your health checks only verify availability, or do they also check whether the upstream is lagging behind? For wallet reliability, it would be important to fail over not only when a node is down, but also when it is stale.
+  <div class="issues-comment-body issues-content">
+    <p>@gonkalabs thanks, this makes sense. Would it be possible to extend the upstream pool with for example 6block and Hyperfusion, as fallback upstreams as well?</p>
+<p>Do your health checks only verify availability, or do they also check whether the upstream is lagging behind? For wallet reliability, it would be important to fail over not only when a node is down, but also when it is stale.</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -90,10 +86,9 @@ Do your health checks only verify availability, or do they also check whether th
     <span>[@gonkalabs](https://github.com/gonkalabs)</span>
     <span class="issues-meta-item">commented 2026-06-03 23:09 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    @tcharchian Yes, we can extend the upstream pool with more members: hyperfusion, 6block - no problem! 
-
-Yes, we test chain-tip lag of upstreams as well as latency and general up/down status, so stale detection is one of the criteria when service selects the upstream for a request
+  <div class="issues-comment-body issues-content">
+    <p>@tcharchian Yes, we can extend the upstream pool with more members: hyperfusion, 6block - no problem! </p>
+<p>Yes, we test chain-tip lag of upstreams as well as latency and general up/down status, so stale detection is one of the criteria when service selects the upstream for a request</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -101,8 +96,8 @@ Yes, we test chain-tip lag of upstreams as well as latency and general up/down s
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-06-03 23:26 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    @gonkalabs thanks, please let me know once you add more members
+  <div class="issues-comment-body issues-content">
+    <p>@gonkalabs thanks, please let me know once you add more members</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -110,14 +105,11 @@ Yes, we test chain-tip lag of upstreams as well as latency and general up/down s
     <span>[@gonkalabs](https://github.com/gonkalabs)</span>
     <span class="issues-meta-item">commented 2026-06-04 18:51 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    @gonkalabs we added Hyperfusion and 6block rpc to the upstream list! 
-
-Bellow is a diagram of routing. All nodes are latency, tip-tested.
-
-Also, we significantly encreased rpc throughput, and made service completely work without any api keys and without any limits! So anyone can use this routing layer to access the combined stability of many upstreams!
-
-<img width="1449" height="583" alt="Image" src="https://github.com/user-attachments/assets/adc87e0c-f661-429f-9a42-07540faac3f8" />
+  <div class="issues-comment-body issues-content">
+    <p>@gonkalabs we added Hyperfusion and 6block rpc to the upstream list! </p>
+<p>Bellow is a diagram of routing. All nodes are latency, tip-tested.</p>
+<p>Also, we significantly encreased rpc throughput, and made service completely work without any api keys and without any limits! So anyone can use this routing layer to access the combined stability of many upstreams!</p>
+<p><img width="1449" height="583" alt="Image" src="https://github.com/user-attachments/assets/adc87e0c-f661-429f-9a42-07540faac3f8" /></p>
   </div>
 </div>
 

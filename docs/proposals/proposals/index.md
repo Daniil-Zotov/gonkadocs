@@ -26,19 +26,7 @@ template: proposals-oview.html
 <div class="prop-quarter" id="2026-q3" markdown="1">
 ## 2026-Q3
 
-*2 proposals*
-
-<div class="prop-card" data-status="prop-voting">
-  <div class="prop-card-header">
-    <a href="2026-q3/81/" class="prop-card-title">#81 – Kimi cPoC Restitution (epochs 306-309)</a>
-    <span class="prop-badge prop-voting">Voting</span>
-  </div>
-  <div class="prop-card-meta">
-    <span>Submitted 2026-07-08</span>
-    <span>Voting ends 2026-07-10</span>
-  </div>
-  <div class="prop-card-desc">Distribute restitution for Kimi operators affected by cPoC validation failure in epochs 306-309. The Kimi validation path failed starting in e306 causing confirmation_weight suppression for Kimi opera…</div>
-</div>
+*1 proposals*
 
 <div class="prop-card" data-status="prop-rejected">
   <div class="prop-card-header">
@@ -96,7 +84,6 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">We are INPUT Global - a leading web3 marketing communications agency. We offer 3 month PR campaign to establish trust and market legitimacy of Gonka across 2 audiences: global business and crypto-nati…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 152,042 (100.0%)</span> · <span class="prop-tally-no-text">No 71 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
-  <div class="prop-card-funding">$75,000</div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -135,7 +122,6 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Full proposal: https://gonkalabs.com/proposal  This proposal funds the next six months of work for the Gonka ecosystem.  The focus is production-grade infrastructure and high-use products: Gonka.gg V2…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 305,163 (79.6%)</span> · <span class="prop-tally-no-text">No 3,791 (1.0%)</span> · <span class="prop-tally-veto-text">Veto 15 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 74,304 (19.4%)</span></div>
-  <div class="prop-card-funding">330,000 GNK · $70,000</div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -149,7 +135,6 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Increase the minimum deposit required to submit a governance proposal to 500 GNK (500,000,000,000 ngonka) and expedited minimum deposit to 1000 GNK (1,000,000,000,000 ngonka). This resubmits proposal …</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 295,843 (96.3%)</span> · <span class="prop-tally-no-text">No 40 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 572 (0.2%)</span> · <span class="prop-tally-abstain-text">Abstain 10,823 (3.5%)</span></div>
-  <div class="prop-card-funding">1,500 GNK</div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -228,7 +213,6 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Distribute restitution for Kimi operators across epochs 265-276. Epochs 265-266: external attack causing CPoC degradation and nonce exclusion. Epochs 267-276: ComputeGroupCap systematic underpayment d…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 319,920 (78.9%)</span> · <span class="prop-tally-no-text">No 150 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 84,623 (20.9%)</span> · <span class="prop-tally-abstain-text">Abstain 744 (0.2%)</span></div>
-  <div class="prop-card-funding">946,509 GNK</div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -254,7 +238,6 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Full 360-degree digital and social strategy for Gonka.AI: channel matrix, content plan, segment messaging, social strategy, and brand-voice guidelines. Single-tranche payment of 100,000 GNK to TheSoul…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 220,798 (67.9%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 70,043 (21.5%)</span> · <span class="prop-tally-abstain-text">Abstain 34,369 (10.6%)</span></div>
-  <div class="prop-card-funding">100,000 GNK</div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -268,7 +251,6 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Web analytics, attribution, and funnel dashboarding for Gonka.AI: GA4 implementation, UTM taxonomy, event tracking, and conversion reporting. Single-tranche payment of 28,000 GNK to TheSoul on proposa…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 220,798 (67.9%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 70,043 (21.5%)</span> · <span class="prop-tally-abstain-text">Abstain 34,369 (10.6%)</span></div>
-  <div class="prop-card-funding">28,000 GNK</div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -282,7 +264,6 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Full redesign of gonka.ai plus dedicated landing pages for miners, inference buyers, and investors, built on the brandbook from Offer 1.2. Single-tranche payment of 10,000 USDT to TheSoul on proposal …</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 220,798 (67.9%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 70,043 (21.5%)</span> · <span class="prop-tally-abstain-text">Abstain 34,369 (10.6%)</span></div>
-  <div class="prop-card-funding">$10,000</div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -296,7 +277,6 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Crypto-influencer pilot campaign for Gonka.AI across selected tier-1 creators, with a full performance report and scaling recommendations. Single-tranche payment of 50,000 USDT to TheSoul on proposal …</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 220,798 (67.9%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 70,043 (21.5%)</span> · <span class="prop-tally-abstain-text">Abstain 34,369 (10.6%)</span></div>
-  <div class="prop-card-funding">$50,000</div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -310,7 +290,6 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Brand identity system for Gonka.AI: logo, typography, color system, graphic language, layout principles, and templates, built on the positioning from Offer 1.1. Single-tranche payment of 20,000 USDT t…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 220,798 (67.9%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 70,043 (21.5%)</span> · <span class="prop-tally-abstain-text">Abstain 34,369 (10.6%)</span></div>
-  <div class="prop-card-funding">$20,000</div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -324,7 +303,6 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Brand audit, competitive positioning, and audience segmentation for Gonka.AI. Single-tranche payment of 25,000 USDT to TheSoul on proposal pass. Full offer document: see the metadata URL.</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 220,798 (67.9%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 70,043 (21.5%)</span> · <span class="prop-tally-abstain-text">Abstain 34,369 (10.6%)</span></div>
-  <div class="prop-card-funding">$25,000</div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -390,7 +368,6 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Distribute restitution for Cases 2, 3, and 4 across epochs 248-254. Case 2: preserver weight double-scaling bug (epochs 249-253). Case 3: epoch loss restitution: broad epoch losses, consecutive failur…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 188,670 (61.2%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 119,835 (38.8%)</span></div>
-  <div class="prop-card-funding">346,029 GNK</div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -443,7 +420,6 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">6Block, a long-term Gonka mining and infrastructure participant, proposes that the Gonka community allocate 75,000 USDT to support Gonka's participation at WebX Asia / WebX 2026 in Tokyo. 6Block has a…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 395,003 (62.8%)</span> · <span class="prop-tally-no-text">No 1,767 (0.3%)</span> · <span class="prop-tally-veto-text">Veto 64,217 (10.2%)</span> · <span class="prop-tally-abstain-text">Abstain 168,275 (26.7%)</span></div>
-  <div class="prop-card-funding">$225,000</div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -457,7 +433,6 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Retroactive 20K GNK bounty for an open-sourced PoC optimization measuring +10.2% on B200 and +12.5% on H100 with Qwen3-235B-FP8. One-line patch, verified on-chain by independent miners. Details: https…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 281,723 (59.1%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 194,589 (40.9%)</span></div>
-  <div class="prop-card-funding">20,000 GNK</div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -471,7 +446,6 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">We're ICG - AI Influencer Lab, a team that builds and scales hyper-realistic AI avatars on Instagram, TikTok, and YouTube as full ambassadors across verticals. We manage 160+ accounts in AI, finance, …</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 496,683 (71.1%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 201,560 (28.9%)</span></div>
-  <div class="prop-card-funding">$60,000</div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -511,7 +485,6 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Two prior upgrades changed the lifecycle of unpaid miner rewards. v0.2.9 (proposal #26, 2026-02-01): when a participant is penalized during cPoC validation, the unaccounted portion of their epoch rewa…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 97,030 (36.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 172,837 (64.0%)</span></div>
-  <div class="prop-card-funding">3,601 GNK</div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -564,7 +537,6 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">We are DeAI Nation, a global nonprofit organization supporting and promoting the decentralized AI ecosystem, and authors of the State of DeAI 2026 report. We propose that the Gonka community become a …</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 375,771 (68.6%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 172,050 (31.4%)</span></div>
-  <div class="prop-card-funding">$10,000</div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -604,7 +576,6 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Saccade Media House is a creative team of tech entrepreneurs who know how to tell stories. We've built content for international tech brands and the founders behind them. We propose a Community Series…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 394,971 (76.0%)</span> · <span class="prop-tally-no-text">No 183 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 124,587 (24.0%)</span></div>
-  <div class="prop-card-funding">31,250 GNK</div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -1106,7 +1077,7 @@ template: proposals-oview.html
 
 </div>
 <div class="prop-oview-stats">
-<em>80 proposals across 5 quarters. Last updated: 2026-07-08 07:53 UTC</em>
+<em>79 proposals across 5 quarters. Last updated: 2026-07-08 04:49 UTC</em>
 </div>
 
 <script>

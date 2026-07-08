@@ -2,7 +2,7 @@
 title: "#422 — DAPI  nil pointer dereference crash when chain RPC is unavailable"
 source: https://github.com/gonka-ai/gonka/issues/422
 issue_number: 422
-synced_at: 2026-07-07T04:29:48Z
+synced_at: 2026-07-08T06:43:10Z
 template: issues-main.html
 ---
 
@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 **Problem:** DAPI crashes when chain node RPC becomes temporarily unavailable (I/O errors, restarts, network issues)
 
 **Root Cause:** Missing `return` statement after error in `tryClaimingTaskToAssign()` function

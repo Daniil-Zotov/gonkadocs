@@ -2,7 +2,7 @@
 title: "#461 — ML node model management edge cases"
 source: https://github.com/gonka-ai/gonka/issues/461
 issue_number: 461
-synced_at: 2026-07-07T04:30:09Z
+synced_at: 2026-07-08T06:43:31Z
 template: issues-main.html
 ---
 
@@ -67,8 +67,8 @@ The same edge case could happen, it was the only node serving a particular model
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-01-24 02:14 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Postponing and closing for now. 
+  <div class="issues-comment-body issues-content">
+    <p>Postponing and closing for now. </p>
   </div>
 </div>
 

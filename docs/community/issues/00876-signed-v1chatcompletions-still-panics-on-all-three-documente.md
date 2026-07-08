@@ -2,7 +2,7 @@
 title: "#876 — Signed /v1/chat/completions still panics on all three documented mainnet transfer-agent endpoints"
 source: https://github.com/gonka-ai/gonka/issues/876
 issue_number: 876
-synced_at: 2026-07-07T04:28:20Z
+synced_at: 2026-07-08T06:41:46Z
 template: issues-main.html
 ---
 
@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ## Summary
 
 Around **2026-03-10 20:28 UTC**, I followed the public Developer Quickstart flow on mainnet using a funded account and observed that inference requests signed using the public Gonka SDK semantics failed on **all three documented active transfer-agent endpoints** with the same internal server panic.

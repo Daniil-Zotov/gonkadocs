@@ -2,7 +2,7 @@
 title: "#421 — Validators are marked for removal but haven't removed"
 source: https://github.com/gonka-ai/gonka/issues/421
 issue_number: 421
-synced_at: 2026-07-07T04:29:43Z
+synced_at: 2026-07-08T06:43:06Z
 template: issues-main.html
 ---
 
@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span> <span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 Validators are marked for removal but haven't removed. Happens in cosmos-sdk 
 ```
 7:48AM INF marking validator for removal (not in compute results) jailed=false module=x/staking operator=gonkavaloper1p5zz3d87hy5gn5jphhnljkv7pg06xj6gaa7g6p status=BOND_STATUS_UNBONDED

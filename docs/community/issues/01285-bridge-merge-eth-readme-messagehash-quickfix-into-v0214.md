@@ -2,7 +2,7 @@
 title: "#1285 — Bridge: merge ETH README messageHash quickfix into v0.2.14"
 source: https://github.com/gonka-ai/gonka/issues/1285
 issue_number: 1285
-synced_at: 2026-07-07T04:28:21Z
+synced_at: 2026-07-08T06:41:17Z
 template: issues-main.html
 ---
 
@@ -16,7 +16,7 @@ template: issues-main.html
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item">[@Ryanchen911](https://github.com/Ryanchen911) opened 2026-06-01 02:34 UTC</span>
     <span class="issues-meta-item">4 comments</span>
-    <span class="issues-meta-item">Updated 2026-06-02 17:47 UTC</span>
+    <span class="issues-meta-item">Updated 2026-07-07 23:25 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -84,8 +84,8 @@ However, third-party auditors or integrators using the README could construct an
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-06-02 00:50 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    @Ryanchen911, are you ready to write a fix?
+  <div class="issues-comment-body issues-content">
+    <p>@Ryanchen911, are you ready to write a fix?</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -93,9 +93,8 @@ However, third-party auditors or integrators using the README could construct an
     <span>[@Ryanchen911](https://github.com/Ryanchen911)</span>
     <span class="issues-meta-item">commented 2026-06-02 07:15 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Sure, we will take it,@bonujel is our new colleague of 6block, he will do it.
-
+  <div class="issues-comment-body issues-content">
+    <p>Sure, we will take it,@bonujel is our new colleague of 6block, he will do it.</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -103,8 +102,8 @@ However, third-party auditors or integrators using the README could construct an
     <span>[@bonujel](https://github.com/bonujel)</span>
     <span class="issues-meta-item">commented 2026-06-02 08:24 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Picking this up — I'll cherry-pick the README `messageHash` fix from `gl/eth-readme-quickfix` onto the v0.2.14 line and open a PR shortly.
+  <div class="issues-comment-body issues-content">
+    <p>Picking this up — I'll cherry-pick the README <code>messageHash</code> fix from <code>gl/eth-readme-quickfix</code> onto the v0.2.14 line and open a PR shortly.</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -112,8 +111,8 @@ However, third-party auditors or integrators using the README could construct an
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-06-02 17:47 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    @GLiberman fyi
+  <div class="issues-comment-body issues-content">
+    <p>@GLiberman fyi</p>
   </div>
 </div>
 

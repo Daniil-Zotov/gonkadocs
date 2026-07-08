@@ -2,7 +2,7 @@
 title: "#1352 — Bridge: auto-refund does not run when BLS signing expires (EXPIRED)"
 source: https://github.com/gonka-ai/gonka/issues/1352
 issue_number: 1352
-synced_at: 2026-07-07T04:28:03Z
+synced_at: 2026-07-08T06:41:16Z
 template: issues-main.html
 ---
 
@@ -16,12 +16,12 @@ template: issues-main.html
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item">[@maria-mitina](https://github.com/maria-mitina) opened 2026-06-19 16:47 UTC</span>
     <span class="issues-meta-item">2 comments</span>
-    <span class="issues-meta-item">Updated 2026-06-27 01:04 UTC</span>
+    <span class="issues-meta-item">Updated 2026-07-07 23:26 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ## Summary
 
 When an outbound `RequestBridgeMint` BLS request reaches terminal **`EXPIRED`** (threshold not met), the chain emits `inference.bls.EventThresholdSigningFailed` but **does not** auto-refund bridge escrow. GNK stays locked until the user calls **`cancel-bridge-operation`** with the plaintext `request_id` from `bridge_mint_requested`.

@@ -2,7 +2,7 @@
 title: "#381 — [P0] How to change `inference_url`"
 source: https://github.com/gonka-ai/gonka/issues/381
 issue_number: 381
-synced_at: 2026-07-07T04:30:51Z
+synced_at: 2026-07-08T06:44:12Z
 template: issues-main.html
 ---
 
@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 1. Change `inference_url`. Probably, it should happen immediately and propagate everywhere.
 2. Vefigy `inference_url`. Let's think on how can it be verified, at least asynchronousl,y whena  node with that URL is already running
 Example: `api` container has a new endpoint /v1/verify, which returns:

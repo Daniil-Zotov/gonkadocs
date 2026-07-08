@@ -2,7 +2,7 @@
 title: "#810 — Gonka Node Manager — Automated Node Deployment, Updates, and Monitoring"
 source: https://github.com/gonka-ai/gonka/issues/810
 issue_number: 810
-synced_at: 2026-07-07T04:29:40Z
+synced_at: 2026-07-08T06:43:02Z
 template: issues-main.html
 ---
 
@@ -181,8 +181,8 @@ Funding released in stages tied to phase completion. Cost overruns covered by th
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-02-27 00:11 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Hi @ochenUmnayaKatyshka! I'd suggetst publishing proposals in Discussion section: https://github.com/gonka-ai/gonka/discussions/categories/proposals
+  <div class="issues-comment-body issues-content">
+    <p>Hi @ochenUmnayaKatyshka! I'd suggetst publishing proposals in Discussion section: https://github.com/gonka-ai/gonka/discussions/categories/proposals</p>
   </div>
 </div>
 

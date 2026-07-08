@@ -2,7 +2,7 @@
 title: "#626 — How to add new models"
 source: https://github.com/gonka-ai/gonka/issues/626
 issue_number: 626
-synced_at: 2026-07-07T04:29:44Z
+synced_at: 2026-07-08T06:43:06Z
 template: issues-main.html
 ---
 
@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 This issue outlines a direction for a larger project. Adding new models is not a standalone task and has system-level implications for the architecture. The impact on the overall architecture needs to be evaluated first, and a conceptual description should be provided upfront before any implementation begins.
 </div>
 

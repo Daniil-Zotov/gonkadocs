@@ -2,7 +2,7 @@
 title: "#1407 — Question about project background: Mikhail Chudinov and Natalia"
 source: https://github.com/gonka-ai/gonka/issues/1407
 issue_number: 1407
-synced_at: 2026-07-07T04:27:50Z
+synced_at: 2026-07-08T06:41:18Z
 template: issues-main.html
 ---
 
@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 Is this how our story began in your previous project where your name was Natalia?
 
 I would like to ask, can Mikhail Chudinov come out to play? The one who is a DevOps engineer at NameSilo, formerly Head of IT at SuperKopilka (a Russian financial pyramid, collapsed in 2017) for ~10 years. Also: COO at AtomX.online (a no-KYC crypto project), Poker Club Manager at Red Rock. A self-described "crypto enthusiast."

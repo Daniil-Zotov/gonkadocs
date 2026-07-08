@@ -2,7 +2,7 @@
 title: "#1098 — `devshards` Postgres support for `devshard` storage"
 source: https://github.com/gonka-ai/gonka/issues/1098
 issue_number: 1098
-synced_at: 2026-07-07T04:28:29Z
+synced_at: 2026-07-08T06:41:53Z
 template: issues-main.html
 ---
 
@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ## Problem
 
 `devshard/storage` is sqlite-only today (`storage/sqlite.go`,
@@ -64,7 +64,7 @@ Also we should prune the old epoch's devshard data
     <blockquote>
 <p>RE</p>
 </blockquote>
-<p>Hi, can i grab this one for couple of week ?</p>
+<p>Hi, can i grab this one for couple of week ? </p>
   </div>
 </div>
 <div class="issues-comment">
@@ -82,7 +82,7 @@ Also we should prune the old epoch's devshard data
     <span class="issues-meta-item">commented 2026-05-07 08:41 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Closed by #1145</p>
+    <p>Closed by #1145 </p>
   </div>
 </div>
 

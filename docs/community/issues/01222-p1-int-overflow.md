@@ -2,7 +2,7 @@
 title: "#1222 — [P1] Int overflow"
 source: https://github.com/gonka-ai/gonka/issues/1222
 issue_number: 1222
-synced_at: 2026-07-07T04:28:01Z
+synced_at: 2026-07-08T06:41:18Z
 template: issues-main.html
 ---
 
@@ -15,19 +15,19 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-05-21 22:30 UTC</span>
-    <span class="issues-meta-item">1 comment</span>
-    <span class="issues-meta-item">Updated 2026-06-30 13:00 UTC</span>
+    <span class="issues-meta-item">2 comments</span>
+    <span class="issues-meta-item">Updated 2026-07-07 10:09 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #12a6e8; color: #24292f; border-color: #12a6e8;">Priority: Medium</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 The goal of this is to have in place after this a standard way of handling possible overflows, have it implemented consistently across the entire codebase and to have a check (preferably a static check, an AI persona if necessary as a backup) that flags anything that doesn't use the established pattern
 </div>
 
 ---
 
-## 💬 Comments (1)
+## 💬 Comments (2)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -38,6 +38,29 @@ The goal of this is to have in place after this a standard way of handling possi
     <p>Opened a surgical first PR against main: #1379.</p>
 <p>It ports the already-accepted #1100/#1101 overflow fixes to main and adds two small guards for payout uint64-&gt;int64 conversion and validation totalWeight accumulation.</p>
 <p>I intentionally left broad static analysis and #1017 supply-cap semantics out of scope so this remains reviewable.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@Mayveskii](https://github.com/Mayveskii)</span>
+    <span class="issues-meta-item">commented 2026-07-07 10:08 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Hi @olegsuhoparov </p>
+<p>Wanted to flag that #1017 (Bitcoin reward supply-cap overflow guards) has been aligned with the overflow-handling direction from this meta-issue.</p>
+<p>Changes on branch <code>fix/bitcoin-rewards-supply-cap-overflow</code> (commit <code>9e4ebf74e</code>):</p>
+<ul>
+<li>Added a reusable <code>checkedAddUint64</code> helper in <code>inference-chain/x/inference/keeper/bitcoin_rewards.go</code>, placed next to the <code>checkedAddInt64</code> pattern introduced in #1379
+  .</li>
+<li>Replaced the inline <code>math.MaxUint64</code> overflow checks in the supply-cap reduction loop and in <code>CalculateParticipantBitcoinRewards</code> with the new helper.</li>
+<li>Upgraded the overflow guard logs from <code>Warn</code> to <code>Error</code>.</li>
+<li>Added explicit unit tests for the overflow path:<ul>
+<li><code>TestCheckedAddUint64</code></li>
+<li><code>TestGetBitcoinSettleAmounts_SupplyCapReductionNoWrap</code></li>
+</ul>
+</li>
+</ul>
+<p>Since #1379 explicitly left the #1017 supply-cap semantics out of scope, #1017 adopts the same helper/logging/test pattern independently rather than conflicting with #1379.</p>
   </div>
 </div>
 

@@ -2,7 +2,7 @@
 title: "#415 — Caching of node-config.json"
 source: https://github.com/gonka-ai/gonka/issues/415
 issue_number: 415
-synced_at: 2026-07-07T04:30:53Z
+synced_at: 2026-07-08T06:44:14Z
 template: issues-main.html
 ---
 
@@ -34,8 +34,8 @@ gonka.db of dapi has priority over node-config.json and keep first settings of n
     <span>[@joesun1983](https://github.com/joesun1983)</span>
     <span class="issues-meta-item">commented 2025-11-07 09:01 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    try to use the admin api  /admin/v1/nodes to update node config
+  <div class="issues-comment-body issues-content">
+    <p>try to use the admin api  /admin/v1/nodes to update node config</p>
   </div>
 </div>
 

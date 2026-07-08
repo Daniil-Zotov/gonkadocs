@@ -2,7 +2,7 @@
 title: "#896 — `devshards`: Research aggregated BLS signatures"
 source: https://github.com/gonka-ai/gonka/issues/896
 issue_number: 896
-synced_at: 2026-07-07T04:28:39Z
+synced_at: 2026-07-08T06:42:02Z
 template: issues-main.html
 ---
 
@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 Currently, the design for `devshards` requests a list of all hosts signatures for the settlement transaction. To reduce the transaction size, we'd like to investigate and implement an aggregated BLS signature (plus a bitset for which hosts signed).
 
 To achieve this, one solution is to register the BLS `devshard` public key for each participant in the mainnet.
@@ -41,7 +41,7 @@ To achieve this, one solution is to register the BLS `devshard` public key for e
     <span class="issues-meta-item">commented 2026-03-26 15:16 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Will be done fast after finishing #913</p>
+    <p>Will be done fast after finishing #913 </p>
   </div>
 </div>
 <div class="issues-comment">

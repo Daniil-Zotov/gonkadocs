@@ -2,7 +2,7 @@
 title: "#1322 — Gateway allowlist request"
 source: https://github.com/gonka-ai/gonka/issues/1322
 issue_number: 1322
-synced_at: 2026-07-07T04:28:17Z
+synced_at: 2026-07-08T06:41:43Z
 template: issues-main.html
 ---
 
@@ -100,9 +100,9 @@ Rogi AI
     <span>[@Puyre](https://github.com/Puyre)</span>
     <span class="issues-meta-item">commented 2026-06-10 15:20 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Closing this — after checking with the Gonka community, I realized we don't need to run our own devshard. Getting a broker key to send requests through node4 will be enough for our case.
-I'll likely open a separate issue requesting a broker key (or asking for documentation on how one can be obtained).
+  <div class="issues-comment-body issues-content">
+    <p>Closing this — after checking with the Gonka community, I realized we don't need to run our own devshard. Getting a broker key to send requests through node4 will be enough for our case.
+I'll likely open a separate issue requesting a broker key (or asking for documentation on how one can be obtained).</p>
   </div>
 </div>
 

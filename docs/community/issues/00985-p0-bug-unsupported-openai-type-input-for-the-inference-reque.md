@@ -2,7 +2,7 @@
 title: "#985 — [P0] Bug: unsupported OpenAI type input for the inference requests"
 source: https://github.com/gonka-ai/gonka/issues/985
 issue_number: 985
-synced_at: 2026-07-07T04:29:06Z
+synced_at: 2026-07-08T06:42:29Z
 template: issues-main.html
 ---
 
@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 decentralized-api rejects valid Cursor/OpenAI chat requests where messages[].content is an array of text parts instead of a plain string. The request fails during request parsing on TA/executor because Message.Content is typed as string, producing 500 {"error":"json: cannot unmarshal array into Go struct field ... content of type string"} even though the payload is valid modern chat-completions format.
 </div>
 
@@ -45,7 +45,7 @@ decentralized-api rejects valid Cursor/OpenAI chat requests where messages[].con
   </div>
   <div class="issues-comment-body issues-content">
     <p>@tcharchian FYI
-@patimen @DimaOrekhovPS Can you take a look?</p>
+@patimen @DimaOrekhovPS Can you take a look? </p>
   </div>
 </div>
 <div class="issues-comment">

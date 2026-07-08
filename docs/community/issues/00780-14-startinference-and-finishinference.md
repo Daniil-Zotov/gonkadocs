@@ -2,7 +2,7 @@
 title: "#780 — [1/4] `StartInference` and `FinishInference`"
 source: https://github.com/gonka-ai/gonka/issues/780
 issue_number: 780
-synced_at: 2026-07-07T04:29:30Z
+synced_at: 2026-07-08T06:42:53Z
 template: issues-main.html
 ---
 
@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #008672; color: #ffffff; border-color: #008672;">help wanted</span> <span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span> <span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span> <span class="issues-label" style="background-color: #9214a6; color: #ffffff; border-color: #9214a6;">requires own mainnet node</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 # Background
 
 `MsgStartInference` and `MsgFinishInference` are too slow in production. Blocks should be processed by nodes within 1-2 seconds, so that block time stays below 6 seconds. This means that to process 1000 inferences in a block, we need to record 1000 `MsgStartInference`, 1000 `MsgFinishInference`, and 100-200 `MsgValidation` transactions. This means that these transactions should be processed faster than 1ms. Even though they are quite fast in tests, in production with a large state they require 10-20ms, and on some nodes 50ms or more.
@@ -264,7 +264,7 @@ i am not familiar with all stuff going on right now on chain, but in past a had 
     <span class="issues-meta-item">commented 2026-02-26 04:11 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>An update on 780. As we can see in traces most of the time spend on logging is due "json" decoding-encoding. Which can be turn off by log_format = "json" (by default it is set to log_format = "plain"). @hleb-albau can you please run the same test but with log_format = "json" config?</p>
+    <p>An update on 780. As we can see in traces most of the time spend on logging is due "json" decoding-encoding. Which can be turn off by log_format = "json" (by default it is set to log_format = "plain"). @hleb-albau can you please run the same test but with log_format = "json" config? </p>
   </div>
 </div>
 <div class="issues-comment">
@@ -309,7 +309,7 @@ i am not familiar with all stuff going on right now on chain, but in past a had 
     <span class="issues-meta-item">commented 2026-02-27 10:12 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <h3>Plain  (<code>prod-30min-logs-plain</code>)</h3>
+    <p>### Plain  (<code>prod-30min-logs-plain</code>)</p>
 <table>
 <thead>
 <tr>
@@ -396,7 +396,7 @@ i am not familiar with all stuff going on right now on chain, but in past a had 
 <p>For example, in UpdateParticipantStatus, roughly half of the JSON-building time inside <code>k.LogInfo("Participant status updated", types.Validation, "address", participant.Address, "original", originalStatus, "new", newStatus, "reason", reason, "stats", participant.CurrentEpochStats)</code> is spent serializing <code>participant.CurrentEpochStats</code>. In other places, the bottleneck is converting types.AccAddress to a string — which internally goes through a cache protected by a mutex or calc bench32. Note: not only <code>UpdateParticipantStatus</code> suffer from this, other places in <code>StartInference</code> and <code>FinishInference</code> have similar  problems.</p>
 <hr />
 <p>It might make sense to rework the logger internals to store data as a map instead of a JSON string, so ConsoleWriter could print it directly without parsing JSON first. But it's worth thinking about whether that's actually needed right now.                                                                 </p>
-<p>What's definitely worth doing is revisiting what data gets logged. I'll open a PR a bit later to remove the heavy structs from log calls.</p>
+<p>What's definitely worth doing is revisiting what data gets logged. I'll open a PR a bit later to remove the heavy structs from log calls. </p>
   </div>
 </div>
 <div class="issues-comment">

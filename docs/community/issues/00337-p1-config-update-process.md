@@ -2,7 +2,7 @@
 title: "#337 — [P1] Config update process"
 source: https://github.com/gonka-ai/gonka/issues/337
 issue_number: 337
-synced_at: 2026-07-07T04:30:35Z
+synced_at: 2026-07-08T06:43:56Z
 template: issues-main.html
 ---
 
@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 - [x] The `node-config.json`, which contains the initial configuration, should not be applied automatically at the start — it should only be applied after an explicit command (otherwise, it creates a mess).
 - [x] We need an `UPDATE nodes/:id` endpoint to modify node parameters, and some way to understand what exactly is being changed — so that a node’s status updates after the next PoC. Right now, when you delete and re-add a node, it results in chaos.
 </div>

@@ -16592,7 +16592,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-07-07 15:11 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-07-08 06:37 UTC*
 
 ---
 
@@ -22128,7 +22128,7 @@ Approve a 4-month pilot of External Test Lab & Community DevNet with a maximum b
 
 | Voter | Amount | Date |
 | :----- | :----- | :--- |
-| `gonka1gm...gzg6ry` | 400.0K GNK | 2026-07-07 15:08 |
+| `gonka1gm...gzg6ry` | 400.0K GNK | 2026-07-08 06:34 |
 
 ---
 
@@ -22722,13 +22722,14 @@ alexandr8475
 
   
     #80 – GRC Proposal #3 - Restitution
-    Voting
+    Rejected
   
   
-    Submitted 2026-07-05 19:40 UTC
-    Voting ends 2026-07-07 19:40
+    Submitted 2026-07-05
+    Voting ends 2026-07-07
   
-  Restitution payout for confirmed GRC Proposal #3 cases, with Case 05 payments from proposal_id=67 deducted where the same address and epoch were already compensated, and positive victim outputs below 
+  Restitution payout for confirmed GRC Proposal #3 cases, with Case 05 payments from proposal_id=67 deducted where the same address and epoch were already compensated, and positive victim outputs below …
+  Yes 16,378 (10.4%) · No 94,721 (60.4%) · Veto 39,454 (25.1%) · Abstain 6,344 (4.0%)
 
 ## 2026-Q2
 
@@ -22739,136 +22740,150 @@ alexandr8475
     Passed
   
   
-    Submitted 2026-06-26 02:18 UTC
-    Voting ends 2026-06-26 14:18
+    Submitted 2026-06-26
+    Voting ends 2026-06-26
   
   Add Kimi K2.6 and GLM 5.2 model
+  Yes 330,364 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
   
     #78 – Governance 17: update PoC model lineup
     Passed
   
   
-    Submitted 2026-06-25 03:39 UTC
-    Voting ends 2026-06-25 15:39
+    Submitted 2026-06-25
+    Voting ends 2026-06-25
   
-  Set delegation initial_model_id to MiniMaxAI/MiniMax-M2.7, keep only MiniMaxAI/MiniMax-M2.7 in PoC params, remove Qwen/Qwen3-235B-A22B-Instruct-2507-FP8, moonshotai/Kimi-K2.6 from PoC params, and dele
+  Set delegation initial_model_id to MiniMaxAI/MiniMax-M2.7, keep only MiniMaxAI/MiniMax-M2.7 in PoC params, remove Qwen/Qwen3-235B-A22B-Instruct-2507-FP8, moonshotai/Kimi-K2.6 from PoC params, and dele…
+  Yes 255,215 (97.1%) · No 170 (0.1%) · Veto 0 (0.0%) · Abstain 7,390 (2.8%)
 
   
     #77 – Gonka PR Proposal for US/Global Regions
     Passed
   
   
-    Submitted 2026-06-24 15:18 UTC
-    Voting ends 2026-06-26 15:18
+    Submitted 2026-06-24
+    Voting ends 2026-06-26
   
-  We are INPUT Global - a leading web3 marketing communications agency. We offer 3 month PR campaign to establish trust and market legitimacy of Gonka across 2 audiences: global business and crypto-nati
+  We are INPUT Global - a leading web3 marketing communications agency. We offer 3 month PR campaign to establish trust and market legitimacy of Gonka across 2 audiences: global business and crypto-nati…
+  Yes 152,042 (100.0%) · No 71 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
   
     #76 – Governance 16: devshard v2 and bounty payouts
     Passed
   
   
-    Submitted 2026-06-15 23:39 UTC
-    Voting ends 2026-06-17 23:39
+    Submitted 2026-06-15
+    Voting ends 2026-06-17
   
   Register devshard approved version v2.
+  Yes 239,924 (100.0%) · No 17 (0.0%) · Veto 0 (0.0%) · Abstain 16 (0.0%)
 
   
     #75 – Private Inc × Gonka — Network Growth Initiative
     Rejected
   
   
-    Submitted 2026-06-13 16:24 UTC
-    Voting ends 2026-06-15 16:24
+    Submitted 2026-06-13
+    Voting ends 2026-06-15
   
-  IMPORTANT: Below is a condensed version of the proposal. It highlights only the key points and does not disclose all details of the initiative, implementation mechanics, KPIs, or terms. It is strongly
+  IMPORTANT: Below is a condensed version of the proposal. It highlights only the key points and does not disclose all details of the initiative, implementation mechanics, KPIs, or terms. It is strongly…
 
   
     #74 – Gonka Labs: Maintaining Infrastructure, Improving Products, and Launching New Ones
     Passed
   
   
-    Submitted 2026-06-10 20:42 UTC
-    Voting ends 2026-06-12 20:42
+    Submitted 2026-06-10
+    Voting ends 2026-06-12
   
+  Full proposal: https://gonkalabs.com/proposal  This proposal funds the next six months of work for the Gonka ecosystem.  The focus is production-grade infrastructure and high-use products: Gonka.gg V2…
+  Yes 305,163 (79.6%) · No 3,791 (1.0%) · Veto 15 (0.0%) · Abstain 74,304 (19.4%)
 
   
     #73 – Increase minimum governance deposit to 500 GNK and expedited minimum deposit to 1000 GNK
     Passed
   
   
-    Submitted 2026-06-10 07:32 UTC
-    Voting ends 2026-06-12 07:32
+    Submitted 2026-06-10
+    Voting ends 2026-06-12
   
-  Increase the minimum deposit required to submit a governance proposal to 500 GNK (500,000,000,000 ngonka) and expedited minimum deposit to 1000 GNK (1,000,000,000,000 ngonka). This resubmits proposal 
+  Increase the minimum deposit required to submit a governance proposal to 500 GNK (500,000,000,000 ngonka) and expedited minimum deposit to 1000 GNK (1,000,000,000,000 ngonka). This resubmits proposal …
+  Yes 295,843 (96.3%) · No 40 (0.0%) · Veto 572 (0.2%) · Abstain 10,823 (3.5%)
 
   
     #72 – Open devshard escrow creation to community wallet gonka1afj0tz53z56zngs425m83vxl5y2xmwm692hfrn
     Rejected
   
   
-    Submitted 2026-06-10 04:51 UTC
-    Voting ends 2026-06-12 04:51
+    Submitted 2026-06-10
+    Voting ends 2026-06-12
   
-  Adds a community-operated wallet to devshard_escrow_params.allowed_creator_addresses, enabling it to create a devshard escrow and operate as an additional self-hosted inference gateway/transfer agent.
+  Adds a community-operated wallet to devshard_escrow_params.allowed_creator_addresses, enabling it to create a devshard escrow and operate as an additional self-hosted inference gateway/transfer agent.…
+  Yes 5,337 (2.2%) · No 7,953 (3.3%) · Veto 221,234 (90.7%) · Abstain 9,421 (3.9%)
 
   
     #71 – Gonka PR Proposal for US/Global Regions
     Rejected
   
   
-    Submitted 2026-06-08 10:41 UTC
-    Voting ends 2026-06-10 10:41
+    Submitted 2026-06-08
+    Voting ends 2026-06-10
   
-  We're a comms team specializing in Organic PR for crypto and tech projects. With strong competition in the space and no active events or marketing currently running for Gonka, we propose a 3-month Org
+  We're a comms team specializing in Organic PR for crypto and tech projects. With strong competition in the space and no active events or marketing currently running for Gonka, we propose a 3-month Org…
+  Yes 180,108 (99.8%) · No 72 (0.0%) · Veto 0 (0.0%) · Abstain 233 (0.1%)
 
   
     #70 – GNK Racers: Launch GameFi Mini-App to Drive User Growth & Wallet Activity
     Rejected
   
   
-    Submitted 2026-06-06 07:35 UTC
-    Voting ends 2026-06-08 07:35
+    Submitted 2026-06-06
+    Voting ends 2026-06-08
   
-  Release 246,000 GNK from Community Fund to finalize GNK Racers — a multiplayer side-view racing mini-app with a live working prototype (@GNKRacers_bot). The game drives new user acquisition, wallet ac
+  Release 246,000 GNK from Community Fund to finalize GNK Racers — a multiplayer side-view racing mini-app with a live working prototype (@GNKRacers_bot). The game drives new user acquisition, wallet ac…
+  Yes 38,621 (25.0%) · No 107,644 (69.6%) · Veto 6,241 (4.0%) · Abstain 2,245 (1.5%)
 
   
     #69 – Increase minimum governance deposit to 500 GNK
     Failed
   
   
-    Submitted 2026-06-05 19:21 UTC
-    Voting ends 2026-06-07 19:26
+    Submitted 2026-06-05
+    Voting ends 2026-06-07
   
   Increase the minimum deposit required to submit a governance proposal from the current value to 500 GNK. Also sets expedited minimum deposit to 1000 GNK.
+  Yes 199,799 (96.9%) · No 46 (0.0%) · Veto 4,202 (2.0%) · Abstain 2,210 (1.1%)
 
   
     #68 – Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)
     Passed
   
   
-    Submitted 2026-06-05 18:30 UTC
-    Voting ends 2026-06-07 18:30
+    Submitted 2026-06-05
+    Voting ends 2026-06-07
   
+  The proposal is reopened for voting at the initiative of several hosts who did not participate in the previous round.  • There are no changes to the substance of the proposal; only timeline commitment…
+  Yes 260,353 (96.4%) · No 749 (0.3%) · Veto 6,288 (2.3%) · Abstain 2,546 (0.9%)
 
   
     #67 – Kimi Restitution (epochs 265-276)
     Passed
   
   
-    Submitted 2026-06-03 21:54 UTC
-    Voting ends 2026-06-05 22:09
+    Submitted 2026-06-03
+    Voting ends 2026-06-05
   
-  Distribute restitution for Kimi operators across epochs 265-276. Epochs 265-266: external attack causing CPoC degradation and nonce exclusion. Epochs 267-276: ComputeGroupCap systematic underpayment d
+  Distribute restitution for Kimi operators across epochs 265-276. Epochs 265-266: external attack causing CPoC degradation and nonce exclusion. Epochs 267-276: ComputeGroupCap systematic underpayment d…
+  Yes 319,920 (78.9%) · No 150 (0.0%) · Veto 84,623 (20.9%) · Abstain 744 (0.2%)
 
   
     #66 – test proposal - 测试方案
     Rejected
   
   
-    Submitted 2026-06-03 17:45 UTC
-    Voting ends 2026-06-05 17:45
+    Submitted 2026-06-03
+    Voting ends 2026-06-05
   
   test proposal - 测试方案
 
@@ -22877,296 +22892,330 @@ alexandr8475
     Passed
   
   
-    Submitted 2026-06-02 08:21 UTC
-    Voting ends 2026-06-04 08:21
+    Submitted 2026-06-02
+    Voting ends 2026-06-04
   
-  Full 360-degree digital and social strategy for Gonka.AI: channel matrix, content plan, segment messaging, social strategy, and brand-voice guidelines. Single-tranche payment of 100,000 GNK to TheSoul
+  Full 360-degree digital and social strategy for Gonka.AI: channel matrix, content plan, segment messaging, social strategy, and brand-voice guidelines. Single-tranche payment of 100,000 GNK to TheSoul…
+  Yes 220,798 (67.9%) · No 0 (0.0%) · Veto 70,043 (21.5%) · Abstain 34,369 (10.6%)
 
   
     #64 – TheSoul - Offer 2.2: Analytics and attribution (28,000 GNK)
     Passed
   
   
-    Submitted 2026-06-02 08:21 UTC
-    Voting ends 2026-06-04 08:21
+    Submitted 2026-06-02
+    Voting ends 2026-06-04
   
-  Web analytics, attribution, and funnel dashboarding for Gonka.AI: GA4 implementation, UTM taxonomy, event tracking, and conversion reporting. Single-tranche payment of 28,000 GNK to TheSoul on proposa
+  Web analytics, attribution, and funnel dashboarding for Gonka.AI: GA4 implementation, UTM taxonomy, event tracking, and conversion reporting. Single-tranche payment of 28,000 GNK to TheSoul on proposa…
+  Yes 220,798 (67.9%) · No 0 (0.0%) · Veto 70,043 (21.5%) · Abstain 34,369 (10.6%)
 
   
     #63 – TheSoul - Offer 2.1: Website and landings (10,000 USDT)
     Passed
   
   
-    Submitted 2026-06-02 08:20 UTC
-    Voting ends 2026-06-04 08:20
+    Submitted 2026-06-02
+    Voting ends 2026-06-04
   
-  Full redesign of gonka.ai plus dedicated landing pages for miners, inference buyers, and investors, built on the brandbook from Offer 1.2. Single-tranche payment of 10,000 USDT to TheSoul on proposal 
+  Full redesign of gonka.ai plus dedicated landing pages for miners, inference buyers, and investors, built on the brandbook from Offer 1.2. Single-tranche payment of 10,000 USDT to TheSoul on proposal …
+  Yes 220,798 (67.9%) · No 0 (0.0%) · Veto 70,043 (21.5%) · Abstain 34,369 (10.6%)
 
   
     #62 – TheSoul - Offer 1.3: Influencer pilot (50,000 USDT)
     Passed
   
   
-    Submitted 2026-06-02 08:20 UTC
-    Voting ends 2026-06-04 08:20
+    Submitted 2026-06-02
+    Voting ends 2026-06-04
   
-  Crypto-influencer pilot campaign for Gonka.AI across selected tier-1 creators, with a full performance report and scaling recommendations. Single-tranche payment of 50,000 USDT to TheSoul on proposal 
+  Crypto-influencer pilot campaign for Gonka.AI across selected tier-1 creators, with a full performance report and scaling recommendations. Single-tranche payment of 50,000 USDT to TheSoul on proposal …
+  Yes 220,798 (67.9%) · No 0 (0.0%) · Veto 70,043 (21.5%) · Abstain 34,369 (10.6%)
 
   
     #61 – TheSoul - Offer 1.2: Brandbook (20,000 USDT)
     Passed
   
   
-    Submitted 2026-06-02 08:19 UTC
-    Voting ends 2026-06-04 08:19
+    Submitted 2026-06-02
+    Voting ends 2026-06-04
   
-  Brand identity system for Gonka.AI: logo, typography, color system, graphic language, layout principles, and templates, built on the positioning from Offer 1.1. Single-tranche payment of 20,000 USDT t
+  Brand identity system for Gonka.AI: logo, typography, color system, graphic language, layout principles, and templates, built on the positioning from Offer 1.1. Single-tranche payment of 20,000 USDT t…
+  Yes 220,798 (67.9%) · No 0 (0.0%) · Veto 70,043 (21.5%) · Abstain 34,369 (10.6%)
 
   
     #60 – TheSoul - Offer 1.1: Brand positioning (25,000 USDT)
     Passed
   
   
-    Submitted 2026-06-02 08:15 UTC
-    Voting ends 2026-06-04 08:15
+    Submitted 2026-06-02
+    Voting ends 2026-06-04
   
   Brand audit, competitive positioning, and audience segmentation for Gonka.AI. Single-tranche payment of 25,000 USDT to TheSoul on proposal pass. Full offer document: see the metadata URL.
+  Yes 220,798 (67.9%) · No 0 (0.0%) · Veto 70,043 (21.5%) · Abstain 34,369 (10.6%)
 
   
     #59 – Gonka Onboarding Video Guide — Milestone 1 (Prepayment)
     Rejected
   
   
-    Submitted 2026-05-31 13:08 UTC
-    Voting ends 2026-06-02 13:08
+    Submitted 2026-05-31
+    Voting ends 2026-06-02
   
-  Funds milestone 1 (upfront prepayment) of a community-produced onboarding video guide for Gonka. Deliverable: a series of ~15 short, interactive, easy-to-follow videos covering A-to-Z onboarding for b
+  Funds milestone 1 (upfront prepayment) of a community-produced onboarding video guide for Gonka. Deliverable: a series of ~15 short, interactive, easy-to-follow videos covering A-to-Z onboarding for b…
+  Yes 24,505 (43.6%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 31,699 (56.4%)
 
   
     #58 – Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)
     Rejected
   
   
-    Submitted 2026-05-28 16:27 UTC
-    Voting ends 2026-05-30 16:27
+    Submitted 2026-05-28
+    Voting ends 2026-05-30
   
+  # Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)  70,000 USDT from the CommunityPool for a dedicated Falcon Finance deep-dive on Gonka AI. Full proposal: https://vote.gonka.vip/tenders…
+  Yes 98,018 (53.4%) · No 0 (0.0%) · Veto 85,697 (46.6%) · Abstain 0 (0.0%)
 
   
     #57 – Approve the Gonka Network Development Roadmap
     Passed
   
   
-    Submitted 2026-05-28 09:48 UTC
-    Voting ends 2026-05-30 09:48
+    Submitted 2026-05-28
+    Voting ends 2026-05-30
   
+  This proposal approves the Gonka Network Development Roadmap as a strategic direction document for Gonka's future development tracks.  If approved, the roadmap should become the shared vision for Gonk…
+  Yes 257,150 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
   
     #56 – INC4 | Gonka NOP - grant for the node deployment tool
     Rejected
   
   
-    Submitted 2026-05-25 15:12 UTC
-    Voting ends 2026-05-27 15:12
+    Submitted 2026-05-25
+    Voting ends 2026-05-27
   
+  # Gonka NOP: grant for the node deployment tool  50,000 USDT from the CommunityPool to INC4 Full proposal: https://github.com/gonka-ai/gonka/discussions/1192  ## What it is  gonka-nop (Node Onboarding…
+  Yes 31,851 (58.6%) · No 9,566 (17.6%) · Veto 12,961 (23.8%) · Abstain 0 (0.0%)
 
   
     #55 – GRC Proposal #2 - Restitution (epochs 248-254)
     Passed
   
   
-    Submitted 2026-05-21 16:18 UTC
-    Voting ends 2026-05-23 16:18
+    Submitted 2026-05-21
+    Voting ends 2026-05-23
   
-  Distribute restitution for Cases 2, 3, and 4 across epochs 248-254. Case 2: preserver weight double-scaling bug (epochs 249-253). Case 3: epoch loss restitution: broad epoch losses, consecutive failur
+  Distribute restitution for Cases 2, 3, and 4 across epochs 248-254. Case 2: preserver weight double-scaling bug (epochs 249-253). Case 3: epoch loss restitution: broad epoch losses, consecutive failur…
+  Yes 188,670 (61.2%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 119,835 (38.8%)
 
   
     #54 – Upgrade Proposal: v0.2.13
     Passed
   
   
-    Submitted 2026-05-20 22:12 UTC
-    Voting ends 2026-05-22 22:12
+    Submitted 2026-05-20
+    Voting ends 2026-05-22
   
   Upgrade Proposal: v0.2.13
+  Yes 228,216 (62.8%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 135,071 (37.2%)
 
   
     #53 – INC4 | Gonka NOP - grant for the node deployment tool
     Rejected
   
   
-    Submitted 2026-05-19 11:14 UTC
-    Voting ends 2026-05-21 11:14
+    Submitted 2026-05-19
+    Voting ends 2026-05-21
   
+  # Gonka NOP: grant for the node deployment tool  50,000 USDT from the CommunityPool to INC4 Full proposal: https://github.com/gonka-ai/gonka/discussions/1192  ## What it is  gonka-nop (Node Onboarding…
+  Yes 139,052 (46.8%) · No 0 (0.0%) · Veto 158,195 (53.2%) · Abstain 0 (0.0%)
 
   
     #52 – Upgrade Proposal: v0.2.13
     Rejected
   
   
-    Submitted 2026-05-15 07:58 UTC
-    Voting ends 2026-05-17 07:58
+    Submitted 2026-05-15
+    Voting ends 2026-05-17
   
   Upgrade Proposal: v0.2.13
+  Yes 88,420 (34.1%) · No 0 (0.0%) · Veto 170,799 (65.9%) · Abstain 0 (0.0%)
 
   
     #51 – Support Gonka's presence at WebX Asia
     Passed
   
   
-    Submitted 2026-05-13 13:17 UTC
-    Voting ends 2026-05-15 13:17
+    Submitted 2026-05-13
+    Voting ends 2026-05-15
   
-  6Block, a long-term Gonka mining and infrastructure participant, proposes that the Gonka community allocate 75,000 USDT to support Gonka's participation at WebX Asia / WebX 2026 in Tokyo. 6Block has a
+  6Block, a long-term Gonka mining and infrastructure participant, proposes that the Gonka community allocate 75,000 USDT to support Gonka's participation at WebX Asia / WebX 2026 in Tokyo. 6Block has a…
+  Yes 395,003 (62.8%) · No 1,767 (0.3%) · Veto 64,217 (10.2%) · Abstain 168,275 (26.7%)
 
   
     #50 – Retroactive bounty: open-source PoC throughput optimization (+10–12% measured) with 250 total installations
     Passed
   
   
-    Submitted 2026-05-07 15:54 UTC
-    Voting ends 2026-05-09 15:54
+    Submitted 2026-05-07
+    Voting ends 2026-05-09
   
-  Retroactive 20K GNK bounty for an open-sourced PoC optimization measuring +10.2% on B200 and +12.5% on H100 with Qwen3-235B-FP8. One-line patch, verified on-chain by independent miners. Details: https
+  Retroactive 20K GNK bounty for an open-sourced PoC optimization measuring +10.2% on B200 and +12.5% on H100 with Qwen3-235B-FP8. One-line patch, verified on-chain by independent miners. Details: https…
+  Yes 281,723 (59.1%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 194,589 (40.9%)
 
   
     #49 – Gonka Media Dominance in TechL/AI with 5 AI Influencers
     Passed
   
   
-    Submitted 2026-05-05 13:41 UTC
-    Voting ends 2026-05-07 13:41
+    Submitted 2026-05-05
+    Voting ends 2026-05-07
   
-  We're ICG - AI Influencer Lab, a team that builds and scales hyper-realistic AI avatars on Instagram, TikTok, and YouTube as full ambassadors across verticals. We manage 160+ accounts in AI, finance, 
+  We're ICG - AI Influencer Lab, a team that builds and scales hyper-realistic AI avatars on Instagram, TikTok, and YouTube as full ambassadors across verticals. We manage 160+ accounts in AI, finance, …
+  Yes 496,683 (71.1%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 201,560 (28.9%)
 
   
     #48 – Lower Direct Participation Threshold to 10%
     Passed
   
   
-    Submitted 2026-05-05 07:00 UTC
-    Voting ends 2026-05-05 19:00
+    Submitted 2026-05-05
+    Voting ends 2026-05-05
   
-  During the Kimi-K2.6 bootstrap, the 30% direct participation threshold proved hard to meet. To avoid the risk of Kimi-K2.6 becoming ineligible in a future epoch and to simplify onboarding of further m
+  During the Kimi-K2.6 bootstrap, the 30% direct participation threshold proved hard to meet. To avoid the risk of Kimi-K2.6 becoming ineligible in a future epoch and to simplify onboarding of further m…
+  Yes 808,529 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
   
     #47 – Retroactive bounty: open-source PoC throughput optimization (+10–12% measured) with 250 total installations
     Rejected
   
   
-    Submitted 2026-05-04 11:43 UTC
-    Voting ends 2026-05-06 11:43
+    Submitted 2026-05-04
+    Voting ends 2026-05-06
   
-  Retroactive 20K GNK bounty for an open-sourced PoC optimization measuring +10.2% on B200 and +12.5% on H100 with Qwen3-235B-FP8. One-line patch, verified on-chain by independent miners. Details: https
+  Retroactive 20K GNK bounty for an open-sourced PoC optimization measuring +10.2% on B200 and +12.5% on H100 with Qwen3-235B-FP8. One-line patch, verified on-chain by independent miners. Details: https…
+  Yes 70,819 (33.6%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 139,828 (66.4%)
 
   
     #46 – Epochs 132-247 compensation payout from gov module (batch vesting)
     Passed
   
   
-    Submitted 2026-05-02 03:52 UTC
-    Voting ends 2026-05-04 03:52
+    Submitted 2026-05-02
+    Voting ends 2026-05-04
   
-  Two prior upgrades changed the lifecycle of unpaid miner rewards. v0.2.9 (proposal #26, 2026-02-01): when a participant is penalized during cPoC validation, the unaccounted portion of their epoch rewa
+  Two prior upgrades changed the lifecycle of unpaid miner rewards. v0.2.9 (proposal #26, 2026-02-01): when a participant is penalized during cPoC validation, the unaccounted portion of their epoch rewa…
+  Yes 97,030 (36.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 172,837 (64.0%)
 
   
     #45 – Governance Architecture Proposal for the Gonka.ai Network
     Rejected
   
   
-    Submitted 2026-04-29 20:28 UTC
-    Voting ends 2026-05-01 20:28
+    Submitted 2026-04-29
+    Voting ends 2026-05-01
   
-  Replace scattered governance discussions and complex CLI voting with a unified Governance Portal - a single interface for all Gonka governance activity. The portal includes: a proposal feed across Dis
+  Replace scattered governance discussions and complex CLI voting with a unified Governance Portal - a single interface for all Gonka governance activity. The portal includes: a proposal feed across Dis…
+  Yes 118,126 (25.6%) · No 0 (0.0%) · Veto 210,906 (45.6%) · Abstain 133,057 (28.8%)
 
   
     #44 – Upgrade Proposal: v0.2.12
     Passed
   
   
-    Submitted 2026-04-28 00:11 UTC
-    Voting ends 2026-04-30 00:11
+    Submitted 2026-04-28
+    Voting ends 2026-04-30
   
   Upgrade Proposal: v0.2.12
+  Yes 506,142 (99.6%) · No 2,057 (0.4%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
   
     #43 – Governance Architecture Proposal for the Gonka.ai Network
     Rejected
   
   
-    Submitted 2026-04-25 10:09 UTC
-    Voting ends 2026-04-27 10:09
+    Submitted 2026-04-25
+    Voting ends 2026-04-27
   
-  Today, participating in Gonka governance requires following multiple channels simultaneously — GitHub, Discord, CLI — just to cast a single vote. Most miners miss proposals entirely or vote too late. 
+  Today, participating in Gonka governance requires following multiple channels simultaneously — GitHub, Discord, CLI — just to cast a single vote. Most miners miss proposals entirely or vote too late. …
+  Yes 123,104 (26.5%) · No 335,534 (72.2%) · Veto 5,913 (1.3%) · Abstain 0 (0.0%)
 
   
     #42 – Support Gonka at Global Compute Sovereignty Summit
     Passed
   
   
-    Submitted 2026-04-17 18:51 UTC
-    Voting ends 2026-04-19 18:51
+    Submitted 2026-04-17
+    Voting ends 2026-04-19
   
-  We are DeAI Nation, a global nonprofit organization supporting and promoting the decentralized AI ecosystem, and authors of the State of DeAI 2026 report. We propose that the Gonka community become a 
+  We are DeAI Nation, a global nonprofit organization supporting and promoting the decentralized AI ecosystem, and authors of the State of DeAI 2026 report. We propose that the Gonka community become a …
+  Yes 375,771 (68.6%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 172,050 (31.4%)
 
   
     #41 – INC4 | Gonka Node Observability Platform
     Rejected
   
   
-    Submitted 2026-04-16 18:42 UTC
-    Voting ends 2026-04-18 18:42
+    Submitted 2026-04-16
+    Voting ends 2026-04-18
   
-  Today's explorers and dashboards only show on-chain data, leaving the off-chain state of validators completely opaque. The few operators who do run their own monitoring use different tools, different 
+  Today's explorers and dashboards only show on-chain data, leaving the off-chain state of validators completely opaque. The few operators who do run their own monitoring use different tools, different …
+  Yes 17,955 (57.1%) · No 13,494 (42.9%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
   
     #40 – Governance: extend voting period to 48 hours
     Passed
   
   
-    Submitted 2026-04-13 06:11 UTC
-    Voting ends 2026-04-14 06:11
+    Submitted 2026-04-13
+    Voting ends 2026-04-14
   
-  This proposal updates x/gov: the standard voting period becomes 48 hours (was 24), and the expedited voting period becomes 12 hours (was 3). All other governance parameters remain at their current on-
+  This proposal updates x/gov: the standard voting period becomes 48 hours (was 24), and the expedited voting period becomes 12 hours (was 3). All other governance parameters remain at their current on-…
+  Yes 377,158 (57.7%) · No 0 (0.0%) · Veto 12,030 (1.8%) · Abstain 264,790 (40.5%)
 
   
     #39 – Community Series Film — Why Gonka Exists
     Passed
   
   
-    Submitted 2026-04-09 13:33 UTC
-    Voting ends 2026-04-10 13:33
+    Submitted 2026-04-09
+    Voting ends 2026-04-10
   
-  Saccade Media House is a creative team of tech entrepreneurs who know how to tell stories. We've built content for international tech brands and the founders behind them. We propose a Community Series
+  Saccade Media House is a creative team of tech entrepreneurs who know how to tell stories. We've built content for international tech brands and the founders behind them. We propose a Community Series…
+  Yes 394,971 (76.0%) · No 183 (0.0%) · Veto 0 (0.0%) · Abstain 124,587 (24.0%)
 
   
     #38 – CryptoCommons: Community Support & Token Promotion Plan
     Rejected
   
   
-    Submitted 2026-04-08 19:24 UTC
-    Voting ends 2026-04-09 19:24
+    Submitted 2026-04-08
+    Voting ends 2026-04-09
   
-  If you agree say YES — Solution 1: Produce a short review video with 1-2 active community members. Solution 2: Introduce the project to BD managers of major CIS exchanges for listings. Solution 3 (Reg
+  If you agree say YES — Solution 1: Produce a short review video with 1-2 active community members. Solution 2: Introduce the project to BD managers of major CIS exchanges for listings. Solution 3 (Reg…
+  Yes 0 (0.0%) · No 183 (2.3%) · Veto 7,893 (97.7%) · Abstain 0 (0.0%)
 
   
     #37 – What is your stance on MLM projects around gonka.ai?
     Rejected
   
   
-    Submitted 2026-04-07 19:51 UTC
-    Voting ends 2026-04-08 19:51
+    Submitted 2026-04-07
+    Voting ends 2026-04-08
   
   If you are against MLM projects around gonka.ai, vote YES. All funds will be used to counter such projects. The amount is symbolic.
+  Yes 957 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
   
     #36 – Register Kava USDT IBC metadata and approve for trading
     Passed
   
   
-    Submitted 2026-04-01 18:03 UTC
-    Voting ends 2026-04-02 18:03
+    Submitted 2026-04-01
+    Voting ends 2026-04-02
   
   Register IBC token metadata and approve the denomination for trading on Gonka mainnet.
+  Yes 421,414 (99.6%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 1,788 (0.4%)
 
 ## 2026-Q1
 
@@ -23177,116 +23226,128 @@ alexandr8475
     Rejected
   
   
-    Submitted 2026-03-30 06:47 UTC
-    Voting ends 2026-03-31 06:47
+    Submitted 2026-03-30
+    Voting ends 2026-03-31
   
+  This proposal seeks community approval for a global media initiative to build awareness of decentralized AI and position Gonka as core AI infrastructure.  Key elements: Led by TheSoul Group (full-cycl…
+  Yes 9,150 (25.5%) · No 10,325 (28.8%) · Veto 2,450 (6.8%) · Abstain 13,939 (38.9%)
 
   
     #34 – gonka.ai / TheSoul social media awareness project
     Rejected
   
   
-    Submitted 2026-03-30 06:37 UTC
-    Voting ends 2026-03-31 06:37
+    Submitted 2026-03-30
+    Voting ends 2026-03-31
   
+  This proposal seeks community approval for a global media initiative to build awareness of decentralized AI and position Gonka as core AI infrastructure.  Key elements: Led by TheSoul Group (full-cycl…
 
   
     #33 – Epochs 132-133 compensation payout from gov module
     Passed
   
   
-    Submitted 2026-03-26 15:10 UTC
-    Voting ends 2026-03-27 15:10
+    Submitted 2026-03-26
+    Voting ends 2026-03-27
   
   Distribute compensation for CPoC bug affected participants in epochs 132-133.
+  Yes 184,243 (41.8%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 256,296 (58.2%)
 
   
     #32 – Epoch 158 compensation payout from gov module (batch vesting)
     Passed
   
   
-    Submitted 2026-03-23 17:30 UTC
-    Voting ends 2026-03-24 17:30
+    Submitted 2026-03-23
+    Voting ends 2026-03-24
   
   Distribute compensation proportional to epoch 158 lost preserved weights. Implemented as one MsgBatchTransferWithVesting.
+  Yes 501,114 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
   
     #31 – Upgrade Proposal: v0.2.11
     Passed
   
   
-    Submitted 2026-03-19 05:59 UTC
-    Voting ends 2026-03-20 05:59
+    Submitted 2026-03-19
+    Voting ends 2026-03-20
   
   Upgrade Proposal: v0.2.11
+  Yes 673,699 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
   
     #30 – Test Proposal
     Rejected
   
   
-    Submitted 2026-03-09 02:33 UTC
-    Voting ends 2026-03-10 02:37
+    Submitted 2026-03-09
+    Voting ends 2026-03-10
   
   Testing governance voting from the wallet app.
+  Yes 0 (0.0%) · No 47 (100.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
   
     #29 – Network Parameters Update: Disable TA Allowlist, Increase Prices 100x
     Rejected
   
   
-    Submitted 2026-02-19 16:03 UTC
-    Voting ends 2026-02-20 16:03
+    Submitted 2026-02-19
+    Voting ends 2026-02-20
   
   Remove TransferAgent allowlist restrictions (empty list = all TAs allowed) and increase per-token pricing 100x (min 100, base 10000 ngonka) to reduce spam.
+  Yes 7,314 (2.9%) · No 0 (0.0%) · Veto 243,060 (97.1%) · Abstain 0 (0.0%)
 
   
     #28 – Collateral Parameters Update
     Rejected
   
   
-    Submitted 2026-02-18 07:27 UTC
-    Voting ends 2026-02-19 07:27
+    Submitted 2026-02-18
+    Voting ends 2026-02-19
   
   0.032 GNK per 1 unit of power, 0.01% slashing for miss rate or jail, 0.5% slashing for invalid inference
+  Yes 314,460 (96.5%) · No 11,504 (3.5%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
   
     #27 – Upgrade Proposal: v0.2.10
     Passed
   
   
-    Submitted 2026-02-17 09:26 UTC
-    Voting ends 2026-02-18 09:26
+    Submitted 2026-02-17
+    Voting ends 2026-02-18
   
   Upgrade Proposal: v0.2.10
+  Yes 1,540,653 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
   
     #26 – Upgrade Proposal: v0.2.9
     Passed
   
   
-    Submitted 2026-01-31 22:02 UTC
-    Voting ends 2026-02-01 22:02
+    Submitted 2026-01-31
+    Voting ends 2026-02-01
   
   Upgrade Proposal: v0.2.9
+  Yes 2,708,406 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
   
     #25 – Upgrade Proposal: v0.2.8
     Passed
   
   
-    Submitted 2026-01-28 03:02 UTC
-    Voting ends 2026-01-29 03:02
+    Submitted 2026-01-28
+    Voting ends 2026-01-29
   
   Upgrade Proposal: v0.2.8
+  Yes 4,153,562 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
   
     #24 – Upgrade Proposal: v0.2.8
     Rejected
   
   
-    Submitted 2026-01-28 00:32 UTC
-    Voting ends 2026-01-29 00:32
+    Submitted 2026-01-28
+    Voting ends 2026-01-29
   
   Upgrade Proposal: v0.2.8
 
@@ -23295,50 +23356,55 @@ alexandr8475
     Passed
   
   
-    Submitted 2026-01-17 05:28 UTC
-    Voting ends 2026-01-18 05:28
+    Submitted 2026-01-17
+    Voting ends 2026-01-18
   
   Update Expiration Dates for Developer Access and Participant Allowlist
+  Yes 3,476,742 (99.9%) · No 2,836 (0.1%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
   
     #21 – Fix mistakes in allowlist
     Passed
   
   
-    Submitted 2026-01-11 06:04 UTC
-    Voting ends 2026-01-12 06:04
+    Submitted 2026-01-11
+    Voting ends 2026-01-12
   
   https://github.com/product-science/filter/tree/0354c37eb6c827f00c1e889a2b7de9952a9b84ba
+  Yes 3,020,391 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
   
     #20 – Enable Whitelist
     Passed
   
   
-    Submitted 2026-01-09 06:46 UTC
-    Voting ends 2026-01-10 06:46
+    Submitted 2026-01-09
+    Voting ends 2026-01-10
   
   https://github.com/product-science/filter/tree/ae59d27f04a70039bcfca94ae656e723982150cd
+  Yes 2,111,775 (90.1%) · No 90,320 (3.9%) · Veto 140,607 (6.0%) · Abstain 0 (0.0%)
 
   
     #19 – Upgrade Proposal: v0.2.7
     Passed
   
   
-    Submitted 2026-01-07 04:23 UTC
-    Voting ends 2026-01-08 04:23
+    Submitted 2026-01-07
+    Voting ends 2026-01-08
   
   Upgrade Proposal: v0.2.7
+  Yes 3,886,156 (96.1%) · No 148,604 (3.7%) · Veto 8,096 (0.2%) · Abstain 0 (0.0%)
 
   
     #18 – Test
     Rejected
   
   
-    Submitted 2026-01-04 13:07 UTC
-    Voting ends 2026-01-05 13:07
+    Submitted 2026-01-04
+    Voting ends 2026-01-05
   
   Test proposal
+  Yes 4,237 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
 ## 2025-Q4
 
@@ -23349,110 +23415,121 @@ alexandr8475
     Passed
   
   
-    Submitted 2025-12-25 21:22 UTC
-    Voting ends 2025-12-26 21:22
+    Submitted 2025-12-25
+    Voting ends 2025-12-26
   
   Expected amount of Confirmation PoC per epoch to 4, p0 for binomial test to 0.1
+  Yes 3,261,413 (100.0%) · No 85 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
   
     #16 – Upgrade Proposal: v0.2.6
     Passed
   
   
-    Submitted 2025-12-19 17:09 UTC
-    Voting ends 2025-12-20 17:09
+    Submitted 2025-12-19
+    Voting ends 2025-12-20
   
   Upgrade Proposal: v0.2.6
+  Yes 1,985,917 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
   
     #15 – Upgrade Proposal: v0.2.6
     Rejected
   
   
-    Submitted 2025-12-16 11:12 UTC
-    Voting ends 2025-12-17 11:12
+    Submitted 2025-12-16
+    Voting ends 2025-12-17
   
   Upgrade Proposal: v0.2.6
+  Yes 1,034,445 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
   
     #14 – Sale GNK from Community Fund
     Passed
   
   
-    Submitted 2025-11-26 09:35 UTC
-    Voting ends 2025-11-27 09:35
+    Submitted 2025-11-26
+    Voting ends 2025-11-27
   
   Sale GNK from Community Fund
+  Yes 1,180,961 (98.8%) · No 9,781 (0.8%) · Veto 4,577 (0.4%) · Abstain 0 (0.0%)
 
   
     #13 – Upgrade Proposal: v0.2.5
     Passed
   
   
-    Submitted 2025-11-21 09:13 UTC
-    Voting ends 2025-11-22 09:13
+    Submitted 2025-11-21
+    Voting ends 2025-11-22
   
   Upgrade Proposal: v0.2.5
+  Yes 428,459 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
   
     #12 – Bandwidth Limits
     Passed
   
   
-    Submitted 2025-11-12 21:22 UTC
-    Voting ends 2025-11-13 00:22
+    Submitted 2025-11-12
+    Voting ends 2025-11-13
   
   Bandwidth Limits
+  Yes 257,565 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
   
     #11 – Bandwidth Limits
     Passed
   
   
-    Submitted 2025-11-12 20:00 UTC
-    Voting ends 2025-11-12 23:00
+    Submitted 2025-11-12
+    Voting ends 2025-11-12
   
   Bandwidth Limits
+  Yes 349,596 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
   
     #10 – Bandwidth Limits
     Passed
   
   
-    Submitted 2025-11-12 19:26 UTC
-    Voting ends 2025-11-12 22:26
+    Submitted 2025-11-12
+    Voting ends 2025-11-12
   
   Bandwidth Limits
+  Yes 287,496 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
   
     #9 – Higher Bandwidth Limits & Voting Time Back to 24H
     Passed
   
   
-    Submitted 2025-11-11 09:22 UTC
-    Voting ends 2025-11-11 12:22
+    Submitted 2025-11-11
+    Voting ends 2025-11-11
   
   Higher Bandwidth Limits & Voting Time Back to 24H
+  Yes 394,887 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
   
     #8 – Upgrade Proposal: v0.2.4
     Passed
   
   
-    Submitted 2025-10-22 05:46 UTC
-    Voting ends 2025-10-22 08:46
+    Submitted 2025-10-22
+    Voting ends 2025-10-22
   
   Upgrade Proposal: v0.2.4
+  Yes 286,826 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
   
     #7 – Upgrade Proposal: v0.2.3
     Passed
   
   
-    Submitted 2025-10-03 04:53 UTC
-    Voting ends 2025-10-03 07:53
+    Submitted 2025-10-03
+    Voting ends 2025-10-03
   
   Upgrade Proposal: v0.2.3
+  Yes 132,672 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
 ## 2025-Q3
 
@@ -23463,67 +23540,74 @@ alexandr8475
     Passed
   
   
-    Submitted 2025-09-24 23:08 UTC
-    Voting ends 2025-09-25 02:08
+    Submitted 2025-09-24
+    Voting ends 2025-09-25
   
   Upgrade Proposal: v0.2.2
+  Yes 130,079 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
   
     #5 – Expedite voting for upgrades
     Passed
   
   
-    Submitted 2025-09-23 06:39 UTC
-    Voting ends 2025-09-23 18:39
+    Submitted 2025-09-23
+    Voting ends 2025-09-23
   
   Expedite voting for upgrades
+  Yes 172,265 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
   
     #4 – Upgrade Proposal: v0.2.2
     Rejected
   
   
-    Submitted 2025-09-22 10:02 UTC
-    Voting ends 2025-09-24 10:02
+    Submitted 2025-09-22
+    Voting ends 2025-09-24
   
   Upgrade Proposal: v0.2.2
+  Yes 109 (0.1%) · No 0 (0.0%) · Veto 109,637 (99.9%) · Abstain 0 (0.0%)
 
   
     #3 – Increase PoC Validation Length
     Passed
   
   
-    Submitted 2025-09-20 05:16 UTC
-    Voting ends 2025-09-20 17:16
+    Submitted 2025-09-20
+    Voting ends 2025-09-20
   
   Proposal updates poc_validation_duration from 20 to 100.
+  Yes 162,514 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
   
     #2 – Proposal introducing new Qwen3 models
     Passed
   
   
-    Submitted 2025-09-09 21:40 UTC
-    Voting ends 2025-09-11 21:40
+    Submitted 2025-09-09
+    Voting ends 2025-09-11
   
   This proposal introduces new Qwen3 models including Qwen3-32B-FP8 and Qwen3-235B-A22B-Instruct-2507-FP8, along with updating parameters for Qwen2.5-7B-Instruct and QwQ-32B.
+  Yes 62,612 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
   
     #1 – Correct Epoch Length
     Passed
   
   
-    Submitted 2025-09-05 21:51 UTC
-    Voting ends 2025-09-07 21:51
+    Submitted 2025-09-05
+    Voting ends 2025-09-07
   
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
+  Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-79 proposals across 5 quarters. Last updated: 2026-07-07 13:35 UTC
+79 proposals across 5 quarters. Last updated: 2026-07-08 04:49 UTC
 
 function initProposalsPage() {
   var checkboxes = document.querySelectorAll('.prop-oview-filter input[type=checkbox]');
   var cards = document.querySelectorAll('.prop-card');
   var countEl = document.querySelector('.prop-filter-count');
+
   function apply() {
     var filters = {};
     checkboxes.forEach(function(cb) {
@@ -23536,15 +23620,18 @@ function initProposalsPage() {
       if (status === 'prop-passed' && filters.passed) show = true;
       else if (status === 'prop-rejected' && filters.rejected) show = true;
       else if (status === 'prop-voting' && filters.voting) show = true;
+      
       else if (status === 'prop-failed' && filters.rejected) show = true;
       card.style.display = show ? '' : 'none';
       if (show) visible++;
     });
     countEl.textContent = visible + ' of ' + cards.length + ' proposals';
   }
+
   checkboxes.forEach(function(cb) { cb.addEventListener('change', apply); });
   apply();
 }
+
 document$.subscribe(initProposalsPage);
 
 ---
@@ -23562,7 +23649,7 @@ document$.subscribe(initProposalsPage);
   
   Voting
 
-## 2026-q2 Summary
+## 2026-Q2 Summary
 
 44Total Proposals
 27Passed (61%)
@@ -23570,15 +23657,19 @@ document$.subscribe(initProposalsPage);
 1Failed (2%)
 
 By Category
-  Funding / Grants29
-  Governance Parameters8
-  Software Upgrade3
-  GRC / Restitution2
-  Other1
-  Models / IBC1
+Funding / Grants29
+Governance Parameters8
+Software Upgrade3
+GRC / Restitution2
+Other1
+Models / IBC1
 
 Approved Funding
-GNK allocated1,788,702 GNKUSDT allocated$545,000
+GNK allocated1,806,889 GNK
+USDT allocated$545,000
+
+2026-Q2
+44 proposals
 
   
     #79 – Add Kimi K2.6 and GLM 5.2 model
@@ -26629,19 +26720,22 @@ Register IBC token metadata and approve the denomination for trading on Gonka ma
   
   Voting
 
-## 2025-q3 Summary
+## 2025-Q3 Summary
 
 6Total Proposals
 5Passed (83%)
 1Rejected (17%)
 
 By Category
-  Governance Parameters3
-  Software Upgrade2
-  Models / IBC1
+Governance Parameters3
+Software Upgrade2
+Models / IBC1
 
 Approved Funding
 No funding proposals
+
+2025-Q3
+6 proposals
 
   
     #6 – Upgrade Proposal: v0.2.2
@@ -27069,19 +27163,22 @@ Upgrade Proposal: v0.2.2
   
   Voting
 
-## 2025-q4 Summary
+## 2025-Q4 Summary
 
 11Total Proposals
 10Passed (91%)
 1Rejected (9%)
 
 By Category
-  Governance Parameters5
-  Software Upgrade5
-  Funding / Grants1
+Governance Parameters5
+Software Upgrade5
+Funding / Grants1
 
 Approved Funding
 No funding proposals
+
+2025-Q4
+11 proposals
 
   
     #17 – Expected amount of Confirmation PoC per epoch
@@ -27806,27 +27903,31 @@ Sale GNK from Community Fund
   
   Voting
 
-## 2026-q3 Summary
+## 2026-Q3 Summary
 
 1Total Proposals
 0Passed (0%)
-0Rejected (0%)
+1Rejected (100%)
 
 By Category
-  Funding / Grants1
+Funding / Grants1
 
 Approved Funding
 No funding proposals
 
+2026-Q3
+1 proposals
+
   
     #80 – GRC Proposal #3 - Restitution
-    Voting
+    Rejected
   
   
     Submitted 2026-07-05
     Voting ends 2026-07-07
   
   Restitution payout for confirmed GRC Proposal #3 cases, with Case 05 payments from proposal_id=67 deducted where the same address and epoch were already compensated, and positive victim outputs below …
+  Yes 16,378 (10.4%) · No 94,721 (60.4%) · Veto 39,454 (25.1%) · Abstain 6,344 (4.0%)
 
 ← Back to all proposals
 
@@ -27863,7 +27964,7 @@ document$.subscribe(initProposalsPage);
 
 # #80 – GRC Proposal #3 - Restitution
 
-Voting
+Rejected
 
 **Proposal ID:** `80`
 
@@ -27877,7 +27978,26 @@ Voting
 
 **Metadata:** [https://github.com/huxuxuya/GRC-3-result](https://github.com/huxuxuya/GRC-3-result)
 
+**Failed reason:** proposal did not get enough votes to pass
+
 Restitution payout for confirmed GRC Proposal #3 cases, with Case 05 payments from proposal_id=67 deducted where the same address and epoch were already compensated, and positive victim outputs below the chain minimum raised to 10 GNK.
+
+---
+
+## Final Tally
+
+  
+    
+    
+    
+    
+  
+  
+    Yes 16,378 (10.4%)
+    No 94,721 (60.4%)
+    Veto 39,454 (25.1%)
+    Abstain 6,344 (4.0%)
+  
 
 ---
 
@@ -27911,20 +28031,23 @@ Restitution payout for confirmed GRC Proposal #3 cases, with Case 05 payments fr
   
   Voting
 
-## 2026-q1 Summary
+## 2026-Q1 Summary
 
 17Total Proposals
 10Passed (59%)
 7Rejected (41%)
 
 By Category
-  Software Upgrade6
-  Governance Parameters5
-  Funding / Grants4
-  Other2
+Software Upgrade6
+Governance Parameters5
+Funding / Grants4
+Other2
 
 Approved Funding
 No funding proposals
+
+2026-Q1
+17 proposals
 
   
     #35 – gonka.ai / TheSoul social media awareness project

@@ -2,7 +2,7 @@
 title: "#344 — Intersection between update of `epoch_length` params and PoC procedure can lead to consensus failure"
 source: https://github.com/gonka-ai/gonka/issues/344
 issue_number: 344
-synced_at: 2026-07-07T04:29:40Z
+synced_at: 2026-07-08T06:43:02Z
 template: issues-main.html
 ---
 
@@ -43,8 +43,8 @@ node      | 1:53AM INF service stop impl=baseWAL module=consensus msg="Stopping 
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-01-28 22:26 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    @DimaOrekhovPS or @patimen please give more details for this task
+  <div class="issues-comment-body issues-content">
+    <p>@DimaOrekhovPS or @patimen please give more details for this task</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -52,10 +52,8 @@ node      | 1:53AM INF service stop impl=baseWAL module=consensus msg="Stopping 
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-02-28 00:31 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    @patimen please give more details for this task
-
-
+  <div class="issues-comment-body issues-content">
+    <p>@patimen please give more details for this task</p>
   </div>
 </div>
 

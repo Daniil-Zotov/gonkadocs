@@ -2,7 +2,7 @@
 title: "#431 — inferenced:0.2.4 contains outdated hard-coded genesis → AppHash mismatch prevents all nodes from syncing"
 source: https://github.com/gonka-ai/gonka/issues/431
 issue_number: 431
-synced_at: 2026-07-07T04:30:54Z
+synced_at: 2026-07-08T06:44:15Z
 template: issues-main.html
 ---
 
@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 🚨 TL;DR / Summary
 
 The Docker image ghcr.io/product-science/inferenced:0.2.4 contains a hard-coded outdated genesis, causing a permanent AppHash mismatch with the live chain.
@@ -309,7 +309,7 @@ If such a snapshot exists, could you please share:</p>
   <div class="issues-comment-body issues-content">
     <p>docker compose files in main branch reference pre-build docker containers https://github.com/gonka-ai/gonka/blob/main/deploy/join/docker-compose.yml</p>
 <p>The same ones can be built from main branch</p>
-<p>The <a href="https://gonka.ai/host/quickstart/">quickstart</a> instruction deploys from snapshot automatically until not disabled explicitly</p>
+<p>The <a href="https://gonka.ai/host/quickstart/">quickstart</a> instruction deploys from snapshot automatically until not disabled explicitly </p>
   </div>
 </div>
 <div class="issues-comment">

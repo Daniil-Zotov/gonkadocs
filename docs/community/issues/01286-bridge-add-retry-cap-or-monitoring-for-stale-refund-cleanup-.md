@@ -2,7 +2,7 @@
 title: "#1286 — Bridge: add retry cap or monitoring for stale refund cleanup retries"
 source: https://github.com/gonka-ai/gonka/issues/1286
 issue_number: 1286
-synced_at: 2026-07-07T04:27:58Z
+synced_at: 2026-07-08T06:41:26Z
 template: issues-main.html
 ---
 
@@ -73,8 +73,8 @@ Either:
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-06-02 00:50 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    @Ryanchen911, are you ready to write a fix?
+  <div class="issues-comment-body issues-content">
+    <p>@Ryanchen911, are you ready to write a fix?</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -82,8 +82,8 @@ Either:
     <span>[@Ryanchen911](https://github.com/Ryanchen911)</span>
     <span class="issues-meta-item">commented 2026-06-02 07:15 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    sure, we will take it @bonujel
+  <div class="issues-comment-body issues-content">
+    <p>sure, we will take it @bonujel</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -91,8 +91,8 @@ Either:
     <span>[@bonujel](https://github.com/bonujel)</span>
     <span class="issues-meta-item">commented 2026-06-02 08:27 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Picking this up — I'll add a maximum retry cap for completed post-process retries (with metrics/logging for stale entries) so persistent cleanup failures can't retry forever, while keeping the existing double-spend protection unchanged. PR to follow on the v0.2.14 line.
+  <div class="issues-comment-body issues-content">
+    <p>Picking this up — I'll add a maximum retry cap for completed post-process retries (with metrics/logging for stale entries) so persistent cleanup failures can't retry forever, while keeping the existing double-spend protection unchanged. PR to follow on the v0.2.14 line.</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -100,8 +100,8 @@ Either:
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-06-02 17:46 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    @GLiberman fyi
+  <div class="issues-comment-body issues-content">
+    <p>@GLiberman fyi</p>
   </div>
 </div>
 

@@ -2,7 +2,7 @@
 title: "#908 — bls: BlsManager stores context.Background() — DKG gRPC calls have no cancellation or timeout"
 source: https://github.com/gonka-ai/gonka/issues/908
 issue_number: 908
-synced_at: 2026-07-07T04:28:45Z
+synced_at: 2026-07-08T06:42:09Z
 template: issues-main.html
 ---
 
@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ## Summary
 
 `NewBlsManager` stores `context.Background()` as a struct field `bm.ctx`. This means two gRPC calls in the DKG dealer path run without any timeout and cannot be cancelled on node shutdown.

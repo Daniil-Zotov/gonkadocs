@@ -2,7 +2,7 @@
 title: "#419 — New Issue → Request Access to Inference Image"
 source: https://github.com/gonka-ai/gonka/issues/419
 issue_number: 419
-synced_at: 2026-07-07T04:30:53Z
+synced_at: 2026-07-08T06:44:14Z
 template: issues-main.html
 ---
 
@@ -42,8 +42,8 @@ Thanks!
     <span>[@DimaOrekhovPS](https://github.com/DimaOrekhovPS)</span>
     <span class="issues-meta-item">commented 2025-11-17 21:00 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    The images are public for everyone. One possible cause for failing to pull an image is using stale GH credentials, try using `docker logout ghcr.io` to clear the credentials, then login again with `docker login ghcr.io` and retry
+  <div class="issues-comment-body issues-content">
+    <p>The images are public for everyone. One possible cause for failing to pull an image is using stale GH credentials, try using <code>docker logout ghcr.io</code> to clear the credentials, then login again with <code>docker login ghcr.io</code> and retry</p>
   </div>
 </div>
 

@@ -2,7 +2,7 @@
 title: "#562 — GetEpochModel in validation should use inference epoch"
 source: https://github.com/gonka-ai/gonka/issues/562
 issue_number: 562
-synced_at: 2026-07-07T04:29:57Z
+synced_at: 2026-07-08T06:43:19Z
 template: issues-main.html
 ---
 
@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 Follow-up to #553. Line 68 uses GetEpochModel (current epoch) instead of GetEpochModelForEpoch(ctx, inference.EpochId, inference.Model)
 </div>
 
@@ -35,7 +35,7 @@ Follow-up to #553. Line 68 uses GetEpochModel (current epoch) instead of GetEpoc
     <span class="issues-meta-item">commented 2026-02-06 00:58 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Resolved with #545</p>
+    <p>Resolved with #545 </p>
   </div>
 </div>
 

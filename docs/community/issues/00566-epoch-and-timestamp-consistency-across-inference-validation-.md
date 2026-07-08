@@ -2,7 +2,7 @@
 title: "#566 — Epoch and timestamp consistency across inference, validation, and claims"
 source: https://github.com/gonka-ai/gonka/issues/566
 issue_number: 566
-synced_at: 2026-07-07T04:29:52Z
+synced_at: 2026-07-08T06:43:15Z
 template: issues-main.html
 ---
 
@@ -34,8 +34,8 @@ template: issues-main.html
     <span>[@patimen](https://github.com/patimen)</span>
     <span class="issues-meta-item">commented 2026-01-22 22:38 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    We have fixes for this, but I want to again revisit it and review it more carefully for v0.2.9
+  <div class="issues-comment-body issues-content">
+    <p>We have fixes for this, but I want to again revisit it and review it more carefully for v0.2.9</p>
   </div>
 </div>
 

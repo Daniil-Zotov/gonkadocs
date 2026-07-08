@@ -2,7 +2,7 @@
 title: "#776 — HA infrastructure"
 source: https://github.com/gonka-ai/gonka/issues/776
 issue_number: 776
-synced_at: 2026-07-07T04:29:36Z
+synced_at: 2026-07-08T06:42:59Z
 template: issues-main.html
 ---
 
@@ -39,8 +39,8 @@ Am I right ? Is there some guide on this that I missed ?
     <span>[@blizko](https://github.com/blizko)</span>
     <span class="issues-meta-item">commented 2026-03-03 08:44 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    This topic is raised as discussion https://github.com/gonka-ai/gonka/discussions/837
+  <div class="issues-comment-body issues-content">
+    <p>This topic is raised as discussion https://github.com/gonka-ai/gonka/discussions/837</p>
   </div>
 </div>
 

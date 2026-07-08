@@ -2,7 +2,7 @@
 title: "#783 — [4/4] `StartInference` and `FinishInference`"
 source: https://github.com/gonka-ai/gonka/issues/783
 issue_number: 783
-synced_at: 2026-07-07T04:29:31Z
+synced_at: 2026-07-08T06:42:54Z
 template: issues-main.html
 ---
 
@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 # Background
 
 `MsgStartInference` and `MsgFinishInference` are too slow in production. Blocks should be processed by nodes within 1-2 seconds, so that block time stays below 6 seconds. This means that to process 1000 inferences in a block, we need to record 1000 `MsgStartInference`, 1000 `MsgFinishInference`, and 100-200 `MsgValidation` transactions. This means that these transactions should be processed faster than 1ms. Even though they are quite fast in tests, in production with a large state they require 10-20ms, and on some nodes 50ms or more.
@@ -136,7 +136,7 @@ getConfirmationPoCStatus (isn't related to inference completion)</p>
     <span class="issues-meta-item">commented 2026-02-21 05:27 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>You actually right, so we may add parameter for the function to skip compute status and use it in the Start/Finish.</p>
+    <p>You actually right, so we may add parameter for the function to skip compute status and use it in the Start/Finish. </p>
   </div>
 </div>
 <div class="issues-comment">
@@ -155,7 +155,7 @@ getConfirmationPoCStatus (isn't related to inference completion)</p>
     <span class="issues-meta-item">commented 2026-02-21 05:31 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>You may be right here, that we can wait for the next block. I'm thinking about corner cases, like can we do multiple changes within one block, which require us to read parameters, but likely you right. It just usually not recommended to have any cache per block, to insure determinism. But you may be right that there is no case for non-determinism here.</p>
+    <p>You may be right here, that we can wait for the next block. I'm thinking about corner cases, like can we do multiple changes within one block, which require us to read parameters, but likely you right. It just usually not recommended to have any cache per block, to insure determinism. But you may be right that there is no case for non-determinism here. </p>
   </div>
 </div>
 <div class="issues-comment">
@@ -242,7 +242,7 @@ But I don't think we should store and calculate something on chain that is just 
 <p>I agree block height caching can help, and it may improve consistency when workers run in parallel. But we still need more testing to prove it is safe and useful in multi-node setups</p>
 </blockquote>
 <p>It's onchain logic, it's hard to compare with the case of  'x-cosmos-block-height' when there is offchain communication with multiple chain nodes that can have different height.</p>
-<p>Here we are determenistic every node on height X has the same state and input, and they all can have the logic that if params are adjusted by proposal this params are not used before next block (it's determenistic).</p>
+<p>Here we are determenistic every node on height X has the same state and input, and they all can have the logic that if params are adjusted by proposal this params are not used before next block (it's determenistic). </p>
   </div>
 </div>
 <div class="issues-comment">

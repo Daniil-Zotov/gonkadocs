@@ -2,7 +2,7 @@
 title: "#1199 — Reproducible sampling for inference validation"
 source: https://github.com/gonka-ai/gonka/issues/1199
 issue_number: 1199
-synced_at: 2026-07-07T04:27:52Z
+synced_at: 2026-07-08T06:41:20Z
 template: issues-main.html
 ---
 
@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 Review the existing reproducible / deterministic sampling work for inference validation and prepare a careful path toward adding it to MLNode versions.
 
 This task is related to the known inference validation vulnerability described in the inference validation proposal. The proposed direction is a two-stage validation system with a cheap sequence check before the existing distribution check.
@@ -162,7 +162,7 @@ The priority is to take over the existing work, gradually introduce it into MLNo
     <span class="issues-meta-item">commented 2026-06-30 00:53 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>@Ryanchen911, yes please!</p>
+    <p>@Ryanchen911, yes please! </p>
   </div>
 </div>
 <div class="issues-comment">

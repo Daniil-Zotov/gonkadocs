@@ -2,7 +2,7 @@
 title: "#574 — Membership for correct epoch for Validation requests"
 source: https://github.com/gonka-ai/gonka/issues/574
 issue_number: 574
-synced_at: 2026-07-07T04:30:11Z
+synced_at: 2026-07-08T06:43:33Z
 template: issues-main.html
 ---
 
@@ -34,8 +34,8 @@ template: issues-main.html
     <span>[@patimen](https://github.com/patimen)</span>
     <span class="issues-meta-item">commented 2026-01-22 22:38 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Merged and tested
+  <div class="issues-comment-body issues-content">
+    <p>Merged and tested</p>
   </div>
 </div>
 

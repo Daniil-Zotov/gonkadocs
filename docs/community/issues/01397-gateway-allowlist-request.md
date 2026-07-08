@@ -2,7 +2,7 @@
 title: "#1397 — Gateway allowlist request"
 source: https://github.com/gonka-ai/gonka/issues/1397
 issue_number: 1397
-synced_at: 2026-07-07T04:27:54Z
+synced_at: 2026-07-08T06:41:14Z
 template: issues-main.html
 ---
 
@@ -15,13 +15,13 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item">[@yuritsin-code](https://github.com/yuritsin-code) opened 2026-07-04 15:26 UTC</span>
-    <span class="issues-meta-item">1 comment</span>
-    <span class="issues-meta-item">Updated 2026-07-04 17:14 UTC</span>
+    <span class="issues-meta-item">2 comments</span>
+    <span class="issues-meta-item">Updated 2026-07-08 00:51 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ## Operator
 
 Victor Yuritsyn — independent operator
@@ -52,7 +52,7 @@ the network if useful.
 
 ---
 
-## 💬 Comments (1)
+## 💬 Comments (2)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -75,6 +75,19 @@ the network if useful.
 <p>We reviewed the reference <code>node-config.json</code> files in <code>deploy/join/</code> and the participant quickstart docs. None include <code>--enable-prefix-caching</code>. Since vLLM 0.6.0+ requires this flag explicitly (it was default before), we cannot determine if prefix caching is active on Gonka nodes.</p>
 <p><strong>Question:</strong> Is vLLM Automatic Prefix Caching enabled on Gonka inference nodes? What vLLM version does MLNode use?</p>
 <p>Thanks for your time — this helps us understand the right strategy for deploying agent workloads on Gonka.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span class="issues-meta-item">commented 2026-07-08 00:51 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Hi @yuritsin-code. As with any <code>devshard_escrow_params.allowed_creator_addresses</code> change, this happens only through on-chain governance (a param-change proposal or a governance-approved upgrade batch) — filing the issue registers intent, but inclusion and timing are governance-dependent, not a maintainer toggle.</p>
+<p>Your trace is right, and there is no hidden sticky path. </p>
+<p>The group is not operator-selectable and there is no per-session / per-agent group_size. Slots are sampled on-chain at escrow creation (weighted-random by each participant's PoC validation weight for the model), sized to the governance parameter DevshardEscrowParams.GroupSize — currently 16. The creator can't pin members or force group_size=1.
+The group is a verification/redundancy set, not a cache-affinity router. For each nonce exactly one slot executes (nonce % group); the others are verifiers that validate the result. Rotating the executor is intentional, so consecutive-turn KV/prefix-cache affinity is not a design goal today. The routing is determined entirely by the on-chain group + nonce, not by the gateway. So it is identical whether you stay on a community broker, use OpenBroker, or run your own devshard gateway — self-hosting will not buy you KV-cache affinity.</p>
+<p>Given you're already in production and the goal is GNK-native, no-markup, self-paid inference, the option that works today without the governance wait is OpenBroker (https://openbroker.gonka.gg/, discussion #1363): it deducts your balance 1-to-1 with actual escrow cost (no markup, no enrollment/approval), and serves the network models.  </p>
   </div>
 </div>
 

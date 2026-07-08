@@ -2,7 +2,7 @@
 title: "#966 — Validation Eligibility and Accounting Consistency"
 source: https://github.com/gonka-ai/gonka/issues/966
 issue_number: 966
-synced_at: 2026-07-07T04:29:07Z
+synced_at: 2026-07-08T06:42:29Z
 template: issues-main.html
 ---
 
@@ -86,10 +86,9 @@ When done:
     <span>[@akup](https://github.com/akup)</span>
     <span class="issues-meta-item">commented 2026-04-03 10:10 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Issue should be closed, because now all focus is moving to devshards. Moreover here seed is revealed, but current protocol version doesn't protect from seed early revealing, and some party can cheat with inferenceIds
-
-@0xMayoor let's accept your PR https://github.com/gonka-ai/gonka/pull/832
+  <div class="issues-comment-body issues-content">
+    <p>Issue should be closed, because now all focus is moving to devshards. Moreover here seed is revealed, but current protocol version doesn't protect from seed early revealing, and some party can cheat with inferenceIds</p>
+<p>@0xMayoor let's accept your PR https://github.com/gonka-ai/gonka/pull/832</p>
   </div>
 </div>
 

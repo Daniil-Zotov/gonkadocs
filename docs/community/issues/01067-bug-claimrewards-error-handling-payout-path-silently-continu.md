@@ -2,7 +2,7 @@
 title: "#1067 — bug: ClaimRewards error handling — payout path silently continues on failure"
 source: https://github.com/gonka-ai/gonka/issues/1067
 issue_number: 1067
-synced_at: 2026-07-07T04:28:42Z
+synced_at: 2026-07-08T06:42:05Z
 template: issues-main.html
 ---
 
@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ## Summary
 In `msg_server_claim_rewards.go`, when `PayParticipantFromEscrow` or `PayParticipantFromModule` returns an error, the function logs the error and continues processing instead of returning the error. This can result in partial payouts or silent fund loss when the payment path fails.
 ## Motivation
@@ -104,7 +104,7 @@ Regarding the label — this is a bug (fund loss on payment failure), not an enh
     <span class="issues-meta-item">commented 2026-04-28 19:09 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>@x0152 watch out this one , please</p>
+    <p>@x0152 watch out this one , please </p>
   </div>
 </div>
 <div class="issues-comment">

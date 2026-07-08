@@ -28,16 +28,15 @@ template: proposals-oview.html
 ## 2026-Q3 Summary
 
 <div class="qs-stats">
-<div class="qs-stat total"><span class="qs-num">2</span><span class="qs-desc">Total Proposals</span></div>
+<div class="qs-stat total"><span class="qs-num">1</span><span class="qs-desc">Total Proposals</span></div>
 <div class="qs-stat passed"><span class="qs-num">0</span><span class="qs-desc">Passed (0%)</span></div>
-<div class="qs-stat rejected"><span class="qs-num">1</span><span class="qs-desc">Rejected (50%)</span></div>
+<div class="qs-stat rejected"><span class="qs-num">1</span><span class="qs-desc">Rejected (100%)</span></div>
 
 </div>
 
 <div class="qs-categories">
 <strong>By Category</strong>
-<div class="qs-row"><span class="qs-label">GRC / Restitution</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:50%"></span></span><span class="qs-value">1</span></div>
-<div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:50%"></span></span><span class="qs-value">1</span></div>
+<div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:100%"></span></span><span class="qs-value">1</span></div>
 </div>
 
 <div class="qs-amounts">
@@ -49,19 +48,7 @@ template: proposals-oview.html
 
 <div class="prop-quarter">
 <h2>2026-Q3</h2>
-<p>2 proposals</p>
-<div class="prop-card" data-status="prop-voting">
-  <div class="prop-card-header">
-    <a href="81/" class="prop-card-title">#81 – Kimi cPoC Restitution (epochs 306-309)</a>
-    <span class="prop-badge prop-voting">Voting</span>
-  </div>
-  <div class="prop-card-meta">
-    <span>Submitted 2026-07-08</span>
-    <span>Voting ends 2026-07-10</span>
-  </div>
-  <div class="prop-card-desc">Distribute restitution for Kimi operators affected by cPoC validation failure in epochs 306-309. The Kimi validation path failed starting in e306 causing confirmation_weight suppression for Kimi opera…</div>
-</div>
-
+<p>1 proposals</p>
 <div class="prop-card" data-status="prop-rejected">
   <div class="prop-card-header">
     <a href="80/" class="prop-card-title">#80 – GRC Proposal #3 - Restitution</a>

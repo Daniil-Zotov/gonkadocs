@@ -2,7 +2,7 @@
 title: "#1341 — [BUG] devshard: data race on inflight receiptTime between send goroutine and escalation scheduler (go test -race fails on main)"
 source: https://github.com/gonka-ai/gonka/issues/1341
 issue_number: 1341
-synced_at: 2026-07-07T04:28:05Z
+synced_at: 2026-07-08T06:41:30Z
 template: issues-main.html
 ---
 
@@ -119,8 +119,8 @@ Goroutine 31 (running) created at:
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-06-25 00:19 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Hey @akup @x0152, what are your thoughts here? 
+  <div class="issues-comment-body issues-content">
+    <p>Hey @akup @x0152, what are your thoughts here? </p>
   </div>
 </div>
 <div class="issues-comment">
@@ -128,9 +128,9 @@ Goroutine 31 (running) created at:
     <span>[@a-kuprin](https://github.com/a-kuprin)</span>
     <span class="issues-meta-item">commented 2026-06-25 17:16 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    @redstartechno fixed here:
-https://github.com/gonka-ai/gonka/commit/7b2c7b4dd946d37c32108103dad1a3cdfbdd6d25
+  <div class="issues-comment-body issues-content">
+    <p>@redstartechno fixed here:
+https://github.com/gonka-ai/gonka/commit/7b2c7b4dd946d37c32108103dad1a3cdfbdd6d25</p>
   </div>
 </div>
 <div class="issues-comment">
@@ -138,8 +138,8 @@ https://github.com/gonka-ai/gonka/commit/7b2c7b4dd946d37c32108103dad1a3cdfbdd6d2
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-06-26 23:54 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    Hi @redstartechno, this does not look like a bug or a vulnerability. It mostly seems to be a test-related issue, but I don’t see how it affects production code. Anyway, thanks for flagging
+  <div class="issues-comment-body issues-content">
+    <p>Hi @redstartechno, this does not look like a bug or a vulnerability. It mostly seems to be a test-related issue, but I don’t see how it affects production code. Anyway, thanks for flagging</p>
   </div>
 </div>
 

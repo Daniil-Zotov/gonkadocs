@@ -2,7 +2,7 @@
 title: "#746 — Vested payouts in x/inference ignore caller funding module and always debit inference account"
 source: https://github.com/gonka-ai/gonka/issues/746
 issue_number: 746
-synced_at: 2026-07-07T04:28:19Z
+synced_at: 2026-07-08T06:41:44Z
 template: issues-main.html
 ---
 
@@ -21,7 +21,7 @@ template: issues-main.html
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
-<div class="issues-content">
+<div class="issues-content" markdown="1">
 ## Summary
 `PayParticipantFromModule` in `x/inference` hardcodes `types.ModuleName` (`inference`) when calling `streamvesting.AddVestedRewards`, instead of forwarding the caller-provided `moduleName`.
 

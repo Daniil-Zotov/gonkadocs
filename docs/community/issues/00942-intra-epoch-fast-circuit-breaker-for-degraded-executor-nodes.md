@@ -2,7 +2,7 @@
 title: "#942 — Intra-epoch fast circuit breaker for degraded executor nodes (miss rate + cooldown/probe recovery)"
 source: https://github.com/gonka-ai/gonka/issues/942
 issue_number: 942
-synced_at: 2026-07-07T04:29:13Z
+synced_at: 2026-07-08T06:42:36Z
 template: issues-main.html
 ---
 
@@ -90,9 +90,11 @@ Also implemented: reputation-adjusted executor selection weight at epoch start (
     <span>[@gmorgachev](https://github.com/gmorgachev)</span>
     <span class="issues-meta-item">commented 2026-03-24 19:56 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    1. SPRT is explicitly disabled on mainnet now 
-2. Could you elaborate what you mean by stake? 
+  <div class="issues-comment-body issues-content">
+    <ol>
+<li>SPRT is explicitly disabled on mainnet now </li>
+<li>Could you elaborate what you mean by stake? </li>
+</ol>
   </div>
 </div>
 

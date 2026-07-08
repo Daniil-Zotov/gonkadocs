@@ -2,7 +2,7 @@
 title: "#1097 — Improve API response for non-existent wallet"
 source: https://github.com/gonka-ai/gonka/issues/1097
 issue_number: 1097
-synced_at: 2026-07-07T04:28:52Z
+synced_at: 2026-07-08T06:42:16Z
 template: issues-main.html
 ---
 
@@ -40,8 +40,8 @@ A missing wallet is a valid client-side case, not a server error. Returning 404 
     <span>[@tcharchian](https://github.com/tcharchian)</span>
     <span class="issues-meta-item">commented 2026-04-22 22:21 UTC</span>
   </div>
-  <div class="issues-comment-body issues-content" markdown="1">
-    https://github.com/gonka-ai/gonka/pull/750
+  <div class="issues-comment-body issues-content">
+    <p>https://github.com/gonka-ai/gonka/pull/750</p>
   </div>
 </div>
 
