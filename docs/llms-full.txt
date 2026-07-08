@@ -23630,7 +23630,7 @@ Models / IBC2
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-80 proposals across 5 quarters. Last updated: 2026-07-08 09:57 UTC
+80 proposals across 5 quarters. Last updated: 2026-07-08 10:43 UTC
 
 function initProposalsPage() {
   var checkboxes = document.querySelectorAll('.prop-oview-filter input[type=checkbox]');
@@ -24233,9 +24233,11 @@ Passed
 
 **Voting:** 2026-06-15 23:39 UTC → 2026-06-17 23:39 UTC
 
-**Proposer:** `gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le`
+**Proposer:** [`gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le`](https://gonka.gg/address/gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le){:target="_blank"}
 
 $93,600 · Community Pool
+
+[View on gonka.gg](https://gonka.gg/network/proposals/76){:target="_blank"}
 
 Register devshard approved version v2.
 
@@ -24819,8 +24821,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/76){:target="_blank"}
-
 ---
 
 ## #79 – Add Kimi K2.6 and GLM 5.2 model
@@ -24839,7 +24839,9 @@ Passed
 
 **Expedited:** Yes
 
-**Proposer:** `gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le`
+**Proposer:** [`gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le`](https://gonka.gg/address/gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le){:target="_blank"}
+
+[View on gonka.gg](https://gonka.gg/network/proposals/79){:target="_blank"}
 
 Add Kimi K2.6 and GLM 5.2 model
 
@@ -25347,8 +25349,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/79){:target="_blank"}
-
 ---
 
 ## #60 – TheSoul - Offer 1.1: Brand positioning (25,000 USDT)
@@ -25365,11 +25365,13 @@ Passed
 
 **Voting:** 2026-06-02 08:15 UTC → 2026-06-04 08:15 UTC
 
-**Proposer:** `gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm`
+**Proposer:** [`gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm`](https://gonka.gg/address/gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm){:target="_blank"}
 
 **Metadata:** [https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/1](https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/1)
 
 $25,000 · Community Pool
+
+[View on gonka.gg](https://gonka.gg/network/proposals/60){:target="_blank"}
 
 Brand audit, competitive positioning, and audience segmentation for Gonka.AI. Single-tranche payment of 25,000 USDT to TheSoul on proposal pass. Full offer document: see the metadata URL.
 
@@ -25420,8 +25422,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/60){:target="_blank"}
-
 ---
 
 ## #50 – Retroactive bounty: open-source PoC throughput optimization (+10–12% measured) with 250 total installations
@@ -25438,11 +25438,13 @@ Passed
 
 **Voting:** 2026-05-07 15:54 UTC → 2026-05-09 15:54 UTC
 
-**Proposer:** `gonka14fxt7xlj74h54u5lz8epz0qeuhpka6xjhzsyq3`
+**Proposer:** [`gonka14fxt7xlj74h54u5lz8epz0qeuhpka6xjhzsyq3`](https://gonka.gg/address/gonka14fxt7xlj74h54u5lz8epz0qeuhpka6xjhzsyq3){:target="_blank"}
 
 **Metadata:** [https://vote.gonka.vip/tenders/6392c2ea-7fb8-45c7-b1ec-80fb16d81d93](https://vote.gonka.vip/tenders/6392c2ea-7fb8-45c7-b1ec-80fb16d81d93)
 
 20,000 GNK · Community Pool
+
+[View on gonka.gg](https://gonka.gg/network/proposals/50){:target="_blank"}
 
 Retroactive 20K GNK bounty for an open-sourced PoC optimization measuring +10.2% on B200 and +12.5% on H100 with Qwen3-235B-FP8. One-line patch, verified on-chain by independent miners. Details: https://vote.gonka.vip/tenders/6392c2ea-7fb8-45c7-b1ec-80fb16d81d93
 
@@ -25491,8 +25493,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/50){:target="_blank"}
-
 ---
 
 ## #65 – TheSoul - Offer 2.3: Digital strategy (100,000 GNK)
@@ -25509,11 +25509,13 @@ Passed
 
 **Voting:** 2026-06-02 08:21 UTC → 2026-06-04 08:21 UTC
 
-**Proposer:** `gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm`
+**Proposer:** [`gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm`](https://gonka.gg/address/gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm){:target="_blank"}
 
 **Metadata:** [https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/6](https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/6)
 
 100,000 GNK · Community Pool
+
+[View on gonka.gg](https://gonka.gg/network/proposals/65){:target="_blank"}
 
 Full 360-degree digital and social strategy for Gonka.AI: channel matrix, content plan, segment messaging, social strategy, and brand-voice guidelines. Single-tranche payment of 100,000 GNK to TheSoul on proposal pass. Full offer document: see the metadata URL.
 
@@ -25562,8 +25564,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/65){:target="_blank"}
-
 ---
 
 ## #62 – TheSoul - Offer 1.3: Influencer pilot (50,000 USDT)
@@ -25580,11 +25580,13 @@ Passed
 
 **Voting:** 2026-06-02 08:20 UTC → 2026-06-04 08:20 UTC
 
-**Proposer:** `gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm`
+**Proposer:** [`gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm`](https://gonka.gg/address/gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm){:target="_blank"}
 
 **Metadata:** [https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/3](https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/3)
 
 $50,000 · Community Pool
+
+[View on gonka.gg](https://gonka.gg/network/proposals/62){:target="_blank"}
 
 Crypto-influencer pilot campaign for Gonka.AI across selected tier-1 creators, with a full performance report and scaling recommendations. Single-tranche payment of 50,000 USDT to TheSoul on proposal pass. Full offer document: see the metadata URL.
 
@@ -25635,8 +25637,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/62){:target="_blank"}
-
 ---
 
 ## #47 – Retroactive bounty: open-source PoC throughput optimization (+10–12% measured) with 250 total installations
@@ -25653,13 +25653,15 @@ Rejected
 
 **Voting:** 2026-05-04 11:43 UTC → 2026-05-06 11:43 UTC
 
-**Proposer:** `gonka14fxt7xlj74h54u5lz8epz0qeuhpka6xjhzsyq3`
+**Proposer:** [`gonka14fxt7xlj74h54u5lz8epz0qeuhpka6xjhzsyq3`](https://gonka.gg/address/gonka14fxt7xlj74h54u5lz8epz0qeuhpka6xjhzsyq3){:target="_blank"}
 
 **Metadata:** [https://vote.gonka.vip/tenders/6392c2ea-7fb8-45c7-b1ec-80fb16d81d93](https://vote.gonka.vip/tenders/6392c2ea-7fb8-45c7-b1ec-80fb16d81d93)
 
 **Failed reason:** proposal did not get enough votes to pass
 
 20,000 GNK · Community Pool
+
+[View on gonka.gg](https://gonka.gg/network/proposals/47){:target="_blank"}
 
 Retroactive 20K GNK bounty for an open-sourced PoC optimization measuring +10.2% on B200 and +12.5% on H100 with Qwen3-235B-FP8. One-line patch, verified on-chain by independent miners. Details: https://vote.gonka.vip/tenders/6392c2ea-7fb8-45c7-b1ec-80fb16d81d93
 
@@ -25708,8 +25710,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/47){:target="_blank"}
-
 ---
 
 ## #38 – CryptoCommons: Community Support & Token Promotion Plan
@@ -25726,13 +25726,15 @@ Rejected
 
 **Voting:** 2026-04-08 19:24 UTC → 2026-04-09 19:24 UTC
 
-**Proposer:** `gonka1kk4a0kuc6uh5yrlfqe2ehuq6a4v7vcxx8fvxxr`
+**Proposer:** [`gonka1kk4a0kuc6uh5yrlfqe2ehuq6a4v7vcxx8fvxxr`](https://gonka.gg/address/gonka1kk4a0kuc6uh5yrlfqe2ehuq6a4v7vcxx8fvxxr){:target="_blank"}
 
 **Metadata:** [https://discord.com/channels/1336477374442770503/1425189436748206171/1481942972055552041](https://discord.com/channels/1336477374442770503/1425189436748206171/1481942972055552041)
 
 **Failed reason:** proposal did not get enough votes to pass
 
 20,000 GNK · Community Pool
+
+[View on gonka.gg](https://gonka.gg/network/proposals/38){:target="_blank"}
 
 If you agree say YES — Solution 1: Produce a short review video with 1-2 active community members. Solution 2: Introduce the project to BD managers of major CIS exchanges for listings. Solution 3 (Regulatory safety): To avoid future regulatory risks, we will run regular token drops
 
@@ -25798,8 +25800,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/38){:target="_blank"}
-
 ---
 
 ## #53 – INC4 | Gonka NOP - grant for the node deployment tool
@@ -25816,13 +25816,15 @@ Rejected
 
 **Voting:** 2026-05-19 11:14 UTC → 2026-05-21 11:14 UTC
 
-**Proposer:** `gonka12ss9dh7fj3xxmk23s8aje4hrpqq669u20v3ja6`
+**Proposer:** [`gonka12ss9dh7fj3xxmk23s8aje4hrpqq669u20v3ja6`](https://gonka.gg/address/gonka12ss9dh7fj3xxmk23s8aje4hrpqq669u20v3ja6){:target="_blank"}
 
 **Metadata:** [https://github.com/gonka-ai/gonka/discussions/1192](https://github.com/gonka-ai/gonka/discussions/1192)
 
 **Failed reason:** proposal did not get enough votes to pass
 
 $50,000 · Community Pool
+
+[View on gonka.gg](https://gonka.gg/network/proposals/53){:target="_blank"}
 
 # Gonka NOP: grant for the node deployment tool
 
@@ -25903,8 +25905,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/53){:target="_blank"}
-
 ---
 
 ## #40 – Governance: extend voting period to 48 hours
@@ -25921,7 +25921,9 @@ Passed
 
 **Voting:** 2026-04-13 06:11 UTC → 2026-04-14 06:11 UTC
 
-**Proposer:** `gonka1k6p754pyhxud2399knyccgjpjvdafj2u9xlgyf`
+**Proposer:** [`gonka1k6p754pyhxud2399knyccgjpjvdafj2u9xlgyf`](https://gonka.gg/address/gonka1k6p754pyhxud2399knyccgjpjvdafj2u9xlgyf){:target="_blank"}
+
+[View on gonka.gg](https://gonka.gg/network/proposals/40){:target="_blank"}
 
 This proposal updates x/gov: the standard voting period becomes 48 hours (was 24), and the expedited voting period becomes 12 hours (was 3). All other governance parameters remain at their current on-chain values.
 
@@ -25991,8 +25993,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/40){:target="_blank"}
-
 ---
 
 ## #67 – Kimi Restitution (epochs 265-276)
@@ -26009,9 +26009,11 @@ Passed
 
 **Voting:** 2026-06-03 22:09 UTC → 2026-06-05 22:09 UTC
 
-**Proposer:** `gonka1nvcwl2c7jxj2h47c56y8dmcmf0tynt5dplzngy`
+**Proposer:** [`gonka1nvcwl2c7jxj2h47c56y8dmcmf0tynt5dplzngy`](https://gonka.gg/address/gonka1nvcwl2c7jxj2h47c56y8dmcmf0tynt5dplzngy){:target="_blank"}
 
 **Metadata:** [https://github.com/votkon/gonka-kimi-restitution](https://github.com/votkon/gonka-kimi-restitution)
+
+[View on gonka.gg](https://gonka.gg/network/proposals/67){:target="_blank"}
 
 Distribute restitution for Kimi operators across epochs 265-276. Epochs 265-266: external attack causing CPoC degradation and nonce exclusion. Epochs 267-276: ComputeGroupCap systematic underpayment due to attack-induced N-1 weight collapse. Total: 946,509.93 GNK to 53 addresses.
 
@@ -26524,8 +26526,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/67){:target="_blank"}
-
 ---
 
 ## #72 – Open devshard escrow creation to community wallet gonka1afj0tz53z56zngs425m83vxl5y2xmwm692hfrn
@@ -26542,11 +26542,13 @@ Rejected
 
 **Voting:** 2026-06-10 04:51 UTC → 2026-06-12 04:51 UTC
 
-**Proposer:** `gonka1afj0tz53z56zngs425m83vxl5y2xmwm692hfrn`
+**Proposer:** [`gonka1afj0tz53z56zngs425m83vxl5y2xmwm692hfrn`](https://gonka.gg/address/gonka1afj0tz53z56zngs425m83vxl5y2xmwm692hfrn){:target="_blank"}
 
 **Metadata:** `ipfs://`
 
 **Failed reason:** proposal did not get enough votes to pass
+
+[View on gonka.gg](https://gonka.gg/network/proposals/72){:target="_blank"}
 
 Adds a community-operated wallet to devshard_escrow_params.allowed_creator_addresses, enabling it to create a devshard escrow and operate as an additional self-hosted inference gateway/transfer agent. This is a minimal addition (appends one address) and does not remove or modify any existing operator. Goal: lower the barrier for independent node operators to participate as devshard/transfer-agent providers, improving network decentralization.
 
@@ -27000,8 +27002,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/72){:target="_blank"}
-
 ---
 
 ## #68 – Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)
@@ -27018,11 +27018,13 @@ Passed
 
 **Voting:** 2026-06-05 18:30 UTC → 2026-06-07 18:30 UTC
 
-**Proposer:** `gonka1e3pepqllu89t8l2acw86fgp5jjkw8m7kcl47nk`
+**Proposer:** [`gonka1e3pepqllu89t8l2acw86fgp5jjkw8m7kcl47nk`](https://gonka.gg/address/gonka1e3pepqllu89t8l2acw86fgp5jjkw8m7kcl47nk){:target="_blank"}
 
 **Metadata:** [https://vote.gonka.vip/tenders/550f71de-897f-4ce5-8af8-97854775f8b2](https://vote.gonka.vip/tenders/550f71de-897f-4ce5-8af8-97854775f8b2)
 
 $70,000 · Community Pool
+
+[View on gonka.gg](https://gonka.gg/network/proposals/68){:target="_blank"}
 
 The proposal is reopened for voting at the initiative of several hosts who did not participate in the previous round.
 
@@ -27087,8 +27089,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/68){:target="_blank"}
-
 ---
 
 ## #61 – TheSoul - Offer 1.2: Brandbook (20,000 USDT)
@@ -27105,11 +27105,13 @@ Passed
 
 **Voting:** 2026-06-02 08:19 UTC → 2026-06-04 08:19 UTC
 
-**Proposer:** `gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm`
+**Proposer:** [`gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm`](https://gonka.gg/address/gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm){:target="_blank"}
 
 **Metadata:** [https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/2](https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/2)
 
 $20,000 · Community Pool
+
+[View on gonka.gg](https://gonka.gg/network/proposals/61){:target="_blank"}
 
 Brand identity system for Gonka.AI: logo, typography, color system, graphic language, layout principles, and templates, built on the positioning from Offer 1.1. Single-tranche payment of 20,000 USDT to TheSoul on proposal pass. Full offer document: see the metadata URL.
 
@@ -27160,8 +27162,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/61){:target="_blank"}
-
 ---
 
 ## #78 – Governance 17: update PoC model lineup
@@ -27180,7 +27180,9 @@ Passed
 
 **Expedited:** Yes
 
-**Proposer:** `gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le`
+**Proposer:** [`gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le`](https://gonka.gg/address/gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le){:target="_blank"}
+
+[View on gonka.gg](https://gonka.gg/network/proposals/78){:target="_blank"}
 
 Set delegation initial_model_id to MiniMaxAI/MiniMax-M2.7, keep only MiniMaxAI/MiniMax-M2.7 in PoC params, remove Qwen/Qwen3-235B-A22B-Instruct-2507-FP8, moonshotai/Kimi-K2.6 from PoC params, and delete Qwen/Qwen3-235B-A22B-Instruct-2507-FP8, moonshotai/Kimi-K2.6 from governance models.
 
@@ -27604,8 +27606,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/78){:target="_blank"}
-
 ---
 
 ## #43 – Governance Architecture Proposal for the Gonka.ai Network
@@ -27622,13 +27622,15 @@ Rejected
 
 **Voting:** 2026-04-25 10:09 UTC → 2026-04-27 10:09 UTC
 
-**Proposer:** `gonka1syw6cs7jl5rmz7gpm3rq3836y2t484xp00ywrz`
+**Proposer:** [`gonka1syw6cs7jl5rmz7gpm3rq3836y2t484xp00ywrz`](https://gonka.gg/address/gonka1syw6cs7jl5rmz7gpm3rq3836y2t484xp00ywrz){:target="_blank"}
 
 **Metadata:** [https://github.com/gonka-ai/gonka/discussions/1104](https://github.com/gonka-ai/gonka/discussions/1104)
 
 **Failed reason:** proposal did not get enough votes to pass
 
 104,166 GNK · Community Pool
+
+[View on gonka.gg](https://gonka.gg/network/proposals/43){:target="_blank"}
 
 Today, participating in Gonka governance requires following multiple channels simultaneously — GitHub, Discord, CLI — just to cast a single vote. Most miners miss proposals entirely or vote too late. Low participation threatens quorum and undermines the network's ability to make decisions. We propose a unified Governance Portal that brings all governance activity into one place: a proposal feed, miner-weighted ratings, deposit crowdfunding, and browser-based voting via a restricted hot key. No CLI required. No missed votes. Funding request: 50,000 USDT equivalent in GNK, paid in full upon approval. Full proposal and prototype: https://github.com/gonka-ai/gonka/discussions/1104
 
@@ -27677,8 +27679,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/43){:target="_blank"}
-
 ---
 
 ## #39 – Community Series Film — Why Gonka Exists
@@ -27695,11 +27695,13 @@ Passed
 
 **Voting:** 2026-04-09 13:33 UTC → 2026-04-10 13:33 UTC
 
-**Proposer:** `gonka1snq0m4rdvq0sswm03r5jsmtzw3p384qsy3l4t4`
+**Proposer:** [`gonka1snq0m4rdvq0sswm03r5jsmtzw3p384qsy3l4t4`](https://gonka.gg/address/gonka1snq0m4rdvq0sswm03r5jsmtzw3p384qsy3l4t4){:target="_blank"}
 
 **Metadata:** [https://miro.com/app/board/uXjVG6L2uvQ=/](https://miro.com/app/board/uXjVG6L2uvQ=/)
 
 31,250 GNK · Community Pool
+
+[View on gonka.gg](https://gonka.gg/network/proposals/39){:target="_blank"}
 
 Saccade Media House is a creative team of tech entrepreneurs who know how to tell stories. We've built content for international tech brands and the founders behind them. We propose a Community Series — a film about why Gonka exists and who stands behind it. The goal: a viewer walks away thinking — "this is something real, I want to be part of it." Timeline: 30–35 days, Cinematic approach. Duration: 7–10 minutes. Budget: 31,250 GNK. We believe AI content overload will trigger a quality Renaissance. We build for the ones who stay. After the first film, we'll invite the community to a creative session — to define the priority audience and shape the top 3 narrative themes for what comes next. Before you vote — we made something for you: an awareness video, three shorts as a gift, and a full breakdown of our approach. Link: https://miro.com/app/board/uXjVG6L2uvQ=/
 
@@ -27748,8 +27750,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/39){:target="_blank"}
-
 ---
 
 ## #70 – GNK Racers: Launch GameFi Mini-App to Drive User Growth & Wallet Activity
@@ -27766,13 +27766,15 @@ Rejected
 
 **Voting:** 2026-06-06 07:35 UTC → 2026-06-08 07:35 UTC
 
-**Proposer:** `gonka13kzs38qkq4uc0astlshv39kt9gpu3sr99unpcq`
+**Proposer:** [`gonka13kzs38qkq4uc0astlshv39kt9gpu3sr99unpcq`](https://gonka.gg/address/gonka13kzs38qkq4uc0astlshv39kt9gpu3sr99unpcq){:target="_blank"}
 
 **Metadata:** [https://github.com/Pestarzt0011/GNKRacers-proposal](https://github.com/Pestarzt0011/GNKRacers-proposal)
 
 **Failed reason:** proposal did not get enough votes to pass
 
 246,000 GNK · Community Pool
+
+[View on gonka.gg](https://gonka.gg/network/proposals/70){:target="_blank"}
 
 Release 246,000 GNK from Community Fund to finalize GNK Racers — a multiplayer side-view racing mini-app with a live working prototype (@GNKRacers_bot). The game drives new user acquisition, wallet activations, and GNK wagering velocity on Gonka, with future AI-agent auto-races generating Host GPU inference demand (Q1 2027). Single allocation requested to streamline cross-functional production and marketing execution. Full transparent budget, team breakdown, and deliverables: https://github.com/Pestarzt0011/GNKRacers-proposal. Bi-weekly progress reporting committed.
 
@@ -27821,8 +27823,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/70){:target="_blank"}
-
 ---
 
 ## #41 – INC4 | Gonka Node Observability Platform
@@ -27839,13 +27839,15 @@ Rejected
 
 **Voting:** 2026-04-16 18:42 UTC → 2026-04-18 18:42 UTC
 
-**Proposer:** `gonka12ss9dh7fj3xxmk23s8aje4hrpqq669u20v3ja6`
+**Proposer:** [`gonka12ss9dh7fj3xxmk23s8aje4hrpqq669u20v3ja6`](https://gonka.gg/address/gonka12ss9dh7fj3xxmk23s8aje4hrpqq669u20v3ja6){:target="_blank"}
 
 **Metadata:** [https://github.com/gonka-ai/gonka/discussions/1085](https://github.com/gonka-ai/gonka/discussions/1085)
 
 **Failed reason:** proposal did not get enough votes to pass
 
 $96,000 · Community Pool
+
+[View on gonka.gg](https://gonka.gg/network/proposals/41){:target="_blank"}
 
 Today's explorers and dashboards only show on-chain data, leaving the off-chain state of validators completely opaque. The few operators who do run their own monitoring use different tools, different metrics, and different baselines, leading to different interpretations and making it harder to coordinate when problems arise. The network lacks a single source of truth and a common framework for measuring validator health.
 
@@ -27906,8 +27908,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/41){:target="_blank"}
-
 ---
 
 ## #64 – TheSoul - Offer 2.2: Analytics and attribution (28,000 GNK)
@@ -27924,11 +27924,13 @@ Passed
 
 **Voting:** 2026-06-02 08:21 UTC → 2026-06-04 08:21 UTC
 
-**Proposer:** `gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm`
+**Proposer:** [`gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm`](https://gonka.gg/address/gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm){:target="_blank"}
 
 **Metadata:** [https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/5](https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/5)
 
 28,000 GNK · Community Pool
+
+[View on gonka.gg](https://gonka.gg/network/proposals/64){:target="_blank"}
 
 Web analytics, attribution, and funnel dashboarding for Gonka.AI: GA4 implementation, UTM taxonomy, event tracking, and conversion reporting. Single-tranche payment of 28,000 GNK to TheSoul on proposal pass. Full offer document: see the metadata URL.
 
@@ -27977,8 +27979,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/64){:target="_blank"}
-
 ---
 
 ## #54 – Upgrade Proposal: v0.2.13
@@ -27995,9 +27995,11 @@ Passed
 
 **Voting:** 2026-05-20 22:12 UTC → 2026-05-22 22:12 UTC
 
-**Proposer:** `gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`
+**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target="_blank"}
 
 **Metadata:** [https://github.com/gonka-ai/gonka/blob/3f0c34f77c9b8f8c32ca5303ef3ffad23d66d5ea/proposals/governance-artifacts/update-v0.2.13/README.md](https://github.com/gonka-ai/gonka/blob/3f0c34f77c9b8f8c32ca5303ef3ffad23d66d5ea/proposals/governance-artifacts/update-v0.2.13/README.md)
+
+[View on gonka.gg](https://gonka.gg/network/proposals/54){:target="_blank"}
 
 Upgrade Proposal: v0.2.13
 
@@ -28046,8 +28048,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/54){:target="_blank"}
-
 ---
 
 ## #63 – TheSoul - Offer 2.1: Website and landings (10,000 USDT)
@@ -28064,11 +28064,13 @@ Passed
 
 **Voting:** 2026-06-02 08:20 UTC → 2026-06-04 08:20 UTC
 
-**Proposer:** `gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm`
+**Proposer:** [`gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm`](https://gonka.gg/address/gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm){:target="_blank"}
 
 **Metadata:** [https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/4](https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/4)
 
 $10,000 · Community Pool
+
+[View on gonka.gg](https://gonka.gg/network/proposals/63){:target="_blank"}
 
 Full redesign of gonka.ai plus dedicated landing pages for miners, inference buyers, and investors, built on the brandbook from Offer 1.2. Single-tranche payment of 10,000 USDT to TheSoul on proposal pass. Full offer document: see the metadata URL.
 
@@ -28119,8 +28121,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/63){:target="_blank"}
-
 ---
 
 ## #46 – Epochs 132-247 compensation payout from gov module (batch vesting)
@@ -28137,11 +28137,13 @@ Passed
 
 **Voting:** 2026-05-02 03:52 UTC → 2026-05-04 03:52 UTC
 
-**Proposer:** `gonka1gmuxdcxlsxn5z72elx77w9zym7yrgfxqgzg6ry`
+**Proposer:** [`gonka1gmuxdcxlsxn5z72elx77w9zym7yrgfxqgzg6ry`](https://gonka.gg/address/gonka1gmuxdcxlsxn5z72elx77w9zym7yrgfxqgzg6ry){:target="_blank"}
 
 **Metadata:** [https://github.com/gonkavip/taxreturn/blob/main/README.md](https://github.com/gonkavip/taxreturn/blob/main/README.md)
 
 832 GNK · Gov Module
+
+[View on gonka.gg](https://gonka.gg/network/proposals/46){:target="_blank"}
 
 Two prior upgrades changed the lifecycle of unpaid miner rewards. v0.2.9 (proposal #26, 2026-02-01): when a participant is penalized during cPoC validation, the unaccounted portion of their epoch reward is no longer redistributed among the remaining participants in the epoch — it is sent to the gov module account. v0.2.11 (proposal #31, 2026-03-20, PR #775): slashed collateral was likewise routed to the gov account instead of being burned. As a result the gov account (gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33) has accumulated roughly 3 053 801 GNK of withheld miner rewards over epochs 132–247. These coins were originally minted as miner reward, not as community subsidy. The community pool (gonka1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8h2rzwa, separate account) already holds ~103M GNK + 10K IBC USDT for community initiatives.
 
@@ -42830,8 +42832,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/46){:target="_blank"}
-
 ---
 
 ## #66 – test proposal - 测试方案
@@ -42848,11 +42848,13 @@ Rejected
 
 **Voting:** 2026-06-03 17:45 UTC → 2026-06-05 17:45 UTC
 
-**Proposer:** `gonka1hwyjwehgp6e5pgpg0ye4a7unwu5q9xzljpuwr5`
+**Proposer:** [`gonka1hwyjwehgp6e5pgpg0ye4a7unwu5q9xzljpuwr5`](https://gonka.gg/address/gonka1hwyjwehgp6e5pgpg0ye4a7unwu5q9xzljpuwr5){:target="_blank"}
 
 **Failed reason:** proposal did not get enough votes to pass
 
 $1,000,000 · Community Pool
+
+[View on gonka.gg](https://gonka.gg/network/proposals/66){:target="_blank"}
 
 test proposal - 测试方案
 
@@ -42903,8 +42905,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/66){:target="_blank"}
-
 ---
 
 ## #45 – Governance Architecture Proposal for the Gonka.ai Network
@@ -42921,13 +42921,15 @@ Rejected
 
 **Voting:** 2026-04-29 20:28 UTC → 2026-05-01 20:28 UTC
 
-**Proposer:** `gonka1syw6cs7jl5rmz7gpm3rq3836y2t484xp00ywrz`
+**Proposer:** [`gonka1syw6cs7jl5rmz7gpm3rq3836y2t484xp00ywrz`](https://gonka.gg/address/gonka1syw6cs7jl5rmz7gpm3rq3836y2t484xp00ywrz){:target="_blank"}
 
 **Metadata:** [https://github.com/gonka-ai/gonka/discussions/1104](https://github.com/gonka-ai/gonka/discussions/1104)
 
 **Failed reason:** proposal did not get enough votes to pass
 
 119,000 GNK · Community Pool
+
+[View on gonka.gg](https://gonka.gg/network/proposals/45){:target="_blank"}
 
 Replace scattered governance discussions and complex CLI voting with a unified Governance Portal - a single interface for all Gonka governance activity. The portal includes: a proposal feed across Discussion/Voting/Archive stages, miner-weighted ranking, crowdfunded deposit collection, targeted notifications (Telegram/email/on-site), and browser-based voting via restricted hot keys (no CLI required). Critical point: this is not just a convenient UI - the crowdfunded deposit mechanism acts as an economic quality filter that screens proposals before they reach on-chain voting, preventing low-effort or spam proposals from consuming validator attention. Funding request: 50,000 USDT (~119,000 GNK), split into Phase 1 MVP (30,000 USDT - portal frontend/backend, wallet auth, deposit crowdfunding) and Phase 2 (20,000 USDT - escrow contracts, dynamic quorum, reputation systems). Code will be open-sourced upon launch. We guarantee 90 days of post-launch support; afterwards, the portal becomes community-owned and further support/maintenance will be funded through community governance votes. Prototype: https://vote-demo.gonkabroker.com. Full discussion: https://github.com/gonka-ai/gonka/discussions/1104.
 
@@ -42976,8 +42978,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/45){:target="_blank"}
-
 ---
 
 ## #51 – Support Gonka's presence at WebX Asia
@@ -42994,11 +42994,13 @@ Passed
 
 **Voting:** 2026-05-13 13:17 UTC → 2026-05-15 13:17 UTC
 
-**Proposer:** `gonka15p7s7w2hx0y8095lddd4ummm2y0kwpwljk00aq`
+**Proposer:** [`gonka15p7s7w2hx0y8095lddd4ummm2y0kwpwljk00aq`](https://gonka.gg/address/gonka15p7s7w2hx0y8095lddd4ummm2y0kwpwljk00aq){:target="_blank"}
 
 **Metadata:** [https://github.com/6block/gonka-webx-proposal/blob/main/README.md](https://github.com/6block/gonka-webx-proposal/blob/main/README.md)
 
 $75,000 · Community Pool
+
+[View on gonka.gg](https://gonka.gg/network/proposals/51){:target="_blank"}
 
 6Block, a long-term Gonka mining and infrastructure participant, proposes that the Gonka community allocate 75,000 USDT to support Gonka's participation at WebX Asia / WebX 2026 in Tokyo. 6Block has already committed 50% of the needed 150,000 USDT of its own funds for the official Platinum sponsorship. If approved, the funds will be transferred to 6Block's designated wallet and used for event execution (team travel, accommodation, booth production, materials, media support, partner coordination). 6Block will provide a post-event summary to the community. Full proposal: https://github.com/6block/gonka-webx-proposal/blob/main/README.md
 
@@ -43049,8 +43051,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/51){:target="_blank"}
-
 ---
 
 ## #74 – Gonka Labs: Maintaining Infrastructure, Improving Products, and Launching New Ones
@@ -43067,11 +43067,13 @@ Passed
 
 **Voting:** 2026-06-10 20:42 UTC → 2026-06-12 20:42 UTC
 
-**Proposer:** `gonka1e3pepqllu89t8l2acw86fgp5jjkw8m7kcl47nk`
+**Proposer:** [`gonka1e3pepqllu89t8l2acw86fgp5jjkw8m7kcl47nk`](https://gonka.gg/address/gonka1e3pepqllu89t8l2acw86fgp5jjkw8m7kcl47nk){:target="_blank"}
 
 **Metadata:** [https://gonkalabs.com/proposal](https://gonkalabs.com/proposal)
 
 $70,000 · Community Pool · 330,000 GNK · Gov Module
+
+[View on gonka.gg](https://gonka.gg/network/proposals/74){:target="_blank"}
 
 Full proposal: https://gonkalabs.com/proposal
 
@@ -43147,8 +43149,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/74){:target="_blank"}
-
 ---
 
 ## #69 – Increase minimum governance deposit to 500 GNK
@@ -43165,9 +43165,11 @@ Failed
 
 **Voting:** 2026-06-05 19:26 UTC → 2026-06-07 19:26 UTC
 
-**Proposer:** `gonka197hqnwcl30x4js3egvaujjmfknlxy7rmfw3y6k`
+**Proposer:** [`gonka197hqnwcl30x4js3egvaujjmfknlxy7rmfw3y6k`](https://gonka.gg/address/gonka197hqnwcl30x4js3egvaujjmfknlxy7rmfw3y6k){:target="_blank"}
 
 **Failed reason:** maximum deposit period must not be nil: 0
+
+[View on gonka.gg](https://gonka.gg/network/proposals/69){:target="_blank"}
 
 Increase the minimum deposit required to submit a governance proposal from the current value to 500 GNK. Also sets expedited minimum deposit to 1000 GNK.
 
@@ -43237,8 +43239,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/69){:target="_blank"}
-
 ---
 
 ## #55 – GRC Proposal #2 - Restitution (epochs 248-254)
@@ -43255,11 +43255,13 @@ Passed
 
 **Voting:** 2026-05-21 16:18 UTC → 2026-05-23 16:18 UTC
 
-**Proposer:** `gonka197hqnwcl30x4js3egvaujjmfknlxy7rmfw3y6k`
+**Proposer:** [`gonka197hqnwcl30x4js3egvaujjmfknlxy7rmfw3y6k`](https://gonka.gg/address/gonka197hqnwcl30x4js3egvaujjmfknlxy7rmfw3y6k){:target="_blank"}
 
 **Metadata:** [https://github.com/votkon/grc-proposal-2](https://github.com/votkon/grc-proposal-2)
 
 39,722 GNK · Community Pool
+
+[View on gonka.gg](https://gonka.gg/network/proposals/55){:target="_blank"}
 
 Distribute restitution for Cases 2, 3, and 4 across epochs 248-254. Case 2: preserver weight double-scaling bug (epochs 249-253). Case 3: epoch loss restitution: broad epoch losses, consecutive failures restriction, and remaining delta (epochs 248, 249, 250). Case 4: API startup blocking issue (epoch 254). Total: 306,307.29 GNK to 90 addresses. Bounties: 39,722.20 GNK to 4 addresses.
 
@@ -44162,8 +44164,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/55){:target="_blank"}
-
 ---
 
 ## #75 – Private Inc × Gonka — Network Growth Initiative
@@ -44180,13 +44180,15 @@ Rejected
 
 **Voting:** 2026-06-13 16:24 UTC → 2026-06-15 16:24 UTC
 
-**Proposer:** `gonka1q022xj6uyylzzhdlsh3jtkp5ycrnzwgpwgp4tn`
+**Proposer:** [`gonka1q022xj6uyylzzhdlsh3jtkp5ycrnzwgpwgp4tn`](https://gonka.gg/address/gonka1q022xj6uyylzzhdlsh3jtkp5ycrnzwgpwgp4tn){:target="_blank"}
 
 **Metadata:** [https://vote.gonka.vip/tenders/ed8148eb-535e-4677-9a6b-5316c81c996a](https://vote.gonka.vip/tenders/ed8148eb-535e-4677-9a6b-5316c81c996a)
 
 **Failed reason:** proposal did not get enough votes to pass
 
 $300,000 · Community Pool
+
+[View on gonka.gg](https://gonka.gg/network/proposals/75){:target="_blank"}
 
 IMPORTANT: Below is a condensed version of the proposal. It highlights only the key points and does not disclose all details of the initiative, implementation mechanics, KPIs, or terms. It is strongly recommended to review the full version of the document via the link: https://vote.gonka.vip/tenders/ed8148eb-535e-4677-9a6b-5316c81c996a
 
@@ -44307,8 +44309,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/75){:target="_blank"}
-
 ---
 
 ## #73 – Increase minimum governance deposit to 500 GNK and expedited minimum deposit to 1000 GNK
@@ -44325,7 +44325,9 @@ Passed
 
 **Voting:** 2026-06-10 07:32 UTC → 2026-06-12 07:32 UTC
 
-**Proposer:** `gonka1337v0tk0ng0dhmz2pk9qv0gsvpe48eafppc6u8`
+**Proposer:** [`gonka1337v0tk0ng0dhmz2pk9qv0gsvpe48eafppc6u8`](https://gonka.gg/address/gonka1337v0tk0ng0dhmz2pk9qv0gsvpe48eafppc6u8){:target="_blank"}
+
+[View on gonka.gg](https://gonka.gg/network/proposals/73){:target="_blank"}
 
 Increase the minimum deposit required to submit a governance proposal to 500 GNK (500,000,000,000 ngonka) and expedited minimum deposit to 1000 GNK (1,000,000,000,000 ngonka). This resubmits proposal #69 which passed community vote but failed to execute due to incomplete governance parameter specification.
 
@@ -44395,8 +44397,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/73){:target="_blank"}
-
 ---
 
 ## #71 – Gonka PR Proposal for US/Global Regions
@@ -44413,13 +44413,15 @@ Rejected
 
 **Voting:** 2026-06-08 10:41 UTC → 2026-06-10 10:41 UTC
 
-**Proposer:** `gonka10mmdjau4dnj8krs7sh7t7635ttnmq9u3vqgz09`
+**Proposer:** [`gonka10mmdjau4dnj8krs7sh7t7635ttnmq9u3vqgz09`](https://gonka.gg/address/gonka10mmdjau4dnj8krs7sh7t7635ttnmq9u3vqgz09){:target="_blank"}
 
 **Metadata:** [https://www.figma.com/deck/qd7a7bkcit9O1LZ8whP9Ei](https://www.figma.com/deck/qd7a7bkcit9O1LZ8whP9Ei)
 
 **Failed reason:** proposal did not get enough votes to pass
 
 $75,000 · Community Pool
+
+[View on gonka.gg](https://gonka.gg/network/proposals/71){:target="_blank"}
 
 We're a comms team specializing in Organic PR for crypto and tech projects. With strong competition in the space and no active events or marketing currently running for Gonka, we propose a 3-month Organic PR campaign built around one idea: create a new category in decentralized AI space and make Gonka the name that owns it. We do this through earned, credible coverage in top-tier media rather than paid placements. The campaign runs on two parallel tracks: a mainstream track targeting general tech and business audiences via outlets like Forbes, Wired, Bloomberg, The Verge, and Fortune; and a crypto-native track targeting technically sophisticated founders and builders via podcasts like Bankless and Unchained. We amplify reach by working with the personal brands of the Lieberman brothers and other speakers from the community, positioning them as the faces of the category. Deliverables include native editorial content, podcasts, speakerships at the conferences and a flagship industry report built on real market data to anchor Gonka as a thought leader. KPIs over 3 months: a minimum of 35 unique placements - Top Tier, Tier 1 and Tier 2 media (the full list is inside the deck), daily monitoring of the news agenda for reactive opportunities, and a monthly competitive PR analysis. Cost: 75,000 USDT for 3 months. Full proposal: https://www.figma.com/deck/qd7a7bkcit9O1LZ8whP9Ei loom: https://www.loom.com/share/f2bd2f2b831f4c78bc5d4878059d8291
 
@@ -44470,8 +44472,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/71){:target="_blank"}
-
 ---
 
 ## #48 – Lower Direct Participation Threshold to 10%
@@ -44490,7 +44490,9 @@ Passed
 
 **Expedited:** Yes
 
-**Proposer:** `gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le`
+**Proposer:** [`gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le`](https://gonka.gg/address/gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le){:target="_blank"}
+
+[View on gonka.gg](https://gonka.gg/network/proposals/48){:target="_blank"}
 
 During the Kimi-K2.6 bootstrap, the 30% direct participation threshold proved hard to meet. To avoid the risk of Kimi-K2.6 becoming ineligible in a future epoch and to simplify onboarding of further models, this proposal lowers the threshold to 10%. The security model is preserved: PoC validation itself is unchanged and still requires a supermajority of validation power to accept results. It is expedited so the change takes effect before the next PoC.
 
@@ -44916,8 +44918,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/48){:target="_blank"}
-
 ---
 
 ## #59 – Gonka Onboarding Video Guide — Milestone 1 (Prepayment)
@@ -44934,13 +44934,15 @@ Rejected
 
 **Voting:** 2026-05-31 13:08 UTC → 2026-06-02 13:08 UTC
 
-**Proposer:** `gonka1tg7x8pv5lfnytkr9av3532mf2qq22ysdxxzr87`
+**Proposer:** [`gonka1tg7x8pv5lfnytkr9av3532mf2qq22ysdxxzr87`](https://gonka.gg/address/gonka1tg7x8pv5lfnytkr9av3532mf2qq22ysdxxzr87){:target="_blank"}
 
 **Metadata:** `Examples of work the team contributed to: https://www.youtube.com/watch?v=HzF6kyS3Fb8 | https://www.udemy.com/course/build-smart-contracts-for-cardano-blockchain/`
 
 **Failed reason:** proposal did not get enough votes to pass
 
 $5,000 · Community Pool
+
+[View on gonka.gg](https://gonka.gg/network/proposals/59){:target="_blank"}
 
 Funds milestone 1 (upfront prepayment) of a community-produced onboarding video guide for Gonka. Deliverable: a series of ~15 short, interactive, easy-to-follow videos covering A-to-Z onboarding for both hosts and inference users, following the official Gonka documentation. Produced by a 3-person team that has contributed to blockchain education content, including work on explanatory videos for CoinGecko and on paid, well-reviewed Udemy blockchain courses. Total project budget: 15,000 USDT, split across two governance proposals to cap network risk. This proposal disburses 5,000 USDT (~33%) as upfront funding; a second proposal will request the remaining 10,000 USDT on delivery (target ~3 weeks). Recipient: gonka1tg7x8pv5lfnytkr9av3532mf2qq22ysdxxzr87. Amount: 5,000 USDT. Examples of prior work: https://www.youtube.com/watch?v=HzF6kyS3Fb8 and https://www.udemy.com/course/build-smart-contracts-for-cardano-blockchain/ . Questions: rohan.sm.content@outlook.com.
 
@@ -44991,8 +44993,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/59){:target="_blank"}
-
 ---
 
 ## #58 – Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)
@@ -45009,13 +45009,15 @@ Rejected
 
 **Voting:** 2026-05-28 16:27 UTC → 2026-05-30 16:27 UTC
 
-**Proposer:** `gonka1v5cl6pudnagau7exyu3a9h74clw9zm7l5psp0r`
+**Proposer:** [`gonka1v5cl6pudnagau7exyu3a9h74clw9zm7l5psp0r`](https://gonka.gg/address/gonka1v5cl6pudnagau7exyu3a9h74clw9zm7l5psp0r){:target="_blank"}
 
 **Metadata:** [https://vote.gonka.vip/tenders/550f71de-897f-4ce5-8af8-97854775f8b2](https://vote.gonka.vip/tenders/550f71de-897f-4ce5-8af8-97854775f8b2)
 
 **Failed reason:** proposal did not get enough votes to pass
 
 $70,000 · Community Pool
+
+[View on gonka.gg](https://gonka.gg/network/proposals/58){:target="_blank"}
 
 # Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)
 
@@ -45087,8 +45089,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/58){:target="_blank"}
-
 ---
 
 ## #52 – Upgrade Proposal: v0.2.13
@@ -45105,11 +45105,13 @@ Rejected
 
 **Voting:** 2026-05-15 07:58 UTC → 2026-05-17 07:58 UTC
 
-**Proposer:** `gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`
+**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target="_blank"}
 
 **Metadata:** [https://github.com/gonka-ai/gonka/blob/aa413e198825ddcc5eac80f4ca2e85a9bc54700e/proposals/governance-artifacts/update-v0.2.13/README.md](https://github.com/gonka-ai/gonka/blob/aa413e198825ddcc5eac80f4ca2e85a9bc54700e/proposals/governance-artifacts/update-v0.2.13/README.md)
 
 **Failed reason:** proposal did not get enough votes to pass
+
+[View on gonka.gg](https://gonka.gg/network/proposals/52){:target="_blank"}
 
 Upgrade Proposal: v0.2.13
 
@@ -45158,8 +45160,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/52){:target="_blank"}
-
 ---
 
 ## #42 – Support Gonka at Global Compute Sovereignty Summit
@@ -45176,11 +45176,13 @@ Passed
 
 **Voting:** 2026-04-17 18:51 UTC → 2026-04-19 18:51 UTC
 
-**Proposer:** `gonka1tknn6p8f2y4843fp4ud6ynq0727r7g8l568d27`
+**Proposer:** [`gonka1tknn6p8f2y4843fp4ud6ynq0727r7g8l568d27`](https://gonka.gg/address/gonka1tknn6p8f2y4843fp4ud6ynq0727r7g8l568d27){:target="_blank"}
 
 **Metadata:** [https://github.com/DeAI-Nation/summit-proposal/blob/main/README.md](https://github.com/DeAI-Nation/summit-proposal/blob/main/README.md)
 
 $10,000 · Community Pool
+
+[View on gonka.gg](https://gonka.gg/network/proposals/42){:target="_blank"}
 
 We are DeAI Nation, a global nonprofit organization supporting and promoting the decentralized AI ecosystem, and authors of the State of DeAI 2026 report. We propose that the Gonka community become a sponsor of a scientific panel discussion at the Global Compute Sovereignty Summit in Tashkent, Uzbekistan. Cost: 10,000 USDT. If the vote is successful, the panel will receive official 'Supported by the Gonka community' status. This is a strong opportunity for the community to position itself as a key driver supporting research in this area in front of hundreds of business executives, government officials, and investors, including the Minister of Digital Technologies of the Republic of Uzbekistan Sherzod Shermatov, Executive Director of the Saudi-Uzbek Council Faisal Ba Abdullah, and CEO of Al Fardan Ventures Mohammed Al Fardan. More information about the summit: https://gcss.outsource.gov.uz Detailed proposal: https://github.com/DeAI-Nation/summit-proposal/blob/main/README.md
 
@@ -45231,8 +45233,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/42){:target="_blank"}
-
 ---
 
 ## #44 – Upgrade Proposal: v0.2.12
@@ -45249,9 +45249,11 @@ Passed
 
 **Voting:** 2026-04-28 00:11 UTC → 2026-04-30 00:11 UTC
 
-**Proposer:** `gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`
+**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target="_blank"}
 
 **Metadata:** [https://github.com/gonka-ai/gonka/blob/76d0eb971233f9544f681a25e860844e3f45641e/proposals/governance-artifacts/update-v0.2.12/README.md](https://github.com/gonka-ai/gonka/blob/76d0eb971233f9544f681a25e860844e3f45641e/proposals/governance-artifacts/update-v0.2.12/README.md)
+
+[View on gonka.gg](https://gonka.gg/network/proposals/44){:target="_blank"}
 
 Upgrade Proposal: v0.2.12
 
@@ -45300,8 +45302,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/44){:target="_blank"}
-
 ---
 
 ## #57 – Approve the Gonka Network Development Roadmap
@@ -45318,9 +45318,11 @@ Passed
 
 **Voting:** 2026-05-28 09:48 UTC → 2026-05-30 09:48 UTC
 
-**Proposer:** `gonka1k6p754pyhxud2399knyccgjpjvdafj2u9xlgyf`
+**Proposer:** [`gonka1k6p754pyhxud2399knyccgjpjvdafj2u9xlgyf`](https://gonka.gg/address/gonka1k6p754pyhxud2399knyccgjpjvdafj2u9xlgyf){:target="_blank"}
 
 **Metadata:** [https://github.com/gonka-ai/gonka/pull/1266](https://github.com/gonka-ai/gonka/pull/1266)
+
+[View on gonka.gg](https://gonka.gg/network/proposals/57){:target="_blank"}
 
 This proposal approves the Gonka Network Development Roadmap as a strategic direction document for Gonka's future development tracks.
 
@@ -45388,8 +45390,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/57){:target="_blank"}
-
 ---
 
 ## #37 – What is your stance on MLM projects around gonka.ai?
@@ -45406,13 +45406,15 @@ Rejected
 
 **Voting:** 2026-04-07 19:51 UTC → 2026-04-08 19:51 UTC
 
-**Proposer:** `gonka1ry4uzczgu7xxusa5whl387dd5alr7737spd0v2`
+**Proposer:** [`gonka1ry4uzczgu7xxusa5whl387dd5alr7737spd0v2`](https://gonka.gg/address/gonka1ry4uzczgu7xxusa5whl387dd5alr7737spd0v2){:target="_blank"}
 
 **Metadata:** [https://gonka.ai](https://gonka.ai)
 
 **Failed reason:** proposal did not get enough votes to pass
 
 1 GNK · Community Pool
+
+[View on gonka.gg](https://gonka.gg/network/proposals/37){:target="_blank"}
 
 If you are against MLM projects around gonka.ai, vote YES. All funds will be used to counter such projects. The amount is symbolic.
 
@@ -45461,8 +45463,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/37){:target="_blank"}
-
 ---
 
 ## #49 – Gonka Media Dominance in TechL/AI with 5 AI Influencers
@@ -45479,11 +45479,13 @@ Passed
 
 **Voting:** 2026-05-05 13:41 UTC → 2026-05-07 13:41 UTC
 
-**Proposer:** `gonka10mmdjau4dnj8krs7sh7t7635ttnmq9u3vqgz09`
+**Proposer:** [`gonka10mmdjau4dnj8krs7sh7t7635ttnmq9u3vqgz09`](https://gonka.gg/address/gonka10mmdjau4dnj8krs7sh7t7635ttnmq9u3vqgz09){:target="_blank"}
 
 **Metadata:** [https://app.notion.com/p/Gonka-AI-AI-Influencer-Lab-Proposal-3514ff1f5a9a81faae76efbeb153cbe2](https://app.notion.com/p/Gonka-AI-AI-Influencer-Lab-Proposal-3514ff1f5a9a81faae76efbeb153cbe2)
 
 $45,000 · Community Pool
+
+[View on gonka.gg](https://gonka.gg/network/proposals/49){:target="_blank"}
 
 We're ICG - AI Influencer Lab, a team that builds and scales hyper-realistic AI avatars on Instagram, TikTok, and YouTube as full ambassadors across verticals. We manage 160+ accounts in AI, finance, crypto, and tech, and generate 100M+ organic monthly views. Our avatars in tech/AI are followed by Mark Cuban, Mark Ruffalo, the UAE Minister of Energy, thousands of entrepreneurs, and the AI-native crowd.
 
@@ -45544,8 +45546,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/49){:target="_blank"}
-
 ---
 
 ## #56 – INC4 | Gonka NOP - grant for the node deployment tool
@@ -45562,13 +45562,15 @@ Rejected
 
 **Voting:** 2026-05-25 15:12 UTC → 2026-05-27 15:12 UTC
 
-**Proposer:** `gonka1juwk05glldgn7850a3547jsl7l4vrhx9k5g3cr`
+**Proposer:** [`gonka1juwk05glldgn7850a3547jsl7l4vrhx9k5g3cr`](https://gonka.gg/address/gonka1juwk05glldgn7850a3547jsl7l4vrhx9k5g3cr){:target="_blank"}
 
 **Metadata:** [https://github.com/gonka-ai/gonka/discussions/1192](https://github.com/gonka-ai/gonka/discussions/1192)
 
 **Failed reason:** proposal did not get enough votes to pass
 
 $50,000 · Community Pool
+
+[View on gonka.gg](https://gonka.gg/network/proposals/56){:target="_blank"}
 
 # Gonka NOP: grant for the node deployment tool
 
@@ -45649,8 +45651,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/56){:target="_blank"}
-
 ---
 
 ## #77 – Gonka PR Proposal for US/Global Regions
@@ -45667,11 +45667,13 @@ Passed
 
 **Voting:** 2026-06-24 15:18 UTC → 2026-06-26 15:18 UTC
 
-**Proposer:** `gonka10mmdjau4dnj8krs7sh7t7635ttnmq9u3vqgz09`
+**Proposer:** [`gonka10mmdjau4dnj8krs7sh7t7635ttnmq9u3vqgz09`](https://gonka.gg/address/gonka10mmdjau4dnj8krs7sh7t7635ttnmq9u3vqgz09){:target="_blank"}
 
 **Metadata:** [https://www.figma.com/deck/qd7a7bkcit9O1LZ8whP9Ei](https://www.figma.com/deck/qd7a7bkcit9O1LZ8whP9Ei)
 
 $75,000 · Community Pool
+
+[View on gonka.gg](https://gonka.gg/network/proposals/77){:target="_blank"}
 
 We are INPUT Global - a leading web3 marketing communications agency. We offer 3 month PR campaign to establish trust and market legitimacy of Gonka across 2 audiences: global business and crypto-native. Deliverables include native editorial content, podcasts, speakerships at the conferences and a flagship industry report built on real market data to anchor Gonka as a thought leader. KPIs: a minimum of 35 unique placements - Top Tier, Tier 1 and Tier 2 media (the full list is inside the deck), daily monitoring of the news agenda for reactive opportunities, and a monthly competitive PR analysis. Cost: 75,000 USDT for 3 months. Full proposal: https://www.figma.com/deck/qd7a7bkcit9O1LZ8whP9Ei loom: https://www.loom.com/share/f2bd2f2b831f4c78bc5d4878059d8291
 
@@ -45722,8 +45724,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/77){:target="_blank"}
-
 ---
 
 ## #36 – Register Kava USDT IBC metadata and approve for trading
@@ -45740,7 +45740,9 @@ Passed
 
 **Voting:** 2026-04-01 18:03 UTC → 2026-04-02 18:03 UTC
 
-**Proposer:** `gonka1m9sf2rpg635efaw59djqlxkqew9sxvmqd6g343`
+**Proposer:** [`gonka1m9sf2rpg635efaw59djqlxkqew9sxvmqd6g343`](https://gonka.gg/address/gonka1m9sf2rpg635efaw59djqlxkqew9sxvmqd6g343){:target="_blank"}
+
+[View on gonka.gg](https://gonka.gg/network/proposals/36){:target="_blank"}
 
 Register IBC token metadata and approve the denomination for trading on Gonka mainnet.
 
@@ -45794,8 +45796,6 @@ Contract Details
 ```
 
 ---
-
-[View on gonka.gg](https://gonka.gg/network/proposals/36){:target="_blank"}
 
 ---
 
@@ -45944,7 +45944,9 @@ Passed
 
 **Expedited:** Yes
 
-**Proposer:** `gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`
+**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target="_blank"}
+
+[View on gonka.gg](https://gonka.gg/network/proposals/5){:target="_blank"}
 
 Expedite voting for upgrades
 
@@ -46014,8 +46016,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/5){:target="_blank"}
-
 ---
 
 ## #3 – Increase PoC Validation Length
@@ -46034,9 +46034,11 @@ Passed
 
 **Expedited:** Yes
 
-**Proposer:** `gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`
+**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target="_blank"}
 
 **Metadata:** [https://github.com/gonka-ai/gonka/blob/2bf281cec95eaef061e2dfe46d4d104a7e1c2229/proposals/poc-validation-length/README.md](https://github.com/gonka-ai/gonka/blob/2bf281cec95eaef061e2dfe46d4d104a7e1c2229/proposals/poc-validation-length/README.md)
+
+[View on gonka.gg](https://gonka.gg/network/proposals/3){:target="_blank"}
 
 Proposal updates poc_validation_duration from 20 to 100.
 
@@ -46265,8 +46267,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/3){:target="_blank"}
-
 ---
 
 ## #4 – Upgrade Proposal: v0.2.2
@@ -46283,11 +46283,13 @@ Rejected
 
 **Voting:** 2025-09-22 10:02 UTC → 2025-09-24 10:02 UTC
 
-**Proposer:** `gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`
+**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target="_blank"}
 
 **Metadata:** [https://github.com/gonka-ai/gonka/blob/f0f3301dadae0a2f30bdc2968bebb21da81026f4/proposals/governance-artifacts/update-v0.2.2/README.md](https://github.com/gonka-ai/gonka/blob/f0f3301dadae0a2f30bdc2968bebb21da81026f4/proposals/governance-artifacts/update-v0.2.2/README.md)
 
 **Failed reason:** proposal did not get enough votes to pass
+
+[View on gonka.gg](https://gonka.gg/network/proposals/4){:target="_blank"}
 
 Upgrade Proposal: v0.2.2
 
@@ -46336,8 +46338,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/4){:target="_blank"}
-
 ---
 
 ## #1 – Correct Epoch Length
@@ -46354,9 +46354,11 @@ Passed
 
 **Voting:** 2025-09-05 21:51 UTC → 2025-09-07 21:51 UTC
 
-**Proposer:** `gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`
+**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target="_blank"}
 
 **Metadata:** [https://github.com/gonka-ai/gonka/blob/9f34f2c3c8203d8ae269934facaa79069f4d8012/proposals/epoch-length/README.md](https://github.com/gonka-ai/gonka/blob/9f34f2c3c8203d8ae269934facaa79069f4d8012/proposals/epoch-length/README.md)
+
+[View on gonka.gg](https://gonka.gg/network/proposals/1){:target="_blank"}
 
 Proposal updates epoch_length and restrictions length according to real block length in seconds.
 
@@ -46608,8 +46610,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/1){:target="_blank"}
-
 ---
 
 ## #2 – Proposal introducing new Qwen3 models
@@ -46626,9 +46626,11 @@ Passed
 
 **Voting:** 2025-09-09 21:40 UTC → 2025-09-11 21:40 UTC
 
-**Proposer:** `gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`
+**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target="_blank"}
 
 **Metadata:** [https://github.com/gonka-ai/gonka/blob/c8668fd0f6144109165e0386f55fe22eb3cb27c7/proposals/governance-artifacts/models-1/README.md](https://github.com/gonka-ai/gonka/blob/c8668fd0f6144109165e0386f55fe22eb3cb27c7/proposals/governance-artifacts/models-1/README.md)
+
+[View on gonka.gg](https://gonka.gg/network/proposals/2){:target="_blank"}
 
 This proposal introduces new Qwen3 models including Qwen3-32B-FP8 and Qwen3-235B-A22B-Instruct-2507-FP8, along with updating parameters for Qwen2.5-7B-Instruct and QwQ-32B.
 
@@ -46761,8 +46763,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/2){:target="_blank"}
-
 ---
 
 ## #6 – Upgrade Proposal: v0.2.2
@@ -46779,9 +46779,11 @@ Passed
 
 **Voting:** 2025-09-24 23:08 UTC → 2025-09-25 02:08 UTC
 
-**Proposer:** `gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`
+**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target="_blank"}
 
 **Metadata:** [https://github.com/gonka-ai/gonka/blob/422dd37c36ad65bc3be2c84cd18a4d86e7ddec10/proposals/governance-artifacts/update-v0.2.2/README.md](https://github.com/gonka-ai/gonka/blob/422dd37c36ad65bc3be2c84cd18a4d86e7ddec10/proposals/governance-artifacts/update-v0.2.2/README.md)
+
+[View on gonka.gg](https://gonka.gg/network/proposals/6){:target="_blank"}
 
 Upgrade Proposal: v0.2.2
 
@@ -46829,8 +46831,6 @@ Contract Details
 ```
 
 ---
-
-[View on gonka.gg](https://gonka.gg/network/proposals/6){:target="_blank"}
 
 ---
 
@@ -47034,9 +47034,11 @@ Passed
 
 **Voting:** 2025-11-21 09:13 UTC → 2025-11-22 09:13 UTC
 
-**Proposer:** `gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`
+**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target="_blank"}
 
 **Metadata:** [https://github.com/gonka-ai/gonka/blob/e25ddb7d462972cce202c8b39448bf3feb8e29a0/proposals/governance-artifacts/update-v0.2.5/README.md](https://github.com/gonka-ai/gonka/blob/e25ddb7d462972cce202c8b39448bf3feb8e29a0/proposals/governance-artifacts/update-v0.2.5/README.md)
+
+[View on gonka.gg](https://gonka.gg/network/proposals/13){:target="_blank"}
 
 Upgrade Proposal: v0.2.5
 
@@ -47085,8 +47087,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/13){:target="_blank"}
-
 ---
 
 ## #9 – Higher Bandwidth Limits & Voting Time Back to 24H
@@ -47103,7 +47103,9 @@ Passed
 
 **Voting:** 2025-11-11 09:22 UTC → 2025-11-11 12:22 UTC
 
-**Proposer:** `gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`
+**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target="_blank"}
+
+[View on gonka.gg](https://gonka.gg/network/proposals/9){:target="_blank"}
 
 Higher Bandwidth Limits & Voting Time Back to 24H
 
@@ -47365,8 +47367,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/9){:target="_blank"}
-
 ---
 
 ## #8 – Upgrade Proposal: v0.2.4
@@ -47383,9 +47383,11 @@ Passed
 
 **Voting:** 2025-10-22 05:46 UTC → 2025-10-22 08:46 UTC
 
-**Proposer:** `gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`
+**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target="_blank"}
 
 **Metadata:** [https://github.com/gonka-ai/gonka/blob/12a09bb24c1f668a23f0e85bbf277e6010603921/proposals/governance-artifacts/update-v0.2.4/README.md](https://github.com/gonka-ai/gonka/blob/12a09bb24c1f668a23f0e85bbf277e6010603921/proposals/governance-artifacts/update-v0.2.4/README.md)
+
+[View on gonka.gg](https://gonka.gg/network/proposals/8){:target="_blank"}
 
 Upgrade Proposal: v0.2.4
 
@@ -47434,8 +47436,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/8){:target="_blank"}
-
 ---
 
 ## #7 – Upgrade Proposal: v0.2.3
@@ -47452,9 +47452,11 @@ Passed
 
 **Voting:** 2025-10-03 04:53 UTC → 2025-10-03 07:53 UTC
 
-**Proposer:** `gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`
+**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target="_blank"}
 
 **Metadata:** [https://github.com/gonka-ai/gonka/blob/b8094aaf75bde4041692675dd9e565286b056896/proposals/governance-artifacts/update-v0.2.3/README.md](https://github.com/gonka-ai/gonka/blob/b8094aaf75bde4041692675dd9e565286b056896/proposals/governance-artifacts/update-v0.2.3/README.md)
+
+[View on gonka.gg](https://gonka.gg/network/proposals/7){:target="_blank"}
 
 Upgrade Proposal: v0.2.3
 
@@ -47503,8 +47505,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/7){:target="_blank"}
-
 ---
 
 ## #16 – Upgrade Proposal: v0.2.6
@@ -47521,9 +47521,11 @@ Passed
 
 **Voting:** 2025-12-19 17:09 UTC → 2025-12-20 17:09 UTC
 
-**Proposer:** `gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`
+**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target="_blank"}
 
 **Metadata:** [https://github.com/gonka-ai/gonka/commit/5be305ad380db8854313d2b0369049c8105f681b/proposals/governance-artifacts/update-v0.2.6/README.md](https://github.com/gonka-ai/gonka/commit/5be305ad380db8854313d2b0369049c8105f681b/proposals/governance-artifacts/update-v0.2.6/README.md)
+
+[View on gonka.gg](https://gonka.gg/network/proposals/16){:target="_blank"}
 
 Upgrade Proposal: v0.2.6
 
@@ -47572,8 +47574,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/16){:target="_blank"}
-
 ---
 
 ## #12 – Bandwidth Limits
@@ -47592,7 +47592,9 @@ Passed
 
 **Expedited:** Yes
 
-**Proposer:** `gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`
+**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target="_blank"}
+
+[View on gonka.gg](https://gonka.gg/network/proposals/12){:target="_blank"}
 
 Bandwidth Limits
 
@@ -47821,8 +47823,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/12){:target="_blank"}
-
 ---
 
 ## #17 – Expected amount of Confirmation PoC per epoch
@@ -47839,7 +47839,9 @@ Passed
 
 **Voting:** 2025-12-25 21:22 UTC → 2025-12-26 21:22 UTC
 
-**Proposer:** `gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`
+**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target="_blank"}
+
+[View on gonka.gg](https://gonka.gg/network/proposals/17){:target="_blank"}
 
 Expected amount of Confirmation PoC per epoch to 4, p0 for binomial test to 0.1
 
@@ -48134,8 +48136,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/17){:target="_blank"}
-
 ---
 
 ## #15 – Upgrade Proposal: v0.2.6
@@ -48152,11 +48152,13 @@ Rejected
 
 **Voting:** 2025-12-16 11:12 UTC → 2025-12-17 11:12 UTC
 
-**Proposer:** `gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`
+**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target="_blank"}
 
 **Metadata:** [https://github.com/gonka-ai/gonka/blob/384b95025f11cff177fa40ec191f724852f54edb/proposals/governance-artifacts/update-v0.2.6/README.md](https://github.com/gonka-ai/gonka/blob/384b95025f11cff177fa40ec191f724852f54edb/proposals/governance-artifacts/update-v0.2.6/README.md)
 
 **Failed reason:** proposal did not get enough votes to pass
+
+[View on gonka.gg](https://gonka.gg/network/proposals/15){:target="_blank"}
 
 Upgrade Proposal: v0.2.6
 
@@ -48205,8 +48207,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/15){:target="_blank"}
-
 ---
 
 ## #10 – Bandwidth Limits
@@ -48225,7 +48225,9 @@ Passed
 
 **Expedited:** Yes
 
-**Proposer:** `gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`
+**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target="_blank"}
+
+[View on gonka.gg](https://gonka.gg/network/proposals/10){:target="_blank"}
 
 Bandwidth Limits
 
@@ -48454,8 +48456,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/10){:target="_blank"}
-
 ---
 
 ## #11 – Bandwidth Limits
@@ -48474,7 +48474,9 @@ Passed
 
 **Expedited:** Yes
 
-**Proposer:** `gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`
+**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target="_blank"}
+
+[View on gonka.gg](https://gonka.gg/network/proposals/11){:target="_blank"}
 
 Bandwidth Limits
 
@@ -48703,8 +48705,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/11){:target="_blank"}
-
 ---
 
 ## #14 – Sale GNK from Community Fund
@@ -48721,9 +48721,11 @@ Passed
 
 **Voting:** 2025-11-26 09:35 UTC → 2025-11-27 09:35 UTC
 
-**Proposer:** `gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`
+**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target="_blank"}
 
 20,000,000 GNK · Community Pool
+
+[View on gonka.gg](https://gonka.gg/network/proposals/14){:target="_blank"}
 
 Sale GNK from Community Fund
 
@@ -48771,8 +48773,6 @@ Contract Details
 ```
 
 ---
-
-[View on gonka.gg](https://gonka.gg/network/proposals/14){:target="_blank"}
 
 ---
 
@@ -48873,13 +48873,15 @@ Rejected
 
 **Voting:** 2026-07-05 19:40 UTC → 2026-07-07 19:40 UTC
 
-**Proposer:** `gonka100s7x2t0npruu9ta02306qfmaened3vg3a9dn6`
+**Proposer:** [`gonka100s7x2t0npruu9ta02306qfmaened3vg3a9dn6`](https://gonka.gg/address/gonka100s7x2t0npruu9ta02306qfmaened3vg3a9dn6){:target="_blank"}
 
 **Metadata:** [https://github.com/huxuxuya/GRC-3-result](https://github.com/huxuxuya/GRC-3-result)
 
 **Failed reason:** proposal did not get enough votes to pass
 
 47,850 GNK · Community Pool
+
+[View on gonka.gg](https://gonka.gg/network/proposals/80){:target="_blank"}
 
 Restitution payout for confirmed GRC Proposal #3 cases, with Case 05 payments from proposal_id=67 deducted where the same address and epoch were already compensated, and positive victim outputs below the chain minimum raised to 10 GNK.
 
@@ -49344,8 +49346,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/80){:target="_blank"}
-
 ---
 
 ## #81 – Kimi cPoC Restitution (epochs 306-309)
@@ -49362,9 +49362,11 @@ Voting
 
 **Voting:** 2026-07-08 05:57 UTC → 2026-07-10 05:57 UTC
 
-**Proposer:** `gonka123pr0p0salv96xvne9qln70x3usvpyscug5f9a`
+**Proposer:** [`gonka123pr0p0salv96xvne9qln70x3usvpyscug5f9a`](https://gonka.gg/address/gonka123pr0p0salv96xvne9qln70x3usvpyscug5f9a){:target="_blank"}
 
 **Metadata:** [https://github.com/votkon/gonka-kimi-e306-issue](https://github.com/votkon/gonka-kimi-e306-issue)
+
+[View on gonka.gg](https://gonka.gg/network/proposals/81){:target="_blank"}
 
 Distribute restitution for Kimi operators affected by cPoC validation failure in epochs 306-309. The Kimi validation path failed starting in e306 causing confirmation_weight suppression for Kimi operators while non-Kimi operators ran normally. Failure worsened in e307 and carried into the e309 bootstrap attempt. Total: 175082.07 GONKA to 19 addresses, vested over 170 days (160 epochs).
 
@@ -49562,8 +49564,6 @@ Contract Details
 ```
 
 ---
-
-[View on gonka.gg](https://gonka.gg/network/proposals/81){:target="_blank"}
 
 ---
 
@@ -49832,9 +49832,11 @@ Passed
 
 **Voting:** 2026-01-07 04:23 UTC → 2026-01-08 04:23 UTC
 
-**Proposer:** `gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`
+**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target="_blank"}
 
 **Metadata:** [https://github.com/gonka-ai/gonka/blob/d18165669326fffd6732bc124183a72c076a69ee/proposals/governance-artifacts/update-v0.2.7/README.md](https://github.com/gonka-ai/gonka/blob/d18165669326fffd6732bc124183a72c076a69ee/proposals/governance-artifacts/update-v0.2.7/README.md)
+
+[View on gonka.gg](https://gonka.gg/network/proposals/19){:target="_blank"}
 
 Upgrade Proposal: v0.2.7
 
@@ -49883,8 +49885,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/19){:target="_blank"}
-
 ---
 
 ## #34 – gonka.ai / TheSoul social media awareness project
@@ -49901,11 +49901,13 @@ Rejected
 
 **Voting:** 2026-03-30 06:37 UTC → 2026-03-31 06:37 UTC
 
-**Proposer:** `gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm`
+**Proposer:** [`gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm`](https://gonka.gg/address/gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm){:target="_blank"}
 
 **Failed reason:** proposal did not get enough votes to pass
 
 970,000 GNK · Community Pool
+
+[View on gonka.gg](https://gonka.gg/network/proposals/34){:target="_blank"}
 
 This proposal seeks community approval for a global media initiative to build awareness of decentralized AI and position Gonka as core AI infrastructure.
 
@@ -49954,8 +49956,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/34){:target="_blank"}
-
 ---
 
 ## #22 – Allowlist Timing
@@ -49972,7 +49972,9 @@ Passed
 
 **Voting:** 2026-01-17 05:28 UTC → 2026-01-18 05:28 UTC
 
-**Proposer:** `gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`
+**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target="_blank"}
+
+[View on gonka.gg](https://gonka.gg/network/proposals/22){:target="_blank"}
 
 Update Expiration Dates for Developer Access and Participant Allowlist
 
@@ -50304,8 +50306,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/22){:target="_blank"}
-
 ---
 
 ## #27 – Upgrade Proposal: v0.2.10
@@ -50322,9 +50322,11 @@ Passed
 
 **Voting:** 2026-02-17 09:26 UTC → 2026-02-18 09:26 UTC
 
-**Proposer:** `gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`
+**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target="_blank"}
 
 **Metadata:** [https://github.com/gonka-ai/gonka/blob/faa358dec3091e19cb92267556443775431ecc81/proposals/governance-artifacts/update-v0.2.10/README.md](https://github.com/gonka-ai/gonka/blob/faa358dec3091e19cb92267556443775431ecc81/proposals/governance-artifacts/update-v0.2.10/README.md)
+
+[View on gonka.gg](https://gonka.gg/network/proposals/27){:target="_blank"}
 
 Upgrade Proposal: v0.2.10
 
@@ -50373,8 +50375,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/27){:target="_blank"}
-
 ---
 
 ## #24 – Upgrade Proposal: v0.2.8
@@ -50391,11 +50391,13 @@ Rejected
 
 **Voting:** 2026-01-28 00:32 UTC → 2026-01-29 00:32 UTC
 
-**Proposer:** `gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`
+**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target="_blank"}
 
 **Metadata:** [https://github.com/gonka-ai/gonka/blob/d61cf37eb97e0aaf3e4b227a1d6f31ea8635797a/proposals/governance-artifacts/update-v0.2.8/README.md](https://github.com/gonka-ai/gonka/blob/d61cf37eb97e0aaf3e4b227a1d6f31ea8635797a/proposals/governance-artifacts/update-v0.2.8/README.md)
 
 **Failed reason:** proposal did not get enough votes to pass
+
+[View on gonka.gg](https://gonka.gg/network/proposals/24){:target="_blank"}
 
 Upgrade Proposal: v0.2.8
 
@@ -50444,8 +50446,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/24){:target="_blank"}
-
 ---
 
 ## #20 – Enable Whitelist
@@ -50462,7 +50462,9 @@ Passed
 
 **Voting:** 2026-01-09 06:46 UTC → 2026-01-10 06:46 UTC
 
-**Proposer:** `gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`
+**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target="_blank"}
+
+[View on gonka.gg](https://gonka.gg/network/proposals/20){:target="_blank"}
 
 https://github.com/product-science/filter/tree/ae59d27f04a70039bcfca94ae656e723982150cd
 
@@ -52591,8 +52593,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/20){:target="_blank"}
-
 ---
 
 ## #26 – Upgrade Proposal: v0.2.9
@@ -52609,9 +52609,11 @@ Passed
 
 **Voting:** 2026-01-31 22:02 UTC → 2026-02-01 22:02 UTC
 
-**Proposer:** `gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`
+**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target="_blank"}
 
 **Metadata:** [https://github.com/gonka-ai/gonka/blob/808247ea17c254f0b81cfa67edb579ba249175f0/proposals/governance-artifacts/update-v0.2.9/README.md](https://github.com/gonka-ai/gonka/blob/808247ea17c254f0b81cfa67edb579ba249175f0/proposals/governance-artifacts/update-v0.2.9/README.md)
+
+[View on gonka.gg](https://gonka.gg/network/proposals/26){:target="_blank"}
 
 Upgrade Proposal: v0.2.9
 
@@ -52660,8 +52662,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/26){:target="_blank"}
-
 ---
 
 ## #29 – Network Parameters Update: Disable TA Allowlist, Increase Prices 100x
@@ -52678,11 +52678,13 @@ Rejected
 
 **Voting:** 2026-02-19 16:03 UTC → 2026-02-20 16:03 UTC
 
-**Proposer:** `gonka148zyn5m8vjw5wvzr5yg37cdml64z668rav5j5m`
+**Proposer:** [`gonka148zyn5m8vjw5wvzr5yg37cdml64z668rav5j5m`](https://gonka.gg/address/gonka148zyn5m8vjw5wvzr5yg37cdml64z668rav5j5m){:target="_blank"}
 
 **Metadata:** [https://github.com/gonka-ai/gonka/blob/main/proposals/governance-artifacts/param-update-2025-02/README.md](https://github.com/gonka-ai/gonka/blob/main/proposals/governance-artifacts/param-update-2025-02/README.md)
 
 **Failed reason:** proposal did not get enough votes to pass
+
+[View on gonka.gg](https://gonka.gg/network/proposals/29){:target="_blank"}
 
 Remove TransferAgent allowlist restrictions (empty list = all TAs allowed) and increase per-token pricing 100x (min 100, base 10000 ngonka) to reduce spam.
 
@@ -53029,8 +53031,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/29){:target="_blank"}
-
 ---
 
 ## #35 – gonka.ai / TheSoul social media awareness project
@@ -53047,11 +53047,13 @@ Rejected
 
 **Voting:** 2026-03-30 06:47 UTC → 2026-03-31 06:47 UTC
 
-**Proposer:** `gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm`
+**Proposer:** [`gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm`](https://gonka.gg/address/gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm){:target="_blank"}
 
 **Failed reason:** proposal did not get enough votes to pass
 
 970,000 GNK · Community Pool
+
+[View on gonka.gg](https://gonka.gg/network/proposals/35){:target="_blank"}
 
 This proposal seeks community approval for a global media initiative to build awareness of decentralized AI and position Gonka as core AI infrastructure.
 
@@ -53117,8 +53119,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/35){:target="_blank"}
-
 ---
 
 ## #32 – Epoch 158 compensation payout from gov module (batch vesting)
@@ -53135,11 +53135,13 @@ Passed
 
 **Voting:** 2026-03-23 17:30 UTC → 2026-03-24 17:30 UTC
 
-**Proposer:** `gonka100s7x2t0npruu9ta02306qfmaened3vg3a9dn6`
+**Proposer:** [`gonka100s7x2t0npruu9ta02306qfmaened3vg3a9dn6`](https://gonka.gg/address/gonka100s7x2t0npruu9ta02306qfmaened3vg3a9dn6){:target="_blank"}
 
 **Metadata:** [https://github.com/huxuxuya/epoch158/blob/main/SIMPLE_COIN_AMOUNT_LOGIC.md](https://github.com/huxuxuya/epoch158/blob/main/SIMPLE_COIN_AMOUNT_LOGIC.md)
 
 500 GNK · Community Pool
+
+[View on gonka.gg](https://gonka.gg/network/proposals/32){:target="_blank"}
 
 Distribute compensation proportional to epoch 158 lost preserved weights. Implemented as one MsgBatchTransferWithVesting.
 
@@ -54429,8 +54431,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/32){:target="_blank"}
-
 ---
 
 ## #30 – Test Proposal
@@ -54447,11 +54447,13 @@ Rejected
 
 **Voting:** 2026-03-09 02:37 UTC → 2026-03-10 02:37 UTC
 
-**Proposer:** `gonka1awyggfq4e32d4y66ttq3hyud7dyrr0ajf8af0w`
+**Proposer:** [`gonka1awyggfq4e32d4y66ttq3hyud7dyrr0ajf8af0w`](https://gonka.gg/address/gonka1awyggfq4e32d4y66ttq3hyud7dyrr0ajf8af0w){:target="_blank"}
 
 **Metadata:** `Test proposal for governance UI`
 
 **Failed reason:** proposal did not get enough votes to pass
+
+[View on gonka.gg](https://gonka.gg/network/proposals/30){:target="_blank"}
 
 Testing governance voting from the wallet app.
 
@@ -54487,8 +54489,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/30){:target="_blank"}
-
 ---
 
 ## #25 – Upgrade Proposal: v0.2.8
@@ -54505,9 +54505,11 @@ Passed
 
 **Voting:** 2026-01-28 03:02 UTC → 2026-01-29 03:02 UTC
 
-**Proposer:** `gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`
+**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target="_blank"}
 
 **Metadata:** [https://github.com/gonka-ai/gonka/blob/9241d81b9ed7f33f6864476c2b07c9e833037735/proposals/governance-artifacts/update-v0.2.8/README.md](https://github.com/gonka-ai/gonka/blob/9241d81b9ed7f33f6864476c2b07c9e833037735/proposals/governance-artifacts/update-v0.2.8/README.md)
+
+[View on gonka.gg](https://gonka.gg/network/proposals/25){:target="_blank"}
 
 Upgrade Proposal: v0.2.8
 
@@ -54556,8 +54558,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/25){:target="_blank"}
-
 ---
 
 ## #31 – Upgrade Proposal: v0.2.11
@@ -54574,9 +54574,11 @@ Passed
 
 **Voting:** 2026-03-19 05:59 UTC → 2026-03-20 05:59 UTC
 
-**Proposer:** `gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`
+**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target="_blank"}
 
 **Metadata:** [https://github.com/gonka-ai/gonka/blob/74f5ff859dd6d83eb8c2576b55c76fa41e669341/proposals/governance-artifacts/update-v0.2.11/README.md](https://github.com/gonka-ai/gonka/blob/74f5ff859dd6d83eb8c2576b55c76fa41e669341/proposals/governance-artifacts/update-v0.2.11/README.md)
+
+[View on gonka.gg](https://gonka.gg/network/proposals/31){:target="_blank"}
 
 Upgrade Proposal: v0.2.11
 
@@ -54625,8 +54627,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/31){:target="_blank"}
-
 ---
 
 ## #33 – Epochs 132-133 compensation payout from gov module
@@ -54643,11 +54643,13 @@ Passed
 
 **Voting:** 2026-03-26 15:10 UTC → 2026-03-27 15:10 UTC
 
-**Proposer:** `gonka197hqnwcl30x4js3egvaujjmfknlxy7rmfw3y6k`
+**Proposer:** [`gonka197hqnwcl30x4js3egvaujjmfknlxy7rmfw3y6k`](https://gonka.gg/address/gonka197hqnwcl30x4js3egvaujjmfknlxy7rmfw3y6k){:target="_blank"}
 
 **Metadata:** [https://github.com/votkon/epoch-132-analysis](https://github.com/votkon/epoch-132-analysis)
 
 3,100 GNK · Community Pool
+
+[View on gonka.gg](https://gonka.gg/network/proposals/33){:target="_blank"}
 
 Distribute compensation for CPoC bug affected participants in epochs 132-133.
 
@@ -55163,8 +55165,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/33){:target="_blank"}
-
 ---
 
 ## #18 – Test
@@ -55181,11 +55181,13 @@ Rejected
 
 **Voting:** 2026-01-04 13:07 UTC → 2026-01-05 13:07 UTC
 
-**Proposer:** `gonka15vunu0new53m83ccvfcmkf84v7q4s8ldsjfu4y`
+**Proposer:** [`gonka15vunu0new53m83ccvfcmkf84v7q4s8ldsjfu4y`](https://gonka.gg/address/gonka15vunu0new53m83ccvfcmkf84v7q4s8ldsjfu4y){:target="_blank"}
 
 **Metadata:** `e30=`
 
 **Failed reason:** proposal did not get enough votes to pass
+
+[View on gonka.gg](https://gonka.gg/network/proposals/18){:target="_blank"}
 
 Test proposal
 
@@ -55221,8 +55223,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/18){:target="_blank"}
-
 ---
 
 ## #21 – Fix mistakes in allowlist
@@ -55239,7 +55239,9 @@ Passed
 
 **Voting:** 2026-01-11 06:04 UTC → 2026-01-12 06:04 UTC
 
-**Proposer:** `gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`
+**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target="_blank"}
+
+[View on gonka.gg](https://gonka.gg/network/proposals/21){:target="_blank"}
 
 https://github.com/product-science/filter/tree/0354c37eb6c827f00c1e889a2b7de9952a9b84ba
 
@@ -55597,8 +55599,6 @@ Contract Details
 
 ---
 
-[View on gonka.gg](https://gonka.gg/network/proposals/21){:target="_blank"}
-
 ---
 
 ## #28 – Collateral Parameters Update
@@ -55615,9 +55615,11 @@ Rejected
 
 **Voting:** 2026-02-18 07:27 UTC → 2026-02-19 07:27 UTC
 
-**Proposer:** `gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`
+**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target="_blank"}
 
 **Failed reason:** proposal did not get enough votes to pass
+
+[View on gonka.gg](https://gonka.gg/network/proposals/28){:target="_blank"}
 
 0.032 GNK per 1 unit of power, 0.01% slashing for miss rate or jail, 0.5% slashing for invalid inference
 
@@ -55971,7 +55973,5 @@ Contract Details
 ```
 
 ---
-
-[View on gonka.gg](https://gonka.gg/network/proposals/28){:target="_blank"}
 
 ---
