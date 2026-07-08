@@ -260,6 +260,19 @@
   font-weight: 600;
   color: var(--md-accent-fg-color);
   user-select: none;
+  list-style: none;
+}
+.prop-contracts summary::-webkit-details-marker {
+  display: none;
+}
+.prop-contracts summary::before {
+  content: "▶";
+  font-size: 10px;
+  margin-right: 6px;
+  transition: transform 0.15s;
+}
+.prop-contracts[open] summary::before {
+  transform: rotate(90deg);
 }
 
 .prop-contracts pre {
