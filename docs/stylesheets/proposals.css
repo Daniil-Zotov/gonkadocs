@@ -272,8 +272,10 @@
 
 /* ── Contract details spoiler ──────────────────────────────── */
 .prop-contracts {
-  margin-top: 16px;
+  margin-top: 20px;
   font-size: 14px;
+  border-top: 1px dashed var(--md-default-fg-color--lightest);
+  padding-top: 16px;
 }
 
 .prop-contracts summary {
@@ -283,6 +285,16 @@
   user-select: none;
   list-style: none;
   display: block;
+  font-size: 15px;
+  background: var(--md-code-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 6px;
+  padding: 10px 14px;
+  transition: background-color 0.15s, border-color 0.15s;
+}
+.prop-contracts summary:hover {
+  background: var(--md-default-fg-color--lightest);
+  border-color: var(--md-accent-fg-color);
 }
 .prop-contracts summary::-webkit-details-marker {
   display: none;
@@ -451,8 +463,10 @@
 ───────────────────────────────────────────────────────────────*/
 
 .prop-full {
-  margin-top: 16px;
+  margin-top: 20px;
   font-size: 14px;
+  border-top: 1px dashed var(--md-default-fg-color--lightest);
+  padding-top: 16px;
 }
 
 .prop-full summary {
@@ -462,6 +476,16 @@
   user-select: none;
   list-style: none;
   display: block;
+  font-size: 15px;
+  background: var(--md-code-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 6px;
+  padding: 10px 14px;
+  transition: background-color 0.15s, border-color 0.15s;
+}
+.prop-full summary:hover {
+  background: var(--md-default-fg-color--lightest);
+  border-color: var(--md-accent-fg-color);
 }
 
 .prop-full summary::-webkit-details-marker {
