@@ -2,7 +2,7 @@
 title: "#1222 — [P1] Int overflow"
 source: https://github.com/gonka-ai/gonka/issues/1222
 issue_number: 1222
-synced_at: 2026-07-08T06:41:18Z
+synced_at: 2026-07-08T09:41:17Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-05-21 22:30 UTC</span>
-    <span class="issues-meta-item">2 comments</span>
-    <span class="issues-meta-item">Updated 2026-07-07 10:09 UTC</span>
+    <span class="issues-meta-item">3 comments</span>
+    <span class="issues-meta-item">Updated 2026-07-08 08:51 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #12a6e8; color: #24292f; border-color: #12a6e8;">Priority: Medium</span></div>
 </div>
@@ -27,7 +27,7 @@ The goal of this is to have in place after this a standard way of handling possi
 
 ---
 
-## 💬 Comments (2)
+## 💬 Comments (3)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -61,6 +61,18 @@ The goal of this is to have in place after this a standard way of handling possi
 </li>
 </ul>
 <p>Since #1379 explicitly left the #1017 supply-cap semantics out of scope, #1017 adopts the same helper/logging/test pattern independently rather than conflicting with #1379.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@olegsuhoparov](https://github.com/olegsuhoparov)</span>
+    <span class="issues-meta-item">commented 2026-07-08 08:51 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Thanks for aligning #1017 with the overflow-handling direction from #1379.</p>
+<p>That split makes sense to me: #1379 intentionally stays focused on settlement/claim/validation overflow paths and leaves the Bitcoin supply-cap semantics to a separate PR.</p>
+<p>One thing to keep in mind is merge order: #1379 changes the <code>CalculateParticipantBitcoinRewards</code> fallback from <code>MaxUint64</code> to <code>MaxInt64</code>, so if #1379 lands first, #1017 will likely need a small rebase/adaptation around the fallback-path rationale and tests.</p>
+<p>I would also double-check that the new #1017 tests assert the overflow guard path directly, not only the final <code>totalRewarded &lt;= remainingSupply</code> invariant. That would make the defense-in-depth coverage clearer for reviewers.</p>
   </div>
 </div>
 
