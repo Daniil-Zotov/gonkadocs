@@ -321,6 +321,12 @@
   transform: rotate(180deg);
 }
 
+/* Remove blue focus glow from our spoilers */
+.prop-contracts:focus-within,
+.prop-full:focus-within {
+  box-shadow: none !important;
+}
+
 .prop-contracts pre {
   margin-top: 8px;
   max-height: 400px;
