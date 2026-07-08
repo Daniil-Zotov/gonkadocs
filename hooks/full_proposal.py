@@ -85,9 +85,10 @@ def on_page_markdown(markdown: str, page=None, config=None, **kwargs):
         "\n\n"
         "---\n\n"
         "## Full Proposal\n\n"
-        "<details class=\"prop-full\">\n"
-        "<summary><strong>Click to expand full proposal</strong></summary>\n\n"
+        "<details class=\"prop-full\" markdown=\"1\">\n"
+        "<summary markdown=\"1\"><strong>Click to expand full proposal</strong></summary>\n\n"
         f"{extra}\n"
+        "\n"
         "</details>\n"
     )
 

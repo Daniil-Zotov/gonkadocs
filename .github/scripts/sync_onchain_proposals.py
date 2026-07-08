@@ -555,8 +555,8 @@ template: proposals-proposals-main.html
 
     # Contract spoiler
     md += f"""
-<details class="prop-contracts">
-<summary>Contract Details</summary>
+<details class="prop-contracts" markdown="1">
+<summary markdown="1">Contract Details</summary>
 
 ```json
 {msg_json}
