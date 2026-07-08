@@ -115,6 +115,15 @@ content = re.sub(
     flags=re.MULTILINE
 )
 
+# Remove navigation.tracking — causes sidebar truncation on first load
+# (auto-scroll to active nav item before layout is fully computed)
+content = re.sub(
+    r'^  - navigation\.tracking\n?',
+    '',
+    content,
+    flags=re.MULTILINE
+)
+
 with open('$BUILD_CFG', 'w') as f:
     f.write(content)
 "
