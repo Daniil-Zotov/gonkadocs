@@ -269,9 +269,9 @@
 /* ── Quarter summary card ──────────────────────────────────── */
 .quarter-summary {
   border: 1px solid var(--md-default-fg-color--lightest);
-  border-radius: 12px;
-  padding: 16px 20px 20px;
-  margin-bottom: 24px;
+  border-radius: 8px;
+  padding: 10px 14px 12px;
+  margin-bottom: 20px;
   background: var(--md-code-bg-color);
 }
 
@@ -279,42 +279,37 @@
   display: none;
 }
 
-/* Stats row */
+/* Stats row — inline horizontal layout */
 .qs-stats {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
-  gap: 12px;
+  display: flex;
+  gap: 0;
   margin: 0;
 }
 
 .qs-stat {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  padding: 14px 6px;
-  border-radius: 8px;
-  background: rgba(0, 0, 0, 0.02);
+  align-items: baseline;
+  gap: 4px;
+  padding: 4px 10px 4px 0;
+  border-right: 1px solid var(--md-default-fg-color--lightest);
 }
 
-[data-md-color-scheme="slate"] .qs-stat {
-  background: rgba(255, 255, 255, 0.03);
+.qs-stat:last-child {
+  border-right: none;
 }
 
 .qs-stat .qs-num {
-  font-size: 1.9rem;
-  font-weight: 700;
+  font-size: 1rem;
+  font-weight: 600;
   line-height: 1;
-  letter-spacing: -0.03em;
   color: var(--md-default-fg-color);
 }
 
 .qs-stat .qs-desc {
-  font-size: 12px;
-  font-weight: 500;
+  font-size: 11px;
+  font-weight: 400;
   color: var(--md-default-fg-color--light);
-  margin-top: 6px;
-  line-height: 1.3;
+  line-height: 1;
 }
 
 .qs-stat.total .qs-num {
@@ -329,114 +324,47 @@
 [data-md-color-scheme="slate"] .qs-stat.rejected .qs-num { color: #f85149; }
 [data-md-color-scheme="slate"] .qs-stat.failed .qs-num { color: #d29922; }
 
-/* Categories */
+/* Categories — very compact */
 .qs-categories {
-  margin-top: 20px;
-  padding-top: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px 12px;
+  margin-top: 8px;
+  padding-top: 8px;
   border-top: 1px solid var(--md-default-fg-color--lightest);
 }
 
-.qs-categories > strong,
-.qs-amounts > strong {
-  display: block;
-  font-size: 11px;
-  font-weight: 600;
-  color: var(--md-default-fg-color--light);
-  margin-bottom: 10px;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-}
-
 .qs-row {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: 12px;
-  margin: 5px 0;
-  padding: 2px 0;
+  gap: 4px;
+  font-size: 11px;
 }
 
 .qs-label {
-  font-size: 12px;
   font-weight: 500;
   color: var(--md-default-fg-color--light);
-  width: 9rem;
-  flex-shrink: 0;
   white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 .qs-bar-wrap {
-  flex: 1;
-  height: 6px;
-  border-radius: 3px;
+  width: 40px;
+  height: 4px;
+  border-radius: 2px;
   background: var(--md-default-fg-color--lightest);
   overflow: hidden;
-  min-width: 30px;
 }
 
 .qs-bar {
   display: block;
   height: 100%;
   background: var(--md-accent-fg-color);
-  border-radius: 3px;
-  transition: width 0.4s ease;
+  border-radius: 2px;
 }
 
 .qs-value {
-  font-size: 13px;
-  font-weight: 700;
+  font-weight: 600;
   color: var(--md-default-fg-color);
-  min-width: 2ch;
+  min-width: 1.5ch;
   text-align: right;
-}
-
-/* Approved funding */
-.qs-amounts {
-  margin-top: 20px;
-  padding-top: 18px;
-  border-top: 1px solid var(--md-default-fg-color--lightest);
-}
-
-.qs-amount-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 12px;
-  margin-bottom: 4px;
-  border-radius: 6px;
-  background: rgba(0, 0, 0, 0.02);
-  border: 1px solid var(--md-default-fg-color--lightest);
-}
-
-[data-md-color-scheme="slate"] .qs-amount-row {
-  background: rgba(255, 255, 255, 0.03);
-}
-
-.qs-amount-row:last-child {
-  margin-bottom: 0;
-}
-
-.qs-amount-label {
-  font-size: 12px;
-  font-weight: 500;
-  color: var(--md-default-fg-color--light);
-}
-
-.qs-amount-val {
-  font-family: var(--md-code-font-family), "SFMono-Regular", "Roboto Mono", monospace;
-  font-size: 13px;
-  font-weight: 700;
-  color: var(--md-accent-fg-color);
-  letter-spacing: -0.015em;
-}
-
-/* Quarter summary responsive */
-@media (max-width: 600px) {
-  .qs-stats {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .qs-label {
-    width: 6.5rem;
-  }
 }

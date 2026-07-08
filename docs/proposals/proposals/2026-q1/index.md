@@ -35,16 +35,10 @@ template: proposals-oview.html
 </div>
 
 <div class="qs-categories">
-<strong>By Category</strong>
 <div class="qs-row"><span class="qs-label">Software Upgrade</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:35%"></span></span><span class="qs-value">6</span></div>
 <div class="qs-row"><span class="qs-label">Governance Parameters</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:29%"></span></span><span class="qs-value">5</span></div>
 <div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:24%"></span></span><span class="qs-value">4</span></div>
 <div class="qs-row"><span class="qs-label">Other</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:12%"></span></span><span class="qs-value">2</span></div>
-</div>
-
-<div class="qs-amounts">
-<strong>Approved Funding</strong>
-<div class="qs-amount-row"><span class="qs-amount-label">No funding proposals</span></div>
 </div>
 
 </div>

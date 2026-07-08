@@ -463,16 +463,10 @@ def generate_quarter_page(quarter, proposals):
 
     # Categories
     cat_counts = {}
-    gnk_total = 0
-    usdt_total = 0
     for p in props:
         msg_types = get_message_types(p.get("messages", []))
         cat = categorize_type(msg_types)
         cat_counts[cat] = cat_counts.get(cat, 0) + 1
-        if p.get("status", "").lower() == "proposal_status_passed":
-            _gnk, _usdt = parse_amounts(p.get("summary", ""))
-            gnk_total += _gnk
-            usdt_total += _usdt
 
     cat_rows = ""
     if cat_counts:
@@ -481,12 +475,6 @@ def generate_quarter_page(quarter, proposals):
             cat_rows += f'<div class="qs-row"><span class="qs-label">{cat}</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:{pct:.0f}%"></span></span><span class="qs-value">{cnt}</span></div>\n'
     else:
         cat_rows = '<div class="qs-row"><span class="qs-label">Other</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:100%"></span></span><span class="qs-value">{total}</span></div>\n'
-
-    amount_rows = ""
-    if gnk_total > 0:
-        amount_rows += f'<div class="qs-amount-row"><span class="qs-amount-label">GNK allocated</span><span class="qs-amount-val">{gnk_total:,.0f} GNK</span></div>\n'
-    if usdt_total > 0:
-        amount_rows += f'<div class="qs-amount-row"><span class="qs-amount-label">USDT allocated</span><span class="qs-amount-val">${usdt_total:,.0f}</span></div>\n'
 
     md = f'''---
 title: "{quarter} Proposals"
@@ -525,13 +513,7 @@ template: proposals-oview.html
 </div>
 
 <div class="qs-categories">
-<strong>By Category</strong>
 {cat_rows}</div>
-
-<div class="qs-amounts">
-<strong>Approved Funding</strong>
-{amount_rows if amount_rows else '<div class="qs-amount-row"><span class="qs-amount-label">No funding proposals</span></div>'}
-</div>
 
 </div>
 
