@@ -532,8 +532,26 @@ template: proposals-oview.html
 
         md += "</div>\n"
 
+    # overall funding totals
+    o_gnk = 0
+    o_usdt = 0
+    for q in sorted_quarters:
+        for p in proposals_by_quarter[q]:
+            if p.get("status", "").lower() == "proposal_status_passed":
+                _g, _u = parse_amounts_from_messages(p.get("messages", []))
+                o_gnk += _g
+                o_usdt += _u
+    o_funding_html = ""
+    if o_gnk > 0 or o_usdt > 0:
+        parts = []
+        if o_gnk > 0:
+            parts.append(f'{o_gnk:,} GNK')
+        if o_usdt > 0:
+            parts.append(f'${o_usdt:,}')
+        o_funding_html = f'<div class="prop-oview-funding">Total approved funding: {" · ".join(parts)}</div>\n'
+
     # stats bar
-    md += f"""<div class="prop-oview-stats">
+    md += f"""{o_funding_html}<div class="prop-oview-stats">
 <em>{total} proposals across {len(sorted_quarters)} quarters. Last updated: {datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")}</em>
 </div>
 
@@ -601,6 +619,20 @@ def generate_quarter_page(quarter, proposals):
     else:
         cat_rows = '<div class="qs-row"><span class="qs-label">Other</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:100%"></span></span><span class="qs-value">{total}</span></div>\n'
 
+    # Funding totals from passed proposals
+    q_gnk = 0
+    q_usdt = 0
+    for p in props:
+        if p.get("status", "").lower() == "proposal_status_passed":
+            _g, _u = parse_amounts_from_messages(p.get("messages", []))
+            q_gnk += _g
+            q_usdt += _u
+    q_funding_rows = ""
+    if q_gnk > 0:
+        q_funding_rows += f'<div class="qs-funding-row"><span class="qs-funding-label">GNK</span><span class="qs-funding-val">{q_gnk:,}</span></div>\n'
+    if q_usdt > 0:
+        q_funding_rows += f'<div class="qs-funding-row"><span class="qs-funding-label">USDT</span><span class="qs-funding-val">${q_usdt:,}</span></div>\n'
+
     md = f'''---
 title: "{quarter} Proposals"
 template: proposals-oview.html
@@ -639,6 +671,8 @@ template: proposals-oview.html
 
 <div class="qs-categories">
 {cat_rows}</div>
+
+{q_funding_rows if q_funding_rows else ''}
 
 </div>
 

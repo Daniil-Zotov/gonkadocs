@@ -40,6 +40,8 @@ template: proposals-oview.html
 <div class="qs-row"><span class="qs-label">Models / IBC</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:17%"></span></span><span class="qs-value">1</span></div>
 </div>
 
+
+
 </div>
 
 <div class="prop-quarter">

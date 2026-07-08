@@ -40,6 +40,9 @@ template: proposals-oview.html
 <div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:9%"></span></span><span class="qs-value">1</span></div>
 </div>
 
+<div class="qs-funding-row"><span class="qs-funding-label">GNK</span><span class="qs-funding-val">20,000,000</span></div>
+
+
 </div>
 
 <div class="prop-quarter">

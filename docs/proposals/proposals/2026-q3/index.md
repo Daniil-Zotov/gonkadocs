@@ -39,6 +39,8 @@ template: proposals-oview.html
 <div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:50%"></span></span><span class="qs-value">1</span></div>
 </div>
 
+
+
 </div>
 
 <div class="prop-quarter">

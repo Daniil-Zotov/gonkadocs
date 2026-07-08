@@ -1088,8 +1088,9 @@ template: proposals-oview.html
 </div>
 
 </div>
+<div class="prop-oview-funding">Total approved funding: 20,553,404 GNK · $543,600</div>
 <div class="prop-oview-stats">
-<em>80 proposals across 5 quarters. Last updated: 2026-07-08 08:30 UTC</em>
+<em>80 proposals across 5 quarters. Last updated: 2026-07-08 08:35 UTC</em>
 </div>
 
 <script>
