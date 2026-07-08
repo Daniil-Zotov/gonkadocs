@@ -60,7 +60,7 @@ template: proposals-oview.html
     <span>Voting ends 2026-07-10</span>
   </div>
   <div class="prop-card-desc">4-month pilot of the External Test Lab & Community DevNet: a community-owned testing layer for Gonka. Full proposal and discussion: <a href="https://github.com/gonka-ai/gonka/discussions/1388" target="_blank">https://github.com/gonka-ai/gonka/discussions/1388</a>  The budget is he…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 65,591 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-funding prop-card-funding-voting">80,000 GNK · $88,000 · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 0 (0.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-funding prop-card-funding-voting">80,000 GNK · $88,000 · Community Pool</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-voting">
@@ -73,7 +73,7 @@ template: proposals-oview.html
     <span>Voting ends 2026-07-10</span>
   </div>
   <div class="prop-card-desc">Distribute restitution for Kimi operators affected by cPoC validation failure in epochs 306-309. The Kimi validation path failed starting in e306 causing confirmation_weight suppression for Kimi opera…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 160,928 (95.8%)</span> · <span class="prop-tally-no-text">No 5,966 (3.6%)</span> · <span class="prop-tally-veto-text">Veto 1,089 (0.6%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-funding prop-card-funding-voting">175,082 GNK · Gov Module</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 160,928 (73.6%)</span> · <span class="prop-tally-no-text">No 5,966 (2.7%)</span> · <span class="prop-tally-veto-text">Veto 51,830 (23.7%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-funding prop-card-funding-voting">175,082 GNK · Gov Module</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
