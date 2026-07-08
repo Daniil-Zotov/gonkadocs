@@ -8,14 +8,75 @@
     {% if page and page.title and not page.is_homepage %}
       {% set title = config.site_name ~ " - " ~ page.title | striptags %}
     {% endif %}
+    {% set description = page.meta.description if page and page.meta and page.meta.description else config.site_description %}
+    {% set image = page.meta.image if page and page.meta and page.meta.image else 'https://gonkadocs.com/images/01-favicon.png' %}
     <meta property="og:type" content="website">
     <meta property="og:title" content="{{ title }}">
-    <meta property="og:description" content="{{ config.site_description }}">
+    <meta property="og:description" content="{{ description }}">
     <meta property="og:url" content="{{ page.canonical_url }}">
     <meta property="og:image" content="{{ image }}">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="1080">
     <meta property="og:image:height" content="568">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ title }}">
+    <meta name="twitter:description" content="{{ description }}">
+    <meta name="twitter:image" content="{{ image }}">
+    {#- hreflang для мультиязычности (en / zh) -#}
+    {% if page and page.canonical_url %}
+      {% set current = page.canonical_url %}
+      {% if '/zh/' in current or current.endswith('/zh') %}
+        {% set en_version = current | replace('/zh/', '/') | replace('/zh', '') %}
+        <link rel="alternate" hreflang="zh" href="{{ current }}">
+        <link rel="alternate" hreflang="en" href="{{ en_version }}">
+        <link rel="alternate" hreflang="x-default" href="{{ en_version }}">
+      {% else %}
+        {% if current.endswith('/') %}
+          {% set zh_version = current + 'zh/' %}
+        {% else %}
+          {% set zh_version = current + '/zh/' %}
+        {% endif %}
+        <link rel="alternate" hreflang="en" href="{{ current }}">
+        <link rel="alternate" hreflang="zh" href="{{ zh_version }}">
+        <link rel="alternate" hreflang="x-default" href="{{ current }}">
+      {% endif %}
+    {% endif %}
+    {#- Organization schema.org -#}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Gonka",
+      "url": "https://gonka.ai",
+      "logo": "https://gonkadocs.com/images/01-favicon.png",
+      "sameAs": [
+        "https://github.com/gonka-ai",
+        "https://gonka.gg"
+      ]
+    }
+    </script>
+    {% if page and not page.is_homepage %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Docs",
+          "item": "https://gonka.ai/docs/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "{{ page.title | striptags if page.title else 'Page' }}",
+          "item": "{{ page.canonical_url }}"
+        }
+      ]
+    }
+    </script>
+    {% endif %}
   {% endblock %}
 
 {# Hide Material's header/tabs only on pages that are actual hero landings.
