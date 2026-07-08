@@ -18,7 +18,7 @@ template: proposals-proposals-main.html
 
 **Voting:** 2026-06-02 08:21 UTC → 2026-06-04 08:21 UTC
 
-**Proposer:** `gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm`
+**Proposer:** [`gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm`](https://gonka.gg/address/gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm){:target="_blank"}
 
 **Metadata:** [https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/6](https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/6)
 

@@ -18,7 +18,7 @@ template: proposals-proposals-main.html
 
 **Voting:** 2026-06-06 07:35 UTC → 2026-06-08 07:35 UTC
 
-**Proposer:** `gonka13kzs38qkq4uc0astlshv39kt9gpu3sr99unpcq`
+**Proposer:** [`gonka13kzs38qkq4uc0astlshv39kt9gpu3sr99unpcq`](https://gonka.gg/address/gonka13kzs38qkq4uc0astlshv39kt9gpu3sr99unpcq){:target="_blank"}
 
 **Metadata:** [https://github.com/Pestarzt0011/GNKRacers-proposal](https://github.com/Pestarzt0011/GNKRacers-proposal)
 

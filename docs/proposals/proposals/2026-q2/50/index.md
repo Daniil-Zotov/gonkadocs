@@ -18,7 +18,7 @@ template: proposals-proposals-main.html
 
 **Voting:** 2026-05-07 15:54 UTC → 2026-05-09 15:54 UTC
 
-**Proposer:** `gonka14fxt7xlj74h54u5lz8epz0qeuhpka6xjhzsyq3`
+**Proposer:** [`gonka14fxt7xlj74h54u5lz8epz0qeuhpka6xjhzsyq3`](https://gonka.gg/address/gonka14fxt7xlj74h54u5lz8epz0qeuhpka6xjhzsyq3){:target="_blank"}
 
 **Metadata:** [https://vote.gonka.vip/tenders/6392c2ea-7fb8-45c7-b1ec-80fb16d81d93](https://vote.gonka.vip/tenders/6392c2ea-7fb8-45c7-b1ec-80fb16d81d93)
 

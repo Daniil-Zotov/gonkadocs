@@ -18,7 +18,7 @@ template: proposals-proposals-main.html
 
 **Voting:** 2026-05-31 13:08 UTC → 2026-06-02 13:08 UTC
 
-**Proposer:** `gonka1tg7x8pv5lfnytkr9av3532mf2qq22ysdxxzr87`
+**Proposer:** [`gonka1tg7x8pv5lfnytkr9av3532mf2qq22ysdxxzr87`](https://gonka.gg/address/gonka1tg7x8pv5lfnytkr9av3532mf2qq22ysdxxzr87){:target="_blank"}
 
 **Metadata:** `Examples of work the team contributed to: https://www.youtube.com/watch?v=HzF6kyS3Fb8 | https://www.udemy.com/course/build-smart-contracts-for-cardano-blockchain/`
 

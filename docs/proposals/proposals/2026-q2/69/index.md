@@ -18,7 +18,7 @@ template: proposals-proposals-main.html
 
 **Voting:** 2026-06-05 19:26 UTC → 2026-06-07 19:26 UTC
 
-**Proposer:** `gonka197hqnwcl30x4js3egvaujjmfknlxy7rmfw3y6k`
+**Proposer:** [`gonka197hqnwcl30x4js3egvaujjmfknlxy7rmfw3y6k`](https://gonka.gg/address/gonka197hqnwcl30x4js3egvaujjmfknlxy7rmfw3y6k){:target="_blank"}
 
 **Failed reason:** maximum deposit period must not be nil: 0
 

@@ -18,7 +18,7 @@ template: proposals-proposals-main.html
 
 **Voting:** 2026-04-17 18:51 UTC → 2026-04-19 18:51 UTC
 
-**Proposer:** `gonka1tknn6p8f2y4843fp4ud6ynq0727r7g8l568d27`
+**Proposer:** [`gonka1tknn6p8f2y4843fp4ud6ynq0727r7g8l568d27`](https://gonka.gg/address/gonka1tknn6p8f2y4843fp4ud6ynq0727r7g8l568d27){:target="_blank"}
 
 **Metadata:** [https://github.com/DeAI-Nation/summit-proposal/blob/main/README.md](https://github.com/DeAI-Nation/summit-proposal/blob/main/README.md)
 

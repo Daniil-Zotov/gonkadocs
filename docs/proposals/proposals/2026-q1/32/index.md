@@ -18,7 +18,7 @@ template: proposals-proposals-main.html
 
 **Voting:** 2026-03-23 17:30 UTC → 2026-03-24 17:30 UTC
 
-**Proposer:** `gonka100s7x2t0npruu9ta02306qfmaened3vg3a9dn6`
+**Proposer:** [`gonka100s7x2t0npruu9ta02306qfmaened3vg3a9dn6`](https://gonka.gg/address/gonka100s7x2t0npruu9ta02306qfmaened3vg3a9dn6){:target="_blank"}
 
 **Metadata:** [https://github.com/huxuxuya/epoch158/blob/main/SIMPLE_COIN_AMOUNT_LOGIC.md](https://github.com/huxuxuya/epoch158/blob/main/SIMPLE_COIN_AMOUNT_LOGIC.md)
 

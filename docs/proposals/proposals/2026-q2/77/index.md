@@ -18,7 +18,7 @@ template: proposals-proposals-main.html
 
 **Voting:** 2026-06-24 15:18 UTC → 2026-06-26 15:18 UTC
 
-**Proposer:** `gonka10mmdjau4dnj8krs7sh7t7635ttnmq9u3vqgz09`
+**Proposer:** [`gonka10mmdjau4dnj8krs7sh7t7635ttnmq9u3vqgz09`](https://gonka.gg/address/gonka10mmdjau4dnj8krs7sh7t7635ttnmq9u3vqgz09){:target="_blank"}
 
 **Metadata:** [https://www.figma.com/deck/qd7a7bkcit9O1LZ8whP9Ei](https://www.figma.com/deck/qd7a7bkcit9O1LZ8whP9Ei)
 

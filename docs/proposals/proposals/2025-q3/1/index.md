@@ -18,7 +18,7 @@ template: proposals-proposals-main.html
 
 **Voting:** 2025-09-05 21:51 UTC → 2025-09-07 21:51 UTC
 
-**Proposer:** `gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`
+**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target="_blank"}
 
 **Metadata:** [https://github.com/gonka-ai/gonka/blob/9f34f2c3c8203d8ae269934facaa79069f4d8012/proposals/epoch-length/README.md](https://github.com/gonka-ai/gonka/blob/9f34f2c3c8203d8ae269934facaa79069f4d8012/proposals/epoch-length/README.md)
 

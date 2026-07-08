@@ -18,7 +18,7 @@ template: proposals-proposals-main.html
 
 **Voting:** 2026-07-05 19:40 UTC → 2026-07-07 19:40 UTC
 
-**Proposer:** `gonka100s7x2t0npruu9ta02306qfmaened3vg3a9dn6`
+**Proposer:** [`gonka100s7x2t0npruu9ta02306qfmaened3vg3a9dn6`](https://gonka.gg/address/gonka100s7x2t0npruu9ta02306qfmaened3vg3a9dn6){:target="_blank"}
 
 **Metadata:** [https://github.com/huxuxuya/GRC-3-result](https://github.com/huxuxuya/GRC-3-result)
 

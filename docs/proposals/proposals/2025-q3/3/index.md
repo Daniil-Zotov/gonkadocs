@@ -20,7 +20,7 @@ template: proposals-proposals-main.html
 
 **Expedited:** Yes
 
-**Proposer:** `gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`
+**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target="_blank"}
 
 **Metadata:** [https://github.com/gonka-ai/gonka/blob/2bf281cec95eaef061e2dfe46d4d104a7e1c2229/proposals/poc-validation-length/README.md](https://github.com/gonka-ai/gonka/blob/2bf281cec95eaef061e2dfe46d4d104a7e1c2229/proposals/poc-validation-length/README.md)
 

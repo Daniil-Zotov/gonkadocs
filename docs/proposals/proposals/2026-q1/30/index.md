@@ -18,7 +18,7 @@ template: proposals-proposals-main.html
 
 **Voting:** 2026-03-09 02:37 UTC → 2026-03-10 02:37 UTC
 
-**Proposer:** `gonka1awyggfq4e32d4y66ttq3hyud7dyrr0ajf8af0w`
+**Proposer:** [`gonka1awyggfq4e32d4y66ttq3hyud7dyrr0ajf8af0w`](https://gonka.gg/address/gonka1awyggfq4e32d4y66ttq3hyud7dyrr0ajf8af0w){:target="_blank"}
 
 **Metadata:** `Test proposal for governance UI`
 

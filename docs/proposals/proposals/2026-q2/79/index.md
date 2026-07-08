@@ -20,7 +20,7 @@ template: proposals-proposals-main.html
 
 **Expedited:** Yes
 
-**Proposer:** `gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le`
+**Proposer:** [`gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le`](https://gonka.gg/address/gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le){:target="_blank"}
 
 
 

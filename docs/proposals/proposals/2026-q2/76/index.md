@@ -18,7 +18,7 @@ template: proposals-proposals-main.html
 
 **Voting:** 2026-06-15 23:39 UTC → 2026-06-17 23:39 UTC
 
-**Proposer:** `gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le`
+**Proposer:** [`gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le`](https://gonka.gg/address/gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le){:target="_blank"}
 
 <div class="prop-funding-line">$93,600 · Community Pool</div>
 

@@ -18,7 +18,7 @@ template: proposals-proposals-main.html
 
 **Voting:** 2026-07-08 05:57 UTC → 2026-07-10 05:57 UTC
 
-**Proposer:** `gonka123pr0p0salv96xvne9qln70x3usvpyscug5f9a`
+**Proposer:** [`gonka123pr0p0salv96xvne9qln70x3usvpyscug5f9a`](https://gonka.gg/address/gonka123pr0p0salv96xvne9qln70x3usvpyscug5f9a){:target="_blank"}
 
 **Metadata:** [https://github.com/votkon/gonka-kimi-e306-issue](https://github.com/votkon/gonka-kimi-e306-issue)
 

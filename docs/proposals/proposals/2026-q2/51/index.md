@@ -18,7 +18,7 @@ template: proposals-proposals-main.html
 
 **Voting:** 2026-05-13 13:17 UTC → 2026-05-15 13:17 UTC
 
-**Proposer:** `gonka15p7s7w2hx0y8095lddd4ummm2y0kwpwljk00aq`
+**Proposer:** [`gonka15p7s7w2hx0y8095lddd4ummm2y0kwpwljk00aq`](https://gonka.gg/address/gonka15p7s7w2hx0y8095lddd4ummm2y0kwpwljk00aq){:target="_blank"}
 
 **Metadata:** [https://github.com/6block/gonka-webx-proposal/blob/main/README.md](https://github.com/6block/gonka-webx-proposal/blob/main/README.md)
 

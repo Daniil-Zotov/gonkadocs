@@ -18,7 +18,7 @@ template: proposals-proposals-main.html
 
 **Voting:** 2026-05-05 13:41 UTC → 2026-05-07 13:41 UTC
 
-**Proposer:** `gonka10mmdjau4dnj8krs7sh7t7635ttnmq9u3vqgz09`
+**Proposer:** [`gonka10mmdjau4dnj8krs7sh7t7635ttnmq9u3vqgz09`](https://gonka.gg/address/gonka10mmdjau4dnj8krs7sh7t7635ttnmq9u3vqgz09){:target="_blank"}
 
 **Metadata:** [https://app.notion.com/p/Gonka-AI-AI-Influencer-Lab-Proposal-3514ff1f5a9a81faae76efbeb153cbe2](https://app.notion.com/p/Gonka-AI-AI-Influencer-Lab-Proposal-3514ff1f5a9a81faae76efbeb153cbe2)
 

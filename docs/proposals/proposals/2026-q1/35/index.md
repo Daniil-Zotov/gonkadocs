@@ -21,7 +21,7 @@ template: proposals-proposals-main.html
 
 **Voting:** 2026-03-30 06:47 UTC → 2026-03-31 06:47 UTC
 
-**Proposer:** `gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm`
+**Proposer:** [`gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm`](https://gonka.gg/address/gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm){:target="_blank"}
 
 **Failed reason:** proposal did not get enough votes to pass
 

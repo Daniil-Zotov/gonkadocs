@@ -18,7 +18,7 @@ template: proposals-proposals-main.html
 
 **Voting:** 2026-06-03 22:09 UTC → 2026-06-05 22:09 UTC
 
-**Proposer:** `gonka1nvcwl2c7jxj2h47c56y8dmcmf0tynt5dplzngy`
+**Proposer:** [`gonka1nvcwl2c7jxj2h47c56y8dmcmf0tynt5dplzngy`](https://gonka.gg/address/gonka1nvcwl2c7jxj2h47c56y8dmcmf0tynt5dplzngy){:target="_blank"}
 
 **Metadata:** [https://github.com/votkon/gonka-kimi-restitution](https://github.com/votkon/gonka-kimi-restitution)
 

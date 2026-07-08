@@ -22,7 +22,7 @@ template: proposals-proposals-main.html
 
 **Voting:** 2026-06-10 20:42 UTC → 2026-06-12 20:42 UTC
 
-**Proposer:** `gonka1e3pepqllu89t8l2acw86fgp5jjkw8m7kcl47nk`
+**Proposer:** [`gonka1e3pepqllu89t8l2acw86fgp5jjkw8m7kcl47nk`](https://gonka.gg/address/gonka1e3pepqllu89t8l2acw86fgp5jjkw8m7kcl47nk){:target="_blank"}
 
 **Metadata:** [https://gonkalabs.com/proposal](https://gonkalabs.com/proposal)
 

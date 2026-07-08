@@ -18,7 +18,7 @@ template: proposals-proposals-main.html
 
 **Voting:** 2026-04-07 19:51 UTC → 2026-04-08 19:51 UTC
 
-**Proposer:** `gonka1ry4uzczgu7xxusa5whl387dd5alr7737spd0v2`
+**Proposer:** [`gonka1ry4uzczgu7xxusa5whl387dd5alr7737spd0v2`](https://gonka.gg/address/gonka1ry4uzczgu7xxusa5whl387dd5alr7737spd0v2){:target="_blank"}
 
 **Metadata:** [https://gonka.ai](https://gonka.ai)
 

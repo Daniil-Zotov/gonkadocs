@@ -18,7 +18,7 @@ template: proposals-proposals-main.html
 
 **Voting:** 2026-05-02 03:52 UTC → 2026-05-04 03:52 UTC
 
-**Proposer:** `gonka1gmuxdcxlsxn5z72elx77w9zym7yrgfxqgzg6ry`
+**Proposer:** [`gonka1gmuxdcxlsxn5z72elx77w9zym7yrgfxqgzg6ry`](https://gonka.gg/address/gonka1gmuxdcxlsxn5z72elx77w9zym7yrgfxqgzg6ry){:target="_blank"}
 
 **Metadata:** [https://github.com/gonkavip/taxreturn/blob/main/README.md](https://github.com/gonkavip/taxreturn/blob/main/README.md)
 

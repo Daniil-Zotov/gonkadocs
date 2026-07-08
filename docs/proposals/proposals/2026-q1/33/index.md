@@ -18,7 +18,7 @@ template: proposals-proposals-main.html
 
 **Voting:** 2026-03-26 15:10 UTC → 2026-03-27 15:10 UTC
 
-**Proposer:** `gonka197hqnwcl30x4js3egvaujjmfknlxy7rmfw3y6k`
+**Proposer:** [`gonka197hqnwcl30x4js3egvaujjmfknlxy7rmfw3y6k`](https://gonka.gg/address/gonka197hqnwcl30x4js3egvaujjmfknlxy7rmfw3y6k){:target="_blank"}
 
 **Metadata:** [https://github.com/votkon/epoch-132-analysis](https://github.com/votkon/epoch-132-analysis)
 

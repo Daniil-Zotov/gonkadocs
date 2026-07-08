@@ -18,7 +18,7 @@ template: proposals-proposals-main.html
 
 **Voting:** 2026-05-21 16:18 UTC → 2026-05-23 16:18 UTC
 
-**Proposer:** `gonka197hqnwcl30x4js3egvaujjmfknlxy7rmfw3y6k`
+**Proposer:** [`gonka197hqnwcl30x4js3egvaujjmfknlxy7rmfw3y6k`](https://gonka.gg/address/gonka197hqnwcl30x4js3egvaujjmfknlxy7rmfw3y6k){:target="_blank"}
 
 **Metadata:** [https://github.com/votkon/grc-proposal-2](https://github.com/votkon/grc-proposal-2)
 

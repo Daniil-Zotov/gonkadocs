@@ -18,7 +18,7 @@ template: proposals-proposals-main.html
 
 **Voting:** 2025-11-26 09:35 UTC → 2025-11-27 09:35 UTC
 
-**Proposer:** `gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`
+**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target="_blank"}
 
 <div class="prop-funding-line">20,000,000 GNK · Community Pool</div>
 

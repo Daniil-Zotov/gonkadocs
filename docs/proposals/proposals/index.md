@@ -1118,11 +1118,7 @@ template: proposals-oview.html
 
 </div>
 <div class="prop-oview-stats">
-<<<<<<< HEAD
-<em>80 proposals across 5 quarters. Last updated: 2026-07-08 10:36 UTC</em>
-=======
-<em>80 proposals across 5 quarters. Last updated: 2026-07-08 10:38 UTC</em>
->>>>>>> fix(proposals): move View on gonka.gg link into header block
+<em>80 proposals across 5 quarters. Last updated: 2026-07-08 10:43 UTC</em>
 </div>
 
 <script>

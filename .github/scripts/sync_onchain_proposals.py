@@ -478,7 +478,7 @@ template: proposals-proposals-main.html
     if expedited:
         md += "**Expedited:** Yes\n\n"
     if proposer:
-        md += f"**Proposer:** `{proposer}`\n\n"
+        md += f"**Proposer:** [`{proposer}`](https://gonka.gg/address/{proposer}){{:target=\"_blank\"}}\n\n"
     if metadata_url:
         if metadata_url.startswith("http://") or metadata_url.startswith("https://"):
             md += f"**Metadata:** [{metadata_url}]({metadata_url})\n\n"
