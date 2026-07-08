@@ -31,7 +31,7 @@ nav:
   - Community:
     - Обзор: community/README.md
     - Roadmap: 
-      - Overview: community/roadmap/gonka-network-development-roadmap.md
+      - Overview: community/roadmap/README.md
     - "Governance Support Committee": 
       - Overview: community/governance support committee/README.md  
     - "Gonka Product Committee": 
