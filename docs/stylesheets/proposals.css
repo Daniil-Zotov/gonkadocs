@@ -245,6 +245,9 @@
 [data-md-color-scheme="slate"] .prop-tally-veto-text { color: #d29922; }
 [data-md-color-scheme="slate"] .prop-tally-abstain-text { color: #8b949e; }
 
+.prop-tally-quorum-text { color: var(--md-default-fg-color--light); font-size: 0.9em; }
+[data-md-color-scheme="slate"] .prop-tally-quorum-text { color: #8b949e; }
+
 /* ── Funding line on detail page ───────────────────────────── */
 .prop-funding-line {
   font-size: 13px;

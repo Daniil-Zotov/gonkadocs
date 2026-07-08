@@ -48,6 +48,7 @@ Distribute restitution for Cases 2, 3, and 4 across epochs 248-254. Case 2: pres
     <span class="prop-tally-no-text">No 0 (0.0%)</span>
     <span class="prop-tally-veto-text">Veto 0 (0.0%)</span>
     <span class="prop-tally-abstain-text">Abstain 119,835 (38.8%)</span>
+    <span class="prop-tally-quorum-text">Quorum 25.0%</span>
   </div>
 </div>
 

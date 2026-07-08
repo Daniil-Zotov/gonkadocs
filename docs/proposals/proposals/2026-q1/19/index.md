@@ -47,6 +47,7 @@ Upgrade Proposal: v0.2.7
     <span class="prop-tally-no-text">No 148,604 (3.7%)</span>
     <span class="prop-tally-veto-text">Veto 8,096 (0.2%)</span>
     <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span>
+    <span class="prop-tally-quorum-text">Quorum 25.0%</span>
   </div>
 </div>
 

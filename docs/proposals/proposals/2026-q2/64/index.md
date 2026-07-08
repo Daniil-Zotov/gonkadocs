@@ -48,6 +48,7 @@ Web analytics, attribution, and funnel dashboarding for Gonka.AI: GA4 implementa
     <span class="prop-tally-no-text">No 0 (0.0%)</span>
     <span class="prop-tally-veto-text">Veto 70,043 (21.5%)</span>
     <span class="prop-tally-abstain-text">Abstain 34,369 (10.6%)</span>
+    <span class="prop-tally-quorum-text">Quorum 25.0%</span>
   </div>
 </div>
 

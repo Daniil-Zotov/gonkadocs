@@ -60,7 +60,7 @@ template: proposals-oview.html
     <span>Voting ends 2026-07-10</span>
   </div>
   <div class="prop-card-desc">Distribute restitution for Kimi operators affected by cPoC validation failure in epochs 306-309. The Kimi validation path failed starting in e306 causing confirmation_weight suppression for Kimi opera…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 107,866 (94.8%)</span> · <span class="prop-tally-no-text">No 5,966 (5.2%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-funding prop-card-funding-voting">175,082 GNK · Gov Module</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 107,866 (94.8%)</span> · <span class="prop-tally-no-text">No 5,966 (5.2%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span> · <span class="prop-tally-quorum-text">Quorum 25.0%</span><span class="prop-card-funding prop-card-funding-voting">175,082 GNK · Gov Module</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -73,7 +73,7 @@ template: proposals-oview.html
     <span>Voting ends 2026-07-07</span>
   </div>
   <div class="prop-card-desc">Restitution payout for confirmed GRC Proposal #3 cases, with Case 05 payments from proposal_id=67 deducted where the same address and epoch were already compensated, and positive victim outputs below …</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 16,378 (10.4%)</span> · <span class="prop-tally-no-text">No 94,721 (60.4%)</span> · <span class="prop-tally-veto-text">Veto 39,454 (25.1%)</span> · <span class="prop-tally-abstain-text">Abstain 6,344 (4.0%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 16,378 (10.4%)</span> · <span class="prop-tally-no-text">No 94,721 (60.4%)</span> · <span class="prop-tally-veto-text">Veto 39,454 (25.1%)</span> · <span class="prop-tally-abstain-text">Abstain 6,344 (4.0%)</span> · <span class="prop-tally-quorum-text">Quorum 25.0%</span></div>
 </div>
 
 </div>

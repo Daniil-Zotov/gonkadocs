@@ -48,6 +48,7 @@ Saccade Media House is a creative team of tech entrepreneurs who know how to tel
     <span class="prop-tally-no-text">No 183 (0.0%)</span>
     <span class="prop-tally-veto-text">Veto 0 (0.0%)</span>
     <span class="prop-tally-abstain-text">Abstain 124,587 (24.0%)</span>
+    <span class="prop-tally-quorum-text">Quorum 25.0%</span>
   </div>
 </div>
 

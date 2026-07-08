@@ -64,6 +64,7 @@ Full proposal: https://gonkalabs.com/proposal
     <span class="prop-tally-no-text">No 3,791 (1.0%)</span>
     <span class="prop-tally-veto-text">Veto 15 (0.0%)</span>
     <span class="prop-tally-abstain-text">Abstain 74,304 (19.4%)</span>
+    <span class="prop-tally-quorum-text">Quorum 25.0%</span>
   </div>
 </div>
 

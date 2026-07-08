@@ -50,6 +50,7 @@ Today, participating in Gonka governance requires following multiple channels si
     <span class="prop-tally-no-text">No 335,534 (72.2%)</span>
     <span class="prop-tally-veto-text">Veto 5,913 (1.3%)</span>
     <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span>
+    <span class="prop-tally-quorum-text">Quorum 25.0%</span>
   </div>
 </div>
 

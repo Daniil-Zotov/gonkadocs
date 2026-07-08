@@ -45,6 +45,7 @@ Increase the minimum deposit required to submit a governance proposal to 500 GNK
     <span class="prop-tally-no-text">No 40 (0.0%)</span>
     <span class="prop-tally-veto-text">Veto 572 (0.2%)</span>
     <span class="prop-tally-abstain-text">Abstain 10,823 (3.5%)</span>
+    <span class="prop-tally-quorum-text">Quorum 25.0%</span>
   </div>
 </div>
 

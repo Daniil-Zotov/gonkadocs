@@ -47,6 +47,7 @@ template: proposals-proposals-main.html
     <span class="prop-tally-no-text">No 11,504 (3.5%)</span>
     <span class="prop-tally-veto-text">Veto 0 (0.0%)</span>
     <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span>
+    <span class="prop-tally-quorum-text">Quorum 25.0%</span>
   </div>
 </div>
 

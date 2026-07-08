@@ -68,6 +68,7 @@ https://www.canva.com/design/DAG5x5pF3M4/VycFkb80_elACWPiaNMOQg/view
     <span class="prop-tally-no-text">No 10,325 (28.8%)</span>
     <span class="prop-tally-veto-text">Veto 2,450 (6.8%)</span>
     <span class="prop-tally-abstain-text">Abstain 13,939 (38.9%)</span>
+    <span class="prop-tally-quorum-text">Quorum 25.0%</span>
   </div>
 </div>
 

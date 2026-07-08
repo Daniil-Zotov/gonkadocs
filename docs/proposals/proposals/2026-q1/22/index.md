@@ -45,6 +45,7 @@ Update Expiration Dates for Developer Access and Participant Allowlist
     <span class="prop-tally-no-text">No 2,836 (0.1%)</span>
     <span class="prop-tally-veto-text">Veto 0 (0.0%)</span>
     <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span>
+    <span class="prop-tally-quorum-text">Quorum 25.0%</span>
   </div>
 </div>
 

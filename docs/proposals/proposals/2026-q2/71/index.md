@@ -50,6 +50,7 @@ We're a comms team specializing in Organic PR for crypto and tech projects. With
     <span class="prop-tally-no-text">No 72 (0.0%)</span>
     <span class="prop-tally-veto-text">Veto 0 (0.0%)</span>
     <span class="prop-tally-abstain-text">Abstain 233 (0.1%)</span>
+    <span class="prop-tally-quorum-text">Quorum 25.0%</span>
   </div>
 </div>
 

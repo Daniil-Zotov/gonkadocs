@@ -50,6 +50,7 @@ Release 246,000 GNK from Community Fund to finalize GNK Racers — a multiplayer
     <span class="prop-tally-no-text">No 107,644 (69.6%)</span>
     <span class="prop-tally-veto-text">Veto 6,241 (4.0%)</span>
     <span class="prop-tally-abstain-text">Abstain 2,245 (1.5%)</span>
+    <span class="prop-tally-quorum-text">Quorum 25.0%</span>
   </div>
 </div>
 
