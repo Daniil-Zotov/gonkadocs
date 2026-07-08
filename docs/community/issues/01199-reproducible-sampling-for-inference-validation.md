@@ -2,7 +2,7 @@
 title: "#1199 — Reproducible sampling for inference validation"
 source: https://github.com/gonka-ai/gonka/issues/1199
 issue_number: 1199
-synced_at: 2026-07-08T14:44:18Z
+synced_at: 2026-07-08T16:53:27Z
 template: issues-main.html
 ---
 
@@ -15,7 +15,7 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-05-19 23:17 UTC</span>
-    <span class="issues-meta-item">5 comments</span>
+    <span class="issues-meta-item">4 comments</span>
     <span class="issues-meta-item">Updated 2026-07-06 02:53 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span></div>
@@ -145,7 +145,7 @@ The priority is to take over the existing work, gradually introduce it into MLNo
 
 ---
 
-## 💬 Comments (5)
+## 💬 Comments (4)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -163,22 +163,6 @@ The priority is to take over the existing work, gradually introduce it into MLNo
   </div>
   <div class="issues-comment-body issues-content">
     <p>@Ryanchen911, yes please! </p>
-  </div>
-</div>
-<div class="issues-comment">
-  <div class="issues-comment-header">
-    <span>[@neuron7xLab](https://github.com/neuron7xLab)</span>
-    <span class="issues-meta-item">commented 2026-07-02 13:28 UTC</span>
-  </div>
-  <div class="issues-comment-body issues-content">
-    <p>I ran an adversarial pass on the deterministic sampling dump against the inference-validation proposal.</p>
-<p><strong>Finding:</strong> the deterministic replay seed was not chain-bound — it was derived from request-controlled material (<code>f"{user_seed}|{prompt_token_ids}"</code>), so Stage-1 replay could be detached from the chain inference instance. The proposal requires <code>run_seed = SHA256(user_seed || inference_id_from_chain)</code>.</p>
-<p>I opened a focused PR against <code>gonka-ai/vllm:tg/detemrinistic_sampling_dump</code> — gonka-ai/vllm#56 — with a chain-bound seed primitive + tests.</p>
-<p>Scope note (updated as review tightened it to match vLLM's actual API):
-- <code>user_seed</code> is <strong><code>int</code>-only</strong> (vLLM <code>SamplingParams.seed</code> / OpenAI <code>seed</code> are <code>Optional[int]</code>); <code>bool</code>/non-<code>int</code> fail closed, so a str <code>"7"</code> can't collide with int <code>7</code>.
-- the chain id must be a non-empty <code>str</code>, hashed <strong>byte-exact</strong> (no stripping); missing/empty/whitespace-only/non-<code>str</code> fail closed.
-- framing is <strong>byte-length-prefixed SHA256 over UTF-8</strong> (portable to Go/Rust/JS), not raw concatenation.</p>
-<p>Honest status: reproducible from <code>pull/56/head</code>; 10 invariant tests + a golden vector verified locally (isolated harness — full <code>pytest</code> needs a built vLLM env); CI is <code>action_required</code> (fork approval gate), so not green yet. Complementary to @Ryanchen911's review, not a takeover.</p>
   </div>
 </div>
 <div class="issues-comment">

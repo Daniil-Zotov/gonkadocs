@@ -5,8 +5,8 @@ template: issues-main.html
 
 # Issues: bug
 
-Issues with label **bug**. Total: **11**.
-Updated: `2026-07-08 14:47 UTC`.
+Issues with label **bug**. Total: **12**.
+Updated: `2026-07-08 16:56 UTC`.
 
 [← All Issues](../../index.md)
 
@@ -21,7 +21,7 @@ Updated: `2026-07-08 14:47 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span> <span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@maria-mitina](https://github.com/maria-mitina) opened 15 hours ago</span>
+      <span class="issues-meta-item">[@maria-mitina](https://github.com/maria-mitina) opened 17 hours ago</span>
       
     </div>
   </div>
@@ -120,21 +120,6 @@ Updated: `2026-07-08 14:47 UTC`.
   <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
   <div class="issues-body">
     <div class="issues-title">
-      <a href="../../00310-bug-1-preserved-node-disabling/">BUG-1: Preserved node disabling</a>
-      <span class="issues-number">#310</span>
-    </div>
-    
-    <div class="issues-labels"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span> <span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item">[@gmorgachev](https://github.com/gmorgachev) opened 2026-02-12</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
       <a href="../../00421-validators-are-marked-for-removal-but-havent-removed/">Validators are marked for removal but haven't removed</a>
       <span class="issues-number">#421</span>
     </div>
@@ -147,16 +132,46 @@ Updated: `2026-07-08 14:47 UTC`.
   </div>
 </li>
 <li class="issues-list-item">
-  <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
   <div class="issues-body">
     <div class="issues-title">
-      <a href="../../00421-validators-are-marked-for-removal-but-havent-removed/">Validators are marked for removal but haven't removed</a>
-      <span class="issues-number">#421</span>
+      <a href="../../00398-api-node-connection-issues/">API -> Node Connection Issues</a>
+      <span class="issues-number">#398</span>
     </div>
     
-    <div class="issues-labels"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span> <span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span></div>
+    <div class="issues-labels"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@gmorgachev](https://github.com/gmorgachev) opened 2026-02-12</span>
+      <span class="issues-meta-item">[@gmorgachev](https://github.com/gmorgachev) opened 2026-01-29</span>
+      
+    </div>
+  </div>
+</li>
+<li class="issues-list-item">
+  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
+      <a href="../../00311-bug-2-local-mlnode-identifier-mlnode-lookup-in-wrong-group/">BUG-2: Local MLNode identifier & MLNode lookup in wrong group</a>
+      <span class="issues-number">#311</span>
+    </div>
+    
+    <div class="issues-labels"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
+    <div class="issues-meta">
+      <span class="issues-meta-item">[@gmorgachev](https://github.com/gmorgachev) opened 2026-01-28</span>
+      
+    </div>
+  </div>
+</li>
+<li class="issues-list-item">
+  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
+      <a href="../../00402-bug-api-container-doesnt-start-due-to-nats-insufficient-reso/">[BUG]: API container doesn't start due to "nats: insufficient resources"</a>
+      <span class="issues-number">#402</span>
+    </div>
+    
+    <div class="issues-labels"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
+    <div class="issues-meta">
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-15</span>
       
     </div>
   </div>
