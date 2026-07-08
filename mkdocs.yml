@@ -30,22 +30,26 @@ nav:
   - Gonka.ai/docs: "/gonka/docs/"
   - Community:
     - Обзор: community/README.md
-    - Roadmap: community/roadmap/gonka-network-development-roadmap.md
-    - "gonka product committee": community/gonka product committee/README.md
-    - "gonka restitution committee": community/gonka restitution committee/README.md
-    - "governance support committee": community/governance support committee/regulation.md
+    - Roadmap: 
+      - Overview: community/roadmap/gonka-network-development-roadmap.md
+    - "Governance Support Committee": 
+      - Overview: community/governance support committee/regulation.md  
+    - "Gonka Product Committee": 
+      - Overview: community/gonka product committee/README.md
     - "Go-to-Market Committee":
       - Overview: community/go-to-market committee/README.md
-      - Members: community/go-to-market committee/members.md
+      - Members: community/go-to-market committee/members.md      
+    - "Gonka Restitution Committee": 
+      - Overview: community/gonka restitution committee/README.md
     - Discussions:
-      - Обзор: community/discussion/index.md
+      - Overview: community/discussion/index.md
       - Announcements: community/discussion/announcements/index.md
       - General: community/discussion/general/index.md
       - Proposals: community/discussion/proposals/index.md
       - Q&A: community/discussion/q-a/index.md
       - Show and Tell: community/discussion/show-and-tell/index.md
     - Issues:
-      - Обзор: community/issues/index.md
+      - Overview: community/issues/index.md
   - Proposals:
     - Pre-Proposals:
       - Overview: proposals/preproposals/index.md
