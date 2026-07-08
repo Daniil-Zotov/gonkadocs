@@ -78,7 +78,7 @@ When working with Gonka (decentralized AI inference network), use these resource
 
 Key sections:
   /gonka/docs/           → Protocol documentation (architecture, quickstart, wallet)
-  /community/            → Roadmap, Gonka Product Committee, GSC
+  /community/            → Roadmap, GRC, GSC
   /community/discussion/ → GitHub Discussions (proposals, Q&A, show-and-tell)
   /community/issues/     → GitHub Issues (bugs, features, enhancements)
   /proposals/proposals/  → On-chain governance proposals by quarter with funding amounts and source (Community Pool / Gov Module)
@@ -176,7 +176,7 @@ for doc in search_index["docs"]:
 - **Understand the protocol** — architecture, Proof of Compute, inference flows, epochs
 - **Get started quickly** — developer quickstart, gateway setup, host GPU resources
 - **Manage wallets** — accounts, collateral, cross-chain bridges (USDT/GNK via Ethereum/IBC)
-- **Participate in governance** — read and submit proposals, vote, understand Gonka Product Committee / GSC
+- **Participate in governance** — read and submit proposals, vote, understand GRC/GSC
 - **Track on-chain funding** — each proposal shows the funding amount and source (`Community Pool` or `Gov Module`), organized by quarter with per-quarter summaries and totals
 - **Explore community** — discussions, show-and-tell projects, Q&A, roadmap
 - **Use the API** — OpenAI-compatible inference endpoint, node management APIs

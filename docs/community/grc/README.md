@@ -1,4 +1,4 @@
-# Gonka Product Committee
+# pasted
 
 The Problem:
 - The protocol changes and sometimes participants suffer losses due to bugs and unpredictable behavior
@@ -31,4 +31,4 @@ Requirements for participants:
 
 If you have the opportunity and desire to be part of the committee - please confirm your participation.
 
-Основатель Gonka Product Committee https://t.me/votkon
+Основатель GRC https://t.me/votkon
