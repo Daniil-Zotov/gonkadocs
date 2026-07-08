@@ -20,6 +20,7 @@ template: proposals-proposals-main.html
 
 **Proposer:** `gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`
 
+<div class="prop-funding-line">20,000,000 GNK</div>
 </div>
 
 Sale GNK from Community Fund
@@ -52,6 +53,27 @@ Sale GNK from Community Fund
 | # | Type |
 | :- | :--- |
 | 1 | `/cosmos.distribution.v1beta1.MsgCommunityPoolSpend` |
+
+<details class="prop-contracts">
+<summary>Contract Details</summary>
+
+```json
+[
+  {
+    "@type": "/cosmos.distribution.v1beta1.MsgCommunityPoolSpend",
+    "authority": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "recipient": "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2",
+    "amount": [
+      {
+        "denom": "ngonka",
+        "amount": "20000000000000000"
+      }
+    ]
+  }
+]
+```
+
+</details>
 
 ---
 

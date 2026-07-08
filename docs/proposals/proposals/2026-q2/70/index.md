@@ -24,6 +24,7 @@ template: proposals-proposals-main.html
 
 **Failed reason:** proposal did not get enough votes to pass
 
+<div class="prop-funding-line">246,000 GNK</div>
 </div>
 
 Release 246,000 GNK from Community Fund to finalize GNK Racers — a multiplayer side-view racing mini-app with a live working prototype (@GNKRacers_bot). The game drives new user acquisition, wallet activations, and GNK wagering velocity on Gonka, with future AI-agent auto-races generating Host GPU inference demand (Q1 2027). Single allocation requested to streamline cross-functional production and marketing execution. Full transparent budget, team breakdown, and deliverables: https://github.com/Pestarzt0011/GNKRacers-proposal. Bi-weekly progress reporting committed.
@@ -56,6 +57,27 @@ Release 246,000 GNK from Community Fund to finalize GNK Racers — a multiplayer
 | # | Type |
 | :- | :--- |
 | 1 | `/cosmos.distribution.v1beta1.MsgCommunityPoolSpend` |
+
+<details class="prop-contracts">
+<summary>Contract Details</summary>
+
+```json
+[
+  {
+    "@type": "/cosmos.distribution.v1beta1.MsgCommunityPoolSpend",
+    "authority": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "recipient": "gonka13kzs38qkq4uc0astlshv39kt9gpu3sr99unpcq",
+    "amount": [
+      {
+        "denom": "ngonka",
+        "amount": "246000000000000"
+      }
+    ]
+  }
+]
+```
+
+</details>
 
 ---
 

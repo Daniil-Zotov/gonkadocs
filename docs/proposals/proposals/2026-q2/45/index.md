@@ -24,6 +24,7 @@ template: proposals-proposals-main.html
 
 **Failed reason:** proposal did not get enough votes to pass
 
+<div class="prop-funding-line">119,000 GNK</div>
 </div>
 
 Replace scattered governance discussions and complex CLI voting with a unified Governance Portal - a single interface for all Gonka governance activity. The portal includes: a proposal feed across Discussion/Voting/Archive stages, miner-weighted ranking, crowdfunded deposit collection, targeted notifications (Telegram/email/on-site), and browser-based voting via restricted hot keys (no CLI required). Critical point: this is not just a convenient UI - the crowdfunded deposit mechanism acts as an economic quality filter that screens proposals before they reach on-chain voting, preventing low-effort or spam proposals from consuming validator attention. Funding request: 50,000 USDT (~119,000 GNK), split into Phase 1 MVP (30,000 USDT - portal frontend/backend, wallet auth, deposit crowdfunding) and Phase 2 (20,000 USDT - escrow contracts, dynamic quorum, reputation systems). Code will be open-sourced upon launch. We guarantee 90 days of post-launch support; afterwards, the portal becomes community-owned and further support/maintenance will be funded through community governance votes. Prototype: https://vote-demo.gonkabroker.com. Full discussion: https://github.com/gonka-ai/gonka/discussions/1104.
@@ -56,6 +57,27 @@ Replace scattered governance discussions and complex CLI voting with a unified G
 | # | Type |
 | :- | :--- |
 | 1 | `/cosmos.distribution.v1beta1.MsgCommunityPoolSpend` |
+
+<details class="prop-contracts">
+<summary>Contract Details</summary>
+
+```json
+[
+  {
+    "@type": "/cosmos.distribution.v1beta1.MsgCommunityPoolSpend",
+    "authority": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "recipient": "gonka14zlgmrd6v5gaqudxmvkn0yg8g55qpvcep9n6ds",
+    "amount": [
+      {
+        "denom": "ngonka",
+        "amount": "119000000000000"
+      }
+    ]
+  }
+]
+```
+
+</details>
 
 ---
 

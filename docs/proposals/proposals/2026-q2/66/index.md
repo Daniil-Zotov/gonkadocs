@@ -22,6 +22,7 @@ template: proposals-proposals-main.html
 
 **Failed reason:** proposal did not get enough votes to pass
 
+<div class="prop-funding-line">$1,000,000</div>
 </div>
 
 test proposal - 测试方案
@@ -54,6 +55,29 @@ test proposal - 测试方案
 | # | Type |
 | :- | :--- |
 | 1 | `/cosmwasm.wasm.v1.MsgExecuteContract` |
+
+<details class="prop-contracts">
+<summary>Contract Details</summary>
+
+```json
+[
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "contract": "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2",
+    "msg": {
+      "withdraw_ibc": {
+        "amount": "1000000000000",
+        "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+        "recipient": "gonka1hwyjwehgp6e5pgpg0ye4a7unwu5q9xzljpuwr5"
+      }
+    },
+    "funds": []
+  }
+]
+```
+
+</details>
 
 ---
 

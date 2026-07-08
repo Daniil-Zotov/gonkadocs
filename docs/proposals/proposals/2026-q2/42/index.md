@@ -22,6 +22,7 @@ template: proposals-proposals-main.html
 
 **Metadata:** [https://github.com/DeAI-Nation/summit-proposal/blob/main/README.md](https://github.com/DeAI-Nation/summit-proposal/blob/main/README.md)
 
+<div class="prop-funding-line">$10,000</div>
 </div>
 
 We are DeAI Nation, a global nonprofit organization supporting and promoting the decentralized AI ecosystem, and authors of the State of DeAI 2026 report. We propose that the Gonka community become a sponsor of a scientific panel discussion at the Global Compute Sovereignty Summit in Tashkent, Uzbekistan. Cost: 10,000 USDT. If the vote is successful, the panel will receive official 'Supported by the Gonka community' status. This is a strong opportunity for the community to position itself as a key driver supporting research in this area in front of hundreds of business executives, government officials, and investors, including the Minister of Digital Technologies of the Republic of Uzbekistan Sherzod Shermatov, Executive Director of the Saudi-Uzbek Council Faisal Ba Abdullah, and CEO of Al Fardan Ventures Mohammed Al Fardan. More information about the summit: https://gcss.outsource.gov.uz Detailed proposal: https://github.com/DeAI-Nation/summit-proposal/blob/main/README.md
@@ -54,6 +55,29 @@ We are DeAI Nation, a global nonprofit organization supporting and promoting the
 | # | Type |
 | :- | :--- |
 | 1 | `/cosmwasm.wasm.v1.MsgExecuteContract` |
+
+<details class="prop-contracts">
+<summary>Contract Details</summary>
+
+```json
+[
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "contract": "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2",
+    "msg": {
+      "withdraw_ibc": {
+        "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+        "amount": "10000000000",
+        "recipient": "gonka1gpsnclfyw59nghahf9cs9d76qqqwv9v7hrjlnz"
+      }
+    },
+    "funds": []
+  }
+]
+```
+
+</details>
 
 ---
 

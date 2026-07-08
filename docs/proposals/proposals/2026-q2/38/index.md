@@ -24,6 +24,7 @@ template: proposals-proposals-main.html
 
 **Failed reason:** proposal did not get enough votes to pass
 
+<div class="prop-funding-line">20,000 GNK</div>
 </div>
 
 If you agree say YES — Solution 1: Produce a short review video with 1-2 active community members. Solution 2: Introduce the project to BD managers of major CIS exchanges for listings. Solution 3 (Regulatory safety): To avoid future regulatory risks, we will run regular token drops
@@ -57,6 +58,43 @@ If you agree say YES — Solution 1: Produce a short review video with 1-2 activ
 | :- | :--- |
 | 1 | `/inference.streamvesting.MsgBatchTransferWithVesting` |
 | 2 | `/cosmos.distribution.v1beta1.MsgCommunityPoolSpend` |
+
+<details class="prop-contracts">
+<summary>Contract Details</summary>
+
+```json
+[
+  {
+    "@type": "/inference.streamvesting.MsgBatchTransferWithVesting",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "outputs": [
+      {
+        "recipient": "gonka1lqjjgnme3ayk2q0w8thxnhx69l639dtz9j3r2l",
+        "amount": [
+          {
+            "denom": "ngonka",
+            "amount": "25000000000000"
+          }
+        ]
+      }
+    ],
+    "vesting_epochs": "180"
+  },
+  {
+    "@type": "/cosmos.distribution.v1beta1.MsgCommunityPoolSpend",
+    "authority": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "recipient": "gonka1lqjjgnme3ayk2q0w8thxnhx69l639dtz9j3r2l",
+    "amount": [
+      {
+        "denom": "ngonka",
+        "amount": "20000000000000"
+      }
+    ]
+  }
+]
+```
+
+</details>
 
 ---
 

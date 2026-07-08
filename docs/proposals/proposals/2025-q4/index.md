@@ -95,6 +95,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Sale GNK from Community Fund</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 1,180,961 (98.8%)</span> · <span class="prop-tally-no-text">No 9,781 (0.8%)</span> · <span class="prop-tally-veto-text">Veto 4,577 (0.4%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-tally" style="margin-top:2px">20,000,000 GNK</div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">

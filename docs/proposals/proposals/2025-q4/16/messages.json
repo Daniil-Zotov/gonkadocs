@@ -1,0 +1,13 @@
+[
+  {
+    "@type": "/cosmos.upgrade.v1beta1.MsgSoftwareUpgrade",
+    "authority": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "plan": {
+      "name": "v0.2.6",
+      "time": "0001-01-01T00:00:00Z",
+      "height": "1820000",
+      "info": "{\n        \"binaries\": {\n            \"linux/amd64\": \"https://github.com/gonka-ai/gonka/releases/download/release%2Fv0.2.6-post1/inferenced-amd64.zip?checksum=sha256:afa5772b8c7014d3fd9015651aa543ace4196c227ce59ee3f9fed3fcd98f4650\"\n        },\n        \"api_binaries\": {\n            \"linux/amd64\": \"https://github.com/gonka-ai/gonka/releases/download/release%2Fv0.2.6-post1/decentralized-api-amd64.zip?checksum=sha256:52ac4c55313f77eff7da4f7160396837c8810f9bf84a860c21c0299599968aaa\"\n        }\n    }",
+      "upgraded_client_state": null
+    }
+  }
+]

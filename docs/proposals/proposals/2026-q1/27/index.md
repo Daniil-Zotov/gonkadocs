@@ -55,6 +55,27 @@ Upgrade Proposal: v0.2.10
 | :- | :--- |
 | 1 | `/cosmos.upgrade.v1beta1.MsgSoftwareUpgrade` |
 
+<details class="prop-contracts">
+<summary>Contract Details</summary>
+
+```json
+[
+  {
+    "@type": "/cosmos.upgrade.v1beta1.MsgSoftwareUpgrade",
+    "authority": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "plan": {
+      "name": "v0.2.10",
+      "time": "0001-01-01T00:00:00Z",
+      "height": "2712600",
+      "info": "{\n        \"binaries\": {\n            \"linux/amd64\": \"https://github.com/gonka-ai/gonka/releases/download/release%2Fv0.2.10/inferenced-amd64.zip?checksum=sha256:b118610cfa1f45f9dfb4eb112a01a91ad886333b73aac49fee20abc0c3f1998a\"\n        },\n        \"api_binaries\": {\n            \"linux/amd64\": \"https://github.com/gonka-ai/gonka/releases/download/release%2Fv0.2.10/decentralized-api-amd64.zip?checksum=sha256:47d6b64424f34242ba12d04aa367f3a7d3933961b55f9d2434b36399d0faf18f\"\n        }\n    }",
+      "upgraded_client_state": null
+    }
+  }
+]
+```
+
+</details>
+
 ---
 
 <div class="prop-footer" markdown="1">

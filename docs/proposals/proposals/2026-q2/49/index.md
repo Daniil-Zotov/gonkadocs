@@ -22,6 +22,7 @@ template: proposals-proposals-main.html
 
 **Metadata:** [https://app.notion.com/p/Gonka-AI-AI-Influencer-Lab-Proposal-3514ff1f5a9a81faae76efbeb153cbe2](https://app.notion.com/p/Gonka-AI-AI-Influencer-Lab-Proposal-3514ff1f5a9a81faae76efbeb153cbe2)
 
+<div class="prop-funding-line">$45,000</div>
 </div>
 
 We're ICG - AI Influencer Lab, a team that builds and scales hyper-realistic AI avatars on Instagram, TikTok, and YouTube as full ambassadors across verticals. We manage 160+ accounts in AI, finance, crypto, and tech, and generate 100M+ organic monthly views. Our avatars in tech/AI are followed by Mark Cuban, Mark Ruffalo, the UAE Minister of Energy, thousands of entrepreneurs, and the AI-native crowd.
@@ -64,6 +65,29 @@ Full proposal: https://app.notion.com/p/Gonka-AI-AI-Influencer-Lab-Proposal-3514
 | # | Type |
 | :- | :--- |
 | 1 | `/cosmwasm.wasm.v1.MsgExecuteContract` |
+
+<details class="prop-contracts">
+<summary>Contract Details</summary>
+
+```json
+[
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "contract": "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2",
+    "msg": {
+      "withdraw_ibc": {
+        "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+        "amount": "45000000000",
+        "recipient": "gonka1ugpgrr9quvmw9qdsw9wf6s56c5vvl62v9chqmv"
+      }
+    },
+    "funds": []
+  }
+]
+```
+
+</details>
 
 ---
 

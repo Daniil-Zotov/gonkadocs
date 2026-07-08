@@ -24,6 +24,7 @@ template: proposals-proposals-main.html
 
 **Metadata:** [https://vote.gonka.vip/tenders/550f71de-897f-4ce5-8af8-97854775f8b2](https://vote.gonka.vip/tenders/550f71de-897f-4ce5-8af8-97854775f8b2)
 
+<div class="prop-funding-line">$70,000</div>
 </div>
 
 The proposal is reopened for voting at the initiative of several hosts who did not participate in the previous round.
@@ -70,6 +71,29 @@ Full proposal: https://vote.gonka.vip/tenders/550f71de-897f-4ce5-8af8-97854775f8
 | # | Type |
 | :- | :--- |
 | 1 | `/cosmwasm.wasm.v1.MsgExecuteContract` |
+
+<details class="prop-contracts">
+<summary>Contract Details</summary>
+
+```json
+[
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "contract": "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2",
+    "msg": {
+      "withdraw_ibc": {
+        "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+        "amount": "70000000000",
+        "recipient": "gonka1w6amu8jg623pqrfw3a8wxlz0s2ph2yp0wvpuu3"
+      }
+    },
+    "funds": []
+  }
+]
+```
+
+</details>
 
 ---
 

@@ -186,6 +186,92 @@ def categorize_type(msg_type):
         return "Other"
 
 
+def parse_amounts_from_messages(messages):
+    """Extract GNK and USDT amounts from proposal messages directly."""
+    USDT_IBC_DENOM = "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4"
+    gnk_total = 0
+    usdt_total = 0
+
+    def coin_amount(coins, denom_suffix):
+        total = 0
+        for c in coins:
+            denom = c.get("denom", "")
+            try:
+                amt = int(c.get("amount", "0"))
+            except (ValueError, TypeError):
+                amt = 0
+            if denom == "ngonka":
+                total += amt / 1_000_000_000
+            elif denom == "ugonka":
+                total += amt / 1_000_000
+            elif denom == USDT_IBC_DENOM:
+                usdt_total_local = amt / 1_000_000
+                return total, usdt_total_local
+            elif denom.endswith(denom_suffix):
+                total += amt
+        return total, 0
+
+    for m in messages:
+        t = m.get("@type", "")
+        if "MsgCommunityPoolSpend" in t:
+            for c in m.get("amount", []):
+                denom = c.get("denom", "")
+                try:
+                    amt = int(c.get("amount", "0"))
+                except (ValueError, TypeError):
+                    continue
+                if denom == "ngonka":
+                    gnk_total += amt / 1_000_000_000
+                elif denom == USDT_IBC_DENOM:
+                    usdt_total += amt / 1_000_000
+
+        elif "MsgExecuteContract" in t:
+            wi = m.get("msg", {}).get("withdraw_ibc", {})
+            if wi and wi.get("denom") == USDT_IBC_DENOM:
+                try:
+                    usdt_total += int(wi.get("amount", "0")) / 1_000_000
+                except (ValueError, TypeError):
+                    pass
+            for c in m.get("funds", []):
+                denom = c.get("denom", "")
+                try:
+                    amt = int(c.get("amount", "0"))
+                except (ValueError, TypeError):
+                    continue
+                if denom == "ngonka":
+                    gnk_total += amt / 1_000_000_000
+
+        elif "MsgBatchTransferWithVesting" in t:
+            for o in m.get("outputs", []):
+                try:
+                    gnk_total += int(o.get("amount", "0")) / 1_000_000_000
+                except (ValueError, TypeError):
+                    pass
+
+        elif "MsgTransferWithVesting" in t:
+            for c in m.get("amount", []):
+                denom = c.get("denom", "")
+                try:
+                    amt = int(c.get("amount", "0"))
+                except (ValueError, TypeError):
+                    continue
+                if denom == "ngonka":
+                    gnk_total += amt / 1_000_000_000
+
+        elif "MsgMultiSend" in t:
+            for inp in m.get("inputs", []):
+                for c in inp.get("coins", []):
+                    denom = c.get("denom", "")
+                    try:
+                        amt = int(c.get("amount", "0"))
+                    except (ValueError, TypeError):
+                        continue
+                    if denom == "ngonka":
+                        gnk_total += amt / 1_000_000_000
+
+    return int(gnk_total), int(usdt_total)
+
+
 # ── fetch proposals ────────────────────────────────────────────
 
 def fetch_proposals():
@@ -201,7 +287,7 @@ def fetch_proposals():
 
 # ── generate individual proposal page ──────────────────────────
 
-def generate_proposal_page(proposal):
+def generate_proposal_page(proposal, prop_dir):
     pid = proposal["id"]
     title = proposal.get("title", f"Proposal #{pid}").strip()
     status = proposal.get("status", "PROPOSAL_STATUS_UNSPECIFIED")
@@ -221,6 +307,10 @@ def generate_proposal_page(proposal):
     messages = proposal.get("messages", [])
     msg_types = get_message_types(messages)
 
+    # Save messages as JSON
+    msg_json = json.dumps(messages, indent=2, ensure_ascii=False)
+    (prop_dir / "messages.json").write_text(msg_json, encoding="utf-8")
+
     tally = proposal.get("final_tally_result", {})
     yes_count = int(tally.get("yes_count", 0))
     no_count = int(tally.get("no_count", 0))
@@ -228,8 +318,8 @@ def generate_proposal_page(proposal):
     no_with_veto_count = int(tally.get("no_with_veto_count", 0))
     total_votes = yes_count + no_count + abstain_count + no_with_veto_count
 
-    # Generate description from summary
-    description = summary
+    # Extract funding from messages
+    gnk_fund, usdt_fund = parse_amounts_from_messages(messages)
 
     # Status badge HTML
     badge_html = f'<span class="prop-badge {status_css_cls}">{status_label}</span>'
@@ -254,6 +344,16 @@ def generate_proposal_page(proposal):
   </div>
 </div>
 """
+
+    # Funding line
+    funding_parts = []
+    if gnk_fund > 0:
+        funding_parts.append(f'{gnk_fund:,} GNK')
+    if usdt_fund > 0:
+        funding_parts.append(f'${usdt_fund:,}')
+    funding_html = ""
+    if funding_parts:
+        funding_html = f'<div class="prop-funding-line">{" · ".join(funding_parts)}</div>\n'
 
     summary_short = summary[:200] if summary else ""
     md = f"""---
@@ -288,6 +388,8 @@ template: proposals-proposals-main.html
             md += f"**Metadata:** `{metadata_url}`\n\n"
     if failed_reason:
         md += f"**Failed reason:** {failed_reason}\n\n"
+    if funding_html:
+        md += funding_html
 
     md += """</div>
 
@@ -314,7 +416,17 @@ template: proposals-proposals-main.html
         mt = m.get("@type", "Unknown")
         md += f"| {i} | `{mt}` |\n"
 
+    # Contract spoiler
     md += f"""
+<details class="prop-contracts">
+<summary>Contract Details</summary>
+
+```json
+{msg_json}
+```
+
+</details>
+
 ---
 
 <div class="prop-footer" markdown="1">
@@ -402,6 +514,16 @@ template: proposals-oview.html
                 total_t = yes_c + no_c + veto_c + abstain_c
                 _pct = lambda v: f"({v / total_t * 100:.1f}%)" if total_t > 0 else "(0.0%)"
                 md += f'  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes {yes_c:,} {_pct(yes_c)}</span> · <span class="prop-tally-no-text">No {no_c:,} {_pct(no_c)}</span> · <span class="prop-tally-veto-text">Veto {veto_c:,} {_pct(veto_c)}</span> · <span class="prop-tally-abstain-text">Abstain {abstain_c:,} {_pct(abstain_c)}</span></div>\n'
+
+            if status_css_cls == "prop-passed":
+                _gnk, _usdt = parse_amounts_from_messages(p.get("messages", []))
+                _funding_parts = []
+                if _gnk > 0:
+                    _funding_parts.append(f'{_gnk:,} GNK')
+                if _usdt > 0:
+                    _funding_parts.append(f'${_usdt:,}')
+                if _funding_parts:
+                    md += f'  <div class="prop-card-tally" style="margin-top:2px">{" · ".join(_funding_parts)}</div>\n'
 
             md += "</div>\n\n"
 
@@ -554,6 +676,15 @@ template: proposals-oview.html
             total_t = yes_c + no_c + veto_c + abstain_c
             _pct = lambda v: f"({v / total_t * 100:.1f}%)" if total_t > 0 else "(0.0%)"
             md += f'  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes {yes_c:,} {_pct(yes_c)}</span> · <span class="prop-tally-no-text">No {no_c:,} {_pct(no_c)}</span> · <span class="prop-tally-veto-text">Veto {veto_c:,} {_pct(veto_c)}</span> · <span class="prop-tally-abstain-text">Abstain {abstain_c:,} {_pct(abstain_c)}</span></div>\n'
+        if status_css_cls == "prop-passed":
+            _gnk, _usdt = parse_amounts_from_messages(p.get("messages", []))
+            _funding_parts = []
+            if _gnk > 0:
+                _funding_parts.append(f'{_gnk:,} GNK')
+            if _usdt > 0:
+                _funding_parts.append(f'${_usdt:,}')
+            if _funding_parts:
+                md += f'  <div class="prop-card-tally" style="margin-top:2px">{" · ".join(_funding_parts)}</div>\n'
         md += "</div>\n\n"
 
     md += '''</div>
@@ -684,7 +815,7 @@ def main():
             q_lower = "unknown"
         prop_dir = OUTPUT_DIR / q_lower / pid
         prop_dir.mkdir(parents=True, exist_ok=True)
-        page_md = generate_proposal_page(p)
+        page_md = generate_proposal_page(p, prop_dir)
         (prop_dir / "index.md").write_text(page_md, encoding="utf-8")
 
     # Generate quarter subpages

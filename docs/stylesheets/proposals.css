@@ -228,6 +228,33 @@
 [data-md-color-scheme="slate"] .prop-tally-veto-text { color: #d29922; }
 [data-md-color-scheme="slate"] .prop-tally-abstain-text { color: #8b949e; }
 
+/* ── Funding line on detail page ───────────────────────────── */
+.prop-funding-line {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--md-accent-fg-color);
+  margin-top: 4px;
+}
+
+/* ── Contract details spoiler ──────────────────────────────── */
+.prop-contracts {
+  margin-top: 16px;
+  font-size: 13px;
+}
+
+.prop-contracts summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--md-accent-fg-color);
+  user-select: none;
+}
+
+.prop-contracts pre {
+  margin-top: 8px;
+  max-height: 400px;
+  overflow: auto;
+}
+
 /* ── Footer ────────────────────────────────────────────────── */
 .prop-footer {
   margin-top: 24px;

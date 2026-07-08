@@ -55,6 +55,48 @@ Increase the minimum deposit required to submit a governance proposal from the c
 | :- | :--- |
 | 1 | `/cosmos.gov.v1.MsgUpdateParams` |
 
+<details class="prop-contracts">
+<summary>Contract Details</summary>
+
+```json
+[
+  {
+    "@type": "/cosmos.gov.v1.MsgUpdateParams",
+    "authority": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "params": {
+      "min_deposit": [
+        {
+          "denom": "ngonka",
+          "amount": "500000000000"
+        }
+      ],
+      "max_deposit_period": null,
+      "voting_period": null,
+      "quorum": "",
+      "threshold": "",
+      "veto_threshold": "",
+      "min_initial_deposit_ratio": "",
+      "proposal_cancel_ratio": "",
+      "proposal_cancel_dest": "",
+      "expedited_voting_period": null,
+      "expedited_threshold": "",
+      "expedited_min_deposit": [
+        {
+          "denom": "ngonka",
+          "amount": "1000000000000"
+        }
+      ],
+      "burn_vote_quorum": false,
+      "burn_proposal_deposit_prevote": false,
+      "burn_vote_veto": false,
+      "min_deposit_ratio": ""
+    }
+  }
+]
+```
+
+</details>
+
 ---
 
 <div class="prop-footer" markdown="1">

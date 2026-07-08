@@ -22,6 +22,7 @@ template: proposals-proposals-main.html
 
 **Metadata:** [https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/5](https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/5)
 
+<div class="prop-funding-line">28,000 GNK</div>
 </div>
 
 Web analytics, attribution, and funnel dashboarding for Gonka.AI: GA4 implementation, UTM taxonomy, event tracking, and conversion reporting. Single-tranche payment of 28,000 GNK to TheSoul on proposal pass. Full offer document: see the metadata URL.
@@ -54,6 +55,27 @@ Web analytics, attribution, and funnel dashboarding for Gonka.AI: GA4 implementa
 | # | Type |
 | :- | :--- |
 | 1 | `/cosmos.distribution.v1beta1.MsgCommunityPoolSpend` |
+
+<details class="prop-contracts">
+<summary>Contract Details</summary>
+
+```json
+[
+  {
+    "@type": "/cosmos.distribution.v1beta1.MsgCommunityPoolSpend",
+    "authority": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "recipient": "gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm",
+    "amount": [
+      {
+        "denom": "ngonka",
+        "amount": "28000000000000"
+      }
+    ]
+  }
+]
+```
+
+</details>
 
 ---
 

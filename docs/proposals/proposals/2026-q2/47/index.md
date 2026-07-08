@@ -24,6 +24,7 @@ template: proposals-proposals-main.html
 
 **Failed reason:** proposal did not get enough votes to pass
 
+<div class="prop-funding-line">20,000 GNK</div>
 </div>
 
 Retroactive 20K GNK bounty for an open-sourced PoC optimization measuring +10.2% on B200 and +12.5% on H100 with Qwen3-235B-FP8. One-line patch, verified on-chain by independent miners. Details: https://vote.gonka.vip/tenders/6392c2ea-7fb8-45c7-b1ec-80fb16d81d93
@@ -56,6 +57,27 @@ Retroactive 20K GNK bounty for an open-sourced PoC optimization measuring +10.2%
 | # | Type |
 | :- | :--- |
 | 1 | `/cosmos.distribution.v1beta1.MsgCommunityPoolSpend` |
+
+<details class="prop-contracts">
+<summary>Contract Details</summary>
+
+```json
+[
+  {
+    "@type": "/cosmos.distribution.v1beta1.MsgCommunityPoolSpend",
+    "authority": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "recipient": "gonka14fxt7xlj74h54u5lz8epz0qeuhpka6xjhzsyq3",
+    "amount": [
+      {
+        "denom": "ngonka",
+        "amount": "20000000000000"
+      }
+    ]
+  }
+]
+```
+
+</details>
 
 ---
 

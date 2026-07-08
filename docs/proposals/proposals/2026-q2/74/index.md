@@ -26,6 +26,7 @@ template: proposals-proposals-main.html
 
 **Metadata:** [https://gonkalabs.com/proposal](https://gonkalabs.com/proposal)
 
+<div class="prop-funding-line">330,000 GNK · $70,000</div>
 </div>
 
 Full proposal: https://gonkalabs.com/proposal
@@ -71,6 +72,41 @@ Full proposal: https://gonkalabs.com/proposal
 | :- | :--- |
 | 1 | `/cosmwasm.wasm.v1.MsgExecuteContract` |
 | 2 | `/inference.streamvesting.MsgTransferWithVesting` |
+
+<details class="prop-contracts">
+<summary>Contract Details</summary>
+
+```json
+[
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "contract": "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2",
+    "msg": {
+      "withdraw_ibc": {
+        "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+        "amount": "70000000000",
+        "recipient": "gonka16j4zv6723mrnycwn0qgw0j48dr9qecyclxg5jh"
+      }
+    },
+    "funds": []
+  },
+  {
+    "@type": "/inference.streamvesting.MsgTransferWithVesting",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "recipient": "gonka16j4zv6723mrnycwn0qgw0j48dr9qecyclxg5jh",
+    "amount": [
+      {
+        "denom": "ngonka",
+        "amount": "330000000000000"
+      }
+    ],
+    "vesting_epochs": "180"
+  }
+]
+```
+
+</details>
 
 ---
 

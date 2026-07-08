@@ -53,6 +53,48 @@ This proposal updates x/gov: the standard voting period becomes 48 hours (was 24
 | :- | :--- |
 | 1 | `/cosmos.gov.v1.MsgUpdateParams` |
 
+<details class="prop-contracts">
+<summary>Contract Details</summary>
+
+```json
+[
+  {
+    "@type": "/cosmos.gov.v1.MsgUpdateParams",
+    "authority": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "params": {
+      "min_deposit": [
+        {
+          "denom": "ngonka",
+          "amount": "25000000"
+        }
+      ],
+      "max_deposit_period": "86400s",
+      "voting_period": "172800s",
+      "quorum": "0.334000000000000000",
+      "threshold": "0.500000000000000000",
+      "veto_threshold": "0.334000000000000000",
+      "min_initial_deposit_ratio": "0.000000000000000000",
+      "proposal_cancel_ratio": "0.500000000000000000",
+      "proposal_cancel_dest": "",
+      "expedited_voting_period": "43200s",
+      "expedited_threshold": "0.667000000000000000",
+      "expedited_min_deposit": [
+        {
+          "denom": "ngonka",
+          "amount": "50000000"
+        }
+      ],
+      "burn_vote_quorum": false,
+      "burn_proposal_deposit_prevote": false,
+      "burn_vote_veto": true,
+      "min_deposit_ratio": "0.010000000000000000"
+    }
+  }
+]
+```
+
+</details>
+
 ---
 
 <div class="prop-footer" markdown="1">

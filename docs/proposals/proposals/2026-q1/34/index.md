@@ -25,6 +25,7 @@ template: proposals-proposals-main.html
 
 **Failed reason:** proposal did not get enough votes to pass
 
+<div class="prop-funding-line">970,000 GNK</div>
 </div>
 
 This proposal seeks community approval for a global media initiative to build awareness of decentralized AI and position Gonka as core AI infrastructure.
@@ -53,6 +54,27 @@ https://www.canva.com/design/DAG5x5pF3M4/VycFkb80_elACWPiaNMOQg/view
 | # | Type |
 | :- | :--- |
 | 1 | `/cosmos.distribution.v1beta1.MsgCommunityPoolSpend` |
+
+<details class="prop-contracts">
+<summary>Contract Details</summary>
+
+```json
+[
+  {
+    "@type": "/cosmos.distribution.v1beta1.MsgCommunityPoolSpend",
+    "authority": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "recipient": "gonka1ls44amlsum476ajg48dzq09uh9am8rg8qdl2q4r03h75ujfk2t0stkevej",
+    "amount": [
+      {
+        "denom": "ngonka",
+        "amount": "970000000000000"
+      }
+    ]
+  }
+]
+```
+
+</details>
 
 ---
 

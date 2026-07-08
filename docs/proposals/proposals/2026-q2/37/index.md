@@ -24,6 +24,7 @@ template: proposals-proposals-main.html
 
 **Failed reason:** proposal did not get enough votes to pass
 
+<div class="prop-funding-line">1 GNK</div>
 </div>
 
 If you are against MLM projects around gonka.ai, vote YES. All funds will be used to counter such projects. The amount is symbolic.
@@ -56,6 +57,27 @@ If you are against MLM projects around gonka.ai, vote YES. All funds will be use
 | # | Type |
 | :- | :--- |
 | 1 | `/cosmos.distribution.v1beta1.MsgCommunityPoolSpend` |
+
+<details class="prop-contracts">
+<summary>Contract Details</summary>
+
+```json
+[
+  {
+    "@type": "/cosmos.distribution.v1beta1.MsgCommunityPoolSpend",
+    "authority": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "recipient": "gonka1ry4uzczgu7xxusa5whl387dd5alr7737spd0v2",
+    "amount": [
+      {
+        "denom": "ngonka",
+        "amount": "1000000000"
+      }
+    ]
+  }
+]
+```
+
+</details>
 
 ---
 

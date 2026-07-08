@@ -22,6 +22,7 @@ template: proposals-proposals-main.html
 
 **Metadata:** [https://miro.com/app/board/uXjVG6L2uvQ=/](https://miro.com/app/board/uXjVG6L2uvQ=/)
 
+<div class="prop-funding-line">31,250 GNK</div>
 </div>
 
 Saccade Media House is a creative team of tech entrepreneurs who know how to tell stories. We've built content for international tech brands and the founders behind them. We propose a Community Series — a film about why Gonka exists and who stands behind it. The goal: a viewer walks away thinking — "this is something real, I want to be part of it." Timeline: 30–35 days, Cinematic approach. Duration: 7–10 minutes. Budget: 31,250 GNK. We believe AI content overload will trigger a quality Renaissance. We build for the ones who stay. After the first film, we'll invite the community to a creative session — to define the priority audience and shape the top 3 narrative themes for what comes next. Before you vote — we made something for you: an awareness video, three shorts as a gift, and a full breakdown of our approach. Link: https://miro.com/app/board/uXjVG6L2uvQ=/
@@ -54,6 +55,27 @@ Saccade Media House is a creative team of tech entrepreneurs who know how to tel
 | # | Type |
 | :- | :--- |
 | 1 | `/cosmos.distribution.v1beta1.MsgCommunityPoolSpend` |
+
+<details class="prop-contracts">
+<summary>Contract Details</summary>
+
+```json
+[
+  {
+    "@type": "/cosmos.distribution.v1beta1.MsgCommunityPoolSpend",
+    "authority": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "recipient": "gonka1snq0m4rdvq0sswm03r5jsmtzw3p384qsy3l4t4",
+    "amount": [
+      {
+        "denom": "ngonka",
+        "amount": "31250000000000"
+      }
+    ]
+  }
+]
+```
+
+</details>
 
 ---
 
