@@ -2,7 +2,7 @@
 title: "#1222 — [P1] Int overflow"
 source: https://github.com/gonka-ai/gonka/issues/1222
 issue_number: 1222
-synced_at: 2026-07-08T09:41:17Z
+synced_at: 2026-07-08T11:59:21Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-05-21 22:30 UTC</span>
-    <span class="issues-meta-item">3 comments</span>
-    <span class="issues-meta-item">Updated 2026-07-08 08:51 UTC</span>
+    <span class="issues-meta-item">4 comments</span>
+    <span class="issues-meta-item">Updated 2026-07-08 09:54 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #12a6e8; color: #24292f; border-color: #12a6e8;">Priority: Medium</span></div>
 </div>
@@ -27,7 +27,7 @@ The goal of this is to have in place after this a standard way of handling possi
 
 ---
 
-## 💬 Comments (3)
+## 💬 Comments (4)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -73,6 +73,21 @@ The goal of this is to have in place after this a standard way of handling possi
 <p>That split makes sense to me: #1379 intentionally stays focused on settlement/claim/validation overflow paths and leaves the Bitcoin supply-cap semantics to a separate PR.</p>
 <p>One thing to keep in mind is merge order: #1379 changes the <code>CalculateParticipantBitcoinRewards</code> fallback from <code>MaxUint64</code> to <code>MaxInt64</code>, so if #1379 lands first, #1017 will likely need a small rebase/adaptation around the fallback-path rationale and tests.</p>
 <p>I would also double-check that the new #1017 tests assert the overflow guard path directly, not only the final <code>totalRewarded &lt;= remainingSupply</code> invariant. That would make the defense-in-depth coverage clearer for reviewers.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@Mayveskii](https://github.com/Mayveskii)</span>
+    <span class="issues-meta-item">commented 2026-07-08 09:53 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <blockquote>
+<p>re  </p>
+</blockquote>
+<p>Have a good time, Oleg! Direct overflow guard test - added in the latest commit <code>76d0ab6d0</code> on <code>fix/bitcoin-rewards-supply-cap-overflow</code>:
+  - <code>TestApplyProportionalSupplyCapReduction_OverflowGuard</code> feeds <code>RewardCoins = MaxUint64</code> for two participants and asserts the guard fires, <code>total Distributed</code> saturates
+  at <code>MaxUint64</code>, and remaining rewards are zeroed. The log shows the <code>Error</code>-level guard trigger.  Merge order — agreed. If #1379 lands first, I'll rebase #1017 and align the <code>CalculateParticipantBitcoinRewards</code> fallback path with the <code>MaxInt64</code> cap introduced there.</p>
+<p>I'll keep waiting maintainers reaction and proto lifecycle move.</p>
   </div>
 </div>
 

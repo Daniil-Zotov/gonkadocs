@@ -22759,7 +22759,7 @@ Models / IBC2
     Voting ends 2026-07-10
   
   Distribute restitution for Kimi operators affected by cPoC validation failure in epochs 306-309. The Kimi validation path failed starting in e306 causing confirmation_weight suppression for Kimi opera…
-  Yes 107,866 (93.9%) · No 5,966 (5.2%) · Veto 1,089 (0.9%) · Abstain 0 (0.0%)175,082 GNK · Gov Module
+  Yes 0 (0.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)175,082 GNK · Gov Module
 
   
     #80 – GRC Proposal #3 - Restitution
@@ -23642,7 +23642,7 @@ Models / IBC2
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-81 proposals across 5 quarters. Last updated: 2026-07-08 11:45 UTC
+81 proposals across 5 quarters. Last updated: 2026-07-08 11:53 UTC
 
 function initProposalsPage() {
   var checkboxes = document.querySelectorAll('.prop-oview-filter input[type=checkbox]');
@@ -28181,7 +28181,7 @@ Passed
 
 [View on gonka.gg](https://gonka.gg/network/proposals/46){:target="_blank"}
 
-Two prior upgrades changed the lifecycle of unpaid miner rewards. v0.2.9 (proposal #26, 2026-02-01): when a participant is penalized during cPoC validation, the unaccounted portion of their epoch reward is no longer redistributed among the remaining participants in the epoch — it is sent to the gov module account. v0.2.11 (proposal #31, 2026-03-20, PR #775): slashed collateral was likewise routed to the gov account instead of being burned. As a result the gov account (gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33) has accumulated roughly 3 053 801 GNK of withheld miner rewards over epochs 132–247. These coins were originally minted as miner reward, not as community subsidy. The community pool (gonka1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8h2rzwa, separate account) already holds ~103M GNK + 10K IBC USDT for community initiatives.
+Two prior upgrades changed the lifecycle of unpaid miner rewards. v0.2.9 (proposal #26, 2026-02-01): when a participant is penalized during cPoC validation, the unaccounted portion of their epoch reward is no longer redistributed among the remaining participants in the epoch — it is sent to the gov module account. v0.2.11 (proposal #31, 2026-03-20, PR #775): slashed collateral was likewise routed to the gov account instead of being burned. As a result the gov account ([gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33](https://gonka.gg/address/gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33)) has accumulated roughly 3 053 801 GNK of withheld miner rewards over epochs 132–247. These coins were originally minted as miner reward, not as community subsidy. The community pool ([gonka1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8h2rzwa](https://gonka.gg/address/gonka1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8h2rzwa), separate account) already holds ~103M GNK + 10K IBC USDT for community initiatives.
 
 What this proposal does. Returns the historical inflow of epochs 132–247 to the miners who actually performed in those epochs, proportional to each miner's rewarded_coins. Distribution is computed deterministically from on-chain data via a single Python script: see  for the full algorithm, reproducible code, and the exact payout CSV. Total to be distributed: 3 053 800.853 GNK across 1 623 recipients.
 
@@ -44991,7 +44991,7 @@ $5,000 · Community Pool
 
 [View on gonka.gg](https://gonka.gg/network/proposals/59){:target="_blank"}
 
-Funds milestone 1 (upfront prepayment) of a community-produced onboarding video guide for Gonka. Deliverable: a series of ~15 short, interactive, easy-to-follow videos covering A-to-Z onboarding for both hosts and inference users, following the official Gonka documentation. Produced by a 3-person team that has contributed to blockchain education content, including work on explanatory videos for CoinGecko and on paid, well-reviewed Udemy blockchain courses. Total project budget: 15,000 USDT, split across two governance proposals to cap network risk. This proposal disburses 5,000 USDT (~33%) as upfront funding; a second proposal will request the remaining 10,000 USDT on delivery (target ~3 weeks). Recipient: gonka1tg7x8pv5lfnytkr9av3532mf2qq22ysdxxzr87. Amount: 5,000 USDT. Examples of prior work:  and  . Questions: rohan.sm.content@outlook.com.
+Funds milestone 1 (upfront prepayment) of a community-produced onboarding video guide for Gonka. Deliverable: a series of ~15 short, interactive, easy-to-follow videos covering A-to-Z onboarding for both hosts and inference users, following the official Gonka documentation. Produced by a 3-person team that has contributed to blockchain education content, including work on explanatory videos for CoinGecko and on paid, well-reviewed Udemy blockchain courses. Total project budget: 15,000 USDT, split across two governance proposals to cap network risk. This proposal disburses 5,000 USDT (~33%) as upfront funding; a second proposal will request the remaining 10,000 USDT on delivery (target ~3 weeks). Recipient: [gonka1tg7x8pv5lfnytkr9av3532mf2qq22ysdxxzr87](https://gonka.gg/address/gonka1tg7x8pv5lfnytkr9av3532mf2qq22ysdxxzr87). Amount: 5,000 USDT. Examples of prior work:  and  . Questions: rohan.sm.content@outlook.com.
 
 ---
 
@@ -45088,7 +45088,7 @@ This is a full-scale analytical deep-dive that builds genuine trust rather than 
 
 - 70,000 USD for full end-to-end production and permanent publication
 - Single payment, no vesting or tranches
-- Recipient: gonka1w6amu8jg623pqrfw3a8wxlz0s2ph2yp0wvpuu3
+- Recipient: [gonka1w6amu8jg623pqrfw3a8wxlz0s2ph2yp0wvpuu3](https://gonka.gg/address/gonka1w6amu8jg623pqrfw3a8wxlz0s2ph2yp0wvpuu3)
 
 ---
 
@@ -48899,7 +48899,7 @@ GRC / Restitution1
     Voting ends 2026-07-10
   
   Distribute restitution for Kimi operators affected by cPoC validation failure in epochs 306-309. The Kimi validation path failed starting in e306 causing confirmation_weight suppression for Kimi opera…
-  Yes 107,866 (93.9%) · No 5,966 (5.2%) · Veto 1,089 (0.9%) · Abstain 0 (0.0%)175,082 GNK · Gov Module
+  Yes 0 (0.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)175,082 GNK · Gov Module
 
   
     #80 – GRC Proposal #3 - Restitution
@@ -49584,24 +49584,6 @@ Voting
 [View on gonka.gg](https://gonka.gg/network/proposals/81){:target="_blank"}
 
 Distribute restitution for Kimi operators affected by cPoC validation failure in epochs 306-309. The Kimi validation path failed starting in e306 causing confirmation_weight suppression for Kimi operators while non-Kimi operators ran normally. Failure worsened in e307 and carried into the e309 bootstrap attempt. Total: 175082.07 GONKA to 19 addresses, vested over 170 days (160 epochs).
-
----
-
-## Final Tally
-
-  
-    
-    
-    
-    
-  
-  
-    Yes 107,866 (93.9%)
-    No 5,966 (5.2%)
-    Veto 1,089 (0.9%)
-    Abstain 0 (0.0%)
-    Total 114,921 votes
-  
 
 ---
 
