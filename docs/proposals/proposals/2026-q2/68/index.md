@@ -77,8 +77,8 @@ Full proposal: <https://vote.gonka.vip/tenders/550f71de-897f-4ce5-8af8-97854775f
 | :- | :--- |
 | 1 | `/cosmwasm.wasm.v1.MsgExecuteContract` |
 
-<details class="prop-contracts">
-<summary>Contract Details</summary>
+<details class="prop-contracts" markdown="1">
+<summary markdown="1">Contract Details</summary>
 
 ```json
 [

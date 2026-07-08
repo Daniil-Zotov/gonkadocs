@@ -62,8 +62,8 @@ Add Kimi K2.6 and GLM 5.2 model
 | 2 | `/inference.inference.MsgRegisterModel` |
 | 3 | `/inference.inference.MsgRegisterModel` |
 
-<details class="prop-contracts">
-<summary>Contract Details</summary>
+<details class="prop-contracts" markdown="1">
+<summary markdown="1">Contract Details</summary>
 
 ```json
 [

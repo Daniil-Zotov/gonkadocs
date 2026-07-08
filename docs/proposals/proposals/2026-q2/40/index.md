@@ -58,8 +58,8 @@ This proposal updates x/gov: the standard voting period becomes 48 hours (was 24
 | :- | :--- |
 | 1 | `/cosmos.gov.v1.MsgUpdateParams` |
 
-<details class="prop-contracts">
-<summary>Contract Details</summary>
+<details class="prop-contracts" markdown="1">
+<summary markdown="1">Contract Details</summary>
 
 ```json
 [

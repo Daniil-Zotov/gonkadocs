@@ -68,8 +68,8 @@ Register devshard approved version v2.
 | 9 | `/cosmwasm.wasm.v1.MsgExecuteContract` |
 | 10 | `/cosmwasm.wasm.v1.MsgExecuteContract` |
 
-<details class="prop-contracts">
-<summary>Contract Details</summary>
+<details class="prop-contracts" markdown="1">
+<summary markdown="1">Contract Details</summary>
 
 ```json
 [

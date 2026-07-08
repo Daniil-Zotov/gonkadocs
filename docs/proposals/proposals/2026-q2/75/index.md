@@ -133,8 +133,8 @@ IMPORTANT: This is a condensed version of the document and does not include many
 | :- | :--- |
 | 1 | `/cosmwasm.wasm.v1.MsgExecuteContract` |
 
-<details class="prop-contracts">
-<summary>Contract Details</summary>
+<details class="prop-contracts" markdown="1">
+<summary markdown="1">Contract Details</summary>
 
 ```json
 [

@@ -78,8 +78,8 @@ Full proposal: <https://gonkalabs.com/proposal>
 | 1 | `/cosmwasm.wasm.v1.MsgExecuteContract` |
 | 2 | `/inference.streamvesting.MsgTransferWithVesting` |
 
-<details class="prop-contracts">
-<summary>Contract Details</summary>
+<details class="prop-contracts" markdown="1">
+<summary markdown="1">Contract Details</summary>
 
 ```json
 [

@@ -58,8 +58,8 @@ Expected amount of Confirmation PoC per epoch to 4, p0 for binomial test to 0.1
 | :- | :--- |
 | 1 | `/inference.inference.MsgUpdateParams` |
 
-<details class="prop-contracts">
-<summary>Contract Details</summary>
+<details class="prop-contracts" markdown="1">
+<summary markdown="1">Contract Details</summary>
 
 ```json
 [

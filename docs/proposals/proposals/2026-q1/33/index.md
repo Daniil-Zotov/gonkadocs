@@ -68,8 +68,8 @@ Distribute compensation for CPoC bug affected participants in epochs 132-133.
 | 7 | `/cosmos.distribution.v1beta1.MsgCommunityPoolSpend` |
 | 8 | `/cosmos.distribution.v1beta1.MsgCommunityPoolSpend` |
 
-<details class="prop-contracts">
-<summary>Contract Details</summary>
+<details class="prop-contracts" markdown="1">
+<summary markdown="1">Contract Details</summary>
 
 ```json
 [

@@ -61,8 +61,8 @@ We are INPUT Global - a leading web3 marketing communications agency. We offer 3
 | :- | :--- |
 | 1 | `/cosmwasm.wasm.v1.MsgExecuteContract` |
 
-<details class="prop-contracts">
-<summary>Contract Details</summary>
+<details class="prop-contracts" markdown="1">
+<summary markdown="1">Contract Details</summary>
 
 ```json
 [

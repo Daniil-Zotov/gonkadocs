@@ -69,8 +69,8 @@ Contract: code_id 107, checksum 94b141625b7641e6ad57266420b18a4af72eac49b8110cb9
 | 2 | `/cosmos.distribution.v1beta1.MsgCommunityPoolSpend` |
 | 3 | `/cosmwasm.wasm.v1.MsgExecuteContract` |
 
-<details class="prop-contracts">
-<summary>Contract Details</summary>
+<details class="prop-contracts" markdown="1">
+<summary markdown="1">Contract Details</summary>
 
 ```json
 [

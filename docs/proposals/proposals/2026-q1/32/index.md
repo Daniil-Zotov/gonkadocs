@@ -62,8 +62,8 @@ Distribute compensation proportional to epoch 158 lost preserved weights. Implem
 | 1 | `/inference.streamvesting.MsgBatchTransferWithVesting` |
 | 2 | `/cosmos.distribution.v1beta1.MsgCommunityPoolSpend` |
 
-<details class="prop-contracts">
-<summary>Contract Details</summary>
+<details class="prop-contracts" markdown="1">
+<summary markdown="1">Contract Details</summary>
 
 ```json
 [

@@ -60,8 +60,8 @@ Upgrade Proposal: v0.2.2
 | :- | :--- |
 | 1 | `/cosmos.upgrade.v1beta1.MsgSoftwareUpgrade` |
 
-<details class="prop-contracts">
-<summary>Contract Details</summary>
+<details class="prop-contracts" markdown="1">
+<summary markdown="1">Contract Details</summary>
 
 ```json
 [

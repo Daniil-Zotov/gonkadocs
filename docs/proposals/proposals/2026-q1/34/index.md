@@ -59,8 +59,8 @@ Full presentation:
 | :- | :--- |
 | 1 | `/cosmos.distribution.v1beta1.MsgCommunityPoolSpend` |
 
-<details class="prop-contracts">
-<summary>Contract Details</summary>
+<details class="prop-contracts" markdown="1">
+<summary markdown="1">Contract Details</summary>
 
 ```json
 [

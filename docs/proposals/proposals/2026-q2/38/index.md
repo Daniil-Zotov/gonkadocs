@@ -64,8 +64,8 @@ If you agree say YES — Solution 1: Produce a short review video with 1-2 activ
 | 1 | `/inference.streamvesting.MsgBatchTransferWithVesting` |
 | 2 | `/cosmos.distribution.v1beta1.MsgCommunityPoolSpend` |
 
-<details class="prop-contracts">
-<summary>Contract Details</summary>
+<details class="prop-contracts" markdown="1">
+<summary markdown="1">Contract Details</summary>
 
 ```json
 [

@@ -63,8 +63,8 @@ We're a comms team specializing in Organic PR for crypto and tech projects. With
 | :- | :--- |
 | 1 | `/cosmwasm.wasm.v1.MsgExecuteContract` |
 
-<details class="prop-contracts">
-<summary>Contract Details</summary>
+<details class="prop-contracts" markdown="1">
+<summary markdown="1">Contract Details</summary>
 
 ```json
 [

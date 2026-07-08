@@ -62,8 +62,8 @@ Proposal updates poc_validation_duration from 20 to 100.
 | :- | :--- |
 | 1 | `/inference.inference.MsgUpdateParams` |
 
-<details class="prop-contracts">
-<summary>Contract Details</summary>
+<details class="prop-contracts" markdown="1">
+<summary markdown="1">Contract Details</summary>
 
 ```json
 [

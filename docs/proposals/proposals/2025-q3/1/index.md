@@ -62,8 +62,8 @@ Proposal updates epoch_length and restrictions length according to real block le
 | 2 | `/inference.restrictions.MsgUpdateParams` |
 | 3 | `/cosmos.mint.v1beta1.MsgUpdateParams` |
 
-<details class="prop-contracts">
-<summary>Contract Details</summary>
+<details class="prop-contracts" markdown="1">
+<summary markdown="1">Contract Details</summary>
 
 ```json
 [

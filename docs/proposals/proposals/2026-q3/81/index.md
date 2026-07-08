@@ -61,8 +61,8 @@ Distribute restitution for Kimi operators affected by cPoC validation failure in
 | :- | :--- |
 | 1 | `/inference.streamvesting.MsgBatchTransferWithVesting` |
 
-<details class="prop-contracts">
-<summary>Contract Details</summary>
+<details class="prop-contracts" markdown="1">
+<summary markdown="1">Contract Details</summary>
 
 ```json
 [

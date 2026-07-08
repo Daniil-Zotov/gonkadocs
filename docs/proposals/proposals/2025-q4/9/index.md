@@ -59,8 +59,8 @@ Higher Bandwidth Limits & Voting Time Back to 24H
 | 1 | `/inference.inference.MsgUpdateParams` |
 | 2 | `/cosmos.gov.v1.MsgUpdateParams` |
 
-<details class="prop-contracts">
-<summary>Contract Details</summary>
+<details class="prop-contracts" markdown="1">
+<summary markdown="1">Contract Details</summary>
 
 ```json
 [

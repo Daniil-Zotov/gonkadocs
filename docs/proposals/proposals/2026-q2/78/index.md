@@ -62,8 +62,8 @@ Set delegation initial_model_id to MiniMaxAI/MiniMax-M2.7, keep only MiniMaxAI/M
 | 2 | `/inference.inference.MsgDeleteGovernanceModel` |
 | 3 | `/inference.inference.MsgDeleteGovernanceModel` |
 
-<details class="prop-contracts">
-<summary>Contract Details</summary>
+<details class="prop-contracts" markdown="1">
+<summary markdown="1">Contract Details</summary>
 
 ```json
 [

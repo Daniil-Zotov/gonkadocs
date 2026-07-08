@@ -68,8 +68,8 @@ Restitution payout for confirmed GRC Proposal #3 cases, with Case 05 payments fr
 | 5 | `/cosmos.distribution.v1beta1.MsgCommunityPoolSpend` |
 | 6 | `/cosmos.distribution.v1beta1.MsgCommunityPoolSpend` |
 
-<details class="prop-contracts">
-<summary>Contract Details</summary>
+<details class="prop-contracts" markdown="1">
+<summary markdown="1">Contract Details</summary>
 
 ```json
 [

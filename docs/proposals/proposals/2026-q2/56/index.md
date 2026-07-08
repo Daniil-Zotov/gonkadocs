@@ -100,8 +100,8 @@ Live walkthrough on YouTube (by Gonka.Top@Mitch): <https://www.youtube.com/watch
 | :- | :--- |
 | 1 | `/cosmwasm.wasm.v1.MsgExecuteContract` |
 
-<details class="prop-contracts">
-<summary>Contract Details</summary>
+<details class="prop-contracts" markdown="1">
+<summary markdown="1">Contract Details</summary>
 
 ```json
 [

@@ -60,8 +60,8 @@ During the Kimi-K2.6 bootstrap, the 30% direct participation threshold proved ha
 | :- | :--- |
 | 1 | `/inference.inference.MsgUpdateParams` |
 
-<details class="prop-contracts">
-<summary>Contract Details</summary>
+<details class="prop-contracts" markdown="1">
+<summary markdown="1">Contract Details</summary>
 
 ```json
 [

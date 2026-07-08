@@ -64,8 +64,8 @@ This proposal introduces new Qwen3 models including Qwen3-32B-FP8 and Qwen3-235B
 | 4 | `/inference.inference.MsgRegisterModel` |
 | 5 | `/inference.inference.MsgRegisterModel` |
 
-<details class="prop-contracts">
-<summary>Contract Details</summary>
+<details class="prop-contracts" markdown="1">
+<summary markdown="1">Contract Details</summary>
 
 ```json
 [

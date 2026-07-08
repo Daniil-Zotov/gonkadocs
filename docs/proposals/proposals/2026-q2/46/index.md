@@ -70,8 +70,8 @@ Notes. The proposer takes no fee — every ngonka returns to the miners. Hamilto
 | 3 | `/inference.streamvesting.MsgBatchTransferWithVesting` |
 | 4 | `/cosmos.bank.v1beta1.MsgMultiSend` |
 
-<details class="prop-contracts">
-<summary>Contract Details</summary>
+<details class="prop-contracts" markdown="1">
+<summary markdown="1">Contract Details</summary>
 
 ```json
 [
