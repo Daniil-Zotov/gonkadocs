@@ -163,9 +163,9 @@
 
 .prop-card-tally {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
   align-items: baseline;
-  gap: 12px;
+  gap: 0;
   font-size: 12px;
   color: var(--md-default-fg-color--light);
   line-height: 1.6;
@@ -173,11 +173,12 @@
 }
 
 .prop-card-funding {
+  margin-left: auto;
   white-space: nowrap;
   font-weight: 600;
   color: var(--md-accent-fg-color);
   text-align: right;
-  flex-shrink: 0;
+  padding-left: 12px;
 }
 
 /* ── Detail page ───────────────────────────────────────────── */
