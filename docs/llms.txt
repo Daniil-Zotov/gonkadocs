@@ -175,7 +175,7 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [#11 – Bandwidth Limits](/proposals/proposals/2025-q4/11/): Auto-synced content
 - [#14 – Sale GNK from Community Fund](/proposals/proposals/2025-q4/14/): Auto-synced content
 - [2026-Q3 Proposals](/proposals/proposals/2026-q3/): Auto-synced content
-- [Full Proposal](/proposals/proposals/2026-q3/82/full-proposal/): Auto-synced content
+- [External Test Lab & Community DevNet](/proposals/proposals/2026-q3/82/full-proposal/): Auto-synced content
 - [#82 – External Test Lab x Community DevNet](/proposals/proposals/2026-q3/82/): Auto-synced content
 - [#80 – GRC Proposal #3 - Restitution](/proposals/proposals/2026-q3/80/): Auto-synced content
 - [#81 – Kimi cPoC Restitution (epochs 306-309)](/proposals/proposals/2026-q3/81/): Auto-synced content
