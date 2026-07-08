@@ -3,14 +3,14 @@ title: "#1388 — External Test Lab & Community DevNet"
 source: https://github.com/gonka-ai/gonka/discussions/1388
 discussion_number: 1388
 category: proposals
-synced_at: 2026-07-07T22:19:25Z
+synced_at: 2026-07-08T00:08:54Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1388](https://github.com/gonka-ai/gonka/discussions/1388) every hour. 
 
 # External Test Lab & Community DevNet
 
-**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :bulb: Proposals · **Создано:** 2026-07-02 22:04 UTC · **Обновлено:** 2026-07-07 05:27 UTC
+**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :bulb: Proposals · **Создано:** 2026-07-02 22:04 UTC · **Обновлено:** 2026-07-07 23:01 UTC
 
 ---
 
@@ -308,7 +308,7 @@ Approve a 4-month pilot of External Test Lab & Community DevNet with a maximum b
 
 ---
 
-## 💬 Комментарии (2)
+## 💬 Комментарии (3)
 
 ### Комментарий 1 — [@gmorgachev](https://github.com/gmorgachev)
 
@@ -392,3 +392,24 @@ I think they'll be interested in this on their own.
 **↳ Ответ от [@paranjko](https://github.com/paranjko)** · *2026-07-07 05:27 UTC*
 
 > Ah, yes, if we mean hosts connecting their own machines to the DevNet, then absolutely, that should be welcome from the start. I was thinking more about controlled access to project-managed resources, where cost, abuse, or stability risks are involved.
+
+### Комментарий 3 — [@paranjko](https://github.com/paranjko)
+
+*2026-07-07 23:01 UTC*
+
+**Escrow contract is on chain**
+
+- **Code ID:** 107, checksum `94b141625b7641e6ad57266420b18a4af72eac49b8110cb92719755590b463bd`
+- **Escrow address:** `gonka1g57f45qjvn0529vpgj8x8mzt8r5k4audchm3pp9pezywxwf4rexqlj8ayw`
+- **Source:** https://github.com/paranjko/testlab-devnet-escrow/tree/1b2e529876141816b5c2130840d04fb93694bf72
+
+The contract holds 88,000 USDT + 80,000 GNK and pays them out on the fixed schedule from this proposal. No admin, no migration: recipients and amounts can never change. Governance keeps one lever: a one-time `clawback` that returns all remaining funds to the Community Pool, available at any moment; every tranche unlocks with a 4-day buffer so a 2-day vote always fits before the next payout.
+
+**Verify (needs docker):**
+
+```bash
+git clone https://github.com/paranjko/testlab-devnet-escrow && cd testlab-devnet-escrow
+./build.sh && sha256sum artifacts/milestone_escrow.wasm
+# must match: inferenced query wasm code-info 107
+```
+
