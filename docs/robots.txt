@@ -32,3 +32,4 @@ User-agent: Bytespider
 Allow: /
 
 Sitemap: https://gonkadocs.com/sitemap.xml
+Sitemap: https://gonkadocs.com/gonka/docs/zh/sitemap.xml

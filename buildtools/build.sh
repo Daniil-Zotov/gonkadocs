@@ -285,6 +285,50 @@ PYEOF
 echo "==> [5/7] Генерация .md копий страниц для AI-агентов (llms.txt standard)"
 python3 "$ROOT/buildtools/generate-page-md.py" "$SITE_DIR"
 
+echo "==> [5.5/7] Генерация zh/sitemap.xml из gonka/docs sitemap"
+python3 - "$SITE_DIR" <<'PYEOF'
+import os, re, sys
+
+site_root = sys.argv[1]
+gonka_sitemap = os.path.join(site_root, "gonka", "docs", "sitemap.xml")
+zh_sitemap = os.path.join(site_root, "gonka", "docs", "zh", "sitemap.xml")
+
+if not os.path.exists(gonka_sitemap):
+    print("  Gonka sitemap.xml not found, skipping zh sitemap")
+    sys.exit(0)
+
+with open(gonka_sitemap, "r", encoding="utf-8") as f:
+    content = f.read()
+
+# Find all URL blocks
+gonka_urls = re.findall(r'(<url>.*?</url>)', content, re.DOTALL)
+
+zh_entries = []
+for url_block in gonka_urls:
+    loc_match = re.search(r'<loc>(.*?)</loc>', url_block)
+    if loc_match:
+        loc = loc_match.group(1)
+        if '/zh/' in loc or loc.endswith('/zh'):
+            zh_entries.append(url_block)
+
+if zh_entries:
+    # Ensure zh directory exists
+    os.makedirs(os.path.dirname(zh_sitemap), exist_ok=True)
+    
+    xml_body = '\n'.join(f'    {entry}' for entry in zh_entries)
+    zh_content = f'''<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{xml_body}
+</urlset>'''
+    
+    with open(zh_sitemap, "w", encoding="utf-8") as f:
+        f.write(zh_content)
+    
+    print(f"  Generated zh/sitemap.xml with {len(zh_entries)} URLs")
+else:
+    print("  No /zh/ URLs found in gonka sitemap, skipping")
+PYEOF
+
 echo "==> [6/7] Объединение sitemap.xml (main + gonka/docs)"
 python3 - "$SITE_DIR" <<'PYEOF'
 import os, re, sys
