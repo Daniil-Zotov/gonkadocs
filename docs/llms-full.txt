@@ -22759,7 +22759,7 @@ Models / IBC2
     Voting ends 2026-07-10
   
   Distribute restitution for Kimi operators affected by cPoC validation failure in epochs 306-309. The Kimi validation path failed starting in e306 causing confirmation_weight suppression for Kimi opera…
-  Yes 107,866 (93.9%) · No 5,966 (5.2%) · Veto 1,089 (0.9%) · Abstain 0 (0.0%)175,082 GNK · Gov Module
+  Yes 122,672 (94.6%) · No 5,966 (4.6%) · Veto 1,089 (0.8%) · Abstain 0 (0.0%)175,082 GNK · Gov Module
 
   
     #80 – GRC Proposal #3 - Restitution
@@ -23642,7 +23642,7 @@ Models / IBC2
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-81 proposals across 5 quarters. Last updated: 2026-07-08 12:04 UTC
+81 proposals across 5 quarters. Last updated: 2026-07-08 13:09 UTC
 
 function initProposalsPage() {
   var checkboxes = document.querySelectorAll('.prop-oview-filter input[type=checkbox]');
@@ -48899,7 +48899,7 @@ GRC / Restitution1
     Voting ends 2026-07-10
   
   Distribute restitution for Kimi operators affected by cPoC validation failure in epochs 306-309. The Kimi validation path failed starting in e306 causing confirmation_weight suppression for Kimi opera…
-  Yes 107,866 (93.9%) · No 5,966 (5.2%) · Veto 1,089 (0.9%) · Abstain 0 (0.0%)175,082 GNK · Gov Module
+  Yes 122,672 (94.6%) · No 5,966 (4.6%) · Veto 1,089 (0.8%) · Abstain 0 (0.0%)175,082 GNK · Gov Module
 
   
     #80 – GRC Proposal #3 - Restitution
@@ -49596,11 +49596,11 @@ Distribute restitution for Kimi operators affected by cPoC validation failure in
     
   
   
-    Yes 107,866 (93.9%)
-    No 5,966 (5.2%)
-    Veto 1,089 (0.9%)
+    Yes 122,672 (94.6%)
+    No 5,966 (4.6%)
+    Veto 1,089 (0.8%)
     Abstain 0 (0.0%)
-    Total 114,921 votes
+    Total 129,727 votes
   
 
 ---
