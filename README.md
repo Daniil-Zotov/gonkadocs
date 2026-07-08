@@ -51,7 +51,7 @@ Auto-synced from [gonka.vote](https://gonka.vote) every hour.
 
 ### Community (`/community/`)
 - **Roadmap** — three-horizon development strategy
-- **GRC** — restitution committee (bug compensation)
+- **Gonka Product Committee** — restitution committee (bug compensation)
 - **GSC** — self-regulation committee
 
 ---
