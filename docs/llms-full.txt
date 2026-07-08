@@ -23601,7 +23601,7 @@ alexandr8475
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-79 proposals across 5 quarters. Last updated: 2026-07-07 22:39 UTC
+79 proposals across 5 quarters. Last updated: 2026-07-08 01:02 UTC
 
 function initProposalsPage() {
   var checkboxes = document.querySelectorAll('.prop-oview-filter input[type=checkbox]');
