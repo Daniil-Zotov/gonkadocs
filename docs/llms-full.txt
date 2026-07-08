@@ -15716,42 +15716,59 @@ This delegation only allows voting on governance proposals. The grantee can stil
 # Community Documentation
 
 
-## pasted
+## Продуктовый комитет
 
-# pasted
+# Продуктовый комитет
 
-The Problem:
-- The protocol changes and sometimes participants suffer losses due to bugs and unpredictable behavior
-- It would be fair to compensate participants for their losses
-- Not all losses occur because of the protocol; such losses are not compensated
-- A governance wallet was created to make such compensations, among other things, using unclaimed rewards
-- The current compensation mechanism is through voting, but:
-  - Only the team can prepare compensation votes at the moment
-  - If a bug affects a small number of participants, it's difficult to draw attention to the problem and gather quorum
-  - The task of triaging issues falls on the team
+Продуктовый комитет помогает хостам оценивать ценность, риски и roadmap-соответствие пропозалов.
 
-Therefore, I propose forming a compensation committee that:
-- Collects information and accepts compensation claims from participants
-- Pre-filters compensations that are related to the protocol
-- Groups incidents and periodically brings them to a general vote
+## Назначение
 
-How this can be organized:
-- A chat of 10-15 people together with the Gonka team
-- The team observes and helps answer questions, but decisions are made by committee members
-- Initially the team helps make proposals, then we do it ourselves
-- Initial committee composition - everyone present in this chat. Later we decide together who else to add
-- Discussion is conducted in English to be inclusive
+Продуктовый комитет помогает голосующим хостам не пропустить ценные пропозалы и вовремя обратить внимание на потенциально опасные для сети инициативы.
 
-Requirements for participants:
-- Have technical understanding of how the network works
-- No more than one participant from one segment
-- Have the ability and motivation to participate
-- We already have the first compensation proposal (epochs 132 and 133) and several other participants who had issues; we can test the process with this
-- Everything else we'll figure out as we go
+Решения комитета носят рекомендательный характер. Комитет не обещает реагировать на все пропозалы подряд.
 
-If you have the opportunity and desire to be part of the committee - please confirm your participation.
+**Ответственный:** [@paranko](https://t.me/paranko)
 
-Основатель GRC https://t.me/votkon
+## Фокус оценки
+
+Комитет в первую очередь смотрит на инициативы, которые:
+
+- Могут принести значимую пользу сети и важны для протокола, хостов, разработчиков и пользователей инференса.
+- Отражены в актуальном roadmap.
+- Могут создать существенные риски для сети.
+
+## Фреймворк
+
+Для оценки используется **Proposal Scoring Framework v1** — первая версия фреймворка для продуктовых и технических пропозалов. По итогам рассмотрения комитет публикует заполненную оценку в каналах сообщества и направляет её хостам.
+
+## Формат работы
+
+- Заседания проходят с видеозаписью.
+- Записи публикуются на YouTube-канале комитета.
+- По сильным инициативам комитет помогает подсветить ценность через рекомендацию и публичные AMA.
+- По потенциально вредным или подозрительным пропозалам готовится отдельная реакция и рекомендации.
+- Для изменений roadmap используются открытые встречи в формате **GIP — Gonka Improvement Protocol**.
+
+## Состав
+
+**Контрибуторы:**
+- [@ak986](https://t.me/ak986)
+- [@qDanik](https://t.me/qDanik)
+- [@dem_ww](https://t.me/dem_ww)
+- [@baridoka](https://t.me/baridoka)
+
+**Хосты:**
+- [@akamitch](https://t.me/akamitch)
+- [@MageDeFi](https://t.me/MageDeFi)
+- [@OpenMindedPerson](https://t.me/OpenMindedPerson)
+- [@Otli4nik_A](https://t.me/Otli4nik_A)
+- [@votkon](https://t.me/votkon)
+- [@maksimenkoff](https://t.me/maksimenkoff)
+- [@SysManHF](https://t.me/SysManHF)
+- [@paranko](https://t.me/paranko)
+
+---
 
 ---
 
