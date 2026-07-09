@@ -2,7 +2,7 @@
 title: "#729 — Off-chain inference transaction primitives (experimental)"
 source: https://github.com/gonka-ai/gonka/issues/729
 issue_number: 729
-synced_at: 2026-07-09T05:12:12Z
+synced_at: 2026-07-09T08:55:06Z
 template: issues-main.html
 ---
 
