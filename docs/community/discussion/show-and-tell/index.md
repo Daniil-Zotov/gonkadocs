@@ -4,7 +4,7 @@ title: ":raised_hands: Show and Tell"
 
 # :raised_hands: Show and Tell
 
-Дискуссии в категории **:raised_hands: Show and Tell**. Всего: **21**. Обновлено: `2026-07-09 04:08 UTC`.
+Дискуссии в категории **:raised_hands: Show and Tell**. Всего: **21**. Обновлено: `2026-07-09 08:37 UTC`.
 
 [← ко всем категориям](../index.md)
 
@@ -12,7 +12,7 @@ title: ":raised_hands: Show and Tell"
 |---:|---|---|---|
 | [1390](1390-how-to-return-funds-to-the-community-pool-ibc-usdt.md) | [How to return funds to the Community Pool (IBC USDT)](1390-how-to-return-funds-to-the-community-pool-ibc-usdt.md) | [@paranjko](https://github.com/paranjko) | 2026-07-03 |
 | [1374](1374-gonka-ai-dune-dashboard.md) | [Gonka AI Dune Dashboard](1374-gonka-ai-dune-dashboard.md) | [@genkisudo](https://github.com/genkisudo) | 2026-06-29 |
-| [1363](1363-openbroker-broker-for-brokers-or-devshards-as-a-service.md) | [OpenBroker - broker for brokers or Devshards as a service.](1363-openbroker-broker-for-brokers-or-devshards-as-a-service.md) | [@gonkalabs](https://github.com/gonkalabs) | 2026-07-04 |
+| [1363](1363-openbroker-broker-for-brokers-or-devshards-as-a-service.md) | [OpenBroker - broker for brokers or Devshards as a service.](1363-openbroker-broker-for-brokers-or-devshards-as-a-service.md) | [@gonkalabs](https://github.com/gonkalabs) | 2026-07-09 |
 | [1339](1339-gonka-x-mimocode.md) | [Gonka x MiMoCode](1339-gonka-x-mimocode.md) | [@Dankosik](https://github.com/Dankosik) | 2026-06-12 |
 | [1323](1323-gonka-x-hermes-agent.md) | [Gonka x Hermes Agent](1323-gonka-x-hermes-agent.md) | [@Dankosik](https://github.com/Dankosik) | 2026-06-08 |
 | [1141](1141-ibc-usdt-withdrawal-guide.md) | [IBC USDT Withdrawal Guide](1141-ibc-usdt-withdrawal-guide.md) | [@paranjko](https://github.com/paranjko) | 2026-07-08 |

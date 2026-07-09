@@ -3,14 +3,14 @@ title: "#1363 — OpenBroker - broker for brokers or Devshards as a service."
 source: https://github.com/gonka-ai/gonka/discussions/1363
 discussion_number: 1363
 category: show-and-tell
-synced_at: 2026-07-09T04:07:51Z
+synced_at: 2026-07-09T08:37:02Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1363](https://github.com/gonka-ai/gonka/discussions/1363) every hour. 
 
 # OpenBroker - broker for brokers or Devshards as a service.
 
-**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-06-23 22:18 UTC · **Обновлено:** 2026-07-04 14:25 UTC
+**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-06-23 22:18 UTC · **Обновлено:** 2026-07-09 04:25 UTC
 
 ---
 
@@ -94,3 +94,23 @@ We've load-tested OpenBroker past **1,000,000,000 (1 billion) tokens in a single
 - **Gonka Labs:** [https://gonkalabs.com](https://gonkalabs.com)
 
 Would love feedback, feature requests, and bug reports. If you build something on top of OpenBroker, drop it in this thread 🙌
+
+---
+
+## 💬 Комментарии (1)
+
+### Комментарий 1 — [@yuritsin-code](https://github.com/yuritsin-code)
+
+*2026-07-09 04:25 UTC*
+
+Hi @gonkalabs team (cc @tcharchian, @qdanik),
+
+I've been testing OpenBroker (api.openbroker.gonka.gg/v1) with MiniMaxAI/MiniMax-M2.7 (same account/wallet as allowlist request #1397) and found two effects that block production use:
+
+Effect A: fixed ~10s overhead per request. p50 latency is 10.0s for both 100-token and 1623-token prompts — flat, not proportional to size; consistent with an on-chain escrow cycle (~2 blocks × ~5s). Impact: a 30-turn agent pays +5 min of pure overhead.
+
+Effect B: hard prompt-size ceiling at ~1623–1780 prompt_tokens. ≤1623 tokens: stable success. ≥~1780 tokens: the request hangs forever (240s client timeout not enough). 100% reproducible, 7+ tests on each side. Not byte-based — an 8.6KB body with 1523 tokens passes fine.
+
+Questions: (1) is the 10s overhead expected escrow behavior, or optimizable (pooled escrow)? (2) is the token ceiling a known limit, and is there a workaround? (3) are the hanging requests billed (did their escrows execute)? (4) minor: /v1/models returns an empty list — supported model ids are only discoverable via the 400 error text.
+
+Full methodology and raw measurements available on request. Tested 2026-07-08/09.
