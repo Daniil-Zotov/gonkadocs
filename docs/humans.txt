@@ -1,0 +1,12 @@
+/* TEAM */
+  Site: gonkadocs.com
+  Contact: https://github.com/Daniil-Zotov/gonkadocs
+  Language: en, ru
+
+/* THANKS */
+  Gonka community for protocol documentation, discussions, and contributions.
+
+/* SITE */
+  Built with MkDocs Material
+  Source: https://github.com/Daniil-Zotov/gonkadocs
+  Updated: 2026

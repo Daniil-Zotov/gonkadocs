@@ -51,8 +51,8 @@ Auto-synced from [gonka.vote](https://gonka.vote) every hour.
 
 ### Community (`/community/`)
 - **Roadmap** — three-horizon development strategy
-- **GRC** — restitution committee (bug compensation)
-- **GSC** — self-regulation committee
+- **GRC** — restitution committee (bug compensation) at `/community/gonka restitution committee/`
+- **GSC** — governance support committee at `/community/governance support committee/`
 
 ---
 
@@ -65,10 +65,16 @@ Portal designed as a single source of truth for AI agents.
 | URL | Description |
 |-----|-------------|
 | [`/llms.txt`](https://gonkadocs.com/llms.txt) | AI entry point: project overview, section links, key concepts |
-| [`/llms-full.txt`](https://gonkadocs.com/llms-full.txt) | All docs in one file (~800 KB), optimized for context window |
-| [`/robots.txt`](https://gonkadocs.com/robots.txt) | Permissions for GPTBot, ClaudeBot, Google-Extended |
+| [`/llms-full.txt`](https://gonkadocs.com/llms-full.txt) | All docs in one file (~392 KB), optimized for context window |
+| [`/robots.txt`](https://gonkadocs.com/robots.txt) | Permissions for AI crawlers (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, etc.) |
 | [`/openapi.yaml`](https://gonkadocs.com/openapi.yaml) | OpenAPI 3.0 specification for inference API |
-| [`/sitemap.xml`](https://gonkadocs.com/sitemap.xml) | Full sitemap |
+| [`/sitemap.xml`](https://gonkadocs.com/sitemap.xml) | Full sitemap (main + gonka/docs merged) |
+| [`/gonka/docs/zh/sitemap.xml`](https://gonkadocs.com/gonka/docs/zh/sitemap.xml) | Chinese-language sitemap for gonka docs |
+| [`/search/search_index.json`](https://gonkadocs.com/search/search_index.json) | Lunr.js search index, queryable programmatically |
+| [`/proposals/proposals/proposals.xml`](https://gonkadocs.com/proposals/proposals/proposals.xml) | RSS feed for on-chain governance proposals |
+| [`/humans.txt`](https://gonkadocs.com/humans.txt) | Credits and team info |
+| [`/.well-known/security.txt`](https://gonkadocs.com/.well-known/security.txt) | Security policy for responsible disclosure |
+| [`/manifest.json`](https://gonkadocs.com/manifest.json) | PWA manifest |
 
 ### MCP Server
 
@@ -108,29 +114,40 @@ Site consists of two independent MkDocs builds merged into `_site/`:
 ```
 buildtools/build.sh
     │
-    ├──► [1] generate-llms-full.py
-    │       Dynamic scanning of docs/ → llms-full.txt
+    ├──► [0] generate-llms.py + generate-llms-full.py
+    │       Dynamic scanning of docs/ → llms.txt + llms-full.txt
     │
-    ├──► [2] mkdocs build (main site)
+    ├──► [1] mkdocs build (main site)
     │       Homepage + Community + Proposals
     │
-    ├──► [3] mkdocs build (Gonka section)
+    ├──► [2] mkdocs build (Gonka section)
     │       Original mkdocs.yml from gonka-ai/gonka-docs
     │       i18n: en + zh, custom overrides
     │
-    ├──► [4] Post-processing
-    │       Fix image paths
-    │       Language switcher (LINK_EN/LINK_ZH → real paths)
+    ├──► [3] Post-processing: fix image paths
+    │       /images/ → relative paths per page depth
     │
-    └──► [5] generate-llms.py + generate-page-md.py
-            Generate llms.txt and .html.md page copies
+    ├──► [4] Merge search indexes
+    │       Main + gonka/docs → unified search index
+    │
+    ├──► [5] Generate .html.md page copies
+    │       For AI agents (llms.txt standard)
+    │
+    ├──► [5.5] Generate zh/sitemap.xml
+    │       Filter gonka URLs containing /zh/
+    │
+    ├──► [6] Merge sitemaps
+    │       Main + gonka/docs → unified sitemap.xml
+    │
+    └──► [7] Copy service files
+            robots.txt, llms.txt, llms-full.txt, openapi.yaml → _site/
 ```
 
 ---
 
 ## Auto-Sync
 
-8 GitHub Actions workflows automatically update content:
+6 GitHub Actions workflows automatically update content:
 
 | Workflow | Source | Syncs | Triggers Deploy |
 |----------|--------|-------|:---:|
@@ -139,8 +156,6 @@ buildtools/build.sh
 | `sync-discussions.yml` | gonka-ai/gonka (GraphQL) | GitHub Discussions | via push |
 | `sync-issues.yml` | gonka-ai/gonka (REST) | GitHub Issues | via push |
 | `sync-preproposals.yml` | gonka.vote (REST) | Pre-Proposals | via push |
-| `sync-gdocs.yml` | Google Docs | GSC regulation | via push |
-| `sync-roadmap.yml` | gonka-ai/gonka | Roadmap | via push |
 
 Every sync triggers the `deploy-docs.yml` workflow, which regenerates `llms.txt` and `llms-full.txt` and deploys the updated site to GitHub Pages.
 
@@ -180,7 +195,12 @@ gonkadocs/
 │   ├── robots.txt                # AI crawler permissions
 │   ├── openapi.yaml              # API specification
 │   ├── index.md                  # Homepage
+│   ├── 404.md                    # Custom 404 page
+│   ├── manifest.json             # PWA manifest
+│   ├── humans.txt                # Credits
 │   ├── agents.md                 # AI agent setup guide
+│   ├── .well-known/
+│   │   └── security.txt          # Security policy
 │   ├── overrides/                # MkDocs Material overrides
 │   │   ├── partials/tabs.html    # Navigation tabs
 │   │   ├── proposals-main.html   # Proposal detail template
@@ -188,16 +208,18 @@ gonkadocs/
 │   │   └── proposals-proposals-main.html
 │   ├── stylesheets/
 │   │   ├── github.css            # GitHub Primer theme
-│   │   └── proposals.css         # Proposal card, filter, and quarter summary styles
+│   │   ├── proposals.css         # Proposal card, filter, and quarter summary styles
+│   │   └── issues.css            # GitHub-style issues layout
 │   ├── gonka/
-│   │   ├── docs/                 # Protocol documentation (synced)
-│   │   └── discussion/           # GitHub Discussions (synced)
+│   │   └── docs/                 # Protocol documentation (synced)
 │   ├── community/
-│   │   ├── discussion/           # Discussions (synced)
+│   │   ├── discussion/           # GitHub Discussions (synced)
 │   │   ├── issues/               # GitHub Issues (synced)
 │   │   ├── roadmap/              # Roadmap (synced)
-│   │   ├── grc/                  # Restitution committee
-│   │   └── gsc/                  # Self-regulation committee (synced)
+│   │   ├── gonka restitution committee/  # GRC
+│   │   ├── governance support committee/ # GSC
+│   │   ├── gonka product committee/
+│   │   └── go-to-market committee/
 │   └── proposals/
 │       ├── proposals/            # On-chain proposals by quarter
 │       │   ├── index.md          # Overview with filter + summary
@@ -208,17 +230,25 @@ gonkadocs/
 │       │   └── 2026-q3/
 │       └── preproposals/         # Pre-Proposals (synced)
 ├── hooks/
-│   └── issues_nav.py             # MkDocs hook for issue page navigation
+│   ├── full_proposal.py          # MkDocs hook: inject full proposal into detail pages
+│   ├── issues_nav.py             # MkDocs hook for issue page navigation
+│   └── proposals_nav.py          # MkDocs hook: auto-expand Proposals nav
 ├── mcp.json                      # MCP server config
+├── AGENTS.md                     # AI agent guide for this repo
+├── .opencode/
+│   └── opencode.json             # opencode config (commands, permissions, MCP)
+├── .github/scripts/
+│   ├── sync_all_discussions.py   # Fetch GitHub Discussions via GraphQL
+│   ├── sync_gonka_issues.py      # Fetch GitHub Issues via REST
+│   ├── sync_onchain_proposals.py # Fetch on-chain proposals from RPC
+│   └── sync_preproposals.py      # Fetch pre-proposals from gonka.vote
 └── .github/workflows/
     ├── deploy-docs.yml           # Deploy to GitHub Pages
     ├── sync-gonka-ai-docs.yml    # Sync documentation
     ├── sync-onchain-proposals.yml# Sync on-chain proposals
     ├── sync-discussions.yml      # Sync discussions
     ├── sync-issues.yml           # Sync issues
-    ├── sync-preproposals.yml     # Sync pre-proposals
-    ├── sync-gdocs.yml            # Sync Google Docs
-    └── sync-roadmap.yml          # Sync roadmap
+    └── sync-preproposals.yml     # Sync pre-proposals
 ```
 
 ---

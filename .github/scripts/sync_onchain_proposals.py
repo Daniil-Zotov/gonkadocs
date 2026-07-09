@@ -992,6 +992,54 @@ def update_mkdocs_nav(sorted_quarters, proposals_by_quarter):
 
 # ── main ────────────────────────────────────────────────────────
 
+def generate_rss_feed(sorted_quarters, proposals_by_quarter):
+    """Generate an RSS 2.0 feed for proposals."""
+    from xml.sax.saxutils import escape
+    SITE_URL = "https://gonkadocs.com"
+
+    items = []
+    for q in sorted_quarters:
+        for p in proposals_by_quarter.get(q, []):
+            pid = p["id"]
+            title = escape(p.get("title", f"Proposal #{pid}").strip())
+            status = format_status_label(p.get("status", ""))
+            summary = p.get("summary", "")
+            summary_esc = escape(summary[:500]) if summary else ""
+            submit = p.get("submit_time", "")
+            pub_date = ""
+            if submit:
+                try:
+                    dt = datetime.fromisoformat(submit.replace("Z", "+00:00"))
+                    pub_date = dt.strftime("%a, %d %b %Y %H:%M:%S +0000")
+                except (ValueError, TypeError):
+                    pass
+            link = f"{SITE_URL}/proposals/proposals/{q.lower()}/{pid}/"
+            items.append(f"""    <item>
+      <title>#{pid} – {title}</title>
+      <link>{link}</link>
+      <guid isPermaLink="true">{link}</guid>
+      <pubDate>{pub_date}</pubDate>
+      <category>{escape(status)}</category>
+      <description>{summary_esc}</description>
+    </item>""")
+
+    rss = f"""<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gonka On-Chain Governance Proposals</title>
+    <link>{SITE_URL}/proposals/proposals/</link>
+    <description>On-chain governance proposals for the Gonka decentralized AI inference network</description>
+    <language>en</language>
+    <atom:link href="{SITE_URL}/proposals/proposals/proposals.xml" rel="self" type="application/rss+xml"/>
+{chr(10).join(items)}
+  </channel>
+</rss>"""
+
+    rss_path = OUTPUT_DIR / "proposals.xml"
+    rss_path.write_text(rss, encoding="utf-8")
+    print(f"Generated RSS feed: {rss_path} ({len(items)} items)")
+
+
 def fetch_live_tally(proposal_id):
     """Fetch the live tally for a voting proposal (the list endpoint returns zeros)."""
     try:
@@ -1071,6 +1119,10 @@ def main():
     print("Generating overview index...")
     overview_md = generate_overview(proposals_by_quarter)
     (OUTPUT_DIR / "index.md").write_text(overview_md, encoding="utf-8")
+
+    # Generate RSS feed
+    print("Generating RSS feed...")
+    generate_rss_feed(sorted_quarters, proposals_by_quarter)
 
     # Update nav
     update_mkdocs_nav(sorted_quarters, proposals_by_quarter)

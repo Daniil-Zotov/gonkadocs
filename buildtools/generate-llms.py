@@ -249,6 +249,8 @@ def main():
     parts.append("- [OpenAPI Specification](/openapi.yaml): OpenAPI 3.0 spec for the inference API")
     parts.append("- [Search Index](/search/search_index.json): Lunr.js search index, queryable programmatically")
     parts.append("- [Sitemap](/sitemap.xml): Full sitemap of all pages")
+    parts.append("- [Proposals RSS](/proposals/proposals/proposals.xml): RSS feed for on-chain governance proposals")
+    parts.append("- [Humans](/humans.txt): Credits and team")
     parts.append("")
 
     # Key concepts

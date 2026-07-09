@@ -1,0 +1,25 @@
+{
+  "name": "Gonka Docs",
+  "short_name": "Gonka Docs",
+  "description": "Unified documentation for the Gonka decentralized AI inference network",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1976d2",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/images/01-favicon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/01-favicon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

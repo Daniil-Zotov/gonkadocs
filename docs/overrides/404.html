@@ -1,0 +1,47 @@
+{% extends "main.html" %}
+
+{% block content %}
+<style>
+  .error-page {
+    text-align: center;
+    padding: 80px 20px;
+    max-width: 520px;
+    margin: 0 auto;
+  }
+  .error-page h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    margin: 0 0 8px;
+    color: var(--md-default-fg-color);
+    letter-spacing: -0.03em;
+  }
+  .error-page .sub {
+    font-size: 1.2rem;
+    color: var(--md-default-fg-color--light);
+    margin: 0 0 32px;
+  }
+  .error-page p {
+    color: var(--md-default-fg-color--light);
+    line-height: 1.6;
+    margin: 0 0 32px;
+  }
+  .error-page .btn {
+    display: inline-block;
+    padding: 12px 28px;
+    border-radius: 8px;
+    background: var(--md-primary-fg-color);
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    transition: opacity 0.2s;
+  }
+  .error-page .btn:hover { opacity: 0.85; }
+</style>
+
+<div class="error-page">
+  <h1>404</h1>
+  <div class="sub">Page not found</div>
+  <p>The page you're looking for doesn't exist or has been moved.</p>
+  <a href="/" class="btn">Go to Homepage</a>
+</div>
+{% endblock %}

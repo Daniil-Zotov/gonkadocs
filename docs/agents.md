@@ -60,6 +60,22 @@ We serve standard `llms.txt` files that AI agents check automatically when they 
     <span class="agents-link-dot" style="background:#1a7f37"></span>
     /sitemap.xml — Sitemap
   </a>
+  <a href="/gonka/docs/zh/sitemap.xml" class="agents-link" target="_blank">
+    <span class="agents-link-dot" style="background:#996e2a"></span>
+    /gonka/docs/zh/sitemap.xml — Chinese sitemap
+  </a>
+  <a href="/search/search_index.json" class="agents-link" target="_blank">
+    <span class="agents-link-dot" style="background:#cf222e"></span>
+    /search/search_index.json — Search index
+  </a>
+  <a href="/proposals/proposals/proposals.xml" class="agents-link" target="_blank">
+    <span class="agents-link-dot" style="background:#d4a72c"></span>
+    /proposals/proposals/proposals.xml — Proposals RSS
+  </a>
+  <a href="/humans.txt" class="agents-link" target="_blank">
+    <span class="agents-link-dot" style="background:#656d76"></span>
+    /humans.txt — Credits
+  </a>
 </div>
 
 ---
@@ -78,12 +94,16 @@ When working with Gonka (decentralized AI inference network), use these resource
 
 Key sections:
   /gonka/docs/           → Protocol documentation (architecture, quickstart, wallet)
-  /community/            → Roadmap, GRC, GSC
+  /gonka/docs/zh/        → Chinese translations of protocol docs
+  /community/            → Roadmap, committees
   /community/discussion/ → GitHub Discussions (proposals, Q&A, show-and-tell)
   /community/issues/     → GitHub Issues (bugs, features, enhancements)
+  /community/gonka restitution committee/ → GRC (bug compensation)
+  /community/governance support committee/ → GSC (self-governance)
   /proposals/proposals/  → On-chain governance proposals by quarter with funding amounts and source (Community Pool / Gov Module)
   /proposals/preproposals/ → Community pre-proposals (off-chain indicative polls)
 
+Every page is also available as markdown at {url}.html.md (e.g. /gonka/docs/architecture/index.html.md).
 Fetch /llms-full.txt for complete documentation before writing code.
 ```
 
@@ -112,7 +132,7 @@ Available tools:
 - `search_gonka_docs(query)` — search across all documentation
 - `read_gonka_page(url)` — read a specific documentation page
 - `list_gonka_sections()` — list all available sections
-- `read_gonka_llms_full()` — get the full documentation context
+- `read_gonka_llms_full(max_chars)` — get the full documentation context (optionally limit chars)
 - `read_gonka_proposal(id)` — read a governance proposal
 
 ---
@@ -134,10 +154,13 @@ Key topics:
 - Developer: OpenAI-compatible API, inference via brokers
 - Host: GPU resource connection, node management
 - Wallet: Accounts, collateral, cross-chain (USDT/GNK)
-- Governance: Proposals, voting, GRC, GSC
+- Governance: Proposals, voting
+- GRC (Restitution): /community/gonka restitution committee/
+- GSC (Self-Governance): /community/governance support committee/
 - On-Chain Proposals: /proposals/proposals/ — quarterly overviews with status, funding amounts, and source (Community Pool / Gov Module)
 - Pre-Proposals: /proposals/preproposals/ — community grant requests and polls
 - Issues: Bugs, feature requests, enhancements from gonka-ai/gonka
+- Chinese docs: /gonka/docs/zh/
 ```
 
 ---
@@ -149,7 +172,9 @@ For fully autonomous agents (LangChain, AutoGPT, custom bots), the recommended f
 1. Fetch `https://gonkadocs.com/llms.txt` for quick context (project overview, key concepts)
 2. If more detail is needed, fetch `https://gonkadocs.com/llms-full.txt` for complete documentation
 3. For proposals: fetch `/proposals/proposals/` for the overview page, then drill into a specific quarter (e.g., `/proposals/proposals/2026-q2/`) and individual proposal pages (e.g., `/proposals/proposals/2026-q2/74/`) — each page includes funding amounts with source labels
-4. Or use the MCP server for structured access with tools
+4. Each page has a markdown copy at `{url}.html.md` (e.g., `/gonka/docs/architecture/index.html.md`) for easier parsing
+5. Chinese documentation is available under `/gonka/docs/zh/` with its own sitemap at `/gonka/docs/zh/sitemap.xml`
+6. Or use the MCP server for structured access with tools
 
 ```python
 # Example: Python agent discovering Gonka docs
@@ -178,7 +203,8 @@ for doc in search_index["docs"]:
 - **Manage wallets** — accounts, collateral, cross-chain bridges (USDT/GNK via Ethereum/IBC)
 - **Participate in governance** — read and submit proposals, vote, understand GRC/GSC
 - **Track on-chain funding** — each proposal shows the funding amount and source (`Community Pool` or `Gov Module`), organized by quarter with per-quarter summaries and totals
-- **Explore community** — discussions, show-and-tell projects, Q&A, roadmap
+- **Explore community** — discussions, show-and-tell projects, Q&A, roadmap, committees
+- **Read Chinese docs** — `/gonka/docs/zh/` for translated protocol documentation
 - **Use the API** — OpenAI-compatible inference endpoint, node management APIs
 
 ---

@@ -386,7 +386,8 @@ else:
     print("  No new gonka URLs to merge")
 PYEOF
 
-echo "==> [7/7] Копирование robots.txt и llms.txt в _site"
+echo "==> [7/7] Копирование robots.txt, llms.txt и openapi.yaml в _site"
 cp "$ROOT/docs/robots.txt" "$SITE_DIR/robots.txt"
 cp "$ROOT/docs/llms.txt" "$SITE_DIR/llms.txt"
 cp "$ROOT/docs/llms-full.txt" "$SITE_DIR/llms-full.txt"
+cp "$ROOT/docs/openapi.yaml" "$SITE_DIR/openapi.yaml"
