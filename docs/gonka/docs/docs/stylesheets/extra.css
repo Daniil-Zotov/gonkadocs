@@ -78,9 +78,12 @@ img{height:auto;width:auto;border:0;border-radius:6px;padding:4px;background:#ff
    top already handle this. We only need to bump sidebar-top to match the
    76px custom header (Material defaults to 2.4rem ≈ 38px header + 2.4rem
    tabs = 4.8rem ≈ 77px). Tabs scroll away when scrolled, so sidebar should
-   lock just below the header at 76px. */
+   lock just below the header at 76px.
+   Scrollwrap height must match the sticky offset — Material's JS wrongly
+   adds tabs height (76+38=114px) making the sidebar too short by ~38px. */
 .md-sidebar--primary,
 .md-sidebar--secondary{top:76px}
+.md-sidebar__scrollwrap{max-height:calc(100dvh - 76px)!important}
 .md-header{transition:box-shadow .25s}
 
 /* Remove the default 1.5rem gap above doc content (landing already zeroes it). */
