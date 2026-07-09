@@ -2,7 +2,7 @@
 title: "#562 — GetEpochModel in validation should use inference epoch"
 source: https://github.com/gonka-ai/gonka/issues/562
 issue_number: 562
-synced_at: 2026-07-08T18:53:16Z
+synced_at: 2026-07-09T01:07:13Z
 template: issues-main.html
 ---
 
