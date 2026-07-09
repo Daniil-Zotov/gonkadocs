@@ -83,9 +83,9 @@ Additional materials, proof of our work, landing page examples, creatives, adver
   <div class="prop-tally-stats">
     <span class="prop-tally-yes-text">Yes 0 (0.0%)</span>
     <span class="prop-tally-no-text">No 0 (0.0%)</span>
-    <span class="prop-tally-veto-text">Veto 1,814 (100.0%)</span>
+    <span class="prop-tally-veto-text">Veto 86,084 (100.0%)</span>
     <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span>
-    <span class="prop-tally-total-text">Total 1,814 votes</span>
+    <span class="prop-tally-total-text">Total 86,084 votes</span>
   </div>
 </div>
 
