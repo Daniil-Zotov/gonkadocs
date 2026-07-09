@@ -21,6 +21,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 | 🟢 | [International Marketing Campaign for Gonka — English-Speaking Markets](./28dcf8fb-3138-4e8b-adc0-0fb82962276c/) | Evgenii Maksimenkov | 3 | 897.4K GNK | 2026-07-24 |
 | 🟢 | [Gonka Integration Grant for AI Startups and Products (GNK Rewards)](./ed7bd700-bb5a-4c99-9dae-bdcba6641015/) | Evgenii Maksimenkov | 3 | 50.0K GNK | 2026-07-24 |
 | 🟢 | [Привлечение $3M+ нового капитала на Uniswap](./e0cc7d32-5d1a-49e1-94e8-0ca3d9ccbf6b/) | Andrey Orlov | 1 | 1.0M GNK | 2026-08-03 |
+| 🟢 | [Привлечение $3M+ нового капитала на Uniswap v2.0](./f341b83c-78f0-4ab2-b8fd-ddc7ac5d9c37/) | Andrey Orlov | 0 | 0.00 GNK | 2026-08-09 |
 | 🟢 | [3. Team Gonka Wallet Grant Request](./2b6b2142-685a-4eda-b2a1-f8853228f3e6/) | Slava MSE! | 0 | 0.00 GNK | 2026-09-09 |
 | 🟢 | [4. Team Gonka NL BE Community Grant Request](./db4d91a4-1ee7-46ee-a3d1-0e8ba546d04b/) | Slava MSE! | 0 | 0.00 GNK | 2026-09-09 |
 | 🟢 | [5. Team Lefine Grant Request](./662adc44-01c4-41ca-9c0d-ac61f472ee56/) | Slava MSE! | 0 | 0.00 GNK | 2026-09-09 |
@@ -56,4 +57,4 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-07-09 08:39 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-07-09 18:07 UTC*
