@@ -23527,7 +23527,7 @@ Models / IBC2
     Voting ends 2026-07-11
   
   Update current chain params by adding v3 to devshard_escrow_params.approved_versions.
-  Yes 7,842 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 0 (0.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
   
     #82 – External Test Lab x Community DevNet
@@ -23538,7 +23538,7 @@ Models / IBC2
     Voting ends 2026-07-10
   
   4-month pilot of the External Test Lab & Community DevNet: a community-owned testing layer for Gonka. Full proposal and discussion: https://github.com/gonka-ai/gonka/discussions/1388  The budget is he…
-  Yes 243,135 (97.6%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 6,021 (2.4%)80,000 GNK · $88,000 · Community Pool
+  Yes 354,975 (98.1%) · No 479 (0.1%) · Veto 97 (0.0%) · Abstain 6,127 (1.7%)80,000 GNK · $88,000 · Community Pool
 
   
     #81 – Kimi cPoC Restitution (epochs 306-309)
@@ -23549,7 +23549,7 @@ Models / IBC2
     Voting ends 2026-07-10
   
   Distribute restitution for Kimi operators affected by cPoC validation failure in epochs 306-309. The Kimi validation path failed starting in e306 causing confirmation_weight suppression for Kimi opera…
-  Yes 119,426 (71.3%) · No 0 (0.0%) · Veto 47,999 (28.7%) · Abstain 0 (0.0%)175,082 GNK · Gov Module
+  Yes 227,818 (82.4%) · No 624 (0.2%) · Veto 48,054 (17.4%) · Abstain 18 (0.0%)175,082 GNK · Gov Module
 
   
     #80 – GRC Proposal #3 - Restitution
@@ -24432,7 +24432,7 @@ Models / IBC2
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-82 proposals across 5 quarters. Last updated: 2026-07-09 10:25 UTC
+82 proposals across 5 quarters. Last updated: 2026-07-09 18:12 UTC
 
 function initProposalsPage() {
   var checkboxes = document.querySelectorAll('.prop-oview-filter input[type=checkbox]');
@@ -49679,7 +49679,7 @@ GRC / Restitution1
     Voting ends 2026-07-11
   
   Update current chain params by adding v3 to devshard_escrow_params.approved_versions.
-  Yes 7,842 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 0 (0.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
   
     #82 – External Test Lab x Community DevNet
@@ -49690,7 +49690,7 @@ GRC / Restitution1
     Voting ends 2026-07-10
   
   4-month pilot of the External Test Lab & Community DevNet: a community-owned testing layer for Gonka. Full proposal and discussion: https://github.com/gonka-ai/gonka/discussions/1388  The budget is he…
-  Yes 243,135 (97.6%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 6,021 (2.4%)80,000 GNK · $88,000 · Community Pool
+  Yes 354,975 (98.1%) · No 479 (0.1%) · Veto 97 (0.0%) · Abstain 6,127 (1.7%)80,000 GNK · $88,000 · Community Pool
 
   
     #81 – Kimi cPoC Restitution (epochs 306-309)
@@ -49701,7 +49701,7 @@ GRC / Restitution1
     Voting ends 2026-07-10
   
   Distribute restitution for Kimi operators affected by cPoC validation failure in epochs 306-309. The Kimi validation path failed starting in e306 causing confirmation_weight suppression for Kimi opera…
-  Yes 119,426 (71.3%) · No 0 (0.0%) · Veto 47,999 (28.7%) · Abstain 0 (0.0%)175,082 GNK · Gov Module
+  Yes 227,818 (82.4%) · No 624 (0.2%) · Veto 48,054 (17.4%) · Abstain 18 (0.0%)175,082 GNK · Gov Module
 
   
     #80 – GRC Proposal #3 - Restitution
@@ -50081,11 +50081,11 @@ Contract: code_id 107, checksum 94b141625b7641e6ad57266420b18a4af72eac49b8110cb9
     
   
   
-    Yes 243,135 (97.6%)
-    No 0 (0.0%)
-    Veto 0 (0.0%)
-    Abstain 6,021 (2.4%)
-    Total 249,156 votes
+    Yes 354,975 (98.1%)
+    No 479 (0.1%)
+    Veto 97 (0.0%)
+    Abstain 6,127 (1.7%)
+    Total 361,678 votes
   
 
 ---
@@ -50697,24 +50697,6 @@ Update current chain params by adding v3 to devshard_escrow_params.approved_vers
 
 ---
 
-## Final Tally
-
-  
-    
-    
-    
-    
-  
-  
-    Yes 7,842 (100.0%)
-    No 0 (0.0%)
-    Veto 0 (0.0%)
-    Abstain 0 (0.0%)
-    Total 7,842 votes
-  
-
----
-
 ## Messages
 
 | # | Type |
@@ -51302,11 +51284,11 @@ Distribute restitution for Kimi operators affected by cPoC validation failure in
     
   
   
-    Yes 119,426 (71.3%)
-    No 0 (0.0%)
-    Veto 47,999 (28.7%)
-    Abstain 0 (0.0%)
-    Total 167,425 votes
+    Yes 227,818 (82.4%)
+    No 624 (0.2%)
+    Veto 48,054 (17.4%)
+    Abstain 18 (0.0%)
+    Total 276,514 votes
   
 
 ---
