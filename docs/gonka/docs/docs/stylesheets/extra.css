@@ -75,14 +75,8 @@ img{height:auto;width:auto;border:0;border-radius:6px;padding:4px;background:#ff
 .appstore{border:0;width:200px;}
 
 /* Keep the docs header pinned on scroll (disable Material autohide behavior) */
-.md-header,
-.md-header[hidden]{
-  position: sticky !important;
-  top: 0 !important;
-  transform: none !important;
-  display: block !important;
-  visibility: visible !important;
-}
+.md-header{position:fixed;top:0;transition:none!important}
+.md-header[hidden]{display:block!important;transform:none!important;transition:none!important}
 
 /* Remove the default 1.5rem gap above doc content (landing already zeroes it). */
 body:not(:has(.gonka-landing)) .md-main__inner{margin-top:0;}
