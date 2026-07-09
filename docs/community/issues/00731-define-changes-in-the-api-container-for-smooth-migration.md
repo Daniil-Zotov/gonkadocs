@@ -2,7 +2,7 @@
 title: "#731 — Define changes in the API container for smooth migration"
 source: https://github.com/gonka-ai/gonka/issues/731
 issue_number: 731
-synced_at: 2026-07-09T18:15:45Z
+synced_at: 2026-07-09T21:51:44Z
 template: issues-main.html
 ---
 
