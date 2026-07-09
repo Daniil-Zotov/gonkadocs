@@ -74,9 +74,14 @@ img{height:auto;width:auto;border:0;border-radius:6px;padding:4px;background:#ff
 .center{display:block;margin-inline:auto;}
 .appstore{border:0;width:200px;}
 
-/* Keep the docs header pinned on scroll (disable Material autohide behavior) */
-.md-header{position:sticky!important;top:0!important;transition:none!important}
-.md-header[hidden]{display:block!important;transform:none!important;transition:none!important}
+/* Header pinned on scroll: Material's native position:sticky + sidebar
+   top already handle this. We only need to bump sidebar-top to match the
+   76px custom header (Material defaults to 2.4rem ≈ 38px header + 2.4rem
+   tabs = 4.8rem ≈ 77px). Tabs scroll away when scrolled, so sidebar should
+   lock just below the header at 76px. */
+.md-sidebar--primary,
+.md-sidebar--secondary{top:76px}
+.md-header{transition:box-shadow .25s}
 
 /* Remove the default 1.5rem gap above doc content (landing already zeroes it). */
 body:not(:has(.gonka-landing)) .md-main__inner{margin-top:0;}
