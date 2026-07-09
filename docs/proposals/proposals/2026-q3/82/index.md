@@ -44,17 +44,17 @@ Contract: code_id 107, checksum 94b141625b7641e6ad57266420b18a4af72eac49b8110cb9
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:98.1%"></div>
+    <div class="prop-tally-yes" style="width:98.3%"></div>
     <div class="prop-tally-no" style="width:0.1%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
-    <div class="prop-tally-abstain" style="width:1.7%"></div>
+    <div class="prop-tally-abstain" style="width:1.6%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes 354,975 (98.1%)</span>
+    <span class="prop-tally-yes-text">Yes 383,851 (98.3%)</span>
     <span class="prop-tally-no-text">No 479 (0.1%)</span>
     <span class="prop-tally-veto-text">Veto 97 (0.0%)</span>
-    <span class="prop-tally-abstain-text">Abstain 6,127 (1.7%)</span>
-    <span class="prop-tally-total-text">Total 361,678 votes</span>
+    <span class="prop-tally-abstain-text">Abstain 6,127 (1.6%)</span>
+    <span class="prop-tally-total-text">Total 390,554 votes</span>
   </div>
 </div>
 

@@ -30,6 +30,28 @@ Update current chain params by adding v3 to devshard_escrow_params.approved_vers
 
 ---
 
+## Final Tally
+
+
+<div class="prop-tally">
+  <div class="prop-tally-bar">
+    <div class="prop-tally-yes" style="width:100.0%"></div>
+    <div class="prop-tally-no" style="width:0.0%"></div>
+    <div class="prop-tally-veto" style="width:0.0%"></div>
+    <div class="prop-tally-abstain" style="width:0.0%"></div>
+  </div>
+  <div class="prop-tally-stats">
+    <span class="prop-tally-yes-text">Yes 161,092 (100.0%)</span>
+    <span class="prop-tally-no-text">No 0 (0.0%)</span>
+    <span class="prop-tally-veto-text">Veto 0 (0.0%)</span>
+    <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span>
+    <span class="prop-tally-total-text">Total 161,092 votes</span>
+  </div>
+</div>
+
+
+---
+
 ## Messages
 
 | # | Type |
