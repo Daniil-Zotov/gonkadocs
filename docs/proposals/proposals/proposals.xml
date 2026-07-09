@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gonka On-Chain Governance Proposals</title>
+    <link>https://gonkadocs.com/proposals/proposals/</link>
+    <description>On-chain governance proposals for the Gonka decentralized AI inference network</description>
+    <language>en</language>
+    <atom:link href="https://gonkadocs.com/proposals/proposals/proposals.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>#83 – Approve devshard v3</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q3/83/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q3/83/</guid>
+      <pubDate>Thu, 09 Jul 2026 06:41:34 +0000</pubDate>
+      <category>Voting</category>
+      <description>Update current chain params by adding v3 to devshard_escrow_params.approved_versions.</description>
+    </item>
+    <item>
+      <title>#82 – External Test Lab x Community DevNet</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q3/82/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q3/82/</guid>
+      <pubDate>Wed, 08 Jul 2026 11:31:43 +0000</pubDate>
+      <category>Voting</category>
+      <description>4-month pilot of the External Test Lab &amp; Community DevNet: a community-owned testing layer for Gonka. Full proposal and discussion: https://github.com/gonka-ai/gonka/discussions/1388
+
+The budget is held by an immutable escrow contract and released as 4 monthly tranches of 22,000 USDT plus 2x40,000 GNK recognition to the Project and Infrastructure Leads at the end of the pilot. Month 1 is prepaid; each next tranche unlocks 4 days after the month ends. Hosts can always cancel via a one-time govern</description>
+    </item>
+    <item>
+      <title>#81 – Kimi cPoC Restitution (epochs 306-309)</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q3/81/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q3/81/</guid>
+      <pubDate>Wed, 08 Jul 2026 05:57:24 +0000</pubDate>
+      <category>Voting</category>
+      <description>Distribute restitution for Kimi operators affected by cPoC validation failure in epochs 306-309. The Kimi validation path failed starting in e306 causing confirmation_weight suppression for Kimi operators while non-Kimi operators ran normally. Failure worsened in e307 and carried into the e309 bootstrap attempt. Total: 175082.07 GONKA to 19 addresses, vested over 170 days (160 epochs).</description>
+    </item>
+    <item>
+      <title>#80 – GRC Proposal #3 - Restitution</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q3/80/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q3/80/</guid>
+      <pubDate>Sun, 05 Jul 2026 19:40:58 +0000</pubDate>
+      <category>Rejected</category>
+      <description>Restitution payout for confirmed GRC Proposal #3 cases, with Case 05 payments from proposal_id=67 deducted where the same address and epoch were already compensated, and positive victim outputs below the chain minimum raised to 10 GNK.</description>
+    </item>
+    <item>
+      <title>#79 – Add Kimi K2.6 and GLM 5.2 model</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q2/79/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q2/79/</guid>
+      <pubDate>Fri, 26 Jun 2026 02:18:58 +0000</pubDate>
+      <category>Passed</category>
+      <description>Add Kimi K2.6 and GLM 5.2 model</description>
+    </item>
+    <item>
+      <title>#78 – Governance 17: update PoC model lineup</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q2/78/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q2/78/</guid>
+      <pubDate>Thu, 25 Jun 2026 03:39:53 +0000</pubDate>
+      <category>Passed</category>
+      <description>Set delegation initial_model_id to MiniMaxAI/MiniMax-M2.7, keep only MiniMaxAI/MiniMax-M2.7 in PoC params, remove Qwen/Qwen3-235B-A22B-Instruct-2507-FP8, moonshotai/Kimi-K2.6 from PoC params, and delete Qwen/Qwen3-235B-A22B-Instruct-2507-FP8, moonshotai/Kimi-K2.6 from governance models.</description>
+    </item>
+    <item>
+      <title>#77 – Gonka PR Proposal for US/Global Regions</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q2/77/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q2/77/</guid>
+      <pubDate>Wed, 24 Jun 2026 15:18:03 +0000</pubDate>
+      <category>Passed</category>
+      <description>We are INPUT Global - a leading web3 marketing communications agency. We offer 3 month PR campaign to establish trust and market legitimacy of Gonka across 2 audiences: global business and crypto-native. Deliverables include native editorial content, podcasts, speakerships at the conferences and a flagship industry report built on real market data to anchor Gonka as a thought leader. KPIs: a minimum of 35 unique placements - Top Tier, Tier 1 and Tier 2 media (the full list is inside the deck), d</description>
+    </item>
+    <item>
+      <title>#76 – Governance 16: devshard v2 and bounty payouts</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q2/76/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q2/76/</guid>
+      <pubDate>Mon, 15 Jun 2026 23:39:02 +0000</pubDate>
+      <category>Passed</category>
+      <description>Register devshard approved version v2.</description>
+    </item>
+    <item>
+      <title>#75 – Private Inc × Gonka — Network Growth Initiative</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q2/75/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q2/75/</guid>
+      <pubDate>Sat, 13 Jun 2026 16:24:55 +0000</pubDate>
+      <category>Rejected</category>
+      <description>IMPORTANT: Below is a condensed version of the proposal. It highlights only the key points and does not disclose all details of the initiative, implementation mechanics, KPIs, or terms. It is strongly recommended to review the full version of the document via the link: https://vote.gonka.vip/tenders/ed8148eb-535e-4677-9a6b-5316c81c996a
+
+Private Inc × Gonka — Network Growth Initiative
+
+Private Inc proposes launching a growth program for the Gonka ecosystem aimed at attracting AI developers, AI co</description>
+    </item>
+    <item>
+      <title>#74 – Gonka Labs: Maintaining Infrastructure, Improving Products, and Launching New Ones</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q2/74/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q2/74/</guid>
+      <pubDate>Wed, 10 Jun 2026 20:42:58 +0000</pubDate>
+      <category>Passed</category>
+      <description>Full proposal: https://gonkalabs.com/proposal
+
+This proposal funds the next six months of work for the Gonka ecosystem.
+
+The focus is production-grade infrastructure and high-use products: Gonka.gg V2 as the default explorer and data hub, rpc.gonka.gg as reliable public RPC, proxy.gonka.gg for business inference access and API-key management, a mobile Gonka app based on GG Wallet, governance tooling through Gonkavote, and a public open-source Marketing Transparency Dashboard. Existing tools such</description>
+    </item>
+    <item>
+      <title>#73 – Increase minimum governance deposit to 500 GNK and expedited minimum deposit to 1000 GNK</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q2/73/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q2/73/</guid>
+      <pubDate>Wed, 10 Jun 2026 07:32:39 +0000</pubDate>
+      <category>Passed</category>
+      <description>Increase the minimum deposit required to submit a governance proposal to 500 GNK (500,000,000,000 ngonka) and expedited minimum deposit to 1000 GNK (1,000,000,000,000 ngonka). This resubmits proposal #69 which passed community vote but failed to execute due to incomplete governance parameter specification.</description>
+    </item>
+    <item>
+      <title>#72 – Open devshard escrow creation to community wallet gonka1afj0tz53z56zngs425m83vxl5y2xmwm692hfrn</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q2/72/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q2/72/</guid>
+      <pubDate>Wed, 10 Jun 2026 04:51:22 +0000</pubDate>
+      <category>Rejected</category>
+      <description>Adds a community-operated wallet to devshard_escrow_params.allowed_creator_addresses, enabling it to create a devshard escrow and operate as an additional self-hosted inference gateway/transfer agent. This is a minimal addition (appends one address) and does not remove or modify any existing operator. Goal: lower the barrier for independent node operators to participate as devshard/transfer-agent providers, improving network decentralization.</description>
+    </item>
+    <item>
+      <title>#71 – Gonka PR Proposal for US/Global Regions</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q2/71/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q2/71/</guid>
+      <pubDate>Mon, 08 Jun 2026 10:41:24 +0000</pubDate>
+      <category>Rejected</category>
+      <description>We're a comms team specializing in Organic PR for crypto and tech projects. With strong competition in the space and no active events or marketing currently running for Gonka, we propose a 3-month Organic PR campaign built around one idea: create a new category in decentralized AI space and make Gonka the name that owns it. We do this through earned, credible coverage in top-tier media rather than paid placements. The campaign runs on two parallel tracks: a mainstream track targeting general tec</description>
+    </item>
+    <item>
+      <title>#70 – GNK Racers: Launch GameFi Mini-App to Drive User Growth &amp; Wallet Activity</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q2/70/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q2/70/</guid>
+      <pubDate>Sat, 06 Jun 2026 07:35:13 +0000</pubDate>
+      <category>Rejected</category>
+      <description>Release 246,000 GNK from Community Fund to finalize GNK Racers — a multiplayer side-view racing mini-app with a live working prototype (@GNKRacers_bot). The game drives new user acquisition, wallet activations, and GNK wagering velocity on Gonka, with future AI-agent auto-races generating Host GPU inference demand (Q1 2027). Single allocation requested to streamline cross-functional production and marketing execution. Full transparent budget, team breakdown, and deliverables: https://github.com/</description>
+    </item>
+    <item>
+      <title>#69 – Increase minimum governance deposit to 500 GNK</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q2/69/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q2/69/</guid>
+      <pubDate>Fri, 05 Jun 2026 19:21:01 +0000</pubDate>
+      <category>Failed</category>
+      <description>Increase the minimum deposit required to submit a governance proposal from the current value to 500 GNK. Also sets expedited minimum deposit to 1000 GNK.</description>
+    </item>
+    <item>
+      <title>#68 – Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q2/68/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q2/68/</guid>
+      <pubDate>Fri, 05 Jun 2026 18:30:21 +0000</pubDate>
+      <category>Passed</category>
+      <description>The proposal is reopened for voting at the initiative of several hosts who did not participate in the previous round.
+
+• There are no changes to the substance of the proposal; only timeline commitments have been added.
+• We are now committing to an implementation timeframe of 25–60 days.
+• The inference product has significantly improved, so by the time the video is released, the GonkaAI will be in a much stronger position.
+
+Falcon Finance https://www.youtube.com/@FalconFinanceX is a highly infl</description>
+    </item>
+    <item>
+      <title>#67 – Kimi Restitution (epochs 265-276)</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q2/67/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q2/67/</guid>
+      <pubDate>Wed, 03 Jun 2026 21:54:51 +0000</pubDate>
+      <category>Passed</category>
+      <description>Distribute restitution for Kimi operators across epochs 265-276. Epochs 265-266: external attack causing CPoC degradation and nonce exclusion. Epochs 267-276: ComputeGroupCap systematic underpayment due to attack-induced N-1 weight collapse. Total: 946,509.93 GNK to 53 addresses.</description>
+    </item>
+    <item>
+      <title>#66 – test proposal - 测试方案</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q2/66/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q2/66/</guid>
+      <pubDate>Wed, 03 Jun 2026 17:45:04 +0000</pubDate>
+      <category>Rejected</category>
+      <description>test proposal - 测试方案</description>
+    </item>
+    <item>
+      <title>#65 – TheSoul - Offer 2.3: Digital strategy (100,000 GNK)</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q2/65/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q2/65/</guid>
+      <pubDate>Tue, 02 Jun 2026 08:21:47 +0000</pubDate>
+      <category>Passed</category>
+      <description>Full 360-degree digital and social strategy for Gonka.AI: channel matrix, content plan, segment messaging, social strategy, and brand-voice guidelines. Single-tranche payment of 100,000 GNK to TheSoul on proposal pass. Full offer document: see the metadata URL.</description>
+    </item>
+    <item>
+      <title>#64 – TheSoul - Offer 2.2: Analytics and attribution (28,000 GNK)</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q2/64/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q2/64/</guid>
+      <pubDate>Tue, 02 Jun 2026 08:21:22 +0000</pubDate>
+      <category>Passed</category>
+      <description>Web analytics, attribution, and funnel dashboarding for Gonka.AI: GA4 implementation, UTM taxonomy, event tracking, and conversion reporting. Single-tranche payment of 28,000 GNK to TheSoul on proposal pass. Full offer document: see the metadata URL.</description>
+    </item>
+    <item>
+      <title>#63 – TheSoul - Offer 2.1: Website and landings (10,000 USDT)</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q2/63/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q2/63/</guid>
+      <pubDate>Tue, 02 Jun 2026 08:20:48 +0000</pubDate>
+      <category>Passed</category>
+      <description>Full redesign of gonka.ai plus dedicated landing pages for miners, inference buyers, and investors, built on the brandbook from Offer 1.2. Single-tranche payment of 10,000 USDT to TheSoul on proposal pass. Full offer document: see the metadata URL.</description>
+    </item>
+    <item>
+      <title>#62 – TheSoul - Offer 1.3: Influencer pilot (50,000 USDT)</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q2/62/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q2/62/</guid>
+      <pubDate>Tue, 02 Jun 2026 08:20:17 +0000</pubDate>
+      <category>Passed</category>
+      <description>Crypto-influencer pilot campaign for Gonka.AI across selected tier-1 creators, with a full performance report and scaling recommendations. Single-tranche payment of 50,000 USDT to TheSoul on proposal pass. Full offer document: see the metadata URL.</description>
+    </item>
+    <item>
+      <title>#61 – TheSoul - Offer 1.2: Brandbook (20,000 USDT)</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q2/61/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q2/61/</guid>
+      <pubDate>Tue, 02 Jun 2026 08:19:20 +0000</pubDate>
+      <category>Passed</category>
+      <description>Brand identity system for Gonka.AI: logo, typography, color system, graphic language, layout principles, and templates, built on the positioning from Offer 1.1. Single-tranche payment of 20,000 USDT to TheSoul on proposal pass. Full offer document: see the metadata URL.</description>
+    </item>
+    <item>
+      <title>#60 – TheSoul - Offer 1.1: Brand positioning (25,000 USDT)</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q2/60/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q2/60/</guid>
+      <pubDate>Tue, 02 Jun 2026 08:15:16 +0000</pubDate>
+      <category>Passed</category>
+      <description>Brand audit, competitive positioning, and audience segmentation for Gonka.AI. Single-tranche payment of 25,000 USDT to TheSoul on proposal pass. Full offer document: see the metadata URL.</description>
+    </item>
+    <item>
+      <title>#59 – Gonka Onboarding Video Guide — Milestone 1 (Prepayment)</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q2/59/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q2/59/</guid>
+      <pubDate>Sun, 31 May 2026 13:08:44 +0000</pubDate>
+      <category>Rejected</category>
+      <description>Funds milestone 1 (upfront prepayment) of a community-produced onboarding video guide for Gonka. Deliverable: a series of ~15 short, interactive, easy-to-follow videos covering A-to-Z onboarding for both hosts and inference users, following the official Gonka documentation. Produced by a 3-person team that has contributed to blockchain education content, including work on explanatory videos for CoinGecko and on paid, well-reviewed Udemy blockchain courses. Total project budget: 15,000 USDT, spli</description>
+    </item>
+    <item>
+      <title>#58 – Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q2/58/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q2/58/</guid>
+      <pubDate>Thu, 28 May 2026 16:27:11 +0000</pubDate>
+      <category>Rejected</category>
+      <description># Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)
+
+70,000 USDT from the CommunityPool for a dedicated Falcon Finance deep-dive on Gonka AI.
+Full proposal: https://vote.gonka.vip/tenders/550f71de-897f-4ce5-8af8-97854775f8b2
+
+## About the channel
+
+Falcon Finance (https://www.youtube.com/@FalconFinanceX) is a highly influential YouTube channel by Alexander Sokolovsky (160k+ subscribers, 100k–600k+ views per video) reaching a thoughtful audience interested in the economy and the futur</description>
+    </item>
+    <item>
+      <title>#57 – Approve the Gonka Network Development Roadmap</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q2/57/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q2/57/</guid>
+      <pubDate>Thu, 28 May 2026 09:48:52 +0000</pubDate>
+      <category>Passed</category>
+      <description>This proposal approves the Gonka Network Development Roadmap as a strategic direction document for Gonka's future development tracks.
+
+If approved, the roadmap should become the shared vision for Gonka's future.
+
+The roadmap has been submitted as a pull request to the public repository: https://github.com/gonka-ai/gonka/pull/1266
+
+You can read the full text here: https://github.com/gonka-ai/gonka/blob/da8750873216e3a96a1ac19fbd64bbf052f2160b/proposals/gonka-network-development-roadmap.md
+
+*If pa</description>
+    </item>
+    <item>
+      <title>#56 – INC4 | Gonka NOP - grant for the node deployment tool</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q2/56/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q2/56/</guid>
+      <pubDate>Mon, 25 May 2026 15:12:08 +0000</pubDate>
+      <category>Rejected</category>
+      <description># Gonka NOP: grant for the node deployment tool
+
+50,000 USDT from the CommunityPool to INC4
+Full proposal: https://github.com/gonka-ai/gonka/discussions/1192
+
+## What it is
+
+gonka-nop (Node Onboarding Package) is a tool that reduces launching a Gonka node to a single command. Complex technical details are hidden inside and updated alongside the network. It is already working, open source, and in use by some operators on mainnet.
+
+## What the grant covers
+
+1. Work already delivered - INC4 took on</description>
+    </item>
+    <item>
+      <title>#55 – GRC Proposal #2 - Restitution (epochs 248-254)</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q2/55/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q2/55/</guid>
+      <pubDate>Thu, 21 May 2026 16:18:25 +0000</pubDate>
+      <category>Passed</category>
+      <description>Distribute restitution for Cases 2, 3, and 4 across epochs 248-254. Case 2: preserver weight double-scaling bug (epochs 249-253). Case 3: epoch loss restitution: broad epoch losses, consecutive failures restriction, and remaining delta (epochs 248, 249, 250). Case 4: API startup blocking issue (epoch 254). Total: 306,307.29 GNK to 90 addresses. Bounties: 39,722.20 GNK to 4 addresses.</description>
+    </item>
+    <item>
+      <title>#54 – Upgrade Proposal: v0.2.13</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q2/54/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q2/54/</guid>
+      <pubDate>Wed, 20 May 2026 22:12:25 +0000</pubDate>
+      <category>Passed</category>
+      <description>Upgrade Proposal: v0.2.13</description>
+    </item>
+    <item>
+      <title>#53 – INC4 | Gonka NOP - grant for the node deployment tool</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q2/53/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q2/53/</guid>
+      <pubDate>Tue, 19 May 2026 11:14:54 +0000</pubDate>
+      <category>Rejected</category>
+      <description># Gonka NOP: grant for the node deployment tool
+
+50,000 USDT from the CommunityPool to INC4
+Full proposal: https://github.com/gonka-ai/gonka/discussions/1192
+
+## What it is
+
+gonka-nop (Node Onboarding Package) is a tool that reduces launching a Gonka node to a single command. Complex technical details are hidden inside and updated alongside the network. It is already working, open source, and in use by some operators on mainnet.
+
+## What the grant covers
+
+1. Work already delivered - INC4 took on</description>
+    </item>
+    <item>
+      <title>#52 – Upgrade Proposal: v0.2.13</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q2/52/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q2/52/</guid>
+      <pubDate>Fri, 15 May 2026 07:58:37 +0000</pubDate>
+      <category>Rejected</category>
+      <description>Upgrade Proposal: v0.2.13</description>
+    </item>
+    <item>
+      <title>#51 – Support Gonka's presence at WebX Asia</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q2/51/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q2/51/</guid>
+      <pubDate>Wed, 13 May 2026 13:17:45 +0000</pubDate>
+      <category>Passed</category>
+      <description>6Block, a long-term Gonka mining and infrastructure participant, proposes that the Gonka community allocate 75,000 USDT to support Gonka's participation at WebX Asia / WebX 2026 in Tokyo. 6Block has already committed 50% of the needed 150,000 USDT of its own funds for the official Platinum sponsorship. If approved, the funds will be transferred to 6Block's designated wallet and used for event execution (team travel, accommodation, booth production, materials, media support, partner coordination)</description>
+    </item>
+    <item>
+      <title>#50 – Retroactive bounty: open-source PoC throughput optimization (+10–12% measured) with 250 total installations</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q2/50/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q2/50/</guid>
+      <pubDate>Thu, 07 May 2026 15:54:21 +0000</pubDate>
+      <category>Passed</category>
+      <description>Retroactive 20K GNK bounty for an open-sourced PoC optimization measuring +10.2% on B200 and +12.5% on H100 with Qwen3-235B-FP8. One-line patch, verified on-chain by independent miners. Details: https://vote.gonka.vip/tenders/6392c2ea-7fb8-45c7-b1ec-80fb16d81d93</description>
+    </item>
+    <item>
+      <title>#49 – Gonka Media Dominance in TechL/AI with 5 AI Influencers</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q2/49/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q2/49/</guid>
+      <pubDate>Tue, 05 May 2026 13:41:08 +0000</pubDate>
+      <category>Passed</category>
+      <description>We're ICG - AI Influencer Lab, a team that builds and scales hyper-realistic AI avatars on Instagram, TikTok, and YouTube as full ambassadors across verticals. We manage 160+ accounts in AI, finance, crypto, and tech, and generate 100M+ organic monthly views. Our avatars in tech/AI are followed by Mark Cuban, Mark Ruffalo, the UAE Minister of Energy, thousands of entrepreneurs, and the AI-native crowd.
+
+Proposal for Gonka: launch 5 AI avatars in the AI / tech / vibe-coding niche as community amb</description>
+    </item>
+    <item>
+      <title>#48 – Lower Direct Participation Threshold to 10%</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q2/48/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q2/48/</guid>
+      <pubDate>Tue, 05 May 2026 07:00:54 +0000</pubDate>
+      <category>Passed</category>
+      <description>During the Kimi-K2.6 bootstrap, the 30% direct participation threshold proved hard to meet. To avoid the risk of Kimi-K2.6 becoming ineligible in a future epoch and to simplify onboarding of further models, this proposal lowers the threshold to 10%. The security model is preserved: PoC validation itself is unchanged and still requires a supermajority of validation power to accept results. It is expedited so the change takes effect before the next PoC.</description>
+    </item>
+    <item>
+      <title>#47 – Retroactive bounty: open-source PoC throughput optimization (+10–12% measured) with 250 total installations</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q2/47/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q2/47/</guid>
+      <pubDate>Mon, 04 May 2026 11:43:58 +0000</pubDate>
+      <category>Rejected</category>
+      <description>Retroactive 20K GNK bounty for an open-sourced PoC optimization measuring +10.2% on B200 and +12.5% on H100 with Qwen3-235B-FP8. One-line patch, verified on-chain by independent miners. Details: https://vote.gonka.vip/tenders/6392c2ea-7fb8-45c7-b1ec-80fb16d81d93</description>
+    </item>
+    <item>
+      <title>#46 – Epochs 132-247 compensation payout from gov module (batch vesting)</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q2/46/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q2/46/</guid>
+      <pubDate>Sat, 02 May 2026 03:52:27 +0000</pubDate>
+      <category>Passed</category>
+      <description>Two prior upgrades changed the lifecycle of unpaid miner rewards. v0.2.9 (proposal #26, 2026-02-01): when a participant is penalized during cPoC validation, the unaccounted portion of their epoch reward is no longer redistributed among the remaining participants in the epoch — it is sent to the gov module account. v0.2.11 (proposal #31, 2026-03-20, PR #775): slashed collateral was likewise routed to the gov account instead of being burned. As a result the gov account (gonka10d07y265gmmuvt4z0w9aw</description>
+    </item>
+    <item>
+      <title>#45 – Governance Architecture Proposal for the Gonka.ai Network</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q2/45/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q2/45/</guid>
+      <pubDate>Wed, 29 Apr 2026 20:28:30 +0000</pubDate>
+      <category>Rejected</category>
+      <description>Replace scattered governance discussions and complex CLI voting with a unified Governance Portal - a single interface for all Gonka governance activity. The portal includes: a proposal feed across Discussion/Voting/Archive stages, miner-weighted ranking, crowdfunded deposit collection, targeted notifications (Telegram/email/on-site), and browser-based voting via restricted hot keys (no CLI required). Critical point: this is not just a convenient UI - the crowdfunded deposit mechanism acts as an </description>
+    </item>
+    <item>
+      <title>#44 – Upgrade Proposal: v0.2.12</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q2/44/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q2/44/</guid>
+      <pubDate>Tue, 28 Apr 2026 00:11:59 +0000</pubDate>
+      <category>Passed</category>
+      <description>Upgrade Proposal: v0.2.12</description>
+    </item>
+    <item>
+      <title>#43 – Governance Architecture Proposal for the Gonka.ai Network</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q2/43/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q2/43/</guid>
+      <pubDate>Sat, 25 Apr 2026 10:09:27 +0000</pubDate>
+      <category>Rejected</category>
+      <description>Today, participating in Gonka governance requires following multiple channels simultaneously — GitHub, Discord, CLI — just to cast a single vote. Most miners miss proposals entirely or vote too late. Low participation threatens quorum and undermines the network's ability to make decisions. We propose a unified Governance Portal that brings all governance activity into one place: a proposal feed, miner-weighted ratings, deposit crowdfunding, and browser-based voting via a restricted hot key. No C</description>
+    </item>
+    <item>
+      <title>#42 – Support Gonka at Global Compute Sovereignty Summit</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q2/42/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q2/42/</guid>
+      <pubDate>Fri, 17 Apr 2026 18:51:19 +0000</pubDate>
+      <category>Passed</category>
+      <description>We are DeAI Nation, a global nonprofit organization supporting and promoting the decentralized AI ecosystem, and authors of the State of DeAI 2026 report. We propose that the Gonka community become a sponsor of a scientific panel discussion at the Global Compute Sovereignty Summit in Tashkent, Uzbekistan. Cost: 10,000 USDT. If the vote is successful, the panel will receive official 'Supported by the Gonka community' status. This is a strong opportunity for the community to position itself as a k</description>
+    </item>
+    <item>
+      <title>#41 – INC4 | Gonka Node Observability Platform</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q2/41/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q2/41/</guid>
+      <pubDate>Thu, 16 Apr 2026 18:42:44 +0000</pubDate>
+      <category>Rejected</category>
+      <description>Today's explorers and dashboards only show on-chain data, leaving the off-chain state of validators completely opaque. The few operators who do run their own monitoring use different tools, different metrics, and different baselines, leading to different interpretations and making it harder to coordinate when problems arise. The network lacks a single source of truth and a common framework for measuring validator health.
+
+Even today, simply watching how validators operate reveals that many are n</description>
+    </item>
+    <item>
+      <title>#40 – Governance: extend voting period to 48 hours</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q2/40/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q2/40/</guid>
+      <pubDate>Mon, 13 Apr 2026 06:11:53 +0000</pubDate>
+      <category>Passed</category>
+      <description>This proposal updates x/gov: the standard voting period becomes 48 hours (was 24), and the expedited voting period becomes 12 hours (was 3). All other governance parameters remain at their current on-chain values.</description>
+    </item>
+    <item>
+      <title>#39 – Community Series Film — Why Gonka Exists</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q2/39/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q2/39/</guid>
+      <pubDate>Thu, 09 Apr 2026 13:33:06 +0000</pubDate>
+      <category>Passed</category>
+      <description>Saccade Media House is a creative team of tech entrepreneurs who know how to tell stories. We've built content for international tech brands and the founders behind them. We propose a Community Series — a film about why Gonka exists and who stands behind it. The goal: a viewer walks away thinking — "this is something real, I want to be part of it." Timeline: 30–35 days, Cinematic approach. Duration: 7–10 minutes. Budget: 31,250 GNK. We believe AI content overload will trigger a quality Renaissan</description>
+    </item>
+    <item>
+      <title>#38 – CryptoCommons: Community Support &amp; Token Promotion Plan</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q2/38/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q2/38/</guid>
+      <pubDate>Wed, 08 Apr 2026 19:24:05 +0000</pubDate>
+      <category>Rejected</category>
+      <description>If you agree say YES — Solution 1: Produce a short review video with 1-2 active community members. Solution 2: Introduce the project to BD managers of major CIS exchanges for listings. Solution 3 (Regulatory safety): To avoid future regulatory risks, we will run regular token drops</description>
+    </item>
+    <item>
+      <title>#37 – What is your stance on MLM projects around gonka.ai?</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q2/37/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q2/37/</guid>
+      <pubDate>Tue, 07 Apr 2026 19:51:16 +0000</pubDate>
+      <category>Rejected</category>
+      <description>If you are against MLM projects around gonka.ai, vote YES. All funds will be used to counter such projects. The amount is symbolic.</description>
+    </item>
+    <item>
+      <title>#36 – Register Kava USDT IBC metadata and approve for trading</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q2/36/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q2/36/</guid>
+      <pubDate>Wed, 01 Apr 2026 18:03:22 +0000</pubDate>
+      <category>Passed</category>
+      <description>Register IBC token metadata and approve the denomination for trading on Gonka mainnet.</description>
+    </item>
+    <item>
+      <title>#35 – gonka.ai / TheSoul social media awareness project</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q1/35/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q1/35/</guid>
+      <pubDate>Mon, 30 Mar 2026 06:47:26 +0000</pubDate>
+      <category>Rejected</category>
+      <description>This proposal seeks community approval for a global media initiative to build awareness of decentralized AI and position Gonka as core AI infrastructure.
+
+Key elements:
+Led by TheSoul Group (full-cycle production + global distribution)
+YouTube-led media ecosystem + multi-platform distribution
+Educational, community, and ecosystem content
+Goal: explain risks of centralized AI and benefits of decentralization
+
+Projected results:
+~1,000 publications per year
+Up to 400M views
+~140K subscribers in ye</description>
+    </item>
+    <item>
+      <title>#34 – gonka.ai / TheSoul social media awareness project</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q1/34/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q1/34/</guid>
+      <pubDate>Mon, 30 Mar 2026 06:37:52 +0000</pubDate>
+      <category>Rejected</category>
+      <description>This proposal seeks community approval for a global media initiative to build awareness of decentralized AI and position Gonka as core AI infrastructure.
+
+Key elements:
+Led by TheSoul Group (full-cycle production + global distribution)
+YouTube-led media ecosystem + multi-platform distribution
+Educational, community, and ecosystem content
+Goal: explain risks of centralized AI and benefits of decentralization
+
+Projected results:
+~1,000 publications per year
+Up to 400M views
+~140K subscribers in ye</description>
+    </item>
+    <item>
+      <title>#33 – Epochs 132-133 compensation payout from gov module</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q1/33/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q1/33/</guid>
+      <pubDate>Thu, 26 Mar 2026 15:10:49 +0000</pubDate>
+      <category>Passed</category>
+      <description>Distribute compensation for CPoC bug affected participants in epochs 132-133.</description>
+    </item>
+    <item>
+      <title>#32 – Epoch 158 compensation payout from gov module (batch vesting)</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q1/32/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q1/32/</guid>
+      <pubDate>Mon, 23 Mar 2026 17:30:52 +0000</pubDate>
+      <category>Passed</category>
+      <description>Distribute compensation proportional to epoch 158 lost preserved weights. Implemented as one MsgBatchTransferWithVesting.</description>
+    </item>
+    <item>
+      <title>#31 – Upgrade Proposal: v0.2.11</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q1/31/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q1/31/</guid>
+      <pubDate>Thu, 19 Mar 2026 05:59:52 +0000</pubDate>
+      <category>Passed</category>
+      <description>Upgrade Proposal: v0.2.11</description>
+    </item>
+    <item>
+      <title>#30 – Test Proposal</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q1/30/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q1/30/</guid>
+      <pubDate>Mon, 09 Mar 2026 02:33:50 +0000</pubDate>
+      <category>Rejected</category>
+      <description>Testing governance voting from the wallet app.</description>
+    </item>
+    <item>
+      <title>#29 – Network Parameters Update: Disable TA Allowlist, Increase Prices 100x</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q1/29/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q1/29/</guid>
+      <pubDate>Thu, 19 Feb 2026 16:03:43 +0000</pubDate>
+      <category>Rejected</category>
+      <description>Remove TransferAgent allowlist restrictions (empty list = all TAs allowed) and increase per-token pricing 100x (min 100, base 10000 ngonka) to reduce spam.</description>
+    </item>
+    <item>
+      <title>#28 – Collateral Parameters Update</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q1/28/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q1/28/</guid>
+      <pubDate>Wed, 18 Feb 2026 07:27:06 +0000</pubDate>
+      <category>Rejected</category>
+      <description>0.032 GNK per 1 unit of power, 0.01% slashing for miss rate or jail, 0.5% slashing for invalid inference</description>
+    </item>
+    <item>
+      <title>#27 – Upgrade Proposal: v0.2.10</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q1/27/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q1/27/</guid>
+      <pubDate>Tue, 17 Feb 2026 09:26:26 +0000</pubDate>
+      <category>Passed</category>
+      <description>Upgrade Proposal: v0.2.10</description>
+    </item>
+    <item>
+      <title>#26 – Upgrade Proposal: v0.2.9</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q1/26/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q1/26/</guid>
+      <pubDate>Sat, 31 Jan 2026 22:02:58 +0000</pubDate>
+      <category>Passed</category>
+      <description>Upgrade Proposal: v0.2.9</description>
+    </item>
+    <item>
+      <title>#25 – Upgrade Proposal: v0.2.8</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q1/25/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q1/25/</guid>
+      <pubDate>Wed, 28 Jan 2026 03:02:20 +0000</pubDate>
+      <category>Passed</category>
+      <description>Upgrade Proposal: v0.2.8</description>
+    </item>
+    <item>
+      <title>#24 – Upgrade Proposal: v0.2.8</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q1/24/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q1/24/</guid>
+      <pubDate>Wed, 28 Jan 2026 00:32:01 +0000</pubDate>
+      <category>Rejected</category>
+      <description>Upgrade Proposal: v0.2.8</description>
+    </item>
+    <item>
+      <title>#22 – Allowlist Timing</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q1/22/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q1/22/</guid>
+      <pubDate>Sat, 17 Jan 2026 05:28:01 +0000</pubDate>
+      <category>Passed</category>
+      <description>Update Expiration Dates for Developer Access and Participant Allowlist</description>
+    </item>
+    <item>
+      <title>#21 – Fix mistakes in allowlist</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q1/21/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q1/21/</guid>
+      <pubDate>Sun, 11 Jan 2026 06:04:14 +0000</pubDate>
+      <category>Passed</category>
+      <description>https://github.com/product-science/filter/tree/0354c37eb6c827f00c1e889a2b7de9952a9b84ba</description>
+    </item>
+    <item>
+      <title>#20 – Enable Whitelist</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q1/20/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q1/20/</guid>
+      <pubDate>Fri, 09 Jan 2026 06:46:52 +0000</pubDate>
+      <category>Passed</category>
+      <description>https://github.com/product-science/filter/tree/ae59d27f04a70039bcfca94ae656e723982150cd</description>
+    </item>
+    <item>
+      <title>#19 – Upgrade Proposal: v0.2.7</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q1/19/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q1/19/</guid>
+      <pubDate>Wed, 07 Jan 2026 04:23:14 +0000</pubDate>
+      <category>Passed</category>
+      <description>Upgrade Proposal: v0.2.7</description>
+    </item>
+    <item>
+      <title>#18 – Test</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q1/18/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q1/18/</guid>
+      <pubDate>Sun, 04 Jan 2026 13:07:38 +0000</pubDate>
+      <category>Rejected</category>
+      <description>Test proposal</description>
+    </item>
+    <item>
+      <title>#17 – Expected amount of Confirmation PoC per epoch</title>
+      <link>https://gonkadocs.com/proposals/proposals/2025-q4/17/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2025-q4/17/</guid>
+      <pubDate>Thu, 25 Dec 2025 21:22:22 +0000</pubDate>
+      <category>Passed</category>
+      <description>Expected amount of Confirmation PoC per epoch to 4, p0 for binomial test to 0.1</description>
+    </item>
+    <item>
+      <title>#16 – Upgrade Proposal: v0.2.6</title>
+      <link>https://gonkadocs.com/proposals/proposals/2025-q4/16/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2025-q4/16/</guid>
+      <pubDate>Fri, 19 Dec 2025 17:09:17 +0000</pubDate>
+      <category>Passed</category>
+      <description>Upgrade Proposal: v0.2.6</description>
+    </item>
+    <item>
+      <title>#15 – Upgrade Proposal: v0.2.6</title>
+      <link>https://gonkadocs.com/proposals/proposals/2025-q4/15/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2025-q4/15/</guid>
+      <pubDate>Tue, 16 Dec 2025 11:12:32 +0000</pubDate>
+      <category>Rejected</category>
+      <description>Upgrade Proposal: v0.2.6</description>
+    </item>
+    <item>
+      <title>#14 – Sale GNK from Community Fund</title>
+      <link>https://gonkadocs.com/proposals/proposals/2025-q4/14/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2025-q4/14/</guid>
+      <pubDate>Wed, 26 Nov 2025 09:35:04 +0000</pubDate>
+      <category>Passed</category>
+      <description>Sale GNK from Community Fund</description>
+    </item>
+    <item>
+      <title>#13 – Upgrade Proposal: v0.2.5</title>
+      <link>https://gonkadocs.com/proposals/proposals/2025-q4/13/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2025-q4/13/</guid>
+      <pubDate>Fri, 21 Nov 2025 09:13:49 +0000</pubDate>
+      <category>Passed</category>
+      <description>Upgrade Proposal: v0.2.5</description>
+    </item>
+    <item>
+      <title>#12 – Bandwidth Limits</title>
+      <link>https://gonkadocs.com/proposals/proposals/2025-q4/12/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2025-q4/12/</guid>
+      <pubDate>Wed, 12 Nov 2025 21:22:35 +0000</pubDate>
+      <category>Passed</category>
+      <description>Bandwidth Limits</description>
+    </item>
+    <item>
+      <title>#11 – Bandwidth Limits</title>
+      <link>https://gonkadocs.com/proposals/proposals/2025-q4/11/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2025-q4/11/</guid>
+      <pubDate>Wed, 12 Nov 2025 20:00:10 +0000</pubDate>
+      <category>Passed</category>
+      <description>Bandwidth Limits</description>
+    </item>
+    <item>
+      <title>#10 – Bandwidth Limits</title>
+      <link>https://gonkadocs.com/proposals/proposals/2025-q4/10/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2025-q4/10/</guid>
+      <pubDate>Wed, 12 Nov 2025 19:26:06 +0000</pubDate>
+      <category>Passed</category>
+      <description>Bandwidth Limits</description>
+    </item>
+    <item>
+      <title>#9 – Higher Bandwidth Limits &amp; Voting Time Back to 24H</title>
+      <link>https://gonkadocs.com/proposals/proposals/2025-q4/9/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2025-q4/9/</guid>
+      <pubDate>Tue, 11 Nov 2025 09:22:36 +0000</pubDate>
+      <category>Passed</category>
+      <description>Higher Bandwidth Limits &amp; Voting Time Back to 24H</description>
+    </item>
+    <item>
+      <title>#8 – Upgrade Proposal: v0.2.4</title>
+      <link>https://gonkadocs.com/proposals/proposals/2025-q4/8/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2025-q4/8/</guid>
+      <pubDate>Wed, 22 Oct 2025 05:46:47 +0000</pubDate>
+      <category>Passed</category>
+      <description>Upgrade Proposal: v0.2.4</description>
+    </item>
+    <item>
+      <title>#7 – Upgrade Proposal: v0.2.3</title>
+      <link>https://gonkadocs.com/proposals/proposals/2025-q4/7/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2025-q4/7/</guid>
+      <pubDate>Fri, 03 Oct 2025 04:53:48 +0000</pubDate>
+      <category>Passed</category>
+      <description>Upgrade Proposal: v0.2.3</description>
+    </item>
+    <item>
+      <title>#6 – Upgrade Proposal: v0.2.2</title>
+      <link>https://gonkadocs.com/proposals/proposals/2025-q3/6/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2025-q3/6/</guid>
+      <pubDate>Wed, 24 Sep 2025 23:08:07 +0000</pubDate>
+      <category>Passed</category>
+      <description>Upgrade Proposal: v0.2.2</description>
+    </item>
+    <item>
+      <title>#5 – Expedite voting for upgrades</title>
+      <link>https://gonkadocs.com/proposals/proposals/2025-q3/5/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2025-q3/5/</guid>
+      <pubDate>Tue, 23 Sep 2025 06:39:19 +0000</pubDate>
+      <category>Passed</category>
+      <description>Expedite voting for upgrades</description>
+    </item>
+    <item>
+      <title>#4 – Upgrade Proposal: v0.2.2</title>
+      <link>https://gonkadocs.com/proposals/proposals/2025-q3/4/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2025-q3/4/</guid>
+      <pubDate>Mon, 22 Sep 2025 10:02:09 +0000</pubDate>
+      <category>Rejected</category>
+      <description>Upgrade Proposal: v0.2.2</description>
+    </item>
+    <item>
+      <title>#3 – Increase PoC Validation Length</title>
+      <link>https://gonkadocs.com/proposals/proposals/2025-q3/3/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2025-q3/3/</guid>
+      <pubDate>Sat, 20 Sep 2025 05:16:48 +0000</pubDate>
+      <category>Passed</category>
+      <description>Proposal updates poc_validation_duration from 20 to 100.</description>
+    </item>
+    <item>
+      <title>#2 – Proposal introducing new Qwen3 models</title>
+      <link>https://gonkadocs.com/proposals/proposals/2025-q3/2/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2025-q3/2/</guid>
+      <pubDate>Tue, 09 Sep 2025 21:40:02 +0000</pubDate>
+      <category>Passed</category>
+      <description>This proposal introduces new Qwen3 models including Qwen3-32B-FP8 and Qwen3-235B-A22B-Instruct-2507-FP8, along with updating parameters for Qwen2.5-7B-Instruct and QwQ-32B.</description>
+    </item>
+    <item>
+      <title>#1 – Correct Epoch Length</title>
+      <link>https://gonkadocs.com/proposals/proposals/2025-q3/1/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2025-q3/1/</guid>
+      <pubDate>Fri, 05 Sep 2025 21:51:58 +0000</pubDate>
+      <category>Passed</category>
+      <description>Proposal updates epoch_length and restrictions length according to real block length in seconds.</description>
+    </item>
+  </channel>
+</rss>
