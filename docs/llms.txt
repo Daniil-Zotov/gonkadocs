@@ -215,6 +215,8 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [OpenAPI Specification](/openapi.yaml): OpenAPI 3.0 spec for the inference API
 - [Search Index](/search/search_index.json): Lunr.js search index, queryable programmatically
 - [Sitemap](/sitemap.xml): Full sitemap of all pages
+- [Proposals RSS](/proposals/proposals/proposals.xml): RSS feed for on-chain governance proposals
+- [Humans](/humans.txt): Credits and team
 
 ## Key Concepts
 
