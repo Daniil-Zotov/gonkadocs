@@ -23500,12 +23500,12 @@ alexandr8475
 
 ## Overview
 
-82Total Proposals
+83Total Proposals
 52Passed (63%)
-26Rejected (32%)
+26Rejected (31%)
 1Failed (1%)
 
-Funding / Grants36
+Funding / Grants37
 Governance Parameters22
 Software Upgrade16
 GRC / Restitution3
@@ -23516,7 +23516,18 @@ Models / IBC2
 
 ## 2026-Q3
 
-*4 proposals*
+*5 proposals*
+
+  
+    #84 – Bringing $3M+ in New Capital to GONKA via Uniswap — Phase 1/6 ($50k USDT)
+    Voting
+  
+  
+    Submitted 2026-07-09
+    Voting ends 2026-07-11
+  
+  My name is Andrey Orlovsky, and through this proposal I represent our team and an initiative to attract at least $3 million in new long-term capital to GONKA through Uniswap.  Below is a condensed ver…
+  Yes 0 (0.0%) · No 0 (0.0%) · Veto 1,814 (100.0%) · Abstain 0 (0.0%)20,000 GNK · $50,000 · Community Pool
 
   
     #83 – Approve devshard v3
@@ -23527,7 +23538,7 @@ Models / IBC2
     Voting ends 2026-07-11
   
   Update current chain params by adding v3 to devshard_escrow_params.approved_versions.
-  Yes 0 (0.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 161,092 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
   
     #82 – External Test Lab x Community DevNet
@@ -23538,7 +23549,7 @@ Models / IBC2
     Voting ends 2026-07-10
   
   4-month pilot of the External Test Lab & Community DevNet: a community-owned testing layer for Gonka. Full proposal and discussion: https://github.com/gonka-ai/gonka/discussions/1388  The budget is he…
-  Yes 354,975 (98.1%) · No 479 (0.1%) · Veto 97 (0.0%) · Abstain 6,127 (1.7%)80,000 GNK · $88,000 · Community Pool
+  Yes 383,851 (98.3%) · No 479 (0.1%) · Veto 97 (0.0%) · Abstain 6,127 (1.6%)80,000 GNK · $88,000 · Community Pool
 
   
     #81 – Kimi cPoC Restitution (epochs 306-309)
@@ -24432,7 +24443,7 @@ Models / IBC2
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-82 proposals across 5 quarters. Last updated: 2026-07-09 18:12 UTC
+83 proposals across 5 quarters. Last updated: 2026-07-09 20:06 UTC
 
 function initProposalsPage() {
   var checkboxes = document.querySelectorAll('.prop-oview-filter input[type=checkbox]');
@@ -49659,16 +49670,27 @@ Contract Details
 
 ## 2026-Q3 Summary
 
-4Total Proposals
+5Total Proposals
 0Passed (0%)
-1Rejected (25%)
+1Rejected (20%)
 
-Funding / Grants2
+Funding / Grants3
 Governance Parameters1
 GRC / Restitution1
 
 2026-Q3
-4 proposals
+5 proposals
+
+  
+    #84 – Bringing $3M+ in New Capital to GONKA via Uniswap — Phase 1/6 ($50k USDT)
+    Voting
+  
+  
+    Submitted 2026-07-09
+    Voting ends 2026-07-11
+  
+  My name is Andrey Orlovsky, and through this proposal I represent our team and an initiative to attract at least $3 million in new long-term capital to GONKA through Uniswap.  Below is a condensed ver…
+  Yes 0 (0.0%) · No 0 (0.0%) · Veto 1,814 (100.0%) · Abstain 0 (0.0%)20,000 GNK · $50,000 · Community Pool
 
   
     #83 – Approve devshard v3
@@ -49679,7 +49701,7 @@ GRC / Restitution1
     Voting ends 2026-07-11
   
   Update current chain params by adding v3 to devshard_escrow_params.approved_versions.
-  Yes 0 (0.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 161,092 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
   
     #82 – External Test Lab x Community DevNet
@@ -49690,7 +49712,7 @@ GRC / Restitution1
     Voting ends 2026-07-10
   
   4-month pilot of the External Test Lab & Community DevNet: a community-owned testing layer for Gonka. Full proposal and discussion: https://github.com/gonka-ai/gonka/discussions/1388  The budget is he…
-  Yes 354,975 (98.1%) · No 479 (0.1%) · Veto 97 (0.0%) · Abstain 6,127 (1.7%)80,000 GNK · $88,000 · Community Pool
+  Yes 383,851 (98.3%) · No 479 (0.1%) · Veto 97 (0.0%) · Abstain 6,127 (1.6%)80,000 GNK · $88,000 · Community Pool
 
   
     #81 – Kimi cPoC Restitution (epochs 306-309)
@@ -50081,11 +50103,11 @@ Contract: code_id 107, checksum 94b141625b7641e6ad57266420b18a4af72eac49b8110cb9
     
   
   
-    Yes 354,975 (98.1%)
+    Yes 383,851 (98.3%)
     No 479 (0.1%)
     Veto 97 (0.0%)
-    Abstain 6,127 (1.7%)
-    Total 361,678 votes
+    Abstain 6,127 (1.6%)
+    Total 390,554 votes
   
 
 ---
@@ -50177,6 +50199,127 @@ Contract Details
       }
     },
     "funds": []
+  }
+]
+```
+
+---
+
+---
+
+## #84 – Bringing $3M+ in New Capital to GONKA via Uniswap — Phase 1/6 ($50k USDT)
+
+# #84 – Bringing $3M+ in New Capital to GONKA via Uniswap — Phase 1/6 ($50k USDT)
+
+Voting
+
+**Proposal ID:** `84`
+
+**Type:** Community Pool Spend, Execute Contract
+
+**Submit:** 2026-07-09 18:14 UTC
+
+**Voting:** 2026-07-09 18:14 UTC → 2026-07-11 18:14 UTC
+
+**Proposer:** [`gonka1njlf4guhkf60tt8z4ayf4sx73nkf5vsumjplat`](https://gonka.gg/address/gonka1njlf4guhkf60tt8z4ayf4sx73nkf5vsumjplat){:target="_blank"}
+
+**Metadata:** [https://gonka.vote/proposal/f341b83c-78f0-4ab2-b8fd-ddc7ac5d9c37](https://gonka.vote/proposal/f341b83c-78f0-4ab2-b8fd-ddc7ac5d9c37)
+
+20,000 GNK · $50,000 · Community Pool
+
+[View on gonka.gg](https://gonka.gg/network/proposals/84){:target="_blank"}
+
+My name is Andrey Orlovsky, and through this proposal I represent our team and an initiative to attract at least $3 million in new long-term capital to GONKA through Uniswap.
+
+Below is a condensed version of the proposal. The full version, including all calculations, KPIs, the financial model, and supporting materials, is available via the link at the end and in the metadata.
+
+We propose building a long-term capital acquisition system for GONKA through purchases of the GNK token on Uniswap. The objective of the program is to attract no less than $3,000,000 in new capital. Based on our internal estimates, the potential is $6–7 million. Upon completion of the program, GONKA will receive not only new investors but also a fully operational capital acquisition infrastructure that can be used and scaled further.
+
+The overall program is designed around a budget of $300,000 and is divided into six independent phases of $50,000 each. This proposal covers only the first phase, requesting 50,000 USDT and 20,000 GNK.
+
+The key feature of this proposal is milestone-based funding. Each subsequent phase will be submitted as a separate governance proposal only after the KPI of the previous phase has been achieved. This allows the community to maintain full control over the program and approve further funding solely based on verified results.
+
+The KPI for the first phase is 4x the advertising budget. However, the KPI is not calculated based on the total amount of incoming funds, but on the amount of capital that actually remains within the GONKA ecosystem at the time of verification. For the first phase, this means that with a $50,000 budget, wallets belonging to users acquired by our team must hold at least $200,000 at the time the second proposal is submitted. This approach incentivizes us to attract long-term investors rather than short-term speculative buyers.
+
+The proposal's economics are also entirely performance-based. A portion of our team's compensation is paid only after the KPI has been achieved, and all compensation is proposed to be paid exclusively in GNK tokens, further aligning our interests with those of the project.
+
+To acquire users, we utilize our proprietary funnel: Meta Ads → Landing Page → Telegram → AI Agent → Manager → Uniswap → Long-term user support. Our objective is not merely to generate the first purchase but to build a system that maximizes capital retention and encourages repeat investments.
+
+The full proposal below provides detailed information on all calculations, KPIs, and implementation mechanics:
+
+1. Proposal Overview.
+2. Who We Are.
+3. What We Propose.
+4. KPI & Project Economics.
+5. How the Funnel Works.
+6. User Retention Strategy.
+7. Funding.
+8. Team Compensation.
+9. Reporting & Transparency.
+10. What GONKA Receives.
+11. Anti-Fraud Protection & KPI Methodology.
+12. Additional Materials.
+
+Full PROPOSAL: 
+
+Demo Telegram Channel: 
+
+Additional materials, proof of our work, landing page examples, creatives, advertising accounts, and partnership references: 
+
+---
+
+## Final Tally
+
+  
+    
+    
+    
+    
+  
+  
+    Yes 0 (0.0%)
+    No 0 (0.0%)
+    Veto 1,814 (100.0%)
+    Abstain 0 (0.0%)
+    Total 1,814 votes
+  
+
+---
+
+## Messages
+
+| # | Type |
+| :- | :--- |
+| 1 | `/cosmwasm.wasm.v1.MsgExecuteContract` |
+| 2 | `/cosmos.distribution.v1beta1.MsgCommunityPoolSpend` |
+
+Contract Details
+
+```json
+[
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "contract": "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2",
+    "msg": {
+      "withdraw_ibc": {
+        "amount": "50000000000",
+        "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+        "recipient": "gonka1njlf4guhkf60tt8z4ayf4sx73nkf5vsumjplat"
+      }
+    },
+    "funds": []
+  },
+  {
+    "@type": "/cosmos.distribution.v1beta1.MsgCommunityPoolSpend",
+    "authority": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "recipient": "gonka1njlf4guhkf60tt8z4ayf4sx73nkf5vsumjplat",
+    "amount": [
+      {
+        "denom": "ngonka",
+        "amount": "20000000000000"
+      }
+    ]
   }
 ]
 ```
@@ -50694,6 +50837,24 @@ Voting
 [View on gonka.gg](https://gonka.gg/network/proposals/83){:target="_blank"}
 
 Update current chain params by adding v3 to devshard_escrow_params.approved_versions.
+
+---
+
+## Final Tally
+
+  
+    
+    
+    
+    
+  
+  
+    Yes 161,092 (100.0%)
+    No 0 (0.0%)
+    Veto 0 (0.0%)
+    Abstain 0 (0.0%)
+    Total 161,092 votes
+  
 
 ---
 
