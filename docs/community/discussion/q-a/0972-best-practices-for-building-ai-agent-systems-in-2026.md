@@ -3,7 +3,7 @@ title: "#972 — Best Practices for Building AI Agent Systems in 2026"
 source: https://github.com/gonka-ai/gonka/discussions/972
 discussion_number: 972
 category: q-a
-synced_at: 2026-07-10T12:07:52Z
+synced_at: 2026-07-10T15:38:51Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #972](https://github.com/gonka-ai/gonka/discussions/972) every hour. 

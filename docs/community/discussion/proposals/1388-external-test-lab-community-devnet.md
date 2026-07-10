@@ -3,14 +3,14 @@ title: "#1388 — External Test Lab & Community DevNet"
 source: https://github.com/gonka-ai/gonka/discussions/1388
 discussion_number: 1388
 category: proposals
-synced_at: 2026-07-10T12:07:33Z
+synced_at: 2026-07-10T15:38:38Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1388](https://github.com/gonka-ai/gonka/discussions/1388) every hour. 
 
 # External Test Lab & Community DevNet
 
-**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :bulb: Proposals · **Создано:** 2026-07-02 22:04 UTC · **Обновлено:** 2026-07-07 23:01 UTC
+**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :bulb: Proposals · **Создано:** 2026-07-02 22:04 UTC · **Обновлено:** 2026-07-10 13:21 UTC
 
 ---
 
@@ -308,7 +308,7 @@ Approve a 4-month pilot of External Test Lab & Community DevNet with a maximum b
 
 ---
 
-## 💬 Комментарии (3)
+## 💬 Комментарии (4)
 
 ### Комментарий 1 — [@gmorgachev](https://github.com/gmorgachev)
 
@@ -413,3 +413,15 @@ git clone https://github.com/paranjko/testlab-devnet-escrow && cd testlab-devnet
 # must match: inferenced query wasm code-info 107
 ```
 
+
+### Комментарий 4 — [@paranjko](https://github.com/paranjko)
+
+*2026-07-10 13:21 UTC*
+
+[Proposal #82 — External Test Lab & Community DevNet has passed.](https://gonka.vote/governance/82)
+
+We’re now starting Month 1: arranging hardware rentals, bringing the initial nodes online, and beginning the search and hiring process for the QA team. We’ll use this thread to share progress.
+
+Thank you to everyone who reviewed the proposal and voted.
+
+The first report will be published around August 9, four days before the next unlock.

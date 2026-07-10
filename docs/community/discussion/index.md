@@ -4,7 +4,7 @@ title: "GitHub Discussions"
 
 # GitHub Discussions — `gonka-ai/gonka`
 
-Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **74**. Обновлено: `2026-07-10 12:08 UTC`.
+Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **74**. Обновлено: `2026-07-10 15:38 UTC`.
 
 ## 📂 Категории
 
@@ -20,10 +20,10 @@ title: "GitHub Discussions"
 
 | # | Заголовок | Категория | Автор | Обновлено |
 |---:|---|---|---|---|
+| [1388](proposals/1388-external-test-lab-community-devnet.md) | [External Test Lab & Community DevNet](proposals/1388-external-test-lab-community-devnet.md) | :bulb: Proposals | [@paranjko](https://github.com/paranjko) | 2026-07-10 |
 | [1367](proposals/1367-high-availability-architecture.md) | [High-Availability Architecture](proposals/1367-high-availability-architecture.md) | :bulb: Proposals | [@a-kuprin](https://github.com/a-kuprin) | 2026-07-10 |
 | [1363](show-and-tell/1363-openbroker-broker-for-brokers-or-devshards-as-a-service.md) | [OpenBroker - broker for brokers or Devshards as a service.](show-and-tell/1363-openbroker-broker-for-brokers-or-devshards-as-a-service.md) | :raised_hands: Show and Tell | [@gonkalabs](https://github.com/gonkalabs) | 2026-07-09 |
 | [1141](show-and-tell/1141-ibc-usdt-withdrawal-guide.md) | [IBC USDT Withdrawal Guide](show-and-tell/1141-ibc-usdt-withdrawal-guide.md) | :raised_hands: Show and Tell | [@paranjko](https://github.com/paranjko) | 2026-07-08 |
-| [1388](proposals/1388-external-test-lab-community-devnet.md) | [External Test Lab & Community DevNet](proposals/1388-external-test-lab-community-devnet.md) | :bulb: Proposals | [@paranjko](https://github.com/paranjko) | 2026-07-07 |
 | [1404](proposals/1404-add-a-lower-barrier-glm-52-option-and-consider-deepseek-v4-f.md) | [Add a lower-barrier GLM-5.2 option and consider DeepSeek-V4-Flash as the default model](proposals/1404-add-a-lower-barrier-glm-52-option-and-consider-deepseek-v4-f.md) | :bulb: Proposals | [@enonog](https://github.com/enonog) | 2026-07-06 |
 | [1390](show-and-tell/1390-how-to-return-funds-to-the-community-pool-ibc-usdt.md) | [How to return funds to the Community Pool (IBC USDT)](show-and-tell/1390-how-to-return-funds-to-the-community-pool-ibc-usdt.md) | :raised_hands: Show and Tell | [@paranjko](https://github.com/paranjko) | 2026-07-03 |
 | [1340](proposals/1340-devshard-height-sync-protocol.md) | [`devshard` Height-sync protocol](proposals/1340-devshard-height-sync-protocol.md) | :bulb: Proposals | [@alexanderkuprin](https://github.com/alexanderkuprin) | 2026-07-02 |
