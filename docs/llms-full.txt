@@ -23527,7 +23527,7 @@ Models / IBC2
     Voting ends 2026-07-11
   
   My name is Andrey Orlovsky, and through this proposal I represent our team and an initiative to attract at least $3 million in new long-term capital to GONKA through Uniswap.  Below is a condensed ver…
-  Yes 0 (0.0%) · No 0 (0.0%) · Veto 86,084 (100.0%) · Abstain 0 (0.0%)20,000 GNK · $50,000 · Community Pool
+  Yes 0 (0.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)20,000 GNK · $50,000 · Community Pool
 
   
     #83 – Approve devshard v3
@@ -23538,7 +23538,7 @@ Models / IBC2
     Voting ends 2026-07-11
   
   Update current chain params by adding v3 to devshard_escrow_params.approved_versions.
-  Yes 231,702 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 234,563 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
   
     #82 – External Test Lab x Community DevNet
@@ -23549,7 +23549,7 @@ Models / IBC2
     Voting ends 2026-07-10
   
   4-month pilot of the External Test Lab & Community DevNet: a community-owned testing layer for Gonka. Full proposal and discussion: https://github.com/gonka-ai/gonka/discussions/1388  The budget is he…
-  Yes 383,858 (98.3%) · No 479 (0.1%) · Veto 97 (0.0%) · Abstain 6,127 (1.6%)80,000 GNK · $88,000 · Community Pool
+  Yes 367,190 (98.2%) · No 468 (0.1%) · Veto 94 (0.0%) · Abstain 6,141 (1.6%)80,000 GNK · $88,000 · Community Pool
 
   
     #81 – Kimi cPoC Restitution (epochs 306-309)
@@ -23560,7 +23560,7 @@ Models / IBC2
     Voting ends 2026-07-10
   
   Distribute restitution for Kimi operators affected by cPoC validation failure in epochs 306-309. The Kimi validation path failed starting in e306 causing confirmation_weight suppression for Kimi opera…
-  Yes 227,818 (82.4%) · No 624 (0.2%) · Veto 48,054 (17.4%) · Abstain 18 (0.0%)175,082 GNK · Gov Module
+  Yes 235,728 (87.0%) · No 609 (0.2%) · Veto 34,593 (12.8%) · Abstain 18 (0.0%)175,082 GNK · Gov Module
 
   
     #80 – GRC Proposal #3 - Restitution
@@ -24443,7 +24443,7 @@ Models / IBC2
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-83 proposals across 5 quarters. Last updated: 2026-07-09 22:55 UTC
+83 proposals across 5 quarters. Last updated: 2026-07-10 00:00 UTC
 
 function initProposalsPage() {
   var checkboxes = document.querySelectorAll('.prop-oview-filter input[type=checkbox]');
@@ -49690,7 +49690,7 @@ GRC / Restitution1
     Voting ends 2026-07-11
   
   My name is Andrey Orlovsky, and through this proposal I represent our team and an initiative to attract at least $3 million in new long-term capital to GONKA through Uniswap.  Below is a condensed ver…
-  Yes 0 (0.0%) · No 0 (0.0%) · Veto 86,084 (100.0%) · Abstain 0 (0.0%)20,000 GNK · $50,000 · Community Pool
+  Yes 0 (0.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)20,000 GNK · $50,000 · Community Pool
 
   
     #83 – Approve devshard v3
@@ -49701,7 +49701,7 @@ GRC / Restitution1
     Voting ends 2026-07-11
   
   Update current chain params by adding v3 to devshard_escrow_params.approved_versions.
-  Yes 231,702 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 234,563 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
   
     #82 – External Test Lab x Community DevNet
@@ -49712,7 +49712,7 @@ GRC / Restitution1
     Voting ends 2026-07-10
   
   4-month pilot of the External Test Lab & Community DevNet: a community-owned testing layer for Gonka. Full proposal and discussion: https://github.com/gonka-ai/gonka/discussions/1388  The budget is he…
-  Yes 383,858 (98.3%) · No 479 (0.1%) · Veto 97 (0.0%) · Abstain 6,127 (1.6%)80,000 GNK · $88,000 · Community Pool
+  Yes 367,190 (98.2%) · No 468 (0.1%) · Veto 94 (0.0%) · Abstain 6,141 (1.6%)80,000 GNK · $88,000 · Community Pool
 
   
     #81 – Kimi cPoC Restitution (epochs 306-309)
@@ -49723,7 +49723,7 @@ GRC / Restitution1
     Voting ends 2026-07-10
   
   Distribute restitution for Kimi operators affected by cPoC validation failure in epochs 306-309. The Kimi validation path failed starting in e306 causing confirmation_weight suppression for Kimi opera…
-  Yes 227,818 (82.4%) · No 624 (0.2%) · Veto 48,054 (17.4%) · Abstain 18 (0.0%)175,082 GNK · Gov Module
+  Yes 235,728 (87.0%) · No 609 (0.2%) · Veto 34,593 (12.8%) · Abstain 18 (0.0%)175,082 GNK · Gov Module
 
   
     #80 – GRC Proposal #3 - Restitution
@@ -50103,11 +50103,11 @@ Contract: code_id 107, checksum 94b141625b7641e6ad57266420b18a4af72eac49b8110cb9
     
   
   
-    Yes 383,858 (98.3%)
-    No 479 (0.1%)
-    Veto 97 (0.0%)
-    Abstain 6,127 (1.6%)
-    Total 390,561 votes
+    Yes 367,190 (98.2%)
+    No 468 (0.1%)
+    Veto 94 (0.0%)
+    Abstain 6,141 (1.6%)
+    Total 373,893 votes
   
 
 ---
@@ -50265,24 +50265,6 @@ Full PROPOSAL:
 Demo Telegram Channel: 
 
 Additional materials, proof of our work, landing page examples, creatives, advertising accounts, and partnership references: 
-
----
-
-## Final Tally
-
-  
-    
-    
-    
-    
-  
-  
-    Yes 0 (0.0%)
-    No 0 (0.0%)
-    Veto 86,084 (100.0%)
-    Abstain 0 (0.0%)
-    Total 86,084 votes
-  
 
 ---
 
@@ -50849,11 +50831,11 @@ Update current chain params by adding v3 to devshard_escrow_params.approved_vers
     
   
   
-    Yes 231,702 (100.0%)
+    Yes 234,563 (100.0%)
     No 0 (0.0%)
     Veto 0 (0.0%)
     Abstain 0 (0.0%)
-    Total 231,702 votes
+    Total 234,563 votes
   
 
 ---
@@ -51445,11 +51427,11 @@ Distribute restitution for Kimi operators affected by cPoC validation failure in
     
   
   
-    Yes 227,818 (82.4%)
-    No 624 (0.2%)
-    Veto 48,054 (17.4%)
+    Yes 235,728 (87.0%)
+    No 609 (0.2%)
+    Veto 34,593 (12.8%)
     Abstain 18 (0.0%)
-    Total 276,514 votes
+    Total 270,948 votes
   
 
 ---
