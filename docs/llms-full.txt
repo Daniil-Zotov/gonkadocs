@@ -23132,7 +23132,7 @@ alexandr8475
 ## Overview
 
 84Total Proposals
-52Passed (62%)
+53Passed (63%)
 27Rejected (32%)
 1Failed (1%)
 
@@ -23143,7 +23143,7 @@ GRC / Restitution3
 Other3
 Models / IBC2
 
-20,222,572 GNK · $543,600 · Community Pool · 4,691,460 GNK · Gov Module
+20,302,572 GNK · $631,600 · Community Pool · 4,691,460 GNK · Gov Module
 
 ## 2026-Q3
 
@@ -23180,11 +23180,11 @@ Models / IBC2
     Voting ends 2026-07-11
   
   Update current chain params by adding v3 to devshard_escrow_params.approved_versions.
-  Yes 368,533 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 372,317 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
   
     #82 – External Test Lab x Community DevNet
-    Voting
+    Passed
   
   
     Submitted 2026-07-08
@@ -24085,7 +24085,7 @@ Models / IBC2
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-84 proposals across 5 quarters. Last updated: 2026-07-10 10:48 UTC
+84 proposals across 5 quarters. Last updated: 2026-07-10 13:00 UTC
 
 function initProposalsPage() {
   var checkboxes = document.querySelectorAll('.prop-oview-filter input[type=checkbox]');
@@ -49313,12 +49313,14 @@ Contract Details
 ## 2026-Q3 Summary
 
 6Total Proposals
-0Passed (0%)
+1Passed (17%)
 2Rejected (33%)
 
 Funding / Grants4
 Governance Parameters1
 GRC / Restitution1
+
+80,000 GNK · $88,000 · Community Pool
 
 2026-Q3
 6 proposals
@@ -49354,11 +49356,11 @@ GRC / Restitution1
     Voting ends 2026-07-11
   
   Update current chain params by adding v3 to devshard_escrow_params.approved_versions.
-  Yes 368,533 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 372,317 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
   
     #82 – External Test Lab x Community DevNet
-    Voting
+    Passed
   
   
     Submitted 2026-07-08
@@ -49721,7 +49723,7 @@ Approve a 4-month pilot of External Test Lab & Community DevNet with a maximum b
 
 # #82 – External Test Lab x Community DevNet
 
-Voting
+Passed
 
 **Proposal ID:** `82`
 
@@ -50719,11 +50721,11 @@ Update current chain params by adding v3 to devshard_escrow_params.approved_vers
     
   
   
-    Yes 368,533 (100.0%)
+    Yes 372,317 (100.0%)
     No 0 (0.0%)
     Veto 0 (0.0%)
     Abstain 0 (0.0%)
-    Total 368,533 votes
+    Total 372,317 votes
   
 
 ---
