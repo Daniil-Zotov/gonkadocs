@@ -6,13 +6,13 @@ template: issues-main.html
 # Issues: enhancement
 
 Issues with label **enhancement**. Total: **13**.
-Updated: `2026-07-10 18:53 UTC`.
+Updated: `2026-07-10 20:47 UTC`.
 
 [← All Issues](../../index.md)
 
 <ul class="issues-list">
 <li class="issues-list-item">
-  <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
   <div class="issues-body">
     <div class="issues-title">
       <a href="../../01439-external-visibility/">External Visibility</a>
@@ -21,7 +21,7 @@ Updated: `2026-07-10 18:53 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@gordonfrost00-cloud](https://github.com/gordonfrost00-cloud) opened 12 hours ago</span>
+      <span class="issues-meta-item">[@gordonfrost00-cloud](https://github.com/gordonfrost00-cloud) opened 46 minutes ago</span>
       
     </div>
   </div>
