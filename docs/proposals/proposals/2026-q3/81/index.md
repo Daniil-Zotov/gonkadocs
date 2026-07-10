@@ -38,17 +38,17 @@ Distribute restitution for Kimi operators affected by cPoC validation failure in
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:82.4%"></div>
+    <div class="prop-tally-yes" style="width:87.0%"></div>
     <div class="prop-tally-no" style="width:0.2%"></div>
-    <div class="prop-tally-veto" style="width:17.4%"></div>
+    <div class="prop-tally-veto" style="width:12.8%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes 227,818 (82.4%)</span>
-    <span class="prop-tally-no-text">No 624 (0.2%)</span>
-    <span class="prop-tally-veto-text">Veto 48,054 (17.4%)</span>
+    <span class="prop-tally-yes-text">Yes 235,728 (87.0%)</span>
+    <span class="prop-tally-no-text">No 609 (0.2%)</span>
+    <span class="prop-tally-veto-text">Veto 34,593 (12.8%)</span>
     <span class="prop-tally-abstain-text">Abstain 18 (0.0%)</span>
-    <span class="prop-tally-total-text">Total 276,514 votes</span>
+    <span class="prop-tally-total-text">Total 270,948 votes</span>
   </div>
 </div>
 
