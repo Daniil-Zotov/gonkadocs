@@ -2,7 +2,7 @@
 title: "#1439 — External Visibility"
 source: https://github.com/gonka-ai/gonka/issues/1439
 issue_number: 1439
-synced_at: 2026-07-10T20:45:34Z
+synced_at: 2026-07-10T22:27:58Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
     <span class="issues-meta-item">[@gordonfrost00-cloud](https://github.com/gordonfrost00-cloud) opened 2026-07-10 06:29 UTC</span>
-    <span class="issues-meta-item">1 comment</span>
-    <span class="issues-meta-item">Updated 2026-07-10 20:01 UTC</span>
+    <span class="issues-meta-item">2 comments</span>
+    <span class="issues-meta-item">Updated 2026-07-10 21:51 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span></div>
 </div>
@@ -31,7 +31,7 @@ Gonka’s visibility as a solution for decentralized storage should be promoted 
 
 ---
 
-## 💬 Comments (1)
+## 💬 Comments (2)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -50,6 +50,54 @@ Gonka’s visibility as a solution for decentralized storage should be promoted 
 </ul>
 <p>You're right that this is confusing for outside observers on CoinGecko. We'll look into getting Gonka dashboards added as an explorer link on CoinGecko (on CoinMarketCap, you can see some of Gonka explorers), so the native network data is visible alongside the Etherscan (ERC-20) view.</p>
 <p>Btw, Gonka is a decentralized network for AI/compute, not decentralized storage — but the visibility point stands and I appreciate it.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@gordonfrost00-cloud](https://github.com/gordonfrost00-cloud)</span>
+    <span class="issues-meta-item">commented 2026-07-10 21:51 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Vielen Dank für die schnelle Rückmeldung ✊😎</p>
+<p>Tania Charchian <strong><em>@</em></strong>.***&gt; schrieb am Fr., 10. Juli 2026,
+22:01:</p>
+<blockquote>
+<p><em>tcharchian</em> left a comment (gonka-ai/gonka#1439)
+<a href="https://github.com/gonka-ai/gonka/issues/1439#issuecomment-4939055570">https://github.com/gonka-ai/gonka/issues/1439#issuecomment-4939055570</a></p>
+<p>Thanks for the feedback. Just to clarify: the 233 holders shown on
+Etherscan only reflect the ERC-20 (bridged) token on Ethereum, not the
+native Gonka network. Actual network participation (validators, accounts,
+on-chain activity) is visible on Gonka explorers, such as</p>
+<ul>
+<li>https://gonkascan.com/</li>
+<li>https://gonka.gg/</li>
+<li>https://tracker.gonka.hyperfusion.io/</li>
+<li>https://node1.gonka.ai:8443/dashboard/</li>
+<li>https://tracker.gonka.vip/</li>
+<li>and many more</li>
+</ul>
+<p>You're right that this is confusing for outside observers on CoinGecko.
+We'll look into getting Gonka dashboards added as an explorer link on
+CoinGecko (on CoinMarketCap, you can see some of Gonka explorers), so the
+native network data is visible alongside the Etherscan (ERC-20) view.</p>
+<p>Btw, Gonka is a decentralized network for AI/compute, not decentralized
+storage — but the visibility point stands and I appreciate it.</p>
+<p>—
+Reply to this email directly, view it on GitHub
+<a href="https://github.com/gonka-ai/gonka/issues/1439?email_source=notifications&amp;email_token=CAFTBLAVNUKTNB7FQWVSOPD5EFDSXA5CNFSNUABFM5UWIORPF5TWS5BNNB2WEL2JONZXKZKDN5WW2ZLOOQXTIOJTHEYDKNJVG4YKM4TFMFZW63VGMF2XI2DPOKSWK5TFNZ2KYZTPN52GK4S7MNWGSY3L#issuecomment-4939055570">https://github.com/gonka-ai/gonka/issues/1439?email_source=notifications&amp;email_token=CAFTBLAVNUKTNB7FQWVSOPD5EFDSXA5CNFSNUABFM5UWIORPF5TWS5BNNB2WEL2JONZXKZKDN5WW2ZLOOQXTIOJTHEYDKNJVG4YKM4TFMFZW63VGMF2XI2DPOKSWK5TFNZ2KYZTPN52GK4S7MNWGSY3L#issuecomment-4939055570</a>,
+or unsubscribe
+<a href="https://github.com/notifications/unsubscribe-auth/CAFTBLHMVYNROWFGCLFOQKT5EFDSXAVCNFSNUABFKJSXA33TNF2G64TZHM4DENZQGYYTAOJSHNEXG43VMU5TIOBVGI3DKMJQGE3KC5QC">https://github.com/notifications/unsubscribe-auth/CAFTBLHMVYNROWFGCLFOQKT5EFDSXAVCNFSNUABFKJSXA33TNF2G64TZHM4DENZQGYYTAOJSHNEXG43VMU5TIOBVGI3DKMJQGE3KC5QC</a>
+.
+Triage notifications, keep track of coding agent tasks and review pull
+requests on the go with GitHub Mobile for iOS
+<a href="https://github.com/notifications/mobile/ios/CAFTBLBCZWC7HJICQHPURTL5EFDSXA5CNFSNUABFM5UWIORPF5TWS5BNNB2WEL2JONZXKZKDN5WW2ZLOOQXTIOJTHEYDKNJVG4YKM4TFMFZW63VGMF2XI2DPOKSWK5TFNZ2KUZTPN52GK4S7NFXXG">https://github.com/notifications/mobile/ios/CAFTBLBCZWC7HJICQHPURTL5EFDSXA5CNFSNUABFM5UWIORPF5TWS5BNNB2WEL2JONZXKZKDN5WW2ZLOOQXTIOJTHEYDKNJVG4YKM4TFMFZW63VGMF2XI2DPOKSWK5TFNZ2KUZTPN52GK4S7NFXXG</a>
+and Android
+<a href="https://github.com/notifications/mobile/android/CAFTBLHGFBJPDIXCLKK5GZD5EFDSXA5CNFSNUABFM5UWIORPF5TWS5BNNB2WEL2JONZXKZKDN5WW2ZLOOQXTIOJTHEYDKNJVG4YKM4TFMFZW63VGMF2XI2DPOKSWK5TFNZ2K4ZTPN52GK4S7MFXGI4TPNFSA">https://github.com/notifications/mobile/android/CAFTBLHGFBJPDIXCLKK5GZD5EFDSXA5CNFSNUABFM5UWIORPF5TWS5BNNB2WEL2JONZXKZKDN5WW2ZLOOQXTIOJTHEYDKNJVG4YKM4TFMFZW63VGMF2XI2DPOKSWK5TFNZ2K4ZTPN52GK4S7MFXGI4TPNFSA</a>.
+Download it today!
+You are receiving this because you authored the thread.Message ID:
+<strong><em>@</em></strong>.***&gt;
+</p>
+</blockquote>
   </div>
 </div>
 

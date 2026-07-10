@@ -2,7 +2,7 @@
 title: "#1385 — Gateway allowlist request - dev server personal gateway"
 source: https://github.com/gonka-ai/gonka/issues/1385
 issue_number: 1385
-synced_at: 2026-07-10T20:45:41Z
+synced_at: 2026-07-10T22:27:58Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
     <span class="issues-meta-item">[@scodeit](https://github.com/scodeit) opened 2026-07-01 16:41 UTC</span>
-    <span class="issues-meta-item">2 comments</span>
-    <span class="issues-meta-item">Updated 2026-07-03 19:06 UTC</span>
+    <span class="issues-meta-item">3 comments</span>
+    <span class="issues-meta-item">Updated 2026-07-10 21:03 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -47,7 +47,7 @@ Please consider adding this address to `devshard_escrow_params.allowed_creator_a
 
 ---
 
-## 💬 Comments (2)
+## 💬 Comments (3)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -77,6 +77,15 @@ Please consider adding this address to `devshard_escrow_params.allowed_creator_a
 <p>If the platform proves to be a good fit, I'd also be interested in running a gateway for others in the future. I'd rather learn how to operate the full stack now than start with a broker and redesign everything later.</p>
 <p>I understand that the allowlist is controlled through governance and that there's no guarantee or fixed timeline. That's completely fine. I just wanted to register my interest so the address can be considered whenever the next proposal is put together.</p>
 <p>Thanks again for taking the time to explain the process.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span class="issues-meta-item">commented 2026-07-10 21:03 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Hi @scodeit. Your intent is registered. The strongest thing you can do while you wait is be visible in the community. Governance proposals are discussed and gain support in the community channels (Discord/Telegram). Sharing what you're building and gaining support increases your chances of being approved by governance.</p>
   </div>
 </div>
 
