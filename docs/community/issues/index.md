@@ -7,7 +7,7 @@ template: issues-main.html
 
 All issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).
 Total: **304** (🟢 open: **67**, 🔴 closed: **237**).
-Updated: `2026-07-10 15:09 UTC`.
+Updated: `2026-07-10 17:14 UTC`.
 
 <ul class="issues-list">
 <li class="issues-list-item">
@@ -20,7 +20,7 @@ Updated: `2026-07-10 15:09 UTC`.
     <p class="issues-desc">Gonka’s visibility as a solution for decentralized storage should be promoted more widely. To an outside observer looking at Coingecko, it seems rather uninteresting, since, for example, only 233 hod...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@gordonfrost00-cloud](https://github.com/gordonfrost00-cloud) opened 8 hours ago</span>
+      <span class="issues-meta-item">[@gordonfrost00-cloud](https://github.com/gordonfrost00-cloud) opened 10 hours ago</span>
       
     </div>
   </div>
@@ -35,7 +35,7 @@ Updated: `2026-07-10 15:09 UTC`.
     <p class="issues-desc">## Summary  `withdraw()` and `mintWithSignature()` in `BridgeContract.sol` accept signatures from **any historical epoch** as long as the epoch's group key has not been cleaned up by `_cleanupOldEpoch...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@Doog-bot534](https://github.com/Doog-bot534) opened 9 hours ago</span>
+      <span class="issues-meta-item">[@Doog-bot534](https://github.com/Doog-bot534) opened 11 hours ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>
@@ -200,7 +200,7 @@ Updated: `2026-07-10 15:09 UTC`.
     <p class="issues-desc">Is this how our story began in your previous project where your name was Natalia?  I would like to ask, can Mikhail Chudinov come out to play? The one who is a DevOps engineer at NameSilo, formerly He...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@phishdestroy](https://github.com/phishdestroy) opened 3 days ago</span>
+      <span class="issues-meta-item">[@phishdestroy](https://github.com/phishdestroy) opened 4 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>
@@ -320,7 +320,7 @@ Updated: `2026-07-10 15:09 UTC`.
     <p class="issues-desc">### Summary  Several official surfaces document a **self-serve, no-broker** end-to-end inference flow (own GNK account + private key → signed request → completion) as if it works. In practice, a funde...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@dufok](https://github.com/dufok) opened 6 days ago</span>
+      <span class="issues-meta-item">[@dufok](https://github.com/dufok) opened 7 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 7</span>
     </div>
   </div>
@@ -755,7 +755,7 @@ Updated: `2026-07-10 15:09 UTC`.
     <p class="issues-desc"># Request to be added as a Gonka gateway operator (devshard creator allowlist)  Hi Gonka core team & community,  We're requesting inclusion of our on-chain address in `devshard_escrow_params.allowed_c...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@Puyre](https://github.com/Puyre) opened 29 days ago</span>
+      <span class="issues-meta-item">[@Puyre](https://github.com/Puyre) opened 2026-06-10</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
