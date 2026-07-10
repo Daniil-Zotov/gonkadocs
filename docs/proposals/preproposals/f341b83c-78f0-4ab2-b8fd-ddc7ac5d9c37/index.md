@@ -11,7 +11,7 @@ template: proposals-main.html
 
 **Author:** Andrey Orlov
 **Created:** 2026-07-09 16:25 UTC
-**Closes:** 2026-08-09 01:25 UTC
+**Closes:** 2026-08-08 16:25 UTC
 **Language:** RU
 **Votes:** 0
 **Avg. Bid:** 0.00 GNK

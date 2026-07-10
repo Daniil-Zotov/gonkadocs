@@ -11,10 +11,10 @@ template: proposals-main.html
 
 **Author:** Igor Alexeev
 **Created:** 2026-06-13 15:40 UTC
-**Closes:** 2026-07-14 00:41 UTC
+**Closes:** 2026-07-13 15:40 UTC
 **Language:** EN
-**Votes:** 1
-**Avg. Bid:** 10.0K GNK
+**Votes:** 0
+**Avg. Bid:** 0.00 GNK
 
 </div>
 
@@ -389,14 +389,6 @@ Beyond that interest, we also bring something tangible to the project today: an 
 We are not asking the community to fund the creation of a team or infrastructure from scratch. These resources already exist within Private Inc. The majority of the requested budget will be allocated directly toward attracting new users, infrastructure operators, AI developers, and computing resources into the Gonka ecosystem.
 
 We are prepared to operate with maximum transparency, publish regular reports, validate results with measurable data, and answer community questions throughout every stage of the program.
-
----
-
-## Votes (1)
-
-| Voter | Amount | Date |
-| :----- | :----- | :--- |
-| `gonka1gm...gzg6ry` | 10.0K GNK | 2026-07-03 00:07 |
 
 ---
 

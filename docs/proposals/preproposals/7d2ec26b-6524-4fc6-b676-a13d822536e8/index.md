@@ -11,7 +11,7 @@ template: proposals-main.html
 
 **Author:** Victor
 **Created:** 2026-06-11 09:48 UTC
-**Closes:** 2026-09-09 09:46 UTC
+**Closes:** 2026-07-11 09:48 UTC
 **Language:** RU
 **Votes:** 0
 **Avg. Bid:** 0.00 GNK

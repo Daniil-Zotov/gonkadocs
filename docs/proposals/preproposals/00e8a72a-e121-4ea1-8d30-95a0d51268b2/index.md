@@ -13,8 +13,8 @@ template: proposals-main.html
 **Created:** 2026-04-27 23:30 UTC
 **Closes:** 2026-05-11 23:30 UTC
 **Language:** RU
-**Votes:** 91
-**Avg. Bid:** 39.1K GNK
+**Votes:** 0
+**Avg. Bid:** 0.00 GNK
 
 </div>
 
@@ -75,104 +75,6 @@ Mitch, основатель gonka.top, запускает Gonka.TV — YouTube-�
 Что конкретно стоит делать? Обучалки или продвижение? Платные коллабы с крупными блогерами или органический рост? На что сообщество готово выделить ресурс?
 
 **Пиши своё видение в комментариях к тендеру: [vote.gonka.vip](https://vote.gonka.vip/)**
-
----
-
-## Votes (91)
-
-| Voter | Amount | Date |
-| :----- | :----- | :--- |
-| `gonka1gm...gzg6ry` | 50.0K GNK | 2026-04-27 23:44 |
-| `gonka1aw...f8af0w` | 32.2K GNK | 2026-04-30 09:09 |
-| `gonka1u6...967mgk` | 20.0K GNK | 2026-04-28 00:19 |
-| `gonka1a4...3ww4ac` | 20.0K GNK | 2026-04-28 00:19 |
-| `gonka1c6...9693gl` | 15.0K GNK | 2026-04-28 13:41 |
-| `gonka14y...5dwa34` | 20.0K GNK | 2026-04-28 00:20 |
-| `gonka18p...6ssllv` | 20.0K GNK | 2026-04-28 00:19 |
-| `gonka19s...mj5e06` | 20.0K GNK | 2026-04-28 00:19 |
-| `gonka109...wdesy6` | 20.0K GNK | 2026-05-03 14:30 |
-| `gonka1c8...wqml7f` | 20.0K GNK | 2026-04-28 00:19 |
-| `gonka17t...lpzm5s` | 15.0K GNK | 2026-04-28 13:41 |
-| `gonka1y3...wmzvu9` | 20.0K GNK | 2026-04-28 00:20 |
-| `gonka1ex...65kr6h` | 20.0K GNK | 2026-04-28 00:19 |
-| `gonka1p2...6k652r` | 20.0K GNK | 2026-04-28 00:19 |
-| `gonka14s...4aqm05` | 20.0K GNK | 2026-04-28 00:19 |
-| `gonka178...08g7pn` | 32.5K GNK | 2026-04-28 19:30 |
-| `gonka1lh...2z4evj` | 20.0K GNK | 2026-04-28 00:19 |
-| `gonka1nq...ax5vyc` | 20.0K GNK | 2026-04-28 00:19 |
-| `gonka1jr...sshn36` | 35.0K GNK | 2026-04-29 19:55 |
-| `gonka1sl...wkl054` | 20.0K GNK | 2026-04-28 00:19 |
-| `gonka17f...d29nsk` | 15.0K GNK | 2026-04-28 13:41 |
-| `gonka1cc...wyshl9` | 15.0K GNK | 2026-04-28 13:42 |
-| `gonka1ss...u07vzh` | 20.0K GNK | 2026-04-28 00:20 |
-| `gonka1eh...ucxxhz` | 20.0K GNK | 2026-04-28 00:19 |
-| `gonka1gt...0wj084` | 15.0K GNK | 2026-04-28 13:42 |
-| `gonka19y...ynwuku` | 20.0K GNK | 2026-04-28 00:19 |
-| `gonka14f...rqkh93` | 20.0K GNK | 2026-04-28 00:19 |
-| `gonka10s...t370fq` | 15.0K GNK | 2026-04-28 13:41 |
-| `gonka14l...7evgh4` | 20.0K GNK | 2026-04-28 00:20 |
-| `gonka1gy...yv8tfq` | 15.0K GNK | 2026-04-28 13:42 |
-| `gonka15r...394uv4` | 15.0K GNK | 2026-04-28 13:42 |
-| `gonka1ps...87muj2` | 15.0K GNK | 2026-04-28 13:42 |
-| `gonka1ql...98c5q3` | 15.0K GNK | 2026-04-28 13:42 |
-| `gonka1la...rh0qyc` | 20.0K GNK | 2026-04-28 00:19 |
-| `gonka1w2...hl7xtp` | 20.0K GNK | 2026-04-28 00:20 |
-| `gonka1qx...jmkvky` | 15.0K GNK | 2026-04-28 13:41 |
-| `gonka173...dkdvje` | 20.0K GNK | 2026-04-28 00:20 |
-| `gonka1ym...yx5a3m` | 15.0K GNK | 2026-04-28 13:41 |
-| `gonka12v...zen8z5` | 15.0K GNK | 2026-04-28 13:42 |
-| `gonka1e9...tfqgqg` | 15.0K GNK | 2026-04-28 13:42 |
-| `gonka1wf...9kua02` | 15.0K GNK | 2026-04-28 13:42 |
-| `gonka1lw...7mmx87` | 15.0K GNK | 2026-04-28 13:42 |
-| `gonka1wz...3g6d55` | 15.0K GNK | 2026-04-28 13:42 |
-| `gonka1l7...m4qus8` | 15.0K GNK | 2026-04-28 13:42 |
-| `gonka1ec...thhn29` | 15.0K GNK | 2026-04-28 13:42 |
-| `gonka123...y4le76` | 15.0K GNK | 2026-04-28 13:42 |
-| `gonka108...kvfazm` | 20.0K GNK | 2026-04-28 00:17 |
-| `gonka1yt...da3yv2` | 20.0K GNK | 2026-04-28 00:19 |
-| `gonka1h4...m03mnn` | 20.0K GNK | 2026-04-28 00:17 |
-| `gonka1h9...26p07n` | 20.0K GNK | 2026-04-28 00:17 |
-| `gonka1hj...7dnj05` | 20.0K GNK | 2026-04-28 00:18 |
-| `gonka1j3...sdekrc` | 20.0K GNK | 2026-04-28 00:17 |
-| `gonka1e2...wj7y2t` | 20.0K GNK | 2026-04-28 00:18 |
-| `gonka1jw...gmv0za` | 20.0K GNK | 2026-04-28 00:18 |
-| `gonka1jy...vvf2gd` | 20.0K GNK | 2026-04-28 00:18 |
-| `gonka1jz...hzaaq5` | 20.0K GNK | 2026-04-28 00:17 |
-| `gonka1k7...jws70h` | 20.0K GNK | 2026-04-28 00:17 |
-| `gonka1dq...z4jfa4` | 20.0K GNK | 2026-04-28 00:19 |
-| `gonka1zs...7ln5c0` | 20.0K GNK | 2026-04-28 00:18 |
-| `gonka1cr...gf27kd` | 20.0K GNK | 2026-04-28 00:18 |
-| `gonka1lf...7q8ahj` | 20.0K GNK | 2026-04-28 00:18 |
-| `gonka1uk...ygy2mg` | 20.0K GNK | 2026-04-28 00:17 |
-| `gonka1av...0c8pmf` | 20.0K GNK | 2026-04-28 00:17 |
-| `gonka1au...05ccat` | 20.0K GNK | 2026-04-28 00:17 |
-| `gonka1a4...c7q2a5` | 20.0K GNK | 2026-04-28 00:18 |
-| `gonka182...hg8ed7` | 20.0K GNK | 2026-04-28 00:18 |
-| `gonka1p5...rc0q0g` | 20.0K GNK | 2026-04-28 00:18 |
-| `gonka1pj...m3mddj` | 20.0K GNK | 2026-04-28 00:19 |
-| `gonka1pp...kj60de` | 20.0K GNK | 2026-04-28 00:19 |
-| `gonka17g...lze0dx` | 20.0K GNK | 2026-04-28 00:17 |
-| `gonka1q3...vz3kgn` | 20.0K GNK | 2026-04-28 00:18 |
-| `gonka170...zrkh8p` | 20.0K GNK | 2026-04-28 00:17 |
-| `gonka16x...kd5quj` | 20.0K GNK | 2026-04-28 00:18 |
-| `gonka1s0...4d0lxs` | 20.0K GNK | 2026-04-28 00:18 |
-| `gonka1sg...asss9u` | 20.0K GNK | 2026-04-28 00:17 |
-| `gonka159...jleju2` | 20.0K GNK | 2026-04-28 00:18 |
-| `gonka1sq...0wuqt8` | 20.0K GNK | 2026-04-28 00:18 |
-| `gonka150...zrwhta` | 20.0K GNK | 2026-04-28 00:18 |
-| `gonka1ta...gffgvy` | 20.0K GNK | 2026-04-28 00:17 |
-| `gonka13n...wsx33n` | 20.0K GNK | 2026-04-28 00:18 |
-| `gonka1f8...9n0xtv` | 20.0K GNK | 2026-04-28 00:18 |
-| `gonka1up...mjlvv9` | 20.0K GNK | 2026-04-28 00:17 |
-| `gonka13e...g8pcpn` | 20.0K GNK | 2026-04-28 00:18 |
-| `gonka1w9...e8q4tg` | 20.0K GNK | 2026-04-28 00:19 |
-| `gonka136...wjqqw2` | 20.0K GNK | 2026-04-28 00:18 |
-| `gonka12u...fne9un` | 20.0K GNK | 2026-04-28 00:17 |
-| `gonka1xy...r65ky8` | 20.0K GNK | 2026-04-28 00:18 |
-| `gonka12l...dafxdh` | 20.0K GNK | 2026-04-28 00:17 |
-| `gonka10x...metmqz` | 20.0K GNK | 2026-04-28 00:17 |
-| `gonka1l9...8yhee5` | 20.0K GNK | 2026-04-28 00:17 |
-| `gonka1lg...s207c3` | 15.0K GNK | 2026-04-29 00:24 |
 
 ---
 

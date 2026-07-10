@@ -13,8 +13,8 @@ template: proposals-main.html
 **Created:** 2026-05-01 05:34 UTC
 **Closes:** 2026-05-08 05:34 UTC
 **Language:** EN
-**Votes:** 70
-**Avg. Bid:** 3.1M GNK
+**Votes:** 0
+**Avg. Bid:** 0.00 GNK
 
 </div>
 
@@ -125,83 +125,6 @@ own node.
 Looking forward to your thoughts. Happy to adjust the methodology, the
 range, or anything else based on feedback before writing this up as a
 formal governance proposal.
-
----
-
-## Votes (70)
-
-| Voter | Amount | Date |
-| :----- | :----- | :--- |
-| `gonka1gm...gzg6ry` | 3.1M GNK | 2026-05-01 05:35 |
-| `gonka1aw...f8af0w` | 3.1M GNK | 2026-05-01 05:36 |
-| `gonka1u6...967mgk` | 3.1M GNK | 2026-05-01 06:38 |
-| `gonka1a4...3ww4ac` | 3.1M GNK | 2026-05-01 06:38 |
-| `gonka14y...5dwa34` | 3.1M GNK | 2026-05-01 06:39 |
-| `gonka18p...6ssllv` | 3.1M GNK | 2026-05-01 06:38 |
-| `gonka19s...mj5e06` | 3.1M GNK | 2026-05-01 06:38 |
-| `gonka109...wdesy6` | 3.1M GNK | 2026-05-03 14:32 |
-| `gonka1c8...wqml7f` | 3.1M GNK | 2026-05-01 06:38 |
-| `gonka1y3...wmzvu9` | 3.1M GNK | 2026-05-01 06:39 |
-| `gonka1ex...65kr6h` | 3.1M GNK | 2026-05-01 06:38 |
-| `gonka1p2...6k652r` | 3.1M GNK | 2026-05-01 06:38 |
-| `gonka14s...4aqm05` | 3.1M GNK | 2026-05-01 06:38 |
-| `gonka1lh...2z4evj` | 3.1M GNK | 2026-05-01 06:38 |
-| `gonka1nq...ax5vyc` | 3.1M GNK | 2026-05-01 06:38 |
-| `gonka1sl...wkl054` | 3.1M GNK | 2026-05-01 06:38 |
-| `gonka1ss...u07vzh` | 3.1M GNK | 2026-05-01 06:39 |
-| `gonka1eh...ucxxhz` | 3.1M GNK | 2026-05-01 06:38 |
-| `gonka19y...ynwuku` | 3.1M GNK | 2026-05-01 06:38 |
-| `gonka1rw...dftj3l` | 3.1M GNK | 2026-05-01 05:36 |
-| `gonka1yw...3h9jpe` | 3.1M GNK | 2026-05-01 05:36 |
-| `gonka14f...rqkh93` | 3.1M GNK | 2026-05-01 06:38 |
-| `gonka14l...7evgh4` | 3.1M GNK | 2026-05-01 06:39 |
-| `gonka1la...rh0qyc` | 3.1M GNK | 2026-05-01 06:38 |
-| `gonka1w2...hl7xtp` | 3.1M GNK | 2026-05-01 06:39 |
-| `gonka173...dkdvje` | 3.1M GNK | 2026-05-01 06:39 |
-| `gonka108...kvfazm` | 3.1M GNK | 2026-05-01 06:36 |
-| `gonka136...wjqqw2` | 3.1M GNK | 2026-05-01 06:37 |
-| `gonka1cr...gf27kd` | 3.1M GNK | 2026-05-01 06:37 |
-| `gonka1dq...z4jfa4` | 3.1M GNK | 2026-05-01 06:37 |
-| `gonka1e2...wj7y2t` | 3.1M GNK | 2026-05-01 06:37 |
-| `gonka1au...05ccat` | 3.1M GNK | 2026-05-01 06:36 |
-| `gonka1a4...c7q2a5` | 3.1M GNK | 2026-05-01 06:37 |
-| `gonka1f8...9n0xtv` | 3.1M GNK | 2026-05-01 06:37 |
-| `gonka182...hg8ed7` | 3.1M GNK | 2026-05-01 06:37 |
-| `gonka1h4...m03mnn` | 3.1M GNK | 2026-05-01 06:36 |
-| `gonka1h9...26p07n` | 3.1M GNK | 2026-05-01 06:36 |
-| `gonka1zs...7ln5c0` | 3.1M GNK | 2026-05-01 06:37 |
-| `gonka1j3...sdekrc` | 3.1M GNK | 2026-05-01 06:36 |
-| `gonka1jw...gmv0za` | 3.1M GNK | 2026-05-01 06:37 |
-| `gonka1jy...vvf2gd` | 3.1M GNK | 2026-05-01 06:37 |
-| `gonka1jz...hzaaq5` | 3.1M GNK | 2026-05-01 06:36 |
-| `gonka1k7...jws70h` | 3.1M GNK | 2026-05-01 06:36 |
-| `gonka1l9...8yhee5` | 3.1M GNK | 2026-05-01 06:36 |
-| `gonka17g...lze0dx` | 3.1M GNK | 2026-05-01 06:36 |
-| `gonka1lf...7q8ahj` | 3.1M GNK | 2026-05-01 06:37 |
-| `gonka170...zrkh8p` | 3.1M GNK | 2026-05-01 06:36 |
-| `gonka16x...kd5quj` | 3.1M GNK | 2026-05-01 06:37 |
-| `gonka159...jleju2` | 3.1M GNK | 2026-05-01 06:37 |
-| `gonka1p5...rc0q0g` | 3.1M GNK | 2026-05-01 06:37 |
-| `gonka1pj...m3mddj` | 3.1M GNK | 2026-05-01 06:37 |
-| `gonka1pp...kj60de` | 3.1M GNK | 2026-05-01 06:38 |
-| `gonka1q3...vz3kgn` | 3.1M GNK | 2026-05-01 06:36 |
-| `gonka150...zrwhta` | 3.1M GNK | 2026-05-01 06:37 |
-| `gonka1s0...4d0lxs` | 3.1M GNK | 2026-05-01 06:37 |
-| `gonka1sg...asss9u` | 3.1M GNK | 2026-05-01 06:36 |
-| `gonka13n...wsx33n` | 3.1M GNK | 2026-05-01 06:36 |
-| `gonka1sq...0wuqt8` | 3.1M GNK | 2026-05-01 06:37 |
-| `gonka13e...g8pcpn` | 3.1M GNK | 2026-05-01 06:37 |
-| `gonka1ta...gffgvy` | 3.1M GNK | 2026-05-01 06:36 |
-| `gonka1av...0c8pmf` | 3.1M GNK | 2026-05-01 06:36 |
-| `gonka1uk...ygy2mg` | 3.1M GNK | 2026-05-01 06:36 |
-| `gonka1up...mjlvv9` | 3.1M GNK | 2026-05-01 06:36 |
-| `gonka12u...fne9un` | 3.1M GNK | 2026-05-01 06:36 |
-| `gonka1w9...e8q4tg` | 3.1M GNK | 2026-05-01 06:38 |
-| `gonka1xy...r65ky8` | 3.1M GNK | 2026-05-01 06:37 |
-| `gonka12l...dafxdh` | 3.1M GNK | 2026-05-01 06:36 |
-| `gonka1yt...da3yv2` | 3.1M GNK | 2026-05-01 06:38 |
-| `gonka10x...metmqz` | 3.1M GNK | 2026-05-01 06:36 |
-| `gonka1hj...7dnj05` | 3.1M GNK | 2026-05-01 06:37 |
 
 ---
 

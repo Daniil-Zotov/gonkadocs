@@ -17060,29 +17060,25 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 | Status | Title | Author | Votes | Avg. Bid | Closes |
 | :----- | :----- | :----- | ----: | -------: | :----- |
 | 🟢 | [Gonka Media Library by Saccade](./f215996d-e562-42b5-b2b1-400226e612fa/) | Dem \| Démíngān | 0 | 0.00 GNK | 2026-07-10 |
-| 🟢 | [Go-To-Market Team for 3 Month to Set Up the Basis](./cb7f643f-3d56-47ec-9193-f9f2f80a99fb/) | Dem \| Démíngān | 1 | 10.0K GNK | 2026-07-10 |
-| 🟢 | [Private Inc × Gonka — Network Growth Initiative](./ed8148eb-535e-4677-9a6b-5316c81c996a/) | Igor Alexeev | 1 | 10.0K GNK | 2026-07-14 |
-| 🟢 | [External Test Lab & Community DevNet](./205219a5-6ed2-4f25-8d22-fa7c65a45ba6/) | Sergii Paranko | 1 | 400.0K GNK | 2026-07-14 |
-| 🟢 | [Universal Continuous GPU Benchmark for Gonka Hosts (vLLM v0.19+, Anti-Sybil)](./673770df-0b72-4d04-a038-f8c12546817f/) | Evgenii Maksimenkov | 4 | 2.7M GNK | 2026-07-24 |
-| 🟢 | [International Marketing Campaign for Gonka — English-Speaking Markets](./28dcf8fb-3138-4e8b-adc0-0fb82962276c/) | Evgenii Maksimenkov | 3 | 897.4K GNK | 2026-07-24 |
-| 🟢 | [Gonka Integration Grant for AI Startups and Products (GNK Rewards)](./ed7bd700-bb5a-4c99-9dae-bdcba6641015/) | Evgenii Maksimenkov | 3 | 50.0K GNK | 2026-07-24 |
-| 🟢 | [Привлечение $3M+ нового капитала на Uniswap](./e0cc7d32-5d1a-49e1-94e8-0ca3d9ccbf6b/) | Andrey Orlov | 1 | 1.0M GNK | 2026-08-03 |
-| 🟢 | [Привлечение $3M+ нового капитала на Uniswap v2.0](./f341b83c-78f0-4ab2-b8fd-ddc7ac5d9c37/) | Andrey Orlov | 0 | 0.00 GNK | 2026-08-09 |
-| 🟢 | [3. Team Gonka Wallet Grant Request](./2b6b2142-685a-4eda-b2a1-f8853228f3e6/) | Slava MSE! | 0 | 0.00 GNK | 2026-09-09 |
-| 🟢 | [4. Team Gonka NL BE Community Grant Request](./db4d91a4-1ee7-46ee-a3d1-0e8ba546d04b/) | Slava MSE! | 0 | 0.00 GNK | 2026-09-09 |
-| 🟢 | [5. Team Lefine Grant Request](./662adc44-01c4-41ca-9c0d-ac61f472ee56/) | Slava MSE! | 0 | 0.00 GNK | 2026-09-09 |
-| 🟢 | [7. Team Epokha AI / epokha.ai Grant Request](./0395efa6-8eef-4d83-85cb-83d36a937f96/) | Slava MSE! | 0 | 0.00 GNK | 2026-09-09 |
-| 🟢 | [8. Team Gonka.TV Grant Request](./47ab8faa-f9bd-41ba-8e86-6c760d4975a6/) | Slava MSE! | 0 | 0.00 GNK | 2026-09-09 |
-| 🟢 | [9. Team Gonka-API.org Grant Request](./f021bdb3-59f4-4906-bfaa-7b90b72019b1/) | Slava MSE! | 0 | 0.00 GNK | 2026-09-09 |
-| 🟢 | [10. Team Alexander Kuprin Grant Request](./59175b49-b83f-4aa6-98f5-b27fffb23cd8/) | Slava MSE! | 0 | 0.00 GNK | 2026-09-09 |
-| 🟢 | [11. Team GonkaGate Grant Request](./d2f317f0-541a-4d9f-bbac-d2d394906bf2/) | Slava MSE! | 0 | 0.00 GNK | 2026-09-09 |
-| 🟢 | [12. Team Slava MSE Team Grant Request](./08405617-5654-4ead-be62-642affa1739e/) | Slava MSE! | 0 | 0.00 GNK | 2026-09-09 |
-| 🟢 | [12+1. Team EntroPi Grant Request](./f6b4e378-8950-4bcf-ac7f-d70d9d246630/) | Slava MSE! | 0 | 0.00 GNK | 2026-09-09 |
-| 🟢 | [Интеграция ИИ Gonka в инфраструктуру QR Mint](./7d2ec26b-6524-4fc6-b676-a13d822536e8/) | Victor | 0 | 0.00 GNK | 2026-09-09 |
-| 🟢 | [Предложение по развитию игровой экосистемы блокчейна через турнирные пулы вознаг](./fd9989ca-7c5b-4a2f-baf4-2465e6915ba6/) | Victor | 1 | 10.0K GNK | 2026-09-10 |
-| 🟢 | [Улучшения для vote.gonka.vip](./b7083379-6dc5-4198-b9b0-1b8b98f0ac01/) | Alex A.A. | 1 | 10.0K GNK | 2026-12-24 |
-| 🟢 | [1. Team Veylox Grant Request](./66e6583a-27b4-4bae-91fb-8f0489736b0d/) | Slava MSE! | 0 | 0.00 GNK | 2030-01-01 |
-| 🟢 | [Team Gonka.AI \| Inside Grant Request](./4792a93f-127a-4a0e-9a12-acd229c1e865/) | Slava MSE! | 0 | 0.00 GNK | 2030-01-01 |
+| 🟢 | [Go-To-Market Team for 3 Month to Set Up the Basis](./cb7f643f-3d56-47ec-9193-f9f2f80a99fb/) | Dem \| Démíngān | 0 | 0.00 GNK | 2026-07-10 |
+| 🟢 | [1. Team Veylox Grant Request](./66e6583a-27b4-4bae-91fb-8f0489736b0d/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
+| 🟢 | [Team Gonka.AI \| Inside Grant Request](./4792a93f-127a-4a0e-9a12-acd229c1e865/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
+| 🟢 | [3. Team Gonka Wallet Grant Request](./2b6b2142-685a-4eda-b2a1-f8853228f3e6/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
+| 🟢 | [4. Team Gonka NL BE Community Grant Request](./db4d91a4-1ee7-46ee-a3d1-0e8ba546d04b/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
+| 🟢 | [5. Team Lefine Grant Request](./662adc44-01c4-41ca-9c0d-ac61f472ee56/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
+| 🟢 | [7. Team Epokha AI / epokha.ai Grant Request](./0395efa6-8eef-4d83-85cb-83d36a937f96/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
+| 🟢 | [8. Team Gonka.TV Grant Request](./47ab8faa-f9bd-41ba-8e86-6c760d4975a6/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
+| 🟢 | [9. Team Gonka-API.org Grant Request](./f021bdb3-59f4-4906-bfaa-7b90b72019b1/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
+| 🟢 | [10. Team Alexander Kuprin Grant Request](./59175b49-b83f-4aa6-98f5-b27fffb23cd8/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
+| 🟢 | [11. Team GonkaGate Grant Request](./d2f317f0-541a-4d9f-bbac-d2d394906bf2/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
+| 🟢 | [12. Team Slava MSE Team Grant Request](./08405617-5654-4ead-be62-642affa1739e/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
+| 🟢 | [12+1. Team EntroPi Grant Request](./f6b4e378-8950-4bcf-ac7f-d70d9d246630/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
+| 🟢 | [Интеграция ИИ Gonka в инфраструктуру QR Mint](./7d2ec26b-6524-4fc6-b676-a13d822536e8/) | Victor | 0 | 0.00 GNK | 2026-07-11 |
+| 🟢 | [Предложение по развитию игровой экосистемы блокчейна через турнирные пулы вознаг](./fd9989ca-7c5b-4a2f-baf4-2465e6915ba6/) | Victor | 0 | 0.00 GNK | 2026-07-12 |
+| 🟢 | [Private Inc × Gonka — Network Growth Initiative](./ed8148eb-535e-4677-9a6b-5316c81c996a/) | Igor Alexeev | 0 | 0.00 GNK | 2026-07-13 |
+| 🟢 | [External Test Lab & Community DevNet](./205219a5-6ed2-4f25-8d22-fa7c65a45ba6/) | Sergii Paranko | 0 | 0.00 GNK | 2026-07-14 |
+| 🟢 | [Привлечение $3M+ нового капитала на Uniswap](./e0cc7d32-5d1a-49e1-94e8-0ca3d9ccbf6b/) | Andrey Orlov | 0 | 0.00 GNK | 2026-08-02 |
+| 🟢 | [Привлечение $3M+ нового капитала на Uniswap v2.0](./f341b83c-78f0-4ab2-b8fd-ddc7ac5d9c37/) | Andrey Orlov | 0 | 0.00 GNK | 2026-08-08 |
 
 ---
 
@@ -17090,18 +17086,21 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 | Status | Title | Author | Votes | Avg. Bid | Closed |
 | :----- | :----- | :----- | ----: | -------: | :----- |
-| 🔴 | [Стресс тест инфиренса](./efc0edeb-bc49-4c6b-a6e7-5b20ccfbe571/) | Mitch | 2 | 10.0K GNK | 2026-06-05 |
-| 🔴 | [Bring Gonka to EBC12 as a Gold Sponsor](./29baf37b-811f-4c36-b517-66a578383f1c/) | Heydar Naghiyev | 2 | 50.0K GNK | 2026-06-04 |
-| 🔴 | [Большое видео на канале Falcon Finance (Александр Соколовский)](./550f71de-897f-4ce5-8af8-97854775f8b2/) | Дмитрий В | 2 | 100.0K GNK | 2026-05-28 |
-| 🔴 | [Gonka NOP: ретроактивный грант + финансирование поддержки и новых фич.](./2cbbe98e-ceff-4f09-a1cd-e8d370e97fde/) | O D | 70 | 9.5K GNK | 2026-05-20 |
-| 🔴 | [Коэффициент для Kimi 2.6 - 1,87](./d14f975e-0e40-4a94-81c5-715a02c3826e/) | Alex Sharoiko Александр Шаройко | 1 | 10.0K GNK | 2026-05-20 |
-| 🔴 | [Gonka.TV — амбассадор Гонки на YouTube](./00e8a72a-e121-4ea1-8d30-95a0d51268b2/) | Mikhail Chudinov | 91 | 39.1K GNK | 2026-05-11 |
-| 🔴 | [Bounty for open-source PoC throughput contributions](./6392c2ea-7fb8-45c7-b1ec-80fb16d81d93/) | Serhii Hovorov | 5 | 20.0K GNK | 2026-05-08 |
-| 🔴 | [Return Withheld Miner Rewards: Redistribute Gov-Wallet Balance for Ep 132–247](./012f8a32-45ab-4ba8-b6f3-39631d19eb84/) | Evgenii Maksimenkov | 70 | 3.1M GNK | 2026-05-08 |
+| 🔴 | [Стресс тест инфиренса](./efc0edeb-bc49-4c6b-a6e7-5b20ccfbe571/) | Mitch | 0 | 0.00 GNK | 2026-06-05 |
+| 🔴 | [Bring Gonka to EBC12 as a Gold Sponsor](./29baf37b-811f-4c36-b517-66a578383f1c/) | Heydar Naghiyev | 0 | 0.00 GNK | 2026-06-04 |
+| 🔴 | [Большое видео на канале Falcon Finance (Александр Соколовский)](./550f71de-897f-4ce5-8af8-97854775f8b2/) | Дмитрий В | 0 | 0.00 GNK | 2026-05-28 |
+| 🔴 | [Улучшения для vote.gonka.vip](./b7083379-6dc5-4198-b9b0-1b8b98f0ac01/) | Alex A.A. | 0 | 0.00 GNK | 2026-05-25 |
+| 🔴 | [International Marketing Campaign for Gonka — English-Speaking Markets](./28dcf8fb-3138-4e8b-adc0-0fb82962276c/) | Evgenii Maksimenkov | 0 | 0.00 GNK | 2026-05-25 |
+| 🔴 | [Universal Continuous GPU Benchmark for Gonka Hosts (vLLM v0.19+, Anti-Sybil)](./673770df-0b72-4d04-a038-f8c12546817f/) | Evgenii Maksimenkov | 0 | 0.00 GNK | 2026-05-25 |
+| 🔴 | [Gonka NOP: ретроактивный грант + финансирование поддержки и новых фич.](./2cbbe98e-ceff-4f09-a1cd-e8d370e97fde/) | O D | 0 | 0.00 GNK | 2026-05-20 |
+| 🔴 | [Коэффициент для Kimi 2.6 - 1,87](./d14f975e-0e40-4a94-81c5-715a02c3826e/) | Alex Sharoiko Александр Шаройко | 0 | 0.00 GNK | 2026-05-20 |
+| 🔴 | [Gonka.TV — амбассадор Гонки на YouTube](./00e8a72a-e121-4ea1-8d30-95a0d51268b2/) | Mikhail Chudinov | 0 | 0.00 GNK | 2026-05-11 |
+| 🔴 | [Bounty for open-source PoC throughput contributions](./6392c2ea-7fb8-45c7-b1ec-80fb16d81d93/) | Serhii Hovorov | 0 | 0.00 GNK | 2026-05-08 |
+| 🔴 | [Return Withheld Miner Rewards: Redistribute Gov-Wallet Balance for Ep 132–247](./012f8a32-45ab-4ba8-b6f3-39631d19eb84/) | Evgenii Maksimenkov | 0 | 0.00 GNK | 2026-05-08 |
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-07-09 23:24 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-07-10 11:16 UTC*
 
 ---
 
@@ -17113,10 +17112,10 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 **Author:** Victor
 **Created:** 2026-06-12 21:31 UTC
-**Closes:** 2026-09-10 21:31 UTC
+**Closes:** 2026-07-12 21:31 UTC
 **Language:** RU
-**Votes:** 1
-**Avg. Bid:** 10.0K GNK
+**Votes:** 0
+**Avg. Bid:** 0.00 GNK
 
 **Tournament Yield Pools** — механизм интеграции игровых турниров с инфраструктурой блокчейна для привлечения пользователей, увеличения ликвидности и роста сетевой активности.
 
@@ -17305,14 +17304,6 @@ HardCore Arena позволит протестировать модель на �
 
 ---
 
-## Votes (1)
-
-| Voter | Amount | Date |
-| :----- | :----- | :--- |
-| `gonka1gm...gzg6ry` | 10.0K GNK | 2026-06-20 22:54 |
-
----
-
 ## Comments (4)
 
 ### 💬 Slava MSE!
@@ -17392,8 +17383,8 @@ HardCore Arena позволит протестировать модель на �
 **Created:** 2026-05-01 05:34 UTC
 **Closes:** 2026-05-08 05:34 UTC
 **Language:** EN
-**Votes:** 70
-**Avg. Bid:** 3.1M GNK
+**Votes:** 0
+**Avg. Bid:** 0.00 GNK
 
 Since v0.2.9 and v0.2.11, withheld miner rewards have accumulated in the gov account (~3 053 801 GNK). Proposal returns them via batch vesting to 1 623 miners, pro-rata by rewarded_coins per epoch.
 
@@ -17502,83 +17493,6 @@ own node.
 Looking forward to your thoughts. Happy to adjust the methodology, the
 range, or anything else based on feedback before writing this up as a
 formal governance proposal.
-
----
-
-## Votes (70)
-
-| Voter | Amount | Date |
-| :----- | :----- | :--- |
-| `gonka1gm...gzg6ry` | 3.1M GNK | 2026-05-01 05:35 |
-| `gonka1aw...f8af0w` | 3.1M GNK | 2026-05-01 05:36 |
-| `gonka1u6...967mgk` | 3.1M GNK | 2026-05-01 06:38 |
-| `gonka1a4...3ww4ac` | 3.1M GNK | 2026-05-01 06:38 |
-| `gonka14y...5dwa34` | 3.1M GNK | 2026-05-01 06:39 |
-| `gonka18p...6ssllv` | 3.1M GNK | 2026-05-01 06:38 |
-| `gonka19s...mj5e06` | 3.1M GNK | 2026-05-01 06:38 |
-| `gonka109...wdesy6` | 3.1M GNK | 2026-05-03 14:32 |
-| `gonka1c8...wqml7f` | 3.1M GNK | 2026-05-01 06:38 |
-| `gonka1y3...wmzvu9` | 3.1M GNK | 2026-05-01 06:39 |
-| `gonka1ex...65kr6h` | 3.1M GNK | 2026-05-01 06:38 |
-| `gonka1p2...6k652r` | 3.1M GNK | 2026-05-01 06:38 |
-| `gonka14s...4aqm05` | 3.1M GNK | 2026-05-01 06:38 |
-| `gonka1lh...2z4evj` | 3.1M GNK | 2026-05-01 06:38 |
-| `gonka1nq...ax5vyc` | 3.1M GNK | 2026-05-01 06:38 |
-| `gonka1sl...wkl054` | 3.1M GNK | 2026-05-01 06:38 |
-| `gonka1ss...u07vzh` | 3.1M GNK | 2026-05-01 06:39 |
-| `gonka1eh...ucxxhz` | 3.1M GNK | 2026-05-01 06:38 |
-| `gonka19y...ynwuku` | 3.1M GNK | 2026-05-01 06:38 |
-| `gonka1rw...dftj3l` | 3.1M GNK | 2026-05-01 05:36 |
-| `gonka1yw...3h9jpe` | 3.1M GNK | 2026-05-01 05:36 |
-| `gonka14f...rqkh93` | 3.1M GNK | 2026-05-01 06:38 |
-| `gonka14l...7evgh4` | 3.1M GNK | 2026-05-01 06:39 |
-| `gonka1la...rh0qyc` | 3.1M GNK | 2026-05-01 06:38 |
-| `gonka1w2...hl7xtp` | 3.1M GNK | 2026-05-01 06:39 |
-| `gonka173...dkdvje` | 3.1M GNK | 2026-05-01 06:39 |
-| `gonka108...kvfazm` | 3.1M GNK | 2026-05-01 06:36 |
-| `gonka136...wjqqw2` | 3.1M GNK | 2026-05-01 06:37 |
-| `gonka1cr...gf27kd` | 3.1M GNK | 2026-05-01 06:37 |
-| `gonka1dq...z4jfa4` | 3.1M GNK | 2026-05-01 06:37 |
-| `gonka1e2...wj7y2t` | 3.1M GNK | 2026-05-01 06:37 |
-| `gonka1au...05ccat` | 3.1M GNK | 2026-05-01 06:36 |
-| `gonka1a4...c7q2a5` | 3.1M GNK | 2026-05-01 06:37 |
-| `gonka1f8...9n0xtv` | 3.1M GNK | 2026-05-01 06:37 |
-| `gonka182...hg8ed7` | 3.1M GNK | 2026-05-01 06:37 |
-| `gonka1h4...m03mnn` | 3.1M GNK | 2026-05-01 06:36 |
-| `gonka1h9...26p07n` | 3.1M GNK | 2026-05-01 06:36 |
-| `gonka1zs...7ln5c0` | 3.1M GNK | 2026-05-01 06:37 |
-| `gonka1j3...sdekrc` | 3.1M GNK | 2026-05-01 06:36 |
-| `gonka1jw...gmv0za` | 3.1M GNK | 2026-05-01 06:37 |
-| `gonka1jy...vvf2gd` | 3.1M GNK | 2026-05-01 06:37 |
-| `gonka1jz...hzaaq5` | 3.1M GNK | 2026-05-01 06:36 |
-| `gonka1k7...jws70h` | 3.1M GNK | 2026-05-01 06:36 |
-| `gonka1l9...8yhee5` | 3.1M GNK | 2026-05-01 06:36 |
-| `gonka17g...lze0dx` | 3.1M GNK | 2026-05-01 06:36 |
-| `gonka1lf...7q8ahj` | 3.1M GNK | 2026-05-01 06:37 |
-| `gonka170...zrkh8p` | 3.1M GNK | 2026-05-01 06:36 |
-| `gonka16x...kd5quj` | 3.1M GNK | 2026-05-01 06:37 |
-| `gonka159...jleju2` | 3.1M GNK | 2026-05-01 06:37 |
-| `gonka1p5...rc0q0g` | 3.1M GNK | 2026-05-01 06:37 |
-| `gonka1pj...m3mddj` | 3.1M GNK | 2026-05-01 06:37 |
-| `gonka1pp...kj60de` | 3.1M GNK | 2026-05-01 06:38 |
-| `gonka1q3...vz3kgn` | 3.1M GNK | 2026-05-01 06:36 |
-| `gonka150...zrwhta` | 3.1M GNK | 2026-05-01 06:37 |
-| `gonka1s0...4d0lxs` | 3.1M GNK | 2026-05-01 06:37 |
-| `gonka1sg...asss9u` | 3.1M GNK | 2026-05-01 06:36 |
-| `gonka13n...wsx33n` | 3.1M GNK | 2026-05-01 06:36 |
-| `gonka1sq...0wuqt8` | 3.1M GNK | 2026-05-01 06:37 |
-| `gonka13e...g8pcpn` | 3.1M GNK | 2026-05-01 06:37 |
-| `gonka1ta...gffgvy` | 3.1M GNK | 2026-05-01 06:36 |
-| `gonka1av...0c8pmf` | 3.1M GNK | 2026-05-01 06:36 |
-| `gonka1uk...ygy2mg` | 3.1M GNK | 2026-05-01 06:36 |
-| `gonka1up...mjlvv9` | 3.1M GNK | 2026-05-01 06:36 |
-| `gonka12u...fne9un` | 3.1M GNK | 2026-05-01 06:36 |
-| `gonka1w9...e8q4tg` | 3.1M GNK | 2026-05-01 06:38 |
-| `gonka1xy...r65ky8` | 3.1M GNK | 2026-05-01 06:37 |
-| `gonka12l...dafxdh` | 3.1M GNK | 2026-05-01 06:36 |
-| `gonka1yt...da3yv2` | 3.1M GNK | 2026-05-01 06:38 |
-| `gonka10x...metmqz` | 3.1M GNK | 2026-05-01 06:36 |
-| `gonka1hj...7dnj05` | 3.1M GNK | 2026-05-01 06:37 |
 
 ---
 
@@ -17738,7 +17652,7 @@ P.S. Конкретно у твоего примера - там больше п�
 
 **Author:** Slava MSE!
 **Created:** 2026-06-11 05:41 UTC
-**Closes:** 2026-09-09 05:41 UTC
+**Closes:** 2026-07-11 05:41 UTC
 **Language:** EN
 **Votes:** 0
 **Avg. Bid:** 0.00 GNK
@@ -17817,8 +17731,8 @@ shtirbetsai
 **Created:** 2026-07-03 15:58 UTC
 **Closes:** 2026-07-10 15:58 UTC
 **Language:** EN
-**Votes:** 1
-**Avg. Bid:** 10.0K GNK
+**Votes:** 0
+**Avg. Bid:** 0.00 GNK
 
 This proposal describes ecosystem we should do for the Gonka, including basics, go-to-market actions, the team and the budgets for the next 3 months.
 
@@ -17994,14 +17908,6 @@ The exact allocation may change during execution based on what performs best.
 - [Gonka Network Development Roadmap](https://github.com/gonka-ai/gonka/blob/d5e30ca891209f25fd84e36ef439e1f54ec9090c/proposals/gonka-network-development-roadmap.md)
 
 [Read full proposal](https://app.integrity.sh/p/SuMCnGQBhz-0asAYBUz1U)
-
----
-
-## Votes (1)
-
-| Voter | Amount | Date |
-| :----- | :----- | :--- |
-| `gonka1h5...mhjp3y` | 10.0K GNK | 2026-07-05 08:32 |
 
 ---
 
@@ -18387,7 +18293,7 @@ Applicants MUST submit:
 
 **Author:** Slava MSE!
 **Created:** 2026-06-11 05:45 UTC
-**Closes:** 2026-09-09 05:45 UTC
+**Closes:** 2026-07-11 05:45 UTC
 **Language:** EN
 **Votes:** 0
 **Avg. Bid:** 0.00 GNK
@@ -18457,14 +18363,14 @@ kogeletey
 
 # Universal Continuous GPU Benchmark for Gonka Hosts (vLLM v0.19+, Anti-Sybil)
 
-🟢 Active
+🔴 Expired
 
 **Author:** Evgenii Maksimenkov
 **Created:** 2026-04-25 06:31 UTC
-**Closes:** 2026-07-24 06:31 UTC
+**Closes:** 2026-05-25 06:31 UTC
 **Language:** EN
-**Votes:** 4
-**Avg. Bid:** 2.7M GNK
+**Votes:** 0
+**Avg. Bid:** 0.00 GNK
 
 Develop a vLLM v0.19+ universal GPU benchmark that runs continuously during the epoch without interrupting inference, fairly scores any model size, and is hardened against hot-plug and Sybil attacks.
 
@@ -18576,17 +18482,6 @@ The Benchmark is accepted when, on a testnet of ≥20 heterogeneous Hosts runnin
 
 ---
 
-## Votes (4)
-
-| Voter | Amount | Date |
-| :----- | :----- | :--- |
-| `gonka1gm...gzg6ry` | 2.0M GNK | 2026-04-25 06:36 |
-| `gonka1wv...zsa8f6` | 7.8M GNK | 2026-04-25 19:55 |
-| `gonka178...08g7pn` | 3.1M GNK | 2026-05-04 07:06 |
-| `gonka1rw...dftj3l` | 3.0M GNK | 2026-04-25 16:06 |
-
----
-
 ## Comments (12)
 
 ### 💬 Evgenii Maksimenkov
@@ -18694,10 +18589,10 @@ But what will happend if I reply in English?
 
 **Author:** Andrey Orlov
 **Created:** 2026-07-03 15:10 UTC
-**Closes:** 2026-08-03 00:09 UTC
+**Closes:** 2026-08-02 15:10 UTC
 **Language:** RU
-**Votes:** 1
-**Avg. Bid:** 1.0M GNK
+**Votes:** 0
+**Avg. Bid:** 0.00 GNK
 
 Предлагаем за 90 дней привлечь от $3 млн нового капитала в GONKA через масштабируемую Telegram-воронку с поэтапным финансированием и KPI
 
@@ -18916,14 +18811,6 @@ Tora AI
 В Telegram-канале проводятся Google Meet / AMA-встречи, публикуются дополнительные материалы по proposal и подтверждения нашей работы.
 
 Ссылка: https://t.me/+VRgPAZqMaaczYmI8
-
----
-
-## Votes (1)
-
-| Voter | Amount | Date |
-| :----- | :----- | :--- |
-| `gonka1gm...gzg6ry` | 1.0M GNK | 2026-07-04 14:46 |
 
 ---
 
@@ -19434,7 +19321,7 @@ https://saccade.media/ru/unboring-explainer
 
 **Author:** Slava MSE!
 **Created:** 2026-06-11 05:50 UTC
-**Closes:** 2026-09-09 05:50 UTC
+**Closes:** 2026-07-11 05:50 UTC
 **Language:** EN
 **Votes:** 0
 **Avg. Bid:** 0.00 GNK
@@ -19535,7 +19422,7 @@ alexanderkuprin_
 
 **Author:** Andrey Orlov
 **Created:** 2026-07-09 16:25 UTC
-**Closes:** 2026-08-09 01:25 UTC
+**Closes:** 2026-08-08 16:25 UTC
 **Language:** RU
 **Votes:** 0
 **Avg. Bid:** 0.00 GNK
@@ -19807,8 +19694,8 @@ Tora AI
 **Created:** 2026-05-21 08:31 UTC
 **Closes:** 2026-06-04 08:31 UTC
 **Language:** EN
-**Votes:** 2
-**Avg. Bid:** 50.0K GNK
+**Votes:** 0
+**Avg. Bid:** 0.00 GNK
 
 Fund Gonka’s Gold Sponsor participation at European Blockchain Convention 2026 in Barcelona to expand Gonka’s European presence, meet institutional decision-makers, exchanges, infrastructure partners
 
@@ -19883,15 +19770,6 @@ After the event, the community should receive a short report covering:
 
 ---
 
-## Votes (2)
-
-| Voter | Amount | Date |
-| :----- | :----- | :--- |
-| `gonka1gm...gzg6ry` | 50.0K GNK | 2026-05-21 10:54 |
-| `gonka1aw...f8af0w` | 50.0K GNK | 2026-05-21 10:54 |
-
----
-
 ## Comments (2)
 
 ### 💬 Dem | Démíngān
@@ -19930,7 +19808,7 @@ After the event, the community should receive a short report covering:
 
 **Author:** Slava MSE!
 **Created:** 2026-06-11 05:48 UTC
-**Closes:** 2026-09-09 05:48 UTC
+**Closes:** 2026-07-11 05:48 UTC
 **Language:** EN
 **Votes:** 0
 **Avg. Bid:** 0.00 GNK
@@ -20004,7 +19882,7 @@ mitchseed
 
 **Author:** Slava MSE!
 **Created:** 2026-06-11 05:51 UTC
-**Closes:** 2026-09-09 05:51 UTC
+**Closes:** 2026-07-11 05:51 UTC
 **Language:** EN
 **Votes:** 0
 **Avg. Bid:** 0.00 GNK
@@ -20183,14 +20061,14 @@ gonka1lv55k52lvxz074yhr7kcne86srf7dse9pvyfhm
 
 # Улучшения для vote.gonka.vip
 
-🟢 Active
+🔴 Expired
 
 **Author:** Alex A.A.
 **Created:** 2026-04-25 20:08 UTC
-**Closes:** 2026-12-24 21:08 UTC
+**Closes:** 2026-05-25 20:08 UTC
 **Language:** RU
-**Votes:** 1
-**Avg. Bid:** 10.0K GNK
+**Votes:** 0
+**Avg. Bid:** 0.00 GNK
 
 Любые идеи, хочушки, плюшки и т.д.  по улучшению этого сервиса. 
 Давайте сделаем конфетку секси :)
@@ -20200,14 +20078,6 @@ gonka1lv55k52lvxz074yhr7kcne86srf7dse9pvyfhm
 ## Full Proposal
 
 Основная ветка для улучшения работы этого сервиса. Топовые идеи - вынесу в тело.
-
----
-
-## Votes (1)
-
-| Voter | Amount | Date |
-| :----- | :----- | :--- |
-| `gonka1gm...gzg6ry` | 10.0K GNK | 2026-04-25 20:31 |
 
 ---
 
@@ -20347,8 +20217,8 @@ https://prnt.sc/ax9mlD-RDtuC
 **Created:** 2026-04-28 23:39 UTC
 **Closes:** 2026-05-28 23:38 UTC
 **Language:** RU
-**Votes:** 2
-**Avg. Bid:** 100.0K GNK
+**Votes:** 0
+**Avg. Bid:** 0.00 GNK
 
 Предлагаю выделить $70k на видео у Александра Соколовского. Тема: два сценария будущего. Gonka — как главный пример децентрализации. Бессрочная публикация.
 
@@ -20447,15 +20317,6 @@ https://prnt.sc/ax9mlD-RDtuC
 ---
 
 **Жду ваших комментариев и обратной связи.**
-
----
-
-## Votes (2)
-
-| Voter | Amount | Date |
-| :----- | :----- | :--- |
-| `gonka1gm...gzg6ry` | 100.0K GNK | 2026-04-29 01:29 |
-| `gonka1aw...f8af0w` | 100.0K GNK | 2026-04-29 02:48 |
 
 ---
 
@@ -20604,8 +20465,8 @@ GNK ок. С вестингом не хочется, так как в любом
 
 **Author:** Slava MSE!
 **Created:** 2026-06-11 05:35 UTC
-**Closes:** 2030-01-01 05:13 UTC
-**Language:** EN
+**Closes:** 2026-07-11 05:35 UTC
+**Language:** 
 **Votes:** 0
 **Avg. Bid:** 0.00 GNK
 
@@ -20809,14 +20670,14 @@ Also, yes, I just joined the chat )
 
 # International Marketing Campaign for Gonka — English-Speaking Markets
 
-🟢 Active
+🔴 Expired
 
 **Author:** Evgenii Maksimenkov
 **Created:** 2026-04-25 06:39 UTC
-**Closes:** 2026-07-24 06:39 UTC
+**Closes:** 2026-05-25 06:39 UTC
 **Language:** EN
-**Votes:** 3
-**Avg. Bid:** 897.4K GNK
+**Votes:** 0
+**Avg. Bid:** 0.00 GNK
 
 Multi-phase marketing campaign to grow Gonka awareness, Host adoption, and Developer activity in English-speaking markets. Crypto-native agency required, fixed KPIs, milestone-based payouts.
 
@@ -21010,16 +20871,6 @@ Bidders MUST submit:
 
 ---
 
-## Votes (3)
-
-| Voter | Amount | Date |
-| :----- | :----- | :--- |
-| `gonka1gm...gzg6ry` | 900.0K GNK | 2026-04-25 06:43 |
-| `gonka178...08g7pn` | 895.3K GNK | 2026-05-04 06:58 |
-| `gonka1rw...dftj3l` | 10.0K GNK | 2026-04-25 15:32 |
-
----
-
 ## Comments (2)
 
 ### 💬 Дмитрий В
@@ -21057,7 +20908,7 @@ Bidders MUST submit:
 
 **Author:** Slava MSE!
 **Created:** 2026-06-11 05:39 UTC
-**Closes:** 2030-01-01 05:37 UTC
+**Closes:** 2026-07-11 05:39 UTC
 **Language:** EN
 **Votes:** 0
 **Avg. Bid:** 0.00 GNK
@@ -21152,7 +21003,7 @@ Omniverse, NOVA - молодые проекты. Нужно с ними повн
 
 **Author:** Slava MSE!
 **Created:** 2026-06-11 05:54 UTC
-**Closes:** 2026-09-09 05:54 UTC
+**Closes:** 2026-07-11 05:54 UTC
 **Language:** EN
 **Votes:** 0
 **Avg. Bid:** 0.00 GNK
@@ -21229,10 +21080,10 @@ ihortanyenkoff
 
 **Author:** Igor Alexeev
 **Created:** 2026-06-13 15:40 UTC
-**Closes:** 2026-07-14 00:41 UTC
+**Closes:** 2026-07-13 15:40 UTC
 **Language:** EN
-**Votes:** 1
-**Avg. Bid:** 10.0K GNK
+**Votes:** 0
+**Avg. Bid:** 0.00 GNK
 
 Initiative to accelerate Gonka’s growth by attracting new AI developers, infrastructure operators, and expanding the network with up to 4,000 additional GPUs.
 
@@ -21607,14 +21458,6 @@ We are prepared to operate with maximum transparency, publish regular reports, v
 
 ---
 
-## Votes (1)
-
-| Voter | Amount | Date |
-| :----- | :----- | :--- |
-| `gonka1gm...gzg6ry` | 10.0K GNK | 2026-07-03 00:07 |
-
----
-
 ## Comments (2)
 
 ### 💬 Dem | Démíngān
@@ -21650,7 +21493,7 @@ Scam
 
 **Author:** Slava MSE!
 **Created:** 2026-06-11 05:47 UTC
-**Closes:** 2026-09-09 05:47 UTC
+**Closes:** 2026-07-11 05:47 UTC
 **Language:** EN
 **Votes:** 0
 **Avg. Bid:** 0.00 GNK
@@ -21748,7 +21591,7 @@ gonka158pj5tn26n46ffaw553dkf3e7xjfxahj0s5xug
 
 **Author:** Slava MSE!
 **Created:** 2026-06-11 05:50 UTC
-**Closes:** 2026-09-09 05:49 UTC
+**Closes:** 2026-07-11 05:50 UTC
 **Language:** EN
 **Votes:** 0
 **Avg. Bid:** 0.00 GNK
@@ -21867,8 +21710,8 @@ https://youtu.be/hwX_4_v6xxI
 **Created:** 2026-04-27 23:30 UTC
 **Closes:** 2026-05-11 23:30 UTC
 **Language:** RU
-**Votes:** 91
-**Avg. Bid:** 39.1K GNK
+**Votes:** 0
+**Avg. Bid:** 0.00 GNK
 
 Mitch, основатель gonka.top, запускает Gonka.TV — YouTube-канал об экосистеме Гонки: обучение, интервью, AMA. Ищу поддержку сообщества.
 
@@ -21927,104 +21770,6 @@ Mitch, основатель gonka.top, запускает Gonka.TV — YouTube-�
 Что конкретно стоит делать? Обучалки или продвижение? Платные коллабы с крупными блогерами или органический рост? На что сообщество готово выделить ресурс?
 
 **Пиши своё видение в комментариях к тендеру: [vote.gonka.vip](https://vote.gonka.vip/)**
-
----
-
-## Votes (91)
-
-| Voter | Amount | Date |
-| :----- | :----- | :--- |
-| `gonka1gm...gzg6ry` | 50.0K GNK | 2026-04-27 23:44 |
-| `gonka1aw...f8af0w` | 32.2K GNK | 2026-04-30 09:09 |
-| `gonka1u6...967mgk` | 20.0K GNK | 2026-04-28 00:19 |
-| `gonka1a4...3ww4ac` | 20.0K GNK | 2026-04-28 00:19 |
-| `gonka1c6...9693gl` | 15.0K GNK | 2026-04-28 13:41 |
-| `gonka14y...5dwa34` | 20.0K GNK | 2026-04-28 00:20 |
-| `gonka18p...6ssllv` | 20.0K GNK | 2026-04-28 00:19 |
-| `gonka19s...mj5e06` | 20.0K GNK | 2026-04-28 00:19 |
-| `gonka109...wdesy6` | 20.0K GNK | 2026-05-03 14:30 |
-| `gonka1c8...wqml7f` | 20.0K GNK | 2026-04-28 00:19 |
-| `gonka17t...lpzm5s` | 15.0K GNK | 2026-04-28 13:41 |
-| `gonka1y3...wmzvu9` | 20.0K GNK | 2026-04-28 00:20 |
-| `gonka1ex...65kr6h` | 20.0K GNK | 2026-04-28 00:19 |
-| `gonka1p2...6k652r` | 20.0K GNK | 2026-04-28 00:19 |
-| `gonka14s...4aqm05` | 20.0K GNK | 2026-04-28 00:19 |
-| `gonka178...08g7pn` | 32.5K GNK | 2026-04-28 19:30 |
-| `gonka1lh...2z4evj` | 20.0K GNK | 2026-04-28 00:19 |
-| `gonka1nq...ax5vyc` | 20.0K GNK | 2026-04-28 00:19 |
-| `gonka1jr...sshn36` | 35.0K GNK | 2026-04-29 19:55 |
-| `gonka1sl...wkl054` | 20.0K GNK | 2026-04-28 00:19 |
-| `gonka17f...d29nsk` | 15.0K GNK | 2026-04-28 13:41 |
-| `gonka1cc...wyshl9` | 15.0K GNK | 2026-04-28 13:42 |
-| `gonka1ss...u07vzh` | 20.0K GNK | 2026-04-28 00:20 |
-| `gonka1eh...ucxxhz` | 20.0K GNK | 2026-04-28 00:19 |
-| `gonka1gt...0wj084` | 15.0K GNK | 2026-04-28 13:42 |
-| `gonka19y...ynwuku` | 20.0K GNK | 2026-04-28 00:19 |
-| `gonka14f...rqkh93` | 20.0K GNK | 2026-04-28 00:19 |
-| `gonka10s...t370fq` | 15.0K GNK | 2026-04-28 13:41 |
-| `gonka14l...7evgh4` | 20.0K GNK | 2026-04-28 00:20 |
-| `gonka1gy...yv8tfq` | 15.0K GNK | 2026-04-28 13:42 |
-| `gonka15r...394uv4` | 15.0K GNK | 2026-04-28 13:42 |
-| `gonka1ps...87muj2` | 15.0K GNK | 2026-04-28 13:42 |
-| `gonka1ql...98c5q3` | 15.0K GNK | 2026-04-28 13:42 |
-| `gonka1la...rh0qyc` | 20.0K GNK | 2026-04-28 00:19 |
-| `gonka1w2...hl7xtp` | 20.0K GNK | 2026-04-28 00:20 |
-| `gonka1qx...jmkvky` | 15.0K GNK | 2026-04-28 13:41 |
-| `gonka173...dkdvje` | 20.0K GNK | 2026-04-28 00:20 |
-| `gonka1ym...yx5a3m` | 15.0K GNK | 2026-04-28 13:41 |
-| `gonka12v...zen8z5` | 15.0K GNK | 2026-04-28 13:42 |
-| `gonka1e9...tfqgqg` | 15.0K GNK | 2026-04-28 13:42 |
-| `gonka1wf...9kua02` | 15.0K GNK | 2026-04-28 13:42 |
-| `gonka1lw...7mmx87` | 15.0K GNK | 2026-04-28 13:42 |
-| `gonka1wz...3g6d55` | 15.0K GNK | 2026-04-28 13:42 |
-| `gonka1l7...m4qus8` | 15.0K GNK | 2026-04-28 13:42 |
-| `gonka1ec...thhn29` | 15.0K GNK | 2026-04-28 13:42 |
-| `gonka123...y4le76` | 15.0K GNK | 2026-04-28 13:42 |
-| `gonka108...kvfazm` | 20.0K GNK | 2026-04-28 00:17 |
-| `gonka1yt...da3yv2` | 20.0K GNK | 2026-04-28 00:19 |
-| `gonka1h4...m03mnn` | 20.0K GNK | 2026-04-28 00:17 |
-| `gonka1h9...26p07n` | 20.0K GNK | 2026-04-28 00:17 |
-| `gonka1hj...7dnj05` | 20.0K GNK | 2026-04-28 00:18 |
-| `gonka1j3...sdekrc` | 20.0K GNK | 2026-04-28 00:17 |
-| `gonka1e2...wj7y2t` | 20.0K GNK | 2026-04-28 00:18 |
-| `gonka1jw...gmv0za` | 20.0K GNK | 2026-04-28 00:18 |
-| `gonka1jy...vvf2gd` | 20.0K GNK | 2026-04-28 00:18 |
-| `gonka1jz...hzaaq5` | 20.0K GNK | 2026-04-28 00:17 |
-| `gonka1k7...jws70h` | 20.0K GNK | 2026-04-28 00:17 |
-| `gonka1dq...z4jfa4` | 20.0K GNK | 2026-04-28 00:19 |
-| `gonka1zs...7ln5c0` | 20.0K GNK | 2026-04-28 00:18 |
-| `gonka1cr...gf27kd` | 20.0K GNK | 2026-04-28 00:18 |
-| `gonka1lf...7q8ahj` | 20.0K GNK | 2026-04-28 00:18 |
-| `gonka1uk...ygy2mg` | 20.0K GNK | 2026-04-28 00:17 |
-| `gonka1av...0c8pmf` | 20.0K GNK | 2026-04-28 00:17 |
-| `gonka1au...05ccat` | 20.0K GNK | 2026-04-28 00:17 |
-| `gonka1a4...c7q2a5` | 20.0K GNK | 2026-04-28 00:18 |
-| `gonka182...hg8ed7` | 20.0K GNK | 2026-04-28 00:18 |
-| `gonka1p5...rc0q0g` | 20.0K GNK | 2026-04-28 00:18 |
-| `gonka1pj...m3mddj` | 20.0K GNK | 2026-04-28 00:19 |
-| `gonka1pp...kj60de` | 20.0K GNK | 2026-04-28 00:19 |
-| `gonka17g...lze0dx` | 20.0K GNK | 2026-04-28 00:17 |
-| `gonka1q3...vz3kgn` | 20.0K GNK | 2026-04-28 00:18 |
-| `gonka170...zrkh8p` | 20.0K GNK | 2026-04-28 00:17 |
-| `gonka16x...kd5quj` | 20.0K GNK | 2026-04-28 00:18 |
-| `gonka1s0...4d0lxs` | 20.0K GNK | 2026-04-28 00:18 |
-| `gonka1sg...asss9u` | 20.0K GNK | 2026-04-28 00:17 |
-| `gonka159...jleju2` | 20.0K GNK | 2026-04-28 00:18 |
-| `gonka1sq...0wuqt8` | 20.0K GNK | 2026-04-28 00:18 |
-| `gonka150...zrwhta` | 20.0K GNK | 2026-04-28 00:18 |
-| `gonka1ta...gffgvy` | 20.0K GNK | 2026-04-28 00:17 |
-| `gonka13n...wsx33n` | 20.0K GNK | 2026-04-28 00:18 |
-| `gonka1f8...9n0xtv` | 20.0K GNK | 2026-04-28 00:18 |
-| `gonka1up...mjlvv9` | 20.0K GNK | 2026-04-28 00:17 |
-| `gonka13e...g8pcpn` | 20.0K GNK | 2026-04-28 00:18 |
-| `gonka1w9...e8q4tg` | 20.0K GNK | 2026-04-28 00:19 |
-| `gonka136...wjqqw2` | 20.0K GNK | 2026-04-28 00:18 |
-| `gonka12u...fne9un` | 20.0K GNK | 2026-04-28 00:17 |
-| `gonka1xy...r65ky8` | 20.0K GNK | 2026-04-28 00:18 |
-| `gonka12l...dafxdh` | 20.0K GNK | 2026-04-28 00:17 |
-| `gonka10x...metmqz` | 20.0K GNK | 2026-04-28 00:17 |
-| `gonka1l9...8yhee5` | 20.0K GNK | 2026-04-28 00:17 |
-| `gonka1lg...s207c3` | 15.0K GNK | 2026-04-29 00:24 |
 
 ---
 
@@ -22092,8 +21837,8 @@ Gonka.TV это будет независимый компоненент
 **Created:** 2026-05-29 22:34 UTC
 **Closes:** 2026-06-05 22:34 UTC
 **Language:** RU
-**Votes:** 2
-**Avg. Bid:** 10.0K GNK
+**Votes:** 0
+**Avg. Bid:** 0.00 GNK
 
 Предлагаю собрать опенсорс стресс-тест инференса Gonka — первый пилот выплат от фаундейшена через майлстоуны. Обсудим ТЗ, цену и сроки.
 
@@ -22151,15 +21896,6 @@ Gonka.TV это будет независимый компоненент
 Я найду\\согласую исполнителя, буду принимать у него работу по майлстоунам, отписывать сообществую новости по продвижению, выплачивать исполнителю.  
 В идеале конечно использовать не кошелек, а смарт контракт с мультипомписью совета фаундейшн, для обкатки процесса и кошелек считаю подойдет.  
 Проект выглядит простым, недорогим, быстрым и подходит для обкатки подхода, альтернативного ретро выплатам.
-
----
-
-## Votes (2)
-
-| Voter | Amount | Date |
-| :----- | :----- | :--- |
-| `gonka1gm...gzg6ry` | 10.0K GNK | 2026-05-29 23:52 |
-| `gonka1aw...f8af0w` | 10.0K GNK | 2026-05-29 23:52 |
 
 ---
 
@@ -22250,7 +21986,7 @@ DDOS тут рубится на брокере лимитом очч прост�
 
 **Author:** Victor
 **Created:** 2026-06-11 09:48 UTC
-**Closes:** 2026-09-09 09:46 UTC
+**Closes:** 2026-07-11 09:48 UTC
 **Language:** RU
 **Votes:** 0
 **Avg. Bid:** 0.00 GNK
@@ -22515,7 +22251,7 @@ qr.mint.dev@gmail.com
 
 **Author:** Slava MSE!
 **Created:** 2026-06-11 05:43 UTC
-**Closes:** 2026-09-09 05:43 UTC
+**Closes:** 2026-07-11 05:43 UTC
 **Language:** EN
 **Votes:** 0
 **Avg. Bid:** 0.00 GNK
@@ -22606,8 +22342,8 @@ Clarkkent8494
 **Created:** 2026-07-04 12:00 UTC
 **Closes:** 2026-07-14 11:44 UTC
 **Language:** EN
-**Votes:** 1
-**Avg. Bid:** 400.0K GNK
+**Votes:** 0
+**Avg. Bid:** 0.00 GNK
 
 4-month pilot proposal for community-owned testing infrastructure and QA capacity.
 
@@ -22903,14 +22639,6 @@ Approve a 4-month pilot of External Test Lab & Community DevNet with a maximum b
 
 ---
 
-## Votes (1)
-
-| Voter | Amount | Date |
-| :----- | :----- | :--- |
-| `gonka1gm...gzg6ry` | 400.0K GNK | 2026-07-09 23:18 |
-
----
-
 ## Comments (4)
 
 ### 💬 Dem | Démíngān
@@ -22979,8 +22707,8 @@ Approve a 4-month pilot of External Test Lab & Community DevNet with a maximum b
 **Created:** 2026-05-01 21:04 UTC
 **Closes:** 2026-05-08 21:04 UTC
 **Language:** EN
-**Votes:** 5
-**Avg. Bid:** 20.0K GNK
+**Votes:** 0
+**Avg. Bid:** 0.00 GNK
 
 Pay a fixed GNK/USDT bounty to anyone who upstreams a reproducible ≥5% PoC throughput optimization. Lifts the network floor; rewards contribution over hoarding.
 
@@ -23075,18 +22803,6 @@ Problem
 
 ---
 
-## Votes (5)
-
-| Voter | Amount | Date |
-| :----- | :----- | :--- |
-| `gonka1gm...gzg6ry` | 20.0K GNK | 2026-05-01 21:06 |
-| `gonka1aw...f8af0w` | 20.0K GNK | 2026-05-01 21:06 |
-| `gonka1wv...zsa8f6` | 20.0K GNK | 2026-05-01 21:11 |
-| `gonka178...08g7pn` | 20.0K GNK | 2026-05-04 07:03 |
-| `gonka1yw...3h9jpe` | 20.0K GNK | 2026-05-01 21:07 |
-
----
-
 ## Comments (1)
 
 ### 💬 Mikhail Chudinov
@@ -23120,8 +22836,8 @@ Problem
 **Created:** 2026-05-13 08:19 UTC
 **Closes:** 2026-05-20 07:08 UTC
 **Language:** RU
-**Votes:** 1
-**Avg. Bid:** 10.0K GNK
+**Votes:** 0
+**Avg. Bid:** 0.00 GNK
 
 Сейчас для GPU, которые поддерживают Kimi (Н200, В200, В300) установлен повышенный коэффициент 1,87.
 Кажется, это делает майнинг на Н100 нерентабельным и тем самым губит сеть.
@@ -23155,14 +22871,6 @@ https://docs.google.com/spreadsheets/d/1IIONLiWCLAo8TKF5TNSX6Y0Byj_2MurfhA68W22v
 
 ---
 
-## Votes (1)
-
-| Voter | Amount | Date |
-| :----- | :----- | :--- |
-| `gonka178...08g7pn` | 10.0K GNK | 2026-05-18 18:14 |
-
----
-
 [View on gonka.vote](https://gonka.vote/proposal/d14f975e-0e40-4a94-81c5-715a02c3826e)
 
 ---
@@ -23177,8 +22885,8 @@ https://docs.google.com/spreadsheets/d/1IIONLiWCLAo8TKF5TNSX6Y0Byj_2MurfhA68W22v
 **Created:** 2026-05-13 18:30 UTC
 **Closes:** 2026-05-20 18:30 UTC
 **Language:** RU
-**Votes:** 70
-**Avg. Bid:** 9.5K GNK
+**Votes:** 0
+**Avg. Bid:** 0.00 GNK
 
 Профинансировать gonka-nop — существующий CLI для быстрого развёртывания и обслуживания ноды Gonka: ретроактивно за уже сделанную разработку, за дальнейшую поддержку и за разработку новых функций.
 
@@ -23233,83 +22941,6 @@ gonka-nop — уже работающий инструмент, который �
 
 ---
 
-## Votes (70)
-
-| Voter | Amount | Date |
-| :----- | :----- | :--- |
-| `gonka1gm...gzg6ry` | 10.0K GNK | 2026-05-14 01:46 |
-| `gonka1aw...f8af0w` | 10.0K GNK | 2026-05-14 01:46 |
-| `gonka1u6...967mgk` | 5.0K GNK | 2026-05-14 02:19 |
-| `gonka1a4...3ww4ac` | 5.0K GNK | 2026-05-14 02:19 |
-| `gonka14y...5dwa34` | 5.0K GNK | 2026-05-14 02:20 |
-| `gonka1fv...cesv9p` | 5.0K GNK | 2026-05-14 02:27 |
-| `gonka18p...6ssllv` | 5.0K GNK | 2026-05-14 02:19 |
-| `gonka1tm...mwtwq2` | 5.0K GNK | 2026-05-14 02:27 |
-| `gonka19s...mj5e06` | 5.0K GNK | 2026-05-14 02:19 |
-| `gonka1c8...wqml7f` | 5.0K GNK | 2026-05-14 02:19 |
-| `gonka1y3...wmzvu9` | 5.0K GNK | 2026-05-14 02:20 |
-| `gonka1ex...65kr6h` | 5.0K GNK | 2026-05-14 02:19 |
-| `gonka1p2...6k652r` | 5.0K GNK | 2026-05-14 02:20 |
-| `gonka14s...4aqm05` | 5.0K GNK | 2026-05-14 02:19 |
-| `gonka178...08g7pn` | 8.5K GNK | 2026-05-18 18:13 |
-| `gonka1lh...2z4evj` | 5.0K GNK | 2026-05-14 02:20 |
-| `gonka1nq...ax5vyc` | 5.0K GNK | 2026-05-14 02:20 |
-| `gonka1sl...wkl054` | 5.0K GNK | 2026-05-14 02:19 |
-| `gonka1ss...u07vzh` | 5.0K GNK | 2026-05-14 02:20 |
-| `gonka1eh...ucxxhz` | 5.0K GNK | 2026-05-14 02:20 |
-| `gonka19y...ynwuku` | 5.0K GNK | 2026-05-14 02:20 |
-| `gonka14f...rqkh93` | 5.0K GNK | 2026-05-14 02:19 |
-| `gonka14l...7evgh4` | 5.0K GNK | 2026-05-14 02:20 |
-| `gonka1la...rh0qyc` | 5.0K GNK | 2026-05-14 02:20 |
-| `gonka1w2...hl7xtp` | 5.0K GNK | 2026-05-14 02:20 |
-| `gonka173...dkdvje` | 5.0K GNK | 2026-05-14 02:20 |
-| `gonka108...kvfazm` | 5.0K GNK | 2026-05-14 02:17 |
-| `gonka136...wjqqw2` | 5.0K GNK | 2026-05-14 02:19 |
-| `gonka1cr...gf27kd` | 5.0K GNK | 2026-05-14 02:18 |
-| `gonka1dq...z4jfa4` | 5.0K GNK | 2026-05-14 02:19 |
-| `gonka1e2...wj7y2t` | 5.0K GNK | 2026-05-14 02:18 |
-| `gonka1au...05ccat` | 5.0K GNK | 2026-05-14 02:17 |
-| `gonka1a4...c7q2a5` | 5.0K GNK | 2026-05-14 02:19 |
-| `gonka1f8...9n0xtv` | 5.0K GNK | 2026-05-14 02:18 |
-| `gonka182...hg8ed7` | 5.0K GNK | 2026-05-14 02:18 |
-| `gonka17g...lze0dx` | 5.0K GNK | 2026-05-14 02:17 |
-| `gonka1h4...m03mnn` | 5.0K GNK | 2026-05-14 02:17 |
-| `gonka1zs...7ln5c0` | 5.0K GNK | 2026-05-14 02:19 |
-| `gonka1hj...7dnj05` | 5.0K GNK | 2026-05-14 02:18 |
-| `gonka1j3...sdekrc` | 5.0K GNK | 2026-05-14 02:18 |
-| `gonka1jw...gmv0za` | 5.0K GNK | 2026-05-14 02:18 |
-| `gonka1jy...vvf2gd` | 5.0K GNK | 2026-05-14 02:18 |
-| `gonka1jz...hzaaq5` | 5.0K GNK | 2026-05-14 02:18 |
-| `gonka1k7...jws70h` | 5.0K GNK | 2026-05-14 02:17 |
-| `gonka1l9...8yhee5` | 5.0K GNK | 2026-05-14 02:17 |
-| `gonka170...zrkh8p` | 5.0K GNK | 2026-05-14 02:18 |
-| `gonka1lf...7q8ahj` | 5.0K GNK | 2026-05-14 02:18 |
-| `gonka16x...kd5quj` | 5.0K GNK | 2026-05-14 02:18 |
-| `gonka159...jleju2` | 5.0K GNK | 2026-05-14 02:18 |
-| `gonka150...zrwhta` | 5.0K GNK | 2026-05-14 02:19 |
-| `gonka1p5...rc0q0g` | 5.0K GNK | 2026-05-14 02:18 |
-| `gonka1pj...m3mddj` | 5.0K GNK | 2026-05-14 02:19 |
-| `gonka1pp...kj60de` | 5.0K GNK | 2026-05-14 02:19 |
-| `gonka1q3...vz3kgn` | 5.0K GNK | 2026-05-14 02:18 |
-| `gonka1s0...4d0lxs` | 5.0K GNK | 2026-05-14 02:19 |
-| `gonka1sg...asss9u` | 5.0K GNK | 2026-05-14 02:18 |
-| `gonka13n...wsx33n` | 5.0K GNK | 2026-05-14 02:18 |
-| `gonka1sq...0wuqt8` | 5.0K GNK | 2026-05-14 02:18 |
-| `gonka13e...g8pcpn` | 5.0K GNK | 2026-05-14 02:19 |
-| `gonka1ta...gffgvy` | 5.0K GNK | 2026-05-14 02:17 |
-| `gonka1av...0c8pmf` | 5.0K GNK | 2026-05-14 02:17 |
-| `gonka12u...fne9un` | 5.0K GNK | 2026-05-14 02:17 |
-| `gonka1uk...ygy2mg` | 5.0K GNK | 2026-05-14 02:17 |
-| `gonka1up...mjlvv9` | 5.0K GNK | 2026-05-14 02:18 |
-| `gonka12l...dafxdh` | 5.0K GNK | 2026-05-14 02:18 |
-| `gonka1w9...e8q4tg` | 5.0K GNK | 2026-05-14 02:19 |
-| `gonka1xy...r65ky8` | 5.0K GNK | 2026-05-14 02:18 |
-| `gonka10x...metmqz` | 5.0K GNK | 2026-05-14 02:17 |
-| `gonka1yt...da3yv2` | 5.0K GNK | 2026-05-14 02:20 |
-| `gonka1h9...26p07n` | 5.0K GNK | 2026-05-14 02:17 |
-
----
-
 ## Comments (4)
 
 ### 💬 O D
@@ -23361,7 +22992,7 @@ https://youtu.be/kQGPSxLaakE?t=1988
 
 **Author:** Slava MSE!
 **Created:** 2026-06-11 05:53 UTC
-**Closes:** 2026-09-09 05:52 UTC
+**Closes:** 2026-07-11 05:53 UTC
 **Language:** EN
 **Votes:** 0
 **Avg. Bid:** 0.00 GNK
@@ -23538,7 +23169,7 @@ Models / IBC2
     Voting ends 2026-07-11
   
   My name is Andrey Orlovsky, and through this proposal I represent our team and an initiative to attract at least $3 million in new long-term capital to GONKA through Uniswap.  Below is a condensed ver…
-  Yes 0 (0.0%) · No 0 (0.0%) · Veto 131,933 (100.0%) · Abstain 0 (0.0%)20,000 GNK · $50,000 · Community Pool
+  Yes 0 (0.0%) · No 0 (0.0%) · Veto 273,604 (100.0%) · Abstain 0 (0.0%)20,000 GNK · $50,000 · Community Pool
 
   
     #83 – Approve devshard v3
@@ -23549,7 +23180,7 @@ Models / IBC2
     Voting ends 2026-07-11
   
   Update current chain params by adding v3 to devshard_escrow_params.approved_versions.
-  Yes 367,963 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 368,533 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
   
     #82 – External Test Lab x Community DevNet
@@ -23560,7 +23191,7 @@ Models / IBC2
     Voting ends 2026-07-10
   
   4-month pilot of the External Test Lab & Community DevNet: a community-owned testing layer for Gonka. Full proposal and discussion: https://github.com/gonka-ai/gonka/discussions/1388  The budget is he…
-  Yes 365,526 (98.2%) · No 468 (0.1%) · Veto 94 (0.0%) · Abstain 6,141 (1.6%)80,000 GNK · $88,000 · Community Pool
+  Yes 368,084 (98.2%) · No 468 (0.1%) · Veto 94 (0.0%) · Abstain 6,141 (1.6%)80,000 GNK · $88,000 · Community Pool
 
   
     #81 – Kimi cPoC Restitution (epochs 306-309)
@@ -24454,7 +24085,7 @@ Models / IBC2
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-84 proposals across 5 quarters. Last updated: 2026-07-10 07:50 UTC
+84 proposals across 5 quarters. Last updated: 2026-07-10 10:48 UTC
 
 function initProposalsPage() {
   var checkboxes = document.querySelectorAll('.prop-oview-filter input[type=checkbox]');
@@ -49712,7 +49343,7 @@ GRC / Restitution1
     Voting ends 2026-07-11
   
   My name is Andrey Orlovsky, and through this proposal I represent our team and an initiative to attract at least $3 million in new long-term capital to GONKA through Uniswap.  Below is a condensed ver…
-  Yes 0 (0.0%) · No 0 (0.0%) · Veto 131,933 (100.0%) · Abstain 0 (0.0%)20,000 GNK · $50,000 · Community Pool
+  Yes 0 (0.0%) · No 0 (0.0%) · Veto 273,604 (100.0%) · Abstain 0 (0.0%)20,000 GNK · $50,000 · Community Pool
 
   
     #83 – Approve devshard v3
@@ -49723,7 +49354,7 @@ GRC / Restitution1
     Voting ends 2026-07-11
   
   Update current chain params by adding v3 to devshard_escrow_params.approved_versions.
-  Yes 367,963 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 368,533 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
   
     #82 – External Test Lab x Community DevNet
@@ -49734,7 +49365,7 @@ GRC / Restitution1
     Voting ends 2026-07-10
   
   4-month pilot of the External Test Lab & Community DevNet: a community-owned testing layer for Gonka. Full proposal and discussion: https://github.com/gonka-ai/gonka/discussions/1388  The budget is he…
-  Yes 365,526 (98.2%) · No 468 (0.1%) · Veto 94 (0.0%) · Abstain 6,141 (1.6%)80,000 GNK · $88,000 · Community Pool
+  Yes 368,084 (98.2%) · No 468 (0.1%) · Veto 94 (0.0%) · Abstain 6,141 (1.6%)80,000 GNK · $88,000 · Community Pool
 
   
     #81 – Kimi cPoC Restitution (epochs 306-309)
@@ -50125,11 +49756,11 @@ Contract: code_id 107, checksum 94b141625b7641e6ad57266420b18a4af72eac49b8110cb9
     
   
   
-    Yes 365,526 (98.2%)
+    Yes 368,084 (98.2%)
     No 468 (0.1%)
     Veto 94 (0.0%)
     Abstain 6,141 (1.6%)
-    Total 372,229 votes
+    Total 374,787 votes
   
 
 ---
@@ -50421,9 +50052,9 @@ Additional materials, proof of our work, landing page examples, creatives, adver
   
     Yes 0 (0.0%)
     No 0 (0.0%)
-    Veto 131,933 (100.0%)
+    Veto 273,604 (100.0%)
     Abstain 0 (0.0%)
-    Total 131,933 votes
+    Total 273,604 votes
   
 
 ---
@@ -51088,11 +50719,11 @@ Update current chain params by adding v3 to devshard_escrow_params.approved_vers
     
   
   
-    Yes 367,963 (100.0%)
+    Yes 368,533 (100.0%)
     No 0 (0.0%)
     Veto 0 (0.0%)
     Abstain 0 (0.0%)
-    Total 367,963 votes
+    Total 368,533 votes
   
 
 ---

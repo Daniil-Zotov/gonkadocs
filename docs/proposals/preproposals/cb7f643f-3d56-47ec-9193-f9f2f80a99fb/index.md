@@ -13,8 +13,8 @@ template: proposals-main.html
 **Created:** 2026-07-03 15:58 UTC
 **Closes:** 2026-07-10 15:58 UTC
 **Language:** EN
-**Votes:** 1
-**Avg. Bid:** 10.0K GNK
+**Votes:** 0
+**Avg. Bid:** 0.00 GNK
 
 </div>
 
@@ -192,14 +192,6 @@ The exact allocation may change during execution based on what performs best.
 - [Gonka Network Development Roadmap](https://github.com/gonka-ai/gonka/blob/d5e30ca891209f25fd84e36ef439e1f54ec9090c/proposals/gonka-network-development-roadmap.md)
 
 [Read full proposal](https://app.integrity.sh/p/SuMCnGQBhz-0asAYBUz1U)
-
----
-
-## Votes (1)
-
-| Voter | Amount | Date |
-| :----- | :----- | :--- |
-| `gonka1h5...mhjp3y` | 10.0K GNK | 2026-07-05 08:32 |
 
 ---
 

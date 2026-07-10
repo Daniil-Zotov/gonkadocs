@@ -7,14 +7,14 @@ template: proposals-main.html
 
 <div class="preproposal-header" markdown="1">
 
-<div class="preproposal-status">🟢 Active</div>
+<div class="preproposal-status">🔴 Expired</div>
 
 **Author:** Evgenii Maksimenkov
 **Created:** 2026-04-25 06:39 UTC
-**Closes:** 2026-07-24 06:39 UTC
+**Closes:** 2026-05-25 06:39 UTC
 **Language:** EN
-**Votes:** 3
-**Avg. Bid:** 897.4K GNK
+**Votes:** 0
+**Avg. Bid:** 0.00 GNK
 
 </div>
 
@@ -207,16 +207,6 @@ Bidders MUST submit:
 6. **Total budget** (USD or USDC; payment in GNK acceptable for up to 50% with mutually agreed lockup terms).
 7. **Risk register**: top 5 risks the agency sees in this campaign and proposed mitigations.
 8. **Conflict-of-interest disclosure** per §4.6.
-
----
-
-## Votes (3)
-
-| Voter | Amount | Date |
-| :----- | :----- | :--- |
-| `gonka1gm...gzg6ry` | 900.0K GNK | 2026-04-25 06:43 |
-| `gonka178...08g7pn` | 895.3K GNK | 2026-05-04 06:58 |
-| `gonka1rw...dftj3l` | 10.0K GNK | 2026-04-25 15:32 |
 
 ---
 

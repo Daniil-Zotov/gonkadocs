@@ -13,8 +13,8 @@ template: proposals-main.html
 **Created:** 2026-05-01 21:04 UTC
 **Closes:** 2026-05-08 21:04 UTC
 **Language:** EN
-**Votes:** 5
-**Avg. Bid:** 20.0K GNK
+**Votes:** 0
+**Avg. Bid:** 0.00 GNK
 
 </div>
 
@@ -108,18 +108,6 @@ Problem
     impact, harder to verify)                                                                                                          
   - Eligibility for retroactive contributions? (e.g. anything merged in the
     last 30 days)
-
----
-
-## Votes (5)
-
-| Voter | Amount | Date |
-| :----- | :----- | :--- |
-| `gonka1gm...gzg6ry` | 20.0K GNK | 2026-05-01 21:06 |
-| `gonka1aw...f8af0w` | 20.0K GNK | 2026-05-01 21:06 |
-| `gonka1wv...zsa8f6` | 20.0K GNK | 2026-05-01 21:11 |
-| `gonka178...08g7pn` | 20.0K GNK | 2026-05-04 07:03 |
-| `gonka1yw...3h9jpe` | 20.0K GNK | 2026-05-01 21:07 |
 
 ---
 

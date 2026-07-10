@@ -13,8 +13,8 @@ template: proposals-main.html
 **Created:** 2026-05-13 08:19 UTC
 **Closes:** 2026-05-20 07:08 UTC
 **Language:** RU
-**Votes:** 1
-**Avg. Bid:** 10.0K GNK
+**Votes:** 0
+**Avg. Bid:** 0.00 GNK
 
 </div>
 
@@ -48,14 +48,6 @@ https://docs.google.com/spreadsheets/d/1IIONLiWCLAo8TKF5TNSX6Y0Byj_2MurfhA68W22v
 А то я бы приложил.
 
 Видимо, придется писать Статью.
-
----
-
-## Votes (1)
-
-| Voter | Amount | Date |
-| :----- | :----- | :--- |
-| `gonka178...08g7pn` | 10.0K GNK | 2026-05-18 18:14 |
 
 
 ---

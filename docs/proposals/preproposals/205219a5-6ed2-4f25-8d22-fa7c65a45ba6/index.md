@@ -13,8 +13,8 @@ template: proposals-main.html
 **Created:** 2026-07-04 12:00 UTC
 **Closes:** 2026-07-14 11:44 UTC
 **Language:** EN
-**Votes:** 1
-**Avg. Bid:** 400.0K GNK
+**Votes:** 0
+**Avg. Bid:** 0.00 GNK
 
 </div>
 
@@ -309,14 +309,6 @@ The Project Lead and Infrastructure Lead receive no monthly compensation from th
 # Decision Requested
 
 Approve a 4-month pilot of External Test Lab & Community DevNet with a maximum budget authorization of 88,000 USDT, paid in four monthly tranches of up to 22,000 USDT each, and 80,000 GNK paid after pilot completion and final report acceptance.
-
----
-
-## Votes (1)
-
-| Voter | Amount | Date |
-| :----- | :----- | :--- |
-| `gonka1gm...gzg6ry` | 400.0K GNK | 2026-07-09 23:18 |
 
 ---
 

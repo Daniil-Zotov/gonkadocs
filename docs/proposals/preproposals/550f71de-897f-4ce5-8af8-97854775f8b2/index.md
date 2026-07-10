@@ -13,8 +13,8 @@ template: proposals-main.html
 **Created:** 2026-04-28 23:39 UTC
 **Closes:** 2026-05-28 23:38 UTC
 **Language:** RU
-**Votes:** 2
-**Avg. Bid:** 100.0K GNK
+**Votes:** 0
+**Avg. Bid:** 0.00 GNK
 
 </div>
 
@@ -115,15 +115,6 @@ template: proposals-main.html
 ---
 
 **Жду ваших комментариев и обратной связи.**
-
----
-
-## Votes (2)
-
-| Voter | Amount | Date |
-| :----- | :----- | :--- |
-| `gonka1gm...gzg6ry` | 100.0K GNK | 2026-04-29 01:29 |
-| `gonka1aw...f8af0w` | 100.0K GNK | 2026-04-29 02:48 |
 
 ---
 

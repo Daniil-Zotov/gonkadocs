@@ -13,8 +13,8 @@ template: proposals-main.html
 **Created:** 2026-05-21 08:31 UTC
 **Closes:** 2026-06-04 08:31 UTC
 **Language:** EN
-**Votes:** 2
-**Avg. Bid:** 50.0K GNK
+**Votes:** 0
+**Avg. Bid:** 0.00 GNK
 
 </div>
 
@@ -88,15 +88,6 @@ After the event, the community should receive a short report covering:
 - Content assets received
 - Photos, videos and recordings published
 - Key follow-up opportunities created for Gonka
-
----
-
-## Votes (2)
-
-| Voter | Amount | Date |
-| :----- | :----- | :--- |
-| `gonka1gm...gzg6ry` | 50.0K GNK | 2026-05-21 10:54 |
-| `gonka1aw...f8af0w` | 50.0K GNK | 2026-05-21 10:54 |
 
 ---
 

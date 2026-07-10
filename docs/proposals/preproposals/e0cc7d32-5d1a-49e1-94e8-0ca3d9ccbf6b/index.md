@@ -11,10 +11,10 @@ template: proposals-main.html
 
 **Author:** Andrey Orlov
 **Created:** 2026-07-03 15:10 UTC
-**Closes:** 2026-08-03 00:09 UTC
+**Closes:** 2026-08-02 15:10 UTC
 **Language:** RU
-**Votes:** 1
-**Avg. Bid:** 1.0M GNK
+**Votes:** 0
+**Avg. Bid:** 0.00 GNK
 
 </div>
 
@@ -246,14 +246,6 @@ Tora AI
 В Telegram-канале проводятся Google Meet / AMA-встречи, публикуются дополнительные материалы по proposal и подтверждения нашей работы.
 
 Ссылка: https://t.me/+VRgPAZqMaaczYmI8
-
----
-
-## Votes (1)
-
-| Voter | Amount | Date |
-| :----- | :----- | :--- |
-| `gonka1gm...gzg6ry` | 1.0M GNK | 2026-07-04 14:46 |
 
 ---
 

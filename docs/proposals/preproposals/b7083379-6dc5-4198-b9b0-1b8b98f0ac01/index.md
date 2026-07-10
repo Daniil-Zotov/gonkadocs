@@ -7,14 +7,14 @@ template: proposals-main.html
 
 <div class="preproposal-header" markdown="1">
 
-<div class="preproposal-status">🟢 Active</div>
+<div class="preproposal-status">🔴 Expired</div>
 
 **Author:** Alex A.A.
 **Created:** 2026-04-25 20:08 UTC
-**Closes:** 2026-12-24 21:08 UTC
+**Closes:** 2026-05-25 20:08 UTC
 **Language:** RU
-**Votes:** 1
-**Avg. Bid:** 10.0K GNK
+**Votes:** 0
+**Avg. Bid:** 0.00 GNK
 
 </div>
 
@@ -26,14 +26,6 @@ template: proposals-main.html
 ## Full Proposal
 
 Основная ветка для улучшения работы этого сервиса. Топовые идеи - вынесу в тело.
-
----
-
-## Votes (1)
-
-| Voter | Amount | Date |
-| :----- | :----- | :--- |
-| `gonka1gm...gzg6ry` | 10.0K GNK | 2026-04-25 20:31 |
 
 ---
 

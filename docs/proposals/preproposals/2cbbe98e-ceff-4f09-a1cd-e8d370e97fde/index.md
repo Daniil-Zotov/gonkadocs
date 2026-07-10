@@ -13,8 +13,8 @@ template: proposals-main.html
 **Created:** 2026-05-13 18:30 UTC
 **Closes:** 2026-05-20 18:30 UTC
 **Language:** RU
-**Votes:** 70
-**Avg. Bid:** 9.5K GNK
+**Votes:** 0
+**Avg. Bid:** 0.00 GNK
 
 </div>
 
@@ -68,83 +68,6 @@ gonka-nop — уже работающий инструмент, который �
 - В чём выплачивать? USDT, GNK или комбинация и в каком соотношении?
 - Единовременно или с вестингом — если выплата в GNK? 
 - Какие новые функции в приоритете? TODO лист открыт для изменений.
-
----
-
-## Votes (70)
-
-| Voter | Amount | Date |
-| :----- | :----- | :--- |
-| `gonka1gm...gzg6ry` | 10.0K GNK | 2026-05-14 01:46 |
-| `gonka1aw...f8af0w` | 10.0K GNK | 2026-05-14 01:46 |
-| `gonka1u6...967mgk` | 5.0K GNK | 2026-05-14 02:19 |
-| `gonka1a4...3ww4ac` | 5.0K GNK | 2026-05-14 02:19 |
-| `gonka14y...5dwa34` | 5.0K GNK | 2026-05-14 02:20 |
-| `gonka1fv...cesv9p` | 5.0K GNK | 2026-05-14 02:27 |
-| `gonka18p...6ssllv` | 5.0K GNK | 2026-05-14 02:19 |
-| `gonka1tm...mwtwq2` | 5.0K GNK | 2026-05-14 02:27 |
-| `gonka19s...mj5e06` | 5.0K GNK | 2026-05-14 02:19 |
-| `gonka1c8...wqml7f` | 5.0K GNK | 2026-05-14 02:19 |
-| `gonka1y3...wmzvu9` | 5.0K GNK | 2026-05-14 02:20 |
-| `gonka1ex...65kr6h` | 5.0K GNK | 2026-05-14 02:19 |
-| `gonka1p2...6k652r` | 5.0K GNK | 2026-05-14 02:20 |
-| `gonka14s...4aqm05` | 5.0K GNK | 2026-05-14 02:19 |
-| `gonka178...08g7pn` | 8.5K GNK | 2026-05-18 18:13 |
-| `gonka1lh...2z4evj` | 5.0K GNK | 2026-05-14 02:20 |
-| `gonka1nq...ax5vyc` | 5.0K GNK | 2026-05-14 02:20 |
-| `gonka1sl...wkl054` | 5.0K GNK | 2026-05-14 02:19 |
-| `gonka1ss...u07vzh` | 5.0K GNK | 2026-05-14 02:20 |
-| `gonka1eh...ucxxhz` | 5.0K GNK | 2026-05-14 02:20 |
-| `gonka19y...ynwuku` | 5.0K GNK | 2026-05-14 02:20 |
-| `gonka14f...rqkh93` | 5.0K GNK | 2026-05-14 02:19 |
-| `gonka14l...7evgh4` | 5.0K GNK | 2026-05-14 02:20 |
-| `gonka1la...rh0qyc` | 5.0K GNK | 2026-05-14 02:20 |
-| `gonka1w2...hl7xtp` | 5.0K GNK | 2026-05-14 02:20 |
-| `gonka173...dkdvje` | 5.0K GNK | 2026-05-14 02:20 |
-| `gonka108...kvfazm` | 5.0K GNK | 2026-05-14 02:17 |
-| `gonka136...wjqqw2` | 5.0K GNK | 2026-05-14 02:19 |
-| `gonka1cr...gf27kd` | 5.0K GNK | 2026-05-14 02:18 |
-| `gonka1dq...z4jfa4` | 5.0K GNK | 2026-05-14 02:19 |
-| `gonka1e2...wj7y2t` | 5.0K GNK | 2026-05-14 02:18 |
-| `gonka1au...05ccat` | 5.0K GNK | 2026-05-14 02:17 |
-| `gonka1a4...c7q2a5` | 5.0K GNK | 2026-05-14 02:19 |
-| `gonka1f8...9n0xtv` | 5.0K GNK | 2026-05-14 02:18 |
-| `gonka182...hg8ed7` | 5.0K GNK | 2026-05-14 02:18 |
-| `gonka17g...lze0dx` | 5.0K GNK | 2026-05-14 02:17 |
-| `gonka1h4...m03mnn` | 5.0K GNK | 2026-05-14 02:17 |
-| `gonka1zs...7ln5c0` | 5.0K GNK | 2026-05-14 02:19 |
-| `gonka1hj...7dnj05` | 5.0K GNK | 2026-05-14 02:18 |
-| `gonka1j3...sdekrc` | 5.0K GNK | 2026-05-14 02:18 |
-| `gonka1jw...gmv0za` | 5.0K GNK | 2026-05-14 02:18 |
-| `gonka1jy...vvf2gd` | 5.0K GNK | 2026-05-14 02:18 |
-| `gonka1jz...hzaaq5` | 5.0K GNK | 2026-05-14 02:18 |
-| `gonka1k7...jws70h` | 5.0K GNK | 2026-05-14 02:17 |
-| `gonka1l9...8yhee5` | 5.0K GNK | 2026-05-14 02:17 |
-| `gonka170...zrkh8p` | 5.0K GNK | 2026-05-14 02:18 |
-| `gonka1lf...7q8ahj` | 5.0K GNK | 2026-05-14 02:18 |
-| `gonka16x...kd5quj` | 5.0K GNK | 2026-05-14 02:18 |
-| `gonka159...jleju2` | 5.0K GNK | 2026-05-14 02:18 |
-| `gonka150...zrwhta` | 5.0K GNK | 2026-05-14 02:19 |
-| `gonka1p5...rc0q0g` | 5.0K GNK | 2026-05-14 02:18 |
-| `gonka1pj...m3mddj` | 5.0K GNK | 2026-05-14 02:19 |
-| `gonka1pp...kj60de` | 5.0K GNK | 2026-05-14 02:19 |
-| `gonka1q3...vz3kgn` | 5.0K GNK | 2026-05-14 02:18 |
-| `gonka1s0...4d0lxs` | 5.0K GNK | 2026-05-14 02:19 |
-| `gonka1sg...asss9u` | 5.0K GNK | 2026-05-14 02:18 |
-| `gonka13n...wsx33n` | 5.0K GNK | 2026-05-14 02:18 |
-| `gonka1sq...0wuqt8` | 5.0K GNK | 2026-05-14 02:18 |
-| `gonka13e...g8pcpn` | 5.0K GNK | 2026-05-14 02:19 |
-| `gonka1ta...gffgvy` | 5.0K GNK | 2026-05-14 02:17 |
-| `gonka1av...0c8pmf` | 5.0K GNK | 2026-05-14 02:17 |
-| `gonka12u...fne9un` | 5.0K GNK | 2026-05-14 02:17 |
-| `gonka1uk...ygy2mg` | 5.0K GNK | 2026-05-14 02:17 |
-| `gonka1up...mjlvv9` | 5.0K GNK | 2026-05-14 02:18 |
-| `gonka12l...dafxdh` | 5.0K GNK | 2026-05-14 02:18 |
-| `gonka1w9...e8q4tg` | 5.0K GNK | 2026-05-14 02:19 |
-| `gonka1xy...r65ky8` | 5.0K GNK | 2026-05-14 02:18 |
-| `gonka10x...metmqz` | 5.0K GNK | 2026-05-14 02:17 |
-| `gonka1yt...da3yv2` | 5.0K GNK | 2026-05-14 02:20 |
-| `gonka1h9...26p07n` | 5.0K GNK | 2026-05-14 02:17 |
 
 ---
 

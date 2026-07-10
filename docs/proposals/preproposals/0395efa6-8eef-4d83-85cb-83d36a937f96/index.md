@@ -11,7 +11,7 @@ template: proposals-main.html
 
 **Author:** Slava MSE!
 **Created:** 2026-06-11 05:47 UTC
-**Closes:** 2026-09-09 05:47 UTC
+**Closes:** 2026-07-11 05:47 UTC
 **Language:** EN
 **Votes:** 0
 **Avg. Bid:** 0.00 GNK
