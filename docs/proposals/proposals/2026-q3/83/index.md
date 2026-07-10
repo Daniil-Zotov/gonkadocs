@@ -41,11 +41,11 @@ Update current chain params by adding v3 to devshard_escrow_params.approved_vers
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes 234,563 (100.0%)</span>
+    <span class="prop-tally-yes-text">Yes 367,963 (100.0%)</span>
     <span class="prop-tally-no-text">No 0 (0.0%)</span>
     <span class="prop-tally-veto-text">Veto 0 (0.0%)</span>
     <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span>
-    <span class="prop-tally-total-text">Total 234,563 votes</span>
+    <span class="prop-tally-total-text">Total 367,963 votes</span>
   </div>
 </div>
 

@@ -54,7 +54,7 @@ The budget is held by an immutable escrow contract and released as 4 monthly tra
       <link>https://gonkadocs.com/proposals/proposals/2026-q3/81/</link>
       <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q3/81/</guid>
       <pubDate>Wed, 08 Jul 2026 05:57:24 +0000</pubDate>
-      <category>Voting</category>
+      <category>Rejected</category>
       <description>Distribute restitution for Kimi operators affected by cPoC validation failure in epochs 306-309. The Kimi validation path failed starting in e306 causing confirmation_weight suppression for Kimi operators while non-Kimi operators ran normally. Failure worsened in e307 and carried into the e309 bootstrap attempt. Total: 175082.07 GONKA to 19 addresses, vested over 170 days (160 epochs).</description>
     </item>
     <item>

@@ -8,7 +8,7 @@ template: proposals-proposals-main.html
 
 <div class="prop-detail-header" markdown="1">
 
-<span class="prop-badge prop-voting">Voting</span>
+<span class="prop-badge prop-rejected">Rejected</span>
 
 **Proposal ID:** `81`
 
@@ -22,7 +22,9 @@ template: proposals-proposals-main.html
 
 **Metadata:** [https://github.com/votkon/gonka-kimi-e306-issue](https://github.com/votkon/gonka-kimi-e306-issue)
 
-<div class="prop-funding-line prop-funding-line-voting">175,082 GNK · Gov Module</div>
+**Failed reason:** proposal did not get enough votes to pass
+
+<div class="prop-funding-line prop-funding-line-rejected">175,082 GNK · Gov Module</div>
 
 
 [View on gonka.gg](https://gonka.gg/network/proposals/81){:target="_blank"}
@@ -30,6 +32,28 @@ template: proposals-proposals-main.html
 </div>
 
 Distribute restitution for Kimi operators affected by cPoC validation failure in epochs 306-309. The Kimi validation path failed starting in e306 causing confirmation_weight suppression for Kimi operators while non-Kimi operators ran normally. Failure worsened in e307 and carried into the e309 bootstrap attempt. Total: 175082.07 GONKA to 19 addresses, vested over 170 days (160 epochs).
+
+---
+
+## Final Tally
+
+
+<div class="prop-tally">
+  <div class="prop-tally-bar">
+    <div class="prop-tally-yes" style="width:56.2%"></div>
+    <div class="prop-tally-no" style="width:0.1%"></div>
+    <div class="prop-tally-veto" style="width:43.7%"></div>
+    <div class="prop-tally-abstain" style="width:0.0%"></div>
+  </div>
+  <div class="prop-tally-stats">
+    <span class="prop-tally-yes-text">Yes 235,728 (56.2%)</span>
+    <span class="prop-tally-no-text">No 609 (0.1%)</span>
+    <span class="prop-tally-veto-text">Veto 183,094 (43.7%)</span>
+    <span class="prop-tally-abstain-text">Abstain 18 (0.0%)</span>
+    <span class="prop-tally-total-text">Total 419,449 votes</span>
+  </div>
+</div>
+
 
 ---
 

@@ -34,7 +34,7 @@ template: proposals-oview.html
 <div class="qs-stats">
 <div class="qs-stat total"><span class="qs-num">84</span><span class="qs-desc">Total Proposals</span></div>
 <div class="qs-stat passed"><span class="qs-num">52</span><span class="qs-desc">Passed (62%)</span></div>
-<div class="qs-stat rejected"><span class="qs-num">26</span><span class="qs-desc">Rejected (31%)</span></div>
+<div class="qs-stat rejected"><span class="qs-num">27</span><span class="qs-desc">Rejected (32%)</span></div>
 <div class="qs-stat failed"><span class="qs-num">1</span><span class="qs-desc">Failed (1%)</span></div>
 </div>
 
@@ -67,7 +67,7 @@ template: proposals-oview.html
     <span>Voting ends 2026-07-12</span>
   </div>
   <div class="prop-card-desc">We will run hundreds of experiments across different target audience hypotheses and set up the basis: acquisition funnels, analytics, sharable target audience deep understanding. Our key performance m…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 0 (0.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-funding prop-card-funding-voting">600,000 GNK · $36,000 · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 0 (0.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 13,437 (100.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-funding prop-card-funding-voting">600,000 GNK · $36,000 · Community Pool</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-voting">
@@ -80,7 +80,7 @@ template: proposals-oview.html
     <span>Voting ends 2026-07-11</span>
   </div>
   <div class="prop-card-desc">My name is Andrey Orlovsky, and through this proposal I represent our team and an initiative to attract at least $3 million in new long-term capital to GONKA through Uniswap.  Below is a condensed ver…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 0 (0.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 133,597 (100.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-funding prop-card-funding-voting">20,000 GNK · $50,000 · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 0 (0.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 131,933 (100.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-funding prop-card-funding-voting">20,000 GNK · $50,000 · Community Pool</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-voting">
@@ -93,7 +93,7 @@ template: proposals-oview.html
     <span>Voting ends 2026-07-11</span>
   </div>
   <div class="prop-card-desc">Update current chain params by adding v3 to devshard_escrow_params.approved_versions.</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 234,563 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 367,963 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-voting">
@@ -106,20 +106,20 @@ template: proposals-oview.html
     <span>Voting ends 2026-07-10</span>
   </div>
   <div class="prop-card-desc">4-month pilot of the External Test Lab & Community DevNet: a community-owned testing layer for Gonka. Full proposal and discussion: <a href="https://github.com/gonka-ai/gonka/discussions/1388" target="_blank">https://github.com/gonka-ai/gonka/discussions/1388</a>  The budget is he…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 367,190 (98.2%)</span> · <span class="prop-tally-no-text">No 468 (0.1%)</span> · <span class="prop-tally-veto-text">Veto 94 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 6,141 (1.6%)</span><span class="prop-card-funding prop-card-funding-voting">80,000 GNK · $88,000 · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 365,526 (98.2%)</span> · <span class="prop-tally-no-text">No 468 (0.1%)</span> · <span class="prop-tally-veto-text">Veto 94 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 6,141 (1.6%)</span><span class="prop-card-funding prop-card-funding-voting">80,000 GNK · $88,000 · Community Pool</span></div>
 </div>
 
-<div class="prop-card" data-status="prop-voting">
+<div class="prop-card" data-status="prop-rejected">
   <div class="prop-card-header">
     <a href="2026-q3/81/" class="prop-card-title">#81 – Kimi cPoC Restitution (epochs 306-309)</a>
-    <span class="prop-badge prop-voting">Voting</span>
+    <span class="prop-badge prop-rejected">Rejected</span>
   </div>
   <div class="prop-card-meta">
     <span>Submitted 2026-07-08</span>
     <span>Voting ends 2026-07-10</span>
   </div>
   <div class="prop-card-desc">Distribute restitution for Kimi operators affected by cPoC validation failure in epochs 306-309. The Kimi validation path failed starting in e306 causing confirmation_weight suppression for Kimi opera…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 0 (0.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-funding prop-card-funding-voting">175,082 GNK · Gov Module</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 235,728 (56.2%)</span> · <span class="prop-tally-no-text">No 609 (0.1%)</span> · <span class="prop-tally-veto-text">Veto 183,094 (43.7%)</span> · <span class="prop-tally-abstain-text">Abstain 18 (0.0%)</span><span class="prop-card-funding prop-card-funding-rejected">175,082 GNK · Gov Module</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -1171,7 +1171,7 @@ template: proposals-oview.html
 
 </div>
 <div class="prop-oview-stats">
-<em>84 proposals across 5 quarters. Last updated: 2026-07-10 04:08 UTC</em>
+<em>84 proposals across 5 quarters. Last updated: 2026-07-10 07:07 UTC</em>
 </div>
 
 <script>
