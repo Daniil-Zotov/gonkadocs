@@ -3,7 +3,7 @@ title: "#1092 — GiP: Neural Computation Protocol (NCP) v0.3.2 – Deterministi
 source: https://github.com/gonka-ai/gonka/discussions/1092
 discussion_number: 1092
 category: proposals
-synced_at: 2026-07-10T17:56:19Z
+synced_at: 2026-07-10T19:47:34Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1092](https://github.com/gonka-ai/gonka/discussions/1092) every hour. 
