@@ -2,7 +2,7 @@
 title: "#569 — Switch to bytes for storage"
 source: https://github.com/gonka-ai/gonka/issues/569
 issue_number: 569
-synced_at: 2026-07-10T12:12:32Z
+synced_at: 2026-07-10T15:08:51Z
 template: issues-main.html
 ---
 
