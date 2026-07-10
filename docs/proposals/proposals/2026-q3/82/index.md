@@ -10,7 +10,7 @@ template: proposals-proposals-main.html
 
 <div class="prop-detail-header" markdown="1">
 
-<span class="prop-badge prop-voting">Voting</span>
+<span class="prop-badge prop-passed">Passed</span>
 
 **Proposal ID:** `82`
 
@@ -24,7 +24,7 @@ template: proposals-proposals-main.html
 
 **Metadata:** [https://github.com/gonka-ai/gonka/discussions/1388](https://github.com/gonka-ai/gonka/discussions/1388)
 
-<div class="prop-funding-line prop-funding-line-voting">80,000 GNK · $88,000 · Community Pool</div>
+<div class="prop-funding-line">80,000 GNK · $88,000 · Community Pool</div>
 
 
 [View on gonka.gg](https://gonka.gg/network/proposals/82){:target="_blank"}

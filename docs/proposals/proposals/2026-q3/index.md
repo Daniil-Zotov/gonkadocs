@@ -33,7 +33,7 @@ template: proposals-oview.html
 
 <div class="qs-stats">
 <div class="qs-stat total"><span class="qs-num">6</span><span class="qs-desc">Total Proposals</span></div>
-<div class="qs-stat passed"><span class="qs-num">0</span><span class="qs-desc">Passed (0%)</span></div>
+<div class="qs-stat passed"><span class="qs-num">1</span><span class="qs-desc">Passed (17%)</span></div>
 <div class="qs-stat rejected"><span class="qs-num">2</span><span class="qs-desc">Rejected (33%)</span></div>
 
 </div>
@@ -44,6 +44,7 @@ template: proposals-oview.html
 <div class="qs-row"><span class="qs-label">GRC / Restitution</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:17%"></span></span><span class="qs-value">1</span></div>
 </div>
 
+<div class="qs-funding-line">80,000 GNK · $88,000 · Community Pool</div>
 
 
 </div>
@@ -87,20 +88,20 @@ template: proposals-oview.html
     <span>Voting ends 2026-07-11</span>
   </div>
   <div class="prop-card-desc">Update current chain params by adding v3 to devshard_escrow_params.approved_versions.</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 368,533 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 372,317 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
 </div>
 
-<div class="prop-card" data-status="prop-voting">
+<div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
     <a href="82/" class="prop-card-title">#82 – External Test Lab x Community DevNet</a>
-    <span class="prop-badge prop-voting">Voting</span>
+    <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
     <span>Submitted 2026-07-08</span>
     <span>Voting ends 2026-07-10</span>
   </div>
   <div class="prop-card-desc">4-month pilot of the External Test Lab & Community DevNet: a community-owned testing layer for Gonka. Full proposal and discussion: <a href="https://github.com/gonka-ai/gonka/discussions/1388" target="_blank">https://github.com/gonka-ai/gonka/discussions/1388</a>  The budget is he…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 368,084 (98.2%)</span> · <span class="prop-tally-no-text">No 468 (0.1%)</span> · <span class="prop-tally-veto-text">Veto 94 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 6,141 (1.6%)</span><span class="prop-card-funding prop-card-funding-voting">80,000 GNK · $88,000 · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 368,084 (98.2%)</span> · <span class="prop-tally-no-text">No 468 (0.1%)</span> · <span class="prop-tally-veto-text">Veto 94 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 6,141 (1.6%)</span><span class="prop-card-funding">80,000 GNK · $88,000 · Community Pool</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">

@@ -44,7 +44,7 @@ We propose building a long-term capital acquisition system for GONKA through pur
       <link>https://gonkadocs.com/proposals/proposals/2026-q3/82/</link>
       <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q3/82/</guid>
       <pubDate>Wed, 08 Jul 2026 11:31:43 +0000</pubDate>
-      <category>Voting</category>
+      <category>Passed</category>
       <description>4-month pilot of the External Test Lab &amp; Community DevNet: a community-owned testing layer for Gonka. Full proposal and discussion: https://github.com/gonka-ai/gonka/discussions/1388
 
 The budget is held by an immutable escrow contract and released as 4 monthly tranches of 22,000 USDT plus 2x40,000 GNK recognition to the Project and Infrastructure Leads at the end of the pilot. Month 1 is prepaid; each next tranche unlocks 4 days after the month ends. Hosts can always cancel via a one-time govern</description>
