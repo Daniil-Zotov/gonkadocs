@@ -312,7 +312,7 @@ Approve a 4-month pilot of External Test Lab & Community DevNet with a maximum b
 
 ---
 
-## Comments (4)
+## Comments (5)
 
 ### 💬 Dem | Démíngān
 *2026-07-04 12:15* · 👍 5 · 👎 0
@@ -361,6 +361,19 @@ Approve a 4-month pilot of External Test Lab & Community DevNet with a maximum b
 Пропозал обновлён по ходу обсуждения на GitHub с Protocol Maintainer: немного снижен бюджет, уточнены цели Community DevNet, доступ к DevNet, топология Network Nodes / MLNodes, требования по GPU и порядок использования ресурсов burst GPU.
 
 Обсуждение: https://github.com/gonka-ai/gonka/discussions/1388
+
+---
+
+### 💬 Sergii Paranko
+*2026-07-10 13:24* · 👍 0 · 👎 0
+
+[Предложение №82 — External Test Lab & Community DevNet принято.](https://gonka.vote/governance/82)
+
+Спасибо всем, кто изучил предложение и принял участие в голосовании.
+
+Начинаем первый месяц работы: поиск и найм специалистов в QA-команду, поиск и аренда оборудования, запуск первых нод.
+
+Первый отчёт будет опубликован примерно 9 августа — за четыре дня до разблокировки второго транша.
 
 ---
 
