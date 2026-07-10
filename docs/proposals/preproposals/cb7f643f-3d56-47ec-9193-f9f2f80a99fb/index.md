@@ -7,7 +7,7 @@ template: proposals-main.html
 
 <div class="preproposal-header" markdown="1">
 
-<div class="preproposal-status">🟢 Active</div>
+<div class="preproposal-status">🔴 Expired</div>
 
 **Author:** Dem \| Démíngān
 **Created:** 2026-07-03 15:58 UTC
