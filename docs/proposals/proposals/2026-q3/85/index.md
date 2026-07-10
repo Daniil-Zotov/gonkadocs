@@ -56,9 +56,9 @@ Governance holds an option to cancel the initiative and returns all remaining fu
   <div class="prop-tally-stats">
     <span class="prop-tally-yes-text">Yes 0 (0.0%)</span>
     <span class="prop-tally-no-text">No 0 (0.0%)</span>
-    <span class="prop-tally-veto-text">Veto 13,437 (100.0%)</span>
+    <span class="prop-tally-veto-text">Veto 12,025 (100.0%)</span>
     <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span>
-    <span class="prop-tally-total-text">Total 13,437 votes</span>
+    <span class="prop-tally-total-text">Total 12,025 votes</span>
   </div>
 </div>
 
