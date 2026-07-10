@@ -3,14 +3,14 @@ title: "#1367 — High-Availability Architecture"
 source: https://github.com/gonka-ai/gonka/discussions/1367
 discussion_number: 1367
 category: proposals
-synced_at: 2026-07-10T05:02:45Z
+synced_at: 2026-07-10T08:34:22Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1367](https://github.com/gonka-ai/gonka/discussions/1367) every hour. 
 
 # High-Availability Architecture
 
-**Автор:** [@a-kuprin](https://github.com/a-kuprin) · **Категория:** :bulb: Proposals · **Создано:** 2026-06-25 08:16 UTC · **Обновлено:** 2026-06-28 15:57 UTC
+**Автор:** [@a-kuprin](https://github.com/a-kuprin) · **Категория:** :bulb: Proposals · **Создано:** 2026-06-25 08:16 UTC · **Обновлено:** 2026-07-10 07:13 UTC
 
 ---
 
@@ -422,3 +422,17 @@ Overall, that's a solid long term goal. I'd try to split it in smaller steps for
 >
 > I assume it to be additional feature, not the replacement of docker compose deployment. When high-availability refactoring is ready it is quite easy using agent rewrite compose to helm.
 > And I think even small miners can benefit from kubernetes, as full installation and update (if DevOps engeneer is familiar with kube and tooling like ArgoCD) could be even easier and smoother
+
+**↳ Ответ от [@snevolin](https://github.com/snevolin)** · *2026-07-10 07:13 UTC*
+
+> Hi @gmorgachev!
+>
+> I picked up part 1 (rolling updates), it is implemented here: https://github.com/gonka-ai/gonka/pull/1437
+>
+> In short, what it does: when governance publishes a new binary with the same version name, versiond starts the new binary on a new port, sends traffic to it only after it is really ready, and lets the old one finish all its in-flight requests before stopping it. If the new binary fails to start, the old one just keeps serving.
+>
+> About compatibility with already deployed versions: old already-released binaries keep working under the new versiond, and SQLite single-instance setups keep the current behavior. Nothing changes for small miners, no config changes needed.
+>
+> Covered by tests: unit tests, a docker e2e test, and a new testermint test where a long request survives the binary update.
+>
+> Let me know if you have any questions.

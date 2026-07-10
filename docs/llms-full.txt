@@ -23502,7 +23502,7 @@ alexandr8475
 
 84Total Proposals
 52Passed (62%)
-26Rejected (31%)
+27Rejected (32%)
 1Failed (1%)
 
 Funding / Grants38
@@ -23527,7 +23527,7 @@ Models / IBC2
     Voting ends 2026-07-12
   
   We will run hundreds of experiments across different target audience hypotheses and set up the basis: acquisition funnels, analytics, sharable target audience deep understanding. Our key performance m…
-  Yes 0 (0.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)600,000 GNK · $36,000 · Community Pool
+  Yes 0 (0.0%) · No 0 (0.0%) · Veto 13,437 (100.0%) · Abstain 0 (0.0%)600,000 GNK · $36,000 · Community Pool
 
   
     #84 – Bringing $3M+ in New Capital to GONKA via Uniswap — Phase 1/6 ($50k USDT)
@@ -23538,7 +23538,7 @@ Models / IBC2
     Voting ends 2026-07-11
   
   My name is Andrey Orlovsky, and through this proposal I represent our team and an initiative to attract at least $3 million in new long-term capital to GONKA through Uniswap.  Below is a condensed ver…
-  Yes 0 (0.0%) · No 0 (0.0%) · Veto 133,597 (100.0%) · Abstain 0 (0.0%)20,000 GNK · $50,000 · Community Pool
+  Yes 0 (0.0%) · No 0 (0.0%) · Veto 131,933 (100.0%) · Abstain 0 (0.0%)20,000 GNK · $50,000 · Community Pool
 
   
     #83 – Approve devshard v3
@@ -23549,7 +23549,7 @@ Models / IBC2
     Voting ends 2026-07-11
   
   Update current chain params by adding v3 to devshard_escrow_params.approved_versions.
-  Yes 234,563 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 367,963 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
   
     #82 – External Test Lab x Community DevNet
@@ -23560,18 +23560,18 @@ Models / IBC2
     Voting ends 2026-07-10
   
   4-month pilot of the External Test Lab & Community DevNet: a community-owned testing layer for Gonka. Full proposal and discussion: https://github.com/gonka-ai/gonka/discussions/1388  The budget is he…
-  Yes 367,190 (98.2%) · No 468 (0.1%) · Veto 94 (0.0%) · Abstain 6,141 (1.6%)80,000 GNK · $88,000 · Community Pool
+  Yes 365,526 (98.2%) · No 468 (0.1%) · Veto 94 (0.0%) · Abstain 6,141 (1.6%)80,000 GNK · $88,000 · Community Pool
 
   
     #81 – Kimi cPoC Restitution (epochs 306-309)
-    Voting
+    Rejected
   
   
     Submitted 2026-07-08
     Voting ends 2026-07-10
   
   Distribute restitution for Kimi operators affected by cPoC validation failure in epochs 306-309. The Kimi validation path failed starting in e306 causing confirmation_weight suppression for Kimi opera…
-  Yes 0 (0.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)175,082 GNK · Gov Module
+  Yes 235,728 (56.2%) · No 609 (0.1%) · Veto 183,094 (43.7%) · Abstain 18 (0.0%)175,082 GNK · Gov Module
 
   
     #80 – GRC Proposal #3 - Restitution
@@ -24454,7 +24454,7 @@ Models / IBC2
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-84 proposals across 5 quarters. Last updated: 2026-07-10 04:08 UTC
+84 proposals across 5 quarters. Last updated: 2026-07-10 07:50 UTC
 
 function initProposalsPage() {
   var checkboxes = document.querySelectorAll('.prop-oview-filter input[type=checkbox]');
@@ -49683,7 +49683,7 @@ Contract Details
 
 6Total Proposals
 0Passed (0%)
-1Rejected (17%)
+2Rejected (33%)
 
 Funding / Grants4
 Governance Parameters1
@@ -49701,7 +49701,7 @@ GRC / Restitution1
     Voting ends 2026-07-12
   
   We will run hundreds of experiments across different target audience hypotheses and set up the basis: acquisition funnels, analytics, sharable target audience deep understanding. Our key performance m…
-  Yes 0 (0.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)600,000 GNK · $36,000 · Community Pool
+  Yes 0 (0.0%) · No 0 (0.0%) · Veto 13,437 (100.0%) · Abstain 0 (0.0%)600,000 GNK · $36,000 · Community Pool
 
   
     #84 – Bringing $3M+ in New Capital to GONKA via Uniswap — Phase 1/6 ($50k USDT)
@@ -49712,7 +49712,7 @@ GRC / Restitution1
     Voting ends 2026-07-11
   
   My name is Andrey Orlovsky, and through this proposal I represent our team and an initiative to attract at least $3 million in new long-term capital to GONKA through Uniswap.  Below is a condensed ver…
-  Yes 0 (0.0%) · No 0 (0.0%) · Veto 133,597 (100.0%) · Abstain 0 (0.0%)20,000 GNK · $50,000 · Community Pool
+  Yes 0 (0.0%) · No 0 (0.0%) · Veto 131,933 (100.0%) · Abstain 0 (0.0%)20,000 GNK · $50,000 · Community Pool
 
   
     #83 – Approve devshard v3
@@ -49723,7 +49723,7 @@ GRC / Restitution1
     Voting ends 2026-07-11
   
   Update current chain params by adding v3 to devshard_escrow_params.approved_versions.
-  Yes 234,563 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 367,963 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
   
     #82 – External Test Lab x Community DevNet
@@ -49734,18 +49734,18 @@ GRC / Restitution1
     Voting ends 2026-07-10
   
   4-month pilot of the External Test Lab & Community DevNet: a community-owned testing layer for Gonka. Full proposal and discussion: https://github.com/gonka-ai/gonka/discussions/1388  The budget is he…
-  Yes 367,190 (98.2%) · No 468 (0.1%) · Veto 94 (0.0%) · Abstain 6,141 (1.6%)80,000 GNK · $88,000 · Community Pool
+  Yes 365,526 (98.2%) · No 468 (0.1%) · Veto 94 (0.0%) · Abstain 6,141 (1.6%)80,000 GNK · $88,000 · Community Pool
 
   
     #81 – Kimi cPoC Restitution (epochs 306-309)
-    Voting
+    Rejected
   
   
     Submitted 2026-07-08
     Voting ends 2026-07-10
   
   Distribute restitution for Kimi operators affected by cPoC validation failure in epochs 306-309. The Kimi validation path failed starting in e306 causing confirmation_weight suppression for Kimi opera…
-  Yes 0 (0.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)175,082 GNK · Gov Module
+  Yes 235,728 (56.2%) · No 609 (0.1%) · Veto 183,094 (43.7%) · Abstain 18 (0.0%)175,082 GNK · Gov Module
 
   
     #80 – GRC Proposal #3 - Restitution
@@ -50125,11 +50125,11 @@ Contract: code_id 107, checksum 94b141625b7641e6ad57266420b18a4af72eac49b8110cb9
     
   
   
-    Yes 367,190 (98.2%)
+    Yes 365,526 (98.2%)
     No 468 (0.1%)
     Veto 94 (0.0%)
     Abstain 6,141 (1.6%)
-    Total 373,893 votes
+    Total 372,229 votes
   
 
 ---
@@ -50229,6 +50229,126 @@ Contract Details
 
 ---
 
+## Bringing $3M+ in New Capital to GONKA via Uniswap — Phase 1/6 ($50k USDT)
+
+# Bringing $3M+ in New Capital to GONKA via Uniswap — Phase 1/6 ($50k USDT)
+
+**Author:** Andrey Orlovsky (@FrancesGreen9)
+
+**Goal:** Attract at least $3M in new long-term capital to GONKA through a scalable Telegram funnel with milestone-based funding and KPIs.
+
+## 1. Executive Summary
+
+We propose building a long-term capital acquisition system for GONKA through purchases of the GNK token on Uniswap. The objective of the program is to attract no less than $3,000,000 in new capital.
+
+The overall program is designed around a budget of $300,000 divided into 6 independent phases of $50,000 each. This proposal covers only the first phase.
+
+The KPI for the first phase is **4x the advertising budget**. At the time of verification, wallets belonging to users acquired by our team must hold at least $200,000. This incentivizes attracting long-term investors rather than short-term speculative buyers.
+
+## 2. Who We Are
+
+Team of 10 people based in Zurich: 4 media buyers, 5 user processing specialists, 1 technical specialist. We have been working in affiliate marketing since 2023 and manage over $70,000 in monthly ad spend.
+
+Core specialization: building Telegram funnels to attract investors into various projects. We have accumulated extensive practical data across geographies, subscriber costs, dialogue costs, and first-deposit economics.
+
+Supporting materials: https://t.me/proposaluniswap
+
+## 3. What We Propose
+
+Build a system that daily attracts new capital through token purchases on Uniswap. The primary success metric is the volume of new capital brought into the GONKA ecosystem.
+
+## 4. KPI & Project Economics
+
+| Phase | Budget | Target KPI |
+|---|---|---|
+| Phase 1 | $50,000 | 4x ($200,000) |
+| Phase 2 | $50,000 | 7x ($350,000) |
+| Phases 3-6 | $50,000 each | 10x+ ($500,000+ each) |
+| **Total** | **$300,000** | **$3,000,000+** |
+
+- Average subscriber cost: $4-6
+- Average dialogue cost: $6-12 depending on geography
+- At $300,000 budget: 30,000+ new dialogues
+- ~20-23% of users start financial interaction
+- Minimum first deposit (FTD) assumed: $500
+- KPI calculated on **first financial action only** (FTD). Repeat investments, retention, organic growth not included in mandatory KPI
+- Internal estimate: $6-7M potential from paid traffic alone
+
+## 5. Funnel
+
+**Meta Ads → Landing Page → Telegram → AI Agent → Manager → Uniswap → Long-term Support**
+
+1. **Meta Ads** — user first discovers GONKA through ad campaigns
+2. **Landing Page** — builds initial interest and trust, motivates transition to Telegram
+3. **Telegram** — bot auto-accepts, sends welcome message, provides contacts. Main interaction platform where trust is built through content
+4. **AI Agent (Tora AI)** — handles majority of communication, answers questions, guides users toward first deposit
+5. **Manager** — handles large investors or cases requiring personal communication
+6. **Uniswap Purchase** — primary goal of the entire funnel
+7. **Long-term Support** — AI Agent and managers continue engagement post-deposit
+
+Demo channel: https://t.me/demo_chanel_gonka
+
+## 6. User Retention Strategy
+
+Work does not end after first deposit. AI Agent and managers continue accompanying users, building trust, and increasing repeat investment volume. Repeat investments form the majority of long-term value.
+
+## 7. Funding
+
+- Total program budget: $300,000
+- 6 sequential phases of $50,000 each
+- **This proposal: Phase 1 — $50,000**
+- Phase 1 focuses on infrastructure build, ad campaign launch, funnel testing, finding optimal GEO/audiences/creatives
+- Subsequent phases submitted only after KPI achievement of prior phase
+
+## 8. Team Compensation
+
+| Component | Percentage | Timing |
+|---|---|---|
+| Fixed portion | 8% of ad budget | Paid after phase approval |
+| Variable portion | 12% of ad budget | Paid only after KPI achieved + next phase approved |
+| **Total (per phase)** | **20%** | |
+
+If KPI is not met or next phase not approved, variable portion is forfeited. All compensation to be paid exclusively in GNK tokens.
+
+## 9. Reporting & Transparency
+
+- Weekly public reports: campaign results, KPI progress, subscriber/dialogue costs, GEO results, hypotheses, tests, plans
+- KPI verified through internal CRM tracking each user's wallet address, FTD amount, and interaction history
+- Weekly AMA calls if needed
+- Open to additional committee questions at any time
+
+## 10. What GONKA Receives
+
+1. **$3,000,000+ in new capital** (internal estimate: $6-7M)
+2. Telegram channels with hundreds of thousands of engaged users
+3. Fully tested marketing funnel for capital acquisition
+4. All ad creatives, landing pages, content created during campaign
+5. AI Agent trained on tens of thousands of real dialogues, optimized for user onboarding, first deposit, repeat investments, and long-term retention
+6. Accumulated analytics and test results
+7. Ready-to-scale capital acquisition infrastructure
+
+## 11. Anti-Fraud & KPI Methodology
+
+- Only new wallets meeting predefined criteria are counted
+- Related address analysis eliminates repeat patterns
+- Circular runs, self-purchases, and artificial inflation attempts excluded
+- KPI calculated on capital that **remains in the ecosystem at verification time**, not total incoming volume
+- Minimum holding period may be applied before funds count toward KPI
+
+Example: at $50,000 Phase 1 budget, target is $200,000 in wallets at verification time.
+
+## 12. Additional Materials
+
+- Demo Telegram channel: https://t.me/demo_chanel_gonka
+- Proposal materials (landings, creatives, ad accounts, funnel examples, partner info, AMAs): https://t.me/proposaluniswap
+- Contact: @FrancesGreen9
+
+## Full Proposal Source
+
+https://gonka.vote/proposal/f341b83c-78f0-4ab2-b8fd-ddc7ac5d9c37
+
+---
+
 ## #84 – Bringing $3M+ in New Capital to GONKA via Uniswap — Phase 1/6 ($50k USDT)
 
 # #84 – Bringing $3M+ in New Capital to GONKA via Uniswap — Phase 1/6 ($50k USDT)
@@ -50301,9 +50421,9 @@ Additional materials, proof of our work, landing page examples, creatives, adver
   
     Yes 0 (0.0%)
     No 0 (0.0%)
-    Veto 133,597 (100.0%)
+    Veto 131,933 (100.0%)
     Abstain 0 (0.0%)
-    Total 133,597 votes
+    Total 131,933 votes
   
 
 ---
@@ -50347,6 +50467,103 @@ Contract Details
 ```
 
 ---
+
+---
+
+## GRC Proposal #3 - Restitution
+
+# GRC Proposal #3 - Restitution
+
+This proposal closes the confirmed GRC3 restitution package, separating committee-confirmed damage into victim restitution and committee work/bounty payments.
+
+## Executive Summary
+
+GRC Proposal #3 closes the confirmed GRC3 restitution package and separates two different payment classes:
+
+| Payment class | Amount | Chain representation |
+|---|---:|---|
+| Committee-confirmed damage before overlap deductions | 99773.810455897 GNK | Settlement basis, before already-paid P4 deductions |
+| Victim restitution after exact P4 overlap deductions | 70154.024668251 GNK | Settlement basis before chain minimum handling |
+| Chain minimum top-up for positive victim outputs below 10 GNK | 30.808440219 GNK | Added so every positive victim output satisfies the chain transfer minimum |
+| Victim chain transfer total | 70184.833108470 GNK | One `MsgBatchTransferWithVesting` message |
+| Committee review, investigation, validation, and coordination work | 47850.000000000 GNK | Five `MsgCommunityPoolSpend` messages |
+| **Total proposal spend** | **118034.833108470 GNK** | `proposal.json` |
+
+The committee/work amount is not an additional victim-damage claim. It is a fixed work and bounty package for case investigation, independent validation, additional review, reconciliation, and proposal coordination.
+
+## Final Victim Settlement
+
+The victim settlement uses exact same-address, same-epoch P4 overlap deductions:
+
+```
+final_payout = max(planned_amount - p4_paid_overlap, 0)
+```
+
+| Metric | Amount / Count |
+|---|---:|
+| Committee-confirmed damage before overlap deductions | 99773.810455897 GNK |
+| Exact P4 paid overlap | 34944.788622168 GNK |
+| Deducted from Proposal #3 payout | 29619.785787646 GNK |
+| P4 overpaid amount recorded for audit only | 5325.002834522 GNK |
+| Final victim payout | 70154.024668251 GNK |
+| Chain minimum top-up for positive outputs below 10 GNK | 30.808440219 GNK |
+| Victim chain transfer total | 70184.833108470 GNK |
+| Settlement rows | 47 |
+| Unique planned recipients | 44 |
+| Positive chain recipients after zeroed overlaps | 40 |
+| Rows with exact P4 overlap | 7 |
+
+Rows where P4 already paid more than the planned amount are floored at zero. Seven positive victim outputs below the chain transfer minimum of 10 GNK are raised to exactly 10 GNK in the chain payload.
+
+## GRC Case Review
+
+| Case | Decision | Final victim payout |
+|---|---:|---:|
+| Case 01: High miss rate / devshard issue | Included. Seven rows retained, including the manual-review row. | 35109.923355683 GNK |
+| Case 02: Settle-drop / negative balance | Included after independent review. Broader rule questions deferred to next GRC task cycle. | 1075.336150923 GNK |
+| Case 03: Failed cPoC / preserved Kimi shortfall | Included for epoch 267; epoch 265 extension zeroed by exact P4 overlap. | 10262.057515369 GNK |
+| Case 04: UpgradeProtectionWindow / cPoC misfire | Included with exact P4 overlap deductions applied row by row. | 23706.707646276 GNK |
+| Case 05: Kimi restitution aggregate, epochs 265-276 | Rejected as aggregate compensation. Used only as overlap evidence and bounty-eligible investigation work. GRC acknowledges open questions for deeper review. | 0.000000000 GNK |
+
+## Committee Work Package
+
+The role package compensates completed work across investigation, validation, additional checks, attack review, and coordination.
+
+| Metric | Value |
+|---|---:|
+| Non-zero role lines | 12 |
+| Total role/work payout | 47850.000000000 GNK |
+| Distinct payout addresses | 5 |
+
+| Case | Investigation / Calculation | Validation / Review | Coordination |
+|---|---|---|---|
+| Case 01 | @Operator investigated high miss-rate / devshard issue | @mich validated | @Operator coordinated |
+| Case 02 | @max investigated settle-drop / negative balance | @den validated | @Operator coordinated |
+| Case 03 | @mich investigated failed cPoC / Kimi shortfall | @den validated | @Operator coordinated |
+| Case 04 | @max investigated UpgradeProtectionWindow / cPoC misfire | @Operator validated | @Operator coordinated |
+| Case 05 | @votkon investigated Kimi restitution aggregate | @max + @mich paid review | @Operator coordinated |
+
+## Chain Payload
+
+The governance payload contains:
+- One victim vesting batch with 40 positive recipients (7 raised to 10 GNK minimum)
+- Five committee/work `MsgCommunityPoolSpend` messages
+- Deposit, metadata, title, and summary from role config
+
+## Verification
+
+The verification script checks:
+- CSV totals against settlement.json
+- Row-level overlap math with exact 9-decimal ngonka arithmetic
+- Case totals for Case 01 through Case 04
+- Role/work total and final proposal total
+- Generated proposal artifacts match deterministic rebuild output
+
+## Source
+
+Full audit trail, payout breakdown, and chain-ready JSON:
+- GitHub: [https://github.com/huxuxuya/GRC-3-result](https://github.com/huxuxuya/GRC-3-result)
+- Dashboard: [https://huxuxuya.github.io/GRC-3-result/](https://huxuxuya.github.io/GRC-3-result/)
 
 ---
 
@@ -50871,11 +51088,11 @@ Update current chain params by adding v3 to devshard_escrow_params.approved_vers
     
   
   
-    Yes 234,563 (100.0%)
+    Yes 367,963 (100.0%)
     No 0 (0.0%)
     Veto 0 (0.0%)
     Abstain 0 (0.0%)
-    Total 234,563 votes
+    Total 367,963 votes
   
 
 ---
@@ -51322,6 +51539,174 @@ Contract Details
 
 ---
 
+## Internal Go-To-Market Team for 3 Month to Set Up the Basis: acquisition funnels, analytics, sharable target audience deep understanding
+
+# Internal Go-To-Market Team for 3 Month to Set Up the Basis: acquisition funnels, analytics, sharable target audience deep understanding
+
+This proposal describes ecosystem we should do for the Gonka, including basics, go-to-market actions, the team and the budgets for the next 3 months.
+
+## What we'll do
+
+### I. Onboarding funnels for target audiences of all types mentioned in the [roadmap](https://github.com/gonka-ai/gonka/blob/d5e30ca891209f25fd84e36ef439e1f54ec9090c/proposals/gonka-network-development-roadmap.md) (Track 11, Project 1). This includes hundreds of experiments with offers and landings for various types of target audiences segments and acquisition channels. SEO + GEO/AEO optimization.
+
+| Target Audience | Their Core Need | Comment |
+| :--- | :--- | :--- |
+| B2C inference users | cheap compute [long-term freedom] | Fast go-to-market. Partnerships with competitors to go faster |
+| B2B inference users & aggregators | cheap compute [long-term freedom, custom model training] | Long & expensive outreach → Long-term revenue |
+| Token Investors | upside (multiples) from holding GNK | Token buyers and mining investors are connected like communicating vessels |
+| GPU Hosts | Long-term GPU usage + upside (multiples) from holding GNK | Our core need is to scale the network quickly as inference usage grows; also ASICs |
+| Liquidity providers, LP funds | Passive yield | |
+| AI/ML Labs & Devs | Cheap model training or earn from model training for Gonka | Actual network usage and our long-term focus confirmation |
+| Local Entrepreneurs & Influencers | Earn from Gonka Distribution | We need long-term focus to achieve long-term growth, not a short burst |
+| Professional contributors or supporters | Earn from working on Gonka | Senior blockchain developers, white hackers, marketers |
+
+### Where are we going to send the traffic?
+
+- Token investors traffic → to pages with aggregation of ways to buy GNK and mining pools
+- Inference users traffic → to working pages
+  1. Random product chose
+  2. Aggregation of all existing brokers
+  3. Unifying broker, which sends the request to 3 random brokers (whose metrics are good enough) — and return the first relevant answer, also handles situation if the requested Gonka model was unavailable
+- Large B2B, GPU Hosts, and all other significant → to pages with documentation, community links and suggestion to book a call
+
+### II. Marketing analytics: who, from which channel, usage funnel. We will try to cover all services in the Gonka ecosystem, including: Inference Brokers, GNK exchange, Wallets, Mining pools, and other — all who interested in traffic.
+
+1. Unified analytics format — with traffic and GNK bonuses for those who'll support it
+2. Dashboards with clear metrics, including conversion funnels, segmented by channel, offer, performer, and other relevant filters.
+
+### III. B2B & B2C bisdev — consistent and transparent work with hypotheses of target audiences, channels, offers, and formats — all collected in one place and can be easily shared with external teams
+
+We are planning to work in separated streams trying to engage brokers owners, and other go-to-market focused entrepreneurs from the community and outside (already we've found over 10 people). The work will be organized in sprints, each sprint will have a budget that will be distributed between actors proportionally to their contribution and results.
+
+1. Which ideas do we have?
+2. What do we believe the most and why?
+3. What are the results of our tests? Key: acquisition cost & leads quality
+4. What are we going to scale? What should we focus on next?
+
+### IV. CRMs separately collecting B2Bs, AI-aggregators (openrouter competitors), AI-accelerators, communities for outreach, influencers — with communication details and clear statuses among them
+
+### V. Collect requirements and conduct other activities that support Gonka network development
+
+1. Inference development: helping with transparency, requirements and priorities
+2. Model training: identifying requirements and clients for the first model, we can easily train in parallel on unused GPUs in our network
+
+### VI. Competitors, how do they positioned for our target audiences, and what are they doing — research, separated by various types of target audiences
+
+1. Inference users competitors: OpenAI, Anthropic, OpenRouter, Together.ai, and other
+2. GPU-holders competitors: decentralized networks (bittensor, io.net, Aethir) and GPU clouds (Vast.ai, RunPod, TensorDock)
+3. Investors competitors: decentralized web-3 projects (like TAO), stocks, especially semiconductors, and other types of investments
+4. AI/ML Labs: decentralized or not networks and data centers
+
+### VII. Coordination between other performers (including external) and hosts, helping performers to understand our actual situation and requirements
+
+### VIII. Achieve ~2000 non-ru monthly paying users with average bill $200 / month
+
+- (1000-1500 instead of 2000 in the reduced version of the budget)
+- International focus on ~1000 paying for inference and ~1000 token investors
+- **Key Metrics:** people reached and research data collected, first successful cases we can tell in public, time to first valuable action, inference, developer activation and real network usage, community growth, market visibility, and network trust.
+- **Long-term focus: in 9-15 months** network should achieve **tens of thousands H100 equivalent** (openrouter-like size) with **at least 30% utilization** + stable growth of GNK token price.
+
+## Go-to-market actions
+
+| Action | Target Audience | Priority | 3-month Goal (reference) |
+| :--- | :--- | :--- | :--- |
+| Communities collaboration | B2C Inference users, Token Investors | High | 100+ communities coverage, 500-1000 paying per month |
+| Influencers collaboration | B2C Inference users | High | 500-1000 paying per month |
+| Blog & SEO & GEO | B2C Inference users, B2B Inference users, Token Investors, GPU Hosts | High | 5-7k monthly organic visitors, 100-200 paying per month |
+| B2B bisdev — Viktor + Hleb | B2B Inference users, AI/ML Labs & Devs, Token Investors, B2C Inference users | High | 100-500 clients engaged, 5-10 meaningful cases + requirements |
+| B2B focused on AI aggregator listing & inference competitors outreach — Viktor + Hleb | B2B Inference users, B2C Inference users | High | 100-500 clients engaged, 5-10 meaningful cases + requirements |
+| Crypto aggregator listing coordination — Arseny | Token Investors, Liquidity providers, LP funds | High | no exact KPI, need to be done ASAP |
+| Top inference users behaviour and requirements research — Viktor | B2B Inference users, B2C Inference users | High | acceleration for all activities |
+| Reddit presence — Arseny | B2C Inference users, B2B Inference users, GPU Hosts | High | 300-500 paying per month, 500k+ unique users impressions |
+| Social marketing on X — Arseny | B2C Inference users, Token Investors, GPU Hosts | Medium | 100-200 paying per month |
+| Product Hunt launch with "Cheap AI product" | B2C Inference users, Token Investors | Medium | 1-3 launches per 3 months |
+| Content creators campaign | B2C Inference users, B2B Inference users, GPU Hosts | Medium | 5-10 members ambassador team with KPI |
+| Paid Traffic Test | B2C Inference users | Medium | 100-200 paying per month |
+| KOLs round | Token Investors, B2C Inference users | Low | — |
+| AI startup accelerators & founders partnerships | B2B Inference users, B2C Inference users, Token Investors | Low | 5-10 partnerships |
+
+We'll start from analytics, accurate experiments and process setup — and then scale.
+
+1st month we will be focused on onboarding funnels, pSEO/GEO website and analytics setup, initial communities and influencers testing, strategy. Then acquisition channels and formats.
+
+Reporting:
+- Every two weeks awards distribution between participants depending their contribution and cumulative results + AMAs with us
+- Data on dashboards + what the creators of Gonka services see (somehow to encourage them to report)
+
+## The Team
+
+Top persons, responsible for the results — C-Level Executives, investing in Gonka since November 2025.
+
+- **Viktor Katsman** — details: [LinkedIn](https://www.linkedin.com/in/viktor-katsman/)
+  1. [PhD](https://www.spbstu.ru/science/the-department-of-doctoral-studies/defences-calendar/the-degree-of-candidate-of-sciences/katsman_viktor_igorevich/) in AI Technologies for Education; finished California Founder University program for early-stage startup founders
+  2. Have extensive experience both:
+     - as a product, analyst and AI developer in big corporations like Yandex
+     - as an early-stage startup founder, acting as CEO, CPO, CTO, CMO, and CBDO
+  3. Best achievement: led ML eComm to result as $34M in year revenue growth
+  - Created the first version of [go-to-market strategy in May](https://docs.google.com/spreadsheets/d/1jjVCJqyQvjKfc_tSB5Wy9Z5w7tGm4Eq3jXGJtlD1r9I/edit?gid=809249310#gid=809249310), and was responsible for the Marketing track in the applied [roadmap](https://github.com/gonka-ai/gonka/blob/d5e30ca891209f25fd84e36ef439e1f54ec9090c/proposals/gonka-network-development-roadmap.md), leads The Soul and other external performers.
+
+- **Arseny Myakotnikov** — details: [LinkedIn](https://www.linkedin.com/in/arseny-myakotnikov-5a4341177/)
+  1. 10+ years in marketing, 7+ in web3, in crypto since early 2017; currently CMO at venture studio dome.net, launching web3 and B2B SaaS products
+  2. Owned full-cycle marketing as CMO for dozens of fintech, web3 and AI products
+     2.1. building and executing GTM strategies across paid traffic, influence, PR, content marketing, SEO/GEO, community building, partnerships & co-marketing, token launches / TGE, funnel analytics and product marketing
+     2.2. founder experience: builds products 0 to 1 and drives early audience — launched own InfoFi product (2k MAU) and Jeet Trade, a Solana trading platform with $3M+ volume and 600+ users
+  3. Best achievement: attracting $300M+ AUM for a DeFi hedge-fund, scaling from ~1K to 15K+ active users
+
+- **Hleb Dapkiunas** — actively bisdevs startups, one of his posts with the requirements he found was mentioned as useful by Vadim Krutov, COO Bitfury — [link](https://t.me/c/4298804361/80). (To join the group "Gonka_Use Cases" to see the comment use [this invite](https://t.me/+3ZKaDbM7MJYwNGVk))
+
+Last 2 month we are actively participating in go-to-market activities. Top-3 samples:
+1. Viktor Katsman created the first version of [go-to-market strategy in May](https://docs.google.com/spreadsheets/d/1jjVCJqyQvjKfc_tSB5Wy9Z5w7tGm4Eq3jXGJtlD1r9I/edit?gid=809249310#gid=809249310), and was responsible for the Marketing track in the applied [roadmap](https://github.com/gonka-ai/gonka/blob/d5e30ca891209f25fd84e36ef439e1f54ec9090c/proposals/gonka-network-development-roadmap.md), leads The Soul and other external performers.
+2. Hleb Dapkiunas actively bisdevs startups, one of his posts with the requirements he found was mentioned as useful by Vadim Krutov, COO Bitfury.
+3. Viktor Katsman actively bisdevs startups and have already made the [meaningful case](https://medium.com/@pavelpetko/a-closer-look-gonka-models-are-now-available-in-integrity-an-ai-powered-project-workspace-b03478d19e96) — Integrity added Gonka models as "Powerful models at a fraction of the price" in Beta stage for all users.
+
+## Cost + Budget
+
+- 600K GNK (180K in day 0 + 130K GNK in day 30 + 130K GNK in day 60 + 160K GNK in day 90) — our bonus. The team size is 8-15 people, some tasks will be delegated for external agencies, ready for long-term partnership relations. Rewards are estimated based on market salary benchmarks and converted into GNK at the actual exchange rate at June 20.
+- This bonus shouldn't be downgraded if our work will be continued (by another proposal after 3 months). We should be motivated to increase GNK-price the long-term. If it grows, then our bonus grows. If it falls — our bonus falls.
+- 36K USDT (12K USDT / month) for bounties and external services expenses and operations. The cost breakdown will be transparent and open.
+
+### Monthly GNK Allocation
+
+| Direction | Budget per month | Were (in 280K GNK version) | Key executives |
+| :--- | ---: | ---: | :--- |
+| Analytics | 30K GNK | 30K GNK | Viktor |
+| pSEO + AEO | 30K GNK | 30K GNK | Arseny + Vlad |
+| B2B Focused on Significant Inference Sellers and Users + Investors involved | 50K GNK | 60K GNK | Viktor + Brokers (Hleb, ...) + Bisdevs (Dmitry, ...) |
+| B2C focused on Agents users, AI Startup founders and Indie Devs (including communities & influencers partnerships) | 40K GNK | 50K GNK | Viktor + Brokers (Alex, ...) + Yan |
+| Local Conferences (excluded from B2B + B2C for clarity) | 10K GNK | 0K GNK | Yan |
+| Reddit Posts + Subreddit | 20K GNK | 30K GNK | Arseny |
+| Communities Collaborations | 20K GNK | 30K GNK | Arseny |
+| Influencers Collaborations (left for The Soul except micro-influencer's experiments included in B2C) | 0K GNK | 30K GNK | Arseny |
+| Paid traffic activities (left for the future) | 0K GNK | 10K GNK | Viktor |
+| Product Hunt launches (left for the future) | 0K GNK | 10K GNK | Viktor |
+| **Total** | **200K GNK** | **280K GNK** | |
+
+This illustrates general focuses of our work. In the beginning, spends will be less, then higher. Budgets can be redistributed into more promising areas, which we will see as we go along. Our bonuses and additional bonuses for various people in the team and community members are distributed between these directions.
+
+### Monthly USDT Budget
+
+| Direction | Budget per month | Were | Key executives |
+| :--- | ---: | ---: | :--- |
+| Paid traffic small-cost experiments in Google Search for inference users (based on our competitors aka OpenRouter users data) | 0K USDT | 5K USDT | — |
+| Social Activities External Supporters | 3K USDT | 3K USDT | Arseny |
+| Influencers, Communities, Conferences Partnerships in B2B / B2C | 4K USDT | 10K USDT | Viktor |
+| AI and other tools, infrastructure, development, emails, linked-in, external agencies | 5K USDT | — | Viktor + Arseny |
+| **Total** | **12K USDT** | **18K USDT** | |
+
+USDT budget covers:
+1. Micro-influencer fees and portals working with them (typically paid around $15-30 per video + bonuses if successful or generates a lot of leads)
+2. Partnerships with target communities. Barter is preferred, but sometimes USD is required; partnerships may cost $50-$500. Includes Product Hunt launch + AI product listings.
+3. Referrals of useful people and clients.
+4. Development activities, infrastructure, AI and other tools.
+5. Conferences and business trips, where we can easily present Gonka.
+6. External agencies (uForce — experienced agency in AI-driven influencers research; rizzult.ai for influencers and B2B; adstail.com — vkatsman has direct connections with founders; fusionmedia.fund — their barter-driven offer).
+
+- Up to 150K USD — external teams and/or scaling of successful initiatives.
+
+**Actual cost = 600K GNK + 36K USDT**
+
+---
+
 ## #85 – Internal Go-To-Market Team for 3 Month
 
 # #85 – Internal Go-To-Market Team for 3 Month
@@ -51355,6 +51740,24 @@ The budget of 600K GNK and 36K USDT is held by an immutable escrow contract and 
  — as we need them to promise rewards. We will not sell them by ourselves at least during the 6-month period and we will organise vesting-like payments for the other contributors.
 
 Governance holds an option to cancel the initiative and returns all remaining funds to the Community Pool. We use contract described in  (that Sega used in )
+
+---
+
+## Final Tally
+
+  
+    
+    
+    
+    
+  
+  
+    Yes 0 (0.0%)
+    No 0 (0.0%)
+    Veto 13,437 (100.0%)
+    Abstain 0 (0.0%)
+    Total 13,437 votes
+  
 
 ---
 
@@ -51687,7 +52090,7 @@ inferenced query inference show-epoch-performance-summary-by-participant \
 
 # #81 – Kimi cPoC Restitution (epochs 306-309)
 
-Voting
+Rejected
 
 **Proposal ID:** `81`
 
@@ -51701,11 +52104,31 @@ Voting
 
 **Metadata:** [https://github.com/votkon/gonka-kimi-e306-issue](https://github.com/votkon/gonka-kimi-e306-issue)
 
+**Failed reason:** proposal did not get enough votes to pass
+
 175,082 GNK · Gov Module
 
 [View on gonka.gg](https://gonka.gg/network/proposals/81){:target="_blank"}
 
 Distribute restitution for Kimi operators affected by cPoC validation failure in epochs 306-309. The Kimi validation path failed starting in e306 causing confirmation_weight suppression for Kimi operators while non-Kimi operators ran normally. Failure worsened in e307 and carried into the e309 bootstrap attempt. Total: 175082.07 GONKA to 19 addresses, vested over 170 days (160 epochs).
+
+---
+
+## Final Tally
+
+  
+    
+    
+    
+    
+  
+  
+    Yes 235,728 (56.2%)
+    No 609 (0.1%)
+    Veto 183,094 (43.7%)
+    Abstain 18 (0.0%)
+    Total 419,449 votes
+  
 
 ---
 
