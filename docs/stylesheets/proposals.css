@@ -493,27 +493,39 @@
 .prop-full {
   margin-top: 20px;
   font-size: 14px;
-  border-top: 1px dashed var(--md-default-fg-color--lightest);
-  padding-top: 16px;
+  border: 1px solid var(--md-accent-fg-color);
+  border-radius: 8px;
+  padding: 0 16px 16px;
+  background: rgba(9, 105, 218, 0.06);
 }
 
 .prop-full summary {
   cursor: pointer;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--md-accent-fg-color);
   user-select: none;
   list-style: none;
   display: block;
-  font-size: 16px;
-  padding: 8px 0;
+  font-size: 15px;
+  padding: 12px 0;
+  letter-spacing: 0.01em;
 }
 
 .prop-full summary::-webkit-details-marker {
   display: none;
 }
 
+.prop-full[open] summary {
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  margin-bottom: 12px;
+}
+
 .prop-full > :not(summary) {
   margin-top: 0.75rem;
+}
+
+[data-md-color-scheme="slate"] .prop-full {
+  background: rgba(56, 139, 253, 0.08);
 }
 
 /* Horizontal rule above the Full Proposal heading */

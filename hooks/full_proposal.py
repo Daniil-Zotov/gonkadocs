@@ -81,15 +81,21 @@ def on_page_markdown(markdown: str, page=None, config=None, **kwargs):
 
     extra = _sanitize_header(extra)
 
-    append_block = (
+    full_block = (
         "\n\n"
         "---\n\n"
         "## Full Proposal\n\n"
         "<details class=\"prop-full\" markdown=\"1\">\n"
-        "<summary markdown=\"1\"><strong>Click to expand full proposal</strong></summary>\n\n"
+        "<summary markdown=\"1\"><strong>Full proposal</strong> — click to expand</summary>\n\n"
         f"{extra}\n"
         "\n"
         "</details>\n"
     )
 
-    return markdown + append_block
+    # Insert before Final Tally (or Messages if no tally) instead of appending
+    for anchor in ("## Final Tally", "## Messages"):
+        pos = markdown.find(anchor)
+        if pos != -1:
+            return markdown[:pos] + full_block + "\n\n" + markdown[pos:]
+
+    return markdown + full_block
