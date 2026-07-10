@@ -409,7 +409,15 @@ def fetch_proposals():
     print(f"Fetching {url}...")
     resp = requests.get(url, timeout=30)
     resp.raise_for_status()
-    data = resp.json()
+    if not resp.text.strip():
+        print("ERROR: empty response from RPC")
+        sys.exit(1)
+    try:
+        data = resp.json()
+    except requests.exceptions.JSONDecodeError:
+        print(f"ERROR: non-JSON response (status {resp.status_code}):")
+        print(resp.text[:500])
+        sys.exit(1)
     proposals = data.get("proposals", [])
     print(f"Got {len(proposals)} proposals")
     return proposals
