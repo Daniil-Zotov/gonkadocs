@@ -120,4 +120,44 @@ Last 2 month we are actively participating in go-to-market activities. Top-3 sam
 
 - 600K GNK (180K in day 0 + 130K GNK in day 30 + 130K GNK in day 60 + 160K GNK in day 90) — our bonus. The team size is 8-15 people, some tasks will be delegated for external agencies, ready for long-term partnership relations. Rewards are estimated based on market salary benchmarks and converted into GNK at the actual exchange rate at June 20.
 - This bonus shouldn't be downgraded if our work will be continued (by another proposal after 3 months). We should be motivated to increase GNK-price the long-term. If it grows, then our bonus grows. If it falls — our bonus falls.
-- 36K USDT for bounties and external services expenses and operations. The cost breakdown will be transparent and open.
+- 36K USDT (12K USDT / month) for bounties and external services expenses and operations. The cost breakdown will be transparent and open.
+
+### Monthly GNK Allocation
+
+| Direction | Budget per month | Were (in 280K GNK version) | Key executives |
+| :--- | ---: | ---: | :--- |
+| Analytics | 30K GNK | 30K GNK | Viktor |
+| pSEO + AEO | 30K GNK | 30K GNK | Arseny + Vlad |
+| B2B Focused on Significant Inference Sellers and Users + Investors involved | 50K GNK | 60K GNK | Viktor + Brokers (Hleb, ...) + Bisdevs (Dmitry, ...) |
+| B2C focused on Agents users, AI Startup founders and Indie Devs (including communities & influencers partnerships) | 40K GNK | 50K GNK | Viktor + Brokers (Alex, ...) + Yan |
+| Local Conferences (excluded from B2B + B2C for clarity) | 10K GNK | 0K GNK | Yan |
+| Reddit Posts + Subreddit | 20K GNK | 30K GNK | Arseny |
+| Communities Collaborations | 20K GNK | 30K GNK | Arseny |
+| Influencers Collaborations (left for The Soul except micro-influencer's experiments included in B2C) | 0K GNK | 30K GNK | Arseny |
+| Paid traffic activities (left for the future) | 0K GNK | 10K GNK | Viktor |
+| Product Hunt launches (left for the future) | 0K GNK | 10K GNK | Viktor |
+| **Total** | **200K GNK** | **280K GNK** | |
+
+This illustrates general focuses of our work. In the beginning, spends will be less, then higher. Budgets can be redistributed into more promising areas, which we will see as we go along. Our bonuses and additional bonuses for various people in the team and community members are distributed between these directions.
+
+### Monthly USDT Budget
+
+| Direction | Budget per month | Were | Key executives |
+| :--- | ---: | ---: | :--- |
+| Paid traffic small-cost experiments in Google Search for inference users (based on our competitors aka OpenRouter users data) | 0K USDT | 5K USDT | — |
+| Social Activities External Supporters | 3K USDT | 3K USDT | Arseny |
+| Influencers, Communities, Conferences Partnerships in B2B / B2C | 4K USDT | 10K USDT | Viktor |
+| AI and other tools, infrastructure, development, emails, linked-in, external agencies | 5K USDT | — | Viktor + Arseny |
+| **Total** | **12K USDT** | **18K USDT** | |
+
+USDT budget covers:
+1. Micro-influencer fees and portals working with them (typically paid around $15-30 per video + bonuses if successful or generates a lot of leads)
+2. Partnerships with target communities. Barter is preferred, but sometimes USD is required; partnerships may cost $50-$500. Includes Product Hunt launch + AI product listings.
+3. Referrals of useful people and clients.
+4. Development activities, infrastructure, AI and other tools.
+5. Conferences and business trips, where we can easily present Gonka.
+6. External agencies (uForce — experienced agency in AI-driven influencers research; rizzult.ai for influencers and B2B; adstail.com — vkatsman has direct connections with founders; fusionmedia.fund — their barter-driven offer).
+
+- Up to 150K USD — external teams and/or scaling of successful initiatives.
+
+**Actual cost = 600K GNK + 36K USDT**
