@@ -12,14 +12,44 @@ import json
 import os
 import re
 import sys
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 
 import requests
 
-RPC_BASE = "https://rpc.gonka.gg"
+RPC_ENDPOINTS = [
+    "https://rpc.gonka.gg",
+    "https://node3.gonka.ai/chain-api",
+    "http://node1.gonka.ai:8000/chain-api",
+]
 OUTPUT_DIR = Path(os.environ.get("OUTPUT_DIR", "docs/proposals/proposals"))
 MKDOCS_YML = Path(os.environ.get("MKDOCS_YML", "mkdocs.yml"))
+MAX_RETRIES = 3
+RETRY_DELAY = 5  # seconds
+
+
+def fetch_with_retry(url, timeout=30):
+    """Try fetching URL across all RPC endpoints with retries."""
+    last_error = None
+    for endpoint in RPC_ENDPOINTS:
+        full_url = url.replace("{BASE}", endpoint.rstrip("/"))
+        for attempt in range(1, MAX_RETRIES + 1):
+            try:
+                print(f"  [{endpoint}] attempt {attempt}/{MAX_RETRIES}...")
+                resp = requests.get(full_url, timeout=timeout)
+                resp.raise_for_status()
+                if not resp.text.strip():
+                    print("  empty response, will retry")
+                    raise ValueError("empty response")
+                return resp.json()
+            except Exception as e:
+                last_error = e
+                print(f"  failed: {e}")
+                if attempt < MAX_RETRIES:
+                    time.sleep(RETRY_DELAY * attempt)
+    print(f"ERROR: all endpoints exhausted, last error: {last_error}")
+    sys.exit(1)
 
 
 # ── helpers ────────────────────────────────────────────────────
@@ -405,19 +435,9 @@ def funding_parts_by_source(amt_by_source):
 # ── fetch proposals ────────────────────────────────────────────
 
 def fetch_proposals():
-    url = f"{RPC_BASE}/cosmos/gov/v1/proposals?pagination.limit=200"
-    print(f"Fetching {url}...")
-    resp = requests.get(url, timeout=30)
-    resp.raise_for_status()
-    if not resp.text.strip():
-        print("ERROR: empty response from RPC")
-        sys.exit(1)
-    try:
-        data = resp.json()
-    except requests.exceptions.JSONDecodeError:
-        print(f"ERROR: non-JSON response (status {resp.status_code}):")
-        print(resp.text[:500])
-        sys.exit(1)
+    url = "{BASE}/cosmos/gov/v1/proposals?pagination.limit=200"
+    print(f"Fetching proposals...")
+    data = fetch_with_retry(url)
     proposals = data.get("proposals", [])
     print(f"Got {len(proposals)} proposals")
     return proposals
@@ -1051,9 +1071,8 @@ def generate_rss_feed(sorted_quarters, proposals_by_quarter):
 def fetch_live_tally(proposal_id):
     """Fetch the live tally for a voting proposal (the list endpoint returns zeros)."""
     try:
-        resp = requests.get(f"{RPC_BASE}/cosmos/gov/v1/proposals/{proposal_id}/tally", timeout=10)
-        resp.raise_for_status()
-        return resp.json().get("tally", {})
+        data = fetch_with_retry(f"{{BASE}}/cosmos/gov/v1/proposals/{proposal_id}/tally", timeout=10)
+        return data.get("tally", {})
     except Exception as e:
         print(f"  Warning: could not fetch tally for #{proposal_id}: {e}")
         return {}
