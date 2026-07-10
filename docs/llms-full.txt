@@ -24098,7 +24098,7 @@ Models / IBC2
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-84 proposals across 5 quarters. Last updated: 2026-07-10 13:31 UTC
+84 proposals across 5 quarters. Last updated: 2026-07-10 17:26 UTC
 
 function initProposalsPage() {
   var checkboxes = document.querySelectorAll('.prop-oview-filter input[type=checkbox]');
