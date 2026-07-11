@@ -23250,7 +23250,6 @@ Models / IBC2
   
   Add Kimi K2.6 and GLM 5.2 model
   Yes 330,364 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 330,364 / 741,825 (44.5%) · Quorum 25% ✓
 
   
     #78 – Governance 17: update PoC model lineup
@@ -23262,7 +23261,6 @@ Models / IBC2
   
   Set delegation initial_model_id to MiniMaxAI/MiniMax-M2.7, keep only MiniMaxAI/MiniMax-M2.7 in PoC params, remove Qwen/Qwen3-235B-A22B-Instruct-2507-FP8, moonshotai/Kimi-K2.6 from PoC params, and dele…
   Yes 255,215 (97.1%) · No 170 (0.1%) · Veto 0 (0.0%) · Abstain 7,390 (2.8%)
-  Turnout 262,775 / 741,825 (35.4%) · Quorum 25% ✓
 
   
     #77 – Gonka PR Proposal for US/Global Regions
@@ -23274,7 +23272,6 @@ Models / IBC2
   
   We are INPUT Global - a leading web3 marketing communications agency. We offer 3 month PR campaign to establish trust and market legitimacy of Gonka across 2 audiences: global business and crypto-nati…
   Yes 152,042 (100.0%) · No 71 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)$75,000 · Community Pool
-  Turnout 152,113 / 741,825 (20.5%) · Quorum 25% ✗
 
   
     #76 – Governance 16: devshard v2 and bounty payouts
@@ -23286,7 +23283,6 @@ Models / IBC2
   
   Register devshard approved version v2.
   Yes 239,924 (100.0%) · No 17 (0.0%) · Veto 0 (0.0%) · Abstain 16 (0.0%)$93,600 · Community Pool
-  Turnout 239,957 / 741,825 (32.3%) · Quorum 25% ✓
 
   
     #75 – Private Inc × Gonka — Network Growth Initiative
@@ -23308,7 +23304,6 @@ Models / IBC2
   
   Full proposal: https://gonkalabs.com/proposal  This proposal funds the next six months of work for the Gonka ecosystem.  The focus is production-grade infrastructure and high-use products: Gonka.gg V2…
   Yes 305,163 (79.6%) · No 3,791 (1.0%) · Veto 15 (0.0%) · Abstain 74,304 (19.4%)$70,000 · Community Pool · 330,000 GNK · Gov Module
-  Turnout 383,273 / 741,825 (51.7%) · Quorum 25% ✓
 
   
     #73 – Increase minimum governance deposit to 500 GNK and expedited minimum deposit to 1000 GNK
@@ -23320,7 +23315,6 @@ Models / IBC2
   
   Increase the minimum deposit required to submit a governance proposal to 500 GNK (500,000,000,000 ngonka) and expedited minimum deposit to 1000 GNK (1,000,000,000,000 ngonka). This resubmits proposal …
   Yes 295,843 (96.3%) · No 40 (0.0%) · Veto 572 (0.2%) · Abstain 10,823 (3.5%)
-  Turnout 307,278 / 741,825 (41.4%) · Quorum 25% ✓
 
   
     #72 – Open devshard escrow creation to community wallet gonka1afj0tz53z56zngs425m83vxl5y2xmwm692hfrn
@@ -23332,7 +23326,6 @@ Models / IBC2
   
   Adds a community-operated wallet to devshard_escrow_params.allowed_creator_addresses, enabling it to create a devshard escrow and operate as an additional self-hosted inference gateway/transfer agent.…
   Yes 5,337 (2.2%) · No 7,953 (3.3%) · Veto 221,234 (90.7%) · Abstain 9,421 (3.9%)
-  Turnout 243,945 / 741,825 (32.9%) · Quorum 25% ✓
 
   
     #71 – Gonka PR Proposal for US/Global Regions
@@ -23344,7 +23337,6 @@ Models / IBC2
   
   We're a comms team specializing in Organic PR for crypto and tech projects. With strong competition in the space and no active events or marketing currently running for Gonka, we propose a 3-month Org…
   Yes 180,108 (99.8%) · No 72 (0.0%) · Veto 0 (0.0%) · Abstain 233 (0.1%)$75,000 · Community Pool
-  Turnout 180,413 / 741,825 (24.3%) · Quorum 25% ✗
 
   
     #70 – GNK Racers: Launch GameFi Mini-App to Drive User Growth & Wallet Activity
@@ -23356,7 +23348,6 @@ Models / IBC2
   
   Release 246,000 GNK from Community Fund to finalize GNK Racers — a multiplayer side-view racing mini-app with a live working prototype (@GNKRacers_bot). The game drives new user acquisition, wallet ac…
   Yes 38,621 (25.0%) · No 107,644 (69.6%) · Veto 6,241 (4.0%) · Abstain 2,245 (1.5%)246,000 GNK · Community Pool
-  Turnout 154,751 / 741,825 (20.9%) · Quorum 25% ✗
 
   
     #69 – Increase minimum governance deposit to 500 GNK
@@ -23368,7 +23359,6 @@ Models / IBC2
   
   Increase the minimum deposit required to submit a governance proposal from the current value to 500 GNK. Also sets expedited minimum deposit to 1000 GNK.
   Yes 199,799 (96.9%) · No 46 (0.0%) · Veto 4,202 (2.0%) · Abstain 2,210 (1.1%)
-  Turnout 206,257 / 741,825 (27.8%) · Quorum 25% ✓
 
   
     #68 – Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)
@@ -23380,7 +23370,6 @@ Models / IBC2
   
   The proposal is reopened for voting at the initiative of several hosts who did not participate in the previous round.  • There are no changes to the substance of the proposal; only timeline commitment…
   Yes 260,353 (96.4%) · No 749 (0.3%) · Veto 6,288 (2.3%) · Abstain 2,546 (0.9%)$70,000 · Community Pool
-  Turnout 269,936 / 741,825 (36.4%) · Quorum 25% ✓
 
   
     #67 – Kimi Restitution (epochs 265-276)
@@ -23392,7 +23381,6 @@ Models / IBC2
   
   Distribute restitution for Kimi operators across epochs 265-276. Epochs 265-266: external attack causing CPoC degradation and nonce exclusion. Epochs 267-276: ComputeGroupCap systematic underpayment d…
   Yes 319,920 (78.9%) · No 150 (0.0%) · Veto 84,623 (20.9%) · Abstain 744 (0.2%)946,509 GNK · Gov Module
-  Turnout 405,437 / 741,825 (54.7%) · Quorum 25% ✓
 
   
     #66 – test proposal - 测试方案
@@ -23414,7 +23402,6 @@ Models / IBC2
   
   Full 360-degree digital and social strategy for Gonka.AI: channel matrix, content plan, segment messaging, social strategy, and brand-voice guidelines. Single-tranche payment of 100,000 GNK to TheSoul…
   Yes 220,798 (67.9%) · No 0 (0.0%) · Veto 70,043 (21.5%) · Abstain 34,369 (10.6%)100,000 GNK · Community Pool
-  Turnout 325,210 / 741,825 (43.8%) · Quorum 25% ✓
 
   
     #64 – TheSoul - Offer 2.2: Analytics and attribution (28,000 GNK)
@@ -23426,7 +23413,6 @@ Models / IBC2
   
   Web analytics, attribution, and funnel dashboarding for Gonka.AI: GA4 implementation, UTM taxonomy, event tracking, and conversion reporting. Single-tranche payment of 28,000 GNK to TheSoul on proposa…
   Yes 220,798 (67.9%) · No 0 (0.0%) · Veto 70,043 (21.5%) · Abstain 34,369 (10.6%)28,000 GNK · Community Pool
-  Turnout 325,210 / 741,825 (43.8%) · Quorum 25% ✓
 
   
     #63 – TheSoul - Offer 2.1: Website and landings (10,000 USDT)
@@ -23438,7 +23424,6 @@ Models / IBC2
   
   Full redesign of gonka.ai plus dedicated landing pages for miners, inference buyers, and investors, built on the brandbook from Offer 1.2. Single-tranche payment of 10,000 USDT to TheSoul on proposal …
   Yes 220,798 (67.9%) · No 0 (0.0%) · Veto 70,043 (21.5%) · Abstain 34,369 (10.6%)$10,000 · Community Pool
-  Turnout 325,210 / 741,825 (43.8%) · Quorum 25% ✓
 
   
     #62 – TheSoul - Offer 1.3: Influencer pilot (50,000 USDT)
@@ -23450,7 +23435,6 @@ Models / IBC2
   
   Crypto-influencer pilot campaign for Gonka.AI across selected tier-1 creators, with a full performance report and scaling recommendations. Single-tranche payment of 50,000 USDT to TheSoul on proposal …
   Yes 220,798 (67.9%) · No 0 (0.0%) · Veto 70,043 (21.5%) · Abstain 34,369 (10.6%)$50,000 · Community Pool
-  Turnout 325,210 / 741,825 (43.8%) · Quorum 25% ✓
 
   
     #61 – TheSoul - Offer 1.2: Brandbook (20,000 USDT)
@@ -23462,7 +23446,6 @@ Models / IBC2
   
   Brand identity system for Gonka.AI: logo, typography, color system, graphic language, layout principles, and templates, built on the positioning from Offer 1.1. Single-tranche payment of 20,000 USDT t…
   Yes 220,798 (67.9%) · No 0 (0.0%) · Veto 70,043 (21.5%) · Abstain 34,369 (10.6%)$20,000 · Community Pool
-  Turnout 325,210 / 741,825 (43.8%) · Quorum 25% ✓
 
   
     #60 – TheSoul - Offer 1.1: Brand positioning (25,000 USDT)
@@ -23474,7 +23457,6 @@ Models / IBC2
   
   Brand audit, competitive positioning, and audience segmentation for Gonka.AI. Single-tranche payment of 25,000 USDT to TheSoul on proposal pass. Full offer document: see the metadata URL.
   Yes 220,798 (67.9%) · No 0 (0.0%) · Veto 70,043 (21.5%) · Abstain 34,369 (10.6%)$25,000 · Community Pool
-  Turnout 325,210 / 741,825 (43.8%) · Quorum 25% ✓
 
   
     #59 – Gonka Onboarding Video Guide — Milestone 1 (Prepayment)
@@ -23486,7 +23468,6 @@ Models / IBC2
   
   Funds milestone 1 (upfront prepayment) of a community-produced onboarding video guide for Gonka. Deliverable: a series of ~15 short, interactive, easy-to-follow videos covering A-to-Z onboarding for b…
   Yes 24,505 (43.6%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 31,699 (56.4%)$5,000 · Community Pool
-  Turnout 56,204 / 741,825 (7.6%) · Quorum 25% ✗
 
   
     #58 – Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)
@@ -23498,7 +23479,6 @@ Models / IBC2
   
   # Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)  70,000 USDT from the CommunityPool for a dedicated Falcon Finance deep-dive on Gonka AI. Full proposal: https://vote.gonka.vip/tenders…
   Yes 98,018 (53.4%) · No 0 (0.0%) · Veto 85,697 (46.6%) · Abstain 0 (0.0%)$70,000 · Community Pool
-  Turnout 183,715 / 741,825 (24.8%) · Quorum 25% ✗
 
   
     #57 – Approve the Gonka Network Development Roadmap
@@ -23510,7 +23490,6 @@ Models / IBC2
   
   This proposal approves the Gonka Network Development Roadmap as a strategic direction document for Gonka's future development tracks.  If approved, the roadmap should become the shared vision for Gonk…
   Yes 257,150 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 257,150 / 741,825 (34.7%) · Quorum 25% ✓
 
   
     #56 – INC4 | Gonka NOP - grant for the node deployment tool
@@ -23522,7 +23501,6 @@ Models / IBC2
   
   # Gonka NOP: grant for the node deployment tool  50,000 USDT from the CommunityPool to INC4 Full proposal: https://github.com/gonka-ai/gonka/discussions/1192  ## What it is  gonka-nop (Node Onboarding…
   Yes 31,851 (58.6%) · No 9,566 (17.6%) · Veto 12,961 (23.8%) · Abstain 0 (0.0%)$50,000 · Community Pool
-  Turnout 54,378 / 741,825 (7.3%) · Quorum 25% ✗
 
   
     #55 – GRC Proposal #2 - Restitution (epochs 248-254)
@@ -23534,7 +23512,6 @@ Models / IBC2
   
   Distribute restitution for Cases 2, 3, and 4 across epochs 248-254. Case 2: preserver weight double-scaling bug (epochs 249-253). Case 3: epoch loss restitution: broad epoch losses, consecutive failur…
   Yes 188,670 (61.2%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 119,835 (38.8%)39,722 GNK · Community Pool · 306,307 GNK · Gov Module
-  Turnout 308,505 / 741,825 (41.6%) · Quorum 25% ✓
 
   
     #54 – Upgrade Proposal: v0.2.13
@@ -23546,7 +23523,6 @@ Models / IBC2
   
   Upgrade Proposal: v0.2.13
   Yes 228,216 (62.8%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 135,071 (37.2%)
-  Turnout 363,287 / 741,825 (49.0%) · Quorum 25% ✓
 
   
     #53 – INC4 | Gonka NOP - grant for the node deployment tool
@@ -23558,7 +23534,6 @@ Models / IBC2
   
   # Gonka NOP: grant for the node deployment tool  50,000 USDT from the CommunityPool to INC4 Full proposal: https://github.com/gonka-ai/gonka/discussions/1192  ## What it is  gonka-nop (Node Onboarding…
   Yes 139,052 (46.8%) · No 0 (0.0%) · Veto 158,195 (53.2%) · Abstain 0 (0.0%)$50,000 · Community Pool
-  Turnout 297,247 / 741,825 (40.1%) · Quorum 25% ✓
 
   
     #52 – Upgrade Proposal: v0.2.13
@@ -23570,7 +23545,6 @@ Models / IBC2
   
   Upgrade Proposal: v0.2.13
   Yes 88,420 (34.1%) · No 0 (0.0%) · Veto 170,799 (65.9%) · Abstain 0 (0.0%)
-  Turnout 259,219 / 741,825 (34.9%) · Quorum 25% ✓
 
   
     #51 – Support Gonka's presence at WebX Asia
@@ -23582,7 +23556,6 @@ Models / IBC2
   
   6Block, a long-term Gonka mining and infrastructure participant, proposes that the Gonka community allocate 75,000 USDT to support Gonka's participation at WebX Asia / WebX 2026 in Tokyo. 6Block has a…
   Yes 395,003 (62.8%) · No 1,767 (0.3%) · Veto 64,217 (10.2%) · Abstain 168,275 (26.7%)$75,000 · Community Pool
-  Turnout 629,262 / 741,825 (84.8%) · Quorum 25% ✓
 
   
     #50 – Retroactive bounty: open-source PoC throughput optimization (+10–12% measured) with 250 total installations
@@ -23594,7 +23567,6 @@ Models / IBC2
   
   Retroactive 20K GNK bounty for an open-sourced PoC optimization measuring +10.2% on B200 and +12.5% on H100 with Qwen3-235B-FP8. One-line patch, verified on-chain by independent miners. Details: https…
   Yes 281,723 (59.1%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 194,589 (40.9%)20,000 GNK · Community Pool
-  Turnout 476,312 / 741,825 (64.2%) · Quorum 25% ✓
 
   
     #49 – Gonka Media Dominance in TechL/AI with 5 AI Influencers
@@ -23606,7 +23578,6 @@ Models / IBC2
   
   We're ICG - AI Influencer Lab, a team that builds and scales hyper-realistic AI avatars on Instagram, TikTok, and YouTube as full ambassadors across verticals. We manage 160+ accounts in AI, finance, …
   Yes 496,683 (71.1%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 201,560 (28.9%)$45,000 · Community Pool
-  Turnout 698,243 / 741,825 (94.1%) · Quorum 25% ✓
 
   
     #48 – Lower Direct Participation Threshold to 10%
@@ -23618,7 +23589,6 @@ Models / IBC2
   
   During the Kimi-K2.6 bootstrap, the 30% direct participation threshold proved hard to meet. To avoid the risk of Kimi-K2.6 becoming ineligible in a future epoch and to simplify onboarding of further m…
   Yes 808,529 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 808,529 / 741,825 (109.0%) · Quorum 25% ✓
 
   
     #47 – Retroactive bounty: open-source PoC throughput optimization (+10–12% measured) with 250 total installations
@@ -23630,7 +23600,6 @@ Models / IBC2
   
   Retroactive 20K GNK bounty for an open-sourced PoC optimization measuring +10.2% on B200 and +12.5% on H100 with Qwen3-235B-FP8. One-line patch, verified on-chain by independent miners. Details: https…
   Yes 70,819 (33.6%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 139,828 (66.4%)20,000 GNK · Community Pool
-  Turnout 210,647 / 741,825 (28.4%) · Quorum 25% ✓
 
   
     #46 – Epochs 132-247 compensation payout from gov module (batch vesting)
@@ -23642,7 +23611,6 @@ Models / IBC2
   
   Two prior upgrades changed the lifecycle of unpaid miner rewards. v0.2.9 (proposal #26, 2026-02-01): when a participant is penalized during cPoC validation, the unaccounted portion of their epoch rewa…
   Yes 97,030 (36.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 172,837 (64.0%)3,053,800 GNK · Gov Module
-  Turnout 269,867 / 741,825 (36.4%) · Quorum 25% ✓
 
   
     #45 – Governance Architecture Proposal for the Gonka.ai Network
@@ -23654,7 +23622,6 @@ Models / IBC2
   
   Replace scattered governance discussions and complex CLI voting with a unified Governance Portal - a single interface for all Gonka governance activity. The portal includes: a proposal feed across Dis…
   Yes 118,126 (25.6%) · No 0 (0.0%) · Veto 210,906 (45.6%) · Abstain 133,057 (28.8%)119,000 GNK · Community Pool
-  Turnout 462,089 / 741,825 (62.3%) · Quorum 25% ✓
 
   
     #44 – Upgrade Proposal: v0.2.12
@@ -23666,7 +23633,6 @@ Models / IBC2
   
   Upgrade Proposal: v0.2.12
   Yes 506,142 (99.6%) · No 2,057 (0.4%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 508,199 / 741,825 (68.5%) · Quorum 25% ✓
 
   
     #43 – Governance Architecture Proposal for the Gonka.ai Network
@@ -23678,7 +23644,6 @@ Models / IBC2
   
   Today, participating in Gonka governance requires following multiple channels simultaneously — GitHub, Discord, CLI — just to cast a single vote. Most miners miss proposals entirely or vote too late. …
   Yes 123,104 (26.5%) · No 335,534 (72.2%) · Veto 5,913 (1.3%) · Abstain 0 (0.0%)104,166 GNK · Community Pool
-  Turnout 464,551 / 741,825 (62.6%) · Quorum 25% ✓
 
   
     #42 – Support Gonka at Global Compute Sovereignty Summit
@@ -23690,7 +23655,6 @@ Models / IBC2
   
   We are DeAI Nation, a global nonprofit organization supporting and promoting the decentralized AI ecosystem, and authors of the State of DeAI 2026 report. We propose that the Gonka community become a …
   Yes 375,771 (68.6%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 172,050 (31.4%)$10,000 · Community Pool
-  Turnout 547,821 / 741,825 (73.8%) · Quorum 25% ✓
 
   
     #41 – INC4 | Gonka Node Observability Platform
@@ -23702,7 +23666,6 @@ Models / IBC2
   
   Today's explorers and dashboards only show on-chain data, leaving the off-chain state of validators completely opaque. The few operators who do run their own monitoring use different tools, different …
   Yes 17,955 (57.1%) · No 13,494 (42.9%) · Veto 0 (0.0%) · Abstain 0 (0.0%)$96,000 · Community Pool
-  Turnout 31,449 / 741,825 (4.2%) · Quorum 25% ✗
 
   
     #40 – Governance: extend voting period to 48 hours
@@ -23714,7 +23677,6 @@ Models / IBC2
   
   This proposal updates x/gov: the standard voting period becomes 48 hours (was 24), and the expedited voting period becomes 12 hours (was 3). All other governance parameters remain at their current on-…
   Yes 377,158 (57.7%) · No 0 (0.0%) · Veto 12,030 (1.8%) · Abstain 264,790 (40.5%)
-  Turnout 653,978 / 741,825 (88.2%) · Quorum 25% ✓
 
   
     #39 – Community Series Film — Why Gonka Exists
@@ -23726,7 +23688,6 @@ Models / IBC2
   
   Saccade Media House is a creative team of tech entrepreneurs who know how to tell stories. We've built content for international tech brands and the founders behind them. We propose a Community Series…
   Yes 394,971 (76.0%) · No 183 (0.0%) · Veto 0 (0.0%) · Abstain 124,587 (24.0%)31,250 GNK · Community Pool
-  Turnout 519,741 / 741,825 (70.1%) · Quorum 25% ✓
 
   
     #38 – CryptoCommons: Community Support & Token Promotion Plan
@@ -23738,7 +23699,6 @@ Models / IBC2
   
   If you agree say YES — Solution 1: Produce a short review video with 1-2 active community members. Solution 2: Introduce the project to BD managers of major CIS exchanges for listings. Solution 3 (Reg…
   Yes 0 (0.0%) · No 183 (2.3%) · Veto 7,893 (97.7%) · Abstain 0 (0.0%)20,000 GNK · Community Pool · 25,000 GNK · Gov Module
-  Turnout 8,076 / 741,825 (1.1%) · Quorum 25% ✗
 
   
     #37 – What is your stance on MLM projects around gonka.ai?
@@ -23750,7 +23710,6 @@ Models / IBC2
   
   If you are against MLM projects around gonka.ai, vote YES. All funds will be used to counter such projects. The amount is symbolic.
   Yes 957 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)1 GNK · Community Pool
-  Turnout 957 / 741,825 (0.1%) · Quorum 25% ✗
 
   
     #36 – Register Kava USDT IBC metadata and approve for trading
@@ -23762,7 +23721,6 @@ Models / IBC2
   
   Register IBC token metadata and approve the denomination for trading on Gonka mainnet.
   Yes 421,414 (99.6%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 1,788 (0.4%)
-  Turnout 423,202 / 741,825 (57.0%) · Quorum 25% ✓
 
 ## 2026-Q1
 
@@ -23778,7 +23736,6 @@ Models / IBC2
   
   This proposal seeks community approval for a global media initiative to build awareness of decentralized AI and position Gonka as core AI infrastructure.  Key elements: Led by TheSoul Group (full-cycl…
   Yes 9,150 (25.5%) · No 10,325 (28.8%) · Veto 2,450 (6.8%) · Abstain 13,939 (38.9%)970,000 GNK · Community Pool
-  Turnout 35,864 / 741,825 (4.8%) · Quorum 25% ✗
 
   
     #34 – gonka.ai / TheSoul social media awareness project
@@ -23800,7 +23757,6 @@ Models / IBC2
   
   Distribute compensation for CPoC bug affected participants in epochs 132-133.
   Yes 184,243 (41.8%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 256,296 (58.2%)3,100 GNK · Community Pool · 24,806 GNK · Gov Module
-  Turnout 440,539 / 741,825 (59.4%) · Quorum 25% ✓
 
   
     #32 – Epoch 158 compensation payout from gov module (batch vesting)
@@ -23812,7 +23768,6 @@ Models / IBC2
   
   Distribute compensation proportional to epoch 158 lost preserved weights. Implemented as one MsgBatchTransferWithVesting.
   Yes 501,114 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)500 GNK · Community Pool · 30,038 GNK · Gov Module
-  Turnout 501,114 / 741,825 (67.6%) · Quorum 25% ✓
 
   
     #31 – Upgrade Proposal: v0.2.11
@@ -23824,7 +23779,6 @@ Models / IBC2
   
   Upgrade Proposal: v0.2.11
   Yes 673,699 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 673,699 / 741,825 (90.8%) · Quorum 25% ✓
 
   
     #30 – Test Proposal
@@ -23836,7 +23790,6 @@ Models / IBC2
   
   Testing governance voting from the wallet app.
   Yes 0 (0.0%) · No 47 (100.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 47 / 741,825 (0.0%) · Quorum 25% ✗
 
   
     #29 – Network Parameters Update: Disable TA Allowlist, Increase Prices 100x
@@ -23848,7 +23801,6 @@ Models / IBC2
   
   Remove TransferAgent allowlist restrictions (empty list = all TAs allowed) and increase per-token pricing 100x (min 100, base 10000 ngonka) to reduce spam.
   Yes 7,314 (2.9%) · No 0 (0.0%) · Veto 243,060 (97.1%) · Abstain 0 (0.0%)
-  Turnout 250,374 / 741,825 (33.8%) · Quorum 25% ✓
 
   
     #28 – Collateral Parameters Update
@@ -23860,7 +23812,6 @@ Models / IBC2
   
   0.032 GNK per 1 unit of power, 0.01% slashing for miss rate or jail, 0.5% slashing for invalid inference
   Yes 314,460 (96.5%) · No 11,504 (3.5%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 325,964 / 741,825 (43.9%) · Quorum 25% ✓
 
   
     #27 – Upgrade Proposal: v0.2.10
@@ -23872,7 +23823,6 @@ Models / IBC2
   
   Upgrade Proposal: v0.2.10
   Yes 1,540,653 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 1,540,653 / 741,825 (207.7%) · Quorum 25% ✓
 
   
     #26 – Upgrade Proposal: v0.2.9
@@ -23884,7 +23834,6 @@ Models / IBC2
   
   Upgrade Proposal: v0.2.9
   Yes 2,708,406 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 2,708,406 / 741,825 (365.1%) · Quorum 25% ✓
 
   
     #25 – Upgrade Proposal: v0.2.8
@@ -23896,7 +23845,6 @@ Models / IBC2
   
   Upgrade Proposal: v0.2.8
   Yes 4,153,562 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 4,153,562 / 741,825 (559.9%) · Quorum 25% ✓
 
   
     #24 – Upgrade Proposal: v0.2.8
@@ -23918,7 +23866,6 @@ Models / IBC2
   
   Update Expiration Dates for Developer Access and Participant Allowlist
   Yes 3,476,742 (99.9%) · No 2,836 (0.1%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 3,479,578 / 741,825 (469.1%) · Quorum 25% ✓
 
   
     #21 – Fix mistakes in allowlist
@@ -23930,7 +23877,6 @@ Models / IBC2
   
   https://github.com/product-science/filter/tree/0354c37eb6c827f00c1e889a2b7de9952a9b84ba
   Yes 3,020,391 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 3,020,391 / 741,825 (407.2%) · Quorum 25% ✓
 
   
     #20 – Enable Whitelist
@@ -23942,7 +23888,6 @@ Models / IBC2
   
   https://github.com/product-science/filter/tree/ae59d27f04a70039bcfca94ae656e723982150cd
   Yes 2,111,775 (90.1%) · No 90,320 (3.9%) · Veto 140,607 (6.0%) · Abstain 0 (0.0%)
-  Turnout 2,342,702 / 741,825 (315.8%) · Quorum 25% ✓
 
   
     #19 – Upgrade Proposal: v0.2.7
@@ -23954,7 +23899,6 @@ Models / IBC2
   
   Upgrade Proposal: v0.2.7
   Yes 3,886,156 (96.1%) · No 148,604 (3.7%) · Veto 8,096 (0.2%) · Abstain 0 (0.0%)
-  Turnout 4,042,856 / 741,825 (545.0%) · Quorum 25% ✓
 
   
     #18 – Test
@@ -23966,7 +23910,6 @@ Models / IBC2
   
   Test proposal
   Yes 4,237 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 4,237 / 741,825 (0.6%) · Quorum 25% ✗
 
 ## 2025-Q4
 
@@ -23982,7 +23925,6 @@ Models / IBC2
   
   Expected amount of Confirmation PoC per epoch to 4, p0 for binomial test to 0.1
   Yes 3,261,413 (100.0%) · No 85 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 3,261,498 / 741,825 (439.7%) · Quorum 25% ✓
 
   
     #16 – Upgrade Proposal: v0.2.6
@@ -23994,7 +23936,6 @@ Models / IBC2
   
   Upgrade Proposal: v0.2.6
   Yes 1,985,917 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 1,985,917 / 741,825 (267.7%) · Quorum 25% ✓
 
   
     #15 – Upgrade Proposal: v0.2.6
@@ -24006,7 +23947,6 @@ Models / IBC2
   
   Upgrade Proposal: v0.2.6
   Yes 1,034,445 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 1,034,445 / 741,825 (139.4%) · Quorum 25% ✓
 
   
     #14 – Sale GNK from Community Fund
@@ -24018,7 +23958,6 @@ Models / IBC2
   
   Sale GNK from Community Fund
   Yes 1,180,961 (98.8%) · No 9,781 (0.8%) · Veto 4,577 (0.4%) · Abstain 0 (0.0%)20,000,000 GNK · Community Pool
-  Turnout 1,195,319 / 741,825 (161.1%) · Quorum 25% ✓
 
   
     #13 – Upgrade Proposal: v0.2.5
@@ -24030,7 +23969,6 @@ Models / IBC2
   
   Upgrade Proposal: v0.2.5
   Yes 428,459 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 428,459 / 741,825 (57.8%) · Quorum 25% ✓
 
   
     #12 – Bandwidth Limits
@@ -24042,7 +23980,6 @@ Models / IBC2
   
   Bandwidth Limits
   Yes 257,565 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 257,565 / 741,825 (34.7%) · Quorum 25% ✓
 
   
     #11 – Bandwidth Limits
@@ -24054,7 +23991,6 @@ Models / IBC2
   
   Bandwidth Limits
   Yes 349,596 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 349,596 / 741,825 (47.1%) · Quorum 25% ✓
 
   
     #10 – Bandwidth Limits
@@ -24066,7 +24002,6 @@ Models / IBC2
   
   Bandwidth Limits
   Yes 287,496 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 287,496 / 741,825 (38.8%) · Quorum 25% ✓
 
   
     #9 – Higher Bandwidth Limits & Voting Time Back to 24H
@@ -24078,7 +24013,6 @@ Models / IBC2
   
   Higher Bandwidth Limits & Voting Time Back to 24H
   Yes 394,887 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 394,887 / 741,825 (53.2%) · Quorum 25% ✓
 
   
     #8 – Upgrade Proposal: v0.2.4
@@ -24090,7 +24024,6 @@ Models / IBC2
   
   Upgrade Proposal: v0.2.4
   Yes 286,826 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 286,826 / 741,825 (38.7%) · Quorum 25% ✓
 
   
     #7 – Upgrade Proposal: v0.2.3
@@ -24102,7 +24035,6 @@ Models / IBC2
   
   Upgrade Proposal: v0.2.3
   Yes 132,672 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 132,672 / 741,825 (17.9%) · Quorum 25% ✗
 
 ## 2025-Q3
 
@@ -24118,7 +24050,6 @@ Models / IBC2
   
   Upgrade Proposal: v0.2.2
   Yes 130,079 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 130,079 / 741,825 (17.5%) · Quorum 25% ✗
 
   
     #5 – Expedite voting for upgrades
@@ -24130,7 +24061,6 @@ Models / IBC2
   
   Expedite voting for upgrades
   Yes 172,265 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 172,265 / 741,825 (23.2%) · Quorum 25% ✗
 
   
     #4 – Upgrade Proposal: v0.2.2
@@ -24142,7 +24072,6 @@ Models / IBC2
   
   Upgrade Proposal: v0.2.2
   Yes 109 (0.1%) · No 0 (0.0%) · Veto 109,637 (99.9%) · Abstain 0 (0.0%)
-  Turnout 109,746 / 741,825 (14.8%) · Quorum 25% ✗
 
   
     #3 – Increase PoC Validation Length
@@ -24154,7 +24083,6 @@ Models / IBC2
   
   Proposal updates poc_validation_duration from 20 to 100.
   Yes 162,514 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 162,514 / 741,825 (21.9%) · Quorum 25% ✗
 
   
     #2 – Proposal introducing new Qwen3 models
@@ -24166,7 +24094,6 @@ Models / IBC2
   
   This proposal introduces new Qwen3 models including Qwen3-32B-FP8 and Qwen3-235B-A22B-Instruct-2507-FP8, along with updating parameters for Qwen2.5-7B-Instruct and QwQ-32B.
   Yes 62,612 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 62,612 / 741,825 (8.4%) · Quorum 25% ✗
 
   
     #1 – Correct Epoch Length
@@ -24178,9 +24105,8 @@ Models / IBC2
   
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 74,474 / 741,825 (10.0%) · Quorum 25% ✗
 
-84 proposals across 5 quarters. Last updated: 2026-07-11 08:19 UTC
+84 proposals across 5 quarters. Last updated: 2026-07-11 08:32 UTC
 
 function initProposalsPage() {
   var checkboxes = document.querySelectorAll('.prop-oview-filter input[type=checkbox]');
@@ -24274,7 +24200,6 @@ Other2
   
   This proposal seeks community approval for a global media initiative to build awareness of decentralized AI and position Gonka as core AI infrastructure.  Key elements: Led by TheSoul Group (full-cycl…
   Yes 9,150 (25.5%) · No 10,325 (28.8%) · Veto 2,450 (6.8%) · Abstain 13,939 (38.9%)970,000 GNK · Community Pool
-  Turnout 35,864 / 741,825 (4.8%) · Quorum 25% ✗
 
   
     #34 – gonka.ai / TheSoul social media awareness project
@@ -24296,7 +24221,6 @@ Other2
   
   Distribute compensation for CPoC bug affected participants in epochs 132-133.
   Yes 184,243 (41.8%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 256,296 (58.2%)3,100 GNK · Community Pool · 24,806 GNK · Gov Module
-  Turnout 440,539 / 741,825 (59.4%) · Quorum 25% ✓
 
   
     #32 – Epoch 158 compensation payout from gov module (batch vesting)
@@ -24308,7 +24232,6 @@ Other2
   
   Distribute compensation proportional to epoch 158 lost preserved weights. Implemented as one MsgBatchTransferWithVesting.
   Yes 501,114 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)500 GNK · Community Pool · 30,038 GNK · Gov Module
-  Turnout 501,114 / 741,825 (67.6%) · Quorum 25% ✓
 
   
     #31 – Upgrade Proposal: v0.2.11
@@ -24320,7 +24243,6 @@ Other2
   
   Upgrade Proposal: v0.2.11
   Yes 673,699 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 673,699 / 741,825 (90.8%) · Quorum 25% ✓
 
   
     #30 – Test Proposal
@@ -24332,7 +24254,6 @@ Other2
   
   Testing governance voting from the wallet app.
   Yes 0 (0.0%) · No 47 (100.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 47 / 741,825 (0.0%) · Quorum 25% ✗
 
   
     #29 – Network Parameters Update: Disable TA Allowlist, Increase Prices 100x
@@ -24344,7 +24265,6 @@ Other2
   
   Remove TransferAgent allowlist restrictions (empty list = all TAs allowed) and increase per-token pricing 100x (min 100, base 10000 ngonka) to reduce spam.
   Yes 7,314 (2.9%) · No 0 (0.0%) · Veto 243,060 (97.1%) · Abstain 0 (0.0%)
-  Turnout 250,374 / 741,825 (33.8%) · Quorum 25% ✓
 
   
     #28 – Collateral Parameters Update
@@ -24356,7 +24276,6 @@ Other2
   
   0.032 GNK per 1 unit of power, 0.01% slashing for miss rate or jail, 0.5% slashing for invalid inference
   Yes 314,460 (96.5%) · No 11,504 (3.5%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 325,964 / 741,825 (43.9%) · Quorum 25% ✓
 
   
     #27 – Upgrade Proposal: v0.2.10
@@ -24368,7 +24287,6 @@ Other2
   
   Upgrade Proposal: v0.2.10
   Yes 1,540,653 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 1,540,653 / 741,825 (207.7%) · Quorum 25% ✓
 
   
     #26 – Upgrade Proposal: v0.2.9
@@ -24380,7 +24298,6 @@ Other2
   
   Upgrade Proposal: v0.2.9
   Yes 2,708,406 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 2,708,406 / 741,825 (365.1%) · Quorum 25% ✓
 
   
     #25 – Upgrade Proposal: v0.2.8
@@ -24392,7 +24309,6 @@ Other2
   
   Upgrade Proposal: v0.2.8
   Yes 4,153,562 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 4,153,562 / 741,825 (559.9%) · Quorum 25% ✓
 
   
     #24 – Upgrade Proposal: v0.2.8
@@ -24414,7 +24330,6 @@ Other2
   
   Update Expiration Dates for Developer Access and Participant Allowlist
   Yes 3,476,742 (99.9%) · No 2,836 (0.1%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 3,479,578 / 741,825 (469.1%) · Quorum 25% ✓
 
   
     #21 – Fix mistakes in allowlist
@@ -24426,7 +24341,6 @@ Other2
   
   https://github.com/product-science/filter/tree/0354c37eb6c827f00c1e889a2b7de9952a9b84ba
   Yes 3,020,391 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 3,020,391 / 741,825 (407.2%) · Quorum 25% ✓
 
   
     #20 – Enable Whitelist
@@ -24438,7 +24352,6 @@ Other2
   
   https://github.com/product-science/filter/tree/ae59d27f04a70039bcfca94ae656e723982150cd
   Yes 2,111,775 (90.1%) · No 90,320 (3.9%) · Veto 140,607 (6.0%) · Abstain 0 (0.0%)
-  Turnout 2,342,702 / 741,825 (315.8%) · Quorum 25% ✓
 
   
     #19 – Upgrade Proposal: v0.2.7
@@ -24450,7 +24363,6 @@ Other2
   
   Upgrade Proposal: v0.2.7
   Yes 3,886,156 (96.1%) · No 148,604 (3.7%) · Veto 8,096 (0.2%) · Abstain 0 (0.0%)
-  Turnout 4,042,856 / 741,825 (545.0%) · Quorum 25% ✓
 
   
     #18 – Test
@@ -24462,7 +24374,6 @@ Other2
   
   Test proposal
   Yes 4,237 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 4,237 / 741,825 (0.6%) · Quorum 25% ✗
 
 ← Back to all proposals
 
@@ -24554,12 +24465,6 @@ Distribute compensation proportional to epoch 158 lost preserved weights. Implem
     Abstain 0 (0.0%)
     Total 501,114 votes
   
-
-  Turnout
-  501,114 / 741,825 (67.6%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
 
 ---
 
@@ -25890,12 +25795,6 @@ Full presentation:
     Total 35,864 votes
   
 
-  Turnout
-  35,864 / 741,825 (4.8%)
-  Quorum
-  25% (185,456 votes)
-  ✗ NOT MET
-
 ---
 
 ## Messages
@@ -26037,12 +25936,6 @@ Distribute compensation for CPoC bug affected participants in epochs 132-133.
     Abstain 256,296 (58.2%)
     Total 440,539 votes
   
-
-  Turnout
-  440,539 / 741,825 (59.4%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
 
 ---
 
@@ -26576,12 +26469,6 @@ Passed
     Abstain 0 (0.0%)
     Total 2,342,702 votes
   
-
-  Turnout
-  2,342,702 / 741,825 (315.8%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
 
 ---
 
@@ -28735,12 +28622,6 @@ Test proposal
     Total 4,237 votes
   
 
-  Turnout
-  4,237 / 741,825 (0.6%)
-  Quorum
-  25% (185,456 votes)
-  ✗ NOT MET
-
 ---
 
 ## Messages
@@ -28797,12 +28678,6 @@ Upgrade Proposal: v0.2.10
     Abstain 0 (0.0%)
     Total 1,540,653 votes
   
-
-  Turnout
-  1,540,653 / 741,825 (207.7%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
 
 ---
 
@@ -28875,12 +28750,6 @@ Remove TransferAgent allowlist restrictions (empty list = all TAs allowed) and i
     Abstain 0 (0.0%)
     Total 250,374 votes
   
-
-  Turnout
-  250,374 / 741,825 (33.8%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
 
 ---
 
@@ -29249,12 +29118,6 @@ Rejected
     Abstain 0 (0.0%)
     Total 325,964 votes
   
-
-  Turnout
-  325,964 / 741,825 (43.9%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
 
 ---
 
@@ -29632,12 +29495,6 @@ Upgrade Proposal: v0.2.7
     Total 4,042,856 votes
   
 
-  Turnout
-  4,042,856 / 741,825 (545.0%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
-
 ---
 
 ## Messages
@@ -29708,12 +29565,6 @@ Upgrade Proposal: v0.2.9
     Total 2,708,406 votes
   
 
-  Turnout
-  2,708,406 / 741,825 (365.1%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
-
 ---
 
 ## Messages
@@ -29779,12 +29630,6 @@ Passed
     Abstain 0 (0.0%)
     Total 3,020,391 votes
   
-
-  Turnout
-  3,020,391 / 741,825 (407.2%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
 
 ---
 
@@ -30165,12 +30010,6 @@ Upgrade Proposal: v0.2.11
     Total 673,699 votes
   
 
-  Turnout
-  673,699 / 741,825 (90.8%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
-
 ---
 
 ## Messages
@@ -30243,12 +30082,6 @@ Testing governance voting from the wallet app.
     Total 47 votes
   
 
-  Turnout
-  47 / 741,825 (0.0%)
-  Quorum
-  25% (185,456 votes)
-  ✗ NOT MET
-
 ---
 
 ## Messages
@@ -30307,12 +30140,6 @@ Upgrade Proposal: v0.2.8
     Abstain 0 (0.0%)
     Total 3,775,640 votes
   
-
-  Turnout
-  3,775,640 / 741,825 (509.0%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
 
 ---
 
@@ -30381,12 +30208,6 @@ Update Expiration Dates for Developer Access and Participant Allowlist
     Abstain 0 (0.0%)
     Total 3,479,578 votes
   
-
-  Turnout
-  3,479,578 / 741,825 (469.1%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
 
 ---
 
@@ -30741,12 +30562,6 @@ Upgrade Proposal: v0.2.8
     Total 4,153,562 votes
   
 
-  Turnout
-  4,153,562 / 741,825 (559.9%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
-
 ---
 
 ## Messages
@@ -30816,7 +30631,6 @@ Models / IBC1
   
   Upgrade Proposal: v0.2.2
   Yes 130,079 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 130,079 / 741,825 (17.5%) · Quorum 25% ✗
 
   
     #5 – Expedite voting for upgrades
@@ -30828,7 +30642,6 @@ Models / IBC1
   
   Expedite voting for upgrades
   Yes 172,265 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 172,265 / 741,825 (23.2%) · Quorum 25% ✗
 
   
     #4 – Upgrade Proposal: v0.2.2
@@ -30840,7 +30653,6 @@ Models / IBC1
   
   Upgrade Proposal: v0.2.2
   Yes 109 (0.1%) · No 0 (0.0%) · Veto 109,637 (99.9%) · Abstain 0 (0.0%)
-  Turnout 109,746 / 741,825 (14.8%) · Quorum 25% ✗
 
   
     #3 – Increase PoC Validation Length
@@ -30852,7 +30664,6 @@ Models / IBC1
   
   Proposal updates poc_validation_duration from 20 to 100.
   Yes 162,514 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 162,514 / 741,825 (21.9%) · Quorum 25% ✗
 
   
     #2 – Proposal introducing new Qwen3 models
@@ -30864,7 +30675,6 @@ Models / IBC1
   
   This proposal introduces new Qwen3 models including Qwen3-32B-FP8 and Qwen3-235B-A22B-Instruct-2507-FP8, along with updating parameters for Qwen2.5-7B-Instruct and QwQ-32B.
   Yes 62,612 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 62,612 / 741,825 (8.4%) · Quorum 25% ✗
 
   
     #1 – Correct Epoch Length
@@ -30876,7 +30686,6 @@ Models / IBC1
   
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 74,474 / 741,825 (10.0%) · Quorum 25% ✗
 
 ← Back to all proposals
 
@@ -30967,12 +30776,6 @@ Upgrade Proposal: v0.2.2
     Total 130,079 votes
   
 
-  Turnout
-  130,079 / 741,825 (17.5%)
-  Quorum
-  25% (185,456 votes)
-  ✗ NOT MET
-
 ---
 
 ## Messages
@@ -31042,12 +30845,6 @@ Proposal updates epoch_length and restrictions length according to real block le
     Abstain 0 (0.0%)
     Total 74,474 votes
   
-
-  Turnout
-  74,474 / 741,825 (10.0%)
-  Quorum
-  25% (185,456 votes)
-  ✗ NOT MET
 
 ---
 
@@ -31324,12 +31121,6 @@ Upgrade Proposal: v0.2.2
     Total 109,746 votes
   
 
-  Turnout
-  109,746 / 741,825 (14.8%)
-  Quorum
-  25% (185,456 votes)
-  ✗ NOT MET
-
 ---
 
 ## Messages
@@ -31401,12 +31192,6 @@ Proposal updates poc_validation_duration from 20 to 100.
     Abstain 0 (0.0%)
     Total 162,514 votes
   
-
-  Turnout
-  162,514 / 741,825 (21.9%)
-  Quorum
-  25% (185,456 votes)
-  ✗ NOT MET
 
 ---
 
@@ -31658,12 +31443,6 @@ This proposal introduces new Qwen3 models including Qwen3-32B-FP8 and Qwen3-235B
     Total 62,612 votes
   
 
-  Turnout
-  62,612 / 741,825 (8.4%)
-  Quorum
-  25% (185,456 votes)
-  ✗ NOT MET
-
 ---
 
 ## Messages
@@ -31818,12 +31597,6 @@ Expedite voting for upgrades
     Total 172,265 votes
   
 
-  Turnout
-  172,265 / 741,825 (23.2%)
-  Quorum
-  25% (185,456 votes)
-  ✗ NOT MET
-
 ---
 
 ## Messages
@@ -31916,7 +31689,6 @@ Funding / Grants1
   
   Expected amount of Confirmation PoC per epoch to 4, p0 for binomial test to 0.1
   Yes 3,261,413 (100.0%) · No 85 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 3,261,498 / 741,825 (439.7%) · Quorum 25% ✓
 
   
     #16 – Upgrade Proposal: v0.2.6
@@ -31928,7 +31700,6 @@ Funding / Grants1
   
   Upgrade Proposal: v0.2.6
   Yes 1,985,917 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 1,985,917 / 741,825 (267.7%) · Quorum 25% ✓
 
   
     #15 – Upgrade Proposal: v0.2.6
@@ -31940,7 +31711,6 @@ Funding / Grants1
   
   Upgrade Proposal: v0.2.6
   Yes 1,034,445 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 1,034,445 / 741,825 (139.4%) · Quorum 25% ✓
 
   
     #14 – Sale GNK from Community Fund
@@ -31952,7 +31722,6 @@ Funding / Grants1
   
   Sale GNK from Community Fund
   Yes 1,180,961 (98.8%) · No 9,781 (0.8%) · Veto 4,577 (0.4%) · Abstain 0 (0.0%)20,000,000 GNK · Community Pool
-  Turnout 1,195,319 / 741,825 (161.1%) · Quorum 25% ✓
 
   
     #13 – Upgrade Proposal: v0.2.5
@@ -31964,7 +31733,6 @@ Funding / Grants1
   
   Upgrade Proposal: v0.2.5
   Yes 428,459 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 428,459 / 741,825 (57.8%) · Quorum 25% ✓
 
   
     #12 – Bandwidth Limits
@@ -31976,7 +31744,6 @@ Funding / Grants1
   
   Bandwidth Limits
   Yes 257,565 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 257,565 / 741,825 (34.7%) · Quorum 25% ✓
 
   
     #11 – Bandwidth Limits
@@ -31988,7 +31755,6 @@ Funding / Grants1
   
   Bandwidth Limits
   Yes 349,596 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 349,596 / 741,825 (47.1%) · Quorum 25% ✓
 
   
     #10 – Bandwidth Limits
@@ -32000,7 +31766,6 @@ Funding / Grants1
   
   Bandwidth Limits
   Yes 287,496 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 287,496 / 741,825 (38.8%) · Quorum 25% ✓
 
   
     #9 – Higher Bandwidth Limits & Voting Time Back to 24H
@@ -32012,7 +31777,6 @@ Funding / Grants1
   
   Higher Bandwidth Limits & Voting Time Back to 24H
   Yes 394,887 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 394,887 / 741,825 (53.2%) · Quorum 25% ✓
 
   
     #8 – Upgrade Proposal: v0.2.4
@@ -32024,7 +31788,6 @@ Funding / Grants1
   
   Upgrade Proposal: v0.2.4
   Yes 286,826 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 286,826 / 741,825 (38.7%) · Quorum 25% ✓
 
   
     #7 – Upgrade Proposal: v0.2.3
@@ -32036,7 +31799,6 @@ Funding / Grants1
   
   Upgrade Proposal: v0.2.3
   Yes 132,672 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 132,672 / 741,825 (17.9%) · Quorum 25% ✗
 
 ← Back to all proposals
 
@@ -32124,12 +31886,6 @@ Higher Bandwidth Limits & Voting Time Back to 24H
     Abstain 0 (0.0%)
     Total 394,887 votes
   
-
-  Turnout
-  394,887 / 741,825 (53.2%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
 
 ---
 
@@ -32414,12 +32170,6 @@ Bandwidth Limits
     Total 349,596 votes
   
 
-  Turnout
-  349,596 / 741,825 (47.1%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
-
 ---
 
 ## Messages
@@ -32670,12 +32420,6 @@ Upgrade Proposal: v0.2.3
     Total 132,672 votes
   
 
-  Turnout
-  132,672 / 741,825 (17.9%)
-  Quorum
-  25% (185,456 votes)
-  ✗ NOT MET
-
 ---
 
 ## Messages
@@ -32746,12 +32490,6 @@ Upgrade Proposal: v0.2.6
     Total 1,985,917 votes
   
 
-  Turnout
-  1,985,917 / 741,825 (267.7%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
-
 ---
 
 ## Messages
@@ -32819,12 +32557,6 @@ Expected amount of Confirmation PoC per epoch to 4, p0 for binomial test to 0.1
     Abstain 0 (0.0%)
     Total 3,261,498 votes
   
-
-  Turnout
-  3,261,498 / 741,825 (439.7%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
 
 ---
 
@@ -33142,12 +32874,6 @@ Bandwidth Limits
     Total 287,496 votes
   
 
-  Turnout
-  287,496 / 741,825 (38.8%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
-
 ---
 
 ## Messages
@@ -33398,12 +33124,6 @@ Upgrade Proposal: v0.2.4
     Total 286,826 votes
   
 
-  Turnout
-  286,826 / 741,825 (38.7%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
-
 ---
 
 ## Messages
@@ -33476,12 +33196,6 @@ Upgrade Proposal: v0.2.6
     Total 1,034,445 votes
   
 
-  Turnout
-  1,034,445 / 741,825 (139.4%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
-
 ---
 
 ## Messages
@@ -33551,12 +33265,6 @@ Bandwidth Limits
     Abstain 0 (0.0%)
     Total 257,565 votes
   
-
-  Turnout
-  257,565 / 741,825 (34.7%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
 
 ---
 
@@ -33808,12 +33516,6 @@ Upgrade Proposal: v0.2.5
     Total 428,459 votes
   
 
-  Turnout
-  428,459 / 741,825 (57.8%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
-
 ---
 
 ## Messages
@@ -33883,12 +33585,6 @@ Sale GNK from Community Fund
     Abstain 0 (0.0%)
     Total 1,195,319 votes
   
-
-  Turnout
-  1,195,319 / 741,825 (161.1%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
 
 ---
 
@@ -36690,7 +36386,6 @@ Models / IBC1
   
   Add Kimi K2.6 and GLM 5.2 model
   Yes 330,364 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 330,364 / 741,825 (44.5%) · Quorum 25% ✓
 
   
     #78 – Governance 17: update PoC model lineup
@@ -36702,7 +36397,6 @@ Models / IBC1
   
   Set delegation initial_model_id to MiniMaxAI/MiniMax-M2.7, keep only MiniMaxAI/MiniMax-M2.7 in PoC params, remove Qwen/Qwen3-235B-A22B-Instruct-2507-FP8, moonshotai/Kimi-K2.6 from PoC params, and dele…
   Yes 255,215 (97.1%) · No 170 (0.1%) · Veto 0 (0.0%) · Abstain 7,390 (2.8%)
-  Turnout 262,775 / 741,825 (35.4%) · Quorum 25% ✓
 
   
     #77 – Gonka PR Proposal for US/Global Regions
@@ -36714,7 +36408,6 @@ Models / IBC1
   
   We are INPUT Global - a leading web3 marketing communications agency. We offer 3 month PR campaign to establish trust and market legitimacy of Gonka across 2 audiences: global business and crypto-nati…
   Yes 152,042 (100.0%) · No 71 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)$75,000 · Community Pool
-  Turnout 152,113 / 741,825 (20.5%) · Quorum 25% ✗
 
   
     #76 – Governance 16: devshard v2 and bounty payouts
@@ -36726,7 +36419,6 @@ Models / IBC1
   
   Register devshard approved version v2.
   Yes 239,924 (100.0%) · No 17 (0.0%) · Veto 0 (0.0%) · Abstain 16 (0.0%)$93,600 · Community Pool
-  Turnout 239,957 / 741,825 (32.3%) · Quorum 25% ✓
 
   
     #75 – Private Inc × Gonka — Network Growth Initiative
@@ -36748,7 +36440,6 @@ Models / IBC1
   
   Full proposal: https://gonkalabs.com/proposal  This proposal funds the next six months of work for the Gonka ecosystem.  The focus is production-grade infrastructure and high-use products: Gonka.gg V2…
   Yes 305,163 (79.6%) · No 3,791 (1.0%) · Veto 15 (0.0%) · Abstain 74,304 (19.4%)$70,000 · Community Pool · 330,000 GNK · Gov Module
-  Turnout 383,273 / 741,825 (51.7%) · Quorum 25% ✓
 
   
     #73 – Increase minimum governance deposit to 500 GNK and expedited minimum deposit to 1000 GNK
@@ -36760,7 +36451,6 @@ Models / IBC1
   
   Increase the minimum deposit required to submit a governance proposal to 500 GNK (500,000,000,000 ngonka) and expedited minimum deposit to 1000 GNK (1,000,000,000,000 ngonka). This resubmits proposal …
   Yes 295,843 (96.3%) · No 40 (0.0%) · Veto 572 (0.2%) · Abstain 10,823 (3.5%)
-  Turnout 307,278 / 741,825 (41.4%) · Quorum 25% ✓
 
   
     #72 – Open devshard escrow creation to community wallet gonka1afj0tz53z56zngs425m83vxl5y2xmwm692hfrn
@@ -36772,7 +36462,6 @@ Models / IBC1
   
   Adds a community-operated wallet to devshard_escrow_params.allowed_creator_addresses, enabling it to create a devshard escrow and operate as an additional self-hosted inference gateway/transfer agent.…
   Yes 5,337 (2.2%) · No 7,953 (3.3%) · Veto 221,234 (90.7%) · Abstain 9,421 (3.9%)
-  Turnout 243,945 / 741,825 (32.9%) · Quorum 25% ✓
 
   
     #71 – Gonka PR Proposal for US/Global Regions
@@ -36784,7 +36473,6 @@ Models / IBC1
   
   We're a comms team specializing in Organic PR for crypto and tech projects. With strong competition in the space and no active events or marketing currently running for Gonka, we propose a 3-month Org…
   Yes 180,108 (99.8%) · No 72 (0.0%) · Veto 0 (0.0%) · Abstain 233 (0.1%)$75,000 · Community Pool
-  Turnout 180,413 / 741,825 (24.3%) · Quorum 25% ✗
 
   
     #70 – GNK Racers: Launch GameFi Mini-App to Drive User Growth & Wallet Activity
@@ -36796,7 +36484,6 @@ Models / IBC1
   
   Release 246,000 GNK from Community Fund to finalize GNK Racers — a multiplayer side-view racing mini-app with a live working prototype (@GNKRacers_bot). The game drives new user acquisition, wallet ac…
   Yes 38,621 (25.0%) · No 107,644 (69.6%) · Veto 6,241 (4.0%) · Abstain 2,245 (1.5%)246,000 GNK · Community Pool
-  Turnout 154,751 / 741,825 (20.9%) · Quorum 25% ✗
 
   
     #69 – Increase minimum governance deposit to 500 GNK
@@ -36808,7 +36495,6 @@ Models / IBC1
   
   Increase the minimum deposit required to submit a governance proposal from the current value to 500 GNK. Also sets expedited minimum deposit to 1000 GNK.
   Yes 199,799 (96.9%) · No 46 (0.0%) · Veto 4,202 (2.0%) · Abstain 2,210 (1.1%)
-  Turnout 206,257 / 741,825 (27.8%) · Quorum 25% ✓
 
   
     #68 – Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)
@@ -36820,7 +36506,6 @@ Models / IBC1
   
   The proposal is reopened for voting at the initiative of several hosts who did not participate in the previous round.  • There are no changes to the substance of the proposal; only timeline commitment…
   Yes 260,353 (96.4%) · No 749 (0.3%) · Veto 6,288 (2.3%) · Abstain 2,546 (0.9%)$70,000 · Community Pool
-  Turnout 269,936 / 741,825 (36.4%) · Quorum 25% ✓
 
   
     #67 – Kimi Restitution (epochs 265-276)
@@ -36832,7 +36517,6 @@ Models / IBC1
   
   Distribute restitution for Kimi operators across epochs 265-276. Epochs 265-266: external attack causing CPoC degradation and nonce exclusion. Epochs 267-276: ComputeGroupCap systematic underpayment d…
   Yes 319,920 (78.9%) · No 150 (0.0%) · Veto 84,623 (20.9%) · Abstain 744 (0.2%)946,509 GNK · Gov Module
-  Turnout 405,437 / 741,825 (54.7%) · Quorum 25% ✓
 
   
     #66 – test proposal - 测试方案
@@ -36854,7 +36538,6 @@ Models / IBC1
   
   Full 360-degree digital and social strategy for Gonka.AI: channel matrix, content plan, segment messaging, social strategy, and brand-voice guidelines. Single-tranche payment of 100,000 GNK to TheSoul…
   Yes 220,798 (67.9%) · No 0 (0.0%) · Veto 70,043 (21.5%) · Abstain 34,369 (10.6%)100,000 GNK · Community Pool
-  Turnout 325,210 / 741,825 (43.8%) · Quorum 25% ✓
 
   
     #64 – TheSoul - Offer 2.2: Analytics and attribution (28,000 GNK)
@@ -36866,7 +36549,6 @@ Models / IBC1
   
   Web analytics, attribution, and funnel dashboarding for Gonka.AI: GA4 implementation, UTM taxonomy, event tracking, and conversion reporting. Single-tranche payment of 28,000 GNK to TheSoul on proposa…
   Yes 220,798 (67.9%) · No 0 (0.0%) · Veto 70,043 (21.5%) · Abstain 34,369 (10.6%)28,000 GNK · Community Pool
-  Turnout 325,210 / 741,825 (43.8%) · Quorum 25% ✓
 
   
     #63 – TheSoul - Offer 2.1: Website and landings (10,000 USDT)
@@ -36878,7 +36560,6 @@ Models / IBC1
   
   Full redesign of gonka.ai plus dedicated landing pages for miners, inference buyers, and investors, built on the brandbook from Offer 1.2. Single-tranche payment of 10,000 USDT to TheSoul on proposal …
   Yes 220,798 (67.9%) · No 0 (0.0%) · Veto 70,043 (21.5%) · Abstain 34,369 (10.6%)$10,000 · Community Pool
-  Turnout 325,210 / 741,825 (43.8%) · Quorum 25% ✓
 
   
     #62 – TheSoul - Offer 1.3: Influencer pilot (50,000 USDT)
@@ -36890,7 +36571,6 @@ Models / IBC1
   
   Crypto-influencer pilot campaign for Gonka.AI across selected tier-1 creators, with a full performance report and scaling recommendations. Single-tranche payment of 50,000 USDT to TheSoul on proposal …
   Yes 220,798 (67.9%) · No 0 (0.0%) · Veto 70,043 (21.5%) · Abstain 34,369 (10.6%)$50,000 · Community Pool
-  Turnout 325,210 / 741,825 (43.8%) · Quorum 25% ✓
 
   
     #61 – TheSoul - Offer 1.2: Brandbook (20,000 USDT)
@@ -36902,7 +36582,6 @@ Models / IBC1
   
   Brand identity system for Gonka.AI: logo, typography, color system, graphic language, layout principles, and templates, built on the positioning from Offer 1.1. Single-tranche payment of 20,000 USDT t…
   Yes 220,798 (67.9%) · No 0 (0.0%) · Veto 70,043 (21.5%) · Abstain 34,369 (10.6%)$20,000 · Community Pool
-  Turnout 325,210 / 741,825 (43.8%) · Quorum 25% ✓
 
   
     #60 – TheSoul - Offer 1.1: Brand positioning (25,000 USDT)
@@ -36914,7 +36593,6 @@ Models / IBC1
   
   Brand audit, competitive positioning, and audience segmentation for Gonka.AI. Single-tranche payment of 25,000 USDT to TheSoul on proposal pass. Full offer document: see the metadata URL.
   Yes 220,798 (67.9%) · No 0 (0.0%) · Veto 70,043 (21.5%) · Abstain 34,369 (10.6%)$25,000 · Community Pool
-  Turnout 325,210 / 741,825 (43.8%) · Quorum 25% ✓
 
   
     #59 – Gonka Onboarding Video Guide — Milestone 1 (Prepayment)
@@ -36926,7 +36604,6 @@ Models / IBC1
   
   Funds milestone 1 (upfront prepayment) of a community-produced onboarding video guide for Gonka. Deliverable: a series of ~15 short, interactive, easy-to-follow videos covering A-to-Z onboarding for b…
   Yes 24,505 (43.6%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 31,699 (56.4%)$5,000 · Community Pool
-  Turnout 56,204 / 741,825 (7.6%) · Quorum 25% ✗
 
   
     #58 – Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)
@@ -36938,7 +36615,6 @@ Models / IBC1
   
   # Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)  70,000 USDT from the CommunityPool for a dedicated Falcon Finance deep-dive on Gonka AI. Full proposal: https://vote.gonka.vip/tenders…
   Yes 98,018 (53.4%) · No 0 (0.0%) · Veto 85,697 (46.6%) · Abstain 0 (0.0%)$70,000 · Community Pool
-  Turnout 183,715 / 741,825 (24.8%) · Quorum 25% ✗
 
   
     #57 – Approve the Gonka Network Development Roadmap
@@ -36950,7 +36626,6 @@ Models / IBC1
   
   This proposal approves the Gonka Network Development Roadmap as a strategic direction document for Gonka's future development tracks.  If approved, the roadmap should become the shared vision for Gonk…
   Yes 257,150 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 257,150 / 741,825 (34.7%) · Quorum 25% ✓
 
   
     #56 – INC4 | Gonka NOP - grant for the node deployment tool
@@ -36962,7 +36637,6 @@ Models / IBC1
   
   # Gonka NOP: grant for the node deployment tool  50,000 USDT from the CommunityPool to INC4 Full proposal: https://github.com/gonka-ai/gonka/discussions/1192  ## What it is  gonka-nop (Node Onboarding…
   Yes 31,851 (58.6%) · No 9,566 (17.6%) · Veto 12,961 (23.8%) · Abstain 0 (0.0%)$50,000 · Community Pool
-  Turnout 54,378 / 741,825 (7.3%) · Quorum 25% ✗
 
   
     #55 – GRC Proposal #2 - Restitution (epochs 248-254)
@@ -36974,7 +36648,6 @@ Models / IBC1
   
   Distribute restitution for Cases 2, 3, and 4 across epochs 248-254. Case 2: preserver weight double-scaling bug (epochs 249-253). Case 3: epoch loss restitution: broad epoch losses, consecutive failur…
   Yes 188,670 (61.2%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 119,835 (38.8%)39,722 GNK · Community Pool · 306,307 GNK · Gov Module
-  Turnout 308,505 / 741,825 (41.6%) · Quorum 25% ✓
 
   
     #54 – Upgrade Proposal: v0.2.13
@@ -36986,7 +36659,6 @@ Models / IBC1
   
   Upgrade Proposal: v0.2.13
   Yes 228,216 (62.8%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 135,071 (37.2%)
-  Turnout 363,287 / 741,825 (49.0%) · Quorum 25% ✓
 
   
     #53 – INC4 | Gonka NOP - grant for the node deployment tool
@@ -36998,7 +36670,6 @@ Models / IBC1
   
   # Gonka NOP: grant for the node deployment tool  50,000 USDT from the CommunityPool to INC4 Full proposal: https://github.com/gonka-ai/gonka/discussions/1192  ## What it is  gonka-nop (Node Onboarding…
   Yes 139,052 (46.8%) · No 0 (0.0%) · Veto 158,195 (53.2%) · Abstain 0 (0.0%)$50,000 · Community Pool
-  Turnout 297,247 / 741,825 (40.1%) · Quorum 25% ✓
 
   
     #52 – Upgrade Proposal: v0.2.13
@@ -37010,7 +36681,6 @@ Models / IBC1
   
   Upgrade Proposal: v0.2.13
   Yes 88,420 (34.1%) · No 0 (0.0%) · Veto 170,799 (65.9%) · Abstain 0 (0.0%)
-  Turnout 259,219 / 741,825 (34.9%) · Quorum 25% ✓
 
   
     #51 – Support Gonka's presence at WebX Asia
@@ -37022,7 +36692,6 @@ Models / IBC1
   
   6Block, a long-term Gonka mining and infrastructure participant, proposes that the Gonka community allocate 75,000 USDT to support Gonka's participation at WebX Asia / WebX 2026 in Tokyo. 6Block has a…
   Yes 395,003 (62.8%) · No 1,767 (0.3%) · Veto 64,217 (10.2%) · Abstain 168,275 (26.7%)$75,000 · Community Pool
-  Turnout 629,262 / 741,825 (84.8%) · Quorum 25% ✓
 
   
     #50 – Retroactive bounty: open-source PoC throughput optimization (+10–12% measured) with 250 total installations
@@ -37034,7 +36703,6 @@ Models / IBC1
   
   Retroactive 20K GNK bounty for an open-sourced PoC optimization measuring +10.2% on B200 and +12.5% on H100 with Qwen3-235B-FP8. One-line patch, verified on-chain by independent miners. Details: https…
   Yes 281,723 (59.1%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 194,589 (40.9%)20,000 GNK · Community Pool
-  Turnout 476,312 / 741,825 (64.2%) · Quorum 25% ✓
 
   
     #49 – Gonka Media Dominance in TechL/AI with 5 AI Influencers
@@ -37046,7 +36714,6 @@ Models / IBC1
   
   We're ICG - AI Influencer Lab, a team that builds and scales hyper-realistic AI avatars on Instagram, TikTok, and YouTube as full ambassadors across verticals. We manage 160+ accounts in AI, finance, …
   Yes 496,683 (71.1%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 201,560 (28.9%)$45,000 · Community Pool
-  Turnout 698,243 / 741,825 (94.1%) · Quorum 25% ✓
 
   
     #48 – Lower Direct Participation Threshold to 10%
@@ -37058,7 +36725,6 @@ Models / IBC1
   
   During the Kimi-K2.6 bootstrap, the 30% direct participation threshold proved hard to meet. To avoid the risk of Kimi-K2.6 becoming ineligible in a future epoch and to simplify onboarding of further m…
   Yes 808,529 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 808,529 / 741,825 (109.0%) · Quorum 25% ✓
 
   
     #47 – Retroactive bounty: open-source PoC throughput optimization (+10–12% measured) with 250 total installations
@@ -37070,7 +36736,6 @@ Models / IBC1
   
   Retroactive 20K GNK bounty for an open-sourced PoC optimization measuring +10.2% on B200 and +12.5% on H100 with Qwen3-235B-FP8. One-line patch, verified on-chain by independent miners. Details: https…
   Yes 70,819 (33.6%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 139,828 (66.4%)20,000 GNK · Community Pool
-  Turnout 210,647 / 741,825 (28.4%) · Quorum 25% ✓
 
   
     #46 – Epochs 132-247 compensation payout from gov module (batch vesting)
@@ -37082,7 +36747,6 @@ Models / IBC1
   
   Two prior upgrades changed the lifecycle of unpaid miner rewards. v0.2.9 (proposal #26, 2026-02-01): when a participant is penalized during cPoC validation, the unaccounted portion of their epoch rewa…
   Yes 97,030 (36.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 172,837 (64.0%)3,053,800 GNK · Gov Module
-  Turnout 269,867 / 741,825 (36.4%) · Quorum 25% ✓
 
   
     #45 – Governance Architecture Proposal for the Gonka.ai Network
@@ -37094,7 +36758,6 @@ Models / IBC1
   
   Replace scattered governance discussions and complex CLI voting with a unified Governance Portal - a single interface for all Gonka governance activity. The portal includes: a proposal feed across Dis…
   Yes 118,126 (25.6%) · No 0 (0.0%) · Veto 210,906 (45.6%) · Abstain 133,057 (28.8%)119,000 GNK · Community Pool
-  Turnout 462,089 / 741,825 (62.3%) · Quorum 25% ✓
 
   
     #44 – Upgrade Proposal: v0.2.12
@@ -37106,7 +36769,6 @@ Models / IBC1
   
   Upgrade Proposal: v0.2.12
   Yes 506,142 (99.6%) · No 2,057 (0.4%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  Turnout 508,199 / 741,825 (68.5%) · Quorum 25% ✓
 
   
     #43 – Governance Architecture Proposal for the Gonka.ai Network
@@ -37118,7 +36780,6 @@ Models / IBC1
   
   Today, participating in Gonka governance requires following multiple channels simultaneously — GitHub, Discord, CLI — just to cast a single vote. Most miners miss proposals entirely or vote too late. …
   Yes 123,104 (26.5%) · No 335,534 (72.2%) · Veto 5,913 (1.3%) · Abstain 0 (0.0%)104,166 GNK · Community Pool
-  Turnout 464,551 / 741,825 (62.6%) · Quorum 25% ✓
 
   
     #42 – Support Gonka at Global Compute Sovereignty Summit
@@ -37130,7 +36791,6 @@ Models / IBC1
   
   We are DeAI Nation, a global nonprofit organization supporting and promoting the decentralized AI ecosystem, and authors of the State of DeAI 2026 report. We propose that the Gonka community become a …
   Yes 375,771 (68.6%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 172,050 (31.4%)$10,000 · Community Pool
-  Turnout 547,821 / 741,825 (73.8%) · Quorum 25% ✓
 
   
     #41 – INC4 | Gonka Node Observability Platform
@@ -37142,7 +36802,6 @@ Models / IBC1
   
   Today's explorers and dashboards only show on-chain data, leaving the off-chain state of validators completely opaque. The few operators who do run their own monitoring use different tools, different …
   Yes 17,955 (57.1%) · No 13,494 (42.9%) · Veto 0 (0.0%) · Abstain 0 (0.0%)$96,000 · Community Pool
-  Turnout 31,449 / 741,825 (4.2%) · Quorum 25% ✗
 
   
     #40 – Governance: extend voting period to 48 hours
@@ -37154,7 +36813,6 @@ Models / IBC1
   
   This proposal updates x/gov: the standard voting period becomes 48 hours (was 24), and the expedited voting period becomes 12 hours (was 3). All other governance parameters remain at their current on-…
   Yes 377,158 (57.7%) · No 0 (0.0%) · Veto 12,030 (1.8%) · Abstain 264,790 (40.5%)
-  Turnout 653,978 / 741,825 (88.2%) · Quorum 25% ✓
 
   
     #39 – Community Series Film — Why Gonka Exists
@@ -37166,7 +36824,6 @@ Models / IBC1
   
   Saccade Media House is a creative team of tech entrepreneurs who know how to tell stories. We've built content for international tech brands and the founders behind them. We propose a Community Series…
   Yes 394,971 (76.0%) · No 183 (0.0%) · Veto 0 (0.0%) · Abstain 124,587 (24.0%)31,250 GNK · Community Pool
-  Turnout 519,741 / 741,825 (70.1%) · Quorum 25% ✓
 
   
     #38 – CryptoCommons: Community Support & Token Promotion Plan
@@ -37178,7 +36835,6 @@ Models / IBC1
   
   If you agree say YES — Solution 1: Produce a short review video with 1-2 active community members. Solution 2: Introduce the project to BD managers of major CIS exchanges for listings. Solution 3 (Reg…
   Yes 0 (0.0%) · No 183 (2.3%) · Veto 7,893 (97.7%) · Abstain 0 (0.0%)20,000 GNK · Community Pool · 25,000 GNK · Gov Module
-  Turnout 8,076 / 741,825 (1.1%) · Quorum 25% ✗
 
   
     #37 – What is your stance on MLM projects around gonka.ai?
@@ -37190,7 +36846,6 @@ Models / IBC1
   
   If you are against MLM projects around gonka.ai, vote YES. All funds will be used to counter such projects. The amount is symbolic.
   Yes 957 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)1 GNK · Community Pool
-  Turnout 957 / 741,825 (0.1%) · Quorum 25% ✗
 
   
     #36 – Register Kava USDT IBC metadata and approve for trading
@@ -37202,7 +36857,6 @@ Models / IBC1
   
   Register IBC token metadata and approve the denomination for trading on Gonka mainnet.
   Yes 421,414 (99.6%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 1,788 (0.4%)
-  Turnout 423,202 / 741,825 (57.0%) · Quorum 25% ✓
 
 ← Back to all proposals
 
@@ -37295,12 +36949,6 @@ Brand identity system for Gonka.AI: logo, typography, color system, graphic lang
     Total 325,210 votes
   
 
-  Turnout
-  325,210 / 741,825 (43.8%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
-
 ---
 
 ## Messages
@@ -37377,12 +37025,6 @@ Funds milestone 1 (upfront prepayment) of a community-produced onboarding video 
     Total 56,204 votes
   
 
-  Turnout
-  56,204 / 741,825 (7.6%)
-  Quorum
-  25% (185,456 votes)
-  ✗ NOT MET
-
 ---
 
 ## Messages
@@ -37457,12 +37099,6 @@ test proposal - 测试方案
     Total 579,377 votes
   
 
-  Turnout
-  579,377 / 741,825 (78.1%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
-
 ---
 
 ## Messages
@@ -37536,12 +37172,6 @@ Retroactive 20K GNK bounty for an open-sourced PoC optimization measuring +10.2%
     Abstain 194,589 (40.9%)
     Total 476,312 votes
   
-
-  Turnout
-  476,312 / 741,825 (64.2%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
 
 ---
 
@@ -37628,12 +37258,6 @@ Full proposal:
     Abstain 2,546 (0.9%)
     Total 269,936 votes
   
-
-  Turnout
-  269,936 / 741,825 (36.4%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
 
 ---
 
@@ -37739,12 +37363,6 @@ The Foundation's legal structure, responsibilities, accountability model, treasu
     Total 257,150 votes
   
 
-  Turnout
-  257,150 / 741,825 (34.7%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
-
 ---
 
 ## Messages
@@ -37801,12 +37419,6 @@ Increase the minimum deposit required to submit a governance proposal from the c
     Abstain 2,210 (1.1%)
     Total 206,257 votes
   
-
-  Turnout
-  206,257 / 741,825 (27.8%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
 
 ---
 
@@ -37933,12 +37545,6 @@ Live walkthrough on YouTube (by Gonka.Top@Mitch):
     Total 54,378 votes
   
 
-  Turnout
-  54,378 / 741,825 (7.3%)
-  Quorum
-  25% (185,456 votes)
-  ✗ NOT MET
-
 ---
 
 ## Messages
@@ -38012,12 +37618,6 @@ $75,000 · Community Pool
     Abstain 168,275 (26.7%)
     Total 629,262 votes
   
-
-  Turnout
-  629,262 / 741,825 (84.8%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
 
 ---
 
@@ -38116,12 +37716,6 @@ This is a full-scale analytical deep-dive that builds genuine trust rather than 
     Total 183,715 votes
   
 
-  Turnout
-  183,715 / 741,825 (24.8%)
-  Quorum
-  25% (185,456 votes)
-  ✗ NOT MET
-
 ---
 
 ## Messages
@@ -38195,12 +37789,6 @@ Distribute restitution for Kimi operators across epochs 265-276. Epochs 265-266:
     Abstain 744 (0.2%)
     Total 405,437 votes
   
-
-  Turnout
-  405,437 / 741,825 (54.7%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
 
 ---
 
@@ -38738,12 +38326,6 @@ Brand audit, competitive positioning, and audience segmentation for Gonka.AI. Si
     Total 325,210 votes
   
 
-  Turnout
-  325,210 / 741,825 (43.8%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
-
 ---
 
 ## Messages
@@ -38817,12 +38399,6 @@ We are DeAI Nation, a global nonprofit organization supporting and promoting the
     Abstain 172,050 (31.4%)
     Total 547,821 votes
   
-
-  Turnout
-  547,821 / 741,825 (73.8%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
 
 ---
 
@@ -38900,12 +38476,6 @@ Replace scattered governance discussions and complex CLI voting with a unified G
     Total 462,089 votes
   
 
-  Turnout
-  462,089 / 741,825 (62.3%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
-
 ---
 
 ## Messages
@@ -38973,12 +38543,6 @@ Increase the minimum deposit required to submit a governance proposal to 500 GNK
     Abstain 10,823 (3.5%)
     Total 307,278 votes
   
-
-  Turnout
-  307,278 / 741,825 (41.4%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
 
 ---
 
@@ -39084,12 +38648,6 @@ Full proposal:
     Abstain 74,304 (19.4%)
     Total 383,273 votes
   
-
-  Turnout
-  383,273 / 741,825 (51.7%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
 
 ---
 
@@ -39250,12 +38808,6 @@ IMPORTANT: This is a condensed version of the document and does not include many
     Total 313,499 votes
   
 
-  Turnout
-  313,499 / 741,825 (42.3%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
-
 ---
 
 ## Messages
@@ -39329,12 +38881,6 @@ Adds a community-operated wallet to devshard_escrow_params.allowed_creator_addre
     Abstain 9,421 (3.9%)
     Total 243,945 votes
   
-
-  Turnout
-  243,945 / 741,825 (32.9%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
 
 ---
 
@@ -39811,12 +39357,6 @@ Upgrade Proposal: v0.2.12
     Total 508,199 votes
   
 
-  Turnout
-  508,199 / 741,825 (68.5%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
-
 ---
 
 ## Messages
@@ -39891,12 +39431,6 @@ Today, participating in Gonka governance requires following multiple channels si
     Total 464,551 votes
   
 
-  Turnout
-  464,551 / 741,825 (62.6%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
-
 ---
 
 ## Messages
@@ -39970,12 +39504,6 @@ If you agree say YES — Solution 1: Produce a short review video with 1-2 activ
     Abstain 0 (0.0%)
     Total 8,076 votes
   
-
-  Turnout
-  8,076 / 741,825 (1.1%)
-  Quorum
-  25% (185,456 votes)
-  ✗ NOT MET
 
 ---
 
@@ -40062,12 +39590,6 @@ Register IBC token metadata and approve the denomination for trading on Gonka ma
     Total 423,202 votes
   
 
-  Turnout
-  423,202 / 741,825 (57.0%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
-
 ---
 
 ## Messages
@@ -40146,12 +39668,6 @@ Full 360-degree digital and social strategy for Gonka.AI: channel matrix, conten
     Total 325,210 votes
   
 
-  Turnout
-  325,210 / 741,825 (43.8%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
-
 ---
 
 ## Messages
@@ -40224,12 +39740,6 @@ Crypto-influencer pilot campaign for Gonka.AI across selected tier-1 creators, w
     Total 325,210 votes
   
 
-  Turnout
-  325,210 / 741,825 (43.8%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
-
 ---
 
 ## Messages
@@ -40301,12 +39811,6 @@ Upgrade Proposal: v0.2.13
     Abstain 135,071 (37.2%)
     Total 363,287 votes
   
-
-  Turnout
-  363,287 / 741,825 (49.0%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
 
 ---
 
@@ -40412,12 +39916,6 @@ Live walkthrough on YouTube (by Gonka.Top@Mitch):
     Total 297,247 votes
   
 
-  Turnout
-  297,247 / 741,825 (40.1%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
-
 ---
 
 ## Messages
@@ -40494,12 +39992,6 @@ If you are against MLM projects around gonka.ai, vote YES. All funds will be use
     Total 957 votes
   
 
-  Turnout
-  957 / 741,825 (0.1%)
-  Quorum
-  25% (185,456 votes)
-  ✗ NOT MET
-
 ---
 
 ## Messages
@@ -40571,12 +40063,6 @@ Saccade Media House is a creative team of tech entrepreneurs who know how to tel
     Abstain 124,587 (24.0%)
     Total 519,741 votes
   
-
-  Turnout
-  519,741 / 741,825 (70.1%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
 
 ---
 
@@ -40650,12 +40136,6 @@ Upgrade Proposal: v0.2.13
     Total 259,219 votes
   
 
-  Turnout
-  259,219 / 741,825 (34.9%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
-
 ---
 
 ## Messages
@@ -40727,12 +40207,6 @@ Distribute restitution for Cases 2, 3, and 4 across epochs 248-254. Case 2: pres
     Abstain 119,835 (38.8%)
     Total 308,505 votes
   
-
-  Turnout
-  308,505 / 741,825 (41.6%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
 
 ---
 
@@ -41660,12 +41134,6 @@ Full redesign of gonka.ai plus dedicated landing pages for miners, inference buy
     Total 325,210 votes
   
 
-  Turnout
-  325,210 / 741,825 (43.8%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
-
 ---
 
 ## Messages
@@ -41739,12 +41207,6 @@ Web analytics, attribution, and funnel dashboarding for Gonka.AI: GA4 implementa
     Abstain 34,369 (10.6%)
     Total 325,210 votes
   
-
-  Turnout
-  325,210 / 741,825 (43.8%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
 
 ---
 
@@ -41821,12 +41283,6 @@ Execution. Recipients with share ≥ 10 GNK (1 204 miners, 3 052 968.210 GNK) ar
     Abstain 172,837 (64.0%)
     Total 269,867 votes
   
-
-  Turnout
-  269,867 / 741,825 (36.4%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
 
 ---
 
@@ -56534,12 +55990,6 @@ Add Kimi K2.6 and GLM 5.2 model
     Total 330,364 votes
   
 
-  Turnout
-  330,364 / 741,825 (44.5%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
-
 ---
 
 ## Messages
@@ -57085,12 +56535,6 @@ Full proposal and discussion:
     Total 31,449 votes
   
 
-  Turnout
-  31,449 / 741,825 (4.2%)
-  Quorum
-  25% (185,456 votes)
-  ✗ NOT MET
-
 ---
 
 ## Messages
@@ -57163,12 +56607,6 @@ We are INPUT Global - a leading web3 marketing communications agency. We offer 3
     Total 152,113 votes
   
 
-  Turnout
-  152,113 / 741,825 (20.5%)
-  Quorum
-  25% (185,456 votes)
-  ✗ NOT MET
-
 ---
 
 ## Messages
@@ -57240,12 +56678,6 @@ During the Kimi-K2.6 bootstrap, the 30% direct participation threshold proved ha
     Abstain 0 (0.0%)
     Total 808,529 votes
   
-
-  Turnout
-  808,529 / 741,825 (109.0%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
 
 ---
 
@@ -57698,12 +57130,6 @@ Release 246,000 GNK from Community Fund to finalize GNK Racers — a multiplayer
     Total 154,751 votes
   
 
-  Turnout
-  154,751 / 741,825 (20.9%)
-  Quorum
-  25% (185,456 votes)
-  ✗ NOT MET
-
 ---
 
 ## Messages
@@ -57778,12 +57204,6 @@ We're a comms team specializing in Organic PR for crypto and tech projects. With
     Total 180,413 votes
   
 
-  Turnout
-  180,413 / 741,825 (24.3%)
-  Quorum
-  25% (185,456 votes)
-  ✗ NOT MET
-
 ---
 
 ## Messages
@@ -57855,12 +57275,6 @@ Register devshard approved version v2.
     Abstain 16 (0.0%)
     Total 239,957 votes
   
-
-  Turnout
-  239,957 / 741,825 (32.3%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
 
 ---
 
@@ -58479,12 +57893,6 @@ Full proposal:
     Total 698,243 votes
   
 
-  Turnout
-  698,243 / 741,825 (94.1%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
-
 ---
 
 ## Messages
@@ -58554,12 +57962,6 @@ This proposal updates x/gov: the standard voting period becomes 48 hours (was 24
     Abstain 264,790 (40.5%)
     Total 653,978 votes
   
-
-  Turnout
-  653,978 / 741,825 (88.2%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
 
 ---
 
@@ -58656,12 +58058,6 @@ Retroactive 20K GNK bounty for an open-sourced PoC optimization measuring +10.2%
     Total 210,647 votes
   
 
-  Turnout
-  210,647 / 741,825 (28.4%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
-
 ---
 
 ## Messages
@@ -58731,12 +58127,6 @@ Set delegation initial_model_id to MiniMaxAI/MiniMax-M2.7, keep only MiniMaxAI/M
     Abstain 7,390 (2.8%)
     Total 262,775 votes
   
-
-  Turnout
-  262,775 / 741,825 (35.4%)
-  Quorum
-  25% (185,456 votes)
-  ✓ MET
 
 ---
 

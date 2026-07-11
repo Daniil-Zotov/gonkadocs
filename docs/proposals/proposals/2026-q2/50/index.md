@@ -52,14 +52,6 @@ Retroactive 20K GNK bounty for an open-sourced PoC optimization measuring +10.2%
   </div>
 </div>
 
-<div class="prop-quorum">
-  <span class="prop-quorum-label">Turnout</span>
-  <span class="prop-quorum-value">476,312 / 741,825 (64.2%)</span>
-  <span class="prop-quorum-label">Quorum</span>
-  <span class="prop-quorum-value">25% (185,456 votes)</span>
-  <span class="prop-quorum-status prop-quorum-met">✓ MET</span>
-</div>
-
 
 ---
 

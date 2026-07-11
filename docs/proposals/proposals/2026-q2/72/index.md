@@ -53,14 +53,6 @@ Adds a community-operated wallet to devshard_escrow_params.allowed_creator_addre
   </div>
 </div>
 
-<div class="prop-quorum">
-  <span class="prop-quorum-label">Turnout</span>
-  <span class="prop-quorum-value">243,945 / 741,825 (32.9%)</span>
-  <span class="prop-quorum-label">Quorum</span>
-  <span class="prop-quorum-value">25% (185,456 votes)</span>
-  <span class="prop-quorum-status prop-quorum-met">✓ MET</span>
-</div>
-
 
 ---
 

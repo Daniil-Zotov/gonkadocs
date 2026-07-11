@@ -53,14 +53,6 @@ Proposal updates poc_validation_duration from 20 to 100.
   </div>
 </div>
 
-<div class="prop-quorum">
-  <span class="prop-quorum-label">Turnout</span>
-  <span class="prop-quorum-value">162,514 / 741,825 (21.9%)</span>
-  <span class="prop-quorum-label">Quorum</span>
-  <span class="prop-quorum-value">25% (185,456 votes)</span>
-  <span class="prop-quorum-status prop-quorum-not-met">✗ NOT MET</span>
-</div>
-
 
 ---
 

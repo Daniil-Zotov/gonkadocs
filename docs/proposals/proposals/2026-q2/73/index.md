@@ -49,14 +49,6 @@ Increase the minimum deposit required to submit a governance proposal to 500 GNK
   </div>
 </div>
 
-<div class="prop-quorum">
-  <span class="prop-quorum-label">Turnout</span>
-  <span class="prop-quorum-value">307,278 / 741,825 (41.4%)</span>
-  <span class="prop-quorum-label">Quorum</span>
-  <span class="prop-quorum-value">25% (185,456 votes)</span>
-  <span class="prop-quorum-status prop-quorum-met">✓ MET</span>
-</div>
-
 
 ---
 

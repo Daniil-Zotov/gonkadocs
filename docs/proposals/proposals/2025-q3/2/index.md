@@ -51,14 +51,6 @@ This proposal introduces new Qwen3 models including Qwen3-32B-FP8 and Qwen3-235B
   </div>
 </div>
 
-<div class="prop-quorum">
-  <span class="prop-quorum-label">Turnout</span>
-  <span class="prop-quorum-value">62,612 / 741,825 (8.4%)</span>
-  <span class="prop-quorum-label">Quorum</span>
-  <span class="prop-quorum-value">25% (185,456 votes)</span>
-  <span class="prop-quorum-status prop-quorum-not-met">✗ NOT MET</span>
-</div>
-
 
 ---
 

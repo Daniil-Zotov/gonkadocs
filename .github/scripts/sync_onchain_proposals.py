@@ -509,7 +509,7 @@ def generate_proposal_page(proposal, prop_dir, total_voting_power=0):
   </div>
 </div>
 """
-        if total_voting_power > 0:
+        if total_voting_power > 0 and voting_end_iso and voting_end_iso[:10] >= QUORUM_CUTOFF:
             turnout_pct = total_votes / total_voting_power * 100
             quorum_needed = int(total_voting_power * QUORUM)
             quorum_met = total_votes >= quorum_needed
@@ -758,7 +758,7 @@ template: proposals-oview.html
                 _tally_line = f'<span class="prop-tally-yes-text">Yes {yes_c:,} {_pct(yes_c)}</span> · <span class="prop-tally-no-text">No {no_c:,} {_pct(no_c)}</span> · <span class="prop-tally-veto-text">Veto {veto_c:,} {_pct(veto_c)}</span> · <span class="prop-tally-abstain-text">Abstain {abstain_c:,} {_pct(abstain_c)}</span>'
 
                 _turnout_html = ""
-                if total_voting_power > 0 and total_t > 0:
+                if total_voting_power > 0 and total_t > 0 and voting_end_iso[:10] >= QUORUM_CUTOFF:
                     _turnout_pct = total_t / total_voting_power * 100
                     _quorum_needed = int(total_voting_power * QUORUM)
                     _quorum_met = total_t >= _quorum_needed
@@ -984,7 +984,7 @@ template: proposals-oview.html
             _tally_line = f'<span class="prop-tally-yes-text">Yes {yes_c:,} {_pct(yes_c)}</span> · <span class="prop-tally-no-text">No {no_c:,} {_pct(no_c)}</span> · <span class="prop-tally-veto-text">Veto {veto_c:,} {_pct(veto_c)}</span> · <span class="prop-tally-abstain-text">Abstain {abstain_c:,} {_pct(abstain_c)}</span>'
 
             _turnout_html = ""
-            if total_voting_power > 0 and total_t > 0:
+            if total_voting_power > 0 and total_t > 0 and voting_end_iso[:10] >= QUORUM_CUTOFF:
                 _turnout_pct = total_t / total_voting_power * 100
                 _quorum_needed = int(total_voting_power * QUORUM)
                 _quorum_met = total_t >= _quorum_needed
@@ -1179,6 +1179,7 @@ def fetch_live_tally(proposal_id):
 
 
 QUORUM = 0.25  # 25% from chain params
+QUORUM_CUTOFF = "2026-07-01"  # Only show quorum/turnout for proposals with voting_end >= this date
 
 
 def fetch_total_voting_power():

@@ -51,14 +51,6 @@ During the Kimi-K2.6 bootstrap, the 30% direct participation threshold proved ha
   </div>
 </div>
 
-<div class="prop-quorum">
-  <span class="prop-quorum-label">Turnout</span>
-  <span class="prop-quorum-value">808,529 / 741,825 (109.0%)</span>
-  <span class="prop-quorum-label">Quorum</span>
-  <span class="prop-quorum-value">25% (185,456 votes)</span>
-  <span class="prop-quorum-status prop-quorum-met">✓ MET</span>
-</div>
-
 
 ---
 

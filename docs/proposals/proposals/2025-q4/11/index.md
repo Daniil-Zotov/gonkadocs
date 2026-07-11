@@ -51,14 +51,6 @@ Bandwidth Limits
   </div>
 </div>
 
-<div class="prop-quorum">
-  <span class="prop-quorum-label">Turnout</span>
-  <span class="prop-quorum-value">349,596 / 741,825 (47.1%)</span>
-  <span class="prop-quorum-label">Quorum</span>
-  <span class="prop-quorum-value">25% (185,456 votes)</span>
-  <span class="prop-quorum-status prop-quorum-met">✓ MET</span>
-</div>
-
 
 ---
 

@@ -63,7 +63,6 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Expected amount of Confirmation PoC per epoch to 4, p0 for binomial test to 0.1</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 3,261,413 (100.0%)</span> · <span class="prop-tally-no-text">No 85 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
-  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 3,261,498 / 741,825 (439.7%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -77,7 +76,6 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.6</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 1,985,917 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
-  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 1,985,917 / 741,825 (267.7%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -91,7 +89,6 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.6</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 1,034,445 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
-  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 1,034,445 / 741,825 (139.4%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -105,7 +102,6 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Sale GNK from Community Fund</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 1,180,961 (98.8%)</span> · <span class="prop-tally-no-text">No 9,781 (0.8%)</span> · <span class="prop-tally-veto-text">Veto 4,577 (0.4%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-funding">20,000,000 GNK · Community Pool</span></div>
-  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 1,195,319 / 741,825 (161.1%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -119,7 +115,6 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.5</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 428,459 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
-  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 428,459 / 741,825 (57.8%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -133,7 +128,6 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Bandwidth Limits</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 257,565 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
-  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 257,565 / 741,825 (34.7%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -147,7 +141,6 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Bandwidth Limits</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 349,596 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
-  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 349,596 / 741,825 (47.1%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -161,7 +154,6 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Bandwidth Limits</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 287,496 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
-  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 287,496 / 741,825 (38.8%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -175,7 +167,6 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Higher Bandwidth Limits & Voting Time Back to 24H</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 394,887 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
-  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 394,887 / 741,825 (53.2%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -189,7 +180,6 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.4</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 286,826 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
-  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 286,826 / 741,825 (38.7%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -203,7 +193,6 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.3</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 132,672 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
-  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 132,672 / 741,825 (17.9%) · Quorum 25% ✗</span></div>
 </div>
 
 </div>
