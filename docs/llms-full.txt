@@ -23354,7 +23354,7 @@ Models / IBC2
   
   We will run hundreds of experiments across different target audience hypotheses and set up the basis: acquisition funnels, analytics, sharable target audience deep understanding. Our key performance m…
   Yes 2,858 (3.9%) · No 8 (0.0%) · Veto 14,884 (20.3%) · Abstain 55,418 (75.7%)600,000 GNK · $36,000 · Community Pool
-  ✗ Turnout 73,168 / 763,960 (9.6%) · Quorum 25% (190,990)
+  ✗ Turnout 73,168 / 741,825 (9.9%) · Quorum 25% (185,456)
 
   
     #84 – Bringing $3M+ in New Capital to GONKA via Uniswap — Phase 1/6 ($50k USDT)
@@ -24286,7 +24286,7 @@ Models / IBC2
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-84 proposals across 5 quarters. Last updated: 2026-07-11 21:29 UTC
+84 proposals across 5 quarters. Last updated: 2026-07-11 21:50 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -49489,7 +49489,7 @@ GRC / Restitution1
   
   We will run hundreds of experiments across different target audience hypotheses and set up the basis: acquisition funnels, analytics, sharable target audience deep understanding. Our key performance m…
   Yes 2,858 (3.9%) · No 8 (0.0%) · Veto 14,884 (20.3%) · Abstain 55,418 (75.7%)600,000 GNK · $36,000 · Community Pool
-  ✗ Turnout 73,168 / 763,960 (9.6%) · Quorum 25% (190,990)
+  ✗ Turnout 73,168 / 741,825 (9.9%) · Quorum 25% (185,456)
 
   
     #84 – Bringing $3M+ in New Capital to GONKA via Uniswap — Phase 1/6 ($50k USDT)
@@ -51526,7 +51526,7 @@ Governance holds an option to cancel the initiative and returns all remaining fu
     Veto 14,884 (20.3%)
     Abstain 55,418 (75.7%)
     Total 73,168 votes
-    ✗ Turnout 73,168 / 763,960 (9.6%) · Quorum 25% (190,990)
+    ✗ Turnout 73,168 / 741,825 (9.9%) · Quorum 25% (185,456)
   
 
 ---
