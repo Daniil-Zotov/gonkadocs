@@ -42,5 +42,6 @@ jobs:
             echo "No changes — skipping commit."
           else
             git commit -m "chore(docs): sync gonka.vote pre-proposals + regenerate llms files"
+            git pull --rebase origin main
             git push
           fi
