@@ -1173,7 +1173,7 @@ template: proposals-oview.html
 
 </div>
 <div class="prop-oview-stats">
-<em>84 proposals across 5 quarters. Last updated: 2026-07-11 06:51 UTC</em>
+<em>84 proposals across 5 quarters. Last updated: 2026-07-11 07:09 UTC</em>
 </div>
 
 <script>
@@ -1223,9 +1223,9 @@ function initCountdowns() {
       var h = Math.floor((diff % 86400000) / 3600000);
       var m = Math.floor((diff % 3600000) / 60000);
       var s = Math.floor((diff % 60000) / 1000);
-      if (d > 0) el.textContent = d + 'd ' + h + 'h ' + m + 'm ' + s + 's';
-      else if (h > 0) el.textContent = h + 'h ' + m + 'm ' + s + 's';
-      else el.textContent = m + 'm ' + s + 's';
+      if (d > 0) el.textContent = d + 'd ' + h + 'h ' + m + 'm';
+      else if (h > 0) el.textContent = h + 'h ' + m + 'm';
+      else el.textContent = m + 'm';
     }
     update();
     setInterval(update, 1000);
