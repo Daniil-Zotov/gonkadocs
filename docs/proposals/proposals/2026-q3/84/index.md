@@ -10,7 +10,7 @@ template: proposals-proposals-main.html
 
 <div class="prop-detail-header" markdown="1">
 
-<div class="prop-badge-row"><span class="prop-badge prop-voting">Voting</span><span class="prop-vote-countdown prop-vote-countdown-detail" data-deadline="2026-07-11T18:14:41.335202384Z"></span></div>
+<span class="prop-badge prop-rejected">Rejected</span>
 
 **Proposal ID:** `84`
 
@@ -24,7 +24,9 @@ template: proposals-proposals-main.html
 
 **Metadata:** [https://gonka.vote/proposal/f341b83c-78f0-4ab2-b8fd-ddc7ac5d9c37](https://gonka.vote/proposal/f341b83c-78f0-4ab2-b8fd-ddc7ac5d9c37)
 
-<div class="prop-funding-line prop-funding-line-voting">20,000 GNK · $50,000 · Community Pool</div>
+**Failed reason:** proposal did not get enough votes to pass
+
+<div class="prop-funding-line prop-funding-line-rejected">20,000 GNK · $50,000 · Community Pool</div>
 
 
 [View on gonka.gg](https://gonka.gg/network/proposals/84){:target="_blank"}

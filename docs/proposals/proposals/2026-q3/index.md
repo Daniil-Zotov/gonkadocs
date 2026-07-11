@@ -34,7 +34,7 @@ template: proposals-oview.html
 <div class="qs-stats">
 <div class="qs-stat total"><span class="qs-num">6</span><span class="qs-desc">Total Proposals</span></div>
 <div class="qs-stat passed"><span class="qs-num">2</span><span class="qs-desc">Passed (33%)</span></div>
-<div class="qs-stat rejected"><span class="qs-num">2</span><span class="qs-desc">Rejected (33%)</span></div>
+<div class="qs-stat rejected"><span class="qs-num">3</span><span class="qs-desc">Rejected (50%)</span></div>
 
 </div>
 
@@ -67,18 +67,17 @@ template: proposals-oview.html
   <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout 73,168 / 741,825 (9.9%) · Quorum 25% (185,456)</span></div>
 </div>
 
-<div class="prop-card" data-status="prop-voting" data-voting-end="2026-07-11T18:14:41.335202384Z">
+<div class="prop-card" data-status="prop-rejected">
   <div class="prop-card-header">
     <a href="84/" class="prop-card-title">#84 – Bringing $3M+ in New Capital to GONKA via Uniswap — Phase 1/6 ($50k USDT)</a>
-    <span class="prop-vote-countdown" data-deadline="2026-07-11T18:14:41.335202384Z"></span>
-    <span class="prop-badge prop-voting">Voting</span>
+    <span class="prop-badge prop-rejected">Rejected</span>
   </div>
   <div class="prop-card-meta">
     <span>Submitted 2026-07-09</span>
     <span>Voting ends 2026-07-11</span>
   </div>
   <div class="prop-card-desc">My name is Andrey Orlovsky, and through this proposal I represent our team and an initiative to attract at least $3 million in new long-term capital to GONKA through Uniswap.  Below is a condensed ver…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 1,221 (0.4%)</span> · <span class="prop-tally-no-text">No 2,404 (0.8%)</span> · <span class="prop-tally-veto-text">Veto 290,022 (98.8%)</span> · <span class="prop-tally-abstain-text">Abstain 3 (0.0%)</span><span class="prop-card-funding prop-card-funding-voting">20,000 GNK · $50,000 · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 1,221 (0.4%)</span> · <span class="prop-tally-no-text">No 2,404 (0.8%)</span> · <span class="prop-tally-veto-text">Veto 290,022 (98.8%)</span> · <span class="prop-tally-abstain-text">Abstain 3 (0.0%)</span><span class="prop-card-funding prop-card-funding-rejected">20,000 GNK · $50,000 · Community Pool</span></div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout 293,650 / 741,825 (39.6%) · Quorum 25% (185,456)</span></div>
 </div>
 
