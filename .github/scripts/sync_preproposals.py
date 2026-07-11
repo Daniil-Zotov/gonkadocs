@@ -455,7 +455,7 @@ def update_mkdocs_nav(active, expired):
 
     new_nav = "\n".join(nav_lines)
 
-    pattern = r"    - Pre-Proposals:.*?(?=\n  - )"
+    pattern = r"    - Pre-Proposals:.*?(?=\n    - )"
     replacement = new_nav
 
     new_content = re.sub(pattern, replacement, content, flags=re.DOTALL)
