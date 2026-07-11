@@ -76,16 +76,16 @@ Additional materials, proof of our work, landing page examples, creatives, adver
 <div class="prop-tally">
   <div class="prop-tally-bar">
     <div class="prop-tally-yes" style="width:0.0%"></div>
-    <div class="prop-tally-no" style="width:0.0%"></div>
-    <div class="prop-tally-veto" style="width:100.0%"></div>
+    <div class="prop-tally-no" style="width:0.7%"></div>
+    <div class="prop-tally-veto" style="width:99.3%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
     <span class="prop-tally-yes-text">Yes 0 (0.0%)</span>
-    <span class="prop-tally-no-text">No 0 (0.0%)</span>
-    <span class="prop-tally-veto-text">Veto 287,881 (100.0%)</span>
+    <span class="prop-tally-no-text">No 1,988 (0.7%)</span>
+    <span class="prop-tally-veto-text">Veto 287,881 (99.3%)</span>
     <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span>
-    <span class="prop-tally-total-text">Total 287,881 votes</span>
+    <span class="prop-tally-total-text">Total 289,869 votes</span>
   </div>
 </div>
 
