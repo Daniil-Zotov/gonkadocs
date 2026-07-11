@@ -658,5 +658,29 @@ function initProposalsPage() {
   checkboxes.forEach(function(cb) { cb.addEventListener('change', apply); });
   apply();
 }
-document$.subscribe(initProposalsPage);
+
+function initCountdowns() {
+  document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
+    var deadline = new Date(el.getAttribute('data-deadline'));
+    function update() {
+      var diff = deadline - new Date();
+      if (diff <= 0) {
+        el.textContent = 'Ended';
+        el.classList.add('ended');
+        return;
+      }
+      var d = Math.floor(diff / 86400000);
+      var h = Math.floor((diff % 86400000) / 3600000);
+      var m = Math.floor((diff % 3600000) / 60000);
+      var s = Math.floor((diff % 60000) / 1000);
+      if (d > 0) el.textContent = d + 'd ' + h + 'h ' + m + 'm ' + s + 's';
+      else if (h > 0) el.textContent = h + 'h ' + m + 'm ' + s + 's';
+      else el.textContent = m + 'm ' + s + 's';
+    }
+    update();
+    setInterval(update, 1000);
+  });
+}
+
+document$.subscribe(function() { initProposalsPage(); initCountdowns(); });
 </script>

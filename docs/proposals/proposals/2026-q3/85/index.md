@@ -8,7 +8,7 @@ template: proposals-proposals-main.html
 
 <div class="prop-detail-header" markdown="1">
 
-<span class="prop-badge prop-voting">Voting</span>
+<span class="prop-badge prop-voting">Voting</span><div class="prop-vote-countdown prop-vote-countdown-detail" data-deadline="2026-07-12T00:41:08.740427072Z"></div>
 
 **Proposal ID:** `85`
 
