@@ -64,7 +64,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">We will run hundreds of experiments across different target audience hypotheses and set up the basis: acquisition funnels, analytics, sharable target audience deep understanding. Our key performance m…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 2,858 (3.9%)</span> · <span class="prop-tally-no-text">No 8 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 14,884 (20.3%)</span> · <span class="prop-tally-abstain-text">Abstain 55,418 (75.7%)</span><span class="prop-card-funding prop-card-funding-voting">600,000 GNK · $36,000 · Community Pool</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout 73,168 / 757,014 (9.7%) · Quorum 25% (189,253)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout 73,168 / 763,960 (9.6%) · Quorum 25% (190,990)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
