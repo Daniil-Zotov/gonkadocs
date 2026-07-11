@@ -631,30 +631,9 @@ h2#full-proposal {
   color: #ff7b72;
 }
 
-.prop-card-turnout-row {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin-top: 6px;
+.prop-card .prop-quorum {
+  margin-top: 8px;
+  padding: 6px 10px;
   font-size: 12px;
-}
-
-.prop-card-turnout {
-  font-variant-numeric: tabular-nums;
-}
-
-.prop-card-turnout-met {
-  color: #1a7f37;
-}
-
-[data-md-color-scheme="slate"] .prop-card-turnout-met {
-  color: #3fb950;
-}
-
-.prop-card-turnout-not-met {
-  color: #cf222e;
-}
-
-[data-md-color-scheme="slate"] .prop-card-turnout-not-met {
-  color: #ff7b72;
+  gap: 6px;
 }

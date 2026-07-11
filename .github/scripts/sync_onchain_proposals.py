@@ -766,8 +766,15 @@ template: proposals-oview.html
                     _turnout_pct = total_t / _vp * 100
                     _quorum_needed = int(_vp * QUORUM)
                     _quorum_met = total_t >= _quorum_needed
-                    _turnout_cls = "prop-card-turnout-met" if _quorum_met else "prop-card-turnout-not-met"
-                    _turnout_html = f'<span class="prop-card-turnout {_turnout_cls}">Turnout {total_t:,} / {_vp:,} ({_turnout_pct:.1f}%) · Quorum {QUORUM*100:.0f}% {"✓" if _quorum_met else "✗"}</span>'
+                    _quorum_css = "prop-quorum-met-bg" if _quorum_met else "prop-quorum-not-met-bg"
+                    _turnout_html = f"""
+  <div class="prop-quorum {_quorum_css}">
+    <span class="prop-quorum-label">Turnout</span>
+    <span class="prop-quorum-value">{total_t:,} / {_vp:,} ({_turnout_pct:.1f}%)</span>
+    <span class="prop-quorum-label">Quorum</span>
+    <span class="prop-quorum-value">{QUORUM*100:.0f}% ({_quorum_needed:,})</span>
+    <span class="prop-quorum-status {'prop-quorum-met' if _quorum_met else 'prop-quorum-not-met'}">{'✓' if _quorum_met else '✗'}</span>
+  </div>"""
 
                 _funding_html = ""
                 _amt_by_source = parse_amounts_by_source(p.get("messages", []))
@@ -783,7 +790,7 @@ template: proposals-oview.html
 
                 md += f'  <div class="prop-card-tally">{_tally_line}{_funding_html}</div>\n'
                 if _turnout_html:
-                    md += f'  <div class="prop-card-turnout-row">{_turnout_html}</div>\n'
+                    md += _turnout_html + "\n"
 
             md += "</div>\n\n"
 
@@ -996,8 +1003,15 @@ template: proposals-oview.html
                 _turnout_pct = total_t / _vp * 100
                 _quorum_needed = int(_vp * QUORUM)
                 _quorum_met = total_t >= _quorum_needed
-                _turnout_cls = "prop-card-turnout-met" if _quorum_met else "prop-card-turnout-not-met"
-                _turnout_html = f'<span class="prop-card-turnout {_turnout_cls}">Turnout {total_t:,} / {_vp:,} ({_turnout_pct:.1f}%) · Quorum {QUORUM*100:.0f}% {"✓" if _quorum_met else "✗"}</span>'
+                _quorum_css = "prop-quorum-met-bg" if _quorum_met else "prop-quorum-not-met-bg"
+                _turnout_html = f"""
+  <div class="prop-quorum {_quorum_css}">
+    <span class="prop-quorum-label">Turnout</span>
+    <span class="prop-quorum-value">{total_t:,} / {_vp:,} ({_turnout_pct:.1f}%)</span>
+    <span class="prop-quorum-label">Quorum</span>
+    <span class="prop-quorum-value">{QUORUM*100:.0f}% ({_quorum_needed:,})</span>
+    <span class="prop-quorum-status {'prop-quorum-met' if _quorum_met else 'prop-quorum-not-met'}">{'✓' if _quorum_met else '✗'}</span>
+  </div>"""
 
             _funding_html = ""
             _amt_by_source = parse_amounts_by_source(p.get("messages", []))
@@ -1013,7 +1027,7 @@ template: proposals-oview.html
 
             md += f'  <div class="prop-card-tally">{_tally_line}{_funding_html}</div>\n'
             if _turnout_html:
-                md += f'  <div class="prop-card-turnout-row">{_turnout_html}</div>\n'
+                md += _turnout_html + "\n"
         md += "</div>\n\n"
 
     md += '''</div>
