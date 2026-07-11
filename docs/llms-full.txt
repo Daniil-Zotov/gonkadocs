@@ -23181,7 +23181,7 @@ alexandr8475
 
 84Total Proposals
 54Passed (64%)
-27Rejected (32%)
+28Rejected (33%)
 1Failed (1%)
 
 Funding / Grants38
@@ -23212,8 +23212,7 @@ Models / IBC2
 
   
     #84 – Bringing $3M+ in New Capital to GONKA via Uniswap — Phase 1/6 ($50k USDT)
-    
-    Voting
+    Rejected
   
   
     Submitted 2026-07-09
@@ -24141,7 +24140,7 @@ Models / IBC2
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-84 proposals across 5 quarters. Last updated: 2026-07-11 17:37 UTC
+84 proposals across 5 quarters. Last updated: 2026-07-11 18:50 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -49322,7 +49321,7 @@ Contract Details
 
 6Total Proposals
 2Passed (33%)
-2Rejected (33%)
+3Rejected (50%)
 
 Funding / Grants4
 Governance Parameters1
@@ -49348,8 +49347,7 @@ GRC / Restitution1
 
   
     #84 – Bringing $3M+ in New Capital to GONKA via Uniswap — Phase 1/6 ($50k USDT)
-    
-    Voting
+    Rejected
   
   
     Submitted 2026-07-09
@@ -49973,7 +49971,7 @@ https://gonka.vote/proposal/f341b83c-78f0-4ab2-b8fd-ddc7ac5d9c37
 
 # #84 – Bringing $3M+ in New Capital to GONKA via Uniswap — Phase 1/6 ($50k USDT)
 
-Voting
+Rejected
 
 **Proposal ID:** `84`
 
@@ -49986,6 +49984,8 @@ Voting
 **Proposer:** [`gonka1njlf4guhkf60tt8z4ayf4sx73nkf5vsumjplat`](https://gonka.gg/address/gonka1njlf4guhkf60tt8z4ayf4sx73nkf5vsumjplat){:target="_blank"}
 
 **Metadata:** [https://gonka.vote/proposal/f341b83c-78f0-4ab2-b8fd-ddc7ac5d9c37](https://gonka.vote/proposal/f341b83c-78f0-4ab2-b8fd-ddc7ac5d9c37)
+
+**Failed reason:** proposal did not get enough votes to pass
 
 20,000 GNK · $50,000 · Community Pool
 
