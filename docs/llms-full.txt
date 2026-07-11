@@ -23167,6 +23167,7 @@ Models / IBC2
     Voting
   
   
+  
     Submitted 2026-07-10
     Voting ends 2026-07-12
   
@@ -23176,6 +23177,7 @@ Models / IBC2
   
     #84 – Bringing $3M+ in New Capital to GONKA via Uniswap — Phase 1/6 ($50k USDT)
     Voting
+  
   
   
     Submitted 2026-07-09
@@ -23189,11 +23191,12 @@ Models / IBC2
     Voting
   
   
+  
     Submitted 2026-07-09
     Voting ends 2026-07-11
   
   Update current chain params by adding v3 to devshard_escrow_params.approved_versions.
-  Yes 393,382 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 395,370 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
   
     #82 – External Test Lab x Community DevNet
@@ -24098,7 +24101,7 @@ Models / IBC2
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-84 proposals across 5 quarters. Last updated: 2026-07-11 04:23 UTC
+84 proposals across 5 quarters. Last updated: 2026-07-11 06:22 UTC
 
 function initProposalsPage() {
   var checkboxes = document.querySelectorAll('.prop-oview-filter input[type=checkbox]');
@@ -24132,7 +24135,21 @@ function initProposalsPage() {
   apply();
 }
 
-document$.subscribe(initProposalsPage);
+function initCountdowns() {
+  document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
+    var deadline = new Date(el.getAttribute('data-deadline'));
+    function update() {
+      var diff = deadline - new Date();
+      if (diff  0) el.textContent = d + 'd ' + h + 'h ' + m + 'm ' + s + 's';
+      else if (h > 0) el.textContent = h + 'h ' + m + 'm ' + s + 's';
+      else el.textContent = m + 'm ' + s + 's';
+    }
+    update();
+    setInterval(update, 1000);
+  });
+}
+
+document$.subscribe(function() { initProposalsPage(); initCountdowns(); });
 
 ---
 
@@ -24683,7 +24700,22 @@ function initProposalsPage() {
   checkboxes.forEach(function(cb) { cb.addEventListener('change', apply); });
   apply();
 }
-document$.subscribe(initProposalsPage);
+
+function initCountdowns() {
+  document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
+    var deadline = new Date(el.getAttribute('data-deadline'));
+    function update() {
+      var diff = deadline - new Date();
+      if (diff  0) el.textContent = d + 'd ' + h + 'h ' + m + 'm ' + s + 's';
+      else if (h > 0) el.textContent = h + 'h ' + m + 'm ' + s + 's';
+      else el.textContent = m + 'm ' + s + 's';
+    }
+    update();
+    setInterval(update, 1000);
+  });
+}
+
+document$.subscribe(function() { initProposalsPage(); initCountdowns(); });
 
 ---
 
@@ -46438,7 +46470,22 @@ function initProposalsPage() {
   checkboxes.forEach(function(cb) { cb.addEventListener('change', apply); });
   apply();
 }
-document$.subscribe(initProposalsPage);
+
+function initCountdowns() {
+  document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
+    var deadline = new Date(el.getAttribute('data-deadline'));
+    function update() {
+      var diff = deadline - new Date();
+      if (diff  0) el.textContent = d + 'd ' + h + 'h ' + m + 'm ' + s + 's';
+      else if (h > 0) el.textContent = h + 'h ' + m + 'm ' + s + 's';
+      else el.textContent = m + 'm ' + s + 's';
+    }
+    update();
+    setInterval(update, 1000);
+  });
+}
+
+document$.subscribe(function() { initProposalsPage(); initCountdowns(); });
 
 ---
 
@@ -47536,7 +47583,22 @@ function initProposalsPage() {
   checkboxes.forEach(function(cb) { cb.addEventListener('change', apply); });
   apply();
 }
-document$.subscribe(initProposalsPage);
+
+function initCountdowns() {
+  document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
+    var deadline = new Date(el.getAttribute('data-deadline'));
+    function update() {
+      var diff = deadline - new Date();
+      if (diff  0) el.textContent = d + 'd ' + h + 'h ' + m + 'm ' + s + 's';
+      else if (h > 0) el.textContent = h + 'h ' + m + 'm ' + s + 's';
+      else el.textContent = m + 'm ' + s + 's';
+    }
+    update();
+    setInterval(update, 1000);
+  });
+}
+
+document$.subscribe(function() { initProposalsPage(); initCountdowns(); });
 
 ---
 
@@ -49343,6 +49405,7 @@ GRC / Restitution1
     Voting
   
   
+  
     Submitted 2026-07-10
     Voting ends 2026-07-12
   
@@ -49352,6 +49415,7 @@ GRC / Restitution1
   
     #84 – Bringing $3M+ in New Capital to GONKA via Uniswap — Phase 1/6 ($50k USDT)
     Voting
+  
   
   
     Submitted 2026-07-09
@@ -49365,11 +49429,12 @@ GRC / Restitution1
     Voting
   
   
+  
     Submitted 2026-07-09
     Voting ends 2026-07-11
   
   Update current chain params by adding v3 to devshard_escrow_params.approved_versions.
-  Yes 393,382 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 395,370 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
   
     #82 – External Test Lab x Community DevNet
@@ -49434,7 +49499,22 @@ function initProposalsPage() {
   checkboxes.forEach(function(cb) { cb.addEventListener('change', apply); });
   apply();
 }
-document$.subscribe(initProposalsPage);
+
+function initCountdowns() {
+  document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
+    var deadline = new Date(el.getAttribute('data-deadline'));
+    function update() {
+      var diff = deadline - new Date();
+      if (diff  0) el.textContent = d + 'd ' + h + 'h ' + m + 'm ' + s + 's';
+      else if (h > 0) el.textContent = h + 'h ' + m + 'm ' + s + 's';
+      else el.textContent = m + 'm ' + s + 's';
+    }
+    update();
+    setInterval(update, 1000);
+  });
+}
+
+document$.subscribe(function() { initProposalsPage(); initCountdowns(); });
 
 ---
 
@@ -50734,11 +50814,11 @@ Update current chain params by adding v3 to devshard_escrow_params.approved_vers
     
   
   
-    Yes 393,382 (100.0%)
+    Yes 395,370 (100.0%)
     No 0 (0.0%)
     Veto 0 (0.0%)
     Abstain 0 (0.0%)
-    Total 393,382 votes
+    Total 395,370 votes
   
 
 ---
@@ -52220,7 +52300,22 @@ function initProposalsPage() {
   checkboxes.forEach(function(cb) { cb.addEventListener('change', apply); });
   apply();
 }
-document$.subscribe(initProposalsPage);
+
+function initCountdowns() {
+  document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
+    var deadline = new Date(el.getAttribute('data-deadline'));
+    function update() {
+      var diff = deadline - new Date();
+      if (diff  0) el.textContent = d + 'd ' + h + 'h ' + m + 'm ' + s + 's';
+      else if (h > 0) el.textContent = h + 'h ' + m + 'm ' + s + 's';
+      else el.textContent = m + 'm ' + s + 's';
+    }
+    update();
+    setInterval(update, 1000);
+  });
+}
+
+document$.subscribe(function() { initProposalsPage(); initCountdowns(); });
 
 ---
 
