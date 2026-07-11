@@ -436,22 +436,8 @@ def update_mkdocs_nav(active, expired):
     nav_lines = []
     nav_lines.append("    - Pre-Proposals:")
     nav_lines.append("      - Overview: proposals/preproposals/index.md")
-
-    if active:
-        nav_lines.append("      - Active:")
-        for p in sorted(active, key=lambda x: x.get("closes_at", "")):
-            pid = p["id"]
-            title = clean_title(p.get("title", "Untitled"))
-            title_esc = title.replace('"', '\\"')
-            nav_lines.append(f"        - \"{title_esc}\": proposals/preproposals/{pid}/index.md")
-
-    if expired:
-        nav_lines.append("      - Expired:")
-        for p in sorted(expired, key=lambda x: x.get("closes_at", ""), reverse=True):
-            pid = p["id"]
-            title = clean_title(p.get("title", "Untitled"))
-            title_esc = title.replace('"', '\\"')
-            nav_lines.append(f"        - \"{title_esc}\": proposals/preproposals/{pid}/index.md")
+    nav_lines.append("      - Active: proposals/preproposals/index.md")
+    nav_lines.append("      - Expired: proposals/preproposals/index.md")
 
     new_nav = "\n".join(nav_lines)
 
