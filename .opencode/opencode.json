@@ -28,7 +28,7 @@
   },
   "permission": {
     "bash": {
-      "git *": "allow",
+      "git*": "allow",
       "python3 *": "allow",
       "mkdir *": "allow",
       "cp *": "allow",
