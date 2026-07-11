@@ -1179,7 +1179,7 @@ template: proposals-oview.html
 
 </div>
 <div class="prop-oview-stats">
-<em>84 proposals across 5 quarters. Last updated: 2026-07-11 11:21 UTC</em>
+<em>84 proposals across 5 quarters. Last updated: 2026-07-11 11:30 UTC</em>
 </div>
 
 <script>
