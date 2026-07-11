@@ -50,6 +50,7 @@ Adds a community-operated wallet to devshard_escrow_params.allowed_creator_addre
     <span class="prop-tally-veto-text">Veto 221,234 (90.7%)</span>
     <span class="prop-tally-abstain-text">Abstain 9,421 (3.9%)</span>
     <span class="prop-tally-total-text">Total 243,945 votes</span>
+    
   </div>
 </div>
 

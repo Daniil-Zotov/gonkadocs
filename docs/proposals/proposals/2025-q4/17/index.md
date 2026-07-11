@@ -46,6 +46,7 @@ Expected amount of Confirmation PoC per epoch to 4, p0 for binomial test to 0.1
     <span class="prop-tally-veto-text">Veto 0 (0.0%)</span>
     <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span>
     <span class="prop-tally-total-text">Total 3,261,498 votes</span>
+    
   </div>
 </div>
 

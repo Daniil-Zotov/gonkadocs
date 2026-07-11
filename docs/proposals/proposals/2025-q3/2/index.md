@@ -48,6 +48,7 @@ This proposal introduces new Qwen3 models including Qwen3-32B-FP8 and Qwen3-235B
     <span class="prop-tally-veto-text">Veto 0 (0.0%)</span>
     <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span>
     <span class="prop-tally-total-text">Total 62,612 votes</span>
+    
   </div>
 </div>
 

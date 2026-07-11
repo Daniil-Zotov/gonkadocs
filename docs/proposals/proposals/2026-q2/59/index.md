@@ -51,6 +51,7 @@ Funds milestone 1 (upfront prepayment) of a community-produced onboarding video 
     <span class="prop-tally-veto-text">Veto 0 (0.0%)</span>
     <span class="prop-tally-abstain-text">Abstain 31,699 (56.4%)</span>
     <span class="prop-tally-total-text">Total 56,204 votes</span>
+    
   </div>
 </div>
 

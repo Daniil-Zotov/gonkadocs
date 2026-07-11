@@ -49,6 +49,7 @@ template: proposals-proposals-main.html
     <span class="prop-tally-veto-text">Veto 64,217 (10.2%)</span>
     <span class="prop-tally-abstain-text">Abstain 168,275 (26.7%)</span>
     <span class="prop-tally-total-text">Total 629,262 votes</span>
+    
   </div>
 </div>
 

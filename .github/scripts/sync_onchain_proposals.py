@@ -489,9 +489,15 @@ def generate_proposal_page(proposal, prop_dir, total_voting_power=0):
 
     # Tally section if voting period ended
     tally_html = ""
-    turnout_html = ""
     if total_votes > 0:
         pct = lambda v: f"{(v / total_votes * 100):.1f}%" if total_votes > 0 else "0%"
+        _turnout_line = ""
+        if total_voting_power > 0 and voting_end_iso and voting_end_iso[:10] >= QUORUM_CUTOFF:
+            turnout_pct = total_votes / total_voting_power * 100
+            quorum_needed = int(total_voting_power * QUORUM)
+            quorum_met = total_votes >= quorum_needed
+            _turnout_cls = "prop-tally-yes-text" if quorum_met else "prop-tally-veto-text"
+            _turnout_line = f'<span class="{_turnout_cls}">{"✓" if quorum_met else "✗"} Turnout {total_votes:,} / {total_voting_power:,} ({turnout_pct:.1f}%) · Quorum {QUORUM*100:.0f}% ({quorum_needed:,})</span>'
         tally_html = f"""
 <div class="prop-tally">
   <div class="prop-tally-bar">
@@ -506,21 +512,8 @@ def generate_proposal_page(proposal, prop_dir, total_voting_power=0):
     <span class="prop-tally-veto-text">Veto {no_with_veto_count:,} ({pct(no_with_veto_count)})</span>
     <span class="prop-tally-abstain-text">Abstain {abstain_count:,} ({pct(abstain_count)})</span>
     <span class="prop-tally-total-text">Total {total_votes:,} votes</span>
+    {_turnout_line}
   </div>
-</div>
-"""
-        if total_voting_power > 0 and voting_end_iso and voting_end_iso[:10] >= QUORUM_CUTOFF:
-            turnout_pct = total_votes / total_voting_power * 100
-            quorum_needed = int(total_voting_power * QUORUM)
-            quorum_met = total_votes >= quorum_needed
-            _quorum_css_cls = "prop-quorum-met-bg" if quorum_met else "prop-quorum-not-met-bg"
-            turnout_html = f"""
-<div class="prop-quorum {_quorum_css_cls}">
-  <span class="prop-quorum-label">Turnout</span>
-  <span class="prop-quorum-value">{total_votes:,} / {total_voting_power:,} ({turnout_pct:.1f}%)</span>
-  <span class="prop-quorum-label">Quorum</span>
-  <span class="prop-quorum-value">{QUORUM*100:.0f}% ({quorum_needed:,} votes)</span>
-  <span class="prop-quorum-status {'prop-quorum-met' if quorum_met else 'prop-quorum-not-met'}">{'✓ MET' if quorum_met else '✗ NOT MET'}</span>
 </div>
 """
 
@@ -586,7 +579,7 @@ template: proposals-proposals-main.html
     if tally_html:
         md += f"""## Final Tally
 
-{tally_html}{turnout_html}
+{tally_html}
 
 ---
 
@@ -761,20 +754,13 @@ template: proposals-oview.html
                 _tally_line = f'<span class="prop-tally-yes-text">Yes {yes_c:,} {_pct(yes_c)}</span> · <span class="prop-tally-no-text">No {no_c:,} {_pct(no_c)}</span> · <span class="prop-tally-veto-text">Veto {veto_c:,} {_pct(veto_c)}</span> · <span class="prop-tally-abstain-text">Abstain {abstain_c:,} {_pct(abstain_c)}</span>'
 
                 _vp = proposal_voting_power.get(pid, 0)
-                _turnout_html = ""
+                _turnout_line = ""
                 if _vp > 0 and total_t > 0 and voting_end_iso[:10] >= QUORUM_CUTOFF:
                     _turnout_pct = total_t / _vp * 100
                     _quorum_needed = int(_vp * QUORUM)
                     _quorum_met = total_t >= _quorum_needed
-                    _quorum_css = "prop-quorum-met-bg" if _quorum_met else "prop-quorum-not-met-bg"
-                    _turnout_html = f"""
-  <div class="prop-quorum {_quorum_css}">
-    <span class="prop-quorum-label">Turnout</span>
-    <span class="prop-quorum-value">{total_t:,} / {_vp:,} ({_turnout_pct:.1f}%)</span>
-    <span class="prop-quorum-label">Quorum</span>
-    <span class="prop-quorum-value">{QUORUM*100:.0f}% ({_quorum_needed:,})</span>
-    <span class="prop-quorum-status {'prop-quorum-met' if _quorum_met else 'prop-quorum-not-met'}">{'✓' if _quorum_met else '✗'}</span>
-  </div>"""
+                    _turnout_cls = "prop-tally-yes-text" if _quorum_met else "prop-tally-veto-text"
+                    _turnout_line = f'<span class="{_turnout_cls}">{"✓" if _quorum_met else "✗"} Turnout {total_t:,} / {_vp:,} ({_turnout_pct:.1f}%) · Quorum {QUORUM*100:.0f}% ({_quorum_needed:,})</span>'
 
                 _funding_html = ""
                 _amt_by_source = parse_amounts_by_source(p.get("messages", []))
@@ -789,8 +775,8 @@ template: proposals-oview.html
                     _funding_html = f'<span class="{_funding_cls}">{" · ".join(_funding_parts)}</span>'
 
                 md += f'  <div class="prop-card-tally">{_tally_line}{_funding_html}</div>\n'
-                if _turnout_html:
-                    md += _turnout_html + "\n"
+                if _turnout_line:
+                    md += f'  <div class="prop-card-tally">{_turnout_line}</div>\n'
 
             md += "</div>\n\n"
 
@@ -998,20 +984,13 @@ template: proposals-oview.html
             _tally_line = f'<span class="prop-tally-yes-text">Yes {yes_c:,} {_pct(yes_c)}</span> · <span class="prop-tally-no-text">No {no_c:,} {_pct(no_c)}</span> · <span class="prop-tally-veto-text">Veto {veto_c:,} {_pct(veto_c)}</span> · <span class="prop-tally-abstain-text">Abstain {abstain_c:,} {_pct(abstain_c)}</span>'
 
             _vp = proposal_voting_power.get(pid, 0)
-            _turnout_html = ""
+            _turnout_line = ""
             if _vp > 0 and total_t > 0 and voting_end_iso[:10] >= QUORUM_CUTOFF:
                 _turnout_pct = total_t / _vp * 100
                 _quorum_needed = int(_vp * QUORUM)
                 _quorum_met = total_t >= _quorum_needed
-                _quorum_css = "prop-quorum-met-bg" if _quorum_met else "prop-quorum-not-met-bg"
-                _turnout_html = f"""
-  <div class="prop-quorum {_quorum_css}">
-    <span class="prop-quorum-label">Turnout</span>
-    <span class="prop-quorum-value">{total_t:,} / {_vp:,} ({_turnout_pct:.1f}%)</span>
-    <span class="prop-quorum-label">Quorum</span>
-    <span class="prop-quorum-value">{QUORUM*100:.0f}% ({_quorum_needed:,})</span>
-    <span class="prop-quorum-status {'prop-quorum-met' if _quorum_met else 'prop-quorum-not-met'}">{'✓' if _quorum_met else '✗'}</span>
-  </div>"""
+                _turnout_cls = "prop-tally-yes-text" if _quorum_met else "prop-tally-veto-text"
+                _turnout_line = f'<span class="{_turnout_cls}">{"✓" if _quorum_met else "✗"} Turnout {total_t:,} / {_vp:,} ({_turnout_pct:.1f}%) · Quorum {QUORUM*100:.0f}% ({_quorum_needed:,})</span>'
 
             _funding_html = ""
             _amt_by_source = parse_amounts_by_source(p.get("messages", []))
@@ -1026,8 +1005,8 @@ template: proposals-oview.html
                 _funding_html = f'<span class="{_funding_cls}">{" · ".join(_funding_parts)}</span>'
 
             md += f'  <div class="prop-card-tally">{_tally_line}{_funding_html}</div>\n'
-            if _turnout_html:
-                md += _turnout_html + "\n"
+            if _turnout_line:
+                md += f'  <div class="prop-card-tally">{_turnout_line}</div>\n'
         md += "</div>\n\n"
 
     md += '''</div>

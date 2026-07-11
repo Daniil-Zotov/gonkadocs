@@ -51,15 +51,8 @@ Distribute restitution for Kimi operators affected by cPoC validation failure in
     <span class="prop-tally-veto-text">Veto 183,094 (43.7%)</span>
     <span class="prop-tally-abstain-text">Abstain 18 (0.0%)</span>
     <span class="prop-tally-total-text">Total 419,449 votes</span>
+    <span class="prop-tally-yes-text">✓ Turnout 419,449 / 741,825 (56.5%) · Quorum 25% (185,456)</span>
   </div>
-</div>
-
-<div class="prop-quorum prop-quorum-met-bg">
-  <span class="prop-quorum-label">Turnout</span>
-  <span class="prop-quorum-value">419,449 / 741,825 (56.5%)</span>
-  <span class="prop-quorum-label">Quorum</span>
-  <span class="prop-quorum-value">25% (185,456 votes)</span>
-  <span class="prop-quorum-status prop-quorum-met">✓ MET</span>
 </div>
 
 

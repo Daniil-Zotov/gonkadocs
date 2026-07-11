@@ -55,15 +55,8 @@ Contract: code_id 107, checksum 94b141625b7641e6ad57266420b18a4af72eac49b8110cb9
     <span class="prop-tally-veto-text">Veto 94 (0.0%)</span>
     <span class="prop-tally-abstain-text">Abstain 6,141 (1.6%)</span>
     <span class="prop-tally-total-text">Total 374,787 votes</span>
+    <span class="prop-tally-yes-text">✓ Turnout 374,787 / 741,825 (50.5%) · Quorum 25% (185,456)</span>
   </div>
-</div>
-
-<div class="prop-quorum prop-quorum-met-bg">
-  <span class="prop-quorum-label">Turnout</span>
-  <span class="prop-quorum-value">374,787 / 741,825 (50.5%)</span>
-  <span class="prop-quorum-label">Quorum</span>
-  <span class="prop-quorum-value">25% (185,456 votes)</span>
-  <span class="prop-quorum-status prop-quorum-met">✓ MET</span>
 </div>
 
 

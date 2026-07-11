@@ -49,6 +49,7 @@ Full redesign of gonka.ai plus dedicated landing pages for miners, inference buy
     <span class="prop-tally-veto-text">Veto 70,043 (21.5%)</span>
     <span class="prop-tally-abstain-text">Abstain 34,369 (10.6%)</span>
     <span class="prop-tally-total-text">Total 325,210 votes</span>
+    
   </div>
 </div>
 

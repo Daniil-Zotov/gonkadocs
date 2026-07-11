@@ -51,6 +51,7 @@ Replace scattered governance discussions and complex CLI voting with a unified G
     <span class="prop-tally-veto-text">Veto 210,906 (45.6%)</span>
     <span class="prop-tally-abstain-text">Abstain 133,057 (28.8%)</span>
     <span class="prop-tally-total-text">Total 462,089 votes</span>
+    
   </div>
 </div>
 

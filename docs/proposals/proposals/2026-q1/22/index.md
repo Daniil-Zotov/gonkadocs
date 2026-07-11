@@ -46,6 +46,7 @@ Update Expiration Dates for Developer Access and Participant Allowlist
     <span class="prop-tally-veto-text">Veto 0 (0.0%)</span>
     <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span>
     <span class="prop-tally-total-text">Total 3,479,578 votes</span>
+    
   </div>
 </div>
 

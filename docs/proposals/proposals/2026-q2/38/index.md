@@ -51,6 +51,7 @@ If you agree say YES — Solution 1: Produce a short review video with 1-2 activ
     <span class="prop-tally-veto-text">Veto 7,893 (97.7%)</span>
     <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span>
     <span class="prop-tally-total-text">Total 8,076 votes</span>
+    
   </div>
 </div>
 

@@ -46,15 +46,8 @@ Update current chain params by adding v3 to devshard_escrow_params.approved_vers
     <span class="prop-tally-veto-text">Veto 0 (0.0%)</span>
     <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span>
     <span class="prop-tally-total-text">Total 395,370 votes</span>
+    <span class="prop-tally-yes-text">✓ Turnout 395,370 / 741,825 (53.3%) · Quorum 25% (185,456)</span>
   </div>
-</div>
-
-<div class="prop-quorum prop-quorum-met-bg">
-  <span class="prop-quorum-label">Turnout</span>
-  <span class="prop-quorum-value">395,370 / 741,825 (53.3%)</span>
-  <span class="prop-quorum-label">Quorum</span>
-  <span class="prop-quorum-value">25% (185,456 votes)</span>
-  <span class="prop-quorum-status prop-quorum-met">✓ MET</span>
 </div>
 
 

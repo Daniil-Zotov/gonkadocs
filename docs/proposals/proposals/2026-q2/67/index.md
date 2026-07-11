@@ -49,6 +49,7 @@ Distribute restitution for Kimi operators across epochs 265-276. Epochs 265-266:
     <span class="prop-tally-veto-text">Veto 84,623 (20.9%)</span>
     <span class="prop-tally-abstain-text">Abstain 744 (0.2%)</span>
     <span class="prop-tally-total-text">Total 405,437 votes</span>
+    
   </div>
 </div>
 

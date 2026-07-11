@@ -49,6 +49,7 @@ test proposal - 测试方案
     <span class="prop-tally-veto-text">Veto 579,377 (100.0%)</span>
     <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span>
     <span class="prop-tally-total-text">Total 579,377 votes</span>
+    
   </div>
 </div>
 

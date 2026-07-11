@@ -49,6 +49,7 @@ Distribute compensation proportional to epoch 158 lost preserved weights. Implem
     <span class="prop-tally-veto-text">Veto 0 (0.0%)</span>
     <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span>
     <span class="prop-tally-total-text">Total 501,114 votes</span>
+    
   </div>
 </div>
 

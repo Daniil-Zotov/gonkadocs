@@ -48,6 +48,7 @@ Upgrade Proposal: v0.2.7
     <span class="prop-tally-veto-text">Veto 8,096 (0.2%)</span>
     <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span>
     <span class="prop-tally-total-text">Total 4,042,856 votes</span>
+    
   </div>
 </div>
 

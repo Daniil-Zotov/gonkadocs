@@ -50,6 +50,7 @@ Remove TransferAgent allowlist restrictions (empty list = all TAs allowed) and i
     <span class="prop-tally-veto-text">Veto 243,060 (97.1%)</span>
     <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span>
     <span class="prop-tally-total-text">Total 250,374 votes</span>
+    
   </div>
 </div>
 

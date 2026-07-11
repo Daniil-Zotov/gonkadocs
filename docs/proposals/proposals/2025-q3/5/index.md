@@ -48,6 +48,7 @@ Expedite voting for upgrades
     <span class="prop-tally-veto-text">Veto 0 (0.0%)</span>
     <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span>
     <span class="prop-tally-total-text">Total 172,265 votes</span>
+    
   </div>
 </div>
 

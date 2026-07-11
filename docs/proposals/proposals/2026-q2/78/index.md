@@ -48,6 +48,7 @@ Set delegation initial_model_id to MiniMaxAI/MiniMax-M2.7, keep only MiniMaxAI/M
     <span class="prop-tally-veto-text">Veto 0 (0.0%)</span>
     <span class="prop-tally-abstain-text">Abstain 7,390 (2.8%)</span>
     <span class="prop-tally-total-text">Total 262,775 votes</span>
+    
   </div>
 </div>
 

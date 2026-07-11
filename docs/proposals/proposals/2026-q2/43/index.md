@@ -51,6 +51,7 @@ Today, participating in Gonka governance requires following multiple channels si
     <span class="prop-tally-veto-text">Veto 5,913 (1.3%)</span>
     <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span>
     <span class="prop-tally-total-text">Total 464,551 votes</span>
+    
   </div>
 </div>
 

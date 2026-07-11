@@ -51,15 +51,8 @@ Restitution payout for confirmed GRC Proposal #3 cases, with Case 05 payments fr
     <span class="prop-tally-veto-text">Veto 39,454 (25.1%)</span>
     <span class="prop-tally-abstain-text">Abstain 6,344 (4.0%)</span>
     <span class="prop-tally-total-text">Total 156,897 votes</span>
+    <span class="prop-tally-veto-text">✗ Turnout 156,897 / 741,825 (21.2%) · Quorum 25% (185,456)</span>
   </div>
-</div>
-
-<div class="prop-quorum prop-quorum-not-met-bg">
-  <span class="prop-quorum-label">Turnout</span>
-  <span class="prop-quorum-value">156,897 / 741,825 (21.2%)</span>
-  <span class="prop-quorum-label">Quorum</span>
-  <span class="prop-quorum-value">25% (185,456 votes)</span>
-  <span class="prop-quorum-status prop-quorum-not-met">✗ NOT MET</span>
 </div>
 
 

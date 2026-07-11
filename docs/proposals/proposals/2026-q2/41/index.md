@@ -63,6 +63,7 @@ Full proposal and discussion: <https://github.com/gonka-ai/gonka/discussions/108
     <span class="prop-tally-veto-text">Veto 0 (0.0%)</span>
     <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span>
     <span class="prop-tally-total-text">Total 31,449 votes</span>
+    
   </div>
 </div>
 

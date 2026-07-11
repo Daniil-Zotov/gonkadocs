@@ -64,14 +64,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">We will run hundreds of experiments across different target audience hypotheses and set up the basis: acquisition funnels, analytics, sharable target audience deep understanding. Our key performance m…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 2,858 (16.1%)</span> · <span class="prop-tally-no-text">No 8 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 14,884 (83.6%)</span> · <span class="prop-tally-abstain-text">Abstain 45 (0.3%)</span><span class="prop-card-funding prop-card-funding-voting">600,000 GNK · $36,000 · Community Pool</span></div>
-
-  <div class="prop-quorum prop-quorum-not-met-bg">
-    <span class="prop-quorum-label">Turnout</span>
-    <span class="prop-quorum-value">17,795 / 741,825 (2.4%)</span>
-    <span class="prop-quorum-label">Quorum</span>
-    <span class="prop-quorum-value">25% (185,456)</span>
-    <span class="prop-quorum-status prop-quorum-not-met">✗</span>
-  </div>
+  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout 17,795 / 741,825 (2.4%) · Quorum 25% (185,456)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-voting" data-voting-end="2026-07-11T18:14:41.335202384Z">
@@ -86,14 +79,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">My name is Andrey Orlovsky, and through this proposal I represent our team and an initiative to attract at least $3 million in new long-term capital to GONKA through Uniswap.  Below is a condensed ver…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 1,221 (0.4%)</span> · <span class="prop-tally-no-text">No 2,404 (0.8%)</span> · <span class="prop-tally-veto-text">Veto 290,022 (98.8%)</span> · <span class="prop-tally-abstain-text">Abstain 3 (0.0%)</span><span class="prop-card-funding prop-card-funding-voting">20,000 GNK · $50,000 · Community Pool</span></div>
-
-  <div class="prop-quorum prop-quorum-met-bg">
-    <span class="prop-quorum-label">Turnout</span>
-    <span class="prop-quorum-value">293,650 / 741,825 (39.6%)</span>
-    <span class="prop-quorum-label">Quorum</span>
-    <span class="prop-quorum-value">25% (185,456)</span>
-    <span class="prop-quorum-status prop-quorum-met">✓</span>
-  </div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout 293,650 / 741,825 (39.6%) · Quorum 25% (185,456)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -107,14 +93,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Update current chain params by adding v3 to devshard_escrow_params.approved_versions.</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 395,370 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
-
-  <div class="prop-quorum prop-quorum-met-bg">
-    <span class="prop-quorum-label">Turnout</span>
-    <span class="prop-quorum-value">395,370 / 741,825 (53.3%)</span>
-    <span class="prop-quorum-label">Quorum</span>
-    <span class="prop-quorum-value">25% (185,456)</span>
-    <span class="prop-quorum-status prop-quorum-met">✓</span>
-  </div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout 395,370 / 741,825 (53.3%) · Quorum 25% (185,456)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -128,14 +107,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">4-month pilot of the External Test Lab & Community DevNet: a community-owned testing layer for Gonka. Full proposal and discussion: <a href="https://github.com/gonka-ai/gonka/discussions/1388" target="_blank">https://github.com/gonka-ai/gonka/discussions/1388</a>  The budget is he…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 368,084 (98.2%)</span> · <span class="prop-tally-no-text">No 468 (0.1%)</span> · <span class="prop-tally-veto-text">Veto 94 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 6,141 (1.6%)</span><span class="prop-card-funding">80,000 GNK · $88,000 · Community Pool</span></div>
-
-  <div class="prop-quorum prop-quorum-met-bg">
-    <span class="prop-quorum-label">Turnout</span>
-    <span class="prop-quorum-value">374,787 / 741,825 (50.5%)</span>
-    <span class="prop-quorum-label">Quorum</span>
-    <span class="prop-quorum-value">25% (185,456)</span>
-    <span class="prop-quorum-status prop-quorum-met">✓</span>
-  </div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout 374,787 / 741,825 (50.5%) · Quorum 25% (185,456)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -149,14 +121,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Distribute restitution for Kimi operators affected by cPoC validation failure in epochs 306-309. The Kimi validation path failed starting in e306 causing confirmation_weight suppression for Kimi opera…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 235,728 (56.2%)</span> · <span class="prop-tally-no-text">No 609 (0.1%)</span> · <span class="prop-tally-veto-text">Veto 183,094 (43.7%)</span> · <span class="prop-tally-abstain-text">Abstain 18 (0.0%)</span><span class="prop-card-funding prop-card-funding-rejected">175,082 GNK · Gov Module</span></div>
-
-  <div class="prop-quorum prop-quorum-met-bg">
-    <span class="prop-quorum-label">Turnout</span>
-    <span class="prop-quorum-value">419,449 / 741,825 (56.5%)</span>
-    <span class="prop-quorum-label">Quorum</span>
-    <span class="prop-quorum-value">25% (185,456)</span>
-    <span class="prop-quorum-status prop-quorum-met">✓</span>
-  </div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout 419,449 / 741,825 (56.5%) · Quorum 25% (185,456)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -170,14 +135,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Restitution payout for confirmed GRC Proposal #3 cases, with Case 05 payments from proposal_id=67 deducted where the same address and epoch were already compensated, and positive victim outputs below …</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 16,378 (10.4%)</span> · <span class="prop-tally-no-text">No 94,721 (60.4%)</span> · <span class="prop-tally-veto-text">Veto 39,454 (25.1%)</span> · <span class="prop-tally-abstain-text">Abstain 6,344 (4.0%)</span><span class="prop-card-funding prop-card-funding-rejected">47,850 GNK · Community Pool · 70,184 GNK · Gov Module</span></div>
-
-  <div class="prop-quorum prop-quorum-not-met-bg">
-    <span class="prop-quorum-label">Turnout</span>
-    <span class="prop-quorum-value">156,897 / 741,825 (21.2%)</span>
-    <span class="prop-quorum-label">Quorum</span>
-    <span class="prop-quorum-value">25% (185,456)</span>
-    <span class="prop-quorum-status prop-quorum-not-met">✗</span>
-  </div>
+  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout 156,897 / 741,825 (21.2%) · Quorum 25% (185,456)</span></div>
 </div>
 
 </div>

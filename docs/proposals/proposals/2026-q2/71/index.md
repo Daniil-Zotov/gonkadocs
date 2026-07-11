@@ -51,6 +51,7 @@ We're a comms team specializing in Organic PR for crypto and tech projects. With
     <span class="prop-tally-veto-text">Veto 0 (0.0%)</span>
     <span class="prop-tally-abstain-text">Abstain 233 (0.1%)</span>
     <span class="prop-tally-total-text">Total 180,413 votes</span>
+    
   </div>
 </div>
 

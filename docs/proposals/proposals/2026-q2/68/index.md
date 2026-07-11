@@ -65,6 +65,7 @@ Full proposal: <https://vote.gonka.vip/tenders/550f71de-897f-4ce5-8af8-97854775f
     <span class="prop-tally-veto-text">Veto 6,288 (2.3%)</span>
     <span class="prop-tally-abstain-text">Abstain 2,546 (0.9%)</span>
     <span class="prop-tally-total-text">Total 269,936 votes</span>
+    
   </div>
 </div>
 

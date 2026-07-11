@@ -69,6 +69,7 @@ Full presentation:
     <span class="prop-tally-veto-text">Veto 2,450 (6.8%)</span>
     <span class="prop-tally-abstain-text">Abstain 13,939 (38.9%)</span>
     <span class="prop-tally-total-text">Total 35,864 votes</span>
+    
   </div>
 </div>
 

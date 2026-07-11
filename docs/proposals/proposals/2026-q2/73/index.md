@@ -46,6 +46,7 @@ Increase the minimum deposit required to submit a governance proposal to 500 GNK
     <span class="prop-tally-veto-text">Veto 572 (0.2%)</span>
     <span class="prop-tally-abstain-text">Abstain 10,823 (3.5%)</span>
     <span class="prop-tally-total-text">Total 307,278 votes</span>
+    
   </div>
 </div>
 

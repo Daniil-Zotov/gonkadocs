@@ -50,6 +50,7 @@ Proposal updates poc_validation_duration from 20 to 100.
     <span class="prop-tally-veto-text">Veto 0 (0.0%)</span>
     <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span>
     <span class="prop-tally-total-text">Total 162,514 votes</span>
+    
   </div>
 </div>
 
