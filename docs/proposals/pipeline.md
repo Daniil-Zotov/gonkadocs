@@ -1,198 +1,152 @@
 <style>
 .pipeline-wrap {
-  max-width: 880px;
+  max-width: 640px;
   margin: 0 auto;
-  padding: 2rem 1.5rem 4rem;
-  font-family: var(--md-text-font-family, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif);
-  color: var(--md-default-fg-color, #24292f);
+  padding: 1rem 0.5rem 3rem;
+  font-size: 0.75rem;
+  line-height: 1.45;
+  color: #1f2328;
 }
 
 .pipeline-intro {
-  font-size: 1.05rem;
-  line-height: 1.65;
-  color: var(--md-default-fg-color--light, #57606a);
-  margin-bottom: 3rem;
-  max-width: 640px;
+  font-size: 0.78rem;
+  color: #57606a;
+  margin-bottom: 1.5rem;
+  line-height: 1.45;
 }
 
 .pipeline-timeline {
   position: relative;
-  padding-left: 48px;
+  /* НЕТ padding-left — линия и точки в одной координатной системе */
 }
 
+/* вертикальная чёрная линия — строго по центру первой 28px-колонки */
 .pipeline-timeline::before {
   content: "";
   position: absolute;
-  left: 14px;
-  top: 8px;
-  bottom: 8px;
+  left: 13px;              /* центр 28px-колонки = 14px; линия 2px → left = 14-1 = 13px */
+  top: 10px;
+  bottom: 10px;
   width: 2px;
-  background: var(--md-default-fg-color--lightest, #d1d9e0);
-  border-radius: 2px;
+  background: #24292f;
 }
 
 .pipeline-stage {
-  position: relative;
-  margin-bottom: 3.5rem;
+  margin-bottom: 2rem;
 }
-
 .pipeline-stage:last-child {
   margin-bottom: 0;
 }
 
-.pipeline-node {
-  position: absolute;
-  left: -48px;
-  top: 4px;
-  width: 28px;
-  height: 28px;
-  border-radius: 50%;
-  background: #fff;
-  border: 3px solid var(--md-accent-fg-color, #0969da);
-  display: flex;
+.stage-header {
+  display: grid;
+  grid-template-columns: 28px 1fr;
+  gap: 10px;
   align-items: center;
-  justify-content: center;
-  z-index: 2;
-  box-shadow: 0 0 0 4px var(--md-default-bg-color, #fff);
+  margin-bottom: 0.5rem;
 }
 
-.pipeline-node::after {
-  content: "";
-  width: 10px;
-  height: 10px;
+/* пустой кружок — центр строго на 14px (центр 28px-колонки) */
+.stage-node {
+  justify-self: center;    /* центр первой колонки = 14px */
+  width: 16px;
+  height: 16px;
+  box-sizing: border-box;
   border-radius: 50%;
-  background: var(--md-accent-fg-color, #0969da);
-}
-
-.pipeline-card {
-  background: var(--md-code-bg-color, #f6f8fa);
-  border: 1px solid var(--md-default-fg-color--lightest, #d1d9e0);
-  border-radius: 12px;
-  padding: 1.5rem 1.75rem;
-  transition: box-shadow 0.2s ease, transform 0.2s ease;
-}
-
-.pipeline-card:hover {
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
-  transform: translateY(-2px);
-}
-
-.pipeline-title {
-  font-size: 1.15rem;
-  font-weight: 700;
-  margin: 0 0 1rem;
-  letter-spacing: -0.02em;
-  color: var(--md-default-fg-color, #24292f);
-}
-
-.pipeline-list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.pipeline-list li {
+  border: 2.5px solid #24292f;
+  background: #fff;
   position: relative;
-  padding-left: 1.25rem;
-  margin-bottom: 0.6rem;
-  font-size: 0.92rem;
-  line-height: 1.55;
-  color: var(--md-default-fg-color, #24292f);
+  z-index: 2;
 }
 
-.pipeline-list li:last-child {
+.stage-title {
+  font-size: 3.0rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #1f2328;
+  letter-spacing: -0.02em;
+}
+
+.pipeline-item {
+  display: grid;
+  grid-template-columns: 28px 1fr;
+  gap: 10px;
+  margin-bottom: 0.4rem;
+}
+.pipeline-item:last-child {
   margin-bottom: 0;
 }
 
-.pipeline-list li::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0.55rem;
-  width: 6px;
-  height: 6px;
+/* чёрная точка — центр строго на 14px (центр 28px-колонки) */
+.item-dot {
+  justify-self: center;
+  align-self: start;
+  margin-top: 0.48em;
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
-  background: var(--md-accent-fg-color, #0969da);
-  opacity: 0.6;
+  background: #24292f;
+  position: relative;
+  z-index: 2;
 }
 
-@media (max-width: 600px) {
-  .pipeline-timeline {
-    padding-left: 36px;
-  }
-  .pipeline-node {
-    left: -36px;
-    width: 22px;
-    height: 22px;
-    border-width: 2px;
-  }
-  .pipeline-node::after {
-    width: 8px;
-    height: 8px;
-  }
-  .pipeline-card {
-    padding: 1.25rem;
-  }
+.item-text {
+  font-size: 0.6rem;
+  line-height: 1.4;
+  color: #24292f;
 }
 </style>
 
 <div class="pipeline-wrap">
 
 <div class="pipeline-intro">
+РАЗДЕЛ В ПРОЦЕССЕ РАЗРАБОТКИ
 Полный цикл жизни предложения от идеи до отчётности. Каждый этап прозрачен, проверяем сообществом и задокументирован.
 </div>
 
 <div class="pipeline-timeline">
 
   <div class="pipeline-stage">
-    <div class="pipeline-node"></div>
-    <div class="pipeline-card">
-      <h3 class="pipeline-title">Подготовка</h3>
-      <ul class="pipeline-list">
-        <li>Изучение роадмапа</li>
-        <li>Изучение прошедших пропозалов (или списка бестпрактис)</li>
-        <li>Изучение текущих пропозалов ончейн / превот</li>
-        <li>Изучение GitHub / Issues / Proposals</li>
-        <li>Изучение рекомендаций комитетов</li>
-        <li>Заполнение анкеты Google запустит процесс обсуждения — создаст препропозал на gonka.vote / gonkadocs.com, создаст Telegram-чат</li>
-      </ul>
+    <div class="stage-header">
+      <div class="stage-node"></div>
+      <div class="stage-title">Подготовка</div>
     </div>
+    <div class="pipeline-item"><div class="item-dot"></div><div class="item-text">Ознакомиться с актуальным роадмапом Gonka, понять приоритеты сообщества и утверждённые направления развития сети</div></div>
+    <div class="pipeline-item"><div class="item-dot"></div><div class="item-text">Изучить прошедшие пропозалы и собранные best practices, чтобы понять формат, требования и типичные ошибки</div></div>
+    <div class="pipeline-item"><div class="item-dot"></div><div class="item-text">Проанализировать текущие ончейн-пропозалы и активные препропозалы, чтобы избежать дублирования и найти синергию</div></div>
+    <div class="pipeline-item"><div class="item-dot"></div><div class="item-text">Просмотреть GitHub Discussions, Issues и закрытые пропозалы — часто там уже есть частичные решения или обсуждения похожих идей</div></div>
+    <div class="pipeline-item"><div class="item-dot"></div><div class="item-text">Ознакомиться с рекомендациями профильных комитетов (GSC, GRC, GTM) и учесть их требования при формировании идеи</div></div>
+    <div class="pipeline-item"><div class="item-dot"></div><div class="item-text">Заполнить анкету в Google Forms — это запустит формальный процесс обсуждения: будет создан препропозал на gonka.vote, а также выделен Telegram-чат для живого диалога</div></div>
   </div>
 
   <div class="pipeline-stage">
-    <div class="pipeline-node"></div>
-    <div class="pipeline-card">
-      <h3 class="pipeline-title">Обсуждение</h3>
-      <ul class="pipeline-list">
-        <li>Презентация пропозала и команды</li>
-        <li>Живое обсуждение на vote-портале и в Telegram-чате с представителями комитетов, хостами и активными членами сообщества</li>
-        <li>Проведение AMA-сессии</li>
-        <li>Итогом обсуждения станет заключение профильных комитетов, рекомендации по доработке пропозала (суммы, сроки, формат пропозала и прочее)</li>
-      </ul>
+    <div class="stage-header">
+      <div class="stage-node"></div>
+      <div class="stage-title">Обсуждение</div>
     </div>
+    <div class="pipeline-item"><div class="item-dot"></div><div class="item-text">Подготовить и провести презентацию пропозала и команды для сообщества — чётко обозначить цели, бюджет, сроки и ожидаемый результат</div></div>
+    <div class="pipeline-item"><div class="item-dot"></div><div class="item-text">Вести живое обсуждение на vote-портале gonka.vote и в выделенном Telegram-чате совместно с представителями комитетов, хостами и активными участниками сообщества</div></div>
+    <div class="pipeline-item"><div class="item-dot"></div><div class="item-text">Организовать и провести AMA-сессию (Ask Me Anything), где любой член сообщества может задать вопросы команде и получить прямые ответы</div></div>
+    <div class="pipeline-item"><div class="item-dot"></div><div class="item-text">По итогам обсуждения профильные комитеты выносят заключение и дают рекомендации по доработке: корректировка суммы, сроков, формата подачи и других параметров пропозала</div></div>
   </div>
 
   <div class="pipeline-stage">
-    <div class="pipeline-node"></div>
-    <div class="pipeline-card">
-      <h3 class="pipeline-title">Голосование</h3>
-      <ul class="pipeline-list">
-        <li>Комитет окажет помощь в технической части подготовки пропозала</li>
-        <li>Разместит все необходимые документы, заключения, записи встреч в едином пространстве для ознакомления хостами</li>
-        <li>В случае появления пропозала без предварительного обсуждения (заполнения анкеты) анкета будет создана членами сообщества для прохождения полной процедуры</li>
-      </ul>
+    <div class="stage-header">
+      <div class="stage-node"></div>
+      <div class="stage-title">Голосование</div>
     </div>
+    <div class="pipeline-item"><div class="item-dot"></div><div class="item-text">Комитет оказывает техническую помощь в подготовке финальной версии пропозала — помогает выверить параметры, формулировки и соответствие стандартам</div></div>
+    <div class="pipeline-item"><div class="item-dot"></div><div class="item-text">Все необходимые документы, заключения комитетов и записи встреч публикуются в едином пространстве для ознакомления хостами перед голосованием</div></div>
+    <div class="pipeline-item"><div class="item-dot"></div><div class="item-text">Если пропозал появился без предварительного обсуждения (без заполнения анкеты), члены сообщества самостоятельно создают анкету retroactively</div></div>
   </div>
 
   <div class="pipeline-stage">
-    <div class="pipeline-node"></div>
-    <div class="pipeline-card">
-      <h3 class="pipeline-title">Отчётность</h3>
-      <ul class="pipeline-list">
-        <li>В случае прохождения пропозала будет составлен график предоставления отчёта о проделанной работе, достижения KPI, прохождении мейлстоунов</li>
-        <li>Комитеты будут контролировать сроки и оценивать содержание отчётов — будет вынесена резолюция (в случае отрывных пропозалов, скам, репутационных рисков и прочего)</li>
-      </ul>
+    <div class="stage-header">
+      <div class="stage-node"></div>
+      <div class="stage-title">Отчётность</div>
     </div>
+    <div class="pipeline-item"><div class="item-dot"></div><div class="item-text">В случае прохождения пропозала команда совместно с комитетами составляет детальный график отчётности: дедлайны, KPI, мейлстоуны и формат предоставления результатов</div></div>
+    <div class="pipeline-item"><div class="item-dot"></div><div class="item-text">Комитеты регулярно контролируют сроки, оценивают качество и содержание отчётов, и при необходимости выносят резолюцию — особенно в случаях отзывных пропозалов, подозрений на скам или репутационных рисков</div></div>
   </div>
 
 </div>
