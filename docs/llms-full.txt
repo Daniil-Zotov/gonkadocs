@@ -17084,35 +17084,43 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ## 🟢 Active Proposals
 
+5Active
+11Votes
+2.0M GNKTotal Bid
+
 | Status | Title | Author | Votes | Avg. Bid | Closes |
 | :----- | :----- | :----- | ----: | -------: | :----- |
-| 🟢 | [1. Team Veylox Grant Request](./66e6583a-27b4-4bae-91fb-8f0489736b0d/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
-| 🟢 | [Team Gonka.AI \| Inside Grant Request](./4792a93f-127a-4a0e-9a12-acd229c1e865/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
-| 🟢 | [3. Team Gonka Wallet Grant Request](./2b6b2142-685a-4eda-b2a1-f8853228f3e6/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
-| 🟢 | [4. Team Gonka NL BE Community Grant Request](./db4d91a4-1ee7-46ee-a3d1-0e8ba546d04b/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
-| 🟢 | [5. Team Lefine Grant Request](./662adc44-01c4-41ca-9c0d-ac61f472ee56/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
-| 🟢 | [7. Team Epokha AI / epokha.ai Grant Request](./0395efa6-8eef-4d83-85cb-83d36a937f96/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
-| 🟢 | [8. Team Gonka.TV Grant Request](./47ab8faa-f9bd-41ba-8e86-6c760d4975a6/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
-| 🟢 | [9. Team Gonka-API.org Grant Request](./f021bdb3-59f4-4906-bfaa-7b90b72019b1/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
-| 🟢 | [10. Team Alexander Kuprin Grant Request](./59175b49-b83f-4aa6-98f5-b27fffb23cd8/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
-| 🟢 | [11. Team GonkaGate Grant Request](./d2f317f0-541a-4d9f-bbac-d2d394906bf2/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
-| 🟢 | [12. Team Slava MSE Team Grant Request](./08405617-5654-4ead-be62-642affa1739e/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
-| 🟢 | [12+1. Team EntroPi Grant Request](./f6b4e378-8950-4bcf-ac7f-d70d9d246630/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
-| 🟢 | [Интеграция ИИ Gonka в инфраструктуру QR Mint](./7d2ec26b-6524-4fc6-b676-a13d822536e8/) | Victor | 0 | 0.00 GNK | 2026-07-11 |
 | 🟢 | [Предложение по развитию игровой экосистемы блокчейна через турнирные пулы вознаг](./fd9989ca-7c5b-4a2f-baf4-2465e6915ba6/) | Victor | 0 | 0.00 GNK | 2026-07-12 |
 | 🟢 | [Private Inc × Gonka — Network Growth Initiative](./ed8148eb-535e-4677-9a6b-5316c81c996a/) | Igor Alexeev | 0 | 0.00 GNK | 2026-07-13 |
-| 🟢 | [External Test Lab & Community DevNet](./205219a5-6ed2-4f25-8d22-fa7c65a45ba6/) | Sergii Paranko | 0 | 0.00 GNK | 2026-07-14 |
-| 🟢 | [Привлечение $3M+ нового капитала на Uniswap](./e0cc7d32-5d1a-49e1-94e8-0ca3d9ccbf6b/) | Andrey Orlov | 0 | 0.00 GNK | 2026-08-02 |
-| 🟢 | [Привлечение $3M+ нового капитала на Uniswap v2.0](./f341b83c-78f0-4ab2-b8fd-ddc7ac5d9c37/) | Andrey Orlov | 0 | 0.00 GNK | 2026-08-08 |
+| 🟢 | [External Test Lab & Community DevNet](./205219a5-6ed2-4f25-8d22-fa7c65a45ba6/) | Sergii Paranko | 4 | 168.2K GNK | 2026-07-14 |
+| 🟢 | [Привлечение $3M+ нового капитала на Uniswap](./e0cc7d32-5d1a-49e1-94e8-0ca3d9ccbf6b/) | Andrey Orlov | 3 | 224.3K GNK | 2026-08-02 |
+| 🟢 | [Привлечение $3M+ нового капитала на Uniswap v2.0](./f341b83c-78f0-4ab2-b8fd-ddc7ac5d9c37/) | Andrey Orlov | 4 | 168.2K GNK | 2026-08-08 |
 
 ---
 
 ## 🔴 Expired Proposals
 
+26Expired
+2Votes
+6.6K GNKTotal Bid
+
 | Status | Title | Author | Votes | Avg. Bid | Closed |
 | :----- | :----- | :----- | ----: | -------: | :----- |
-| 🔴 | [Go-To-Market Team for 3 Month to Set Up the Basis](./cb7f643f-3d56-47ec-9193-f9f2f80a99fb/) | Dem \| Démíngān | 0 | 0.00 GNK | 2026-07-10 |
-| 🔴 | [Gonka Media Library by Saccade](./f215996d-e562-42b5-b2b1-400226e612fa/) | Dem \| Démíngān | 0 | 0.00 GNK | 2026-07-10 |
+| 🔴 | [Интеграция ИИ Gonka в инфраструктуру QR Mint](./7d2ec26b-6524-4fc6-b676-a13d822536e8/) | Victor | 0 | 0.00 GNK | 2026-07-11 |
+| 🔴 | [12+1. Team EntroPi Grant Request](./f6b4e378-8950-4bcf-ac7f-d70d9d246630/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
+| 🔴 | [12. Team Slava MSE Team Grant Request](./08405617-5654-4ead-be62-642affa1739e/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
+| 🔴 | [11. Team GonkaGate Grant Request](./d2f317f0-541a-4d9f-bbac-d2d394906bf2/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
+| 🔴 | [10. Team Alexander Kuprin Grant Request](./59175b49-b83f-4aa6-98f5-b27fffb23cd8/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
+| 🔴 | [9. Team Gonka-API.org Grant Request](./f021bdb3-59f4-4906-bfaa-7b90b72019b1/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
+| 🔴 | [8. Team Gonka.TV Grant Request](./47ab8faa-f9bd-41ba-8e86-6c760d4975a6/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
+| 🔴 | [7. Team Epokha AI / epokha.ai Grant Request](./0395efa6-8eef-4d83-85cb-83d36a937f96/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
+| 🔴 | [5. Team Lefine Grant Request](./662adc44-01c4-41ca-9c0d-ac61f472ee56/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
+| 🔴 | [4. Team Gonka NL BE Community Grant Request](./db4d91a4-1ee7-46ee-a3d1-0e8ba546d04b/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
+| 🔴 | [3. Team Gonka Wallet Grant Request](./2b6b2142-685a-4eda-b2a1-f8853228f3e6/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
+| 🔴 | [Team Gonka.AI \| Inside Grant Request](./4792a93f-127a-4a0e-9a12-acd229c1e865/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
+| 🔴 | [1. Team Veylox Grant Request](./66e6583a-27b4-4bae-91fb-8f0489736b0d/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
+| 🔴 | [Go-To-Market Team for 3 Month to Set Up the Basis](./cb7f643f-3d56-47ec-9193-f9f2f80a99fb/) | Dem \| Démíngān | 1 | 3.3K GNK | 2026-07-10 |
+| 🔴 | [Gonka Media Library by Saccade](./f215996d-e562-42b5-b2b1-400226e612fa/) | Dem \| Démíngān | 1 | 3.3K GNK | 2026-07-10 |
 | 🔴 | [Стресс тест инфиренса](./efc0edeb-bc49-4c6b-a6e7-5b20ccfbe571/) | Mitch | 0 | 0.00 GNK | 2026-06-05 |
 | 🔴 | [Bring Gonka to EBC12 as a Gold Sponsor](./29baf37b-811f-4c36-b517-66a578383f1c/) | Heydar Naghiyev | 0 | 0.00 GNK | 2026-06-04 |
 | 🔴 | [Большое видео на канале Falcon Finance (Александр Соколовский)](./550f71de-897f-4ce5-8af8-97854775f8b2/) | Дмитрий В | 0 | 0.00 GNK | 2026-05-28 |
@@ -17127,7 +17135,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-07-11 03:37 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-07-11 10:57 UTC*
 
 ---
 
@@ -17675,7 +17683,7 @@ P.S. Конкретно у твоего примера - там больше п�
 
 # 3. Team Gonka Wallet Grant Request
 
-🟢 Active
+🔴 Expired
 
 **Author:** Slava MSE!
 **Created:** 2026-06-11 05:41 UTC
@@ -17758,8 +17766,8 @@ shtirbetsai
 **Created:** 2026-07-03 15:58 UTC
 **Closes:** 2026-07-10 15:58 UTC
 **Language:** EN
-**Votes:** 0
-**Avg. Bid:** 0.00 GNK
+**Votes:** 1
+**Avg. Bid:** 3.3K GNK
 
 This proposal describes ecosystem we should do for the Gonka, including basics, go-to-market actions, the team and the budgets for the next 3 months.
 
@@ -18316,7 +18324,7 @@ Applicants MUST submit:
 
 # 5. Team Lefine Grant Request
 
-🟢 Active
+🔴 Expired
 
 **Author:** Slava MSE!
 **Created:** 2026-06-11 05:45 UTC
@@ -18618,8 +18626,8 @@ But what will happend if I reply in English?
 **Created:** 2026-07-03 15:10 UTC
 **Closes:** 2026-08-02 15:10 UTC
 **Language:** RU
-**Votes:** 0
-**Avg. Bid:** 0.00 GNK
+**Votes:** 3
+**Avg. Bid:** 224.3K GNK
 
 Предлагаем за 90 дней привлечь от $3 млн нового капитала в GONKA через масштабируемую Telegram-воронку с поэтапным финансированием и KPI
 
@@ -19209,8 +19217,8 @@ Work does not end after the first deposit. The user continues to receive support
 **Created:** 2026-07-03 11:30 UTC
 **Closes:** 2026-07-10 11:28 UTC
 **Language:** EN
-**Votes:** 0
-**Avg. Bid:** 0.00 GNK
+**Votes:** 1
+**Avg. Bid:** 3.3K GNK
 
 Gonka Media Library — Explainer Library & Platform
 Explainer series (20 ep., 40 min) + web download & self-branding platform
@@ -19344,7 +19352,7 @@ https://saccade.media/ru/unboring-explainer
 
 # 10. Team Alexander Kuprin Grant Request
 
-🟢 Active
+🔴 Expired
 
 **Author:** Slava MSE!
 **Created:** 2026-06-11 05:50 UTC
@@ -19451,8 +19459,8 @@ alexanderkuprin_
 **Created:** 2026-07-09 16:25 UTC
 **Closes:** 2026-08-08 16:25 UTC
 **Language:** RU
-**Votes:** 0
-**Avg. Bid:** 0.00 GNK
+**Votes:** 4
+**Avg. Bid:** 168.2K GNK
 
 Предлагаем за 90 дней привлечь от $3 млн нового капитала в GONKA через масштабируемую Telegram-воронку с поэтапным финансированием и KPI
 
@@ -19831,7 +19839,7 @@ After the event, the community should receive a short report covering:
 
 # 8. Team Gonka.TV Grant Request
 
-🟢 Active
+🔴 Expired
 
 **Author:** Slava MSE!
 **Created:** 2026-06-11 05:48 UTC
@@ -19905,7 +19913,7 @@ mitchseed
 
 # 11. Team GonkaGate Grant Request
 
-🟢 Active
+🔴 Expired
 
 **Author:** Slava MSE!
 **Created:** 2026-06-11 05:51 UTC
@@ -20488,7 +20496,7 @@ GNK ок. С вестингом не хочется, так как в любом
 
 # 1. Team Veylox Grant Request
 
-🟢 Active
+🔴 Expired
 
 **Author:** Slava MSE!
 **Created:** 2026-06-11 05:35 UTC
@@ -20931,7 +20939,7 @@ Bidders MUST submit:
 
 # Team Gonka.AI \| Inside Grant Request
 
-🟢 Active
+🔴 Expired
 
 **Author:** Slava MSE!
 **Created:** 2026-06-11 05:39 UTC
@@ -21026,7 +21034,7 @@ Omniverse, NOVA - молодые проекты. Нужно с ними повн
 
 # 12+1. Team EntroPi Grant Request
 
-🟢 Active
+🔴 Expired
 
 **Author:** Slava MSE!
 **Created:** 2026-06-11 05:54 UTC
@@ -21516,7 +21524,7 @@ Scam
 
 # 7. Team Epokha AI / epokha.ai Grant Request
 
-🟢 Active
+🔴 Expired
 
 **Author:** Slava MSE!
 **Created:** 2026-06-11 05:47 UTC
@@ -21614,7 +21622,7 @@ gonka158pj5tn26n46ffaw553dkf3e7xjfxahj0s5xug
 
 # 9. Team Gonka-API.org Grant Request
 
-🟢 Active
+🔴 Expired
 
 **Author:** Slava MSE!
 **Created:** 2026-06-11 05:50 UTC
@@ -22009,7 +22017,7 @@ DDOS тут рубится на брокере лимитом очч прост�
 
 # Интеграция ИИ Gonka в инфраструктуру QR Mint
 
-🟢 Active
+🔴 Expired
 
 **Author:** Victor
 **Created:** 2026-06-11 09:48 UTC
@@ -22274,7 +22282,7 @@ qr.mint.dev@gmail.com
 
 # 4. Team Gonka NL BE Community Grant Request
 
-🟢 Active
+🔴 Expired
 
 **Author:** Slava MSE!
 **Created:** 2026-06-11 05:43 UTC
@@ -22369,8 +22377,8 @@ Clarkkent8494
 **Created:** 2026-07-04 12:00 UTC
 **Closes:** 2026-07-14 11:44 UTC
 **Language:** EN
-**Votes:** 0
-**Avg. Bid:** 0.00 GNK
+**Votes:** 4
+**Avg. Bid:** 168.2K GNK
 
 4-month pilot proposal for community-owned testing infrastructure and QA capacity.
 
@@ -23028,7 +23036,7 @@ https://youtu.be/kQGPSxLaakE?t=1988
 
 # 12. Team Slava MSE Team Grant Request
 
-🟢 Active
+🔴 Expired
 
 **Author:** Slava MSE!
 **Created:** 2026-06-11 05:53 UTC
@@ -24133,55 +24141,7 @@ Models / IBC2
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-84 proposals across 5 quarters. Last updated: 2026-07-11 10:20 UTC
-
-function initProposalsPage() {
-  var checkboxes = document.querySelectorAll('.prop-oview-filter input[type=checkbox]');
-  var cards = document.querySelectorAll('.prop-card');
-  var countEl = document.querySelector('.prop-filter-count');
-
-  function apply() {
-    var filters = {};
-    checkboxes.forEach(function(cb) {
-      filters[cb.id.replace('prop-filter-', '')] = cb.checked;
-    });
-    var visible = 0;
-    cards.forEach(function(card) {
-      var status = card.getAttribute('data-status');
-      var show = false;
-      if (status === 'prop-passed' && filters.passed) show = true;
-      else if (status === 'prop-rejected' && filters.rejected) show = true;
-      else if (status === 'prop-voting' && filters.voting) show = true;
-      
-      else if (status === 'prop-failed' && filters.rejected) show = true;
-      if (show && filters.funding) {
-        show = card.querySelector('.prop-card-funding') !== null;
-      }
-      card.style.display = show ? '' : 'none';
-      if (show) visible++;
-    });
-    countEl.textContent = visible + ' of ' + cards.length + ' proposals';
-  }
-
-  checkboxes.forEach(function(cb) { cb.addEventListener('change', apply); });
-  apply();
-}
-
-function initCountdowns() {
-  document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
-    var deadline = new Date(el.getAttribute('data-deadline'));
-    function update() {
-      var diff = deadline - new Date();
-      if (diff  0) el.textContent = d + 'd ' + h + 'h ' + m + 'm';
-      else if (h > 0) el.textContent = h + 'h ' + m + 'm';
-      else el.textContent = m + 'm';
-    }
-    update();
-    setInterval(update, 1000);
-  });
-}
-
-document$.subscribe(function() { initProposalsPage(); initCountdowns(); });
+84 proposals across 5 quarters. Last updated: 2026-07-11 10:50 UTC
 
 ---
 
@@ -24703,51 +24663,6 @@ Models / IBC1
   Yes 421,414 (99.6%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 1,788 (0.4%)
 
 ← Back to all proposals
-
-function initProposalsPage() {
-  var checkboxes = document.querySelectorAll('.prop-oview-filter input[type=checkbox]');
-  var cards = document.querySelectorAll('.prop-card');
-  var countEl = document.querySelector('.prop-filter-count');
-  function apply() {
-    var filters = {};
-    checkboxes.forEach(function(cb) {
-      filters[cb.id.replace('prop-filter-', '')] = cb.checked;
-    });
-    var visible = 0;
-    cards.forEach(function(card) {
-      var status = card.getAttribute('data-status');
-      var show = false;
-      if (status === 'prop-passed' && filters.passed) show = true;
-      else if (status === 'prop-rejected' && filters.rejected) show = true;
-      else if (status === 'prop-voting' && filters.voting) show = true;
-      else if (status === 'prop-failed' && filters.rejected) show = true;
-      if (show && filters.funding) {
-        show = card.querySelector('.prop-card-funding') !== null;
-      }
-      card.style.display = show ? '' : 'none';
-      if (show) visible++;
-    });
-    countEl.textContent = visible + ' of ' + cards.length + ' proposals';
-  }
-  checkboxes.forEach(function(cb) { cb.addEventListener('change', apply); });
-  apply();
-}
-
-function initCountdowns() {
-  document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
-    var deadline = new Date(el.getAttribute('data-deadline'));
-    function update() {
-      var diff = deadline - new Date();
-      if (diff  0) el.textContent = d + 'd ' + h + 'h ' + m + 'm ' + s + 's';
-      else if (h > 0) el.textContent = h + 'h ' + m + 'm ' + s + 's';
-      else el.textContent = m + 'm ' + s + 's';
-    }
-    update();
-    setInterval(update, 1000);
-  });
-}
-
-document$.subscribe(function() { initProposalsPage(); initCountdowns(); });
 
 ---
 
@@ -46518,51 +46433,6 @@ Models / IBC1
 
 ← Back to all proposals
 
-function initProposalsPage() {
-  var checkboxes = document.querySelectorAll('.prop-oview-filter input[type=checkbox]');
-  var cards = document.querySelectorAll('.prop-card');
-  var countEl = document.querySelector('.prop-filter-count');
-  function apply() {
-    var filters = {};
-    checkboxes.forEach(function(cb) {
-      filters[cb.id.replace('prop-filter-', '')] = cb.checked;
-    });
-    var visible = 0;
-    cards.forEach(function(card) {
-      var status = card.getAttribute('data-status');
-      var show = false;
-      if (status === 'prop-passed' && filters.passed) show = true;
-      else if (status === 'prop-rejected' && filters.rejected) show = true;
-      else if (status === 'prop-voting' && filters.voting) show = true;
-      else if (status === 'prop-failed' && filters.rejected) show = true;
-      if (show && filters.funding) {
-        show = card.querySelector('.prop-card-funding') !== null;
-      }
-      card.style.display = show ? '' : 'none';
-      if (show) visible++;
-    });
-    countEl.textContent = visible + ' of ' + cards.length + ' proposals';
-  }
-  checkboxes.forEach(function(cb) { cb.addEventListener('change', apply); });
-  apply();
-}
-
-function initCountdowns() {
-  document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
-    var deadline = new Date(el.getAttribute('data-deadline'));
-    function update() {
-      var diff = deadline - new Date();
-      if (diff  0) el.textContent = d + 'd ' + h + 'h ' + m + 'm ' + s + 's';
-      else if (h > 0) el.textContent = h + 'h ' + m + 'm ' + s + 's';
-      else el.textContent = m + 'm ' + s + 's';
-    }
-    update();
-    setInterval(update, 1000);
-  });
-}
-
-document$.subscribe(function() { initProposalsPage(); initCountdowns(); });
-
 ---
 
 ## #5 – Expedite voting for upgrades
@@ -47636,51 +47506,6 @@ Funding / Grants1
   Yes 132,672 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
 ← Back to all proposals
-
-function initProposalsPage() {
-  var checkboxes = document.querySelectorAll('.prop-oview-filter input[type=checkbox]');
-  var cards = document.querySelectorAll('.prop-card');
-  var countEl = document.querySelector('.prop-filter-count');
-  function apply() {
-    var filters = {};
-    checkboxes.forEach(function(cb) {
-      filters[cb.id.replace('prop-filter-', '')] = cb.checked;
-    });
-    var visible = 0;
-    cards.forEach(function(card) {
-      var status = card.getAttribute('data-status');
-      var show = false;
-      if (status === 'prop-passed' && filters.passed) show = true;
-      else if (status === 'prop-rejected' && filters.rejected) show = true;
-      else if (status === 'prop-voting' && filters.voting) show = true;
-      else if (status === 'prop-failed' && filters.rejected) show = true;
-      if (show && filters.funding) {
-        show = card.querySelector('.prop-card-funding') !== null;
-      }
-      card.style.display = show ? '' : 'none';
-      if (show) visible++;
-    });
-    countEl.textContent = visible + ' of ' + cards.length + ' proposals';
-  }
-  checkboxes.forEach(function(cb) { cb.addEventListener('change', apply); });
-  apply();
-}
-
-function initCountdowns() {
-  document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
-    var deadline = new Date(el.getAttribute('data-deadline'));
-    function update() {
-      var diff = deadline - new Date();
-      if (diff  0) el.textContent = d + 'd ' + h + 'h ' + m + 'm ' + s + 's';
-      else if (h > 0) el.textContent = h + 'h ' + m + 'm ' + s + 's';
-      else el.textContent = m + 'm ' + s + 's';
-    }
-    update();
-    setInterval(update, 1000);
-  });
-}
-
-document$.subscribe(function() { initProposalsPage(); initCountdowns(); });
 
 ---
 
@@ -49568,51 +49393,6 @@ GRC / Restitution1
   ✗ Turnout 156,897 / 741,825 (21.2%) · Quorum 25% (185,456)
 
 ← Back to all proposals
-
-function initProposalsPage() {
-  var checkboxes = document.querySelectorAll('.prop-oview-filter input[type=checkbox]');
-  var cards = document.querySelectorAll('.prop-card');
-  var countEl = document.querySelector('.prop-filter-count');
-  function apply() {
-    var filters = {};
-    checkboxes.forEach(function(cb) {
-      filters[cb.id.replace('prop-filter-', '')] = cb.checked;
-    });
-    var visible = 0;
-    cards.forEach(function(card) {
-      var status = card.getAttribute('data-status');
-      var show = false;
-      if (status === 'prop-passed' && filters.passed) show = true;
-      else if (status === 'prop-rejected' && filters.rejected) show = true;
-      else if (status === 'prop-voting' && filters.voting) show = true;
-      else if (status === 'prop-failed' && filters.rejected) show = true;
-      if (show && filters.funding) {
-        show = card.querySelector('.prop-card-funding') !== null;
-      }
-      card.style.display = show ? '' : 'none';
-      if (show) visible++;
-    });
-    countEl.textContent = visible + ' of ' + cards.length + ' proposals';
-  }
-  checkboxes.forEach(function(cb) { cb.addEventListener('change', apply); });
-  apply();
-}
-
-function initCountdowns() {
-  document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
-    var deadline = new Date(el.getAttribute('data-deadline'));
-    function update() {
-      var diff = deadline - new Date();
-      if (diff  0) el.textContent = d + 'd ' + h + 'h ' + m + 'm ' + s + 's';
-      else if (h > 0) el.textContent = h + 'h ' + m + 'm ' + s + 's';
-      else el.textContent = m + 'm ' + s + 's';
-    }
-    update();
-    setInterval(update, 1000);
-  });
-}
-
-document$.subscribe(function() { initProposalsPage(); initCountdowns(); });
 
 ---
 
@@ -52375,51 +52155,6 @@ Other2
   Yes 4,237 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
 ← Back to all proposals
-
-function initProposalsPage() {
-  var checkboxes = document.querySelectorAll('.prop-oview-filter input[type=checkbox]');
-  var cards = document.querySelectorAll('.prop-card');
-  var countEl = document.querySelector('.prop-filter-count');
-  function apply() {
-    var filters = {};
-    checkboxes.forEach(function(cb) {
-      filters[cb.id.replace('prop-filter-', '')] = cb.checked;
-    });
-    var visible = 0;
-    cards.forEach(function(card) {
-      var status = card.getAttribute('data-status');
-      var show = false;
-      if (status === 'prop-passed' && filters.passed) show = true;
-      else if (status === 'prop-rejected' && filters.rejected) show = true;
-      else if (status === 'prop-voting' && filters.voting) show = true;
-      else if (status === 'prop-failed' && filters.rejected) show = true;
-      if (show && filters.funding) {
-        show = card.querySelector('.prop-card-funding') !== null;
-      }
-      card.style.display = show ? '' : 'none';
-      if (show) visible++;
-    });
-    countEl.textContent = visible + ' of ' + cards.length + ' proposals';
-  }
-  checkboxes.forEach(function(cb) { cb.addEventListener('change', apply); });
-  apply();
-}
-
-function initCountdowns() {
-  document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
-    var deadline = new Date(el.getAttribute('data-deadline'));
-    function update() {
-      var diff = deadline - new Date();
-      if (diff  0) el.textContent = d + 'd ' + h + 'h ' + m + 'm ' + s + 's';
-      else if (h > 0) el.textContent = h + 'h ' + m + 'm ' + s + 's';
-      else el.textContent = m + 'm ' + s + 's';
-    }
-    update();
-    setInterval(update, 1000);
-  });
-}
-
-document$.subscribe(function() { initProposalsPage(); initCountdowns(); });
 
 ---
 
