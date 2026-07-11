@@ -49,6 +49,14 @@ This proposal updates x/gov: the standard voting period becomes 48 hours (was 24
   </div>
 </div>
 
+<div class="prop-quorum">
+  <span class="prop-quorum-label">Turnout</span>
+  <span class="prop-quorum-value">653,978 / 741,825 (88.2%)</span>
+  <span class="prop-quorum-label">Quorum</span>
+  <span class="prop-quorum-value">25% (185,456 votes)</span>
+  <span class="prop-quorum-status prop-quorum-met">✓ MET</span>
+</div>
+
 
 ---
 

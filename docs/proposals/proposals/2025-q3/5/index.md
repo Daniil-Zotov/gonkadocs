@@ -51,6 +51,14 @@ Expedite voting for upgrades
   </div>
 </div>
 
+<div class="prop-quorum">
+  <span class="prop-quorum-label">Turnout</span>
+  <span class="prop-quorum-value">172,265 / 741,825 (23.2%)</span>
+  <span class="prop-quorum-label">Quorum</span>
+  <span class="prop-quorum-value">25% (185,456 votes)</span>
+  <span class="prop-quorum-status prop-quorum-not-met">✗ NOT MET</span>
+</div>
+
 
 ---
 

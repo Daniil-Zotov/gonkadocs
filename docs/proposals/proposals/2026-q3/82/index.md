@@ -58,6 +58,14 @@ Contract: code_id 107, checksum 94b141625b7641e6ad57266420b18a4af72eac49b8110cb9
   </div>
 </div>
 
+<div class="prop-quorum">
+  <span class="prop-quorum-label">Turnout</span>
+  <span class="prop-quorum-value">374,787 / 741,825 (50.5%)</span>
+  <span class="prop-quorum-label">Quorum</span>
+  <span class="prop-quorum-value">25% (185,456 votes)</span>
+  <span class="prop-quorum-status prop-quorum-met">✓ MET</span>
+</div>
+
 
 ---
 

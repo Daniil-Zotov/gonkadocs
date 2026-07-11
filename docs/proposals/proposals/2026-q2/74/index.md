@@ -68,6 +68,14 @@ Full proposal: <https://gonkalabs.com/proposal>
   </div>
 </div>
 
+<div class="prop-quorum">
+  <span class="prop-quorum-label">Turnout</span>
+  <span class="prop-quorum-value">383,273 / 741,825 (51.7%)</span>
+  <span class="prop-quorum-label">Quorum</span>
+  <span class="prop-quorum-value">25% (185,456 votes)</span>
+  <span class="prop-quorum-status prop-quorum-met">✓ MET</span>
+</div>
+
 
 ---
 

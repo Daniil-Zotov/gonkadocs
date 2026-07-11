@@ -561,3 +561,66 @@ h2#full-proposal {
 .prop-vote-countdown-detail {
   font-size: 13px;
 }
+
+/* ── Quorum / Turnout ────────────────────────────────────────── */
+.prop-quorum {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+  padding: 8px 12px;
+  background: var(--md-code-bg-color);
+  border-radius: 8px;
+  font-size: 13px;
+}
+
+.prop-quorum-label {
+  color: var(--md-default-fg-color--light);
+  font-weight: 500;
+}
+
+.prop-quorum-value {
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.prop-quorum-status {
+  font-weight: 600;
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+
+.prop-quorum-met {
+  background: #dafbe1;
+  color: #1a7f37;
+}
+
+[data-md-color-scheme="slate"] .prop-quorum-met {
+  background: #1a3a2a;
+  color: #3fb950;
+}
+
+.prop-quorum-not-met {
+  background: #ffebe9;
+  color: #cf222e;
+}
+
+[data-md-color-scheme="slate"] .prop-quorum-not-met {
+  background: #3a1a1a;
+  color: #ff7b72;
+}
+
+.prop-card-turnout-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 6px;
+  font-size: 12px;
+}
+
+.prop-card-turnout {
+  color: var(--md-default-fg-color--light);
+  font-variant-numeric: tabular-nums;
+}

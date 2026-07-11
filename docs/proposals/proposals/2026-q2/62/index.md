@@ -52,6 +52,14 @@ Crypto-influencer pilot campaign for Gonka.AI across selected tier-1 creators, w
   </div>
 </div>
 
+<div class="prop-quorum">
+  <span class="prop-quorum-label">Turnout</span>
+  <span class="prop-quorum-value">325,210 / 741,825 (43.8%)</span>
+  <span class="prop-quorum-label">Quorum</span>
+  <span class="prop-quorum-value">25% (185,456 votes)</span>
+  <span class="prop-quorum-status prop-quorum-met">✓ MET</span>
+</div>
+
 
 ---
 

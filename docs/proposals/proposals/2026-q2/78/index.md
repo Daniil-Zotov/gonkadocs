@@ -51,6 +51,14 @@ Set delegation initial_model_id to MiniMaxAI/MiniMax-M2.7, keep only MiniMaxAI/M
   </div>
 </div>
 
+<div class="prop-quorum">
+  <span class="prop-quorum-label">Turnout</span>
+  <span class="prop-quorum-value">262,775 / 741,825 (35.4%)</span>
+  <span class="prop-quorum-label">Quorum</span>
+  <span class="prop-quorum-value">25% (185,456 votes)</span>
+  <span class="prop-quorum-status prop-quorum-met">✓ MET</span>
+</div>
+
 
 ---
 

@@ -54,6 +54,14 @@ Funds milestone 1 (upfront prepayment) of a community-produced onboarding video 
   </div>
 </div>
 
+<div class="prop-quorum">
+  <span class="prop-quorum-label">Turnout</span>
+  <span class="prop-quorum-value">56,204 / 741,825 (7.6%)</span>
+  <span class="prop-quorum-label">Quorum</span>
+  <span class="prop-quorum-value">25% (185,456 votes)</span>
+  <span class="prop-quorum-status prop-quorum-not-met">✗ NOT MET</span>
+</div>
+
 
 ---
 

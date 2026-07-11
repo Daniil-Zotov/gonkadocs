@@ -51,6 +51,14 @@ Upgrade Proposal: v0.2.2
   </div>
 </div>
 
+<div class="prop-quorum">
+  <span class="prop-quorum-label">Turnout</span>
+  <span class="prop-quorum-value">130,079 / 741,825 (17.5%)</span>
+  <span class="prop-quorum-label">Quorum</span>
+  <span class="prop-quorum-value">25% (185,456 votes)</span>
+  <span class="prop-quorum-status prop-quorum-not-met">✗ NOT MET</span>
+</div>
+
 
 ---
 

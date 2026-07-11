@@ -13,6 +13,7 @@ import os
 import re
 import sys
 import time
+import urllib.parse
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -445,7 +446,7 @@ def fetch_proposals():
 
 # ── generate individual proposal page ──────────────────────────
 
-def generate_proposal_page(proposal, prop_dir):
+def generate_proposal_page(proposal, prop_dir, total_voting_power=0):
     pid = proposal["id"]
     title = proposal.get("title", f"Proposal #{pid}").strip()
     status = proposal.get("status", "PROPOSAL_STATUS_UNSPECIFIED")
@@ -488,6 +489,7 @@ def generate_proposal_page(proposal, prop_dir):
 
     # Tally section if voting period ended
     tally_html = ""
+    turnout_html = ""
     if total_votes > 0:
         pct = lambda v: f"{(v / total_votes * 100):.1f}%" if total_votes > 0 else "0%"
         tally_html = f"""
@@ -505,6 +507,19 @@ def generate_proposal_page(proposal, prop_dir):
     <span class="prop-tally-abstain-text">Abstain {abstain_count:,} ({pct(abstain_count)})</span>
     <span class="prop-tally-total-text">Total {total_votes:,} votes</span>
   </div>
+</div>
+"""
+        if total_voting_power > 0:
+            turnout_pct = total_votes / total_voting_power * 100
+            quorum_needed = int(total_voting_power * QUORUM)
+            quorum_met = total_votes >= quorum_needed
+            turnout_html = f"""
+<div class="prop-quorum">
+  <span class="prop-quorum-label">Turnout</span>
+  <span class="prop-quorum-value">{total_votes:,} / {total_voting_power:,} ({turnout_pct:.1f}%)</span>
+  <span class="prop-quorum-label">Quorum</span>
+  <span class="prop-quorum-value">{QUORUM*100:.0f}% ({quorum_needed:,} votes)</span>
+  <span class="prop-quorum-status {'prop-quorum-met' if quorum_met else 'prop-quorum-not-met'}">{'✓ MET' if quorum_met else '✗ NOT MET'}</span>
 </div>
 """
 
@@ -570,7 +585,7 @@ template: proposals-proposals-main.html
     if tally_html:
         md += f"""## Final Tally
 
-{tally_html}
+{tally_html}{turnout_html}
 
 ---
 
@@ -603,7 +618,7 @@ template: proposals-proposals-main.html
 
 # ── generate overview index ────────────────────────────────────
 
-def generate_overview(proposals_by_quarter):
+def generate_overview(proposals_by_quarter, total_voting_power=0):
     sorted_quarters = sorted(proposals_by_quarter.keys(), reverse=True)
 
     md = """---
@@ -742,6 +757,13 @@ template: proposals-oview.html
                 _pct = lambda v: f"({v / total_t * 100:.1f}%)" if total_t > 0 else "(0.0%)"
                 _tally_line = f'<span class="prop-tally-yes-text">Yes {yes_c:,} {_pct(yes_c)}</span> · <span class="prop-tally-no-text">No {no_c:,} {_pct(no_c)}</span> · <span class="prop-tally-veto-text">Veto {veto_c:,} {_pct(veto_c)}</span> · <span class="prop-tally-abstain-text">Abstain {abstain_c:,} {_pct(abstain_c)}</span>'
 
+                _turnout_html = ""
+                if total_voting_power > 0 and total_t > 0:
+                    _turnout_pct = total_t / total_voting_power * 100
+                    _quorum_needed = int(total_voting_power * QUORUM)
+                    _quorum_met = total_t >= _quorum_needed
+                    _turnout_html = f'<span class="prop-card-turnout">Turnout {total_t:,} / {total_voting_power:,} ({_turnout_pct:.1f}%) · Quorum {QUORUM*100:.0f}% {"✓" if _quorum_met else "✗"}</span>'
+
                 _funding_html = ""
                 _amt_by_source = parse_amounts_by_source(p.get("messages", []))
                 _funding_parts = funding_parts_by_source(_amt_by_source)
@@ -755,6 +777,8 @@ template: proposals-oview.html
                     _funding_html = f'<span class="{_funding_cls}">{" · ".join(_funding_parts)}</span>'
 
                 md += f'  <div class="prop-card-tally">{_tally_line}{_funding_html}</div>\n'
+                if _turnout_html:
+                    md += f'  <div class="prop-card-turnout-row">{_turnout_html}</div>\n'
 
             md += "</div>\n\n"
 
@@ -830,7 +854,7 @@ document$.subscribe(function() {{ initProposalsPage(); initCountdowns(); }});
 
 # ── generate quarter page ──────────────────────────────────────
 
-def generate_quarter_page(quarter, proposals):
+def generate_quarter_page(quarter, proposals, total_voting_power=0):
     props = proposals
     total = len(props)
     passed = sum(1 for p in props if p.get("status", "").lower() == "proposal_status_passed")
@@ -959,6 +983,13 @@ template: proposals-oview.html
             _pct = lambda v: f"({v / total_t * 100:.1f}%)" if total_t > 0 else "(0.0%)"
             _tally_line = f'<span class="prop-tally-yes-text">Yes {yes_c:,} {_pct(yes_c)}</span> · <span class="prop-tally-no-text">No {no_c:,} {_pct(no_c)}</span> · <span class="prop-tally-veto-text">Veto {veto_c:,} {_pct(veto_c)}</span> · <span class="prop-tally-abstain-text">Abstain {abstain_c:,} {_pct(abstain_c)}</span>'
 
+            _turnout_html = ""
+            if total_voting_power > 0 and total_t > 0:
+                _turnout_pct = total_t / total_voting_power * 100
+                _quorum_needed = int(total_voting_power * QUORUM)
+                _quorum_met = total_t >= _quorum_needed
+                _turnout_html = f'<span class="prop-card-turnout">Turnout {total_t:,} / {total_voting_power:,} ({_turnout_pct:.1f}%) · Quorum {QUORUM*100:.0f}% {"✓" if _quorum_met else "✗"}</span>'
+
             _funding_html = ""
             _amt_by_source = parse_amounts_by_source(p.get("messages", []))
             _funding_parts = funding_parts_by_source(_amt_by_source)
@@ -972,6 +1003,8 @@ template: proposals-oview.html
                 _funding_html = f'<span class="{_funding_cls}">{" · ".join(_funding_parts)}</span>'
 
             md += f'  <div class="prop-card-tally">{_tally_line}{_funding_html}</div>\n'
+            if _turnout_html:
+                md += f'  <div class="prop-card-turnout-row">{_turnout_html}</div>\n'
         md += "</div>\n\n"
 
     md += '''</div>
@@ -1145,6 +1178,38 @@ def fetch_live_tally(proposal_id):
         return {}
 
 
+QUORUM = 0.25  # 25% from chain params
+
+
+def fetch_total_voting_power():
+    """Fetch total voting power from all bonded validators (sum of tokens field)."""
+    print("Fetching total voting power...")
+    total = 0
+    key = ""
+    page = 0
+    while True:
+        page += 1
+        url = f"{{BASE}}/cosmos/staking/v1beta1/validators?pagination.limit=500&status=BOND_STATUS_BONDED"
+        if key:
+            url += f"&pagination.key={urllib.parse.quote(key, safe='')}"
+        try:
+            data = fetch_with_retry(url, timeout=15)
+        except Exception as e:
+            print(f"  Error fetching validators page {page}: {e}")
+            break
+        vals = data.get("validators", [])
+        for v in vals:
+            try:
+                total += int(v.get("tokens", "0"))
+            except (ValueError, TypeError):
+                pass
+        key = data.get("pagination", {}).get("next_key", "") or ""
+        if not key:
+            break
+    print(f"Total voting power: {total}")
+    return total
+
+
 def main():
     print("=== Sync On-Chain Proposals ===")
     proposals = fetch_proposals()
@@ -1158,6 +1223,9 @@ def main():
             if live:
                 p["final_tally_result"] = live
                 print(f"  #{pid}: patched tally → {live}")
+
+    # Fetch total voting power for turnout/quorum
+    total_voting_power = fetch_total_voting_power()
 
     # Parse and organize
     proposals_by_quarter = {}
@@ -1197,7 +1265,7 @@ def main():
             q_lower = "unknown"
         prop_dir = OUTPUT_DIR / q_lower / pid
         prop_dir.mkdir(parents=True, exist_ok=True)
-        page_md = generate_proposal_page(p, prop_dir)
+        page_md = generate_proposal_page(p, prop_dir, total_voting_power)
         (prop_dir / "index.md").write_text(page_md, encoding="utf-8")
 
     # Generate quarter subpages
@@ -1206,12 +1274,12 @@ def main():
         q_lower = q.lower()
         q_dir = OUTPUT_DIR / q_lower
         q_dir.mkdir(exist_ok=True)
-        q_md = generate_quarter_page(q, proposals_by_quarter[q])
+        q_md = generate_quarter_page(q, proposals_by_quarter[q], total_voting_power)
         (q_dir / "index.md").write_text(q_md, encoding="utf-8")
 
     # Generate overview
     print("Generating overview index...")
-    overview_md = generate_overview(proposals_by_quarter)
+    overview_md = generate_overview(proposals_by_quarter, total_voting_power)
     (OUTPUT_DIR / "index.md").write_text(overview_md, encoding="utf-8")
 
     # Generate RSS feed

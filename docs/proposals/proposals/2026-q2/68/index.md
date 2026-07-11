@@ -68,6 +68,14 @@ Full proposal: <https://vote.gonka.vip/tenders/550f71de-897f-4ce5-8af8-97854775f
   </div>
 </div>
 
+<div class="prop-quorum">
+  <span class="prop-quorum-label">Turnout</span>
+  <span class="prop-quorum-value">269,936 / 741,825 (36.4%)</span>
+  <span class="prop-quorum-label">Quorum</span>
+  <span class="prop-quorum-value">25% (185,456 votes)</span>
+  <span class="prop-quorum-status prop-quorum-met">✓ MET</span>
+</div>
+
 
 ---
 

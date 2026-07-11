@@ -54,6 +54,14 @@ If you are against MLM projects around gonka.ai, vote YES. All funds will be use
   </div>
 </div>
 
+<div class="prop-quorum">
+  <span class="prop-quorum-label">Turnout</span>
+  <span class="prop-quorum-value">957 / 741,825 (0.1%)</span>
+  <span class="prop-quorum-label">Quorum</span>
+  <span class="prop-quorum-value">25% (185,456 votes)</span>
+  <span class="prop-quorum-status prop-quorum-not-met">✗ NOT MET</span>
+</div>
+
 
 ---
 

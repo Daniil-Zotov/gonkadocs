@@ -69,6 +69,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">We will run hundreds of experiments across different target audience hypotheses and set up the basis: acquisition funnels, analytics, sharable target audience deep understanding. Our key performance m…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 1,988 (14.2%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 12,025 (85.8%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-funding prop-card-funding-voting">600,000 GNK · $36,000 · Community Pool</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 14,013 / 741,825 (1.9%) · Quorum 25% ✗</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-voting" data-voting-end="2026-07-11T18:14:41.335202384Z">
@@ -83,6 +84,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">My name is Andrey Orlovsky, and through this proposal I represent our team and an initiative to attract at least $3 million in new long-term capital to GONKA through Uniswap.  Below is a condensed ver…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 0 (0.0%)</span> · <span class="prop-tally-no-text">No 1,988 (0.7%)</span> · <span class="prop-tally-veto-text">Veto 287,881 (99.3%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-funding prop-card-funding-voting">20,000 GNK · $50,000 · Community Pool</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 289,869 / 741,825 (39.1%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -96,6 +98,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Update current chain params by adding v3 to devshard_escrow_params.approved_versions.</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 395,370 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 395,370 / 741,825 (53.3%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -109,6 +112,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">4-month pilot of the External Test Lab & Community DevNet: a community-owned testing layer for Gonka. Full proposal and discussion: <a href="https://github.com/gonka-ai/gonka/discussions/1388" target="_blank">https://github.com/gonka-ai/gonka/discussions/1388</a>  The budget is he…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 368,084 (98.2%)</span> · <span class="prop-tally-no-text">No 468 (0.1%)</span> · <span class="prop-tally-veto-text">Veto 94 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 6,141 (1.6%)</span><span class="prop-card-funding">80,000 GNK · $88,000 · Community Pool</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 374,787 / 741,825 (50.5%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -122,6 +126,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Distribute restitution for Kimi operators affected by cPoC validation failure in epochs 306-309. The Kimi validation path failed starting in e306 causing confirmation_weight suppression for Kimi opera…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 235,728 (56.2%)</span> · <span class="prop-tally-no-text">No 609 (0.1%)</span> · <span class="prop-tally-veto-text">Veto 183,094 (43.7%)</span> · <span class="prop-tally-abstain-text">Abstain 18 (0.0%)</span><span class="prop-card-funding prop-card-funding-rejected">175,082 GNK · Gov Module</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 419,449 / 741,825 (56.5%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -135,6 +140,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Restitution payout for confirmed GRC Proposal #3 cases, with Case 05 payments from proposal_id=67 deducted where the same address and epoch were already compensated, and positive victim outputs below …</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 16,378 (10.4%)</span> · <span class="prop-tally-no-text">No 94,721 (60.4%)</span> · <span class="prop-tally-veto-text">Veto 39,454 (25.1%)</span> · <span class="prop-tally-abstain-text">Abstain 6,344 (4.0%)</span><span class="prop-card-funding prop-card-funding-rejected">47,850 GNK · Community Pool · 70,184 GNK · Gov Module</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 156,897 / 741,825 (21.2%) · Quorum 25% ✗</span></div>
 </div>
 
 </div>
@@ -154,6 +160,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Add Kimi K2.6 and GLM 5.2 model</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 330,364 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 330,364 / 741,825 (44.5%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -167,6 +174,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Set delegation initial_model_id to MiniMaxAI/MiniMax-M2.7, keep only MiniMaxAI/MiniMax-M2.7 in PoC params, remove Qwen/Qwen3-235B-A22B-Instruct-2507-FP8, moonshotai/Kimi-K2.6 from PoC params, and dele…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 255,215 (97.1%)</span> · <span class="prop-tally-no-text">No 170 (0.1%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 7,390 (2.8%)</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 262,775 / 741,825 (35.4%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -180,6 +188,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">We are INPUT Global - a leading web3 marketing communications agency. We offer 3 month PR campaign to establish trust and market legitimacy of Gonka across 2 audiences: global business and crypto-nati…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 152,042 (100.0%)</span> · <span class="prop-tally-no-text">No 71 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-funding">$75,000 · Community Pool</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 152,113 / 741,825 (20.5%) · Quorum 25% ✗</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -193,6 +202,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Register devshard approved version v2.</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 239,924 (100.0%)</span> · <span class="prop-tally-no-text">No 17 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 16 (0.0%)</span><span class="prop-card-funding">$93,600 · Community Pool</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 239,957 / 741,825 (32.3%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -218,6 +228,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Full proposal: <a href="https://gonkalabs.com/proposal" target="_blank">https://gonkalabs.com/proposal</a>  This proposal funds the next six months of work for the Gonka ecosystem.  The focus is production-grade infrastructure and high-use products: Gonka.gg V2…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 305,163 (79.6%)</span> · <span class="prop-tally-no-text">No 3,791 (1.0%)</span> · <span class="prop-tally-veto-text">Veto 15 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 74,304 (19.4%)</span><span class="prop-card-funding">$70,000 · Community Pool · 330,000 GNK · Gov Module</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 383,273 / 741,825 (51.7%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -231,6 +242,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Increase the minimum deposit required to submit a governance proposal to 500 GNK (500,000,000,000 ngonka) and expedited minimum deposit to 1000 GNK (1,000,000,000,000 ngonka). This resubmits proposal …</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 295,843 (96.3%)</span> · <span class="prop-tally-no-text">No 40 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 572 (0.2%)</span> · <span class="prop-tally-abstain-text">Abstain 10,823 (3.5%)</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 307,278 / 741,825 (41.4%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -244,6 +256,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Adds a community-operated wallet to devshard_escrow_params.allowed_creator_addresses, enabling it to create a devshard escrow and operate as an additional self-hosted inference gateway/transfer agent.…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 5,337 (2.2%)</span> · <span class="prop-tally-no-text">No 7,953 (3.3%)</span> · <span class="prop-tally-veto-text">Veto 221,234 (90.7%)</span> · <span class="prop-tally-abstain-text">Abstain 9,421 (3.9%)</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 243,945 / 741,825 (32.9%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -257,6 +270,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">We're a comms team specializing in Organic PR for crypto and tech projects. With strong competition in the space and no active events or marketing currently running for Gonka, we propose a 3-month Org…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 180,108 (99.8%)</span> · <span class="prop-tally-no-text">No 72 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 233 (0.1%)</span><span class="prop-card-funding prop-card-funding-rejected">$75,000 · Community Pool</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 180,413 / 741,825 (24.3%) · Quorum 25% ✗</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -270,6 +284,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Release 246,000 GNK from Community Fund to finalize GNK Racers — a multiplayer side-view racing mini-app with a live working prototype (@GNKRacers_bot). The game drives new user acquisition, wallet ac…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 38,621 (25.0%)</span> · <span class="prop-tally-no-text">No 107,644 (69.6%)</span> · <span class="prop-tally-veto-text">Veto 6,241 (4.0%)</span> · <span class="prop-tally-abstain-text">Abstain 2,245 (1.5%)</span><span class="prop-card-funding prop-card-funding-rejected">246,000 GNK · Community Pool</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 154,751 / 741,825 (20.9%) · Quorum 25% ✗</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -283,6 +298,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Increase the minimum deposit required to submit a governance proposal from the current value to 500 GNK. Also sets expedited minimum deposit to 1000 GNK.</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 199,799 (96.9%)</span> · <span class="prop-tally-no-text">No 46 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 4,202 (2.0%)</span> · <span class="prop-tally-abstain-text">Abstain 2,210 (1.1%)</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 206,257 / 741,825 (27.8%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -296,6 +312,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">The proposal is reopened for voting at the initiative of several hosts who did not participate in the previous round.  • There are no changes to the substance of the proposal; only timeline commitment…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 260,353 (96.4%)</span> · <span class="prop-tally-no-text">No 749 (0.3%)</span> · <span class="prop-tally-veto-text">Veto 6,288 (2.3%)</span> · <span class="prop-tally-abstain-text">Abstain 2,546 (0.9%)</span><span class="prop-card-funding">$70,000 · Community Pool</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 269,936 / 741,825 (36.4%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -309,6 +326,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Distribute restitution for Kimi operators across epochs 265-276. Epochs 265-266: external attack causing CPoC degradation and nonce exclusion. Epochs 267-276: ComputeGroupCap systematic underpayment d…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 319,920 (78.9%)</span> · <span class="prop-tally-no-text">No 150 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 84,623 (20.9%)</span> · <span class="prop-tally-abstain-text">Abstain 744 (0.2%)</span><span class="prop-card-funding">946,509 GNK · Gov Module</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 405,437 / 741,825 (54.7%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -334,6 +352,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Full 360-degree digital and social strategy for Gonka.AI: channel matrix, content plan, segment messaging, social strategy, and brand-voice guidelines. Single-tranche payment of 100,000 GNK to TheSoul…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 220,798 (67.9%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 70,043 (21.5%)</span> · <span class="prop-tally-abstain-text">Abstain 34,369 (10.6%)</span><span class="prop-card-funding">100,000 GNK · Community Pool</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 325,210 / 741,825 (43.8%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -347,6 +366,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Web analytics, attribution, and funnel dashboarding for Gonka.AI: GA4 implementation, UTM taxonomy, event tracking, and conversion reporting. Single-tranche payment of 28,000 GNK to TheSoul on proposa…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 220,798 (67.9%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 70,043 (21.5%)</span> · <span class="prop-tally-abstain-text">Abstain 34,369 (10.6%)</span><span class="prop-card-funding">28,000 GNK · Community Pool</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 325,210 / 741,825 (43.8%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -360,6 +380,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Full redesign of gonka.ai plus dedicated landing pages for miners, inference buyers, and investors, built on the brandbook from Offer 1.2. Single-tranche payment of 10,000 USDT to TheSoul on proposal …</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 220,798 (67.9%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 70,043 (21.5%)</span> · <span class="prop-tally-abstain-text">Abstain 34,369 (10.6%)</span><span class="prop-card-funding">$10,000 · Community Pool</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 325,210 / 741,825 (43.8%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -373,6 +394,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Crypto-influencer pilot campaign for Gonka.AI across selected tier-1 creators, with a full performance report and scaling recommendations. Single-tranche payment of 50,000 USDT to TheSoul on proposal …</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 220,798 (67.9%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 70,043 (21.5%)</span> · <span class="prop-tally-abstain-text">Abstain 34,369 (10.6%)</span><span class="prop-card-funding">$50,000 · Community Pool</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 325,210 / 741,825 (43.8%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -386,6 +408,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Brand identity system for Gonka.AI: logo, typography, color system, graphic language, layout principles, and templates, built on the positioning from Offer 1.1. Single-tranche payment of 20,000 USDT t…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 220,798 (67.9%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 70,043 (21.5%)</span> · <span class="prop-tally-abstain-text">Abstain 34,369 (10.6%)</span><span class="prop-card-funding">$20,000 · Community Pool</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 325,210 / 741,825 (43.8%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -399,6 +422,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Brand audit, competitive positioning, and audience segmentation for Gonka.AI. Single-tranche payment of 25,000 USDT to TheSoul on proposal pass. Full offer document: see the metadata URL.</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 220,798 (67.9%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 70,043 (21.5%)</span> · <span class="prop-tally-abstain-text">Abstain 34,369 (10.6%)</span><span class="prop-card-funding">$25,000 · Community Pool</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 325,210 / 741,825 (43.8%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -412,6 +436,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Funds milestone 1 (upfront prepayment) of a community-produced onboarding video guide for Gonka. Deliverable: a series of ~15 short, interactive, easy-to-follow videos covering A-to-Z onboarding for b…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 24,505 (43.6%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 31,699 (56.4%)</span><span class="prop-card-funding prop-card-funding-rejected">$5,000 · Community Pool</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 56,204 / 741,825 (7.6%) · Quorum 25% ✗</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -425,6 +450,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc"># Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)  70,000 USDT from the CommunityPool for a dedicated Falcon Finance deep-dive on Gonka AI. Full proposal: <a href="https://vote.gonka.vip/tenders…" target="_blank">https://vote.gonka.vip/tenders…</a></div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 98,018 (53.4%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 85,697 (46.6%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-funding prop-card-funding-rejected">$70,000 · Community Pool</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 183,715 / 741,825 (24.8%) · Quorum 25% ✗</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -438,6 +464,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">This proposal approves the Gonka Network Development Roadmap as a strategic direction document for Gonka's future development tracks.  If approved, the roadmap should become the shared vision for Gonk…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 257,150 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 257,150 / 741,825 (34.7%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -451,6 +478,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc"># Gonka NOP: grant for the node deployment tool  50,000 USDT from the CommunityPool to INC4 Full proposal: <a href="https://github.com/gonka-ai/gonka/discussions/1192" target="_blank">https://github.com/gonka-ai/gonka/discussions/1192</a>  ## What it is  gonka-nop (Node Onboarding…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 31,851 (58.6%)</span> · <span class="prop-tally-no-text">No 9,566 (17.6%)</span> · <span class="prop-tally-veto-text">Veto 12,961 (23.8%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-funding prop-card-funding-rejected">$50,000 · Community Pool</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 54,378 / 741,825 (7.3%) · Quorum 25% ✗</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -464,6 +492,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Distribute restitution for Cases 2, 3, and 4 across epochs 248-254. Case 2: preserver weight double-scaling bug (epochs 249-253). Case 3: epoch loss restitution: broad epoch losses, consecutive failur…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 188,670 (61.2%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 119,835 (38.8%)</span><span class="prop-card-funding">39,722 GNK · Community Pool · 306,307 GNK · Gov Module</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 308,505 / 741,825 (41.6%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -477,6 +506,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.13</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 228,216 (62.8%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 135,071 (37.2%)</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 363,287 / 741,825 (49.0%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -490,6 +520,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc"># Gonka NOP: grant for the node deployment tool  50,000 USDT from the CommunityPool to INC4 Full proposal: <a href="https://github.com/gonka-ai/gonka/discussions/1192" target="_blank">https://github.com/gonka-ai/gonka/discussions/1192</a>  ## What it is  gonka-nop (Node Onboarding…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 139,052 (46.8%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 158,195 (53.2%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-funding prop-card-funding-rejected">$50,000 · Community Pool</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 297,247 / 741,825 (40.1%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -503,6 +534,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.13</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 88,420 (34.1%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 170,799 (65.9%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 259,219 / 741,825 (34.9%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -516,6 +548,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">6Block, a long-term Gonka mining and infrastructure participant, proposes that the Gonka community allocate 75,000 USDT to support Gonka's participation at WebX Asia / WebX 2026 in Tokyo. 6Block has a…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 395,003 (62.8%)</span> · <span class="prop-tally-no-text">No 1,767 (0.3%)</span> · <span class="prop-tally-veto-text">Veto 64,217 (10.2%)</span> · <span class="prop-tally-abstain-text">Abstain 168,275 (26.7%)</span><span class="prop-card-funding">$75,000 · Community Pool</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 629,262 / 741,825 (84.8%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -529,6 +562,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Retroactive 20K GNK bounty for an open-sourced PoC optimization measuring +10.2% on B200 and +12.5% on H100 with Qwen3-235B-FP8. One-line patch, verified on-chain by independent miners. Details: https…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 281,723 (59.1%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 194,589 (40.9%)</span><span class="prop-card-funding">20,000 GNK · Community Pool</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 476,312 / 741,825 (64.2%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -542,6 +576,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">We're ICG - AI Influencer Lab, a team that builds and scales hyper-realistic AI avatars on Instagram, TikTok, and YouTube as full ambassadors across verticals. We manage 160+ accounts in AI, finance, …</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 496,683 (71.1%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 201,560 (28.9%)</span><span class="prop-card-funding">$45,000 · Community Pool</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 698,243 / 741,825 (94.1%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -555,6 +590,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">During the Kimi-K2.6 bootstrap, the 30% direct participation threshold proved hard to meet. To avoid the risk of Kimi-K2.6 becoming ineligible in a future epoch and to simplify onboarding of further m…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 808,529 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 808,529 / 741,825 (109.0%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -568,6 +604,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Retroactive 20K GNK bounty for an open-sourced PoC optimization measuring +10.2% on B200 and +12.5% on H100 with Qwen3-235B-FP8. One-line patch, verified on-chain by independent miners. Details: https…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 70,819 (33.6%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 139,828 (66.4%)</span><span class="prop-card-funding prop-card-funding-rejected">20,000 GNK · Community Pool</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 210,647 / 741,825 (28.4%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -581,6 +618,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Two prior upgrades changed the lifecycle of unpaid miner rewards. v0.2.9 (proposal #26, 2026-02-01): when a participant is penalized during cPoC validation, the unaccounted portion of their epoch rewa…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 97,030 (36.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 172,837 (64.0%)</span><span class="prop-card-funding">3,053,800 GNK · Gov Module</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 269,867 / 741,825 (36.4%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -594,6 +632,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Replace scattered governance discussions and complex CLI voting with a unified Governance Portal - a single interface for all Gonka governance activity. The portal includes: a proposal feed across Dis…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 118,126 (25.6%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 210,906 (45.6%)</span> · <span class="prop-tally-abstain-text">Abstain 133,057 (28.8%)</span><span class="prop-card-funding prop-card-funding-rejected">119,000 GNK · Community Pool</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 462,089 / 741,825 (62.3%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -607,6 +646,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.12</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 506,142 (99.6%)</span> · <span class="prop-tally-no-text">No 2,057 (0.4%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 508,199 / 741,825 (68.5%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -620,6 +660,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Today, participating in Gonka governance requires following multiple channels simultaneously — GitHub, Discord, CLI — just to cast a single vote. Most miners miss proposals entirely or vote too late. …</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 123,104 (26.5%)</span> · <span class="prop-tally-no-text">No 335,534 (72.2%)</span> · <span class="prop-tally-veto-text">Veto 5,913 (1.3%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-funding prop-card-funding-rejected">104,166 GNK · Community Pool</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 464,551 / 741,825 (62.6%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -633,6 +674,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">We are DeAI Nation, a global nonprofit organization supporting and promoting the decentralized AI ecosystem, and authors of the State of DeAI 2026 report. We propose that the Gonka community become a …</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 375,771 (68.6%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 172,050 (31.4%)</span><span class="prop-card-funding">$10,000 · Community Pool</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 547,821 / 741,825 (73.8%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -646,6 +688,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Today's explorers and dashboards only show on-chain data, leaving the off-chain state of validators completely opaque. The few operators who do run their own monitoring use different tools, different …</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 17,955 (57.1%)</span> · <span class="prop-tally-no-text">No 13,494 (42.9%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-funding prop-card-funding-rejected">$96,000 · Community Pool</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 31,449 / 741,825 (4.2%) · Quorum 25% ✗</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -659,6 +702,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">This proposal updates x/gov: the standard voting period becomes 48 hours (was 24), and the expedited voting period becomes 12 hours (was 3). All other governance parameters remain at their current on-…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 377,158 (57.7%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 12,030 (1.8%)</span> · <span class="prop-tally-abstain-text">Abstain 264,790 (40.5%)</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 653,978 / 741,825 (88.2%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -672,6 +716,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Saccade Media House is a creative team of tech entrepreneurs who know how to tell stories. We've built content for international tech brands and the founders behind them. We propose a Community Series…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 394,971 (76.0%)</span> · <span class="prop-tally-no-text">No 183 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 124,587 (24.0%)</span><span class="prop-card-funding">31,250 GNK · Community Pool</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 519,741 / 741,825 (70.1%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -685,6 +730,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">If you agree say YES — Solution 1: Produce a short review video with 1-2 active community members. Solution 2: Introduce the project to BD managers of major CIS exchanges for listings. Solution 3 (Reg…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 0 (0.0%)</span> · <span class="prop-tally-no-text">No 183 (2.3%)</span> · <span class="prop-tally-veto-text">Veto 7,893 (97.7%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-funding prop-card-funding-rejected">20,000 GNK · Community Pool · 25,000 GNK · Gov Module</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 8,076 / 741,825 (1.1%) · Quorum 25% ✗</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -698,6 +744,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">If you are against MLM projects around gonka.ai, vote YES. All funds will be used to counter such projects. The amount is symbolic.</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 957 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-funding prop-card-funding-rejected">1 GNK · Community Pool</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 957 / 741,825 (0.1%) · Quorum 25% ✗</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -711,6 +758,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Register IBC token metadata and approve the denomination for trading on Gonka mainnet.</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 421,414 (99.6%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 1,788 (0.4%)</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 423,202 / 741,825 (57.0%) · Quorum 25% ✓</span></div>
 </div>
 
 </div>
@@ -730,6 +778,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">This proposal seeks community approval for a global media initiative to build awareness of decentralized AI and position Gonka as core AI infrastructure.  Key elements: Led by TheSoul Group (full-cycl…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 9,150 (25.5%)</span> · <span class="prop-tally-no-text">No 10,325 (28.8%)</span> · <span class="prop-tally-veto-text">Veto 2,450 (6.8%)</span> · <span class="prop-tally-abstain-text">Abstain 13,939 (38.9%)</span><span class="prop-card-funding prop-card-funding-rejected">970,000 GNK · Community Pool</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 35,864 / 741,825 (4.8%) · Quorum 25% ✗</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -755,6 +804,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Distribute compensation for CPoC bug affected participants in epochs 132-133.</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 184,243 (41.8%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 256,296 (58.2%)</span><span class="prop-card-funding">3,100 GNK · Community Pool · 24,806 GNK · Gov Module</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 440,539 / 741,825 (59.4%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -768,6 +818,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Distribute compensation proportional to epoch 158 lost preserved weights. Implemented as one MsgBatchTransferWithVesting.</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 501,114 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-funding">500 GNK · Community Pool · 30,038 GNK · Gov Module</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 501,114 / 741,825 (67.6%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -781,6 +832,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.11</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 673,699 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 673,699 / 741,825 (90.8%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -794,6 +846,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Testing governance voting from the wallet app.</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 0 (0.0%)</span> · <span class="prop-tally-no-text">No 47 (100.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 47 / 741,825 (0.0%) · Quorum 25% ✗</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -807,6 +860,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Remove TransferAgent allowlist restrictions (empty list = all TAs allowed) and increase per-token pricing 100x (min 100, base 10000 ngonka) to reduce spam.</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 7,314 (2.9%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 243,060 (97.1%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 250,374 / 741,825 (33.8%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -820,6 +874,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">0.032 GNK per 1 unit of power, 0.01% slashing for miss rate or jail, 0.5% slashing for invalid inference</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 314,460 (96.5%)</span> · <span class="prop-tally-no-text">No 11,504 (3.5%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 325,964 / 741,825 (43.9%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -833,6 +888,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.10</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 1,540,653 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 1,540,653 / 741,825 (207.7%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -846,6 +902,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.9</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 2,708,406 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 2,708,406 / 741,825 (365.1%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -859,6 +916,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.8</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 4,153,562 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 4,153,562 / 741,825 (559.9%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -884,6 +942,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Update Expiration Dates for Developer Access and Participant Allowlist</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 3,476,742 (99.9%)</span> · <span class="prop-tally-no-text">No 2,836 (0.1%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 3,479,578 / 741,825 (469.1%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -897,6 +956,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc"><a href="https://github.com/product-science/filter/tree/0354c37eb6c827f00c1e889a2b7de9952a9b84ba" target="_blank">https://github.com/product-science/filter/tree/0354c37eb6c827f00c1e889a2b7de9952a9b84ba</a></div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 3,020,391 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 3,020,391 / 741,825 (407.2%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -910,6 +970,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc"><a href="https://github.com/product-science/filter/tree/ae59d27f04a70039bcfca94ae656e723982150cd" target="_blank">https://github.com/product-science/filter/tree/ae59d27f04a70039bcfca94ae656e723982150cd</a></div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 2,111,775 (90.1%)</span> · <span class="prop-tally-no-text">No 90,320 (3.9%)</span> · <span class="prop-tally-veto-text">Veto 140,607 (6.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 2,342,702 / 741,825 (315.8%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -923,6 +984,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.7</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 3,886,156 (96.1%)</span> · <span class="prop-tally-no-text">No 148,604 (3.7%)</span> · <span class="prop-tally-veto-text">Veto 8,096 (0.2%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 4,042,856 / 741,825 (545.0%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -936,6 +998,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Test proposal</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 4,237 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 4,237 / 741,825 (0.6%) · Quorum 25% ✗</span></div>
 </div>
 
 </div>
@@ -955,6 +1018,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Expected amount of Confirmation PoC per epoch to 4, p0 for binomial test to 0.1</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 3,261,413 (100.0%)</span> · <span class="prop-tally-no-text">No 85 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 3,261,498 / 741,825 (439.7%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -968,6 +1032,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.6</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 1,985,917 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 1,985,917 / 741,825 (267.7%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -981,6 +1046,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.6</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 1,034,445 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 1,034,445 / 741,825 (139.4%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -994,6 +1060,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Sale GNK from Community Fund</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 1,180,961 (98.8%)</span> · <span class="prop-tally-no-text">No 9,781 (0.8%)</span> · <span class="prop-tally-veto-text">Veto 4,577 (0.4%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-funding">20,000,000 GNK · Community Pool</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 1,195,319 / 741,825 (161.1%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -1007,6 +1074,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.5</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 428,459 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 428,459 / 741,825 (57.8%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -1020,6 +1088,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Bandwidth Limits</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 257,565 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 257,565 / 741,825 (34.7%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -1033,6 +1102,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Bandwidth Limits</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 349,596 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 349,596 / 741,825 (47.1%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -1046,6 +1116,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Bandwidth Limits</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 287,496 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 287,496 / 741,825 (38.8%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -1059,6 +1130,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Higher Bandwidth Limits & Voting Time Back to 24H</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 394,887 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 394,887 / 741,825 (53.2%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -1072,6 +1144,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.4</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 286,826 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 286,826 / 741,825 (38.7%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -1085,6 +1158,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.3</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 132,672 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 132,672 / 741,825 (17.9%) · Quorum 25% ✗</span></div>
 </div>
 
 </div>
@@ -1104,6 +1178,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.2</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 130,079 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 130,079 / 741,825 (17.5%) · Quorum 25% ✗</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -1117,6 +1192,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Expedite voting for upgrades</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 172,265 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 172,265 / 741,825 (23.2%) · Quorum 25% ✗</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -1130,6 +1206,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.2</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 109 (0.1%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 109,637 (99.9%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 109,746 / 741,825 (14.8%) · Quorum 25% ✗</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -1143,6 +1220,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Proposal updates poc_validation_duration from 20 to 100.</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 162,514 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 162,514 / 741,825 (21.9%) · Quorum 25% ✗</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -1156,6 +1234,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">This proposal introduces new Qwen3 models including Qwen3-32B-FP8 and Qwen3-235B-A22B-Instruct-2507-FP8, along with updating parameters for Qwen2.5-7B-Instruct and QwQ-32B.</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 62,612 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 62,612 / 741,825 (8.4%) · Quorum 25% ✗</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -1169,11 +1248,12 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Proposal updates epoch_length and restrictions length according to real block length in seconds.</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 74,474 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 74,474 / 741,825 (10.0%) · Quorum 25% ✗</span></div>
 </div>
 
 </div>
 <div class="prop-oview-stats">
-<em>84 proposals across 5 quarters. Last updated: 2026-07-11 08:20 UTC</em>
+<em>84 proposals across 5 quarters. Last updated: 2026-07-11 08:19 UTC</em>
 </div>
 
 <script>
