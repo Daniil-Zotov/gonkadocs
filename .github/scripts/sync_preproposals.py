@@ -178,7 +178,6 @@ def generate_proposal_page(proposal, detail, comments):
     creator_image = proposal.get("creator_image", "")
     created_at = proposal.get("created_at", "")
     closes_at = proposal.get("closes_at", "")
-    tally = proposal.get("tally", {})
     voters = detail.get("voters", []) if detail else []
     status = render_status_badge(proposal)
     source_lang = proposal.get("source_lang", "en")
@@ -197,8 +196,14 @@ def generate_proposal_page(proposal, detail, comments):
         except (ValueError, TypeError):
             pass
 
-    voter_count = tally.get("voter_count", 0)
-    weighted_bid = format_gnk(tally.get("weighted_avg_bid_ngonka", "0"))
+    likes_count = proposal.get("likes_count", 0)
+    dislikes_count = proposal.get("dislikes_count", 0)
+    likes_weight = int(proposal.get("likes_weight_ngonka", "0") or "0")
+    dislikes_weight = int(proposal.get("dislikes_weight_ngonka", "0") or "0")
+    total_votes = likes_count + dislikes_count
+    total_weight = likes_weight + dislikes_weight
+    voter_count = total_votes
+    weighted_bid = format_gnk(str(total_weight // max(total_votes, 1))) if total_votes > 0 else "0.00 GNK"
 
     md = f"""---
 title: "{title_esc}"
@@ -284,9 +289,14 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
             pid = p["id"]
             title = escape_md_table(clean_title(p.get("title", "Untitled")))
             author = escape_md_table(p.get("creator_name", "—"))
-            tally = p.get("tally", {})
-            voter_count = tally.get("voter_count", 0)
-            weighted_bid = format_gnk(tally.get("weighted_avg_bid_ngonka", "0"))
+            likes_count = p.get("likes_count", 0)
+            dislikes_count = p.get("dislikes_count", 0)
+            likes_weight = int(p.get("likes_weight_ngonka", "0") or "0")
+            dislikes_weight = int(p.get("dislikes_weight_ngonka", "0") or "0")
+            total_votes = likes_count + dislikes_count
+            total_weight = likes_weight + dislikes_weight
+            voter_count = total_votes
+            weighted_bid = format_gnk(str(total_weight // max(total_votes, 1))) if total_votes > 0 else "0.00 GNK"
             closes_at = p.get("closes_at", "")
             if closes_at:
                 try:
@@ -314,9 +324,14 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
             pid = p["id"]
             title = escape_md_table(clean_title(p.get("title", "Untitled")))
             author = escape_md_table(p.get("creator_name", "—"))
-            tally = p.get("tally", {})
-            voter_count = tally.get("voter_count", 0)
-            weighted_bid = format_gnk(tally.get("weighted_avg_bid_ngonka", "0"))
+            likes_count = p.get("likes_count", 0)
+            dislikes_count = p.get("dislikes_count", 0)
+            likes_weight = int(p.get("likes_weight_ngonka", "0") or "0")
+            dislikes_weight = int(p.get("dislikes_weight_ngonka", "0") or "0")
+            total_votes = likes_count + dislikes_count
+            total_weight = likes_weight + dislikes_weight
+            voter_count = total_votes
+            weighted_bid = format_gnk(str(total_weight // max(total_votes, 1))) if total_votes > 0 else "0.00 GNK"
             closes_at = p.get("closes_at", "")
             if closes_at:
                 try:
