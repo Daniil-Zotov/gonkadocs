@@ -719,14 +719,14 @@ template: proposals-oview.html
             countdown_html = ""
             if is_voting and voting_end_iso:
                 card_data_attrs += f' data-voting-end="{voting_end_iso}"'
-                countdown_html = f'  <div class="prop-vote-countdown" data-deadline="{voting_end_iso}"></div>\n'
+                countdown_html = f'    <span class="prop-vote-countdown" data-deadline="{voting_end_iso}"></span>\n'
 
             md += f"""<div class="prop-card" {card_data_attrs}>
   <div class="prop-card-header">
     <a href="{q.lower()}/{pid}/" class="prop-card-title">#{pid} – {title}</a>
-    <span class="prop-badge {status_css_cls}">{status_label}</span>
+{countdown_html}    <span class="prop-badge {status_css_cls}">{status_label}</span>
   </div>
-{countdown_html}  <div class="prop-card-meta">
+  <div class="prop-card-meta">
     <span>Submitted {submit_time}</span>
     <span>Voting ends {voting_end}</span>
   </div>
@@ -937,14 +937,14 @@ template: proposals-oview.html
         countdown_html = ""
         if is_voting and voting_end_iso:
             card_data_attrs += f' data-voting-end="{voting_end_iso}"'
-            countdown_html = f'  <div class="prop-vote-countdown" data-deadline="{voting_end_iso}"></div>\n'
+            countdown_html = f'    <span class="prop-vote-countdown" data-deadline="{voting_end_iso}"></span>\n'
 
         md += f'''<div class="prop-card" {card_data_attrs}>
   <div class="prop-card-header">
     <a href="{pid}/" class="prop-card-title">#{pid} – {title}</a>
-    <span class="prop-badge {status_css_cls}">{status_label}</span>
+{countdown_html}    <span class="prop-badge {status_css_cls}">{status_label}</span>
   </div>
-{countdown_html}  <div class="prop-card-meta">
+  <div class="prop-card-meta">
     <span>Submitted {submit_time}</span>
     <span>Voting ends {voting_end}</span>
   </div>
