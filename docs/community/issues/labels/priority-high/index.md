@@ -6,7 +6,7 @@ template: issues-main.html
 # Issues: Priority: High
 
 Issues with label **Priority: High**. Total: **29**.
-Updated: `2026-07-10 22:30 UTC`.
+Updated: `2026-07-11 00:17 UTC`.
 
 [← All Issues](../../index.md)
 
@@ -21,7 +21,7 @@ Updated: `2026-07-10 22:30 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span> <span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@maria-mitina](https://github.com/maria-mitina) opened 2 days ago</span>
+      <span class="issues-meta-item">[@maria-mitina](https://github.com/maria-mitina) opened 3 days ago</span>
       
     </div>
   </div>
@@ -51,7 +51,7 @@ Updated: `2026-07-10 22:30 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 15 days ago</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 16 days ago</span>
       
     </div>
   </div>

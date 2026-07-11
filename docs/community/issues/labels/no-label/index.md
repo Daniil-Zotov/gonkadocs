@@ -6,7 +6,7 @@ template: issues-main.html
 # Issues: no-label
 
 Issues with label **no-label**. Total: **229**.
-Updated: `2026-07-10 22:30 UTC`.
+Updated: `2026-07-11 00:17 UTC`.
 
 [← All Issues](../../index.md)
 
@@ -21,7 +21,7 @@ Updated: `2026-07-10 22:30 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@scodeit](https://github.com/scodeit) opened 1 hour ago</span>
+      <span class="issues-meta-item">[@scodeit](https://github.com/scodeit) opened 3 hours ago</span>
       
     </div>
   </div>
@@ -36,7 +36,7 @@ Updated: `2026-07-10 22:30 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@jack-maguli](https://github.com/jack-maguli) opened 1 hour ago</span>
+      <span class="issues-meta-item">[@jack-maguli](https://github.com/jack-maguli) opened 3 hours ago</span>
       
     </div>
   </div>
@@ -51,7 +51,7 @@ Updated: `2026-07-10 22:30 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@Doog-bot534](https://github.com/Doog-bot534) opened 16 hours ago</span>
+      <span class="issues-meta-item">[@Doog-bot534](https://github.com/Doog-bot534) opened 18 hours ago</span>
       
     </div>
   </div>
@@ -66,7 +66,7 @@ Updated: `2026-07-10 22:30 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@maria-mitina](https://github.com/maria-mitina) opened 1 day ago</span>
+      <span class="issues-meta-item">[@maria-mitina](https://github.com/maria-mitina) opened 2 days ago</span>
       
     </div>
   </div>
@@ -111,7 +111,7 @@ Updated: `2026-07-10 22:30 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2 days ago</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 3 days ago</span>
       
     </div>
   </div>
@@ -126,7 +126,7 @@ Updated: `2026-07-10 22:30 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@maria-mitina](https://github.com/maria-mitina) opened 2 days ago</span>
+      <span class="issues-meta-item">[@maria-mitina](https://github.com/maria-mitina) opened 3 days ago</span>
       
     </div>
   </div>
@@ -141,7 +141,7 @@ Updated: `2026-07-10 22:30 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@Ryanchen911](https://github.com/Ryanchen911) opened 2 days ago</span>
+      <span class="issues-meta-item">[@Ryanchen911](https://github.com/Ryanchen911) opened 3 days ago</span>
       
     </div>
   </div>
@@ -231,7 +231,7 @@ Updated: `2026-07-10 22:30 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@GERAunits](https://github.com/GERAunits) opened 7 days ago</span>
+      <span class="issues-meta-item">[@GERAunits](https://github.com/GERAunits) opened 8 days ago</span>
       
     </div>
   </div>
@@ -291,7 +291,7 @@ Updated: `2026-07-10 22:30 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@redstartechno](https://github.com/redstartechno) opened 13 days ago</span>
+      <span class="issues-meta-item">[@redstartechno](https://github.com/redstartechno) opened 14 days ago</span>
       
     </div>
   </div>
@@ -336,7 +336,7 @@ Updated: `2026-07-10 22:30 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@Puyre](https://github.com/Puyre) opened 16 days ago</span>
+      <span class="issues-meta-item">[@Puyre](https://github.com/Puyre) opened 17 days ago</span>
       
     </div>
   </div>
@@ -351,7 +351,7 @@ Updated: `2026-07-10 22:30 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@sspotanin](https://github.com/sspotanin) opened 16 days ago</span>
+      <span class="issues-meta-item">[@sspotanin](https://github.com/sspotanin) opened 17 days ago</span>
       
     </div>
   </div>
@@ -366,7 +366,7 @@ Updated: `2026-07-10 22:30 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@Korolev-Oleg](https://github.com/Korolev-Oleg) opened 16 days ago</span>
+      <span class="issues-meta-item">[@Korolev-Oleg](https://github.com/Korolev-Oleg) opened 17 days ago</span>
       
     </div>
   </div>
@@ -381,7 +381,7 @@ Updated: `2026-07-10 22:30 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@olkwwuah](https://github.com/olkwwuah) opened 16 days ago</span>
+      <span class="issues-meta-item">[@olkwwuah](https://github.com/olkwwuah) opened 17 days ago</span>
       
     </div>
   </div>
@@ -396,7 +396,7 @@ Updated: `2026-07-10 22:30 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@bruev](https://github.com/bruev) opened 16 days ago</span>
+      <span class="issues-meta-item">[@bruev](https://github.com/bruev) opened 17 days ago</span>
       
     </div>
   </div>
@@ -411,7 +411,7 @@ Updated: `2026-07-10 22:30 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@appgencore](https://github.com/appgencore) opened 16 days ago</span>
+      <span class="issues-meta-item">[@appgencore](https://github.com/appgencore) opened 17 days ago</span>
       
     </div>
   </div>
@@ -426,7 +426,7 @@ Updated: `2026-07-10 22:30 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@piterberkut](https://github.com/piterberkut) opened 16 days ago</span>
+      <span class="issues-meta-item">[@piterberkut](https://github.com/piterberkut) opened 17 days ago</span>
       
     </div>
   </div>
