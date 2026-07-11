@@ -11,6 +11,14 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ## 🟢 Active Proposals
 
+<div class="quarter-summary" markdown="1">
+<div class="qs-stats">
+<div class="qs-stat passed"><span class="qs-num">5</span><span class="qs-desc">Active</span></div>
+<div class="qs-stat"><span class="qs-num">11</span><span class="qs-desc">Votes</span></div>
+<div class="qs-stat"><span class="qs-num">2.0M GNK</span><span class="qs-desc">Total Bid</span></div>
+</div>
+</div>
+
 | Status | Title | Author | Votes | Avg. Bid | Closes |
 | :----- | :----- | :----- | ----: | -------: | :----- |
 | 🟢 | [Предложение по развитию игровой экосистемы блокчейна через турнирные пулы вознаг](./fd9989ca-7c5b-4a2f-baf4-2465e6915ba6/) | Victor | 0 | 0.00 GNK | 2026-07-12 |
@@ -23,6 +31,14 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 ---
 
 ## 🔴 Expired Proposals
+
+<div class="quarter-summary" markdown="1">
+<div class="qs-stats">
+<div class="qs-stat rejected"><span class="qs-num">26</span><span class="qs-desc">Expired</span></div>
+<div class="qs-stat"><span class="qs-num">2</span><span class="qs-desc">Votes</span></div>
+<div class="qs-stat"><span class="qs-num">6.6K GNK</span><span class="qs-desc">Total Bid</span></div>
+</div>
+</div>
 
 | Status | Title | Author | Votes | Avg. Bid | Closed |
 | :----- | :----- | :----- | ----: | -------: | :----- |
@@ -56,4 +72,4 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-07-11 10:52 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-07-11 10:57 UTC*

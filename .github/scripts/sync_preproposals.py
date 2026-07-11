@@ -264,6 +264,30 @@ template: proposals-main.html
     return md
 
 
+def preprop_summary_html(proposals, css_cls, label):
+    n = len(proposals)
+    total_votes = 0
+    total_weight = 0
+    for p in proposals:
+        likes_count = p.get("likes_count", 0)
+        dislikes_count = p.get("dislikes_count", 0)
+        likes_weight = int(p.get("likes_weight_ngonka", "0") or "0")
+        dislikes_weight = int(p.get("dislikes_weight_ngonka", "0") or "0")
+        total_votes += likes_count + dislikes_count
+        total_weight += likes_weight + dislikes_weight
+    bid_str = format_gnk(str(total_weight)) if total_weight else "0"
+    lines = [
+        '<div class="quarter-summary" markdown="1">',
+        f'<div class="qs-stats">',
+        f'<div class="qs-stat {css_cls}"><span class="qs-num">{n}</span><span class="qs-desc">{label}</span></div>',
+        f'<div class="qs-stat"><span class="qs-num">{total_votes}</span><span class="qs-desc">Votes</span></div>',
+        f'<div class="qs-stat"><span class="qs-num">{bid_str}</span><span class="qs-desc">Total Bid</span></div>',
+        "</div>",
+        "</div>",
+    ]
+    return "\n".join(lines) + "\n\n"
+
+
 def generate_index(proposals_by_status):
     active = proposals_by_status.get("active", [])
     expired = proposals_by_status.get("expired", [])
@@ -283,6 +307,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 """
     if active:
+        md += preprop_summary_html(active, "passed", "Active")
         md += "| Status | Title | Author | Votes | Avg. Bid | Closes |\n"
         md += "| :----- | :----- | :----- | ----: | -------: | :----- |\n"
         for p in sorted(active, key=lambda x: x.get("closes_at", ""), reverse=False):
@@ -318,6 +343,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 """
     if expired:
+        md += preprop_summary_html(expired, "rejected", "Expired")
         md += "| Status | Title | Author | Votes | Avg. Bid | Closed |\n"
         md += "| :----- | :----- | :----- | ----: | -------: | :----- |\n"
         for p in sorted(expired, key=lambda x: x.get("closes_at", ""), reverse=True):
