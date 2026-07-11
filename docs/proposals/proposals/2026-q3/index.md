@@ -33,7 +33,7 @@ template: proposals-oview.html
 
 <div class="qs-stats">
 <div class="qs-stat total"><span class="qs-num">6</span><span class="qs-desc">Total Proposals</span></div>
-<div class="qs-stat passed"><span class="qs-num">1</span><span class="qs-desc">Passed (17%)</span></div>
+<div class="qs-stat passed"><span class="qs-num">2</span><span class="qs-desc">Passed (33%)</span></div>
 <div class="qs-stat rejected"><span class="qs-num">2</span><span class="qs-desc">Rejected (33%)</span></div>
 
 </div>
@@ -80,11 +80,10 @@ template: proposals-oview.html
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 0 (0.0%)</span> · <span class="prop-tally-no-text">No 1,988 (0.7%)</span> · <span class="prop-tally-veto-text">Veto 287,881 (99.3%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-funding prop-card-funding-voting">20,000 GNK · $50,000 · Community Pool</span></div>
 </div>
 
-<div class="prop-card" data-status="prop-voting" data-voting-end="2026-07-11T06:41:34.154072819Z">
+<div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
     <a href="83/" class="prop-card-title">#83 – Approve devshard v3</a>
-    <span class="prop-vote-countdown" data-deadline="2026-07-11T06:41:34.154072819Z"></span>
-    <span class="prop-badge prop-voting">Voting</span>
+    <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
     <span>Submitted 2026-07-09</span>
