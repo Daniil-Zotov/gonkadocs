@@ -75,23 +75,23 @@ Additional materials, proof of our work, landing page examples, creatives, adver
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:0.0%"></div>
-    <div class="prop-tally-no" style="width:0.7%"></div>
-    <div class="prop-tally-veto" style="width:99.3%"></div>
+    <div class="prop-tally-yes" style="width:0.4%"></div>
+    <div class="prop-tally-no" style="width:0.8%"></div>
+    <div class="prop-tally-veto" style="width:98.8%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes 0 (0.0%)</span>
-    <span class="prop-tally-no-text">No 1,988 (0.7%)</span>
-    <span class="prop-tally-veto-text">Veto 287,881 (99.3%)</span>
-    <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span>
-    <span class="prop-tally-total-text">Total 289,869 votes</span>
+    <span class="prop-tally-yes-text">Yes 1,221 (0.4%)</span>
+    <span class="prop-tally-no-text">No 2,404 (0.8%)</span>
+    <span class="prop-tally-veto-text">Veto 290,022 (98.8%)</span>
+    <span class="prop-tally-abstain-text">Abstain 3 (0.0%)</span>
+    <span class="prop-tally-total-text">Total 293,650 votes</span>
   </div>
 </div>
 
 <div class="prop-quorum">
   <span class="prop-quorum-label">Turnout</span>
-  <span class="prop-quorum-value">289,869 / 741,825 (39.1%)</span>
+  <span class="prop-quorum-value">293,650 / 741,825 (39.6%)</span>
   <span class="prop-quorum-label">Quorum</span>
   <span class="prop-quorum-value">25% (185,456 votes)</span>
   <span class="prop-quorum-status prop-quorum-met">✓ MET</span>

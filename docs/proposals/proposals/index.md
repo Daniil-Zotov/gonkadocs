@@ -68,8 +68,8 @@ template: proposals-oview.html
     <span>Voting ends 2026-07-12</span>
   </div>
   <div class="prop-card-desc">We will run hundreds of experiments across different target audience hypotheses and set up the basis: acquisition funnels, analytics, sharable target audience deep understanding. Our key performance m…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 1,988 (14.2%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 12,025 (85.8%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-funding prop-card-funding-voting">600,000 GNK · $36,000 · Community Pool</span></div>
-  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 14,013 / 741,825 (1.9%) · Quorum 25% ✗</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 2,858 (16.1%)</span> · <span class="prop-tally-no-text">No 8 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 14,884 (83.6%)</span> · <span class="prop-tally-abstain-text">Abstain 45 (0.3%)</span><span class="prop-card-funding prop-card-funding-voting">600,000 GNK · $36,000 · Community Pool</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 17,795 / 741,825 (2.4%) · Quorum 25% ✗</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-voting" data-voting-end="2026-07-11T18:14:41.335202384Z">
@@ -83,8 +83,8 @@ template: proposals-oview.html
     <span>Voting ends 2026-07-11</span>
   </div>
   <div class="prop-card-desc">My name is Andrey Orlovsky, and through this proposal I represent our team and an initiative to attract at least $3 million in new long-term capital to GONKA through Uniswap.  Below is a condensed ver…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 0 (0.0%)</span> · <span class="prop-tally-no-text">No 1,988 (0.7%)</span> · <span class="prop-tally-veto-text">Veto 287,881 (99.3%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-funding prop-card-funding-voting">20,000 GNK · $50,000 · Community Pool</span></div>
-  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 289,869 / 741,825 (39.1%) · Quorum 25% ✓</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 1,221 (0.4%)</span> · <span class="prop-tally-no-text">No 2,404 (0.8%)</span> · <span class="prop-tally-veto-text">Veto 290,022 (98.8%)</span> · <span class="prop-tally-abstain-text">Abstain 3 (0.0%)</span><span class="prop-card-funding prop-card-funding-voting">20,000 GNK · $50,000 · Community Pool</span></div>
+  <div class="prop-card-turnout-row"><span class="prop-card-turnout">Turnout 293,650 / 741,825 (39.6%) · Quorum 25% ✓</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -1179,7 +1179,7 @@ template: proposals-oview.html
 
 </div>
 <div class="prop-oview-stats">
-<em>84 proposals across 5 quarters. Last updated: 2026-07-11 08:36 UTC</em>
+<em>84 proposals across 5 quarters. Last updated: 2026-07-11 08:40 UTC</em>
 </div>
 
 <script>
