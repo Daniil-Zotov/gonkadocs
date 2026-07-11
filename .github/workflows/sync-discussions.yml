@@ -45,6 +45,6 @@ jobs:
             echo "No changes — skipping commit."
           else
             git commit -m "chore(docs): sync GitHub Discussions + regenerate llms files"
-            git pull --rebase origin main
+            git pull --rebase -X theirs origin main
             git push
           fi
