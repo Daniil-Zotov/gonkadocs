@@ -55,23 +55,23 @@ template: proposals-oview.html
 <div class="prop-card" data-status="prop-voting" data-voting-end="2026-07-12T00:41:08.740427072Z">
   <div class="prop-card-header">
     <a href="85/" class="prop-card-title">#85 – Internal Go-To-Market Team for 3 Month</a>
+    <span class="prop-vote-countdown" data-deadline="2026-07-12T00:41:08.740427072Z"></span>
     <span class="prop-badge prop-voting">Voting</span>
   </div>
-  <div class="prop-vote-countdown" data-deadline="2026-07-12T00:41:08.740427072Z"></div>
   <div class="prop-card-meta">
     <span>Submitted 2026-07-10</span>
     <span>Voting ends 2026-07-12</span>
   </div>
   <div class="prop-card-desc">We will run hundreds of experiments across different target audience hypotheses and set up the basis: acquisition funnels, analytics, sharable target audience deep understanding. Our key performance m…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 0 (0.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 12,025 (100.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-funding prop-card-funding-voting">600,000 GNK · $36,000 · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 1,988 (14.2%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 12,025 (85.8%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-funding prop-card-funding-voting">600,000 GNK · $36,000 · Community Pool</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-voting" data-voting-end="2026-07-11T18:14:41.335202384Z">
   <div class="prop-card-header">
     <a href="84/" class="prop-card-title">#84 – Bringing $3M+ in New Capital to GONKA via Uniswap — Phase 1/6 ($50k USDT)</a>
+    <span class="prop-vote-countdown" data-deadline="2026-07-11T18:14:41.335202384Z"></span>
     <span class="prop-badge prop-voting">Voting</span>
   </div>
-  <div class="prop-vote-countdown" data-deadline="2026-07-11T18:14:41.335202384Z"></div>
   <div class="prop-card-meta">
     <span>Submitted 2026-07-09</span>
     <span>Voting ends 2026-07-11</span>
@@ -83,9 +83,9 @@ template: proposals-oview.html
 <div class="prop-card" data-status="prop-voting" data-voting-end="2026-07-11T06:41:34.154072819Z">
   <div class="prop-card-header">
     <a href="83/" class="prop-card-title">#83 – Approve devshard v3</a>
+    <span class="prop-vote-countdown" data-deadline="2026-07-11T06:41:34.154072819Z"></span>
     <span class="prop-badge prop-voting">Voting</span>
   </div>
-  <div class="prop-vote-countdown" data-deadline="2026-07-11T06:41:34.154072819Z"></div>
   <div class="prop-card-meta">
     <span>Submitted 2026-07-09</span>
     <span>Voting ends 2026-07-11</span>

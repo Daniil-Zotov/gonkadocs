@@ -480,10 +480,11 @@ def generate_proposal_page(proposal, prop_dir):
     amt_by_source = parse_amounts_by_source(messages)
 
     # Status badge HTML
-    badge_html = f'<span class="prop-badge {status_css_cls}">{status_label}</span>'
     voting_end_iso = proposal.get("voting_end_time", "")
     if status_css_cls == "prop-voting" and voting_end_iso:
-        badge_html += f'<div class="prop-vote-countdown prop-vote-countdown-detail" data-deadline="{voting_end_iso}"></div>'
+        badge_html = f'<div class="prop-badge-row"><span class="prop-badge {status_css_cls}">{status_label}</span><span class="prop-vote-countdown prop-vote-countdown-detail" data-deadline="{voting_end_iso}"></span></div>'
+    else:
+        badge_html = f'<span class="prop-badge {status_css_cls}">{status_label}</span>'
 
     # Tally section if voting period ended
     tally_html = ""

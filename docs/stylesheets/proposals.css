@@ -552,8 +552,12 @@ h2#full-proposal {
   font-weight: 400;
 }
 
+.prop-badge-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
 .prop-vote-countdown-detail {
   font-size: 13px;
-  margin-top: 4px;
-  text-align: left;
 }
