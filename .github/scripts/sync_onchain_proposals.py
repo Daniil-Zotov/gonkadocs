@@ -481,6 +481,9 @@ def generate_proposal_page(proposal, prop_dir):
 
     # Status badge HTML
     badge_html = f'<span class="prop-badge {status_css_cls}">{status_label}</span>'
+    voting_end_iso = proposal.get("voting_end_time", "")
+    if status_css_cls == "prop-voting" and voting_end_iso:
+        badge_html += f'<div class="prop-vote-countdown prop-vote-countdown-detail" data-deadline="{voting_end_iso}"></div>'
 
     # Tally section if voting period ended
     tally_html = ""
@@ -710,12 +713,20 @@ template: proposals-oview.html
             # Short summary (truncate)
             short_summary = summary[:200] + "…" if summary and len(summary) > 200 else (summary or "")
 
-            md += f"""<div class="prop-card" data-status="{status_css_cls}">
+            voting_end_iso = p.get("voting_end_time", "")
+            is_voting = status_css_cls == "prop-voting"
+            card_data_attrs = f'data-status="{status_css_cls}"'
+            countdown_html = ""
+            if is_voting and voting_end_iso:
+                card_data_attrs += f' data-voting-end="{voting_end_iso}"'
+                countdown_html = f'  <div class="prop-vote-countdown" data-deadline="{voting_end_iso}"></div>\n'
+
+            md += f"""<div class="prop-card" {card_data_attrs}>
   <div class="prop-card-header">
     <a href="{q.lower()}/{pid}/" class="prop-card-title">#{pid} – {title}</a>
     <span class="prop-badge {status_css_cls}">{status_label}</span>
   </div>
-  <div class="prop-card-meta">
+{countdown_html}  <div class="prop-card-meta">
     <span>Submitted {submit_time}</span>
     <span>Voting ends {voting_end}</span>
   </div>
@@ -786,7 +797,30 @@ function initProposalsPage() {{
   apply();
 }}
 
-document$.subscribe(initProposalsPage);
+function initCountdowns() {{
+  document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {{
+    var deadline = new Date(el.getAttribute('data-deadline'));
+    function update() {{
+      var diff = deadline - new Date();
+      if (diff <= 0) {{
+        el.textContent = 'Ended';
+        el.classList.add('ended');
+        return;
+      }}
+      var d = Math.floor(diff / 86400000);
+      var h = Math.floor((diff % 86400000) / 3600000);
+      var m = Math.floor((diff % 3600000) / 60000);
+      var s = Math.floor((diff % 60000) / 1000);
+      if (d > 0) el.textContent = d + 'd ' + h + 'h ' + m + 'm ' + s + 's';
+      else if (h > 0) el.textContent = h + 'h ' + m + 'm ' + s + 's';
+      else el.textContent = m + 'm ' + s + 's';
+    }}
+    update();
+    setInterval(update, 1000);
+  }});
+}}
+
+document$.subscribe(function() {{ initProposalsPage(); initCountdowns(); }});
 </script>
 """
 
@@ -897,12 +931,20 @@ template: proposals-oview.html
         summary = p.get("summary", "")
         short_summary = summary[:200] + "…" if summary and len(summary) > 200 else (summary or "")
 
-        md += f'''<div class="prop-card" data-status="{status_css_cls}">
+        voting_end_iso = p.get("voting_end_time", "")
+        is_voting = status_css_cls == "prop-voting"
+        card_data_attrs = f'data-status="{status_css_cls}"'
+        countdown_html = ""
+        if is_voting and voting_end_iso:
+            card_data_attrs += f' data-voting-end="{voting_end_iso}"'
+            countdown_html = f'  <div class="prop-vote-countdown" data-deadline="{voting_end_iso}"></div>\n'
+
+        md += f'''<div class="prop-card" {card_data_attrs}>
   <div class="prop-card-header">
     <a href="{pid}/" class="prop-card-title">#{pid} – {title}</a>
     <span class="prop-badge {status_css_cls}">{status_label}</span>
   </div>
-  <div class="prop-card-meta">
+{countdown_html}  <div class="prop-card-meta">
     <span>Submitted {submit_time}</span>
     <span>Voting ends {voting_end}</span>
   </div>
@@ -964,7 +1006,31 @@ function initProposalsPage() {
   checkboxes.forEach(function(cb) { cb.addEventListener(\'change\', apply); });
   apply();
 }
-document$.subscribe(initProposalsPage);
+
+function initCountdowns() {
+  document.querySelectorAll(\'.prop-vote-countdown\').forEach(function(el) {
+    var deadline = new Date(el.getAttribute(\'data-deadline\'));
+    function update() {
+      var diff = deadline - new Date();
+      if (diff <= 0) {
+        el.textContent = \'Ended\';
+        el.classList.add(\'ended\');
+        return;
+      }
+      var d = Math.floor(diff / 86400000);
+      var h = Math.floor((diff % 86400000) / 3600000);
+      var m = Math.floor((diff % 3600000) / 60000);
+      var s = Math.floor((diff % 60000) / 1000);
+      if (d > 0) el.textContent = d + \'d \' + h + \'h \' + m + \'m \' + s + \'s\';
+      else if (h > 0) el.textContent = h + \'h \' + m + \'m \' + s + \'s\';
+      else el.textContent = m + \'m \' + s + \'s\';
+    }
+    update();
+    setInterval(update, 1000);
+  });
+}
+
+document$.subscribe(function() { initProposalsPage(); initCountdowns(); });
 </script>
 '''
 

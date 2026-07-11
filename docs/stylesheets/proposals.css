@@ -533,3 +533,28 @@
 h2#full-proposal {
   margin-top: 1.5rem;
 }
+
+/* ── Voting countdown timer ─────────────────────────────────── */
+.prop-vote-countdown {
+  text-align: right;
+  font-size: 11px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  color: #0969da;
+  line-height: 1.4;
+  margin-top: 2px;
+}
+
+[data-md-color-scheme="slate"] .prop-vote-countdown {
+  color: #58a6ff;
+}
+
+.prop-vote-countdown.ended {
+  color: var(--md-default-fg-color--light);
+  font-weight: 400;
+}
+
+.prop-vote-countdown-detail {
+  font-size: 13px;
+  margin-top: 4px;
+}
