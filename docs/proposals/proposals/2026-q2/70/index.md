@@ -86,3 +86,24 @@ Release 246,000 GNK from Community Fund to finalize GNK Racers — a multiplayer
 </details>
 
 ---
+
+<script>
+function _dtInit() {
+  document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
+    var deadline = new Date(el.getAttribute('data-deadline'));
+    function update() {
+      var diff = deadline - new Date();
+      if (diff <= 0) { el.textContent = 'Ended'; el.classList.add('ended'); return; }
+      var d = Math.floor(diff / 86400000);
+      var h = Math.floor((diff % 86400000) / 3600000);
+      var m = Math.floor((diff % 3600000) / 60000);
+      if (d > 0) el.textContent = d + 'd ' + h + 'h ' + m + 'm';
+      else if (h > 0) el.textContent = h + 'h ' + m + 'm';
+      else el.textContent = m + 'm';
+    }
+    update();
+    setInterval(update, 60000);
+  });
+}
+_dtInit();
+</script>
