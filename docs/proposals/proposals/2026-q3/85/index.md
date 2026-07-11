@@ -62,7 +62,7 @@ Governance holds an option to cancel the initiative and returns all remaining fu
   </div>
 </div>
 
-<div class="prop-quorum">
+<div class="prop-quorum prop-quorum-not-met-bg">
   <span class="prop-quorum-label">Turnout</span>
   <span class="prop-quorum-value">17,795 / 741,825 (2.4%)</span>
   <span class="prop-quorum-label">Quorum</span>

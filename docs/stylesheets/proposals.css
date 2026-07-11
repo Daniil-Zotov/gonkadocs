@@ -570,14 +570,33 @@ h2#full-proposal {
   gap: 8px;
   margin-top: 10px;
   padding: 8px 12px;
-  background: var(--md-code-bg-color);
   border-radius: 8px;
   font-size: 13px;
 }
 
+.prop-quorum-met-bg {
+  background: #dafbe1;
+  color: #1a7f37;
+}
+
+[data-md-color-scheme="slate"] .prop-quorum-met-bg {
+  background: #1a3a2a;
+  color: #3fb950;
+}
+
+.prop-quorum-not-met-bg {
+  background: #ffebe9;
+  color: #cf222e;
+}
+
+[data-md-color-scheme="slate"] .prop-quorum-not-met-bg {
+  background: #3a1a1a;
+  color: #ff7b72;
+}
+
 .prop-quorum-label {
-  color: var(--md-default-fg-color--light);
   font-weight: 500;
+  opacity: 0.8;
 }
 
 .prop-quorum-value {
@@ -593,22 +612,22 @@ h2#full-proposal {
 }
 
 .prop-quorum-met {
-  background: #dafbe1;
+  background: rgba(26,127,55,0.15);
   color: #1a7f37;
 }
 
 [data-md-color-scheme="slate"] .prop-quorum-met {
-  background: #1a3a2a;
+  background: rgba(63,185,80,0.2);
   color: #3fb950;
 }
 
 .prop-quorum-not-met {
-  background: #ffebe9;
+  background: rgba(207,34,46,0.15);
   color: #cf222e;
 }
 
 [data-md-color-scheme="slate"] .prop-quorum-not-met {
-  background: #3a1a1a;
+  background: rgba(255,123,114,0.2);
   color: #ff7b72;
 }
 
@@ -621,6 +640,21 @@ h2#full-proposal {
 }
 
 .prop-card-turnout {
-  color: var(--md-default-fg-color--light);
   font-variant-numeric: tabular-nums;
+}
+
+.prop-card-turnout-met {
+  color: #1a7f37;
+}
+
+[data-md-color-scheme="slate"] .prop-card-turnout-met {
+  color: #3fb950;
+}
+
+.prop-card-turnout-not-met {
+  color: #cf222e;
+}
+
+[data-md-color-scheme="slate"] .prop-card-turnout-not-met {
+  color: #ff7b72;
 }

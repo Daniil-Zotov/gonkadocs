@@ -54,7 +54,7 @@ Restitution payout for confirmed GRC Proposal #3 cases, with Case 05 payments fr
   </div>
 </div>
 
-<div class="prop-quorum">
+<div class="prop-quorum prop-quorum-not-met-bg">
   <span class="prop-quorum-label">Turnout</span>
   <span class="prop-quorum-value">156,897 / 741,825 (21.2%)</span>
   <span class="prop-quorum-label">Quorum</span>
