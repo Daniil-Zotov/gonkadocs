@@ -17135,7 +17135,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-07-11 11:07 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-07-11 11:17 UTC*
 
 ---
 
@@ -24141,7 +24141,22 @@ Models / IBC2
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-84 proposals across 5 quarters. Last updated: 2026-07-11 11:04 UTC
+84 proposals across 5 quarters. Last updated: 2026-07-11 11:21 UTC
+
+function _ovInit() {
+  document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
+    var deadline = new Date(el.getAttribute('data-deadline'));
+    function update() {
+      var diff = deadline - new Date();
+      if (diff  0) el.textContent = d + 'd ' + h + 'h ' + m + 'm';
+      else if (h > 0) el.textContent = h + 'h ' + m + 'm';
+      else el.textContent = m + 'm';
+    }
+    update();
+    setInterval(update, 60000);
+  });
+}
+_ovInit();
 
 ---
 
