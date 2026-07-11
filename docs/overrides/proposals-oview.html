@@ -71,6 +71,8 @@ function initProposalsPage() {
   apply();
 }
 
+initCountdowns();
+initProposalsPage();
 document$.subscribe(function() { initProposalsPage(); initCountdowns(); });
 </script>
 {% endblock %}
