@@ -110,6 +110,7 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 
 ### Additional Pages (auto-synced)
 
+- [Pipeline](/proposals/pipeline/): Auto-synced content
 - [On-Chain Governance Proposals](/proposals/proposals/): Auto-synced content
 - [2026-Q2 Proposals](/proposals/proposals/2026-q2/): Auto-synced content
 - [#76 – Governance 16: devshard v2 and bounty payouts](/proposals/proposals/2026-q2/76/): Auto-synced content
