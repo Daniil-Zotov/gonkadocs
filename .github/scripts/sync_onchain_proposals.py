@@ -618,7 +618,9 @@ template: proposals-proposals-main.html
 
 # ── generate overview index ────────────────────────────────────
 
-def generate_overview(proposals_by_quarter, total_voting_power=0):
+def generate_overview(proposals_by_quarter, proposal_voting_power=None):
+    if proposal_voting_power is None:
+        proposal_voting_power = {}
     sorted_quarters = sorted(proposals_by_quarter.keys(), reverse=True)
 
     md = """---
@@ -757,12 +759,13 @@ template: proposals-oview.html
                 _pct = lambda v: f"({v / total_t * 100:.1f}%)" if total_t > 0 else "(0.0%)"
                 _tally_line = f'<span class="prop-tally-yes-text">Yes {yes_c:,} {_pct(yes_c)}</span> · <span class="prop-tally-no-text">No {no_c:,} {_pct(no_c)}</span> · <span class="prop-tally-veto-text">Veto {veto_c:,} {_pct(veto_c)}</span> · <span class="prop-tally-abstain-text">Abstain {abstain_c:,} {_pct(abstain_c)}</span>'
 
+                _vp = proposal_voting_power.get(pid, 0)
                 _turnout_html = ""
-                if total_voting_power > 0 and total_t > 0 and voting_end_iso[:10] >= QUORUM_CUTOFF:
-                    _turnout_pct = total_t / total_voting_power * 100
-                    _quorum_needed = int(total_voting_power * QUORUM)
+                if _vp > 0 and total_t > 0 and voting_end_iso[:10] >= QUORUM_CUTOFF:
+                    _turnout_pct = total_t / _vp * 100
+                    _quorum_needed = int(_vp * QUORUM)
                     _quorum_met = total_t >= _quorum_needed
-                    _turnout_html = f'<span class="prop-card-turnout">Turnout {total_t:,} / {total_voting_power:,} ({_turnout_pct:.1f}%) · Quorum {QUORUM*100:.0f}% {"✓" if _quorum_met else "✗"}</span>'
+                    _turnout_html = f'<span class="prop-card-turnout">Turnout {total_t:,} / {_vp:,} ({_turnout_pct:.1f}%) · Quorum {QUORUM*100:.0f}% {"✓" if _quorum_met else "✗"}</span>'
 
                 _funding_html = ""
                 _amt_by_source = parse_amounts_by_source(p.get("messages", []))
@@ -854,7 +857,9 @@ document$.subscribe(function() {{ initProposalsPage(); initCountdowns(); }});
 
 # ── generate quarter page ──────────────────────────────────────
 
-def generate_quarter_page(quarter, proposals, total_voting_power=0):
+def generate_quarter_page(quarter, proposals, proposal_voting_power=None):
+    if proposal_voting_power is None:
+        proposal_voting_power = {}
     props = proposals
     total = len(props)
     passed = sum(1 for p in props if p.get("status", "").lower() == "proposal_status_passed")
@@ -983,12 +988,13 @@ template: proposals-oview.html
             _pct = lambda v: f"({v / total_t * 100:.1f}%)" if total_t > 0 else "(0.0%)"
             _tally_line = f'<span class="prop-tally-yes-text">Yes {yes_c:,} {_pct(yes_c)}</span> · <span class="prop-tally-no-text">No {no_c:,} {_pct(no_c)}</span> · <span class="prop-tally-veto-text">Veto {veto_c:,} {_pct(veto_c)}</span> · <span class="prop-tally-abstain-text">Abstain {abstain_c:,} {_pct(abstain_c)}</span>'
 
+            _vp = proposal_voting_power.get(pid, 0)
             _turnout_html = ""
-            if total_voting_power > 0 and total_t > 0 and voting_end_iso[:10] >= QUORUM_CUTOFF:
-                _turnout_pct = total_t / total_voting_power * 100
-                _quorum_needed = int(total_voting_power * QUORUM)
+            if _vp > 0 and total_t > 0 and voting_end_iso[:10] >= QUORUM_CUTOFF:
+                _turnout_pct = total_t / _vp * 100
+                _quorum_needed = int(_vp * QUORUM)
                 _quorum_met = total_t >= _quorum_needed
-                _turnout_html = f'<span class="prop-card-turnout">Turnout {total_t:,} / {total_voting_power:,} ({_turnout_pct:.1f}%) · Quorum {QUORUM*100:.0f}% {"✓" if _quorum_met else "✗"}</span>'
+                _turnout_html = f'<span class="prop-card-turnout">Turnout {total_t:,} / {_vp:,} ({_turnout_pct:.1f}%) · Quorum {QUORUM*100:.0f}% {"✓" if _quorum_met else "✗"}</span>'
 
             _funding_html = ""
             _amt_by_source = parse_amounts_by_source(p.get("messages", []))
@@ -1182,6 +1188,25 @@ QUORUM = 0.25  # 25% from chain params
 QUORUM_CUTOFF = "2026-07-01"  # Only show quorum/turnout for proposals with voting_end >= this date
 
 
+def get_snapshot_voting_power(prop_dir):
+    """Load saved voting power snapshot for a proposal, or 0 if not yet saved."""
+    snap_path = prop_dir / "voting_power.json"
+    if snap_path.exists():
+        try:
+            return json.loads(snap_path.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError):
+            return 0
+    return 0
+
+
+def save_snapshot_voting_power(prop_dir, total_voting_power):
+    """Save voting power snapshot for a proposal that has ended voting."""
+    snap_path = prop_dir / "voting_power.json"
+    if not snap_path.exists():
+        snap_path.write_text(json.dumps(total_voting_power), encoding="utf-8")
+        print(f"  Saved voting power snapshot: {total_voting_power}")
+
+
 def fetch_total_voting_power():
     """Fetch total voting power from all bonded validators (sum of tokens field)."""
     print("Fetching total voting power...")
@@ -1228,6 +1253,24 @@ def main():
     # Fetch total voting power for turnout/quorum
     total_voting_power = fetch_total_voting_power()
 
+    # Save voting power snapshots for ended proposals (so historical values never change)
+    print("Saving voting power snapshots...")
+    for p in proposals:
+        if p.get("status") != "PROPOSAL_STATUS_VOTING_PERIOD":
+            pid = p["id"]
+            submit = p.get("submit_time", "")
+            if submit:
+                try:
+                    dt = datetime.fromisoformat(submit.replace("Z", "+00:00"))
+                    q_lower = get_quarter(dt).lower()
+                except (ValueError, TypeError):
+                    q_lower = "unknown"
+            else:
+                q_lower = "unknown"
+            prop_dir = OUTPUT_DIR / q_lower / pid
+            prop_dir.mkdir(parents=True, exist_ok=True)
+            save_snapshot_voting_power(prop_dir, total_voting_power)
+
     # Parse and organize
     proposals_by_quarter = {}
     for p in proposals:
@@ -1251,6 +1294,26 @@ def main():
     # Ensure output dir exists
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
+    # Pre-load snapshot voting power for each proposal (for card display)
+    proposal_voting_power = {}
+    for p in proposals:
+        pid = p["id"]
+        submit = p.get("submit_time", "")
+        if submit:
+            try:
+                dt = datetime.fromisoformat(submit.replace("Z", "+00:00"))
+                q_lower = get_quarter(dt).lower()
+            except (ValueError, TypeError):
+                q_lower = "unknown"
+        else:
+            q_lower = "unknown"
+        prop_dir = OUTPUT_DIR / q_lower / pid
+        saved = get_snapshot_voting_power(prop_dir)
+        if p.get("status") == "PROPOSAL_STATUS_VOTING_PERIOD":
+            proposal_voting_power[pid] = total_voting_power
+        else:
+            proposal_voting_power[pid] = saved if saved else total_voting_power
+
     # Generate individual proposal pages (organized by quarter)
     print(f"\nGenerating {len(proposals)} proposal pages...")
     for p in proposals:
@@ -1266,7 +1329,7 @@ def main():
             q_lower = "unknown"
         prop_dir = OUTPUT_DIR / q_lower / pid
         prop_dir.mkdir(parents=True, exist_ok=True)
-        page_md = generate_proposal_page(p, prop_dir, total_voting_power)
+        page_md = generate_proposal_page(p, prop_dir, proposal_voting_power[pid])
         (prop_dir / "index.md").write_text(page_md, encoding="utf-8")
 
     # Generate quarter subpages
@@ -1275,12 +1338,12 @@ def main():
         q_lower = q.lower()
         q_dir = OUTPUT_DIR / q_lower
         q_dir.mkdir(exist_ok=True)
-        q_md = generate_quarter_page(q, proposals_by_quarter[q], total_voting_power)
+        q_md = generate_quarter_page(q, proposals_by_quarter[q], proposal_voting_power)
         (q_dir / "index.md").write_text(q_md, encoding="utf-8")
 
     # Generate overview
     print("Generating overview index...")
-    overview_md = generate_overview(proposals_by_quarter, total_voting_power)
+    overview_md = generate_overview(proposals_by_quarter, proposal_voting_power)
     (OUTPUT_DIR / "index.md").write_text(overview_md, encoding="utf-8")
 
     # Generate RSS feed
