@@ -34,7 +34,7 @@ template: proposals-oview.html
 <div class="qs-stats">
 <div class="qs-stat total"><span class="qs-num">84</span><span class="qs-desc">Total Proposals</span></div>
 <div class="qs-stat passed"><span class="qs-num">54</span><span class="qs-desc">Passed (64%)</span></div>
-<div class="qs-stat rejected"><span class="qs-num">29</span><span class="qs-desc">Rejected (35%)</span></div>
+<div class="qs-stat rejected"><span class="qs-num">28</span><span class="qs-desc">Rejected (33%)</span></div>
 <div class="qs-stat failed"><span class="qs-num">1</span><span class="qs-desc">Failed (1%)</span></div>
 </div>
 
@@ -57,18 +57,19 @@ template: proposals-oview.html
 
 *6 proposals*
 
-<div class="prop-card" data-status="prop-rejected">
+<div class="prop-card" data-status="prop-voting" data-voting-end="2026-07-12T00:41:08.740427072Z">
   <div class="prop-card-header">
     <a href="2026-q3/85/" class="prop-card-title">#85 – Internal Go-To-Market Team for 3 Month</a>
-    <span class="prop-badge prop-rejected">Rejected</span>
+    <span class="prop-vote-countdown" data-deadline="2026-07-12T00:41:08.740427072Z"></span>
+    <span class="prop-badge prop-voting">Voting</span>
   </div>
   <div class="prop-card-meta">
     <span>Submitted 2026-07-10</span>
     <span>Voting ends 2026-07-12</span>
   </div>
   <div class="prop-card-desc">We will run hundreds of experiments across different target audience hypotheses and set up the basis: acquisition funnels, analytics, sharable target audience deep understanding. Our key performance m…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 41,668 (73.5%)</span> · <span class="prop-tally-no-text">No 8 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 14,932 (26.4%)</span> · <span class="prop-tally-abstain-text">Abstain 45 (0.1%)</span><span class="prop-card-funding prop-card-funding-rejected">600,000 GNK · $36,000 · Community Pool</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout 56,653 / 741,825 (7.6%) · Quorum 25% (185,456)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 2,858 (3.9%)</span> · <span class="prop-tally-no-text">No 8 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 14,884 (20.3%)</span> · <span class="prop-tally-abstain-text">Abstain 55,418 (75.7%)</span><span class="prop-card-funding prop-card-funding-voting">600,000 GNK · $36,000 · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout 73,168 / 763,005 (9.6%) · Quorum 25% (190,751)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -1177,7 +1178,7 @@ template: proposals-oview.html
 
 </div>
 <div class="prop-oview-stats">
-<em>84 proposals across 5 quarters. Last updated: 2026-07-12 01:10 UTC</em>
+<em>84 proposals across 5 quarters. Last updated: 2026-07-12 01:20 UTC</em>
 </div>
 
 <script>
