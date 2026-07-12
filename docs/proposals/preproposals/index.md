@@ -13,7 +13,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 <div class="quarter-summary" markdown="1">
 <div class="qs-stats">
-<div class="qs-stat passed"><span class="qs-num">5</span><span class="qs-desc">Active</span></div>
+<div class="qs-stat passed"><span class="qs-num">4</span><span class="qs-desc">Active</span></div>
 <div class="qs-stat"><span class="qs-num">11</span><span class="qs-desc">Votes</span></div>
 <div class="qs-stat"><span class="qs-num">2.0M GNK</span><span class="qs-desc">Total Bid</span></div>
 </div>
@@ -21,7 +21,6 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 | Status | Title | Author | Votes | Avg. Bid | Closes |
 | :----- | :----- | :----- | ----: | -------: | :----- |
-| 🟢 | [Предложение по развитию игровой экосистемы блокчейна через турнирные пулы вознаг](./fd9989ca-7c5b-4a2f-baf4-2465e6915ba6/) | Victor | 0 | 0.00 GNK | 2026-07-12 |
 | 🟢 | [Private Inc × Gonka — Network Growth Initiative](./ed8148eb-535e-4677-9a6b-5316c81c996a/) | Igor Alexeev | 0 | 0.00 GNK | 2026-07-13 |
 | 🟢 | [External Test Lab & Community DevNet](./205219a5-6ed2-4f25-8d22-fa7c65a45ba6/) | Sergii Paranko | 4 | 168.7K GNK | 2026-07-14 |
 | 🟢 | [Привлечение $3M+ нового капитала на Uniswap](./e0cc7d32-5d1a-49e1-94e8-0ca3d9ccbf6b/) | Andrey Orlov | 3 | 224.9K GNK | 2026-08-02 |
@@ -34,7 +33,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 <div class="quarter-summary" markdown="1">
 <div class="qs-stats">
-<div class="qs-stat rejected"><span class="qs-num">26</span><span class="qs-desc">Expired</span></div>
+<div class="qs-stat rejected"><span class="qs-num">27</span><span class="qs-desc">Expired</span></div>
 <div class="qs-stat"><span class="qs-num">2</span><span class="qs-desc">Votes</span></div>
 <div class="qs-stat"><span class="qs-num">12.8K GNK</span><span class="qs-desc">Total Bid</span></div>
 </div>
@@ -42,6 +41,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 | Status | Title | Author | Votes | Avg. Bid | Closed |
 | :----- | :----- | :----- | ----: | -------: | :----- |
+| 🔴 | [Предложение по развитию игровой экосистемы блокчейна через турнирные пулы вознаг](./fd9989ca-7c5b-4a2f-baf4-2465e6915ba6/) | Victor | 0 | 0.00 GNK | 2026-07-12 |
 | 🔴 | [Интеграция ИИ Gonka в инфраструктуру QR Mint](./7d2ec26b-6524-4fc6-b676-a13d822536e8/) | Victor | 0 | 0.00 GNK | 2026-07-11 |
 | 🔴 | [12+1. Team EntroPi Grant Request](./f6b4e378-8950-4bcf-ac7f-d70d9d246630/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
 | 🔴 | [12. Team Slava MSE Team Grant Request](./08405617-5654-4ead-be62-642affa1739e/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
@@ -72,4 +72,4 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-07-12 21:03 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-07-12 22:04 UTC*
