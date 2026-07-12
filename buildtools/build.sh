@@ -123,6 +123,12 @@ content = re.sub(
     content,
     flags=re.MULTILINE
 )
+content = re.sub(
+    r'^    - navigation\.tracking\n?',
+    '',
+    content,
+    flags=re.MULTILINE
+)
 
 with open('$BUILD_CFG', 'w') as f:
     f.write(content)
