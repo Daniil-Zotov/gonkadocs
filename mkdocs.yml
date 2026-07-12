@@ -220,6 +220,9 @@ extra_css:
   - stylesheets/issues.css
   - stylesheets/proposals.css
 
+extra_javascript:
+  - scripts/proposals-countdown.js
+
 plugins:
   - search:
       lang:
