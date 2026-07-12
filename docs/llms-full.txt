@@ -2552,9 +2552,9 @@ The release publishes the `devshardd` binary as a Gonka release artifact. `versi
 
 No mainnet restart or manual host steps are expected for this type of devshard-only runtime upgrade.
 
-**Action items for Brokers**
+**Action items**
 
-Brokers should switch inference traffic to `/devshard/v3` before the mainnet v0.2.14 chain upgrade. This lets them keep serving inference while the chain upgrade runs, without depending on the deprecated classic API path.
+Whitelisted devshard creators should switch inference traffic to `/devshard/v3` before the mainnet v0.2.14 chain upgrade. This lets them keep serving inference while the chain upgrade runs, without depending on the deprecated classic API path.
 
 **Key Changes**
 
@@ -24285,7 +24285,7 @@ Models / IBC2
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-84 proposals across 5 quarters. Last updated: 2026-07-12 21:00 UTC
+84 proposals across 5 quarters. Last updated: 2026-07-12 21:40 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
