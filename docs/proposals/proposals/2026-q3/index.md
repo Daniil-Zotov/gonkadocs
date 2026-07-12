@@ -34,7 +34,7 @@ template: proposals-oview.html
 <div class="qs-stats">
 <div class="qs-stat total"><span class="qs-num">6</span><span class="qs-desc">Total Proposals</span></div>
 <div class="qs-stat passed"><span class="qs-num">2</span><span class="qs-desc">Passed (33%)</span></div>
-<div class="qs-stat rejected"><span class="qs-num">3</span><span class="qs-desc">Rejected (50%)</span></div>
+<div class="qs-stat rejected"><span class="qs-num">4</span><span class="qs-desc">Rejected (67%)</span></div>
 
 </div>
 
@@ -52,19 +52,18 @@ template: proposals-oview.html
 <div class="prop-quarter">
 <h2>2026-Q3</h2>
 <p>6 proposals</p>
-<div class="prop-card" data-status="prop-voting" data-voting-end="2026-07-12T00:41:08.740427072Z">
+<div class="prop-card" data-status="prop-rejected">
   <div class="prop-card-header">
     <a href="85/" class="prop-card-title">#85 – Internal Go-To-Market Team for 3 Month</a>
-    <span class="prop-vote-countdown" data-deadline="2026-07-12T00:41:08.740427072Z"></span>
-    <span class="prop-badge prop-voting">Voting</span>
+    <span class="prop-badge prop-rejected">Rejected</span>
   </div>
   <div class="prop-card-meta">
     <span>Submitted 2026-07-10</span>
     <span>Voting ends 2026-07-12</span>
   </div>
   <div class="prop-card-desc">We will run hundreds of experiments across different target audience hypotheses and set up the basis: acquisition funnels, analytics, sharable target audience deep understanding. Our key performance m…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 2,858 (3.9%)</span> · <span class="prop-tally-no-text">No 8 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 14,884 (20.3%)</span> · <span class="prop-tally-abstain-text">Abstain 55,418 (75.7%)</span><span class="prop-card-funding prop-card-funding-voting">600,000 GNK · $36,000 · Community Pool</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout 73,168 / 747,469 (9.8%) · Quorum 25% (186,867)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 41,668 (73.5%)</span> · <span class="prop-tally-no-text">No 8 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 14,932 (26.4%)</span> · <span class="prop-tally-abstain-text">Abstain 45 (0.1%)</span><span class="prop-card-funding prop-card-funding-rejected">600,000 GNK · $36,000 · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout 56,653 / 741,825 (7.6%) · Quorum 25% (185,456)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
