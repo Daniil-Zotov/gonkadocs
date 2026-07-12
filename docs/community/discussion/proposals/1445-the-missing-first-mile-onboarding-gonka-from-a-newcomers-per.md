@@ -1,0 +1,88 @@
+---
+title: "#1445 — The missing first mile: onboarding Gonka from a newcomer’s perspective"
+source: https://github.com/gonka-ai/gonka/discussions/1445
+discussion_number: 1445
+category: proposals
+synced_at: 2026-07-12T21:02:08Z
+---
+
+> 🔄 **Auto-sync:** from [Discussion #1445](https://github.com/gonka-ai/gonka/discussions/1445) every hour. 
+
+# The missing first mile: onboarding Gonka from a newcomer’s perspective
+
+**Автор:** [@julb1992](https://github.com/julb1992) · **Категория:** :bulb: Proposals · **Создано:** 2026-07-12 20:31 UTC · **Обновлено:** 2026-07-12 20:31 UTC
+
+---
+
+## 📝 Описание
+
+**Motivation**
+
+Over the past two weeks, I have spent a significant amount of time trying to understand Gonka as a non-technical newcomer.
+
+I initially discovered Gonka through GNK. From there, I tried to understand the full economic and technical model: Hosts, GPU economics, PoC, collateral, vesting, GNK vs WGNK, bridging, HeX, NOP, gateways, brokers, devshards, and finally the fundamental role of Developers in the network economy.
+
+The information exists. The documentation is extensive.
+
+The problem I experienced was different: as a newcomer, I did not know which questions to ask, in which order, or which concepts I needed to understand first.
+
+It took me almost two weeks of active research to build a clear mental model of Gonka.
+
+I believe there may be a missing layer before the technical documentation: the “first mile.”
+
+Gonka is naturally explained by people who already understand Gonka. Newcomers may need Gonka explained from the perspective of someone discovering it.
+
+**High-Level Solution**
+
+Build a very simple onboarding layer around three initial journeys:
+
+_I want to use AI_
+
+Gateway → API key → models → first inference.
+
+_I want to provide compute_
+
+Hardware requirements → Host economics → NOP → first PoC.
+
+_I want to understand GNK_
+
+GNK vs WGNK → wallet → bridge → collateral → vesting → liquidity.
+
+The objective would not be to replace or rewrite Gonka’s technical documentation.
+
+The objective would be to help a newcomer understand where to start and what to learn next, then route them to the existing documentation at the right moment.
+
+**Implementation Roadmap**
+
+At this stage, I am not submitting a funding request.
+
+I would first propose to:
+
+1. Document the exact newcomer journey and questions I experienced over the last two weeks.
+2. Map the main friction points and moments of confusion.
+3. Build a simple prototype of the three onboarding journeys.
+4. Test it with people who have never used Gonka.
+5. Measure time to first successful action: first inference, first native GNK transaction, or a clear understanding of the Host/NOP path.
+
+If the community recognises the problem, this could then become a small, measurable onboarding pilot.
+
+**Open Questions**
+
+* Do existing contributors recognise this onboarding problem?
+* Are similar onboarding initiatives already being built?
+* Which newcomer journey currently creates the most friction: Developer, Host, or GNK user?
+* Would the community see value in testing a newcomer-first onboarding layer before the official documentation?
+
+**Who I am**
+
+My name is Julien. I am based in France and work in investment and business management.
+
+I am not a protocol engineer or an AI infrastructure specialist.
+
+That is precisely the perspective behind this proposal.
+
+I discovered Gonka as a potential participant, became deeply interested in its economic model, and spent the last two weeks actively trying to understand the network from first principles.
+
+I am not proposing to explain Gonka better than its builders. I am proposing to document the questions newcomers ask before they understand what Gonka’s builders are explaining.
+
+I would genuinely appreciate critical feedback before taking this idea any further.

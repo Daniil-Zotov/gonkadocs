@@ -4,7 +4,7 @@ title: "GitHub Discussions"
 
 # GitHub Discussions — `gonka-ai/gonka`
 
-Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **74**. Обновлено: `2026-07-12 19:19 UTC`.
+Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **75**. Обновлено: `2026-07-12 21:02 UTC`.
 
 ## 📂 Категории
 
@@ -12,7 +12,7 @@ title: "GitHub Discussions"
 |---|---:|
 | [:mega: Announcements](announcements/index.md) | 1 |
 | [:speech_balloon: General](general/index.md) | 5 |
-| [:bulb: Proposals](proposals/index.md) | 44 |
+| [:bulb: Proposals](proposals/index.md) | 45 |
 | [:pray: Q&A](q-a/index.md) | 3 |
 | [:raised_hands: Show and Tell](show-and-tell/index.md) | 21 |
 
@@ -20,6 +20,7 @@ title: "GitHub Discussions"
 
 | # | Заголовок | Категория | Автор | Обновлено |
 |---:|---|---|---|---|
+| [1445](proposals/1445-the-missing-first-mile-onboarding-gonka-from-a-newcomers-per.md) | [The missing first mile: onboarding Gonka from a newcomer’s perspective](proposals/1445-the-missing-first-mile-onboarding-gonka-from-a-newcomers-per.md) | :bulb: Proposals | [@julb1992](https://github.com/julb1992) | 2026-07-12 |
 | [1388](proposals/1388-external-test-lab-community-devnet.md) | [External Test Lab & Community DevNet](proposals/1388-external-test-lab-community-devnet.md) | :bulb: Proposals | [@paranjko](https://github.com/paranjko) | 2026-07-10 |
 | [1367](proposals/1367-high-availability-architecture.md) | [High-Availability Architecture](proposals/1367-high-availability-architecture.md) | :bulb: Proposals | [@a-kuprin](https://github.com/a-kuprin) | 2026-07-10 |
 | [1363](show-and-tell/1363-openbroker-broker-for-brokers-or-devshards-as-a-service.md) | [OpenBroker - broker for brokers or Devshards as a service.](show-and-tell/1363-openbroker-broker-for-brokers-or-devshards-as-a-service.md) | :raised_hands: Show and Tell | [@gonkalabs](https://github.com/gonkalabs) | 2026-07-09 |
@@ -39,4 +40,3 @@ title: "GitHub Discussions"
 | [1309](proposals/1309-design-and-implementation-of-maintenance-windows.md) | [Design and Implementation of Maintenance Windows](proposals/1309-design-and-implementation-of-maintenance-windows.md) | :bulb: Proposals | [@heitor-lassarote](https://github.com/heitor-lassarote) | 2026-06-09 |
 | [1323](show-and-tell/1323-gonka-x-hermes-agent.md) | [Gonka x Hermes Agent](show-and-tell/1323-gonka-x-hermes-agent.md) | :raised_hands: Show and Tell | [@Dankosik](https://github.com/Dankosik) | 2026-06-08 |
 | [951](proposals/0951-tee-implementation.md) | [TEE Implementation](proposals/0951-tee-implementation.md) | :bulb: Proposals | [@mtvnastya](https://github.com/mtvnastya) | 2026-06-05 |
-| [1304](general/1304-aps-for-delegated-wallets-and-agent-accounts-track-2-project.md) | [APS for delegated wallets and agent accounts (Track 2, Project 3)](general/1304-aps-for-delegated-wallets-and-agent-accounts-track-2-project.md) | :speech_balloon: General | [@aeoess](https://github.com/aeoess) | 2026-06-04 |

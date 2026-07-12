@@ -3,7 +3,7 @@ title: "#860 — GiP: Inference Quality Axis Registry — extending CacheQuality
 source: https://github.com/gonka-ai/gonka/discussions/860
 discussion_number: 860
 category: proposals
-synced_at: 2026-07-12T19:19:40Z
+synced_at: 2026-07-12T21:02:30Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #860](https://github.com/gonka-ai/gonka/discussions/860) every hour. 
