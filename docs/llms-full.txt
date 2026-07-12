@@ -23354,7 +23354,7 @@ Models / IBC2
   
   We will run hundreds of experiments across different target audience hypotheses and set up the basis: acquisition funnels, analytics, sharable target audience deep understanding. Our key performance m…
   Yes 2,858 (3.9%) · No 8 (0.0%) · Veto 14,884 (20.3%) · Abstain 55,418 (75.7%)600,000 GNK · $36,000 · Community Pool
-  ✗ Turnout 73,168 / 756,255 (9.7%) · Quorum 25% (189,063)
+  ✗ Turnout 73,168 / 741,825 (9.9%) · Quorum 25% (185,456)
 
   
     #84 – Bringing $3M+ in New Capital to GONKA via Uniswap — Phase 1/6 ($50k USDT)
@@ -24286,7 +24286,7 @@ Models / IBC2
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-84 proposals across 5 quarters. Last updated: 2026-07-12 00:00 UTC
+84 proposals across 5 quarters. Last updated: 2026-07-12 01:40 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -25430,8 +25430,6 @@ Contract Details
 
 ---
 
----
-
 ## #79 – Add Kimi K2.6 and GLM 5.2 model
 
 # #79 – Add Kimi K2.6 and GLM 5.2 model
@@ -25960,8 +25958,6 @@ Contract Details
 
 ---
 
----
-
 ## #60 – TheSoul - Offer 1.1: Brand positioning (25,000 USDT)
 
 # #60 – TheSoul - Offer 1.1: Brand positioning (25,000 USDT)
@@ -26032,8 +26028,6 @@ Contract Details
   }
 ]
 ```
-
----
 
 ---
 
@@ -26108,8 +26102,6 @@ Contract Details
 
 ---
 
----
-
 ## #65 – TheSoul - Offer 2.3: Digital strategy (100,000 GNK)
 
 # #65 – TheSoul - Offer 2.3: Digital strategy (100,000 GNK)
@@ -26178,8 +26170,6 @@ Contract Details
   }
 ]
 ```
-
----
 
 ---
 
@@ -26256,8 +26246,6 @@ Contract Details
 
 ---
 
----
-
 ## #47 – Retroactive bounty: open-source PoC throughput optimization (+10–12% measured) with 250 total installations
 
 # #47 – Retroactive bounty: open-source PoC throughput optimization (+10–12% measured) with 250 total installations
@@ -26328,8 +26316,6 @@ Contract Details
   }
 ]
 ```
-
----
 
 ---
 
@@ -26420,8 +26406,6 @@ Contract Details
   }
 ]
 ```
-
----
 
 ---
 
@@ -26530,8 +26514,6 @@ Contract Details
 
 ---
 
----
-
 ## #40 – Governance: extend voting period to 48 hours
 
 # #40 – Governance: extend voting period to 48 hours
@@ -26617,8 +26599,6 @@ Contract Details
   }
 ]
 ```
-
----
 
 ---
 
@@ -27157,8 +27137,6 @@ Contract Details
 
 ---
 
----
-
 ## #72 – Open devshard escrow creation to community wallet gonka1afj0tz53z56zngs425m83vxl5y2xmwm692hfrn
 
 # #72 – Open devshard escrow creation to community wallet gonka1afj0tz53z56zngs425m83vxl5y2xmwm692hfrn
@@ -27635,8 +27613,6 @@ Contract Details
 
 ---
 
----
-
 ## #68 – Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)
 
 # #68 – Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)
@@ -27724,8 +27700,6 @@ Contract Details
 
 ---
 
----
-
 ## #61 – TheSoul - Offer 1.2: Brandbook (20,000 USDT)
 
 # #61 – TheSoul - Offer 1.2: Brandbook (20,000 USDT)
@@ -27796,8 +27770,6 @@ Contract Details
   }
 ]
 ```
-
----
 
 ---
 
@@ -28245,8 +28217,6 @@ Contract Details
 
 ---
 
----
-
 ## #43 – Governance Architecture Proposal for the Gonka.ai Network
 
 # #43 – Governance Architecture Proposal for the Gonka.ai Network
@@ -28317,8 +28287,6 @@ Contract Details
   }
 ]
 ```
-
----
 
 ---
 
@@ -28393,8 +28361,6 @@ Contract Details
 
 ---
 
----
-
 ## #70 – GNK Racers: Launch GameFi Mini-App to Drive User Growth & Wallet Activity
 
 # #70 – GNK Racers: Launch GameFi Mini-App to Drive User Growth & Wallet Activity
@@ -28465,8 +28431,6 @@ Contract Details
   }
 ]
 ```
-
----
 
 ---
 
@@ -28555,8 +28519,6 @@ Contract Details
 
 ---
 
----
-
 ## #64 – TheSoul - Offer 2.2: Analytics and attribution (28,000 GNK)
 
 # #64 – TheSoul - Offer 2.2: Analytics and attribution (28,000 GNK)
@@ -28628,8 +28590,6 @@ Contract Details
 
 ---
 
----
-
 ## #54 – Upgrade Proposal: v0.2.13
 
 # #54 – Upgrade Proposal: v0.2.13
@@ -28696,8 +28656,6 @@ Contract Details
   }
 ]
 ```
-
----
 
 ---
 
@@ -28771,8 +28729,6 @@ Contract Details
   }
 ]
 ```
-
----
 
 ---
 
@@ -43487,8 +43443,6 @@ Contract Details
 
 ---
 
----
-
 ## #66 – test proposal - 测试方案
 
 # #66 – test proposal - 测试方案
@@ -43559,8 +43513,6 @@ Contract Details
   }
 ]
 ```
-
----
 
 ---
 
@@ -43637,8 +43589,6 @@ Contract Details
 
 ---
 
----
-
 ## #51 – Support Gonka's presence at WebX Asia
 
 # #51 – Support Gonka's presence at WebX Asia
@@ -43709,8 +43659,6 @@ Contract Details
   }
 ]
 ```
-
----
 
 ---
 
@@ -43812,8 +43760,6 @@ Contract Details
 
 ---
 
----
-
 ## #69 – Increase minimum governance deposit to 500 GNK
 
 # #69 – Increase minimum governance deposit to 500 GNK
@@ -43901,8 +43847,6 @@ Contract Details
   }
 ]
 ```
-
----
 
 ---
 
@@ -44831,8 +44775,6 @@ Contract Details
 
 ---
 
----
-
 ## #75 – Private Inc × Gonka — Network Growth Initiative
 
 # #75 – Private Inc × Gonka — Network Growth Initiative
@@ -44978,8 +44920,6 @@ Contract Details
 
 ---
 
----
-
 ## #73 – Increase minimum governance deposit to 500 GNK and expedited minimum deposit to 1000 GNK
 
 # #73 – Increase minimum governance deposit to 500 GNK and expedited minimum deposit to 1000 GNK
@@ -45068,8 +45008,6 @@ Contract Details
 
 ---
 
----
-
 ## #71 – Gonka PR Proposal for US/Global Regions
 
 # #71 – Gonka PR Proposal for US/Global Regions
@@ -45142,8 +45080,6 @@ Contract Details
   }
 ]
 ```
-
----
 
 ---
 
@@ -45593,8 +45529,6 @@ Contract Details
 
 ---
 
----
-
 ## #59 – Gonka Onboarding Video Guide — Milestone 1 (Prepayment)
 
 # #59 – Gonka Onboarding Video Guide — Milestone 1 (Prepayment)
@@ -45667,8 +45601,6 @@ Contract Details
   }
 ]
 ```
-
----
 
 ---
 
@@ -45768,8 +45700,6 @@ Contract Details
 
 ---
 
----
-
 ## #52 – Upgrade Proposal: v0.2.13
 
 # #52 – Upgrade Proposal: v0.2.13
@@ -45838,8 +45768,6 @@ Contract Details
   }
 ]
 ```
-
----
 
 ---
 
@@ -45916,8 +45844,6 @@ Contract Details
 
 ---
 
----
-
 ## #44 – Upgrade Proposal: v0.2.12
 
 # #44 – Upgrade Proposal: v0.2.12
@@ -45984,8 +45910,6 @@ Contract Details
   }
 ]
 ```
-
----
 
 ---
 
@@ -46077,8 +46001,6 @@ Contract Details
 
 ---
 
----
-
 ## #37 – What is your stance on MLM projects around gonka.ai?
 
 # #37 – What is your stance on MLM projects around gonka.ai?
@@ -46149,8 +46071,6 @@ Contract Details
   }
 ]
 ```
-
----
 
 ---
 
@@ -46234,8 +46154,6 @@ Contract Details
   }
 ]
 ```
-
----
 
 ---
 
@@ -46344,8 +46262,6 @@ Contract Details
 
 ---
 
----
-
 ## #77 – Gonka PR Proposal for US/Global Regions
 
 # #77 – Gonka PR Proposal for US/Global Regions
@@ -46419,8 +46335,6 @@ Contract Details
 
 ---
 
----
-
 ## #36 – Register Kava USDT IBC metadata and approve for trading
 
 # #36 – Register Kava USDT IBC metadata and approve for trading
@@ -46491,8 +46405,6 @@ Contract Details
   }
 ]
 ```
-
----
 
 ---
 
@@ -46682,8 +46594,6 @@ Contract Details
   }
 ]
 ```
-
----
 
 ---
 
@@ -46938,8 +46848,6 @@ Contract Details
 
 ---
 
----
-
 ## #4 – Upgrade Proposal: v0.2.2
 
 # #4 – Upgrade Proposal: v0.2.2
@@ -47008,8 +46916,6 @@ Contract Details
   }
 ]
 ```
-
----
 
 ---
 
@@ -47285,8 +47191,6 @@ Contract Details
 
 ---
 
----
-
 ## #2 – Proposal introducing new Qwen3 models
 
 # #2 – Proposal introducing new Qwen3 models
@@ -47440,8 +47344,6 @@ Contract Details
 
 ---
 
----
-
 ## #6 – Upgrade Proposal: v0.2.2
 
 # #6 – Upgrade Proposal: v0.2.2
@@ -47508,8 +47410,6 @@ Contract Details
   }
 ]
 ```
-
----
 
 ---
 
@@ -47735,8 +47635,6 @@ Contract Details
   }
 ]
 ```
-
----
 
 ---
 
@@ -48020,8 +47918,6 @@ Contract Details
 
 ---
 
----
-
 ## #8 – Upgrade Proposal: v0.2.4
 
 # #8 – Upgrade Proposal: v0.2.4
@@ -48088,8 +47984,6 @@ Contract Details
   }
 ]
 ```
-
----
 
 ---
 
@@ -48162,8 +48056,6 @@ Contract Details
 
 ---
 
----
-
 ## #16 – Upgrade Proposal: v0.2.6
 
 # #16 – Upgrade Proposal: v0.2.6
@@ -48230,8 +48122,6 @@ Contract Details
   }
 ]
 ```
-
----
 
 ---
 
@@ -48481,8 +48371,6 @@ Contract Details
   }
 ]
 ```
-
----
 
 ---
 
@@ -48799,8 +48687,6 @@ Contract Details
 
 ---
 
----
-
 ## #15 – Upgrade Proposal: v0.2.6
 
 # #15 – Upgrade Proposal: v0.2.6
@@ -48869,8 +48755,6 @@ Contract Details
   }
 ]
 ```
-
----
 
 ---
 
@@ -49123,8 +49007,6 @@ Contract Details
 
 ---
 
----
-
 ## #11 – Bandwidth Limits
 
 # #11 – Bandwidth Limits
@@ -49374,8 +49256,6 @@ Contract Details
 
 ---
 
----
-
 ## #14 – Sale GNK from Community Fund
 
 # #14 – Sale GNK from Community Fund
@@ -49445,8 +49325,6 @@ Contract Details
 
 ---
 
----
-
 ## 2026-Q3 Proposals
 
 # 2026-Q3 Proposals
@@ -49489,7 +49367,7 @@ GRC / Restitution1
   
   We will run hundreds of experiments across different target audience hypotheses and set up the basis: acquisition funnels, analytics, sharable target audience deep understanding. Our key performance m…
   Yes 2,858 (3.9%) · No 8 (0.0%) · Veto 14,884 (20.3%) · Abstain 55,418 (75.7%)600,000 GNK · $36,000 · Community Pool
-  ✗ Turnout 73,168 / 756,255 (9.7%) · Quorum 25% (189,063)
+  ✗ Turnout 73,168 / 741,825 (9.9%) · Quorum 25% (185,456)
 
   
     #84 – Bringing $3M+ in New Capital to GONKA via Uniswap — Phase 1/6 ($50k USDT)
@@ -49991,8 +49869,6 @@ Contract Details
 
 ---
 
----
-
 ## Bringing $3M+ in New Capital to GONKA via Uniswap — Phase 1/6 ($50k USDT)
 
 # Bringing $3M+ in New Capital to GONKA via Uniswap — Phase 1/6 ($50k USDT)
@@ -50232,8 +50108,6 @@ Contract Details
   }
 ]
 ```
-
----
 
 ---
 
@@ -50823,8 +50697,6 @@ Contract Details
 
 ---
 
----
-
 ## #83 – Approve devshard v3
 
 # #83 – Approve devshard v3
@@ -51306,8 +51178,6 @@ Contract Details
 
 ---
 
----
-
 ## Internal Go-To-Market Team for 3 Month to Set Up the Basis: acquisition funnels, analytics, sharable target audience deep understanding
 
 # Internal Go-To-Market Team for 3 Month to Set Up the Basis: acquisition funnels, analytics, sharable target audience deep understanding
@@ -51526,7 +51396,7 @@ Governance holds an option to cancel the initiative and returns all remaining fu
     Veto 14,884 (20.3%)
     Abstain 55,418 (75.7%)
     Total 73,168 votes
-    ✗ Turnout 73,168 / 756,255 (9.7%) · Quorum 25% (189,063)
+    ✗ Turnout 73,168 / 741,825 (9.9%) · Quorum 25% (185,456)
   
 
 ---
@@ -51741,8 +51611,6 @@ Contract Details
   }
 ]
 ```
-
----
 
 ---
 
@@ -52096,8 +51964,6 @@ Contract Details
 
 ---
 
----
-
 ## 2026-Q1 Proposals
 
 # 2026-Q1 Proposals
@@ -52388,8 +52254,6 @@ Contract Details
 
 ---
 
----
-
 ## #34 – gonka.ai / TheSoul social media awareness project
 
 # #34 – gonka.ai / TheSoul social media awareness project
@@ -52455,8 +52319,6 @@ Contract Details
   }
 ]
 ```
-
----
 
 ---
 
@@ -52810,8 +52672,6 @@ Contract Details
 
 ---
 
----
-
 ## #27 – Upgrade Proposal: v0.2.10
 
 # #27 – Upgrade Proposal: v0.2.10
@@ -52878,8 +52738,6 @@ Contract Details
   }
 ]
 ```
-
----
 
 ---
 
@@ -52951,8 +52809,6 @@ Contract Details
   }
 ]
 ```
-
----
 
 ---
 
@@ -55101,8 +54957,6 @@ Contract Details
 
 ---
 
----
-
 ## #26 – Upgrade Proposal: v0.2.9
 
 # #26 – Upgrade Proposal: v0.2.9
@@ -55169,8 +55023,6 @@ Contract Details
   }
 ]
 ```
-
----
 
 ---
 
@@ -55543,8 +55395,6 @@ Contract Details
 
 ---
 
----
-
 ## #35 – gonka.ai / TheSoul social media awareness project
 
 # #35 – gonka.ai / TheSoul social media awareness project
@@ -55629,8 +55479,6 @@ Contract Details
   }
 ]
 ```
-
----
 
 ---
 
@@ -56946,8 +56794,6 @@ Contract Details
 
 ---
 
----
-
 ## #30 – Test Proposal
 
 # #30 – Test Proposal
@@ -57003,8 +56849,6 @@ Contract Details
 ```json
 []
 ```
-
----
 
 ---
 
@@ -57077,8 +56921,6 @@ Contract Details
 
 ---
 
----
-
 ## #31 – Upgrade Proposal: v0.2.11
 
 # #31 – Upgrade Proposal: v0.2.11
@@ -57145,8 +56987,6 @@ Contract Details
   }
 ]
 ```
-
----
 
 ---
 
@@ -57688,8 +57528,6 @@ Contract Details
 
 ---
 
----
-
 ## #18 – Test
 
 # #18 – Test
@@ -57745,8 +57583,6 @@ Contract Details
 ```json
 []
 ```
-
----
 
 ---
 
@@ -58124,8 +57960,6 @@ Contract Details
 
 ---
 
----
-
 ## #28 – Collateral Parameters Update
 
 # #28 – Collateral Parameters Update
@@ -58498,7 +58332,5 @@ Contract Details
   }
 ]
 ```
-
----
 
 ---
