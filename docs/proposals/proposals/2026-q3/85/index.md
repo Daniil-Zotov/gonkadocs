@@ -59,7 +59,7 @@ Governance holds an option to cancel the initiative and returns all remaining fu
     <span class="prop-tally-veto-text">Veto 14,884 (20.3%)</span>
     <span class="prop-tally-abstain-text">Abstain 55,418 (75.7%)</span>
     <span class="prop-tally-total-text">Total 73,168 votes</span>
-    <span class="prop-tally-veto-text">✗ Turnout 73,168 / 741,825 (9.9%) · Quorum 25% (185,456)</span>
+    <span class="prop-tally-veto-text">✗ Turnout 73,168 / 747,469 (9.8%) · Quorum 25% (186,867)</span>
   </div>
 </div>
 
