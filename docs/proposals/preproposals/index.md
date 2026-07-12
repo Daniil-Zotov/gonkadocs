@@ -23,9 +23,9 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 | :----- | :----- | :----- | ----: | -------: | :----- |
 | 🟢 | [Предложение по развитию игровой экосистемы блокчейна через турнирные пулы вознаг](./fd9989ca-7c5b-4a2f-baf4-2465e6915ba6/) | Victor | 0 | 0.00 GNK | 2026-07-12 |
 | 🟢 | [Private Inc × Gonka — Network Growth Initiative](./ed8148eb-535e-4677-9a6b-5316c81c996a/) | Igor Alexeev | 0 | 0.00 GNK | 2026-07-13 |
-| 🟢 | [External Test Lab & Community DevNet](./205219a5-6ed2-4f25-8d22-fa7c65a45ba6/) | Sergii Paranko | 4 | 168.2K GNK | 2026-07-14 |
-| 🟢 | [Привлечение $3M+ нового капитала на Uniswap](./e0cc7d32-5d1a-49e1-94e8-0ca3d9ccbf6b/) | Andrey Orlov | 3 | 224.3K GNK | 2026-08-02 |
-| 🟢 | [Привлечение $3M+ нового капитала на Uniswap v2.0](./f341b83c-78f0-4ab2-b8fd-ddc7ac5d9c37/) | Andrey Orlov | 4 | 168.2K GNK | 2026-08-08 |
+| 🟢 | [External Test Lab & Community DevNet](./205219a5-6ed2-4f25-8d22-fa7c65a45ba6/) | Sergii Paranko | 4 | 168.7K GNK | 2026-07-14 |
+| 🟢 | [Привлечение $3M+ нового капитала на Uniswap](./e0cc7d32-5d1a-49e1-94e8-0ca3d9ccbf6b/) | Andrey Orlov | 3 | 224.9K GNK | 2026-08-02 |
+| 🟢 | [Привлечение $3M+ нового капитала на Uniswap v2.0](./f341b83c-78f0-4ab2-b8fd-ddc7ac5d9c37/) | Andrey Orlov | 4 | 168.7K GNK | 2026-08-08 |
 
 
 ---
@@ -72,4 +72,4 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-07-12 00:06 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-07-12 03:51 UTC*
