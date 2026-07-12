@@ -8,7 +8,7 @@ template: proposals-proposals-main.html
 
 <div class="prop-detail-header" markdown="1">
 
-<div class="prop-badge-row"><span class="prop-badge prop-voting">Voting</span><span class="prop-vote-countdown prop-vote-countdown-detail" data-deadline="2026-07-12T00:41:08.740427072Z"></span></div>
+<span class="prop-badge prop-rejected">Rejected</span>
 
 **Proposal ID:** `85`
 
@@ -22,7 +22,9 @@ template: proposals-proposals-main.html
 
 **Metadata:** [https://app.integrity.sh/p/SuMCnGQBhz-0asAYBUz1U](https://app.integrity.sh/p/SuMCnGQBhz-0asAYBUz1U)
 
-<div class="prop-funding-line prop-funding-line-voting">600,000 GNK · $36,000 · Community Pool</div>
+**Failed reason:** proposal did not get enough votes to pass
+
+<div class="prop-funding-line prop-funding-line-rejected">600,000 GNK · $36,000 · Community Pool</div>
 
 
 [View on gonka.gg](https://gonka.gg/network/proposals/85){:target="_blank"}
