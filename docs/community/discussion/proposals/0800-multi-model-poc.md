@@ -3,7 +3,7 @@ title: "#800 — Multi-Model PoC"
 source: https://github.com/gonka-ai/gonka/discussions/800
 discussion_number: 800
 category: proposals
-synced_at: 2026-07-11T23:04:10Z
+synced_at: 2026-07-12T00:07:29Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #800](https://github.com/gonka-ai/gonka/discussions/800) every hour. 
