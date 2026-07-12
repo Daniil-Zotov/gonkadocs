@@ -8,7 +8,7 @@ template: proposals-proposals-main.html
 
 <div class="prop-detail-header" markdown="1">
 
-<span class="prop-badge prop-rejected">Rejected</span>
+<div class="prop-badge-row"><span class="prop-badge prop-voting">Voting</span><span class="prop-vote-countdown prop-vote-countdown-detail" data-deadline="2026-07-12T00:41:08.740427072Z"></span></div>
 
 **Proposal ID:** `85`
 
@@ -22,9 +22,7 @@ template: proposals-proposals-main.html
 
 **Metadata:** [https://app.integrity.sh/p/SuMCnGQBhz-0asAYBUz1U](https://app.integrity.sh/p/SuMCnGQBhz-0asAYBUz1U)
 
-**Failed reason:** proposal did not get enough votes to pass
-
-<div class="prop-funding-line prop-funding-line-rejected">600,000 GNK · $36,000 · Community Pool</div>
+<div class="prop-funding-line prop-funding-line-voting">600,000 GNK · $36,000 · Community Pool</div>
 
 
 [View on gonka.gg](https://gonka.gg/network/proposals/85){:target="_blank"}
@@ -50,18 +48,18 @@ Governance holds an option to cancel the initiative and returns all remaining fu
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:73.5%"></div>
+    <div class="prop-tally-yes" style="width:3.9%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
-    <div class="prop-tally-veto" style="width:26.4%"></div>
-    <div class="prop-tally-abstain" style="width:0.1%"></div>
+    <div class="prop-tally-veto" style="width:20.3%"></div>
+    <div class="prop-tally-abstain" style="width:75.7%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes 41,668 (73.5%)</span>
+    <span class="prop-tally-yes-text">Yes 2,858 (3.9%)</span>
     <span class="prop-tally-no-text">No 8 (0.0%)</span>
-    <span class="prop-tally-veto-text">Veto 14,932 (26.4%)</span>
-    <span class="prop-tally-abstain-text">Abstain 45 (0.1%)</span>
-    <span class="prop-tally-total-text">Total 56,653 votes</span>
-    <span class="prop-tally-veto-text">✗ Turnout 56,653 / 741,825 (7.6%) · Quorum 25% (185,456)</span>
+    <span class="prop-tally-veto-text">Veto 14,884 (20.3%)</span>
+    <span class="prop-tally-abstain-text">Abstain 55,418 (75.7%)</span>
+    <span class="prop-tally-total-text">Total 73,168 votes</span>
+    <span class="prop-tally-veto-text">✗ Turnout 73,168 / 741,825 (9.9%) · Quorum 25% (185,456)</span>
   </div>
 </div>
 
