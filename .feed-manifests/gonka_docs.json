@@ -1,0 +1,810 @@
+{
+  "section": "gonka_docs",
+  "snapshot_time": "2026-07-13T10:18:02.702405+00:00",
+  "files": {
+    "Errors.md": {
+      "title": "Errors",
+      "status": null,
+      "content_preview": "# Errors\nHere you can find examples of common errors and typical log entries that may appear in node logs.\n\n```\n2025/08/28 08:37:08 ERROR No epoch models available for this node subsystem=Nodes node_id=node1\n2025/08/28 08:37:08 INFO Finalizing state transition for node subsystem=Nodes node_id=node1 from_status=FAILED to_status=FAILED from_poc_status=\"\" to_poc_status=\"\" succeeded=false blockHeight=92476\n```\nIt’s not actually an error. It just indicates that your node hasn’t been assigned a model yet. Most likely, this is because your node hasn’t participated in a Sprint, hasn’t received Voting Power, and therefore hasn’t had a model assigned.\nIf your node has already passed PoC, you shouldn’t see this log anymore. If not, PoC takes place every ~24 hours.",
+      "checksum": "3e49cd52be1de518c0e9ffc3be247d57f43b8b26aa9db886c52710c7c7d5af2b"
+    },
+    "FAQ.md": {
+      "title": "FAQ",
+      "status": null,
+      "content_preview": "# FAQ\n\n## Overview\n\n### What is Gonka?\nGonka is a decentralized network for high‑efficiency AI compute — run by those who run it. It functions as a cost-effective and efficient alternative to centralized cloud services for AI model training and inference. As a protocol, it's not a company or a start-up.\n\n- In terms of Blockchain, Gonka is the foundational ledger and coordination layer (L1) of the decentralized AI network. It records balances, transactions and cryptographic artifacts that prove Hosts have correctly performed AI work, while all actual computations (such as inference and training) happen off-chain.\n- In terms of Network, Gonka is a comprehensive ecosystem of participants, including Hosts and Developers that interact through a decentralized infrastructure. Powered by the Gonka",
+      "checksum": "6de121ad9d0d0234d320bad98240b5154c00023c03c309a337a919e9085098a4"
+    },
+    "architecture.md": {
+      "title": "Architecture",
+      "status": null,
+      "content_preview": "# Architecture\n\n## Inference flow across Gonka\n\nThe diagram and description below outline how inference requests travel through Gonka, a decentralized network designed to balance performance with cryptographic guarantees. \nGonka only records transactions and artifacts for inference validation. The actual computation happens off-chain.\n\nInference requests move across independent Hosts (all network participants, not a central scheduler). The system is decentralized, with no single point directing inference requests to the network nodes. In practice, each Host deploys at least two nodes: \n\n- Network Node handles communication and consists of: \n    - a Chain Node that connects to the blockchain\n    - an API Node that manages user requests\n- One or more ML Nodes (inference) which perform LLM in",
+      "checksum": "5353868ace67048a88b3f766bb13df2441283bf2521c55c18ab05169c7b83967"
+    },
+    "cross-chain-transfers/ethereum-bridge/addresses-and-keys.md": {
+      "title": "Addresses and keys",
+      "status": null,
+      "content_preview": "!!! warning\n    Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.\n\nThe dedicated Bridge smart contract, controlled by the Gonka consensus, is active on Ethereum at the address:\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n\n---\n\n# Addresses and keys\n\nThis is the single most important page to understand before bridging. **Read it before your first transfer.**\n\n## One key, two addresses\n\nEthereum and Gonka both use the same kind of cryptographic key (a `secp256k1` key pair). A single private key therefore controls an account on **both** chains. The two chains only differ in how they turn the public key into a human-readable address:\n\n| Chain | Address format | ",
+      "checksum": "638bce8b4be25ddf36ef778f9ed6e0afd0a18b88a96f08c8cbf0110f79a1515b"
+    },
+    "cross-chain-transfers/ethereum-bridge/bridge-epoch-update.md": {
+      "title": "Bridge epoch update",
+      "status": null,
+      "content_preview": "# Bridge epoch update\n\nGonka &rarr; Ethereum transfers use a BLS signature from the current Gonka epoch. The Ethereum bridge contract must know the current epoch's group key before it can verify that signature and release funds on Ethereum.\n\nAt the start of each epoch, about once per day, Gonka creates a new group key. A small Ethereum transaction registers that key on the bridge contract. Usually this is already done, but the bridge can briefly lag behind the Gonka chain just after an epoch change.\n\n## When you need this\n\nYou may need an epoch update if a Gonka &rarr; Ethereum withdrawal or WGNK mint is ready, but Ethereum execution cannot proceed because the bridge is behind the chain.\n\nOn the dashboard, this can appear as:\n\n```text\nA Bridge needs epoch update\nBridge: Epoch 283 | Chain: ",
+      "checksum": "91b6e8c3bf3f3dbb292a19f8acbc15b562ff30aab2bdb419289e0e959ca0443f"
+    },
+    "cross-chain-transfers/ethereum-bridge/dashboard.md": {
+      "title": "Bridge via dashboard (UI guide)",
+      "status": null,
+      "content_preview": "!!! warning\n    Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.\n\nThe dedicated Bridge smart contract, controlled by the Gonka consensus, is active on Ethereum at the address:\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n\n## Deposit tokens to Gonka\n\nThis section walks you through depositing tokens to Gonka using the bridge widget. Select the token from the **Token** dropdown — the widget detects the bridge type automatically:\n\n* **ERC-20 tokens** (USDC, USDT, WETH, …) and **GNK** (as WGNK) go through the **Ethereum bridge**.\n* **IBC tokens** (USDT <span class=\"md-tag\">IBC</span>, …) go through **IBC** to a connected Cosmos chain.\n\n### How ETH / GNK bridge d",
+      "checksum": "d62777040987ebe229d85a547f4e3a77e327054fcb8634d5f1ac7718583083f1"
+    },
+    "cross-chain-transfers/ethereum-bridge/deposit-gnk.md": {
+      "title": "Deposit GNK (Gonka → Ethereum)",
+      "status": null,
+      "content_preview": "!!! warning\n    Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.\n\nThe dedicated Bridge smart contract, controlled by the Gonka consensus, is active on Ethereum at the address:\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n---\n\n# Deposit GNK (Gonka → Ethereum)\n\nLock GNK on Gonka and receive wrapped GNK (**WGNK**) at your Ethereum address.\n\n### A) Request Minting WGNK on Ethereum\n\nUse CLI to submit a bridge minting request:\n\n```bash\n./inferenced tx inference request-bridge-mint \\\n  <amount> \\\n  \"0xYourEthereumAddr\" \\\n  \"ethereum\" \\\n  --destination-bridge-address 0x972a7a92d92796a98801a8818bcf91f1648f2f68 \\\n  --from <your_key_name> \\\n  --chain-id gonka-mainnet ",
+      "checksum": "c8492d3fbc87515aca8fc5b0d9625e9bdb827a75804a38c2163132fd12a9bf45"
+    },
+    "cross-chain-transfers/ethereum-bridge/deposit-usdt.md": {
+      "title": "Deposit USDT (Ethereum → Gonka)",
+      "status": null,
+      "content_preview": "!!! warning\n    Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.\n\nThe dedicated Bridge smart contract, controlled by the Gonka consensus, is active on Ethereum at the address:\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n\n---\n\n# Deposit USDT (Ethereum → Gonka)\n\nTo use an existing Ethereum address that already holds USDT, generate a Gonka address from the same private key. This Gonka address will receive the wrapped token.\n\nIf instead you want to use an existing Gonka address, generate the corresponding Ethereum address from the same private key, acquire USDT on it, and ensure you have enough ETH for gas.\n\n!!! important\n    The wrapped tokens are delivered t",
+      "checksum": "690773820ae9581231932322d6a623cae1a8a9a3e13bbf805081e02459c737e9"
+    },
+    "cross-chain-transfers/ethereum-bridge/multisig-signer-guide.md": {
+      "title": "Multisig signer guide",
+      "status": null,
+      "content_preview": "# Multisig signer guide\n\nThis guide is for individuals who have been selected to be signers on the Gonka Ethereum Bridge Multisig. \n\n## What is a Safe Multisig?\nA **Safe** (formerly Gnosis Safe) is a **Smart Contract Account** that runs on the Ethereum blockchain. Unlike a regular wallet (which has a single private key), a Multisig requires multiple authorized signers to approve a transaction before it can be executed. \n\nFor the Gonka Ethereum Bridge, the Safe multisig protects a limited Ethereum-side admin role. The admin role is only intended for exceptional recovery scenarios, such as a prolonged absence of valid BLS group key updates during the 30-day timeout period or a BLS key conflict. In these cases, the admin may be able to set or reset the BLS group key, which makes the role secu",
+      "checksum": "8d25a1f7fa9cf2f5e9ef30ae3f2d81ee934578b74c39eeda79a317ad0e45e695"
+    },
+    "cross-chain-transfers/ethereum-bridge/overview.md": {
+      "title": "Ethereum bridge overview",
+      "status": null,
+      "content_preview": "# Ethereum bridge overview\n\n!!! warning\n    Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.\n\nThe dedicated Bridge smart contract, controlled by the Gonka consensus, is active on Ethereum at the address:\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n\n[View the bridge contract on Etherscan](https://etherscan.io/address/0x972a7a92d92796a98801a8818bcf91f1648f2f68){target=_blank}\n\n!!! important \"This address is also the WGNK token\"\n    The bridge contract **is** the **WGNK** ERC-20 token — they are one and the same contract at this address, not two separate contracts. So the Etherscan page above is simultaneously the bridge and the WGNK token. Wrapped ERC-20 tok",
+      "checksum": "5758b83592a9ef699213fe844d58e705a19c99a8db4756af3d44ad21440cdf2a"
+    },
+    "cross-chain-transfers/ethereum-bridge/register-token.md": {
+      "title": "Register a bridge token",
+      "status": null,
+      "content_preview": "!!! warning\n    Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.\n\nThe dedicated Bridge smart contract, controlled by the Gonka consensus, is active on Ethereum at the address:\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n\n---\n\n# Register a bridge token\n\n!!! important \"Registration is optional\"\n    You do **not** need to register a token to bridge it. Any ERC-20 can be deposited to the bridge, and Gonka will automatically instantiate its wrapped CW-20 contract and mint your balance. Registration is a convenience that:\n\n    * attaches **metadata** (name, symbol, decimals) so the wrapped token displays correctly in wallets, explorers, and the dashboard, and\n  ",
+      "checksum": "8a043a446c86ec861047b79c3fc59a8d1fe10138ff1ad148fdf2b618ee3acfe7"
+    },
+    "cross-chain-transfers/ethereum-bridge/tracker-integration.md": {
+      "title": "Dashboard & tracker integration",
+      "status": null,
+      "content_preview": "!!! warning\n    Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.\n\nThe dedicated Bridge smart contract, controlled by the Gonka consensus, is active on Ethereum at the address:\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n\n---\n\n# Dashboard & tracker integration\n\nThis page is for **dashboard, explorer, and tracker operators** who want to display or integrate Gonka bridge data themselves. All bridge state is readable from the public chain API — no special access is required.\n\nThe examples below use `https://node2.gonka.ai:8443/chain-api/...`; you can point them at any node you trust.\n\n## End-user dashboard\n\nThe hosted dashboard already exposes bridge functiona",
+      "checksum": "bae484f722b48d129b0dfb7e65613de9d86b7eb85b496b0804249067fb3adef9"
+    },
+    "cross-chain-transfers/ethereum-bridge/withdraw-gnk.md": {
+      "title": "Withdraw GNK (Ethereum → Gonka)",
+      "status": null,
+      "content_preview": "!!! warning\n    Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.\n\nThe dedicated Bridge smart contract, controlled by the Gonka consensus, is active on Ethereum at the address:\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n---\n\n# Withdraw GNK (Ethereum → Gonka)\n\nThis is the reverse of [Deposit GNK (Gonka → Ethereum)](deposit-gnk.md). It burns wrapped GNK (**WGNK**) on Ethereum and releases the equivalent native **GNK** from escrow on Gonka.\n\nNative GNK is released to the Gonka address **derived from the same key that burns the WGNK** on Ethereum. Make sure you control that key on Gonka — see [Addresses and keys](addresses-and-keys.md).\n\n### A) Burn WGNK on Et",
+      "checksum": "bfc55889702fb4222016a274c6c572b821218dc110423620feb464881af500e4"
+    },
+    "cross-chain-transfers/ethereum-bridge/withdraw-usdt.md": {
+      "title": "Withdraw USDT (Gonka → Ethereum)",
+      "status": null,
+      "content_preview": "!!! warning\n    Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.\n\nThe dedicated Bridge smart contract, controlled by the Gonka consensus, is active on Ethereum at the address:\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n---\n\n# Withdraw USDT (Gonka → Ethereum)\n\n!!! note\n    Withdrawals are released on Ethereum by a BLS signature tied to the **current epoch's group key**, which is refreshed about once per day. A single epoch signature can authorize any number of withdrawals started in that epoch, so this step is normally fast. See [How Gonka → Ethereum is authorized](overview.md#how-gonka-ethereum-is-authorized-the-daily-group-key) for the background.\n\n### A",
+      "checksum": "d758856d82ebbe98a5064ce9c0e452e8710dd1dd42190e7ab1091da62c25cfa0"
+    },
+    "cross-chain-transfers/ibc/withdraw-usdt-via-kava.md": {
+      "title": "Withdraw USDT via Kava (Gonka → Ethereum)",
+      "status": null,
+      "content_preview": "# Withdraw USDT via Kava (Gonka → Ethereum)\n\n**Use case:** spendable IBC USDT is already available in a Gonka wallet balance, and the target route is Gonka → Kava Cosmos → Kava EVM → Ethereum.\n\nThe guide describes the **full path** to Ethereum. The route can stop after any completed leg: IBC USDT can remain on **Kava in Keplr**, move to **Kava EVM in MetaMask**, or continue to **Ethereum**.\n\n**Disclaimer:** This guide is **not financial advice**. Route parameters, supported assets, fees, and wallet / bridge UIs can change. Always verify the current route, addresses, and amounts before sending funds.\n\n## Important: this guide is for IBC USDT\n\nThis guide covers **IBC USDT on Gonka / Kava Cosmos**.\n\nDo **not** confuse it with:\n\n- native **ERC-20 USDT** on Ethereum\n- exchange USDT balances\n- U",
+      "checksum": "e56340c7cbdb65126e71342810d0b190ed21f844e32d583d9f82ad56a60334f5"
+    },
+    "cross-chain-transfers/widget-integration.md": {
+      "title": "Technical Integration Guide: Exchange & Bridge Widget",
+      "status": null,
+      "content_preview": "# Technical Integration Guide: Exchange & Bridge Widget\n\nThis guide provides technical specifications, architectural designs, and implementation steps for community developers who want to recreate the Exchange & Bridge Widget within their own custom dashboards.\n\n## 2. Deposit Functionality\n\n### A. IBC Deposits (Cosmos to Gonka)\nIBC deposits transfer assets directly from Cosmos source chains (e.g. Osmosis, Cosmos Hub, Injective) to Gonka.\n\n1. **Enable & Connect Source Chain**: Query Keplr for the source chain credentials.\n    ```typescript\n    async function connectSourceChain(chainId: string) {\n      const walletProvider = (window as any).keplr;\n      if (!walletProvider) throw new Error(\"Cosmos wallet extension not found.\");\n      \n      await walletProvider.enable(chainId);\n      const o",
+      "checksum": "49b7e9c20a7704e8bbe35715dcd04e7d4a68d1f188e32dbe5bdce75e1954e03a"
+    },
+    "dashboard-maintainer-memo-v0.2.13.md": {
+      "title": "Dashboard Maintainer Memo For v0.2.13",
+      "status": null,
+      "content_preview": "# Dashboard Maintainer Memo For v0.2.13\n\nIf the v0.2.13 upgrade proposal passes and the upgrade is successfully executed on mainnet, dashboards will need to update how they compute CPoC confirmation weight and refresh their cache after the upgrade.\n\nThis applies to Gonkascan and other similar dashboard deployments.\n\n## Main Dashboard Impacts\n\n### 1. New Confirmation Weight Computation\n\nDashboards must use the new chain-provided `confirmation_weight_scales` snapshot when computing `weight_to_confirm`.\n\nSimple meaning: the dashboard should stop assuming it can always use current params plus subgroup models. The chain now snapshots which models count for CPoC and what scale factors to use for that epoch.\n\nThis is the big required dashboard logic change.\n\nCode references in upgrade v0.2.13:\n\n-",
+      "checksum": "8e35fa1d9facf9df3874b09d467fd5c7a787ae097242c3ee3a6baa3f4368955f"
+    },
+    "developer/gateway-developer-quickstart.md": {
+      "title": "Run your own gateway",
+      "status": null,
+      "content_preview": "# Run your own gateway\n\nThis guide explains how to run a Gonka devshard gateway on **gonka-mainnet** without installing a full chain node. You will deploy the gateway on your own Linux host, fund a dedicated escrow creator address, open an on-chain devshard escrow, send OpenAI-compatible inference requests, and settle the escrow when you are finished.\n\nIf you only need inference through an existing endpoint, use a [community broker](quickstart.md#1-use-a-community-broker-recommended) instead — that path does not require Docker, on-chain escrows, or an allow-listed creator address.\n\n### Allowlisted creator address required\n\n> **Prerequisite:** The `gonka1…` address for your devshard escrow creator (`$DEVSHARD_CREATOR`, from `DEVSHARD_PRIVATE_KEY`) **must** appear on the chain allowlist `dev",
+      "checksum": "87655dbe1475524503fe3350d3e1dabf5640959700db9df95b29c3c9d32d93c4"
+    },
+    "developer/quickstart.md": {
+      "title": "Developer Quickstart",
+      "status": null,
+      "content_preview": "# Developer Quickstart\n\nThis guide explains how to send an inference request to Gonka through a community broker. It is the fastest way to start using the network today. If you would like to [run your own gateway](#2-run-your-own-gateway-advanced) instead of going through a broker, see Run your own gateway at the bottom of this page.\n\n!!! note \"How to connect to Gonka\"\n\n    Gonka inference is now organized around **devshards** — short-lived sessions that hold a small on-chain deposit (an escrow) and settle per-request billing off-chain. The role of opening a devshard, signing requests, rotating the session, and submitting settlement to the chain is performed by a piece of software called a **gateway**.\n\n    For most developers, the simplest way to use Gonka is to call a **community broker*",
+      "checksum": "06f5a5800b24d1c584667874cfb108148accfd76f4c830cf8253cfce76275125"
+    },
+    "disclaimer.md": {
+      "title": "Disclaimer",
+      "status": null,
+      "content_preview": "<!-- prettier-ignore:start -->\n<div>\n<div class=\"gonka-landing gonka-landing--doc\">\n  <!-- Header -->\n  <header class=\"gonka-header\">\n      <a href=\"/\" class=\"gonka-logo\">\n        <svg width=\"44\" height=\"44\" viewBox=\"0 0 44 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n          <path d=\"M22.0779 0.000895182C22.2017 6.07859 22.4682 12.1564 22.8218 18.234C23.2874 26.2385 26.7009 34.2436 29.0827 42.2481C29.1354 42.4251 29.185 42.6029 29.2367 42.7799C26.9701 43.5691 24.5355 44 22 44C19.4649 44 17.0305 43.5698 14.7642 42.7808C14.816 42.6034 14.8663 42.4255 14.9191 42.2481C17.3009 34.2436 20.7144 26.2385 21.18 18.234C21.5336 12.1564 21.7992 6.07859 21.923 0.000895182C21.9487 0.000807303 21.9743 0 22 0C22.026 0 22.0519 0.000805247 22.0779 0.000895182Z\" fill=\"#2A2A2A\"/>\n          <path d=\"M",
+      "checksum": "da84e71c42f682fbee5bedb45cb798e643b6535b1b02253eff63359533b97e01"
+    },
+    "glossary.md": {
+      "title": "Glossary",
+      "status": null,
+      "content_preview": "# Glossary \n\n**AI Token** is a model-specific unit of compute that quantifies the computational cost required for training or inference operations. For instance, in the context of a QwQ-32B model (FP16, 32K context), one AI Token may represent the resources needed to process a fixed number of input and/or output tokens. AI Tokens are tightly coupled to the characteristics of the base model and reflect actual memory, FLOP, etc. \n\n**Collateral** mechanism allows participants to lock GNK coins in order to activate a portion of their already earned Proof of Compute (PoC) weight. Voting power is never derived solely from holding coins. GNK coins serve as economic collateral, not as a source of influence. Influence is earned through continuous computational contribution, while locking GNK collat",
+      "checksum": "7d8b2d82ca625c8a3a0bc5e9bac9c837c6bc43e74031768ae3f329ac37c85755"
+    },
+    "governance/creating-proposals.md": {
+      "title": "How to Create and Submit a Governance Proposal on Gonka",
+      "status": null,
+      "content_preview": "# How to Create and Submit a Governance Proposal on Gonka\n\nStep-by-step for submitting Proposal with `inferenced`.\nAligned with Gonka Transactions & Governance.\nReplace every placeholder with your own values before running commands.\n\n## Placeholders\n\n| Placeholder | Meaning |\n|---|---|\n| `<COLD_KEY_NAME>` | Your key name in the keyring (not your `gonka1...` address) |\n| `<PATH_TO_PROPOSAL_JSON>` | Path to the proposal JSON file, e.g. `./proposal.json` |\n| `<NODE_URL>` | Node base URL without `/chain-rpc/`, e.g. `http://node1.gonka.ai:8000` |\n| `<CHAIN_ID>` | e.g. `gonka-mainnet` for mainnet |\n\nIf a command fails with `connection` or `parse`, check that every RPC command uses `<NODE_URL>/chain-rpc/` with exactly one `/chain-rpc/`.\n\n## Prerequisites\n### 1. Install CLI\n\nDownload a build for y",
+      "checksum": "6c65beb84628bfc263c53c64ff3730736334a0d3cf5859f5fd12e702e4af0583"
+    },
+    "governance/transactions-and-governance.md": {
+      "title": "Transactions & Governance",
+      "status": null,
+      "content_preview": "# Transactions & Governance\n\nAll governance actions are performed from your **Cold Account Machine**, using the **<COLD_KEY_NAME>** stored in your file keyring. This is the governance key you created when joining the network ([see quickstart](https://gonka.ai/host/quickstart/#local-machine-install-the-cli-tool)).\n\nTransactions are sent through an RPC endpoint (here referred to as `<NODE_URL>/chain-rpc/`). If you do not specify `--node`, the CLI defaults to `tcp://localhost:26657`. Unless you run your own node locally, always provide `--node <NODE_URL>/chain-rpc/`.\n\nUnordered transactions are supported and recommended here to avoid sequence contention. ([docs.cosmos.network](https://docs.cosmos.network/sdk/v0.53/learn/beginner/tx-lifecycle))\n\n???+ note \"Always include these flags in transac",
+      "checksum": "146339b1a26e53c1f06095a413c2aae92db1e600b613adb6bceca5ebe2657194"
+    },
+    "governance/voting-on-proposals.md": {
+      "title": "Voting on Proposals",
+      "status": null,
+      "content_preview": "# Voting on Proposals\n## Who Can and Cannot Vote\n\nA vote requires bonded `tokens > 0` at the proposal's `voting_end_height`. Eligibility is determined by three independent checks:\n\n**Bonded status (Cosmos SDK)**\n\nOnly validators with `status = BOND_STATUS_BONDED` and `tokens > 0` contribute voting power. Bonded entries with zero tokens are dormant and contribute nothing.\n\n**Jail status**\n\nA jailed validator (`jailed = true`) is automatically unbonded and removed from the active validator set, losing all voting power until they manually unjail via `MsgUnjail`. Slashing for downtime or double-signing triggers jail.\n\nIn the Gonka fork this is reinforced through `SetComputeValidators`: at epoch end, validators not in the compute results, or explicitly marked for deletion, get `tokens = 0`. Bec",
+      "checksum": "c91b44ba24e03f74cdc740b161764af6b797d1d2f9385406d5caab6ec37cc797"
+    },
+    "governance/voting-power-eligibility.md": {
+      "title": "Voting Power, Genesis Guardians and Delegation",
+      "status": null,
+      "content_preview": "# Voting Power, Genesis Guardians and Delegation\n\n## Total bonded weight calculation\n\nThe total bonded weight is the sum of `validator.tokens` across all bonded validators with `tokens > 0`:\n\n```text\ntotal_bonded = Σ validator.tokens   (over all bonded validators with tokens > 0)\n```\n\nEach validator's `tokens` value is set on every epoch transition by the inference module via `Staking.SetComputeValidators()`.\nFor the vast majority of validators:\n\n```text\nvalidator.tokens = participant.weight   (their PoC weight in the current epoch)\n```\n\nFor the Genesis Guardians, an additional power-enhancement step is applied first (see below).\n\n### Guardian power boost calculation\n\nBefore `SetComputeValidators` runs, the inference module applies `applyEarlyNetworkProtection`, which computes enhanced pow",
+      "checksum": "b0e084ba86623b3633ee80e4fcf8cfed79f80515fc6d229f6b9496c3516a565c"
+    },
+    "help.md": {
+      "title": "Get Support on Discord",
+      "status": null,
+      "content_preview": "# Get Support on Discord\n\nJoin the Gonka community on [Discord](https://discord.com/invite/RADwCT2U6R) if you need assistance.",
+      "checksum": "5d7c16cf949bf97cee0ef5f3eda078ff193b9f2748b08e9d4897b7262073a568"
+    },
+    "host/README.md": {
+      "title": "Redirecting to Hosts Section",
+      "status": null,
+      "content_preview": "# Redirecting to Hosts Section\n\n<meta http-equiv=\"refresh\" content=\"0; url=../#hosts\" />\n\nThis page is redirecting you to the [Hosts section](/docs/#hosts) of the documentation.\n\nIf you are not redirected automatically, please [click here](/docs/#hosts).",
+      "checksum": "b6553c9856f368e9fd63bf85e30545467e77a7e5cd423fedfe06eb4b11b01fc0"
+    },
+    "host/benchmark-to-choose-optimal-deployment-config-for-llms.md": {
+      "title": "Benchmark to Choose Optimal Deployment Config for LLMs",
+      "status": null,
+      "content_preview": "# Benchmark to Choose Optimal Deployment Config for LLMs\n## Intro\nEffective GPU utilization is critical for deploying large language models. Gonka Nodes utilize a customized vLLM inference engine that supports both high-performance inference and its validation.\n\nTo achieve the best results, vLLM requires careful, server-specific configuration. The optimal performance depends on both GPUs' characteristics and the speed of cross-GPU data transfer. This guide provides instructions on how to select vLLM parameters using the Qwen/Qwen3-32B-FP8 model as an example. We will also describe which parameters can be tuned for optimal performance without affecting validation and which parameters must remain unchanged.\n\n!!! note \"Performance vs. correctness\"\n    This guide is about **performance tuning*",
+      "checksum": "53bbbead7b16c62fe4246e0a735b5676d0082b1632855861929028cbd2afc6ff"
+    },
+    "host/collateral.md": {
+      "title": "Collateral",
+      "status": null,
+      "content_preview": "# Collateral\n\nCollateral mechanism allows participants to lock GNK coins in order to activate a portion of their already earned Proof of Compute (PoC) weight.\n\nVoting power is never derived solely from holding coins. GNK coins serve as economic collateral, not as a source of influence. Influence is earned through continuous computational contribution, while locking GNK collateral is required to secure participation in governance and enforce accountability.\n\n## Key Concepts\n\n- For the first 180 epochs (Grace Period), no collateral is required. All participants receive 100% of their potential weight unconditionally.\n- After the grace period, a portion of a participant's weight (default 20%) is granted unconditionally as Base Weight.\n- The remaining weight (default 80%) is Collateral-Eligible",
+      "checksum": "54eb0243579ccde0f47006f7c78743c6c7a823a412d2e8a08c9cc2cd834ed5de"
+    },
+    "host/genesis.md": {
+      "title": "Gonka Genesis Ceremony",
+      "status": null,
+      "content_preview": "# Gonka Genesis Ceremony\n\nThe genesis ceremony is a coordinated process to bootstrap the Gonka blockchain with a pre-defined set of initial validators and an agreed-upon `genesis.json` file. This ceremony is important because it establishes the network's foundational security, ensures fair participation among validators, and creates a verifiable starting point for the blockchain.\n\n## Overview\n\nThe ceremony is a transparent and auditable process managed entirely through GitHub Pull Requests (PRs). The core workflow is straightforward:\n\n- Hosts (Validators) submit information and offline transaction files (`GENTX` and `GENPARTICIPANT`) via PRs\n- The Coordinator aggregates and verifies these inputs to publish the final, agreed `genesis.json` with a scheduled `genesis_time` and recorded hash.\n",
+      "checksum": "629ede1c170ef3778a73e98da07c95d59092ca0d6cc5715fbdc6638bce11135d"
+    },
+    "host/hardware-specifications.md": {
+      "title": "Hardware Specifications",
+      "status": null,
+      "content_preview": "# Hardware Specifications\n\nCriteria: Supports NVIDIA GPUs of generations newer than Tesla, provided that at least 320 GB total GPU VRAM is available to each MLNode container. Any combination of GPUs is allowed, as long as the system can host the LLMs approved by network governance and participate in PoC.\n\n| NVIDIA GPU | Release Date | VRAM | Architecture |\n|------------|--------------|------|--------------|\n| B300 | March 2025 | 288 GB HBM3e | Blackwell Ultra |\n| B200 | 2024 | 192 GB HBM3e | Blackwell |\n| RTX PRO 6000 | March 2025 | 96 GB GDDR7 ECC | Blackwell |\n| H200 | 2024 | 141 GB HBM3e | Hopper |\n| H100 | May 2022 | 80 GB HBM3 | Hopper |\n| A100 80GB | November 2020 | 80 GB HBM2e | Ampere |",
+      "checksum": "6975d66f3d242cec96dda8b9cbc4d286cc834b37e4828d19614390749246afc4"
+    },
+    "host/host_info.md": {
+      "title": "How to edit Host public info",
+      "status": null,
+      "content_preview": "# How to edit Host public info \n\nThis guide shows how to update your Host/Validator profile with the human-readable name, website, and avatar/profile identity so that explorers display correct information.\n\n## Prerequisites\n\n- You must be the operator of the Host/Validator (you hold the operator key).\n- Your node must be running and connected to the network.\n- If you want a verified avatar, have an identity service (for example, [Keybase](https://keybase.io/)).\n\n## Fields / Parameters\n\nHere are the **only** fields you can set or edit.\n\n| Field    | Flag       | Purpose / What is displayed                                                                 |\n|----------|------------|----------------------------------------------------------------------------------------------|\n| Moniker  | `--n",
+      "checksum": "d3a4c838dd0967f0f1fefba394417951f740209cb0d272d86e5248ee9be411ee"
+    },
+    "host/key-management.md": {
+      "title": "Key Management Architecture",
+      "status": null,
+      "content_preview": "# Key Management Architecture\n\nThis document describes the comprehensive key management architecture for Gonka Network, a decentralized AI infrastructure that requires robust security through role-based key separation.\n\n## Overview\n\nGonka Network implements a **role-based key management system** that separates automated functions from high-stakes manual approvals. This architecture ensures that no single key controls all network operations, providing enhanced security and operational flexibility.\n\n!!! info \"Quick Setup\"\n    For immediate deployment, see the [Quickstart Guide](/host/quickstart/). This document focuses on understanding the complete key management architecture and security model.\n\n## Key Architecture at Launch (v0)\n\nAt network launch, Hosts use a **three-key system**:\n\n| Key ",
+      "checksum": "4452c8f057d7939a00ce466f74367d4516800f269add8df33db732b0c7161366"
+    },
+    "host/kimi-bootstrap.md": {
+      "title": "Kimi K2.6 Bootstrap",
+      "status": null,
+      "content_preview": "# Kimi K2.6 Bootstrap\n\n`moonshotai/Kimi-K2.6` has **passed bootstrap** and is **active** in Proof of Compute on Gonka mainnet. The timeline and transaction examples below remain useful for understanding how activation worked and for operations such as delegation; for current deployment defaults (including `node-config.json`), see the [Host Quickstart](./quickstart.md).\n\nEpoch 251 was when the model group `moonshotai/Kimi-K2.6` became eligible.\n\nThis document explains how to minimize the chance of weight reductions, whether or not the model gets enough participants.\n\n!!! note\n    The bootstrap can take multiple epochs, depending on how many participants are ready. Before activation, no weight reduction happens if participants submit their choice explicitly and hosts who are going to deploy ",
+      "checksum": "2ff5625d956e289039b631e6d996883a7adab87a0312545176a6c4817ead736d"
+    },
+    "host/minimax-bootstrap.md": {
+      "title": "MiniMax-M2.7 Bootstrap",
+      "status": null,
+      "content_preview": "# MiniMax-M2.7 Bootstrap\n\n`MiniMaxAI/MiniMax-M2.7` (FP8) is added as a third governance-approved inference model in the `v0.2.13` upgrade. This document explains how to minimize the chance of weight reductions during bootstrap, whether or not the model gets enough participants in its first attempt.\n\nFor current deployment defaults (including `node-config.json`), see the [Host Quickstart](./quickstart.md). For the wider context of multi-model PoC mechanics, see [Multi-Model PoC](./multi_model_poc.md). The previous model bootstrap and its mechanics are documented in [Kimi K2.6 Bootstrap](./kimi-bootstrap.md).\n\n!!! note\n    The bootstrap can take multiple epochs, depending on how many participants are ready. Before the configured punishment epoch, no weight reduction happens if participants s",
+      "checksum": "e152a325c19b0d58d709d4d08ffd1448db40bfde92dda391740d9f1204aede3b"
+    },
+    "host/mlnode-management.md": {
+      "title": "ML Node Management",
+      "status": null,
+      "content_preview": "# ML Node Management\n\nThis guide explains how to manage inference nodes (ML Nodes) connected to your Network Node using the **Admin API**.\n\nYou will learn how to:\n\n- Add a new ML Node\n- Add multiple ML Nodes in a single batch\n- Update an existing ML Node\n- Enable or disable an ML Node\n- Delete an ML Node\n- List all configured ML Nodes\n\nAll operations are performed against the Network Node’s Admin API and do **not** require a chain transaction. Changes take effect immediately at the Network Node level.\n\n## ML Node Definition\n\nEach ML Node registered with the Network Node is represented by a JSON object with the following key fields:\n\n- `id` – **Unique identifier** for the ML Node (string).\n- `host` – **Static IP or DNS** of the ML Node, or the **Docker container name** if running in the sam",
+      "checksum": "ff67a25153be8a2bf022f621a020a8609ce3060191a6875df7eab2a68b4ca69d"
+    },
+    "host/mlnode-validation.md": {
+      "title": "Validate ML Node Deployment",
+      "status": null,
+      "content_preview": "# Validate ML Node Deployment\n\nThe [`gonka` repo](https://github.com/gonka-ai/gonka) ships an agent skill called `mlnode-validate` that validates a deployed ML Node against pre-computed honest PoC vectors for a specific model. The skill is self-contained inside the repo (no external code, no callback receiver).\n\nThe skill is the contract; this page is a pointer. The single source of truth is [`skills/mlnode-validate/SKILL.md`](https://github.com/gonka-ai/gonka/blob/main/skills/mlnode-validate/SKILL.md) — required / optional inputs, deploy-config rules, golden-reference list, pass criteria, failure modes, and the report template.\n\nThe skill is implemented by two Python scripts under `mlnode/packages/benchmarks/scripts/poc_validation/`:\n\n- `validate.py` — the main entry point (download → dep",
+      "checksum": "81846478423f08de1422ad73b589efd4e099b3ebfd28f9dee6e215aa464c60de"
+    },
+    "host/multi_model_poc.md": {
+      "title": "Multi-Model PoC — Host Operations Guide",
+      "status": null,
+      "content_preview": "# Multi-Model PoC — Host Operations Guide\n\nMulti-model Proof-of-Compute (PoC) arrived in v0.2.12 and expanded again in v0.2.13.\n\n## What changed in v0.2.12 and v0.2.13\n\nBefore v0.2.12, the network operated a single enforced model: `Qwen/Qwen3-235B-A22B-Instruct-2507-FP8`. v0.2.12 added `moonshotai/Kimi-K2.6` as the second governance-approved model and introduced per-model participation, delegation, and penalty timing. v0.2.13 recalibrated model coefficients and added `MiniMaxAI/MiniMax-M2.7` as the third governance-approved model.\n\nAs of epoch `308`, `Qwen/Qwen3-235B-A22B-Instruct-2507-FP8` has been retired by governance (proposal 78) and `MiniMaxAI/MiniMax-M2.7` is the base model and active PoC model. `poc_params.models` on mainnet contains:\n\n| `model_id` | Current mainnet status | `weigh",
+      "checksum": "d5362098a58d4e0b93a1469c494a9bc9de53ec0ffd24fcd14c2088e562b2caaa"
+    },
+    "host/multiple-nodes.md": {
+      "title": "Multiple nodes",
+      "status": null,
+      "content_preview": "# Multiple nodes\n\nIn this setup, you deploy the network node and one or more inference (ML) nodes across multiple servers. To join the network, you need to deploy two services:\n\n- **Network node** – a service consisting of two nodes: a **chain node** and an **API node**. This service handles all communication. The **chain node** connects to the blockchain, while the **API node** manages user requests.\n- **Inference (ML) node** – a service that performs inference of large language models (LLMs) on GPU(s). You need at least one **ML node** to join the network.\n\nThe guide provides instructions for deploying both services on the same machine as well as on different machines. Services are deployed as Docker containers.\n\n## Starting the network and inference node\nThis section describes how to de",
+      "checksum": "9f546b5192fea7dce05dadb2b09e597a1a18f542df7c9c395c5c6623644c4dde"
+    },
+    "host/network-node-api.md": {
+      "title": "Network Node API",
+      "status": null,
+      "content_preview": "# Network Node API\n\nThis section describes the `Network Node API`, specifically the `/v1/epochs/{epoch_id}/participants` endpoint. This endpoint is used to retrieve:\n\n- Merkle proofs\n- Host data\n- Validator signatures\n\n## Usage\n\nCurrent Epoch Data\n```bash\ncurl -X GET http://<your_api_node_url:public_port>/v1/epochs/current/participants\n```\n\nSpecific Epoch Data\n```bash\ncurl -X GET http://<your_api_node_url:public_port>/v1/epochs/<epoch_id>/participants\n```\n---\n##Example response breakdown\n```bash linenums=\"1\"\n{\n  \"active_participants\": {\n\t\"participants\": [\n  \t{\n    \t\"index\": \"gonka17tvsmufmewvwfy3dfxz7l20jmlhhn6ekfcun7r\",\n    \t\"validator_key\": \"ljvRT9VScsxQKKX4S91yJRNppbz691ceD4sBYBRrAys=\",\n    \t\"weight\": 10,\n    \t\"inference_url\": \"http://genesis-api:8080\",\n    \t\"models\": [\n      \t\"unsloth/",
+      "checksum": "73aa291b4e5738b56f3ade8d4a7e7389f1d092d3452d223cf1c51bde346c8a5c"
+    },
+    "host/optional-ssl-setup.md": {
+      "title": "[Optional] SSL Setup",
+      "status": null,
+      "content_preview": "# [Optional] SSL Setup\n\n## Use cases\nHosts who want HTTPS for the public API, chain endpoints (RPC/REST/gRPC), and/or the Explorer.\n\n## A) Setup using **Proxy SSL** (Automated)\n\n### What you get\n- **Automatic issuance & renewal** of TLS certs (Let’s Encrypt via DNS‑01).\n- A **single entry‑point** nginx proxy that terminates TLS and routes to your services.\n- **Flip‑the‑switch** enablement with `docker compose` using the `ssl` profile.\n\n### How it works (high level)\n1. You run two containers: **`proxy`** (nginx) and **`proxy-ssl`** (ACME issuer).  \n2. On first start (or when a cert is missing), `proxy` asks `proxy-ssl` for a cert for `CERT_ISSUER_DOMAIN` (and allowed subdomains, if configured).  \n3. `proxy-ssl` performs a DNS‑01 challenge with your DNS provider **using the API keys you supp",
+      "checksum": "4e8eef130c0b6fc3610aaef1cc4f6a5d8a7f12dee6517653683fb1fe46c2b541"
+    },
+    "host/proposals.md": {
+      "title": "Proposals",
+      "status": null,
+      "content_preview": "# Proposals\n\nIn Gonka, there are two main ways to propose and coordinate changes: Governance and Improvement Proposals.\n\n## Improvement Proposals (off-chain)\n\nUsed to discuss long-term plans, major architectural ideas, and shape the community roadmap. They are similar to Bitcoin’s [BIPs](https://github.com/bitcoin/bips).\n\n- Managed as Markdown files in the [/proposals](https://github.com/gonka-ai/gonka/tree/main/proposals) directory\n- Anyone can create a Pull Request with a new proposal\n- Active participants review proposals on GitHub\n- If approved, the PR gets merged into the repository\n\nFor off-chain improvement proposals, see the [/proposals](https://github.com/gonka-ai/gonka/tree/main/proposals) folder.\n\n## Governance Proposals (on-chain)\nUsed for changes that directly affect the netwo",
+      "checksum": "d468673a47e441bcc1f51650227fbc0bc05da2809eb2b2dbdc46eca1ecb3e8c3"
+    },
+    "host/quickstart.md": {
+      "title": "Setting up your chain",
+      "status": null,
+      "content_preview": "# Setting up your chain \n\n**Host** (**hardware provider** or **node**) contributes computational resources to the network and is rewarded based on the amount and quality of resources they provide.\n\nTo join the network, you need to deploy two services:\n\n- **Network Node** – a service consisting of two nodes: a **Chain Node** and an **API Node**. This service handles all communication. The **Chain Node** connects to the blockchain, while the **API Node** manages user requests.\n- **Inference (ML) node** – a service that performs inference of large language models (LLMs) on GPU(s). You need at least one **ML Node** to join the network.\n\nThe guide describes a scenario in which both services are deployed on the same machine, and each Host has one ML Node. Services are deployed as Docker containe",
+      "checksum": "65528b1bcf9255a84d5874ae4e460a28be44dd2720d4ee56f5fe3d0c5236dbf6"
+    },
+    "host/rewards.md": {
+      "title": "Rewards",
+      "status": null,
+      "content_preview": "# Rewards\n\n!!! note \n    This documentation is provided for reference only. Final parameters and technical details may change, so always verify the latest on-chain state and the relevant GitHub repository before relying on this document.\n\n## Overview of tokenomics\n\nThe Core incentive for Hosts (680 million gonka (GNK) coins, 68% of the total supply) is designed to reward Hosts for contributing computational power to the decentralized network. Under the Bitcoin-style reward System, a fixed amount of GNK is minted per epoch and distributed proportionally to each Host’s Proof of Compute (PoC) weight. As the network grows and more GPUs compete for the same fixed reward, the GNK earned per GPU decreases, introducing scarcity-driven value dynamics similar to Bitcoin mining. Long-term value for H",
+      "checksum": "1f118eec395e1c706f5f80892fc8e34c85cdc041ff529748b03d17baa13bfeea"
+    },
+    "index.md": {
+      "title": "index",
+      "status": null,
+      "content_preview": "<div>\n<div class=\"gonka-landing\">\n  <!-- Header -->\n  <header class=\"gonka-header\">\n      <a href=\"/\" class=\"gonka-logo\">\n        <svg width=\"44\" height=\"44\" viewBox=\"0 0 44 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n          <path d=\"M22.0779 0.000895182C22.2017 6.07859 22.4682 12.1564 22.8218 18.234C23.2874 26.2385 26.7009 34.2436 29.0827 42.2481C29.1354 42.4251 29.185 42.6029 29.2367 42.7799C26.9701 43.5691 24.5355 44 22 44C19.4649 44 17.0305 43.5698 14.7642 42.7808C14.816 42.6034 14.8663 42.4255 14.9191 42.2481C17.3009 34.2436 20.7144 26.2385 21.18 18.234C21.5336 12.1564 21.7992 6.07859 21.923 0.000895182C21.9487 0.000807303 21.9743 0 22 0C22.026 0 22.0519 0.000805247 22.0779 0.000895182Z\" fill=\"#2A2A2A\"/>\n          <path d=\"M20.7262 21.2364C19.4639 28.1647 15.6505 35.0935 12",
+      "checksum": "441e1431d38dbc1813be061f5b8b02d343d24c8d720252a3471f4a2efab21f72"
+    },
+    "introduction.md": {
+      "title": "introduction",
+      "status": null,
+      "content_preview": "#Gonka\n\nGonka is a decentralized AI infrastructure designed to optimize computational power specifically for AI model training and inference, offering a competitive alternative to traditional centralized cloud providers. Centralized systems are often expensive, monopolistic, and carry risks of censorship, whereas existing decentralized networks frequently waste resources on non-productive tasks, such as network security.\n\nWe introduce an innovative consensus mechanism that ensures nearly **100%** of computational resources are used for meaningful AI tasks, maximizing efficiency and minimizing operational costs. \n\nThe system features key roles: \n\n- **Developers** build and deploy AI applications using the network’s distributed power. Getting started, visit the [Developer Quickstart Guide](h",
+      "checksum": "0d77971c05a0188dc7a9ac4d0863904710436eb7b12a0b77117f2d69a78f88be"
+    },
+    "login.md": {
+      "title": "login",
+      "status": null,
+      "content_preview": "<div class=\"login-form\" style=\"max-width: 400px; margin: auto; padding: 20px; border: 1px solid #ccc; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\">\n    <form id=\"loginForm\">\n        <div style=\"margin-bottom: 20px;\">\n            <label for=\"pemail\" style=\"display: block; font-weight: bold; margin-bottom: 5px;\">Email:</label>\n            <input type=\"email\" id=\"pemail\" name=\"pemail\" required style=\"width: 100%; padding: 10px; font-size: 1em; border: 1px solid #ccc; border-radius: 5px;\">\n        </div>\n\n        <div style=\"margin-bottom: 20px;\">\n            <label for=\"password\" style=\"display: block; font-weight: bold; margin-bottom: 5px;\">Password:</label>\n            <input type=\"password\" id=\"password\" name=\"password\" required style=\"width: 100%; padding: 10px; font-siz",
+      "checksum": "c9a928dd80fa7535cd7a4d5c6111efc925088cb41830b66d86bea0b6ac8c073d"
+    },
+    "model-licenses.md": {
+      "title": "Model licenses",
+      "status": null,
+      "content_preview": "# Model licenses\n- [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1/blob/main/LICENSE)\n- [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3/blob/main/LICENSE-MODEL)\n- [Gemma-3-27B](https://ai.google.dev/gemma/terms)\n- [gpt-oss-120b](https://huggingface.co/openai/gpt-oss-120b/blob/main/LICENSE)\n- [Kimi-k2.6](https://huggingface.co/moonshotai/Kimi-K2.6/blob/main/LICENSE)\n- [Llama-3.1-70B](https://ollama.com/library/llama3:70b/blobs/4fa551d4f938)\n- [Llama-3.1-405B](https://ollama.com/library/llama3.1:405b/blobs/0ba8f0e314b4)\n- [MiniMax-M2.7](https://github.com/MiniMax-AI/MiniMax-M2.7/blob/main/LICENSE)\n- [Qwen3-32B](https://huggingface.co/Qwen/Qwen3-32B/blob/main/LICENSE)\n- [Qwen3-235B](https://huggingface.co/Qwen/Qwen3-235B-A22B/blob/main/LICENSE)",
+      "checksum": "3e28eb6f9e91842c730e66ec34af9227016d7e10a4aaef832e6aa059ddb43f01"
+    },
+    "network-updates.md": {
+      "title": "Announcements",
+      "status": null,
+      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## July 11, 2026\n\n**The v0.2.13-devshard-v3 runtime upgrade proposal has passed governance**\n\nThe devshard v3 runtime has been approved on-chain and added to `DevshardEscrowParams.approved_versions`.\n\nThis proposal covered [the devshard v3 release.](https:/",
+      "checksum": "5e1c98f3d79b6003f2f93925df68c5258db295df681579c6e03e2401036fde5d"
+    },
+    "participant/README.md": {
+      "title": "Redirecting to Host Section",
+      "status": null,
+      "content_preview": "# Redirecting to Host Section\n\n<meta http-equiv=\"refresh\" content=\"0; url=../#host\" />\n\nThis page is redirecting you to the [Host section](/docs/#host) of the documentation.\n\nIf you are not redirected automatically, please [click here](/docs/#host).",
+      "checksum": "1f0924a37e7ceda097177598f4bbc00bfe405e6da1d52567bab7fe79055d1607"
+    },
+    "participant/benchmark-to-choose-optimal-deployment-config-for-llms.md": {
+      "title": "Redirecting to Host Benchmark",
+      "status": null,
+      "content_preview": "# Redirecting to Host Benchmark\n\n<meta http-equiv=\"refresh\" content=\"0; url=/host/benchmark-to-choose-optimal-deployment-config-for-llms/\" />\n\nThis page has moved to the [Host section/host/benchmark-to-choose-optimal-deployment-config-for-llms/).\n\nIf you are not redirected automatically, please [click here/host/benchmark-to-choose-optimal-deployment-config-for-llms/).",
+      "checksum": "07a64b4110bf80e4781b5445b8d7d22834fef25f4f0b1fd49ec6c3f873df1e15"
+    },
+    "participant/genesis-new.md": {
+      "title": "Redirecting to Host Genesis (New)",
+      "status": null,
+      "content_preview": "# Redirecting to Host Genesis (New)\n\n<meta http-equiv=\"refresh\" content=\"0; url=/host/genesis-new/\" />\n\nThis page has moved to the [Host section/host/genesis-new/).\n\nIf you are not redirected automatically, please [click here/host/genesis-new/).",
+      "checksum": "3ad083b6d1955d6f6c5ce93ced53ca904bdb3b83c7cb3e21b523524ac4964bdd"
+    },
+    "participant/genesis.md": {
+      "title": "Redirecting to Host Genesis",
+      "status": null,
+      "content_preview": "# Redirecting to Host Genesis\n\n<meta http-equiv=\"refresh\" content=\"0; url=/host/genesis/\" />\n\nThis page has moved to the [Host section/host/genesis/).\n\nIf you are not redirected automatically, please [click here/host/genesis/).",
+      "checksum": "d889a5f41f6f2cbdb5870060609763dd05f4927bd8963ac88c6976c4b8fd1324"
+    },
+    "participant/hardware-specifications.md": {
+      "title": "Redirecting to Host Hardware Specifications",
+      "status": null,
+      "content_preview": "# Redirecting to Host Hardware Specifications\n\n<meta http-equiv=\"refresh\" content=\"0; url=/host/hardware-specifications/\" />\n\nThis page has moved to the [Host section/host/hardware-specifications/).\n\nIf you are not redirected automatically, please [click here/host/hardware-specifications/).",
+      "checksum": "1d0a879176f553c028f6f2bd973aace042efd35c38db733f23dba379f9d0e3ff"
+    },
+    "participant/key-management.md": {
+      "title": "Redirecting to Host Key Management",
+      "status": null,
+      "content_preview": "# Redirecting to Host Key Management\n\n<meta http-equiv=\"refresh\" content=\"0; url=/host/key-management/\" />\n\nThis page has moved to the [Host section](/host/key-management/).\n\nIf you are not redirected automatically, please [click here](/host/key-management/).",
+      "checksum": "f0401c3f21c7ffcc96256bd0dd5c1d2d17dc49359ce8219d8b744e818f381780"
+    },
+    "participant/multi-node-setup-for-review.md": {
+      "title": "Redirecting to Host Multi Node Setup",
+      "status": null,
+      "content_preview": "# Redirecting to Host Multi Node Setup\n\n<meta http-equiv=\"refresh\" content=\"0; url=/host/multi-node-setup-for-review/\" />\n\nThis page has moved to the [Host section/host/multi-node-setup-for-review/).\n\nIf you are not redirected automatically, please [click here/host/multi-node-setup-for-review/).",
+      "checksum": "75b3d5281ede19c1a335817051f4f38128e8653fad51dc5ab17b3968830e2e3f"
+    },
+    "participant/multiple-nodes.md": {
+      "title": "Redirecting to Host Multiple Nodes",
+      "status": null,
+      "content_preview": "# Redirecting to Host Multiple Nodes\n\n<meta http-equiv=\"refresh\" content=\"0; url=/host/multiple-nodes/\" />\n\nThis page has moved to the [Host section](/host/multiple-nodes/).\n\nIf you are not redirected automatically, please [click here](/host/multiple-nodes/).",
+      "checksum": "966a5ceee0c689ab0d1d734c9096fbab946bab6a01a45667e33ce0f12dfba497"
+    },
+    "participant/network-node-api.md": {
+      "title": "Redirecting to Host Network Node API",
+      "status": null,
+      "content_preview": "# Redirecting to Host Network Node API\n\n<meta http-equiv=\"refresh\" content=\"0; url=/host/network-node-api/\" />\n\nThis page has moved to the [Host section/host/network-node-api/).\n\nIf you are not redirected automatically, please [click here/host/network-node-api/).",
+      "checksum": "1f0ec48eccf37feb85154f7f5e08b6e247e0b504a69863ba67a54bb2142b8739"
+    },
+    "participant/quickstart.md": {
+      "title": "Redirecting to Host Quickstart",
+      "status": null,
+      "content_preview": "# Redirecting to Host Quickstart\n\n<meta http-equiv=\"refresh\" content=\"0; url=/host/quickstart/\" />\n\nThis page has moved to the [Host section](/host/quickstart/).\n\nIf you are not redirected automatically, please [click here](/host/quickstart/).",
+      "checksum": "5695f0815b8bd9b87cdc6cfa99f4a7c108e044371b8ad7680281fe53f3b1a5eb"
+    },
+    "report-vulnerability.md": {
+      "title": "Report a Vulnerability",
+      "status": null,
+      "content_preview": "# Report a Vulnerability\n\nFound a security issue in Gonka? Responsible disclosure helps keep the network secure for everyone. Use the form below to submit a vulnerability report directly through HackerOne.\n\n<div id=\"h1-embedded-submission\"></div>\n\n<script async src=\"https://hackerone.com/529ebea7-e684-4c88-8699-cf287d945866/embedded_submissions/script\" data-url=\"https://hackerone.com/529ebea7-e684-4c88-8699-cf287d945866/embedded_submissions/new?locale=en\" data-name=\"h1-embedded-submission\" type=\"text/javascript\"></script>",
+      "checksum": "8755b9f85c47b74ce83cbccd1a01f98cdb801e64edeeb833b64a9b50b7fdeb67"
+    },
+    "signup.md": {
+      "title": "Sign Up",
+      "status": null,
+      "content_preview": "# Sign Up\n\nJoin the waitlist! Sign up, and we’ll keep you in the loop when we launch to the wider audience\n\n<div class=\"signup-form\" style=\"max-width: 400px; margin: auto; padding: 20px; border: 1px solid #ccc; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\">\n    <!-- New HubSpot Contact Form -->\n    <div id=\"hubspot-form\" style=\"margin-bottom: 20px;\"></div>\n\n<!-- HubSpot Form Script -->\n<script>\n  var script = document.createElement('script');\n  script.src = \"https://js.hsforms.net/forms/v2.js\";\n  script.onload = function() {\n    if (window.hbspt) {\n      window.hbspt.forms.create({\n        portalId: \"21332124\",\n        formId: \"bb643442-f16c-415c-904e-0af99c759f09\",\n        target: \"#hubspot-form\"\n      });\n    }\n  };\n  document.body.appendChild(script);\n</script>\n\n<script",
+      "checksum": "5d9384ddcfcdd161d3529be3f41df4f98da3785fb36a958bf3b273f6996aa776"
+    },
+    "wallet/create-account.md": {
+      "title": "Create a new Gonka account",
+      "status": null,
+      "content_preview": "# Create a new Gonka account\n\nTo start using Gonka Network, you first need to create a Gonka Account.\nThere are several ways to do this:\n\n- Via external wallet (Keplr, Cosmostation, Fox Wallet)\n- Via `inferenced` CLI tool\n\n!!! note \"Bridge compatibility and seed (mnemonic) phrases\"\n    If you create your Gonka account using a **mnemonic (seed) phrase** — as Cosmostation and Fox Wallet do by default — the account **is compatible** with the Ethereum bridge, but the bridge will deliver tokens to a different `gonka1…` address than the one your wallet displays. This happens because Ethereum and Gonka use different BIP-44 derivation paths (coin type `60` vs `118`), so the same seed phrase produces different private keys on each chain. You still control those funds and can access them with an ext",
+      "checksum": "730f329f040febb58a0f07c01ab64752b4b0eebdc8e7edd354e004aefd0c1a04"
+    },
+    "wallet/dashboard.md": {
+      "title": "Getting Started with the Dashboard",
+      "status": null,
+      "content_preview": "# Getting Started with the Dashboard\nDashboard shows live on-chain activity.\n\nInstead of relying on a single centralized server, all network data and inference metrics are hosted directly on the Hosts' nodes. This means the dashboard can connect to any Host’s node and fetch live network data straight from the source.\n\nYou can interact with the dashboard in two ways:\n\n- **Preview Mode** — explore a dashboard and view network data without creating an account.\n- **Full Mode** — unlock the complete feature set by connecting your own wallet.\n\n=== \"**Preview Mode**\"\n\n    If you want to explore the network or see real-time inference metrics before setting up your own account, follow these steps:\n    \n    1. Here is the list of genesis nodes. Choose a random node from the list below and open it in",
+      "checksum": "e5bf2fabeb8819312b21f95cf84ac0c283c6d31bd63739b7e19e437654473523"
+    },
+    "wallet/pricing.md": {
+      "title": "Pricing",
+      "status": null,
+      "content_preview": "# Pricing\n\nThe network uses an automatic dynamic pricing mechanism for inference costs.\nEach model has a real-time AI token price that is recalculated every block based on actual demand and utilization metrics.\n\n!!! note \"This is the network price, not the price you pay a broker\"\n    The mechanism described here sets the **protocol-level, on-chain price per inference unit**. If you access Gonka through a [community broker](../developer/quickstart.md#11-pick-a-broker), the broker is an independent reseller that sets its own retail prices, payment methods, and rate limits on top of this, and may cover its own costs as well. The price you actually pay therefore differs from broker to broker, so check each broker's terms and find what works for you.\n\n## Pricing Mechanism\n\n- The system monitors",
+      "checksum": "6e0a60c36bd2b8af90c49dc206a4b4b2904c37ced908428083885554354973ee"
+    },
+    "wallet/wallet-and-transfer-guide.md": {
+      "title": "Wallet & Transfer Guide",
+      "status": null,
+      "content_preview": "# Wallet & Transfer Guide\n\nThis guide explains how to work with wallets and coins on the network: how to get your wallet address, check your balance, send coins, and track transactions.\nBefore you can perform any wallet operations, you need to access your account. Follow the instructions below based on your role in the network.\n\n**Are you a Host?**\n\nYou contribute computational resources and receive coins as rewards.\nBefore proceeding, you need access to your wallet, which is automatically created when the chain-node container runs for the first time.\n\n**Are you a Developer?**\n\nIf you only need inference (sending prompts and receiving completions), you do not need a Gonka account — go to [Developer Quickstart](https://gonka.ai/developer/quickstart/) to get started with a community broker.\n",
+      "checksum": "0be3f31bfe8a5344c57d75ea6f73f2f752e19b4732b51836299da440160c7585"
+    },
+    "zh/Errors.md": {
+      "title": "错误",
+      "status": null,
+      "content_preview": "# 错误\n在这里你可以找到常见错误的示例和节点日志中可能出现的典型日志条目。\n\n```\n2025/08/28 08:37:08 ERROR No epoch models available for this node subsystem=Nodes node_id=node1\n2025/08/28 08:37:08 INFO Finalizing state transition for node subsystem=Nodes node_id=node1 from_status=FAILED to_status=FAILED from_poc_status=\"\" to_poc_status=\"\" succeeded=false blockHeight=92476\n```\n这实际上不是一个错误。它只是表明你的节点还没有被分配模型。很可能是因为你的节点还没有参与 Sprint，没有获得投票权，因此没有分配模型。\n如果你的节点已经通过了 PoC，你应该不会再看到这个日志。如果没有，PoC 大约每 24 小时进行一次。",
+      "checksum": "2464d576cb2a22fb7b0cfdeb54a56f292155ebe263e735f231b0d06488c1be2b"
+    },
+    "zh/FAQ.md": {
+      "title": "FAQ",
+      "status": null,
+      "content_preview": "# FAQ\n\n## 概述\n\n### 什么是Gonka？\nGonka是一个用于高效AI计算的去中心化网络——由其使用者运营。它作为集中式云服务在AI模型训练和推理方面的低成本、高效率替代方案。作为一个协议，它并非公司或初创企业。\n\n- 从区块链角度看，Gonka是去中心化AI网络的基础账本与协调层（L1）。它记录余额、交易和加密证据，以证明主机正确执行了AI任务，而所有实际计算（如推理和训练）均在链下进行。\n- 从网络角度看，Gonka是一个由主机和开发者等参与者组成的综合生态系统，通过去中心化基础设施进行交互。在Gonka区块链的驱动下，该网络分发任务、验证结果，并仅奖励可验证的有用工作，从而为AI工作负载创造了一个具有竞争力且可扩展的环境。\n\n### Gonka解决了什么问题？\n\nGonka是一个去中心化AI基础设施，旨在减少对集中式云提供商的依赖，并比传统去中心化网络更高效地利用计算能力。其目标是尽可能将计算资源导向有用的AI任务，如推理和训练，同时最小化因共识开销造成的浪费。\n\n### Gonka生态系统中的关键参与者有哪些？\n\nGonka生态系统有四个关键参与者群体：\n\n- 开发者通过利用网络的分布式计算能力构建和部署AI应用。\n- Gonka贡献者参与核心区块链代码库、协议升级、性能优化、安全补丁和新功能集成的开发。\n- 持有者持有网络的原生代币，即仅拥有一个包含GNK代币的钱包。持有者可以持有、转账或出售代币，使用代币进行推理，并根据协议规则使用它们。成为持有者不意味着除标准代币所有权外的任何义务、责任或治理角色。\n- 主机为网络贡献计算能力。主机执行推理和其他计算任务，并根据其贡献的计算能力获得相应奖励，前提是保持诚实参与和可靠性。主机是网络的支柱。只有主机拥有网络的投票权。该投票权代表其在治理中的权重，用于提议和投票决定协议决策、参数变更和升级。任何主机均可",
+      "checksum": "328a9647fd44608cafab16a54b1824550e59533a31df11c3ff43be1a8cff0ed7"
+    },
+    "zh/architecture.md": {
+      "title": "architecture",
+      "status": null,
+      "content_preview": "## Gonka 的推理流程\n\n下面的图表和描述概述了推理请求如何在 Gonka 网络中传输，这是一个旨在平衡性能与加密保证的去中心化网络。\nGonka 只记录用于推理验证的交易和工件。实际计算在链下进行。\n\n推理请求在独立的主机（所有网络参与者，而非中央调度器）之间移动。系统是去中心化的，没有单一节点将推理请求定向到网络节点。实际上，每个主机至少部署两个节点：\n\n- 网络节点处理通信，包括：\n    - 连接到区块链的链节点\n    - 管理用户请求的 API 节点\n- 一个或多个 ML 节点（推理），执行 LLM 推理（ML 节点可以部署在多台服务器上）。\n\n下面的图表显示了推理请求通过 Gonka 网络的流程。绿色箭头表示通过公共互联网的通信，黄色箭头表示主机私有网络内的通信。\n\n<a href=\"/images/inference_flow_chinese.png\" target=\"_blank\">\n  <img src=\"/images/inference_flow_chinese.png\" style=\"width:100%; height:auto; max-width:100%;\">\n</a>\n\n以下序列描述了推理请求如何通过 Gonka 网络移动，如上图所示：\n\n- **步骤 1.** 客户端（开发者）从活跃参与者（主机）列表中随机选择一个节点。这个随机主机充当传输代理（TA），并将推理请求发送到其 API 节点。任何主机都可以充当验证者、TA 和执行者（这些不是预定义或链上角色，而是在处理请求时承担的动态操作功能）。\n- **步骤 2.** TA 在所有其他活跃主机中随机选择一个执行者，并将推理输入传递给执行者的 API 节点。同时，TA 的链节点在链上记录推理输入。请注意，链上记录不会阻碍 LLM 计算，并且与执行者完成的工作并行进行。\n- **步骤 ",
+      "checksum": "b926c2d023370776ce6d5ab7de18dd777909530315b2ebf63c758bb790074e19"
+    },
+    "zh/cross-chain-transfers/ethereum-bridge/addresses-and-keys.md": {
+      "title": "地址与密钥",
+      "status": null,
+      "content_preview": "!!! warning\n    务必先进行小额测试交易。跨链转账是不可逆的，因此在转移大额资金之前，请先发送少量金额，并确认其如期到账。\n\n由 Gonka 共识控制的专用跨链桥智能合约已在以太坊上部署，地址为：\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n\n---\n\n# 地址与密钥\n\n这是在进行跨链操作前最需要理解的关键页面。**请在首次转账前务必仔细阅读。**\n\n## 一个密钥，两个地址\n\n以太坊（Ethereum）和 Gonka 均使用相同类型的加密密钥（`secp256k1` 密钥对）。因此，一个私钥可以同时控制**两条**链上的账户。两条链唯一的区别在于如何将公钥转换为人类可读的地址：\n\n| 链 | 地址格式 | 地址如何从公钥派生 |\n| --- | --- | --- |\n| 以太坊 | `0x...`（20 字节，十六进制） | `keccak256(未压缩公钥)` → 取最后 20 字节 |\n| Gonka | `gonka1...`（bech32 格式） | `ripemd160(sha256(压缩公钥))` → 使用 `gonka` 前缀编码为 bech32 |\n\n因此，同一个私钥会生成**两个外观不同的地址**——一个以 `0x…` 开头，另一个以 `gonka1…` 开头——但这两个地址都由同一个私钥控制。\n\n## 跨链桥如何决定代币去向\n\n当你将代币从以太坊跨链到 Gonka 时，你会将代币发送到桥接合约，并使用你的以太坊私钥签署该交易。Gonka 跨链桥会：\n\n1. 检测以太坊上已最终确认的充值交易。\n2. 从交易签名中**恢复出公钥**。\n3. 根据该公钥计算对应的 **Gonka 地址**（即上述 `gonka1…` 的标准派生方式）。\n4. 将跨链代币铸造/释放到该 `go",
+      "checksum": "b35ba856e73afc84f3bec0fd35dfeab72aa7435becde36f38b85de850b385b23"
+    },
+    "zh/cross-chain-transfers/ethereum-bridge/bridge-epoch-update.md": {
+      "title": "跨链桥纪元更新",
+      "status": null,
+      "content_preview": "# 跨链桥纪元更新\n\nGonka &rarr; 以太坊的转账使用当前 Gonka 纪元的 BLS 签名。以太坊跨链桥合约必须先获知当前纪元的群组密钥，才能验证该签名并在以太坊上释放资金。\n\n每个纪元开始时（大约每天一次），Gonka 会生成一个新的群组密钥。通过一笔小额以太坊交易，将该密钥注册到跨链桥合约中。通常这一步骤已经完成，但在纪元切换后的短时间内，跨链桥可能会暂时落后于 Gonka 链。\n\n## 何时需要此操作\n\n如果您的 Gonka &rarr; 以太坊提现或 WGNK 铸造已准备就绪，但因跨链桥落后于链而导致以太坊端无法执行，您可能需要进行纪元更新。\n\n在仪表板上，此情况可能表现为：\n\n```text\nA Bridge needs epoch update\nBridge: Epoch 283 | Chain: Epoch 284 (1 behind)\n\nWithdrawals to Ethereum require the bridge to be synced to the current epoch.\n```\n\n如果看到此提示，请在仪表板中点击 **Update bridge**。任何用户都可以提交更新。这是一笔普通的以太坊交易，因此点击按钮的钱包将为此次更新支付一次以太坊 Gas 费。\n\n## 手动更新\n\n如果不使用仪表板，请按顺序提交每个缺失的纪元：\n\n1. 检查以太坊跨链桥合约已知的最新纪元。\n2. 从 `latest + 1` 开始。\n3. 获取纪元数据：\n\n```bash\ncurl \"https://node2.gonka.ai:8443/chain-api/productscience/inference/bls/epoch_data/<epochId>\"\n```\n\n4. 将返回的 `group_public_key` 和 `validation",
+      "checksum": "83a8fae1d4b54c39f642f92a5fa0e8968d07002ace62b9ff8ed893eb207fa862"
+    },
+    "zh/cross-chain-transfers/ethereum-bridge/dashboard.md": {
+      "title": "通过仪表板跨链（UI 指南）",
+      "status": null,
+      "content_preview": "!!! warning\n    务必先进行小额测试交易。跨链转账是不可逆的，因此在转移大额资金之前，请先发送少量金额，并确认其如期到账。\n\n由 Gonka 共识控制的专用跨链桥智能合约已在以太坊上激活，合约地址为：\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n\n## 存入代币到 Gonka\n\n本节将引导您使用跨链桥组件将代币存入 Gonka。从 **Token** 下拉菜单中选择代币——组件会自动检测跨链桥类型：\n\n* **ERC-20 代币**（USDC、USDT、WETH 等）和 **GNK**（作为 WGNK）通过**以太坊跨链桥**。\n* **IBC 代币**（USDT <span class=\"md-tag\">IBC</span> 等）通过 **IBC** 连接到 Cosmos 链。\n\n### ETH / GNK 跨链桥存入流程\n\n1. **在以太坊上锁定代币** — 您的代币被发送至跨链桥合约并锁定。\n2. **验证者签名** — Gonka 验证者观察已最终确认的以太坊充值并收集 BLS 签名。\n3. **在 Gonka 上铸造** — 包装代币在 Gonka 上被铸造并发送到您派生的 `gonka1…` 地址。\n\n### IBC 存入流程\n\n1. **在钱包中批准转账** — 您在源链（如 Kava）上签署 IBC 转账。\n2. **IBC 数据包中继** — 数据包被中继到 Gonka。\n3. **代币到达 Gonka** — IBC 代币出现在您的 Gonka 钱包中。\n\n### 1. 打开仪表板\n\n在浏览器中打开任一创世节点：\n\n- [https://node1.gonka.ai:8443](https://node1.gonka.ai:8443)\n- [https://node2.g",
+      "checksum": "3ca795430d53b91ee40b82bb9ad6431c4e4a19925e578ce5c75763673655d215"
+    },
+    "zh/cross-chain-transfers/ethereum-bridge/deposit-gnk.md": {
+      "title": "存入 GNK（Gonka → 以太坊）",
+      "status": null,
+      "content_preview": "!!! warning\n    务必先进行小额测试交易。跨链转账是不可逆的，因此在转移大额资金之前，请先发送少量金额，并确认其如期到账。\n\n由 Gonka 共识控制的专用跨链桥智能合约已在以太坊上激活，地址为：\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n---\n\n# 存入 GNK（Gonka → 以太坊）\n\n在 Gonka 上锁定 GNK，并在您的以太坊地址上收到包装版的 GNK（**WGNK**）。\n\n### A) 请求在以太坊上铸造 WGNK\n\n使用 CLI 提交跨链桥铸造请求：\n\n```bash\n./inferenced tx inference request-bridge-mint \\\n  <amount> \\\n  \"0xYourEthereumAddr\" \\\n  \"ethereum\" \\\n  --destination-bridge-address 0x972a7a92d92796a98801a8818bcf91f1648f2f68 \\\n  --from <your_key_name> \\\n  --chain-id gonka-mainnet \\\n  --gas auto --gas-adjustment 1.5 \\\n  -y \\\n  --node http://node1.gonka.ai:8000/chain-rpc/\n```\n\n!!! tip\n    如果 `--gas auto` 的估算不准确，请查看返回状态中所需的 Gas 额度，并在命令中显式传递它（例如：`--gas 200000`）。\n\n#### 预期输出\n```text\n...\ntxhash: 12E8ABCA5A35D73042564FDF6D686424F742414EEC172450AB6EDA34BD1F0805\n``",
+      "checksum": "7f6f964479fd11d391ccaa94ee383636c2f31cc61f031c7395a89c7fa24934be"
+    },
+    "zh/cross-chain-transfers/ethereum-bridge/deposit-usdt.md": {
+      "title": "存入 USDT（以太坊 → Gonka）",
+      "status": null,
+      "content_preview": "!!! warning\n    务必先进行小额测试交易。跨链转账是不可逆的，因此在转移大额资金之前，请先发送少量金额，并确认其如期到账。\n\n由 Gonka 共识控制的专用跨链桥智能合约已在以太坊上激活，地址为：\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n\n---\n\n# 存入 USDT（以太坊 → Gonka）\n\n如果您想使用已持有 USDT 的现有以太坊地址，请使用相同的私钥生成一个 Gonka 地址。该 Gonka 地址将接收包装后的代币。\n\n如果您想使用现有的 Gonka 地址，请使用相同的私钥生成对应的以太坊地址，向其充值 USDT，并确保该地址有足够的 ETH 用于支付 Gas 费用。\n\n!!! important\n    包装代币将发送到由**签署此以太坊充值交易的密钥派生的** `gonka1…` 地址——而不是助记词派生的 Gonka 账户。如果您跳过此步骤，您的资金将到达一个与常用钱包不同的 Gonka 地址——可通过您的以太坊密钥恢复，但不在您预期的位置。详见[地址与密钥](addresses-and-keys.md)了解如何推导正确的地址（或使用仪表板）。\n\n### A) 向以太坊上的跨链桥合约发送 USDT\n\n向跨链桥合约执行转账操作：\n\n```javascript\nconst tx = await usdtContract.transfer(\n  \"0x972a7a92d92796a98801a8818bcf91f1648f2f68\",   // bridge address\n  amountBN                                        // BigNumber amount\n);\nawait tx.wait();\n```\n\n!!! warni",
+      "checksum": "771a09235a6725c7ec1101bcdfb9cf4499f7121fdec05b208856f492d605f47b"
+    },
+    "zh/cross-chain-transfers/ethereum-bridge/multisig-signer-guide.md": {
+      "title": "多签签署人指南",
+      "status": null,
+      "content_preview": "# 多签签署人指南\n\n本指南面向被选为 Gonka 以太坊桥多签（Multisig）签署人的个人。\n\n## 什么是 Safe 多签？\n**Safe**（原 Gnosis Safe）是一种运行在以太坊区块链上的**智能合约账户**。与普通钱包（仅有一个私钥）不同，多签需要多个授权签署人共同批准交易后才能执行。\n\n在 Gonka 以太坊桥中，Safe 多签用于保护以太坊侧一个受限的管理员角色。该管理员角色仅用于极端恢复场景，例如在 30 天超时期间长时间未收到有效的 BLS 群组密钥更新，或出现 BLS 密钥冲突等情况。在此类情况下，管理员可能有权设置或重置 BLS 群组密钥，因此该角色具有较高的安全敏感性，因为 BLS 密钥最终控制着桥的签名行为。多签机制确保这些罕见的恢复操作不能由单个人完成，必须达到规定数量的签署人共同审核并批准交易后方可执行。\n\n## 1. 前置要求\n\n在您被添加到多签之前，请确保以下事项已准备就绪：\n\n*   **以太坊钱包地址**：一个您完全控制的安全以太坊地址。\n*   **硬件钱包（强烈推荐）**：出于主网安全考虑，强烈建议使用硬件钱包（如 Ledger 或 Trezor），而非仅依赖软件的“热”钱包。\n*   **网络访问能力**：确保您可以访问 [app.safe.global](https://app.safe.global)，并在钱包中配置了 RPC 提供商（如 Infura、Alchemy 或公共节点）。\n*   **少量 ETH**：虽然签署交易通常是免费的（链下签名），但最终**执行**交易的人需要支付 ETH 作为 gas 费。建议每位签署人至少持有 0.05 - 0.1 ETH，以应对紧急执行需求。\n\n## 2. 入职流程\n\n### 第一步：提供您的地址\n将您的公开以太坊地址（0x...）发送给多签管理员。**请仔细核对每一个字",
+      "checksum": "37cbcfb97297a4e34cc2737fdc70e6f2cf554cfc618b57f43253db74ebd54898"
+    },
+    "zh/cross-chain-transfers/ethereum-bridge/overview.md": {
+      "title": "以太坊桥接概览",
+      "status": null,
+      "content_preview": "# 以太坊桥接概览\n\n!!! warning \n    始终先进行小额测试交易。桥接转账不可逆，因此在转移大额资金前，请先发送少量资金并确认其已按预期到达。\n\n    由Gonka共识控制的专用桥接智能合约已在以太坊上激活，地址为：\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n\n[在Etherscan上查看桥接合约](https://etherscan.io/address/0x972a7a92d92796a98801a8818bcf91f1648f2f68){target=_blank}\n\n!!! important \"此地址也是WGNK代币\"\n    桥接合约**就是** **WGNK** ERC-20代币——它们在该地址上是同一个合约，而非两个独立合约。因此，上述Etherscan页面同时代表了桥接和WGNK代币。通过桥接**进入**Gonka的封装ERC-20代币在Gonka侧表现为CW-20代币；只有**WGNK**存在于以太坊上，且这就是该合约。\n\n!!! tip \"将WGNK添加到您的以太坊钱包\"\n    WGNK是标准ERC-20代币，因此您可以在任何支持ERC-20的钱包中将其作为**自定义代币**添加——例如MetaMask、Trust Wallet、Ledger浏览器扩展等。使用上述桥接合约地址（`0x972a7a92d92796a98801a8818bcf91f1648f2f68`）作为代币合约地址——它既是桥接合约，也是WGNK代币。\n\n!!! note \"安全审计\"\n    该桥接已由[CertiK](https://skynet.certik.com/projects/gonka){target=_blank}审计。完整报告可在CertiK Skynet页面（Gonka – 以",
+      "checksum": "8adc7d3a024683310cc26eea91636a726f76f7ccd6366f91baa63641cd9ad3d1"
+    },
+    "zh/cross-chain-transfers/ethereum-bridge/register-token.md": {
+      "title": "注册跨链桥代币",
+      "status": null,
+      "content_preview": "!!! warning\n    务必先进行小额测试交易。跨链转账是不可逆的，因此在转移大额资金之前，请先发送少量金额，并确认其如期到账。\n\n由 Gonka 共识控制的专用跨链桥智能合约已在以太坊上激活，地址为：\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n\n---\n\n# 注册跨链桥代币\n\n!!! important \"注册是可选的\"\n    您**不需要**注册代币即可进行跨链。任何 ERC-20 代币都可以充值到跨链桥，Gonka 会自动创建其包装的 CW-20 合约并铸造您的余额。注册只是一项便利功能：\n\n    * 附加**元数据**（名称、符号、精度），使包装代币在钱包、浏览器和仪表板中正确显示，以及\n    * 使代币**有资格参与**链上流动性池交易。\n\n    未注册的代币仍可正常跨链和转账——只是在注册之前显示为空/默认元数据。USDT 和 USDC 已预先注册。\n\n注册代币会通过治理提案在链上记录其元数据。Gonka 共识使用此元数据来标记包装的 CW-20 代币合约。\n\n由于注册需要经过治理投票，它同时也充当了一个轻量级的**验证/防欺诈步骤**：社区通过投票来确认某个以太坊合约是否为其声称的真实代币，而非仿冒或无效合约。因此，已注册的代币具有更强的合法性信号（也是流动性池交易的先决条件），而未注册的代币虽然仍可跨链，但不具备此类链上背书。\n\n本节将引导您起草和提交治理提案来注册新的跨链桥代币。\n\n!!! tip \"先在测试网上测试\"\n    请先在**测试网**（链 ID `sepolia`）上注册和测试新代币。只有在端到端验证了跨链和元数据之后，才将代币推广到**主网**（链 ID `ethereum`）。额外代币的主网发布计划由治理决定。\n\n### 前置要求\n\n在开始之前，您需要获",
+      "checksum": "73f388b4a56b1c2aaad7e2d2a3668c38e68e60b1edd93c14b15a7dd9de9875db"
+    },
+    "zh/cross-chain-transfers/ethereum-bridge/tracker-integration.md": {
+      "title": "仪表板与追踪器集成",
+      "status": null,
+      "content_preview": "!!! warning\n    务必先进行小额测试交易。跨链转账是不可逆的，因此在转移大额资金之前，请先发送少量金额，并确认其如期到账。\n\n由 Gonka 共识控制的专用跨链桥智能合约已在以太坊上激活，合约地址为：\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n\n---\n\n# 仪表板与追踪器集成\n\n本页面面向希望自行显示或集成 Gonka 跨链桥数据的**仪表板、区块浏览器和追踪器运营商**。所有跨链桥状态均可通过公共链 API 读取——无需特殊访问权限。\n\n以下示例使用 `https://node2.gonka.ai:8443/chain-api/...`；您可以将其指向任何您信任的节点。\n\n## 终端用户仪表板\n\n托管的仪表板已为终端用户提供了跨链桥功能——连接以太坊钱包、推导对应的 `gonka1…` 地址（参见[地址与密钥](addresses-and-keys.md)）、查看包装资产余额，以及发起充值/提现操作：\n\n```text\nhttps://node1.gonka.ai:8443/dashboard/\n```\n\n每个合约的 CosmWasm 交易历史（对审计包装代币很有用）可在以下地址查看：\n\n```text\nhttps://node1.gonka.ai:8443/dashboard/gonka/cosmwasm/105/transactions?contract=<wrappedContractAddress>\n```\n\n## 跨链桥合约地址（按链划分）\n\nGonka 接受充值的可信跨链桥合约地址，按链划分：\n\n```bash\ncurl \"https://node2.gonka.ai:8443/chain-api/productscience/inference/inference/brid",
+      "checksum": "5ccba37d032e22a10d54f4c278942f5205213e51114a8f37f90094f1d026ac7b"
+    },
+    "zh/cross-chain-transfers/ethereum-bridge/withdraw-gnk.md": {
+      "title": "提取 GNK（以太坊 → Gonka）",
+      "status": null,
+      "content_preview": "!!! warning\n    务必先进行小额测试交易。跨链转账是不可逆的，因此在转移大额资金之前，请先发送少量金额，并确认其如期到账。\n\n由 Gonka 共识控制的专用跨链桥智能合约已在以太坊上激活，合约地址为：\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n---\n\n# 提取 GNK（以太坊 → Gonka）\n\n这是[存入 GNK（Gonka → 以太坊）](deposit-gnk.md)的逆向操作。该过程会在以太坊上销毁包装的 GNK（**WGNK**），并从 Gonka 的托管账户中释放等量的原生 **GNK**。\n\n释放的原生 GNK 将发送至与以太坊上销毁 WGNK 所用**密钥派生的** Gonka 地址。请确保您在 Gonka 上控制该密钥——参见[地址与密钥](addresses-and-keys.md)。\n\n### A) 在以太坊上销毁 WGNK\n\n销毁操作只需将 WGNK 转账至跨链桥合约地址即可。跨链桥合约会将转入自身的转账识别为销毁行为，并触发 `WGNKBurned` 事件。\n\n```javascript\n// WGNK is the bridge contract itself (it is both the bridge and the WGNK ERC-20)\nconst tx = await wgnkContract.transfer(\n  \"0x972a7a92d92796a98801a8818bcf91f1648f2f68\",   // bridge / WGNK address\n  amountBN                                        // BigNumber amount (9 decimals)\n);\nawait tx.w",
+      "checksum": "bfe73e1628dd6096908668fa937abdc1c1cfb9d39ab9766bc9c1aa581fa48055"
+    },
+    "zh/cross-chain-transfers/ethereum-bridge/withdraw-usdt.md": {
+      "title": "提取 USDT（Gonka → 以太坊）",
+      "status": null,
+      "content_preview": "!!! warning\n    务必先进行小额测试交易。跨链转账是不可逆的，因此在转移大额资金之前，请先发送少量金额，并确认其如期到账。\n\n由 Gonka 共识控制的专用跨链桥智能合约已在以太坊上激活，地址为：\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n---\n\n# 提取 USDT（Gonka → 以太坊）\n\n!!! note\n    提现通过与**当前纪元群组密钥**绑定的 BLS 签名在以太坊上释放，该密钥大约每天刷新一次。一个纪元签名可以授权该纪元内发起的任意数量的提现，因此此步骤通常很快。详见[Gonka → 以太坊的授权方式](overview.md#gonka-以太坊的授权方式每日群组密钥)了解背景。\n\n### A) 在 Gonka 上发送提取请求\n\n使用 CLI 发起提取交易：\n\n```bash\n./inferenced tx wasm execute <gonka1CW20WrappedUSDTAddress> \\\n  '{\"withdraw\":{\"amount\":\"<amount>\",\"destination_address\":\"0xYourEthereumAddr\",\"destination_bridge_address\":\"0x972a7a92d92796a98801a8818bcf91f1648f2f68\"}}' \\\n  --from <your_key_name> \\\n  --chain-id gonka-mainnet \\\n  --gas auto --gas-adjustment 1.5 \\\n  -y \\\n  --node http://node1.gonka.ai:8000/chain-rpc/\n```\n\n!!! tip\n    如果 `--gas auto` 的估算不准确",
+      "checksum": "db964ab14bf2db35de3c2dcb76884e535e138bfd330dd855214076ba039d2f55"
+    },
+    "zh/cross-chain-transfers/ibc/withdraw-usdt-via-kava.md": {
+      "title": "通过 Kava 提取 USDT（Gonka → 以太坊）",
+      "status": null,
+      "content_preview": "# 通过 Kava 提取 USDT（Gonka → 以太坊）\n\n**使用场景：**Gonka 钱包余额中已有可用的 IBC USDT，目标路径为 Gonka → Kava Cosmos → Kava EVM → 以太坊。\n\n本指南描述了到达以太坊的**完整路径**。该路线可以在任何已完成的步骤后停止：IBC USDT 可以留在 **Keplr 中的 Kava** 上，移至 **MetaMask 中的 Kava EVM**，或继续前往**以太坊**。\n\n**免责声明：**本指南**不构成投资建议**。路线参数、支持的资产、费用以及钱包/跨链桥界面可能会发生变化。在发送资金之前，请始终验证当前路线、地址和金额。\n\n## 重要提示：本指南适用于 IBC USDT\n\n本指南涵盖 **Gonka / Kava Cosmos 上的 IBC USDT**。\n\n请**不要**将其与以下混淆：\n\n- 以太坊上的原生 **ERC-20 USDT**\n- 交易所的 USDT 余额\n- 其他网络上的 USDT\n\n在发送资金之前，请始终检查：\n\n- 资产代币名称（denom）\n- 源网络\n- 目标网络\n- 目标地址\n\n## 路线概述\n\n该路线包含**三个步骤**：\n\n1. **Gonka → Kava (Cosmos)**，在 **Keplr** 中操作\n2. **Kava → Kava EVM**，在 **[app.kava.io](https://app.kava.io)** 中操作\n3. **Kava EVM → 以太坊**，在 **[Stargate](https://stargate.finance/transfer)** 中操作\n\n## 开始之前\n\n要求：\n\n- 钱包余额中有**可用的 USDT（在 Gonka 上）**\n- 少量 **`GNK`** 用于 Gonka 交易费用\n- 少量",
+      "checksum": "a28e449ba1a567df0ceba3423fe8ad72ac287ae24533213563ca4d4c0ed981a2"
+    },
+    "zh/cross-chain-transfers/widget-integration.md": {
+      "title": "技术集成指南：兑换与跨链桥组件",
+      "status": null,
+      "content_preview": "# 技术集成指南：兑换与跨链桥组件\n\n本指南为希望在其自定义仪表盘中重建兑换与跨链桥组件的社区开发者提供技术规范、架构设计和实现步骤。\n\n## 2. 充值功能\n\n### A. IBC 充值（Cosmos 至 Gonka）\nIBC 充值将资产直接从 Cosmos 源链（例如 Osmosis、Cosmos Hub、Injective）转移到 Gonka。\n\n1. **启用并连接源链**：向 Keplr 查询源链凭证。\n    ```typescript\n    async function connectSourceChain(chainId: string) {\n      const walletProvider = (window as any).keplr;\n      if (!walletProvider) throw new Error(\"Cosmos wallet extension not found.\");\n      \n      await walletProvider.enable(chainId);\n      const offlineSigner = walletProvider.getOfflineSigner(chainId);\n      const accounts = await offlineSigner.getAccounts();\n      return { address: accounts[0].address, offlineSigner };\n    }\n    ```\n\n2. **解析通道路由**：查询 Gonka RPC 通道元数据（`/ibc/core/channel/v1/channels`）以解析交易对手路径。\n    ```typescript\n    async function resolveIbcCha",
+      "checksum": "006a51570af080dbf43d499524a12e83e1c43a8bec9421aab718ecaef00a7d27"
+    },
+    "zh/dashboard-maintainer-memo-v0.2.13.md": {
+      "title": "仪表板维护者备忘录 v0.2.13",
+      "status": null,
+      "content_preview": "# 仪表板维护者备忘录 v0.2.13\n\n如果 v0.2.13 升级提案获得通过，并且在主网上成功执行了升级，仪表板将需要更新其计算 CPoC 确认权重的方式，并在升级后刷新其缓存。\n\n这适用于 Gonkascan 及其他类似的仪表板部署。\n\n## 主要仪表板影响\n\n### 1. 新的确认权重计算方式\n\n仪表板必须在计算 `weight_to_confirm` 时使用链上提供的 `confirmation_weight_scales` 快照。\n\n简单来说：仪表板应停止假设始终可以使用当前参数加上子组模型。现在链会快照记录哪些模型计入 CPoC 以及该纪元使用的比例因子。\n\n这是仪表板必须进行的主要逻辑变更。\n\nv0.2.13 升级中的代码参考：\n\n- `inference-chain/proto/inference/inference/epoch_group_data.proto`：`EpochGroupData.confirmation_weight_scales` 和 `ConfirmationWeightScale`\n- `inference-chain/x/inference/module/confirmation_weight_scales.go`：`buildConfirmationWeightScales`\n- `inference-chain/x/inference/types/weight.go`：用于确认权重计算的辅助函数\n\n实施指导：\n\n1. 获取根纪元组数据：   ```text\n   /chain-api/productscience/inference/inference/current_epoch_group_data\n   /chain-api/productscience/inference/inference/epoch_group_da",
+      "checksum": "7f148664b1978fd67d4f687d5abb713793d2aa90b349471872332d95e1a237e4"
+    },
+    "zh/developer/gateway-developer-quickstart.md": {
+      "title": "运行你自己的网关",
+      "status": null,
+      "content_preview": "# 运行你自己的网关\n\n本指南说明了如何在 **gonka-mainnet** 上运行一个 Gonka devshard 网关，而无需安装完整的区块链节点。你将在自己的 Linux 主机上部署该网关，为专用的托管创建者地址充值，打开链上 devshard 托管账户，发送兼容 OpenAI 的推理请求，并在完成后结算该托管账户。\n\n如果你仅需通过现有端点获取推理服务，请改用 [社区代理](quickstart.md#1-use-a-community-broker-recommended) —— 此路径不需要 Docker、链上托管账户或白名单内的创建者地址。\n\n### 需要白名单内的创建者地址\n\n> **前提条件**：你的 devshard 托管创建者（来自 `DEVSHARD_PRIVATE_KEY` 的 `$DEVSHARD_CREATOR`）所对应的 `gonka1…` 地址 **必须** 出现在链上白名单 `devshard_escrow_params.allowed_creator_addresses` 中，**才能** 创建托管账户。\n>\n> 该白名单通过链上 **治理机制** 进行维护。你无法通过 `config.devshard.env` 或管理设置自行添加。请通过链上治理投票申请加入 —— 参见开发者快速入门中的 [成为代理](quickstart.md#3-become-a-broker)，或改用 [社区代理](quickstart.md#1-use-a-community-broker-recommended)。\n>\n> 在 [第 2.3 节](#23-导入创建者密钥) 导入密钥后，请在 [第 2.4 节](#24-确认白名单成员资格) 验证是否已列入白名单。在确认通过前，请勿为创建者地址充值或部署网关（仅充值无法获得白名单权限）。\n\n!!! warn",
+      "checksum": "85cd02225a95f3d3c18a86cfd094e0b44f7f0bf49076476bf65d3034deb472e4"
+    },
+    "zh/developer/quickstart.md": {
+      "title": "开发者快速入门",
+      "status": null,
+      "content_preview": "# 开发者快速入门\n\n本指南解释了如何通过社区代理向 Gonka 发送推理请求。这是今天开始使用网络的最快方式。如果您希望[自行运行网关](#2-run-your-own-gateway-advanced)而非通过代理，请参阅本页底部的“运行您自己的网关”。\n\n!!! note \"如何连接到 Gonka\"\n\n    Gonka 推理现在围绕 **devshards** 组织——短暂的会话，持有小额链上存款（托管资金），并离线按请求结算。打开 devshard、签署请求、轮换会话以及提交结算到链上的职责由一种称为 **网关** 的软件执行。\n\n    对于大多数开发者而言，使用 Gonka 最简单的方式是调用 **社区代理**——一个通过网关提供推理访问并暴露标准 OpenAI 兼容 API 的第三方。您只需从代理获取一个 API 密钥即可。\n\n    ??? note \"Gonka 与传统 AI API 的区别\"\n\n    Gonka 不仅仅是一个 AI API。它是一个用于可证明推理的加密协议，旨在使模型执行、计费和结算独立可审计，而非完全由单一提供商控制。\n\n    | **方面** | **传统 AI API** <br> *(OpenAI、Anthropic 等)* | **Gonka API** |\n    |---|---|---|\n    | **模型来源与可验证输出** | 模型由提供商托管和版本控制，但用户无法独立验证哪个模型生成了特定输出。 | 推理可链接到协议定义的模型元数据和网络执行记录，实现可验证的来源。 |\n    | **抗审查性** | 访问由提供商集中控制。 | 访问正逐步转向透明、协议治理的机制。当前生产访问仍受保护，协议级请求验证正在完成中。 |\n    | **可审计性与透明度** | 日志记录、计费和使用跟踪由 API 提供商控制。",
+      "checksum": "2916c05a85befff8239d54a56350274626a023bc6e44548434ba94883a0d4cf9"
+    },
+    "zh/disclaimer.md": {
+      "title": "免责声明",
+      "status": null,
+      "content_preview": "<!-- prettier-ignore:start -->\n<div>\n<div class=\"gonka-landing gonka-landing--doc\">\n  <!-- Header -->\n  <header class=\"gonka-header\">\n      <a href=\"/\" class=\"gonka-logo\">\n        <svg width=\"44\" height=\"44\" viewBox=\"0 0 44 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n          <path d=\"M22.0779 0.000895182C22.2017 6.07859 22.4682 12.1564 22.8218 18.234C23.2874 26.2385 26.7009 34.2436 29.0827 42.2481C29.1354 42.4251 29.185 42.6029 29.2367 42.7799C26.9701 43.5691 24.5355 44 22 44C19.4649 44 17.0305 43.5698 14.7642 42.7808C14.816 42.6034 14.8663 42.4255 14.9191 42.2481C17.3009 34.2436 20.7144 26.2385 21.18 18.234C21.5336 12.1564 21.7992 6.07859 21.923 0.000895182C21.9487 0.000807303 21.9743 0 22 0C22.026 0 22.0519 0.000805247 22.0779 0.000895182Z\" fill=\"#2A2A2A\"/>\n          <path d=\"M",
+      "checksum": "4251b74048a3a35c383f2cda0cb40df067a01b8ec9d50b072cf917ee58645cf3"
+    },
+    "zh/glossary.md": {
+      "title": "glossary",
+      "status": null,
+      "content_preview": "**AI Token（AI 令牌）**\n是一种与具体模型绑定的计算单位，用于量化训练或推理操作所需的计算成本。例如，在 QwQ-32B 模型（FP16，32K 上下文）的场景下，一个 AI Token 可能表示处理固定数量输入和/或输出 token 所需的计算资源。AI Token 与基础模型的特性高度相关，真实反映内存占用、FLOPs 等实际计算开销。\n\n**抵押** 机制允许参与者锁定 GNK 代币，以激活其已获得的一部分计算证明（Proof of Compute，PoC）权重。治理投票权绝不会仅仅来源于持有代币。GNK 代币的作用是作为经济抵押品，而不是影响力的来源。影响力是通过持续的计算贡献获得的，而锁定 GNK 抵押则是为了确保参与治理的安全性，并强化责任约束机制。\n\n**确认/随机算力证明（cPoC）** 是一种辅助验证机制，用于在主要的 [算力证明](https://gonka.ai/glossary/#glossary:~:text=Proof%20of%20Compute%20(PoC)%20is,is%20the%20execution%20phase%20of%20PoC.) (PoC) Sprint 之外，验证 Host 所声明的计算权重的稳定性。这些检查旨在确认 Host 持续提供与其最近一次 PoC 结果所反映的计算能力相一致的算力。CPoC 并不替代标准的 PoC 流程（Sprint）。\n\n**确认比率** 是指 Host 在 PoC 阶段获得的 epoch 权重与在 cPoC 期间获得的权重之间的比值。确认比率越高，表示 Host 所提供的算力越稳定。如果确认比率为 50% 或更低，则该 Host 将被取消获得该 epoch 奖励的资格。\n\n**Consensus（共识）**\n是一种协议机制，用于使网络就区块链的单一、可验证状态达成一致，确保",
+      "checksum": "4714ae7568c06b673409deb7a606686029ff355245bfb751e8fbe4a35bc9b535"
+    },
+    "zh/governance/creating-proposals.md": {
+      "title": "如何在Gonka上创建并提交治理提案",
+      "status": null,
+      "content_preview": "# 如何在Gonka上创建并提交治理提案\n\n使用`inferenced`提交提案的分步指南。\n与Gonka交易和治理对齐。\n在运行命令前，请将所有占位符替换为自己的值。\n\n## 占位符\n\n| 占位符 | 含义 |\n| --- | --- |\n| `<COLD_KEY_NAME>` | 密钥环中的密钥名称（不是你的`gonka1...`地址） |\n| `<PATH_TO_PROPOSAL_JSON>` | 提案JSON文件的路径，例如`./proposal.json` |\n| `<NODE_URL>` | 节点基础URL，不含`/chain-rpc/`，例如`http://node1.gonka.ai:8000` |\n| `<CHAIN_ID>` | 例如主网的`gonka-mainnet` |\n\n如果命令因`connection`或`parse`失败，请检查每个RPC命令是否使用带恰好一个`<NODE_URL>/chain-rpc/`的`/chain-rpc/`。\n\n## 前提条件\n### 1. 安装CLI\n\n从Gonka发布页面下载适用于你操作系统的版本，解压后：\n\n```bash\nchmod +x inferenced\n./inferenced --help\n```\n\n详细的 CLI 安装说明，请参见[本地机器 CLI 设置指南](https://gonka.ai/host/quickstart/#local-machine-install-the-cli-tool)。安装 CLI 后，您可以返回此页面并继续。\n\n### 2. 从链上读取治理参数\n\n不要依赖旧文档中的固定数值。治理参数可在链上配置，因此在起草提案或宣布投票规则前，请查询实时数值：\n\n```bash\n./inferenced query gov params \\\n  --node \"<NODE_URL>/",
+      "checksum": "4b147e7fad44496bde44e9dc470abdb8f92ee38c9f7daa9cc99a63294e829868"
+    },
+    "zh/governance/transactions-and-governance.md": {
+      "title": "交易与治理",
+      "status": null,
+      "content_preview": "# 交易与治理\n\n所有治理操作均通过您的**冷账户机器**使用存储在文件密钥环中的**<COLD_KEY_NAME>**执行。这是您加入网络时创建的治理密钥（[参见快速入门](https://gonka.ai/host/quickstart/#local-machine-install-the-cli-tool)）。\n\n交易通过RPC端点发送（此处称为`<NODE_URL>/chain-rpc/`）。如果您未指定`--node`，CLI将默认使用`tcp://localhost:26657`。除非您在本地运行自己的节点，否则请始终提供`--node <NODE_URL>/chain-rpc/`。\n\n此处支持并推荐使用无序交易，以避免序列争用。（[docs.cosmos.network](https://docs.cosmos.network/sdk/v0.53/learn/beginner/tx-lifecycle))\n\n???+ note \"在交易命令中始终包含这些标志\"\n    - `--from <COLD_KEY_NAME>` → 使用您的冷治理密钥。\n    - `--keyring-backend file` → 确保使用本地密钥进行签名（系统将提示您）。\n    - `--unordered --timeout-duration=60s` → 使交易在有限时间内有效，绕过序列排序（v0.53+新增功能）。\n    - `--gas=2000000` → 手动设置gas上限（一个足够宽裕的固定值，足以满足这些交易）。注意：当使用`--gas auto`时，`--gas-adjustment`仅对估算值进行乘法运算，因此与固定的`--gas`一起使用时，它将被忽略且不添加任何缓冲。\n    - `--node <NODE_URL>/chain-rpc/` → 除非",
+      "checksum": "3de0a4e734706e95c94ccee1e52db3a6d02179a42de4463bb321abae08b0f2d9"
+    },
+    "zh/governance/voting-on-proposals.md": {
+      "title": "提案投票",
+      "status": null,
+      "content_preview": "# 提案投票\n## 谁可以投票和不可以投票\n\n投票需要在提案的 `tokens > 0` 拥有已绑定的 `voting_end_height`。资格由三个独立的检查决定：\n\n**绑定状态（Cosmos SDK）**\n\n只有具有 `status = BOND_STATUS_BONDED` 和 `tokens > 0` 的验证者才贡献投票权。零代币的绑定条目处于休眠状态，不贡献任何投票权。\n\n**监禁状态**\n\n被监禁的验证者（`jailed = true`）会自动解除绑定，并从活跃验证者集合中移除，失去所有投票权，直到他们通过 `MsgUnjail` 手动解除监禁。因离线或双签而被惩罚将触发监禁。\n\n在Gonka分叉中，这通过 `SetComputeValidators` 加以强化：在纪元结束时，未出现在计算结果中的验证者，或被明确标记为删除的验证者，将被 `tokens = 0`。由于Gonka没有传统的解除绑定周期，被监禁的验证者会立即被删除，而不是进入解除绑定队列。\n\n**PoC和CPoC参与**\n\n投票权最终来源于 `participant.weight`，它会根据每个纪元的PoC和CPoC结果重新计算：\n\n- **PoC失败**：参与者被标记为 `INACTIVE`，从下一个纪元的计算结果中移除，获得 `tokens = 0`，且不能投票。\n- **CPoC失败**：即确认PoC，其中节点互相交叉验证对方的PoC提交。结果相同：从活跃集合中移除，`tokens = 0`，无投票权重。\n- **活跃参与者**：代币权重根据新权重重新计算，投票权重等于权重，或对守护者进行提升。\n\n**委托人**\n\n标准的Cosmos SDK委托人，即通过 `MsgDelegate` 进行质押的任何人，可以独立投票，并且他们的投票会覆盖其委托验证者在所委托份额上的投票。实际上，几乎所有G",
+      "checksum": "e8800faafb7008e69f153ca9df8f7d0fa9ff648f4371cece9e9c8d14a462b6bc"
+    },
+    "zh/governance/voting-power-eligibility.md": {
+      "title": "投票权、创世守护者和委托",
+      "status": null,
+      "content_preview": "# 投票权、创世守护者和委托\n\n## 已绑定总权重的计算\n\n已绑定总权重是所有已绑定验证者中 `validator.tokens` 的总和，条件为 `tokens > 0`：\n\n```text\ntotal_bonded = Σ validator.tokens   (over all bonded validators with tokens > 0)\n```\n\n每个验证者的 `tokens` 值由推理模块通过 `Staking.SetComputeValidators()` 在每次纪元转换时设置。\n对于绝大多数验证者：\n\n```text\nvalidator.tokens = participant.weight   (their PoC weight in the current epoch)\n```\n\n对于创世守护者，首先会应用一个额外的增强算力步骤（见下文）。\n\n### 守护者算力提升计算\n\n在 `SetComputeValidators` 运行之前，推理模块会应用 `applyEarlyNetworkProtection`，其计算增强算力的方式如下：\n\n```text\nother_total         = total_network_power − Σ guardian_original_power\ntotal_enhancement   = other_total × multiplier\nper_guardian_power  = total_enhancement / guardian_count\n\nguardian.tokens     = per_guardian_power                # original PoC weight is REPLACED\nnon_guardian.tokens = participant.weigh",
+      "checksum": "20a8e211ed18f5b7c4f269f908b55139e3775088fec48d80d6c07c9504b4b234"
+    },
+    "zh/help.md": {
+      "title": "在 Discord 获取支持",
+      "status": null,
+      "content_preview": "# 在 Discord 获取支持\n\n如果您需要帮助，请加入 [Discord](https://discord.com/invite/RADwCT2U6R)￼ 上的 Gonka 社区。",
+      "checksum": "6d8623c37bfa2a0a4654ec10431d0e949c06746897ccc789d92092e734b01703"
+    },
+    "zh/host/README.md": {
+      "title": "重定向到主机部分",
+      "status": null,
+      "content_preview": "# 重定向到主机部分\n\n<meta http-equiv=\"refresh\" content=\"0; url=../#hosts\" />\n\n此页面将重定向到文档的[主机部分](/docs/#hosts)。\n\n如果未自动重定向，请[点击此处](/docs/#hosts)。",
+      "checksum": "b8369f95f120d6000616e44bc3079ee6f5e4cb126eadeaef6fac64da37402cb8"
+    },
+    "zh/host/benchmark-to-choose-optimal-deployment-config-for-llms.md": {
+      "title": "LLM 最佳部署配置基准测试",
+      "status": null,
+      "content_preview": "# LLM 最佳部署配置基准测试\n## 简介\n有效的 GPU 利用对于部署大语言模型至关重要。Gonka 节点利用定制的 vLLM 推理引擎，支持高性能推理及其验证。\n\n为了获得最佳结果，vLLM 需要仔细的、特定于服务器的配置。最佳性能取决于 GPU 特性和跨 GPU 数据传输速度。本指南提供如何使用 Qwen/QwQ-32 模型作为示例选择 vLLM 参数的说明。我们还将描述哪些参数可以调整以获得最佳性能而不影响验证，以及哪些参数必须保持不变。\n\n!!! note \"性能与正确性\"\n    本指南讨论的是**性能调优**（`compressa-perf`、TP / PP）。要验证您的部署生成与目标模型黄金参考相匹配的诚实 PoC 向量，请参见[验证 ML 节点部署](./mlnode-validation.md)（[`gonka` 仓库](https://github.com/gonka-ai/gonka)中的 `mlnode-validate` 技能）。\n\n[链接到我们的 vLLM 分支](https://github.com/product-science/vllm/tree/productscience/v0.8.1)。\n\n## 理解 vLLM 参数\n要配置基于 vLLM 的模型部署，你需要为每个模型定义 `args`：\n```\n\"Qwen/Qwen2.5-7B-Instruct\": {\n    \"args\": [\n        \"--tensor-parallel-size\",\n        \"4\",\n        \"--pipeline-parallel-size\",\n        \"2\"\n    ]\n}\n```\n这些 args 定义了 MLNode 将管理的每个 vLLM 实例的配置。详细描述可以在 [vLLM 文档](https://docs.vl",
+      "checksum": "85568686b2fa764fdfe0c70d42ab461df741ec75d21210ad42ce1f765078c87d"
+    },
+    "zh/host/collateral.md": {
+      "title": "抵押品机制",
+      "status": null,
+      "content_preview": "# 抵押品机制\n\n抵押品机制允许参与者锁定 GNK 代币，以激活其已获得的“计算量证明”（Proof of Compute, PoC）权重的一部分。\n\n投票权从不单纯来源于持有代币。GNK 代币作为经济抵押品，而非影响力的来源。影响力通过持续的计算贡献获得，而锁定 GNK 抵押品则是参与治理并承担相应责任的前提。\n\n## 核心概念\n\n- 前 180 个纪元（宽限期）内，无需抵押品。所有参与者无条件获得其全部潜在权重的 100%。\n- 宽限期结束后，参与者权重的一部分（默认为 20%）将作为基础权重（Base Weight）无条件授予。\n- 剩余权重（默认为 80%）为可抵押权重（Collateral-Eligible Weight），必须由已存入的抵押品支持。这确保了拥有重大治理权力的参与者也承担相应的经济责任。\n- 最终的活跃权重（Active Weight）为基础权重与抵押品激活权重之和。活跃权重将用于所有基于 PoC 权重的治理决策。\n\n假设所有 `$NODE_URL` 均为已启用链上 RPC 和链上 API 的节点 URL。\n\n## 参数\n\n### 获取当前抵押参数（链上）```bash\ncurl \"$NODE_URL/chain-api/productscience/inference/inference/params\" | jq '.params.collateral_params'\n```- `slash_fraction_invalid` - 因无效推理而被罚没的抵押品比例（每个epoch最多一次）。\n- `slash_fraction_downtime` - 因停机而被罚没的抵押品比例（确认PoC失败/被禁闭）。\n- `downtime_missed_percentage_threshold` - 已弃用，不再使用。\n- `base_weight_rati",
+      "checksum": "93dbcec5092114a887095225b991eadbd99a89d2bd498342efc8cb661f041146"
+    },
+    "zh/host/genesis-new.md": {
+      "title": "Gonka 创世仪式",
+      "status": null,
+      "content_preview": "# Gonka 创世仪式\n\n创世仪式是一个协调过程，用于使用预定义的初始验证者集合和商定的 `genesis.json` 文件来引导 Gonka 区块链。这个仪式很重要，因为它建立了网络的基础安全，确保验证者之间的公平参与，并为区块链创建了一个可验证的起点。\n\n## 概述\n\n仪式是一个透明且可审计的过程，完全通过 GitHub Pull Requests（PR）管理。核心工作流程很简单：\n\n- 参与者（验证者）通过 PR 提交信息和离线交易文件（`GENTX` 和 `GENPARTICIPANT`）。\n- 协调者聚合并验证这些输入，发布最终的、商定的 `genesis.json`，包含预定的 `genesis_time` 和记录的哈希值。\n- 验证者验证文件是否正确生成并启动其节点。\n\n仪式通过明确定义的阶段进行，以产生可审计的、共享的 `genesis.json`。所有协作都通过 GitHub PR 进行，以确保完全透明和问责。\n\n??? note \"创世仪式的关键原则\"\n\n    | 原则 | 描述 |\n    |-----------|-------------|\n    | **透明度和可审计性** | 使用 GitHub PR 进行所有提交，创建从开始到结束的整个过程的公开、可验证记录。 |\n    | **去中心化启动** | 仪式确保网络以商定的独立验证者集合开始，从区块零开始建立去中心化。 |\n    | **可验证状态** | 记录最终的 `genesis.json` 哈希，允许每个参与者确认他们从完全相同的初始状态开始。 |\n    | **共识** | 该过程保证所有初始验证者在网络上线前已审查并接受创世状态。 |\n\n## 先决条件\n\n在参与仪式之前，每个参与者（验证者）必须：\n\n1. Fork [Gonka 仓库](https://github.co",
+      "checksum": "dd703a005632293cd01dfb11bf3f1175132f18ab43f7b2ea96664847b5dabe2c"
+    },
+    "zh/host/genesis.md": {
+      "title": "Gonka 创世仪式",
+      "status": null,
+      "content_preview": "# Gonka 创世仪式\n\n创世仪式是一个协调过程，用于使用预定义的初始验证者集合和商定的 `genesis.json` 文件来引导 Gonka 区块链。这个仪式很重要，因为它建立了网络的基础安全，确保验证者之间的公平参与，并为区块链创建了一个可验证的起点。\n\n## 概述\n\n仪式是一个透明且可审计的过程，完全通过 GitHub Pull Requests（PR）管理。核心工作流程很简单：\n\n- 主机（验证者）通过 PR 提交信息和离线交易文件（`GENTX` 和 `GENPARTICIPANT`）\n- 协调者聚合并验证这些输入，发布最终的、商定的 `genesis.json`，包含预定的 `genesis_time` 和记录的哈希值。\n- 验证者验证文件是否正确生成并启动其节点\n\n仪式通过明确定义的阶段进行，以产生可审计的、共享的 `genesis.json`。所有协作都通过 GitHub PR 进行，以确保完全透明和问责。\n\n??? note \"创世仪式的关键原则\"\n\n    | 原则 | 描述 |\n    |-----------|-------------|\n    | **透明度和可审计性** | 使用 GitHub PR 进行所有提交，创建从开始到结束的整个过程的公开、可验证记录。 |\n    | **去中心化启动** | 仪式确保网络以商定的独立验证者集合开始，从区块零开始建立去中心化。 |\n    | **可验证状态** | 记录最终的 `genesis.json` 哈希，允许每个主机确认他们从完全相同的初始状态开始。 |\n    | **共识** | 该过程保证所有初始验证者在网络上线前已审查并接受创世状态。 |\n\n## 先决条件\n\n在参与仪式之前，每个主机（验证者）必须：\n\n1. Fork [Gonka 仓库](https://github.com/gon",
+      "checksum": "c272771ea30457089af8d03b4abf11b4646ef31972212537abe617bf1f14bec7"
+    },
+    "zh/host/hardware-specifications.md": {
+      "title": "hardware-specifications",
+      "status": null,
+      "content_preview": "技术标准：\n\n· GPU 要求： 须采用 NVIDIA Tesla 架构之后的 GPU 系列，且每个 MLNode 节点的可用 GPU 显存总量须 ≥ 320 GB。\n· 组合规则： 允许混搭不同型号的 GPU，但前提是整套系统必须能够稳定运行经网络管理委员会批准的大语言模型，并参与概念验证。\n\n| NVIDIA GPU | 发布日期 | VRAM | 架构 |\n|------------|----------|------|------|\n| B300 | 2025年3月 | 288 GB HBM3e | Blackwell Ultra |\n| B200 | 2024年 | 192 GB HBM3e | Blackwell |\n| RTX PRO 6000 | 2025年3月 | 96 GB GDDR7 ECC | Blackwell |\n| H200 | 2024年 | 141 GB HBM3e | Hopper |\n| H100 | 2022年5月 | 80 GB HBM3 | Hopper |\n| A100 80GB | 2020年11月 | 80 GB HBM2e | Ampere |\n\n（注：最终部署方案必须保证物理显存总量满足模型运行需求，并通过网络管理委员会的正式技术审核。）",
+      "checksum": "bd5306ae18b5e895d15a35a287969e875a81e751e9dd4a878d3d452e89c5e6b8"
+    },
+    "zh/host/host_info.md": {
+      "title": "如何编辑主机公共信息",
+      "status": null,
+      "content_preview": "# 如何编辑主机公共信息\n\n本指南介绍如何更新你的主机/验证者资料，包括可读名称、网站和头像/身份标识，以便在区块链浏览器中正确显示相关信息。\n\n## 前提条件\n\n- 你必须是主机/验证者的操作员（即持有操作员密钥）。\n- 你的节点必须正在运行并已连接到网络。\n- 如果你希望拥有经过验证的头像，请准备一个身份服务账户（例如 [Keybase](https://keybase.io/)）。\n\n## 字段 / 参数\n\n以下是**唯一**可设置或编辑的字段。\n\n| 字段       | 参数标志         | 用途 / 显示内容                                                                 |\n|------------|------------------|----------------------------------------------------------------------------------|\n| 昵称 (Moniker)  | `--new-moniker`  | 主机/验证者的公开名称，将在浏览器中显示。                                        |\n| 网站 (Website)  | `--website`      | 指向主机/验证者网站或项目页面的链接，供委托人了解更多信息。                      |\n| 身份 (Identity) | `--identity`     | 通常用于提供身份验证证明（例如 [Keybase](https://keybase.io/)），许多浏览器会利用此信息获取你的头像/标志。你需要从网站下载应用以生成PRP密钥来获取头像。 |\n\n## 分步指南\n如果你还没有PGP密钥，请先运行",
+      "checksum": "cad950c7c22df0c8c123e970d1ce513c8c03431c848613c8784d6a2ef2611d48"
+    },
+    "zh/host/key-management.md": {
+      "title": "密钥管理架构",
+      "status": null,
+      "content_preview": "# 密钥管理架构\n\n本文档描述了 Gonka 网络的综合密钥管理架构，这是一个去中心化 AI 基础设施，需要通过基于角色的密钥分离来确保强大的安全性。\n\n## 概述\n\nGonka 网络实现了**基于角色的密钥管理系统**，将自动化功能与高风险手动审批分离。此架构确保没有单个密钥控制所有网络操作，提供增强的安全性和操作灵活性。\n\n!!! info \"快速设置\"\n    要立即部署，请参阅[快速开始指南](/host/quickstart/)。本文档重点介绍理解完整的密钥管理架构和安全模型。\n\n## 启动时的密钥架构（v0）\n\n在网络启动时，主机使用**三密钥系统**：\n\n| 密钥类型 | 用途 | 存储 | 算法 | 使用 |\n|----------|------|------|------|------|\n| **账户密钥** | 主控制与权限 | 安全本地机器 | SECP256K1 | 手动高风险操作 |\n| **ML 运营密钥** | 自动化 AI 交易 | 服务器加密 | SECP256K1 | 自动化 ML 工作流 |\n| **共识密钥** | 区块验证与共识 | TMKMS 温存储 | ED25519 | 网络共识参与 |\n\n## 安全模型\n\n### 账户密钥（冷钱包）- **关键**\n- **控制**：主密钥，授予所有其他密钥的权限\n- **安全**：必须离线存储在安全、隔离的机器上\n- **使用**：仅用于授予权限和验证者注册\n- **恢复**：由助记词保护 - **如果丢失，所有访问将永久丢失**\n\n### ML 运营密钥（温钱包）\n- **控制**：由账户密钥授权，用于 ML 特定交易\n- **安全**：服务器上的加密文件，通过程序访问\n- **使用**：自动化交易（推理请求、证明提交、奖励）\n- **恢复**：可随时由账户密钥轮换/撤销\n\n### 共识",
+      "checksum": "6ce45c4d4fa17d1b2a7694ed9955b28c4a0c5440914def53036900e7e9913d60"
+    },
+    "zh/host/kimi-bootstrap.md": {
+      "title": "Kimi K2.6 启动引导",
+      "status": null,
+      "content_preview": "# Kimi K2.6 启动引导\n\n`moonshotai/Kimi-K2.6` 已**通过启动引导**，并在 Gonka 主网上处于**激活状态**。以下时间线和交易示例仍有助于理解激活机制以及委托等操作；有关当前部署的默认设置（包括 `node-config.json`），请参阅[主机快速入门指南](./quickstart.md)。\n\n模型组 `moonshotai/Kimi-K2.6` 在第 251 轮次（Epoch 251）变得具备资格。\n\n本文档说明如何最小化权重减少的风险，无论该模型是否获得足够多的参与者。\n\n!!! note\n    启动过程可能持续多个轮次，具体取决于准备就绪的参与者数量。在激活之前，只要参与者明确提交了选择，且准备部署的主机提交了 `PoCIntent`，就不会发生权重减少。\n\n## 时间线\n\n#### 1. 在区块 `3873996` 之前，所有参与者必须提交：\n    - `PoCIntent` - 如果你计划部署 `Kimi-K2.6`。主机应保持节点运行 `Qwen235B`，仅在区块 `3873996` 评估后切换\n    - `PoCDelegation` / `PoCRefusal` - 如果你**不**计划部署 `Kimi-K2.6`\n\n#### 2. 在区块 `3873996`，链上执行预评估，以检查是否应基于 `PoCIntent` / `PoCDelegation` 尝试激活模型\n    - 如果模型变为预合格状态 => 提交了 `PoCIntent` 的主机应将其模型节点切换为 `Kimi-K2.6`（在此 500 个区块窗口内无 CPoC）\n    - 如果模型未变为预合格状态 => 提交了 `PoCIntent` 的主机应继续在 `Qwen235B` 上运行节点\n\n#### 3. 在区块 `3874496`，P",
+      "checksum": "bc0fbde8133962dec824b66f8e3451de5c324044f51e48a8480ec6894c6fb903"
+    },
+    "zh/host/minimax-bootstrap.md": {
+      "title": "MiniMax-M2.7 引导流程",
+      "status": null,
+      "content_preview": "# MiniMax-M2.7 引导流程\n\n`MiniMaxAI/MiniMax-M2.7`（FP8）已在 `v0.2.13` 升级中作为第三个经治理批准的推理模型加入。本文档说明如何在引导阶段尽量减少权重减少的风险，无论该模型在首次尝试时是否获得足够多的参与者。\n\n有关当前部署默认设置（包括 `node-config.json`），请参阅[主机快速入门](./quickstart.md)。有关多模型 PoC 机制的更广泛背景，请参阅[多模型 PoC](./multi_model_poc.md)。先前模型的引导及其机制记录在[Kimi K2.6 引导流程](./kimi-bootstrap.md)中。\n\n!!! note\n    引导过程可能持续多个纪元，具体取决于准备就绪的参与者数量。在配置的惩罚纪元之前，只要参与者明确提交了选择，并且计划部署的主机提交了 `PoCIntent`，就不会发生权重减少。\n\n## 时间线\n\n对未参与 MiniMax-M2.7 的惩罚从 **纪元 `278`** 开始。从升级激活后的每个纪元起，链都会尝试引导该模型：在该纪元 PoC 阶段前 500 个区块（即 `DeployWindow`）内生成一个 `BootstrapDelegationSnapshot`，根据 `V_min = 3` 个直接提交者以及占全网总权重 `W_threshold` 比例且通过 INTENT + DELEGATE 实现 `>2/3` 可达性的条件进行预资格评估；若满足预资格，则在该纪元启动 MiniMax 的 PoC。\n\n当前 `W_threshold` 是一个治理参数——应从链上读取该值，而非硬编码（该值已由 GIP-48 从 `0.3` 降至 `0.1`，未来可能再次调整）：```bash\ncurl -s \"https://node3.gonka.ai/chai",
+      "checksum": "e5799cbd671ee104dd5a3296a38673a56c467cdea36412cfcc30270c1e1c6450"
+    },
+    "zh/host/mlnode-management.md": {
+      "title": "ML 节点管理",
+      "status": null,
+      "content_preview": "# ML 节点管理\n\n本指南介绍如何使用**管理 API** 管理连接到网络节点的推理节点（ML 节点）。\n\n您将学习如何：\n\n- 添加新的 ML 节点\n- 批量添加多个 ML 节点\n- 更新现有 ML 节点\n- 启用或禁用 ML 节点\n- 删除 ML 节点\n- 列出所有已配置的 ML 节点\n\n所有操作均通过网络节点的管理 API 执行，**无需**链上交易。更改在网络节点的配置层面立即生效。\n\n## ML 节点定义\n\n每个在网络节点上注册的 ML 节点由一个 JSON 对象表示，包含以下关键字段：\n\n- `id` – ML 节点的**唯一标识符**（字符串）。\n- `host` – ML 节点的**静态 IP 或 DNS**，若与网络节点在同一 Docker 网络中运行则为**容器名**。\n- `inference_port` – 用于推理请求的端口（映射到 ML 节点 `nginx` 容器的端口 `5000`）。\n- `poc_port` – 用于计算证明（PoC）和管理操作的端口（映射到 ML 节点 `nginx` 容器的端口 `8080`）。\n- `max_concurrent` – 该 ML 节点可处理的最大并发推理请求数。\n- `models` – 模型名称到 vLLM 参数的映射。\n\nML 节点配置示例：\n\n```json\n{\n  \"id\": \"node1\",\n  \"host\": \"10.0.0.21\",\n  \"inference_port\": 5050,\n  \"poc_port\": 8080,\n  \"max_concurrent\": 500,\n  \"models\": {\n    \"MiniMaxAI/MiniMax-M2.7\": {\n      \"args\": [\n        \"--tensor-parallel-size\",\n        \"4\"\n ",
+      "checksum": "07380bd22eed62a267d7dff1e53d0f08e247703f5620d71228fc3cc99a32f1f0"
+    },
+    "zh/host/mlnode-validation.md": {
+      "title": "验证 ML 节点部署",
+      "status": null,
+      "content_preview": "# 验证 ML 节点部署\n\n[`gonka` 仓库](https://github.com/gonka-ai/gonka)中提供了一个名为 `mlnode-validate` 的智能体技能（agent skill），用于在特定模型上对已部署的 ML 节点进行验证，将其输出与预先计算的诚实 PoC 向量比对。该技能自包含于仓库内部（无外部代码，无回调接收方）。\n\n该技能的**契约**位于 [`skills/mlnode-validate/SKILL.md`](https://github.com/gonka-ai/gonka/blob/main/skills/mlnode-validate/SKILL.md) — 必填 / 可选输入、部署配置规则、黄金参考列表、通过判定标准、失败模式、报告模板的唯一权威来源。本页只是指引。\n\n技能由位于 `mlnode/packages/benchmarks/scripts/poc_validation/` 下的两个 Python 脚本实现：\n\n- `validate.py` — 主入口（download → deploy → throughput → validate）。\n- `make_artifact.py` — 当请求的模型尚无已提交的黄金参考时，针对一个已经服务该模型的可信 MLNode 烘焙一个新的 artifact。\n\n## 脚本做什么\n\n`validate.py` 针对正在运行的 ML 节点执行四个阶段，在运行过程中输出 `[i/4]` 头部：\n\n1. **`[1/4] download`** — 确保所请求的 HuggingFace 仓库已在 ML 节点上缓存。使用 `POST /api/v1/models/status`，必要时 `POST /api/v1/models/download` 并轮询 `/models/sta",
+      "checksum": "16f73221d2bb9e9ae7b6f41dbdfda4630258c7dee5e1c454f2da1834b0afdb3c"
+    },
+    "zh/host/multi_model_poc.md": {
+      "title": "多模型 PoC — 主机操作指南",
+      "status": null,
+      "content_preview": "# 多模型 PoC — 主机操作指南\n\n多模型计算证明（PoC）功能于 v0.2.12 版本引入，并在 v0.2.13 版本中进一步扩展。\n\n## v0.2.12 和 v0.2.13 中的变化\n\n在 v0.2.12 之前，网络仅运行一个强制模型：`Qwen/Qwen3-235B-A22B-Instruct-2507-FP8`。v0.2.12 引入了第二个由治理批准的模型 `moonshotai/Kimi-K2.6`，并实现了按模型的参与、委托和惩罚计时机制。v0.2.13 则重新校准了模型系数，并新增 `MiniMaxAI/MiniMax-M2.7` 作为第三个由治理批准的模型。\n\n截至纪元 `308`，`Qwen/Qwen3-235B-A22B-Instruct-2507-FP8` 已由治理（提案 78）退役，`MiniMaxAI/MiniMax-M2.7` 成为基础模型与活跃的 PoC 模型。主网上的 `poc_params.models` 包含以下内容：\n\n| `model_id` | 当前主网状态 | `weight_scale_factor` | `penalty_start_epoch` |\n|---|---|---:|---:|\n| `MiniMaxAI/MiniMax-M2.7` | 活跃 | `0.3024` | `278` |\n| `moonshotai/Kimi-K2.6` | 重新 bootstrap 中（通过后续投票恢复） | `0.78` | `251` |\n\n这些值由治理机制控制，可能会发生变化。在执行任何操作前，请务必通过你所使用的链上的实时 `params` 查询来验证这些参数。\n\n??? note \"为何多模型 PoC 采用此设计\"\n\n    此设计的目标是在保留相同安全模型（BFT 假设）的前提下，允许网络支持多个模型，而无需每个主机都",
+      "checksum": "6c730ec78e32d92641ef19189bf13283ce10716afa1e13c13a9fc74956b40bd4"
+    },
+    "zh/host/multiple-nodes.md": {
+      "title": "多节点",
+      "status": null,
+      "content_preview": "# 多节点\n\n在此方案中，您将在多台服务器上部署网络节点以及一个或多个推理（ML）节点。要加入网络，需要部署两类服务：\n\n- **网络节点** – 由**链节点**和 **API 节点**组成的服务，负责所有通信。**链节点**连接区块链，**API 节点**处理用户请求。\n- **推理（ML）节点** – 在 GPU 上执行大语言模型（LLM）推理的服务。至少需要一个 **ML 节点** 才能加入网络。\n\n本指南说明如何在同一台机器上部署这两类服务，以及如何在不同机器上部署。服务均以 Docker 容器形式部署。\n\n## 启动网络节点与推理节点\n\n本节说明如何部署一个网络节点与多个推理节点的分布式方案。\n\n!!! note\n    在启动网络节点之前，请确保网络服务器上 `config.env` 中的 `DAPI_API__POC_CALLBACK_URL` 已正确设置。该变量定义 API 容器的回调 URL，会传给所有 ML 节点，供其发送计算证明（PoC）nonce。\n    多节点部署时，该 URL 必须能被集群内所有 ML 节点访问。请勿保留默认的 Docker 内部地址（http://api:9100），因为外部 ML 节点无法访问。请改为网络节点服务器的内网地址（或 DNS 名称），例如：`DAPI_API__POC_CALLBACK_URL=http://<NETWORK_NODE_PRIVATE_IP>:9100`。若网络节点的 API 容器已用错误值启动，请更新 `config.env` 并重启 api 容器。\n    确保端口 `9100` 已开放，且可从您网络中所有推理（ML）节点访问。\n\n## 启动网络节点\n\n请确保已先完成[快速入门指南](https://gonka.ai/host/quickstart/)至步骤 3.3（密钥管理与主机注册）。\n",
+      "checksum": "ae2e727dff2336a88a9200b6a30f2cf7b4f01acc654b59655fce5437a412f66c"
+    },
+    "zh/host/network-node-api.md": {
+      "title": "网络节点 API",
+      "status": null,
+      "content_preview": "# 网络节点 API\n\n本节介绍 `Network Node API` 的 `/v1/epochs/{epoch_id}/participants` 接口。该接口用于获取：\n\n- Merkle 证明\n- Host（主机）数据\n- 验证者签名\n\n## 用法\n\n当前 Epoch 数据\n```bash\ncurl -X GET http://<your_api_node_url:public_port>/v1/epochs/current/participants\n```\n\n指定 Epoch 数据\n```bash\ncurl -X GET http://<your_api_node_url:public_port>/v1/epochs/<epoch_id>/participants\n```\n\n---\n\n## 示例响应解析\n```bash linenums=\"1\"\n{\n  \"active_participants\": {\n\t\"participants\": [\n  \t{\n    \t\"index\": \"gonka17tvsmufmewvwfy3dfxz7l20jmlhhn6ekfcun7r\",\n    \t\"validator_key\": \"ljvRT9VScsxQKKX4S91yJRNppbz691ceD4sBYBRrAys=\",\n    \t\"weight\": 10,\n    \t\"inference_url\": \"http://genesis-api:8080\",\n    \t\"models\": [\n      \t\"unsloth/llama-3-8b-Instruct\"\n    \t],\n    \t\"seed\": {\n      \t\"participant\": \"gonka17tvsmufmewvwfy3dfxz7l20jmlhhn6ekfcun7r\",\n      \t\"block_heig",
+      "checksum": "e9b34102a7c2b987b5c1161bd6b8560f0a696b5b504165643af8f8a0e5a40ff4"
+    },
+    "zh/host/optional-ssl-setup.md": {
+      "title": "[可选] SSL 设置",
+      "status": null,
+      "content_preview": "# [可选] SSL 设置\n\n## 使用场景\n适用于希望为公共 API、链端点（RPC/REST/gRPC）和/或 Explorer 提供 HTTPS 的主机。\n\n## A) 使用 **Proxy SSL** 设置（自动化）\n\n### 你将获得\n- **自动签发与续期** TLS 证书（Let’s Encrypt，DNS-01 验证方式）。\n- 一个 **单一入口** 的 nginx 代理，终止 TLS 并路由到你的服务。\n- 使用 `docker compose` 的 `ssl` 配置文件即可 **一键启用**。\n\n### 工作原理（高层）\n1. 运行两个容器：**`proxy`**（nginx）和 **`proxy-ssl`**（ACME 签发器）。  \n2. 第一次启动（或缺少证书时），`proxy` 会请求 `proxy-ssl` 为 `CERT_ISSUER_DOMAIN`（以及配置的子域名）申请证书。  \n3. `proxy-ssl` 使用你提供的 **DNS API 密钥** 对接 DNS 提供商执行 DNS-01 验证，从 Let’s Encrypt 获取证书，并存储在共享挂载目录 (`./secrets/nginx-ssl`)。  \n4. `proxy` 读取已签发的证书并提供 HTTPS 服务。续期过程自动重复。\n\n### 需求检查清单（Proxy SSL）\n- 域名的 DNS **A/AAAA** 记录需要指向运行 `proxy` 的主机。\n- 需要一个受支持的提供商的 **DNS API 凭证**：Route53、Cloudflare、Google Cloud DNS、Azure、DigitalOcean、Hetzner。\n- 一个包含 `proxy` 和 `proxy-ssl`（启用 `ssl` profile）的 compose stack。\n-",
+      "checksum": "8ccc97c66254cb8c5cc1e489bbed2f84bfee7045e72a2ef7c3b012afdb59a075"
+    },
+    "zh/host/proposals.md": {
+      "title": "提案",
+      "status": null,
+      "content_preview": "# 提案\n\n在 Gonka 中，有两种主要的提议和协调变更的方式：治理提案和改进提案。\n\n## 改进提案（链下）\n\n用于讨论长期计划、重大架构想法和制定社区路线图。它们类似于比特币的 [BIPs](https://github.com/bitcoin/bips)。\n\n- 在 [/proposals](https://github.com/gonka-ai/gonka/tree/main/proposals) 目录中作为 Markdown 文件管理\n- 任何人都可以创建包含新提案的 Pull Request\n- 活跃参与者在 GitHub 上审查提案\n- 如果获得批准，PR 将合并到仓库中\n\n有关链下改进提案，请参阅 [/proposals](https://github.com/gonka-ai/gonka/tree/main/proposals) 文件夹。\n\n## 治理提案（链上）\n用于直接影响网络并需要链上投票的变更：\n\n- 更改网络参数（例如通过 `MsgUpdateParams`）\n- 执行软件升级\n- 引入新模型\n- 引入新功能\n- 必须由社区在链上批准的任何其他修改\n  \n治理权力通过可验证的计算工作获得，而不是被动的代币持有。默认情况下，每个主机的 PoC 衍生投票权重中只有 20% 自动激活。要解锁剩余的 80%，主机必须锁定 GNK 代币作为抵押，将治理影响力与真实的经济承诺联系起来。技术细节，包括权重激活机制和抵押比率，在 [Gonka: 代币经济学](https://gonka.ai/tokenomics.pdf) 中涵盖。\n\n!!! note \"宽限期\"\n    在最初的 180 个 epoch（约 6 个月）内，新参与者可以参与治理并通过 PoC 获得投票权重，无需抵押要求。在此期间，完整的治理权利可用，而投票权重仍与验证的计算活动相关。\n\n###",
+      "checksum": "89bb5bf8cb714c708bea02c20412420ee848485c22afa52f8668a0adf0a98e64"
+    },
+    "zh/host/quickstart.md": {
+      "title": "配置您的链",
+      "status": null,
+      "content_preview": "# 配置您的链\n\n**主机**（**硬件提供方**或**节点**）向网络提供算力，并根据所提供资源的数量与质量获得奖励。\n\n要加入网络，您需要部署两类服务：\n\n- **网络节点** – 由**链节点**和 **API 节点**组成的服务，负责所有通信。**链节点**连接区块链，**API 节点**处理用户请求。\n- **推理（ML）节点** – 在 GPU 上执行大语言模型（LLM）推理的服务。至少需要一个 **ML 节点** 才能加入网络。\n\n本指南描述两类服务部署在同一台机器、且每个主机仅有一个 ML 节点的场景。服务以 Docker 容器形式部署。\n\n??? note \"直播演示 — 如何启动节点（主机快速入门）\"\n    通过快速入门启动节点的演示录像见下方。录像中的部分步骤可能与下方说明有出入，因快速入门会根据社区反馈持续更新。请始终以书面版快速入门为准，其反映当前且正确的流程。\n\n    <div style=\"position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;\">\n      <iframe\n        src=\"https://www.youtube.com/embed/DWOeHQoU_LY\"\n        title=\"Gonka: Live Demo — How to Launch a Node (Quickstart for Hosts)\"\n        frameborder=\"0\"\n        allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\"\n        allo",
+      "checksum": "44bda6d88a04793d3d3899fe37e5ed3db7c86d5ef3278c3f3aa32532822ab00d"
+    },
+    "zh/host/rewards.md": {
+      "title": "奖励机制",
+      "status": null,
+      "content_preview": "# 奖励机制\n\n!!! note\n    本文档仅供参考。最终参数和技术细节可能发生变化，因此在依赖本文档前，请务必核实最新的链上状态及相关 GitHub 仓库。\n\n## 代币经济概览\n\nCore 激励计划为矿工（6.8 亿枚 gonka (GNK) 代币，占总供应量的 68%）设立，旨在奖励为去中心化网络贡献算力的矿工。在类比特币奖励系统下，每个纪元（epoch）会固定铸造一定数量的 GNK，并根据各矿工的“算力证明”（Proof of Compute, PoC）权重按比例分配。随着网络增长，更多 GPU 竞争相同的固定奖励，每台 GPU 获得的 GNK 数量将减少，从而引入类似比特币挖矿的稀缺性驱动价值机制。矿工的长期收益来源于推理服务需求的增长、固定发行量带来的稀缺性，以及随着挖矿竞争加剧而上升的 GNK 市场价值。奖励计划遵循可预测的指数衰减模式，纪元奖励逐步减少，大约每 4 年减半一次。\n\n[代币经济完整版文档](https://gonka.ai/tokenomics.pdf)\n\n## Gonka 网络奖励系统\n\nGonka 网络采用双轨奖励机制，旨在平衡长期稀缺性激励与即时经济实用性。矿工通过两种互补的奖励渠道获得报酬：\n\n- 协议层发行奖励（类比特币模式）\n- 基于实际推理需求的工作奖励\n\n### 类比特币奖励系统\n\nGonka 网络引入一种受比特币启发的固定奖励机制，每个纪元铸造预定数量的奖励代币，并根据每个矿工的“算力证明”（PoC）权重进行分配。\n\n该模型的关键特性包括：\n\n- **纪元铸造奖励代币**：每个纪元基础奖励为 323,000 GNK（由治理决定，可能调整），该金额将分配给所有活跃矿工。此数值按指数衰减（每纪元衰减率 -0.000475，相当于约每 1,460 个纪元或 4 年减半一次），计算公式为：  \n  `当前纪元奖励 = 初始奖励 ×",
+      "checksum": "828c54fb7388c98fd23050c1dca8c4b347f20a0814201bd01477228d5a28f6aa"
+    },
+    "zh/host/validator_info.md": {
+      "title": "如何编辑验证者公开信息",
+      "status": null,
+      "content_preview": "# 如何编辑验证者公开信息\n\n本指南介绍如何更新您的验证者资料，包括可读名称、网站和头像/身份标识，以便浏览器正确显示信息。\n\n## 前提条件\n\n- 您必须是验证者的运营商（持有运营商密钥）。\n- 您的节点必须正在运行并连接到网络。\n- 如果您希望拥有经过验证的头像，请准备一个身份服务（例如，[Keybase](https://keybase.io/)）。\n\n## 字段 / 参数\n\n以下是您可以设置或编辑的**唯一**字段。\n\n| 字段     | 标志        | 用途 / 显示内容                                                                 |\n|----------|------------|----------------------------------------------------------------------------------|\n| 名称（Moniker）  | `--new-moniker`  | 您验证者的公开名称，将在浏览器中显示。                  |\n| 网站（Website）  | `--website`  | 指向您验证者网站或项目页面的链接。显示后，委托人可进一步了解您的信息。    |\n| 身份（Identity） | `--identity` | 通常用于提供身份验证证明（例如 [Keybase](https://keybase.io/)），许多浏览器使用此ID获取您的头像/标志。您需要从网站下载应用以生成PRP密钥来获取您的标志。 |\n\n## 分步指南\n\n如果您还没有PGP密钥，请运行以下命令：\n```\nkeybase pgp gen\n```\n\n??? note \"使用 Keybase 生成 PGP 密钥（keybase pgp ",
+      "checksum": "51dab552f29b9109702357e3b966bc2bfd54952c392c70d1450417aac61633b5"
+    },
+    "zh/index.md": {
+      "title": "index",
+      "status": null,
+      "content_preview": "<div>\n<div class=\"gonka-landing\">\n  <!-- Header -->\n  <header class=\"gonka-header\">\n      <a href=\"/\" class=\"gonka-logo\">\n        <svg width=\"44\" height=\"44\" viewBox=\"0 0 44 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n          <path d=\"M22.0779 0.000895182C22.2017 6.07859 22.4682 12.1564 22.8218 18.234C23.2874 26.2385 26.7009 34.2436 29.0827 42.2481C29.1354 42.4251 29.185 42.6029 29.2367 42.7799C26.9701 43.5691 24.5355 44 22 44C19.4649 44 17.0305 43.5698 14.7642 42.7808C14.816 42.6034 14.8663 42.4255 14.9191 42.2481C17.3009 34.2436 20.7144 26.2385 21.18 18.234C21.5336 12.1564 21.7992 6.07859 21.923 0.000895182C21.9487 0.000807303 21.9743 0 22 0C22.026 0 22.0519 0.000805247 22.0779 0.000895182Z\" fill=\"#2A2A2A\"/>\n          <path d=\"M20.7262 21.2364C19.4639 28.1647 15.6505 35.0935 12",
+      "checksum": "046c30a957da6617e8a6e2901228d3d16c96474e6e624b37d8cc4aa1eaf60c22"
+    },
+    "zh/introduction.md": {
+      "title": "Gonka",
+      "status": null,
+      "content_preview": "# Gonka\n\nGonka 是一个去中心化的 AI 基础设施，专为 AI 模型的训练与推理优化算力分配，提供相较于传统中心化云服务更具竞争力的替代方案。中心化系统往往成本高、垄断性强且存在审查风险，而现有很多去中心化网络则常常把算力浪费在与实际生产无关的工作（例如仅用于网络安全的计算）上。\n\n我们引入了一种创新的一致性机制，使几乎 100% 的计算资源都用于有意义的 AI 任务，从而最大化效率并显著降低运营成本。\n\n系统包含以下关键角色：\n\n- 开发者：利用网络的分布式算力构建与部署 AI 应用。入门请参阅「[开发者快速开始](https://gonka.ai/developer/quickstart/)」。\n- 主机（硬件提供方或节点）：向网络贡献计算资源，并根据资源的数量与质量获得奖励。开始贡献请参阅「[主机快速开始](https://gonka.ai/host/quickstart/)」。\n\n上述协作使平台能够以显著更低的价格提供 AI 服务，让先进的 AI 技术惠及更广泛的用户群体。",
+      "checksum": "2dd901e0cf5643dc8f68de3026bb3b8202fc993ff17f1bcf1719915d7d385530"
+    },
+    "zh/login.md": {
+      "title": "login",
+      "status": null,
+      "content_preview": "<div class=\"login-form\" style=\"max-width: 400px; margin: auto; padding: 20px; border: 1px solid #ccc; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\">\n    <form id=\"loginForm\">\n        <div style=\"margin-bottom: 20px;\">\n            <label for=\"pemail\" style=\"display: block; font-weight: bold; margin-bottom: 5px;\">邮箱：</label>\n            <input type=\"email\" id=\"pemail\" name=\"pemail\" required style=\"width: 100%; padding: 10px; font-size: 1em; border: 1px solid #ccc; border-radius: 5px;\">\n        </div>\n\n        <div style=\"margin-bottom: 20px;\">\n            <label for=\"password\" style=\"display: block; font-weight: bold; margin-bottom: 5px;\">密码：</label>\n            <input type=\"password\" id=\"password\" name=\"password\" required style=\"width: 100%; padding: 10px; font-size: 1em; b",
+      "checksum": "c8ed44c45ee5768c04f68329e1323b147e485f8a566375ffcd42bb01c63f0592"
+    },
+    "zh/model-licenses.md": {
+      "title": "模型许可",
+      "status": null,
+      "content_preview": "# 模型许可\n- [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1/blob/main/LICENSE)\n- [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3/blob/main/LICENSE-MODEL)\n- [Gemma-3-27B](https://ai.google.dev/gemma/terms)\n- [gpt-oss-120b](https://huggingface.co/openai/gpt-oss-120b/blob/main/LICENSE)\n- [Llama-3.1-70B](https://ollama.com/library/llama3:70b/blobs/4fa551d4f938)\n- [Llama-3.1-405B](https://ollama.com/library/llama3.1:405b/blobs/0ba8f0e314b4)\n- [Qwen3-32B](https://huggingface.co/Qwen/Qwen3-32B/blob/main/LICENSE)\n- [Qwen3-235B](https://huggingface.co/Qwen/Qwen3-235B-A22B/blob/main/LICENSE)",
+      "checksum": "ea752673e3910410aaa3b814eaf3c3572aabf62279340884b150b9031c3eb527"
+    },
+    "zh/network-updates.md": {
+      "title": "公告",
+      "status": null,
+      "content_preview": "# 公告\n\n!!! note \"关于本页面\"\n\n    本页面由社区成员维护和更新。\n\n    要发布公告，例如您发起的治理投票，请在 gonka-docs 仓库中打开一个拉取请求：[https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n\n    本页面的内容不保证完整。如需获取最新信息，包括治理投票的发布及其当前状态，请参阅链上数据或查看可用的浏览器和仪表板。\n\n## 2026年7月11日\n\n**v0.2.13-devshard-v3 运行时升级提案已通过治理**\n\ndevshard v3 运行时已通过链上批准并添加至 `DevshardEscrowParams.approved_versions`。\n\n该提案涵盖 [devshard v3 发布版本。](https://github.com/gonka-ai/gonka/tree/upgrade-v0.2.14/proposals/governance-artifacts/update-v0.2.13-devshard-v3)\n\n这是一个仅限 devshard 的运行时升级。它独立于全链软件升级，无需链二进制升级。\n\n提案通过后，v3 现在与现有的 devshard 运行时并行运行。新进程在 `/devshard/v3` 前缀下提供服务，而现有 devshard 流量可继续使用早期运行时前缀，直到代理将流量切换至 v3。\n\n该发布将 `devshardd` 二进制文件作为 Gonka 发布工件。`versiond` 会自动下载该二进制文件，验证 sha256 哈希值，并在现有的 `versiond` 容器内启动一个额外的 `devshardd` 进程。\n\n对于此类仅限 devshard 的运行时升级，无需重启主网或执",
+      "checksum": "15d47cce069249de95919a7dd2267bcb5875bf44439ae3c006f99ecdcbccec81"
+    },
+    "zh/participant/README.md": {
+      "title": "正在重定向到主机部分",
+      "status": null,
+      "content_preview": "# 正在重定向到主机部分\n\n<meta http-equiv=\"refresh\" content=\"0; url=../#host\" />\n\n此页面正在将您重定向到文档的[主机部分](/docs/#host)。\n\n如果未自动重定向，请[点击此处](/docs/#host)。",
+      "checksum": "86454d121dc5c4e19ec2349679342ea62dd46786440029e1c1080edfd5a5d090"
+    },
+    "zh/participant/benchmark-to-choose-optimal-deployment-config-for-llms.md": {
+      "title": "重定向到主机基准测试",
+      "status": null,
+      "content_preview": "# 重定向到主机基准测试\n\n<meta http-equiv=\"refresh\" content=\"0; url=/host/benchmark-to-choose-optimal-deployment-config-for-llms/\" />\n\n此页面已移至[主机部分/host/benchmark-to-choose-optimal-deployment-config-for-llms/)。\n\n如果您未自动重定向，请[单击此处/host/benchmark-to-choose-optimal-deployment-config-for-llms/)。",
+      "checksum": "2d88667294fc0b8e986f3c34c53bb3d264da887a8e26dc5924b9e5f11f9df65b"
+    },
+    "zh/participant/genesis-new.md": {
+      "title": "正在重定向到主机起源（新）",
+      "status": null,
+      "content_preview": "# 正在重定向到主机起源（新）\n\n<meta http-equiv=\"refresh\" content=\"0; url=/host/genesis-new/\" />\n\n此页面已移至[主机部分/host/genesis-new/)。\n\n如果未自动重定向，请[单击此处/host/genesis-new/)。",
+      "checksum": "443750151fd9821e17151915b2415e4e0616562371439f64c50f4484d225e551"
+    },
+    "zh/participant/genesis.md": {
+      "title": "正在重定向到主机起源",
+      "status": null,
+      "content_preview": "# 正在重定向到主机起源\n\n<meta http-equiv=\"refresh\" content=\"0; url=/host/genesis/\" />\n\n此页面已移至[主机部分/host/genesis/）。\n\n如果未自动重定向，请[单击此处/host/genesis/）。",
+      "checksum": "fce9b32341cafed767d2ea39c52f36758961ed1bf560600b52d4904262229f94"
+    },
+    "zh/participant/hardware-specifications.md": {
+      "title": "正在重定向到主机硬件规格",
+      "status": null,
+      "content_preview": "# 正在重定向到主机硬件规格\n\n<meta http-equiv=\"refresh\" content=\"0; url=/host/hardware-specifications/\" />\n\n此页面已移至[主机部分/host/hardware-specifications/)。\n\n如果未自动重定向，请[单击此处/host/hardware-specifications/)。",
+      "checksum": "5204a0a637fe4d8b0c809ca518627df0b730d55f636eafd49330fc13888b7029"
+    },
+    "zh/participant/key-management.md": {
+      "title": "正在重定向到主机密钥管理",
+      "status": null,
+      "content_preview": "# 正在重定向到主机密钥管理\n\n<meta http-equiv=\"refresh\" content=\"0; url=/host/key-management/\" />\n\n此页面已移至[主机部分](/host/key-management/)。\n\n如果您没有被自动重定向，请[点击此处](/host/key-management/)。",
+      "checksum": "9aba4ba6f3a87023dc6f0a73454cb0f2e4f4c46c55ba78c454aca357226e63fd"
+    },
+    "zh/participant/multi-node-setup-for-review.md": {
+      "title": "重定向到主机多节点设置",
+      "status": null,
+      "content_preview": "# 重定向到主机多节点设置\n\n<meta http-equiv=\"refresh\" content=\"0; url=/host/multi-node-setup-for-review/\" />\n\n此页面已移至[主机部分/host/multi-node-setup-for-review/)。\n\n如果未自动重定向，请[单击此处/host/multi-node-setup-for-review/)。",
+      "checksum": "f72f7512156714e6dbe5a24538d4c807cc3baf4a04b6f14a78b3f119d00bf899"
+    },
+    "zh/participant/multiple-nodes.md": {
+      "title": "重定向到托管多个节点",
+      "status": null,
+      "content_preview": "# 重定向到托管多个节点\n\n<meta http-equiv=\"refresh\" content=\"0; url=/host/multiple-nodes/\" />\n\n此页面已移至[托管部分](/host/multiple-nodes/)。\n\n如果未自动重定向，请[单击此处](/host/multiple-nodes/)。",
+      "checksum": "fb03a412181a60a2d6d7e57c16e0f3f3dccff4038f5224b0c76cf7e759355da0"
+    },
+    "zh/participant/network-node-api.md": {
+      "title": "正在重定向到主机网络节点 API",
+      "status": null,
+      "content_preview": "# 正在重定向到主机网络节点 API\n\n<meta http-equiv=\"refresh\" content=\"0; url=/host/network-node-api/\" />\n\n此页面已移至[主机部分/host/network-node-api/)。\n\n如果未自动重定向，请[单击此处/host/network-node-api/)。",
+      "checksum": "49d0e39217c96c91543babb0a14ca80fdbd8edda4abbf354d434c2c7ded30311"
+    },
+    "zh/participant/quickstart.md": {
+      "title": "正在重定向到主机快速入门",
+      "status": null,
+      "content_preview": "# 正在重定向到主机快速入门\n\n<meta http-equiv=\"refresh\" content=\"0; url=/host/quickstart/\" />\n\n此页面已移至[主机部分](/host/quickstart/)。\n\n如果未自动重定向，请[单击此处](/host/quickstart/)。",
+      "checksum": "4ef22099a7f95123ccdcd333c7970fb911932beaf775fabd6b550687ec1dd6f9"
+    },
+    "zh/report-vulnerability.md": {
+      "title": "报告漏洞",
+      "status": null,
+      "content_preview": "# 报告漏洞\n\n在Gonka中发现安全问题？负责任的披露有助于确保整个网络的安全。请使用下方的表单通过HackerOne直接提交漏洞报告。\n\n<div id=\"h1-embedded-submission\"></div>\n\n<script async src=\"https://hackerone.com/529ebea7-e684-4c88-8699-cf287d945866/embedded_submissions/script\" data-url=\"https://hackerone.com/529ebea7-e684-4c88-8699-cf287d945866/embedded_submissions/new?locale=en\" data-name=\"h1-embedded-submission\" type=\"text/javascript\"></script>",
+      "checksum": "a85d1f2ffe8232847dedaac3c85ec6a832185dee9d358cdd2c14892e4c059e86"
+    },
+    "zh/signup.md": {
+      "title": "注册",
+      "status": null,
+      "content_preview": "# 注册\n\n加入候补名单！注册后，我们将在面向更广泛用户开放时第一时间通知你。\n\n<div class=\"signup-form\" style=\"max-width: 400px; margin: auto; padding: 20px; border: 1px solid #ccc; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\">\n    <!-- HubSpot 联系表单 -->\n    <div id=\"hubspot-form\" style=\"margin-bottom: 20px;\"></div>\n\n<!-- HubSpot Form Script -->\n<script>\n  var script = document.createElement('script');\n  script.src = \"https://js.hsforms.net/forms/v2.js\";\n  script.onload = function() {\n    if (window.hbspt) {\n      window.hbspt.forms.create({\n        portalId: \"21332124\",\n        formId: \"bb643442-f16c-415c-904e-0af99c759f09\",\n        target: \"#hubspot-form\"\n      });\n    }\n  };\n  document.body.appendChild(script);\n</script>\n\n<script>\n    // 可选：若你还保留了自定义表单，可在此处处理提交逻辑\n    var el = document.getElementById(\"signup",
+      "checksum": "b6c2e3420e2cb4795a0901f6c20239efb2e44a9949f73eaf834324a1ba3fa148"
+    },
+    "zh/transactions-and-governance.md": {
+      "title": "治理与交易（Cosmos SDK 0.53）",
+      "status": null,
+      "content_preview": "# 治理与交易（Cosmos SDK 0.53）\n\n你将从**冷账户机器**执行治理操作，使用存储在文件密钥环中的**cold-key-name**。这是你在加入网络时创建的治理密钥（[参见快速开始](https://gonka.ai/host/quickstart/#create-account-key-local-machine)）。\n交易通过 RPC 端点发送（此处称为 `$SEED_URL/chain-rpc/`）。如果你不指定 `--node`，CLI 默认为 `tcp://localhost:26657`。除非你在本地运行自己的节点，否则始终提供 `--node $SEED_URL/chain-rpc/`。\n这里支持并推荐无序交易以避免序列争用。（[docs.cosmos.network](https://docs.cosmos.network/main/learn/beginner/tx-lifecycle?utm_source=chatgpt.com \"Transaction Lifecycle | Explore the SDK\")）\n\n**始终在交易命令中包含这些标志：**\n\n- `--from <cold-key-name>` → 使用你的冷治理密钥。\n- `--keyring-backend file` → 确保使用本地密钥签名（系统会提示你）。\n- `--unordered --timeout-duration=60s` → 使交易在有限时间内有效，绕过序列排序（v0.53+ 新增）。\n- `--gas=2000000 --gas-adjustment=5.0` → 带缓冲的手动 gas 设置。\n- `--node $SEED_URL/chain-rpc/` → 除非你运行本地 RPC 节点，否则必需。\n- `--yes` → 自动批准广播。\n\n有",
+      "checksum": "c1013b2bfc5a2201dbc0b7f5f2cb038fb47539dbcc2103362ca2a7526d2f3bbb"
+    },
+    "zh/wallet/create-account.md": {
+      "title": "创建一个新的Gonka账户",
+      "status": null,
+      "content_preview": "# 创建一个新的Gonka账户\n\n要开始使用Gonka网络，您首先需要创建一个Gonka账户。\n有多种方式可以完成此操作：\n\n- 通过外部钱包（Keplr、Cosmostation、Fox Wallet）\n- 通过 `inferenced` CLI 工具\n\n!!! note \"桥接兼容性和助记词（种子短语）\"\n    如果您使用**助记词（种子短语）**创建Gonka账户——如Cosmostation和Fox Wallet默认方式——该账户**兼容**以太坊桥，但桥会将代币发送到与您的钱包显示不同的 `gonka1…` 地址。这是因为以太坊和Gonka使用不同的BIP-44派生路径（币种 `60` 与 `118`），因此相同的种子短语在每条链上生成不同的私钥。您仍可控制这些资金，并通过额外的派生步骤访问它们。完整说明请参见[地址和密钥](../cross-chain-transfers/ethereum-bridge/addresses-and-keys.md)。\n\n    为获得最简单的桥接体验——您的钱包自动显示桥使用的地址，无需额外派生步骤——请通过以下方式之一创建您的Gonka账户：\n\n    - 使用 `inferenced` CLI 工具\n    - 在Keplr中使用“通过Google连接”流程\n\n以下是针对**Keplr**和**Cosmostation**的分步说明。同样的流程——安装钱包或扩展程序、登录、启用Gonka链并复制您的地址——也适用于[Fox Wallet](https://foxwallet.com/){target=_blank}。\n\n=== \"外部钱包\"\n\n    === \"我没有外部钱包\"\n\n        === \"Keplr移动应用\"\n\n            前往[Keplr官方网站](https://www.keplr.app",
+      "checksum": "87ebda3f49dbf7ffc8a73430cba6b37658cca9b4e58604aaa7228369341104b0"
+    },
+    "zh/wallet/dashboard.md": {
+      "title": "仪表盘入门",
+      "status": null,
+      "content_preview": "# 仪表盘入门\n仪表盘展示链上实时活动。\n\n与依赖单一中心化服务器不同，所有网络数据和推理指标都直接托管在主机（Host）节点上。这意味着仪表盘可以连接到任何主机的节点，直接从源头获取实时网络数据。\n\n你可以通过两种方式使用仪表盘：\n\n- **预览模式** — 无需创建账户即可浏览仪表盘并查看网络数据。\n- **完整模式** — 连接你的钱包以解锁全部功能。\n\n=== \"**预览模式**\"\n\n    如果你想在设置账户之前探索网络或查看实时推理指标，请按以下步骤操作：\n    \n    1. 以下是创世节点列表。从下面的列表中选择一个随机节点，并在新的浏览器窗口/标签页中打开。\n    \n        - [http://36.189.234.237:17241](http://36.189.234.237:17241)  \n        - [https://node1.gonka.ai:8443](https://node1.gonka.ai:8443)  \n        - [https://node2.gonka.ai:8443](https://node2.gonka.ai:8443)  \n        - [http://47.236.26.199:8000](http://47.236.26.199:8000)  \n        - [http://47.236.19.22:18000](http://47.236.19.22:18000)  \n        - [http://gonka.spv.re:8000](http://gonka.spv.re:8000)  \n    \n        ??? note \"替代方案：完全去中心化地随机选择节点\"\n            打开主机列表：[http://node2.gonka.ai:8443/",
+      "checksum": "48d243bd01b44918e432ce352e010dfea0a824cf430c34fa70b1115bbf43e9a9"
+    },
+    "zh/wallet/external_wallets.md": {
+      "title": "将 Gonka 网络添加到 Keplr 与 Leap 钱包",
+      "status": null,
+      "content_preview": "# 将 Gonka 网络添加到 Keplr 与 Leap 钱包\n\n本指南介绍如何在 Keplr 与 Leap 钱包中添加 Gonka 网络。\n\n内容分为两部分：\n\n1. 完整安装 — 如果你尚未安装 Keplr 或 Leap，这一部分将提供从零创建并设置钱包的步骤。\n2. 快速添加 — 如果你已安装 Keplr 或 Leap，可直接跳转到将 Gonka 网络添加到现有钱包的步骤。\n\n=== \"完整安装（如果你还没有 Keplr 或 Leap）\"\n    \n    ??? note \"什么是钱包？\"\n        加密钱包是用于安全存储用户公钥与私钥的容器，帮助管理、转移与购买加密货币。Gonka 基于 Cosmos-SDK 区块链框架构建，可通过 Keplr 或 Leap 钱包访问（更多钱包支持即将到来）。\n        \n    === \"Keplr\"\n    \n        访问[Keplr 官方网站](https://www.keplr.app/){target=_blank}并点击“Get Keplr wallet”。\n    \n        <a href=\"/images/dashboard_keplr_step_2_1.png\" target=\"_blank\"><img src=\"/images/dashboard_keplr_step_2_1.png\" style=\"width:500px; height:auto;\"></a>\n    \n        选择与你浏览器匹配的扩展程序。\n    \n        <a href=\"/images/dashboard_keplr_step_2_2.png\" target=\"_blank\"><img src=\"/images/dashboard_keplr_step_2_2.png\" style=\"wid",
+      "checksum": "485407c13532842d8ea65fb1d3a56acce6636d428675818f04134dee1da1ce98"
+    },
+    "zh/wallet/pricing.md": {
+      "title": "定价",
+      "status": null,
+      "content_preview": "# 定价\n\n网络采用自动动态定价机制来计算推理成本。\n每个模型都有一个实时AI代币价格，该价格基于实际需求和利用率指标在每个区块中重新计算。\n\n!!! note \"这是网络价格，而非您支付给经纪人的价格\"\n    此处描述的机制设定了**协议层的链上每推理单位价格**。如果您通过[社区经纪人](../developer/quickstart.md#11-pick-a-broker)访问Gonka，该经纪人是独立的转售方，会在该价格基础上自行设定零售价格、支付方式和速率限制，并可能覆盖其自身成本。因此，您实际支付的价格因经纪人而异，请查阅每个经纪人的条款，选择最适合您的方案。\n\n## 定价机制\n\n- 系统以区块为单位监控每个模型的使用情况。\n- 对于每个模型：\n    - 如果利用率高于目标 → 价格上升。\n    - 如果利用率低于目标 → 价格下降。\n- 调整幅度受每区块最大增减速率限制，以维持稳定性。\n- 价格直接以代币表示。\n\n## 价格调整算法\n动态定价系统的核心是一个稳定性区域模型，该模型自动调整价格，以在可接受的利用率范围内维持最优网络利用率和价格稳定。系统采用基于区块的调整机制，定义了稳定性区域和最大变更限制。\n\n### 稳定性区域模型\n系统为网络利用率定义了一个40%至60%的稳定性区域，在此范围内价格保持不变。超出该区域时，价格将调整以促使利用率回归最优范围。计算过程如下：\n\n1. **当前利用率计算**：在每个区块结束时，系统根据当前区块和近期区块历史中的推理请求数量与预估网络容量，计算近期利用率。\n2. **稳定性区域检查**：如果利用率为40%至60%，则不进行价格调整，以在正常网络运行期间保持价格稳定。\n3. **价格调整**：如果利用率低于40%，价格降低以鼓励更多使用；如果利用率高于60%，价格提高以抑制需求。\n4. **线性价格调整**：价格",
+      "checksum": "41f61996ab5c5a302dbed6c3a02f5e27642e3f90a0b57857024d3a0d27be5892"
+    },
+    "zh/wallet/wallet-and-transfer-guide.md": {
+      "title": "钱包与转账指南",
+      "status": null,
+      "content_preview": "# 钱包与转账指南\n\n本指南介绍如何在网络上使用钱包与代币：获取钱包地址、查询余额、发送代币与查看交易状态。\n开始之前，你需要能够访问你的账户。根据你在网络中的角色，按以下说明操作。\n\n**你是主机（Host）吗？**\n\n你向网络贡献算力并获得代币奖励。\n继续之前，你需要访问你的钱包。钱包会在链节点（chain-node）容器首次运行时自动创建。\n\n**你是开发者（Developer）吗？**\n\n如果你只需要推理（发送提示并接收响应），则不需要 Gonka 账户——请前往[开发者快速上手](https://gonka.ai/developer/quickstart/)通过社区代理开始使用。\n\n如果你正在运行自己的网关或需要在链上持有和转移 GNK，请先[创建 Gonka 账户](https://gonka.ai/wallet/create-account/)，然后返回此指南。\n\n当你能够访问你的账户后，回到本指南继续：\n\n- [查询余额](https://gonka.ai/wallet/wallet-and-transfer-guide/#query-balance)\n- [发送代币](https://gonka.ai/wallet/wallet-and-transfer-guide/#send-coins)\n- [查看交易状态](https://gonka.ai/wallet/wallet-and-transfer-guide/#check-transaction-status)\n\n## 计量单位（Denominations）\n\n在链上，唯一有效的计量单位是 `ngonka`。所有余额、手续费和交易必须全部使用 `ngonka`。  \nCosmos SDK 虽然允许定义额外的计量单位，但这些单位并不具有实际效用 —— SDK **不会**在它们之间执行任何自动换算。  \n",
+      "checksum": "f06f928565b74dc3c114c1f74269fd3ed2b4c5187a930076e1a6abd04de1f8d5"
+    }
+  }
+}
