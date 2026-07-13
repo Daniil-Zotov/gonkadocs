@@ -17,6 +17,7 @@
 # весь site_dir). Сборка Gonka идёт во вложенный каталог _site/gonka и чистит
 # только его, не трогая остальной сайт.
 set -euo pipefail
+export DISABLE_MKDOCS_2_WARNING=true
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 SITE_DIR="$ROOT/_site"

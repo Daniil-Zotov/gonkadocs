@@ -8,7 +8,7 @@ Welcome to the Gonka community hub. This section brings together governance comm
 
 Gonka governance is supported by specialized committees that help evaluate proposals, coordinate execution, and ensure transparency.
 
-### [Gonka Product Committee](./gonka%20product%20committee/)
+### [Gonka Product Committee](./gonka%20product%20committee/README.md)
 
 Evaluates proposals for product value, risks, and roadmap alignment. Publishes scored assessments using the **Proposal Scoring Framework v1**.
 
@@ -18,7 +18,7 @@ Evaluates proposals for product value, risks, and roadmap alignment. Publishes s
 
 ---
 
-### [Governance Support Committee](./governance%20support%20committee/)
+### [Governance Support Committee](./governance%20support%20committee/README.md)
 
 A service committee that makes the governance process clear, transparent, and convenient for proposal authors, hosts, and the community. Does not evaluate proposals — supports the process.
 
@@ -27,7 +27,7 @@ A service committee that makes the governance process clear, transparent, and co
 
 ---
 
-### [Go-to-Market Committee](./go-to-market%20committee/)
+### [Go-to-Market Committee](./go-to-market%20committee/README.md)
 
 Develops go-to-market direction: from formulating tasks for external contractors and coordinating with them to evaluating marketing proposals, checking team expertise, and controlling execution quality.
 
@@ -37,7 +37,7 @@ Develops go-to-market direction: from formulating tasks for external contractors
 
 ---
 
-### [Gonka Restitution Committee](./gonka%20restitution%20committee/)
+### [Gonka Restitution Committee](./gonka%20restitution%20committee/README.md)
 
 Handles compensation for losses caused by protocol bugs and unpredictable behavior. Pre-filters protocol-related claims and groups incidents for general votes.
 
@@ -49,7 +49,7 @@ Handles compensation for losses caused by protocol bugs and unpredictable behavi
 
 ## Roadmap
 
-The [Gonka Network Development Roadmap](./roadmap/) outlines the three-horizon strategy for protocol evolution: infrastructure scaling, product maturity, and ecosystem growth.
+The [Gonka Network Development Roadmap](./roadmap/README.md) outlines the three-horizon strategy for protocol evolution: infrastructure scaling, product maturity, and ecosystem growth.
 
 ---
 

@@ -14,6 +14,7 @@ site_dir: _site
 # дублировать контент и не ловить "not in nav" предупреждения.
 exclude_docs: |
   gonka/docs/
+  proposals/proposals/**/full-proposal.md
 
 # Отдельные посты обсуждений и страницы community доступны по ссылкам из
 # индексных страниц, но намеренно не входят в nav-меню напрямую.
@@ -22,9 +23,10 @@ not_in_nav: |
   community/issues/**/*.md
   community/**/*.md
   proposals/preproposals/**/*.md
+  proposals/pipeline.md
+  404.md
   agents.md
   index.md
-  README.md
 
 nav:
   - Gonka.ai/docs: "/gonka/docs/"
@@ -51,7 +53,7 @@ nav:
     - Issues:
       - Overview: community/issues/index.md
     - Activity Feed: community/activity/index.md
-    - Calendar: community/calendar.md
+    - Calendar: community/calendar/index.md
   - Proposals:
     - Pre-Proposals:
       - Overview: proposals/preproposals/index.md
