@@ -1,0 +1,481 @@
+{
+  "section": "proposals",
+  "snapshot_time": "2026-07-13T09:40:25.660416+00:00",
+  "files": {
+    "2025-q3/1/index.md": {
+      "title": "#1 – Correct Epoch Length",
+      "status": "passed",
+      "checksum": "6e08b7774ad81034c61207b492852adae779ad7466b764986ea1f7f1f96a486f"
+    },
+    "2025-q3/2/index.md": {
+      "title": "#2 – Proposal introducing new Qwen3 models",
+      "status": "passed",
+      "checksum": "dc3fc186a1fb23fd9d98a11ccd86088773410145f8721265502835138e45d5c6"
+    },
+    "2025-q3/3/index.md": {
+      "title": "#3 – Increase PoC Validation Length",
+      "status": "passed",
+      "checksum": "5bcf741e9f9283766323f731f112b76b53ba119a78f8461c48720535c43900be"
+    },
+    "2025-q3/4/index.md": {
+      "title": "#4 – Upgrade Proposal: v0.2.2",
+      "status": "rejected",
+      "checksum": "95b0b39ba637510462134fc3ede08486e2228a6b9d650e6b92fbddc854e23120"
+    },
+    "2025-q3/5/index.md": {
+      "title": "#5 – Expedite voting for upgrades",
+      "status": "passed",
+      "checksum": "4522400831a1dcde50b310a9dbfbef20e73c7251bb50ab303f07589124e079f0"
+    },
+    "2025-q3/6/index.md": {
+      "title": "#6 – Upgrade Proposal: v0.2.2",
+      "status": "passed",
+      "checksum": "008df6bc20c8c11792b8a614570c9305e762a08dd9cf99534e62843802270f9c"
+    },
+    "2025-q3/index.md": {
+      "title": "2025-Q3 Proposals",
+      "status": "passed",
+      "checksum": "14ea308342e0a6bffddabf8d9fdf8f611189bfdb32bb642c3c334582ed7ad22d"
+    },
+    "2025-q4/10/index.md": {
+      "title": "#10 – Bandwidth Limits",
+      "status": "passed",
+      "checksum": "5f6a38b3beff7428c389b23558e42ec7e29b03869271dbca8bf1370ffcaa67aa"
+    },
+    "2025-q4/11/index.md": {
+      "title": "#11 – Bandwidth Limits",
+      "status": "passed",
+      "checksum": "65a2b9bed391182ddc740e022958cae8b1b77955d1114d909e012476bb11ae31"
+    },
+    "2025-q4/12/index.md": {
+      "title": "#12 – Bandwidth Limits",
+      "status": "passed",
+      "checksum": "f7603f734583af79cb4c748bfbf60860415f3d4d0c5e204b749d742b88508705"
+    },
+    "2025-q4/13/index.md": {
+      "title": "#13 – Upgrade Proposal: v0.2.5",
+      "status": "passed",
+      "checksum": "5ad183ba3003fa0cfe6c228fcfa416ddab66cd91076bfbc0358ac50c8c6f0a32"
+    },
+    "2025-q4/14/index.md": {
+      "title": "#14 – Sale GNK from Community Fund",
+      "status": "passed",
+      "checksum": "5050552a2aab252564d53c98983b603fc8f3348a1e704276a5f1136202d59223"
+    },
+    "2025-q4/15/index.md": {
+      "title": "#15 – Upgrade Proposal: v0.2.6",
+      "status": "rejected",
+      "checksum": "2424000242864bd56b06c666e550f83ca64670bb681937a19a35e953f6a86679"
+    },
+    "2025-q4/16/index.md": {
+      "title": "#16 – Upgrade Proposal: v0.2.6",
+      "status": "passed",
+      "checksum": "6e66bbb94791ceba20236c25ef3361cb7c0740c16396046d7e52f8b333eb74e9"
+    },
+    "2025-q4/17/index.md": {
+      "title": "#17 – Expected amount of Confirmation PoC per epoch",
+      "status": "passed",
+      "checksum": "86071c21cb1e2106a81fa003e29e94702437a4a64e657108a625b619b5d580d4"
+    },
+    "2025-q4/7/index.md": {
+      "title": "#7 – Upgrade Proposal: v0.2.3",
+      "status": "passed",
+      "checksum": "4641927f95c8d2f520bb45293a72fc2272e9dc857efc822dd5e4384251b56a80"
+    },
+    "2025-q4/8/index.md": {
+      "title": "#8 – Upgrade Proposal: v0.2.4",
+      "status": "passed",
+      "checksum": "ff5e8468c77965f96c5578f3441590bef77157b1ab8abf4d6ebae412daf20470"
+    },
+    "2025-q4/9/index.md": {
+      "title": "#9 – Higher Bandwidth Limits & Voting Time Back to 24H",
+      "status": "passed",
+      "checksum": "87a72a2393d180526a53204166761e906dc36d27a23d01365fa8b7b98102dda2"
+    },
+    "2025-q4/index.md": {
+      "title": "2025-Q4 Proposals",
+      "status": "passed",
+      "checksum": "bd7faec586a150c200a2e4a5327d27b9a7537a63fe32bd072f19a46a2e8a7f72"
+    },
+    "2026-q1/18/index.md": {
+      "title": "#18 – Test",
+      "status": "rejected",
+      "checksum": "bd19e74659f22c486302e1c1375f8cd1755bb7cc14e97358e4498a2a202b48da"
+    },
+    "2026-q1/19/index.md": {
+      "title": "#19 – Upgrade Proposal: v0.2.7",
+      "status": "passed",
+      "checksum": "a46b38ec5780dcb1a4ab70266dee6db2d3ab6bc415a33c4633cff98cc5bdcfc1"
+    },
+    "2026-q1/20/index.md": {
+      "title": "#20 – Enable Whitelist",
+      "status": "passed",
+      "checksum": "c2417a66c65fe8c8120365f9414cc2c780210b443da3b2646d1380d4094a0870"
+    },
+    "2026-q1/21/index.md": {
+      "title": "#21 – Fix mistakes in allowlist",
+      "status": "passed",
+      "checksum": "bd7effe0dc2a12fbda9cc6905cc512b94a9e1c2a881ec6599776d666ceaa18fc"
+    },
+    "2026-q1/22/index.md": {
+      "title": "#22 – Allowlist Timing",
+      "status": "passed",
+      "checksum": "8df5bd9ea69a5c2573ac5d2ce81ee84bb75251b4096c3ac703f76b806d0615ab"
+    },
+    "2026-q1/24/index.md": {
+      "title": "#24 – Upgrade Proposal: v0.2.8",
+      "status": "rejected",
+      "checksum": "fdc2211afec39cbb50857c9668aba12f63fe9e99b54fd6a6d19452edba7fd588"
+    },
+    "2026-q1/25/index.md": {
+      "title": "#25 – Upgrade Proposal: v0.2.8",
+      "status": "passed",
+      "checksum": "29cd33c1704c7fc27551aac43e4a275b8b58a4f0edf4dd4a290bf3c96a25a3d6"
+    },
+    "2026-q1/26/index.md": {
+      "title": "#26 – Upgrade Proposal: v0.2.9",
+      "status": "passed",
+      "checksum": "4a80539060b65d258b5df9133bca785c0df7ae6c618cea0b202a34fcd43f3b68"
+    },
+    "2026-q1/27/index.md": {
+      "title": "#27 – Upgrade Proposal: v0.2.10",
+      "status": "passed",
+      "checksum": "193c888be5da367b16ae7e306eda59d63a3144cfc4a29d77c1d7de1b1bc83e90"
+    },
+    "2026-q1/28/index.md": {
+      "title": "#28 – Collateral Parameters Update",
+      "status": "rejected",
+      "checksum": "cc441d0ab7961a95068ed3c4e9c48d840c67306ca99501fe19bd048d6f50eaf4"
+    },
+    "2026-q1/29/index.md": {
+      "title": "#29 – Network Parameters Update: Disable TA Allowlist, Increase Prices 100x",
+      "status": "rejected",
+      "checksum": "d97192071ebf3697b53bc327924151fe0723e679e138bd61602ab917e15f32a0"
+    },
+    "2026-q1/30/index.md": {
+      "title": "#30 – Test Proposal",
+      "status": "rejected",
+      "checksum": "e967234ec68dd18a79eb71729cca72e008719def0703b126ff78f508c16ede9d"
+    },
+    "2026-q1/31/index.md": {
+      "title": "#31 – Upgrade Proposal: v0.2.11",
+      "status": "passed",
+      "checksum": "3a31d11293e62bcd69fea452089cdf45a15e960727df2275d6631f75dac6854e"
+    },
+    "2026-q1/32/index.md": {
+      "title": "#32 – Epoch 158 compensation payout from gov module (batch vesting)",
+      "status": "passed",
+      "checksum": "87ba630dd15535a2c7aebc0d0ab346267e7455ffe1b0ee2f43ec5b93e43d03d1"
+    },
+    "2026-q1/33/index.md": {
+      "title": "#33 – Epochs 132-133 compensation payout from gov module",
+      "status": "passed",
+      "checksum": "f31c504f52d00c92988663102f83c7eca06736ffa2df2e27c001fa98831819b2"
+    },
+    "2026-q1/34/index.md": {
+      "title": "#34 – gonka.ai / TheSoul social media awareness project",
+      "status": "rejected",
+      "checksum": "880c45a8174aa93a9acd589522b260173034795c1779acac60aebebc5a2c7706"
+    },
+    "2026-q1/35/index.md": {
+      "title": "#35 – gonka.ai / TheSoul social media awareness project",
+      "status": "rejected",
+      "checksum": "71b0c747c070096edc34f501f3af0af42ed40df240c3a453eaba077afae72d7b"
+    },
+    "2026-q1/index.md": {
+      "title": "2026-Q1 Proposals",
+      "status": "rejected",
+      "checksum": "5b57cdfe1951cf53e58c1a44e2d87694d442b9a53a986c1fd4be046654b2b686"
+    },
+    "2026-q2/36/index.md": {
+      "title": "#36 – Register Kava USDT IBC metadata and approve for trading",
+      "status": "passed",
+      "checksum": "4657bc93fb5bb0502cd36c3db0547a5ce4ceb5bf4f4deb7c5b683f2123e1ae92"
+    },
+    "2026-q2/37/index.md": {
+      "title": "#37 – What is your stance on MLM projects around gonka.ai?",
+      "status": "rejected",
+      "checksum": "d584787c705e0a8bc47eaf1d5c4f774e602a69bc661b672c2b035a8897b86ce6"
+    },
+    "2026-q2/38/index.md": {
+      "title": "#38 – CryptoCommons: Community Support & Token Promotion Plan",
+      "status": "rejected",
+      "checksum": "10d4dbbd6ce7f81733e7f377a5ffa3f981f9175e7f981d209f1d2653624446e3"
+    },
+    "2026-q2/39/index.md": {
+      "title": "#39 – Community Series Film — Why Gonka Exists",
+      "status": "passed",
+      "checksum": "1c696dc6dc579d33ac06bbc4d6156284361f1ae471d1c0ffd254717c05a34d33"
+    },
+    "2026-q2/40/index.md": {
+      "title": "#40 – Governance: extend voting period to 48 hours",
+      "status": "passed",
+      "checksum": "6230308e751452e640542ba81a4804cefadd996d55375233b9d52d06e00c69f3"
+    },
+    "2026-q2/41/index.md": {
+      "title": "#41 – INC4 | Gonka Node Observability Platform",
+      "status": "rejected",
+      "checksum": "2d97eef84517860dbfab3a153e368ccda9da494832e26a21cff56b55b0accd08"
+    },
+    "2026-q2/42/index.md": {
+      "title": "#42 – Support Gonka at Global Compute Sovereignty Summit",
+      "status": "passed",
+      "checksum": "8e7e11d2478e700565833b694a8204ae4bbdb3a4eee5285d7af131773337fb56"
+    },
+    "2026-q2/43/index.md": {
+      "title": "#43 – Governance Architecture Proposal for the Gonka.ai Network",
+      "status": "rejected",
+      "checksum": "eae0d1ad4a2a55420bee3fff7dbcd646c8e421edca366281a5dbc45653226f97"
+    },
+    "2026-q2/44/index.md": {
+      "title": "#44 – Upgrade Proposal: v0.2.12",
+      "status": "passed",
+      "checksum": "990cafbea8389665581fec9a88557710b39f2a2ad5f44e55064d1687649eaa78"
+    },
+    "2026-q2/45/index.md": {
+      "title": "#45 – Governance Architecture Proposal for the Gonka.ai Network",
+      "status": "rejected",
+      "checksum": "f0ac980aa458d92be6d0268300a7bc5634d341c54da94214c777d3322e0f557f"
+    },
+    "2026-q2/46/index.md": {
+      "title": "#46 – Epochs 132-247 compensation payout from gov module (batch vesting)",
+      "status": "passed",
+      "checksum": "917a71006915e4b47bf92a4fccbe4cc7b5b5e5bc1bd52d17ff52b91ed7bec4f1"
+    },
+    "2026-q2/47/index.md": {
+      "title": "#47 – Retroactive bounty: open-source PoC throughput optimization (+10–12% measured) with 250 total installations",
+      "status": "rejected",
+      "checksum": "73c04a9133fb487245ae76d145e84a746965a4ef473c7c349d6b6eadf2a3e601"
+    },
+    "2026-q2/48/index.md": {
+      "title": "#48 – Lower Direct Participation Threshold to 10%",
+      "status": "passed",
+      "checksum": "4fa371b215cf16a887ffadbc3f8310687d153c0a564ad8da6dd3a5cf20745932"
+    },
+    "2026-q2/49/index.md": {
+      "title": "#49 – Gonka Media Dominance in TechL/AI with 5 AI Influencers",
+      "status": "passed",
+      "checksum": "3d746e314fa4babe164caeb5d99920d54c5125a2fbb8d96addde0a75b0b5f7d0"
+    },
+    "2026-q2/50/index.md": {
+      "title": "#50 – Retroactive bounty: open-source PoC throughput optimization (+10–12% measured) with 250 total installations",
+      "status": "passed",
+      "checksum": "012643963e4cb3b06ad735c25fd4b9824d7de1266a062e3a885d81118cdf7c64"
+    },
+    "2026-q2/51/index.md": {
+      "title": "#51 – Support Gonka's presence at WebX Asia",
+      "status": "passed",
+      "checksum": "797a234ea11b5ea24ba46f81e3bcfb61ae1f921b7848b6c9c236f4ff7774c7b1"
+    },
+    "2026-q2/52/index.md": {
+      "title": "#52 – Upgrade Proposal: v0.2.13",
+      "status": "rejected",
+      "checksum": "bd12fb3d3b19a689faa3d00659fb4276a981a18982563617401e1ed63902364a"
+    },
+    "2026-q2/53/index.md": {
+      "title": "#53 – INC4 | Gonka NOP - grant for the node deployment tool",
+      "status": "rejected",
+      "checksum": "159c215ac7465f1239b5baaf32577741d4b3658513d7e36db12a034c39d59a72"
+    },
+    "2026-q2/54/index.md": {
+      "title": "#54 – Upgrade Proposal: v0.2.13",
+      "status": "passed",
+      "checksum": "a1a7db3128456865c146f2e34508a9e0a7396331c3ad5ad721d9324615527e6a"
+    },
+    "2026-q2/55/index.md": {
+      "title": "#55 – GRC Proposal #2 - Restitution (epochs 248-254)",
+      "status": "passed",
+      "checksum": "2cb06ccdf0a7a27fd28bc77d2ff211cffa2eb85ff7eeeceb8cb638a95ef59bf7"
+    },
+    "2026-q2/56/index.md": {
+      "title": "#56 – INC4 | Gonka NOP - grant for the node deployment tool",
+      "status": "rejected",
+      "checksum": "7b3b42316c0415a2ee6cc3639dabf5bee849f435417af1a04df20f762b3496a6"
+    },
+    "2026-q2/57/index.md": {
+      "title": "#57 – Approve the Gonka Network Development Roadmap",
+      "status": "passed",
+      "checksum": "1c22925784b519ee7b58279344164148750aa3e9c93bc0927863c9a446d3c590"
+    },
+    "2026-q2/58/index.md": {
+      "title": "#58 – Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)",
+      "status": "rejected",
+      "checksum": "ab4d08b89107cc6c751d0cfb4e6da8716a7ced45cda676250e2a4e6b3d03138a"
+    },
+    "2026-q2/59/index.md": {
+      "title": "#59 – Gonka Onboarding Video Guide — Milestone 1 (Prepayment)",
+      "status": "rejected",
+      "checksum": "f020cf3cc24c02c919a9b0ebe7c94e53e323e718557864b631ac529495fd827f"
+    },
+    "2026-q2/60/index.md": {
+      "title": "#60 – TheSoul - Offer 1.1: Brand positioning (25,000 USDT)",
+      "status": "passed",
+      "checksum": "c530e5597cd5002d89287a645ca3ff0d6b8a34a1499b5a0806e881e39f070c99"
+    },
+    "2026-q2/61/index.md": {
+      "title": "#61 – TheSoul - Offer 1.2: Brandbook (20,000 USDT)",
+      "status": "passed",
+      "checksum": "ebea672c67b38945febb125f1a0f0bccc0a344775dbe9aefe6169c0c1cd735f5"
+    },
+    "2026-q2/62/index.md": {
+      "title": "#62 – TheSoul - Offer 1.3: Influencer pilot (50,000 USDT)",
+      "status": "passed",
+      "checksum": "6104b12246c01564bdb3020ac82590d2197a4b83c794d5248aae893c1babb804"
+    },
+    "2026-q2/63/index.md": {
+      "title": "#63 – TheSoul - Offer 2.1: Website and landings (10,000 USDT)",
+      "status": "passed",
+      "checksum": "8ea66219df68bad80416407a9dd6a0960a49be9bc3f49435fce0a2fe9e6f6033"
+    },
+    "2026-q2/64/index.md": {
+      "title": "#64 – TheSoul - Offer 2.2: Analytics and attribution (28,000 GNK)",
+      "status": "passed",
+      "checksum": "5c084ed2739f0e2c010b39fe6f89aa3f15781970ee8d7107adc0874d801bbd75"
+    },
+    "2026-q2/65/index.md": {
+      "title": "#65 – TheSoul - Offer 2.3: Digital strategy (100,000 GNK)",
+      "status": "passed",
+      "checksum": "5d3897f216f0b75f9fcfb00ba586e25c8b44883e50937c954855ebb8f2bd97c7"
+    },
+    "2026-q2/66/index.md": {
+      "title": "#66 – test proposal - 测试方案",
+      "status": "rejected",
+      "checksum": "209ee0643dd457d845cdc6754d5352f8c2ffe6544e5524681d7fc38da4e4c9c8"
+    },
+    "2026-q2/67/index.md": {
+      "title": "#67 – Kimi Restitution (epochs 265-276)",
+      "status": "passed",
+      "checksum": "ad5a4db893a1c9f6e33c9807fc5e17be2e9d69068003209118595f36e4b5e69f"
+    },
+    "2026-q2/68/index.md": {
+      "title": "#68 – Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)",
+      "status": "passed",
+      "checksum": "e4739e4ad6e3ffdb481c9a7778abaf5ca87ec160b15ad9a6781f7190e3ae1f43"
+    },
+    "2026-q2/69/index.md": {
+      "title": "#69 – Increase minimum governance deposit to 500 GNK",
+      "status": "rejected",
+      "checksum": "870e67a5f47944face6e9d600123b42b34ce3fd63aaef5b4399f25216dcf9de7"
+    },
+    "2026-q2/70/index.md": {
+      "title": "#70 – GNK Racers: Launch GameFi Mini-App to Drive User Growth & Wallet Activity",
+      "status": "rejected",
+      "checksum": "91203bb4f90b26552b79c3e799a50d48581eba62d69383b3800dc2a8d3c94a03"
+    },
+    "2026-q2/71/index.md": {
+      "title": "#71 – Gonka PR Proposal for US/Global Regions",
+      "status": "rejected",
+      "checksum": "3cdcd410ae639154b350f5e13a14389d1d6479688ff0158524f3b1187e7167bc"
+    },
+    "2026-q2/72/index.md": {
+      "title": "#72 – Open devshard escrow creation to community wallet gonka1afj0tz53z56zngs425m83vxl5y2xmwm692hfrn",
+      "status": "rejected",
+      "checksum": "9dd431fb4493bf316db99c17828c0d24aaef5c5dce5fed41b04e758a46b5c5a0"
+    },
+    "2026-q2/73/index.md": {
+      "title": "#73 – Increase minimum governance deposit to 500 GNK and expedited minimum deposit to 1000 GNK",
+      "status": "passed",
+      "checksum": "fd77b67ca9f47ccfc2d3f1f6dfa54f173b0035e9ca8cf84d1e40a87d1f70a2df"
+    },
+    "2026-q2/74/index.md": {
+      "title": "#74 – Gonka Labs: Maintaining Infrastructure, Improving Products, and Launching New Ones",
+      "status": "passed",
+      "checksum": "fa5be91befd0cf33396f4bd266db0f42f49e48f75f213eb65525963b3ecf9b73"
+    },
+    "2026-q2/75/index.md": {
+      "title": "#75 – Private Inc × Gonka — Network Growth Initiative",
+      "status": "rejected",
+      "checksum": "a2fac8f0c2fabb19e47450209f18f959c9a0e6556bc63ba1af160d3c98e84c7f"
+    },
+    "2026-q2/76/index.md": {
+      "title": "#76 – Governance 16: devshard v2 and bounty payouts",
+      "status": "passed",
+      "checksum": "e09b2d710574e9e53cb0b68d3d61d2fea9e4f2400063692a63d13422b80e5d4c"
+    },
+    "2026-q2/77/index.md": {
+      "title": "#77 – Gonka PR Proposal for US/Global Regions",
+      "status": "passed",
+      "checksum": "b3dfd4f0c9b367ad5a778c27893a5bf99ebe72c4f0bcd0d478abeca585c946e0"
+    },
+    "2026-q2/78/index.md": {
+      "title": "#78 – Governance 17: update PoC model lineup",
+      "status": "passed",
+      "checksum": "738df1c16828e844d041c6d1d0e46cf046c0800532a91c95d396c0dd045499f4"
+    },
+    "2026-q2/79/index.md": {
+      "title": "#79 – Add Kimi K2.6 and GLM 5.2 model",
+      "status": "passed",
+      "checksum": "22a19b536030f3103b3cf6bc6d2a71a1875adfb7742c9ef4fe8d51fcdcdf110c"
+    },
+    "2026-q2/index.md": {
+      "title": "2026-Q2 Proposals",
+      "status": "passed",
+      "checksum": "561439ce7415cbb3a0f8795c74aea591763f1854f5c70d11e356d6449606c4af"
+    },
+    "2026-q3/80/full-proposal.md": {
+      "title": "GRC Proposal #3 - Restitution",
+      "status": null,
+      "checksum": "5ce5144cc9979ec7a4cd184a3e4eb6c6d60e07f2a572296f5060b7a1fda831fd"
+    },
+    "2026-q3/80/index.md": {
+      "title": "#80 – GRC Proposal #3 - Restitution",
+      "status": "rejected",
+      "checksum": "1fa9c26e7cc9bebbc973fd7d1d69575defaf75b3f961bd5d42dc9759e1813e5b"
+    },
+    "2026-q3/81/full-proposal.md": {
+      "title": "Kimi cPoC Validation Failure, Epochs 306–309",
+      "status": null,
+      "checksum": "b74374907ab55cbb9039cc1a0fb69132cdf843a9dde757518cc4bd59c9ddc005"
+    },
+    "2026-q3/81/index.md": {
+      "title": "#81 – Kimi cPoC Restitution (epochs 306-309)",
+      "status": "rejected",
+      "checksum": "85dc3437963f685cc05c4817aab735fcca5e4c0517beba31c4f0aeecdf62e762"
+    },
+    "2026-q3/82/full-proposal.md": {
+      "title": "External Test Lab & Community DevNet",
+      "status": null,
+      "checksum": "ec4cea907855a95719739a4f2e3595a3b79c13a519aec8ff2bb1ddc70e7405c5"
+    },
+    "2026-q3/82/index.md": {
+      "title": "#82 – External Test Lab x Community DevNet",
+      "status": "passed",
+      "checksum": "432b1e1943d9cff127acd7db52fbef35247c958371293ed8ed88da1a012802db"
+    },
+    "2026-q3/83/index.md": {
+      "title": "#83 – Approve devshard v3",
+      "status": "passed",
+      "checksum": "aad50e6a66aa02ef6cf6a605e5038234a438547e4cec8a093e2afcb4f82cdffb"
+    },
+    "2026-q3/84/full-proposal.md": {
+      "title": "Bringing $3M+ in New Capital to GONKA via Uniswap — Phase 1/6 ($50k USDT)",
+      "status": null,
+      "checksum": "64964e6089f3f5c812ea022405fad6b705ca3a8ecdbf65f04e935a6d03b31f3f"
+    },
+    "2026-q3/84/index.md": {
+      "title": "#84 – Bringing $3M+ in New Capital to GONKA via Uniswap — Phase 1/6 ($50k USDT)",
+      "status": "rejected",
+      "checksum": "f27ee5b9cf9ebd31ec9b5d407b5c7b7a0a8c839fefd0d5e45d0bd3f027a5b327"
+    },
+    "2026-q3/85/full-proposal.md": {
+      "title": "Internal Go-To-Market Team for 3 Month to Set Up the Basis: acquisition funnels, analytics, sharable target audience deep understanding",
+      "status": null,
+      "checksum": "8cb29ef543c4f553be249f640eb55dc8cc707456bbcfbd3d15c902f648307649"
+    },
+    "2026-q3/85/index.md": {
+      "title": "#85 – Internal Go-To-Market Team for 3 Month",
+      "status": "rejected",
+      "checksum": "57f86b36dd6a9a5edd3ab90f73943dd80429c92b44d2826873f623ece1a13c6e"
+    },
+    "2026-q3/index.md": {
+      "title": "2026-Q3 Proposals",
+      "status": "rejected",
+      "checksum": "1cbf9ab9b5d690209a5f5a1835520eee805a8ca03f806f5355abe7b6ef862c23"
+    },
+    "index.md": {
+      "title": "On-Chain Governance Proposals",
+      "status": "rejected",
+      "checksum": "45d846b066b8b26f95b474de1db3f7823dfc1ae35274dc950410743ec9088f7a"
+    }
+  }
+}
