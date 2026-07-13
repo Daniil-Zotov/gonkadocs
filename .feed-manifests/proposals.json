@@ -1,6 +1,6 @@
 {
   "section": "proposals",
-  "snapshot_time": "2026-07-13T12:00:37.076115+00:00",
+  "snapshot_time": "2026-07-13T12:10:34.796005+00:00",
   "files": {
     "2025-q3/1/index.md": {
       "title": "#1 – Correct Epoch Length",
@@ -49,14 +49,6 @@
       "funding": "",
       "quorum_met": null,
       "checksum": "008df6bc20c8c11792b8a614570c9305e762a08dd9cf99534e62843802270f9c"
-    },
-    "2025-q3/index.md": {
-      "title": "2025-Q3 Proposals",
-      "status": "passed",
-      "content_preview": "# 2025-Q3 Proposals\n\n<div class=\"prop-oview-filter\" markdown=\"1\">\n\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-passed\" checked>\n  <span class=\"prop-filter-label\">Passed</span>\n</label>\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-rejected\" checked>\n  <span class=\"prop-filter-label\">Rejected</span>\n</label>\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-voting\" checked>\n  <span class=\"prop-filter-label\">Voting</span>\n</label>\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-funding\">\n  <span class=\"prop-filter-label\">With Funding</span>\n</label>\n<span class=\"prop-filter-count\"></span>\n\n</div>\n\n<div class=\"quarter-summary\" markdown=\"1\">\n\n## 2025-Q3 Summary\n\n<div class=\"qs-stats\">\n<div class",
-      "funding": "",
-      "quorum_met": null,
-      "checksum": "14ea308342e0a6bffddabf8d9fdf8f611189bfdb32bb642c3c334582ed7ad22d"
     },
     "2025-q4/10/index.md": {
       "title": "#10 – Bandwidth Limits",
@@ -145,14 +137,6 @@
       "funding": "",
       "quorum_met": null,
       "checksum": "87a72a2393d180526a53204166761e906dc36d27a23d01365fa8b7b98102dda2"
-    },
-    "2025-q4/index.md": {
-      "title": "2025-Q4 Proposals",
-      "status": "passed",
-      "content_preview": "# 2025-Q4 Proposals\n\n<div class=\"prop-oview-filter\" markdown=\"1\">\n\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-passed\" checked>\n  <span class=\"prop-filter-label\">Passed</span>\n</label>\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-rejected\" checked>\n  <span class=\"prop-filter-label\">Rejected</span>\n</label>\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-voting\" checked>\n  <span class=\"prop-filter-label\">Voting</span>\n</label>\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-funding\">\n  <span class=\"prop-filter-label\">With Funding</span>\n</label>\n<span class=\"prop-filter-count\"></span>\n\n</div>\n\n<div class=\"quarter-summary\" markdown=\"1\">\n\n## 2025-Q4 Summary\n\n<div class=\"qs-stats\">\n<div class",
-      "funding": "",
-      "quorum_met": null,
-      "checksum": "bd7faec586a150c200a2e4a5327d27b9a7537a63fe32bd072f19a46a2e8a7f72"
     },
     "2026-q1/18/index.md": {
       "title": "#18 – Test",
@@ -289,14 +273,6 @@
       "funding": "970,000 GNK · Community Pool",
       "quorum_met": null,
       "checksum": "71b0c747c070096edc34f501f3af0af42ed40df240c3a453eaba077afae72d7b"
-    },
-    "2026-q1/index.md": {
-      "title": "2026-Q1 Proposals",
-      "status": "rejected",
-      "content_preview": "# 2026-Q1 Proposals\n\n<div class=\"prop-oview-filter\" markdown=\"1\">\n\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-passed\" checked>\n  <span class=\"prop-filter-label\">Passed</span>\n</label>\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-rejected\" checked>\n  <span class=\"prop-filter-label\">Rejected</span>\n</label>\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-voting\" checked>\n  <span class=\"prop-filter-label\">Voting</span>\n</label>\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-funding\">\n  <span class=\"prop-filter-label\">With Funding</span>\n</label>\n<span class=\"prop-filter-count\"></span>\n\n</div>\n\n<div class=\"quarter-summary\" markdown=\"1\">\n\n## 2026-Q1 Summary\n\n<div class=\"qs-stats\">\n<div class",
-      "funding": "",
-      "quorum_met": null,
-      "checksum": "5b57cdfe1951cf53e58c1a44e2d87694d442b9a53a986c1fd4be046654b2b686"
     },
     "2026-q2/36/index.md": {
       "title": "#36 – Register Kava USDT IBC metadata and approve for trading",
@@ -650,14 +626,6 @@
       "quorum_met": null,
       "checksum": "22a19b536030f3103b3cf6bc6d2a71a1875adfb7742c9ef4fe8d51fcdcdf110c"
     },
-    "2026-q2/index.md": {
-      "title": "2026-Q2 Proposals",
-      "status": "passed",
-      "content_preview": "# 2026-Q2 Proposals\n\n<div class=\"prop-oview-filter\" markdown=\"1\">\n\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-passed\" checked>\n  <span class=\"prop-filter-label\">Passed</span>\n</label>\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-rejected\" checked>\n  <span class=\"prop-filter-label\">Rejected</span>\n</label>\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-voting\" checked>\n  <span class=\"prop-filter-label\">Voting</span>\n</label>\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-funding\">\n  <span class=\"prop-filter-label\">With Funding</span>\n</label>\n<span class=\"prop-filter-count\"></span>\n\n</div>\n\n<div class=\"quarter-summary\" markdown=\"1\">\n\n## 2026-Q2 Summary\n\n<div class=\"qs-stats\">\n<div class",
-      "funding": "",
-      "quorum_met": null,
-      "checksum": "561439ce7415cbb3a0f8795c74aea591763f1854f5c70d11e356d6449606c4af"
-    },
     "2026-q3/80/full-proposal.md": {
       "title": "GRC Proposal #3 - Restitution",
       "status": null,
@@ -745,22 +713,6 @@
       "funding": "600,000 GNK · $36,000 · Community Pool",
       "quorum_met": false,
       "checksum": "57f86b36dd6a9a5edd3ab90f73943dd80429c92b44d2826873f623ece1a13c6e"
-    },
-    "2026-q3/index.md": {
-      "title": "2026-Q3 Proposals",
-      "status": "rejected",
-      "content_preview": "# 2026-Q3 Proposals\n\n<div class=\"prop-oview-filter\" markdown=\"1\">\n\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-passed\" checked>\n  <span class=\"prop-filter-label\">Passed</span>\n</label>\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-rejected\" checked>\n  <span class=\"prop-filter-label\">Rejected</span>\n</label>\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-voting\" checked>\n  <span class=\"prop-filter-label\">Voting</span>\n</label>\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-funding\">\n  <span class=\"prop-filter-label\">With Funding</span>\n</label>\n<span class=\"prop-filter-count\"></span>\n\n</div>\n\n<div class=\"quarter-summary\" markdown=\"1\">\n\n## 2026-Q3 Summary\n\n<div class=\"qs-stats\">\n<div class",
-      "funding": "",
-      "quorum_met": false,
-      "checksum": "1cbf9ab9b5d690209a5f5a1835520eee805a8ca03f806f5355abe7b6ef862c23"
-    },
-    "index.md": {
-      "title": "On-Chain Governance Proposals",
-      "status": "rejected",
-      "content_preview": "# On-Chain Governance Proposals\n\n<div class=\"prop-oview-filter\" markdown=\"1\">\n\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-passed\" checked>\n  <span class=\"prop-filter-label\">Passed</span>\n</label>\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-rejected\" checked>\n  <span class=\"prop-filter-label\">Rejected</span>\n</label>\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-voting\" checked>\n  <span class=\"prop-filter-label\">Voting</span>\n</label>\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-funding\">\n  <span class=\"prop-filter-label\">With Funding</span>\n</label>\n<span class=\"prop-filter-count\"></span>\n\n</div>\n\n<div class=\"quarter-summary\" markdown=\"1\">\n\n## Overview\n\n<div class=\"qs-stats\">\n<div ",
-      "funding": "",
-      "quorum_met": false,
-      "checksum": "c64f41c760546b8bece893ae2a565d6fc2c51a4592147c9da4e9d4393ea0f75a"
     }
   }
 }
