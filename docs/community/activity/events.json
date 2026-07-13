@@ -1,5 +1,23 @@
 [
   {
+    "id": "evt_20260713172212_c7ff10d3",
+    "timestamp": "2026-07-13T17:22:12.828403+00:00",
+    "section": "preproposals",
+    "action": "status_changed",
+    "item": {
+      "title": "Private Inc × Gonka — Network Growth Initiative",
+      "url": "/proposals/preproposals/ed8148eb-535e-4677-9a6b-5316c81c996a/",
+      "file": "ed8148eb-535e-4677-9a6b-5316c81c996a/index.md"
+    },
+    "details": {
+      "content_before": "# Private Inc × Gonka — Network Growth Initiative\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Igor Alexeev\n**Created:** 2026-06-13 15:40 UTC\n**Closes:** 2026-07-13 15:40 UTC\n**Language:** EN\n**Votes:** 0\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nInitiative to accelerate Gonka’s growth by attracting new AI developers, infrastructure operators, and expanding the network with up to 4,000 additional GPUs.\n\n---\n\n## Full Proposal\n\nExecutive Summary\n\nPrivate Inc proposes launching a user acquisition program designed to attract new participants to the Gonka ecosystem, targeting AI developers, AI infrastructure operators, GPU farms, AI companies, and other stakeholders within the artificial intelligence industry.\n\nThe primary objective of this i",
+      "content_after": "# Private Inc × Gonka — Network Growth Initiative\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Igor Alexeev\n**Created:** 2026-06-13 15:40 UTC\n**Closes:** 2026-07-13 15:40 UTC\n**Language:** EN\n**Votes:** 0\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nInitiative to accelerate Gonka’s growth by attracting new AI developers, infrastructure operators, and expanding the network with up to 4,000 additional GPUs.\n\n---\n\n## Full Proposal\n\nExecutive Summary\n\nPrivate Inc proposes launching a user acquisition program designed to attract new participants to the Gonka ecosystem, targeting AI developers, AI infrastructure operators, GPU farms, AI companies, and other stakeholders within the artificial intelligence industry.\n\nThe primary objective of this ",
+      "status_before": "active",
+      "status_after": "expired"
+    },
+    "ai_description": "Предложение Private Inc по масштабированию сети Gonka на 4000 GPU и привлечению новых участников экосистемы не набрало ни одного голоса и завершилось с истекшим сроком. Статус инициативы сменился с активной на просроченную, поэтому она не переходит в стадию голосования."
+  },
+  {
     "id": "evt_20260713170818_d9bd55eb",
     "timestamp": "2026-07-13T17:08:18.384578+00:00",
     "section": "discussions",

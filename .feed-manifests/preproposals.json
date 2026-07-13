@@ -1,6 +1,6 @@
 {
   "section": "preproposals",
-  "snapshot_time": "2026-07-13T15:08:07.027590+00:00",
+  "snapshot_time": "2026-07-13T17:22:19.417141+00:00",
   "files": {
     "00e8a72a-e121-4ea1-8d30-95a0d51268b2/index.md": {
       "title": "Gonka.TV — амбассадор Гонки на YouTube",
@@ -154,9 +154,9 @@
     },
     "ed8148eb-535e-4677-9a6b-5316c81c996a/index.md": {
       "title": "Private Inc × Gonka — Network Growth Initiative",
-      "status": "active",
-      "content_preview": "# Private Inc × Gonka — Network Growth Initiative\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Igor Alexeev\n**Created:** 2026-06-13 15:40 UTC\n**Closes:** 2026-07-13 15:40 UTC\n**Language:** EN\n**Votes:** 0\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nInitiative to accelerate Gonka’s growth by attracting new AI developers, infrastructure operators, and expanding the network with up to 4,000 additional GPUs.\n\n---\n\n## Full Proposal\n\nExecutive Summary\n\nPrivate Inc proposes launching a user acquisition program designed to attract new participants to the Gonka ecosystem, targeting AI developers, AI infrastructure operators, GPU farms, AI companies, and other stakeholders within the artificial intelligence industry.\n\nThe primary objective of this i",
-      "checksum": "7a3fc2ed9a8b3f7507af91aaa243a81a9a66f0d9b80693878ae9c3d3e9e58d50"
+      "status": "expired",
+      "content_preview": "# Private Inc × Gonka — Network Growth Initiative\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Igor Alexeev\n**Created:** 2026-06-13 15:40 UTC\n**Closes:** 2026-07-13 15:40 UTC\n**Language:** EN\n**Votes:** 0\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nInitiative to accelerate Gonka’s growth by attracting new AI developers, infrastructure operators, and expanding the network with up to 4,000 additional GPUs.\n\n---\n\n## Full Proposal\n\nExecutive Summary\n\nPrivate Inc proposes launching a user acquisition program designed to attract new participants to the Gonka ecosystem, targeting AI developers, AI infrastructure operators, GPU farms, AI companies, and other stakeholders within the artificial intelligence industry.\n\nThe primary objective of this ",
+      "checksum": "3eece165de1618ea2c57c7ebcbb8e4d3aeb3e94f41f34c75cc8bc28cc2b8febd"
     },
     "efc0edeb-bc49-4c6b-a6e7-5b20ccfbe571/index.md": {
       "title": "Стресс тест инфиренса",
