@@ -88,16 +88,6 @@
 {% block scripts %}
   {{ super() }}
   <script>
-    // Force full navigation INTO Gonka docs sub-build (SPA can't switch nav/header)
-    // Don't intercept when already inside Gonka docs — its own SPA handles it.
-    document.body.addEventListener('click', function(e) {
-      var a = e.target.closest('a[href^="/gonka/docs/"]');
-      if (a && a.target !== '_blank' && !location.pathname.startsWith('/gonka/docs/')) {
-        e.preventDefault();
-        location.href = a.href;
-      }
-    });
-
     function initCommunityNav() {
       var path = window.location.pathname.replace(/\/$/, '');
 
@@ -167,6 +157,16 @@
     }
 
     document$.subscribe(function() {
+      // Force full reload when SPA navigates into Gonka docs (separate build
+      // with its own nav/header that SPA can't replace)
+      if (location.pathname.startsWith('/gonka/docs/')) {
+        var hasGonkaNav = document.querySelector('.md-nav__link[href*="architecture"]');
+        if (!hasGonkaNav) {
+          location.reload();
+          return;
+        }
+      }
+
       var title = document.querySelector('.md-header__title');
       if (title && !title.querySelector('a')) {
         var a = document.createElement('a');
