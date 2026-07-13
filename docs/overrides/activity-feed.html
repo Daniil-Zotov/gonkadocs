@@ -443,8 +443,16 @@
   }
 
   FILTERS.forEach(function(cb) { cb.addEventListener('change', render); });
-  document$.subscribe(loadEvents);
-  if (document.readyState !== 'loading') loadEvents();
+
+  function init() {
+    loadEvents();
+    document$.subscribe(loadEvents);
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
 })();
 </script>
 {% endblock %}
