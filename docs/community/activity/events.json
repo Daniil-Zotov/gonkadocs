@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260713115047_b84661da",
+    "timestamp": "2026-07-13T11:50:47.191420+00:00",
+    "section": "proposals",
+    "action": "updated",
+    "item": {
+      "title": "On-Chain Governance Proposals",
+      "url": "/proposals/proposals/",
+      "file": "index.md"
+    },
+    "details": {
+      "content_before": "# On-Chain Governance Proposals\n\n<div class=\"prop-oview-filter\" markdown=\"1\">\n\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-passed\" checked>\n  <span class=\"prop-filter-label\">Passed</span>\n</label>\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-rejected\" checked>\n  <span class=\"prop-filter-label\">Rejected</span>\n</label>\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-voting\" checked>\n  <span class=\"prop-filter-label\">Voting</span>\n</label>\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-funding\">\n  <span class=\"prop-filter-label\">With Funding</span>\n</label>\n<span class=\"prop-filter-count\"></span>\n\n</div>\n\n<div class=\"quarter-summary\" markdown=\"1\">\n\n## Overview\n\n<div class=\"qs-stats\">\n<div ",
+      "content_after": "# On-Chain Governance Proposals\n\n<div class=\"prop-oview-filter\" markdown=\"1\">\n\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-passed\" checked>\n  <span class=\"prop-filter-label\">Passed</span>\n</label>\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-rejected\" checked>\n  <span class=\"prop-filter-label\">Rejected</span>\n</label>\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-voting\" checked>\n  <span class=\"prop-filter-label\">Voting</span>\n</label>\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-funding\">\n  <span class=\"prop-filter-label\">With Funding</span>\n</label>\n<span class=\"prop-filter-count\"></span>\n\n</div>\n\n<div class=\"quarter-summary\" markdown=\"1\">\n\n## Overview\n\n<div class=\"qs-stats\">\n<div "
+    },
+    "ai_description": "Wait, looking at the content provided, the \"ДО\" (Before) and \"ПОСЛЕ\" (After) sections appear to be almost identical. Let me check carefully.\n\nBefore:\n```\n# On-Chain Governance Proposals\n\n<div class=\"prop-oview-filter\" markdown=\"1\">\n\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-passed\" checked>\n  <span class=\"prop-filter-label\">Passed</span>\n</label>\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-rejected\" checked>\n  <span class=\"prop-filter-label\">Rejected</span>\n</label>\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-voting\" checked>\n  <span class=\"prop-filter"
+  },
+  {
     "id": "evt_20260713114041_17f1152a",
     "timestamp": "2026-07-13T11:40:41.342420+00:00",
     "section": "proposals",
