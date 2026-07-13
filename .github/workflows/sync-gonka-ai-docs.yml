@@ -58,6 +58,6 @@ jobs:
             echo "No changes — nothing to push"
           else
             git commit -m "chore: sync docs/gonka/docs + regenerate llms files from gonka-ai/gonka-docs@$(date -u +'%Y-%m-%dT%H:%MZ')"
-            git pull --rebase -X theirs origin main
+            git pull --rebase -X theirs --autostash origin main
             git push
           fi
