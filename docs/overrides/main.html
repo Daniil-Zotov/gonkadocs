@@ -88,6 +88,16 @@
 {% block scripts %}
   {{ super() }}
   <script>
+    // Force full navigation INTO Gonka docs sub-build (SPA can't switch nav/header)
+    // Don't intercept when already inside Gonka docs — its own SPA handles it.
+    document.body.addEventListener('click', function(e) {
+      var a = e.target.closest('a[href^="/gonka/docs/"]');
+      if (a && a.target !== '_blank' && !location.pathname.startsWith('/gonka/docs/')) {
+        e.preventDefault();
+        location.href = a.href;
+      }
+    });
+
     function initCommunityNav() {
       var path = window.location.pathname.replace(/\/$/, '');
 
