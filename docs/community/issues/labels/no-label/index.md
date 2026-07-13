@@ -6,7 +6,7 @@ template: issues-main.html
 # Issues: no-label
 
 Issues with label **no-label**. Total: **229**.
-Updated: `2026-07-13 22:16 UTC`.
+Updated: `2026-07-13 23:19 UTC`.
 
 [← All Issues](../../index.md)
 
@@ -66,7 +66,7 @@ Updated: `2026-07-13 22:16 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@maria-mitina](https://github.com/maria-mitina) opened 4 days ago</span>
+      <span class="issues-meta-item">[@maria-mitina](https://github.com/maria-mitina) opened 5 days ago</span>
       
     </div>
   </div>
@@ -366,7 +366,7 @@ Updated: `2026-07-13 22:16 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@Korolev-Oleg](https://github.com/Korolev-Oleg) opened 19 days ago</span>
+      <span class="issues-meta-item">[@Korolev-Oleg](https://github.com/Korolev-Oleg) opened 20 days ago</span>
       
     </div>
   </div>
@@ -381,7 +381,7 @@ Updated: `2026-07-13 22:16 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@olkwwuah](https://github.com/olkwwuah) opened 19 days ago</span>
+      <span class="issues-meta-item">[@olkwwuah](https://github.com/olkwwuah) opened 20 days ago</span>
       
     </div>
   </div>
@@ -396,7 +396,7 @@ Updated: `2026-07-13 22:16 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@bruev](https://github.com/bruev) opened 19 days ago</span>
+      <span class="issues-meta-item">[@bruev](https://github.com/bruev) opened 20 days ago</span>
       
     </div>
   </div>
@@ -411,7 +411,7 @@ Updated: `2026-07-13 22:16 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@appgencore](https://github.com/appgencore) opened 19 days ago</span>
+      <span class="issues-meta-item">[@appgencore](https://github.com/appgencore) opened 20 days ago</span>
       
     </div>
   </div>
@@ -426,7 +426,7 @@ Updated: `2026-07-13 22:16 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@piterberkut](https://github.com/piterberkut) opened 19 days ago</span>
+      <span class="issues-meta-item">[@piterberkut](https://github.com/piterberkut) opened 20 days ago</span>
       
     </div>
   </div>
