@@ -1,6 +1,6 @@
 {
   "section": "preproposals",
-  "snapshot_time": "2026-07-13T11:27:16.740822+00:00",
+  "snapshot_time": "2026-07-13T15:08:07.027590+00:00",
   "files": {
     "00e8a72a-e121-4ea1-8d30-95a0d51268b2/index.md": {
       "title": "Gonka.TV — амбассадор Гонки на YouTube",
@@ -193,12 +193,6 @@
       "status": "expired",
       "content_preview": "# Предложение по развитию игровой экосистемы блокчейна через турнирные пулы вознаг\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Victor\n**Created:** 2026-06-12 21:31 UTC\n**Closes:** 2026-07-12 21:31 UTC\n**Language:** RU\n**Votes:** 0\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\n**Tournament Yield Pools** — механизм интеграции игровых турниров с инфраструктурой блокчейна для привлечения пользователей, увеличения ликвидности и роста сетевой активности.\n\n---\n\n## Full Proposal\n\n---\n\n## Проблема\n\nБольшинство игровых турниров работают по простой модели:\n\n* игроки платят взнос;\n* средства распределяются между победителями;\n* после завершения турнира деньги покидают экосистему.\n\nТакая модель не создаёт долгосрочной ценности ни для игры, ни для блокч",
       "checksum": "3e332897134c5487a3b37e665c945447a5dc700ab8d784eeaaeb261fc7bab3f8"
-    },
-    "index.md": {
-      "title": "Gonka Community Pre-Proposals",
-      "status": "active",
-      "content_preview": "# Gonka Community Pre-Proposals\n\nCommunity proposals from [gonka.vote](https://gonka.vote). These are off-chain indicative polls where GNK holders signal support for potential on-chain governance proposals.\n\n---\n\n## 🟢 Active Proposals\n\n<div class=\"quarter-summary\" markdown=\"1\">\n<div class=\"qs-stats\">\n<div class=\"qs-stat passed\"><span class=\"qs-num\">4</span><span class=\"qs-desc\">Active</span></div>\n<div class=\"qs-stat\"><span class=\"qs-num\">11</span><span class=\"qs-desc\">Votes</span></div>\n<div class=\"qs-stat\"><span class=\"qs-num\">2.0M GNK</span><span class=\"qs-desc\">Total Bid</span></div>\n</div>\n</div>\n\n| Status | Title | Author | Votes | Avg. Bid | Closes |\n| :----- | :----- | :----- | ----: | -------: | :----- |\n| 🟢 | [Private Inc × Gonka — Network Growth Initiative](./ed8148eb-535e-4677-",
-      "checksum": "71f9ac9ec0abcb5fe661e36aa060cc495b2123f2e6748f500aaec3ad8ad2167b"
     }
   }
 }
