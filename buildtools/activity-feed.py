@@ -122,10 +122,12 @@ def scan_directory(dir_path: Path, section: str) -> dict:
 
 def make_url(section: str, file_path: str) -> str:
     p = Path(file_path)
-    if p.name == 'index.md':
+    # Strip .md extension first (handles both INDEX.MD and OTHER.MD)
+    if p.suffix == '.md':
+        p = p.with_suffix('')
+    if p.name == 'index':
         p = p.parent
 
-    # Handle root files (index.md at the section root)
     parts = [part for part in p.parts if part != '.']
 
     url_section = {
