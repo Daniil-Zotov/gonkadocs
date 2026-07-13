@@ -213,7 +213,7 @@
           calLink.className = 'md-header__button md-icon gonka-cal-link';
           calLink.title = 'Calendar';
           calLink.setAttribute('aria-label', 'Calendar');
-          calLink.innerHTML = '<img src="/images/calendar.png" alt="Calendar" width="24" height="24" style="display:block">';
+          calLink.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10z"/></svg>';
           palette.parentNode.insertBefore(calLink, palette.nextSibling);
         }
 
@@ -225,7 +225,7 @@
           newsLink.className = 'md-header__button md-icon gonka-news-link';
           newsLink.title = 'Activity Feed';
           newsLink.setAttribute('aria-label', 'Activity Feed');
-          newsLink.innerHTML = '<img src="/images/news.png" alt="Activity Feed" width="24" height="24" style="display:block">';
+          newsLink.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/></svg>';
           var calRef = palette.parentNode.querySelector('.gonka-cal-link');
           palette.parentNode.insertBefore(newsLink, calRef ? calRef.nextSibling : palette.nextSibling);
         }
