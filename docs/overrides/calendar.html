@@ -1,0 +1,306 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+{{ super() }}
+<link rel="stylesheet" href="{{ base_url }}/stylesheets/calendar.css">
+{% endblock %}
+
+{% block content %}
+<div class="cal-wrap">
+  <p class="cal-lead">Community events: proposals, committee calls, AMAs, network upgrades.</p>
+
+  <div class="cal-filters" id="cal-filters">
+    <label class="cal-filter-cb">
+      <input type="checkbox" class="cal-filter-input" value="governance" checked>
+      <span class="cal-filter-dot gov"></span> Governance
+    </label>
+    <label class="cal-filter-cb">
+      <input type="checkbox" class="cal-filter-input" value="community" checked>
+      <span class="cal-filter-dot com"></span> Community
+    </label>
+    <label class="cal-filter-cb">
+      <input type="checkbox" class="cal-filter-input" value="committee" checked>
+      <span class="cal-filter-dot cmt"></span> Committees
+    </label>
+    <label class="cal-filter-cb">
+      <input type="checkbox" class="cal-filter-input" value="network" checked>
+      <span class="cal-filter-dot net"></span> Network
+    </label>
+    <span class="cal-filter-count" id="cal-count"></span>
+  </div>
+
+  <div class="cal-timeline" id="cal-timeline"></div>
+  <div class="cal-loading" id="cal-loading">Loading&hellip;</div>
+  <div class="cal-empty" id="cal-empty" style="display:none">No events match the selected filters.</div>
+</div>
+
+<script>
+(function() {
+  var TL = document.getElementById('cal-timeline');
+  var LOADING = document.getElementById('cal-loading');
+  var EMPTY = document.getElementById('cal-empty');
+  var COUNT = document.getElementById('cal-count');
+  var FILTERS = document.querySelectorAll('.cal-filter-input');
+  var BASE = '{{ base_url }}';
+  var CALENDAR_DIR = BASE + '/community/calendar/';
+
+  var CATEGORY_COLORS = {
+    governance: '#0969da',
+    community:  '#1a7f37',
+    committee:  '#8250df',
+    network:    '#9a6700',
+  };
+
+  var MONTHS = [
+    'January', 'February', 'March', 'April', 'May', 'June',
+    'July', 'August', 'September', 'October', 'November', 'December'
+  ];
+
+  var QUARTERS = [
+    { label: 'Q1', months: [0, 1, 2] },
+    { label: 'Q2', months: [3, 4, 5] },
+    { label: 'Q3', months: [6, 7, 8] },
+    { label: 'Q4', months: [9, 10, 11] },
+  ];
+
+  function escHtml(s) {
+    if (!s) return '';
+    var d = document.createElement('div');
+    d.textContent = s;
+    return d.innerHTML;
+  }
+
+  function typeLabel(type) {
+    return ({
+      proposal_vote_end: 'Vote',
+      proposal_report:  'Report',
+      ama:              'AMA',
+      committee_call:   'Call',
+      network_upgrade:  'Upgrade',
+      network_event:    'Event',
+    })[type] || type;
+  }
+
+  function fmtLocalTime(timeStr) {
+    if (!timeStr) return '';
+    var m = timeStr.match(/^(\d{1,2}):(\d{2})\s*UTC/);
+    if (!m) return timeStr;
+    var h = parseInt(m[1], 10);
+    var min = parseInt(m[2], 10);
+    try {
+      var d = new Date();
+      d.setUTCHours(h, min, 0, 0);
+      var lh = d.getHours();
+      var lmin = d.getMinutes();
+      var off = -d.getTimezoneOffset();
+      var offH = Math.floor(Math.abs(off) / 60);
+      var offMin = Math.abs(off) % 60;
+      var sign = off >= 0 ? '+' : '-';
+      var l = String(lh).padStart(2, '0') + ':' + String(lmin).padStart(2, '0');
+      var o = 'UTC' + sign + String(offH).padStart(2, '0');
+      if (offMin) o += ':' + String(offMin).padStart(2, '0');
+      return l + ' (' + o + ')';
+    } catch(e) {
+      return timeStr;
+    }
+  }
+
+  function getToday() {
+    var d = new Date();
+    var y = d.getFullYear();
+    var mm = String(d.getMonth() + 1).padStart(2, '0');
+    var dd = String(d.getDate()).padStart(2, '0');
+    return {
+      year:  y,
+      month: d.getMonth(),
+      date:  d.getDate(),
+      iso:   y + '-' + mm + '-' + dd,
+      label: d.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' }),
+    };
+  }
+
+  function loadAllEvents() {
+    LOADING.style.display = 'block';
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', CALENDAR_DIR + 'manifest.json?_t=' + Date.now(), true);
+    xhr.onload = function() {
+      if (xhr.status < 200 || xhr.status >= 400) {
+        TL.innerHTML = '<div class="cal-error">Failed to load manifest.json</div>';
+        LOADING.style.display = 'none';
+        return;
+      }
+      try {
+        var manifest = JSON.parse(xhr.responseText);
+        var sources = manifest.sources || [];
+        if (sources.length === 0) {
+          LOADING.style.display = 'none';
+          EMPTY.style.display = 'block';
+          return;
+        }
+        var pending = sources.length;
+        var allEvents = [];
+        sources.forEach(function(src) {
+          var req = new XMLHttpRequest();
+          req.open('GET', CALENDAR_DIR + src + '?_t=' + Date.now(), true);
+          req.onload = function() {
+            if (req.status >= 200 && req.status < 400) {
+              try {
+                var evs = JSON.parse(req.responseText);
+                if (Array.isArray(evs)) allEvents = allEvents.concat(evs);
+              } catch(e) {}
+            }
+            pending--;
+            if (pending === 0) { LOADING.style.display = 'none'; render(allEvents); }
+          };
+          req.onerror = function() {
+            pending--;
+            if (pending === 0) { LOADING.style.display = 'none'; render(allEvents); }
+          };
+          req.send();
+        });
+      } catch(e) {
+        TL.innerHTML = '<div class="cal-error">Parse error: ' + escHtml(e.message) + '</div>';
+        LOADING.style.display = 'none';
+      }
+    };
+    xhr.onerror = function() {
+      LOADING.style.display = 'none';
+      TL.innerHTML = '<div class="cal-error">Failed to load calendar.</div>';
+    };
+    xhr.send();
+  }
+
+  function render(events) {
+    window._calEvents = events;
+
+    var active = {};
+    FILTERS.forEach(function(cb) { active[cb.value] = cb.checked; });
+
+    var today = getToday();
+
+    var eventsByDate = {};
+    events.forEach(function(e) {
+      if (!active[e.category]) return;
+      if (!eventsByDate[e.date]) eventsByDate[e.date] = [];
+      eventsByDate[e.date].push(e);
+    });
+
+    var flat = Object.keys(eventsByDate).reduce(function(a, d) { return a.concat(eventsByDate[d]); }, []);
+    COUNT.textContent = flat.length;
+
+    var allDayKeys = Object.keys(eventsByDate).sort();
+
+    var html = '';
+
+    QUARTERS.forEach(function(q) {
+      var yr = today.year;
+      html += '<div class="cal-quarter" data-quarter="' + yr + '-' + q.label + '">';
+
+      html += '<div class="cal-quarter-label">';
+      html += escHtml(yr + '-' + q.label) + ' <span class="cal-quarter-arrow">&#9660;</span>';
+      html += '</div>';
+
+      q.months.forEach(function(mi) {
+        var monthName = MONTHS[mi];
+        var monthKey = yr + '-' + String(mi + 1).padStart(2, '0');
+
+        html += '<div class="cal-month" data-month="' + monthKey + '">';
+
+        // Month header row
+        html += '<div class="cal-month-label">' + monthName + '</div>';
+        html += '<div class="cal-month-marker"><div class="cal-month-node"></div></div>';
+        html += '<div class="cal-month-content"></div>';
+
+        // Today marker for current month
+        if (mi === today.month) {
+          var todayEvents = eventsByDate[today.iso] || [];
+          html += '<div class="cal-today-label">Today <span class="cal-today-date">' + escHtml(today.label) + '</span></div>';
+          html += '<div class="cal-today-marker"><div class="cal-today-dot"></div></div>';
+          html += '<div class="cal-today-content">';
+          if (todayEvents.length === 0) {
+            html += '<div class="cal-event cal-event--muted">No events today.</div>';
+          } else {
+            todayEvents.forEach(function(e) { html += eventHTML(e); });
+          }
+          html += '</div>';
+        }
+
+        // Days with events (excluding today)
+        allDayKeys.forEach(function(dateStr) {
+          if (dateStr.indexOf(monthKey) !== 0) return;
+          if (dateStr === today.iso) return;
+          var dayMonthName = MONTHS[parseInt(dateStr.split('-')[1], 10) - 1];
+          var dayNum = parseInt(dateStr.split('-')[2], 10);
+          var dayEvents = eventsByDate[dateStr];
+
+          html += '<div class="cal-day-label">' + dayMonthName + ' ' + dayNum + '</div>';
+          html += '<div class="cal-day-marker"><div class="cal-day-dot"></div></div>';
+          html += '<div class="cal-day-content">';
+          dayEvents.forEach(function(e) { html += eventHTML(e); });
+          html += '</div>';
+        });
+
+        html += '</div>'; // .cal-month
+      });
+
+      html += '</div>'; // .cal-quarter
+    });
+
+    TL.innerHTML = html;
+    EMPTY.style.display = flat.length ? 'none' : 'block';
+
+    // Quarter collapse: click on the label
+    TL.querySelectorAll('.cal-quarter-label').forEach(function(label) {
+      label.addEventListener('click', function() {
+        var q = this.closest('.cal-quarter');
+        if (q) q.classList.toggle('cal-quarter--collapsed');
+      });
+    });
+  }
+
+  function eventHTML(e) {
+    var color = CATEGORY_COLORS[e.category] || '#24292f';
+    var tLabel = typeLabel(e.type);
+    var timeStr = fmtLocalTime(e.time);
+    var s = '';
+
+    s += '<div class="cal-event">';
+    s += '<div class="cal-event-header">';
+    s += '<span class="cal-event-type" style="color:' + color + '">' + tLabel + '</span>';
+    s += '<span class="cal-event-category">' + escHtml(e.category) + '</span>';
+    if (timeStr) {
+      s += '<span class="cal-event-time" title="' + escHtml(e.time || '') + '">' + escHtml(timeStr) + '</span>';
+    }
+    s += '</div>';
+
+    if (e.url) {
+      s += '<a href="' + e.url + '" class="cal-event-title">' + escHtml(e.title) + '</a>';
+    } else {
+      s += '<span class="cal-event-title">' + escHtml(e.title) + '</span>';
+    }
+
+    if (e.description) {
+      s += '<div class="cal-event-desc">' + escHtml(e.description) + '</div>';
+    }
+
+    if (e.tags && e.tags.length) {
+      s += '<div class="cal-event-tags">';
+      e.tags.forEach(function(tag) { s += '<span class="cal-event-tag">' + escHtml(tag) + '</span>'; });
+      s += '</div>';
+    }
+
+    s += '</div>';
+    return s;
+  }
+
+  FILTERS.forEach(function(cb) {
+    cb.addEventListener('change', function() {
+      if (window._calEvents) render(window._calEvents);
+    });
+  });
+
+  loadAllEvents();
+  document$.subscribe(loadAllEvents);
+})();
+</script>
+{% endblock %}

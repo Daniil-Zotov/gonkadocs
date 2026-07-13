@@ -1,0 +1,103 @@
+[
+  {
+    "id": "prop-vote-85",
+    "type": "proposal_vote_end",
+    "title": "#85 – Internal Go-To-Market Team for 3 Month — голосование",
+    "date": "2026-07-20",
+    "time": "14:00 UTC",
+    "description": "Окончание голосования по пропозалу #85: формирование внутренней GTM-команды на 3 месяца",
+    "url": "/proposals/proposals/2026-q3/85/",
+    "category": "governance",
+    "source": "on-chain",
+    "status": "upcoming",
+    "tags": ["vote", "proposal"]
+  },
+  {
+    "id": "prop-vote-84",
+    "type": "proposal_vote_end",
+    "title": "#84 – Bringing $3M+ in New Capital — голосование",
+    "date": "2026-07-22",
+    "time": "14:00 UTC",
+    "description": "Окончание голосования по пропозалу #84: привлечение капитала через Uniswap",
+    "url": "/proposals/proposals/2026-q3/84/",
+    "category": "governance",
+    "source": "on-chain",
+    "status": "upcoming",
+    "tags": ["vote", "proposal"]
+  },
+  {
+    "id": "prop-report-74",
+    "type": "proposal_report",
+    "title": "#74 – Gonka Labs — отчётный дедлайн",
+    "date": "2026-07-25",
+    "description": "Очередной отчёт по пропозалу #74: инфраструктура, продукты, запуски",
+    "url": "/proposals/proposals/2026-q2/74/",
+    "category": "governance",
+    "source": "on-chain",
+    "status": "upcoming",
+    "tags": ["report", "proposal"]
+  },
+  {
+    "id": "prop-vote-83",
+    "type": "proposal_vote_end",
+    "title": "#83 – Approve devshard v3 — голосование",
+    "date": "2026-07-27",
+    "time": "14:00 UTC",
+    "description": "Окончание голосования по пропозалу #83: утверждение devshard v3",
+    "url": "/proposals/proposals/2026-q3/83/",
+    "category": "governance",
+    "source": "on-chain",
+    "status": "upcoming",
+    "tags": ["vote", "proposal"]
+  },
+  {
+    "id": "prop-report-75",
+    "type": "proposal_report",
+    "title": "#75 – Private Inc × Gonka — отчёт",
+    "date": "2026-08-05",
+    "description": "Отчёт по инициативе роста сети Private Inc × Gonka",
+    "url": "/proposals/proposals/2026-q2/75/",
+    "category": "governance",
+    "source": "on-chain",
+    "status": "upcoming",
+    "tags": ["report", "proposal"]
+  },
+  {
+    "id": "prop-vote-82",
+    "type": "proposal_vote_end",
+    "title": "#82 – External Test Lab x Community DevNet — голосование",
+    "date": "2026-08-10",
+    "time": "14:00 UTC",
+    "description": "Окончание голосования по пропозалу #82: внешняя тестовая лаборатория",
+    "url": "/proposals/proposals/2026-q3/82/",
+    "category": "governance",
+    "source": "on-chain",
+    "status": "upcoming",
+    "tags": ["vote", "proposal"]
+  },
+  {
+    "id": "prop-vote-81",
+    "type": "proposal_vote_end",
+    "title": "#81 – Kimi cPoC Restitution — голосование",
+    "date": "2026-08-15",
+    "time": "14:00 UTC",
+    "description": "Окончание голосования по пропозалу #81: компенсация за Kimi cPoC (epochs 306-309)",
+    "url": "/proposals/proposals/2026-q3/81/",
+    "category": "governance",
+    "source": "on-chain",
+    "status": "upcoming",
+    "tags": ["vote", "proposal"]
+  },
+  {
+    "id": "prop-report-76",
+    "type": "proposal_report",
+    "title": "#76 – Governance 16: devshard v2 — отчёт",
+    "date": "2026-08-20",
+    "description": "Отчёт по выполнению Governance 16: devshard v2 и баунти",
+    "url": "/proposals/proposals/2026-q2/76/",
+    "category": "governance",
+    "source": "on-chain",
+    "status": "upcoming",
+    "tags": ["report", "proposal"]
+  }
+]

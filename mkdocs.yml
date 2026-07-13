@@ -51,6 +51,7 @@ nav:
     - Issues:
       - Overview: community/issues/index.md
     - Activity Feed: community/activity/index.md
+    - Calendar: community/calendar.md
   - Proposals:
     - Pre-Proposals:
       - Overview: proposals/preproposals/index.md
@@ -215,11 +216,13 @@ hooks:
   - hooks/full_proposal.py
   - hooks/issues_nav.py
   - hooks/proposals_nav.py
+  - hooks/calendar_manifest.py
 
 extra_css:
   - stylesheets/github.css
   - stylesheets/issues.css
   - stylesheets/proposals.css
+  - stylesheets/calendar.css
 
 extra_javascript:
   - scripts/proposals-countdown.js
