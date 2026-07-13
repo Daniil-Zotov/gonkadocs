@@ -1,171 +1,204 @@
 {
   "section": "preproposals",
-  "snapshot_time": "2026-07-13T09:37:28.002243+00:00",
+  "snapshot_time": "2026-07-13T11:27:16.740822+00:00",
   "files": {
     "00e8a72a-e121-4ea1-8d30-95a0d51268b2/index.md": {
       "title": "Gonka.TV — амбассадор Гонки на YouTube",
       "status": "expired",
+      "content_preview": "# Gonka.TV — амбассадор Гонки на YouTube\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Mikhail Chudinov\n**Created:** 2026-04-27 23:30 UTC\n**Closes:** 2026-05-11 23:30 UTC\n**Language:** RU\n**Votes:** 0\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nMitch, основатель gonka.top, запускает Gonka.TV — YouTube-канал об экосистеме Гонки: обучение, интервью, AMA. Ищу поддержку сообщества.\n\n---\n\n## Full Proposal\n\n[Gonka.TV](http://Gonka.TV) — предложение сообществу\n\nМеня зовут Михаил, все меня знают под ником Mitch. Я основатель первого майнинг пула [gonka.top](http://gonka.top) и, судя по всему, неплохо умею объяснять сложные технические вещи простым языком — об этом мне говорят сами люди из сообщества.\n\n**Идея простая:** я хочу плотнее заняться YouT",
       "checksum": "5f0bf02260c3eb73d85e9b39bb4135c08e5a126b523656c35126a839a6e0def6"
     },
     "012f8a32-45ab-4ba8-b6f3-39631d19eb84/index.md": {
       "title": "Return Withheld Miner Rewards: Redistribute Gov-Wallet Balance for Ep 132–247",
       "status": "expired",
+      "content_preview": "# Return Withheld Miner Rewards: Redistribute Gov-Wallet Balance for Ep 132–247\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Evgenii Maksimenkov\n**Created:** 2026-05-01 05:34 UTC\n**Closes:** 2026-05-08 05:34 UTC\n**Language:** EN\n**Votes:** 0\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nSince v0.2.9 and v0.2.11, withheld miner rewards have accumulated in the gov account (~3 053 801 GNK). Proposal returns them via batch vesting to 1 623 miners, pro-rata by rewarded_coins per epoch.\n\n---\n\n## Full Proposal\n\nShould we redistribute the gov-wallet balance back to miners? Looking for your feedback before drafting a proposal\n\nFellow miners and stakeholders — I want to gauge community sentiment on a\nproposal idea before turning it into an on-chain v",
       "checksum": "13ad63f28012e9f605a4d5e5753733c4c99515215df2b665632f3654942df7c8"
     },
     "0395efa6-8eef-4d83-85cb-83d36a937f96/index.md": {
       "title": "7. Team Epokha AI / epokha.ai Grant Request",
       "status": "expired",
+      "content_preview": "# 7. Team Epokha AI / epokha.ai Grant Request\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Slava MSE!\n**Created:** 2026-06-11 05:47 UTC\n**Closes:** 2026-07-11 05:47 UTC\n**Language:** EN\n**Votes:** 0\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nTeam Epokha AI is building Agent Gonka, an AI agent platform using Gonka Inference, with 100+ workflows, integrations, tutorials, and demos.\n\n---\n\n## Full Proposal\n\nWhat does your team plan to build or deliver for Gonka over the next three months?\n\nOver the next three months, the team plans to build and launch the core version of **Agent Gonka** — an AI agent platform powered by the **Gonka Inference API**.\n\nThe main deliverables include:\n\n* Build the core platform with a dashboard, chat interface, m",
       "checksum": "f254759067b63354fae46c45312aaa5ba2574e05b120e1217c3672b56bf23968"
     },
     "08405617-5654-4ead-be62-642affa1739e/index.md": {
       "title": "12. Team Slava MSE Team Grant Request",
       "status": "expired",
+      "content_preview": "# 12. Team Slava MSE Team Grant Request\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Slava MSE!\n**Created:** 2026-06-11 05:53 UTC\n**Closes:** 2026-07-11 05:53 UTC\n**Language:** EN\n**Votes:** 0\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nTeam Slava MSE Team runs GonkaDB, Media, links, and ranking tools, and plans to expand multilingual content, videos, docs, and community support.\n\n---\n\n## Full Proposal\n\nWhat does your team plan to build or deliver for Gonka over the next three months?\n\nOver the next three months, Team Slava MSE Team plans to develop two main directions: **Gonka Media** and **Gonka Data Base / GonkaDB**.\n\n### Gonka Media\n\nOver the next three months, the team plans to:\n\n* Prepare and publish at least **180 posts** in Gonka ",
       "checksum": "9cb0cb60d0ce816faa4f879ff900bd72e8f4703a626198ebc029caa10fb6cae6"
     },
     "205219a5-6ed2-4f25-8d22-fa7c65a45ba6/index.md": {
       "title": "External Test Lab & Community DevNet",
       "status": "active",
+      "content_preview": "# External Test Lab & Community DevNet\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Sergii Paranko\n**Created:** 2026-07-04 12:00 UTC\n**Closes:** 2026-07-14 11:44 UTC\n**Language:** EN\n**Votes:** 4\n**Avg. Bid:** 168.7K GNK\n\n</div>\n\n4-month pilot proposal for community-owned testing infrastructure and QA capacity.\n\n---\n\n## Full Proposal\n\nExecutive Summary\n\nThis proposal requests funding for a 4-month pilot of External Test Lab & Community DevNet: a community-owned testing function for Gonka protocol upgrades, DevShards, inference flows, host/broker operations, and geographically distributed network behavior before governance decisions and production rollout.\n\n| **Item**              | **Proposal**                                  ",
       "checksum": "27dc167406510d750a70a8e7dcc191a147b58015c4197dfa47df56d5d731959c"
     },
     "28dcf8fb-3138-4e8b-adc0-0fb82962276c/index.md": {
       "title": "International Marketing Campaign for Gonka — English-Speaking Markets",
       "status": "expired",
+      "content_preview": "# International Marketing Campaign for Gonka — English-Speaking Markets\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Evgenii Maksimenkov\n**Created:** 2026-04-25 06:39 UTC\n**Closes:** 2026-05-25 06:39 UTC\n**Language:** EN\n**Votes:** 0\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nMulti-phase marketing campaign to grow Gonka awareness, Host adoption, and Developer activity in English-speaking markets. Crypto-native agency required, fixed KPIs, milestone-based payouts.\n\n---\n\n## Full Proposal\n\nContext\n\nGonka is a live-mainnet decentralized AI L1 with a novel Proof of Compute consensus, OpenAI-compatible inference (Qwen3-235B-A22B-FP8 currently served), and an existing ecosystem (CertiK audit, Coatue/Slow Ventures/Mantis/K5 backing, Gcore/Hyperf",
       "checksum": "c58773e4a37c4eda06c6d753c6cf34ae077be6465fba19afecfde8e975eda360"
     },
     "29baf37b-811f-4c36-b517-66a578383f1c/index.md": {
       "title": "Bring Gonka to EBC12 as a Gold Sponsor",
       "status": "expired",
+      "content_preview": "# Bring Gonka to EBC12 as a Gold Sponsor\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Heydar Naghiyev\n**Created:** 2026-05-21 08:31 UTC\n**Closes:** 2026-06-04 08:31 UTC\n**Language:** EN\n**Votes:** 0\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nFund Gonka’s Gold Sponsor participation at European Blockchain Convention 2026 in Barcelona to expand Gonka’s European presence, meet institutional decision-makers, exchanges, infrastructure partners\n\n---\n\n## Full Proposal\n\nProblem\n\nGonka has strong momentum, but its market presence is still concentrated outside Europe. For Gonka to grow into a more global infrastructure project, it needs visibility and direct access to European exchanges, institutions, funds, infrastructure companies, AI/compute bui",
       "checksum": "14696e0dd21af3c75631aa82c6c8876453af73e10b55c10391f4cc10e9cf2157"
     },
     "2b6b2142-685a-4eda-b2a1-f8853228f3e6/index.md": {
       "title": "3. Team Gonka Wallet Grant Request",
       "status": "expired",
+      "content_preview": "# 3. Team Gonka Wallet Grant Request\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Slava MSE!\n**Created:** 2026-06-11 05:41 UTC\n**Closes:** 2026-07-11 05:41 UTC\n**Language:** EN\n**Votes:** 0\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nGonka Wallet Team built a dedicated Gonka wallet and now plans to launch Gonka Forge, a platform for AI agents and tools powered by Gonka Inference.\n\n---\n\n## Full Proposal\n\nWhat does your team plan to build or deliver for Gonka over the next three months?\n\nOver the next three months, the team plans to launch **Gonka Forge** — a platform where users can formulate tasks for AI agents, while developers can create agents and AI tools powered by **Gonka Inference**.\n\nThe platform will include a built-in free AI ch",
       "checksum": "d1b8f0241b25c0a44dedf0ed8eec47e9a7c10a975dda9bef719a13de2d0e3918"
     },
     "2cbbe98e-ceff-4f09-a1cd-e8d370e97fde/index.md": {
       "title": "Gonka NOP: ретроактивный грант + финансирование поддержки и новых фич.",
       "status": "expired",
+      "content_preview": "# Gonka NOP: ретроактивный грант + финансирование поддержки и новых фич.\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** O D\n**Created:** 2026-05-13 18:30 UTC\n**Closes:** 2026-05-20 18:30 UTC\n**Language:** RU\n**Votes:** 0\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nПрофинансировать gonka-nop — существующий CLI для быстрого развёртывания и обслуживания ноды Gonka: ретроактивно за уже сделанную разработку, за дальнейшую поддержку и за разработку новых функций.\n\n---\n\n## Full Proposal\n\n**TL;DR**\n\nПрофинансировать gonka-nop — существующий CLI для быстрого развёртывания и обслуживания ноды Gonka: ретроактивно за уже сделанную разработку, за дальнейшую поддержку и за разработку новых функций.\n\n**Что такое gonka-nop**\n\nGonka NOP — единый CLI-инструм",
       "checksum": "986843a8808a5d08a78927d85675530698e705d5ffb813ed07aee3e5423cfbfd"
     },
     "4792a93f-127a-4a0e-9a12-acd229c1e865/index.md": {
       "title": "Team Gonka.AI \\| Inside Grant Request",
       "status": "expired",
+      "content_preview": "# Team Gonka.AI \\| Inside Grant Request\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Slava MSE!\n**Created:** 2026-06-11 05:39 UTC\n**Closes:** 2026-07-11 05:39 UTC\n**Language:** EN\n**Votes:** 0\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nRussian-speaking Gonka media channel that has already attracted miners and plans to grow audience, promote pools, exchanges, use cases, and ecosystem projects.\n\n---\n\n## Full Proposal\n\nWhat does your team plan to build or deliver for Gonka over the next three months?\n\nOver the next three months, the author plans to continue developing the Telegram channel **“Gonka.AI | Inside”** as a Russian-speaking media and community hub for Gonka.\n\nThe main goals are:\n\n* Grow the channel to **1,000 subscribers**.\n* Attr",
       "checksum": "a8be166730a89cd17d61cd1a4e90b3148a1e8b462f33267bd7a6c7d1b033cf69"
     },
     "47ab8faa-f9bd-41ba-8e86-6c760d4975a6/index.md": {
       "title": "8. Team Gonka.TV Grant Request",
       "status": "expired",
+      "content_preview": "# 8. Team Gonka.TV Grant Request\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Slava MSE!\n**Created:** 2026-06-11 05:48 UTC\n**Closes:** 2026-07-11 05:48 UTC\n**Language:** EN\n**Votes:** 0\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nTeam Gonka.TV creates news, education videos, and interviews for the Gonka community and plans to continue video production.\n\n---\n\n## Full Proposal\n\nWhat does your team plan to build or deliver for Gonka over the next three months?\n\nOver the next three months, the team plans to continue producing video content for the Gonka community.\n\nThe main focus will be on news, educational videos, and interviews related to Gonka, AI, and the broader ecosystem.\n\n## What contributions or products has your team already develop",
       "checksum": "9741a3f92d55c5f8899e48a3d2361fcf0e15c149e333e3619421108e88d78d3a"
     },
     "550f71de-897f-4ce5-8af8-97854775f8b2/index.md": {
       "title": "Большое видео на канале Falcon Finance (Александр Соколовский)",
       "status": "expired",
+      "content_preview": "# Большое видео на канале Falcon Finance (Александр Соколовский)\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Дмитрий В\n**Created:** 2026-04-28 23:39 UTC\n**Closes:** 2026-05-28 23:38 UTC\n**Language:** RU\n**Votes:** 0\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nПредлагаю выделить $70k на видео у Александра Соколовского. Тема: два сценария будущего. Gonka — как главный пример децентрализации. Бессрочная публикация.\n\n---\n\n## Full Proposal\n\nБольшое видео на канале Falcon Finance (Александр Соколовский)\n\n**Привет всем!**\n\nВыношу на предварительное обсуждение сильную маркетинговую возможность.\n\n### 📌 О канале\n- **Канал:** [Falcon Finance](https://www.youtube.com/@FalconFinanceX) — авторский канал Александра Соколовского.\n- **Подписчики:** более",
       "checksum": "ba5193d5d28d1ff1a6c41306c94c2c46bc0dfb2084af2b81e3514a3d47ffde5b"
     },
     "59175b49-b83f-4aa6-98f5-b27fffb23cd8/index.md": {
       "title": "10. Team Alexander Kuprin Grant Request",
       "status": "expired",
+      "content_preview": "# 10. Team Alexander Kuprin Grant Request\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Slava MSE!\n**Created:** 2026-06-11 05:50 UTC\n**Closes:** 2026-07-11 05:50 UTC\n**Language:** EN\n**Votes:** 0\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nTeam Alexander Kuprin plans to build an observability layer to detect, trace, and analyze Gonka network issues faster.\n\n---\n\n## Full Proposal\n\nWhat does your team plan to build or deliver for Gonka over the next three months?\n\nThe planned work is related to **Track 0: Core stability and reliability** of the Gonka Community Roadmap:\nhttps://github.com/gonka-ai/gonka/blob/main/proposals/gonka-network-development-roadmap.md\n\nThe team plans to build an **observability technical layer** for the Gonka network.",
       "checksum": "f2439752c71edaf60cdd06281b23d80e9508bde85baf4bbe0dc79f6d6e4d03c3"
     },
     "6392c2ea-7fb8-45c7-b1ec-80fb16d81d93/index.md": {
       "title": "Bounty for open-source PoC throughput contributions",
       "status": "expired",
+      "content_preview": "# Bounty for open-source PoC throughput contributions\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Serhii Hovorov\n**Created:** 2026-05-01 21:04 UTC\n**Closes:** 2026-05-08 21:04 UTC\n**Language:** EN\n**Votes:** 0\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nPay a fixed GNK/USDT bounty to anyone who upstreams a reproducible ≥5% PoC throughput optimization. Lifts the network floor; rewards contribution over hoarding.\n\n---\n\n## Full Proposal\n\nProblem                                                                                                                           \n                                           \n  PoC throughput optimizations are network-wide value, but today they stay private.\n  A pool operator who finds a +5% kernel rewrite ",
       "checksum": "7ea1072cba6327dced60b8ceff42f59f1748ba5facfd3c110ac2bb037bf37cdf"
     },
     "662adc44-01c4-41ca-9c0d-ac61f472ee56/index.md": {
       "title": "5. Team Lefine Grant Request",
       "status": "expired",
+      "content_preview": "# 5. Team Lefine Grant Request\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Slava MSE!\n**Created:** 2026-06-11 05:45 UTC\n**Closes:** 2026-07-11 05:45 UTC\n**Language:** EN\n**Votes:** 0\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nTeam Lefine built a proxy for Gonka models and plans to expand Gonka Inference through websites, APIs, chat bots, and AI developer tools.\n\n---\n\n## Full Proposal\n\nWhat does your team plan to build or deliver for Gonka over the next three months?\n\nOver the next three months, the team plans to expand the use of **Gonka Inference** across different interfaces, websites, tools, and chat bots.\n\nThe main deliverables include:\n\n* Add quick AI answers powered by Gonka on **lefine.pro**, so users who visit the website and as",
       "checksum": "7c00e38ed7690b8c4573d66432cdfff4236d3c46afc9bbab46b6dd2dee039368"
     },
     "66e6583a-27b4-4bae-91fb-8f0489736b0d/index.md": {
       "title": "1. Team Veylox Grant Request",
       "status": "expired",
+      "content_preview": "# 1. Team Veylox Grant Request\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Slava MSE!\n**Created:** 2026-06-11 05:35 UTC\n**Closes:** 2026-07-11 05:35 UTC\n**Language:** \n**Votes:** 0\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nPropose to build a beginner-friendly Gonka Network Onboarding Hub to help users acquire, register, and run nodes, reducing onboarding friction and growing active network participation.\n\n---\n\n## Full Proposal\n\n**Team Name: Veylox**\n\nWhat does your team plan to build or deliver for Gonka over the next three months?\n\nThe team plans to build The Gonka Network Onboarding Hub — a complete, beginner-friendly onboarding resource for new Gonka network participants.\n\nThe hub will gather, organize, simplify, and keep up to date",
       "checksum": "8221d82d8f2282876a26b6fe213a2dc5479fbb1ea897d056bd3ef47e54f16e30"
     },
     "673770df-0b72-4d04-a038-f8c12546817f/index.md": {
       "title": "Universal Continuous GPU Benchmark for Gonka Hosts (vLLM v0.19+, Anti-Sybil)",
       "status": "expired",
+      "content_preview": "# Universal Continuous GPU Benchmark for Gonka Hosts (vLLM v0.19+, Anti-Sybil)\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Evgenii Maksimenkov\n**Created:** 2026-04-25 06:31 UTC\n**Closes:** 2026-05-25 06:31 UTC\n**Language:** EN\n**Votes:** 0\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nDevelop a vLLM v0.19+ universal GPU benchmark that runs continuously during the epoch without interrupting inference, fairly scores any model size, and is hardened against hot-plug and Sybil attacks.\n\n---\n\n## Full Proposal\n\nContext\n\nGonka measures Host compute capacity via Proof of Compute (PoC) Sprints. The current Sprint model concentrates measurement into a short synchronized window, which (a) creates a measurable inference-revenue gap during the Sprint an",
       "checksum": "a726a56b23b5c67f1475d8ffa18c5459774b7839c1dea898d23010f57da5d98e"
     },
     "7d2ec26b-6524-4fc6-b676-a13d822536e8/index.md": {
       "title": "Интеграция ИИ Gonka в инфраструктуру QR Mint",
       "status": "expired",
+      "content_preview": "# Интеграция ИИ Gonka в инфраструктуру QR Mint\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Victor\n**Created:** 2026-06-11 09:48 UTC\n**Closes:** 2026-07-11 09:48 UTC\n**Language:** RU\n**Votes:** 0\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nЭтап 1. QR Mint — первая интеграция\nQR Mint — э.\n\nМы интегрируем ИИ Gonka для автоматической генерации условий бонусов и проверки вали\n\n---\n\n## Full Proposal\n\nИнтеграция ИИ Gonka в инфраструктуру QR Mint\n\n## Обзор проекта\n\n**QR Mint** — это существующая инфраструктура для создания, дистрибуции и монетизации цифровых активов в нескольких блокчейн-сетях.\n\nПлатформа уже включает:\n\n* создание и управление NFT;\n* реферальные механики;\n* партнёрские программы и бонусные системы;\n* API для платежей и цифровых ",
       "checksum": "a08230098c8ded61285e6070cf290d89c1e8c43a4ad64924a009ccc146a778a7"
     },
     "b7083379-6dc5-4198-b9b0-1b8b98f0ac01/index.md": {
       "title": "Улучшения для vote.gonka.vip",
       "status": "expired",
+      "content_preview": "# Улучшения для vote.gonka.vip\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Alex A.A.\n**Created:** 2026-04-25 20:08 UTC\n**Closes:** 2026-05-25 20:08 UTC\n**Language:** RU\n**Votes:** 0\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nЛюбые идеи, хочушки, плюшки и т.д.  по улучшению этого сервиса. \nДавайте сделаем конфетку секси :)\n\n---\n\n## Full Proposal\n\nОсновная ветка для улучшения работы этого сервиса. Топовые идеи - вынесу в тело.\n\n---\n\n## Comments (13)\n\n### 💬 Alex A.A.\n*2026-04-25 20:11* · 👍 1 · 👎 0\n\n1.  На главной страницы возможно надо отображать топ тендоры: Но вопрос, как счетать что есть топ ? По коментам, звездам, голосам... ?\n2.  Добавить статистику коментариев ( количество) в виджет на основной таблице. \n3.  Если потом будет мало тел",
       "checksum": "f1602892708798fa1d2501dd7b667b38af989035b688c6e7f1a113846a32c8d7"
     },
     "cb7f643f-3d56-47ec-9193-f9f2f80a99fb/index.md": {
       "title": "Go-To-Market Team for 3 Month to Set Up the Basis",
       "status": "expired",
+      "content_preview": "# Go-To-Market Team for 3 Month to Set Up the Basis\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Dem \\| Démíngān\n**Created:** 2026-07-03 15:58 UTC\n**Closes:** 2026-07-10 15:58 UTC\n**Language:** EN\n**Votes:** 1\n**Avg. Bid:** 6.4K GNK\n\n</div>\n\nThis proposal describes ecosystem we should do for the Gonka, including basics, go-to-market actions, the team and the budgets for the next 3 months.\n\n---\n\n## Full Proposal\n\nInternal Go-To-Market Team for Gonka\n\n[Read full proposal](https://app.integrity.sh/p/SuMCnGQBhz-0asAYBUz1U)\n\n## Summary\n\nThis proposal describes a 3-month internal go-to-market team for Gonka. The goal is to set up the core GTM foundation: acquisition funnels, analytics, audience research, CRM processes, and coordinat",
       "checksum": "974a068cf84f9614930083d7a0730cdbd3f6ce0bf7194461ccec2efd292371b4"
     },
     "d14f975e-0e40-4a94-81c5-715a02c3826e/index.md": {
       "title": "Коэффициент для Kimi 2.6 - 1,87",
       "status": "expired",
+      "content_preview": "# Коэффициент для Kimi 2.6 - 1,87\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Alex Sharoiko Александр Шаройко\n**Created:** 2026-05-13 08:19 UTC\n**Closes:** 2026-05-20 07:08 UTC\n**Language:** RU\n**Votes:** 0\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nСейчас для GPU, которые поддерживают Kimi (Н200, В200, В300) установлен повышенный коэффициент 1,87.\nКажется, это делает майнинг на Н100 нерентабельным и тем самым губит сеть.\n\n---\n\n## Full Proposal\n\nПроблема:\nСлишком высокий коэффициент.\n\nРешение:\nУменьшить коэффициент пропорционально цене аренды GPU\n\nВсе свои расчеты я вел вот здесь:\nhttps://docs.google.com/spreadsheets/d/1IIONLiWCLAo8TKF5TNSX6Y0Byj_2MurfhA68W22vQt8/edit?gid=2050838965#gid=2050838965\n\nСейчас коэффициент для Kimi около 1,88",
       "checksum": "6d717268f503b78b1fe7193b5baa297f8b5efdbfe8ca0ef2c80724246c5908e9"
     },
     "d2f317f0-541a-4d9f-bbac-d2d394906bf2/index.md": {
       "title": "11. Team GonkaGate Grant Request",
       "status": "expired",
+      "content_preview": "# 11. Team GonkaGate Grant Request\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Slava MSE!\n**Created:** 2026-06-11 05:51 UTC\n**Closes:** 2026-07-11 05:51 UTC\n**Language:** EN\n**Votes:** 0\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nTeam GonkaGate built a public Gonka API gateway and plans to scale infrastructure, payments, analytics, plugins, docs, and developer adoption tools.\n\n---\n\n## Full Proposal\n\nWhat does your team plan to build or deliver for Gonka over the next three months?\n\nOver the next three months, Team GonkaGate plans to develop GonkaGate into a stronger reliability and developer adoption layer for the Gonka Network.\n\nThe main deliverables include:\n\n* Improve fault-tolerant infrastructure, routing, failure handling, observab",
       "checksum": "148318bc7fd5af50efa6f1588911a0bc852f7207b6766c435d8420d7a95daabe"
     },
     "db4d91a4-1ee7-46ee-a3d1-0e8ba546d04b/index.md": {
       "title": "4. Team Gonka NL BE Community Grant Request",
       "status": "expired",
+      "content_preview": "# 4. Team Gonka NL BE Community Grant Request\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Slava MSE!\n**Created:** 2026-06-11 05:43 UTC\n**Closes:** 2026-07-11 05:43 UTC\n**Language:** EN\n**Votes:** 0\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nGonka NL BE Community builds local Benelux awareness through Telegram communities, education, onboarding, and outreach for Dutch and Belgian users.\n\n---\n\n## Full Proposal\n\nWhat does your team plan to build or deliver for Gonka over the next three months?\n\nOver the next three months, the team plans to expand Gonka’s presence in the Benelux region, especially among Dutch-speaking users in the Netherlands and Belgium.\n\nThe main deliverables include:\n\n* Growing the Benelux Telegram community through targ",
       "checksum": "2c5b6b9fadeaa56770e6189fc6d26ceff9596fbfaa800e18bf054e4d06073546"
     },
     "e0cc7d32-5d1a-49e1-94e8-0ca3d9ccbf6b/index.md": {
       "title": "Привлечение $3M+ нового капитала на Uniswap",
       "status": "active",
+      "content_preview": "# Привлечение $3M+ нового капитала на Uniswap\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Andrey Orlov\n**Created:** 2026-07-03 15:10 UTC\n**Closes:** 2026-08-02 15:10 UTC\n**Language:** RU\n**Votes:** 3\n**Avg. Bid:** 224.9K GNK\n\n</div>\n\nПредлагаем за 90 дней привлечь от $3 млн нового капитала в GONKA через масштабируемую Telegram-воронку с поэтапным финансированием и KPI\n\n---\n\n## Full Proposal\n\nСуть предложения\n2. Кто мы\n3. Что мы предлагаем\n4. KPI и экономика проекта\n5. Как будет работать воронка\n6. Стратегия удержания пользователей\n7. Финансирование\n8. Вознаграждение команды \n9. Отчетность и прозрачность\n10. Что получает GONKA\n11. Дополнительные материалы\n\n1.  Суть предложения\n\nМы предлагаем реализовать маркетинговую кампанию, ",
       "checksum": "e0e025e6a8b2f8c1ac34dcb07a0027b44008041869cb0fcb23c984390f33aa03"
     },
     "ed7bd700-bb5a-4c99-9dae-bdcba6641015/index.md": {
       "title": "Gonka Integration Grant for AI Startups and Products (GNK Rewards)",
       "status": "active",
+      "content_preview": "# Gonka Integration Grant for AI Startups and Products (GNK Rewards)\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Evgenii Maksimenkov\n**Created:** 2026-04-25 06:46 UTC\n**Closes:** 2026-07-24 06:45 UTC\n**Language:** EN\n**Votes:** 3\n**Avg. Bid:** 50.0K GNK\n\n</div>\n\nGrant program in GNK for AI startups that integrate Gonka inference into their production product. Fixed grant tiers, milestone-based payouts, mandatory technical and visibility requirements.\n\n---\n\n## Full Proposal\n\nContext\n\nGonka offers an OpenAI-compatible decentralized inference API (currently serving Qwen3-235B-A22B-Instruct-2507-FP8) at competitive cost vs. centralized providers. To accelerate Developer adoption, this grant program rewards **AI startups and produc",
       "checksum": "8d3c833d13cdac54caa8b08d74e33c825a26456ce8c90e59878da61dd1955f38"
     },
     "ed8148eb-535e-4677-9a6b-5316c81c996a/index.md": {
       "title": "Private Inc × Gonka — Network Growth Initiative",
       "status": "active",
+      "content_preview": "# Private Inc × Gonka — Network Growth Initiative\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Igor Alexeev\n**Created:** 2026-06-13 15:40 UTC\n**Closes:** 2026-07-13 15:40 UTC\n**Language:** EN\n**Votes:** 0\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nInitiative to accelerate Gonka’s growth by attracting new AI developers, infrastructure operators, and expanding the network with up to 4,000 additional GPUs.\n\n---\n\n## Full Proposal\n\nExecutive Summary\n\nPrivate Inc proposes launching a user acquisition program designed to attract new participants to the Gonka ecosystem, targeting AI developers, AI infrastructure operators, GPU farms, AI companies, and other stakeholders within the artificial intelligence industry.\n\nThe primary objective of this i",
       "checksum": "7a3fc2ed9a8b3f7507af91aaa243a81a9a66f0d9b80693878ae9c3d3e9e58d50"
     },
     "efc0edeb-bc49-4c6b-a6e7-5b20ccfbe571/index.md": {
       "title": "Стресс тест инфиренса",
       "status": "expired",
+      "content_preview": "# Стресс тест инфиренса\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Mitch\n**Created:** 2026-05-29 22:34 UTC\n**Closes:** 2026-06-05 22:34 UTC\n**Language:** RU\n**Votes:** 0\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nПредлагаю собрать опенсорс стресс-тест инференса Gonka — первый пилот выплат от фаундейшена через майлстоуны. Обсудим ТЗ, цену и сроки.\n\n---\n\n## Full Proposal\n\nДля того чтобы понять выполнен ли первейший пункт роадмапа в краткострочных задачах “Обеспечить стабильно работающий инфиренс” нам нужен понятный тест.\n\n# Тех Задание v 0.1\n\nСделать скрипт стресс теста, который бы многопоточно загружал инфиренс.  \nТк прямого доступа к инфиренсу теперь нет, то через брокеров\n\n* Скрипт опенсорс, чтоб можно было клонировать и запустить лок",
       "checksum": "35bea4ff6d4eaa29ea8a00d98cecf9a0f3870915fe723c513b03ca1c39eac018"
     },
     "f021bdb3-59f4-4906-bfaa-7b90b72019b1/index.md": {
       "title": "9. Team Gonka-API.org Grant Request",
       "status": "expired",
+      "content_preview": "# 9. Team Gonka-API.org Grant Request\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Slava MSE!\n**Created:** 2026-06-11 05:50 UTC\n**Closes:** 2026-07-11 05:50 UTC\n**Language:** EN\n**Votes:** 0\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nTeam Gonka-API.org built a working Gonka API gateway with early traction and plans to scale users, marketing, content, and advanced infrastructure tools.\n\n---\n\n## Full Proposal\n\nWhat does your team plan to build or deliver for Gonka over the next three months?\n\nOver the next three months, the team plans to scale **Gonka API** and continue developing it as an infrastructure gateway for AI developers and inference consumers.\n\nThe main deliverables include:\n\n* Launch targeted marketing campaigns to accelerate u",
       "checksum": "8db804ea4f76f8a468f0832ca7a6d58eae8d9d1e86cb838ccbbe817cac418d52"
     },
     "f215996d-e562-42b5-b2b1-400226e612fa/index.md": {
       "title": "Gonka Media Library by Saccade",
       "status": "expired",
+      "content_preview": "# Gonka Media Library by Saccade\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Dem \\| Démíngān\n**Created:** 2026-07-03 11:30 UTC\n**Closes:** 2026-07-10 11:28 UTC\n**Language:** EN\n**Votes:** 1\n**Avg. Bid:** 6.4K GNK\n\n</div>\n\nGonka Media Library — Explainer Library & Platform\nExplainer series (20 ep., 40 min) + web download & self-branding platform\n\n---\n\n## Full Proposal\n\nProposal — Gonka Media Library\n\n## Project\n\n**Gonka Media Library — Explainer Library & Platform**\n\n## DAO\n\n**Gonka**\n\n## Scope\n\nExplainer series **20 episodes, 40 min total** + web download & self-branding platform.\n\n## Deliverables\n\n- **Explainer library** — 20 episodes, 40 min total, grouped into 4 horizontal long-form films, 16:9.\n- Every episode is also rel",
       "checksum": "b9754d48e811ad6300c98dfc729745050cfa4483654e0e2918ff57996131d11b"
     },
     "f341b83c-78f0-4ab2-b8fd-ddc7ac5d9c37/index.md": {
       "title": "Привлечение $3M+ нового капитала на Uniswap v2.0",
       "status": "active",
+      "content_preview": "# Привлечение $3M+ нового капитала на Uniswap v2.0\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Andrey Orlov\n**Created:** 2026-07-09 16:25 UTC\n**Closes:** 2026-08-08 16:25 UTC\n**Language:** RU\n**Votes:** 4\n**Avg. Bid:** 168.7K GNK\n\n</div>\n\nПредлагаем за 90 дней привлечь от $3 млн нового капитала в GONKA через масштабируемую Telegram-воронку с поэтапным финансированием и KPI\n\n---\n\n## Full Proposal\n\nСуть предложения\n2. Кто мы\n3. Что мы предлагаем\n4. KPI и экономика проекта\n5. Как будет работать воронка\n6. Стратегия удержания пользователей\n7. Финансирование\n8. Вознаграждение команды \n9. Отчетность и прозрачность\n10. Что получает GONKA\n11. Защита от фрода и методика расчета KPI\n12. Дополнительные материалы\n\n \n1.  Суть предложения\n\n",
       "checksum": "d53cb031c41f1f948d6ebc2d4972921395d797f56ae23ace7a56cce75b7ed431"
     },
     "f6b4e378-8950-4bcf-ac7f-d70d9d246630/index.md": {
       "title": "12+1. Team EntroPi Grant Request",
       "status": "expired",
+      "content_preview": "# 12+1. Team EntroPi Grant Request\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Slava MSE!\n**Created:** 2026-06-11 05:54 UTC\n**Closes:** 2026-07-11 05:54 UTC\n**Language:** EN\n**Votes:** 0\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nTeam EntroPi builds a decentralized AI orchestration layer for task decomposition, routing, and adaptive execution across multiple AI infrastructures.\n\n---\n\n## Full Proposal\n\nWhat does your team plan to build or deliver for Gonka over the next three months?\n\nOver the next three months, Team EntroPi plans to continue developing a **decentralized cognitive orchestration layer**.\n\nThe system is designed to decompose complex goals into executable tasks, route them across different types of AI infrastructure, and im",
       "checksum": "f7860426fb445a4414d139936f3d13ebf4d109834e96fa01f395eae6c4c1cab3"
     },
     "fd9989ca-7c5b-4a2f-baf4-2465e6915ba6/index.md": {
       "title": "Предложение по развитию игровой экосистемы блокчейна через турнирные пулы вознаг",
       "status": "expired",
+      "content_preview": "# Предложение по развитию игровой экосистемы блокчейна через турнирные пулы вознаг\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Victor\n**Created:** 2026-06-12 21:31 UTC\n**Closes:** 2026-07-12 21:31 UTC\n**Language:** RU\n**Votes:** 0\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\n**Tournament Yield Pools** — механизм интеграции игровых турниров с инфраструктурой блокчейна для привлечения пользователей, увеличения ликвидности и роста сетевой активности.\n\n---\n\n## Full Proposal\n\n---\n\n## Проблема\n\nБольшинство игровых турниров работают по простой модели:\n\n* игроки платят взнос;\n* средства распределяются между победителями;\n* после завершения турнира деньги покидают экосистему.\n\nТакая модель не создаёт долгосрочной ценности ни для игры, ни для блокч",
       "checksum": "3e332897134c5487a3b37e665c945447a5dc700ab8d784eeaaeb261fc7bab3f8"
     },
     "index.md": {
       "title": "Gonka Community Pre-Proposals",
       "status": "active",
-      "checksum": "e300e78888aa293422f06b3f717a0a16cb20420ff263011a9443b97bd096d7b4"
+      "content_preview": "# Gonka Community Pre-Proposals\n\nCommunity proposals from [gonka.vote](https://gonka.vote). These are off-chain indicative polls where GNK holders signal support for potential on-chain governance proposals.\n\n---\n\n## 🟢 Active Proposals\n\n<div class=\"quarter-summary\" markdown=\"1\">\n<div class=\"qs-stats\">\n<div class=\"qs-stat passed\"><span class=\"qs-num\">4</span><span class=\"qs-desc\">Active</span></div>\n<div class=\"qs-stat\"><span class=\"qs-num\">11</span><span class=\"qs-desc\">Votes</span></div>\n<div class=\"qs-stat\"><span class=\"qs-num\">2.0M GNK</span><span class=\"qs-desc\">Total Bid</span></div>\n</div>\n</div>\n\n| Status | Title | Author | Votes | Avg. Bid | Closes |\n| :----- | :----- | :----- | ----: | -------: | :----- |\n| 🟢 | [Private Inc × Gonka — Network Growth Initiative](./ed8148eb-535e-4677-",
+      "checksum": "71f9ac9ec0abcb5fe661e36aa060cc495b2123f2e6748f500aaec3ad8ad2167b"
     }
   }
 }

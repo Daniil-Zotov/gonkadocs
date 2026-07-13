@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260713112707_52b86f49",
+    "timestamp": "2026-07-13T11:27:07.771340+00:00",
+    "section": "preproposals",
+    "action": "updated",
+    "item": {
+      "title": "Gonka Community Pre-Proposals",
+      "url": "/proposals/preproposals/",
+      "file": "index.md"
+    },
+    "details": {
+      "content_before": "# Gonka Community Pre-Proposals\n\nCommunity proposals from [gonka.vote](https://gonka.vote). These are off-chain indicative polls where GNK holders signal support for potential on-chain governance proposals.\n\n---\n\n## 🟢 Active Proposals\n\n<div class=\"quarter-summary\" markdown=\"1\">\n<div class=\"qs-stats\">\n<div class=\"qs-stat passed\"><span class=\"qs-num\">4</span><span class=\"qs-desc\">Active</span></div>\n<div class=\"qs-stat\"><span class=\"qs-num\">11</span><span class=\"qs-desc\">Votes</span></div>\n<div class=\"qs-stat\"><span class=\"qs-num\">2.0M GNK</span><span class=\"qs-desc\">Total Bid</span></div>\n</div>\n</div>\n\n| Status | Title | Author | Votes | Avg. Bid | Closes |\n| :----- | :----- | :----- | ----: | -------: | :----- |\n| 🟢 | [Private Inc × Gonka — Network Growth Initiative](./ed8148eb-535e-4677-",
+      "content_after": "# Gonka Community Pre-Proposals\n\nCommunity proposals from [gonka.vote](https://gonka.vote). These are off-chain indicative polls where GNK holders signal support for potential on-chain governance proposals.\n\n---\n\n## 🟢 Active Proposals\n\n<div class=\"quarter-summary\" markdown=\"1\">\n<div class=\"qs-stats\">\n<div class=\"qs-stat passed\"><span class=\"qs-num\">4</span><span class=\"qs-desc\">Active</span></div>\n<div class=\"qs-stat\"><span class=\"qs-num\">11</span><span class=\"qs-desc\">Votes</span></div>\n<div class=\"qs-stat\"><span class=\"qs-num\">2.0M GNK</span><span class=\"qs-desc\">Total Bid</span></div>\n</div>\n</div>\n\n| Status | Title | Author | Votes | Avg. Bid | Closes |\n| :----- | :----- | :----- | ----: | -------: | :----- |\n| 🟢 | [Private Inc × Gonka — Network Growth Initiative](./ed8148eb-535e-4677-"
+    },
+    "ai_description": "В разделе Pre-Proposals обновлены данные о текущих голосованиях сообщества. В активной фазе остаются четыре предложения с поддержкой в 11 голосов и общим объемом ставок 2,0 млн GNK, что отражает текущий интерес держателей токенов к развитию сети. Следите за обновлениями на gonka.vote, чтобы не пропустить переход обсуждений к стадии ончейн-голосования."
+  },
+  {
     "id": "evt_20260713112018_1b71034d",
     "timestamp": "2026-07-13T11:20:18.552036+00:00",
     "section": "proposals",
