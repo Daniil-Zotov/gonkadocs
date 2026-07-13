@@ -32,6 +32,24 @@ _FRONTMATTER_RE = re.compile(r'^---\s*\n.*?^---\s*\n', re.DOTALL | re.MULTILINE)
 # ── helpers ────────────────────────────────────────────────────
 
 
+def _strip_timestamps(text: str) -> str:
+    """Remove sync timestamps that change on every update, so that
+    timestamp-only changes don't alter the checksum."""
+    # Issues: ``Updated: `2026-07-11 03:49 UTC`.``
+    text = re.sub(r'(?m)^Updated:\s*`\d{4}-\d{2}-\d{2} \d{2}:\d{2} UTC`\.?\s*$', '', text)
+    # Issues detail: `<span ...>Updated 2026-07-11 03:49 UTC</span>`
+    text = re.sub(r'Updated \d{4}-\d{2}-\d{2} \d{2}:\d{2} UTC', '', text)
+    # Discussions: ``Обновлено: `2026-07-13 11:25 UTC`.``
+    text = re.sub(r'Обновлено:\s*`\d{4}-\d{2}-\d{2} \d{2}:\d{2} UTC`\.?\s*', '', text)
+    # Discussions detail: `**Обновлено:** 2026-07-13 11:25 UTC`
+    text = re.sub(r'\*\*Обновлено:\*\*\s*\d{4}-\d{2}-\d{2} \d{2}:\d{2} UTC', '', text)
+    # Discussion frontmatter: `synced_at: 2026-07-13T11:25:00Z`
+    text = re.sub(r'(?m)^synced_at:\s*\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z\s*$', '', text)
+    # Proposals/preproposals: `Last updated: 2026-07-13 12:00 UTC`
+    text = re.sub(r'Last updated:\s*\d{4}-\d{2}-\d{2} \d{2}:\d{2} UTC', '', text)
+    return text
+
+
 def content_preview(content: str, max_len: int = CONTENT_PREVIEW_LEN) -> str:
     cleaned = _FRONTMATTER_RE.sub('', content, count=1)
     cleaned = re.sub(r'\n{3,}', '\n\n', cleaned)
@@ -44,6 +62,10 @@ def sha256_file(path: Path) -> str:
         for chunk in iter(lambda: f.read(65536), b''):
             h.update(chunk)
     return h.hexdigest()
+
+
+def sha256_str(text: str) -> str:
+    return hashlib.sha256(text.encode('utf-8')).hexdigest()
 
 
 def make_event_id() -> str:
@@ -170,8 +192,9 @@ def scan_directory(dir_path: Path, section: str) -> dict:
         rel = str(rel)
         try:
             content = fpath.read_text(encoding='utf-8')
+            content = _strip_timestamps(content)
             meta = extract_metadata(section, fpath, content)
-            meta['checksum'] = sha256_file(fpath)
+            meta['checksum'] = sha256_str(content)
             files[rel] = meta
         except Exception as e:
             print(f'  Warning: could not read {fpath}: {e}', file=sys.stderr)
