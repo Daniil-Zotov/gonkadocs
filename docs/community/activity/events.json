@@ -1,0 +1,98 @@
+[
+  {
+    "id": "evt_20260713115047_b84661da",
+    "timestamp": "2026-07-13T11:50:47.191420+00:00",
+    "section": "proposals",
+    "action": "updated",
+    "item": {
+      "title": "On-Chain Governance Proposals",
+      "url": "/proposals/proposals/",
+      "file": "index.md"
+    },
+    "details": {
+      "content_before": "# On-Chain Governance Proposals\n\n<div class=\"prop-oview-filter\" markdown=\"1\">\n\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-passed\" checked>\n  <span class=\"prop-filter-label\">Passed</span>\n</label>\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-rejected\" checked>\n  <span class=\"prop-filter-label\">Rejected</span>\n</label>\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-voting\" checked>\n  <span class=\"prop-filter-label\">Voting</span>\n</label>\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-funding\">\n  <span class=\"prop-filter-label\">With Funding</span>\n</label>\n<span class=\"prop-filter-count\"></span>\n\n</div>\n\n<div class=\"quarter-summary\" markdown=\"1\">\n\n## Overview\n\n<div class=\"qs-stats\">\n<div ",
+      "content_after": "# On-Chain Governance Proposals\n\n<div class=\"prop-oview-filter\" markdown=\"1\">\n\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-passed\" checked>\n  <span class=\"prop-filter-label\">Passed</span>\n</label>\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-rejected\" checked>\n  <span class=\"prop-filter-label\">Rejected</span>\n</label>\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-voting\" checked>\n  <span class=\"prop-filter-label\">Voting</span>\n</label>\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-funding\">\n  <span class=\"prop-filter-label\">With Funding</span>\n</label>\n<span class=\"prop-filter-count\"></span>\n\n</div>\n\n<div class=\"quarter-summary\" markdown=\"1\">\n\n## Overview\n\n<div class=\"qs-stats\">\n<div "
+    },
+    "ai_description": "Wait, looking at the content provided, the \"ДО\" (Before) and \"ПОСЛЕ\" (After) sections appear to be almost identical. Let me check carefully.\n\nBefore:\n```\n# On-Chain Governance Proposals\n\n<div class=\"prop-oview-filter\" markdown=\"1\">\n\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-passed\" checked>\n  <span class=\"prop-filter-label\">Passed</span>\n</label>\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-rejected\" checked>\n  <span class=\"prop-filter-label\">Rejected</span>\n</label>\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-voting\" checked>\n  <span class=\"prop-filter"
+  },
+  {
+    "id": "evt_20260713114041_17f1152a",
+    "timestamp": "2026-07-13T11:40:41.342420+00:00",
+    "section": "proposals",
+    "action": "updated",
+    "item": {
+      "title": "On-Chain Governance Proposals",
+      "url": "/proposals/proposals/",
+      "file": "index.md"
+    },
+    "details": {
+      "content_before": "# On-Chain Governance Proposals\n\n<div class=\"prop-oview-filter\" markdown=\"1\">\n\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-passed\" checked>\n  <span class=\"prop-filter-label\">Passed</span>\n</label>\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-rejected\" checked>\n  <span class=\"prop-filter-label\">Rejected</span>\n</label>\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-voting\" checked>\n  <span class=\"prop-filter-label\">Voting</span>\n</label>\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-funding\">\n  <span class=\"prop-filter-label\">With Funding</span>\n</label>\n<span class=\"prop-filter-count\"></span>\n\n</div>\n\n<div class=\"quarter-summary\" markdown=\"1\">\n\n## Overview\n\n<div class=\"qs-stats\">\n<div ",
+      "content_after": "# On-Chain Governance Proposals\n\n<div class=\"prop-oview-filter\" markdown=\"1\">\n\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-passed\" checked>\n  <span class=\"prop-filter-label\">Passed</span>\n</label>\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-rejected\" checked>\n  <span class=\"prop-filter-label\">Rejected</span>\n</label>\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-voting\" checked>\n  <span class=\"prop-filter-label\">Voting</span>\n</label>\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-funding\">\n  <span class=\"prop-filter-label\">With Funding</span>\n</label>\n<span class=\"prop-filter-count\"></span>\n\n</div>\n\n<div class=\"quarter-summary\" markdown=\"1\">\n\n## Overview\n\n<div class=\"qs-stats\">\n<div "
+    },
+    "ai_description": "Wait, looking at the content provided, the \"ДО\" (Before) and \"ПОСЛЕ\" (After) sections appear to be almost identical. Let me check carefully.\n\nBefore:\n```\n# On-Chain Governance Proposals\n\n<div class=\"prop-oview-filter\" markdown=\"1\">\n\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-passed\" checked>\n  <span class=\"prop-filter-label\">Passed</span>\n</label>\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-rejected\" checked>\n  <span class=\"prop-filter-label\">Rejected</span>\n</label>\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-voting\" checked>\n  <span class=\"prop-filter"
+  },
+  {
+    "id": "evt_20260713112548_304052fe",
+    "timestamp": "2026-07-13T11:25:48.234944+00:00",
+    "section": "discussions",
+    "action": "updated",
+    "item": {
+      "title": "Welcome to Gonka Discussions 👋",
+      "url": "/community/discussion/announcements/0805-welcome-to-gonka-discussions/",
+      "file": "announcements/0805-welcome-to-gonka-discussions.md"
+    },
+    "details": {
+      "content_before": "> 🔄 **Auto-sync:** from [Discussion #805](https://github.com/gonka-ai/gonka/discussions/805) every hour. \n\n# Welcome to Gonka Discussions 👋\n\n**Автор:** [@admin](https://github.com/admin) · **Категория:** :mega: Announcements · **Создано:** 2026-02-25 22:49 UTC · **Обновлено:** 2026-02-25 22:49 UTC\n\n---\n\n## 📝 Описание\n\nThis is the space for open conversation about the Gonka protocol, ecosystem, and community. Ask questions, share what you've built, propose improvements, and gather feedback from the community.\n## Sections\n\n- Proposals — protocol improvements, infrastructure proposals, and open problems. See the pinned welcome post in Proposals https://github.com/gonka-ai/gonka/discussions/795 \n- Q&A — one more place where you can  ask technical or ecosystem questions and get answers from the",
+      "content_after": "> 🔄 **Auto-sync:** from [Discussion #805](https://github.com/gonka-ai/gonka/discussions/805) every hour. \n\n# Welcome to Gonka Discussions 👋\n\n**Автор:** [@admin](https://github.com/admin) · **Категория:** :mega: Announcements · **Создано:** 2026-02-25 22:49 UTC · **Обновлено:** 2026-02-25 22:49 UTC\n\n---\n\n## 📝 Описание\n\nThis is the space for open conversation about the Gonka protocol, ecosystem, and community. Ask questions, share what you've built, propose improvements, and gather feedback from the community.\n## Sections\n\n- Proposals — protocol improvements, infrastructure proposals, and open problems. See the pinned welcome post in Proposals https://github.com/gonka-ai/gonka/discussions/795 \n- Q&A — one more place where you can  ask technical or ecosystem questions and get answers from the"
+    },
+    "ai_description": "Обновлено приветственное сообщение в разделе обсуждений Gonka. Теперь структура комьюнити-пространства описана четче: вы найдете отдельные ветки для предложений по развитию протокола и инфраструктуры, а также для вопросов и ответов по технической части и экосистеме. Это поможет новым участникам быстрее ориентироваться и попадать в нужные темы."
+  },
+  {
+    "id": "evt_20260713112548_5844f603",
+    "timestamp": "2026-07-13T11:25:48.234995+00:00",
+    "section": "discussions",
+    "action": "updated",
+    "item": {
+      "title": ":mega: Announcements",
+      "url": "/community/discussion/announcements/",
+      "file": "announcements/index.md"
+    },
+    "details": {
+      "content_before": "# :mega: Announcements\n\nДискуссии в категории **:mega: Announcements**. Всего: **1**. Обновлено: `2026-07-13 09:37 UTC`.\n\n[← ко всем категориям](../index.md)\n\n| # | Заголовок | Автор | Обновлено |\n|---:|---|---|---|\n| [805](0805-welcome-to-gonka-discussions.md) | [Welcome to Gonka Discussions 👋](0805-welcome-to-gonka-discussions.md) | [@admin](https://github.com/admin) | 2026-02-25 |",
+      "content_after": "# :mega: Announcements\n\nДискуссии в категории **:mega: Announcements**. Всего: **1**. Обновлено: `2026-07-13 11:25 UTC`.\n\n[← ко всем категориям](../index.md)\n\n| # | Заголовок | Автор | Обновлено |\n|---:|---|---|---|\n| [805](0805-welcome-to-gonka-discussions.md) | [Welcome to Gonka Discussions 👋](0805-welcome-to-gonka-discussions.md) | [@admin](https://github.com/admin) | 2026-02-25 |"
+    },
+    "ai_description": "Обновлена временная метка раздела Announcements в дискуссиях — теперь он отражает актуальное время последнего обновления. Это помогает участникам сообщества видеть свежесть информации в канале объявлений."
+  },
+  {
+    "id": "evt_20260713112548_dd114895",
+    "timestamp": "2026-07-13T11:25:48.235053+00:00",
+    "section": "discussions",
+    "action": "updated",
+    "item": {
+      "title": "Kimi K2.5",
+      "url": "/community/discussion/general/0670-kimi-k25/",
+      "file": "general/0670-kimi-k25.md"
+    },
+    "details": {
+      "content_before": "> 🔄 **Auto-sync:** from [Discussion #670](https://github.com/gonka-ai/gonka/discussions/670) every hour. \n\n# Kimi K2.5\n\n**Автор:** [@Yockium](https://github.com/Yockium) · **Категория:** :speech_balloon: General · **Создано:** 2026-01-30 13:07 UTC · **Обновлено:** 2026-02-26 21:07 UTC\n\n---\n\n## 📝 Описание\n\nHi, I'm trying to understand the technical bounderies of Gonka.\n\nI like the idea behind the project, so want to try it out, but I need something beyond currently available models. Would it be possible to add kimi k2.5 to the infrastructure? If not, what are the main blockers?\n\nI'm still learning about llms, sorry if this seems to be a naive question.\n\nThanks!\n\n---\n\n## 💬 Комментарии (1)\n\n### Комментарий 1 — [@votkon](https://github.com/votkon)\n\n*2026-02-26 21:07 UTC*\n\nIt's totally doable a",
+      "content_after": "> 🔄 **Auto-sync:** from [Discussion #670](https://github.com/gonka-ai/gonka/discussions/670) every hour. \n\n# Kimi K2.5\n\n**Автор:** [@Yockium](https://github.com/Yockium) · **Категория:** :speech_balloon: General · **Создано:** 2026-01-30 13:07 UTC · **Обновлено:** 2026-02-26 21:07 UTC\n\n---\n\n## 📝 Описание\n\nHi, I'm trying to understand the technical bounderies of Gonka.\n\nI like the idea behind the project, so want to try it out, but I need something beyond currently available models. Would it be possible to add kimi k2.5 to the infrastructure? If not, what are the main blockers?\n\nI'm still learning about llms, sorry if this seems to be a naive question.\n\nThanks!\n\n---\n\n## 💬 Комментарии (1)\n\n### Комментарий 1 — [@votkon](https://github.com/votkon)\n\n*2026-02-26 21:07 UTC*\n\nIt's totally doable a"
+    },
+    "ai_description": "В обсуждении добавления модели Kimi K2.5 появился ответ команды: интеграция технически возможна. Это отличная новость для тех, кто ждет расширения доступных моделей в сети Gonka."
+  },
+  {
+    "id": "evt_20260713112548_cded1714",
+    "timestamp": "2026-07-13T11:25:48.235083+00:00",
+    "section": "discussions",
+    "action": "updated",
+    "item": {
+      "title": "How can governance voting become easier for Hosts?",
+      "url": "/community/discussion/general/0798-how-can-governance-voting-become-easier-for-hosts/",
+      "file": "general/0798-how-can-governance-voting-become-easier-for-hosts.md"
+    },
+    "details": {
+      "content_before": "> 🔄 **Auto-sync:** from [Discussion #798](https://github.com/gonka-ai/gonka/discussions/798) every hour. \n\n# How can governance voting become easier for Hosts?\n\n**Автор:** [@tcharchian](https://github.com/tcharchian) · **Категория:** :speech_balloon: General · **Создано:** 2026-02-24 21:46 UTC · **Обновлено:** 2026-03-06 23:47 UTC\n\n---\n\n## 📝 Описание\n\nHi everyone, the goal of this thread is to increase governance participation and voter turnout. Feedback is needed on what would make voting easier to notice, faster to understand, and simpler to complete.\n\n**What currently blocks participation**\n\nIf recent votes were skipped, what were the main reasons?\n- The vote was not noticed in time\n- The voting window was too short\n- The proposal summary was not clear enough to decide quickly\n- Too muc",
+      "content_after": "> 🔄 **Auto-sync:** from [Discussion #798](https://github.com/gonka-ai/gonka/discussions/798) every hour. \n\n# How can governance voting become easier for Hosts?\n\n**Автор:** [@tcharchian](https://github.com/tcharchian) · **Категория:** :speech_balloon: General · **Создано:** 2026-02-24 21:46 UTC · **Обновлено:** 2026-03-06 23:47 UTC\n\n---\n\n## 📝 Описание\n\nHi everyone, the goal of this thread is to increase governance participation and voter turnout. Feedback is needed on what would make voting easier to notice, faster to understand, and simpler to complete.\n\n**What currently blocks participation**\n\nIf recent votes were skipped, what were the main reasons?\n- The vote was not noticed in time\n- The voting window was too short\n- The proposal summary was not clear enough to decide quickly\n- Too muc"
+    },
+    "ai_description": "Обсуждение о том, как упростить голосование в управлении для Хостов, продолжает набирать активность. Ваши ответы помогут сделать участие в голосовании заметнее, понятнее и быстрее — присоединяйтесь к дискуссии и делитесь опытом, если вы пропускали голосования из-за нехватки времени или неясных формулировок."
+  }
+]
