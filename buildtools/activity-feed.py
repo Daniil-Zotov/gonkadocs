@@ -89,6 +89,22 @@ def _extract_quorum(content: str) -> bool | None:
 
 # ── metadata extraction ────────────────────────────────────────
 
+def _is_detail_page(rel_path: Path, section: str) -> bool:
+    """Check if the file is a detail page (not an overview/index).
+
+    Proposals: 2026-q3/85/index.md → detail (3+ parts)
+               index.md, 2026-q3/index.md → overview (1-2 parts)
+    Preproposals: {uuid}/index.md → detail (2+ parts)
+                  index.md → overview (1 part)
+    Other sections: all files are detail pages.
+    """
+    parts = rel_path.parts
+    if section == 'proposals':
+        return len(parts) >= 3
+    elif section == 'preproposals':
+        return len(parts) >= 2
+    return True
+
 def _extract_title(content: str, fallback: str) -> str:
     m = re.search(r'^#\s+(.+)$', content, re.MULTILINE)
     if m:
@@ -119,15 +135,17 @@ def extract_metadata(section: str, rel_path: Path, content: str) -> dict:
     }
 
     if section == 'proposals':
-        meta['status'] = _extract_proposal_status(content)
-        meta['funding'] = _extract_funding(content)
-        meta['quorum_met'] = _extract_quorum(content)
+        if _is_detail_page(rel_path, section):
+            meta['status'] = _extract_proposal_status(content)
+            meta['funding'] = _extract_funding(content)
+            meta['quorum_met'] = _extract_quorum(content)
 
     elif section == 'preproposals':
-        if '🟢 Active' in content:
-            meta['status'] = 'active'
-        elif '🔴 Expired' in content:
-            meta['status'] = 'expired'
+        if _is_detail_page(rel_path, section):
+            if '🟢 Active' in content:
+                meta['status'] = 'active'
+            elif '🔴 Expired' in content:
+                meta['status'] = 'expired'
 
     elif section == 'issues':
         if re.search(r'\bstate:\s*open\b', content, re.IGNORECASE):
@@ -145,7 +163,11 @@ def scan_directory(dir_path: Path, section: str) -> dict:
     if not dir_path.exists():
         return files
     for fpath in sorted(dir_path.rglob('*.md')):
-        rel = str(fpath.relative_to(dir_path))
+        rel = fpath.relative_to(dir_path)
+        # skip overview/index pages for proposals and preproposals
+        if not _is_detail_page(rel, section):
+            continue
+        rel = str(rel)
         try:
             content = fpath.read_text(encoding='utf-8')
             meta = extract_metadata(section, fpath, content)
