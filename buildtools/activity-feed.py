@@ -425,6 +425,10 @@ def cmd_detect(args):
             details['status_before'] = old_status
             details['status_after'] = new_status
 
+        # skip if the visible content didn't actually change
+        if action == 'updated' and _cp(old) == _cp(new):
+            continue
+
         # proposals: skip plain updated, check quorum
         if args.section == 'proposals':
             old_quorum = old.get('quorum_met')
