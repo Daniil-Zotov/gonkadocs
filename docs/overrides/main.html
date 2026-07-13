@@ -160,8 +160,10 @@
     // MkDocs Material's instant navigation (which can't replace nav/header
     // from the separate Gonka docs sub-build).
     document.addEventListener('click', function(e) {
-      var a = e.target.closest('a[href^="/gonka/docs/"]');
-      if (a && a.target !== '_blank' && !location.pathname.startsWith('/gonka/docs/')) {
+      var a = e.target.closest('a');
+      if (!a || a.target === '_blank') return;
+      if (location.pathname.startsWith('/gonka/docs/')) return;
+      if (a.href && (a.href.endsWith('/gonka/docs/') || a.href.indexOf('/gonka/docs/') !== -1)) {
         e.preventDefault();
         e.stopPropagation();
         location.href = a.href;
