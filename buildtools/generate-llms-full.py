@@ -55,6 +55,7 @@ SKIP_DIRS = {
     "gonka/docs/docs/participant",  # Duplicate of host/
     "community/discussion",  # 70+ discussions — linked from llms.txt, too large
     "community/issues",  # 100+ issues — linked from llms.txt, too large
+    "community/activity",  # dynamic JS-rendered page, not static content
 }
 
 

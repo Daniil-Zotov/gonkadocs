@@ -1,0 +1,227 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+{{ super() }}
+<link rel="stylesheet" href="{{ base_url }}/stylesheets/activity.css">
+{% endblock %}
+
+{% block content %}
+<div class="af-wrap">
+  <h1>Лента событий</h1>
+  <p class="af-lead">Последние изменения в документации, пропозалах, дискуссиях и ишью.</p>
+
+  <div class="af-filters" id="af-filters">
+    <label class="af-filter-cb">
+      <input type="checkbox" class="af-filter-input" value="proposals" checked>
+      <span class="af-filter-label">On-Chain Proposals</span>
+    </label>
+    <label class="af-filter-cb">
+      <input type="checkbox" class="af-filter-input" value="preproposals" checked>
+      <span class="af-filter-label">Pre-Proposals</span>
+    </label>
+    <label class="af-filter-cb">
+      <input type="checkbox" class="af-filter-input" value="discussions" checked>
+      <span class="af-filter-label">Discussions</span>
+    </label>
+    <label class="af-filter-cb">
+      <input type="checkbox" class="af-filter-input" value="issues" checked>
+      <span class="af-filter-label">Issues</span>
+    </label>
+    <label class="af-filter-cb">
+      <input type="checkbox" class="af-filter-input" value="gonka_docs" checked>
+      <span class="af-filter-label">Protocol Docs</span>
+    </label>
+    <span class="af-filter-count" id="af-count"></span>
+  </div>
+
+  <div class="af-timeline" id="af-timeline"></div>
+  <div class="af-loading" id="af-loading">Загрузка событий…</div>
+  <div class="af-empty" id="af-empty" style="display:none">Нет событий по выбранным фильтрам.</div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+{{ super() }}
+<script>
+(function() {
+  var TL = document.getElementById('af-timeline');
+  var LOADING = document.getElementById('af-loading');
+  var EMPTY = document.getElementById('af-empty');
+  var COUNT = document.getElementById('af-count');
+  var FILTERS = document.querySelectorAll('.af-filter-input');
+  var EVENTS_URL = '{{ base_url }}/community/activity/events.json';
+
+  function fmtTime(iso) {
+    try {
+      var d = new Date(iso);
+      var now = new Date();
+      var diff = now - d;
+      if (diff < 0) return 'только что';
+      var mins = Math.floor(diff / 60000);
+      var hrs = Math.floor(diff / 3600000);
+      var days = Math.floor(diff / 86400000);
+      if (mins < 1) return 'только что';
+      if (mins < 60) return mins + ' мин. назад';
+      if (hrs < 24) return hrs + ' ч. назад';
+      if (days < 7) return days + ' дн. назад';
+      return d.toLocaleDateString('ru-RU', { day: 'numeric', month: 'long', year: 'numeric' });
+    } catch(e) { return iso; }
+  }
+
+  function fmtDateGroup(iso) {
+    try {
+      var d = new Date(iso);
+      var now = new Date();
+      var diff = now - d;
+      var days = Math.floor(diff / 86400000);
+      if (days === 0) return 'Сегодня';
+      if (days === 1) return 'Вчера';
+      if (days < 7) return days + ' дн. назад';
+      return d.toLocaleDateString('ru-RU', { day: 'numeric', month: 'long', year: 'numeric' });
+    } catch(e) { return iso; }
+  }
+
+  function actionLabel(action) {
+    var map = {
+      'new': 'Добавлено',
+      'deleted': 'Удалено',
+      'updated': 'Обновлено',
+      'status_changed': 'Статус изменён'
+    };
+    return map[action] || action;
+  }
+
+  function actionIcon(action) {
+    var map = {
+      'new': '●',
+      'deleted': '✕',
+      'updated': '◔',
+      'status_changed': '◎'
+    };
+    return map[action] || '●';
+  }
+
+  function sectionIcon(section) {
+    var map = {
+      'proposals': '🗳',
+      'preproposals': '📋',
+      'discussions': '💬',
+      'issues': '⚠',
+      'gonka_docs': '📄'
+    };
+    return map[section] || '●';
+  }
+
+  function render() {
+    var active = {};
+    FILTERS.forEach(function(cb) {
+      active[cb.value] = cb.checked;
+    });
+
+    var data = window._afEvents || [];
+    var filtered = data.filter(function(e) {
+      return !!active[e.section];
+    });
+
+    COUNT.textContent = filtered.length + ' событий';
+    EMPTY.style.display = filtered.length ? 'none' : 'block';
+
+    if (!filtered.length) {
+      TL.innerHTML = '';
+      return;
+    }
+
+    var groups = {};
+    filtered.forEach(function(e) {
+      var day = e.timestamp ? e.timestamp.slice(0, 10) : 'unknown';
+      if (!groups[day]) groups[day] = [];
+      groups[day].push(e);
+    });
+
+    var sortedDays = Object.keys(groups).sort().reverse();
+    var html = '';
+
+    sortedDays.forEach(function(day) {
+      html += '<div class="af-day">';
+      html += '<div class="af-day-label">' + fmtDateGroup(day) + '</div>';
+      html += '<div class="af-day-line"></div>';
+
+      groups[day].forEach(function(e) {
+        var item = e.item || {};
+        var details = e.details || {};
+        var hasAI = e.ai_description && e.ai_description.length > 0;
+
+        html += '<div class="af-event" data-section="' + e.section + '">';
+        html += '<div class="af-event-dot">' + sectionIcon(e.section) + '</div>';
+        html += '<div class="af-event-card">';
+        html += '<div class="af-event-header">';
+        html += '<span class="af-event-action ' + e.action + '">' + actionLabel(e.action) + '</span>';
+        html += '<span class="af-event-section">' + e.section + '</span>';
+        html += '</div>';
+
+        if (item.url) {
+          html += '<a href="' + item.url + '" class="af-event-title">' + escHtml(item.title) + '</a>';
+        } else {
+          html += '<span class="af-event-title">' + escHtml(item.title) + '</span>';
+        }
+
+        if (e.action === 'status_changed' && details.status_before && details.status_after) {
+          html += '<div class="af-event-status">';
+          html += '<span class="af-status-badge ' + details.status_before + '">' + escHtml(details.status_before) + '</span>';
+          html += ' → ';
+          html += '<span class="af-status-badge ' + details.status_after + '">' + escHtml(details.status_after) + '</span>';
+          html += '</div>';
+        }
+
+        if (hasAI) {
+          html += '<div class="af-event-ai">' + escHtml(e.ai_description) + '</div>';
+        }
+
+        html += '<div class="af-event-time">' + fmtTime(e.timestamp) + '</div>';
+        html += '</div>';
+        html += '</div>';
+      });
+
+      html += '</div>';
+    });
+
+    TL.innerHTML = html;
+  }
+
+  function escHtml(s) {
+    if (!s) return '';
+    var d = document.createElement('div');
+    d.textContent = s;
+    return d.innerHTML;
+  }
+
+  function loadEvents() {
+    LOADING.style.display = 'block';
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', EVENTS_URL + '?_t=' + Date.now(), true);
+    xhr.onload = function() {
+      LOADING.style.display = 'none';
+      if (xhr.status >= 200 && xhr.status < 400) {
+        try {
+          window._afEvents = JSON.parse(xhr.responseText);
+          render();
+        } catch(e) {
+          TL.innerHTML = '<div class="af-error">Ошибка загрузки событий: ' + e.message + '</div>';
+        }
+      } else {
+        TL.innerHTML = '<div class="af-error">Ошибка загрузки: ' + xhr.statusText + '</div>';
+      }
+    };
+    xhr.onerror = function() {
+      LOADING.style.display = 'none';
+      TL.innerHTML = '<div class="af-error">Не удалось загрузить ленту событий.</div>';
+    };
+    xhr.send();
+  }
+
+  FILTERS.forEach(function(cb) { cb.addEventListener('change', render); });
+  document$.subscribe(loadEvents);
+  if (document.readyState !== 'loading') loadEvents();
+})();
+</script>
+{% endblock %}

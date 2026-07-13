@@ -23,6 +23,12 @@ jobs:
         run: |
           rm -rf upstream-tmp/.git
 
+      - name: Install Python dependencies
+        run: pip install --quiet requests
+
+      - name: Snapshot before sync (activity feed)
+        run: python3 buildtools/activity-feed.py snapshot --dir docs/gonka/docs/docs --section gonka_docs --manifest .feed-manifests/gonka_docs.json
+
       - name: Copy full upstream content
         run: |
           mkdir -p docs/gonka
@@ -30,6 +36,13 @@ jobs:
           mkdir -p docs/gonka/docs
           cp -a upstream-tmp/. docs/gonka/docs/
           rm -rf upstream-tmp
+
+      - name: Detect changes after sync (activity feed)
+        run: python3 buildtools/activity-feed.py detect --dir docs/gonka/docs/docs --section gonka_docs --manifest .feed-manifests/gonka_docs.json --events docs/community/activity/events.json --ai
+        env:
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          AI_API_ENDPOINT: "https://api.proxy.gonka.gg/v1"
+          AI_MODEL: "moonshotai/Kimi-K2.6"
 
       - name: Regenerate AI-agent files (llms.txt, llms-full.txt)
         run: |
@@ -40,7 +53,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/gonka/docs docs/llms.txt docs/llms-full.txt
+          git add docs/gonka/docs docs/llms.txt docs/llms-full.txt docs/community/activity/events.json .feed-manifests/gonka_docs.json
           if git diff --cached --quiet; then
             echo "No changes — nothing to push"
           else

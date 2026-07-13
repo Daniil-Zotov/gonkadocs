@@ -23,10 +23,20 @@ jobs:
       - name: Install dependencies
         run: pip install --quiet requests
 
+      - name: Snapshot before sync (activity feed)
+        run: python3 buildtools/activity-feed.py snapshot --dir docs/proposals/preproposals --section preproposals --manifest .feed-manifests/preproposals.json
+
       - name: Sync pre-proposals
         env:
           OUTPUT_DIR: docs/proposals/preproposals
         run: python .github/scripts/sync_preproposals.py
+
+      - name: Detect changes after sync (activity feed)
+        run: python3 buildtools/activity-feed.py detect --dir docs/proposals/preproposals --section preproposals --manifest .feed-manifests/preproposals.json --events docs/community/activity/events.json --ai
+        env:
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          AI_API_ENDPOINT: "https://api.proxy.gonka.gg/v1"
+          AI_MODEL: "moonshotai/Kimi-K2.6"
 
       - name: Regenerate AI-agent files (llms.txt, llms-full.txt)
         run: |
@@ -37,7 +47,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/proposals/preproposals/ docs/llms.txt docs/llms-full.txt
+          git add docs/proposals/preproposals/ docs/llms.txt docs/llms-full.txt docs/community/activity/events.json .feed-manifests/preproposals.json
           if git diff --cached --quiet; then
             echo "No changes — skipping commit."
           else

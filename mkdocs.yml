@@ -50,6 +50,7 @@ nav:
       - Show and Tell: community/discussion/show-and-tell/index.md
     - Issues:
       - Overview: community/issues/index.md
+    - Activity Feed: community/activity/index.md
   - Proposals:
     - Pre-Proposals:
       - Overview: proposals/preproposals/index.md
@@ -219,6 +220,7 @@ extra_css:
   - stylesheets/github.css
   - stylesheets/issues.css
   - stylesheets/proposals.css
+  - stylesheets/activity.css
 
 extra_javascript:
   - scripts/proposals-countdown.js
