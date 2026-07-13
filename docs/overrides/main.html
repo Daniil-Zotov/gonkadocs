@@ -156,17 +156,19 @@
       if (bestLink) activateLink(bestLink);
     }
 
-    document$.subscribe(function() {
-      // Force full reload when SPA navigates into Gonka docs (separate build
-      // with its own nav/header that SPA can't replace)
-      if (location.pathname.startsWith('/gonka/docs/')) {
-        var hasGonkaNav = document.querySelector('.md-nav__link[href*="architecture"]');
-        if (!hasGonkaNav) {
-          location.reload();
-          return;
-        }
+    // Intercept clicks on /gonka/docs/ links in capture phase to prevent
+    // MkDocs Material's instant navigation (which can't replace nav/header
+    // from the separate Gonka docs sub-build).
+    document.addEventListener('click', function(e) {
+      var a = e.target.closest('a[href^="/gonka/docs/"]');
+      if (a && a.target !== '_blank' && !location.pathname.startsWith('/gonka/docs/')) {
+        e.preventDefault();
+        e.stopPropagation();
+        location.href = a.href;
       }
+    }, true);
 
+    document$.subscribe(function() {
       var title = document.querySelector('.md-header__title');
       if (title && !title.querySelector('a')) {
         var a = document.createElement('a');
