@@ -2,7 +2,7 @@
 title: "#313 — [P0] Negative balance panic"
 source: https://github.com/gonka-ai/gonka/issues/313
 issue_number: 313
-synced_at: 2026-07-13T18:56:15Z
+synced_at: 2026-07-13T20:39:19Z
 template: issues-main.html
 ---
 

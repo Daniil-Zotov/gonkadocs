@@ -7,7 +7,7 @@ template: issues-main.html
 
 All issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).
 Total: **304** (🟢 open: **66**, 🔴 closed: **238**).
-Updated: `2026-07-13 18:56 UTC`.
+Updated: `2026-07-13 20:39 UTC`.
 
 <ul class="issues-list">
 <li class="issues-list-item">
@@ -290,7 +290,7 @@ Updated: `2026-07-13 18:56 UTC`.
     <p class="issues-desc">## Operator  Nichita R. — independent developer Contact: GitHub @niro58  ## Address  gonka142rw2k5qwh3rxm774z56uzcgfyqfnnclqewr36  ## Models  - MiniMaxAI/MiniMax-M2.7 - moonshotai/Kimi-K2.6  ## Use ca...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@niro58](https://github.com/niro58) opened 8 days ago</span>
+      <span class="issues-meta-item">[@niro58](https://github.com/niro58) opened 9 days ago</span>
       
     </div>
   </div>
