@@ -220,7 +220,6 @@ extra_css:
   - stylesheets/github.css
   - stylesheets/issues.css
   - stylesheets/proposals.css
-  - stylesheets/activity.css
 
 extra_javascript:
   - scripts/proposals-countdown.js
