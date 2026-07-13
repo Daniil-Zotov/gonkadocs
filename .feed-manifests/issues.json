@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-07-13T13:31:09.992608+00:00",
+  "snapshot_time": "2026-07-13T15:17:46.649924+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "Description",
@@ -1830,7 +1830,7 @@
       "title": "GitHub Issues — `gonka-ai/gonka`",
       "status": null,
       "content_preview": "# GitHub Issues — `gonka-ai/gonka`\n\nAll issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).\nTotal: **304** (🟢 open: **66**, 🔴 closed: **238**).\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"01439-external-visibility/\">External Visibility</a>\n      <span class=\"issues-number\">#1439</span>\n    </div>\n    <p class=\"issues-desc\">Gonka’s visibility as a solution for decentralized storage should be promoted more widely. To an outside ",
-      "checksum": "f744427aa267c48da85470f78c2b936952f86179ac9dc60dcb8e4c6a66eee002"
+      "checksum": "9735c62cc51f63528b6d072897d496a75db2599d90fbd2dce7bd98e252a4a1e2"
     },
     "labels/bug/index.md": {
       "title": "Issues: bug",
@@ -1848,7 +1848,7 @@
       "title": "Issues: enhancement",
       "status": null,
       "content_preview": "# Issues: enhancement\n\nIssues with label **enhancement**. Total: **13**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01439-external-visibility/\">External Visibility</a>\n      <span class=\"issues-number\">#1439</span>\n    </div>\n    \n    <div class=\"issues-labels\"><span class=\"issues-label\" style=\"background-color: #a2eeef; color: #24292f; border-color: #a2eeef;\">enhancement</span></div>\n    <div class=\"issues-",
-      "checksum": "f98ddc344aa6f2ee1f4eb9e86d1e69dd13c9c623e46ed29eae7e763669c8ba18"
+      "checksum": "63ba9fb50a5a215f4b6a95eab4c067936ad3b94ab398498bfb2d8f242ab919cf"
     },
     "labels/help-wanted/index.md": {
       "title": "Issues: help wanted",
@@ -1884,7 +1884,7 @@
       "title": "Issues: protocol",
       "status": null,
       "content_preview": "# Issues: protocol\n\nIssues with label **protocol**. Total: **1**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01173-tee-implementation/\">TEE Implementation</a>\n      <span class=\"issues-number\">#1173</span>\n    </div>\n    \n    <div class=\"issues-labels\"><span class=\"issues-label\" style=\"background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;\">up-for-grabs</span> <span class=\"issues-label\" style=\"background-color: #1d27b4; color:",
-      "checksum": "39f64c5e9b683df61ccb90c2402e0a089820a5373bdef4642cbc2fd57ecb2819"
+      "checksum": "168ccc979dd01133ff53a3905714aa7c2afd21c53bdb70141974610b994ea2e4"
     },
     "labels/requires-own-mainnet-node/index.md": {
       "title": "Issues: requires own mainnet node",
@@ -1896,7 +1896,7 @@
       "title": "Issues: up-for-grabs",
       "status": null,
       "content_preview": "# Issues: up-for-grabs\n\nIssues with label **up-for-grabs**. Total: **15**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01199-reproducible-sampling-for-inference-validation/\">Reproducible sampling for inference validation</a>\n      <span class=\"issues-number\">#1199</span>\n    </div>\n    \n    <div class=\"issues-labels\"><span class=\"issues-label\" style=\"background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;\">up-for-grabs</span></d",
-      "checksum": "d1d41a6b02b139ed81fe95035cdb2870970f0a9d0d837785757944cc3a4b9c3a"
+      "checksum": "0e056b8f0942807310c22a24aa23651962cf3387b2b95caa5b6dbfba1ef4d173"
     }
   }
 }

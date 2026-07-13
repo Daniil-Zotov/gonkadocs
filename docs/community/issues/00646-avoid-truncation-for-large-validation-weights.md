@@ -2,7 +2,7 @@
 title: "#646 — Avoid truncation for large validation weights"
 source: https://github.com/gonka-ai/gonka/issues/646
 issue_number: 646
-synced_at: 2026-07-13T13:28:34Z
+synced_at: 2026-07-13T15:16:06Z
 template: issues-main.html
 ---
 
