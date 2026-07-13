@@ -1,6 +1,6 @@
 {
   "section": "proposals",
-  "snapshot_time": "2026-07-13T11:20:18.988502+00:00",
+  "snapshot_time": "2026-07-13T11:30:23.604725+00:00",
   "files": {
     "2025-q3/1/index.md": {
       "title": "#1 – Correct Epoch Length",
@@ -570,7 +570,7 @@
       "title": "On-Chain Governance Proposals",
       "status": "rejected",
       "content_preview": "# On-Chain Governance Proposals\n\n<div class=\"prop-oview-filter\" markdown=\"1\">\n\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-passed\" checked>\n  <span class=\"prop-filter-label\">Passed</span>\n</label>\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-rejected\" checked>\n  <span class=\"prop-filter-label\">Rejected</span>\n</label>\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-voting\" checked>\n  <span class=\"prop-filter-label\">Voting</span>\n</label>\n<label class=\"prop-filter-cb\">\n  <input type=\"checkbox\" id=\"prop-filter-funding\">\n  <span class=\"prop-filter-label\">With Funding</span>\n</label>\n<span class=\"prop-filter-count\"></span>\n\n</div>\n\n<div class=\"quarter-summary\" markdown=\"1\">\n\n## Overview\n\n<div class=\"qs-stats\">\n<div ",
-      "checksum": "c2dfb1ff63094ebc11580f5f469ffe6c7356c78561327e7edca583bbe933505f"
+      "checksum": "1780e81473dde3dcc99173a79f201c5bdea6ea9393f9dcf3aa7b6e1f648db956"
     }
   }
 }
