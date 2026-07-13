@@ -25,20 +25,18 @@ from pathlib import Path
 
 # ── constants ─────────────────────────────────────────────────
 
-CONTENT_PREVIEW_LEN = 800  # max chars stored for AI context
+CONTENT_PREVIEW_LEN = 800
 
 _FRONTMATTER_RE = re.compile(r'^---\s*\n.*?^---\s*\n', re.DOTALL | re.MULTILINE)
 
+# ── helpers ────────────────────────────────────────────────────
+
 
 def content_preview(content: str, max_len: int = CONTENT_PREVIEW_LEN) -> str:
-    """Strip frontmatter and return first max_len chars of meaningful content."""
     cleaned = _FRONTMATTER_RE.sub('', content, count=1)
-    # remove excessive blank lines
     cleaned = re.sub(r'\n{3,}', '\n\n', cleaned)
     return cleaned.strip()[:max_len]
 
-
-# ── helpers ────────────────────────────────────────────────────
 
 def sha256_file(path: Path) -> str:
     h = hashlib.sha256()
@@ -67,7 +65,26 @@ ACTION_LABELS = {
     'deleted':         'Removed',
     'updated':         'Updated',
     'status_changed':  'Status Changed',
+    'quorum_reached':  'Quorum Reached',
 }
+
+
+# ── proposal-specific extraction ──────────────────────────────
+
+def _extract_funding(content: str) -> str:
+    lines = []
+    for m in re.finditer(r'prop-funding-line[^>]*>([^<]+)', content):
+        lines.append(m.group(1).strip())
+    if lines:
+        return ' · '.join(lines)
+    return ''
+
+
+def _extract_quorum(content: str) -> bool | None:
+    m = re.search(r'class="prop-tally-(yes|veto)-text">([✓✗]) Turnout', content)
+    if m:
+        return m.group(2) == '✓'
+    return None
 
 
 # ── metadata extraction ────────────────────────────────────────
@@ -103,6 +120,8 @@ def extract_metadata(section: str, rel_path: Path, content: str) -> dict:
 
     if section == 'proposals':
         meta['status'] = _extract_proposal_status(content)
+        meta['funding'] = _extract_funding(content)
+        meta['quorum_met'] = _extract_quorum(content)
 
     elif section == 'preproposals':
         if '🟢 Active' in content:
@@ -141,7 +160,6 @@ def scan_directory(dir_path: Path, section: str) -> dict:
 
 def make_url(section: str, file_path: str) -> str:
     p = Path(file_path)
-    # Strip .md extension first (handles both INDEX.MD and OTHER.MD)
     if p.suffix == '.md':
         p = p.with_suffix('')
     if p.name == 'index':
@@ -174,6 +192,7 @@ AI_SYSTEM_PROMPT = """Ты — редактор ленты событий соо
 - Внимательно прочитай содержимое ДО и ПОСЛЕ изменений, чтобы понять суть
 - Расскажи, что именно изменилось и почему это важно для сообщества
 - Если указаны статусы до/после (например, голосование → принят), объясни значение
+- Если указаны суммы финансирования, обязательно упомяни их
 - Не пересказывай содержимое дословно — объясни смысл изменений"""
 
 
@@ -207,7 +226,6 @@ def enrich_with_ai(events: list, section: str):
             f'Название: {title}\n'
         )
 
-        # Add before/after content for meaningful AI analysis
         if details.get('content_before'):
             user_prompt += '--- Содержимое ДО ---\n' + details['content_before'] + '\n'
         if details.get('content_after'):
@@ -215,7 +233,6 @@ def enrich_with_ai(events: list, section: str):
         if details.get('content'):
             user_prompt += '--- Содержимое ---\n' + details['content'] + '\n'
 
-        # Status changes
         status_info = []
         if details.get('status_before'):
             status_info.append(f"статус до: {details['status_before']}")
@@ -225,6 +242,9 @@ def enrich_with_ai(events: list, section: str):
             status_info.append(f"статус: {details['status']}")
         if status_info:
             user_prompt += 'Статусы: ' + ', '.join(status_info) + '\n'
+
+        if details.get('funding'):
+            user_prompt += f'Суммы финансирования: {details["funding"]}\n'
 
         try:
             resp = requests.post(
@@ -292,12 +312,19 @@ def cmd_detect(args):
 
     events = []
 
-    def _content_preview_from_meta(meta: dict) -> str:
+    def _cp(meta: dict) -> str:
         return (meta.get('content_preview') or '')[:CONTENT_PREVIEW_LEN]
 
-    # new files
+    # ── new files ──────────────────────────────────────────
     for key in sorted(new_keys - old_keys):
         f = new_files[key]
+        details = {
+            'status': f.get('status'),
+            'content': _cp(f),
+        }
+        if args.section == 'proposals':
+            details['funding'] = (f.get('funding') or '')
+
         events.append({
             'id': make_event_id(),
             'timestamp': datetime.now(timezone.utc).isoformat(),
@@ -308,14 +335,11 @@ def cmd_detect(args):
                 'url': make_url(args.section, key),
                 'file': key,
             },
-            'details': {
-                'status': f.get('status'),
-                'content': _content_preview_from_meta(f),
-            },
+            'details': details,
             'ai_description': None,
         })
 
-    # deleted files
+    # ── deleted files ──────────────────────────────────────
     for key in sorted(old_keys - new_keys):
         f = old_files[key]
         events.append({
@@ -328,13 +352,11 @@ def cmd_detect(args):
                 'url': None,
                 'file': key,
             },
-            'details': {
-                'content': _content_preview_from_meta(f),
-            },
+            'details': {'content': _cp(f)},
             'ai_description': None,
         })
 
-    # modified files (including status changes)
+    # ── modified files (including status / quorum changes) ─
     for key in sorted(new_keys & old_keys):
         old = old_files[key]
         new = new_files[key]
@@ -346,14 +368,36 @@ def cmd_detect(args):
 
         action = 'updated'
         details = {
-            'content_before': _content_preview_from_meta(old),
-            'content_after': _content_preview_from_meta(new),
+            'content_before': _cp(old),
+            'content_after': _cp(new),
         }
 
+        # status change takes priority
         if old_status and new_status and old_status != new_status:
             action = 'status_changed'
             details['status_before'] = old_status
             details['status_after'] = new_status
+
+        # proposals: skip plain updated, check quorum
+        if args.section == 'proposals':
+            old_quorum = old.get('quorum_met')
+            new_quorum = new.get('quorum_met')
+            quorum_just_met = (
+                old_quorum is not None
+                and new_quorum is not None
+                and not old_quorum
+                and new_quorum
+            )
+
+            if action == 'updated':
+                if quorum_just_met:
+                    action = 'quorum_reached'
+                    details['quorum_reached'] = True
+                else:
+                    continue  # skip meaningless updates
+
+            if action in ('status_changed', 'quorum_reached', 'new'):
+                details['funding'] = (new.get('funding') or '')
 
         events.append({
             'id': make_event_id(),
@@ -370,7 +414,7 @@ def cmd_detect(args):
         })
 
     if not events:
-        print('No changes detected')
+        print('No relevant changes detected')
         cmd_snapshot(args)
         return
 
@@ -389,7 +433,7 @@ def cmd_detect(args):
         except (json.JSONDecodeError, IOError):
             pass
 
-    all_events = events + existing  # newest first
+    all_events = events + existing
 
     MAX_EVENTS = 500
     if len(all_events) > MAX_EVENTS:
@@ -398,9 +442,8 @@ def cmd_detect(args):
     events_path.write_text(
         json.dumps(all_events, indent=2, ensure_ascii=False), encoding='utf-8'
     )
-    print(f'Detected {len(events)} changes -> {args.events}')
+    print(f'Detected {len(events)} relevant changes -> {args.events}')
 
-    # Save new manifest for next comparison
     cmd_snapshot(args)
 
 

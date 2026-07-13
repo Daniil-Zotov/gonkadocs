@@ -118,6 +118,7 @@
 .af-event-dot.deleted         { background: #cf222e; }
 .af-event-dot.updated         { background: #0969da; }
 .af-event-dot.status_changed  { background: #9a6700; }
+.af-event-dot.quorum_reached  { background: #8250df; }
 
 .af-event-card {
   font-size: 0.6rem;
@@ -143,6 +144,7 @@
 .af-event-action.deleted         { color: #cf222e; }
 .af-event-action.updated         { color: #0969da; }
 .af-event-action.status_changed  { color: #9a6700; }
+.af-event-action.quorum_reached  { color: #8250df; }
 
 .af-event-section {
   font-size: 0.55rem;
@@ -204,6 +206,13 @@
   line-height: 1.45;
   color: #24292f;
   border-radius: 2px;
+}
+
+.af-event-funding {
+  margin-top: 0.2rem;
+  font-size: 0.6rem;
+  font-weight: 600;
+  color: #1a7f37;
 }
 
 .af-event-time {
@@ -325,7 +334,8 @@
       'new': 'Добавлено',
       'deleted': 'Удалено',
       'updated': 'Обновлено',
-      'status_changed': 'Статус изменён'
+      'status_changed': 'Статус изменён',
+      'quorum_reached': 'Кворум достигнут'
     }[action] || action;
   }
 
@@ -381,6 +391,10 @@
           html += ' → ';
           html += '<span class="af-status-badge ' + details.status_after + '">' + escHtml(details.status_after) + '</span>';
           html += '</div>';
+        }
+
+        if (details.funding) {
+          html += '<div class="af-event-funding">' + escHtml(details.funding) + '</div>';
         }
 
         if (hasAI) {
