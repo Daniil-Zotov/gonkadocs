@@ -1,0 +1,171 @@
+{
+  "section": "preproposals",
+  "snapshot_time": "2026-07-13T09:37:28.002243+00:00",
+  "files": {
+    "00e8a72a-e121-4ea1-8d30-95a0d51268b2/index.md": {
+      "title": "Gonka.TV — амбассадор Гонки на YouTube",
+      "status": "expired",
+      "checksum": "5f0bf02260c3eb73d85e9b39bb4135c08e5a126b523656c35126a839a6e0def6"
+    },
+    "012f8a32-45ab-4ba8-b6f3-39631d19eb84/index.md": {
+      "title": "Return Withheld Miner Rewards: Redistribute Gov-Wallet Balance for Ep 132–247",
+      "status": "expired",
+      "checksum": "13ad63f28012e9f605a4d5e5753733c4c99515215df2b665632f3654942df7c8"
+    },
+    "0395efa6-8eef-4d83-85cb-83d36a937f96/index.md": {
+      "title": "7. Team Epokha AI / epokha.ai Grant Request",
+      "status": "expired",
+      "checksum": "f254759067b63354fae46c45312aaa5ba2574e05b120e1217c3672b56bf23968"
+    },
+    "08405617-5654-4ead-be62-642affa1739e/index.md": {
+      "title": "12. Team Slava MSE Team Grant Request",
+      "status": "expired",
+      "checksum": "9cb0cb60d0ce816faa4f879ff900bd72e8f4703a626198ebc029caa10fb6cae6"
+    },
+    "205219a5-6ed2-4f25-8d22-fa7c65a45ba6/index.md": {
+      "title": "External Test Lab & Community DevNet",
+      "status": "active",
+      "checksum": "27dc167406510d750a70a8e7dcc191a147b58015c4197dfa47df56d5d731959c"
+    },
+    "28dcf8fb-3138-4e8b-adc0-0fb82962276c/index.md": {
+      "title": "International Marketing Campaign for Gonka — English-Speaking Markets",
+      "status": "expired",
+      "checksum": "c58773e4a37c4eda06c6d753c6cf34ae077be6465fba19afecfde8e975eda360"
+    },
+    "29baf37b-811f-4c36-b517-66a578383f1c/index.md": {
+      "title": "Bring Gonka to EBC12 as a Gold Sponsor",
+      "status": "expired",
+      "checksum": "14696e0dd21af3c75631aa82c6c8876453af73e10b55c10391f4cc10e9cf2157"
+    },
+    "2b6b2142-685a-4eda-b2a1-f8853228f3e6/index.md": {
+      "title": "3. Team Gonka Wallet Grant Request",
+      "status": "expired",
+      "checksum": "d1b8f0241b25c0a44dedf0ed8eec47e9a7c10a975dda9bef719a13de2d0e3918"
+    },
+    "2cbbe98e-ceff-4f09-a1cd-e8d370e97fde/index.md": {
+      "title": "Gonka NOP: ретроактивный грант + финансирование поддержки и новых фич.",
+      "status": "expired",
+      "checksum": "986843a8808a5d08a78927d85675530698e705d5ffb813ed07aee3e5423cfbfd"
+    },
+    "4792a93f-127a-4a0e-9a12-acd229c1e865/index.md": {
+      "title": "Team Gonka.AI \\| Inside Grant Request",
+      "status": "expired",
+      "checksum": "a8be166730a89cd17d61cd1a4e90b3148a1e8b462f33267bd7a6c7d1b033cf69"
+    },
+    "47ab8faa-f9bd-41ba-8e86-6c760d4975a6/index.md": {
+      "title": "8. Team Gonka.TV Grant Request",
+      "status": "expired",
+      "checksum": "9741a3f92d55c5f8899e48a3d2361fcf0e15c149e333e3619421108e88d78d3a"
+    },
+    "550f71de-897f-4ce5-8af8-97854775f8b2/index.md": {
+      "title": "Большое видео на канале Falcon Finance (Александр Соколовский)",
+      "status": "expired",
+      "checksum": "ba5193d5d28d1ff1a6c41306c94c2c46bc0dfb2084af2b81e3514a3d47ffde5b"
+    },
+    "59175b49-b83f-4aa6-98f5-b27fffb23cd8/index.md": {
+      "title": "10. Team Alexander Kuprin Grant Request",
+      "status": "expired",
+      "checksum": "f2439752c71edaf60cdd06281b23d80e9508bde85baf4bbe0dc79f6d6e4d03c3"
+    },
+    "6392c2ea-7fb8-45c7-b1ec-80fb16d81d93/index.md": {
+      "title": "Bounty for open-source PoC throughput contributions",
+      "status": "expired",
+      "checksum": "7ea1072cba6327dced60b8ceff42f59f1748ba5facfd3c110ac2bb037bf37cdf"
+    },
+    "662adc44-01c4-41ca-9c0d-ac61f472ee56/index.md": {
+      "title": "5. Team Lefine Grant Request",
+      "status": "expired",
+      "checksum": "7c00e38ed7690b8c4573d66432cdfff4236d3c46afc9bbab46b6dd2dee039368"
+    },
+    "66e6583a-27b4-4bae-91fb-8f0489736b0d/index.md": {
+      "title": "1. Team Veylox Grant Request",
+      "status": "expired",
+      "checksum": "8221d82d8f2282876a26b6fe213a2dc5479fbb1ea897d056bd3ef47e54f16e30"
+    },
+    "673770df-0b72-4d04-a038-f8c12546817f/index.md": {
+      "title": "Universal Continuous GPU Benchmark for Gonka Hosts (vLLM v0.19+, Anti-Sybil)",
+      "status": "expired",
+      "checksum": "a726a56b23b5c67f1475d8ffa18c5459774b7839c1dea898d23010f57da5d98e"
+    },
+    "7d2ec26b-6524-4fc6-b676-a13d822536e8/index.md": {
+      "title": "Интеграция ИИ Gonka в инфраструктуру QR Mint",
+      "status": "expired",
+      "checksum": "a08230098c8ded61285e6070cf290d89c1e8c43a4ad64924a009ccc146a778a7"
+    },
+    "b7083379-6dc5-4198-b9b0-1b8b98f0ac01/index.md": {
+      "title": "Улучшения для vote.gonka.vip",
+      "status": "expired",
+      "checksum": "f1602892708798fa1d2501dd7b667b38af989035b688c6e7f1a113846a32c8d7"
+    },
+    "cb7f643f-3d56-47ec-9193-f9f2f80a99fb/index.md": {
+      "title": "Go-To-Market Team for 3 Month to Set Up the Basis",
+      "status": "expired",
+      "checksum": "974a068cf84f9614930083d7a0730cdbd3f6ce0bf7194461ccec2efd292371b4"
+    },
+    "d14f975e-0e40-4a94-81c5-715a02c3826e/index.md": {
+      "title": "Коэффициент для Kimi 2.6 - 1,87",
+      "status": "expired",
+      "checksum": "6d717268f503b78b1fe7193b5baa297f8b5efdbfe8ca0ef2c80724246c5908e9"
+    },
+    "d2f317f0-541a-4d9f-bbac-d2d394906bf2/index.md": {
+      "title": "11. Team GonkaGate Grant Request",
+      "status": "expired",
+      "checksum": "148318bc7fd5af50efa6f1588911a0bc852f7207b6766c435d8420d7a95daabe"
+    },
+    "db4d91a4-1ee7-46ee-a3d1-0e8ba546d04b/index.md": {
+      "title": "4. Team Gonka NL BE Community Grant Request",
+      "status": "expired",
+      "checksum": "2c5b6b9fadeaa56770e6189fc6d26ceff9596fbfaa800e18bf054e4d06073546"
+    },
+    "e0cc7d32-5d1a-49e1-94e8-0ca3d9ccbf6b/index.md": {
+      "title": "Привлечение $3M+ нового капитала на Uniswap",
+      "status": "active",
+      "checksum": "e0e025e6a8b2f8c1ac34dcb07a0027b44008041869cb0fcb23c984390f33aa03"
+    },
+    "ed7bd700-bb5a-4c99-9dae-bdcba6641015/index.md": {
+      "title": "Gonka Integration Grant for AI Startups and Products (GNK Rewards)",
+      "status": "active",
+      "checksum": "8d3c833d13cdac54caa8b08d74e33c825a26456ce8c90e59878da61dd1955f38"
+    },
+    "ed8148eb-535e-4677-9a6b-5316c81c996a/index.md": {
+      "title": "Private Inc × Gonka — Network Growth Initiative",
+      "status": "active",
+      "checksum": "7a3fc2ed9a8b3f7507af91aaa243a81a9a66f0d9b80693878ae9c3d3e9e58d50"
+    },
+    "efc0edeb-bc49-4c6b-a6e7-5b20ccfbe571/index.md": {
+      "title": "Стресс тест инфиренса",
+      "status": "expired",
+      "checksum": "35bea4ff6d4eaa29ea8a00d98cecf9a0f3870915fe723c513b03ca1c39eac018"
+    },
+    "f021bdb3-59f4-4906-bfaa-7b90b72019b1/index.md": {
+      "title": "9. Team Gonka-API.org Grant Request",
+      "status": "expired",
+      "checksum": "8db804ea4f76f8a468f0832ca7a6d58eae8d9d1e86cb838ccbbe817cac418d52"
+    },
+    "f215996d-e562-42b5-b2b1-400226e612fa/index.md": {
+      "title": "Gonka Media Library by Saccade",
+      "status": "expired",
+      "checksum": "b9754d48e811ad6300c98dfc729745050cfa4483654e0e2918ff57996131d11b"
+    },
+    "f341b83c-78f0-4ab2-b8fd-ddc7ac5d9c37/index.md": {
+      "title": "Привлечение $3M+ нового капитала на Uniswap v2.0",
+      "status": "active",
+      "checksum": "d53cb031c41f1f948d6ebc2d4972921395d797f56ae23ace7a56cce75b7ed431"
+    },
+    "f6b4e378-8950-4bcf-ac7f-d70d9d246630/index.md": {
+      "title": "12+1. Team EntroPi Grant Request",
+      "status": "expired",
+      "checksum": "f7860426fb445a4414d139936f3d13ebf4d109834e96fa01f395eae6c4c1cab3"
+    },
+    "fd9989ca-7c5b-4a2f-baf4-2465e6915ba6/index.md": {
+      "title": "Предложение по развитию игровой экосистемы блокчейна через турнирные пулы вознаг",
+      "status": "expired",
+      "checksum": "3e332897134c5487a3b37e665c945447a5dc700ab8d784eeaaeb261fc7bab3f8"
+    },
+    "index.md": {
+      "title": "Gonka Community Pre-Proposals",
+      "status": "active",
+      "checksum": "e300e78888aa293422f06b3f717a0a16cb20420ff263011a9443b97bd096d7b4"
+    }
+  }
+}

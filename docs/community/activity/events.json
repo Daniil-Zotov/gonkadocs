@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "evt_20260713093723_cd38eea6",
+    "timestamp": "2026-07-13T09:37:23.492156+00:00",
+    "section": "preproposals",
+    "action": "updated",
+    "item": {
+      "title": "Gonka Community Pre-Proposals",
+      "url": "/proposals/preproposals/",
+      "file": "index.md"
+    },
+    "details": {},
+    "ai_description": "Обновили раздел предварительных предложений Gonka Community Pre-Proposals. Теперь инициативам удобнее проходить раннюю стадию обсуждения перед формальным голосованием, что делает управление сетью еще открытее. Следите за обновлениями и присоединяйтесь к обсуждениям."
+  }
+]
