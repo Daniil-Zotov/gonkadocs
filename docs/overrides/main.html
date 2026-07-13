@@ -168,6 +168,29 @@
       }
       initCommunityNav();
       initCountdowns();
+
+      // Inject language switcher when navigating from main site to Gonka section
+      // (instant navigation preserves the main header, which lacks the switcher)
+      var path = (window.location.pathname || '/').replace(/\/+$/, '') || '/';
+      var palette = document.querySelector('.md-header__option[data-md-component="palette"]');
+      if (palette) {
+        var hasSwitcher = !!document.querySelector('.md-header .md-select');
+        if (path.startsWith('/gonka/docs/')) {
+          if (!hasSwitcher) {
+            var gonkaPath = path.replace(/^\/gonka\/docs\//, '');
+            var contentPath = gonkaPath.startsWith('zh/') ? gonkaPath.substring(3) : gonkaPath;
+            if (contentPath && !contentPath.endsWith('/')) contentPath += '/';
+            var div = document.createElement('div');
+            div.className = 'md-header__option gonka-lang-switcher';
+            div.style.cssText = 'max-width:100%;opacity:1';
+            div.innerHTML = '<div class="md-select"><button class="md-header__button md-icon" aria-label="Select language"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12.87 15.07l-2.54-2.51.03-.03A17.52 17.52 0 0 0 14.07 6H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"/></svg></button><div class="md-select__inner"><ul class="md-select__list"><li class="md-select__item"><a href="/gonka/docs/' + contentPath + '" hreflang="en" class="md-select__link">English</a></li><li class="md-select__item"><a href="/gonka/docs/zh/' + contentPath + '" hreflang="zh" class="md-select__link">中文</a></li></ul></div></div>';
+            palette.parentNode.insertBefore(div, palette.nextSibling);
+          }
+        } else {
+          var inj = document.querySelector('.gonka-lang-switcher');
+          if (inj) inj.remove();
+        }
+      }
     });
   </script>
 {% endblock %}
