@@ -3,14 +3,14 @@ title: "#1445 — The missing first mile: onboarding Gonka from a newcomer’s p
 source: https://github.com/gonka-ai/gonka/discussions/1445
 discussion_number: 1445
 category: proposals
-synced_at: 2026-07-13T14:55:06Z
+synced_at: 2026-07-13T17:07:54Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1445](https://github.com/gonka-ai/gonka/discussions/1445) every hour. 
 
 # The missing first mile: onboarding Gonka from a newcomer’s perspective
 
-**Автор:** [@julb1992](https://github.com/julb1992) · **Категория:** :bulb: Proposals · **Создано:** 2026-07-12 20:31 UTC · **Обновлено:** 2026-07-12 20:31 UTC
+**Автор:** [@julb1992](https://github.com/julb1992) · **Категория:** :bulb: Proposals · **Создано:** 2026-07-12 20:31 UTC · **Обновлено:** 2026-07-13 15:39 UTC
 
 ---
 
@@ -86,3 +86,13 @@ I discovered Gonka as a potential participant, became deeply interested in its e
 I am not proposing to explain Gonka better than its builders. I am proposing to document the questions newcomers ask before they understand what Gonka’s builders are explaining.
 
 I would genuinely appreciate critical feedback before taking this idea any further.
+
+---
+
+## 💬 Комментарии (1)
+
+### Комментарий 1 — [@sultee](https://github.com/sultee)
+
+*2026-07-13 15:39 UTC*
+
+Hey Julien! Thank you so much for sharing your experience and ideas! I'd propose also bringing attention to this issue on Gonka community's Discord (not dropping links here, but you'll find it in the README)

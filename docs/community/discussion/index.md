@@ -4,7 +4,7 @@ title: "GitHub Discussions"
 
 # GitHub Discussions — `gonka-ai/gonka`
 
-Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **75**. Обновлено: `2026-07-13 14:55 UTC`.
+Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **75**. Обновлено: `2026-07-13 17:08 UTC`.
 
 ## 📂 Категории
 
@@ -20,7 +20,7 @@ title: "GitHub Discussions"
 
 | # | Заголовок | Категория | Автор | Обновлено |
 |---:|---|---|---|---|
-| [1445](proposals/1445-the-missing-first-mile-onboarding-gonka-from-a-newcomers-per.md) | [The missing first mile: onboarding Gonka from a newcomer’s perspective](proposals/1445-the-missing-first-mile-onboarding-gonka-from-a-newcomers-per.md) | :bulb: Proposals | [@julb1992](https://github.com/julb1992) | 2026-07-12 |
+| [1445](proposals/1445-the-missing-first-mile-onboarding-gonka-from-a-newcomers-per.md) | [The missing first mile: onboarding Gonka from a newcomer’s perspective](proposals/1445-the-missing-first-mile-onboarding-gonka-from-a-newcomers-per.md) | :bulb: Proposals | [@julb1992](https://github.com/julb1992) | 2026-07-13 |
 | [1388](proposals/1388-external-test-lab-community-devnet.md) | [External Test Lab & Community DevNet](proposals/1388-external-test-lab-community-devnet.md) | :bulb: Proposals | [@paranjko](https://github.com/paranjko) | 2026-07-10 |
 | [1367](proposals/1367-high-availability-architecture.md) | [High-Availability Architecture](proposals/1367-high-availability-architecture.md) | :bulb: Proposals | [@a-kuprin](https://github.com/a-kuprin) | 2026-07-10 |
 | [1363](show-and-tell/1363-openbroker-broker-for-brokers-or-devshards-as-a-service.md) | [OpenBroker - broker for brokers or Devshards as a service.](show-and-tell/1363-openbroker-broker-for-brokers-or-devshards-as-a-service.md) | :raised_hands: Show and Tell | [@gonkalabs](https://github.com/gonkalabs) | 2026-07-09 |
