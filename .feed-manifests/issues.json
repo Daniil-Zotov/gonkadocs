@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-07-13T20:39:21.154799+00:00",
+  "snapshot_time": "2026-07-13T22:16:24.844507+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "Description",
@@ -1830,7 +1830,7 @@
       "title": "GitHub Issues — `gonka-ai/gonka`",
       "status": null,
       "content_preview": "# GitHub Issues — `gonka-ai/gonka`\n\nAll issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).\nTotal: **304** (🟢 open: **66**, 🔴 closed: **238**).\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"01439-external-visibility/\">External Visibility</a>\n      <span class=\"issues-number\">#1439</span>\n    </div>\n    <p class=\"issues-desc\">Gonka’s visibility as a solution for decentralized storage should be promoted more widely. To an outside ",
-      "checksum": "399061b8da00ab3f66d2f2cd5972731368518bbbbfbb791c867057e6dd420e5c"
+      "checksum": "5a92f5d4d6fbaf0ae7d61d8e56d208ff9274ec54b5f6323fa4da73fe42a70c98"
     },
     "labels/bug/index.md": {
       "title": "Issues: bug",
@@ -1848,7 +1848,7 @@
       "title": "Issues: enhancement",
       "status": null,
       "content_preview": "# Issues: enhancement\n\nIssues with label **enhancement**. Total: **13**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01439-external-visibility/\">External Visibility</a>\n      <span class=\"issues-number\">#1439</span>\n    </div>\n    \n    <div class=\"issues-labels\"><span class=\"issues-label\" style=\"background-color: #a2eeef; color: #24292f; border-color: #a2eeef;\">enhancement</span></div>\n    <div class=\"issues-",
-      "checksum": "63ba9fb50a5a215f4b6a95eab4c067936ad3b94ab398498bfb2d8f242ab919cf"
+      "checksum": "5d09940117bc82203bdddbdea80acb797ac839856802e142791ad28caf5b84ef"
     },
     "labels/help-wanted/index.md": {
       "title": "Issues: help wanted",
@@ -1860,7 +1860,7 @@
       "title": "Issues: no-label",
       "status": null,
       "content_preview": "# Issues: no-label\n\nIssues with label **no-label**. Total: **229**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01385-gateway-allowlist-request-dev-server-personal-gateway/\">Gateway allowlist request - dev server personal gateway</a>\n      <span class=\"issues-number\">#1385</span>\n    </div>\n    \n    <div class=\"issues-labels\"></div>\n    <div class=\"issues-meta\">\n      <span class=\"issues-meta-item\">[@scodeit]",
-      "checksum": "ba8f80fde292e958ce965f19d9008345cec72b0bb15725ed9558214445f32838"
+      "checksum": "ab82aa00fae1357a725c6eb8d5bea9aa707fa63b87734f0dd3b43162512eff52"
     },
     "labels/priority-high/index.md": {
       "title": "Issues: Priority: High",
@@ -1872,7 +1872,7 @@
       "title": "Issues: Priority: Low",
       "status": null,
       "content_preview": "# Issues: Priority: Low\n\nIssues with label **Priority: Low**. Total: **13**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01019-subnetctl-inference-error-handling/\">subnetctl: inference error handling</a>\n      <span class=\"issues-number\">#1019</span>\n    </div>\n    \n    <div class=\"issues-labels\"><span class=\"issues-label\" style=\"background-color: #95b500; color: #24292f; border-color: #95b500;\">Priority: Low",
-      "checksum": "6585dfffd56ec94ccc63c8a82a2c3fddab55706352df6afd24ecb02166862a0c"
+      "checksum": "e125e4aec5008ace9432aa9f5ddb665b7d9342c54f9dcf916b76b2c06e286cc0"
     },
     "labels/priority-medium/index.md": {
       "title": "Issues: Priority: Medium",
