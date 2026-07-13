@@ -1,6 +1,6 @@
 {
   "section": "proposals",
-  "snapshot_time": "2026-07-13T09:50:41.103803+00:00",
+  "snapshot_time": "2026-07-13T10:00:17.994127+00:00",
   "files": {
     "2025-q3/1/index.md": {
       "title": "#1 – Correct Epoch Length",
@@ -475,7 +475,7 @@
     "index.md": {
       "title": "On-Chain Governance Proposals",
       "status": "rejected",
-      "checksum": "d0293c93c9938a714c0f55321d4da8f6f8a0fccffb815c123c5d1aadcc90a696"
+      "checksum": "7101bc610439b4578e96464bb527b3761700dad40bd2d34b6d827d30a45c6ed7"
     }
   }
 }
