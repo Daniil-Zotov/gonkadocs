@@ -23,6 +23,21 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 
+# ── constants ─────────────────────────────────────────────────
+
+CONTENT_PREVIEW_LEN = 800  # max chars stored for AI context
+
+_FRONTMATTER_RE = re.compile(r'^---\s*\n.*?^---\s*\n', re.DOTALL | re.MULTILINE)
+
+
+def content_preview(content: str, max_len: int = CONTENT_PREVIEW_LEN) -> str:
+    """Strip frontmatter and return first max_len chars of meaningful content."""
+    cleaned = _FRONTMATTER_RE.sub('', content, count=1)
+    # remove excessive blank lines
+    cleaned = re.sub(r'\n{3,}', '\n\n', cleaned)
+    return cleaned.strip()[:max_len]
+
+
 # ── helpers ────────────────────────────────────────────────────
 
 def sha256_file(path: Path) -> str:
@@ -80,7 +95,11 @@ def _extract_proposal_status(content: str):
 
 
 def extract_metadata(section: str, rel_path: Path, content: str) -> dict:
-    meta = {'title': _extract_title(content, rel_path.stem), 'status': None}
+    meta = {
+        'title': _extract_title(content, rel_path.stem),
+        'status': None,
+        'content_preview': content_preview(content),
+    }
 
     if section == 'proposals':
         meta['status'] = _extract_proposal_status(content)
@@ -152,8 +171,10 @@ AI_SYSTEM_PROMPT = """Ты — редактор ленты событий соо
 - Максимум 2–3 предложения
 - Дружелюбный, но профессиональный тон
 - Только обычный текст (без markdown, без **, без ##)
-- Расскажи, что изменилось и почему это важно для сообщества
-- Если указаны статусы до/после (например, голосование → принят), объясни значение"""
+- Внимательно прочитай содержимое ДО и ПОСЛЕ изменений, чтобы понять суть
+- Расскажи, что именно изменилось и почему это важно для сообщества
+- Если указаны статусы до/после (например, голосование → принят), объясни значение
+- Не пересказывай содержимое дословно — объясни смысл изменений"""
 
 
 def enrich_with_ai(events: list, section: str):
@@ -178,9 +199,6 @@ def enrich_with_ai(events: list, section: str):
     for event in events:
         action_label = ACTION_LABELS.get(event['action'], event['action'])
         details = event.get('details', {})
-        details_str = '; '.join(
-            f'{k}: {v}' for k, v in details.items() if v
-        )
         title = event['item'].get('title', '')
 
         user_prompt = (
@@ -188,8 +206,25 @@ def enrich_with_ai(events: list, section: str):
             f'Действие: {action_label}\n'
             f'Название: {title}\n'
         )
-        if details_str:
-            user_prompt += f'Детали: {details_str}\n'
+
+        # Add before/after content for meaningful AI analysis
+        if details.get('content_before'):
+            user_prompt += '--- Содержимое ДО ---\n' + details['content_before'] + '\n'
+        if details.get('content_after'):
+            user_prompt += '--- Содержимое ПОСЛЕ ---\n' + details['content_after'] + '\n'
+        if details.get('content'):
+            user_prompt += '--- Содержимое ---\n' + details['content'] + '\n'
+
+        # Status changes
+        status_info = []
+        if details.get('status_before'):
+            status_info.append(f"статус до: {details['status_before']}")
+        if details.get('status_after'):
+            status_info.append(f"статус после: {details['status_after']}")
+        if details.get('status'):
+            status_info.append(f"статус: {details['status']}")
+        if status_info:
+            user_prompt += 'Статусы: ' + ', '.join(status_info) + '\n'
 
         try:
             resp = requests.post(
@@ -204,7 +239,7 @@ def enrich_with_ai(events: list, section: str):
                         {'role': 'system', 'content': AI_SYSTEM_PROMPT},
                         {'role': 'user', 'content': user_prompt},
                     ],
-                    'max_tokens': 200,
+                    'max_tokens': 350,
                     'temperature': 0.7,
                 },
                 timeout=15,
@@ -257,6 +292,9 @@ def cmd_detect(args):
 
     events = []
 
+    def _content_preview_from_meta(meta: dict) -> str:
+        return (meta.get('content_preview') or '')[:CONTENT_PREVIEW_LEN]
+
     # new files
     for key in sorted(new_keys - old_keys):
         f = new_files[key]
@@ -272,6 +310,7 @@ def cmd_detect(args):
             },
             'details': {
                 'status': f.get('status'),
+                'content': _content_preview_from_meta(f),
             },
             'ai_description': None,
         })
@@ -289,7 +328,9 @@ def cmd_detect(args):
                 'url': None,
                 'file': key,
             },
-            'details': {},
+            'details': {
+                'content': _content_preview_from_meta(f),
+            },
             'ai_description': None,
         })
 
@@ -304,14 +345,15 @@ def cmd_detect(args):
         new_status = new.get('status')
 
         action = 'updated'
-        details = {}
+        details = {
+            'content_before': _content_preview_from_meta(old),
+            'content_after': _content_preview_from_meta(new),
+        }
 
         if old_status and new_status and old_status != new_status:
             action = 'status_changed'
-            details = {
-                'status_before': old_status,
-                'status_after': new_status,
-            }
+            details['status_before'] = old_status
+            details['status_after'] = new_status
 
         events.append({
             'id': make_event_id(),
