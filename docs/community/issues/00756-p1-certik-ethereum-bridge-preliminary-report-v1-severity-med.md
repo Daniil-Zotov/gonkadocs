@@ -2,7 +2,7 @@
 title: "#756 —  [P1] Certik, Ethereum Bridge, Preliminary Report (v1), Severity: Medium [Priority 4]"
 source: https://github.com/gonka-ai/gonka/issues/756
 issue_number: 756
-synced_at: 2026-07-13T17:25:56Z
+synced_at: 2026-07-13T18:53:59Z
 template: issues-main.html
 ---
 

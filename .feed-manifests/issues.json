@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-07-13T17:27:56.990598+00:00",
+  "snapshot_time": "2026-07-13T18:56:16.941546+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "Description",
@@ -1830,7 +1830,7 @@
       "title": "GitHub Issues — `gonka-ai/gonka`",
       "status": null,
       "content_preview": "# GitHub Issues — `gonka-ai/gonka`\n\nAll issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).\nTotal: **304** (🟢 open: **66**, 🔴 closed: **238**).\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"01439-external-visibility/\">External Visibility</a>\n      <span class=\"issues-number\">#1439</span>\n    </div>\n    <p class=\"issues-desc\">Gonka’s visibility as a solution for decentralized storage should be promoted more widely. To an outside ",
-      "checksum": "37e5eb372692cd0368c549d217bd90f3693aaf91fe2756edf8269f287f69f727"
+      "checksum": "c3aa7d10edf805927c9fe2e13cfdce29fd2b51c2087063854834d20a9f866994"
     },
     "labels/bug/index.md": {
       "title": "Issues: bug",
@@ -1860,7 +1860,7 @@
       "title": "Issues: no-label",
       "status": null,
       "content_preview": "# Issues: no-label\n\nIssues with label **no-label**. Total: **229**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01385-gateway-allowlist-request-dev-server-personal-gateway/\">Gateway allowlist request - dev server personal gateway</a>\n      <span class=\"issues-number\">#1385</span>\n    </div>\n    \n    <div class=\"issues-labels\"></div>\n    <div class=\"issues-meta\">\n      <span class=\"issues-meta-item\">[@scodeit]",
-      "checksum": "56860c1e6c7e4d143e795332d4a59f74ad6e97750ea527ae57712885326dd6fd"
+      "checksum": "0d2011f1307a15669e07c831f3d0c35f06d862141ad0325f90824845d34039a0"
     },
     "labels/priority-high/index.md": {
       "title": "Issues: Priority: High",
