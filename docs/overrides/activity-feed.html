@@ -284,10 +284,7 @@
   <div class="af-loading" id="af-loading">Загрузка…</div>
   <div class="af-empty" id="af-empty" style="display:none">Нет событий по выбранным фильтрам.</div>
 </div>
-{% endblock %}
 
-{% block scripts %}
-{{ super() }}
 <script>
 (function() {
   var TL = document.getElementById('af-timeline');
@@ -442,16 +439,8 @@
   }
 
   FILTERS.forEach(function(cb) { cb.addEventListener('change', render); });
-
-  function init() {
-    loadEvents();
-    document$.subscribe(loadEvents);
-  }
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', init);
-  } else {
-    init();
-  }
+  loadEvents();
+  document$.subscribe(loadEvents);
 })();
 </script>
 {% endblock %}
