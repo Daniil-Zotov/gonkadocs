@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-07-14T18:37:11.725823+00:00",
+  "snapshot_time": "2026-07-14T20:37:11.564068+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "Description",
@@ -1836,7 +1836,7 @@
       "title": "GitHub Issues — `gonka-ai/gonka`",
       "status": null,
       "content_preview": "# GitHub Issues — `gonka-ai/gonka`\n\nAll issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).\nTotal: **305** (🟢 open: **67**, 🔴 closed: **238**).\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"01450-dynamic-pricing-price-pinned-at-min-by-integer-truncation-ca/\">Dynamic pricing: price pinned at min by integer truncation; capacity proxy miscalibrated per model</a>\n      <span class=\"issues-number\">#1450</span>\n    </div>\n    <p class=\"issues-desc\">Reporting two v",
-      "checksum": "762f15731bb0f7b4eee96629bcd4b7ebd66d2c19d6d89d0874920cf4a343315f"
+      "checksum": "40d0e19f056a02f68ce52e58968a12704b8a754cb4956a5c0e00fc51547559b5"
     },
     "labels/bug/index.md": {
       "title": "Issues: bug",
@@ -1866,7 +1866,7 @@
       "title": "Issues: no-label",
       "status": null,
       "content_preview": "# Issues: no-label\n\nIssues with label **no-label**. Total: **230**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01450-dynamic-pricing-price-pinned-at-min-by-integer-truncation-ca/\">Dynamic pricing: price pinned at min by integer truncation; capacity proxy miscalibrated per model</a>\n      <span class=\"issues-number\">#1450</span>\n    </div>\n    \n    <div class=\"issues-labels\"></div>\n    <div class=\"issues-meta\">\n      <span class=\"issues-m",
-      "checksum": "5b50c17772108c81cf8729b9a05b6645f91fcff12851edd314de55dda123f19c"
+      "checksum": "300def15075ab169e24382b818cf490fe31e97bdabe918ed8fd94bc349c290cb"
     },
     "labels/priority-high/index.md": {
       "title": "Issues: Priority: High",
@@ -1902,7 +1902,7 @@
       "title": "Issues: up-for-grabs",
       "status": null,
       "content_preview": "# Issues: up-for-grabs\n\nIssues with label **up-for-grabs**. Total: **15**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01199-reproducible-sampling-for-inference-validation/\">Reproducible sampling for inference validation</a>\n      <span class=\"issues-number\">#1199</span>\n    </div>\n    \n    <div class=\"issues-labels\"><span class=\"issues-label\" style=\"background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;\">up-for-grabs</span></d",
-      "checksum": "d2786e0ea42e0da0311e48a32babf7fc5c3b1d53e50ec9977e988bf04f1e3370"
+      "checksum": "218f20631f4fce2e0609f6b2ef9f8823fc315ea58c993b4d78f58bda865b6fde"
     }
   }
 }

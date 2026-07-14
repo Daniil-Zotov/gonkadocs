@@ -2,7 +2,7 @@
 title: "#1405 — OpenBroker API moved hosts and existing broker accounts (and balances) are gone — follow-up to #1319"
 source: https://github.com/gonka-ai/gonka/issues/1405
 issue_number: 1405
-synced_at: 2026-07-14T18:33:50Z
+synced_at: 2026-07-14T20:33:45Z
 template: issues-main.html
 ---
 
