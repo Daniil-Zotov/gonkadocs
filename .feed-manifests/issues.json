@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-07-14T20:37:11.564068+00:00",
+  "snapshot_time": "2026-07-14T22:20:04.474558+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "Description",
@@ -1836,7 +1836,7 @@
       "title": "GitHub Issues — `gonka-ai/gonka`",
       "status": null,
       "content_preview": "# GitHub Issues — `gonka-ai/gonka`\n\nAll issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).\nTotal: **305** (🟢 open: **67**, 🔴 closed: **238**).\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"01450-dynamic-pricing-price-pinned-at-min-by-integer-truncation-ca/\">Dynamic pricing: price pinned at min by integer truncation; capacity proxy miscalibrated per model</a>\n      <span class=\"issues-number\">#1450</span>\n    </div>\n    <p class=\"issues-desc\">Reporting two v",
-      "checksum": "40d0e19f056a02f68ce52e58968a12704b8a754cb4956a5c0e00fc51547559b5"
+      "checksum": "fd665c6c4cacf668fb5a200e10f65a23336ad64b4e8e1af81f81e2af023cc276"
     },
     "labels/bug/index.md": {
       "title": "Issues: bug",
@@ -1854,7 +1854,7 @@
       "title": "Issues: enhancement",
       "status": null,
       "content_preview": "# Issues: enhancement\n\nIssues with label **enhancement**. Total: **13**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01439-external-visibility/\">External Visibility</a>\n      <span class=\"issues-number\">#1439</span>\n    </div>\n    \n    <div class=\"issues-labels\"><span class=\"issues-label\" style=\"background-color: #a2eeef; color: #24292f; border-color: #a2eeef;\">enhancement</span></div>\n    <div class=\"issues-",
-      "checksum": "48fb00abf2b070ee182a47e458dd5dd3c30408e17a702d6287998023bce9f963"
+      "checksum": "be801086a555e5bb5d8a018f72ba3a9a7cab909dbdf4d37de21ec2a4330f3df1"
     },
     "labels/help-wanted/index.md": {
       "title": "Issues: help wanted",
@@ -1866,7 +1866,7 @@
       "title": "Issues: no-label",
       "status": null,
       "content_preview": "# Issues: no-label\n\nIssues with label **no-label**. Total: **230**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01450-dynamic-pricing-price-pinned-at-min-by-integer-truncation-ca/\">Dynamic pricing: price pinned at min by integer truncation; capacity proxy miscalibrated per model</a>\n      <span class=\"issues-number\">#1450</span>\n    </div>\n    \n    <div class=\"issues-labels\"></div>\n    <div class=\"issues-meta\">\n      <span class=\"issues-m",
-      "checksum": "300def15075ab169e24382b818cf490fe31e97bdabe918ed8fd94bc349c290cb"
+      "checksum": "bf14ca2784cc7a7587c4b22cc6307438b981c913315aaef0c1c653c4ec153008"
     },
     "labels/priority-high/index.md": {
       "title": "Issues: Priority: High",
@@ -1878,7 +1878,7 @@
       "title": "Issues: Priority: Low",
       "status": null,
       "content_preview": "# Issues: Priority: Low\n\nIssues with label **Priority: Low**. Total: **13**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01019-subnetctl-inference-error-handling/\">subnetctl: inference error handling</a>\n      <span class=\"issues-number\">#1019</span>\n    </div>\n    \n    <div class=\"issues-labels\"><span class=\"issues-label\" style=\"background-color: #95b500; color: #24292f; border-color: #95b500;\">Priority: Low",
-      "checksum": "26936395c21bca7fb54704d2460ff29c598950ce63c1b1e661e22e4619416dab"
+      "checksum": "246982c30a4a7ecbefa27f8dd701ec795acb98b2b2e216730bde6f828662b92a"
     },
     "labels/priority-medium/index.md": {
       "title": "Issues: Priority: Medium",
@@ -1902,7 +1902,7 @@
       "title": "Issues: up-for-grabs",
       "status": null,
       "content_preview": "# Issues: up-for-grabs\n\nIssues with label **up-for-grabs**. Total: **15**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01199-reproducible-sampling-for-inference-validation/\">Reproducible sampling for inference validation</a>\n      <span class=\"issues-number\">#1199</span>\n    </div>\n    \n    <div class=\"issues-labels\"><span class=\"issues-label\" style=\"background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;\">up-for-grabs</span></d",
-      "checksum": "218f20631f4fce2e0609f6b2ef9f8823fc315ea58c993b4d78f58bda865b6fde"
+      "checksum": "c129698ee0c515ff176fc4d21a1df5df6efbc343760b3ced56fd7e480e002cb4"
     }
   }
 }
