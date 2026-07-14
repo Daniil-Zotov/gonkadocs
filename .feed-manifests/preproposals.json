@@ -1,6 +1,6 @@
 {
   "section": "preproposals",
-  "snapshot_time": "2026-07-14T11:42:06.651626+00:00",
+  "snapshot_time": "2026-07-14T14:09:16.359410+00:00",
   "files": {
     "00e8a72a-e121-4ea1-8d30-95a0d51268b2/index.md": {
       "title": "Gonka.TV — амбассадор Гонки на YouTube",
@@ -28,9 +28,9 @@
     },
     "205219a5-6ed2-4f25-8d22-fa7c65a45ba6/index.md": {
       "title": "External Test Lab & Community DevNet",
-      "status": "active",
-      "content_preview": "# External Test Lab & Community DevNet\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Sergii Paranko\n**Created:** 2026-07-04 12:00 UTC\n**Closes:** 2026-07-14 11:44 UTC\n**Language:** EN\n**Votes:** 4\n**Avg. Bid:** 168.7K GNK\n\n</div>\n\n4-month pilot proposal for community-owned testing infrastructure and QA capacity.\n\n---\n\n## Full Proposal\n\nExecutive Summary\n\nThis proposal requests funding for a 4-month pilot of External Test Lab & Community DevNet: a community-owned testing function for Gonka protocol upgrades, DevShards, inference flows, host/broker operations, and geographically distributed network behavior before governance decisions and production rollout.\n\n| **Item**              | **Proposal**                                  ",
-      "checksum": "27dc167406510d750a70a8e7dcc191a147b58015c4197dfa47df56d5d731959c"
+      "status": "expired",
+      "content_preview": "# External Test Lab & Community DevNet\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Sergii Paranko\n**Created:** 2026-07-04 12:00 UTC\n**Closes:** 2026-07-14 11:44 UTC\n**Language:** EN\n**Votes:** 4\n**Avg. Bid:** 168.7K GNK\n\n</div>\n\n4-month pilot proposal for community-owned testing infrastructure and QA capacity.\n\n---\n\n## Full Proposal\n\nExecutive Summary\n\nThis proposal requests funding for a 4-month pilot of External Test Lab & Community DevNet: a community-owned testing function for Gonka protocol upgrades, DevShards, inference flows, host/broker operations, and geographically distributed network behavior before governance decisions and production rollout.\n\n| **Item**              | **Proposal**                                 ",
+      "checksum": "22847b05fb32959f2eca682c8a8cb1c23e0be473944cc85618d4c70896468e50"
     },
     "28dcf8fb-3138-4e8b-adc0-0fb82962276c/index.md": {
       "title": "International Marketing Campaign for Gonka — English-Speaking Markets",

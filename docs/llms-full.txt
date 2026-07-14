@@ -17255,13 +17255,12 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ## 🟢 Active Proposals
 
-4Active
-16Votes
-2.0M GNKTotal Bid
+3Active
+12Votes
+1.3M GNKTotal Bid
 
 | Status | Title | Author | Votes | Avg. Bid | Closes |
 | :----- | :----- | :----- | ----: | -------: | :----- |
-| 🟢 | [External Test Lab & Community DevNet](./205219a5-6ed2-4f25-8d22-fa7c65a45ba6/) | Sergii Paranko | 4 | 168.7K GNK | 2026-07-14 |
 | 🟢 | [Улучшаем инфиренс Kimi](./d185d9eb-243f-4228-b4ac-e2c7a50a5325/) | Mitch | 4 | 0.00 GNK | 2026-07-21 |
 | 🟢 | [Привлечение $3M+ нового капитала на Uniswap](./e0cc7d32-5d1a-49e1-94e8-0ca3d9ccbf6b/) | Andrey Orlov | 4 | 168.7K GNK | 2026-08-02 |
 | 🟢 | [Привлечение $3M+ нового капитала на Uniswap v2.0](./f341b83c-78f0-4ab2-b8fd-ddc7ac5d9c37/) | Andrey Orlov | 4 | 168.7K GNK | 2026-08-08 |
@@ -17270,12 +17269,13 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ## 🔴 Expired Proposals
 
-28Expired
-2Votes
-12.8K GNKTotal Bid
+29Expired
+6Votes
+687.4K GNKTotal Bid
 
 | Status | Title | Author | Votes | Avg. Bid | Closed |
 | :----- | :----- | :----- | ----: | -------: | :----- |
+| 🔴 | [External Test Lab & Community DevNet](./205219a5-6ed2-4f25-8d22-fa7c65a45ba6/) | Sergii Paranko | 4 | 168.7K GNK | 2026-07-14 |
 | 🔴 | [Private Inc × Gonka — Network Growth Initiative](./ed8148eb-535e-4677-9a6b-5316c81c996a/) | Igor Alexeev | 0 | 0.00 GNK | 2026-07-13 |
 | 🔴 | [Предложение по развитию игровой экосистемы блокчейна через турнирные пулы вознаг](./fd9989ca-7c5b-4a2f-baf4-2465e6915ba6/) | Victor | 0 | 0.00 GNK | 2026-07-12 |
 | 🔴 | [Интеграция ИИ Gonka в инфраструктуру QR Mint](./7d2ec26b-6524-4fc6-b676-a13d822536e8/) | Victor | 0 | 0.00 GNK | 2026-07-11 |
@@ -17307,7 +17307,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-07-14 11:41 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-07-14 14:09 UTC*
 
 ---
 
@@ -22661,7 +22661,7 @@ Clarkkent8494
 
 # External Test Lab & Community DevNet
 
-🟢 Active
+🔴 Expired
 
 **Author:** Sergii Paranko
 **Created:** 2026-07-04 12:00 UTC

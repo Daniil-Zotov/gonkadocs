@@ -1,5 +1,23 @@
 [
   {
+    "id": "evt_20260714140910_620999b4",
+    "timestamp": "2026-07-14T14:09:10.392132+00:00",
+    "section": "preproposals",
+    "action": "status_changed",
+    "item": {
+      "title": "External Test Lab & Community DevNet",
+      "url": "/proposals/preproposals/205219a5-6ed2-4f25-8d22-fa7c65a45ba6/",
+      "file": "205219a5-6ed2-4f25-8d22-fa7c65a45ba6/index.md"
+    },
+    "details": {
+      "content_before": "# External Test Lab & Community DevNet\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Sergii Paranko\n**Created:** 2026-07-04 12:00 UTC\n**Closes:** 2026-07-14 11:44 UTC\n**Language:** EN\n**Votes:** 4\n**Avg. Bid:** 168.7K GNK\n\n</div>\n\n4-month pilot proposal for community-owned testing infrastructure and QA capacity.\n\n---\n\n## Full Proposal\n\nExecutive Summary\n\nThis proposal requests funding for a 4-month pilot of External Test Lab & Community DevNet: a community-owned testing function for Gonka protocol upgrades, DevShards, inference flows, host/broker operations, and geographically distributed network behavior before governance decisions and production rollout.\n\n| **Item**              | **Proposal**                                  ",
+      "content_after": "# External Test Lab & Community DevNet\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Sergii Paranko\n**Created:** 2026-07-04 12:00 UTC\n**Closes:** 2026-07-14 11:44 UTC\n**Language:** EN\n**Votes:** 4\n**Avg. Bid:** 168.7K GNK\n\n</div>\n\n4-month pilot proposal for community-owned testing infrastructure and QA capacity.\n\n---\n\n## Full Proposal\n\nExecutive Summary\n\nThis proposal requests funding for a 4-month pilot of External Test Lab & Community DevNet: a community-owned testing function for Gonka protocol upgrades, DevShards, inference flows, host/broker operations, and geographically distributed network behavior before governance decisions and production rollout.\n\n| **Item**              | **Proposal**                                 ",
+      "status_before": "active",
+      "status_after": "expired"
+    },
+    "ai_description": "Предложение Sergii Paranko о запуске External Test Lab и Community DevNet с запрашиваемым финансированием около 168.7K GNK не набрало достаточной поддержки и перешло из статуса Active в Expired. Это означает, что пилот по созданию общественной тестовой инфраструктуры и QA-функции для протокола Gonka на данный момент не будет реализован, и сообществу стоит ожидать пересмотренной версии или альтернативных подходов к тестированию перед продакшеном."
+  },
+  {
     "id": "evt_20260714114158_6a5c02c5",
     "timestamp": "2026-07-14T11:41:58.760303+00:00",
     "section": "preproposals",
