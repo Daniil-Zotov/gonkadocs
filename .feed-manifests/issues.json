@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-07-14T09:22:41.195395+00:00",
+  "snapshot_time": "2026-07-14T11:00:01.730747+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "Description",
@@ -1830,7 +1830,7 @@
       "title": "GitHub Issues — `gonka-ai/gonka`",
       "status": null,
       "content_preview": "# GitHub Issues — `gonka-ai/gonka`\n\nAll issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).\nTotal: **304** (🟢 open: **66**, 🔴 closed: **238**).\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"01199-reproducible-sampling-for-inference-validation/\">Reproducible sampling for inference validation</a>\n      <span class=\"issues-number\">#1199</span>\n    </div>\n    <p class=\"issues-desc\">Review the existing reproducible / deterministic sampling work for inference vali",
-      "checksum": "62de83ba1637d3748a5a77800aa259c090c1e3c1becb73ef3b07bcc5db3285fd"
+      "checksum": "009a0fad5b6f4ec071b4c71bfb1bcfbfcfa7bc5a7e86aa978d18db0b7130f93a"
     },
     "labels/bug/index.md": {
       "title": "Issues: bug",
@@ -1860,7 +1860,7 @@
       "title": "Issues: no-label",
       "status": null,
       "content_preview": "# Issues: no-label\n\nIssues with label **no-label**. Total: **229**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01385-gateway-allowlist-request-dev-server-personal-gateway/\">Gateway allowlist request - dev server personal gateway</a>\n      <span class=\"issues-number\">#1385</span>\n    </div>\n    \n    <div class=\"issues-labels\"></div>\n    <div class=\"issues-meta\">\n      <span class=\"issues-meta-item\">[@scodeit]",
-      "checksum": "60bee0083ae865c309c1ee0c973178e339d7e7384ac9c6a70be106bb9b7189d3"
+      "checksum": "ee522adc59fb1aaeabf135a01263cb456d8bc7aaab40b1e7236a93246b8eb203"
     },
     "labels/priority-high/index.md": {
       "title": "Issues: Priority: High",
@@ -1878,7 +1878,7 @@
       "title": "Issues: Priority: Medium",
       "status": null,
       "content_preview": "# Issues: Priority: Medium\n\nIssues with label **Priority: Medium**. Total: **5**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01222-p1-int-overflow/\">[P1] Int overflow</a>\n      <span class=\"issues-number\">#1222</span>\n    </div>\n    \n    <div class=\"issues-labels\"><span class=\"issues-label\" style=\"background-color: #12a6e8; color: #24292f; border-color: #12a6e8;\">Priority: Medium</span></div>\n    <div class=\"issues-meta\">\n      <span cla",
-      "checksum": "fd397f3c9c9116acbd7768e1c4254dee4fef144d1982d0e2862aa8cf4649cf7a"
+      "checksum": "6400fc0e99dfd83c66dbbf90a0c5d0a2707bd2626eb60ae0f226ce37ba84c62c"
     },
     "labels/protocol/index.md": {
       "title": "Issues: protocol",
@@ -1896,7 +1896,7 @@
       "title": "Issues: up-for-grabs",
       "status": null,
       "content_preview": "# Issues: up-for-grabs\n\nIssues with label **up-for-grabs**. Total: **15**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01199-reproducible-sampling-for-inference-validation/\">Reproducible sampling for inference validation</a>\n      <span class=\"issues-number\">#1199</span>\n    </div>\n    \n    <div class=\"issues-labels\"><span class=\"issues-label\" style=\"background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;\">up-for-grabs</span></d",
-      "checksum": "f5361708147e52fb2cc56f53020aa7b68c11c2fa85d18fd8b9e6ee9924f26eed"
+      "checksum": "0079e8d266f463defb8214b59b6d9137c123c54f452dae3ee3252afb1c6e4db4"
     }
   }
 }
