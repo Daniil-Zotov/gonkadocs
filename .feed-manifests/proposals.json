@@ -1,6 +1,6 @@
 {
   "section": "proposals",
-  "snapshot_time": "2026-07-14T11:10:33.602329+00:00",
+  "snapshot_time": "2026-07-14T11:20:19.937268+00:00",
   "files": {
     "2025-q3/1/index.md": {
       "title": "#1 – Correct Epoch Length",
@@ -688,7 +688,7 @@
       "content_preview": "# Bringing $3M+ in New Capital to GONKA via Uniswap — Phase 1/6 ($50k USDT)\n\n**Author:** Andrey Orlovsky (@FrancesGreen9)\n\n**Goal:** Attract at least $3M in new long-term capital to GONKA through a scalable Telegram funnel with milestone-based funding and KPIs.\n\n## 1. Executive Summary\n\nWe propose building a long-term capital acquisition system for GONKA through purchases of the GNK token on Uniswap. The objective of the program is to attract no less than $3,000,000 in new capital.\n\nThe overall program is designed around a budget of $300,000 divided into 6 independent phases of $50,000 each. This proposal covers only the first phase.\n\nThe KPI for the first phase is **4x the advertising budget**. At the time of verification, wallets belonging to users acquired by our team must hold at least",
       "funding": "",
       "quorum_met": null,
-      "checksum": "64964e6089f3f5c812ea022405fad6b705ca3a8ecdbf65f04e935a6d03b31f3f"
+      "checksum": "f103e7c5fe909eea20012b555aab4acbd0c7eae04f798ef6337060b91280fd95"
     },
     "2026-q3/84/index.md": {
       "title": "#84 – Bringing $3M+ in New Capital to GONKA via Uniswap — Phase 1/6 ($50k USDT)",
@@ -704,7 +704,7 @@
       "content_preview": "# Internal Go-To-Market Team for 3 Month to Set Up the Basis: acquisition funnels, analytics, sharable target audience deep understanding\n\nThis proposal describes ecosystem we should do for the Gonka, including basics, go-to-market actions, the team and the budgets for the next 3 months.\n\n## What we'll do\n\n### I. Onboarding funnels for target audiences of all types mentioned in the [roadmap](https://github.com/gonka-ai/gonka/blob/d5e30ca891209f25fd84e36ef439e1f54ec9090c/proposals/gonka-network-development-roadmap.md) (Track 11, Project 1). This includes hundreds of experiments with offers and landings for various types of target audiences segments and acquisition channels. SEO + GEO/AEO optimization.\n\n| Target Audience | Their Core Need | Comment |\n| :--- | :--- | :--- |\n| B2C inference us",
       "funding": "",
       "quorum_met": null,
-      "checksum": "8cb29ef543c4f553be249f640eb55dc8cc707456bbcfbd3d15c902f648307649"
+      "checksum": "272b03d83556a18e552a6e9ee734f0a88749b9ad6c4440b1a46934509f692f0e"
     },
     "2026-q3/85/index.md": {
       "title": "#85 – Internal Go-To-Market Team for 3 Month",
