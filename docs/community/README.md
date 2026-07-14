@@ -13,7 +13,7 @@ Gonka governance is supported by specialized committees that help evaluate propo
 Evaluates proposals for product value, risks, and roadmap alignment. Publishes scored assessments using the **Proposal Scoring Framework v1**.
 
 - **Focus:** Product & technical proposals, roadmap alignment, risk detection
-- **Lead:** [@paranko](https://t.me/paranko)
+- **Lead:** [@paranko](https://telegram.me/paranko)
 - **Format:** Recorded sessions, AMAs, GIP meetings
 
 ---
@@ -33,7 +33,7 @@ Develops go-to-market direction: from formulating tasks for external contractors
 
 - **Focus:** Marketing proposals, contractor evaluation, quality control
 - **Process:** Weekly calls, quorum-based assessment (3+ members), 2-week review deadlines
-- **Contact:** [@vkatsman](https://t.me/vkatsman) for observers
+- **Contact:** [@vkatsman](https://telegram.me/vkatsman) for observers
 
 ---
 
@@ -41,7 +41,7 @@ Develops go-to-market direction: from formulating tasks for external contractors
 
 Handles compensation for losses caused by protocol bugs and unpredictable behavior. Pre-filters protocol-related claims and groups incidents for general votes.
 
-- **Founded by:** [@votkon](https://t.me/votkon)
+- **Founded by:** [@votkon](https://telegram.me/votkon)
 - **Language:** English (inclusive)
 - **Join:** Open to technically knowledgeable participants
 

@@ -39,4 +39,4 @@ Therefore, I propose forming a compensation committee that:
 
 If you have the opportunity and desire to be part of the committee — please confirm your participation.
 
-**Основатель:** [@votkon](https://t.me/votkon)
+**Основатель:** [@votkon](https://telegram.me/votkon)

@@ -66,9 +66,9 @@ The full proposal below provides detailed information on all calculations, KPIs,
 
 Full PROPOSAL: <https://gonka.vote/proposal/f341b83c-78f0-4ab2-b8fd-ddc7ac5d9c37>
 
-Demo Telegram Channel: <https://t.me/demo_chanel_gonka>
+Demo Telegram Channel: <https://telegram.me/demo_chanel_gonka>
 
-Additional materials, proof of our work, landing page examples, creatives, advertising accounts, and partnership references: <https://t.me/proposaluniswap>
+Additional materials, proof of our work, landing page examples, creatives, advertising accounts, and partnership references: <https://telegram.me/proposaluniswap>
 
 ---
 

@@ -3,7 +3,7 @@
 ## Viktor Katsman
 
 - **LinkedIn:** [Viktor Katsman](https://www.linkedin.com/in/viktor-katsman/)
-- **Telegram:** [@vkatsman](https://t.me/vkatsman)
+- **Telegram:** [@vkatsman](https://telegram.me/vkatsman)
 
 - Ex-Yandex, PhD; специалист по go-to-market технических продуктов на ранних стадиях в AI, EdTech и финансах
 - В 2019 году увеличил годовую выручку Яндекс.Маркета на $34M за счет перестроения AI-алгоритма ранжирования
@@ -30,7 +30,7 @@
 ## Arseny Myakotnikov
 
 - **LinkedIn:** [Arseny Myakotnikov](https://www.linkedin.com/in/arseny-myakotnikov-5a4341177/)
-- **Telegram:** [@arsenm1](https://t.me/arsenm1)
+- **Telegram:** [@arsenm1](https://telegram.me/arsenm1)
 
 - 10+ лет в маркетинге, из них 7+ в web3; в крипте с начала 2017 года — на уровне CMO для десятков финтех-, web3- и AI-продуктов
 - Привлёк $300M+ AUM для DeFi хедж-фонда, масштабировав базу с ~1K до 15K+ активных пользователей
@@ -54,7 +54,7 @@
 ## Andre Antares
 
 - **LinkedIn:** [Andre Antares](https://www.linkedin.com/in/andre-antares-9063ba15b)
-- **Telegram:** [@andre_arkhi](https://t.me/andre_arkhi)
+- **Telegram:** [@andre_arkhi](https://telegram.me/andre_arkhi)
 
 - Отвечает за контент и маркетинг в Ancapex, сервисе майнинга для Gonka
 - За последние полгода команда с нуля построила активное Telegram-сообщество
@@ -82,7 +82,7 @@
 
 ## Hleb D
 
-- **Telegram:** [@telega1547](https://t.me/telega1547)
+- **Telegram:** [@telega1547](https://telegram.me/telega1547)
 
 - Сооснователь Gonka24, сервиса-брокера инференса Gonka
 - Имеет опыт создания и продвижения собственных проектов и бизнесов – от digital products до e-commerce
@@ -105,7 +105,7 @@
 
 ## Mikhail
 
-- **Telegram:** [@empro3](https://t.me/empro3)
+- **Telegram:** [@empro3](https://telegram.me/empro3)
 
 - PhD track в США по business economics and finance; фокус – corporate governance
 - Отвечал за региональный маркетинг партнеров NVIDIA, включая запуск новых GPU и ускорителей физики
@@ -128,7 +128,7 @@
 
 ## Eldar I
 
-- **Telegram:** [@MageDeFi](https://t.me/MageDeFi)
+- **Telegram:** [@MageDeFi](https://telegram.me/MageDeFi)
 
 - Операционный директор в пуле Gonka.Top
 - Отвечает за бизнес и операционную часть пула: onboarding участников, продажи, партнерскую программу, поддержку участников и внутренние процессы
@@ -153,7 +153,7 @@
 
 ## Timur Vyalshin
 
-- **Telegram:** [@lexti](https://t.me/lexti)
+- **Telegram:** [@lexti](https://telegram.me/lexti)
 
 - По образованию – инженер по качеству в автомобилестроении; 5 лет работал в automotive quality на заводе Hyundai
 - 4.5 года занимался YouTube / Telegram-каналом CryptoCommons
@@ -178,7 +178,7 @@
 ## Eugene Maksimenkov
 
 - **LinkedIn:** [Eugene Maksimenkov](https://www.linkedin.com/in/maksimenkoff/)
-- **Telegram:** [@maksimenkoff](https://t.me/maksimenkoff)
+- **Telegram:** [@maksimenkoff](https://telegram.me/maksimenkoff)
 
 - В Gonka с октября; получил первый в сети bounty за найденную уязвимость
 - Сделал несколько продуктов вокруг Gonka: кроссплатформенный кошелёк [wallet.gonka.vip](https://wallet.gonka.vip), tracker / explorer для майнеров [tracker.gonka.vip](https://tracker.gonka.vip) и площадку тендеров [vote.gonka.vip](https://vote.gonka.vip)
@@ -205,7 +205,7 @@
 ## Pavel Petko
 
 - **LinkedIn:** [Pavel Petko](https://www.linkedin.com/in/pavelpetko/)
-- **Telegram:** [@pavelp221](https://t.me/pavelp221)
+- **Telegram:** [@pavelp221](https://telegram.me/pavelp221)
 
 - Журналист и редактор Gonka Community Blog
 - Более 9 лет работает на стыке медиа, аналитики и бизнес-развития в независимой медийной организации
@@ -229,7 +229,7 @@
 ## Mikhail Chudinov
 
 - **LinkedIn:** [Mikhail Chudinov](https://www.linkedin.com/in/mikhail-chudinov/)
-- **Telegram:** [@akamitch](https://t.me/akamitch)
+- **Telegram:** [@akamitch](https://telegram.me/akamitch)
 
 - Более 20 лет опыта в администрировании серверов и высоконагруженных систем
 - Более 10 лет опыта управления IT-командами

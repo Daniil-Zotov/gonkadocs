@@ -56,7 +56,7 @@ For context, I'm building on Gonka: a ComfyUI node pack for Gonka inference (htt
     <span class="issues-meta-item">commented 2026-07-06 01:04 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Resolved — Gonka Labs restored my broker account after I reached out via their Telegram (t.me/gonka_gg). Dashboard access is back, the wallet link is intact, and the balance was restored in full (topped up a little, even — appreciated).</p>
+    <p>Resolved — Gonka Labs restored my broker account after I reached out via their Telegram (telegram.me/gonka_gg). Dashboard access is back, the wallet link is intact, and the balance was restored in full (topped up a little, even — appreciated).</p>
 <p>For anyone hitting the same symptoms after the host change:
 - the API now lives at <code>https://api.openbroker.gonka.gg/v1</code> (the bare domain serves only the dashboard);
 - old <code>obk-…</code> keys are invalid — create a fresh one in the dashboard;

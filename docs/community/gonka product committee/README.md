@@ -8,7 +8,7 @@
 
 Решения комитета носят рекомендательный характер. Комитет не обещает реагировать на все пропозалы подряд.
 
-**Ответственный:** [@paranko](https://t.me/paranko)
+**Ответственный:** [@paranko](https://telegram.me/paranko)
 
 ## Фокус оценки
 
@@ -33,19 +33,19 @@
 ## Состав
 
 **Контрибуторы:**
-- [@ak986](https://t.me/ak986)
-- [@qDanik](https://t.me/qDanik)
-- [@dem_ww](https://t.me/dem_ww)
-- [@baridoka](https://t.me/baridoka)
+- [@ak986](https://telegram.me/ak986)
+- [@qDanik](https://telegram.me/qDanik)
+- [@dem_ww](https://telegram.me/dem_ww)
+- [@baridoka](https://telegram.me/baridoka)
 
 **Хосты:**
-- [@akamitch](https://t.me/akamitch)
-- [@MageDeFi](https://t.me/MageDeFi)
-- [@OpenMindedPerson](https://t.me/OpenMindedPerson)
-- [@Otli4nik_A](https://t.me/Otli4nik_A)
-- [@votkon](https://t.me/votkon)
-- [@maksimenkoff](https://t.me/maksimenkoff)
-- [@SysManHF](https://t.me/SysManHF)
-- [@paranko](https://t.me/paranko)
+- [@akamitch](https://telegram.me/akamitch)
+- [@MageDeFi](https://telegram.me/MageDeFi)
+- [@OpenMindedPerson](https://telegram.me/OpenMindedPerson)
+- [@Otli4nik_A](https://telegram.me/Otli4nik_A)
+- [@votkon](https://telegram.me/votkon)
+- [@maksimenkoff](https://telegram.me/maksimenkoff)
+- [@SysManHF](https://telegram.me/SysManHF)
+- [@paranko](https://telegram.me/paranko)
 
 ---

@@ -109,7 +109,7 @@ Top persons, responsible for the results — C-Level Executives, investing in Go
      2.2. founder experience: builds products 0 to 1 and drives early audience — launched own InfoFi product (2k MAU) and Jeet Trade, a Solana trading platform with $3M+ volume and 600+ users
   3. Best achievement: attracting $300M+ AUM for a DeFi hedge-fund, scaling from ~1K to 15K+ active users
 
-- **Hleb Dapkiunas** — actively bisdevs startups, one of his posts with the requirements he found was mentioned as useful by Vadim Krutov, COO Bitfury — [link](https://t.me/c/4298804361/80). (To join the group "Gonka_Use Cases" to see the comment use [this invite](https://t.me/+3ZKaDbM7MJYwNGVk))
+- **Hleb Dapkiunas** — actively bisdevs startups, one of his posts with the requirements he found was mentioned as useful by Vadim Krutov, COO Bitfury — [link](https://telegram.me/c/4298804361/80). (To join the group "Gonka_Use Cases" to see the comment use [this invite](https://telegram.me/+3ZKaDbM7MJYwNGVk))
 
 Last 2 month we are actively participating in go-to-market activities. Top-3 samples:
 1. Viktor Katsman created the first version of [go-to-market strategy in May](https://docs.google.com/spreadsheets/d/1jjVCJqyQvjKfc_tSB5Wy9Z5w7tGm4Eq3jXGJtlD1r9I/edit?gid=809249310#gid=809249310), and was responsible for the Marketing track in the applied [roadmap](https://github.com/gonka-ai/gonka/blob/d5e30ca891209f25fd84e36ef439e1f54ec9090c/proposals/gonka-network-development-roadmap.md), leads The Soul and other external performers.

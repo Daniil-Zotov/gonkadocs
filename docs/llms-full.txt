@@ -15882,15 +15882,15 @@ This delegation only allows voting on governance proposals. The grantee can stil
 
 ## Стартовый состав комитета
 
-- [@AntonLooch](https://t.me/AntonLooch)
-- [@DmitriyV00](https://t.me/DmitriyV00)
-- [@MageDeFi](https://t.me/MageDeFi)
-- [@nikkolet](https://t.me/nikkolet)
-- [@OpenMindedPerson](https://t.me/OpenMindedPerson)
-- [@maksimenkoff](https://t.me/maksimenkoff)
-- [@paranko](https://t.me/paranko)
-- [@zotov_daniil](https://t.me/zotov_daniil)
-- [@dem_ww](https://t.me/dem_ww)
+- [@AntonLooch](https://telegram.me/AntonLooch)
+- [@DmitriyV00](https://telegram.me/DmitriyV00)
+- [@MageDeFi](https://telegram.me/MageDeFi)
+- [@nikkolet](https://telegram.me/nikkolet)
+- [@OpenMindedPerson](https://telegram.me/OpenMindedPerson)
+- [@maksimenkoff](https://telegram.me/maksimenkoff)
+- [@paranko](https://telegram.me/paranko)
+- [@zotov_daniil](https://telegram.me/zotov_daniil)
+- [@dem_ww](https://telegram.me/dem_ww)
 
 ---
 
@@ -15996,7 +15996,7 @@ This delegation only allows voting on governance proposals. The grantee can stil
 
 Решения комитета носят рекомендательный характер. Комитет не обещает реагировать на все пропозалы подряд.
 
-**Ответственный:** [@paranko](https://t.me/paranko)
+**Ответственный:** [@paranko](https://telegram.me/paranko)
 
 ## Фокус оценки
 
@@ -16021,20 +16021,20 @@ This delegation only allows voting on governance proposals. The grantee can stil
 ## Состав
 
 **Контрибуторы:**
-- [@ak986](https://t.me/ak986)
-- [@qDanik](https://t.me/qDanik)
-- [@dem_ww](https://t.me/dem_ww)
-- [@baridoka](https://t.me/baridoka)
+- [@ak986](https://telegram.me/ak986)
+- [@qDanik](https://telegram.me/qDanik)
+- [@dem_ww](https://telegram.me/dem_ww)
+- [@baridoka](https://telegram.me/baridoka)
 
 **Хосты:**
-- [@akamitch](https://t.me/akamitch)
-- [@MageDeFi](https://t.me/MageDeFi)
-- [@OpenMindedPerson](https://t.me/OpenMindedPerson)
-- [@Otli4nik_A](https://t.me/Otli4nik_A)
-- [@votkon](https://t.me/votkon)
-- [@maksimenkoff](https://t.me/maksimenkoff)
-- [@SysManHF](https://t.me/SysManHF)
-- [@paranko](https://t.me/paranko)
+- [@akamitch](https://telegram.me/akamitch)
+- [@MageDeFi](https://telegram.me/MageDeFi)
+- [@OpenMindedPerson](https://telegram.me/OpenMindedPerson)
+- [@Otli4nik_A](https://telegram.me/Otli4nik_A)
+- [@votkon](https://telegram.me/votkon)
+- [@maksimenkoff](https://telegram.me/maksimenkoff)
+- [@SysManHF](https://telegram.me/SysManHF)
+- [@paranko](https://telegram.me/paranko)
 
 ---
 
@@ -16080,17 +16080,17 @@ This delegation only allows voting on governance proposals. The grantee can stil
 
 К следующим членам комитета можно приходить с вопросами и предложениями-пропозалами:
 
-- [@arsenm1](https://t.me/arsenm1)
-- [@pavelp221](https://t.me/pavelp221)
-- [@MageDeFi](https://t.me/MageDeFi)
-- [@empro3](https://t.me/empro3)
-- [@telega1547](https://t.me/telega1547)
-- [@andre_arkhi](https://t.me/andre_arkhi)
-- [@vkatsman](https://t.me/vkatsman)
+- [@arsenm1](https://telegram.me/arsenm1)
+- [@pavelp221](https://telegram.me/pavelp221)
+- [@MageDeFi](https://telegram.me/MageDeFi)
+- [@empro3](https://telegram.me/empro3)
+- [@telega1547](https://telegram.me/telega1547)
+- [@andre_arkhi](https://telegram.me/andre_arkhi)
+- [@vkatsman](https://telegram.me/vkatsman)
 
 В состав комитета входят опытные CMO в продуктовой и web3-сферах, B2B-биздевы, журналисты и другие профессионалы.
 
-Любой хост может присоединиться в качестве наблюдателя и, возможно, участника-консультанта — для этого нужно написать [@vkatsman](https://t.me/vkatsman).
+Любой хост может присоединиться в качестве наблюдателя и, возможно, участника-консультанта — для этого нужно написать [@vkatsman](https://telegram.me/vkatsman).
 
 ---
 
@@ -16105,7 +16105,7 @@ This delegation only allows voting on governance proposals. The grantee can stil
 ## Viktor Katsman
 
 - **LinkedIn:** [Viktor Katsman](https://www.linkedin.com/in/viktor-katsman/)
-- **Telegram:** [@vkatsman](https://t.me/vkatsman)
+- **Telegram:** [@vkatsman](https://telegram.me/vkatsman)
 
 - Ex-Yandex, PhD; специалист по go-to-market технических продуктов на ранних стадиях в AI, EdTech и финансах
 - В 2019 году увеличил годовую выручку Яндекс.Маркета на $34M за счет перестроения AI-алгоритма ранжирования
@@ -16132,7 +16132,7 @@ This delegation only allows voting on governance proposals. The grantee can stil
 ## Arseny Myakotnikov
 
 - **LinkedIn:** [Arseny Myakotnikov](https://www.linkedin.com/in/arseny-myakotnikov-5a4341177/)
-- **Telegram:** [@arsenm1](https://t.me/arsenm1)
+- **Telegram:** [@arsenm1](https://telegram.me/arsenm1)
 
 - 10+ лет в маркетинге, из них 7+ в web3; в крипте с начала 2017 года — на уровне CMO для десятков финтех-, web3- и AI-продуктов
 - Привлёк $300M+ AUM для DeFi хедж-фонда, масштабировав базу с ~1K до 15K+ активных пользователей
@@ -16156,7 +16156,7 @@ This delegation only allows voting on governance proposals. The grantee can stil
 ## Andre Antares
 
 - **LinkedIn:** [Andre Antares](https://www.linkedin.com/in/andre-antares-9063ba15b)
-- **Telegram:** [@andre_arkhi](https://t.me/andre_arkhi)
+- **Telegram:** [@andre_arkhi](https://telegram.me/andre_arkhi)
 
 - Отвечает за контент и маркетинг в Ancapex, сервисе майнинга для Gonka
 - За последние полгода команда с нуля построила активное Telegram-сообщество
@@ -16184,7 +16184,7 @@ This delegation only allows voting on governance proposals. The grantee can stil
 
 ## Hleb D
 
-- **Telegram:** [@telega1547](https://t.me/telega1547)
+- **Telegram:** [@telega1547](https://telegram.me/telega1547)
 
 - Сооснователь Gonka24, сервиса-брокера инференса Gonka
 - Имеет опыт создания и продвижения собственных проектов и бизнесов – от digital products до e-commerce
@@ -16207,7 +16207,7 @@ This delegation only allows voting on governance proposals. The grantee can stil
 
 ## Mikhail
 
-- **Telegram:** [@empro3](https://t.me/empro3)
+- **Telegram:** [@empro3](https://telegram.me/empro3)
 
 - PhD track в США по business economics and finance; фокус – corporate governance
 - Отвечал за региональный маркетинг партнеров NVIDIA, включая запуск новых GPU и ускорителей физики
@@ -16230,7 +16230,7 @@ This delegation only allows voting on governance proposals. The grantee can stil
 
 ## Eldar I
 
-- **Telegram:** [@MageDeFi](https://t.me/MageDeFi)
+- **Telegram:** [@MageDeFi](https://telegram.me/MageDeFi)
 
 - Операционный директор в пуле Gonka.Top
 - Отвечает за бизнес и операционную часть пула: onboarding участников, продажи, партнерскую программу, поддержку участников и внутренние процессы
@@ -16255,7 +16255,7 @@ This delegation only allows voting on governance proposals. The grantee can stil
 
 ## Timur Vyalshin
 
-- **Telegram:** [@lexti](https://t.me/lexti)
+- **Telegram:** [@lexti](https://telegram.me/lexti)
 
 - По образованию – инженер по качеству в автомобилестроении; 5 лет работал в automotive quality на заводе Hyundai
 - 4.5 года занимался YouTube / Telegram-каналом CryptoCommons
@@ -16280,7 +16280,7 @@ This delegation only allows voting on governance proposals. The grantee can stil
 ## Eugene Maksimenkov
 
 - **LinkedIn:** [Eugene Maksimenkov](https://www.linkedin.com/in/maksimenkoff/)
-- **Telegram:** [@maksimenkoff](https://t.me/maksimenkoff)
+- **Telegram:** [@maksimenkoff](https://telegram.me/maksimenkoff)
 
 - В Gonka с октября; получил первый в сети bounty за найденную уязвимость
 - Сделал несколько продуктов вокруг Gonka: кроссплатформенный кошелёк [wallet.gonka.vip](https://wallet.gonka.vip), tracker / explorer для майнеров [tracker.gonka.vip](https://tracker.gonka.vip) и площадку тендеров [vote.gonka.vip](https://vote.gonka.vip)
@@ -16307,7 +16307,7 @@ This delegation only allows voting on governance proposals. The grantee can stil
 ## Pavel Petko
 
 - **LinkedIn:** [Pavel Petko](https://www.linkedin.com/in/pavelpetko/)
-- **Telegram:** [@pavelp221](https://t.me/pavelp221)
+- **Telegram:** [@pavelp221](https://telegram.me/pavelp221)
 
 - Журналист и редактор Gonka Community Blog
 - Более 9 лет работает на стыке медиа, аналитики и бизнес-развития в независимой медийной организации
@@ -16331,7 +16331,7 @@ This delegation only allows voting on governance proposals. The grantee can stil
 ## Mikhail Chudinov
 
 - **LinkedIn:** [Mikhail Chudinov](https://www.linkedin.com/in/mikhail-chudinov/)
-- **Telegram:** [@akamitch](https://t.me/akamitch)
+- **Telegram:** [@akamitch](https://telegram.me/akamitch)
 
 - Более 20 лет опыта в администрировании серверов и высоконагруженных систем
 - Более 10 лет опыта управления IT-командами
@@ -16401,7 +16401,7 @@ Therefore, I propose forming a compensation committee that:
 
 If you have the opportunity and desire to be part of the committee — please confirm your participation.
 
-**Основатель:** [@votkon](https://t.me/votkon)
+**Основатель:** [@votkon](https://telegram.me/votkon)
 
 ---
 
@@ -17881,7 +17881,7 @@ The platform will include a built-in free AI chat during the race. This chat wil
 The team has developed **Gonka Wallet**, described as the first wallet specifically created for the **Gonka.ai** ecosystem.
 
 Telegram channel:
-https://t.me/GonkaWallet
+https://telegram.me/GonkaWallet
 
 ## GNK Wallet Address
 
@@ -19017,7 +19017,7 @@ Tora AI
 
 В Telegram-канале проводятся Google Meet / AMA-встречи, публикуются дополнительные материалы по proposal и подтверждения нашей работы.
 
-Ссылка: https://t.me/+VRgPAZqMaaczYmI8
+Ссылка: https://telegram.me/+VRgPAZqMaaczYmI8
 
 ---
 
@@ -19465,7 +19465,7 @@ Fixed package price · paid in two assets.
 ---
 
 **Saccade Media House**  
-[t.me/JackyBlack](https://t.me/JackyBlack) · [saccade.media](https://saccade.media)
+[t.me/JackyBlack](https://telegram.me/JackyBlack) · [saccade.media](https://saccade.media)
 
 ---
 
@@ -19688,7 +19688,7 @@ KPI построен по максимально консервативной м
 
 Для максимальной прозрачности мы также подготовили отдельный Telegram-канал, в котором собраны материалы по proposal: примеры Telegram-воронки, лендингов, креативов, рекламных кабинетов, партнерств, и другие подтверждения нашей работы.
 
-Ссылка: https://t.me/proposaluniswap
+Ссылка: https://telegram.me/proposaluniswap
 
 Именно этот опыт и лег в основу предложения, которое мы подготовили для GONKA.
 
@@ -19772,7 +19772,7 @@ Tora AI
 
 Долгосрочное сопровождение
 
-После первого депозита работа не заканчивается. Пользователь продолжает получать сопровождение через AI Agent и менеджеров. Основная задача этого этапа — укреплять доверие к проекту, сопровождать пользователя внутри экосистемы и увеличивать объем повторных инвестиций, дополнительно отправляю демо версию канала https://t.me/demo_chanel_gonka
+После первого депозита работа не заканчивается. Пользователь продолжает получать сопровождение через AI Agent и менеджеров. Основная задача этого этапа — укреплять доверие к проекту, сопровождать пользователя внутри экосистемы и увеличивать объем повторных инвестиций, дополнительно отправляю демо версию канала https://telegram.me/demo_chanel_gonka
 
 ⸻
 
@@ -19877,10 +19877,10 @@ Tora AI
 Для более детального ознакомления с proposal и нашей работой подготовлены следующие материалы:
 
 * Пример Telegram-канала, который демонстрирует структуру будущей воронки. Данный канал является демонстрационной версией и создан исключительно для того, чтобы показать общую механику, структуру и подход к работе.
-    Ссылка: https://t.me/demo_chanel_gonka
+    Ссылка: https://telegram.me/demo_chanel_gonka
 
 * Материалами по proposal — лендинги, креативы, видео рекламных кабинетов, примеры Telegram-воронки, информация о партнерах, записи AMA-сессий и другие подтверждения нашей работы
-    Ссылка: https://t.me/proposaluniswap
+    Ссылка: https://telegram.me/proposaluniswap
 
 * Личный Telegram для связи — если у вас останутся вопросы по proposal или потребуется дополнительная информация, вы всегда можете связаться со мной напрямую.
        TG: @FrancesGreen9
@@ -20906,7 +20906,7 @@ https://github.com/inc4/gonka-nop
 3. Какой у вас опыт в Майнинге? Вы сейчас майните?
 
 4. Сейчас создается Комитет, который будет рассматривать такие предложения и помогать делать Пропоузелы. Пока он только создается. 
-Вот здесь чат: https://t.me/Gonka_Marketing
+Вот здесь чат: https://telegram.me/Gonka_Marketing
 Там по русски пишут, но можно и по английски.
 
 Спасибо!
@@ -20966,7 +20966,7 @@ As for renting, we rented from Spheron using both spot and dedicated instances. 
 Оптимизация нод. Есть ли идеи и опыт?
 
 А ты есть в этом чате? 
-https://t.me/gonka_hosts
+https://telegram.me/gonka_hosts
 
 ---
 
@@ -21297,7 +21297,7 @@ gonka1c3lrggulyl9xpsvnnjpykhyzvk7l5fcd92w63n
 *2026-06-11 06:38* · 👍 0 · 👎 0
 
 Привет!
-Речь идет про этот канал: https://t.me/newsgonkaai
+Речь идет про этот канал: https://telegram.me/newsgonkaai
 Забыл добавить ссылку )
 
 А это - рекламный канал, верно?
@@ -22216,7 +22216,7 @@ Gonka.TV это будет независимый компоненент
 
 # План по реализации
 
-Я, Mitch из Gonka.Top, [https://t.me/akamitch](https://t.me/akamitch) берусь быть координатором этого проекта в нашем зарождающемся фаундейшене.  
+Я, Mitch из Gonka.Top, [https://telegram.me/akamitch](https://telegram.me/akamitch) берусь быть координатором этого проекта в нашем зарождающемся фаундейшене.  
 После того как мы определись с требованиями, ценой, майлстоунами, провести пропозал по выплате всей суммы на специально созданный для этого кошелек.  
 Я найду\\согласую исполнителя, буду принимать у него работу по майлстоунам, отписывать сообществую новости по продвижению, выплачивать исполнителю.  
 В идеале конечно использовать не кошелек, а смарт контракт с мультипомписью совета фаундейшн, для обкатки процесса и кошелек считаю подойдет.  
@@ -22483,7 +22483,7 @@ HardCore Arena становится первым работающим приме
 ### 💬 Victor
 *2026-06-11 09:50* · 👍 0 · 👎 0
 
-Сама игра в телеграмме https://t.me/TheWorldHardestGame_bot
+Сама игра в телеграмме https://telegram.me/TheWorldHardestGame_bot
 
 ---
 
@@ -22611,10 +22611,10 @@ The team shares Gonka updates, publishes educational content, answers questions,
 The applicant also manages and actively maintains the following Telegram communities:
 
 * **Dutch Crypto Haven** — 1,331 members:
-  https://t.me/DutchCryptoHaven
+  https://telegram.me/DutchCryptoHaven
 
 * **Gonka Netherlands Community** — 42 members:
-  https://t.me/gonka_nl
+  https://telegram.me/gonka_nl
 
 Through these communities, the applicant promotes Gonka, increases visibility in the Dutch and Belgian markets, and provides a trusted local space for engagement, discussion, and onboarding.
 
@@ -23403,7 +23403,7 @@ A Gonka AI links catalog that collects official resources, dashboards, community
 
 ### Gonka Media
 
-* Telegram: https://t.me/GonkaAI_Media
+* Telegram: https://telegram.me/GonkaAI_Media
 * Discord: https://discord.gg/QznXmMjG8r
 * YouTube: https://www.youtube.com/@GonkaAI
 * Video and marketing materials archive:
@@ -50033,7 +50033,7 @@ Team of 10 people based in Zurich: 4 media buyers, 5 user processing specialists
 
 Core specialization: building Telegram funnels to attract investors into various projects. We have accumulated extensive practical data across geographies, subscriber costs, dialogue costs, and first-deposit economics.
 
-Supporting materials: https://t.me/proposaluniswap
+Supporting materials: https://telegram.me/proposaluniswap
 
 ## 3. What We Propose
 
@@ -50068,7 +50068,7 @@ Build a system that daily attracts new capital through token purchases on Uniswa
 6. **Uniswap Purchase** — primary goal of the entire funnel
 7. **Long-term Support** — AI Agent and managers continue engagement post-deposit
 
-Demo channel: https://t.me/demo_chanel_gonka
+Demo channel: https://telegram.me/demo_chanel_gonka
 
 ## 6. User Retention Strategy
 
@@ -50121,8 +50121,8 @@ Example: at $50,000 Phase 1 budget, target is $200,000 in wallets at verificatio
 
 ## 12. Additional Materials
 
-- Demo Telegram channel: https://t.me/demo_chanel_gonka
-- Proposal materials (landings, creatives, ad accounts, funnel examples, partner info, AMAs): https://t.me/proposaluniswap
+- Demo Telegram channel: https://telegram.me/demo_chanel_gonka
+- Proposal materials (landings, creatives, ad accounts, funnel examples, partner info, AMAs): https://telegram.me/proposaluniswap
 - Contact: @FrancesGreen9
 
 ## Full Proposal Source
@@ -51433,7 +51433,7 @@ Top persons, responsible for the results — C-Level Executives, investing in Go
      2.2. founder experience: builds products 0 to 1 and drives early audience — launched own InfoFi product (2k MAU) and Jeet Trade, a Solana trading platform with $3M+ volume and 600+ users
   3. Best achievement: attracting $300M+ AUM for a DeFi hedge-fund, scaling from ~1K to 15K+ active users
 
-- **Hleb Dapkiunas** — actively bisdevs startups, one of his posts with the requirements he found was mentioned as useful by Vadim Krutov, COO Bitfury — [link](https://t.me/c/4298804361/80). (To join the group "Gonka_Use Cases" to see the comment use [this invite](https://t.me/+3ZKaDbM7MJYwNGVk))
+- **Hleb Dapkiunas** — actively bisdevs startups, one of his posts with the requirements he found was mentioned as useful by Vadim Krutov, COO Bitfury — [link](https://telegram.me/c/4298804361/80). (To join the group "Gonka_Use Cases" to see the comment use [this invite](https://telegram.me/+3ZKaDbM7MJYwNGVk))
 
 Last 2 month we are actively participating in go-to-market activities. Top-3 samples:
 1. Viktor Katsman created the first version of [go-to-market strategy in May](https://docs.google.com/spreadsheets/d/1jjVCJqyQvjKfc_tSB5Wy9Z5w7tGm4Eq3jXGJtlD1r9I/edit?gid=809249310#gid=809249310), and was responsible for the Marketing track in the applied [roadmap](https://github.com/gonka-ai/gonka/blob/d5e30ca891209f25fd84e36ef439e1f54ec9090c/proposals/gonka-network-development-roadmap.md), leads The Soul and other external performers.

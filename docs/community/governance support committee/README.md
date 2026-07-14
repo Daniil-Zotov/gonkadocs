@@ -23,12 +23,12 @@
 
 ## Стартовый состав комитета
 
-- [@AntonLooch](https://t.me/AntonLooch)
-- [@DmitriyV00](https://t.me/DmitriyV00)
-- [@MageDeFi](https://t.me/MageDeFi)
-- [@nikkolet](https://t.me/nikkolet)
-- [@OpenMindedPerson](https://t.me/OpenMindedPerson)
-- [@maksimenkoff](https://t.me/maksimenkoff)
-- [@paranko](https://t.me/paranko)
-- [@zotov_daniil](https://t.me/zotov_daniil)
-- [@dem_ww](https://t.me/dem_ww)
+- [@AntonLooch](https://telegram.me/AntonLooch)
+- [@DmitriyV00](https://telegram.me/DmitriyV00)
+- [@MageDeFi](https://telegram.me/MageDeFi)
+- [@nikkolet](https://telegram.me/nikkolet)
+- [@OpenMindedPerson](https://telegram.me/OpenMindedPerson)
+- [@maksimenkoff](https://telegram.me/maksimenkoff)
+- [@paranko](https://telegram.me/paranko)
+- [@zotov_daniil](https://telegram.me/zotov_daniil)
+- [@dem_ww](https://telegram.me/dem_ww)

@@ -18,7 +18,7 @@ Team of 10 people based in Zurich: 4 media buyers, 5 user processing specialists
 
 Core specialization: building Telegram funnels to attract investors into various projects. We have accumulated extensive practical data across geographies, subscriber costs, dialogue costs, and first-deposit economics.
 
-Supporting materials: https://t.me/proposaluniswap
+Supporting materials: https://telegram.me/proposaluniswap
 
 ## 3. What We Propose
 
@@ -53,7 +53,7 @@ Build a system that daily attracts new capital through token purchases on Uniswa
 6. **Uniswap Purchase** — primary goal of the entire funnel
 7. **Long-term Support** — AI Agent and managers continue engagement post-deposit
 
-Demo channel: https://t.me/demo_chanel_gonka
+Demo channel: https://telegram.me/demo_chanel_gonka
 
 ## 6. User Retention Strategy
 
@@ -106,8 +106,8 @@ Example: at $50,000 Phase 1 budget, target is $200,000 in wallets at verificatio
 
 ## 12. Additional Materials
 
-- Demo Telegram channel: https://t.me/demo_chanel_gonka
-- Proposal materials (landings, creatives, ad accounts, funnel examples, partner info, AMAs): https://t.me/proposaluniswap
+- Demo Telegram channel: https://telegram.me/demo_chanel_gonka
+- Proposal materials (landings, creatives, ad accounts, funnel examples, partner info, AMAs): https://telegram.me/proposaluniswap
 - Contact: @FrancesGreen9
 
 ## Full Proposal Source

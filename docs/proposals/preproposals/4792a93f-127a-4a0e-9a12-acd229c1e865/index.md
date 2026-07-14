@@ -77,7 +77,7 @@ gonka1c3lrggulyl9xpsvnnjpykhyzvk7l5fcd92w63n
 *2026-06-11 06:38* · 👍 0 · 👎 0
 
 Привет!
-Речь идет про этот канал: https://t.me/newsgonkaai
+Речь идет про этот канал: https://telegram.me/newsgonkaai
 Забыл добавить ссылку )
 
 

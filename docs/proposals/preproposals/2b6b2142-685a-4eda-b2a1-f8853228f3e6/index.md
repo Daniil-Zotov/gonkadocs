@@ -35,7 +35,7 @@ The platform will include a built-in free AI chat during the race. This chat wil
 The team has developed **Gonka Wallet**, described as the first wallet specifically created for the **Gonka.ai** ecosystem.
 
 Telegram channel:
-https://t.me/GonkaWallet
+https://telegram.me/GonkaWallet
 
 ## GNK Wallet Address
 

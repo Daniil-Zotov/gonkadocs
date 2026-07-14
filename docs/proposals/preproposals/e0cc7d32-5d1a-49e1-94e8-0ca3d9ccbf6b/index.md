@@ -245,7 +245,7 @@ Tora AI
 
 В Telegram-канале проводятся Google Meet / AMA-встречи, публикуются дополнительные материалы по proposal и подтверждения нашей работы.
 
-Ссылка: https://t.me/+VRgPAZqMaaczYmI8
+Ссылка: https://telegram.me/+VRgPAZqMaaczYmI8
 
 ---
 
