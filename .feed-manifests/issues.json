@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-07-14T03:42:48.773052+00:00",
+  "snapshot_time": "2026-07-14T06:32:46.598803+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "Description",
@@ -1830,25 +1830,25 @@
       "title": "GitHub Issues — `gonka-ai/gonka`",
       "status": null,
       "content_preview": "# GitHub Issues — `gonka-ai/gonka`\n\nAll issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).\nTotal: **304** (🟢 open: **66**, 🔴 closed: **238**).\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"01199-reproducible-sampling-for-inference-validation/\">Reproducible sampling for inference validation</a>\n      <span class=\"issues-number\">#1199</span>\n    </div>\n    <p class=\"issues-desc\">Review the existing reproducible / deterministic sampling work for inference vali",
-      "checksum": "eade25cb1c627b7e70edecd510b7ea6e4e88aa3aa55943856051627727407812"
+      "checksum": "01504bbbbd6439d4c9e4bb7f67ec73e9edc17c4b9ef7a7135868f17088e360a0"
     },
     "labels/bug/index.md": {
       "title": "Issues: bug",
       "status": null,
       "content_preview": "# Issues: bug\n\nIssues with label **bug**. Total: **12**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01358-inbound-bridge-votes-lost-after-upgrade-simulation-node-unav/\">Inbound bridge votes lost after upgrade simulation (node unavailable for some minutes for upgrade) — no retry, deposits stuck BRIDGE_PENDING</a>\n      <span class=\"issues-number\">#1358</span>\n    </div>\n    \n    <div class=\"issues-labels\"><sp",
-      "checksum": "82c64193a7962ef21f458a75dd9f8a4d2a1e66a09e5645b1a16d3284f6affeba"
+      "checksum": "dcb76bb5c6541dd6873a39f3da34c467616f245dd59cbfa0081ab240ea729d91"
     },
     "labels/devshards/index.md": {
       "title": "Issues: devshards",
       "status": null,
       "content_preview": "# Issues: devshards\n\nIssues with label **devshards**. Total: **14**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../00913-p0-make-handling-of-warm-keys-deterministic-research/\">[P0] Make handling of warm keys deterministic (research)</a>\n      <span class=\"issues-number\">#913</span>\n    </div>\n    \n    <div class=\"issues-labels\"><span class=\"issues-label\" style=\"background-color: #f86c7a; color: #24292f; border-",
-      "checksum": "37ddf4a3d74d979f6665fd722a7d8354d3174b2c180d1ac28ec9443d03e0018e"
+      "checksum": "ef59b3dccb7807f928eb27bf9f6c0c6860d26f1bde6b0ec0c675a89696fe3ad3"
     },
     "labels/enhancement/index.md": {
       "title": "Issues: enhancement",
       "status": null,
       "content_preview": "# Issues: enhancement\n\nIssues with label **enhancement**. Total: **13**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01439-external-visibility/\">External Visibility</a>\n      <span class=\"issues-number\">#1439</span>\n    </div>\n    \n    <div class=\"issues-labels\"><span class=\"issues-label\" style=\"background-color: #a2eeef; color: #24292f; border-color: #a2eeef;\">enhancement</span></div>\n    <div class=\"issues-",
-      "checksum": "a9be0802afe8861a45142ee3d14d8791a0e3f76ea7ebcec1c1faa5c8329f98f4"
+      "checksum": "47f2ad083023156b6f6841ebdc40c0f644ec3f0e6d3f0dff70828dc1cddd0dcd"
     },
     "labels/help-wanted/index.md": {
       "title": "Issues: help wanted",
@@ -1860,19 +1860,19 @@
       "title": "Issues: no-label",
       "status": null,
       "content_preview": "# Issues: no-label\n\nIssues with label **no-label**. Total: **229**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01385-gateway-allowlist-request-dev-server-personal-gateway/\">Gateway allowlist request - dev server personal gateway</a>\n      <span class=\"issues-number\">#1385</span>\n    </div>\n    \n    <div class=\"issues-labels\"></div>\n    <div class=\"issues-meta\">\n      <span class=\"issues-meta-item\">[@scodeit]",
-      "checksum": "a1c18f4806a6704c6dc10414e48d76168461c4d62dd2f208b6cb8ff3fce10ab2"
+      "checksum": "60bee0083ae865c309c1ee0c973178e339d7e7384ac9c6a70be106bb9b7189d3"
     },
     "labels/priority-high/index.md": {
       "title": "Issues: Priority: High",
       "status": null,
       "content_preview": "# Issues: Priority: High\n\nIssues with label **Priority: High**. Total: **29**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01358-inbound-bridge-votes-lost-after-upgrade-simulation-node-unav/\">Inbound bridge votes lost after upgrade simulation (node unavailable for some minutes for upgrade) — no retry, deposits stuck BRIDGE_PENDING</a>\n      <span class=\"issues-number\">#1358</span>\n    </div>\n    \n    <div cla",
-      "checksum": "573aef9557a472656ea5d061a38b8e7083db32294b031a27541a8642b95e7ba4"
+      "checksum": "f93aacfc529e2c3268cb51d3b44683f814e93db0ee2e3f9ef0f1562e102122a1"
     },
     "labels/priority-low/index.md": {
       "title": "Issues: Priority: Low",
       "status": null,
       "content_preview": "# Issues: Priority: Low\n\nIssues with label **Priority: Low**. Total: **13**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01019-subnetctl-inference-error-handling/\">subnetctl: inference error handling</a>\n      <span class=\"issues-number\">#1019</span>\n    </div>\n    \n    <div class=\"issues-labels\"><span class=\"issues-label\" style=\"background-color: #95b500; color: #24292f; border-color: #95b500;\">Priority: Low",
-      "checksum": "4e9c0e54b03d4a06efd026b2dcc2c1913eda7250057f55b6e2d509ebf3d09ca2"
+      "checksum": "26936395c21bca7fb54704d2460ff29c598950ce63c1b1e661e22e4619416dab"
     },
     "labels/priority-medium/index.md": {
       "title": "Issues: Priority: Medium",
@@ -1896,7 +1896,7 @@
       "title": "Issues: up-for-grabs",
       "status": null,
       "content_preview": "# Issues: up-for-grabs\n\nIssues with label **up-for-grabs**. Total: **15**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01199-reproducible-sampling-for-inference-validation/\">Reproducible sampling for inference validation</a>\n      <span class=\"issues-number\">#1199</span>\n    </div>\n    \n    <div class=\"issues-labels\"><span class=\"issues-label\" style=\"background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;\">up-for-grabs</span></d",
-      "checksum": "1bfbf899251e207f5af84db1fdaa35f1e45d6d09221f49607ed63ace5baa8706"
+      "checksum": "ae22e9f277c04a44949663751c7f8c9964331689d963cb5d3e4466931246349a"
     }
   }
 }
