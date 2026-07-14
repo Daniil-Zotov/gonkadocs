@@ -1,6 +1,6 @@
 {
   "section": "preproposals",
-  "snapshot_time": "2026-07-13T23:11:12.693607+00:00",
+  "snapshot_time": "2026-07-14T03:27:56.982986+00:00",
   "files": {
     "00e8a72a-e121-4ea1-8d30-95a0d51268b2/index.md": {
       "title": "Gonka.TV — амбассадор Гонки на YouTube",
@@ -127,6 +127,12 @@
       "status": "expired",
       "content_preview": "# Коэффициент для Kimi 2.6 - 1,87\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Alex Sharoiko Александр Шаройко\n**Created:** 2026-05-13 08:19 UTC\n**Closes:** 2026-05-20 07:08 UTC\n**Language:** RU\n**Votes:** 0\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nСейчас для GPU, которые поддерживают Kimi (Н200, В200, В300) установлен повышенный коэффициент 1,87.\nКажется, это делает майнинг на Н100 нерентабельным и тем самым губит сеть.\n\n---\n\n## Full Proposal\n\nПроблема:\nСлишком высокий коэффициент.\n\nРешение:\nУменьшить коэффициент пропорционально цене аренды GPU\n\nВсе свои расчеты я вел вот здесь:\nhttps://docs.google.com/spreadsheets/d/1IIONLiWCLAo8TKF5TNSX6Y0Byj_2MurfhA68W22vQt8/edit?gid=2050838965#gid=2050838965\n\nСейчас коэффициент для Kimi около 1,88",
       "checksum": "6d717268f503b78b1fe7193b5baa297f8b5efdbfe8ca0ef2c80724246c5908e9"
+    },
+    "d185d9eb-243f-4228-b4ac-e2c7a50a5325/index.md": {
+      "title": "Улучшаем инфиренс Kimi",
+      "status": "active",
+      "content_preview": "# Улучшаем инфиренс Kimi\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Mitch\n**Created:** 2026-07-14 01:37 UTC\n**Closes:** 2026-07-21 01:37 UTC\n**Language:** RU\n**Votes:** 2\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nKimi в Gonka перегружен и сыпет ошибками. Разбираем, почему так вышло, и что можно исправить прямо сейчас через Governance и настройки нод.\n\n---\n\n## Full Proposal\n\nФакты:\n\n* \\~20% веса сети приходится на Kimi  \n* Запросов на инфиренс идет столько, что ноды с Kimi часто перегружены, и ответ падает с ошибкой  \n* Недели 2 назад Kimi можно было нормально пользоваться  \n* Сейчас Kimi часто дает ошибку, стало больше запросов  \n* Сама по себе цена не будет расти и при 100% загрузке нод с Kimi (динамического прайсинга нету в девшардах",
+      "checksum": "0a2413b4a2f2b510f4845d96b78269c45a18a08f1d18c936352aea40620739da"
     },
     "d2f317f0-541a-4d9f-bbac-d2d394906bf2/index.md": {
       "title": "11. Team GonkaGate Grant Request",
