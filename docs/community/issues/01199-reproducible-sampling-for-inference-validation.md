@@ -2,7 +2,7 @@
 title: "#1199 — Reproducible sampling for inference validation"
 source: https://github.com/gonka-ai/gonka/issues/1199
 issue_number: 1199
-synced_at: 2026-07-14T00:10:28Z
+synced_at: 2026-07-14T03:40:21Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-05-19 23:17 UTC</span>
-    <span class="issues-meta-item">4 comments</span>
-    <span class="issues-meta-item">Updated 2026-07-06 02:53 UTC</span>
+    <span class="issues-meta-item">5 comments</span>
+    <span class="issues-meta-item">Updated 2026-07-14 01:32 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span></div>
 </div>
@@ -145,7 +145,7 @@ The priority is to take over the existing work, gradually introduce it into MLNo
 
 ---
 
-## 💬 Comments (4)
+## 💬 Comments (5)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -429,6 +429,113 @@ verify.
 - **Data before strict validation:** Stage-1 false-positive rate by model/quant/hardware, tokenizer determinism, realistic perf, Python↔Go parity.
 - **Vulnerabilities/mismatches:** S1 (seed↔inference_id — primitive fix in flight, `vllm#56`), E1 (executor float vs validator decimal weights), S3 (no Go parity), A1 (float string), token-ordering, S2 (global decimal ctx), temp-0 gap, top-K/default handling.
 - **Final recommendation:** **Needs additional review.** The integer primitive is adoptable as a library now; the `_merged` branch is the right base to continue on; but the executor hot-path conversion (E1), seed hardening (S1), and cross-language parity (S3) must land — all requiring GPU/protocol changes — before any enforcement.
+
+</details>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@bonujel](https://github.com/bonujel)</span>
+    <span class="issues-meta-item">commented 2026-07-14 01:16 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <h2>Follow-up — GPU evidence for the blockers, and the decisions that remain</h2>
+<p>We took the review above as the frame and added the <strong>empirical layer</strong>: experiments on real model output that quantify <strong>E1</strong>, close <strong>S3</strong>, and fill part of the §5 data list — plus two findings the review did not anticipate, one of which changes the signed-artifact design.</p>
+<p>These are review-level experiments (HuggingFace proxy, 64–128 positions per config, a single GPU architecture). They settle direction and prerequisites; they do not authorize enforcement. This follow-up adds the empirical layer to our #1199 review — the design analysis there stands unchanged.</p>
+<p><strong>What the experiments add:</strong></p>
+<ul>
+<li><strong>Recompute is not reproducible — the logprobs must be signed</strong> <em>(new, design-level)</em>. Batch composition alone flips <strong>0–8%</strong> of honest positions, <strong>even after E1 is fixed</strong>. Stage-1 must replay the <strong>signed</strong> logprobs and can never reconstruct them by re-running the model. This constrains the contract, not just the implementation.</li>
+<li><strong>S3 — validated.</strong> A Go validator (<code>detsample</code>: RNG, decimal pipeline, chain-bound seed, three-valued verdict) is now <strong>bit-identical to Python</strong> on shared conformance vectors — the "never actually been tested" item. Still needs to land in CI.</li>
+<li><strong>E1 — quantified.</strong> The float executor false-rejects <strong>14–77%</strong> of honest positions; the decimal pipeline gives <strong>0/128 on every config × 2 models</strong>. <strong>E1 is a hard prerequisite for enforcement</strong> — enforcing before it lands would slash honest participants en masse.</li>
+<li><strong>Stage-2's metric and threshold — measurable, and partly a policy call</strong> <em>(new)</em>. The distance check separates honest from a wrong model by <strong>~40–65×</strong>, but <strong>only as MAE/KL over the top-K support</strong>; the sampled-token delta overlaps and cannot gate. The distances also form a <strong>monotone ladder</strong> — quantizing the <em>same</em> model lands between honest noise and a genuinely different model:
+  ```
+  d_mae vs the fp16 reference   (Qwen2.5-1.5B, p50 — gpt2-large agrees)
+  honest (fp16, batch noise): 0.006
+  int8   (same model): 0.097 
+  int4   (same model): 0.364<br />
+  3×-smaller model: 0.817  </li>
+</ul>
+<p>threshold ~0.05  →  only fp16 passes
+            ~0.25  →  int8 passes too
+            ~0.75  →  int4 passes too
+  ```</p>
+<p><strong>int4 sits far enough out to be caught; int8 lands an order of magnitude above the honest floor but well below a genuinely different model</strong> — i.e. right where a natural threshold would fall. </p>
+<p>So the threshold does not merely separate honest from fraud: it <strong>implicitly decides which quantizations still count as "the model."</strong> That placement is a policy decision, not a measurement.</p>
+<p><strong>Open decisions.</strong> Consolidated from the review and from building the Go validator against the contract. These are <strong>questions, not settled answers</strong> — and they are decisions, a different kind of object from the review's finding codes.</p>
+<ul>
+<li><strong>A — the signed-artifact contract (keystone).</strong> Both sides must reconstruct a <strong>bit-identical</strong> distribution from the same signed data: which fields bind into <code>responseHash</code>; <strong>which tokens' logprobs are signed</strong> (the filter's kept set, not a fixed K); <strong>the logprobs themselves must be in it</strong>; float→string canonicalization, candidate ordering, filter-edge rules + resolved params; a version descriptor. 〔A1 / A2 / §6.6 / §6.8〕</li>
+<li><strong>B — sampling/RNG semantics and the coverage boundary.</strong> One RNG stream across a sequence, or one seed per position? And which requests Stage-1 structurally cannot cover → <strong><em>Inconclusive</em></strong>, deferred to the distance check: <strong>temperature 0</strong>, and <strong>unbounded support</strong> (high-temp <code>top_p</code>, unfiltered). 〔§6.7〕</li>
+<li><strong>C — seed binding and hardening.</strong> Chain-binding via <code>inference_id</code> (gonka-ai/vllm#56) still leaves <code>user_seed</code> request-controlled — bind inputs the executor cannot choose, or commit <code>user_seed</code> on-chain? How does <code>inference_id</code> reach vLLM? Invariant: the validator <strong>derives</strong> the seed and never trusts the payload's. 〔S1〕</li>
+<li><strong>D — enforcement gating.</strong> Target false-reject rate, over how many epochs, which cross-arch/cross-node CI must be green — plus the <strong>Stage-2 metric and threshold</strong>, whose placement implicitly picks the accepted precision floor. Partly a <strong>policy</strong> decision. 〔gated by <strong>E1</strong>〕</li>
+<li><strong>Integration — an action, not a decision:</strong> land Sampling-Replay as an <strong>additive shadow path</strong>, converge the two Python validators, put the Go implementation and parity vectors in CI. 〔S3〕</li>
+</ul>
+<p><strong>Only A and D block progress.</strong> A is the foundation — nothing downstream can be wired correctly until it is fixed. D cannot open until E1 lands.</p>
+<p>Full experiment report below (setup + coverage against §5 + 7 experiments + mechanisms + next steps).</p>
+<details>
+<summary><b>Full experiment report (click to expand)</b></summary>
+
+# GPU experiments — reproducible sampling (#1199)
+
+**Setup:** 8×RTX-4090, fp16 (+ int8/int4 via `bitsandbytes`), `gpt2` / `gpt2-large` and `Qwen2.5-0.5B` / `Qwen2.5-1.5B`, 64–128 positions per config. **HuggingFace proxy — not vLLM's own kernels.** Scripts and raw logs: branch `bonujel/vllm@tg/deterministic_sampling_merged`, `dev_notes/reproduce_sampling/e1_experiment/`. Decision register: [gist](https://gist.github.com/bonujel/5bc8c21f7ca376de305b62b6f11a2e27).
+
+---
+
+## 1. Coverage against §5 "Data to collect before enabling strict enforcement"
+
+| §5 item | Status |
+|---|---|
+| Stage-1 false-positive rate — **by model** | ✅ two models (Exp 1) |
+| …**by quantization** | ⚠️ Stage-1 is precision-agnostic — it replays *signed* logprobs. Measured for **Stage-2** instead (Exp 5) |
+| …**by hardware / arch** | ⚠️ same-arch **bit-identical** across 8 cards + repeat runs (Exp 6). **Cross-architecture not covered** |
+| Distance distributions, det-mode on vs off | ⚠️ partial — recompute-noise floor (Exp 3) and honest-vs-fraud separation (Exp 4). The **penalty-reorder** comparison is not done |
+| Tokenizer determinism across MLNode versions | ❌ not done |
+| Realistic performance at production batch sizes | ❌ not done |
+| Python↔Go bit-parity on shared vectors | ✅ done (**S3**) |
+
+---
+
+## 2. Experiments
+
+| # | Question | Result | Bears on |
+|---|---|---|---|
+| **1** | Does the float executor path false-reject honest positions? | **14–77%**; **0%** with the decimal pipeline | **E1** → **D** |
+| **2** | How large must the signed support set be? | a fixed top-256 distorts **7–33%** when the nucleus is unbounded → sign **the filter's kept set**, not a fixed K | A1/A2, §6.8 → **A** |
+| **3** | Can the validator recompute logprobs instead of replaying signed ones? | **No** — batching alone flips **0–8%** of honest positions | → **A** |
+| **4** | Does the Stage-2 distance check separate honest from fraud, and with which metric? | **~40–65×** with MAE/KL over top-K; the **sampled-token delta overlaps** and cannot gate | → **D** |
+| **5** | Does a quantized *same* model look like fraud? | precision ladder: honest ≪ int8 < int4 < cheaper model. **int4 caught, int8 a gray zone** | → **D** |
+| **6** | Is the drift from hardware or from batching? | 8 cards + repeat runs are **bit-identical** → drift is **entirely batch-shape**. Cross-arch untested | → **D** |
+| **7** | Are the filter-edge rules load-bearing? | a token sits on the `top_p`/`min_p` edge on **5–46%** of positions → the rules fire constantly | §6.8 → **A** |
+
+---
+
+## 3. Mechanisms
+
+**Exp 1 — why the float path fails.** The float weights sum to `[65530, 65541]`, **never exactly 65536**. Since the sum ≠ 2^16, the same drawn u64 reduces (`u64 % sum`) to a value uncorrelated with the validator's `u64 % 65536`. Only the decimal pipeline guarantees an exact 2^16 total, so executor == validator.
+
+**Exp 3 — why recompute is not reproducible.** Right-padding + a causal mask make a sequence's logits batch-independent in *exact* arithmetic; in float they are not, because batched-GEMM reduction order and kernel selection change with the batch dims. The effect is **~flat across batch size** (1+1 ≈ 1+16) — one co-batched sequence is enough. Magnitude is model-dependent (`gpt2` ≈ 4× `Qwen`).
+
+**Exp 4 — why the sampled token alone is not enough.** A cheap model often agrees on the easy/obvious token, so `d_chosen` overlaps between honest and fraud (honest p95 `0.011` vs fraud p5 `0.006` on the Qwen pair). Fraud shows up in the **shape of the whole distribution** — which is why the metric must span the signed support set.
+
+**Exp 5 — the precision ladder** (`d_mae` vs the fp16 reference, p50/p95): honest `0.006/0.011` ≪ int8 `0.097/0.200` < int4 `0.364/0.692` < a 3×-smaller model `0.82/2.26` (Qwen; `gpt2-large` agrees). A threshold near ~0.05 accepts only fp16, ~0.25 accepts int8, ~0.75 accepts int4.
+
+**Exp 6 — determinism is exact within one architecture.** Across all 8 RTX-4090s and repeated runs, logits are **byte-identical** (0 max abs diff, 0 sample flips, both models). Run-to-run and card-to-card add **zero** drift, which isolates Exp 3's flips entirely to batch shape.
+
+**Exp 7 — the boundary fires constantly.** Kept-set membership changes on 5–9% (`Qwen`) to 27–46% (`gpt2`) of positions under recompute noise. Since Stage-1 filters the *same* signed logprobs on both sides, they agree **only if the rule is identical** — a `<` vs `<=` cutoff, a different tie-break, a `top_k` clamp, or a `min_p` empty-set fallback would diverge on that same fraction.
+
+---
+
+## 4. Caveats
+
+HF proxy — vLLM's chunked prefill / paged attention are untested and may drift differently. Small samples (64–128 positions per config). One GPU architecture (RTX 4090, one driver); **cross-architecture determinism is the single largest untested risk**. int4 = nf4 only; other schemes (gptq/awq) may land on different rungs. "Is int8 fraud?" is a protocol question, not a measurement.
+
+---
+
+## 5. Next steps
+
+1. **Fix A** — the signed-artifact contract, with Exp 2 / 3 / 7 as inputs.
+2. **Land the E1 patch** on the executor path, behind the flag, **in shadow first**.
+3. **Close the untested gaps** before enforcement: cross-architecture determinism, real-vLLM-kernel behaviour, tokenizer drift, performance at production batch sizes.
+4. Keep every Stage-1 verdict **non-enforcing** until D's criteria are met.
 
 </details>
   </div>
