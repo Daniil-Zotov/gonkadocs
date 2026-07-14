@@ -5,12 +5,12 @@
   padding: 1rem 0 3rem;
   font-size: 0.75rem;
   line-height: 1.45;
-  color: #1f2328;
+  color: var(--md-default-fg-color);
 }
 
 .cal-lead {
   font-size: 0.78rem;
-  color: #57606a;
+  color: var(--md-default-fg-color--light);
   margin-bottom: 1.5rem;
   line-height: 1.45;
 }
@@ -20,7 +20,7 @@
 .cal-filters {
   margin-bottom: 1.5rem;
   padding-bottom: 0.75rem;
-  border-bottom: 1px solid #d1d9e0;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
   display: flex;
   flex-wrap: wrap;
   gap: 0.6rem;
@@ -32,7 +32,7 @@
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.03em;
-  color: #57606a;
+  color: var(--md-default-fg-color--light);
   cursor: pointer;
   display: inline-flex;
   align-items: center;
@@ -40,11 +40,11 @@
   transition: color 0.15s;
 }
 
-.cal-filter-cb:hover { color: #1f2328; }
+.cal-filter-cb:hover { color: var(--md-default-fg-color); }
 
 .cal-filter-input {
   margin: 0;
-  accent-color: #24292f;
+  accent-color: var(--md-accent-fg-color);
 }
 
 .cal-filter-dot {
@@ -59,10 +59,15 @@
 .cal-filter-dot.cmt { background: #8250df; }
 .cal-filter-dot.net { background: #9a6700; }
 
+[data-md-color-scheme="slate"] .cal-filter-dot.gov { background: #58a6ff; }
+[data-md-color-scheme="slate"] .cal-filter-dot.com { background: #3fb950; }
+[data-md-color-scheme="slate"] .cal-filter-dot.cmt { background: #bc8cff; }
+[data-md-color-scheme="slate"] .cal-filter-dot.net { background: #d29922; }
+
 .cal-filter-count {
   margin-left: auto;
   font-size: 0.6rem;
-  color: #8b949e;
+  color: var(--md-default-fg-color--lighter);
 }
 
 /* ── timeline grid ───────────────────────────────────────
@@ -83,8 +88,12 @@
   top: 0;
   bottom: 0;
   width: 2px;
-  background: #24292f;
+  background: var(--md-default-fg-color);
   z-index: 0;
+}
+
+[data-md-color-scheme="slate"] .cal-timeline::before {
+  background: var(--md-default-fg-color);
 }
 
 /* ── quarter ──────────────────────────────────────────── */
@@ -107,7 +116,7 @@
   grid-column: 1 / -1;
   font-size: 1.6rem;
   font-weight: 700;
-  color: #8b949e;
+  color: var(--md-default-fg-color--lighter);
   letter-spacing: -0.02em;
   padding: 1.5rem 0 0.4rem 0;
   line-height: 1.2;
@@ -140,7 +149,7 @@
   grid-column: 1;
   font-size: 0.78rem;
   font-weight: 700;
-  color: #1f2328;
+  color: var(--md-default-fg-color);
   text-transform: uppercase;
   letter-spacing: 0.03em;
   padding: 1rem 0 0.15rem 0;
@@ -162,10 +171,15 @@
   height: 14px;
   box-sizing: border-box;
   border-radius: 50%;
-  border: 2.5px solid #24292f;
-  background: #fff;
+  border: 2.5px solid var(--md-default-fg-color);
+  background: var(--md-default-bg-color);
   position: relative;
   z-index: 2;
+}
+
+[data-md-color-scheme="slate"] .cal-month-node {
+  border-color: var(--md-default-fg-color);
+  background: var(--md-default-bg-color);
 }
 
 .cal-month-content {
@@ -187,6 +201,10 @@
   line-height: 1.2;
 }
 
+[data-md-color-scheme="slate"] .cal-today-label {
+  color: #ff7b72;
+}
+
 .cal-today-date {
   display: block;
   font-size: 0.6rem;
@@ -194,6 +212,10 @@
   color: #cf222e;
   text-transform: none;
   letter-spacing: 0;
+}
+
+[data-md-color-scheme="slate"] .cal-today-date {
+  color: #ff7b72;
 }
 
 .cal-today-marker {
@@ -215,6 +237,11 @@
   box-shadow: 0 0 0 3px rgba(207, 34, 46, 0.2);
 }
 
+[data-md-color-scheme="slate"] .cal-today-dot {
+  background: #ff7b72;
+  box-shadow: 0 0 0 3px rgba(255, 123, 114, 0.25);
+}
+
 .cal-today-content {
   grid-column: 3;
   padding-bottom: 0.8rem;
@@ -226,7 +253,7 @@
   grid-column: 1;
   font-size: 0.6rem;
   font-weight: 600;
-  color: #57606a;
+  color: var(--md-default-fg-color--light);
   text-align: right;
   padding: 0.3rem 0 0.1rem 0;
   line-height: 1.2;
@@ -245,9 +272,13 @@
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #24292f;
+  background: var(--md-default-fg-color);
   position: relative;
   z-index: 2;
+}
+
+[data-md-color-scheme="slate"] .cal-day-dot {
+  background: var(--md-default-fg-color);
 }
 
 .cal-day-content {
@@ -260,9 +291,9 @@
 .cal-event {
   font-size: 0.6rem;
   line-height: 1.4;
-  color: #24292f;
+  color: var(--md-default-fg-color);
   padding: 0.3rem 0;
-  border-bottom: 1px solid #eef0f2;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
 }
 
 .cal-event:last-child {
@@ -270,7 +301,7 @@
 }
 
 .cal-event--muted {
-  color: #8b949e;
+  color: var(--md-default-fg-color--lighter);
   font-style: italic;
   border: none;
 }
@@ -291,14 +322,14 @@
 
 .cal-event-category {
   font-size: 0.5rem;
-  color: #8b949e;
+  color: var(--md-default-fg-color--lighter);
   text-transform: uppercase;
   letter-spacing: 0.03em;
 }
 
 .cal-event-time {
   font-size: 0.5rem;
-  color: #8b949e;
+  color: var(--md-default-fg-color--lighter);
   margin-left: auto;
   white-space: nowrap;
 }
@@ -307,20 +338,20 @@
   display: block;
   font-size: 0.62rem;
   font-weight: 600;
-  color: #1f2328;
+  color: var(--md-default-fg-color);
   text-decoration: none;
   line-height: 1.4;
 }
 
 .cal-event-title:hover {
   text-decoration: underline;
-  color: #24292f;
+  color: var(--md-accent-fg-color);
 }
 
 .cal-event-desc {
   margin-top: 0.15rem;
   font-size: 0.58rem;
-  color: #57606a;
+  color: var(--md-default-fg-color--light);
   line-height: 1.4;
 }
 
@@ -334,13 +365,13 @@
 .cal-event-tag {
   display: inline-block;
   padding: 0.05em 0.35em;
-  border: 1px solid #d1d9e0;
+  border: 1px solid var(--md-default-fg-color--lightest);
   border-radius: 3px;
   font-size: 0.5rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.02em;
-  color: #57606a;
+  color: var(--md-default-fg-color--light);
 }
 
 /* ── states ────────────────────────────────────────────── */
@@ -349,14 +380,14 @@
   text-align: center;
   padding: 2rem;
   font-size: 0.72rem;
-  color: #8b949e;
+  color: var(--md-default-fg-color--lighter);
 }
 
 .cal-empty {
   text-align: center;
   padding: 3rem 1rem;
   font-size: 0.72rem;
-  color: #8b949e;
+  color: var(--md-default-fg-color--lighter);
 }
 
 .cal-error {
@@ -364,6 +395,10 @@
   padding: 2rem;
   font-size: 0.72rem;
   color: #cf222e;
+}
+
+[data-md-color-scheme="slate"] .cal-error {
+  color: #f85149;
 }
 
 /* ── responsive ────────────────────────────────────────── */

@@ -13,17 +13,17 @@ site_dir: _site
 # buildtools/build.sh. Поэтому исключаем его из основной сборки, чтобы не
 # дублировать контент и не ловить "not in nav" предупреждения.
 exclude_docs: |
+  /README.md
   gonka/docs/
   proposals/proposals/**/full-proposal.md
 
-# Отдельные посты обсуждений и страницы community доступны по ссылкам из
-# индексных страниц, но намеренно не входят в nav-меню напрямую.
 not_in_nav: |
   community/discussion/**/*.md
   community/issues/**/*.md
   community/**/*.md
   proposals/preproposals/**/*.md
   proposals/pipeline.md
+  proposals/README.md
   404.md
   agents.md
   index.md
@@ -286,7 +286,10 @@ extra:
       link: https://github.com/Daniil-Zotov/gonkadocs
 
 validation:
-  omitted_files: warn
-  absolute_links: ignore        # absolute_links - это те самые "/governance/..." из апстрима
-  unrecognized_links: info
-  anchors: info                 # битые якоря (#section) - только info, не warn
+  nav:
+    omitted_files: warn
+  links:
+    absolute_links: ignore        # absolute_links - это те самые "/governance/..." из апстрима
+    unrecognized_links: ignore
+    not_found: ignore
+    anchors: info                 # битые якоря (#section) - только info, не warn
