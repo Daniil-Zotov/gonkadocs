@@ -186,7 +186,7 @@ HardCore Arena становится первым работающим приме
 ### 💬 Victor
 *2026-06-11 09:50* · 👍 0 · 👎 0
 
-Сама игра в телеграмме https://telegram.me/TheWorldHardestGame_bot
+Сама игра в телеграмме https://t.me/TheWorldHardestGame_bot
 
 ---
 

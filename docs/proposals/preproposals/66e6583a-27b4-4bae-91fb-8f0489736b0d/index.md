@@ -129,7 +129,7 @@ https://github.com/inc4/gonka-nop
 3. Какой у вас опыт в Майнинге? Вы сейчас майните?
 
 4. Сейчас создается Комитет, который будет рассматривать такие предложения и помогать делать Пропоузелы. Пока он только создается. 
-Вот здесь чат: https://telegram.me/Gonka_Marketing
+Вот здесь чат: https://t.me/Gonka_Marketing
 Там по русски пишут, но можно и по английски.
 
 Спасибо!
@@ -189,7 +189,7 @@ As for renting, we rented from Spheron using both spot and dedicated instances. 
 Оптимизация нод. Есть ли идеи и опыт?
 
 А ты есть в этом чате? 
-https://telegram.me/gonka_hosts
+https://t.me/gonka_hosts
 
 ---
 

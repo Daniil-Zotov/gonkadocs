@@ -48,10 +48,10 @@ The team shares Gonka updates, publishes educational content, answers questions,
 The applicant also manages and actively maintains the following Telegram communities:
 
 * **Dutch Crypto Haven** — 1,331 members:
-  https://telegram.me/DutchCryptoHaven
+  https://t.me/DutchCryptoHaven
 
 * **Gonka Netherlands Community** — 42 members:
-  https://telegram.me/gonka_nl
+  https://t.me/gonka_nl
 
 Through these communities, the applicant promotes Gonka, increases visibility in the Dutch and Belgian markets, and provides a trusted local space for engagement, discussion, and onboarding.
 

@@ -1,6 +1,6 @@
 {
   "section": "preproposals",
-  "snapshot_time": "2026-07-14T09:15:12.177930+00:00",
+  "snapshot_time": "2026-07-14T11:42:06.651626+00:00",
   "files": {
     "00e8a72a-e121-4ea1-8d30-95a0d51268b2/index.md": {
       "title": "Gonka.TV — амбассадор Гонки на YouTube",
@@ -131,8 +131,8 @@
     "d185d9eb-243f-4228-b4ac-e2c7a50a5325/index.md": {
       "title": "Улучшаем инфиренс Kimi",
       "status": "active",
-      "content_preview": "# Улучшаем инфиренс Kimi\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Mitch\n**Created:** 2026-07-14 01:37 UTC\n**Closes:** 2026-07-21 01:37 UTC\n**Language:** RU\n**Votes:** 3\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nKimi в Gonka перегружен и сыпет ошибками. Разбираем, почему так вышло, и что можно исправить прямо сейчас через Governance и настройки нод.\n\n---\n\n## Full Proposal\n\nФакты:\n\n* \\~20% веса сети приходится на Kimi  \n* Запросов на инфиренс идет столько, что ноды с Kimi часто перегружены, и ответ падает с ошибкой  \n* Недели 2 назад Kimi можно было нормально пользоваться  \n* Сейчас Kimi часто дает ошибку, стало больше запросов  \n* Сама по себе цена не будет расти и при 100% загрузке нод с Kimi (динамического прайсинга нету в девшардах",
-      "checksum": "05242bf2ef720f1b43a82c8a0bbe58a8f1963d1e8b4691e9ce34f46f8a2a8374"
+      "content_preview": "# Улучшаем инфиренс Kimi\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Mitch\n**Created:** 2026-07-14 01:37 UTC\n**Closes:** 2026-07-21 01:37 UTC\n**Language:** RU\n**Votes:** 4\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nKimi в Gonka перегружен и сыпет ошибками. Разбираем, почему так вышло, и что можно исправить прямо сейчас через Governance и настройки нод.\n\n---\n\n## Full Proposal\n\nФакты:\n\n* \\~20% веса сети приходится на Kimi  \n* Запросов на инфиренс идет столько, что ноды с Kimi часто перегружены, и ответ падает с ошибкой  \n* Недели 2 назад Kimi можно было нормально пользоваться  \n* Сейчас Kimi часто дает ошибку, стало больше запросов  \n* Сама по себе цена не будет расти и при 100% загрузке нод с Kimi (динамического прайсинга нету в девшардах",
+      "checksum": "bff48ea59a6f36e0f2334e7482430c8c2be2677f73a592fc31c7658b864867e3"
     },
     "d2f317f0-541a-4d9f-bbac-d2d394906bf2/index.md": {
       "title": "11. Team GonkaGate Grant Request",
@@ -149,8 +149,8 @@
     "e0cc7d32-5d1a-49e1-94e8-0ca3d9ccbf6b/index.md": {
       "title": "Привлечение $3M+ нового капитала на Uniswap",
       "status": "active",
-      "content_preview": "# Привлечение $3M+ нового капитала на Uniswap\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Andrey Orlov\n**Created:** 2026-07-03 15:10 UTC\n**Closes:** 2026-08-02 15:10 UTC\n**Language:** RU\n**Votes:** 3\n**Avg. Bid:** 224.9K GNK\n\n</div>\n\nПредлагаем за 90 дней привлечь от $3 млн нового капитала в GONKA через масштабируемую Telegram-воронку с поэтапным финансированием и KPI\n\n---\n\n## Full Proposal\n\nСуть предложения\n2. Кто мы\n3. Что мы предлагаем\n4. KPI и экономика проекта\n5. Как будет работать воронка\n6. Стратегия удержания пользователей\n7. Финансирование\n8. Вознаграждение команды \n9. Отчетность и прозрачность\n10. Что получает GONKA\n11. Дополнительные материалы\n\n1.  Суть предложения\n\nМы предлагаем реализовать маркетинговую кампанию, ",
-      "checksum": "e0e025e6a8b2f8c1ac34dcb07a0027b44008041869cb0fcb23c984390f33aa03"
+      "content_preview": "# Привлечение $3M+ нового капитала на Uniswap\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Andrey Orlov\n**Created:** 2026-07-03 15:10 UTC\n**Closes:** 2026-08-02 15:10 UTC\n**Language:** RU\n**Votes:** 4\n**Avg. Bid:** 168.7K GNK\n\n</div>\n\nПредлагаем за 90 дней привлечь от $3 млн нового капитала в GONKA через масштабируемую Telegram-воронку с поэтапным финансированием и KPI\n\n---\n\n## Full Proposal\n\nСуть предложения\n2. Кто мы\n3. Что мы предлагаем\n4. KPI и экономика проекта\n5. Как будет работать воронка\n6. Стратегия удержания пользователей\n7. Финансирование\n8. Вознаграждение команды \n9. Отчетность и прозрачность\n10. Что получает GONKA\n11. Дополнительные материалы\n\n1.  Суть предложения\n\nМы предлагаем реализовать маркетинговую кампанию, ",
+      "checksum": "a122e9d0909269ad1a4867d5ca33b0711871aa4e4484162320e26f0015562bce"
     },
     "ed7bd700-bb5a-4c99-9dae-bdcba6641015/index.md": {
       "title": "Gonka Integration Grant for AI Startups and Products (GNK Rewards)",

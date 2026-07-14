@@ -86,7 +86,7 @@ A Gonka AI links catalog that collects official resources, dashboards, community
 
 ### Gonka Media
 
-* Telegram: https://telegram.me/GonkaAI_Media
+* Telegram: https://t.me/GonkaAI_Media
 * Discord: https://discord.gg/QznXmMjG8r
 * YouTube: https://www.youtube.com/@GonkaAI
 * Video and marketing materials archive:

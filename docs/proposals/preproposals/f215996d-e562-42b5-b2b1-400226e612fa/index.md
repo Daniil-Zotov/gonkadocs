@@ -91,7 +91,7 @@ Fixed package price · paid in two assets.
 ---
 
 **Saccade Media House**  
-[t.me/JackyBlack](https://telegram.me/JackyBlack) · [saccade.media](https://saccade.media)
+[t.me/JackyBlack](https://t.me/JackyBlack) · [saccade.media](https://saccade.media)
 
 ---
 

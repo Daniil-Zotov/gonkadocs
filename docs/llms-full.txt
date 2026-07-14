@@ -17256,14 +17256,14 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 ## 🟢 Active Proposals
 
 4Active
-14Votes
+16Votes
 2.0M GNKTotal Bid
 
 | Status | Title | Author | Votes | Avg. Bid | Closes |
 | :----- | :----- | :----- | ----: | -------: | :----- |
 | 🟢 | [External Test Lab & Community DevNet](./205219a5-6ed2-4f25-8d22-fa7c65a45ba6/) | Sergii Paranko | 4 | 168.7K GNK | 2026-07-14 |
-| 🟢 | [Улучшаем инфиренс Kimi](./d185d9eb-243f-4228-b4ac-e2c7a50a5325/) | Mitch | 3 | 0.00 GNK | 2026-07-21 |
-| 🟢 | [Привлечение $3M+ нового капитала на Uniswap](./e0cc7d32-5d1a-49e1-94e8-0ca3d9ccbf6b/) | Andrey Orlov | 3 | 224.9K GNK | 2026-08-02 |
+| 🟢 | [Улучшаем инфиренс Kimi](./d185d9eb-243f-4228-b4ac-e2c7a50a5325/) | Mitch | 4 | 0.00 GNK | 2026-07-21 |
+| 🟢 | [Привлечение $3M+ нового капитала на Uniswap](./e0cc7d32-5d1a-49e1-94e8-0ca3d9ccbf6b/) | Andrey Orlov | 4 | 168.7K GNK | 2026-08-02 |
 | 🟢 | [Привлечение $3M+ нового капитала на Uniswap v2.0](./f341b83c-78f0-4ab2-b8fd-ddc7ac5d9c37/) | Andrey Orlov | 4 | 168.7K GNK | 2026-08-08 |
 
 ---
@@ -17307,7 +17307,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-07-14 09:15 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-07-14 11:41 UTC*
 
 ---
 
@@ -17881,7 +17881,7 @@ The platform will include a built-in free AI chat during the race. This chat wil
 The team has developed **Gonka Wallet**, described as the first wallet specifically created for the **Gonka.ai** ecosystem.
 
 Telegram channel:
-https://telegram.me/GonkaWallet
+https://t.me/GonkaWallet
 
 ## GNK Wallet Address
 
@@ -18798,8 +18798,8 @@ But what will happend if I reply in English?
 **Created:** 2026-07-03 15:10 UTC
 **Closes:** 2026-08-02 15:10 UTC
 **Language:** RU
-**Votes:** 3
-**Avg. Bid:** 224.9K GNK
+**Votes:** 4
+**Avg. Bid:** 168.7K GNK
 
 Предлагаем за 90 дней привлечь от $3 млн нового капитала в GONKA через масштабируемую Telegram-воронку с поэтапным финансированием и KPI
 
@@ -19017,7 +19017,7 @@ Tora AI
 
 В Telegram-канале проводятся Google Meet / AMA-встречи, публикуются дополнительные материалы по proposal и подтверждения нашей работы.
 
-Ссылка: https://telegram.me/+VRgPAZqMaaczYmI8
+Ссылка: https://t.me/+VRgPAZqMaaczYmI8
 
 ---
 
@@ -19465,7 +19465,7 @@ Fixed package price · paid in two assets.
 ---
 
 **Saccade Media House**  
-[t.me/JackyBlack](https://telegram.me/JackyBlack) · [saccade.media](https://saccade.media)
+[t.me/JackyBlack](https://t.me/JackyBlack) · [saccade.media](https://saccade.media)
 
 ---
 
@@ -19688,7 +19688,7 @@ KPI построен по максимально консервативной м
 
 Для максимальной прозрачности мы также подготовили отдельный Telegram-канал, в котором собраны материалы по proposal: примеры Telegram-воронки, лендингов, креативов, рекламных кабинетов, партнерств, и другие подтверждения нашей работы.
 
-Ссылка: https://telegram.me/proposaluniswap
+Ссылка: https://t.me/proposaluniswap
 
 Именно этот опыт и лег в основу предложения, которое мы подготовили для GONKA.
 
@@ -19772,7 +19772,7 @@ Tora AI
 
 Долгосрочное сопровождение
 
-После первого депозита работа не заканчивается. Пользователь продолжает получать сопровождение через AI Agent и менеджеров. Основная задача этого этапа — укреплять доверие к проекту, сопровождать пользователя внутри экосистемы и увеличивать объем повторных инвестиций, дополнительно отправляю демо версию канала https://telegram.me/demo_chanel_gonka
+После первого депозита работа не заканчивается. Пользователь продолжает получать сопровождение через AI Agent и менеджеров. Основная задача этого этапа — укреплять доверие к проекту, сопровождать пользователя внутри экосистемы и увеличивать объем повторных инвестиций, дополнительно отправляю демо версию канала https://t.me/demo_chanel_gonka
 
 ⸻
 
@@ -19877,10 +19877,10 @@ Tora AI
 Для более детального ознакомления с proposal и нашей работой подготовлены следующие материалы:
 
 * Пример Telegram-канала, который демонстрирует структуру будущей воронки. Данный канал является демонстрационной версией и создан исключительно для того, чтобы показать общую механику, структуру и подход к работе.
-    Ссылка: https://telegram.me/demo_chanel_gonka
+    Ссылка: https://t.me/demo_chanel_gonka
 
 * Материалами по proposal — лендинги, креативы, видео рекламных кабинетов, примеры Telegram-воронки, информация о партнерах, записи AMA-сессий и другие подтверждения нашей работы
-    Ссылка: https://telegram.me/proposaluniswap
+    Ссылка: https://t.me/proposaluniswap
 
 * Личный Telegram для связи — если у вас останутся вопросы по proposal или потребуется дополнительная информация, вы всегда можете связаться со мной напрямую.
        TG: @FrancesGreen9
@@ -20674,7 +20674,7 @@ GNK ок. С вестингом не хочется, так как в любом
 **Created:** 2026-07-14 01:37 UTC
 **Closes:** 2026-07-21 01:37 UTC
 **Language:** RU
-**Votes:** 3
+**Votes:** 4
 **Avg. Bid:** 0.00 GNK
 
 Kimi в Gonka перегружен и сыпет ошибками. Разбираем, почему так вышло, и что можно исправить прямо сейчас через Governance и настройки нод.
@@ -20906,7 +20906,7 @@ https://github.com/inc4/gonka-nop
 3. Какой у вас опыт в Майнинге? Вы сейчас майните?
 
 4. Сейчас создается Комитет, который будет рассматривать такие предложения и помогать делать Пропоузелы. Пока он только создается. 
-Вот здесь чат: https://telegram.me/Gonka_Marketing
+Вот здесь чат: https://t.me/Gonka_Marketing
 Там по русски пишут, но можно и по английски.
 
 Спасибо!
@@ -20966,7 +20966,7 @@ As for renting, we rented from Spheron using both spot and dedicated instances. 
 Оптимизация нод. Есть ли идеи и опыт?
 
 А ты есть в этом чате? 
-https://telegram.me/gonka_hosts
+https://t.me/gonka_hosts
 
 ---
 
@@ -21297,7 +21297,7 @@ gonka1c3lrggulyl9xpsvnnjpykhyzvk7l5fcd92w63n
 *2026-06-11 06:38* · 👍 0 · 👎 0
 
 Привет!
-Речь идет про этот канал: https://telegram.me/newsgonkaai
+Речь идет про этот канал: https://t.me/newsgonkaai
 Забыл добавить ссылку )
 
 А это - рекламный канал, верно?
@@ -22216,7 +22216,7 @@ Gonka.TV это будет независимый компоненент
 
 # План по реализации
 
-Я, Mitch из Gonka.Top, [https://telegram.me/akamitch](https://telegram.me/akamitch) берусь быть координатором этого проекта в нашем зарождающемся фаундейшене.  
+Я, Mitch из Gonka.Top, [https://t.me/akamitch](https://t.me/akamitch) берусь быть координатором этого проекта в нашем зарождающемся фаундейшене.  
 После того как мы определись с требованиями, ценой, майлстоунами, провести пропозал по выплате всей суммы на специально созданный для этого кошелек.  
 Я найду\\согласую исполнителя, буду принимать у него работу по майлстоунам, отписывать сообществую новости по продвижению, выплачивать исполнителю.  
 В идеале конечно использовать не кошелек, а смарт контракт с мультипомписью совета фаундейшн, для обкатки процесса и кошелек считаю подойдет.  
@@ -22483,7 +22483,7 @@ HardCore Arena становится первым работающим приме
 ### 💬 Victor
 *2026-06-11 09:50* · 👍 0 · 👎 0
 
-Сама игра в телеграмме https://telegram.me/TheWorldHardestGame_bot
+Сама игра в телеграмме https://t.me/TheWorldHardestGame_bot
 
 ---
 
@@ -22611,10 +22611,10 @@ The team shares Gonka updates, publishes educational content, answers questions,
 The applicant also manages and actively maintains the following Telegram communities:
 
 * **Dutch Crypto Haven** — 1,331 members:
-  https://telegram.me/DutchCryptoHaven
+  https://t.me/DutchCryptoHaven
 
 * **Gonka Netherlands Community** — 42 members:
-  https://telegram.me/gonka_nl
+  https://t.me/gonka_nl
 
 Through these communities, the applicant promotes Gonka, increases visibility in the Dutch and Belgian markets, and provides a trusted local space for engagement, discussion, and onboarding.
 
@@ -23403,7 +23403,7 @@ A Gonka AI links catalog that collects official resources, dashboards, community
 
 ### Gonka Media
 
-* Telegram: https://telegram.me/GonkaAI_Media
+* Telegram: https://t.me/GonkaAI_Media
 * Discord: https://discord.gg/QznXmMjG8r
 * YouTube: https://www.youtube.com/@GonkaAI
 * Video and marketing materials archive:

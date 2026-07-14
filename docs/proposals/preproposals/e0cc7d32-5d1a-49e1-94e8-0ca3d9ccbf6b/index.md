@@ -13,8 +13,8 @@ template: proposals-main.html
 **Created:** 2026-07-03 15:10 UTC
 **Closes:** 2026-08-02 15:10 UTC
 **Language:** RU
-**Votes:** 3
-**Avg. Bid:** 224.9K GNK
+**Votes:** 4
+**Avg. Bid:** 168.7K GNK
 
 </div>
 
@@ -245,7 +245,7 @@ Tora AI
 
 В Telegram-канале проводятся Google Meet / AMA-встречи, публикуются дополнительные материалы по proposal и подтверждения нашей работы.
 
-Ссылка: https://telegram.me/+VRgPAZqMaaczYmI8
+Ссылка: https://t.me/+VRgPAZqMaaczYmI8
 
 ---
 
