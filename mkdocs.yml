@@ -225,6 +225,7 @@ extra_css:
   - stylesheets/issues.css
   - stylesheets/proposals.css
   - stylesheets/calendar.css
+  - stylesheets/activity.css
 
 extra_javascript:
   - scripts/proposals-countdown.js
