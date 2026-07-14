@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-07-13T23:46:55.633257+00:00",
+  "snapshot_time": "2026-07-14T01:50:23.000712+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -12,7 +12,7 @@
       "title": "FAQ",
       "status": null,
       "content_preview": "# FAQ\n\n## Overview\n\n### What is Gonka?\nGonka is a decentralized network for high‑efficiency AI compute — run by those who run it. It functions as a cost-effective and efficient alternative to centralized cloud services for AI model training and inference. As a protocol, it's not a company or a start-up.\n\n- In terms of Blockchain, Gonka is the foundational ledger and coordination layer (L1) of the decentralized AI network. It records balances, transactions and cryptographic artifacts that prove Hosts have correctly performed AI work, while all actual computations (such as inference and training) happen off-chain.\n- In terms of Network, Gonka is a comprehensive ecosystem of participants, including Hosts and Developers that interact through a decentralized infrastructure. Powered by the Gonka",
-      "checksum": "6de121ad9d0d0234d320bad98240b5154c00023c03c309a337a919e9085098a4"
+      "checksum": "8f921cc6af85b073097061294060438479722ccbebf06cb9553ada7843e33968"
     },
     "architecture.md": {
       "title": "Architecture",
@@ -402,7 +402,7 @@
       "title": "FAQ",
       "status": null,
       "content_preview": "# FAQ\n\n## 概述\n\n### 什么是Gonka？\nGonka是一个用于高效AI计算的去中心化网络——由其使用者运营。它作为集中式云服务在AI模型训练和推理方面的低成本、高效率替代方案。作为一个协议，它并非公司或初创企业。\n\n- 从区块链角度看，Gonka是去中心化AI网络的基础账本与协调层（L1）。它记录余额、交易和加密证据，以证明主机正确执行了AI任务，而所有实际计算（如推理和训练）均在链下进行。\n- 从网络角度看，Gonka是一个由主机和开发者等参与者组成的综合生态系统，通过去中心化基础设施进行交互。在Gonka区块链的驱动下，该网络分发任务、验证结果，并仅奖励可验证的有用工作，从而为AI工作负载创造了一个具有竞争力且可扩展的环境。\n\n### Gonka解决了什么问题？\n\nGonka是一个去中心化AI基础设施，旨在减少对集中式云提供商的依赖，并比传统去中心化网络更高效地利用计算能力。其目标是尽可能将计算资源导向有用的AI任务，如推理和训练，同时最小化因共识开销造成的浪费。\n\n### Gonka生态系统中的关键参与者有哪些？\n\nGonka生态系统有四个关键参与者群体：\n\n- 开发者通过利用网络的分布式计算能力构建和部署AI应用。\n- Gonka贡献者参与核心区块链代码库、协议升级、性能优化、安全补丁和新功能集成的开发。\n- 持有者持有网络的原生代币，即仅拥有一个包含GNK代币的钱包。持有者可以持有、转账或出售代币，使用代币进行推理，并根据协议规则使用它们。成为持有者不意味着除标准代币所有权外的任何义务、责任或治理角色。\n- 主机为网络贡献计算能力。主机执行推理和其他计算任务，并根据其贡献的计算能力获得相应奖励，前提是保持诚实参与和可靠性。主机是网络的支柱。只有主机拥有网络的投票权。该投票权代表其在治理中的权重，用于提议和投票决定协议决策、参数变更和升级。任何主机均可",
-      "checksum": "328a9647fd44608cafab16a54b1824550e59533a31df11c3ff43be1a8cff0ed7"
+      "checksum": "30fec433fbafb59d536b543f6597b3d853c7a2e58e56cb014534be33c22fdc71"
     },
     "zh/architecture.md": {
       "title": "architecture",
