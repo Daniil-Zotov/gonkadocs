@@ -2,7 +2,7 @@
 title: "#1097 — Improve API response for non-existent wallet"
 source: https://github.com/gonka-ai/gonka/issues/1097
 issue_number: 1097
-synced_at: 2026-07-14T22:17:56Z
+synced_at: 2026-07-14T23:15:37Z
 template: issues-main.html
 ---
 

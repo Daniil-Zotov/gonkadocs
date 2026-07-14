@@ -23497,7 +23497,8 @@ Models / IBC2
     Voting ends 2026-07-16
   
   Increase the weight_scale_factor for moonshotai/Kimi-K2.6 from 0.90 to 0.945 (+5%) and for zai-org/GLM-5.2-FP8 from 2.47 to 2.5935 (+5%). All other model and chain parameters remain unchanged.
-  Yes 0 (0.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 1,204 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  ✗ Turnout 1,204 / 533,740 (0.2%) · Quorum 25% (133,435)
 
   
     #85 – Internal Go-To-Market Team for 3 Month
@@ -24441,7 +24442,7 @@ Models / IBC2
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-85 proposals across 5 quarters. Last updated: 2026-07-14 23:00 UTC
+85 proposals across 5 quarters. Last updated: 2026-07-14 23:10 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -53249,7 +53250,8 @@ GRC / Restitution1
     Voting ends 2026-07-16
   
   Increase the weight_scale_factor for moonshotai/Kimi-K2.6 from 0.90 to 0.945 (+5%) and for zai-org/GLM-5.2-FP8 from 2.47 to 2.5935 (+5%). All other model and chain parameters remain unchanged.
-  Yes 0 (0.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 1,204 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  ✗ Turnout 1,204 / 533,740 (0.2%) · Quorum 25% (133,435)
 
   
     #85 – Internal Go-To-Market Team for 3 Month
@@ -53782,6 +53784,25 @@ Voting
 [View on gonka.gg](https://gonka.gg/network/proposals/86){:target="_blank"}
 
 Increase the weight_scale_factor for moonshotai/Kimi-K2.6 from 0.90 to 0.945 (+5%) and for zai-org/GLM-5.2-FP8 from 2.47 to 2.5935 (+5%). All other model and chain parameters remain unchanged.
+
+---
+
+## Final Tally
+
+  
+    
+    
+    
+    
+  
+  
+    Yes 1,204 (100.0%)
+    No 0 (0.0%)
+    Veto 0 (0.0%)
+    Abstain 0 (0.0%)
+    Total 1,204 votes
+    ✗ Turnout 1,204 / 533,740 (0.2%) · Quorum 25% (133,435)
+  
 
 ---
 
