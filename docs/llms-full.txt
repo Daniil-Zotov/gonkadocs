@@ -17256,12 +17256,12 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 ## 🟢 Active Proposals
 
 3Active
-12Votes
+13Votes
 1.3M GNKTotal Bid
 
 | Status | Title | Author | Votes | Avg. Bid | Closes |
 | :----- | :----- | :----- | ----: | -------: | :----- |
-| 🟢 | [Улучшаем инфиренс Kimi](./d185d9eb-243f-4228-b4ac-e2c7a50a5325/) | Mitch | 4 | 0.00 GNK | 2026-07-21 |
+| 🟢 | [Улучшаем инфиренс Kimi](./d185d9eb-243f-4228-b4ac-e2c7a50a5325/) | Mitch | 5 | 0.00 GNK | 2026-07-21 |
 | 🟢 | [Привлечение $3M+ нового капитала на Uniswap](./e0cc7d32-5d1a-49e1-94e8-0ca3d9ccbf6b/) | Andrey Orlov | 4 | 168.7K GNK | 2026-08-02 |
 | 🟢 | [Привлечение $3M+ нового капитала на Uniswap v2.0](./f341b83c-78f0-4ab2-b8fd-ddc7ac5d9c37/) | Andrey Orlov | 4 | 168.7K GNK | 2026-08-08 |
 
@@ -17307,7 +17307,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-07-14 21:11 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-07-14 23:08 UTC*
 
 ---
 
@@ -20674,7 +20674,7 @@ GNK ок. С вестингом не хочется, так как в любом
 **Created:** 2026-07-14 01:37 UTC
 **Closes:** 2026-07-21 01:37 UTC
 **Language:** RU
-**Votes:** 4
+**Votes:** 5
 **Avg. Bid:** 0.00 GNK
 
 Kimi в Gonka перегружен и сыпет ошибками. Разбираем, почему так вышло, и что можно исправить прямо сейчас через Governance и настройки нод.
@@ -24441,7 +24441,7 @@ Models / IBC2
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-85 proposals across 5 quarters. Last updated: 2026-07-14 22:51 UTC
+85 proposals across 5 quarters. Last updated: 2026-07-14 23:00 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
