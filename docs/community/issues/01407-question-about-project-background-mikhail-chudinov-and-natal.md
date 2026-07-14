@@ -2,7 +2,7 @@
 title: "#1407 — Question about project background: Mikhail Chudinov and Natalia"
 source: https://github.com/gonka-ai/gonka/issues/1407
 issue_number: 1407
-synced_at: 2026-07-14T10:58:16Z
+synced_at: 2026-07-14T12:42:25Z
 template: issues-main.html
 ---
 
@@ -57,7 +57,7 @@ Is this project just another setup for a scam and stealing money? Or are you jus
 <p>I confirm that I worked at <strong>NameSilo</strong>, <strong>SuperKopilka</strong>, <strong>AtomX.online</strong>, and even ran the offline <strong>Poker Club Red Rock</strong> as Manager.</p>
 <p><strong>Where you can find me:</strong></p>
 <ul>
-<li>Telegram: <a href="https://telegram.me/akamitch">t.me/akamitch</a> — can be found in many places on Google</li>
+<li>Telegram: <a href="https://t.me/akamitch">t.me/akamitch</a> — can be found in many places on Google</li>
 <li>Reddit (old posts): <a href="https://www.reddit.com/r/ethereum/comments/16whu3v/a_fresh_look_at_atomic_swap/">A fresh look at Atomic Swap</a></li>
 <li>Habr (Russian IT platform): <a href="https://habr.com/ru/articles/923150/">my articles</a></li>
 <li>Bitcointalk: <a href="https://bitcointalk.org/index.php?action=profile;u=62988">my profile</a></li>
