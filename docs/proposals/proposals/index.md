@@ -32,15 +32,15 @@ template: proposals-oview.html
 ## Overview
 
 <div class="qs-stats">
-<div class="qs-stat total"><span class="qs-num">84</span><span class="qs-desc">Total Proposals</span></div>
+<div class="qs-stat total"><span class="qs-num">85</span><span class="qs-desc">Total Proposals</span></div>
 <div class="qs-stat passed"><span class="qs-num">54</span><span class="qs-desc">Passed (64%)</span></div>
-<div class="qs-stat rejected"><span class="qs-num">29</span><span class="qs-desc">Rejected (35%)</span></div>
+<div class="qs-stat rejected"><span class="qs-num">29</span><span class="qs-desc">Rejected (34%)</span></div>
 <div class="qs-stat failed"><span class="qs-num">1</span><span class="qs-desc">Failed (1%)</span></div>
 </div>
 
 <div class="qs-categories">
 <div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:45%"></span></span><span class="qs-value">38</span></div>
-<div class="qs-row"><span class="qs-label">Governance Parameters</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:26%"></span></span><span class="qs-value">22</span></div>
+<div class="qs-row"><span class="qs-label">Governance Parameters</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:27%"></span></span><span class="qs-value">23</span></div>
 <div class="qs-row"><span class="qs-label">Software Upgrade</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:19%"></span></span><span class="qs-value">16</span></div>
 <div class="qs-row"><span class="qs-label">GRC / Restitution</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:4%"></span></span><span class="qs-value">3</span></div>
 <div class="qs-row"><span class="qs-label">Other</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:4%"></span></span><span class="qs-value">3</span></div>
@@ -55,7 +55,21 @@ template: proposals-oview.html
 <div class="prop-quarter" id="2026-q3" markdown="1">
 ## 2026-Q3
 
-*6 proposals*
+*7 proposals*
+
+<div class="prop-card" data-status="prop-voting" data-voting-end="2026-07-16T17:53:38.781599306Z">
+  <div class="prop-card-header">
+    <a href="2026-q3/86/" class="prop-card-title">#86 – Increase Kimi-K2.6 and GLM-5.2 weight_scale_factor by 5%</a>
+    <span class="prop-vote-countdown" data-deadline="2026-07-16T17:53:38.781599306Z"></span>
+    <span class="prop-badge prop-voting">Voting</span>
+  </div>
+  <div class="prop-card-meta">
+    <span>Submitted 2026-07-14</span>
+    <span>Voting ends 2026-07-16</span>
+  </div>
+  <div class="prop-card-desc">Increase the weight_scale_factor for moonshotai/Kimi-K2.6 from 0.90 to 0.945 (+5%) and for zai-org/GLM-5.2-FP8 from 2.47 to 2.5935 (+5%). All other model and chain parameters remain unchanged.</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 0 (0.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+</div>
 
 <div class="prop-card" data-status="prop-rejected">
   <div class="prop-card-header">
@@ -1177,7 +1191,7 @@ template: proposals-oview.html
 
 </div>
 <div class="prop-oview-stats">
-<em>84 proposals across 5 quarters. Last updated: 2026-07-14 17:50 UTC</em>
+<em>85 proposals across 5 quarters. Last updated: 2026-07-14 18:00 UTC</em>
 </div>
 
 <script>
