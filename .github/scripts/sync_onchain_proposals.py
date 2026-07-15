@@ -1075,6 +1075,63 @@ def generate_rss_feed(sorted_quarters, proposals_by_quarter):
     print(f"Generated RSS feed: {rss_path} ({len(items)} items)")
 
 
+def generate_proposals_sitemap(sorted_quarters, proposals_by_quarter):
+    """Generate a sitemap.xml for proposals (browsers/crawlers look for this)."""
+    from xml.sax.saxutils import escape
+    SITE_URL = "https://gonkadocs.com"
+    today = datetime.now(timezone.utc).date().isoformat()
+
+    urls = []
+
+    # Root proposals page
+    urls.append(f"""  <url>
+    <loc>{SITE_URL}/proposals/proposals/</loc>
+    <lastmod>{today}</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.8</priority>
+  </url>""")
+
+    for q in sorted_quarters:
+        q_lower = q.lower()
+        # Quarter overview
+        urls.append(f"""  <url>
+    <loc>{SITE_URL}/proposals/proposals/{q_lower}/</loc>
+    <lastmod>{today}</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.7</priority>
+  </url>""")
+
+        for p in proposals_by_quarter.get(q, []):
+            pid = p["id"]
+            submit = p.get("submit_time", "")
+            lastmod = today
+            if submit:
+                try:
+                    dt = datetime.fromisoformat(submit.replace("Z", "+00:00"))
+                    lastmod = dt.date().isoformat()
+                except (ValueError, TypeError):
+                    pass
+            status = p.get("status", "")
+            # Voting proposals change more often
+            changefreq = "hourly" if status == "PROPOSAL_STATUS_VOTING_PERIOD" else "weekly"
+            priority = "0.6" if status == "PROPOSAL_STATUS_VOTING_PERIOD" else "0.5"
+            urls.append(f"""  <url>
+    <loc>{SITE_URL}/proposals/proposals/{q_lower}/{pid}/</loc>
+    <lastmod>{lastmod}</lastmod>
+    <changefreq>{changefreq}</changefreq>
+    <priority>{priority}</priority>
+  </url>""")
+
+    sitemap = f"""<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{chr(10).join(urls)}
+</urlset>"""
+
+    sitemap_path = OUTPUT_DIR / "sitemap.xml"
+    sitemap_path.write_text(sitemap, encoding="utf-8")
+    print(f"Generated proposals sitemap: {sitemap_path} ({len(urls)} URLs)")
+
+
 def fetch_live_tally(proposal_id):
     """Fetch the live tally for a voting proposal (the list endpoint returns zeros)."""
     try:
@@ -1250,6 +1307,10 @@ def main():
     # Generate RSS feed
     print("Generating RSS feed...")
     generate_rss_feed(sorted_quarters, proposals_by_quarter)
+
+    # Generate proposals sitemap.xml (browsers/crawlers check this path)
+    print("Generating proposals sitemap...")
+    generate_proposals_sitemap(sorted_quarters, proposals_by_quarter)
 
     # Update nav
     update_mkdocs_nav(sorted_quarters, proposals_by_quarter)
