@@ -2,7 +2,7 @@
 title: "#1199 — Reproducible sampling for inference validation"
 source: https://github.com/gonka-ai/gonka/issues/1199
 issue_number: 1199
-synced_at: 2026-07-15T06:31:47Z
+synced_at: 2026-07-15T09:24:19Z
 template: issues-main.html
 ---
 
@@ -16,7 +16,7 @@ template: issues-main.html
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-05-19 23:17 UTC</span>
     <span class="issues-meta-item">5 comments</span>
-    <span class="issues-meta-item">Updated 2026-07-14 01:32 UTC</span>
+    <span class="issues-meta-item">Updated 2026-07-15 08:54 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span></div>
 </div>
@@ -447,6 +447,7 @@ verify.
 <li><strong>Recompute is not reproducible — the logprobs must be signed</strong> <em>(new, design-level)</em>. Batch composition alone flips <strong>0–8%</strong> of honest positions, <strong>even after E1 is fixed</strong>. Stage-1 must replay the <strong>signed</strong> logprobs and can never reconstruct them by re-running the model. This constrains the contract, not just the implementation.</li>
 <li><strong>S3 — validated.</strong> A Go validator (<code>detsample</code>: RNG, decimal pipeline, chain-bound seed, three-valued verdict) is now <strong>bit-identical to Python</strong> on shared conformance vectors — the "never actually been tested" item. Still needs to land in CI.</li>
 <li><strong>E1 — quantified.</strong> The float executor false-rejects <strong>14–77%</strong> of honest positions; the decimal pipeline gives <strong>0/128 on every config × 2 models</strong>. <strong>E1 is a hard prerequisite for enforcement</strong> — enforcing before it lands would slash honest participants en masse.</li>
+<li><strong>E1 confirmed live in vLLM</strong> — and it's entangled with token order. With the shadow flag on, the float executor diverges from the decimal validator on ~70% of positions in a real vLLM run (gpt2). That's higher than the offline 14–77% because the live float path also samples in numeric token-id order while the validator uses string order (§6.6). So the executor fix is E1 and the §6.6 ordering, together — adopting decimal weights alone won't make replay pass. This also closes the "requires GPU verification" caveat on §7 step 1.</li>
 <li><strong>Stage-2's metric and threshold — measurable, and partly a policy call</strong> <em>(new)</em>. The distance check separates honest from a wrong model by <strong>~40–65×</strong>, but <strong>only as MAE/KL over the top-K support</strong>; the sampled-token delta overlaps and cannot gate. The distances also form a <strong>monotone ladder</strong> — quantizing the <em>same</em> model lands between honest noise and a genuinely different model:
   ```
   d_mae vs the fp16 reference   (Qwen2.5-1.5B, p50 — gpt2-large agrees)
@@ -476,7 +477,7 @@ verify.
 
 # GPU experiments — reproducible sampling (#1199)
 
-**Setup:** 8×RTX-4090, fp16 (+ int8/int4 via `bitsandbytes`), `gpt2` / `gpt2-large` and `Qwen2.5-0.5B` / `Qwen2.5-1.5B`, 64–128 positions per config. **HuggingFace proxy — not vLLM's own kernels.** Scripts and raw logs: branch `bonujel/vllm@tg/deterministic_sampling_merged`, `dev_notes/reproduce_sampling/e1_experiment/`. Decision register: [gist](https://gist.github.com/bonujel/5bc8c21f7ca376de305b62b6f11a2e27).
+**Setup:** 8×RTX-4090, fp16 (+ int8/int4 via `bitsandbytes`), `gpt2` / `gpt2-large` and `Qwen2.5-0.5B` / `Qwen2.5-1.5B`, 64–128 positions per config. **HuggingFace proxy — not vLLM's own kernels, except Experiment 8, which runs inside a real vLLM engine."** Scripts and raw logs: branch `bonujel/vllm@tg/deterministic_sampling_merged`, `dev_notes/reproduce_sampling/e1_experiment/`. Decision register: [gist](https://gist.github.com/bonujel/5bc8c21f7ca376de305b62b6f11a2e27).
 
 ---
 
@@ -505,6 +506,8 @@ verify.
 | **5** | Does a quantized *same* model look like fraud? | precision ladder: honest ≪ int8 < int4 < cheaper model. **int4 caught, int8 a gray zone** | → **D** |
 | **6** | Is the drift from hardware or from batching? | 8 cards + repeat runs are **bit-identical** → drift is **entirely batch-shape**. Cross-arch untested | → **D** |
 | **7** | Are the filter-edge rules load-bearing? | a token sits on the `top_p`/`min_p` edge on **5–46%** of positions → the rules fire constantly | §6.8 → **A** |
+| **8** | Does E1 hold up *inside real vLLM*, not just the HF proxy? | **135/192 = 70.3%** float-vs-decimal divergence live (vs 14–77% offline) — higher because the executor samples in **numeric** token order while the validator uses **string** order (§6.6), so **E1 and §6.6 must be fixed together on the executor**; closes §7-step-1's "requires GPU verification" | **E1 + §6.6** → **A/D** |
+
 
 ---
 

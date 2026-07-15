@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-07-15T06:34:04.347236+00:00",
+  "snapshot_time": "2026-07-15T09:26:52.163319+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "Description",
@@ -1572,7 +1572,7 @@
       "title": "Issue #1199 — Reproducible Sampling for Inference Validation: Review Report",
       "status": null,
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Reproducible sampling for inference validation\n    <span class=\"issues-number\">#1199</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\">[@tcharchian](https://github.com/tcharchian) opened 2026-05-19 23:17 UTC</span>\n    <span class=\"issues-meta-item\">5 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style=\"",
-      "checksum": "3376f99037a6f5931be283221f1710be60a27282f146ae88f0226bacfd39aebc"
+      "checksum": "a0061a51e8eec7a386a5d89657573b96dab336c5b241ba34d6640a2036ba1266"
     },
     "01200-independent-review-of-poc-decode-results.md": {
       "title": "#1200 — Independent review of PoC-decode results",
@@ -1835,8 +1835,8 @@
     "index.md": {
       "title": "GitHub Issues — `gonka-ai/gonka`",
       "status": null,
-      "content_preview": "# GitHub Issues — `gonka-ai/gonka`\n\nAll issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).\nTotal: **305** (🟢 open: **67**, 🔴 closed: **238**).\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"01450-dynamic-pricing-price-pinned-at-min-by-integer-truncation-ca/\">Dynamic pricing: price pinned at min by integer truncation; capacity proxy miscalibrated per model</a>\n      <span class=\"issues-number\">#1450</span>\n    </div>\n    <p class=\"issues-desc\">Reporting two v",
-      "checksum": "16bf548495ea5b4bdcef6150dfb1a196761f01b6747218f198bc37e19212e005"
+      "content_preview": "# GitHub Issues — `gonka-ai/gonka`\n\nAll issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).\nTotal: **305** (🟢 open: **67**, 🔴 closed: **238**).\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"01199-reproducible-sampling-for-inference-validation/\">Reproducible sampling for inference validation</a>\n      <span class=\"issues-number\">#1199</span>\n    </div>\n    <p class=\"issues-desc\">Review the existing reproducible / deterministic sampling work for inference vali",
+      "checksum": "8d69f545947f99c8029bc8aff8969e734b72b8a003fa9c784db04345b1d9628e"
     },
     "labels/bug/index.md": {
       "title": "Issues: bug",
@@ -1866,7 +1866,7 @@
       "title": "Issues: no-label",
       "status": null,
       "content_preview": "# Issues: no-label\n\nIssues with label **no-label**. Total: **230**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01450-dynamic-pricing-price-pinned-at-min-by-integer-truncation-ca/\">Dynamic pricing: price pinned at min by integer truncation; capacity proxy miscalibrated per model</a>\n      <span class=\"issues-number\">#1450</span>\n    </div>\n    \n    <div class=\"issues-labels\"></div>\n    <div class=\"issues-meta\">\n      <span class=\"issues-m",
-      "checksum": "03c2f692158fb2d7483057ab05842723f8f37f35c65fa956546f6f4d87a442da"
+      "checksum": "6b9cc1c069541ce7fddec6375f8f72c28f840280322a1a3bb14536fa79176176"
     },
     "labels/priority-high/index.md": {
       "title": "Issues: Priority: High",
@@ -1902,7 +1902,7 @@
       "title": "Issues: up-for-grabs",
       "status": null,
       "content_preview": "# Issues: up-for-grabs\n\nIssues with label **up-for-grabs**. Total: **15**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01199-reproducible-sampling-for-inference-validation/\">Reproducible sampling for inference validation</a>\n      <span class=\"issues-number\">#1199</span>\n    </div>\n    \n    <div class=\"issues-labels\"><span class=\"issues-label\" style=\"background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;\">up-for-grabs</span></d",
-      "checksum": "f596cf16777d16b68a0ad50a8745749db45c03264a7e377bf08151f847b63373"
+      "checksum": "be9ef2ac5857c18da360662930ed0925855a98cb1c61d10555ceec7f5af9fea8"
     }
   }
 }
