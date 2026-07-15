@@ -1,6 +1,6 @@
 {
   "section": "preproposals",
-  "snapshot_time": "2026-07-15T11:45:45.091712+00:00",
+  "snapshot_time": "2026-07-15T14:05:32.724770+00:00",
   "files": {
     "00e8a72a-e121-4ea1-8d30-95a0d51268b2/index.md": {
       "title": "Gonka.TV — амбассадор Гонки на YouTube",
@@ -131,8 +131,8 @@
     "d185d9eb-243f-4228-b4ac-e2c7a50a5325/index.md": {
       "title": "Улучшаем инфиренс Kimi",
       "status": "active",
-      "content_preview": "# Улучшаем инфиренс Kimi\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Mitch\n**Created:** 2026-07-14 01:37 UTC\n**Closes:** 2026-07-21 01:37 UTC\n**Language:** RU\n**Votes:** 5\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nKimi в Gonka перегружен и сыпет ошибками. Разбираем, почему так вышло, и что можно исправить прямо сейчас через Governance и настройки нод.\n\n---\n\n## Full Proposal\n\nФакты:\n\n* \\~20% веса сети приходится на Kimi  \n* Запросов на инфиренс идет столько, что ноды с Kimi часто перегружены, и ответ падает с ошибкой  \n* Недели 2 назад Kimi можно было нормально пользоваться  \n* Сейчас Kimi часто дает ошибку, стало больше запросов  \n* Сама по себе цена не будет расти и при 100% загрузке нод с Kimi (динамического прайсинга нету в девшардах",
-      "checksum": "38a697189bf805522ad16518b72938b9820fd8b48f568aaab3bdf800fc363833"
+      "content_preview": "# Улучшаем инфиренс Kimi\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Mitch\n**Created:** 2026-07-14 01:37 UTC\n**Closes:** 2026-07-21 01:37 UTC\n**Language:** RU\n**Votes:** 6\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nKimi в Gonka перегружен и сыпет ошибками. Разбираем, почему так вышло, и что можно исправить прямо сейчас через Governance и настройки нод.\n\n---\n\n## Full Proposal\n\nФакты:\n\n* \\~20% веса сети приходится на Kimi  \n* Запросов на инфиренс идет столько, что ноды с Kimi часто перегружены, и ответ падает с ошибкой  \n* Недели 2 назад Kimi можно было нормально пользоваться  \n* Сейчас Kimi часто дает ошибку, стало больше запросов  \n* Сама по себе цена не будет расти и при 100% загрузке нод с Kimi (динамического прайсинга нету в девшардах",
+      "checksum": "524132622012124aa78bf1ee46a9fd3cef7f003fd92902457cf7d857cede4d61"
     },
     "d2f317f0-541a-4d9f-bbac-d2d394906bf2/index.md": {
       "title": "11. Team GonkaGate Grant Request",
