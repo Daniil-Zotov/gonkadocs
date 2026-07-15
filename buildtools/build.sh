@@ -68,6 +68,8 @@ OVR_DIR=".overrides.merged"
 rm -rf "$OVR_DIR"
 cp -r overrides "$OVR_DIR"
 cp -r "$ROOT/buildtools/gonka-overrides/"* "$OVR_DIR/"
+# Shared header: copy from main site's overrides so both builds use the same <header>
+cp "$ROOT/docs/overrides/partials/header.html" "$OVR_DIR/partials/header.html"
 
 cp mkdocs.yml "$BUILD_CFG"
 
