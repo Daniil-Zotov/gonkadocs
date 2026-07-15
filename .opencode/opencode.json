@@ -28,12 +28,12 @@
   },
   "permission": {
     "bash": {
+      "*": "ask",
       "git*": "allow",
       "python3 *": "allow",
       "mkdir *": "allow",
       "cp *": "allow",
-      "rm *": "ask",
-      "*": "ask"
+      "rm *": "ask"
     },
     "edit": "allow"
   }

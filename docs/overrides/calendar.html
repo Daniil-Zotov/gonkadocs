@@ -57,6 +57,8 @@
   ];
 
   var QUARTERS = [
+    { label: 'Q1', months: [0, 1, 2] },
+    { label: 'Q2', months: [3, 4, 5] },
     { label: 'Q3', months: [6, 7, 8] },
     { label: 'Q4', months: [9, 10, 11] },
   ];
@@ -182,6 +184,11 @@
       if (!eventsByDate[e.date]) eventsByDate[e.date] = [];
       eventsByDate[e.date].push(e);
     });
+
+    // Always show today regardless of events or filters
+    if (!eventsByDate[today.iso]) {
+      eventsByDate[today.iso] = [];
+    }
 
     var flat = Object.keys(eventsByDate).reduce(function(a, d) { return a.concat(eventsByDate[d]); }, []);
     COUNT.textContent = flat.length;
