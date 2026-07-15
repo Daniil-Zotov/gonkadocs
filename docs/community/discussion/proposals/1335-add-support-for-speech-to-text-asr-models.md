@@ -3,7 +3,7 @@ title: "#1335 — Add support for speech-to-text (ASR) models"
 source: https://github.com/gonka-ai/gonka/discussions/1335
 discussion_number: 1335
 category: proposals
-synced_at: 2026-07-15T15:45:28Z
+synced_at: 2026-07-15T17:33:56Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1335](https://github.com/gonka-ai/gonka/discussions/1335) every hour. 
