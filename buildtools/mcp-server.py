@@ -14,6 +14,7 @@ Requires: pip install "mcp[cli]"
 """
 import json
 import os
+import re
 import sys
 from pathlib import Path
 from typing import Optional
@@ -286,31 +287,26 @@ def read_gonka_proposal(proposal_id: str) -> str:
     Args:
         proposal_id: Proposal number (e.g. "74", "57", "44")
     """
-    proposals_path = DOCS_DIR / "proposals" / "README.md"
-    if not proposals_path.exists():
-        return "Proposals file not found."
+    proposals_root = DOCS_DIR / "proposals" / "proposals"
+    if not proposals_root.exists():
+        return "Proposals directory not found."
 
-    content = proposals_path.read_text(encoding="utf-8")
-    lines = content.split("\n")
+    # Scan quarter directories for the proposal
+    for quarter_dir in sorted(proposals_root.iterdir()):
+        if not quarter_dir.is_dir() or not quarter_dir.name.startswith("20"):
+            continue
+        prop_dir = quarter_dir / proposal_id
+        if prop_dir.is_dir():
+            index_md = prop_dir / "index.md"
+            if index_md.exists():
+                content = index_md.read_text(encoding="utf-8")
+                content = re.sub(r'^---\n.*?\n---\n', '', content, count=1, flags=re.DOTALL)
+                if len(content) > 50000:
+                    content = content[:50000] + "\n\n[... truncated]"
+                return f"# Proposal #{proposal_id}\n\nSource: {SITE_URL}/proposals/proposals/{quarter_dir.name}/{proposal_id}/\n\n{content}"
+            return f"Proposal #{proposal_id} found but has no content."
 
-    for line in lines:
-        if line.startswith("|") and f"| {proposal_id} " in line:
-            parts = [p.strip() for p in line.split("|")[1:-1]]
-            if len(parts) >= 6:
-                return f"""# Proposal #{parts[0]}
-
-**Title:** {parts[1]}
-**Type:** {parts[2]}
-**Status:** {parts[3]}
-**Metadata:** {parts[4]}
-
-## Summary
-
-{parts[5]}
-
-Full details: {SITE_URL}/proposals/
-"""
-    return f"Proposal #{proposal_id} not found. Valid IDs: 16-74. See {SITE_URL}/proposals/"
+    return f"Proposal #{proposal_id} not found. See {SITE_URL}/proposals/ for available proposals."
 
 
 # ---------------------------------------------------------------------------
