@@ -69,7 +69,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Increase the weight_scale_factor for moonshotai/Kimi-K2.6 from 0.90 to 0.945 (+5%) and for zai-org/GLM-5.2-FP8 from 2.47 to 2.5935 (+5%). All other model and chain parameters remain unchanged.</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 1,204 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout 1,204 / 533,740 (0.2%) · Quorum 25% (133,435)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout 1,204 / 533,629 (0.2%) · Quorum 25% (133,407)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -1192,7 +1192,7 @@ template: proposals-oview.html
 
 </div>
 <div class="prop-oview-stats">
-<em>85 proposals across 5 quarters. Last updated: 2026-07-15 05:30 UTC</em>
+<em>85 proposals across 5 quarters. Last updated: 2026-07-15 05:40 UTC</em>
 </div>
 
 <script>
