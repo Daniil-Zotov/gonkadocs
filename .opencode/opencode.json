@@ -1,5 +1,5 @@
 {
-  "$schema": "https://opencode.ai/config.json",
+  "$schema": "./opencode.schema.json",
   "instructions": ["AGENTS.md"],
   "mcp": {
     "gonka-docs": {
