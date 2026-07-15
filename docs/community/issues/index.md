@@ -7,7 +7,7 @@ template: issues-main.html
 
 All issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).
 Total: **305** (🟢 open: **67**, 🔴 closed: **238**).
-Updated: `2026-07-15 15:06 UTC`.
+Updated: `2026-07-15 16:49 UTC`.
 
 <ul class="issues-list">
 <li class="issues-list-item">
@@ -20,7 +20,7 @@ Updated: `2026-07-15 15:06 UTC`.
     <p class="issues-desc">Review the existing reproducible / deterministic sampling work for inference validation and prepare a careful path toward adding it to MLNode versions.  This task is related to the known inference val...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 6 hours ago</span>
+      <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 7 hours ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 5</span>
     </div>
   </div>
@@ -35,7 +35,7 @@ Updated: `2026-07-15 15:06 UTC`.
     <p class="issues-desc">Reporting two verified defects in the dynamic-pricing keeper. Everything below was checked against tag `release/v0.2.13` (the mainnet chain version) and against live mainnet state via `node3.gonka.ai`...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@len5ky](https://github.com/len5ky) opened 16 hours ago</span>
+      <span class="issues-meta-item">[@len5ky](https://github.com/len5ky) opened 18 hours ago</span>
       
     </div>
   </div>
@@ -245,7 +245,7 @@ Updated: `2026-07-15 15:06 UTC`.
     <p class="issues-desc">Is this how our story began in your previous project where your name was Natalia?  I would like to ask, can Mikhail Chudinov come out to play? The one who is a DevOps engineer at NameSilo, formerly He...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@phishdestroy](https://github.com/phishdestroy) opened 8 days ago</span>
+      <span class="issues-meta-item">[@phishdestroy](https://github.com/phishdestroy) opened 9 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>
@@ -335,7 +335,7 @@ Updated: `2026-07-15 15:06 UTC`.
     <p class="issues-desc">### Summary  Several official surfaces document a **self-serve, no-broker** end-to-end inference flow (own GNK account + private key → signed request → completion) as if it works. In practice, a funde...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@dufok](https://github.com/dufok) opened 11 days ago</span>
+      <span class="issues-meta-item">[@dufok](https://github.com/dufok) opened 12 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 7</span>
     </div>
   </div>
