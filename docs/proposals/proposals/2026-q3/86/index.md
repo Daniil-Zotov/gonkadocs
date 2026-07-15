@@ -46,7 +46,7 @@ Increase the weight_scale_factor for moonshotai/Kimi-K2.6 from 0.90 to 0.945 (+5
     <span class="prop-tally-veto-text">Veto 0 (0.0%)</span>
     <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span>
     <span class="prop-tally-total-text">Total 72,642 votes</span>
-    <span class="prop-tally-veto-text">✗ Turnout 72,642 / 477,827 (15.2%) · Quorum 25% (119,456)</span>
+    <span class="prop-tally-veto-text">✗ Turnout 72,642 / 477,228 (15.2%) · Quorum 25% (119,307)</span>
   </div>
 </div>
 
