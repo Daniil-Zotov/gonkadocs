@@ -2,7 +2,7 @@
 title: "#572 — Multi-node testing"
 source: https://github.com/gonka-ai/gonka/issues/572
 issue_number: 572
-synced_at: 2026-07-15T20:31:56Z
+synced_at: 2026-07-15T22:20:08Z
 template: issues-main.html
 ---
 
