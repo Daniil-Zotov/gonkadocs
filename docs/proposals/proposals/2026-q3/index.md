@@ -63,8 +63,8 @@ template: proposals-oview.html
     <span>Voting ends 2026-07-16</span>
   </div>
   <div class="prop-card-desc">Remove moonshotai/Kimi-K2.6 from PoC params and delete it from the governance model list.</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 148,293 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout 148,293 / 344,693 (43.0%) · Quorum 25% (86,173)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 151,714 (100.0%)</span> · <span class="prop-tally-no-text">No 8 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout 151,722 / 344,693 (44.0%) · Quorum 25% (86,173)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-voting" data-voting-end="2026-07-16T17:53:38.781599306Z">
