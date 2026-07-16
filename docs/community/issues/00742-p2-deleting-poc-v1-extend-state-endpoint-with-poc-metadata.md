@@ -2,7 +2,7 @@
 title: "#742 — [P2] Deleting PoC v1 + Extend state endpoint with PoC metadata"
 source: https://github.com/gonka-ai/gonka/issues/742
 issue_number: 742
-synced_at: 2026-07-16T11:57:22Z
+synced_at: 2026-07-16T14:29:03Z
 template: issues-main.html
 ---
 
