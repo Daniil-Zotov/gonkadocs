@@ -1,5 +1,22 @@
 [
   {
+    "id": "evt_20260716000810_fcb0d1c0",
+    "timestamp": "2026-07-16T00:08:10.481728+00:00",
+    "section": "proposals",
+    "action": "new",
+    "item": {
+      "title": "#87 – Remove Kimi K2.6 model",
+      "url": "/proposals/proposals/2026-q3/87/",
+      "file": "2026-q3/87/index.md"
+    },
+    "details": {
+      "status": "voting",
+      "content": "# #87 – Remove Kimi K2.6 model\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<div class=\"prop-badge-row\"><span class=\"prop-badge prop-voting\">Voting</span><span class=\"prop-vote-countdown prop-vote-countdown-detail\" data-deadline=\"2026-07-16T12:01:23.051983254Z\"></span></div>\n\n**Proposal ID:** `87`\n\n**Type:** Delete Governance Model, Update Params\n\n**Submit:** 2026-07-16 00:01 UTC\n\n**Voting:** 2026-07-16 00:01 UTC → 2026-07-16 12:01 UTC\n\n**Expedited:** Yes\n\n**Proposer:** [`gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le`](https://gonka.gg/address/gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le){:target=\"_blank\"}\n\n[View on gonka.gg](https://gonka.gg/network/proposals/87){:target=\"_blank\"}\n\n</div>\n\nRemove moonshotai/Kimi-K2.6 from PoC params and delete it from the governance model list.\n\n---\n\n##",
+      "funding": ""
+    },
+    "ai_description": "В сети Gonka появилось срочное предложение #87 об исключении модели Kimi K2.6 из списка доступных для инференса моделей и из параметров PoC. Сообщество уже начало 12-часовое голосование, которое завершится сегодня в 12:01 UTC. Если предложение пройдет, это напрямую повлияет на состав моделей, доступных через сеть, и обновит правила консенсуса валидаторов."
+  },
+  {
     "id": "evt_20260715140517_bd738e1e",
     "timestamp": "2026-07-15T14:05:17.135836+00:00",
     "section": "preproposals",

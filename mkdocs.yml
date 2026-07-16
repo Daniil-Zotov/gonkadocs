@@ -63,6 +63,7 @@ nav:
       - On-Chain Governance: proposals/proposals/index.md
       - 2026-Q3:
         - Overview: proposals/proposals/2026-q3/index.md
+        - "#87 – Remove Kimi K2.6 model": proposals/proposals/2026-q3/87/index.md
         - "#86 – Increase Kimi-K2.6 and GLM-5.2 weight_scale_factor by 5%": proposals/proposals/2026-q3/86/index.md
         - "#85 – Internal Go-To-Market Team for 3 Month": proposals/proposals/2026-q3/85/index.md
         - "#84 – Bringing $3M+ in New Capital to GONKA via Uniswap — Phase 1/6 ($50k USDT)": proposals/proposals/2026-q3/84/index.md

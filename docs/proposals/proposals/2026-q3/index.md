@@ -32,16 +32,16 @@ template: proposals-oview.html
 ## 2026-Q3 Summary
 
 <div class="qs-stats">
-<div class="qs-stat total"><span class="qs-num">7</span><span class="qs-desc">Total Proposals</span></div>
-<div class="qs-stat passed"><span class="qs-num">2</span><span class="qs-desc">Passed (29%)</span></div>
-<div class="qs-stat rejected"><span class="qs-num">4</span><span class="qs-desc">Rejected (57%)</span></div>
+<div class="qs-stat total"><span class="qs-num">8</span><span class="qs-desc">Total Proposals</span></div>
+<div class="qs-stat passed"><span class="qs-num">2</span><span class="qs-desc">Passed (25%)</span></div>
+<div class="qs-stat rejected"><span class="qs-num">4</span><span class="qs-desc">Rejected (50%)</span></div>
 
 </div>
 
 <div class="qs-categories">
-<div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:57%"></span></span><span class="qs-value">4</span></div>
-<div class="qs-row"><span class="qs-label">Governance Parameters</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:29%"></span></span><span class="qs-value">2</span></div>
-<div class="qs-row"><span class="qs-label">GRC / Restitution</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:14%"></span></span><span class="qs-value">1</span></div>
+<div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:50%"></span></span><span class="qs-value">4</span></div>
+<div class="qs-row"><span class="qs-label">Governance Parameters</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:38%"></span></span><span class="qs-value">3</span></div>
+<div class="qs-row"><span class="qs-label">GRC / Restitution</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:12%"></span></span><span class="qs-value">1</span></div>
 </div>
 
 <div class="qs-funding-line">80,000 GNK · $88,000 · Community Pool</div>
@@ -51,7 +51,21 @@ template: proposals-oview.html
 
 <div class="prop-quarter">
 <h2>2026-Q3</h2>
-<p>7 proposals</p>
+<p>8 proposals</p>
+<div class="prop-card" data-status="prop-voting" data-voting-end="2026-07-16T12:01:23.051983254Z">
+  <div class="prop-card-header">
+    <a href="87/" class="prop-card-title">#87 – Remove Kimi K2.6 model</a>
+    <span class="prop-vote-countdown" data-deadline="2026-07-16T12:01:23.051983254Z"></span>
+    <span class="prop-badge prop-voting">Voting</span>
+  </div>
+  <div class="prop-card-meta">
+    <span>Submitted 2026-07-16</span>
+    <span>Voting ends 2026-07-16</span>
+  </div>
+  <div class="prop-card-desc">Remove moonshotai/Kimi-K2.6 from PoC params and delete it from the governance model list.</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 0 (0.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+</div>
+
 <div class="prop-card" data-status="prop-voting" data-voting-end="2026-07-16T17:53:38.781599306Z">
   <div class="prop-card-header">
     <a href="86/" class="prop-card-title">#86 – Increase Kimi-K2.6 and GLM-5.2 weight_scale_factor by 5%</a>
