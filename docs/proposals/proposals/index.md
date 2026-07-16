@@ -68,7 +68,8 @@ template: proposals-oview.html
     <span>Voting ends 2026-07-17</span>
   </div>
   <div class="prop-card-desc">Update current chain params to register moonshotai/Kimi-K2.6 in the governance model list and remove approved_versions v1, v2 from devshard_escrow_params (to reduce RAM usage).</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 0 (0.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 2,017 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout 2,017 / 564,299 (0.4%) · Quorum 25% (141,074)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -1219,7 +1220,7 @@ template: proposals-oview.html
 
 </div>
 <div class="prop-oview-stats">
-<em>87 proposals across 5 quarters. Last updated: 2026-07-16 18:10 UTC</em>
+<em>87 proposals across 5 quarters. Last updated: 2026-07-16 19:30 UTC</em>
 </div>
 
 <script>
