@@ -63,8 +63,8 @@ template: proposals-oview.html
     <span>Voting ends 2026-07-16</span>
   </div>
   <div class="prop-card-desc">Remove moonshotai/Kimi-K2.6 from PoC params and delete it from the governance model list.</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 93,410 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout 93,410 / 346,203 (27.0%) · Quorum 25% (86,550)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 142,061 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout 142,061 / 346,203 (41.0%) · Quorum 25% (86,550)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-voting" data-voting-end="2026-07-16T17:53:38.781599306Z">
@@ -78,8 +78,8 @@ template: proposals-oview.html
     <span>Voting ends 2026-07-16</span>
   </div>
   <div class="prop-card-desc">Increase the weight_scale_factor for moonshotai/Kimi-K2.6 from 0.90 to 0.945 (+5%) and for zai-org/GLM-5.2-FP8 from 2.47 to 2.5935 (+5%). All other model and chain parameters remain unchanged.</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 164,112 (96.5%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 6,012 (3.5%)</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout 170,124 / 346,203 (49.1%) · Quorum 25% (86,550)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 212,763 (97.3%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 6,012 (2.7%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout 218,775 / 346,203 (63.2%) · Quorum 25% (86,550)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
