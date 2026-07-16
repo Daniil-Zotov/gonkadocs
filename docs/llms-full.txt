@@ -23608,7 +23608,7 @@ alexanderkuprin_
 ## Overview
 
 86Total Proposals
-54Passed (63%)
+55Passed (64%)
 29Rejected (34%)
 1Failed (1%)
 
@@ -23627,8 +23627,7 @@ Models / IBC2
 
   
     #87 – Remove Kimi K2.6 model
-    
-    Voting
+    Passed
   
   
     Submitted 2026-07-16
@@ -24593,7 +24592,7 @@ Models / IBC2
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-86 proposals across 5 quarters. Last updated: 2026-07-16 11:50 UTC
+86 proposals across 5 quarters. Last updated: 2026-07-16 12:10 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -60858,7 +60857,7 @@ Contract Details
 ## 2026-Q3 Summary
 
 8Total Proposals
-2Passed (25%)
+3Passed (38%)
 4Rejected (50%)
 
 Funding / Grants4
@@ -60872,8 +60871,7 @@ GRC / Restitution1
 
   
     #87 – Remove Kimi K2.6 model
-    
-    Voting
+    Passed
   
   
     Submitted 2026-07-16
@@ -63990,7 +63988,7 @@ Contract Details
 
 # #87 – Remove Kimi K2.6 model
 
-Voting
+Passed
 
 **Proposal ID:** `87`
 
