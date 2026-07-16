@@ -1,6 +1,6 @@
 {
   "section": "proposals",
-  "snapshot_time": "2026-07-16T12:00:49.779313+00:00",
+  "snapshot_time": "2026-07-16T12:03:32.112322+00:00",
   "files": {
     "2025-q3/1/full-proposal.md": {
       "title": "Adjust Params According to real block length",
@@ -1020,11 +1020,11 @@
     },
     "2026-q3/87/index.md": {
       "title": "#87 – Remove Kimi K2.6 model",
-      "status": "voting",
-      "content_preview": "# #87 – Remove Kimi K2.6 model\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<div class=\"prop-badge-row\"><span class=\"prop-badge prop-voting\">Voting</span><span class=\"prop-vote-countdown prop-vote-countdown-detail\" data-deadline=\"2026-07-16T12:01:23.051983254Z\"></span></div>\n\n**Proposal ID:** `87`\n\n**Type:** Delete Governance Model, Update Params\n\n**Submit:** 2026-07-16 00:01 UTC\n\n**Voting:** 2026-07-16 00:01 UTC → 2026-07-16 12:01 UTC\n\n**Expedited:** Yes\n\n**Proposer:** [`gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le`](https://gonka.gg/address/gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le){:target=\"_blank\"}\n\n[View on gonka.gg](https://gonka.gg/network/proposals/87){:target=\"_blank\"}\n\n</div>\n\nRemove moonshotai/Kimi-K2.6 from PoC params and delete it from the governance model list.\n\n---\n\n##",
+      "status": "passed",
+      "content_preview": "# #87 – Remove Kimi K2.6 model\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `87`\n\n**Type:** Delete Governance Model, Update Params\n\n**Submit:** 2026-07-16 00:01 UTC\n\n**Voting:** 2026-07-16 00:01 UTC → 2026-07-16 12:01 UTC\n\n**Expedited:** Yes\n\n**Proposer:** [`gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le`](https://gonka.gg/address/gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le){:target=\"_blank\"}\n\n[View on gonka.gg](https://gonka.gg/network/proposals/87){:target=\"_blank\"}\n\n</div>\n\nRemove moonshotai/Kimi-K2.6 from PoC params and delete it from the governance model list.\n\n---\n\n## Final Tally\n\n<div class=\"prop-tally\">\n  <div class=\"prop-tally-bar\">\n    <div class=\"prop-tally-yes\" style=\"width:100.0%\"></div>\n    <div class=\"pro",
       "funding": "",
       "quorum_met": true,
-      "checksum": "0ff55f28901bfac3bcf4d307d1efe250c952b9378f3d287977e43da3621832ff"
+      "checksum": "11098dd6c417a11f379d9fb744e2c480cea001f324823949972f8e014a5c194a"
     }
   }
 }

@@ -33,7 +33,7 @@ template: proposals-oview.html
 
 <div class="qs-stats">
 <div class="qs-stat total"><span class="qs-num">8</span><span class="qs-desc">Total Proposals</span></div>
-<div class="qs-stat passed"><span class="qs-num">2</span><span class="qs-desc">Passed (25%)</span></div>
+<div class="qs-stat passed"><span class="qs-num">3</span><span class="qs-desc">Passed (38%)</span></div>
 <div class="qs-stat rejected"><span class="qs-num">4</span><span class="qs-desc">Rejected (50%)</span></div>
 
 </div>
@@ -52,11 +52,10 @@ template: proposals-oview.html
 <div class="prop-quarter">
 <h2>2026-Q3</h2>
 <p>8 proposals</p>
-<div class="prop-card" data-status="prop-voting" data-voting-end="2026-07-16T12:01:23.051983254Z">
+<div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
     <a href="87/" class="prop-card-title">#87 – Remove Kimi K2.6 model</a>
-    <span class="prop-vote-countdown" data-deadline="2026-07-16T12:01:23.051983254Z"></span>
-    <span class="prop-badge prop-voting">Voting</span>
+    <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
     <span>Submitted 2026-07-16</span>
