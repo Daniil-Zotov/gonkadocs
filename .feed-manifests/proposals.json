@@ -1,6 +1,6 @@
 {
   "section": "proposals",
-  "snapshot_time": "2026-07-16T22:41:17.955515+00:00",
+  "snapshot_time": "2026-07-16T23:41:42.780388+00:00",
   "files": {
     "2025-q3/1/full-proposal.md": {
       "title": "Adjust Params According to real block length",
@@ -1032,7 +1032,7 @@
       "content_preview": "# #88 – Restore Kimi K2.6 and remove v1, v2\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<div class=\"prop-badge-row\"><span class=\"prop-badge prop-voting\">Voting</span><span class=\"prop-vote-countdown prop-vote-countdown-detail\" data-deadline=\"2026-07-17T06:09:28.727069592Z\"></span></div>\n\n**Proposal ID:** `88`\n\n**Type:** Register Model, Update Params\n\n**Submit:** 2026-07-16 18:09 UTC\n\n**Voting:** 2026-07-16 18:09 UTC → 2026-07-17 06:09 UTC\n\n**Expedited:** Yes\n\n**Proposer:** [`gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le`](https://gonka.gg/address/gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le){:target=\"_blank\"}\n\n[View on gonka.gg](https://gonka.gg/network/proposals/88){:target=\"_blank\"}\n\n</div>\n\nUpdate current chain params to register moonshotai/Kimi-K2.6 in the governance model list and ",
       "funding": "",
       "quorum_met": true,
-      "checksum": "d318088c81439eaabfd16cf7023a37052595f48831297c59121e5d473066f8e2"
+      "checksum": "710d356c9bae3dc991d3f320fc705adcc5b8dbd0d5e62ab8e24b55cd1a11a004"
     }
   }
 }
