@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-07-16T16:11:56.103976+00:00",
+  "snapshot_time": "2026-07-16T18:00:04.478854+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -695,8 +695,8 @@
     "zh/network-updates.md": {
       "title": "公告",
       "status": null,
-      "content_preview": "# 公告\n\n!!! note \"关于此页面\"\n\n    此页面由社区成员维护和更新。\n\n    要发布公告，例如您发起的治理投票，请在 gonka-docs 仓库中打开一个拉取请求：[https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n\n    本页面不保证内容完整。如需获取最新信息，包括治理投票的发布及其当前状态，请参阅链上数据或查看可用的浏览器和仪表板。\n\n## 2026年7月11日\n\n**v0.2.13-devshard-v3 运行时升级提案已通过治理**\n\ndevshard v3 运行时已通过链上批准并添加至 `DevshardEscrowParams.approved_versions`。\n\n该提案涵盖 [devshard v3 发布版本。](https://github.com/gonka-ai/gonka/tree/upgrade-v0.2.14/proposals/governance-artifacts/update-v0.2.13-devshard-v3)\n\n这是一个仅限 devshard 的运行时升级。它独立于全链软件升级运行，无需链二进制升级。\n\n提案获批后，v3 现在与现有的 devshard 运行时并行运行。新进程通过 `/devshard/v3` 前缀提供服务，而现有 devshard 流量可继续使用早期运行时前缀，直到经纪人将流量切换至 v3。\n\n该发布将 `devshardd` 二进制文件作为 Gonka 发布工件发布。`versiond` 会自动下载二进制文件，验证 sha256 哈希，并在现有的 `versiond` 容器内启动一个额外的 `devshardd` 进程。\n\n对于这种仅限 devshard 的运行时升级，无需重启主网",
-      "checksum": "cb7d4e366839dd44e47223c14fb7adcc45598734b9df908958171fb46eba8222"
+      "content_preview": "# 公告\n\n!!! note \"关于本页面\"\n\n    本页面由社区成员维护和更新。\n\n    要发布公告，例如您发起的治理投票，请在 gonka-docs 仓库中打开一个拉取请求：[https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n\n    本页面的内容不保证完整。如需获取最新信息，包括治理投票的启动及其当前状态，请参阅链上数据或查看可用的浏览器和仪表板。\n\n## 2026年7月15日\n\n**紧急治理投票（提案87）：移除Kimi-K2.6以快速重新引导**\n\n`moonshotai/Kimi-K2.6`在第328–329个周期失去了PoC验证的多数支持（详见事件[详情](https://gonka.ai/docs/network-updates/#july-15-2026)）。现在从活跃集合中移除Kimi并重新引导，是使其在最小停机时间内恢复的最快方式——与6月提案78的恢复路径相同。\n\n该提案将在下一个PoC之前将`moonshotai/Kimi-K2.6`从PoC参数中移除，随后立即重新添加，Kimi将在第331个周期开始标准引导流程。\n\n**主机需采取的必要操作**\n\n1. 在截止日期前对提案87进行投票——紧急窗口时间很短。\n2. 运行Kimi的主机：请保持您的Kimi设置处于暂存状态，并准备好在引导PoC时切换回您的MLNode。\n3. 在引导期间委托时：请勿委托给守护节点；请将委托分散到独立的Kimi主机上。\n\n**如何投票**\n\n如果您无法直接访问持有投票权的密钥，或希望由另一个密钥代表您投票，请参阅[指南](https://gonka.ai/FAQ/#what-should-i-do-if-i-cannot-vote-because-i-do-n",
+      "checksum": "d5d9a409a3f2aeab56cd9e2b61babb7a7d9208edeae354fe40a8ed631fdc27b1"
     },
     "zh/participant/README.md": {
       "title": "正在重定向到主机部分",
