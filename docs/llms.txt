@@ -240,6 +240,7 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [#80 – GRC Proposal #3 - Restitution](/proposals/proposals/2026-q3/80/): Auto-synced content
 - [#83 – Approve devshard v3](/proposals/proposals/2026-q3/83/): Auto-synced content
 - [#86 – Increase Kimi-K2.6 and GLM-5.2 weight_scale_factor by 5%](/proposals/proposals/2026-q3/86/): Auto-synced content
+- [#88 – Restore Kimi K2.6 and remove v1, v2](/proposals/proposals/2026-q3/88/): Auto-synced content
 - [Kimi cPoC Validation Failure, Epochs 306–309](/proposals/proposals/2026-q3/81/full-proposal/): Auto-synced content
 - [#81 – Kimi cPoC Restitution (epochs 306-309)](/proposals/proposals/2026-q3/81/): Auto-synced content
 - [Bringing $3M+ in New Capital to GONKA via Uniswap — Phase 1/6 ($50k USDT)](/proposals/proposals/2026-q3/84/full-proposal/): Auto-synced content
