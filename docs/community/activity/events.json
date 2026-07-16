@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260716045851_7e87bb53",
+    "timestamp": "2026-07-16T04:58:51.761180+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "Announcements",
+      "url": "/gonka/docs/network-updates/",
+      "file": "network-updates.md"
+    },
+    "details": {
+      "content_before": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## July 15, 2026\n\n**Kimi-K2.6 incident (epochs 328–329): what happened, recovery plan, and a change in delegation guidance**\n\nIn epoch 328, `moonshotai/Kimi-K2.6` lost its PoC validation majority. Hosts serving Kimi were knocked out of the group at the star",
+      "content_after": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## July 15, 2026\n\n**Expedited governance vote (proposal 87): remove Kimi-K2.6 for a fast re-bootstrap**\n\n`moonshotai/Kimi-K2.6` lost its PoC validation majority in epochs 328–329 (see the incident [details here](https://gonka.ai/docs/network-updates/#july-1"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260716015707_43ea76ec",
     "timestamp": "2026-07-16T01:57:07.739903+00:00",
     "section": "gonka_docs",

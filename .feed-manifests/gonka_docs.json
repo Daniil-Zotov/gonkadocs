@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-07-16T01:57:29.127431+00:00",
+  "snapshot_time": "2026-07-16T04:58:57.711613+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -293,8 +293,8 @@
     "network-updates.md": {
       "title": "Announcements",
       "status": null,
-      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## July 15, 2026\n\n**Kimi-K2.6 incident (epochs 328–329): what happened, recovery plan, and a change in delegation guidance**\n\nIn epoch 328, `moonshotai/Kimi-K2.6` lost its PoC validation majority. Hosts serving Kimi were knocked out of the group at the star",
-      "checksum": "e73e5ca9fef74e839beb1f3c11e08b24caaa60b7c0e45ed537fd6e6f3a566890"
+      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## July 15, 2026\n\n**Expedited governance vote (proposal 87): remove Kimi-K2.6 for a fast re-bootstrap**\n\n`moonshotai/Kimi-K2.6` lost its PoC validation majority in epochs 328–329 (see the incident [details here](https://gonka.ai/docs/network-updates/#july-1",
+      "checksum": "06fcb40b1eb3dec8c09f0292228f6aa76c89807ca89e8529a9cffd5a2ba14cb3"
     },
     "participant/README.md": {
       "title": "Redirecting to Host Section",
