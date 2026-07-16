@@ -1,6 +1,6 @@
 {
   "section": "proposals",
-  "snapshot_time": "2026-07-16T09:30:21.004032+00:00",
+  "snapshot_time": "2026-07-16T09:40:25.883342+00:00",
   "files": {
     "2025-q3/1/full-proposal.md": {
       "title": "Adjust Params According to real block length",
@@ -1016,7 +1016,7 @@
       "content_preview": "# #86 – Increase Kimi-K2.6 and GLM-5.2 weight_scale_factor by 5%\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<div class=\"prop-badge-row\"><span class=\"prop-badge prop-voting\">Voting</span><span class=\"prop-vote-countdown prop-vote-countdown-detail\" data-deadline=\"2026-07-16T17:53:38.781599306Z\"></span></div>\n\n**Proposal ID:** `86`\n\n**Type:** Update Params\n\n**Submit:** 2026-07-14 17:53 UTC\n\n**Voting:** 2026-07-14 17:53 UTC → 2026-07-16 17:53 UTC\n\n**Proposer:** [`gonka123pr0p0salv96xvne9qln70x3usvpyscug5f9a`](https://gonka.gg/address/gonka123pr0p0salv96xvne9qln70x3usvpyscug5f9a){:target=\"_blank\"}\n\n[View on gonka.gg](https://gonka.gg/network/proposals/86){:target=\"_blank\"}\n\n</div>\n\nIncrease the weight_scale_factor for moonshotai/Kimi-K2.6 from 0.90 to 0.945 (+5%) and for zai-org/GLM-5.2-FP",
       "funding": "",
       "quorum_met": true,
-      "checksum": "dd0fcc6b6e11cdc183683290f82fa51b1c2598bdd9e503f79ba8e0a21eea70a2"
+      "checksum": "da30c00f357b03c7d13012954d515efa47191807c6f4d26e96b474d6e3398f97"
     },
     "2026-q3/87/index.md": {
       "title": "#87 – Remove Kimi K2.6 model",
