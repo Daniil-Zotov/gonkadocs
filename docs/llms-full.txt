@@ -23635,8 +23635,8 @@ Models / IBC2
     Voting ends 2026-07-16
   
   Remove moonshotai/Kimi-K2.6 from PoC params and delete it from the governance model list.
-  Yes 93,410 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  ✓ Turnout 93,410 / 346,203 (27.0%) · Quorum 25% (86,550)
+  Yes 143,633 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  ✓ Turnout 143,633 / 345,466 (41.6%) · Quorum 25% (86,366)
 
   
     #86 – Increase Kimi-K2.6 and GLM-5.2 weight_scale_factor by 5%
@@ -23648,8 +23648,8 @@ Models / IBC2
     Voting ends 2026-07-16
   
   Increase the weight_scale_factor for moonshotai/Kimi-K2.6 from 0.90 to 0.945 (+5%) and for zai-org/GLM-5.2-FP8 from 2.47 to 2.5935 (+5%). All other model and chain parameters remain unchanged.
-  Yes 164,112 (96.5%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 6,012 (3.5%)
-  ✓ Turnout 170,124 / 346,203 (49.1%) · Quorum 25% (86,550)
+  Yes 213,966 (97.3%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 6,012 (2.7%)
+  ✓ Turnout 219,978 / 345,466 (63.7%) · Quorum 25% (86,366)
 
   
     #85 – Internal Go-To-Market Team for 3 Month
@@ -24593,7 +24593,7 @@ Models / IBC2
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-86 proposals across 5 quarters. Last updated: 2026-07-16 04:50 UTC
+86 proposals across 5 quarters. Last updated: 2026-07-16 06:20 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -60880,8 +60880,8 @@ GRC / Restitution1
     Voting ends 2026-07-16
   
   Remove moonshotai/Kimi-K2.6 from PoC params and delete it from the governance model list.
-  Yes 93,410 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  ✓ Turnout 93,410 / 346,203 (27.0%) · Quorum 25% (86,550)
+  Yes 143,633 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  ✓ Turnout 143,633 / 345,466 (41.6%) · Quorum 25% (86,366)
 
   
     #86 – Increase Kimi-K2.6 and GLM-5.2 weight_scale_factor by 5%
@@ -60893,8 +60893,8 @@ GRC / Restitution1
     Voting ends 2026-07-16
   
   Increase the weight_scale_factor for moonshotai/Kimi-K2.6 from 0.90 to 0.945 (+5%) and for zai-org/GLM-5.2-FP8 from 2.47 to 2.5935 (+5%). All other model and chain parameters remain unchanged.
-  Yes 164,112 (96.5%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 6,012 (3.5%)
-  ✓ Turnout 170,124 / 346,203 (49.1%) · Quorum 25% (86,550)
+  Yes 213,966 (97.3%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 6,012 (2.7%)
+  ✓ Turnout 219,978 / 345,466 (63.7%) · Quorum 25% (86,366)
 
   
     #85 – Internal Go-To-Market Team for 3 Month
@@ -62508,12 +62508,12 @@ Increase the weight_scale_factor for moonshotai/Kimi-K2.6 from 0.90 to 0.945 (+5
     
   
   
-    Yes 164,112 (96.5%)
+    Yes 213,966 (97.3%)
     No 0 (0.0%)
     Veto 0 (0.0%)
-    Abstain 6,012 (3.5%)
-    Total 170,124 votes
-    ✓ Turnout 170,124 / 346,203 (49.1%) · Quorum 25% (86,550)
+    Abstain 6,012 (2.7%)
+    Total 219,978 votes
+    ✓ Turnout 219,978 / 345,466 (63.7%) · Quorum 25% (86,366)
   
 
 ---
@@ -64019,12 +64019,12 @@ Remove moonshotai/Kimi-K2.6 from PoC params and delete it from the governance mo
     
   
   
-    Yes 93,410 (100.0%)
+    Yes 143,633 (100.0%)
     No 0 (0.0%)
     Veto 0 (0.0%)
     Abstain 0 (0.0%)
-    Total 93,410 votes
-    ✓ Turnout 93,410 / 346,203 (27.0%) · Quorum 25% (86,550)
+    Total 143,633 votes
+    ✓ Turnout 143,633 / 345,466 (41.6%) · Quorum 25% (86,366)
   
 
 ---

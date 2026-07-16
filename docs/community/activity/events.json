@@ -1,5 +1,37 @@
 [
   {
+    "id": "evt_20260716062813_6af53d4c",
+    "timestamp": "2026-07-16T06:28:13.892815+00:00",
+    "section": "discussions",
+    "action": "updated",
+    "item": {
+      "title": "GitHub Discussions — `gonka-ai/gonka`",
+      "url": "/community/discussion/",
+      "file": "index.md"
+    },
+    "details": {
+      "content_before": "# GitHub Discussions — `gonka-ai/gonka`\n\nСрез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **75**. ## 📂 Категории\n\n| Категория | Дискуссий |\n|---|---:|\n| [:mega: Announcements](announcements/index.md) | 1 |\n| [:speech_balloon: General](general/index.md) | 5 |\n| [:bulb: Proposals](proposals/index.md) | 45 |\n| [:pray: Q&A](q-a/index.md) | 3 |\n| [:raised_hands: Show and Tell](show-and-tell/index.md) | 21 |\n\n## 🕒 Последние обновлённые\n\n| # | Заголовок | Категория | Автор | Обновлено |\n|---:|---|---|---|---|\n| [1445](proposals/1445-the-missing-first-mile-onboarding-gonka-from-a-newcomers-per.md) | [The missing first mile: onboarding Gonka from a newcomer’s perspective](proposals/1445-the-missing-first-mile-onboarding-gonka-from-a-newcome",
+      "content_after": "# GitHub Discussions — `gonka-ai/gonka`\n\nСрез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **75**. ## 📂 Категории\n\n| Категория | Дискуссий |\n|---|---:|\n| [:mega: Announcements](announcements/index.md) | 1 |\n| [:speech_balloon: General](general/index.md) | 5 |\n| [:bulb: Proposals](proposals/index.md) | 45 |\n| [:pray: Q&A](q-a/index.md) | 3 |\n| [:raised_hands: Show and Tell](show-and-tell/index.md) | 21 |\n\n## 🕒 Последние обновлённые\n\n| # | Заголовок | Категория | Автор | Обновлено |\n|---:|---|---|---|---|\n| [1404](proposals/1404-add-a-lower-barrier-glm-52-option-and-consider-deepseek-v4-f.md) | [Add a lower-barrier GLM-5.2 option and consider DeepSeek-V4-Flash as the default model](proposals/1404-add-a-lower-barrier-glm-52-option-and-"
+    },
+    "ai_description": "В ленте GitHub Discussions обновился топ активности: теперь центральное обсуждение посвящено предложению добавить более доступную модель GLM-5.2 и рассмотреть DeepSeek-V4-Flash в качестве дефолтной. Это сигнал того, что сообщество активно работает над снижением порога входа и оптимизацией затрат на инференс."
+  },
+  {
+    "id": "evt_20260716062813_f93199fa",
+    "timestamp": "2026-07-16T06:28:13.892855+00:00",
+    "section": "discussions",
+    "action": "updated",
+    "item": {
+      "title": ":bulb: Proposals",
+      "url": "/community/discussion/proposals/",
+      "file": "proposals/index.md"
+    },
+    "details": {
+      "content_before": "# :bulb: Proposals\n\nДискуссии в категории **:bulb: Proposals**. Всего: **45**. [← ко всем категориям](../index.md)\n\n| # | Заголовок | Автор | Обновлено |\n|---:|---|---|---|\n| [1445](1445-the-missing-first-mile-onboarding-gonka-from-a-newcomers-per.md) | [The missing first mile: onboarding Gonka from a newcomer’s perspective](1445-the-missing-first-mile-onboarding-gonka-from-a-newcomers-per.md) | [@julb1992](https://github.com/julb1992) | 2026-07-13 |\n| [1404](1404-add-a-lower-barrier-glm-52-option-and-consider-deepseek-v4-f.md) | [Add a lower-barrier GLM-5.2 option and consider DeepSeek-V4-Flash as the default model](1404-add-a-lower-barrier-glm-52-option-and-consider-deepseek-v4-f.md) | [@enonog](https://github.com/enonog) | 2026-07-06 |\n| [1388](1388-external-test-lab-community-devnet.md",
+      "content_after": "# :bulb: Proposals\n\nДискуссии в категории **:bulb: Proposals**. Всего: **45**. [← ко всем категориям](../index.md)\n\n| # | Заголовок | Автор | Обновлено |\n|---:|---|---|---|\n| [1445](1445-the-missing-first-mile-onboarding-gonka-from-a-newcomers-per.md) | [The missing first mile: onboarding Gonka from a newcomer’s perspective](1445-the-missing-first-mile-onboarding-gonka-from-a-newcomers-per.md) | [@julb1992](https://github.com/julb1992) | 2026-07-13 |\n| [1404](1404-add-a-lower-barrier-glm-52-option-and-consider-deepseek-v4-f.md) | [Add a lower-barrier GLM-5.2 option and consider DeepSeek-V4-Flash as the default model](1404-add-a-lower-barrier-glm-52-option-and-consider-deepseek-v4-f.md) | [@enonog](https://github.com/enonog) | 2026-07-16 |\n| [1388](1388-external-test-lab-community-devnet.md"
+    },
+    "ai_description": "Обновился раздел предложений сообщества. Дискуссия о добавлении более доступной модели GLM-5.2 и замене модели по умолчанию на DeepSeek-V4-Flash получила новую активность — присоединяйтесь к обсуждению и делитесь мнением."
+  },
+  {
     "id": "evt_20260716045851_7e87bb53",
     "timestamp": "2026-07-16T04:58:51.761180+00:00",
     "section": "gonka_docs",

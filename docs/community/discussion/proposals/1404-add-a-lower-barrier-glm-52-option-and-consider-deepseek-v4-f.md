@@ -3,14 +3,14 @@ title: "#1404 — Add a lower-barrier GLM-5.2 option and consider DeepSeek-V4-Fl
 source: https://github.com/gonka-ai/gonka/discussions/1404
 discussion_number: 1404
 category: proposals
-synced_at: 2026-07-16T03:30:16Z
+synced_at: 2026-07-16T06:27:50Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1404](https://github.com/gonka-ai/gonka/discussions/1404) every hour. 
 
 # Add a lower-barrier GLM-5.2 option and consider DeepSeek-V4-Flash as the default model
 
-**Автор:** [@enonog](https://github.com/enonog) · **Категория:** :bulb: Proposals · **Создано:** 2026-07-05 23:32 UTC · **Обновлено:** 2026-07-06 11:35 UTC
+**Автор:** [@enonog](https://github.com/enonog) · **Категория:** :bulb: Proposals · **Создано:** 2026-07-05 23:32 UTC · **Обновлено:** 2026-07-16 04:40 UTC
 
 ---
 
@@ -99,7 +99,7 @@ This would help the network improve both sides of the market:
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Комментарии (2)
 
 ### Комментарий 1 — [@enonog](https://github.com/enonog)
 
@@ -112,3 +112,10 @@ This model looks especially interesting because it is not just smaller than the 
 In some real workloads, quantized models are not necessarily worse than the official FP8 version. Depending on the quantization method and serving stack, they can sometimes preserve quality very well, and in certain scenarios such as long-context reasoning, coding, instruction following, and agentic workloads, the practical user experience may even be better because of higher throughput and lower latency.
 
 The only unclear point is vLLM compatibility. The PhalaCloud model card mainly documents SGLang usage, so it would need to be tested inside Gonka’s current inference stack. However, since SGLang and vLLM share many important production-serving capabilities, this model still seems worth evaluating.
+
+### Комментарий 2 — [@enonog](https://github.com/enonog)
+
+*2026-07-16 04:40 UTC*
+
+<img width="1703" height="775" alt="image" src="https://github.com/user-attachments/assets/757ff3b5-ed8b-4b87-8855-d586a2bd4b2c" />
+
