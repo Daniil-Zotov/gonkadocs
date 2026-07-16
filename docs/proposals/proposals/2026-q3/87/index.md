@@ -48,7 +48,7 @@ Remove moonshotai/Kimi-K2.6 from PoC params and delete it from the governance mo
     <span class="prop-tally-veto-text">Veto 0 (0.0%)</span>
     <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span>
     <span class="prop-tally-total-text">Total 148,293 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout 148,293 / 345,292 (42.9%) · Quorum 25% (86,323)</span>
+    <span class="prop-tally-yes-text">✓ Turnout 148,293 / 344,693 (43.0%) · Quorum 25% (86,173)</span>
   </div>
 </div>
 
