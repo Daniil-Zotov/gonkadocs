@@ -33,7 +33,7 @@ template: proposals-oview.html
 
 <div class="qs-stats">
 <div class="qs-stat total"><span class="qs-num">86</span><span class="qs-desc">Total Proposals</span></div>
-<div class="qs-stat passed"><span class="qs-num">55</span><span class="qs-desc">Passed (64%)</span></div>
+<div class="qs-stat passed"><span class="qs-num">56</span><span class="qs-desc">Passed (65%)</span></div>
 <div class="qs-stat rejected"><span class="qs-num">29</span><span class="qs-desc">Rejected (34%)</span></div>
 <div class="qs-stat failed"><span class="qs-num">1</span><span class="qs-desc">Failed (1%)</span></div>
 </div>
@@ -71,11 +71,10 @@ template: proposals-oview.html
   <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout 151,722 / 344,693 (44.0%) · Quorum 25% (86,173)</span></div>
 </div>
 
-<div class="prop-card" data-status="prop-voting" data-voting-end="2026-07-16T17:53:38.781599306Z">
+<div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
     <a href="2026-q3/86/" class="prop-card-title">#86 – Increase Kimi-K2.6 and GLM-5.2 weight_scale_factor by 5%</a>
-    <span class="prop-vote-countdown" data-deadline="2026-07-16T17:53:38.781599306Z"></span>
-    <span class="prop-badge prop-voting">Voting</span>
+    <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
     <span>Submitted 2026-07-14</span>
@@ -1206,7 +1205,7 @@ template: proposals-oview.html
 
 </div>
 <div class="prop-oview-stats">
-<em>86 proposals across 5 quarters. Last updated: 2026-07-16 17:50 UTC</em>
+<em>86 proposals across 5 quarters. Last updated: 2026-07-16 18:00 UTC</em>
 </div>
 
 <script>
