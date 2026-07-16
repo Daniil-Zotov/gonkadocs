@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-07-16T20:16:14.767850+00:00",
+  "snapshot_time": "2026-07-16T21:30:50.382712+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "Description",
@@ -1836,7 +1836,7 @@
       "title": "GitHub Issues — `gonka-ai/gonka`",
       "status": null,
       "content_preview": "# GitHub Issues — `gonka-ai/gonka`\n\nAll issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).\nTotal: **305** (🟢 open: **67**, 🔴 closed: **238**).\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"01408-model-lineup-improvement-add-an-accessible-glm-52-candidate-/\">Model lineup improvement: add an accessible GLM-5.2 candidate and reconsider MiniMax-M2.7 as default</a>\n      <span class=\"issues-number\">#1408</span>\n    </div>\n    <p class=\"issues-desc\">## Model line",
-      "checksum": "8bb5d0f5df877a29ec43ba1c736c40d1fd372aa1aef81377572070fd99c53db7"
+      "checksum": "07f50541ebc6c64bd57300fa08cbc0a4105a0b81bb2a69e7257e5897674412ff"
     },
     "labels/bug/index.md": {
       "title": "Issues: bug",
@@ -1854,7 +1854,7 @@
       "title": "Issues: enhancement",
       "status": null,
       "content_preview": "# Issues: enhancement\n\nIssues with label **enhancement**. Total: **13**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01408-model-lineup-improvement-add-an-accessible-glm-52-candidate-/\">Model lineup improvement: add an accessible GLM-5.2 candidate and reconsider MiniMax-M2.7 as default</a>\n      <span class=\"issues-number\">#1408</span>\n    </div>\n    \n    <div class=\"issues-labels\"><span class=\"issues-label\" style=\"background-color: #a2ee",
-      "checksum": "9842005f3335671666bed77906e76e0a388b1570b4fa1e2f50dd58093e7ffdf0"
+      "checksum": "a99773a53aa35d4054554265c76672cabf312d62cf75b561c9a2c157c1fb976a"
     },
     "labels/help-wanted/index.md": {
       "title": "Issues: help wanted",
@@ -1866,7 +1866,7 @@
       "title": "Issues: no-label",
       "status": null,
       "content_preview": "# Issues: no-label\n\nIssues with label **no-label**. Total: **230**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01450-dynamic-pricing-price-pinned-at-min-by-integer-truncation-ca/\">Dynamic pricing: price pinned at min by integer truncation; capacity proxy miscalibrated per model</a>\n      <span class=\"issues-number\">#1450</span>\n    </div>\n    \n    <div class=\"issues-labels\"></div>\n    <div class=\"issues-meta\">\n      <span class=\"issues-m",
-      "checksum": "5a28cccfeeaece63ad586cd4969115372c809f7ed6c171526c98b81afa12776a"
+      "checksum": "e8b5ac098273f6320e5b2c597906840d65564543396eea8d845d9e9d3c60015b"
     },
     "labels/priority-high/index.md": {
       "title": "Issues: Priority: High",
@@ -1878,7 +1878,7 @@
       "title": "Issues: Priority: Low",
       "status": null,
       "content_preview": "# Issues: Priority: Low\n\nIssues with label **Priority: Low**. Total: **13**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01019-subnetctl-inference-error-handling/\">subnetctl: inference error handling</a>\n      <span class=\"issues-number\">#1019</span>\n    </div>\n    \n    <div class=\"issues-labels\"><span class=\"issues-label\" style=\"background-color: #95b500; color: #24292f; border-color: #95b500;\">Priority: Low",
-      "checksum": "224d2b02240e0a4f469e4eca103f8bd907db4423678cfc67460f3d902e03da53"
+      "checksum": "57bc18400ac9af304809e5e14b9d9fc890b4ae97ffe9a6e909067f8e722ceed7"
     },
     "labels/priority-medium/index.md": {
       "title": "Issues: Priority: Medium",
