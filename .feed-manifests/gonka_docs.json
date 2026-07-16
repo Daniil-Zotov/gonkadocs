@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-07-15T23:53:04.741648+00:00",
+  "snapshot_time": "2026-07-16T01:57:29.127431+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -227,8 +227,8 @@
     "host/multi_model_poc.md": {
       "title": "Multi-Model PoC — Host Operations Guide",
       "status": null,
-      "content_preview": "# Multi-Model PoC — Host Operations Guide\n\nMulti-model Proof-of-Compute (PoC) arrived in v0.2.12 and expanded again in v0.2.13.\n\n## What changed in v0.2.12 and v0.2.13\n\nBefore v0.2.12, the network operated a single enforced model: `Qwen/Qwen3-235B-A22B-Instruct-2507-FP8`. v0.2.12 added `moonshotai/Kimi-K2.6` as the second governance-approved model and introduced per-model participation, delegation, and penalty timing. v0.2.13 recalibrated model coefficients and added `MiniMaxAI/MiniMax-M2.7` as the third governance-approved model.\n\nAs of epoch `308`, `Qwen/Qwen3-235B-A22B-Instruct-2507-FP8` has been retired by governance (proposal 78) and `MiniMaxAI/MiniMax-M2.7` is the base model and active PoC model. `poc_params.models` on mainnet contains:\n\n| `model_id` | Current mainnet status | `weigh",
-      "checksum": "d5362098a58d4e0b93a1469c494a9bc9de53ec0ffd24fcd14c2088e562b2caaa"
+      "content_preview": "# Multi-Model PoC — Host Operations Guide\n\nMulti-model Proof-of-Compute (PoC) arrived in v0.2.12 and expanded again in v0.2.13.\n\n!!! warning \"Delegation guidance update (July 2026)\"\n\n    After the epoch 328–329 incident, two rules apply when choosing a delegate:\n\n    - **Do not delegate to guardian nodes.** Guardians are the fallback mechanism\n      for PoC validation. Concentrating delegations on them ties the primary\n      voting mechanism and the fallback to the same hardware, so both fail\n      together. Earlier guidance that suggested a guardian node as a delegation\n      target is withdrawn. A protocol-level restriction is planned for v0.2.14.\n    - **Avoid concentrating delegations on any single host.** A delegation only\n      counts if the delegate submits a PoC store commit that e",
+      "checksum": "7996ad411c8a1d7a967d7fdd54e25a460b60c35eee5eb3239f42386ab5406933"
     },
     "host/multiple-nodes.md": {
       "title": "Multiple nodes",
@@ -293,8 +293,8 @@
     "network-updates.md": {
       "title": "Announcements",
       "status": null,
-      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## July 11, 2026\n\n**The v0.2.13-devshard-v3 runtime upgrade proposal has passed governance**\n\nThe devshard v3 runtime has been approved on-chain and added to `DevshardEscrowParams.approved_versions`.\n\nThis proposal covered [the devshard v3 release.](https:/",
-      "checksum": "5e1c98f3d79b6003f2f93925df68c5258db295df681579c6e03e2401036fde5d"
+      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## July 15, 2026\n\n**Kimi-K2.6 incident (epochs 328–329): what happened, recovery plan, and a change in delegation guidance**\n\nIn epoch 328, `moonshotai/Kimi-K2.6` lost its PoC validation majority. Hosts serving Kimi were knocked out of the group at the star",
+      "checksum": "e73e5ca9fef74e839beb1f3c11e08b24caaa60b7c0e45ed537fd6e6f3a566890"
     },
     "participant/README.md": {
       "title": "Redirecting to Host Section",
@@ -696,7 +696,7 @@
       "title": "公告",
       "status": null,
       "content_preview": "# 公告\n\n!!! note \"关于此页面\"\n\n    此页面由社区成员维护和更新。\n\n    要发布公告，例如您发起的治理投票，请在 gonka-docs 仓库中打开一个拉取请求：[https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n\n    本页面不保证内容完整。如需获取最新信息，包括治理投票的发布及其当前状态，请参阅链上数据或查看可用的浏览器和仪表板。\n\n## 2026年7月11日\n\n**v0.2.13-devshard-v3 运行时升级提案已通过治理**\n\ndevshard v3 运行时已通过链上批准并添加至 `DevshardEscrowParams.approved_versions`。\n\n该提案涵盖 [devshard v3 发布版本。](https://github.com/gonka-ai/gonka/tree/upgrade-v0.2.14/proposals/governance-artifacts/update-v0.2.13-devshard-v3)\n\n这是一个仅限 devshard 的运行时升级。它独立于全链软件升级运行，无需链二进制升级。\n\n提案获批后，v3 现在与现有的 devshard 运行时并行运行。新进程通过 `/devshard/v3` 前缀提供服务，而现有 devshard 流量可继续使用早期运行时前缀，直到经纪人将流量切换至 v3。\n\n该发布将 `devshardd` 二进制文件作为 Gonka 发布工件发布。`versiond` 会自动下载二进制文件，验证 sha256 哈希，并在现有的 `versiond` 容器内启动一个额外的 `devshardd` 进程。\n\n对于这种仅限 devshard 的运行时升级，无需重启主网",
-      "checksum": "c81c15e8d702188dc276519aca57fe14384083291df97cef16b09916afd7bcd5"
+      "checksum": "cb7d4e366839dd44e47223c14fb7adcc45598734b9df908958171fb46eba8222"
     },
     "zh/participant/README.md": {
       "title": "正在重定向到主机部分",
