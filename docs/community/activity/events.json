@@ -1,5 +1,37 @@
 [
   {
+    "id": "evt_20260716204950_c2cbc1a3",
+    "timestamp": "2026-07-16T20:49:50.474957+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "Announcements",
+      "url": "/gonka/docs/network-updates/",
+      "file": "network-updates.md"
+    },
+    "details": {
+      "content_before": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## July 15, 2026\n\n**Expedited governance vote (proposal 87): remove Kimi-K2.6 for a fast re-bootstrap**\n\n`moonshotai/Kimi-K2.6` lost its PoC validation majority in epochs 328–329 (see the incident [details here](https://gonka.ai/docs/network-updates/#july-1",
+      "content_after": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## July 16, 2026\n\n**Expedited governance vote (proposal 88): re-register Kimi-K2.6 and remove devshard v1/v2 runtimes**\n\nThis is the second step of the Kimi recovery plan announced on July 15. Proposal 87 removed `moonshotai/Kimi-K2.6` from the active set; "
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260716204950_73d261ae",
+    "timestamp": "2026-07-16T20:49:50.475018+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "公告",
+      "url": "/gonka/docs/zh/network-updates/",
+      "file": "zh/network-updates.md"
+    },
+    "details": {
+      "content_before": "# 公告\n\n!!! note \"关于本页面\"\n\n    本页面由社区成员维护和更新。\n\n    要发布公告，例如您发起的治理投票，请在 gonka-docs 仓库中打开一个拉取请求：[https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n\n    本页面的内容不保证完整。如需获取最新信息，包括治理投票的启动及其当前状态，请参阅链上数据或查看可用的浏览器和仪表板。\n\n## 2026年7月15日\n\n**紧急治理投票（提案87）：移除Kimi-K2.6以快速重新引导**\n\n`moonshotai/Kimi-K2.6`在第328–329个周期失去了PoC验证的多数支持（详见事件[详情](https://gonka.ai/docs/network-updates/#july-15-2026)）。现在从活跃集合中移除Kimi并重新引导，是使其在最小停机时间内恢复的最快方式——与6月提案78的恢复路径相同。\n\n该提案将在下一个PoC之前将`moonshotai/Kimi-K2.6`从PoC参数中移除，随后立即重新添加，Kimi将在第331个周期开始标准引导流程。\n\n**主机需采取的必要操作**\n\n1. 在截止日期前对提案87进行投票——紧急窗口时间很短。\n2. 运行Kimi的主机：请保持您的Kimi设置处于暂存状态，并准备好在引导PoC时切换回您的MLNode。\n3. 在引导期间委托时：请勿委托给守护节点；请将委托分散到独立的Kimi主机上。\n\n**如何投票**\n\n如果您无法直接访问持有投票权的密钥，或希望由另一个密钥代表您投票，请参阅[指南](https://gonka.ai/FAQ/#what-should-i-do-if-i-cannot-vote-because-i-do-n",
+      "content_after": "# 公告\n\n!!! note \"关于本页面\"\n\n    本页面由社区成员维护和更新。\n\n    要发布公告，例如您发起的治理投票，请在 gonka-docs 仓库中打开一个拉取请求：[https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n\n    本页面不保证内容完整。如需获取最新信息，包括治理投票的发布及其当前状态，请参阅链上数据或查看可用的浏览器和仪表板。\n\n## 2026年7月16日\n\n**紧急治理投票（提案88）：重新注册Kimi-K2.6并移除devshard v1/v2运行时**\n\n这是7月15日宣布的Kimi恢复计划的第二步。提案87已将`moonshotai/Kimi-K2.6`从未激活集合中移除；提案88将其重新注册到治理模型列表中，使其从第331个纪元开始进入标准引导流程。\n\n同一提案还从`devshard_escrow_params`中移除了`approved_versions`的v1和v2版本。一旦通过，`versiond`将停止v1和v2的`devshardd`进程，仅保留v3运行时（`/devshard/v3`）继续运行。此举消除了旧运行时容器长期存在的RAM增长问题——这也是7月15日事件中网络节点OOM的根本原因。\n\n**这标志着v3切换最终完成。** 仍通过v1/v2前缀或经典`/v1/devshard`路径路由的网关，在提案通过后将停止提供推理服务。\n\n**主机所需操作**\n\n1. 在截止日期前对提案88进行投票——紧急窗口时间很短。\n2. 提供Kimi服务的主机：在投票结束后、区块**5,105,276**（7月17日，约12:05 UTC）之前声明对`moonshotai/Kimi-K2.6`的意向，然后在第331个纪元PoC开始"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260716201614_f1c17be9",
     "timestamp": "2026-07-16T20:16:14.108687+00:00",
     "section": "issues",
