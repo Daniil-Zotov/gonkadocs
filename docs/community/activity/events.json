@@ -1,5 +1,53 @@
 [
   {
+    "id": "evt_20260716063810_04ea6a1e",
+    "timestamp": "2026-07-16T06:38:10.829166+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1408 — Model lineup improvement: add an accessible GLM-5.2 candidate and reconsider MiniMax-M2.7 as default",
+      "url": "/community/issues/01408-model-lineup-improvement-add-an-accessible-glm-52-candidate-/",
+      "file": "01408-model-lineup-improvement-add-an-accessible-glm-52-candidate-.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Model lineup improvement: add an accessible GLM-5.2 candidate and reconsider MiniMax-M2.7 as default\n    <span class=\"issues-number\">#1408</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\">[@enonog](https://github.com/enonog) opened 2026-07-06 12:31 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Model lineup improvement: add an accessible GLM-5.2 candidate and reconsider MiniMax-M2.7 as default\n    <span class=\"issues-number\">#1408</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\">[@enonog](https://github.com/enonog) opened 2026-07-06 12:31 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin"
+    },
+    "ai_description": "В issue #1408 появилось новое обсуждение по обновлению модельной линейки сети. Сообщество активно дискутирует добавление доступного GLM-5.2 и вопрос о том, стоит ли оставлять MiniMax-M2.7 в качестве модели по умолчанию. Присоединяйтесь к разговору, ваше мнение поможет сформировать финальное решение."
+  },
+  {
+    "id": "evt_20260716063810_b9749151",
+    "timestamp": "2026-07-16T06:38:10.829212+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "GitHub Issues — `gonka-ai/gonka`",
+      "url": "/community/issues/",
+      "file": "index.md"
+    },
+    "details": {
+      "content_before": "# GitHub Issues — `gonka-ai/gonka`\n\nAll issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).\nTotal: **305** (🟢 open: **67**, 🔴 closed: **238**).\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"01199-reproducible-sampling-for-inference-validation/\">Reproducible sampling for inference validation</a>\n      <span class=\"issues-number\">#1199</span>\n    </div>\n    <p class=\"issues-desc\">Review the existing reproducible / deterministic sampling work for inference vali",
+      "content_after": "# GitHub Issues — `gonka-ai/gonka`\n\nAll issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).\nTotal: **305** (🟢 open: **67**, 🔴 closed: **238**).\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"01408-model-lineup-improvement-add-an-accessible-glm-52-candidate-/\">Model lineup improvement: add an accessible GLM-5.2 candidate and reconsider MiniMax-M2.7 as default</a>\n      <span class=\"issues-number\">#1408</span>\n    </div>\n    <p class=\"issues-desc\">## Model line"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260716063810_aa437a6b",
+    "timestamp": "2026-07-16T06:38:10.829231+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "Issues: enhancement",
+      "url": "/community/issues/labels/enhancement/",
+      "file": "labels/enhancement/index.md"
+    },
+    "details": {
+      "content_before": "# Issues: enhancement\n\nIssues with label **enhancement**. Total: **13**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01439-external-visibility/\">External Visibility</a>\n      <span class=\"issues-number\">#1439</span>\n    </div>\n    \n    <div class=\"issues-labels\"><span class=\"issues-label\" style=\"background-color: #a2eeef; color: #24292f; border-color: #a2eeef;\">enhancement</span></div>\n    <div class=\"issues-",
+      "content_after": "# Issues: enhancement\n\nIssues with label **enhancement**. Total: **13**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01408-model-lineup-improvement-add-an-accessible-glm-52-candidate-/\">Model lineup improvement: add an accessible GLM-5.2 candidate and reconsider MiniMax-M2.7 as default</a>\n      <span class=\"issues-number\">#1408</span>\n    </div>\n    \n    <div class=\"issues-labels\"><span class=\"issues-label\" style=\"background-color: #a2ee"
+    },
+    "ai_description": "В разделе enhancement закрыли задачу по внешней видимости сети и открыли новую: теперь обсуждаем расширение линейки моделей — добавление доступного GLM-5.2 и пересмотр MiniMax-M2.7 как модели по умолчанию. Это поможет сделать инференс гибче и удобнее для всех участников сообщества."
+  },
+  {
     "id": "evt_20260716062813_6af53d4c",
     "timestamp": "2026-07-16T06:28:13.892815+00:00",
     "section": "discussions",

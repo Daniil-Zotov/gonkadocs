@@ -2,7 +2,7 @@
 title: "#1408 — Model lineup improvement: add an accessible GLM-5.2 candidate and reconsider MiniMax-M2.7 as default"
 source: https://github.com/gonka-ai/gonka/issues/1408
 issue_number: 1408
-synced_at: 2026-07-16T03:43:10Z
+synced_at: 2026-07-16T06:35:30Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item">[@enonog](https://github.com/enonog) opened 2026-07-06 12:31 UTC</span>
-    <span class="issues-meta-item">2 comments</span>
-    <span class="issues-meta-item">Updated 2026-07-06 14:43 UTC</span>
+    <span class="issues-meta-item">3 comments</span>
+    <span class="issues-meta-item">Updated 2026-07-16 04:29 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span></div>
 </div>
@@ -156,7 +156,7 @@ Please consider:
 
 ---
 
-## 💬 Comments (2)
+## 💬 Comments (3)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -192,6 +192,15 @@ Please consider:
 <li>make the network more attractive to developers who want GLM-5.2 inference</li>
 </ul>
 <p>This does not need to be permanent. It could be applied only during a bootstrap period and then adjusted based on actual inference demand, host participation, PoC stability, and network utilization.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span>[@enonog](https://github.com/enonog)</span>
+    <span class="issues-meta-item">commented 2026-07-16 04:29 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p><img width="1705" height="794" alt="Image" src="https://github.com/user-attachments/assets/0b429965-059a-4e53-84d2-a71248f8b433" /></p>
   </div>
 </div>
 
