@@ -40,15 +40,17 @@ The Gonka network maintains three key addresses that collectively manage communi
 ## Current Balances
 
 <small>Last updated: <!-- UPDATE_TIMESTAMP -->
-2026-07-17 14:10 UTC
+2026-07-17 14:17 UTC
 <!-- /UPDATE_TIMESTAMP --></small>
 
 <!-- BALANCES_START -->
-| Community Pool | 102.7M GNK |
-| Community Pool | $10,000.00 |
-| Community Sale | 17.5M GNK |
-| Community Sale | $814,325.00 |
-| Gov Module | 2.2M GNK |
+| Address | Asset | Balance |
+| :------ | :---- | :------ |
+| Community Pool | GNK | 102.7M GNK |
+| Community Pool | USDT | $10,000.00 |
+| Community Sale | GNK | 17.5M GNK |
+| Community Sale | USDT | $814,325.00 |
+| Gov Module | GNK | 2.2M GNK |
 <!-- BALANCES_END -->
 
 ### Inflow Estimate
@@ -112,6 +114,8 @@ All `MsgCommunityPoolSpend` transactions across all governance proposals. Data s
 | 33 | [#84](https://gonkadocs.com/proposals/proposals/2026-q3/84/) | 2026-07-11 | `gonka1njlf…mjplat` | 20,000.0 | — | Rejected |
 | 34 | [#85](https://gonkadocs.com/proposals/proposals/2026-q3/85/) | 2026-07-12 | `gonka1stfu…28h3ja` | 600,000.0 | — | Rejected |
 
+| Metric | Value |
+| :----- | :---- |
 | Proposals with `MsgCommunityPoolSpend` | 21 (34 individual messages) |
 | Passed proposals | 9 |
 | Rejected proposals | 12 |

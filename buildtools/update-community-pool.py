@@ -200,16 +200,19 @@ def fetch_spend_history():
 # ── Generate table rows ────────────────────────────────────────
 
 def generate_balances_table(gnk_pool, usdt_pool, sale_balances, gov_balances):
-    rows = []
+    rows = [
+        "| Address | Asset | Balance |",
+        "| :------ | :---- | :------ |",
+    ]
     gnk_sale = sale_balances.get("ngonka", "0")
     usdt_sale = sale_balances.get(USDT_IBC_DENOM, "0")
     gnk_gov = gov_balances.get("ngonka", "0")
 
-    rows.append(f"| Community Pool | {format_balance(gnk_pool, 'ngonka')} |")
-    rows.append(f"| Community Pool | {format_balance(usdt_pool, USDT_IBC_DENOM)} |")
-    rows.append(f"| Community Sale | {format_balance(gnk_sale, 'ngonka')} |")
-    rows.append(f"| Community Sale | {format_balance(usdt_sale, USDT_IBC_DENOM)} |")
-    rows.append(f"| Gov Module | {format_balance(gnk_gov, 'ngonka')} |")
+    rows.append(f"| Community Pool | GNK | {format_balance(gnk_pool, 'ngonka')} |")
+    rows.append(f"| Community Pool | USDT | {format_balance(usdt_pool, USDT_IBC_DENOM)} |")
+    rows.append(f"| Community Sale | GNK | {format_balance(gnk_sale, 'ngonka')} |")
+    rows.append(f"| Community Sale | USDT | {format_balance(usdt_sale, USDT_IBC_DENOM)} |")
+    rows.append(f"| Gov Module | GNK | {format_balance(gnk_gov, 'ngonka')} |")
 
     return "\n".join(rows) + "\n"
 
@@ -263,7 +266,9 @@ def generate_summary(spends):
     if recent and recent["usdt"] > 0:
         recent_label += f" + ${recent['usdt']:,.0f} USDT"
 
-    return f"""| Proposals with `MsgCommunityPoolSpend` | {len(set(s['pid'] for s in spends))} ({len(spends)} individual messages) |
+    return f"""| Metric | Value |
+| :----- | :---- |
+| Proposals with `MsgCommunityPoolSpend` | {len(set(s['pid'] for s in spends))} ({len(spends)} individual messages) |
 | Passed proposals | {passed_props} |
 | Rejected proposals | {rejected_props} |
 | Total GNK passed | {passed_gnk:,.0f} GNK |
