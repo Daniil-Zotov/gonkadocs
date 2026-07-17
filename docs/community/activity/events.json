@@ -13,7 +13,7 @@
       "status": "active",
       "content": "# Should Gonka make fallbacks to other services like OpenRouter?\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Viktor\n**Created:** 2026-07-17 08:36 UTC\n**Closes:** 2026-07-24 08:19 UTC\n**Language:** EN\n**Votes:** 0\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nНужно ли Gonka делать собственные fallbacks (на OpenRouter) на случай, когда сеть или отдельные брокеры отваливаются.\n\nРешили: польза от фаллбеков не окупает рисков\n\n---\n\n## Full Proposal\n\nКонтекст\n\nОбсуждали план — собирать много лендингов «своих брокеров» под целевые аудитории (нашими силами и силами существующих брокеров) и распределять трафик между брокерами, подходящими под конкретную ЦА, а также под обёртками технологически стабильных брокеров.\n\nВ рамках этого рассматривался вариа"
     },
-    "ai_description": null
+    "ai_description": "Новая pre-proposal от Viktor: сообщество обсуждает, стоит ли Gonka добавить fallback-провайдеров вроде OpenRouter для повышения отказоустойчивости инференса. Голосование открыто до 24 июля."
   },
   {
     "id": "evt_20260717090433_1d52c17f",
@@ -29,7 +29,7 @@
       "content_before": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## July 16, 2026\n\n**Expedited governance vote (proposal 88): re-register Kimi-K2.6 and remove devshard v1/v2 runtimes**\n\nThis is the second step of the Kimi recovery plan announced on July 15. Proposal 87 removed `moonshotai/Kimi-K2.6` from the active set; ",
       "content_after": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## July 16, 2026\n\n**Proposal 88 has passed: Kimi-K2.6 re-registered, devshard v1/v2 removed**\n\nThe expedited proposal 88 was approved on-chain.\n\n**Kimi-K2.6 bootstrap (epoch 331)**\n\n`moonshotai/Kimi-K2.6` is back in the governance model list and enters the "
     },
-    "ai_description": null
+    "ai_description": "Обновлена страница Announcements в протокольной документации — добавлена информация о последних событиях и голосованиях в сети."
   },
   {
     "id": "evt_20260717063856_707eccb1",
@@ -48,7 +48,7 @@
       "status_after": "passed",
       "funding": ""
     },
-    "ai_description": null
+    "ai_description": "Предложение #88 по восстановлению Kimi K2.6 и удалению v1/v2 успешно прошло голосование и перешло в статус Passed. Сообщество поддержало обновление линейки моделей."
   },
   {
     "id": "evt_20260717041932_bae05120",
@@ -64,7 +64,7 @@
       "content_before": "# External Test Lab & Community DevNet\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Sergii Paranko\n**Created:** 2026-07-04 12:00 UTC\n**Closes:** 2026-07-14 11:44 UTC\n**Language:** EN\n**Votes:** 4\n**Avg. Bid:** 168.7K GNK\n\n</div>\n\n4-month pilot proposal for community-owned testing infrastructure and QA capacity.\n\n---\n\n## Full Proposal\n\nExecutive Summary\n\nThis proposal requests funding for a 4-month pilot of External Test Lab & Community DevNet: a community-owned testing function for Gonka protocol upgrades, DevShards, inference flows, host/broker operations, and geographically distributed network behavior before governance decisions and production rollout.\n\n| **Item**              | **Proposal**                                 ",
       "content_after": "# External Test Lab & Community DevNet\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Sergii Paranko\n**Created:** 2026-07-04 12:00 UTC\n**Closes:** 2026-07-14 11:44 UTC\n**Language:** EN\n**Votes:** 4\n**Avg. Bid:** 170.5K GNK\n\n</div>\n\n4-month pilot proposal for community-owned testing infrastructure and QA capacity.\n\n---\n\n## Full Proposal\n\nExecutive Summary\n\nThis proposal requests funding for a 4-month pilot of External Test Lab & Community DevNet: a community-owned testing function for Gonka protocol upgrades, DevShards, inference flows, host/broker operations, and geographically distributed network behavior before governance decisions and production rollout.\n\n| **Item**              | **Proposal**                                 "
     },
-    "ai_description": null
+    "ai_description": "Препропозал External Test Lab & Community DevNet обновлён — статус остаётся Expired. Сообщество ожидает пересмотренной версии с учётом предыдущих обсуждений."
   },
   {
     "id": "evt_20260717041932_4a1d6f3d",
@@ -80,7 +80,7 @@
       "content_before": "# Go-To-Market Team for 3 Month to Set Up the Basis\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Dem \\| Démíngān\n**Created:** 2026-07-03 15:58 UTC\n**Closes:** 2026-07-10 15:58 UTC\n**Language:** EN\n**Votes:** 1\n**Avg. Bid:** 6.4K GNK\n\n</div>\n\nThis proposal describes ecosystem we should do for the Gonka, including basics, go-to-market actions, the team and the budgets for the next 3 months.\n\n---\n\n## Full Proposal\n\nInternal Go-To-Market Team for Gonka\n\n[Read full proposal](https://app.integrity.sh/p/SuMCnGQBhz-0asAYBUz1U)\n\n## Summary\n\nThis proposal describes a 3-month internal go-to-market team for Gonka. The goal is to set up the core GTM foundation: acquisition funnels, analytics, audience research, CRM processes, and coordinat",
       "content_after": "# Go-To-Market Team for 3 Month to Set Up the Basis\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Dem \\| Démíngān\n**Created:** 2026-07-03 15:58 UTC\n**Closes:** 2026-07-10 15:58 UTC\n**Language:** EN\n**Votes:** 1\n**Avg. Bid:** 22.1K GNK\n\n</div>\n\nThis proposal describes ecosystem we should do for the Gonka, including basics, go-to-market actions, the team and the budgets for the next 3 months.\n\n---\n\n## Full Proposal\n\nInternal Go-To-Market Team for Gonka\n\n[Read full proposal](https://app.integrity.sh/p/SuMCnGQBhz-0asAYBUz1U)\n\n## Summary\n\nThis proposal describes a 3-month internal go-to-market team for Gonka. The goal is to set up the core GTM foundation: acquisition funnels, analytics, audience research, CRM processes, and coordina"
     },
-    "ai_description": null
+    "ai_description": "Обновлён препропозал Go-To-Market Team (статус Expired). Продолжается обсуждение стратегии выхода на рынок."
   },
   {
     "id": "evt_20260717041932_00f379bf",
@@ -96,7 +96,7 @@
       "content_before": "# Привлечение $3M+ нового капитала на Uniswap\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Andrey Orlov\n**Created:** 2026-07-03 15:10 UTC\n**Closes:** 2026-08-02 15:10 UTC\n**Language:** RU\n**Votes:** 4\n**Avg. Bid:** 168.7K GNK\n\n</div>\n\nПредлагаем за 90 дней привлечь от $3 млн нового капитала в GONKA через масштабируемую Telegram-воронку с поэтапным финансированием и KPI\n\n---\n\n## Full Proposal\n\nСуть предложения\n2. Кто мы\n3. Что мы предлагаем\n4. KPI и экономика проекта\n5. Как будет работать воронка\n6. Стратегия удержания пользователей\n7. Финансирование\n8. Вознаграждение команды \n9. Отчетность и прозрачность\n10. Что получает GONKA\n11. Дополнительные материалы\n\n1.  Суть предложения\n\nМы предлагаем реализовать маркетинговую кампанию, ",
       "content_after": "# Привлечение $3M+ нового капитала на Uniswap\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Andrey Orlov\n**Created:** 2026-07-03 15:10 UTC\n**Closes:** 2026-08-02 15:10 UTC\n**Language:** RU\n**Votes:** 4\n**Avg. Bid:** 170.5K GNK\n\n</div>\n\nПредлагаем за 90 дней привлечь от $3 млн нового капитала в GONKA через масштабируемую Telegram-воронку с поэтапным финансированием и KPI\n\n---\n\n## Full Proposal\n\nСуть предложения\n2. Кто мы\n3. Что мы предлагаем\n4. KPI и экономика проекта\n5. Как будет работать воронка\n6. Стратегия удержания пользователей\n7. Финансирование\n8. Вознаграждение команды \n9. Отчетность и прозрачность\n10. Что получает GONKA\n11. Дополнительные материалы\n\n1.  Суть предложения\n\nМы предлагаем реализовать маркетинговую кампанию, "
     },
-    "ai_description": null
+    "ai_description": "Препропозал по привлечению $3M+ через Telegram-воронку обновлён. Обсуждение продолжается, предложение остаётся активным до 2 августа."
   },
   {
     "id": "evt_20260717041932_f63e3c54",
@@ -112,7 +112,7 @@
       "content_before": "# Gonka Media Library by Saccade\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Dem \\| Démíngān\n**Created:** 2026-07-03 11:30 UTC\n**Closes:** 2026-07-10 11:28 UTC\n**Language:** EN\n**Votes:** 1\n**Avg. Bid:** 6.4K GNK\n\n</div>\n\nGonka Media Library — Explainer Library & Platform\nExplainer series (20 ep., 40 min) + web download & self-branding platform\n\n---\n\n## Full Proposal\n\nProposal — Gonka Media Library\n\n## Project\n\n**Gonka Media Library — Explainer Library & Platform**\n\n## DAO\n\n**Gonka**\n\n## Scope\n\nExplainer series **20 episodes, 40 min total** + web download & self-branding platform.\n\n## Deliverables\n\n- **Explainer library** — 20 episodes, 40 min total, grouped into 4 horizontal long-form films, 16:9.\n- Every episode is also rel",
       "content_after": "# Gonka Media Library by Saccade\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Dem \\| Démíngān\n**Created:** 2026-07-03 11:30 UTC\n**Closes:** 2026-07-10 11:28 UTC\n**Language:** EN\n**Votes:** 1\n**Avg. Bid:** 22.1K GNK\n\n</div>\n\nGonka Media Library — Explainer Library & Platform\nExplainer series (20 ep., 40 min) + web download & self-branding platform\n\n---\n\n## Full Proposal\n\nProposal — Gonka Media Library\n\n## Project\n\n**Gonka Media Library — Explainer Library & Platform**\n\n## DAO\n\n**Gonka**\n\n## Scope\n\nExplainer series **20 episodes, 40 min total** + web download & self-branding platform.\n\n## Deliverables\n\n- **Explainer library** — 20 episodes, 40 min total, grouped into 4 horizontal long-form films, 16:9.\n- Every episode is also re"
     },
-    "ai_description": null
+    "ai_description": "Препропозал Gonka Media Library от Saccade обновлён (статус Expired). Инициатива по созданию медиа-библиотеки для экосистемы ждёт новых идей."
   },
   {
     "id": "evt_20260717041932_a8f1e2e4",
@@ -128,7 +128,7 @@
       "content_before": "# Привлечение $3M+ нового капитала на Uniswap v2.0\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Andrey Orlov\n**Created:** 2026-07-09 16:25 UTC\n**Closes:** 2026-08-08 16:25 UTC\n**Language:** RU\n**Votes:** 4\n**Avg. Bid:** 168.7K GNK\n\n</div>\n\nПредлагаем за 90 дней привлечь от $3 млн нового капитала в GONKA через масштабируемую Telegram-воронку с поэтапным финансированием и KPI\n\n---\n\n## Full Proposal\n\nСуть предложения\n2. Кто мы\n3. Что мы предлагаем\n4. KPI и экономика проекта\n5. Как будет работать воронка\n6. Стратегия удержания пользователей\n7. Финансирование\n8. Вознаграждение команды \n9. Отчетность и прозрачность\n10. Что получает GONKA\n11. Защита от фрода и методика расчета KPI\n12. Дополнительные материалы\n\n \n1.  Суть предложения\n\n",
       "content_after": "# Привлечение $3M+ нового капитала на Uniswap v2.0\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Andrey Orlov\n**Created:** 2026-07-09 16:25 UTC\n**Closes:** 2026-08-08 16:25 UTC\n**Language:** RU\n**Votes:** 4\n**Avg. Bid:** 170.5K GNK\n\n</div>\n\nПредлагаем за 90 дней привлечь от $3 млн нового капитала в GONKA через масштабируемую Telegram-воронку с поэтапным финансированием и KPI\n\n---\n\n## Full Proposal\n\nСуть предложения\n2. Кто мы\n3. Что мы предлагаем\n4. KPI и экономика проекта\n5. Как будет работать воронка\n6. Стратегия удержания пользователей\n7. Финансирование\n8. Вознаграждение команды \n9. Отчетность и прозрачность\n10. Что получает GONKA\n11. Защита от фрода и методика расчета KPI\n12. Дополнительные материалы\n\n \n1.  Суть предложения\n\n"
     },
-    "ai_description": null
+    "ai_description": "Обновлён препропозал Привлечение $3M+ нового капитала на Uniswap v2.0 — уточнённая версия предложения остаётся активной для голосования."
   },
   {
     "id": "evt_20260717041724_07308f87",
@@ -144,7 +144,7 @@
       "status": null,
       "content": "> 🔄 **Auto-sync:** from [Discussion #1464](https://github.com/gonka-ai/gonka/discussions/1464) every hour. \n\n# Dev Team Funding\n\n**Автор:** [@gmorgachev](https://github.com/gmorgachev) · **Категория:** :bulb: Proposals · **Создано:** 2026-07-17 01:38 UTC · \n\n---\n\n## 📝 Описание\n\nHello everyone! I am Gleb Morgachev, one of Gonka's co-creators.\n\nIn the next couple of weeks, I plan to submit a proposal requesting 1.5 million USDT from the community pool. The funding would support an independent engineering team working on core protocol development aligned with the community roadmap. It would cover the team and expenses directly related to its work, not servers or GPU infrastructure for mining.\n\n## Scope\n\nThis independent team would be a small group of top-tier engineers working on Gonka's core"
     },
-    "ai_description": null
+    "ai_description": "Новое обсуждение в категории Proposals от gmorgachev — Dev Team Funding. Предлагается обсудить финансирование команды разработки для ускорения развития протокола."
   },
   {
     "id": "evt_20260717041724_5672f5de",
@@ -160,7 +160,7 @@
       "content_before": "# GitHub Discussions — `gonka-ai/gonka`\n\nСрез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **75**. ## 📂 Категории\n\n| Категория | Дискуссий |\n|---|---:|\n| [:mega: Announcements](announcements/index.md) | 1 |\n| [:speech_balloon: General](general/index.md) | 5 |\n| [:bulb: Proposals](proposals/index.md) | 45 |\n| [:pray: Q&A](q-a/index.md) | 3 |\n| [:raised_hands: Show and Tell](show-and-tell/index.md) | 21 |\n\n## 🕒 Последние обновлённые\n\n| # | Заголовок | Категория | Автор | Обновлено |\n|---:|---|---|---|---|\n| [1404](proposals/1404-add-a-lower-barrier-glm-52-option-and-consider-deepseek-v4-f.md) | [Add a lower-barrier GLM-5.2 option and consider DeepSeek-V4-Flash as the default model](proposals/1404-add-a-lower-barrier-glm-52-option-and-",
       "content_after": "# GitHub Discussions — `gonka-ai/gonka`\n\nСрез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **76**. ## 📂 Категории\n\n| Категория | Дискуссий |\n|---|---:|\n| [:mega: Announcements](announcements/index.md) | 1 |\n| [:speech_balloon: General](general/index.md) | 5 |\n| [:bulb: Proposals](proposals/index.md) | 46 |\n| [:pray: Q&A](q-a/index.md) | 3 |\n| [:raised_hands: Show and Tell](show-and-tell/index.md) | 21 |\n\n## 🕒 Последние обновлённые\n\n| # | Заголовок | Категория | Автор | Обновлено |\n|---:|---|---|---|---|\n| [1388](proposals/1388-external-test-lab-community-devnet.md) | [External Test Lab & Community DevNet](proposals/1388-external-test-lab-community-devnet.md) | :bulb: Proposals | [@paranjko](https://github.com/paranjko) | 2026-07-17 "
     },
-    "ai_description": null
+    "ai_description": "В разделе Discussions появилось новое обсуждение — теперь всего 76 дискуссий. Присоединяйтесь к обсуждению финансирования команды разработчиков."
   },
   {
     "id": "evt_20260717041724_4ef64b70",
@@ -176,7 +176,7 @@
       "content_before": "# :bulb: Proposals\n\nДискуссии в категории **:bulb: Proposals**. Всего: **45**. [← ко всем категориям](../index.md)\n\n| # | Заголовок | Автор | Обновлено |\n|---:|---|---|---|\n| [1445](1445-the-missing-first-mile-onboarding-gonka-from-a-newcomers-per.md) | [The missing first mile: onboarding Gonka from a newcomer’s perspective](1445-the-missing-first-mile-onboarding-gonka-from-a-newcomers-per.md) | [@julb1992](https://github.com/julb1992) | 2026-07-13 |\n| [1404](1404-add-a-lower-barrier-glm-52-option-and-consider-deepseek-v4-f.md) | [Add a lower-barrier GLM-5.2 option and consider DeepSeek-V4-Flash as the default model](1404-add-a-lower-barrier-glm-52-option-and-consider-deepseek-v4-f.md) | [@enonog](https://github.com/enonog) | 2026-07-16 |\n| [1388](1388-external-test-lab-community-devnet.md",
       "content_after": "# :bulb: Proposals\n\nДискуссии в категории **:bulb: Proposals**. Всего: **46**. [← ко всем категориям](../index.md)\n\n| # | Заголовок | Автор | Обновлено |\n|---:|---|---|---|\n| [1464](1464-dev-team-funding.md) | [Dev Team Funding](1464-dev-team-funding.md) | [@gmorgachev](https://github.com/gmorgachev) | 2026-07-17 |\n| [1445](1445-the-missing-first-mile-onboarding-gonka-from-a-newcomers-per.md) | [The missing first mile: onboarding Gonka from a newcomer’s perspective](1445-the-missing-first-mile-onboarding-gonka-from-a-newcomers-per.md) | [@julb1992](https://github.com/julb1992) | 2026-07-13 |\n| [1404](1404-add-a-lower-barrier-glm-52-option-and-consider-deepseek-v4-f.md) | [Add a lower-barrier GLM-5.2 option and consider DeepSeek-V4-Flash as the default model](1404-add-a-lower-barrier-glm-52"
     },
-    "ai_description": null
+    "ai_description": "Категория Proposals пополнилась новым обсуждением Dev Team Funding. Теперь в категории 46 дискуссий — сообщество активно обсуждает стратегию финансирования."
   },
   {
     "id": "evt_20260716204950_c2cbc1a3",
@@ -192,7 +192,7 @@
       "content_before": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## July 15, 2026\n\n**Expedited governance vote (proposal 87): remove Kimi-K2.6 for a fast re-bootstrap**\n\n`moonshotai/Kimi-K2.6` lost its PoC validation majority in epochs 328–329 (see the incident [details here](https://gonka.ai/docs/network-updates/#july-1",
       "content_after": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## July 16, 2026\n\n**Expedited governance vote (proposal 88): re-register Kimi-K2.6 and remove devshard v1/v2 runtimes**\n\nThis is the second step of the Kimi recovery plan announced on July 15. Proposal 87 removed `moonshotai/Kimi-K2.6` from the active set; "
     },
-    "ai_description": null
+    "ai_description": "Обновлён English-раздел Announcements в протокольной документации — актуальные новости и объявления для англоязычного сообщества."
   },
   {
     "id": "evt_20260716204950_73d261ae",
@@ -208,7 +208,7 @@
       "content_before": "# 公告\n\n!!! note \"关于本页面\"\n\n    本页面由社区成员维护和更新。\n\n    要发布公告，例如您发起的治理投票，请在 gonka-docs 仓库中打开一个拉取请求：[https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n\n    本页面的内容不保证完整。如需获取最新信息，包括治理投票的启动及其当前状态，请参阅链上数据或查看可用的浏览器和仪表板。\n\n## 2026年7月15日\n\n**紧急治理投票（提案87）：移除Kimi-K2.6以快速重新引导**\n\n`moonshotai/Kimi-K2.6`在第328–329个周期失去了PoC验证的多数支持（详见事件[详情](https://gonka.ai/docs/network-updates/#july-15-2026)）。现在从活跃集合中移除Kimi并重新引导，是使其在最小停机时间内恢复的最快方式——与6月提案78的恢复路径相同。\n\n该提案将在下一个PoC之前将`moonshotai/Kimi-K2.6`从PoC参数中移除，随后立即重新添加，Kimi将在第331个周期开始标准引导流程。\n\n**主机需采取的必要操作**\n\n1. 在截止日期前对提案87进行投票——紧急窗口时间很短。\n2. 运行Kimi的主机：请保持您的Kimi设置处于暂存状态，并准备好在引导PoC时切换回您的MLNode。\n3. 在引导期间委托时：请勿委托给守护节点；请将委托分散到独立的Kimi主机上。\n\n**如何投票**\n\n如果您无法直接访问持有投票权的密钥，或希望由另一个密钥代表您投票，请参阅[指南](https://gonka.ai/FAQ/#what-should-i-do-if-i-cannot-vote-because-i-do-n",
       "content_after": "# 公告\n\n!!! note \"关于本页面\"\n\n    本页面由社区成员维护和更新。\n\n    要发布公告，例如您发起的治理投票，请在 gonka-docs 仓库中打开一个拉取请求：[https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n\n    本页面不保证内容完整。如需获取最新信息，包括治理投票的发布及其当前状态，请参阅链上数据或查看可用的浏览器和仪表板。\n\n## 2026年7月16日\n\n**紧急治理投票（提案88）：重新注册Kimi-K2.6并移除devshard v1/v2运行时**\n\n这是7月15日宣布的Kimi恢复计划的第二步。提案87已将`moonshotai/Kimi-K2.6`从未激活集合中移除；提案88将其重新注册到治理模型列表中，使其从第331个纪元开始进入标准引导流程。\n\n同一提案还从`devshard_escrow_params`中移除了`approved_versions`的v1和v2版本。一旦通过，`versiond`将停止v1和v2的`devshardd`进程，仅保留v3运行时（`/devshard/v3`）继续运行。此举消除了旧运行时容器长期存在的RAM增长问题——这也是7月15日事件中网络节点OOM的根本原因。\n\n**这标志着v3切换最终完成。** 仍通过v1/v2前缀或经典`/v1/devshard`路径路由的网关，在提案通过后将停止提供推理服务。\n\n**主机所需操作**\n\n1. 在截止日期前对提案88进行投票——紧急窗口时间很短。\n2. 提供Kimi服务的主机：在投票结束后、区块**5,105,276**（7月17日，约12:05 UTC）之前声明对`moonshotai/Kimi-K2.6`的意向，然后在第331个纪元PoC开始"
     },
-    "ai_description": null
+    "ai_description": "Обновлена китайская версия страницы Announcements (公告) — синхронизированы последние изменения с оригиналом для китайскоязычного сообщества."
   },
   {
     "id": "evt_20260716201614_f1c17be9",
@@ -224,7 +224,7 @@
       "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Model lineup improvement: add an accessible GLM-5.2 candidate and reconsider MiniMax-M2.7 as default\n    <span class=\"issues-number\">#1408</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\">[@enonog](https://github.com/enonog) opened 2026-07-06 12:31 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin",
       "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Model lineup improvement: add an accessible GLM-5.2 candidate and reconsider MiniMax-M2.7 as default\n    <span class=\"issues-number\">#1408</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\">[@enonog](https://github.com/enonog) opened 2026-07-06 12:31 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin"
     },
-    "ai_description": null
+    "ai_description": "Обновлён issue #1408: обсуждается улучшение линейки моделей — добавление доступной GLM-5.2 и пересмотр MiniMax-M2.7 в качестве модели по умолчанию."
   },
   {
     "id": "evt_20260716181046_f2b315fd",
@@ -241,7 +241,7 @@
       "content": "# #88 – Restore Kimi K2.6 and remove v1, v2\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<div class=\"prop-badge-row\"><span class=\"prop-badge prop-voting\">Voting</span><span class=\"prop-vote-countdown prop-vote-countdown-detail\" data-deadline=\"2026-07-17T06:09:28.727069592Z\"></span></div>\n\n**Proposal ID:** `88`\n\n**Type:** Register Model, Update Params\n\n**Submit:** 2026-07-16 18:09 UTC\n\n**Voting:** 2026-07-16 18:09 UTC → 2026-07-17 06:09 UTC\n\n**Expedited:** Yes\n\n**Proposer:** [`gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le`](https://gonka.gg/address/gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le){:target=\"_blank\"}\n\n[View on gonka.gg](https://gonka.gg/network/proposals/88){:target=\"_blank\"}\n\n</div>\n\nUpdate current chain params to register moonshotai/Kimi-K2.6 in the governance model list and ",
       "funding": ""
     },
-    "ai_description": null
+    "ai_description": "Новое предложение #88 поступило на голосование: восстановить Kimi K2.6 и удалить устаревшие версии v1 и v2. Голосование открыто, успейте принять участие."
   },
   {
     "id": "evt_20260716180021_2e12bb1f",
@@ -260,7 +260,7 @@
       "status_after": "passed",
       "funding": ""
     },
-    "ai_description": null
+    "ai_description": "Предложение #86 по увеличению weight_scale_factor для Kimi-K2.6 и GLM-5.2 на 5% успешно принято сообществом — параметры моделей будут обновлены."
   },
   {
     "id": "evt_20260716120327_9ecd88d8",
@@ -311,7 +311,7 @@
       "content_before": "# GitHub Issues — `gonka-ai/gonka`\n\nAll issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).\nTotal: **305** (🟢 open: **67**, 🔴 closed: **238**).\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"01199-reproducible-sampling-for-inference-validation/\">Reproducible sampling for inference validation</a>\n      <span class=\"issues-number\">#1199</span>\n    </div>\n    <p class=\"issues-desc\">Review the existing reproducible / deterministic sampling work for inference vali",
       "content_after": "# GitHub Issues — `gonka-ai/gonka`\n\nAll issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).\nTotal: **305** (🟢 open: **67**, 🔴 closed: **238**).\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"01408-model-lineup-improvement-add-an-accessible-glm-52-candidate-/\">Model lineup improvement: add an accessible GLM-5.2 candidate and reconsider MiniMax-M2.7 as default</a>\n      <span class=\"issues-number\">#1408</span>\n    </div>\n    <p class=\"issues-desc\">## Model line"
     },
-    "ai_description": null
+    "ai_description": "Обновлён список GitHub Issues — сейчас в репозитории 67 открытых и 238 закрытых задач. Следите за актуальными багами и улучшениями."
   },
   {
     "id": "evt_20260716063810_aa437a6b",
@@ -375,7 +375,7 @@
       "content_before": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## July 15, 2026\n\n**Kimi-K2.6 incident (epochs 328–329): what happened, recovery plan, and a change in delegation guidance**\n\nIn epoch 328, `moonshotai/Kimi-K2.6` lost its PoC validation majority. Hosts serving Kimi were knocked out of the group at the star",
       "content_after": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## July 15, 2026\n\n**Expedited governance vote (proposal 87): remove Kimi-K2.6 for a fast re-bootstrap**\n\n`moonshotai/Kimi-K2.6` lost its PoC validation majority in epochs 328–329 (see the incident [details here](https://gonka.ai/docs/network-updates/#july-1"
     },
-    "ai_description": null
+    "ai_description": "Страница Announcements обновлена — добавлена информация о последних событиях в сети Gonka."
   },
   {
     "id": "evt_20260716015707_43ea76ec",
@@ -440,7 +440,7 @@
       "content_before": "# Улучшаем инфиренс Kimi\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Mitch\n**Created:** 2026-07-14 01:37 UTC\n**Closes:** 2026-07-21 01:37 UTC\n**Language:** RU\n**Votes:** 5\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nKimi в Gonka перегружен и сыпет ошибками. Разбираем, почему так вышло, и что можно исправить прямо сейчас через Governance и настройки нод.\n\n---\n\n## Full Proposal\n\nФакты:\n\n* \\~20% веса сети приходится на Kimi  \n* Запросов на инфиренс идет столько, что ноды с Kimi часто перегружены, и ответ падает с ошибкой  \n* Недели 2 назад Kimi можно было нормально пользоваться  \n* Сейчас Kimi часто дает ошибку, стало больше запросов  \n* Сама по себе цена не будет расти и при 100% загрузке нод с Kimi (динамического прайсинга нету в девшардах",
       "content_after": "# Улучшаем инфиренс Kimi\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Mitch\n**Created:** 2026-07-14 01:37 UTC\n**Closes:** 2026-07-21 01:37 UTC\n**Language:** RU\n**Votes:** 6\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nKimi в Gonka перегружен и сыпет ошибками. Разбираем, почему так вышло, и что можно исправить прямо сейчас через Governance и настройки нод.\n\n---\n\n## Full Proposal\n\nФакты:\n\n* \\~20% веса сети приходится на Kimi  \n* Запросов на инфиренс идет столько, что ноды с Kimi часто перегружены, и ответ падает с ошибкой  \n* Недели 2 назад Kimi можно было нормально пользоваться  \n* Сейчас Kimi часто дает ошибку, стало больше запросов  \n* Сама по себе цена не будет расти и при 100% загрузке нод с Kimi (динамического прайсинга нету в девшардах"
     },
-    "ai_description": null
+    "ai_description": "Препропозал по улучшению инференса Kimi продолжает набирать голоса — теперь их уже шесть. Сообщество активно поддерживает инициативу по решению проблемы перегруженных нод, на которые приходится около 20% веса сети. Голосование открыто до 21 июля, успейте высказать своё мнение."
   },
   {
     "id": "evt_20260715095440_64a613b3",
@@ -488,7 +488,7 @@
       "content_before": "# FAQ\n\n## 概述\n\n### 什么是Gonka？\nGonka是一个用于高效AI计算的去中心化网络——由其使用者运营。它作为集中式云服务在AI模型训练和推理方面的低成本、高效率替代方案。作为一个协议，它并非公司或初创企业。\n\n- 从区块链角度看，Gonka是去中心化AI网络的基础账本与协调层（L1）。它记录余额、交易和加密证据，以证明主机正确执行了AI任务，而所有实际计算（如推理和训练）均在链下进行。\n- 从网络角度看，Gonka是一个由主机和开发者等参与者组成的综合生态系统，通过去中心化基础设施进行交互。在Gonka区块链的驱动下，该网络分发任务、验证结果，并仅奖励可验证的有用工作，从而为AI工作负载创造了一个具有竞争力且可扩展的环境。\n\n### Gonka解决了什么问题？\n\nGonka是一个去中心化AI基础设施，旨在减少对集中式云提供商的依赖，并比传统去中心化网络更高效地利用计算能力。其目标是尽可能将计算资源导向有用的AI任务，如推理和训练，同时最小化因共识开销造成的浪费。\n\n### Gonka生态系统中的关键参与者有哪些？\n\nGonka生态系统有四个关键参与者群体：\n\n- 开发者通过利用网络的分布式计算能力构建和部署AI应用。\n- Gonka贡献者参与核心区块链代码库、协议升级、性能优化、安全补丁和新功能集成的开发。\n- 持有者持有网络的原生代币，即仅拥有一个包含GNK代币的钱包。持有者可以持有、转账或出售代币，使用代币进行推理，并根据协议规则使用它们。成为持有者不意味着除标准代币所有权外的任何义务、责任或治理角色。\n- 主机为网络贡献计算能力。主机执行推理和其他计算任务，并根据其贡献的计算能力获得相应奖励，前提是保持诚实参与和可靠性。主机是网络的支柱。只有主机拥有网络的投票权。该投票权代表其在治理中的权重，用于提议和投票决定协议决策、参数变更和升级。任何主机均可",
       "content_after": "# FAQ\n\n## 概述\n\n### 什么是Gonka？\nGonka是一个用于高效AI计算的去中心化网络——由使用者运营。它作为集中式云服务在AI模型训练和推理方面的经济高效替代方案。作为一个协议，它并非公司或初创企业。\n\n- 从区块链角度看，Gonka是去中心化AI网络的基础账本与协调层（L1）。它记录余额、交易和加密证据，以证明主机正确执行了AI工作，而所有实际计算（如推理和训练）均在链下进行。\n- 从网络角度看，Gonka是一个包含主机和开发者的综合生态系统，通过去中心化基础设施进行交互。依托Gonka区块链，该网络分发任务、验证结果，并仅奖励可验证的有用工作，从而为AI工作负载创建一个竞争性强、可扩展的环境。\n\n### Gonka解决了什么问题？\n\nGonka是一个去中心化AI基础设施，旨在减少对集中式云提供商的依赖，并比传统去中心化网络更高效地利用计算能力。其目标是尽可能将计算资源导向有用的AI任务，如推理和训练，同时最小化因共识开销造成的浪费。\n\n### Gonka生态系统中的关键参与者有哪些？\n\nGonka生态系统有四个关键参与者群体：\n\n- 开发者通过利用网络的分布式计算能力构建和部署AI应用。\n- Gonka贡献者参与核心区块链代码库、协议升级、性能优化、安全补丁和新功能集成的开发。\n- 持有者持有网络的原生代币，即拥有一个包含Gonka代币的钱包。持有者可以持有、转账或出售代币，使用代币进行推理，并根据协议规则使用它们。成为持有者不意味着除标准代币所有权外的任何义务、责任或治理角色。\n- 主机向网络贡献计算能力。主机执行推理和其他计算任务，并根据其贡献的计算能力按比例获得奖励，前提是保持诚实参与和可靠性。主机构成网络的骨干。只有主机在网络中拥有投票权。该投票权代表其在治理中的权重，用于提出和投票决定协议决策、参数变更和升级。任何主机均可担任验证者、转账代理"
     },
-    "ai_description": null
+    "ai_description": "В китайской версии FAQ обновлены формулировки описания ключевых участников экосистемы. Текст стал более согласованным с основной английской версией: уточнены роли хостов (теперь любой хост может быть валидатором и агентом трансферов) и держателей токенов. Это делает документацию более точной для китайскоязычного сообщества."
   },
   {
     "id": "evt_20260714230835_4e8620d3",
@@ -667,7 +667,7 @@
       "content_before": "# GitHub Issues — `gonka-ai/gonka`\n\nAll issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).\nTotal: **304** (🟢 open: **66**, 🔴 closed: **238**).\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"01439-external-visibility/\">External Visibility</a>\n      <span class=\"issues-number\">#1439</span>\n    </div>\n    <p class=\"issues-desc\">Gonka’s visibility as a solution for decentralized storage should be promoted more widely. To an outside ",
       "content_after": "# GitHub Issues — `gonka-ai/gonka`\n\nAll issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).\nTotal: **304** (🟢 open: **66**, 🔴 closed: **238**).\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"01199-reproducible-sampling-for-inference-validation/\">Reproducible sampling for inference validation</a>\n      <span class=\"issues-number\">#1199</span>\n    </div>\n    <p class=\"issues-desc\">Review the existing reproducible / deterministic sampling work for inference vali"
     },
-    "ai_description": "В ленте issues репозитория gonka-ai/gonka обновился отображаемый элемент: вместо закрытой задачи о внешней видимости проекта теперь показана открытая задача о внедрении воспроизводимой выборки для валидации инференса. Это сигнализирует о том, что команда фокусируется на технической надёжности и верифицируемости результатов работы моделей в сети.\n\nДавайте сформулирую это в 2-3 предложения, дружелюбно-профессионально, без markdown.\n\nВариант:\n\"В репозитор"
+    "ai_description": "В ленте issues репозитория gonka-ai/gonka обновился отображаемый элемент: теперь в фокусе задача по внедрению воспроизводимой выборки для валидации инференса вместо закрытого тикета о внешней видимости. Это показывает, что команда уделяет приоритетное внимание технической надёжности и верифицируемости результатов работы моделей."
   },
   {
     "id": "evt_20260714032752_d3b695ce",
