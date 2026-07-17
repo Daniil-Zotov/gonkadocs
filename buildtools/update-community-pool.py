@@ -65,26 +65,32 @@ def format_balance(amount_str, denom):
         if denom == "ngonka":
             val = amt / 1_000_000_000
             if val >= 1_000_000:
-                return f"{val/1_000_000:.1f}M"
+                return f"{val/1_000_000:.0f}M"
             elif val >= 1_000:
-                return f"{val/1_000:.1f}K"
+                return f"{val/1_000:.0f}K"
             else:
-                return f"{val:,.2f}"
+                return f"{val:,.0f}"
         elif denom == USDT_IBC_DENOM:
-            return f"${amt / 1_000_000:,.2f}"
+            return f"${amt / 1_000_000:,.0f}"
         return f"{amt} {denom}"
     except (ValueError, TypeError, ZeroDivisionError):
         return str(amount_str)
 
 
-def format_balance_line(gnk_val, usdt_val, show_gnk=True, show_usdt=True):
+def format_balance_line(gnk_val, usdt_val, show_gnk=True, show_usdt=True, gnk_equiv_usdt=None):
+    STYLE = 'color:var(--md-accent-fg-color,#5468ff);font-size:1.05rem;font-weight:600'
     parts = []
     if show_gnk and gnk_val:
-        parts.append(f"<span>{gnk_val} GNK</span>")
+        gnk_html = f'<span style="{STYLE}">{gnk_val} GNK'
+        if gnk_equiv_usdt:
+            gnk_html += f' (~${gnk_equiv_usdt} USDT)'
+        gnk_html += '</span>'
+        parts.append(gnk_html)
     if show_usdt and usdt_val:
-        parts.append(f"<span>{usdt_val} USDT</span>")
+        parts.append(f'<span style="{STYLE}">{usdt_val} USDT</span>')
     return (
-        '<p style="font-size:1.15rem; font-weight:600; margin:0.5rem 0">\n'
+        '<p style="margin:0.2rem 0">\n'
+        + "<strong>Current balance:</strong> "
         + " · ".join(parts)
         + "\n</p>"
     )
@@ -300,7 +306,18 @@ def generate_sale_balance_line(sale_balances):
     usdt = sale_balances.get(USDT_IBC_DENOM, "0")
     gnk_val = format_balance(gnk, "ngonka")
     usdt_val = format_balance(usdt, USDT_IBC_DENOM)
-    return format_balance_line(gnk_val, usdt_val)
+    try:
+        gnk_raw = int(gnk.split(".")[0]) / 1_000_000_000
+        equiv = gnk_raw * 0.6
+        if equiv >= 1_000_000:
+            equiv_str = f"{equiv/1_000_000:.0f}M"
+        elif equiv >= 1_000:
+            equiv_str = f"{equiv/1_000:.0f}K"
+        else:
+            equiv_str = f"{equiv:,.0f}"
+    except (ValueError, TypeError):
+        equiv_str = None
+    return format_balance_line(gnk_val, usdt_val, gnk_equiv_usdt=equiv_str)
 
 
 def generate_gov_balance_line(gov_balances):
@@ -311,20 +328,19 @@ def generate_gov_balance_line(gov_balances):
 
 def generate_funding_table(funding):
     rows = [
-        "| # | Proposal | Date | Description | Source | Amount GNK | Amount USDT |",
-        "| :-: | :------ | :--: | :---------- | :---- | ---------: | ---------: |",
+        "| Proposal | Date | Description | Source | Amount GNK | Amount USDT |",
+        "| :------ | :--: | :---------- | :---- | ---------: | ---------: |",
     ]
     if not funding:
-        return "\n".join(rows) + "\n| — | — | — | — | — | — | — |\n"
+        return "\n".join(rows) + "\n| — | — | — | — | — | — |\n"
 
     funding_sorted = sorted(funding, key=lambda s: int(s["pid"]), reverse=True)
-    for i, f in enumerate(funding_sorted, 1):
+    for f in funding_sorted:
         pid = f["pid"]
         q = f["quarter"]
         gnk_str = f"{f['gnk']:,}" if f["gnk"] > 0 else "—"
         usdt_str = f"${f['usdt']:,}" if f["usdt"] > 0 else "—"
         rows.append(
-            f"| {i} "
             f"| [#{pid}]({SITE_URL}{PROPOSALS_PREFIX}{q}/{pid}/) "
             f"| {f['date']} "
             f"| {f['title']} "
