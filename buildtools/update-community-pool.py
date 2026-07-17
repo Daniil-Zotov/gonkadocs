@@ -236,7 +236,7 @@ def generate_spend_table(spends):
             f"| {i} "
             f"| [#{pid}]({SITE_URL}{PROPOSALS_PREFIX}{q}/{pid}/) "
             f"| {s['date']} "
-            f"| `{short_addr(s['recipient'])}` "
+            f"| [`{short_addr(s['recipient'])}`](https://gonka.gg/address/{s['recipient']}) "
             f"| {gnk_str} "
             f"| {usdt_str} "
             f"| {s['status']} |"

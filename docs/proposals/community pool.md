@@ -16,9 +16,9 @@ The Gonka network maintains three key addresses that collectively manage communi
 
 | Address | Label | Purpose |
 | :------ | :---- | :------ |
-| `gonka1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8h2rzwa` | **Community Pool** (distribution module) | Holds 2% of all inflation and network fees; spent only through governance |
-| `gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2` | **Community Sale** | Receives GNK from the initial community sale; used for ecosystem grants |
-| `gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33` | **Gov Module** (authority) | Executes `MsgCommunityPoolSpend` on behalf of passed proposals; holds unallocated gov-module funds |
+| [`gonka1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8h2rzwa`](https://gonka.gg/address/gonka1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8h2rzwa) | **Community Pool** (distribution module) | Holds 2% of all inflation and network fees; spent only through governance |
+| [`gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2`](https://gonka.gg/address/gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2) | **Community Sale** | Receives GNK from the initial community sale; used for ecosystem grants |
+| [`gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33`](https://gonka.gg/address/gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33) | **Gov Module** (authority) | Executes `MsgCommunityPoolSpend` on behalf of passed proposals; holds unallocated gov-module funds |
 
 ??? info "How to verify these addresses on-chain"
 
@@ -40,7 +40,7 @@ The Gonka network maintains three key addresses that collectively manage communi
 ## Current Balances
 
 <small>Last updated: <!-- UPDATE_TIMESTAMP -->
-2026-07-17 14:20 UTC
+2026-07-17 14:22 UTC
 <!-- /UPDATE_TIMESTAMP --></small>
 
 <!-- BALANCES_START -->
@@ -64,7 +64,7 @@ The Gonka network maintains three key addresses that collectively manage communi
 ## How Community Pool Spending Works
 
 1. A governance proposal includes one or more `MsgCommunityPoolSpend` messages specifying a recipient address and amount (GNK and/or USDT via IBC).
-2. If the proposal **passes**, the Gov Module authority address (`gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33`) signs and executes the transfer from the Community Pool distribution account.
+2. If the proposal **passes**, the Gov Module authority address ([`gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33`](https://gonka.gg/address/gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33)) signs and executes the transfer from the Community Pool distribution account.
 3. USDT is held in the Community Pool as the IBC denom `ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4` and transferred via `MsgExecuteContract` (withdraw_ibc).
 
 **Key constraint:** Only the Gov Module authority can spend from the Community Pool. No single key controls these funds — every spend requires a passed governance vote.
@@ -78,40 +78,40 @@ All `MsgCommunityPoolSpend` transactions across all governance proposals. Data s
 <!-- SPENT_HISTORY_START -->
 | # | Proposal | Date | Recipient | Amount GNK | Amount USDT | Status |
 | :-: | :------ | :--: | :-------- | ---------: | ---------: | :----: |
-| 1 | [#14](https://gonkadocs.com/proposals/proposals/2025-q4/14/) | 2025-11-27 | `gonka18pkq…pk8pz2` | 20,000,000.0 | — | Passed |
-| 2 | [#32](https://gonkadocs.com/proposals/proposals/2026-q1/32/) | 2026-03-24 | `gonka1t7mc…sv4yzu` | 500.0 | — | Passed |
-| 3 | [#33](https://gonkadocs.com/proposals/proposals/2026-q1/33/) | 2026-03-27 | `gonka197hq…fw3y6k` | 2,500.0 | — | Passed |
-| 4 | [#33](https://gonkadocs.com/proposals/proposals/2026-q1/33/) | 2026-03-27 | `gonka12jaf…kvcleq` | 100.0 | — | Passed |
-| 5 | [#33](https://gonkadocs.com/proposals/proposals/2026-q1/33/) | 2026-03-27 | `gonka170gv…ktjw75` | 100.0 | — | Passed |
-| 6 | [#33](https://gonkadocs.com/proposals/proposals/2026-q1/33/) | 2026-03-27 | `gonka1uvk3…8a2fr7` | 100.0 | — | Passed |
-| 7 | [#33](https://gonkadocs.com/proposals/proposals/2026-q1/33/) | 2026-03-27 | `gonka1ss36…spahay` | 100.0 | — | Passed |
-| 8 | [#33](https://gonkadocs.com/proposals/proposals/2026-q1/33/) | 2026-03-27 | `gonka1ajxy…xt0zhf` | 100.0 | — | Passed |
-| 9 | [#33](https://gonkadocs.com/proposals/proposals/2026-q1/33/) | 2026-03-27 | `gonka1d5nn…h96dzd` | 100.0 | — | Passed |
-| 10 | [#34](https://gonkadocs.com/proposals/proposals/2026-q1/34/) | 2026-03-31 | `gonka1ls44…tkevej` | 970,000.0 | — | Rejected |
-| 11 | [#35](https://gonkadocs.com/proposals/proposals/2026-q1/35/) | 2026-03-31 | `gonka1ls44…tkevej` | 970,000.0 | — | Rejected |
-| 12 | [#37](https://gonkadocs.com/proposals/proposals/2026-q2/37/) | 2026-04-08 | `gonka1ry4u…spd0v2` | 1.0 | — | Rejected |
-| 13 | [#38](https://gonkadocs.com/proposals/proposals/2026-q2/38/) | 2026-04-09 | `gonka1lqjj…9j3r2l` | 20,000.0 | — | Rejected |
-| 14 | [#39](https://gonkadocs.com/proposals/proposals/2026-q2/39/) | 2026-04-10 | `gonka1snq0…y3l4t4` | 31,250.0 | — | Passed |
-| 15 | [#41](https://gonkadocs.com/proposals/proposals/2026-q2/41/) | 2026-04-18 | `gonka1yf2f…9avx7a` | — | $96,000 | Rejected |
-| 16 | [#43](https://gonkadocs.com/proposals/proposals/2026-q2/43/) | 2026-04-27 | `gonka14zlg…p9n6ds` | 104,166.0 | — | Rejected |
-| 17 | [#45](https://gonkadocs.com/proposals/proposals/2026-q2/45/) | 2026-05-01 | `gonka14zlg…p9n6ds` | 119,000.0 | — | Rejected |
-| 18 | [#47](https://gonkadocs.com/proposals/proposals/2026-q2/47/) | 2026-05-06 | `gonka14fxt…hzsyq3` | 20,000.0 | — | Rejected |
-| 19 | [#50](https://gonkadocs.com/proposals/proposals/2026-q2/50/) | 2026-05-09 | `gonka14fxt…hzsyq3` | 20,000.0 | — | Passed |
-| 20 | [#55](https://gonkadocs.com/proposals/proposals/2026-q2/55/) | 2026-05-23 | `gonka14fxt…hzsyq3` | 4,500.0 | — | Passed |
-| 21 | [#55](https://gonkadocs.com/proposals/proposals/2026-q2/55/) | 2026-05-23 | `gonka16j4z…lxg5jh` | 8,875.0 | — | Passed |
-| 22 | [#55](https://gonkadocs.com/proposals/proposals/2026-q2/55/) | 2026-05-23 | `gonka100s7…3a9dn6` | 11,062.5 | — | Passed |
-| 23 | [#55](https://gonkadocs.com/proposals/proposals/2026-q2/55/) | 2026-05-23 | `gonka197hq…fw3y6k` | 15,284.7 | — | Passed |
-| 24 | [#64](https://gonkadocs.com/proposals/proposals/2026-q2/64/) | 2026-06-04 | `gonka1s3tn…sdcvvm` | 28,000.0 | — | Passed |
-| 25 | [#65](https://gonkadocs.com/proposals/proposals/2026-q2/65/) | 2026-06-04 | `gonka1s3tn…sdcvvm` | 100,000.0 | — | Passed |
-| 26 | [#70](https://gonkadocs.com/proposals/proposals/2026-q2/70/) | 2026-06-08 | `gonka13kzs…9unpcq` | 246,000.0 | — | Rejected |
-| 27 | [#80](https://gonkadocs.com/proposals/proposals/2026-q3/80/) | 2026-07-07 | `gonka100s7…3a9dn6` | 13,950.0 | — | Rejected |
-| 28 | [#80](https://gonkadocs.com/proposals/proposals/2026-q3/80/) | 2026-07-07 | `gonka123pr…ug5f9a` | 4,600.0 | — | Rejected |
-| 29 | [#80](https://gonkadocs.com/proposals/proposals/2026-q3/80/) | 2026-07-07 | `gonka16j4z…lxg5jh` | 10,800.0 | — | Rejected |
-| 30 | [#80](https://gonkadocs.com/proposals/proposals/2026-q3/80/) | 2026-07-07 | `gonka1gmux…gzg6ry` | 12,300.0 | — | Rejected |
-| 31 | [#80](https://gonkadocs.com/proposals/proposals/2026-q3/80/) | 2026-07-07 | `gonka1ppn5…mw6a3q` | 6,200.0 | — | Rejected |
-| 32 | [#82](https://gonkadocs.com/proposals/proposals/2026-q3/82/) | 2026-07-10 | `gonka1g57f…lj8ayw` | 80,000.0 | — | Passed |
-| 33 | [#84](https://gonkadocs.com/proposals/proposals/2026-q3/84/) | 2026-07-11 | `gonka1njlf…mjplat` | 20,000.0 | — | Rejected |
-| 34 | [#85](https://gonkadocs.com/proposals/proposals/2026-q3/85/) | 2026-07-12 | `gonka1stfu…28h3ja` | 600,000.0 | — | Rejected |
+| 1 | [#14](https://gonkadocs.com/proposals/proposals/2025-q4/14/) | 2025-11-27 | [`gonka18pkq…pk8pz2`](https://gonka.gg/address/gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2) | 20,000,000.0 | — | Passed |
+| 2 | [#32](https://gonkadocs.com/proposals/proposals/2026-q1/32/) | 2026-03-24 | [`gonka1t7mc…sv4yzu`](https://gonka.gg/address/gonka1t7mcnc8zjkkvhwmfmst54sasulj68e5zsv4yzu) | 500.0 | — | Passed |
+| 3 | [#33](https://gonkadocs.com/proposals/proposals/2026-q1/33/) | 2026-03-27 | [`gonka197hq…fw3y6k`](https://gonka.gg/address/gonka197hqnwcl30x4js3egvaujjmfknlxy7rmfw3y6k) | 2,500.0 | — | Passed |
+| 4 | [#33](https://gonkadocs.com/proposals/proposals/2026-q1/33/) | 2026-03-27 | [`gonka12jaf…kvcleq`](https://gonka.gg/address/gonka12jaf7m4eysyqt32mrgarum6z96vt55tckvcleq) | 100.0 | — | Passed |
+| 5 | [#33](https://gonkadocs.com/proposals/proposals/2026-q1/33/) | 2026-03-27 | [`gonka170gv…ktjw75`](https://gonka.gg/address/gonka170gvlkfx4vg267y7mx0d5nexlf3lxs8nktjw75) | 100.0 | — | Passed |
+| 6 | [#33](https://gonkadocs.com/proposals/proposals/2026-q1/33/) | 2026-03-27 | [`gonka1uvk3…8a2fr7`](https://gonka.gg/address/gonka1uvk3w9sswd8nnzt29yjyw94vwmuq6g6h8a2fr7) | 100.0 | — | Passed |
+| 7 | [#33](https://gonkadocs.com/proposals/proposals/2026-q1/33/) | 2026-03-27 | [`gonka1ss36…spahay`](https://gonka.gg/address/gonka1ss36q35zmqhpj83vctedd25s34qz7d5vspahay) | 100.0 | — | Passed |
+| 8 | [#33](https://gonkadocs.com/proposals/proposals/2026-q1/33/) | 2026-03-27 | [`gonka1ajxy…xt0zhf`](https://gonka.gg/address/gonka1ajxyae8vgzlh3t6frq64e7vj3fnga7vuxt0zhf) | 100.0 | — | Passed |
+| 9 | [#33](https://gonkadocs.com/proposals/proposals/2026-q1/33/) | 2026-03-27 | [`gonka1d5nn…h96dzd`](https://gonka.gg/address/gonka1d5nn7u0hq0pumgmfxk95nj5h3zkuskkdh96dzd) | 100.0 | — | Passed |
+| 10 | [#34](https://gonkadocs.com/proposals/proposals/2026-q1/34/) | 2026-03-31 | [`gonka1ls44…tkevej`](https://gonka.gg/address/gonka1ls44amlsum476ajg48dzq09uh9am8rg8qdl2q4r03h75ujfk2t0stkevej) | 970,000.0 | — | Rejected |
+| 11 | [#35](https://gonkadocs.com/proposals/proposals/2026-q1/35/) | 2026-03-31 | [`gonka1ls44…tkevej`](https://gonka.gg/address/gonka1ls44amlsum476ajg48dzq09uh9am8rg8qdl2q4r03h75ujfk2t0stkevej) | 970,000.0 | — | Rejected |
+| 12 | [#37](https://gonkadocs.com/proposals/proposals/2026-q2/37/) | 2026-04-08 | [`gonka1ry4u…spd0v2`](https://gonka.gg/address/gonka1ry4uzczgu7xxusa5whl387dd5alr7737spd0v2) | 1.0 | — | Rejected |
+| 13 | [#38](https://gonkadocs.com/proposals/proposals/2026-q2/38/) | 2026-04-09 | [`gonka1lqjj…9j3r2l`](https://gonka.gg/address/gonka1lqjjgnme3ayk2q0w8thxnhx69l639dtz9j3r2l) | 20,000.0 | — | Rejected |
+| 14 | [#39](https://gonkadocs.com/proposals/proposals/2026-q2/39/) | 2026-04-10 | [`gonka1snq0…y3l4t4`](https://gonka.gg/address/gonka1snq0m4rdvq0sswm03r5jsmtzw3p384qsy3l4t4) | 31,250.0 | — | Passed |
+| 15 | [#41](https://gonkadocs.com/proposals/proposals/2026-q2/41/) | 2026-04-18 | [`gonka1yf2f…9avx7a`](https://gonka.gg/address/gonka1yf2f23sqx8fradjn7laqp0twamlhy4sj6vzwmg946ux4awfqaaes9avx7a) | — | $96,000 | Rejected |
+| 16 | [#43](https://gonkadocs.com/proposals/proposals/2026-q2/43/) | 2026-04-27 | [`gonka14zlg…p9n6ds`](https://gonka.gg/address/gonka14zlgmrd6v5gaqudxmvkn0yg8g55qpvcep9n6ds) | 104,166.0 | — | Rejected |
+| 17 | [#45](https://gonkadocs.com/proposals/proposals/2026-q2/45/) | 2026-05-01 | [`gonka14zlg…p9n6ds`](https://gonka.gg/address/gonka14zlgmrd6v5gaqudxmvkn0yg8g55qpvcep9n6ds) | 119,000.0 | — | Rejected |
+| 18 | [#47](https://gonkadocs.com/proposals/proposals/2026-q2/47/) | 2026-05-06 | [`gonka14fxt…hzsyq3`](https://gonka.gg/address/gonka14fxt7xlj74h54u5lz8epz0qeuhpka6xjhzsyq3) | 20,000.0 | — | Rejected |
+| 19 | [#50](https://gonkadocs.com/proposals/proposals/2026-q2/50/) | 2026-05-09 | [`gonka14fxt…hzsyq3`](https://gonka.gg/address/gonka14fxt7xlj74h54u5lz8epz0qeuhpka6xjhzsyq3) | 20,000.0 | — | Passed |
+| 20 | [#55](https://gonkadocs.com/proposals/proposals/2026-q2/55/) | 2026-05-23 | [`gonka14fxt…hzsyq3`](https://gonka.gg/address/gonka14fxt7xlj74h54u5lz8epz0qeuhpka6xjhzsyq3) | 4,500.0 | — | Passed |
+| 21 | [#55](https://gonkadocs.com/proposals/proposals/2026-q2/55/) | 2026-05-23 | [`gonka16j4z…lxg5jh`](https://gonka.gg/address/gonka16j4zv6723mrnycwn0qgw0j48dr9qecyclxg5jh) | 8,875.0 | — | Passed |
+| 22 | [#55](https://gonkadocs.com/proposals/proposals/2026-q2/55/) | 2026-05-23 | [`gonka100s7…3a9dn6`](https://gonka.gg/address/gonka100s7x2t0npruu9ta02306qfmaened3vg3a9dn6) | 11,062.5 | — | Passed |
+| 23 | [#55](https://gonkadocs.com/proposals/proposals/2026-q2/55/) | 2026-05-23 | [`gonka197hq…fw3y6k`](https://gonka.gg/address/gonka197hqnwcl30x4js3egvaujjmfknlxy7rmfw3y6k) | 15,284.7 | — | Passed |
+| 24 | [#64](https://gonkadocs.com/proposals/proposals/2026-q2/64/) | 2026-06-04 | [`gonka1s3tn…sdcvvm`](https://gonka.gg/address/gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm) | 28,000.0 | — | Passed |
+| 25 | [#65](https://gonkadocs.com/proposals/proposals/2026-q2/65/) | 2026-06-04 | [`gonka1s3tn…sdcvvm`](https://gonka.gg/address/gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm) | 100,000.0 | — | Passed |
+| 26 | [#70](https://gonkadocs.com/proposals/proposals/2026-q2/70/) | 2026-06-08 | [`gonka13kzs…9unpcq`](https://gonka.gg/address/gonka13kzs38qkq4uc0astlshv39kt9gpu3sr99unpcq) | 246,000.0 | — | Rejected |
+| 27 | [#80](https://gonkadocs.com/proposals/proposals/2026-q3/80/) | 2026-07-07 | [`gonka100s7…3a9dn6`](https://gonka.gg/address/gonka100s7x2t0npruu9ta02306qfmaened3vg3a9dn6) | 13,950.0 | — | Rejected |
+| 28 | [#80](https://gonkadocs.com/proposals/proposals/2026-q3/80/) | 2026-07-07 | [`gonka123pr…ug5f9a`](https://gonka.gg/address/gonka123pr0p0salv96xvne9qln70x3usvpyscug5f9a) | 4,600.0 | — | Rejected |
+| 29 | [#80](https://gonkadocs.com/proposals/proposals/2026-q3/80/) | 2026-07-07 | [`gonka16j4z…lxg5jh`](https://gonka.gg/address/gonka16j4zv6723mrnycwn0qgw0j48dr9qecyclxg5jh) | 10,800.0 | — | Rejected |
+| 30 | [#80](https://gonkadocs.com/proposals/proposals/2026-q3/80/) | 2026-07-07 | [`gonka1gmux…gzg6ry`](https://gonka.gg/address/gonka1gmuxdcxlsxn5z72elx77w9zym7yrgfxqgzg6ry) | 12,300.0 | — | Rejected |
+| 31 | [#80](https://gonkadocs.com/proposals/proposals/2026-q3/80/) | 2026-07-07 | [`gonka1ppn5…mw6a3q`](https://gonka.gg/address/gonka1ppn53fu8q3pxvwwf8ycjf3c6nzlugs3hmw6a3q) | 6,200.0 | — | Rejected |
+| 32 | [#82](https://gonkadocs.com/proposals/proposals/2026-q3/82/) | 2026-07-10 | [`gonka1g57f…lj8ayw`](https://gonka.gg/address/gonka1g57f45qjvn0529vpgj8x8mzt8r5k4audchm3pp9pezywxwf4rexqlj8ayw) | 80,000.0 | — | Passed |
+| 33 | [#84](https://gonkadocs.com/proposals/proposals/2026-q3/84/) | 2026-07-11 | [`gonka1njlf…mjplat`](https://gonka.gg/address/gonka1njlf4guhkf60tt8z4ayf4sx73nkf5vsumjplat) | 20,000.0 | — | Rejected |
+| 34 | [#85](https://gonkadocs.com/proposals/proposals/2026-q3/85/) | 2026-07-12 | [`gonka1stfu…28h3ja`](https://gonka.gg/address/gonka1stfulpj6t5mc0nekph7g7tcf7dv5mszm95xtvt6rc5repv7t5yvq28h3ja) | 600,000.0 | — | Rejected |
 
 | Metric | Value |
 | :----- | :---- |
@@ -130,6 +130,6 @@ All `MsgCommunityPoolSpend` transactions across all governance proposals. Data s
 
 ## Community Sale Wallet
 
-The `community-sale` address (`gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2`) holds proceeds from the initial community sale. These funds are disbursed through governance-approved ecosystem grants.
+The `community-sale` address ([`gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2`](https://gonka.gg/address/gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2)) holds proceeds from the initial community sale. These funds are disbursed through governance-approved ecosystem grants.
 
 *Data synced hourly from [rpc.gonka.gg](https://rpc.gonka.gg). Source: [`buildtools/update-community-pool.py`](https://github.com/Daniil-Zotov/gonkadocs/blob/main/buildtools/update-community-pool.py)*
