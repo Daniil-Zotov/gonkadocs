@@ -1,6 +1,6 @@
 {
   "section": "preproposals",
-  "snapshot_time": "2026-07-17T07:27:40.129833+00:00",
+  "snapshot_time": "2026-07-17T10:09:00.694742+00:00",
   "files": {
     "00e8a72a-e121-4ea1-8d30-95a0d51268b2/index.md": {
       "title": "Gonka.TV — амбассадор Гонки на YouTube",
@@ -193,6 +193,12 @@
       "status": "expired",
       "content_preview": "# 12+1. Team EntroPi Grant Request\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Slava MSE!\n**Created:** 2026-06-11 05:54 UTC\n**Closes:** 2026-07-11 05:54 UTC\n**Language:** EN\n**Votes:** 0\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nTeam EntroPi builds a decentralized AI orchestration layer for task decomposition, routing, and adaptive execution across multiple AI infrastructures.\n\n---\n\n## Full Proposal\n\nWhat does your team plan to build or deliver for Gonka over the next three months?\n\nOver the next three months, Team EntroPi plans to continue developing a **decentralized cognitive orchestration layer**.\n\nThe system is designed to decompose complex goals into executable tasks, route them across different types of AI infrastructure, and im",
       "checksum": "f7860426fb445a4414d139936f3d13ebf4d109834e96fa01f395eae6c4c1cab3"
+    },
+    "f9a4302d-7823-4cd4-9987-b0758569db93/index.md": {
+      "title": "Should Gonka make fallbacks to other services like OpenRouter?",
+      "status": "active",
+      "content_preview": "# Should Gonka make fallbacks to other services like OpenRouter?\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Viktor\n**Created:** 2026-07-17 08:36 UTC\n**Closes:** 2026-07-24 08:19 UTC\n**Language:** EN\n**Votes:** 0\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nНужно ли Gonka делать собственные fallbacks (на OpenRouter) на случай, когда сеть или отдельные брокеры отваливаются.\n\nРешили: польза от фаллбеков не окупает рисков\n\n---\n\n## Full Proposal\n\nКонтекст\n\nОбсуждали план — собирать много лендингов «своих брокеров» под целевые аудитории (нашими силами и силами существующих брокеров) и распределять трафик между брокерами, подходящими под конкретную ЦА, а также под обёртками технологически стабильных брокеров.\n\nВ рамках этого рассматривался вариа",
+      "checksum": "88c3bad852a1869f4a445d250e6ca95e4565c65e9bf4972fc49003498a859e30"
     },
     "fd9989ca-7c5b-4a2f-baf4-2465e6915ba6/index.md": {
       "title": "Предложение по развитию игровой экосистемы блокчейна через турнирные пулы вознаг",

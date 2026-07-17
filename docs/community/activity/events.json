@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260717100900_a6491be0",
+    "timestamp": "2026-07-17T10:09:00.176647+00:00",
+    "section": "preproposals",
+    "action": "new",
+    "item": {
+      "title": "Should Gonka make fallbacks to other services like OpenRouter?",
+      "url": "/proposals/preproposals/f9a4302d-7823-4cd4-9987-b0758569db93/",
+      "file": "f9a4302d-7823-4cd4-9987-b0758569db93/index.md"
+    },
+    "details": {
+      "status": "active",
+      "content": "# Should Gonka make fallbacks to other services like OpenRouter?\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Viktor\n**Created:** 2026-07-17 08:36 UTC\n**Closes:** 2026-07-24 08:19 UTC\n**Language:** EN\n**Votes:** 0\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nНужно ли Gonka делать собственные fallbacks (на OpenRouter) на случай, когда сеть или отдельные брокеры отваливаются.\n\nРешили: польза от фаллбеков не окупает рисков\n\n---\n\n## Full Proposal\n\nКонтекст\n\nОбсуждали план — собирать много лендингов «своих брокеров» под целевые аудитории (нашими силами и силами существующих брокеров) и распределять трафик между брокерами, подходящими под конкретную ЦА, а также под обёртками технологически стабильных брокеров.\n\nВ рамках этого рассматривался вариа"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260717090433_1d52c17f",
     "timestamp": "2026-07-17T09:04:33.636274+00:00",
     "section": "gonka_docs",

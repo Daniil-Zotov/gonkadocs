@@ -13,7 +13,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 <div class="quarter-summary" markdown="1">
 <div class="qs-stats">
-<div class="qs-stat passed"><span class="qs-num">3</span><span class="qs-desc">Active</span></div>
+<div class="qs-stat passed"><span class="qs-num">4</span><span class="qs-desc">Active</span></div>
 <div class="qs-stat"><span class="qs-num">14</span><span class="qs-desc">Votes</span></div>
 <div class="qs-stat"><span class="qs-num">1.4M GNK</span><span class="qs-desc">Total Bid</span></div>
 </div>
@@ -22,6 +22,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 | Status | Title | Author | Votes | Avg. Bid | Closes |
 | :----- | :----- | :----- | ----: | -------: | :----- |
 | 🟢 | [Улучшаем инфиренс Kimi](./d185d9eb-243f-4228-b4ac-e2c7a50a5325/) | Mitch | 6 | 0.00 GNK | 2026-07-21 |
+| 🟢 | [Should Gonka make fallbacks to other services like OpenRouter?](./f9a4302d-7823-4cd4-9987-b0758569db93/) | Viktor | 0 | 0.00 GNK | 2026-07-24 |
 | 🟢 | [Привлечение $3M+ нового капитала на Uniswap](./e0cc7d32-5d1a-49e1-94e8-0ca3d9ccbf6b/) | Andrey Orlov | 4 | 170.5K GNK | 2026-08-02 |
 | 🟢 | [Привлечение $3M+ нового капитала на Uniswap v2.0](./f341b83c-78f0-4ab2-b8fd-ddc7ac5d9c37/) | Andrey Orlov | 4 | 170.5K GNK | 2026-08-08 |
 
@@ -73,4 +74,4 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-07-17 07:27 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-07-17 10:09 UTC*
