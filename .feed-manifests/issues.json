@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-07-17T22:10:50.436608+00:00",
+  "snapshot_time": "2026-07-17T23:13:55.590062+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "Description",
@@ -1842,7 +1842,7 @@
       "title": "GitHub Issues — `gonka-ai/gonka`",
       "status": null,
       "content_preview": "# GitHub Issues — `gonka-ai/gonka`\n\nAll issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).\nTotal: **306** (🟢 open: **68**, 🔴 closed: **238**).\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"01466-better-debshardd-inference-handling/\">Better debshardd inference handling</a>\n      <span class=\"issues-number\">#1466</span>\n    </div>\n    <p class=\"issues-desc\">While reviewing this PR: https://github.com/gonka-ai/gonka/pull/1460 I have found couple of problems/ta",
-      "checksum": "bf5d020b12435e451db535ad4283a158e2d6c03c4e55754278a2e3e2fff14480"
+      "checksum": "961ccf101bbed90ef60fe710ccf7582a993db03c54e0fbd96212bf197faab764"
     },
     "labels/bug/index.md": {
       "title": "Issues: bug",
@@ -1871,20 +1871,20 @@
     "labels/no-label/index.md": {
       "title": "Issues: no-label",
       "status": null,
-      "content_preview": "# Issues: no-label\n\nIssues with label **no-label**. Total: **231**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01466-better-debshardd-inference-handling/\">Better debshardd inference handling</a>\n      <span class=\"issues-number\">#1466</span>\n    </div>\n    \n    <div class=\"issues-labels\"></div>\n    <div class=\"issues-meta\">\n      <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 12 hours ago</span>",
-      "checksum": "34f178269e349cc195ce9e995a1b5095a6cba4027fe3265b04d34ea6961a44ed"
+      "content_preview": "# Issues: no-label\n\nIssues with label **no-label**. Total: **231**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01466-better-debshardd-inference-handling/\">Better debshardd inference handling</a>\n      <span class=\"issues-number\">#1466</span>\n    </div>\n    \n    <div class=\"issues-labels\"></div>\n    <div class=\"issues-meta\">\n      <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 13 hours ago</span>",
+      "checksum": "8e7bcc9905d350edbe8ade7cf13c5636d8507530f1037818be9aebe0957076a6"
     },
     "labels/priority-high/index.md": {
       "title": "Issues: Priority: High",
       "status": null,
       "content_preview": "# Issues: Priority: High\n\nIssues with label **Priority: High**. Total: **29**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01358-inbound-bridge-votes-lost-after-upgrade-simulation-node-unav/\">Inbound bridge votes lost after upgrade simulation (node unavailable for some minutes for upgrade) — no retry, deposits stuck BRIDGE_PENDING</a>\n      <span class=\"issues-number\">#1358</span>\n    </div>\n    \n    <div cla",
-      "checksum": "420639d20194ee57e7aeab0481ee896fdc1dfcb530d04b37c1c83e2db4569fa2"
+      "checksum": "563bd490fc73694b620fc7e30e8ab83a6db037a982961b32dae841fac446d4fd"
     },
     "labels/priority-low/index.md": {
       "title": "Issues: Priority: Low",
       "status": null,
       "content_preview": "# Issues: Priority: Low\n\nIssues with label **Priority: Low**. Total: **13**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01019-subnetctl-inference-error-handling/\">subnetctl: inference error handling</a>\n      <span class=\"issues-number\">#1019</span>\n    </div>\n    \n    <div class=\"issues-labels\"><span class=\"issues-label\" style=\"background-color: #95b500; color: #24292f; border-color: #95b500;\">Priority: Low",
-      "checksum": "7e5ed3cfc80a25ff2b533f4d9af7c969a4978fde815c956838a2cf6df53a569b"
+      "checksum": "b1f9b5584fee1debf511ac179eb2925f3fb3a162688e7194cdff1bf0c608a579"
     },
     "labels/priority-medium/index.md": {
       "title": "Issues: Priority: Medium",

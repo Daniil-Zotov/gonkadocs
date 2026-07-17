@@ -6,7 +6,7 @@ template: issues-main.html
 # Issues: no-label
 
 Issues with label **no-label**. Total: **231**.
-Updated: `2026-07-17 22:10 UTC`.
+Updated: `2026-07-17 23:13 UTC`.
 
 [← All Issues](../../index.md)
 
@@ -21,7 +21,7 @@ Updated: `2026-07-17 22:10 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/a-kuprin">@a-kuprin</a> opened 12 hours ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/a-kuprin">@a-kuprin</a> opened 13 hours ago</span>
       
     </div>
   </div>
@@ -36,7 +36,7 @@ Updated: `2026-07-17 22:10 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/len5ky">@len5ky</a> opened 2 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/len5ky">@len5ky</a> opened 3 days ago</span>
       
     </div>
   </div>
@@ -411,7 +411,7 @@ Updated: `2026-07-17 22:10 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/olkwwuah">@olkwwuah</a> opened 23 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/olkwwuah">@olkwwuah</a> opened 24 days ago</span>
       
     </div>
   </div>
@@ -426,7 +426,7 @@ Updated: `2026-07-17 22:10 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/bruev">@bruev</a> opened 23 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/bruev">@bruev</a> opened 24 days ago</span>
       
     </div>
   </div>
@@ -441,7 +441,7 @@ Updated: `2026-07-17 22:10 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/appgencore">@appgencore</a> opened 23 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/appgencore">@appgencore</a> opened 24 days ago</span>
       
     </div>
   </div>
@@ -456,7 +456,7 @@ Updated: `2026-07-17 22:10 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/piterberkut">@piterberkut</a> opened 23 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/piterberkut">@piterberkut</a> opened 24 days ago</span>
       
     </div>
   </div>
