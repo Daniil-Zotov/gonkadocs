@@ -1,5 +1,85 @@
 [
   {
+    "id": "evt_20260717041932_bae05120",
+    "timestamp": "2026-07-17T04:19:32.508356+00:00",
+    "section": "preproposals",
+    "action": "updated",
+    "item": {
+      "title": "External Test Lab & Community DevNet",
+      "url": "/proposals/preproposals/205219a5-6ed2-4f25-8d22-fa7c65a45ba6/",
+      "file": "205219a5-6ed2-4f25-8d22-fa7c65a45ba6/index.md"
+    },
+    "details": {
+      "content_before": "# External Test Lab & Community DevNet\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Sergii Paranko\n**Created:** 2026-07-04 12:00 UTC\n**Closes:** 2026-07-14 11:44 UTC\n**Language:** EN\n**Votes:** 4\n**Avg. Bid:** 168.7K GNK\n\n</div>\n\n4-month pilot proposal for community-owned testing infrastructure and QA capacity.\n\n---\n\n## Full Proposal\n\nExecutive Summary\n\nThis proposal requests funding for a 4-month pilot of External Test Lab & Community DevNet: a community-owned testing function for Gonka protocol upgrades, DevShards, inference flows, host/broker operations, and geographically distributed network behavior before governance decisions and production rollout.\n\n| **Item**              | **Proposal**                                 ",
+      "content_after": "# External Test Lab & Community DevNet\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Sergii Paranko\n**Created:** 2026-07-04 12:00 UTC\n**Closes:** 2026-07-14 11:44 UTC\n**Language:** EN\n**Votes:** 4\n**Avg. Bid:** 170.5K GNK\n\n</div>\n\n4-month pilot proposal for community-owned testing infrastructure and QA capacity.\n\n---\n\n## Full Proposal\n\nExecutive Summary\n\nThis proposal requests funding for a 4-month pilot of External Test Lab & Community DevNet: a community-owned testing function for Gonka protocol upgrades, DevShards, inference flows, host/broker operations, and geographically distributed network behavior before governance decisions and production rollout.\n\n| **Item**              | **Proposal**                                 "
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260717041932_4a1d6f3d",
+    "timestamp": "2026-07-17T04:19:32.508406+00:00",
+    "section": "preproposals",
+    "action": "updated",
+    "item": {
+      "title": "Go-To-Market Team for 3 Month to Set Up the Basis",
+      "url": "/proposals/preproposals/cb7f643f-3d56-47ec-9193-f9f2f80a99fb/",
+      "file": "cb7f643f-3d56-47ec-9193-f9f2f80a99fb/index.md"
+    },
+    "details": {
+      "content_before": "# Go-To-Market Team for 3 Month to Set Up the Basis\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Dem \\| Démíngān\n**Created:** 2026-07-03 15:58 UTC\n**Closes:** 2026-07-10 15:58 UTC\n**Language:** EN\n**Votes:** 1\n**Avg. Bid:** 6.4K GNK\n\n</div>\n\nThis proposal describes ecosystem we should do for the Gonka, including basics, go-to-market actions, the team and the budgets for the next 3 months.\n\n---\n\n## Full Proposal\n\nInternal Go-To-Market Team for Gonka\n\n[Read full proposal](https://app.integrity.sh/p/SuMCnGQBhz-0asAYBUz1U)\n\n## Summary\n\nThis proposal describes a 3-month internal go-to-market team for Gonka. The goal is to set up the core GTM foundation: acquisition funnels, analytics, audience research, CRM processes, and coordinat",
+      "content_after": "# Go-To-Market Team for 3 Month to Set Up the Basis\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Dem \\| Démíngān\n**Created:** 2026-07-03 15:58 UTC\n**Closes:** 2026-07-10 15:58 UTC\n**Language:** EN\n**Votes:** 1\n**Avg. Bid:** 22.1K GNK\n\n</div>\n\nThis proposal describes ecosystem we should do for the Gonka, including basics, go-to-market actions, the team and the budgets for the next 3 months.\n\n---\n\n## Full Proposal\n\nInternal Go-To-Market Team for Gonka\n\n[Read full proposal](https://app.integrity.sh/p/SuMCnGQBhz-0asAYBUz1U)\n\n## Summary\n\nThis proposal describes a 3-month internal go-to-market team for Gonka. The goal is to set up the core GTM foundation: acquisition funnels, analytics, audience research, CRM processes, and coordina"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260717041932_00f379bf",
+    "timestamp": "2026-07-17T04:19:32.508434+00:00",
+    "section": "preproposals",
+    "action": "updated",
+    "item": {
+      "title": "Привлечение $3M+ нового капитала на Uniswap",
+      "url": "/proposals/preproposals/e0cc7d32-5d1a-49e1-94e8-0ca3d9ccbf6b/",
+      "file": "e0cc7d32-5d1a-49e1-94e8-0ca3d9ccbf6b/index.md"
+    },
+    "details": {
+      "content_before": "# Привлечение $3M+ нового капитала на Uniswap\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Andrey Orlov\n**Created:** 2026-07-03 15:10 UTC\n**Closes:** 2026-08-02 15:10 UTC\n**Language:** RU\n**Votes:** 4\n**Avg. Bid:** 168.7K GNK\n\n</div>\n\nПредлагаем за 90 дней привлечь от $3 млн нового капитала в GONKA через масштабируемую Telegram-воронку с поэтапным финансированием и KPI\n\n---\n\n## Full Proposal\n\nСуть предложения\n2. Кто мы\n3. Что мы предлагаем\n4. KPI и экономика проекта\n5. Как будет работать воронка\n6. Стратегия удержания пользователей\n7. Финансирование\n8. Вознаграждение команды \n9. Отчетность и прозрачность\n10. Что получает GONKA\n11. Дополнительные материалы\n\n1.  Суть предложения\n\nМы предлагаем реализовать маркетинговую кампанию, ",
+      "content_after": "# Привлечение $3M+ нового капитала на Uniswap\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Andrey Orlov\n**Created:** 2026-07-03 15:10 UTC\n**Closes:** 2026-08-02 15:10 UTC\n**Language:** RU\n**Votes:** 4\n**Avg. Bid:** 170.5K GNK\n\n</div>\n\nПредлагаем за 90 дней привлечь от $3 млн нового капитала в GONKA через масштабируемую Telegram-воронку с поэтапным финансированием и KPI\n\n---\n\n## Full Proposal\n\nСуть предложения\n2. Кто мы\n3. Что мы предлагаем\n4. KPI и экономика проекта\n5. Как будет работать воронка\n6. Стратегия удержания пользователей\n7. Финансирование\n8. Вознаграждение команды \n9. Отчетность и прозрачность\n10. Что получает GONKA\n11. Дополнительные материалы\n\n1.  Суть предложения\n\nМы предлагаем реализовать маркетинговую кампанию, "
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260717041932_f63e3c54",
+    "timestamp": "2026-07-17T04:19:32.508458+00:00",
+    "section": "preproposals",
+    "action": "updated",
+    "item": {
+      "title": "Gonka Media Library by Saccade",
+      "url": "/proposals/preproposals/f215996d-e562-42b5-b2b1-400226e612fa/",
+      "file": "f215996d-e562-42b5-b2b1-400226e612fa/index.md"
+    },
+    "details": {
+      "content_before": "# Gonka Media Library by Saccade\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Dem \\| Démíngān\n**Created:** 2026-07-03 11:30 UTC\n**Closes:** 2026-07-10 11:28 UTC\n**Language:** EN\n**Votes:** 1\n**Avg. Bid:** 6.4K GNK\n\n</div>\n\nGonka Media Library — Explainer Library & Platform\nExplainer series (20 ep., 40 min) + web download & self-branding platform\n\n---\n\n## Full Proposal\n\nProposal — Gonka Media Library\n\n## Project\n\n**Gonka Media Library — Explainer Library & Platform**\n\n## DAO\n\n**Gonka**\n\n## Scope\n\nExplainer series **20 episodes, 40 min total** + web download & self-branding platform.\n\n## Deliverables\n\n- **Explainer library** — 20 episodes, 40 min total, grouped into 4 horizontal long-form films, 16:9.\n- Every episode is also rel",
+      "content_after": "# Gonka Media Library by Saccade\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Dem \\| Démíngān\n**Created:** 2026-07-03 11:30 UTC\n**Closes:** 2026-07-10 11:28 UTC\n**Language:** EN\n**Votes:** 1\n**Avg. Bid:** 22.1K GNK\n\n</div>\n\nGonka Media Library — Explainer Library & Platform\nExplainer series (20 ep., 40 min) + web download & self-branding platform\n\n---\n\n## Full Proposal\n\nProposal — Gonka Media Library\n\n## Project\n\n**Gonka Media Library — Explainer Library & Platform**\n\n## DAO\n\n**Gonka**\n\n## Scope\n\nExplainer series **20 episodes, 40 min total** + web download & self-branding platform.\n\n## Deliverables\n\n- **Explainer library** — 20 episodes, 40 min total, grouped into 4 horizontal long-form films, 16:9.\n- Every episode is also re"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260717041932_a8f1e2e4",
+    "timestamp": "2026-07-17T04:19:32.508481+00:00",
+    "section": "preproposals",
+    "action": "updated",
+    "item": {
+      "title": "Привлечение $3M+ нового капитала на Uniswap v2.0",
+      "url": "/proposals/preproposals/f341b83c-78f0-4ab2-b8fd-ddc7ac5d9c37/",
+      "file": "f341b83c-78f0-4ab2-b8fd-ddc7ac5d9c37/index.md"
+    },
+    "details": {
+      "content_before": "# Привлечение $3M+ нового капитала на Uniswap v2.0\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Andrey Orlov\n**Created:** 2026-07-09 16:25 UTC\n**Closes:** 2026-08-08 16:25 UTC\n**Language:** RU\n**Votes:** 4\n**Avg. Bid:** 168.7K GNK\n\n</div>\n\nПредлагаем за 90 дней привлечь от $3 млн нового капитала в GONKA через масштабируемую Telegram-воронку с поэтапным финансированием и KPI\n\n---\n\n## Full Proposal\n\nСуть предложения\n2. Кто мы\n3. Что мы предлагаем\n4. KPI и экономика проекта\n5. Как будет работать воронка\n6. Стратегия удержания пользователей\n7. Финансирование\n8. Вознаграждение команды \n9. Отчетность и прозрачность\n10. Что получает GONKA\n11. Защита от фрода и методика расчета KPI\n12. Дополнительные материалы\n\n \n1.  Суть предложения\n\n",
+      "content_after": "# Привлечение $3M+ нового капитала на Uniswap v2.0\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Andrey Orlov\n**Created:** 2026-07-09 16:25 UTC\n**Closes:** 2026-08-08 16:25 UTC\n**Language:** RU\n**Votes:** 4\n**Avg. Bid:** 170.5K GNK\n\n</div>\n\nПредлагаем за 90 дней привлечь от $3 млн нового капитала в GONKA через масштабируемую Telegram-воронку с поэтапным финансированием и KPI\n\n---\n\n## Full Proposal\n\nСуть предложения\n2. Кто мы\n3. Что мы предлагаем\n4. KPI и экономика проекта\n5. Как будет работать воронка\n6. Стратегия удержания пользователей\n7. Финансирование\n8. Вознаграждение команды \n9. Отчетность и прозрачность\n10. Что получает GONKA\n11. Защита от фрода и методика расчета KPI\n12. Дополнительные материалы\n\n \n1.  Суть предложения\n\n"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260717041724_07308f87",
     "timestamp": "2026-07-17T04:17:24.336430+00:00",
     "section": "discussions",
