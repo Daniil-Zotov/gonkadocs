@@ -10,7 +10,7 @@ hide:
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 <small>Last updated: <!-- UPDATE_TIMESTAMP -->
-2026-07-17 15:13 UTC
+2026-07-17 15:27 UTC
 <!-- /UPDATE_TIMESTAMP --></small>
 
 ---
@@ -21,18 +21,20 @@ The Gonka network maintains three key addresses that collectively manage communi
 
 <!-- BALANCES_START -->
 <p style="margin:0.2rem 0">
-<strong>Current balance:</strong> <span style="color:var(--md-accent-fg-color,#5468ff);font-size:1.05rem;font-weight:600">103M GNK</span> · <span style="color:var(--md-accent-fg-color,#5468ff);font-size:1.05rem;font-weight:600">$10,000 USDT</span>
+<strong>Current balance:</strong> <span style="color:var(--md-accent-fg-color,#5468ff);font-size:1.05rem;font-weight:600">102,705,110 GNK</span> · <span style="color:var(--md-accent-fg-color,#5468ff);font-size:1.05rem;font-weight:600">$10,000 USDT</span>
 </p>
 <!-- BALANCES_END -->
 
 The Community Pool is the protocol-controlled treasury of the Gonka network. It accrues value through a **2% community tax** applied to every inflation reward and network fee. These funds can only be spent through a successful governance vote — no single key controls them.
 
-The USDT in the Community Pool was returned from **[proposal #42](https://gonkadocs.com/proposals/proposals/2026-q2/42/)** — the planned Global Compute Sovereignty Summit was cancelled, and the proposer returned the allocated funds. See the [return instructions](https://gonkadocs.com/community/discussion/show-and-tell/1390-how-to-return-funds-to-the-community-pool-ibc-usdt/) for details.
+Since the network genesis, the Community Pool has received continuous inflows from transaction fees and inflation rewards, funding ecosystem development, marketing initiatives, and community programmes through passed governance proposals.
+
+*The $10,000 USDT held here was returned from **[proposal #42](https://gonkadocs.com/proposals/proposals/2026-q2/42/)** — the planned Global Compute Sovereignty Summit was cancelled, and the proposer returned the allocated funds. See the [return instructions](https://gonkadocs.com/community/discussion/show-and-tell/1390-how-to-return-funds-to-the-community-pool-ibc-usdt/) for details.*
 
 **Inflow rate:** ~13,150 GNK/day (varies with block time, fee volume, and staking ratio).
 
-<details style="margin:0.5rem 0;padding:0.6rem 1rem;border:1px solid var(--md-default-fg-color--lightest);border-radius:6px;background:var(--md-code-bg-color,#00000008)">
-<summary style="cursor:pointer;font-weight:600;font-size:0.9rem">Verify on-chain</summary>
+<details style="font-size:0.85rem;opacity:0.7;margin:0.2rem 0">
+<summary style="cursor:pointer;font-weight:500">Verify on-chain</summary>
 
 ```
 curl -s https://node3.gonka.ai/chain-api/cosmos/distribution/v1beta1/community_pool
@@ -46,20 +48,22 @@ curl -s https://node3.gonka.ai/chain-api/cosmos/distribution/v1beta1/community_p
 
 **Address:** [`gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2`](https://gonka.gg/address/gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2)
 
-This address was created by **[proposal #14](/proposals/proposals/2025-q4/14/)** (passed 2025-11-27), which transferred **20,000,000 GNK** from the Community Pool to seed a community sale programme.
+This address was created by **[proposal #14](/proposals/proposals/2025-q4/14/)** (passed 2025-11-27), which transferred **20,000,000 GNK** from the Community Pool to seed a community sale programme at a fixed price of **$0.60 per GNK**. All 20M GNK have been sold.
 
-The mechanism works as a simple swap: participants deposit **USDT** and receive **GNK** at a predetermined rate. The address holds both assets — USDT collected from buyers and the remaining GNK inventory.
+The mechanism works as a simple swap: participants deposit **USDT** and receive **GNK** at the predetermined rate. The address holds both assets — USDT collected from buyers and the remaining GNK inventory.
+
+For security, sale proceeds are distributed in **tranches** rather than all at once. The contract releases batches of GNK gradually to mitigate risk and ensure safe execution.
 
 **Important:** The GNK held here is **not part of the Community Pool**. It is the undistributed balance of the sale contract — already allocated in proposal #14 and awaiting exchange. Only the USDT received from buyers is new value entering the Gonka ecosystem.
 
 <!-- SALE_BALANCE_START -->
 <p style="margin:0.2rem 0">
-<strong>Current balance:</strong> <span style="color:var(--md-accent-fg-color,#5468ff);font-size:1.05rem;font-weight:600">17M GNK (~$10M USDT)</span> · <span style="color:var(--md-accent-fg-color,#5468ff);font-size:1.05rem;font-weight:600">$814,325 USDT</span>
+<strong>Current balance:</strong> <span style="color:var(--md-accent-fg-color,#5468ff);font-size:1.05rem;font-weight:600">17,500,000 GNK (~$10,500,000 USDT)</span> · <span style="color:var(--md-accent-fg-color,#5468ff);font-size:1.05rem;font-weight:600">$814,325 USDT</span>
 </p>
 <!-- SALE_BALANCE_END -->
 
-<details style="margin:0.5rem 0;padding:0.6rem 1rem;border:1px solid var(--md-default-fg-color--lightest);border-radius:6px;background:var(--md-code-bg-color,#00000008)">
-<summary style="cursor:pointer;font-weight:600;font-size:0.9rem">Verify on-chain</summary>
+<details style="font-size:0.85rem;opacity:0.7;margin:0.2rem 0">
+<summary style="cursor:pointer;font-weight:500">Verify on-chain</summary>
 
 ```
 curl -s https://node3.gonka.ai/chain-api/cosmos/bank/v1beta1/balances/gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2
@@ -79,12 +83,12 @@ It also holds unallocated GNK set aside for governance-approved programmes that 
 
 <!-- GOV_BALANCE_START -->
 <p style="margin:0.2rem 0">
-<strong>Current balance:</strong> <span style="color:var(--md-accent-fg-color,#5468ff);font-size:1.05rem;font-weight:600">2M GNK</span>
+<strong>Current balance:</strong> <span style="color:var(--md-accent-fg-color,#5468ff);font-size:1.05rem;font-weight:600">2,249,398 GNK</span>
 </p>
 <!-- GOV_BALANCE_END -->
 
-<details style="margin:0.5rem 0;padding:0.6rem 1rem;border:1px solid var(--md-default-fg-color--lightest);border-radius:6px;background:var(--md-code-bg-color,#00000008)">
-<summary style="cursor:pointer;font-weight:600;font-size:0.9rem">Verify on-chain</summary>
+<details style="font-size:0.85rem;opacity:0.7;margin:0.2rem 0">
+<summary style="cursor:pointer;font-weight:500">Verify on-chain</summary>
 
 ```
 curl -s https://node3.gonka.ai/chain-api/cosmos/bank/v1beta1/balances/gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33

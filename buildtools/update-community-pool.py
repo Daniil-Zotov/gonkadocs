@@ -63,13 +63,7 @@ def format_balance(amount_str, denom):
     try:
         amt = int(amount_str.split(".")[0])
         if denom == "ngonka":
-            val = amt / 1_000_000_000
-            if val >= 1_000_000:
-                return f"{val/1_000_000:.0f}M"
-            elif val >= 1_000:
-                return f"{val/1_000:.0f}K"
-            else:
-                return f"{val:,.0f}"
+            return f"{amt / 1_000_000_000:,.0f}"
         elif denom == USDT_IBC_DENOM:
             return f"${amt / 1_000_000:,.0f}"
         return f"{amt} {denom}"
@@ -309,12 +303,7 @@ def generate_sale_balance_line(sale_balances):
     try:
         gnk_raw = int(gnk.split(".")[0]) / 1_000_000_000
         equiv = gnk_raw * 0.6
-        if equiv >= 1_000_000:
-            equiv_str = f"{equiv/1_000_000:.0f}M"
-        elif equiv >= 1_000:
-            equiv_str = f"{equiv/1_000:.0f}K"
-        else:
-            equiv_str = f"{equiv:,.0f}"
+        equiv_str = f"{equiv:,.0f}"
     except (ValueError, TypeError):
         equiv_str = None
     return format_balance_line(gnk_val, usdt_val, gnk_equiv_usdt=equiv_str)
