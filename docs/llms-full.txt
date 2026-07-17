@@ -23664,7 +23664,7 @@ alexanderkuprin_
 ## Overview
 
 87Total Proposals
-56Passed (64%)
+57Passed (66%)
 29Rejected (33%)
 1Failed (1%)
 
@@ -23683,16 +23683,15 @@ Models / IBC2
 
   
     #88 – Restore Kimi K2.6 and remove v1, v2
-    
-    Voting
+    Passed
   
   
     Submitted 2026-07-16
     Voting ends 2026-07-17
   
   Update current chain params to register moonshotai/Kimi-K2.6 in the governance model list and remove approved_versions v1, v2 from devshard_escrow_params (to reduce RAM usage).
-  Yes 256,253 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  ✓ Turnout 256,253 / 563,910 (45.4%) · Quorum 25% (140,977)
+  Yes 272,063 (99.8%) · No 543 (0.2%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  ✓ Turnout 272,606 / 563,910 (48.3%) · Quorum 25% (140,977)
 
   
     #87 – Remove Kimi K2.6 model
@@ -24660,7 +24659,7 @@ Models / IBC2
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-87 proposals across 5 quarters. Last updated: 2026-07-17 04:28 UTC
+87 proposals across 5 quarters. Last updated: 2026-07-17 06:38 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -60925,7 +60924,7 @@ Contract Details
 ## 2026-Q3 Summary
 
 9Total Proposals
-4Passed (44%)
+5Passed (56%)
 4Rejected (44%)
 
 Governance Parameters4
@@ -60939,16 +60938,15 @@ GRC / Restitution1
 
   
     #88 – Restore Kimi K2.6 and remove v1, v2
-    
-    Voting
+    Passed
   
   
     Submitted 2026-07-16
     Voting ends 2026-07-17
   
   Update current chain params to register moonshotai/Kimi-K2.6 in the governance model list and remove approved_versions v1, v2 from devshard_escrow_params (to reduce RAM usage).
-  Yes 256,253 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  ✓ Turnout 256,253 / 563,910 (45.4%) · Quorum 25% (140,977)
+  Yes 272,063 (99.8%) · No 543 (0.2%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  ✓ Turnout 272,606 / 563,910 (48.3%) · Quorum 25% (140,977)
 
   
     #87 – Remove Kimi K2.6 model
@@ -63040,7 +63038,7 @@ Contract Details
 
 # #88 – Restore Kimi K2.6 and remove v1, v2
 
-Voting
+Passed
 
 **Proposal ID:** `88`
 
@@ -63069,12 +63067,12 @@ Update current chain params to register moonshotai/Kimi-K2.6 in the governance m
     
   
   
-    Yes 256,253 (100.0%)
-    No 0 (0.0%)
+    Yes 272,063 (99.8%)
+    No 543 (0.2%)
     Veto 0 (0.0%)
     Abstain 0 (0.0%)
-    Total 256,253 votes
-    ✓ Turnout 256,253 / 563,910 (45.4%) · Quorum 25% (140,977)
+    Total 272,606 votes
+    ✓ Turnout 272,606 / 563,910 (48.3%) · Quorum 25% (140,977)
   
 
 ---
