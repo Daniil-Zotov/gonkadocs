@@ -3,14 +3,14 @@ title: "#1388 — External Test Lab & Community DevNet"
 source: https://github.com/gonka-ai/gonka/discussions/1388
 discussion_number: 1388
 category: proposals
-synced_at: 2026-07-15T15:45:24Z
+synced_at: 2026-07-17T10:07:48Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1388](https://github.com/gonka-ai/gonka/discussions/1388) every hour. 
 
 # External Test Lab & Community DevNet
 
-**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :bulb: Proposals · **Создано:** 2026-07-02 22:04 UTC · **Обновлено:** 2026-07-10 13:21 UTC
+**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :bulb: Proposals · **Создано:** 2026-07-02 22:04 UTC · **Обновлено:** 2026-07-17 03:08 UTC
 
 ---
 
@@ -59,15 +59,15 @@ This adds a missing validation layer for the Gonka ecosystem while complementing
 
 This proposal directly implements two projects from the [<u>Gonka Network Development Roadmap</u>](https://github.com/gonka-ai/gonka/blob/da8750873216e3a96a1ac19fbd64bbf052f2160b/proposals/gonka-network-development-roadmap.md).
 
-**Track 4. Network reliability and observability — Project 2. External testing lab  
-**The roadmap defines an external testing lab for Gonka changes before broad rollout, including changes from Protocol Maintainers, funded external teams, and ecosystem contributors.  
+**Track 4. Network reliability and observability — Project 2. External testing lab**
+The roadmap defines an external testing lab for Gonka changes before broad rollout, including changes from Protocol Maintainers, funded external teams, and ecosystem contributors.  
   
 This proposal implements that project through the External Testing Team, test plans, smoke and regression checks, defect reports, public issue tracking, and release-readiness reports.
 
-**Track 7. Public sandbox and consumer-GPU testnet — Project 1. Public testing sandbox  
-**The roadmap defines a separate test environment for experiments with models, parameters, integrations, DevShard scenarios, protocol-level behavior, validation, settlement, and upgrade testing before mainnet.
+**Track 7. Public sandbox and consumer-GPU testnet — Project 1. Public testing sandbox**
+The roadmap defines a separate test environment for experiments with models, parameters, integrations, DevShard scenarios, protocol-level behavior, validation, settlement, and upgrade testing before mainnet.
 
-This proposal implements that project through Community DevNet: a small, always-on, geographically distributed network for protocol, node, DevShard, operational, integration, and distributed-behavior testing**.**
+This proposal implements that project through Community DevNet: a small, always-on, geographically distributed network for protocol, node, DevShard, operational, integration, and distributed-behavior testing.
 
 # 4. What We Are Building
 

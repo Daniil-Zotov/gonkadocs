@@ -32,16 +32,16 @@ template: proposals-oview.html
 ## 2026-Q3 Summary
 
 <div class="qs-stats">
-<div class="qs-stat total"><span class="qs-num">7</span><span class="qs-desc">Total Proposals</span></div>
-<div class="qs-stat passed"><span class="qs-num">2</span><span class="qs-desc">Passed (29%)</span></div>
-<div class="qs-stat rejected"><span class="qs-num">4</span><span class="qs-desc">Rejected (57%)</span></div>
+<div class="qs-stat total"><span class="qs-num">9</span><span class="qs-desc">Total Proposals</span></div>
+<div class="qs-stat passed"><span class="qs-num">5</span><span class="qs-desc">Passed (56%)</span></div>
+<div class="qs-stat rejected"><span class="qs-num">4</span><span class="qs-desc">Rejected (44%)</span></div>
 
 </div>
 
 <div class="qs-categories">
-<div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:57%"></span></span><span class="qs-value">4</span></div>
-<div class="qs-row"><span class="qs-label">Governance Parameters</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:29%"></span></span><span class="qs-value">2</span></div>
-<div class="qs-row"><span class="qs-label">GRC / Restitution</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:14%"></span></span><span class="qs-value">1</span></div>
+<div class="qs-row"><span class="qs-label">Governance Parameters</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:44%"></span></span><span class="qs-value">4</span></div>
+<div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:44%"></span></span><span class="qs-value">4</span></div>
+<div class="qs-row"><span class="qs-label">GRC / Restitution</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:11%"></span></span><span class="qs-value">1</span></div>
 </div>
 
 <div class="qs-funding-line">80,000 GNK · $88,000 · Community Pool</div>
@@ -51,20 +51,47 @@ template: proposals-oview.html
 
 <div class="prop-quarter">
 <h2>2026-Q3</h2>
-<p>7 proposals</p>
-<div class="prop-card" data-status="prop-voting" data-voting-end="2026-07-16T17:53:38.781599306Z">
+<p>9 proposals</p>
+<div class="prop-card" data-status="prop-passed">
+  <div class="prop-card-header">
+    <a href="88/" class="prop-card-title">#88 – Restore Kimi K2.6 and remove v1, v2</a>
+    <span class="prop-badge prop-passed">Passed</span>
+  </div>
+  <div class="prop-card-meta">
+    <span>Submitted 2026-07-16</span>
+    <span>Voting ends 2026-07-17</span>
+  </div>
+  <div class="prop-card-desc">Update current chain params to register moonshotai/Kimi-K2.6 in the governance model list and remove approved_versions v1, v2 from devshard_escrow_params (to reduce RAM usage).</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 272,063 (99.8%)</span> · <span class="prop-tally-no-text">No 543 (0.2%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout 272,606 / 563,910 (48.3%) · Quorum 25% (140,977)</span></div>
+</div>
+
+<div class="prop-card" data-status="prop-passed">
+  <div class="prop-card-header">
+    <a href="87/" class="prop-card-title">#87 – Remove Kimi K2.6 model</a>
+    <span class="prop-badge prop-passed">Passed</span>
+  </div>
+  <div class="prop-card-meta">
+    <span>Submitted 2026-07-16</span>
+    <span>Voting ends 2026-07-16</span>
+  </div>
+  <div class="prop-card-desc">Remove moonshotai/Kimi-K2.6 from PoC params and delete it from the governance model list.</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 151,714 (100.0%)</span> · <span class="prop-tally-no-text">No 8 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout 151,722 / 344,693 (44.0%) · Quorum 25% (86,173)</span></div>
+</div>
+
+<div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
     <a href="86/" class="prop-card-title">#86 – Increase Kimi-K2.6 and GLM-5.2 weight_scale_factor by 5%</a>
-    <span class="prop-vote-countdown" data-deadline="2026-07-16T17:53:38.781599306Z"></span>
-    <span class="prop-badge prop-voting">Voting</span>
+    <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
     <span>Submitted 2026-07-14</span>
     <span>Voting ends 2026-07-16</span>
   </div>
   <div class="prop-card-desc">Increase the weight_scale_factor for moonshotai/Kimi-K2.6 from 0.90 to 0.945 (+5%) and for zai-org/GLM-5.2-FP8 from 2.47 to 2.5935 (+5%). All other model and chain parameters remain unchanged.</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 72,642 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout 72,642 / 477,228 (15.2%) · Quorum 25% (119,307)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 299,231 (98.5%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 4,445 (1.5%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout 303,676 / 564,299 (53.8%) · Quorum 25% (141,074)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">

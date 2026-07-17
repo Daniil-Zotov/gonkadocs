@@ -4,15 +4,16 @@ title: ":bulb: Proposals"
 
 # :bulb: Proposals
 
-Дискуссии в категории **:bulb: Proposals**. Всего: **45**. Обновлено: `2026-07-15 15:45 UTC`.
+Дискуссии в категории **:bulb: Proposals**. Всего: **46**. Обновлено: `2026-07-17 10:08 UTC`.
 
 [← ко всем категориям](../index.md)
 
 | # | Заголовок | Автор | Обновлено |
 |---:|---|---|---|
+| [1464](1464-dev-team-funding.md) | [Dev Team Funding](1464-dev-team-funding.md) | [@gmorgachev](https://github.com/gmorgachev) | 2026-07-17 |
 | [1445](1445-the-missing-first-mile-onboarding-gonka-from-a-newcomers-per.md) | [The missing first mile: onboarding Gonka from a newcomer’s perspective](1445-the-missing-first-mile-onboarding-gonka-from-a-newcomers-per.md) | [@julb1992](https://github.com/julb1992) | 2026-07-13 |
-| [1404](1404-add-a-lower-barrier-glm-52-option-and-consider-deepseek-v4-f.md) | [Add a lower-barrier GLM-5.2 option and consider DeepSeek-V4-Flash as the default model](1404-add-a-lower-barrier-glm-52-option-and-consider-deepseek-v4-f.md) | [@enonog](https://github.com/enonog) | 2026-07-06 |
-| [1388](1388-external-test-lab-community-devnet.md) | [External Test Lab & Community DevNet](1388-external-test-lab-community-devnet.md) | [@paranjko](https://github.com/paranjko) | 2026-07-10 |
+| [1404](1404-add-a-lower-barrier-glm-52-option-and-consider-deepseek-v4-f.md) | [Add a lower-barrier GLM-5.2 option and consider DeepSeek-V4-Flash as the default model](1404-add-a-lower-barrier-glm-52-option-and-consider-deepseek-v4-f.md) | [@enonog](https://github.com/enonog) | 2026-07-16 |
+| [1388](1388-external-test-lab-community-devnet.md) | [External Test Lab & Community DevNet](1388-external-test-lab-community-devnet.md) | [@paranjko](https://github.com/paranjko) | 2026-07-17 |
 | [1384](1384-devshard-cpoc-skip-protocol.md) | [`devshard` cPoC skip protocol](1384-devshard-cpoc-skip-protocol.md) | [@akup](https://github.com/akup) | 2026-07-01 |
 | [1369](1369-finalization-protocol-proposal-host-initiated-collectors-com.md) | [Finalization protocol proposal (host-initiated, collectors, commit certificate)](1369-finalization-protocol-proposal-host-initiated-collectors-com.md) | [@akup](https://github.com/akup) | 2026-07-01 |
 | [1367](1367-high-availability-architecture.md) | [High-Availability Architecture](1367-high-availability-architecture.md) | [@a-kuprin](https://github.com/a-kuprin) | 2026-07-10 |

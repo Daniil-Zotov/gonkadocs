@@ -8,6 +8,177 @@
    
     This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.
 
+## July 16, 2026
+
+**Proposal 88 has passed: Kimi-K2.6 re-registered, devshard v1/v2 removed**
+
+The expedited proposal 88 was approved on-chain.
+
+**Kimi-K2.6 bootstrap (epoch 331)**
+
+`moonshotai/Kimi-K2.6` is back in the governance model list and enters the standard bootstrap flow.
+
+* Declare intent before block **5,105,276** (July 17, ~12:05 UTC):
+```
+./inferenced tx inference declare-poc-intent moonshotai/Kimi-K2.6
+```
+* Switch your MLNode to Kimi in the ~500-block window before epoch 331 PoC starts (block **5,105,776** — July 17, 12:50:53 UTC / 05:50 PDT).
+* Delegating hosts: pick non-guardian Kimi hosts and spread weight across independent targets —  see the [Multi-Model PoC guide](https://gonka.ai/docs/host/multi_model_poc/).
+
+**Devshard v1/v2 removed**
+
+`versiond` has stopped the v1 and v2 `devshardd` processes. All gateway traffic must use `/devshard/v3`. If your gateway stopped serving inference after this change, you are still routing through a removed path — follow the v3 migration guide. 
+
+## July 16, 2026
+
+**Expedited governance vote (proposal 88): re-register Kimi-K2.6 and remove devshard v1/v2 runtimes**
+
+This is the second step of the Kimi recovery plan announced on July 15. Proposal 87 removed `moonshotai/Kimi-K2.6` from the active set; proposal 88 re-registers it in the governance model list so it goes through the standard bootstrap starting at epoch 331.
+
+The same proposal removes `approved_versions` v1 and v2 from `devshard_escrow_params`. Once approved, `versiond` stops the v1 and v2 `devshardd` processes and only the v3 runtime (`/devshard/v3`) keeps running. This removes the long-running RAM growth of the older runtime containers — the issue behind the network node OOM in the July 15 incident.
+
+**This makes the v3 switch final.** Gateways still routing through v1/v2 prefixes or the classic `/v1/devshard` path will stop serving inference after the proposal passes.
+
+**Required actions for hosts**
+
+1. Vote on proposal 88 before the deadline — the expedited window is short.
+2. Hosts serving Kimi: declare intent for `moonshotai/Kimi-K2.6` right **after the end of voting** and before block **5,105,276** (July 17, ~12:05 UTC), then switch your MLNode back in the ~500-block window before epoch 331 PoC starts (block **5,105,776**, July 17, ~12:50 UTC):
+```
+./inferenced tx inference declare-poc-intent moonshotai/Kimi-K2.6
+```
+3. When delegating for the bootstrap: **do not delegate to guardian nodes**; spread delegations across independent Kimi hosts. See the  [Multi-Model PoC guide](https://gonka.ai/docs/host/multi_model_poc/) for updated delegation guidance.
+4. Brokers / devshard creators: if any of your gateway traffic is still on v1/v2 or `/v1/devshard` — switch to `/devshard/v3` before the voting ends.
+
+**How to vote**
+
+If you do not have direct access to the key that holds voting power, or want another key to vote on your behalf, please refer to [the guide](https://gonka.ai/FAQ/#what-should-i-do-if-i-cannot-vote-because-i-do-not-have-access-to-the-cold-key-or-if-i-want-another-key-to-vote-on-my-behalf) on granting governance voting permission from a cold key to a warm key.
+
+Proposal details and voting are available via `inferenced`. Any active node can be used. Available nodes include:
+
+- http://node1.gonka.ai:8000
+- http://node2.gonka.ai:8000
+- https://node3.gonka.ai
+
+Cast your vote (`yes`, `no`, `abstain`, `no_with_veto`): The `--unordered` and `--timeout-duration` flags require `inferenced` from v0.2.13 or later.
+```
+export NODE_URL=https://node3.gonka.ai/
+./inferenced tx gov vote 88 yes \
+--from <cold_key_name> \
+--keyring-backend file \
+--unordered \
+--timeout-duration=60s --gas=2000000 --gas-adjustment=5.0 \
+--node $NODE_URL/chain-rpc/ \
+--chain-id gonka-mainnet \
+--yes
+```
+To check the voting status:
+```
+export NODE_URL=https://node3.gonka.ai/
+./inferenced query gov votes 88 -o json --node $NODE_URL/chain-rpc/
+```
+
+**Deadlines**
+
+- Voting Time: 2026-07-16 11:09 ~ 2026-07-16 23:09 (PDT) / 2026-07-16 18:09 ~ 2026-07-17 06:09 UTC (expedited, 0.667 yes-threshold; turnout matters, vote promptly).
+- Intent deadline (epoch 330): block **5,105,276** — July 17, ~12:05 UTC (~05:05 PDT).
+- Epoch 331 PoC starts: block **5,105,776** — July 17, 12:50 UTC (05:50 PDT).
+
+More on how the bootstrap works: [https://gonka.ai/docs/host/kimi-bootstrap/](https://gonka.ai/docs/host/kimi-bootstrap/)
+
+## July 15, 2026
+
+**Expedited governance vote (proposal 87): remove Kimi-K2.6 for a fast re-bootstrap**
+
+`moonshotai/Kimi-K2.6` lost its PoC validation majority in epochs 328–329 (see the incident [details here](https://gonka.ai/docs/network-updates/#july-15-2026)). Removing Kimi from the active set now and re-bootstrapping it is the fastest way to bring it back with minimal downtime — the same recovery path as proposal 78 in June.
+
+The proposal removes `moonshotai/Kimi-K2.6` from PoC params before the next PoC; a re-add follows immediately after, and Kimi goes through the standard bootstrap starting at epoch 331.
+
+**Required actions for hosts**
+
+1. Vote on proposal 87 before the deadline — the expedited window is short.
+2. Hosts serving Kimi: keep your Kimi setup staged and be ready to switch your MLNode back at the bootstrap PoC.
+3. When delegating for the bootstrap: do not delegate to guardian nodes; spread delegations across independent Kimi hosts.
+
+**How to vote**
+
+If you do not have direct access to the key that holds voting power, or want another key to vote on your behalf, please refer to [the guide](https://gonka.ai/FAQ/#what-should-i-do-if-i-cannot-vote-because-i-do-not-have-access-to-the-cold-key-or-if-i-want-another-key-to-vote-on-my-behalf) on granting governance voting permission from a cold key to a warm key.
+
+Proposal details and voting are available via `inferenced`. Any active node can be used. Available nodes include:
+
+- http://node1.gonka.ai:8000
+- http://node2.gonka.ai:8000
+- https://node3.gonka.ai
+  
+Cast your vote (`yes`, `no`, `abstain`, `no_with_veto`): The `--unordered` and `--timeout-duration` flags require `inferenced` from v0.2.13 or later.
+```
+export NODE_URL=https://node3.gonka.ai/
+./inferenced tx gov vote 87 yes \
+--from <cold_key_name> \
+--keyring-backend file \
+--unordered \
+--timeout-duration=60s --gas=2000000 --gas-adjustment=5.0 \
+--node $NODE_URL/chain-rpc/ \
+--chain-id gonka-mainnet \
+--yes
+```
+To check the voting status:
+```
+export NODE_URL=https://node3.gonka.ai/
+./inferenced query gov votes 87 -o json --node $NODE_URL/chain-rpc/
+```
+
+**Deadlines**
+
+* Voting Time: 2026-07-15 17:01 ~ 2026-07-16 05:01 (PDT) / 2026-07-16 00:01 ~ 2026-07-16 12:01 UTC (expedited, 0.667 yes-threshold; turnout matters, vote promptly).
+* Bootstrap intent deadline and epoch timings follow in the bootstrap instructions.
+
+## July 15, 2026
+
+**Kimi-K2.6 incident (epochs 328–329): what happened, recovery plan, and a change in delegation guidance**
+
+In epoch 328, `moonshotai/Kimi-K2.6` lost its PoC validation majority. Hosts serving Kimi were knocked out of the group at the start of epoch 329. The rest of the network kept operating normally.
+
+**What happened**
+
+Two guardian-operated servers running Kimi failed at the same time:
+
+* On one server, the MLNode running Kimi died due to a provider-side issue. A large share of Kimi delegations was concentrated on this host, so its failure removed those votes at once.
+* The second server lost its network node to an out-of-memory condition.
+
+Kimi's validation votes had been close to the 2/3 threshold the whole time, so this was enough to drop the group below the majority. The guardian tiebreaker did not engage: guardians without per-model voting weight are currently filtered out of the tiebreaker. This is a known issue, fixed in the upcoming v0.2.14 upgrade.
+
+This situation is similar to the epoch 306–307 incident. Exact details of the votes at the start of epoch 329 are still being confirmed; minor corrections to this summary are possible.
+
+**Recovery plan**
+
+The safest way to restore Kimi is to re-add it through a fresh bootstrap (~1.5 epochs):
+
+1. [Today] An expedited proposal removes Kimi before the next PoC and re-adds it immediately after. A separate announcement with the proposal ID, voting commands, and deadlines follows.
+2. [Tomorrow] Kimi goes through the standard bootstrap flow again: declare intent, deploy window, PoC store commit. Instructions will be published before the intent deadline.
+
+**Change in delegation guidance — please read**
+
+Earlier guidance (including the June 27, 2026, bootstrap announcement) suggested the guardian node as a delegation target. This recommendation is now withdrawn:
+
+* **Do not delegate to guardian nodes.** Guardians are the fallback mechanism for PoC validation. Concentrating delegations on them ties the main mechanism and the fallback to the same hardware — this incident is exactly that failure mode. A protocol-level restriction is under discussion.
+* **Avoid concentrating delegations on any single host.** Until percentage-based multi-host delegation is supported, spread delegations across several independent hosts that run the model. If you operate multiple nodes, delegate to your own node running the model.
+* **If you can run Kimi directly — this is the biggest help.** More direct hosts means more validation weight and no single point of failure.
+
+**Fixes already in the pipeline**
+
+* Guardian voting in PoC validation (guardians can always vote) — v0.2.14.
+* Self-delegation issue — v0.2.14.
+* Nonce duplicates — v0.2.14 (currently handled by the earlier API update).
+* RAM growth on network nodes — fixed in devshard v3; requires migration off v1/v2. After full migration, v1/v2 will be removed and `/v1/devshard` closed. Set separate memory limits for the `api` and `versiond` containers.
+
+**Required actions for hosts**
+
+1. Vote on the expedited Kimi proposal once it is on-chain (announcement follows).
+2. If you plan to serve Kimi: watch for the bootstrap instructions and be ready to declare intent.
+3. If you delegate for Kimi: pick a non-guardian delegate; spread weight across independent hosts where possible.
+4. Brokers: migrate devshard traffic to `/devshard/v3` now. This fixes the RAM growth issue and is required before v1/v2 removal.
+5. Check RAM on network nodes and set container memory limits (`api`, `versiond`).
+
 ## July 11, 2026
 
 **The v0.2.13-devshard-v3 runtime upgrade proposal has passed governance**
@@ -177,7 +348,9 @@ Delegate your weight to a host that runs Kimi (or send a refusal):
 ```
 ./inferenced tx inference set-poc-delegation moonshotai/Kimi-K2.6 <DELEGATEE>
 ```
-The guardian node `gonka1kx9mca3xm8u8ypzfuhmxey66u0ufxhs7nm6wc5` will run Kimi and can be used as the delegation target.
+~~The guardian node `gonka1kx9mca3xm8u8ypzfuhmxey66u0ufxhs7nm6wc5` will run Kimi and can be used as the delegation target.~~
+
+> **Update (July 15, 2026): this recommendation is withdrawn — do not delegate to guardian nodes.** Guardians are the fallback mechanism for PoC validation and must stay independent from delegations. Pick a non-guardian host that runs the model, and avoid hosts that are already major delegation targets. See the [Multi-Model PoC guide](https://gonka.ai/docs/host/multi_model_poc/) for updated delegation guidance.
 
 **Key timings**
 

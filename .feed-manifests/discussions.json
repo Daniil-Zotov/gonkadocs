@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-07-15T15:45:57.967005+00:00",
+  "snapshot_time": "2026-07-17T10:08:07.393111+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "Welcome to Gonka Discussions 👋",
@@ -53,8 +53,8 @@
     "index.md": {
       "title": "GitHub Discussions — `gonka-ai/gonka`",
       "status": null,
-      "content_preview": "# GitHub Discussions — `gonka-ai/gonka`\n\nСрез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **75**. ## 📂 Категории\n\n| Категория | Дискуссий |\n|---|---:|\n| [:mega: Announcements](announcements/index.md) | 1 |\n| [:speech_balloon: General](general/index.md) | 5 |\n| [:bulb: Proposals](proposals/index.md) | 45 |\n| [:pray: Q&A](q-a/index.md) | 3 |\n| [:raised_hands: Show and Tell](show-and-tell/index.md) | 21 |\n\n## 🕒 Последние обновлённые\n\n| # | Заголовок | Категория | Автор | Обновлено |\n|---:|---|---|---|---|\n| [1445](proposals/1445-the-missing-first-mile-onboarding-gonka-from-a-newcomers-per.md) | [The missing first mile: onboarding Gonka from a newcomer’s perspective](proposals/1445-the-missing-first-mile-onboarding-gonka-from-a-newcome",
-      "checksum": "ab87a1bff8b698e83455972998ec76e7ad26b8d286c5e56fd65b6473f5efbc72"
+      "content_preview": "# GitHub Discussions — `gonka-ai/gonka`\n\nСрез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **76**. ## 📂 Категории\n\n| Категория | Дискуссий |\n|---|---:|\n| [:mega: Announcements](announcements/index.md) | 1 |\n| [:speech_balloon: General](general/index.md) | 5 |\n| [:bulb: Proposals](proposals/index.md) | 46 |\n| [:pray: Q&A](q-a/index.md) | 3 |\n| [:raised_hands: Show and Tell](show-and-tell/index.md) | 21 |\n\n## 🕒 Последние обновлённые\n\n| # | Заголовок | Категория | Автор | Обновлено |\n|---:|---|---|---|---|\n| [1388](proposals/1388-external-test-lab-community-devnet.md) | [External Test Lab & Community DevNet](proposals/1388-external-test-lab-community-devnet.md) | :bulb: Proposals | [@paranjko](https://github.com/paranjko) | 2026-07-17 ",
+      "checksum": "11419fee5a4c359691d65285b61f06ec1218bc4ea4769d1f2951b350830a3cc4"
     },
     "proposals/0795-welcome-to-proposals.md": {
       "title": "Welcome to Proposals 👋",
@@ -312,13 +312,13 @@
       "title": "External Test Lab & Community DevNet",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1388](https://github.com/gonka-ai/gonka/discussions/1388) every hour. \n\n# External Test Lab & Community DevNet\n\n**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :bulb: Proposals · **Создано:** 2026-07-02 22:04 UTC · \n\n---\n\n## 📝 Описание\n\n# External Test Lab & Community DevNet\n\n*4-month pilot proposal for community-owned testing infrastructure and QA capacity*\n\n# 1. Executive Summary\n\nThis proposal requests funding for a 4-month pilot of External Test Lab & Community DevNet: a community-owned testing function for Gonka protocol upgrades, DevShards, inference flows, host/broker operations, and geographically distributed network behavior before governance decisions and production rollout.\n\n| **Item**              | **Proposal**         ",
-      "checksum": "477f752cc89ae7caf254abe3b9c4357c131a615e1d57df84d993d92b3fc2f4c1"
+      "checksum": "9d83200dc09ac2bd0d91f902a6b6d656b3102d825a3d8e4fde1b923be0b6aac7"
     },
     "proposals/1404-add-a-lower-barrier-glm-52-option-and-consider-deepseek-v4-f.md": {
       "title": "Add a lower-barrier GLM-5.2 option and consider DeepSeek-V4-Flash as the default model",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1404](https://github.com/gonka-ai/gonka/discussions/1404) every hour. \n\n# Add a lower-barrier GLM-5.2 option and consider DeepSeek-V4-Flash as the default model\n\n**Автор:** [@enonog](https://github.com/enonog) · **Категория:** :bulb: Proposals · **Создано:** 2026-07-05 23:32 UTC · \n\n---\n\n## 📝 Описание\n\nAt the moment, the network has very limited active capacity for `GLM-5.2`. Most hosts are concentrated on `MiniMaxAI/MiniMax-M2.7`, while only a smaller number are serving `Kimi-K2.6`, and GLM-5.2 host adoption is still very low.\n\nThe current official GLM-5.2 model is `zai-org/GLM-5.2-FP8`, but its resource requirements are high. This makes it harder for more hosts to choose GLM-5.2, even though GLM-5.2 is one of the most attractive open models for coding",
-      "checksum": "d7ddb8c6ac9900091e391449b7f3f62b0cbc295d60664c7068228035a9406d91"
+      "checksum": "4e674e79746a38b811e3c568e6ba75b31d400dfbc749fa8ace3998b1da24bc34"
     },
     "proposals/1445-the-missing-first-mile-onboarding-gonka-from-a-newcomers-per.md": {
       "title": "The missing first mile: onboarding Gonka from a newcomer’s perspective",
@@ -326,11 +326,17 @@
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1445](https://github.com/gonka-ai/gonka/discussions/1445) every hour. \n\n# The missing first mile: onboarding Gonka from a newcomer’s perspective\n\n**Автор:** [@julb1992](https://github.com/julb1992) · **Категория:** :bulb: Proposals · **Создано:** 2026-07-12 20:31 UTC · \n\n---\n\n## 📝 Описание\n\n**Motivation**\n\nOver the past two weeks, I have spent a significant amount of time trying to understand Gonka as a non-technical newcomer.\n\nI initially discovered Gonka through GNK. From there, I tried to understand the full economic and technical model: Hosts, GPU economics, PoC, collateral, vesting, GNK vs WGNK, bridging, HeX, NOP, gateways, brokers, devshards, and finally the fundamental role of Developers in the network economy.\n\nThe information exists. The docum",
       "checksum": "6993df26826715bbd25dc63e5fda0a2bab1c742c6c51fe2c4d10dfa2b86b26cc"
     },
+    "proposals/1464-dev-team-funding.md": {
+      "title": "Dev Team Funding",
+      "status": null,
+      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1464](https://github.com/gonka-ai/gonka/discussions/1464) every hour. \n\n# Dev Team Funding\n\n**Автор:** [@gmorgachev](https://github.com/gmorgachev) · **Категория:** :bulb: Proposals · **Создано:** 2026-07-17 01:38 UTC · \n\n---\n\n## 📝 Описание\n\nHello everyone! I am Gleb Morgachev, one of Gonka's co-creators.\n\nIn the next couple of weeks, I plan to submit a proposal requesting 1.5 million USDT from the community pool. The funding would support an independent engineering team working on core protocol development aligned with the community roadmap. It would cover the team and expenses directly related to its work, not servers or GPU infrastructure for mining.\n\n## Scope\n\nThis independent team would be a small group of top-tier engineers working on Gonka's core",
+      "checksum": "cf63555c9a0a013a82863b12121fffb3946a498d6413a62486cef88da2456439"
+    },
     "proposals/index.md": {
       "title": ":bulb: Proposals",
       "status": null,
-      "content_preview": "# :bulb: Proposals\n\nДискуссии в категории **:bulb: Proposals**. Всего: **45**. [← ко всем категориям](../index.md)\n\n| # | Заголовок | Автор | Обновлено |\n|---:|---|---|---|\n| [1445](1445-the-missing-first-mile-onboarding-gonka-from-a-newcomers-per.md) | [The missing first mile: onboarding Gonka from a newcomer’s perspective](1445-the-missing-first-mile-onboarding-gonka-from-a-newcomers-per.md) | [@julb1992](https://github.com/julb1992) | 2026-07-13 |\n| [1404](1404-add-a-lower-barrier-glm-52-option-and-consider-deepseek-v4-f.md) | [Add a lower-barrier GLM-5.2 option and consider DeepSeek-V4-Flash as the default model](1404-add-a-lower-barrier-glm-52-option-and-consider-deepseek-v4-f.md) | [@enonog](https://github.com/enonog) | 2026-07-06 |\n| [1388](1388-external-test-lab-community-devnet.md",
-      "checksum": "34dbb50cd4bbebbc82a6b59805c49de7c0b5c8a10b0ad8c8ed92cd46eae8686d"
+      "content_preview": "# :bulb: Proposals\n\nДискуссии в категории **:bulb: Proposals**. Всего: **46**. [← ко всем категориям](../index.md)\n\n| # | Заголовок | Автор | Обновлено |\n|---:|---|---|---|\n| [1464](1464-dev-team-funding.md) | [Dev Team Funding](1464-dev-team-funding.md) | [@gmorgachev](https://github.com/gmorgachev) | 2026-07-17 |\n| [1445](1445-the-missing-first-mile-onboarding-gonka-from-a-newcomers-per.md) | [The missing first mile: onboarding Gonka from a newcomer’s perspective](1445-the-missing-first-mile-onboarding-gonka-from-a-newcomers-per.md) | [@julb1992](https://github.com/julb1992) | 2026-07-13 |\n| [1404](1404-add-a-lower-barrier-glm-52-option-and-consider-deepseek-v4-f.md) | [Add a lower-barrier GLM-5.2 option and consider DeepSeek-V4-Flash as the default model](1404-add-a-lower-barrier-glm-52",
+      "checksum": "0afd0e2f59d035c6844271bfd94945d8b4318615681948aa54cf068016c69933"
     },
     "q-a/0796-are-there-plans-to-add-prompt-level-confidentiality-for-host.md": {
       "title": "Are there plans to add prompt-level confidentiality for hosts?",
