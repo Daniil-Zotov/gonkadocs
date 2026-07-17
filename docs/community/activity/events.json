@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260717090433_1d52c17f",
+    "timestamp": "2026-07-17T09:04:33.636274+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "Announcements",
+      "url": "/gonka/docs/network-updates/",
+      "file": "network-updates.md"
+    },
+    "details": {
+      "content_before": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## July 16, 2026\n\n**Expedited governance vote (proposal 88): re-register Kimi-K2.6 and remove devshard v1/v2 runtimes**\n\nThis is the second step of the Kimi recovery plan announced on July 15. Proposal 87 removed `moonshotai/Kimi-K2.6` from the active set; ",
+      "content_after": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## July 16, 2026\n\n**Proposal 88 has passed: Kimi-K2.6 re-registered, devshard v1/v2 removed**\n\nThe expedited proposal 88 was approved on-chain.\n\n**Kimi-K2.6 bootstrap (epoch 331)**\n\n`moonshotai/Kimi-K2.6` is back in the governance model list and enters the "
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260717063856_707eccb1",
     "timestamp": "2026-07-17T06:38:56.777327+00:00",
     "section": "proposals",

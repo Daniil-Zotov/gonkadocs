@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-07-17T06:11:23.168545+00:00",
+  "snapshot_time": "2026-07-17T09:04:34.321600+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -293,8 +293,8 @@
     "network-updates.md": {
       "title": "Announcements",
       "status": null,
-      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## July 16, 2026\n\n**Expedited governance vote (proposal 88): re-register Kimi-K2.6 and remove devshard v1/v2 runtimes**\n\nThis is the second step of the Kimi recovery plan announced on July 15. Proposal 87 removed `moonshotai/Kimi-K2.6` from the active set; ",
-      "checksum": "ffd201a707f87d2f58aada446ea80e82a52764d0873516ea945ea8db34fa85b9"
+      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## July 16, 2026\n\n**Proposal 88 has passed: Kimi-K2.6 re-registered, devshard v1/v2 removed**\n\nThe expedited proposal 88 was approved on-chain.\n\n**Kimi-K2.6 bootstrap (epoch 331)**\n\n`moonshotai/Kimi-K2.6` is back in the governance model list and enters the ",
+      "checksum": "5a10f5ab51e19095d39237d0cf960989dff9ef111ae6144a213e2f25e8980235"
     },
     "participant/README.md": {
       "title": "Redirecting to Host Section",
