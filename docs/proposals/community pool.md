@@ -10,7 +10,7 @@ hide:
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 <small>Last updated: <!-- UPDATE_TIMESTAMP -->
-2026-07-17 15:27 UTC
+2026-07-17 15:36 UTC
 <!-- /UPDATE_TIMESTAMP --></small>
 
 ---
@@ -21,7 +21,7 @@ The Gonka network maintains three key addresses that collectively manage communi
 
 <!-- BALANCES_START -->
 <p style="margin:0.2rem 0">
-<strong>Current balance:</strong> <span style="color:var(--md-accent-fg-color,#5468ff);font-size:1.05rem;font-weight:600">102,705,110 GNK</span> · <span style="color:var(--md-accent-fg-color,#5468ff);font-size:1.05rem;font-weight:600">$10,000 USDT</span>
+<strong>Current balance:</strong> <span style="color:var(--md-accent-fg-color,#5468ff);font-size:0.95rem;font-weight:600">102,705,110 GNK</span> · <span style="color:var(--md-accent-fg-color,#5468ff);font-size:0.95rem;font-weight:600">$10,000 USDT</span>
 </p>
 <!-- BALANCES_END -->
 
@@ -33,7 +33,7 @@ Since the network genesis, the Community Pool has received continuous inflows fr
 
 **Inflow rate:** ~13,150 GNK/day (varies with block time, fee volume, and staking ratio).
 
-<details style="font-size:0.85rem;opacity:0.7;margin:0.2rem 0">
+<details style="font-size:0.8rem;opacity:0.7;margin:0.2rem 0 0.2rem 0.5rem">
 <summary style="cursor:pointer;font-weight:500">Verify on-chain</summary>
 
 ```
@@ -48,7 +48,13 @@ curl -s https://node3.gonka.ai/chain-api/cosmos/distribution/v1beta1/community_p
 
 **Address:** [`gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2`](https://gonka.gg/address/gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2)
 
-This address was created by **[proposal #14](/proposals/proposals/2025-q4/14/)** (passed 2025-11-27), which transferred **20,000,000 GNK** from the Community Pool to seed a community sale programme at a fixed price of **$0.60 per GNK**. All 20M GNK have been sold.
+<!-- SALE_BALANCE_START -->
+<p style="margin:0.2rem 0">
+<strong>Current balance:</strong> <span style="color:grey;font-size:0.95rem;font-weight:600">17,500,000 GNK (~$10,500,000 USDT)</span> · <span style="color:var(--md-accent-fg-color,#5468ff);font-size:0.95rem;font-weight:600">$814,325 USDT</span>
+</p>
+<!-- SALE_BALANCE_END -->
+
+This address was created by **[proposal #14](/proposals/proposals/2025-q4/14/)** (passed 2025-11-27), which transferred **20,000,000 GNK** from the Community Pool to seed a community sale programme at a fixed price of **$0.60 per GNK**.
 
 The mechanism works as a simple swap: participants deposit **USDT** and receive **GNK** at the predetermined rate. The address holds both assets — USDT collected from buyers and the remaining GNK inventory.
 
@@ -56,13 +62,7 @@ For security, sale proceeds are distributed in **tranches** rather than all at o
 
 **Important:** The GNK held here is **not part of the Community Pool**. It is the undistributed balance of the sale contract — already allocated in proposal #14 and awaiting exchange. Only the USDT received from buyers is new value entering the Gonka ecosystem.
 
-<!-- SALE_BALANCE_START -->
-<p style="margin:0.2rem 0">
-<strong>Current balance:</strong> <span style="color:var(--md-accent-fg-color,#5468ff);font-size:1.05rem;font-weight:600">17,500,000 GNK (~$10,500,000 USDT)</span> · <span style="color:var(--md-accent-fg-color,#5468ff);font-size:1.05rem;font-weight:600">$814,325 USDT</span>
-</p>
-<!-- SALE_BALANCE_END -->
-
-<details style="font-size:0.85rem;opacity:0.7;margin:0.2rem 0">
+<details style="font-size:0.8rem;opacity:0.7;margin:0.2rem 0 0.2rem 0.5rem">
 <summary style="cursor:pointer;font-weight:500">Verify on-chain</summary>
 
 ```
@@ -77,17 +77,17 @@ curl -s https://node3.gonka.ai/chain-api/cosmos/bank/v1beta1/balances/gonka18pkq
 
 **Address:** [`gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33`](https://gonka.gg/address/gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33)
 
+<!-- GOV_BALANCE_START -->
+<p style="margin:0.2rem 0">
+<strong>Current balance:</strong> <span style="color:var(--md-accent-fg-color,#5468ff);font-size:0.95rem;font-weight:600">2,249,398 GNK</span>
+</p>
+<!-- GOV_BALANCE_END -->
+
 The Gov Module authority is the only address permitted to execute `MsgCommunityPoolSpend` transfers from the Community Pool. When a governance proposal passes, this address signs and sends the requested funds to the specified recipient.
 
 It also holds unallocated GNK set aside for governance-approved programmes that use batch-vesting or multi-send distributions.
 
-<!-- GOV_BALANCE_START -->
-<p style="margin:0.2rem 0">
-<strong>Current balance:</strong> <span style="color:var(--md-accent-fg-color,#5468ff);font-size:1.05rem;font-weight:600">2,249,398 GNK</span>
-</p>
-<!-- GOV_BALANCE_END -->
-
-<details style="font-size:0.85rem;opacity:0.7;margin:0.2rem 0">
+<details style="font-size:0.8rem;opacity:0.7;margin:0.2rem 0 0.2rem 0.5rem">
 <summary style="cursor:pointer;font-weight:500">Verify on-chain</summary>
 
 ```

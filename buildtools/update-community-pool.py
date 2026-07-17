@@ -71,17 +71,19 @@ def format_balance(amount_str, denom):
         return str(amount_str)
 
 
-def format_balance_line(gnk_val, usdt_val, show_gnk=True, show_usdt=True, gnk_equiv_usdt=None):
-    STYLE = 'color:var(--md-accent-fg-color,#5468ff);font-size:1.05rem;font-weight:600'
+def format_balance_line(gnk_val, usdt_val, show_gnk=True, show_usdt=True, gnk_equiv_usdt=None, gnk_color=None):
+    COMMON = 'font-size:0.95rem;font-weight:600'
+    BLUE = f'color:var(--md-accent-fg-color,#5468ff);{COMMON}'
+    gnk_style = f'color:{gnk_color};{COMMON}' if gnk_color else BLUE
     parts = []
     if show_gnk and gnk_val:
-        gnk_html = f'<span style="{STYLE}">{gnk_val} GNK'
+        gnk_html = f'<span style="{gnk_style}">{gnk_val} GNK'
         if gnk_equiv_usdt:
             gnk_html += f' (~${gnk_equiv_usdt} USDT)'
         gnk_html += '</span>'
         parts.append(gnk_html)
     if show_usdt and usdt_val:
-        parts.append(f'<span style="{STYLE}">{usdt_val} USDT</span>')
+        parts.append(f'<span style="{BLUE}">{usdt_val} USDT</span>')
     return (
         '<p style="margin:0.2rem 0">\n'
         + "<strong>Current balance:</strong> "
@@ -306,7 +308,7 @@ def generate_sale_balance_line(sale_balances):
         equiv_str = f"{equiv:,.0f}"
     except (ValueError, TypeError):
         equiv_str = None
-    return format_balance_line(gnk_val, usdt_val, gnk_equiv_usdt=equiv_str)
+    return format_balance_line(gnk_val, usdt_val, gnk_equiv_usdt=equiv_str, gnk_color="grey")
 
 
 def generate_gov_balance_line(gov_balances):
