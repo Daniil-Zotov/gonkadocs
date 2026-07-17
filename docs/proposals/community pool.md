@@ -40,7 +40,7 @@ The Gonka network maintains three key addresses that collectively manage communi
 ## Current Balances
 
 <small>Last updated: <!-- UPDATE_TIMESTAMP -->
-2026-07-17 14:17 UTC
+2026-07-17 14:20 UTC
 <!-- /UPDATE_TIMESTAMP --></small>
 
 <!-- BALANCES_START -->
@@ -75,10 +75,9 @@ The Gonka network maintains three key addresses that collectively manage communi
 
 All `MsgCommunityPoolSpend` transactions across all governance proposals. Data sourced from on-chain proposal messages.
 
+<!-- SPENT_HISTORY_START -->
 | # | Proposal | Date | Recipient | Amount GNK | Amount USDT | Status |
 | :-: | :------ | :--: | :-------- | ---------: | ---------: | :----: |
-
-<!-- SPENT_HISTORY_START -->
 | 1 | [#14](https://gonkadocs.com/proposals/proposals/2025-q4/14/) | 2025-11-27 | `gonka18pkq…pk8pz2` | 20,000,000.0 | — | Passed |
 | 2 | [#32](https://gonkadocs.com/proposals/proposals/2026-q1/32/) | 2026-03-24 | `gonka1t7mc…sv4yzu` | 500.0 | — | Passed |
 | 3 | [#33](https://gonkadocs.com/proposals/proposals/2026-q1/33/) | 2026-03-27 | `gonka197hq…fw3y6k` | 2,500.0 | — | Passed |

@@ -218,10 +218,13 @@ def generate_balances_table(gnk_pool, usdt_pool, sale_balances, gov_balances):
 
 
 def generate_spend_table(spends):
+    rows = [
+        "| # | Proposal | Date | Recipient | Amount GNK | Amount USDT | Status |",
+        "| :-: | :------ | :--: | :-------- | ---------: | ---------: | :----: |",
+    ]
     if not spends:
-        return "| — | — | — | — | — | — | — |\n"
+        return "\n".join(rows) + "\n| — | — | — | — | — | — | — |\n"
 
-    rows = []
     # Sort by date then pid
     spends_sorted = sorted(spends, key=lambda s: (s["date"], int(s["pid"])))
     for i, s in enumerate(spends_sorted, 1):
