@@ -6,7 +6,7 @@ template: issues-main.html
 # Issues: no-label
 
 Issues with label **no-label**. Total: **231**.
-Updated: `2026-07-17 12:42 UTC`.
+Updated: `2026-07-17 14:58 UTC`.
 
 [← All Issues](../../index.md)
 
@@ -21,7 +21,7 @@ Updated: `2026-07-17 12:42 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@a-kuprin](https://github.com/a-kuprin) opened 2 hours ago</span>
+      <span class="issues-meta-item">[@a-kuprin](https://github.com/a-kuprin) opened 4 hours ago</span>
       
     </div>
   </div>

@@ -2,7 +2,7 @@
 title: "#320 — [P0] Internal TestNet: k8 / another scripts with new servers"
 source: https://github.com/gonka-ai/gonka/issues/320
 issue_number: 320
-synced_at: 2026-07-17T12:42:18Z
+synced_at: 2026-07-17T14:58:38Z
 template: issues-main.html
 ---
 
