@@ -28,11 +28,13 @@ The Gonka network maintains three key addresses that collectively manage communi
       ```
     - **Account balances**: query the bank module  
       ```
-      curl -s https://node3.gonka.ai/chain-api/cosmos/bank/v1beta1/balances/{address}
+      curl -s https://node3.gonka.ai/chain-api/cosmos/bank/v1beta1/balances/gonka1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8h2rzwa
+      curl -s https://node3.gonka.ai/chain-api/cosmos/bank/v1beta1/balances/gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2
+      curl -s https://node3.gonka.ai/chain-api/cosmos/bank/v1beta1/balances/gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33
       ```
     - **Transactions**: use the Tendermint RPC  
       ```
-      curl -s 'https://rpc.gonka.gg/tx_search?query="transfer.recipient='"'"'{address}'"'"'"&per_page=10'
+      curl -s 'https://rpc.gonka.gg/tx_search?query="transfer.recipient='\''gonka1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8h2rzwa'\''"&per_page=10'
       ```
 
 ---
