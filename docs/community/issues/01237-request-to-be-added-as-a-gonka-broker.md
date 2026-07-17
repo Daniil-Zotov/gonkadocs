@@ -2,7 +2,7 @@
 title: "#1237 — Request to be added as a Gonka broker"
 source: https://github.com/gonka-ai/gonka/issues/1237
 issue_number: 1237
-synced_at: 2026-07-17T14:55:33Z
+synced_at: 2026-07-17T16:36:56Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@piterberkut](https://github.com/piterberkut) opened 2026-05-23 13:54 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/piterberkut">@piterberkut</a> opened 2026-05-23 13:54 UTC</span>
     <span class="issues-meta-item">2 comments</span>
     <span class="issues-meta-item">Updated 2026-06-23 22:46 UTC</span>
   </div>
@@ -96,7 +96,7 @@ Thanks!
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@piterberkut](https://github.com/piterberkut)</span>
+    <span><a href="https://github.com/piterberkut">@piterberkut</a></span>
     <span class="issues-meta-item">commented 2026-05-28 18:43 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -105,7 +105,7 @@ Thanks!
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-06-23 22:46 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

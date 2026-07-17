@@ -2,7 +2,7 @@
 title: "#557 — Remove extraneous community account"
 source: https://github.com/gonka-ai/gonka/issues/557
 issue_number: 557
-synced_at: 2026-07-17T14:58:25Z
+synced_at: 2026-07-17T16:38:47Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@patimen](https://github.com/patimen) opened 2026-01-14 20:18 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/patimen">@patimen</a> opened 2026-01-14 20:18 UTC</span>
     <span class="issues-meta-item">0 comments</span>
     <span class="issues-meta-item">Updated 2026-01-15 21:29 UTC</span>
   </div>

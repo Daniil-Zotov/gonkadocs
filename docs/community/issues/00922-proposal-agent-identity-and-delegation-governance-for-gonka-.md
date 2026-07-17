@@ -2,7 +2,7 @@
 title: "#922 — Proposal: Agent identity and delegation governance for Gonka compute"
 source: https://github.com/gonka-ai/gonka/issues/922
 issue_number: 922
-synced_at: 2026-07-17T14:56:45Z
+synced_at: 2026-07-17T16:37:41Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@aeoess](https://github.com/aeoess) opened 2026-03-20 00:42 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/aeoess">@aeoess</a> opened 2026-03-20 00:42 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-03-22 19:48 UTC</span>
   </div>
@@ -58,7 +58,7 @@ Site: https://aeoess.com
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@aeoess](https://github.com/aeoess)</span>
+    <span><a href="https://github.com/aeoess">@aeoess</a></span>
     <span class="issues-meta-item">commented 2026-03-21 17:14 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

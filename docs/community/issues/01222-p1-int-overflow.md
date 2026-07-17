@@ -2,7 +2,7 @@
 title: "#1222 — [P1] Int overflow"
 source: https://github.com/gonka-ai/gonka/issues/1222
 issue_number: 1222
-synced_at: 2026-07-17T14:55:07Z
+synced_at: 2026-07-17T16:36:39Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-05-21 22:30 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-05-21 22:30 UTC</span>
     <span class="issues-meta-item">4 comments</span>
     <span class="issues-meta-item">Updated 2026-07-08 09:54 UTC</span>
   </div>
@@ -31,7 +31,7 @@ The goal of this is to have in place after this a standard way of handling possi
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@olegsuhoparov](https://github.com/olegsuhoparov)</span>
+    <span><a href="https://github.com/olegsuhoparov">@olegsuhoparov</a></span>
     <span class="issues-meta-item">commented 2026-06-30 13:00 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -42,7 +42,7 @@ The goal of this is to have in place after this a standard way of handling possi
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Mayveskii](https://github.com/Mayveskii)</span>
+    <span><a href="https://github.com/Mayveskii">@Mayveskii</a></span>
     <span class="issues-meta-item">commented 2026-07-07 10:08 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -65,7 +65,7 @@ The goal of this is to have in place after this a standard way of handling possi
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@olegsuhoparov](https://github.com/olegsuhoparov)</span>
+    <span><a href="https://github.com/olegsuhoparov">@olegsuhoparov</a></span>
     <span class="issues-meta-item">commented 2026-07-08 08:51 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -77,7 +77,7 @@ The goal of this is to have in place after this a standard way of handling possi
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Mayveskii](https://github.com/Mayveskii)</span>
+    <span><a href="https://github.com/Mayveskii">@Mayveskii</a></span>
     <span class="issues-meta-item">commented 2026-07-08 09:53 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

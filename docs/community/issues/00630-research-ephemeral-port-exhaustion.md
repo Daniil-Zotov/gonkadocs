@@ -2,7 +2,7 @@
 title: "#630 — Research: Ephemeral port exhaustion"
 source: https://github.com/gonka-ai/gonka/issues/630
 issue_number: 630
-synced_at: 2026-07-17T14:56:46Z
+synced_at: 2026-07-17T16:37:42Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-23 20:09 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-23 20:09 UTC</span>
     <span class="issues-meta-item">3 comments</span>
     <span class="issues-meta-item">Updated 2026-03-21 19:24 UTC</span>
   </div>
@@ -36,7 +36,7 @@ After that, feel free to contact me on Discord: `tatianacharchian_07833`.
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
+    <span><a href="https://github.com/AlexeySamosadov">@AlexeySamosadov</a></span>
     <span class="issues-meta-item">commented 2026-01-24 21:13 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -106,7 +106,7 @@ Creates new <code>http.Client</code> for each health check call.</p>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-01-29 00:21 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -115,7 +115,7 @@ Creates new <code>http.Client</code> for each health check call.</p>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
+    <span><a href="https://github.com/AlexeySamosadov">@AlexeySamosadov</a></span>
     <span class="issues-meta-item">commented 2026-02-08 14:14 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

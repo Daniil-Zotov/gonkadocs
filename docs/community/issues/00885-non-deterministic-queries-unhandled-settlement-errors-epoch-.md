@@ -2,7 +2,7 @@
 title: "#885 — Non-deterministic queries, unhandled settlement errors, epoch stats underflow"
 source: https://github.com/gonka-ai/gonka/issues/885
 issue_number: 885
-synced_at: 2026-07-17T14:56:08Z
+synced_at: 2026-07-17T16:37:18Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@unameisfine](https://github.com/unameisfine) opened 2026-03-13 19:29 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/unameisfine">@unameisfine</a> opened 2026-03-13 19:29 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-04-27 22:46 UTC</span>
   </div>
@@ -72,7 +72,7 @@ Four error return values are silently discarded in the settlement path:
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@unameisfine](https://github.com/unameisfine)</span>
+    <span><a href="https://github.com/unameisfine">@unameisfine</a></span>
     <span class="issues-meta-item">commented 2026-04-27 22:46 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

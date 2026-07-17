@@ -2,7 +2,7 @@
 title: "#1080 — Bridge: Stale epoch keys can authorize withdrawals up to 365 epochs after rotation"
 source: https://github.com/gonka-ai/gonka/issues/1080
 issue_number: 1080
-synced_at: 2026-07-17T14:55:05Z
+synced_at: 2026-07-17T16:36:37Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item">[@Doog-bot534](https://github.com/Doog-bot534) opened 2026-04-16 03:24 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/Doog-bot534">@Doog-bot534</a> opened 2026-04-16 03:24 UTC</span>
     <span class="issues-meta-item">2 comments</span>
     <span class="issues-meta-item">Updated 2026-07-10 05:34 UTC</span>
   </div>
@@ -84,7 +84,7 @@ Payout address: `gonka10zaal553duxp05nvfpqtsqrm2g0j6j34r8nan7`
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Ryanchen911](https://github.com/Ryanchen911)</span>
+    <span><a href="https://github.com/Ryanchen911">@Ryanchen911</a></span>
     <span class="issues-meta-item">commented 2026-06-23 05:59 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -93,7 +93,7 @@ Payout address: `gonka10zaal553duxp05nvfpqtsqrm2g0j6j34r8nan7`
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-06-25 01:46 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

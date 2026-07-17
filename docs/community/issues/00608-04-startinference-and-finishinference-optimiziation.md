@@ -2,7 +2,7 @@
 title: "#608 — [0/4] `StartInference` and `FinishInference`: optimiziation"
 source: https://github.com/gonka-ai/gonka/issues/608
 issue_number: 608
-synced_at: 2026-07-17T14:57:01Z
+synced_at: 2026-07-17T16:37:52Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@libermans](https://github.com/libermans) opened 2026-01-19 01:05 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/libermans">@libermans</a> opened 2026-01-19 01:05 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-03-11 20:01 UTC</span>
   </div>
@@ -46,7 +46,7 @@ Unfortunately as TA signature doesn't derived from request original hash, it may
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@gmorgachev](https://github.com/gmorgachev)</span>
+    <span><a href="https://github.com/gmorgachev">@gmorgachev</a></span>
     <span class="issues-meta-item">commented 2026-03-11 20:01 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

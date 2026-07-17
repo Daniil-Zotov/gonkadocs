@@ -2,7 +2,7 @@
 title: "#1167 — `devshards` Optimizations for v0.2.13 db usage"
 source: https://github.com/gonka-ai/gonka/issues/1167
 issue_number: 1167
-synced_at: 2026-07-17T14:55:45Z
+synced_at: 2026-07-17T16:37:04Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item">[@akup](https://github.com/akup) opened 2026-05-14 15:47 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/akup">@akup</a> opened 2026-05-14 15:47 UTC</span>
     <span class="issues-meta-item">0 comments</span>
     <span class="issues-meta-item">Updated 2026-05-25 18:37 UTC</span>
   </div>

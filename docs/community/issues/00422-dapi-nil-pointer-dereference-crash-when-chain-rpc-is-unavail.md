@@ -2,7 +2,7 @@
 title: "#422 — DAPI  nil pointer dereference crash when chain RPC is unavailable"
 source: https://github.com/gonka-ai/gonka/issues/422
 issue_number: 422
-synced_at: 2026-07-17T14:57:18Z
+synced_at: 2026-07-17T16:38:03Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@mfursov](https://github.com/mfursov) opened 2025-11-10 02:37 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/mfursov">@mfursov</a> opened 2025-11-10 02:37 UTC</span>
     <span class="issues-meta-item">2 comments</span>
     <span class="issues-meta-item">Updated 2026-02-10 03:59 UTC</span>
   </div>
@@ -63,7 +63,7 @@ func (a *Assigner) tryClaimingTaskToAssign() {
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
+    <span><a href="https://github.com/AlexeySamosadov">@AlexeySamosadov</a></span>
     <span class="issues-meta-item">commented 2026-01-24 21:05 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -72,7 +72,7 @@ func (a *Assigner) tryClaimingTaskToAssign() {
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@mtvnastya](https://github.com/mtvnastya)</span>
+    <span><a href="https://github.com/mtvnastya">@mtvnastya</a></span>
     <span class="issues-meta-item">commented 2026-02-10 03:59 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

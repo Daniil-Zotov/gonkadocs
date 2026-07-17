@@ -2,7 +2,7 @@
 title: "#562 — GetEpochModel in validation should use inference epoch"
 source: https://github.com/gonka-ai/gonka/issues/562
 issue_number: 562
-synced_at: 2026-07-17T14:57:28Z
+synced_at: 2026-07-17T16:38:10Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@x0152](https://github.com/x0152) opened 2026-01-15 10:00 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/x0152">@x0152</a> opened 2026-01-15 10:00 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-02-06 00:58 UTC</span>
   </div>
@@ -31,7 +31,7 @@ Follow-up to #553. Line 68 uses GetEpochModel (current epoch) instead of GetEpoc
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@DimaOrekhovPS](https://github.com/DimaOrekhovPS)</span>
+    <span><a href="https://github.com/DimaOrekhovPS">@DimaOrekhovPS</a></span>
     <span class="issues-meta-item">commented 2026-02-06 00:58 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

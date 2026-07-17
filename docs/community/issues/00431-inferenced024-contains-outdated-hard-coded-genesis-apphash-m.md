@@ -2,7 +2,7 @@
 title: "#431 — inferenced:0.2.4 contains outdated hard-coded genesis → AppHash mismatch prevents all nodes from syncing"
 source: https://github.com/gonka-ai/gonka/issues/431
 issue_number: 431
-synced_at: 2026-07-17T14:58:32Z
+synced_at: 2026-07-17T16:38:51Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@Asplana92](https://github.com/Asplana92) opened 2025-11-13 20:39 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/Asplana92">@Asplana92</a> opened 2025-11-13 20:39 UTC</span>
     <span class="issues-meta-item">6 comments</span>
     <span class="issues-meta-item">Updated 2025-11-15 22:57 UTC</span>
   </div>
@@ -213,7 +213,7 @@ Happy to test patched builds, provide logs, configs, or help verify new images.
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@gmorgachev](https://github.com/gmorgachev)</span>
+    <span><a href="https://github.com/gmorgachev">@gmorgachev</a></span>
     <span class="issues-meta-item">commented 2025-11-14 01:08 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -230,7 +230,7 @@ Happy to test patched builds, provide logs, configs, or help verify new images.
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Asplana92](https://github.com/Asplana92)</span>
+    <span><a href="https://github.com/Asplana92">@Asplana92</a></span>
     <span class="issues-meta-item">commented 2025-11-14 02:20 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -262,7 +262,7 @@ https://gist.github.com/Asplana92/f35e0b7cf7cf0c4c50ef0644fea3e4e6</p>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Asplana92](https://github.com/Asplana92)</span>
+    <span><a href="https://github.com/Asplana92">@Asplana92</a></span>
     <span class="issues-meta-item">commented 2025-11-14 02:32 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -283,7 +283,7 @@ https://gist.github.com/Asplana92/f35e0b7cf7cf0c4c50ef0644fea3e4e6</p>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Asplana92](https://github.com/Asplana92)</span>
+    <span><a href="https://github.com/Asplana92">@Asplana92</a></span>
     <span class="issues-meta-item">commented 2025-11-14 03:19 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -303,7 +303,7 @@ If such a snapshot exists, could you please share:</p>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@gmorgachev](https://github.com/gmorgachev)</span>
+    <span><a href="https://github.com/gmorgachev">@gmorgachev</a></span>
     <span class="issues-meta-item">commented 2025-11-14 11:00 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -314,7 +314,7 @@ If such a snapshot exists, could you please share:</p>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Asplana92](https://github.com/Asplana92)</span>
+    <span><a href="https://github.com/Asplana92">@Asplana92</a></span>
     <span class="issues-meta-item">commented 2025-11-15 22:57 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

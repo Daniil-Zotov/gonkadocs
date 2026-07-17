@@ -2,7 +2,7 @@
 title: "#672 — gRPC always falls back to RPC"
 source: https://github.com/gonka-ai/gonka/issues/672
 issue_number: 672
-synced_at: 2026-07-17T14:57:12Z
+synced_at: 2026-07-17T16:37:59Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item">[@x0152](https://github.com/x0152) opened 2026-01-30 16:21 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/x0152">@x0152</a> opened 2026-01-30 16:21 UTC</span>
     <span class="issues-meta-item">2 comments</span>
     <span class="issues-meta-item">Updated 2026-02-12 15:26 UTC</span>
   </div>
@@ -31,7 +31,7 @@ gRPC is enabled, but requests still use RPC (#685 )
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
+    <span><a href="https://github.com/AlexeySamosadov">@AlexeySamosadov</a></span>
     <span class="issues-meta-item">commented 2026-02-08 14:13 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -41,7 +41,7 @@ gRPC is enabled, but requests still use RPC (#685 )
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
+    <span><a href="https://github.com/AlexeySamosadov">@AlexeySamosadov</a></span>
     <span class="issues-meta-item">commented 2026-02-12 15:26 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

@@ -2,7 +2,7 @@
 title: "#1407 — Question about project background: Mikhail Chudinov and Natalia"
 source: https://github.com/gonka-ai/gonka/issues/1407
 issue_number: 1407
-synced_at: 2026-07-17T14:55:12Z
+synced_at: 2026-07-17T16:36:42Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item">[@phishdestroy](https://github.com/phishdestroy) opened 2026-07-06 09:23 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/phishdestroy">@phishdestroy</a> opened 2026-07-06 09:23 UTC</span>
     <span class="issues-meta-item">2 comments</span>
     <span class="issues-meta-item">Updated 2026-07-06 15:50 UTC</span>
   </div>
@@ -37,7 +37,7 @@ Is this project just another setup for a scam and stealing money? Or are you jus
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@phishdestroy](https://github.com/phishdestroy)</span>
+    <span><a href="https://github.com/phishdestroy">@phishdestroy</a></span>
     <span class="issues-meta-item">commented 2026-07-06 09:52 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -46,7 +46,7 @@ Is this project just another setup for a scam and stealing money? Or are you jus
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@akamitch](https://github.com/akamitch)</span>
+    <span><a href="https://github.com/akamitch">@akamitch</a></span>
     <span class="issues-meta-item">commented 2026-07-06 15:50 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

@@ -2,7 +2,7 @@
 title: "#927 — [P1] Maintenance window for hosts"
 source: https://github.com/gonka-ai/gonka/issues/927
 issue_number: 927
-synced_at: 2026-07-17T14:55:33Z
+synced_at: 2026-07-17T16:36:57Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-20 23:39 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-20 23:39 UTC</span>
     <span class="issues-meta-item">3 comments</span>
     <span class="issues-meta-item">Updated 2026-06-22 01:35 UTC</span>
   </div>
@@ -33,7 +33,7 @@ The preliminary implementation plan is outlined here https://github.com/gonka-ai
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Ryanchen911](https://github.com/Ryanchen911)</span>
+    <span><a href="https://github.com/Ryanchen911">@Ryanchen911</a></span>
     <span class="issues-meta-item">commented 2026-03-30 08:54 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -83,7 +83,7 @@ The preliminary implementation plan is outlined here https://github.com/gonka-ai
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@patimen](https://github.com/patimen)</span>
+    <span><a href="https://github.com/patimen">@patimen</a></span>
     <span class="issues-meta-item">commented 2026-03-30 23:30 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -159,7 +159,7 @@ The preliminary implementation plan is outlined here https://github.com/gonka-ai
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Ryanchen911](https://github.com/Ryanchen911)</span>
+    <span><a href="https://github.com/Ryanchen911">@Ryanchen911</a></span>
     <span class="issues-meta-item">commented 2026-04-01 03:45 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

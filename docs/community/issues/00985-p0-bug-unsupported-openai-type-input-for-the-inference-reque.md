@@ -2,7 +2,7 @@
 title: "#985 — [P0] Bug: unsupported OpenAI type input for the inference requests"
 source: https://github.com/gonka-ai/gonka/issues/985
 issue_number: 985
-synced_at: 2026-07-17T14:56:30Z
+synced_at: 2026-07-17T16:37:32Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@tamazgadaev](https://github.com/tamazgadaev) opened 2026-03-31 15:15 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/tamazgadaev">@tamazgadaev</a> opened 2026-03-31 15:15 UTC</span>
     <span class="issues-meta-item">4 comments</span>
     <span class="issues-meta-item">Updated 2026-04-03 22:36 UTC</span>
   </div>
@@ -31,7 +31,7 @@ decentralized-api rejects valid Cursor/OpenAI chat requests where messages[].con
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tamazgadaev](https://github.com/tamazgadaev)</span>
+    <span><a href="https://github.com/tamazgadaev">@tamazgadaev</a></span>
     <span class="issues-meta-item">commented 2026-03-31 15:16 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -40,7 +40,7 @@ decentralized-api rejects valid Cursor/OpenAI chat requests where messages[].con
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tamazgadaev](https://github.com/tamazgadaev)</span>
+    <span><a href="https://github.com/tamazgadaev">@tamazgadaev</a></span>
     <span class="issues-meta-item">commented 2026-03-31 15:16 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -50,7 +50,7 @@ decentralized-api rejects valid Cursor/OpenAI chat requests where messages[].con
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@x0152](https://github.com/x0152)</span>
+    <span><a href="https://github.com/x0152">@x0152</a></span>
     <span class="issues-meta-item">commented 2026-03-31 16:31 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -59,7 +59,7 @@ decentralized-api rejects valid Cursor/OpenAI chat requests where messages[].con
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-04-01 03:09 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

@@ -2,7 +2,7 @@
 title: "#896 — `devshards`: Research aggregated BLS signatures"
 source: https://github.com/gonka-ai/gonka/issues/896
 issue_number: 896
-synced_at: 2026-07-17T14:55:58Z
+synced_at: 2026-07-17T16:37:12Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item">[@heitor-lassarote](https://github.com/heitor-lassarote) opened 2026-03-16 15:10 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/heitor-lassarote">@heitor-lassarote</a> opened 2026-03-16 15:10 UTC</span>
     <span class="issues-meta-item">2 comments</span>
     <span class="issues-meta-item">Updated 2026-04-29 21:30 UTC</span>
   </div>
@@ -37,7 +37,7 @@ To achieve this, one solution is to register the BLS `devshard` public key for e
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@KKizilov](https://github.com/KKizilov)</span>
+    <span><a href="https://github.com/KKizilov">@KKizilov</a></span>
     <span class="issues-meta-item">commented 2026-03-26 15:16 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -46,7 +46,7 @@ To achieve this, one solution is to register the BLS `devshard` public key for e
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-04-29 21:15 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

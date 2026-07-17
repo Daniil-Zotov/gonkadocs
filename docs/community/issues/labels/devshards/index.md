@@ -6,7 +6,7 @@ template: issues-main.html
 # Issues: devshards
 
 Issues with label **devshards**. Total: **14**.
-Updated: `2026-07-17 14:58 UTC`.
+Updated: `2026-07-17 16:38 UTC`.
 
 [← All Issues](../../index.md)
 
@@ -21,7 +21,7 @@ Updated: `2026-07-17 14:58 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@dcastro](https://github.com/dcastro) opened 16 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 16 days ago</span>
       
     </div>
   </div>
@@ -36,7 +36,7 @@ Updated: `2026-07-17 14:58 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@dcastro](https://github.com/dcastro) opened 2026-06-01</span>
+      <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 2026-06-01</span>
       
     </div>
   </div>
@@ -51,7 +51,7 @@ Updated: `2026-07-17 14:58 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@dcastro](https://github.com/dcastro) opened 2026-05-25</span>
+      <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 2026-05-25</span>
       
     </div>
   </div>
@@ -66,7 +66,7 @@ Updated: `2026-07-17 14:58 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@dcastro](https://github.com/dcastro) opened 2026-05-25</span>
+      <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 2026-05-25</span>
       
     </div>
   </div>
@@ -81,7 +81,7 @@ Updated: `2026-07-17 14:58 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@dcastro](https://github.com/dcastro) opened 2026-05-25</span>
+      <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 2026-05-25</span>
       
     </div>
   </div>
@@ -96,7 +96,7 @@ Updated: `2026-07-17 14:58 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@Brgndy25](https://github.com/Brgndy25) opened 2026-04-29</span>
+      <span class="issues-meta-item"><a href="https://github.com/Brgndy25">@Brgndy25</a> opened 2026-04-29</span>
       
     </div>
   </div>
@@ -111,7 +111,7 @@ Updated: `2026-07-17 14:58 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@dcastro](https://github.com/dcastro) opened 2026-04-29</span>
+      <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 2026-04-29</span>
       
     </div>
   </div>
@@ -126,7 +126,7 @@ Updated: `2026-07-17 14:58 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@heitor-lassarote](https://github.com/heitor-lassarote) opened 2026-04-29</span>
+      <span class="issues-meta-item"><a href="https://github.com/heitor-lassarote">@heitor-lassarote</a> opened 2026-04-29</span>
       
     </div>
   </div>
@@ -141,7 +141,7 @@ Updated: `2026-07-17 14:58 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@dcastro](https://github.com/dcastro) opened 2026-04-29</span>
+      <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 2026-04-29</span>
       
     </div>
   </div>
@@ -156,7 +156,7 @@ Updated: `2026-07-17 14:58 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@dcastro](https://github.com/dcastro) opened 2026-04-21</span>
+      <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 2026-04-21</span>
       
     </div>
   </div>
@@ -171,7 +171,7 @@ Updated: `2026-07-17 14:58 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@heitor-lassarote](https://github.com/heitor-lassarote) opened 2026-04-07</span>
+      <span class="issues-meta-item"><a href="https://github.com/heitor-lassarote">@heitor-lassarote</a> opened 2026-04-07</span>
       
     </div>
   </div>
@@ -186,7 +186,7 @@ Updated: `2026-07-17 14:58 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@dcastro](https://github.com/dcastro) opened 2026-04-02</span>
+      <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 2026-04-02</span>
       
     </div>
   </div>
@@ -201,7 +201,7 @@ Updated: `2026-07-17 14:58 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@dcastro](https://github.com/dcastro) opened 2026-04-01</span>
+      <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 2026-04-01</span>
       
     </div>
   </div>
@@ -216,7 +216,7 @@ Updated: `2026-07-17 14:58 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item">[@dcastro](https://github.com/dcastro) opened 2026-04-01</span>
+      <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 2026-04-01</span>
       
     </div>
   </div>

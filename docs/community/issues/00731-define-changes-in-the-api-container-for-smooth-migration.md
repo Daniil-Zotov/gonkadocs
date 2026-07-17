@@ -2,7 +2,7 @@
 title: "#731 — Define changes in the API container for smooth migration"
 source: https://github.com/gonka-ai/gonka/issues/731
 issue_number: 731
-synced_at: 2026-07-17T14:57:02Z
+synced_at: 2026-07-17T16:37:52Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-11 01:28 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-02-11 01:28 UTC</span>
     <span class="issues-meta-item">3 comments</span>
     <span class="issues-meta-item">Updated 2026-03-11 19:54 UTC</span>
   </div>
@@ -31,7 +31,7 @@ template: issues-main.html
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tamazgadaev](https://github.com/tamazgadaev)</span>
+    <span><a href="https://github.com/tamazgadaev">@tamazgadaev</a></span>
     <span class="issues-meta-item">commented 2026-03-02 01:18 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -44,7 +44,7 @@ template: issues-main.html
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tamazgadaev](https://github.com/tamazgadaev)</span>
+    <span><a href="https://github.com/tamazgadaev">@tamazgadaev</a></span>
     <span class="issues-meta-item">commented 2026-03-03 03:06 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -53,7 +53,7 @@ template: issues-main.html
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@gmorgachev](https://github.com/gmorgachev)</span>
+    <span><a href="https://github.com/gmorgachev">@gmorgachev</a></span>
     <span class="issues-meta-item">commented 2026-03-11 19:54 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

@@ -2,7 +2,7 @@
 title: "#820 — Investigate missed inference on some nodes (root causes + mitigation)"
 source: https://github.com/gonka-ai/gonka/issues/820
 issue_number: 820
-synced_at: 2026-07-17T14:57:03Z
+synced_at: 2026-07-17T16:37:53Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-27 21:13 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-02-27 21:13 UTC</span>
     <span class="issues-meta-item">2 comments</span>
     <span class="issues-meta-item">Updated 2026-03-06 14:25 UTC</span>
   </div>
@@ -38,7 +38,7 @@ Task: Some nodes experience missed inference events. Likely multi-cause, needs c
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
+    <span><a href="https://github.com/AlexeySamosadov">@AlexeySamosadov</a></span>
     <span class="issues-meta-item">commented 2026-03-03 10:27 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -47,7 +47,7 @@ Task: Some nodes experience missed inference events. Likely multi-cause, needs c
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Mayveskii](https://github.com/Mayveskii)</span>
+    <span><a href="https://github.com/Mayveskii">@Mayveskii</a></span>
     <span class="issues-meta-item">commented 2026-03-06 14:25 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

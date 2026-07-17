@@ -2,7 +2,7 @@
 title: "#351 — BUG: Wrong error message for unsupported models in /chat/completions"
 source: https://github.com/gonka-ai/gonka/issues/351
 issue_number: 351
-synced_at: 2026-07-17T14:56:05Z
+synced_at: 2026-07-17T16:37:16Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@gmorgachev](https://github.com/gmorgachev) opened 2025-09-10 23:19 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/gmorgachev">@gmorgachev</a> opened 2025-09-10 23:19 UTC</span>
     <span class="issues-meta-item">5 comments</span>
     <span class="issues-meta-item">Updated 2026-04-28 18:50 UTC</span>
   </div>
@@ -33,7 +33,7 @@ When inference for unsupported message requested, system returns:
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-01-28 22:23 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -42,7 +42,7 @@ When inference for unsupported message requested, system returns:
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
+    <span><a href="https://github.com/AlexeySamosadov">@AlexeySamosadov</a></span>
     <span class="issues-meta-item">commented 2026-02-08 14:14 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -52,7 +52,7 @@ When inference for unsupported message requested, system returns:
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
+    <span><a href="https://github.com/AlexeySamosadov">@AlexeySamosadov</a></span>
     <span class="issues-meta-item">commented 2026-02-12 15:26 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -61,7 +61,7 @@ When inference for unsupported message requested, system returns:
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@unameisfine](https://github.com/unameisfine)</span>
+    <span><a href="https://github.com/unameisfine">@unameisfine</a></span>
     <span class="issues-meta-item">commented 2026-03-19 22:42 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -70,7 +70,7 @@ When inference for unsupported message requested, system returns:
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@x0152](https://github.com/x0152)</span>
+    <span><a href="https://github.com/x0152">@x0152</a></span>
     <span class="issues-meta-item">commented 2026-04-28 17:15 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

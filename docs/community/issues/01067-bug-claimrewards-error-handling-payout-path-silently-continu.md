@@ -2,7 +2,7 @@
 title: "#1067 — bug: ClaimRewards error handling — payout path silently continues on failure"
 source: https://github.com/gonka-ai/gonka/issues/1067
 issue_number: 1067
-synced_at: 2026-07-17T14:56:01Z
+synced_at: 2026-07-17T16:37:14Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@Mayveskii](https://github.com/Mayveskii) opened 2026-04-15 19:40 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/Mayveskii">@Mayveskii</a> opened 2026-04-15 19:40 UTC</span>
     <span class="issues-meta-item">5 comments</span>
     <span class="issues-meta-item">Updated 2026-04-28 20:55 UTC</span>
   </div>
@@ -60,7 +60,7 @@ This was identified during audit of payout error handling in the inference escro
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Doog-bot534](https://github.com/Doog-bot534)</span>
+    <span><a href="https://github.com/Doog-bot534">@Doog-bot534</a></span>
     <span class="issues-meta-item">commented 2026-04-16 03:08 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -70,7 +70,7 @@ This was identified during audit of payout error handling in the inference escro
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Mayveskii](https://github.com/Mayveskii)</span>
+    <span><a href="https://github.com/Mayveskii">@Mayveskii</a></span>
     <span class="issues-meta-item">commented 2026-04-16 03:37 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -91,7 +91,7 @@ Regarding the label — this is a bug (fund loss on payment failure), not an enh
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Doog-bot534](https://github.com/Doog-bot534)</span>
+    <span><a href="https://github.com/Doog-bot534">@Doog-bot534</a></span>
     <span class="issues-meta-item">commented 2026-04-16 12:09 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -100,7 +100,7 @@ Regarding the label — this is a bug (fund loss on payment failure), not an enh
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Mayveskii](https://github.com/Mayveskii)</span>
+    <span><a href="https://github.com/Mayveskii">@Mayveskii</a></span>
     <span class="issues-meta-item">commented 2026-04-28 19:09 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -109,7 +109,7 @@ Regarding the label — this is a bug (fund loss on payment failure), not an enh
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@x0152](https://github.com/x0152)</span>
+    <span><a href="https://github.com/x0152">@x0152</a></span>
     <span class="issues-meta-item">commented 2026-04-28 20:55 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

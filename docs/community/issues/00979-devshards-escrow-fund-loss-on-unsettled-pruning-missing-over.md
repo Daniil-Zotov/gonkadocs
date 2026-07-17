@@ -2,7 +2,7 @@
 title: "#979 — `devshards` escrow: fund loss on unsettled pruning + missing overflow guards in host stats aggregation"
 source: https://github.com/gonka-ai/gonka/issues/979
 issue_number: 979
-synced_at: 2026-07-17T14:55:59Z
+synced_at: 2026-07-17T16:37:13Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@unameisfine](https://github.com/unameisfine) opened 2026-03-30 17:05 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/unameisfine">@unameisfine</a> opened 2026-03-30 17:05 UTC</span>
     <span class="issues-meta-item">2 comments</span>
     <span class="issues-meta-item">Updated 2026-04-29 21:27 UTC</span>
   </div>
@@ -58,7 +58,7 @@ Three related bugs in subnet escrow settlement and pruning code (v0.2.11):
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@unameisfine](https://github.com/unameisfine)</span>
+    <span><a href="https://github.com/unameisfine">@unameisfine</a></span>
     <span class="issues-meta-item">commented 2026-04-27 22:46 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -67,7 +67,7 @@ Three related bugs in subnet escrow settlement and pruning code (v0.2.11):
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-04-29 21:27 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

@@ -2,7 +2,7 @@
 title: "#419 — New Issue → Request Access to Inference Image"
 source: https://github.com/gonka-ai/gonka/issues/419
 issue_number: 419
-synced_at: 2026-07-17T14:58:30Z
+synced_at: 2026-07-17T16:38:50Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@rumirzayev-max](https://github.com/rumirzayev-max) opened 2025-11-06 12:53 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/rumirzayev-max">@rumirzayev-max</a> opened 2025-11-06 12:53 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2025-11-17 21:52 UTC</span>
   </div>
@@ -39,7 +39,7 @@ Thanks!
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@DimaOrekhovPS](https://github.com/DimaOrekhovPS)</span>
+    <span><a href="https://github.com/DimaOrekhovPS">@DimaOrekhovPS</a></span>
     <span class="issues-meta-item">commented 2025-11-17 21:00 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

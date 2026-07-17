@@ -2,7 +2,7 @@
 title: "#893 — [P0] Remove float math from `devshards` consensus"
 source: https://github.com/gonka-ai/gonka/issues/893
 issue_number: 893
-synced_at: 2026-07-17T14:55:57Z
+synced_at: 2026-07-17T16:37:11Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@Brgndy25](https://github.com/Brgndy25) opened 2026-03-16 13:52 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/Brgndy25">@Brgndy25</a> opened 2026-03-16 13:52 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-04-29 21:44 UTC</span>
   </div>
@@ -35,7 +35,7 @@ machines, which can lead to state root divergence and consensus splits.
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@KKizilov](https://github.com/KKizilov)</span>
+    <span><a href="https://github.com/KKizilov">@KKizilov</a></span>
     <span class="issues-meta-item">commented 2026-03-26 15:17 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

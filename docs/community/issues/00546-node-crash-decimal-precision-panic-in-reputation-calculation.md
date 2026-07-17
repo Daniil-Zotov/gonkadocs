@@ -2,7 +2,7 @@
 title: "#546 — Node crash: Decimal precision panic in reputation calculation (v0.2.7-post1)"
 source: https://github.com/gonka-ai/gonka/issues/546
 issue_number: 546
-synced_at: 2026-07-17T14:57:46Z
+synced_at: 2026-07-17T16:38:22Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@Olena](https://github.com/Olena) opened 2026-01-12 10:29 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/Olena">@Olena</a> opened 2026-01-12 10:29 UTC</span>
     <span class="issues-meta-item">3 comments</span>
     <span class="issues-meta-item">Updated 2026-01-21 21:11 UTC</span>
   </div>
@@ -218,7 +218,7 @@ Reporter: Node operator with detailed logs and crash dumps available Status: ⚠
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@patimen](https://github.com/patimen)</span>
+    <span><a href="https://github.com/patimen">@patimen</a></span>
     <span class="issues-meta-item">commented 2026-01-12 18:14 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -228,7 +228,7 @@ For most of the chain, we <em>only</em> use <code>shopspring</code> decimals, no
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-01-21 19:54 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -237,7 +237,7 @@ For most of the chain, we <em>only</em> use <code>shopspring</code> decimals, no
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@gmorgachev](https://github.com/gmorgachev)</span>
+    <span><a href="https://github.com/gmorgachev">@gmorgachev</a></span>
     <span class="issues-meta-item">commented 2026-01-21 21:11 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

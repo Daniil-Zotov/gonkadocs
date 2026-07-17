@@ -2,7 +2,7 @@
 title: "#784 — [P2] Possible underfunded issues"
 source: https://github.com/gonka-ai/gonka/issues/784
 issue_number: 784
-synced_at: 2026-07-17T14:56:22Z
+synced_at: 2026-07-17T16:37:27Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-20 23:24 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-02-20 23:24 UTC</span>
     <span class="issues-meta-item">4 comments</span>
     <span class="issues-meta-item">Updated 2026-04-10 04:50 UTC</span>
   </div>
@@ -58,7 +58,7 @@ Any other method, as long as it serves the purpose, would work.
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@0xMayoor](https://github.com/0xMayoor)</span>
+    <span><a href="https://github.com/0xMayoor">@0xMayoor</a></span>
     <span class="issues-meta-item">commented 2026-02-21 08:10 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -67,7 +67,7 @@ Any other method, as long as it serves the purpose, would work.
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@0xMayoor](https://github.com/0xMayoor)</span>
+    <span><a href="https://github.com/0xMayoor">@0xMayoor</a></span>
     <span class="issues-meta-item">commented 2026-02-21 14:20 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -113,7 +113,7 @@ Any other method, as long as it serves the purpose, would work.
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@0xMayoor](https://github.com/0xMayoor)</span>
+    <span><a href="https://github.com/0xMayoor">@0xMayoor</a></span>
     <span class="issues-meta-item">commented 2026-02-22 18:38 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -132,7 +132,7 @@ Any other method, as long as it serves the purpose, would work.
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@0xMayoor](https://github.com/0xMayoor)</span>
+    <span><a href="https://github.com/0xMayoor">@0xMayoor</a></span>
     <span class="issues-meta-item">commented 2026-02-23 14:50 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

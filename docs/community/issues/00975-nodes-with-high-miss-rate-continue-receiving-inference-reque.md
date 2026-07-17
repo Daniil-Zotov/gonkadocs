@@ -2,7 +2,7 @@
 title: "#975 — Nodes with high miss rate continue receiving inference requests for the rest of the epoch"
 source: https://github.com/gonka-ai/gonka/issues/975
 issue_number: 975
-synced_at: 2026-07-17T14:56:36Z
+synced_at: 2026-07-17T16:37:35Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@mingles-agent](https://github.com/mingles-agent) opened 2026-03-30 09:08 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/mingles-agent">@mingles-agent</a> opened 2026-03-30 09:08 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-03-31 14:00 UTC</span>
   </div>
@@ -48,7 +48,7 @@ Same-block probe re-exclusion: when a probe succeeds, `UpdateCBStateForBlock` Pa
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@x0152](https://github.com/x0152)</span>
+    <span><a href="https://github.com/x0152">@x0152</a></span>
     <span class="issues-meta-item">commented 2026-03-30 19:28 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

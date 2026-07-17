@@ -2,7 +2,7 @@
 title: "#1198 — Re-validate VLM inference and validation results from #1026"
 source: https://github.com/gonka-ai/gonka/issues/1198
 issue_number: 1198
-synced_at: 2026-07-17T14:55:35Z
+synced_at: 2026-07-17T16:36:58Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-05-19 23:03 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-05-19 23:03 UTC</span>
     <span class="issues-meta-item">7 comments</span>
     <span class="issues-meta-item">Updated 2026-06-11 09:07 UTC</span>
   </div>
@@ -103,7 +103,7 @@ Please provide a short report in this issue with:
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Ryanchen911](https://github.com/Ryanchen911)</span>
+    <span><a href="https://github.com/Ryanchen911">@Ryanchen911</a></span>
     <span class="issues-meta-item">commented 2026-05-22 08:30 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -112,7 +112,7 @@ Please provide a short report in this issue with:
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Ryanchen911](https://github.com/Ryanchen911)</span>
+    <span><a href="https://github.com/Ryanchen911">@Ryanchen911</a></span>
     <span class="issues-meta-item">commented 2026-05-25 09:34 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -261,7 +261,7 @@ labels_pred[(all_distances &gt;= lower) &amp; (all_distances &lt;= upper)] = 1
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@fedor-konovalenko](https://github.com/fedor-konovalenko)</span>
+    <span><a href="https://github.com/fedor-konovalenko">@fedor-konovalenko</a></span>
     <span class="issues-meta-item">commented 2026-06-06 22:43 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -296,7 +296,7 @@ O8 - The proposed verification will require additional experiments with larger m
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Ryanchen911](https://github.com/Ryanchen911)</span>
+    <span><a href="https://github.com/Ryanchen911">@Ryanchen911</a></span>
     <span class="issues-meta-item">commented 2026-06-08 01:55 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -305,7 +305,7 @@ O8 - The proposed verification will require additional experiments with larger m
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@fedor-konovalenko](https://github.com/fedor-konovalenko)</span>
+    <span><a href="https://github.com/fedor-konovalenko">@fedor-konovalenko</a></span>
     <span class="issues-meta-item">commented 2026-06-10 13:28 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -317,7 +317,7 @@ F1 score = 100%</p>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Ryanchen911](https://github.com/Ryanchen911)</span>
+    <span><a href="https://github.com/Ryanchen911">@Ryanchen911</a></span>
     <span class="issues-meta-item">commented 2026-06-11 08:42 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -327,7 +327,7 @@ F1 score = 100%</p>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@fedor-konovalenko](https://github.com/fedor-konovalenko)</span>
+    <span><a href="https://github.com/fedor-konovalenko">@fedor-konovalenko</a></span>
     <span class="issues-meta-item">commented 2026-06-11 09:07 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

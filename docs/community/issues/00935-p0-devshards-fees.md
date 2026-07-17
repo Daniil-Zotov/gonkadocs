@@ -2,7 +2,7 @@
 title: "#935 — [P0] `devshards` fees"
 source: https://github.com/gonka-ai/gonka/issues/935
 issue_number: 935
-synced_at: 2026-07-17T14:55:58Z
+synced_at: 2026-07-17T16:37:12Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@dcastro](https://github.com/dcastro) opened 2026-03-23 11:12 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 2026-03-23 11:12 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-04-29 21:44 UTC</span>
   </div>
@@ -40,7 +40,7 @@ Context: https://github.com/gonka-ai/gonka/issues/914#issuecomment-4090483233
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@KKizilov](https://github.com/KKizilov)</span>
+    <span><a href="https://github.com/KKizilov">@KKizilov</a></span>
     <span class="issues-meta-item">commented 2026-03-26 15:06 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

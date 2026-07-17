@@ -2,7 +2,7 @@
 title: "#338 — [P1] Cache for Github Actions"
 source: https://github.com/gonka-ai/gonka/issues/338
 issue_number: 338
-synced_at: 2026-07-17T14:56:40Z
+synced_at: 2026-07-17T16:37:38Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2025-09-03 23:19 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2025-09-03 23:19 UTC</span>
     <span class="issues-meta-item">3 comments</span>
     <span class="issues-meta-item">Updated 2026-03-25 18:38 UTC</span>
   </div>
@@ -31,7 +31,7 @@ template: issues-main.html
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-01-24 01:45 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -40,7 +40,7 @@ template: issues-main.html
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@gmorgachev](https://github.com/gmorgachev)</span>
+    <span><a href="https://github.com/gmorgachev">@gmorgachev</a></span>
     <span class="issues-meta-item">commented 2026-03-12 08:28 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -49,7 +49,7 @@ template: issues-main.html
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@IgnatovFedor](https://github.com/IgnatovFedor)</span>
+    <span><a href="https://github.com/IgnatovFedor">@IgnatovFedor</a></span>
     <span class="issues-meta-item">commented 2026-03-12 12:34 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

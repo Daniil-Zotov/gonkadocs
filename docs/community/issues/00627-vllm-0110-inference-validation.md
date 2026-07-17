@@ -2,7 +2,7 @@
 title: "#627 — vLLM 0.11.0 — Inference validation"
 source: https://github.com/gonka-ai/gonka/issues/627
 issue_number: 627
-synced_at: 2026-07-17T14:57:30Z
+synced_at: 2026-07-17T16:38:11Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-23 19:25 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-23 19:25 UTC</span>
     <span class="issues-meta-item">3 comments</span>
     <span class="issues-meta-item">Updated 2026-01-29 22:58 UTC</span>
   </div>
@@ -31,7 +31,7 @@ template: issues-main.html
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-01-23 19:25 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -40,7 +40,7 @@ template: issues-main.html
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-01-24 02:00 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -49,7 +49,7 @@ template: issues-main.html
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tamazgadaev](https://github.com/tamazgadaev)</span>
+    <span><a href="https://github.com/tamazgadaev">@tamazgadaev</a></span>
     <span class="issues-meta-item">commented 2026-01-26 17:48 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

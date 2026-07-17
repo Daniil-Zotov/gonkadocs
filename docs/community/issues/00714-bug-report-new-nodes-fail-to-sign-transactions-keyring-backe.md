@@ -2,7 +2,7 @@
 title: "#714 — Bug Report: New Nodes Fail to Sign Transactions (Keyring Backend Mismatch)"
 source: https://github.com/gonka-ai/gonka/issues/714
 issue_number: 714
-synced_at: 2026-07-17T14:57:22Z
+synced_at: 2026-07-17T16:38:06Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@moro3one](https://github.com/moro3one) opened 2026-02-07 08:47 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/moro3one">@moro3one</a> opened 2026-02-07 08:47 UTC</span>
     <span class="issues-meta-item">4 comments</span>
     <span class="issues-meta-item">Updated 2026-02-10 00:33 UTC</span>
   </div>
@@ -31,7 +31,7 @@ template: issues-main.html
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@moro3one](https://github.com/moro3one)</span>
+    <span><a href="https://github.com/moro3one">@moro3one</a></span>
     <span class="issues-meta-item">commented 2026-02-07 08:52 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -40,7 +40,7 @@ template: issues-main.html
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@moro3one](https://github.com/moro3one)</span>
+    <span><a href="https://github.com/moro3one">@moro3one</a></span>
     <span class="issues-meta-item">commented 2026-02-07 08:58 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -54,7 +54,7 @@ The current Docker deployment setup for new join nodes fails to initialize the a
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@gmorgachev](https://github.com/gmorgachev)</span>
+    <span><a href="https://github.com/gmorgachev">@gmorgachev</a></span>
     <span class="issues-meta-item">commented 2026-02-07 21:18 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -94,7 +94,7 @@ fi
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
+    <span><a href="https://github.com/AlexeySamosadov">@AlexeySamosadov</a></span>
     <span class="issues-meta-item">commented 2026-02-08 14:13 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

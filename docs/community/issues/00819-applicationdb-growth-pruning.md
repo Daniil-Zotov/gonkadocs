@@ -2,7 +2,7 @@
 title: "#819 — `application.db` growth / pruning"
 source: https://github.com/gonka-ai/gonka/issues/819
 issue_number: 819
-synced_at: 2026-07-17T14:56:56Z
+synced_at: 2026-07-17T16:37:48Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-27 21:08 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-02-27 21:08 UTC</span>
     <span class="issues-meta-item">10 comments</span>
     <span class="issues-meta-item">Updated 2026-03-12 19:08 UTC</span>
   </div>
@@ -62,7 +62,7 @@ Sustained `application.db` growth can lead to:
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Mayveskii](https://github.com/Mayveskii)</span>
+    <span><a href="https://github.com/Mayveskii">@Mayveskii</a></span>
     <span class="issues-meta-item">commented 2026-03-03 07:58 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -71,7 +71,7 @@ Sustained `application.db` growth can lead to:
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
+    <span><a href="https://github.com/AlexeySamosadov">@AlexeySamosadov</a></span>
     <span class="issues-meta-item">commented 2026-03-03 11:13 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -80,7 +80,7 @@ Sustained `application.db` growth can lead to:
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Mayveskii](https://github.com/Mayveskii)</span>
+    <span><a href="https://github.com/Mayveskii">@Mayveskii</a></span>
     <span class="issues-meta-item">commented 2026-03-03 11:36 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -97,7 +97,7 @@ Deprecated payload fields still stored on-chain. inference.proto still carries p
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Mayveskii](https://github.com/Mayveskii)</span>
+    <span><a href="https://github.com/Mayveskii">@Mayveskii</a></span>
     <span class="issues-meta-item">commented 2026-03-03 11:36 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -109,7 +109,7 @@ Deprecated payload fields still stored on-chain. inference.proto still carries p
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
+    <span><a href="https://github.com/AlexeySamosadov">@AlexeySamosadov</a></span>
     <span class="issues-meta-item">commented 2026-03-03 12:00 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -132,7 +132,7 @@ Deprecated payload fields still stored on-chain. inference.proto still carries p
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@sysmanalex](https://github.com/sysmanalex)</span>
+    <span><a href="https://github.com/sysmanalex">@sysmanalex</a></span>
     <span class="issues-meta-item">commented 2026-03-03 18:14 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -190,7 +190,7 @@ inter-block-cache = true</p>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@gmorgachev](https://github.com/gmorgachev)</span>
+    <span><a href="https://github.com/gmorgachev">@gmorgachev</a></span>
     <span class="issues-meta-item">commented 2026-03-04 00:00 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -203,7 +203,7 @@ inter-block-cache = true</p>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Lelouch33](https://github.com/Lelouch33)</span>
+    <span><a href="https://github.com/Lelouch33">@Lelouch33</a></span>
     <span class="issues-meta-item">commented 2026-03-04 09:32 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -356,7 +356,7 @@ Steady state: array has 1 element, advances with each snapshot.
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@gmorgachev](https://github.com/gmorgachev)</span>
+    <span><a href="https://github.com/gmorgachev">@gmorgachev</a></span>
     <span class="issues-meta-item">commented 2026-03-05 06:23 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -365,7 +365,7 @@ Steady state: array has 1 element, advances with each snapshot.
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Lelouch33](https://github.com/Lelouch33)</span>
+    <span><a href="https://github.com/Lelouch33">@Lelouch33</a></span>
     <span class="issues-meta-item">commented 2026-03-05 23:22 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

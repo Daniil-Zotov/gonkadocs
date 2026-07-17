@@ -2,7 +2,7 @@
 title: "#1370 — Bridge Scenario A: inbound USDT stuck BRIDGE_PENDING after coordinated node halt (4-validator testnet)"
 source: https://github.com/gonka-ai/gonka/issues/1370
 issue_number: 1370
-synced_at: 2026-07-17T14:55:20Z
+synced_at: 2026-07-17T16:36:48Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@maria-mitina](https://github.com/maria-mitina) opened 2026-06-28 07:37 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 2026-06-28 07:37 UTC</span>
     <span class="issues-meta-item">2 comments</span>
     <span class="issues-meta-item">Updated 2026-06-29 10:50 UTC</span>
   </div>
@@ -179,7 +179,7 @@ Manual `bridge-exchange` from validators on **18222**, **18223**, **18226** with
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@maria-mitina](https://github.com/maria-mitina)</span>
+    <span><a href="https://github.com/maria-mitina">@maria-mitina</a></span>
     <span class="issues-meta-item">commented 2026-06-28 07:37 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -204,7 +204,7 @@ Manual `bridge-exchange` from validators on **18222**, **18223**, **18226** with
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@maria-mitina](https://github.com/maria-mitina)</span>
+    <span><a href="https://github.com/maria-mitina">@maria-mitina</a></span>
     <span class="issues-meta-item">commented 2026-06-29 10:50 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

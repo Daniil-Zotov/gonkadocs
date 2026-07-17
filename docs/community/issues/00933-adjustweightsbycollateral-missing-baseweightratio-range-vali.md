@@ -2,7 +2,7 @@
 title: "#933 — AdjustWeightsByCollateral missing baseWeightRatio range validation — weight inflation for uncollateralized participants"
 source: https://github.com/gonka-ai/gonka/issues/933
 issue_number: 933
-synced_at: 2026-07-17T14:56:10Z
+synced_at: 2026-07-17T16:37:19Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@unameisfine](https://github.com/unameisfine) opened 2026-03-23 01:42 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/unameisfine">@unameisfine</a> opened 2026-03-23 01:42 UTC</span>
     <span class="issues-meta-item">3 comments</span>
     <span class="issues-meta-item">Updated 2026-04-27 22:28 UTC</span>
   </div>
@@ -62,7 +62,7 @@ if baseWeightRatio.IsNegative() || baseWeightRatio.GTE(math.LegacyOneDec()) {
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-03-23 05:10 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -71,7 +71,7 @@ if baseWeightRatio.IsNegative() || baseWeightRatio.GTE(math.LegacyOneDec()) {
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@gmorgachev](https://github.com/gmorgachev)</span>
+    <span><a href="https://github.com/gmorgachev">@gmorgachev</a></span>
     <span class="issues-meta-item">commented 2026-04-26 20:00 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -83,7 +83,7 @@ if baseWeightRatio.IsNegative() || baseWeightRatio.GTE(math.LegacyOneDec()) {
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@unameisfine](https://github.com/unameisfine)</span>
+    <span><a href="https://github.com/unameisfine">@unameisfine</a></span>
     <span class="issues-meta-item">commented 2026-04-26 22:03 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

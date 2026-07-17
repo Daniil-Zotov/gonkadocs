@@ -2,7 +2,7 @@
 title: "#1319 — Self-serve (no-broker) flow is documented as working but returns 401 "model requires an API key" — I want to spend my own GNK directly"
 source: https://github.com/gonka-ai/gonka/issues/1319
 issue_number: 1319
-synced_at: 2026-07-17T14:55:15Z
+synced_at: 2026-07-17T16:36:44Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@dufok](https://github.com/dufok) opened 2026-06-07 22:20 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/dufok">@dufok</a> opened 2026-06-07 22:20 UTC</span>
     <span class="issues-meta-item">7 comments</span>
     <span class="issues-meta-item">Updated 2026-07-03 15:26 UTC</span>
   </div>
@@ -134,7 +134,7 @@ Related: #876
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@JamesJi79](https://github.com/JamesJi79)</span>
+    <span><a href="https://github.com/JamesJi79">@JamesJi79</a></span>
     <span class="issues-meta-item">commented 2026-06-08 04:53 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -152,7 +152,7 @@ Related: #876
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@dufok](https://github.com/dufok)</span>
+    <span><a href="https://github.com/dufok">@dufok</a></span>
     <span class="issues-meta-item">commented 2026-06-08 12:55 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -164,7 +164,7 @@ Related: #876
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@dufok](https://github.com/dufok)</span>
+    <span><a href="https://github.com/dufok">@dufok</a></span>
     <span class="issues-meta-item">commented 2026-06-08 13:05 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -205,7 +205,7 @@ func (k Keeper) IsAllowedEscrowCreator(ctx, address) bool {
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-06-23 23:55 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -218,7 +218,7 @@ func (k Keeper) IsAllowedEscrowCreator(ctx, address) bool {
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@dufok](https://github.com/dufok)</span>
+    <span><a href="https://github.com/dufok">@dufok</a></span>
     <span class="issues-meta-item">commented 2026-06-29 23:48 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -238,7 +238,7 @@ func (k Keeper) IsAllowedEscrowCreator(ctx, address) bool {
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-07-03 00:01 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -251,7 +251,7 @@ func (k Keeper) IsAllowedEscrowCreator(ctx, address) bool {
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@dufok](https://github.com/dufok)</span>
+    <span><a href="https://github.com/dufok">@dufok</a></span>
     <span class="issues-meta-item">commented 2026-07-03 15:26 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

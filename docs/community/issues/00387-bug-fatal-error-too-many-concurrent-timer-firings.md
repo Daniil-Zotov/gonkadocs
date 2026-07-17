@@ -2,7 +2,7 @@
 title: "#387 — Bug: fatal error: too many concurrent timer firings"
 source: https://github.com/gonka-ai/gonka/issues/387
 issue_number: 387
-synced_at: 2026-07-17T14:58:14Z
+synced_at: 2026-07-17T16:38:40Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@gmorgachev](https://github.com/gmorgachev) opened 2025-10-09 05:51 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/gmorgachev">@gmorgachev</a> opened 2025-10-09 05:51 UTC</span>
     <span class="issues-meta-item">2 comments</span>
     <span class="issues-meta-item">Updated 2026-01-15 22:12 UTC</span>
   </div>
@@ -57,7 +57,7 @@ runtime.mcall()
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@gmorgachev](https://github.com/gmorgachev)</span>
+    <span><a href="https://github.com/gmorgachev">@gmorgachev</a></span>
     <span class="issues-meta-item">commented 2025-10-19 04:36 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -67,7 +67,7 @@ runtime.mcall()
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@gmorgachev](https://github.com/gmorgachev)</span>
+    <span><a href="https://github.com/gmorgachev">@gmorgachev</a></span>
     <span class="issues-meta-item">commented 2025-11-22 00:53 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

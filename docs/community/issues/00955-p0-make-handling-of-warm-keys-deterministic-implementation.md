@@ -2,7 +2,7 @@
 title: "#955 — [P0] Make handling of warm keys deterministic (implementation)"
 source: https://github.com/gonka-ai/gonka/issues/955
 issue_number: 955
-synced_at: 2026-07-17T14:55:44Z
+synced_at: 2026-07-17T16:37:04Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item">[@dcastro](https://github.com/dcastro) opened 2026-03-26 15:12 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 2026-03-26 15:12 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-05-25 18:47 UTC</span>
   </div>
@@ -33,7 +33,7 @@ Once research is finished and we agree on a decision, we'll update this issue wi
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@KKizilov](https://github.com/KKizilov)</span>
+    <span><a href="https://github.com/KKizilov">@KKizilov</a></span>
     <span class="issues-meta-item">commented 2026-03-26 15:22 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

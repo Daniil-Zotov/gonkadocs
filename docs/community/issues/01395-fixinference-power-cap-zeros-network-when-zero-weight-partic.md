@@ -2,7 +2,7 @@
 title: "#1395 — fix(inference): power cap zeros network when zero-weight participants are in settlement"
 source: https://github.com/gonka-ai/gonka/issues/1395
 issue_number: 1395
-synced_at: 2026-07-17T14:55:06Z
+synced_at: 2026-07-17T16:36:38Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@maria-mitina](https://github.com/maria-mitina) opened 2026-07-04 11:58 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 2026-07-04 11:58 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-07-08 23:18 UTC</span>
   </div>
@@ -153,7 +153,7 @@ go test ./inference-chain/x/inference/module/ -run TestApplyPowerCapping -count=
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@maria-mitina](https://github.com/maria-mitina)</span>
+    <span><a href="https://github.com/maria-mitina">@maria-mitina</a></span>
     <span class="issues-meta-item">commented 2026-07-08 23:18 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

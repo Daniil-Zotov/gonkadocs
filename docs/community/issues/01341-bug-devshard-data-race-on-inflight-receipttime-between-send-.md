@@ -2,7 +2,7 @@
 title: "#1341 — [BUG] devshard: data race on inflight receiptTime between send goroutine and escalation scheduler (go test -race fails on main)"
 source: https://github.com/gonka-ai/gonka/issues/1341
 issue_number: 1341
-synced_at: 2026-07-17T14:55:22Z
+synced_at: 2026-07-17T16:36:49Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@redstartechno](https://github.com/redstartechno) opened 2026-06-12 20:05 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/redstartechno">@redstartechno</a> opened 2026-06-12 20:05 UTC</span>
     <span class="issues-meta-item">3 comments</span>
     <span class="issues-meta-item">Updated 2026-06-26 23:54 UTC</span>
   </div>
@@ -116,7 +116,7 @@ Goroutine 31 (running) created at:
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-06-25 00:19 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -125,7 +125,7 @@ Goroutine 31 (running) created at:
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@a-kuprin](https://github.com/a-kuprin)</span>
+    <span><a href="https://github.com/a-kuprin">@a-kuprin</a></span>
     <span class="issues-meta-item">commented 2026-06-25 17:16 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -135,7 +135,7 @@ https://github.com/gonka-ai/gonka/commit/7b2c7b4dd946d37c32108103dad1a3cdfbdd6d2
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-06-26 23:54 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

@@ -2,7 +2,7 @@
 title: "#612 — `/chat/completion` flow development"
 source: https://github.com/gonka-ai/gonka/issues/612
 issue_number: 612
-synced_at: 2026-07-17T14:56:33Z
+synced_at: 2026-07-17T16:37:34Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-20 21:37 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-20 21:37 UTC</span>
     <span class="issues-meta-item">3 comments</span>
     <span class="issues-meta-item">Updated 2026-04-01 23:53 UTC</span>
   </div>
@@ -31,7 +31,7 @@ template: issues-main.html
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-03-22 22:59 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -40,7 +40,7 @@ template: issues-main.html
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-03-23 20:55 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -49,7 +49,7 @@ template: issues-main.html
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@heitor-lassarote](https://github.com/heitor-lassarote)</span>
+    <span><a href="https://github.com/heitor-lassarote">@heitor-lassarote</a></span>
     <span class="issues-meta-item">commented 2026-03-23 21:08 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

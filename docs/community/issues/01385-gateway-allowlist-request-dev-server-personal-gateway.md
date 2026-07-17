@@ -2,7 +2,7 @@
 title: "#1385 — Gateway allowlist request - dev server personal gateway"
 source: https://github.com/gonka-ai/gonka/issues/1385
 issue_number: 1385
-synced_at: 2026-07-17T14:55:03Z
+synced_at: 2026-07-17T16:36:36Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@scodeit](https://github.com/scodeit) opened 2026-07-01 16:41 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/scodeit">@scodeit</a> opened 2026-07-01 16:41 UTC</span>
     <span class="issues-meta-item">3 comments</span>
     <span class="issues-meta-item">Updated 2026-07-10 21:03 UTC</span>
   </div>
@@ -51,7 +51,7 @@ Please consider adding this address to `devshard_escrow_params.allowed_creator_a
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-07-03 00:09 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -63,7 +63,7 @@ Please consider adding this address to `devshard_escrow_params.allowed_creator_a
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@scodeit](https://github.com/scodeit)</span>
+    <span><a href="https://github.com/scodeit">@scodeit</a></span>
     <span class="issues-meta-item">commented 2026-07-03 19:06 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -81,7 +81,7 @@ Please consider adding this address to `devshard_escrow_params.allowed_creator_a
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-07-10 21:03 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

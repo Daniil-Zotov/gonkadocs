@@ -2,7 +2,7 @@
 title: "#783 — [4/4] `StartInference` and `FinishInference`"
 source: https://github.com/gonka-ai/gonka/issues/783
 issue_number: 783
-synced_at: 2026-07-17T14:56:59Z
+synced_at: 2026-07-17T16:37:50Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-20 22:40 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-02-20 22:40 UTC</span>
     <span class="issues-meta-item">22 comments</span>
     <span class="issues-meta-item">Updated 2026-03-11 20:01 UTC</span>
   </div>
@@ -88,7 +88,7 @@ All five issues [0/4], [1/4], [2/4], [3/4], [4/4] in this series must be complet
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-02-20 22:40 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -97,7 +97,7 @@ All five issues [0/4], [1/4], [2/4], [3/4], [4/4] in this series must be complet
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@akup](https://github.com/akup)</span>
+    <span><a href="https://github.com/akup">@akup</a></span>
     <span class="issues-meta-item">commented 2026-02-21 04:32 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -107,7 +107,7 @@ All five issues [0/4], [1/4], [2/4], [3/4], [4/4] in this series must be complet
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@libermans](https://github.com/libermans)</span>
+    <span><a href="https://github.com/libermans">@libermans</a></span>
     <span class="issues-meta-item">commented 2026-02-21 05:23 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -117,7 +117,7 @@ All five issues [0/4], [1/4], [2/4], [3/4], [4/4] in this series must be complet
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@akup](https://github.com/akup)</span>
+    <span><a href="https://github.com/akup">@akup</a></span>
     <span class="issues-meta-item">commented 2026-02-21 05:23 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -132,7 +132,7 @@ getConfirmationPoCStatus (isn't related to inference completion)</p>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@libermans](https://github.com/libermans)</span>
+    <span><a href="https://github.com/libermans">@libermans</a></span>
     <span class="issues-meta-item">commented 2026-02-21 05:27 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -141,7 +141,7 @@ getConfirmationPoCStatus (isn't related to inference completion)</p>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@akup](https://github.com/akup)</span>
+    <span><a href="https://github.com/akup">@akup</a></span>
     <span class="issues-meta-item">commented 2026-02-21 05:27 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -151,7 +151,7 @@ getConfirmationPoCStatus (isn't related to inference completion)</p>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@libermans](https://github.com/libermans)</span>
+    <span><a href="https://github.com/libermans">@libermans</a></span>
     <span class="issues-meta-item">commented 2026-02-21 05:31 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -160,7 +160,7 @@ getConfirmationPoCStatus (isn't related to inference completion)</p>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@akup](https://github.com/akup)</span>
+    <span><a href="https://github.com/akup">@akup</a></span>
     <span class="issues-meta-item">commented 2026-02-21 05:34 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -170,7 +170,7 @@ getConfirmationPoCStatus (isn't related to inference completion)</p>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@x0152](https://github.com/x0152)</span>
+    <span><a href="https://github.com/x0152">@x0152</a></span>
     <span class="issues-meta-item">commented 2026-02-21 11:20 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -179,7 +179,7 @@ getConfirmationPoCStatus (isn't related to inference completion)</p>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@x0152](https://github.com/x0152)</span>
+    <span><a href="https://github.com/x0152">@x0152</a></span>
     <span class="issues-meta-item">commented 2026-02-21 12:02 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -194,7 +194,7 @@ getConfirmationPoCStatus (isn't related to inference completion)</p>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@x0152](https://github.com/x0152)</span>
+    <span><a href="https://github.com/x0152">@x0152</a></span>
     <span class="issues-meta-item">commented 2026-02-21 12:15 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -208,7 +208,7 @@ getConfirmationPoCStatus (isn't related to inference completion)</p>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@akup](https://github.com/akup)</span>
+    <span><a href="https://github.com/akup">@akup</a></span>
     <span class="issues-meta-item">commented 2026-02-21 15:25 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -222,7 +222,7 @@ But I don't think we should store and calculate something on chain that is just 
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@akup](https://github.com/akup)</span>
+    <span><a href="https://github.com/akup">@akup</a></span>
     <span class="issues-meta-item">commented 2026-02-21 15:27 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -234,7 +234,7 @@ But I don't think we should store and calculate something on chain that is just 
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@akup](https://github.com/akup)</span>
+    <span><a href="https://github.com/akup">@akup</a></span>
     <span class="issues-meta-item">commented 2026-02-21 15:44 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -247,7 +247,7 @@ But I don't think we should store and calculate something on chain that is just 
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@x0152](https://github.com/x0152)</span>
+    <span><a href="https://github.com/x0152">@x0152</a></span>
     <span class="issues-meta-item">commented 2026-02-21 19:27 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -261,7 +261,7 @@ Moving this offchain is not trivial task, since InactiveLLR is consensus state u
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@x0152](https://github.com/x0152)</span>
+    <span><a href="https://github.com/x0152">@x0152</a></span>
     <span class="issues-meta-item">commented 2026-02-21 19:34 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -277,7 +277,7 @@ Moving this offchain is not trivial task, since InactiveLLR is consensus state u
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@akup](https://github.com/akup)</span>
+    <span><a href="https://github.com/akup">@akup</a></span>
     <span class="issues-meta-item">commented 2026-02-23 09:35 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -289,7 +289,7 @@ Moving this offchain is not trivial task, since InactiveLLR is consensus state u
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@x0152](https://github.com/x0152)</span>
+    <span><a href="https://github.com/x0152">@x0152</a></span>
     <span class="issues-meta-item">commented 2026-02-23 12:46 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -344,7 +344,7 @@ B: result: LLR=+4.16, status=INACTIVE
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@akup](https://github.com/akup)</span>
+    <span><a href="https://github.com/akup">@akup</a></span>
     <span class="issues-meta-item">commented 2026-02-23 16:46 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -357,7 +357,7 @@ B: result: LLR=+4.16, status=INACTIVE
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@akup](https://github.com/akup)</span>
+    <span><a href="https://github.com/akup">@akup</a></span>
     <span class="issues-meta-item">commented 2026-02-23 17:00 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -394,7 +394,7 @@ require.Equal(t, stored.InactiveLLR.ToDecimal().String(), skipped2.InactiveLLR.T
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@x0152](https://github.com/x0152)</span>
+    <span><a href="https://github.com/x0152">@x0152</a></span>
     <span class="issues-meta-item">commented 2026-02-23 21:27 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -403,7 +403,7 @@ require.Equal(t, stored.InactiveLLR.ToDecimal().String(), skipped2.InactiveLLR.T
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@gmorgachev](https://github.com/gmorgachev)</span>
+    <span><a href="https://github.com/gmorgachev">@gmorgachev</a></span>
     <span class="issues-meta-item">commented 2026-03-11 20:01 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

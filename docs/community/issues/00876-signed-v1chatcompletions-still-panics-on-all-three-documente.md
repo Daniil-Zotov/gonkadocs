@@ -2,7 +2,7 @@
 title: "#876 — Signed /v1/chat/completions still panics on all three documented mainnet transfer-agent endpoints"
 source: https://github.com/gonka-ai/gonka/issues/876
 issue_number: 876
-synced_at: 2026-07-17T14:55:38Z
+synced_at: 2026-07-17T16:37:00Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@junior2wnw](https://github.com/junior2wnw) opened 2026-03-10 20:30 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/junior2wnw">@junior2wnw</a> opened 2026-03-10 20:30 UTC</span>
     <span class="issues-meta-item">13 comments</span>
     <span class="issues-meta-item">Updated 2026-06-03 06:10 UTC</span>
   </div>
@@ -198,7 +198,7 @@ Wallet (if bounty attribution is relevant): `gonka1glph4syjlx347ptv2n7qfz67sryrh
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@junior2wnw](https://github.com/junior2wnw)</span>
+    <span><a href="https://github.com/junior2wnw">@junior2wnw</a></span>
     <span class="issues-meta-item">commented 2026-03-10 20:36 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -308,7 +308,7 @@ This is intentionally sanitized. I can provide the exact reproduction script and
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@junior2wnw](https://github.com/junior2wnw)</span>
+    <span><a href="https://github.com/junior2wnw">@junior2wnw</a></span>
     <span class="issues-meta-item">commented 2026-03-10 21:51 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -326,7 +326,7 @@ This is intentionally sanitized. I can provide the exact reproduction script and
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@junior2wnw](https://github.com/junior2wnw)</span>
+    <span><a href="https://github.com/junior2wnw">@junior2wnw</a></span>
     <span class="issues-meta-item">commented 2026-03-11 20:34 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -348,7 +348,7 @@ This is intentionally sanitized. I can provide the exact reproduction script and
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@unameisfine](https://github.com/unameisfine)</span>
+    <span><a href="https://github.com/unameisfine">@unameisfine</a></span>
     <span class="issues-meta-item">commented 2026-03-25 16:05 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -370,7 +370,7 @@ This is intentionally sanitized. I can provide the exact reproduction script and
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@x0152](https://github.com/x0152)</span>
+    <span><a href="https://github.com/x0152">@x0152</a></span>
     <span class="issues-meta-item">commented 2026-03-26 14:32 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -389,7 +389,7 @@ Tried your script - buildAuthorization double-hashes the message, so the server 
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@zhaog100](https://github.com/zhaog100)</span>
+    <span><a href="https://github.com/zhaog100">@zhaog100</a></span>
     <span class="issues-meta-item">commented 2026-03-26 15:30 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -398,7 +398,7 @@ Tried your script - buildAuthorization double-hashes the message, so the server 
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@zhaog100](https://github.com/zhaog100)</span>
+    <span><a href="https://github.com/zhaog100">@zhaog100</a></span>
     <span class="issues-meta-item">commented 2026-03-26 15:30 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -407,7 +407,7 @@ Tried your script - buildAuthorization double-hashes the message, so the server 
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@zhaog100](https://github.com/zhaog100)</span>
+    <span><a href="https://github.com/zhaog100">@zhaog100</a></span>
     <span class="issues-meta-item">commented 2026-03-26 16:00 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -416,7 +416,7 @@ Tried your script - buildAuthorization double-hashes the message, so the server 
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@unameisfine](https://github.com/unameisfine)</span>
+    <span><a href="https://github.com/unameisfine">@unameisfine</a></span>
     <span class="issues-meta-item">commented 2026-03-28 20:31 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -428,7 +428,7 @@ Tried your script - buildAuthorization double-hashes the message, so the server 
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@junior2wnw](https://github.com/junior2wnw)</span>
+    <span><a href="https://github.com/junior2wnw">@junior2wnw</a></span>
     <span class="issues-meta-item">commented 2026-03-30 20:17 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -491,7 +491,7 @@ https://github.com/gonka-ai/gonka-openai/blob/main/typescript/src/utils.ts</p>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@junior2wnw](https://github.com/junior2wnw)</span>
+    <span><a href="https://github.com/junior2wnw">@junior2wnw</a></span>
     <span class="issues-meta-item">commented 2026-04-27 13:18 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -502,7 +502,7 @@ https://github.com/gonka-ai/gonka-openai/blob/main/typescript/src/utils.ts</p>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@dufok](https://github.com/dufok)</span>
+    <span><a href="https://github.com/dufok">@dufok</a></span>
     <span class="issues-meta-item">commented 2026-05-29 16:02 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -534,7 +534,7 @@ content-type:         application/json
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-06-03 06:10 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

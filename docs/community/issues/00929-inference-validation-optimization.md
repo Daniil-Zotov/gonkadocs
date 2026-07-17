@@ -2,7 +2,7 @@
 title: "#929 — Inference validation optimization"
 source: https://github.com/gonka-ai/gonka/issues/929
 issue_number: 929
-synced_at: 2026-07-17T14:56:39Z
+synced_at: 2026-07-17T16:37:37Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-03-21 19:22 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-03-21 19:22 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-03-26 09:31 UTC</span>
   </div>
@@ -31,7 +31,7 @@ template: issues-main.html
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Red-Caesar](https://github.com/Red-Caesar)</span>
+    <span><a href="https://github.com/Red-Caesar">@Red-Caesar</a></span>
     <span class="issues-meta-item">commented 2026-03-26 09:31 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

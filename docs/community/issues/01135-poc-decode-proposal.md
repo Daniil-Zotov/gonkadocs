@@ -2,7 +2,7 @@
 title: "#1135 — PoC-decode proposal"
 source: https://github.com/gonka-ai/gonka/issues/1135
 issue_number: 1135
-synced_at: 2026-07-17T14:55:49Z
+synced_at: 2026-07-17T16:37:07Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item">[@Red-Caesar](https://github.com/Red-Caesar) opened 2026-04-30 12:35 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/Red-Caesar">@Red-Caesar</a> opened 2026-04-30 12:35 UTC</span>
     <span class="issues-meta-item">5 comments</span>
     <span class="issues-meta-item">Updated 2026-05-23 01:49 UTC</span>
   </div>
@@ -94,7 +94,7 @@ Evidence and analysis:
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@unameisfine](https://github.com/unameisfine)</span>
+    <span><a href="https://github.com/unameisfine">@unameisfine</a></span>
     <span class="issues-meta-item">commented 2026-05-04 21:40 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -126,7 +126,7 @@ Evidence and analysis:
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Red-Caesar](https://github.com/Red-Caesar)</span>
+    <span><a href="https://github.com/Red-Caesar">@Red-Caesar</a></span>
     <span class="issues-meta-item">commented 2026-05-21 08:24 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -139,7 +139,7 @@ Evidence and analysis:
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@gmorgachev](https://github.com/gmorgachev)</span>
+    <span><a href="https://github.com/gmorgachev">@gmorgachev</a></span>
     <span class="issues-meta-item">commented 2026-05-21 12:20 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -158,7 +158,7 @@ I think this research i focused more on replacement of PoC, not an inference val
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Red-Caesar](https://github.com/Red-Caesar)</span>
+    <span><a href="https://github.com/Red-Caesar">@Red-Caesar</a></span>
     <span class="issues-meta-item">commented 2026-05-22 10:48 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -168,7 +168,7 @@ I think this research i focused more on replacement of PoC, not an inference val
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@unameisfine](https://github.com/unameisfine)</span>
+    <span><a href="https://github.com/unameisfine">@unameisfine</a></span>
     <span class="issues-meta-item">commented 2026-05-23 01:49 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

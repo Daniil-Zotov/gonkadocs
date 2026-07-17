@@ -2,7 +2,7 @@
 title: "#781 — [2/4] `StartInference` and `FinishInference`"
 source: https://github.com/gonka-ai/gonka/issues/781
 issue_number: 781
-synced_at: 2026-07-17T14:57:00Z
+synced_at: 2026-07-17T16:37:51Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-20 22:26 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-02-20 22:26 UTC</span>
     <span class="issues-meta-item">13 comments</span>
     <span class="issues-meta-item">Updated 2026-03-11 20:01 UTC</span>
   </div>
@@ -90,7 +90,7 @@ All five issues [0/4], [1/4], [2/4], [3/4], [4/4] in this series must be complet
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-02-20 22:41 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -99,7 +99,7 @@ All five issues [0/4], [1/4], [2/4], [3/4], [4/4] in this series must be complet
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@akup](https://github.com/akup)</span>
+    <span><a href="https://github.com/akup">@akup</a></span>
     <span class="issues-meta-item">commented 2026-02-21 04:08 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -110,7 +110,7 @@ So when we move DevelopersStats off-chain, we also should handle validation even
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@libermans](https://github.com/libermans)</span>
+    <span><a href="https://github.com/libermans">@libermans</a></span>
     <span class="issues-meta-item">commented 2026-02-21 05:20 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -120,7 +120,7 @@ So when we move DevelopersStats off-chain, we also should handle validation even
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@x0152](https://github.com/x0152)</span>
+    <span><a href="https://github.com/x0152">@x0152</a></span>
     <span class="issues-meta-item">commented 2026-02-22 12:02 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -129,7 +129,7 @@ So when we move DevelopersStats off-chain, we also should handle validation even
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@x0152](https://github.com/x0152)</span>
+    <span><a href="https://github.com/x0152">@x0152</a></span>
     <span class="issues-meta-item">commented 2026-02-23 21:14 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -139,7 +139,7 @@ So when we move DevelopersStats off-chain, we also should handle validation even
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@libermans](https://github.com/libermans)</span>
+    <span><a href="https://github.com/libermans">@libermans</a></span>
     <span class="issues-meta-item">commented 2026-02-24 00:53 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -151,7 +151,7 @@ So when we move DevelopersStats off-chain, we also should handle validation even
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@libermans](https://github.com/libermans)</span>
+    <span><a href="https://github.com/libermans">@libermans</a></span>
     <span class="issues-meta-item">commented 2026-02-24 01:27 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -161,7 +161,7 @@ So when we move DevelopersStats off-chain, we also should handle validation even
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@akup](https://github.com/akup)</span>
+    <span><a href="https://github.com/akup">@akup</a></span>
     <span class="issues-meta-item">commented 2026-02-24 05:50 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -174,7 +174,7 @@ Need to discuss it. </p>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@x0152](https://github.com/x0152)</span>
+    <span><a href="https://github.com/x0152">@x0152</a></span>
     <span class="issues-meta-item">commented 2026-02-24 07:24 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -184,7 +184,7 @@ Need to discuss it. </p>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@x0152](https://github.com/x0152)</span>
+    <span><a href="https://github.com/x0152">@x0152</a></span>
     <span class="issues-meta-item">commented 2026-02-24 14:21 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -193,7 +193,7 @@ Need to discuss it. </p>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@akup](https://github.com/akup)</span>
+    <span><a href="https://github.com/akup">@akup</a></span>
     <span class="issues-meta-item">commented 2026-03-04 16:00 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -202,7 +202,7 @@ Need to discuss it. </p>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@x0152](https://github.com/x0152)</span>
+    <span><a href="https://github.com/x0152">@x0152</a></span>
     <span class="issues-meta-item">commented 2026-03-04 16:09 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -211,7 +211,7 @@ Need to discuss it. </p>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@gmorgachev](https://github.com/gmorgachev)</span>
+    <span><a href="https://github.com/gmorgachev">@gmorgachev</a></span>
     <span class="issues-meta-item">commented 2026-03-11 20:01 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

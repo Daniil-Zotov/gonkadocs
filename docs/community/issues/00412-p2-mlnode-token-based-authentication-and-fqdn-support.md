@@ -2,7 +2,7 @@
 title: "#412 — [P2] MLNode Token-Based Authentication and FQDN Support"
 source: https://github.com/gonka-ai/gonka/issues/412
 issue_number: 412
-synced_at: 2026-07-17T14:55:21Z
+synced_at: 2026-07-17T16:36:48Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item">[@gmorgachev](https://github.com/gmorgachev) opened 2025-10-31 07:50 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/gmorgachev">@gmorgachev</a> opened 2025-10-31 07:50 UTC</span>
     <span class="issues-meta-item">6 comments</span>
     <span class="issues-meta-item">Updated 2026-06-27 20:42 UTC</span>
   </div>
@@ -158,7 +158,7 @@ Required changes:
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Pegasus-starry](https://github.com/Pegasus-starry)</span>
+    <span><a href="https://github.com/Pegasus-starry">@Pegasus-starry</a></span>
     <span class="issues-meta-item">commented 2025-11-06 04:12 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -173,7 +173,7 @@ Where to do this and do we have a validate method already existed to validate th
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-02-04 23:26 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -182,7 +182,7 @@ Where to do this and do we have a validate method already existed to validate th
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-03-21 00:56 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -191,7 +191,7 @@ Where to do this and do we have a validate method already existed to validate th
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@akup](https://github.com/akup)</span>
+    <span><a href="https://github.com/akup">@akup</a></span>
     <span class="issues-meta-item">commented 2026-03-23 06:15 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -201,7 +201,7 @@ Where to do this and do we have a validate method already existed to validate th
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@bonujel](https://github.com/bonujel)</span>
+    <span><a href="https://github.com/bonujel">@bonujel</a></span>
     <span class="issues-meta-item">commented 2026-06-23 07:47 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -213,7 +213,7 @@ Thanks to everyone for the earlier work and review here.</p>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-06-27 20:42 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

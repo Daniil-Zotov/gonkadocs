@@ -2,7 +2,7 @@
 title: "#791 — Automatic cleanup of old propagation proofs"
 source: https://github.com/gonka-ai/gonka/issues/791
 issue_number: 791
-synced_at: 2026-07-17T14:56:17Z
+synced_at: 2026-07-17T16:37:23Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@slandymani](https://github.com/slandymani) opened 2026-02-23 10:11 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/slandymani">@slandymani</a> opened 2026-02-23 10:11 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-04-22 20:58 UTC</span>
   </div>
@@ -40,7 +40,7 @@ Implement automatic cleanup of propagation data (bundles and proofs) from old ep
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@slandymani](https://github.com/slandymani)</span>
+    <span><a href="https://github.com/slandymani">@slandymani</a></span>
     <span class="issues-meta-item">commented 2026-02-23 10:18 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

@@ -2,7 +2,7 @@
 title: "#1397 — Gateway allowlist request"
 source: https://github.com/gonka-ai/gonka/issues/1397
 issue_number: 1397
-synced_at: 2026-07-17T14:55:08Z
+synced_at: 2026-07-17T16:36:39Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item">[@yuritsin-code](https://github.com/yuritsin-code) opened 2026-07-04 15:26 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/yuritsin-code">@yuritsin-code</a> opened 2026-07-04 15:26 UTC</span>
     <span class="issues-meta-item">2 comments</span>
     <span class="issues-meta-item">Updated 2026-07-08 00:51 UTC</span>
   </div>
@@ -56,7 +56,7 @@ the network if useful.
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@yuritsin-code](https://github.com/yuritsin-code)</span>
+    <span><a href="https://github.com/yuritsin-code">@yuritsin-code</a></span>
     <span class="issues-meta-item">commented 2026-07-04 17:14 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -79,7 +79,7 @@ the network if useful.
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-07-08 00:51 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

@@ -2,7 +2,7 @@
 title: "#950 — Set up IBC channels"
 source: https://github.com/gonka-ai/gonka/issues/950
 issue_number: 950
-synced_at: 2026-07-17T14:56:27Z
+synced_at: 2026-07-17T16:37:29Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@mtvnastya](https://github.com/mtvnastya) opened 2026-03-26 03:23 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/mtvnastya">@mtvnastya</a> opened 2026-03-26 03:23 UTC</span>
     <span class="issues-meta-item">0 comments</span>
     <span class="issues-meta-item">Updated 2026-04-08 22:59 UTC</span>
   </div>

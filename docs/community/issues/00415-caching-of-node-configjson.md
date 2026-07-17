@@ -2,7 +2,7 @@
 title: "#415 — Caching of node-config.json"
 source: https://github.com/gonka-ai/gonka/issues/415
 issue_number: 415
-synced_at: 2026-07-17T14:58:31Z
+synced_at: 2026-07-17T16:38:51Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@DePunk-eth](https://github.com/DePunk-eth) opened 2025-11-01 18:06 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/DePunk-eth">@DePunk-eth</a> opened 2025-11-01 18:06 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2025-11-17 19:41 UTC</span>
   </div>
@@ -31,7 +31,7 @@ gonka.db of dapi has priority over node-config.json and keep first settings of n
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@joesun1983](https://github.com/joesun1983)</span>
+    <span><a href="https://github.com/joesun1983">@joesun1983</a></span>
     <span class="issues-meta-item">commented 2025-11-07 09:01 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

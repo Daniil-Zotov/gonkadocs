@@ -2,7 +2,7 @@
 title: "#849 — Bug: DKG permanent failure — dealer consensus uses unweighted participant votes but quorum uses slot weights"
 source: https://github.com/gonka-ai/gonka/issues/849
 issue_number: 849
-synced_at: 2026-07-17T14:56:53Z
+synced_at: 2026-07-17T16:37:47Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@Mayveskii](https://github.com/Mayveskii) opened 2026-03-03 12:04 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/Mayveskii">@Mayveskii</a> opened 2026-03-03 12:04 UTC</span>
     <span class="issues-meta-item">2 comments</span>
     <span class="issues-meta-item">Updated 2026-03-12 22:56 UTC</span>
   </div>
@@ -105,7 +105,7 @@ dealerIsValid := totalSlots > 0 && validSlots > totalSlots/2
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Mayveskii](https://github.com/Mayveskii)</span>
+    <span><a href="https://github.com/Mayveskii">@Mayveskii</a></span>
     <span class="issues-meta-item">commented 2026-03-03 12:56 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -114,7 +114,7 @@ dealerIsValid := totalSlots > 0 && validSlots > totalSlots/2
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@x0152](https://github.com/x0152)</span>
+    <span><a href="https://github.com/x0152">@x0152</a></span>
     <span class="issues-meta-item">commented 2026-03-12 20:08 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

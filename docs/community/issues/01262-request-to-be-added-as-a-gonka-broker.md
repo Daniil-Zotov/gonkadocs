@@ -2,7 +2,7 @@
 title: "#1262 — Request to be added as a Gonka broker"
 source: https://github.com/gonka-ai/gonka/issues/1262
 issue_number: 1262
-synced_at: 2026-07-17T14:55:21Z
+synced_at: 2026-07-17T16:36:49Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@anikiyevichm](https://github.com/anikiyevichm) opened 2026-05-27 16:11 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/anikiyevichm">@anikiyevichm</a> opened 2026-05-27 16:11 UTC</span>
     <span class="issues-meta-item">5 comments</span>
     <span class="issues-meta-item">Updated 2026-06-27 01:27 UTC</span>
   </div>
@@ -74,7 +74,7 @@ Target audience:
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@anikiyevichm](https://github.com/anikiyevichm)</span>
+    <span><a href="https://github.com/anikiyevichm">@anikiyevichm</a></span>
     <span class="issues-meta-item">commented 2026-05-28 14:54 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -83,7 +83,7 @@ Target audience:
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-06-23 22:47 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -101,7 +101,7 @@ https://openbroker.gonka.gg/stats</p>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@anikiyevichm](https://github.com/anikiyevichm)</span>
+    <span><a href="https://github.com/anikiyevichm">@anikiyevichm</a></span>
     <span class="issues-meta-item">commented 2026-06-24 07:42 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -114,7 +114,7 @@ Hi, thanks for the clarification.</p>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@anikiyevichm](https://github.com/anikiyevichm)</span>
+    <span><a href="https://github.com/anikiyevichm">@anikiyevichm</a></span>
     <span class="issues-meta-item">commented 2026-06-24 10:35 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -123,7 +123,7 @@ Hi, thanks for the clarification.</p>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-06-27 01:27 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

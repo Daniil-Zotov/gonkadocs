@@ -2,7 +2,7 @@
 title: "#1199 — Reproducible sampling for inference validation"
 source: https://github.com/gonka-ai/gonka/issues/1199
 issue_number: 1199
-synced_at: 2026-07-17T14:55:01Z
+synced_at: 2026-07-17T16:36:35Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-05-19 23:17 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-05-19 23:17 UTC</span>
     <span class="issues-meta-item">5 comments</span>
     <span class="issues-meta-item">Updated 2026-07-15 08:54 UTC</span>
   </div>
@@ -149,7 +149,7 @@ The priority is to take over the existing work, gradually introduce it into MLNo
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Ryanchen911](https://github.com/Ryanchen911)</span>
+    <span><a href="https://github.com/Ryanchen911">@Ryanchen911</a></span>
     <span class="issues-meta-item">commented 2026-06-26 11:33 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -158,7 +158,7 @@ The priority is to take over the existing work, gradually introduce it into MLNo
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-06-30 00:53 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -167,7 +167,7 @@ The priority is to take over the existing work, gradually introduce it into MLNo
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Ryanchen911](https://github.com/Ryanchen911)</span>
+    <span><a href="https://github.com/Ryanchen911">@Ryanchen911</a></span>
     <span class="issues-meta-item">commented 2026-07-06 01:30 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -176,7 +176,7 @@ The priority is to take over the existing work, gradually introduce it into MLNo
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Ryanchen911](https://github.com/Ryanchen911)</span>
+    <span><a href="https://github.com/Ryanchen911">@Ryanchen911</a></span>
     <span class="issues-meta-item">commented 2026-07-06 02:53 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -435,7 +435,7 @@ verify.
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@bonujel](https://github.com/bonujel)</span>
+    <span><a href="https://github.com/bonujel">@bonujel</a></span>
     <span class="issues-meta-item">commented 2026-07-14 01:16 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

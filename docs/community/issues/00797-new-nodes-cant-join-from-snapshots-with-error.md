@@ -2,7 +2,7 @@
 title: "#797 — New nodes can't join from snapshots with error"
 source: https://github.com/gonka-ai/gonka/issues/797
 issue_number: 797
-synced_at: 2026-07-17T14:57:10Z
+synced_at: 2026-07-17T16:37:58Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-24 19:35 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-02-24 19:35 UTC</span>
     <span class="issues-meta-item">5 comments</span>
     <span class="issues-meta-item">Updated 2026-02-25 17:50 UTC</span>
   </div>
@@ -53,7 +53,7 @@ Also, collateral needs to be checked.
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@hleb-albau](https://github.com/hleb-albau)</span>
+    <span><a href="https://github.com/hleb-albau">@hleb-albau</a></span>
     <span class="issues-meta-item">commented 2026-02-24 19:53 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -62,7 +62,7 @@ Also, collateral needs to be checked.
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-02-24 20:11 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -71,7 +71,7 @@ Also, collateral needs to be checked.
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@blizko](https://github.com/blizko)</span>
+    <span><a href="https://github.com/blizko">@blizko</a></span>
     <span class="issues-meta-item">commented 2026-02-24 21:35 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -82,7 +82,7 @@ Known failed attempt time around Feb 21st 01:47 UTC</p>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@x0152](https://github.com/x0152)</span>
+    <span><a href="https://github.com/x0152">@x0152</a></span>
     <span class="issues-meta-item">commented 2026-02-24 23:49 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -96,7 +96,7 @@ Known failed attempt time around Feb 21st 01:47 UTC</p>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-02-25 17:50 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

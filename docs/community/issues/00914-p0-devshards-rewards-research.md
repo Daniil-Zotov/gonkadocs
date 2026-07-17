@@ -2,7 +2,7 @@
 title: "#914 — [P0] `devshards` rewards (research)"
 source: https://github.com/gonka-ai/gonka/issues/914
 issue_number: 914
-synced_at: 2026-07-17T14:56:32Z
+synced_at: 2026-07-17T16:37:33Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@dcastro](https://github.com/dcastro) opened 2026-03-18 10:43 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 2026-03-18 10:43 UTC</span>
     <span class="issues-meta-item">3 comments</span>
     <span class="issues-meta-item">Updated 2026-04-02 12:31 UTC</span>
   </div>
@@ -50,7 +50,7 @@ template: issues-main.html
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@dcastro](https://github.com/dcastro)</span>
+    <span><a href="https://github.com/dcastro">@dcastro</a></span>
     <span class="issues-meta-item">commented 2026-03-19 14:19 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -108,7 +108,7 @@ However, this attack is not profit-driven.</p>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@dcastro](https://github.com/dcastro)</span>
+    <span><a href="https://github.com/dcastro">@dcastro</a></span>
     <span class="issues-meta-item">commented 2026-03-19 18:14 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -131,7 +131,7 @@ However, this attack is not profit-driven.</p>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@KKizilov](https://github.com/KKizilov)</span>
+    <span><a href="https://github.com/KKizilov">@KKizilov</a></span>
     <span class="issues-meta-item">commented 2026-03-26 15:07 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

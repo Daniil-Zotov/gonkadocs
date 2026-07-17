@@ -2,7 +2,7 @@
 title: "#1408 — Model lineup improvement: add an accessible GLM-5.2 candidate and reconsider MiniMax-M2.7 as default"
 source: https://github.com/gonka-ai/gonka/issues/1408
 issue_number: 1408
-synced_at: 2026-07-17T14:55:01Z
+synced_at: 2026-07-17T16:36:34Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item">[@enonog](https://github.com/enonog) opened 2026-07-06 12:31 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/enonog">@enonog</a> opened 2026-07-06 12:31 UTC</span>
     <span class="issues-meta-item">2 comments</span>
     <span class="issues-meta-item">Updated 2026-07-16 19:56 UTC</span>
   </div>
@@ -160,7 +160,7 @@ Please consider:
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@enonog](https://github.com/enonog)</span>
+    <span><a href="https://github.com/enonog">@enonog</a></span>
     <span class="issues-meta-item">commented 2026-07-06 12:33 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -172,7 +172,7 @@ Please consider:
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@enonog](https://github.com/enonog)</span>
+    <span><a href="https://github.com/enonog">@enonog</a></span>
     <span class="issues-meta-item">commented 2026-07-16 04:29 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

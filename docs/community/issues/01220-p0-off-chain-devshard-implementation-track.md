@@ -2,7 +2,7 @@
 title: "#1220 — [P0] Off-chain / devshard implementation track"
 source: https://github.com/gonka-ai/gonka/issues/1220
 issue_number: 1220
-synced_at: 2026-07-17T14:55:28Z
+synced_at: 2026-07-17T16:36:53Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-05-21 22:00 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-05-21 22:00 UTC</span>
     <span class="issues-meta-item">2 comments</span>
     <span class="issues-meta-item">Updated 2026-06-24 00:31 UTC</span>
   </div>
@@ -31,7 +31,7 @@ Open for community contributors. Multiple parallel efforts in this direction are
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@orvionx](https://github.com/orvionx)</span>
+    <span><a href="https://github.com/orvionx">@orvionx</a></span>
     <span class="issues-meta-item">commented 2026-06-22 23:37 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -51,7 +51,7 @@ I’d like to work on this issue.</p>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@mtvnastya](https://github.com/mtvnastya)</span>
+    <span><a href="https://github.com/mtvnastya">@mtvnastya</a></span>
     <span class="issues-meta-item">commented 2026-06-23 21:31 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

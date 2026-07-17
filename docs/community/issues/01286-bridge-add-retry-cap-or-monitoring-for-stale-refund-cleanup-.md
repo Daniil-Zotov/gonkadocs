@@ -2,7 +2,7 @@
 title: "#1286 — Bridge: add retry cap or monitoring for stale refund cleanup retries"
 source: https://github.com/gonka-ai/gonka/issues/1286
 issue_number: 1286
-synced_at: 2026-07-17T14:55:17Z
+synced_at: 2026-07-17T16:36:46Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item">[@Ryanchen911](https://github.com/Ryanchen911) opened 2026-06-01 02:34 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/Ryanchen911">@Ryanchen911</a> opened 2026-06-01 02:34 UTC</span>
     <span class="issues-meta-item">4 comments</span>
     <span class="issues-meta-item">Updated 2026-07-01 21:37 UTC</span>
   </div>
@@ -70,7 +70,7 @@ Either:
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-06-02 00:50 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -79,7 +79,7 @@ Either:
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Ryanchen911](https://github.com/Ryanchen911)</span>
+    <span><a href="https://github.com/Ryanchen911">@Ryanchen911</a></span>
     <span class="issues-meta-item">commented 2026-06-02 07:15 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -88,7 +88,7 @@ Either:
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@bonujel](https://github.com/bonujel)</span>
+    <span><a href="https://github.com/bonujel">@bonujel</a></span>
     <span class="issues-meta-item">commented 2026-06-02 08:27 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -97,7 +97,7 @@ Either:
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-06-02 17:46 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

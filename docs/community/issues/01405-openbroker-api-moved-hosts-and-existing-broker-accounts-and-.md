@@ -2,7 +2,7 @@
 title: "#1405 — OpenBroker API moved hosts and existing broker accounts (and balances) are gone — follow-up to #1319"
 source: https://github.com/gonka-ai/gonka/issues/1405
 issue_number: 1405
-synced_at: 2026-07-17T14:55:13Z
+synced_at: 2026-07-17T16:36:43Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@dufok](https://github.com/dufok) opened 2026-07-06 00:16 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/dufok">@dufok</a> opened 2026-07-06 00:16 UTC</span>
     <span class="issues-meta-item">2 comments</span>
     <span class="issues-meta-item">Updated 2026-07-06 01:14 UTC</span>
   </div>
@@ -52,7 +52,7 @@ For context, I'm building on Gonka: a ComfyUI node pack for Gonka inference (htt
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@dufok](https://github.com/dufok)</span>
+    <span><a href="https://github.com/dufok">@dufok</a></span>
     <span class="issues-meta-item">commented 2026-07-06 01:04 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -66,7 +66,7 @@ For context, I'm building on Gonka: a ComfyUI node pack for Gonka inference (htt
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@gonkalabs](https://github.com/gonkalabs)</span>
+    <span><a href="https://github.com/gonkalabs">@gonkalabs</a></span>
     <span class="issues-meta-item">commented 2026-07-06 01:09 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

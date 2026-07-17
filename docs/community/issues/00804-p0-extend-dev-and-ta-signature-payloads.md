@@ -2,7 +2,7 @@
 title: "#804 — [P0?] Extend dev and TA signature payloads"
 source: https://github.com/gonka-ai/gonka/issues/804
 issue_number: 804
-synced_at: 2026-07-17T14:55:51Z
+synced_at: 2026-07-17T16:37:08Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@DimaOrekhovPS](https://github.com/DimaOrekhovPS) opened 2026-02-25 20:49 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/DimaOrekhovPS">@DimaOrekhovPS</a> opened 2026-02-25 20:49 UTC</span>
     <span class="issues-meta-item">2 comments</span>
     <span class="issues-meta-item">Updated 2026-05-21 21:05 UTC</span>
   </div>
@@ -53,7 +53,7 @@ New payload: `prompt_hash + timestamp + ta_address + executor_address + inferenc
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-03-21 00:13 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -62,7 +62,7 @@ New payload: `prompt_hash + timestamp + ta_address + executor_address + inferenc
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@0xgonka](https://github.com/0xgonka)</span>
+    <span><a href="https://github.com/0xgonka">@0xgonka</a></span>
     <span class="issues-meta-item">commented 2026-03-21 07:45 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

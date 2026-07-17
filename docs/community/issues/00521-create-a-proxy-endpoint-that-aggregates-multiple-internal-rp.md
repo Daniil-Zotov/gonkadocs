@@ -2,7 +2,7 @@
 title: "#521 — Create a proxy endpoint that aggregates multiple internal RPC nodes behind a single public-facing address (for crypto wallets)"
 source: https://github.com/gonka-ai/gonka/issues/521
 issue_number: 521
-synced_at: 2026-07-17T14:55:38Z
+synced_at: 2026-07-17T16:37:00Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-06 00:34 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-06 00:34 UTC</span>
     <span class="issues-meta-item">7 comments</span>
     <span class="issues-meta-item">Updated 2026-06-04 19:10 UTC</span>
   </div>
@@ -43,7 +43,7 @@ CC @kotelnikova
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-01-23 19:23 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -52,7 +52,7 @@ CC @kotelnikova
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Ryanchen911](https://github.com/Ryanchen911)</span>
+    <span><a href="https://github.com/Ryanchen911">@Ryanchen911</a></span>
     <span class="issues-meta-item">commented 2026-06-03 02:19 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -61,7 +61,7 @@ CC @kotelnikova
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@gonkalabs](https://github.com/gonkalabs)</span>
+    <span><a href="https://github.com/gonkalabs">@gonkalabs</a></span>
     <span class="issues-meta-item">commented 2026-06-03 22:32 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -73,7 +73,7 @@ CC @kotelnikova
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-06-03 22:47 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -83,7 +83,7 @@ CC @kotelnikova
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@gonkalabs](https://github.com/gonkalabs)</span>
+    <span><a href="https://github.com/gonkalabs">@gonkalabs</a></span>
     <span class="issues-meta-item">commented 2026-06-03 23:09 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -93,7 +93,7 @@ CC @kotelnikova
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-06-03 23:26 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -102,7 +102,7 @@ CC @kotelnikova
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@gonkalabs](https://github.com/gonkalabs)</span>
+    <span><a href="https://github.com/gonkalabs">@gonkalabs</a></span>
     <span class="issues-meta-item">commented 2026-06-04 18:51 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

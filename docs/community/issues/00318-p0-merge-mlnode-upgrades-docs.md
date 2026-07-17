@@ -2,7 +2,7 @@
 title: "#318 — [P0] Merge MLNode upgrades + docs"
 source: https://github.com/gonka-ai/gonka/issues/318
 issue_number: 318
-synced_at: 2026-07-17T14:58:11Z
+synced_at: 2026-07-17T16:38:38Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2025-09-03 22:46 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2025-09-03 22:46 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-01-15 23:04 UTC</span>
   </div>
@@ -31,7 +31,7 @@ template: issues-main.html
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-01-15 23:04 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

@@ -2,7 +2,7 @@
 title: "#326 — [P2] Improve onboarding experience"
 source: https://github.com/gonka-ai/gonka/issues/326
 issue_number: 326
-synced_at: 2026-07-17T14:55:24Z
+synced_at: 2026-07-17T16:36:51Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2025-09-03 23:10 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2025-09-03 23:10 UTC</span>
     <span class="issues-meta-item">4 comments</span>
     <span class="issues-meta-item">Updated 2026-06-24 01:10 UTC</span>
   </div>
@@ -39,7 +39,7 @@ Description of the proposal:
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Pegasus-starry](https://github.com/Pegasus-starry)</span>
+    <span><a href="https://github.com/Pegasus-starry">@Pegasus-starry</a></span>
     <span class="issues-meta-item">commented 2025-12-08 18:47 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -53,7 +53,7 @@ Or just shown in log ?</li>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@DimaOrekhovPS](https://github.com/DimaOrekhovPS)</span>
+    <span><a href="https://github.com/DimaOrekhovPS">@DimaOrekhovPS</a></span>
     <span class="issues-meta-item">commented 2025-12-09 01:15 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -72,7 +72,7 @@ Or just shown in log ?</li>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-03-21 01:03 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -81,7 +81,7 @@ Or just shown in log ?</li>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-05-22 01:04 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

@@ -2,7 +2,7 @@
 title: "#1439 — External Visibility"
 source: https://github.com/gonka-ai/gonka/issues/1439
 issue_number: 1439
-synced_at: 2026-07-17T14:55:03Z
+synced_at: 2026-07-17T16:36:36Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@gordonfrost00-cloud](https://github.com/gordonfrost00-cloud) opened 2026-07-10 06:29 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/gordonfrost00-cloud">@gordonfrost00-cloud</a> opened 2026-07-10 06:29 UTC</span>
     <span class="issues-meta-item">2 comments</span>
     <span class="issues-meta-item">Updated 2026-07-10 21:51 UTC</span>
   </div>
@@ -35,7 +35,7 @@ Gonka’s visibility as a solution for decentralized storage should be promoted 
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-07-10 20:01 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -54,7 +54,7 @@ Gonka’s visibility as a solution for decentralized storage should be promoted 
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@gordonfrost00-cloud](https://github.com/gordonfrost00-cloud)</span>
+    <span><a href="https://github.com/gordonfrost00-cloud">@gordonfrost00-cloud</a></span>
     <span class="issues-meta-item">commented 2026-07-10 21:51 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

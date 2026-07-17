@@ -2,7 +2,7 @@
 title: "#1273 — x/inference: asymmetric debit in refundInvalidatedInference — design clarification"
 source: https://github.com/gonka-ai/gonka/issues/1273
 issue_number: 1273
-synced_at: 2026-07-17T14:55:41Z
+synced_at: 2026-07-17T16:37:02Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item">[@vitaly-andr](https://github.com/vitaly-andr) opened 2026-05-28 19:14 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/vitaly-andr">@vitaly-andr</a> opened 2026-05-28 19:14 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-05-29 05:26 UTC</span>
   </div>
@@ -102,7 +102,7 @@ Maintainer clarification before any code change:
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@vitaly-andr](https://github.com/vitaly-andr)</span>
+    <span><a href="https://github.com/vitaly-andr">@vitaly-andr</a></span>
     <span class="issues-meta-item">commented 2026-05-29 05:26 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

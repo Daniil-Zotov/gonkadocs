@@ -2,7 +2,7 @@
 title: "#558 — [P2] URLs with `/chat/completions` and `/completions` for Open Router"
 source: https://github.com/gonka-ai/gonka/issues/558
 issue_number: 558
-synced_at: 2026-07-17T14:56:28Z
+synced_at: 2026-07-17T16:37:30Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-01-14 20:40 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-01-14 20:40 UTC</span>
     <span class="issues-meta-item">3 comments</span>
     <span class="issues-meta-item">Updated 2026-04-08 16:51 UTC</span>
   </div>
@@ -51,7 +51,7 @@ This will help ensure full compatibility and avoid iteration during validation.
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-01-23 01:14 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -60,7 +60,7 @@ This will help ensure full compatibility and avoid iteration during validation.
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@libermans](https://github.com/libermans)</span>
+    <span><a href="https://github.com/libermans">@libermans</a></span>
     <span class="issues-meta-item">commented 2026-02-18 01:17 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -69,7 +69,7 @@ This will help ensure full compatibility and avoid iteration during validation.
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-02-19 03:20 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

@@ -2,7 +2,7 @@
 title: "#966 — Validation Eligibility and Accounting Consistency"
 source: https://github.com/gonka-ai/gonka/issues/966
 issue_number: 966
-synced_at: 2026-07-17T14:56:31Z
+synced_at: 2026-07-17T16:37:32Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@akup](https://github.com/akup) opened 2026-03-27 13:43 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/akup">@akup</a> opened 2026-03-27 13:43 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-04-03 10:10 UTC</span>
   </div>
@@ -83,7 +83,7 @@ When done:
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@akup](https://github.com/akup)</span>
+    <span><a href="https://github.com/akup">@akup</a></span>
     <span class="issues-meta-item">commented 2026-04-03 10:10 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

@@ -2,7 +2,7 @@
 title: "#857 — Test voting delegation"
 source: https://github.com/gonka-ai/gonka/issues/857
 issue_number: 857
-synced_at: 2026-07-17T14:57:03Z
+synced_at: 2026-07-17T16:37:53Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@maria-mitina](https://github.com/maria-mitina) opened 2026-03-03 18:30 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 2026-03-03 18:30 UTC</span>
     <span class="issues-meta-item">4 comments</span>
     <span class="issues-meta-item">Updated 2026-03-06 00:15 UTC</span>
   </div>
@@ -40,7 +40,7 @@ Testnet will be used for the flow verification.
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@maria-mitina](https://github.com/maria-mitina)</span>
+    <span><a href="https://github.com/maria-mitina">@maria-mitina</a></span>
     <span class="issues-meta-item">commented 2026-03-04 12:15 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -148,7 +148,7 @@ Tally | Query votes after success | Granter appears with correct option
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-03-05 23:46 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -157,7 +157,7 @@ Tally | Query votes after success | Granter appears with correct option
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Mayveskii](https://github.com/Mayveskii)</span>
+    <span><a href="https://github.com/Mayveskii">@Mayveskii</a></span>
     <span class="issues-meta-item">commented 2026-03-06 00:05 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -173,7 +173,7 @@ Currently working on GIP #859 (semantic cache) and need tokens for both the dele
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Mayveskii](https://github.com/Mayveskii)</span>
+    <span><a href="https://github.com/Mayveskii">@Mayveskii</a></span>
     <span class="issues-meta-item">commented 2026-03-06 00:15 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

@@ -2,7 +2,7 @@
 title: "#421 — Validators are marked for removal but haven't removed"
 source: https://github.com/gonka-ai/gonka/issues/421
 issue_number: 421
-synced_at: 2026-07-17T14:57:13Z
+synced_at: 2026-07-17T16:38:00Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item">[@gmorgachev](https://github.com/gmorgachev) opened 2025-11-07 22:56 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/gmorgachev">@gmorgachev</a> opened 2025-11-07 22:56 UTC</span>
     <span class="issues-meta-item">3 comments</span>
     <span class="issues-meta-item">Updated 2026-02-12 15:25 UTC</span>
   </div>
@@ -55,7 +55,7 @@ https://github.com/gonka-ai/cosmos-sdk/blob/1ace5dd25d1a78f6b189cbdfec9b76839fe4
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-01-28 22:19 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -64,7 +64,7 @@ https://github.com/gonka-ai/cosmos-sdk/blob/1ace5dd25d1a78f6b189cbdfec9b76839fe4
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
+    <span><a href="https://github.com/AlexeySamosadov">@AlexeySamosadov</a></span>
     <span class="issues-meta-item">commented 2026-02-08 15:16 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -73,7 +73,7 @@ https://github.com/gonka-ai/cosmos-sdk/blob/1ace5dd25d1a78f6b189cbdfec9b76839fe4
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
+    <span><a href="https://github.com/AlexeySamosadov">@AlexeySamosadov</a></span>
     <span class="issues-meta-item">commented 2026-02-12 15:25 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

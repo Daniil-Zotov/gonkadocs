@@ -2,7 +2,7 @@
 title: "#447 — Node Registration Does Not Update After Migration (API stuck using old on-chain config)"
 source: https://github.com/gonka-ai/gonka/issues/447
 issue_number: 447
-synced_at: 2026-07-17T14:55:34Z
+synced_at: 2026-07-17T16:36:57Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item">[@Asplana92](https://github.com/Asplana92) opened 2025-11-20 03:02 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/Asplana92">@Asplana92</a> opened 2025-11-20 03:02 UTC</span>
     <span class="issues-meta-item">2 comments</span>
     <span class="issues-meta-item">Updated 2026-06-11 19:09 UTC</span>
   </div>
@@ -291,7 +291,7 @@ raw output of inferenced query inference hardware-nodes-all
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@ASLanin](https://github.com/ASLanin)</span>
+    <span><a href="https://github.com/ASLanin">@ASLanin</a></span>
     <span class="issues-meta-item">commented 2025-11-24 21:21 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -301,7 +301,7 @@ query from the db <code>sqlite&gt; SELECT * FROM inference_nodes LIMIT 20;</code
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@redstartechno](https://github.com/redstartechno)</span>
+    <span><a href="https://github.com/redstartechno">@redstartechno</a></span>
     <span class="issues-meta-item">commented 2026-06-11 19:09 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

@@ -2,7 +2,7 @@
 title: "#891 — [P0] Proxy server for `devshards`: timeout handling"
 source: https://github.com/gonka-ai/gonka/issues/891
 issue_number: 891
-synced_at: 2026-07-17T14:56:35Z
+synced_at: 2026-07-17T16:37:34Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@dcastro](https://github.com/dcastro) opened 2026-03-16 13:45 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 2026-03-16 13:45 UTC</span>
     <span class="issues-meta-item">2 comments</span>
     <span class="issues-meta-item">Updated 2026-04-01 03:20 UTC</span>
   </div>
@@ -33,7 +33,7 @@ It should also handle timeout-related mechanisms.
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@dcastro](https://github.com/dcastro)</span>
+    <span><a href="https://github.com/dcastro">@dcastro</a></span>
     <span class="issues-meta-item">commented 2026-03-20 08:35 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -42,7 +42,7 @@ It should also handle timeout-related mechanisms.
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-03-20 22:41 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

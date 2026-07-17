@@ -2,7 +2,7 @@
 title: "#744 — [P1] Don’t require developers to register as Participants to run inference"
 source: https://github.com/gonka-ai/gonka/issues/744
 issue_number: 744
-synced_at: 2026-07-17T14:56:37Z
+synced_at: 2026-07-17T16:37:36Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-13 01:16 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-02-13 01:16 UTC</span>
     <span class="issues-meta-item">4 comments</span>
     <span class="issues-meta-item">Updated 2026-03-30 23:52 UTC</span>
   </div>
@@ -36,7 +36,7 @@ Currently, the chain requires a Participant record not only to host, but also to
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-02-13 01:19 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -45,7 +45,7 @@ Currently, the chain requires a Participant record not only to host, but also to
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@x0152](https://github.com/x0152)</span>
+    <span><a href="https://github.com/x0152">@x0152</a></span>
     <span class="issues-meta-item">commented 2026-02-13 06:15 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -54,7 +54,7 @@ Currently, the chain requires a Participant record not only to host, but also to
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@gmorgachev](https://github.com/gmorgachev)</span>
+    <span><a href="https://github.com/gmorgachev">@gmorgachev</a></span>
     <span class="issues-meta-item">commented 2026-03-11 20:03 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -63,7 +63,7 @@ Currently, the chain requires a Participant record not only to host, but also to
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-03-11 20:23 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

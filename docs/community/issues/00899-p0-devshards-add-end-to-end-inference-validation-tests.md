@@ -2,7 +2,7 @@
 title: "#899 — [P0] `devshards`: Add end-to-end inference validation tests"
 source: https://github.com/gonka-ai/gonka/issues/899
 issue_number: 899
-synced_at: 2026-07-17T14:56:29Z
+synced_at: 2026-07-17T16:37:31Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@heitor-lassarote](https://github.com/heitor-lassarote) opened 2026-03-16 18:50 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/heitor-lassarote">@heitor-lassarote</a> opened 2026-03-16 18:50 UTC</span>
     <span class="issues-meta-item">3 comments</span>
     <span class="issues-meta-item">Updated 2026-04-07 16:10 UTC</span>
   </div>
@@ -31,7 +31,7 @@ We should write testermint tests to ensure that inference validations in `devsha
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@heitor-lassarote](https://github.com/heitor-lassarote)</span>
+    <span><a href="https://github.com/heitor-lassarote">@heitor-lassarote</a></span>
     <span class="issues-meta-item">commented 2026-03-19 17:46 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -40,7 +40,7 @@ We should write testermint tests to ensure that inference validations in `devsha
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@KKizilov](https://github.com/KKizilov)</span>
+    <span><a href="https://github.com/KKizilov">@KKizilov</a></span>
     <span class="issues-meta-item">commented 2026-03-26 15:14 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -49,7 +49,7 @@ We should write testermint tests to ensure that inference validations in `devsha
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@heitor-lassarote](https://github.com/heitor-lassarote)</span>
+    <span><a href="https://github.com/heitor-lassarote">@heitor-lassarote</a></span>
     <span class="issues-meta-item">commented 2026-03-26 15:31 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

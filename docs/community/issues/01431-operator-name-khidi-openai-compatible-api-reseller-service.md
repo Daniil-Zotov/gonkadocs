@@ -2,7 +2,7 @@
 title: "#1431 — Operator name: Khidi — OpenAI-compatible API reseller service"
 source: https://github.com/gonka-ai/gonka/issues/1431
 issue_number: 1431
-synced_at: 2026-07-17T14:55:04Z
+synced_at: 2026-07-17T16:36:37Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item">[@jack-maguli](https://github.com/jack-maguli) opened 2026-07-09 12:21 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/jack-maguli">@jack-maguli</a> opened 2026-07-09 12:21 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-07-10 20:42 UTC</span>
   </div>
@@ -35,7 +35,7 @@ Background: I was an early miner on Gonka (addresses gonka19djgy0erv0wddgynxafe7
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-07-10 20:42 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

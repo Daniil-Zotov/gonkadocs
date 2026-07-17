@@ -2,7 +2,7 @@
 title: "#823 — Bridge: Weak Dealer Approval Enables Threshold Signing DoS"
 source: https://github.com/gonka-ai/gonka/issues/823
 issue_number: 823
-synced_at: 2026-07-17T14:56:32Z
+synced_at: 2026-07-17T16:37:33Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-27 22:24 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-02-27 22:24 UTC</span>
     <span class="issues-meta-item">4 comments</span>
     <span class="issues-meta-item">Updated 2026-04-02 23:28 UTC</span>
   </div>
@@ -53,7 +53,7 @@ Later, the dealer (or colluder) withholds its partial signature, pushing the usa
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@x0152](https://github.com/x0152)</span>
+    <span><a href="https://github.com/x0152">@x0152</a></span>
     <span class="issues-meta-item">commented 2026-02-28 13:19 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -63,7 +63,7 @@ Later, the dealer (or colluder) withholds its partial signature, pushing the usa
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@libermans](https://github.com/libermans)</span>
+    <span><a href="https://github.com/libermans">@libermans</a></span>
     <span class="issues-meta-item">commented 2026-03-02 05:10 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -72,7 +72,7 @@ Later, the dealer (or colluder) withholds its partial signature, pushing the usa
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@x0152](https://github.com/x0152)</span>
+    <span><a href="https://github.com/x0152">@x0152</a></span>
     <span class="issues-meta-item">commented 2026-03-02 11:52 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -84,7 +84,7 @@ Later, the dealer (or colluder) withholds its partial signature, pushing the usa
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@akup](https://github.com/akup)</span>
+    <span><a href="https://github.com/akup">@akup</a></span>
     <span class="issues-meta-item">commented 2026-03-02 16:19 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

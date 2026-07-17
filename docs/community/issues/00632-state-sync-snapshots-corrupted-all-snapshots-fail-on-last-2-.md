@@ -2,7 +2,7 @@
 title: "#632 — State sync snapshots corrupted - all snapshots fail on last 2 chunks (826-827/827)"
 source: https://github.com/gonka-ai/gonka/issues/632
 issue_number: 632
-synced_at: 2026-07-17T14:56:00Z
+synced_at: 2026-07-17T16:37:14Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item">[@baranskyi](https://github.com/baranskyi) opened 2026-01-24 15:11 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/baranskyi">@baranskyi</a> opened 2026-01-24 15:11 UTC</span>
     <span class="issues-meta-item">5 comments</span>
     <span class="issues-meta-item">Updated 2026-04-29 01:16 UTC</span>
   </div>
@@ -125,7 +125,7 @@ docker logs -f node
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
+    <span><a href="https://github.com/AlexeySamosadov">@AlexeySamosadov</a></span>
     <span class="issues-meta-item">commented 2026-01-24 21:47 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -150,7 +150,7 @@ docker logs -f node
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@gmorgachev](https://github.com/gmorgachev)</span>
+    <span><a href="https://github.com/gmorgachev">@gmorgachev</a></span>
     <span class="issues-meta-item">commented 2026-01-27 06:53 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -159,7 +159,7 @@ docker logs -f node
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
+    <span><a href="https://github.com/AlexeySamosadov">@AlexeySamosadov</a></span>
     <span class="issues-meta-item">commented 2026-02-04 11:46 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -190,7 +190,7 @@ docker logs -f node
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
+    <span><a href="https://github.com/AlexeySamosadov">@AlexeySamosadov</a></span>
     <span class="issues-meta-item">commented 2026-02-09 18:00 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -200,7 +200,7 @@ docker logs -f node
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
+    <span><a href="https://github.com/AlexeySamosadov">@AlexeySamosadov</a></span>
     <span class="issues-meta-item">commented 2026-02-09 18:00 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

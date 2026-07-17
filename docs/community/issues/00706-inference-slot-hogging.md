@@ -2,7 +2,7 @@
 title: "#706 — Inference Slot Hogging"
 source: https://github.com/gonka-ai/gonka/issues/706
 issue_number: 706
-synced_at: 2026-07-17T14:57:08Z
+synced_at: 2026-07-17T16:37:56Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item">[@huxuxuya](https://github.com/huxuxuya) opened 2026-02-05 18:52 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/huxuxuya">@huxuxuya</a> opened 2026-02-05 18:52 UTC</span>
     <span class="issues-meta-item">4 comments</span>
     <span class="issues-meta-item">Updated 2026-03-02 12:27 UTC</span>
   </div>
@@ -50,7 +50,7 @@ A mandatory rotation. If a node was in the safe slot in the previous epoch, it i
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
+    <span><a href="https://github.com/AlexeySamosadov">@AlexeySamosadov</a></span>
     <span class="issues-meta-item">commented 2026-02-08 14:13 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -60,7 +60,7 @@ A mandatory rotation. If a node was in the safe slot in the previous epoch, it i
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
+    <span><a href="https://github.com/AlexeySamosadov">@AlexeySamosadov</a></span>
     <span class="issues-meta-item">commented 2026-02-12 15:26 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -69,7 +69,7 @@ A mandatory rotation. If a node was in the safe slot in the previous epoch, it i
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@huxuxuya](https://github.com/huxuxuya)</span>
+    <span><a href="https://github.com/huxuxuya">@huxuxuya</a></span>
     <span class="issues-meta-item">commented 2026-02-24 19:31 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -78,7 +78,7 @@ A mandatory rotation. If a node was in the safe slot in the previous epoch, it i
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@huxuxuya](https://github.com/huxuxuya)</span>
+    <span><a href="https://github.com/huxuxuya">@huxuxuya</a></span>
     <span class="issues-meta-item">commented 2026-03-02 12:27 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

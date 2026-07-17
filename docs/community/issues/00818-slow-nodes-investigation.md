@@ -2,7 +2,7 @@
 title: "#818 — Slow nodes investigation"
 source: https://github.com/gonka-ai/gonka/issues/818
 issue_number: 818
-synced_at: 2026-07-17T14:56:49Z
+synced_at: 2026-07-17T16:37:44Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-27 21:07 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-02-27 21:07 UTC</span>
     <span class="issues-meta-item">7 comments</span>
     <span class="issues-meta-item">Updated 2026-03-18 14:23 UTC</span>
   </div>
@@ -39,7 +39,7 @@ Task: Multiple hosts reported node slowdowns in the last days. Need to identify 
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
+    <span><a href="https://github.com/AlexeySamosadov">@AlexeySamosadov</a></span>
     <span class="issues-meta-item">commented 2026-03-03 10:33 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -48,7 +48,7 @@ Task: Multiple hosts reported node slowdowns in the last days. Need to identify 
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@sysmanalex](https://github.com/sysmanalex)</span>
+    <span><a href="https://github.com/sysmanalex">@sysmanalex</a></span>
     <span class="issues-meta-item">commented 2026-03-03 18:20 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -61,7 +61,7 @@ also imho cosmos-SDK, IAVLX (SDK v0.54+), write operation and some gRPC I mentio
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Mayveskii](https://github.com/Mayveskii)</span>
+    <span><a href="https://github.com/Mayveskii">@Mayveskii</a></span>
     <span class="issues-meta-item">commented 2026-03-04 09:16 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -77,7 +77,7 @@ also imho cosmos-SDK, IAVLX (SDK v0.54+), write operation and some gRPC I mentio
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Mayveskii](https://github.com/Mayveskii)</span>
+    <span><a href="https://github.com/Mayveskii">@Mayveskii</a></span>
     <span class="issues-meta-item">commented 2026-03-06 14:21 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -102,7 +102,7 @@ Discussion: #860</p>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@sysmanalex](https://github.com/sysmanalex)</span>
+    <span><a href="https://github.com/sysmanalex">@sysmanalex</a></span>
     <span class="issues-meta-item">commented 2026-03-06 22:33 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -127,7 +127,7 @@ p2p mesh for btc is ok, for Gonka imho different way.</p>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Mayveskii](https://github.com/Mayveskii)</span>
+    <span><a href="https://github.com/Mayveskii">@Mayveskii</a></span>
     <span class="issues-meta-item">commented 2026-03-18 14:20 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -142,7 +142,7 @@ p2p mesh for btc is ok, for Gonka imho different way.</p>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Mayveskii](https://github.com/Mayveskii)</span>
+    <span><a href="https://github.com/Mayveskii">@Mayveskii</a></span>
     <span class="issues-meta-item">commented 2026-03-18 14:23 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

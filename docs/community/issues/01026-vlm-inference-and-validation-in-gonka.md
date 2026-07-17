@@ -2,7 +2,7 @@
 title: "#1026 — VLM inference and validation in Gonka"
 source: https://github.com/gonka-ai/gonka/issues/1026
 issue_number: 1026
-synced_at: 2026-07-17T14:56:11Z
+synced_at: 2026-07-17T16:37:20Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item">[@fedor-konovalenko](https://github.com/fedor-konovalenko) opened 2026-04-07 12:47 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/fedor-konovalenko">@fedor-konovalenko</a> opened 2026-04-07 12:47 UTC</span>
     <span class="issues-meta-item">3 comments</span>
     <span class="issues-meta-item">Updated 2026-04-27 12:36 UTC</span>
   </div>
@@ -59,7 +59,7 @@ Results for large "models" will be added a bit later.
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@fedor-konovalenko](https://github.com/fedor-konovalenko)</span>
+    <span><a href="https://github.com/fedor-konovalenko">@fedor-konovalenko</a></span>
     <span class="issues-meta-item">commented 2026-04-09 17:32 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -69,7 +69,7 @@ Results for large "models" will be added a bit later.
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@fedor-konovalenko](https://github.com/fedor-konovalenko)</span>
+    <span><a href="https://github.com/fedor-konovalenko">@fedor-konovalenko</a></span>
     <span class="issues-meta-item">commented 2026-04-27 11:20 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -81,7 +81,7 @@ Results for large "models" will be added a bit later.
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@fedor-konovalenko](https://github.com/fedor-konovalenko)</span>
+    <span><a href="https://github.com/fedor-konovalenko">@fedor-konovalenko</a></span>
     <span class="issues-meta-item">commented 2026-04-27 12:36 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

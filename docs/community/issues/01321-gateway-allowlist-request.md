@@ -2,7 +2,7 @@
 title: "#1321 — Gateway allowlist request"
 source: https://github.com/gonka-ai/gonka/issues/1321
 issue_number: 1321
-synced_at: 2026-07-17T14:55:31Z
+synced_at: 2026-07-17T16:36:55Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@bruev](https://github.com/bruev) opened 2026-06-08 14:26 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/bruev">@bruev</a> opened 2026-06-08 14:26 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-06-23 23:03 UTC</span>
   </div>
@@ -40,7 +40,7 @@ Purpose: Self-hosted devshard gateway on the linux server
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-06-23 23:03 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

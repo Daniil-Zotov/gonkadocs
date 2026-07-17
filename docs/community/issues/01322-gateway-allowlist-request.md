@@ -2,7 +2,7 @@
 title: "#1322 — Gateway allowlist request"
 source: https://github.com/gonka-ai/gonka/issues/1322
 issue_number: 1322
-synced_at: 2026-07-17T14:55:35Z
+synced_at: 2026-07-17T16:36:58Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@Puyre](https://github.com/Puyre) opened 2026-06-08 15:13 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/Puyre">@Puyre</a> opened 2026-06-08 15:13 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-06-10 15:20 UTC</span>
   </div>
@@ -97,7 +97,7 @@ Rogi AI
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Puyre](https://github.com/Puyre)</span>
+    <span><a href="https://github.com/Puyre">@Puyre</a></span>
     <span class="issues-meta-item">commented 2026-06-10 15:20 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

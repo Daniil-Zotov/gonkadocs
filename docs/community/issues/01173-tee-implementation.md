@@ -2,7 +2,7 @@
 title: "#1173 — TEE Implementation"
 source: https://github.com/gonka-ai/gonka/issues/1173
 issue_number: 1173
-synced_at: 2026-07-17T14:55:15Z
+synced_at: 2026-07-17T16:36:44Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-05-16 06:45 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-05-16 06:45 UTC</span>
     <span class="issues-meta-item">3 comments</span>
     <span class="issues-meta-item">Updated 2026-07-04 13:32 UTC</span>
   </div>
@@ -176,7 +176,7 @@ Signed metadata from a TEE key is inherently trusted - the execution environment
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@x0152](https://github.com/x0152)</span>
+    <span><a href="https://github.com/x0152">@x0152</a></span>
     <span class="issues-meta-item">commented 2026-05-25 21:11 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -186,7 +186,7 @@ Signed metadata from a TEE key is inherently trusted - the execution environment
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@mkostrus-gif](https://github.com/mkostrus-gif)</span>
+    <span><a href="https://github.com/mkostrus-gif">@mkostrus-gif</a></span>
     <span class="issues-meta-item">commented 2026-07-02 19:00 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -198,7 +198,7 @@ Signed metadata from a TEE key is inherently trusted - the execution environment
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@x0152](https://github.com/x0152)</span>
+    <span><a href="https://github.com/x0152">@x0152</a></span>
     <span class="issues-meta-item">commented 2026-07-04 13:32 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

@@ -2,7 +2,7 @@
 title: "#1098 — `devshards` Postgres support for `devshard` storage"
 source: https://github.com/gonka-ai/gonka/issues/1098
 issue_number: 1098
-synced_at: 2026-07-17T14:55:48Z
+synced_at: 2026-07-17T16:37:06Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@akup](https://github.com/akup) opened 2026-04-21 20:36 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/akup">@akup</a> opened 2026-04-21 20:36 UTC</span>
     <span class="issues-meta-item">3 comments</span>
     <span class="issues-meta-item">Updated 2026-05-25 18:30 UTC</span>
   </div>
@@ -57,7 +57,7 @@ Also we should prune the old epoch's devshard data
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Mayveskii](https://github.com/Mayveskii)</span>
+    <span><a href="https://github.com/Mayveskii">@Mayveskii</a></span>
     <span class="issues-meta-item">commented 2026-04-24 20:22 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -69,7 +69,7 @@ Also we should prune the old epoch's devshard data
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-04-29 21:21 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -78,7 +78,7 @@ Also we should prune the old epoch's devshard data
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@x0152](https://github.com/x0152)</span>
+    <span><a href="https://github.com/x0152">@x0152</a></span>
     <span class="issues-meta-item">commented 2026-05-07 08:41 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

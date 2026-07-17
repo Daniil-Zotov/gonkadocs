@@ -2,7 +2,7 @@
 title: "#700 — Alphabetical Bias in PoC Slot Allocation"
 source: https://github.com/gonka-ai/gonka/issues/700
 issue_number: 700
-synced_at: 2026-07-17T14:57:05Z
+synced_at: 2026-07-17T16:37:55Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item">[@huxuxuya](https://github.com/huxuxuya) opened 2026-02-04 12:02 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/huxuxuya">@huxuxuya</a> opened 2026-02-04 12:02 UTC</span>
     <span class="issues-meta-item">3 comments</span>
     <span class="issues-meta-item">Updated 2026-03-03 23:44 UTC</span>
   </div>
@@ -42,7 +42,7 @@ Deterministic Shuffle: Implement a pseudo-random shuffle of the participant list
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
+    <span><a href="https://github.com/AlexeySamosadov">@AlexeySamosadov</a></span>
     <span class="issues-meta-item">commented 2026-02-18 10:47 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -51,7 +51,7 @@ Deterministic Shuffle: Implement a pseudo-random shuffle of the participant list
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@huxuxuya](https://github.com/huxuxuya)</span>
+    <span><a href="https://github.com/huxuxuya">@huxuxuya</a></span>
     <span class="issues-meta-item">commented 2026-03-02 12:26 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -61,7 +61,7 @@ Deterministic Shuffle: Implement a pseudo-random shuffle of the participant list
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-03-03 23:44 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

@@ -2,7 +2,7 @@
 title: "#746 — Vested payouts in x/inference ignore caller funding module and always debit inference account"
 source: https://github.com/gonka-ai/gonka/issues/746
 issue_number: 746
-synced_at: 2026-07-17T14:55:37Z
+synced_at: 2026-07-17T16:36:59Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@Schwartz10](https://github.com/Schwartz10) opened 2026-02-13 06:15 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/Schwartz10">@Schwartz10</a> opened 2026-02-13 06:15 UTC</span>
     <span class="issues-meta-item">2 comments</span>
     <span class="issues-meta-item">Updated 2026-06-04 21:44 UTC</span>
   </div>
@@ -58,7 +58,7 @@ instead of:
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@AlexeySamosadov](https://github.com/AlexeySamosadov)</span>
+    <span><a href="https://github.com/AlexeySamosadov">@AlexeySamosadov</a></span>
     <span class="issues-meta-item">commented 2026-02-17 21:52 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -67,7 +67,7 @@ instead of:
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-02-19 00:32 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

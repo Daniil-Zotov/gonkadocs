@@ -2,7 +2,7 @@
 title: "#1121 — Inference /v1/chat/completions on node3 returns 429 for ~90% of requests — single live TA caps community gateways at ~10% pass-rate"
 source: https://github.com/gonka-ai/gonka/issues/1121
 issue_number: 1121
-synced_at: 2026-07-17T14:55:52Z
+synced_at: 2026-07-17T16:37:08Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@unameisfine](https://github.com/unameisfine) opened 2026-04-26 22:40 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/unameisfine">@unameisfine</a> opened 2026-04-26 22:40 UTC</span>
     <span class="issues-meta-item">2 comments</span>
     <span class="issues-meta-item">Updated 2026-05-21 21:03 UTC</span>
   </div>
@@ -168,7 +168,7 @@ or any benchmark scripts on request.
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@gonkalabs](https://github.com/gonkalabs)</span>
+    <span><a href="https://github.com/gonkalabs">@gonkalabs</a></span>
     <span class="issues-meta-item">commented 2026-04-30 09:52 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -182,7 +182,7 @@ So the answer is just: aggressive tuning, nothing more. Everything is open sourc
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-05-21 21:03 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

@@ -2,7 +2,7 @@
 title: "#1053 — Security Audit: Systematic review across inference chain, bridge, subnet, and API layers"
 source: https://github.com/gonka-ai/gonka/issues/1053
 issue_number: 1053
-synced_at: 2026-07-17T14:55:06Z
+synced_at: 2026-07-17T16:36:38Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item">[@Doog-bot534](https://github.com/Doog-bot534) opened 2026-04-15 07:05 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/Doog-bot534">@Doog-bot534</a> opened 2026-04-15 07:05 UTC</span>
     <span class="issues-meta-item">3 comments</span>
     <span class="issues-meta-item">Updated 2026-07-08 18:12 UTC</span>
   </div>
@@ -124,7 +124,7 @@ I plan to submit additional fix PRs for the remaining findings if the team is in
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Doog-bot534](https://github.com/Doog-bot534)</span>
+    <span><a href="https://github.com/Doog-bot534">@Doog-bot534</a></span>
     <span class="issues-meta-item">commented 2026-04-15 07:14 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -137,7 +137,7 @@ I plan to submit additional fix PRs for the remaining findings if the team is in
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Doog-bot534](https://github.com/Doog-bot534)</span>
+    <span><a href="https://github.com/Doog-bot534">@Doog-bot534</a></span>
     <span class="issues-meta-item">commented 2026-04-20 02:00 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -151,7 +151,7 @@ I plan to submit additional fix PRs for the remaining findings if the team is in
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Doog-bot534](https://github.com/Doog-bot534)</span>
+    <span><a href="https://github.com/Doog-bot534">@Doog-bot534</a></span>
     <span class="issues-meta-item">commented 2026-04-20 14:54 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

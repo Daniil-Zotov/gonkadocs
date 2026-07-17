@@ -2,7 +2,7 @@
 title: "#982 — Enable simulation and fuzz testing for inference-chain"
 source: https://github.com/gonka-ai/gonka/issues/982
 issue_number: 982
-synced_at: 2026-07-17T14:55:36Z
+synced_at: 2026-07-17T16:36:59Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item">[@patimen](https://github.com/patimen) opened 2026-03-30 21:41 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/patimen">@patimen</a> opened 2026-03-30 21:41 UTC</span>
     <span class="issues-meta-item">7 comments</span>
     <span class="issues-meta-item">Updated 2026-06-06 08:01 UTC</span>
   </div>
@@ -308,7 +308,7 @@ That would give the project a practical starting point without overcommitting to
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@hleb-albau](https://github.com/hleb-albau)</span>
+    <span><a href="https://github.com/hleb-albau">@hleb-albau</a></span>
     <span class="issues-meta-item">commented 2026-03-31 10:44 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -319,7 +319,7 @@ you can start from PR i done</p>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@vitaly-andr](https://github.com/vitaly-andr)</span>
+    <span><a href="https://github.com/vitaly-andr">@vitaly-andr</a></span>
     <span class="issues-meta-item">commented 2026-05-08 09:28 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -336,7 +336,7 @@ you can start from PR i done</p>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@vitaly-andr](https://github.com/vitaly-andr)</span>
+    <span><a href="https://github.com/vitaly-andr">@vitaly-andr</a></span>
     <span class="issues-meta-item">commented 2026-05-08 18:18 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -346,7 +346,7 @@ you can start from PR i done</p>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@vitaly-andr](https://github.com/vitaly-andr)</span>
+    <span><a href="https://github.com/vitaly-andr">@vitaly-andr</a></span>
     <span class="issues-meta-item">commented 2026-05-18 08:12 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -357,7 +357,7 @@ you can start from PR i done</p>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@vitaly-andr](https://github.com/vitaly-andr)</span>
+    <span><a href="https://github.com/vitaly-andr">@vitaly-andr</a></span>
     <span class="issues-meta-item">commented 2026-05-22 14:13 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -371,7 +371,7 @@ you can start from PR i done</p>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@vitaly-andr](https://github.com/vitaly-andr)</span>
+    <span><a href="https://github.com/vitaly-andr">@vitaly-andr</a></span>
     <span class="issues-meta-item">commented 2026-05-29 14:59 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -416,7 +416,7 @@ you can start from PR i done</p>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@vitaly-andr](https://github.com/vitaly-andr)</span>
+    <span><a href="https://github.com/vitaly-andr">@vitaly-andr</a></span>
     <span class="issues-meta-item">commented 2026-06-06 08:01 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

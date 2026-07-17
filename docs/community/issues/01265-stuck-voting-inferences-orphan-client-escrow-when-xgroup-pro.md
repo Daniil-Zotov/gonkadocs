@@ -2,7 +2,7 @@
 title: "#1265 — Stuck VOTING inferences orphan client escrow when x/group proposals miss quorum"
 source: https://github.com/gonka-ai/gonka/issues/1265
 issue_number: 1265
-synced_at: 2026-07-17T14:55:40Z
+synced_at: 2026-07-17T16:37:02Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item">[@vitaly-andr](https://github.com/vitaly-andr) opened 2026-05-27 19:50 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/vitaly-andr">@vitaly-andr</a> opened 2026-05-27 19:50 UTC</span>
     <span class="issues-meta-item">5 comments</span>
     <span class="issues-meta-item">Updated 2026-05-30 17:17 UTC</span>
   </div>
@@ -106,7 +106,7 @@ Not recommended: default-to-validate (passive non-voting becomes implicit approv
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@vitaly-andr](https://github.com/vitaly-andr)</span>
+    <span><a href="https://github.com/vitaly-andr">@vitaly-andr</a></span>
     <span class="issues-meta-item">commented 2026-05-28 12:46 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -117,7 +117,7 @@ Not recommended: default-to-validate (passive non-voting becomes implicit approv
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@a-kuprin](https://github.com/a-kuprin)</span>
+    <span><a href="https://github.com/a-kuprin">@a-kuprin</a></span>
     <span class="issues-meta-item">commented 2026-05-30 05:18 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -128,7 +128,7 @@ Anyway legacy inference flow will not be supported in the future.</p>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@vitaly-andr](https://github.com/vitaly-andr)</span>
+    <span><a href="https://github.com/vitaly-andr">@vitaly-andr</a></span>
     <span class="issues-meta-item">commented 2026-05-30 08:13 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -141,7 +141,7 @@ Anyway legacy inference flow will not be supported in the future.</p>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@a-kuprin](https://github.com/a-kuprin)</span>
+    <span><a href="https://github.com/a-kuprin">@a-kuprin</a></span>
     <span class="issues-meta-item">commented 2026-05-30 15:37 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -153,7 +153,7 @@ Anyway legacy inference flow will not be supported in the future.</p>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@vitaly-andr](https://github.com/vitaly-andr)</span>
+    <span><a href="https://github.com/vitaly-andr">@vitaly-andr</a></span>
     <span class="issues-meta-item">commented 2026-05-30 17:17 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

@@ -2,7 +2,7 @@
 title: "#498 — Unable to start baecon node"
 source: https://github.com/gonka-ai/gonka/issues/498
 issue_number: 498
-synced_at: 2026-07-17T14:57:45Z
+synced_at: 2026-07-17T16:38:21Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@Knoxpix](https://github.com/Knoxpix) opened 2025-12-19 08:41 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/Knoxpix">@Knoxpix</a> opened 2025-12-19 08:41 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-01-22 00:12 UTC</span>
   </div>
@@ -77,7 +77,7 @@ bridge  | tail: /var/log/geth/geth.log: file truncated`
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-01-22 00:12 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

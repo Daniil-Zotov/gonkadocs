@@ -2,7 +2,7 @@
 title: "#782 — [3/4] `StartInference` and `FinishInference`"
 source: https://github.com/gonka-ai/gonka/issues/782
 issue_number: 782
-synced_at: 2026-07-17T14:57:00Z
+synced_at: 2026-07-17T16:37:51Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@tcharchian](https://github.com/tcharchian) opened 2026-02-20 22:37 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-02-20 22:37 UTC</span>
     <span class="issues-meta-item">5 comments</span>
     <span class="issues-meta-item">Updated 2026-03-11 20:01 UTC</span>
   </div>
@@ -90,7 +90,7 @@ All five issues [0/4], [1/4], [2/4], [3/4], [4/4] in this series must be complet
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@tcharchian](https://github.com/tcharchian)</span>
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
     <span class="issues-meta-item">commented 2026-02-20 22:41 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -99,7 +99,7 @@ All five issues [0/4], [1/4], [2/4], [3/4], [4/4] in this series must be complet
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@akup](https://github.com/akup)</span>
+    <span><a href="https://github.com/akup">@akup</a></span>
     <span class="issues-meta-item">commented 2026-02-21 15:27 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -108,7 +108,7 @@ All five issues [0/4], [1/4], [2/4], [3/4], [4/4] in this series must be complet
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@akup](https://github.com/akup)</span>
+    <span><a href="https://github.com/akup">@akup</a></span>
     <span class="issues-meta-item">commented 2026-02-24 05:29 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -123,7 +123,7 @@ Currently i'm taking it to tests on running node</p>
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@akup](https://github.com/akup)</span>
+    <span><a href="https://github.com/akup">@akup</a></span>
     <span class="issues-meta-item">commented 2026-02-24 06:12 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -137,7 +137,7 @@ If the only purpose is to have precise value at
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@gmorgachev](https://github.com/gmorgachev)</span>
+    <span><a href="https://github.com/gmorgachev">@gmorgachev</a></span>
     <span class="issues-meta-item">commented 2026-03-11 20:01 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

@@ -2,7 +2,7 @@
 title: "#1081 — Binomial test p0 floor/ceiling mismatch — stricter downtime threshold silently never enforced"
 source: https://github.com/gonka-ai/gonka/issues/1081
 issue_number: 1081
-synced_at: 2026-07-17T14:56:18Z
+synced_at: 2026-07-17T16:37:24Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@Doog-bot534](https://github.com/Doog-bot534) opened 2026-04-16 03:25 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/Doog-bot534">@Doog-bot534</a> opened 2026-04-16 03:25 UTC</span>
     <span class="issues-meta-item">2 comments</span>
     <span class="issues-meta-item">Updated 2026-04-20 01:35 UTC</span>
   </div>
@@ -90,7 +90,7 @@ Payout address: `gonka10zaal553duxp05nvfpqtsqrm2g0j6j34r8nan7`
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@unameisfine](https://github.com/unameisfine)</span>
+    <span><a href="https://github.com/unameisfine">@unameisfine</a></span>
     <span class="issues-meta-item">commented 2026-04-19 19:22 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
@@ -108,7 +108,7 @@ Payout address: `gonka10zaal553duxp05nvfpqtsqrm2g0j6j34r8nan7`
 </div>
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@Doog-bot534](https://github.com/Doog-bot534)</span>
+    <span><a href="https://github.com/Doog-bot534">@Doog-bot534</a></span>
     <span class="issues-meta-item">commented 2026-04-20 01:35 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
