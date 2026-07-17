@@ -17321,7 +17321,7 @@ If you have the opportunity and desire to be part of the committee — please co
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-07-17 15:13 UTC
+2026-07-17 16:11 UTC
 
 ---
 
@@ -17329,11 +17329,13 @@ Last updated:
 
 **Address:** [`gonka1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8h2rzwa`](https://gonka.gg/address/gonka1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8h2rzwa)
 
-Current balance: 103M GNK · $10,000 USDT
+Current balance: 102,705,110 GNK · $10,000 USDT
 
 The Community Pool is the protocol-controlled treasury of the Gonka network. It accrues value through a **2% community tax** applied to every inflation reward and network fee. These funds can only be spent through a successful governance vote — no single key controls them.
 
-The USDT in the Community Pool was returned from **[proposal #42](https://gonkadocs.com/proposals/proposals/2026-q2/42/)** — the planned Global Compute Sovereignty Summit was cancelled, and the proposer returned the allocated funds. See the [return instructions](https://gonkadocs.com/community/discussion/show-and-tell/1390-how-to-return-funds-to-the-community-pool-ibc-usdt/) for details.
+Since the network genesis, the Community Pool has received continuous inflows from transaction fees and inflation rewards, funding ecosystem development, marketing initiatives, and community programmes through passed governance proposals.
+
+*The $10,000 USDT held here was returned from **[proposal #42](https://gonkadocs.com/proposals/proposals/2026-q2/42/)** — the planned Global Compute Sovereignty Summit was cancelled, and the proposer returned the allocated funds. See the [return instructions](https://gonkadocs.com/community/discussion/show-and-tell/1390-how-to-return-funds-to-the-community-pool-ibc-usdt/) for details.*
 
 **Inflow rate:** ~13,150 GNK/day (varies with block time, fee volume, and staking ratio).
 
@@ -17349,13 +17351,15 @@ curl -s https://node3.gonka.ai/chain-api/cosmos/distribution/v1beta1/community_p
 
 **Address:** [`gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2`](https://gonka.gg/address/gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2)
 
-This address was created by **[proposal #14](/proposals/proposals/2025-q4/14/)** (passed 2025-11-27), which transferred **20,000,000 GNK** from the Community Pool to seed a community sale programme.
+Current balance: 17,500,000 GNK (~$10,500,000 USDT) · $814,325 USDT
 
-The mechanism works as a simple swap: participants deposit **USDT** and receive **GNK** at a predetermined rate. The address holds both assets — USDT collected from buyers and the remaining GNK inventory.
+This address was created by **[proposal #14](/proposals/proposals/2025-q4/14/)** (passed 2025-11-27), which transferred **20,000,000 GNK** from the Community Pool to seed a community sale programme at a fixed price of **$0.60 per GNK**.
+
+The mechanism works as a simple swap: participants deposit **USDT** and receive **GNK** at the predetermined rate. The address holds both assets — USDT collected from buyers and the remaining GNK inventory.
+
+For security, sale proceeds are distributed in **tranches** rather than all at once. The contract releases batches of GNK gradually to mitigate risk and ensure safe execution.
 
 **Important:** The GNK held here is **not part of the Community Pool**. It is the undistributed balance of the sale contract — already allocated in proposal #14 and awaiting exchange. Only the USDT received from buyers is new value entering the Gonka ecosystem.
-
-Current balance: 17M GNK (~$10M USDT) · $814,325 USDT
 
 Verify on-chain
 
@@ -17369,11 +17373,11 @@ curl -s https://node3.gonka.ai/chain-api/cosmos/bank/v1beta1/balances/gonka18pkq
 
 **Address:** [`gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33`](https://gonka.gg/address/gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33)
 
+Current balance: 2,249,398 GNK
+
 The Gov Module authority is the only address permitted to execute `MsgCommunityPoolSpend` transfers from the Community Pool. When a governance proposal passes, this address signs and sends the requested funds to the specified recipient.
 
 It also holds unallocated GNK set aside for governance-approved programmes that use batch-vesting or multi-send distributions.
-
-Current balance: 2M GNK
 
 Verify on-chain
 
@@ -24872,7 +24876,7 @@ Models / IBC2
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-87 proposals across 5 quarters. Last updated: 2026-07-17 15:20 UTC
+87 proposals across 5 quarters. Last updated: 2026-07-17 16:21 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {

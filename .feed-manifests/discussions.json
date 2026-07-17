@@ -1,14 +1,6 @@
 {
   "section": "discussions",
-<<<<<<< Updated upstream
-  "snapshot_time": "2026-07-17T14:51:08.789511+00:00",
-=======
-<<<<<<< Updated upstream
-  "snapshot_time": "2026-07-17T12:18:28.451437+00:00",
-=======
-  "snapshot_time": "2026-07-17T10:18:34.255278+00:00",
->>>>>>> Stashed changes
->>>>>>> Stashed changes
+  "snapshot_time": "2026-07-17T16:23:15.449667+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "Welcome to Gonka Discussions 👋",
