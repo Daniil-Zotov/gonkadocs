@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260717193815_7b4c0b93",
+    "timestamp": "2026-07-17T19:38:15.827665+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "Issues: no-label",
+      "url": "/community/issues/labels/no-label/",
+      "file": "labels/no-label/index.md"
+    },
+    "details": {
+      "content_before": "# Issues: no-label\n\nIssues with label **no-label**. Total: **231**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01466-better-debshardd-inference-handling/\">Better debshardd inference handling</a>\n      <span class=\"issues-number\">#1466</span>\n    </div>\n    \n    <div class=\"issues-labels\"></div>\n    <div class=\"issues-meta\">\n      <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 8 hours ago</span>\n",
+      "content_after": "# Issues: no-label\n\nIssues with label **no-label**. Total: **231**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01466-better-debshardd-inference-handling/\">Better debshardd inference handling</a>\n      <span class=\"issues-number\">#1466</span>\n    </div>\n    \n    <div class=\"issues-labels\"></div>\n    <div class=\"issues-meta\">\n      <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 9 hours ago</span>\n"
+    },
+    "ai_description": "<think>Let me analyze the change described:\n\nThe action is \"Updated\" for the \"Issues: no-label\" section.\n\nLooking at the content before and after:\n\nBefore: opened 8 hours ago\nAfter: opened 9 hours ago\n\nThe only change is the time displayed for the issue #1466 \"Better debshardd inference handling\" - it changed from \"8 hours ago\" to \"9 hours ago\". This is simply a time update as the page was refreshed/rendered at a different time.\n\nThis is a very minor change - just a timestamp update. The total count remains the same (231 issues), the issue status is the same (open), everything else is identical except the time display.\n\nFor a community post, I should mention this is just a minor update showing the passage of time on the issue tracker. It's not a significant change that warrants much attention.\n</think>\n\nВ разделе Issues обновилось отображение времени для issue #1466 — \"Better debshardd inference handling\" от @a-куприна. Время с момента публикации теперь показывает 9 часов вместо 8, что является стандартным обновлением отображения актуального времени."
+  },
+  {
     "id": "evt_20260717182117_21fcc979",
     "timestamp": "2026-07-17T18:21:17.743726+00:00",
     "section": "issues",
