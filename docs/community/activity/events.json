@@ -1,5 +1,53 @@
 [
   {
+    "id": "evt_20260717041724_07308f87",
+    "timestamp": "2026-07-17T04:17:24.336430+00:00",
+    "section": "discussions",
+    "action": "new",
+    "item": {
+      "title": "Dev Team Funding",
+      "url": "/community/discussion/proposals/1464-dev-team-funding/",
+      "file": "proposals/1464-dev-team-funding.md"
+    },
+    "details": {
+      "status": null,
+      "content": "> 🔄 **Auto-sync:** from [Discussion #1464](https://github.com/gonka-ai/gonka/discussions/1464) every hour. \n\n# Dev Team Funding\n\n**Автор:** [@gmorgachev](https://github.com/gmorgachev) · **Категория:** :bulb: Proposals · **Создано:** 2026-07-17 01:38 UTC · \n\n---\n\n## 📝 Описание\n\nHello everyone! I am Gleb Morgachev, one of Gonka's co-creators.\n\nIn the next couple of weeks, I plan to submit a proposal requesting 1.5 million USDT from the community pool. The funding would support an independent engineering team working on core protocol development aligned with the community roadmap. It would cover the team and expenses directly related to its work, not servers or GPU infrastructure for mining.\n\n## Scope\n\nThis independent team would be a small group of top-tier engineers working on Gonka's core"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260717041724_5672f5de",
+    "timestamp": "2026-07-17T04:17:24.336532+00:00",
+    "section": "discussions",
+    "action": "updated",
+    "item": {
+      "title": "GitHub Discussions — `gonka-ai/gonka`",
+      "url": "/community/discussion/",
+      "file": "index.md"
+    },
+    "details": {
+      "content_before": "# GitHub Discussions — `gonka-ai/gonka`\n\nСрез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **75**. ## 📂 Категории\n\n| Категория | Дискуссий |\n|---|---:|\n| [:mega: Announcements](announcements/index.md) | 1 |\n| [:speech_balloon: General](general/index.md) | 5 |\n| [:bulb: Proposals](proposals/index.md) | 45 |\n| [:pray: Q&A](q-a/index.md) | 3 |\n| [:raised_hands: Show and Tell](show-and-tell/index.md) | 21 |\n\n## 🕒 Последние обновлённые\n\n| # | Заголовок | Категория | Автор | Обновлено |\n|---:|---|---|---|---|\n| [1404](proposals/1404-add-a-lower-barrier-glm-52-option-and-consider-deepseek-v4-f.md) | [Add a lower-barrier GLM-5.2 option and consider DeepSeek-V4-Flash as the default model](proposals/1404-add-a-lower-barrier-glm-52-option-and-",
+      "content_after": "# GitHub Discussions — `gonka-ai/gonka`\n\nСрез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **76**. ## 📂 Категории\n\n| Категория | Дискуссий |\n|---|---:|\n| [:mega: Announcements](announcements/index.md) | 1 |\n| [:speech_balloon: General](general/index.md) | 5 |\n| [:bulb: Proposals](proposals/index.md) | 46 |\n| [:pray: Q&A](q-a/index.md) | 3 |\n| [:raised_hands: Show and Tell](show-and-tell/index.md) | 21 |\n\n## 🕒 Последние обновлённые\n\n| # | Заголовок | Категория | Автор | Обновлено |\n|---:|---|---|---|---|\n| [1388](proposals/1388-external-test-lab-community-devnet.md) | [External Test Lab & Community DevNet](proposals/1388-external-test-lab-community-devnet.md) | :bulb: Proposals | [@paranjko](https://github.com/paranjko) | 2026-07-17 "
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260717041724_4ef64b70",
+    "timestamp": "2026-07-17T04:17:24.336579+00:00",
+    "section": "discussions",
+    "action": "updated",
+    "item": {
+      "title": ":bulb: Proposals",
+      "url": "/community/discussion/proposals/",
+      "file": "proposals/index.md"
+    },
+    "details": {
+      "content_before": "# :bulb: Proposals\n\nДискуссии в категории **:bulb: Proposals**. Всего: **45**. [← ко всем категориям](../index.md)\n\n| # | Заголовок | Автор | Обновлено |\n|---:|---|---|---|\n| [1445](1445-the-missing-first-mile-onboarding-gonka-from-a-newcomers-per.md) | [The missing first mile: onboarding Gonka from a newcomer’s perspective](1445-the-missing-first-mile-onboarding-gonka-from-a-newcomers-per.md) | [@julb1992](https://github.com/julb1992) | 2026-07-13 |\n| [1404](1404-add-a-lower-barrier-glm-52-option-and-consider-deepseek-v4-f.md) | [Add a lower-barrier GLM-5.2 option and consider DeepSeek-V4-Flash as the default model](1404-add-a-lower-barrier-glm-52-option-and-consider-deepseek-v4-f.md) | [@enonog](https://github.com/enonog) | 2026-07-16 |\n| [1388](1388-external-test-lab-community-devnet.md",
+      "content_after": "# :bulb: Proposals\n\nДискуссии в категории **:bulb: Proposals**. Всего: **46**. [← ко всем категориям](../index.md)\n\n| # | Заголовок | Автор | Обновлено |\n|---:|---|---|---|\n| [1464](1464-dev-team-funding.md) | [Dev Team Funding](1464-dev-team-funding.md) | [@gmorgachev](https://github.com/gmorgachev) | 2026-07-17 |\n| [1445](1445-the-missing-first-mile-onboarding-gonka-from-a-newcomers-per.md) | [The missing first mile: onboarding Gonka from a newcomer’s perspective](1445-the-missing-first-mile-onboarding-gonka-from-a-newcomers-per.md) | [@julb1992](https://github.com/julb1992) | 2026-07-13 |\n| [1404](1404-add-a-lower-barrier-glm-52-option-and-consider-deepseek-v4-f.md) | [Add a lower-barrier GLM-5.2 option and consider DeepSeek-V4-Flash as the default model](1404-add-a-lower-barrier-glm-52"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260716204950_c2cbc1a3",
     "timestamp": "2026-07-16T20:49:50.474957+00:00",
     "section": "gonka_docs",
