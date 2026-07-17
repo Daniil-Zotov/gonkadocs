@@ -8,7 +8,7 @@ template: proposals-proposals-main.html
 
 <div class="prop-detail-header" markdown="1">
 
-<div class="prop-badge-row"><span class="prop-badge prop-voting">Voting</span><span class="prop-vote-countdown prop-vote-countdown-detail" data-deadline="2026-07-17T06:09:28.727069592Z"></span></div>
+<span class="prop-badge prop-passed">Passed</span>
 
 **Proposal ID:** `88`
 
@@ -37,18 +37,18 @@ Update current chain params to register moonshotai/Kimi-K2.6 in the governance m
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:100.0%"></div>
-    <div class="prop-tally-no" style="width:0.0%"></div>
+    <div class="prop-tally-yes" style="width:99.8%"></div>
+    <div class="prop-tally-no" style="width:0.2%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes 256,253 (100.0%)</span>
-    <span class="prop-tally-no-text">No 0 (0.0%)</span>
+    <span class="prop-tally-yes-text">Yes 272,063 (99.8%)</span>
+    <span class="prop-tally-no-text">No 543 (0.2%)</span>
     <span class="prop-tally-veto-text">Veto 0 (0.0%)</span>
     <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span>
-    <span class="prop-tally-total-text">Total 256,253 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout 256,253 / 563,910 (45.4%) · Quorum 25% (140,977)</span>
+    <span class="prop-tally-total-text">Total 272,606 votes</span>
+    <span class="prop-tally-yes-text">✓ Turnout 272,606 / 563,910 (48.3%) · Quorum 25% (140,977)</span>
   </div>
 </div>
 

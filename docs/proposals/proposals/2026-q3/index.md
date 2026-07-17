@@ -33,7 +33,7 @@ template: proposals-oview.html
 
 <div class="qs-stats">
 <div class="qs-stat total"><span class="qs-num">9</span><span class="qs-desc">Total Proposals</span></div>
-<div class="qs-stat passed"><span class="qs-num">4</span><span class="qs-desc">Passed (44%)</span></div>
+<div class="qs-stat passed"><span class="qs-num">5</span><span class="qs-desc">Passed (56%)</span></div>
 <div class="qs-stat rejected"><span class="qs-num">4</span><span class="qs-desc">Rejected (44%)</span></div>
 
 </div>
@@ -52,19 +52,18 @@ template: proposals-oview.html
 <div class="prop-quarter">
 <h2>2026-Q3</h2>
 <p>9 proposals</p>
-<div class="prop-card" data-status="prop-voting" data-voting-end="2026-07-17T06:09:28.727069592Z">
+<div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
     <a href="88/" class="prop-card-title">#88 – Restore Kimi K2.6 and remove v1, v2</a>
-    <span class="prop-vote-countdown" data-deadline="2026-07-17T06:09:28.727069592Z"></span>
-    <span class="prop-badge prop-voting">Voting</span>
+    <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
     <span>Submitted 2026-07-16</span>
     <span>Voting ends 2026-07-17</span>
   </div>
   <div class="prop-card-desc">Update current chain params to register moonshotai/Kimi-K2.6 in the governance model list and remove approved_versions v1, v2 from devshard_escrow_params (to reduce RAM usage).</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 256,253 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout 256,253 / 563,910 (45.4%) · Quorum 25% (140,977)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 272,063 (99.8%)</span> · <span class="prop-tally-no-text">No 543 (0.2%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout 272,606 / 563,910 (48.3%) · Quorum 25% (140,977)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
