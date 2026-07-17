@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-07-16T21:30:50.382712+00:00",
+  "snapshot_time": "2026-07-17T00:18:44.957732+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "Description",
@@ -1836,13 +1836,13 @@
       "title": "GitHub Issues — `gonka-ai/gonka`",
       "status": null,
       "content_preview": "# GitHub Issues — `gonka-ai/gonka`\n\nAll issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).\nTotal: **305** (🟢 open: **67**, 🔴 closed: **238**).\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"01408-model-lineup-improvement-add-an-accessible-glm-52-candidate-/\">Model lineup improvement: add an accessible GLM-5.2 candidate and reconsider MiniMax-M2.7 as default</a>\n      <span class=\"issues-number\">#1408</span>\n    </div>\n    <p class=\"issues-desc\">## Model line",
-      "checksum": "07f50541ebc6c64bd57300fa08cbc0a4105a0b81bb2a69e7257e5897674412ff"
+      "checksum": "e51fdaf3d68af4835f6c54859c48b866d72e7a711d8083a1a6d75709463d1830"
     },
     "labels/bug/index.md": {
       "title": "Issues: bug",
       "status": null,
       "content_preview": "# Issues: bug\n\nIssues with label **bug**. Total: **12**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01358-inbound-bridge-votes-lost-after-upgrade-simulation-node-unav/\">Inbound bridge votes lost after upgrade simulation (node unavailable for some minutes for upgrade) — no retry, deposits stuck BRIDGE_PENDING</a>\n      <span class=\"issues-number\">#1358</span>\n    </div>\n    \n    <div class=\"issues-labels\"><sp",
-      "checksum": "a10af7368d87637fa29d1978490ff9c6f0ae27bec14d663fe378e6388bc228b0"
+      "checksum": "ce854ad1ae8441b5dd32d4f62aff2c0c67121918d0ff4fdde77eb01cdcf4b4d6"
     },
     "labels/devshards/index.md": {
       "title": "Issues: devshards",
@@ -1854,7 +1854,7 @@
       "title": "Issues: enhancement",
       "status": null,
       "content_preview": "# Issues: enhancement\n\nIssues with label **enhancement**. Total: **13**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01408-model-lineup-improvement-add-an-accessible-glm-52-candidate-/\">Model lineup improvement: add an accessible GLM-5.2 candidate and reconsider MiniMax-M2.7 as default</a>\n      <span class=\"issues-number\">#1408</span>\n    </div>\n    \n    <div class=\"issues-labels\"><span class=\"issues-label\" style=\"background-color: #a2ee",
-      "checksum": "a99773a53aa35d4054554265c76672cabf312d62cf75b561c9a2c157c1fb976a"
+      "checksum": "c07a546b424c6e06a452c81e93ba4a2e2f24b39c34635833de5b0a9e04f9ff3b"
     },
     "labels/help-wanted/index.md": {
       "title": "Issues: help wanted",
@@ -1866,25 +1866,25 @@
       "title": "Issues: no-label",
       "status": null,
       "content_preview": "# Issues: no-label\n\nIssues with label **no-label**. Total: **230**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01450-dynamic-pricing-price-pinned-at-min-by-integer-truncation-ca/\">Dynamic pricing: price pinned at min by integer truncation; capacity proxy miscalibrated per model</a>\n      <span class=\"issues-number\">#1450</span>\n    </div>\n    \n    <div class=\"issues-labels\"></div>\n    <div class=\"issues-meta\">\n      <span class=\"issues-m",
-      "checksum": "e8b5ac098273f6320e5b2c597906840d65564543396eea8d845d9e9d3c60015b"
+      "checksum": "50579a371c68b9b7c4005fe596603659ea361bca2df246fa7458f8ffeeeff605"
     },
     "labels/priority-high/index.md": {
       "title": "Issues: Priority: High",
       "status": null,
       "content_preview": "# Issues: Priority: High\n\nIssues with label **Priority: High**. Total: **29**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01358-inbound-bridge-votes-lost-after-upgrade-simulation-node-unav/\">Inbound bridge votes lost after upgrade simulation (node unavailable for some minutes for upgrade) — no retry, deposits stuck BRIDGE_PENDING</a>\n      <span class=\"issues-number\">#1358</span>\n    </div>\n    \n    <div cla",
-      "checksum": "9883d72869c3fd14f2b85c92f08dc94b01b2b0254c453e6863ee791e2c0899fe"
+      "checksum": "8b601508b31a79b76cb5c09486bc8714e42d8530cf0557bbf8bdd7196cbb4342"
     },
     "labels/priority-low/index.md": {
       "title": "Issues: Priority: Low",
       "status": null,
       "content_preview": "# Issues: Priority: Low\n\nIssues with label **Priority: Low**. Total: **13**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01019-subnetctl-inference-error-handling/\">subnetctl: inference error handling</a>\n      <span class=\"issues-number\">#1019</span>\n    </div>\n    \n    <div class=\"issues-labels\"><span class=\"issues-label\" style=\"background-color: #95b500; color: #24292f; border-color: #95b500;\">Priority: Low",
-      "checksum": "57bc18400ac9af304809e5e14b9d9fc890b4ae97ffe9a6e909067f8e722ceed7"
+      "checksum": "2737cf586428ce52ea76f8126fe6aee9f5a12633847a7071789fec307d81d54b"
     },
     "labels/priority-medium/index.md": {
       "title": "Issues: Priority: Medium",
       "status": null,
       "content_preview": "# Issues: Priority: Medium\n\nIssues with label **Priority: Medium**. Total: **5**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01222-p1-int-overflow/\">[P1] Int overflow</a>\n      <span class=\"issues-number\">#1222</span>\n    </div>\n    \n    <div class=\"issues-labels\"><span class=\"issues-label\" style=\"background-color: #12a6e8; color: #24292f; border-color: #12a6e8;\">Priority: Medium</span></div>\n    <div class=\"issues-meta\">\n      <span cla",
-      "checksum": "74dca3dae7b4191be1c88773fe27732cdb2e1315e734a7e605de5e3fe4dfbfb9"
+      "checksum": "6c3ea597369f7edc1a9c48192a993b4ee24d1bff04515e0c00d134a418212778"
     },
     "labels/protocol/index.md": {
       "title": "Issues: protocol",
