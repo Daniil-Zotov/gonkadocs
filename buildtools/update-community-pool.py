@@ -2,9 +2,11 @@
 """Update Community Pool balances and spend history in docs/proposals/community pool.md.
 
 Fetches fresh data from chain API and replaces content between markers:
-- <!-- BALANCES_START --> ... <!-- BALANCES_END -->
-- <!-- SPENT_HISTORY_START --> ... <!-- SPENT_HISTORY_END -->
 - <!-- UPDATE_TIMESTAMP --> ... <!-- /UPDATE_TIMESTAMP -->
+- <!-- BALANCES_START --> ... <!-- BALANCES_END -->
+- <!-- SALE_BALANCE_START --> ... <!-- SALE_BALANCE_END -->
+- <!-- GOV_BALANCE_START --> ... <!-- GOV_BALANCE_END -->
+- <!-- SPENT_HISTORY_START --> ... <!-- SPENT_HISTORY_END -->
 
 Usage:
     python3 buildtools/update-community-pool.py
@@ -34,14 +36,14 @@ MAX_RETRIES = 3
 RETRY_DELAY = 5
 
 SITE_URL = "https://gonkadocs.com"
-# Nav path prefix within the site
 PROPOSALS_PREFIX = "/proposals/proposals/"
+
+PASSED_STATUSES = {"PROPOSAL_STATUS_PASSED"}
 
 
 # ── Helpers ────────────────────────────────────────────────────
 
 def fetch_json(url, timeout=30):
-    """Fetch JSON with retries across all endpoints."""
     last_error = None
     for endpoint in RPC_ENDPOINTS:
         full_url = url.replace("{BASE}", endpoint.rstrip("/"))
@@ -61,8 +63,7 @@ def fetch_json(url, timeout=30):
     return None
 
 
-def format_balance(amount_str, denom, decimals=6):
-    """Format raw on-chain amount to human-readable string."""
+def format_balance(amount_str, denom):
     try:
         amt = int(amount_str.split(".")[0])
         if denom == "ngonka":
@@ -81,7 +82,6 @@ def format_balance(amount_str, denom, decimals=6):
 
 
 def short_addr(addr):
-    """Shorten an address for table display."""
     if len(addr) > 20:
         return addr[:10] + "…" + addr[-6:]
     return addr
@@ -104,7 +104,6 @@ def fmt_time_short(iso_str):
 # ── Fetch balances ─────────────────────────────────────────────
 
 def fetch_community_pool():
-    """Fetch Community Pool balance from distribution module."""
     data = fetch_json("{BASE}/cosmos/distribution/v1beta1/community_pool")
     if not data:
         return {}, {}
@@ -120,7 +119,6 @@ def fetch_community_pool():
 
 
 def fetch_account_balance(address):
-    """Fetch all balances for an account."""
     data = fetch_json(f"{{BASE}}/cosmos/bank/v1beta1/balances/{address}")
     if not data:
         return {}
@@ -130,47 +128,38 @@ def fetch_account_balance(address):
     return balances
 
 
-# ── Fetch spend history from proposals ─────────────────────────
+# ── Fetch spend history ────────────────────────────────────────
 
 def fetch_spend_history():
-    """Fetch all proposals and extract MsgCommunityPoolSpend messages."""
+    """Fetch all proposals and extract passed MsgCommunityPoolSpend messages."""
     data = fetch_json("{BASE}/cosmos/gov/v1/proposals?pagination.limit=200")
     if not data:
         return []
 
     spends = []
     for p in data.get("proposals", []):
-        pid = p["id"]
-        status = p.get("status", "")
-        status_label = {
-            "PROPOSAL_STATUS_PASSED": "Passed",
-            "PROPOSAL_STATUS_REJECTED": "Rejected",
-            "PROPOSAL_STATUS_VOTING_PERIOD": "Voting",
-            "PROPOSAL_STATUS_DEPOSIT_PERIOD": "Deposit",
-            "PROPOSAL_STATUS_FAILED": "Failed",
-            "PROPOSAL_STATUS_UNSPECIFIED": "Unspecified",
-        }.get(status, status)
+        if p.get("status") not in PASSED_STATUSES:
+            continue
 
+        pid = p["id"]
         msgs = p.get("messages", [])
+        ts = fmt_time_short(p.get("voting_end_time", ""))
+
+        submit = p.get("submit_time", "")
+        q = "unknown"
+        if submit:
+            try:
+                dt = datetime.fromisoformat(submit.replace("Z", "+00:00"))
+                q = get_quarter(dt).lower()
+            except (ValueError, TypeError):
+                pass
+
         for m in msgs:
             if "/cosmos.distribution.v1beta1.MsgCommunityPoolSpend" not in m.get("@type", ""):
                 continue
 
             recv = m.get("recipient", "")
-            amts = m.get("amount", [])
-            ts = fmt_time_short(p.get("voting_end_time", ""))
-
-            # Parse quarter from submit_time
-            submit = p.get("submit_time", "")
-            q = "unknown"
-            if submit:
-                try:
-                    dt = datetime.fromisoformat(submit.replace("Z", "+00:00"))
-                    q = get_quarter(dt).lower()
-                except (ValueError, TypeError):
-                    pass
-
-            for a in amts:
+            for a in m.get("amount", []):
                 denom = a.get("denom", "")
                 try:
                     amt = int(a.get("amount", "0"))
@@ -191,42 +180,55 @@ def fetch_spend_history():
                     "recipient": recv,
                     "gnk": gnk_val,
                     "usdt": usdt_val,
-                    "status": status_label,
                 })
 
     return spends
 
 
-# ── Generate table rows ────────────────────────────────────────
+# ── Generate tables ────────────────────────────────────────────
 
-def generate_balances_table(gnk_pool, usdt_pool, sale_balances, gov_balances):
+def generate_pool_balance_table(gnk_pool, usdt_pool):
     rows = [
         "| Address | Asset | Balance |",
         "| :------ | :---- | :------ |",
+        f"| Community Pool | GNK | {format_balance(gnk_pool, 'ngonka')} |",
+        f"| Community Pool | USDT | {format_balance(usdt_pool, USDT_IBC_DENOM)} |",
     ]
-    gnk_sale = sale_balances.get("ngonka", "0")
-    usdt_sale = sale_balances.get(USDT_IBC_DENOM, "0")
-    gnk_gov = gov_balances.get("ngonka", "0")
+    return "\n".join(rows) + "\n"
 
-    rows.append(f"| Community Pool | GNK | {format_balance(gnk_pool, 'ngonka')} |")
-    rows.append(f"| Community Pool | USDT | {format_balance(usdt_pool, USDT_IBC_DENOM)} |")
-    rows.append(f"| Community Sale | GNK | {format_balance(gnk_sale, 'ngonka')} |")
-    rows.append(f"| Community Sale | USDT | {format_balance(usdt_sale, USDT_IBC_DENOM)} |")
-    rows.append(f"| Gov Module | GNK | {format_balance(gnk_gov, 'ngonka')} |")
 
+def generate_sale_balance_table(sale_balances):
+    gnk = sale_balances.get("ngonka", "0")
+    usdt = sale_balances.get(USDT_IBC_DENOM, "0")
+    rows = [
+        "| Asset | Balance |",
+        "| :---- | :------ |",
+        f"| GNK | {format_balance(gnk, 'ngonka')} |",
+        f"| USDT | {format_balance(usdt, USDT_IBC_DENOM)} |",
+    ]
+    return "\n".join(rows) + "\n"
+
+
+def generate_gov_balance_table(gov_balances):
+    gnk = gov_balances.get("ngonka", "0")
+    rows = [
+        "| Asset | Balance |",
+        "| :---- | :------ |",
+        f"| GNK | {format_balance(gnk, 'ngonka')} |",
+    ]
     return "\n".join(rows) + "\n"
 
 
 def generate_spend_table(spends):
     rows = [
-        "| # | Proposal | Date | Recipient | Amount GNK | Amount USDT | Status |",
-        "| :-: | :------ | :--: | :-------- | ---------: | ---------: | :----: |",
+        "| # | Proposal | Date | Recipient | Amount GNK | Amount USDT |",
+        "| :-: | :------ | :--: | :-------- | ---------: | ---------: |",
     ]
     if not spends:
-        return "\n".join(rows) + "\n| — | — | — | — | — | — | — |\n"
+        return "\n".join(rows) + "\n| — | — | — | — | — | — |\n"
 
-    # Sort by date then pid
-    spends_sorted = sorted(spends, key=lambda s: (s["date"], int(s["pid"])))
+    # Sort by descending proposal ID
+    spends_sorted = sorted(spends, key=lambda s: int(s["pid"]), reverse=True)
     for i, s in enumerate(spends_sorted, 1):
         pid = s["pid"]
         q = s["quarter"]
@@ -238,48 +240,36 @@ def generate_spend_table(spends):
             f"| {s['date']} "
             f"| [`{short_addr(s['recipient'])}`](https://gonka.gg/address/{s['recipient']}) "
             f"| {gnk_str} "
-            f"| {usdt_str} "
-            f"| {s['status']} |"
+            f"| {usdt_str} |"
         )
 
     return "\n".join(rows) + "\n"
 
 
 def generate_summary(spends):
-    passed = [s for s in spends if s["status"] == "Passed"]
-    rejected = [s for s in spends if s["status"] == "Rejected"]
-    passed_gnk = sum(s["gnk"] for s in passed)
-    passed_usdt = sum(s["usdt"] for s in passed)
-    rejected_gnk = sum(s["gnk"] for s in rejected)
-    rejected_usdt = sum(s["usdt"] for s in rejected)
+    total_gnk = sum(s["gnk"] for s in spends)
+    total_usdt = sum(s["usdt"] for s in spends)
+    prop_count = len(set(s["pid"] for s in spends))
 
-    passed_props = len(set(s["pid"] for s in passed))
-    rejected_props = len(set(s["pid"] for s in rejected))
-
-    # Find largest passed spend
-    largest = max(passed, key=lambda s: s["gnk"]) if passed else None
+    largest = max(spends, key=lambda s: s["gnk"]) if spends else None
     largest_label = f"#{largest['pid']} — {largest['gnk']:,.0f} GNK" if largest else "—"
     if largest and largest["usdt"] > 0:
         largest_label += f" + ${largest['usdt']:,.0f} USDT"
 
-    # Most recent passed
-    recent_passed = [s for s in passed if s["date"]]
-    recent = max(recent_passed, key=lambda s: s["date"]) if recent_passed else None
+    # Most recent by highest proposal number
+    recent = max(spends, key=lambda s: int(s["pid"])) if spends else None
     recent_label = f"#{recent['pid']} — {recent['gnk']:,.0f} GNK" if recent else "—"
     if recent and recent["usdt"] > 0:
         recent_label += f" + ${recent['usdt']:,.0f} USDT"
 
     return f"""| Metric | Value |
 | :----- | :---- |
-| Proposals with `MsgCommunityPoolSpend` | {len(set(s['pid'] for s in spends))} ({len(spends)} individual messages) |
-| Passed proposals | {passed_props} |
-| Rejected proposals | {rejected_props} |
-| Total GNK passed | {passed_gnk:,.0f} GNK |
-| Total USDT passed | ${passed_usdt:,.0f} |
-| Total GNK rejected | {rejected_gnk:,.0f} GNK |
-| Total USDT rejected | ${rejected_usdt:,.0f} |
-| Largest passed spend | {largest_label} |
-| Most recent passed spend | {recent_label} |"""
+| Total `MsgCommunityPoolSpend` messages | {len(spends)} |
+| Proposals with `MsgCommunityPoolSpend` | {prop_count} |
+| Total GNK spent | {total_gnk:,.0f} GNK |
+| Total USDT spent | ${total_usdt:,.0f} |
+| Largest spend | {largest_label} |
+| Most recent | {recent_label} |"""
 
 
 # ── Update file ────────────────────────────────────────────────
@@ -294,7 +284,6 @@ def replace_between_markers(content, start_marker, end_marker, new_content):
 
 
 def update_file():
-    # Read current file
     with open(FILE_PATH, "r", encoding="utf-8") as f:
         content = f.read()
 
@@ -313,43 +302,45 @@ def update_file():
 
     print("Fetching spend history from proposals...")
     spends = fetch_spend_history()
-    if not spends:
-        print("WARNING: no spends found, keeping existing data")
 
-    # Generate new sections
+    # Generate sections
     now_utc = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    balances_table = generate_balances_table(gnk_pool, usdt_pool, sale_balances, gov_balances)
+    pool_table = generate_pool_balance_table(gnk_pool, usdt_pool)
+    sale_table = generate_sale_balance_table(sale_balances)
+    gov_table = generate_gov_balance_table(gov_balances)
     spend_table = generate_spend_table(spends)
     summary = generate_summary(spends) if spends else ""
 
     # Replace markers
     content = replace_between_markers(
-        content, "<!-- UPDATE_TIMESTAMP -->", "<!-- /UPDATE_TIMESTAMP -->",
-        now_utc
+        content, "<!-- UPDATE_TIMESTAMP -->", "<!-- /UPDATE_TIMESTAMP -->", now_utc
     )
     content = replace_between_markers(
-        content, "<!-- BALANCES_START -->", "<!-- BALANCES_END -->",
-        balances_table
+        content, "<!-- BALANCES_START -->", "<!-- BALANCES_END -->", pool_table
+    )
+    content = replace_between_markers(
+        content, "<!-- SALE_BALANCE_START -->", "<!-- SALE_BALANCE_END -->", sale_table
+    )
+    content = replace_between_markers(
+        content, "<!-- GOV_BALANCE_START -->", "<!-- GOV_BALANCE_END -->", gov_table
     )
     content = replace_between_markers(
         content, "<!-- SPENT_HISTORY_START -->", "<!-- SPENT_HISTORY_END -->",
         spend_table + "\n" + summary
     )
 
-    # Write back
     with open(FILE_PATH, "w", encoding="utf-8") as f:
         f.write(content)
 
     print(f"Updated {FILE_PATH}")
-    print(f"  Balances: GNK pool={format_balance(gnk_pool, 'ngonka')}, "
-          f"USDT pool={format_balance(usdt_pool, USDT_IBC_DENOM)}")
+    print(f"  Community Pool: {format_balance(gnk_pool, 'ngonka')}, "
+          f"{format_balance(usdt_pool, USDT_IBC_DENOM)}")
     gnk_sale = sale_balances.get("ngonka", "0")
     usdt_s = sale_balances.get(USDT_IBC_DENOM, "0")
     gnk_gov = gov_balances.get("ngonka", "0")
     print(f"  Community Sale: {format_balance(gnk_sale, 'ngonka')}, {format_balance(usdt_s, USDT_IBC_DENOM)}")
     print(f"  Gov Module: {format_balance(gnk_gov, 'ngonka')}")
-    passed_count = len([s for s in spends if s["status"] == "Passed"])
-    print(f"  Spends: {len(spends)} messages ({passed_count} passed)")
+    print(f"  Spends: {len(spends)} messages (passed only)")
 
 
 if __name__ == "__main__":
