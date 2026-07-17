@@ -2,7 +2,7 @@
 title: "#322 — [P0] Dashboard (reward fix + vesting; poc stages; total power; gpu’s; participants with logos and contacts)"
 source: https://github.com/gonka-ai/gonka/issues/322
 issue_number: 322
-synced_at: 2026-07-17T19:37:35Z
+synced_at: 2026-07-17T21:12:40Z
 template: issues-main.html
 ---
 
