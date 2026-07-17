@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
-    <span class="issues-meta-item">[@pentoxine](https://github.com/pentoxine) opened 2025-12-20 02:05 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/pentoxine">@pentoxine</a> opened 2025-12-20 02:05 UTC</span>
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-02-10 04:04 UTC</span>
   </div>
@@ -78,7 +78,7 @@ print(response.choices[0].message.content)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span>[@mtvnastya](https://github.com/mtvnastya)</span>
+    <span><a href="https://github.com/mtvnastya">@mtvnastya</a></span>
     <span class="issues-meta-item">commented 2026-02-10 04:04 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

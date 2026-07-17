@@ -125,7 +125,7 @@ def fmt_date_short(iso):
 def user_link(user):
     if not user:
         return "deleted user"
-    return f'[@{user["login"]}]({user["html_url"]})'
+    return f'<a href="{user["html_url"]}">@{user["login"]}</a>'
 
 
 def label_html(label):
