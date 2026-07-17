@@ -2,7 +2,6 @@
 title: Community Pool
 description: "Community Pool, Community Sale wallet, and Gov Module — addresses, balances, inflow/outflow mechanics, and full funding history of passed governance proposals"
 hide:
-  - navigation
   - toc
 ---
 

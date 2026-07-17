@@ -1,6 +1,14 @@
 {
   "section": "issues",
+<<<<<<< Updated upstream
   "snapshot_time": "2026-07-17T14:58:47.669571+00:00",
+=======
+<<<<<<< Updated upstream
+  "snapshot_time": "2026-07-17T12:42:21.799371+00:00",
+=======
+  "snapshot_time": "2026-07-17T10:18:33.894085+00:00",
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "Description",
