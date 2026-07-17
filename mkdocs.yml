@@ -55,6 +55,7 @@ nav:
     - Activity Feed: community/activity/index.md
     - Calendar: community/calendar/index.md
   - Proposals:
+    - Community Pool: proposals/community pool.md
     - Pre-Proposals:
       - Overview: proposals/preproposals/index.md
       - Active: proposals/preproposals/index.md
