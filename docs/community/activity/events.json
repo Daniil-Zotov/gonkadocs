@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260717221041_666c25ce",
+    "timestamp": "2026-07-17T22:10:41.735129+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "Issues: no-label",
+      "url": "/community/issues/labels/no-label/",
+      "file": "labels/no-label/index.md"
+    },
+    "details": {
+      "content_before": "# Issues: no-label\n\nIssues with label **no-label**. Total: **231**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01466-better-debshardd-inference-handling/\">Better debshardd inference handling</a>\n      <span class=\"issues-number\">#1466</span>\n    </div>\n    \n    <div class=\"issues-labels\"></div>\n    <div class=\"issues-meta\">\n      <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 11 hours ago</span>",
+      "content_after": "# Issues: no-label\n\nIssues with label **no-label**. Total: **231**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01466-better-debshardd-inference-handling/\">Better debshardd inference handling</a>\n      <span class=\"issues-number\">#1466</span>\n    </div>\n    \n    <div class=\"issues-labels\"></div>\n    <div class=\"issues-meta\">\n      <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 12 hours ago</span>"
+    },
+    "ai_description": "<think>Анализирую изменения:\n\nДо: \"opened 11 hours ago\"\nПосле: \"opened 12 hours ago\"\n\nИзменилось только время, прошедшее с момента создания issue — оно увеличилось на 1 час. Это просто обновление временной метки, вызванное течением времени, а не каким-либо действием участника или изменением в системе.\n\nЭто незначительное изменение, связанное с автоматическим обновлением отображения времени. По сути, ничего важного не произошло — просто прошёл час.\n\nОднако, задача — написать пост об изменении. Возможно, стоит отметить это как рутинное обновление, но пост о 1 часе изменения времени кажется бессмысленным.\n\nДумаю, в данном случае изменения настолько минимальны, что пост может быть очень коротким или указать на то, что это просто автоматическое обновление временной метки.\n\nНо подождите — может быть, стоит просто упомянуть, что issue #1466 всё ещё открыта и активна, несмотря на незначительное изменение времени.\n</think>\n\nВ списке issues без метки появилось небольшое обновление — issue #1466 от @a-kuprin о улучшении обработки debshardd inference теперь отображается как открытая 12 часов назад вместо 11. Всего в категории no-label по-прежнему 231 issue."
+  },
+  {
     "id": "evt_20260717214354_6b1fca3d",
     "timestamp": "2026-07-17T21:43:54.277316+00:00",
     "section": "gonka_docs",

@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-07-17T21:13:43.014475+00:00",
+  "snapshot_time": "2026-07-17T22:10:50.436608+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "Description",
@@ -1842,7 +1842,7 @@
       "title": "GitHub Issues — `gonka-ai/gonka`",
       "status": null,
       "content_preview": "# GitHub Issues — `gonka-ai/gonka`\n\nAll issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).\nTotal: **306** (🟢 open: **68**, 🔴 closed: **238**).\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"01466-better-debshardd-inference-handling/\">Better debshardd inference handling</a>\n      <span class=\"issues-number\">#1466</span>\n    </div>\n    <p class=\"issues-desc\">While reviewing this PR: https://github.com/gonka-ai/gonka/pull/1460 I have found couple of problems/ta",
-      "checksum": "9bafed1d988feaefed20996fba97a1fe06978205b78331b005032dd70690dccf"
+      "checksum": "bf5d020b12435e451db535ad4283a158e2d6c03c4e55754278a2e3e2fff14480"
     },
     "labels/bug/index.md": {
       "title": "Issues: bug",
@@ -1860,7 +1860,7 @@
       "title": "Issues: enhancement",
       "status": null,
       "content_preview": "# Issues: enhancement\n\nIssues with label **enhancement**. Total: **13**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01408-model-lineup-improvement-add-an-accessible-glm-52-candidate-/\">Model lineup improvement: add an accessible GLM-5.2 candidate and reconsider MiniMax-M2.7 as default</a>\n      <span class=\"issues-number\">#1408</span>\n    </div>\n    \n    <div class=\"issues-labels\"><span class=\"issues-label\" style=\"background-color: #a2ee",
-      "checksum": "0b547a5a5d6b15df63100ce519cb76d1d559aefb6e08994ea768823bb577261f"
+      "checksum": "e1fedfb20729edb2dd218065f29643c7d310fd8da3dbac083cfbce2c11f6a270"
     },
     "labels/help-wanted/index.md": {
       "title": "Issues: help wanted",
@@ -1871,8 +1871,8 @@
     "labels/no-label/index.md": {
       "title": "Issues: no-label",
       "status": null,
-      "content_preview": "# Issues: no-label\n\nIssues with label **no-label**. Total: **231**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01466-better-debshardd-inference-handling/\">Better debshardd inference handling</a>\n      <span class=\"issues-number\">#1466</span>\n    </div>\n    \n    <div class=\"issues-labels\"></div>\n    <div class=\"issues-meta\">\n      <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 11 hours ago</span>",
-      "checksum": "7df5786a4801b3675b6fc09393ce08400a31614ada63ad4960e519c4bebf2478"
+      "content_preview": "# Issues: no-label\n\nIssues with label **no-label**. Total: **231**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01466-better-debshardd-inference-handling/\">Better debshardd inference handling</a>\n      <span class=\"issues-number\">#1466</span>\n    </div>\n    \n    <div class=\"issues-labels\"></div>\n    <div class=\"issues-meta\">\n      <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 12 hours ago</span>",
+      "checksum": "34f178269e349cc195ce9e995a1b5095a6cba4027fe3265b04d34ea6961a44ed"
     },
     "labels/priority-high/index.md": {
       "title": "Issues: Priority: High",
