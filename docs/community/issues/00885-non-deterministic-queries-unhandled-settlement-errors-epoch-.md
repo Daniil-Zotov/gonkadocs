@@ -2,7 +2,7 @@
 title: "#885 — Non-deterministic queries, unhandled settlement errors, epoch stats underflow"
 source: https://github.com/gonka-ai/gonka/issues/885
 issue_number: 885
-synced_at: 2026-07-18T13:54:24Z
+synced_at: 2026-07-18T15:18:49Z
 template: issues-main.html
 ---
 
