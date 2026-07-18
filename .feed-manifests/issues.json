@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-07-18T17:22:05.766008+00:00",
+  "snapshot_time": "2026-07-18T18:13:15.370106+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "Description",
@@ -1878,7 +1878,7 @@
       "title": "GitHub Issues — `gonka-ai/gonka`",
       "status": null,
       "content_preview": "# GitHub Issues — `gonka-ai/gonka`\n\nAll issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).\nTotal: **312** (🟢 open: **70**, 🔴 closed: **242**).\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"01475-minimax-m27-tool-messages-gateway-rejects-standard-openai-st/\">MiniMax-M2.7 tool messages: gateway rejects standard OpenAI string content instead of normalizing it</a>\n      <span class=\"issues-number\">#1475</span>\n    </div>\n    <p class=\"issues-desc\">## Summary  T",
-      "checksum": "fa7b0427453c26afb860ef25513965b62476b128015aa7107cb7f6c4eaee4587"
+      "checksum": "8f952a26be8d8ad018f7b16b7a7e0695aba7c1459475ee6bc7a81c6e6e0559ed"
     },
     "labels/bug/index.md": {
       "title": "Issues: bug",
@@ -1908,7 +1908,7 @@
       "title": "Issues: no-label",
       "status": null,
       "content_preview": "# Issues: no-label\n\nIssues with label **no-label**. Total: **237**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01475-minimax-m27-tool-messages-gateway-rejects-standard-openai-st/\">MiniMax-M2.7 tool messages: gateway rejects standard OpenAI string content instead of normalizing it</a>\n      <span class=\"issues-number\">#1475</span>\n    </div>\n    \n    <div class=\"issues-labels\"></div>\n    <div class=\"issues-meta\">\n      <span class=\"issues",
-      "checksum": "066a19025a407554e7c59702c1b5fdae901c779067b6bffec725d115d6d0de21"
+      "checksum": "05f11b7e525f449d5ca4c1dc1222093f82a8ae2b8932b1234064ff0e269a8dad"
     },
     "labels/priority-high/index.md": {
       "title": "Issues: Priority: High",
