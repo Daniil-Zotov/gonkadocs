@@ -2,7 +2,7 @@
 title: "#660 — Short network drop makes the api crash"
 source: https://github.com/gonka-ai/gonka/issues/660
 issue_number: 660
-synced_at: 2026-07-18T00:13:52Z
+synced_at: 2026-07-18T03:40:22Z
 template: issues-main.html
 ---
 

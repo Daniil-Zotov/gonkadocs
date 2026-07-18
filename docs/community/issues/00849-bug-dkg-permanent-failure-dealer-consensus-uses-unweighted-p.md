@@ -2,7 +2,7 @@
 title: "#849 — Bug: DKG permanent failure — dealer consensus uses unweighted participant votes but quorum uses slot weights"
 source: https://github.com/gonka-ai/gonka/issues/849
 issue_number: 849
-synced_at: 2026-07-18T00:13:37Z
+synced_at: 2026-07-18T03:39:55Z
 template: issues-main.html
 ---
 
