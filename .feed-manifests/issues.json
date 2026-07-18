@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-07-18T15:20:27.930866+00:00",
+  "snapshot_time": "2026-07-18T16:17:25.161460+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "Description",
@@ -1868,11 +1868,17 @@
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Security/hardening: Executor signature verification disabled; token counts self-reported on Finish\n    <span class=\"issues-number\">#1474</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Aphelios01-sdk\">@Aphelios01-sdk</a> opened 2026-07-18 03:05 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></s",
       "checksum": "2f54da7ebda6e9b02f59031f42d9d8412f001100472fe7b8aec33c54c9d9b12b"
     },
+    "01475-minimax-m27-tool-messages-gateway-rejects-standard-openai-st.md": {
+      "title": "#1475 — MiniMax-M2.7 tool messages: gateway rejects standard OpenAI string content instead of normalizing it",
+      "status": null,
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    MiniMax-M2.7 tool messages: gateway rejects standard OpenAI string content instead of normalizing it\n    <span class=\"issues-number\">#1475</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Ryanchen911\">@Ryanchen911</a> opened 2026-07-18 15:51 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-",
+      "checksum": "a5c3a999b9cdf1ec2cade0c8b082f20156b214fd6bc633a9c185f5778e95db61"
+    },
     "index.md": {
       "title": "GitHub Issues — `gonka-ai/gonka`",
       "status": null,
-      "content_preview": "# GitHub Issues — `gonka-ai/gonka`\n\nAll issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).\nTotal: **311** (🟢 open: **69**, 🔴 closed: **242**).\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"01470-security-residual-ssrf-on-inferenceurl-dnsrebind-validator-r/\">Security: Residual SSRF on InferenceUrl — DNS/rebind + validator redirect (incomplete fix after #505/#534)</a>\n      <span class=\"issues-number\">#1470</span>\n    </div>\n    <p class=\"issues-desc\">## Summ",
-      "checksum": "20cda89a082b364e65ea43eda796c8f3286785ac1b93219ad29a8dfcc214081b"
+      "content_preview": "# GitHub Issues — `gonka-ai/gonka`\n\nAll issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).\nTotal: **312** (🟢 open: **70**, 🔴 closed: **242**).\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"01475-minimax-m27-tool-messages-gateway-rejects-standard-openai-st/\">MiniMax-M2.7 tool messages: gateway rejects standard OpenAI string content instead of normalizing it</a>\n      <span class=\"issues-number\">#1475</span>\n    </div>\n    <p class=\"issues-desc\">## Summary  T",
+      "checksum": "3035e24c3d8f606703ccb802050dc40f703640572a739bf62578eeb6910c10b7"
     },
     "labels/bug/index.md": {
       "title": "Issues: bug",
@@ -1901,8 +1907,8 @@
     "labels/no-label/index.md": {
       "title": "Issues: no-label",
       "status": null,
-      "content_preview": "# Issues: no-label\n\nIssues with label **no-label**. Total: **236**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01470-security-residual-ssrf-on-inferenceurl-dnsrebind-validator-r/\">Security: Residual SSRF on InferenceUrl — DNS/rebind + validator redirect (incomplete fix after #505/#534)</a>\n      <span class=\"issues-number\">#1470</span>\n    </div>\n    \n    <div class=\"issues-labels\"></div>\n    <div class=\"issues-meta\">\n      <span class=\"",
-      "checksum": "2b4278e812dbad82ef5206c95a3edcef3012a8192f0fa753e48ca067eb6b35f0"
+      "content_preview": "# Issues: no-label\n\nIssues with label **no-label**. Total: **237**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01475-minimax-m27-tool-messages-gateway-rejects-standard-openai-st/\">MiniMax-M2.7 tool messages: gateway rejects standard OpenAI string content instead of normalizing it</a>\n      <span class=\"issues-number\">#1475</span>\n    </div>\n    \n    <div class=\"issues-labels\"></div>\n    <div class=\"issues-meta\">\n      <span class=\"issues",
+      "checksum": "4894837322e4da3debe788bde6ba279e63d1c0d9a4c9308bc67ea7729ff4680a"
     },
     "labels/priority-high/index.md": {
       "title": "Issues: Priority: High",

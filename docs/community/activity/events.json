@@ -1,5 +1,53 @@
 [
   {
+    "id": "evt_20260718161657_71efa836",
+    "timestamp": "2026-07-18T16:16:57.486336+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1475 — MiniMax-M2.7 tool messages: gateway rejects standard OpenAI string content instead of normalizing it",
+      "url": "/community/issues/01475-minimax-m27-tool-messages-gateway-rejects-standard-openai-st/",
+      "file": "01475-minimax-m27-tool-messages-gateway-rejects-standard-openai-st.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    MiniMax-M2.7 tool messages: gateway rejects standard OpenAI string content instead of normalizing it\n    <span class=\"issues-number\">#1475</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Ryanchen911\">@Ryanchen911</a> opened 2026-07-18 15:51 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-"
+    },
+    "ai_description": "В сети Gonka открыт новый issue #1475: выявлена проблема с тем, что шлюз отклоняет стандартный строковый контент OpenAI в tool-сообщениях для модели MiniMax-M2.7 вместо его нормализации. Это может затронуть разработчиков, использующих tool calling с данной моделью, так как ожидаемое поведение совместимости с OpenAI API не работает корректно. Следите за обсуждением и присоединяйтесь, если у вас есть похожий опыт или решение."
+  },
+  {
+    "id": "evt_20260718161657_08635cef",
+    "timestamp": "2026-07-18T16:16:57.486542+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "GitHub Issues — `gonka-ai/gonka`",
+      "url": "/community/issues/",
+      "file": "index.md"
+    },
+    "details": {
+      "content_before": "# GitHub Issues — `gonka-ai/gonka`\n\nAll issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).\nTotal: **311** (🟢 open: **69**, 🔴 closed: **242**).\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"01470-security-residual-ssrf-on-inferenceurl-dnsrebind-validator-r/\">Security: Residual SSRF on InferenceUrl — DNS/rebind + validator redirect (incomplete fix after #505/#534)</a>\n      <span class=\"issues-number\">#1470</span>\n    </div>\n    <p class=\"issues-desc\">## Summ",
+      "content_after": "# GitHub Issues — `gonka-ai/gonka`\n\nAll issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).\nTotal: **312** (🟢 open: **70**, 🔴 closed: **242**).\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"01475-minimax-m27-tool-messages-gateway-rejects-standard-openai-st/\">MiniMax-M2.7 tool messages: gateway rejects standard OpenAI string content instead of normalizing it</a>\n      <span class=\"issues-number\">#1475</span>\n    </div>\n    <p class=\"issues-desc\">## Summary  T"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260718161657_0012b642",
+    "timestamp": "2026-07-18T16:16:57.486577+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "Issues: no-label",
+      "url": "/community/issues/labels/no-label/",
+      "file": "labels/no-label/index.md"
+    },
+    "details": {
+      "content_before": "# Issues: no-label\n\nIssues with label **no-label**. Total: **236**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01470-security-residual-ssrf-on-inferenceurl-dnsrebind-validator-r/\">Security: Residual SSRF on InferenceUrl — DNS/rebind + validator redirect (incomplete fix after #505/#534)</a>\n      <span class=\"issues-number\">#1470</span>\n    </div>\n    \n    <div class=\"issues-labels\"></div>\n    <div class=\"issues-meta\">\n      <span class=\"",
+      "content_after": "# Issues: no-label\n\nIssues with label **no-label**. Total: **237**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01475-minimax-m27-tool-messages-gateway-rejects-standard-openai-st/\">MiniMax-M2.7 tool messages: gateway rejects standard OpenAI string content instead of normalizing it</a>\n      <span class=\"issues-number\">#1475</span>\n    </div>\n    \n    <div class=\"issues-labels\"></div>\n    <div class=\"issues-meta\">\n      <span class=\"issues"
+    },
+    "ai_description": "В списке несортированных задач появилась новая issue: шлюз отклоняет стандартный текстовый формат content в tool-сообщениях для модели MiniMax-M2.7 вместо его нормализации. Счетчик неразмеченных задач вырос с 236 до 237, так что команде стоит быстрее разобраться с классификацией и приоритизацией входящих багов."
+  },
+  {
     "id": "evt_20260718134406_dc612e64",
     "timestamp": "2026-07-18T13:44:06.322547+00:00",
     "section": "preproposals",
