@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-07-18T19:39:26.246829+00:00",
+  "snapshot_time": "2026-07-18T21:11:00.749182+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "Description",
@@ -1878,7 +1878,7 @@
       "title": "GitHub Issues — `gonka-ai/gonka`",
       "status": null,
       "content_preview": "# GitHub Issues — `gonka-ai/gonka`\n\nAll issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).\nTotal: **312** (🟢 open: **70**, 🔴 closed: **242**).\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"01475-minimax-m27-tool-messages-gateway-rejects-standard-openai-st/\">MiniMax-M2.7 tool messages: gateway rejects standard OpenAI string content instead of normalizing it</a>\n      <span class=\"issues-number\">#1475</span>\n    </div>\n    <p class=\"issues-desc\">## Summary  T",
-      "checksum": "fbf4cc99d926e1d4e2ddbdc674741d59d3ccbe0851dedb030592c918b79def4b"
+      "checksum": "a12293a976dfefbbdf60cf90965ac56ceb5552e46a863f2532870cb99be74ffb"
     },
     "labels/bug/index.md": {
       "title": "Issues: bug",
@@ -1896,7 +1896,7 @@
       "title": "Issues: enhancement",
       "status": null,
       "content_preview": "# Issues: enhancement\n\nIssues with label **enhancement**. Total: **13**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01408-model-lineup-improvement-add-an-accessible-glm-52-candidate-/\">Model lineup improvement: add an accessible GLM-5.2 candidate and reconsider MiniMax-M2.7 as default</a>\n      <span class=\"issues-number\">#1408</span>\n    </div>\n    \n    <div class=\"issues-labels\"><span class=\"issues-label\" style=\"background-color: #a2ee",
-      "checksum": "42b6b3ad264eb3612ddee3a27f8922ec5d29d1ae2d5ca28a2cac2c30fc55da8a"
+      "checksum": "df5d1abaebee12037a3de80a58d36788dd507885226870cea3f6618fafef966c"
     },
     "labels/help-wanted/index.md": {
       "title": "Issues: help wanted",
@@ -1908,7 +1908,7 @@
       "title": "Issues: no-label",
       "status": null,
       "content_preview": "# Issues: no-label\n\nIssues with label **no-label**. Total: **237**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01475-minimax-m27-tool-messages-gateway-rejects-standard-openai-st/\">MiniMax-M2.7 tool messages: gateway rejects standard OpenAI string content instead of normalizing it</a>\n      <span class=\"issues-number\">#1475</span>\n    </div>\n    \n    <div class=\"issues-labels\"></div>\n    <div class=\"issues-meta\">\n      <span class=\"issues",
-      "checksum": "81f379cad429e2e1f6944ffb7b9cf2080e8f2211ef77965cdfc5d021a5e8306b"
+      "checksum": "86c6cdf181c629f3be839ed0f48a2dc43f8fe778f7d6dd0cdea878393b7dcde9"
     },
     "labels/priority-high/index.md": {
       "title": "Issues: Priority: High",
@@ -1920,7 +1920,7 @@
       "title": "Issues: Priority: Low",
       "status": null,
       "content_preview": "# Issues: Priority: Low\n\nIssues with label **Priority: Low**. Total: **13**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01019-subnetctl-inference-error-handling/\">subnetctl: inference error handling</a>\n      <span class=\"issues-number\">#1019</span>\n    </div>\n    \n    <div class=\"issues-labels\"><span class=\"issues-label\" style=\"background-color: #95b500; color: #24292f; border-color: #95b500;\">Priority: Low",
-      "checksum": "8a57c5f38adcad7f38c541917d39899531f1b548090c70d2b2c8f7f97e12a986"
+      "checksum": "5e51152b4a1db25e160f7ec1daa0bc9a33c1210760f5f1f1d3d6795f21429c30"
     },
     "labels/priority-medium/index.md": {
       "title": "Issues: Priority: Medium",
