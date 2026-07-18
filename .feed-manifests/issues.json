@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-07-18T06:25:38.640556+00:00",
+  "snapshot_time": "2026-07-18T08:15:48.739364+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "Description",
@@ -1872,7 +1872,7 @@
       "title": "GitHub Issues — `gonka-ai/gonka`",
       "status": null,
       "content_preview": "# GitHub Issues — `gonka-ai/gonka`\n\nAll issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).\nTotal: **311** (🟢 open: **69**, 🔴 closed: **242**).\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"01470-security-residual-ssrf-on-inferenceurl-dnsrebind-validator-r/\">Security: Residual SSRF on InferenceUrl — DNS/rebind + validator redirect (incomplete fix after #505/#534)</a>\n      <span class=\"issues-number\">#1470</span>\n    </div>\n    <p class=\"issues-desc\">## Summ",
-      "checksum": "2df24ca4abc419cb917a8c30f8aa11da0130b79f60017538d646eebf71f3da52"
+      "checksum": "4b1b69acf5659591e121b20a6ce3c440cd386a9c3a9b65ed32d338bd3539d596"
     },
     "labels/bug/index.md": {
       "title": "Issues: bug",
@@ -1902,7 +1902,7 @@
       "title": "Issues: no-label",
       "status": null,
       "content_preview": "# Issues: no-label\n\nIssues with label **no-label**. Total: **236**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01470-security-residual-ssrf-on-inferenceurl-dnsrebind-validator-r/\">Security: Residual SSRF on InferenceUrl — DNS/rebind + validator redirect (incomplete fix after #505/#534)</a>\n      <span class=\"issues-number\">#1470</span>\n    </div>\n    \n    <div class=\"issues-labels\"></div>\n    <div class=\"issues-meta\">\n      <span class=\"",
-      "checksum": "afa4b4d8c4bd826edb21f84572494afffe73eb0e3e50827e624b173f4a00ef37"
+      "checksum": "59963879a0232e642f82e7bb00c9fc7794025dc5522c79ca649ec9b4a90d5505"
     },
     "labels/priority-high/index.md": {
       "title": "Issues: Priority: High",
