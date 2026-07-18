@@ -1,6 +1,6 @@
 {
   "section": "preproposals",
-  "snapshot_time": "2026-07-18T08:57:21.238906+00:00",
+  "snapshot_time": "2026-07-18T10:36:40.186881+00:00",
   "files": {
     "00e8a72a-e121-4ea1-8d30-95a0d51268b2/index.md": {
       "title": "Gonka.TV — амбассадор Гонки на YouTube",
@@ -138,7 +138,7 @@
       "title": "Вестинг: почему его стоит отменить сейчас",
       "status": "active",
       "content_preview": "# Вестинг: почему его стоит отменить сейчас\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Mitch\n**Created:** 2026-07-18 06:19 UTC\n**Closes:** 2026-08-01 06:18 UTC\n**Language:** RU\n**Votes:** 1\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nОтменить его стоит не потому, что это спасёт цену. А потому что когда продукт будет готов и придёт спрос — сеть должна быть привлекательна и удобна для поставщиков GPU.\n\n---\n\n## Full Proposal\n\n**Вестинг: почему его стоит отменить сейчас**\n\n## **Коротко**\n\nВестинг решает не ту задачу, которую мы думаем. Он не защищает цену — это доказано. Он определяет, **кто вообще может участвовать в сети**.\n\nУ него есть плюс, и мы его честно разберём. Но минус перевешивает.\n\nОтменить его стоит не потому, что это спасёт цен",
-      "checksum": "e2079894a8ac39b67d8d371be4d33607465308f6ebce7ca42560ec22aad9c8f4"
+      "checksum": "ba242b0b52efd273b55583a75d44f1e248662ef2f5fbbaaff21702313b3723f2"
     },
     "d2f317f0-541a-4d9f-bbac-d2d394906bf2/index.md": {
       "title": "11. Team GonkaGate Grant Request",
