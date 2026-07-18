@@ -1,5 +1,69 @@
 [
   {
+    "id": "evt_20260718191910_f27eac87",
+    "timestamp": "2026-07-18T19:19:10.604812+00:00",
+    "section": "discussions",
+    "action": "new",
+    "item": {
+      "title": "unposted",
+      "url": "/community/discussion/show-and-tell/1476-unposted/",
+      "file": "show-and-tell/1476-unposted.md"
+    },
+    "details": {
+      "status": null,
+      "content": "> 🔄 **Auto-sync:** from [Discussion #1476](https://github.com/gonka-ai/gonka/discussions/1476) every hour. \n\n# unposted\n\n**Автор:** [@nsvdev](https://github.com/nsvdev) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-07-18 18:27 UTC · \n\n---\n\n## 📝 Описание\n\n*(пусто)*"
+    },
+    "ai_description": "В разделе обсуждений появился новый пост от @nsvdev в категории Show and Tell. Пока в нём нет описания, но это может быть началом интересного обмена идеями в сообществе. Следите за обновлениями — автор, возможно, скоро поделится деталями."
+  },
+  {
+    "id": "evt_20260718191910_7b89e9ac",
+    "timestamp": "2026-07-18T19:19:10.604857+00:00",
+    "section": "discussions",
+    "action": "new",
+    "item": {
+      "title": "Gonka Labs - Monthly Report No.1",
+      "url": "/community/discussion/show-and-tell/1477-gonka-labs-monthly-report-no1/",
+      "file": "show-and-tell/1477-gonka-labs-monthly-report-no1.md"
+    },
+    "details": {
+      "status": null,
+      "content": "> 🔄 **Auto-sync:** from [Discussion #1477](https://github.com/gonka-ai/gonka/discussions/1477) every hour. \n\n# Gonka Labs - Monthly Report No.1\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-07-18 18:31 UTC · \n\n---\n\n## 📝 Описание\n\n# \n\n![](https://resource.inkdown.me/assets/11g/tk4ZX4b2sHaSu/ZarQaYSqnMMS69H.png)\n\nHey! Gonka Labs here.\n\nOn June 12th the community passed [Proposal #74](https://gonka.gg/network/proposals/74). That vote funded the next stretch of work - infra, ops, and shipping products for the ecosystem.\n\nThis is the first public progress report we promised in the proposal (monthly updates on GitHub Discussions). Short version of what landed so far:\n\n1. **OpenBroker** - new product, live\n2. **Pulse** - n"
+    },
+    "ai_description": "Gonka Labs опубликовали первый ежемесячный отчет по выполнению Proposal 74, который сообщество приняло 12 июня для финансирования инфраструктуры, операций и разработки продуктов. В отчете уже можно увидеть первые результаты: запущен новый продукт OpenBroker, а также появились обновления по Pulse. Это важный шаг прозрачности, ведь команда обещала регулярно делиться прогрессом именно в таком формате."
+  },
+  {
+    "id": "evt_20260718191910_736e3a0b",
+    "timestamp": "2026-07-18T19:19:10.604909+00:00",
+    "section": "discussions",
+    "action": "updated",
+    "item": {
+      "title": "GitHub Discussions — `gonka-ai/gonka`",
+      "url": "/community/discussion/",
+      "file": "index.md"
+    },
+    "details": {
+      "content_before": "# GitHub Discussions — `gonka-ai/gonka`\n\nСрез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **76**. ## 📂 Категории\n\n| Категория | Дискуссий |\n|---|---:|\n| [:mega: Announcements](announcements/index.md) | 1 |\n| [:speech_balloon: General](general/index.md) | 5 |\n| [:bulb: Proposals](proposals/index.md) | 46 |\n| [:pray: Q&A](q-a/index.md) | 3 |\n| [:raised_hands: Show and Tell](show-and-tell/index.md) | 21 |\n\n## 🕒 Последние обновлённые\n\n| # | Заголовок | Категория | Автор | Обновлено |\n|---:|---|---|---|---|\n| [1388](proposals/1388-external-test-lab-community-devnet.md) | [External Test Lab & Community DevNet](proposals/1388-external-test-lab-community-devnet.md) | :bulb: Proposals | [@paranjko](https://github.com/paranjko) | 2026-07-17 ",
+      "content_after": "# GitHub Discussions — `gonka-ai/gonka`\n\nСрез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **78**. ## 📂 Категории\n\n| Категория | Дискуссий |\n|---|---:|\n| [:mega: Announcements](announcements/index.md) | 1 |\n| [:speech_balloon: General](general/index.md) | 5 |\n| [:bulb: Proposals](proposals/index.md) | 46 |\n| [:pray: Q&A](q-a/index.md) | 3 |\n| [:raised_hands: Show and Tell](show-and-tell/index.md) | 23 |\n\n## 🕒 Последние обновлённые\n\n| # | Заголовок | Категория | Автор | Обновлено |\n|---:|---|---|---|---|\n| [1476](show-and-tell/1476-unposted.md) | [unposted](show-and-tell/1476-unposted.md) | :raised_hands: Show and Tell | [@nsvdev](https://github.com/nsvdev) | 2026-07-18 |\n| [1477](show-and-tell/1477-gonka-labs-monthly-report-no1.md) "
+    },
+    "ai_description": "В репозитории gonka-ai/gonka появилось две новые публикации в разделе Show and Tell, и общее число обсуждений выросло до 78. Среди свежих материалов — ежемесячный отчет Gonka Labs, что поможет сообществу следить за развитием сети."
+  },
+  {
+    "id": "evt_20260718191910_c632c77b",
+    "timestamp": "2026-07-18T19:19:10.604946+00:00",
+    "section": "discussions",
+    "action": "updated",
+    "item": {
+      "title": ":raised_hands: Show and Tell",
+      "url": "/community/discussion/show-and-tell/",
+      "file": "show-and-tell/index.md"
+    },
+    "details": {
+      "content_before": "# :raised_hands: Show and Tell\n\nДискуссии в категории **:raised_hands: Show and Tell**. Всего: **21**. [← ко всем категориям](../index.md)\n\n| # | Заголовок | Автор | Обновлено |\n|---:|---|---|---|\n| [1390](1390-how-to-return-funds-to-the-community-pool-ibc-usdt.md) | [How to return funds to the Community Pool (IBC USDT)](1390-how-to-return-funds-to-the-community-pool-ibc-usdt.md) | [@paranjko](https://github.com/paranjko) | 2026-07-03 |\n| [1374](1374-gonka-ai-dune-dashboard.md) | [Gonka AI Dune Dashboard](1374-gonka-ai-dune-dashboard.md) | [@genkisudo](https://github.com/genkisudo) | 2026-06-29 |\n| [1363](1363-openbroker-broker-for-brokers-or-devshards-as-a-service.md) | [OpenBroker - broker for brokers or Devshards as a service.](1363-openbroker-broker-for-brokers-or-devshards-as-a-servic",
+      "content_after": "# :raised_hands: Show and Tell\n\nДискуссии в категории **:raised_hands: Show and Tell**. Всего: **23**. [← ко всем категориям](../index.md)\n\n| # | Заголовок | Автор | Обновлено |\n|---:|---|---|---|\n| [1477](1477-gonka-labs-monthly-report-no1.md) | [Gonka Labs - Monthly Report No.1](1477-gonka-labs-monthly-report-no1.md) | [@gonkalabs](https://github.com/gonkalabs) | 2026-07-18 |\n| [1476](1476-unposted.md) | [unposted](1476-unposted.md) | [@nsvdev](https://github.com/nsvdev) | 2026-07-18 |\n| [1390](1390-how-to-return-funds-to-the-community-pool-ibc-usdt.md) | [How to return funds to the Community Pool (IBC USDT)](1390-how-to-return-funds-to-the-community-pool-ibc-usdt.md) | [@paranjko](https://github.com/paranjko) | 2026-07-03 |\n| [1374](1374-gonka-ai-dune-dashboard.md) | [Gonka AI Dune Dash"
+    },
+    "ai_description": "В разделе Show and Tell теперь на две дискуссии больше — их стало 23. Среди новинок: первый ежемесячный отчет от Gonka Labs и еще одна свежая публикация от участника сообщества. Это отличный повод заглянуть, чем живут разработчики и пользователи сети прямо сейчас."
+  },
+  {
     "id": "evt_20260718161657_71efa836",
     "timestamp": "2026-07-18T16:16:57.486336+00:00",
     "section": "issues",

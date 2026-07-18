@@ -4,7 +4,7 @@ title: "GitHub Discussions"
 
 # GitHub Discussions — `gonka-ai/gonka`
 
-Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **76**. Обновлено: `2026-07-18 17:08 UTC`.
+Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **78**. Обновлено: `2026-07-18 19:19 UTC`.
 
 ## 📂 Категории
 
@@ -14,12 +14,14 @@ title: "GitHub Discussions"
 | [:speech_balloon: General](general/index.md) | 5 |
 | [:bulb: Proposals](proposals/index.md) | 46 |
 | [:pray: Q&A](q-a/index.md) | 3 |
-| [:raised_hands: Show and Tell](show-and-tell/index.md) | 21 |
+| [:raised_hands: Show and Tell](show-and-tell/index.md) | 23 |
 
 ## 🕒 Последние обновлённые
 
 | # | Заголовок | Категория | Автор | Обновлено |
 |---:|---|---|---|---|
+| [1476](show-and-tell/1476-unposted.md) | [unposted](show-and-tell/1476-unposted.md) | :raised_hands: Show and Tell | [@nsvdev](https://github.com/nsvdev) | 2026-07-18 |
+| [1477](show-and-tell/1477-gonka-labs-monthly-report-no1.md) | [Gonka Labs - Monthly Report No.1](show-and-tell/1477-gonka-labs-monthly-report-no1.md) | :raised_hands: Show and Tell | [@gonkalabs](https://github.com/gonkalabs) | 2026-07-18 |
 | [1388](proposals/1388-external-test-lab-community-devnet.md) | [External Test Lab & Community DevNet](proposals/1388-external-test-lab-community-devnet.md) | :bulb: Proposals | [@paranjko](https://github.com/paranjko) | 2026-07-17 |
 | [1464](proposals/1464-dev-team-funding.md) | [Dev Team Funding](proposals/1464-dev-team-funding.md) | :bulb: Proposals | [@gmorgachev](https://github.com/gmorgachev) | 2026-07-17 |
 | [1404](proposals/1404-add-a-lower-barrier-glm-52-option-and-consider-deepseek-v4-f.md) | [Add a lower-barrier GLM-5.2 option and consider DeepSeek-V4-Flash as the default model](proposals/1404-add-a-lower-barrier-glm-52-option-and-consider-deepseek-v4-f.md) | :bulb: Proposals | [@enonog](https://github.com/enonog) | 2026-07-16 |
@@ -38,5 +40,3 @@ title: "GitHub Discussions"
 | [944](general/0944-gonkas-support-of-new-modalities-besides-text.md) | [Gonka's support of new modalities besides text](general/0944-gonkas-support-of-new-modalities-besides-text.md) | :speech_balloon: General | [@tamazgadaev](https://github.com/tamazgadaev) | 2026-06-15 |
 | [1334](proposals/1334-devshard-e2e-test-automation-proposal.md) | [Devshard E2E Test Automation Proposal](proposals/1334-devshard-e2e-test-automation-proposal.md) | :bulb: Proposals | [@aikuznetsov](https://github.com/aikuznetsov) | 2026-06-12 |
 | [1339](show-and-tell/1339-gonka-x-mimocode.md) | [Gonka x MiMoCode](show-and-tell/1339-gonka-x-mimocode.md) | :raised_hands: Show and Tell | [@Dankosik](https://github.com/Dankosik) | 2026-06-12 |
-| [1309](proposals/1309-design-and-implementation-of-maintenance-windows.md) | [Design and Implementation of Maintenance Windows](proposals/1309-design-and-implementation-of-maintenance-windows.md) | :bulb: Proposals | [@heitor-lassarote](https://github.com/heitor-lassarote) | 2026-06-09 |
-| [1323](show-and-tell/1323-gonka-x-hermes-agent.md) | [Gonka x Hermes Agent](show-and-tell/1323-gonka-x-hermes-agent.md) | :raised_hands: Show and Tell | [@Dankosik](https://github.com/Dankosik) | 2026-06-08 |

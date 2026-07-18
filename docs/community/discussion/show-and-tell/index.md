@@ -4,12 +4,14 @@ title: ":raised_hands: Show and Tell"
 
 # :raised_hands: Show and Tell
 
-Дискуссии в категории **:raised_hands: Show and Tell**. Всего: **21**. Обновлено: `2026-07-18 17:08 UTC`.
+Дискуссии в категории **:raised_hands: Show and Tell**. Всего: **23**. Обновлено: `2026-07-18 19:19 UTC`.
 
 [← ко всем категориям](../index.md)
 
 | # | Заголовок | Автор | Обновлено |
 |---:|---|---|---|
+| [1477](1477-gonka-labs-monthly-report-no1.md) | [Gonka Labs - Monthly Report No.1](1477-gonka-labs-monthly-report-no1.md) | [@gonkalabs](https://github.com/gonkalabs) | 2026-07-18 |
+| [1476](1476-unposted.md) | [unposted](1476-unposted.md) | [@nsvdev](https://github.com/nsvdev) | 2026-07-18 |
 | [1390](1390-how-to-return-funds-to-the-community-pool-ibc-usdt.md) | [How to return funds to the Community Pool (IBC USDT)](1390-how-to-return-funds-to-the-community-pool-ibc-usdt.md) | [@paranjko](https://github.com/paranjko) | 2026-07-03 |
 | [1374](1374-gonka-ai-dune-dashboard.md) | [Gonka AI Dune Dashboard](1374-gonka-ai-dune-dashboard.md) | [@genkisudo](https://github.com/genkisudo) | 2026-06-29 |
 | [1363](1363-openbroker-broker-for-brokers-or-devshards-as-a-service.md) | [OpenBroker - broker for brokers or Devshards as a service.](1363-openbroker-broker-for-brokers-or-devshards-as-a-service.md) | [@gonkalabs](https://github.com/gonkalabs) | 2026-07-09 |

@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-07-18T17:08:10.188808+00:00",
+  "snapshot_time": "2026-07-18T19:19:32.180074+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "Welcome to Gonka Discussions 👋",
@@ -53,8 +53,8 @@
     "index.md": {
       "title": "GitHub Discussions — `gonka-ai/gonka`",
       "status": null,
-      "content_preview": "# GitHub Discussions — `gonka-ai/gonka`\n\nСрез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **76**. ## 📂 Категории\n\n| Категория | Дискуссий |\n|---|---:|\n| [:mega: Announcements](announcements/index.md) | 1 |\n| [:speech_balloon: General](general/index.md) | 5 |\n| [:bulb: Proposals](proposals/index.md) | 46 |\n| [:pray: Q&A](q-a/index.md) | 3 |\n| [:raised_hands: Show and Tell](show-and-tell/index.md) | 21 |\n\n## 🕒 Последние обновлённые\n\n| # | Заголовок | Категория | Автор | Обновлено |\n|---:|---|---|---|---|\n| [1388](proposals/1388-external-test-lab-community-devnet.md) | [External Test Lab & Community DevNet](proposals/1388-external-test-lab-community-devnet.md) | :bulb: Proposals | [@paranjko](https://github.com/paranjko) | 2026-07-17 ",
-      "checksum": "11419fee5a4c359691d65285b61f06ec1218bc4ea4769d1f2951b350830a3cc4"
+      "content_preview": "# GitHub Discussions — `gonka-ai/gonka`\n\nСрез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **78**. ## 📂 Категории\n\n| Категория | Дискуссий |\n|---|---:|\n| [:mega: Announcements](announcements/index.md) | 1 |\n| [:speech_balloon: General](general/index.md) | 5 |\n| [:bulb: Proposals](proposals/index.md) | 46 |\n| [:pray: Q&A](q-a/index.md) | 3 |\n| [:raised_hands: Show and Tell](show-and-tell/index.md) | 23 |\n\n## 🕒 Последние обновлённые\n\n| # | Заголовок | Категория | Автор | Обновлено |\n|---:|---|---|---|---|\n| [1476](show-and-tell/1476-unposted.md) | [unposted](show-and-tell/1476-unposted.md) | :raised_hands: Show and Tell | [@nsvdev](https://github.com/nsvdev) | 2026-07-18 |\n| [1477](show-and-tell/1477-gonka-labs-monthly-report-no1.md) ",
+      "checksum": "b81c0e3e499c4931b1f740186143e28a67eace784d239ad1dc108472c4d7f285"
     },
     "proposals/0795-welcome-to-proposals.md": {
       "title": "Welcome to Proposals 👋",
@@ -488,11 +488,23 @@
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1390](https://github.com/gonka-ai/gonka/discussions/1390) every hour. \n\n# How to return funds to the Community Pool (IBC USDT)\n\n**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-07-03 04:52 UTC · \n\n---\n\n## 📝 Описание\n\nA while back I was helping the DeAI Nation folks with their proposal. Their event ended up being cancelled, and to their credit they decided to do the right thing and return the granted funds to the Community Pool.\n\nTurns out there was no guide for that. The tricky part: their grant was paid out through a governance proposal, and USDT on Gonka comes out of the USDT treasury contract — there is no way to simply send it back into that contract. So where do the funds go? The ",
       "checksum": "da46291dc1278e0378aa210fc7067ccfec7a9bcdda7a9ba6718ffb35f25d36a0"
     },
+    "show-and-tell/1476-unposted.md": {
+      "title": "unposted",
+      "status": null,
+      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1476](https://github.com/gonka-ai/gonka/discussions/1476) every hour. \n\n# unposted\n\n**Автор:** [@nsvdev](https://github.com/nsvdev) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-07-18 18:27 UTC · \n\n---\n\n## 📝 Описание\n\n*(пусто)*",
+      "checksum": "4f209c0e63bd57e2365ce98e5dfe2edd1faa38588439b07e640e5e5a995e5037"
+    },
+    "show-and-tell/1477-gonka-labs-monthly-report-no1.md": {
+      "title": "Gonka Labs - Monthly Report No.1",
+      "status": null,
+      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1477](https://github.com/gonka-ai/gonka/discussions/1477) every hour. \n\n# Gonka Labs - Monthly Report No.1\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-07-18 18:31 UTC · \n\n---\n\n## 📝 Описание\n\n# \n\n![](https://resource.inkdown.me/assets/11g/tk4ZX4b2sHaSu/ZarQaYSqnMMS69H.png)\n\nHey! Gonka Labs here.\n\nOn June 12th the community passed [Proposal #74](https://gonka.gg/network/proposals/74). That vote funded the next stretch of work - infra, ops, and shipping products for the ecosystem.\n\nThis is the first public progress report we promised in the proposal (monthly updates on GitHub Discussions). Short version of what landed so far:\n\n1. **OpenBroker** - new product, live\n2. **Pulse** - n",
+      "checksum": "8546a6fe7f6d0aa8fd2e389c93d8b3a3aa39a5d9a9cef4816ea305a96fb3f7cf"
+    },
     "show-and-tell/index.md": {
       "title": ":raised_hands: Show and Tell",
       "status": null,
-      "content_preview": "# :raised_hands: Show and Tell\n\nДискуссии в категории **:raised_hands: Show and Tell**. Всего: **21**. [← ко всем категориям](../index.md)\n\n| # | Заголовок | Автор | Обновлено |\n|---:|---|---|---|\n| [1390](1390-how-to-return-funds-to-the-community-pool-ibc-usdt.md) | [How to return funds to the Community Pool (IBC USDT)](1390-how-to-return-funds-to-the-community-pool-ibc-usdt.md) | [@paranjko](https://github.com/paranjko) | 2026-07-03 |\n| [1374](1374-gonka-ai-dune-dashboard.md) | [Gonka AI Dune Dashboard](1374-gonka-ai-dune-dashboard.md) | [@genkisudo](https://github.com/genkisudo) | 2026-06-29 |\n| [1363](1363-openbroker-broker-for-brokers-or-devshards-as-a-service.md) | [OpenBroker - broker for brokers or Devshards as a service.](1363-openbroker-broker-for-brokers-or-devshards-as-a-servic",
-      "checksum": "9e2f34727908378b3fc8c113e044c7cd35b35200420ec4fa865dd5585908cb04"
+      "content_preview": "# :raised_hands: Show and Tell\n\nДискуссии в категории **:raised_hands: Show and Tell**. Всего: **23**. [← ко всем категориям](../index.md)\n\n| # | Заголовок | Автор | Обновлено |\n|---:|---|---|---|\n| [1477](1477-gonka-labs-monthly-report-no1.md) | [Gonka Labs - Monthly Report No.1](1477-gonka-labs-monthly-report-no1.md) | [@gonkalabs](https://github.com/gonkalabs) | 2026-07-18 |\n| [1476](1476-unposted.md) | [unposted](1476-unposted.md) | [@nsvdev](https://github.com/nsvdev) | 2026-07-18 |\n| [1390](1390-how-to-return-funds-to-the-community-pool-ibc-usdt.md) | [How to return funds to the Community Pool (IBC USDT)](1390-how-to-return-funds-to-the-community-pool-ibc-usdt.md) | [@paranjko](https://github.com/paranjko) | 2026-07-03 |\n| [1374](1374-gonka-ai-dune-dashboard.md) | [Gonka AI Dune Dash",
+      "checksum": "ba6cbf2d28ac4a90ce1134b2966d94b9360df160e53344fc3e37e9cb988caafc"
     }
   }
 }
