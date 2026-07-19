@@ -17321,7 +17321,7 @@ If you have the opportunity and desire to be part of the committee — please co
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-07-19 20:09 UTC
+2026-07-19 21:46 UTC
 
 ---
 
@@ -17788,7 +17788,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-07-19 21:04 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-07-19 22:05 UTC*
 
 ---
 
