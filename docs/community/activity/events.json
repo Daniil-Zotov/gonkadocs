@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260719092304_0f1f56f1",
+    "timestamp": "2026-07-19T09:23:04.634957+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1479 — Gateway allowlist request: Knyazev AI high-throughput agent infrastructure",
+      "url": "/community/issues/01479-gateway-allowlist-request-knyazev-ai-high-throughput-agent-i/",
+      "file": "01479-gateway-allowlist-request-knyazev-ai-high-throughput-agent-i.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway allowlist request: Knyazev AI high-throughput agent infrastructure\n    <span class=\"issues-number\">#1479</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/knyazev741\">@knyazev741</a> opened 2026-07-19 06:12 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8p",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway allowlist request: Knyazev AI high-throughput agent infrastructure\n    <span class=\"issues-number\">#1479</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/knyazev741\">@knyazev741</a> opened 2026-07-19 06:12 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8"
+    },
+    "ai_description": "В issue #1479 с запросом на добавление Knyazev AI high-throughput agent infrastructure в белый список гейтвеев появился новый комментарий. Обсуждение продолжается, сообщество может следить за ходом рассмотрения заявки."
+  },
+  {
     "id": "evt_20260719064652_042ecbae",
     "timestamp": "2026-07-19T06:46:52.692851+00:00",
     "section": "issues",

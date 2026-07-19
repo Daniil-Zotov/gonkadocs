@@ -2,7 +2,7 @@
 title: "#1479 — Gateway allowlist request: Knyazev AI high-throughput agent infrastructure"
 source: https://github.com/gonka-ai/gonka/issues/1479
 issue_number: 1479
-synced_at: 2026-07-19T06:45:05Z
+synced_at: 2026-07-19T09:21:20Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/knyazev741">@knyazev741</a> opened 2026-07-19 06:12 UTC</span>
-    <span class="issues-meta-item">1 comment</span>
-    <span class="issues-meta-item">Updated 2026-07-19 06:19 UTC</span>
+    <span class="issues-meta-item">2 comments</span>
+    <span class="issues-meta-item">Updated 2026-07-19 06:52 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -99,7 +99,7 @@ Thank you for considering the request.
 
 ---
 
-## 💬 Comments (1)
+## 💬 Comments (2)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -110,6 +110,17 @@ Thank you for considering the request.
     <p>Hi @tcharchian — could you please point us to the preferred path for getting this address considered in the next governance-approved allowlist batch, and to the community channel where support should be discussed before a proposal?</p>
 <p>To clarify the operator-specific need: this is not a request for a broker-directory listing. We need the creator path itself for self-custodied GNK settlement, control of escrow pooling/rotation, and a private workload targeting 100–200 concurrent requests. We will stage the load and publish anonymized capacity/reliability measurements back to the community.</p>
 <p>The dedicated address remains unfunded, following the current gateway guide's instruction not to fund or deploy until allowlist membership is confirmed. We are ready to provide any additional operator details or revise the scope for governance review.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/knyazev741">@knyazev741</a></span>
+    <span class="issues-meta-item">commented 2026-07-19 06:52 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Community discussion is now open in Gonka <code>#dev-chat</code>:
+https://discord.com/channels/1336477374442770503/1336787104935579668/1528292662245855403</p>
+<p>We have asked active hosts what evidence or operational commitments they would want before supporting inclusion in the next governance-approved creator allowlist batch. We will keep this issue updated with any requested details. The dedicated creator address remains unfunded, and the gateway will not be deployed until on-chain allowlist membership is confirmed.</p>
   </div>
 </div>
 
