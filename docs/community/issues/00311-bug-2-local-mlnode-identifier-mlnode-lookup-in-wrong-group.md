@@ -2,7 +2,7 @@
 title: "#311 — BUG-2: Local MLNode identifier & MLNode lookup in wrong group"
 source: https://github.com/gonka-ai/gonka/issues/311
 issue_number: 311
-synced_at: 2026-07-19T10:48:30Z
+synced_at: 2026-07-19T12:10:14Z
 template: issues-main.html
 ---
 

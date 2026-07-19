@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-07-19T10:49:13.086434+00:00",
+  "snapshot_time": "2026-07-19T12:10:58.050995+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "Description",
@@ -1884,7 +1884,7 @@
       "title": "GitHub Issues — `gonka-ai/gonka`",
       "status": null,
       "content_preview": "# GitHub Issues — `gonka-ai/gonka`\n\nAll issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).\nTotal: **313** (🟢 open: **71**, 🔴 closed: **242**).\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"01479-gateway-allowlist-request-knyazev-ai-high-throughput-agent-i/\">Gateway allowlist request: Knyazev AI high-throughput agent infrastructure</a>\n      <span class=\"issues-number\">#1479</span>\n    </div>\n    <p class=\"issues-desc\">## Operator  - **Name:** Nikita Knyazev",
-      "checksum": "374798ed4a8bfc93db6ef89d53dab12a0b416195b4510b33c06cd66192586fd3"
+      "checksum": "c2624180758245bf7ff96ae19a3fe266f5f37c5abf9fa09ab09315888e873856"
     },
     "labels/bug/index.md": {
       "title": "Issues: bug",
@@ -1914,7 +1914,7 @@
       "title": "Issues: no-label",
       "status": null,
       "content_preview": "# Issues: no-label\n\nIssues with label **no-label**. Total: **238**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01479-gateway-allowlist-request-knyazev-ai-high-throughput-agent-i/\">Gateway allowlist request: Knyazev AI high-throughput agent infrastructure</a>\n      <span class=\"issues-number\">#1479</span>\n    </div>\n    \n    <div class=\"issues-labels\"></div>\n    <div class=\"issues-meta\">\n      <span class=\"issues-meta-item\"><a href=\"https",
-      "checksum": "888ab0e7be87ad8911664c48b10af021c87b4fe81e9774e8c999e3949fe71ecf"
+      "checksum": "f8ae0e094606eef52f945da2dca6dc9a1028093b6b76bdceec4ac0db5bd826d7"
     },
     "labels/priority-high/index.md": {
       "title": "Issues: Priority: High",
