@@ -2,7 +2,7 @@
 title: "#819 — `application.db` growth / pruning"
 source: https://github.com/gonka-ai/gonka/issues/819
 issue_number: 819
-synced_at: 2026-07-19T12:09:48Z
+synced_at: 2026-07-19T13:58:55Z
 template: issues-main.html
 ---
 

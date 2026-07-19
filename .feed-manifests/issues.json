@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-07-19T12:10:58.050995+00:00",
+  "snapshot_time": "2026-07-19T14:00:27.389854+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "Description",
@@ -1884,7 +1884,7 @@
       "title": "GitHub Issues — `gonka-ai/gonka`",
       "status": null,
       "content_preview": "# GitHub Issues — `gonka-ai/gonka`\n\nAll issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).\nTotal: **313** (🟢 open: **71**, 🔴 closed: **242**).\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"01479-gateway-allowlist-request-knyazev-ai-high-throughput-agent-i/\">Gateway allowlist request: Knyazev AI high-throughput agent infrastructure</a>\n      <span class=\"issues-number\">#1479</span>\n    </div>\n    <p class=\"issues-desc\">## Operator  - **Name:** Nikita Knyazev",
-      "checksum": "c2624180758245bf7ff96ae19a3fe266f5f37c5abf9fa09ab09315888e873856"
+      "checksum": "5716513870cd18bddc8c50654222b003ce4907685fc1e2f0dd5f68cfb8cd993e"
     },
     "labels/bug/index.md": {
       "title": "Issues: bug",
@@ -1914,7 +1914,7 @@
       "title": "Issues: no-label",
       "status": null,
       "content_preview": "# Issues: no-label\n\nIssues with label **no-label**. Total: **238**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01479-gateway-allowlist-request-knyazev-ai-high-throughput-agent-i/\">Gateway allowlist request: Knyazev AI high-throughput agent infrastructure</a>\n      <span class=\"issues-number\">#1479</span>\n    </div>\n    \n    <div class=\"issues-labels\"></div>\n    <div class=\"issues-meta\">\n      <span class=\"issues-meta-item\"><a href=\"https",
-      "checksum": "f8ae0e094606eef52f945da2dca6dc9a1028093b6b76bdceec4ac0db5bd826d7"
+      "checksum": "a0847a49868fae4fadfe51aad331b573fb879af88b594b69578ded43188cefc4"
     },
     "labels/priority-high/index.md": {
       "title": "Issues: Priority: High",
@@ -1938,7 +1938,7 @@
       "title": "Issues: protocol",
       "status": null,
       "content_preview": "# Issues: protocol\n\nIssues with label **protocol**. Total: **1**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01173-tee-implementation/\">TEE Implementation</a>\n      <span class=\"issues-number\">#1173</span>\n    </div>\n    \n    <div class=\"issues-labels\"><span class=\"issues-label\" style=\"background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;\">up-for-grabs</span> <span class=\"issues-label\" style=\"background-color: #1d27b4; color:",
-      "checksum": "7ae5932af161fa962009712076b248e1b7e03036462417fa44345fa1afa4504c"
+      "checksum": "7d8e0794f7c9d846bc4cf65672ab3ca50735582cfbce2a2f48d2530ec7946745"
     },
     "labels/requires-own-mainnet-node/index.md": {
       "title": "Issues: requires own mainnet node",
@@ -1950,7 +1950,7 @@
       "title": "Issues: up-for-grabs",
       "status": null,
       "content_preview": "# Issues: up-for-grabs\n\nIssues with label **up-for-grabs**. Total: **15**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01199-reproducible-sampling-for-inference-validation/\">Reproducible sampling for inference validation</a>\n      <span class=\"issues-number\">#1199</span>\n    </div>\n    \n    <div class=\"issues-labels\"><span class=\"issues-label\" style=\"background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;\">up-for-grabs</span></d",
-      "checksum": "972e82fc9d98c1cfe0f738144be99c45c410b137752da4110e6aa9e1366ad923"
+      "checksum": "1c2bfc83e19904668e6676eec1451f8aea68f5d0796a3740ade5df72d9ba23cb"
     }
   }
 }

@@ -2,7 +2,7 @@
 title: "#1273 — x/inference: asymmetric debit in refundInvalidatedInference — design clarification"
 source: https://github.com/gonka-ai/gonka/issues/1273
 issue_number: 1273
-synced_at: 2026-07-19T12:09:01Z
+synced_at: 2026-07-19T13:57:53Z
 template: issues-main.html
 ---
 
