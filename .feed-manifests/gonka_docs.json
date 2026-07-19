@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-07-19T16:49:46.009844+00:00",
+  "snapshot_time": "2026-07-19T17:52:35.125441+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -696,7 +696,7 @@
       "title": "公告",
       "status": null,
       "content_preview": "# 公告\n\n!!! note \"关于本页面\"\n\n    本页面由社区成员维护和更新。\n\n    要发布公告，例如您发起的治理投票，请在 gonka-docs 仓库中打开一个拉取请求：[https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n\n    本页面内容不保证完整。如需获取最新信息，包括治理投票的启动及其当前状态，请参考链上数据或查看可用的浏览器和仪表板。\n\n## 2026年7月16日\n\n**提案88已通过：Kimi-K2.6 重新注册，devshard v1/v2 被移除**\n\n紧急提案88已在链上获得批准。\n\n**Kimi-K2.6 引导（第331轮）**\n\n`moonshotai/Kimi-K2.6` 已重新列入治理模型列表，并进入标准引导流程。\n\n* 在区块 **5,105,276** 之前（2026年7月17日，约UTC 12:05）声明意向：\n```\n./inferenced tx inference declare-poc-intent moonshotai/Kimi-K2.6\n```\n* 在第331轮PoC开始前的约500个区块窗口内（区块 **5,105,776** — 2026年7月17日，UTC 12:50:53 / PDT 05:50），将您的MLNode切换为Kimi。\n* 委托主机：选择非守护者Kimi主机，并将权重分散到独立目标上 —— 请参阅 [多模型PoC指南](https://gonka.ai/docs/host/multi_model_poc/)。\n\n**Devshard v1/v2 被移除**\n\n`versiond` 已停止v1和v2的 `devshardd` 进程。所有网关流量必须使用 `/devshard/v3`。如果您的",
-      "checksum": "292ebe3747f42dbaf9a57aed051cb3a00e8e43a873c1c6714046567288076bdf"
+      "checksum": "5cea5e2dd337a5d9aa64b22e782b5f265988131667e2883bd17bdecf1d6e117d"
     },
     "zh/participant/README.md": {
       "title": "正在重定向到主机部分",
