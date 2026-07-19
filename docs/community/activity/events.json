@@ -1,5 +1,53 @@
 [
   {
+    "id": "evt_20260719221444_6238a47e",
+    "timestamp": "2026-07-19T22:14:44.822396+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1480 — Gateway allowlist request: Ancapex",
+      "url": "/community/issues/01480-gateway-allowlist-request-ancapex/",
+      "file": "01480-gateway-allowlist-request-ancapex.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway allowlist request: Ancapex\n    <span class=\"issues-number\">#1480</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/alancapex\">@alancapex</a> opened 2026-07-19 21:31 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-con"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260719221444_5027c357",
+    "timestamp": "2026-07-19T22:14:44.822588+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "GitHub Issues — `gonka-ai/gonka`",
+      "url": "/community/issues/",
+      "file": "index.md"
+    },
+    "details": {
+      "content_before": "# GitHub Issues — `gonka-ai/gonka`\n\nAll issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).\nTotal: **313** (🟢 open: **71**, 🔴 closed: **242**).\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"01479-gateway-allowlist-request-knyazev-ai-high-throughput-agent-i/\">Gateway allowlist request: Knyazev AI high-throughput agent infrastructure</a>\n      <span class=\"issues-number\">#1479</span>\n    </div>\n    <p class=\"issues-desc\">## Operator  - **Name:** Nikita Knyazev",
+      "content_after": "# GitHub Issues — `gonka-ai/gonka`\n\nAll issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).\nTotal: **314** (🟢 open: **72**, 🔴 closed: **242**).\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"01480-gateway-allowlist-request-ancapex/\">Gateway allowlist request: Ancapex</a>\n      <span class=\"issues-number\">#1480</span>\n    </div>\n    <p class=\"issues-desc\">**Operator**  Ancapex — mining platform for Gonka (https://ancapex.ai/) Contact: <GitHub @alancapex / al@a"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260719221444_c88cd0a3",
+    "timestamp": "2026-07-19T22:14:44.822622+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "Issues: no-label",
+      "url": "/community/issues/labels/no-label/",
+      "file": "labels/no-label/index.md"
+    },
+    "details": {
+      "content_before": "# Issues: no-label\n\nIssues with label **no-label**. Total: **238**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01479-gateway-allowlist-request-knyazev-ai-high-throughput-agent-i/\">Gateway allowlist request: Knyazev AI high-throughput agent infrastructure</a>\n      <span class=\"issues-number\">#1479</span>\n    </div>\n    \n    <div class=\"issues-labels\"></div>\n    <div class=\"issues-meta\">\n      <span class=\"issues-meta-item\"><a href=\"https",
+      "content_after": "# Issues: no-label\n\nIssues with label **no-label**. Total: **239**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01480-gateway-allowlist-request-ancapex/\">Gateway allowlist request: Ancapex</a>\n      <span class=\"issues-number\">#1480</span>\n    </div>\n    \n    <div class=\"issues-labels\"></div>\n    <div class=\"issues-meta\">\n      <span class=\"issues-meta-item\"><a href=\"https://github.com/alancapex\">@alancapex</a> opened 43 minutes ago</span"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260719092304_0f1f56f1",
     "timestamp": "2026-07-19T09:23:04.634957+00:00",
     "section": "issues",
