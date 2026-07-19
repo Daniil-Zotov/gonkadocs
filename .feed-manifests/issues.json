@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-07-19T19:39:51.213703+00:00",
+  "snapshot_time": "2026-07-19T21:12:35.173989+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "Description",
@@ -1884,7 +1884,7 @@
       "title": "GitHub Issues — `gonka-ai/gonka`",
       "status": null,
       "content_preview": "# GitHub Issues — `gonka-ai/gonka`\n\nAll issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).\nTotal: **313** (🟢 open: **71**, 🔴 closed: **242**).\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"01479-gateway-allowlist-request-knyazev-ai-high-throughput-agent-i/\">Gateway allowlist request: Knyazev AI high-throughput agent infrastructure</a>\n      <span class=\"issues-number\">#1479</span>\n    </div>\n    <p class=\"issues-desc\">## Operator  - **Name:** Nikita Knyazev",
-      "checksum": "f4a87bda60187d8797a366f858267c2d953a8d35a4aff56ab6b69d9da349ba67"
+      "checksum": "80337050739c1fd129edce720f3d31ec764f06a214585ac3837cbaf0258d7ef7"
     },
     "labels/bug/index.md": {
       "title": "Issues: bug",
@@ -1902,7 +1902,7 @@
       "title": "Issues: enhancement",
       "status": null,
       "content_preview": "# Issues: enhancement\n\nIssues with label **enhancement**. Total: **13**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01408-model-lineup-improvement-add-an-accessible-glm-52-candidate-/\">Model lineup improvement: add an accessible GLM-5.2 candidate and reconsider MiniMax-M2.7 as default</a>\n      <span class=\"issues-number\">#1408</span>\n    </div>\n    \n    <div class=\"issues-labels\"><span class=\"issues-label\" style=\"background-color: #a2ee",
-      "checksum": "2d118d108c67cb88a02753518f96345cb704c2d365623ea4fb37b496d698979f"
+      "checksum": "3984e069a3438799b8c84500bfab727c42717b5345f297f53a4ad90227a45e36"
     },
     "labels/help-wanted/index.md": {
       "title": "Issues: help wanted",
@@ -1914,7 +1914,7 @@
       "title": "Issues: no-label",
       "status": null,
       "content_preview": "# Issues: no-label\n\nIssues with label **no-label**. Total: **238**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01479-gateway-allowlist-request-knyazev-ai-high-throughput-agent-i/\">Gateway allowlist request: Knyazev AI high-throughput agent infrastructure</a>\n      <span class=\"issues-number\">#1479</span>\n    </div>\n    \n    <div class=\"issues-labels\"></div>\n    <div class=\"issues-meta\">\n      <span class=\"issues-meta-item\"><a href=\"https",
-      "checksum": "0b899cbe5c4959a36d3392741981f50e355df98f4831717bd6eed29f524d9b96"
+      "checksum": "32e55a61e09894b60e016774f51d1357b883fb8b484da52092a8eeebf4c17187"
     },
     "labels/priority-high/index.md": {
       "title": "Issues: Priority: High",
@@ -1926,7 +1926,7 @@
       "title": "Issues: Priority: Low",
       "status": null,
       "content_preview": "# Issues: Priority: Low\n\nIssues with label **Priority: Low**. Total: **13**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01019-subnetctl-inference-error-handling/\">subnetctl: inference error handling</a>\n      <span class=\"issues-number\">#1019</span>\n    </div>\n    \n    <div class=\"issues-labels\"><span class=\"issues-label\" style=\"background-color: #95b500; color: #24292f; border-color: #95b500;\">Priority: Low",
-      "checksum": "85271d060c75a5e17a20f2d25758cc7b5cefa25758cb96a88c256d93bc4714ea"
+      "checksum": "bf36b141784c0d9b67f12cee457671a1d0fba0fbcd0d3683f17f8fdc0405807c"
     },
     "labels/priority-medium/index.md": {
       "title": "Issues: Priority: Medium",
