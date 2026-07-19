@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260719231740_e7c07a2f",
+    "timestamp": "2026-07-19T23:17:40.460756+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "Issues: no-label",
+      "url": "/community/issues/labels/no-label/",
+      "file": "labels/no-label/index.md"
+    },
+    "details": {
+      "content_before": "# Issues: no-label\n\nIssues with label **no-label**. Total: **239**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01480-gateway-allowlist-request-ancapex/\">Gateway allowlist request: Ancapex</a>\n      <span class=\"issues-number\">#1480</span>\n    </div>\n    \n    <div class=\"issues-labels\"></div>\n    <div class=\"issues-meta\">\n      <span class=\"issues-meta-item\"><a href=\"https://github.com/alancapex\">@alancapex</a> opened 43 minutes ago</span",
+      "content_after": "# Issues: no-label\n\nIssues with label **no-label**. Total: **239**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01480-gateway-allowlist-request-ancapex/\">Gateway allowlist request: Ancapex</a>\n      <span class=\"issues-number\">#1480</span>\n    </div>\n    \n    <div class=\"issues-labels\"></div>\n    <div class=\"issues-meta\">\n      <span class=\"issues-meta-item\"><a href=\"https://github.com/alancapex\">@alancapex</a> opened 1 hour ago</span>\n  "
+    },
+    "ai_description": "Список задач без меток обновился: время создания заявки Ancapex на внесение гейтвея в вайтлист теперь отображается как один час назад вместо 43 минут. Это стандартное обновление таймстампа, которое помогает участникам отслеживать актуальность входящих запросов в реальном времени."
+  },
+  {
     "id": "evt_20260719221444_6238a47e",
     "timestamp": "2026-07-19T22:14:44.822396+00:00",
     "section": "issues",

@@ -2,7 +2,7 @@
 title: "#908 — bls: BlsManager stores context.Background() — DKG gRPC calls have no cancellation or timeout"
 source: https://github.com/gonka-ai/gonka/issues/908
 issue_number: 908
-synced_at: 2026-07-19T22:12:56Z
+synced_at: 2026-07-19T23:15:45Z
 template: issues-main.html
 ---
 
