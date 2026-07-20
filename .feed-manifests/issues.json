@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-07-20T07:37:36.874843+00:00",
+  "snapshot_time": "2026-07-20T11:19:25.083808+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "Description",
@@ -1890,7 +1890,7 @@
       "title": "GitHub Issues — `gonka-ai/gonka`",
       "status": null,
       "content_preview": "# GitHub Issues — `gonka-ai/gonka`\n\nAll issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).\nTotal: **314** (🟢 open: **67**, 🔴 closed: **247**).\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"00915-p0-benchmark-devshards/\">[P0] Benchmark `devshards`</a>\n      <span class=\"issues-number\">#915</span>\n    </div>\n    <p class=\"issues-desc\">With the upgrade 0.2.11, we can stress test and benchmark subnets in test environments.  We shou",
-      "checksum": "545e67efc4556ab2f4bf15c51a5498adcf426056d85a9410f6e2c47612e1b596"
+      "checksum": "320a8d5979b0a2ef6dd1302be08ebbd8e6cf0ee551dd14a0ef88d2af7e298b72"
     },
     "labels/bug/index.md": {
       "title": "Issues: bug",
@@ -1902,13 +1902,13 @@
       "title": "Issues: devshards",
       "status": null,
       "content_preview": "# Issues: devshards\n\nIssues with label **devshards**. Total: **14**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../00915-p0-benchmark-devshards/\">[P0] Benchmark `devshards`</a>\n      <span class=\"issues-number\">#915</span>\n    </div>\n    \n    <div class=\"issues-labels\"><span class=\"issues-label\" style=\"background-color: #f86c7a; color: #24292f; border-color: #f86c7a;\">Priority: High</span> <span class=\"issues-l",
-      "checksum": "52ca4b3d4437bafab960db2100c7beddcb9e23061e8c6e276c4eb9cb095771b0"
+      "checksum": "c6bc073f60ed05b431384b910545e9ad4aed8e4d01a11a9d50e527233573bbd1"
     },
     "labels/enhancement/index.md": {
       "title": "Issues: enhancement",
       "status": null,
       "content_preview": "# Issues: enhancement\n\nIssues with label **enhancement**. Total: **13**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01264-logprobs-top-logprobs-conditional-stripping/\">logprobs, top_logprobs conditional stripping</a>\n      <span class=\"issues-number\">#1264</span>\n    </div>\n    \n    <div class=\"issues-labels\"><span class=\"issues-label\" style=\"background-color: #a2eeef; color: #24292f; border-color: #a2eeef;\"",
-      "checksum": "7d864be05733f4642aea627286f08e73ccb5b14135d7ea2681fa4ddfbe7480f2"
+      "checksum": "5ae9d2087942d0f71eff8ff60e67091dafb0d3306c1c2649ed07f455a155e029"
     },
     "labels/help-wanted/index.md": {
       "title": "Issues: help wanted",
@@ -1920,13 +1920,13 @@
       "title": "Issues: no-label",
       "status": null,
       "content_preview": "# Issues: no-label\n\nIssues with label **no-label**. Total: **239**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01167-devshards-optimizations-for-v0213-db-usage/\">`devshards` Optimizations for v0.2.13 db usage</a>\n      <span class=\"issues-number\">#1167</span>\n    </div>\n    \n    <div class=\"issues-labels\"></div>\n    <div class=\"issues-meta\">\n      <span class=\"issues-meta-item\"><a href=\"https://github.com/ak",
-      "checksum": "a222546e98369d99350e4a60e4a3b18c4054c67d25de6fdb7aa2a1ccb32779ab"
+      "checksum": "faca0134aac9e9dca630966072d3afe89baa64bba58cb5427e64dfec465c6987"
     },
     "labels/priority-high/index.md": {
       "title": "Issues: Priority: High",
       "status": null,
       "content_preview": "# Issues: Priority: High\n\nIssues with label **Priority: High**. Total: **29**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../00915-p0-benchmark-devshards/\">[P0] Benchmark `devshards`</a>\n      <span class=\"issues-number\">#915</span>\n    </div>\n    \n    <div class=\"issues-labels\"><span class=\"issues-label\" style=\"background-color: #f86c7a; color: #24292f; border-color: #f86c7a;\">Priority: High</span> <span class",
-      "checksum": "b965316d5266dddba1de18f7b851e142f2c6ec3766825cb75c3bebff617c14d5"
+      "checksum": "696ff48a7d7202c259a4031b6d25f82f797446d66a1eaf7475fdbfe39a4539d5"
     },
     "labels/priority-low/index.md": {
       "title": "Issues: Priority: Low",
@@ -1938,7 +1938,7 @@
       "title": "Issues: Priority: Medium",
       "status": null,
       "content_preview": "# Issues: Priority: Medium\n\nIssues with label **Priority: Medium**. Total: **5**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01222-p1-int-overflow/\">[P1] Int overflow</a>\n      <span class=\"issues-number\">#1222</span>\n    </div>\n    \n    <div class=\"issues-labels\"><span class=\"issues-label\" style=\"background-color: #12a6e8; color: #24292f; border-color: #12a6e8;\">Priority: Medium</span></div>\n    <div class=\"issues-meta\">\n      <span cla",
-      "checksum": "01f1e8465a3d61011467dd29de087b8f4857019ef476eff75d2a5a9b070147f0"
+      "checksum": "f3a5b660d3fd109476976d1199640095ade15052ecbdf778e555243d2e1badce"
     },
     "labels/protocol/index.md": {
       "title": "Issues: protocol",
@@ -1956,7 +1956,7 @@
       "title": "Issues: up-for-grabs",
       "status": null,
       "content_preview": "# Issues: up-for-grabs\n\nIssues with label **up-for-grabs**. Total: **15**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01199-reproducible-sampling-for-inference-validation/\">Reproducible sampling for inference validation</a>\n      <span class=\"issues-number\">#1199</span>\n    </div>\n    \n    <div class=\"issues-labels\"><span class=\"issues-label\" style=\"background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;\">up-for-grabs</span></d",
-      "checksum": "5b1d9b40b9d16f42dad4541a93b148b2033237ec962f5f3323734ea24261b584"
+      "checksum": "a6549155ea68bf02498b954da923bc671ee177111dcdfe81e571a0959662a273"
     }
   }
 }
