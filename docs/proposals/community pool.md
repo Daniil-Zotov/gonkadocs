@@ -50,7 +50,7 @@ curl -s https://node3.gonka.ai/chain-api/cosmos/distribution/v1beta1/community_p
 
 <!-- SALE_BALANCE_START -->
 <p style="margin:0.2rem 0">
-<strong>Current balance:</strong> <span style="color:grey;font-size:0.95rem;font-weight:600">17,500,000 GNK (~$10,500,000 USDT)</span> · <span style="color:var(--md-accent-fg-color,#5468ff);font-size:0.95rem;font-weight:600">$814,325 USDT</span>
+<strong>Current balance:</strong> <span style="color:grey;font-size:0.95rem;font-weight:600">17,500,000 GNK</span> <span style="color:var(--md-accent-fg-color,#5468ff);font-size:0.95rem;font-weight:600">(~$10,500,000 USDT)</span> · <span style="color:var(--md-accent-fg-color,#5468ff);font-size:0.95rem;font-weight:600">$814,325 USDT</span>
 </p>
 <!-- SALE_BALANCE_END -->
 
@@ -141,7 +141,7 @@ All **passed** governance proposals that received funding from the Community Poo
 | [#14](https://gonkadocs.com/proposals/proposals/2025-q4/14/) | 2025-11-27 | Sale GNK from Community Fund | Community Pool | 20,000,000 | — |
 | [PR #919](https://github.com/gonka-ai/gonka/pull/919) | 2026-03 | v0.2.11 bounty distribution | Upgrade Handler (Gov Module) | 150,750 | — |
 | [PR #1446](https://github.com/gonka-ai/gonka/pull/1446) | 2026-07 | v0.2.14 bounty distribution | Upgrade Handler (Community Sale) | — | $45,250 |
-| [PR #1113](https://github.com/gonka-ai/gonka/pull/1113) | 2026-04 | v0.2.12 bounty distribution | Upgrade Handler (Community Sale) | — | $35,200 |
+| [PR #1113](https://github.com/gonka-ai/gonka/pull/1113) | 2026-04 | v0.2.12 bounty distribution | Upgrade Handler (Community Sale) | — | $36,075 |
 | [PR #497](https://github.com/gonka-ai/gonka/pull/497) | 2026-01 | v0.2.6 bounty distribution | Upgrade Handler (Gov Module) | 30,000 | — |
 | [PR #733](https://github.com/gonka-ai/gonka/pull/733) | 2026-02 | v0.2.10 bounty distribution | Upgrade Handler (Gov Module) | 23,000 | — |
 | [PR #1168](https://github.com/gonka-ai/gonka/pull/1168) | 2026-05 | v0.2.13 bounty distribution | Upgrade Handler (Community Sale) | — | $18,000 |
@@ -157,8 +157,8 @@ All **passed** governance proposals that received funding from the Community Poo
 | Most recent | #82 — 80,000 GNK + $88,000 USDT |
 | **Upgrade distributions** | **6** |
 | Total GNK distributed (upgrades) | 203,750 GNK |
-| Total USDT distributed (upgrades) | $98,450 |
-| From Community Sale contract | $98,450 USDT |
+| Total USDT distributed (upgrades) | $99,325 |
+| From Community Sale contract | $99,325 USDT |
 | From Gov Module | 203,750 GNK |
 <!-- SPENT_HISTORY_END -->
 
@@ -175,7 +175,7 @@ USDT bounties are paid from the **Community Sale contract** via `withdraw_ibc`. 
 | :------ | :- | :----- | :--- | :--------- | --------: | --------: | :----
 | v0.2.14 | [PR #1446](https://github.com/gonka-ai/gonka/pull/1446) | Open | 2026-07 | 16 recipients | — | $45,250 | Community Sale |
 | v0.2.13 | [PR #1168](https://github.com/gonka-ai/gonka/pull/1168) | Merged | 2026-05 | 2 recipients | — | $18,000 | Community Sale |
-| v0.2.12 | [PR #1113](https://github.com/gonka-ai/gonka/pull/1113) | Merged | 2026-04 | 13 recipients | — | $35,200 | Community Sale |
+| v0.2.12 | [PR #1113](https://github.com/gonka-ai/gonka/pull/1113) | Merged | 2026-04 | 15 recipients | — | $36,075 | Community Sale |
 | v0.2.11 | [PR #919](https://github.com/gonka-ai/gonka/pull/919) | Merged | 2026-03 | 26 recipients | 150,750 | — | Gov Module |
 | v0.2.10 | [PR #733](https://github.com/gonka-ai/gonka/pull/733) | Merged | 2026-02 | 11 recipients | 23,000 | — | Gov Module |
 | v0.2.6 | [PR #497](https://github.com/gonka-ai/gonka/pull/497) | Merged | 2026-01 | 2 recipients | 30,000 | — | Gov Module |
@@ -233,7 +233,9 @@ USDT bounties are paid from the **Community Sale contract** via `withdraw_ibc`. 
 | — | [`gonka1c34w3r45f0uftjckt2yy4k22vnc3zqjnp0umyz`](https://gonka.gg/address/gonka1c34w3r45f0uftjckt2yy4k22vnc3zqjnp0umyz) | $500 USDT | Free inference vulnerability report |
 | — | [`gonka139f7x4gur2yuyty64dkqxep8jk3d7ku8ayjaqg`](https://gonka.gg/address/gonka139f7x4gur2yuyty64dkqxep8jk3d7ku8ayjaqg) | $200 USDT | Chat completions fix — Issue #499 |
 | @blizko | [`gonka12jaf7m4eysyqt32mrgarum6z96vt55tckvcleq`](https://gonka.gg/address/gonka12jaf7m4eysyqt32mrgarum6z96vt55tckvcleq) | $1,000 USDT | Review of upgrade v0.2.11 |
-| **Total** | | **$35,200 USDT** | |
+| @ouicate | [`gonka1f0elpwnx7ezytdlck35003nz6qk8kzvurvnj4a`](https://gonka.gg/address/gonka1f0elpwnx7ezytdlck35003nz6qk8kzvurvnj4a) | $500 USDT | PR #826: partial claim payment failure — permanent reward loss |
+| @ouicate | [`gonka1f0elpwnx7ezytdlck35003nz6qk8kzvurvnj4a`](https://gonka.gg/address/gonka1f0elpwnx7ezytdlck35003nz6qk8kzvurvnj4a) | $375 USDT | PR #826: underfunded work payout — settle amount not preserved |
+| **Total** | | **$36,075 USDT** | |
 
 
 ### v0.2.11 — [PR #919](https://github.com/gonka-ai/gonka/pull/919) (Merged)

@@ -112,18 +112,32 @@ def _extract_quorum(content: str) -> bool | None:
 # ── metadata extraction ────────────────────────────────────────
 
 def _is_detail_page(rel_path: Path, section: str) -> bool:
-    """Check if the file is a detail page (not an overview/index).
+    """Check if the file is a detail page (not an overview/index/label page).
 
     Proposals: 2026-q3/85/index.md → detail (3+ parts)
                index.md, 2026-q3/index.md → overview (1-2 parts)
     Preproposals: {uuid}/index.md → detail (2+ parts)
                   index.md → overview (1 part)
-    Other sections: all files are detail pages.
+    Issues: 01466-something.md → detail
+            index.md, labels/no-label/index.md → skip (overview/label page)
+    Discussions: proposals/1464-something.md → detail
+                 index.md, proposals/index.md → skip (overview/category page)
+    Gonka docs: network-updates.md → detail
+                index.md → skip (overview page)
     """
     parts = rel_path.parts
+    # Skip index pages for all sections
+    if parts[-1] == 'index.md':
+        return False
     if section == 'proposals':
         return len(parts) >= 3
     elif section == 'preproposals':
+        return len(parts) >= 2
+    elif section == 'issues':
+        # Only track individual issue files (not label overviews in subdirs)
+        return len(parts) == 1
+    elif section == 'discussions':
+        # Only track individual discussion files (not category/index pages)
         return len(parts) >= 2
     return True
 
@@ -233,7 +247,7 @@ AI_SYSTEM_PROMPT = """Ты — редактор ленты событий соо
 Правила:
 - Максимум 2–3 предложения
 - Дружелюбный, но профессиональный тон
-- Только обычный текст (без markdown, без **, без ##)
+- Только обычный текст (без markdown, без **, без ##, без HTML тегов)
 - Внимательно прочитай содержимое ДО и ПОСЛЕ изменений, чтобы понять суть
 - Расскажи, что именно изменилось и почему это важно для сообщества
 - Если указаны статусы до/после (например, голосование → принят), объясни значение
@@ -314,6 +328,13 @@ def enrich_with_ai(events: list, section: str):
             resp.raise_for_status()
             data = resp.json()
             ai_text = data['choices'][0]['message']['content'].strip()
+            ai_text = re.sub(r'<think>.*?</think>', '', ai_text, flags=re.DOTALL | re.IGNORECASE).strip()
+            ai_text = re.sub(r'<[^>]+>', '', ai_text).strip()
+            ai_text = re.sub(
+                r'\[@(\w+(?:-\w+)*)\]\(((?:https?://)?[^\s)]+)\)',
+                r'<a href="\2">@\1</a>',
+                ai_text,
+            )
             event['ai_description'] = ai_text
             print(f'  AI: [{event["action"]}] {ai_text[:100]}...')
         except Exception as e:

@@ -145,7 +145,13 @@
         }
 
         if (hasAI) {
-          html += '<div class="af-event-ai">' + escHtml(e.ai_description) + '</div>';
+          var cleanAI = e.ai_description
+            .replace(/<think>[\s\S]*?<\/think>/gi, '')
+            .replace(/<[^>]+>/g, '')
+            .trim();
+          if (cleanAI) {
+            html += '<div class="af-event-ai">' + cleanAI + '</div>';
+          }
         }
 
         html += '<div class="af-event-time">' + fmtTime(e.timestamp) + '</div>';
