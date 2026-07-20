@@ -1,18 +1,12 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-07-20T11:54:14.602467+00:00",
+  "snapshot_time": "2026-07-20T14:29:14.850261+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "Welcome to Gonka Discussions 👋",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #805](https://github.com/gonka-ai/gonka/discussions/805) every hour. \n\n# Welcome to Gonka Discussions 👋\n\n**Автор:** [@admin](https://github.com/admin) · **Категория:** :mega: Announcements · **Создано:** 2026-02-25 22:49 UTC · \n\n---\n\n## 📝 Описание\n\nThis is the space for open conversation about the Gonka protocol, ecosystem, and community. Ask questions, share what you've built, propose improvements, and gather feedback from the community.\n## Sections\n\n- Proposals — protocol improvements, infrastructure proposals, and open problems. See the pinned welcome post in Proposals https://github.com/gonka-ai/gonka/discussions/795 \n- Q&A — one more place where you can  ask technical or ecosystem questions and get answers from the community\n- Show and Tell — showca",
       "checksum": "6dbf6f48c1006711009a8a0465c0f329ea990af11a2196ad1adffe08c2b540f2"
-    },
-    "announcements/index.md": {
-      "title": ":mega: Announcements",
-      "status": null,
-      "content_preview": "# :mega: Announcements\n\nДискуссии в категории **:mega: Announcements**. Всего: **1**. [← ко всем категориям](../index.md)\n\n| # | Заголовок | Автор | Обновлено |\n|---:|---|---|---|\n| [805](0805-welcome-to-gonka-discussions.md) | [Welcome to Gonka Discussions 👋](0805-welcome-to-gonka-discussions.md) | [@admin](https://github.com/admin) | 2026-02-25 |",
-      "checksum": "c2811d36516d26dc9e1058a695c06af55bcc690d06f823c717fe63a2befde785"
     },
     "general/0670-kimi-k25.md": {
       "title": "Kimi K2.5",
@@ -43,18 +37,6 @@
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1304](https://github.com/gonka-ai/gonka/discussions/1304) every hour. \n\n# APS for delegated wallets and agent accounts (Track 2, Project 3)\n\n**Автор:** [@aeoess](https://github.com/aeoess) · **Категория:** :speech_balloon: General · **Создано:** 2026-06-04 01:38 UTC · \n\n---\n\n## 📝 Описание\n\nTrack 2, Project 3 is close to what APS was built for: an agent acting within scoped authority, without exposing the owner's main key and without manual approval on every call. That authorization and audit layer is what APS implements today, open and Apache-2.0, on npm.\n\nThe primitives map to the project directly:\n\n- **Predefined limits without exposing the main key:** the agent acts under a delegated key with a scoped grant. The owner's main key never leaves them. Li",
       "checksum": "eae8c5523e5ba93a1843ec2ca37859187a00031bef48111c5f81df9cda46adee"
-    },
-    "general/index.md": {
-      "title": ":speech_balloon: General",
-      "status": null,
-      "content_preview": "# :speech_balloon: General\n\nДискуссии в категории **:speech_balloon: General**. Всего: **5**. [← ко всем категориям](../index.md)\n\n| # | Заголовок | Автор | Обновлено |\n|---:|---|---|---|\n| [1304](1304-aps-for-delegated-wallets-and-agent-accounts-track-2-project.md) | [APS for delegated wallets and agent accounts (Track 2, Project 3)](1304-aps-for-delegated-wallets-and-agent-accounts-track-2-project.md) | [@aeoess](https://github.com/aeoess) | 2026-06-04 |\n| [944](0944-gonkas-support-of-new-modalities-besides-text.md) | [Gonka's support of new modalities besides text](0944-gonkas-support-of-new-modalities-besides-text.md) | [@tamazgadaev](https://github.com/tamazgadaev) | 2026-06-15 |\n| [817](0817-network-reliability-and-performance-coordination-slow-nodes-.md) | [Network reliability and p",
-      "checksum": "cb37b61f020b4590cce247c1177a2c0717d9c803da23150ed2a8a6b114a991a2"
-    },
-    "index.md": {
-      "title": "GitHub Discussions — `gonka-ai/gonka`",
-      "status": null,
-      "content_preview": "# GitHub Discussions — `gonka-ai/gonka`\n\nСрез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **78**. ## 📂 Категории\n\n| Категория | Дискуссий |\n|---|---:|\n| [:mega: Announcements](announcements/index.md) | 1 |\n| [:speech_balloon: General](general/index.md) | 5 |\n| [:bulb: Proposals](proposals/index.md) | 46 |\n| [:pray: Q&A](q-a/index.md) | 3 |\n| [:raised_hands: Show and Tell](show-and-tell/index.md) | 23 |\n\n## 🕒 Последние обновлённые\n\n| # | Заголовок | Категория | Автор | Обновлено |\n|---:|---|---|---|---|\n| [1476](show-and-tell/1476-unposted.md) | [unposted](show-and-tell/1476-unposted.md) | :raised_hands: Show and Tell | [@nsvdev](https://github.com/nsvdev) | 2026-07-18 |\n| [1477](show-and-tell/1477-gonka-labs-monthly-report-no1.md) ",
-      "checksum": "b81c0e3e499c4931b1f740186143e28a67eace784d239ad1dc108472c4d7f285"
     },
     "proposals/0795-welcome-to-proposals.md": {
       "title": "Welcome to Proposals 👋",
@@ -332,12 +314,6 @@
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1464](https://github.com/gonka-ai/gonka/discussions/1464) every hour. \n\n# Dev Team Funding\n\n**Автор:** [@gmorgachev](https://github.com/gmorgachev) · **Категория:** :bulb: Proposals · **Создано:** 2026-07-17 01:38 UTC · \n\n---\n\n## 📝 Описание\n\nHello everyone! I am Gleb Morgachev, one of Gonka's co-creators.\n\nIn the next couple of weeks, I plan to submit a proposal requesting 1.5 million USDT from the community pool. The funding would support an independent engineering team working on core protocol development aligned with the community roadmap. It would cover the team and expenses directly related to its work, not servers or GPU infrastructure for mining.\n\n## Scope\n\nThis independent team would be a small group of top-tier engineers working on Gonka's core",
       "checksum": "cf63555c9a0a013a82863b12121fffb3946a498d6413a62486cef88da2456439"
     },
-    "proposals/index.md": {
-      "title": ":bulb: Proposals",
-      "status": null,
-      "content_preview": "# :bulb: Proposals\n\nДискуссии в категории **:bulb: Proposals**. Всего: **46**. [← ко всем категориям](../index.md)\n\n| # | Заголовок | Автор | Обновлено |\n|---:|---|---|---|\n| [1464](1464-dev-team-funding.md) | [Dev Team Funding](1464-dev-team-funding.md) | [@gmorgachev](https://github.com/gmorgachev) | 2026-07-17 |\n| [1445](1445-the-missing-first-mile-onboarding-gonka-from-a-newcomers-per.md) | [The missing first mile: onboarding Gonka from a newcomer’s perspective](1445-the-missing-first-mile-onboarding-gonka-from-a-newcomers-per.md) | [@julb1992](https://github.com/julb1992) | 2026-07-13 |\n| [1404](1404-add-a-lower-barrier-glm-52-option-and-consider-deepseek-v4-f.md) | [Add a lower-barrier GLM-5.2 option and consider DeepSeek-V4-Flash as the default model](1404-add-a-lower-barrier-glm-52",
-      "checksum": "0afd0e2f59d035c6844271bfd94945d8b4318615681948aa54cf068016c69933"
-    },
     "q-a/0796-are-there-plans-to-add-prompt-level-confidentiality-for-host.md": {
       "title": "Are there plans to add prompt-level confidentiality for hosts?",
       "status": null,
@@ -355,12 +331,6 @@
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1354](https://github.com/gonka-ai/gonka/discussions/1354) every hour. \n\n# I would like to ask if the developers intentionally pushed inference data to the main chain, causing some nodes to lose their epoch rewards.\n\n**Автор:** [@Llgmhsl](https://github.com/Llgmhsl) · **Категория:** :pray: Q&A · **Создано:** 2026-06-21 15:56 UTC · \n\n---\n\n## 📝 Описание\n\n<img width=\"1904\" height=\"976\" alt=\"image\" src=\"https://github.com/user-attachments/assets/7aafce34-b1d1-4c93-934a-b39c5d4ef6c3\" />\n<img width=\"2003\" height=\"1160\" alt=\"image\" src=\"https://github.com/user-attachments/assets/2973da3a-ac0a-42c3-a760-126e93c5f51d\" />\nMy node's reasoning performance on the main chain has a very low number of inference attempts but a 30% miss rate, while on the development subc",
       "checksum": "7db2e08cc8ab1dd369b7fdb79d4c806ed3081cc07edfbbe64eb785513755f277"
-    },
-    "q-a/index.md": {
-      "title": ":pray: Q&A",
-      "status": null,
-      "content_preview": "# :pray: Q&A\n\nДискуссии в категории **:pray: Q&A**. Всего: **3**. [← ко всем категориям](../index.md)\n\n| # | Заголовок | Автор | Обновлено |\n|---:|---|---|---|\n| [1354](1354-i-would-like-to-ask-if-the-developers-intentionally-pushed-i.md) | [I would like to ask if the developers intentionally pushed inference data to the main chain, causing some nodes to lose their epoch rewards.](1354-i-would-like-to-ask-if-the-developers-intentionally-pushed-i.md) | [@Llgmhsl](https://github.com/Llgmhsl) | 2026-06-21 |\n| [972](0972-best-practices-for-building-ai-agent-systems-in-2026.md) | [Best Practices for Building AI Agent Systems in 2026](0972-best-practices-for-building-ai-agent-systems-in-2026.md) | [@jingchang0623-crypto](https://github.com/jingchang0623-crypto) | 2026-03-29 |\n| [796](0796-are-th",
-      "checksum": "41c973aa6a76b897e93fa4bb1326aa40aacdd1143602a7f8f6628825b8acc3cd"
     },
     "show-and-tell/0811-openclaw-gonka-ai.md": {
       "title": "🦞 OpenClaw + Gonka AI",
@@ -499,12 +469,6 @@
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1477](https://github.com/gonka-ai/gonka/discussions/1477) every hour. \n\n# Gonka Labs - Monthly Report No.1\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-07-18 18:31 UTC · \n\n---\n\n## 📝 Описание\n\n# \n\n![](https://resource.inkdown.me/assets/11g/tk4ZX4b2sHaSu/ZarQaYSqnMMS69H.png)\n\nHey! Gonka Labs here.\n\nOn June 12th the community passed [Proposal #74](https://gonka.gg/network/proposals/74). That vote funded the next stretch of work - infra, ops, and shipping products for the ecosystem.\n\nThis is the first public progress report we promised in the proposal (monthly updates on GitHub Discussions). Short version of what landed so far:\n\n1. **OpenBroker** - new product, live\n2. **Pulse** - n",
       "checksum": "8546a6fe7f6d0aa8fd2e389c93d8b3a3aa39a5d9a9cef4816ea305a96fb3f7cf"
-    },
-    "show-and-tell/index.md": {
-      "title": ":raised_hands: Show and Tell",
-      "status": null,
-      "content_preview": "# :raised_hands: Show and Tell\n\nДискуссии в категории **:raised_hands: Show and Tell**. Всего: **23**. [← ко всем категориям](../index.md)\n\n| # | Заголовок | Автор | Обновлено |\n|---:|---|---|---|\n| [1477](1477-gonka-labs-monthly-report-no1.md) | [Gonka Labs - Monthly Report No.1](1477-gonka-labs-monthly-report-no1.md) | [@gonkalabs](https://github.com/gonkalabs) | 2026-07-18 |\n| [1476](1476-unposted.md) | [unposted](1476-unposted.md) | [@nsvdev](https://github.com/nsvdev) | 2026-07-18 |\n| [1390](1390-how-to-return-funds-to-the-community-pool-ibc-usdt.md) | [How to return funds to the Community Pool (IBC USDT)](1390-how-to-return-funds-to-the-community-pool-ibc-usdt.md) | [@paranjko](https://github.com/paranjko) | 2026-07-03 |\n| [1374](1374-gonka-ai-dune-dashboard.md) | [Gonka AI Dune Dash",
-      "checksum": "ba6cbf2d28ac4a90ce1134b2966d94b9360df160e53344fc3e37e9cb988caafc"
     }
   }
 }
