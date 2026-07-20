@@ -2,7 +2,7 @@
 title: "#1470 — Security: Residual SSRF on InferenceUrl — DNS/rebind + validator redirect (incomplete fix after #505/#534)"
 source: https://github.com/gonka-ai/gonka/issues/1470
 issue_number: 1470
-synced_at: 2026-07-19T23:14:57Z
+synced_at: 2026-07-20T04:09:24Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/Aphelios01-sdk">@Aphelios01-sdk</a> opened 2026-07-18 03:05 UTC</span>
-    <span class="issues-meta-item">1 comment</span>
-    <span class="issues-meta-item">Updated 2026-07-18 03:14 UTC</span>
+    <span class="issues-meta-item">2 comments</span>
+    <span class="issues-meta-item">Updated 2026-07-20 02:30 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -255,7 +255,7 @@ Runnable replica (research package): registration gate replica + e2e fetch again
 
 ---
 
-## 💬 Comments (1)
+## 💬 Comments (2)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -359,6 +359,16 @@ Even if registration is later closed, <strong>rebinding</strong> still works for
 <li>Regression tests: hostname→127.0.0.1, hostname→169.254.169.254, public→302 private, IPv4-mapped IPv6.</li>
 </ol>
 <p>Happy to provide a draft patch or HackerOne-formatted write-up if public issues are not the preferred channel.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/Ryanchen911">@Ryanchen911</a></span>
+    <span class="issues-meta-item">commented 2026-07-20 02:30 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>I'd like to pick this up. The residual-SSRF analysis matches what I see in the code — the real fix has to be at dial-time (registration-time DNS resolution alone can't stop rebinding), via a shared SSRF-safe HTTP client applied to all participant-<code>InferenceUrl</code> sinks, plus disabling redirects on the payload retrieval client.</p>
+<p>@tcharchian could you assign this to me?</p>
   </div>
 </div>
 

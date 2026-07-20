@@ -1,5 +1,69 @@
 [
   {
+    "id": "evt_20260720041213_f3c63a82",
+    "timestamp": "2026-07-20T04:12:13.316824+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1470 — Security: Residual SSRF on InferenceUrl — DNS/rebind + validator redirect (incomplete fix after #505/#534)",
+      "url": "/community/issues/01470-security-residual-ssrf-on-inferenceurl-dnsrebind-validator-r/",
+      "file": "01470-security-residual-ssrf-on-inferenceurl-dnsrebind-validator-r.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Security: Residual SSRF on InferenceUrl — DNS/rebind + validator redirect (incomplete fix after #505/#534)\n    <span class=\"issues-number\">#1470</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Aphelios01-sdk\">@Aphelios01-sdk</a> opened 2026-07-18 03:05 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div cla",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Security: Residual SSRF on InferenceUrl — DNS/rebind + validator redirect (incomplete fix after #505/#534)\n    <span class=\"issues-number\">#1470</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Aphelios01-sdk\">@Aphelios01-sdk</a> opened 2026-07-18 03:05 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div cl"
+    },
+    "ai_description": "В задаче по безопасности номер 1470, где обсуждается остаточная уязвимость SSRF в InferenceUrl после неполного исправления в #505 и #534, появился новый комментарий. Следим за развитием дискуссии, так как это важно для защиты сети валидаторов и стабильности инференса в Gonka."
+  },
+  {
+    "id": "evt_20260720041213_60af7a83",
+    "timestamp": "2026-07-20T04:12:13.316881+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1475 — MiniMax-M2.7 tool messages: gateway rejects standard OpenAI string content instead of normalizing it",
+      "url": "/community/issues/01475-minimax-m27-tool-messages-gateway-rejects-standard-openai-st/",
+      "file": "01475-minimax-m27-tool-messages-gateway-rejects-standard-openai-st.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    MiniMax-M2.7 tool messages: gateway rejects standard OpenAI string content instead of normalizing it\n    <span class=\"issues-number\">#1475</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Ryanchen911\">@Ryanchen911</a> opened 2026-07-18 15:51 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    MiniMax-M2.7 tool messages: gateway rejects standard OpenAI string content instead of normalizing it\n    <span class=\"issues-number\">#1475</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Ryanchen911\">@Ryanchen911</a> opened 2026-07-18 15:51 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>"
+    },
+    "ai_description": "Issue #1475 закрыт: исправлен баг, из-за которого gateway отклонял стандартный строковый контент в tool messages для MiniMax-M2.7 вместо автоматической нормализации. Теперь сеть корректно обрабатывает такие сообщения, что улучшает совместимость с OpenAI-форматом."
+  },
+  {
+    "id": "evt_20260720041213_02946e3c",
+    "timestamp": "2026-07-20T04:12:13.316902+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "GitHub Issues — `gonka-ai/gonka`",
+      "url": "/community/issues/",
+      "file": "index.md"
+    },
+    "details": {
+      "content_before": "# GitHub Issues — `gonka-ai/gonka`\n\nAll issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).\nTotal: **314** (🟢 open: **72**, 🔴 closed: **242**).\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"01480-gateway-allowlist-request-ancapex/\">Gateway allowlist request: Ancapex</a>\n      <span class=\"issues-number\">#1480</span>\n    </div>\n    <p class=\"issues-desc\">**Operator**  Ancapex — mining platform for Gonka (https://ancapex.ai/) Contact: <GitHub @alancapex / al@a",
+      "content_after": "# GitHub Issues — `gonka-ai/gonka`\n\nAll issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).\nTotal: **314** (🟢 open: **71**, 🔴 closed: **243**).\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"01470-security-residual-ssrf-on-inferenceurl-dnsrebind-validator-r/\">Security: Residual SSRF on InferenceUrl — DNS/rebind + validator redirect (incomplete fix after #505/#534)</a>\n      <span class=\"issues-number\">#1470</span>\n    </div>\n    <p class=\"issues-desc\">## Summ"
+    },
+    "ai_description": "В репозитории Gonka закрыта заявка на включение оператора Ancapex в список разрешенных гейтвеев, поэтому счетчик открытых задач снизился до 71, а закрытых вырос до 243. Теперь в топе обсуждений находится задача по безопасности остаточных SSRF-уязвимостей в InferenceUrl."
+  },
+  {
+    "id": "evt_20260720041213_e2e83e6f",
+    "timestamp": "2026-07-20T04:12:13.316927+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "Issues: no-label",
+      "url": "/community/issues/labels/no-label/",
+      "file": "labels/no-label/index.md"
+    },
+    "details": {
+      "content_before": "# Issues: no-label\n\nIssues with label **no-label**. Total: **239**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01480-gateway-allowlist-request-ancapex/\">Gateway allowlist request: Ancapex</a>\n      <span class=\"issues-number\">#1480</span>\n    </div>\n    \n    <div class=\"issues-labels\"></div>\n    <div class=\"issues-meta\">\n      <span class=\"issues-meta-item\"><a href=\"https://github.com/alancapex\">@alancapex</a> opened 1 hour ago</span>\n  ",
+      "content_after": "# Issues: no-label\n\nIssues with label **no-label**. Total: **239**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01470-security-residual-ssrf-on-inferenceurl-dnsrebind-validator-r/\">Security: Residual SSRF on InferenceUrl — DNS/rebind + validator redirect (incomplete fix after #505/#534)</a>\n      <span class=\"issues-number\">#1470</span>\n    </div>\n    \n    <div class=\"issues-labels\"></div>\n    <div class=\"issues-meta\">\n      <span class=\""
+    },
+    "ai_description": "В списке задач без меток появился новый приоритетный элемент: теперь на первом месте issue о критической уязвимости SSRF в InferenceUrl, связанной с DNS-ребайндом и редиректом валидатора, а не предыдущая заявка на добавление гейта в вайтлист. Это напоминание команде, что фикс после #505 и #534 остался неполным, и проблема безопасности требует доработки."
+  },
+  {
     "id": "evt_20260719231740_e7c07a2f",
     "timestamp": "2026-07-19T23:17:40.460756+00:00",
     "section": "issues",

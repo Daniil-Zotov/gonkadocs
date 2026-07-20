@@ -2,7 +2,7 @@
 title: "#412 — [P2] MLNode Token-Based Authentication and FQDN Support"
 source: https://github.com/gonka-ai/gonka/issues/412
 issue_number: 412
-synced_at: 2026-07-19T23:15:14Z
+synced_at: 2026-07-20T04:09:45Z
 template: issues-main.html
 ---
 
