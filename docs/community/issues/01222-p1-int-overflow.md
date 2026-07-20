@@ -2,7 +2,7 @@
 title: "#1222 — [P1] Int overflow"
 source: https://github.com/gonka-ai/gonka/issues/1222
 issue_number: 1222
-synced_at: 2026-07-20T22:16:46Z
+synced_at: 2026-07-20T23:26:56Z
 template: issues-main.html
 ---
 
@@ -15,10 +15,10 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-05-21 22:30 UTC</span>
-    <span class="issues-meta-item">4 comments</span>
-    <span class="issues-meta-item">Updated 2026-07-08 09:54 UTC</span>
+    <span class="issues-meta-item">5 comments</span>
+    <span class="issues-meta-item">Updated 2026-07-20 22:20 UTC</span>
   </div>
-  <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #12a6e8; color: #24292f; border-color: #12a6e8;">Priority: Medium</span></div>
+  <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #12a6e8; color: #24292f; border-color: #12a6e8;">Priority: Medium</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">nice-to-have</span></div>
 </div>
 
 <div class="issues-content" markdown="1">
@@ -27,7 +27,7 @@ The goal of this is to have in place after this a standard way of handling possi
 
 ---
 
-## 💬 Comments (4)
+## 💬 Comments (5)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -88,6 +88,16 @@ The goal of this is to have in place after this a standard way of handling possi
   - <code>TestApplyProportionalSupplyCapReduction_OverflowGuard</code> feeds <code>RewardCoins = MaxUint64</code> for two participants and asserts the guard fires, <code>total Distributed</code> saturates
   at <code>MaxUint64</code>, and remaining rewards are zeroed. The log shows the <code>Error</code>-level guard trigger.  Merge order — agreed. If #1379 lands first, I'll rebase #1017 and align the <code>CalculateParticipantBitcoinRewards</code> fallback path with the <code>MaxInt64</code> cap introduced there.</p>
 <p>I'll keep waiting maintainers reaction and proto lifecycle move.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span class="issues-meta-item">commented 2026-07-20 22:20 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>First, prepare a detailed proposal outlining what is planned, why it should be done, the expected outcomes, and the rationale behind the proposed approach. Share the proposal with the community and obtain validation before proceeding with implementation.</p>
+<p>@everyone @Mayveskii @olegsuhoparov </p>
   </div>
 </div>
 
