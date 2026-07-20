@@ -2,7 +2,7 @@
 title: "#578 — Remove work based rewards and top miner logic"
 source: https://github.com/gonka-ai/gonka/issues/578
 issue_number: 578
-synced_at: 2026-07-20T15:25:01Z
+synced_at: 2026-07-20T16:51:39Z
 template: issues-main.html
 ---
 
