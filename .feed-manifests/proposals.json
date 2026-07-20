@@ -1,6 +1,6 @@
 {
   "section": "proposals",
-  "snapshot_time": "2026-07-20T12:00:42.045676+00:00",
+  "snapshot_time": "2026-07-20T12:10:29.008000+00:00",
   "files": {
     "2025-q3/1/full-proposal.md": {
       "title": "Adjust Params According to real block length",
@@ -10,14 +10,6 @@
       "quorum_met": null,
       "checksum": "8e4a47a77fb7495d3db7d6bef7843d0ccee63b9a935c1f6ff966d6e826183b1d"
     },
-    "2025-q3/1/index.md": {
-      "title": "#1 – Correct Epoch Length",
-      "status": "passed",
-      "content_preview": "# #1 – Correct Epoch Length\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `1`\n\n**Type:** Update Params\n\n**Submit:** 2025-09-05 21:51 UTC\n\n**Voting:** 2025-09-05 21:51 UTC → 2025-09-07 21:51 UTC\n\n**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target=\"_blank\"}\n\n**Metadata:** [https://github.com/gonka-ai/gonka/blob/9f34f2c3c8203d8ae269934facaa79069f4d8012/proposals/epoch-length/README.md](https://github.com/gonka-ai/gonka/blob/9f34f2c3c8203d8ae269934facaa79069f4d8012/proposals/epoch-length/README.md)\n\n[View on gonka.gg](https://gonka.gg/network/proposals/1){:target=\"_blank\"}\n\n</div>\n\nProposal updates epoch_length and restrictions length",
-      "funding": "",
-      "quorum_met": null,
-      "checksum": "6e08b7774ad81034c61207b492852adae779ad7466b764986ea1f7f1f96a486f"
-    },
     "2025-q3/2/full-proposal.md": {
       "title": "New supported models",
       "status": null,
@@ -25,14 +17,6 @@
       "funding": "",
       "quorum_met": null,
       "checksum": "798c98f1d0bf27bed48d6a7f5eccdba0f9e7fa01d5b0835342ffa9b8b5003e7e"
-    },
-    "2025-q3/2/index.md": {
-      "title": "#2 – Proposal introducing new Qwen3 models",
-      "status": "passed",
-      "content_preview": "# #2 – Proposal introducing new Qwen3 models\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `2`\n\n**Type:** Register Model\n\n**Submit:** 2025-09-09 21:40 UTC\n\n**Voting:** 2025-09-09 21:40 UTC → 2025-09-11 21:40 UTC\n\n**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target=\"_blank\"}\n\n**Metadata:** [https://github.com/gonka-ai/gonka/blob/c8668fd0f6144109165e0386f55fe22eb3cb27c7/proposals/governance-artifacts/models-1/README.md](https://github.com/gonka-ai/gonka/blob/c8668fd0f6144109165e0386f55fe22eb3cb27c7/proposals/governance-artifacts/models-1/README.md)\n\n[View on gonka.gg](https://gonka.gg/network/proposals/2){:target=\"_blank\"}\n\n</div>\n\nT",
-      "funding": "",
-      "quorum_met": null,
-      "checksum": "dc3fc186a1fb23fd9d98a11ccd86088773410145f8721265502835138e45d5c6"
     },
     "2025-q3/3/full-proposal.md": {
       "title": "Increase PoC Validation Duration",
@@ -42,14 +26,6 @@
       "quorum_met": null,
       "checksum": "6087ddd5765ab2a68a0309ffcebaad38fa417d2e29f4f3c555e2223d8cf10662"
     },
-    "2025-q3/3/index.md": {
-      "title": "#3 – Increase PoC Validation Length",
-      "status": "passed",
-      "content_preview": "# #3 – Increase PoC Validation Length\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `3`\n\n**Type:** Update Params\n\n**Submit:** 2025-09-20 05:16 UTC\n\n**Voting:** 2025-09-20 05:16 UTC → 2025-09-20 17:16 UTC\n\n**Expedited:** Yes\n\n**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target=\"_blank\"}\n\n**Metadata:** [https://github.com/gonka-ai/gonka/blob/2bf281cec95eaef061e2dfe46d4d104a7e1c2229/proposals/poc-validation-length/README.md](https://github.com/gonka-ai/gonka/blob/2bf281cec95eaef061e2dfe46d4d104a7e1c2229/proposals/poc-validation-length/README.md)\n\n[View on gonka.gg](https://gonka.gg/network/proposals/3){:target=\"_blank\"}\n\n</div>\n\nPropo",
-      "funding": "",
-      "quorum_met": null,
-      "checksum": "5bcf741e9f9283766323f731f112b76b53ba119a78f8461c48720535c43900be"
-    },
     "2025-q3/4/full-proposal.md": {
       "title": "Upgrade Proposal 1",
       "status": null,
@@ -57,22 +33,6 @@
       "funding": "",
       "quorum_met": null,
       "checksum": "259af19e11f1d5e74236f0add0ce6b53158676bd08e0b033f3dd68e3fb7d9eaa"
-    },
-    "2025-q3/4/index.md": {
-      "title": "#4 – Upgrade Proposal: v0.2.2",
-      "status": "rejected",
-      "content_preview": "# #4 – Upgrade Proposal: v0.2.2\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-rejected\">Rejected</span>\n\n**Proposal ID:** `4`\n\n**Type:** Software Upgrade\n\n**Submit:** 2025-09-22 10:02 UTC\n\n**Voting:** 2025-09-22 10:02 UTC → 2025-09-24 10:02 UTC\n\n**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target=\"_blank\"}\n\n**Metadata:** [https://github.com/gonka-ai/gonka/blob/f0f3301dadae0a2f30bdc2968bebb21da81026f4/proposals/governance-artifacts/update-v0.2.2/README.md](https://github.com/gonka-ai/gonka/blob/f0f3301dadae0a2f30bdc2968bebb21da81026f4/proposals/governance-artifacts/update-v0.2.2/README.md)\n\n**Failed reason:** proposal did not get enough votes to pass\n\n[View on gonka.gg](h",
-      "funding": "",
-      "quorum_met": null,
-      "checksum": "95b0b39ba637510462134fc3ede08486e2228a6b9d650e6b92fbddc854e23120"
-    },
-    "2025-q3/5/index.md": {
-      "title": "#5 – Expedite voting for upgrades",
-      "status": "passed",
-      "content_preview": "# #5 – Expedite voting for upgrades\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `5`\n\n**Type:** Update Params\n\n**Submit:** 2025-09-23 06:39 UTC\n\n**Voting:** 2025-09-23 06:39 UTC → 2025-09-23 18:39 UTC\n\n**Expedited:** Yes\n\n**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target=\"_blank\"}\n\n[View on gonka.gg](https://gonka.gg/network/proposals/5){:target=\"_blank\"}\n\n</div>\n\nExpedite voting for upgrades\n\n---\n\n## Final Tally\n\n<div class=\"prop-tally\">\n  <div class=\"prop-tally-bar\">\n    <div class=\"prop-tally-yes\" style=\"width:100.0%\"></div>\n    <div class=\"prop-tally-no\" style=\"width:0.0%\"></div>\n    <div class=\"prop-tally-veto\" style=\"width",
-      "funding": "",
-      "quorum_met": null,
-      "checksum": "4522400831a1dcde50b310a9dbfbef20e73c7251bb50ab303f07589124e079f0"
     },
     "2025-q3/6/full-proposal.md": {
       "title": "Upgrade Proposal: v0.2.2",
@@ -82,38 +42,6 @@
       "quorum_met": null,
       "checksum": "0cbb27404df87f23ddf99f556bcd1d579d6fa499f79819f6431e9c500632bb3e"
     },
-    "2025-q3/6/index.md": {
-      "title": "#6 – Upgrade Proposal: v0.2.2",
-      "status": "passed",
-      "content_preview": "# #6 – Upgrade Proposal: v0.2.2\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `6`\n\n**Type:** Software Upgrade\n\n**Submit:** 2025-09-24 23:08 UTC\n\n**Voting:** 2025-09-24 23:08 UTC → 2025-09-25 02:08 UTC\n\n**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target=\"_blank\"}\n\n**Metadata:** [https://github.com/gonka-ai/gonka/blob/422dd37c36ad65bc3be2c84cd18a4d86e7ddec10/proposals/governance-artifacts/update-v0.2.2/README.md](https://github.com/gonka-ai/gonka/blob/422dd37c36ad65bc3be2c84cd18a4d86e7ddec10/proposals/governance-artifacts/update-v0.2.2/README.md)\n\n[View on gonka.gg](https://gonka.gg/network/proposals/6){:target=\"_blank\"}\n\n</div>\n\nUp",
-      "funding": "",
-      "quorum_met": null,
-      "checksum": "008df6bc20c8c11792b8a614570c9305e762a08dd9cf99534e62843802270f9c"
-    },
-    "2025-q4/10/index.md": {
-      "title": "#10 – Bandwidth Limits",
-      "status": "passed",
-      "content_preview": "# #10 – Bandwidth Limits\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `10`\n\n**Type:** Update Params\n\n**Submit:** 2025-11-12 19:26 UTC\n\n**Voting:** 2025-11-12 19:26 UTC → 2025-11-12 22:26 UTC\n\n**Expedited:** Yes\n\n**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target=\"_blank\"}\n\n[View on gonka.gg](https://gonka.gg/network/proposals/10){:target=\"_blank\"}\n\n</div>\n\nBandwidth Limits\n\n---\n\n## Final Tally\n\n<div class=\"prop-tally\">\n  <div class=\"prop-tally-bar\">\n    <div class=\"prop-tally-yes\" style=\"width:100.0%\"></div>\n    <div class=\"prop-tally-no\" style=\"width:0.0%\"></div>\n    <div class=\"prop-tally-veto\" style=\"width:0.0%\"></div>\n    <di",
-      "funding": "",
-      "quorum_met": null,
-      "checksum": "5f6a38b3beff7428c389b23558e42ec7e29b03869271dbca8bf1370ffcaa67aa"
-    },
-    "2025-q4/11/index.md": {
-      "title": "#11 – Bandwidth Limits",
-      "status": "passed",
-      "content_preview": "# #11 – Bandwidth Limits\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `11`\n\n**Type:** Update Params\n\n**Submit:** 2025-11-12 20:00 UTC\n\n**Voting:** 2025-11-12 20:00 UTC → 2025-11-12 23:00 UTC\n\n**Expedited:** Yes\n\n**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target=\"_blank\"}\n\n[View on gonka.gg](https://gonka.gg/network/proposals/11){:target=\"_blank\"}\n\n</div>\n\nBandwidth Limits\n\n---\n\n## Final Tally\n\n<div class=\"prop-tally\">\n  <div class=\"prop-tally-bar\">\n    <div class=\"prop-tally-yes\" style=\"width:100.0%\"></div>\n    <div class=\"prop-tally-no\" style=\"width:0.0%\"></div>\n    <div class=\"prop-tally-veto\" style=\"width:0.0%\"></div>\n    <di",
-      "funding": "",
-      "quorum_met": null,
-      "checksum": "65a2b9bed391182ddc740e022958cae8b1b77955d1114d909e012476bb11ae31"
-    },
-    "2025-q4/12/index.md": {
-      "title": "#12 – Bandwidth Limits",
-      "status": "passed",
-      "content_preview": "# #12 – Bandwidth Limits\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `12`\n\n**Type:** Update Params\n\n**Submit:** 2025-11-12 21:22 UTC\n\n**Voting:** 2025-11-12 21:22 UTC → 2025-11-13 00:22 UTC\n\n**Expedited:** Yes\n\n**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target=\"_blank\"}\n\n[View on gonka.gg](https://gonka.gg/network/proposals/12){:target=\"_blank\"}\n\n</div>\n\nBandwidth Limits\n\n---\n\n## Final Tally\n\n<div class=\"prop-tally\">\n  <div class=\"prop-tally-bar\">\n    <div class=\"prop-tally-yes\" style=\"width:100.0%\"></div>\n    <div class=\"prop-tally-no\" style=\"width:0.0%\"></div>\n    <div class=\"prop-tally-veto\" style=\"width:0.0%\"></div>\n    <di",
-      "funding": "",
-      "quorum_met": null,
-      "checksum": "f7603f734583af79cb4c748bfbf60860415f3d4d0c5e204b749d742b88508705"
-    },
     "2025-q4/13/full-proposal.md": {
       "title": "Upgrade Proposal: v0.2.5",
       "status": null,
@@ -121,22 +49,6 @@
       "funding": "",
       "quorum_met": null,
       "checksum": "3c92e75dafec3105ca4d684e944b6b600043ea2d7999e0a2aba5b4c0ecda546a"
-    },
-    "2025-q4/13/index.md": {
-      "title": "#13 – Upgrade Proposal: v0.2.5",
-      "status": "passed",
-      "content_preview": "# #13 – Upgrade Proposal: v0.2.5\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `13`\n\n**Type:** Software Upgrade\n\n**Submit:** 2025-11-21 09:13 UTC\n\n**Voting:** 2025-11-21 09:13 UTC → 2025-11-22 09:13 UTC\n\n**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target=\"_blank\"}\n\n**Metadata:** [https://github.com/gonka-ai/gonka/blob/e25ddb7d462972cce202c8b39448bf3feb8e29a0/proposals/governance-artifacts/update-v0.2.5/README.md](https://github.com/gonka-ai/gonka/blob/e25ddb7d462972cce202c8b39448bf3feb8e29a0/proposals/governance-artifacts/update-v0.2.5/README.md)\n\n[View on gonka.gg](https://gonka.gg/network/proposals/13){:target=\"_blank\"}\n\n</div>\n",
-      "funding": "",
-      "quorum_met": null,
-      "checksum": "5ad183ba3003fa0cfe6c228fcfa416ddab66cd91076bfbc0358ac50c8c6f0a32"
-    },
-    "2025-q4/14/index.md": {
-      "title": "#14 – Sale GNK from Community Fund",
-      "status": "passed",
-      "content_preview": "# #14 – Sale GNK from Community Fund\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `14`\n\n**Type:** Community Pool Spend\n\n**Submit:** 2025-11-26 09:35 UTC\n\n**Voting:** 2025-11-26 09:35 UTC → 2025-11-27 09:35 UTC\n\n**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target=\"_blank\"}\n\n<div class=\"prop-funding-line\">20,000,000 GNK · Community Pool</div>\n\n[View on gonka.gg](https://gonka.gg/network/proposals/14){:target=\"_blank\"}\n\n</div>\n\nSale GNK from Community Fund\n\n---\n\n## Final Tally\n\n<div class=\"prop-tally\">\n  <div class=\"prop-tally-bar\">\n    <div class=\"prop-tally-yes\" style=\"width:98.8%\"></div>\n    <div class=\"prop-tally-no\" style=\"width",
-      "funding": "20,000,000 GNK · Community Pool",
-      "quorum_met": null,
-      "checksum": "5050552a2aab252564d53c98983b603fc8f3348a1e704276a5f1136202d59223"
     },
     "2025-q4/15/full-proposal.md": {
       "title": "Upgrade Proposal: v0.2.6",
@@ -146,14 +58,6 @@
       "quorum_met": null,
       "checksum": "f2c5e1b03a27b3713942092cffb12e3c918405a59c998a1c5cf529bf33068067"
     },
-    "2025-q4/15/index.md": {
-      "title": "#15 – Upgrade Proposal: v0.2.6",
-      "status": "rejected",
-      "content_preview": "# #15 – Upgrade Proposal: v0.2.6\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-rejected\">Rejected</span>\n\n**Proposal ID:** `15`\n\n**Type:** Software Upgrade\n\n**Submit:** 2025-12-16 11:12 UTC\n\n**Voting:** 2025-12-16 11:12 UTC → 2025-12-17 11:12 UTC\n\n**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target=\"_blank\"}\n\n**Metadata:** [https://github.com/gonka-ai/gonka/blob/384b95025f11cff177fa40ec191f724852f54edb/proposals/governance-artifacts/update-v0.2.6/README.md](https://github.com/gonka-ai/gonka/blob/384b95025f11cff177fa40ec191f724852f54edb/proposals/governance-artifacts/update-v0.2.6/README.md)\n\n**Failed reason:** proposal did not get enough votes to pass\n\n[View on gonka.gg]",
-      "funding": "",
-      "quorum_met": null,
-      "checksum": "2424000242864bd56b06c666e550f83ca64670bb681937a19a35e953f6a86679"
-    },
     "2025-q4/16/full-proposal.md": {
       "title": "Upgrade Proposal: v0.2.6",
       "status": null,
@@ -161,22 +65,6 @@
       "funding": "",
       "quorum_met": null,
       "checksum": "f2c5e1b03a27b3713942092cffb12e3c918405a59c998a1c5cf529bf33068067"
-    },
-    "2025-q4/16/index.md": {
-      "title": "#16 – Upgrade Proposal: v0.2.6",
-      "status": "passed",
-      "content_preview": "# #16 – Upgrade Proposal: v0.2.6\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `16`\n\n**Type:** Software Upgrade\n\n**Submit:** 2025-12-19 17:09 UTC\n\n**Voting:** 2025-12-19 17:09 UTC → 2025-12-20 17:09 UTC\n\n**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target=\"_blank\"}\n\n**Metadata:** [https://github.com/gonka-ai/gonka/commit/5be305ad380db8854313d2b0369049c8105f681b/proposals/governance-artifacts/update-v0.2.6/README.md](https://github.com/gonka-ai/gonka/commit/5be305ad380db8854313d2b0369049c8105f681b/proposals/governance-artifacts/update-v0.2.6/README.md)\n\n[View on gonka.gg](https://gonka.gg/network/proposals/16){:target=\"_blank\"}\n\n</d",
-      "funding": "",
-      "quorum_met": null,
-      "checksum": "6e66bbb94791ceba20236c25ef3361cb7c0740c16396046d7e52f8b333eb74e9"
-    },
-    "2025-q4/17/index.md": {
-      "title": "#17 – Expected amount of Confirmation PoC per epoch",
-      "status": "passed",
-      "content_preview": "# #17 – Expected amount of Confirmation PoC per epoch\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `17`\n\n**Type:** Update Params\n\n**Submit:** 2025-12-25 21:22 UTC\n\n**Voting:** 2025-12-25 21:22 UTC → 2025-12-26 21:22 UTC\n\n**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target=\"_blank\"}\n\n[View on gonka.gg](https://gonka.gg/network/proposals/17){:target=\"_blank\"}\n\n</div>\n\nExpected amount of Confirmation PoC per epoch to 4, p0 for binomial test to 0.1\n\n---\n\n## Final Tally\n\n<div class=\"prop-tally\">\n  <div class=\"prop-tally-bar\">\n    <div class=\"prop-tally-yes\" style=\"width:100.0%\"></div>\n    <div class=\"prop-tally-no\" style=\"width:0.0%\"><",
-      "funding": "",
-      "quorum_met": null,
-      "checksum": "86071c21cb1e2106a81fa003e29e94702437a4a64e657108a625b619b5d580d4"
     },
     "2025-q4/7/full-proposal.md": {
       "title": "Upgrade Proposal: v0.2.3",
@@ -186,14 +74,6 @@
       "quorum_met": null,
       "checksum": "8525b587ff7db0792ed38a564a32ddb12d69d24570ff82643f6de9154a00b47f"
     },
-    "2025-q4/7/index.md": {
-      "title": "#7 – Upgrade Proposal: v0.2.3",
-      "status": "passed",
-      "content_preview": "# #7 – Upgrade Proposal: v0.2.3\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `7`\n\n**Type:** Software Upgrade\n\n**Submit:** 2025-10-03 04:53 UTC\n\n**Voting:** 2025-10-03 04:53 UTC → 2025-10-03 07:53 UTC\n\n**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target=\"_blank\"}\n\n**Metadata:** [https://github.com/gonka-ai/gonka/blob/b8094aaf75bde4041692675dd9e565286b056896/proposals/governance-artifacts/update-v0.2.3/README.md](https://github.com/gonka-ai/gonka/blob/b8094aaf75bde4041692675dd9e565286b056896/proposals/governance-artifacts/update-v0.2.3/README.md)\n\n[View on gonka.gg](https://gonka.gg/network/proposals/7){:target=\"_blank\"}\n\n</div>\n\nUp",
-      "funding": "",
-      "quorum_met": null,
-      "checksum": "4641927f95c8d2f520bb45293a72fc2272e9dc857efc822dd5e4384251b56a80"
-    },
     "2025-q4/8/full-proposal.md": {
       "title": "Upgrade Proposal: v0.2.4",
       "status": null,
@@ -201,30 +81,6 @@
       "funding": "",
       "quorum_met": null,
       "checksum": "201413489aacab4db832d7501d8497d9368fad99802d980f90eb575de6e0beda"
-    },
-    "2025-q4/8/index.md": {
-      "title": "#8 – Upgrade Proposal: v0.2.4",
-      "status": "passed",
-      "content_preview": "# #8 – Upgrade Proposal: v0.2.4\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `8`\n\n**Type:** Software Upgrade\n\n**Submit:** 2025-10-22 05:46 UTC\n\n**Voting:** 2025-10-22 05:46 UTC → 2025-10-22 08:46 UTC\n\n**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target=\"_blank\"}\n\n**Metadata:** [https://github.com/gonka-ai/gonka/blob/12a09bb24c1f668a23f0e85bbf277e6010603921/proposals/governance-artifacts/update-v0.2.4/README.md](https://github.com/gonka-ai/gonka/blob/12a09bb24c1f668a23f0e85bbf277e6010603921/proposals/governance-artifacts/update-v0.2.4/README.md)\n\n[View on gonka.gg](https://gonka.gg/network/proposals/8){:target=\"_blank\"}\n\n</div>\n\nUp",
-      "funding": "",
-      "quorum_met": null,
-      "checksum": "ff5e8468c77965f96c5578f3441590bef77157b1ab8abf4d6ebae412daf20470"
-    },
-    "2025-q4/9/index.md": {
-      "title": "#9 – Higher Bandwidth Limits & Voting Time Back to 24H",
-      "status": "passed",
-      "content_preview": "# #9 – Higher Bandwidth Limits & Voting Time Back to 24H\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `9`\n\n**Type:** Update Params\n\n**Submit:** 2025-11-11 09:22 UTC\n\n**Voting:** 2025-11-11 09:22 UTC → 2025-11-11 12:22 UTC\n\n**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target=\"_blank\"}\n\n[View on gonka.gg](https://gonka.gg/network/proposals/9){:target=\"_blank\"}\n\n</div>\n\nHigher Bandwidth Limits & Voting Time Back to 24H\n\n---\n\n## Final Tally\n\n<div class=\"prop-tally\">\n  <div class=\"prop-tally-bar\">\n    <div class=\"prop-tally-yes\" style=\"width:100.0%\"></div>\n    <div class=\"prop-tally-no\" style=\"width:0.0%\"></div>\n    <div class=\"prop-ta",
-      "funding": "",
-      "quorum_met": null,
-      "checksum": "87a72a2393d180526a53204166761e906dc36d27a23d01365fa8b7b98102dda2"
-    },
-    "2026-q1/18/index.md": {
-      "title": "#18 – Test",
-      "status": "rejected",
-      "content_preview": "# #18 – Test\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-rejected\">Rejected</span>\n\n**Proposal ID:** `18`\n\n**Type:** —\n\n**Submit:** 2026-01-04 13:07 UTC\n\n**Voting:** 2026-01-04 13:07 UTC → 2026-01-05 13:07 UTC\n\n**Proposer:** [`gonka15vunu0new53m83ccvfcmkf84v7q4s8ldsjfu4y`](https://gonka.gg/address/gonka15vunu0new53m83ccvfcmkf84v7q4s8ldsjfu4y){:target=\"_blank\"}\n\n**Metadata:** `e30=`\n\n**Failed reason:** proposal did not get enough votes to pass\n\n[View on gonka.gg](https://gonka.gg/network/proposals/18){:target=\"_blank\"}\n\n</div>\n\nTest proposal\n\n---\n\n## Final Tally\n\n<div class=\"prop-tally\">\n  <div class=\"prop-tally-bar\">\n    <div class=\"prop-tally-yes\" style=\"width:100.0%\"></div>\n    <div class=\"prop-tally-no\" style=\"width:0.0%\"></div>\n    <div class=\"prop-tall",
-      "funding": "",
-      "quorum_met": null,
-      "checksum": "bd19e74659f22c486302e1c1375f8cd1755bb7cc14e97358e4498a2a202b48da"
     },
     "2026-q1/19/full-proposal.md": {
       "title": "Upgrade Proposal: v0.2.7",
@@ -234,38 +90,6 @@
       "quorum_met": null,
       "checksum": "113857ac273a5243c319134bff1922f9af68fb93338f0c03f26870b7ced83570"
     },
-    "2026-q1/19/index.md": {
-      "title": "#19 – Upgrade Proposal: v0.2.7",
-      "status": "passed",
-      "content_preview": "# #19 – Upgrade Proposal: v0.2.7\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `19`\n\n**Type:** Software Upgrade\n\n**Submit:** 2026-01-07 04:23 UTC\n\n**Voting:** 2026-01-07 04:23 UTC → 2026-01-08 04:23 UTC\n\n**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target=\"_blank\"}\n\n**Metadata:** [https://github.com/gonka-ai/gonka/blob/d18165669326fffd6732bc124183a72c076a69ee/proposals/governance-artifacts/update-v0.2.7/README.md](https://github.com/gonka-ai/gonka/blob/d18165669326fffd6732bc124183a72c076a69ee/proposals/governance-artifacts/update-v0.2.7/README.md)\n\n[View on gonka.gg](https://gonka.gg/network/proposals/19){:target=\"_blank\"}\n\n</div>\n",
-      "funding": "",
-      "quorum_met": null,
-      "checksum": "a46b38ec5780dcb1a4ab70266dee6db2d3ab6bc415a33c4633cff98cc5bdcfc1"
-    },
-    "2026-q1/20/index.md": {
-      "title": "#20 – Enable Whitelist",
-      "status": "passed",
-      "content_preview": "# #20 – Enable Whitelist\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `20`\n\n**Type:** Add Participants To Allow List, Update Params\n\n**Submit:** 2026-01-09 06:46 UTC\n\n**Voting:** 2026-01-09 06:46 UTC → 2026-01-10 06:46 UTC\n\n**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target=\"_blank\"}\n\n[View on gonka.gg](https://gonka.gg/network/proposals/20){:target=\"_blank\"}\n\n</div>\n\n<https://github.com/product-science/filter/tree/ae59d27f04a70039bcfca94ae656e723982150cd>\n\n---\n\n## Final Tally\n\n<div class=\"prop-tally\">\n  <div class=\"prop-tally-bar\">\n    <div class=\"prop-tally-yes\" style=\"width:90.1%\"></div>\n    <div class=\"prop-tally-no\" style=\"w",
-      "funding": "",
-      "quorum_met": null,
-      "checksum": "c2417a66c65fe8c8120365f9414cc2c780210b443da3b2646d1380d4094a0870"
-    },
-    "2026-q1/21/index.md": {
-      "title": "#21 – Fix mistakes in allowlist",
-      "status": "passed",
-      "content_preview": "# #21 – Fix mistakes in allowlist\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `21`\n\n**Type:** Add Participants To Allow List, Update Params\n\n**Submit:** 2026-01-11 06:04 UTC\n\n**Voting:** 2026-01-11 06:04 UTC → 2026-01-12 06:04 UTC\n\n**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target=\"_blank\"}\n\n[View on gonka.gg](https://gonka.gg/network/proposals/21){:target=\"_blank\"}\n\n</div>\n\n<https://github.com/product-science/filter/tree/0354c37eb6c827f00c1e889a2b7de9952a9b84ba>\n\n---\n\n## Final Tally\n\n<div class=\"prop-tally\">\n  <div class=\"prop-tally-bar\">\n    <div class=\"prop-tally-yes\" style=\"width:100.0%\"></div>\n    <div class=\"prop-tally-no",
-      "funding": "",
-      "quorum_met": null,
-      "checksum": "bd7effe0dc2a12fbda9cc6905cc512b94a9e1c2a881ec6599776d666ceaa18fc"
-    },
-    "2026-q1/22/index.md": {
-      "title": "#22 – Allowlist Timing",
-      "status": "passed",
-      "content_preview": "# #22 – Allowlist Timing\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `22`\n\n**Type:** Update Params\n\n**Submit:** 2026-01-17 05:28 UTC\n\n**Voting:** 2026-01-17 05:28 UTC → 2026-01-18 05:28 UTC\n\n**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target=\"_blank\"}\n\n[View on gonka.gg](https://gonka.gg/network/proposals/22){:target=\"_blank\"}\n\n</div>\n\nUpdate Expiration Dates for Developer Access and Participant Allowlist\n\n---\n\n## Final Tally\n\n<div class=\"prop-tally\">\n  <div class=\"prop-tally-bar\">\n    <div class=\"prop-tally-yes\" style=\"width:99.9%\"></div>\n    <div class=\"prop-tally-no\" style=\"width:0.1%\"></div>\n    <div class=\"prop-tally-veto\" ",
-      "funding": "",
-      "quorum_met": null,
-      "checksum": "8df5bd9ea69a5c2573ac5d2ce81ee84bb75251b4096c3ac703f76b806d0615ab"
-    },
     "2026-q1/24/full-proposal.md": {
       "title": "Upgrade Proposal: v0.2.8",
       "status": null,
@@ -273,14 +97,6 @@
       "funding": "",
       "quorum_met": null,
       "checksum": "9fed1628eb175aa02da00e62f681f852600d4485c2bd3afbaca05e140df01c7c"
-    },
-    "2026-q1/24/index.md": {
-      "title": "#24 – Upgrade Proposal: v0.2.8",
-      "status": "rejected",
-      "content_preview": "# #24 – Upgrade Proposal: v0.2.8\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-rejected\">Rejected</span>\n\n**Proposal ID:** `24`\n\n**Type:** Software Upgrade\n\n**Submit:** 2026-01-28 00:32 UTC\n\n**Voting:** 2026-01-28 00:32 UTC → 2026-01-29 00:32 UTC\n\n**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target=\"_blank\"}\n\n**Metadata:** [https://github.com/gonka-ai/gonka/blob/d61cf37eb97e0aaf3e4b227a1d6f31ea8635797a/proposals/governance-artifacts/update-v0.2.8/README.md](https://github.com/gonka-ai/gonka/blob/d61cf37eb97e0aaf3e4b227a1d6f31ea8635797a/proposals/governance-artifacts/update-v0.2.8/README.md)\n\n**Failed reason:** proposal did not get enough votes to pass\n\n[View on gonka.gg]",
-      "funding": "",
-      "quorum_met": null,
-      "checksum": "fdc2211afec39cbb50857c9668aba12f63fe9e99b54fd6a6d19452edba7fd588"
     },
     "2026-q1/25/full-proposal.md": {
       "title": "Upgrade Proposal: v0.2.8",
@@ -290,14 +106,6 @@
       "quorum_met": null,
       "checksum": "9fed1628eb175aa02da00e62f681f852600d4485c2bd3afbaca05e140df01c7c"
     },
-    "2026-q1/25/index.md": {
-      "title": "#25 – Upgrade Proposal: v0.2.8",
-      "status": "passed",
-      "content_preview": "# #25 – Upgrade Proposal: v0.2.8\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `25`\n\n**Type:** Software Upgrade\n\n**Submit:** 2026-01-28 03:02 UTC\n\n**Voting:** 2026-01-28 03:02 UTC → 2026-01-29 03:02 UTC\n\n**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target=\"_blank\"}\n\n**Metadata:** [https://github.com/gonka-ai/gonka/blob/9241d81b9ed7f33f6864476c2b07c9e833037735/proposals/governance-artifacts/update-v0.2.8/README.md](https://github.com/gonka-ai/gonka/blob/9241d81b9ed7f33f6864476c2b07c9e833037735/proposals/governance-artifacts/update-v0.2.8/README.md)\n\n[View on gonka.gg](https://gonka.gg/network/proposals/25){:target=\"_blank\"}\n\n</div>\n",
-      "funding": "",
-      "quorum_met": null,
-      "checksum": "29cd33c1704c7fc27551aac43e4a275b8b58a4f0edf4dd4a290bf3c96a25a3d6"
-    },
     "2026-q1/26/full-proposal.md": {
       "title": "Upgrade Proposal: v0.2.9",
       "status": null,
@@ -305,14 +113,6 @@
       "funding": "",
       "quorum_met": null,
       "checksum": "f3c63631551161f625f9639629462def6bb3cddd751866ace9476f62002b01f1"
-    },
-    "2026-q1/26/index.md": {
-      "title": "#26 – Upgrade Proposal: v0.2.9",
-      "status": "passed",
-      "content_preview": "# #26 – Upgrade Proposal: v0.2.9\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `26`\n\n**Type:** Software Upgrade\n\n**Submit:** 2026-01-31 22:02 UTC\n\n**Voting:** 2026-01-31 22:02 UTC → 2026-02-01 22:02 UTC\n\n**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target=\"_blank\"}\n\n**Metadata:** [https://github.com/gonka-ai/gonka/blob/808247ea17c254f0b81cfa67edb579ba249175f0/proposals/governance-artifacts/update-v0.2.9/README.md](https://github.com/gonka-ai/gonka/blob/808247ea17c254f0b81cfa67edb579ba249175f0/proposals/governance-artifacts/update-v0.2.9/README.md)\n\n[View on gonka.gg](https://gonka.gg/network/proposals/26){:target=\"_blank\"}\n\n</div>\n",
-      "funding": "",
-      "quorum_met": null,
-      "checksum": "4a80539060b65d258b5df9133bca785c0df7ae6c618cea0b202a34fcd43f3b68"
     },
     "2026-q1/27/full-proposal.md": {
       "title": "Upgrade Proposal: v0.2.10",
@@ -322,38 +122,6 @@
       "quorum_met": null,
       "checksum": "32b6b7f37fd393c14403cdadc5c4fda5baa5ef6ef3c654bbd5f422943d2da28d"
     },
-    "2026-q1/27/index.md": {
-      "title": "#27 – Upgrade Proposal: v0.2.10",
-      "status": "passed",
-      "content_preview": "# #27 – Upgrade Proposal: v0.2.10\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `27`\n\n**Type:** Software Upgrade\n\n**Submit:** 2026-02-17 09:26 UTC\n\n**Voting:** 2026-02-17 09:26 UTC → 2026-02-18 09:26 UTC\n\n**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target=\"_blank\"}\n\n**Metadata:** [https://github.com/gonka-ai/gonka/blob/faa358dec3091e19cb92267556443775431ecc81/proposals/governance-artifacts/update-v0.2.10/README.md](https://github.com/gonka-ai/gonka/blob/faa358dec3091e19cb92267556443775431ecc81/proposals/governance-artifacts/update-v0.2.10/README.md)\n\n[View on gonka.gg](https://gonka.gg/network/proposals/27){:target=\"_blank\"}\n\n</di",
-      "funding": "",
-      "quorum_met": null,
-      "checksum": "193c888be5da367b16ae7e306eda59d63a3144cfc4a29d77c1d7de1b1bc83e90"
-    },
-    "2026-q1/28/index.md": {
-      "title": "#28 – Collateral Parameters Update",
-      "status": "rejected",
-      "content_preview": "# #28 – Collateral Parameters Update\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-rejected\">Rejected</span>\n\n**Proposal ID:** `28`\n\n**Type:** Update Params\n\n**Submit:** 2026-02-18 07:27 UTC\n\n**Voting:** 2026-02-18 07:27 UTC → 2026-02-19 07:27 UTC\n\n**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target=\"_blank\"}\n\n**Failed reason:** proposal did not get enough votes to pass\n\n[View on gonka.gg](https://gonka.gg/network/proposals/28){:target=\"_blank\"}\n\n</div>\n\n0.032 GNK per 1 unit of power, 0.01% slashing for miss rate or jail, 0.5% slashing for invalid inference\n\n---\n\n## Final Tally\n\n<div class=\"prop-tally\">\n  <div class=\"prop-tally-bar\">\n    <div class=\"prop-tally-yes\" style",
-      "funding": "",
-      "quorum_met": null,
-      "checksum": "cc441d0ab7961a95068ed3c4e9c48d840c67306ca99501fe19bd048d6f50eaf4"
-    },
-    "2026-q1/29/index.md": {
-      "title": "#29 – Network Parameters Update: Disable TA Allowlist, Increase Prices 100x",
-      "status": "rejected",
-      "content_preview": "# #29 – Network Parameters Update: Disable TA Allowlist, Increase Prices 100x\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-rejected\">Rejected</span>\n\n**Proposal ID:** `29`\n\n**Type:** Update Params\n\n**Submit:** 2026-02-19 16:03 UTC\n\n**Voting:** 2026-02-19 16:03 UTC → 2026-02-20 16:03 UTC\n\n**Proposer:** [`gonka148zyn5m8vjw5wvzr5yg37cdml64z668rav5j5m`](https://gonka.gg/address/gonka148zyn5m8vjw5wvzr5yg37cdml64z668rav5j5m){:target=\"_blank\"}\n\n**Metadata:** [https://github.com/gonka-ai/gonka/blob/main/proposals/governance-artifacts/param-update-2025-02/README.md](https://github.com/gonka-ai/gonka/blob/main/proposals/governance-artifacts/param-update-2025-02/README.md)\n\n**Failed reason:** proposal did not get enough votes to pass\n\n[View on gonka.gg](https://gonka.g",
-      "funding": "",
-      "quorum_met": null,
-      "checksum": "d97192071ebf3697b53bc327924151fe0723e679e138bd61602ab917e15f32a0"
-    },
-    "2026-q1/30/index.md": {
-      "title": "#30 – Test Proposal",
-      "status": "rejected",
-      "content_preview": "# #30 – Test Proposal\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-rejected\">Rejected</span>\n\n**Proposal ID:** `30`\n\n**Type:** —\n\n**Submit:** 2026-03-09 02:33 UTC\n\n**Voting:** 2026-03-09 02:37 UTC → 2026-03-10 02:37 UTC\n\n**Proposer:** [`gonka1awyggfq4e32d4y66ttq3hyud7dyrr0ajf8af0w`](https://gonka.gg/address/gonka1awyggfq4e32d4y66ttq3hyud7dyrr0ajf8af0w){:target=\"_blank\"}\n\n**Metadata:** `Test proposal for governance UI`\n\n**Failed reason:** proposal did not get enough votes to pass\n\n[View on gonka.gg](https://gonka.gg/network/proposals/30){:target=\"_blank\"}\n\n</div>\n\nTesting governance voting from the wallet app.\n\n---\n\n## Final Tally\n\n<div class=\"prop-tally\">\n  <div class=\"prop-tally-bar\">\n    <div class=\"prop-tally-yes\" style=\"width:0.0%\"></div>\n    <div class=",
-      "funding": "",
-      "quorum_met": null,
-      "checksum": "e967234ec68dd18a79eb71729cca72e008719def0703b126ff78f508c16ede9d"
-    },
     "2026-q1/31/full-proposal.md": {
       "title": "Upgrade Proposal: v0.2.11",
       "status": null,
@@ -361,14 +129,6 @@
       "funding": "",
       "quorum_met": null,
       "checksum": "03d0d14b68115ee5d3b0c8a428c86048a1a59429859541ec677aef4bcba3b123"
-    },
-    "2026-q1/31/index.md": {
-      "title": "#31 – Upgrade Proposal: v0.2.11",
-      "status": "passed",
-      "content_preview": "# #31 – Upgrade Proposal: v0.2.11\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `31`\n\n**Type:** Software Upgrade\n\n**Submit:** 2026-03-19 05:59 UTC\n\n**Voting:** 2026-03-19 05:59 UTC → 2026-03-20 05:59 UTC\n\n**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target=\"_blank\"}\n\n**Metadata:** [https://github.com/gonka-ai/gonka/blob/74f5ff859dd6d83eb8c2576b55c76fa41e669341/proposals/governance-artifacts/update-v0.2.11/README.md](https://github.com/gonka-ai/gonka/blob/74f5ff859dd6d83eb8c2576b55c76fa41e669341/proposals/governance-artifacts/update-v0.2.11/README.md)\n\n[View on gonka.gg](https://gonka.gg/network/proposals/31){:target=\"_blank\"}\n\n</di",
-      "funding": "",
-      "quorum_met": null,
-      "checksum": "3a31d11293e62bcd69fea452089cdf45a15e960727df2275d6631f75dac6854e"
     },
     "2026-q1/32/full-proposal.md": {
       "title": "Simple Coin Amount Explanation (Epoch 158)",
@@ -378,14 +138,6 @@
       "quorum_met": null,
       "checksum": "08bfbcb13dd090f09e33d13c9f96373846579cd4db32ae0682022c6dc4b2ed02"
     },
-    "2026-q1/32/index.md": {
-      "title": "#32 – Epoch 158 compensation payout from gov module (batch vesting)",
-      "status": "passed",
-      "content_preview": "# #32 – Epoch 158 compensation payout from gov module (batch vesting)\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `32`\n\n**Type:** Batch Transfer With Vesting, Community Pool Spend\n\n**Submit:** 2026-03-23 17:30 UTC\n\n**Voting:** 2026-03-23 17:30 UTC → 2026-03-24 17:30 UTC\n\n**Proposer:** [`gonka100s7x2t0npruu9ta02306qfmaened3vg3a9dn6`](https://gonka.gg/address/gonka100s7x2t0npruu9ta02306qfmaened3vg3a9dn6){:target=\"_blank\"}\n\n**Metadata:** [https://github.com/huxuxuya/epoch158/blob/main/SIMPLE_COIN_AMOUNT_LOGIC.md](https://github.com/huxuxuya/epoch158/blob/main/SIMPLE_COIN_AMOUNT_LOGIC.md)\n\n<div class=\"prop-funding-line\">500 GNK · Community Pool · 30,038 GNK · Gov Module</div>\n\n[View on gonka.gg](https://gonka.gg/network/p",
-      "funding": "500 GNK · Community Pool · 30,038 GNK · Gov Module",
-      "quorum_met": null,
-      "checksum": "87ba630dd15535a2c7aebc0d0ab346267e7455ffe1b0ee2f43ec5b93e43d03d1"
-    },
     "2026-q1/33/full-proposal.md": {
       "title": "Install Python dependencies",
       "status": null,
@@ -393,70 +145,6 @@
       "funding": "",
       "quorum_met": null,
       "checksum": "5bdd4d86c5bcb9e635d018b84bed360d1f520b8405252cfa2fbce88b58763a5e"
-    },
-    "2026-q1/33/index.md": {
-      "title": "#33 – Epochs 132-133 compensation payout from gov module",
-      "status": "passed",
-      "content_preview": "# #33 – Epochs 132-133 compensation payout from gov module\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `33`\n\n**Type:** Batch Transfer With Vesting, Community Pool Spend\n\n**Submit:** 2026-03-26 15:10 UTC\n\n**Voting:** 2026-03-26 15:10 UTC → 2026-03-27 15:10 UTC\n\n**Proposer:** [`gonka197hqnwcl30x4js3egvaujjmfknlxy7rmfw3y6k`](https://gonka.gg/address/gonka197hqnwcl30x4js3egvaujjmfknlxy7rmfw3y6k){:target=\"_blank\"}\n\n**Metadata:** [https://github.com/votkon/epoch-132-analysis](https://github.com/votkon/epoch-132-analysis)\n\n<div class=\"prop-funding-line\">3,100 GNK · Community Pool · 24,806 GNK · Gov Module</div>\n\n[View on gonka.gg](https://gonka.gg/network/proposals/33){:target=\"_blank\"}\n\n</div>\n\nDistribute compensation for C",
-      "funding": "3,100 GNK · Community Pool · 24,806 GNK · Gov Module",
-      "quorum_met": null,
-      "checksum": "f31c504f52d00c92988663102f83c7eca06736ffa2df2e27c001fa98831819b2"
-    },
-    "2026-q1/34/index.md": {
-      "title": "#34 – gonka.ai / TheSoul social media awareness project",
-      "status": "rejected",
-      "content_preview": "# #34 – gonka.ai / TheSoul social media awareness project\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-rejected\">Rejected</span>\n\n**Proposal ID:** `34`\n\n**Type:** Community Pool Spend\n\n**Submit:** 2026-03-30 06:37 UTC\n\n**Voting:** 2026-03-30 06:37 UTC → 2026-03-31 06:37 UTC\n\n**Proposer:** [`gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm`](https://gonka.gg/address/gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm){:target=\"_blank\"}\n\n**Failed reason:** proposal did not get enough votes to pass\n\n<div class=\"prop-funding-line prop-funding-line-rejected\">970,000 GNK · Community Pool</div>\n\n[View on gonka.gg](https://gonka.gg/network/proposals/34){:target=\"_blank\"}\n\n</div>\n\nThis proposal seeks community approval for a global media initiative to build awareness of decentr",
-      "funding": "970,000 GNK · Community Pool",
-      "quorum_met": null,
-      "checksum": "880c45a8174aa93a9acd589522b260173034795c1779acac60aebebc5a2c7706"
-    },
-    "2026-q1/35/index.md": {
-      "title": "#35 – gonka.ai / TheSoul social media awareness project",
-      "status": "rejected",
-      "content_preview": "# #35 – gonka.ai / TheSoul social media awareness project\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-rejected\">Rejected</span>\n\n**Proposal ID:** `35`\n\n**Type:** Community Pool Spend\n\n**Submit:** 2026-03-30 06:47 UTC\n\n**Voting:** 2026-03-30 06:47 UTC → 2026-03-31 06:47 UTC\n\n**Proposer:** [`gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm`](https://gonka.gg/address/gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm){:target=\"_blank\"}\n\n**Failed reason:** proposal did not get enough votes to pass\n\n<div class=\"prop-funding-line prop-funding-line-rejected\">970,000 GNK · Community Pool</div>\n\n[View on gonka.gg](https://gonka.gg/network/proposals/35){:target=\"_blank\"}\n\n</div>\n\nThis proposal seeks community approval for a global media initiative to build awareness of decentr",
-      "funding": "970,000 GNK · Community Pool",
-      "quorum_met": null,
-      "checksum": "71b0c747c070096edc34f501f3af0af42ed40df240c3a453eaba077afae72d7b"
-    },
-    "2026-q2/36/index.md": {
-      "title": "#36 – Register Kava USDT IBC metadata and approve for trading",
-      "status": "passed",
-      "content_preview": "# #36 – Register Kava USDT IBC metadata and approve for trading\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `36`\n\n**Type:** Approve Ibc Token For Trading, Register Ibc Token Metadata\n\n**Submit:** 2026-04-01 18:03 UTC\n\n**Voting:** 2026-04-01 18:03 UTC → 2026-04-02 18:03 UTC\n\n**Proposer:** [`gonka1m9sf2rpg635efaw59djqlxkqew9sxvmqd6g343`](https://gonka.gg/address/gonka1m9sf2rpg635efaw59djqlxkqew9sxvmqd6g343){:target=\"_blank\"}\n\n[View on gonka.gg](https://gonka.gg/network/proposals/36){:target=\"_blank\"}\n\n</div>\n\nRegister IBC token metadata and approve the denomination for trading on Gonka mainnet.\n\n---\n\n## Final Tally\n\n<div class=\"prop-tally\">\n  <div class=\"prop-tally-bar\">\n    <div class=\"prop-tally-yes\" style=\"width:99.6",
-      "funding": "",
-      "quorum_met": null,
-      "checksum": "4657bc93fb5bb0502cd36c3db0547a5ce4ceb5bf4f4deb7c5b683f2123e1ae92"
-    },
-    "2026-q2/37/index.md": {
-      "title": "#37 – What is your stance on MLM projects around gonka.ai?",
-      "status": "rejected",
-      "content_preview": "# #37 – What is your stance on MLM projects around gonka.ai?\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-rejected\">Rejected</span>\n\n**Proposal ID:** `37`\n\n**Type:** Community Pool Spend\n\n**Submit:** 2026-04-07 19:51 UTC\n\n**Voting:** 2026-04-07 19:51 UTC → 2026-04-08 19:51 UTC\n\n**Proposer:** [`gonka1ry4uzczgu7xxusa5whl387dd5alr7737spd0v2`](https://gonka.gg/address/gonka1ry4uzczgu7xxusa5whl387dd5alr7737spd0v2){:target=\"_blank\"}\n\n**Metadata:** [https://gonka.ai](https://gonka.ai)\n\n**Failed reason:** proposal did not get enough votes to pass\n\n<div class=\"prop-funding-line prop-funding-line-rejected\">1 GNK · Community Pool</div>\n\n[View on gonka.gg](https://gonka.gg/network/proposals/37){:target=\"_blank\"}\n\n</div>\n\nIf you are against MLM projects around gonka.ai, ",
-      "funding": "1 GNK · Community Pool",
-      "quorum_met": null,
-      "checksum": "d584787c705e0a8bc47eaf1d5c4f774e602a69bc661b672c2b035a8897b86ce6"
-    },
-    "2026-q2/38/index.md": {
-      "title": "#38 – CryptoCommons: Community Support & Token Promotion Plan",
-      "status": "rejected",
-      "content_preview": "# #38 – CryptoCommons: Community Support & Token Promotion Plan\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-rejected\">Rejected</span>\n\n**Proposal ID:** `38`\n\n**Type:** Batch Transfer With Vesting, Community Pool Spend\n\n**Submit:** 2026-04-08 19:24 UTC\n\n**Voting:** 2026-04-08 19:24 UTC → 2026-04-09 19:24 UTC\n\n**Proposer:** [`gonka1kk4a0kuc6uh5yrlfqe2ehuq6a4v7vcxx8fvxxr`](https://gonka.gg/address/gonka1kk4a0kuc6uh5yrlfqe2ehuq6a4v7vcxx8fvxxr){:target=\"_blank\"}\n\n**Metadata:** [https://discord.com/channels/1336477374442770503/1425189436748206171/1481942972055552041](https://discord.com/channels/1336477374442770503/1425189436748206171/1481942972055552041)\n\n**Failed reason:** proposal did not get enough votes to pass\n\n<div class=\"prop-funding-line prop-funding-lin",
-      "funding": "20,000 GNK · Community Pool · 25,000 GNK · Gov Module",
-      "quorum_met": null,
-      "checksum": "10d4dbbd6ce7f81733e7f377a5ffa3f981f9175e7f981d209f1d2653624446e3"
-    },
-    "2026-q2/39/index.md": {
-      "title": "#39 – Community Series Film — Why Gonka Exists",
-      "status": "passed",
-      "content_preview": "# #39 – Community Series Film — Why Gonka Exists\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `39`\n\n**Type:** Community Pool Spend\n\n**Submit:** 2026-04-09 13:33 UTC\n\n**Voting:** 2026-04-09 13:33 UTC → 2026-04-10 13:33 UTC\n\n**Proposer:** [`gonka1snq0m4rdvq0sswm03r5jsmtzw3p384qsy3l4t4`](https://gonka.gg/address/gonka1snq0m4rdvq0sswm03r5jsmtzw3p384qsy3l4t4){:target=\"_blank\"}\n\n**Metadata:** [https://miro.com/app/board/uXjVG6L2uvQ=/](https://miro.com/app/board/uXjVG6L2uvQ=/)\n\n<div class=\"prop-funding-line\">31,250 GNK · Community Pool</div>\n\n[View on gonka.gg](https://gonka.gg/network/proposals/39){:target=\"_blank\"}\n\n</div>\n\nSaccade Media House is a creative team of tech entrepreneurs who know how to tell stories. We've buil",
-      "funding": "31,250 GNK · Community Pool",
-      "quorum_met": null,
-      "checksum": "1c696dc6dc579d33ac06bbc4d6156284361f1ae471d1c0ffd254717c05a34d33"
-    },
-    "2026-q2/40/index.md": {
-      "title": "#40 – Governance: extend voting period to 48 hours",
-      "status": "passed",
-      "content_preview": "# #40 – Governance: extend voting period to 48 hours\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `40`\n\n**Type:** Update Params\n\n**Submit:** 2026-04-13 06:11 UTC\n\n**Voting:** 2026-04-13 06:11 UTC → 2026-04-14 06:11 UTC\n\n**Proposer:** [`gonka1k6p754pyhxud2399knyccgjpjvdafj2u9xlgyf`](https://gonka.gg/address/gonka1k6p754pyhxud2399knyccgjpjvdafj2u9xlgyf){:target=\"_blank\"}\n\n[View on gonka.gg](https://gonka.gg/network/proposals/40){:target=\"_blank\"}\n\n</div>\n\nThis proposal updates x/gov: the standard voting period becomes 48 hours (was 24), and the expedited voting period becomes 12 hours (was 3). All other governance parameters remain at their current on-chain values.\n\n---\n\n## Final Tally\n\n<div class=\"prop-tally\">\n  <div cl",
-      "funding": "",
-      "quorum_met": null,
-      "checksum": "6230308e751452e640542ba81a4804cefadd996d55375233b9d52d06e00c69f3"
     },
     "2026-q2/41/full-proposal.md": {
       "title": "Gonka Node Observability Platform",
@@ -466,14 +154,6 @@
       "quorum_met": null,
       "checksum": "2240bd71fcfe4da5183f6bf1dc76ac58acf85627970e976297bbdb7d7bd5b8f7"
     },
-    "2026-q2/41/index.md": {
-      "title": "#41 – INC4 | Gonka Node Observability Platform",
-      "status": "rejected",
-      "content_preview": "# #41 – INC4 | Gonka Node Observability Platform\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-rejected\">Rejected</span>\n\n**Proposal ID:** `41`\n\n**Type:** Community Pool Spend\n\n**Submit:** 2026-04-16 18:42 UTC\n\n**Voting:** 2026-04-16 18:42 UTC → 2026-04-18 18:42 UTC\n\n**Proposer:** [`gonka12ss9dh7fj3xxmk23s8aje4hrpqq669u20v3ja6`](https://gonka.gg/address/gonka12ss9dh7fj3xxmk23s8aje4hrpqq669u20v3ja6){:target=\"_blank\"}\n\n**Metadata:** [https://github.com/gonka-ai/gonka/discussions/1085](https://github.com/gonka-ai/gonka/discussions/1085)\n\n**Failed reason:** proposal did not get enough votes to pass\n\n<div class=\"prop-funding-line prop-funding-line-rejected\">$96,000 · Community Pool</div>\n\n[View on gonka.gg](https://gonka.gg/network/proposals/41){:target=\"_blank\"}\n",
-      "funding": "$96,000 · Community Pool",
-      "quorum_met": null,
-      "checksum": "2d97eef84517860dbfab3a153e368ccda9da494832e26a21cff56b55b0accd08"
-    },
     "2026-q2/42/full-proposal.md": {
       "title": "Support Gonka at Global Compute Sovereignty Summit",
       "status": null,
@@ -481,22 +161,6 @@
       "funding": "",
       "quorum_met": null,
       "checksum": "22f4f0c9f1569412241d8dfcf2276c5257c9159902b68dd06650b542d3eaa7b7"
-    },
-    "2026-q2/42/index.md": {
-      "title": "#42 – Support Gonka at Global Compute Sovereignty Summit",
-      "status": "passed",
-      "content_preview": "# #42 – Support Gonka at Global Compute Sovereignty Summit\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `42`\n\n**Type:** Execute Contract\n\n**Submit:** 2026-04-17 18:51 UTC\n\n**Voting:** 2026-04-17 18:51 UTC → 2026-04-19 18:51 UTC\n\n**Proposer:** [`gonka1tknn6p8f2y4843fp4ud6ynq0727r7g8l568d27`](https://gonka.gg/address/gonka1tknn6p8f2y4843fp4ud6ynq0727r7g8l568d27){:target=\"_blank\"}\n\n**Metadata:** [https://github.com/DeAI-Nation/summit-proposal/blob/main/README.md](https://github.com/DeAI-Nation/summit-proposal/blob/main/README.md)\n\n<div class=\"prop-funding-line\">$10,000 · Community Pool</div>\n\n[View on gonka.gg](https://gonka.gg/network/proposals/42){:target=\"_blank\"}\n\n</div>\n\nWe are DeAI Nation, a global nonprofit organiz",
-      "funding": "$10,000 · Community Pool",
-      "quorum_met": null,
-      "checksum": "8e7e11d2478e700565833b694a8204ae4bbdb3a4eee5285d7af131773337fb56"
-    },
-    "2026-q2/43/index.md": {
-      "title": "#43 – Governance Architecture Proposal for the Gonka.ai Network",
-      "status": "rejected",
-      "content_preview": "# #43 – Governance Architecture Proposal for the Gonka.ai Network\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-rejected\">Rejected</span>\n\n**Proposal ID:** `43`\n\n**Type:** Community Pool Spend\n\n**Submit:** 2026-04-25 10:09 UTC\n\n**Voting:** 2026-04-25 10:09 UTC → 2026-04-27 10:09 UTC\n\n**Proposer:** [`gonka1syw6cs7jl5rmz7gpm3rq3836y2t484xp00ywrz`](https://gonka.gg/address/gonka1syw6cs7jl5rmz7gpm3rq3836y2t484xp00ywrz){:target=\"_blank\"}\n\n**Metadata:** [https://github.com/gonka-ai/gonka/discussions/1104](https://github.com/gonka-ai/gonka/discussions/1104)\n\n**Failed reason:** proposal did not get enough votes to pass\n\n<div class=\"prop-funding-line prop-funding-line-rejected\">104,166 GNK · Community Pool</div>\n\n[View on gonka.gg](https://gonka.gg/network/proposals/4",
-      "funding": "104,166 GNK · Community Pool",
-      "quorum_met": null,
-      "checksum": "eae0d1ad4a2a55420bee3fff7dbcd646c8e421edca366281a5dbc45653226f97"
     },
     "2026-q2/44/full-proposal.md": {
       "title": "Upgrade Proposal: v0.2.12",
@@ -506,22 +170,6 @@
       "quorum_met": null,
       "checksum": "315c6b26063b2088d01113743f40a0765b8d41dd81593cd7515694c00f5525e4"
     },
-    "2026-q2/44/index.md": {
-      "title": "#44 – Upgrade Proposal: v0.2.12",
-      "status": "passed",
-      "content_preview": "# #44 – Upgrade Proposal: v0.2.12\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `44`\n\n**Type:** Software Upgrade\n\n**Submit:** 2026-04-28 00:11 UTC\n\n**Voting:** 2026-04-28 00:11 UTC → 2026-04-30 00:11 UTC\n\n**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target=\"_blank\"}\n\n**Metadata:** [https://github.com/gonka-ai/gonka/blob/76d0eb971233f9544f681a25e860844e3f45641e/proposals/governance-artifacts/update-v0.2.12/README.md](https://github.com/gonka-ai/gonka/blob/76d0eb971233f9544f681a25e860844e3f45641e/proposals/governance-artifacts/update-v0.2.12/README.md)\n\n[View on gonka.gg](https://gonka.gg/network/proposals/44){:target=\"_blank\"}\n\n</di",
-      "funding": "",
-      "quorum_met": null,
-      "checksum": "990cafbea8389665581fec9a88557710b39f2a2ad5f44e55064d1687649eaa78"
-    },
-    "2026-q2/45/index.md": {
-      "title": "#45 – Governance Architecture Proposal for the Gonka.ai Network",
-      "status": "rejected",
-      "content_preview": "# #45 – Governance Architecture Proposal for the Gonka.ai Network\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-rejected\">Rejected</span>\n\n**Proposal ID:** `45`\n\n**Type:** Community Pool Spend\n\n**Submit:** 2026-04-29 20:28 UTC\n\n**Voting:** 2026-04-29 20:28 UTC → 2026-05-01 20:28 UTC\n\n**Proposer:** [`gonka1syw6cs7jl5rmz7gpm3rq3836y2t484xp00ywrz`](https://gonka.gg/address/gonka1syw6cs7jl5rmz7gpm3rq3836y2t484xp00ywrz){:target=\"_blank\"}\n\n**Metadata:** [https://github.com/gonka-ai/gonka/discussions/1104](https://github.com/gonka-ai/gonka/discussions/1104)\n\n**Failed reason:** proposal did not get enough votes to pass\n\n<div class=\"prop-funding-line prop-funding-line-rejected\">119,000 GNK · Community Pool</div>\n\n[View on gonka.gg](https://gonka.gg/network/proposals/4",
-      "funding": "119,000 GNK · Community Pool",
-      "quorum_met": null,
-      "checksum": "f0ac980aa458d92be6d0268300a7bc5634d341c54da94214c777d3322e0f557f"
-    },
     "2026-q2/46/full-proposal.md": {
       "title": "Gonka Withheld Rewards Redistribution",
       "status": null,
@@ -529,46 +177,6 @@
       "funding": "",
       "quorum_met": null,
       "checksum": "eacecfdf9b1480ba8d04b75d2e07c17509db729024f148475b24abddb4475bdf"
-    },
-    "2026-q2/46/index.md": {
-      "title": "#46 – Epochs 132-247 compensation payout from gov module (batch vesting)",
-      "status": "passed",
-      "content_preview": "# #46 – Epochs 132-247 compensation payout from gov module (batch vesting)\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `46`\n\n**Type:** Batch Transfer With Vesting, Multi Send\n\n**Submit:** 2026-05-02 03:52 UTC\n\n**Voting:** 2026-05-02 03:52 UTC → 2026-05-04 03:52 UTC\n\n**Proposer:** [`gonka1gmuxdcxlsxn5z72elx77w9zym7yrgfxqgzg6ry`](https://gonka.gg/address/gonka1gmuxdcxlsxn5z72elx77w9zym7yrgfxqgzg6ry){:target=\"_blank\"}\n\n**Metadata:** [https://github.com/gonkavip/taxreturn/blob/main/README.md](https://github.com/gonkavip/taxreturn/blob/main/README.md)\n\n<div class=\"prop-funding-line\">3,053,800 GNK · Gov Module</div>\n\n[View on gonka.gg](https://gonka.gg/network/proposals/46){:target=\"_blank\"}\n\n</div>\n\nTwo prior upgrades chan",
-      "funding": "3,053,800 GNK · Gov Module",
-      "quorum_met": null,
-      "checksum": "917a71006915e4b47bf92a4fccbe4cc7b5b5e5bc1bd52d17ff52b91ed7bec4f1"
-    },
-    "2026-q2/47/index.md": {
-      "title": "#47 – Retroactive bounty: open-source PoC throughput optimization (+10–12% measured) with 250 total installations",
-      "status": "rejected",
-      "content_preview": "# #47 – Retroactive bounty: open-source PoC throughput optimization (+10–12% measured) with 250 total installations\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-rejected\">Rejected</span>\n\n**Proposal ID:** `47`\n\n**Type:** Community Pool Spend\n\n**Submit:** 2026-05-04 11:43 UTC\n\n**Voting:** 2026-05-04 11:43 UTC → 2026-05-06 11:43 UTC\n\n**Proposer:** [`gonka14fxt7xlj74h54u5lz8epz0qeuhpka6xjhzsyq3`](https://gonka.gg/address/gonka14fxt7xlj74h54u5lz8epz0qeuhpka6xjhzsyq3){:target=\"_blank\"}\n\n**Metadata:** [https://vote.gonka.vip/tenders/6392c2ea-7fb8-45c7-b1ec-80fb16d81d93](https://vote.gonka.vip/tenders/6392c2ea-7fb8-45c7-b1ec-80fb16d81d93)\n\n**Failed reason:** proposal did not get enough votes to pass\n\n<div class=\"prop-funding-line prop-funding-line-rejected\">20,000 ",
-      "funding": "20,000 GNK · Community Pool",
-      "quorum_met": null,
-      "checksum": "73c04a9133fb487245ae76d145e84a746965a4ef473c7c349d6b6eadf2a3e601"
-    },
-    "2026-q2/48/index.md": {
-      "title": "#48 – Lower Direct Participation Threshold to 10%",
-      "status": "passed",
-      "content_preview": "# #48 – Lower Direct Participation Threshold to 10%\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `48`\n\n**Type:** Update Params\n\n**Submit:** 2026-05-05 07:00 UTC\n\n**Voting:** 2026-05-05 07:00 UTC → 2026-05-05 19:00 UTC\n\n**Expedited:** Yes\n\n**Proposer:** [`gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le`](https://gonka.gg/address/gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le){:target=\"_blank\"}\n\n[View on gonka.gg](https://gonka.gg/network/proposals/48){:target=\"_blank\"}\n\n</div>\n\nDuring the Kimi-K2.6 bootstrap, the 30% direct participation threshold proved hard to meet. To avoid the risk of Kimi-K2.6 becoming ineligible in a future epoch and to simplify onboarding of further models, this proposal lowers the threshold to 10%. T",
-      "funding": "",
-      "quorum_met": null,
-      "checksum": "4fa371b215cf16a887ffadbc3f8310687d153c0a564ad8da6dd3a5cf20745932"
-    },
-    "2026-q2/49/index.md": {
-      "title": "#49 – Gonka Media Dominance in TechL/AI with 5 AI Influencers",
-      "status": "passed",
-      "content_preview": "# #49 – Gonka Media Dominance in TechL/AI with 5 AI Influencers\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `49`\n\n**Type:** Execute Contract\n\n**Submit:** 2026-05-05 13:41 UTC\n\n**Voting:** 2026-05-05 13:41 UTC → 2026-05-07 13:41 UTC\n\n**Proposer:** [`gonka10mmdjau4dnj8krs7sh7t7635ttnmq9u3vqgz09`](https://gonka.gg/address/gonka10mmdjau4dnj8krs7sh7t7635ttnmq9u3vqgz09){:target=\"_blank\"}\n\n**Metadata:** [https://app.notion.com/p/Gonka-AI-AI-Influencer-Lab-Proposal-3514ff1f5a9a81faae76efbeb153cbe2](https://app.notion.com/p/Gonka-AI-AI-Influencer-Lab-Proposal-3514ff1f5a9a81faae76efbeb153cbe2)\n\n<div class=\"prop-funding-line\">$45,000 · Community Pool</div>\n\n[View on gonka.gg](https://gonka.gg/network/proposals/49){:target=\"_blan",
-      "funding": "$45,000 · Community Pool",
-      "quorum_met": null,
-      "checksum": "3d746e314fa4babe164caeb5d99920d54c5125a2fbb8d96addde0a75b0b5f7d0"
-    },
-    "2026-q2/50/index.md": {
-      "title": "#50 – Retroactive bounty: open-source PoC throughput optimization (+10–12% measured) with 250 total installations",
-      "status": "passed",
-      "content_preview": "# #50 – Retroactive bounty: open-source PoC throughput optimization (+10–12% measured) with 250 total installations\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `50`\n\n**Type:** Community Pool Spend\n\n**Submit:** 2026-05-07 15:54 UTC\n\n**Voting:** 2026-05-07 15:54 UTC → 2026-05-09 15:54 UTC\n\n**Proposer:** [`gonka14fxt7xlj74h54u5lz8epz0qeuhpka6xjhzsyq3`](https://gonka.gg/address/gonka14fxt7xlj74h54u5lz8epz0qeuhpka6xjhzsyq3){:target=\"_blank\"}\n\n**Metadata:** [https://vote.gonka.vip/tenders/6392c2ea-7fb8-45c7-b1ec-80fb16d81d93](https://vote.gonka.vip/tenders/6392c2ea-7fb8-45c7-b1ec-80fb16d81d93)\n\n<div class=\"prop-funding-line\">20,000 GNK · Community Pool</div>\n\n[View on gonka.gg](https://gonka.gg/network/proposals/50){:target",
-      "funding": "20,000 GNK · Community Pool",
-      "quorum_met": null,
-      "checksum": "012643963e4cb3b06ad735c25fd4b9824d7de1266a062e3a885d81118cdf7c64"
     },
     "2026-q2/51/full-proposal.md": {
       "title": "Support Gonka's Presence at WebX Asia",
@@ -578,14 +186,6 @@
       "quorum_met": null,
       "checksum": "00402fa0a1493eddce42969d315023241b664b0e3bf51913ca130c70f6347767"
     },
-    "2026-q2/51/index.md": {
-      "title": "#51 – Support Gonka's presence at WebX Asia",
-      "status": "passed",
-      "content_preview": "# #51 – Support Gonka's presence at WebX Asia\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `51`\n\n**Type:** Execute Contract\n\n**Submit:** 2026-05-13 13:17 UTC\n\n**Voting:** 2026-05-13 13:17 UTC → 2026-05-15 13:17 UTC\n\n**Proposer:** [`gonka15p7s7w2hx0y8095lddd4ummm2y0kwpwljk00aq`](https://gonka.gg/address/gonka15p7s7w2hx0y8095lddd4ummm2y0kwpwljk00aq){:target=\"_blank\"}\n\n**Metadata:** [https://github.com/6block/gonka-webx-proposal/blob/main/README.md](https://github.com/6block/gonka-webx-proposal/blob/main/README.md)\n\n<div class=\"prop-funding-line\">$75,000 · Community Pool</div>\n\n[View on gonka.gg](https://gonka.gg/network/proposals/51){:target=\"_blank\"}\n\n</div>\n\n6Block, a long-term Gonka mining and infrastructure participa",
-      "funding": "$75,000 · Community Pool",
-      "quorum_met": null,
-      "checksum": "797a234ea11b5ea24ba46f81e3bcfb61ae1f921b7848b6c9c236f4ff7774c7b1"
-    },
     "2026-q2/52/full-proposal.md": {
       "title": "Upgrade Proposal: v0.2.13",
       "status": null,
@@ -593,14 +193,6 @@
       "funding": "",
       "quorum_met": null,
       "checksum": "a7dc693e9701de36b20805bab3a42ac065244c08628833878eabb29009dea0b0"
-    },
-    "2026-q2/52/index.md": {
-      "title": "#52 – Upgrade Proposal: v0.2.13",
-      "status": "rejected",
-      "content_preview": "# #52 – Upgrade Proposal: v0.2.13\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-rejected\">Rejected</span>\n\n**Proposal ID:** `52`\n\n**Type:** Software Upgrade\n\n**Submit:** 2026-05-15 07:58 UTC\n\n**Voting:** 2026-05-15 07:58 UTC → 2026-05-17 07:58 UTC\n\n**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target=\"_blank\"}\n\n**Metadata:** [https://github.com/gonka-ai/gonka/blob/aa413e198825ddcc5eac80f4ca2e85a9bc54700e/proposals/governance-artifacts/update-v0.2.13/README.md](https://github.com/gonka-ai/gonka/blob/aa413e198825ddcc5eac80f4ca2e85a9bc54700e/proposals/governance-artifacts/update-v0.2.13/README.md)\n\n**Failed reason:** proposal did not get enough votes to pass\n\n[View on gonka.",
-      "funding": "",
-      "quorum_met": null,
-      "checksum": "bd12fb3d3b19a689faa3d00659fb4276a981a18982563617401e1ed63902364a"
     },
     "2026-q2/53/full-proposal.md": {
       "title": "Gonka NOP - grant for the node deployment tool",
@@ -610,14 +202,6 @@
       "quorum_met": null,
       "checksum": "38b6b7a17c3b02b8ad29a447b2666c95ee86de55541ed42f8fb49f43bac56dd9"
     },
-    "2026-q2/53/index.md": {
-      "title": "#53 – INC4 | Gonka NOP - grant for the node deployment tool",
-      "status": "rejected",
-      "content_preview": "# #53 – INC4 | Gonka NOP - grant for the node deployment tool\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-rejected\">Rejected</span>\n\n**Proposal ID:** `53`\n\n**Type:** Execute Contract\n\n**Submit:** 2026-05-19 11:14 UTC\n\n**Voting:** 2026-05-19 11:14 UTC → 2026-05-21 11:14 UTC\n\n**Proposer:** [`gonka12ss9dh7fj3xxmk23s8aje4hrpqq669u20v3ja6`](https://gonka.gg/address/gonka12ss9dh7fj3xxmk23s8aje4hrpqq669u20v3ja6){:target=\"_blank\"}\n\n**Metadata:** [https://github.com/gonka-ai/gonka/discussions/1192](https://github.com/gonka-ai/gonka/discussions/1192)\n\n**Failed reason:** proposal did not get enough votes to pass\n\n<div class=\"prop-funding-line prop-funding-line-rejected\">$50,000 · Community Pool</div>\n\n[View on gonka.gg](https://gonka.gg/network/proposals/53){:target=\"",
-      "funding": "$50,000 · Community Pool",
-      "quorum_met": null,
-      "checksum": "159c215ac7465f1239b5baaf32577741d4b3658513d7e36db12a034c39d59a72"
-    },
     "2026-q2/54/full-proposal.md": {
       "title": "Upgrade Proposal: v0.2.13",
       "status": null,
@@ -625,14 +209,6 @@
       "funding": "",
       "quorum_met": null,
       "checksum": "d64e228897956d27f0fa695c6673456ac8e9ab45db0360c5223a87a54d7d19a2"
-    },
-    "2026-q2/54/index.md": {
-      "title": "#54 – Upgrade Proposal: v0.2.13",
-      "status": "passed",
-      "content_preview": "# #54 – Upgrade Proposal: v0.2.13\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `54`\n\n**Type:** Software Upgrade\n\n**Submit:** 2026-05-20 22:12 UTC\n\n**Voting:** 2026-05-20 22:12 UTC → 2026-05-22 22:12 UTC\n\n**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target=\"_blank\"}\n\n**Metadata:** [https://github.com/gonka-ai/gonka/blob/3f0c34f77c9b8f8c32ca5303ef3ffad23d66d5ea/proposals/governance-artifacts/update-v0.2.13/README.md](https://github.com/gonka-ai/gonka/blob/3f0c34f77c9b8f8c32ca5303ef3ffad23d66d5ea/proposals/governance-artifacts/update-v0.2.13/README.md)\n\n[View on gonka.gg](https://gonka.gg/network/proposals/54){:target=\"_blank\"}\n\n</di",
-      "funding": "",
-      "quorum_met": null,
-      "checksum": "a1a7db3128456865c146f2e34508a9e0a7396331c3ad5ad721d9324615527e6a"
     },
     "2026-q2/55/full-proposal.md": {
       "title": "full-proposal",
@@ -642,14 +218,6 @@
       "quorum_met": null,
       "checksum": "93436b40bf86d6d5b1e71de9a311ee4db9818e6537ebc67546c4fb403cc00f4c"
     },
-    "2026-q2/55/index.md": {
-      "title": "#55 – GRC Proposal #2 - Restitution (epochs 248-254)",
-      "status": "passed",
-      "content_preview": "# #55 – GRC Proposal #2 - Restitution (epochs 248-254)\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `55`\n\n**Type:** Batch Transfer With Vesting, Community Pool Spend\n\n**Submit:** 2026-05-21 16:18 UTC\n\n**Voting:** 2026-05-21 16:18 UTC → 2026-05-23 16:18 UTC\n\n**Proposer:** [`gonka197hqnwcl30x4js3egvaujjmfknlxy7rmfw3y6k`](https://gonka.gg/address/gonka197hqnwcl30x4js3egvaujjmfknlxy7rmfw3y6k){:target=\"_blank\"}\n\n**Metadata:** [https://github.com/votkon/grc-proposal-2](https://github.com/votkon/grc-proposal-2)\n\n<div class=\"prop-funding-line\">39,722 GNK · Community Pool · 306,307 GNK · Gov Module</div>\n\n[View on gonka.gg](https://gonka.gg/network/proposals/55){:target=\"_blank\"}\n\n</div>\n\nDistribute restitution for Cases 2, 3, ",
-      "funding": "39,722 GNK · Community Pool · 306,307 GNK · Gov Module",
-      "quorum_met": null,
-      "checksum": "2cb06ccdf0a7a27fd28bc77d2ff211cffa2eb85ff7eeeceb8cb638a95ef59bf7"
-    },
     "2026-q2/56/full-proposal.md": {
       "title": "Gonka NOP - grant for the node deployment tool",
       "status": null,
@@ -657,14 +225,6 @@
       "funding": "",
       "quorum_met": null,
       "checksum": "38b6b7a17c3b02b8ad29a447b2666c95ee86de55541ed42f8fb49f43bac56dd9"
-    },
-    "2026-q2/56/index.md": {
-      "title": "#56 – INC4 | Gonka NOP - grant for the node deployment tool",
-      "status": "rejected",
-      "content_preview": "# #56 – INC4 | Gonka NOP - grant for the node deployment tool\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-rejected\">Rejected</span>\n\n**Proposal ID:** `56`\n\n**Type:** Execute Contract\n\n**Submit:** 2026-05-25 15:12 UTC\n\n**Voting:** 2026-05-25 15:12 UTC → 2026-05-27 15:12 UTC\n\n**Proposer:** [`gonka1juwk05glldgn7850a3547jsl7l4vrhx9k5g3cr`](https://gonka.gg/address/gonka1juwk05glldgn7850a3547jsl7l4vrhx9k5g3cr){:target=\"_blank\"}\n\n**Metadata:** [https://github.com/gonka-ai/gonka/discussions/1192](https://github.com/gonka-ai/gonka/discussions/1192)\n\n**Failed reason:** proposal did not get enough votes to pass\n\n<div class=\"prop-funding-line prop-funding-line-rejected\">$50,000 · Community Pool</div>\n\n[View on gonka.gg](https://gonka.gg/network/proposals/56){:target=\"",
-      "funding": "$50,000 · Community Pool",
-      "quorum_met": null,
-      "checksum": "7b3b42316c0415a2ee6cc3639dabf5bee849f435417af1a04df20f762b3496a6"
     },
     "2026-q2/57/full-proposal.md": {
       "title": "full-proposal",
@@ -674,30 +234,6 @@
       "quorum_met": null,
       "checksum": "b74f4fc06d3d1988ac03db29e1971d81336d2f31096c46ae4aca9fb080f4ec9c"
     },
-    "2026-q2/57/index.md": {
-      "title": "#57 – Approve the Gonka Network Development Roadmap",
-      "status": "passed",
-      "content_preview": "# #57 – Approve the Gonka Network Development Roadmap\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `57`\n\n**Type:** —\n\n**Submit:** 2026-05-28 09:48 UTC\n\n**Voting:** 2026-05-28 09:48 UTC → 2026-05-30 09:48 UTC\n\n**Proposer:** [`gonka1k6p754pyhxud2399knyccgjpjvdafj2u9xlgyf`](https://gonka.gg/address/gonka1k6p754pyhxud2399knyccgjpjvdafj2u9xlgyf){:target=\"_blank\"}\n\n**Metadata:** [https://github.com/gonka-ai/gonka/pull/1266](https://github.com/gonka-ai/gonka/pull/1266)\n\n[View on gonka.gg](https://gonka.gg/network/proposals/57){:target=\"_blank\"}\n\n</div>\n\nThis proposal approves the Gonka Network Development Roadmap as a strategic direction document for Gonka's future development tracks.\n\nIf approved, the roadmap should become t",
-      "funding": "",
-      "quorum_met": null,
-      "checksum": "1c22925784b519ee7b58279344164148750aa3e9c93bc0927863c9a446d3c590"
-    },
-    "2026-q2/58/index.md": {
-      "title": "#58 – Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)",
-      "status": "rejected",
-      "content_preview": "# #58 – Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-rejected\">Rejected</span>\n\n**Proposal ID:** `58`\n\n**Type:** Execute Contract\n\n**Submit:** 2026-05-28 16:27 UTC\n\n**Voting:** 2026-05-28 16:27 UTC → 2026-05-30 16:27 UTC\n\n**Proposer:** [`gonka1v5cl6pudnagau7exyu3a9h74clw9zm7l5psp0r`](https://gonka.gg/address/gonka1v5cl6pudnagau7exyu3a9h74clw9zm7l5psp0r){:target=\"_blank\"}\n\n**Metadata:** [https://vote.gonka.vip/tenders/550f71de-897f-4ce5-8af8-97854775f8b2](https://vote.gonka.vip/tenders/550f71de-897f-4ce5-8af8-97854775f8b2)\n\n**Failed reason:** proposal did not get enough votes to pass\n\n<div class=\"prop-funding-line prop-funding-line-rejected\">$70,000 · Community Pool</div>\n\n[View on gonka.gg](https",
-      "funding": "$70,000 · Community Pool",
-      "quorum_met": null,
-      "checksum": "ab4d08b89107cc6c751d0cfb4e6da8716a7ced45cda676250e2a4e6b3d03138a"
-    },
-    "2026-q2/59/index.md": {
-      "title": "#59 – Gonka Onboarding Video Guide — Milestone 1 (Prepayment)",
-      "status": "rejected",
-      "content_preview": "# #59 – Gonka Onboarding Video Guide — Milestone 1 (Prepayment)\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-rejected\">Rejected</span>\n\n**Proposal ID:** `59`\n\n**Type:** Execute Contract\n\n**Submit:** 2026-05-31 13:08 UTC\n\n**Voting:** 2026-05-31 13:08 UTC → 2026-06-02 13:08 UTC\n\n**Proposer:** [`gonka1tg7x8pv5lfnytkr9av3532mf2qq22ysdxxzr87`](https://gonka.gg/address/gonka1tg7x8pv5lfnytkr9av3532mf2qq22ysdxxzr87){:target=\"_blank\"}\n\n**Metadata:** `Examples of work the team contributed to: https://www.youtube.com/watch?v=HzF6kyS3Fb8 | https://www.udemy.com/course/build-smart-contracts-for-cardano-blockchain/`\n\n**Failed reason:** proposal did not get enough votes to pass\n\n<div class=\"prop-funding-line prop-funding-line-rejected\">$5,000 · Community Pool</div>\n\n[View ",
-      "funding": "$5,000 · Community Pool",
-      "quorum_met": null,
-      "checksum": "f020cf3cc24c02c919a9b0ebe7c94e53e323e718557864b631ac529495fd827f"
-    },
     "2026-q2/60/full-proposal.md": {
       "title": "full-proposal",
       "status": null,
@@ -705,14 +241,6 @@
       "funding": "",
       "quorum_met": null,
       "checksum": "7aeb000252a33c88dc9f4e87bfc726586b1e7a85aea4a1f0742151fbcf6f02bd"
-    },
-    "2026-q2/60/index.md": {
-      "title": "#60 – TheSoul - Offer 1.1: Brand positioning (25,000 USDT)",
-      "status": "passed",
-      "content_preview": "# #60 – TheSoul - Offer 1.1: Brand positioning (25,000 USDT)\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `60`\n\n**Type:** Execute Contract\n\n**Submit:** 2026-06-02 08:15 UTC\n\n**Voting:** 2026-06-02 08:15 UTC → 2026-06-04 08:15 UTC\n\n**Proposer:** [`gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm`](https://gonka.gg/address/gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm){:target=\"_blank\"}\n\n**Metadata:** [https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/1](https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/1)\n\n<div class=\"prop-funding-line\">$25,000 · Community Pool</div>\n\n[View on gonka.gg](https://gonka.gg/network/proposals/60){:target=\"_blank\"}\n\n</div>\n\nBrand audit, competitive positioning, and audience",
-      "funding": "$25,000 · Community Pool",
-      "quorum_met": null,
-      "checksum": "c530e5597cd5002d89287a645ca3ff0d6b8a34a1499b5a0806e881e39f070c99"
     },
     "2026-q2/61/full-proposal.md": {
       "title": "full-proposal",
@@ -722,14 +250,6 @@
       "quorum_met": null,
       "checksum": "53b6dd81d9478c79b143f03228f38556c979509440c4f5fc6d5d301ed7ceabd4"
     },
-    "2026-q2/61/index.md": {
-      "title": "#61 – TheSoul - Offer 1.2: Brandbook (20,000 USDT)",
-      "status": "passed",
-      "content_preview": "# #61 – TheSoul - Offer 1.2: Brandbook (20,000 USDT)\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `61`\n\n**Type:** Execute Contract\n\n**Submit:** 2026-06-02 08:19 UTC\n\n**Voting:** 2026-06-02 08:19 UTC → 2026-06-04 08:19 UTC\n\n**Proposer:** [`gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm`](https://gonka.gg/address/gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm){:target=\"_blank\"}\n\n**Metadata:** [https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/2](https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/2)\n\n<div class=\"prop-funding-line\">$20,000 · Community Pool</div>\n\n[View on gonka.gg](https://gonka.gg/network/proposals/61){:target=\"_blank\"}\n\n</div>\n\nBrand identity system for Gonka.AI: logo, typography, colo",
-      "funding": "$20,000 · Community Pool",
-      "quorum_met": null,
-      "checksum": "ebea672c67b38945febb125f1a0f0bccc0a344775dbe9aefe6169c0c1cd735f5"
-    },
     "2026-q2/62/full-proposal.md": {
       "title": "full-proposal",
       "status": null,
@@ -737,14 +257,6 @@
       "funding": "",
       "quorum_met": null,
       "checksum": "a380e439d57597a3725ae6a1abc896f86bbddaba90ebad341f8b64a160c1f635"
-    },
-    "2026-q2/62/index.md": {
-      "title": "#62 – TheSoul - Offer 1.3: Influencer pilot (50,000 USDT)",
-      "status": "passed",
-      "content_preview": "# #62 – TheSoul - Offer 1.3: Influencer pilot (50,000 USDT)\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `62`\n\n**Type:** Execute Contract\n\n**Submit:** 2026-06-02 08:20 UTC\n\n**Voting:** 2026-06-02 08:20 UTC → 2026-06-04 08:20 UTC\n\n**Proposer:** [`gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm`](https://gonka.gg/address/gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm){:target=\"_blank\"}\n\n**Metadata:** [https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/3](https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/3)\n\n<div class=\"prop-funding-line\">$50,000 · Community Pool</div>\n\n[View on gonka.gg](https://gonka.gg/network/proposals/62){:target=\"_blank\"}\n\n</div>\n\nCrypto-influencer pilot campaign for Gonka.AI acros",
-      "funding": "$50,000 · Community Pool",
-      "quorum_met": null,
-      "checksum": "6104b12246c01564bdb3020ac82590d2197a4b83c794d5248aae893c1babb804"
     },
     "2026-q2/63/full-proposal.md": {
       "title": "full-proposal",
@@ -754,14 +266,6 @@
       "quorum_met": null,
       "checksum": "55d10ab153ea6b54775a8e76ee44ef8a539bcc0ad4c7372d5eac3f5cbad818c6"
     },
-    "2026-q2/63/index.md": {
-      "title": "#63 – TheSoul - Offer 2.1: Website and landings (10,000 USDT)",
-      "status": "passed",
-      "content_preview": "# #63 – TheSoul - Offer 2.1: Website and landings (10,000 USDT)\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `63`\n\n**Type:** Execute Contract\n\n**Submit:** 2026-06-02 08:20 UTC\n\n**Voting:** 2026-06-02 08:20 UTC → 2026-06-04 08:20 UTC\n\n**Proposer:** [`gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm`](https://gonka.gg/address/gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm){:target=\"_blank\"}\n\n**Metadata:** [https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/4](https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/4)\n\n<div class=\"prop-funding-line\">$10,000 · Community Pool</div>\n\n[View on gonka.gg](https://gonka.gg/network/proposals/63){:target=\"_blank\"}\n\n</div>\n\nFull redesign of gonka.ai plus dedicated landin",
-      "funding": "$10,000 · Community Pool",
-      "quorum_met": null,
-      "checksum": "8ea66219df68bad80416407a9dd6a0960a49be9bc3f49435fce0a2fe9e6f6033"
-    },
     "2026-q2/64/full-proposal.md": {
       "title": "full-proposal",
       "status": null,
@@ -769,14 +273,6 @@
       "funding": "",
       "quorum_met": null,
       "checksum": "33fcee08a51f483485229ffddd8908e568cc0e3d0932e55a039443fb51fc60c2"
-    },
-    "2026-q2/64/index.md": {
-      "title": "#64 – TheSoul - Offer 2.2: Analytics and attribution (28,000 GNK)",
-      "status": "passed",
-      "content_preview": "# #64 – TheSoul - Offer 2.2: Analytics and attribution (28,000 GNK)\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `64`\n\n**Type:** Community Pool Spend\n\n**Submit:** 2026-06-02 08:21 UTC\n\n**Voting:** 2026-06-02 08:21 UTC → 2026-06-04 08:21 UTC\n\n**Proposer:** [`gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm`](https://gonka.gg/address/gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm){:target=\"_blank\"}\n\n**Metadata:** [https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/5](https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/5)\n\n<div class=\"prop-funding-line\">28,000 GNK · Community Pool</div>\n\n[View on gonka.gg](https://gonka.gg/network/proposals/64){:target=\"_blank\"}\n\n</div>\n\nWeb analytics, attribution, and funn",
-      "funding": "28,000 GNK · Community Pool",
-      "quorum_met": null,
-      "checksum": "5c084ed2739f0e2c010b39fe6f89aa3f15781970ee8d7107adc0874d801bbd75"
     },
     "2026-q2/65/full-proposal.md": {
       "title": "full-proposal",
@@ -786,22 +282,6 @@
       "quorum_met": null,
       "checksum": "07632fd3f95b4b3fef99c7e7d27d039a2a1a4cd7f4a1f3ed875452e15594ed36"
     },
-    "2026-q2/65/index.md": {
-      "title": "#65 – TheSoul - Offer 2.3: Digital strategy (100,000 GNK)",
-      "status": "passed",
-      "content_preview": "# #65 – TheSoul - Offer 2.3: Digital strategy (100,000 GNK)\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `65`\n\n**Type:** Community Pool Spend\n\n**Submit:** 2026-06-02 08:21 UTC\n\n**Voting:** 2026-06-02 08:21 UTC → 2026-06-04 08:21 UTC\n\n**Proposer:** [`gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm`](https://gonka.gg/address/gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm){:target=\"_blank\"}\n\n**Metadata:** [https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/6](https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/6)\n\n<div class=\"prop-funding-line\">100,000 GNK · Community Pool</div>\n\n[View on gonka.gg](https://gonka.gg/network/proposals/65){:target=\"_blank\"}\n\n</div>\n\nFull 360-degree digital and social strategy",
-      "funding": "100,000 GNK · Community Pool",
-      "quorum_met": null,
-      "checksum": "5d3897f216f0b75f9fcfb00ba586e25c8b44883e50937c954855ebb8f2bd97c7"
-    },
-    "2026-q2/66/index.md": {
-      "title": "#66 – test proposal - 测试方案",
-      "status": "rejected",
-      "content_preview": "# #66 – test proposal - 测试方案\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-rejected\">Rejected</span>\n\n**Proposal ID:** `66`\n\n**Type:** Execute Contract\n\n**Submit:** 2026-06-03 17:45 UTC\n\n**Voting:** 2026-06-03 17:45 UTC → 2026-06-05 17:45 UTC\n\n**Proposer:** [`gonka1hwyjwehgp6e5pgpg0ye4a7unwu5q9xzljpuwr5`](https://gonka.gg/address/gonka1hwyjwehgp6e5pgpg0ye4a7unwu5q9xzljpuwr5){:target=\"_blank\"}\n\n**Failed reason:** proposal did not get enough votes to pass\n\n<div class=\"prop-funding-line prop-funding-line-rejected\">$1,000,000 · Community Pool</div>\n\n[View on gonka.gg](https://gonka.gg/network/proposals/66){:target=\"_blank\"}\n\n</div>\n\ntest proposal - 测试方案\n\n---\n\n## Final Tally\n\n<div class=\"prop-tally\">\n  <div class=\"prop-tally-bar\">\n    <div class=\"prop-tally-yes\" s",
-      "funding": "$1,000,000 · Community Pool",
-      "quorum_met": null,
-      "checksum": "209ee0643dd457d845cdc6754d5352f8c2ffe6544e5524681d7fc38da4e4c9c8"
-    },
     "2026-q2/67/full-proposal.md": {
       "title": "Run any epoch's calculator",
       "status": null,
@@ -809,30 +289,6 @@
       "funding": "",
       "quorum_met": null,
       "checksum": "a263f7afe00054e089450c372cd8030492877f39f9c50cd5ad8fc6a9fb57ece8"
-    },
-    "2026-q2/67/index.md": {
-      "title": "#67 – Kimi Restitution (epochs 265-276)",
-      "status": "passed",
-      "content_preview": "# #67 – Kimi Restitution (epochs 265-276)\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `67`\n\n**Type:** Batch Transfer With Vesting\n\n**Submit:** 2026-06-03 21:54 UTC\n\n**Voting:** 2026-06-03 22:09 UTC → 2026-06-05 22:09 UTC\n\n**Proposer:** [`gonka1nvcwl2c7jxj2h47c56y8dmcmf0tynt5dplzngy`](https://gonka.gg/address/gonka1nvcwl2c7jxj2h47c56y8dmcmf0tynt5dplzngy){:target=\"_blank\"}\n\n**Metadata:** [https://github.com/votkon/gonka-kimi-restitution](https://github.com/votkon/gonka-kimi-restitution)\n\n<div class=\"prop-funding-line\">946,509 GNK · Gov Module</div>\n\n[View on gonka.gg](https://gonka.gg/network/proposals/67){:target=\"_blank\"}\n\n</div>\n\nDistribute restitution for Kimi operators across epochs 265-276. Epochs 265-266: externa",
-      "funding": "946,509 GNK · Gov Module",
-      "quorum_met": null,
-      "checksum": "ad5a4db893a1c9f6e33c9807fc5e17be2e9d69068003209118595f36e4b5e69f"
-    },
-    "2026-q2/68/index.md": {
-      "title": "#68 – Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)",
-      "status": "passed",
-      "content_preview": "# #68 – Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `68`\n\n**Type:** Execute Contract\n\n**Submit:** 2026-06-05 18:30 UTC\n\n**Voting:** 2026-06-05 18:30 UTC → 2026-06-07 18:30 UTC\n\n**Proposer:** [`gonka1e3pepqllu89t8l2acw86fgp5jjkw8m7kcl47nk`](https://gonka.gg/address/gonka1e3pepqllu89t8l2acw86fgp5jjkw8m7kcl47nk){:target=\"_blank\"}\n\n**Metadata:** [https://vote.gonka.vip/tenders/550f71de-897f-4ce5-8af8-97854775f8b2](https://vote.gonka.vip/tenders/550f71de-897f-4ce5-8af8-97854775f8b2)\n\n<div class=\"prop-funding-line\">$70,000 · Community Pool</div>\n\n[View on gonka.gg](https://gonka.gg/network/proposals/68){:target=\"_blank\"}\n\n</div>\n\nThe proposal is reopened for vot",
-      "funding": "$70,000 · Community Pool",
-      "quorum_met": null,
-      "checksum": "e4739e4ad6e3ffdb481c9a7778abaf5ca87ec160b15ad9a6781f7190e3ae1f43"
-    },
-    "2026-q2/69/index.md": {
-      "title": "#69 – Increase minimum governance deposit to 500 GNK",
-      "status": "rejected",
-      "content_preview": "# #69 – Increase minimum governance deposit to 500 GNK\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-rejected\">Failed</span>\n\n**Proposal ID:** `69`\n\n**Type:** Update Params\n\n**Submit:** 2026-06-05 19:21 UTC\n\n**Voting:** 2026-06-05 19:26 UTC → 2026-06-07 19:26 UTC\n\n**Proposer:** [`gonka197hqnwcl30x4js3egvaujjmfknlxy7rmfw3y6k`](https://gonka.gg/address/gonka197hqnwcl30x4js3egvaujjmfknlxy7rmfw3y6k){:target=\"_blank\"}\n\n**Failed reason:** maximum deposit period must not be nil: 0\n\n[View on gonka.gg](https://gonka.gg/network/proposals/69){:target=\"_blank\"}\n\n</div>\n\nIncrease the minimum deposit required to submit a governance proposal from the current value to 500 GNK. Also sets expedited minimum deposit to 1000 GNK.\n\n---\n\n## Final Tally\n\n<div class=\"prop-tally\">\n  <",
-      "funding": "",
-      "quorum_met": null,
-      "checksum": "870e67a5f47944face6e9d600123b42b34ce3fd63aaef5b4399f25216dcf9de7"
     },
     "2026-q2/70/full-proposal.md": {
       "title": "full-proposal",
@@ -842,86 +298,6 @@
       "quorum_met": null,
       "checksum": "d167626f7abf23e32a99d3e3566f0d15f567aa2b0fd4c7b79d594382c343e0b6"
     },
-    "2026-q2/70/index.md": {
-      "title": "#70 – GNK Racers: Launch GameFi Mini-App to Drive User Growth & Wallet Activity",
-      "status": "rejected",
-      "content_preview": "# #70 – GNK Racers: Launch GameFi Mini-App to Drive User Growth & Wallet Activity\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-rejected\">Rejected</span>\n\n**Proposal ID:** `70`\n\n**Type:** Community Pool Spend\n\n**Submit:** 2026-06-06 07:35 UTC\n\n**Voting:** 2026-06-06 07:35 UTC → 2026-06-08 07:35 UTC\n\n**Proposer:** [`gonka13kzs38qkq4uc0astlshv39kt9gpu3sr99unpcq`](https://gonka.gg/address/gonka13kzs38qkq4uc0astlshv39kt9gpu3sr99unpcq){:target=\"_blank\"}\n\n**Metadata:** [https://github.com/Pestarzt0011/GNKRacers-proposal](https://github.com/Pestarzt0011/GNKRacers-proposal)\n\n**Failed reason:** proposal did not get enough votes to pass\n\n<div class=\"prop-funding-line prop-funding-line-rejected\">246,000 GNK · Community Pool</div>\n\n[View on gonka.gg](https://gonka.gg/net",
-      "funding": "246,000 GNK · Community Pool",
-      "quorum_met": null,
-      "checksum": "91203bb4f90b26552b79c3e799a50d48581eba62d69383b3800dc2a8d3c94a03"
-    },
-    "2026-q2/71/index.md": {
-      "title": "#71 – Gonka PR Proposal for US/Global Regions",
-      "status": "rejected",
-      "content_preview": "# #71 – Gonka PR Proposal for US/Global Regions\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-rejected\">Rejected</span>\n\n**Proposal ID:** `71`\n\n**Type:** Execute Contract\n\n**Submit:** 2026-06-08 10:41 UTC\n\n**Voting:** 2026-06-08 10:41 UTC → 2026-06-10 10:41 UTC\n\n**Proposer:** [`gonka10mmdjau4dnj8krs7sh7t7635ttnmq9u3vqgz09`](https://gonka.gg/address/gonka10mmdjau4dnj8krs7sh7t7635ttnmq9u3vqgz09){:target=\"_blank\"}\n\n**Metadata:** [https://www.figma.com/deck/qd7a7bkcit9O1LZ8whP9Ei](https://www.figma.com/deck/qd7a7bkcit9O1LZ8whP9Ei)\n\n**Failed reason:** proposal did not get enough votes to pass\n\n<div class=\"prop-funding-line prop-funding-line-rejected\">$75,000 · Community Pool</div>\n\n[View on gonka.gg](https://gonka.gg/network/proposals/71){:target=\"_blank\"}\n\n</div>",
-      "funding": "$75,000 · Community Pool",
-      "quorum_met": null,
-      "checksum": "3cdcd410ae639154b350f5e13a14389d1d6479688ff0158524f3b1187e7167bc"
-    },
-    "2026-q2/72/index.md": {
-      "title": "#72 – Open devshard escrow creation to community wallet gonka1afj0tz53z56zngs425m83vxl5y2xmwm692hfrn",
-      "status": "rejected",
-      "content_preview": "# #72 – Open devshard escrow creation to community wallet gonka1afj0tz53z56zngs425m83vxl5y2xmwm692hfrn\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-rejected\">Rejected</span>\n\n**Proposal ID:** `72`\n\n**Type:** Update Params\n\n**Submit:** 2026-06-10 04:51 UTC\n\n**Voting:** 2026-06-10 04:51 UTC → 2026-06-12 04:51 UTC\n\n**Proposer:** [`gonka1afj0tz53z56zngs425m83vxl5y2xmwm692hfrn`](https://gonka.gg/address/gonka1afj0tz53z56zngs425m83vxl5y2xmwm692hfrn){:target=\"_blank\"}\n\n**Metadata:** `ipfs://`\n\n**Failed reason:** proposal did not get enough votes to pass\n\n[View on gonka.gg](https://gonka.gg/network/proposals/72){:target=\"_blank\"}\n\n</div>\n\nAdds a community-operated wallet to devshard_escrow_params.allowed_creator_addresses, enabling it to create a devshard escrow and",
-      "funding": "",
-      "quorum_met": null,
-      "checksum": "9dd431fb4493bf316db99c17828c0d24aaef5c5dce5fed41b04e758a46b5c5a0"
-    },
-    "2026-q2/73/index.md": {
-      "title": "#73 – Increase minimum governance deposit to 500 GNK and expedited minimum deposit to 1000 GNK",
-      "status": "passed",
-      "content_preview": "# #73 – Increase minimum governance deposit to 500 GNK and expedited minimum deposit to 1000 GNK\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `73`\n\n**Type:** Update Params\n\n**Submit:** 2026-06-10 07:32 UTC\n\n**Voting:** 2026-06-10 07:32 UTC → 2026-06-12 07:32 UTC\n\n**Proposer:** [`gonka1337v0tk0ng0dhmz2pk9qv0gsvpe48eafppc6u8`](https://gonka.gg/address/gonka1337v0tk0ng0dhmz2pk9qv0gsvpe48eafppc6u8){:target=\"_blank\"}\n\n[View on gonka.gg](https://gonka.gg/network/proposals/73){:target=\"_blank\"}\n\n</div>\n\nIncrease the minimum deposit required to submit a governance proposal to 500 GNK (500,000,000,000 ngonka) and expedited minimum deposit to 1000 GNK (1,000,000,000,000 ngonka). This resubmits proposal #69 which passed community",
-      "funding": "",
-      "quorum_met": null,
-      "checksum": "fd77b67ca9f47ccfc2d3f1f6dfa54f173b0035e9ca8cf84d1e40a87d1f70a2df"
-    },
-    "2026-q2/74/index.md": {
-      "title": "#74 – Gonka Labs: Maintaining Infrastructure, Improving Products, and Launching New Ones",
-      "status": "passed",
-      "content_preview": "# #74 – Gonka Labs: Maintaining Infrastructure, Improving Products, and Launching New Ones\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `74`\n\n**Type:** Execute Contract, Transfer With Vesting\n\n**Submit:** 2026-06-10 20:42 UTC\n\n**Voting:** 2026-06-10 20:42 UTC → 2026-06-12 20:42 UTC\n\n**Proposer:** [`gonka1e3pepqllu89t8l2acw86fgp5jjkw8m7kcl47nk`](https://gonka.gg/address/gonka1e3pepqllu89t8l2acw86fgp5jjkw8m7kcl47nk){:target=\"_blank\"}\n\n**Metadata:** [https://gonkalabs.com/proposal](https://gonkalabs.com/proposal)\n\n<div class=\"prop-funding-line\">$70,000 · Community Pool · 330,000 GNK · Gov Module</div>\n\n[View on gonka.gg](https://gonka.gg/network/proposals/74){:target=\"_blank\"}\n\n</div>\n\nFull proposal: <https://gonkalabs.co",
-      "funding": "$70,000 · Community Pool · 330,000 GNK · Gov Module",
-      "quorum_met": null,
-      "checksum": "fa5be91befd0cf33396f4bd266db0f42f49e48f75f213eb65525963b3ecf9b73"
-    },
-    "2026-q2/75/index.md": {
-      "title": "#75 – Private Inc × Gonka — Network Growth Initiative",
-      "status": "rejected",
-      "content_preview": "# #75 – Private Inc × Gonka — Network Growth Initiative\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-rejected\">Rejected</span>\n\n**Proposal ID:** `75`\n\n**Type:** Execute Contract\n\n**Submit:** 2026-06-13 16:24 UTC\n\n**Voting:** 2026-06-13 16:24 UTC → 2026-06-15 16:24 UTC\n\n**Proposer:** [`gonka1q022xj6uyylzzhdlsh3jtkp5ycrnzwgpwgp4tn`](https://gonka.gg/address/gonka1q022xj6uyylzzhdlsh3jtkp5ycrnzwgpwgp4tn){:target=\"_blank\"}\n\n**Metadata:** [https://vote.gonka.vip/tenders/ed8148eb-535e-4677-9a6b-5316c81c996a](https://vote.gonka.vip/tenders/ed8148eb-535e-4677-9a6b-5316c81c996a)\n\n**Failed reason:** proposal did not get enough votes to pass\n\n<div class=\"prop-funding-line prop-funding-line-rejected\">$300,000 · Community Pool</div>\n\n[View on gonka.gg](https://gonka.gg/ne",
-      "funding": "$300,000 · Community Pool",
-      "quorum_met": null,
-      "checksum": "a2fac8f0c2fabb19e47450209f18f959c9a0e6556bc63ba1af160d3c98e84c7f"
-    },
-    "2026-q2/76/index.md": {
-      "title": "#76 – Governance 16: devshard v2 and bounty payouts",
-      "status": "passed",
-      "content_preview": "# #76 – Governance 16: devshard v2 and bounty payouts\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `76`\n\n**Type:** Execute Contract, Update Params\n\n**Submit:** 2026-06-15 23:39 UTC\n\n**Voting:** 2026-06-15 23:39 UTC → 2026-06-17 23:39 UTC\n\n**Proposer:** [`gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le`](https://gonka.gg/address/gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le){:target=\"_blank\"}\n\n<div class=\"prop-funding-line\">$93,600 · Community Pool</div>\n\n[View on gonka.gg](https://gonka.gg/network/proposals/76){:target=\"_blank\"}\n\n</div>\n\nRegister devshard approved version v2.\n\n---\n\n## Final Tally\n\n<div class=\"prop-tally\">\n  <div class=\"prop-tally-bar\">\n    <div class=\"prop-tally-yes\" style=\"width:100.0%\"></div>\n    <div cl",
-      "funding": "$93,600 · Community Pool",
-      "quorum_met": null,
-      "checksum": "e09b2d710574e9e53cb0b68d3d61d2fea9e4f2400063692a63d13422b80e5d4c"
-    },
-    "2026-q2/77/index.md": {
-      "title": "#77 – Gonka PR Proposal for US/Global Regions",
-      "status": "passed",
-      "content_preview": "# #77 – Gonka PR Proposal for US/Global Regions\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `77`\n\n**Type:** Execute Contract\n\n**Submit:** 2026-06-24 15:18 UTC\n\n**Voting:** 2026-06-24 15:18 UTC → 2026-06-26 15:18 UTC\n\n**Proposer:** [`gonka10mmdjau4dnj8krs7sh7t7635ttnmq9u3vqgz09`](https://gonka.gg/address/gonka10mmdjau4dnj8krs7sh7t7635ttnmq9u3vqgz09){:target=\"_blank\"}\n\n**Metadata:** [https://www.figma.com/deck/qd7a7bkcit9O1LZ8whP9Ei](https://www.figma.com/deck/qd7a7bkcit9O1LZ8whP9Ei)\n\n<div class=\"prop-funding-line\">$75,000 · Community Pool</div>\n\n[View on gonka.gg](https://gonka.gg/network/proposals/77){:target=\"_blank\"}\n\n</div>\n\nWe are INPUT Global - a leading web3 marketing communications agency. We offer 3 month PR c",
-      "funding": "$75,000 · Community Pool",
-      "quorum_met": null,
-      "checksum": "b3dfd4f0c9b367ad5a778c27893a5bf99ebe72c4f0bcd0d478abeca585c946e0"
-    },
-    "2026-q2/78/index.md": {
-      "title": "#78 – Governance 17: update PoC model lineup",
-      "status": "passed",
-      "content_preview": "# #78 – Governance 17: update PoC model lineup\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `78`\n\n**Type:** Delete Governance Model, Update Params\n\n**Submit:** 2026-06-25 03:39 UTC\n\n**Voting:** 2026-06-25 03:39 UTC → 2026-06-25 15:39 UTC\n\n**Expedited:** Yes\n\n**Proposer:** [`gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le`](https://gonka.gg/address/gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le){:target=\"_blank\"}\n\n[View on gonka.gg](https://gonka.gg/network/proposals/78){:target=\"_blank\"}\n\n</div>\n\nSet delegation initial_model_id to MiniMaxAI/MiniMax-M2.7, keep only MiniMaxAI/MiniMax-M2.7 in PoC params, remove Qwen/Qwen3-235B-A22B-Instruct-2507-FP8, moonshotai/Kimi-K2.6 from PoC params, and delete Qwen/Qwen3-235B-A22B-Instruc",
-      "funding": "",
-      "quorum_met": null,
-      "checksum": "738df1c16828e844d041c6d1d0e46cf046c0800532a91c95d396c0dd045499f4"
-    },
-    "2026-q2/79/index.md": {
-      "title": "#79 – Add Kimi K2.6 and GLM 5.2 model",
-      "status": "passed",
-      "content_preview": "# #79 – Add Kimi K2.6 and GLM 5.2 model\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `79`\n\n**Type:** Register Model, Update Params\n\n**Submit:** 2026-06-26 02:18 UTC\n\n**Voting:** 2026-06-26 02:18 UTC → 2026-06-26 14:18 UTC\n\n**Expedited:** Yes\n\n**Proposer:** [`gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le`](https://gonka.gg/address/gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le){:target=\"_blank\"}\n\n[View on gonka.gg](https://gonka.gg/network/proposals/79){:target=\"_blank\"}\n\n</div>\n\nAdd Kimi K2.6 and GLM 5.2 model\n\n---\n\n## Final Tally\n\n<div class=\"prop-tally\">\n  <div class=\"prop-tally-bar\">\n    <div class=\"prop-tally-yes\" style=\"width:100.0%\"></div>\n    <div class=\"prop-tally-no\" style=\"width:0.0%\"></div>\n    <div class=\"prop",
-      "funding": "",
-      "quorum_met": null,
-      "checksum": "22a19b536030f3103b3cf6bc6d2a71a1875adfb7742c9ef4fe8d51fcdcdf110c"
-    },
     "2026-q3/80/full-proposal.md": {
       "title": "GRC Proposal #3 - Restitution",
       "status": null,
@@ -929,14 +305,6 @@
       "funding": "",
       "quorum_met": null,
       "checksum": "5ce5144cc9979ec7a4cd184a3e4eb6c6d60e07f2a572296f5060b7a1fda831fd"
-    },
-    "2026-q3/80/index.md": {
-      "title": "#80 – GRC Proposal #3 - Restitution",
-      "status": "rejected",
-      "content_preview": "# #80 – GRC Proposal #3 - Restitution\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-rejected\">Rejected</span>\n\n**Proposal ID:** `80`\n\n**Type:** Batch Transfer With Vesting, Community Pool Spend\n\n**Submit:** 2026-07-05 19:40 UTC\n\n**Voting:** 2026-07-05 19:40 UTC → 2026-07-07 19:40 UTC\n\n**Proposer:** [`gonka100s7x2t0npruu9ta02306qfmaened3vg3a9dn6`](https://gonka.gg/address/gonka100s7x2t0npruu9ta02306qfmaened3vg3a9dn6){:target=\"_blank\"}\n\n**Metadata:** [https://github.com/huxuxuya/GRC-3-result](https://github.com/huxuxuya/GRC-3-result)\n\n**Failed reason:** proposal did not get enough votes to pass\n\n<div class=\"prop-funding-line prop-funding-line-rejected\">47,850 GNK · Community Pool · 70,184 GNK · Gov Module</div>\n\n[View on gonka.gg](https://gonka.gg/network/propo",
-      "funding": "47,850 GNK · Community Pool · 70,184 GNK · Gov Module",
-      "quorum_met": false,
-      "checksum": "1fa9c26e7cc9bebbc973fd7d1d69575defaf75b3f961bd5d42dc9759e1813e5b"
     },
     "2026-q3/81/full-proposal.md": {
       "title": "Kimi cPoC Validation Failure, Epochs 306–309",
@@ -946,14 +314,6 @@
       "quorum_met": null,
       "checksum": "b74374907ab55cbb9039cc1a0fb69132cdf843a9dde757518cc4bd59c9ddc005"
     },
-    "2026-q3/81/index.md": {
-      "title": "#81 – Kimi cPoC Restitution (epochs 306-309)",
-      "status": "rejected",
-      "content_preview": "# #81 – Kimi cPoC Restitution (epochs 306-309)\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-rejected\">Rejected</span>\n\n**Proposal ID:** `81`\n\n**Type:** Batch Transfer With Vesting\n\n**Submit:** 2026-07-08 05:57 UTC\n\n**Voting:** 2026-07-08 05:57 UTC → 2026-07-10 05:57 UTC\n\n**Proposer:** [`gonka123pr0p0salv96xvne9qln70x3usvpyscug5f9a`](https://gonka.gg/address/gonka123pr0p0salv96xvne9qln70x3usvpyscug5f9a){:target=\"_blank\"}\n\n**Metadata:** [https://github.com/votkon/gonka-kimi-e306-issue](https://github.com/votkon/gonka-kimi-e306-issue)\n\n**Failed reason:** proposal did not get enough votes to pass\n\n<div class=\"prop-funding-line prop-funding-line-rejected\">175,082 GNK · Gov Module</div>\n\n[View on gonka.gg](https://gonka.gg/network/proposals/81){:target=\"_blank\"}\n\n",
-      "funding": "175,082 GNK · Gov Module",
-      "quorum_met": true,
-      "checksum": "85dc3437963f685cc05c4817aab735fcca5e4c0517beba31c4f0aeecdf62e762"
-    },
     "2026-q3/82/full-proposal.md": {
       "title": "External Test Lab & Community DevNet",
       "status": null,
@@ -961,22 +321,6 @@
       "funding": "",
       "quorum_met": null,
       "checksum": "ec4cea907855a95719739a4f2e3595a3b79c13a519aec8ff2bb1ddc70e7405c5"
-    },
-    "2026-q3/82/index.md": {
-      "title": "#82 – External Test Lab x Community DevNet",
-      "status": "passed",
-      "content_preview": "# #82 – External Test Lab x Community DevNet\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `82`\n\n**Type:** Community Pool Spend, Execute Contract, Instantiate Contract2\n\n**Submit:** 2026-07-08 11:31 UTC\n\n**Voting:** 2026-07-08 11:31 UTC → 2026-07-10 11:31 UTC\n\n**Proposer:** [`gonka1k6p754pyhxud2399knyccgjpjvdafj2u9xlgyf`](https://gonka.gg/address/gonka1k6p754pyhxud2399knyccgjpjvdafj2u9xlgyf){:target=\"_blank\"}\n\n**Metadata:** [https://github.com/gonka-ai/gonka/discussions/1388](https://github.com/gonka-ai/gonka/discussions/1388)\n\n<div class=\"prop-funding-line\">80,000 GNK · $88,000 · Community Pool</div>\n\n[View on gonka.gg](https://gonka.gg/network/proposals/82){:target=\"_blank\"}\n\n</div>\n\n4-month pilot of the External Test",
-      "funding": "80,000 GNK · $88,000 · Community Pool",
-      "quorum_met": true,
-      "checksum": "432b1e1943d9cff127acd7db52fbef35247c958371293ed8ed88da1a012802db"
-    },
-    "2026-q3/83/index.md": {
-      "title": "#83 – Approve devshard v3",
-      "status": "passed",
-      "content_preview": "# #83 – Approve devshard v3\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `83`\n\n**Type:** Update Params\n\n**Submit:** 2026-07-09 06:41 UTC\n\n**Voting:** 2026-07-09 06:41 UTC → 2026-07-11 06:41 UTC\n\n**Proposer:** [`gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le`](https://gonka.gg/address/gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le){:target=\"_blank\"}\n\n[View on gonka.gg](https://gonka.gg/network/proposals/83){:target=\"_blank\"}\n\n</div>\n\nUpdate current chain params by adding v3 to devshard_escrow_params.approved_versions.\n\n---\n\n## Final Tally\n\n<div class=\"prop-tally\">\n  <div class=\"prop-tally-bar\">\n    <div class=\"prop-tally-yes\" style=\"width:100.0%\"></div>\n    <div class=\"prop-tally-no\" style=\"width:0.0%\"></div>\n    <div class",
-      "funding": "",
-      "quorum_met": true,
-      "checksum": "aad50e6a66aa02ef6cf6a605e5038234a438547e4cec8a093e2afcb4f82cdffb"
     },
     "2026-q3/84/full-proposal.md": {
       "title": "Bringing $3M+ in New Capital to GONKA via Uniswap — Phase 1/6 ($50k USDT)",
@@ -986,14 +330,6 @@
       "quorum_met": null,
       "checksum": "f103e7c5fe909eea20012b555aab4acbd0c7eae04f798ef6337060b91280fd95"
     },
-    "2026-q3/84/index.md": {
-      "title": "#84 – Bringing $3M+ in New Capital to GONKA via Uniswap — Phase 1/6 ($50k USDT)",
-      "status": "rejected",
-      "content_preview": "# #84 – Bringing $3M+ in New Capital to GONKA via Uniswap — Phase 1/6 ($50k USDT)\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-rejected\">Rejected</span>\n\n**Proposal ID:** `84`\n\n**Type:** Community Pool Spend, Execute Contract\n\n**Submit:** 2026-07-09 18:14 UTC\n\n**Voting:** 2026-07-09 18:14 UTC → 2026-07-11 18:14 UTC\n\n**Proposer:** [`gonka1njlf4guhkf60tt8z4ayf4sx73nkf5vsumjplat`](https://gonka.gg/address/gonka1njlf4guhkf60tt8z4ayf4sx73nkf5vsumjplat){:target=\"_blank\"}\n\n**Metadata:** [https://gonka.vote/proposal/f341b83c-78f0-4ab2-b8fd-ddc7ac5d9c37](https://gonka.vote/proposal/f341b83c-78f0-4ab2-b8fd-ddc7ac5d9c37)\n\n**Failed reason:** proposal did not get enough votes to pass\n\n<div class=\"prop-funding-line prop-funding-line-rejected\">20,000 GNK · $50,000 · Commun",
-      "funding": "20,000 GNK · $50,000 · Community Pool",
-      "quorum_met": true,
-      "checksum": "f27ee5b9cf9ebd31ec9b5d407b5c7b7a0a8c839fefd0d5e45d0bd3f027a5b327"
-    },
     "2026-q3/85/full-proposal.md": {
       "title": "Internal Go-To-Market Team for 3 Month to Set Up the Basis: acquisition funnels, analytics, sharable target audience deep understanding",
       "status": null,
@@ -1001,38 +337,6 @@
       "funding": "",
       "quorum_met": null,
       "checksum": "272b03d83556a18e552a6e9ee734f0a88749b9ad6c4440b1a46934509f692f0e"
-    },
-    "2026-q3/85/index.md": {
-      "title": "#85 – Internal Go-To-Market Team for 3 Month",
-      "status": "rejected",
-      "content_preview": "# #85 – Internal Go-To-Market Team for 3 Month\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-rejected\">Rejected</span>\n\n**Proposal ID:** `85`\n\n**Type:** Community Pool Spend, Execute Contract, Instantiate Contract2\n\n**Submit:** 2026-07-10 00:41 UTC\n\n**Voting:** 2026-07-10 00:41 UTC → 2026-07-12 00:41 UTC\n\n**Proposer:** [`gonka1vfafh4jq674227q8j0h33fwz4jmgtxmp4vsd93`](https://gonka.gg/address/gonka1vfafh4jq674227q8j0h33fwz4jmgtxmp4vsd93){:target=\"_blank\"}\n\n**Metadata:** [https://app.integrity.sh/p/SuMCnGQBhz-0asAYBUz1U](https://app.integrity.sh/p/SuMCnGQBhz-0asAYBUz1U)\n\n**Failed reason:** proposal did not get enough votes to pass\n\n<div class=\"prop-funding-line prop-funding-line-rejected\">600,000 GNK · $36,000 · Community Pool</div>\n\n[View on gonka.gg](https://",
-      "funding": "600,000 GNK · $36,000 · Community Pool",
-      "quorum_met": false,
-      "checksum": "57f86b36dd6a9a5edd3ab90f73943dd80429c92b44d2826873f623ece1a13c6e"
-    },
-    "2026-q3/86/index.md": {
-      "title": "#86 – Increase Kimi-K2.6 and GLM-5.2 weight_scale_factor by 5%",
-      "status": "passed",
-      "content_preview": "# #86 – Increase Kimi-K2.6 and GLM-5.2 weight_scale_factor by 5%\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `86`\n\n**Type:** Update Params\n\n**Submit:** 2026-07-14 17:53 UTC\n\n**Voting:** 2026-07-14 17:53 UTC → 2026-07-16 17:53 UTC\n\n**Proposer:** [`gonka123pr0p0salv96xvne9qln70x3usvpyscug5f9a`](https://gonka.gg/address/gonka123pr0p0salv96xvne9qln70x3usvpyscug5f9a){:target=\"_blank\"}\n\n[View on gonka.gg](https://gonka.gg/network/proposals/86){:target=\"_blank\"}\n\n</div>\n\nIncrease the weight_scale_factor for moonshotai/Kimi-K2.6 from 0.90 to 0.945 (+5%) and for zai-org/GLM-5.2-FP8 from 2.47 to 2.5935 (+5%). All other model and chain parameters remain unchanged.\n\n---\n\n## Final Tally\n\n<div class=\"prop-tally\">\n  <div class=\"prop",
-      "funding": "",
-      "quorum_met": true,
-      "checksum": "ed2d4d96a48675bc0717a0ef73108277d067342e6da2155e64fb0c7b58d75660"
-    },
-    "2026-q3/87/index.md": {
-      "title": "#87 – Remove Kimi K2.6 model",
-      "status": "passed",
-      "content_preview": "# #87 – Remove Kimi K2.6 model\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `87`\n\n**Type:** Delete Governance Model, Update Params\n\n**Submit:** 2026-07-16 00:01 UTC\n\n**Voting:** 2026-07-16 00:01 UTC → 2026-07-16 12:01 UTC\n\n**Expedited:** Yes\n\n**Proposer:** [`gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le`](https://gonka.gg/address/gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le){:target=\"_blank\"}\n\n[View on gonka.gg](https://gonka.gg/network/proposals/87){:target=\"_blank\"}\n\n</div>\n\nRemove moonshotai/Kimi-K2.6 from PoC params and delete it from the governance model list.\n\n---\n\n## Final Tally\n\n<div class=\"prop-tally\">\n  <div class=\"prop-tally-bar\">\n    <div class=\"prop-tally-yes\" style=\"width:100.0%\"></div>\n    <div class=\"pro",
-      "funding": "",
-      "quorum_met": true,
-      "checksum": "11098dd6c417a11f379d9fb744e2c480cea001f324823949972f8e014a5c194a"
-    },
-    "2026-q3/88/index.md": {
-      "title": "#88 – Restore Kimi K2.6 and remove v1, v2",
-      "status": "passed",
-      "content_preview": "# #88 – Restore Kimi K2.6 and remove v1, v2\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<span class=\"prop-badge prop-passed\">Passed</span>\n\n**Proposal ID:** `88`\n\n**Type:** Register Model, Update Params\n\n**Submit:** 2026-07-16 18:09 UTC\n\n**Voting:** 2026-07-16 18:09 UTC → 2026-07-17 06:09 UTC\n\n**Expedited:** Yes\n\n**Proposer:** [`gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le`](https://gonka.gg/address/gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le){:target=\"_blank\"}\n\n[View on gonka.gg](https://gonka.gg/network/proposals/88){:target=\"_blank\"}\n\n</div>\n\nUpdate current chain params to register moonshotai/Kimi-K2.6 in the governance model list and remove approved_versions v1, v2 from devshard_escrow_params (to reduce RAM usage).\n\n---\n\n## Final Tally\n\n<div class=\"prop-tally\">\n  <div class=\"prop-",
-      "funding": "",
-      "quorum_met": true,
-      "checksum": "5bf1599e46da00331fc90e64450662b1800651870326e111c61d3363153ef7a7"
     }
   }
 }
