@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-07-20T09:52:47.411286+00:00",
+  "snapshot_time": "2026-07-20T12:11:15.886185+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -265,12 +265,6 @@
       "status": null,
       "content_preview": "# Rewards\n\n!!! note \n    This documentation is provided for reference only. Final parameters and technical details may change, so always verify the latest on-chain state and the relevant GitHub repository before relying on this document.\n\n## Overview of tokenomics\n\nThe Core incentive for Hosts (680 million gonka (GNK) coins, 68% of the total supply) is designed to reward Hosts for contributing computational power to the decentralized network. Under the Bitcoin-style reward System, a fixed amount of GNK is minted per epoch and distributed proportionally to each Host’s Proof of Compute (PoC) weight. As the network grows and more GPUs compete for the same fixed reward, the GNK earned per GPU decreases, introducing scarcity-driven value dynamics similar to Bitcoin mining. Long-term value for H",
       "checksum": "1f118eec395e1c706f5f80892fc8e34c85cdc041ff529748b03d17baa13bfeea"
-    },
-    "index.md": {
-      "title": "index",
-      "status": null,
-      "content_preview": "<div>\n<div class=\"gonka-landing\">\n  <!-- Header -->\n  <header class=\"gonka-header\">\n      <a href=\"/\" class=\"gonka-logo\">\n        <svg width=\"44\" height=\"44\" viewBox=\"0 0 44 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n          <path d=\"M22.0779 0.000895182C22.2017 6.07859 22.4682 12.1564 22.8218 18.234C23.2874 26.2385 26.7009 34.2436 29.0827 42.2481C29.1354 42.4251 29.185 42.6029 29.2367 42.7799C26.9701 43.5691 24.5355 44 22 44C19.4649 44 17.0305 43.5698 14.7642 42.7808C14.816 42.6034 14.8663 42.4255 14.9191 42.2481C17.3009 34.2436 20.7144 26.2385 21.18 18.234C21.5336 12.1564 21.7992 6.07859 21.923 0.000895182C21.9487 0.000807303 21.9743 0 22 0C22.026 0 22.0519 0.000805247 22.0779 0.000895182Z\" fill=\"#2A2A2A\"/>\n          <path d=\"M20.7262 21.2364C19.4639 28.1647 15.6505 35.0935 12",
-      "checksum": "441e1431d38dbc1813be061f5b8b02d343d24c8d720252a3471f4a2efab21f72"
     },
     "introduction.md": {
       "title": "introduction",
@@ -667,12 +661,6 @@
       "status": null,
       "content_preview": "# 如何编辑验证者公开信息\n\n本指南介绍如何更新您的验证者资料，包括可读名称、网站和头像/身份标识，以便浏览器正确显示信息。\n\n## 前提条件\n\n- 您必须是验证者的运营商（持有运营商密钥）。\n- 您的节点必须正在运行并连接到网络。\n- 如果您希望拥有经过验证的头像，请准备一个身份服务（例如，[Keybase](https://keybase.io/)）。\n\n## 字段 / 参数\n\n以下是您可以设置或编辑的**唯一**字段。\n\n| 字段     | 标志        | 用途 / 显示内容                                                                 |\n|----------|------------|----------------------------------------------------------------------------------|\n| 名称（Moniker）  | `--new-moniker`  | 您验证者的公开名称，将在浏览器中显示。                  |\n| 网站（Website）  | `--website`  | 指向您验证者网站或项目页面的链接。显示后，委托人可进一步了解您的信息。    |\n| 身份（Identity） | `--identity` | 通常用于提供身份验证证明（例如 [Keybase](https://keybase.io/)），许多浏览器使用此ID获取您的头像/标志。您需要从网站下载应用以生成PRP密钥来获取您的标志。 |\n\n## 分步指南\n\n如果您还没有PGP密钥，请运行以下命令：\n```\nkeybase pgp gen\n```\n\n??? note \"使用 Keybase 生成 PGP 密钥（keybase pgp ",
       "checksum": "51dab552f29b9109702357e3b966bc2bfd54952c392c70d1450417aac61633b5"
-    },
-    "zh/index.md": {
-      "title": "index",
-      "status": null,
-      "content_preview": "<div>\n<div class=\"gonka-landing\">\n  <!-- Header -->\n  <header class=\"gonka-header\">\n      <a href=\"/\" class=\"gonka-logo\">\n        <svg width=\"44\" height=\"44\" viewBox=\"0 0 44 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n          <path d=\"M22.0779 0.000895182C22.2017 6.07859 22.4682 12.1564 22.8218 18.234C23.2874 26.2385 26.7009 34.2436 29.0827 42.2481C29.1354 42.4251 29.185 42.6029 29.2367 42.7799C26.9701 43.5691 24.5355 44 22 44C19.4649 44 17.0305 43.5698 14.7642 42.7808C14.816 42.6034 14.8663 42.4255 14.9191 42.2481C17.3009 34.2436 20.7144 26.2385 21.18 18.234C21.5336 12.1564 21.7992 6.07859 21.923 0.000895182C21.9487 0.000807303 21.9743 0 22 0C22.026 0 22.0519 0.000805247 22.0779 0.000895182Z\" fill=\"#2A2A2A\"/>\n          <path d=\"M20.7262 21.2364C19.4639 28.1647 15.6505 35.0935 12",
-      "checksum": "046c30a957da6617e8a6e2901228d3d16c96474e6e624b37d8cc4aa1eaf60c22"
     },
     "zh/introduction.md": {
       "title": "Gonka",
