@@ -1,5 +1,149 @@
 [
   {
+    "id": "evt_20260720073628_22399410",
+    "timestamp": "2026-07-20T07:36:28.119759+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#892 — [P0] `devshards`: add end-to-end tests for timeout mechanisms",
+      "url": "/community/issues/00892-p0-devshards-add-end-to-end-tests-for-timeout-mechanisms/",
+      "file": "00892-p0-devshards-add-end-to-end-tests-for-timeout-mechanisms.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [P0] `devshards`: add end-to-end tests for timeout mechanisms\n    <span class=\"issues-number\">#892</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/dcastro\">@dcastro</a> opened 2026-03-16 13:48 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"iss",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] `devshards`: add end-to-end tests for timeout mechanisms\n    <span class=\"issues-number\">#892</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/dcastro\">@dcastro</a> opened 2026-03-16 13:48 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"m"
+    },
+    "ai_description": "Задача с наивысшим приоритетом по добавлению сквозных тестов для механизмов таймаута в devshards закрыта. Это значит, что критически важная проверка стабильности сети при долгих ответах реализована и протестирована. Сообщество может быть спокойнее за надежность инференса в таких сценариях."
+  },
+  {
+    "id": "evt_20260720073628_5083c2d9",
+    "timestamp": "2026-07-20T07:36:28.119824+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#915 — [P0] Benchmark `devshards`",
+      "url": "/community/issues/00915-p0-benchmark-devshards/",
+      "file": "00915-p0-benchmark-devshards.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [P0] Benchmark `devshards`\n    <span class=\"issues-number\">#915</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/dcastro\">@dcastro</a> opened 2026-03-18 10:49 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style=\"background-color:",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] Benchmark `devshards`\n    <span class=\"issues-number\">#915</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/dcastro\">@dcastro</a> opened 2026-03-18 10:49 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issue"
+    },
+    "ai_description": "Критически важная задача по бенчмаркингу devshards с приоритетом P0 успешно закрыта. Это означает, что разработчики завершили измерение производительности ключевого компонента сети и теперь можно двигаться дальше с подтвержденными данными. Спасибо всем, кто участвовал в обсуждении и помог довести issue до результата."
+  },
+  {
+    "id": "evt_20260720073628_56a36ba1",
+    "timestamp": "2026-07-20T07:36:28.119855+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1167 — `devshards` Optimizations for v0.2.13 db usage",
+      "url": "/community/issues/01167-devshards-optimizations-for-v0213-db-usage/",
+      "file": "01167-devshards-optimizations-for-v0213-db-usage.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshards` Optimizations for v0.2.13 db usage\n    <span class=\"issues-number\">#1167</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/akup\">@akup</a> opened 2026-05-14 15:47 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-c",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    `devshards` Optimizations for v0.2.13 db usage\n    <span class=\"issues-number\">#1167</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/akup\">@akup</a> opened 2026-05-14 15:47 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></di"
+    },
+    "ai_description": "Задача по оптимизации devshards для работы с базой данных в версии 0.2.13 успешно закрыта. Это значит, что улучшения производительности и стабильности сети на новой версии БД внедрены, а узлы смогут работать эффективнее. Спасибо akup за вклад в развитие инфраструктуры Gonka!"
+  },
+  {
+    "id": "evt_20260720073628_9e7640b9",
+    "timestamp": "2026-07-20T07:36:28.119877+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1264 — logprobs, top_logprobs conditional stripping",
+      "url": "/community/issues/01264-logprobs-top-logprobs-conditional-stripping/",
+      "file": "01264-logprobs-top-logprobs-conditional-stripping.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    logprobs, top_logprobs conditional stripping\n    <span class=\"issues-number\">#1264</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 2026-05-27 17:29 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" st",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    logprobs, top_logprobs conditional stripping\n    <span class=\"issues-number\">#1264</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 2026-05-27 17:29 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;"
+    },
+    "ai_description": "Issue #1264 об условном удалении logprobs и top_logprobs теперь закрыт. Похоже, задача решена или больше не актуальна, что означает прогресс в доработке механизмов обработки логарифмических вероятностей в сети."
+  },
+  {
+    "id": "evt_20260720073628_16df5bca",
+    "timestamp": "2026-07-20T07:36:28.119901+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "GitHub Issues — `gonka-ai/gonka`",
+      "url": "/community/issues/",
+      "file": "index.md"
+    },
+    "details": {
+      "content_before": "# GitHub Issues — `gonka-ai/gonka`\n\nAll issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).\nTotal: **314** (🟢 open: **71**, 🔴 closed: **243**).\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"01470-security-residual-ssrf-on-inferenceurl-dnsrebind-validator-r/\">Security: Residual SSRF on InferenceUrl — DNS/rebind + validator redirect (incomplete fix after #505/#534)</a>\n      <span class=\"issues-number\">#1470</span>\n    </div>\n    <p class=\"issues-desc\">## Summ",
+      "content_after": "# GitHub Issues — `gonka-ai/gonka`\n\nAll issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).\nTotal: **314** (🟢 open: **67**, 🔴 closed: **247**).\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"00915-p0-benchmark-devshards/\">[P0] Benchmark `devshards`</a>\n      <span class=\"issues-number\">#915</span>\n    </div>\n    <p class=\"issues-desc\">With the upgrade 0.2.11, we can stress test and benchmark subnets in test environments.  We shou"
+    },
+    "ai_description": "Команда закрыла ещё 4 задачи: теперь в репозитории gonka-ai/gonka 67 открытых и 247 закрытых issues. Среди закрытых — приоритетная задача P0 по бенчмаркингу devshards, что приближает релиз стресс-тестирования сабнетей."
+  },
+  {
+    "id": "evt_20260720073628_230bb318",
+    "timestamp": "2026-07-20T07:36:28.119921+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "Issues: devshards",
+      "url": "/community/issues/labels/devshards/",
+      "file": "labels/devshards/index.md"
+    },
+    "details": {
+      "content_before": "# Issues: devshards\n\nIssues with label **devshards**. Total: **14**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../00913-p0-make-handling-of-warm-keys-deterministic-research/\">[P0] Make handling of warm keys deterministic (research)</a>\n      <span class=\"issues-number\">#913</span>\n    </div>\n    \n    <div class=\"issues-labels\"><span class=\"issues-label\" style=\"background-color: #f86c7a; color: #24292f; border-",
+      "content_after": "# Issues: devshards\n\nIssues with label **devshards**. Total: **14**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../00915-p0-benchmark-devshards/\">[P0] Benchmark `devshards`</a>\n      <span class=\"issues-number\">#915</span>\n    </div>\n    \n    <div class=\"issues-labels\"><span class=\"issues-label\" style=\"background-color: #f86c7a; color: #24292f; border-color: #f86c7a;\">Priority: High</span> <span class=\"issues-l"
+    },
+    "ai_description": "В списке задач с меткой devshards появилось новое приоритетное исследование — бенчмаркинг devshards под номером 915. Это значит, что команда сдвинула фокус с теоретической проработки обработки ключей к практическому измерению производительности шардов, что приближает нас к реальным данным об эффективности сети."
+  },
+  {
+    "id": "evt_20260720073628_9c39073e",
+    "timestamp": "2026-07-20T07:36:28.119945+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "Issues: enhancement",
+      "url": "/community/issues/labels/enhancement/",
+      "file": "labels/enhancement/index.md"
+    },
+    "details": {
+      "content_before": "# Issues: enhancement\n\nIssues with label **enhancement**. Total: **13**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01408-model-lineup-improvement-add-an-accessible-glm-52-candidate-/\">Model lineup improvement: add an accessible GLM-5.2 candidate and reconsider MiniMax-M2.7 as default</a>\n      <span class=\"issues-number\">#1408</span>\n    </div>\n    \n    <div class=\"issues-labels\"><span class=\"issues-label\" style=\"background-color: #a2ee",
+      "content_after": "# Issues: enhancement\n\nIssues with label **enhancement**. Total: **13**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01264-logprobs-top-logprobs-conditional-stripping/\">logprobs, top_logprobs conditional stripping</a>\n      <span class=\"issues-number\">#1264</span>\n    </div>\n    \n    <div class=\"issues-labels\"><span class=\"issues-label\" style=\"background-color: #a2eeef; color: #24292f; border-color: #a2eeef;\""
+    },
+    "ai_description": "В списке задач с меткой enhancement произошла замена видимой задачи: вместо открытого issue #1408 о добавлении GLM-5.2 и пересмотре MiniMax-M2.7 теперь отображается закрытый issue #1264 об условном удалении logprobs и top_logprobs. Это означает, что задача #1408 была либо закрыта и убрана из активного списка, либо отфильтрована, а вот #1264 теперь отмечен как выполненный. Для сети это сигнал о том, что улучшение API-логики с логированием вероят"
+  },
+  {
+    "id": "evt_20260720073628_f784f5d0",
+    "timestamp": "2026-07-20T07:36:28.119966+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "Issues: no-label",
+      "url": "/community/issues/labels/no-label/",
+      "file": "labels/no-label/index.md"
+    },
+    "details": {
+      "content_before": "# Issues: no-label\n\nIssues with label **no-label**. Total: **239**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01470-security-residual-ssrf-on-inferenceurl-dnsrebind-validator-r/\">Security: Residual SSRF on InferenceUrl — DNS/rebind + validator redirect (incomplete fix after #505/#534)</a>\n      <span class=\"issues-number\">#1470</span>\n    </div>\n    \n    <div class=\"issues-labels\"></div>\n    <div class=\"issues-meta\">\n      <span class=\"",
+      "content_after": "# Issues: no-label\n\nIssues with label **no-label**. Total: **239**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01167-devshards-optimizations-for-v0213-db-usage/\">`devshards` Optimizations for v0.2.13 db usage</a>\n      <span class=\"issues-number\">#1167</span>\n    </div>\n    \n    <div class=\"issues-labels\"></div>\n    <div class=\"issues-meta\">\n      <span class=\"issues-meta-item\"><a href=\"https://github.com/ak"
+    },
+    "ai_description": "Issue без метки #1167 о оптимизации devshards для базы данных в версии 0.2.13 был закрыт. Это улучшение поможет сети работать эффективнее с базой данных в предстоящем обновлении."
+  },
+  {
+    "id": "evt_20260720073628_a591de41",
+    "timestamp": "2026-07-20T07:36:28.119989+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "Issues: Priority: High",
+      "url": "/community/issues/labels/priority-high/",
+      "file": "labels/priority-high/index.md"
+    },
+    "details": {
+      "content_before": "# Issues: Priority: High\n\nIssues with label **Priority: High**. Total: **29**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01358-inbound-bridge-votes-lost-after-upgrade-simulation-node-unav/\">Inbound bridge votes lost after upgrade simulation (node unavailable for some minutes for upgrade) — no retry, deposits stuck BRIDGE_PENDING</a>\n      <span class=\"issues-number\">#1358</span>\n    </div>\n    \n    <div cla",
+      "content_after": "# Issues: Priority: High\n\nIssues with label **Priority: High**. Total: **29**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../00915-p0-benchmark-devshards/\">[P0] Benchmark `devshards`</a>\n      <span class=\"issues-number\">#915</span>\n    </div>\n    \n    <div class=\"issues-labels\"><span class=\"issues-label\" style=\"background-color: #f86c7a; color: #24292f; border-color: #f86c7a;\">Priority: High</span> <span class"
+    },
+    "ai_description": "Мы обновили список приоритетных задач: на первом месте теперь бенчмаркинг devshards, который поможет оценить производительность сети перед следующими обновлениями. Это важный шаг для подготовки инфраструктуры к росту нагрузки."
+  },
+  {
     "id": "evt_20260720041213_f3c63a82",
     "timestamp": "2026-07-20T04:12:13.316824+00:00",
     "section": "issues",

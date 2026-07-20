@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-07-20T04:12:33.649804+00:00",
+  "snapshot_time": "2026-07-20T07:37:36.874843+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "Description",
@@ -1223,8 +1223,8 @@
     "00892-p0-devshards-add-end-to-end-tests-for-timeout-mechanisms.md": {
       "title": "#892 — [P0] `devshards`: add end-to-end tests for timeout mechanisms",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [P0] `devshards`: add end-to-end tests for timeout mechanisms\n    <span class=\"issues-number\">#892</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/dcastro\">@dcastro</a> opened 2026-03-16 13:48 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"iss",
-      "checksum": "388dcc24831862defea89f3dbf4b4fdcbcf63ab096a1543c7b591eff26b914c5"
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] `devshards`: add end-to-end tests for timeout mechanisms\n    <span class=\"issues-number\">#892</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/dcastro\">@dcastro</a> opened 2026-03-16 13:48 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"m",
+      "checksum": "29e93df7d619b64182df868887c77526af65bdf70d11ca004dce2d90cfb9cf70"
     },
     "00893-p0-remove-float-math-from-devshards-consensus.md": {
       "title": "#893 — [P0] Remove float math from `devshards` consensus",
@@ -1271,8 +1271,8 @@
     "00915-p0-benchmark-devshards.md": {
       "title": "#915 — [P0] Benchmark `devshards`",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [P0] Benchmark `devshards`\n    <span class=\"issues-number\">#915</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/dcastro\">@dcastro</a> opened 2026-03-18 10:49 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style=\"background-color:",
-      "checksum": "d6322a1ae5260f02a4c415d61107f4c2c02e9a06abf92af7a9428f399355653e"
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] Benchmark `devshards`\n    <span class=\"issues-number\">#915</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/dcastro\">@dcastro</a> opened 2026-03-18 10:49 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issue",
+      "checksum": "a8aa08357f364a31af60aa0b887aa9053111a7cff1ef3a42e900a67c7767f680"
     },
     "00922-proposal-agent-identity-and-delegation-governance-for-gonka-.md": {
       "title": "#922 — Proposal: Agent identity and delegation governance for Gonka compute",
@@ -1541,8 +1541,8 @@
     "01167-devshards-optimizations-for-v0213-db-usage.md": {
       "title": "#1167 — `devshards` Optimizations for v0.2.13 db usage",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshards` Optimizations for v0.2.13 db usage\n    <span class=\"issues-number\">#1167</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/akup\">@akup</a> opened 2026-05-14 15:47 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-c",
-      "checksum": "ce50fbb59cca83db0e4bc77459f0c81c1dbe96058088253e84eb6126aff369ba"
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    `devshards` Optimizations for v0.2.13 db usage\n    <span class=\"issues-number\">#1167</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/akup\">@akup</a> opened 2026-05-14 15:47 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></di",
+      "checksum": "80d0da817fcfcd1d3262f5e425e7e99bb38e1034a3e650fba5a9714618012994"
     },
     "01169-bug-a-short-specific-searchable-title.md": {
       "title": "Governance dashboard: Differend numbers in panel and chart",
@@ -1667,8 +1667,8 @@
     "01264-logprobs-top-logprobs-conditional-stripping.md": {
       "title": "#1264 — logprobs, top_logprobs conditional stripping",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    logprobs, top_logprobs conditional stripping\n    <span class=\"issues-number\">#1264</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 2026-05-27 17:29 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" st",
-      "checksum": "235dcbbf6f9e7a6ad26449ab5d4d78ffbdc4075029d5ad9a394bcbb94becb208"
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    logprobs, top_logprobs conditional stripping\n    <span class=\"issues-number\">#1264</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 2026-05-27 17:29 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;",
+      "checksum": "d1781e527d9adda22b5d433f5f2ddd85ab1a7aaff65915bb185e1c38ace3c1bc"
     },
     "01265-stuck-voting-inferences-orphan-client-escrow-when-xgroup-pro.md": {
       "title": "#1265 — Stuck VOTING inferences orphan client escrow when x/group proposals miss quorum",
@@ -1889,26 +1889,26 @@
     "index.md": {
       "title": "GitHub Issues — `gonka-ai/gonka`",
       "status": null,
-      "content_preview": "# GitHub Issues — `gonka-ai/gonka`\n\nAll issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).\nTotal: **314** (🟢 open: **71**, 🔴 closed: **243**).\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"01470-security-residual-ssrf-on-inferenceurl-dnsrebind-validator-r/\">Security: Residual SSRF on InferenceUrl — DNS/rebind + validator redirect (incomplete fix after #505/#534)</a>\n      <span class=\"issues-number\">#1470</span>\n    </div>\n    <p class=\"issues-desc\">## Summ",
-      "checksum": "bc8d911db96190935bb550eb14c9faa7517b6dcdfdaaf764beef48580004a83c"
+      "content_preview": "# GitHub Issues — `gonka-ai/gonka`\n\nAll issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).\nTotal: **314** (🟢 open: **67**, 🔴 closed: **247**).\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"00915-p0-benchmark-devshards/\">[P0] Benchmark `devshards`</a>\n      <span class=\"issues-number\">#915</span>\n    </div>\n    <p class=\"issues-desc\">With the upgrade 0.2.11, we can stress test and benchmark subnets in test environments.  We shou",
+      "checksum": "545e67efc4556ab2f4bf15c51a5498adcf426056d85a9410f6e2c47612e1b596"
     },
     "labels/bug/index.md": {
       "title": "Issues: bug",
       "status": null,
       "content_preview": "# Issues: bug\n\nIssues with label **bug**. Total: **12**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01358-inbound-bridge-votes-lost-after-upgrade-simulation-node-unav/\">Inbound bridge votes lost after upgrade simulation (node unavailable for some minutes for upgrade) — no retry, deposits stuck BRIDGE_PENDING</a>\n      <span class=\"issues-number\">#1358</span>\n    </div>\n    \n    <div class=\"issues-labels\"><sp",
-      "checksum": "5f6763d87aa9f460c114c1a59981ee27a5ee9342e8929732cce3866003e2146c"
+      "checksum": "780a45216336e21f7c061d995c9c15358bf70be167f33539052c71eb60110c20"
     },
     "labels/devshards/index.md": {
       "title": "Issues: devshards",
       "status": null,
-      "content_preview": "# Issues: devshards\n\nIssues with label **devshards**. Total: **14**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../00913-p0-make-handling-of-warm-keys-deterministic-research/\">[P0] Make handling of warm keys deterministic (research)</a>\n      <span class=\"issues-number\">#913</span>\n    </div>\n    \n    <div class=\"issues-labels\"><span class=\"issues-label\" style=\"background-color: #f86c7a; color: #24292f; border-",
-      "checksum": "dfc1d518d205ab74e1db8bc79541ccb3b6d47a0b45cc2255cec36c71f251d5c8"
+      "content_preview": "# Issues: devshards\n\nIssues with label **devshards**. Total: **14**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../00915-p0-benchmark-devshards/\">[P0] Benchmark `devshards`</a>\n      <span class=\"issues-number\">#915</span>\n    </div>\n    \n    <div class=\"issues-labels\"><span class=\"issues-label\" style=\"background-color: #f86c7a; color: #24292f; border-color: #f86c7a;\">Priority: High</span> <span class=\"issues-l",
+      "checksum": "52ca4b3d4437bafab960db2100c7beddcb9e23061e8c6e276c4eb9cb095771b0"
     },
     "labels/enhancement/index.md": {
       "title": "Issues: enhancement",
       "status": null,
-      "content_preview": "# Issues: enhancement\n\nIssues with label **enhancement**. Total: **13**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01408-model-lineup-improvement-add-an-accessible-glm-52-candidate-/\">Model lineup improvement: add an accessible GLM-5.2 candidate and reconsider MiniMax-M2.7 as default</a>\n      <span class=\"issues-number\">#1408</span>\n    </div>\n    \n    <div class=\"issues-labels\"><span class=\"issues-label\" style=\"background-color: #a2ee",
-      "checksum": "b9638f95987da5a2489d5be06a556cf03fe8e826a5390705125e26ded95f7009"
+      "content_preview": "# Issues: enhancement\n\nIssues with label **enhancement**. Total: **13**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01264-logprobs-top-logprobs-conditional-stripping/\">logprobs, top_logprobs conditional stripping</a>\n      <span class=\"issues-number\">#1264</span>\n    </div>\n    \n    <div class=\"issues-labels\"><span class=\"issues-label\" style=\"background-color: #a2eeef; color: #24292f; border-color: #a2eeef;\"",
+      "checksum": "7d864be05733f4642aea627286f08e73ccb5b14135d7ea2681fa4ddfbe7480f2"
     },
     "labels/help-wanted/index.md": {
       "title": "Issues: help wanted",
@@ -1919,20 +1919,20 @@
     "labels/no-label/index.md": {
       "title": "Issues: no-label",
       "status": null,
-      "content_preview": "# Issues: no-label\n\nIssues with label **no-label**. Total: **239**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01470-security-residual-ssrf-on-inferenceurl-dnsrebind-validator-r/\">Security: Residual SSRF on InferenceUrl — DNS/rebind + validator redirect (incomplete fix after #505/#534)</a>\n      <span class=\"issues-number\">#1470</span>\n    </div>\n    \n    <div class=\"issues-labels\"></div>\n    <div class=\"issues-meta\">\n      <span class=\"",
-      "checksum": "4d145f2c4acc6c891bc89170d14ed5c139be8eed940101bee17421da3ae9706a"
+      "content_preview": "# Issues: no-label\n\nIssues with label **no-label**. Total: **239**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01167-devshards-optimizations-for-v0213-db-usage/\">`devshards` Optimizations for v0.2.13 db usage</a>\n      <span class=\"issues-number\">#1167</span>\n    </div>\n    \n    <div class=\"issues-labels\"></div>\n    <div class=\"issues-meta\">\n      <span class=\"issues-meta-item\"><a href=\"https://github.com/ak",
+      "checksum": "a222546e98369d99350e4a60e4a3b18c4054c67d25de6fdb7aa2a1ccb32779ab"
     },
     "labels/priority-high/index.md": {
       "title": "Issues: Priority: High",
       "status": null,
-      "content_preview": "# Issues: Priority: High\n\nIssues with label **Priority: High**. Total: **29**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01358-inbound-bridge-votes-lost-after-upgrade-simulation-node-unav/\">Inbound bridge votes lost after upgrade simulation (node unavailable for some minutes for upgrade) — no retry, deposits stuck BRIDGE_PENDING</a>\n      <span class=\"issues-number\">#1358</span>\n    </div>\n    \n    <div cla",
-      "checksum": "5f01edcb1a27bfdce4c9820bc2249438de7353efa33181676f296cbc5d5e5885"
+      "content_preview": "# Issues: Priority: High\n\nIssues with label **Priority: High**. Total: **29**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../00915-p0-benchmark-devshards/\">[P0] Benchmark `devshards`</a>\n      <span class=\"issues-number\">#915</span>\n    </div>\n    \n    <div class=\"issues-labels\"><span class=\"issues-label\" style=\"background-color: #f86c7a; color: #24292f; border-color: #f86c7a;\">Priority: High</span> <span class",
+      "checksum": "b965316d5266dddba1de18f7b851e142f2c6ec3766825cb75c3bebff617c14d5"
     },
     "labels/priority-low/index.md": {
       "title": "Issues: Priority: Low",
       "status": null,
       "content_preview": "# Issues: Priority: Low\n\nIssues with label **Priority: Low**. Total: **13**.\n\n[← All Issues](../../index.md)\n\n<ul class=\"issues-list\">\n<li class=\"issues-list-item\">\n  <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n  <div class=\"issues-body\">\n    <div class=\"issues-title\">\n      <a href=\"../../01019-subnetctl-inference-error-handling/\">subnetctl: inference error handling</a>\n      <span class=\"issues-number\">#1019</span>\n    </div>\n    \n    <div class=\"issues-labels\"><span class=\"issues-label\" style=\"background-color: #95b500; color: #24292f; border-color: #95b500;\">Priority: Low",
-      "checksum": "045226afc33efc1845a5f5e0f0d38576c874497f4029b1060bdc26c573b8a798"
+      "checksum": "5cdaf467a8fc36d9e49b285f14b4a8fc1266ab9408bea058ea99b1de0abd6b91"
     },
     "labels/priority-medium/index.md": {
       "title": "Issues: Priority: Medium",
