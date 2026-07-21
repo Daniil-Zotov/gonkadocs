@@ -48,7 +48,7 @@ Upgrade Proposal: v0.2.14
     <span class="prop-tally-veto-text">Veto 0 (0.0%)</span>
     <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span>
     <span class="prop-tally-total-text">Total 99,167 votes</span>
-    <span class="prop-tally-veto-text">✗ Turnout 99,167 / 585,186 (16.9%) · Quorum 25% (146,296)</span>
+    <span class="prop-tally-veto-text">✗ Turnout 99,167 / 522,598 (19.0%) · Quorum 25% (130,649)</span>
   </div>
 </div>
 
