@@ -12,7 +12,6 @@ import re
 
 
 _FRONTMATTER_RE = re.compile(r"^---\s*\n.*?^---\s*\n", re.DOTALL | re.MULTILINE)
-_DATE_RE = re.compile(r"^\*\*Дата публикации:\*\*\s*(\S+)", re.MULTILINE)
 
 
 def _is_detail_page(src_path: str) -> bool:
@@ -37,29 +36,30 @@ def _read_without_frontmatter(path: str) -> str:
     return cleaned.strip()
 
 
-def _extract_date(content: str, filename: str) -> str:
-    m = _DATE_RE.search(content)
-    if m:
-        return m.group(1)
-    m = re.search(r"(\d{4}-\d{2}-\d{2})", filename)
-    if m:
-        return m.group(1)
-    return ""
-
-
 def _sanitize_headers(text: str) -> str:
     return re.sub(r"^# ", "## ", text, flags=re.MULTILINE)
 
 
-def _build_report_block(report_num: str, date: str, content: str, rel_path: str) -> str:
-    safe_content = _sanitize_headers(content)
+def _extract_title(content: str) -> tuple[str, str]:
+    """Extract the first H1 (# Title) from content and return (title, rest).
+    If there is no H1, return (f"Report", content).
+    """
+    m = re.match(r"^#\s+(.+?)(?:\s*\n|$)", content)
+    if m:
+        title = m.group(1).strip()
+        rest = content[m.end():].strip()
+        return title, rest
+    return "Report", content
+
+
+def _build_report_block(content: str, rel_path: str) -> str:
+    title, body = _extract_title(content)
+    safe_body = _sanitize_headers(body)
     return (
-        f"### Report #{report_num} — {date}\n\n"
         f"<details class=\"prop-contracts\" markdown=\"1\">\n"
-        f"<summary markdown=\"1\">Gonka Labs — Monthly Report No.{report_num}</summary>\n\n"
-        f"[Открыть отдельной страницей]({rel_path.replace('.md', '/')}) · "
-        f"[Обсуждение на GitHub](https://github.com/gonka-ai/gonka/discussions/1477)\n\n"
-        f"{safe_content}\n\n"
+        f"<summary markdown=\"1\"><strong>{title}</strong> · "
+        f"<a href=\"{rel_path.replace('.md', '/')}\">Открыть отдельной страницей</a></summary>\n\n"
+        f"{safe_body}\n\n"
         f"</details>\n"
     )
 
@@ -91,9 +91,7 @@ def on_page_markdown(markdown: str, page=None, config=None, **kwargs):
         if not content:
             continue
         fname = os.path.basename(fpath)
-        date = _extract_date(content, fname)
-        num = os.path.splitext(fname)[0].replace("report", "")
-        blocks.append(_build_report_block(num, date, content, fname))
+        blocks.append(_build_report_block(content, fname))
 
     if not blocks:
         return markdown
