@@ -17446,7 +17446,7 @@ If you have the opportunity and desire to be part of the committee — please co
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-07-20 23:53 UTC
+2026-07-21 02:10 UTC
 
 ---
 
@@ -17500,7 +17500,7 @@ curl -s https://node3.gonka.ai/chain-api/cosmos/bank/v1beta1/balances/gonka18pkq
 
 **Address:** [`gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33`](https://gonka.gg/address/gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33)
 
-Current balance: 2,388,376 GNK
+Current balance: 2,388,876 GNK
 
 The Gov Module authority is the only address permitted to execute `MsgCommunityPoolSpend` transfers from the Community Pool. When a governance proposal passes, this address signs and sends the requested funds to the specified recipient.
 
@@ -17859,13 +17859,12 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ## 🟢 Active Proposals
 
-5Active
-17Votes
+4Active
+11Votes
 1.4M GNKTotal Bid
 
 | Status | Title | Author | Votes | Avg. Bid | Closes |
 | :----- | :----- | :----- | ----: | -------: | :----- |
-| 🟢 | [Улучшаем инфиренс Kimi](./d185d9eb-243f-4228-b4ac-e2c7a50a5325/) | Mitch | 6 | 0.00 GNK | 2026-07-21 |
 | 🟢 | [Should Gonka make fallbacks to other services like OpenRouter?](./f9a4302d-7823-4cd4-9987-b0758569db93/) | Viktor | 0 | 0.00 GNK | 2026-07-24 |
 | 🟢 | [Вестинг: почему его стоит отменить сейчас](./d23b0edf-57fb-4522-bd79-04ffdcc9d7a5/) | Mitch | 3 | 0.00 GNK | 2026-08-01 |
 | 🟢 | [Привлечение $3M+ нового капитала на Uniswap](./e0cc7d32-5d1a-49e1-94e8-0ca3d9ccbf6b/) | Andrey Orlov | 4 | 170.5K GNK | 2026-08-02 |
@@ -17875,12 +17874,13 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ## 🔴 Expired Proposals
 
-29Expired
-6Votes
+30Expired
+12Votes
 726.1K GNKTotal Bid
 
 | Status | Title | Author | Votes | Avg. Bid | Closed |
 | :----- | :----- | :----- | ----: | -------: | :----- |
+| 🔴 | [Улучшаем инфиренс Kimi](./d185d9eb-243f-4228-b4ac-e2c7a50a5325/) | Mitch | 6 | 0.00 GNK | 2026-07-21 |
 | 🔴 | [External Test Lab & Community DevNet](./205219a5-6ed2-4f25-8d22-fa7c65a45ba6/) | Sergii Paranko | 4 | 170.5K GNK | 2026-07-14 |
 | 🔴 | [Private Inc × Gonka — Network Growth Initiative](./ed8148eb-535e-4677-9a6b-5316c81c996a/) | Igor Alexeev | 0 | 0.00 GNK | 2026-07-13 |
 | 🔴 | [Предложение по развитию игровой экосистемы блокчейна через турнирные пулы вознаг](./fd9989ca-7c5b-4a2f-baf4-2465e6915ba6/) | Victor | 0 | 0.00 GNK | 2026-07-12 |
@@ -17913,7 +17913,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-07-20 23:13 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-07-21 03:38 UTC*
 
 ---
 
@@ -19254,7 +19254,7 @@ gonka158pj5tn26n46ffaw553dkf3e7xjfxahj0s5xug
 
 # Улучшаем инфиренс Kimi
 
-🟢 Active
+🔴 Expired
 
 **Author:** Mitch
 **Created:** 2026-07-14 01:37 UTC
@@ -24554,7 +24554,8 @@ Models / IBC2
     Voting ends 2026-07-23
   
   Upgrade Proposal: v0.2.14
-  Yes 0 (0.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 1,378 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  ✗ Turnout 1,378 / 597,969 (0.2%) · Quorum 25% (149,492)
 
   
     #88 – Restore Kimi K2.6 and remove v1, v2
@@ -25534,7 +25535,7 @@ Models / IBC2
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-88 proposals across 5 quarters. Last updated: 2026-07-21 01:20 UTC
+88 proposals across 5 quarters. Last updated: 2026-07-21 03:20 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -61822,7 +61823,8 @@ GRC / Restitution1
     Voting ends 2026-07-23
   
   Upgrade Proposal: v0.2.14
-  Yes 0 (0.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 1,378 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  ✗ Turnout 1,378 / 597,969 (0.2%) · Quorum 25% (149,492)
 
   
     #88 – Restore Kimi K2.6 and remove v1, v2
@@ -65033,6 +65035,25 @@ Voting
 [View on gonka.gg](https://gonka.gg/network/proposals/89){:target="_blank"}
 
 Upgrade Proposal: v0.2.14
+
+---
+
+## Final Tally
+
+  
+    
+    
+    
+    
+  
+  
+    Yes 1,378 (100.0%)
+    No 0 (0.0%)
+    Veto 0 (0.0%)
+    Abstain 0 (0.0%)
+    Total 1,378 votes
+    ✗ Turnout 1,378 / 597,969 (0.2%) · Quorum 25% (149,492)
+  
 
 ---
 
