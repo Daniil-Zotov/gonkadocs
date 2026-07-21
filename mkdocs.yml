@@ -16,6 +16,8 @@ exclude_docs: |
   /README.md
   gonka/docs/
   proposals/proposals/**/full-proposal.md
+  proposals/proposals/**/report*.md
+  proposals/preproposals/**/report*.md
 
 not_in_nav: |
   community/discussion/**/*.md
@@ -221,6 +223,7 @@ theme:
 
 hooks:
   - hooks/full_proposal.py
+  - hooks/proposal_reports.py
   - hooks/issues_nav.py
   - hooks/proposals_nav.py
   - hooks/calendar_manifest.py
