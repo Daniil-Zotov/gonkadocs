@@ -2,7 +2,7 @@
 title: "#611 — [zpoken] Define and validate scalable off-chain PoC communication beyond Merkle-based commits"
 source: https://github.com/gonka-ai/gonka/issues/611
 issue_number: 611
-synced_at: 2026-07-21T12:03:36Z
+synced_at: 2026-07-21T14:28:28Z
 template: issues-main.html
 ---
 
