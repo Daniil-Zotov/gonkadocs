@@ -1,6 +1,6 @@
 {
   "section": "proposals",
-  "snapshot_time": "2026-07-21T14:50:32.062140+00:00",
+  "snapshot_time": "2026-07-21T15:00:32.810555+00:00",
   "files": {
     "2025-q3/1/full-proposal.md": {
       "title": "Adjust Params According to real block length",
@@ -301,10 +301,10 @@
     "2026-q2/74/report1.md": {
       "title": "Gonka Labs — Monthly Report No.1",
       "status": null,
-      "content_preview": "# Gonka Labs — Monthly Report No.1\n\n**Дата публикации:** 2026-07-18 18:31 UTC\n\n**Источник:** [Discussion #1477 — Gonka Labs - Monthly Report No.1](https://github.com/gonka-ai/gonka/discussions/1477)\n\n## 1. OpenBroker\n\nQuick recap: OpenBroker is managed DevShards-as-a-service. Register, deposit GNK, get an `obk-*` key, point any OpenAI client at `https://api.openbroker.gonka.gg/v1` (UI at [openbroker.gonka.gg](https://openbroker.gonka.gg)). No wallet whitelist dance, no running your own escrow rotation. GNK billing with no markup. Public stats at [openbroker.gonka.gg/stats](https://openbroker.gonka.gg/stats).\n\n### Since launch (numbers as of Jul 18)\n\n- **33 active brokers** — 48 registered orgs\n- **~3.2 GNK deposited** into broker ledgers\n- **~15M requests logged** in usage\n- **~11.8B token",
+      "content_preview": "# Gonka Labs — Monthly Report No.1\n\n**Дата публикации:** 2026-07-18 18:31 UTC\n\n**Источник:** [Discussion #1477 — Gonka Labs - Monthly Report No.1](https://github.com/gonka-ai/gonka/discussions/1477)\n\n---\n# \n\n![](https://resource.inkdown.me/assets/11g/tk4ZX4b2sHaSu/ZarQaYSqnMMS69H.png)\n\nHey! Gonka Labs here.\n\nOn June 12th the community passed [Proposal #74](https://gonka.gg/network/proposals/74). That vote funded the next stretch of work - infra, ops, and shipping products for the ecosystem.\n\nThis is the first public progress report we promised in the proposal (monthly updates on GitHub Discussions). Short version of what landed so far:\n\n1. **OpenBroker** - new product, live\n2. **Pulse** - new product, live\n3. **gonka.gg** - ~240 QA bugs closed + big product updates (devshards / inference, ",
       "funding": "",
       "quorum_met": null,
-      "checksum": "05fbc37ee117adc6ec8ee1338bb9340d27d76a3c2de3698e3af34a2a26d6d554"
+      "checksum": "d664a92f3695abc071030f2b65c8a7e98c9d0f8be6920cdc3b7bd02ae1414281"
     },
     "2026-q3/80/full-proposal.md": {
       "title": "GRC Proposal #3 - Restitution",
