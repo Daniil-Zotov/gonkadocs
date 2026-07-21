@@ -1,5 +1,37 @@
 [
   {
+    "id": "evt_20260721015921_48e45199",
+    "timestamp": "2026-07-21T01:59:21.655467+00:00",
+    "section": "gonka_docs",
+    "action": "new",
+    "item": {
+      "title": "Dashboard Maintainer Memo — Gonka v0.2.14",
+      "url": "/gonka/docs/dashboard-maintainer-memo-v0.2.14/",
+      "file": "dashboard-maintainer-memo-v0.2.14.md"
+    },
+    "details": {
+      "status": null,
+      "content": "# Dashboard Maintainer Memo — Gonka v0.2.14\n\nNo existing query endpoint was removed or reshaped in this upgrade. If your dashboard reads values from the chain and displays them, it keeps working. There is one semantic change you need to understand (delegation), and three small notes.\n\n## 1. Delegation: weight vs reward\n\n**Before (v0.2.13):** when A delegated to B, the chain physically moved part of A's weight to B *before* storing weights. The `weight` you read from the chain already included delegation. Rewards followed that adjusted weight automatically.\n\n**Now (v0.2.14):** the chain stores everyone's *own* weight, untouched by delegation. Delegation is applied later, only inside reward settlement, on an internal copy of the weights that is never exposed as a chain field. (Refusal/no-par"
+    },
+    "ai_description": "В документацию протокола добавлен новый мемо для разработчиков дашбордов — Dashboard Maintainer Memo для версии v0.2.14. Ключевое изменение касается делегации: теперь цепочка хранит оригинальный вес каждого узла без учёта делегированных средств, а делегация применяется только при расчёте наград внутри системы. Если ваш дашборд отображает веса узлов — убедитесь, что он корректно обрабатывает эту семантику, так как значения weight с цепо"
+  },
+  {
+    "id": "evt_20260721015921_4366616a",
+    "timestamp": "2026-07-21T01:59:21.655566+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "Announcements",
+      "url": "/gonka/docs/network-updates/",
+      "file": "network-updates.md"
+    },
+    "details": {
+      "content_before": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## July 16, 2026\n\n**Proposal 88 has passed: Kimi-K2.6 re-registered, devshard v1/v2 removed**\n\nThe expedited proposal 88 was approved on-chain.\n\n**Kimi-K2.6 bootstrap (epoch 331)**\n\n`moonshotai/Kimi-K2.6` is back in the governance model list and enters the ",
+      "content_after": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## July 20, 2026\n\n**v0.2.14 Upgrade Proposal Enters Governance**\n\n[The v0.2.14 proposal](https://github.com/gonka-ai/gonka/pull/1267) is now on-chain and open for voting.\n\nThe mainnet chain/API work focuses on PoC duplicate-artifact protection, early share "
+    },
+    "ai_description": "Обновлён раздел Announcements: добавлено уведомление от 20 июля о том, что предложение v0.2.14 вышло на голосование в сети. Основные направления обновления — защита от дублирующихся артефактов в PoC и оптимизация early share. Члены сообщества могут участвовать в голосовании, ознакомившись с деталя"
+  },
+  {
     "id": "evt_20260720232853_667688ea",
     "timestamp": "2026-07-20T23:28:53.458865+00:00",
     "section": "issues",

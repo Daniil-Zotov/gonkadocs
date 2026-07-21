@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-07-20T23:51:06.971538+00:00",
+  "snapshot_time": "2026-07-21T01:59:48.255374+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -103,6 +103,12 @@
       "status": null,
       "content_preview": "# Dashboard Maintainer Memo For v0.2.13\n\nIf the v0.2.13 upgrade proposal passes and the upgrade is successfully executed on mainnet, dashboards will need to update how they compute CPoC confirmation weight and refresh their cache after the upgrade.\n\nThis applies to Gonkascan and other similar dashboard deployments.\n\n## Main Dashboard Impacts\n\n### 1. New Confirmation Weight Computation\n\nDashboards must use the new chain-provided `confirmation_weight_scales` snapshot when computing `weight_to_confirm`.\n\nSimple meaning: the dashboard should stop assuming it can always use current params plus subgroup models. The chain now snapshots which models count for CPoC and what scale factors to use for that epoch.\n\nThis is the big required dashboard logic change.\n\nCode references in upgrade v0.2.13:\n\n-",
       "checksum": "8e35fa1d9facf9df3874b09d467fd5c7a787ae097242c3ee3a6baa3f4368955f"
+    },
+    "dashboard-maintainer-memo-v0.2.14.md": {
+      "title": "Dashboard Maintainer Memo — Gonka v0.2.14",
+      "status": null,
+      "content_preview": "# Dashboard Maintainer Memo — Gonka v0.2.14\n\nNo existing query endpoint was removed or reshaped in this upgrade. If your dashboard reads values from the chain and displays them, it keeps working. There is one semantic change you need to understand (delegation), and three small notes.\n\n## 1. Delegation: weight vs reward\n\n**Before (v0.2.13):** when A delegated to B, the chain physically moved part of A's weight to B *before* storing weights. The `weight` you read from the chain already included delegation. Rewards followed that adjusted weight automatically.\n\n**Now (v0.2.14):** the chain stores everyone's *own* weight, untouched by delegation. Delegation is applied later, only inside reward settlement, on an internal copy of the weights that is never exposed as a chain field. (Refusal/no-par",
+      "checksum": "ae480c195a8ed4f6cb9a2d30ec4bd84dc095a276020636204d9268fd4972f4a1"
     },
     "developer/gateway-developer-quickstart.md": {
       "title": "Run your own gateway",
@@ -287,8 +293,8 @@
     "network-updates.md": {
       "title": "Announcements",
       "status": null,
-      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## July 16, 2026\n\n**Proposal 88 has passed: Kimi-K2.6 re-registered, devshard v1/v2 removed**\n\nThe expedited proposal 88 was approved on-chain.\n\n**Kimi-K2.6 bootstrap (epoch 331)**\n\n`moonshotai/Kimi-K2.6` is back in the governance model list and enters the ",
-      "checksum": "5a10f5ab51e19095d39237d0cf960989dff9ef111ae6144a213e2f25e8980235"
+      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## July 20, 2026\n\n**v0.2.14 Upgrade Proposal Enters Governance**\n\n[The v0.2.14 proposal](https://github.com/gonka-ai/gonka/pull/1267) is now on-chain and open for voting.\n\nThe mainnet chain/API work focuses on PoC duplicate-artifact protection, early share ",
+      "checksum": "574c2fc1a7f43a54c80f89783d52403e473578082069d0358aced1388bea374d"
     },
     "participant/README.md": {
       "title": "Redirecting to Host Section",

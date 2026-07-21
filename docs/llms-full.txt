@@ -2443,6 +2443,46 @@ Small checks while doing the main work:
 
 ---
 
+## Dashboard Maintainer Memo — Gonka v0.2.14
+
+# Dashboard Maintainer Memo — Gonka v0.2.14
+
+No existing query endpoint was removed or reshaped in this upgrade. If your dashboard reads values from the chain and displays them, it keeps working. There is one semantic change you need to understand (delegation), and three small notes.
+
+## 1. Delegation: weight vs reward
+
+**Before (v0.2.13):** when A delegated to B, the chain physically moved part of A's weight to B *before* storing weights. The `weight` you read from the chain already included delegation. Rewards followed that adjusted weight automatically.
+
+**Now (v0.2.14):** the chain stores everyone's *own* weight, untouched by delegation. Delegation is applied later, only inside reward settlement, on an internal copy of the weights that is never exposed as a chain field. (Refusal/no-participation penalties also became reward-only and no longer shrink stored weight.)
+
+What this means for you, depending on what your dashboard does:
+
+- **You display `weight` read from the chain** (`epoch_group_data` → `validation_weights[].weight`, or `get_participant_current_stats`): keep doing exactly that. Still correct. Just know the number no longer includes delegation effects — a participant who delegates away keeps their full displayed weight.
+- **You recompute weights yourself and apply delegation on top:** stop applying delegation. The chain doesn't anymore.
+- **You estimate expected rewards as "participant weight ÷ total weight × epoch pot":** this is now wrong whenever delegation, refusal penalties, or exclusions exist. Use the new endpoint instead:
+
+  `GET /chain-api/productscience/inference/inference/estimate_bitcoin_reward/{participant}`
+
+  It replays the same math the chain uses at settlement — delegation transfers, penalties, exclusions included — and returns the estimated reward and work coins. The estimate is for the current epoch: its inputs are snapshotted when the epoch is formed (at the end of PoC validation) and refreshed at every epoch transition, so the endpoint answers throughout the whole epoch. A NotFound response means the participant is not in the current epoch's active set.
+
+If you want to show delegation itself: who delegates to whom is at `.../poc_delegation/{participant}`, and the share parameter is in `params` (`delegation_params.delegation_share`).
+
+## 2. Note: reward recipient override
+
+Participants can now register a different address to receive their claimed rewards. Nothing about their identity, weight, or stats changes — only where the coins land.
+
+This is not a compatibility break. It matters only if your dashboard claims or assumes "rewards for participant X always go to address X" — that's no longer guaranteed. Per-participant reward amounts from `epoch_performance_summary` / `settle_amount` are still keyed by participant and stay correct. If you want to show the override, it's at `.../list_claim_recipients/{participant}`.
+
+## 3. Note: one-time supply step-down
+
+At the upgrade height, the chain burns the accumulated fee-collector balance (amount determined at runtime, so unknown until it happens) and sets mint inflation to zero. If you chart or estimate total supply, expect a one-time drop at the upgrade block and a flat inflation line after. The usual `/cosmos/bank/v1beta1/supply/by_denom?denom=ngonka` query keeps working.
+
+## 4. Note: deprecated inference endpoints
+
+On the dapi public API, `/v1/chat/completions`, `/v1/completions`, and everything under `/v1/devshard` now return HTTP 410 Gone (inference is now served by the versioned devshard runtime, e.g. `/devshard/v3`). Only relevant if you were pinging these as a host liveness check. `/v1/epochs/...`, participants, models, pricing, status — all untouched.
+
+---
+
 ## Glossary
 
 # Glossary 
@@ -2554,6 +2594,91 @@ This collaboration allows the platform to offer AI services at significantly low
     To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)
    
     This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.
+
+## July 20, 2026
+
+**v0.2.14 Upgrade Proposal Enters Governance**
+
+[The v0.2.14 proposal](https://github.com/gonka-ai/gonka/pull/1267) is now on-chain and open for voting.
+
+The mainnet chain/API work focuses on PoC duplicate-artifact protection, early share detection, classic inference API deprecation (disabling `/v1/chat/completions` billing on mainnet and removing embedded `/v1/devshard` from the API binary), reward recipient routing, and upgrade-time safety fixes.
+
+The devshard part prepares the v3 runtime so brokers can serve inference during the chain upgrade without depending on the deprecated classic API path, improving RAM utilization and enabling safe switching between SQLite and Postgres storage.
+
+For more details, please see the pull request: [https://github.com/gonka-ai/gonka/pull/1267](https://github.com/gonka-ai/gonka/pull/1267)
+
+**Upgrade Plan**
+
+The node binary is upgraded through an on-chain software upgrade proposal. Existing hosts are not required to manually update their `api` or `node` containers as part of the upgrade.
+
+**How to vote**
+
+If you do not have direct access to the key that holds voting power, or want another key to vote on your behalf, please refer to [the guide](https://gonka.ai/FAQ/#what-should-i-do-if-i-cannot-vote-because-i-do-not-have-access-to-the-cold-key-or-if-i-want-another-key-to-vote-on-my-behalf) on granting governance voting permission from a cold key to a warm key.
+
+Proposal details and voting are available via `inferenced`. Any active node can be used. Available nodes include:
+
+- http://node1.gonka.ai:8000
+- http://node2.gonka.ai:8000
+- https://node3.gonka.ai
+  
+Cast your vote (`yes`, `no`, `abstain`, `no_with_veto`): The `--unordered` and `--timeout-duration` flags require `inferenced` from v0.2.12 or later.
+```
+export NODE_URL=https://node3.gonka.ai/
+./inferenced tx gov vote 89 yes \
+--from  \
+--keyring-backend file \
+--unordered \
+--timeout-duration=60s --gas=2000000 --gas-adjustment=5.0 \
+--node $NODE_URL/chain-rpc/ \
+--chain-id gonka-mainnet \
+--yes
+```
+To check the voting status:
+```
+export NODE_URL=https://node3.gonka.ai/
+./inferenced query gov votes 89 -o json --node $NODE_URL/chain-rpc/
+```
+
+**Required actions in preparation for the upgrade**
+
+In case the proposal is approved, the following preparation is recommended.
+
+- Now / before the mainnet upgrade — update your API and bridge. To keep the Ethereum bridge stable during the mainnet upgrade, update the `api` binary and the bridge image to 0.2.14 ahead of time, following [the guide](https://gonka.ai/docs/FAQ/#upgrade-v0214-pre-upgrade-api-and-bridge-update). If your `api` binary is already updated, you only need to update the bridge image and restart the bridge container. If you have already completed both steps, you do not need to repeat them. If you have multiple nodes, update them one by one, and perform this step outside of PoC or cPoC.
+
+- Dashboard maintainers — no existing query endpoint was removed or reshaped in this upgrade. If your dashboard reads values from the chain and displays them, it keeps working. There is one semantic change you need to understand (delegation), and three small notes (read the full guide: [https://gonka.ai/docs/dashboard-maintainer-memo-v0.2.14/](https://gonka.ai/docs/dashboard-maintainer-memo-v0.2.14/))
+  
+**Deadlines**
+
+- Voting ends: July 23, 2026 at 00:02 UTC / July 22, 2026 at 17:02 PDT
+- Proposed upgrade height: 5195700 
+- Estimated upgrade time: July 23, 2026 at 03:45 AM UTC / July 22, 2026 at 8:45 PM PDT 
+
+**Attention**
+
+- Please plan to be online during the upgrade window so that any follow-up steps or mitigation instructions can be applied promptly.
+- During upgrades, Cosmovisor creates a full state backup in the `.inference/data` directory; ensure sufficient disk space is available (the Cosmovisor backup of `application.db` on mainnet is typically tens of GB, so verify in advance). Guidance on safely removing old backups from the `.inference` directory is available in [the documentation.](https://gonka.ai/FAQ/#how-much-free-disk-space-is-required-for-a-cosmovisor-update-and-how-can-i-safely-remove-old-backups-from-the-inference-directory)
+- If `application.db` occupies a significant amount of disk space, the cleanup techniques described in the cosmovisor backup [guide](https://gonka.ai/FAQ/#why-is-my-applicationdb-growing-so-large-and-how-do-i-fix-it) may be applied.
+- If approved, devshard storage could optionally be backed by a shared Postgres instance after the upgrade (same env vars as payload storage). Local SQLite would remain the default and would prune automatically (last 3 epochs retained).
+
+## July 20, 2026
+
+**[The PR for the devshard-only](https://github.com/gonka-ai/gonka/pull/1482) upgrade is now open for review**
+
+Devshard upgrades update the devshard runtime independently from the main blockchain. They do not require a coordinated full-node upgrade through Cosmovisor, do not affect mainnet behavior, and are not expected to cause downtime for inference serving. If approved through the governance process, the new devshard version will run in parallel with the existing v3 runtime.
+
+**Key changes**
+
+- The main intent of v4 is high availability of devshard hosts on host failures and upgrades. It can keep serving new requests if one machine is down or restarting, and on version upgrades multiple machines replace versions one by one. This is the first update in a series of devshard and network-node changes that refactor the monolith toward a high-availability, fault-tolerant, scalable architecture.
+- v4 is the first version intended for multi-instance HA: N versiond / devshardd replicas behind versiond-router on shared Postgres, with sticky session routing and validation-lease exclusivity. The gateway talks to the chain over gRPC only. Public observability is versionless (/devshard/sessions|stats|metrics); only the escrow owner binds via signed chat. When governance publishes a new binary under the same version name (name unchanged, only sha256 changes), versiond can blue/green swap with drain so in-flight work (including SSE) finishes on the old generation.
+- v4 also lands bug and security fixes.
+  
+**Action items**
+
+Please review the PR [https://github.com/gonka-ai/gonka/pull/1482](https://github.com/gonka-ai/gonka/pull/1482) and leave comments on any findings, questions, suggested improvements, edge cases, or potential vulnerabilities.
+
+Meaningful review contributions, including important comments, bug findings, and security issues, may be eligible for community bounties in the next upgrade cycle.
+
+This is a call for PR review only. It does not start formal voting. 
 
 ## July 16, 2026
 
@@ -24401,14 +24526,14 @@ alexanderkuprin_
 
 ## Overview
 
-87Total Proposals
-57Passed (66%)
+88Total Proposals
+57Passed (65%)
 29Rejected (33%)
 1Failed (1%)
 
 Funding / Grants38
 Governance Parameters25
-Software Upgrade16
+Software Upgrade17
 GRC / Restitution3
 Other3
 Models / IBC2
@@ -24417,7 +24542,19 @@ Models / IBC2
 
 ## 2026-Q3
 
-*9 proposals*
+*10 proposals*
+
+  
+    #89 – Upgrade Proposal: v0.2.14
+    
+    Voting
+  
+  
+    Submitted 2026-07-21
+    Voting ends 2026-07-23
+  
+  Upgrade Proposal: v0.2.14
+  Yes 0 (0.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
   
     #88 – Restore Kimi K2.6 and remove v1, v2
@@ -25397,7 +25534,7 @@ Models / IBC2
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-87 proposals across 5 quarters. Last updated: 2026-07-21 00:02 UTC
+88 proposals across 5 quarters. Last updated: 2026-07-21 01:20 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -61661,18 +61798,31 @@ Contract Details
 
 ## 2026-Q3 Summary
 
-9Total Proposals
-5Passed (56%)
-4Rejected (44%)
+10Total Proposals
+5Passed (50%)
+4Rejected (40%)
 
 Governance Parameters4
 Funding / Grants4
+Software Upgrade1
 GRC / Restitution1
 
 80,000 GNK · $88,000 · Community Pool
 
 2026-Q3
-9 proposals
+10 proposals
+
+  
+    #89 – Upgrade Proposal: v0.2.14
+    
+    Voting
+  
+  
+    Submitted 2026-07-21
+    Voting ends 2026-07-23
+  
+  Upgrade Proposal: v0.2.14
+  Yes 0 (0.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
   
     #88 – Restore Kimi K2.6 and remove v1, v2
@@ -64856,6 +65006,56 @@ Contract Details
         "amount": "20000000000000"
       }
     ]
+  }
+]
+```
+
+---
+
+## #89 – Upgrade Proposal: v0.2.14
+
+# #89 – Upgrade Proposal: v0.2.14
+
+Voting
+
+**Proposal ID:** `89`
+
+**Type:** Software Upgrade
+
+**Submit:** 2026-07-21 00:02 UTC
+
+**Voting:** 2026-07-21 00:02 UTC → 2026-07-23 00:02 UTC
+
+**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target="_blank"}
+
+**Metadata:** [https://github.com/gonka-ai/gonka/blob/upgrade-v0.2.14/proposals/governance-artifacts/update-v0.2.14/README.md](https://github.com/gonka-ai/gonka/blob/upgrade-v0.2.14/proposals/governance-artifacts/update-v0.2.14/README.md)
+
+[View on gonka.gg](https://gonka.gg/network/proposals/89){:target="_blank"}
+
+Upgrade Proposal: v0.2.14
+
+---
+
+## Messages
+
+| # | Type |
+| :- | :--- |
+| 1 | `/cosmos.upgrade.v1beta1.MsgSoftwareUpgrade` |
+
+Contract Details
+
+```json
+[
+  {
+    "@type": "/cosmos.upgrade.v1beta1.MsgSoftwareUpgrade",
+    "authority": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "plan": {
+      "name": "v0.2.14",
+      "time": "0001-01-01T00:00:00Z",
+      "height": "5195700",
+      "info": "{\n        \"binaries\": {\n            \"linux/amd64\": \"https://github.com/gonka-ai/gonka/releases/download/release%2Fv0.2.14/inferenced-amd64.zip?checksum=sha256:ce857ef90deb899c03d78dee01493e544bf8b7ddf8b452e75b3b010b80a8b046\"\n        },\n        \"api_binaries\": {\n            \"linux/amd64\": \"https://github.com/gonka-ai/gonka/releases/download/release%2Fv0.2.14/decentralized-api-amd64.zip?checksum=sha256:4326a27913a05435e37cd5fa9e3d0cf5271351799f8b01b842e049a733976c87\"\n        }\n    }",
+      "upgraded_client_state": null
+    }
   }
 ]
 ```

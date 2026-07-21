@@ -67,6 +67,7 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [FAQ](/gonka/docs/FAQ/): Auto-synced content
 - [Architecture](/gonka/docs/architecture/): Auto-synced content
 - [Dashboard Maintainer Memo For v0.2.13](/gonka/docs/dashboard-maintainer-memo-v0.2.13/): Auto-synced content
+- [Dashboard Maintainer Memo — Gonka v0.2.14](/gonka/docs/dashboard-maintainer-memo-v0.2.14/): Auto-synced content
 - [Disclaimer](/gonka/docs/disclaimer/): Auto-synced content
 - [Glossary](/gonka/docs/glossary/): Auto-synced content
 - [Get Support on Discord](/gonka/docs/help/): Auto-synced content
@@ -246,6 +247,7 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [#81 – Kimi cPoC Restitution (epochs 306-309)](/proposals/proposals/2026-q3/81/): Auto-synced content
 - [Bringing $3M+ in New Capital to GONKA via Uniswap — Phase 1/6 ($50k USDT)](/proposals/proposals/2026-q3/84/full-proposal/): Auto-synced content
 - [#84 – Bringing $3M+ in New Capital to GONKA via Uniswap — Phase 1/6 ($50k USDT)](/proposals/proposals/2026-q3/84/): Auto-synced content
+- [#89 – Upgrade Proposal: v0.2.14](/proposals/proposals/2026-q3/89/): Auto-synced content
 - [External Test Lab & Community DevNet](/proposals/proposals/2026-q3/82/full-proposal/): Auto-synced content
 - [#82 – External Test Lab x Community DevNet](/proposals/proposals/2026-q3/82/): Auto-synced content
 - [#87 – Remove Kimi K2.6 model](/proposals/proposals/2026-q3/87/): Auto-synced content
