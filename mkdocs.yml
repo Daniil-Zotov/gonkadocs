@@ -64,6 +64,7 @@ nav:
       - On-Chain Governance: proposals/proposals/index.md
       - 2026-Q3:
         - Overview: proposals/proposals/2026-q3/index.md
+        - "#89 – Upgrade Proposal: v0.2.14": proposals/proposals/2026-q3/89/index.md
         - "#88 – Restore Kimi K2.6 and remove v1, v2": proposals/proposals/2026-q3/88/index.md
         - "#87 – Remove Kimi K2.6 model": proposals/proposals/2026-q3/87/index.md
         - "#86 – Increase Kimi-K2.6 and GLM-5.2 weight_scale_factor by 5%": proposals/proposals/2026-q3/86/index.md
