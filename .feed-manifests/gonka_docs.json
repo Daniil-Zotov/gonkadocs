@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-07-21T05:24:57.978813+00:00",
+  "snapshot_time": "2026-07-21T08:12:55.708911+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -12,7 +12,7 @@
       "title": "FAQ",
       "status": null,
       "content_preview": "# FAQ\n\n## Overview\n\n### What is Gonka?\nGonka is a decentralized network for high‑efficiency AI compute — run by those who run it. It functions as a cost-effective and efficient alternative to centralized cloud services for AI model training and inference. As a protocol, it's not a company or a start-up.\n\n- In terms of Blockchain, Gonka is the foundational ledger and coordination layer (L1) of the decentralized AI network. It records balances, transactions and cryptographic artifacts that prove Hosts have correctly performed AI work, while all actual computations (such as inference and training) happen off-chain.\n- In terms of Network, Gonka is a comprehensive ecosystem of participants, including Hosts and Developers that interact through a decentralized infrastructure. Powered by the Gonka",
-      "checksum": "8f921cc6af85b073097061294060438479722ccbebf06cb9553ada7843e33968"
+      "checksum": "18b9000ff0788a59d851762528dfbc864de4a9bf5d5f56d0e042b734456ed3d6"
     },
     "architecture.md": {
       "title": "Architecture",
@@ -294,7 +294,7 @@
       "title": "Announcements",
       "status": null,
       "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## July 20, 2026\n\n**v0.2.14 Upgrade Proposal Enters Governance**\n\n[The v0.2.14 proposal](https://github.com/gonka-ai/gonka/pull/1267) is now on-chain and open for voting.\n\nThe mainnet chain/API work focuses on PoC duplicate-artifact protection, early share ",
-      "checksum": "574c2fc1a7f43a54c80f89783d52403e473578082069d0358aced1388bea374d"
+      "checksum": "2b332d70b3452e2124e33c31b18258dfc27759a6674fdf29ca6c8f79f57eca44"
     },
     "participant/README.md": {
       "title": "Redirecting to Host Section",
