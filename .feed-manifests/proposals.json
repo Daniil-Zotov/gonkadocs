@@ -1,6 +1,6 @@
 {
   "section": "proposals",
-  "snapshot_time": "2026-07-21T16:50:47.362702+00:00",
+  "snapshot_time": "2026-07-21T17:00:26.148503+00:00",
   "files": {
     "2025-q3/1/full-proposal.md": {
       "title": "Adjust Params According to real block length",
@@ -177,6 +177,14 @@
       "funding": "",
       "quorum_met": null,
       "checksum": "eacecfdf9b1480ba8d04b75d2e07c17509db729024f148475b24abddb4475bdf"
+    },
+    "2026-q2/49/report1.md": {
+      "title": "ICG — AI Avatars Monthly Report No.1",
+      "status": null,
+      "content_preview": "# ICG — AI Avatars Monthly Report No.1\n\n**Дата публикации:** 2026-07-21\n\n### 1. GONKA AI 1\n\nКонцепция: девушка-аватар — AI-эксперт и серийный предприниматель. Ведёт новости и тренды в мире AI.\n\n| Метрика | Значение |\n| :--- | :--- |\n| Опубликовано | 96 видео из 180 по плану |\n| Подписчики | 2 080 |\n| Суммарный охват | 448 198 |\n| Средние просмотры | IG 340 · TikTok 1 877 · YouTube 2 494 |\n| ER | IG 1,69% · TikTok 3,45% · YouTube 2,35% |\n\nРекордный ролик собрал 152K на YouTube; там же основной прирост подписчиков (1 961).\n\n---\n\n### 2. GONKA AI 2\n\nКонцепция: мужской аватар Alex — tech-энтузиаст, который сам построил AI-агента для ведения своих аккаунтов. Ежедневные разборы AI-тем, вайбкодер нового поколения.\n\n| Метрика | Значение |\n| :--- | :--- |\n| Опубликовано | 87 видео из 180 по плану |\n",
+      "funding": "",
+      "quorum_met": null,
+      "checksum": "351dac537fce04e346c2ac13b82f5dd51ff3ae44b71631f2dedfa1e67230a81a"
     },
     "2026-q2/51/full-proposal.md": {
       "title": "Support Gonka's Presence at WebX Asia",
