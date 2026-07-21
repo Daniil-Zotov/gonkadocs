@@ -65,7 +65,7 @@ template: proposals-oview.html
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.14</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 1,378 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout 1,378 / 597,008 (0.2%) · Quorum 25% (149,252)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout 1,378 / 597,960 (0.2%) · Quorum 25% (149,490)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
