@@ -199,6 +199,7 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [#36 – Register Kava USDT IBC metadata and approve for trading](/proposals/proposals/2026-q2/36/): Auto-synced content
 - [#78 – Governance 17: update PoC model lineup](/proposals/proposals/2026-q2/78/): Auto-synced content
 - [#49 – Gonka Media Dominance in TechL/AI with 5 AI Influencers](/proposals/proposals/2026-q2/49/): Auto-synced content
+- [ICG — AI Avatars Monthly Report No.1](/proposals/proposals/2026-q2/49/report1/): Auto-synced content
 - [2026-Q1 Proposals](/proposals/proposals/2026-q1/): Auto-synced content
 - [#22 – Allowlist Timing](/proposals/proposals/2026-q1/22/): Auto-synced content
 - [Upgrade Proposal: v0.2.9](/proposals/proposals/2026-q1/26/full-proposal/): Auto-synced content
