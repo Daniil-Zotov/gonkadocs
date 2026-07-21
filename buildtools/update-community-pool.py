@@ -223,10 +223,9 @@ def format_balance_line(gnk_val, usdt_val, show_gnk=True, show_usdt=True, gnk_eq
     gnk_style = f'color:{gnk_color};{COMMON}' if gnk_color else BLUE
     parts = []
     if show_gnk and gnk_val:
-        gnk_html = f'<span style="{gnk_style}">{gnk_val} GNK'
+        gnk_html = f'<span style="{gnk_style}">{gnk_val} GNK</span>'
         if gnk_equiv_usdt:
-            gnk_html += f' (~${gnk_equiv_usdt} USDT)'
-        gnk_html += '</span>'
+            gnk_html += f' <span style="{BLUE}">(~${gnk_equiv_usdt} USDT)</span>'
         parts.append(gnk_html)
     if show_usdt and usdt_val:
         parts.append(f'<span style="{BLUE}">{usdt_val} USDT</span>')

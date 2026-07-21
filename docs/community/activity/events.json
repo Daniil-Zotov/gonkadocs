@@ -77,7 +77,7 @@
       "status": null,
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Better debshardd inference handling\n    <span class=\"issues-number\">#1466</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\">[@a-kuprin](https://github.com/a-kuprin) opened 2026-07-17 09:59 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-content\" markdo"
     },
-    "ai_description": null
+    "ai_description": "Новый issue #1466 от @a-kuprin: улучшение обработки инференса в devshard. Предлагается четыре задачи — унификация путей accept/execute, отделение времени жизни ML от клиентского соединения, поддержка повторного подключения с тем же nonce и отказоустойчивость между инстансами devshardd. Обсуждение открыто."
   },
   {
     "id": "evt_20260717100900_a6491be0",
@@ -131,52 +131,20 @@
     "ai_description": "Предложение #88 по восстановлению Kimi K2.6 и удалению v1/v2 успешно прошло голосование и перешло в статус Passed. Сообщество поддержало обновление линейки моделей."
   },
   {
-    "id": "evt_20260717041932_bae05120",
-    "timestamp": "2026-07-17T04:19:32.508356+00:00",
+    "id": "evt_20260717041932_a8f1e2e4",
+    "timestamp": "2026-07-17T04:19:32.508481+00:00",
     "section": "preproposals",
     "action": "updated",
     "item": {
-      "title": "External Test Lab & Community DevNet",
-      "url": "/proposals/preproposals/205219a5-6ed2-4f25-8d22-fa7c65a45ba6/",
-      "file": "205219a5-6ed2-4f25-8d22-fa7c65a45ba6/index.md"
+      "title": "Привлечение $3M+ нового капитала на Uniswap v2.0",
+      "url": "/proposals/preproposals/f341b83c-78f0-4ab2-b8fd-ddc7ac5d9c37/",
+      "file": "f341b83c-78f0-4ab2-b8fd-ddc7ac5d9c37/index.md"
     },
     "details": {
-      "content_before": "# External Test Lab & Community DevNet\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Sergii Paranko\n**Created:** 2026-07-04 12:00 UTC\n**Closes:** 2026-07-14 11:44 UTC\n**Language:** EN\n**Votes:** 4\n**Avg. Bid:** 168.7K GNK\n\n</div>\n\n4-month pilot proposal for community-owned testing infrastructure and QA capacity.\n\n---\n\n## Full Proposal\n\nExecutive Summary\n\nThis proposal requests funding for a 4-month pilot of External Test Lab & Community DevNet: a community-owned testing function for Gonka protocol upgrades, DevShards, inference flows, host/broker operations, and geographically distributed network behavior before governance decisions and production rollout.\n\n| **Item**              | **Proposal**                                 ",
-      "content_after": "# External Test Lab & Community DevNet\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Sergii Paranko\n**Created:** 2026-07-04 12:00 UTC\n**Closes:** 2026-07-14 11:44 UTC\n**Language:** EN\n**Votes:** 4\n**Avg. Bid:** 170.5K GNK\n\n</div>\n\n4-month pilot proposal for community-owned testing infrastructure and QA capacity.\n\n---\n\n## Full Proposal\n\nExecutive Summary\n\nThis proposal requests funding for a 4-month pilot of External Test Lab & Community DevNet: a community-owned testing function for Gonka protocol upgrades, DevShards, inference flows, host/broker operations, and geographically distributed network behavior before governance decisions and production rollout.\n\n| **Item**              | **Proposal**                                 "
+      "content_before": "# Привлечение $3M+ нового капитала на Uniswap v2.0\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Andrey Orlov\n**Created:** 2026-07-09 16:25 UTC\n**Closes:** 2026-08-08 16:25 UTC\n**Language:** RU\n**Votes:** 4\n**Avg. Bid:** 168.7K GNK\n\n</div>\n\nПредлагаем за 90 дней привлечь от $3 млн нового капитала в GONKA через масштабируемую Telegram-воронку с поэтапным финансированием и KPI\n\n---\n\n## Full Proposal\n\nСуть предложения\n2. Кто мы\n3. Что мы предлагаем\n4. KPI и экономика проекта\n5. Как будет работать воронка\n6. Стратегия удержания пользователей\n7. Финансирование\n8. Вознаграждение команды \n9. Отчетность и прозрачность\n10. Что получает GONKA\n11. Защита от фрода и методика расчета KPI\n12. Дополнительные материалы\n\n \n1.  Суть предложения\n\n",
+      "content_after": "# Привлечение $3M+ нового капитала на Uniswap v2.0\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Andrey Orlov\n**Created:** 2026-07-09 16:25 UTC\n**Closes:** 2026-08-08 16:25 UTC\n**Language:** RU\n**Votes:** 4\n**Avg. Bid:** 170.5K GNK\n\n</div>\n\nПредлагаем за 90 дней привлечь от $3 млн нового капитала в GONKA через масштабируемую Telegram-воронку с поэтапным финансированием и KPI\n\n---\n\n## Full Proposal\n\nСуть предложения\n2. Кто мы\n3. Что мы предлагаем\n4. KPI и экономика проекта\n5. Как будет работать воронка\n6. Стратегия удержания пользователей\n7. Финансирование\n8. Вознаграждение команды \n9. Отчетность и прозрачность\n10. Что получает GONKA\n11. Защита от фрода и методика расчета KPI\n12. Дополнительные материалы\n\n \n1.  Суть предложения\n\n"
     },
-    "ai_description": "Препропозал External Test Lab & Community DevNet обновлён — статус остаётся Expired. Сообщество ожидает пересмотренной версии с учётом предыдущих обсуждений."
-  },
-  {
-    "id": "evt_20260717041932_4a1d6f3d",
-    "timestamp": "2026-07-17T04:19:32.508406+00:00",
-    "section": "preproposals",
-    "action": "updated",
-    "item": {
-      "title": "Go-To-Market Team for 3 Month to Set Up the Basis",
-      "url": "/proposals/preproposals/cb7f643f-3d56-47ec-9193-f9f2f80a99fb/",
-      "file": "cb7f643f-3d56-47ec-9193-f9f2f80a99fb/index.md"
-    },
-    "details": {
-      "content_before": "# Go-To-Market Team for 3 Month to Set Up the Basis\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Dem \\| Démíngān\n**Created:** 2026-07-03 15:58 UTC\n**Closes:** 2026-07-10 15:58 UTC\n**Language:** EN\n**Votes:** 1\n**Avg. Bid:** 6.4K GNK\n\n</div>\n\nThis proposal describes ecosystem we should do for the Gonka, including basics, go-to-market actions, the team and the budgets for the next 3 months.\n\n---\n\n## Full Proposal\n\nInternal Go-To-Market Team for Gonka\n\n[Read full proposal](https://app.integrity.sh/p/SuMCnGQBhz-0asAYBUz1U)\n\n## Summary\n\nThis proposal describes a 3-month internal go-to-market team for Gonka. The goal is to set up the core GTM foundation: acquisition funnels, analytics, audience research, CRM processes, and coordinat",
-      "content_after": "# Go-To-Market Team for 3 Month to Set Up the Basis\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Dem \\| Démíngān\n**Created:** 2026-07-03 15:58 UTC\n**Closes:** 2026-07-10 15:58 UTC\n**Language:** EN\n**Votes:** 1\n**Avg. Bid:** 22.1K GNK\n\n</div>\n\nThis proposal describes ecosystem we should do for the Gonka, including basics, go-to-market actions, the team and the budgets for the next 3 months.\n\n---\n\n## Full Proposal\n\nInternal Go-To-Market Team for Gonka\n\n[Read full proposal](https://app.integrity.sh/p/SuMCnGQBhz-0asAYBUz1U)\n\n## Summary\n\nThis proposal describes a 3-month internal go-to-market team for Gonka. The goal is to set up the core GTM foundation: acquisition funnels, analytics, audience research, CRM processes, and coordina"
-    },
-    "ai_description": "Обновлён препропозал Go-To-Market Team (статус Expired). Продолжается обсуждение стратегии выхода на рынок."
-  },
-  {
-    "id": "evt_20260717041932_00f379bf",
-    "timestamp": "2026-07-17T04:19:32.508434+00:00",
-    "section": "preproposals",
-    "action": "updated",
-    "item": {
-      "title": "Привлечение $3M+ нового капитала на Uniswap",
-      "url": "/proposals/preproposals/e0cc7d32-5d1a-49e1-94e8-0ca3d9ccbf6b/",
-      "file": "e0cc7d32-5d1a-49e1-94e8-0ca3d9ccbf6b/index.md"
-    },
-    "details": {
-      "content_before": "# Привлечение $3M+ нового капитала на Uniswap\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Andrey Orlov\n**Created:** 2026-07-03 15:10 UTC\n**Closes:** 2026-08-02 15:10 UTC\n**Language:** RU\n**Votes:** 4\n**Avg. Bid:** 168.7K GNK\n\n</div>\n\nПредлагаем за 90 дней привлечь от $3 млн нового капитала в GONKA через масштабируемую Telegram-воронку с поэтапным финансированием и KPI\n\n---\n\n## Full Proposal\n\nСуть предложения\n2. Кто мы\n3. Что мы предлагаем\n4. KPI и экономика проекта\n5. Как будет работать воронка\n6. Стратегия удержания пользователей\n7. Финансирование\n8. Вознаграждение команды \n9. Отчетность и прозрачность\n10. Что получает GONKA\n11. Дополнительные материалы\n\n1.  Суть предложения\n\nМы предлагаем реализовать маркетинговую кампанию, ",
-      "content_after": "# Привлечение $3M+ нового капитала на Uniswap\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Andrey Orlov\n**Created:** 2026-07-03 15:10 UTC\n**Closes:** 2026-08-02 15:10 UTC\n**Language:** RU\n**Votes:** 4\n**Avg. Bid:** 170.5K GNK\n\n</div>\n\nПредлагаем за 90 дней привлечь от $3 млн нового капитала в GONKA через масштабируемую Telegram-воронку с поэтапным финансированием и KPI\n\n---\n\n## Full Proposal\n\nСуть предложения\n2. Кто мы\n3. Что мы предлагаем\n4. KPI и экономика проекта\n5. Как будет работать воронка\n6. Стратегия удержания пользователей\n7. Финансирование\n8. Вознаграждение команды \n9. Отчетность и прозрачность\n10. Что получает GONKA\n11. Дополнительные материалы\n\n1.  Суть предложения\n\nМы предлагаем реализовать маркетинговую кампанию, "
-    },
-    "ai_description": "Препропозал по привлечению $3M+ через Telegram-воронку обновлён. Обсуждение продолжается, предложение остаётся активным до 2 августа."
+    "ai_description": "Обновлён препропозал Привлечение $3M+ нового капитала на Uniswap v2.0 — уточнённая версия предложения остаётся активной для голосования."
   },
   {
     "id": "evt_20260717041932_f63e3c54",
@@ -195,20 +163,52 @@
     "ai_description": "Препропозал Gonka Media Library от Saccade обновлён (статус Expired). Инициатива по созданию медиа-библиотеки для экосистемы ждёт новых идей."
   },
   {
-    "id": "evt_20260717041932_a8f1e2e4",
-    "timestamp": "2026-07-17T04:19:32.508481+00:00",
+    "id": "evt_20260717041932_00f379bf",
+    "timestamp": "2026-07-17T04:19:32.508434+00:00",
     "section": "preproposals",
     "action": "updated",
     "item": {
-      "title": "Привлечение $3M+ нового капитала на Uniswap v2.0",
-      "url": "/proposals/preproposals/f341b83c-78f0-4ab2-b8fd-ddc7ac5d9c37/",
-      "file": "f341b83c-78f0-4ab2-b8fd-ddc7ac5d9c37/index.md"
+      "title": "Привлечение $3M+ нового капитала на Uniswap",
+      "url": "/proposals/preproposals/e0cc7d32-5d1a-49e1-94e8-0ca3d9ccbf6b/",
+      "file": "e0cc7d32-5d1a-49e1-94e8-0ca3d9ccbf6b/index.md"
     },
     "details": {
-      "content_before": "# Привлечение $3M+ нового капитала на Uniswap v2.0\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Andrey Orlov\n**Created:** 2026-07-09 16:25 UTC\n**Closes:** 2026-08-08 16:25 UTC\n**Language:** RU\n**Votes:** 4\n**Avg. Bid:** 168.7K GNK\n\n</div>\n\nПредлагаем за 90 дней привлечь от $3 млн нового капитала в GONKA через масштабируемую Telegram-воронку с поэтапным финансированием и KPI\n\n---\n\n## Full Proposal\n\nСуть предложения\n2. Кто мы\n3. Что мы предлагаем\n4. KPI и экономика проекта\n5. Как будет работать воронка\n6. Стратегия удержания пользователей\n7. Финансирование\n8. Вознаграждение команды \n9. Отчетность и прозрачность\n10. Что получает GONKA\n11. Защита от фрода и методика расчета KPI\n12. Дополнительные материалы\n\n \n1.  Суть предложения\n\n",
-      "content_after": "# Привлечение $3M+ нового капитала на Uniswap v2.0\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Andrey Orlov\n**Created:** 2026-07-09 16:25 UTC\n**Closes:** 2026-08-08 16:25 UTC\n**Language:** RU\n**Votes:** 4\n**Avg. Bid:** 170.5K GNK\n\n</div>\n\nПредлагаем за 90 дней привлечь от $3 млн нового капитала в GONKA через масштабируемую Telegram-воронку с поэтапным финансированием и KPI\n\n---\n\n## Full Proposal\n\nСуть предложения\n2. Кто мы\n3. Что мы предлагаем\n4. KPI и экономика проекта\n5. Как будет работать воронка\n6. Стратегия удержания пользователей\n7. Финансирование\n8. Вознаграждение команды \n9. Отчетность и прозрачность\n10. Что получает GONKA\n11. Защита от фрода и методика расчета KPI\n12. Дополнительные материалы\n\n \n1.  Суть предложения\n\n"
+      "content_before": "# Привлечение $3M+ нового капитала на Uniswap\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Andrey Orlov\n**Created:** 2026-07-03 15:10 UTC\n**Closes:** 2026-08-02 15:10 UTC\n**Language:** RU\n**Votes:** 4\n**Avg. Bid:** 168.7K GNK\n\n</div>\n\nПредлагаем за 90 дней привлечь от $3 млн нового капитала в GONKA через масштабируемую Telegram-воронку с поэтапным финансированием и KPI\n\n---\n\n## Full Proposal\n\nСуть предложения\n2. Кто мы\n3. Что мы предлагаем\n4. KPI и экономика проекта\n5. Как будет работать воронка\n6. Стратегия удержания пользователей\n7. Финансирование\n8. Вознаграждение команды \n9. Отчетность и прозрачность\n10. Что получает GONKA\n11. Дополнительные материалы\n\n1.  Суть предложения\n\nМы предлагаем реализовать маркетинговую кампанию, ",
+      "content_after": "# Привлечение $3M+ нового капитала на Uniswap\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Andrey Orlov\n**Created:** 2026-07-03 15:10 UTC\n**Closes:** 2026-08-02 15:10 UTC\n**Language:** RU\n**Votes:** 4\n**Avg. Bid:** 170.5K GNK\n\n</div>\n\nПредлагаем за 90 дней привлечь от $3 млн нового капитала в GONKA через масштабируемую Telegram-воронку с поэтапным финансированием и KPI\n\n---\n\n## Full Proposal\n\nСуть предложения\n2. Кто мы\n3. Что мы предлагаем\n4. KPI и экономика проекта\n5. Как будет работать воронка\n6. Стратегия удержания пользователей\n7. Финансирование\n8. Вознаграждение команды \n9. Отчетность и прозрачность\n10. Что получает GONKA\n11. Дополнительные материалы\n\n1.  Суть предложения\n\nМы предлагаем реализовать маркетинговую кампанию, "
     },
-    "ai_description": "Обновлён препропозал Привлечение $3M+ нового капитала на Uniswap v2.0 — уточнённая версия предложения остаётся активной для голосования."
+    "ai_description": "Препропозал по привлечению $3M+ через Telegram-воронку обновлён. Обсуждение продолжается, предложение остаётся активным до 2 августа."
+  },
+  {
+    "id": "evt_20260717041932_4a1d6f3d",
+    "timestamp": "2026-07-17T04:19:32.508406+00:00",
+    "section": "preproposals",
+    "action": "updated",
+    "item": {
+      "title": "Go-To-Market Team for 3 Month to Set Up the Basis",
+      "url": "/proposals/preproposals/cb7f643f-3d56-47ec-9193-f9f2f80a99fb/",
+      "file": "cb7f643f-3d56-47ec-9193-f9f2f80a99fb/index.md"
+    },
+    "details": {
+      "content_before": "# Go-To-Market Team for 3 Month to Set Up the Basis\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Dem \\| Démíngān\n**Created:** 2026-07-03 15:58 UTC\n**Closes:** 2026-07-10 15:58 UTC\n**Language:** EN\n**Votes:** 1\n**Avg. Bid:** 6.4K GNK\n\n</div>\n\nThis proposal describes ecosystem we should do for the Gonka, including basics, go-to-market actions, the team and the budgets for the next 3 months.\n\n---\n\n## Full Proposal\n\nInternal Go-To-Market Team for Gonka\n\n[Read full proposal](https://app.integrity.sh/p/SuMCnGQBhz-0asAYBUz1U)\n\n## Summary\n\nThis proposal describes a 3-month internal go-to-market team for Gonka. The goal is to set up the core GTM foundation: acquisition funnels, analytics, audience research, CRM processes, and coordinat",
+      "content_after": "# Go-To-Market Team for 3 Month to Set Up the Basis\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Dem \\| Démíngān\n**Created:** 2026-07-03 15:58 UTC\n**Closes:** 2026-07-10 15:58 UTC\n**Language:** EN\n**Votes:** 1\n**Avg. Bid:** 22.1K GNK\n\n</div>\n\nThis proposal describes ecosystem we should do for the Gonka, including basics, go-to-market actions, the team and the budgets for the next 3 months.\n\n---\n\n## Full Proposal\n\nInternal Go-To-Market Team for Gonka\n\n[Read full proposal](https://app.integrity.sh/p/SuMCnGQBhz-0asAYBUz1U)\n\n## Summary\n\nThis proposal describes a 3-month internal go-to-market team for Gonka. The goal is to set up the core GTM foundation: acquisition funnels, analytics, audience research, CRM processes, and coordina"
+    },
+    "ai_description": "Обновлён препропозал Go-To-Market Team (статус Expired). Продолжается обсуждение стратегии выхода на рынок."
+  },
+  {
+    "id": "evt_20260717041932_bae05120",
+    "timestamp": "2026-07-17T04:19:32.508356+00:00",
+    "section": "preproposals",
+    "action": "updated",
+    "item": {
+      "title": "External Test Lab & Community DevNet",
+      "url": "/proposals/preproposals/205219a5-6ed2-4f25-8d22-fa7c65a45ba6/",
+      "file": "205219a5-6ed2-4f25-8d22-fa7c65a45ba6/index.md"
+    },
+    "details": {
+      "content_before": "# External Test Lab & Community DevNet\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Sergii Paranko\n**Created:** 2026-07-04 12:00 UTC\n**Closes:** 2026-07-14 11:44 UTC\n**Language:** EN\n**Votes:** 4\n**Avg. Bid:** 168.7K GNK\n\n</div>\n\n4-month pilot proposal for community-owned testing infrastructure and QA capacity.\n\n---\n\n## Full Proposal\n\nExecutive Summary\n\nThis proposal requests funding for a 4-month pilot of External Test Lab & Community DevNet: a community-owned testing function for Gonka protocol upgrades, DevShards, inference flows, host/broker operations, and geographically distributed network behavior before governance decisions and production rollout.\n\n| **Item**              | **Proposal**                                 ",
+      "content_after": "# External Test Lab & Community DevNet\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Sergii Paranko\n**Created:** 2026-07-04 12:00 UTC\n**Closes:** 2026-07-14 11:44 UTC\n**Language:** EN\n**Votes:** 4\n**Avg. Bid:** 170.5K GNK\n\n</div>\n\n4-month pilot proposal for community-owned testing infrastructure and QA capacity.\n\n---\n\n## Full Proposal\n\nExecutive Summary\n\nThis proposal requests funding for a 4-month pilot of External Test Lab & Community DevNet: a community-owned testing function for Gonka protocol upgrades, DevShards, inference flows, host/broker operations, and geographically distributed network behavior before governance decisions and production rollout.\n\n| **Item**              | **Proposal**                                 "
+    },
+    "ai_description": "Препропозал External Test Lab & Community DevNet обновлён — статус остаётся Expired. Сообщество ожидает пересмотренной версии с учётом предыдущих обсуждений."
   },
   {
     "id": "evt_20260717041724_07308f87",
@@ -225,22 +225,6 @@
       "content": "> 🔄 **Auto-sync:** from [Discussion #1464](https://github.com/gonka-ai/gonka/discussions/1464) every hour. \n\n# Dev Team Funding\n\n**Автор:** [@gmorgachev](https://github.com/gmorgachev) · **Категория:** :bulb: Proposals · **Создано:** 2026-07-17 01:38 UTC · \n\n---\n\n## 📝 Описание\n\nHello everyone! I am Gleb Morgachev, one of Gonka's co-creators.\n\nIn the next couple of weeks, I plan to submit a proposal requesting 1.5 million USDT from the community pool. The funding would support an independent engineering team working on core protocol development aligned with the community roadmap. It would cover the team and expenses directly related to its work, not servers or GPU infrastructure for mining.\n\n## Scope\n\nThis independent team would be a small group of top-tier engineers working on Gonka's core"
     },
     "ai_description": "Новое обсуждение в категории Proposals от gmorgachev — Dev Team Funding. Предлагается обсудить финансирование команды разработки для ускорения развития протокола."
-  },
-  {
-    "id": "evt_20260716204950_c2cbc1a3",
-    "timestamp": "2026-07-16T20:49:50.474957+00:00",
-    "section": "gonka_docs",
-    "action": "updated",
-    "item": {
-      "title": "Announcements",
-      "url": "/gonka/docs/network-updates/",
-      "file": "network-updates.md"
-    },
-    "details": {
-      "content_before": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## July 15, 2026\n\n**Expedited governance vote (proposal 87): remove Kimi-K2.6 for a fast re-bootstrap**\n\n`moonshotai/Kimi-K2.6` lost its PoC validation majority in epochs 328–329 (see the incident [details here](https://gonka.ai/docs/network-updates/#july-1",
-      "content_after": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## July 16, 2026\n\n**Expedited governance vote (proposal 88): re-register Kimi-K2.6 and remove devshard v1/v2 runtimes**\n\nThis is the second step of the Kimi recovery plan announced on July 15. Proposal 87 removed `moonshotai/Kimi-K2.6` from the active set; "
-    },
-    "ai_description": "Обновлён English-раздел Announcements в протокольной документации — актуальные новости и объявления для англоязычного сообщества."
   },
   {
     "id": "evt_20260716204950_73d261ae",
@@ -330,38 +314,6 @@
     "ai_description": "Предложение #87 об исключении модели Kimi K2.6 из сети успешно прошло голосование со 100% поддержкой. Экспресс-голосование завершилось принятием, и moonshotai/Kimi-K2.6 теперь будет удалена из параметров PoC и списка управляемых моделей Gonka."
   },
   {
-    "id": "evt_20260716063810_04ea6a1e",
-    "timestamp": "2026-07-16T06:38:10.829166+00:00",
-    "section": "issues",
-    "action": "updated",
-    "item": {
-      "title": "#1408 — Model lineup improvement: add an accessible GLM-5.2 candidate and reconsider MiniMax-M2.7 as default",
-      "url": "/community/issues/01408-model-lineup-improvement-add-an-accessible-glm-52-candidate-/",
-      "file": "01408-model-lineup-improvement-add-an-accessible-glm-52-candidate-.md"
-    },
-    "details": {
-      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Model lineup improvement: add an accessible GLM-5.2 candidate and reconsider MiniMax-M2.7 as default\n    <span class=\"issues-number\">#1408</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\">[@enonog](https://github.com/enonog) opened 2026-07-06 12:31 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin",
-      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Model lineup improvement: add an accessible GLM-5.2 candidate and reconsider MiniMax-M2.7 as default\n    <span class=\"issues-number\">#1408</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\">[@enonog](https://github.com/enonog) opened 2026-07-06 12:31 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin"
-    },
-    "ai_description": "В issue #1408 появилось новое обсуждение по обновлению модельной линейки сети. Сообщество активно дискутирует добавление доступного GLM-5.2 и вопрос о том, стоит ли оставлять MiniMax-M2.7 в качестве модели по умолчанию. Присоединяйтесь к разговору, ваше мнение поможет сформировать финальное решение."
-  },
-  {
-    "id": "evt_20260716045851_7e87bb53",
-    "timestamp": "2026-07-16T04:58:51.761180+00:00",
-    "section": "gonka_docs",
-    "action": "updated",
-    "item": {
-      "title": "Announcements",
-      "url": "/gonka/docs/network-updates/",
-      "file": "network-updates.md"
-    },
-    "details": {
-      "content_before": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## July 15, 2026\n\n**Kimi-K2.6 incident (epochs 328–329): what happened, recovery plan, and a change in delegation guidance**\n\nIn epoch 328, `moonshotai/Kimi-K2.6` lost its PoC validation majority. Hosts serving Kimi were knocked out of the group at the star",
-      "content_after": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## July 15, 2026\n\n**Expedited governance vote (proposal 87): remove Kimi-K2.6 for a fast re-bootstrap**\n\n`moonshotai/Kimi-K2.6` lost its PoC validation majority in epochs 328–329 (see the incident [details here](https://gonka.ai/docs/network-updates/#july-1"
-    },
-    "ai_description": "Страница Announcements обновлена — добавлена информация о последних событиях в сети Gonka."
-  },
-  {
     "id": "evt_20260716015707_43ea76ec",
     "timestamp": "2026-07-16T01:57:07.739903+00:00",
     "section": "gonka_docs",
@@ -376,22 +328,6 @@
       "content_after": "# Multi-Model PoC — Host Operations Guide\n\nMulti-model Proof-of-Compute (PoC) arrived in v0.2.12 and expanded again in v0.2.13.\n\n!!! warning \"Delegation guidance update (July 2026)\"\n\n    After the epoch 328–329 incident, two rules apply when choosing a delegate:\n\n    - **Do not delegate to guardian nodes.** Guardians are the fallback mechanism\n      for PoC validation. Concentrating delegations on them ties the primary\n      voting mechanism and the fallback to the same hardware, so both fail\n      together. Earlier guidance that suggested a guardian node as a delegation\n      target is withdrawn. A protocol-level restriction is planned for v0.2.14.\n    - **Avoid concentrating delegations on any single host.** A delegation only\n      counts if the delegate submits a PoC store commit that e"
     },
     "ai_description": "Обновлено руководство по эксплуатации Multi-Model PoC. Теперь в нем отражены важные изменения в рекомендациях по делегированию, выявленные после инцидента в эпохах 328–329. Во-первых, делегировать голоса узлам-гвардианам больше не рекомендуется, так как это связывает основной механизм голосования и резервный валидации в одно оборудование, повышая риск совместного отказа. Во-вторых, следует избегать концентрации делегирования на одном хосте. На уровне"
-  },
-  {
-    "id": "evt_20260716015707_27b52669",
-    "timestamp": "2026-07-16T01:57:07.739945+00:00",
-    "section": "gonka_docs",
-    "action": "updated",
-    "item": {
-      "title": "Announcements",
-      "url": "/gonka/docs/network-updates/",
-      "file": "network-updates.md"
-    },
-    "details": {
-      "content_before": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## July 11, 2026\n\n**The v0.2.13-devshard-v3 runtime upgrade proposal has passed governance**\n\nThe devshard v3 runtime has been approved on-chain and added to `DevshardEscrowParams.approved_versions`.\n\nThis proposal covered [the devshard v3 release.](https:/",
-      "content_after": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## July 15, 2026\n\n**Kimi-K2.6 incident (epochs 328–329): what happened, recovery plan, and a change in delegation guidance**\n\nIn epoch 328, `moonshotai/Kimi-K2.6` lost its PoC validation majority. Hosts serving Kimi were knocked out of the group at the star"
-    },
-    "ai_description": "Обновили раздел объявлений в документации протокола. Там теперь есть разбор инцидента с моделью Kimi-K2.6 в эпохах 328–329, план восстановления и новые рекомендации по делегированию после того, как валидаторы потеряли большинство PoC и хосты выбыли из группы."
   },
   {
     "id": "evt_20260716000810_fcb0d1c0",
@@ -443,38 +379,6 @@
     "ai_description": "В разделе FAQ обновили описание роли хостов в сети. Теперь в документации четко указано, что любой хост может выступать валидатором и осуществлять трансферы, без упоминания роли трансфер-агента. Это делает описание governance-возможностей хостов более точным и понятным для сообщества."
   },
   {
-    "id": "evt_20260714234436_369dbb4f",
-    "timestamp": "2026-07-14T23:44:36.296794+00:00",
-    "section": "gonka_docs",
-    "action": "updated",
-    "item": {
-      "title": "FAQ",
-      "url": "/gonka/docs/zh/FAQ/",
-      "file": "zh/FAQ.md"
-    },
-    "details": {
-      "content_before": "# FAQ\n\n## 概述\n\n### 什么是Gonka？\nGonka是一个用于高效AI计算的去中心化网络——由其使用者运营。它作为集中式云服务在AI模型训练和推理方面的低成本、高效率替代方案。作为一个协议，它并非公司或初创企业。\n\n- 从区块链角度看，Gonka是去中心化AI网络的基础账本与协调层（L1）。它记录余额、交易和加密证据，以证明主机正确执行了AI任务，而所有实际计算（如推理和训练）均在链下进行。\n- 从网络角度看，Gonka是一个由主机和开发者等参与者组成的综合生态系统，通过去中心化基础设施进行交互。在Gonka区块链的驱动下，该网络分发任务、验证结果，并仅奖励可验证的有用工作，从而为AI工作负载创造了一个具有竞争力且可扩展的环境。\n\n### Gonka解决了什么问题？\n\nGonka是一个去中心化AI基础设施，旨在减少对集中式云提供商的依赖，并比传统去中心化网络更高效地利用计算能力。其目标是尽可能将计算资源导向有用的AI任务，如推理和训练，同时最小化因共识开销造成的浪费。\n\n### Gonka生态系统中的关键参与者有哪些？\n\nGonka生态系统有四个关键参与者群体：\n\n- 开发者通过利用网络的分布式计算能力构建和部署AI应用。\n- Gonka贡献者参与核心区块链代码库、协议升级、性能优化、安全补丁和新功能集成的开发。\n- 持有者持有网络的原生代币，即仅拥有一个包含GNK代币的钱包。持有者可以持有、转账或出售代币，使用代币进行推理，并根据协议规则使用它们。成为持有者不意味着除标准代币所有权外的任何义务、责任或治理角色。\n- 主机为网络贡献计算能力。主机执行推理和其他计算任务，并根据其贡献的计算能力获得相应奖励，前提是保持诚实参与和可靠性。主机是网络的支柱。只有主机拥有网络的投票权。该投票权代表其在治理中的权重，用于提议和投票决定协议决策、参数变更和升级。任何主机均可",
-      "content_after": "# FAQ\n\n## 概述\n\n### 什么是Gonka？\nGonka是一个用于高效AI计算的去中心化网络——由使用者运营。它作为集中式云服务在AI模型训练和推理方面的经济高效替代方案。作为一个协议，它并非公司或初创企业。\n\n- 从区块链角度看，Gonka是去中心化AI网络的基础账本与协调层（L1）。它记录余额、交易和加密证据，以证明主机正确执行了AI工作，而所有实际计算（如推理和训练）均在链下进行。\n- 从网络角度看，Gonka是一个包含主机和开发者的综合生态系统，通过去中心化基础设施进行交互。依托Gonka区块链，该网络分发任务、验证结果，并仅奖励可验证的有用工作，从而为AI工作负载创建一个竞争性强、可扩展的环境。\n\n### Gonka解决了什么问题？\n\nGonka是一个去中心化AI基础设施，旨在减少对集中式云提供商的依赖，并比传统去中心化网络更高效地利用计算能力。其目标是尽可能将计算资源导向有用的AI任务，如推理和训练，同时最小化因共识开销造成的浪费。\n\n### Gonka生态系统中的关键参与者有哪些？\n\nGonka生态系统有四个关键参与者群体：\n\n- 开发者通过利用网络的分布式计算能力构建和部署AI应用。\n- Gonka贡献者参与核心区块链代码库、协议升级、性能优化、安全补丁和新功能集成的开发。\n- 持有者持有网络的原生代币，即拥有一个包含Gonka代币的钱包。持有者可以持有、转账或出售代币，使用代币进行推理，并根据协议规则使用它们。成为持有者不意味着除标准代币所有权外的任何义务、责任或治理角色。\n- 主机向网络贡献计算能力。主机执行推理和其他计算任务，并根据其贡献的计算能力按比例获得奖励，前提是保持诚实参与和可靠性。主机构成网络的骨干。只有主机在网络中拥有投票权。该投票权代表其在治理中的权重，用于提出和投票决定协议决策、参数变更和升级。任何主机均可担任验证者、转账代理"
-    },
-    "ai_description": "В китайской версии FAQ обновлены формулировки описания ключевых участников экосистемы. Текст стал более согласованным с основной английской версией: уточнены роли хостов (теперь любой хост может быть валидатором и агентом трансферов) и держателей токенов. Это делает документацию более точной для китайскоязычного сообщества."
-  },
-  {
-    "id": "evt_20260714230835_4e8620d3",
-    "timestamp": "2026-07-14T23:08:35.177787+00:00",
-    "section": "preproposals",
-    "action": "updated",
-    "item": {
-      "title": "Улучшаем инфиренс Kimi",
-      "url": "/proposals/preproposals/d185d9eb-243f-4228-b4ac-e2c7a50a5325/",
-      "file": "d185d9eb-243f-4228-b4ac-e2c7a50a5325/index.md"
-    },
-    "details": {
-      "content_before": "# Улучшаем инфиренс Kimi\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Mitch\n**Created:** 2026-07-14 01:37 UTC\n**Closes:** 2026-07-21 01:37 UTC\n**Language:** RU\n**Votes:** 4\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nKimi в Gonka перегружен и сыпет ошибками. Разбираем, почему так вышло, и что можно исправить прямо сейчас через Governance и настройки нод.\n\n---\n\n## Full Proposal\n\nФакты:\n\n* \\~20% веса сети приходится на Kimi  \n* Запросов на инфиренс идет столько, что ноды с Kimi часто перегружены, и ответ падает с ошибкой  \n* Недели 2 назад Kimi можно было нормально пользоваться  \n* Сейчас Kimi часто дает ошибку, стало больше запросов  \n* Сама по себе цена не будет расти и при 100% загрузке нод с Kimi (динамического прайсинга нету в девшардах",
-      "content_after": "# Улучшаем инфиренс Kimi\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Mitch\n**Created:** 2026-07-14 01:37 UTC\n**Closes:** 2026-07-21 01:37 UTC\n**Language:** RU\n**Votes:** 5\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nKimi в Gonka перегружен и сыпет ошибками. Разбираем, почему так вышло, и что можно исправить прямо сейчас через Governance и настройки нод.\n\n---\n\n## Full Proposal\n\nФакты:\n\n* \\~20% веса сети приходится на Kimi  \n* Запросов на инфиренс идет столько, что ноды с Kimi часто перегружены, и ответ падает с ошибкой  \n* Недели 2 назад Kimi можно было нормально пользоваться  \n* Сейчас Kimi часто дает ошибку, стало больше запросов  \n* Сама по себе цена не будет расти и при 100% загрузке нод с Kimi (динамического прайсинга нету в девшардах"
-    },
-    "ai_description": "Pre-proposal по улучшению инференса Kimi набирает поддержку сообщества — количество голосов выросло с четырёх до пяти. Пока статус остаётся активным, участники продолжают обсуждать, как снизить нагрузку на ноды и вернуть стабильность работе модели. Если вы ещё не проголосовали, у вас есть время до 21 июля, чтобы повлиять на решение."
-  },
-  {
     "id": "evt_20260714183648_d7e167ea",
     "timestamp": "2026-07-14T18:36:48.473360+00:00",
     "section": "issues",
@@ -524,54 +428,6 @@
       "status_after": "expired"
     },
     "ai_description": "Предложение Sergii Paranko о запуске External Test Lab и Community DevNet с запрашиваемым финансированием около 168.7K GNK не набрало достаточной поддержки и перешло из статуса Active в Expired. Это означает, что пилот по созданию общественной тестовой инфраструктуры и QA-функции для протокола Gonka на данный момент не будет реализован, и сообществу стоит ожидать пересмотренной версии или альтернативных подходов к тестированию перед продакшеном."
-  },
-  {
-    "id": "evt_20260714114158_6a5c02c5",
-    "timestamp": "2026-07-14T11:41:58.760303+00:00",
-    "section": "preproposals",
-    "action": "updated",
-    "item": {
-      "title": "Улучшаем инфиренс Kimi",
-      "url": "/proposals/preproposals/d185d9eb-243f-4228-b4ac-e2c7a50a5325/",
-      "file": "d185d9eb-243f-4228-b4ac-e2c7a50a5325/index.md"
-    },
-    "details": {
-      "content_before": "# Улучшаем инфиренс Kimi\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Mitch\n**Created:** 2026-07-14 01:37 UTC\n**Closes:** 2026-07-21 01:37 UTC\n**Language:** RU\n**Votes:** 3\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nKimi в Gonka перегружен и сыпет ошибками. Разбираем, почему так вышло, и что можно исправить прямо сейчас через Governance и настройки нод.\n\n---\n\n## Full Proposal\n\nФакты:\n\n* \\~20% веса сети приходится на Kimi  \n* Запросов на инфиренс идет столько, что ноды с Kimi часто перегружены, и ответ падает с ошибкой  \n* Недели 2 назад Kimi можно было нормально пользоваться  \n* Сейчас Kimi часто дает ошибку, стало больше запросов  \n* Сама по себе цена не будет расти и при 100% загрузке нод с Kimi (динамического прайсинга нету в девшардах",
-      "content_after": "# Улучшаем инфиренс Kimi\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Mitch\n**Created:** 2026-07-14 01:37 UTC\n**Closes:** 2026-07-21 01:37 UTC\n**Language:** RU\n**Votes:** 4\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nKimi в Gonka перегружен и сыпет ошибками. Разбираем, почему так вышло, и что можно исправить прямо сейчас через Governance и настройки нод.\n\n---\n\n## Full Proposal\n\nФакты:\n\n* \\~20% веса сети приходится на Kimi  \n* Запросов на инфиренс идет столько, что ноды с Kimi часто перегружены, и ответ падает с ошибкой  \n* Недели 2 назад Kimi можно было нормально пользоваться  \n* Сейчас Kimi часто дает ошибку, стало больше запросов  \n* Сама по себе цена не будет расти и при 100% загрузке нод с Kimi (динамического прайсинга нету в девшардах"
-    },
-    "ai_description": "Препропозал по улучшению инференса Kimi набрал уже 4 голоса вместо 3. Это говорит о растущей поддержке сообщества в решении проблемы перегрузки нод, которая сейчас затрагивает около 20 процентов веса сети. Если вы еще не проголосовали, у вас есть время до 21 июля."
-  },
-  {
-    "id": "evt_20260714114158_d71d4f3d",
-    "timestamp": "2026-07-14T11:41:58.760344+00:00",
-    "section": "preproposals",
-    "action": "updated",
-    "item": {
-      "title": "Привлечение $3M+ нового капитала на Uniswap",
-      "url": "/proposals/preproposals/e0cc7d32-5d1a-49e1-94e8-0ca3d9ccbf6b/",
-      "file": "e0cc7d32-5d1a-49e1-94e8-0ca3d9ccbf6b/index.md"
-    },
-    "details": {
-      "content_before": "# Привлечение $3M+ нового капитала на Uniswap\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Andrey Orlov\n**Created:** 2026-07-03 15:10 UTC\n**Closes:** 2026-08-02 15:10 UTC\n**Language:** RU\n**Votes:** 3\n**Avg. Bid:** 224.9K GNK\n\n</div>\n\nПредлагаем за 90 дней привлечь от $3 млн нового капитала в GONKA через масштабируемую Telegram-воронку с поэтапным финансированием и KPI\n\n---\n\n## Full Proposal\n\nСуть предложения\n2. Кто мы\n3. Что мы предлагаем\n4. KPI и экономика проекта\n5. Как будет работать воронка\n6. Стратегия удержания пользователей\n7. Финансирование\n8. Вознаграждение команды \n9. Отчетность и прозрачность\n10. Что получает GONKA\n11. Дополнительные материалы\n\n1.  Суть предложения\n\nМы предлагаем реализовать маркетинговую кампанию, ",
-      "content_after": "# Привлечение $3M+ нового капитала на Uniswap\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Andrey Orlov\n**Created:** 2026-07-03 15:10 UTC\n**Closes:** 2026-08-02 15:10 UTC\n**Language:** RU\n**Votes:** 4\n**Avg. Bid:** 168.7K GNK\n\n</div>\n\nПредлагаем за 90 дней привлечь от $3 млн нового капитала в GONKA через масштабируемую Telegram-воронку с поэтапным финансированием и KPI\n\n---\n\n## Full Proposal\n\nСуть предложения\n2. Кто мы\n3. Что мы предлагаем\n4. KPI и экономика проекта\n5. Как будет работать воронка\n6. Стратегия удержания пользователей\n7. Финансирование\n8. Вознаграждение команды \n9. Отчетность и прозрачность\n10. Что получает GONKA\n11. Дополнительные материалы\n\n1.  Суть предложения\n\nМы предлагаем реализовать маркетинговую кампанию, "
-    },
-    "ai_description": "Pre-proposal по привлечению 3+ млн долларов через Telegram-воронку получил еще один голос, а средняя ставка сообщества скорректировалась до 168.7K GNK. Это говорит о растущем интересе к инициативе и позволяет точнее оценить ожидания участников относительно бюджета кампании."
-  },
-  {
-    "id": "evt_20260714062205_12b22735",
-    "timestamp": "2026-07-14T06:22:05.818773+00:00",
-    "section": "preproposals",
-    "action": "updated",
-    "item": {
-      "title": "Улучшаем инфиренс Kimi",
-      "url": "/proposals/preproposals/d185d9eb-243f-4228-b4ac-e2c7a50a5325/",
-      "file": "d185d9eb-243f-4228-b4ac-e2c7a50a5325/index.md"
-    },
-    "details": {
-      "content_before": "# Улучшаем инфиренс Kimi\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Mitch\n**Created:** 2026-07-14 01:37 UTC\n**Closes:** 2026-07-21 01:37 UTC\n**Language:** RU\n**Votes:** 2\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nKimi в Gonka перегружен и сыпет ошибками. Разбираем, почему так вышло, и что можно исправить прямо сейчас через Governance и настройки нод.\n\n---\n\n## Full Proposal\n\nФакты:\n\n* \\~20% веса сети приходится на Kimi  \n* Запросов на инфиренс идет столько, что ноды с Kimi часто перегружены, и ответ падает с ошибкой  \n* Недели 2 назад Kimi можно было нормально пользоваться  \n* Сейчас Kimi часто дает ошибку, стало больше запросов  \n* Сама по себе цена не будет расти и при 100% загрузке нод с Kimi (динамического прайсинга нету в девшардах",
-      "content_after": "# Улучшаем инфиренс Kimi\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Mitch\n**Created:** 2026-07-14 01:37 UTC\n**Closes:** 2026-07-21 01:37 UTC\n**Language:** RU\n**Votes:** 3\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nKimi в Gonka перегружен и сыпет ошибками. Разбираем, почему так вышло, и что можно исправить прямо сейчас через Governance и настройки нод.\n\n---\n\n## Full Proposal\n\nФакты:\n\n* \\~20% веса сети приходится на Kimi  \n* Запросов на инфиренс идет столько, что ноды с Kimi часто перегружены, и ответ падает с ошибкой  \n* Недели 2 назад Kimi можно было нормально пользоваться  \n* Сейчас Kimi часто дает ошибку, стало больше запросов  \n* Сама по себе цена не будет расти и при 100% загрузке нод с Kimi (динамического прайсинга нету в девшардах"
-    },
-    "ai_description": "Pre-proposal по улучшению инференса Kimi получила еще один голос и теперь поддержана тремя участниками сети. Это предложение ищет решение для перегруженных нод Kimi, на которые приходится около 20% веса сети, и обсуждает механизмы управления нагрузкой без динамического прайсинга в текущих девшардах."
   },
   {
     "id": "evt_20260714034240_14874339",
