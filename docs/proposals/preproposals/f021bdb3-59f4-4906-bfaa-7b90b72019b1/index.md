@@ -9,7 +9,7 @@ template: proposals-main.html
 
 <div class="preproposal-status">🔴 Expired</div>
 
-**Author:** Slava MSE!
+**Author:** Slava MyGonka
 **Created:** 2026-06-11 05:50 UTC
 **Closes:** 2026-07-11 05:50 UTC
 **Language:** EN
@@ -85,7 +85,7 @@ dmitriiv4054
 
 ## Comments (1)
 
-### 💬 Slava MSE!
+### 💬 Slava MyGonka
 *2026-06-11 07:39* · 👍 0 · 👎 0
 
 Привет!

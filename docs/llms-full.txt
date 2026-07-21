@@ -17446,7 +17446,7 @@ If you have the opportunity and desire to be part of the committee — please co
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-07-21 13:28 UTC
+2026-07-21 15:40 UTC
 
 ---
 
@@ -17500,7 +17500,7 @@ curl -s https://node3.gonka.ai/chain-api/cosmos/bank/v1beta1/balances/gonka18pkq
 
 **Address:** [`gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33`](https://gonka.gg/address/gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33)
 
-Current balance: 2,410,236 GNK
+Current balance: 2,410,736 GNK
 
 The Gov Module authority is the only address permitted to execute `MsgCommunityPoolSpend` transfers from the Community Pool. When a governance proposal passes, this address signs and sends the requested funds to the specified recipient.
 
@@ -17887,18 +17887,18 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 | 🔴 | [Private Inc × Gonka — Network Growth Initiative](./ed8148eb-535e-4677-9a6b-5316c81c996a/) | Igor Alexeev | 0 | 0.00 GNK | 2026-07-13 |
 | 🔴 | [Предложение по развитию игровой экосистемы блокчейна через турнирные пулы вознаг](./fd9989ca-7c5b-4a2f-baf4-2465e6915ba6/) | Victor | 0 | 0.00 GNK | 2026-07-12 |
 | 🔴 | [Интеграция ИИ Gonka в инфраструктуру QR Mint](./7d2ec26b-6524-4fc6-b676-a13d822536e8/) | Victor | 0 | 0.00 GNK | 2026-07-11 |
-| 🔴 | [12+1. Team EntroPi Grant Request](./f6b4e378-8950-4bcf-ac7f-d70d9d246630/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
-| 🔴 | [12. Team Slava MSE Team Grant Request](./08405617-5654-4ead-be62-642affa1739e/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
-| 🔴 | [11. Team GonkaGate Grant Request](./d2f317f0-541a-4d9f-bbac-d2d394906bf2/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
-| 🔴 | [10. Team Alexander Kuprin Grant Request](./59175b49-b83f-4aa6-98f5-b27fffb23cd8/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
-| 🔴 | [9. Team Gonka-API.org Grant Request](./f021bdb3-59f4-4906-bfaa-7b90b72019b1/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
-| 🔴 | [8. Team Gonka.TV Grant Request](./47ab8faa-f9bd-41ba-8e86-6c760d4975a6/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
-| 🔴 | [7. Team Epokha AI / epokha.ai Grant Request](./0395efa6-8eef-4d83-85cb-83d36a937f96/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
-| 🔴 | [5. Team Lefine Grant Request](./662adc44-01c4-41ca-9c0d-ac61f472ee56/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
-| 🔴 | [4. Team Gonka NL BE Community Grant Request](./db4d91a4-1ee7-46ee-a3d1-0e8ba546d04b/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
-| 🔴 | [3. Team Gonka Wallet Grant Request](./2b6b2142-685a-4eda-b2a1-f8853228f3e6/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
-| 🔴 | [Team Gonka.AI \| Inside Grant Request](./4792a93f-127a-4a0e-9a12-acd229c1e865/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
-| 🔴 | [1. Team Veylox Grant Request](./66e6583a-27b4-4bae-91fb-8f0489736b0d/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
+| 🔴 | [12+1. Team EntroPi Grant Request](./f6b4e378-8950-4bcf-ac7f-d70d9d246630/) | Slava MyGonka | 0 | 0.00 GNK | 2026-07-11 |
+| 🔴 | [12. Team Slava MSE Team Grant Request](./08405617-5654-4ead-be62-642affa1739e/) | Slava MyGonka | 0 | 0.00 GNK | 2026-07-11 |
+| 🔴 | [11. Team GonkaGate Grant Request](./d2f317f0-541a-4d9f-bbac-d2d394906bf2/) | Slava MyGonka | 0 | 0.00 GNK | 2026-07-11 |
+| 🔴 | [10. Team Alexander Kuprin Grant Request](./59175b49-b83f-4aa6-98f5-b27fffb23cd8/) | Slava MyGonka | 0 | 0.00 GNK | 2026-07-11 |
+| 🔴 | [9. Team Gonka-API.org Grant Request](./f021bdb3-59f4-4906-bfaa-7b90b72019b1/) | Slava MyGonka | 0 | 0.00 GNK | 2026-07-11 |
+| 🔴 | [8. Team Gonka.TV Grant Request](./47ab8faa-f9bd-41ba-8e86-6c760d4975a6/) | Slava MyGonka | 0 | 0.00 GNK | 2026-07-11 |
+| 🔴 | [7. Team Epokha AI / epokha.ai Grant Request](./0395efa6-8eef-4d83-85cb-83d36a937f96/) | Slava MyGonka | 0 | 0.00 GNK | 2026-07-11 |
+| 🔴 | [5. Team Lefine Grant Request](./662adc44-01c4-41ca-9c0d-ac61f472ee56/) | Slava MyGonka | 0 | 0.00 GNK | 2026-07-11 |
+| 🔴 | [4. Team Gonka NL BE Community Grant Request](./db4d91a4-1ee7-46ee-a3d1-0e8ba546d04b/) | Slava MyGonka | 0 | 0.00 GNK | 2026-07-11 |
+| 🔴 | [3. Team Gonka Wallet Grant Request](./2b6b2142-685a-4eda-b2a1-f8853228f3e6/) | Slava MyGonka | 0 | 0.00 GNK | 2026-07-11 |
+| 🔴 | [Team Gonka.AI \| Inside Grant Request](./4792a93f-127a-4a0e-9a12-acd229c1e865/) | Slava MyGonka | 0 | 0.00 GNK | 2026-07-11 |
+| 🔴 | [1. Team Veylox Grant Request](./66e6583a-27b4-4bae-91fb-8f0489736b0d/) | Slava MyGonka | 0 | 0.00 GNK | 2026-07-11 |
 | 🔴 | [Go-To-Market Team for 3 Month to Set Up the Basis](./cb7f643f-3d56-47ec-9193-f9f2f80a99fb/) | Dem \| Démíngān | 1 | 22.1K GNK | 2026-07-10 |
 | 🔴 | [Gonka Media Library by Saccade](./f215996d-e562-42b5-b2b1-400226e612fa/) | Dem \| Démíngān | 1 | 22.1K GNK | 2026-07-10 |
 | 🔴 | [Стресс тест инфиренса](./efc0edeb-bc49-4c6b-a6e7-5b20ccfbe571/) | Mitch | 0 | 0.00 GNK | 2026-06-05 |
@@ -17915,7 +17915,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-07-21 14:17 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-07-21 16:39 UTC*
 
 ---
 
@@ -18041,7 +18041,7 @@ After the event, the community should receive a short report covering:
 
 🔴 Expired
 
-**Author:** Slava MSE!
+**Author:** Slava MyGonka
 **Created:** 2026-06-11 05:39 UTC
 **Closes:** 2026-07-11 05:39 UTC
 **Language:** EN
@@ -18103,7 +18103,7 @@ gonka1c3lrggulyl9xpsvnnjpykhyzvk7l5fcd92w63n
 
 ## Comments (1)
 
-### 💬 Slava MSE!
+### 💬 Slava MyGonka
 *2026-06-11 06:38* · 👍 0 · 👎 0
 
 Привет!
@@ -18136,7 +18136,7 @@ Omniverse, NOVA - молодые проекты. Нужно с ними повн
 
 🔴 Expired
 
-**Author:** Slava MSE!
+**Author:** Slava MyGonka
 **Created:** 2026-06-11 05:48 UTC
 **Closes:** 2026-07-11 05:48 UTC
 **Language:** EN
@@ -18175,7 +18175,7 @@ mitchseed
 
 ## Comments (1)
 
-### 💬 Slava MSE!
+### 💬 Slava MyGonka
 *2026-06-11 07:30* · 👍 0 · 👎 0
 
 )) Я прочитал это предложение и прям улыбнулся.
@@ -18360,7 +18360,7 @@ https://prnt.sc/ax9mlD-RDtuC
 
 🔴 Expired
 
-**Author:** Slava MSE!
+**Author:** Slava MyGonka
 **Created:** 2026-06-11 05:35 UTC
 **Closes:** 2026-07-11 05:35 UTC
 **Language:** 
@@ -18404,7 +18404,7 @@ Email Address: itisforth1@gmail.com
 
 ## Comments (8)
 
-### 💬 Slava MSE!
+### 💬 Slava MyGonka
 *2026-06-11 06:29* · 👍 1 · 👎 0
 
 Привет! Глянул ваш сайт с Мерчем. Прикольно. Молодцы )
@@ -18457,7 +18457,7 @@ Thank you.
 
 ---
 
-### 💬 Slava MSE!
+### 💬 Slava MyGonka
 *2026-06-16 21:18* · 👍 1 · 👎 0
 
 Я посмотрел сайт.
@@ -18500,7 +18500,7 @@ An agent-readable documentation for easy node registration could indeed be a val
 
 ---
 
-### 💬 Slava MSE!
+### 💬 Slava MyGonka
 *2026-06-17 18:47* · 👍 1 · 👎 0
 
 Ребята из NOPE больше, кажется, не поддерживают свой проект. Но это не мешает зайти и посмотреть их код. Он есть на ГитХаб.
@@ -18526,7 +18526,7 @@ As for renting, we rented from Spheron using both spot and dedicated instances. 
 
 ---
 
-### 💬 Slava MSE!
+### 💬 Slava MyGonka
 *2026-06-21 10:10* · 👍 1 · 👎 0
 
 А сейчас майните? 
@@ -18935,7 +18935,7 @@ It is impossible to conduct proper due diligence.
 
 ---
 
-### 💬 Slava MSE!
+### 💬 Slava MyGonka
 *2026-07-03 18:58* · 👍 0 · 👎 0
 
 Если я правильно понял, то речь идет не про телеграм каналы, а про телеграм экаунты, верно?
@@ -19061,7 +19061,7 @@ It is impossible to conduct proper due diligence.
 
 ---
 
-### 💬 Slava MSE!
+### 💬 Slava MyGonka
 *2026-07-03 17:12* · 👍 0 · 👎 1
 
 Привет!
@@ -19160,7 +19160,7 @@ Work does not end after the first deposit. The user continues to receive support
 
 🔴 Expired
 
-**Author:** Slava MSE!
+**Author:** Slava MyGonka
 **Created:** 2026-06-11 05:47 UTC
 **Closes:** 2026-07-11 05:47 UTC
 **Language:** EN
@@ -19226,7 +19226,7 @@ gonka158pj5tn26n46ffaw553dkf3e7xjfxahj0s5xug
 
 ## Comments (1)
 
-### 💬 Slava MSE!
+### 💬 Slava MyGonka
 *2026-06-11 07:24* · 👍 0 · 👎 0
 
 Прикольно!
@@ -19342,7 +19342,7 @@ My experience regarding to such a question: modeling Yandex Market auction, opti
 
 ---
 
-### 💬 Slava MSE!
+### 💬 Slava MyGonka
 *2026-07-14 07:20* · 👍 0 · 👎 0
 
 Жалко что здесь нельзя прикладывать скрины.
@@ -19705,7 +19705,7 @@ HardCore Arena становится первым работающим приме
 
 ---
 
-### 💬 Slava MSE!
+### 💬 Slava MyGonka
 *2026-06-11 10:17* · 👍 0 · 👎 0
 
 Привет!
@@ -20452,7 +20452,7 @@ Scam
 
 ---
 
-### 💬 Slava MSE!
+### 💬 Slava MyGonka
 *2026-06-14 09:57* · 👍 0 · 👎 0
 
 Скамеры вышли на новый уровень.
@@ -20746,7 +20746,7 @@ Tora AI
 
 🔴 Expired
 
-**Author:** Slava MSE!
+**Author:** Slava MyGonka
 **Created:** 2026-06-11 05:53 UTC
 **Closes:** 2026-07-11 05:53 UTC
 **Language:** EN
@@ -20847,7 +20847,7 @@ alexandr8475
 
 ## Comments (1)
 
-### 💬 Slava MSE!
+### 💬 Slava MyGonka
 *2026-06-11 08:01* · 👍 0 · 👎 0
 
 Кто-то хочет принять участие в этом?
@@ -20984,7 +20984,7 @@ https://youtu.be/kQGPSxLaakE?t=1988
 
 🔴 Expired
 
-**Author:** Slava MSE!
+**Author:** Slava MyGonka
 **Created:** 2026-06-11 05:50 UTC
 **Closes:** 2026-07-11 05:50 UTC
 **Language:** EN
@@ -21058,7 +21058,7 @@ dmitriiv4054
 
 ## Comments (1)
 
-### 💬 Slava MSE!
+### 💬 Slava MyGonka
 *2026-06-11 07:39* · 👍 0 · 👎 0
 
 Привет!
@@ -21170,7 +21170,7 @@ https://youtu.be/hwX_4_v6xxI
 
 🔴 Expired
 
-**Author:** Slava MSE!
+**Author:** Slava MyGonka
 **Created:** 2026-06-11 05:41 UTC
 **Closes:** 2026-07-11 05:41 UTC
 **Language:** EN
@@ -21212,7 +21212,7 @@ shtirbetsai
 
 ## Comments (1)
 
-### 💬 Slava MSE!
+### 💬 Slava MyGonka
 *2026-06-11 07:08* · 👍 0 · 👎 0
 
 Привет!
@@ -21751,7 +21751,7 @@ https://saccade.media/ru/unboring-explainer
 
 🔴 Expired
 
-**Author:** Slava MSE!
+**Author:** Slava MyGonka
 **Created:** 2026-06-11 05:51 UTC
 **Closes:** 2026-07-11 05:51 UTC
 **Language:** EN
@@ -21892,7 +21892,7 @@ gonka1lv55k52lvxz074yhr7kcne86srf7dse9pvyfhm
 
 ## Comments (1)
 
-### 💬 Slava MSE!
+### 💬 Slava MyGonka
 *2026-06-11 07:59* · 👍 0 · 👎 0
 
 Привет! 
@@ -22227,7 +22227,7 @@ https://claude.ai/share/bdcf32ba-920b-434f-ba62-9a686f13f2f5
 
 ---
 
-### 💬 Slava MSE!
+### 💬 Slava MyGonka
 *2026-07-18 08:26* · 👍 0 · 👎 0
 
 А еще мне интересно, кто эти люли, которые покупают на 29К в день.
@@ -22273,7 +22273,7 @@ https://claude.ai/share/bdcf32ba-920b-434f-ba62-9a686f13f2f5
 
 ---
 
-### 💬 Slava MSE!
+### 💬 Slava MyGonka
 *2026-07-18 08:22* · 👍 0 · 👎 1
 
 Сейчас Майнер = Инвестор. Это те люди, которые хотят купить GNK в долгосрок и купить ниже рыночной стоимости. В Майнинге, даже с большими комиссиями 20% майнинг пула, это пока получалось.
@@ -22512,7 +22512,7 @@ HardCore Arena позволит протестировать модель на �
 
 ## Comments (4)
 
-### 💬 Slava MSE!
+### 💬 Slava MyGonka
 *2026-06-12 22:04* · 👍 0 · 👎 0
 
 Большинство турниров - это некоммерческое мероприятие.
@@ -23213,7 +23213,7 @@ Approve a 4-month pilot of External Test Lab & Community DevNet with a maximum b
 
 🔴 Expired
 
-**Author:** Slava MSE!
+**Author:** Slava MyGonka
 **Created:** 2026-06-11 05:43 UTC
 **Closes:** 2026-07-11 05:43 UTC
 **Language:** EN
@@ -23273,7 +23273,7 @@ Clarkkent8494
 
 ## Comments (1)
 
-### 💬 Slava MSE!
+### 💬 Slava MyGonka
 *2026-06-11 07:13* · 👍 0 · 👎 0
 
 Привет!
@@ -24264,7 +24264,7 @@ https://docs.google.com/spreadsheets/d/1IIONLiWCLAo8TKF5TNSX6Y0Byj_2MurfhA68W22v
 
 🔴 Expired
 
-**Author:** Slava MSE!
+**Author:** Slava MyGonka
 **Created:** 2026-06-11 05:54 UTC
 **Closes:** 2026-07-11 05:54 UTC
 **Language:** EN
@@ -24314,7 +24314,7 @@ ihortanyenkoff
 
 ## Comments (1)
 
-### 💬 Slava MSE!
+### 💬 Slava MyGonka
 *2026-06-11 08:07* · 👍 0 · 👎 0
 
 Привет!
@@ -24341,7 +24341,7 @@ ihortanyenkoff
 
 🔴 Expired
 
-**Author:** Slava MSE!
+**Author:** Slava MyGonka
 **Created:** 2026-06-11 05:45 UTC
 **Closes:** 2026-07-11 05:45 UTC
 **Language:** EN
@@ -24390,7 +24390,7 @@ kogeletey
 
 ## Comments (1)
 
-### 💬 Slava MSE!
+### 💬 Slava MyGonka
 *2026-06-11 08:34* · 👍 0 · 👎 0
 
 Привет!
@@ -24415,7 +24415,7 @@ kogeletey
 
 🔴 Expired
 
-**Author:** Slava MSE!
+**Author:** Slava MyGonka
 **Created:** 2026-06-11 05:50 UTC
 **Closes:** 2026-07-11 05:50 UTC
 **Language:** EN
@@ -24487,7 +24487,7 @@ alexanderkuprin_
 
 ## Comments (1)
 
-### 💬 Slava MSE!
+### 💬 Slava MyGonka
 *2026-06-11 07:52* · 👍 0 · 👎 0
 
 Привет!
@@ -24528,12 +24528,12 @@ alexanderkuprin_
 
 ## Overview
 
-88Total Proposals
-57Passed (65%)
+89Total Proposals
+57Passed (64%)
 29Rejected (33%)
 1Failed (1%)
 
-Funding / Grants38
+Funding / Grants39
 Governance Parameters25
 Software Upgrade17
 GRC / Restitution3
@@ -24544,7 +24544,19 @@ Models / IBC2
 
 ## 2026-Q3
 
-*10 proposals*
+*11 proposals*
+
+  
+    #90 – Partnerships with Inference Resellers, B2C users acquisition and conversion funnels analytics setup
+    
+    Voting
+  
+  
+    Submitted 2026-07-21
+    Voting ends 2026-07-23
+  
+  Currently Gonka has a lot of marketing activities, but doesn't have analytics to measure the results of their work and doesn't have a vision which target audiences and how we need to attract and onboa…
+  Yes 0 (0.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)240,000 GNK · $57,000 · Community Pool
 
   
     #89 – Upgrade Proposal: v0.2.14
@@ -25537,7 +25549,7 @@ Models / IBC2
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-88 proposals across 5 quarters. Last updated: 2026-07-21 15:20 UTC
+89 proposals across 5 quarters. Last updated: 2026-07-21 16:30 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -62337,19 +62349,31 @@ Contract Details
 
 ## 2026-Q3 Summary
 
-10Total Proposals
-5Passed (50%)
-4Rejected (40%)
+11Total Proposals
+5Passed (45%)
+4Rejected (36%)
 
+Funding / Grants5
 Governance Parameters4
-Funding / Grants4
 Software Upgrade1
 GRC / Restitution1
 
 80,000 GNK · $88,000 · Community Pool
 
 2026-Q3
-10 proposals
+11 proposals
+
+  
+    #90 – Partnerships with Inference Resellers, B2C users acquisition and conversion funnels analytics setup
+    
+    Voting
+  
+  
+    Submitted 2026-07-21
+    Voting ends 2026-07-23
+  
+  Currently Gonka has a lot of marketing activities, but doesn't have analytics to measure the results of their work and doesn't have a vision which target audiences and how we need to attract and onboa…
+  Yes 0 (0.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)240,000 GNK · $57,000 · Community Pool
 
   
     #89 – Upgrade Proposal: v0.2.14
@@ -62904,6 +62928,300 @@ Contract Details
       "withdraw_ibc": {
         "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
         "amount": "36000000000",
+        "recipient": "gonka1stfulpj6t5mc0nekph7g7tcf7dv5mszm95xtvt6rc5repv7t5yvq28h3ja"
+      }
+    },
+    "funds": []
+  }
+]
+```
+
+---
+
+## Partnerships with Inference Resellers, B2C users acquisition and conversion funnels analytics setup
+
+# Partnerships with Inference Resellers, B2C users acquisition and conversion funnels analytics setup
+
+Currently Gonka has a lot of marketing activities, but doesn't have analytics to measure the results of their work and doesn't have a vision which target audiences and how we need to attract and onboard.
+
+This proposal describes key activities to set analytics, bisdev target audiences and search for best of their acquisition by hundreds of cheap experiments; the team and the budgets for the next 3 months. It's a part of activities we've planned and described in detail [here](https://app.integrity.sh/p/SuMCnGQBhz-0asAYBUz1U).
+
+## Budget
+
+| Activity | Cost GNK | Cost USDT | Key executives |
+| :--- | :--- | :--- | :--- |
+| Build marketing analytics across Inference Brokers, Wallets, and other services in the Gonka ecosystem: who, from which channel, usage funnel | 60K GNK | 6K USDT | Viktor |
+| Partnerships with inference resellers (Openrouter competitors) and other B2Bs meaningful for Gonka | 90K GNK | 18K USDT | Dima + Alex + Viktor |
+| Agent vibecoders, startupers, developers and other B2C users acquisition leveraging partnerships with communities, influencers, meetups and other cheap activities targeting mostly English, Spanish and other non-Ru users | 90K GNK | 18K USDT | Viktor + Ian + Alex |
+| United costs: other tools, infrastructure, development, emails, linked-in, external agencies | 0K GNK | 15K USDT | Viktor + Dima |
+| **Total** | **240K GNK** | **57K USDT** | |
+
+Hundreds of collaborations with communities, influencers and inference resellers; onboarding landing pages and cases collection activities; consistent and transparent work with hypotheses of target audiences, channels, offers, and formats; competitors analysis including outreach to their marketers collecting their Insights — are also included.
+
+Part of the acquired traffic will be distributed between random services, part — between those who work the best.
+
+## Payments and Timeline
+
+1. Day 0 — payment of 19K USDT and 60K GNK
+2. Day 31 — payment of 19K USDT and 60K GNK
+3. Day 62 — payment of 19K USDT and 60K GNK
+4. Day 99 — payment of 60K GNK
+
+### Month Budget Breakdown
+
+- **$8K / month + 40K GNK** — 4 positions base (4 x $2K / month + 4 x 10K GNK)
+- **$6K / month + 40K GNK** — rewards, additional positions, referrals and experiments tailored to new marketing activities or their acceleration
+- **$5K / month** — AI for the team, Analytics, B2B-outreach (smartlead, apollo, zapmail, apify), Influencers databases subscriptions (hypeauditor, adstail, rizzult, modash), AI agencies, Infrastructure, domains, referral bonuses
+
+## KPIs
+
+| KPI | Until day 31 | Until day 62 | Until day 99 |
+| :--- | :--- | :--- | :--- |
+| Partnerships and pilots with inference resellers | 1-2 | 3-5 | 7-15 |
+| OpenRouter-size comparable partnerships | selection and letters | discussions | 1-3 pilots started |
+| Interviews with competitors marketers | 3-5 | 5-7 | 10-15 |
+| New non-ru Gonka users in our communities | 100-500 (~10% paid) | 300-1500 (~15% paid) | 1000-5000 (~20% paid) |
+| Posts in relevant communities (1K-100K subscribers) | 100-200 | 200-500 | 300-800 |
+| Collaborations with microinfluencers (AI / Agents creators with 500-10K subscribers) | 10-30 | 25-80 | 40-150 |
+| Local meetups | 1-2 | 2-5 | 5-10 |
+| Offers x Languages x Onboardings (landings) tested | 50-100 | 80-200 | 100-300 |
+| Public use cases | 1-2 | 3-5 | 10-15 of various usage types |
+| Analytics | set with ready dashboards; 3-8 key Gonka services connected | 10-15 key Gonka services are connected | 10-30 key Gonka services are connected |
+| Reports and AMAs every 2 weeks | 2 | 4 | 6 + final |
+
+Our offer is a selection of the cheapest ways to broadly research potential Gonka target audiences — by testing various offer formats, calling to use Gonka's low-cost AI inference and join Gonka.
+
+We will not sell GNK by ourselves at least during the 6-month period and we will organize vesting-like payments for the other contributors.
+
+Governance may cancel the initiative at any time, in which case all remaining payments will be terminated, for example if KPIs are not achieved. We use contract described in [testlab-devnet-escrow](https://github.com/paranjko/testlab-devnet-escrow/tree/1b2e529876141816b5c2130840d04fb93694bf72) (that Sega used in [proposal 82](https://gonka.vote/governance/82)).
+
+## Team
+
+1. **Viktor Katsman** ([LinkedIn](https://www.linkedin.com/in/viktor-katsman/), [PhD](https://www.spbstu.ru/science/the-department-of-doctoral-studies/defences-calendar/the-degree-of-candidate-of-sciences/katsman_viktor_igorevich/) in AI Technologies for Education), experience both in big corporations like Yandex and as early-stage startups founder and CMO.
+2. **Dima Kim** ([LinkedIn](https://www.linkedin.com/in/dimakim/)) — B2B bisdev, built Speechki and sold it, ex-TechStars, ex-Alchemist.
+3. **Alex Milman** ([LinkedIn](https://www.linkedin.com/in/milman-blum/)) — B2B bisdev, SEO Likwid Export, successful cases with Yandex & Nebius.
+4. **Ian Nerovny** ([LinkedIn](https://www.linkedin.com/in/nerovny/)) — founder at Unicorn Embassy, built a network of ~200 conferences in Georgia, Spain, the Emirates and other places.
+5. **Alex** (Entrepreneur, Founder of JoinGonka Broker), **Hleb** (Founder of Gonka24 Broker), **Pavel and others** — we will engage the most experienced and active community members and distribute rewards depending on their contribution and results.
+
+## Key Benefits for Gonka
+
+1. Onboardings, analytics, ability to measure, control all other activities, finding what worked the best.
+2. Meaningful partners and use cases, that will also accelerate all other go-to-market activities.
+3. Understanding the best target audiences to scale and their requirements.
+
+Voting: [https://gonka.vote/governance/90](https://gonka.vote/governance/90)
+
+---
+
+## #90 – Partnerships with Inference Resellers, B2C users acquisition and conversion funnels analytics setup
+
+# #90 – Partnerships with Inference Resellers, B2C users acquisition and conversion funnels analytics setup
+
+Voting
+
+**Proposal ID:** `90`
+
+**Type:** Community Pool Spend, Execute Contract, Instantiate Contract2
+
+**Submit:** 2026-07-21 15:27 UTC
+
+**Voting:** 2026-07-21 15:27 UTC → 2026-07-23 15:27 UTC
+
+**Proposer:** [`gonka1vfafh4jq674227q8j0h33fwz4jmgtxmp4vsd93`](https://gonka.gg/address/gonka1vfafh4jq674227q8j0h33fwz4jmgtxmp4vsd93){:target="_blank"}
+
+**Metadata:** [https://app.integrity.sh/p/NLgLEHfL8Msoz0nh2-_Tf](https://app.integrity.sh/p/NLgLEHfL8Msoz0nh2-_Tf)
+
+240,000 GNK · $57,000 · Community Pool
+
+[View on gonka.gg](https://gonka.gg/network/proposals/90){:target="_blank"}
+
+Currently Gonka has a lot of marketing activities, but doesn't have analytics to measure the results of their work and doesn't have a vision which target audiences and how we need to attract and onboard.
+
+This proposal describes key activities to set analytics, bisdev target audiences and search for best of their acquisition by hundreds of cheap experiments; the team and the budgets for the next 3 months.
+The full proposal: 
+
+The budget of 240K GNK and 57K USDT is held by an immutable escrow contract and released as:
+1. Day 0 — payment of 19K USDT and 60K GNK
+2. Day 31 — payment of 19K USDT and 60K GNK
+3. Day 62 — payment of 19K USDT and 60K GNK
+4. Day 99 — payment of 60K GNK
+
+Governance may cancel the initiative at any time, in which case all remaining payments will be terminated, for example if KPIs are not achieved. We use contract described in  (that Sega used in )
+
++-------------------------------+-------------------+-------------------+-------------------+
+| KPIs                          | Until day 31      | Until day 62      | Until day 99      |
++-------------------------------+-------------------+-------------------+-------------------+
+| Partnerships and pilots with  | 1-2               | 3-5               | 7-15              |
+| inference resellers           |                   |                   |                   |
++-------------------------------+-------------------+-------------------+-------------------+
+| OpenRouter-size comparable    | selection and     | discussions       | 1-3 pilots        |
+| partnerships                  | letters           |                   | started           |
++-------------------------------+-------------------+-------------------+-------------------+
+| Interviews with competitors   | 3-5               | 5-7               | 10-15             |
+| marketers                     |                   |                   |                   |
++-------------------------------+-------------------+-------------------+-------------------+
+| New non-ru Gonka users in our | 100-500           | 300-1500          | 1000-5000         |
+| communities                   | (~ 10% paid)      | (~ 15% paid)      | (~ 20% paid)      |
++-------------------------------+-------------------+-------------------+-------------------+
+| Posts in relevant communities | 100-200           | 200-500           | 300-800           |
+| (1K-100K subscribers)         |                   |                   |                   |
++-------------------------------+-------------------+-------------------+-------------------+
+| Collaborations with           | 10-30             | 25-80             | 40-150            |
+| microinfluencers (AI / Agents |                   |                   |                   |
+| creators with 500-10K         |                   |                   |                   |
+| subscribers)                  |                   |                   |                   |
++-------------------------------+-------------------+-------------------+-------------------+
+| Local meetups                 | 1-2               | 2-5               | 5-10              |
++-------------------------------+-------------------+-------------------+-------------------+
+| Offers x Languages x          | 50-100            | 80-200            | 100-300           |
+| Onboardings (landings) tested |                   |                   |                   |
++-------------------------------+-------------------+-------------------+-------------------+
+| Public use cases              | 1-2               | 3-5               | 10-15 of various  |
+|                               |                   |                   | usage types       |
++-------------------------------+-------------------+-------------------+-------------------+
+| Analytics                     | set with ready    | 10-15 key Gonka   | 10-30 key Gonka   |
+|                               | dashboards; 3-8   | services are      | services are      |
+|                               | key Gonka         | connected         | connected         |
+|                               | services          |                   |                   |
+|                               | connected         |                   |                   |
++-------------------------------+-------------------+-------------------+-------------------+
+| Reports and AMAs every 2      | 2                 | 4                 | 6 + final         |
+| weeks                         |                   |                   |                   |
++-------------------------------+-------------------+-------------------+-------------------+
+
+---
+
+## Messages
+
+| # | Type |
+| :- | :--- |
+| 1 | `/cosmwasm.wasm.v1.MsgInstantiateContract2` |
+| 2 | `/cosmos.distribution.v1beta1.MsgCommunityPoolSpend` |
+| 3 | `/cosmwasm.wasm.v1.MsgExecuteContract` |
+
+Contract Details
+
+```json
+[
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgInstantiateContract2",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "admin": "",
+    "code_id": "107",
+    "label": "go-to-market-team-milestone-escrow",
+    "msg": {
+      "governance": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+      "payouts": [
+        {
+          "recipient": "gonka1zhcn5yz86z0jlsyzm9xkkhx6km5p8a4apw9rsj",
+          "denom": "ngonka",
+          "amount": "30000000000000",
+          "unlock_after_days": 0
+        },
+        {
+          "recipient": "gonka1zhcn5yz86z0jlsyzm9xkkhx6km5p8a4apw9rsj",
+          "denom": "ngonka",
+          "amount": "30000000000000",
+          "unlock_after_days": 31
+        },
+        {
+          "recipient": "gonka1zhcn5yz86z0jlsyzm9xkkhx6km5p8a4apw9rsj",
+          "denom": "ngonka",
+          "amount": "30000000000000",
+          "unlock_after_days": 62
+        },
+        {
+          "recipient": "gonka1zhcn5yz86z0jlsyzm9xkkhx6km5p8a4apw9rsj",
+          "denom": "ngonka",
+          "amount": "30000000000000",
+          "unlock_after_days": 99
+        },
+        {
+          "recipient": "gonka15at6rrk3tspus7mu0t2yg26r4guq7sqkpq3wf4",
+          "denom": "ngonka",
+          "amount": "30000000000000",
+          "unlock_after_days": 0
+        },
+        {
+          "recipient": "gonka15at6rrk3tspus7mu0t2yg26r4guq7sqkpq3wf4",
+          "denom": "ngonka",
+          "amount": "30000000000000",
+          "unlock_after_days": 31
+        },
+        {
+          "recipient": "gonka15at6rrk3tspus7mu0t2yg26r4guq7sqkpq3wf4",
+          "denom": "ngonka",
+          "amount": "30000000000000",
+          "unlock_after_days": 62
+        },
+        {
+          "recipient": "gonka15at6rrk3tspus7mu0t2yg26r4guq7sqkpq3wf4",
+          "denom": "ngonka",
+          "amount": "30000000000000",
+          "unlock_after_days": 99
+        },
+        {
+          "recipient": "gonka1zhcn5yz86z0jlsyzm9xkkhx6km5p8a4apw9rsj",
+          "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+          "amount": "9500000000",
+          "unlock_after_days": 0
+        },
+        {
+          "recipient": "gonka1zhcn5yz86z0jlsyzm9xkkhx6km5p8a4apw9rsj",
+          "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+          "amount": "9500000000",
+          "unlock_after_days": 31
+        },
+        {
+          "recipient": "gonka1zhcn5yz86z0jlsyzm9xkkhx6km5p8a4apw9rsj",
+          "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+          "amount": "9500000000",
+          "unlock_after_days": 62
+        },
+        {
+          "recipient": "gonka15at6rrk3tspus7mu0t2yg26r4guq7sqkpq3wf4",
+          "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+          "amount": "9500000000",
+          "unlock_after_days": 0
+        },
+        {
+          "recipient": "gonka15at6rrk3tspus7mu0t2yg26r4guq7sqkpq3wf4",
+          "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+          "amount": "9500000000",
+          "unlock_after_days": 31
+        },
+        {
+          "recipient": "gonka15at6rrk3tspus7mu0t2yg26r4guq7sqkpq3wf4",
+          "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+          "amount": "9500000000",
+          "unlock_after_days": 62
+        }
+      ],
+      "close_after_days": 150
+    },
+    "funds": [],
+    "salt": "Z3RtLXRlYW0tMjAyNg==",
+    "fix_msg": false
+  },
+  {
+    "@type": "/cosmos.distribution.v1beta1.MsgCommunityPoolSpend",
+    "authority": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "recipient": "gonka1stfulpj6t5mc0nekph7g7tcf7dv5mszm95xtvt6rc5repv7t5yvq28h3ja",
+    "amount": [
+      {
+        "denom": "ngonka",
+        "amount": "240000000000000"
+      }
+    ]
+  },
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "contract": "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2",
+    "msg": {
+      "withdraw_ibc": {
+        "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+        "amount": "57000000000",
         "recipient": "gonka1stfulpj6t5mc0nekph7g7tcf7dv5mszm95xtvt6rc5repv7t5yvq28h3ja"
       }
     },

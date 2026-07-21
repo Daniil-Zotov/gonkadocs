@@ -388,7 +388,7 @@ It is impossible to conduct proper due diligence.
 
 ---
 
-### 💬 Slava MSE!
+### 💬 Slava MyGonka
 *2026-07-03 18:58* · 👍 0 · 👎 0
 
 Если я правильно понял, то речь идет не про телеграм каналы, а про телеграм экаунты, верно?
@@ -514,7 +514,7 @@ It is impossible to conduct proper due diligence.
 
 ---
 
-### 💬 Slava MSE!
+### 💬 Slava MyGonka
 *2026-07-03 17:12* · 👍 0 · 👎 1
 
 Привет!

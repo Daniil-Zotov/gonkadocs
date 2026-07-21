@@ -46,18 +46,18 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 | 🔴 | [Private Inc × Gonka — Network Growth Initiative](./ed8148eb-535e-4677-9a6b-5316c81c996a/) | Igor Alexeev | 0 | 0.00 GNK | 2026-07-13 |
 | 🔴 | [Предложение по развитию игровой экосистемы блокчейна через турнирные пулы вознаг](./fd9989ca-7c5b-4a2f-baf4-2465e6915ba6/) | Victor | 0 | 0.00 GNK | 2026-07-12 |
 | 🔴 | [Интеграция ИИ Gonka в инфраструктуру QR Mint](./7d2ec26b-6524-4fc6-b676-a13d822536e8/) | Victor | 0 | 0.00 GNK | 2026-07-11 |
-| 🔴 | [12+1. Team EntroPi Grant Request](./f6b4e378-8950-4bcf-ac7f-d70d9d246630/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
-| 🔴 | [12. Team Slava MSE Team Grant Request](./08405617-5654-4ead-be62-642affa1739e/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
-| 🔴 | [11. Team GonkaGate Grant Request](./d2f317f0-541a-4d9f-bbac-d2d394906bf2/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
-| 🔴 | [10. Team Alexander Kuprin Grant Request](./59175b49-b83f-4aa6-98f5-b27fffb23cd8/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
-| 🔴 | [9. Team Gonka-API.org Grant Request](./f021bdb3-59f4-4906-bfaa-7b90b72019b1/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
-| 🔴 | [8. Team Gonka.TV Grant Request](./47ab8faa-f9bd-41ba-8e86-6c760d4975a6/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
-| 🔴 | [7. Team Epokha AI / epokha.ai Grant Request](./0395efa6-8eef-4d83-85cb-83d36a937f96/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
-| 🔴 | [5. Team Lefine Grant Request](./662adc44-01c4-41ca-9c0d-ac61f472ee56/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
-| 🔴 | [4. Team Gonka NL BE Community Grant Request](./db4d91a4-1ee7-46ee-a3d1-0e8ba546d04b/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
-| 🔴 | [3. Team Gonka Wallet Grant Request](./2b6b2142-685a-4eda-b2a1-f8853228f3e6/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
-| 🔴 | [Team Gonka.AI \| Inside Grant Request](./4792a93f-127a-4a0e-9a12-acd229c1e865/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
-| 🔴 | [1. Team Veylox Grant Request](./66e6583a-27b4-4bae-91fb-8f0489736b0d/) | Slava MSE! | 0 | 0.00 GNK | 2026-07-11 |
+| 🔴 | [12+1. Team EntroPi Grant Request](./f6b4e378-8950-4bcf-ac7f-d70d9d246630/) | Slava MyGonka | 0 | 0.00 GNK | 2026-07-11 |
+| 🔴 | [12. Team Slava MSE Team Grant Request](./08405617-5654-4ead-be62-642affa1739e/) | Slava MyGonka | 0 | 0.00 GNK | 2026-07-11 |
+| 🔴 | [11. Team GonkaGate Grant Request](./d2f317f0-541a-4d9f-bbac-d2d394906bf2/) | Slava MyGonka | 0 | 0.00 GNK | 2026-07-11 |
+| 🔴 | [10. Team Alexander Kuprin Grant Request](./59175b49-b83f-4aa6-98f5-b27fffb23cd8/) | Slava MyGonka | 0 | 0.00 GNK | 2026-07-11 |
+| 🔴 | [9. Team Gonka-API.org Grant Request](./f021bdb3-59f4-4906-bfaa-7b90b72019b1/) | Slava MyGonka | 0 | 0.00 GNK | 2026-07-11 |
+| 🔴 | [8. Team Gonka.TV Grant Request](./47ab8faa-f9bd-41ba-8e86-6c760d4975a6/) | Slava MyGonka | 0 | 0.00 GNK | 2026-07-11 |
+| 🔴 | [7. Team Epokha AI / epokha.ai Grant Request](./0395efa6-8eef-4d83-85cb-83d36a937f96/) | Slava MyGonka | 0 | 0.00 GNK | 2026-07-11 |
+| 🔴 | [5. Team Lefine Grant Request](./662adc44-01c4-41ca-9c0d-ac61f472ee56/) | Slava MyGonka | 0 | 0.00 GNK | 2026-07-11 |
+| 🔴 | [4. Team Gonka NL BE Community Grant Request](./db4d91a4-1ee7-46ee-a3d1-0e8ba546d04b/) | Slava MyGonka | 0 | 0.00 GNK | 2026-07-11 |
+| 🔴 | [3. Team Gonka Wallet Grant Request](./2b6b2142-685a-4eda-b2a1-f8853228f3e6/) | Slava MyGonka | 0 | 0.00 GNK | 2026-07-11 |
+| 🔴 | [Team Gonka.AI \| Inside Grant Request](./4792a93f-127a-4a0e-9a12-acd229c1e865/) | Slava MyGonka | 0 | 0.00 GNK | 2026-07-11 |
+| 🔴 | [1. Team Veylox Grant Request](./66e6583a-27b4-4bae-91fb-8f0489736b0d/) | Slava MyGonka | 0 | 0.00 GNK | 2026-07-11 |
 | 🔴 | [Go-To-Market Team for 3 Month to Set Up the Basis](./cb7f643f-3d56-47ec-9193-f9f2f80a99fb/) | Dem \| Démíngān | 1 | 22.1K GNK | 2026-07-10 |
 | 🔴 | [Gonka Media Library by Saccade](./f215996d-e562-42b5-b2b1-400226e612fa/) | Dem \| Démíngān | 1 | 22.1K GNK | 2026-07-10 |
 | 🔴 | [Стресс тест инфиренса](./efc0edeb-bc49-4c6b-a6e7-5b20ccfbe571/) | Mitch | 0 | 0.00 GNK | 2026-06-05 |
@@ -75,4 +75,4 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-07-21 14:17 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-07-21 16:39 UTC*

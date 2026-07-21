@@ -95,7 +95,7 @@ My experience regarding to such a question: modeling Yandex Market auction, opti
 
 ---
 
-### 💬 Slava MSE!
+### 💬 Slava MyGonka
 *2026-07-14 07:20* · 👍 0 · 👎 0
 
 Жалко что здесь нельзя прикладывать скрины.

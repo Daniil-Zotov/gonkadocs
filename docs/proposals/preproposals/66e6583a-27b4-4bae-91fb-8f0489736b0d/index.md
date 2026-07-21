@@ -9,7 +9,7 @@ template: proposals-main.html
 
 <div class="preproposal-status">🔴 Expired</div>
 
-**Author:** Slava MSE!
+**Author:** Slava MyGonka
 **Created:** 2026-06-11 05:35 UTC
 **Closes:** 2026-07-11 05:35 UTC
 **Language:** 
@@ -55,7 +55,7 @@ Email Address: itisforth1@gmail.com
 
 ## Comments (8)
 
-### 💬 Slava MSE!
+### 💬 Slava MyGonka
 *2026-06-11 06:29* · 👍 1 · 👎 0
 
 Привет! Глянул ваш сайт с Мерчем. Прикольно. Молодцы )
@@ -108,7 +108,7 @@ Thank you.
 
 ---
 
-### 💬 Slava MSE!
+### 💬 Slava MyGonka
 *2026-06-16 21:18* · 👍 1 · 👎 0
 
 Я посмотрел сайт.
@@ -151,7 +151,7 @@ An agent-readable documentation for easy node registration could indeed be a val
 
 ---
 
-### 💬 Slava MSE!
+### 💬 Slava MyGonka
 *2026-06-17 18:47* · 👍 1 · 👎 0
 
 Ребята из NOPE больше, кажется, не поддерживают свой проект. Но это не мешает зайти и посмотреть их код. Он есть на ГитХаб.
@@ -177,7 +177,7 @@ As for renting, we rented from Spheron using both spot and dedicated instances. 
 
 ---
 
-### 💬 Slava MSE!
+### 💬 Slava MyGonka
 *2026-06-21 10:10* · 👍 1 · 👎 0
 
 А сейчас майните? 
