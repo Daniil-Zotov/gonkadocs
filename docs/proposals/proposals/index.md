@@ -82,8 +82,8 @@ template: proposals-oview.html
     <span>Voting ends 2026-07-23</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.14</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 3,257 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout 3,257 / 585,186 (0.6%) · Quorum 25% (146,296)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 99,167 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout 99,167 / 585,186 (16.9%) · Quorum 25% (146,296)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -1248,7 +1248,7 @@ template: proposals-oview.html
 
 </div>
 <div class="prop-oview-stats">
-<em>89 proposals across 5 quarters. Last updated: 2026-07-21 19:33 UTC</em>
+<em>89 proposals across 5 quarters. Last updated: 2026-07-21 20:43 UTC</em>
 </div>
 
 <script>
