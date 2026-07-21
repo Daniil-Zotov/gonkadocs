@@ -1,0 +1,126 @@
+[
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgInstantiateContract2",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "admin": "",
+    "code_id": "107",
+    "label": "go-to-market-team-milestone-escrow",
+    "msg": {
+      "governance": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+      "payouts": [
+        {
+          "recipient": "gonka1zhcn5yz86z0jlsyzm9xkkhx6km5p8a4apw9rsj",
+          "denom": "ngonka",
+          "amount": "30000000000000",
+          "unlock_after_days": 0
+        },
+        {
+          "recipient": "gonka1zhcn5yz86z0jlsyzm9xkkhx6km5p8a4apw9rsj",
+          "denom": "ngonka",
+          "amount": "30000000000000",
+          "unlock_after_days": 31
+        },
+        {
+          "recipient": "gonka1zhcn5yz86z0jlsyzm9xkkhx6km5p8a4apw9rsj",
+          "denom": "ngonka",
+          "amount": "30000000000000",
+          "unlock_after_days": 62
+        },
+        {
+          "recipient": "gonka1zhcn5yz86z0jlsyzm9xkkhx6km5p8a4apw9rsj",
+          "denom": "ngonka",
+          "amount": "30000000000000",
+          "unlock_after_days": 99
+        },
+        {
+          "recipient": "gonka15at6rrk3tspus7mu0t2yg26r4guq7sqkpq3wf4",
+          "denom": "ngonka",
+          "amount": "30000000000000",
+          "unlock_after_days": 0
+        },
+        {
+          "recipient": "gonka15at6rrk3tspus7mu0t2yg26r4guq7sqkpq3wf4",
+          "denom": "ngonka",
+          "amount": "30000000000000",
+          "unlock_after_days": 31
+        },
+        {
+          "recipient": "gonka15at6rrk3tspus7mu0t2yg26r4guq7sqkpq3wf4",
+          "denom": "ngonka",
+          "amount": "30000000000000",
+          "unlock_after_days": 62
+        },
+        {
+          "recipient": "gonka15at6rrk3tspus7mu0t2yg26r4guq7sqkpq3wf4",
+          "denom": "ngonka",
+          "amount": "30000000000000",
+          "unlock_after_days": 99
+        },
+        {
+          "recipient": "gonka1zhcn5yz86z0jlsyzm9xkkhx6km5p8a4apw9rsj",
+          "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+          "amount": "9500000000",
+          "unlock_after_days": 0
+        },
+        {
+          "recipient": "gonka1zhcn5yz86z0jlsyzm9xkkhx6km5p8a4apw9rsj",
+          "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+          "amount": "9500000000",
+          "unlock_after_days": 31
+        },
+        {
+          "recipient": "gonka1zhcn5yz86z0jlsyzm9xkkhx6km5p8a4apw9rsj",
+          "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+          "amount": "9500000000",
+          "unlock_after_days": 62
+        },
+        {
+          "recipient": "gonka15at6rrk3tspus7mu0t2yg26r4guq7sqkpq3wf4",
+          "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+          "amount": "9500000000",
+          "unlock_after_days": 0
+        },
+        {
+          "recipient": "gonka15at6rrk3tspus7mu0t2yg26r4guq7sqkpq3wf4",
+          "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+          "amount": "9500000000",
+          "unlock_after_days": 31
+        },
+        {
+          "recipient": "gonka15at6rrk3tspus7mu0t2yg26r4guq7sqkpq3wf4",
+          "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+          "amount": "9500000000",
+          "unlock_after_days": 62
+        }
+      ],
+      "close_after_days": 150
+    },
+    "funds": [],
+    "salt": "Z3RtLXRlYW0tMjAyNg==",
+    "fix_msg": false
+  },
+  {
+    "@type": "/cosmos.distribution.v1beta1.MsgCommunityPoolSpend",
+    "authority": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "recipient": "gonka1stfulpj6t5mc0nekph7g7tcf7dv5mszm95xtvt6rc5repv7t5yvq28h3ja",
+    "amount": [
+      {
+        "denom": "ngonka",
+        "amount": "240000000000000"
+      }
+    ]
+  },
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "contract": "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2",
+    "msg": {
+      "withdraw_ibc": {
+        "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+        "amount": "57000000000",
+        "recipient": "gonka1stfulpj6t5mc0nekph7g7tcf7dv5mszm95xtvt6rc5repv7t5yvq28h3ja"
+      }
+    },
+    "funds": []
+  }
+]

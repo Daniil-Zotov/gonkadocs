@@ -7,6 +7,19 @@
     <language>en</language>
     <atom:link href="https://gonkadocs.com/proposals/proposals/proposals.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>#90 – Partnerships with Inference Resellers, B2C users acquisition and conversion funnels analytics setup</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q3/90/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q3/90/</guid>
+      <pubDate>Tue, 21 Jul 2026 15:27:52 +0000</pubDate>
+      <category>Voting</category>
+      <description>Currently Gonka has a lot of marketing activities, but doesn't have analytics to measure the results of their work and doesn't have a vision which target audiences and how we need to attract and onboard.
+
+This proposal describes key activities to set analytics, bisdev target audiences and search for best of their acquisition by hundreds of cheap experiments; the team and the budgets for the next 3 months.
+The full proposal: https://app.integrity.sh/p/NLgLEHfL8Msoz0nh2-_Tf
+
+The budget of 240K GNK</description>
+    </item>
+    <item>
       <title>#89 – Upgrade Proposal: v0.2.14</title>
       <link>https://gonkadocs.com/proposals/proposals/2026-q3/89/</link>
       <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q3/89/</guid>
