@@ -17,14 +17,12 @@
 
 .pipeline-timeline {
   position: relative;
-  /* НЕТ padding-left — линия и точки в одной координатной системе */
 }
 
-/* вертикальная чёрная линия — строго по центру первой 28px-колонки */
 .pipeline-timeline::before {
   content: "";
   position: absolute;
-  left: 13px;              /* центр 28px-колонки = 14px; линия 2px → left = 14-1 = 13px */
+  left: 13px;
   top: 10px;
   bottom: 10px;
   width: 2px;
@@ -46,9 +44,8 @@
   margin-bottom: 0.5rem;
 }
 
-/* пустой кружок — центр строго на 14px (центр 28px-колонки) */
 .stage-node {
-  justify-self: center;    /* центр первой колонки = 14px */
+  justify-self: center;
   width: 16px;
   height: 16px;
   box-sizing: border-box;
@@ -77,7 +74,6 @@
   margin-bottom: 0;
 }
 
-/* чёрная точка — центр строго на 14px (центр 28px-колонки) */
 .item-dot {
   justify-self: center;
   align-self: start;
@@ -95,6 +91,12 @@
   line-height: 1.4;
   color: #24292f;
 }
+
+.item-text a {
+  color: #0969da;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
 </style>
 
 <div class="pipeline-wrap">
@@ -111,12 +113,12 @@
       <div class="stage-node"></div>
       <div class="stage-title">Подготовка</div>
     </div>
-    <div class="pipeline-item"><div class="item-dot"></div><div class="item-text">Ознакомиться с актуальным роадмапом Gonka, понять приоритеты сообщества и утверждённые направления развития сети</div></div>
-    <div class="pipeline-item"><div class="item-dot"></div><div class="item-text">Изучить прошедшие пропозалы и собранные best practices, чтобы понять формат, требования и типичные ошибки</div></div>
-    <div class="pipeline-item"><div class="item-dot"></div><div class="item-text">Проанализировать текущие ончейн-пропозалы и активные препропозалы, чтобы избежать дублирования и найти синергию</div></div>
-    <div class="pipeline-item"><div class="item-dot"></div><div class="item-text">Просмотреть GitHub Discussions, Issues и закрытые пропозалы — часто там уже есть частичные решения или обсуждения похожих идей</div></div>
-    <div class="pipeline-item"><div class="item-dot"></div><div class="item-text">Ознакомиться с рекомендациями профильных комитетов (GSC, GRC, GTM) и учесть их требования при формировании идеи</div></div>
-    <div class="pipeline-item"><div class="item-dot"></div><div class="item-text">Заполнить анкету в Google Forms — это запустит формальный процесс обсуждения: будет создан препропозал на gonka.vote, а также выделен Telegram-чат для живого диалога</div></div>
+    <div class="pipeline-item"><div class="item-dot"></div><div class="item-text">Ознакомиться с актуальным <a href="/community/roadmap/">роадмапом</a> Gonka, понять приоритеты сообщества и утверждённые направления развития сети — это поможет сформулировать идею, которая соответствует текущим целям экосистемы и имеет наибольшие шансы на поддержку.</div></div>
+    <div class="pipeline-item"><div class="item-dot"></div><div class="item-text">Изучить <a href="/proposals/proposals/">прошедшие пропозалы</a> и собранные best practices, чтобы понять формат, требования и типичные ошибки. Обратите внимание на структуру: описание, бюджет, сроки, KPI и механизм отчетности — все успешные пропозалы следуют схожему шаблону.</div></div>
+    <div class="pipeline-item"><div class="item-dot"></div><div class="item-text">Проанализировать текущие <a href="/proposals/proposals/">ончейн-пропозалы</a> и активные <a href="/proposals/preproposals/">препропозалы</a>, чтобы избежать дублирования и найти синергию. Возможно, ваша идея уже частично реализуется или может быть объединена с другой инициативой.</div></div>
+    <div class="pipeline-item"><div class="item-dot"></div><div class="item-text">Просмотреть <a href="/community/discussion/">GitHub Discussions</a>, <a href="/community/issues/">Issues</a> и закрытые пропозалы — часто там уже есть частичные решения, обсуждения похожих идей или ценный фидбек от сообщества, который можно учесть заранее.</div></div>
+    <div class="pipeline-item"><div class="item-dot"></div><div class="item-text">Ознакомиться с рекомендациями профильных комитетов: <a href="/community/governance%20support%20committee/">GSC</a> (процесс управления), <a href="/community/gonka%20restitution%20committee/">GRC</a> (реституция и компенсации), <a href="/community/go-to-market%20committee/">GTM</a> (маркетинг и рост). Учёт их требований на раннем этапе ускоряет прохождение следующих стадий.</div></div>
+    <div class="pipeline-item"><div class="item-dot"></div><div class="item-text">Заполнить <a href="https://forms.gle/e2deKkaZJTGxSjSc7">анкету в Google Forms</a> — это запустит формальный процесс обсуждения: будет создан препропозал на <a href="https://gonka.vote">gonka.vote</a>, а также выделен Telegram-чат для живого диалога с сообществом и комитетами. Без анкеты пропозал не попадает в официальный пайплайн.</div></div>
   </div>
 
   <div class="pipeline-stage">
@@ -124,10 +126,10 @@
       <div class="stage-node"></div>
       <div class="stage-title">Обсуждение</div>
     </div>
-    <div class="pipeline-item"><div class="item-dot"></div><div class="item-text">Подготовить и провести презентацию пропозала и команды для сообщества — чётко обозначить цели, бюджет, сроки и ожидаемый результат</div></div>
-    <div class="pipeline-item"><div class="item-dot"></div><div class="item-text">Вести живое обсуждение на vote-портале gonka.vote и в выделенном Telegram-чате совместно с представителями комитетов, хостами и активными участниками сообщества</div></div>
-    <div class="pipeline-item"><div class="item-dot"></div><div class="item-text">Организовать и провести AMA-сессию (Ask Me Anything), где любой член сообщества может задать вопросы команде и получить прямые ответы</div></div>
-    <div class="pipeline-item"><div class="item-dot"></div><div class="item-text">По итогам обсуждения профильные комитеты выносят заключение и дают рекомендации по доработке: корректировка суммы, сроков, формата подачи и других параметров пропозала</div></div>
+    <div class="pipeline-item"><div class="item-dot"></div><div class="item-text">Подготовить и провести презентацию пропозала и команды для сообщества — чётко обозначить цели, бюджет, сроки и ожидаемый результат. Хорошая презентация — основа доверия; примеры можно найти среди <a href="/proposals/preproposals/">прошедших препропозалов</a>.</div></div>
+    <div class="pipeline-item"><div class="item-dot"></div><div class="item-text">Вести живое обсуждение на vote-портале <a href="https://gonka.vote">gonka.vote</a> и в выделенном Telegram-чате совместно с представителями <a href="/community/governance%20support%20committee/">комитетов</a>, хостами и активными участниками сообщества. Все вопросы и ответы публичны и остаются в истории для последующих пропозалов.</div></div>
+    <div class="pipeline-item"><div class="item-dot"></div><div class="item-text">Организовать и провести AMA-сессию (Ask Me Anything), где любой член сообщества может задать вопросы команде и получить прямые ответы. Это обязательный этап для крупных или спорных пропозалов, помогающий снять неопределённость до голосования.</div></div>
+    <div class="pipeline-item"><div class="item-dot"></div><div class="item-text">По итогам обсуждения профильные комитеты выносят заключение и дают рекомендации по доработке: корректировка суммы, сроков, формата подачи и других параметров пропозала. Заключения публикуются в репозитории и на <a href="https://gonka.vote">gonka.vote</a>.</div></div>
   </div>
 
   <div class="pipeline-stage">
@@ -135,9 +137,9 @@
       <div class="stage-node"></div>
       <div class="stage-title">Голосование</div>
     </div>
-    <div class="pipeline-item"><div class="item-dot"></div><div class="item-text">Комитет оказывает техническую помощь в подготовке финальной версии пропозала — помогает выверить параметры, формулировки и соответствие стандартам</div></div>
-    <div class="pipeline-item"><div class="item-dot"></div><div class="item-text">Все необходимые документы, заключения комитетов и записи встреч публикуются в едином пространстве для ознакомления хостами перед голосованием</div></div>
-    <div class="pipeline-item"><div class="item-dot"></div><div class="item-text">Если пропозал появился без предварительного обсуждения (без заполнения анкеты), члены сообщества самостоятельно создают анкету retroactively</div></div>
+    <div class="pipeline-item"><div class="item-dot"></div><div class="item-text">Комитет оказывает техническую помощь в подготовке финальной версии пропозала — помогает выверить параметры, форматирование, перевод на английский и соответствие стандартам ончейн-голосования. Цель — минимизировать ошибки, которые могут привести к отклонению или техническим проблемам при исполнении.</div></div>
+    <div class="pipeline-item"><div class="item-dot"></div><div class="item-text">Все необходимые документы, заключения комитетов, записи AMA-встреч и презентации публикуются в едином пространстве для ознакомления хостами перед голосованием. Хосты — ключевые стейкхолдеры — голосуют своими токенами, поэтому прозрачность на этом этапе критична. Примеры опубликованных пропозалов — в <a href="/proposals/proposals/">архиве</a>.</div></div>
+    <div class="pipeline-item"><div class="item-dot"></div><div class="item-text">Если пропозал появился на голосовании без предварительного обсуждения (без заполнения анкеты), члены сообщества самостоятельно создают анкету retroactively. Такой пропозал может быть отклонён или отправлен на доработку, если комитеты не успевают провести полный анализ.</div></div>
   </div>
 
   <div class="pipeline-stage">
@@ -145,8 +147,8 @@
       <div class="stage-node"></div>
       <div class="stage-title">Отчётность</div>
     </div>
-    <div class="pipeline-item"><div class="item-dot"></div><div class="item-text">В случае прохождения пропозала команда совместно с комитетами составляет детальный график отчётности: дедлайны, KPI, мейлстоуны и формат предоставления результатов</div></div>
-    <div class="pipeline-item"><div class="item-dot"></div><div class="item-text">Комитеты регулярно контролируют сроки, оценивают качество и содержание отчётов, и при необходимости выносят резолюцию — особенно в случаях отзывных пропозалов, подозрений на скам или репутационных рисков</div></div>
+    <div class="pipeline-item"><div class="item-dot"></div><div class="item-text">В случае прохождения пропозала команда совместно с комитетами составляет детальный график отчётности: дедлайны, KPI, мейлстоуны и формат предоставления результатов. График публикуется вместе с финальной версией пропозала и доступен всем участникам сети. Примеры отчётов можно найти на странице <a href="/proposals/community%20pool/">Community Pool</a> (раздел Bounty Distribution).</div></div>
+    <div class="pipeline-item"><div class="item-dot"></div><div class="item-text">Комитеты регулярно контролируют сроки, оценивают качество и содержание отчётов, и при необходимости выносят резолюцию — особенно в случаях отзывных пропозалов (когда средства выделяются частями и каждая следующая транша требует подтверждения), подозрений на скам или репутационных рисков для сети. Комитет <a href="/community/gonka%20restitution%20committee/">GRC</a> отвечает за компенсационные механизмы, <a href="/community/governance%20support%20committee/">GSC</a> — за соблюдение процедур.</div></div>
   </div>
 
 </div>
