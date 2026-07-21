@@ -24555,7 +24555,7 @@ Models / IBC2
   
   Upgrade Proposal: v0.2.14
   Yes 1,378 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  ✗ Turnout 1,378 / 597,969 (0.2%) · Quorum 25% (149,492)
+  ✗ Turnout 1,378 / 597,008 (0.2%) · Quorum 25% (149,252)
 
   
     #88 – Restore Kimi K2.6 and remove v1, v2
@@ -25535,7 +25535,7 @@ Models / IBC2
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-88 proposals across 5 quarters. Last updated: 2026-07-21 04:20 UTC
+88 proposals across 5 quarters. Last updated: 2026-07-21 05:20 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -61824,7 +61824,7 @@ GRC / Restitution1
   
   Upgrade Proposal: v0.2.14
   Yes 1,378 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  ✗ Turnout 1,378 / 597,969 (0.2%) · Quorum 25% (149,492)
+  ✗ Turnout 1,378 / 597,008 (0.2%) · Quorum 25% (149,252)
 
   
     #88 – Restore Kimi K2.6 and remove v1, v2
@@ -65052,7 +65052,7 @@ Upgrade Proposal: v0.2.14
     Veto 0 (0.0%)
     Abstain 0 (0.0%)
     Total 1,378 votes
-    ✗ Turnout 1,378 / 597,969 (0.2%) · Quorum 25% (149,492)
+    ✗ Turnout 1,378 / 597,008 (0.2%) · Quorum 25% (149,252)
   
 
 ---
