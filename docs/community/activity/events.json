@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260721221744_e8f0833b",
+    "timestamp": "2026-07-21T22:17:44.347914+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1219 — [P0] Basic primitives for training",
+      "url": "/community/issues/01219-p0-basic-primitives-for-training/",
+      "file": "01219-p0-basic-primitives-for-training.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [P0] Basic primitives for training\n    <span class=\"issues-number\">#1219</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-05-21 21:56 UTC</span>\n    <span class=\"issues-meta-item\">4 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style=\"b",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [P0] Basic primitives for training\n    <span class=\"issues-number\">#1219</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-05-21 21:56 UTC</span>\n    <span class=\"issues-meta-item\">5 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style=\"b"
+    },
+    "ai_description": "В issue #1219 о базовых примитивах для обучения появился новый комментарий, теперь их пять. Обсуждение критически важной задачи для инференса продолжается, присоединяйтесь к диалогу."
+  },
+  {
     "id": "evt_20260721142947_498fea4f",
     "timestamp": "2026-07-21T14:29:47.982319+00:00",
     "section": "issues",
