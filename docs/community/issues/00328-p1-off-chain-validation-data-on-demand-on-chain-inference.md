@@ -2,7 +2,7 @@
 title: "#328 — [P1] Off-chain validation data == on demand on-chain inference"
 source: https://github.com/gonka-ai/gonka/issues/328
 issue_number: 328
-synced_at: 2026-07-21T22:16:49Z
+synced_at: 2026-07-21T23:17:55Z
 template: issues-main.html
 ---
 

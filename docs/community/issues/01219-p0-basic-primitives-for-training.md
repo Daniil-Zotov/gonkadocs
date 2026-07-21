@@ -2,7 +2,7 @@
 title: "#1219 — [P0] Basic primitives for training"
 source: https://github.com/gonka-ai/gonka/issues/1219
 issue_number: 1219
-synced_at: 2026-07-21T22:14:34Z
+synced_at: 2026-07-21T23:15:41Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-05-21 21:56 UTC</span>
-    <span class="issues-meta-item">5 comments</span>
-    <span class="issues-meta-item">Updated 2026-07-21 20:49 UTC</span>
+    <span class="issues-meta-item">6 comments</span>
+    <span class="issues-meta-item">Updated 2026-07-21 23:07 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
 </div>
@@ -31,7 +31,7 @@ Put together a lightweight training flow without the heavy logic we have in devs
 
 ---
 
-## 💬 Comments (5)
+## 💬 Comments (6)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -93,6 +93,15 @@ PR (stage 1): #1350 </p>
   </div>
   <div class="issues-comment-body issues-content">
     <p>Hi @orvionx ! Just checking in - how are you doing? Were you able to make any progress on this?</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/orvionx">@orvionx</a></span>
+    <span class="issues-meta-item">commented 2026-07-21 23:07 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>@x0152 Hi, I didn't make any progress yet</p>
   </div>
 </div>
 
