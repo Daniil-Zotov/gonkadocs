@@ -15,7 +15,6 @@ site_dir: _site
 exclude_docs: |
   /README.md
   gonka/docs/
-  proposals/proposals/**/full-proposal.md
   proposals/proposals/**/report*.md
   proposals/preproposals/**/report*.md
 
@@ -24,6 +23,7 @@ not_in_nav: |
   community/issues/**/*.md
   community/**/*.md
   proposals/preproposals/**/*.md
+  proposals/proposals/**/full-proposal.md
   proposals/pipeline.md
   proposals/README.md
   404.md

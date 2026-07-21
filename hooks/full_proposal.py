@@ -65,6 +65,10 @@ def on_page_markdown(markdown: str, page=None, config=None, **kwargs):
     if _is_overview_page(src_path):
         return markdown
 
+    # Skip full-proposal pages (standalone rendering, no injection needed)
+    if src_path.endswith("/full-proposal.md") or src_path == "full-proposal.md":
+        return markdown
+
     # Prevent double-injection on reload
     if "<details class=\"prop-full\">" in markdown:
         return markdown
@@ -86,7 +90,7 @@ def on_page_markdown(markdown: str, page=None, config=None, **kwargs):
         "---\n\n"
         "## Full Proposal\n\n"
         "<details class=\"prop-full\" markdown=\"1\">\n"
-        "<summary markdown=\"1\"><strong>Full proposal</strong> — click to expand</summary>\n\n"
+        "<summary markdown=\"1\"><strong>Full proposal</strong> — click to expand  ·  <a href=\"full-proposal/\">Open in separate page →</a></summary>\n\n"
         f"{extra}\n"
         "\n"
         "</details>\n"
