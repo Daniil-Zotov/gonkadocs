@@ -33,7 +33,7 @@ Since the network genesis, the Community Pool has received continuous inflows fr
 
 **Inflow rate:** ~13,150 GNK/day (varies with block time, fee volume, and staking ratio).
 
-<details style="font-size:0.8rem;opacity:0.7;margin:0.2rem 0 0.2rem 0.5rem">
+<details style="font-size:0.8rem;opacity:0.7;padding-left:0.5rem;margin:0.2rem 0">
 <summary style="cursor:pointer;font-weight:500">Verify on-chain</summary>
 
 ```
@@ -64,7 +64,7 @@ The USDT held here is used to pay **bug bounties and development rewards** — d
 
 **Important:** The GNK held here is **not part of the Community Pool**. It is the undistributed balance of the sale contract — already allocated in proposal #14 and awaiting exchange. Only the USDT received from buyers is new value entering the Gonka ecosystem.
 
-<details style="font-size:0.8rem;opacity:0.7;margin:0.2rem 0 0.2rem 0.5rem">
+<details style="font-size:0.8rem;opacity:0.7;padding-left:0.5rem;margin:0.2rem 0">
 <summary style="cursor:pointer;font-weight:500">Verify on-chain</summary>
 
 ```
@@ -89,7 +89,7 @@ The Gov Module authority is the only address permitted to execute `MsgCommunityP
 
 It also holds unallocated GNK set aside for governance-approved programmes that use batch-vesting or multi-send distributions.
 
-<details style="font-size:0.8rem;opacity:0.7;margin:0.2rem 0 0.2rem 0.5rem">
+<details style="font-size:0.8rem;opacity:0.7;padding-left:0.5rem;margin:0.2rem 0">
 <summary style="cursor:pointer;font-weight:500">Verify on-chain</summary>
 
 ```
