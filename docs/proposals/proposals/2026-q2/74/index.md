@@ -113,3 +113,25 @@ Full proposal: <https://gonkalabs.com/proposal>
 ```
 
 </details>
+
+---
+
+## Отчёты
+
+### Report #1 — 2026-07-18
+
+<details class="prop-contracts" markdown="1">
+<summary markdown="1">Gonka Labs — Monthly Report No.1</summary>
+
+[Открыть полный отчёт](report1.md) · [Обсуждение на GitHub](https://github.com/gonka-ai/gonka/discussions/1477)
+
+**Кратко:** Запущены OpenBroker и Pulse, закрыто ~240 багов на gonka.gg, B2B-прокси масштабирован до миллиардов токенов в день, инфраструктура целиком перенесена на выделенные серверы.
+
+**Ключевые метрики:**
+- OpenBroker: 33 активных брокера, ~11.8B токенов
+- Pulse: ~2,600 постов проиндексировано, ~11.9M охват
+- proxy.gonka.gg: ~29B токенов, ~96.8% успешных запросов
+- DevShards v3 внедрён на всех продакшен-гейтвеях
+
+</details>
+
