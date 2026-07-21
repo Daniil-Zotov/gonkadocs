@@ -2,7 +2,7 @@
 title: "#608 — [0/4] `StartInference` and `FinishInference`: optimiziation"
 source: https://github.com/gonka-ai/gonka/issues/608
 issue_number: 608
-synced_at: 2026-07-21T18:45:40Z
+synced_at: 2026-07-21T20:40:12Z
 template: issues-main.html
 ---
 
