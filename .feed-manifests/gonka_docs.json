@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-07-21T20:59:54.585493+00:00",
+  "snapshot_time": "2026-07-21T22:07:02.638814+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -12,7 +12,7 @@
       "title": "FAQ",
       "status": null,
       "content_preview": "# FAQ\n\n## Overview\n\n### What is Gonka?\nGonka is a decentralized network for high‑efficiency AI compute — run by those who run it. It functions as a cost-effective and efficient alternative to centralized cloud services for AI model training and inference. As a protocol, it's not a company or a start-up.\n\n- In terms of Blockchain, Gonka is the foundational ledger and coordination layer (L1) of the decentralized AI network. It records balances, transactions and cryptographic artifacts that prove Hosts have correctly performed AI work, while all actual computations (such as inference and training) happen off-chain.\n- In terms of Network, Gonka is a comprehensive ecosystem of participants, including Hosts and Developers that interact through a decentralized infrastructure. Powered by the Gonka",
-      "checksum": "18b9000ff0788a59d851762528dfbc864de4a9bf5d5f56d0e042b734456ed3d6"
+      "checksum": "e6b2a1671854662b0f7819a411df825fbd8748c980e042a492cb988ae5ca9f36"
     },
     "architecture.md": {
       "title": "Architecture",
