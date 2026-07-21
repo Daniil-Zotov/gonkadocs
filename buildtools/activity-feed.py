@@ -203,6 +203,9 @@ def scan_directory(dir_path: Path, section: str) -> dict:
         # skip overview/index pages for proposals and preproposals
         if not _is_detail_page(rel, section):
             continue
+        # skip Chinese documentation translations
+        if str(rel).startswith('zh/'):
+            continue
         rel = str(rel)
         try:
             content = fpath.read_text(encoding='utf-8')
