@@ -17446,7 +17446,7 @@ If you have the opportunity and desire to be part of the committee — please co
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-07-21 05:45 UTC
+2026-07-21 08:19 UTC
 
 ---
 
@@ -17554,7 +17554,7 @@ All **passed** governance proposals that received funding from the Community Poo
 | [#14](https://gonkadocs.com/proposals/proposals/2025-q4/14/) | 2025-11-27 | Sale GNK from Community Fund | Community Pool | 20,000,000 | — |
 | [PR #919](https://github.com/gonka-ai/gonka/pull/919) | 2026-03 | v0.2.11 bounty distribution | Upgrade Handler (Gov Module) | 150,750 | — |
 | [PR #1446](https://github.com/gonka-ai/gonka/pull/1446) | 2026-07 | v0.2.14 bounty distribution | Upgrade Handler (Community Sale) | — | $45,250 |
-| [PR #1113](https://github.com/gonka-ai/gonka/pull/1113) | 2026-04 | v0.2.12 bounty distribution | Upgrade Handler (Community Sale) | — | $35,200 |
+| [PR #1113](https://github.com/gonka-ai/gonka/pull/1113) | 2026-04 | v0.2.12 bounty distribution | Upgrade Handler (Community Sale) | — | $36,075 |
 | [PR #497](https://github.com/gonka-ai/gonka/pull/497) | 2026-01 | v0.2.6 bounty distribution | Upgrade Handler (Gov Module) | 30,000 | — |
 | [PR #733](https://github.com/gonka-ai/gonka/pull/733) | 2026-02 | v0.2.10 bounty distribution | Upgrade Handler (Gov Module) | 23,000 | — |
 | [PR #1168](https://github.com/gonka-ai/gonka/pull/1168) | 2026-05 | v0.2.13 bounty distribution | Upgrade Handler (Community Sale) | — | $18,000 |
@@ -17570,8 +17570,8 @@ All **passed** governance proposals that received funding from the Community Poo
 | Most recent | #82 — 80,000 GNK + $88,000 USDT |
 | **Upgrade distributions** | **6** |
 | Total GNK distributed (upgrades) | 203,750 GNK |
-| Total USDT distributed (upgrades) | $98,450 |
-| From Community Sale contract | $98,450 USDT |
+| Total USDT distributed (upgrades) | $99,325 |
+| From Community Sale contract | $99,325 USDT |
 | From Gov Module | 203,750 GNK |
 
 ---
@@ -17586,7 +17586,7 @@ USDT bounties are paid from the **Community Sale contract** via `withdraw_ibc`. 
 | :------ | :- | :----- | :--- | :--------- | --------: | --------: | :----
 | v0.2.14 | [PR #1446](https://github.com/gonka-ai/gonka/pull/1446) | Open | 2026-07 | 16 recipients | — | $45,250 | Community Sale |
 | v0.2.13 | [PR #1168](https://github.com/gonka-ai/gonka/pull/1168) | Merged | 2026-05 | 2 recipients | — | $18,000 | Community Sale |
-| v0.2.12 | [PR #1113](https://github.com/gonka-ai/gonka/pull/1113) | Merged | 2026-04 | 13 recipients | — | $35,200 | Community Sale |
+| v0.2.12 | [PR #1113](https://github.com/gonka-ai/gonka/pull/1113) | Merged | 2026-04 | 15 recipients | — | $36,075 | Community Sale |
 | v0.2.11 | [PR #919](https://github.com/gonka-ai/gonka/pull/919) | Merged | 2026-03 | 26 recipients | 150,750 | — | Gov Module |
 | v0.2.10 | [PR #733](https://github.com/gonka-ai/gonka/pull/733) | Merged | 2026-02 | 11 recipients | 23,000 | — | Gov Module |
 | v0.2.6 | [PR #497](https://github.com/gonka-ai/gonka/pull/497) | Merged | 2026-01 | 2 recipients | 30,000 | — | Gov Module |
@@ -17640,7 +17640,9 @@ USDT bounties are paid from the **Community Sale contract** via `withdraw_ibc`. 
 | — | [`gonka1c34w3r45f0uftjckt2yy4k22vnc3zqjnp0umyz`](https://gonka.gg/address/gonka1c34w3r45f0uftjckt2yy4k22vnc3zqjnp0umyz) | $500 USDT | Free inference vulnerability report |
 | — | [`gonka139f7x4gur2yuyty64dkqxep8jk3d7ku8ayjaqg`](https://gonka.gg/address/gonka139f7x4gur2yuyty64dkqxep8jk3d7ku8ayjaqg) | $200 USDT | Chat completions fix — Issue #499 |
 | @blizko | [`gonka12jaf7m4eysyqt32mrgarum6z96vt55tckvcleq`](https://gonka.gg/address/gonka12jaf7m4eysyqt32mrgarum6z96vt55tckvcleq) | $1,000 USDT | Review of upgrade v0.2.11 |
-| **Total** | | **$35,200 USDT** | |
+| @ouicate | [`gonka1f0elpwnx7ezytdlck35003nz6qk8kzvurvnj4a`](https://gonka.gg/address/gonka1f0elpwnx7ezytdlck35003nz6qk8kzvurvnj4a) | $500 USDT | PR #826: fund atomicity error safety (via #789) |
+| @ouicate | [`gonka1f0elpwnx7ezytdlck35003nz6qk8kzvurvnj4a`](https://gonka.gg/address/gonka1f0elpwnx7ezytdlck35003nz6qk8kzvurvnj4a) | $375 USDT | PR #826: fund atomicity error safety (via #789) |
+| **Total** | | **$36,075 USDT** | |
 
 ### v0.2.11 — [PR #919](https://github.com/gonka-ai/gonka/pull/919) (Merged)
 
@@ -17723,14 +17725,12 @@ USDT bounties are paid from the **Community Sale contract** via `withdraw_ibc`. 
 
 .pipeline-timeline {
   position: relative;
-  /* НЕТ padding-left — линия и точки в одной координатной системе */
 }
 
-/* вертикальная чёрная линия — строго по центру первой 28px-колонки */
 .pipeline-timeline::before {
   content: "";
   position: absolute;
-  left: 13px;              /* центр 28px-колонки = 14px; линия 2px → left = 14-1 = 13px */
+  left: 13px;
   top: 10px;
   bottom: 10px;
   width: 2px;
@@ -17752,9 +17752,8 @@ USDT bounties are paid from the **Community Sale contract** via `withdraw_ibc`. 
   margin-bottom: 0.5rem;
 }
 
-/* пустой кружок — центр строго на 14px (центр 28px-колонки) */
 .stage-node {
-  justify-self: center;    /* центр первой колонки = 14px */
+  justify-self: center;
   width: 16px;
   height: 16px;
   box-sizing: border-box;
@@ -17783,7 +17782,6 @@ USDT bounties are paid from the **Community Sale contract** via `withdraw_ibc`. 
   margin-bottom: 0;
 }
 
-/* чёрная точка — центр строго на 14px (центр 28px-колонки) */
 .item-dot {
   justify-self: center;
   align-self: start;
@@ -17802,6 +17800,12 @@ USDT bounties are paid from the **Community Sale contract** via `withdraw_ibc`. 
   color: #24292f;
 }
 
+.item-text a {
+  color: #0969da;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
 РАЗДЕЛ В ПРОЦЕССЕ РАЗРАБОТКИ
 Полный цикл жизни предложения от идеи до отчётности. Каждый этап прозрачен, проверяем сообществом и задокументирован.
 
@@ -17810,12 +17814,12 @@ USDT bounties are paid from the **Community Sale contract** via `withdraw_ibc`. 
       
       Подготовка
     
-    Ознакомиться с актуальным роадмапом Gonka, понять приоритеты сообщества и утверждённые направления развития сети
-    Изучить прошедшие пропозалы и собранные best practices, чтобы понять формат, требования и типичные ошибки
-    Проанализировать текущие ончейн-пропозалы и активные препропозалы, чтобы избежать дублирования и найти синергию
-    Просмотреть GitHub Discussions, Issues и закрытые пропозалы — часто там уже есть частичные решения или обсуждения похожих идей
-    Ознакомиться с рекомендациями профильных комитетов (GSC, GRC, GTM) и учесть их требования при формировании идеи
-    Заполнить анкету в Google Forms — это запустит формальный процесс обсуждения: будет создан препропозал на gonka.vote, а также выделен Telegram-чат для живого диалога
+    Ознакомиться с актуальным роадмапом Gonka, понять приоритеты сообщества и утверждённые направления развития сети — это поможет сформулировать идею, которая соответствует текущим целям экосистемы и имеет наибольшие шансы на поддержку.
+    Изучить прошедшие пропозалы и собранные best practices, чтобы понять формат, требования и типичные ошибки. Обратите внимание на структуру: описание, бюджет, сроки, KPI и механизм отчетности — все успешные пропозалы следуют схожему шаблону.
+    Проанализировать текущие ончейн-пропозалы и активные препропозалы, чтобы избежать дублирования и найти синергию. Возможно, ваша идея уже частично реализуется или может быть объединена с другой инициативой.
+    Просмотреть GitHub Discussions, Issues и закрытые пропозалы — часто там уже есть частичные решения, обсуждения похожих идей или ценный фидбек от сообщества, который можно учесть заранее.
+    Ознакомиться с рекомендациями профильных комитетов: GSC (процесс управления), GRC (реституция и компенсации), GTM (маркетинг и рост). Учёт их требований на раннем этапе ускоряет прохождение следующих стадий.
+    Заполнить анкету в Google Forms (ссылка — в описании Telegram-канала сообщества) — это запустит формальный процесс обсуждения: будет создан препропозал на gonka.vote, а также выделен Telegram-чат для живого диалога с сообществом и комитетами. Без анкеты пропозал не попадает в официальный пайплайн. Все активные препропозалы публикуются на странице Pre-Proposals.
   
 
   
@@ -17823,10 +17827,10 @@ USDT bounties are paid from the **Community Sale contract** via `withdraw_ibc`. 
       
       Обсуждение
     
-    Подготовить и провести презентацию пропозала и команды для сообщества — чётко обозначить цели, бюджет, сроки и ожидаемый результат
-    Вести живое обсуждение на vote-портале gonka.vote и в выделенном Telegram-чате совместно с представителями комитетов, хостами и активными участниками сообщества
-    Организовать и провести AMA-сессию (Ask Me Anything), где любой член сообщества может задать вопросы команде и получить прямые ответы
-    По итогам обсуждения профильные комитеты выносят заключение и дают рекомендации по доработке: корректировка суммы, сроков, формата подачи и других параметров пропозала
+    Подготовить и провести презентацию пропозала и команды для сообщества — чётко обозначить цели, бюджет, сроки и ожидаемый результат. Хорошая презентация — основа доверия; примеры можно найти среди прошедших препропозалов.
+    Вести живое обсуждение на vote-портале gonka.vote и в выделенном Telegram-чате совместно с представителями комитетов, хостами и активными участниками сообщества. Все вопросы и ответы публичны и остаются в истории для последующих пропозалов.
+    Организовать и провести AMA-сессию (Ask Me Anything), где любой член сообщества может задать вопросы команде и получить прямые ответы. Это обязательный этап для крупных или спорных пропозалов, помогающий снять неопределённость до голосования.
+    По итогам обсуждения профильные комитеты выносят заключение и дают рекомендации по доработке: корректировка суммы, сроков, формата подачи и других параметров пропозала. Заключения публикуются в репозитории и на gonka.vote.
   
 
   
@@ -17834,9 +17838,9 @@ USDT bounties are paid from the **Community Sale contract** via `withdraw_ibc`. 
       
       Голосование
     
-    Комитет оказывает техническую помощь в подготовке финальной версии пропозала — помогает выверить параметры, формулировки и соответствие стандартам
-    Все необходимые документы, заключения комитетов и записи встреч публикуются в едином пространстве для ознакомления хостами перед голосованием
-    Если пропозал появился без предварительного обсуждения (без заполнения анкеты), члены сообщества самостоятельно создают анкету retroactively
+    Комитет оказывает техническую помощь в подготовке финальной версии пропозала — помогает выверить параметры, форматирование, перевод на английский и соответствие стандартам ончейн-голосования. Цель — минимизировать ошибки, которые могут привести к отклонению или техническим проблемам при исполнении.
+    Все необходимые документы, заключения комитетов, записи AMA-встреч и презентации публикуются в едином пространстве для ознакомления хостами перед голосованием. Хосты — ключевые стейкхолдеры — голосуют своими токенами, поэтому прозрачность на этом этапе критична. Примеры опубликованных пропозалов — в архиве.
+    Если пропозал появился на голосовании без предварительного обсуждения (без заполнения анкеты), члены сообщества самостоятельно создают анкету retroactively. Такой пропозал может быть отклонён или отправлен на доработку, если комитеты не успевают провести полный анализ.
   
 
   
@@ -17844,8 +17848,8 @@ USDT bounties are paid from the **Community Sale contract** via `withdraw_ibc`. 
       
       Отчётность
     
-    В случае прохождения пропозала команда совместно с комитетами составляет детальный график отчётности: дедлайны, KPI, мейлстоуны и формат предоставления результатов
-    Комитеты регулярно контролируют сроки, оценивают качество и содержание отчётов, и при необходимости выносят резолюцию — особенно в случаях отзывных пропозалов, подозрений на скам или репутационных рисков
+    В случае прохождения пропозала команда совместно с комитетами составляет детальный график отчётности: дедлайны, KPI, мейлстоуны и формат предоставления результатов. График публикуется вместе с финальной версией пропозала и доступен всем участникам сети. Примеры отчётов можно найти на странице Community Pool (раздел Bounty Distribution).
+    Комитеты регулярно контролируют сроки, оценивают качество и содержание отчётов, и при необходимости выносят резолюцию — особенно в случаях отзывных пропозалов (когда средства выделяются частями и каждая следующая транша требует подтверждения), подозрений на скам или репутационных рисков для сети. Комитет GRC отвечает за компенсационные механизмы, GSC — за соблюдение процедур.
 
 ---
 
@@ -17913,7 +17917,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-07-21 06:38 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-07-21 09:35 UTC*
 
 ---
 
@@ -25535,7 +25539,7 @@ Models / IBC2
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-88 proposals across 5 quarters. Last updated: 2026-07-21 08:10 UTC
+88 proposals across 5 quarters. Last updated: 2026-07-21 09:30 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -65011,6 +65015,80 @@ Contract Details
   }
 ]
 ```
+
+---
+
+## Upgrade Proposal: v0.2.14
+
+# Upgrade Proposal: v0.2.14
+
+This PR prepares the v0.2.14 release.
+
+The mainnet chain/API work focuses on PoC duplicate-artifact protection, early share detection, classic inference API deprecation (disabling `/v1/chat/completions` billing on mainnet and removing embedded `/v1/devshard` from the API binary), reward recipient routing, and upgrade-time safety fixes.
+
+The devshard part prepares the v3 runtime so brokers can serve inference during the chain upgrade without depending on the deprecated classic API path, improving RAM utilization and enabling safe switching between SQLite and Postgres storage.
+
+## Upgrade Plan
+
+The node binary is upgraded through an on-chain software upgrade proposal. Existing hosts are not required to manually update their `api` or `node` containers as part of the upgrade.
+
+A separate devshard v3 release from this branch will be proposed and rolled out before the mainnet chain upgrade. Brokers who switch inference traffic to `/devshard/v3` ahead of time can keep serving inference while the chain upgrade runs.
+
+## Proposed Process
+
+1. Active hosts review this proposal on GitHub.
+2. The devshard v3 release is proposed and rolled out before the mainnet chain upgrade.
+3. Brokers switch inference traffic to `/devshard/v3`.
+4. If the on-chain proposal is approved, this PR will be merged immediately after the upgrade is executed on-chain.
+
+## Changes
+
+### inference-chain / decentralized-api
+
+- Replace the PoC artifact store with SMST-based nonce indexing to prevent duplicate artifacts, with benchmarks, params, and snapshot rebuild fixes [`9a63468`](https://github.com/gonka-ai/gonka/commit/9a6346862e9b365db7994cfa2f07aa81a2a5f958), [`22a21b0`](https://github.com/gonka-ai/gonka/commit/22a21b0b6d893200af0a88f5bb551d238c64f556) by @gmorgachev, @DimaOrekhovPS, @0xMayoor.
+- Add DAPI-side early-share detection as an additional security layer, later reworked to check inclusion by nonce instead of dense index so it stays correct against the SMST store [#1382](https://github.com/gonka-ai/gonka/pull/1382), [#1416](https://github.com/gonka-ai/gonka/pull/1416) by @libermans, @DimaOrekhovPS, @gmorgachev.
+- Remove deprecated classic decentralized-api inference paths and bind devshard routes to runtime versions [#1386](https://github.com/gonka-ai/gonka/pull/1386) by @gmorgachev.
+- Track the last software upgrade height and fix disabling cPoC in the window around chain upgrades [#1268](https://github.com/gonka-ai/gonka/pull/1268) by @patimen.
+- Seed maintenance-window params in the v0.2.14 handler with maintenance disabled by default, so governance can enable it later [#998](https://github.com/gonka-ai/gonka/pull/998), [#1428](https://github.com/gonka-ai/gonka/pull/1428) by @Ryanchen911, @DimaOrekhovPS.
+- Zero mint inflation during upgrade, burn the fee collector base-denom balance, and add Dahl (@paranjko) to allowed devshard escrow creators [#1418](https://github.com/gonka-ai/gonka/pull/1418) by @gmorgachev.
+- Add on-chain configurable reward claim recipients and apply them to stale devshard escrow payouts [#889](https://github.com/gonka-ai/gonka/pull/889), [#1377](https://github.com/gonka-ai/gonka/pull/1377) by @alancapex, @DimaOrekhovPS.
+- Prevent reward payments for incoming delegations from excluded hosts [#1378](https://github.com/gonka-ai/gonka/pull/1378) by @gmorgachev.
+- Add a total supply endpoint for integrations that need plain-text GONKA supply [#1346](https://github.com/gonka-ai/gonka/pull/1346) by @DimaOrekhovPS.
+- Sync bridge block progress so Ethereum transactions are not lost if nodes restart during upgrade [#1376](https://github.com/gonka-ai/gonka/pull/1376) by @GLiberman.
+- Smaller settlement, validation, fee, and setup-report fixes: [#1100](https://github.com/gonka-ai/gonka/pull/1100), [#1101](https://github.com/gonka-ai/gonka/pull/1101), [#1129](https://github.com/gonka-ai/gonka/pull/1129), [#1160](https://github.com/gonka-ai/gonka/pull/1160), [#1253](https://github.com/gonka-ai/gonka/pull/1253), [#1255](https://github.com/gonka-ai/gonka/pull/1255), [#1278](https://github.com/gonka-ai/gonka/pull/1278), [#1307](https://github.com/gonka-ai/gonka/pull/1307), [#1383](https://github.com/gonka-ai/gonka/pull/1383), [#1413](https://github.com/gonka-ai/gonka/pull/1413) by @0xMayoor, @0xgonka, @ouicate, @redstartechno, @GLiberman, @DimaOrekhovPS.
+
+### devshard
+
+- Serve inference during the PoC validation phase on validation-inference-capable nodes [#1348](https://github.com/gonka-ai/gonka/pull/1348) by @qdanik, @gmorgachev.
+- Enable standalone `devshardd` to continue serving during DAPI outages using an ML-node cache, add per-escrow SQLite/Postgres storage routing, and snapshot `validation_rate` at escrow creation [#1417](https://github.com/gonka-ai/gonka/pull/1417) by @akup.
+- Fix a production host leak where failed session resolution left validation workers alive [#1417](https://github.com/gonka-ai/gonka/pull/1417) by @gmorgachev.
+- Collect gateway v3 fixes: runtime versioning, observability, escrow rotation, request parameter validation, SSE handling, drain barriers, and gateway v2 cleanup [#1427](https://github.com/gonka-ai/gonka/pull/1427) by @gmorgachev, @qdanik, @libermans, @a-kuprin.
+- Distribute unsettled devshard escrow by slot instead of unique address [#1347](https://github.com/gonka-ai/gonka/pull/1347) by @0xMayoor.
+
+## Testing
+
+The devshard v3 runtime was deployed and verified first. During testing, `node` and `api` containers were stopped while devshard traffic was running; active requests were allowed to finish, and new requests were successfully created and executed through `/devshard/v3`.
+
+After devshard v3 validation, the mainnet-style upgrade from `v0.2.13` to `v0.2.14` was tested.
+
+## Contributors (sorted alphabetically)
+
+- @0xgonka
+- @0xMayoor
+- @a-kuprin
+- @akup
+- @alancapex
+- @d-bogdan-engenious (testing)
+- @DimaOrekhovPS
+- @GLiberman
+- @gmorgachev
+- @libermans
+- @maria-mitina (testing)
+- @ouicate
+- @patimen
+- @qdanik
+- @redstartechno
+- @Ryanchen911
 
 ---
 
