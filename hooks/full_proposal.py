@@ -9,7 +9,7 @@ import os
 import re
 
 
-_FRONTMATTER_RE = re.compile(r"^---\s*\n.*?^---\s*\n", re.DOTALL | re.MULTILINE)
+_FRONTMATTER_RE = re.compile(r"\A---\s*\n.*?^---\s*\n", re.DOTALL | re.MULTILINE)
 
 
 def _is_overview_page(src_path: str) -> bool:
