@@ -1,6 +1,6 @@
 {
   "section": "proposals",
-  "snapshot_time": "2026-07-21T15:00:47.216596+00:00",
+  "snapshot_time": "2026-07-21T15:10:54.602771+00:00",
   "files": {
     "2025-q3/1/full-proposal.md": {
       "title": "Adjust Params According to real block length",
@@ -297,6 +297,14 @@
       "funding": "",
       "quorum_met": null,
       "checksum": "d167626f7abf23e32a99d3e3566f0d15f567aa2b0fd4c7b79d594382c343e0b6"
+    },
+    "2026-q2/74/full-proposal.md": {
+      "title": "Community Funding Proposal — Gonka Labs — Year One",
+      "status": null,
+      "content_preview": "# Community Funding Proposal — Gonka Labs — Year One\n\n**Authors:** Tim, Mike, Artem  \n**Subject to governance vote**\n\nA request for **70,000 USDT + 330,000 GNK (180-day vesting)** from the Gonka community pool to fund enterprise-grade improvements to our core infrastructure products — aligned with the [Gonka Network Development Roadmap](https://github.com/gonka-ai/gonka/blob/da8750873216e3a96a1ac19fbd64bbf052f2160b/proposals/gonka-network-development-roadmap.md).\n\n## Overview\n\nGonka Labs is requesting **70,000 USDT + 330,000 GNK with Vesting** from the Gonka community pool. We've already shipped 16+ products — all without external funding. The core of this proposal is taking what we have to **enterprise grade**, plus two new products: **G-Router** — an OpenRouter-style layer that unifies a",
+      "funding": "",
+      "quorum_met": null,
+      "checksum": "d8a88633c3b569d8c96e8b3c33a8750e7871cee1db6b3e8cd05ac664a764524e"
     },
     "2026-q2/74/report1.md": {
       "title": "Gonka Labs — Monthly Report No.1",

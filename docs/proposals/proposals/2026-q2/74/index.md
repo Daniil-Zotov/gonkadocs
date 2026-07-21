@@ -113,4 +113,3 @@ Full proposal: <https://gonkalabs.com/proposal>
 ```
 
 </details>
-
