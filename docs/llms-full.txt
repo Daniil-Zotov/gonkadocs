@@ -17446,7 +17446,7 @@ If you have the opportunity and desire to be part of the committee — please co
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-07-21 15:40 UTC
+2026-07-21 17:12 UTC
 
 ---
 
