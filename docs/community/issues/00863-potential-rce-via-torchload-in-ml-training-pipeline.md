@@ -2,7 +2,7 @@
 title: "#863 — Potential RCE via `torch.load()` in ML Training Pipeline"
 source: https://github.com/gonka-ai/gonka/issues/863
 issue_number: 863
-synced_at: 2026-07-21T03:52:28Z
+synced_at: 2026-07-21T06:45:19Z
 template: issues-main.html
 ---
 

@@ -2,7 +2,7 @@
 title: "#1479 — Gateway allowlist request: Knyazev AI high-throughput agent infrastructure"
 source: https://github.com/gonka-ai/gonka/issues/1479
 issue_number: 1479
-synced_at: 2026-07-21T03:51:32Z
+synced_at: 2026-07-21T06:44:15Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/knyazev741">@knyazev741</a> opened 2026-07-19 06:12 UTC</span>
-    <span class="issues-meta-item">2 comments</span>
-    <span class="issues-meta-item">Updated 2026-07-19 06:52 UTC</span>
+    <span class="issues-meta-item">3 comments</span>
+    <span class="issues-meta-item">Updated 2026-07-21 05:52 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -99,7 +99,7 @@ Thank you for considering the request.
 
 ---
 
-## 💬 Comments (2)
+## 💬 Comments (3)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -121,6 +121,17 @@ Thank you for considering the request.
     <p>Community discussion is now open in Gonka <code>#dev-chat</code>:
 https://discord.com/channels/1336477374442770503/1336787104935579668/1528292662245855403</p>
 <p>We have asked active hosts what evidence or operational commitments they would want before supporting inclusion in the next governance-approved creator allowlist batch. We will keep this issue updated with any requested details. The dedicated creator address remains unfunded, and the gateway will not be deployed until on-chain allowlist membership is confirmed.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span class="issues-meta-item">commented 2026-07-21 05:52 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Hi @knyazev741, thanks for opening issue and for already opening the discussion in #dev-chat. That's exactly the right move, and it answers your own question about the process better than I could: there's no maintainer-controlled queue here — Gonka is decentralized, so an address gets added to <code>devshard_escrow_params.allowed_creator_addresses</code> only through on-chain governance (a standalone param-change proposal or inclusion in a governance-approved upgrade batch). Building visible support with active hosts/operators in the community <em>before</em> a proposal is assembled is the strongest thing you can do while you wait.</p>
+<p>OpenBroker https://github.com/gonka-ai/gonka/discussions/1363 would address the throughput concern — it's GNK-native, no markup, and has been load-tested well past your 100–200 concurrent range — but it's custodial by design (you deposit GNK to an operator-controlled address and run under their API key), and it abstracts the escrow/settlement path away from you. Since your stated requirements are self-custodied GNK settlement, direct control of escrow pooling/rotation/retry, and no intermediary in the request path — plus the explicit goal of measuring the <em>native</em> devshard/operator path rather than broker-specific behavior — a broker doesn't substitute for the creator path here. So the allowlist request is the correct path, not something to redirect.</p>
+<p>Keep this issue updated with anything the hosts ask for in #dev-chat, thanks</p>
   </div>
 </div>
 
