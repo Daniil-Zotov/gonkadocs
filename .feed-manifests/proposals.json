@@ -1,6 +1,6 @@
 {
   "section": "proposals",
-  "snapshot_time": "2026-07-21T14:30:23.832877+00:00",
+  "snapshot_time": "2026-07-21T14:40:24.787725+00:00",
   "files": {
     "2025-q3/1/full-proposal.md": {
       "title": "Adjust Params According to real block length",
@@ -297,6 +297,14 @@
       "funding": "",
       "quorum_met": null,
       "checksum": "d167626f7abf23e32a99d3e3566f0d15f567aa2b0fd4c7b79d594382c343e0b6"
+    },
+    "2026-q2/74/report1.md": {
+      "title": "Gonka Labs — Monthly Report No.1",
+      "status": null,
+      "content_preview": "# Gonka Labs — Monthly Report No.1\n\n**Дата публикации:** 2026-07-18 18:31 UTC\n\n**Источник:** [Discussion #1477 — Gonka Labs - Monthly Report No.1](https://github.com/gonka-ai/gonka/discussions/1477)\n\n## 1. OpenBroker\n\nQuick recap: OpenBroker is managed DevShards-as-a-service. Register, deposit GNK, get an `obk-*` key, point any OpenAI client at `https://api.openbroker.gonka.gg/v1` (UI at [openbroker.gonka.gg](https://openbroker.gonka.gg)). No wallet whitelist dance, no running your own escrow rotation. GNK billing with no markup. Public stats at [openbroker.gonka.gg/stats](https://openbroker.gonka.gg/stats).\n\n### Since launch (numbers as of Jul 18)\n\n- **33 active brokers** — 48 registered orgs\n- **~3.2 GNK deposited** into broker ledgers\n- **~15M requests logged** in usage\n- **~11.8B token",
+      "funding": "",
+      "quorum_met": null,
+      "checksum": "05fbc37ee117adc6ec8ee1338bb9340d27d76a3c2de3698e3af34a2a26d6d554"
     },
     "2026-q3/80/full-proposal.md": {
       "title": "GRC Proposal #3 - Restitution",
