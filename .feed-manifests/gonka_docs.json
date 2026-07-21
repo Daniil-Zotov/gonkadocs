@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-07-21T08:12:55.708911+00:00",
+  "snapshot_time": "2026-07-21T11:01:20.523127+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -401,8 +401,8 @@
     "zh/FAQ.md": {
       "title": "FAQ",
       "status": null,
-      "content_preview": "# FAQ\n\n## 概述\n\n### 什么是Gonka？\n\nGonka是一个用于高效AI计算的去中心化网络——由使用者运营。它作为集中式云服务在AI模型训练和推理方面的经济高效替代方案。作为一个协议，它并非公司或初创企业。\n\n- 从区块链角度看，Gonka是去中心化AI网络的基础账本与协调层（L1）。它记录余额、交易和加密证据，以证明主机正确执行了AI工作，而所有实际计算（如推理和训练）均在链下进行。\n- 从网络角度看，Gonka是一个包含主机和开发者的综合生态系统，通过去中心化基础设施进行交互。依托Gonka区块链，该网络分发任务、验证结果，并仅奖励可验证的有用工作，从而为AI工作负载创建一个竞争性强、可扩展的环境。\n\n### Gonka解决了什么问题？\n\nGonka是一个去中心化AI基础设施，旨在减少对集中式云提供商的依赖，并比传统去中心化网络更高效地利用计算能力。其目标是尽可能将计算资源导向有用的AI任务，如推理和训练，同时最小化因共识开销造成的浪费。\n\n### Gonka生态系统中的关键参与者有哪些？\n\nGonka生态系统有四个关键参与者群体：\n\n- 开发者通过利用网络的分布式计算能力构建和部署AI应用。\n- Gonka贡献者参与核心区块链代码库、协议升级、性能优化、安全补丁和新功能集成的开发。\n\n- 持有者持有网络的原生代币，即拥有一个包含Gonka代币的钱包。持有者可以持有、转账或出售代币，使用代币进行推理，并根据协议规则使用它们。成为持有者不意味着除标准代币所有权外的任何义务、责任或治理角色。\n- 主机向网络贡献计算能力。主机执行推理和其他计算任务，并根据其贡献的计算能力按比例获得奖励，前提是保持诚实参与和可靠性。主机构成网络的骨干。只有主机在网络中拥有投票权。该投票权代表其在治理中的权重，用于提出和投票决定协议决策、参数变更和升级。任何主机均可担任验证者、转账",
-      "checksum": "22127cbbbb8328636f3cee5c6397bba0fa650f1212a70f95c7bf823b34fd6455"
+      "content_preview": "# FAQ\n\n## 概述\n\n### 什么是Gonka？\nGonka是一个用于高效AI计算的去中心化网络——由运行它的人运营。它作为集中式云服务在AI模型训练和推理方面的低成本高效替代方案。作为一个协议，它既不是公司，也不是初创企业。\n\n- 从区块链角度来看，Gonka是去中心化AI网络的基础账本和协调层（L1）。它记录余额、交易和加密证据，以证明主机正确执行了AI工作，而所有实际计算（如推理和训练）均在链下进行。\n- 从网络角度来看，Gonka是一个由参与者组成的综合生态系统，包括通过去中心化基础设施交互的主机和开发者。依托Gonka区块链，该网络分发任务、验证结果，并仅奖励可验证的有用工作，从而为AI工作负载创建一个具有竞争力且可扩展的环境。\n\n### Gonka解决了什么问题？\n\nGonka是一个去中心化的AI基础设施，旨在减少对集中式云提供商的依赖，并比传统去中心化网络更高效地利用计算能力。其目标是尽可能将计算资源导向有用的AI任务，如推理和训练，同时最小化因共识开销造成的浪费。\n\n### Gonka生态系统中的关键参与者有哪些？\n\nGonka生态系统有四个关键参与者群体：\n\n- 开发者通过利用网络的分布式计算能力来构建和部署AI应用。\n- Gonka贡献者参与核心区块链代码库、协议升级、性能优化、安全补丁和新功能集成的开发。\n- 持有者持有网络的原生代币，即仅拥有一个包含GNK代币的钱包。持有者可以持有、转账或出售代币，用其支付推理服务，并根据协议规则使用代币。成为持有者不意味着承担任何义务、责任或治理角色，仅限于标准代币所有权。\n- 主机向网络贡献计算能力。主机执行推理和其他计算任务，并根据其贡献的计算能力获得相应奖励，前提是保持诚实参与和可靠性。主机构成网络的骨干。只有主机拥有网络的投票权。该投票权代表其在治理中的权重，用于提出和投票决定协议决策、参数变更和升级",
+      "checksum": "257af0bf8ca5804b4d812da2163d3b6a72647e70c03958a51ca89b346a145d39"
     },
     "zh/architecture.md": {
       "title": "architecture",
@@ -493,6 +493,12 @@
       "status": null,
       "content_preview": "# 仪表板维护者备忘录 v0.2.13\n\n如果 v0.2.13 升级提案获得通过，并且在主网上成功执行了升级，仪表板将需要更新其计算 CPoC 确认权重的方式，并在升级后刷新其缓存。\n\n这适用于 Gonkascan 及其他类似的仪表板部署。\n\n## 主要仪表板影响\n\n### 1. 新的确认权重计算方式\n\n仪表板必须在计算 `weight_to_confirm` 时使用链上提供的 `confirmation_weight_scales` 快照。\n\n简单来说：仪表板应停止假设始终可以使用当前参数加上子组模型。现在链会快照记录哪些模型计入 CPoC 以及该纪元使用的比例因子。\n\n这是仪表板必须进行的主要逻辑变更。\n\nv0.2.13 升级中的代码参考：\n\n- `inference-chain/proto/inference/inference/epoch_group_data.proto`：`EpochGroupData.confirmation_weight_scales` 和 `ConfirmationWeightScale`\n- `inference-chain/x/inference/module/confirmation_weight_scales.go`：`buildConfirmationWeightScales`\n- `inference-chain/x/inference/types/weight.go`：用于确认权重计算的辅助函数\n\n实施指导：\n\n1. 获取根纪元组数据：   ```text\n   /chain-api/productscience/inference/inference/current_epoch_group_data\n   /chain-api/productscience/inference/inference/epoch_group_da",
       "checksum": "7f148664b1978fd67d4f687d5abb713793d2aa90b349471872332d95e1a237e4"
+    },
+    "zh/dashboard-maintainer-memo-v0.2.14.md": {
+      "title": "仪表板维护者备忘录 — Gonka v0.2.14",
+      "status": null,
+      "content_preview": "# 仪表板维护者备忘录 — Gonka v0.2.14\n\n本次升级未移除或重塑任何现有查询端点。如果您的仪表板从链上读取值并显示它们，则将继续正常工作。您需要理解一个语义变更（委托），以及三个小注意事项。\n\n## 委托：权重与奖励\n\n**之前（v0.2.13）：** 当A委托给B时，链在存储权重之前会将A的部分权重物理转移给B。您从链上读取的`weight`已经包含了委托影响。奖励会自动基于调整后的权重计算。\n\n**现在（v0.2.14）：** 链存储每个人自己的权重，不受委托影响。委托仅在奖励结算时内部应用，作用于一个从未作为链字段暴露的权重副本。（拒绝/不参与惩罚也变为仅影响奖励，不再减少存储的权重。）\n\n这对您的仪表板意味着什么，取决于其功能：\n\n- **您显示从链上读取的`weight`**（`epoch_group_data` → `validation_weights[].weight`，或 `get_participant_current_stats`）：继续完全照做。仍然正确。只需知道该数字不再包含委托影响——委托出去的参与者仍显示其完整权重。\n- **您自行重新计算权重并在其上应用委托：** 停止应用委托。链不再这样做。\n- **您估算预期奖励为“参与者权重 ÷ 总权重 × 期池”：** 只要存在委托、拒绝惩罚或排除，此方法现在就是错误的。请改用新端点：\n\n`GET /chain-api/productscience/inference/inference/estimate_bitcoin_reward/{participant}`\n\n它复现了链在结算时使用的相同计算逻辑——包含委托转移、惩罚和排除——并返回估算的奖励和工作币。该估算是针对当前期的：其输入在期形成时（PoC验证结束时）快照，并在每期转换时刷新，因此该端点在整个期中均有效。NotFound响",
+      "checksum": "2c30dde31cbbc884b9e0cc8daf991fed780bcc6f557cbe1557fcd1c8f52b15f5"
     },
     "zh/developer/gateway-developer-quickstart.md": {
       "title": "运行你自己的网关",
@@ -689,8 +695,8 @@
     "zh/network-updates.md": {
       "title": "公告",
       "status": null,
-      "content_preview": "# 公告\n\n!!! note \"关于本页面\"\n\n    本页面由社区成员维护和更新。\n\n    要发布公告，例如您发起的治理投票，请在 gonka-docs 仓库中打开一个拉取请求：[https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n\n    本页面内容不保证完整。如需获取最新信息，包括治理投票的启动及其当前状态，请参考链上数据或查看可用的浏览器和仪表板。\n\n## 2026年7月16日\n\n**提案88已通过：Kimi-K2.6 重新注册，devshard v1/v2 被移除**\n\n紧急提案88已在链上获得批准。\n\n**Kimi-K2.6 引导（第331轮）**\n\n`moonshotai/Kimi-K2.6` 已重新列入治理模型列表，并进入标准引导流程。\n\n* 在区块 **5,105,276** 之前（2026年7月17日，约UTC 12:05）声明意向：\n```\n./inferenced tx inference declare-poc-intent moonshotai/Kimi-K2.6\n```\n* 在第331轮PoC开始前的约500个区块窗口内（区块 **5,105,776** — 2026年7月17日，UTC 12:50:53 / PDT 05:50），将您的MLNode切换为Kimi。\n* 委托主机：选择非守护者Kimi主机，并将权重分散到独立目标上 —— 请参阅 [多模型PoC指南](https://gonka.ai/docs/host/multi_model_poc/)。\n\n**Devshard v1/v2 被移除**\n\n`versiond` 已停止v1和v2的 `devshardd` 进程。所有网关流量必须使用 `/devshard/v3`。如果您的",
-      "checksum": "5cea5e2dd337a5d9aa64b22e782b5f265988131667e2883bd17bdecf1d6e117d"
+      "content_preview": "# 公告\n\n!!! note \"关于本页面\"\n\n    本页面由社区成员维护和更新。\n\n    如需发布公告（例如您发起的治理投票），请在 gonka-docs 仓库中打开一个拉取请求：[https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n\n    本页面的内容不保证完整。如需获取最新信息，包括治理投票的发布及其当前状态，请参阅链上数据或查看可用的浏览器和仪表板。\n\n## 2026年7月20日\n\n**v0.2.14 升级提案进入治理阶段**\n\n[v0.2.14 提案](https://github.com/gonka-ai/gonka/pull/1267) 现已上链并开放投票。\n\n主网链/API 工作重点包括：PoC 重复工件保护、早期共享检测、经典推理 API 废弃（在主网上禁用 `/v1/chat/completions` 计费并从 API 二进制文件中移除嵌入的 `/v1/devshard`）、奖励接收者路由，以及升级时的安全修复。\n\ndevshard 部分准备了 v3 运行时，以便代理在链升级期间无需依赖已废弃的经典 API 路径即可提供推理服务，从而提高内存利用率并支持在 SQLite 和 Postgres 存储之间安全切换。\n\n更多详情请参阅拉取请求：[https://github.com/gonka-ai/gonka/pull/1267](https://github.com/gonka-ai/gonka/pull/1267)\n\n**升级计划**\n\n节点二进制文件通过链上软件升级提案进行升级。现有主机无需在升级过程中手动更新其 `api` 或 `node` 容器。\n\n**如何投票**\n\n如果您没有直接访问拥有投票权密钥的权限，或希望由其他密钥代表您投票，",
+      "checksum": "0a1889fcad16371af09e1036eb8de8becc0d93abe4d59ee08aad5b9803a3834d"
     },
     "zh/participant/README.md": {
       "title": "正在重定向到主机部分",
