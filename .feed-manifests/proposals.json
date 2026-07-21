@@ -1,6 +1,6 @@
 {
   "section": "proposals",
-  "snapshot_time": "2026-07-21T16:00:28.470604+00:00",
+  "snapshot_time": "2026-07-21T16:10:24.554888+00:00",
   "files": {
     "2025-q3/1/full-proposal.md": {
       "title": "Adjust Params According to real block length",
@@ -365,10 +365,10 @@
     "2026-q3/90/full-proposal.md": {
       "title": "Partnerships with Inference Resellers, B2C users acquisition and conversion funnels analytics setup",
       "status": null,
-      "content_preview": "# Partnerships with Inference Resellers, B2C users acquisition and conversion funnels analytics setup\n\nCurrently Gonka has a lot of marketing activities, but doesn't have analytics to measure the results of their work and doesn't have a vision which target audiences and how we need to attract and onboard.\n\nThis proposal describes key activities to set analytics, bisdev target audiences and search for best of their acquisition by hundreds of cheap experiments; the team and the budgets for the next 3 months. It's a part of activities we've planned and described in detail [here](https://app.integrity.sh/p/SuMCnGQBhz-0asAYBUz1U).\n\n## Budget Breakdown\n\n| Activity | Cost GNK | Cost USDT | Key executives |\n| :--- | :--- | :--- | :--- |\n| Build marketing analytics across Inference Brokers, Wallets",
+      "content_preview": "# Partnerships with Inference Resellers, B2C users acquisition and conversion funnels analytics setup\n\nCurrently Gonka has a lot of marketing activities, but doesn't have analytics to measure the results of their work and doesn't have a vision which target audiences and how we need to attract and onboard.\n\nThis proposal describes key activities to set analytics, bisdev target audiences and search for best of their acquisition by hundreds of cheap experiments; the team and the budgets for the next 3 months. It's a part of activities we've planned and described in detail [here](https://app.integrity.sh/p/SuMCnGQBhz-0asAYBUz1U).\n\n## Budget\n\n| Activity | Cost GNK | Cost USDT | Key executives |\n| :--- | :--- | :--- | :--- |\n| Build marketing analytics across Inference Brokers, Wallets, and othe",
       "funding": "",
       "quorum_met": null,
-      "checksum": "391942418b365fe80e4ec1a2146bdd169e4c45818f690763fdd8eabab9194538"
+      "checksum": "bb26336707dc647e7177a2d7a036bb7e14d5ec1366f0d57a17f3b19464343661"
     }
   }
 }
