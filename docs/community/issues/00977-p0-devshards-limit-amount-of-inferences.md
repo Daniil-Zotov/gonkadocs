@@ -2,7 +2,7 @@
 title: "#977 — [P0] `devshards`: Limit amount of inferences"
 source: https://github.com/gonka-ai/gonka/issues/977
 issue_number: 977
-synced_at: 2026-07-21T06:44:42Z
+synced_at: 2026-07-21T09:44:53Z
 template: issues-main.html
 ---
 
