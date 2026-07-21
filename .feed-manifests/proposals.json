@@ -1,6 +1,6 @@
 {
   "section": "proposals",
-  "snapshot_time": "2026-07-21T08:50:55.028574+00:00",
+  "snapshot_time": "2026-07-21T09:00:40.398400+00:00",
   "files": {
     "2025-q3/1/full-proposal.md": {
       "title": "Adjust Params According to real block length",
@@ -337,6 +337,14 @@
       "funding": "",
       "quorum_met": null,
       "checksum": "272b03d83556a18e552a6e9ee734f0a88749b9ad6c4440b1a46934509f692f0e"
+    },
+    "2026-q3/89/full-proposal.md": {
+      "title": "Upgrade Proposal: v0.2.14",
+      "status": null,
+      "content_preview": "# Upgrade Proposal: v0.2.14\n\nThis PR prepares the v0.2.14 release.\n\nThe mainnet chain/API work focuses on PoC duplicate-artifact protection, early share detection, classic inference API deprecation (disabling `/v1/chat/completions` billing on mainnet and removing embedded `/v1/devshard` from the API binary), reward recipient routing, and upgrade-time safety fixes.\n\nThe devshard part prepares the v3 runtime so brokers can serve inference during the chain upgrade without depending on the deprecated classic API path, improving RAM utilization and enabling safe switching between SQLite and Postgres storage.\n\n## Upgrade Plan\n\nThe node binary is upgraded through an on-chain software upgrade proposal. Existing hosts are not required to manually update their `api` or `node` containers as part of t",
+      "funding": "",
+      "quorum_met": null,
+      "checksum": "0f78066d1dd2fc410b3d2eff4462a9e916e6314bfcd0a9691052bef539e76b1b"
     }
   }
 }
