@@ -3305,10 +3305,10 @@ The proposal was APPROVED, and the upgrade was successfully executed on the main
 
 **Upgrade v0.2.13: pre-download binaries and MiniMax-M2.7 weights**
 
-The v0.2.13 upgrade proposal (proposal id  (https://github.com/gonka-ai/gonka/pull/1143)54) has passed on-chain governance and the upgrade is now scheduled.
+The v0.2.13 upgrade proposal (proposal id [54](https://github.com/gonka-ai/gonka/pull/1143)) has passed on-chain governance and the upgrade is now scheduled.
 
-• Upgrade height: 4267300
-• Estimated upgrade time: May 26, 2026, 14:42 UTC (07:42 PDT)
+- Upgrade height: 4267300
+- Estimated upgrade time: May 26, 2026, 14:42 UTC (07:42 PDT)
 
 Pre-downloading binaries and weights in advance helps avoid relying on GitHub / Hugging Face availability during the upgrade window.
 ```
@@ -25519,7 +25519,7 @@ Models / IBC2
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-89 proposals across 5 quarters. Last updated: 2026-07-21 22:39 UTC
+89 proposals across 5 quarters. Last updated: 2026-07-21 23:39 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {

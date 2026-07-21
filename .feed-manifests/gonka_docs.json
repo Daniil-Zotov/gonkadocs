@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-07-21T22:07:02.638814+00:00",
+  "snapshot_time": "2026-07-21T23:51:06.643786+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -294,7 +294,7 @@
       "title": "Announcements",
       "status": null,
       "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## July 20, 2026\n\n**v0.2.14 Upgrade Proposal Enters Governance**\n\n[The v0.2.14 proposal](https://github.com/gonka-ai/gonka/pull/1267) is now on-chain and open for voting.\n\nThe mainnet chain/API work focuses on PoC duplicate-artifact protection, early share ",
-      "checksum": "2b332d70b3452e2124e33c31b18258dfc27759a6674fdf29ca6c8f79f57eca44"
+      "checksum": "de333870dd791f5be2324ad7fe2bd94f1534e7d05ff98a7a20ffc89bd2e3e97a"
     },
     "participant/README.md": {
       "title": "Redirecting to Host Section",
