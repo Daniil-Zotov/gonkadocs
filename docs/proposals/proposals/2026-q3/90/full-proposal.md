@@ -31,6 +31,22 @@ Part of the acquired traffic will be distributed between random services, part �
 - **$6K / month + 40K GNK** — rewards, additional positions, referrals and experiments tailored to new marketing activities or their acceleration
 - **$5K / month** — AI for the team, Analytics, B2B-outreach (smartlead, apollo, zapmail, apify), Influencers databases subscriptions (hypeauditor, adstail, rizzult, modash), AI agencies, Infrastructure, domains, referral bonuses
 
+## KPIs
+
+| KPI | Until day 31 | Until day 62 | Until day 99 |
+| :--- | :--- | :--- | :--- |
+| Partnerships and pilots with inference resellers | 1-2 | 3-5 | 7-15 |
+| OpenRouter-size comparable partnerships | selection and letters | discussions | 1-3 pilots started |
+| Interviews with competitors marketers | 3-5 | 5-7 | 10-15 |
+| New non-ru Gonka users in our communities | 100-500 (~10% paid) | 300-1500 (~15% paid) | 1000-5000 (~20% paid) |
+| Posts in relevant communities (1K-100K subscribers) | 100-200 | 200-500 | 300-800 |
+| Collaborations with microinfluencers (AI / Agents creators with 500-10K subscribers) | 10-30 | 25-80 | 40-150 |
+| Local meetups | 1-2 | 2-5 | 5-10 |
+| Offers x Languages x Onboardings (landings) tested | 50-100 | 80-200 | 100-300 |
+| Public use cases | 1-2 | 3-5 | 10-15 of various usage types |
+| Analytics | set with ready dashboards; 3-8 key Gonka services connected | 10-15 key Gonka services are connected | 10-30 key Gonka services are connected |
+| Reports and AMAs every 2 weeks | 2 | 4 | 6 + final |
+
 Our offer is a selection of the cheapest ways to broadly research potential Gonka target audiences — by testing various offer formats, calling to use Gonka's low-cost AI inference and join Gonka.
 
 We will not sell GNK by ourselves at least during the 6-month period and we will organize vesting-like payments for the other contributors.
