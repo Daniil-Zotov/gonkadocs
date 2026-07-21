@@ -57,7 +57,7 @@ def _build_report_block(report_num: str, date: str, content: str, rel_path: str)
         f"### Report #{report_num} — {date}\n\n"
         f"<details class=\"prop-contracts\" markdown=\"1\">\n"
         f"<summary markdown=\"1\">Gonka Labs — Monthly Report No.{report_num}</summary>\n\n"
-        f"[Открыть отдельной страницей]({rel_path}) · "
+        f"[Открыть отдельной страницей]({rel_path.replace('.md', '/')}) · "
         f"[Обсуждение на GitHub](https://github.com/gonka-ai/gonka/discussions/1477)\n\n"
         f"{safe_content}\n\n"
         f"</details>\n"
@@ -70,6 +70,10 @@ def on_page_markdown(markdown: str, page=None, config=None, **kwargs):
 
     src_path = page.file.src_path.replace("\\", "/")
     if not _is_detail_page(src_path):
+        return markdown
+
+    # Skip report pages themselves (standalone rendering)
+    if os.path.basename(page.file.abs_src_path).startswith("report"):
         return markdown
 
     if "<!-- reports-injected -->" in markdown:
