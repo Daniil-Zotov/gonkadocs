@@ -4,13 +4,13 @@ title: ":bulb: Proposals"
 
 # :bulb: Proposals
 
-Дискуссии в категории **:bulb: Proposals**. Всего: **46**. Обновлено: `2026-07-20 22:10 UTC`.
+Дискуссии в категории **:bulb: Proposals**. Всего: **46**. Обновлено: `2026-07-21 00:06 UTC`.
 
 [← ко всем категориям](../index.md)
 
 | # | Заголовок | Автор | Обновлено |
 |---:|---|---|---|
-| [1464](1464-dev-team-funding.md) | [Dev Team Funding](1464-dev-team-funding.md) | [@gmorgachev](https://github.com/gmorgachev) | 2026-07-17 |
+| [1464](1464-dev-team-funding.md) | [Dev Team Funding](1464-dev-team-funding.md) | [@gmorgachev](https://github.com/gmorgachev) | 2026-07-20 |
 | [1445](1445-the-missing-first-mile-onboarding-gonka-from-a-newcomers-per.md) | [The missing first mile: onboarding Gonka from a newcomer’s perspective](1445-the-missing-first-mile-onboarding-gonka-from-a-newcomers-per.md) | [@julb1992](https://github.com/julb1992) | 2026-07-13 |
 | [1404](1404-add-a-lower-barrier-glm-52-option-and-consider-deepseek-v4-f.md) | [Add a lower-barrier GLM-5.2 option and consider DeepSeek-V4-Flash as the default model](1404-add-a-lower-barrier-glm-52-option-and-consider-deepseek-v4-f.md) | [@enonog](https://github.com/enonog) | 2026-07-16 |
 | [1388](1388-external-test-lab-community-devnet.md) | [External Test Lab & Community DevNet](1388-external-test-lab-community-devnet.md) | [@paranjko](https://github.com/paranjko) | 2026-07-17 |

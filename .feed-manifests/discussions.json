@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-07-20T22:10:02.669388+00:00",
+  "snapshot_time": "2026-07-21T00:06:02.072229+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "Welcome to Gonka Discussions 👋",
@@ -312,7 +312,7 @@
       "title": "Dev Team Funding",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1464](https://github.com/gonka-ai/gonka/discussions/1464) every hour. \n\n# Dev Team Funding\n\n**Автор:** [@gmorgachev](https://github.com/gmorgachev) · **Категория:** :bulb: Proposals · **Создано:** 2026-07-17 01:38 UTC · \n\n---\n\n## 📝 Описание\n\nHello everyone! I am Gleb Morgachev, one of Gonka's co-creators.\n\nIn the next couple of weeks, I plan to submit a proposal requesting 1.5 million USDT from the community pool. The funding would support an independent engineering team working on core protocol development aligned with the community roadmap. It would cover the team and expenses directly related to its work, not servers or GPU infrastructure for mining.\n\n## Scope\n\nThis independent team would be a small group of top-tier engineers working on Gonka's core",
-      "checksum": "cf63555c9a0a013a82863b12121fffb3946a498d6413a62486cef88da2456439"
+      "checksum": "5903d4f8c552bc1770a4b5871b660a2de47ab99cc3179109c8f17f275e60b287"
     },
     "q-a/0796-are-there-plans-to-add-prompt-level-confidentiality-for-host.md": {
       "title": "Are there plans to add prompt-level confidentiality for hosts?",
