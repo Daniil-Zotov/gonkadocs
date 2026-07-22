@@ -7,7 +7,7 @@ template: issues-main.html
 
 All issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).
 Total: **315** (🟢 open: **68**, 🔴 closed: **247**).
-Updated: `2026-07-22 06:47 UTC`.
+Updated: `2026-07-22 09:46 UTC`.
 
 <ul class="issues-list">
 <li class="issues-list-item">
@@ -20,7 +20,7 @@ Updated: `2026-07-22 06:47 UTC`.
     <p class="issues-desc">The goal of this is to have in place after this a standard way of handling possible overflows, have it implemented consistently across the entire codebase and to have a check (preferably a static chec...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #12a6e8; color: #24292f; border-color: #12a6e8;">Priority: Medium</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">nice-to-have</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 1 hour ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 4 hours ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 6</span>
     </div>
   </div>
@@ -35,7 +35,7 @@ Updated: `2026-07-22 06:47 UTC`.
     <p class="issues-desc">**Operator**  Ancapex — mining platform for Gonka (https://ancapex.ai/) Contact: <GitHub @alancapex / al@ancapex.ai> About Ancapex  Ancapex is a platform for mining on the Gonka Network. Launched as a...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/alancapex">@alancapex</a> opened 6 hours ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/alancapex">@alancapex</a> opened 8 hours ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -50,7 +50,7 @@ Updated: `2026-07-22 06:47 UTC`.
     <p class="issues-desc">The framing is simple: you can prepare any container, it will run across different GPUs in the network, a protocol layer will coordinate interaction between nodes, they will perform training, and then...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 7 hours ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 10 hours ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 6</span>
     </div>
   </div>
@@ -65,7 +65,7 @@ Updated: `2026-07-22 06:47 UTC`.
     <p class="issues-desc">```markdown Hi Gonka core team & community,  Requesting inclusion of our escrow creator address in `devshard_escrow_params.allowed_creator_addresses` to operate a self-hosted devshard gateway.  ## Esc...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/nikshh">@nikshh</a> opened 17 hours ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/nikshh">@nikshh</a> opened 20 hours ago</span>
       
     </div>
   </div>
@@ -290,7 +290,7 @@ Updated: `2026-07-22 06:47 UTC`.
     <p class="issues-desc">Review the existing reproducible / deterministic sampling work for inference validation and prepare a careful path toward adding it to MLNode versions.  This task is related to the known inference val...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 6 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 7 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 5</span>
     </div>
   </div>
