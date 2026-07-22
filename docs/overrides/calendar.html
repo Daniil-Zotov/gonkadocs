@@ -118,6 +118,8 @@
   }
 
   function loadAllEvents() {
+    if (window._calLoading) return;
+    window._calLoading = true;
     LOADING.style.display = 'block';
     var xhr = new XMLHttpRequest();
     xhr.open('GET', CALENDAR_DIR + 'manifest.json?_t=' + Date.now(), true);
@@ -259,6 +261,7 @@
     });
 
     // Scroll to today
+    window._calLoading = false;
     var todayEl = TL.querySelector('.cal-today-label');
     if (todayEl) {
       setTimeout(function() { todayEl.scrollIntoView({ block: 'center', behavior: 'smooth' }); }, 500);
