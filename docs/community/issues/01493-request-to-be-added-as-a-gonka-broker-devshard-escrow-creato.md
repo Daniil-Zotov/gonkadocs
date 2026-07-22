@@ -2,7 +2,7 @@
 title: "#1493 — Request to be added as a Gonka broker (devshard escrow creator allowlist)"
 source: https://github.com/gonka-ai/gonka/issues/1493
 issue_number: 1493
-synced_at: 2026-07-22T12:08:17Z
+synced_at: 2026-07-22T14:29:02Z
 template: issues-main.html
 ---
 
@@ -16,7 +16,7 @@ template: issues-main.html
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/nikshh">@nikshh</a> opened 2026-07-21 13:07 UTC</span>
     <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-07-21 13:07 UTC</span>
+    <span class="issues-meta-item">Updated 2026-07-22 13:51 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -38,7 +38,7 @@ self-hosted devshard gateway.
 ## About us
 
 Operator: Nikita Shanin (sole proprietor; Chatbotiq — software development
-studio). Contact: dana.lang.project@gmail.com / GitHub: nikshh.
+studio). Contact: mr.shanin.nikitos@gmail.com / GitHub: nikshh.
 
 ## What we're building on Gonka
 
@@ -68,6 +68,7 @@ register intent per the process described in #1257/#1245.
 
 Thanks!
 ```
+
 </div>
 
 ---

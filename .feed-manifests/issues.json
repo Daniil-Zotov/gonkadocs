@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-07-22T12:11:50.031371+00:00",
+  "snapshot_time": "2026-07-22T14:31:08.227698+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "Description",
@@ -1890,7 +1890,7 @@
       "title": "#1493 — Request to be added as a Gonka broker (devshard escrow creator allowlist)",
       "status": null,
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Request to be added as a Gonka broker (devshard escrow creator allowlist)\n    <span class=\"issues-number\">#1493</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/nikshh\">@nikshh</a> opened 2026-07-21 13:07 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></di",
-      "checksum": "9f7e6eb1e4e3971de253b038f0c5d7c55d3b830dfc919b4e70d825ed36bea62f"
+      "checksum": "6d5c9af2af28afcf8e54c75f843c2443bfa0e7f2c0370595680211ec1673da21"
     }
   }
 }
