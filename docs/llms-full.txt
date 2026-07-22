@@ -17832,12 +17832,12 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 ## 🟢 Active Proposals
 
 4Active
-11Votes
+12Votes
 1.4M GNKTotal Bid
 
 | Status | Title | Author | Votes | Avg. Bid | Closes |
 | :----- | :----- | :----- | ----: | -------: | :----- |
-| 🟢 | [Should Gonka make fallbacks to other services like OpenRouter?](./f9a4302d-7823-4cd4-9987-b0758569db93/) | Viktor | 0 | 0.00 GNK | 2026-07-24 |
+| 🟢 | [Should Gonka make fallbacks to other services like OpenRouter?](./f9a4302d-7823-4cd4-9987-b0758569db93/) | Viktor | 1 | 0.00 GNK | 2026-07-24 |
 | 🟢 | [Вестинг: почему его стоит отменить сейчас](./d23b0edf-57fb-4522-bd79-04ffdcc9d7a5/) | Mitch | 3 | 0.00 GNK | 2026-08-01 |
 | 🟢 | [Привлечение $3M+ нового капитала на Uniswap](./e0cc7d32-5d1a-49e1-94e8-0ca3d9ccbf6b/) | Andrey Orlov | 4 | 172.1K GNK | 2026-08-02 |
 | 🟢 | [Привлечение $3M+ нового капитала на Uniswap v2.0](./f341b83c-78f0-4ab2-b8fd-ddc7ac5d9c37/) | Andrey Orlov | 4 | 172.1K GNK | 2026-08-08 |
@@ -17885,7 +17885,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-07-22 16:40 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-07-22 18:19 UTC*
 
 ---
 
@@ -21075,7 +21075,7 @@ https://youtu.be/hwX_4_v6xxI
 **Created:** 2026-07-17 08:36 UTC
 **Closes:** 2026-07-24 08:19 UTC
 **Language:** EN
-**Votes:** 0
+**Votes:** 1
 **Avg. Bid:** 0.00 GNK
 
 Нужно ли Gonka делать собственные fallbacks (на OpenRouter) на случай, когда сеть или отдельные брокеры отваливаются.
