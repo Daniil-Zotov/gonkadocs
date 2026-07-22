@@ -2,7 +2,7 @@
 title: "#891 — [P0] Proxy server for `devshards`: timeout handling"
 source: https://github.com/gonka-ai/gonka/issues/891
 issue_number: 891
-synced_at: 2026-07-21T23:17:04Z
+synced_at: 2026-07-22T00:13:07Z
 template: issues-main.html
 ---
 
