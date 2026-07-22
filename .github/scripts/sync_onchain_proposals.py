@@ -978,6 +978,75 @@ template: proposals-oview.html
     return md
 
 
+# ── calendar events ────────────────────────────────────────────
+
+CALENDAR_FILE = Path("docs/community/calendar/proposals.json")
+
+
+def generate_proposal_calendar(proposals_by_quarter):
+    """Generate calendar events for proposals in docs/community/calendar/proposals.json.
+
+    Active voting proposals → type: proposal_vote_end on voting_end_time.
+    Passed/rejected/failed proposals → type: proposal_report with outcome tag.
+    """
+    events = []
+    for q, props in proposals_by_quarter.items():
+        for p in props:
+            pid = p["id"]
+            title = p.get("title", f"Proposal #{pid}").strip()
+            status = p.get("status", "")
+            voting_end = p.get("voting_end_time", "")
+            summary = p.get("summary", "")
+
+            if not voting_end or status in (
+                "PROPOSAL_STATUS_UNSPECIFIED",
+                "PROPOSAL_STATUS_DEPOSIT_PERIOD",
+            ):
+                continue
+
+            try:
+                dt = datetime.fromisoformat(voting_end.replace("Z", "+00:00"))
+                date_str = dt.strftime("%Y-%m-%d")
+                time_str = dt.strftime("%H:%M UTC")
+            except (ValueError, TypeError):
+                continue
+
+            q_lower = q.lower()
+            url = f"/proposals/proposals/{q_lower}/{pid}/"
+            status_label = format_status_label(status)
+            desc = (summary[:200] + "…") if summary and len(summary) > 200 else (summary or "")
+
+            if status == "PROPOSAL_STATUS_VOTING_PERIOD":
+                events.append({
+                    "date": date_str,
+                    "category": "governance",
+                    "type": "proposal_vote_end",
+                    "title": f"Voting ends: #{pid} – {title}",
+                    "url": url,
+                    "time": time_str,
+                    "description": desc,
+                    "tags": ["voting"],
+                })
+            else:
+                # Passed / Rejected / Failed
+                events.append({
+                    "date": date_str,
+                    "category": "governance",
+                    "type": "proposal_report",
+                    "title": f"{status_label}: #{pid} – {title}",
+                    "url": url,
+                    "time": time_str,
+                    "description": desc,
+                    "tags": [status_label.lower()],
+                })
+
+    events.sort(key=lambda e: e["date"])
+
+    CALENDAR_FILE.parent.mkdir(parents=True, exist_ok=True)
+    CALENDAR_FILE.write_text(json.dumps(events, indent=2, ensure_ascii=False), encoding="utf-8")
+    print(f"Generated {len(events)} proposal calendar events → {CALENDAR_FILE}")
+
+
 # ── update mkdocs.yml nav ──────────────────────────────────────
 
 def update_mkdocs_nav(sorted_quarters, proposals_by_quarter):
@@ -1311,6 +1380,10 @@ def main():
     # Generate proposals sitemap.xml (browsers/crawlers check this path)
     print("Generating proposals sitemap...")
     generate_proposals_sitemap(sorted_quarters, proposals_by_quarter)
+
+    # Generate calendar events for proposals
+    print("Generating proposal calendar events...")
+    generate_proposal_calendar(proposals_by_quarter)
 
     # Update nav
     update_mkdocs_nav(sorted_quarters, proposals_by_quarter)

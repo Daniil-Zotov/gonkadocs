@@ -10,6 +10,43 @@
   .md-content {
     max-width: none !important;
   }
+
+  .prop-quarter h2 {
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .prop-quarter h2:hover {
+    opacity: 0.7;
+  }
+
+  .prop-quarter h2::after {
+    content: " \25BC";
+    font-size: 0.75em;
+    opacity: 0.5;
+    margin-left: 6px;
+    transition: transform 0.2s;
+    display: inline-block;
+  }
+
+  .prop-quarter.prop-quarter-collapsed h2::after {
+    transform: rotate(-90deg);
+  }
+
+  .prop-quarter.prop-quarter-collapsed > *:not(h2):not(.prop-quarter-summary) {
+    display: none;
+  }
+
+  .prop-quarter-summary {
+    display: none;
+    font-size: 13px;
+    color: var(--md-default-fg-color--light);
+    margin: 0 0 8px;
+  }
+
+  .prop-quarter.prop-quarter-collapsed .prop-quarter-summary {
+    display: block;
+  }
 </style>
 {% endblock %}
 
@@ -20,7 +57,31 @@
 {% block scripts %}
 {{ super() }}
 <script>
+function quarterCount(quarter) {
+  return quarter.querySelectorAll('.prop-card').length;
+}
+
+function initQuarterCollapse() {
+  var quarters = document.querySelectorAll('.prop-quarter');
+  quarters.forEach(function(q) {
+    var h2 = q.querySelector('h2');
+    if (!h2) return;
+    var summary = document.createElement('div');
+    summary.className = 'prop-quarter-summary';
+    summary.textContent = quarterCount(q) + ' proposals';
+    h2.after(summary);
+    h2.addEventListener('click', function() {
+      q.classList.toggle('prop-quarter-collapsed');
+      var collapsed = q.classList.contains('prop-quarter-collapsed');
+      summary.textContent = collapsed
+        ? quarterCount(q) + ' proposals \u2014 click to expand'
+        : quarterCount(q) + ' proposals';
+    });
+  });
+}
+
 function initProposalsPage() {
+  initQuarterCollapse();
   var checkboxes = document.querySelectorAll('.prop-oview-filter input[type=checkbox]');
   var cards = document.querySelectorAll('.prop-card');
   var countEl = document.querySelector('.prop-filter-count');
