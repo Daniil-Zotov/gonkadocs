@@ -257,6 +257,12 @@
         if (q) q.classList.toggle('cal-quarter--collapsed');
       });
     });
+
+    // Scroll to today
+    var todayEl = TL.querySelector('.cal-today-label');
+    if (todayEl) {
+      setTimeout(function() { todayEl.scrollIntoView({ block: 'center', behavior: 'auto' }); }, 50);
+    }
   }
 
   function eventHTML(e) {

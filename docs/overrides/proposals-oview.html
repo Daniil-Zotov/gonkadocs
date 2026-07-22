@@ -62,8 +62,9 @@ function quarterCount(quarter) {
 }
 
 function initQuarterCollapse() {
-  var quarters = document.querySelectorAll('.prop-quarter');
+  var quarters = document.querySelectorAll('.prop-quarter:not([data-qinit])');
   quarters.forEach(function(q) {
+    q.setAttribute('data-qinit', '1');
     var h2 = q.querySelector('h2');
     if (!h2) return;
     var summary = document.createElement('div');
