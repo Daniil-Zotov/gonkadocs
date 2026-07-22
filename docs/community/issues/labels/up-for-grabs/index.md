@@ -6,7 +6,7 @@ template: issues-main.html
 # Issues: up-for-grabs
 
 Issues with label **up-for-grabs**. Total: **15**.
-Updated: `2026-07-22 09:46 UTC`.
+Updated: `2026-07-22 12:11 UTC`.
 
 [← All Issues](../../index.md)
 

@@ -2,7 +2,7 @@
 title: "#340 — [P0] Security: Training"
 source: https://github.com/gonka-ai/gonka/issues/340
 issue_number: 340
-synced_at: 2026-07-22T09:46:05Z
+synced_at: 2026-07-22T12:11:45Z
 template: issues-main.html
 ---
 
