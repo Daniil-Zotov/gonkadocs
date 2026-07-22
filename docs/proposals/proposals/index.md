@@ -68,8 +68,8 @@ template: proposals-oview.html
     <span>Voting ends 2026-07-23</span>
   </div>
   <div class="prop-card-desc">Currently Gonka has a lot of marketing activities, but doesn't have analytics to measure the results of their work and doesn't have a vision which target audiences and how we need to attract and onboa…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 132,587 (92.1%)</span> · <span class="prop-tally-no-text">No 625 (0.4%)</span> · <span class="prop-tally-veto-text">Veto 10,823 (7.5%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-funding prop-card-funding-voting">240,000 GNK · $57,000 · Community Pool</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout 144,035 / 545,858 (26.4%) · Quorum 25% (136,464)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 132,587 (90.9%)</span> · <span class="prop-tally-no-text">No 625 (0.4%)</span> · <span class="prop-tally-veto-text">Veto 10,823 (7.4%)</span> · <span class="prop-tally-abstain-text">Abstain 1,789 (1.2%)</span><span class="prop-card-funding prop-card-funding-voting">240,000 GNK · $57,000 · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout 145,824 / 545,858 (26.7%) · Quorum 25% (136,464)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-voting" data-voting-end="2026-07-23T00:02:04.535338507Z">
@@ -83,8 +83,8 @@ template: proposals-oview.html
     <span>Voting ends 2026-07-23</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.14</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 294,451 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 115 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout 294,566 / 545,858 (54.0%) · Quorum 25% (136,464)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 296,240 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 115 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout 296,355 / 545,858 (54.3%) · Quorum 25% (136,464)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -1249,7 +1249,7 @@ template: proposals-oview.html
 
 </div>
 <div class="prop-oview-stats">
-<em>89 proposals across 5 quarters. Last updated: 2026-07-22 18:19 UTC</em>
+<em>89 proposals across 5 quarters. Last updated: 2026-07-22 19:21 UTC</em>
 </div>
 
 <script>
