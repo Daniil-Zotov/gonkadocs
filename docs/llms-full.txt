@@ -24526,7 +24526,8 @@ Models / IBC2
     Voting ends 2026-07-23
   
   Currently Gonka has a lot of marketing activities, but doesn't have analytics to measure the results of their work and doesn't have a vision which target audiences and how we need to attract and onboa…
-  Yes 0 (0.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)240,000 GNK · $57,000 · Community Pool
+  Yes 0 (0.0%) · No 625 (100.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)240,000 GNK · $57,000 · Community Pool
+  ✗ Turnout 625 / 522,598 (0.1%) · Quorum 25% (130,649)
 
   
     #89 – Upgrade Proposal: v0.2.14
@@ -24538,8 +24539,8 @@ Models / IBC2
     Voting ends 2026-07-23
   
   Upgrade Proposal: v0.2.14
-  Yes 99,167 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  ✗ Turnout 99,167 / 522,598 (19.0%) · Quorum 25% (130,649)
+  Yes 157,323 (99.9%) · No 0 (0.0%) · Veto 115 (0.1%) · Abstain 0 (0.0%)
+  ✓ Turnout 157,438 / 522,598 (30.1%) · Quorum 25% (130,649)
 
   
     #88 – Restore Kimi K2.6 and remove v1, v2
@@ -25519,7 +25520,7 @@ Models / IBC2
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-89 proposals across 5 quarters. Last updated: 2026-07-22 04:29 UTC
+89 proposals across 5 quarters. Last updated: 2026-07-22 07:14 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -62455,7 +62456,8 @@ GRC / Restitution1
     Voting ends 2026-07-23
   
   Currently Gonka has a lot of marketing activities, but doesn't have analytics to measure the results of their work and doesn't have a vision which target audiences and how we need to attract and onboa…
-  Yes 0 (0.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)240,000 GNK · $57,000 · Community Pool
+  Yes 0 (0.0%) · No 625 (100.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)240,000 GNK · $57,000 · Community Pool
+  ✗ Turnout 625 / 522,598 (0.1%) · Quorum 25% (130,649)
 
   
     #89 – Upgrade Proposal: v0.2.14
@@ -62467,8 +62469,8 @@ GRC / Restitution1
     Voting ends 2026-07-23
   
   Upgrade Proposal: v0.2.14
-  Yes 99,167 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  ✗ Turnout 99,167 / 522,598 (19.0%) · Quorum 25% (130,649)
+  Yes 157,323 (99.9%) · No 0 (0.0%) · Veto 115 (0.1%) · Abstain 0 (0.0%)
+  ✓ Turnout 157,438 / 522,598 (30.1%) · Quorum 25% (130,649)
 
   
     #88 – Restore Kimi K2.6 and remove v1, v2
@@ -63170,6 +63172,25 @@ Governance may cancel the initiative at any time, in which case all remaining pa
 | Reports and AMAs every 2      | 2                 | 4                 | 6 + final         |
 | weeks                         |                   |                   |                   |
 +-------------------------------+-------------------+-------------------+-------------------+
+
+---
+
+## Final Tally
+
+  
+    
+    
+    
+    
+  
+  
+    Yes 0 (0.0%)
+    No 625 (100.0%)
+    Veto 0 (0.0%)
+    Abstain 0 (0.0%)
+    Total 625 votes
+    ✗ Turnout 625 / 522,598 (0.1%) · Quorum 25% (130,649)
+  
 
 ---
 
@@ -66059,12 +66080,12 @@ Upgrade Proposal: v0.2.14
     
   
   
-    Yes 99,167 (100.0%)
+    Yes 157,323 (99.9%)
     No 0 (0.0%)
-    Veto 0 (0.0%)
+    Veto 115 (0.1%)
     Abstain 0 (0.0%)
-    Total 99,167 votes
-    ✗ Turnout 99,167 / 522,598 (19.0%) · Quorum 25% (130,649)
+    Total 157,438 votes
+    ✓ Turnout 157,438 / 522,598 (30.1%) · Quorum 25% (130,649)
   
 
 ---
