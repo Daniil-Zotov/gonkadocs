@@ -1,5 +1,13 @@
 {% extends "base.html" %}
 
+{% block htmltitle %}
+{% set title = config.site_name %}
+{% if page and page.title and not page.is_homepage and page.title != config.site_name %}
+  {% set title = page.title | striptags ~ " — " ~ config.site_name %}
+{% endif %}
+<title>{{ title }}</title>
+{% endblock %}
+
 {% block extrahead %}
   {{ super() }}
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
