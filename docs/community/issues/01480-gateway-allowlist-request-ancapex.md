@@ -2,7 +2,7 @@
 title: "#1480 — Gateway allowlist request: Ancapex"
 source: https://github.com/gonka-ai/gonka/issues/1480
 issue_number: 1480
-synced_at: 2026-07-22T00:11:38Z
+synced_at: 2026-07-22T03:51:46Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/alancapex">@alancapex</a> opened 2026-07-19 21:31 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-07-19 21:31 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-07-22 00:46 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -52,6 +52,22 @@ Operator-side protocol work — we'll run our own devshardd v1/v2 integration an
 
 
 Once our development stabilizes, we'll contribute the generalized schemes back to open source, as we've done with our previous work. 
+</div>
+
+---
+
+## 💬 Comments (1)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span class="issues-meta-item">commented 2026-07-22 00:46 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Hi @alancapex! Probably you already know, there's a GNK-native community broker (OpenBroker https://github.com/gonka-ai/gonka/discussions/1363) with no markup and tested throughput, but it's a shared gateway with a custodial ledger, which is not exactly what you need I believe. So the creator/allowlist path is the correct one for you. That said, @gonkalabs, could you please take a look at whether the needs described in this issue could be maybe partially solved in some new way? Would be great to hear your take.</p>
+<p>@alancapex, the strongest thing you can do while you wait is to continue building visibility in the community. These decisions are made with community input, and proposals/candidate addresses get discussed in the community channels, not only in an issue thread. Given your existing footprint and the commitment to contribute back to open source plus the operator-side protocol work you intend to feed back, is the right direction.</p>
+<p>Keep this issue updated with anything new that comes up.  </p>
+  </div>
 </div>
 
 ---
