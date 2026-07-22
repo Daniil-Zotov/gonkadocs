@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-07-22T03:36:40.081064+00:00",
+  "snapshot_time": "2026-07-22T06:39:55.770728+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "Welcome to Gonka Discussions 👋",
@@ -276,7 +276,7 @@
       "title": "High-Availability Architecture",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1367](https://github.com/gonka-ai/gonka/discussions/1367) every hour. \n\n# High-Availability Architecture\n\n**Автор:** [@a-kuprin](https://github.com/a-kuprin) · **Категория:** :bulb: Proposals · **Создано:** 2026-06-25 08:16 UTC · \n\n---\n\n## 📝 Описание\n\n Make every node-side service horizontally scalable and rolling-update safe, with no single point of failure, and deliver a **Kubernetes-ready** deployment packaged as a **Helm chart**.\n\nThis proposal builds on the current architecture\n([../high-availability-architecture.md](https://github.com/gonka-ai/gonka/blob/ak/pixelplex-refactoring-into-r2/devshard/docs/high-availability-architecture.md)) and the binary-rollout design\n([../rolling-update.md](https://github.com/gonka-ai/gonka/blob/ak/pixelplex-refacto",
-      "checksum": "f7b77cf497c27889540303480b091d0342520f819e62fee721b70869ae403481"
+      "checksum": "9e9d6371af441aea1d87ff62d9ee5d62ee8638617184c2d4a5fccd0f8dc46167"
     },
     "proposals/1369-finalization-protocol-proposal-host-initiated-collectors-com.md": {
       "title": "Finalization protocol proposal (host-initiated, collectors, commit certificate)",

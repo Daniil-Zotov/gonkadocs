@@ -4,7 +4,7 @@ title: ":bulb: Proposals"
 
 # :bulb: Proposals
 
-Дискуссии в категории **:bulb: Proposals**. Всего: **46**. Обновлено: `2026-07-22 03:36 UTC`.
+Дискуссии в категории **:bulb: Proposals**. Всего: **46**. Обновлено: `2026-07-22 06:39 UTC`.
 
 [← ко всем категориям](../index.md)
 
@@ -16,7 +16,7 @@ title: ":bulb: Proposals"
 | [1388](1388-external-test-lab-community-devnet.md) | [External Test Lab & Community DevNet](1388-external-test-lab-community-devnet.md) | [@paranjko](https://github.com/paranjko) | 2026-07-17 |
 | [1384](1384-devshard-cpoc-skip-protocol.md) | [`devshard` cPoC skip protocol](1384-devshard-cpoc-skip-protocol.md) | [@akup](https://github.com/akup) | 2026-07-01 |
 | [1369](1369-finalization-protocol-proposal-host-initiated-collectors-com.md) | [Finalization protocol proposal (host-initiated, collectors, commit certificate)](1369-finalization-protocol-proposal-host-initiated-collectors-com.md) | [@akup](https://github.com/akup) | 2026-07-01 |
-| [1367](1367-high-availability-architecture.md) | [High-Availability Architecture](1367-high-availability-architecture.md) | [@a-kuprin](https://github.com/a-kuprin) | 2026-07-10 |
+| [1367](1367-high-availability-architecture.md) | [High-Availability Architecture](1367-high-availability-architecture.md) | [@a-kuprin](https://github.com/a-kuprin) | 2026-07-22 |
 | [1345](1345-network-documentation.md) | [Network Documentation](1345-network-documentation.md) | [@heitor-lassarote](https://github.com/heitor-lassarote) | 2026-06-16 |
 | [1340](1340-devshard-height-sync-protocol.md) | [`devshard` Height-sync protocol](1340-devshard-height-sync-protocol.md) | [@alexanderkuprin](https://github.com/alexanderkuprin) | 2026-07-02 |
 | [1335](1335-add-support-for-speech-to-text-asr-models.md) | [Add support for speech-to-text (ASR) models](1335-add-support-for-speech-to-text-asr-models.md) | [@ivan-smetannikov-serokell](https://github.com/ivan-smetannikov-serokell) | 2026-06-22 |

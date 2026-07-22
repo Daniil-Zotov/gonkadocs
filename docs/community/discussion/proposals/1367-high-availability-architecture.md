@@ -3,14 +3,14 @@ title: "#1367 — High-Availability Architecture"
 source: https://github.com/gonka-ai/gonka/discussions/1367
 discussion_number: 1367
 category: proposals
-synced_at: 2026-07-22T03:36:17Z
+synced_at: 2026-07-22T06:39:26Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1367](https://github.com/gonka-ai/gonka/discussions/1367) every hour. 
 
 # High-Availability Architecture
 
-**Автор:** [@a-kuprin](https://github.com/a-kuprin) · **Категория:** :bulb: Proposals · **Создано:** 2026-06-25 08:16 UTC · **Обновлено:** 2026-07-10 07:13 UTC
+**Автор:** [@a-kuprin](https://github.com/a-kuprin) · **Категория:** :bulb: Proposals · **Создано:** 2026-06-25 08:16 UTC · **Обновлено:** 2026-07-22 05:54 UTC
 
 ---
 
@@ -436,3 +436,18 @@ Overall, that's a solid long term goal. I'd try to split it in smaller steps for
 > Covered by tests: unit tests, a docker e2e test, and a new testermint test where a long request survives the binary update.
 >
 > Let me know if you have any questions.
+
+**↳ Ответ от [@a-kuprin](https://github.com/a-kuprin)** · *2026-07-22 05:54 UTC*
+
+> > 2\. How do you think to scale service which handles PoC callback? It uses high performant local storage for PoC artifacts. This storage is merkle-tree like and requires high performance for r/w
+>
+> I think it's enough to use NATS in Raft replication mode, and in-memory store.
+>
+> The flow would be:
+> Thin (dapi: edge-srv) proxy getting PoC callbacks and sending them to NATS
+> NATS replicating them for fault-tolerance but doesn't persist to keep it fast
+> And then we have single-consumer for signing and send artifact to chain **(Active Worker)**, and multiple read-only consumers **(Passive Workers)** (also dapi component)
+>
+> Passive workers just pull all new messages, and message has TTL for example 24h, Active worker is managed by queue so each message has exactly one consumer, and message is acknowledged when it is signed and sent to chain.
+>
+> Active and passive workers build the smst-tree and persist artifacts to own volumes
