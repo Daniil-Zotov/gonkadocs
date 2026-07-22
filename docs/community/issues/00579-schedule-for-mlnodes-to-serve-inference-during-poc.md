@@ -2,7 +2,7 @@
 title: "#579 — Schedule for MLNodes to serve inference during PoC"
 source: https://github.com/gonka-ai/gonka/issues/579
 issue_number: 579
-synced_at: 2026-07-22T03:53:29Z
+synced_at: 2026-07-22T06:47:21Z
 template: issues-main.html
 ---
 

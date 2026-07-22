@@ -2,7 +2,7 @@
 title: "#1222 — [P1] Int overflow"
 source: https://github.com/gonka-ai/gonka/issues/1222
 issue_number: 1222
-synced_at: 2026-07-22T03:51:47Z
+synced_at: 2026-07-22T06:45:11Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-05-21 22:30 UTC</span>
-    <span class="issues-meta-item">5 comments</span>
-    <span class="issues-meta-item">Updated 2026-07-20 22:20 UTC</span>
+    <span class="issues-meta-item">6 comments</span>
+    <span class="issues-meta-item">Updated 2026-07-22 05:01 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #12a6e8; color: #24292f; border-color: #12a6e8;">Priority: Medium</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">nice-to-have</span></div>
 </div>
@@ -27,7 +27,7 @@ The goal of this is to have in place after this a standard way of handling possi
 
 ---
 
-## 💬 Comments (5)
+## 💬 Comments (6)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -98,6 +98,18 @@ The goal of this is to have in place after this a standard way of handling possi
   <div class="issues-comment-body issues-content">
     <p>First, prepare a detailed proposal outlining what is planned, why it should be done, the expected outcomes, and the rationale behind the proposed approach. Share the proposal with the community and obtain validation before proceeding with implementation.</p>
 <p>@everyone @Mayveskii @olegsuhoparov </p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/Mayveskii">@Mayveskii</a></span>
+    <span class="issues-meta-item">commented 2026-07-22 05:01 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <blockquote>
+<p>re</p>
+</blockquote>
+<p>Got it. </p>
   </div>
 </div>
 
