@@ -3,7 +3,7 @@ title: "#873 — !OUTDATED! Optional Centralized Monitoring for Gonka Validators
 source: https://github.com/gonka-ai/gonka/discussions/873
 discussion_number: 873
 category: proposals
-synced_at: 2026-07-22T11:59:00Z
+synced_at: 2026-07-22T14:18:49Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #873](https://github.com/gonka-ai/gonka/discussions/873) every hour. 
