@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260722210225_72b031b0",
+    "timestamp": "2026-07-22T21:02:25.013805+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "Announcements",
+      "url": "/gonka/docs/network-updates/",
+      "file": "network-updates.md"
+    },
+    "details": {
+      "content_before": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## July 20, 2026\n\n**v0.2.14 Upgrade Proposal Enters Governance**\n\n[The v0.2.14 proposal](https://github.com/gonka-ai/gonka/pull/1267) is now on-chain and open for voting.\n\nThe mainnet chain/API work focuses on PoC duplicate-artifact protection, early share ",
+      "content_after": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## July 22, 2026\n\n**Upgrade v0.2.14: Pre-download binaries**\n\nThe on-chain governance process for the v0.2.14 upgrade proposal is nearing its conclusion.\n\n- Voting ends: July 23rd, 2026, at 00:02 UTC\n- Upgrade height: 5195700\n- Estimated upgrade time: July "
+    },
+    "ai_description": "В документации обновлен раздел объявлений: голосование по апгрейду сети до версии 0.2.14 подходит к концу. Сообществу доступны ключевые детали — высота обновления 5195700 и примерное время активации, а ноды уже могут подготовиться, заранее скачав бинарники."
+  },
+  {
     "id": "evt_20260722064733_1eae3788",
     "timestamp": "2026-07-22T06:47:33.717234+00:00",
     "section": "issues",
