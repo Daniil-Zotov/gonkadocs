@@ -17458,7 +17458,7 @@ If you have the opportunity and desire to be part of the committee — please co
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-07-23 00:00 UTC
+2026-07-23 04:11 UTC
 
 ---
 
@@ -17488,7 +17488,7 @@ curl -s https://node3.gonka.ai/chain-api/cosmos/distribution/v1beta1/community_p
 
 **Address:** [`gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2`](https://gonka.gg/address/gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2)
 
-Current balance: 17,500,000 GNK (~$10,500,000 USDT) · $814,325 USDT
+Current balance: 17,500,000 GNK (~$10,500,000 USDT) · $764,075 USDT
 
 This address was created by **[proposal #14](/proposals/proposals/2025-q4/14/)** (passed 2025-11-27), which transferred **20,000,000 GNK** from the Community Pool to seed a community sale programme at a fixed price of **$0.60 per GNK**.
 
@@ -17512,7 +17512,7 @@ curl -s https://node3.gonka.ai/chain-api/cosmos/bank/v1beta1/balances/gonka18pkq
 
 **Address:** [`gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33`](https://gonka.gg/address/gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33)
 
-Current balance: 2,443,695 GNK
+Current balance: 2,443,195 GNK
 
 The Gov Module authority is the only address permitted to execute `MsgCommunityPoolSpend` transfers from the Community Pool. When a governance proposal passes, this address signs and sends the requested funds to the specified recipient.
 
