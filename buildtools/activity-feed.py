@@ -153,6 +153,26 @@ def _extract_title(content: str, fallback: str) -> str:
     return fallback
 
 
+def _extract_comment_bodies(content: str) -> list[str]:
+    """Extract all comment body texts from an issue page."""
+    bodies = []
+    for m in re.finditer(
+        r'<div class="issues-comment-body[^"]* issues-content">(.*?)</div>\s*</div>',
+        content, re.DOTALL
+    ):
+        text = re.sub(r'<[^>]+>', '', m.group(1)).strip()
+        if text:
+            lines = [l.strip() for l in text.split('\n') if l.strip()]
+            bodies.append(' '.join(lines)[:400])
+    return bodies
+
+
+def _comment_checksum(content: str) -> str:
+    """Hash of all comment texts for change detection."""
+    bodies = _extract_comment_bodies(content)
+    return sha256_str('|'.join(bodies))
+
+
 def _extract_proposal_status(content: str):
     m = re.search(r'prop-badge\s+prop-(\w+)', content)
     if m:
@@ -188,6 +208,8 @@ def extract_metadata(section: str, rel_path: Path, content: str) -> dict:
             meta['status'] = 'open'
         elif re.search(r'\bstate:\s*closed\b', content, re.IGNORECASE):
             meta['status'] = 'closed'
+        meta['comment_checksum'] = _comment_checksum(content)
+        meta['comment_bodies'] = _extract_comment_bodies(content)
 
     return meta
 
@@ -255,6 +277,7 @@ AI_SYSTEM_PROMPT = """Ты — редактор ленты событий соо
 - Расскажи, что именно изменилось и почему это важно для сообщества
 - Если указаны статусы до/после (например, голосование → принят), объясни значение
 - Если указаны суммы финансирования, обязательно упомяни их
+- Если указан новый комментарий к ишью — кратко перескажи суть комментария (кто написал, о чём)
 - Не пересказывай содержимое дословно — объясни смысл изменений
 - Отвечай только готовым постом, без рассуждений, анализа или пояснений"""
 
@@ -308,6 +331,15 @@ def enrich_with_ai(events: list, section: str):
 
         if details.get('funding'):
             user_prompt += f'Суммы финансирования: {details["funding"]}\n'
+
+        new_comments = details.get('new_comments', [])
+        if new_comments:
+            user_prompt += 'Новые комментарии:\n'
+            for i, c in enumerate(new_comments, 1):
+                user_prompt += f'  {i}. {c}\n'
+
+        if details.get('comment_count'):
+            user_prompt += f'Всего комментариев: {details["comment_count"]}\n'
 
         try:
             resp = requests.post(
@@ -451,7 +483,24 @@ def cmd_detect(args):
 
         # skip if the visible content didn't actually change
         if action == 'updated' and _cp(old) == _cp(new):
-            continue
+            # For issues: check if new comments appeared
+            if args.section == 'issues':
+                old_cc = old.get('comment_checksum', '')
+                new_cc = new.get('comment_checksum', '')
+                if old_cc and new_cc and old_cc != new_cc:
+                    old_bodies = old.get('comment_bodies', [])
+                    new_bodies = new.get('comment_bodies', [])
+                    added = [c for c in new_bodies if c not in old_bodies]
+                    if added:
+                        details['new_comments'] = added
+                        details['comment_count'] = len(new_bodies)
+                        print(f"  New comment(s) on {key}: {added[0][:80]}...")
+                    else:
+                        continue
+                else:
+                    continue
+            else:
+                continue
 
         # proposals: skip plain updated, check quorum
         if args.section == 'proposals':
