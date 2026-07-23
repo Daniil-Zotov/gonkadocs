@@ -2,7 +2,7 @@
 title: "#319 — [P0] Merge enforced_tokens"
 source: https://github.com/gonka-ai/gonka/issues/319
 issue_number: 319
-synced_at: 2026-07-23T00:17:49Z
+synced_at: 2026-07-23T03:51:03Z
 template: issues-main.html
 ---
 
