@@ -222,6 +222,34 @@ def parse_amounts(text):
     return (gnk_total, usdt_total)
 
 
+def _vote_option_display(opts):
+    """Convert vote options to display HTML."""
+    parts = []
+    for o in opts:
+        opt = o.get("option", "")
+        w = float(o.get("weight", "0"))
+        label = opt.replace("VOTE_OPTION_", "").title()
+        cls = opt.lower().replace("vote_option_", "")
+        if cls == "yes":
+            cls = "prop-vote-yes"
+        elif cls == "no":
+            cls = "prop-vote-no"
+        elif cls == "no_with_veto":
+            cls = "prop-vote-veto"
+        elif cls == "abstain":
+            cls = "prop-vote-abstain"
+        pct = f"{w * 100:.1f}%" if w else ""
+        parts.append(f'<span class="prop-voter-option {cls}">{label} {pct}</span>')
+    return " ".join(parts)
+
+
+def _format_voter_row(v):
+    voter = v.get("voter", "")
+    opts = v.get("options", [])
+    addr_link = f'<a href="https://gonka.gg/address/{voter}" target="_blank" class="prop-voter-addr">{voter[:12]}…{voter[-6:]}</a>'
+    return f"<tr><td>{addr_link}</td><td>{_vote_option_display(opts)}</td></tr>"
+
+
 def categorize_type(msg_type):
     """Categorize proposal types into high-level buckets."""
     s = (msg_type or "").lower()
@@ -586,9 +614,46 @@ template: proposals-proposals-main.html
 
 {tally_html}
 
----
-
 """
+
+    # Voter table (only for active proposals with individual votes available)
+    voters_html = ""
+    votes_data = None
+    if status == "PROPOSAL_STATUS_VOTING_PERIOD":
+        votes_data = fetch_votes(pid)
+        if votes_data:
+            (prop_dir / "votes.json").write_text(json.dumps(votes_data, indent=2, ensure_ascii=False), encoding="utf-8")
+            print(f"  #{pid}: fetched {len(votes_data)} votes")
+
+    if not votes_data and (prop_dir / "votes.json").exists():
+        try:
+            votes_data = json.loads((prop_dir / "votes.json").read_text(encoding="utf-8"))
+            if votes_data:
+                print(f"  #{pid}: loaded {len(votes_data)} saved votes")
+        except (json.JSONDecodeError, OSError):
+            votes_data = None
+
+    if votes_data:
+        rows = "\n".join(
+            _format_voter_row(v) for v in votes_data
+        )
+        voters_html = f"""
+<h2 id="voters">Voters</h2>
+
+<div class="prop-voters-wrap">
+<table class="prop-voters">
+<thead><tr><th>Voter</th><th>Vote</th></tr></thead>
+<tbody>
+{rows}
+</tbody>
+</table>
+</div>
+
+---
+"""
+
+    if voters_html:
+        md += voters_html
 
     md += f"""## Messages
 
@@ -1214,6 +1279,31 @@ def fetch_live_tally(proposal_id):
     except Exception as e:
         print(f"  Warning: could not fetch tally for #{proposal_id}: {e}")
         return {}
+
+
+def fetch_votes(proposal_id):
+    """Fetch individual votes for a proposal (only available for active voting proposals)."""
+    votes = []
+    key = ""
+    page = 0
+    while True:
+        page += 1
+        url = f"{{BASE}}/cosmos/gov/v1/proposals/{proposal_id}/votes?pagination.limit=500"
+        if key:
+            url += f"&pagination.key={urllib.parse.quote(key, safe='')}"
+        try:
+            data = fetch_with_retry(url, timeout=15)
+        except Exception as e:
+            print(f"  Warning: could not fetch votes for #{proposal_id} page {page}: {e}")
+            break
+        page_votes = data.get("votes", [])
+        if not page_votes:
+            break
+        votes.extend(page_votes)
+        key = data.get("pagination", {}).get("next_key", "") or ""
+        if not key:
+            break
+    return votes
 
 
 QUORUM = 0.25  # 25% from chain params

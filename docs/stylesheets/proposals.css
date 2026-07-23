@@ -562,5 +562,102 @@ h2#full-proposal {
   font-size: 13px;
 }
 
+/* ── Voters table ───────────────────────────────────────────── */
+.prop-voters-wrap {
+  overflow-x: auto;
+  margin: 12px 0;
+}
+
+.prop-voters {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.prop-voters th {
+  text-align: left;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-bottom: 2px solid var(--md-default-fg-color--lightest);
+  color: var(--md-default-fg-color--light);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.prop-voters td {
+  padding: 6px 12px;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  vertical-align: middle;
+}
+
+.prop-voters tbody tr:hover {
+  background: var(--md-code-bg-color);
+}
+
+.prop-voter-addr {
+  font-family: var(--md-code-font-family);
+  font-size: 12px;
+  color: var(--md-accent-fg-color);
+  text-decoration: none;
+}
+
+.prop-voter-addr:hover {
+  text-decoration: underline;
+}
+
+.prop-voter-option {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.4;
+  white-space: nowrap;
+  margin-right: 4px;
+}
+
+.prop-voter-option.prop-vote-yes {
+  background: #dafbe1;
+  color: #1a7f37;
+}
+
+.prop-voter-option.prop-vote-no {
+  background: #ffebe9;
+  color: #cf222e;
+}
+
+.prop-voter-option.prop-vote-veto {
+  background: #fff8c5;
+  color: #7a4b00;
+}
+
+.prop-voter-option.prop-vote-abstain {
+  background: #f0f0f0;
+  color: #656d76;
+}
+
+[data-md-color-scheme="slate"] .prop-voter-option.prop-vote-yes {
+  background: #1a3a2a;
+  color: #3fb950;
+}
+
+[data-md-color-scheme="slate"] .prop-voter-option.prop-vote-no {
+  background: #3a1a1a;
+  color: #f85149;
+}
+
+[data-md-color-scheme="slate"] .prop-voter-option.prop-vote-veto {
+  background: #2a2a0a;
+  color: #d29922;
+}
+
+[data-md-color-scheme="slate"] .prop-voter-option.prop-vote-abstain {
+  background: #1a1a1a;
+  color: #8b949e;
+}
+
 /* ── Quorum / Turnout ────────────────────────────────────────── */
 /* Uses same .prop-tally-* classes as the vote breakdown above */
