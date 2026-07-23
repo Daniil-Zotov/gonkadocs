@@ -24541,7 +24541,7 @@ alexanderkuprin_
 ## Overview
 
 89Total Proposals
-57Passed (64%)
+58Passed (65%)
 29Rejected (33%)
 1Failed (1%)
 
@@ -24569,12 +24569,11 @@ Models / IBC2
   
   Currently Gonka has a lot of marketing activities, but doesn't have analytics to measure the results of their work and doesn't have a vision which target audiences and how we need to attract and onboa…
   Yes 132,587 (90.9%) · No 625 (0.4%) · Veto 10,823 (7.4%) · Abstain 1,789 (1.2%)240,000 GNK · $57,000 · Community Pool
-  ✓ Turnout 145,824 / 545,858 (26.7%) · Quorum 25% (136,464)
+  ✓ Turnout 145,824 / 545,426 (26.7%) · Quorum 25% (136,356)
 
   
     #89 – Upgrade Proposal: v0.2.14
-    
-    Voting
+    Passed
   
   
     Submitted 2026-07-21
@@ -24582,7 +24581,7 @@ Models / IBC2
   
   Upgrade Proposal: v0.2.14
   Yes 296,240 (100.0%) · No 0 (0.0%) · Veto 115 (0.0%) · Abstain 0 (0.0%)
-  ✓ Turnout 296,355 / 545,858 (54.3%) · Quorum 25% (136,464)
+  ✓ Turnout 296,355 / 545,426 (54.3%) · Quorum 25% (136,356)
 
   
     #88 – Restore Kimi K2.6 and remove v1, v2
@@ -25562,7 +25561,7 @@ Models / IBC2
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-89 proposals across 5 quarters. Last updated: 2026-07-22 23:44 UTC
+89 proposals across 5 quarters. Last updated: 2026-07-23 01:15 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -62475,7 +62474,7 @@ Contract Details
 ## 2026-Q3 Summary
 
 11Total Proposals
-5Passed (45%)
+6Passed (55%)
 4Rejected (36%)
 
 Funding / Grants5
@@ -62499,12 +62498,11 @@ GRC / Restitution1
   
   Currently Gonka has a lot of marketing activities, but doesn't have analytics to measure the results of their work and doesn't have a vision which target audiences and how we need to attract and onboa…
   Yes 132,587 (90.9%) · No 625 (0.4%) · Veto 10,823 (7.4%) · Abstain 1,789 (1.2%)240,000 GNK · $57,000 · Community Pool
-  ✓ Turnout 145,824 / 545,858 (26.7%) · Quorum 25% (136,464)
+  ✓ Turnout 145,824 / 545,426 (26.7%) · Quorum 25% (136,356)
 
   
     #89 – Upgrade Proposal: v0.2.14
-    
-    Voting
+    Passed
   
   
     Submitted 2026-07-21
@@ -62512,7 +62510,7 @@ GRC / Restitution1
   
   Upgrade Proposal: v0.2.14
   Yes 296,240 (100.0%) · No 0 (0.0%) · Veto 115 (0.0%) · Abstain 0 (0.0%)
-  ✓ Turnout 296,355 / 545,858 (54.3%) · Quorum 25% (136,464)
+  ✓ Turnout 296,355 / 545,426 (54.3%) · Quorum 25% (136,356)
 
   
     #88 – Restore Kimi K2.6 and remove v1, v2
@@ -63231,7 +63229,7 @@ Governance may cancel the initiative at any time, in which case all remaining pa
     Veto 10,823 (7.4%)
     Abstain 1,789 (1.2%)
     Total 145,824 votes
-    ✓ Turnout 145,824 / 545,858 (26.7%) · Quorum 25% (136,464)
+    ✓ Turnout 145,824 / 545,426 (26.7%) · Quorum 25% (136,356)
   
 
 ---
@@ -66093,7 +66091,7 @@ After devshard v3 validation, the mainnet-style upgrade from `v0.2.13` to `v0.2.
 
 # #89 – Upgrade Proposal: v0.2.14
 
-Voting
+Passed
 
 **Proposal ID:** `89`
 
@@ -66127,7 +66125,7 @@ Upgrade Proposal: v0.2.14
     Veto 115 (0.0%)
     Abstain 0 (0.0%)
     Total 296,355 votes
-    ✓ Turnout 296,355 / 545,858 (54.3%) · Quorum 25% (136,464)
+    ✓ Turnout 296,355 / 545,426 (54.3%) · Quorum 25% (136,356)
   
 
 ---
