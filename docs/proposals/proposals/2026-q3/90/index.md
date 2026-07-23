@@ -101,7 +101,7 @@ Governance may cancel the initiative at any time, in which case all remaining pa
     <span class="prop-tally-veto-text">Veto 10,823 (7.4%)</span>
     <span class="prop-tally-abstain-text">Abstain 1,789 (1.2%)</span>
     <span class="prop-tally-total-text">Total 145,824 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout 145,824 / 545,858 (26.7%) · Quorum 25% (136,464)</span>
+    <span class="prop-tally-yes-text">✓ Turnout 145,824 / 545,426 (26.7%) · Quorum 25% (136,356)</span>
   </div>
 </div>
 

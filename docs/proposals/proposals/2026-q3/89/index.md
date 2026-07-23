@@ -8,7 +8,7 @@ template: proposals-proposals-main.html
 
 <div class="prop-detail-header" markdown="1">
 
-<div class="prop-badge-row"><span class="prop-badge prop-voting">Voting</span><span class="prop-vote-countdown prop-vote-countdown-detail" data-deadline="2026-07-23T00:02:04.535338507Z"></span></div>
+<span class="prop-badge prop-passed">Passed</span>
 
 **Proposal ID:** `89`
 
@@ -48,7 +48,7 @@ Upgrade Proposal: v0.2.14
     <span class="prop-tally-veto-text">Veto 115 (0.0%)</span>
     <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span>
     <span class="prop-tally-total-text">Total 296,355 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout 296,355 / 545,858 (54.3%) · Quorum 25% (136,464)</span>
+    <span class="prop-tally-yes-text">✓ Turnout 296,355 / 545,426 (54.3%) · Quorum 25% (136,356)</span>
   </div>
 </div>
 
