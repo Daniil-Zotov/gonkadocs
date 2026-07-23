@@ -6,7 +6,7 @@ template: issues-main.html
 # Issues: no-label
 
 Issues with label **no-label**. Total: **240**.
-Updated: `2026-07-23 20:36 UTC`.
+Updated: `2026-07-23 22:20 UTC`.
 
 [← All Issues](../../index.md)
 
@@ -15,13 +15,13 @@ Updated: `2026-07-23 20:36 UTC`.
   <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
   <div class="issues-body">
     <div class="issues-title">
-      <a href="../../01466-better-debshardd-inference-handling/">Better debshardd inference handling</a>
+      <a href="../../01466-better-devshardd-inference-handling/">Better devshardd inference handling</a>
       <span class="issues-number">#1466</span>
     </div>
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/a-kuprin">@a-kuprin</a> opened 6 hours ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/a-kuprin">@a-kuprin</a> opened 57 minutes ago</span>
       
     </div>
   </div>
@@ -36,7 +36,7 @@ Updated: `2026-07-23 20:36 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/alancapex">@alancapex</a> opened 13 hours ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/alancapex">@alancapex</a> opened 15 hours ago</span>
       
     </div>
   </div>
@@ -201,7 +201,7 @@ Updated: `2026-07-23 20:36 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/scodeit">@scodeit</a> opened 12 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/scodeit">@scodeit</a> opened 13 days ago</span>
       
     </div>
   </div>
@@ -216,7 +216,7 @@ Updated: `2026-07-23 20:36 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/jack-maguli">@jack-maguli</a> opened 12 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/jack-maguli">@jack-maguli</a> opened 13 days ago</span>
       
     </div>
   </div>
@@ -426,7 +426,7 @@ Updated: `2026-07-23 20:36 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Ryanchen911">@Ryanchen911</a> opened 21 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/Ryanchen911">@Ryanchen911</a> opened 22 days ago</span>
       
     </div>
   </div>
