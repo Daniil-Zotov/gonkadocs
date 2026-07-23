@@ -254,6 +254,7 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [#84 – Bringing $3M+ in New Capital to GONKA via Uniswap — Phase 1/6 ($50k USDT)](/proposals/proposals/2026-q3/84/): Auto-synced content
 - [Upgrade Proposal: v0.2.14](/proposals/proposals/2026-q3/89/full-proposal/): Auto-synced content
 - [#89 – Upgrade Proposal: v0.2.14](/proposals/proposals/2026-q3/89/): Auto-synced content
+- [#91 – Temporarily update BLS signing parameters](/proposals/proposals/2026-q3/91/): Auto-synced content
 - [External Test Lab & Community DevNet](/proposals/proposals/2026-q3/82/full-proposal/): Auto-synced content
 - [#82 – External Test Lab x Community DevNet](/proposals/proposals/2026-q3/82/): Auto-synced content
 - [#87 – Remove Kimi K2.6 model](/proposals/proposals/2026-q3/87/): Auto-synced content

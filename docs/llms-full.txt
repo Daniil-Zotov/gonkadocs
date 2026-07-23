@@ -24540,13 +24540,13 @@ alexanderkuprin_
 
 ## Overview
 
-89Total Proposals
-58Passed (65%)
-30Rejected (34%)
+90Total Proposals
+58Passed (64%)
+30Rejected (33%)
 1Failed (1%)
 
 Funding / Grants39
-Governance Parameters25
+Governance Parameters26
 Software Upgrade17
 GRC / Restitution3
 Other3
@@ -24556,7 +24556,20 @@ Models / IBC2
 
 ## 2026-Q3
 
-*11 proposals*
+*12 proposals*
+
+  
+    #91 – Temporarily update BLS signing parameters
+    
+    Voting
+  
+  
+    Submitted 2026-07-23
+    Voting ends 2026-07-24
+  
+  Set max_signing_attempts to 1 and signing_deadline_blocks to 60 epoch lengths (923460 blocks) to mitigate a theoretical risk identified in a security report. Historically, retries have never been need…
+  Yes 143,494 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  ✓ Turnout 143,494 / 569,511 (25.2%) · Quorum 25% (142,377)
 
   
     #90 – Partnerships with Inference Resellers, B2C users acquisition and conversion funnels analytics setup
@@ -25560,7 +25573,7 @@ Models / IBC2
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-89 proposals across 5 quarters. Last updated: 2026-07-23 17:10 UTC
+90 proposals across 5 quarters. Last updated: 2026-07-23 18:09 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -62397,19 +62410,32 @@ Contract Details
 
 ## 2026-Q3 Summary
 
-11Total Proposals
-6Passed (55%)
-5Rejected (45%)
+12Total Proposals
+6Passed (50%)
+5Rejected (42%)
 
+Governance Parameters5
 Funding / Grants5
-Governance Parameters4
 Software Upgrade1
 GRC / Restitution1
 
 80,000 GNK · $88,000 · Community Pool
 
 2026-Q3
-11 proposals
+12 proposals
+
+  
+    #91 – Temporarily update BLS signing parameters
+    
+    Voting
+  
+  
+    Submitted 2026-07-23
+    Voting ends 2026-07-24
+  
+  Set max_signing_attempts to 1 and signing_deadline_blocks to 60 epoch lengths (923460 blocks) to mitigate a theoretical risk identified in a security report. Historically, retries have never been need…
+  Yes 143,494 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  ✓ Turnout 143,494 / 569,511 (25.2%) · Quorum 25% (142,377)
 
   
     #90 – Partnerships with Inference Resellers, B2C users acquisition and conversion funnels analytics setup
@@ -66089,6 +66115,85 @@ Contract Details
       "height": "5195700",
       "info": "{\n        \"binaries\": {\n            \"linux/amd64\": \"https://github.com/gonka-ai/gonka/releases/download/release%2Fv0.2.14/inferenced-amd64.zip?checksum=sha256:ce857ef90deb899c03d78dee01493e544bf8b7ddf8b452e75b3b010b80a8b046\"\n        },\n        \"api_binaries\": {\n            \"linux/amd64\": \"https://github.com/gonka-ai/gonka/releases/download/release%2Fv0.2.14/decentralized-api-amd64.zip?checksum=sha256:4326a27913a05435e37cd5fa9e3d0cf5271351799f8b01b842e049a733976c87\"\n        }\n    }",
       "upgraded_client_state": null
+    }
+  }
+]
+```
+
+---
+
+## #91 – Temporarily update BLS signing parameters
+
+# #91 – Temporarily update BLS signing parameters
+
+Voting
+
+**Proposal ID:** `91`
+
+**Type:** Update Params
+
+**Submit:** 2026-07-23 17:23 UTC
+
+**Voting:** 2026-07-23 17:23 UTC → 2026-07-24 05:23 UTC
+
+**Expedited:** Yes
+
+**Proposer:** [`gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le`](https://gonka.gg/address/gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le){:target="_blank"}
+
+[View on gonka.gg](https://gonka.gg/network/proposals/91){:target="_blank"}
+
+Set max_signing_attempts to 1 and signing_deadline_blocks to 60 epoch lengths (923460 blocks) to mitigate a theoretical risk identified in a security report. Historically, retries have never been needed on mainnet, so this temporary change is not expected to affect normal operation.
+
+---
+
+## Final Tally
+
+  
+    
+    
+    
+    
+  
+  
+    Yes 143,494 (100.0%)
+    No 0 (0.0%)
+    Veto 0 (0.0%)
+    Abstain 0 (0.0%)
+    Total 143,494 votes
+    ✓ Turnout 143,494 / 569,511 (25.2%) · Quorum 25% (142,377)
+  
+
+Voters
+
+VoterVote
+
+gonka1y2a9p5…ryv5leYes 100.0%
+gonka1dkl4ma…y552cpYes 100.0%
+gonka1kx9mca…nm6wc5Yes 100.0%
+
+---
+## Messages
+
+| # | Type |
+| :- | :--- |
+| 1 | `/inference.bls.MsgUpdateParams` |
+
+Contract Details
+
+```json
+[
+  {
+    "@type": "/inference.bls.MsgUpdateParams",
+    "authority": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "params": {
+      "i_total_slots": 100,
+      "t_slots_degree_offset": 50,
+      "dealing_phase_duration_blocks": "5",
+      "verification_phase_duration_blocks": "3",
+      "signing_deadline_blocks": "923460",
+      "dispute_phase_duration_blocks": "3",
+      "completed_fallback_blocks": "0",
+      "max_signing_attempts": 1
     }
   }
 ]
