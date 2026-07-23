@@ -2,7 +2,7 @@
 title: "#764 — Epoch 158 reward underpayment after v0.2.9: preserved inference-slot weight was reset"
 source: https://github.com/gonka-ai/gonka/issues/764
 issue_number: 764
-synced_at: 2026-07-23T09:43:27Z
+synced_at: 2026-07-23T12:07:10Z
 template: issues-main.html
 ---
 
