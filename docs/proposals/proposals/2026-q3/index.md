@@ -64,8 +64,8 @@ template: proposals-oview.html
     <span>Voting ends 2026-07-23</span>
   </div>
   <div class="prop-card-desc">Currently Gonka has a lot of marketing activities, but doesn't have analytics to measure the results of their work and doesn't have a vision which target audiences and how we need to attract and onboa…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 132,587 (90.9%)</span> · <span class="prop-tally-no-text">No 625 (0.4%)</span> · <span class="prop-tally-veto-text">Veto 10,823 (7.4%)</span> · <span class="prop-tally-abstain-text">Abstain 1,789 (1.2%)</span><span class="prop-card-funding prop-card-funding-voting">240,000 GNK · $57,000 · Community Pool</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout 145,824 / 545,426 (26.7%) · Quorum 25% (136,356)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 133,037 (88.9%)</span> · <span class="prop-tally-no-text">No 625 (0.4%)</span> · <span class="prop-tally-veto-text">Veto 13,898 (9.3%)</span> · <span class="prop-tally-abstain-text">Abstain 2,127 (1.4%)</span><span class="prop-card-funding prop-card-funding-voting">240,000 GNK · $57,000 · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout 149,687 / 544,388 (27.5%) · Quorum 25% (136,097)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
