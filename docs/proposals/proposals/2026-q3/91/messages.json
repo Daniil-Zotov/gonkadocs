@@ -1,0 +1,16 @@
+[
+  {
+    "@type": "/inference.bls.MsgUpdateParams",
+    "authority": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "params": {
+      "i_total_slots": 100,
+      "t_slots_degree_offset": 50,
+      "dealing_phase_duration_blocks": "5",
+      "verification_phase_duration_blocks": "3",
+      "signing_deadline_blocks": "923460",
+      "dispute_phase_duration_blocks": "3",
+      "completed_fallback_blocks": "0",
+      "max_signing_attempts": 1
+    }
+  }
+]

@@ -32,17 +32,17 @@ template: proposals-oview.html
 ## 2026-Q3 Summary
 
 <div class="qs-stats">
-<div class="qs-stat total"><span class="qs-num">11</span><span class="qs-desc">Total Proposals</span></div>
-<div class="qs-stat passed"><span class="qs-num">6</span><span class="qs-desc">Passed (55%)</span></div>
-<div class="qs-stat rejected"><span class="qs-num">5</span><span class="qs-desc">Rejected (45%)</span></div>
+<div class="qs-stat total"><span class="qs-num">12</span><span class="qs-desc">Total Proposals</span></div>
+<div class="qs-stat passed"><span class="qs-num">6</span><span class="qs-desc">Passed (50%)</span></div>
+<div class="qs-stat rejected"><span class="qs-num">5</span><span class="qs-desc">Rejected (42%)</span></div>
 
 </div>
 
 <div class="qs-categories">
-<div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:45%"></span></span><span class="qs-value">5</span></div>
-<div class="qs-row"><span class="qs-label">Governance Parameters</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:36%"></span></span><span class="qs-value">4</span></div>
-<div class="qs-row"><span class="qs-label">Software Upgrade</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:9%"></span></span><span class="qs-value">1</span></div>
-<div class="qs-row"><span class="qs-label">GRC / Restitution</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:9%"></span></span><span class="qs-value">1</span></div>
+<div class="qs-row"><span class="qs-label">Governance Parameters</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:42%"></span></span><span class="qs-value">5</span></div>
+<div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:42%"></span></span><span class="qs-value">5</span></div>
+<div class="qs-row"><span class="qs-label">Software Upgrade</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:8%"></span></span><span class="qs-value">1</span></div>
+<div class="qs-row"><span class="qs-label">GRC / Restitution</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:8%"></span></span><span class="qs-value">1</span></div>
 </div>
 
 <div class="qs-funding-line">80,000 GNK · $88,000 · Community Pool</div>
@@ -52,7 +52,22 @@ template: proposals-oview.html
 
 <div class="prop-quarter">
 <h2>2026-Q3</h2>
-<p>11 proposals</p>
+<p>12 proposals</p>
+<div class="prop-card" data-status="prop-voting" data-voting-end="2026-07-24T05:23:56.063230542Z">
+  <div class="prop-card-header">
+    <a href="91/" class="prop-card-title">#91 – Temporarily update BLS signing parameters</a>
+    <span class="prop-vote-countdown" data-deadline="2026-07-24T05:23:56.063230542Z"></span>
+    <span class="prop-badge prop-voting">Voting</span>
+  </div>
+  <div class="prop-card-meta">
+    <span>Submitted 2026-07-23</span>
+    <span>Voting ends 2026-07-24</span>
+  </div>
+  <div class="prop-card-desc">Set max_signing_attempts to 1 and signing_deadline_blocks to 60 epoch lengths (923460 blocks) to mitigate a theoretical risk identified in a security report. Historically, retries have never been need…</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 143,494 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout 143,494 / 569,511 (25.2%) · Quorum 25% (142,377)</span></div>
+</div>
+
 <div class="prop-card" data-status="prop-rejected">
   <div class="prop-card-header">
     <a href="90/" class="prop-card-title">#90 – Partnerships with Inference Resellers, B2C users acquisition and conversion funnels analytics setup</a>
