@@ -2,7 +2,7 @@
 title: "#341 — [P0] Security: Major"
 source: https://github.com/gonka-ai/gonka/issues/341
 issue_number: 341
-synced_at: 2026-07-23T06:45:32Z
+synced_at: 2026-07-23T09:44:41Z
 template: issues-main.html
 ---
 

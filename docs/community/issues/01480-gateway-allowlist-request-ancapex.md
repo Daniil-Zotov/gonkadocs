@@ -2,7 +2,7 @@
 title: "#1480 — Gateway allowlist request: Ancapex"
 source: https://github.com/gonka-ai/gonka/issues/1480
 issue_number: 1480
-synced_at: 2026-07-23T06:42:50Z
+synced_at: 2026-07-23T09:41:29Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/alancapex">@alancapex</a> opened 2026-07-19 21:31 UTC</span>
-    <span class="issues-meta-item">1 comment</span>
-    <span class="issues-meta-item">Updated 2026-07-22 00:46 UTC</span>
+    <span class="issues-meta-item">2 comments</span>
+    <span class="issues-meta-item">Updated 2026-07-23 06:49 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -56,7 +56,7 @@ Once our development stabilizes, we'll contribute the generalized schemes back t
 
 ---
 
-## 💬 Comments (1)
+## 💬 Comments (2)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -67,6 +67,16 @@ Once our development stabilizes, we'll contribute the generalized schemes back t
     <p>Hi @alancapex! Probably you already know, there's a GNK-native community broker (OpenBroker https://github.com/gonka-ai/gonka/discussions/1363) with no markup and tested throughput, but it's a shared gateway with a custodial ledger, which is not exactly what you need I believe. So the creator/allowlist path is the correct one for you. That said, @gonkalabs, could you please take a look at whether the needs described in this issue could be maybe partially solved in some new way? Would be great to hear your take.</p>
 <p>@alancapex, the strongest thing you can do while you wait is to continue building visibility in the community. These decisions are made with community input, and proposals/candidate addresses get discussed in the community channels, not only in an issue thread. Given your existing footprint and the commitment to contribute back to open source plus the operator-side protocol work you intend to feed back, is the right direction.</p>
 <p>Keep this issue updated with anything new that comes up.  </p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/gonkalabs">@gonkalabs</a></span>
+    <span class="issues-meta-item">commented 2026-07-23 06:45 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Hi @alancapex ! Can we communicate on this topic in Telegram and discuss potential implementation details needed to be made on openbroker side in order to fulfill the needs for such project?</p>
+<p>As we can see, described functionality can be implemented as a product-layer feature set that can be enabled and utilized for your account. For example: host a separate devshard container that will be routable only for your account, etc</p>
   </div>
 </div>
 
