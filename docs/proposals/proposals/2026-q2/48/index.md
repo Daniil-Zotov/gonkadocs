@@ -227,7 +227,8 @@ During the Kimi-K2.6 bootstrap, the 30% direct participation threshold proved ha
             },
             "penalty_start_epoch": "251"
           }
-        ]
+        ],
+        "validation_vote_threshold_bps": 0
       },
       "tokenomics_params": {
         "subsidy_reduction_interval": {
@@ -416,7 +417,16 @@ During the Kimi-K2.6 bootstrap, the 30% direct participation threshold proved ha
           }
         ],
         "max_nonce": 0,
-        "devshard_requests_enabled": false
+        "devshard_requests_enabled": false,
+        "default_inference_seal_grace_nonces": 0,
+        "default_inference_seal_grace_seconds": 0,
+        "create_devshard_fee": "0",
+        "fee_per_nonce": "0",
+        "refusal_timeout": "0",
+        "execution_timeout": "0",
+        "validation_rate": 0,
+        "vote_threshold_factor": 0,
+        "default_auto_seal_every_n_nonces": 0
       },
       "fee_params": {
         "min_gas_price_ngonka": "0",
@@ -451,7 +461,8 @@ During the Kimi-K2.6 bootstrap, the 30% direct participation threshold proved ha
           "value": "3",
           "exponent": -1
         }
-      }
+      },
+      "maintenance_params": null
     }
   }
 ]

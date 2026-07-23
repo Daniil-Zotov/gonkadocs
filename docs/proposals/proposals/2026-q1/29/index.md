@@ -220,7 +220,8 @@ Remove TransferAgent allowlist restrictions (empty list = all TAs allowed) and i
         "validation_slots": 0,
         "poc_normalization_enabled": false,
         "poc_stronger_rng_enabled": false,
-        "models": []
+        "models": [],
+        "validation_vote_threshold_bps": 0
       },
       "tokenomics_params": {
         "subsidy_reduction_interval": {
@@ -374,7 +375,8 @@ Remove TransferAgent allowlist restrictions (empty list = all TAs allowed) and i
       },
       "devshard_escrow_params": null,
       "fee_params": null,
-      "delegation_params": null
+      "delegation_params": null,
+      "maintenance_params": null
     }
   }
 ]

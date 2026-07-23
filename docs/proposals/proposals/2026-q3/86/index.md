@@ -248,7 +248,8 @@ Increase the weight_scale_factor for moonshotai/Kimi-K2.6 from 0.90 to 0.945 (+5
             },
             "penalty_start_epoch": "500"
           }
-        ]
+        ],
+        "validation_vote_threshold_bps": 0
       },
       "tokenomics_params": {
         "subsidy_reduction_interval": {
@@ -451,7 +452,16 @@ Increase the weight_scale_factor for moonshotai/Kimi-K2.6 from 0.90 to 0.945 (+5
           }
         ],
         "max_nonce": 1000000,
-        "devshard_requests_enabled": true
+        "devshard_requests_enabled": true,
+        "default_inference_seal_grace_nonces": 0,
+        "default_inference_seal_grace_seconds": 0,
+        "create_devshard_fee": "0",
+        "fee_per_nonce": "0",
+        "refusal_timeout": "0",
+        "execution_timeout": "0",
+        "validation_rate": 0,
+        "vote_threshold_factor": 0,
+        "default_auto_seal_every_n_nonces": 0
       },
       "fee_params": {
         "min_gas_price_ngonka": "0",
@@ -486,7 +496,8 @@ Increase the weight_scale_factor for moonshotai/Kimi-K2.6 from 0.90 to 0.945 (+5
           "value": "3",
           "exponent": -1
         }
-      }
+      },
+      "maintenance_params": null
     }
   }
 ]

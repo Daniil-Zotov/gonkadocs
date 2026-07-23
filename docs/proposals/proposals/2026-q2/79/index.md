@@ -252,7 +252,8 @@ Add Kimi K2.6 and GLM 5.2 model
             },
             "penalty_start_epoch": "500"
           }
-        ]
+        ],
+        "validation_vote_threshold_bps": 0
       },
       "tokenomics_params": {
         "subsidy_reduction_interval": {
@@ -450,7 +451,16 @@ Add Kimi K2.6 and GLM 5.2 model
           }
         ],
         "max_nonce": 1000000,
-        "devshard_requests_enabled": true
+        "devshard_requests_enabled": true,
+        "default_inference_seal_grace_nonces": 0,
+        "default_inference_seal_grace_seconds": 0,
+        "create_devshard_fee": "0",
+        "fee_per_nonce": "0",
+        "refusal_timeout": "0",
+        "execution_timeout": "0",
+        "validation_rate": 0,
+        "vote_threshold_factor": 0,
+        "default_auto_seal_every_n_nonces": 0
       },
       "fee_params": {
         "min_gas_price_ngonka": "0",
@@ -485,7 +495,8 @@ Add Kimi K2.6 and GLM 5.2 model
           "value": "3",
           "exponent": -1
         }
-      }
+      },
+      "maintenance_params": null
     }
   },
   {
