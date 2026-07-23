@@ -25560,7 +25560,7 @@ Models / IBC2
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-89 proposals across 5 quarters. Last updated: 2026-07-23 15:40 UTC
+89 proposals across 5 quarters. Last updated: 2026-07-23 16:40 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -26445,8 +26445,6 @@ Execution. Recipients with share ≥ 10 GNK (1 204 miners, 3 052 968.210 GNK) ar
     Total 269,867 votes
     
   
-
----
 
 ## Messages
 
@@ -41153,8 +41151,6 @@ Saccade Media House is a creative team of tech entrepreneurs who know how to tel
     
   
 
----
-
 ## Messages
 
 | # | Type |
@@ -41474,8 +41470,6 @@ Full proposal and discussion:
     
   
 
----
-
 ## Messages
 
 | # | Type |
@@ -41542,8 +41536,6 @@ Increase the minimum deposit required to submit a governance proposal from the c
     Total 206,257 votes
     
   
-
----
 
 ## Messages
 
@@ -41657,8 +41649,6 @@ This is a full-scale analytical deep-dive that builds genuine trust rather than 
     Total 183,715 votes
     
   
-
----
 
 ## Messages
 
@@ -41792,8 +41782,6 @@ Brand audit, competitive positioning, and audience segmentation for Gonka.AI. Si
     
   
 
----
-
 ## Messages
 
 | # | Type |
@@ -41866,8 +41854,6 @@ Funds milestone 1 (upfront prepayment) of a community-produced onboarding video 
     Total 56,204 votes
     
   
-
----
 
 ## Messages
 
@@ -41942,8 +41928,6 @@ We're a comms team specializing in Organic PR for crypto and tech projects. With
     
   
 
----
-
 ## Messages
 
 | # | Type |
@@ -42014,8 +41998,6 @@ We are INPUT Global - a leading web3 marketing communications agency. We offer 3
     Total 152,113 votes
     
   
-
----
 
 ## Messages
 
@@ -42144,8 +42126,6 @@ Web analytics, attribution, and funnel dashboarding for Gonka.AI: GA4 implementa
     
   
 
----
-
 ## Messages
 
 | # | Type |
@@ -42210,8 +42190,6 @@ This proposal updates x/gov: the standard voting period becomes 48 hours (was 24
     Total 653,978 votes
     
   
-
----
 
 ## Messages
 
@@ -42364,8 +42342,6 @@ The Foundation's legal structure, responsibilities, accountability model, treasu
     
   
 
----
-
 ## Messages
 
 | # | Type |
@@ -42421,8 +42397,6 @@ test proposal - 测试方案
     Total 579,377 votes
     
   
-
----
 
 ## Messages
 
@@ -42492,8 +42466,6 @@ Register devshard approved version v2.
     Total 239,957 votes
     
   
-
----
 
 ## Messages
 
@@ -43138,8 +43110,6 @@ We are DeAI Nation, a global nonprofit organization supporting and promoting the
     Total 547,821 votes
     
   
-
----
 
 ## Messages
 
@@ -43994,8 +43964,6 @@ Distribute restitution for Kimi operators across epochs 265-276. Epochs 265-266:
     
   
 
----
-
 ## Messages
 
 | # | Type |
@@ -44590,8 +44558,6 @@ Brand identity system for Gonka.AI: logo, typography, color system, graphic lang
     
   
 
----
-
 ## Messages
 
 | # | Type |
@@ -44662,8 +44628,6 @@ Adds a community-operated wallet to devshard_escrow_params.allowed_creator_addre
     Total 243,945 votes
     
   
-
----
 
 ## Messages
 
@@ -45328,8 +45292,6 @@ Release 246,000 GNK from Community Fund to finalize GNK Racers — a multiplayer
     
   
 
----
-
 ## Messages
 
 | # | Type |
@@ -45396,8 +45358,6 @@ During the Kimi-K2.6 bootstrap, the 30% direct participation threshold proved ha
     Total 808,529 votes
     
   
-
----
 
 ## Messages
 
@@ -46179,8 +46139,6 @@ Full proposal:
     
   
 
----
-
 ## Messages
 
 | # | Type |
@@ -46492,8 +46450,6 @@ Replace scattered governance discussions and complex CLI voting with a unified G
     
   
 
----
-
 ## Messages
 
 | # | Type |
@@ -46564,8 +46520,6 @@ If you are against MLM projects around gonka.ai, vote YES. All funds will be use
     Total 957 votes
     
   
-
----
 
 ## Messages
 
@@ -46708,8 +46662,6 @@ IMPORTANT: This is a condensed version of the document and does not include many
     
   
 
----
-
 ## Messages
 
 | # | Type |
@@ -46776,8 +46728,6 @@ Increase the minimum deposit required to submit a governance proposal to 500 GNK
     Total 307,278 votes
     
   
-
----
 
 ## Messages
 
@@ -46866,8 +46816,6 @@ Add Kimi K2.6 and GLM 5.2 model
     Total 330,364 votes
     
   
-
----
 
 ## Messages
 
@@ -47469,8 +47417,6 @@ Crypto-influencer pilot campaign for Gonka.AI across selected tier-1 creators, w
     
   
 
----
-
 ## Messages
 
 | # | Type |
@@ -47556,8 +47502,6 @@ Full proposal:
     
   
 
----
-
 ## Messages
 
 | # | Type |
@@ -47626,8 +47570,6 @@ Set delegation initial_model_id to MiniMaxAI/MiniMax-M2.7, keep only MiniMaxAI/M
     Total 262,775 votes
     
   
-
----
 
 ## Messages
 
@@ -48140,8 +48082,6 @@ Full 360-degree digital and social strategy for Gonka.AI: channel matrix, conten
     
   
 
----
-
 ## Messages
 
 | # | Type |
@@ -48210,8 +48150,6 @@ Retroactive 20K GNK bounty for an open-sourced PoC optimization measuring +10.2%
     Total 476,312 votes
     
   
-
----
 
 ## Messages
 
@@ -48394,8 +48332,6 @@ Upgrade Proposal: v0.2.13
     
   
 
----
-
 ## Messages
 
 | # | Type |
@@ -48466,8 +48402,6 @@ Today, participating in Gonka governance requires following multiple channels si
     Total 464,551 votes
     
   
-
----
 
 ## Messages
 
@@ -48598,8 +48532,6 @@ $75,000 · Community Pool
     Total 629,262 votes
     
   
-
----
 
 ## Messages
 
@@ -48811,8 +48743,6 @@ Upgrade Proposal: v0.2.12
     
   
 
----
-
 ## Messages
 
 | # | Type |
@@ -48943,8 +48873,6 @@ Full redesign of gonka.ai plus dedicated landing pages for miners, inference buy
     
   
 
----
-
 ## Messages
 
 | # | Type |
@@ -49017,8 +48945,6 @@ If you agree say YES — Solution 1: Produce a short review video with 1-2 activ
     Total 8,076 votes
     
   
-
----
 
 ## Messages
 
@@ -49107,8 +49033,6 @@ Retroactive 20K GNK bounty for an open-sourced PoC optimization measuring +10.2%
     Total 210,647 votes
     
   
-
----
 
 ## Messages
 
@@ -49319,8 +49243,6 @@ Distribute restitution for Cases 2, 3, and 4 across epochs 248-254. Case 2: pres
     Total 308,505 votes
     
   
-
----
 
 ## Messages
 
@@ -50341,8 +50263,6 @@ Live walkthrough on YouTube (by Gonka.Top@Mitch):
     
   
 
----
-
 ## Messages
 
 | # | Type |
@@ -50423,8 +50343,6 @@ Full proposal:
     Total 698,243 votes
     
   
-
----
 
 ## Messages
 
@@ -50605,8 +50523,6 @@ Register IBC token metadata and approve the denomination for trading on Gonka ma
     
   
 
----
-
 ## Messages
 
 | # | Type |
@@ -50777,8 +50693,6 @@ Live walkthrough on YouTube (by Gonka.Top@Mitch):
     Total 297,247 votes
     
   
-
----
 
 ## Messages
 
@@ -50969,8 +50883,6 @@ Upgrade Proposal: v0.2.13
     Total 363,287 votes
     
   
-
----
 
 ## Messages
 
@@ -51262,8 +51174,6 @@ Test proposal
     
   
 
----
-
 ## Messages
 
 | # | Type |
@@ -51457,8 +51367,6 @@ Upgrade Proposal: v0.2.8
     
   
 
----
-
 ## Messages
 
 | # | Type |
@@ -51521,8 +51429,6 @@ Passed
     Total 2,342,702 votes
     
   
-
----
 
 ## Messages
 
@@ -53691,8 +53597,6 @@ Full presentation:
     
   
 
----
-
 ## Messages
 
 | # | Type |
@@ -53759,8 +53663,6 @@ Rejected
     Total 325,964 votes
     
   
-
----
 
 ## Messages
 
@@ -54132,8 +54034,6 @@ Passed
     Total 3,020,391 votes
     
   
-
----
 
 ## Messages
 
@@ -54654,8 +54554,6 @@ Upgrade Proposal: v0.2.8
     
   
 
----
-
 ## Messages
 
 | # | Type |
@@ -54886,8 +54784,6 @@ Upgrade Proposal: v0.2.10
     Total 1,540,653 votes
     
   
-
----
 
 ## Messages
 
@@ -55147,8 +55043,6 @@ Upgrade Proposal: v0.2.9
     
   
 
----
-
 ## Messages
 
 | # | Type |
@@ -55217,8 +55111,6 @@ Remove TransferAgent allowlist restrictions (empty list = all TAs allowed) and i
     Total 250,374 votes
     
   
-
----
 
 ## Messages
 
@@ -55838,8 +55730,6 @@ Distribute compensation for CPoC bug affected participants in epochs 132-133.
     Total 440,539 votes
     
   
-
----
 
 ## Messages
 
@@ -56497,8 +56387,6 @@ Upgrade Proposal: v0.2.11
     
   
 
----
-
 ## Messages
 
 | # | Type |
@@ -56709,8 +56597,6 @@ Upgrade Proposal: v0.2.7
     
   
 
----
-
 ## Messages
 
 | # | Type |
@@ -56807,8 +56693,6 @@ Distribute compensation proportional to epoch 158 lost preserved weights. Implem
     Total 501,114 votes
     
   
-
----
 
 ## Messages
 
@@ -58120,8 +58004,6 @@ Testing governance voting from the wallet app.
     
   
 
----
-
 ## Messages
 
 | # | Type |
@@ -58173,8 +58055,6 @@ Update Expiration Dates for Developer Access and Participant Allowlist
     Total 3,479,578 votes
     
   
-
----
 
 ## Messages
 
@@ -58645,8 +58525,6 @@ Proposal updates poc_validation_duration from 20 to 100.
     
   
 
----
-
 ## Messages
 
 | # | Type |
@@ -58930,8 +58808,6 @@ Proposal updates epoch_length and restrictions length according to real block le
     Total 74,474 votes
     
   
-
----
 
 ## Messages
 
@@ -59383,8 +59259,6 @@ Upgrade Proposal: v0.2.2
     
   
 
----
-
 ## Messages
 
 | # | Type |
@@ -59478,8 +59352,6 @@ This proposal introduces new Qwen3 models including Qwen3-32B-FP8 and Qwen3-235B
     Total 62,612 votes
     
   
-
----
 
 ## Messages
 
@@ -59631,8 +59503,6 @@ Expedite voting for upgrades
     Total 172,265 votes
     
   
-
----
 
 ## Messages
 
@@ -59853,8 +59723,6 @@ Upgrade Proposal: v0.2.2
     Total 109,746 votes
     
   
-
----
 
 ## Messages
 
@@ -60090,8 +59958,6 @@ Remove moonshotai/Kimi-K2.6 from PoC params and delete it from the governance mo
     Total 151,722 votes
     ✓ Turnout 151,722 / 344,693 (44.0%) · Quorum 25% (86,173)
   
-
----
 
 ## Messages
 
@@ -60668,8 +60534,6 @@ Restitution payout for confirmed GRC Proposal #3 cases, with Case 05 payments fr
     Total 156,897 votes
     ✗ Turnout 156,897 / 741,825 (21.2%) · Quorum 25% (185,456)
   
-
----
 
 ## Messages
 
@@ -61336,8 +61200,6 @@ Governance holds an option to cancel the initiative and returns all remaining fu
     ✗ Turnout 56,653 / 741,825 (7.6%) · Quorum 25% (185,456)
   
 
----
-
 ## Messages
 
 | # | Type |
@@ -61751,8 +61613,6 @@ Additional materials, proof of our work, landing page examples, creatives, adver
     ✓ Turnout 293,650 / 741,825 (39.6%) · Quorum 25% (185,456)
   
 
----
-
 ## Messages
 
 | # | Type |
@@ -61833,8 +61693,6 @@ Update current chain params to register moonshotai/Kimi-K2.6 in the governance m
     Total 272,606 votes
     ✓ Turnout 272,606 / 563,910 (48.3%) · Quorum 25% (140,977)
   
-
----
 
 ## Messages
 
@@ -62643,8 +62501,6 @@ Contract: code_id 107, checksum 94b141625b7641e6ad57266420b18a4af72eac49b8110cb9
     ✓ Turnout 374,787 / 741,825 (50.5%) · Quorum 25% (185,456)
   
 
----
-
 ## Messages
 
 | # | Type |
@@ -62776,8 +62632,6 @@ Increase the weight_scale_factor for moonshotai/Kimi-K2.6 from 0.90 to 0.945 (+5
     Total 303,676 votes
     ✓ Turnout 303,676 / 564,299 (53.8%) · Quorum 25% (141,074)
   
-
----
 
 ## Messages
 
@@ -63402,8 +63256,6 @@ Governance may cancel the initiative at any time, in which case all remaining pa
     ✓ Turnout 332,593 / 569,511 (58.4%) · Quorum 25% (142,377)
   
 
----
-
 ## Messages
 
 | # | Type |
@@ -63700,8 +63552,6 @@ Distribute restitution for Kimi operators affected by cPoC validation failure in
     ✓ Turnout 419,449 / 741,825 (56.5%) · Quorum 25% (185,456)
   
 
----
-
 ## Messages
 
 | # | Type |
@@ -63933,8 +63783,6 @@ Update current chain params by adding v3 to devshard_escrow_params.approved_vers
     Total 395,370 votes
     ✓ Turnout 395,370 / 741,825 (53.3%) · Quorum 25% (185,456)
   
-
----
 
 ## Messages
 
@@ -64502,8 +64350,6 @@ Upgrade Proposal: v0.2.14
     ✓ Turnout 296,355 / 545,426 (54.3%) · Quorum 25% (136,356)
   
 
----
-
 ## Messages
 
 | # | Type |
@@ -64902,8 +64748,6 @@ Upgrade Proposal: v0.2.5
     
   
 
----
-
 ## Messages
 
 | # | Type |
@@ -64968,8 +64812,6 @@ Expected amount of Confirmation PoC per epoch to 4, p0 for binomial test to 0.1
     Total 3,261,498 votes
     
   
-
----
 
 ## Messages
 
@@ -65286,8 +65128,6 @@ Bandwidth Limits
     
   
 
----
-
 ## Messages
 
 | # | Type |
@@ -65536,8 +65376,6 @@ Bandwidth Limits
     Total 257,565 votes
     
   
-
----
 
 ## Messages
 
@@ -65788,8 +65626,6 @@ Bandwidth Limits
     
   
 
----
-
 ## Messages
 
 | # | Type |
@@ -66039,8 +65875,6 @@ Sale GNK from Community Fund
     
   
 
----
-
 ## Messages
 
 | # | Type |
@@ -66282,8 +66116,6 @@ Upgrade Proposal: v0.2.6
     
   
 
----
-
 ## Messages
 
 | # | Type |
@@ -66444,8 +66276,6 @@ Upgrade Proposal: v0.2.3
     Total 132,672 votes
     
   
-
----
 
 ## Messages
 
@@ -66630,8 +66460,6 @@ Upgrade Proposal: v0.2.4
     
   
 
----
-
 ## Messages
 
 | # | Type |
@@ -66696,8 +66524,6 @@ Higher Bandwidth Limits & Voting Time Back to 24H
     Total 394,887 votes
     
   
-
----
 
 ## Messages
 
@@ -67152,8 +66978,6 @@ Upgrade Proposal: v0.2.6
     Total 1,985,917 votes
     
   
-
----
 
 ## Messages
 
