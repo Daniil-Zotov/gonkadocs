@@ -2,7 +2,7 @@
 title: "#1466 — Better debshardd inference handling"
 source: https://github.com/gonka-ai/gonka/issues/1466
 issue_number: 1466
-synced_at: 2026-07-23T12:05:34Z
+synced_at: 2026-07-23T14:37:14Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/a-kuprin">@a-kuprin</a> opened 2026-07-17 09:59 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-07-17 09:59 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-07-23 14:06 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -47,6 +47,20 @@ Task: On disconnect/retry, allow devshardctl to resend the same nonce with the s
 Problem: In-flight inference state (payload, execution progress, cached response) lives in process memory. If a connection drops mid-serve, or devshardd reboots/fails over, another instance can’t resume: no durable payload, no way to reattach to an ML job still running, no disk CachedResponseBody. Work is lost or must be blindly restarted without shared proof.
 
 Task: Persist, until the inference is finished/settled: payload + parameters (for same-hash reconnect), execution/receipt metadata, and CachedResponseBody (on disk). On another devshardd: if ML still running, reconnect to that job; else recreate from stored payload; serve reconnecting clients the live stream or cached body. Goal: drop/reboot/failover doesn’t erase the path to a validatable MsgFinishInference.
+</div>
+
+---
+
+## 💬 Comments (1)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/a-kuprin">@a-kuprin</a></span>
+    <span class="issues-meta-item">commented 2026-07-23 14:06 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>When working with this ussue PR https://github.com/gonka-ai/gonka/pull/1496 should be taken into account, that implements HA redesign</p>
+  </div>
 </div>
 
 ---
