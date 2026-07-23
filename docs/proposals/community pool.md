@@ -10,7 +10,7 @@ hide:
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 <small>Last updated: <!-- UPDATE_TIMESTAMP -->
-2026-07-23 00:00 UTC
+2026-07-23 04:11 UTC
 <!-- /UPDATE_TIMESTAMP --></small>
 
 ---
@@ -50,7 +50,7 @@ curl -s https://node3.gonka.ai/chain-api/cosmos/distribution/v1beta1/community_p
 
 <!-- SALE_BALANCE_START -->
 <p style="margin:0.2rem 0">
-<strong>Current balance:</strong> <span style="color:grey;font-size:0.95rem;font-weight:600">17,500,000 GNK</span> <span style="color:var(--md-accent-fg-color,#5468ff);font-size:0.95rem;font-weight:600">(~$10,500,000 USDT)</span> · <span style="color:var(--md-accent-fg-color,#5468ff);font-size:0.95rem;font-weight:600">$814,325 USDT</span>
+<strong>Current balance:</strong> <span style="color:grey;font-size:0.95rem;font-weight:600">17,500,000 GNK</span> <span style="color:var(--md-accent-fg-color,#5468ff);font-size:0.95rem;font-weight:600">(~$10,500,000 USDT)</span> · <span style="color:var(--md-accent-fg-color,#5468ff);font-size:0.95rem;font-weight:600">$764,075 USDT</span>
 </p>
 <!-- SALE_BALANCE_END -->
 
@@ -81,7 +81,7 @@ curl -s https://node3.gonka.ai/chain-api/cosmos/bank/v1beta1/balances/gonka18pkq
 
 <!-- GOV_BALANCE_START -->
 <p style="margin:0.2rem 0">
-<strong>Current balance:</strong> <span style="color:var(--md-accent-fg-color,#5468ff);font-size:0.95rem;font-weight:600">2,443,695 GNK</span>
+<strong>Current balance:</strong> <span style="color:var(--md-accent-fg-color,#5468ff);font-size:0.95rem;font-weight:600">2,443,195 GNK</span>
 </p>
 <!-- GOV_BALANCE_END -->
 
