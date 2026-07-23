@@ -48,10 +48,10 @@ Full proposal: <https://app.notion.com/p/Gonka-AI-AI-Influencer-Lab-Proposal-351
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:71.1%"></div>
+    <div class="prop-tally-yes" style="width:67.0%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
-    <div class="prop-tally-abstain" style="width:28.9%"></div>
+    <div class="prop-tally-abstain" style="width:27.2%"></div>
   </div>
   <div class="prop-tally-stats">
     <span class="prop-tally-yes-text">Yes 496,683 (71.1%)</span>

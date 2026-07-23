@@ -40,10 +40,10 @@ We're a comms team specializing in Organic PR for crypto and tech projects. With
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:99.8%"></div>
+    <div class="prop-tally-yes" style="width:24.3%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
-    <div class="prop-tally-abstain" style="width:0.1%"></div>
+    <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
     <span class="prop-tally-yes-text">Yes 180,108 (99.8%)</span>

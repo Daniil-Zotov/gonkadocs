@@ -34,7 +34,7 @@ template: proposals-oview.html
 <div class="qs-stats">
 <div class="qs-stat total"><span class="qs-num">11</span><span class="qs-desc">Total Proposals</span></div>
 <div class="qs-stat passed"><span class="qs-num">6</span><span class="qs-desc">Passed (55%)</span></div>
-<div class="qs-stat rejected"><span class="qs-num">4</span><span class="qs-desc">Rejected (36%)</span></div>
+<div class="qs-stat rejected"><span class="qs-num">5</span><span class="qs-desc">Rejected (45%)</span></div>
 
 </div>
 
@@ -53,18 +53,17 @@ template: proposals-oview.html
 <div class="prop-quarter">
 <h2>2026-Q3</h2>
 <p>11 proposals</p>
-<div class="prop-card" data-status="prop-voting" data-voting-end="2026-07-23T15:27:52.129100801Z">
+<div class="prop-card" data-status="prop-rejected">
   <div class="prop-card-header">
     <a href="90/" class="prop-card-title">#90 – Partnerships with Inference Resellers, B2C users acquisition and conversion funnels analytics setup</a>
-    <span class="prop-vote-countdown" data-deadline="2026-07-23T15:27:52.129100801Z"></span>
-    <span class="prop-badge prop-voting">Voting</span>
+    <span class="prop-badge prop-rejected">Rejected</span>
   </div>
   <div class="prop-card-meta">
     <span>Submitted 2026-07-21</span>
     <span>Voting ends 2026-07-23</span>
   </div>
   <div class="prop-card-desc">Currently Gonka has a lot of marketing activities, but doesn't have analytics to measure the results of their work and doesn't have a vision which target audiences and how we need to attract and onboa…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 190,646 (57.3%)</span> · <span class="prop-tally-no-text">No 6,269 (1.9%)</span> · <span class="prop-tally-veto-text">Veto 133,354 (40.1%)</span> · <span class="prop-tally-abstain-text">Abstain 2,324 (0.7%)</span><span class="prop-card-funding prop-card-funding-voting">240,000 GNK · $57,000 · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 190,646 (57.3%)</span> · <span class="prop-tally-no-text">No 6,269 (1.9%)</span> · <span class="prop-tally-veto-text">Veto 133,354 (40.1%)</span> · <span class="prop-tally-abstain-text">Abstain 2,324 (0.7%)</span><span class="prop-card-funding prop-card-funding-rejected">240,000 GNK · $57,000 · Community Pool</span></div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout 332,593 / 569,511 (58.4%) · Quorum 25% (142,377)</span></div>
 </div>
 

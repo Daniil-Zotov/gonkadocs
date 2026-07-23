@@ -44,10 +44,10 @@ Notes. The proposer takes no fee — every ngonka returns to the miners. Hamilto
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:36.0%"></div>
+    <div class="prop-tally-yes" style="width:13.1%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
-    <div class="prop-tally-abstain" style="width:64.0%"></div>
+    <div class="prop-tally-abstain" style="width:23.3%"></div>
   </div>
   <div class="prop-tally-stats">
     <span class="prop-tally-yes-text">Yes 97,030 (36.0%)</span>

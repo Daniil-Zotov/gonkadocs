@@ -52,8 +52,8 @@ Full proposal and discussion: <https://github.com/gonka-ai/gonka/discussions/108
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:57.1%"></div>
-    <div class="prop-tally-no" style="width:42.9%"></div>
+    <div class="prop-tally-yes" style="width:2.4%"></div>
+    <div class="prop-tally-no" style="width:1.8%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>

@@ -8,7 +8,7 @@ template: proposals-proposals-main.html
 
 <div class="prop-detail-header" markdown="1">
 
-<div class="prop-badge-row"><span class="prop-badge prop-voting">Voting</span><span class="prop-vote-countdown prop-vote-countdown-detail" data-deadline="2026-07-23T15:27:52.129100801Z"></span></div>
+<span class="prop-badge prop-rejected">Rejected</span>
 
 **Proposal ID:** `90`
 
@@ -22,7 +22,9 @@ template: proposals-proposals-main.html
 
 **Metadata:** [https://app.integrity.sh/p/NLgLEHfL8Msoz0nh2-_Tf](https://app.integrity.sh/p/NLgLEHfL8Msoz0nh2-_Tf)
 
-<div class="prop-funding-line prop-funding-line-voting">240,000 GNK · $57,000 · Community Pool</div>
+**Failed reason:** proposal did not get enough votes to pass
+
+<div class="prop-funding-line prop-funding-line-rejected">240,000 GNK · $57,000 · Community Pool</div>
 
 
 [View on gonka.gg](https://gonka.gg/network/proposals/90){:target="_blank"}
@@ -90,10 +92,10 @@ Governance may cancel the initiative at any time, in which case all remaining pa
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:57.3%"></div>
-    <div class="prop-tally-no" style="width:1.9%"></div>
-    <div class="prop-tally-veto" style="width:40.1%"></div>
-    <div class="prop-tally-abstain" style="width:0.7%"></div>
+    <div class="prop-tally-yes" style="width:33.5%"></div>
+    <div class="prop-tally-no" style="width:1.1%"></div>
+    <div class="prop-tally-veto" style="width:23.4%"></div>
+    <div class="prop-tally-abstain" style="width:0.4%"></div>
   </div>
   <div class="prop-tally-stats">
     <span class="prop-tally-yes-text">Yes 190,646 (57.3%)</span>

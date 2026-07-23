@@ -38,10 +38,10 @@ Crypto-influencer pilot campaign for Gonka.AI across selected tier-1 creators, w
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:67.9%"></div>
+    <div class="prop-tally-yes" style="width:29.8%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
-    <div class="prop-tally-veto" style="width:21.5%"></div>
-    <div class="prop-tally-abstain" style="width:10.6%"></div>
+    <div class="prop-tally-veto" style="width:9.4%"></div>
+    <div class="prop-tally-abstain" style="width:4.6%"></div>
   </div>
   <div class="prop-tally-stats">
     <span class="prop-tally-yes-text">Yes 220,798 (67.9%)</span>

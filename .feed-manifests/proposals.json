@@ -1,6 +1,6 @@
 {
   "section": "proposals",
-  "snapshot_time": "2026-07-23T15:23:10.028283+00:00",
+  "snapshot_time": "2026-07-23T15:30:19.002000+00:00",
   "files": {
     "2025-q3/1/full-proposal.md": {
       "title": "Adjust Params According to real block length",

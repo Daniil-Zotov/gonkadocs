@@ -37,8 +37,8 @@ Update current chain params to register moonshotai/Kimi-K2.6 in the governance m
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:99.8%"></div>
-    <div class="prop-tally-no" style="width:0.2%"></div>
+    <div class="prop-tally-yes" style="width:48.2%"></div>
+    <div class="prop-tally-no" style="width:0.1%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>

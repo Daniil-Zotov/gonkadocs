@@ -35,7 +35,7 @@ Higher Bandwidth Limits & Voting Time Back to 24H
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:100.0%"></div>
+    <div class="prop-tally-yes" style="width:53.2%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>

@@ -40,9 +40,9 @@ Distribute restitution for Kimi operators affected by cPoC validation failure in
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:56.2%"></div>
+    <div class="prop-tally-yes" style="width:31.8%"></div>
     <div class="prop-tally-no" style="width:0.1%"></div>
-    <div class="prop-tally-veto" style="width:43.7%"></div>
+    <div class="prop-tally-veto" style="width:24.7%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">

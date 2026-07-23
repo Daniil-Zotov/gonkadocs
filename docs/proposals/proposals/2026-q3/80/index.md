@@ -40,10 +40,10 @@ Restitution payout for confirmed GRC Proposal #3 cases, with Case 05 payments fr
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:10.4%"></div>
-    <div class="prop-tally-no" style="width:60.4%"></div>
-    <div class="prop-tally-veto" style="width:25.1%"></div>
-    <div class="prop-tally-abstain" style="width:4.0%"></div>
+    <div class="prop-tally-yes" style="width:2.2%"></div>
+    <div class="prop-tally-no" style="width:12.8%"></div>
+    <div class="prop-tally-veto" style="width:5.3%"></div>
+    <div class="prop-tally-abstain" style="width:0.9%"></div>
   </div>
   <div class="prop-tally-stats">
     <span class="prop-tally-yes-text">Yes 16,378 (10.4%)</span>

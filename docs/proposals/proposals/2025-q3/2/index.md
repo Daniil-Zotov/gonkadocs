@@ -37,7 +37,7 @@ This proposal introduces new Qwen3 models including Qwen3-32B-FP8 and Qwen3-235B
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:100.0%"></div>
+    <div class="prop-tally-yes" style="width:8.4%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>

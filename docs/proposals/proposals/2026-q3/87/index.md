@@ -37,7 +37,7 @@ Remove moonshotai/Kimi-K2.6 from PoC params and delete it from the governance mo
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:100.0%"></div>
+    <div class="prop-tally-yes" style="width:44.0%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>

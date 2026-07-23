@@ -54,10 +54,10 @@ Full proposal: <https://gonkalabs.com/proposal>
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:79.6%"></div>
-    <div class="prop-tally-no" style="width:1.0%"></div>
+    <div class="prop-tally-yes" style="width:41.1%"></div>
+    <div class="prop-tally-no" style="width:0.5%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
-    <div class="prop-tally-abstain" style="width:19.4%"></div>
+    <div class="prop-tally-abstain" style="width:10.0%"></div>
   </div>
   <div class="prop-tally-stats">
     <span class="prop-tally-yes-text">Yes 305,163 (79.6%)</span>

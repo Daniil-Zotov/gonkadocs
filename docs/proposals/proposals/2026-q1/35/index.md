@@ -58,10 +58,10 @@ Full presentation:
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:25.5%"></div>
-    <div class="prop-tally-no" style="width:28.8%"></div>
-    <div class="prop-tally-veto" style="width:6.8%"></div>
-    <div class="prop-tally-abstain" style="width:38.9%"></div>
+    <div class="prop-tally-yes" style="width:1.2%"></div>
+    <div class="prop-tally-no" style="width:1.4%"></div>
+    <div class="prop-tally-veto" style="width:0.3%"></div>
+    <div class="prop-tally-abstain" style="width:1.9%"></div>
   </div>
   <div class="prop-tally-stats">
     <span class="prop-tally-yes-text">Yes 9,150 (25.5%)</span>

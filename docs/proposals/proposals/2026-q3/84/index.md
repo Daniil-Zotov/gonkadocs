@@ -77,9 +77,9 @@ Additional materials, proof of our work, landing page examples, creatives, adver
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:0.4%"></div>
-    <div class="prop-tally-no" style="width:0.8%"></div>
-    <div class="prop-tally-veto" style="width:98.8%"></div>
+    <div class="prop-tally-yes" style="width:0.2%"></div>
+    <div class="prop-tally-no" style="width:0.3%"></div>
+    <div class="prop-tally-veto" style="width:39.1%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">

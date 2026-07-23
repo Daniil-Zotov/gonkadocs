@@ -77,9 +77,9 @@ Live walkthrough on YouTube (by Gonka.Top@Mitch): <https://www.youtube.com/watch
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:58.6%"></div>
-    <div class="prop-tally-no" style="width:17.6%"></div>
-    <div class="prop-tally-veto" style="width:23.8%"></div>
+    <div class="prop-tally-yes" style="width:4.3%"></div>
+    <div class="prop-tally-no" style="width:1.3%"></div>
+    <div class="prop-tally-veto" style="width:1.7%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">

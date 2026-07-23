@@ -37,10 +37,10 @@ Upgrade Proposal: v0.2.13
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:62.8%"></div>
+    <div class="prop-tally-yes" style="width:30.8%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
-    <div class="prop-tally-abstain" style="width:37.2%"></div>
+    <div class="prop-tally-abstain" style="width:18.2%"></div>
   </div>
   <div class="prop-tally-stats">
     <span class="prop-tally-yes-text">Yes 228,216 (62.8%)</span>

@@ -35,8 +35,8 @@ Update Expiration Dates for Developer Access and Participant Allowlist
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:99.9%"></div>
-    <div class="prop-tally-no" style="width:0.1%"></div>
+    <div class="prop-tally-yes" style="width:468.7%"></div>
+    <div class="prop-tally-no" style="width:0.4%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>

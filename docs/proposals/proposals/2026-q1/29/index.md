@@ -39,9 +39,9 @@ Remove TransferAgent allowlist restrictions (empty list = all TAs allowed) and i
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:2.9%"></div>
+    <div class="prop-tally-yes" style="width:1.0%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
-    <div class="prop-tally-veto" style="width:97.1%"></div>
+    <div class="prop-tally-veto" style="width:32.8%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">

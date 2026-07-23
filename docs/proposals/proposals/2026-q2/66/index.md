@@ -40,7 +40,7 @@ test proposal - 测试方案
   <div class="prop-tally-bar">
     <div class="prop-tally-yes" style="width:0.0%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
-    <div class="prop-tally-veto" style="width:100.0%"></div>
+    <div class="prop-tally-veto" style="width:78.1%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">

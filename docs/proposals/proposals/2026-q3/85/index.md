@@ -50,10 +50,10 @@ Governance holds an option to cancel the initiative and returns all remaining fu
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:73.5%"></div>
+    <div class="prop-tally-yes" style="width:5.6%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
-    <div class="prop-tally-veto" style="width:26.4%"></div>
-    <div class="prop-tally-abstain" style="width:0.1%"></div>
+    <div class="prop-tally-veto" style="width:2.0%"></div>
+    <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
     <span class="prop-tally-yes-text">Yes 41,668 (73.5%)</span>

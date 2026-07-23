@@ -37,10 +37,10 @@ Increase the minimum deposit required to submit a governance proposal from the c
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:96.9%"></div>
+    <div class="prop-tally-yes" style="width:26.9%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
-    <div class="prop-tally-veto" style="width:2.0%"></div>
-    <div class="prop-tally-abstain" style="width:1.1%"></div>
+    <div class="prop-tally-veto" style="width:0.6%"></div>
+    <div class="prop-tally-abstain" style="width:0.3%"></div>
   </div>
   <div class="prop-tally-stats">
     <span class="prop-tally-yes-text">Yes 199,799 (96.9%)</span>

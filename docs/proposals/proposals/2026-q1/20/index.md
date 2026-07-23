@@ -35,9 +35,9 @@ template: proposals-proposals-main.html
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:90.1%"></div>
-    <div class="prop-tally-no" style="width:3.9%"></div>
-    <div class="prop-tally-veto" style="width:6.0%"></div>
+    <div class="prop-tally-yes" style="width:284.7%"></div>
+    <div class="prop-tally-no" style="width:12.2%"></div>
+    <div class="prop-tally-veto" style="width:19.0%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">

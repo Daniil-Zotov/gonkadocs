@@ -38,10 +38,10 @@ We are DeAI Nation, a global nonprofit organization supporting and promoting the
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:68.6%"></div>
+    <div class="prop-tally-yes" style="width:50.7%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
-    <div class="prop-tally-abstain" style="width:31.4%"></div>
+    <div class="prop-tally-abstain" style="width:23.2%"></div>
   </div>
   <div class="prop-tally-stats">
     <span class="prop-tally-yes-text">Yes 375,771 (68.6%)</span>

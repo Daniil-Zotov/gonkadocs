@@ -40,9 +40,9 @@ Today, participating in Gonka governance requires following multiple channels si
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:26.5%"></div>
-    <div class="prop-tally-no" style="width:72.2%"></div>
-    <div class="prop-tally-veto" style="width:1.3%"></div>
+    <div class="prop-tally-yes" style="width:16.6%"></div>
+    <div class="prop-tally-no" style="width:45.2%"></div>
+    <div class="prop-tally-veto" style="width:0.8%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">

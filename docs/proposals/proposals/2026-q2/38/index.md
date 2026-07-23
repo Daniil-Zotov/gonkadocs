@@ -41,8 +41,8 @@ If you agree say YES — Solution 1: Produce a short review video with 1-2 activ
 <div class="prop-tally">
   <div class="prop-tally-bar">
     <div class="prop-tally-yes" style="width:0.0%"></div>
-    <div class="prop-tally-no" style="width:2.3%"></div>
-    <div class="prop-tally-veto" style="width:97.7%"></div>
+    <div class="prop-tally-no" style="width:0.0%"></div>
+    <div class="prop-tally-veto" style="width:1.1%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">

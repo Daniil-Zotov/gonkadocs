@@ -38,10 +38,10 @@ template: proposals-proposals-main.html
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:62.8%"></div>
-    <div class="prop-tally-no" style="width:0.3%"></div>
-    <div class="prop-tally-veto" style="width:10.2%"></div>
-    <div class="prop-tally-abstain" style="width:26.7%"></div>
+    <div class="prop-tally-yes" style="width:53.2%"></div>
+    <div class="prop-tally-no" style="width:0.2%"></div>
+    <div class="prop-tally-veto" style="width:8.7%"></div>
+    <div class="prop-tally-abstain" style="width:22.7%"></div>
   </div>
   <div class="prop-tally-stats">
     <span class="prop-tally-yes-text">Yes 395,003 (62.8%)</span>

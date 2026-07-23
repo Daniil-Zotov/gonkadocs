@@ -38,10 +38,10 @@ Distribute restitution for Kimi operators across epochs 265-276. Epochs 265-266:
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:78.9%"></div>
+    <div class="prop-tally-yes" style="width:43.1%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
-    <div class="prop-tally-veto" style="width:20.9%"></div>
-    <div class="prop-tally-abstain" style="width:0.2%"></div>
+    <div class="prop-tally-veto" style="width:11.4%"></div>
+    <div class="prop-tally-abstain" style="width:0.1%"></div>
   </div>
   <div class="prop-tally-stats">
     <span class="prop-tally-yes-text">Yes 319,920 (78.9%)</span>

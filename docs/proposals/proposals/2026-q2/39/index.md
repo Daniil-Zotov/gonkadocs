@@ -38,10 +38,10 @@ Saccade Media House is a creative team of tech entrepreneurs who know how to tel
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:76.0%"></div>
+    <div class="prop-tally-yes" style="width:53.2%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
-    <div class="prop-tally-abstain" style="width:24.0%"></div>
+    <div class="prop-tally-abstain" style="width:16.8%"></div>
   </div>
   <div class="prop-tally-stats">
     <span class="prop-tally-yes-text">Yes 394,971 (76.0%)</span>

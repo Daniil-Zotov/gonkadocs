@@ -64,9 +64,9 @@ This is a full-scale analytical deep-dive that builds genuine trust rather than 
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:53.4%"></div>
+    <div class="prop-tally-yes" style="width:13.2%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
-    <div class="prop-tally-veto" style="width:46.6%"></div>
+    <div class="prop-tally-veto" style="width:11.6%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">

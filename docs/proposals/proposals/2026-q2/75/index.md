@@ -112,7 +112,7 @@ IMPORTANT: This is a condensed version of the document and does not include many
   <div class="prop-tally-bar">
     <div class="prop-tally-yes" style="width:0.0%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
-    <div class="prop-tally-veto" style="width:100.0%"></div>
+    <div class="prop-tally-veto" style="width:42.3%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">

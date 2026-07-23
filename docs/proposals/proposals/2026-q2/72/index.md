@@ -39,10 +39,10 @@ Adds a community-operated wallet to devshard_escrow_params.allowed_creator_addre
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:2.2%"></div>
-    <div class="prop-tally-no" style="width:3.3%"></div>
-    <div class="prop-tally-veto" style="width:90.7%"></div>
-    <div class="prop-tally-abstain" style="width:3.9%"></div>
+    <div class="prop-tally-yes" style="width:0.7%"></div>
+    <div class="prop-tally-no" style="width:1.1%"></div>
+    <div class="prop-tally-veto" style="width:29.8%"></div>
+    <div class="prop-tally-abstain" style="width:1.3%"></div>
   </div>
   <div class="prop-tally-stats">
     <span class="prop-tally-yes-text">Yes 5,337 (2.2%)</span>
