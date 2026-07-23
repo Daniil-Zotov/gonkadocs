@@ -54,8 +54,6 @@ Brand identity system for Gonka.AI: logo, typography, color system, graphic lang
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

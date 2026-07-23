@@ -51,8 +51,6 @@ Expected amount of Confirmation PoC per epoch to 4, p0 for binomial test to 0.1
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

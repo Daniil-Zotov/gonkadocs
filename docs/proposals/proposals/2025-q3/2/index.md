@@ -53,8 +53,6 @@ This proposal introduces new Qwen3 models including Qwen3-32B-FP8 and Qwen3-235B
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

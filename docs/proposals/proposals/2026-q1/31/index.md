@@ -53,8 +53,6 @@ Upgrade Proposal: v0.2.11
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

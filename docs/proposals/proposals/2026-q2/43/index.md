@@ -56,8 +56,6 @@ Today, participating in Gonka governance requires following multiple channels si
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

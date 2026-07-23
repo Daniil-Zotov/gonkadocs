@@ -108,8 +108,6 @@ Governance may cancel the initiative at any time, in which case all remaining pa
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

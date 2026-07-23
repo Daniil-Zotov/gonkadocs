@@ -66,8 +66,6 @@ Governance holds an option to cancel the initiative and returns all remaining fu
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

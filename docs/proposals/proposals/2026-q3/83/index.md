@@ -51,8 +51,6 @@ Update current chain params by adding v3 to devshard_escrow_params.approved_vers
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

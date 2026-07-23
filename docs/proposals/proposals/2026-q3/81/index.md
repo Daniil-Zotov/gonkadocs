@@ -56,8 +56,6 @@ Distribute restitution for Kimi operators affected by cPoC validation failure in
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

@@ -51,8 +51,6 @@ Higher Bandwidth Limits & Voting Time Back to 24H
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

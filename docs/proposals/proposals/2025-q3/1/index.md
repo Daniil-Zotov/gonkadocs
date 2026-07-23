@@ -53,8 +53,6 @@ Proposal updates epoch_length and restrictions length according to real block le
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

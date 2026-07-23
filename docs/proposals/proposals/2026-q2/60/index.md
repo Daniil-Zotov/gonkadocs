@@ -54,8 +54,6 @@ Brand audit, competitive positioning, and audience segmentation for Gonka.AI. Si
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

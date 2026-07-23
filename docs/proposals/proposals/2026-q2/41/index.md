@@ -68,8 +68,6 @@ Full proposal and discussion: <https://github.com/gonka-ai/gonka/discussions/108
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

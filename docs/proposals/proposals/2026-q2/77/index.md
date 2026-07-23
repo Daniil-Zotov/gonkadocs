@@ -54,8 +54,6 @@ We are INPUT Global - a leading web3 marketing communications agency. We offer 3
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

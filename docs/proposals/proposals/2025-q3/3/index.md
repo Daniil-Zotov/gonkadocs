@@ -55,8 +55,6 @@ Proposal updates poc_validation_duration from 20 to 100.
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

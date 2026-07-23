@@ -56,8 +56,6 @@ If you are against MLM projects around gonka.ai, vote YES. All funds will be use
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

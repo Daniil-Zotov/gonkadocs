@@ -54,8 +54,6 @@ Retroactive 20K GNK bounty for an open-sourced PoC optimization measuring +10.2%
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

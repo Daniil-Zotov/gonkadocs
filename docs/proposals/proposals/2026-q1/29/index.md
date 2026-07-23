@@ -55,8 +55,6 @@ Remove TransferAgent allowlist restrictions (empty list = all TAs allowed) and i
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

@@ -60,8 +60,6 @@ Notes. The proposer takes no fee — every ngonka returns to the miners. Hamilto
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

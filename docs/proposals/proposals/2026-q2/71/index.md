@@ -56,8 +56,6 @@ We're a comms team specializing in Organic PR for crypto and tech projects. With
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

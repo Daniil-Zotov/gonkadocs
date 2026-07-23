@@ -93,8 +93,6 @@ Additional materials, proof of our work, landing page examples, creatives, adver
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

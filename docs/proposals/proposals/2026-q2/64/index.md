@@ -54,8 +54,6 @@ Web analytics, attribution, and funnel dashboarding for Gonka.AI: GA4 implementa
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

@@ -53,8 +53,6 @@ Bandwidth Limits
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

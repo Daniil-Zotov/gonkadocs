@@ -56,8 +56,6 @@ Replace scattered governance discussions and complex CLI voting with a unified G
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

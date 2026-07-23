@@ -53,8 +53,6 @@ During the Kimi-K2.6 bootstrap, the 30% direct participation threshold proved ha
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

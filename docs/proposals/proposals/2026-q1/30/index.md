@@ -55,8 +55,6 @@ Testing governance voting from the wallet app.
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

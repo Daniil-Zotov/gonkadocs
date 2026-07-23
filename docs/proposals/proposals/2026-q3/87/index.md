@@ -53,8 +53,6 @@ Remove moonshotai/Kimi-K2.6 from PoC params and delete it from the governance mo
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

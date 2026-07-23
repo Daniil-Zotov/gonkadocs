@@ -64,8 +64,6 @@ Full proposal: <https://app.notion.com/p/Gonka-AI-AI-Influencer-Lab-Proposal-351
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

@@ -56,8 +56,6 @@ If you agree say YES — Solution 1: Produce a short review video with 1-2 activ
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

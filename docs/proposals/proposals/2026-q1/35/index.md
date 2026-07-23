@@ -74,8 +74,6 @@ Full presentation:
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

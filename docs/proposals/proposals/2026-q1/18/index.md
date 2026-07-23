@@ -55,8 +55,6 @@ Test proposal
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

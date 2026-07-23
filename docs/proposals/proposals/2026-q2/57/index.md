@@ -87,8 +87,6 @@ The Foundation's legal structure, responsibilities, accountability model, treasu
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

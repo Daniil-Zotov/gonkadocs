@@ -93,8 +93,6 @@ Live walkthrough on YouTube (by Gonka.Top@Mitch): <https://www.youtube.com/watch
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

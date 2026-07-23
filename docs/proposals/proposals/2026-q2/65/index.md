@@ -54,8 +54,6 @@ Full 360-degree digital and social strategy for Gonka.AI: channel matrix, conten
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

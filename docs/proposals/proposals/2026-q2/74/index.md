@@ -70,8 +70,6 @@ Full proposal: <https://gonkalabs.com/proposal>
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

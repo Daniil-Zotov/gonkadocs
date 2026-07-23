@@ -56,8 +56,6 @@ Restitution payout for confirmed GRC Proposal #3 cases, with Case 05 payments fr
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

@@ -53,8 +53,6 @@ Expedite voting for upgrades
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

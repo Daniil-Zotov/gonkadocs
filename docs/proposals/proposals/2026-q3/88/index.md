@@ -53,8 +53,6 @@ Update current chain params to register moonshotai/Kimi-K2.6 in the governance m
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

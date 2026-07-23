@@ -54,8 +54,6 @@ Crypto-influencer pilot campaign for Gonka.AI across selected tier-1 creators, w
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

@@ -60,8 +60,6 @@ Contract: code_id 107, checksum 94b141625b7641e6ad57266420b18a4af72eac49b8110cb9
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

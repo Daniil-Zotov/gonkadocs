@@ -126,8 +126,6 @@ IMPORTANT: This is a condensed version of the document and does not include many
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

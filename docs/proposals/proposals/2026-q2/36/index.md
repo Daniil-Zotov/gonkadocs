@@ -51,8 +51,6 @@ Register IBC token metadata and approve the denomination for trading on Gonka ma
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

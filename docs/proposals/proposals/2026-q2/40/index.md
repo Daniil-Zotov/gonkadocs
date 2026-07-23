@@ -51,8 +51,6 @@ This proposal updates x/gov: the standard voting period becomes 48 hours (was 24
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

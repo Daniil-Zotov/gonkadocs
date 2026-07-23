@@ -53,8 +53,6 @@ Increase the minimum deposit required to submit a governance proposal from the c
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

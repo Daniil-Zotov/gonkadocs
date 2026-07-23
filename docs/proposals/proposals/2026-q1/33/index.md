@@ -54,8 +54,6 @@ Distribute compensation for CPoC bug affected participants in epochs 132-133.
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

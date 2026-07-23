@@ -55,8 +55,6 @@ Adds a community-operated wallet to devshard_escrow_params.allowed_creator_addre
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

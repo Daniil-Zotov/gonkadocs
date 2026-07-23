@@ -54,8 +54,6 @@ Full redesign of gonka.ai plus dedicated landing pages for miners, inference buy
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

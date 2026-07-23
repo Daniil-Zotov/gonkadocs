@@ -56,8 +56,6 @@ Release 246,000 GNK from Community Fund to finalize GNK Racers — a multiplayer
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

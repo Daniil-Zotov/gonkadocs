@@ -51,8 +51,6 @@ Increase the minimum deposit required to submit a governance proposal to 500 GNK
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

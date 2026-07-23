@@ -53,8 +53,6 @@ Set delegation initial_model_id to MiniMaxAI/MiniMax-M2.7, keep only MiniMaxAI/M
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

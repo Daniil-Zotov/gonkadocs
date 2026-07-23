@@ -70,8 +70,6 @@ Full proposal: <https://vote.gonka.vip/tenders/550f71de-897f-4ce5-8af8-97854775f
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

@@ -56,8 +56,6 @@ Funds milestone 1 (upfront prepayment) of a community-produced onboarding video 
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

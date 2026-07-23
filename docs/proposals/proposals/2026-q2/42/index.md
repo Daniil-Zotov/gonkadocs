@@ -54,8 +54,6 @@ We are DeAI Nation, a global nonprofit organization supporting and promoting the
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

@@ -54,8 +54,6 @@ Distribute restitution for Cases 2, 3, and 4 across epochs 248-254. Case 2: pres
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

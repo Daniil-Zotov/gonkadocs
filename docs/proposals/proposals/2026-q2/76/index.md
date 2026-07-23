@@ -52,8 +52,6 @@ Register devshard approved version v2.
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

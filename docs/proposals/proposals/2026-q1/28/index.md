@@ -53,8 +53,6 @@ template: proposals-proposals-main.html
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

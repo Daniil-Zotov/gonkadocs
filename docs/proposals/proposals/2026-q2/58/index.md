@@ -80,8 +80,6 @@ This is a full-scale analytical deep-dive that builds genuine trust rather than 
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

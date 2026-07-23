@@ -52,8 +52,6 @@ Sale GNK from Community Fund
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |

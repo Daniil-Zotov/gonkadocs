@@ -51,8 +51,6 @@ Increase the weight_scale_factor for moonshotai/Kimi-K2.6 from 0.90 to 0.945 (+5
 </div>
 
 
----
-
 ## Messages
 
 | # | Type |
