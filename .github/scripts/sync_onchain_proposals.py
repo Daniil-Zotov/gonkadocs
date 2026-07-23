@@ -490,7 +490,12 @@ def generate_proposal_page(proposal, prop_dir, total_voting_power=0):
     # Tally section if voting period ended
     tally_html = ""
     if total_votes > 0:
-        pct = lambda v: f"{(v / total_votes * 100):.1f}%" if total_votes > 0 else "0%"
+        stat_pct = lambda v: f"{(v / total_votes * 100):.1f}%" if total_votes > 0 else "0%"
+        if total_voting_power > 0:
+            _vp = total_voting_power
+            bar_pct = lambda v: f"{v / _vp * 100:.1f}%"
+        else:
+            bar_pct = lambda v: f"{v / total_votes * 100:.1f}%" if total_votes > 0 else "0%"
         _turnout_line = ""
         if total_voting_power > 0 and voting_end_iso and voting_end_iso[:10] >= QUORUM_CUTOFF:
             turnout_pct = total_votes / total_voting_power * 100
@@ -501,16 +506,16 @@ def generate_proposal_page(proposal, prop_dir, total_voting_power=0):
         tally_html = f"""
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:{pct(yes_count)}"></div>
-    <div class="prop-tally-no" style="width:{pct(no_count)}"></div>
-    <div class="prop-tally-veto" style="width:{pct(no_with_veto_count)}"></div>
-    <div class="prop-tally-abstain" style="width:{pct(abstain_count)}"></div>
+    <div class="prop-tally-yes" style="width:{bar_pct(yes_count)}"></div>
+    <div class="prop-tally-no" style="width:{bar_pct(no_count)}"></div>
+    <div class="prop-tally-veto" style="width:{bar_pct(no_with_veto_count)}"></div>
+    <div class="prop-tally-abstain" style="width:{bar_pct(abstain_count)}"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes {yes_count:,} ({pct(yes_count)})</span>
-    <span class="prop-tally-no-text">No {no_count:,} ({pct(no_count)})</span>
-    <span class="prop-tally-veto-text">Veto {no_with_veto_count:,} ({pct(no_with_veto_count)})</span>
-    <span class="prop-tally-abstain-text">Abstain {abstain_count:,} ({pct(abstain_count)})</span>
+    <span class="prop-tally-yes-text">Yes {yes_count:,} ({stat_pct(yes_count)})</span>
+    <span class="prop-tally-no-text">No {no_count:,} ({stat_pct(no_count)})</span>
+    <span class="prop-tally-veto-text">Veto {no_with_veto_count:,} ({stat_pct(no_with_veto_count)})</span>
+    <span class="prop-tally-abstain-text">Abstain {abstain_count:,} ({stat_pct(abstain_count)})</span>
     <span class="prop-tally-total-text">Total {total_votes:,} votes</span>
     {_turnout_line}
   </div>
