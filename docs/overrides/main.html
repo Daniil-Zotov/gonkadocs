@@ -191,6 +191,12 @@
       }
       initCommunityNav();
       initCountdowns();
+      // Hide right sidebar on proposal overview pages
+      var sidebars = document.querySelectorAll('.md-sidebar--secondary');
+      var hasOverview = !!document.querySelector('.prop-oview-filter');
+      sidebars.forEach(function(sb) {
+        sb.style.display = hasOverview ? 'none' : '';
+      });
 
       // Inject language switcher when navigating from main site to Gonka section
       // (instant navigation preserves the main header, which lacks the switcher)

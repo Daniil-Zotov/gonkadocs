@@ -1,12 +1,12 @@
 {% extends "main.html" %}
 
-{% block extrahead %}
+{% block content %}
+  {{ super() }}
+{% endblock %}
+
+{% block scripts %}
 {{ super() }}
 <style>
-  .md-sidebar--secondary {
-    display: none !important;
-  }
-
   .md-content {
     max-width: none !important;
   }
@@ -48,14 +48,6 @@
     display: block;
   }
 </style>
-{% endblock %}
-
-{% block content %}
-  {{ super() }}
-{% endblock %}
-
-{% block scripts %}
-{{ super() }}
 <script>
 function quarterCount(quarter) {
   return quarter.querySelectorAll('.prop-card').length;
