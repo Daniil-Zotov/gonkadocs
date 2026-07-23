@@ -24542,7 +24542,7 @@ Bidders MUST submit:
 
 89Total Proposals
 58Passed (65%)
-29Rejected (33%)
+30Rejected (34%)
 1Failed (1%)
 
 Funding / Grants39
@@ -24560,8 +24560,7 @@ Models / IBC2
 
   
     #90 – Partnerships with Inference Resellers, B2C users acquisition and conversion funnels analytics setup
-    
-    Voting
+    Rejected
   
   
     Submitted 2026-07-21
@@ -25561,7 +25560,7 @@ Models / IBC2
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-89 proposals across 5 quarters. Last updated: 2026-07-23 15:20 UTC
+89 proposals across 5 quarters. Last updated: 2026-07-23 15:40 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -59903,7 +59902,7 @@ Contract Details
 
 11Total Proposals
 6Passed (55%)
-4Rejected (36%)
+5Rejected (45%)
 
 Funding / Grants5
 Governance Parameters4
@@ -59917,8 +59916,7 @@ GRC / Restitution1
 
   
     #90 – Partnerships with Inference Resellers, B2C users acquisition and conversion funnels analytics setup
-    
-    Voting
+    Rejected
   
   
     Submitted 2026-07-21
@@ -63311,7 +63309,7 @@ Voting: [https://gonka.vote/governance/90](https://gonka.vote/governance/90)
 
 # #90 – Partnerships with Inference Resellers, B2C users acquisition and conversion funnels analytics setup
 
-Voting
+Rejected
 
 **Proposal ID:** `90`
 
@@ -63324,6 +63322,8 @@ Voting
 **Proposer:** [`gonka1vfafh4jq674227q8j0h33fwz4jmgtxmp4vsd93`](https://gonka.gg/address/gonka1vfafh4jq674227q8j0h33fwz4jmgtxmp4vsd93){:target="_blank"}
 
 **Metadata:** [https://app.integrity.sh/p/NLgLEHfL8Msoz0nh2-_Tf](https://app.integrity.sh/p/NLgLEHfL8Msoz0nh2-_Tf)
+
+**Failed reason:** proposal did not get enough votes to pass
 
 240,000 GNK · $57,000 · Community Pool
 
