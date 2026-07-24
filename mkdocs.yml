@@ -281,6 +281,8 @@ markdown_extensions:
   - pymdownx.caret
 
 extra:
+  version:
+    provider:
   tabs:
     - title: Gonka.ai/docs
       url: /gonka/docs/
