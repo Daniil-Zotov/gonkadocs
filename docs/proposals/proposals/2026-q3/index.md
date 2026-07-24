@@ -64,8 +64,8 @@ template: proposals-oview.html
     <span>Voting ends 2026-07-24</span>
   </div>
   <div class="prop-card-desc">Set max_signing_attempts to 1 and signing_deadline_blocks to 60 epoch lengths (923460 blocks) to mitigate a theoretical risk identified in a security report. Historically, retries have never been need…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 143,494 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout 143,494 / 569,511 (25.2%) · Quorum 25% (142,377)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 243,165 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout 243,165 / 569,511 (42.7%) · Quorum 25% (142,377)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">

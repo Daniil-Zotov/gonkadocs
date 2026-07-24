@@ -37,18 +37,18 @@ Set max_signing_attempts to 1 and signing_deadline_blocks to 60 epoch lengths (9
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:25.2%"></div>
+    <div class="prop-tally-yes" style="width:42.7%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes 143,494 (100.0%)</span>
+    <span class="prop-tally-yes-text">Yes 243,165 (100.0%)</span>
     <span class="prop-tally-no-text">No 0 (0.0%)</span>
     <span class="prop-tally-veto-text">Veto 0 (0.0%)</span>
     <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span>
-    <span class="prop-tally-total-text">Total 143,494 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout 143,494 / 569,511 (25.2%) · Quorum 25% (142,377)</span>
+    <span class="prop-tally-total-text">Total 243,165 votes</span>
+    <span class="prop-tally-yes-text">✓ Turnout 243,165 / 569,511 (42.7%) · Quorum 25% (142,377)</span>
   </div>
 </div>
 
@@ -61,6 +61,7 @@ Set max_signing_attempts to 1 and signing_deadline_blocks to 60 epoch lengths (9
 <thead><tr><th>Voter</th><th>Vote</th></tr></thead>
 <tbody>
 <tr><td><a href="https://gonka.gg/address/gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le" target="_blank" class="prop-voter-addr">gonka1y2a9p5…ryv5le</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
+<tr><td><a href="https://gonka.gg/address/gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr" target="_blank" class="prop-voter-addr">gonka1gvrrhj…d2v4zr</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1dkl4mah5erqggvhqkpc8j3qs5tyuetgdy552cp" target="_blank" class="prop-voter-addr">gonka1dkl4ma…y552cp</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1kx9mca3xm8u8ypzfuhmxey66u0ufxhs7nm6wc5" target="_blank" class="prop-voter-addr">gonka1kx9mca…nm6wc5</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 </tbody>
