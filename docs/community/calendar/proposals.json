@@ -1070,13 +1070,13 @@
   {
     "date": "2026-07-24",
     "category": "governance",
-    "type": "proposal_vote_end",
-    "title": "Voting ends: #91 – Temporarily update BLS signing parameters",
+    "type": "proposal_report",
+    "title": "Passed: #91 – Temporarily update BLS signing parameters",
     "url": "/proposals/proposals/2026-q3/91/",
     "time": "05:23 UTC",
     "description": "Set max_signing_attempts to 1 and signing_deadline_blocks to 60 epoch lengths (923460 blocks) to mitigate a theoretical risk identified in a security report. Historically, retries have never been need…",
     "tags": [
-      "voting"
+      "passed"
     ]
   }
 ]
