@@ -17458,7 +17458,7 @@ If you have the opportunity and desire to be part of the committee — please co
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-07-24 02:28 UTC
+2026-07-24 05:45 UTC
 
 ---
 
@@ -17512,7 +17512,7 @@ curl -s https://node3.gonka.ai/chain-api/cosmos/bank/v1beta1/balances/gonka18pkq
 
 **Address:** [`gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33`](https://gonka.gg/address/gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33)
 
-Current balance: 2,473,417 GNK
+Current balance: 2,472,417 GNK
 
 The Gov Module authority is the only address permitted to execute `MsgCommunityPoolSpend` transfers from the Community Pool. When a governance proposal passes, this address signs and sends the requested funds to the specified recipient.
 
@@ -24552,7 +24552,7 @@ Bidders MUST submit:
 ## Overview
 
 90Total Proposals
-58Passed (64%)
+59Passed (66%)
 30Rejected (33%)
 1Failed (1%)
 
@@ -24571,8 +24571,7 @@ Models / IBC2
 
   
     #91 – Temporarily update BLS signing parameters
-    
-    Voting
+    Passed
   
   
     Submitted 2026-07-23
@@ -25584,7 +25583,7 @@ Models / IBC2
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-90 proposals across 5 quarters. Last updated: 2026-07-24 01:12 UTC
+90 proposals across 5 quarters. Last updated: 2026-07-24 06:30 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -59793,7 +59792,7 @@ Contract Details
 ## 2026-Q3 Summary
 
 12Total Proposals
-6Passed (50%)
+7Passed (58%)
 5Rejected (42%)
 
 Governance Parameters5
@@ -59808,8 +59807,7 @@ GRC / Restitution1
 
   
     #91 – Temporarily update BLS signing parameters
-    
-    Voting
+    Passed
   
   
     Submitted 2026-07-23
@@ -60434,7 +60432,7 @@ Contract Details
 
 # #91 – Temporarily update BLS signing parameters
 
-Voting
+Passed
 
 **Proposal ID:** `91`
 
