@@ -6,7 +6,7 @@ template: issues-main.html
 # Issues: Priority: High
 
 Issues with label **Priority: High**. Total: **29**.
-Updated: `2026-07-24 00:17 UTC`.
+Updated: `2026-07-24 03:52 UTC`.
 
 [← All Issues](../../index.md)
 
@@ -96,7 +96,7 @@ Updated: `2026-07-24 00:17 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span> <span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 29 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-06-24</span>
       
     </div>
   </div>
