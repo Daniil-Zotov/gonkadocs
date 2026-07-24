@@ -268,6 +268,17 @@
     }
   }
 
+  function linkify(text) {
+    if (!text) return '';
+    var escaped = escHtml(text);
+    return escaped.replace(
+      /(https?:\/\/[^\s<]+)/g,
+      function(url) {
+        return '<a href="' + url + '" target="_blank" rel="noopener">' + url + '</a>';
+      }
+    );
+  }
+
   function eventHTML(e) {
     var color = CATEGORY_COLORS[e.category] || '#24292f';
     var tLabel = typeLabel(e.type);
@@ -290,7 +301,7 @@
     }
 
     if (e.description) {
-      s += '<div class="cal-event-desc">' + escHtml(e.description) + '</div>';
+      s += '<div class="cal-event-desc">' + linkify(e.description) + '</div>';
     }
 
     if (e.tags && e.tags.length) {
