@@ -129,6 +129,8 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [#59 – Gonka Onboarding Video Guide — Milestone 1 (Prepayment)](/proposals/proposals/2026-q2/59/): Auto-synced content
 - [#71 – Gonka PR Proposal for US/Global Regions](/proposals/proposals/2026-q2/71/): Auto-synced content
 - [#77 – Gonka PR Proposal for US/Global Regions](/proposals/proposals/2026-q2/77/): Auto-synced content
+- [Weekly Report — 13-17 July](/proposals/proposals/2026-q2/77/report1/): Auto-synced content
+- [Weekly Report — 20–24 July](/proposals/proposals/2026-q2/77/report2/): Auto-synced content
 - [Full Proposal](/proposals/proposals/2026-q2/64/full-proposal/): Auto-synced content
 - [#64 – TheSoul - Offer 2.2: Analytics and attribution (28,000 GNK)](/proposals/proposals/2026-q2/64/): Auto-synced content
 - [#40 – Governance: extend voting period to 48 hours](/proposals/proposals/2026-q2/40/): Auto-synced content

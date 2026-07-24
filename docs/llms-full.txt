@@ -17927,7 +17927,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-07-24 15:42 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-07-24 17:47 UTC*
 
 ---
 
@@ -25583,7 +25583,7 @@ Models / IBC2
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-90 proposals across 5 quarters. Last updated: 2026-07-24 16:50 UTC
+90 proposals across 5 quarters. Last updated: 2026-07-24 17:40 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -42047,6 +42047,44 @@ Contract Details
   }
 ]
 ```
+
+---
+
+## Weekly Report — 13-17 July
+
+# Weekly Report — 13-17 July
+
+**Дата публикации:** 2026-07-17
+
+---
+
+- Мы поделились нашей контент-стратегией и получили ряд предложений от комитета. Мы активно используем ее в питчинге СМИ.
+- Мы использовали присутствие братьев Либерман на WebX на этой неделе и организовали 2 интервью: одно с MPost и одно с Blockchain Reporter. Материал MPost уже опубликован, ссылку мы делились в другом треде.
+- Мы также согласовали 2 авторские колонки для братьев Либерман — для The AI Journal и Securities.io, они сейчас находятся в процессе подготовки.
+- Мы также начали контакт с рядом ревью- и листикл-площадок и сообщим об обратной связи по мере ее получения.
+- Мы также начали питчинг братьев Либерман для ведущих мировых компаний в сфере AI, Web3 и технологий. Будем держать вас в курсе по мере получения ответов.
+
+Ожидает согласования
+
+- Мы ожидаем удобное время для еженедельного звонка.
+
+Всем хороших выходных!
+
+---
+
+## Weekly Report — 20–24 July
+
+# Weekly Report — 20–24 July
+
+**Дата публикации:** 2026-07-24
+
+---
+
+- Интервью братьев Либерман, организованное на конференции WebX, опубликовано в Blockchain Reporter. Материал также получил синдикацию в блоге Binance - это поможет увеличению охвата публикации.
+- Мы передали авторскую колонку братьев Либерман в The AI Journal для публикации. Поделимся ссылкой, когда материал выйдет в медиа.
+- Мы засекьюрили участие Gonka в двух листикл-материалах — в Analytics Insight и CryptoDaily. Сейчас ждем детали от редакторов.
+
+Всем хороших выходных!
 
 ---
 
