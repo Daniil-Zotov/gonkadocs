@@ -17458,7 +17458,7 @@ If you have the opportunity and desire to be part of the committee — please co
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-07-23 22:06 UTC
+2026-07-23 23:56 UTC
 
 ---
 
@@ -25584,7 +25584,7 @@ Models / IBC2
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-90 proposals across 5 quarters. Last updated: 2026-07-23 22:40 UTC
+90 proposals across 5 quarters. Last updated: 2026-07-23 23:42 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
