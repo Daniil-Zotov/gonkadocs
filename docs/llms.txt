@@ -77,7 +77,6 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [Announcements](/gonka/docs/network-updates/): Auto-synced content
 - [Report a Vulnerability](/gonka/docs/report-vulnerability/): Auto-synced content
 - [Sign Up](/gonka/docs/signup/): Auto-synced content
-- [Wallet & Transfer Guide](/gonka/docs/wallet/wallet-and-transfer-guide/): Auto-synced content
 - [Addresses and keys](/gonka/docs/cross-chain-transfers/ethereum-bridge/addresses-and-keys/): Auto-synced content
 - [Bridge epoch update](/gonka/docs/cross-chain-transfers/ethereum-bridge/bridge-epoch-update/): Auto-synced content
 - [Bridge via dashboard (UI guide)](/gonka/docs/cross-chain-transfers/ethereum-bridge/dashboard/): Auto-synced content
@@ -93,6 +92,7 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [Multiple nodes](/gonka/docs/host/multiple-nodes/): Auto-synced content
 - [[Optional] SSL Setup](/gonka/docs/host/optional-ssl-setup/): Auto-synced content
 - [Proposals](/gonka/docs/host/proposals/): Auto-synced content
+- [Wallet & Transfer Guide](/gonka/docs/wallet/wallet-and-transfer-guide/): Auto-synced content
 
 ## Community Documentation
 
@@ -103,9 +103,9 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 ### Additional Pages (auto-synced)
 
 - [**Устав Комитета поддержки самоуправления**](/community/governance support committee/regulation/): Auto-synced content
-- [Go-to-market committee: состав и экспертиза](/community/go-to-market committee/members/): Auto-synced content
-- [Index](/community/calendar/): Auto-synced content
 - [Index](/community/activity/): Auto-synced content
+- [Index](/community/calendar/): Auto-synced content
+- [Go-to-market committee: состав и экспертиза](/community/go-to-market committee/members/): Auto-synced content
 
 ## On-Chain Proposals
 
@@ -116,148 +116,148 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [Community Pool](/proposals/community pool/): Auto-synced content
 - [Pipeline](/proposals/pipeline/): Auto-synced content
 - [On-Chain Governance Proposals](/proposals/proposals/): Auto-synced content
+- [2026-Q2 Proposals](/proposals/proposals/2026-q2/): Auto-synced content
+- [Gonka Withheld Rewards Redistribution](/proposals/proposals/2026-q2/46/full-proposal/): Auto-synced content
+- [#46 – Epochs 132-247 compensation payout from gov module (batch vesting)](/proposals/proposals/2026-q2/46/): Auto-synced content
+- [#39 – Community Series Film — Why Gonka Exists](/proposals/proposals/2026-q2/39/): Auto-synced content
+- [Gonka Node Observability Platform](/proposals/proposals/2026-q2/41/full-proposal/): Auto-synced content
+- [#41 – INC4 | Gonka Node Observability Platform](/proposals/proposals/2026-q2/41/): Auto-synced content
+- [#69 – Increase minimum governance deposit to 500 GNK](/proposals/proposals/2026-q2/69/): Auto-synced content
+- [#58 – Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)](/proposals/proposals/2026-q2/58/): Auto-synced content
+- [Full Proposal](/proposals/proposals/2026-q2/60/full-proposal/): Auto-synced content
+- [#60 – TheSoul - Offer 1.1: Brand positioning (25,000 USDT)](/proposals/proposals/2026-q2/60/): Auto-synced content
+- [#59 – Gonka Onboarding Video Guide — Milestone 1 (Prepayment)](/proposals/proposals/2026-q2/59/): Auto-synced content
+- [#71 – Gonka PR Proposal for US/Global Regions](/proposals/proposals/2026-q2/71/): Auto-synced content
+- [#77 – Gonka PR Proposal for US/Global Regions](/proposals/proposals/2026-q2/77/): Auto-synced content
+- [Full Proposal](/proposals/proposals/2026-q2/64/full-proposal/): Auto-synced content
+- [#64 – TheSoul - Offer 2.2: Analytics and attribution (28,000 GNK)](/proposals/proposals/2026-q2/64/): Auto-synced content
+- [#40 – Governance: extend voting period to 48 hours](/proposals/proposals/2026-q2/40/): Auto-synced content
+- [Full Proposal](/proposals/proposals/2026-q2/57/full-proposal/): Auto-synced content
+- [#57 – Approve the Gonka Network Development Roadmap](/proposals/proposals/2026-q2/57/): Auto-synced content
+- [#66 – test proposal - 测试方案](/proposals/proposals/2026-q2/66/): Auto-synced content
+- [#76 – Governance 16: devshard v2 and bounty payouts](/proposals/proposals/2026-q2/76/): Auto-synced content
+- [Support Gonka at Global Compute Sovereignty Summit](/proposals/proposals/2026-q2/42/full-proposal/): Auto-synced content
+- [#42 – Support Gonka at Global Compute Sovereignty Summit](/proposals/proposals/2026-q2/42/): Auto-synced content
+- [Run any epoch's calculator](/proposals/proposals/2026-q2/67/full-proposal/): Auto-synced content
+- [#67 – Kimi Restitution (epochs 265-276)](/proposals/proposals/2026-q2/67/): Auto-synced content
+- [Full Proposal](/proposals/proposals/2026-q2/61/full-proposal/): Auto-synced content
+- [#61 – TheSoul - Offer 1.2: Brandbook (20,000 USDT)](/proposals/proposals/2026-q2/61/): Auto-synced content
+- [#72 – Open devshard escrow creation to community wallet gonka1afj0tz53z56zngs425m83vxl5y2xmwm692hfrn](/proposals/proposals/2026-q2/72/): Auto-synced content
+- [Full Proposal](/proposals/proposals/2026-q2/70/full-proposal/): Auto-synced content
+- [#70 – GNK Racers: Launch GameFi Mini-App to Drive User Growth & Wallet Activity](/proposals/proposals/2026-q2/70/): Auto-synced content
+- [#48 – Lower Direct Participation Threshold to 10%](/proposals/proposals/2026-q2/48/): Auto-synced content
+- [Community Funding Proposal — Gonka Labs — Year One](/proposals/proposals/2026-q2/74/full-proposal/): Auto-synced content
+- [#74 – Gonka Labs: Maintaining Infrastructure, Improving Products, and Launching New Ones](/proposals/proposals/2026-q2/74/): Auto-synced content
+- [Gonka Labs — Monthly Report No.1](/proposals/proposals/2026-q2/74/report1/): Auto-synced content
+- [#45 – Governance Architecture Proposal for the Gonka.ai Network](/proposals/proposals/2026-q2/45/): Auto-synced content
+- [#37 – What is your stance on MLM projects around gonka.ai?](/proposals/proposals/2026-q2/37/): Auto-synced content
+- [#75 – Private Inc × Gonka — Network Growth Initiative](/proposals/proposals/2026-q2/75/): Auto-synced content
+- [#73 – Increase minimum governance deposit to 500 GNK and expedited minimum deposit to 1000 GNK](/proposals/proposals/2026-q2/73/): Auto-synced content
+- [#79 – Add Kimi K2.6 and GLM 5.2 model](/proposals/proposals/2026-q2/79/): Auto-synced content
+- [Full Proposal](/proposals/proposals/2026-q2/62/full-proposal/): Auto-synced content
+- [#62 – TheSoul - Offer 1.3: Influencer pilot (50,000 USDT)](/proposals/proposals/2026-q2/62/): Auto-synced content
+- [#68 – Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)](/proposals/proposals/2026-q2/68/): Auto-synced content
+- [#78 – Governance 17: update PoC model lineup](/proposals/proposals/2026-q2/78/): Auto-synced content
+- [Full Proposal](/proposals/proposals/2026-q2/65/full-proposal/): Auto-synced content
+- [#65 – TheSoul - Offer 2.3: Digital strategy (100,000 GNK)](/proposals/proposals/2026-q2/65/): Auto-synced content
+- [#50 – Retroactive bounty: open-source PoC throughput optimization (+10–12% measured) with 250 total installations](/proposals/proposals/2026-q2/50/): Auto-synced content
+- [Upgrade Proposal: v0.2.13](/proposals/proposals/2026-q2/52/full-proposal/): Auto-synced content
+- [#52 – Upgrade Proposal: v0.2.13](/proposals/proposals/2026-q2/52/): Auto-synced content
+- [#43 – Governance Architecture Proposal for the Gonka.ai Network](/proposals/proposals/2026-q2/43/): Auto-synced content
+- [Support Gonka's Presence at WebX Asia](/proposals/proposals/2026-q2/51/full-proposal/): Auto-synced content
+- [#51 – Support Gonka's presence at WebX Asia](/proposals/proposals/2026-q2/51/): Auto-synced content
+- [Upgrade Proposal: v0.2.12](/proposals/proposals/2026-q2/44/full-proposal/): Auto-synced content
+- [#44 – Upgrade Proposal: v0.2.12](/proposals/proposals/2026-q2/44/): Auto-synced content
+- [Full Proposal](/proposals/proposals/2026-q2/63/full-proposal/): Auto-synced content
+- [#63 – TheSoul - Offer 2.1: Website and landings (10,000 USDT)](/proposals/proposals/2026-q2/63/): Auto-synced content
+- [#38 – CryptoCommons: Community Support & Token Promotion Plan](/proposals/proposals/2026-q2/38/): Auto-synced content
+- [#47 – Retroactive bounty: open-source PoC throughput optimization (+10–12% measured) with 250 total installations](/proposals/proposals/2026-q2/47/): Auto-synced content
+- [Full Proposal](/proposals/proposals/2026-q2/55/full-proposal/): Auto-synced content
+- [#55 – GRC Proposal #2 - Restitution (epochs 248-254)](/proposals/proposals/2026-q2/55/): Auto-synced content
+- [Gonka NOP - grant for the node deployment tool](/proposals/proposals/2026-q2/56/full-proposal/): Auto-synced content
+- [#56 – INC4 | Gonka NOP - grant for the node deployment tool](/proposals/proposals/2026-q2/56/): Auto-synced content
+- [#49 – Gonka Media Dominance in TechL/AI with 5 AI Influencers](/proposals/proposals/2026-q2/49/): Auto-synced content
+- [ICG — AI Avatars Monthly Report No.1](/proposals/proposals/2026-q2/49/report1/): Auto-synced content
+- [#36 – Register Kava USDT IBC metadata and approve for trading](/proposals/proposals/2026-q2/36/): Auto-synced content
+- [Gonka NOP - grant for the node deployment tool](/proposals/proposals/2026-q2/53/full-proposal/): Auto-synced content
+- [#53 – INC4 | Gonka NOP - grant for the node deployment tool](/proposals/proposals/2026-q2/53/): Auto-synced content
+- [Upgrade Proposal: v0.2.13](/proposals/proposals/2026-q2/54/full-proposal/): Auto-synced content
+- [#54 – Upgrade Proposal: v0.2.13](/proposals/proposals/2026-q2/54/): Auto-synced content
+- [2026-Q1 Proposals](/proposals/proposals/2026-q1/): Auto-synced content
+- [#18 – Test](/proposals/proposals/2026-q1/18/): Auto-synced content
+- [Upgrade Proposal: v0.2.8](/proposals/proposals/2026-q1/25/full-proposal/): Auto-synced content
+- [#25 – Upgrade Proposal: v0.2.8](/proposals/proposals/2026-q1/25/): Auto-synced content
+- [#20 – Enable Whitelist](/proposals/proposals/2026-q1/20/): Auto-synced content
+- [#35 – gonka.ai / TheSoul social media awareness project](/proposals/proposals/2026-q1/35/): Auto-synced content
+- [#28 – Collateral Parameters Update](/proposals/proposals/2026-q1/28/): Auto-synced content
+- [#21 – Fix mistakes in allowlist](/proposals/proposals/2026-q1/21/): Auto-synced content
+- [Upgrade Proposal: v0.2.8](/proposals/proposals/2026-q1/24/full-proposal/): Auto-synced content
+- [#24 – Upgrade Proposal: v0.2.8](/proposals/proposals/2026-q1/24/): Auto-synced content
+- [Upgrade Proposal: v0.2.10](/proposals/proposals/2026-q1/27/full-proposal/): Auto-synced content
+- [#27 – Upgrade Proposal: v0.2.10](/proposals/proposals/2026-q1/27/): Auto-synced content
+- [#34 – gonka.ai / TheSoul social media awareness project](/proposals/proposals/2026-q1/34/): Auto-synced content
+- [Upgrade Proposal: v0.2.9](/proposals/proposals/2026-q1/26/full-proposal/): Auto-synced content
+- [#26 – Upgrade Proposal: v0.2.9](/proposals/proposals/2026-q1/26/): Auto-synced content
+- [#29 – Network Parameters Update: Disable TA Allowlist, Increase Prices 100x](/proposals/proposals/2026-q1/29/): Auto-synced content
+- [Install Python dependencies](/proposals/proposals/2026-q1/33/full-proposal/): Auto-synced content
+- [#33 – Epochs 132-133 compensation payout from gov module](/proposals/proposals/2026-q1/33/): Auto-synced content
+- [Upgrade Proposal: v0.2.11](/proposals/proposals/2026-q1/31/full-proposal/): Auto-synced content
+- [#31 – Upgrade Proposal: v0.2.11](/proposals/proposals/2026-q1/31/): Auto-synced content
+- [Upgrade Proposal: v0.2.7](/proposals/proposals/2026-q1/19/full-proposal/): Auto-synced content
+- [#19 – Upgrade Proposal: v0.2.7](/proposals/proposals/2026-q1/19/): Auto-synced content
+- [Simple Coin Amount Explanation (Epoch 158)](/proposals/proposals/2026-q1/32/full-proposal/): Auto-synced content
+- [#32 – Epoch 158 compensation payout from gov module (batch vesting)](/proposals/proposals/2026-q1/32/): Auto-synced content
+- [#30 – Test Proposal](/proposals/proposals/2026-q1/30/): Auto-synced content
+- [#22 – Allowlist Timing](/proposals/proposals/2026-q1/22/): Auto-synced content
+- [2025-Q3 Proposals](/proposals/proposals/2025-q3/): Auto-synced content
+- [Increase PoC Validation Duration](/proposals/proposals/2025-q3/3/full-proposal/): Auto-synced content
+- [#3 – Increase PoC Validation Length](/proposals/proposals/2025-q3/3/): Auto-synced content
+- [Adjust Params According to real block length](/proposals/proposals/2025-q3/1/full-proposal/): Auto-synced content
+- [#1 – Correct Epoch Length](/proposals/proposals/2025-q3/1/): Auto-synced content
+- [Upgrade Proposal: v0.2.2](/proposals/proposals/2025-q3/6/full-proposal/): Auto-synced content
+- [#6 – Upgrade Proposal: v0.2.2](/proposals/proposals/2025-q3/6/): Auto-synced content
+- [New supported models](/proposals/proposals/2025-q3/2/full-proposal/): Auto-synced content
+- [#2 – Proposal introducing new Qwen3 models](/proposals/proposals/2025-q3/2/): Auto-synced content
+- [#5 – Expedite voting for upgrades](/proposals/proposals/2025-q3/5/): Auto-synced content
+- [Upgrade Proposal 1](/proposals/proposals/2025-q3/4/full-proposal/): Auto-synced content
+- [#4 – Upgrade Proposal: v0.2.2](/proposals/proposals/2025-q3/4/): Auto-synced content
+- [2026-Q3 Proposals](/proposals/proposals/2026-q3/): Auto-synced content
+- [#87 – Remove Kimi K2.6 model](/proposals/proposals/2026-q3/87/): Auto-synced content
+- [#91 – Temporarily update BLS signing parameters](/proposals/proposals/2026-q3/91/): Auto-synced content
+- [GRC Proposal #3 - Restitution](/proposals/proposals/2026-q3/80/full-proposal/): Auto-synced content
+- [#80 – GRC Proposal #3 - Restitution](/proposals/proposals/2026-q3/80/): Auto-synced content
+- [Internal Go-To-Market Team for 3 Month to Set Up the Basis: acquisition funnels, analytics, sharable target audience deep understanding](/proposals/proposals/2026-q3/85/full-proposal/): Auto-synced content
+- [#85 – Internal Go-To-Market Team for 3 Month](/proposals/proposals/2026-q3/85/): Auto-synced content
+- [Bringing $3M+ in New Capital to GONKA via Uniswap — Phase 1/6 ($50k USDT)](/proposals/proposals/2026-q3/84/full-proposal/): Auto-synced content
+- [#84 – Bringing $3M+ in New Capital to GONKA via Uniswap — Phase 1/6 ($50k USDT)](/proposals/proposals/2026-q3/84/): Auto-synced content
+- [#88 – Restore Kimi K2.6 and remove v1, v2](/proposals/proposals/2026-q3/88/): Auto-synced content
+- [External Test Lab & Community DevNet](/proposals/proposals/2026-q3/82/full-proposal/): Auto-synced content
+- [#82 – External Test Lab x Community DevNet](/proposals/proposals/2026-q3/82/): Auto-synced content
+- [#86 – Increase Kimi-K2.6 and GLM-5.2 weight_scale_factor by 5%](/proposals/proposals/2026-q3/86/): Auto-synced content
+- [Partnerships with Inference Resellers, B2C users acquisition and conversion funnels analytics setup](/proposals/proposals/2026-q3/90/full-proposal/): Auto-synced content
+- [#90 – Partnerships with Inference Resellers, B2C users acquisition and conversion funnels analytics setup](/proposals/proposals/2026-q3/90/): Auto-synced content
+- [Kimi cPoC Validation Failure, Epochs 306–309](/proposals/proposals/2026-q3/81/full-proposal/): Auto-synced content
+- [#81 – Kimi cPoC Restitution (epochs 306-309)](/proposals/proposals/2026-q3/81/): Auto-synced content
+- [#83 – Approve devshard v3](/proposals/proposals/2026-q3/83/): Auto-synced content
+- [Upgrade Proposal: v0.2.14](/proposals/proposals/2026-q3/89/full-proposal/): Auto-synced content
+- [#89 – Upgrade Proposal: v0.2.14](/proposals/proposals/2026-q3/89/): Auto-synced content
 - [2025-Q4 Proposals](/proposals/proposals/2025-q4/): Auto-synced content
-- [#10 – Bandwidth Limits](/proposals/proposals/2025-q4/10/): Auto-synced content
-- [#12 – Bandwidth Limits](/proposals/proposals/2025-q4/12/): Auto-synced content
-- [Upgrade Proposal: v0.2.6](/proposals/proposals/2025-q4/15/full-proposal/): Auto-synced content
-- [#15 – Upgrade Proposal: v0.2.6](/proposals/proposals/2025-q4/15/): Auto-synced content
-- [#9 – Higher Bandwidth Limits & Voting Time Back to 24H](/proposals/proposals/2025-q4/9/): Auto-synced content
-- [#17 – Expected amount of Confirmation PoC per epoch](/proposals/proposals/2025-q4/17/): Auto-synced content
-- [#11 – Bandwidth Limits](/proposals/proposals/2025-q4/11/): Auto-synced content
 - [Upgrade Proposal: v0.2.5](/proposals/proposals/2025-q4/13/full-proposal/): Auto-synced content
 - [#13 – Upgrade Proposal: v0.2.5](/proposals/proposals/2025-q4/13/): Auto-synced content
+- [#17 – Expected amount of Confirmation PoC per epoch](/proposals/proposals/2025-q4/17/): Auto-synced content
+- [#11 – Bandwidth Limits](/proposals/proposals/2025-q4/11/): Auto-synced content
+- [#12 – Bandwidth Limits](/proposals/proposals/2025-q4/12/): Auto-synced content
+- [#10 – Bandwidth Limits](/proposals/proposals/2025-q4/10/): Auto-synced content
 - [#14 – Sale GNK from Community Fund](/proposals/proposals/2025-q4/14/): Auto-synced content
+- [Upgrade Proposal: v0.2.6](/proposals/proposals/2025-q4/15/full-proposal/): Auto-synced content
+- [#15 – Upgrade Proposal: v0.2.6](/proposals/proposals/2025-q4/15/): Auto-synced content
 - [Upgrade Proposal: v0.2.3](/proposals/proposals/2025-q4/7/full-proposal/): Auto-synced content
 - [#7 – Upgrade Proposal: v0.2.3](/proposals/proposals/2025-q4/7/): Auto-synced content
 - [Upgrade Proposal: v0.2.4](/proposals/proposals/2025-q4/8/full-proposal/): Auto-synced content
 - [#8 – Upgrade Proposal: v0.2.4](/proposals/proposals/2025-q4/8/): Auto-synced content
+- [#9 – Higher Bandwidth Limits & Voting Time Back to 24H](/proposals/proposals/2025-q4/9/): Auto-synced content
 - [Upgrade Proposal: v0.2.6](/proposals/proposals/2025-q4/16/full-proposal/): Auto-synced content
 - [#16 – Upgrade Proposal: v0.2.6](/proposals/proposals/2025-q4/16/): Auto-synced content
-- [2026-Q2 Proposals](/proposals/proposals/2026-q2/): Auto-synced content
-- [Full Proposal](/proposals/proposals/2026-q2/65/full-proposal/): Auto-synced content
-- [#65 – TheSoul - Offer 2.3: Digital strategy (100,000 GNK)](/proposals/proposals/2026-q2/65/): Auto-synced content
-- [#59 – Gonka Onboarding Video Guide — Milestone 1 (Prepayment)](/proposals/proposals/2026-q2/59/): Auto-synced content
-- [#77 – Gonka PR Proposal for US/Global Regions](/proposals/proposals/2026-q2/77/): Auto-synced content
-- [#45 – Governance Architecture Proposal for the Gonka.ai Network](/proposals/proposals/2026-q2/45/): Auto-synced content
-- [Full Proposal](/proposals/proposals/2026-q2/62/full-proposal/): Auto-synced content
-- [#62 – TheSoul - Offer 1.3: Influencer pilot (50,000 USDT)](/proposals/proposals/2026-q2/62/): Auto-synced content
-- [Support Gonka at Global Compute Sovereignty Summit](/proposals/proposals/2026-q2/42/full-proposal/): Auto-synced content
-- [#42 – Support Gonka at Global Compute Sovereignty Summit](/proposals/proposals/2026-q2/42/): Auto-synced content
-- [Upgrade Proposal: v0.2.13](/proposals/proposals/2026-q2/52/full-proposal/): Auto-synced content
-- [#52 – Upgrade Proposal: v0.2.13](/proposals/proposals/2026-q2/52/): Auto-synced content
-- [Gonka Node Observability Platform](/proposals/proposals/2026-q2/41/full-proposal/): Auto-synced content
-- [#41 – INC4 | Gonka Node Observability Platform](/proposals/proposals/2026-q2/41/): Auto-synced content
-- [Community Funding Proposal — Gonka Labs — Year One](/proposals/proposals/2026-q2/74/full-proposal/): Auto-synced content
-- [#74 – Gonka Labs: Maintaining Infrastructure, Improving Products, and Launching New Ones](/proposals/proposals/2026-q2/74/): Auto-synced content
-- [Gonka Labs — Monthly Report No.1](/proposals/proposals/2026-q2/74/report1/): Auto-synced content
-- [Full Proposal](/proposals/proposals/2026-q2/63/full-proposal/): Auto-synced content
-- [#63 – TheSoul - Offer 2.1: Website and landings (10,000 USDT)](/proposals/proposals/2026-q2/63/): Auto-synced content
-- [Full Proposal](/proposals/proposals/2026-q2/60/full-proposal/): Auto-synced content
-- [#60 – TheSoul - Offer 1.1: Brand positioning (25,000 USDT)](/proposals/proposals/2026-q2/60/): Auto-synced content
-- [Full Proposal](/proposals/proposals/2026-q2/70/full-proposal/): Auto-synced content
-- [#70 – GNK Racers: Launch GameFi Mini-App to Drive User Growth & Wallet Activity](/proposals/proposals/2026-q2/70/): Auto-synced content
-- [Upgrade Proposal: v0.2.12](/proposals/proposals/2026-q2/44/full-proposal/): Auto-synced content
-- [#44 – Upgrade Proposal: v0.2.12](/proposals/proposals/2026-q2/44/): Auto-synced content
-- [#71 – Gonka PR Proposal for US/Global Regions](/proposals/proposals/2026-q2/71/): Auto-synced content
-- [Full Proposal](/proposals/proposals/2026-q2/64/full-proposal/): Auto-synced content
-- [#64 – TheSoul - Offer 2.2: Analytics and attribution (28,000 GNK)](/proposals/proposals/2026-q2/64/): Auto-synced content
-- [#68 – Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)](/proposals/proposals/2026-q2/68/): Auto-synced content
-- [#73 – Increase minimum governance deposit to 500 GNK and expedited minimum deposit to 1000 GNK](/proposals/proposals/2026-q2/73/): Auto-synced content
-- [Full Proposal](/proposals/proposals/2026-q2/55/full-proposal/): Auto-synced content
-- [#55 – GRC Proposal #2 - Restitution (epochs 248-254)](/proposals/proposals/2026-q2/55/): Auto-synced content
-- [#48 – Lower Direct Participation Threshold to 10%](/proposals/proposals/2026-q2/48/): Auto-synced content
-- [#38 – CryptoCommons: Community Support & Token Promotion Plan](/proposals/proposals/2026-q2/38/): Auto-synced content
-- [Support Gonka's Presence at WebX Asia](/proposals/proposals/2026-q2/51/full-proposal/): Auto-synced content
-- [#51 – Support Gonka's presence at WebX Asia](/proposals/proposals/2026-q2/51/): Auto-synced content
-- [#75 – Private Inc × Gonka — Network Growth Initiative](/proposals/proposals/2026-q2/75/): Auto-synced content
-- [#40 – Governance: extend voting period to 48 hours](/proposals/proposals/2026-q2/40/): Auto-synced content
-- [#37 – What is your stance on MLM projects around gonka.ai?](/proposals/proposals/2026-q2/37/): Auto-synced content
-- [#69 – Increase minimum governance deposit to 500 GNK](/proposals/proposals/2026-q2/69/): Auto-synced content
-- [#66 – test proposal - 测试方案](/proposals/proposals/2026-q2/66/): Auto-synced content
-- [#79 – Add Kimi K2.6 and GLM 5.2 model](/proposals/proposals/2026-q2/79/): Auto-synced content
-- [Full Proposal](/proposals/proposals/2026-q2/61/full-proposal/): Auto-synced content
-- [#61 – TheSoul - Offer 1.2: Brandbook (20,000 USDT)](/proposals/proposals/2026-q2/61/): Auto-synced content
-- [#58 – Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)](/proposals/proposals/2026-q2/58/): Auto-synced content
-- [Gonka Withheld Rewards Redistribution](/proposals/proposals/2026-q2/46/full-proposal/): Auto-synced content
-- [#46 – Epochs 132-247 compensation payout from gov module (batch vesting)](/proposals/proposals/2026-q2/46/): Auto-synced content
-- [Gonka NOP - grant for the node deployment tool](/proposals/proposals/2026-q2/53/full-proposal/): Auto-synced content
-- [#53 – INC4 | Gonka NOP - grant for the node deployment tool](/proposals/proposals/2026-q2/53/): Auto-synced content
-- [#76 – Governance 16: devshard v2 and bounty payouts](/proposals/proposals/2026-q2/76/): Auto-synced content
-- [Full Proposal](/proposals/proposals/2026-q2/57/full-proposal/): Auto-synced content
-- [#57 – Approve the Gonka Network Development Roadmap](/proposals/proposals/2026-q2/57/): Auto-synced content
-- [Upgrade Proposal: v0.2.13](/proposals/proposals/2026-q2/54/full-proposal/): Auto-synced content
-- [#54 – Upgrade Proposal: v0.2.13](/proposals/proposals/2026-q2/54/): Auto-synced content
-- [#39 – Community Series Film — Why Gonka Exists](/proposals/proposals/2026-q2/39/): Auto-synced content
-- [#50 – Retroactive bounty: open-source PoC throughput optimization (+10–12% measured) with 250 total installations](/proposals/proposals/2026-q2/50/): Auto-synced content
-- [#47 – Retroactive bounty: open-source PoC throughput optimization (+10–12% measured) with 250 total installations](/proposals/proposals/2026-q2/47/): Auto-synced content
-- [#72 – Open devshard escrow creation to community wallet gonka1afj0tz53z56zngs425m83vxl5y2xmwm692hfrn](/proposals/proposals/2026-q2/72/): Auto-synced content
-- [Gonka NOP - grant for the node deployment tool](/proposals/proposals/2026-q2/56/full-proposal/): Auto-synced content
-- [#56 – INC4 | Gonka NOP - grant for the node deployment tool](/proposals/proposals/2026-q2/56/): Auto-synced content
-- [Run any epoch's calculator](/proposals/proposals/2026-q2/67/full-proposal/): Auto-synced content
-- [#67 – Kimi Restitution (epochs 265-276)](/proposals/proposals/2026-q2/67/): Auto-synced content
-- [#43 – Governance Architecture Proposal for the Gonka.ai Network](/proposals/proposals/2026-q2/43/): Auto-synced content
-- [#36 – Register Kava USDT IBC metadata and approve for trading](/proposals/proposals/2026-q2/36/): Auto-synced content
-- [#78 – Governance 17: update PoC model lineup](/proposals/proposals/2026-q2/78/): Auto-synced content
-- [#49 – Gonka Media Dominance in TechL/AI with 5 AI Influencers](/proposals/proposals/2026-q2/49/): Auto-synced content
-- [ICG — AI Avatars Monthly Report No.1](/proposals/proposals/2026-q2/49/report1/): Auto-synced content
-- [2026-Q1 Proposals](/proposals/proposals/2026-q1/): Auto-synced content
-- [#22 – Allowlist Timing](/proposals/proposals/2026-q1/22/): Auto-synced content
-- [Upgrade Proposal: v0.2.9](/proposals/proposals/2026-q1/26/full-proposal/): Auto-synced content
-- [#26 – Upgrade Proposal: v0.2.9](/proposals/proposals/2026-q1/26/): Auto-synced content
-- [Upgrade Proposal: v0.2.11](/proposals/proposals/2026-q1/31/full-proposal/): Auto-synced content
-- [#31 – Upgrade Proposal: v0.2.11](/proposals/proposals/2026-q1/31/): Auto-synced content
-- [Upgrade Proposal: v0.2.8](/proposals/proposals/2026-q1/25/full-proposal/): Auto-synced content
-- [#25 – Upgrade Proposal: v0.2.8](/proposals/proposals/2026-q1/25/): Auto-synced content
-- [#29 – Network Parameters Update: Disable TA Allowlist, Increase Prices 100x](/proposals/proposals/2026-q1/29/): Auto-synced content
-- [#20 – Enable Whitelist](/proposals/proposals/2026-q1/20/): Auto-synced content
-- [Upgrade Proposal: v0.2.8](/proposals/proposals/2026-q1/24/full-proposal/): Auto-synced content
-- [#24 – Upgrade Proposal: v0.2.8](/proposals/proposals/2026-q1/24/): Auto-synced content
-- [#35 – gonka.ai / TheSoul social media awareness project](/proposals/proposals/2026-q1/35/): Auto-synced content
-- [#30 – Test Proposal](/proposals/proposals/2026-q1/30/): Auto-synced content
-- [#21 – Fix mistakes in allowlist](/proposals/proposals/2026-q1/21/): Auto-synced content
-- [Simple Coin Amount Explanation (Epoch 158)](/proposals/proposals/2026-q1/32/full-proposal/): Auto-synced content
-- [#32 – Epoch 158 compensation payout from gov module (batch vesting)](/proposals/proposals/2026-q1/32/): Auto-synced content
-- [Upgrade Proposal: v0.2.7](/proposals/proposals/2026-q1/19/full-proposal/): Auto-synced content
-- [#19 – Upgrade Proposal: v0.2.7](/proposals/proposals/2026-q1/19/): Auto-synced content
-- [#28 – Collateral Parameters Update](/proposals/proposals/2026-q1/28/): Auto-synced content
-- [#34 – gonka.ai / TheSoul social media awareness project](/proposals/proposals/2026-q1/34/): Auto-synced content
-- [#18 – Test](/proposals/proposals/2026-q1/18/): Auto-synced content
-- [Upgrade Proposal: v0.2.10](/proposals/proposals/2026-q1/27/full-proposal/): Auto-synced content
-- [#27 – Upgrade Proposal: v0.2.10](/proposals/proposals/2026-q1/27/): Auto-synced content
-- [Install Python dependencies](/proposals/proposals/2026-q1/33/full-proposal/): Auto-synced content
-- [#33 – Epochs 132-133 compensation payout from gov module](/proposals/proposals/2026-q1/33/): Auto-synced content
-- [2025-Q3 Proposals](/proposals/proposals/2025-q3/): Auto-synced content
-- [Adjust Params According to real block length](/proposals/proposals/2025-q3/1/full-proposal/): Auto-synced content
-- [#1 – Correct Epoch Length](/proposals/proposals/2025-q3/1/): Auto-synced content
-- [#5 – Expedite voting for upgrades](/proposals/proposals/2025-q3/5/): Auto-synced content
-- [New supported models](/proposals/proposals/2025-q3/2/full-proposal/): Auto-synced content
-- [#2 – Proposal introducing new Qwen3 models](/proposals/proposals/2025-q3/2/): Auto-synced content
-- [Increase PoC Validation Duration](/proposals/proposals/2025-q3/3/full-proposal/): Auto-synced content
-- [#3 – Increase PoC Validation Length](/proposals/proposals/2025-q3/3/): Auto-synced content
-- [Upgrade Proposal: v0.2.2](/proposals/proposals/2025-q3/6/full-proposal/): Auto-synced content
-- [#6 – Upgrade Proposal: v0.2.2](/proposals/proposals/2025-q3/6/): Auto-synced content
-- [Upgrade Proposal 1](/proposals/proposals/2025-q3/4/full-proposal/): Auto-synced content
-- [#4 – Upgrade Proposal: v0.2.2](/proposals/proposals/2025-q3/4/): Auto-synced content
-- [2026-Q3 Proposals](/proposals/proposals/2026-q3/): Auto-synced content
-- [Internal Go-To-Market Team for 3 Month to Set Up the Basis: acquisition funnels, analytics, sharable target audience deep understanding](/proposals/proposals/2026-q3/85/full-proposal/): Auto-synced content
-- [#85 – Internal Go-To-Market Team for 3 Month](/proposals/proposals/2026-q3/85/): Auto-synced content
-- [Partnerships with Inference Resellers, B2C users acquisition and conversion funnels analytics setup](/proposals/proposals/2026-q3/90/full-proposal/): Auto-synced content
-- [#90 – Partnerships with Inference Resellers, B2C users acquisition and conversion funnels analytics setup](/proposals/proposals/2026-q3/90/): Auto-synced content
-- [GRC Proposal #3 - Restitution](/proposals/proposals/2026-q3/80/full-proposal/): Auto-synced content
-- [#80 – GRC Proposal #3 - Restitution](/proposals/proposals/2026-q3/80/): Auto-synced content
-- [#83 – Approve devshard v3](/proposals/proposals/2026-q3/83/): Auto-synced content
-- [#86 – Increase Kimi-K2.6 and GLM-5.2 weight_scale_factor by 5%](/proposals/proposals/2026-q3/86/): Auto-synced content
-- [#88 – Restore Kimi K2.6 and remove v1, v2](/proposals/proposals/2026-q3/88/): Auto-synced content
-- [Kimi cPoC Validation Failure, Epochs 306–309](/proposals/proposals/2026-q3/81/full-proposal/): Auto-synced content
-- [#81 – Kimi cPoC Restitution (epochs 306-309)](/proposals/proposals/2026-q3/81/): Auto-synced content
-- [Bringing $3M+ in New Capital to GONKA via Uniswap — Phase 1/6 ($50k USDT)](/proposals/proposals/2026-q3/84/full-proposal/): Auto-synced content
-- [#84 – Bringing $3M+ in New Capital to GONKA via Uniswap — Phase 1/6 ($50k USDT)](/proposals/proposals/2026-q3/84/): Auto-synced content
-- [Upgrade Proposal: v0.2.14](/proposals/proposals/2026-q3/89/full-proposal/): Auto-synced content
-- [#89 – Upgrade Proposal: v0.2.14](/proposals/proposals/2026-q3/89/): Auto-synced content
-- [#91 – Temporarily update BLS signing parameters](/proposals/proposals/2026-q3/91/): Auto-synced content
-- [External Test Lab & Community DevNet](/proposals/proposals/2026-q3/82/full-proposal/): Auto-synced content
-- [#82 – External Test Lab x Community DevNet](/proposals/proposals/2026-q3/82/): Auto-synced content
-- [#87 – Remove Kimi K2.6 model](/proposals/proposals/2026-q3/87/): Auto-synced content
 
 ## Pre-Proposals (auto-synced)
 
