@@ -2,7 +2,7 @@
 title: "#928 — [P1] Open Questions: Block Gas Limits, Fees, Cost per Participant, and System TX Prioritization"
 source: https://github.com/gonka-ai/gonka/issues/928
 issue_number: 928
-synced_at: 2026-07-24T06:42:45Z
+synced_at: 2026-07-24T09:38:52Z
 template: issues-main.html
 ---
 
