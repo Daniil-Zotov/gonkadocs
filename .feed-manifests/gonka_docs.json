@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-07-24T23:03:07.904646+00:00",
+  "snapshot_time": "2026-07-25T02:00:32.856225+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -18,7 +18,7 @@
       "title": "Architecture",
       "status": null,
       "content_preview": "# Architecture\n\n## Inference flow across Gonka\n\nThe diagram and description below outline how inference requests travel through Gonka, a decentralized network designed to balance performance with cryptographic guarantees. \nGonka only records transactions and artifacts for inference validation. The actual computation happens off-chain.\n\nInference requests move across independent Hosts (all network participants, not a central scheduler). The system is decentralized, with no single point directing inference requests to the network nodes. In practice, each Host deploys at least two nodes: \n\n- Network Node handles communication and consists of: \n    - a Chain Node that connects to the blockchain\n    - an API Node that manages user requests\n- One or more ML Nodes (inference) which perform LLM in",
-      "checksum": "5353868ace67048a88b3f766bb13df2441283bf2521c55c18ab05169c7b83967"
+      "checksum": "b946fa03cf5182b2d72688581197c0b462293c5632ecfd6b8a8ca556072635fa"
     },
     "cross-chain-transfers/ethereum-bridge/addresses-and-keys.md": {
       "title": "Addresses and keys",
@@ -132,7 +132,7 @@
       "title": "Glossary",
       "status": null,
       "content_preview": "# Glossary \n\n**AI Token** is a model-specific unit of compute that quantifies the computational cost required for training or inference operations. For instance, in the context of a QwQ-32B model (FP16, 32K context), one AI Token may represent the resources needed to process a fixed number of input and/or output tokens. AI Tokens are tightly coupled to the characteristics of the base model and reflect actual memory, FLOP, etc. \n\n**Collateral** mechanism allows participants to lock GNK coins in order to activate a portion of their already earned Proof of Compute (PoC) weight. Voting power is never derived solely from holding coins. GNK coins serve as economic collateral, not as a source of influence. Influence is earned through continuous computational contribution, while locking GNK collat",
-      "checksum": "7d8b2d82ca625c8a3a0bc5e9bac9c837c6bc43e74031768ae3f329ac37c85755"
+      "checksum": "82a8438c728d37d4ccf7339b25f4f5180c5b807830782adf5e103a247190fa8b"
     },
     "governance/creating-proposals.md": {
       "title": "How to Create and Submit a Governance Proposal on Gonka",
@@ -265,12 +265,6 @@
       "status": null,
       "content_preview": "# Setting up your chain \n\n**Host** (**hardware provider** or **node**) contributes computational resources to the network and is rewarded based on the amount and quality of resources they provide.\n\nTo join the network, you need to deploy two services:\n\n- **Network Node** – a service consisting of two nodes: a **Chain Node** and an **API Node**. This service handles all communication. The **Chain Node** connects to the blockchain, while the **API Node** manages user requests.\n- **Inference (ML) node** – a service that performs inference of large language models (LLMs) on GPU(s). You need at least one **ML Node** to join the network.\n\nThe guide describes a scenario in which both services are deployed on the same machine, and each Host has one ML Node. Services are deployed as Docker containe",
       "checksum": "65528b1bcf9255a84d5874ae4e460a28be44dd2720d4ee56f5fe3d0c5236dbf6"
-    },
-    "host/rewards.md": {
-      "title": "Rewards",
-      "status": null,
-      "content_preview": "# Rewards\n\n!!! note \n    This documentation is provided for reference only. Final parameters and technical details may change, so always verify the latest on-chain state and the relevant GitHub repository before relying on this document.\n\n## Overview of tokenomics\n\nThe Core incentive for Hosts (680 million gonka (GNK) coins, 68% of the total supply) is designed to reward Hosts for contributing computational power to the decentralized network. Under the Bitcoin-style reward System, a fixed amount of GNK is minted per epoch and distributed proportionally to each Host’s Proof of Compute (PoC) weight. As the network grows and more GPUs compete for the same fixed reward, the GNK earned per GPU decreases, introducing scarcity-driven value dynamics similar to Bitcoin mining. Long-term value for H",
-      "checksum": "1f118eec395e1c706f5f80892fc8e34c85cdc041ff529748b03d17baa13bfeea"
     },
     "introduction.md": {
       "title": "introduction",

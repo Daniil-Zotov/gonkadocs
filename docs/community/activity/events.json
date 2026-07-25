@@ -1,5 +1,20 @@
 [
   {
+    "id": "evt_20260725020023_3a94d47f",
+    "timestamp": "2026-07-25T02:00:23.159744+00:00",
+    "section": "gonka_docs",
+    "action": "deleted",
+    "item": {
+      "title": "Rewards",
+      "url": null,
+      "file": "host/rewards.md"
+    },
+    "details": {
+      "content": "# Rewards\n\n!!! note \n    This documentation is provided for reference only. Final parameters and technical details may change, so always verify the latest on-chain state and the relevant GitHub repository before relying on this document.\n\n## Overview of tokenomics\n\nThe Core incentive for Hosts (680 million gonka (GNK) coins, 68% of the total supply) is designed to reward Hosts for contributing computational power to the decentralized network. Under the Bitcoin-style reward System, a fixed amount of GNK is minted per epoch and distributed proportionally to each Host’s Proof of Compute (PoC) weight. As the network grows and more GPUs compete for the same fixed reward, the GNK earned per GPU decreases, introducing scarcity-driven value dynamics similar to Bitcoin mining. Long-term value for H"
+    },
+    "ai_description": "Из раздела Protocol Docs убрали страницу Rewards, где описывались ключевые параметры токеномики: 680 миллионов GNK (68% эмиссии) для хостов, механика распределения по весу Proof of Compute и принцип схожий с биткоином, при котором фиксированная награда за эпоху делится между всеми участниками сети. Вероятно, команда удалила устаревший референс, чтобы избежать путаницы перед обновлёнными ончейн-параметрами. Следите за репозиторием и актуальным состоянием с"
+  },
+  {
     "id": "evt_20260723222041_cd1146c0",
     "timestamp": "2026-07-23T22:20:41.419282+00:00",
     "section": "issues",
