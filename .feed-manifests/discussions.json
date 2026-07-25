@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-07-25T11:21:55.500966+00:00",
+  "snapshot_time": "2026-07-25T13:56:37.678196+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "Welcome to Gonka Discussions 👋",
@@ -306,7 +306,7 @@
       "title": "The missing first mile: onboarding Gonka from a newcomer’s perspective",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1445](https://github.com/gonka-ai/gonka/discussions/1445) every hour. \n\n# The missing first mile: onboarding Gonka from a newcomer’s perspective\n\n**Автор:** [@julb1992](https://github.com/julb1992) · **Категория:** :bulb: Proposals · **Создано:** 2026-07-12 20:31 UTC · \n\n---\n\n## 📝 Описание\n\n**Motivation**\n\nOver the past two weeks, I have spent a significant amount of time trying to understand Gonka as a non-technical newcomer.\n\nI initially discovered Gonka through GNK. From there, I tried to understand the full economic and technical model: Hosts, GPU economics, PoC, collateral, vesting, GNK vs WGNK, bridging, HeX, NOP, gateways, brokers, devshards, and finally the fundamental role of Developers in the network economy.\n\nThe information exists. The docum",
-      "checksum": "2834778980e99a18d23751c0611c6f344f06733c0c791d4c0a6fe3386916b16e"
+      "checksum": "0d09bd93f615c318a55fb0a0974bcd2b137f9478b43500a9e234923c5858d7db"
     },
     "proposals/1464-dev-team-funding.md": {
       "title": "Dev Team Funding",

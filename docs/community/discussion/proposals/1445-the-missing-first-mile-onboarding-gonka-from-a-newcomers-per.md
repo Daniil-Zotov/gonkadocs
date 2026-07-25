@@ -3,14 +3,14 @@ title: "#1445 — The missing first mile: onboarding Gonka from a newcomer’s p
 source: https://github.com/gonka-ai/gonka/discussions/1445
 discussion_number: 1445
 category: proposals
-synced_at: 2026-07-25T11:21:39Z
+synced_at: 2026-07-25T13:56:08Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1445](https://github.com/gonka-ai/gonka/discussions/1445) every hour. 
 
 # The missing first mile: onboarding Gonka from a newcomer’s perspective
 
-**Автор:** [@julb1992](https://github.com/julb1992) · **Категория:** :bulb: Proposals · **Создано:** 2026-07-12 20:31 UTC · **Обновлено:** 2026-07-24 23:49 UTC
+**Автор:** [@julb1992](https://github.com/julb1992) · **Категория:** :bulb: Proposals · **Создано:** 2026-07-12 20:31 UTC · **Обновлено:** 2026-07-25 11:59 UTC
 
 ---
 
@@ -103,3 +103,22 @@ Hey Julien! Thank you so much for sharing your experience and ideas! I'd propose
 
 Hi @julb1992! Have a look at the recently updated https://gonka.ai/ website. Do you think it’s better now?
 By the way, the website documentation is hosted in a public repository https://github.com/gonka-ai/gonka-docs, so anyone can suggest changes by submitting a pull request. 
+
+**↳ Ответ от [@julb1992](https://github.com/julb1992)** · *2026-07-25 11:59 UTC*
+
+> Thanks! I definitely think it’s a improvement.
+>
+> It actually reinforces the point I was trying to make in my “missing first mile” post.
+>
+> The documentation for developers keeps getting better, which is great.
+>
+> But I still think there’s something missing for people who **aren’t developers or GPU providers**.
+>
+> I’m coming at Gonka as an **investor who’s trying to really understand the project**, and honestly it has taken me weeks of reading GitHub, Discord, Medium posts and talking with people from the community before everything started to make sense. And even now, I still don’t feel like I’ve got the full picture.
+>
+> I’m actually writing my own document just to understand the ecosystem properly, and I think it’s going to end up being a few dozen pages. That probably says a lot.
+>
+> How everything fits together, how the network works, where the token fits in, the key metrics, and a few real-world use cases.
+>
+> Developers need documentation.
+> People discovering Gonka need the bigger picture.
