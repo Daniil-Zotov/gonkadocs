@@ -2,7 +2,7 @@
 title: "#1408 — Model lineup improvement: add an accessible GLM-5.2 candidate and reconsider MiniMax-M2.7 as default"
 source: https://github.com/gonka-ai/gonka/issues/1408
 issue_number: 1408
-synced_at: 2026-07-25T03:43:43Z
+synced_at: 2026-07-25T06:32:20Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/enonog">@enonog</a> opened 2026-07-06 12:31 UTC</span>
-    <span class="issues-meta-item">2 comments</span>
-    <span class="issues-meta-item">Updated 2026-07-16 19:56 UTC</span>
+    <span class="issues-meta-item">3 comments</span>
+    <span class="issues-meta-item">Updated 2026-07-25 04:21 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span></div>
 </div>
@@ -156,7 +156,7 @@ Please consider:
 
 ---
 
-## 💬 Comments (2)
+## 💬 Comments (3)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -177,6 +177,33 @@ Please consider:
   </div>
   <div class="issues-comment-body issues-content">
     <p><img width="1705" height="794" alt="Image" src="https://github.com/user-attachments/assets/0b429965-059a-4e53-84d2-a71248f8b433" /></p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/bitcompool">@bitcompool</a></span>
+    <span class="issues-meta-item">commented 2026-07-25 04:21 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>I support evaluating DeepSeek-V4-Flash as a Gonka default or optional production model.</p>
+<p>I am evaluating Gonka as an API provider for real AI products, including coding agents and prompt-processing applications. The current focus on MiniMax reduces the commercial attractiveness of the network because model quality and developer demand matter just as much as low hardware requirements.</p>
+<p>DeepSeek would make Gonka substantially more attractive for:</p>
+<ul>
+<li>coding and agentic workloads;</li>
+<li>tool calling;</li>
+<li>structured output;</li>
+<li>developer-facing API products;</li>
+<li>real production traffic rather than only PoC participation.</li>
+</ul>
+<p>Could the maintainers clarify the next concrete step for Issue #1408?</p>
+<p>In particular:</p>
+<ol>
+<li>Who can run the initial vLLM and MLNode compatibility test?</li>
+<li>What benchmark and validation criteria are required?</li>
+<li>How many Hosts must commit capacity before bootstrap?</li>
+<li>What is needed to convert this discussion into an on-chain governance proposal?</li>
+</ol>
+<p>If DeepSeek-V4-Flash becomes available with acceptable latency and stability, I would be interested in testing it through a Gonka gateway and providing real usage feedback.</p>
   </div>
 </div>
 

@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260725063618_4729fe9c",
+    "timestamp": "2026-07-25T06:36:18.433129+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1408 — Model lineup improvement: add an accessible GLM-5.2 candidate and reconsider MiniMax-M2.7 as default",
+      "url": "/community/issues/01408-model-lineup-improvement-add-an-accessible-glm-52-candidate-/",
+      "file": "01408-model-lineup-improvement-add-an-accessible-glm-52-candidate-.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Model lineup improvement: add an accessible GLM-5.2 candidate and reconsider MiniMax-M2.7 as default\n    <span class=\"issues-number\">#1408</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/enonog\">@enonog</a> opened 2026-07-06 12:31 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" st",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Model lineup improvement: add an accessible GLM-5.2 candidate and reconsider MiniMax-M2.7 as default\n    <span class=\"issues-number\">#1408</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/enonog\">@enonog</a> opened 2026-07-06 12:31 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" st"
+    },
+    "ai_description": "В ишью #1408 по обновлению модельного ряда появился новый комментарий, и теперь в обсуждении уже три сообщения. Следите за ходом дискуссии о добавлении доступного GLM-5.2 и пересмотре MiniMax-M2.7 в качестве модели по умолчанию — ваше мнение может повлиять на выбор сети."
+  },
+  {
     "id": "evt_20260725020023_3a94d47f",
     "timestamp": "2026-07-25T02:00:23.159744+00:00",
     "section": "gonka_docs",
