@@ -3,14 +3,14 @@ title: "#1445 — The missing first mile: onboarding Gonka from a newcomer’s p
 source: https://github.com/gonka-ai/gonka/discussions/1445
 discussion_number: 1445
 category: proposals
-synced_at: 2026-07-24T22:14:32Z
+synced_at: 2026-07-25T00:12:09Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1445](https://github.com/gonka-ai/gonka/discussions/1445) every hour. 
 
 # The missing first mile: onboarding Gonka from a newcomer’s perspective
 
-**Автор:** [@julb1992](https://github.com/julb1992) · **Категория:** :bulb: Proposals · **Создано:** 2026-07-12 20:31 UTC · **Обновлено:** 2026-07-13 15:39 UTC
+**Автор:** [@julb1992](https://github.com/julb1992) · **Категория:** :bulb: Proposals · **Создано:** 2026-07-12 20:31 UTC · **Обновлено:** 2026-07-24 23:49 UTC
 
 ---
 
@@ -89,10 +89,17 @@ I would genuinely appreciate critical feedback before taking this idea any furth
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Комментарии (2)
 
 ### Комментарий 1 — [@sultee](https://github.com/sultee)
 
 *2026-07-13 15:39 UTC*
 
 Hey Julien! Thank you so much for sharing your experience and ideas! I'd propose also bringing attention to this issue on Gonka community's Discord (not dropping links here, but you'll find it in the README)
+
+### Комментарий 2 — [@tcharchian](https://github.com/tcharchian)
+
+*2026-07-24 23:49 UTC*
+
+Hi @julb1992! Have a look at the recently updated https://gonka.ai/ website. Do you think it’s better now?
+By the way, the website documentation is hosted in a public repository https://github.com/gonka-ai/gonka-docs, so anyone can suggest changes by submitting a pull request. 
