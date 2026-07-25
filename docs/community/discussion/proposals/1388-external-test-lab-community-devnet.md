@@ -3,14 +3,14 @@ title: "#1388 — External Test Lab & Community DevNet"
 source: https://github.com/gonka-ai/gonka/discussions/1388
 discussion_number: 1388
 category: proposals
-synced_at: 2026-07-25T04:20:04Z
+synced_at: 2026-07-25T07:25:33Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1388](https://github.com/gonka-ai/gonka/discussions/1388) every hour. 
 
 # External Test Lab & Community DevNet
 
-**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :bulb: Proposals · **Создано:** 2026-07-02 22:04 UTC · **Обновлено:** 2026-07-17 03:08 UTC
+**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :bulb: Proposals · **Создано:** 2026-07-02 22:04 UTC · **Обновлено:** 2026-07-25 04:55 UTC
 
 ---
 
@@ -308,7 +308,7 @@ Approve a 4-month pilot of External Test Lab & Community DevNet with a maximum b
 
 ---
 
-## 💬 Комментарии (4)
+## 💬 Комментарии (5)
 
 ### Комментарий 1 — [@gmorgachev](https://github.com/gmorgachev)
 
@@ -425,3 +425,17 @@ We’re now starting Month 1: arranging hardware rentals, bringing the initial n
 Thank you to everyone who reviewed the proposal and voted.
 
 The first report will be published around August 9, four days before the next unlock.
+
+### Комментарий 5 — [@bitcompool](https://github.com/bitcompool)
+
+*2026-07-25 04:55 UTC*
+
+Hi, I’m based in Dubai and would be happy to support the project locally if a UAE or MENA location becomes useful for future testing or infrastructure deployment.
+
+I have also previously worked on the CoolTank project, a two-phase immersion cooling concept originally developed for cryptocurrency mining and operation in hot environments. The same underlying approach may potentially be adaptable to high-density GPU server infrastructure, subject to proper engineering validation and hardware compatibility checks.
+
+This is probably not relevant for the lightweight Community DevNet nodes, but it could be worth discussing for future high-density Gonka Host deployments or H200/B200-class infrastructure in the MENA region.
+
+Project overview: [https://www.thecooltank.com/](https://www.thecooltank.com/?utm_source=chatgpt.com)
+
+Happy to discuss if this is relevant to the project roadmap.

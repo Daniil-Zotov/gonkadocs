@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-07-25T04:20:20.252439+00:00",
+  "snapshot_time": "2026-07-25T07:26:03.903905+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "Welcome to Gonka Discussions 👋",
@@ -294,7 +294,7 @@
       "title": "External Test Lab & Community DevNet",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1388](https://github.com/gonka-ai/gonka/discussions/1388) every hour. \n\n# External Test Lab & Community DevNet\n\n**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :bulb: Proposals · **Создано:** 2026-07-02 22:04 UTC · \n\n---\n\n## 📝 Описание\n\n# External Test Lab & Community DevNet\n\n*4-month pilot proposal for community-owned testing infrastructure and QA capacity*\n\n# 1. Executive Summary\n\nThis proposal requests funding for a 4-month pilot of External Test Lab & Community DevNet: a community-owned testing function for Gonka protocol upgrades, DevShards, inference flows, host/broker operations, and geographically distributed network behavior before governance decisions and production rollout.\n\n| **Item**              | **Proposal**         ",
-      "checksum": "9d83200dc09ac2bd0d91f902a6b6d656b3102d825a3d8e4fde1b923be0b6aac7"
+      "checksum": "1b4aa9d0fad30c5acf4d7fe924e8e1c28b22c55abe7ea9bf722cf949fc6d650e"
     },
     "proposals/1404-add-a-lower-barrier-glm-52-option-and-consider-deepseek-v4-f.md": {
       "title": "Add a lower-barrier GLM-5.2 option and consider DeepSeek-V4-Flash as the default model",
@@ -313,6 +313,12 @@
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1464](https://github.com/gonka-ai/gonka/discussions/1464) every hour. \n\n# Dev Team Funding\n\n**Автор:** [@gmorgachev](https://github.com/gmorgachev) · **Категория:** :bulb: Proposals · **Создано:** 2026-07-17 01:38 UTC · \n\n---\n\n## 📝 Описание\n\nHello everyone! I am Gleb Morgachev, one of Gonka's co-creators.\n\nIn the next couple of weeks, I plan to submit a proposal requesting 1.5 million USDT from the community pool. The funding would support an independent engineering team working on core protocol development aligned with the community roadmap. It would cover the team and expenses directly related to its work, not servers or GPU infrastructure for mining.\n\n## Scope\n\nThis independent team would be a small group of top-tier engineers working on Gonka's core",
       "checksum": "5903d4f8c552bc1770a4b5871b660a2de47ab99cc3179109c8f17f275e60b287"
+    },
+    "proposals/1500-more-compute-from-the-same-gonka-hardware-two-phase-cooling-.md": {
+      "title": "More compute from the same Gonka hardware: two-phase cooling pilot",
+      "status": null,
+      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1500](https://github.com/gonka-ai/gonka/discussions/1500) every hour. \n\n# More compute from the same Gonka hardware: two-phase cooling pilot\n\n**Автор:** [@bitcompool](https://github.com/bitcompool) · **Категория:** :bulb: Proposals · **Создано:** 2026-07-25 05:07 UTC · \n\n---\n\n## 📝 Описание\n\nI previously developed CoolTank, a two-phase immersion cooling system that delivered up to 40% higher compute output from Bitcoin ASIC miners through stable thermal control and overclocking.\n\nI’m looking for a Gonka Host, hardware partner or investor to test whether the same approach can increase sustained GPU performance, compute density and revenue from existing Gonka hardware. The ASIC results are proven; the GPU uplift must be validated through a funded pilot.\n\nT",
+      "checksum": "73d7e56b1ad503e4f3240a794a83fc85a280df74ed03c5f14d0facb7dc998b7d"
     },
     "q-a/0796-are-there-plans-to-add-prompt-level-confidentiality-for-host.md": {
       "title": "Are there plans to add prompt-level confidentiality for hosts?",

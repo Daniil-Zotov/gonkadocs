@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260725072553_eb93eeed",
+    "timestamp": "2026-07-25T07:25:53.184455+00:00",
+    "section": "discussions",
+    "action": "new",
+    "item": {
+      "title": "More compute from the same Gonka hardware: two-phase cooling pilot",
+      "url": "/community/discussion/proposals/1500-more-compute-from-the-same-gonka-hardware-two-phase-cooling-/",
+      "file": "proposals/1500-more-compute-from-the-same-gonka-hardware-two-phase-cooling-.md"
+    },
+    "details": {
+      "status": null,
+      "content": "> 🔄 **Auto-sync:** from [Discussion #1500](https://github.com/gonka-ai/gonka/discussions/1500) every hour. \n\n# More compute from the same Gonka hardware: two-phase cooling pilot\n\n**Автор:** [@bitcompool](https://github.com/bitcompool) · **Категория:** :bulb: Proposals · **Создано:** 2026-07-25 05:07 UTC · \n\n---\n\n## 📝 Описание\n\nI previously developed CoolTank, a two-phase immersion cooling system that delivered up to 40% higher compute output from Bitcoin ASIC miners through stable thermal control and overclocking.\n\nI’m looking for a Gonka Host, hardware partner or investor to test whether the same approach can increase sustained GPU performance, compute density and revenue from existing Gonka hardware. The ASIC results are proven; the GPU uplift must be validated through a funded pilot.\n\nT"
+    },
+    "ai_description": "В сети Gonka появилось новое предложение от разработчика системы иммерсионного охлаждения CoolTank. Автор ищет партнера среди хостов или инвестора для пилотного проекта, чтобы проверить, сможет ли двухфазное охлаждение повысить производительность GPU и плотность вычислений на существующем оборудовании сети — на ASIC такой подход уже доказал эффективность до 40%. Это потенциальный путь получить больше вычислений и дохода от тех же железных ресурсов без масштабного апгрейда."
+  },
+  {
     "id": "evt_20260725063618_4729fe9c",
     "timestamp": "2026-07-25T06:36:18.433129+00:00",
     "section": "issues",
