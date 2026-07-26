@@ -2,7 +2,7 @@
 title: "#892 — [P0] `devshards`: add end-to-end tests for timeout mechanisms"
 source: https://github.com/gonka-ai/gonka/issues/892
 issue_number: 892
-synced_at: 2026-07-26T19:39:49Z
+synced_at: 2026-07-26T21:14:25Z
 template: issues-main.html
 ---
 
