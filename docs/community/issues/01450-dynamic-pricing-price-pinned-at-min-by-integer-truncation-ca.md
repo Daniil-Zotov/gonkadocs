@@ -2,7 +2,7 @@
 title: "#1450 — Dynamic pricing: price pinned at min by integer truncation; capacity proxy miscalibrated per model"
 source: https://github.com/gonka-ai/gonka/issues/1450
 issue_number: 1450
-synced_at: 2026-07-26T00:16:47Z
+synced_at: 2026-07-26T04:02:07Z
 template: issues-main.html
 ---
 
