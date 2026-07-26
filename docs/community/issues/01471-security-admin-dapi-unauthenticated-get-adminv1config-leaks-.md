@@ -2,7 +2,7 @@
 title: "#1471 — Security: Admin DAPI unauthenticated — GET /admin/v1/config leaks worker_private key"
 source: https://github.com/gonka-ai/gonka/issues/1471
 issue_number: 1471
-synced_at: 2026-07-26T14:02:50Z
+synced_at: 2026-07-26T15:33:39Z
 template: issues-main.html
 ---
 
