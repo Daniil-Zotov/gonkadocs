@@ -3,7 +3,7 @@ title: "#1445 — The missing first mile: onboarding Gonka from a newcomer’s p
 source: https://github.com/gonka-ai/gonka/discussions/1445
 discussion_number: 1445
 category: proposals
-synced_at: 2026-07-26T16:11:14Z
+synced_at: 2026-07-26T18:09:14Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1445](https://github.com/gonka-ai/gonka/discussions/1445) every hour. 

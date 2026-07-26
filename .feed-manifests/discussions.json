@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-07-26T16:11:38.314256+00:00",
+  "snapshot_time": "2026-07-26T18:09:49.977021+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "Welcome to Gonka Discussions 👋",
@@ -319,6 +319,12 @@
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1500](https://github.com/gonka-ai/gonka/discussions/1500) every hour. \n\n# More compute from the same Gonka hardware: two-phase cooling pilot\n\n**Автор:** [@bitcompool](https://github.com/bitcompool) · **Категория:** :bulb: Proposals · **Создано:** 2026-07-25 05:07 UTC · \n\n---\n\n## 📝 Описание\n\nI previously developed CoolTank, a two-phase immersion cooling system that delivered up to 40% higher compute output from Bitcoin ASIC miners through stable thermal control and overclocking.\n\nI’m looking for a Gonka Host, hardware partner or investor to test whether the same approach can increase sustained GPU performance, compute density and revenue from existing Gonka hardware. The ASIC results are proven; the GPU uplift must be validated through a funded pilot.\n\nT",
       "checksum": "73d7e56b1ad503e4f3240a794a83fc85a280df74ed03c5f14d0facb7dc998b7d"
+    },
+    "proposals/1502-обратная-связь-от-разработчика-почему-текущий-модельный-ряд-.md": {
+      "title": "Обратная связь от разработчика: почему текущий модельный ряд Gonka пока не проходит production bar",
+      "status": null,
+      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1502](https://github.com/gonka-ai/gonka/discussions/1502) every hour. \n\n# Обратная связь от разработчика: почему текущий модельный ряд Gonka пока не проходит production bar\n\n**Автор:** [@bitcompool](https://github.com/bitcompool) · **Категория:** :bulb: Proposals · **Создано:** 2026-07-26 17:26 UTC · \n\n---\n\n## 📝 Описание\n\n<head></head><h2 style=\"caret-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-style: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;\">Обратная связь от разработчика: почему",
+      "checksum": "20a90b303b1ea7b68c2a1343269852cb0cdc5edec8b796dbc0723fd6391b541b"
     },
     "q-a/0796-are-there-plans-to-add-prompt-level-confidentiality-for-host.md": {
       "title": "Are there plans to add prompt-level confidentiality for hosts?",

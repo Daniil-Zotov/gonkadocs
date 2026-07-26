@@ -4,7 +4,7 @@ title: "GitHub Discussions"
 
 # GitHub Discussions — `gonka-ai/gonka`
 
-Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **79**. Обновлено: `2026-07-26 16:11 UTC`.
+Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **80**. Обновлено: `2026-07-26 18:09 UTC`.
 
 ## 📂 Категории
 
@@ -12,7 +12,7 @@ title: "GitHub Discussions"
 |---|---:|
 | [:mega: Announcements](announcements/index.md) | 1 |
 | [:speech_balloon: General](general/index.md) | 5 |
-| [:bulb: Proposals](proposals/index.md) | 47 |
+| [:bulb: Proposals](proposals/index.md) | 48 |
 | [:pray: Q&A](q-a/index.md) | 3 |
 | [:raised_hands: Show and Tell](show-and-tell/index.md) | 23 |
 
@@ -20,6 +20,7 @@ title: "GitHub Discussions"
 
 | # | Заголовок | Категория | Автор | Обновлено |
 |---:|---|---|---|---|
+| [1502](proposals/1502-обратная-связь-от-разработчика-почему-текущий-модельный-ряд-.md) | [Обратная связь от разработчика: почему текущий модельный ряд Gonka пока не проходит production bar](proposals/1502-обратная-связь-от-разработчика-почему-текущий-модельный-ряд-.md) | :bulb: Proposals | [@bitcompool](https://github.com/bitcompool) | 2026-07-26 |
 | [1445](proposals/1445-the-missing-first-mile-onboarding-gonka-from-a-newcomers-per.md) | [The missing first mile: onboarding Gonka from a newcomer’s perspective](proposals/1445-the-missing-first-mile-onboarding-gonka-from-a-newcomers-per.md) | :bulb: Proposals | [@julb1992](https://github.com/julb1992) | 2026-07-25 |
 | [1500](proposals/1500-more-compute-from-the-same-gonka-hardware-two-phase-cooling-.md) | [More compute from the same Gonka hardware: two-phase cooling pilot](proposals/1500-more-compute-from-the-same-gonka-hardware-two-phase-cooling-.md) | :bulb: Proposals | [@bitcompool](https://github.com/bitcompool) | 2026-07-25 |
 | [1388](proposals/1388-external-test-lab-community-devnet.md) | [External Test Lab & Community DevNet](proposals/1388-external-test-lab-community-devnet.md) | :bulb: Proposals | [@paranjko](https://github.com/paranjko) | 2026-07-25 |
@@ -39,4 +40,3 @@ title: "GitHub Discussions"
 | [1354](q-a/1354-i-would-like-to-ask-if-the-developers-intentionally-pushed-i.md) | [I would like to ask if the developers intentionally pushed inference data to the main chain, causing some nodes to lose their epoch rewards.](q-a/1354-i-would-like-to-ask-if-the-developers-intentionally-pushed-i.md) | :pray: Q&A | [@Llgmhsl](https://github.com/Llgmhsl) | 2026-06-21 |
 | [1345](proposals/1345-network-documentation.md) | [Network Documentation](proposals/1345-network-documentation.md) | :bulb: Proposals | [@heitor-lassarote](https://github.com/heitor-lassarote) | 2026-06-16 |
 | [944](general/0944-gonkas-support-of-new-modalities-besides-text.md) | [Gonka's support of new modalities besides text](general/0944-gonkas-support-of-new-modalities-besides-text.md) | :speech_balloon: General | [@tamazgadaev](https://github.com/tamazgadaev) | 2026-06-15 |
-| [1334](proposals/1334-devshard-e2e-test-automation-proposal.md) | [Devshard E2E Test Automation Proposal](proposals/1334-devshard-e2e-test-automation-proposal.md) | :bulb: Proposals | [@aikuznetsov](https://github.com/aikuznetsov) | 2026-06-12 |

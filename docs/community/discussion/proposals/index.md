@@ -4,12 +4,13 @@ title: ":bulb: Proposals"
 
 # :bulb: Proposals
 
-Дискуссии в категории **:bulb: Proposals**. Всего: **47**. Обновлено: `2026-07-26 16:11 UTC`.
+Дискуссии в категории **:bulb: Proposals**. Всего: **48**. Обновлено: `2026-07-26 18:09 UTC`.
 
 [← ко всем категориям](../index.md)
 
 | # | Заголовок | Автор | Обновлено |
 |---:|---|---|---|
+| [1502](1502-обратная-связь-от-разработчика-почему-текущий-модельный-ряд-.md) | [Обратная связь от разработчика: почему текущий модельный ряд Gonka пока не проходит production bar](1502-обратная-связь-от-разработчика-почему-текущий-модельный-ряд-.md) | [@bitcompool](https://github.com/bitcompool) | 2026-07-26 |
 | [1500](1500-more-compute-from-the-same-gonka-hardware-two-phase-cooling-.md) | [More compute from the same Gonka hardware: two-phase cooling pilot](1500-more-compute-from-the-same-gonka-hardware-two-phase-cooling-.md) | [@bitcompool](https://github.com/bitcompool) | 2026-07-25 |
 | [1464](1464-dev-team-funding.md) | [Dev Team Funding](1464-dev-team-funding.md) | [@gmorgachev](https://github.com/gmorgachev) | 2026-07-20 |
 | [1445](1445-the-missing-first-mile-onboarding-gonka-from-a-newcomers-per.md) | [The missing first mile: onboarding Gonka from a newcomer’s perspective](1445-the-missing-first-mile-onboarding-gonka-from-a-newcomers-per.md) | [@julb1992](https://github.com/julb1992) | 2026-07-25 |
