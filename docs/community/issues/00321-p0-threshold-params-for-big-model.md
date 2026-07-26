@@ -2,7 +2,7 @@
 title: "#321 — [P0] Threshold + Params for big model"
 source: https://github.com/gonka-ai/gonka/issues/321
 issue_number: 321
-synced_at: 2026-07-26T07:09:00Z
+synced_at: 2026-07-26T09:29:32Z
 template: issues-main.html
 ---
 

@@ -2,7 +2,7 @@
 title: "#1398 — Gateway allowlist request: niro"
 source: https://github.com/gonka-ai/gonka/issues/1398
 issue_number: 1398
-synced_at: 2026-07-26T07:07:18Z
+synced_at: 2026-07-26T09:27:06Z
 template: issues-main.html
 ---
 
