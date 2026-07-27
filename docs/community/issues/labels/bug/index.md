@@ -6,7 +6,7 @@ template: issues-main.html
 # Issues: bug
 
 Issues with label **bug**. Total: **12**.
-Updated: `2026-07-27 11:46 UTC`.
+Updated: `2026-07-27 15:20 UTC`.
 
 [← All Issues](../../index.md)
 
