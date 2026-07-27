@@ -2,7 +2,7 @@
 title: "#522 — Add support for text-to-video models and inference to the network"
 source: https://github.com/gonka-ai/gonka/issues/522
 issue_number: 522
-synced_at: 2026-07-27T15:20:16Z
+synced_at: 2026-07-27T17:14:54Z
 template: issues-main.html
 ---
 
