@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260727114648_31a6c02e",
+    "timestamp": "2026-07-27T11:46:48.637743+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1506 — Gateway host-health deadlock: mass quarantine → all hosts stuck as no-winner/suspicious",
+      "url": "/community/issues/01506-gateway-host-health-deadlock-mass-quarantine-all-hosts-stuck/",
+      "file": "01506-gateway-host-health-deadlock-mass-quarantine-all-hosts-stuck.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway host-health deadlock: mass quarantine → all hosts stuck as no-winner/suspicious\n    <span class=\"issues-number\">#1506</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-07-27 09:48 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" sty"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260726180943_e362eb1d",
     "timestamp": "2026-07-26T18:09:43.290893+00:00",
     "section": "discussions",
