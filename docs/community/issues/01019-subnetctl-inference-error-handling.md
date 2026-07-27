@@ -2,7 +2,7 @@
 title: "#1019 — subnetctl: inference error handling"
 source: https://github.com/gonka-ai/gonka/issues/1019
 issue_number: 1019
-synced_at: 2026-07-27T04:08:46Z
+synced_at: 2026-07-27T07:57:18Z
 template: issues-main.html
 ---
 

@@ -2,7 +2,7 @@
 title: "#560 — [P2] Finalizing the WebSocket (merge with `call_Back`, new vLLM will require python side implementation)"
 source: https://github.com/gonka-ai/gonka/issues/560
 issue_number: 560
-synced_at: 2026-07-27T04:08:50Z
+synced_at: 2026-07-27T07:57:23Z
 template: issues-main.html
 ---
 
