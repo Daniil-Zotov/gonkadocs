@@ -1,5 +1,37 @@
 [
   {
+    "id": "evt_20260728203903_e3256c68",
+    "timestamp": "2026-07-28T20:39:03.908083+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "[\"User\"]    — not github-actions[bot]; same on v0.2.14",
+      "url": "/community/issues/01513-build-and-attest-release-binaries-in-ci-instead-of-uploading/",
+      "file": "01513-build-and-attest-release-binaries-in-ci-instead-of-uploading.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Build and attest release binaries in CI instead of uploading them manually\n    <span class=\"issues-number\">#1513</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/KTibow\">@KTibow</a> opened 2026-07-28 20:05 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></d"
+    },
+    "ai_description": "Пользователь просит написать короткий пост об изменении в ленте событий сообщества Gonka. Нужно проанализировать предоставленные данные.\n\nРаздел: Issues\nДействие: Added (добавлен новый issue)\nНазвание: [\"User\"] — not github-actions[bot]; same on v0.2.14\nСодержимое: Issue #1513 \"Build and attest binaries in CI instead of uploading them manually\"\nАвтор: @KTibow\nДата: 2026-07-28 20:05 UTC\nСтатус: Open\nКомментариев: 0\n\nСуть изменения: Пользователь KTibow открыл issue с предложением автоматизировать проц"
+  },
+  {
+    "id": "evt_20260728203903_d70d3014",
+    "timestamp": "2026-07-28T20:39:03.908276+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#850 — Bug: ManagedStorage silently skips failed epoch pruning — minPruned advanced before goroutines complete",
+      "url": "/community/issues/00850-bug-managedstorage-silently-skips-failed-epoch-pruning-minpr/",
+      "file": "00850-bug-managedstorage-silently-skips-failed-epoch-pruning-minpr.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Bug: ManagedStorage silently skips failed epoch pruning — minPruned advanced before goroutines complete\n    <span class=\"issues-number\">#850</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Mayveskii\">@Mayveskii</a> opened 2026-03-03 12:04 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-la",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Bug: ManagedStorage silently skips failed epoch pruning — minPruned advanced before goroutines complete\n    <span class=\"issues-number\">#850</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Mayveskii\">@Mayveskii</a> opened 2026-03-03 12:04 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-lab"
+    },
+    "ai_description": "В issue #850 появился новый комментарий от участника, который обсуждает баг в ManagedStorage, из-за которого при параллельной обрезке эпох значение minPruned может продвигаться раньше завершения горутин. Это важно для стабильности хранилища, поскольку ошибки при очистке остаются незамеченными и могут привести к рассинхронизации данных. Сообщество приглашается к обсуждению возможных решений."
+  },
+  {
     "id": "evt_20260727205024_20038ef7",
     "timestamp": "2026-07-27T20:50:24.812907+00:00",
     "section": "issues",

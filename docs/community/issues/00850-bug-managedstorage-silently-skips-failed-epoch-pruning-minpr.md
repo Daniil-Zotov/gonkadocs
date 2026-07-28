@@ -2,7 +2,7 @@
 title: "#850 — Bug: ManagedStorage silently skips failed epoch pruning — minPruned advanced before goroutines complete"
 source: https://github.com/gonka-ai/gonka/issues/850
 issue_number: 850
-synced_at: 2026-07-28T18:52:07Z
+synced_at: 2026-07-28T20:36:29Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/Mayveskii">@Mayveskii</a> opened 2026-03-03 12:04 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-03-03 12:04 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-07-28 20:35 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -75,6 +75,20 @@ for epoch := m.minPruned; epoch < threshold; epoch++ {
 
 Alternatively, if async pruning is required for performance, track per-epoch completion via a channel or atomic and only advance `m.minPruned` for contiguously completed epochs.
 
+</div>
+
+---
+
+## 💬 Comments (1)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/redstartechno">@redstartechno</a></span>
+    <span class="issues-meta-item">commented 2026-07-28 20:35 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>A fix for this is pending in PR #1336 (it references this issue): failed epoch prunes are retried on subsequent cleanup ticks instead of being skipped, with a per-epoch single-flight guard so stuck prunes don't accumulate goroutines. Reviewed by @x0152 (approved pre-guard, re-review requested after addressing his blocker), rebased onto current main, CI green. Linking here so the issue reflects the pending fix.</p>
+  </div>
 </div>
 
 ---

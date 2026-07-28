@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-07-28T18:53:10.139662+00:00",
+  "snapshot_time": "2026-07-28T20:39:17.697534+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "Description",
@@ -1926,10 +1926,12 @@
     "00850-bug-managedstorage-silently-skips-failed-epoch-pruning-minpr.md": {
       "title": "#850 — Bug: ManagedStorage silently skips failed epoch pruning — minPruned advanced before goroutines complete",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Bug: ManagedStorage silently skips failed epoch pruning — minPruned advanced before goroutines complete\n    <span class=\"issues-number\">#850</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Mayveskii\">@Mayveskii</a> opened 2026-03-03 12:04 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-la",
-      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "comment_bodies": [],
-      "checksum": "d58b9786764c6041b3e58a63d506fe21d57010cd1bcad0b6b2c09914ef913097"
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Bug: ManagedStorage silently skips failed epoch pruning — minPruned advanced before goroutines complete\n    <span class=\"issues-number\">#850</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Mayveskii\">@Mayveskii</a> opened 2026-03-03 12:04 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-lab",
+      "comment_checksum": "3ea9aeb131a1387494e969ce56b68cde9e04caf18e3989bf383d7a07eb4922b3",
+      "comment_bodies": [
+        "A fix for this is pending in PR #1336 (it references this issue): failed epoch prunes are retried on subsequent cleanup ticks instead of being skipped, with a per-epoch single-flight guard so stuck prunes don't accumulate goroutines. Reviewed by @x0152 (approved pre-guard, re-review requested after addressing his blocker), rebased onto current main, CI green. Linking here so the issue reflects the"
+      ],
+      "checksum": "0be5867f763421de96fad05f6466d3b62a13a8a5694dc21a3dc2f1daf741883e"
     },
     "00857-test-voting-delegation.md": {
       "title": "#857 — Test voting delegation",
@@ -3218,6 +3220,14 @@
       "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "comment_bodies": [],
       "checksum": "70cba7bd012e2e2ed8cae01e60e6b753c7b15caec2f432220ce82cad1c782aaf"
+    },
+    "01513-build-and-attest-release-binaries-in-ci-instead-of-uploading.md": {
+      "title": "[\"User\"]    — not github-actions[bot]; same on v0.2.14",
+      "status": null,
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Build and attest release binaries in CI instead of uploading them manually\n    <span class=\"issues-number\">#1513</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/KTibow\">@KTibow</a> opened 2026-07-28 20:05 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></d",
+      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comment_bodies": [],
+      "checksum": "7608588cd8ab94ba546c6a6c7a23fd262517f225e1bacf8d04af3655aeffa11d"
     }
   }
 }
