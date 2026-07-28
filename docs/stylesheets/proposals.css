@@ -659,19 +659,5 @@ h2#full-proposal {
   color: #8b949e;
 }
 
-.prop-voter-power {
-  font-family: var(--md-code-font-family);
-  font-size: 12px;
-  white-space: nowrap;
-  text-align: right;
-}
-
-.prop-voter-pct {
-  font-family: var(--md-code-font-family);
-  font-size: 12px;
-  text-align: right;
-  color: var(--md-default-fg-color--light);
-}
-
 /* ── Quorum / Turnout ────────────────────────────────────────── */
 /* Uses same .prop-tally-* classes as the vote breakdown above */
