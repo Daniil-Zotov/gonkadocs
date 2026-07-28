@@ -1,6 +1,6 @@
 {
   "section": "proposals",
-  "snapshot_time": "2026-07-28T10:30:24.812047+00:00",
+  "snapshot_time": "2026-07-28T10:40:59.752059+00:00",
   "files": {
     "2025-q3/1/full-proposal.md": {
       "title": "Adjust Params According to real block length",
@@ -8,6 +8,8 @@
       "content_preview": "# Adjust Params According to real block length\n\nThe proposal changes parameters:\n- `epoch_params.epoch_length` of `inference` module from `17280` to `15391` \n- `restriction_end_block` of `restrictions` module from `1555200` to `1385263`\n- `blocks_per_year` of `mint` module from `6307200` to `5618012`\n\n## Motivation\n\nThe initial values for epoch_params.epoch_length and restriction_end_block were calculated based on an estimated block time of 5 seconds per block. \nIn practice, the average block time is closer to 5.61 seconds. \nThis has led to epochs lasting approximately 27 hours instead of the intended 24 hours, and has similarly extended the transfer restriction period.\n\n## New values estimations\n\nAt `/chain-rpc/status` we can get (for genesis nodes):  \n```\n      \"latest_block_height\": \"22",
       "funding": "",
       "quorum_met": null,
+      "voting_end": "",
+      "description": "",
       "checksum": "8e4a47a77fb7495d3db7d6bef7843d0ccee63b9a935c1f6ff966d6e826183b1d"
     },
     "2025-q3/2/full-proposal.md": {
@@ -16,6 +18,8 @@
       "content_preview": "# New supported models\n\nThe proposal introduces 3 new models:\n\n- `Qwen/Qwen3-235B-A22B-Instruct-2507-FP8` - first big model on Gonka chain.\n- `Qwen/Qwen3-32B-FP8` - fresh medium size model, replacement for `Qwen/QwQ-32B`\n- `RedHatAI/Qwen2.5-7B-Instruct-quantized.w8a16` - replacement for `Qwen/Qwen2.5-7B-Instruct` (minor improvement to get rid of fully dynamic quantization)\n\n## New values estimations\n\nThe methodology for computing the thresholds is detailed in the [thresholds_sep2025.ipynb](./thresholds_sep2025.ipynb). A reproducible version of this notebook is available in the project repository at [/mlnode/packages/benchmarks/notebooks/thresholds_sep2025.ipynb](../../..//mlnode/packages/benchmarks/notebooks/thresholds_sep2025.ipynb).\n\nThe data used for our experiments is available for ver",
       "funding": "",
       "quorum_met": null,
+      "voting_end": "",
+      "description": "",
       "checksum": "798c98f1d0bf27bed48d6a7f5eccdba0f9e7fa01d5b0835342ffa9b8b5003e7e"
     },
     "2025-q3/3/full-proposal.md": {
@@ -24,6 +28,8 @@
       "content_preview": "# Increase PoC Validation Duration\n\nThis proposal changes the following parameter:\n- `inference.epoch_params.poc_validation_duration` from `20` to `120`.\n\n## Motivation\n\nThe network is growing faster than it can adapt, causing some nodes to not have enough time to validate other participants. This can make it difficult for new participants to join.\nThis proposal increases the validation time, which should be sufficient to support 2,000-3,000 H100 GPUs.\n\nLonger term we can enable scale by sampling validators or decreasing the automatic adjustment valid nonce / raw nonce.",
       "funding": "",
       "quorum_met": null,
+      "voting_end": "",
+      "description": "",
       "checksum": "6087ddd5765ab2a68a0309ffcebaad38fa417d2e29f4f3c555e2223d8cf10662"
     },
     "2025-q3/4/full-proposal.md": {
@@ -32,6 +38,8 @@
       "content_preview": "# Upgrade Proposal 1\n\nThis document outlines the proposed changes for the first on-chain software upgrade. The `Changes` section details the major modifications, and the `Upgrade Plan` section describes the process for applying these changes.\n\n## Upgrade Plan\n\nThis PR updates the code for the `api` and `node` services and modifies the container versions in `deploy/join/docker-compose.yml`.\n\nThe binary versions will be updated via an on-chain upgrade proposal. For more information on the upgrade process, please refer to `/docs/upgrades.md`.\n\nExisting participants are **not** required to upgrade their `api` and `node` containers. The updated container versions are intended for new participants who join after the on-chain upgrade is complete.\n\n**Proposed Process:**\n1. Active participants revi",
       "funding": "",
       "quorum_met": null,
+      "voting_end": "",
+      "description": "",
       "checksum": "259af19e11f1d5e74236f0add0ce6b53158676bd08e0b033f3dd68e3fb7d9eaa"
     },
     "2025-q3/6/full-proposal.md": {
@@ -40,6 +48,8 @@
       "content_preview": "# Upgrade Proposal: v0.2.2\n\nThis document outlines the proposed changes for the first on-chain software upgrade. The `Changes` section details the major modifications, and the `Upgrade Plan` section describes the process for applying these changes.\n\n## Upgrade Plan\n\nThis PR updates the code for the `api` and `node` services and modifies the container versions in `deploy/join/docker-compose.yml`.\n\nThe binary versions will be updated via an on-chain upgrade proposal. For more information on the upgrade process, please refer to `/docs/upgrades.md`.\n\nExisting participants are **not** required to upgrade their `api` and `node` containers. The updated container versions are intended for new participants who join after the on-chain upgrade is complete.\n\n**Proposed Process:**\n1. Active participant",
       "funding": "",
       "quorum_met": null,
+      "voting_end": "",
+      "description": "",
       "checksum": "0cbb27404df87f23ddf99f556bcd1d579d6fa499f79819f6431e9c500632bb3e"
     },
     "2025-q4/13/full-proposal.md": {
@@ -48,6 +58,8 @@
       "content_preview": "# Upgrade Proposal: v0.2.5\n\nThis document outlines the proposed changes for on-chain software upgrade v0.2.5. The `Changes` section details the major modifications, and the `Upgrade Plan` section describes the process for applying these changes.\n\n## Upgrade Plan\n\nThis PR updates the code for the `api` and `node` services and introduces the new service `bridge` for the native bridge with Ethereum. The PR modifies the container versions in `deploy/join/docker-compose.yml`.\n\nThe binary versions will be updated via an on-chain upgrade proposal. For more information on the upgrade process, refer to [`/docs/upgrades.md`](https://github.com/gonka-ai/gonka/blob/upgrade-v0.2.5/docs/upgrades.md).\n\nExisting hosts are **not** required to upgrade their `api` and `node` containers. The updated container",
       "funding": "",
       "quorum_met": null,
+      "voting_end": "",
+      "description": "",
       "checksum": "3c92e75dafec3105ca4d684e944b6b600043ea2d7999e0a2aba5b4c0ecda546a"
     },
     "2025-q4/15/full-proposal.md": {
@@ -56,6 +68,8 @@
       "content_preview": "# Upgrade Proposal: v0.2.6\n\nThis document outlines the proposed changes for on-chain software upgrade v0.2.6. The `Changes` section details the major modifications, and the `Upgrade Plan` section describes the process for applying these changes.\n\n## Upgrade Plan\n\nThis PR updates the code for the `api` and `node` services. The PR modifies the container versions in `deploy/join/docker-compose.yml`.\n\nThe binary versions will be updated via an on-chain upgrade proposal. For more information on the upgrade process, refer to [`/docs/upgrades.md`](https://github.com/gonka-ai/gonka/blob/gm/dev-0.2.6/docs/upgrades.md).\n\nExisting hosts are **not** required to upgrade their `api` and `node` containers. The updated container versions are intended for new hosts who join after the on-chain upgrade is co",
       "funding": "",
       "quorum_met": null,
+      "voting_end": "",
+      "description": "",
       "checksum": "f2c5e1b03a27b3713942092cffb12e3c918405a59c998a1c5cf529bf33068067"
     },
     "2025-q4/16/full-proposal.md": {
@@ -64,6 +78,8 @@
       "content_preview": "# Upgrade Proposal: v0.2.6\n\nThis document outlines the proposed changes for on-chain software upgrade v0.2.6. The `Changes` section details the major modifications, and the `Upgrade Plan` section describes the process for applying these changes.\n\n## Upgrade Plan\n\nThis PR updates the code for the `api` and `node` services. The PR modifies the container versions in `deploy/join/docker-compose.yml`.\n\nThe binary versions will be updated via an on-chain upgrade proposal. For more information on the upgrade process, refer to [`/docs/upgrades.md`](https://github.com/gonka-ai/gonka/blob/gm/dev-0.2.6/docs/upgrades.md).\n\nExisting hosts are **not** required to upgrade their `api` and `node` containers. The updated container versions are intended for new hosts who join after the on-chain upgrade is co",
       "funding": "",
       "quorum_met": null,
+      "voting_end": "",
+      "description": "",
       "checksum": "f2c5e1b03a27b3713942092cffb12e3c918405a59c998a1c5cf529bf33068067"
     },
     "2025-q4/7/full-proposal.md": {
@@ -72,6 +88,8 @@
       "content_preview": "# Upgrade Proposal: v0.2.3\n\nThis document outlines the proposed changes for on-chain software upgrade v0.2.3. The `Changes` section details the major modifications, and the `Upgrade Plan` section describes the process for applying these changes.\n\n## Upgrade Plan\n\nThis PR updates the code for the `api` and `node` services and modifies the container versions in `deploy/join/docker-compose.yml`.\n\nThe binary versions will be updated via an on-chain upgrade proposal. For more information on the upgrade process, refer to `/docs/upgrades.md`.\n\nExisting participants are **not** required to upgrade their `api` and `node` containers. The updated container versions are intended for new participants who join after the on-chain upgrade is complete.\n\n**Proposed Process:**\n1. Active participants review t",
       "funding": "",
       "quorum_met": null,
+      "voting_end": "",
+      "description": "",
       "checksum": "8525b587ff7db0792ed38a564a32ddb12d69d24570ff82643f6de9154a00b47f"
     },
     "2025-q4/8/full-proposal.md": {
@@ -80,6 +98,8 @@
       "content_preview": "# Upgrade Proposal: v0.2.4\n\nThis document outlines the proposed changes for on-chain software upgrade v0.2.4. The `Changes` section details the major modifications, and the `Upgrade Plan` section describes the process for applying these changes.\n\n## Upgrade Plan\n\nThis PR updates the code for the `api` and `node` services and modifies the container versions in `deploy/join/docker-compose.yml`.\n\nThe binary versions will be updated via an on-chain upgrade proposal. For more information on the upgrade process, refer to `/docs/upgrades.md`.\n\nExisting participants are **not** required to upgrade their `api` and `node` containers. The updated container versions are intended for new participants who join after the on-chain upgrade is complete.\n\n**Proposed Process:**\n1. Active participants review t",
       "funding": "",
       "quorum_met": null,
+      "voting_end": "",
+      "description": "",
       "checksum": "201413489aacab4db832d7501d8497d9368fad99802d980f90eb575de6e0beda"
     },
     "2026-q1/19/full-proposal.md": {
@@ -88,6 +108,8 @@
       "content_preview": "# Upgrade Proposal: v0.2.7\n\nThis document outlines the proposed changes for on-chain software upgrade v0.2.7. The `Changes` section details the major modifications, and the `Upgrade Plan` section describes the process for applying these changes.\n\n## Upgrade Plan\n\nThis PR updates the code for the `api` and `node` services. The PR modifies the container versions in `deploy/join/docker-compose.yml`.\n\nThe binary versions will be updated via an on-chain upgrade proposal. For more information on the upgrade process, refer to [`/docs/upgrades.md`](https://github.com/gonka-ai/gonka/blob/upgrade-v0.2.7/docs/upgrades.md).\n\nExisting hosts are **not** required to upgrade their `api` and `node` containers. The updated container versions are intended for new hosts who join after the on-chain upgrade is ",
       "funding": "",
       "quorum_met": null,
+      "voting_end": "",
+      "description": "",
       "checksum": "113857ac273a5243c319134bff1922f9af68fb93338f0c03f26870b7ced83570"
     },
     "2026-q1/24/full-proposal.md": {
@@ -96,6 +118,8 @@
       "content_preview": "# Upgrade Proposal: v0.2.8\n\nThis document outlines the proposed changes for on-chain software upgrade v0.2.8. The `Changes` section details the major modifications, and the `Upgrade Plan` section describes the process for applying these changes.\n\n## Upgrade Plan\n\nThis PR updates the code for the `api` and `node` services. The PR modifies the container versions in `deploy/join/docker-compose.yml`.\n\nThe binary versions will be updated via an on-chain upgrade proposal. For more information on the upgrade process, refer to [`/docs/upgrades.md`](https://github.com/gonka-ai/gonka/blob/upgrade-v0.2.8/docs/upgrades.md).\n\nExisting hosts are **not** required to upgrade their `api` and `node` containers. The updated container versions are intended for new hosts who join after the on-chain upgrade is ",
       "funding": "",
       "quorum_met": null,
+      "voting_end": "",
+      "description": "",
       "checksum": "9fed1628eb175aa02da00e62f681f852600d4485c2bd3afbaca05e140df01c7c"
     },
     "2026-q1/25/full-proposal.md": {
@@ -104,6 +128,8 @@
       "content_preview": "# Upgrade Proposal: v0.2.8\n\nThis document outlines the proposed changes for on-chain software upgrade v0.2.8. The `Changes` section details the major modifications, and the `Upgrade Plan` section describes the process for applying these changes.\n\n## Upgrade Plan\n\nThis PR updates the code for the `api` and `node` services. The PR modifies the container versions in `deploy/join/docker-compose.yml`.\n\nThe binary versions will be updated via an on-chain upgrade proposal. For more information on the upgrade process, refer to [`/docs/upgrades.md`](https://github.com/gonka-ai/gonka/blob/upgrade-v0.2.8/docs/upgrades.md).\n\nExisting hosts are **not** required to upgrade their `api` and `node` containers. The updated container versions are intended for new hosts who join after the on-chain upgrade is ",
       "funding": "",
       "quorum_met": null,
+      "voting_end": "",
+      "description": "",
       "checksum": "9fed1628eb175aa02da00e62f681f852600d4485c2bd3afbaca05e140df01c7c"
     },
     "2026-q1/26/full-proposal.md": {
@@ -112,6 +138,8 @@
       "content_preview": "# Upgrade Proposal: v0.2.9\n\nThis document outlines the proposed changes for on-chain software upgrade v0.2.9. The `Changes` section details the major modifications, and the `Upgrade Plan` section describes the process for applying these changes.\n\n## Upgrade Plan\n\nThis PR updates the code for the `api` and `node` services. The PR modifies the container versions in `deploy/join/docker-compose.yml`.\n\nThe binary versions will be updated via an on-chain upgrade proposal. For more information on the upgrade process, refer to [`/docs/upgrades.md`](https://github.com/gonka-ai/gonka/blob/upgrade-v0.2.9/docs/upgrades.md).\n\nExisting hosts are **not** required to upgrade their `api` and `node` containers. The updated container versions are intended for new hosts who join after the on-chain upgrade is ",
       "funding": "",
       "quorum_met": null,
+      "voting_end": "",
+      "description": "",
       "checksum": "f3c63631551161f625f9639629462def6bb3cddd751866ace9476f62002b01f1"
     },
     "2026-q1/27/full-proposal.md": {
@@ -120,6 +148,8 @@
       "content_preview": "# Upgrade Proposal: v0.2.10\n\nThis document outlines the proposed changes for on-chain software upgrade v0.2.10. The `Changes` section details the major modifications, and the `Upgrade Plan` section describes the process for applying these changes.\n\n## Upgrade Plan\n\nThis PR updates the code for the `api` and `node` services. The PR modifies the container versions in `deploy/join/docker-compose.yml`.\n\nThe binary versions will be updated via an on-chain upgrade proposal. For more information on the upgrade process, refer to [`/docs/upgrades.md`](https://github.com/gonka-ai/gonka/blob/upgrade-v0.2.10/docs/upgrades.md).\n\nExisting hosts are **not** required to upgrade their `api` and `node` containers. The updated container versions are intended for new hosts who join after the on-chain upgrade ",
       "funding": "",
       "quorum_met": null,
+      "voting_end": "",
+      "description": "",
       "checksum": "32b6b7f37fd393c14403cdadc5c4fda5baa5ef6ef3c654bbd5f422943d2da28d"
     },
     "2026-q1/31/full-proposal.md": {
@@ -128,6 +158,8 @@
       "content_preview": "# Upgrade Proposal: v0.2.11\n\nThis document outlines the proposed changes for on-chain software upgrade v0.2.11.   \nThe `Changes` section details the major modifications, and the `Upgrade Plan` section describes the process for applying these changes.\n\n## Upgrade Plan\n\nThis PR updates the code for the `api` and `node` services. The PR modifies the container versions in `deploy/join/docker-compose.yml`.\n\nThe binary versions will be updated via an on-chain upgrade proposal. For more information on the upgrade process, refer to [`/docs/upgrades.md`](https://github.com/gonka-ai/gonka/blob/upgrade-v0.2.11/docs/upgrades.md).\n\nExisting hosts are **not** required to upgrade their `api` and `node` containers. The updated container versions are intended for new hosts who join after the on-chain upgra",
       "funding": "",
       "quorum_met": null,
+      "voting_end": "",
+      "description": "",
       "checksum": "03d0d14b68115ee5d3b0c8a428c86048a1a59429859541ec677aef4bcba3b123"
     },
     "2026-q1/32/full-proposal.md": {
@@ -136,6 +168,8 @@
       "content_preview": "# Simple Coin Amount Explanation (Epoch 158)\n\nFor epoch 158, we first take the total amount distributed by the reward simulation for that epoch: **252,286,759,171,835 ngonka**.\nThen we divide it by the total non-preserved (confirmation) weight used for epoch 158: **4,981,565**.\nThis gives a single conversion rate: **50,644,076.544586889446 ngonka per 1 weight unit**.\nIn simple terms, this is the average value of one weight unit in epoch 158.\n\nAfter that, we calculate lost preserved weight for each participant.\nWe restore historical preserved weight from the chain snapshot at block **2,443,438** (the effective block of epoch 158), and compare it to the preserved weight of epoch 158 in current-state epoch data (after reset).\nIf historical value is higher, the difference is the lost preserved",
       "funding": "",
       "quorum_met": null,
+      "voting_end": "",
+      "description": "",
       "checksum": "08bfbcb13dd090f09e33d13c9f96373846579cd4db32ae0682022c6dc4b2ed02"
     },
     "2026-q1/33/full-proposal.md": {
@@ -144,6 +178,8 @@
       "content_preview": "Gonka Epochs 132-133 CPoC Compensation Analysis\n\nComplete analysis and compensation calculations for participants affected by the Confirmation Proof of Compute (CPoC) bug in Gonka blockchain epochs 132-133.\n\nOverview\n\nThis repository contains the complete statistical analysis proving that epochs 132-133 were abnormal, identification of affected participants, and fair compensation calculations based on median reward coefficients from successful participants.\n\nKey Findings:\n\nEpochs 132-133 were statistically abnormal: Confirmation ratios dropped 14-22% below baseline\n\n45 affected participants: 13 in epoch 132, 32 in epoch 133\n\nTotal compensation: 24,799.48 GONKA\n\nSelection criteria: CR 25-50%, miss rate \nQuick Start - Verify the Findings\n\nOption 1: Review Final Results (Recommended)\n\nRead th",
       "funding": "",
       "quorum_met": null,
+      "voting_end": "",
+      "description": "",
       "checksum": "5bdd4d86c5bcb9e635d018b84bed360d1f520b8405252cfa2fbce88b58763a5e"
     },
     "2026-q2/41/full-proposal.md": {
@@ -152,6 +188,8 @@
       "content_preview": "# Gonka Node Observability Platform\n\nProposal by INC4 (https://inc4.net) | 16 April 2026\n\nFunding Request: \\$96,000 USD (USDT) for 12 months\n\n## 1. Executive Summary\n\nToday's explorers and dashboards only show on-chain data, leaving the off-chain state of validators completely opaque. The few operators who do run their own monitoring use different tools, different metrics, and different baselines, leading to different interpretations and making it harder to coordinate when problems arise. The network lacks a single source of truth and a common framework for measuring validator health.\n\nEven today, simply watching how validators operate reveals that many are not reacting to technical problems in time — growing Inference Miss Rates, dropping CPoC Ratios, network sync falling behind. These pa",
       "funding": "",
       "quorum_met": null,
+      "voting_end": "",
+      "description": "",
       "checksum": "2240bd71fcfe4da5183f6bf1dc76ac58acf85627970e976297bbdb7d7bd5b8f7"
     },
     "2026-q2/42/full-proposal.md": {
@@ -160,6 +198,8 @@
       "content_preview": "# Support Gonka at Global Compute Sovereignty Summit\n\nWe are DeAI Nation, a global nonprofit organization created to support and promote the decentralized AI ecosystem. We are the authors of the State of DeAI 2026 report, where we cover the promise of decentralized AI and prominent projects in the ecosystem, including Gonka. Recently, we published a brief analysis of how much a simple node can earn for its owner across different decentralized inference networks, with Gonka significantly ahead of the competition.  \n[https://blog.deaination.com/how-much-can-your-gpu-earn-on-decentralized-ai-networks-b88499954694](https://blog.deaination.com/how-much-can-your-gpu-earn-on-decentralized-ai-networks-b88499954694)\n\nWe are now preparing the Global Compute Sovereignty Summit (GCSS) in Tashkent on M",
       "funding": "",
       "quorum_met": null,
+      "voting_end": "",
+      "description": "",
       "checksum": "22f4f0c9f1569412241d8dfcf2276c5257c9159902b68dd06650b542d3eaa7b7"
     },
     "2026-q2/44/full-proposal.md": {
@@ -168,6 +208,8 @@
       "content_preview": "# Upgrade Proposal: v0.2.12\n\nThis document outlines the proposed changes for on-chain software upgrade v0.2.12.   \nThe `Changes` section details the major modifications, and the `Upgrade Plan` section describes the process for applying these changes.\n\n## Upgrade Plan\n\nThis PR updates the code for the `api` and `node` services. The PR modifies the container versions in `deploy/join/docker-compose.yml` and introduces a new `versiond` service in the join stack.\n\nThe binary versions will be updated via an on-chain upgrade proposal. For more information on the upgrade process, refer to [`/docs/upgrades.md`](https://github.com/gonka-ai/gonka/blob/upgrade-v0.2.12/docs/upgrades.md).\n\nExisting hosts are **not** required to upgrade their `api` and `node` containers as part of the on-chain upgrade it",
       "funding": "",
       "quorum_met": null,
+      "voting_end": "",
+      "description": "",
       "checksum": "315c6b26063b2088d01113743f40a0765b8d41dd81593cd7515694c00f5525e4"
     },
     "2026-q2/46/full-proposal.md": {
@@ -176,6 +218,8 @@
       "content_preview": "# Gonka Withheld Rewards Redistribution\n\nThis directory contains a reference computation for redistributing the\nwithheld-reward balance accumulated in the `gov` module account back to the\nminers who participated in epochs `132..247`.\n\nThe output is a single CSV that maps each historical participant to the\nexact amount of `ngonka` they should receive. The numbers are deterministic\nand verifiable against the on-chain state of any gonka full node.\n\n## TL;DR\n\n- Withheld rewards (≈ **3 053 801 GNK**) sit in the gov module account\n  (`gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33`).\n- These are unpaid earnings that belong to miners, not community-pool funds.\n- The proposal redistributes them proportionally to each miner's actual\n  rewarded share in each affected epoch.\n- The computation is fully ",
       "funding": "",
       "quorum_met": null,
+      "voting_end": "",
+      "description": "",
       "checksum": "eacecfdf9b1480ba8d04b75d2e07c17509db729024f148475b24abddb4475bdf"
     },
     "2026-q2/49/report1.md": {
@@ -184,6 +228,8 @@
       "content_preview": "# ICG — AI Avatars Monthly Report No.1\n\n**Дата публикации:** 2026-07-21\n\n### 1. GONKA AI 1\n\nКонцепция: девушка-аватар — AI-эксперт и серийный предприниматель. Ведёт новости и тренды в мире AI.\n\n| Метрика | Значение |\n| :--- | :--- |\n| Опубликовано | 96 видео из 180 по плану |\n| Подписчики | 2 080 |\n| Суммарный охват | 448 198 |\n| Средние просмотры | IG 340 · TikTok 1 877 · YouTube 2 494 |\n| ER | IG 1,69% · TikTok 3,45% · YouTube 2,35% |\n\nРекордный ролик собрал 152K на YouTube; там же основной прирост подписчиков (1 961).\n\n---\n\n### 2. GONKA AI 2\n\nКонцепция: мужской аватар Alex — tech-энтузиаст, который сам построил AI-агента для ведения своих аккаунтов. Ежедневные разборы AI-тем, вайбкодер нового поколения.\n\n| Метрика | Значение |\n| :--- | :--- |\n| Опубликовано | 87 видео из 180 по плану |\n",
       "funding": "",
       "quorum_met": null,
+      "voting_end": "",
+      "description": "",
       "checksum": "351dac537fce04e346c2ac13b82f5dd51ff3ae44b71631f2dedfa1e67230a81a"
     },
     "2026-q2/51/full-proposal.md": {
@@ -192,6 +238,8 @@
       "content_preview": "# Support Gonka's Presence at WebX Asia\n\n**Status:** Governance proposal pending on-chain submission to `gonka-mainnet`\n**Requested amount:** 75,000 USDT\n**Recipient address:** `gonka1yqj5xf0wtqgpdmv5v68cus0tp2j5fv7lzcfd6g`\n**Voting period:** 48 hours after submission\n**Submitted by:** 6Block\n\n---\n\n## Summary\n\n6Block, a long-term Gonka mining and infrastructure participant, proposes allocating 75,000 USDT from the Community Pool to support Gonka's effective participation at WebX Asia / WebX 2026 in Tokyo. 6Block has already committed 50% of the needed 150,000 USDT of its own funds for the official Platinum sponsorship.\n\nThis community funding is crucial for covering essential event execution costs, including team travel, accommodation, booth production, materials, media support, and partne",
       "funding": "",
       "quorum_met": null,
+      "voting_end": "",
+      "description": "",
       "checksum": "00402fa0a1493eddce42969d315023241b664b0e3bf51913ca130c70f6347767"
     },
     "2026-q2/52/full-proposal.md": {
@@ -200,6 +248,8 @@
       "content_preview": "# Upgrade Proposal: v0.2.13\n\nThis proposal covers the v0.2.13 microrelease.\n\nThe release fixes confirmation PoC reward accounting, devshard escrow params,\ncomplaint-response authz grants, upstream response parsing, participant\nreactivation, node-manager gRPC defaults, and devshard storage growth.\n\nThe upgrade also disables confirmation PoC for the rest of the upgrade epoch\nso the new snapshot logic starts cleanly from the next epoch.\n\n## Upgrade Plan\n\nThe node binary is upgraded through an on-chain software upgrade proposal.\n\nThe PR also updates `api` and `node` container versions in\n`deploy/join/docker-compose.yml` for hosts joining after the on-chain upgrade.\n\nExisting hosts are not required to manually update their `api` or `node`\ncontainers as part of the chain upgrade.\n\n## Proposed Pr",
       "funding": "",
       "quorum_met": null,
+      "voting_end": "",
+      "description": "",
       "checksum": "a7dc693e9701de36b20805bab3a42ac065244c08628833878eabb29009dea0b0"
     },
     "2026-q2/53/full-proposal.md": {
@@ -208,6 +258,8 @@
       "content_preview": "# Gonka NOP - grant for the node deployment tool\n\nA CommunityPool funding request covering delivered work on gonka-nop, ongoing operator support, and continued development of the tool.\n\n## TL;DR\n\nINC4 proposes a 50,000 USDT allocation from the CommunityPool for gonka-nop (Node Onboarding Package), a CLI tool for deploying and maintaining Gonka nodes. The tool is already built, released under the MIT license, and in active use by some operators on mainnet — it is not a proposal to build something new, but a request to fund work that has already produced a working tool with its own users. The grant covers three areas: the work already delivered, ongoing support for NOP users, and continued development of the tool. The grant is paid in USDT rather than the native GNK token, and is structured ",
       "funding": "",
       "quorum_met": null,
+      "voting_end": "",
+      "description": "",
       "checksum": "38b6b7a17c3b02b8ad29a447b2666c95ee86de55541ed42f8fb49f43bac56dd9"
     },
     "2026-q2/54/full-proposal.md": {
@@ -216,6 +268,8 @@
       "content_preview": "# Upgrade Proposal: v0.2.13\n\nThis proposal covers the v0.2.13 microrelease.\n\nThe release fixes confirmation PoC reward accounting, devshard escrow params,\ncomplaint-response authz grants, upstream response parsing, participant\nreactivation, node-manager gRPC defaults, and devshard storage growth.\n\nIt also adds a guardian-controlled emergency switch for disabling devshard\ninference requests.\n\nThe upgrade also disables confirmation PoC for the rest of the upgrade epoch\nso the new snapshot logic starts cleanly from the next epoch.\n\n## Upgrade Plan\n\nThe node binary is upgraded through an on-chain software upgrade proposal.\n\nThe PR also updates `api` and `node` container versions in\n`deploy/join/docker-compose.yml` for hosts joining after the on-chain upgrade.\n\nExisting hosts are not required t",
       "funding": "",
       "quorum_met": null,
+      "voting_end": "",
+      "description": "",
       "checksum": "d64e228897956d27f0fa695c6673456ac8e9ab45db0360c5223a87a54d7d19a2"
     },
     "2026-q2/55/full-proposal.md": {
@@ -224,6 +278,8 @@
       "content_preview": "GRC Proposal #2\n\nOverview\n\nThis is the second restitution proposal from the Gonka Restitution Committee (GRC). It is also the largest proposal to date, covering 3 accepted restitution cases across multiple epochs — compared to a single case in the previous proposal.\n\nGRC has recently refreshed its membership: the committee now includes developers from Gonka Labs and Inc4, broadening technical expertise and validation capacity.\n\nNew this proposal: before submission, GRC piloted a structured AI interview process — an idea contributed by someone who chose to remain anonymous. The interview covers purpose, cost, stakeholder impact, and risks. This is the first run, conducted for MVP purposes to test the format and prompt before rolling it out more broadly.\n\nInterview block: https://blocks.gonk",
       "funding": "",
       "quorum_met": null,
+      "voting_end": "",
+      "description": "",
       "checksum": "93436b40bf86d6d5b1e71de9a311ee4db9818e6537ebc67546c4fb403cc00f4c"
     },
     "2026-q2/56/full-proposal.md": {
@@ -232,6 +288,8 @@
       "content_preview": "# Gonka NOP - grant for the node deployment tool\n\nA CommunityPool funding request covering delivered work on gonka-nop, ongoing operator support, and continued development of the tool.\n\n## TL;DR\n\nINC4 proposes a 50,000 USDT allocation from the CommunityPool for gonka-nop (Node Onboarding Package), a CLI tool for deploying and maintaining Gonka nodes. The tool is already built, released under the MIT license, and in active use by some operators on mainnet — it is not a proposal to build something new, but a request to fund work that has already produced a working tool with its own users. The grant covers three areas: the work already delivered, ongoing support for NOP users, and continued development of the tool. The grant is paid in USDT rather than the native GNK token, and is structured ",
       "funding": "",
       "quorum_met": null,
+      "voting_end": "",
+      "description": "",
       "checksum": "38b6b7a17c3b02b8ad29a447b2666c95ee86de55541ed42f8fb49f43bac56dd9"
     },
     "2026-q2/57/full-proposal.md": {
@@ -240,6 +298,8 @@
       "content_preview": "This PR adds the Gonka Network Development Roadmap as a strategic direction document for Gonka’s future development tracks.\n\nIf approved through governance and merged into the repository, the roadmap should become a shared reference point for future proposals, funding discussions, and network development.\n\n> [!NOTE]\n> This roadmap does not approve budgets, contractors, implementation details, Foundation structure, or immediate execution of any listed project.\n>\n> It sets the general strategic direction first.\n>\n> Future changes to roadmap tracks and projects should go through the Gonka Improvement Protocol process: public discussion, community feedback, a GitHub pull request showing the proposed changes to the roadmap document, and then a governance proposal to approve the update.\n\n## Exec",
       "funding": "",
       "quorum_met": null,
+      "voting_end": "",
+      "description": "",
       "checksum": "b74f4fc06d3d1988ac03db29e1971d81336d2f31096c46ae4aca9fb080f4ec9c"
     },
     "2026-q2/60/full-proposal.md": {
@@ -248,6 +308,8 @@
       "content_preview": "> 📋 Part of the **[TheSoul × Gonka proposal overview](https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/7)** — phasing, who we are, and how to vote.\n\n**Gonka.AI · Phase 1 · Track A**\n\n> Before scaling — you need to know who you are, who you're for, and what makes you credibly different. This is step one.\n\n**Payment:** 25,000 USDT — single tranche to TheSoul on proposal pass.\n**Recipient:** `gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm`\n\n## Approach — where we start\n\nPositioning isn't a tagline. It's the foundational document that everything else depends on — how the brand looks, how it sounds, who it speaks to, and how it explains its value to different audiences. Without it, a brandbook is just pretty colors, and campaigns are noise without an address.\n\nWe begin with a deep di",
       "funding": "",
       "quorum_met": null,
+      "voting_end": "",
+      "description": "",
       "checksum": "7aeb000252a33c88dc9f4e87bfc726586b1e7a85aea4a1f0742151fbcf6f02bd"
     },
     "2026-q2/61/full-proposal.md": {
@@ -256,6 +318,8 @@
       "content_preview": "> 📋 Part of the **[TheSoul × Gonka proposal overview](https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/7)** — phasing, who we are, and how to vote.\n\n**Gonka.AI · Phase 1 · Track A**\n\n> The complete brand identity system — logo, color, typography, visual language, and templates. Everything that defines how Gonka looks and speaks, in one production-ready document.\n\n**Payment:** 20,000 USDT — single tranche to TheSoul on proposal pass.\n**Recipient:** `gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm`\n\n## Approach — visual system as infrastructure\n\nA brandbook isn't decoration. It's a production document that every visual decision depends on — the website, social media, merch, investor decks. It's built strictly on the positioning from 1.1 — the archetype, tone of voice, and brand ide",
       "funding": "",
       "quorum_met": null,
+      "voting_end": "",
+      "description": "",
       "checksum": "53b6dd81d9478c79b143f03228f38556c979509440c4f5fc6d5d301ed7ceabd4"
     },
     "2026-q2/62/full-proposal.md": {
@@ -264,6 +328,8 @@
       "content_preview": "> 📋 Part of the **[TheSoul × Gonka proposal overview](https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/7)** — phasing, who we are, and how to vote.\n\n**Gonka.AI · Phase 1 · Track B**\n\n> Fixed budget, fixed timeline — a live performance signal before we talk about scaling.\n\n**Payment:** 50,000 USDT — single tranche to TheSoul on proposal pass.\n**Recipient:** `gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm`\n\n## Approach — data, not promises\n\nBefore committing serious budget to influencer marketing, we need to know what actually works for Gonka. The pilot answers that with hard constraints: fixed spend, a 4-week window, measurable output. No deck of hypotheses — a real performance signal.\n\nWhich creators drive qualified traffic. Which messages land with crypto investors. What a cost",
       "funding": "",
       "quorum_met": null,
+      "voting_end": "",
+      "description": "",
       "checksum": "a380e439d57597a3725ae6a1abc896f86bbddaba90ebad341f8b64a160c1f635"
     },
     "2026-q2/63/full-proposal.md": {
@@ -272,6 +338,8 @@
       "content_preview": "> 📋 Part of the **[TheSoul × Gonka proposal overview](https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/7)** — phasing, who we are, and how to vote.\n\n**Gonka.AI · Phase 2 · Digital infrastructure**\n\n> From placeholder to a conversion-ready brand site. Three dedicated landing pages — one per audience, each with its own CTAs and messaging.\n\n**Payment:** 10,000 USDT — single tranche to TheSoul on proposal pass.\n**Recipient:** `gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm`\n\n## Approach — the website as a conversion tool\n\nMost early-stage crypto projects launch a website that says almost nothing — and converts nobody. This offer builds something different: a working acquisition tool structured around the 3 core audience segments defined in 1.1. Each group arrives with different ques",
       "funding": "",
       "quorum_met": null,
+      "voting_end": "",
+      "description": "",
       "checksum": "55d10ab153ea6b54775a8e76ee44ef8a539bcc0ad4c7372d5eac3f5cbad818c6"
     },
     "2026-q2/64/full-proposal.md": {
@@ -280,6 +348,8 @@
       "content_preview": "> 📋 Part of the **[TheSoul × Gonka proposal overview](https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/7)** — phasing, who we are, and how to vote.\n\n**Gonka.AI · Phase 2 · Digital infrastructure**\n\n> Every click has a source. Every conversion is tracked. This must be live before any traffic flows.\n\n**Payment:** 28,000 GNK (≈ 7,000 USDT at 0.25 GNK/USDT) — single tranche to TheSoul on proposal pass.\n**Recipient:** `gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm`\n\n## Approach — measure from day one\n\nMost companies set up analytics after they've already spent budget on traffic. We do the opposite: analytics and UTM tracking go live immediately after the site launches (2.1) — before any campaigns begin. Otherwise every dollar spent on promotion flies blind.\n\nFull GA4 implementation:",
       "funding": "",
       "quorum_met": null,
+      "voting_end": "",
+      "description": "",
       "checksum": "33fcee08a51f483485229ffddd8908e568cc0e3d0932e55a039443fb51fc60c2"
     },
     "2026-q2/65/full-proposal.md": {
@@ -288,6 +358,8 @@
       "content_preview": "> 📋 Part of the **[TheSoul × Gonka proposal overview](https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/7)** — phasing, who we are, and how to vote.\n\n**Gonka.AI · Phase 2 · Digital infrastructure**\n\n> A 360° playbook that brings every channel into a single coherent logic. The final deliverable of Phase 2 — and the key that unlocks Phase 3.\n\n**Payment:** 100,000 GNK (≈ 25,000 USDT at 0.25 GNK/USDT) — single tranche to TheSoul on proposal pass.\n**Recipient:** `gonka1s3tnqglxt6xwy9ttuedtz8cp4x9tlwp8sdcvvm`\n\n## Approach — plan before you scale\n\nBefore launching campaigns, content production, and PR — you need a clear plan: which channels, for which audience, with which message, at what volume. Without this document, Phase 3 activations will be fragmented and off-brand.\n\nThe 360° di",
       "funding": "",
       "quorum_met": null,
+      "voting_end": "",
+      "description": "",
       "checksum": "07632fd3f95b4b3fef99c7e7d27d039a2a1a4cd7f4a1f3ed875452e15594ed36"
     },
     "2026-q2/67/full-proposal.md": {
@@ -296,6 +368,8 @@
       "content_preview": "GRC-GONKA-265: Kimi Restitution, Epochs 265–276\n\nField\nValue\n\nCase\nGRC-GONKA-265 - Kimi operator restitution: external attack (e265–e266) + ComputeGroupCap underpayment (e267–e276)\n\nEpochs affected\n265–276\n\nAffected participants\n53 unique addresses\n\nEstimated compensation\n946,509.93 GONKA\n\nCause and evidence\nExternal actor sent malicious requests crashing Kimi vLLM nodes in e265–e266, causing CPoC degradation and mass nonce exclusion; the resulting N-1 weight collapse triggered ComputeGroupCap inversion every epoch through e276. Evidence: weight_fluctuation_analysis.md, per-epoch compensation scripts and JSON in e265/–e276/.\n\nCan it happen again?\nComputeGroupCap: No known repeat path — resolved by v0.2.13 WeightScaleFactor adjustment. External vLLM attack: Reduced risk — the specific crash",
       "funding": "",
       "quorum_met": null,
+      "voting_end": "",
+      "description": "",
       "checksum": "a263f7afe00054e089450c372cd8030492877f39f9c50cd5ad8fc6a9fb57ece8"
     },
     "2026-q2/70/full-proposal.md": {
@@ -304,6 +378,8 @@
       "content_preview": "GNKRacers-proposal\n\nGameFi Racing Mini-App\n\nGameFi Racing Mini-App — Gonka Community Fund Proposal\n\nProposer: GameDev Team (9 people)\n\nRequested amount: 246,000 GNK ($100K equivalent)\n\nWallet: gonka13kzs38qkq4uc0astlshv39kt9gpu3sr99unpcq\n\nStatus: Governance proposal submitted to Gonka Mainnet\n\n1. Problem\n\nGonka ecosystem currently lacks a consumer-facing, accessible entry point for non-technical users. While the network excels at decentralized AI compute, there is no \"fun\" or viral mechanism to onboard new users, drive GNK velocity, and showcase the protocol to a broader audience.\n\n2. Solution\n\nA multiplayer side-view racing mini-app built on Gonka where players:\n\nConnect wallets and compete in short head-to-head races\n\nWager GNK via smart contract with automatic winner payouts\n\nUse NFT ca",
       "funding": "",
       "quorum_met": null,
+      "voting_end": "",
+      "description": "",
       "checksum": "d167626f7abf23e32a99d3e3566f0d15f567aa2b0fd4c7b79d594382c343e0b6"
     },
     "2026-q2/74/full-proposal.md": {
@@ -312,6 +388,8 @@
       "content_preview": "# Community Funding Proposal — Gonka Labs — Year One\n\n**Authors:** Tim, Mike, Artem  \n**Subject to governance vote**\n\nA request for **70,000 USDT + 330,000 GNK (180-day vesting)** from the Gonka community pool to fund enterprise-grade improvements to our core infrastructure products — aligned with the [Gonka Network Development Roadmap](https://github.com/gonka-ai/gonka/blob/da8750873216e3a96a1ac19fbd64bbf052f2160b/proposals/gonka-network-development-roadmap.md).\n\n## Overview\n\nGonka Labs is requesting **70,000 USDT + 330,000 GNK with Vesting** from the Gonka community pool. We've already shipped 16+ products — all without external funding. The core of this proposal is taking what we have to **enterprise grade**, plus two new products: **G-Router** — an OpenRouter-style layer that unifies a",
       "funding": "",
       "quorum_met": null,
+      "voting_end": "",
+      "description": "",
       "checksum": "d8a88633c3b569d8c96e8b3c33a8750e7871cee1db6b3e8cd05ac664a764524e"
     },
     "2026-q2/74/report1.md": {
@@ -320,6 +398,8 @@
       "content_preview": "# Gonka Labs — Monthly Report No.1\n\n**Дата публикации:** 2026-07-18 18:31 UTC\n\n**Источник:** [Discussion #1477 — Gonka Labs - Monthly Report No.1](https://github.com/gonka-ai/gonka/discussions/1477)\n\n---\n# \n\n![](https://resource.inkdown.me/assets/11g/tk4ZX4b2sHaSu/ZarQaYSqnMMS69H.png)\n\nHey! Gonka Labs here.\n\nOn June 12th the community passed [Proposal #74](https://gonka.gg/network/proposals/74). That vote funded the next stretch of work - infra, ops, and shipping products for the ecosystem.\n\nThis is the first public progress report we promised in the proposal (monthly updates on GitHub Discussions). Short version of what landed so far:\n\n1. **OpenBroker** - new product, live\n2. **Pulse** - new product, live\n3. **gonka.gg** - ~240 QA bugs closed + big product updates (devshards / inference, ",
       "funding": "",
       "quorum_met": null,
+      "voting_end": "",
+      "description": "",
       "checksum": "d664a92f3695abc071030f2b65c8a7e98c9d0f8be6920cdc3b7bd02ae1414281"
     },
     "2026-q2/77/report1.md": {
@@ -328,6 +408,8 @@
       "content_preview": "# Weekly Report — 13-17 July\n\n**Дата публикации:** 2026-07-17\n\n---\n\n- Мы поделились нашей контент-стратегией и получили ряд предложений от комитета. Мы активно используем ее в питчинге СМИ.\n- Мы использовали присутствие братьев Либерман на WebX на этой неделе и организовали 2 интервью: одно с MPost и одно с Blockchain Reporter. Материал MPost уже опубликован, ссылку мы делились в другом треде.\n- Мы также согласовали 2 авторские колонки для братьев Либерман — для The AI Journal и Securities.io, они сейчас находятся в процессе подготовки.\n- Мы также начали контакт с рядом ревью- и листикл-площадок и сообщим об обратной связи по мере ее получения.\n- Мы также начали питчинг братьев Либерман для ведущих мировых компаний в сфере AI, Web3 и технологий. Будем держать вас в курсе по мере получения ",
       "funding": "",
       "quorum_met": null,
+      "voting_end": "",
+      "description": "",
       "checksum": "eff4d3001174c84ac352fffa9126b306f7498cf179ba60086fd14b40a9291637"
     },
     "2026-q2/77/report2.md": {
@@ -336,6 +418,8 @@
       "content_preview": "# Weekly Report — 20–24 July\n\n**Дата публикации:** 2026-07-24\n\n---\n\n- Интервью братьев Либерман, организованное на конференции WebX, опубликовано в Blockchain Reporter. Материал также получил синдикацию в блоге Binance - это поможет увеличению охвата публикации.\n- Мы передали авторскую колонку братьев Либерман в The AI Journal для публикации. Поделимся ссылкой, когда материал выйдет в медиа.\n- Мы засекьюрили участие Gonka в двух листикл-материалах — в Analytics Insight и CryptoDaily. Сейчас ждем детали от редакторов.\n\nВсем хороших выходных!",
       "funding": "",
       "quorum_met": null,
+      "voting_end": "",
+      "description": "",
       "checksum": "c8fb40be5e2979688b426e423029205172fb6f01470847c6b6434d5fe3926806"
     },
     "2026-q3/80/full-proposal.md": {
@@ -344,6 +428,8 @@
       "content_preview": "# GRC Proposal #3 - Restitution\n\nThis proposal closes the confirmed GRC3 restitution package, separating committee-confirmed damage into victim restitution and committee work/bounty payments.\n\n## Executive Summary\n\nGRC Proposal #3 closes the confirmed GRC3 restitution package and separates two different payment classes:\n\n| Payment class | Amount | Chain representation |\n|---|---:|---|\n| Committee-confirmed damage before overlap deductions | 99773.810455897 GNK | Settlement basis, before already-paid P4 deductions |\n| Victim restitution after exact P4 overlap deductions | 70154.024668251 GNK | Settlement basis before chain minimum handling |\n| Chain minimum top-up for positive victim outputs below 10 GNK | 30.808440219 GNK | Added so every positive victim output satisfies the chain transfer",
       "funding": "",
       "quorum_met": null,
+      "voting_end": "",
+      "description": "",
       "checksum": "5ce5144cc9979ec7a4cd184a3e4eb6c6d60e07f2a572296f5060b7a1fda831fd"
     },
     "2026-q3/81/full-proposal.md": {
@@ -352,6 +438,8 @@
       "content_preview": "# Kimi cPoC Validation Failure, Epochs 306–309\n\n| Field | Value |\n|---|---|\n| **Case** | Kimi operator restitution: cPoC validation failure (e306–e307) + bootstrap carry-over (e309) |\n| Epochs affected | 306, 307, 309 |\n| Affected participants | 19 unique addresses |\n| Estimated compensation | 175,082.07 GONKA |\n| **Cause** | The Kimi cPoC validation path failed starting in epoch 306. Validator nodes were unable to vote on submitted Kimi nonces, causing `confirmation_weight` to be severely suppressed for Kimi operators while non-Kimi operators ran normally. The issue persisted through e307 and carried into the e309 bootstrap attempt. |\n| **Can it happen again?** | Reduced risk — the validation infrastructure was reviewed and a guardian node is explicitly designated for Kimi bootstrap suppo",
       "funding": "",
       "quorum_met": null,
+      "voting_end": "",
+      "description": "",
       "checksum": "b74374907ab55cbb9039cc1a0fb69132cdf843a9dde757518cc4bd59c9ddc005"
     },
     "2026-q3/82/full-proposal.md": {
@@ -360,6 +448,8 @@
       "content_preview": "# External Test Lab & Community DevNet\n\n*4-month pilot proposal for community-owned testing infrastructure and QA capacity*\n\n# 1. Executive Summary\n\nThis proposal requests funding for a 4-month pilot of External Test Lab & Community DevNet: a community-owned testing function for Gonka protocol upgrades, DevShards, inference flows, host/broker operations, and geographically distributed network behavior before governance decisions and production rollout.\n\n| **Item**              | **Proposal**                                                                                            |\n|-----------------------|---------------------------------------------------------------------------------------------------------|\n| **Pilot duration**    | 4 months                                            ",
       "funding": "",
       "quorum_met": null,
+      "voting_end": "",
+      "description": "",
       "checksum": "ec4cea907855a95719739a4f2e3595a3b79c13a519aec8ff2bb1ddc70e7405c5"
     },
     "2026-q3/84/full-proposal.md": {
@@ -368,6 +458,8 @@
       "content_preview": "# Bringing $3M+ in New Capital to GONKA via Uniswap — Phase 1/6 ($50k USDT)\n\n**Author:** Andrey Orlovsky (@FrancesGreen9)\n\n**Goal:** Attract at least $3M in new long-term capital to GONKA through a scalable Telegram funnel with milestone-based funding and KPIs.\n\n## 1. Executive Summary\n\nWe propose building a long-term capital acquisition system for GONKA through purchases of the GNK token on Uniswap. The objective of the program is to attract no less than $3,000,000 in new capital.\n\nThe overall program is designed around a budget of $300,000 divided into 6 independent phases of $50,000 each. This proposal covers only the first phase.\n\nThe KPI for the first phase is **4x the advertising budget**. At the time of verification, wallets belonging to users acquired by our team must hold at least",
       "funding": "",
       "quorum_met": null,
+      "voting_end": "",
+      "description": "",
       "checksum": "f103e7c5fe909eea20012b555aab4acbd0c7eae04f798ef6337060b91280fd95"
     },
     "2026-q3/85/full-proposal.md": {
@@ -376,6 +468,8 @@
       "content_preview": "# Internal Go-To-Market Team for 3 Month to Set Up the Basis: acquisition funnels, analytics, sharable target audience deep understanding\n\nThis proposal describes ecosystem we should do for the Gonka, including basics, go-to-market actions, the team and the budgets for the next 3 months.\n\n## What we'll do\n\n### I. Onboarding funnels for target audiences of all types mentioned in the [roadmap](https://github.com/gonka-ai/gonka/blob/d5e30ca891209f25fd84e36ef439e1f54ec9090c/proposals/gonka-network-development-roadmap.md) (Track 11, Project 1). This includes hundreds of experiments with offers and landings for various types of target audiences segments and acquisition channels. SEO + GEO/AEO optimization.\n\n| Target Audience | Their Core Need | Comment |\n| :--- | :--- | :--- |\n| B2C inference us",
       "funding": "",
       "quorum_met": null,
+      "voting_end": "",
+      "description": "",
       "checksum": "272b03d83556a18e552a6e9ee734f0a88749b9ad6c4440b1a46934509f692f0e"
     },
     "2026-q3/89/full-proposal.md": {
@@ -384,6 +478,8 @@
       "content_preview": "# Upgrade Proposal: v0.2.14\n\nThis PR prepares the v0.2.14 release.\n\nThe mainnet chain/API work focuses on PoC duplicate-artifact protection, early share detection, classic inference API deprecation (disabling `/v1/chat/completions` billing on mainnet and removing embedded `/v1/devshard` from the API binary), reward recipient routing, and upgrade-time safety fixes.\n\nThe devshard part prepares the v3 runtime so brokers can serve inference during the chain upgrade without depending on the deprecated classic API path, improving RAM utilization and enabling safe switching between SQLite and Postgres storage.\n\n## Upgrade Plan\n\nThe node binary is upgraded through an on-chain software upgrade proposal. Existing hosts are not required to manually update their `api` or `node` containers as part of t",
       "funding": "",
       "quorum_met": null,
+      "voting_end": "",
+      "description": "",
       "checksum": "0f78066d1dd2fc410b3d2eff4462a9e916e6314bfcd0a9691052bef539e76b1b"
     },
     "2026-q3/90/full-proposal.md": {
@@ -392,6 +488,8 @@
       "content_preview": "# Partnerships with Inference Resellers, B2C users acquisition and conversion funnels analytics setup\n\nCurrently Gonka has a lot of marketing activities, but doesn't have analytics to measure the results of their work and doesn't have a vision which target audiences and how we need to attract and onboard.\n\nThis proposal describes key activities to set analytics, bisdev target audiences and search for best of their acquisition by hundreds of cheap experiments; the team and the budgets for the next 3 months. It's a part of activities we've planned and described in detail [here](https://app.integrity.sh/p/SuMCnGQBhz-0asAYBUz1U).\n\n## Budget\n\n| Activity | Cost GNK | Cost USDT | Key executives |\n| :--- | :--- | :--- | :--- |\n| Build marketing analytics across Inference Brokers, Wallets, and othe",
       "funding": "",
       "quorum_met": null,
+      "voting_end": "",
+      "description": "",
       "checksum": "56f3ca8f669e609c049c86288f71ce1ea6376eacf61d4ebb54ac2c7859317852"
     }
   }
