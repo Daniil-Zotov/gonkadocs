@@ -1,6 +1,6 @@
 {
   "section": "proposals",
-  "snapshot_time": "2026-07-28T15:40:56.341831+00:00",
+  "snapshot_time": "2026-07-28T15:50:33.745861+00:00",
   "files": {
     "2025-q3/1/full-proposal.md": {
       "title": "Adjust Params According to real block length",
@@ -491,6 +491,16 @@
       "voting_end": "",
       "description": "",
       "checksum": "56f3ca8f669e609c049c86288f71ce1ea6376eacf61d4ebb54ac2c7859317852"
+    },
+    "2026-q3/92/full-proposal.md": {
+      "title": "Upgrade Proposal: v0.2.15",
+      "status": null,
+      "content_preview": "# Upgrade Proposal: v0.2.15\n\nThis PR prepares the v0.2.15 release.\n\nThe mainnet chain/API work completes the classic inference API removal started in v0.2.14, rejects invalid bridge exchange transactions before they enter the mempool, fixes PoC voting on validator-side failures, and makes chain queries resilient to gRPC outages.\n\nThe release introduces services for high-availability deployments. Read-only chain API traffic can run through the independently scalable `edge-api` service. Devshard v4 can run multiple `versiond`/`devshardd` replicas behind `versiond-router` on shared Postgres.\n\n## Upgrade Plan\n\nThe node binary is upgraded through an on-chain software upgrade proposal.\n\nDevshard v4 is registered by the same proposal. The upgrade plan provides the v4 binary URL and sha256 hash. A",
+      "funding": "",
+      "quorum_met": null,
+      "voting_end": "",
+      "description": "",
+      "checksum": "a793d6b5e67126ff3d946d28d0c48d151400720a8d19c35299a52993ed869c82"
     }
   }
 }
