@@ -140,6 +140,7 @@ All **passed** governance proposals that received funding from the Community Poo
 | [#32](https://gonkadocs.com/proposals/proposals/2026-q1/32/) | 2026-03-24 | Epoch 158 compensation payout from gov module (batch vestin… | Community Pool + Gov Module | 30,538 | — |
 | [#14](https://gonkadocs.com/proposals/proposals/2025-q4/14/) | 2025-11-27 | Sale GNK from Community Fund | Community Pool | 20,000,000 | — |
 | [PR #919](https://github.com/gonka-ai/gonka/pull/919) | 2026-03 | v0.2.11 bounty distribution | Upgrade Handler (Gov Module) | 150,750 | — |
+| [PR #1503](https://github.com/gonka-ai/gonka/pull/1503) | 2026-07 | v0.2.15 bounty distribution | Upgrade Handler (Community Sale) | — | $39,825 |
 | [PR #1446](https://github.com/gonka-ai/gonka/pull/1446) | 2026-07 | v0.2.14 bounty distribution | Upgrade Handler (Community Sale) | — | $45,250 |
 | [PR #1113](https://github.com/gonka-ai/gonka/pull/1113) | 2026-04 | v0.2.12 bounty distribution | Upgrade Handler (Community Sale) | — | $35,200 |
 | [PR #497](https://github.com/gonka-ai/gonka/pull/497) | 2026-01 | v0.2.6 bounty distribution | Upgrade Handler (Gov Module) | 30,000 | — |
@@ -155,10 +156,10 @@ All **passed** governance proposals that received funding from the Community Poo
 | From Gov Module | 4,734,782 GNK |
 | Largest funding | #14 — 20,000,000 GNK |
 | Most recent | #82 — 80,000 GNK + $88,000 USDT |
-| **Upgrade distributions** | **6** |
+| **Upgrade distributions** | **7** |
 | Total GNK distributed (upgrades) | 203,750 GNK |
-| Total USDT distributed (upgrades) | $98,450 |
-| From Community Sale contract | $98,450 USDT |
+| Total USDT distributed (upgrades) | $138,275 |
+| From Community Sale contract | $138,275 USDT |
 | From Gov Module | 203,750 GNK |
 <!-- SPENT_HISTORY_END -->
 
@@ -173,7 +174,8 @@ USDT bounties are paid from the **Community Sale contract** via `withdraw_ibc`. 
 <!-- BOUNTY_TABLE_START -->
 | Version | PR | Status | Date | Recipients | Total GNK | Total USDT | Source
 | :------ | :- | :----- | :--- | :--------- | --------: | --------: | :----
-| v0.2.14 | [PR #1446](https://github.com/gonka-ai/gonka/pull/1446) | Open | 2026-07 | 16 recipients | — | $45,250 | Community Sale |
+| v0.2.15 | [PR #1503](https://github.com/gonka-ai/gonka/pull/1503) | Merged | 2026-07 | 8 recipients | — | $39,825 | Community Sale |
+| v0.2.14 | [PR #1446](https://github.com/gonka-ai/gonka/pull/1446) | Merged | 2026-07 | 16 recipients | — | $45,250 | Community Sale |
 | v0.2.13 | [PR #1168](https://github.com/gonka-ai/gonka/pull/1168) | Merged | 2026-05 | 2 recipients | — | $18,000 | Community Sale |
 | v0.2.12 | [PR #1113](https://github.com/gonka-ai/gonka/pull/1113) | Merged | 2026-04 | 13 recipients | — | $35,200 | Community Sale |
 | v0.2.11 | [PR #919](https://github.com/gonka-ai/gonka/pull/919) | Merged | 2026-03 | 26 recipients | 150,750 | — | Gov Module |
@@ -184,7 +186,22 @@ USDT bounties are paid from the **Community Sale contract** via `withdraw_ibc`. 
 ### Recipient Details
 
 <!-- BOUNTY_DETAIL_START -->
-### v0.2.14 — [PR #1446](https://github.com/gonka-ai/gonka/pull/1446) (Open)
+### v0.2.15 — [PR #1503](https://github.com/gonka-ai/gonka/pull/1503) (Merged)
+
+| Recipient | Address | Amount | Description |
+| :------- | :------ | ----: | :---------- |
+| @akup | [`gonka1ejkupq3cy6p8xd64ew2wlzveml86ckpzn9dl56`](https://gonka.gg/address/gonka1ejkupq3cy6p8xd64ew2wlzveml86ckpzn9dl56) | $22,000 USDT | RM: devshard v4 release management |
+| @Ryanchen911 | [`gonka1zqss46r6jf6dhhyaa777kc2ppvjhn0ufkx4y57`](https://gonka.gg/address/gonka1zqss46r6jf6dhhyaa777kc2ppvjhn0ufkx4y57) | $1,000 USDT | RM: devshard v4 upgrade review |
+| @redstartechno | [`gonka105ce4495mj0mwkxqeasgdzqfq5jjrfq32eza5l`](https://gonka.gg/address/gonka105ce4495mj0mwkxqeasgdzqfq5jjrfq32eza5l) | $200 USDT | PR #1308: devshard contribution |
+| @0xMayoor | [`gonka1s8szs7n43jxgz4a4xaxmzm5emh7fmjxhach7w8`](https://gonka.gg/address/gonka1s8szs7n43jxgz4a4xaxmzm5emh7fmjxhach7w8) | $3,000 USDT | PR #1283: report and fix of medium severity vulnerability |
+| @0xMayoor | [`gonka1s8szs7n43jxgz4a4xaxmzm5emh7fmjxhach7w8`](https://gonka.gg/address/gonka1s8szs7n43jxgz4a4xaxmzm5emh7fmjxhach7w8) | $500 USDT | PR #1311: report and fix of low severity vulnerability |
+| @pixelplex | [`gonka1vu28c7w5zxqe28lakrrfdrkvscft326rxur3dv`](https://gonka.gg/address/gonka1vu28c7w5zxqe28lakrrfdrkvscft326rxur3dv) | $7,000 USDT | PR #1144, #1152, #1126, #1154: devshard contribution |
+| @aikuznetsov | [`gonka1frlfyz2wtltdy47dq3w9pwc8ruvjvlthp2lh53`](https://gonka.gg/address/gonka1frlfyz2wtltdy47dq3w9pwc8ruvjvlthp2lh53) | $3,125 USDT | PR #1332, #1295: testing proposal and implementation |
+| @snevolin | [`gonka1vnupswg7qz2w5k5ax6zrp02mxmln6arnvjc87h`](https://gonka.gg/address/gonka1vnupswg7qz2w5k5ax6zrp02mxmln6arnvjc87h) | $3,000 USDT | PR #1437, #1490: devshard contribution |
+| **Total** | | **$39,825 USDT** | |
+
+
+### v0.2.14 — [PR #1446](https://github.com/gonka-ai/gonka/pull/1446) (Merged)
 
 | Recipient | Address | Amount | Description |
 | :------- | :------ | ----: | :---------- |
