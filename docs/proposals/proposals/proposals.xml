@@ -7,6 +7,14 @@
     <language>en</language>
     <atom:link href="https://gonkadocs.com/proposals/proposals/proposals.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>#92 – Upgrade Proposal: v0.2.15</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q3/92/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q3/92/</guid>
+      <pubDate>Tue, 28 Jul 2026 07:08:47 +0000</pubDate>
+      <category>Voting</category>
+      <description>Upgrade Proposal: v0.2.15</description>
+    </item>
+    <item>
       <title>#91 – Temporarily update BLS signing parameters</title>
       <link>https://gonkadocs.com/proposals/proposals/2026-q3/91/</link>
       <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q3/91/</guid>

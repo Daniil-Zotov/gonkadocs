@@ -1,0 +1,13 @@
+[
+  {
+    "@type": "/cosmos.upgrade.v1beta1.MsgSoftwareUpgrade",
+    "authority": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "plan": {
+      "name": "v0.2.15",
+      "time": "0001-01-01T00:00:00Z",
+      "height": "5316315",
+      "info": "{\n        \"binaries\": {\n            \"linux/amd64\": \"https://github.com/gonka-ai/gonka/releases/download/release%2Fv0.2.15/inferenced-amd64.zip?checksum=sha256:91af67df9ef5c576a1695e5e85c8ee344f9f1a69d941bfc28fb339d9fd33617e\"\n        },\n        \"api_binaries\": {\n            \"linux/amd64\": \"https://github.com/gonka-ai/gonka/releases/download/release%2Fv0.2.15/decentralized-api-amd64.zip?checksum=sha256:c9cf1bfa2c994beca8a528d0ee3ad7197a582144769711600ec9df41faf4c9f7\"\n        },\n        \"approved_versions\": [\n            {\n                \"name\": \"v4\",\n                \"binary\": \"https://github.com/gonka-ai/gonka/releases/download/release%2Fv0.2.15/devshardd.zip\",\n                \"sha256\": \"bdc7ee5d08f0090711c60950c7f3ffdd0c7aef5a5badf6f19c2b075b08264ddf\"\n            }\n        ]\n    }",
+      "upgraded_client_state": null
+    }
+  }
+]
