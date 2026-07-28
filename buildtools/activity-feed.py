@@ -109,6 +109,20 @@ def _extract_quorum(content: str) -> bool | None:
     return None
 
 
+def _extract_voting_end(content: str) -> str:
+    m = re.search(r'\*\*Voting:\*\*.*?→\s*(.+?)\n', content)
+    if m:
+        return m.group(1).strip()
+    return ''
+
+
+def _extract_description(content: str) -> str:
+    m = re.search(r'^description:\s*"?(.+?)"?\s*$', content, re.MULTILINE)
+    if m:
+        return m.group(1).strip()
+    return ''
+
+
 # ── metadata extraction ────────────────────────────────────────
 
 def _is_detail_page(rel_path: Path, section: str) -> bool:
@@ -195,6 +209,8 @@ def extract_metadata(section: str, rel_path: Path, content: str) -> dict:
             meta['status'] = _extract_proposal_status(content)
             meta['funding'] = _extract_funding(content)
             meta['quorum_met'] = _extract_quorum(content)
+            meta['voting_end'] = _extract_voting_end(content)
+            meta['description'] = _extract_description(content)
 
     elif section == 'preproposals':
         if _is_detail_page(rel_path, section):
@@ -332,6 +348,12 @@ def enrich_with_ai(events: list, section: str):
         if details.get('funding'):
             user_prompt += f'Суммы финансирования: {details["funding"]}\n'
 
+        if details.get('voting_end'):
+            user_prompt += f'Дата окончания голосования: {details["voting_end"]}\n'
+
+        if details.get('description'):
+            user_prompt += f'Суть пропозола: {details["description"]}\n'
+
         new_comments = details.get('new_comments', [])
         if new_comments:
             user_prompt += 'Новые комментарии:\n'
@@ -427,6 +449,8 @@ def cmd_detect(args):
         }
         if args.section == 'proposals':
             details['funding'] = (f.get('funding') or '')
+            details['voting_end'] = (f.get('voting_end') or '')
+            details['description'] = (f.get('description') or '')
 
         events.append({
             'id': make_event_id(),
@@ -522,6 +546,8 @@ def cmd_detect(args):
 
             if action in ('status_changed', 'quorum_reached', 'new'):
                 details['funding'] = (new.get('funding') or '')
+                details['voting_end'] = (new.get('voting_end') or '')
+                details['description'] = (new.get('description') or '')
 
         events.append({
             'id': make_event_id(),
