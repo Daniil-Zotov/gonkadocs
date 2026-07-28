@@ -243,11 +243,13 @@ def _vote_option_display(opts):
     return " ".join(parts)
 
 
-def _format_voter_row(v):
+def _format_voter_row(v, power=None, pct=None):
     voter = v.get("voter", "")
     opts = v.get("options", [])
     addr_link = f'<a href="https://gonka.gg/address/{voter}" target="_blank" class="prop-voter-addr">{voter[:12]}…{voter[-6:]}</a>'
-    return f"<tr><td>{addr_link}</td><td>{_vote_option_display(opts)}</td></tr>"
+    power_cell = f'<td class="prop-voter-power">{power}</td>' if power else '<td></td>'
+    pct_cell = f'<td class="prop-voter-pct">{pct}</td>' if pct is not None else '<td></td>'
+    return f"<tr>{power_cell}<td>{addr_link}</td><td>{_vote_option_display(opts)}</td>{pct_cell}</tr>"
 
 
 def categorize_type(msg_type):
@@ -634,15 +636,42 @@ template: proposals-proposals-main.html
             votes_data = None
 
     if votes_data:
+        voters_with_power = []
+        power_cache_path = prop_dir / "voter_power.json"
+        cached_power = {}
+        if power_cache_path.exists():
+            try:
+                cached_power = json.loads(power_cache_path.read_text(encoding="utf-8"))
+            except (json.JSONDecodeError, OSError):
+                pass
+
+        for v in votes_data:
+            voter_addr = v.get("voter", "")
+            if voter_addr in cached_power:
+                power_raw = cached_power[voter_addr]
+            else:
+                power_raw = fetch_delegator_power(voter_addr)
+                cached_power[voter_addr] = power_raw
+            voters_with_power.append({**v, "_power_raw": power_raw})
+        power_cache_path.write_text(json.dumps(cached_power, indent=2, ensure_ascii=False), encoding="utf-8")
+
+        total_power = sum(v["_power_raw"] for v in voters_with_power)
+        voters_with_power.sort(key=lambda x: x["_power_raw"], reverse=True)
+
         rows = "\n".join(
-            _format_voter_row(v) for v in votes_data
+            _format_voter_row(
+                v,
+                power=format_amount(str(v["_power_raw"]), denom="ngonka") if v["_power_raw"] else "",
+                pct=f"{v['_power_raw'] / total_power * 100:.1f}%" if total_power and v["_power_raw"] else "",
+            )
+            for v in voters_with_power
         )
         voters_html = f"""
 <h2 id="voters">Voters</h2>
 
 <div class="prop-voters-wrap">
 <table class="prop-voters">
-<thead><tr><th>Voter</th><th>Vote</th></tr></thead>
+<thead><tr><th>Power</th><th>Voter</th><th>Vote</th><th>%</th></tr></thead>
 <tbody>
 {rows}
 </tbody>
@@ -1304,6 +1333,32 @@ def fetch_votes(proposal_id):
         if not key:
             break
     return votes
+
+
+def fetch_delegator_power(delegator_addr):
+    """Fetch total bonded stake (voting power) for a delegator from staking module."""
+    total = 0
+    key = ""
+    while True:
+        url = f"{BASE}/cosmos/staking/v1beta1/delegations/{delegator_addr}?pagination.limit=500"
+        if key:
+            url += f"&pagination.key={urllib.parse.quote(key, safe='')}"
+        try:
+            data = fetch_with_retry(url, timeout=15)
+        except Exception as e:
+            print(f"  Warning: could not fetch delegations for {delegator_addr[:16]}…: {e}")
+            break
+        for dr in data.get("delegation_responses", []):
+            bal = dr.get("balance", {})
+            if bal.get("denom") == "ngonka":
+                try:
+                    total += int(bal["amount"])
+                except (ValueError, TypeError):
+                    pass
+        key = data.get("pagination", {}).get("next_key", "") or ""
+        if not key:
+            break
+    return total
 
 
 QUORUM = 0.25  # 25% from chain params
