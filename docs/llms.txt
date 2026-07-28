@@ -240,6 +240,7 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [#90 – Partnerships with Inference Resellers, B2C users acquisition and conversion funnels analytics setup](/proposals/proposals/2026-q3/90/): Auto-synced content
 - [Kimi cPoC Validation Failure, Epochs 306–309](/proposals/proposals/2026-q3/81/full-proposal/): Auto-synced content
 - [#81 – Kimi cPoC Restitution (epochs 306-309)](/proposals/proposals/2026-q3/81/): Auto-synced content
+- [Upgrade Proposal: v0.2.15](/proposals/proposals/2026-q3/92/full-proposal/): Auto-synced content
 - [#92 – Upgrade Proposal: v0.2.15](/proposals/proposals/2026-q3/92/): Auto-synced content
 - [#83 – Approve devshard v3](/proposals/proposals/2026-q3/83/): Auto-synced content
 - [Upgrade Proposal: v0.2.14](/proposals/proposals/2026-q3/89/full-proposal/): Auto-synced content
