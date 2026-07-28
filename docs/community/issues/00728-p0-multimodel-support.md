@@ -2,7 +2,7 @@
 title: "#728 — [P0] Multimodel support"
 source: https://github.com/gonka-ai/gonka/issues/728
 issue_number: 728
-synced_at: 2026-07-28T09:59:59Z
+synced_at: 2026-07-28T12:17:47Z
 template: issues-main.html
 ---
 
