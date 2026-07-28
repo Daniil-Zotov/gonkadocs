@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "date": "2026-07-30",
+    "category": "community",
+    "type": "livestream",
+    "title": "▶️ Ancapex Live: Обзор Gonka",
+    "url": "https://www.youtube.com/@Ancapex",
+    "time": "11:00 UTC",
+    "description": "YouTube стрим с Яковом, сооснователем Ancapex. Разбор всего самого важного в Gonka за последние месяцы: инференс, пропозалы v0.2.14–v0.2.15, обучение моделей, майнинг и цена токена, governance, дорожная карта.",
+    "tags": ["livestream", "ancapex"]
+  }
+]
