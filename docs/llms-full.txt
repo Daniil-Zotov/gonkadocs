@@ -17242,7 +17242,7 @@ If you have the opportunity and desire to be part of the committee — please co
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-07-28 05:42 UTC
+2026-07-28 08:25 UTC
 
 ---
 
@@ -17296,7 +17296,7 @@ curl -s https://node3.gonka.ai/chain-api/cosmos/bank/v1beta1/balances/gonka18pkq
 
 **Address:** [`gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33`](https://gonka.gg/address/gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33)
 
-Current balance: 2,637,080 GNK
+Current balance: 2,637,580 GNK
 
 The Gov Module authority is the only address permitted to execute `MsgCommunityPoolSpend` transfers from the Community Pool. When a governance proposal passes, this address signs and sends the requested funds to the specified recipient.
 
@@ -24335,14 +24335,14 @@ Bidders MUST submit:
 
 ## Overview
 
-90Total Proposals
-59Passed (66%)
+91Total Proposals
+59Passed (65%)
 30Rejected (33%)
 1Failed (1%)
 
 Funding / Grants39
 Governance Parameters26
-Software Upgrade17
+Software Upgrade18
 GRC / Restitution3
 Other3
 Models / IBC2
@@ -24351,7 +24351,20 @@ Models / IBC2
 
 ## 2026-Q3
 
-*12 proposals*
+*13 proposals*
+
+  
+    #92 – Upgrade Proposal: v0.2.15
+    
+    Voting
+  
+  
+    Submitted 2026-07-28
+    Voting ends 2026-07-30
+  
+  Upgrade Proposal: v0.2.15
+  Yes 5,481 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  ✗ Turnout 5,481 / 451,098 (1.2%) · Quorum 25% (112,774)
 
   
     #91 – Temporarily update BLS signing parameters
@@ -25367,7 +25380,7 @@ Models / IBC2
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-90 proposals across 5 quarters. Last updated: 2026-07-28 06:39 UTC
+91 proposals across 5 quarters. Last updated: 2026-07-28 09:30 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -59613,19 +59626,32 @@ Contract Details
 
 ## 2026-Q3 Summary
 
-12Total Proposals
-7Passed (58%)
-5Rejected (42%)
+13Total Proposals
+7Passed (54%)
+5Rejected (38%)
 
 Governance Parameters5
 Funding / Grants5
-Software Upgrade1
+Software Upgrade2
 GRC / Restitution1
 
 80,000 GNK · $88,000 · Community Pool
 
 2026-Q3
-12 proposals
+13 proposals
+
+  
+    #92 – Upgrade Proposal: v0.2.15
+    
+    Voting
+  
+  
+    Submitted 2026-07-28
+    Voting ends 2026-07-30
+  
+  Upgrade Proposal: v0.2.15
+  Yes 5,481 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  ✗ Turnout 5,481 / 451,098 (1.2%) · Quorum 25% (112,774)
 
   
     #91 – Temporarily update BLS signing parameters
@@ -63676,6 +63702,85 @@ Contract Details
       }
     ],
     "vesting_epochs": "160"
+  }
+]
+```
+
+---
+
+## #92 – Upgrade Proposal: v0.2.15
+
+# #92 – Upgrade Proposal: v0.2.15
+
+Voting
+
+**Proposal ID:** `92`
+
+**Type:** Software Upgrade
+
+**Submit:** 2026-07-28 07:08 UTC
+
+**Voting:** 2026-07-28 07:08 UTC → 2026-07-30 07:08 UTC
+
+**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target="_blank"}
+
+**Metadata:** [https://github.com/gonka-ai/gonka/blob/4d687ed6782bcea3931d2d9135bf322f84e190ab/proposals/governance-artifacts/update-v0.2.15/README.md](https://github.com/gonka-ai/gonka/blob/4d687ed6782bcea3931d2d9135bf322f84e190ab/proposals/governance-artifacts/update-v0.2.15/README.md)
+
+[View on gonka.gg](https://gonka.gg/network/proposals/92){:target="_blank"}
+
+Upgrade Proposal: v0.2.15
+
+---
+
+## Final Tally
+
+  
+    
+    
+    
+    
+  
+  
+    Yes 5,481 (100.0%)
+    No 0 (0.0%)
+    Veto 0 (0.0%)
+    Abstain 0 (0.0%)
+    Total 5,481 votes
+    ✗ Turnout 5,481 / 451,098 (1.2%) · Quorum 25% (112,774)
+  
+
+Voters
+
+VoterVote
+
+gonka1qwfrtz…33xdklYes 100.0%
+gonka1p2lhgn…k6h26mYes 100.0%
+gonka1ym3np7…0e4a2pYes 100.0%
+gonka1d7p03c…v9h82pYes 100.0%
+gonka15p7s7w…jk00aqYes 100.0%
+gonka1m58jds…cqqppfYes 100.0%
+
+---
+## Messages
+
+| # | Type |
+| :- | :--- |
+| 1 | `/cosmos.upgrade.v1beta1.MsgSoftwareUpgrade` |
+
+Contract Details
+
+```json
+[
+  {
+    "@type": "/cosmos.upgrade.v1beta1.MsgSoftwareUpgrade",
+    "authority": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "plan": {
+      "name": "v0.2.15",
+      "time": "0001-01-01T00:00:00Z",
+      "height": "5316315",
+      "info": "{\n        \"binaries\": {\n            \"linux/amd64\": \"https://github.com/gonka-ai/gonka/releases/download/release%2Fv0.2.15/inferenced-amd64.zip?checksum=sha256:91af67df9ef5c576a1695e5e85c8ee344f9f1a69d941bfc28fb339d9fd33617e\"\n        },\n        \"api_binaries\": {\n            \"linux/amd64\": \"https://github.com/gonka-ai/gonka/releases/download/release%2Fv0.2.15/decentralized-api-amd64.zip?checksum=sha256:c9cf1bfa2c994beca8a528d0ee3ad7197a582144769711600ec9df41faf4c9f7\"\n        },\n        \"approved_versions\": [\n            {\n                \"name\": \"v4\",\n                \"binary\": \"https://github.com/gonka-ai/gonka/releases/download/release%2Fv0.2.15/devshardd.zip\",\n                \"sha256\": \"bdc7ee5d08f0090711c60950c7f3ffdd0c7aef5a5badf6f19c2b075b08264ddf\"\n            }\n        ]\n    }",
+      "upgraded_client_state": null
+    }
   }
 ]
 ```
