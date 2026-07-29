@@ -68,7 +68,7 @@ template: proposals-oview.html
     <span>Voting ends 2026-07-30</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.15</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 136,359 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 136,359 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-bounty">$39,825 USDT · Bounty Reward</span></div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout 136,359 / 539,219 (25.3%) · Quorum 25% (134,804)</span></div>
 </div>
 
@@ -110,7 +110,7 @@ template: proposals-oview.html
     <span>Voting ends 2026-07-23</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.14</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 296,240 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 115 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 296,240 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 115 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-bounty">$45,250 USDT · Bounty Reward</span></div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout 296,355 / 545,426 (54.3%) · Quorum 25% (136,356)</span></div>
 </div>
 
@@ -579,7 +579,7 @@ template: proposals-oview.html
     <span>Voting ends 2026-05-22</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.13</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 228,216 (62.8%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 135,071 (37.2%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 228,216 (62.8%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 135,071 (37.2%)</span><span class="prop-card-bounty">$18,000 USDT · Bounty Reward</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -605,7 +605,7 @@ template: proposals-oview.html
     <span>Voting ends 2026-05-17</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.13</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 88,420 (34.1%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 170,799 (65.9%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 88,420 (34.1%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 170,799 (65.9%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-bounty">$18,000 USDT · Bounty Reward</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -709,7 +709,7 @@ template: proposals-oview.html
     <span>Voting ends 2026-04-30</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.12</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 506,142 (99.6%)</span> · <span class="prop-tally-no-text">No 2,057 (0.4%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 506,142 (99.6%)</span> · <span class="prop-tally-no-text">No 2,057 (0.4%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-bounty">$35,200 USDT · Bounty Reward</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -883,7 +883,7 @@ template: proposals-oview.html
     <span>Voting ends 2026-03-20</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.11</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 673,699 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 673,699 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-bounty">150,750 GNK · Bounty Reward</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -935,7 +935,7 @@ template: proposals-oview.html
     <span>Voting ends 2026-02-18</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.10</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 1,540,653 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 1,540,653 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-bounty">23,000 GNK · Bounty Reward</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -1070,7 +1070,7 @@ template: proposals-oview.html
     <span>Voting ends 2025-12-20</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.6</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 1,985,917 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 1,985,917 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-bounty">30,000 GNK · Bounty Reward</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -1083,7 +1083,7 @@ template: proposals-oview.html
     <span>Voting ends 2025-12-17</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.6</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 1,034,445 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 1,034,445 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-bounty">30,000 GNK · Bounty Reward</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -1276,7 +1276,7 @@ template: proposals-oview.html
 
 </div>
 <div class="prop-oview-stats">
-<em>91 proposals across 5 quarters. Last updated: 2026-07-29 10:20 UTC</em>
+<em>91 proposals across 5 quarters. Last updated: 2026-07-29 10:26 UTC</em>
 </div>
 
 <script>

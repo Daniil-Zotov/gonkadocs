@@ -881,7 +881,14 @@ template: proposals-oview.html
                         _funding_cls = "prop-card-funding prop-card-funding-rejected"
                     _funding_html = f'<span class="{_funding_cls}">{" · ".join(_funding_parts)}</span>'
 
-                md += f'  <div class="prop-card-tally">{_tally_line}{_funding_html}</div>\n'
+                _bounty_html = ""
+                v = get_upgrade_version(p.get("messages", []))
+                b = BOUNTY_BY_VERSION.get(v)
+                if b:
+                    total_str = f"${b['total']:,}" if b["denom"] == "USDT" else f"{b['total']:,}"
+                    _bounty_html = f'<span class="prop-card-bounty">{total_str} {b["denom"]} · Bounty Reward</span>'
+
+                md += f'  <div class="prop-card-tally">{_tally_line}{_funding_html}{_bounty_html}</div>\n'
                 if _turnout_line:
                     md += f'  <div class="prop-card-tally">{_turnout_line}</div>\n'
 

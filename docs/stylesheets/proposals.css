@@ -190,6 +190,15 @@
   text-decoration: line-through;
 }
 
+.prop-card-bounty {
+  margin-left: auto;
+  white-space: nowrap;
+  font-weight: 600;
+  color: #cf5c00;
+  text-align: right;
+  padding-left: 12px;
+}
+
 /* ── Detail page ───────────────────────────────────────────── */
 .prop-detail-header {
   border: 1px solid var(--md-default-fg-color--lightest);
