@@ -17242,7 +17242,7 @@ If you have the opportunity and desire to be part of the committee — please co
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-07-29 11:09 UTC
+2026-07-29 11:21 UTC
 
 ---
 
@@ -24383,8 +24383,8 @@ $104,325 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-07-30
   
   Upgrade Proposal: v0.2.15
-  Yes 136,359 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)$39,825 USDT · Bounty Reward
-  ✓ Turnout 136,359 / 539,219 (25.3%) · Quorum 25% (134,804)
+  Yes 140,526 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)$39,825 USDT · Bounty Reward
+  ✓ Turnout 140,526 / 539,219 (26.1%) · Quorum 25% (134,804)
 
   
     #91 – Temporarily update BLS signing parameters
@@ -25400,7 +25400,7 @@ $104,325 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-91 proposals across 5 quarters. Last updated: 2026-07-29 11:10 UTC
+91 proposals across 5 quarters. Last updated: 2026-07-29 12:10 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -59683,8 +59683,8 @@ $50,250 USDT · Bounty Reward
     Voting ends 2026-07-30
   
   Upgrade Proposal: v0.2.15
-  Yes 136,359 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)$39,825 USDT · Bounty Reward
-  ✓ Turnout 136,359 / 539,219 (25.3%) · Quorum 25% (134,804)
+  Yes 140,526 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)$39,825 USDT · Bounty Reward
+  ✓ Turnout 140,526 / 539,219 (26.1%) · Quorum 25% (134,804)
 
   
     #91 – Temporarily update BLS signing parameters
@@ -63845,12 +63845,12 @@ Upgrade Proposal: v0.2.15
     
   
   
-    Yes 136,359 (100.0%)
+    Yes 140,526 (100.0%)
     No 0 (0.0%)
     Veto 0 (0.0%)
     Abstain 0 (0.0%)
-    Total 136,359 votes
-    ✓ Turnout 136,359 / 539,219 (25.3%) · Quorum 25% (134,804)
+    Total 140,526 votes
+    ✓ Turnout 140,526 / 539,219 (26.1%) · Quorum 25% (134,804)
   
 
 Voters
@@ -63861,6 +63861,7 @@ gonka1qwfrtz…33xdklYes 100.0%
 gonka1p2lhgn…k6h26mYes 100.0%
 gonka1ym3np7…0e4a2pYes 100.0%
 gonka1d7p03c…v9h82pYes 100.0%
+gonka10mmdja…vqgz09Yes 100.0%
 gonka15p7s7w…jk00aqYes 100.0%
 gonka1kvmerz…lzldumYes 100.0%
 gonka16dgkvx…6j0skkYes 100.0%
