@@ -17242,7 +17242,7 @@ If you have the opportunity and desire to be part of the committee — please co
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-07-29 08:31 UTC
+2026-07-29 11:09 UTC
 
 ---
 
@@ -17349,12 +17349,12 @@ All **passed** governance proposals that received funding from the Community Poo
 | [#32](https://gonkadocs.com/proposals/proposals/2026-q1/32/) | 2026-03-24 | Epoch 158 compensation payout from gov module (batch vestin… | Community Pool + Gov Module | 30,538 | — |
 | [#14](https://gonkadocs.com/proposals/proposals/2025-q4/14/) | 2025-11-27 | Sale GNK from Community Fund | Community Pool | 20,000,000 | — |
 | [PR #919](https://github.com/gonka-ai/gonka/pull/919) | 2026-03 | v0.2.11 bounty distribution | Upgrade Handler (Gov Module) | 150,750 | — |
-| [PR #1446](https://github.com/gonka-ai/gonka/pull/1446) | 2026-07 | v0.2.14 bounty distribution | Upgrade Handler (Community Sale) | — | $45,250 |
+| [PR #1446](https://github.com/gonka-ai/gonka/pull/1446) | 2026-07 | v0.2.14 bounty distribution | Upgrade Handler (Community Sale) | — | $50,250 |
 | [PR #1503](https://github.com/gonka-ai/gonka/pull/1503) | 2026-07 | v0.2.15 bounty distribution | Upgrade Handler (Community Sale) | — | $39,825 |
 | [PR #1113](https://github.com/gonka-ai/gonka/pull/1113) | 2026-04 | v0.2.12 bounty distribution | Upgrade Handler (Community Sale) | — | $35,200 |
 | [PR #497](https://github.com/gonka-ai/gonka/pull/497) | 2026-01 | v0.2.6 bounty distribution | Upgrade Handler (Gov Module) | 30,000 | — |
 | [PR #733](https://github.com/gonka-ai/gonka/pull/733) | 2026-02 | v0.2.10 bounty distribution | Upgrade Handler (Gov Module) | 23,000 | — |
-| [PR #1168](https://github.com/gonka-ai/gonka/pull/1168) | 2026-05 | v0.2.13 bounty distribution | Upgrade Handler (Community Sale) | — | $18,000 |
+| [PR #1168](https://github.com/gonka-ai/gonka/pull/1168) | 2026-05 | v0.2.13 bounty distribution | Upgrade Handler (Community Sale) | — | $18,875 |
 
 | Metric | Value |
 | :----- | :---- |
@@ -17367,8 +17367,8 @@ All **passed** governance proposals that received funding from the Community Poo
 | Most recent | #82 — 80,000 GNK + $88,000 USDT |
 | **Upgrade distributions** | **7** |
 | Total GNK distributed (upgrades) | 203,750 GNK |
-| Total USDT distributed (upgrades) | $138,275 |
-| From Community Sale contract | $138,275 USDT |
+| Total USDT distributed (upgrades) | $144,150 |
+| From Community Sale contract | $144,150 USDT |
 | From Gov Module | 203,750 GNK |
 
 ---
@@ -17382,8 +17382,8 @@ USDT bounties are paid from the **Community Sale contract** via `withdraw_ibc`. 
 | Version | PR | Status | Date | Recipients | Total GNK | Total USDT | Source
 | :------ | :- | :----- | :--- | :--------- | --------: | --------: | :----
 | v0.2.15 | [PR #1503](https://github.com/gonka-ai/gonka/pull/1503) | Merged | 2026-07 | 8 recipients | — | $39,825 | Community Sale |
-| v0.2.14 | [PR #1446](https://github.com/gonka-ai/gonka/pull/1446) | Merged | 2026-07 | 16 recipients | — | $45,250 | Community Sale |
-| v0.2.13 | [PR #1168](https://github.com/gonka-ai/gonka/pull/1168) | Merged | 2026-05 | 2 recipients | — | $18,000 | Community Sale |
+| v0.2.14 | [PR #1446](https://github.com/gonka-ai/gonka/pull/1446) | Merged | 2026-07 | 17 recipients | — | $50,250 | Community Sale |
+| v0.2.13 | [PR #1168](https://github.com/gonka-ai/gonka/pull/1168) | Merged | 2026-05 | 4 recipients | — | $18,875 | Community Sale |
 | v0.2.12 | [PR #1113](https://github.com/gonka-ai/gonka/pull/1113) | Merged | 2026-04 | 13 recipients | — | $35,200 | Community Sale |
 | v0.2.11 | [PR #919](https://github.com/gonka-ai/gonka/pull/919) | Merged | 2026-03 | 26 recipients | 150,750 | — | Gov Module |
 | v0.2.10 | [PR #733](https://github.com/gonka-ai/gonka/pull/733) | Merged | 2026-02 | 11 recipients | 23,000 | — | Gov Module |
@@ -17411,7 +17411,7 @@ USDT bounties are paid from the **Community Sale contract** via `withdraw_ibc`. 
 | :------- | :------ | ----: | :---------- |
 | @akup | [`gonka1ejkupq3cy6p8xd64ew2wlzveml86ckpzn9dl56`](https://gonka.gg/address/gonka1ejkupq3cy6p8xd64ew2wlzveml86ckpzn9dl56) | $5,000 USDT | devshards v3 RM, upgrade review, HackerOne reviews |
 | @x0152 | [`gonka18enyz7h6hh5zjveee5wnhkhrcexamfz0zdxxqe`](https://gonka.gg/address/gonka18enyz7h6hh5zjveee5wnhkhrcexamfz0zdxxqe) | $6,000 USDT | RM, HackerOne reviews |
-| @qdanik | [`gonka1j3f2xkapx8cmczpjqcsrh7cc3peyj3ngkjv4p8`](https://gonka.gg/address/gonka1j3f2xkapx8cmczpjqcsrh7cc3peyj3ngkjv4p8) | $10,000 USDT | RM, HackerOne reviews, MiniMax R&D, PoC (incl. GPU) |
+| @qdanik | [`gonka1j3f2xkapx8cmczpjqcsrh7cc3peyj3ngkjv4p8`](https://gonka.gg/address/gonka1j3f2xkapx8cmczpjqcsrh7cc3peyj3ngkjv4p8) | $11,500 USDT | RM, HackerOne reviews, MiniMax M2.7 R&D, PoC (incl. GPU), SMST optimization (PR #1432) |
 | @ouicate | [`gonka1f0elpwnx7ezytdlck35003nz6qk8kzvurvnj4a`](https://gonka.gg/address/gonka1f0elpwnx7ezytdlck35003nz6qk8kzvurvnj4a) | $1,000 USDT | PR #1253: stop stale PoC validation |
 | @ouicate | [`gonka1f0elpwnx7ezytdlck35003nz6qk8kzvurvnj4a`](https://gonka.gg/address/gonka1f0elpwnx7ezytdlck35003nz6qk8kzvurvnj4a) | $1,000 USDT | PR #1255: settle before releasing unbonding |
 | @ouicate | [`gonka1f0elpwnx7ezytdlck35003nz6qk8kzvurvnj4a`](https://gonka.gg/address/gonka1f0elpwnx7ezytdlck35003nz6qk8kzvurvnj4a) | $1,000 USDT | PR #1278: bound event-listener tx queue |
@@ -17424,8 +17424,9 @@ USDT bounties are paid from the **Community Sale contract** via `withdraw_ibc`. 
 | @redstartechno | [`gonka105ce4495mj0mwkxqeasgdzqfq5jjrfq32eza5l`](https://gonka.gg/address/gonka105ce4495mj0mwkxqeasgdzqfq5jjrfq32eza5l) | $500 USDT | PR #1307: avoid query-gas-limit on grant check |
 | @Lelouch33 | [`gonka128nd36m2pz5qcs4q6rd69622flyls05nleazqq`](https://gonka.gg/address/gonka128nd36m2pz5qcs4q6rd69622flyls05nleazqq) | $5,000 USDT | Vulnerability report 1 |
 | @Lelouch33 | [`gonka128nd36m2pz5qcs4q6rd69622flyls05nleazqq`](https://gonka.gg/address/gonka128nd36m2pz5qcs4q6rd69622flyls05nleazqq) | $1,000 USDT | Vulnerability report 2 |
+| @maksimenkoff | [`gonka1gmuxdcxlsxn5z72elx77w9zym7yrgfxqgzg6ry`](https://gonka.gg/address/gonka1gmuxdcxlsxn5z72elx77w9zym7yrgfxqgzg6ry) | $3,000 USDT | Vulnerability report and fix #1415 |
 | @blizko | [`gonka12jaf7m4eysyqt32mrgarum6z96vt55tckvcleq`](https://gonka.gg/address/gonka12jaf7m4eysyqt32mrgarum6z96vt55tckvcleq) | $1,000 USDT | v0.2.13 upgrade review |
-| **Total** | | **$45,250 USDT** | |
+| **Total** | | **$50,250 USDT** | |
 
 ### v0.2.13 — [PR #1168](https://github.com/gonka-ai/gonka/pull/1168) (Merged)
 
@@ -17433,7 +17434,9 @@ USDT bounties are paid from the **Community Sale contract** via `withdraw_ibc`. 
 | :------- | :------ | ----: | :---------- |
 | @blizko | [`gonka12jaf7m4eysyqt32mrgarum6z96vt55tckvcleq`](https://gonka.gg/address/gonka12jaf7m4eysyqt32mrgarum6z96vt55tckvcleq) | $8,000 USDT | Prompt of death: vLLM crash via structured outputs |
 | kaitaku.ai | [`gonka1x45hruazmcqxslj3g8a08988hr5fr3wx33drhp`](https://gonka.gg/address/gonka1x45hruazmcqxslj3g8a08988hr5fr3wx33drhp) | $10,000 USDT | Kimi experiments report |
-| **Total** | | **$18,000 USDT** | |
+| @ouicate | [`gonka1f0elpwnx7ezytdlck35003nz6qk8kzvurvnj4a`](https://gonka.gg/address/gonka1f0elpwnx7ezytdlck35003nz6qk8kzvurvnj4a) | $500 USDT | PR #826: Partial Payment on Claim Failure Causes Permanent Reward Loss |
+| @ouicate | [`gonka1f0elpwnx7ezytdlck35003nz6qk8kzvurvnj4a`](https://gonka.gg/address/gonka1f0elpwnx7ezytdlck35003nz6qk8kzvurvnj4a) | $375 USDT | PR #826: Underfunded Work Payout Still Removes Settle Amount |
+| **Total** | | **$18,875 USDT** | |
 
 ### v0.2.12 — [PR #1113](https://github.com/gonka-ai/gonka/pull/1113) (Merged)
 
@@ -24364,6 +24367,7 @@ Other3
 Models / IBC2
 
 20,302,572 GNK · $631,600 · Community Pool · 4,691,460 GNK · Gov Module
+$104,325 USDT · 203,750 GNK · Bounty Reward
 
 ## 2026-Q3
 
@@ -24379,7 +24383,7 @@ Models / IBC2
     Voting ends 2026-07-30
   
   Upgrade Proposal: v0.2.15
-  Yes 136,359 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 136,359 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)$39,825 USDT · Bounty Reward
   ✓ Turnout 136,359 / 539,219 (25.3%) · Quorum 25% (134,804)
 
   
@@ -24415,7 +24419,7 @@ Models / IBC2
     Voting ends 2026-07-23
   
   Upgrade Proposal: v0.2.14
-  Yes 296,240 (100.0%) · No 0 (0.0%) · Veto 115 (0.0%) · Abstain 0 (0.0%)
+  Yes 296,240 (100.0%) · No 0 (0.0%) · Veto 115 (0.0%) · Abstain 0 (0.0%)$50,250 USDT · Bounty Reward
   ✓ Turnout 296,355 / 545,426 (54.3%) · Quorum 25% (136,356)
 
   
@@ -24812,7 +24816,7 @@ Models / IBC2
     Voting ends 2026-05-22
   
   Upgrade Proposal: v0.2.13
-  Yes 228,216 (62.8%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 135,071 (37.2%)
+  Yes 228,216 (62.8%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 135,071 (37.2%)$18,875 USDT · Bounty Reward
 
   
     #53 – INC4 | Gonka NOP - grant for the node deployment tool
@@ -24834,7 +24838,7 @@ Models / IBC2
     Voting ends 2026-05-17
   
   Upgrade Proposal: v0.2.13
-  Yes 88,420 (34.1%) · No 0 (0.0%) · Veto 170,799 (65.9%) · Abstain 0 (0.0%)
+  Yes 88,420 (34.1%) · No 0 (0.0%) · Veto 170,799 (65.9%) · Abstain 0 (0.0%)$18,875 USDT · Bounty Reward
 
   
     #51 – Support Gonka's presence at WebX Asia
@@ -24922,7 +24926,7 @@ Models / IBC2
     Voting ends 2026-04-30
   
   Upgrade Proposal: v0.2.12
-  Yes 506,142 (99.6%) · No 2,057 (0.4%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 506,142 (99.6%) · No 2,057 (0.4%) · Veto 0 (0.0%) · Abstain 0 (0.0%)$35,200 USDT · Bounty Reward
 
   
     #43 – Governance Architecture Proposal for the Gonka.ai Network
@@ -25068,7 +25072,7 @@ Models / IBC2
     Voting ends 2026-03-20
   
   Upgrade Proposal: v0.2.11
-  Yes 673,699 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 673,699 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)150,750 GNK · Bounty Reward
 
   
     #30 – Test Proposal
@@ -25112,7 +25116,7 @@ Models / IBC2
     Voting ends 2026-02-18
   
   Upgrade Proposal: v0.2.10
-  Yes 1,540,653 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 1,540,653 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)23,000 GNK · Bounty Reward
 
   
     #26 – Upgrade Proposal: v0.2.9
@@ -25225,7 +25229,7 @@ Models / IBC2
     Voting ends 2025-12-20
   
   Upgrade Proposal: v0.2.6
-  Yes 1,985,917 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 1,985,917 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)30,000 GNK · Bounty Reward
 
   
     #15 – Upgrade Proposal: v0.2.6
@@ -25236,7 +25240,7 @@ Models / IBC2
     Voting ends 2025-12-17
   
   Upgrade Proposal: v0.2.6
-  Yes 1,034,445 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 1,034,445 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)30,000 GNK · Bounty Reward
 
   
     #14 – Sale GNK from Community Fund
@@ -25396,7 +25400,7 @@ Models / IBC2
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-91 proposals across 5 quarters. Last updated: 2026-07-29 09:50 UTC
+91 proposals across 5 quarters. Last updated: 2026-07-29 11:10 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -25446,6 +25450,7 @@ Other1
 Models / IBC1
 
 218,972 GNK · $543,600 · Community Pool · 4,636,616 GNK · Gov Module
+$54,075 USDT · Bounty Reward
 
 2026-Q2
 44 proposals
@@ -25732,7 +25737,7 @@ Models / IBC1
     Voting ends 2026-05-22
   
   Upgrade Proposal: v0.2.13
-  Yes 228,216 (62.8%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 135,071 (37.2%)
+  Yes 228,216 (62.8%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 135,071 (37.2%)$18,875 USDT · Bounty Reward
 
   
     #53 – INC4 | Gonka NOP - grant for the node deployment tool
@@ -25754,7 +25759,7 @@ Models / IBC1
     Voting ends 2026-05-17
   
   Upgrade Proposal: v0.2.13
-  Yes 88,420 (34.1%) · No 0 (0.0%) · Veto 170,799 (65.9%) · Abstain 0 (0.0%)
+  Yes 88,420 (34.1%) · No 0 (0.0%) · Veto 170,799 (65.9%) · Abstain 0 (0.0%)$18,875 USDT · Bounty Reward
 
   
     #51 – Support Gonka's presence at WebX Asia
@@ -25842,7 +25847,7 @@ Models / IBC1
     Voting ends 2026-04-30
   
   Upgrade Proposal: v0.2.12
-  Yes 506,142 (99.6%) · No 2,057 (0.4%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 506,142 (99.6%) · No 2,057 (0.4%) · Veto 0 (0.0%) · Abstain 0 (0.0%)$35,200 USDT · Bounty Reward
 
   
     #43 – Governance Architecture Proposal for the Gonka.ai Network
@@ -48183,6 +48188,8 @@ Rejected
 
 **Failed reason:** proposal did not get enough votes to pass
 
+Bounty Reward из Community Pool: $18,875 USDT · Community Sale · PR #1168
+
 [View on gonka.gg](https://gonka.gg/network/proposals/52){:target="_blank"}
 
 Upgrade Proposal: v0.2.13
@@ -48593,6 +48600,8 @@ Passed
 **Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target="_blank"}
 
 **Metadata:** [https://github.com/gonka-ai/gonka/blob/76d0eb971233f9544f681a25e860844e3f45641e/proposals/governance-artifacts/update-v0.2.12/README.md](https://github.com/gonka-ai/gonka/blob/76d0eb971233f9544f681a25e860844e3f45641e/proposals/governance-artifacts/update-v0.2.12/README.md)
+
+Bounty Reward из Community Pool: $35,200 USDT · Community Sale · PR #1113
 
 [View on gonka.gg](https://gonka.gg/network/proposals/44){:target="_blank"}
 
@@ -50735,6 +50744,8 @@ Passed
 
 **Metadata:** [https://github.com/gonka-ai/gonka/blob/3f0c34f77c9b8f8c32ca5303ef3ffad23d66d5ea/proposals/governance-artifacts/update-v0.2.13/README.md](https://github.com/gonka-ai/gonka/blob/3f0c34f77c9b8f8c32ca5303ef3ffad23d66d5ea/proposals/governance-artifacts/update-v0.2.13/README.md)
 
+Bounty Reward из Community Pool: $18,875 USDT · Community Sale · PR #1168
+
 [View on gonka.gg](https://gonka.gg/network/proposals/54){:target="_blank"}
 
 Upgrade Proposal: v0.2.13
@@ -50812,6 +50823,7 @@ Funding / Grants4
 Other2
 
 3,600 GNK · Community Pool · 54,844 GNK · Gov Module
+173,750 GNK · Bounty Reward
 
 2026-Q1
 17 proposals
@@ -50868,7 +50880,7 @@ Other2
     Voting ends 2026-03-20
   
   Upgrade Proposal: v0.2.11
-  Yes 673,699 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 673,699 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)150,750 GNK · Bounty Reward
 
   
     #30 – Test Proposal
@@ -50912,7 +50924,7 @@ Other2
     Voting ends 2026-02-18
   
   Upgrade Proposal: v0.2.10
-  Yes 1,540,653 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 1,540,653 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)23,000 GNK · Bounty Reward
 
   
     #26 – Upgrade Proposal: v0.2.9
@@ -54636,6 +54648,8 @@ Passed
 
 **Metadata:** [https://github.com/gonka-ai/gonka/blob/faa358dec3091e19cb92267556443775431ecc81/proposals/governance-artifacts/update-v0.2.10/README.md](https://github.com/gonka-ai/gonka/blob/faa358dec3091e19cb92267556443775431ecc81/proposals/governance-artifacts/update-v0.2.10/README.md)
 
+Bounty Reward из Community Pool: 23,000 GNK · Gov Module · PR #733
+
 [View on gonka.gg](https://gonka.gg/network/proposals/27){:target="_blank"}
 
 Upgrade Proposal: v0.2.10
@@ -56237,6 +56251,8 @@ Passed
 **Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target="_blank"}
 
 **Metadata:** [https://github.com/gonka-ai/gonka/blob/74f5ff859dd6d83eb8c2576b55c76fa41e669341/proposals/governance-artifacts/update-v0.2.11/README.md](https://github.com/gonka-ai/gonka/blob/74f5ff859dd6d83eb8c2576b55c76fa41e669341/proposals/governance-artifacts/update-v0.2.11/README.md)
+
+Bounty Reward из Community Pool: 150,750 GNK · Gov Module · PR #919
 
 [View on gonka.gg](https://gonka.gg/network/proposals/31){:target="_blank"}
 
@@ -59652,6 +59668,7 @@ Software Upgrade2
 GRC / Restitution1
 
 80,000 GNK · $88,000 · Community Pool
+$50,250 USDT · Bounty Reward
 
 2026-Q3
 13 proposals
@@ -59666,7 +59683,7 @@ GRC / Restitution1
     Voting ends 2026-07-30
   
   Upgrade Proposal: v0.2.15
-  Yes 136,359 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 136,359 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)$39,825 USDT · Bounty Reward
   ✓ Turnout 136,359 / 539,219 (25.3%) · Quorum 25% (134,804)
 
   
@@ -59702,7 +59719,7 @@ GRC / Restitution1
     Voting ends 2026-07-23
   
   Upgrade Proposal: v0.2.14
-  Yes 296,240 (100.0%) · No 0 (0.0%) · Veto 115 (0.0%) · Abstain 0 (0.0%)
+  Yes 296,240 (100.0%) · No 0 (0.0%) · Veto 115 (0.0%) · Abstain 0 (0.0%)$50,250 USDT · Bounty Reward
   ✓ Turnout 296,355 / 545,426 (54.3%) · Quorum 25% (136,356)
 
   
@@ -63811,6 +63828,8 @@ Voting
 
 **Metadata:** [https://github.com/gonka-ai/gonka/blob/4d687ed6782bcea3931d2d9135bf322f84e190ab/proposals/governance-artifacts/update-v0.2.15/README.md](https://github.com/gonka-ai/gonka/blob/4d687ed6782bcea3931d2d9135bf322f84e190ab/proposals/governance-artifacts/update-v0.2.15/README.md)
 
+Bounty Reward из Community Pool: $39,825 USDT · Community Sale · PR #1503
+
 [View on gonka.gg](https://gonka.gg/network/proposals/92){:target="_blank"}
 
 Upgrade Proposal: v0.2.15
@@ -64456,6 +64475,8 @@ Passed
 
 **Metadata:** [https://github.com/gonka-ai/gonka/blob/upgrade-v0.2.14/proposals/governance-artifacts/update-v0.2.14/README.md](https://github.com/gonka-ai/gonka/blob/upgrade-v0.2.14/proposals/governance-artifacts/update-v0.2.14/README.md)
 
+Bounty Reward из Community Pool: $50,250 USDT · Community Sale · PR #1446
+
 [View on gonka.gg](https://gonka.gg/network/proposals/89){:target="_blank"}
 
 Upgrade Proposal: v0.2.14
@@ -64532,6 +64553,7 @@ Software Upgrade5
 Funding / Grants1
 
 20,000,000 GNK · Community Pool
+30,000 GNK · Bounty Reward
 
 2025-Q4
 11 proposals
@@ -64556,7 +64578,7 @@ Funding / Grants1
     Voting ends 2025-12-20
   
   Upgrade Proposal: v0.2.6
-  Yes 1,985,917 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 1,985,917 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)30,000 GNK · Bounty Reward
 
   
     #15 – Upgrade Proposal: v0.2.6
@@ -64567,7 +64589,7 @@ Funding / Grants1
     Voting ends 2025-12-17
   
   Upgrade Proposal: v0.2.6
-  Yes 1,034,445 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 1,034,445 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)30,000 GNK · Bounty Reward
 
   
     #14 – Sale GNK from Community Fund
@@ -66222,6 +66244,8 @@ Rejected
 
 **Failed reason:** proposal did not get enough votes to pass
 
+Bounty Reward из Community Pool: 30,000 GNK · Gov Module · PR #497
+
 [View on gonka.gg](https://gonka.gg/network/proposals/15){:target="_blank"}
 
 Upgrade Proposal: v0.2.6
@@ -67084,6 +67108,8 @@ Passed
 **Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target="_blank"}
 
 **Metadata:** [https://github.com/gonka-ai/gonka/commit/5be305ad380db8854313d2b0369049c8105f681b/proposals/governance-artifacts/update-v0.2.6/README.md](https://github.com/gonka-ai/gonka/commit/5be305ad380db8854313d2b0369049c8105f681b/proposals/governance-artifacts/update-v0.2.6/README.md)
+
+Bounty Reward из Community Pool: 30,000 GNK · Gov Module · PR #497
 
 [View on gonka.gg](https://gonka.gg/network/proposals/16){:target="_blank"}
 
