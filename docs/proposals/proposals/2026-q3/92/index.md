@@ -38,18 +38,18 @@ Upgrade Proposal: v0.2.15
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:26.1%"></div>
+    <div class="prop-tally-yes" style="width:39.6%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes 140,526 (100.0%)</span>
+    <span class="prop-tally-yes-text">Yes 213,745 (100.0%)</span>
     <span class="prop-tally-no-text">No 0 (0.0%)</span>
     <span class="prop-tally-veto-text">Veto 0 (0.0%)</span>
     <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span>
-    <span class="prop-tally-total-text">Total 140,526 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout 140,526 / 539,219 (26.1%) · Quorum 25% (134,804)</span>
+    <span class="prop-tally-total-text">Total 213,745 votes</span>
+    <span class="prop-tally-yes-text">✓ Turnout 213,745 / 539,219 (39.6%) · Quorum 25% (134,804)</span>
   </div>
 </div>
 
@@ -70,6 +70,7 @@ Upgrade Proposal: v0.2.15
 <tr><td><a href="https://gonka.gg/address/gonka1kvmerzu64094dt9t62ea0cp75larh39ulzldum" target="_blank" class="prop-voter-addr">gonka1kvmerz…lzldum</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka16dgkvx7mh609ntkzknckwaskgq9lcdp86j0skk" target="_blank" class="prop-voter-addr">gonka16dgkvx…6j0skk</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1m58jds005cttwq2vt0p7yk6vy2aqg254cqqppf" target="_blank" class="prop-voter-addr">gonka1m58jds…cqqppf</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
+<tr><td><a href="https://gonka.gg/address/gonka1l6emtgat9xn9yr8q9lcg2ph6qkqgnkdg8xwa3d" target="_blank" class="prop-voter-addr">gonka1l6emtg…8xwa3d</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 </tbody>
 </table>
 </div>
