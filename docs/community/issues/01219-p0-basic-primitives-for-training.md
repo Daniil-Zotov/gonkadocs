@@ -2,7 +2,7 @@
 title: "#1219 — [P0] Basic primitives for training"
 source: https://github.com/gonka-ai/gonka/issues/1219
 issue_number: 1219
-synced_at: 2026-07-29T16:40:41Z
+synced_at: 2026-07-29T18:16:24Z
 template: issues-main.html
 ---
 
@@ -16,7 +16,7 @@ template: issues-main.html
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-05-21 21:56 UTC</span>
     <span class="issues-meta-item">6 comments</span>
-    <span class="issues-meta-item">Updated 2026-07-21 23:07 UTC</span>
+    <span class="issues-meta-item">Updated 2026-07-29 18:02 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
 </div>
@@ -40,7 +40,7 @@ Put together a lightweight training flow without the heavy logic we have in devs
   </div>
   <div class="issues-comment-body issues-content">
     <p>Here's the draft plan and draft of the first-stage PR:</p>
-<p>Plan (draft): https://docs.google.com/document/d/1LLZngQ7VoIL3DVT8St40XLE8HcRcxyNXZueyzoQfWuE/edit?tab=t.0
+<p>Plan (draft): https://docs.google.com/document/d/1LLZngQ7VoIL3DVT8St40XLE8HcRcxyNXZueyzoQfWuE/edit?usp=sharing
 PR (stage 1): #1350 </p>
 <p>Any help is welcome, from shaping the plan to implementation and reviews</p>
   </div>

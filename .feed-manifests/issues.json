@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-07-29T16:44:28.142239+00:00",
+  "snapshot_time": "2026-07-29T18:18:28.510840+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "Description",
@@ -2672,16 +2672,16 @@
       "title": "#1219 — [P0] Basic primitives for training",
       "status": null,
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [P0] Basic primitives for training\n    <span class=\"issues-number\">#1219</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-05-21 21:56 UTC</span>\n    <span class=\"issues-meta-item\">6 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style=\"b",
-      "comment_checksum": "bff27bdca804b662df64e8513c556586d76bab5cc7b29ab62b56289b33a56488",
+      "comment_checksum": "29e98c5edee55e0b12921140198d8494a9e5a77581a0009dd1e7503e12a6dd74",
       "comment_bodies": [
-        "Here's the draft plan and draft of the first-stage PR: Plan (draft): https://docs.google.com/document/d/1LLZngQ7VoIL3DVT8St40XLE8HcRcxyNXZueyzoQfWuE/edit?tab=t.0 PR (stage 1): #1350 Any help is welcome, from shaping the plan to implementation and reviews",
+        "Here's the draft plan and draft of the first-stage PR: Plan (draft): https://docs.google.com/document/d/1LLZngQ7VoIL3DVT8St40XLE8HcRcxyNXZueyzoQfWuE/edit?usp=sharing PR (stage 1): #1350 Any help is welcome, from shaping the plan to implementation and reviews",
         "Hi @mtvnastya , I’d like to help with this if there is still an open sub-scope. My understanding is that this should be a lightweight mainnet training primitive, not a full devshards port: define/register a training workload, dispatch it to ML nodes, track basic execution state/result metadata, and leave redeployment/heavy orchestration out of scope. I can start with a small PR around the training",
         "Hi @orvionx, I've already started working on this and opened a draft PR for the first stage: #1350. There's also a draft plan here: https://docs.google.com/document/d/1LLZngQ7VoIL3DVT8St40XLE8HcRcxyNXZueyzoQfWuE/edit?tab=t.0 I'd be happy if you could join. Could you take a look at the plan and share your thoughts? Stage 2 can be implemented in parallel with stage 1",
         "Hi @x0152 Thanks for the mention — I’d be happy to join and help with this. I reviewed the Stage 1 direction from PR #1350. My understanding is that Stage 1 mainly covers the on-chain reservation/release lifecycle, while Stage 2 can focus more on the actual training execution layer and coordination flow between reserved nodes. My initial thoughts: Stage 2 should be kept clearly separated from Stag",
         "Hi @orvionx ! Just checking in - how are you doing? Were you able to make any progress on this?",
         "@x0152 Hi, I didn't make any progress yet"
       ],
-      "checksum": "600293b0eef5ff547e56c1281eec375333b467821ce98eb8749c4f5b8141f2f2"
+      "checksum": "42db3d5f84ef5acf3ae58c04785129804b2f87fe17f562c3f42c7e7cfcc88567"
     },
     "01220-p0-off-chain-devshard-implementation-track.md": {
       "title": "#1220 — [P0] Off-chain / devshard implementation track",
