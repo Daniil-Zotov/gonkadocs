@@ -22,6 +22,7 @@ template: proposals-proposals-main.html
 
 **Metadata:** [https://github.com/gonka-ai/gonka/commit/5be305ad380db8854313d2b0369049c8105f681b/proposals/governance-artifacts/update-v0.2.6/README.md](https://github.com/gonka-ai/gonka/commit/5be305ad380db8854313d2b0369049c8105f681b/proposals/governance-artifacts/update-v0.2.6/README.md)
 
+<div class="prop-bounty-line">Bounty Reward из Community Pool: 30,000 GNK · Gov Module · <a href="https://github.com/gonka-ai/gonka/pull/497" target="_blank">PR #497</a></div>
 
 
 [View on gonka.gg](https://gonka.gg/network/proposals/16){:target="_blank"}

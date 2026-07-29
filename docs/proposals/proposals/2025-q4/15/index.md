@@ -24,6 +24,7 @@ template: proposals-proposals-main.html
 
 **Failed reason:** proposal did not get enough votes to pass
 
+<div class="prop-bounty-line">Bounty Reward из Community Pool: 30,000 GNK · Gov Module · <a href="https://github.com/gonka-ai/gonka/pull/497" target="_blank">PR #497</a></div>
 
 
 [View on gonka.gg](https://gonka.gg/network/proposals/15){:target="_blank"}

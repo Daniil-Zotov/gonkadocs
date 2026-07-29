@@ -19,6 +19,19 @@ from pathlib import Path
 
 import requests
 
+# ── Bounty reward distributions by upgrade version ──────────────
+# Mirrors BOUNTY_DISTRIBUTIONS in buildtools/update-community-pool.py.
+# Maps version → bounty info shown on upgrade proposal pages.
+BOUNTY_BY_VERSION = {
+    "v0.2.6":  {"total": 30000, "denom": "GNK",   "source": "Gov Module",      "pr": 497,  "pr_status": "Merged"},
+    "v0.2.10": {"total": 23000, "denom": "GNK",   "source": "Gov Module",      "pr": 733,  "pr_status": "Merged"},
+    "v0.2.11": {"total": 150750,"denom": "GNK",   "source": "Gov Module",      "pr": 919,  "pr_status": "Merged"},
+    "v0.2.12": {"total": 35200, "denom": "USDT",  "source": "Community Sale",  "pr": 1113, "pr_status": "Merged"},
+    "v0.2.13": {"total": 18000, "denom": "USDT",  "source": "Community Sale",  "pr": 1168, "pr_status": "Merged"},
+    "v0.2.14": {"total": 45250, "denom": "USDT",  "source": "Community Sale",  "pr": 1446, "pr_status": "Merged"},
+    "v0.2.15": {"total": 39825, "denom": "USDT",  "source": "Community Sale",  "pr": 1503, "pr_status": "Merged"},
+}
+
 RPC_ENDPOINTS = [
     "https://rpc.gonka.gg",
     "https://node3.gonka.ai/chain-api",
@@ -161,6 +174,14 @@ def fmt_time_short(iso_str):
         return dt.strftime("%Y-%m-%d")
     except (ValueError, TypeError):
         return iso_str
+
+
+def get_upgrade_version(messages):
+    """Extract the software upgrade plan name from proposal messages."""
+    for m in (messages or []):
+        if "MsgSoftwareUpgrade" in m.get("@type", ""):
+            return m.get("plan", {}).get("name", "")
+    return ""
 
 
 def get_message_types(messages):
@@ -597,6 +618,23 @@ template: proposals-proposals-main.html
         md += f"**Failed reason:** {failed_reason}\n\n"
     if funding_html:
         md += funding_html
+
+    # Bounty reward line (upgrade proposals only)
+    bounty_html = ""
+    if messages:
+        v = get_upgrade_version(messages)
+        b = BOUNTY_BY_VERSION.get(v)
+        if b:
+            total_str = f"${b['total']:,}" if b["denom"] == "USDT" else f"{b['total']:,}"
+            bounty_html = (
+                f'<div class="prop-bounty-line">'
+                f'Bounty Reward из Community Pool: {total_str} {b["denom"]} · '
+                f'{b["source"]} · '
+                f'<a href="https://github.com/gonka-ai/gonka/pull/{b["pr"]}" target="_blank">PR #{b["pr"]}</a>'
+                f'</div>\n'
+            )
+    if bounty_html:
+        md += bounty_html
 
     md += f"""
 

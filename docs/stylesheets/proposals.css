@@ -270,6 +270,14 @@
   text-decoration: line-through;
 }
 
+/* ── Bounty reward line on upgrade proposal pages ──────────── */
+.prop-bounty-line {
+  font-size: 13px;
+  font-weight: 600;
+  color: #cf5c00;
+  margin-top: 4px;
+}
+
 /* ── Contract details spoiler ──────────────────────────────── */
 .prop-contracts {
   margin-top: 20px;
