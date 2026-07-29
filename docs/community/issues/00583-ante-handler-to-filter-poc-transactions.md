@@ -2,7 +2,7 @@
 title: "#583 — Ante Handler to filter PoC transactions"
 source: https://github.com/gonka-ai/gonka/issues/583
 issue_number: 583
-synced_at: 2026-07-29T00:16:03Z
+synced_at: 2026-07-29T03:46:46Z
 template: issues-main.html
 ---
 

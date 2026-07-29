@@ -2,7 +2,7 @@
 title: "#647 — vLLM 0.11.0 — Migration Proposal"
 source: https://github.com/gonka-ai/gonka/issues/647
 issue_number: 647
-synced_at: 2026-07-29T00:15:37Z
+synced_at: 2026-07-29T03:46:32Z
 template: issues-main.html
 ---
 

@@ -2,7 +2,7 @@
 title: "#1352 — Bridge: auto-refund does not run when BLS signing expires (EXPIRED)"
 source: https://github.com/gonka-ai/gonka/issues/1352
 issue_number: 1352
-synced_at: 2026-07-29T00:13:28Z
+synced_at: 2026-07-29T03:45:22Z
 template: issues-main.html
 ---
 

@@ -2,7 +2,7 @@
 title: "#1480 — Gateway allowlist request: Ancapex"
 source: https://github.com/gonka-ai/gonka/issues/1480
 issue_number: 1480
-synced_at: 2026-07-29T00:13:10Z
+synced_at: 2026-07-29T03:45:12Z
 template: issues-main.html
 ---
 
