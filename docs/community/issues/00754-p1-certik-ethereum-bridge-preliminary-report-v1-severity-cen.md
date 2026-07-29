@@ -2,7 +2,7 @@
 title: "#754 —  [P1] Certik, Ethereum Bridge, Preliminary Report (v1), Severity: Centralization [Priority 2]"
 source: https://github.com/gonka-ai/gonka/issues/754
 issue_number: 754
-synced_at: 2026-07-29T07:08:57Z
+synced_at: 2026-07-29T10:01:41Z
 template: issues-main.html
 ---
 
