@@ -47,9 +47,28 @@ PASSED_STATUSES = {"PROPOSAL_STATUS_PASSED"}
 
 BOUNTY_DISTRIBUTIONS = [
     {
+        "version": "v0.2.15",
+        "pr": 1503,
+        "pr_status": "Merged",
+        "date": "2026-07",
+        "denom": "USDT",
+        "total": 39825,
+        "source": "Community Sale",
+        "recipients": [
+            ("@akup", "gonka1ejkupq3cy6p8xd64ew2wlzveml86ckpzn9dl56", 22000, "RM: devshard v4 release management"),
+            ("@Ryanchen911", "gonka1zqss46r6jf6dhhyaa777kc2ppvjhn0ufkx4y57", 1000, "RM: devshard v4 upgrade review"),
+            ("@redstartechno", "gonka105ce4495mj0mwkxqeasgdzqfq5jjrfq32eza5l", 200, "PR #1308: devshard contribution"),
+            ("@0xMayoor", "gonka1s8szs7n43jxgz4a4xaxmzm5emh7fmjxhach7w8", 3000, "PR #1283: report and fix of medium severity vulnerability"),
+            ("@0xMayoor", "gonka1s8szs7n43jxgz4a4xaxmzm5emh7fmjxhach7w8", 500, "PR #1311: report and fix of low severity vulnerability"),
+            ("@pixelplex", "gonka1vu28c7w5zxqe28lakrrfdrkvscft326rxur3dv", 7000, "PR #1144, #1152, #1126, #1154: devshard contribution"),
+            ("@aikuznetsov", "gonka1frlfyz2wtltdy47dq3w9pwc8ruvjvlthp2lh53", 3125, "PR #1332, #1295: testing proposal and implementation"),
+            ("@snevolin", "gonka1vnupswg7qz2w5k5ax6zrp02mxmln6arnvjc87h", 3000, "PR #1437, #1490: devshard contribution"),
+        ],
+    },
+    {
         "version": "v0.2.14",
         "pr": 1446,
-        "pr_status": "Open",
+        "pr_status": "Merged",
         "date": "2026-07",
         "denom": "USDT",
         "total": 45250,
