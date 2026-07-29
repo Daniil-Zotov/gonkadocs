@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260729204454_56251536",
+    "timestamp": "2026-07-29T20:44:54.516554+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "Announcements",
+      "url": "/gonka/docs/network-updates/",
+      "file": "network-updates.md"
+    },
+    "details": {
+      "content_before": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## July 22, 2026\n\n**Upgrade v0.2.14: Pre-download binaries**\n\nThe on-chain governance process for the v0.2.14 upgrade proposal is nearing its conclusion.\n\n- Voting ends: July 23rd, 2026, at 00:02 UTC\n- Upgrade height: 5195700\n- Estimated upgrade time: July ",
+      "content_after": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## July 29, 2026\n\n**Upgrade v0.2.15 and devshard v4: Pre-download binaries**\n\nThe on-chain governance process for the **devshard v4 and v0.2.15** upgrade proposal is nearing its conclusion.\n\n- Voting ends: July 30, 2026 at 07:08 AM UTC / July 30, 2026 at 12"
+    },
+    "ai_description": "В разделе объявлений документации протокола появилось обновление: вместо прошлого апгрейда v0.2.14 теперь опубликовано свежее предложение по обновлению сети до v0.2.15 и запуску devshard v4, а дата окончания голосования сдвинулась на 30 июля. Следите за статусом голосования и не забудьте заранее скачать бинарники, чтобы быть готовыми к апгрейду."
+  },
+  {
     "id": "evt_20260729181824_ee41dca4",
     "timestamp": "2026-07-29T18:18:24.581940+00:00",
     "section": "issues",

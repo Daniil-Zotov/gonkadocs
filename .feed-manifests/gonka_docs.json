@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-07-29T19:02:32.766547+00:00",
+  "snapshot_time": "2026-07-29T20:44:59.088424+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -287,8 +287,8 @@
     "network-updates.md": {
       "title": "Announcements",
       "status": null,
-      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## July 22, 2026\n\n**Upgrade v0.2.14: Pre-download binaries**\n\nThe on-chain governance process for the v0.2.14 upgrade proposal is nearing its conclusion.\n\n- Voting ends: July 23rd, 2026, at 00:02 UTC\n- Upgrade height: 5195700\n- Estimated upgrade time: July ",
-      "checksum": "9b655efb15e118fa57b7eee2f80261f2f50404a28c0bfec77d90edec36c7e455"
+      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## July 29, 2026\n\n**Upgrade v0.2.15 and devshard v4: Pre-download binaries**\n\nThe on-chain governance process for the **devshard v4 and v0.2.15** upgrade proposal is nearing its conclusion.\n\n- Voting ends: July 30, 2026 at 07:08 AM UTC / July 30, 2026 at 12",
+      "checksum": "af3cebbf0d214698983ecd1b13880192f6b53bf3dbed2867dd9a81d266a0df86"
     },
     "participant/README.md": {
       "title": "Redirecting to Host Section",
