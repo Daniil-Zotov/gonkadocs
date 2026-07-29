@@ -22,7 +22,7 @@ template: proposals-proposals-main.html
 
 **Metadata:** [https://github.com/gonka-ai/gonka/blob/3f0c34f77c9b8f8c32ca5303ef3ffad23d66d5ea/proposals/governance-artifacts/update-v0.2.13/README.md](https://github.com/gonka-ai/gonka/blob/3f0c34f77c9b8f8c32ca5303ef3ffad23d66d5ea/proposals/governance-artifacts/update-v0.2.13/README.md)
 
-<div class="prop-bounty-line">Bounty Reward из Community Pool: $18,000 USDT · Community Sale · <a href="https://github.com/gonka-ai/gonka/pull/1168" target="_blank">PR #1168</a></div>
+<div class="prop-bounty-line">Bounty Reward из Community Pool: $18,875 USDT · Community Sale · <a href="https://github.com/gonka-ai/gonka/pull/1168" target="_blank">PR #1168</a></div>
 
 
 [View on gonka.gg](https://gonka.gg/network/proposals/54){:target="_blank"}

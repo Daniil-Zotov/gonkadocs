@@ -27,8 +27,8 @@ BOUNTY_BY_VERSION = {
     "v0.2.10": {"total": 23000, "denom": "GNK",   "source": "Gov Module",      "pr": 733,  "pr_status": "Merged"},
     "v0.2.11": {"total": 150750,"denom": "GNK",   "source": "Gov Module",      "pr": 919,  "pr_status": "Merged"},
     "v0.2.12": {"total": 35200, "denom": "USDT",  "source": "Community Sale",  "pr": 1113, "pr_status": "Merged"},
-    "v0.2.13": {"total": 18000, "denom": "USDT",  "source": "Community Sale",  "pr": 1168, "pr_status": "Merged"},
-    "v0.2.14": {"total": 45250, "denom": "USDT",  "source": "Community Sale",  "pr": 1446, "pr_status": "Merged"},
+    "v0.2.13": {"total": 18875, "denom": "USDT",  "source": "Community Sale",  "pr": 1168, "pr_status": "Merged"},
+    "v0.2.14": {"total": 50250, "denom": "USDT",  "source": "Community Sale",  "pr": 1446, "pr_status": "Merged"},
     "v0.2.15": {"total": 39825, "denom": "USDT",  "source": "Community Sale",  "pr": 1503, "pr_status": "Merged"},
 }
 

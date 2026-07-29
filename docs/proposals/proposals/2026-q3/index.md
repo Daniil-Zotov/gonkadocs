@@ -48,7 +48,7 @@ hide:
 </div>
 
 <div class="qs-funding-line">80,000 GNK · $88,000 · Community Pool</div>
-<div class="qs-bounty-line">$45,250 USDT · Bounty Reward</div>
+<div class="qs-bounty-line">$50,250 USDT · Bounty Reward</div>
 
 
 </div>
@@ -109,7 +109,7 @@ hide:
     <span>Voting ends 2026-07-23</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.14</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 296,240 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 115 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-bounty">$45,250 USDT · Bounty Reward</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 296,240 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 115 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-bounty">$50,250 USDT · Bounty Reward</span></div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout 296,355 / 545,426 (54.3%) · Quorum 25% (136,356)</span></div>
 </div>
 
