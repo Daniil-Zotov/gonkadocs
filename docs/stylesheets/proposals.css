@@ -199,6 +199,11 @@
   padding-left: 12px;
 }
 
+.prop-card-bounty-rejected {
+  color: var(--md-default-fg-color--light);
+  text-decoration: line-through;
+}
+
 /* ── Detail page ───────────────────────────────────────────── */
 .prop-detail-header {
   border: 1px solid var(--md-default-fg-color--lightest);

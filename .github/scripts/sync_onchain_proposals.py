@@ -888,7 +888,10 @@ hide:
                 b = BOUNTY_BY_VERSION.get(v)
                 if b:
                     total_str = f"${b['total']:,}" if b["denom"] == "USDT" else f"{b['total']:,}"
-                    _bounty_html = f'<span class="prop-card-bounty">{total_str} {b["denom"]} · Bounty Reward</span>'
+                    _bounty_cls = "prop-card-bounty"
+                    if status_css_cls not in ("prop-passed", "prop-voting"):
+                        _bounty_cls += " prop-card-bounty-rejected"
+                    _bounty_html = f'<span class="{_bounty_cls}">{total_str} {b["denom"]} · Bounty Reward</span>'
 
                 md += f'  <div class="prop-card-tally">{_tally_line}{_funding_html}{_bounty_html}</div>\n'
                 if _turnout_line:

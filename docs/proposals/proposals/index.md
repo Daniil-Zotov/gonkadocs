@@ -607,7 +607,7 @@ hide:
     <span>Voting ends 2026-05-17</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.13</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 88,420 (34.1%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 170,799 (65.9%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-bounty">$18,000 USDT · Bounty Reward</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 88,420 (34.1%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 170,799 (65.9%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-bounty prop-card-bounty-rejected">$18,000 USDT · Bounty Reward</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -1085,7 +1085,7 @@ hide:
     <span>Voting ends 2025-12-17</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.6</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 1,034,445 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-bounty">30,000 GNK · Bounty Reward</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 1,034,445 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-bounty prop-card-bounty-rejected">30,000 GNK · Bounty Reward</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -1278,7 +1278,7 @@ hide:
 
 </div>
 <div class="prop-oview-stats">
-<em>91 proposals across 5 quarters. Last updated: 2026-07-29 10:30 UTC</em>
+<em>91 proposals across 5 quarters. Last updated: 2026-07-29 10:32 UTC</em>
 </div>
 
 <script>
