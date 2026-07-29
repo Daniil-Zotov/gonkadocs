@@ -24,7 +24,7 @@ not_in_nav: |
   proposals/preproposals/**/*.md
   proposals/proposals/**/full-proposal.md
   proposals/proposals/**/report*.md
-  proposals/pipeline.md
+  proposals/readme-for-propose.md
   proposals/README.md
   404.md
   agents.md
@@ -58,6 +58,7 @@ nav:
     - Calendar: community/calendar/index.md
   - Proposals:
     - Community Pool: proposals/community pool.md
+    - How to Propose: proposals/readme-for-propose.md
     - Pre-Proposals:
       - Overview: proposals/preproposals/index.md
       - Active: proposals/preproposals/index.md
