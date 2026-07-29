@@ -2,7 +2,7 @@
 title: "#923 — Consensus key mismatch: staking still expects old key after TMKMS key loss"
 source: https://github.com/gonka-ai/gonka/issues/923
 issue_number: 923
-synced_at: 2026-07-29T03:45:44Z
+synced_at: 2026-07-29T07:08:41Z
 template: issues-main.html
 ---
 

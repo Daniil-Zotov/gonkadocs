@@ -2,7 +2,7 @@
 title: "#325 — [P0] No inference failures on the edge of PoC; Check for missed validation during epoch"
 source: https://github.com/gonka-ai/gonka/issues/325
 issue_number: 325
-synced_at: 2026-07-29T03:46:26Z
+synced_at: 2026-07-29T07:09:42Z
 template: issues-main.html
 ---
 
