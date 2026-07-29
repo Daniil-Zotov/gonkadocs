@@ -96,7 +96,7 @@ function initProposalsPage() {
       else if (status === 'prop-voting' && filters.voting) show = true;
       else if (status === 'prop-failed' && filters.rejected) show = true;
       if (show && filters.funding) {
-        show = card.querySelector('.prop-card-funding') !== null;
+        show = card.querySelector('.prop-card-funding') !== null || card.querySelector('.prop-card-bounty') !== null;
       }
       card.style.display = show ? '' : 'none';
       if (show) visible++;
