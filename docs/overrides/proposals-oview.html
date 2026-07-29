@@ -78,8 +78,10 @@ function initQuarterCollapse() {
 }
 
 function initProposalsPage() {
+  var filterEl = document.querySelector('.prop-oview-filter');
+  if (!filterEl) return;
   initQuarterCollapse();
-  var checkboxes = document.querySelectorAll('.prop-oview-filter input[type=checkbox]');
+  var checkboxes = filterEl.querySelectorAll('input[type=checkbox]');
   var cards = document.querySelectorAll('.prop-card');
   var countEl = document.querySelector('.prop-filter-count');
   function apply() {
@@ -101,13 +103,13 @@ function initProposalsPage() {
       card.style.display = show ? '' : 'none';
       if (show) visible++;
     });
-    countEl.textContent = visible + ' of ' + cards.length + ' proposals';
+    if (countEl) countEl.textContent = visible + ' of ' + cards.length + ' proposals';
   }
   checkboxes.forEach(function(cb) { cb.addEventListener('change', apply); });
   apply();
 }
 
 initProposalsPage();
-document$.subscribe(initProposalsPage);
+document$.subscribe(function() { if (document.querySelector('.prop-oview-filter')) initProposalsPage(); });
 </script>
 {% endblock %}
