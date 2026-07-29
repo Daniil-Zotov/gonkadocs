@@ -1,6 +1,8 @@
 ---
 title: "2026-Q3 Proposals"
 template: proposals-oview.html
+hide:
+  - toc
 ---
 
 # 2026-Q3 Proposals

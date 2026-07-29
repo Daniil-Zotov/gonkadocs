@@ -1,6 +1,8 @@
 ---
 title: On-Chain Governance Proposals
 template: proposals-oview.html
+hide:
+  - toc
 ---
 
 # On-Chain Governance Proposals

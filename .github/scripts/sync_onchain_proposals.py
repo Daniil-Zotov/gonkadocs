@@ -727,6 +727,8 @@ def generate_overview(proposals_by_quarter, proposal_voting_power=None):
     md = """---
 title: On-Chain Governance Proposals
 template: proposals-oview.html
+hide:
+  - toc
 ---
 
 # On-Chain Governance Proposals
@@ -969,6 +971,8 @@ def generate_quarter_page(quarter, proposals, proposal_voting_power=None):
     md = f'''---
 title: "{quarter} Proposals"
 template: proposals-oview.html
+hide:
+  - toc
 ---
 
 # {quarter} Proposals
