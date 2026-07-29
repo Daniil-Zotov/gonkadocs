@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260729164424_b3b4ca96",
+    "timestamp": "2026-07-29T16:44:24.111007+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#435 — Bug Report: api container sends abci_query with height: 0 despite being synced",
+      "url": "/community/issues/00435-bug-report-api-container-sends-abci-query-with-height-0-desp/",
+      "file": "00435-bug-report-api-container-sends-abci-query-with-height-0-desp.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Bug Report: api container sends abci_query with height: 0 despite being synced\n    <span class=\"issues-number\">#435</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/VaniaHilkovets\">@VaniaHilkovets</a> opened 2025-11-14 12:45 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"mar",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Bug Report: api container sends abci_query with height: 0 despite being synced\n    <span class=\"issues-number\">#435</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/VaniaHilkovets\">@VaniaHilkovets</a> opened 2025-11-14 12:45 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"ma"
+    },
+    "ai_description": "Issue #435 получил новый комментарий. В обсуждении бага с abci_query и некорректной высотой блока появился дополнительный отклик, который может помочь в диагностике проблемы. Следим за развитием ситуации."
+  },
+  {
     "id": "evt_20260728203903_e3256c68",
     "timestamp": "2026-07-28T20:39:03.908083+00:00",
     "section": "issues",

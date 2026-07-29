@@ -2,7 +2,7 @@
 title: "#435 — Bug Report: api container sends abci_query with height: 0 despite being synced"
 source: https://github.com/gonka-ai/gonka/issues/435
 issue_number: 435
-synced_at: 2026-07-29T14:37:36Z
+synced_at: 2026-07-29T16:40:33Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/VaniaHilkovets">@VaniaHilkovets</a> opened 2025-11-14 12:45 UTC</span>
-    <span class="issues-meta-item">1 comment</span>
-    <span class="issues-meta-item">Updated 2026-02-08 14:14 UTC</span>
+    <span class="issues-meta-item">2 comments</span>
+    <span class="issues-meta-item">Updated 2026-07-29 16:06 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -96,7 +96,7 @@ Thank you.
 
 ---
 
-## 💬 Comments (1)
+## 💬 Comments (2)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -106,6 +106,17 @@ Thank you.
   <div class="issues-comment-body issues-content">
     <p>PR created: https://github.com/gonka-ai/gonka/pull/681</p>
 <p>Uses current block height for ABCI queries.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/redstartechno">@redstartechno</a></span>
+    <span class="issues-meta-item">commented 2026-07-29 16:06 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Re-triaged this while sweeping older issues — it appears this is fixed on current <code>main</code>, though not by #681.</p>
+<p>The code path that produced the reported behavior (the Tendermint-RPC based participants handler using <code>cosmosclient.QueryByKey</code> with height 0 and no fallback) was deleted wholesale by the Devshard 0.2.14 v4 merge (#1482, <code>b53fd8fcd</code>, 2026-07-25). On current main, <code>/v1/epochs/current/participants</code> is served by the shared <code>common/queryapi</code> handlers (<code>common/queryapi/epoch.go</code>, <code>getEpochParticipants</code>): the current value is read via gRPC <code>CometServiceClient().ABCIQuery</code> at height 0 (which per ABCI semantics means "latest committed state" — correct for a synced node), and the proof is then re-queried at an explicit historical height (<code>proofHeight = activeParticipants.CreatedAtBlockHeight</code>). That is structurally the "use an explicit height for provable reads" behavior #681 was after, so #681 is superseded as well.</p>
+<p>Since the vulnerable code no longer exists, the originally reported failure can't occur on current main. This issue can probably be closed as fixed by the #1482 refactor — unless the reporter can still reproduce it on a ≥0.2.14 deployment, in which case fresh logs would be needed.</p>
   </div>
 </div>
 
