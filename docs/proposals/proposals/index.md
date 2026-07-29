@@ -50,6 +50,7 @@ hide:
 </div>
 
 <div class="qs-funding-line">20,302,572 GNK · $631,600 · Community Pool · 4,691,460 GNK · Gov Module</div>
+<div class="qs-bounty-line">$98,450 USDT · 203,750 GNK · Bounty Reward</div>
 
 
 </div>
@@ -1278,7 +1279,7 @@ hide:
 
 </div>
 <div class="prop-oview-stats">
-<em>91 proposals across 5 quarters. Last updated: 2026-07-29 10:40 UTC</em>
+<em>91 proposals across 5 quarters. Last updated: 2026-07-29 10:47 UTC</em>
 </div>
 
 <script>

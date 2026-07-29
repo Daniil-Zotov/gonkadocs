@@ -365,6 +365,13 @@
   color: var(--md-accent-fg-color);
 }
 
+.qs-bounty-line {
+  margin-top: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #cf5c00;
+}
+
 /* ── Footer ────────────────────────────────────────────────── */
 .prop-footer {
   margin-top: 24px;

@@ -47,6 +47,7 @@ hide:
 </div>
 
 <div class="qs-funding-line">20,000,000 GNK · Community Pool</div>
+<div class="qs-bounty-line">30,000 GNK · Bounty Reward</div>
 
 
 </div>
@@ -77,7 +78,7 @@ hide:
     <span>Voting ends 2025-12-20</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.6</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 1,985,917 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 1,985,917 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-bounty">30,000 GNK · Bounty Reward</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -90,7 +91,7 @@ hide:
     <span>Voting ends 2025-12-17</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.6</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 1,034,445 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 1,034,445 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-bounty prop-card-bounty-rejected">30,000 GNK · Bounty Reward</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">

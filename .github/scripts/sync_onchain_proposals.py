@@ -184,6 +184,22 @@ def get_upgrade_version(messages):
     return ""
 
 
+def compute_bounty_totals(props):
+    """Sum bounty amounts by denom from passed upgrade proposals."""
+    gnk, usdt = 0, 0
+    for p in props:
+        if p.get("status", "").lower() != "proposal_status_passed":
+            continue
+        v = get_upgrade_version(p.get("messages", []))
+        b = BOUNTY_BY_VERSION.get(v)
+        if b:
+            if b["denom"] == "GNK":
+                gnk += b["total"]
+            else:
+                usdt += b["total"]
+    return gnk, usdt
+
+
 def get_message_types(messages):
     """Extract human-readable message types from proposal messages."""
     types = set()
@@ -792,6 +808,14 @@ hide:
     o_funding_parts = funding_parts_by_source(o_amt_by_source)
     o_funding_line = f'<div class="qs-funding-line">{" · ".join(o_funding_parts)}</div>\n' if o_funding_parts else ""
 
+    o_bounty_gnk, o_bounty_usdt = compute_bounty_totals(all_props)
+    o_bounty_parts = []
+    if o_bounty_usdt:
+        o_bounty_parts.append(f"${o_bounty_usdt:,} USDT")
+    if o_bounty_gnk:
+        o_bounty_parts.append(f"{o_bounty_gnk:,} GNK")
+    o_bounty_line = f'<div class="qs-bounty-line">{" · ".join(o_bounty_parts)} · Bounty Reward</div>\n' if o_bounty_parts else ""
+
     md += f'''<div class="quarter-summary" markdown="1">
 
 ## Overview
@@ -806,7 +830,7 @@ hide:
 <div class="qs-categories">
 {all_cat_rows}</div>
 
-{o_funding_line}
+{o_funding_line}{o_bounty_line}
 
 </div>
 
@@ -971,6 +995,14 @@ def generate_quarter_page(quarter, proposals, proposal_voting_power=None):
     q_funding_parts = funding_parts_by_source(q_amt_by_source)
     q_funding_line = f'<div class="qs-funding-line">{" · ".join(q_funding_parts)}</div>\n' if q_funding_parts else ""
 
+    q_bounty_gnk, q_bounty_usdt = compute_bounty_totals(props)
+    q_bounty_parts = []
+    if q_bounty_usdt:
+        q_bounty_parts.append(f"${q_bounty_usdt:,} USDT")
+    if q_bounty_gnk:
+        q_bounty_parts.append(f"{q_bounty_gnk:,} GNK")
+    q_bounty_line = f'<div class="qs-bounty-line">{" · ".join(q_bounty_parts)} · Bounty Reward</div>\n' if q_bounty_parts else ""
+
     md = f'''---
 title: "{quarter} Proposals"
 template: proposals-oview.html
@@ -1016,7 +1048,7 @@ hide:
 <div class="qs-categories">
 {cat_rows}</div>
 
-{q_funding_line}
+{q_funding_line}{q_bounty_line}
 
 </div>
 
@@ -1087,7 +1119,17 @@ hide:
                     _funding_cls = "prop-card-funding prop-card-funding-rejected"
                 _funding_html = f'<span class="{_funding_cls}">{" · ".join(_funding_parts)}</span>'
 
-            md += f'  <div class="prop-card-tally">{_tally_line}{_funding_html}</div>\n'
+            _bounty_html = ""
+            v = get_upgrade_version(p.get("messages", []))
+            b = BOUNTY_BY_VERSION.get(v)
+            if b:
+                total_str = f"${b['total']:,}" if b["denom"] == "USDT" else f"{b['total']:,}"
+                _bounty_cls = "prop-card-bounty"
+                if status_css_cls not in ("prop-passed", "prop-voting"):
+                    _bounty_cls += " prop-card-bounty-rejected"
+                _bounty_html = f'<span class="{_bounty_cls}">{total_str} {b["denom"]} · Bounty Reward</span>'
+
+            md += f'  <div class="prop-card-tally">{_tally_line}{_funding_html}{_bounty_html}</div>\n'
             if _turnout_line:
                 md += f'  <div class="prop-card-tally">{_turnout_line}</div>\n'
         md += "</div>\n\n"

@@ -50,6 +50,7 @@ hide:
 </div>
 
 <div class="qs-funding-line">218,972 GNK · $543,600 · Community Pool · 4,636,616 GNK · Gov Module</div>
+<div class="qs-bounty-line">$53,200 USDT · Bounty Reward</div>
 
 
 </div>
@@ -390,7 +391,7 @@ hide:
     <span>Voting ends 2026-05-22</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.13</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 228,216 (62.8%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 135,071 (37.2%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 228,216 (62.8%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 135,071 (37.2%)</span><span class="prop-card-bounty">$18,000 USDT · Bounty Reward</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -416,7 +417,7 @@ hide:
     <span>Voting ends 2026-05-17</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.13</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 88,420 (34.1%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 170,799 (65.9%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 88,420 (34.1%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 170,799 (65.9%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-bounty prop-card-bounty-rejected">$18,000 USDT · Bounty Reward</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -520,7 +521,7 @@ hide:
     <span>Voting ends 2026-04-30</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.12</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 506,142 (99.6%)</span> · <span class="prop-tally-no-text">No 2,057 (0.4%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 506,142 (99.6%)</span> · <span class="prop-tally-no-text">No 2,057 (0.4%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-bounty">$35,200 USDT · Bounty Reward</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
