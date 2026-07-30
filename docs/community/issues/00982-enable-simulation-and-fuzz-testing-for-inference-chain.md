@@ -2,7 +2,7 @@
 title: "#982 — Enable simulation and fuzz testing for inference-chain"
 source: https://github.com/gonka-ai/gonka/issues/982
 issue_number: 982
-synced_at: 2026-07-30T18:51:19Z
+synced_at: 2026-07-30T20:38:29Z
 template: issues-main.html
 ---
 

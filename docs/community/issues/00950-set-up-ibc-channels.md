@@ -2,7 +2,7 @@
 title: "#950 — Set up IBC channels"
 source: https://github.com/gonka-ai/gonka/issues/950
 issue_number: 950
-synced_at: 2026-07-30T18:51:45Z
+synced_at: 2026-07-30T20:39:04Z
 template: issues-main.html
 ---
 
