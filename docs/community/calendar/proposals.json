@@ -1082,13 +1082,13 @@
   {
     "date": "2026-07-30",
     "category": "governance",
-    "type": "proposal_vote_end",
-    "title": "Voting ends: #92 – Upgrade Proposal: v0.2.15",
+    "type": "proposal_report",
+    "title": "Passed: #92 – Upgrade Proposal: v0.2.15",
     "url": "/proposals/proposals/2026-q3/92/",
     "time": "07:08 UTC",
     "description": "Upgrade Proposal: v0.2.15",
     "tags": [
-      "voting"
+      "passed"
     ]
   }
 ]

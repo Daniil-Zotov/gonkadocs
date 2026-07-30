@@ -35,7 +35,7 @@ hide:
 
 <div class="qs-stats">
 <div class="qs-stat total"><span class="qs-num">91</span><span class="qs-desc">Total Proposals</span></div>
-<div class="qs-stat passed"><span class="qs-num">59</span><span class="qs-desc">Passed (65%)</span></div>
+<div class="qs-stat passed"><span class="qs-num">60</span><span class="qs-desc">Passed (66%)</span></div>
 <div class="qs-stat rejected"><span class="qs-num">30</span><span class="qs-desc">Rejected (33%)</span></div>
 <div class="qs-stat failed"><span class="qs-num">1</span><span class="qs-desc">Failed (1%)</span></div>
 </div>
@@ -50,7 +50,7 @@ hide:
 </div>
 
 <div class="qs-funding-line">20,302,572 GNK · $631,600 · Community Pool · 4,691,460 GNK · Gov Module</div>
-<div class="qs-bounty-line">$104,325 USDT · 203,750 GNK · Bounty Reward</div>
+<div class="qs-bounty-line">$144,150 USDT · 203,750 GNK · Bounty Reward</div>
 
 
 </div>
@@ -60,11 +60,10 @@ hide:
 
 *13 proposals*
 
-<div class="prop-card" data-status="prop-voting" data-voting-end="2026-07-30T07:08:47.579998945Z">
+<div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
     <a href="2026-q3/92/" class="prop-card-title">#92 – Upgrade Proposal: v0.2.15</a>
-    <span class="prop-vote-countdown" data-deadline="2026-07-30T07:08:47.579998945Z"></span>
-    <span class="prop-badge prop-voting">Voting</span>
+    <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
     <span>Submitted 2026-07-28</span>
@@ -1279,7 +1278,7 @@ hide:
 
 </div>
 <div class="prop-oview-stats">
-<em>91 proposals across 5 quarters. Last updated: 2026-07-30 06:30 UTC</em>
+<em>91 proposals across 5 quarters. Last updated: 2026-07-30 08:44 UTC</em>
 </div>
 
 <script>

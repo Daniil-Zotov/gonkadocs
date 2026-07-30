@@ -35,7 +35,7 @@ hide:
 
 <div class="qs-stats">
 <div class="qs-stat total"><span class="qs-num">13</span><span class="qs-desc">Total Proposals</span></div>
-<div class="qs-stat passed"><span class="qs-num">7</span><span class="qs-desc">Passed (54%)</span></div>
+<div class="qs-stat passed"><span class="qs-num">8</span><span class="qs-desc">Passed (62%)</span></div>
 <div class="qs-stat rejected"><span class="qs-num">5</span><span class="qs-desc">Rejected (38%)</span></div>
 
 </div>
@@ -48,7 +48,7 @@ hide:
 </div>
 
 <div class="qs-funding-line">80,000 GNK · $88,000 · Community Pool</div>
-<div class="qs-bounty-line">$50,250 USDT · Bounty Reward</div>
+<div class="qs-bounty-line">$90,075 USDT · Bounty Reward</div>
 
 
 </div>
@@ -56,11 +56,10 @@ hide:
 <div class="prop-quarter">
 <h2>2026-Q3</h2>
 <p>13 proposals</p>
-<div class="prop-card" data-status="prop-voting" data-voting-end="2026-07-30T07:08:47.579998945Z">
+<div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
     <a href="92/" class="prop-card-title">#92 – Upgrade Proposal: v0.2.15</a>
-    <span class="prop-vote-countdown" data-deadline="2026-07-30T07:08:47.579998945Z"></span>
-    <span class="prop-badge prop-voting">Voting</span>
+    <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
     <span>Submitted 2026-07-28</span>
