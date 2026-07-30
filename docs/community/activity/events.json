@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260730094816_7c957159",
+    "timestamp": "2026-07-30T09:48:16.548527+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1525 — PoC auto ValidatedWeight:-1 on missing model executors + guardian tiebreaker can wipe model weight (v0.2.14)",
+      "url": "/community/issues/01525-poc-auto-validatedweight-1-on-missing-model-executors-guardi/",
+      "file": "01525-poc-auto-validatedweight-1-on-missing-model-executors-guardi.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    PoC auto ValidatedWeight:-1 on missing model executors + guardian tiebreaker can wipe model weight (v0.2.14)\n    <span class=\"issues-number\">#1525</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-07-30 08:59 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div clas"
+    },
+    "ai_description": "В сети Gonka зафиксирован новый баг-репорт: исследовательница @maria-mitina обнаружила уязвимость в версии 0.2.14, при которой отсутствие исполнителей модели автоматически сбрасывает вес до -1, а механизм разрешения споров стражей может полностью аннулировать вес модели. Проблема уже оформлена как открытый тикет #1525 и требует внимания разработчиков."
+  },
+  {
     "id": "evt_20260729204454_56251536",
     "timestamp": "2026-07-29T20:44:54.516554+00:00",
     "section": "gonka_docs",
