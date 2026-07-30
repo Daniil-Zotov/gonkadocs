@@ -2,7 +2,7 @@
 title: "#772 — Slashed coins should not be burned"
 source: https://github.com/gonka-ai/gonka/issues/772
 issue_number: 772
-synced_at: 2026-07-30T00:15:31Z
+synced_at: 2026-07-30T03:37:10Z
 template: issues-main.html
 ---
 
