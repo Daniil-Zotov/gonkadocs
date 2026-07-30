@@ -71,8 +71,8 @@ hide:
     <span>Voting ends 2026-07-30</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.15</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 213,745 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-bounty">$39,825 USDT · Bounty Reward</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout 213,745 / 539,219 (39.6%) · Quorum 25% (134,804)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 229,105 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-bounty">$39,825 USDT · Bounty Reward</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout 229,105 / 410,505 (55.8%) · Quorum 25% (102,626)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -1279,7 +1279,7 @@ hide:
 
 </div>
 <div class="prop-oview-stats">
-<em>91 proposals across 5 quarters. Last updated: 2026-07-30 00:00 UTC</em>
+<em>91 proposals across 5 quarters. Last updated: 2026-07-30 03:13 UTC</em>
 </div>
 
 <script>
