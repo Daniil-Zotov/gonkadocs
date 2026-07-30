@@ -24496,8 +24496,8 @@ $104,325 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-07-30
   
   Upgrade Proposal: v0.2.15
-  Yes 213,745 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)$39,825 USDT · Bounty Reward
-  ✓ Turnout 213,745 / 539,219 (39.6%) · Quorum 25% (134,804)
+  Yes 229,105 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)$39,825 USDT · Bounty Reward
+  ✓ Turnout 229,105 / 410,505 (55.8%) · Quorum 25% (102,626)
 
   
     #91 – Temporarily update BLS signing parameters
@@ -25513,7 +25513,7 @@ $104,325 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-91 proposals across 5 quarters. Last updated: 2026-07-30 00:00 UTC
+91 proposals across 5 quarters. Last updated: 2026-07-30 03:13 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -59796,8 +59796,8 @@ $50,250 USDT · Bounty Reward
     Voting ends 2026-07-30
   
   Upgrade Proposal: v0.2.15
-  Yes 213,745 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)$39,825 USDT · Bounty Reward
-  ✓ Turnout 213,745 / 539,219 (39.6%) · Quorum 25% (134,804)
+  Yes 229,105 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)$39,825 USDT · Bounty Reward
+  ✓ Turnout 229,105 / 410,505 (55.8%) · Quorum 25% (102,626)
 
   
     #91 – Temporarily update BLS signing parameters
@@ -63958,12 +63958,12 @@ Upgrade Proposal: v0.2.15
     
   
   
-    Yes 213,745 (100.0%)
+    Yes 229,105 (100.0%)
     No 0 (0.0%)
     Veto 0 (0.0%)
     Abstain 0 (0.0%)
-    Total 213,745 votes
-    ✓ Turnout 213,745 / 539,219 (39.6%) · Quorum 25% (134,804)
+    Total 229,105 votes
+    ✓ Turnout 229,105 / 410,505 (55.8%) · Quorum 25% (102,626)
   
 
 Voters
