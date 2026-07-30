@@ -17471,7 +17471,7 @@ If you have the opportunity and desire to be part of the committee — please co
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-07-30 06:22 UTC
+2026-07-30 09:27 UTC
 
 ---
 
@@ -17525,7 +17525,7 @@ curl -s https://node3.gonka.ai/chain-api/cosmos/bank/v1beta1/balances/gonka18pkq
 
 **Address:** [`gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33`](https://gonka.gg/address/gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33)
 
-Current balance: 2,707,713 GNK
+Current balance: 2,707,213 GNK
 
 The Gov Module authority is the only address permitted to execute `MsgCommunityPoolSpend` transfers from the Community Pool. When a governance proposal passes, this address signs and sends the requested funds to the specified recipient.
 
@@ -24468,7 +24468,7 @@ Bidders MUST submit:
 ## Overview
 
 91Total Proposals
-59Passed (65%)
+60Passed (66%)
 30Rejected (33%)
 1Failed (1%)
 
@@ -24480,7 +24480,7 @@ Other3
 Models / IBC2
 
 20,302,572 GNK · $631,600 · Community Pool · 4,691,460 GNK · Gov Module
-$104,325 USDT · 203,750 GNK · Bounty Reward
+$144,150 USDT · 203,750 GNK · Bounty Reward
 
 ## 2026-Q3
 
@@ -24488,8 +24488,7 @@ $104,325 USDT · 203,750 GNK · Bounty Reward
 
   
     #92 – Upgrade Proposal: v0.2.15
-    
-    Voting
+    Passed
   
   
     Submitted 2026-07-28
@@ -25513,7 +25512,7 @@ $104,325 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-91 proposals across 5 quarters. Last updated: 2026-07-30 06:30 UTC
+91 proposals across 5 quarters. Last updated: 2026-07-30 09:30 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -59772,7 +59771,7 @@ Contract Details
 ## 2026-Q3 Summary
 
 13Total Proposals
-7Passed (54%)
+8Passed (62%)
 5Rejected (38%)
 
 Governance Parameters5
@@ -59781,15 +59780,14 @@ Software Upgrade2
 GRC / Restitution1
 
 80,000 GNK · $88,000 · Community Pool
-$50,250 USDT · Bounty Reward
+$90,075 USDT · Bounty Reward
 
 2026-Q3
 13 proposals
 
   
     #92 – Upgrade Proposal: v0.2.15
-    
-    Voting
+    Passed
   
   
     Submitted 2026-07-28
@@ -63927,7 +63925,7 @@ The upgrade from v0.2.14 to v0.2.15 was rehearsed on a testnet using the alpha b
 
 # #92 – Upgrade Proposal: v0.2.15
 
-Voting
+Passed
 
 **Proposal ID:** `92`
 
