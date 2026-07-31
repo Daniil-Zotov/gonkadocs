@@ -1,6 +1,6 @@
 {
   "section": "proposals",
-  "snapshot_time": "2026-07-31T18:20:30.570349+00:00",
+  "snapshot_time": "2026-07-31T18:36:10.284014+00:00",
   "files": {
     "2025-q3/1/full-proposal.md": {
       "title": "Adjust Params According to real block length",
@@ -421,6 +421,16 @@
       "voting_end": "",
       "description": "",
       "checksum": "c8fb40be5e2979688b426e423029205172fb6f01470847c6b6434d5fe3926806"
+    },
+    "2026-q2/77/report3.md": {
+      "title": "Weekly Report — 27–31 July",
+      "status": null,
+      "content_preview": "# Weekly Report — 27–31 July\n\n**Дата публикации:** 2026-07-31\n\n---\n\n- Мы получили детали от редакций Analytics Insight и CryptoDaily по листикл-статьям с участием Gonka — сейчас собираем текст и информацию для редакторов, на следующей неделе передадим для публикации.\n- Мы продолжаем питчинг Глеба и Анастасии в медиа, поделимся апдейтами после получения обратной связи от журналистов.\n- Также мы ждём деталей от команды Bitfury, чтобы расширить пул наших спикеров и добавить новых экспертов с их стороны.\n\nВсем хороших выходных!",
+      "funding": "",
+      "quorum_met": null,
+      "voting_end": "",
+      "description": "",
+      "checksum": "8a2b63b0fb181a18f06ff4b3644ec3ed24cb8d64c311bc474be0ee86f639d4a1"
     },
     "2026-q3/80/full-proposal.md": {
       "title": "GRC Proposal #3 - Restitution",
