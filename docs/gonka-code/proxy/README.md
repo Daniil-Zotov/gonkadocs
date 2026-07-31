@@ -1,0 +1,487 @@
+# Nginx Reverse Proxy
+
+This directory contains the nginx reverse proxy configuration that consolidates all services behind a single entry point.
+
+## Overview
+
+The nginx proxy routes requests to different backend services based on URL paths:
+
+- `/api/v1/` → Main application API v1 (proxies to backend `/v1/`)
+- `/v1/` → Direct API v1 (without `/api/` prefix)
+- `/chain-rpc/` → Blockchain RPC endpoint (port 26657)
+- `/chain-api/` → Blockchain REST API (port 1317)
+- `/chain-grpc/` → Blockchain gRPC endpoint (port 9090)
+- `/jaeger/` → Jaeger UI when `JAEGER_ENABLED=true` and the observability overlay is running (nginx basic auth required)
+- `/grafana/` → Grafana UI when `GRAFANA_ENABLED=true` and the observability overlay is running (Grafana login required)
+- `/health` → Nginx health check endpoint
+- `/` → Explorer dashboard when `DASHBOARD_PORT` is set, otherwise a simple "dashboard not configured" page
+
+## Benefits
+
+1. **Single Entry Point**: Only one port (80) needs to be exposed externally
+2. **Simplified Networking**: No need to manage multiple port mappings
+3. **Security**: Internal services are not directly accessible from outside
+4. **Load Balancing**: Can easily add multiple backend instances
+5. **SSL Termination**: Easy to add HTTPS support in one place
+6. **Monitoring**: Centralized access logs and metrics
+7. **Production Ready**: Standard architecture pattern for containerized apps
+
+## Configuration Files
+
+- `nginx.unified.conf.template` - Unified nginx configuration template rendered via env vars
+- `entrypoint.sh` - Script that substitutes environment variables and starts nginx
+- `setup-ssl.sh` - Helper to fetch TLS certs from `proxy-ssl` when HTTPS is enabled
+  - Modes: `issue` (default), `renew`, `renew-if-needed` (uses stored `order.id`; see Renewal)
+- `Dockerfile` - Container image definition for the proxy service
+- `README.md` - This documentation file
+
+## Environment Variables
+
+Key runtime environment variables:
+
+| Variable | Default | Description |
+|----------|---------|-------------|
+| `GONKA_API_PORT` | 9000 | Main application API port |
+| `CHAIN_RPC_PORT` | 26657 | Blockchain RPC endpoint port |
+| `CHAIN_API_PORT` | 1317 | Blockchain REST API port |
+| `CHAIN_GRPC_PORT` | 9090 | Blockchain gRPC endpoint port |
+| `DASHBOARD_PORT` | - | Explorer/Dashboard UI port; when set, `/` proxies to explorer |
+| `NGINX_MODE` | http | One of `http`, `https`, or `both` (controls 80/443 and SSL) |
+| `SERVER_NAME` | auto | Overrides nginx `server_name` (defaults to `CERT_ISSUER_DOMAIN` when SSL, else `localhost`) |
+| `CERT_ISSUER_DOMAIN` | - | Required when `NGINX_MODE` is `https` or `both`; used for cert issuance and `server_name` |
+| `PROXY_SSL_SERVICE_NAME` | proxy-ssl | Upstream service name for the cert issuer API |
+| `PROXY_SSL_PORT` | 8080 | Port for the cert issuer API |
+| `SSL_CERT_SOURCE` | ./secrets/nginx-ssl | Host path bind-mounted at `/etc/nginx/ssl` |
+| `PROXY_SSL_WAIT_SECONDS` | 60 | Max wait for `proxy-ssl` readiness during cert fetch |
+| `NODE_ID` | proxy | Node identifier included in cert requests to `proxy-ssl` |
+| `API_SERVICE_NAME` | api | Service name for API upstream |
+| `NODE_SERVICE_NAME` | node | Service name for chain node upstreams |
+| `EXPLORER_SERVICE_NAME` | explorer | Service name for explorer upstream |
+| `JAEGER_ENABLED` | false | Enables proxy routing for the Jaeger UI under `/jaeger/`. Requires `JAEGER_BASIC_AUTH_USER` and `JAEGER_BASIC_AUTH_PASSWORD`. |
+| `JAEGER_SERVICE_NAME` | jaeger | Service name for Jaeger UI upstream |
+| `JAEGER_PORT` | 16686 | Jaeger UI upstream port |
+| `JAEGER_BASE_PATH` | /jaeger | Base path used by proxied Jaeger UI |
+| `JAEGER_BASIC_AUTH_USER` | - | HTTP basic auth username for `/jaeger/`. Required when `JAEGER_ENABLED=true`. |
+| `JAEGER_BASIC_AUTH_PASSWORD` | - | HTTP basic auth password for `/jaeger/`. Required when `JAEGER_ENABLED=true`. Jaeger has no built-in login; nginx enforces this gate. |
+| `GRAFANA_ENABLED` | false | Enables proxy routing for Grafana under `/grafana/`. Requires a non-default `GRAFANA_ADMIN_PASSWORD`. |
+| `GRAFANA_SERVICE_NAME` | grafana | Service name for Grafana upstream |
+| `GRAFANA_PORT` | 3000 | Grafana upstream port |
+| `GRAFANA_BASE_PATH` | /grafana | Base path used by proxied Grafana UI |
+| `GRAFANA_ADMIN_PASSWORD` | - | Passed to the proxy startup check when `GRAFANA_ENABLED=true`. Must be set to a strong value before enabling public Grafana UI. Also configure on the `grafana` service. |
+| `KEY_NAME` | - | Optional stack key; when set, service names are prefixed as `<KEY_NAME>-*` |
+| `RESOLVER` | 127.0.0.11 | DNS resolver for dynamic upstream resolution (override if needed) |
+| `PROXY_REAL_IP_FROM` | - | Space-separated trusted proxy CIDRs/IPs for nginx `set_real_ip_from` (for example `172.18.0.1/32`). Empty by default (real IP parsing disabled). |
+| `PROXY_REAL_IP_HEADER` | `X-Forwarded-For` | Header used by nginx `real_ip_header` when trusted proxies are configured. |
+| `PROXY_REAL_IP_RECURSIVE` | off | Value for nginx `real_ip_recursive`. Keep `off` unless you explicitly trust a multi-hop proxy chain. |
+| `DISABLE_GONKA_API` | false | Set to `true` to disable `/api/v1/` and `/v1/` routes |
+| `DISABLE_CHAIN_RPC` | false | Set to `true` to disable `/chain-rpc/` routes |
+| `DISABLE_CHAIN_API` | false | Set to `true` to disable `/chain-api/` routes |
+| `DISABLE_CHAIN_GRPC` | false | Set to `true` to disable `/chain-grpc/` routes |
+| `DISABLE_VALIDATOR_WHITELIST` | true | Unset or `true` keeps participant IP whitelist sync off (all clients use per-IP rate limits only). Set to `false` to sync participant inference IPs into nginx (separate rate-limit key and log tag `INT` vs `EXT`). |
+| `DISABLE_FAIL2BAN` | true | Unset or `true` disables automatic IP banning from access logs. Set to `false` to enable scoring (401/403/400 by default) and temporary nginx bans via `geo $is_banned`. Validator IPs are exempt from bans when validator whitelist sync is enabled (`DISABLE_VALIDATOR_WHITELIST=false`). |
+| `CORS_ALLOW_ORIGIN` | * | Allowed Origin for CORS headers. Defaults to wildcard `*`. |
+| `GLOBAL_RATE_LIMIT_RPS` | 1000 | Global "safety net" rate limit (default: 1000). |
+| `GLOBAL_RATE_UNIT` | s | Unit for global limit (`s` or `m`). |
+| `GLOBAL_BURST` | 5000 | Burst for global limit. |
+| `GONKA_API_RATE_LIMIT_RPS` | 10 | Base rate for `/api/`. Combined with high burst for "Punisher" strategy. |
+| `GONKA_API_RATE_UNIT` | m | Rate unit (`s` or `m`). Default `m` for slow recovery. |
+| `GONKA_API_BURST` | 600 | High burst capacity allows spikes but penalizes sustained spam. |
+| `GONKA_API_EXEMPT_ROUTES` | `chat inference training` | List of route prefixes to exempt. Matches prefix (e.g. `chat` matches `/chat`, `/chat/`, `/chat/123`). |
+| `GONKA_API_BLOCKED_ROUTES` | `poc-batches` | List of route prefixes to BLOCK. Returns 403 Forbidden. |
+| `CHAIN_API_EXEMPT_ROUTES` | - | List of Chain API route prefixes to exempt from standard limits. |
+| `CHAIN_API_BLOCKED_ROUTES` | - | List of Chain API route prefixes to BLOCK. |
+| `CHAIN_RPC_EXEMPT_ROUTES` | - | List of Chain RPC route prefixes to exempt from standard limits. |
+| `CHAIN_RPC_BLOCKED_ROUTES` | - | List of Chain RPC route prefixes to BLOCK. |
+| `CHAIN_GRPC_EXEMPT_ROUTES` | - | List of Chain gRPC route prefixes to exempt from standard limits. |
+| `CHAIN_GRPC_BLOCKED_ROUTES` | - | List of Chain gRPC route prefixes to BLOCK. |
+| `EXEMPT_RATE_LIMIT_RPS` | 500 | Rate limit for exempt routes. |
+| `EXEMPT_RATE_UNIT` | s | Unit for exempt routes (`s` or `m`). |
+| `EXEMPT_BURST` | 2000 | Burst for exempt routes. |
+| `CHAIN_API_RATE_LIMIT_RPS` | 20 | Rate limit for `/chain-api/` (default: 20). |
+| `CHAIN_API_RATE_UNIT` | m | Unit for chain API (`s` or `m`). Default `m`. |
+| `CHAIN_API_BURST` | 200 | Burst for chain API. |
+| `CHAIN_RPC_RATE_LIMIT_RPS` | 20 | Rate limit for `/chain-rpc/` (default: 20). |
+| `CHAIN_RPC_RATE_UNIT` | m | Unit for chain RPC (`s` or `m`). Default `m`. |
+| `CHAIN_RPC_BURST` | 200 | Burst for chain RPC. |
+| `CHAIN_GRPC_RATE_LIMIT_RPS` | 20 | Rate limit for `/chain-grpc/` (default: 20). |
+| `CHAIN_GRPC_RATE_UNIT` | m | Unit for chain gRPC (`s` or `m`). Default `m`. |
+| `CHAIN_GRPC_BURST` | 200 | Burst for chain gRPC. |
+| `EDGE_API_SERVICE_NAME` | (empty) | Upstream for read-only `/v1/` query routes (status, models, epochs, participants, BLS, bridge addresses, etc.) served by **edge-api**. Empty (default) sends all `/v1/` traffic to dapi. Set to `edge-api` to enable, or `edge-api-router` when using the multi-instance overlay. |
+| `EDGE_API_PORT` | 18080 | Port on the edge-api (or edge-api-router) upstream. |
+| `EDGE_API_ROUTE_PATHS` | (18 public paths) | Space-separated public Tier A `/v1/` paths steered to edge-api before the catch-all `/v1/` → dapi block. Defaults: `EDGE_API_ROUTE_PATHS_DEFAULT` in `proxy/entrypoint.sh`. |
+| `EDGE_API_OPTIONAL_ROUTE_PATHS` | verify/debug (4) | CPU-heavy helpers (`/v1/verify-proof`, `/v1/verify-block`, `/v1/debug/...`). **Not published by default.** |
+| `EDGE_API_EXPOSE_OPTIONAL_ROUTES` | false | Set `true` to publish optional verify/debug routes to edge-api. Keep `false` and put auth (basic/mTLS/IP allowlist) on nginx if you expose them. When private, proxy returns **403** for those paths. |
+| `VERSIOND_SERVICE_NAME` | versiond | Upstream for `/devshard/` (and legacy `/v1/devshard/` after rewrite). Set to `versiond-router` for sticky multi-versiond overlay. |
+| `VERSIOND_PORT` | 8080 | Port on the versiond (or versiond-router) upstream. |
+| `DISABLE_DEVSHARD_PROXY` | false | Set to `true` to disable `/devshard/` and `/v1/devshard/` routing to versiond. |
+| `DEVSHARD_OBS_RATE_LIMIT_RPS` | 10 | Per-IP rate limit for public observability GETs (`/devshard/sessions|stats|metrics|healthz` and rewritten legacy obs URLs). Protocol chat/gossip/payloads stay on the exempt zone. |
+| `DEVSHARD_OBS_RATE_UNIT` | s | Unit for obs rate (`s` or `m`). |
+| `DEVSHARD_OBS_BURST` | 20 | Burst for obs rate limit. |
+
+Versiond-side (on the versiond container, not the join proxy):
+
+| Env | Default | Description |
+|-----|---------|-------------|
+| `PGHOST` / `DATABASE_URL` | unset | When set, versiond looks up `sessions.version` for versionless session obs. |
+| `VERSIOND_DISABLE_SESSION_LOOKUP` | false | Force fan-out even if Postgres is configured. |
+
+### Devshard observability routing
+
+Public observability paths that still include a version segment are **rewritten
+internally** to versionless canonical URIs (no client-visible redirect). Clients
+keep calling the old URLs; nginx drops the version segment before versiond so
+scrapers need not follow redirects and cannot bind protocol version via the path.
+
+**Prefer these URLs in new monitors / runbooks:**
+
+```text
+GET /devshard/sessions/{escrow_id}/diffs
+GET /devshard/sessions/{escrow_id}/mempool
+GET /devshard/sessions/{escrow_id}/signatures
+GET /devshard/stats/shards
+GET /devshard/stats/shards/{escrow_id}
+GET /devshard/metrics
+GET /devshard/healthz                 # versiond supervisor (not a child)
+GET /devshard/{version}/healthz       # that child's healthz
+```
+
+| Client URL (legacy, still works) | Internal route to versiond |
+|----------------------------------|----------------------------|
+| `GET /devshard/{version}/sessions/{id}/diffs` | `/devshard/sessions/{id}/diffs` |
+| `GET /devshard/{version}/sessions/{id}/mempool` | `/devshard/sessions/{id}/mempool` |
+| `GET /devshard/{version}/sessions/{id}/signatures` | `/devshard/sessions/{id}/signatures` |
+| `GET /devshard/{version}/stats/shards…` | `/devshard/stats/shards…` |
+| `GET /devshard/{version}/metrics` | `/devshard/metrics` |
+| `GET /devshard/{version}/healthz` | **not rewritten** — proxied as `/{version}/healthz` to that child |
+
+Protocol traffic stays versioned: `POST …/chat/completions`, gossip, challenge-receipt, and `GET …/payloads` are **not** rewritten.
+
+Public obs paths (versionless and rewritten legacy) use a dedicated nginx zone (`devshard_obs`, default `10r/s` burst `20`) so scrapers cannot amplify polling under the exempt chat limits. Chat / gossip / payloads remain on the exempt catch-all.
+
+versiond serves the versionless obs paths:
+
+- **Session-scoped** (`/sessions/{id}/diffs|mempool|signatures`, `/stats/shards/{id}`): when Postgres is configured (`PGHOST` / `DATABASE_URL`), route by `sessions.version`; unbound → 404. If lookup is disabled or PG errors, fan-out across children. Lookup errors emit a rate-limited warn (`session version lookup failed; falling back to fan-out`) and increment an in-process counter (`proxy.LookupFanoutErrors`) — they are not silent.
+- **Process-level** (`/metrics`, `/stats/shards` list): pin to newest running version by numeric/dotted comparison (`v10` > `v2`, `v0.2.11` > `v0.2.9`), not lexicographic order.
+- **Health:** `GET /healthz` on versiond is **supervisor** status (mux, ahead of the proxy). Join proxy `GET /devshard/healthz` hits that. Per-child health is `GET /devshard/{version}/healthz` (not rewritten). Do not use versionless `/healthz` to probe a specific child.
+
+Disable lookup: `VERSIOND_DISABLE_SESSION_LOOKUP=true`.
+
+Grafana dashboards in `deploy/join/observability/` scrape Prometheus metrics from
+devshardd `/metrics` via service discovery — they do not call HTTP diffs URLs.
+For ad-hoc HTTP debugging of a shard, use the versionless paths above.
+
+When `VERSIOND_SERVICE_NAME=versiond-router`, this proxy still has a **single**
+upstream. Multi-host stickiness and **legacy SQLite pinning** are configured on
+**versiond-router** itself:
+
+| Router env | Role |
+| --- | --- |
+| `VERSIOND_HOSTS` | HA pool (space-separated) |
+| `VERSIOND_LEGACY_HOST` | Host that owns pre-HA SQLite data dirs (default: first of `VERSIOND_HOSTS`) |
+| `VERSIOND_NON_HA_VERSIONS` | Version path segments pinned to legacy (whitespace and/or comma). Empty = all versions HA. Future versions are HA by default |
+
+Multi-host HA requests get `Devshard-Ha: true`; `devshardd` requires
+`DEVSHARD_STORAGE_MODE=postgres` + `PGHOST`. See `versiond-router/` and
+`devshard/docs/pr-1366-deploy-test-plan.md`.
+
+### edge-api vs dapi routing
+
+`/v1/` is split across two backends. The proxy registers **exact/regex locations for read-only query paths** before the generic `/v1/` catch-all:
+
+- **edge-api (public Tier A)** — status, models, pricing, participants (GET), epochs, restrictions, BLS, bridge addresses, poc-batches
+- **edge-api (optional)** — `verify-proof` / `verify-block` / `debug/*`; private by default (`EDGE_API_EXPOSE_OPTIONAL_ROUTES=false` → 403). Opt in when needed; auth can be enforced in nginx before this proxy.
+- **dapi (`api`)** — inference and node operations: chat/completions, inference payloads, PoC proofs, stats, bridge queue, participant registration (`POST /v1/participants`)
+- **versiond** — devshard sessions: `/v1/devshard/*` is rewritten internally to `/devshard/v1/*`, then proxied like other `/devshard/` traffic
+
+`/v1/participants` is method-split: GET/HEAD/OPTIONS → edge-api; other methods (notably POST registration) → dapi via an internal named location. Without that split, nginx would send POST to edge-api and return 405.
+
+To publish verify/debug on the public proxy:
+
+```bash
+export EDGE_API_EXPOSE_OPTIONAL_ROUTES=true
+# Optional: front with nginx basic auth / allowlist before this container.
+```
+
+Multi-instance edge-api (local-test-net or `deploy/join/docker-compose.edge-api-multi.yml`):
+
+```text
+Client → proxy → edge-api-router:18080 → edge-api-N:18080
+```
+
+This mirrors the `versiond-router` pattern but uses round-robin (read-only queries are stateless).
+
+### Observability UI security
+
+Jaeger and Grafana UIs are **disabled by default** (`JAEGER_ENABLED=false`, `GRAFANA_ENABLED=false` in `deploy/join/config.env.template`). The observability stack (Prometheus, Loki, trace export) can run without exposing UIs on the public proxy.
+
+When enabling public UI routes, set credentials **before** flipping the enable flags:
+
+1. **Jaeger** — Jaeger has no application login. Set `JAEGER_BASIC_AUTH_USER` and `JAEGER_BASIC_AUTH_PASSWORD`, then set `JAEGER_ENABLED=true`. The proxy refuses to start if Jaeger is enabled without basic auth credentials.
+2. **Grafana** — Set a strong `GRAFANA_ADMIN_PASSWORD` (and optionally `GRAFANA_ADMIN_USER`), then set `GRAFANA_ENABLED=true`. The proxy refuses to start if Grafana is enabled with a missing or placeholder password (`admin1`, `<FILLIN>`, etc.).
+
+Example (`deploy/join/config.env`):
+
+```bash
+export JAEGER_BASIC_AUTH_USER=jaeger
+export JAEGER_BASIC_AUTH_PASSWORD='your-jaeger-basic-auth-secret'
+export GRAFANA_ADMIN_USER=admin
+export GRAFANA_ADMIN_PASSWORD='your-grafana-admin-secret'
+export JAEGER_ENABLED=true
+export GRAFANA_ENABLED=true
+```
+
+See `docs/observability/observability-overview.md` for the full join-stack setup.
+
+> **Note**: `GLOBAL_RATE_LIMIT_RPS` acts as a total ceiling for a single IP. It must be higher than your highest specific limit (e.g. higher than Exempt limit).
+
+### Trusted Proxy / Real IP
+
+- `PROXY_REAL_IP_FROM` should include only the immediate proxy/LB hop(s) that connect to nginx.
+- Prefer exact addresses or narrow CIDRs (`/32`) over broad private ranges.
+- If your proxy is directly internet-facing (no upstream LB/reverse-proxy), leave `PROXY_REAL_IP_FROM` unset.
+
+Example (Docker bridge gateway):
+
+```
+PROXY_REAL_IP_FROM=172.18.0.1/32
+PROXY_REAL_IP_HEADER=X-Forwarded-For
+PROXY_REAL_IP_RECURSIVE=off
+```
+
+#### Recommended Setup By Scenario
+
+Direct Docker proxy on a server (no ingress/LB in front):
+
+```
+# Best: disable real_ip parsing (nginx already sees client IP)
+PROXY_REAL_IP_FROM=
+PROXY_REAL_IP_HEADER=X-Forwarded-For
+PROXY_REAL_IP_RECURSIVE=off
+```
+
+Docker proxy behind one trusted ingress/LB hop:
+
+```
+# Trust only the ingress/LB source IP(s)
+PROXY_REAL_IP_FROM=172.18.0.1/32
+PROXY_REAL_IP_HEADER=X-Forwarded-For
+PROXY_REAL_IP_RECURSIVE=off
+```
+
+Docker proxy behind multiple trusted proxy layers:
+
+```
+# Only if every proxy in chain is trusted and controlled by you
+PROXY_REAL_IP_FROM=10.42.16.0/20 10.42.32.0/20
+PROXY_REAL_IP_HEADER=X-Forwarded-For
+PROXY_REAL_IP_RECURSIVE=on
+```
+
+Avoid:
+- Broad defaults like `10.0.0.0/8 172.16.0.0/12 192.168.0.0/16`.
+- Enabling `PROXY_REAL_IP_RECURSIVE=on` unless you intentionally trust a full proxy chain.
+
+### Modes
+
+- `NGINX_MODE=http`: listen on 80 only; SSL disabled.
+- `NGINX_MODE=https`: listen on 443 with SSL; requires `CERT_ISSUER_DOMAIN` and a reachable `proxy-ssl` service to obtain certs if missing.
+- `NGINX_MODE=both`: listen on 80 and 443; same SSL requirements as `https`.
+
+When SSL is enabled and no certs are present under `/etc/nginx/ssl`, `entrypoint.sh` will call `setup-ssl.sh` to fetch a certificate via the `proxy-ssl` service.
+
+### Setup Environment
+
+Below are minimal environment configurations for the compose stack under `deploy/join/config.env`. This section lists only environment variables; Docker commands are provided separately below.
+
+#### HTTP only (80 → 8000)
+
+```
+NGINX_MODE=http
+API_PORT=8000
+```
+#### HTTPS only via proxy-ssl (443 → 8443)
+
+```
+NGINX_MODE=https
+API_SSL_PORT=8443
+CERT_ISSUER_DOMAIN=your.domain
+CERT_ISSUER_JWT_SECRET=change-me
+ACME_ACCOUNT_EMAIL=you@example.com
+ACME_DNS_PROVIDER=<route53|cloudflare|gcloud|azure|digitalocean|hetzner>
+# Provider credentials per your DNS (see proxy-ssl README)
+```
+
+Notes:
+- The compose maps ports 80 and 443; with `NGINX_MODE=https`, nginx listens on 443 only.
+- Certificates are stored under `./secrets/nginx-ssl` (bind-mounted to `/etc/nginx/ssl`) and used automatically by `proxy`.
+
+#### Both HTTP & HTTPS (80/443 → 8000/8443) via proxy-ssl
+
+```
+NGINX_MODE=both
+API_PORT=8000
+API_SSL_PORT=8443
+CERT_ISSUER_DOMAIN=your.domain
+CERT_ISSUER_JWT_SECRET=change-me
+ACME_ACCOUNT_EMAIL=you@example.com
+ACME_DNS_PROVIDER=<route53|cloudflare|gcloud|azure|digitalocean|hetzner>
+# Provider credentials per your DNS (see proxy-ssl README)
+```
+
+#### HTTPS only with manual certs
+
+Environment in `deploy/join/config.env`:
+
+```
+NGINX_MODE=https
+API_SSL_PORT=8443
+SERVER_NAME=your.domain
+SSL_CERT_SOURCE=./secrets/nginx-ssl
+# do not set CERT_ISSUER_DOMAIN when using manual certs
+```
+
+#### Both HTTP & HTTPS (80/443 → 8000/8443) (80 & 443) with manual certs
+
+```
+NGINX_MODE=both
+API_PORT=8000
+API_SSL_PORT=8443
+SERVER_NAME=your.domain
+SSL_CERT_SOURCE=./secrets/nginx-ssl
+# do not set CERT_ISSUER_DOMAIN when using manual certs
+```
+
+#### Manual certificate issuance (Let’s Encrypt via Certbot DNS-01)
+
+This works with any DNS provider using an interactive DNS-01 challenge. Certbot will pause and show a TXT record to add at `_acme-challenge.your.domain`. Create that record in your DNS, wait for propagation, then press Enter to continue.
+
+Recommended (one-shot, writes directly into the mounted directory `deploy/join/secrets/nginx-ssl`):
+
+- Host-installed Certbot:
+
+```
+DOMAIN=your.domain
+ACCOUNT_EMAIL=your_email@example.com
+mkdir -p secrets/nginx-ssl secrets/certbot/{config,work,logs}
+sudo certbot certonly --manual --preferred-challenges dns \
+  --config-dir ./secrets/certbot/config \
+  --work-dir ./secrets/certbot/work \
+  --logs-dir ./secrets/certbot/logs \
+  -d "$DOMAIN" \
+  --email "$ACCOUNT_EMAIL" --agree-tos --no-eff-email \
+  --deploy-hook 'install -m 0644 "$RENEWED_LINEAGE/fullchain.pem" ./secrets/nginx-ssl/cert.pem; install -m 0600 "$RENEWED_LINEAGE/privkey.pem" ./secrets/nginx-ssl/private.key'
+```
+
+- Dockerized Certbot (no host install needed):
+
+```
+DOMAIN=your.domain
+ACCOUNT_EMAIL=your_email@example.com
+mkdir -p secrets/nginx-ssl secrets/certbot
+docker run --rm -it \
+  -v "$(pwd)/secrets/certbot:/etc/letsencrypt" \
+  -v "$(pwd)/secrets/nginx-ssl:/mnt/nginx-ssl" \
+  certbot/certbot certonly --manual --preferred-challenges dns \
+  -d "$DOMAIN" --email "$ACCOUNT_EMAIL" --agree-tos --no-eff-email \
+  --deploy-hook 'install -m 0644 "$RENEWED_LINEAGE/fullchain.pem" /mnt/nginx-ssl/cert.pem; install -m 0600 "$RENEWED_LINEAGE/privkey.pem" /mnt/nginx-ssl/private.key'
+```
+
+Renewal: rerun the same one-shot command before expiry (manual DNS step required each time), then reload nginx (see Docker commands below).
+
+### Start with Docker Compose
+
+Run from `deploy/join` after setting `config.env`.
+
+- Prepare bind-mount directories (safe to rerun):
+
+```
+mkdir -p secrets/nginx-ssl secrets/certbot
+```
+
+- Initial start (enable HTTPS with proxy-ssl profile):
+
+```
+source ./config.env && \
+docker compose --profile "ssl" -f docker-compose.yml -f docker-compose.mlnode.yml up -d
+```
+
+- Initial start with observability overlay:
+
+```
+source ./config.env && \
+docker compose -f docker-compose.yml -f docker-compose.mlnode.yml -f docker-compose.observability.yml up -d
+```
+
+- Access the observability UIs through the proxy after startup:
+
+```
+${PUBLIC_URL}/jaeger/
+${PUBLIC_URL}/grafana/
+```
+
+- Update currently running node:
+  - With proxy-ssl (automated certs):
+
+```
+source ./config.env && \
+docker compose --profile "ssl" -f docker-compose.yml -f docker-compose.mlnode.yml pull proxy proxy-ssl && \
+docker compose --profile "ssl" -f docker-compose.yml -f docker-compose.mlnode.yml up -d proxy proxy-ssl
+```
+
+  - With manual certs (no proxy-ssl):
+
+```
+source ./config.env && \
+docker compose -f docker-compose.yml -f docker-compose.mlnode.yml pull proxy && \
+docker compose -f docker-compose.yml -f docker-compose.mlnode.yml up -d proxy
+```
+
+Notes:
+- Ensure your env matches one of the setups above (proxy-ssl vs manual). See sections on environment configuration and manual certificate issuance.
+- General operational guidance aligns with the Quickstart docs at [gonka.ai Host Quickstart](https://gonka.ai/host/quickstart/#how-to-stop-mlnode).
+
+## Health Check
+
+The proxy includes a health check endpoint at `/health` that returns HTTP 200 with "healthy" response.
+
+## Troubleshooting
+
+### TLS/SSL issues
+1. Ensure `NGINX_MODE` is `https` or `both` and `CERT_ISSUER_DOMAIN` is set.
+2. Verify `proxy-ssl` is running and reachable from `proxy` (see `proxy-ssl/README.md`).
+3. Check logs of `proxy` for "SSL setup failed" or config validation errors.
+4. Confirm DNS for `SERVER_NAME`/`CERT_ISSUER_DOMAIN` points to your proxy.
+
+### Service Not Reachable
+1. Check if the backend service is running: `docker compose ps`
+2. Verify service names match the upstream definitions in nginx.conf
+3. Check nginx logs: `docker compose logs nginx-proxy`
+
+### WebSocket Issues
+WebSocket support is configured for RPC connections and dashboard hot-reloading. If you have issues:
+1. Verify the `Upgrade` and `Connection` headers are properly set
+2. Check if the backend service supports WebSockets
+
+### Performance Issues
+1. Adjust `worker_connections` in nginx.conf
+2. Enable additional caching if needed
+3. Monitor nginx access logs for slow requests
+
+## Security Features
+
+- X-Frame-Options: DENY
+- X-Content-Type-Options: nosniff  
+- X-XSS-Protection: enabled
+- Client body size limit: 10MB
+- gzip compression enabled for better performance
+
+## Migration from Static Ports
+
+If you're upgrading from a previous version with hardcoded ports:
+
+1. **Replace** `nginx.conf` with `nginx.unified.conf.template`
+2. **Update** your Dockerfile to use the new entrypoint 
+3. **Add** environment variables to your docker-compose.yml
+4. **Rebuild** your nginx container
+
+The entrypoint script provides sensible defaults, so existing setups will continue to work without changes. 

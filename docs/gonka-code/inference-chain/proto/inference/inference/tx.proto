@@ -1,0 +1,470 @@
+syntax = "proto3";
+
+package inference.inference;
+
+import "amino/amino.proto";
+import "cosmos/msg/v1/msg.proto";
+import "cosmos_proto/cosmos.proto";
+import "gogoproto/gogo.proto";
+import "google/protobuf/any.proto";
+import "inference/inference/params.proto";
+import "inference/inference/hardware_node.proto";
+import "inference/inference/bridge.proto";
+import "inference/inference/poc_v2.proto";
+import "inference/inference/devshard_escrow.proto";
+import "inference/inference/maintenance.proto";
+import "inference/inference/poc_delegation.proto";
+import "inference/inference/claim_recipient.proto";
+
+option go_package = "github.com/productscience/inference/x/inference/types";
+
+// Msg defines the Msg service.
+service Msg {
+  option (cosmos.msg.v1.service) = true;
+
+  // UpdateParams defines a (governance) operation for updating the module
+  // parameters. The authority defaults to the x/gov module account.
+  rpc UpdateParams                     (MsgUpdateParams) returns (MsgUpdateParamsResponse);
+  rpc SubmitNewParticipant             (MsgSubmitNewParticipant) returns (MsgSubmitNewParticipantResponse);
+  rpc SubmitNewUnfundedParticipant     (MsgSubmitNewUnfundedParticipant) returns (MsgSubmitNewUnfundedParticipantResponse);
+  rpc ClaimRewards                     (MsgClaimRewards) returns (MsgClaimRewardsResponse);
+  rpc SetClaimRecipients               (MsgSetClaimRecipients) returns (MsgSetClaimRecipientsResponse);
+  rpc SubmitPocBatch                   (MsgSubmitPocBatch) returns (MsgSubmitPocBatchResponse);
+  // PoC v2 validation messages
+  rpc SubmitPocValidationsV2           (MsgSubmitPocValidationsV2) returns (MsgSubmitPocValidationsV2Response);
+  // PoC v2 off-chain commit messages
+  rpc PoCV2StoreCommit                 (MsgPoCV2StoreCommit) returns (MsgPoCV2StoreCommitResponse);
+  rpc MLNodeWeightDistribution         (MsgMLNodeWeightDistribution) returns (MsgMLNodeWeightDistributionResponse);
+  rpc SubmitSeed                       (MsgSubmitSeed) returns (MsgSubmitSeedResponse);
+  rpc SubmitUnitOfComputePriceProposal (MsgSubmitUnitOfComputePriceProposal) returns (MsgSubmitUnitOfComputePriceProposalResponse);
+  rpc RegisterModel                    (MsgRegisterModel) returns (MsgRegisterModelResponse);
+  rpc DeleteGovernanceModel            (MsgDeleteGovernanceModel) returns (MsgDeleteGovernanceModelResponse);
+  rpc SubmitHardwareDiff               (MsgSubmitHardwareDiff) returns (MsgSubmitHardwareDiffResponse);
+  rpc CreatePartialUpgrade             (MsgCreatePartialUpgrade) returns (MsgCreatePartialUpgradeResponse);
+  rpc BridgeExchange                   (MsgBridgeExchange) returns (MsgBridgeExchangeResponse);
+  rpc RegisterBridgeAddresses          (MsgRegisterBridgeAddresses) returns (MsgRegisterBridgeAddressesResponse);
+  rpc RegisterLiquidityPool            (MsgRegisterLiquidityPool) returns (MsgRegisterLiquidityPoolResponse);
+  rpc RegisterTokenMetadata            (MsgRegisterTokenMetadata) returns (MsgRegisterTokenMetadataResponse);
+  rpc ApproveBridgeTokenForTrading     (MsgApproveBridgeTokenForTrading) returns (MsgApproveBridgeTokenForTradingResponse);
+  rpc RequestBridgeWithdrawal          (MsgRequestBridgeWithdrawal) returns (MsgRequestBridgeWithdrawalResponse);
+  rpc RequestBridgeMint                (MsgRequestBridgeMint) returns (MsgRequestBridgeMintResponse);
+  rpc CancelBridgeOperation            (MsgCancelBridgeOperation) returns (MsgCancelBridgeOperationResponse);
+  rpc GovernanceCancelBridgeOperation  (MsgGovernanceCancelBridgeOperation) returns (MsgGovernanceCancelBridgeOperationResponse);
+  rpc RegisterWrappedTokenContract     (MsgRegisterWrappedTokenContract) returns (MsgRegisterWrappedTokenContractResponse);
+  rpc MigrateAllWrappedTokens          (MsgMigrateAllWrappedTokens) returns (MsgMigrateAllWrappedTokensResponse);
+  rpc AddParticipantsToAllowList       (MsgAddParticipantsToAllowList) returns (MsgAddParticipantsToAllowListResponse);
+  rpc RemoveParticipantsFromAllowList  (MsgRemoveParticipantsFromAllowList) returns (MsgRemoveParticipantsFromAllowListResponse);
+  rpc ApproveIbcTokenForTrading        (MsgApproveIbcTokenForTrading) returns (MsgApproveIbcTokenForTradingResponse);
+  rpc RegisterIbcTokenMetadata         (MsgRegisterIbcTokenMetadata) returns (MsgRegisterIbcTokenMetadataResponse);
+  rpc CreateDevshardEscrow             (MsgCreateDevshardEscrow) returns (MsgCreateDevshardEscrowResponse);
+  rpc SettleDevshardEscrow             (MsgSettleDevshardEscrow) returns (MsgSettleDevshardEscrowResponse);
+  rpc SetDevshardRequestsEnabled       (MsgSetDevshardRequestsEnabled) returns (MsgSetDevshardRequestsEnabledResponse);
+  rpc ScheduleMaintenance              (MsgScheduleMaintenance) returns (MsgScheduleMaintenanceResponse);
+  rpc CancelMaintenance                (MsgCancelMaintenance) returns (MsgCancelMaintenanceResponse);
+  rpc SetPoCDelegation                 (MsgSetPoCDelegation) returns (MsgSetPoCDelegationResponse);
+  rpc RefusePoCDelegation              (MsgRefusePoCDelegation) returns (MsgRefusePoCDelegationResponse);
+  rpc DeclarePoCIntent                 (MsgDeclarePoCIntent) returns (MsgDeclarePoCIntentResponse);
+}
+// MsgUpdateParams is the Msg/UpdateParams request type.
+message MsgUpdateParams {
+  option (cosmos.msg.v1.signer) = "authority";
+  option           (amino.name) = "inference/x/inference/MsgUpdateParams";
+
+  // authority is the address that controls the module (defaults to x/gov unless overwritten).
+  string authority = 1 [(cosmos_proto.scalar) = "cosmos.AddressString"];
+
+  // params defines the module parameters to update.
+
+  // NOTE: All parameters must be supplied.
+  Params params = 2 [(gogoproto.nullable) = false, (amino.dont_omitempty) = true];
+}
+
+// MsgUpdateParamsResponse defines the response structure for executing a
+// MsgUpdateParams message.
+message MsgUpdateParamsResponse {}
+
+message MsgSubmitNewParticipant {
+  option (cosmos.msg.v1.signer) = "creator";
+  string creator = 1;
+  string url = 2;
+  string validator_key = 3;
+  string worker_key = 4;
+}
+
+message MsgSubmitNewParticipantResponse {
+  string participant_index = 1;
+  string status = 2;
+}
+
+message MsgSubmitNewUnfundedParticipant {
+  option (cosmos.msg.v1.signer) = "creator";
+  string creator = 1;
+  string address = 2;
+  string url = 3;
+  string pub_key = 4;
+  string validator_key = 5;
+  string worker_key = 6;
+}
+
+message MsgSubmitNewUnfundedParticipantResponse {}
+
+message MsgClaimRewards {
+  option (cosmos.msg.v1.signer) = "creator";
+  string creator = 1;
+  int64  seed = 2;
+  uint64 epoch_index = 3;
+}
+
+message MsgClaimRewardsResponse {
+  uint64 amount = 1;
+  string result = 2;
+}
+
+// MsgSetClaimRecipients lets the account owner (cold key) batch-configure
+// per-epoch recipient overrides for MsgClaimRewards. Must be signed by the
+// participant's own key; it is intentionally NOT granted to warm keys via
+// authz, so an operational key cannot redirect rewards.
+message MsgSetClaimRecipients {
+  option (cosmos.msg.v1.signer) = "creator";
+  string                       creator = 1;
+  repeated ClaimRecipientEntry entries = 2 [(gogoproto.nullable) = false];
+}
+
+message MsgSetClaimRecipientsResponse {}
+
+message MsgSubmitPocBatch {
+  option (cosmos.msg.v1.signer) = "creator";
+  string creator = 1;
+  int64  poc_stage_start_block_height = 2;
+  string batch_id = 3;
+  repeated int64  nonces = 4;
+  repeated double dist = 5;
+  string node_id = 6;
+}
+
+message MsgSubmitPocBatchResponse {}
+
+// PoC v2 validation messages
+message MsgSubmitPocValidationsV2 {
+  option (cosmos.msg.v1.signer) = "creator";
+  string creator = 1;
+  int64 poc_stage_start_block_height = 2;
+  repeated PoCValidationEntryV2 validations = 3;
+}
+
+message MsgSubmitPocValidationsV2Response {}
+
+// PoC v2 off-chain commit - commits MMR state to chain
+message MsgPoCV2StoreCommit {
+  option (cosmos.msg.v1.signer) = "creator";
+  string creator = 1;
+  int64 poc_stage_start_block_height = 2;
+  uint32 count = 3 [deprecated = true];
+  bytes root_hash = 4 [deprecated = true];
+  repeated PoCV2CommitEntry entries = 5;
+}
+
+message MsgPoCV2StoreCommitResponse {}
+
+// Reports per-node weight distribution after generation
+message MsgMLNodeWeightDistribution {
+  option (cosmos.msg.v1.signer) = "creator";
+  string creator = 1;
+  int64 poc_stage_start_block_height = 2;
+  repeated MLNodeWeight weights = 3 [deprecated = true];
+  repeated MLNodeDistributionEntry entries = 4;
+}
+
+message MsgMLNodeWeightDistributionResponse {}
+
+message MsgSubmitSeed {
+  option (cosmos.msg.v1.signer) = "creator";
+  string creator = 1;
+  uint64 epoch_index = 2;
+  string signature = 3;
+}
+
+message MsgSubmitSeedResponse {}
+
+message MsgSubmitUnitOfComputePriceProposal {
+  option (cosmos.msg.v1.signer) = "creator";
+  string creator = 1;
+  uint64 price = 2;
+}
+
+message MsgSubmitUnitOfComputePriceProposalResponse {}
+
+message MsgRegisterModel {
+  option (cosmos.msg.v1.signer) = "authority";
+  string  authority = 1;
+  string  proposed_by = 2;
+  string  id = 3;
+  uint64  units_of_compute_per_token = 4;
+  string  hf_repo = 5;
+  string  hf_commit = 6;
+  repeated string  model_args = 7;
+  uint64  v_ram = 8;
+  uint64  throughput_per_nonce = 9;
+  Decimal validation_threshold = 10;
+}
+
+message MsgRegisterModelResponse {}
+
+message MsgDeleteGovernanceModel {
+  option (cosmos.msg.v1.signer) = "authority";
+  string authority = 1;
+  string id = 2;
+}
+
+message MsgDeleteGovernanceModelResponse {}
+
+message MsgSubmitHardwareDiff {
+  option (cosmos.msg.v1.signer) = "creator";
+  string       creator = 1;
+  repeated HardwareNode newOrModified = 2;
+  repeated HardwareNode removed = 3;
+}
+
+message MsgSubmitHardwareDiffResponse {}
+
+message MsgCreatePartialUpgrade {
+  option (cosmos.msg.v1.signer) = "authority";
+  string authority = 1;
+  uint64 height = 2;
+  string nodeVersion = 3;
+  string apiBinariesJson = 4;
+}
+
+message MsgCreatePartialUpgradeResponse {}
+
+message MsgBridgeExchange {
+  option (cosmos.msg.v1.signer) = "validator";
+  string validator = 1;
+  string originChain = 2; // e.g., "ethereum"
+  string contractAddress = 3; // original chain smart contract address
+  string ownerAddress = 4; // token owner's address on the origin chain
+  string ownerPubKey = 5; // public key of the token owner
+  string amount = 6; // amount of tokens being bridged
+  string blockNumber = 7; // block number where the transaction occurred
+  string receiptIndex = 8; // index of the transaction receipt in the block
+  string receiptsRoot = 9; // merkle root of receipts trie for transaction verification
+}
+
+message MsgBridgeExchangeResponse {
+  string id = 1; // Unique bridge transaction ID (originChain_blockNumber_receiptIndex)
+}
+
+// MsgAddParticipantsToAllowList adds addresses to the participant epoch-formation allowlist.
+// Recommended max 500 addresses per message to stay within tx size limits.
+message MsgAddParticipantsToAllowList {
+  option (cosmos.msg.v1.signer) = "authority";
+  string authority = 1;
+  repeated string addresses = 2;
+}
+
+message MsgAddParticipantsToAllowListResponse {}
+
+// MsgRemoveParticipantsFromAllowList removes addresses from the participant epoch-formation allowlist.
+// Recommended max 500 addresses per message to stay within tx size limits.
+message MsgRemoveParticipantsFromAllowList {
+  option (cosmos.msg.v1.signer) = "authority";
+  string authority = 1;
+  repeated string addresses = 2;
+}
+
+message MsgRemoveParticipantsFromAllowListResponse {}
+
+message MsgRegisterBridgeAddresses {
+  option (cosmos.msg.v1.signer) = "authority";
+  string authority = 1;
+  string chainName = 2;
+  repeated string addresses = 3;
+}
+
+message MsgRegisterBridgeAddressesResponse {}
+
+message MsgRegisterTokenMetadata {
+  option (cosmos.msg.v1.signer) = "authority";
+  string authority = 1;
+  string chainId = 2;
+  string contractAddress = 3;
+  string name = 4;
+  string symbol = 5;
+  uint32 decimals = 6;
+  bool overwrite = 7;
+}
+
+message MsgRegisterTokenMetadataResponse {}
+
+message MsgApproveBridgeTokenForTrading {
+  option (cosmos.msg.v1.signer) = "authority";
+  string authority = 1;
+  string chainId = 2;  // e.g. "ethereum"
+  string contractAddress = 3;  // original chain contract address
+}
+
+message MsgApproveBridgeTokenForTradingResponse {}
+
+message MsgRegisterLiquidityPool {
+  option (cosmos.msg.v1.signer) = "authority";
+  string authority = 1;
+  string code_id = 2;
+  string label = 3;
+  string instantiate_msg = 4;  // JSON string for contract instantiation
+}
+
+message MsgRegisterLiquidityPoolResponse {}
+
+// Contract-only bridge withdrawal request - can only be executed by smart contracts
+message MsgRequestBridgeWithdrawal {
+  option (cosmos.msg.v1.signer) = "creator";
+  string creator = 1; // Contract requesting withdrawal (must be the msg sender, validated automatically by SDK)
+  string user_address = 2; // User address that triggered the withdrawal
+  string amount = 3; // Amount to withdraw (as string to handle large numbers)
+  string destination_address = 4; // Ethereum address to receive tokens
+  string destination_bridge_address = 5; // The specific bridge contract to process the withdrawal
+}
+
+message MsgRequestBridgeWithdrawalResponse {
+  string request_id = 1; // Generated request ID (transaction hash)
+  uint64 epoch_index = 2; // Current epoch ID used for signature
+  string bls_request_id = 3; // BLS signing request ID
+}
+
+// Native Gonka bridge mint request - bridges native tokens to WGNK
+message MsgRequestBridgeMint {
+  option (cosmos.msg.v1.signer) = "creator";
+  string creator = 1; // User address sending native tokens
+  string amount = 2; // Amount of native Gonka to bridge (as string to handle large numbers)
+  string destination_address = 3; // Ethereum address to receive WGNK tokens
+  string chain_id = 4; // Target chain identifier (e.g., "ethereum", "sepolia")
+  string destination_bridge_address = 5; // The specific bridge contract to process the mint
+}
+
+message MsgRequestBridgeMintResponse {
+  string request_id = 1; // Generated request ID for tracking
+  uint64 epoch_index = 2; // Current epoch ID used for signature
+  string bls_request_id = 3; // BLS signing request ID
+}
+
+message MsgCancelBridgeOperation {
+  option (cosmos.msg.v1.signer) = "creator";
+  string creator = 1;
+  string request_id = 2;
+}
+
+message MsgCancelBridgeOperationResponse {}
+
+message MsgGovernanceCancelBridgeOperation {
+  option (cosmos.msg.v1.signer) = "authority";
+  string authority = 1 [(cosmos_proto.scalar) = "cosmos.AddressString"];
+  string request_id = 2;
+  string override_recipient = 3 [(cosmos_proto.scalar) = "cosmos.AddressString"];
+  string override_wrapped_contract = 4 [(cosmos_proto.scalar) = "cosmos.AddressString"];
+  string reason = 5;
+}
+
+message MsgGovernanceCancelBridgeOperationResponse {}
+
+// SetCw20CodeId updates the code id used for new wrapped-token instantiations.
+message MsgRegisterWrappedTokenContract {
+  option (cosmos.msg.v1.signer) = "authority";
+  string authority = 1 [(cosmos_proto.scalar) = "cosmos.AddressString"];
+  uint64 code_id = 2;
+}
+
+message MsgRegisterWrappedTokenContractResponse {}
+
+// MigrateAllWrappedTokens migrates all known wrapped-token instances to new_code_id.
+// migrate_msg_json can be "{}" for no-op migrations.
+message MsgMigrateAllWrappedTokens {
+  option (cosmos.msg.v1.signer) = "authority";
+  string authority = 1 [(cosmos_proto.scalar) = "cosmos.AddressString"];
+  uint64 new_code_id = 2;
+  string migrate_msg_json = 3;
+  // Optional batch limit per call; 0 means migrate all.
+  uint32 limit = 4;
+}
+
+message MsgMigrateAllWrappedTokensResponse {
+  // number of contracts attempted; success/failure details are in logs/events
+  uint32 attempted = 1;
+}
+
+message MsgApproveIbcTokenForTrading {
+  option (cosmos.msg.v1.signer) = "authority";
+  string authority = 1;
+  string chainId = 2;
+  string ibcDenom = 3;
+}
+
+message MsgApproveIbcTokenForTradingResponse {}
+
+message MsgRegisterIbcTokenMetadata {
+  option (cosmos.msg.v1.signer) = "authority";
+  string authority = 1;
+  string chainId = 2;
+  string ibcDenom = 3;
+  string name = 4;
+  string symbol = 5;
+  uint32 decimals = 6;
+  bool overwrite = 7;
+}
+
+message MsgRegisterIbcTokenMetadataResponse {}
+
+message MsgCreateDevshardEscrow {
+  option (cosmos.msg.v1.signer) = "creator";
+  string creator = 1;
+  uint64 amount = 2;
+  string model_id = 3;
+}
+
+message MsgCreateDevshardEscrowResponse {
+  uint64 escrow_id = 1;
+}
+
+message MsgSettleDevshardEscrow {
+  option (cosmos.msg.v1.signer) = "settler";
+  string settler = 1;
+  uint64 escrow_id = 2;
+  string state_root_and_protocol_version = 9;
+  bytes state_root = 3;
+  uint64 nonce = 4;
+  bytes rest_hash = 5;
+  repeated DevshardSettlementHostStats host_stats = 6;
+  repeated DevshardSlotSignature signatures = 7;
+  uint64 fees = 8;
+}
+
+message MsgSettleDevshardEscrowResponse {}
+
+message MsgSetDevshardRequestsEnabled {
+  option (cosmos.msg.v1.signer) = "authority";
+  string authority = 1;
+  bool enabled = 2;
+}
+
+message MsgSetDevshardRequestsEnabledResponse {}
+
+// MsgScheduleMaintenance schedules a maintenance window for a participant.
+message MsgScheduleMaintenance {
+  option (cosmos.msg.v1.signer) = "creator";
+  string creator       = 1;
+  string participant   = 2;
+  int64  start_height  = 3;
+  uint64 duration_blocks = 4;
+}
+
+message MsgScheduleMaintenanceResponse {
+  uint64 reservation_id = 1;
+}
+
+// MsgCancelMaintenance cancels a not-yet-active maintenance reservation.
+message MsgCancelMaintenance {
+  option (cosmos.msg.v1.signer) = "creator";
+  string creator        = 1;
+  uint64 reservation_id = 2;
+}
+
+message MsgCancelMaintenanceResponse {}

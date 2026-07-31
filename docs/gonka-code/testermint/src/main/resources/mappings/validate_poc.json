@@ -1,0 +1,16 @@
+{
+  "scenarioName": "ModelState",
+  "requiredScenarioState": "POW",
+  "newScenarioState": "POW_VALIDATE",
+  "request": {
+    "method": "POST",
+    "urlPath": "/api/v1/pow/init/validate"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": ""
+  }
+}

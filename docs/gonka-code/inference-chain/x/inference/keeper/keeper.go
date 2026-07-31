@@ -1,0 +1,765 @@
+package keeper
+
+import (
+	"fmt"
+
+	"cosmossdk.io/collections"
+	"cosmossdk.io/core/store"
+	"cosmossdk.io/log"
+	wasmkeeper "github.com/CosmWasm/wasmd/x/wasm/keeper"
+	"github.com/cosmos/cosmos-sdk/codec"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/productscience/inference/x/inference/types"
+)
+
+type (
+	Keeper struct {
+		cdc                   codec.BinaryCodec
+		storeService          store.KVStoreService
+		transientStoreService store.TransientStoreService
+		logger                log.Logger
+		BankKeeper            types.BookkeepingBankKeeper
+		BankView              types.BankKeeper
+		validatorSet          types.ValidatorSet
+		group                 types.GroupMessageKeeper
+		Staking               types.StakingKeeper
+		BlsKeeper             types.BlsKeeper
+		UpgradeKeeper         types.UpgradeKeeper
+		// the address capable of executing a MsgUpdateParams message. Typically, this
+		// should be the x/gov module account.
+		authority     string
+		AccountKeeper types.AccountKeeper
+		AuthzKeeper   types.AuthzKeeper
+		getWasmKeeper *wasmKeeperGetter
+		mintTokensFn  func(ctx sdk.Context, contractAddr, recipient, amount string) error
+
+		collateralKeeper    types.CollateralKeeper
+		streamvestingKeeper types.StreamVestingKeeper
+		// Collections schema and stores
+		Schema         collections.Schema
+		Participants   collections.Map[sdk.AccAddress, types.Participant]
+		RandomSeeds    collections.Map[collections.Pair[uint64, sdk.AccAddress], types.RandomSeed]
+		PoCBatches     collections.Map[collections.Triple[int64, sdk.AccAddress, string], types.PoCBatch]
+		PoCValidations collections.Map[collections.Triple[int64, sdk.AccAddress, sdk.AccAddress], types.PoCValidation]
+		// PoC v2 collections
+		PoCValidationsV2          collections.Map[collections.Triple[int64, sdk.AccAddress, collections.Pair[string, sdk.AccAddress]], types.PoCValidationV2]
+		PoCV2StoreCommits         collections.Map[collections.Triple[int64, sdk.AccAddress, string], types.PoCV2StoreCommit]
+		MLNodeWeightDistributions collections.Map[collections.Triple[int64, sdk.AccAddress, string], types.MLNodeWeightDistribution]
+		// Dynamic pricing collections
+		ModelCurrentPriceMap                collections.Map[string, uint64]
+		ModelCapacityMap                    collections.Map[string, uint64]
+		ModelLoadRollingWindowMap           collections.Map[string, types.RollingWindowState]
+		ModelInferenceCountRollingWindowMap collections.Map[string, types.RollingWindowState]
+		// Governance models
+		Models                        collections.Map[string, types.Model]
+		Inferences                    collections.Map[string, types.Inference]
+		InferenceTimeouts             collections.Map[collections.Pair[uint64, string], types.InferenceTimeout]
+		InferenceValidationDetailsMap collections.Map[collections.Pair[uint64, string], types.InferenceValidationDetails]
+		UnitOfComputePriceProposals   collections.Map[string, types.UnitOfComputePriceProposal]
+		EpochGroupDataMap             collections.Map[collections.Pair[uint64, string], types.EpochGroupData]
+		// Epoch collections
+		Epochs              collections.Map[uint64, types.Epoch]
+		EffectiveEpochIndex collections.Item[uint64]
+		// TODO(v0.2.11-cleanup): remove legacy aggregate map after upgrade migration period.
+		EpochGroupValidationsMap  collections.Map[collections.Pair[uint64, string], types.EpochGroupValidations]
+		EpochGroupValidationEntry collections.KeySet[collections.Triple[uint64, string, string]]
+		SettleAmounts             collections.Map[sdk.AccAddress, types.SettleAmount]
+		// TODO(post v0.2.12): remove TopMiners and the key for it after upgrade clears the data
+		TopMiners                 collections.Map[sdk.AccAddress, types.TopMiner]
+		PartialUpgrades           collections.Map[uint64, types.PartialUpgrade]
+		EpochPerformanceSummaries collections.Map[collections.Pair[sdk.AccAddress, uint64], types.EpochPerformanceSummary]
+		TrainingExecAllowListSet  collections.KeySet[sdk.AccAddress]
+		TrainingStartAllowListSet collections.KeySet[sdk.AccAddress]
+		ParticipantAllowListSet   collections.KeySet[sdk.AccAddress]
+		PruningState              collections.Item[types.PruningState]
+		InferencesToPrune         collections.Map[collections.Pair[int64, string], collections.NoValue]
+		ActiveInvalidations       collections.KeySet[collections.Pair[sdk.AccAddress, string]]
+		ExcludedParticipantsMap   collections.Map[collections.Pair[uint64, sdk.AccAddress], types.ExcludedParticipant]
+		// Confirmation PoC collections
+		ConfirmationPoCEvents          collections.Map[collections.Pair[uint64, uint64], types.ConfirmationPoCEvent]
+		ActiveConfirmationPoCEventItem collections.Item[types.ConfirmationPoCEvent]
+		LastUpgradeHeightItem          collections.Item[int64]
+		PocV2EnabledEpoch              collections.Item[uint64]
+		// Bridge & Wrapped Token collections
+		BridgeContractAddresses collections.Map[collections.Pair[string, string], types.BridgeContractAddress]
+		BridgeTransactionsMap   collections.Map[collections.Triple[string, string, string], types.BridgeTransaction]
+		// BridgeTransactionValidators records per-validator confirmations
+		// for a bridge transaction. Key is (chainId, blockNumber, contentHashPart, validator_bech32),
+		// mirroring BridgeTransactionsMap's parent key so conflict txs (same
+		// chain/block/receipt but different content) get separate validator
+		// sets and removeBridgeTransactionByID's prefix-delete finds the
+		// right sub-keys. Split off BridgeTransaction.Validators so the Nth
+		// validator's confirmation tx doesn't pay gas proportional to the
+		// first N-1.
+		BridgeTransactionValidators    collections.KeySet[collections.Quad[string, string, string, string]]
+		BridgeMintRefundsMap           collections.Map[string, types.MsgRequestBridgeMint]
+		BridgeWithdrawalRefundsMap     collections.Map[string, types.MsgRequestBridgeWithdrawal]
+		BridgeWithdrawalTokenRefsMap   collections.Map[string, types.BridgeTokenReference]
+		WrappedTokenCodeIDItem         collections.Item[uint64]
+		WrappedTokenMetadataMap        collections.Map[collections.Pair[string, string], types.BridgeTokenMetadata]
+		WrappedTokenContractsMap       collections.Map[collections.Pair[string, string], types.BridgeWrappedTokenContract]
+		WrappedContractReverseIndex    collections.Map[string, types.BridgeTokenReference]
+		LiquidityPoolItem              collections.Item[types.LiquidityPool]
+		LiquidityPoolApprovedTokensMap collections.Map[collections.Pair[string, string], types.BridgeTokenReference]
+		// PoC validation sampling snapshots
+		PoCValidationSnapshots     collections.Map[int64, types.PoCValidationSnapshot]
+		PreservedNodesSnapshotItem collections.Item[types.PreservedNodesSnapshot]
+		// Punishment grace epochs for upgrade protection
+		PunishmentGraceEpochs collections.Map[uint64, types.GraceEpochParams]
+		ActiveParticipantsSet collections.KeySet[collections.Pair[uint64, sdk.AccAddress]]
+		// Devshard escrow collections
+		DevshardEscrows           collections.Map[uint64, types.DevshardEscrow]
+		DevshardEscrowCounter     collections.Item[uint64]
+		DevshardEscrowEpochCount  collections.Map[uint64, uint64]
+		DevshardHostEpochStatsMap collections.Map[collections.Pair[uint64, sdk.AccAddress], types.DevshardHostEpochStats]
+		DevshardEscrowsByEpoch    collections.Map[collections.Pair[uint64, uint64], collections.NoValue]
+		// Maintenance window collections
+		MaintenanceReservations       collections.Map[uint64, types.MaintenanceReservation]
+		MaintenanceReservationCounter collections.Item[uint64]
+		MaintenanceStates             collections.Map[sdk.AccAddress, types.MaintenanceState]
+		MaintenanceTransitions        collections.Map[collections.Pair[int64, uint64], uint32]
+		// MaintenanceActiveIndex is a KeySet of reservation IDs that are
+		// currently in the ACTIVE state. Lets MaintenanceActive query iterate
+		// only the active set instead of scanning every participant's state.
+		MaintenanceActiveIndex collections.KeySet[uint64]
+		// MaintenanceScheduledIndex is a KeySet of reservation IDs that are
+		// currently in the SCHEDULED state. Lets concurrency/schedulability
+		// queries iterate only the bounded set of scheduled reservations
+		// instead of every participant's MaintenanceState (DoS protection).
+		MaintenanceScheduledIndex collections.KeySet[uint64]
+		// PoC delegation collections
+		PoCDelegations                   collections.Map[collections.Pair[string, string], types.PoCDelegation]
+		PoCRefusals                      collections.KeySet[collections.Pair[string, string]]
+		PoCDirectIntents                 collections.KeySet[collections.Pair[string, string]]
+		DelegationSnapshot               collections.Item[types.DelegationSnapshot]
+		BootstrapDelegationSnapshot      collections.Item[types.BootstrapDelegationSnapshot]
+		DelegationRewardTransferSnapshot collections.Item[types.DelegationRewardTransferSnapshot]
+		// Per-participant, per-epoch recipient overrides for MsgClaimRewards.
+		// Set by cold key via MsgSetClaimRecipients; retained after claim so
+		// late same-epoch payouts can resolve the same recipient, then pruned
+		// once the epoch is safely stale.
+		ClaimRecipients collections.Map[collections.Pair[sdk.AccAddress, uint64], string]
+		// Secondary index for pruning stale recipient overrides by epoch.
+		// Must be updated atomically with ClaimRecipients.
+		ClaimRecipientsByEpoch collections.KeySet[collections.Pair[uint64, sdk.AccAddress]]
+	}
+)
+
+type wasmKeeperGetter struct {
+	fn func() wasmkeeper.Keeper
+}
+
+func NewKeeper(
+	cdc codec.BinaryCodec,
+	storeService store.KVStoreService,
+	transientStoreService store.TransientStoreService,
+	logger log.Logger,
+	authority string,
+	bank types.BookkeepingBankKeeper,
+	bankView types.BankKeeper,
+	group types.GroupMessageKeeper,
+	validatorSet types.ValidatorSet,
+	staking types.StakingKeeper,
+	accountKeeper types.AccountKeeper,
+	blsKeeper types.BlsKeeper,
+	collateralKeeper types.CollateralKeeper,
+	streamvestingKeeper types.StreamVestingKeeper,
+	authzKeeper types.AuthzKeeper,
+	getWasmKeeper func() wasmkeeper.Keeper,
+	upgradeKeeper types.UpgradeKeeper,
+) Keeper {
+	if _, err := sdk.AccAddressFromBech32(authority); err != nil {
+		//nolint:forbidigo // init code
+		panic(fmt.Sprintf("invalid authority address: %s", authority))
+	}
+
+	sb := collections.NewSchemaBuilder(storeService)
+
+	k := Keeper{
+		cdc:                   cdc,
+		storeService:          storeService,
+		transientStoreService: transientStoreService,
+		authority:             authority,
+		logger:                logger,
+		BankKeeper:            bank,
+		BankView:              bankView,
+		group:                 group,
+		validatorSet:          validatorSet,
+		Staking:               staking,
+		AccountKeeper:         accountKeeper,
+		AuthzKeeper:           authzKeeper,
+		BlsKeeper:             blsKeeper,
+		collateralKeeper:      collateralKeeper,
+		streamvestingKeeper:   streamvestingKeeper,
+		getWasmKeeper:         &wasmKeeperGetter{fn: getWasmKeeper},
+		UpgradeKeeper:         upgradeKeeper,
+		// collection init
+		Participants: collections.NewMap(
+			sb,
+			types.ParticipantsPrefix,
+			"participant",
+			sdk.AccAddressKey,
+			codec.CollValue[types.Participant](cdc),
+		),
+		RandomSeeds: collections.NewMap(
+			sb,
+			types.RandomSeedPrefix,
+			"random_seed",
+			collections.PairKeyCodec(collections.Uint64Key, sdk.AccAddressKey),
+			codec.CollValue[types.RandomSeed](cdc),
+		),
+		PoCBatches: collections.NewMap(
+			sb,
+			types.PoCBatchPrefix,
+			"poc_batch",
+			collections.TripleKeyCodec(collections.Int64Key, sdk.AccAddressKey, collections.StringKey),
+			codec.CollValue[types.PoCBatch](cdc),
+		),
+		PoCValidations: collections.NewMap(
+			sb,
+			types.PoCValidationPref,
+			"poc_validation",
+			collections.TripleKeyCodec(collections.Int64Key, sdk.AccAddressKey, sdk.AccAddressKey),
+			codec.CollValue[types.PoCValidation](cdc),
+		),
+		// PoC v2 collections
+		PoCValidationsV2: collections.NewMap(
+			sb,
+			types.PoCValidationV2Prefix,
+			"poc_validation_v2",
+			collections.TripleKeyCodec(collections.Int64Key, sdk.AccAddressKey, collections.PairKeyCodec(collections.StringKey, sdk.AccAddressKey)),
+			codec.CollValue[types.PoCValidationV2](cdc),
+		),
+		PoCV2StoreCommits: collections.NewMap(
+			sb,
+			types.PoCV2StoreCommitPrefix,
+			"poc_v2_store_commit",
+			collections.TripleKeyCodec(collections.Int64Key, sdk.AccAddressKey, collections.StringKey),
+			codec.CollValue[types.PoCV2StoreCommit](cdc),
+		),
+		MLNodeWeightDistributions: collections.NewMap(
+			sb,
+			types.MLNodeWeightDistributionPrefix,
+			"mlnode_weight_distribution",
+			collections.TripleKeyCodec(collections.Int64Key, sdk.AccAddressKey, collections.StringKey),
+			codec.CollValue[types.MLNodeWeightDistribution](cdc),
+		),
+		// dynamic pricing collections
+		ModelCurrentPriceMap: collections.NewMap(
+			sb,
+			types.DynamicPricingCurrentPrefix,
+			"model_current_price",
+			collections.StringKey,
+			collections.Uint64Value,
+		),
+		ModelCapacityMap: collections.NewMap(
+			sb,
+			types.DynamicPricingCapacityPrefix,
+			"model_capacity",
+			collections.StringKey,
+			collections.Uint64Value,
+		),
+		ModelLoadRollingWindowMap: collections.NewMap(
+			sb,
+			types.ModelLoadRollingWindowPrefix,
+			"model_load_rolling_window",
+			collections.StringKey,
+			codec.CollValue[types.RollingWindowState](cdc),
+		),
+		ModelInferenceCountRollingWindowMap: collections.NewMap(
+			sb,
+			types.ModelInferenceCountRollingWindowPrefix,
+			"model_inference_count_rolling_window",
+			collections.StringKey,
+			codec.CollValue[types.RollingWindowState](cdc),
+		),
+		// governance models map
+		Models: collections.NewMap(
+			sb,
+			types.ModelsPrefix,
+			"models",
+			collections.StringKey,
+			codec.CollValue[types.Model](cdc),
+		),
+		// inferences map
+		Inferences: collections.NewMap(
+			sb,
+			types.InferencesPrefix,
+			"inferences",
+			collections.StringKey,
+			codec.CollValue[types.Inference](cdc),
+		),
+		// unit of compute price proposals map
+		UnitOfComputePriceProposals: collections.NewMap(
+			sb,
+			types.UnitOfComputePriceProposalPrefix,
+			"unit_of_compute_price_proposals",
+			collections.StringKey,
+			codec.CollValue[types.UnitOfComputePriceProposal](cdc),
+		),
+		InferenceValidationDetailsMap: collections.NewMap(
+			sb,
+			types.InferenceValidationDetailsPrefix,
+			"inference_validation_details",
+			collections.PairKeyCodec(collections.Uint64Key, collections.StringKey),
+			codec.CollValue[types.InferenceValidationDetails](cdc),
+		),
+		InferenceTimeouts: collections.NewMap(
+			sb,
+			types.InferenceTimeoutPrefix,
+			"inference_timeout",
+			collections.PairKeyCodec(collections.Uint64Key, collections.StringKey),
+			codec.CollValue[types.InferenceTimeout](cdc),
+		),
+		EpochGroupDataMap: collections.NewMap(
+			sb,
+			types.EpochGroupDataPrefix,
+			"epoch_group_data",
+			collections.PairKeyCodec(collections.Uint64Key, collections.StringKey),
+			codec.CollValue[types.EpochGroupData](cdc),
+		),
+		// Epoch collections wiring
+		Epochs: collections.NewMap(
+			sb,
+			types.EpochsPrefix,
+			"epochs",
+			collections.Uint64Key,
+			codec.CollValue[types.Epoch](cdc),
+		),
+		EffectiveEpochIndex: collections.NewItem(
+			sb,
+			types.EffectiveEpochIndexPrefix,
+			"effective_epoch_index",
+			collections.Uint64Value,
+		),
+		// TODO(v0.2.11-cleanup): remove legacy aggregate map wiring after migration period.
+		EpochGroupValidationsMap: collections.NewMap(
+			sb,
+			types.EpochGroupValidationsPrefix,
+			"epoch_group_validations",
+			collections.PairKeyCodec(collections.Uint64Key, collections.StringKey),
+			codec.CollValue[types.EpochGroupValidations](cdc),
+		),
+		EpochGroupValidationEntry: collections.NewKeySet(
+			sb,
+			types.EpochGroupValidationEntryPrefix,
+			"epoch_group_validation_entry",
+			collections.TripleKeyCodec(collections.Uint64Key, collections.StringKey, collections.StringKey),
+		),
+		SettleAmounts: collections.NewMap(
+			sb,
+			types.SettleAmountPrefix,
+			"settle_amount",
+			sdk.AccAddressKey,
+			codec.CollValue[types.SettleAmount](cdc),
+		),
+		TopMiners: collections.NewMap(
+			sb,
+			types.TopMinerPrefix,
+			"top_miner",
+			sdk.AccAddressKey,
+			codec.CollValue[types.TopMiner](cdc),
+		),
+		PartialUpgrades: collections.NewMap(
+			sb,
+			types.PartialUpgradePrefix,
+			"partial_upgrade",
+			collections.Uint64Key,
+			codec.CollValue[types.PartialUpgrade](cdc),
+		),
+		EpochPerformanceSummaries: collections.NewMap(
+			sb,
+			types.EpochPerformanceSummaryPrefix,
+			"epoch_performance_summary",
+			collections.PairKeyCodec(sdk.AccAddressKey, collections.Uint64Key),
+			codec.CollValue[types.EpochPerformanceSummary](cdc),
+		),
+		TrainingExecAllowListSet: collections.NewKeySet(
+			sb,
+			types.TrainingExecAllowListPrefix,
+			"training_exec_allow_list",
+			sdk.AccAddressKey,
+		),
+		TrainingStartAllowListSet: collections.NewKeySet(
+			sb,
+			types.TrainingStartAllowListPrefix,
+			"training_start_allow_list",
+			sdk.AccAddressKey,
+		),
+		ParticipantAllowListSet: collections.NewKeySet(
+			sb,
+			types.ParticipantAllowListPrefix,
+			"participant_allow_list",
+			sdk.AccAddressKey,
+		),
+		PruningState: collections.NewItem(
+			sb,
+			types.PruningStatePrefix,
+			"pruning_state",
+			codec.CollValue[types.PruningState](cdc),
+		),
+		InferencesToPrune: collections.NewMap(
+			sb,
+			types.InferencesToPrunePrefix,
+			"inferences_to_prune",
+			collections.PairKeyCodec(collections.Int64Key, collections.StringKey),
+			collections.NoValue{},
+		),
+		ActiveInvalidations: collections.NewKeySet(
+			sb,
+			types.ActiveInvalidationsPrefix,
+			"active_invalidations",
+			collections.PairKeyCodec(sdk.AccAddressKey, collections.StringKey),
+		),
+		ExcludedParticipantsMap: collections.NewMap(
+			sb,
+			types.ExcludedParticipantsPrefix,
+			"excluded_participants",
+			collections.PairKeyCodec(collections.Uint64Key, sdk.AccAddressKey),
+			codec.CollValue[types.ExcludedParticipant](cdc),
+		),
+		ConfirmationPoCEvents: collections.NewMap(
+			sb,
+			types.ConfirmationPoCEventsPrefix,
+			"confirmation_poc_events",
+			collections.PairKeyCodec(collections.Uint64Key, collections.Uint64Key),
+			codec.CollValue[types.ConfirmationPoCEvent](cdc),
+		),
+		ActiveConfirmationPoCEventItem: collections.NewItem(
+			sb,
+			types.ActiveConfirmationPoCEventPrefix,
+			"active_confirmation_poc_event",
+			codec.CollValue[types.ConfirmationPoCEvent](cdc),
+		),
+		LastUpgradeHeightItem: collections.NewItem(
+			sb,
+			types.LastUpgradeHeightPrefix,
+			"last_upgrade_height",
+			collections.Int64Value,
+		),
+		PocV2EnabledEpoch: collections.NewItem(
+			sb,
+			types.PocV2EnabledEpochPrefix,
+			"poc_v2_enabled_epoch",
+			collections.Uint64Value,
+		),
+		BridgeContractAddresses: collections.NewMap(
+			sb,
+			types.BridgeContractAddressesPrefix,
+			"bridge_contract_addresses",
+			collections.PairKeyCodec(collections.StringKey, collections.StringKey),
+			codec.CollValue[types.BridgeContractAddress](cdc),
+		),
+		BridgeTransactionsMap: collections.NewMap(
+			sb,
+			types.BridgeTransactionsPrefix,
+			"bridge_transactions",
+			collections.TripleKeyCodec(collections.StringKey, collections.StringKey, collections.StringKey),
+			codec.CollValue[types.BridgeTransaction](cdc),
+		),
+		BridgeTransactionValidators: collections.NewKeySet(
+			sb,
+			types.BridgeTransactionValidatorsPrefix,
+			"bridge_transaction_validators",
+			collections.QuadKeyCodec(collections.StringKey, collections.StringKey, collections.StringKey, collections.StringKey),
+		),
+		BridgeMintRefundsMap: collections.NewMap(
+			sb,
+			types.BridgeMintRefundsPrefix,
+			"bridge_mint_refunds",
+			collections.StringKey,
+			codec.CollValue[types.MsgRequestBridgeMint](cdc),
+		),
+		BridgeWithdrawalRefundsMap: collections.NewMap(
+			sb,
+			types.BridgeWithdrawalRefundsPrefix,
+			"bridge_withdrawal_refunds",
+			collections.StringKey,
+			codec.CollValue[types.MsgRequestBridgeWithdrawal](cdc),
+		),
+		BridgeWithdrawalTokenRefsMap: collections.NewMap(
+			sb,
+			types.BridgeWithdrawalTokenRefsPrefix,
+			"bridge_withdrawal_token_refs",
+			collections.StringKey,
+			codec.CollValue[types.BridgeTokenReference](cdc),
+		),
+		WrappedTokenMetadataMap: collections.NewMap(
+			sb,
+			types.WrappedTokenMetadataPrefix,
+			"bridge_token_metadata",
+			collections.PairKeyCodec(collections.StringKey, collections.StringKey),
+			codec.CollValue[types.BridgeTokenMetadata](cdc),
+		),
+		WrappedTokenContractsMap: collections.NewMap(
+			sb,
+			types.WrappedTokenContractsPrefix,
+			"bridge_wrapped_token_contracts",
+			collections.PairKeyCodec(collections.StringKey, collections.StringKey),
+			codec.CollValue[types.BridgeWrappedTokenContract](cdc),
+		),
+		WrappedContractReverseIndex: collections.NewMap(
+			sb,
+			types.WrappedContractReverseIndexPrefix,
+			"wrapped_contract_reverse_index",
+			collections.StringKey,
+			codec.CollValue[types.BridgeTokenReference](cdc),
+		),
+		LiquidityPoolApprovedTokensMap: collections.NewMap(
+			sb,
+			types.LiquidityPoolApprovedTokensPrefix,
+			"bridge_trade_approved_tokens",
+			collections.PairKeyCodec(collections.StringKey, collections.StringKey),
+			codec.CollValue[types.BridgeTokenReference](cdc),
+		),
+		WrappedTokenCodeIDItem: collections.NewItem(
+			sb,
+			types.WrappedTokenCodeIDPrefix,
+			"wrapped_token_code_id",
+			collections.Uint64Value,
+		),
+		LiquidityPoolItem: collections.NewItem(
+			sb,
+			types.LiquidityPoolPrefix,
+			"liquidity_pool",
+			codec.CollValue[types.LiquidityPool](cdc),
+		),
+		PoCValidationSnapshots: collections.NewMap(
+			sb,
+			types.PoCValidationSnapshotPrefix,
+			"poc_validation_snapshot",
+			collections.Int64Key,
+			codec.CollValue[types.PoCValidationSnapshot](cdc),
+		),
+		PreservedNodesSnapshotItem: collections.NewItem(
+			sb,
+			types.PreservedNodesSnapshotPrefix,
+			"preserved_nodes_snapshot",
+			codec.CollValue[types.PreservedNodesSnapshot](cdc),
+		),
+		PunishmentGraceEpochs: collections.NewMap(
+			sb,
+			types.PunishmentGraceEpochsPrefix,
+			"punishment_grace_epochs",
+			collections.Uint64Key,
+			codec.CollValue[types.GraceEpochParams](cdc),
+		),
+		ActiveParticipantsSet: collections.NewKeySet(
+			sb,
+			types.ActiveParticipantsCachePrefix,
+			"active_participants_cache",
+			collections.PairKeyCodec(collections.Uint64Key, sdk.AccAddressKey),
+		),
+		// Devshard escrow collections
+		DevshardEscrows: collections.NewMap(
+			sb,
+			types.DevshardEscrowsPrefix,
+			"devshard_escrows",
+			collections.Uint64Key,
+			codec.CollValue[types.DevshardEscrow](cdc),
+		),
+		DevshardEscrowCounter: collections.NewItem(
+			sb,
+			types.DevshardEscrowCounterPrefix,
+			"devshard_escrow_counter",
+			collections.Uint64Value,
+		),
+		DevshardEscrowEpochCount: collections.NewMap(
+			sb,
+			types.DevshardEscrowEpochCountPrefix,
+			"devshard_escrow_epoch_count",
+			collections.Uint64Key,
+			collections.Uint64Value,
+		),
+		DevshardHostEpochStatsMap: collections.NewMap(
+			sb,
+			types.DevshardHostEpochStatsPrefix,
+			"devshard_host_epoch_stats",
+			collections.PairKeyCodec(collections.Uint64Key, sdk.AccAddressKey),
+			codec.CollValue[types.DevshardHostEpochStats](cdc),
+		),
+		DevshardEscrowsByEpoch: collections.NewMap(
+			sb,
+			types.DevshardEscrowsByEpochPrefix,
+			"devshard_escrows_by_epoch",
+			collections.PairKeyCodec(collections.Uint64Key, collections.Uint64Key),
+			collections.NoValue{},
+		),
+		// Maintenance window collections
+		MaintenanceReservations: collections.NewMap(
+			sb,
+			types.MaintenanceReservationsPrefix,
+			"maintenance_reservations",
+			collections.Uint64Key,
+			codec.CollValue[types.MaintenanceReservation](cdc),
+		),
+		MaintenanceReservationCounter: collections.NewItem(
+			sb,
+			types.MaintenanceReservationCounterPrefix,
+			"maintenance_reservation_counter",
+			collections.Uint64Value,
+		),
+		MaintenanceStates: collections.NewMap(
+			sb,
+			types.MaintenanceStatesPrefix,
+			"maintenance_states",
+			sdk.AccAddressKey,
+			codec.CollValue[types.MaintenanceState](cdc),
+		),
+		MaintenanceTransitions: collections.NewMap(
+			sb,
+			types.MaintenanceTransitionsPrefix,
+			"maintenance_transitions",
+			collections.PairKeyCodec(collections.Int64Key, collections.Uint64Key),
+			collections.Uint32Value,
+		),
+		MaintenanceActiveIndex: collections.NewKeySet(
+			sb,
+			types.MaintenanceActiveIndexPrefix,
+			"maintenance_active_index",
+			collections.Uint64Key,
+		),
+		MaintenanceScheduledIndex: collections.NewKeySet(
+			sb,
+			types.MaintenanceScheduledIndexPrefix,
+			"maintenance_scheduled_index",
+			collections.Uint64Key,
+		),
+		// PoC delegation collections
+		PoCDelegations: collections.NewMap(
+			sb,
+			types.PoCDelegationPrefix,
+			"poc_delegation",
+			collections.PairKeyCodec(collections.StringKey, collections.StringKey),
+			codec.CollValue[types.PoCDelegation](cdc),
+		),
+		PoCRefusals: collections.NewKeySet(
+			sb,
+			types.PoCRefusalPrefix,
+			"poc_refusal",
+			collections.PairKeyCodec(collections.StringKey, collections.StringKey),
+		),
+		PoCDirectIntents: collections.NewKeySet(
+			sb,
+			types.PoCDirectIntentPrefix,
+			"poc_direct_intent",
+			collections.PairKeyCodec(collections.StringKey, collections.StringKey),
+		),
+		DelegationSnapshot: collections.NewItem(
+			sb,
+			types.DelegationSnapshotPrefix,
+			"delegation_snapshot",
+			codec.CollValue[types.DelegationSnapshot](cdc),
+		),
+		BootstrapDelegationSnapshot: collections.NewItem(
+			sb,
+			types.BootstrapDelegationSnapshotPrefix,
+			"bootstrap_delegation_snapshot",
+			codec.CollValue[types.BootstrapDelegationSnapshot](cdc),
+		),
+		DelegationRewardTransferSnapshot: collections.NewItem(
+			sb,
+			types.DelegationRewardTransferSnapshotPrefix,
+			"delegation_reward_transfer_snapshot",
+			codec.CollValue[types.DelegationRewardTransferSnapshot](cdc),
+		),
+		ClaimRecipients: collections.NewMap(
+			sb,
+			types.ClaimRecipientsPrefix,
+			"claim_recipients",
+			collections.PairKeyCodec(sdk.AccAddressKey, collections.Uint64Key),
+			collections.StringValue,
+		),
+		ClaimRecipientsByEpoch: collections.NewKeySet(
+			sb,
+			types.ClaimRecipientsByEpochPrefix,
+			"claim_recipients_by_epoch",
+			collections.PairKeyCodec(collections.Uint64Key, sdk.AccAddressKey),
+		),
+	}
+	// Build the collections schema
+	schema, err := sb.Build()
+	if err != nil {
+		//nolint:forbidigo // init code
+		panic(err)
+	}
+	k.Schema = schema
+	return k
+}
+
+// GetAuthority returns the module's authority.
+func (k Keeper) GetAuthority() string {
+	return k.authority
+}
+
+// GetWasmKeeper returns the WASM keeper
+func (k Keeper) GetWasmKeeper() wasmkeeper.Keeper {
+	if k.getWasmKeeper == nil || k.getWasmKeeper.fn == nil {
+		return wasmkeeper.Keeper{}
+	}
+	return k.getWasmKeeper.fn()
+}
+
+// SetWasmKeeperGetter updates the shared WASM keeper getter. Keeper values are
+// copied into AppModule/msgServer during app wiring, so the getter itself must
+// be shared for post-legacy-module initialization updates to reach those copies.
+func (k Keeper) SetWasmKeeperGetter(getWasmKeeper func() wasmkeeper.Keeper) {
+	if k.getWasmKeeper == nil {
+		k.getWasmKeeper = &wasmKeeperGetter{}
+	}
+	k.getWasmKeeper.fn = getWasmKeeper
+}
+
+// GetCollateralKeeper returns the collateral keeper.
+func (k Keeper) GetCollateralKeeper() types.CollateralKeeper {
+	return k.collateralKeeper
+}
+
+// GetStreamVestingKeeper returns the streamvesting keeper.
+func (k Keeper) GetStreamVestingKeeper() types.StreamVestingKeeper {
+	return k.streamvestingKeeper
+}
+
+// Logger returns a module-specific logger.
+func (k Keeper) Logger() log.Logger {
+	return k.logger.With("module", fmt.Sprintf("x/%s", types.ModuleName))
+}
+
+func (k Keeper) LogInfo(msg string, subSystem types.SubSystem, keyvals ...interface{}) {
+	k.Logger().Info(msg, append(keyvals, "subsystem", subSystem.String())...)
+}
+
+func (k Keeper) LogError(msg string, subSystem types.SubSystem, keyvals ...interface{}) {
+	k.Logger().Error(msg, append(keyvals, "subsystem", subSystem.String())...)
+}
+
+func (k Keeper) LogWarn(msg string, subSystem types.SubSystem, keyvals ...interface{}) {
+	k.Logger().Warn(msg, append(keyvals, "subsystem", subSystem.String())...)
+}
+
+func (k Keeper) LogDebug(msg string, subSystem types.SubSystem, keyVals ...interface{}) {
+	k.Logger().Debug(msg, append(keyVals, "subsystem", subSystem.String())...)
+}
+
+// Codec returns the binary codec used by the keeper.
+func (k Keeper) Codec() codec.BinaryCodec {
+	return k.cdc
+}
+
+type EntryType int
+
+const (
+	Debit EntryType = iota
+	Credit
+)
+
+func (e EntryType) String() string {
+	switch e {
+	case Debit:
+		return "debit"
+	case Credit:
+		return "credit"
+	default:
+		return "unknown"
+	}
+}

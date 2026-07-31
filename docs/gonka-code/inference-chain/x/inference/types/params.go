@@ -1,0 +1,1518 @@
+package types
+
+import (
+	"encoding/hex"
+	"fmt"
+	"math"
+
+	sdkmath "cosmossdk.io/math"
+	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
+	"github.com/pkg/errors"
+	"github.com/shopspring/decimal"
+)
+
+var (
+	KeySlashFractionInvalid              = []byte("SlashFractionInvalid")
+	KeySlashFractionDowntime             = []byte("SlashFractionDowntime")
+	KeyDowntimeMissedPercentageThreshold = []byte("DowntimeMissedPercentageThreshold")
+	KeyGracePeriodEndEpoch               = []byte("GracePeriodEndEpoch")
+	KeyBaseWeightRatio                   = []byte("BaseWeightRatio")
+	KeyCollateralPerWeightUnit           = []byte("CollateralPerWeightUnit")
+	// Vesting parameter keys for TokenomicsParams
+	KeyWorkVestingPeriod   = []byte("WorkVestingPeriod")
+	KeyRewardVestingPeriod = []byte("RewardVestingPeriod")
+	// Bitcoin reward parameter keys
+	KeyUseBitcoinRewards          = []byte("UseBitcoinRewards")
+	KeyInitialEpochReward         = []byte("InitialEpochReward")
+	KeyDecayRate                  = []byte("DecayRate")
+	KeyGenesisEpoch               = []byte("GenesisEpoch")
+	KeyUtilizationBonusFactor     = []byte("UtilizationBonusFactor")
+	KeyFullCoverageBonusFactor    = []byte("FullCoverageBonusFactor")
+	KeyPartialCoverageBonusFactor = []byte("PartialCoverageBonusFactor")
+	// Dynamic pricing parameter keys
+	KeyStabilityZoneLowerBound   = []byte("StabilityZoneLowerBound")
+	KeyStabilityZoneUpperBound   = []byte("StabilityZoneUpperBound")
+	KeyPriceElasticity           = []byte("PriceElasticity")
+	KeyUtilizationWindowDuration = []byte("UtilizationWindowDuration")
+	KeyMinPerTokenPrice          = []byte("MinPerTokenPrice")
+	KeyBasePerTokenPrice         = []byte("BasePerTokenPrice")
+	KeyGracePeriodEndEpochDP     = []byte("GracePeriodEndEpochDP")
+	KeyGracePeriodPerTokenPrice  = []byte("GracePeriodPerTokenPrice")
+)
+
+var _ paramtypes.ParamSet = (*Params)(nil)
+
+// ParamKeyTable the param key table for inference module
+func ParamKeyTable() paramtypes.KeyTable {
+	return paramtypes.NewKeyTable().RegisterParamSet(&Params{})
+}
+
+// NewParams creates a new Params instance
+func NewParams() Params {
+	return Params{}
+}
+
+const (
+	million = 1_000_000
+	billion = 1_000_000_000
+	year    = 365 * 24 * 60 * 60
+
+	DynamicPricingEstimatedBlockSeconds = uint64(5)
+	MaxRollingWindowBlocks              = uint64(500)
+)
+
+func UtilizationWindowToBlocks(utilizationWindowSeconds uint64) uint64 {
+	return SecondsToBlocks(utilizationWindowSeconds)
+}
+
+func InvalidationsSamplePeriodToBlocks(invalidationsSamplePeriodSeconds uint64) uint64 {
+	return SecondsToBlocks(invalidationsSamplePeriodSeconds)
+}
+
+func SecondsToBlocks(windowSeconds uint64) uint64 {
+	windowBlocks := windowSeconds / DynamicPricingEstimatedBlockSeconds
+	if windowBlocks == 0 {
+		return 1
+	}
+	return windowBlocks
+}
+
+func WindowBlocksToSize(windowBlocks uint64) int64 {
+	if windowBlocks == 0 {
+		return 1
+	}
+	if windowBlocks > uint64(math.MaxInt64) {
+		return math.MaxInt64
+	}
+	return int64(windowBlocks)
+}
+
+const (
+	LogprobsModeProcessed = "processed_logprobs"
+	LogprobsModeRaw       = "raw_logprobs"
+	DefaultLogprobsMode   = LogprobsModeProcessed
+
+	DefaultPocValidationVoteThresholdBps uint32 = 5000
+)
+
+const (
+	DefaultDevshardEscrowMinAmount     uint64 = 5_000_000_000
+	DefaultDevshardEscrowMaxAmount     uint64 = 10_000_000_000
+	DefaultDevshardMaxEscrowsPerEpoch  uint32 = 100
+	DefaultDevshardGroupSize           uint32 = 16
+	DefaultDevshardTokenPrice          uint64 = 1
+	DefaultDevshardMaxNonce            uint32 = 20_000
+	DefaultDevshardRequestsEnabled     bool   = true
+	DefaultDevshardCreateDevshardFee   uint64 = 10_000
+	DefaultDevshardFeePerNonce         uint64 = 1_000
+	DefaultDevshardRefusalTimeout      int64  = 60
+	DefaultDevshardExecutionTimeout    int64  = 32 * 60
+	DefaultDevshardValidationRate      uint32 = 1000
+	DefaultDevshardVoteThresholdFactor uint32 = 50
+
+	DefaultMaintenanceEnabled                         = false
+	DefaultMaintenanceMinScheduleLeadBlocks    uint64 = 100
+	DefaultMaintenanceMaxWindowBlocks          uint64 = 200
+	DefaultMaintenanceMaxConcurrentValidators  uint32 = 3
+	DefaultMaintenanceMaxConcurrentPowerBps    uint32 = 1000 // 10% in basis points
+	DefaultMaintenanceCreditCapBlocks          uint64 = 400
+	DefaultMaintenanceCreditEarnPerEpochBlocks uint64 = 20
+)
+
+// DefaultSealGraceMultiplier is the multiplier used to compute the default seal grace nonces.
+const DefaultSealGraceMultiplier uint32 = 10
+
+// DevshardSealGraceFloor is the floor applied when computing the chain-wide
+// default seal grace. Mirrors devshard/types.minInferenceSealGraceNonces so the two
+// layers agree without an import dependency.
+const DevshardSealGraceFloor uint32 = 20
+
+// DefaultDevshardInferenceSealGraceSeconds is the default wall-clock grace
+// before sealing stale-finished or post-terminal inferences (1 hour). Mirrors
+// devshard/types.DefaultInferenceSealGraceSeconds.
+const DefaultDevshardInferenceSealGraceSeconds uint32 = 3600
+
+// DefaultDevshardAutoSealEveryNNonces is how often the gateway runs auto-seal
+// during Active phase. Mirrors devshard/types.DefaultAutoSealEveryNNonces.
+const DefaultDevshardAutoSealEveryNNonces uint32 = 150
+
+// DefaultDevshardInferenceSealGraceNonces returns the canonical default seal grace
+// nonces value derived from the configured group size. This mirrors
+// devshard/types.DefaultInferenceSealGraceNonces (10 * groupSize, floor 20). It is
+// used at genesis to seed DevshardEscrowParams.DefaultInferenceSealGraceNonces.
+func DefaultDevshardInferenceSealGraceNonces(groupSize uint32) uint32 {
+	grace := groupSize * DefaultSealGraceMultiplier
+	if grace < DevshardSealGraceFloor {
+		grace = DevshardSealGraceFloor
+	}
+	return grace
+}
+
+func DefaultGenesisOnlyParams() GenesisOnlyParams {
+	return GenesisOnlyParams{
+		TotalSupply:                             1_000 * million * billion,
+		OriginatorSupply:                        160 * million * billion,
+		PreProgrammedSaleAmount:                 120 * million * billion,
+		SupplyDenom:                             BaseCoin,
+		StandardRewardAmount:                    600 * million * billion,
+		MaxIndividualPowerPercentage:            DecimalFromFloat(0.25),
+		GenesisGuardianEnabled:                  true, // Enable genesis guardian system by default
+		GenesisGuardianNetworkMaturityThreshold: 2_000_000,
+		GenesisGuardianMultiplier:               DecimalFromFloat(0.52),
+		GenesisGuardianAddresses:                []string{}, // Empty by default - must be set in genesis file
+	}
+}
+
+// DefaultParams returns a default set of parameters
+func DefaultParams() Params {
+	return Params{
+		EpochParams:           DefaultEpochParams(),
+		ValidationParams:      DefaultValidationParams(),
+		PocParams:             DefaultPocParams(),
+		ConfirmationPocParams: DefaultConfirmationPoCParams(),
+		TokenomicsParams:      DefaultTokenomicsParams(),
+		CollateralParams:      DefaultCollateralParams(),
+		BitcoinRewardParams:   DefaultBitcoinRewardParams(),
+		DynamicPricingParams:  DefaultDynamicPricingParams(),
+		BandwidthLimitsParams: &BandwidthLimitsParams{
+			InvalidationsSamplePeriod:      120,
+			InvalidationsLimit:             500,
+			InvalidationsLimitCurve:        250,
+			MinimumConcurrentInvalidations: 1,
+			MaxInferencesPerBlock:          1000,
+			EstimatedLimitsPerBlockKb:      10752,
+			KbPerInputToken:                DecimalFromFloat(0.0023),
+			KbPerOutputToken:               DecimalFromFloat(0.64),
+		},
+		GenesisGuardianParams: &GenesisGuardianParams{
+			NetworkMaturityThreshold: 2_000_000,
+			NetworkMaturityMinHeight: 0,
+			// Note: proto encoding does not preserve empty-vs-nil for repeated fields; keep nil to match round-trips.
+			GuardianAddresses: nil,
+		},
+		DeveloperAccessParams: &DeveloperAccessParams{
+			UntilBlockHeight: 0, // disabled by default
+			// Note: proto encoding does not preserve empty-vs-nil for repeated fields; keep nil to match round-trips.
+			AllowedDeveloperAddresses: nil,
+		},
+		ParticipantAccessParams: &ParticipantAccessParams{
+			NewParticipantRegistrationStartHeight: 0,     // disabled by default
+			BlockedParticipantAddresses:           nil,   // keep nil to match proto round-trips
+			UseParticipantAllowlist:               false, // disabled by default
+			ParticipantAllowlistUntilBlockHeight:  0,     // no cutoff
+		},
+		TransferAgentAccessParams: &TransferAgentAccessParams{
+			// Note: proto encoding does not preserve empty-vs-nil for repeated fields; keep nil to match round-trips.
+			AllowedTransferAddresses: nil, // nil = no restriction, all TAs allowed
+		},
+		DevshardEscrowParams: DefaultDevshardEscrowParams(),
+		MaintenanceParams:    DefaultMaintenanceParams(),
+		DelegationParams:     DefaultDelegationParams(),
+	}
+}
+
+func DefaultEpochParams() *EpochParams {
+	return &EpochParams{
+		EpochLength:                    40,
+		EpochMultiplier:                1,
+		EpochShift:                     0,
+		DefaultUnitOfComputePrice:      100,
+		PocStageDuration:               10,
+		PocExchangeDuration:            2,
+		PocValidationDelay:             2,
+		PocValidationDuration:          6,
+		SetNewValidatorsDelay:          1,
+		InferenceValidationCutoff:      0,
+		InferencePruningEpochThreshold: 2, // Number of epochs after which inferences can be pruned
+		ConfirmationPocSafetyWindow:    50,
+		PocSlotAllocation: &Decimal{ // Default 0.5 (50%) fraction of nodes allocated to PoC slots
+			Value:    5,
+			Exponent: -1,
+		},
+	}
+}
+
+func DefaultValidationParams() *ValidationParams {
+	return &ValidationParams{
+		FalsePositiveRate:              DecimalFromFloat(0.05),
+		MinRampUpMeasurements:          10,
+		PassValue:                      DecimalFromFloat(0.99),
+		MinValidationAverage:           DecimalFromFloat(0.01),
+		MaxValidationAverage:           DecimalFromFloat(1.0),
+		ExpirationBlocks:               20,
+		EpochsToMax:                    30,
+		FullValidationTrafficCutoff:    10000,
+		MinValidationHalfway:           DecimalFromFloat(0.05),
+		MinValidationTrafficCutoff:     100,
+		MissPercentageCutoff:           DecimalFromFloat(0.01),
+		MissRequestsPenalty:            DecimalFromFloat(1.0),
+		TimestampExpiration:            60,
+		TimestampAdvance:               30,
+		BadParticipantInvalidationRate: DecimalFromFloat(0.20),
+		InvalidationHThreshold:         DecimalFromFloat(4),
+		InvalidReputationPreserve:      DecimalFromFloat(0.0),
+		DowntimeBadPercentage:          DecimalFromFloat(0.20),
+		DowntimeGoodPercentage:         DecimalFromFloat(0.1),
+		DowntimeHThreshold:             DecimalFromFloat(4),
+		DowntimeReputationPreserve:     DecimalFromFloat(0.0),
+		QuickFailureThreshold:          DecimalFromFloat(0.000001),
+		BinomTestP0:                    DecimalFromFloat(0.10),
+		ClaimValidationEnabled:         false,
+		LogprobsMode:                   DefaultLogprobsMode,
+	}
+}
+
+func DefaultPocParams() *PocParams {
+	return &PocParams{
+		DefaultDifficulty:            5,
+		ValidationSampleSize:         200,
+		PocDataPruningEpochThreshold: 1,
+		WeightScaleFactor:            DecimalFromFloat(1.0),
+		ModelParams:                  DefaultPoCModelParams(), // Deprecated, kept for backward compatibility
+		ModelId:                      "",                      // Model identifier for PoC
+		SeqLen:                       256,                     // Sequence length for PoC
+		StatTest:                     DefaultPoCStatTestParams(),
+		Models:                       []*PoCModelConfig{DefaultPoCModelConfig()},
+		ValidationVoteThresholdBps:   DefaultPocValidationVoteThresholdBps,
+	}
+}
+
+func DefaultPoCStatTestParams() *PoCStatTestParams {
+	return &PoCStatTestParams{
+		DistThreshold:   DecimalFromFloat(0.4),
+		PMismatch:       DecimalFromFloat(0.1),
+		PValueThreshold: DecimalFromFloat(0.05),
+	}
+}
+
+func DefaultPoCModelConfig() *PoCModelConfig {
+	return &PoCModelConfig{
+		ModelId:           "",
+		SeqLen:            256,
+		StatTest:          DefaultPoCStatTestParams(),
+		WeightScaleFactor: DecimalFromFloat(1.0),
+		PenaltyStartEpoch: 0,
+	}
+}
+
+func DefaultPoCModelParams() *PoCModelParams {
+	return &PoCModelParams{
+		Dim:              1792,
+		NLayers:          64,
+		NHeads:           64,
+		NKvHeads:         64,
+		VocabSize:        8196,
+		FfnDimMultiplier: DecimalFromFloat(10.0),
+		MultipleOf:       4 * 2048,
+		NormEps:          DecimalFromFloat(1e-5),
+		RopeTheta:        10000,
+		UseScaledRope:    false,
+		SeqLen:           256,
+		RTarget:          DecimalFromFloat(1.398077),
+	}
+}
+
+func DefaultConfirmationPoCParams() *ConfirmationPoCParams {
+	return &ConfirmationPoCParams{
+		ExpectedConfirmationsPerEpoch: 0,                     // Feature disabled by default
+		AlphaThreshold:                DecimalFromFloat(0.0), // 70% minimum ratio
+		SlashFraction:                 DecimalFromFloat(0.0), // 10% slash
+		UpgradeProtectionWindow:       500,                   // 500 blocks before/after upgrade
+	}
+}
+
+func DefaultTokenomicsParams() *TokenomicsParams {
+	return &TokenomicsParams{
+		SubsidyReductionInterval: DecimalFromFloat(0.05),
+		SubsidyReductionAmount:   DecimalFromFloat(0.20),
+		CurrentSubsidyPercentage: DecimalFromFloat(0.90),
+		WorkVestingPeriod:        0, // Default: no vesting (production: 180, E2E tests: 2)
+		RewardVestingPeriod:      0, // Default: no vesting (production: 180, E2E tests: 2)
+	}
+}
+
+func DefaultCollateralParams() *CollateralParams {
+	return &CollateralParams{
+		SlashFractionInvalid:              DecimalFromFloat(0.20),
+		SlashFractionDowntime:             DecimalFromFloat(0.10),
+		DowntimeMissedPercentageThreshold: DecimalFromFloat(0.05),
+		GracePeriodEndEpoch:               180,
+		BaseWeightRatio:                   DecimalFromFloat(0.2),
+		CollateralPerWeightUnit:           DecimalFromFloat(1),
+	}
+}
+
+func DefaultBitcoinRewardParams() *BitcoinRewardParams {
+	return &BitcoinRewardParams{
+		UseBitcoinRewards:          true,
+		InitialEpochReward:         285000000000000,             // 285,000 gonka coins per epoch (285,000 * 1,000,000,000 ngonka)
+		DecayRate:                  DecimalFromFloat(-0.000475), // Exponential decay rate per epoch
+		GenesisEpoch:               1,                           // Starting epoch for Bitcoin-style calculations (since epoch 0 is skipped)
+		UtilizationBonusFactor:     DecimalFromFloat(0.5),       // Multiplier for utilization bonuses (Phase 2)
+		FullCoverageBonusFactor:    DecimalFromFloat(1.2),       // 20% bonus for complete model coverage (Phase 2)
+		PartialCoverageBonusFactor: DecimalFromFloat(0.1),       // Scaling factor for partial coverage (Phase 2)
+	}
+}
+
+func DefaultDynamicPricingParams() *DynamicPricingParams {
+	return &DynamicPricingParams{
+		StabilityZoneLowerBound:   DecimalFromFloat(0.40), // Lower bound of stability zone (40%)
+		StabilityZoneUpperBound:   DecimalFromFloat(0.60), // Upper bound of stability zone (60%)
+		PriceElasticity:           DecimalFromFloat(0.05), // Price elasticity factor (5% max change)
+		UtilizationWindowDuration: 60,                     // Utilization calculation window (60 seconds)
+		MinPerTokenPrice:          1,                      // Minimum per-token price floor (1 ngonka)
+		BasePerTokenPrice:         100,                    // Initial per-token price after grace period (100 ngonka)
+		GracePeriodEndEpoch:       90,                     // Grace period ends at epoch 90
+		GracePeriodPerTokenPrice:  0,                      // Free inference during grace period (0 ngonka)
+	}
+}
+
+func DefaultDevshardEscrowParams() *DevshardEscrowParams {
+	return &DevshardEscrowParams{
+		MinAmount:                        DefaultDevshardEscrowMinAmount,
+		MaxAmount:                        DefaultDevshardEscrowMaxAmount,
+		MaxEscrowsPerEpoch:               DefaultDevshardMaxEscrowsPerEpoch,
+		GroupSize:                        DefaultDevshardGroupSize,
+		AllowedCreatorAddresses:          nil,
+		TokenPrice:                       DefaultDevshardTokenPrice,
+		MaxNonce:                         DefaultDevshardMaxNonce,
+		DevshardRequestsEnabled:          DefaultDevshardRequestsEnabled,
+		DefaultInferenceSealGraceNonces:  DefaultDevshardInferenceSealGraceNonces(DefaultDevshardGroupSize),
+		DefaultInferenceSealGraceSeconds: DefaultDevshardInferenceSealGraceSeconds,
+		DefaultAutoSealEveryNNonces:      DefaultDevshardAutoSealEveryNNonces,
+		CreateDevshardFee:                DefaultDevshardCreateDevshardFee,
+		FeePerNonce:                      DefaultDevshardFeePerNonce,
+		RefusalTimeout:                   DefaultDevshardRefusalTimeout,
+		ExecutionTimeout:                 DefaultDevshardExecutionTimeout,
+		ValidationRate:                   DefaultDevshardValidationRate,
+		VoteThresholdFactor:              DefaultDevshardVoteThresholdFactor,
+	}
+}
+
+func DefaultMaintenanceParams() *MaintenanceParams {
+	return &MaintenanceParams{
+		MaintenanceEnabled:                            DefaultMaintenanceEnabled,
+		MaintenanceMinScheduleLeadBlocks:              DefaultMaintenanceMinScheduleLeadBlocks,
+		MaintenanceMaxWindowBlocks:                    DefaultMaintenanceMaxWindowBlocks,
+		MaintenanceMaxConcurrentValidators:            DefaultMaintenanceMaxConcurrentValidators,
+		MaintenanceMaxConcurrentPowerBps:              DefaultMaintenanceMaxConcurrentPowerBps,
+		MaintenanceCreditCapBlocks:                    DefaultMaintenanceCreditCapBlocks,
+		MaintenanceCreditEarnPerSuccessfulEpochBlocks: DefaultMaintenanceCreditEarnPerEpochBlocks,
+	}
+}
+
+// maxMaintenanceBlocksParam bounds every governance-controlled *Blocks field.
+// Set well below math.MaxInt64 so any addition of two such values, or any
+// cast from uint64 to int64, cannot wrap. Concretely: at 5-second blocks,
+// 1e15 blocks is ~158 million years — far beyond any realistic governance
+// configuration, while still safe for arithmetic in callers like
+// msg_server_schedule_maintenance.go (blockHeight + lead) and
+// GrantMaintenanceCredit (CreditBlocks += earn).
+const maxMaintenanceBlocksParam = uint64(1e15)
+
+func (p *MaintenanceParams) Validate() error {
+	if p == nil {
+		return nil
+	}
+	if p.MaintenanceMaxWindowBlocks == 0 {
+		return fmt.Errorf("maintenance max window blocks must be positive")
+	}
+	if p.MaintenanceMaxWindowBlocks > maxMaintenanceBlocksParam {
+		return fmt.Errorf("maintenance max window blocks (%d) exceeds safe upper bound %d", p.MaintenanceMaxWindowBlocks, maxMaintenanceBlocksParam)
+	}
+	if p.MaintenanceMinScheduleLeadBlocks > maxMaintenanceBlocksParam {
+		return fmt.Errorf("maintenance min schedule lead blocks (%d) exceeds safe upper bound %d", p.MaintenanceMinScheduleLeadBlocks, maxMaintenanceBlocksParam)
+	}
+	if p.MaintenanceCreditCapBlocks == 0 {
+		return fmt.Errorf("maintenance credit cap blocks must be positive")
+	}
+	if p.MaintenanceCreditCapBlocks > maxMaintenanceBlocksParam {
+		return fmt.Errorf("maintenance credit cap blocks (%d) exceeds safe upper bound %d", p.MaintenanceCreditCapBlocks, maxMaintenanceBlocksParam)
+	}
+	if p.MaintenanceMaxConcurrentValidators == 0 {
+		return fmt.Errorf("maintenance max concurrent validators must be positive")
+	}
+	if p.MaintenanceMaxConcurrentPowerBps > 10000 {
+		return fmt.Errorf("maintenance max concurrent power bps cannot exceed 10000")
+	}
+	// Zero credit-earn silently disables credit accrual: maintenance can be
+	// scheduled exactly once (with whatever credit the participant was seeded
+	// with) and never replenishes. That is a valid governance state but a
+	// confusing one to land on by accident, so reject it here. To intentionally
+	// disable maintenance, set MaintenanceEnabled = false instead.
+	if p.MaintenanceCreditEarnPerSuccessfulEpochBlocks == 0 {
+		return fmt.Errorf("maintenance credit earn per successful epoch blocks must be positive (set maintenance_enabled=false to disable maintenance windows)")
+	}
+	if p.MaintenanceCreditEarnPerSuccessfulEpochBlocks > p.MaintenanceCreditCapBlocks {
+		return fmt.Errorf("maintenance credit earn per successful epoch blocks (%d) must not exceed credit cap (%d)", p.MaintenanceCreditEarnPerSuccessfulEpochBlocks, p.MaintenanceCreditCapBlocks)
+	}
+	return nil
+}
+
+func (p *DevshardEscrowParams) Validate() error {
+	if p.MinAmount == 0 {
+		return fmt.Errorf("devshard escrow min_amount must be positive")
+	}
+	if p.MaxAmount < p.MinAmount {
+		return fmt.Errorf("devshard escrow max_amount (%d) must be >= min_amount (%d)", p.MaxAmount, p.MinAmount)
+	}
+	if p.GroupSize == 0 {
+		return fmt.Errorf("devshard escrow group_size must be positive")
+	}
+	if p.MaxNonce == 0 {
+		return fmt.Errorf("devshard escrow max_nonce must be positive")
+	}
+	seen := make(map[string]struct{}, len(p.ApprovedVersions))
+	for i, v := range p.ApprovedVersions {
+		if v.Name == "" {
+			return fmt.Errorf("devshard_escrow_params.approved_versions[%d]: name cannot be empty", i)
+		}
+		if v.Binary == "" {
+			return fmt.Errorf("devshard_escrow_params.approved_versions[%d]: binary cannot be empty", i)
+		}
+		if v.Sha256 == "" {
+			return fmt.Errorf("devshard_escrow_params.approved_versions[%d]: sha256 cannot be empty", i)
+		}
+		if len(v.Sha256) != 64 {
+			return fmt.Errorf("devshard_escrow_params.approved_versions[%d]: sha256 must be 64 hex characters, got %d", i, len(v.Sha256))
+		}
+		if _, err := hex.DecodeString(v.Sha256); err != nil {
+			return fmt.Errorf("devshard_escrow_params.approved_versions[%d]: sha256 is not valid hex: %w", i, err)
+		}
+		if _, dup := seen[v.Name]; dup {
+			return fmt.Errorf("devshard_escrow_params.approved_versions: duplicate name %q", v.Name)
+		}
+		seen[v.Name] = struct{}{}
+	}
+	if p.RefusalTimeout <= 0 {
+		return fmt.Errorf("devshard escrow refusal_timeout must be positive")
+	}
+	if p.ExecutionTimeout <= 0 {
+		return fmt.Errorf("devshard escrow execution_timeout must be positive")
+	}
+	if p.ValidationRate > 10000 {
+		return fmt.Errorf("devshard escrow validation_rate (%d) must be <= 10000 basis points", p.ValidationRate)
+	}
+	if p.VoteThresholdFactor == 0 || p.VoteThresholdFactor > 100 {
+		return fmt.Errorf("devshard escrow vote_threshold_factor (%d) must be in (0, 100]", p.VoteThresholdFactor)
+	}
+	return nil
+}
+
+func DefaultDelegationParams() *DelegationParams {
+	return &DelegationParams{
+		DeployWindow:           1,
+		RefusalPenalty:         DecimalFromFloat(0.1),
+		NoParticipationPenalty: DecimalFromFloat(0.25),
+		DelegationShare:        DecimalFromFloat(0.1),
+		WThreshold:             DecimalFromFloat(0.3),
+		VMin:                   3,
+		CapFactor:              DecimalFromFloat(0.5),
+		InitialModelId:         "",
+		// Per-model voting-power concentration cap is OFF by default.
+		// Governance must set a concrete value via MsgUpdateParams after
+		// observing real network concentration. Zero disables the cap; see
+		// computeAndSetVotingPowers for enforcement semantics.
+		MaxModelVotingPowerPercentage: DecimalFromFloat(0),
+	}
+}
+
+// validateDecimalFraction checks that a Decimal is in [0, 1]. Nil is allowed (treated as 0).
+func validateDecimalFraction(d *Decimal, name string) error {
+	if d == nil || (d.Value == 0 && d.Exponent == 0) {
+		return nil
+	}
+	if err := d.Validate(); err != nil {
+		return fmt.Errorf("%s: %w", name, err)
+	}
+	dec, err := d.ToLegacyDec()
+	if err != nil {
+		return fmt.Errorf("%s: invalid decimal: %w", name, err)
+	}
+	if dec.IsNegative() || dec.GT(sdkmath.LegacyOneDec()) {
+		return fmt.Errorf("%s must be between 0 and 1, got %s", name, dec.String())
+	}
+	return nil
+}
+
+func validateParamDecimalExponents(p Params) error {
+	check := func(name string, value *Decimal) error {
+		if err := value.Validate(); err != nil {
+			return fmt.Errorf("%s: %w", name, err)
+		}
+		return nil
+	}
+
+	fields := []struct {
+		name  string
+		value *Decimal
+	}{
+		{"epoch_params.poc_slot_allocation", p.EpochParams.GetPocSlotAllocation()},
+		{"tokenomics_params.subsidy_reduction_interval", p.TokenomicsParams.GetSubsidyReductionInterval()},
+		{"tokenomics_params.subsidy_reduction_amount", p.TokenomicsParams.GetSubsidyReductionAmount()},
+		{"tokenomics_params.current_subsidy_percentage", p.TokenomicsParams.GetCurrentSubsidyPercentage()},
+		{"validation_params.false_positive_rate", p.ValidationParams.GetFalsePositiveRate()},
+		{"validation_params.pass_value", p.ValidationParams.GetPassValue()},
+		{"validation_params.min_validation_average", p.ValidationParams.GetMinValidationAverage()},
+		{"validation_params.max_validation_average", p.ValidationParams.GetMaxValidationAverage()},
+		{"validation_params.min_validation_halfway", p.ValidationParams.GetMinValidationHalfway()},
+		{"validation_params.miss_percentage_cutoff", p.ValidationParams.GetMissPercentageCutoff()},
+		{"validation_params.miss_requests_penalty", p.ValidationParams.GetMissRequestsPenalty()},
+		{"validation_params.invalid_reputation_preserve", p.ValidationParams.GetInvalidReputationPreserve()},
+		{"validation_params.bad_participant_invalidation_rate", p.ValidationParams.GetBadParticipantInvalidationRate()},
+		{"validation_params.invalidation_h_threshold", p.ValidationParams.GetInvalidationHThreshold()},
+		{"validation_params.downtime_good_percentage", p.ValidationParams.GetDowntimeGoodPercentage()},
+		{"validation_params.downtime_bad_percentage", p.ValidationParams.GetDowntimeBadPercentage()},
+		{"validation_params.downtime_h_threshold", p.ValidationParams.GetDowntimeHThreshold()},
+		{"validation_params.downtime_reputation_preserve", p.ValidationParams.GetDowntimeReputationPreserve()},
+		{"validation_params.quick_failure_threshold", p.ValidationParams.GetQuickFailureThreshold()},
+		{"validation_params.binom_test_p0", p.ValidationParams.GetBinomTestP0()},
+		{"poc_params.weight_scale_factor", p.PocParams.GetWeightScaleFactor()},
+		{"poc_params.model_params.ffn_dim_multiplier", p.PocParams.GetModelParams().GetFfnDimMultiplier()},
+		{"poc_params.model_params.norm_eps", p.PocParams.GetModelParams().GetNormEps()},
+		{"poc_params.model_params.r_target", p.PocParams.GetModelParams().GetRTarget()},
+		{"poc_params.stat_test.dist_threshold", p.PocParams.GetStatTest().GetDistThreshold()},
+		{"poc_params.stat_test.p_mismatch", p.PocParams.GetStatTest().GetPMismatch()},
+		{"poc_params.stat_test.p_value_threshold", p.PocParams.GetStatTest().GetPValueThreshold()},
+		{"confirmation_poc_params.alpha_threshold", p.ConfirmationPocParams.GetAlphaThreshold()},
+		{"confirmation_poc_params.slash_fraction", p.ConfirmationPocParams.GetSlashFraction()},
+		{"collateral_params.slash_fraction_invalid", p.CollateralParams.GetSlashFractionInvalid()},
+		{"collateral_params.slash_fraction_downtime", p.CollateralParams.GetSlashFractionDowntime()},
+		{"collateral_params.downtime_missed_percentage_threshold", p.CollateralParams.GetDowntimeMissedPercentageThreshold()},
+		{"collateral_params.base_weight_ratio", p.CollateralParams.GetBaseWeightRatio()},
+		{"collateral_params.collateral_per_weight_unit", p.CollateralParams.GetCollateralPerWeightUnit()},
+		{"bitcoin_reward_params.decay_rate", p.BitcoinRewardParams.GetDecayRate()},
+		{"bitcoin_reward_params.utilization_bonus_factor", p.BitcoinRewardParams.GetUtilizationBonusFactor()},
+		{"bitcoin_reward_params.full_coverage_bonus_factor", p.BitcoinRewardParams.GetFullCoverageBonusFactor()},
+		{"bitcoin_reward_params.partial_coverage_bonus_factor", p.BitcoinRewardParams.GetPartialCoverageBonusFactor()},
+		{"dynamic_pricing_params.stability_zone_lower_bound", p.DynamicPricingParams.GetStabilityZoneLowerBound()},
+		{"dynamic_pricing_params.stability_zone_upper_bound", p.DynamicPricingParams.GetStabilityZoneUpperBound()},
+		{"dynamic_pricing_params.price_elasticity", p.DynamicPricingParams.GetPriceElasticity()},
+		{"bandwidth_limits_params.kb_per_input_token", p.BandwidthLimitsParams.GetKbPerInputToken()},
+		{"bandwidth_limits_params.kb_per_output_token", p.BandwidthLimitsParams.GetKbPerOutputToken()},
+		{"delegation_params.refusal_penalty", p.DelegationParams.GetRefusalPenalty()},
+		{"delegation_params.no_participation_penalty", p.DelegationParams.GetNoParticipationPenalty()},
+		{"delegation_params.delegation_share", p.DelegationParams.GetDelegationShare()},
+		{"delegation_params.w_threshold", p.DelegationParams.GetWThreshold()},
+		{"delegation_params.cap_factor", p.DelegationParams.GetCapFactor()},
+		{"delegation_params.max_model_voting_power_percentage", p.DelegationParams.GetMaxModelVotingPowerPercentage()},
+	}
+	for _, field := range fields {
+		if err := check(field.name, field.value); err != nil {
+			return err
+		}
+	}
+	for i, model := range p.PocParams.GetModels() {
+		if model == nil {
+			continue
+		}
+		modelFields := []struct {
+			name  string
+			value *Decimal
+		}{
+			{fmt.Sprintf("poc_params.models[%d].weight_scale_factor", i), model.GetWeightScaleFactor()},
+			{fmt.Sprintf("poc_params.models[%d].stat_test.dist_threshold", i), model.GetStatTest().GetDistThreshold()},
+			{fmt.Sprintf("poc_params.models[%d].stat_test.p_mismatch", i), model.GetStatTest().GetPMismatch()},
+			{fmt.Sprintf("poc_params.models[%d].stat_test.p_value_threshold", i), model.GetStatTest().GetPValueThreshold()},
+		}
+		for _, field := range modelFields {
+			if err := check(field.name, field.value); err != nil {
+				return err
+			}
+		}
+	}
+	return nil
+}
+
+func (p *Params) ParamSetPairs() paramtypes.ParamSetPairs {
+	return paramtypes.ParamSetPairs{}
+}
+
+// ParamSetPairs gets the params for the slashing section
+func (p *CollateralParams) ParamSetPairs() paramtypes.ParamSetPairs {
+	return paramtypes.ParamSetPairs{
+		paramtypes.NewParamSetPair(KeySlashFractionInvalid, &p.SlashFractionInvalid, validateSlashFraction),
+		paramtypes.NewParamSetPair(KeySlashFractionDowntime, &p.SlashFractionDowntime, validateSlashFraction),
+		paramtypes.NewParamSetPair(KeyDowntimeMissedPercentageThreshold, &p.DowntimeMissedPercentageThreshold, validatePercentage),
+		paramtypes.NewParamSetPair(KeyGracePeriodEndEpoch, &p.GracePeriodEndEpoch, validateEpoch),
+		paramtypes.NewParamSetPair(KeyBaseWeightRatio, &p.BaseWeightRatio, validateBaseWeightRatio),
+		paramtypes.NewParamSetPair(KeyCollateralPerWeightUnit, &p.CollateralPerWeightUnit, validateCollateralPerWeightUnit),
+	}
+}
+
+// ParamSetPairs gets the params for the tokenomics vesting parameters
+func (p *TokenomicsParams) ParamSetPairs() paramtypes.ParamSetPairs {
+	return paramtypes.ParamSetPairs{
+		paramtypes.NewParamSetPair(KeyWorkVestingPeriod, &p.WorkVestingPeriod, validateVestingPeriod),
+		paramtypes.NewParamSetPair(KeyRewardVestingPeriod, &p.RewardVestingPeriod, validateVestingPeriod),
+	}
+}
+
+// ParamSetPairs gets the params for the Bitcoin reward system
+func (p *BitcoinRewardParams) ParamSetPairs() paramtypes.ParamSetPairs {
+	return paramtypes.ParamSetPairs{
+		paramtypes.NewParamSetPair(KeyUseBitcoinRewards, &p.UseBitcoinRewards, validateUseBitcoinRewards),
+		paramtypes.NewParamSetPair(KeyInitialEpochReward, &p.InitialEpochReward, validateInitialEpochReward),
+		paramtypes.NewParamSetPair(KeyDecayRate, &p.DecayRate, validateDecayRate),
+		paramtypes.NewParamSetPair(KeyGenesisEpoch, &p.GenesisEpoch, validateEpoch),
+		paramtypes.NewParamSetPair(KeyUtilizationBonusFactor, &p.UtilizationBonusFactor, validateBonusFactor),
+		paramtypes.NewParamSetPair(KeyFullCoverageBonusFactor, &p.FullCoverageBonusFactor, validateBonusFactor),
+		paramtypes.NewParamSetPair(KeyPartialCoverageBonusFactor, &p.PartialCoverageBonusFactor, validateBonusFactor),
+	}
+}
+
+// ParamSetPairs gets the params for the dynamic pricing system
+func (p *DynamicPricingParams) ParamSetPairs() paramtypes.ParamSetPairs {
+	return paramtypes.ParamSetPairs{
+		paramtypes.NewParamSetPair(KeyStabilityZoneLowerBound, &p.StabilityZoneLowerBound, validateStabilityZoneBound),
+		paramtypes.NewParamSetPair(KeyStabilityZoneUpperBound, &p.StabilityZoneUpperBound, validateStabilityZoneBound),
+		paramtypes.NewParamSetPair(KeyPriceElasticity, &p.PriceElasticity, validatePriceElasticity),
+		paramtypes.NewParamSetPair(KeyUtilizationWindowDuration, &p.UtilizationWindowDuration, validateUtilizationWindowDuration),
+		paramtypes.NewParamSetPair(KeyMinPerTokenPrice, &p.MinPerTokenPrice, validatePerTokenPrice),
+		paramtypes.NewParamSetPair(KeyBasePerTokenPrice, &p.BasePerTokenPrice, validatePerTokenPrice),
+		paramtypes.NewParamSetPair(KeyGracePeriodEndEpochDP, &p.GracePeriodEndEpoch, validateEpoch),
+		paramtypes.NewParamSetPair(KeyGracePeriodPerTokenPrice, &p.GracePeriodPerTokenPrice, validateGracePeriodPerTokenPrice),
+	}
+}
+
+func validateEpochParams(i interface{}) error {
+	return nil
+}
+
+// Validate validates the EpochParams
+func (p *EpochParams) Validate() error {
+	if p.EpochLength <= 0 {
+		return fmt.Errorf("epoch length must be positive")
+	}
+	if p.EpochMultiplier <= 0 {
+		return fmt.Errorf("epoch multiplier must be positive")
+	}
+	if p.DefaultUnitOfComputePrice < 0 {
+		return fmt.Errorf("default unit of compute price cannot be negative")
+	}
+	if p.PocStageDuration <= 0 {
+		return fmt.Errorf("poc stage duration must be positive")
+	}
+	if p.PocExchangeDuration < 0 {
+		return fmt.Errorf("poc exchange duration cannot be negative")
+	}
+	if p.PocValidationDelay < 0 {
+		return fmt.Errorf("poc validation delay cannot be negative")
+	}
+	if p.PocValidationDuration <= 0 {
+		return fmt.Errorf("poc validation duration must be positive")
+	}
+	if p.SetNewValidatorsDelay < 0 {
+		return fmt.Errorf("set new validators delay cannot be negative")
+	}
+	if p.InferenceValidationCutoff < 0 {
+		return fmt.Errorf("inference validation cutoff cannot be negative")
+	}
+	if p.InferencePruningEpochThreshold < 1 {
+		return fmt.Errorf("inference pruning epoch threshold must be at least 1")
+	}
+	if p.ConfirmationPocSafetyWindow < 0 {
+		return fmt.Errorf("safety window cannot be negative")
+	}
+	return nil
+}
+
+// Validate validates the set of params
+func (p Params) Validate() error {
+	// Check for nil nested structs before calling their Validate() methods
+	if p.ValidationParams == nil {
+		return fmt.Errorf("validation params cannot be nil")
+	}
+	if p.TokenomicsParams == nil {
+		return fmt.Errorf("tokenomics params cannot be nil")
+	}
+	if p.CollateralParams == nil {
+		return fmt.Errorf("collateral params cannot be nil")
+	}
+	if p.BitcoinRewardParams == nil {
+		return fmt.Errorf("bitcoin reward params cannot be nil")
+	}
+	if p.EpochParams == nil {
+		return fmt.Errorf("epoch params cannot be nil")
+	}
+	if p.PocParams == nil {
+		return fmt.Errorf("poc params cannot be nil")
+	}
+	if err := validateParamDecimalExponents(p); err != nil {
+		return err
+	}
+	if err := p.ValidationParams.Validate(); err != nil {
+		return err
+	}
+	if err := p.TokenomicsParams.Validate(); err != nil {
+		return err
+	}
+	if err := p.BitcoinRewardParams.Validate(); err != nil {
+		return err
+	}
+	if err := p.EpochParams.Validate(); err != nil {
+		return err
+	}
+	if err := p.CollateralParams.Validate(); err != nil {
+		return err
+	}
+	if err := p.DynamicPricingParams.Validate(); err != nil {
+		return err
+	}
+	if p.BandwidthLimitsParams != nil {
+		if err := p.BandwidthLimitsParams.Validate(); err != nil {
+			return err
+		}
+	}
+
+	if p.GenesisGuardianParams != nil {
+		if p.GenesisGuardianParams.NetworkMaturityThreshold < 0 {
+			return fmt.Errorf("genesis guardian network maturity threshold cannot be negative")
+		}
+		if p.GenesisGuardianParams.NetworkMaturityMinHeight < 0 {
+			return fmt.Errorf("genesis guardian network maturity min height cannot be negative")
+		}
+	}
+
+	if p.DeveloperAccessParams != nil {
+		if p.DeveloperAccessParams.UntilBlockHeight < 0 {
+			return fmt.Errorf("developer access until block height cannot be negative")
+		}
+	}
+
+	if p.ParticipantAccessParams != nil {
+		if p.ParticipantAccessParams.NewParticipantRegistrationStartHeight < 0 {
+			return fmt.Errorf("new participant registration start height cannot be negative")
+		}
+		if p.ParticipantAccessParams.ParticipantAllowlistUntilBlockHeight < 0 {
+			return fmt.Errorf("participant allowlist until block height cannot be negative")
+		}
+	}
+
+	if p.PocParams != nil {
+		if err := p.PocParams.Validate(); err != nil {
+			return err
+		}
+	}
+
+	if p.DevshardEscrowParams != nil {
+		if err := p.DevshardEscrowParams.Validate(); err != nil {
+			return err
+		}
+	}
+
+	if p.DelegationParams != nil {
+		if p.DelegationParams.DeployWindow < 0 {
+			return fmt.Errorf("delegation deploy_window cannot be negative")
+		}
+		if p.DelegationParams.VMin < 0 {
+			return fmt.Errorf("delegation v_min cannot be negative")
+		}
+		if err := validateDecimalFraction(p.DelegationParams.RefusalPenalty, "delegation refusal_penalty"); err != nil {
+			return err
+		}
+		if err := validateDecimalFraction(p.DelegationParams.NoParticipationPenalty, "delegation no_participation_penalty"); err != nil {
+			return err
+		}
+		if err := validateDecimalFraction(p.DelegationParams.DelegationShare, "delegation delegation_share"); err != nil {
+			return err
+		}
+		if err := validateDecimalFraction(p.DelegationParams.WThreshold, "delegation w_threshold"); err != nil {
+			return err
+		}
+		if err := validateDecimalFraction(p.DelegationParams.CapFactor, "delegation cap_factor"); err != nil {
+			return err
+		}
+	}
+
+	if p.DelegationParams != nil && p.DelegationParams.InitialModelId != "" && p.PocParams != nil {
+		found := false
+		for _, model := range p.PocParams.GetModelConfigs() {
+			if model != nil && model.ModelId == p.DelegationParams.InitialModelId {
+				found = true
+				break
+			}
+		}
+		if !found {
+			return fmt.Errorf("delegation initial_model_id %q not found in poc_params models", p.DelegationParams.InitialModelId)
+		}
+	}
+
+	if p.FeeParams != nil {
+		if err := p.FeeParams.Validate(); err != nil {
+			return err
+		}
+	}
+
+	if p.MaintenanceParams != nil {
+		if err := p.MaintenanceParams.Validate(); err != nil {
+			return err
+		}
+	}
+
+	return nil
+}
+
+func (p *PocParams) Validate() error {
+	if p == nil {
+		return nil
+	}
+	// Non-zero thresholds below 50% would let both valid and invalid votes
+	// clear the threshold at once, making the accept/reject check order
+	// decide the outcome. Majority (>=5000) guarantees at most one side passes.
+	if p.ValidationVoteThresholdBps != 0 &&
+		(p.ValidationVoteThresholdBps < 5000 || p.ValidationVoteThresholdBps > 10000) {
+		return fmt.Errorf("poc_params.validation_vote_threshold_bps must be 0 (default) or in [5000, 10000]")
+	}
+	seen := make(map[string]bool)
+	for _, model := range p.GetModelConfigs() {
+		if model == nil {
+			return fmt.Errorf("poc_params.models cannot contain nil entries")
+		}
+		if model.ModelId != "" {
+			if seen[model.ModelId] {
+				return fmt.Errorf("poc_params.models contains duplicate model_id %q", model.ModelId)
+			}
+			seen[model.ModelId] = true
+		}
+		if model.SeqLen < 0 {
+			return fmt.Errorf("poc_params.models.seq_len cannot be negative")
+		}
+	}
+	return nil
+}
+
+func (p *ValidationParams) Validate() error {
+	// Check for nil Decimal fields first
+	if p.FalsePositiveRate == nil {
+		return fmt.Errorf("false positive rate cannot be nil")
+	}
+	if p.PassValue == nil {
+		return fmt.Errorf("pass value cannot be nil")
+	}
+	if p.MinValidationAverage == nil {
+		return fmt.Errorf("min validation average cannot be nil")
+	}
+	if p.MaxValidationAverage == nil {
+		return fmt.Errorf("max validation average cannot be nil")
+	}
+	if p.MinValidationHalfway == nil {
+		return fmt.Errorf("min validation halfway cannot be nil")
+	}
+	if p.MissPercentageCutoff == nil {
+		return fmt.Errorf("miss percentage cutoff cannot be nil")
+	}
+	if p.MissRequestsPenalty == nil {
+		return fmt.Errorf("miss requests penalty cannot be nil")
+	}
+	// v0.2.5 parameters
+	if p.BadParticipantInvalidationRate == nil {
+		return fmt.Errorf("bad participant invalidation rate cannot be nil")
+	}
+	if p.InvalidationHThreshold == nil {
+		return fmt.Errorf("invalidation h threshold cannot be nil")
+	}
+	if p.DowntimeGoodPercentage == nil {
+		return fmt.Errorf("downtime good percentage cannot be nil")
+	}
+	if p.DowntimeBadPercentage == nil {
+		return fmt.Errorf("downtime bad percentage cannot be nil")
+	}
+	if p.DowntimeHThreshold == nil {
+		return fmt.Errorf("downtime h threshold cannot be nil")
+	}
+	if p.QuickFailureThreshold == nil {
+		return fmt.Errorf("quick failure threshold cannot be nil")
+	}
+	if p.InvalidReputationPreserve == nil {
+		return fmt.Errorf("invalid reputation preserve cannot be nil")
+	}
+	if p.DowntimeReputationPreserve == nil {
+		return fmt.Errorf("downtime reputation preserve cannot be nil")
+	}
+	if p.BinomTestP0 == nil {
+		return fmt.Errorf("binom test p0 cannot be nil")
+	}
+	// Validate timestamp parameters
+	if p.TimestampExpiration <= 0 {
+		return fmt.Errorf("timestamp expiration must be positive")
+	}
+	if p.TimestampAdvance <= 0 {
+		return fmt.Errorf("timestamp advance must be positive")
+	}
+	switch p.LogprobsMode {
+	case LogprobsModeProcessed, LogprobsModeRaw:
+		// ok
+	default:
+		return fmt.Errorf("invalid logprobs_mode: %q, must be %q or %q", p.LogprobsMode, LogprobsModeProcessed, LogprobsModeRaw)
+	}
+	return nil
+}
+
+func (p *TokenomicsParams) Validate() error {
+	// Check for nil Decimal fields first
+	if p.SubsidyReductionInterval == nil {
+		return fmt.Errorf("subsidy reduction interval cannot be nil")
+	}
+	if p.SubsidyReductionAmount == nil {
+		return fmt.Errorf("subsidy reduction amount cannot be nil")
+	}
+	if p.CurrentSubsidyPercentage == nil {
+		return fmt.Errorf("current subsidy percentage cannot be nil")
+	}
+
+	// Validate vesting parameters
+	if err := validateVestingPeriod(p.WorkVestingPeriod); err != nil {
+		return errors.Wrap(err, "invalid work_vesting_period")
+	}
+	if err := validateVestingPeriod(p.RewardVestingPeriod); err != nil {
+		return errors.Wrap(err, "invalid reward_vesting_period")
+	}
+
+	return nil
+}
+
+func (p *CollateralParams) Validate() error {
+	if err := validateSlashFraction(p.SlashFractionInvalid); err != nil {
+		return errors.Wrap(err, "invalid slash_fraction_invalid")
+	}
+	if err := validateSlashFraction(p.SlashFractionDowntime); err != nil {
+		return errors.Wrap(err, "invalid slash_fraction_downtime")
+	}
+	if err := validatePercentage(p.DowntimeMissedPercentageThreshold); err != nil {
+		return errors.Wrap(err, "invalid downtime_missed_percentage_threshold")
+	}
+	if err := validateEpoch(p.GracePeriodEndEpoch); err != nil {
+		return errors.Wrap(err, "invalid grace_period_end_epoch")
+	}
+	if err := validateBaseWeightRatio(p.BaseWeightRatio); err != nil {
+		return errors.Wrap(err, "invalid base_weight_ratio")
+	}
+	if err := validateCollateralPerWeightUnit(p.CollateralPerWeightUnit); err != nil {
+		return errors.Wrap(err, "invalid collateral_per_weight_unit")
+	}
+	return nil
+}
+
+func (p *BitcoinRewardParams) Validate() error {
+	// Check for nil Decimal fields first
+	if p.DecayRate == nil {
+		return fmt.Errorf("decay rate cannot be nil")
+	}
+	if p.UtilizationBonusFactor == nil {
+		return fmt.Errorf("utilization bonus factor cannot be nil")
+	}
+	if p.FullCoverageBonusFactor == nil {
+		return fmt.Errorf("full coverage bonus factor cannot be nil")
+	}
+	if p.PartialCoverageBonusFactor == nil {
+		return fmt.Errorf("partial coverage bonus factor cannot be nil")
+	}
+
+	// Validate parameters
+	if err := validateInitialEpochReward(p.InitialEpochReward); err != nil {
+		return errors.Wrap(err, "invalid initial_epoch_reward")
+	}
+	if err := validateDecayRate(p.DecayRate); err != nil {
+		return errors.Wrap(err, "invalid decay_rate")
+	}
+	if err := validateEpoch(p.GenesisEpoch); err != nil {
+		return errors.Wrap(err, "invalid genesis_epoch")
+	}
+	if err := validateBonusFactor(p.UtilizationBonusFactor); err != nil {
+		return errors.Wrap(err, "invalid utilization_bonus_factor")
+	}
+	if err := validateBonusFactor(p.FullCoverageBonusFactor); err != nil {
+		return errors.Wrap(err, "invalid full_coverage_bonus_factor")
+	}
+	if err := validateBonusFactor(p.PartialCoverageBonusFactor); err != nil {
+		return errors.Wrap(err, "invalid partial_coverage_bonus_factor")
+	}
+
+	return nil
+}
+
+func (p *DynamicPricingParams) Validate() error {
+	// Check for nil Decimal fields first
+	if p.StabilityZoneLowerBound == nil {
+		return fmt.Errorf("stability zone lower bound cannot be nil")
+	}
+	if p.StabilityZoneUpperBound == nil {
+		return fmt.Errorf("stability zone upper bound cannot be nil")
+	}
+	if p.PriceElasticity == nil {
+		return fmt.Errorf("price elasticity cannot be nil")
+	}
+
+	// Validate parameters
+	if err := validateStabilityZoneBound(p.StabilityZoneLowerBound); err != nil {
+		return errors.Wrap(err, "invalid stability_zone_lower_bound")
+	}
+	if err := validateStabilityZoneBound(p.StabilityZoneUpperBound); err != nil {
+		return errors.Wrap(err, "invalid stability_zone_upper_bound")
+	}
+	if err := validatePriceElasticity(p.PriceElasticity); err != nil {
+		return errors.Wrap(err, "invalid price_elasticity")
+	}
+	if err := validateUtilizationWindowDuration(p.UtilizationWindowDuration); err != nil {
+		return errors.Wrap(err, "invalid utilization_window_duration")
+	}
+	if err := validatePerTokenPrice(p.MinPerTokenPrice); err != nil {
+		return errors.Wrap(err, "invalid min_per_token_price")
+	}
+	if err := validatePerTokenPrice(p.BasePerTokenPrice); err != nil {
+		return errors.Wrap(err, "invalid base_per_token_price")
+	}
+	if err := validateGracePeriodPerTokenPrice(p.GracePeriodPerTokenPrice); err != nil {
+		return errors.Wrap(err, "invalid grace_period_per_token_price")
+	}
+	if err := validateEpoch(p.GracePeriodEndEpoch); err != nil {
+		return errors.Wrap(err, "invalid grace_period_end_epoch")
+	}
+
+	// Validate stability zone bounds are logically consistent
+	if err := p.StabilityZoneLowerBound.Validate(); err != nil {
+		return errors.Wrap(err, "invalid stability_zone_lower_bound")
+	}
+	if err := p.StabilityZoneUpperBound.Validate(); err != nil {
+		return errors.Wrap(err, "invalid stability_zone_upper_bound")
+	}
+	lowerBound := p.StabilityZoneLowerBound.ToDecimal()
+	upperBound := p.StabilityZoneUpperBound.ToDecimal()
+	if lowerBound.GreaterThanOrEqual(upperBound) {
+		return fmt.Errorf("stability zone lower bound (%s) must be less than upper bound (%s)", lowerBound.String(), upperBound.String())
+	}
+
+	return nil
+}
+
+func (p *BandwidthLimitsParams) Validate() error {
+	if p == nil {
+		return nil
+	}
+	if p.KbPerInputToken == nil {
+		return fmt.Errorf("kb_per_input_token cannot be nil")
+	}
+	if p.KbPerOutputToken == nil {
+		return fmt.Errorf("kb_per_output_token cannot be nil")
+	}
+
+	if err := validateInvalidationsSamplePeriod(p.InvalidationsSamplePeriod); err != nil {
+		return errors.Wrap(err, "invalid invalidations_sample_period")
+	}
+
+	return nil
+}
+
+func validateSlashFraction(i interface{}) error {
+	v, ok := i.(*Decimal)
+	if !ok {
+		return fmt.Errorf("invalid parameter type: %T", i)
+	}
+	legacyDec, err := v.ToLegacyDec()
+	if err != nil {
+		return err
+	}
+	if legacyDec.IsNegative() || legacyDec.GT(sdkmath.LegacyOneDec()) {
+		return fmt.Errorf("slash fraction must be between 0 and 1, but is %s", legacyDec.String())
+	}
+	return nil
+}
+
+func validateBaseWeightRatio(i interface{}) error {
+	v, ok := i.(*Decimal)
+	if !ok {
+		return fmt.Errorf("invalid parameter type: %T", i)
+	}
+	legacyDec, err := v.ToLegacyDec()
+	if err != nil {
+		return err
+	}
+	if legacyDec.IsNegative() {
+		return fmt.Errorf("base weight ratio cannot be negative: %s", legacyDec)
+	}
+
+	if legacyDec.GT(sdkmath.LegacyOneDec()) {
+		return fmt.Errorf("base weight ratio cannot be greater than 1: %s", legacyDec)
+	}
+
+	return nil
+}
+
+func validateCollateralPerWeightUnit(i interface{}) error {
+	v, ok := i.(*Decimal)
+	if !ok {
+		return fmt.Errorf("invalid parameter type: %T", i)
+	}
+	legacyDec, err := v.ToLegacyDec()
+	if err != nil {
+		return err
+	}
+	if legacyDec.IsNegative() {
+		return fmt.Errorf("collateral per weight unit cannot be negative: %s", legacyDec)
+	}
+	return nil
+}
+
+func validateVestingPeriod(i interface{}) error {
+	if i == nil {
+		return fmt.Errorf("vesting period cannot be nil")
+	}
+
+	switch v := i.(type) {
+	case *uint64:
+		// Pointer to uint64 (what we expect from ParamSetPairs)
+		if v == nil {
+			return fmt.Errorf("vesting period cannot be nil")
+		}
+		return nil
+	case uint64:
+		// Direct uint64 value (also valid)
+		return nil
+	default:
+		return fmt.Errorf("invalid parameter type: %T", i)
+	}
+}
+
+// ValidateVestingPeriod is the exported version of validateVestingPeriod for testing
+func ValidateVestingPeriod(i interface{}) error {
+	return validateVestingPeriod(i)
+}
+
+func validatePercentage(i interface{}) error {
+	v, ok := i.(*Decimal)
+	if !ok {
+		return fmt.Errorf("invalid parameter type: %T", i)
+	}
+	legacyDec, err := v.ToLegacyDec()
+	if err != nil {
+		return err
+	}
+	if legacyDec.IsNegative() || legacyDec.GT(sdkmath.LegacyOneDec()) {
+		return fmt.Errorf("percentage must be between 0 and 1, but is %s", legacyDec.String())
+	}
+	return nil
+}
+
+func validateEpoch(i interface{}) error {
+	_, ok := i.(uint64)
+	if !ok {
+		return fmt.Errorf("invalid parameter type: %T", i)
+	}
+	return nil
+}
+
+func validateInitialEpochReward(i interface{}) error {
+	_, ok := i.(uint64)
+	if !ok {
+		return fmt.Errorf("invalid parameter type: %T", i)
+	}
+	return nil
+}
+
+func validateDecayRate(i interface{}) error {
+	v, ok := i.(*Decimal)
+	if !ok {
+		return fmt.Errorf("invalid parameter type: %T", i)
+	}
+	legacyDec, err := v.ToLegacyDec()
+	if err != nil {
+		return err
+	}
+	// Decay rate should be negative for gradual reduction
+	if legacyDec.IsPositive() {
+		return fmt.Errorf("decay rate must be negative for reward reduction, but is %s", legacyDec.String())
+	}
+	// Reasonable bounds for decay rate (not too extreme)
+	if legacyDec.LT(sdkmath.LegacyNewDecWithPrec(-1, 2)) { // Less than -0.01
+		return fmt.Errorf("decay rate too extreme (less than -0.01): %s", legacyDec.String())
+	}
+	if err := v.Validate(); err != nil {
+		return err
+	}
+	_, err = GetExponent(v.ToDecimal())
+	if err != nil {
+		return fmt.Errorf("decay rate does not have exponent defined %s", legacyDec.String())
+	}
+	return nil
+}
+
+func validateBonusFactor(i interface{}) error {
+	v, ok := i.(*Decimal)
+	if !ok {
+		return fmt.Errorf("invalid parameter type: %T", i)
+	}
+	legacyDec, err := v.ToLegacyDec()
+	if err != nil {
+		return err
+	}
+	if legacyDec.IsNegative() {
+		return fmt.Errorf("bonus factor cannot be negative: %s", legacyDec.String())
+	}
+	return nil
+}
+
+func validateUseBitcoinRewards(i interface{}) error {
+	_, ok := i.(bool)
+	if !ok {
+		return fmt.Errorf("invalid parameter type: %T", i)
+	}
+	return nil
+}
+
+// Dynamic pricing validation functions
+func validateStabilityZoneBound(i interface{}) error {
+	bound, ok := i.(*Decimal)
+	if !ok {
+		return fmt.Errorf("invalid parameter type: %T", i)
+	}
+	if bound == nil {
+		return fmt.Errorf("stability zone bound cannot be nil")
+	}
+	if err := bound.Validate(); err != nil {
+		return err
+	}
+
+	value := bound.ToDecimal()
+	if value.IsNegative() || value.GreaterThan(decimal.NewFromInt(1)) {
+		return fmt.Errorf("stability zone bound must be between 0.0 and 1.0, got: %s", value.String())
+	}
+	return nil
+}
+
+func validatePriceElasticity(i interface{}) error {
+	elasticity, ok := i.(*Decimal)
+	if !ok {
+		return fmt.Errorf("invalid parameter type: %T", i)
+	}
+	if elasticity == nil {
+		return fmt.Errorf("price elasticity cannot be nil")
+	}
+	if err := elasticity.Validate(); err != nil {
+		return err
+	}
+
+	value := elasticity.ToDecimal()
+	if value.LessThanOrEqual(decimal.Zero) || value.GreaterThan(decimal.NewFromInt(1)) {
+		return fmt.Errorf("price elasticity must be between 0.0 and 1.0, got: %s", value.String())
+	}
+	return nil
+}
+
+func validateUtilizationWindowDuration(i interface{}) error {
+	duration, ok := i.(uint64)
+	if !ok {
+		return fmt.Errorf("invalid parameter type: %T", i)
+	}
+	if duration == 0 {
+		return fmt.Errorf("utilization window duration must be greater than 0")
+	}
+	if duration > 3600 { // Max 1 hour
+		return fmt.Errorf("utilization window duration must not exceed 3600 seconds (1 hour), got: %d", duration)
+	}
+
+	windowBlocks := UtilizationWindowToBlocks(duration)
+	if windowBlocks > MaxRollingWindowBlocks {
+		return fmt.Errorf("utilization window duration (%d seconds) results in %d blocks, which exceeds the maximum of %d blocks", duration, windowBlocks, MaxRollingWindowBlocks)
+	}
+
+	return nil
+}
+
+func validateInvalidationsSamplePeriod(i interface{}) error {
+	duration, ok := i.(uint64)
+	if !ok {
+		return fmt.Errorf("invalid parameter type: %T", i)
+	}
+	if duration == 0 {
+		return fmt.Errorf("invalidations sample period must be greater than 0")
+	}
+
+	windowBlocks := InvalidationsSamplePeriodToBlocks(duration)
+	if windowBlocks > MaxRollingWindowBlocks {
+		return fmt.Errorf("invalidations sample period (%d seconds) results in %d blocks, which exceeds the maximum of %d blocks", duration, windowBlocks, MaxRollingWindowBlocks)
+	}
+
+	return nil
+}
+
+func validatePerTokenPrice(i interface{}) error {
+	price, ok := i.(uint64)
+	if !ok {
+		return fmt.Errorf("invalid parameter type: %T", i)
+	}
+	if price == 0 {
+		return fmt.Errorf("per-token price must be greater than 0")
+	}
+	return nil
+}
+
+func validateGracePeriodPerTokenPrice(i interface{}) error {
+	_, ok := i.(uint64)
+	if !ok {
+		return fmt.Errorf("invalid parameter type: %T", i)
+	}
+	// Grace period price can be 0 (free inference) or any positive value
+	return nil
+}
+
+func validateSetNewValidatorsDelay(i interface{}) error {
+	v, ok := i.(int64)
+	if !ok {
+		return fmt.Errorf("invalid parameter type: %T", i)
+	}
+	if v < 0 {
+		return fmt.Errorf("set new validators delay cannot be negative")
+	}
+	return nil
+}
+
+func validateInferenceValidationCutoff(i interface{}) error {
+	v, ok := i.(int64)
+	if !ok {
+		return fmt.Errorf("invalid parameter type: %T", i)
+	}
+	if v < 0 {
+		return fmt.Errorf("inference validation cutoff cannot be negative")
+	}
+	return nil
+}
+
+func validateInferencePruningEpochThreshold(i interface{}) error {
+	v, ok := i.(uint64)
+	if !ok {
+		return fmt.Errorf("invalid parameter type: %T", i)
+	}
+	if v < 1 {
+		return fmt.Errorf("inference pruning epoch threshold must be at least 1")
+	}
+	return nil
+}
+
+func (d *Decimal) ToLegacyDec() (sdkmath.LegacyDec, error) {
+	if err := d.Validate(); err != nil {
+		return sdkmath.LegacyDec{}, err
+	}
+	return sdkmath.LegacyNewDecFromStr(d.ToDecimal().String())
+}
+
+const MaxDecimalExponentAbs int32 = 18
+
+func (d *Decimal) Validate() error {
+	if d == nil {
+		return nil
+	}
+	if d.Exponent < -MaxDecimalExponentAbs || d.Exponent > MaxDecimalExponentAbs {
+		return fmt.Errorf("%w: %d", ErrInvalidDecimalExponent, d.Exponent)
+	}
+	return nil
+}
+
+func (d *Decimal) ToDecimal() decimal.Decimal {
+	return decimal.New(d.Value, d.Exponent)
+}
+
+func (d *Decimal) ToFloat() float64 {
+	return d.ToDecimal().InexactFloat64()
+}
+
+func (d *Decimal) CloneOrOne() *Decimal {
+	if d == nil || (d.Value == 0 && d.Exponent == 0) {
+		return &Decimal{Value: 1, Exponent: 0}
+	}
+	return &Decimal{Value: d.Value, Exponent: d.Exponent}
+}
+
+func (d *Decimal) LegacyDecOrOne() sdkmath.LegacyDec {
+	if d == nil || (d.Value == 0 && d.Exponent == 0) {
+		return sdkmath.LegacyOneDec()
+	}
+	dec, err := d.ToLegacyDec()
+	if err != nil {
+		return sdkmath.LegacyOneDec()
+	}
+	return dec
+}
+
+func DecimalFromFloat(f float64) *Decimal {
+	d := decimal.NewFromFloat(f)
+	return &Decimal{Value: d.CoefficientInt64(), Exponent: d.Exponent()}
+}
+
+func DecimalFromDecimal(d decimal.Decimal) *Decimal {
+	return &Decimal{Value: d.CoefficientInt64(), Exponent: d.Exponent()}
+}
+
+var DecimalZero = Decimal{Value: 0, Exponent: 0}
+
+func DecimalFromFloat32(f float32) *Decimal {
+	d := decimal.NewFromFloat32(f)
+	return &Decimal{Value: d.CoefficientInt64(), Exponent: d.Exponent()}
+}
+
+func (p *PocParams) GetModelConfigs() []*PoCModelConfig {
+	if p == nil {
+		return nil
+	}
+	return p.Models
+}
+
+func (p *PocParams) GetPrimaryModelConfig() *PoCModelConfig {
+	configs := p.GetModelConfigs()
+	if len(configs) == 0 || configs[0] == nil {
+		return DefaultPoCModelConfig()
+	}
+	return configs[0]
+}
+
+func (p *PocParams) GetModelConfig(modelID string) (*PoCModelConfig, bool) {
+	configs := p.GetModelConfigs()
+	if len(configs) == 0 {
+		return nil, false
+	}
+	for _, config := range configs {
+		if config != nil && config.ModelId == modelID {
+			return config, true
+		}
+	}
+	return nil, false
+}
+
+func (p *PocParams) GetWeightScaleFactorDec() sdkmath.LegacyDec {
+	return p.GetPrimaryModelConfig().GetWeightScaleFactorDec()
+}
+
+func (p *PoCModelConfig) GetWeightScaleFactorDec() sdkmath.LegacyDec {
+	if p == nil {
+		return sdkmath.LegacyOneDec()
+	}
+	return p.WeightScaleFactor.LegacyDecOrOne()
+}
+
+var (
+	decayRate475       = decimal.New(-475, -6)
+	exponent475        = decimal.New(9995251127946402, -16)
+	decayRateVerySmall = decimal.New(-1, -6)
+	exponentVerySmall  = decimal.New(9999990000005, -13)
+	decayRatePositive  = decimal.New(1, -4)
+	exponentPositive   = decimal.New(10001000050001667, -16)
+	decayRateZero      = decimal.Zero
+	exponentZero       = decimal.NewFromInt(1)
+)
+
+func GetExponent(decayRate decimal.Decimal) (decimal.Decimal, error) {
+	if decayRate.Equal(decayRate475) {
+		return exponent475, nil
+	}
+	// For testing only (not a problem for production)
+	if decayRate.Equal(decayRateVerySmall) {
+		return exponentVerySmall, nil
+	}
+	if decayRate.Equal(decayRatePositive) {
+		return exponentPositive, nil
+	}
+	if decayRate.Equal(decayRateZero) {
+		return exponentZero, nil
+	}
+	return decimal.Zero, fmt.Errorf("unsupported decay rate: %s", decayRate.String())
+}

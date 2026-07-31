@@ -1,0 +1,263 @@
+services:
+  tmkms:
+    image: ghcr.io/product-science/tmkms-softsign-with-keygen:0.2.15
+    container_name: tmkms
+    restart: unless-stopped
+    environment:
+      - VALIDATOR_LISTEN_ADDRESS=tcp://node:${TMKMS_PORT:-26658}
+    volumes:
+      - .tmkms:/root/.tmkms
+
+  node:
+    container_name: node
+    image: ghcr.io/product-science/inferenced:0.2.15
+    command: ["sh", "./init-docker.sh"]
+    volumes:
+      - .inference:/root/.inference
+      - ../../genesis/genesis.json:/root/genesis.json
+    environment:
+      - SEED_NODE_RPC_URL=${SEED_NODE_RPC_URL}
+      - SEED_NODE_P2P_URL=${SEED_NODE_P2P_URL}
+      - SNAPSHOT_INTERVAL=1000
+      - SNAPSHOT_KEEP_RECENT=5
+      - TRUSTED_BLOCK_PERIOD=${TRUSTED_BLOCK_PERIOD:-2000}
+      - KEY_NAME=${KEY_NAME}
+      - P2P_EXTERNAL_ADDRESS=${P2P_EXTERNAL_ADDRESS}
+      - CONFIG_p2p__allow_duplicate_ip=true
+      - CONFIG_p2p__handshake_timeout=30s
+      - CONFIG_p2p__dial_timeout=30s
+      - TMKMS_PORT=${TMKMS_PORT:-26658}
+      - SYNC_WITH_SNAPSHOTS=${SYNC_WITH_SNAPSHOTS:-true}
+      - RPC_SERVER_URL_1=${RPC_SERVER_URL_1}
+      - RPC_SERVER_URL_2=${RPC_SERVER_URL_2}
+      - REST_API_ACTIVE=true
+      - QUERY_GAS_LIMIT=${QUERY_GAS_LIMIT:-10000000}
+      - INIT_ONLY=false
+      - IS_GENESIS=false
+      - GENESIS_SEEDS=780e60b5defca577a160590e0bf51c6bb916d2c6@gonka.spv.re:5000,39ebfea6d2ab91e90c26cb702345cfa2f9bc611b@47.236.26.199:5000,645fbce2dedcc7166f4df7931d2c87ca5188b569@node2.gonka.ai:5000,6140f7090137d93c272ff5ccd863484d1592949d@node3.gonka.ai:5000,947a89a2d5f2af45cb7853f56be0bab8303ffce9@36.189.234.197:18027,78f3279bd30fe6f1b84a9c40c3b97bd74e575981@185.216.21.98:5000,d53a970a40231474fb4092ee64609b975d906085@47.236.19.22:15000,b7dd3863523d78cc5a7c56ddb786395fe49c954a@93.119.168.58:5000,b4ad5a33520ce10d0b7ed5193e2de71e2f1f7a51@36.189.234.237:17240,0772f16cc65cb4d19341b192bd7eba964f11d124@node1.gonka.ai:5000,4d63a0411a257669e794ff62f801550a8449d239@69.19.136.233:5000
+      # Enable CometBFT Prometheus instrumentation on :26660 (default port) for
+      # the gonka-node scrape job in observability/prometheus.yml.
+      - CONFIG_instrumentation__prometheus=${NODE_INSTRUMENTATION_PROMETHEUS:-true}
+      - GONKA_SLOW_QUERY_THRESHOLD_MS=${GONKA_SLOW_QUERY_THRESHOLD_MS:-500}
+    ports:
+      - "5000:26656" #p2p
+    expose:
+      - "${TMKMS_PORT:-26658}"
+    depends_on:
+      - tmkms
+    restart: always
+
+  api:
+    container_name: api
+    image: ghcr.io/product-science/api:0.2.15
+    volumes:
+      - .inference:/root/.inference
+      - .dapi:/root/.dapi
+      - ${NODE_CONFIG:-./node-config.json}:/root/node_config.json
+    depends_on:
+      - node
+    environment:
+      - KEY_NAME=${KEY_NAME}
+      - ACCOUNT_PUBKEY=${ACCOUNT_PUBKEY}
+      - KEYRING_BACKEND=file
+      - KEYRING_PASSWORD=${KEYRING_PASSWORD}
+      - DAPI_API__POC_CALLBACK_URL=${DAPI_API__POC_CALLBACK_URL}
+      - DAPI_API__PUBLIC_URL=${PUBLIC_URL}
+      - DAPI_CHAIN_NODE__SEED_API_URL=${SEED_API_URL}
+      - DAPI_CHAIN_NODE__URL=${DAPI_CHAIN_NODE__URL}
+      - DAPI_CHAIN_NODE__P2P_URL=${DAPI_CHAIN_NODE__P2P_URL}
+      - NODE_CONFIG_PATH=/root/node_config.json
+      - DAPI_API__PUBLIC_SERVER_PORT=9000
+      - DAPI_API__ML_SERVER_PORT=9100
+      - DAPI_API__ADMIN_SERVER_PORT=9200
+      - DAPI_API__NODE_MANAGER_GRPC_PORT=${NODE_MANAGER_GRPC_PORT:-9400}
+      - DAPI_API__NODE_MANAGER_LOCK_TTL_SECONDS=${NODE_MANAGER_LOCK_TTL_SECONDS:-1200}
+      # Optional OpenTelemetry configuration
+      - DAPI_OTEL_ENABLED=${DAPI_OTEL_ENABLED:-false}
+      - OTEL_ENDPOINT=${OTEL_ENDPOINT:-}
+      - OTEL_HEADERS=${OTEL_HEADERS:-}
+      # PostgreSQL payload storage (optional, uses file storage if not set)
+      - PGHOST=${POSTGRES_HOST:-}
+      - PGPORT=${POSTGRES_PORT:-5432}
+      - PGDATABASE=${POSTGRES_DB:-payloads}
+      - PGUSER=${POSTGRES_USER:-payloads}
+      - PGPASSWORD=${POSTGRES_PASSWORD:-}
+    ports:
+      - "9100:9100"
+      - "127.0.0.1:9200:9200"
+    restart: always
+
+  edge-api:
+    container_name: edge-api
+    image: ghcr.io/product-science/edge-api:0.2.15
+    environment:
+      - EDGE_API_PORT=18080
+      - CHAIN_GRPC_URL=node:9090
+      - CHAIN_RPC_URL=http://node:26657
+      - EDGE_API_OTEL_ENABLED=${EDGE_API_OTEL_ENABLED:-false}
+      - OTEL_ENDPOINT=${OTEL_ENDPOINT:-}
+      - OTEL_HEADERS=${OTEL_HEADERS:-}
+    depends_on:
+      - node
+    restart: always
+
+  versiond:
+    container_name: versiond
+    image: ghcr.io/product-science/versiond:0.2.15
+    environment:
+      - VERSIOND_ORACLE_URL=http://api:9100/versions
+      - VERSIOND_BINARY_NAME=devshardd
+      - NODE_MANAGER_ADDR=api:${NODE_MANAGER_GRPC_PORT:-9400}
+      - NODE_HOST=node
+      - KEY_NAME=${KEY_NAME}
+      - ACCOUNT_PUBKEY=${ACCOUNT_PUBKEY}
+      - KEYRING_BACKEND=${KEYRING_BACKEND:-file}
+      - KEYRING_PASSWORD=${KEYRING_PASSWORD}
+      - KEYRING_DIR=/root/.inference
+      # Open Telemetry
+      - DEVSHARD_OTEL_ENABLED=${DEVSHARD_OTEL_ENABLED:-false}
+      - OTEL_ENDPOINT=${OTEL_ENDPOINT:-}
+      - OTEL_HEADERS=${OTEL_HEADERS:-}
+    volumes:
+      - .inference:/root/.inference:ro
+      - ./devshards/bin:/opt/versiond/bin
+      - ./devshards/data:/opt/versiond/data
+    depends_on:
+      - api
+    restart: always
+
+  bridge:
+    container_name: bridge
+    image: ghcr.io/product-science/bridge:0.2.15
+    restart: unless-stopped
+    environment:
+      - GETH_DATA_DIR=/data/geth
+      - PRYSM_DATA_DIR=/data/prysm
+      - JWT_SECRET_PATH=/data/jwt/jwt.hex
+      - BRIDGE_POSTBLOCK=http://api:9200/admin/v1/bridge/block
+      - BRIDGE_GETADDRESSES=http://api:9000/v1/bridge/addresses
+      - BRIDGE_GETLASTBLOCK=${BRIDGE_GETLASTBLOCK:-http://api:9000/v1/bridge/block/latest}
+      - BRIDGE_CACHE_RANGES=${BRIDGE_CACHE_RANGES:-4}
+      - BEACON_STATE_URL=${BEACON_STATE_URL:-https://mainnet.checkpoint.sigp.io/}
+      - PERSISTENT_DB_DIR=/persistent-db
+    ports:
+      # Geth EL P2P (TCP + UDP discovery). Optional host port via GETH_P2P_PORT.
+      - "${GETH_P2P_PORT:-30303}:30303/tcp"
+      - "${GETH_P2P_PORT:-30303}:30303/udp"
+    volumes:
+      - .inference-eth/geth:/data/geth
+      - .inference-eth/prysm:/data/prysm
+      - .inference-eth/jwt:/data/jwt
+      - .inference-eth/logs:/var/log
+      - .inference-eth/persistent-db:/persistent-db
+    depends_on:
+      - api
+
+  proxy:
+    container_name: proxy
+    image: ghcr.io/product-science/proxy:0.2.15
+    ports:
+      - "${API_PORT:-8000}:80"
+      - "${API_SSL_PORT:-8443}:443"
+    environment:
+      - NGINX_MODE=${NGINX_MODE:-http}
+      - SERVER_NAME=${SERVER_NAME:-}
+      - GONKA_API_PORT=9000
+      - GONKA_API_EXEMPT_ROUTES=chat inference poc/proofs subnet devshard
+      - EXEMPT_CONN_LIMIT=200
+      - GONKA_API_BLOCKED_ROUTES=poc-batches training
+      - CHAIN_RPC_PORT=26657
+      - CHAIN_API_PORT=1317
+      - CHAIN_GRPC_PORT=9090
+      - DASHBOARD_PORT=5173
+      - PROXY_REAL_IP_FROM=172.18.0.1
+      # SSL enablement (entrypoint enables SSL if CERT_ISSUER_DOMAIN is set)
+      - CERT_ISSUER_DOMAIN=${CERT_ISSUER_DOMAIN:-}
+      - PROXY_ADD_NODE_PREFIX=${PROXY_ADD_NODE_PREFIX:-false}
+      # Optional: override proxy-ssl discovery
+      - PROXY_SSL_SERVICE_NAME=${PROXY_SSL_SERVICE_NAME:-proxy-ssl}
+      - PROXY_SSL_PORT=${PROXY_SSL_PORT:-8080}
+      - DISABLE_GONKA_API=${DISABLE_GONKA_API:-false}
+      - DISABLE_CHAIN_API=${DISABLE_CHAIN_API:-true}
+      - DISABLE_CHAIN_RPC=${DISABLE_CHAIN_RPC:-true}
+      - DISABLE_CHAIN_GRPC=${DISABLE_CHAIN_GRPC:-true}
+      - DISABLE_VALIDATOR_WHITELIST=${DISABLE_VALIDATOR_WHITELIST:-true}
+      - DISABLE_FAIL2BAN=${DISABLE_FAIL2BAN:-true}
+      - EDGE_API_SERVICE_NAME=${EDGE_API_SERVICE_NAME:-}
+      - EDGE_API_PORT=${EDGE_API_PORT:-18080}
+    volumes:
+      - ${SSL_CERT_SOURCE:-./secrets/nginx-ssl}:/etc/nginx/ssl
+    depends_on:
+      node:
+        condition: service_started
+      api:
+        condition: service_started
+      edge-api:
+        condition: service_started
+        required: false
+      versiond:
+        condition: service_started
+      explorer:
+        condition: service_started
+      proxy-ssl:
+        condition: service_healthy
+        required: false
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+  proxy-ssl:
+    container_name: proxy-ssl
+    image: ghcr.io/product-science/proxy-ssl:0.2.15
+    profiles:
+      - ssl
+    environment:
+      # ACME Configuration
+      - ACME_ACCOUNT_EMAIL=${ACME_ACCOUNT_EMAIL:-}
+      - ACME_DNS_PROVIDER=${ACME_DNS_PROVIDER:-}
+
+      # Service Configuration
+      - CERT_ISSUER_DOMAIN=${CERT_ISSUER_DOMAIN:-}
+      - CERT_ISSUER_ALLOWED_SUBDOMAINS=${CERT_ISSUER_ALLOWED_SUBDOMAINS:-}
+      - CERT_ISSUER_JWT_SECRET=${CERT_ISSUER_JWT_SECRET:-}
+
+      # DNS Provider Configuration (if needed for your provider)
+      # AWS
+      - AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID:-}
+      - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY:-}
+      - AWS_REGION=${AWS_REGION:-us-east-1}
+      # Cloudflare
+      - CF_DNS_API_TOKEN=${CF_DNS_API_TOKEN:-}
+      # Google Cloud
+      - GCE_PROJECT=${GCE_PROJECT:-}
+      - GCE_SERVICE_ACCOUNT_JSON_B64=${GCE_SERVICE_ACCOUNT_JSON_B64:-}
+      # Azure
+      - AZURE_CLIENT_ID=${AZURE_CLIENT_ID:-}
+      - AZURE_CLIENT_SECRET=${AZURE_CLIENT_SECRET:-}
+      - AZURE_SUBSCRIPTION_ID=${AZURE_SUBSCRIPTION_ID:-}
+      - AZURE_TENANT_ID=${AZURE_TENANT_ID:-}
+      # DigitalOcean
+      - DO_AUTH_TOKEN=${DO_AUTH_TOKEN:-}
+      # Hetzner
+      - HETZNER_API_KEY=${HETZNER_API_KEY:-}
+    volumes:
+      - ./secrets/nginx-ssl:/app/certs
+      - ./secrets/certbot:/app/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+  explorer:
+    container_name: explorer
+    image: ghcr.io/product-science/explorer:latest
+    expose:
+      - "5173"
+    restart: unless-stopped

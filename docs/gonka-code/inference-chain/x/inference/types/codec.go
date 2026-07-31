@@ -1,0 +1,111 @@
+package types
+
+import (
+	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/types/msgservice"
+	// this line is used by starport scaffolding # 1
+)
+
+func RegisterInterfaces(registry cdctypes.InterfaceRegistry) {
+	registry.RegisterImplementations((*sdk.Msg)(nil),
+		&MsgSubmitNewParticipant{},
+	)
+	registry.RegisterImplementations((*sdk.Msg)(nil),
+		&MsgSubmitNewUnfundedParticipant{},
+	)
+	registry.RegisterImplementations((*sdk.Msg)(nil),
+		&MsgClaimRewards{},
+	)
+	registry.RegisterImplementations((*sdk.Msg)(nil),
+		&MsgSubmitPocBatch{},
+	)
+	registry.RegisterImplementations((*sdk.Msg)(nil),
+		&MsgSubmitPocValidationsV2{},
+	)
+	registry.RegisterImplementations((*sdk.Msg)(nil),
+		&MsgPoCV2StoreCommit{},
+	)
+	registry.RegisterImplementations((*sdk.Msg)(nil),
+		&MsgMLNodeWeightDistribution{},
+	)
+	registry.RegisterImplementations((*sdk.Msg)(nil),
+		&MsgSubmitSeed{},
+	)
+	registry.RegisterImplementations((*sdk.Msg)(nil),
+		&MsgSubmitUnitOfComputePriceProposal{},
+	)
+	registry.RegisterImplementations((*sdk.Msg)(nil),
+		&MsgRegisterModel{},
+	)
+	registry.RegisterImplementations((*sdk.Msg)(nil),
+		&MsgDeleteGovernanceModel{},
+	)
+	registry.RegisterImplementations((*sdk.Msg)(nil),
+		&MsgSubmitHardwareDiff{},
+	)
+	registry.RegisterImplementations((*sdk.Msg)(nil),
+		&MsgCreatePartialUpgrade{},
+	)
+	registry.RegisterImplementations((*sdk.Msg)(nil),
+		&MsgRegisterLiquidityPool{},
+	)
+	registry.RegisterImplementations((*sdk.Msg)(nil),
+		&MsgRequestBridgeWithdrawal{},
+	)
+	registry.RegisterImplementations((*sdk.Msg)(nil),
+		&MsgRequestBridgeMint{},
+	)
+	registry.RegisterImplementations((*sdk.Msg)(nil),
+		&MsgCancelBridgeOperation{},
+	)
+	registry.RegisterImplementations((*sdk.Msg)(nil),
+		&MsgGovernanceCancelBridgeOperation{},
+	)
+	registry.RegisterImplementations((*sdk.Msg)(nil),
+		&MsgAddParticipantsToAllowList{},
+	)
+	registry.RegisterImplementations((*sdk.Msg)(nil),
+		&MsgRemoveParticipantsFromAllowList{},
+	)
+	registry.RegisterImplementations((*sdk.Msg)(nil),
+		&MsgBridgeExchange{},
+	)
+	registry.RegisterImplementations((*sdk.Msg)(nil),
+		&MsgRegisterBridgeAddresses{},
+	)
+	registry.RegisterImplementations((*sdk.Msg)(nil),
+		&MsgRegisterTokenMetadata{},
+	)
+	registry.RegisterImplementations((*sdk.Msg)(nil),
+		&MsgApproveBridgeTokenForTrading{},
+	)
+	registry.RegisterImplementations((*sdk.Msg)(nil),
+		&MsgRegisterWrappedTokenContract{},
+	)
+	registry.RegisterImplementations((*sdk.Msg)(nil),
+		&MsgMigrateAllWrappedTokens{},
+	)
+	registry.RegisterImplementations((*sdk.Msg)(nil),
+		&MsgApproveIbcTokenForTrading{},
+	)
+	registry.RegisterImplementations((*sdk.Msg)(nil),
+		&MsgRegisterIbcTokenMetadata{},
+	)
+	// this line is used by starport scaffolding # 3
+
+	registry.RegisterImplementations((*sdk.Msg)(nil),
+		&MsgSetPoCDelegation{},
+	)
+	registry.RegisterImplementations((*sdk.Msg)(nil),
+		&MsgRefusePoCDelegation{},
+	)
+	registry.RegisterImplementations((*sdk.Msg)(nil),
+		&MsgDeclarePoCIntent{},
+	)
+
+	registry.RegisterImplementations((*sdk.Msg)(nil),
+		&MsgUpdateParams{},
+	)
+	msgservice.RegisterMsgServiceDesc(registry, &_Msg_serviceDesc)
+}

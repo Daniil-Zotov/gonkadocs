@@ -1,0 +1,25 @@
+# Shared CoreDNS for wildcard ML-node hostname resolution (ml-*.{KEY_NAME}.test).
+#
+# Owned by the long-lived compose project `testdns` (see DockerGroup.ensureSharedTestDns),
+# not by genesis/join projects — so pair `compose down` does not kill DNS between tests.
+#
+# chain-public must already exist (Testermint ensureChainPublicNetwork creates it with
+# ip_range 172.25.128.0/17 so DHCP cannot steal 172.25.0.10). Pair stacks mark the
+# network external: true so Compose does not reject the pre-created bridge.
+
+services:
+  test-dns:
+    container_name: test-dns
+    image: coredns/coredns:1.11.1
+    command: ["-conf", "/etc/coredns/Corefile"]
+    volumes:
+      - ./local-test-net/dns/Corefile:/etc/coredns/Corefile:ro
+    networks:
+      chain-public:
+        ipv4_address: 172.25.0.10
+    restart: unless-stopped
+
+networks:
+  chain-public:
+    name: chain-public
+    external: true

@@ -1,0 +1,21 @@
+[
+  {
+    "id": "node1",
+    "host": "34.171.235.205",
+    "inference_port": 8080,
+    "poc_port": 5000,
+    "max_concurrent": 500,
+    "models": {
+      "Qwen/Qwen2.5-7B-Instruct": {
+        "args": [
+          "--quantization",
+          "fp8"
+        ]
+      }
+    },
+    "hardware": [
+      {"type": "A100", "count": 1},
+      {"type": "T4", "count": 2}
+    ]
+  }
+]

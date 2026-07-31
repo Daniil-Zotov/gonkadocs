@@ -1,0 +1,561 @@
+package keeper
+
+import (
+	"context"
+	"fmt"
+	"strconv"
+
+	"cosmossdk.io/collections"
+	"cosmossdk.io/collections/indexes"
+	"cosmossdk.io/core/store"
+	"cosmossdk.io/log"
+	"cosmossdk.io/math"
+	"github.com/cosmos/cosmos-sdk/codec"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
+
+	"github.com/productscience/inference/x/collateral/types"
+	inferencetypes "github.com/productscience/inference/x/inference/types"
+)
+
+type (
+	collateralProviderRef struct {
+		provider types.RequiredCollateralProvider
+	}
+
+	maintenanceCheckerRef struct {
+		checker types.MaintenanceChecker
+	}
+
+	// UnbondingIndexes groups the secondary indexes for the UnbondingCollateral map
+	UnbondingIndexes struct {
+		// ByParticipant indexes primary keys by participant address, to allow queries by participant
+		ByParticipant *indexes.ReversePair[uint64, sdk.AccAddress, types.UnbondingCollateral]
+	}
+
+	Keeper struct {
+		cdc          codec.BinaryCodec
+		storeService store.KVStoreService
+		logger       log.Logger
+
+		// the address capable of executing a MsgUpdateParams message. Typically, this
+		// should be the x/gov module account.
+		authority string
+
+		bankViewKeeper        types.BankKeeper
+		bookkeepingBankKeeper types.BookkeepingBankKeeper
+		collateralProviderRef *collateralProviderRef
+		maintenanceRef        *maintenanceCheckerRef
+		params                collections.Item[types.Params]
+		CollateralMap         collections.Map[sdk.AccAddress, sdk.Coin]
+		Schema                collections.Schema
+		CurrentEpoch          collections.Item[uint64]
+		Jailed                collections.KeySet[sdk.AccAddress]
+		// SlashedInEpoch tracks whether a participant has been slashed for a given reason in a given epoch
+		SlashedInEpoch collections.KeySet[collections.Triple[uint64, sdk.AccAddress, string]]
+
+		// UnbondingIM is an IndexedMap with primary key Pair[completionEpoch, participant]
+		UnbondingIM collections.IndexedMap[collections.Pair[uint64, sdk.AccAddress], types.UnbondingCollateral, UnbondingIndexes]
+	}
+)
+
+func NewKeeper(
+	cdc codec.BinaryCodec,
+	storeService store.KVStoreService,
+	logger log.Logger,
+	authority string,
+
+	bankKeeper types.BankKeeper,
+	bookkeepingBankKeeper types.BookkeepingBankKeeper,
+) Keeper {
+	if _, err := sdk.AccAddressFromBech32(authority); err != nil {
+		//nolint:forbidigo
+		//init code:
+		panic(fmt.Sprintf("invalid authority address: %s", authority))
+	}
+
+	sb := collections.NewSchemaBuilder(storeService)
+	unbondingIdx := UnbondingIndexes{
+		ByParticipant: indexes.NewReversePair[types.UnbondingCollateral](
+			sb,
+			types.UnbondingByParticipantIndexPrefix,
+			"unbonding_by_participant",
+			collections.PairKeyCodec(collections.Uint64Key, sdk.AccAddressKey),
+		),
+	}
+
+	ak := Keeper{
+		cdc:          cdc,
+		storeService: storeService,
+		authority:    authority,
+		logger:       logger,
+
+		bankViewKeeper:        bankKeeper,
+		bookkeepingBankKeeper: bookkeepingBankKeeper,
+		collateralProviderRef: &collateralProviderRef{},
+		maintenanceRef:        &maintenanceCheckerRef{},
+		params:                collections.NewItem(sb, types.ParamsKey, "params", codec.CollValue[types.Params](cdc)),
+		CollateralMap:         collections.NewMap(sb, types.CollateralKey, "collateral", sdk.AccAddressKey, codec.CollValue[sdk.Coin](cdc)),
+		CurrentEpoch:          collections.NewItem(sb, types.CurrentEpochKey, "current_epoch", collections.Uint64Value),
+		Jailed:                collections.NewKeySet(sb, types.JailedKey, "jailed", sdk.AccAddressKey),
+		SlashedInEpoch:        collections.NewKeySet(sb, types.SlashedInEpochKey, "slashed_in_epoch", collections.TripleKeyCodec(collections.Uint64Key, sdk.AccAddressKey, collections.StringKey)),
+		UnbondingIM: *collections.NewIndexedMap(
+			sb,
+			types.UnbondingCollPrefix,
+			"unbonding_collateral",
+			collections.PairKeyCodec(collections.Uint64Key, sdk.AccAddressKey),
+			codec.CollValue[types.UnbondingCollateral](cdc),
+			unbondingIdx,
+		),
+	}
+	schema, err := sb.Build()
+	if err != nil {
+		//nolint:forbidigo
+		//init code:
+		panic(err)
+	}
+	ak.Schema = schema
+
+	return ak
+}
+
+// GetRequiredCollateralForSlash returns the tokenomics-required collateral for a participant.
+// If no provider is configured, legacy slashing semantics are preserved by returning zero.
+func (k Keeper) GetRequiredCollateralForSlash(ctx context.Context, participantAddress sdk.AccAddress) math.Int {
+	if k.collateralProviderRef.provider == nil {
+		return math.ZeroInt()
+	}
+
+	return k.collateralProviderRef.provider.GetRequiredCollateralForSlash(ctx, participantAddress)
+}
+
+func (k *Keeper) SetRequiredCollateralProvider(collateralProvider types.RequiredCollateralProvider) {
+	k.collateralProviderRef.provider = collateralProvider
+}
+
+// SetMaintenanceChecker sets the maintenance checker for defense-in-depth hook guards.
+func (k *Keeper) SetMaintenanceChecker(checker types.MaintenanceChecker) {
+	k.maintenanceRef.checker = checker
+}
+
+// IsParticipantInActiveMaintenance returns true if the maintenance checker is set
+// and the participant is currently in an active maintenance window.
+func (k Keeper) IsParticipantInActiveMaintenance(ctx context.Context, participant sdk.AccAddress) bool {
+	if k.maintenanceRef.checker == nil {
+		return false
+	}
+	return k.maintenanceRef.checker.IsParticipantInActiveMaintenance(ctx, participant)
+}
+
+// GetAuthority returns the module's authority.
+func (k Keeper) GetAuthority() string {
+	return k.authority
+}
+
+// Logger returns a module-specific logger.
+func (k Keeper) Logger() log.Logger {
+	return k.logger.With("module", fmt.Sprintf("x/%s", types.ModuleName))
+}
+
+// SetCollateral stores a participant's collateral amount
+func (k Keeper) SetCollateral(ctx context.Context, participantAddress sdk.AccAddress, amount sdk.Coin) error {
+	return k.CollateralMap.Set(ctx, participantAddress, amount)
+}
+
+// GetCollateral retrieves a participant's collateral amount
+func (k Keeper) GetCollateral(ctx context.Context, participantAddress sdk.AccAddress) (sdk.Coin, bool) {
+	coin, err := k.CollateralMap.Get(ctx, participantAddress)
+	return coin, err == nil
+}
+
+// RemoveCollateral removes a participant's collateral from the store
+func (k Keeper) RemoveCollateral(ctx context.Context, participantAddress sdk.AccAddress) {
+	k.CollateralMap.Remove(ctx, participantAddress)
+}
+
+func (k Keeper) IterateCollaterals(ctx context.Context, process func(address sdk.AccAddress, amount sdk.Coin) (stop bool)) error {
+	return k.CollateralMap.Walk(ctx, nil, func(address sdk.AccAddress, amount sdk.Coin) (bool, error) {
+		return process(address, amount), nil
+	})
+}
+
+// AddUnbondingCollateral stores an unbonding entry, adding to the amount if one already exists for the same participant and epoch.
+func (k Keeper) AddUnbondingCollateral(ctx sdk.Context, participantAddress sdk.AccAddress, completionEpoch uint64, amount sdk.Coin) error {
+	pk := collections.Join(completionEpoch, participantAddress)
+	// Check if an entry already exists for this epoch and participant
+	existing, err := k.UnbondingIM.Get(ctx, pk)
+	if err == nil {
+		amount = amount.Add(existing.Amount)
+	}
+
+	unbonding := types.UnbondingCollateral{
+		Participant:     participantAddress.String(),
+		CompletionEpoch: completionEpoch,
+		Amount:          amount,
+	}
+
+	return k.setUnbondingCollateralEntry(ctx, unbonding)
+}
+
+// setUnbondingCollateralEntry writes an unbonding entry directly to the store, overwriting any existing entry.
+// This is an internal helper to be used by functions like Slash that need to update state without aggregation.
+func (k Keeper) setUnbondingCollateralEntry(ctx sdk.Context, unbonding types.UnbondingCollateral) error {
+	participantAddr, err := sdk.AccAddressFromBech32(unbonding.Participant)
+	if err != nil {
+		return err
+	}
+	pk := collections.Join(unbonding.CompletionEpoch, participantAddr)
+	return k.UnbondingIM.Set(ctx, pk, unbonding)
+}
+
+// GetUnbondingCollateral retrieves a specific unbonding entry
+func (k Keeper) GetUnbondingCollateral(ctx sdk.Context, participantAddress sdk.AccAddress, completionEpoch uint64) (types.UnbondingCollateral, bool) {
+	pk := collections.Join(completionEpoch, participantAddress)
+	val, err := k.UnbondingIM.Get(ctx, pk)
+	if err != nil {
+		return types.UnbondingCollateral{}, false
+	}
+	return val, true
+}
+
+// RemoveUnbondingCollateral removes an unbonding entry
+func (k Keeper) RemoveUnbondingCollateral(ctx sdk.Context, participantAddress sdk.AccAddress, completionEpoch uint64) error {
+	pk := collections.Join(completionEpoch, participantAddress)
+	return k.UnbondingIM.Remove(ctx, pk)
+}
+
+// RemoveUnbondingByEpoch removes all unbonding entries for a specific epoch
+// This is useful for batch processing at the end of an epoch
+func (k Keeper) RemoveUnbondingByEpoch(ctx sdk.Context, completionEpoch uint64) error {
+	iter, err := k.UnbondingIM.Iterate(ctx, collections.NewPrefixedPairRange[uint64, sdk.AccAddress](completionEpoch))
+	if err != nil {
+		return err
+	}
+	defer iter.Close()
+	for ; iter.Valid(); iter.Next() {
+		pk, err := iter.Key()
+		if err != nil {
+			return err
+		}
+		if err := k.UnbondingIM.Remove(ctx, pk); err != nil {
+			return err
+		}
+	}
+	return nil
+}
+
+// GetUnbondingByEpoch returns all unbonding entries for a specific epoch
+func (k Keeper) GetUnbondingByEpoch(ctx sdk.Context, completionEpoch uint64) ([]types.UnbondingCollateral, error) {
+	iter, err := k.UnbondingIM.Iterate(ctx, collections.NewPrefixedPairRange[uint64, sdk.AccAddress](completionEpoch))
+	if err != nil {
+		return nil, err
+	}
+	defer iter.Close()
+	var list []types.UnbondingCollateral
+	for ; iter.Valid(); iter.Next() {
+		v, err := iter.Value()
+		if err != nil {
+			return nil, err
+		}
+		list = append(list, v)
+	}
+	return list, nil
+}
+
+// GetUnbondingByParticipant returns all unbonding entries for a specific participant
+func (k Keeper) GetUnbondingByParticipant(ctx sdk.Context, participantAddress sdk.AccAddress) ([]types.UnbondingCollateral, error) {
+	idxIter, err := k.UnbondingIM.Indexes.ByParticipant.MatchExact(ctx, participantAddress)
+	if err != nil {
+		return nil, err
+	}
+	defer idxIter.Close()
+	var list []types.UnbondingCollateral
+	for ; idxIter.Valid(); idxIter.Next() {
+		pk, err := idxIter.PrimaryKey()
+		if err != nil {
+			return nil, err
+		}
+		v, err := k.UnbondingIM.Get(ctx, pk)
+		if err != nil {
+			return nil, err
+		}
+		list = append(list, v)
+	}
+	return list, nil
+}
+
+// GetCurrentEpoch retrieves the current epoch from the store.
+func (k Keeper) GetCurrentEpoch(ctx sdk.Context) (uint64, error) {
+	return k.CurrentEpoch.Get(ctx)
+}
+
+// SetCurrentEpoch sets the current epoch in the store.
+func (k Keeper) SetCurrentEpoch(ctx sdk.Context, epoch uint64) error {
+	k.Logger().Info("Setting current epoch in collateral module", "epoch", epoch)
+	return k.CurrentEpoch.Set(ctx, epoch)
+}
+
+// AdvanceEpoch is called by an external module (inference) to signal an epoch transition.
+// It processes the unbonding queue for the completed epoch and increments the internal epoch counter.
+func (k Keeper) AdvanceEpoch(ctx context.Context, completedEpoch uint64) error {
+	sdkCtx := sdk.UnwrapSDKContext(ctx)
+	k.Logger().Info("advancing epoch in collateral module", "completed_epoch", completedEpoch)
+
+	// Process unbonding queue for the epoch that just finished
+	if err := k.ProcessUnbondingQueue(sdkCtx, completedEpoch); err != nil {
+		return err
+	}
+
+	// Increment the epoch counter
+	nextEpoch := completedEpoch + 1
+	return k.SetCurrentEpoch(sdkCtx, nextEpoch)
+}
+
+// ProcessUnbondingQueue iterates through all unbonding entries for a given epoch,
+// releases the funds back to the participants, and removes the processed entries.
+func (k Keeper) ProcessUnbondingQueue(ctx sdk.Context, completionEpoch uint64) error {
+	unbondingEntries, err := k.GetUnbondingByEpoch(ctx, completionEpoch)
+	if err != nil {
+		return err
+	}
+
+	for _, entry := range unbondingEntries {
+		participantAddr, err := sdk.AccAddressFromBech32(entry.Participant)
+		if err != nil {
+			// This should ideally not happen if addresses are validated on entry
+			k.Logger().Error("failed to parse participant address during unbonding processing",
+				"participant", entry.Participant, "error", err)
+			continue // Skip this entry
+		}
+
+		// Send funds from the module account back to the participant
+		err = k.bookkeepingBankKeeper.SendCoinsFromModuleToAccount(ctx, types.ModuleName, participantAddr, sdk.NewCoins(entry.Amount), "collateral unbonded")
+		if err != nil {
+			// This is a critical error, as it implies the module account is underfunded
+			// which should not happen if logic is correct.
+			// even so, a chain halt is not the way to handle it
+			k.Logger().Error("failed to send collateral back to participant during unbonding processing")
+			return err
+		}
+		k.bookkeepingBankKeeper.LogSubAccountTransaction(ctx, entry.Participant, types.ModuleName, types.SubAccountUnbonding, entry.Amount, "collateral unbonded")
+
+		// Emit event for successful withdrawal processing
+		ctx.EventManager().EmitEvents(sdk.Events{
+			sdk.NewEvent(
+				types.EventTypeProcessWithdrawal,
+				sdk.NewAttribute(types.AttributeKeyParticipant, entry.Participant),
+				sdk.NewAttribute(types.AttributeKeyAmount, entry.Amount.String()),
+				sdk.NewAttribute(types.AttributeKeyCompletionEpoch, strconv.FormatUint(completionEpoch, 10)),
+			),
+		})
+
+		k.Logger().Info("processed collateral withdrawal",
+			"participant", entry.Participant,
+			"amount", entry.Amount.String(),
+			"completion_epoch", completionEpoch,
+		)
+	}
+
+	// Remove all processed entries for this epoch
+	if len(unbondingEntries) > 0 {
+		return k.RemoveUnbondingByEpoch(ctx, completionEpoch)
+	}
+	return nil
+}
+
+// GetAllUnbondings returns all unbonding entries (for genesis export)
+func (k Keeper) GetAllUnbondings(ctx sdk.Context) ([]types.UnbondingCollateral, error) {
+	iter, err := k.UnbondingIM.Iterate(ctx, nil)
+	if err != nil {
+		return nil, err
+	}
+	defer iter.Close()
+	var list []types.UnbondingCollateral
+	for ; iter.Valid(); iter.Next() {
+		v, err := iter.Value()
+		if err != nil {
+			return nil, err
+		}
+		list = append(list, v)
+	}
+	return list, nil
+}
+
+// SetJailed stores a participant's jailed status.
+// The presence of the key indicates the participant is jailed.
+func (k Keeper) SetJailed(ctx sdk.Context, participantAddress sdk.AccAddress) error {
+	return k.Jailed.Set(ctx, participantAddress)
+}
+
+// RemoveJailed removes a participant's jailed status.
+func (k Keeper) RemoveJailed(ctx sdk.Context, participantAddress sdk.AccAddress) error {
+	return k.Jailed.Remove(ctx, participantAddress)
+}
+
+// IsJailed checks if a participant is currently marked as jailed.
+func (k Keeper) IsJailed(ctx sdk.Context, participantAddress sdk.AccAddress) (bool, error) {
+	return k.Jailed.Has(ctx, participantAddress)
+}
+
+// GetAllJailed returns all jailed participant addresses.
+func (k Keeper) GetAllJailed(ctx sdk.Context) ([]sdk.AccAddress, error) {
+	iter, err := k.Jailed.Iterate(ctx, nil)
+	if err != nil {
+		return nil, err
+	}
+	return iter.Keys()
+}
+
+// Slash penalizes a participant by burning a fraction of their collateral.
+// This includes both their active collateral and any collateral in the unbonding queue.
+// The slash is applied proportionally to all holdings, and the slashed coins are transferred
+// from the collateral module account to the governance module account
+//
+// When requiredCollateral is positive, the slash target is calculated as
+// requiredCollateral × slashFraction, capped at the total actual collateral.
+// This prevents over-depositors from being penalized more than the amount
+// required for their weight. When requiredCollateral is zero the legacy
+// behaviour is preserved (fraction applied to the entire actual balance).
+func (k Keeper) Slash(ctx context.Context, participantAddress sdk.AccAddress, slashFraction math.LegacyDec, reason string, requiredCollateral math.Int) (sdk.Coin, error) {
+	sdkCtx := sdk.UnwrapSDKContext(ctx)
+	if slashFraction.IsNegative() || slashFraction.GT(math.LegacyOneDec()) {
+		return sdk.Coin{}, fmt.Errorf("slash fraction must be between 0 and 1, got %s", slashFraction)
+	}
+	key, err := k.checkIfAlreadySlashed(ctx, participantAddress, reason)
+	if err != nil {
+		return sdk.Coin{}, err
+	}
+
+	// Gather total actual collateral (active + unbonding).
+	totalActual := math.ZeroInt()
+	activeCollateral, activeFound := k.GetCollateral(ctx, participantAddress)
+	if activeFound {
+		totalActual = totalActual.Add(activeCollateral.Amount)
+	}
+	unbondingEntries, err := k.GetUnbondingByParticipant(sdkCtx, participantAddress)
+	if err != nil {
+		return sdk.Coin{}, err
+	}
+	for _, entry := range unbondingEntries {
+		totalActual = totalActual.Add(entry.Amount.Amount)
+	}
+
+	// Determine the effective fraction to apply.
+	// If requiredCollateral is provided and smaller than totalActual, scale the
+	// fraction so that the total slash equals requiredCollateral × slashFraction.
+	effectiveFraction := slashFraction
+	if requiredCollateral.IsPositive() && totalActual.IsPositive() {
+		// slashTarget = min(requiredCollateral, totalActual) × slashFraction
+		base := math.MinInt(requiredCollateral, totalActual)
+		slashTarget := math.LegacyNewDecFromInt(base).Mul(slashFraction)
+		// effectiveFraction = slashTarget / totalActual
+		effectiveFraction = slashTarget.Quo(math.LegacyNewDecFromInt(totalActual))
+		if effectiveFraction.GT(math.LegacyOneDec()) {
+			effectiveFraction = math.LegacyOneDec()
+		}
+	}
+
+	totalSlashedAmount := sdk.NewCoin(inferencetypes.BaseCoin, math.ZeroInt())
+
+	// 1. Slash active collateral
+	if activeFound {
+		slashAmountDec := math.LegacyNewDecFromInt(activeCollateral.Amount).Mul(effectiveFraction)
+		slashAmount := sdk.NewCoin(activeCollateral.Denom, slashAmountDec.TruncateInt())
+
+		if !slashAmount.IsZero() {
+			newCollateral := activeCollateral.Sub(slashAmount)
+			if err := k.SetCollateral(ctx, participantAddress, newCollateral); err != nil {
+				return sdk.Coin{}, err
+			}
+			totalSlashedAmount = totalSlashedAmount.Add(slashAmount)
+		}
+	}
+
+	// 2. Slash unbonding collateral
+	for _, entry := range unbondingEntries {
+		slashAmountDec := math.LegacyNewDecFromInt(entry.Amount.Amount).Mul(effectiveFraction)
+		slashAmount := sdk.NewCoin(entry.Amount.Denom, slashAmountDec.TruncateInt())
+
+		if !slashAmount.IsZero() {
+			newUnbondingAmount := entry.Amount.Sub(slashAmount)
+			entry.Amount = newUnbondingAmount
+
+			// If the unbonding entry is now zero, remove it. Otherwise, update it.
+			if newUnbondingAmount.IsZero() {
+				pAddr, err := sdk.AccAddressFromBech32(entry.Participant)
+				if err != nil {
+					// This should not happen if addresses are valid
+					// even so, no panics
+					k.Logger().Error("failed to parse participant address during slash processing")
+					return sdk.Coin{}, err
+				}
+				if err := k.RemoveUnbondingCollateral(sdkCtx, pAddr, entry.CompletionEpoch); err != nil {
+					return sdk.Coin{}, err
+				}
+			} else {
+				if err := k.setUnbondingCollateralEntry(sdkCtx, entry); err != nil {
+					return sdk.Coin{}, err
+				}
+			}
+			totalSlashedAmount = totalSlashedAmount.Add(slashAmount)
+		}
+	}
+
+	// 3. Redirect the total slashed amount to governance
+	if !totalSlashedAmount.IsZero() {
+		memo := "collateral_slashed:" + reason
+		err := k.bookkeepingBankKeeper.SendCoinsFromModuleToModule(sdkCtx, types.ModuleName, govtypes.ModuleName, sdk.NewCoins(totalSlashedAmount), memo)
+		if err != nil {
+			// This is a critical error, indicating an issue with module accounts or bank module.
+			return sdk.Coin{}, fmt.Errorf("failed to transfer slashed coins to governance: %w", err)
+		}
+
+		if key != nil {
+			// Mark as slashed for this epoch+participant+reason now that slash succeeded
+			if err := k.SlashedInEpoch.Set(sdkCtx, *key); err != nil {
+				return sdk.Coin{}, err
+			}
+		}
+
+		// 4. Emit a slash event
+		sdkCtx.EventManager().EmitEvent(
+			sdk.NewEvent(
+				types.EventTypeSlashCollateral,
+				sdk.NewAttribute(types.AttributeKeyParticipant, participantAddress.String()),
+				sdk.NewAttribute(types.AttributeKeySlashAmount, totalSlashedAmount.String()),
+				sdk.NewAttribute(types.AttributeKeySlashFraction, slashFraction.String()),
+				sdk.NewAttribute(types.AttributeKeySlashReason, reason),
+			),
+		)
+
+		k.Logger().Info("slashed participant collateral",
+			"participant", participantAddress.String(),
+			"slash_fraction", slashFraction.String(),
+			"slashed_amount", totalSlashedAmount.String(),
+			"reason", reason,
+		)
+	}
+
+	return totalSlashedAmount, nil
+}
+
+func (k Keeper) checkIfAlreadySlashed(ctx context.Context, participantAddress sdk.AccAddress, reason string) (*collections.Triple[uint64, sdk.AccAddress, string], error) {
+	if reason == "" {
+		return nil, nil
+	}
+	// get current epoch; default to 0 if not set yet
+	epoch := uint64(0)
+	if v, err := k.CurrentEpoch.Get(ctx); err == nil {
+		epoch = v
+	}
+	// Check duplicate slashing for this (epoch, participant, reason)
+	var tripleKey = collections.Join3(epoch, participantAddress, reason)
+	found, err := k.SlashedInEpoch.Has(ctx, tripleKey)
+	if err != nil {
+		return nil, err
+	}
+	if found {
+		return nil, fmt.Errorf("already slashed for epoch=%d reason=%s", epoch, reason)
+	}
+	return &tripleKey, nil
+}

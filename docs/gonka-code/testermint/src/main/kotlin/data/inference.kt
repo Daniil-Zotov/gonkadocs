@@ -1,0 +1,159 @@
+package com.productscience.data
+
+data class InferencePayload(
+    val index: String,
+    val inferenceId: String,
+    val promptHash: String,
+    val promptPayload: String,  // Adjusted to String
+    val responseHash: String?,
+    val responsePayload: String?,
+    val promptTokenCount: Int?,
+    val completionTokenCount: Int?,
+    val requestedBy: String?,
+    val executedBy: String?,
+    val status: InferenceStatus,
+    val startBlockHeight: Long,
+    val endBlockHeight: Long?,
+    val startBlockTimestamp: Long,
+    val endBlockTimestamp: Long?,
+    val model: String?,
+    val maxTokens: Int,
+    val actualCost: Long?,
+    val escrowAmount: Long?,
+    val assignedTo: String?,
+    val validatedBy: List<String>? = listOf(),
+    val transferredBy: String? = null,
+    val requestTimestamp: Long? = null,
+    val transferSignature: String? = null,
+    val executionSignature: String? = null,
+    val perTokenPrice: Long? = null,
+    val originalPromptHash: String? = null,  // Phase 3: for dev signature verification
+    @com.google.gson.annotations.SerializedName("epoch_id")
+    val epochId: Long = 0,  // Phase 4: for offchain payload storage
+) {
+    val statusEnum: InferenceStatus
+        get() = status
+
+    companion object {
+        fun empty() = InferencePayload(
+            index = "",
+            inferenceId = "",
+            promptHash = "",
+            promptPayload = "",
+            responseHash = null,
+            responsePayload = null,
+            promptTokenCount = null,
+            completionTokenCount = null,
+            requestedBy = "",
+            executedBy = null,
+            status = InferenceStatus.STARTED,
+            startBlockHeight = 0L,
+            endBlockHeight = null,
+            startBlockTimestamp = 0L,
+            endBlockTimestamp = null,
+            model = "",
+            maxTokens = 0,
+            actualCost = null,
+            escrowAmount = null,
+            assignedTo = null,
+            validatedBy = listOf(),
+            perTokenPrice = null,
+            epochId = 0,
+        )
+
+    }
+
+    fun checkComplete(): Boolean =
+        !this.requestedBy.isNullOrEmpty() &&
+                !this.executedBy.isNullOrEmpty() &&
+                !this.model.isNullOrEmpty() &&
+                this.statusEnum != InferenceStatus.STARTED
+}
+
+
+enum class InferenceStatus(val value: Int) {
+    STARTED(0),
+    FINISHED(1),
+    VALIDATED(2),
+    INVALIDATED(3),
+    VOTING(4),
+    EXPIRED(5),
+    UNSPECIFIED(6);
+
+    companion object {
+        fun fromValue(value: Int): InferenceStatus =
+            values().find { it.value == value } ?: UNSPECIFIED
+
+        fun fromAny(value: Any?): InferenceStatus {
+            return when (value) {
+                is String -> {
+                    if (value.isEmpty()) return UNSPECIFIED
+                    val normalized = value.removePrefix("INFERENCE_STATUS_")
+                    values().find { it.name == normalized } ?: run {
+                        val num = normalized.toIntOrNull()
+                        if (num != null) fromValue(num) else UNSPECIFIED
+                    }
+                }
+                is Number -> fromValue(value.toInt())
+                else -> UNSPECIFIED
+            }
+        }
+    }
+}
+
+data class InferencesWrapper(
+    val inference: List<InferencePayload> = listOf()
+)
+
+data class InferenceWrapper(
+    val inference: InferencePayload
+)
+
+data class InferenceTimeoutsWrapper(
+    val inferenceTimeout: List<InferenceTimeout> = listOf()
+)
+
+data class InferenceTimeout(
+    val expirationHeight: String,
+    val inferenceId: String,
+)
+
+data class MsgClaimRewards(
+    override val type: String = "/inference.inference.MsgClaimRewards",
+    val creator: String = "",
+    val seed: Long = 0,
+    val epochIndex: Long = 0
+) : TxMessage
+
+data class ClaimRecipientEntry(
+    val epoch: Long,
+    val recipient: String
+)
+
+data class ClaimRecipientsResponse(
+    val entries: List<ClaimRecipientEntry> = emptyList()
+)
+
+data class MsgSetClaimRecipients(
+    override val type: String = "/inference.inference.MsgSetClaimRecipients",
+    val creator: String = "",
+    val entries: List<ClaimRecipientEntry> = emptyList()
+) : TxMessage
+
+// Admin endpoint request/response for storing payloads directly
+data class StorePayloadRequest(
+    @com.google.gson.annotations.SerializedName("prompt_payload")
+    val promptPayload: String,
+    @com.google.gson.annotations.SerializedName("response_payload")
+    val responsePayload: String,
+    @com.google.gson.annotations.SerializedName("epoch_id")
+    val epochId: Long
+)
+
+data class StorePayloadResponse(
+    val status: String,
+    @com.google.gson.annotations.SerializedName("inference_id")
+    val inferenceId: String,
+    @com.google.gson.annotations.SerializedName("epoch_id")
+    val epochId: Long
+)

@@ -1,0 +1,74 @@
+syntax = "proto3";
+import "inference/inference/participant.proto";
+import "inference/inference/params.proto";
+import "inference/inference/model.proto";
+package inference.inference;
+
+option go_package = "github.com/productscience/inference/x/inference/types";
+
+// Enum for timeslot types
+enum TimeslotType {
+  PRE_POC_SLOT = 0;
+  POC_SLOT = 1;
+}
+
+// These top two values are uint64s because they are IDs, not numerical values.
+message EpochGroupData {
+  uint64 poc_start_block_height = 1;
+  uint64 epoch_group_id = 2;
+  string epoch_policy = 3;
+  int64 effective_block_height = 4;
+  int64 last_block_height = 5;
+  repeated SeedSignature member_seed_signatures = 6;
+  reserved 7;
+  reserved "finishedInferences";
+  repeated ValidationWeight validation_weights = 8;
+  int64 unit_of_compute_price = 9;
+  int64 number_of_requests = 10;
+  int64 previous_epoch_requests = 11;
+  ValidationParams validation_params = 12;
+  int64 total_weight = 13;
+  // If model_id is empty, this is the parent EpochGroup
+  // If model_id is set, this is a sub EpochGroup for that specific model
+  string model_id = 14;
+  // List of model IDs for sub EpochGroups, only used in parent EpochGroup
+  repeated string sub_group_models = 15;
+  uint64 epoch_index = 16;
+  Model model_snapshot = 17;
+  int64 total_throughput = 18;
+  repeated ConfirmationWeightScale confirmation_weight_scales = 19;
+}
+
+message ConfirmationWeightScale {
+  string model_id = 1;
+  Decimal weight_scale_factor = 2;
+}
+
+message ValidationWeight {
+  string member_address = 1;
+  int64 weight = 2;
+  int32 reputation = 3;
+  // We may decide to move ml_nodes directly to EpochGroupData,
+  // but for now, this is a good solution.
+  repeated MLNodeInfo ml_nodes = 4;
+  // confirmation_weight is the final confirmed weight for epoch (from confirmation PoC events)
+  int64 confirmation_weight = 5;
+  // voting_power is the delegation-resolved voting power for this model.
+  // Only meaningful in model subgroups. Root group entries have voting_power = 0.
+  int64 voting_power = 6;
+}
+
+message SeedSignature {
+  string member_address = 1;
+  string signature = 2;
+}
+
+message MLNodeInfo {
+  string node_id = 1;
+  int64 throughput = 2;
+  int64 poc_weight = 3;
+  // Deprecated: preserved scheduling moved to PreservedNodesSnapshot keyed by
+  // each PoC episode's anchor height. Kept on the wire for compatibility; no
+  // live reader should interpret this as scheduling state.
+  repeated bool timeslot_allocation = 4 [deprecated = true];
+}

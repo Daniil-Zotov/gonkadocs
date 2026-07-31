@@ -1,0 +1,159 @@
+services:
+  chain-node:
+    container_name: ${KEY_NAME}-node
+    command: [ "sh", "./init-docker.sh" ]
+    image: ghcr.io/product-science/inferenced
+    volumes:
+      - ./prod-local/${KEY_NAME}:/root/.inference
+    environment:
+      - KEY_NAME=${KEY_NAME}
+      - REST_API_ACTIVE=${REST_API_ACTIVE:-false}
+      - P2P_EXTERNAL_ADDRESS=${P2P_EXTERNAL_ADDRESS}
+      - SNAPSHOT_INTERVAL=100
+      - SNAPSHOT_KEEP_RECENT=5
+      - DEBUG=false
+      - IS_TEST_NET=true
+    ports:
+      - "${RPC_PORT:-26657}:26657"  # RPC
+      - "${P2P_PORT:-26656}:26656"  # P2P
+    networks:
+      - chain-public
+
+  api:
+    container_name: ${KEY_NAME}-api
+    image: ghcr.io/product-science/api
+    volumes:
+      - ./prod-local/${KEY_NAME}:/root/.inference
+      - ./prod-local/${KEY_NAME}/.nats:/root/.nats
+      - ./${NODE_CONFIG}:/root/node_config.json
+    ports:
+      # Public port 9000 is NOT exposed to the host. All public access goes
+      # through the per-pair proxy (mirroring production). The proxy forwards
+      # /v1/*, /api/*, /devshard/* to api:9000 internally.
+      - "${ML_SERVER_PORT}:9100"
+      - "${ADMIN_SERVER_PORT}:9200"
+      - "${ML_GRPC_SERVER_PORT}:9300"
+      - "${NATS_SERVER_PORT}:4222"
+      - "${NODE_MANAGER_GRPC_PORT}:9400"
+    environment:
+      - KEY_NAME=${KEY_NAME}
+      - NODE_HOST=${KEY_NAME}-node
+      - DAPI_API__POC_CALLBACK_URL=${POC_CALLBACK_URL}
+      - DAPI_API__PUBLIC_URL=${PUBLIC_URL}
+      - DAPI_API__PUBLIC_SERVER_PORT=9000
+      - DAPI_API__ML_SERVER_PORT=9100
+      - DAPI_API__ADMIN_SERVER_PORT=9200
+      - DAPI_API__ML_GRPC_SERVER_PORT=9300
+      - DAPI_API__NODE_MANAGER_GRPC_PORT=9400
+      - DAPI_API__TEST_MODE=true
+      - DAPI_TX_BATCHING__FLUSH_TIMEOUT_SECONDS=1
+      - DAPI_TX_BATCHING__VALIDATION_V2_FLUSH_SIZE=${DAPI_TX_BATCHING__VALIDATION_V2_FLUSH_SIZE:-10}
+      - DAPI_TX_BATCHING__VALIDATION_V2_FLUSH_TIMEOUT_SECONDS=${DAPI_TX_BATCHING__VALIDATION_V2_FLUSH_TIMEOUT_SECONDS:-30}
+      - DAPI_TX_BATCHING__POC_COMMIT_INTERVAL_SECONDS=${DAPI_TX_BATCHING__POC_COMMIT_INTERVAL_SECONDS:-1}
+      - NODE_CONFIG_PATH=/root/node_config.json
+      - DEBUG=true
+      - IS_TEST_NET=true
+      - ENFORCED_MODEL_ID=disabled
+      - DAPI_STATS_FILE_STORAGE_ENABLED=true
+      # Empty PGHOST falls back to SQLite/file storage in dapi.
+      - PGHOST=${PGHOST:-${KEY_NAME}-postgres}
+      - PGPORT=${PGPORT:-5432}
+      - PGDATABASE=${PGDATABASE:-payloads}
+      - PGUSER=${PGUSER:-payloads}
+      - PGPASSWORD=${PGPASSWORD:-test}
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - chain-public
+
+  edge-api:
+    container_name: ${KEY_NAME}-edge-api
+    image: edge-api:latest
+    platform: ${DOCKER_PLATFORM:-linux/amd64}
+    build:
+      context: ${EDGE_API_BUILD_CONTEXT:-..}
+      dockerfile: edge-api/Dockerfile
+    environment:
+      - EDGE_API_PORT=18080
+      - CHAIN_GRPC_URL=${KEY_NAME}-node:9090
+      - CHAIN_RPC_URL=http://${KEY_NAME}-node:26657
+      - EDGE_API_OTEL_ENABLED=${EDGE_API_OTEL_ENABLED:-false}
+      - OTEL_ENDPOINT=${OTEL_ENDPOINT:-}
+      - OTEL_HEADERS=${OTEL_HEADERS:-}
+    depends_on:
+      - chain-node
+    networks:
+      - chain-public
+    restart: unless-stopped
+
+  proxy:
+    container_name: ${KEY_NAME}-proxy
+    image: ghcr.io/product-science/proxy:latest
+    build:
+      context: ../proxy
+      dockerfile: Dockerfile
+    ports:
+      - "${PROXY_PORT:-80}:80"
+    environment:
+      - KEY_NAME=${KEY_NAME}
+      - PROXY_ADD_NODE_PREFIX=true
+      - GONKA_API_PORT=${GONKA_API_PORT:-9000}
+      - CHAIN_RPC_PORT=${CHAIN_RPC_PORT:-26657}
+      - CHAIN_API_PORT=${CHAIN_API_PORT:-1317}
+      - CHAIN_GRPC_PORT=${CHAIN_GRPC_PORT:-9090}
+      - GONKA_API_EXEMPT_ROUTES=${GONKA_API_EXEMPT_ROUTES:-chat inference poc/proofs devshard}
+      - EDGE_API_SERVICE_NAME=${EDGE_API_SERVICE_NAME:-edge-api}
+      - EDGE_API_PORT=${EDGE_API_PORT:-18080}
+      - VERSIOND_SERVICE_NAME=${VERSIOND_SERVICE_NAME:-}
+      - VERSIOND_PORT=${VERSIOND_PORT_INTERNAL:-8080}
+      - DASHBOARD_PORT=${DASHBOARD_PORT}
+    depends_on:
+      - chain-node
+      - api
+      - edge-api
+    networks:
+      - chain-public
+    restart: unless-stopped
+
+  mock-server:
+    container_name: ${KEY_NAME}-mock-server
+    image: inference-mock-server
+    volumes:
+      - ./prod-local/mock-server/${KEY_NAME}:/app/files
+    build:
+      context: ../testermint
+      dockerfile: Dockerfile
+    environment:
+      - KEY_NAME=${KEY_NAME}
+    ports:
+      - "${WIREMOCK_PORT}:8080"
+    networks:
+      - chain-public
+
+  postgres:
+    container_name: ${KEY_NAME}-postgres
+    image: postgres:18.1-bookworm
+    environment:
+      POSTGRES_DB: payloads
+      POSTGRES_USER: payloads
+      POSTGRES_PASSWORD: test
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U payloads -d payloads"]
+      interval: 2s
+      timeout: 3s
+      retries: 30
+    volumes:
+      - postgres-data:/var/lib/postgresql
+    networks:
+      - chain-public
+
+volumes:
+  postgres-data:
+
+networks:
+  # Created by Testermint ensureChainPublicNetwork / long-lived testdns project
+  # (IPAM reserves .0–.127 for static addresses like test-dns=172.25.0.10).
+  chain-public:
+    name: chain-public
+    external: true

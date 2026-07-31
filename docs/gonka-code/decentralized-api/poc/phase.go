@@ -1,0 +1,167 @@
+package poc
+
+import (
+	"math"
+
+	"decentralized-api/chainphase"
+
+	"github.com/productscience/inference/x/inference/types"
+)
+
+func ShouldAcceptGeneratedArtifacts(epochState *chainphase.EpochState) bool {
+	if epochState.IsNilOrNotSynced() {
+		return false
+	}
+	if epochState.CurrentPhase == types.PoCGeneratePhase {
+		return true
+	}
+	if epochState.CurrentPhase == types.PoCGenerateWindDownPhase {
+		return epochState.LatestEpoch.IsPoCExchangeWindow(epochState.CurrentBlock.Height)
+	}
+	if epochState.CurrentPhase == types.InferencePhase &&
+		epochState.ActiveConfirmationPoCEvent != nil &&
+		epochState.ActiveConfirmationPoCEvent.Phase == types.ConfirmationPoCPhase_CONFIRMATION_POC_GENERATION {
+		event := epochState.ActiveConfirmationPoCEvent
+		epochParams := &epochState.LatestEpoch.EpochParams
+		return event.IsInBatchSubmissionWindow(epochState.CurrentBlock.Height, epochParams)
+	}
+	return false
+}
+
+// ShouldAcceptValidatedArtifacts returns true if the system should accept
+// incoming validation results from MLNodes.
+func ShouldAcceptValidatedArtifacts(epochState *chainphase.EpochState) bool {
+	if epochState.IsNilOrNotSynced() {
+		return false
+	}
+	// Regular PoC validation
+	if epochState.CurrentPhase == types.PoCValidatePhase ||
+		epochState.CurrentPhase == types.PoCValidateWindDownPhase {
+		return true
+	}
+	// Confirmation PoC validation during inference phase
+	if epochState.CurrentPhase == types.InferencePhase &&
+		epochState.ActiveConfirmationPoCEvent != nil &&
+		epochState.ActiveConfirmationPoCEvent.Phase == types.ConfirmationPoCPhase_CONFIRMATION_POC_VALIDATION {
+		return true
+	}
+	return false
+}
+
+// GetCurrentPocStageHeight returns the PoC stage start height.
+// For regular PoC: PocStartBlockHeight
+// For confirmation PoC: TriggerHeight
+func GetCurrentPocStageHeight(epochState *chainphase.EpochState) int64 {
+	if epochState.IsNilOrNotSynced() {
+		return 0
+	}
+
+	// Confirmation PoC uses event's trigger height
+	if epochState.ActiveConfirmationPoCEvent != nil &&
+		epochState.CurrentPhase == types.InferencePhase {
+		return epochState.ActiveConfirmationPoCEvent.TriggerHeight
+	}
+
+	// Regular PoC
+	return epochState.LatestEpoch.PocStartBlockHeight
+}
+
+// ShouldAcceptStoreCommit returns true if the chain will accept MsgPoCV2StoreCommit
+// at the current block height. Mirrors keeper validation.
+func ShouldAcceptStoreCommit(epochState *chainphase.EpochState, pocStageStartHeight int64) bool {
+	if epochState.IsNilOrNotSynced() {
+		return false
+	}
+
+	currentHeight := epochState.CurrentBlock.Height
+
+	if epochState.ActiveConfirmationPoCEvent != nil &&
+		epochState.CurrentPhase == types.InferencePhase &&
+		pocStageStartHeight == epochState.ActiveConfirmationPoCEvent.TriggerHeight {
+		event := epochState.ActiveConfirmationPoCEvent
+		epochParams := &epochState.LatestEpoch.EpochParams
+		return event.IsInBatchSubmissionWindow(currentHeight, epochParams)
+	}
+
+	// Regular PoC: check exchange window
+	if epochState.CurrentPhase != types.PoCGeneratePhase &&
+		epochState.CurrentPhase != types.PoCGenerateWindDownPhase {
+		return false
+	}
+
+	if !epochState.LatestEpoch.IsStartOfPocStage(pocStageStartHeight) {
+		return false
+	}
+
+	return epochState.LatestEpoch.IsPoCExchangeWindow(currentHeight)
+}
+
+// fractionPPMScale is the denominator for integer fraction arithmetic
+// (parts per million).
+const fractionPPMScale = 1_000_000
+
+// EarlyShareCaptureTarget computes the stage height and the "first fraction"
+// capture target block height for the active PoC or confirmation-PoC generation
+// window. ok is false when no generation window is active or inputs are invalid,
+// in which case the early-share guard must skip (fail open).
+//
+// The offset is computed in integer arithmetic: the configured fraction is
+// quantized to parts-per-million once, then offset = round(duration*ppm/1e6).
+// This makes the target height a pure function of (duration, ppm), identical
+// on every validator. Float spellings that agree to six decimal places (e.g.
+// the code default 1.0/3.0 and the documented config literal 0.3333333333)
+// quantize to the same ppm and therefore the same target height, which the
+// previous float multiply did not guarantee.
+//
+//   - Regular PoC: stage = PocStartBlockHeight, target = stage + offset.
+//   - Confirmation PoC: stage = event.TriggerHeight,
+//     target = event.GenerationStartHeight + offset.
+func EarlyShareCaptureTarget(epochState *chainphase.EpochState, firstFraction float64) (stageHeight int64, targetHeight int64, ok bool) {
+	if epochState.IsNilOrNotSynced() {
+		return 0, 0, false
+	}
+	ppm := int64(math.Round(firstFraction * fractionPPMScale))
+	if ppm <= 0 || ppm >= fractionPPMScale {
+		return 0, 0, false
+	}
+	duration := epochState.LatestEpoch.EpochParams.PocStageDuration
+	if duration <= 0 {
+		return 0, 0, false
+	}
+	offset := (duration*ppm + fractionPPMScale/2) / fractionPPMScale
+
+	// Confirmation PoC generation window during the inference phase.
+	if epochState.CurrentPhase == types.InferencePhase &&
+		epochState.ActiveConfirmationPoCEvent != nil &&
+		epochState.ActiveConfirmationPoCEvent.Phase == types.ConfirmationPoCPhase_CONFIRMATION_POC_GENERATION {
+		event := epochState.ActiveConfirmationPoCEvent
+		return event.TriggerHeight, event.GenerationStartHeight + offset, true
+	}
+
+	// Regular PoC generation (including the wind-down exchange window).
+	if epochState.CurrentPhase != types.PoCGeneratePhase &&
+		epochState.CurrentPhase != types.PoCGenerateWindDownPhase {
+		return 0, 0, false
+	}
+	stageHeight = epochState.LatestEpoch.PocStartBlockHeight
+	return stageHeight, stageHeight + offset, true
+}
+
+func ShouldHaveDistributedWeights(epochState *chainphase.EpochState) bool {
+	if epochState.IsNilOrNotSynced() {
+		return false
+	}
+	if epochState.CurrentPhase == types.PoCValidatePhase ||
+		epochState.CurrentPhase == types.PoCValidateWindDownPhase {
+		return true
+	}
+	if epochState.CurrentPhase == types.PoCGenerateWindDownPhase {
+		return epochState.CurrentBlock.Height >= epochState.LatestEpoch.EndOfPoCGeneration()
+	}
+	if epochState.CurrentPhase == types.InferencePhase &&
+		epochState.ActiveConfirmationPoCEvent != nil &&
+		epochState.ActiveConfirmationPoCEvent.Phase == types.ConfirmationPoCPhase_CONFIRMATION_POC_VALIDATION {
+		return true
+	}
+	return false
+}

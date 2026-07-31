@@ -1,0 +1,215 @@
+package public
+
+import (
+	"decentralized-api/apiconfig"
+	"decentralized-api/broker"
+	"decentralized-api/chainphase"
+	"decentralized-api/cosmosclient"
+	"decentralized-api/internal"
+	"decentralized-api/internal/authzcache"
+	"decentralized-api/internal/server/middleware"
+	"decentralized-api/observability"
+	"decentralized-api/payloadstorage"
+	"decentralized-api/poc/artifacts"
+	"decentralized-api/statsstorage"
+	"net/http"
+	"net/url"
+	"time"
+
+	echoMiddleware "github.com/labstack/echo/v4/middleware"
+
+	"github.com/labstack/echo/v4"
+	echomw "github.com/labstack/echo/v4/middleware"
+)
+
+const (
+	httpClientTimeout          = 20 * time.Minute
+	deprecatedDevshardV1Prefix = "/v1/devshard"
+)
+
+type Server struct {
+	e                   *echo.Echo
+	nodeBroker          *broker.Broker
+	configManager       *apiconfig.ConfigManager
+	recorder            cosmosclient.CosmosMessageClient
+	blockQueue          *BridgeQueue
+	bandwidthLimiter    *internal.BandwidthLimiter
+	identityCache       *identityCache
+	versionsCache       *versionsCache
+	payloadStorage      payloadstorage.PayloadStorage
+	phaseTracker        *chainphase.ChainPhaseTracker
+	epochGroupDataCache *internal.EpochGroupDataCache
+	artifactStore       *artifacts.ManagedArtifactStore
+	authzCache          *authzcache.AuthzCache
+	httpClient          *http.Client
+	statsStorage        statsstorage.StatsStorage
+}
+
+// ServerOption configures optional Server dependencies.
+type ServerOption func(*Server)
+
+// WithArtifactStore enables local artifact storage for off-chain PoC proofs.
+func WithArtifactStore(store *artifacts.ManagedArtifactStore) ServerOption {
+	return func(s *Server) {
+		s.artifactStore = store
+	}
+}
+
+func WithStatsStorage(store statsstorage.StatsStorage) ServerOption {
+	return func(s *Server) {
+		s.statsStorage = store
+	}
+}
+
+func NewServer(
+	nodeBroker *broker.Broker,
+	configManager *apiconfig.ConfigManager,
+	recorder cosmosclient.CosmosMessageClient,
+	blockQueue *BridgeQueue,
+	phaseTracker *chainphase.ChainPhaseTracker,
+	payloadStorage payloadstorage.PayloadStorage,
+	opts ...ServerOption) *Server {
+	e := echo.New()
+	e.HTTPErrorHandler = middleware.TransparentErrorHandler
+	// Avoid Echo's legacy RealIP behavior, which trusts the left-most XFF value.
+	// This extracts the nearest untrusted hop from XFF (falling back to RemoteAddr).
+	e.IPExtractor = echo.ExtractIPFromXFFHeader()
+
+	s := &Server{
+		e:                   e,
+		nodeBroker:          nodeBroker,
+		configManager:       configManager,
+		recorder:            recorder,
+		blockQueue:          blockQueue,
+		identityCache:       newIdentityCache(),
+		versionsCache:       newVersionsCache(),
+		payloadStorage:      payloadStorage,
+		phaseTracker:        phaseTracker,
+		epochGroupDataCache: internal.NewEpochGroupDataCache(recorder),
+		authzCache:          authzcache.NewAuthzCache(recorder),
+		httpClient:          NewNoRedirectClient(httpClientTimeout),
+	}
+
+	for _, opt := range opts {
+		opt(s)
+	}
+
+	s.bandwidthLimiter = internal.NewBandwidthLimiterFromConfig(configManager, recorder, phaseTracker)
+
+	e.Use(middleware.LoggingMiddleware)
+	e.Use(echoMiddleware.BodyLimit(MaxRequestBodyLimit))
+	g := e.Group("/v1/")
+
+	g.GET("identity", s.getIdentity)
+
+	g.POST("chat/completions", classicInferenceDeprecated)
+	g.POST("completions", classicInferenceDeprecated)
+	g.GET("chat/completions", classicInferenceDeprecated)
+	g.GET("inference/payloads", s.getInferencePayloads)
+
+	g.POST("participants", s.submitNewParticipantHandler)
+
+	g.GET("governance/pricing", s.getGovernancePricing)
+	g.GET("stats/models", s.getStatsModels)
+	g.GET("stats/developers/:developer/inferences", s.getStatsDeveloperInferences)
+	g.GET("stats/developers/:developer/summary/epochs", s.getStatsDeveloperSummaryEpochs)
+	g.GET("stats/summary/epochs", s.getStatsSummaryEpochs)
+	g.GET("stats/summary/time", s.getStatsSummaryTime)
+	g.GET("stats/debug/developers", s.getStatsDebugDevelopers)
+
+	g.GET("bridge/status", s.getBridgeStatus)
+
+	// PoC proofs endpoint with IP rate limiting (300 req/min per IP)
+	pocProofsRateLimiter := echomw.RateLimiter(echomw.NewRateLimiterMemoryStoreWithConfig(
+		echomw.RateLimiterMemoryStoreConfig{
+			Rate:      300.0 / 60.0, // 300 requests per minute
+			Burst:     30,
+			ExpiresIn: 3 * time.Minute,
+		},
+	))
+	g.POST("poc/proofs", s.postPocProofs, pocProofsRateLimiter)
+	g.POST("poc/proofs/by-nonce", s.postPocProofsByNonce, pocProofsRateLimiter)
+
+	// PoC artifact state endpoint (for testermint/validators to get real count and root_hash)
+	g.GET("poc/artifacts/state", s.getPocArtifactsState)
+
+	// Public mlnode metrics federation; see observability.MLNodeMetricsHandler.
+	// Rate limiting lives in the proxy's dedicated metrics_zone (team
+	// decision: one source of truth); compute stays bounded regardless via
+	// the cached single-flight fan-out. Kill switch:
+	// DAPI_API__MLNODE_METRICS_DISABLED=true.
+	mlnodeMetricsHandler := echo.WrapHandler(observability.MLNodeMetricsHandler(s.mlNodeMetricsTargets, observability.MLNodeMetricsConfig{}))
+	g.GET("mlnodes/metrics", func(c echo.Context) error {
+		// evaluated per request so the kill switch works without a restart
+		if configManager.GetApiConfig().MLNodeMetricsDisabled {
+			return c.NoContent(http.StatusNotFound)
+		}
+		return mlnodeMetricsHandler(c)
+	}, echomw.Gzip())
+
+	v2 := e.Group("/v2/")
+	v2.GET("participants/:address", s.getParticipantByAddress)
+	v2.GET("accounts/:address", s.getAccountByAddress)
+
+	// Dual-serve Tier A /v1 reads for old proxies that still forward to dapi.
+	// Implementations come from common/queryapi (same as edge-api) and are
+	// marked Deprecation: true. Prefer edge-api for new proxy configs.
+	s.mountDeprecatedQueryAPIRoutes(e)
+
+	e.Any(deprecatedDevshardV1Prefix, legacyDevshardDeprecated)
+	e.Any(deprecatedDevshardV1Prefix+"/*", legacyDevshardDeprecated)
+	return s
+}
+
+func (s *Server) Start(addr string) {
+	go s.e.Start(addr)
+}
+
+func legacyDevshardDeprecated(c echo.Context) error {
+	c.Response().Header().Set("Deprecation", "true")
+	c.Response().Header().Set("Link", `</devshard/{version}>; rel="successor-version"`)
+	return c.JSON(http.StatusGone, map[string]string{
+		"error":   "deprecated",
+		"message": "/v1/devshard is deprecated; use /devshard/{version}",
+	})
+}
+
+func classicInferenceDeprecated(c echo.Context) error {
+	c.Response().Header().Set("Deprecation", "true")
+	c.Response().Header().Set("Link", `</devshard/{version}>; rel="successor-version"`)
+	return c.JSON(http.StatusGone, map[string]string{
+		"error":   "deprecated",
+		"message": "classic inference is deprecated; use devshard",
+	})
+}
+
+func (s *Server) getStatus(ctx echo.Context) error {
+	return ctx.JSON(http.StatusOK, struct {
+		Status string `json:"status"`
+	}{Status: "ok"})
+}
+
+// mlNodeMetricsTargets snapshots the current mlnodes and their exporter URLs
+// (the mlnode API on the PoC port — it owns allowlist filtering; raw vLLM
+// /metrics is deliberately not scraped).
+func (s *Server) mlNodeMetricsTargets() ([]observability.MLNodeTarget, error) {
+	nodes, err := s.nodeBroker.GetNodes()
+	if err != nil {
+		return nil, err
+	}
+	targets := make([]observability.MLNodeTarget, 0, len(nodes))
+	for _, n := range nodes {
+		target, err := url.JoinPath(n.Node.PoCUrl(), "/api/v1/metrics")
+		if err != nil {
+			// unreachable for PoCUrl's format, but a silently vanished node
+			// is the exact failure class this endpoint must not have
+			_ = observability.LogMLNodeTargetError(n.Node.Id, err)
+			continue
+		}
+		targets = append(targets, observability.MLNodeTarget{
+			ID:  n.Node.Id,
+			URL: target,
+		})
+	}
+	return targets, nil
+}

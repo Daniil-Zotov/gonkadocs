@@ -1,0 +1,441 @@
+syntax = "proto3";
+package inference.inference;
+
+import "amino/amino.proto";
+import "gogoproto/gogo.proto";
+import "cosmos_proto/cosmos.proto";
+
+option go_package = "github.com/productscience/inference/x/inference/types";
+
+// Params defines the parameters for the module.
+message Params {
+  option (amino.name) = "inference/x/inference/Params";
+  option (gogoproto.equal) = true;
+  EpochParams epoch_params = 1;
+  ValidationParams validation_params = 2;
+  PocParams poc_params = 3;
+  TokenomicsParams tokenomics_params = 4;
+  CollateralParams collateral_params = 5;
+  BitcoinRewardParams bitcoin_reward_params = 6;
+  DynamicPricingParams dynamic_pricing_params = 7;
+  BandwidthLimitsParams bandwidth_limits_params = 8;
+  ConfirmationPoCParams confirmation_poc_params = 9;
+  GenesisGuardianParams genesis_guardian_params = 10;
+  DeveloperAccessParams developer_access_params = 11;
+  ParticipantAccessParams participant_access_params = 12;
+  TransferAgentAccessParams transfer_agent_access_params = 13;
+  DevshardEscrowParams devshard_escrow_params = 14;
+  reserved "subnet_escrow_params";
+  FeeParams fee_params = 15;
+  // Field numbers 16 and 17 are wire-format-locked to match the upstream
+  // multi-model branch (which shipped delegation_params=16 first). Renumbering
+  // would silently lose DelegationParams from any chain that already stored
+  // params under field 16.
+  DelegationParams delegation_params = 16;
+  MaintenanceParams maintenance_params = 17;
+}
+
+// MaintenanceParams defines the governance-controlled parameters for participant maintenance windows.
+message MaintenanceParams {
+  option (gogoproto.equal) = true;
+
+  // maintenance_enabled enables or disables scheduling and activation of maintenance windows.
+  bool maintenance_enabled = 1;
+
+  // maintenance_min_schedule_lead_blocks is the minimum number of blocks between scheduling and start.
+  uint64 maintenance_min_schedule_lead_blocks = 2;
+
+  // maintenance_max_window_blocks is the maximum duration of a single maintenance window.
+  uint64 maintenance_max_window_blocks = 3;
+
+  // maintenance_max_concurrent_validators is the maximum number of participants concurrently in maintenance.
+  uint32 maintenance_max_concurrent_validators = 4;
+
+  // maintenance_max_concurrent_power_bps is the maximum consensus power concurrently in maintenance (basis points).
+  uint32 maintenance_max_concurrent_power_bps = 5;
+
+  // maintenance_credit_cap_blocks is the maximum maintenance credit a participant may accumulate.
+  uint64 maintenance_credit_cap_blocks = 6;
+
+  // maintenance_credit_earn_per_successful_epoch_blocks is the number of credit blocks earned per successful epoch.
+  uint64 maintenance_credit_earn_per_successful_epoch_blocks = 7;
+}
+
+message GenesisOnlyParams {
+  int64 total_supply = 1;
+  int64 originator_supply = 2;
+  reserved 3;
+  reserved "top_reward_amount";
+  int64 standard_reward_amount = 4;
+  int64 pre_programmed_sale_amount = 5;
+  reserved 6;
+  reserved "top_rewards";
+  string supply_denom = 7;
+  reserved 8, 9, 10, 11;
+  reserved "top_reward_period", "top_reward_payouts", "top_reward_payouts_per_miner", "top_reward_max_duration";
+  Decimal max_individual_power_percentage = 12;
+  bool genesis_guardian_enabled = 13;
+  int64 genesis_guardian_network_maturity_threshold = 14;
+  Decimal genesis_guardian_multiplier = 15;
+  repeated string genesis_guardian_addresses = 16;
+}
+
+message TokenomicsParams {
+  option (gogoproto.equal) = true;
+  Decimal subsidy_reduction_interval = 1;
+  Decimal subsidy_reduction_amount = 2;
+  Decimal current_subsidy_percentage = 3;
+  reserved 4, 5;
+  reserved "top_reward_allowed_failure", "top_miner_poc_qualification";
+  uint64 work_vesting_period = 6;
+  uint64 reward_vesting_period = 7;
+  reserved 8;
+  reserved "top_miner_vesting_period";
+}
+
+message EpochParams {
+  option (gogoproto.equal) = true;
+  int64 epoch_length = 1;
+  int64 epoch_multiplier = 2;
+  int64 epoch_shift = 3;
+  int64 default_unit_of_compute_price = 4;
+  int64 poc_stage_duration = 5;
+  int64 poc_exchange_duration = 6 [deprecated = true];
+  int64 poc_validation_delay = 7;
+  int64 poc_validation_duration = 8;
+  int64 set_new_validators_delay = 9;
+  int64 inference_validation_cutoff = 10;
+  uint64 inference_pruning_epoch_threshold = 11;
+  int64 inference_pruning_max = 12;
+  int64 poc_pruning_max = 13;
+  Decimal poc_slot_allocation = 14; // Fraction of slots allocated to PoC (0.0 to 1.0, default 0.5)
+  int64 confirmation_poc_safety_window = 15;
+}
+
+message ValidationParams {
+  option (gogoproto.equal) = true;
+  Decimal false_positive_rate = 1;
+  int32  min_ramp_up_measurements = 2;
+  Decimal pass_value = 3;
+  Decimal min_validation_average = 4;
+  Decimal max_validation_average = 5;
+  int64  expiration_blocks = 6;
+  int64  epochs_to_max = 7;
+  int64  full_validation_traffic_cutoff = 8;
+  Decimal  min_validation_halfway = 9;
+  int64  min_validation_traffic_cutoff = 10;
+  Decimal miss_percentage_cutoff = 11;
+  Decimal miss_requests_penalty = 12;
+  int64  timestamp_expiration = 13;  // Max time in seconds until timestamps are "too old"
+  int64  timestamp_advance = 14;     // Max time in seconds until timestamps are "in the future"
+  uint64 estimated_limits_per_block_kb = 15; // Max estimated KB per block per Transfer Agent
+  Decimal invalid_reputation_preserve = 16; // How much reputation to keep after an invalidation hit (defaults to 0)
+  Decimal bad_participant_invalidation_rate = 17;
+  Decimal invalidation_h_threshold = 18; // The H value for the SPRT algorithm for invalid inferences
+  Decimal downtime_good_percentage = 19;
+  Decimal downtime_bad_percentage = 20;
+  Decimal downtime_h_threshold = 21;
+  Decimal downtime_reputation_preserve = 22; // How much reputation to keep after a downtime him (defaults to 0)
+  Decimal quick_failure_threshold = 23; // The threshold of probabilty of consecutive failures to cause a quick invalidation
+  Decimal binom_test_p0 = 24; // The null hypothesis probability for the binomial test (default 0.10)
+  bool claim_validation_enabled = 25; // Enables claim-time validation checks in MsgClaimRewards
+  string logprobs_mode = 26; // allowed: "processed_logprobs", "raw_logprobs"
+}
+
+message PoCModelParams {
+  option (gogoproto.equal) = true;
+  int32 dim = 1;
+  int32 n_layers = 2;
+  int32 n_heads = 3;
+  int32 n_kv_heads = 4;
+  int32 vocab_size = 5;
+  Decimal ffn_dim_multiplier = 6;
+  int32 multiple_of = 7;
+  Decimal norm_eps = 8;
+  int32 rope_theta = 9;
+  bool use_scaled_rope = 10;
+  int32 seq_len = 11;
+  Decimal r_target = 12;
+}
+
+// PoCStatTestParams defines statistical test parameters for PoC V2 validation.
+message PoCStatTestParams {
+  option (gogoproto.equal) = true;
+  Decimal dist_threshold = 1;      // L2 distance above which vectors are mismatched (default: 0.4)
+  Decimal p_mismatch = 2;          // Null hypothesis probability - expected honest mismatch rate (default: 0.1)
+  Decimal p_value_threshold = 3;   // P-value cutoff to declare fraud (default: 0.05)
+}
+
+message PoCModelConfig {
+  option (gogoproto.equal) = true;
+  string model_id = 1;
+  int64 seq_len = 2;
+  PoCStatTestParams stat_test = 3;
+  Decimal weight_scale_factor = 4;
+  uint64 penalty_start_epoch = 5;
+}
+
+message PocParams {
+  option (gogoproto.equal) = true;
+  int32 default_difficulty = 1;
+  int32 validation_sample_size = 2;
+  uint64 poc_data_pruning_epoch_threshold = 3;
+  Decimal weight_scale_factor = 4 [deprecated = true]; // Deprecated: use models[*].weight_scale_factor
+  PoCModelParams model_params = 5 [deprecated = true]; // V1 model architecture params, deprecated
+  string model_id = 6 [deprecated = true];  // Deprecated: use models[*].model_id
+  int64 seq_len = 7 [deprecated = true];    // Deprecated: use models[*].seq_len
+  bool poc_v2_enabled = 8;  // false = V1 (on-chain batches), true = V2 (off-chain commits). Default: true
+  bool confirmation_poc_v2_enabled = 9;  // Enables V2 for Confirmation PoC only. Migration mode: poc_v2_enabled=false + confirmation_poc_v2_enabled=true
+  PoCStatTestParams stat_test = 10 [deprecated = true];  // Deprecated: use models[*].stat_test
+  uint32 validation_slots = 11;  // Number of slots sampled per participant (0 = disabled)
+  bool poc_normalization_enabled = 12;  // Enables time-based weight normalization for PoC
+  bool poc_stronger_rng_enabled = 13;  // Switches input generation to concatenated murmur3 with full 256-bit SHA256 seed (prevents 32-bit seed-collision attacks)
+  repeated PoCModelConfig models = 14;
+  uint32 validation_vote_threshold_bps = 15;  // Strict vote threshold in basis points, 0 = default 5000; valid range [5000, 10000] so at most one side can pass
+}
+
+message Decimal {
+  option (gogoproto.equal) = true;
+  int64 value = 1;
+  int32 exponent = 2;
+}
+
+// CollateralParams defines the parameters for collateral slashing.
+message CollateralParams {
+  option (gogoproto.equal) = true;
+
+  // slash_fraction_invalid is the percentage of collateral to slash when a participant is marked INVALID.
+  Decimal slash_fraction_invalid = 1;
+
+  // slash_fraction_downtime is the percentage of collateral to slash for downtime.
+  Decimal slash_fraction_downtime = 2;
+
+  // downtime_missed_percentage_threshold is the missed request percentage that triggers a downtime slash.
+  Decimal downtime_missed_percentage_threshold = 3;
+
+  uint64 grace_period_end_epoch = 4;
+
+  // BaseWeightRatio is the portion of potential weight granted unconditionally (0-1)
+  Decimal base_weight_ratio = 5;
+
+  // CollateralPerWeightUnit is the amount of collateral required per unit of weight
+  Decimal collateral_per_weight_unit = 6;
+}
+
+// BitcoinRewardParams defines the parameters for Bitcoin-style reward system.
+message BitcoinRewardParams {
+  option (gogoproto.equal) = true;
+
+  // use_bitcoin_rewards enables/disables the Bitcoin-style reward system (default: true for production, false for safe deployment)
+  bool use_bitcoin_rewards = 1;
+
+  // initial_epoch_reward is the base reward amount per epoch (in native tokens)
+  uint64 initial_epoch_reward = 2;
+
+  // decay_rate is the exponential decay rate per epoch for reward halving
+  Decimal decay_rate = 3;
+
+  // genesis_epoch is the starting epoch for Bitcoin-style calculations
+  uint64 genesis_epoch = 4;
+
+  // utilization_bonus_factor controls bonus multipliers for high-demand models (Phase 2)
+  Decimal utilization_bonus_factor = 5;
+
+  // full_coverage_bonus_factor is the multiplier for participants supporting all governance models (Phase 2)
+  Decimal full_coverage_bonus_factor = 6;
+
+  // partial_coverage_bonus_factor is the scaling factor for partial model coverage (Phase 2)
+  Decimal partial_coverage_bonus_factor = 7;
+}
+
+// DynamicPricingParams defines the parameters for the dynamic pricing system.
+message DynamicPricingParams {
+  option (gogoproto.equal) = true;
+
+  // stability_zone_lower_bound is the lower bound of the stability zone where price doesn't change (0-1)
+  Decimal stability_zone_lower_bound = 1;
+
+  // stability_zone_upper_bound is the upper bound of the stability zone where price doesn't change (0-1)
+  Decimal stability_zone_upper_bound = 2;
+
+  // price_elasticity controls price adjustment magnitude - determines maximum change at maximum utilization deviation (0-1)
+  Decimal price_elasticity = 3;
+
+  // utilization_window_duration is the time window in seconds for utilization calculation
+  uint64 utilization_window_duration = 4;
+
+  // min_per_token_price is the minimum per-token price floor to prevent zero pricing (in native token units)
+  uint64 min_per_token_price = 5;
+
+  // base_per_token_price is the initial per-token price after grace period (in native token units)
+  uint64 base_per_token_price = 6;
+
+  // grace_period_end_epoch is the epoch when free inference period ends
+  uint64 grace_period_end_epoch = 7;
+  // grace_period_per_token_price is the per-token price during grace period (default 0 for free)
+  uint64 grace_period_per_token_price = 8;
+}
+
+// BandwidthLimitsParams defines the parameters for request bandwidth limitations.
+message BandwidthLimitsParams {
+  option (gogoproto.equal) = true;
+
+  // estimated_limits_per_block_kb is the maximum KB per block that can be consumed
+  uint64 estimated_limits_per_block_kb = 1;
+
+  // kb_per_input_token is the estimated KB per input token
+  Decimal kb_per_input_token = 2;
+
+  // kb_per_output_token is the estimated KB per output token
+  Decimal kb_per_output_token = 3;
+
+  // The total max simultaneous invalidations across the chain
+  uint64 invalidations_limit = 4;
+
+  // The seconds to look back to determine inference rate for invalidations
+  uint64 invalidations_sample_period = 5;
+
+  // The curve for the tanh function for determining how quickly traffic expands the
+  // max invalidations allowed
+  uint64 invalidations_limit_curve = 6;
+
+  // The least amount of concurrent invalidations
+  uint32 minimum_concurrent_invalidations = 7;
+
+  // max_inferences_per_block is the chain-wide limit on inference requests per block
+  uint64 max_inferences_per_block = 8;
+}
+
+// ConfirmationPoCParams defines the parameters for confirmation PoC feature.
+message ConfirmationPoCParams {
+  option (gogoproto.equal) = true;
+
+  // expected_confirmations_per_epoch is N in the trigger probability formula (e.g., 1)
+  uint64 expected_confirmations_per_epoch = 1;
+
+  // alpha_threshold is the minimum confirmed weight ratio (e.g., "0.70")
+  Decimal alpha_threshold = 2;
+
+  // slash_fraction is the collateral slashed for failure (e.g., "0.10")
+  Decimal slash_fraction = 3;
+
+  // upgrade_protection_window is blocks before/after upgrade to skip confirmation PoC (default: 500)
+  int64 upgrade_protection_window = 4;
+}
+
+message GenesisGuardianParams {
+  option (gogoproto.equal) = true;
+  // network_maturity_threshold is the minimum total network power required for the network to be considered "mature".
+  int64 network_maturity_threshold = 1;
+  // network_maturity_min_height is the minimum block height required for the network to be considered "mature".
+  int64 network_maturity_min_height = 2;
+  // guardian_addresses are the validator operator addresses treated as genesis guardians.
+  repeated string guardian_addresses = 3;
+}
+
+message DeveloperAccessParams {
+  option (gogoproto.equal) = true;
+  // until_block_height limits inference requests to allowed_developer_addresses while current_height < until_block_height.
+  // Set to 0 to disable gating.
+  int64 until_block_height = 1;
+  // allowed_developer_addresses are the bech32 account addresses allowed to request inferences before until_block_height.
+  repeated string allowed_developer_addresses = 2;
+}
+
+// ParticipantAccessParams controls participant access via blocklist and allowlist mechanisms.
+//
+// Blocklist vs Allowlist interaction:
+// - Blocklist (blocked_participant_addresses): tx-level rejection; checked on every PoC tx submission.
+// - Allowlist (use_participant_allowlist + KVStore set): epoch-level filtering; checked during epoch formation.
+// - When both are active, blocklist wins: a blocklisted address is rejected at tx time regardless of allowlist.
+//
+// The allowlist is stored in KVStore (not in params) and managed via MsgAddParticipantsToAllowList/MsgRemoveParticipantsFromAllowList.
+// Max recommended addresses per Add/Remove message: 500 (to stay within tx size limits).
+message ParticipantAccessParams {
+  option (gogoproto.equal) = true;
+  // new_participant_registration_start_height blocks creation of NEW participants while current_height < new_participant_registration_start_height.
+  // (i.e. registration opens at new_participant_registration_start_height). Set to 0 to disable.
+  int64 new_participant_registration_start_height = 1;
+  // blocked_participant_addresses are bech32 account addresses that are not allowed to participate in PoC
+  // (submit PoC batches or validations). Checked at tx submission time.
+  repeated string blocked_participant_addresses = 2;
+  // use_participant_allowlist enables epoch-formation filtering by allowlist. Default false.
+  // When true, only addresses in the KVStore allowlist are included in epoch formation.
+  bool use_participant_allowlist = 3;
+  // participant_allowlist_until_block_height: allowlist is enforced while current_height < this value.
+  // Set to 0 to disable cutoff (allowlist stays active as long as use_participant_allowlist=true).
+  int64 participant_allowlist_until_block_height = 4;
+}
+
+// TransferAgentAccessParams controls which Transfer Agents are allowed to process inference requests.
+// If allowed_transfer_addresses is empty, all TAs are allowed (no restriction).
+message TransferAgentAccessParams {
+  option (gogoproto.equal) = true;
+  // allowed_transfer_addresses are bech32 account addresses allowed to act as Transfer Agents.
+  // If empty, all TAs are allowed.
+  repeated string allowed_transfer_addresses = 1;
+}
+
+// DelegationParams defines parameters for PoC delegation in the multi-model system.
+message DelegationParams {
+  option (gogoproto.equal) = true;
+  int64 deploy_window = 1; // blocks before start_poc for delegation snapshot
+  Decimal refusal_penalty = 2; // REFUSE penalty applied per model after penalty_start_epoch
+  Decimal no_participation_penalty = 3; // NONE penalty applied per model after penalty_start_epoch
+  Decimal delegation_share = 4; // DELEGATE share transferred per model after penalty_start_epoch
+  Decimal w_threshold = 5; // min fraction of total weight from members for eligibility
+  int64 v_min = 6; // min hosts with non-zero consensus weight
+  Decimal cap_factor = 7; // max group weight as multiple of members' weight in other groups
+  string initial_model_id = 8; // model exempt from group cap; set during migration to the founding model
+  // Max fraction of voting power any single host can hold within a single
+  // model group (after delegation is resolved). Prevents a host that
+  // attracts many delegations from unilaterally controlling validation
+  // within a model's slot allocation. Zero means disabled.
+  Decimal max_model_voting_power_percentage = 9;
+}
+
+// DevshardApprovedVersion describes a single approved devshard binary.
+message DevshardApprovedVersion {
+  option (gogoproto.equal) = true;
+  // State root and devshard protocol version
+  string name = 1;
+  // Binary version
+  string binary = 2;
+  // Hash of binary to check if update is already installed
+  string sha256 = 3;
+}
+
+// DevshardEscrowParams defines governance-controlled parameters for devshard escrow creation and settlement.
+message DevshardEscrowParams {
+  option (gogoproto.equal) = true;
+  uint64 min_amount = 1;
+  uint64 max_amount = 2;
+  uint32 max_escrows_per_epoch = 3;
+  uint32 group_size = 4;
+  repeated string allowed_creator_addresses = 5;
+  uint64 token_price = 6;
+  repeated DevshardApprovedVersion approved_versions = 7;
+  uint32 max_nonce = 8;
+  bool devshard_requests_enabled = 9;
+  uint32 default_inference_seal_grace_nonces = 10;
+  uint32 default_inference_seal_grace_seconds = 11;
+  uint64 create_devshard_fee = 12;
+  uint64 fee_per_nonce = 13;
+  int64 refusal_timeout = 14;
+  int64 execution_timeout = 15;
+  uint32 validation_rate = 16;
+  uint32 vote_threshold_factor = 17; // percent, e.g. 50 == 50%
+  uint32 default_auto_seal_every_n_nonces = 18;
+}
+
+// FeeParams defines governance-controlled parameters for consensus-level
+// transaction fee enforcement. Adjustable via MsgUpdateParams governance proposal.
+message FeeParams {
+  option (gogoproto.equal) = true;
+  // Minimum gas price in ngonka enforced at consensus level.
+  uint64 min_gas_price_ngonka = 1;
+  // Extra gas consumed on the first MsgPoCV2StoreCommit per participant per epoch.
+  uint64 base_validation_gas = 2;
+  // Additional gas consumed per unit of Count delta in MsgPoCV2StoreCommit.
+  uint64 gas_per_poc_count = 3;
+}

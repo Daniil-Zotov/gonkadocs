@@ -1,0 +1,45 @@
+syntax = "proto3";
+package inference.inference;
+import "inference/inference/params.proto";
+
+option go_package = "github.com/productscience/inference/x/inference/types";
+
+enum ParticipantStatus {
+  UNSPECIFIED = 0;
+  ACTIVE = 1;
+  INACTIVE = 2;
+  INVALID = 3;
+  RAMPING = 4 [deprecated = true];
+  UNCONFIRMED = 5;
+}
+
+message Participant {
+  string index = 1;
+  string address = 2;
+  int32 weight = 3;
+  int64 join_time = 4;
+  int64 join_height = 5;
+  int64 last_inference_time = 6;
+  string inference_url = 7;
+  ParticipantStatus status = 8;
+  int64 coin_balance = 9;
+  string validator_key = 10;
+  int64 consecutive_invalid_inferences = 11;
+  string worker_public_key = 12;
+  uint32 epochs_completed = 13;
+  CurrentEpochStats current_epoch_stats = 14;
+}
+
+message CurrentEpochStats {
+  uint64 inference_count = 1;
+  uint64 missed_requests = 2;
+  uint64 earned_coins = 3;
+  uint64 rewarded_coins = 4;
+  uint64 burned_coins = 5;
+  uint64 validated_inferences = 6;
+  uint64 invalidated_inferences = 7;
+  Decimal invalidLLR = 8;
+  Decimal inactiveLLR = 9;
+  Decimal confirmationPoCRatio = 10;
+}
+

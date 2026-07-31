@@ -1,0 +1,50 @@
+name: Sync gonka-ai/gonka source code mirror
+
+on:
+  schedule:
+    - cron: '0 */1 * * *'   # every hour
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout my repo
+        uses: actions/checkout@v4
+
+      - name: Clone upstream repo (sparse, no binaries)
+        run: |
+          git clone --depth=1 --filter=blob:none --sparse https://github.com/gonka-ai/gonka.git upstream-tmp
+          cd upstream-tmp
+          git sparse-checkout set --no-cone '/*' \
+            '!/cosmovisor/**' \
+            '!/decentralized-api/cosmovisor/**' \
+            '!/inference-chain/cosmovisor/**'
+          rm -rf .git
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Sync filtered source into docs/gonka-code
+        run: python3 buildtools/sync-gonka-code.py --src upstream-tmp --dest docs/gonka-code
+
+      - name: Regenerate code map
+        run: python3 buildtools/generate-code-map.py
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/gonka-code docs/gonka-code-map.txt
+          if git diff --cached --quiet; then
+            echo "No changes — nothing to push"
+          else
+            git commit -m "chore: sync gonka-ai/gonka source mirror + code map@$(date -u +'%Y-%m-%dT%H:%MZ')"
+            git pull --rebase -X theirs --autostash origin main
+            git push
+          fi

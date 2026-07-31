@@ -1,0 +1,121 @@
+package keeper
+
+import (
+	"context"
+
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
+
+	"github.com/productscience/inference/x/inference/types"
+)
+
+// SetSettleAmount sets a specific settleAmount in the store by participant
+func (k Keeper) SetSettleAmount(ctx context.Context, settleAmount types.SettleAmount) error {
+	addr, err := sdk.AccAddressFromBech32(settleAmount.Participant)
+	if err != nil {
+		return err
+	}
+	if err := k.SettleAmounts.Set(ctx, addr, settleAmount); err != nil {
+		return err
+	}
+	return nil
+}
+
+// GetSettleAmount returns a settleAmount by participant
+func (k Keeper) GetSettleAmount(
+	ctx context.Context,
+	participant string,
+) (val types.SettleAmount, found bool) {
+	addr, err := sdk.AccAddressFromBech32(participant)
+	if err != nil {
+		return val, false
+	}
+	v, err := k.SettleAmounts.Get(ctx, addr)
+	if err != nil {
+		return val, false
+	}
+	return v, true
+}
+
+// RemoveSettleAmount removes a settleAmount from the store
+func (k Keeper) RemoveSettleAmount(
+	ctx context.Context,
+	participant string,
+) {
+	addr, err := sdk.AccAddressFromBech32(participant)
+	if err != nil {
+		return
+	}
+	_ = k.SettleAmounts.Remove(ctx, addr)
+}
+
+// GetAllSettleAmount returns all settleAmount entries
+func (k Keeper) GetAllSettleAmount(ctx context.Context) (list []types.SettleAmount) {
+	iter, err := k.SettleAmounts.Iterate(ctx, nil)
+	if err != nil {
+		return nil
+	}
+	vals, err := iter.Values()
+	if err != nil {
+		return nil
+	}
+	return vals
+}
+
+// transferUnclaimedSettleAmountToGovernance transfers coins from an unclaimed settle amount to governance (internal helper).
+func (k Keeper) transferUnclaimedSettleAmountToGovernance(ctx context.Context, settleAmount types.SettleAmount, reason string) error {
+	totalCoins := settleAmount.GetTotalCoins()
+	if totalCoins > 0 {
+		coins, err := types.GetCoins(int64(totalCoins))
+		if err != nil {
+			return err
+		}
+		memo := reason + ":" + settleAmount.Participant
+		err = k.BankKeeper.SendCoinsFromModuleToModule(ctx, types.ModuleName, govtypes.ModuleName, coins, memo)
+		if err != nil {
+			k.LogError("Error transferring unclaimed settle amount coins to governance", types.Settle, "error", err, "participant", settleAmount.Participant, "amount", totalCoins)
+			return err
+		}
+		k.SafeLogSubAccountTransaction(ctx, types.ModuleName, settleAmount.Participant, types.SettleSubAccount, totalCoins, reason)
+		k.LogInfo("Transferred unclaimed settle amount to governance", types.Settle, "participant", settleAmount.Participant, "amount", totalCoins, "reason", reason)
+	}
+	return nil
+}
+
+// SetSettleAmountWithGovernanceTransfer writes settleAmount, first moving any prior
+// unclaimed amount to governance. The prior transfer error is logged and swallowed:
+// if a numeric bug elsewhere leaves the module account underfunded, one broken
+// participant must not halt payments for everyone else.
+func (k Keeper) SetSettleAmountWithGovernanceTransfer(ctx context.Context, settleAmount types.SettleAmount) error {
+	if existingSettle, found := k.GetSettleAmount(ctx, settleAmount.Participant); found {
+		if err := k.transferUnclaimedSettleAmountToGovernance(ctx, existingSettle, "expired claim"); err != nil {
+			k.LogError("Prior settle transfer to governance failed; proceeding with new settle write",
+				types.Settle, "error", err,
+				"participant", settleAmount.Participant,
+				"priorEpochIndex", existingSettle.EpochIndex)
+		}
+	}
+
+	// Set the new settle amount
+	if err := k.SetSettleAmount(ctx, settleAmount); err != nil {
+		return err
+	}
+	k.SafeLogSubAccountTransaction(ctx, types.ModuleName, settleAmount.Participant, types.SettleSubAccount, settleAmount.GetTotalCoins(), "awaiting claim")
+	k.SafeLogSubAccountTransactionUint(ctx, settleAmount.Participant, types.ModuleName, types.OwedSubAccount, settleAmount.WorkCoins, "moved to settled")
+	return nil
+}
+
+// TransferOldSettleAmountsToGovernance transfers and removes all settle amounts older than the specified epoch.
+func (k Keeper) TransferOldSettleAmountsToGovernance(ctx context.Context, beforeEpochIndex uint64) error {
+	allSettleAmounts := k.GetAllSettleAmount(ctx)
+	for _, settleAmount := range allSettleAmounts {
+		if settleAmount.EpochIndex < beforeEpochIndex {
+			err := k.transferUnclaimedSettleAmountToGovernance(ctx, settleAmount, "expired")
+			if err != nil {
+				return err
+			}
+			k.RemoveSettleAmount(ctx, settleAmount.Participant)
+		}
+	}
+	return nil
+}

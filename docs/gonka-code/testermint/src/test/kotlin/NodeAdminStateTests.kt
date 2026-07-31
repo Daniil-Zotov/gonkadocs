@@ -1,0 +1,230 @@
+import com.productscience.*
+import com.productscience.data.*
+import org.assertj.core.api.Assertions.assertThat
+import org.junit.jupiter.api.Disabled
+import org.junit.jupiter.api.Test
+import org.junit.jupiter.api.Timeout
+import org.tinylog.kotlin.Logger
+import java.util.concurrent.TimeUnit
+
+@Timeout(value = 10, unit = TimeUnit.MINUTES)
+class NodeAdminStateTests : TestermintTest() {
+
+    @Test
+    fun `test node disable during inference phase`() {
+        val config = inferenceConfig.copy(
+            genesisSpec = createSpec(
+                epochLength = 25,
+                epochShift = 10
+            ),
+        )
+        val (_, genesis) = initCluster(config = config, reboot = true)
+        // Past set_new_validators so GetRandomExecutor uses all participants, not the
+        // preserved-node PoC filter (which is empty right at that boundary).
+        genesis.waitForStage(EpochStage.SET_NEW_VALIDATORS, offset = 2)
+
+        val genesisValidatorBeforeDisabled = genesis.node.getStakeValidator()
+        assertThat(genesisValidatorBeforeDisabled.tokens).isEqualTo(10)
+        assertThat(genesisValidatorBeforeDisabled.status).contains("BONDED")
+
+        logSection("Getting initial nodes")
+        val nodes = genesis.api.getNodes()
+        assertThat(nodes).isNotEmpty()
+        
+        val nodeToDisable = nodes.first()
+        val nodeId = nodeToDisable.node.id
+        Logger.info("Testing with node: $nodeId")
+        
+        // Verify node is initially enabled
+        assertThat(nodeToDisable.state.adminState?.enabled ?: true)
+            .isTrue()
+            .`as`("Node should be enabled initially")
+        
+        logSection("Disabling node during inference phase")
+        val disableResponse = genesis.api.disableNode(nodeId)
+        assertThat(disableResponse.nodeId).isEqualTo(nodeId)
+        assertThat(disableResponse.message).contains("disabled successfully")
+        
+        // Verify node state after disable
+        val nodesAfterDisable = genesis.api.getNodes()
+        val disabledNode = nodesAfterDisable.first { it.node.id == nodeId }
+        assertThat(disabledNode.state.adminState?.enabled)
+            .isFalse()
+            .`as`("Node should be disabled")
+        
+        val disableEpoch = disabledNode.state.adminState?.epoch ?: 0UL
+        Logger.info("Node disabled at epoch: $disableEpoch")
+        
+        // Classic-inference "disabled node still serves" check removed with the
+        // dapi deprecation; the state assertions below still cover disable/enable.
+        logSection("Waiting for PoC phase to verify node stops")
+        genesis.waitForStage(EpochStage.START_OF_POC)
+        genesis.node.waitForNextBlock(2)
+
+        val nodesInNextPoc = genesis.api.getNodes()
+        val disabledNodeInNextPoc = nodesInNextPoc.first { it.node.id == nodeId }
+        assertThat(disabledNodeInNextPoc.state.intendedStatus).isEqualTo("INFERENCE")
+        assertThat(disabledNodeInNextPoc.state.currentStatus).isEqualTo("INFERENCE")
+        assertThat(disabledNodeInNextPoc.state.adminState?.enabled).isFalse()
+
+        logSection("Re-enabling node")
+        val enableResponse = genesis.api.enableNode(nodeId)
+        assertThat(enableResponse.nodeId).isEqualTo(nodeId)
+        assertThat(enableResponse.message).contains("enabled successfully")
+        
+        // Verify node is enabled
+        val nodesAfterEnable = genesis.api.getNodes()
+        val enabledNode = nodesAfterEnable.first { it.node.id == nodeId }
+        assertThat(enabledNode.state.adminState?.enabled)
+            .isTrue()
+            .`as`("Node should be enabled again")
+
+        logSection("Waiting past set_new_validators after re-enable")
+        genesis.waitForStage(EpochStage.SET_NEW_VALIDATORS, offset = 2)
+        genesis.waitForBlock(10) { pair ->
+            pair.api.getNodes()
+                .first { it.node.id == nodeId }
+                .let { node ->
+                    node.state.adminState?.enabled == true && node.state.currentStatus == "INFERENCE"
+                }
+        }
+
+        val nodesAfterReenableEpoch = genesis.api.getNodes()
+        val reenabledNode = nodesAfterReenableEpoch.first { it.node.id == nodeId }
+        assertThat(reenabledNode.state.adminState?.enabled).isTrue()
+        assertThat(reenabledNode.state.currentStatus).isEqualTo("INFERENCE")
+    }
+
+    @Test
+    fun `test node disable during PoC phase`() {
+        val config = inferenceConfig.copy(
+            genesisSpec = createSpec(
+                epochLength = 25,
+                epochShift = 10
+            ),
+        )
+        val (_, genesis) = initCluster(config = config, reboot = true)
+        
+        logSection("Waiting for PoC phase")
+        genesis.waitForStage(EpochStage.START_OF_POC)
+        
+        logSection("Getting nodes during PoC")
+        val nodes = genesis.api.getNodes()
+        val nodeToDisable = nodes.first()
+        val nodeId = nodeToDisable.node.id
+        
+        logSection("Disabling node during PoC phase")
+        val disableResponse = genesis.api.disableNode(nodeId)
+        assertThat(disableResponse.nodeId).isEqualTo(nodeId)
+        
+        val nodesAfterDisable = genesis.api.getNodes()
+        val disabledNode = nodesAfterDisable.first { it.node.id == nodeId }
+        assertThat(disabledNode.state.adminState?.enabled)
+            .isFalse()
+            .`as`("Node should be disabled")
+
+        logSection("Waiting for current epoch validator update")
+        genesis.waitForStage(EpochStage.SET_NEW_VALIDATORS, offset = 3)
+
+        // It's too late to disable at PoC, so we expect the node to participate and keep its weight
+        val genesisStakeValidatorWhenDisabledAtPoc = genesis.node.getStakeValidator()
+        assertThat(genesisStakeValidatorWhenDisabledAtPoc.tokens).isEqualTo(10)
+        assertThat(genesisStakeValidatorWhenDisabledAtPoc.status).contains("BONDED")
+
+        genesis.waitForStage(EpochStage.START_OF_POC)
+        genesis.node.waitForNextBlock(2)
+
+        // At this point, disabled node should not be participating in new PoC.
+        val nodesInNextPoc = genesis.api.getNodes()
+        val disabledNodeInNextPoc = nodesInNextPoc.first { it.node.id == nodeId }
+        assertThat(disabledNodeInNextPoc.state.intendedStatus).isEqualTo("INFERENCE")
+        assertThat(disabledNodeInNextPoc.state.currentStatus).isEqualTo("INFERENCE")
+        
+        logSection("Verifying disabled node state persists across epochs")
+        val stillDisabledNode = genesis.api.getNodes().first { it.node.id == nodeId }
+        assertThat(stillDisabledNode.state.adminState?.enabled)
+            .isFalse()
+            .`as`("Node should remain disabled in new epoch")
+    }
+
+    @Disabled // This test doesn't make sense at the moment, rework it
+    @Test
+    fun `test node enable during PoC phase`() {
+        val (_, genesis) = initCluster()
+        
+        logSection("Disabling a node first")
+        val nodes = genesis.api.getNodes()
+        val nodeId = nodes.first().node.id
+        genesis.api.disableNode(nodeId)
+        
+        logSection("Waiting for PoC phase")
+        genesis.waitForStage(EpochStage.START_OF_POC)
+        
+        logSection("Enabling node during PoC phase")
+        val enableResponse = genesis.api.enableNode(nodeId)
+        assertThat(enableResponse.nodeId).isEqualTo(nodeId)
+        
+        val nodesAfterEnable = genesis.api.getNodes()
+        val enabledNode = nodesAfterEnable.first { it.node.id == nodeId }
+        assertThat(enabledNode.state.adminState?.enabled)
+            .isTrue()
+            .`as`("Node should be enabled")
+        
+        val enableEpoch = enabledNode.state.adminState?.epoch ?: 0UL
+        Logger.info("Node enabled at epoch: $enableEpoch during PoC phase")
+        
+        logSection("Waiting for inference phase to verify node serves")
+        genesis.waitForStage(EpochStage.END_OF_POC_VALIDATION)
+        
+        // Give some time for reconciliation
+        genesis.node.waitForNextBlock(2)
+        
+        // Node should now be able to serve inference requests
+        val inferenceResult = getInferenceResult(genesis)
+        assertThat(inferenceResult).isNotNull
+            .`as`("Enabled node should serve inference requests")
+    }
+
+    @Disabled // Wait until we've integrated multiple nodes
+    @Test
+    fun `test multiple node state changes`() {
+        val (cluster, genesis) = initCluster()
+        
+        logSection("Getting all nodes")
+        val nodes = genesis.api.getNodes()
+        assertThat(nodes).hasSizeGreaterThanOrEqualTo(2)
+            .`as`("Need at least 2 nodes for this test")
+        
+        val node1Id = nodes[0].node.id
+        val node2Id = nodes[1].node.id
+        
+        logSection("Disabling multiple nodes")
+        genesis.api.disableNode(node1Id)
+        genesis.api.disableNode(node2Id)
+        
+        val nodesAfterDisable = genesis.api.getNodes()
+        val disabledNodes = nodesAfterDisable.filter { 
+            it.node.id in listOf(node1Id, node2Id) 
+        }
+        
+        disabledNodes.forEach { node ->
+            assertThat(node.state.adminState?.enabled)
+                .isFalse()
+                .`as`("Node ${node.node.id} should be disabled")
+        }
+        
+        logSection("Selectively re-enabling one node")
+        genesis.api.enableNode(node1Id)
+        
+        val nodesAfterPartialEnable = genesis.api.getNodes()
+        val node1 = nodesAfterPartialEnable.first { it.node.id == node1Id }
+        val node2 = nodesAfterPartialEnable.first { it.node.id == node2Id }
+        
+        assertThat(node1.state.adminState?.enabled)
+            .isTrue()
+            .`as`("Node 1 should be enabled")
+        assertThat(node2.state.adminState?.enabled)
+            .isFalse()
+            .`as`("Node 2 should remain disabled")
+    }
+}

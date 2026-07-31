@@ -64,6 +64,14 @@ We serve standard `llms.txt` files that AI agents check automatically when they 
     <span class="agents-link-dot" style="background:#996e2a"></span>
     /gonka/docs/zh/sitemap.xml — Chinese sitemap
   </a>
+  <a href="/gonka-code-map.txt" class="agents-link" target="_blank">
+    <span class="agents-link-dot" style="background:#1f2328"></span>
+    /gonka-code-map.txt — Source code map
+  </a>
+  <a href="/gonka-code/" class="agents-link" target="_blank">
+    <span class="agents-link-dot" style="background:#59636e"></span>
+    /gonka-code/ — Source code mirror
+  </a>
   <a href="/search/search_index.json" class="agents-link" target="_blank">
     <span class="agents-link-dot" style="background:#cf222e"></span>
     /search/search_index.json — Search index
@@ -76,6 +84,34 @@ We serve standard `llms.txt` files that AI agents check automatically when they 
     <span class="agents-link-dot" style="background:#656d76"></span>
     /humans.txt — Credits
   </a>
+</div>
+
+---
+
+## Source Code
+
+The full source of the Gonka protocol (`gonka-ai/gonka`) is mirrored and served right here, so agents can answer deep implementation questions without cloning the repo.
+
+- **Index:** [gonka-code-map.txt](/gonka-code-map.txt) — module tree, key files, upgrade handlers, bounty rewards, design docs. Fetch this first.
+- **Raw source:** any file under [/gonka-code/](/gonka-code/) is served verbatim, e.g. `/gonka-code/inference-chain/app/app.go`.
+
+Add this to your project's rules file (`.cursorrules`, `.windsurfrules`, or `AGENTS.md`):
+
+```
+# Gonka Source Code
+
+When answering questions about Gonka internals (blockchain modules, consensus, PoC,
+upgrade handlers, bounty payouts), use the source mirror on gonkadocs.com:
+- Fetch https://gonkadocs.com/gonka-code-map.txt to locate the relevant files.
+- Then fetch raw sources from https://gonkadocs.com/gonka-code/<path>.
+- On-chain bounty distributions live in app/upgrades/v0_2_*/upgrades.go
+  (bountyRewards arrays with recipient addresses, amounts, PR references).
+- Design rationale for each feature is under /gonka-code/proposals/.
+```
+
+<div class="agents-note">
+  <strong>Tip:</strong> Use this for "how does X work in the code", PoC consensus
+  details, module wiring, or verifying on-chain bounty amounts.
 </div>
 
 ---
@@ -175,6 +211,7 @@ For fully autonomous agents (LangChain, AutoGPT, custom bots), the recommended f
 4. Each page has a markdown copy at `{url}.html.md` (e.g., `/gonka/docs/architecture/index.html.md`) for easier parsing
 5. Chinese documentation is available under `/gonka/docs/zh/` with its own sitemap at `/gonka/docs/zh/sitemap.xml`
 6. Or use the MCP server for structured access with tools
+7. For code-level questions: fetch `/gonka-code-map.txt` to locate files, then read raw sources under `/gonka-code/` (e.g. `/gonka-code/inference-chain/x/inference/`)
 
 ```python
 # Example: Python agent discovering Gonka docs

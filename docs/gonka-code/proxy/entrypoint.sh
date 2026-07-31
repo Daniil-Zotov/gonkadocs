@@ -1,0 +1,1307 @@
+#!/bin/sh
+
+# Set default values for environment variables if not provided
+
+export GONKA_API_PORT=${GONKA_API_PORT:-9000}
+export CHAIN_RPC_PORT=${CHAIN_RPC_PORT:-26657}
+export CHAIN_API_PORT=${CHAIN_API_PORT:-1317}
+export CHAIN_GRPC_PORT=${CHAIN_GRPC_PORT:-9090}
+
+# Service names - configurable for Docker vs Kubernetes
+export API_SERVICE_NAME=${API_SERVICE_NAME:-api}
+export NODE_SERVICE_NAME=${NODE_SERVICE_NAME:-node}
+export EXPLORER_SERVICE_NAME=${EXPLORER_SERVICE_NAME:-explorer}
+export PROXY_SSL_SERVICE_NAME=${PROXY_SSL_SERVICE_NAME:-proxy-ssl}
+export PROXY_SSL_PORT=${PROXY_SSL_PORT:-8080}
+export JAEGER_ENABLED=${JAEGER_ENABLED:-false}
+export JAEGER_SERVICE_NAME=${JAEGER_SERVICE_NAME:-jaeger}
+export JAEGER_PORT=${JAEGER_PORT:-16686}
+export JAEGER_BASE_PATH=${JAEGER_BASE_PATH:-/jaeger}
+export JAEGER_BASIC_AUTH_USER=${JAEGER_BASIC_AUTH_USER:-}
+export JAEGER_BASIC_AUTH_PASSWORD=${JAEGER_BASIC_AUTH_PASSWORD:-}
+export GRAFANA_ENABLED=${GRAFANA_ENABLED:-false}
+export GRAFANA_ADMIN_PASSWORD=${GRAFANA_ADMIN_PASSWORD:-}
+export GRAFANA_SERVICE_NAME=${GRAFANA_SERVICE_NAME:-grafana}
+export GRAFANA_PORT=${GRAFANA_PORT:-3000}
+export GRAFANA_BASE_PATH=${GRAFANA_BASE_PATH:-/grafana}
+
+export VERSIOND_SERVICE_NAME=${VERSIOND_SERVICE_NAME:-versiond}
+export VERSIOND_PORT=${VERSIOND_PORT:-8080}
+export DISABLE_DEVSHARD_PROXY=${DISABLE_DEVSHARD_PROXY:-false}
+
+export EDGE_API_SERVICE_NAME=${EDGE_API_SERVICE_NAME:-}
+export EDGE_API_PORT=${EDGE_API_PORT:-18080}
+# Public Tier A read-only routes (always published when EDGE_API_SERVICE_NAME is set).
+EDGE_API_ROUTE_PATHS_DEFAULT='
+/v1/status
+/v1/models
+/v1/governance/models
+/v1/governance/models-legacy
+/v1/participants
+/v1/participants/{address}
+/v1/epochs/{epoch}
+/v1/epochs/{epoch}/participants
+/v1/pricing
+/v1/restrictions/status
+/v1/restrictions/exemptions
+/v1/restrictions/exemptions/{id}/usage/{account}
+/v1/versions
+/v1/bls/epoch/{id}
+/v1/bls/epochs/{id}
+/v1/bls/signatures/{request_id}
+/v1/bridge/addresses
+/v1/poc-batches/{epoch}
+'
+# CPU-heavy verify/debug helpers: private by default. Opt in with
+# EDGE_API_EXPOSE_OPTIONAL_ROUTES=true (auth can sit on nginx in front).
+EDGE_API_OPTIONAL_ROUTE_PATHS_DEFAULT='
+/v1/verify-proof
+/v1/verify-block
+/v1/debug/pubkey-to-addr/{pubkey}
+/v1/debug/verify/{height}
+'
+if [ -z "${EDGE_API_ROUTE_PATHS:-}" ]; then
+    EDGE_API_ROUTE_PATHS=$EDGE_API_ROUTE_PATHS_DEFAULT
+fi
+export EDGE_API_ROUTE_PATHS=${EDGE_API_ROUTE_PATHS:-""}
+if [ -z "${EDGE_API_OPTIONAL_ROUTE_PATHS:-}" ]; then
+    EDGE_API_OPTIONAL_ROUTE_PATHS=$EDGE_API_OPTIONAL_ROUTE_PATHS_DEFAULT
+fi
+export EDGE_API_OPTIONAL_ROUTE_PATHS=${EDGE_API_OPTIONAL_ROUTE_PATHS:-""}
+export EDGE_API_EXPOSE_OPTIONAL_ROUTES=${EDGE_API_EXPOSE_OPTIONAL_ROUTES:-false}
+
+if [ -n "${KEY_NAME}" ] && [ "${KEY_NAME}" != "" ]; then
+    export KEY_NAME_PREFIX="${KEY_NAME}-"
+else
+    export KEY_NAME_PREFIX=""
+fi
+
+# Set final service names
+export FINAL_API_SERVICE="${KEY_NAME_PREFIX}${API_SERVICE_NAME}"
+export FINAL_NODE_SERVICE="${KEY_NAME_PREFIX}${NODE_SERVICE_NAME}"
+export FINAL_EXPLORER_SERVICE="${KEY_NAME_PREFIX}${EXPLORER_SERVICE_NAME}"
+export FINAL_PROXY_SSL_SERVICE="${KEY_NAME_PREFIX}${PROXY_SSL_SERVICE_NAME}"
+export FINAL_VERSIOND_SERVICE="${KEY_NAME_PREFIX}${VERSIOND_SERVICE_NAME}"
+export FINAL_EDGE_API_SERVICE="${KEY_NAME_PREFIX}${EDGE_API_SERVICE_NAME}"
+
+
+# Real IP Configuration (Access Control List for trusted proxy hops)
+# Secure-by-default: disabled unless PROXY_REAL_IP_FROM is explicitly configured.
+export PROXY_REAL_IP_FROM=${PROXY_REAL_IP_FROM:-""}
+export PROXY_REAL_IP_HEADER=${PROXY_REAL_IP_HEADER:-"X-Forwarded-For"}
+export PROXY_REAL_IP_RECURSIVE=${PROXY_REAL_IP_RECURSIVE:-"off"}
+REAL_IP_CONFIG=""
+
+if [ -n "$PROXY_REAL_IP_FROM" ]; then
+    # Loop through space-separated CIDRs/IPs and generate directives
+    for ip in $PROXY_REAL_IP_FROM; do
+        REAL_IP_CONFIG="${REAL_IP_CONFIG}
+        set_real_ip_from ${ip};"
+    done
+
+    REAL_IP_CONFIG="${REAL_IP_CONFIG}
+        real_ip_header ${PROXY_REAL_IP_HEADER};
+        real_ip_recursive ${PROXY_REAL_IP_RECURSIVE};"
+else
+    REAL_IP_CONFIG="# real_ip disabled (PROXY_REAL_IP_FROM is empty)"
+fi
+if [ "${JAEGER_ENABLED}" = "true" ]; then
+    export FINAL_JAEGER_SERVICE="${KEY_NAME_PREFIX}${JAEGER_SERVICE_NAME}"
+fi
+if [ "${GRAFANA_ENABLED}" = "true" ]; then
+    export FINAL_GRAFANA_SERVICE="${KEY_NAME_PREFIX}${GRAFANA_SERVICE_NAME}"
+fi
+
+export REAL_IP_CONFIG
+
+# Check if dashboard is enabled
+DASHBOARD_ENABLED="false"
+if [ -n "${DASHBOARD_PORT}" ] && [ "${DASHBOARD_PORT}" != "" ]; then
+    DASHBOARD_ENABLED="true"
+    export DASHBOARD_PORT=${DASHBOARD_PORT}
+fi
+
+# Resolve which ports/mode to enable
+# NGINX_MODE supports: http | https | both
+NGINX_MODE=${NGINX_MODE:-}
+
+ENABLE_HTTP="false"
+ENABLE_HTTPS="false"
+case "$NGINX_MODE" in
+  http) ENABLE_HTTP="true" ;;
+  https) ENABLE_HTTPS="true" ;;
+  both) ENABLE_HTTP="true"; ENABLE_HTTPS="true" ;;
+  *)
+    echo "WARNING: Unknown NGINX_MODE='$NGINX_MODE', defaulting to 'http'"
+    ENABLE_HTTP="true"
+    NGINX_MODE="http"
+    ;;
+esac
+
+# SSL is considered enabled if HTTPS is enabled
+SSL_ENABLED="false"
+if [ "$ENABLE_HTTPS" = "true" ]; then
+    SSL_ENABLED="true"
+fi
+
+# Determine server_name
+if [ -z "${SERVER_NAME:-}" ]; then
+    if [ "$SSL_ENABLED" = "true" ] && [ -n "${CERT_ISSUER_DOMAIN:-}" ]; then
+        export SERVER_NAME="$CERT_ISSUER_DOMAIN"
+    else
+        export SERVER_NAME="localhost"
+    fi
+fi
+
+# For logging
+if [ "$SSL_ENABLED" = "true" ]; then
+    export DOMAIN_NAME=${CERT_ISSUER_DOMAIN}
+fi
+
+# Log the configuration being used
+echo "Nginx Proxy Configuration:"
+echo "   KEY_NAME: $KEY_NAME"
+echo "   PROXY_ADD_NODE_PREFIX: $PROXY_ADD_NODE_PREFIX"
+echo "   API Service: $FINAL_API_SERVICE:$GONKA_API_PORT"
+echo "   Node Service: $FINAL_NODE_SERVICE (API:$CHAIN_API_PORT, RPC:$CHAIN_RPC_PORT, gRPC:$CHAIN_GRPC_PORT)"
+echo "   Explorer Service: $FINAL_EXPLORER_SERVICE:$DASHBOARD_PORT"
+echo "   Proxy-SSL Service: $FINAL_PROXY_SSL_SERVICE:$PROXY_SSL_PORT"
+if [ "$ENABLE_HTTP" = "true" ] && [ "$ENABLE_HTTPS" = "true" ]; then
+    echo "   Mode: both (HTTP:80, HTTPS:443)"
+elif [ "$ENABLE_HTTP" = "true" ]; then
+    echo "   Mode: http-only (80)"
+else
+    echo "   Mode: https-only (443)"
+fi
+if [ "$SSL_ENABLED" = "true" ]; then
+    echo "   SSL: Enabled for domain $DOMAIN_NAME"
+else
+    echo "   SSL: Disabled"
+fi
+
+# Versiond upstream. The matching /devshard/ location is defined later (after
+# streaming, conn-limit, CORS and timeout vars are set).
+if [ "${DISABLE_DEVSHARD_PROXY}" != "true" ]; then
+    echo "   Versiond Service: $FINAL_VERSIOND_SERVICE:$VERSIOND_PORT"
+    export VERSIOND_UPSTREAM="upstream versiond_backend {
+        zone versiond_backend 64k;
+        server ${FINAL_VERSIOND_SERVICE}:${VERSIOND_PORT} resolve;
+    }"
+else
+    export VERSIOND_UPSTREAM="# devshard proxy disabled"
+fi
+
+if [ -n "${EDGE_API_SERVICE_NAME}" ]; then
+    echo "   Edge API Service: $FINAL_EDGE_API_SERVICE:$EDGE_API_PORT"
+    export EDGE_API_UPSTREAM="upstream edge_api_backend {
+        zone edge_api_backend 64k;
+        server ${FINAL_EDGE_API_SERVICE}:${EDGE_API_PORT} resolve;
+    }"
+else
+    export EDGE_API_UPSTREAM="# edge-api not configured"
+fi
+
+is_placeholder_password() {
+    case "$1" in
+        ""|admin1|changeme|'<FILLIN>')
+            return 0
+            ;;
+        *)
+            return 1
+            ;;
+    esac
+}
+
+if [ "${JAEGER_ENABLED}" = "true" ]; then
+    if [ -z "${JAEGER_BASIC_AUTH_USER}" ] || is_placeholder_password "${JAEGER_BASIC_AUTH_PASSWORD}"; then
+        echo "ERROR: JAEGER_ENABLED=true requires JAEGER_BASIC_AUTH_USER and a non-default JAEGER_BASIC_AUTH_PASSWORD."
+        echo "       Set credentials in config.env before enabling Jaeger UI proxying."
+        exit 1
+    fi
+
+    htpasswd -bc /etc/nginx/jaeger.htpasswd "${JAEGER_BASIC_AUTH_USER}" "${JAEGER_BASIC_AUTH_PASSWORD}"
+
+    echo "   Jaeger Service: $FINAL_JAEGER_SERVICE:$JAEGER_PORT (base path: $JAEGER_BASE_PATH, basic auth enabled)"
+    export JAEGER_UPSTREAM="upstream jaeger_backend {
+        zone jaeger_backend 64k;
+        server ${FINAL_JAEGER_SERVICE}:${JAEGER_PORT} resolve;
+    }"
+
+    export JAEGER_LOCATION="location = ${JAEGER_BASE_PATH} {
+            auth_basic \"Jaeger\";
+            auth_basic_user_file /etc/nginx/jaeger.htpasswd;
+            return 301 ${JAEGER_BASE_PATH}/;
+        }
+
+        location ${JAEGER_BASE_PATH}/ {
+            auth_basic \"Jaeger\";
+            auth_basic_user_file /etc/nginx/jaeger.htpasswd;
+            proxy_pass http://jaeger_backend;
+            proxy_set_header Host \$\$host;
+            proxy_set_header X-Real-IP \$\$remote_addr;
+            proxy_set_header X-Forwarded-For \$\$proxy_add_x_forwarded_for;
+            proxy_set_header X-Forwarded-Proto \$\$scheme;
+        }"
+else
+    export JAEGER_UPSTREAM="# jaeger not configured"
+    export JAEGER_LOCATION="# jaeger not configured"
+fi
+
+if [ "${GRAFANA_ENABLED}" = "true" ]; then
+    if is_placeholder_password "${GRAFANA_ADMIN_PASSWORD}"; then
+        echo "ERROR: GRAFANA_ENABLED=true requires a non-default GRAFANA_ADMIN_PASSWORD."
+        echo "       Set GRAFANA_ADMIN_PASSWORD in config.env before enabling Grafana UI proxying."
+        exit 1
+    fi
+
+    echo "   Grafana Service: $FINAL_GRAFANA_SERVICE:$GRAFANA_PORT (base path: $GRAFANA_BASE_PATH)"
+    export GRAFANA_UPSTREAM="upstream grafana_backend {
+        zone grafana_backend 64k;
+        server ${FINAL_GRAFANA_SERVICE}:${GRAFANA_PORT} resolve;
+    }"
+
+    export GRAFANA_LOCATION="location = ${GRAFANA_BASE_PATH} {
+            return 301 ${GRAFANA_BASE_PATH}/;
+        }
+
+        location ${GRAFANA_BASE_PATH}/ {
+            proxy_pass http://grafana_backend;
+            proxy_set_header Host \$\$host;
+            proxy_set_header X-Real-IP \$\$remote_addr;
+            proxy_set_header X-Forwarded-For \$\$proxy_add_x_forwarded_for;
+            proxy_set_header X-Forwarded-Proto \$\$scheme;
+        }"
+else
+    export GRAFANA_UPSTREAM="# grafana not configured"
+    export GRAFANA_LOCATION="# grafana not configured"
+fi
+
+if [ "$DASHBOARD_ENABLED" = "true" ]; then
+    echo "   DASHBOARD_PORT: $DASHBOARD_PORT (enabled)"
+    echo "Dashboard: Enabled - root path will proxy to explorer"
+
+    # Set up dashboard upstream and root location for enabled dashboard
+    export DASHBOARD_UPSTREAM="upstream dashboard_backend {
+        zone dashboard_backend 64k;
+        server ${FINAL_EXPLORER_SERVICE}:${DASHBOARD_PORT} resolve;
+    }"
+
+    export ROOT_LOCATION="location / {
+            proxy_pass http://dashboard_backend/;
+            proxy_set_header Host \$\$host;
+            proxy_set_header X-Real-IP \$\$remote_addr;
+            proxy_set_header X-Forwarded-For \$\$proxy_add_x_forwarded_for;
+            proxy_set_header X-Forwarded-Proto \$\$scheme;
+
+            # WebSocket support for hot reloading
+            proxy_http_version 1.1;
+            proxy_set_header Upgrade \$\$http_upgrade;
+            proxy_set_header Connection \$\$connection_upgrade;
+        }"
+else
+    echo "   DASHBOARD_PORT: not set (disabled)"
+    echo "Dashboard: Disabled - root path will show 'not available' page"
+
+    # No dashboard upstream needed
+    export DASHBOARD_UPSTREAM="# Dashboard not configured"
+
+    # Set up root location for disabled dashboard
+    export ROOT_LOCATION="location / {
+            return 200 '<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard Not Configured</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; padding: 50px; background: #f5f5f5; }
+        .container { max-width: 600px; margin: 0 auto; background: white; padding: 40px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h1 { color: #e74c3c; margin-bottom: 20px; }
+        p { color: #666; line-height: 1.6; margin-bottom: 15px; }
+        .code { background: #f8f9fa; padding: 2px 6px; border-radius: 3px; font-family: monospace; }
+        .endpoint-list { text-align: left; display: inline-block; margin: 20px 0; }
+        .endpoint-list li { margin: 8px 0; }
+    </style>
+</head>
+<body>
+    <div class=\"container\">
+        <h1>Dashboard Not Configured</h1>
+        <p>The blockchain explorer dashboard is not enabled for this deployment.</p>
+        <p>You can access the following endpoints:</p>
+        <ul class=\"endpoint-list\">
+            <li>API endpoints: <span class=\"code\">/api/*</span></li>
+            <li>Chain RPC: <span class=\"code\">/chain-rpc/*</span></li>
+            <li>Chain REST API: <span class=\"code\">/chain-api/*</span></li>
+            <li>Chain gRPC: <span class=\"code\">/chain-grpc/*</span></li>
+            <li>Health check: <span class=\"code\">/health</span></li>
+        </ul>
+        <p>To enable the dashboard, set the <span class=\"code\">DASHBOARD_PORT</span> environment variable and include the explorer service in your deployment.</p>
+    </div>
+</body>
+</html>';
+            add_header Content-Type text/html;
+        }"
+fi
+
+# Timeout Configuration (Seconds)
+# Gonka API (Inference/Chat)
+# Connect: 75s (Generous handshake)
+# Transfer: 20m (Long inference)
+export GONKA_API_CONNECT_TIMEOUT=${GONKA_API_CONNECT_TIMEOUT:-75}
+export GONKA_API_TRANSFER_TIMEOUT=${GONKA_API_TRANSFER_TIMEOUT:-1200}
+
+# Chain API/RPC/gRPC
+# Connect: 30s (Standard)
+# Transfer: 2m (Standard)
+export CHAIN_API_CONNECT_TIMEOUT=${CHAIN_API_CONNECT_TIMEOUT:-30}
+export CHAIN_API_TRANSFER_TIMEOUT=${CHAIN_API_TRANSFER_TIMEOUT:-120}
+
+export CHAIN_RPC_CONNECT_TIMEOUT=${CHAIN_RPC_CONNECT_TIMEOUT:-30}
+export CHAIN_RPC_TRANSFER_TIMEOUT=${CHAIN_RPC_TRANSFER_TIMEOUT:-120}
+
+export CHAIN_GRPC_CONNECT_TIMEOUT=${CHAIN_GRPC_CONNECT_TIMEOUT:-30}
+export CHAIN_GRPC_TRANSFER_TIMEOUT=${CHAIN_GRPC_TRANSFER_TIMEOUT:-120}
+
+# Streaming Configuration (Gonka API)
+# Enables real-time token streaming by disabling buffering and enforcing HTTP/1.1
+export STREAMING_CONFIG='
+            # Streaming Support
+            proxy_http_version 1.1;
+            proxy_set_header Upgrade $http_upgrade;
+            proxy_set_header Connection $connection_upgrade;
+            proxy_buffering off;
+            proxy_request_buffering off;
+            gzip off;'
+
+# If SSL is intended, ensure certificates are present (attempt issuance if missing)
+if [ "$SSL_ENABLED" = "true" ]; then
+    if [ ! -f "/etc/nginx/ssl/cert.pem" ] || [ ! -f "/etc/nginx/ssl/private.key" ]; then
+        echo "SSL enabled but certificates not found; requesting via proxy-ssl"
+        /setup-ssl.sh || echo "WARNING: SSL setup failed; will attempt to continue"
+    fi
+
+    # Start background renewal loop if order.id exists (indicates auto issuance)
+    if [ -f "/etc/nginx/ssl/order.id" ]; then
+        RENEW_INTERVAL_HOURS=${RENEW_INTERVAL_HOURS:-24}
+        echo "Starting background renewal loop (every ${RENEW_INTERVAL_HOURS}h)"
+        (
+            while true; do
+                if /setup-ssl.sh renew-if-needed; then
+                    echo "No renewal needed"
+                else
+                    if [ "$?" -eq 10 ]; then
+                        echo "Certificate renewed; reloading nginx"
+                        nginx -s reload || true
+                    else
+                        echo "WARNING: Renewal attempt failed"
+                    fi
+                fi
+                sleep $(( RENEW_INTERVAL_HOURS * 3600 ))
+            done
+        ) &
+    fi
+fi
+
+# Prepare template vars for unified config
+if [ "$ENABLE_HTTP" = "true" ]; then
+    export LISTEN_HTTP="listen 80;"
+else
+    export LISTEN_HTTP="# HTTP disabled"
+fi
+
+if [ "$ENABLE_HTTPS" = "true" ]; then
+    export LISTEN_HTTPS="listen 443 ssl;
+        http2 on;
+        http2_max_concurrent_streams 128;"
+    export SSL_CONFIG="ssl_certificate /etc/nginx/ssl/cert.pem;
+        ssl_certificate_key /etc/nginx/ssl/private.key;
+        add_header Strict-Transport-Security \"max-age=63072000; includeSubDomains; preload\" always;
+
+        # SSL Security Settings
+        ssl_protocols TLSv1.2 TLSv1.3;
+        ssl_ciphers ECDHE-RSA-AES256-GCM-SHA512:DHE-RSA-AES256-GCM-SHA512:ECDHE-RSA-AES256-GCM-SHA384:DHE-RSA-AES256-GCM-SHA384;
+        ssl_prefer_server_ciphers off;
+        ssl_session_cache shared:SSL:10m;
+        ssl_session_timeout 10m;"
+else
+    export LISTEN_HTTPS="# HTTPS disabled"
+    export SSL_CONFIG="# SSL disabled"
+fi
+
+# Route Disabling Logic
+# If DISABLE_* env vars are set to true, inject a "return 404" into the location block
+
+if [ "${DISABLE_GONKA_API}" = "true" ]; then
+    export API_STATUS="return 404 'App API Disabled';"
+    echo "App API: Disabled"
+else
+    export API_STATUS=""
+fi
+
+if [ -z "${DISABLE_CHAIN_RPC}" ] || [ "${DISABLE_CHAIN_RPC}" = "true" ]; then
+    export CHAIN_RPC_STATUS="return 404 'Chain RPC Disabled';"
+    echo "Chain RPC: Disabled"
+else
+    export CHAIN_RPC_STATUS=""
+fi
+
+if [ -z "${DISABLE_CHAIN_API}" ] || [ "${DISABLE_CHAIN_API}" = "true" ]; then
+    export CHAIN_API_STATUS="return 404 'Chain API Disabled';"
+    echo "Chain API: Disabled"
+else
+    export CHAIN_API_STATUS=""
+fi
+
+if [ -z "${DISABLE_CHAIN_GRPC}" ] || [ "${DISABLE_CHAIN_GRPC}" = "true" ]; then
+    export CHAIN_GRPC_STATUS="return 404 'Chain gRPC Disabled';"
+    echo "Chain gRPC: Disabled"
+else
+    export CHAIN_GRPC_STATUS=""
+fi
+
+# CORS Configuration - Single source of truth for all location blocks
+CORS_ALLOW_ORIGIN=${CORS_ALLOW_ORIGIN:-"*"}
+
+export CORS_CONFIG="
+            # CORS setup
+            if (\$\$request_method = 'OPTIONS') {
+                add_header 'Access-Control-Allow-Origin' '${CORS_ALLOW_ORIGIN}';
+                add_header 'Access-Control-Allow-Methods' 'GET, POST, OPTIONS, PUT, DELETE';
+                add_header 'Access-Control-Allow-Headers' 'DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization';
+                add_header 'Access-Control-Max-Age' 1728000;
+                add_header 'Content-Type' 'text/plain; charset=utf-8';
+                add_header 'Content-Length' 0;
+                return 204;
+            }
+            add_header 'Access-Control-Allow-Origin' '${CORS_ALLOW_ORIGIN}' always;
+            add_header 'Access-Control-Allow-Methods' 'GET, POST, OPTIONS, PUT, DELETE' always;
+            add_header 'Access-Control-Allow-Headers' 'DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization' always;
+            add_header 'Access-Control-Expose-Headers' 'Content-Length,Content-Range' always;"
+
+
+# Configure DNS resolver for dynamic upstream re-resolution
+if [ -n "${RESOLVER:-}" ]; then
+    export RESOLVER_DIRECTIVE="resolver ${RESOLVER} valid=10s ipv6=off;"
+else
+    # Default Docker DNS, override with RESOLVER to your infra DNS if needed
+    export RESOLVER_DIRECTIVE="resolver 127.0.0.11 valid=10s ipv6=off;"
+fi
+
+# Rate Limiting Logic (Granular)
+# Default values
+
+# Global (Safety Net - Ceiling for everything)
+# Default: 1000r/s to ensure it doesn't throttle Exempt routes (500r/s)
+GLOBAL_RATE_LIMIT_VAL=${GLOBAL_RATE_LIMIT_RPS:-1000}
+GLOBAL_RATE_UNIT=${GLOBAL_RATE_UNIT:-s}
+GLOBAL_BURST=${GLOBAL_BURST:-5000}
+
+# Gonka API (Standard/Punisher)
+# Default: 10r/m + 600 burst = 1 hr recovery
+GONKA_API_RATE_LIMIT_VAL=${GONKA_API_RATE_LIMIT_RPS:-10}
+# Dedicated budget for the public mlnode metrics federation endpoint:
+# separated from api_zone so scraping consumers (Prometheus/Grafana) do not
+# compete with inference/API clients for the same bucket.
+METRICS_RATE_LIMIT_VAL=${METRICS_RATE_LIMIT_RPM:-6}
+METRICS_RATE_UNIT=${METRICS_RATE_UNIT:-m}
+METRICS_BURST=${METRICS_BURST:-5}
+METRICS_CONN_LIMIT=${METRICS_CONN_LIMIT:-3}
+GONKA_API_RATE_UNIT=${GONKA_API_RATE_UNIT:-m}
+GONKA_API_BURST=${GONKA_API_BURST:-600}
+
+# Gonka API Exemptions (High Performance)
+# Routes: chat, inference, training (partial matching)
+EXEMPT_RATE_LIMIT_VAL=${EXEMPT_RATE_LIMIT_RPS:-500}
+EXEMPT_RATE_UNIT=${EXEMPT_RATE_UNIT:-s}
+EXEMPT_BURST=${EXEMPT_BURST:-2000}
+GONKA_API_EXEMPT_ROUTES=${GONKA_API_EXEMPT_ROUTES:-"chat inference poc/proofs subnet devshard"}
+CHAIN_API_EXEMPT_ROUTES=${CHAIN_API_EXEMPT_ROUTES:-""}
+CHAIN_RPC_EXEMPT_ROUTES=${CHAIN_RPC_EXEMPT_ROUTES:-""}
+CHAIN_GRPC_EXEMPT_ROUTES=${CHAIN_GRPC_EXEMPT_ROUTES:-""}
+
+# Public DevShard observability (unauthenticated GETs). Tighter than exempt so
+# scrapers cannot amplify stats/diffs polling. Protocol (chat/gossip/payloads)
+# stays on the exempt catch-all under /devshard/.
+DEVSHARD_OBS_RATE_LIMIT_VAL=${DEVSHARD_OBS_RATE_LIMIT_RPS:-10}
+DEVSHARD_OBS_RATE_UNIT=${DEVSHARD_OBS_RATE_UNIT:-s}
+DEVSHARD_OBS_BURST=${DEVSHARD_OBS_BURST:-20}
+
+# Chain API
+CHAIN_API_RATE_LIMIT_VAL=${CHAIN_API_RATE_LIMIT_RPS:-20}
+CHAIN_API_RATE_UNIT=${CHAIN_API_RATE_UNIT:-m}
+CHAIN_API_BURST=${CHAIN_API_BURST:-200}
+
+# Chain RPC
+CHAIN_RPC_RATE_LIMIT_VAL=${CHAIN_RPC_RATE_LIMIT_RPS:-20}
+CHAIN_RPC_RATE_UNIT=${CHAIN_RPC_RATE_UNIT:-m}
+CHAIN_RPC_BURST=${CHAIN_RPC_BURST:-200}
+
+# Chain gRPC
+CHAIN_GRPC_RATE_LIMIT_VAL=${CHAIN_GRPC_RATE_LIMIT_RPS:-20}
+CHAIN_GRPC_RATE_UNIT=${CHAIN_GRPC_RATE_UNIT:-m}
+CHAIN_GRPC_BURST=${CHAIN_GRPC_BURST:-200}
+
+
+echo "Timeouts (Connect/Transfer):"
+echo "   App API: ${GONKA_API_CONNECT_TIMEOUT}s / ${GONKA_API_TRANSFER_TIMEOUT}s"
+echo "   Chain API: ${CHAIN_API_CONNECT_TIMEOUT}s / ${CHAIN_API_TRANSFER_TIMEOUT}s"
+echo "   Chain RPC: ${CHAIN_RPC_CONNECT_TIMEOUT}s / ${CHAIN_RPC_TRANSFER_TIMEOUT}s"
+echo "   Chain gRPC: ${CHAIN_GRPC_CONNECT_TIMEOUT}s / ${CHAIN_GRPC_TRANSFER_TIMEOUT}s"
+
+# Route Blocking Configuration
+GONKA_API_BLOCKED_ROUTES=${GONKA_API_BLOCKED_ROUTES:-"poc-batches"}
+CHAIN_API_BLOCKED_ROUTES=${CHAIN_API_BLOCKED_ROUTES:-""}
+CHAIN_RPC_BLOCKED_ROUTES=${CHAIN_RPC_BLOCKED_ROUTES:-""}
+CHAIN_GRPC_BLOCKED_ROUTES=${CHAIN_GRPC_BLOCKED_ROUTES:-""}
+
+echo "Rate Limits:"
+echo "   Global: ${GLOBAL_RATE_LIMIT_VAL}r/${GLOBAL_RATE_UNIT} (burst=${GLOBAL_BURST})"
+echo "   App API (Standard): ${GONKA_API_RATE_LIMIT_VAL}r/${GONKA_API_RATE_UNIT} (burst=${GONKA_API_BURST})"
+echo "   App API (Exempt): ${EXEMPT_RATE_LIMIT_VAL}r/${EXEMPT_RATE_UNIT} (burst=${EXEMPT_BURST}) -> [${GONKA_API_EXEMPT_ROUTES}]"
+echo "   DevShard obs: ${DEVSHARD_OBS_RATE_LIMIT_VAL}r/${DEVSHARD_OBS_RATE_UNIT} (burst=${DEVSHARD_OBS_BURST})"
+echo "   Chain API: ${CHAIN_API_RATE_LIMIT_VAL}r/${CHAIN_API_RATE_UNIT} (burst=${CHAIN_API_BURST})"
+echo "   Chain RPC: ${CHAIN_RPC_RATE_LIMIT_VAL}r/${CHAIN_RPC_RATE_UNIT} (burst=${CHAIN_RPC_BURST})"
+echo "   Chain gRPC: ${CHAIN_GRPC_RATE_LIMIT_VAL}r/${CHAIN_GRPC_RATE_UNIT} (burst=${CHAIN_GRPC_BURST})"
+echo "Blocked Routes:"
+echo "   App API: [${GONKA_API_BLOCKED_ROUTES}]"
+echo "   Chain API: [${CHAIN_API_BLOCKED_ROUTES}]"
+echo "   Chain RPC: [${CHAIN_RPC_BLOCKED_ROUTES}]"
+echo "   Chain gRPC: [${CHAIN_GRPC_BLOCKED_ROUTES}]"
+
+# Define Zones
+# Use $$whitelist_limit_key so it persists after first envsubst
+export LIMIT_REQ_ZONE_GLOBAL="limit_req_zone \$\$whitelist_limit_key zone=global_zone:10m rate=${GLOBAL_RATE_LIMIT_VAL}r/${GLOBAL_RATE_UNIT};"
+export LIMIT_REQ_ZONE_GONKA_API="limit_req_zone \$\$whitelist_limit_key zone=api_zone:10m rate=${GONKA_API_RATE_LIMIT_VAL}r/${GONKA_API_RATE_UNIT};"
+export LIMIT_REQ_ZONE_METRICS="limit_req_zone \$\$whitelist_limit_key zone=metrics_zone:10m rate=${METRICS_RATE_LIMIT_VAL}r/${METRICS_RATE_UNIT};"
+export LIMIT_REQ_ZONE_EXEMPT="limit_req_zone \$\$whitelist_limit_key zone=exempt_zone:10m rate=${EXEMPT_RATE_LIMIT_VAL}r/${EXEMPT_RATE_UNIT};"
+export LIMIT_REQ_ZONE_DEVSHARD_OBS="limit_req_zone \$\$whitelist_limit_key zone=devshard_obs:10m rate=${DEVSHARD_OBS_RATE_LIMIT_VAL}r/${DEVSHARD_OBS_RATE_UNIT};"
+export LIMIT_REQ_ZONE_CHAIN_API="limit_req_zone \$\$whitelist_limit_key zone=chain_api_zone:10m rate=${CHAIN_API_RATE_LIMIT_VAL}r/${CHAIN_API_RATE_UNIT};"
+export LIMIT_REQ_ZONE_CHAIN_RPC="limit_req_zone \$\$whitelist_limit_key zone=rpc_zone:10m rate=${CHAIN_RPC_RATE_LIMIT_VAL}r/${CHAIN_RPC_RATE_UNIT};"
+export LIMIT_REQ_ZONE_CHAIN_GRPC="limit_req_zone \$\$whitelist_limit_key zone=grpc_zone:10m rate=${CHAIN_GRPC_RATE_LIMIT_VAL}r/${CHAIN_GRPC_RATE_UNIT};"
+
+# --------------------------------------------------------------------------------
+# Concurrency Limiting (Connection Limits)
+# --------------------------------------------------------------------------------
+ENABLE_CONN_LIMITS=${ENABLE_CONN_LIMITS:-"true"}
+GLOBAL_CONN_LIMIT=${GLOBAL_CONN_LIMIT:-500}
+GONKA_API_CONN_LIMIT=${GONKA_API_CONN_LIMIT:-100}
+EXEMPT_CONN_LIMIT=${EXEMPT_CONN_LIMIT:-300}
+CHAIN_RPC_CONN_LIMIT=${CHAIN_RPC_CONN_LIMIT:-20}
+CHAIN_API_CONN_LIMIT=${CHAIN_API_CONN_LIMIT:-20}
+CHAIN_GRPC_CONN_LIMIT=${CHAIN_GRPC_CONN_LIMIT:-20}
+
+# Define Zones (Always available to prevent template errors)
+export LIMIT_CONN_ZONE_GLOBAL="limit_conn_zone \$\$whitelist_limit_key zone=conn_global:10m;"
+export LIMIT_CONN_ZONE_GONKA_API="limit_conn_zone \$\$whitelist_limit_key zone=conn_api:10m;"
+export LIMIT_CONN_ZONE_METRICS="limit_conn_zone \$\$whitelist_limit_key zone=conn_metrics:10m;"
+export LIMIT_CONN_ZONE_EXEMPT="limit_conn_zone \$\$whitelist_limit_key zone=conn_exempt:10m;"
+export LIMIT_CONN_ZONE_CHAIN_RPC="limit_conn_zone \$\$whitelist_limit_key zone=conn_rpc:10m;"
+export LIMIT_CONN_ZONE_CHAIN_API="limit_conn_zone \$\$whitelist_limit_key zone=conn_chain_api:10m;"
+export LIMIT_CONN_ZONE_CHAIN_GRPC="limit_conn_zone \$\$whitelist_limit_key zone=conn_grpc:10m;"
+
+# Define Rules (Conditional)
+if [ "$ENABLE_CONN_LIMITS" = "true" ]; then
+    export LIMIT_CONN_RULE_GLOBAL="limit_conn conn_global ${GLOBAL_CONN_LIMIT};"
+    export LIMIT_CONN_RULE_GONKA_API="limit_conn conn_api ${GONKA_API_CONN_LIMIT};"
+    export LIMIT_CONN_RULE_EXEMPT="limit_conn conn_exempt ${EXEMPT_CONN_LIMIT};"
+    export LIMIT_CONN_RULE_CHAIN_RPC="limit_conn conn_rpc ${CHAIN_RPC_CONN_LIMIT};"
+    export LIMIT_CONN_RULE_CHAIN_API="limit_conn conn_chain_api ${CHAIN_API_CONN_LIMIT};"
+    export LIMIT_CONN_RULE_CHAIN_GRPC="limit_conn conn_grpc ${CHAIN_GRPC_CONN_LIMIT};"
+    echo "Concurrency Limits: Enabled"
+else
+    # Disabled - Empty strings result in no directive in Nginx
+    export LIMIT_CONN_RULE_GLOBAL=""
+    export LIMIT_CONN_RULE_GONKA_API=""
+    export LIMIT_CONN_RULE_EXEMPT=""
+    export LIMIT_CONN_RULE_CHAIN_RPC=""
+    export LIMIT_CONN_RULE_CHAIN_API=""
+    export LIMIT_CONN_RULE_CHAIN_GRPC=""
+    echo "Concurrency Limits: Disabled"
+fi
+
+# /devshard/ location -- forwards to versiond which dispatches to the matching
+# child binary.
+#
+# Phase 1: versioned observability paths are rewritten internally to versionless
+# canonical URLs (no client-visible redirect). Dashboards that hardcode
+# /devshard/{version}/sessions/.../diffs keep working; the version segment is
+# dropped before versiond so it cannot participate in protocol bind.
+#
+# Public obs (versionless + rewritten legacy) uses a tighter rate-limit zone.
+# Protocol POSTs and payloads stay on /devshard/{version}/... via the exempt
+# catch-all below (chat/SSE need high limits).
+if [ "${DISABLE_DEVSHARD_PROXY}" != "true" ]; then
+    export DEVSHARD_VERSIOND_LOCATION="# Versioned obs → versionless (internal rewrite); protocol stays versioned
+        location ~ ^/devshard/[^/]+/sessions/([^/]+)/(diffs|mempool|signatures)\$ {
+            rewrite ^/devshard/[^/]+/sessions/([^/]+)/(diffs|mempool|signatures)\$ /devshard/sessions/\$\$1/\$\$2 last;
+        }
+        location ~ ^/devshard/[^/]+/stats/shards(/.*)?\$ {
+            rewrite ^/devshard/[^/]+/stats/shards(/.*)?\$ /devshard/stats/shards\$\$1 last;
+        }
+        location ~ ^/devshard/[^/]+/metrics\$ {
+            rewrite ^ /devshard/metrics last;
+        }
+        # /devshard/{version}/healthz is NOT rewritten — it must reach that child.
+        # Versionless /devshard/healthz is versiond's own supervisor health (mux).
+        # Versionless public observability — tighter than exempt protocol limits
+        location ~ ^/devshard/sessions/[^/]+/(diffs|mempool|signatures)\$ {
+            set \$limit_zone_name \"DEVSHARD_OBS\";
+            limit_req zone=devshard_obs burst=${DEVSHARD_OBS_BURST} nodelay;
+            ${LIMIT_CONN_RULE_EXEMPT}
+            rewrite ^/devshard/(.*)\$ /\$\$1 break;
+            proxy_pass http://versiond_backend;
+            proxy_set_header Host \$\$host;
+            proxy_set_header X-Real-IP \$\$remote_addr;
+            proxy_set_header X-Forwarded-For \$\$proxy_add_x_forwarded_for;
+            proxy_set_header X-Forwarded-Proto \$\$scheme;
+            proxy_set_header Authorization \$\$http_authorization;
+            ${CORS_CONFIG}
+            ${STREAMING_CONFIG}
+            proxy_connect_timeout ${GONKA_API_CONNECT_TIMEOUT}s;
+            proxy_send_timeout ${GONKA_API_TRANSFER_TIMEOUT}s;
+            proxy_read_timeout ${GONKA_API_TRANSFER_TIMEOUT}s;
+        }
+        location ~ ^/devshard/stats/ {
+            set \$limit_zone_name \"DEVSHARD_OBS\";
+            limit_req zone=devshard_obs burst=${DEVSHARD_OBS_BURST} nodelay;
+            ${LIMIT_CONN_RULE_EXEMPT}
+            rewrite ^/devshard/(.*)\$ /\$\$1 break;
+            proxy_pass http://versiond_backend;
+            proxy_set_header Host \$\$host;
+            proxy_set_header X-Real-IP \$\$remote_addr;
+            proxy_set_header X-Forwarded-For \$\$proxy_add_x_forwarded_for;
+            proxy_set_header X-Forwarded-Proto \$\$scheme;
+            proxy_set_header Authorization \$\$http_authorization;
+            ${CORS_CONFIG}
+            ${STREAMING_CONFIG}
+            proxy_connect_timeout ${GONKA_API_CONNECT_TIMEOUT}s;
+            proxy_send_timeout ${GONKA_API_TRANSFER_TIMEOUT}s;
+            proxy_read_timeout ${GONKA_API_TRANSFER_TIMEOUT}s;
+        }
+        location ~ ^/devshard/(metrics|healthz)\$ {
+            set \$limit_zone_name \"DEVSHARD_OBS\";
+            limit_req zone=devshard_obs burst=${DEVSHARD_OBS_BURST} nodelay;
+            ${LIMIT_CONN_RULE_EXEMPT}
+            rewrite ^/devshard/(.*)\$ /\$\$1 break;
+            proxy_pass http://versiond_backend;
+            proxy_set_header Host \$\$host;
+            proxy_set_header X-Real-IP \$\$remote_addr;
+            proxy_set_header X-Forwarded-For \$\$proxy_add_x_forwarded_for;
+            proxy_set_header X-Forwarded-Proto \$\$scheme;
+            proxy_set_header Authorization \$\$http_authorization;
+            ${CORS_CONFIG}
+            ${STREAMING_CONFIG}
+            proxy_connect_timeout ${GONKA_API_CONNECT_TIMEOUT}s;
+            proxy_send_timeout ${GONKA_API_TRANSFER_TIMEOUT}s;
+            proxy_read_timeout ${GONKA_API_TRANSFER_TIMEOUT}s;
+        }
+        location /devshard/ {
+            set \$limit_zone_name \"EXEMPT\";
+            limit_req zone=exempt_zone burst=${EXEMPT_BURST} nodelay;
+            ${LIMIT_CONN_RULE_EXEMPT}
+            proxy_pass http://versiond_backend/;
+            proxy_set_header Host \$\$host;
+            proxy_set_header X-Real-IP \$\$remote_addr;
+            proxy_set_header X-Forwarded-For \$\$proxy_add_x_forwarded_for;
+            proxy_set_header X-Forwarded-Proto \$\$scheme;
+            proxy_set_header Authorization \$\$http_authorization;
+
+            ${CORS_CONFIG}
+            ${STREAMING_CONFIG}
+
+            # Extended timeouts for inference API (devshard forwarding)
+            proxy_connect_timeout ${GONKA_API_CONNECT_TIMEOUT}s;
+            proxy_send_timeout ${GONKA_API_TRANSFER_TIMEOUT}s;
+            proxy_read_timeout ${GONKA_API_TRANSFER_TIMEOUT}s;
+        }"
+else
+    export DEVSHARD_VERSIOND_LOCATION="# devshard proxy disabled"
+    export LIMIT_REQ_ZONE_DEVSHARD_OBS=""
+fi
+
+# --------------------------------------------------------------------------------
+# Fail2Ban Configuration (Sidecar)
+# --------------------------------------------------------------------------------
+# Validator nginx whitelist / Fail2Ban: same semantics as DISABLE_CHAIN_* -- unset or true = off, false = on.
+export DISABLE_VALIDATOR_WHITELIST=${DISABLE_VALIDATOR_WHITELIST:-true}
+export DISABLE_FAIL2BAN=${DISABLE_FAIL2BAN:-true}
+export FAIL2BAN_BAN_DURATION=${FAIL2BAN_BAN_DURATION:-"10m"}
+# Note: Retries is used as the "Score Threshold" (e.g. 20 points)
+export FAIL2BAN_MAX_RETRIES=${FAIL2BAN_MAX_RETRIES:-20}
+
+# Scoring Weights
+export FAIL2BAN_SCORE_401=${FAIL2BAN_SCORE_401:-5}
+export FAIL2BAN_SCORE_403=${FAIL2BAN_SCORE_403:-5}
+export FAIL2BAN_SCORE_400=${FAIL2BAN_SCORE_400:-2}
+
+# Initialize default whitelist properties (Fail-Safe: Apply limits to everyone by default)
+# This ensures that if the sidecar is slow to start, Nginx doesn't fail or run open.
+#
+# IMPORTANT: nginx's geo module does NOT expand variables in values.
+# "geo $var { default $binary_remote_addr; }" sets the LITERAL STRING
+# "$binary_remote_addr" as the key for ALL clients, collapsing every IP
+# into a single shared rate-limit bucket.
+# Fix: use geo for 0/1 classification, then map to expand $binary_remote_addr.
+if [ ! -s /etc/nginx/conf.d/whitelist_ips.conf ]; then
+    cat > /etc/nginx/conf.d/whitelist_ips.conf <<'WLEOF'
+geo $whitelist_class {
+    default 0;
+}
+map $whitelist_class $whitelist_limit_key {
+    0 $binary_remote_addr;
+    1 "";
+}
+geo $whitelist_log_type {
+    default "EXT";
+}
+WLEOF
+fi
+
+# Initialize sidecar log artifacts
+touch /var/log/nginx/access_json.log
+chmod 644 /var/log/nginx/access_json.log
+rm -f /var/log/nginx/rpc_method_log.sock
+
+# Initialize Blacklist file (Startup Integrity)
+# Start with a clean slate for bans on every restart
+# This ensures that bans are ephemeral and cleared on reboot/deployment
+echo "geo \$is_banned { default 0; }" > /etc/nginx/conf.d/blacklist_ips.conf
+chmod 644 /etc/nginx/conf.d/blacklist_ips.conf
+
+# Start sidecar in background with auto-restart logic
+if [ "$DISABLE_VALIDATOR_WHITELIST" = "false" ]; then
+    echo "Proxy sidecar: validator IP whitelist sync enabled (DISABLE_VALIDATOR_WHITELIST=false)"
+else
+    echo "Proxy sidecar: validator IP whitelist disabled (default; set DISABLE_VALIDATOR_WHITELIST=false to enable)"
+fi
+if [ "$DISABLE_FAIL2BAN" = "false" ]; then
+    echo "Proxy sidecar: Fail2Ban-style IP banning enabled (DISABLE_FAIL2BAN=false)"
+else
+    echo "Proxy sidecar: Fail2Ban-style IP banning disabled (set DISABLE_FAIL2BAN=false to enable)"
+fi
+(
+    while true; do
+        /usr/local/bin/sidecar || echo "Sidecar crashed with exit code $?"
+        echo "Sidecar restarting in 5s..."
+        sleep 5
+    done
+) &
+
+# Define Rules
+export LIMIT_REQ_RULE_GLOBAL="limit_req zone=global_zone burst=${GLOBAL_BURST} nodelay;"
+export LIMIT_REQ_RULE_GONKA_API="limit_req zone=api_zone burst=${GONKA_API_BURST} nodelay;"
+export LIMIT_REQ_RULE_METRICS="limit_req zone=metrics_zone burst=${METRICS_BURST} nodelay;"
+export LIMIT_CONN_RULE_METRICS="limit_conn conn_metrics ${METRICS_CONN_LIMIT};"
+export LIMIT_REQ_RULE_CHAIN_API="limit_req zone=chain_api_zone burst=${CHAIN_API_BURST} nodelay;"
+export LIMIT_REQ_RULE_CHAIN_RPC="limit_req zone=rpc_zone burst=${CHAIN_RPC_BURST} nodelay;"
+export LIMIT_REQ_RULE_CHAIN_GRPC="limit_req zone=grpc_zone burst=${CHAIN_GRPC_BURST} nodelay;"
+
+# --------------------------------------------------------------------------------
+# Helper Functions for Route Generation
+# --------------------------------------------------------------------------------
+
+append_blocked_location() {
+    # Usage: append_blocked_location "routes" "prefix1 prefix2 ..."
+    local routes="$1"
+    local prefixes="$2"
+
+    for route in $routes; do
+        clean_route=$(echo "$route" | sed 's|^/||')
+        for prefix in $prefixes; do
+            BLOCKED_ROUTES_CONFIG="${BLOCKED_ROUTES_CONFIG}
+    location ${prefix}${clean_route} {
+        add_header Content-Type application/json;
+        return 403 '{\"error\": \"Access Denied\", \"message\": \"This route is currently blocked.\"}';
+    }
+    "
+        done
+    done
+}
+
+append_exempt_location() {
+    # Usage: append_exempt_location "routes" "prefix" "upstream_base" "status_check" "type" "connect_timeout" "transfer_timeout" "extra_config"
+    local routes="$1"
+    local prefix="$2"
+    local upstream_base="$3"
+    local status_check="$4"
+    local type="$5" # "http" or "grpc"
+    local connect_timeout="$6"
+    local transfer_timeout="$7"
+    local extra_config="$8"
+
+    for route in $routes; do
+        clean_route=$(echo "$route" | sed 's|^/||')
+
+        EXEMPT_ROUTES_CONFIG="${EXEMPT_ROUTES_CONFIG}
+    location ${prefix}${clean_route} {
+        set \$limit_zone_name \"EXEMPT\";
+        limit_req zone=exempt_zone burst=${EXEMPT_BURST} nodelay;
+        ${LIMIT_CONN_RULE_EXEMPT}
+        ${status_check}
+        "
+
+        if [ "$type" = "grpc" ]; then
+            # gRPC Proxy Configuration
+            EXEMPT_ROUTES_CONFIG="${EXEMPT_ROUTES_CONFIG}
+        grpc_pass ${upstream_base};
+        grpc_set_header Host \$\$host;
+        grpc_set_header X-Real-IP \$\$remote_addr;
+        grpc_set_header X-Forwarded-For \$\$proxy_add_x_forwarded_for;
+        grpc_set_header X-Forwarded-Proto \$\$scheme;
+        grpc_set_header Authorization \$\$http_authorization;
+
+        # Timeouts corresponding to zone
+        grpc_connect_timeout ${connect_timeout}s;
+        grpc_send_timeout ${transfer_timeout}s;
+        grpc_read_timeout ${transfer_timeout}s;
+        "
+        else
+            # HTTP Proxy Configuration
+            EXEMPT_ROUTES_CONFIG="${EXEMPT_ROUTES_CONFIG}
+        proxy_pass ${upstream_base}${clean_route};
+        proxy_set_header Host \$\$host;
+        proxy_set_header X-Real-IP \$\$remote_addr;
+        proxy_set_header X-Forwarded-For \$\$proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto \$\$scheme;
+        proxy_set_header Authorization \$\$http_authorization;
+        ${CORS_CONFIG}
+
+        ${extra_config}
+
+        # Timeouts corresponding to zone
+        proxy_connect_timeout ${connect_timeout}s;
+        proxy_read_timeout ${transfer_timeout}s;
+        proxy_send_timeout ${transfer_timeout}s;
+        "
+        fi
+
+        EXEMPT_ROUTES_CONFIG="${EXEMPT_ROUTES_CONFIG}
+    }
+    "
+    done
+}
+
+edge_api_route_list_contains() {
+    local needle="$1"
+    local haystack="$2"
+    local route
+    set -f
+    for route in $haystack; do
+        if [ "$route" = "$needle" ]; then
+            set +f
+            return 0
+        fi
+    done
+    set +f
+    return 1
+}
+
+edge_api_is_optional_route() {
+    edge_api_route_list_contains "$1" "$EDGE_API_OPTIONAL_ROUTE_PATHS"
+}
+
+# When optional verify/debug routes are not exposed, return unique blocked
+# prefixes suitable for append_blocked_location (first path segment after /v1/).
+# Parameterized paths like /v1/debug/... collapse to "debug".
+# set -f: keep `{param}` placeholders from pathname/brace expansion under bash/zsh.
+optional_edge_api_blocked_prefixes() {
+    local route rest first seen out=""
+    set -f
+    for route in $EDGE_API_OPTIONAL_ROUTE_PATHS; do
+        rest=${route#/}
+        case "$rest" in
+            */*) rest=${rest#*/} ;;
+            *) rest="" ;;
+        esac
+        first=${rest%%/*}
+        first=${first%%\{*}
+        if [ -z "$first" ]; then
+            continue
+        fi
+        case " ${seen} " in
+            *" ${first} "*) ;;
+            *)
+                seen="${seen} ${first}"
+                out="${out} ${first}"
+                ;;
+        esac
+    done
+    set +f
+    echo "$out"
+}
+
+append_edge_api_route_locations() {
+    # Usage: append_edge_api_route_locations "/v1/foo /v1/foo/{id}"
+    # Emitted before generic /v1/ API locations so Tier A read-only routes
+    # hit edge-api instead of dapi.
+    #
+    # /v1/participants is dual-use: GET is served by edge-api (Tier A), but
+    # POST registers unfunded participants on dapi. Method-split that path so
+    # registration is not swallowed by the exact edge-api location (405).
+    local routes="$1"
+
+    if [ -z "${EDGE_API_SERVICE_NAME}" ]; then
+        return
+    fi
+
+    for route in $routes; do
+        # Optional verify/debug group stays private unless explicitly exposed.
+        # Skip even if an old EDGE_API_ROUTE_PATHS override still lists them.
+        if [ "${EDGE_API_EXPOSE_OPTIONAL_ROUTES}" != "true" ] && edge_api_is_optional_route "$route"; then
+            continue
+        fi
+        route_without_version=$(echo "$route" | sed 's|^/||; s|^[^/]*/||')
+        route_is_blocked="false"
+        for blocked_route in $GONKA_API_BLOCKED_ROUTES; do
+            clean_blocked_route=$(echo "$blocked_route" | sed 's|^/||')
+            case "$route_without_version" in
+                "$clean_blocked_route"|"$clean_blocked_route"/*)
+                    route_is_blocked="true"
+                    ;;
+            esac
+        done
+        if [ "$route_is_blocked" = "true" ]; then
+            continue
+        fi
+
+        if echo "$route" | grep -q '{'; then
+            route_regex=$(echo "$route" | sed 's|/|\\/|g; s|{[^/}][^/}]*}|[^/]+|g')
+            API_VERSION_LOCATIONS="${API_VERSION_LOCATIONS}
+        # Tier A edge-api route ${route}
+        location ~ ^${route_regex}$ {
+            set \$limit_zone_name \"GNKAPI\";
+            ${LIMIT_REQ_RULE_GONKA_API}
+            ${LIMIT_CONN_RULE_GONKA_API}
+            proxy_pass http://edge_api_backend;
+            proxy_set_header Host \$\$host;
+            proxy_set_header X-Real-IP \$\$remote_addr;
+            proxy_set_header X-Forwarded-For \$\$proxy_add_x_forwarded_for;
+            proxy_set_header X-Forwarded-Proto \$\$scheme;
+            proxy_set_header Authorization \$\$http_authorization;
+
+            ${CORS_CONFIG}
+
+            proxy_connect_timeout ${GONKA_API_CONNECT_TIMEOUT}s;
+            proxy_send_timeout ${GONKA_API_TRANSFER_TIMEOUT}s;
+            proxy_read_timeout ${GONKA_API_TRANSFER_TIMEOUT}s;
+        }
+    "
+        elif [ "$route" = "/v1/participants" ]; then
+            # GET → edge-api; POST registration → dapi.
+            # Dispatch with if+return only; keep all proxy_* directives in named
+            # locations. nginx rejects proxy_set_header after if / in limit_except
+            # in the same location ("directive is not allowed here").
+            API_VERSION_LOCATIONS="${API_VERSION_LOCATIONS}
+        # Tier A edge-api GET /v1/participants; POST registration stays on dapi
+        location = ${route} {
+            set \$limit_zone_name \"GNKAPI\";
+            ${LIMIT_REQ_RULE_GONKA_API}
+            ${LIMIT_CONN_RULE_GONKA_API}
+
+            error_page 418 = @v1_participants_dapi;
+            error_page 419 = @v1_participants_edge;
+            if (\$\$request_method ~* ^(GET|HEAD|OPTIONS)\$) {
+                return 419;
+            }
+            return 418;
+        }
+
+        location @v1_participants_edge {
+            set \$limit_zone_name \"GNKAPI\";
+            ${LIMIT_REQ_RULE_GONKA_API}
+            ${LIMIT_CONN_RULE_GONKA_API}
+            proxy_pass http://edge_api_backend;
+            proxy_set_header Host \$\$host;
+            proxy_set_header X-Real-IP \$\$remote_addr;
+            proxy_set_header X-Forwarded-For \$\$proxy_add_x_forwarded_for;
+            proxy_set_header X-Forwarded-Proto \$\$scheme;
+            proxy_set_header Authorization \$\$http_authorization;
+
+            ${CORS_CONFIG}
+
+            proxy_connect_timeout ${GONKA_API_CONNECT_TIMEOUT}s;
+            proxy_send_timeout ${GONKA_API_TRANSFER_TIMEOUT}s;
+            proxy_read_timeout ${GONKA_API_TRANSFER_TIMEOUT}s;
+        }
+
+        location @v1_participants_dapi {
+            set \$limit_zone_name \"GNKAPI\";
+            ${LIMIT_REQ_RULE_GONKA_API}
+            ${LIMIT_CONN_RULE_GONKA_API}
+            ${API_STATUS}
+            proxy_pass http://api_backend;
+            proxy_set_header Host \$\$host;
+            proxy_set_header X-Real-IP \$\$remote_addr;
+            proxy_set_header X-Forwarded-For \$\$proxy_add_x_forwarded_for;
+            proxy_set_header X-Forwarded-Proto \$\$scheme;
+            proxy_set_header Authorization \$\$http_authorization;
+
+            ${CORS_CONFIG}
+
+            proxy_connect_timeout ${GONKA_API_CONNECT_TIMEOUT}s;
+            proxy_send_timeout ${GONKA_API_TRANSFER_TIMEOUT}s;
+            proxy_read_timeout ${GONKA_API_TRANSFER_TIMEOUT}s;
+        }
+    "
+        else
+            API_VERSION_LOCATIONS="${API_VERSION_LOCATIONS}
+        # Tier A edge-api route ${route}
+        location = ${route} {
+            set \$limit_zone_name \"GNKAPI\";
+            ${LIMIT_REQ_RULE_GONKA_API}
+            ${LIMIT_CONN_RULE_GONKA_API}
+            proxy_pass http://edge_api_backend;
+            proxy_set_header Host \$\$host;
+            proxy_set_header X-Real-IP \$\$remote_addr;
+            proxy_set_header X-Forwarded-For \$\$proxy_add_x_forwarded_for;
+            proxy_set_header X-Forwarded-Proto \$\$scheme;
+            proxy_set_header Authorization \$\$http_authorization;
+
+            ${CORS_CONFIG}
+
+            proxy_connect_timeout ${GONKA_API_CONNECT_TIMEOUT}s;
+            proxy_send_timeout ${GONKA_API_TRANSFER_TIMEOUT}s;
+            proxy_read_timeout ${GONKA_API_TRANSFER_TIMEOUT}s;
+        }
+    "
+        fi
+    done
+}
+
+# --------------------------------------------------------------------------------
+# Generate Blocked Routes Configuration
+# --------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------
+# Generate Dynamic Configuration (API Versions)
+# --------------------------------------------------------------------------------
+API_VERSIONS=${API_VERSIONS:-"v1 v2"}
+API_VERSION_LOCATIONS=""
+BLOCKED_ROUTES_CONFIG=""
+EXEMPT_ROUTES_CONFIG=""
+
+append_edge_api_route_locations "$EDGE_API_ROUTE_PATHS"
+if [ "${EDGE_API_EXPOSE_OPTIONAL_ROUTES}" = "true" ]; then
+    OPTIONAL_EDGE_API_TO_APPEND=""
+    set -f
+    for route in $EDGE_API_OPTIONAL_ROUTE_PATHS; do
+        if ! edge_api_route_list_contains "$route" "$EDGE_API_ROUTE_PATHS"; then
+            OPTIONAL_EDGE_API_TO_APPEND="${OPTIONAL_EDGE_API_TO_APPEND} ${route}"
+        fi
+    done
+    set +f
+    append_edge_api_route_locations "$OPTIONAL_EDGE_API_TO_APPEND"
+    echo "Edge API optional routes EXPOSED (verify/debug): [${EDGE_API_OPTIONAL_ROUTE_PATHS}]"
+else
+    echo "Edge API optional routes PRIVATE (verify/debug blocked on proxy). Set EDGE_API_EXPOSE_OPTIONAL_ROUTES=true to publish."
+fi
+
+# Legacy /v1/devshard/* clients → canonical /devshard/v1/* (re-search → /devshard/ → versiond).
+if [ "${DISABLE_DEVSHARD_PROXY}" != "true" ]; then
+    API_VERSION_LOCATIONS="${API_VERSION_LOCATIONS}
+        location /v1/devshard/ {
+            rewrite ^/v1/devshard/(.*)$ /devshard/v1/\$1 last;
+        }
+    "
+fi
+
+# 1. Gonka API dynamic generation
+APP_BLOCKED_PREFIXES=""
+APP_EXEMPT_PREFIXES=""
+
+for v in $API_VERSIONS; do
+    # 1. Accumulate Prefixes for Blocked/Exempt Logic
+    APP_BLOCKED_PREFIXES="${APP_BLOCKED_PREFIXES} /api/${v}/ /${v}/"
+
+    # 2. Append Exempt Locations (Gonka API) using helper
+    # We pass STREAMING_CONFIG as the extra_config argument
+    append_exempt_location "$GONKA_API_EXEMPT_ROUTES" "/api/${v}/" "http://api_backend/${v}/" "${API_STATUS}" "http" "$GONKA_API_CONNECT_TIMEOUT" "$GONKA_API_TRANSFER_TIMEOUT" "${STREAMING_CONFIG}"
+    append_exempt_location "$GONKA_API_EXEMPT_ROUTES" "/${v}/" "http://api_backend/${v}/" "${API_STATUS}" "http" "$GONKA_API_CONNECT_TIMEOUT" "$GONKA_API_TRANSFER_TIMEOUT" "${STREAMING_CONFIG}"
+
+    # 3. Generate Core Routing Location Block (to be injected into template)
+    # We use explicit variable expansion here because these values are known at startup
+    API_VERSION_LOCATIONS="${API_VERSION_LOCATIONS}
+        # Direct API ${v} routes
+        location /${v}/ {
+            set \$limit_zone_name \"GNKAPI\";
+            ${LIMIT_REQ_RULE_GONKA_API}
+            ${LIMIT_CONN_RULE_GONKA_API}
+            ${API_STATUS}
+            proxy_pass http://api_backend/${v}/;
+            proxy_set_header Host \$\$host;
+            proxy_set_header X-Real-IP \$\$remote_addr;
+            proxy_set_header X-Forwarded-For \$\$proxy_add_x_forwarded_for;
+            proxy_set_header X-Forwarded-Proto \$\$scheme;
+            proxy_set_header Authorization \$\$http_authorization;
+
+            ${CORS_CONFIG}
+            ${STREAMING_CONFIG}
+
+            # Extended timeouts for inference API
+            proxy_connect_timeout ${GONKA_API_CONNECT_TIMEOUT}s;
+            proxy_send_timeout ${GONKA_API_TRANSFER_TIMEOUT}s;
+            proxy_read_timeout ${GONKA_API_TRANSFER_TIMEOUT}s;
+        }
+
+        # API ${v} routes (via /api/ prefix) - Explicitly defined to ensure longest-prefix match wins over generic /api/
+        location /api/${v}/ {
+            set \$limit_zone_name \"GNKAPI\";
+            ${LIMIT_REQ_RULE_GONKA_API}
+            ${LIMIT_CONN_RULE_GONKA_API}
+            ${API_STATUS}
+            proxy_pass http://api_backend/${v}/;
+            proxy_set_header Host \$\$host;
+            proxy_set_header X-Real-IP \$\$remote_addr;
+            proxy_set_header X-Forwarded-For \$\$proxy_add_x_forwarded_for;
+            proxy_set_header X-Forwarded-Proto \$\$scheme;
+            proxy_set_header Authorization \$\$http_authorization;
+
+            ${CORS_CONFIG}
+            ${STREAMING_CONFIG}
+
+            # Extended timeouts for inference API
+            proxy_connect_timeout ${GONKA_API_CONNECT_TIMEOUT}s;
+            proxy_send_timeout ${GONKA_API_TRANSFER_TIMEOUT}s;
+            proxy_read_timeout ${GONKA_API_TRANSFER_TIMEOUT}s;
+        }
+    "
+done
+
+export API_VERSION_LOCATIONS
+
+# 4. Generate Blocked Routes
+append_blocked_location "$GONKA_API_BLOCKED_ROUTES" "${APP_BLOCKED_PREFIXES}"
+if [ "${EDGE_API_EXPOSE_OPTIONAL_ROUTES}" != "true" ]; then
+    # 403 (not dapi 404) for verify/debug while they remain private.
+    append_blocked_location "$(optional_edge_api_blocked_prefixes)" "${APP_BLOCKED_PREFIXES}"
+fi
+
+# 2. Chain API
+append_blocked_location "$CHAIN_API_BLOCKED_ROUTES" "/chain-api/"
+
+# 3. Chain RPC
+append_blocked_location "$CHAIN_RPC_BLOCKED_ROUTES" "/chain-rpc/"
+
+# 4. Chain gRPC
+append_blocked_location "$CHAIN_GRPC_BLOCKED_ROUTES" "/chain-grpc/"
+
+export BLOCKED_ROUTES_CONFIG
+
+# --------------------------------------------------------------------------------
+# Generate Exempt Routes Configuration (Chain Services)
+# --------------------------------------------------------------------------------
+# Note: Gonka API exempt routes are generated in the loop above
+
+# 2. Chain API Exempt Routes
+append_exempt_location "$CHAIN_API_EXEMPT_ROUTES" "/chain-api/" "http://chain_api_backend/" "${CHAIN_API_STATUS}" "http" "$CHAIN_API_CONNECT_TIMEOUT" "$CHAIN_API_TRANSFER_TIMEOUT" ""
+
+# 3. Chain RPC Exempt Routes (Needs WebSocket support)
+WS_CONFIG="proxy_http_version 1.1;
+        proxy_set_header Upgrade \$\$http_upgrade;
+        proxy_set_header Connection \$\$connection_upgrade;"
+append_exempt_location "$CHAIN_RPC_EXEMPT_ROUTES" "/chain-rpc/" "http://chain_rpc_backend/" "${CHAIN_RPC_STATUS}" "http" "$CHAIN_RPC_CONNECT_TIMEOUT" "$CHAIN_RPC_TRANSFER_TIMEOUT" "$WS_CONFIG"
+
+# 4. Chain gRPC Exempt Routes
+append_exempt_location "$CHAIN_GRPC_EXEMPT_ROUTES" "/chain-grpc/" "grpc://chain_grpc_backend" "${CHAIN_GRPC_STATUS}" "grpc" "$CHAIN_GRPC_CONNECT_TIMEOUT" "$CHAIN_GRPC_TRANSFER_TIMEOUT" ""
+
+export EXEMPT_ROUTES_CONFIG
+
+# Construct envsubst variable list for readability
+# Group 1: Core Configuration & Naming
+ENVSUBST_VARS='$KEY_NAME,$KEY_NAME_PREFIX,$SERVER_NAME,$DOMAIN_NAME,$RESOLVER_DIRECTIVE,$CORS_CONFIG,$STREAMING_CONFIG,$REAL_IP_CONFIG'
+
+# Group 2: Ports & Services
+ENVSUBST_VARS="${ENVSUBST_VARS},\$GONKA_API_PORT,\$CHAIN_RPC_PORT,\$CHAIN_API_PORT,\$CHAIN_GRPC_PORT"
+ENVSUBST_VARS="${ENVSUBST_VARS},\$FINAL_API_SERVICE,\$FINAL_NODE_SERVICE,\$FINAL_EXPLORER_SERVICE,\$FINAL_JAEGER_SERVICE,\$FINAL_GRAFANA_SERVICE"
+
+# Group 3: HTTP/SSL & Status
+ENVSUBST_VARS="${ENVSUBST_VARS},\$LISTEN_HTTP,\$LISTEN_HTTPS,\$SSL_CONFIG"
+ENVSUBST_VARS="${ENVSUBST_VARS},\$LIMIT_REQ_ZONE_METRICS,\$LIMIT_CONN_ZONE_METRICS,\$LIMIT_REQ_RULE_METRICS,\$LIMIT_CONN_RULE_METRICS"
+ENVSUBST_VARS="${ENVSUBST_VARS},\$API_STATUS,\$CHAIN_RPC_STATUS,\$CHAIN_API_STATUS,\$CHAIN_GRPC_STATUS"
+
+# Group 4: Dashboard
+ENVSUBST_VARS="${ENVSUBST_VARS},\$DASHBOARD_PORT,\$DASHBOARD_UPSTREAM,\$ROOT_LOCATION"
+ENVSUBST_VARS="${ENVSUBST_VARS},\$JAEGER_PORT,\$JAEGER_BASE_PATH,\$JAEGER_UPSTREAM,\$JAEGER_LOCATION"
+ENVSUBST_VARS="${ENVSUBST_VARS},\$GRAFANA_PORT,\$GRAFANA_BASE_PATH,\$GRAFANA_UPSTREAM,\$GRAFANA_LOCATION"
+
+# Group 5: Rate Limiting Zones
+ENVSUBST_VARS="${ENVSUBST_VARS},\$LIMIT_REQ_ZONE_GLOBAL,\$LIMIT_REQ_ZONE_GONKA_API,\$LIMIT_REQ_ZONE_EXEMPT,\$LIMIT_REQ_ZONE_DEVSHARD_OBS"
+ENVSUBST_VARS="${ENVSUBST_VARS},\$LIMIT_REQ_ZONE_CHAIN_RPC,\$LIMIT_REQ_ZONE_CHAIN_API,\$LIMIT_REQ_ZONE_CHAIN_GRPC"
+
+# Group 5b: Concurrency Zones and Rules
+ENVSUBST_VARS="${ENVSUBST_VARS},\$LIMIT_CONN_ZONE_GLOBAL,\$LIMIT_CONN_ZONE_GONKA_API,\$LIMIT_CONN_ZONE_EXEMPT"
+ENVSUBST_VARS="${ENVSUBST_VARS},\$LIMIT_CONN_ZONE_CHAIN_RPC,\$LIMIT_CONN_ZONE_CHAIN_API,\$LIMIT_CONN_ZONE_CHAIN_GRPC"
+ENVSUBST_VARS="${ENVSUBST_VARS},\$LIMIT_CONN_RULE_GLOBAL,\$LIMIT_CONN_RULE_GONKA_API,\$LIMIT_CONN_RULE_CHAIN_RPC"
+ENVSUBST_VARS="${ENVSUBST_VARS},\$LIMIT_CONN_RULE_CHAIN_API,\$LIMIT_CONN_RULE_CHAIN_GRPC"
+
+# Group 7: Timeouts
+ENVSUBST_VARS="${ENVSUBST_VARS},\$GONKA_API_CONNECT_TIMEOUT,\$GONKA_API_TRANSFER_TIMEOUT"
+ENVSUBST_VARS="${ENVSUBST_VARS},\$CHAIN_API_CONNECT_TIMEOUT,\$CHAIN_API_TRANSFER_TIMEOUT"
+ENVSUBST_VARS="${ENVSUBST_VARS},\$CHAIN_RPC_CONNECT_TIMEOUT,\$CHAIN_RPC_TRANSFER_TIMEOUT"
+ENVSUBST_VARS="${ENVSUBST_VARS},\$CHAIN_GRPC_CONNECT_TIMEOUT,\$CHAIN_GRPC_TRANSFER_TIMEOUT"
+
+# Group 6: Rate Limiting Rules
+ENVSUBST_VARS="${ENVSUBST_VARS},\$LIMIT_REQ_RULE_GLOBAL,\$LIMIT_REQ_RULE_GONKA_API"
+ENVSUBST_VARS="${ENVSUBST_VARS},\$LIMIT_REQ_RULE_CHAIN_RPC,\$LIMIT_REQ_RULE_CHAIN_API,\$LIMIT_REQ_RULE_CHAIN_GRPC"
+ENVSUBST_VARS="${ENVSUBST_VARS},\$BLOCKED_ROUTES_CONFIG,\$EXEMPT_ROUTES_CONFIG,\$API_VERSION_LOCATIONS"
+ENVSUBST_VARS="${ENVSUBST_VARS},\$VERSIOND_UPSTREAM,\$DEVSHARD_VERSIOND_LOCATION,\$EDGE_API_UPSTREAM"
+
+echo "Rendering unified nginx configuration (mode: $NGINX_MODE, server_name: $SERVER_NAME)"
+envsubst "$ENVSUBST_VARS" < /etc/nginx/nginx.unified.conf.template | sed 's/\$\$/$/g' > /etc/nginx/nginx.conf
+
+# Validate nginx configuration (with fallback if SSL config fails)
+if nginx -t; then
+    echo "Nginx configuration is valid"
+else
+    echo "WARNING: Nginx configuration invalid"
+    if [ "$ENABLE_HTTPS" = "true" ] && [ "$ENABLE_HTTP" = "true" ]; then
+        echo "FALLBACK: Falling back to HTTP-only configuration"
+        ENABLE_HTTPS="false"
+        export LISTEN_HTTPS="# HTTPS disabled"
+        export SSL_CONFIG="# SSL disabled"
+
+        # Retry rendering with HTTP-only settings
+        envsubst "$ENVSUBST_VARS" < /etc/nginx/nginx.unified.conf.template | sed 's/\$\$/$/g' > /etc/nginx/nginx.conf
+
+        if nginx -t; then
+            echo "SUCCESS: Nginx configuration is valid (HTTP-only fallback)"
+        else
+            echo "ERROR: Nginx configuration is invalid after HTTP-only fallback"
+            exit 1
+        fi
+    else
+        echo "ERROR: Nginx configuration is invalid and no fallback available"
+        echo "DEBUG: showing lines around failure (check line number from error above):"
+        grep -nC 5 "proxy_http_version" /etc/nginx/nginx.conf | head -n 20
+        echo "--- End Debug ---"
+        exit 1
+    fi
+fi
+
+echo "Available endpoints:"
+if [ "$DASHBOARD_ENABLED" = "true" ]; then
+    echo "   / (root)       -> Explorer dashboard"
+else
+    echo "   / (root)       -> Dashboard not configured page"
+fi
+echo "   /api/*         -> API backend"
+echo "   /chain-rpc/*   -> Chain RPC"
+echo "   /chain-api/*   -> Chain REST API"
+echo "   /chain-grpc/*  -> Chain gRPC"
+if [ -n "${EDGE_API_SERVICE_NAME}" ]; then
+    echo "   /v1/* (Tier A) -> Edge API ($FINAL_EDGE_API_SERVICE:$EDGE_API_PORT)"
+    if [ "${EDGE_API_EXPOSE_OPTIONAL_ROUTES}" = "true" ]; then
+        echo "   /v1/verify-* /v1/debug/* -> Edge API (optional routes exposed)"
+    else
+        echo "   /v1/verify-* /v1/debug/* -> blocked (set EDGE_API_EXPOSE_OPTIONAL_ROUTES=true to publish)"
+    fi
+fi
+if [ "${DISABLE_DEVSHARD_PROXY}" != "true" ]; then
+    echo "   /devshard/*    -> Versiond (devshard binaries)"
+    echo "   /devshard/{v}/sessions/*/diffs|mempool|signatures -> rewrite /devshard/sessions/..."
+    echo "   /devshard/{v}/stats/* /metrics -> rewrite versionless (internal)"
+    echo "   /devshard/{v}/healthz -> child (not rewritten); /devshard/healthz -> versiond"
+    echo "   /devshard/sessions|stats|metrics|healthz -> obs rate limit ${DEVSHARD_OBS_RATE_LIMIT_VAL}r/${DEVSHARD_OBS_RATE_UNIT}"
+    echo "   /v1/devshard/* -> /devshard/v1/* (legacy rewrite)"
+fi
+echo "   /health        -> Health check"
+
+# Execute the command passed to the container
+exec "$@"

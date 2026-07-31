@@ -1,0 +1,658 @@
+package public
+
+import (
+	"bytes"
+	"common/logging"
+	"crypto/sha256"
+	"decentralized-api/poc"
+	"decentralized-api/poc/artifacts"
+	"encoding/base64"
+	"encoding/binary"
+	"encoding/hex"
+	"encoding/json"
+	"net/http"
+	"strconv"
+	"time"
+
+	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
+	"github.com/labstack/echo/v4"
+	"github.com/productscience/inference/x/inference/types"
+)
+
+const (
+	maxLeafIndicesPerRequest = 500
+	pocProofsMsgTypeUrl      = "/inference.inference.MsgSubmitPocValidationsV2"
+	timestampWindowNanos     = 5 * 60 * 1_000_000_000 // 5 minutes in nanoseconds
+)
+
+// StringInt64 unmarshals from both JSON number and string
+type StringInt64 int64
+
+func (s *StringInt64) UnmarshalJSON(data []byte) error {
+	var num int64
+	if err := json.Unmarshal(data, &num); err == nil {
+		*s = StringInt64(num)
+		return nil
+	}
+	var str string
+	if err := json.Unmarshal(data, &str); err != nil {
+		return err
+	}
+	num, err := strconv.ParseInt(str, 10, 64)
+	if err != nil {
+		return err
+	}
+	*s = StringInt64(num)
+	return nil
+}
+
+// StringUint32 unmarshals from both JSON number and string
+type StringUint32 uint32
+
+func (s *StringUint32) UnmarshalJSON(data []byte) error {
+	var num uint32
+	if err := json.Unmarshal(data, &num); err == nil {
+		*s = StringUint32(num)
+		return nil
+	}
+	var str string
+	if err := json.Unmarshal(data, &str); err != nil {
+		return err
+	}
+	num64, err := strconv.ParseUint(str, 10, 32)
+	if err != nil {
+		return err
+	}
+	*s = StringUint32(num64)
+	return nil
+}
+
+// StringInt32 unmarshals from both JSON number and string.
+type StringInt32 int32
+
+func (s *StringInt32) UnmarshalJSON(data []byte) error {
+	var num int32
+	if err := json.Unmarshal(data, &num); err == nil {
+		*s = StringInt32(num)
+		return nil
+	}
+	var str string
+	if err := json.Unmarshal(data, &str); err != nil {
+		return err
+	}
+	num64, err := strconv.ParseInt(str, 10, 32)
+	if err != nil {
+		return err
+	}
+	*s = StringInt32(num64)
+	return nil
+}
+
+// PocProofsRequest is the request body for POST /v1/poc/proofs
+// Uses StringInt64/StringUint32 to accept both number and string JSON encoding
+type PocProofsRequest struct {
+	PocStageStartBlockHeight StringInt64    `json:"poc_stage_start_block_height"`
+	ModelId                  string         `json:"model_id"`
+	RootHash                 string         `json:"root_hash"`    // base64-encoded 32 bytes
+	Count                    StringUint32   `json:"count"`        // snapshot leaf count
+	LeafIndices              []StringUint32 `json:"leaf_indices"` // 0-based indices
+
+	ValidatorAddress       string      `json:"validator_address"`        // validator's cold key (for authz lookup)
+	ValidatorSignerAddress string      `json:"validator_signer_address"` // actual signer (cold or warm key)
+	Timestamp              StringInt64 `json:"timestamp"`                // unix nanoseconds
+	Signature              string      `json:"signature"`                // base64-encoded signature
+}
+
+// PocProofsByNonceRequest is the request body for POST /v1/poc/proofs/by-nonce.
+type PocProofsByNonceRequest struct {
+	PocStageStartBlockHeight StringInt64   `json:"poc_stage_start_block_height"`
+	ModelId                  string        `json:"model_id"`
+	RootHash                 string        `json:"root_hash"` // base64-encoded 32 bytes
+	Count                    StringUint32  `json:"count"`     // snapshot leaf count
+	Nonces                   []StringInt32 `json:"nonces"`
+
+	ValidatorAddress       string      `json:"validator_address"`        // validator's cold key (for authz lookup)
+	ValidatorSignerAddress string      `json:"validator_signer_address"` // actual signer (cold or warm key)
+	Timestamp              StringInt64 `json:"timestamp"`                // unix nanoseconds
+	Signature              string      `json:"signature"`                // base64-encoded signature
+}
+
+// PocProofItem is a single proof in the response
+type PocProofItem struct {
+	LeafIndex   uint32   `json:"leaf_index"`
+	NonceValue  int32    `json:"nonce_value"`
+	VectorBytes string   `json:"vector_bytes"` // base64-encoded
+	Proof       []string `json:"proof"`        // base64-encoded hashes
+}
+
+// PocProofsResponse is the response body for POST /v1/poc/proofs
+type PocProofsResponse struct {
+	Proofs        []PocProofItem `json:"proofs"`
+	SignerAddress string         `json:"signer_address,omitempty"` // participant's signer address
+	Timestamp     int64          `json:"timestamp,omitempty"`      // response timestamp (nanos)
+	Signature     string         `json:"signature,omitempty"`      // base64-encoded signature
+}
+
+type pocProofRequestCommon struct {
+	PocStageStartBlockHeight StringInt64
+	ModelId                  string
+	RootHash                 string
+	Count                    StringUint32
+	ValidatorAddress         string
+	ValidatorSignerAddress   string
+	Timestamp                StringInt64
+	Signature                string
+}
+
+// PocArtifactsStateResponse is the response for GET /v1/poc/artifacts/state
+type PocArtifactsStateResponse struct {
+	PocStageStartBlockHeight int64  `json:"poc_stage_start_block_height"`
+	ModelId                  string `json:"model_id"`
+	Count                    uint32 `json:"count"`
+	RootHash                 string `json:"root_hash"` // base64-encoded 32 bytes, empty if count=0
+}
+
+// postPocProofs handles POST /v1/poc/proofs
+func (s *Server) postPocProofs(ctx echo.Context) error {
+	if s.artifactStore == nil {
+		return echo.NewHTTPError(http.StatusServiceUnavailable, "artifact store not configured")
+	}
+
+	var req PocProofsRequest
+	if err := ctx.Bind(&req); err != nil {
+		return echo.NewHTTPError(http.StatusBadRequest, "invalid request body")
+	}
+
+	if len(req.LeafIndices) == 0 {
+		return echo.NewHTTPError(http.StatusBadRequest, "leaf_indices required")
+	}
+	if len(req.LeafIndices) > maxLeafIndicesPerRequest {
+		return echo.NewHTTPError(http.StatusBadRequest, "too many leaf_indices (max 500)")
+	}
+	common := pocProofRequestCommon{
+		PocStageStartBlockHeight: req.PocStageStartBlockHeight,
+		ModelId:                  req.ModelId,
+		RootHash:                 req.RootHash,
+		Count:                    req.Count,
+		ValidatorAddress:         req.ValidatorAddress,
+		ValidatorSignerAddress:   req.ValidatorSignerAddress,
+		Timestamp:                req.Timestamp,
+		Signature:                req.Signature,
+	}
+	rootHash, reqCount, stageStore, err := s.preparePocProofRequest(ctx, common, func(rootHash []byte, signerPubkey string) error {
+		return verifyPocProofsSignatureWithPubkey(&req, rootHash, signerPubkey)
+	})
+	if err != nil {
+		return err
+	}
+
+	// Validate all leaf indices are within snapshot range
+	for _, leafIndex := range req.LeafIndices {
+		if uint32(leafIndex) >= reqCount {
+			return echo.NewHTTPError(http.StatusBadRequest, "leaf_index out of snapshot range")
+		}
+	}
+
+	// Generate proofs using snapshot-consistent method to ensure artifact and proof
+	// are from the same tree state (prevents serving current-tree artifact with snapshot proof)
+	proofs := make([]PocProofItem, 0, len(req.LeafIndices))
+	leafIndices := make([]uint32, len(req.LeafIndices))
+	for i, leafIndex := range req.LeafIndices {
+		leafIndices[i] = uint32(leafIndex)
+	}
+	entries, err := stageStore.GetArtifactsAndProofs(leafIndices, reqCount)
+	if err != nil {
+		if err == artifacts.ErrLeafIndexOutOfRange {
+			return echo.NewHTTPError(http.StatusBadRequest, "leaf_index out of range")
+		}
+		logging.Error("Failed to get artifacts and proofs", types.Validation,
+			"count", reqCount, "error", err)
+		return echo.NewHTTPError(http.StatusInternalServerError, "failed to get artifact and proof")
+	}
+	for _, entry := range entries {
+		proofs = append(proofs, buildPocProofItem(entry.DenseIndex, entry.Nonce, entry.Vector, entry.Proof))
+	}
+
+	logging.Info("Serving PoC proofs", types.Validation,
+		"validatorAddress", req.ValidatorAddress, "count", len(proofs))
+
+	// Build and sign response
+	respTimestamp := time.Now().UnixNano()
+	signerAddress := s.recorder.GetSignerAddress()
+
+	signPayload := buildPocProofsResponseSignPayload(
+		int64(req.PocStageStartBlockHeight),
+		req.ModelId,
+		rootHash,
+		reqCount,
+		proofs,
+		respTimestamp,
+		signerAddress,
+	)
+
+	signature, err := s.recorder.SignBytes(signPayload)
+	if err != nil {
+		logging.Error("Failed to sign response", types.Validation, "error", err)
+		return ctx.JSON(http.StatusOK, PocProofsResponse{Proofs: proofs})
+	}
+
+	return ctx.JSON(http.StatusOK, PocProofsResponse{
+		Proofs:        proofs,
+		SignerAddress: signerAddress,
+		Timestamp:     respTimestamp,
+		Signature:     base64.StdEncoding.EncodeToString(signature),
+	})
+}
+
+// postPocProofsByNonce handles POST /v1/poc/proofs/by-nonce.
+func (s *Server) postPocProofsByNonce(ctx echo.Context) error {
+	if s.artifactStore == nil {
+		return echo.NewHTTPError(http.StatusServiceUnavailable, "artifact store not configured")
+	}
+
+	var req PocProofsByNonceRequest
+	if err := ctx.Bind(&req); err != nil {
+		return echo.NewHTTPError(http.StatusBadRequest, "invalid request body")
+	}
+
+	if len(req.Nonces) == 0 {
+		return echo.NewHTTPError(http.StatusBadRequest, "nonces required")
+	}
+	if len(req.Nonces) > maxLeafIndicesPerRequest {
+		return echo.NewHTTPError(http.StatusBadRequest, "too many nonces (max 500)")
+	}
+	common := pocProofRequestCommon{
+		PocStageStartBlockHeight: req.PocStageStartBlockHeight,
+		ModelId:                  req.ModelId,
+		RootHash:                 req.RootHash,
+		Count:                    req.Count,
+		ValidatorAddress:         req.ValidatorAddress,
+		ValidatorSignerAddress:   req.ValidatorSignerAddress,
+		Timestamp:                req.Timestamp,
+		Signature:                req.Signature,
+	}
+	rootHash, reqCount, stageStore, err := s.preparePocProofRequest(ctx, common, func(rootHash []byte, signerPubkey string) error {
+		return verifyPocProofsByNonceSignatureWithPubkey(&req, rootHash, signerPubkey)
+	})
+	if err != nil {
+		return err
+	}
+
+	proofs := make([]PocProofItem, 0, len(req.Nonces))
+	nonces := make([]int32, len(req.Nonces))
+	for i, requestedNonce := range req.Nonces {
+		nonces[i] = int32(requestedNonce)
+	}
+	entries, err := stageStore.GetArtifactsAndProofsByNonce(nonces, reqCount)
+	if err != nil {
+		logging.Error("Failed to get artifacts and proofs by nonce", types.Validation,
+			"count", reqCount, "error", err)
+		return echo.NewHTTPError(http.StatusInternalServerError, "failed to get artifact and proof")
+	}
+	for _, entry := range entries {
+		proofs = append(proofs, buildPocProofItem(entry.DenseIndex, entry.Nonce, entry.Vector, entry.Proof))
+	}
+
+	logging.Info("Serving PoC proofs by nonce", types.Validation,
+		"validatorAddress", req.ValidatorAddress, "requested", len(req.Nonces), "returned", len(proofs))
+
+	respTimestamp := time.Now().UnixNano()
+	signerAddress := s.recorder.GetSignerAddress()
+	signPayload := buildPocProofsResponseSignPayload(
+		int64(req.PocStageStartBlockHeight),
+		req.ModelId,
+		rootHash,
+		reqCount,
+		proofs,
+		respTimestamp,
+		signerAddress,
+	)
+
+	signature, err := s.recorder.SignBytes(signPayload)
+	if err != nil {
+		logging.Error("Failed to sign response", types.Validation, "error", err)
+		return ctx.JSON(http.StatusOK, PocProofsResponse{Proofs: proofs})
+	}
+
+	return ctx.JSON(http.StatusOK, PocProofsResponse{
+		Proofs:        proofs,
+		SignerAddress: signerAddress,
+		Timestamp:     respTimestamp,
+		Signature:     base64.StdEncoding.EncodeToString(signature),
+	})
+}
+
+func buildPocProofItem(leafIndex uint32, nonce int32, vector []byte, proof [][]byte) PocProofItem {
+	proofStrings := make([]string, len(proof))
+	for i, hash := range proof {
+		proofStrings[i] = base64.StdEncoding.EncodeToString(hash)
+	}
+	return PocProofItem{
+		LeafIndex:   leafIndex,
+		NonceValue:  nonce,
+		VectorBytes: base64.StdEncoding.EncodeToString(vector),
+		Proof:       proofStrings,
+	}
+}
+
+func (s *Server) preparePocProofRequest(
+	ctx echo.Context,
+	req pocProofRequestCommon,
+	verifySignature func(rootHash []byte, signerPubkey string) error,
+) ([]byte, uint32, artifacts.ArtifactStore, error) {
+	if req.ModelId == "" {
+		return nil, 0, nil, echo.NewHTTPError(http.StatusBadRequest, "model_id required")
+	}
+	if req.RootHash == "" {
+		return nil, 0, nil, echo.NewHTTPError(http.StatusBadRequest, "root_hash required")
+	}
+	if req.ValidatorAddress == "" {
+		return nil, 0, nil, echo.NewHTTPError(http.StatusBadRequest, "validator_address required")
+	}
+	if req.ValidatorSignerAddress == "" {
+		return nil, 0, nil, echo.NewHTTPError(http.StatusBadRequest, "validator_signer_address required")
+	}
+	if req.Signature == "" {
+		return nil, 0, nil, echo.NewHTTPError(http.StatusBadRequest, "signature required")
+	}
+
+	rootHash, err := base64.StdEncoding.DecodeString(req.RootHash)
+	if err != nil || len(rootHash) != 32 {
+		return nil, 0, nil, echo.NewHTTPError(http.StatusBadRequest, "invalid root_hash (must be 32 bytes base64)")
+	}
+
+	nowNanos := time.Now().UnixNano()
+	reqTimestamp := int64(req.Timestamp)
+	if reqTimestamp < nowNanos-timestampWindowNanos || reqTimestamp > nowNanos+timestampWindowNanos {
+		logging.Warn("PoC proofs request timestamp out of range", types.Validation,
+			"timestamp", reqTimestamp, "now", nowNanos)
+		return nil, 0, nil, echo.NewHTTPError(http.StatusBadRequest, "timestamp out of acceptable window")
+	}
+
+	signerPubkey, err := s.authzCache.GetPubKeyForSigner(
+		ctx.Request().Context(),
+		req.ValidatorAddress,
+		req.ValidatorSignerAddress,
+		pocProofsMsgTypeUrl,
+	)
+	if err != nil {
+		logging.Error("Failed to get signer pubkey", types.Validation,
+			"validatorAddress", req.ValidatorAddress,
+			"validatorSignerAddress", req.ValidatorSignerAddress,
+			"error", err)
+		return nil, 0, nil, echo.NewHTTPError(http.StatusUnauthorized, "validator not found")
+	}
+	if signerPubkey == "" {
+		logging.Warn("Signer not authorized for validator", types.Validation,
+			"validatorAddress", req.ValidatorAddress,
+			"validatorSignerAddress", req.ValidatorSignerAddress)
+		return nil, 0, nil, echo.NewHTTPError(http.StatusUnauthorized, "signer not authorized for validator")
+	}
+
+	if err := verifySignature(rootHash, signerPubkey); err != nil {
+		logging.Warn("Invalid PoC proofs signature", types.Validation,
+			"validatorAddress", req.ValidatorAddress,
+			"validatorSignerAddress", req.ValidatorSignerAddress, "error", err)
+		return nil, 0, nil, echo.NewHTTPError(http.StatusUnauthorized, "invalid signature")
+	}
+
+	reqHeight := int64(req.PocStageStartBlockHeight)
+	s.ensureArtifactStagePinned(reqHeight)
+
+	stageStore, err := s.artifactStore.GetStore(reqHeight, req.ModelId)
+	if err != nil {
+		logging.Warn("Stage store not found", types.Validation,
+			"pocStageStartBlockHeight", req.PocStageStartBlockHeight,
+			"modelId", req.ModelId,
+			"error", err)
+		return nil, 0, nil, echo.NewHTTPError(http.StatusNotFound, "not found for height (may be pruned or not yet created)")
+	}
+
+	reqCount := uint32(req.Count)
+
+	// No per-validator snapshot-count quota is needed: committed counts are
+	// served from retained copy-on-write snapshots in O(depth), and any
+	// non-committed count is rejected outright (its root can never match the
+	// on-chain commitment), so a proof request can no longer trigger an O(N)
+	// rebuild — the rebuild-DoS surface the quota guarded against is gone.
+	storeRoot, err := stageStore.GetRootAt(reqCount)
+	if err != nil {
+		logging.Warn("Snapshot count not servable", types.Validation,
+			"validatorAddress", req.ValidatorAddress,
+			"pocStageStartBlockHeight", req.PocStageStartBlockHeight,
+			"modelId", req.ModelId,
+			"requestedCount", reqCount, "error", err)
+		return nil, 0, nil, echo.NewHTTPError(http.StatusBadRequest, "count exceeds stored artifacts")
+	}
+	if !bytes.Equal(rootHash, storeRoot) {
+		logging.Warn("Root hash mismatch", types.Validation,
+			"validatorAddress", req.ValidatorAddress,
+			"pocStageStartBlockHeight", req.PocStageStartBlockHeight,
+			"modelId", req.ModelId,
+			"requestedCount", reqCount)
+		return nil, 0, nil, echo.NewHTTPError(http.StatusBadRequest, "root_hash does not match store state at count")
+	}
+
+	return rootHash, reqCount, stageStore, nil
+}
+
+// getPocArtifactsState returns the current artifact store state for a given height.
+// Used by validators/testermint to get real count and root_hash for proof requests.
+func (s *Server) getPocArtifactsState(ctx echo.Context) error {
+	if s.artifactStore == nil {
+		return echo.NewHTTPError(http.StatusServiceUnavailable, "artifact store not configured")
+	}
+
+	heightParam := ctx.QueryParam("height")
+	if heightParam == "" {
+		return echo.NewHTTPError(http.StatusBadRequest, "height query parameter required")
+	}
+
+	height, err := strconv.ParseInt(heightParam, 10, 64)
+	if err != nil {
+		return echo.NewHTTPError(http.StatusBadRequest, "invalid height parameter")
+	}
+
+	modelID := ctx.QueryParam("model_id")
+	if modelID == "" {
+		return echo.NewHTTPError(http.StatusBadRequest, "model_id query parameter required")
+	}
+
+	s.ensureArtifactStagePinned(height)
+
+	store, err := s.artifactStore.GetStore(height, modelID)
+	if err != nil {
+		return echo.NewHTTPError(http.StatusNotFound, "not found for height (may be pruned or not yet created)")
+	}
+
+	count, rootHash := store.GetFlushedRoot()
+
+	var rootHashB64 string
+	if rootHash != nil {
+		rootHashB64 = base64.StdEncoding.EncodeToString(rootHash)
+	}
+
+	return ctx.JSON(http.StatusOK, PocArtifactsStateResponse{
+		PocStageStartBlockHeight: height,
+		ModelId:                  modelID,
+		Count:                    count,
+		RootHash:                 rootHashB64,
+	})
+}
+
+// ensureArtifactStagePinned activates height when it is the current PoC/CPoC
+// stage. Safe no-op for other heights (those stay rejected by GetStore).
+func (s *Server) ensureArtifactStagePinned(height int64) {
+	if s.artifactStore == nil || s.phaseTracker == nil || height <= 0 {
+		return
+	}
+	epochState := s.phaseTracker.GetCurrentEpochState()
+	if cur := poc.GetCurrentPocStageHeight(epochState); cur > 0 && cur == height {
+		s.artifactStore.ActivateStage(cur)
+	}
+}
+
+// buildPocProofsSignPayload builds the binary payload for signature verification.
+// Format: hex(SHA256(
+//
+//	poc_stage_start_block_height (LE64) ||
+//	len(model_id) (LE32) || model_id ||
+//	root_hash (32 bytes) ||
+//	count (LE32) ||
+//	num_leaf_indices (LE32) || leaf_indices (LE32 each) ||
+//	timestamp (LE64) ||
+//	len(validator_address) (LE32) || validator_address ||
+//	len(validator_signer_address) (LE32) || validator_signer_address
+//
+// ))
+//
+// Every variable-length field is length-prefixed so distinct semantic
+// tuples cannot map to identical bytes. Returns the hex-encoded hash as
+// bytes because the Kotlin client signs a hex string.
+func buildPocProofsSignPayload(req *PocProofsRequest, rootHash []byte) []byte {
+	buf := new(bytes.Buffer)
+
+	binary.Write(buf, binary.LittleEndian, int64(req.PocStageStartBlockHeight))
+	writeLengthPrefixedString(buf, req.ModelId)
+	buf.Write(rootHash)
+	binary.Write(buf, binary.LittleEndian, uint32(req.Count))
+	binary.Write(buf, binary.LittleEndian, uint32(len(req.LeafIndices)))
+	for _, idx := range req.LeafIndices {
+		binary.Write(buf, binary.LittleEndian, uint32(idx))
+	}
+	binary.Write(buf, binary.LittleEndian, int64(req.Timestamp))
+	writeLengthPrefixedString(buf, req.ValidatorAddress)
+	writeLengthPrefixedString(buf, req.ValidatorSignerAddress)
+
+	hash := sha256.Sum256(buf.Bytes())
+	// Return hex-encoded string as bytes (what Kotlin signs)
+	return []byte(hex.EncodeToString(hash[:]))
+}
+
+// buildPocProofsByNonceSignPayload builds the binary payload for by-nonce proof
+// requests. The leading domain tag prevents signatures for leaf-index requests
+// from replaying as nonce requests.
+func buildPocProofsByNonceSignPayload(req *PocProofsByNonceRequest, rootHash []byte) []byte {
+	buf := new(bytes.Buffer)
+
+	writeLengthPrefixedString(buf, "poc-proofs-by-nonce-v1")
+	binary.Write(buf, binary.LittleEndian, int64(req.PocStageStartBlockHeight))
+	writeLengthPrefixedString(buf, req.ModelId)
+	buf.Write(rootHash)
+	binary.Write(buf, binary.LittleEndian, uint32(req.Count))
+	binary.Write(buf, binary.LittleEndian, uint32(len(req.Nonces)))
+	for _, nonce := range req.Nonces {
+		binary.Write(buf, binary.LittleEndian, int32(nonce))
+	}
+	binary.Write(buf, binary.LittleEndian, int64(req.Timestamp))
+	writeLengthPrefixedString(buf, req.ValidatorAddress)
+	writeLengthPrefixedString(buf, req.ValidatorSignerAddress)
+
+	hash := sha256.Sum256(buf.Bytes())
+	return []byte(hex.EncodeToString(hash[:]))
+}
+
+// writeLengthPrefixedString writes len(s) as a LE uint32 followed by the
+// raw string bytes. Used by all proof sign payload builders so that
+// variable-length fields cannot collide across distinct semantic inputs.
+func writeLengthPrefixedString(buf *bytes.Buffer, s string) {
+	binary.Write(buf, binary.LittleEndian, uint32(len(s)))
+	buf.WriteString(s)
+}
+
+// verifyPocProofsSignatureWithPubkey verifies the signature against a specific pubkey.
+// The pubkey is base64-encoded.
+func verifyPocProofsSignatureWithPubkey(req *PocProofsRequest, rootHash []byte, pubkeyB64 string) error {
+	payload := buildPocProofsSignPayload(req, rootHash)
+
+	signatureBytes, err := base64.StdEncoding.DecodeString(req.Signature)
+	if err != nil {
+		return echo.NewHTTPError(http.StatusBadRequest, "invalid signature encoding")
+	}
+
+	pubkeyBytes, err := base64.StdEncoding.DecodeString(pubkeyB64)
+	if err != nil {
+		return echo.NewHTTPError(http.StatusInternalServerError, "invalid pubkey encoding")
+	}
+
+	pubkey := secp256k1.PubKey{Key: pubkeyBytes}
+	if pubkey.VerifySignature(payload, signatureBytes) {
+		return nil
+	}
+
+	return echo.NewHTTPError(http.StatusUnauthorized, "signature verification failed")
+}
+
+// verifyPocProofsByNonceSignatureWithPubkey verifies the signature for a
+// by-nonce request against a specific signer pubkey.
+func verifyPocProofsByNonceSignatureWithPubkey(req *PocProofsByNonceRequest, rootHash []byte, pubkeyB64 string) error {
+	payload := buildPocProofsByNonceSignPayload(req, rootHash)
+
+	signatureBytes, err := base64.StdEncoding.DecodeString(req.Signature)
+	if err != nil {
+		return echo.NewHTTPError(http.StatusBadRequest, "invalid signature encoding")
+	}
+
+	pubkeyBytes, err := base64.StdEncoding.DecodeString(pubkeyB64)
+	if err != nil {
+		return echo.NewHTTPError(http.StatusInternalServerError, "invalid pubkey encoding")
+	}
+
+	pubkey := secp256k1.PubKey{Key: pubkeyBytes}
+	if pubkey.VerifySignature(payload, signatureBytes) {
+		return nil
+	}
+
+	return echo.NewHTTPError(http.StatusUnauthorized, "signature verification failed")
+}
+
+// buildPocProofsResponseSignPayload builds the binary payload for response signature.
+// Format: hex(SHA256(
+//
+//	poc_stage_start_block_height (LE64) ||
+//	len(model_id) (LE32) || model_id ||
+//	root_hash (32 bytes) ||
+//	count (LE32) ||
+//	proofs_hash (32 bytes) ||
+//	timestamp (LE64) ||
+//	len(signer_address) (LE32) || signer_address
+//
+// ))
+//
+// proofs_hash = SHA256(concatenated: leaf_index(LE32) || nonce_value(LE32) || vector_bytes || proof_hashes...)
+// Variable-length fields are length-prefixed.
+func buildPocProofsResponseSignPayload(
+	pocStageStartBlockHeight int64,
+	modelID string,
+	rootHash []byte,
+	count uint32,
+	proofs []PocProofItem,
+	timestamp int64,
+	signerAddress string,
+) []byte {
+	// Build proofs hash
+	proofsHashBuf := new(bytes.Buffer)
+	for _, p := range proofs {
+		binary.Write(proofsHashBuf, binary.LittleEndian, p.LeafIndex)
+		binary.Write(proofsHashBuf, binary.LittleEndian, p.NonceValue)
+		proofsHashBuf.WriteString(p.VectorBytes)
+		for _, proofHash := range p.Proof {
+			proofsHashBuf.WriteString(proofHash)
+		}
+	}
+	proofsHash := sha256.Sum256(proofsHashBuf.Bytes())
+
+	// Build final payload
+	buf := new(bytes.Buffer)
+	binary.Write(buf, binary.LittleEndian, pocStageStartBlockHeight)
+	writeLengthPrefixedString(buf, modelID)
+	buf.Write(rootHash)
+	binary.Write(buf, binary.LittleEndian, count)
+	buf.Write(proofsHash[:])
+	binary.Write(buf, binary.LittleEndian, timestamp)
+	writeLengthPrefixedString(buf, signerAddress)
+
+	hash := sha256.Sum256(buf.Bytes())
+	// Return hex-encoded string as bytes (consistent with request signing)
+	return []byte(hex.EncodeToString(hash[:]))
+}

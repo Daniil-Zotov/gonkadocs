@@ -56,6 +56,7 @@ SKIP_DIRS = {
     "community/discussion",  # 70+ discussions — linked from llms.txt, too large
     "community/issues",  # 100+ issues — linked from llms.txt, too large
     "community/activity",  # dynamic JS-rendered page, not static content
+    "gonka-code",  # raw source mirror — indexed via gonka-code-map.txt
 }
 
 
@@ -138,6 +139,7 @@ def scan_section(section_dir: str) -> list[tuple[Path, str]]:
 
     pages = []
     for root, dirs, files in os.walk(scan_path):
+        dirs.sort()  # deterministic order across platforms (macOS APFS vs Linux ext4)
         for fn in sorted(files):
             if not fn.endswith(".md"):
                 continue

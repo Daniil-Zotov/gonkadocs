@@ -246,6 +246,8 @@ def main():
     parts.append("## Machine-Readable Resources")
     parts.append("")
     parts.append("- [Full Documentation](/llms-full.txt): All pages combined in a single file")
+    parts.append("- [Source Code Map](/gonka-code-map.txt): Index of the gonka-ai/gonka source mirror (module tree, key files, upgrade handlers, bounty rewards)")
+    parts.append("- [Source Code Mirror](/gonka-code/): Raw source files of the gonka-ai/gonka protocol codebase")
     parts.append("- [OpenAPI Specification](/openapi.yaml): OpenAPI 3.0 spec for the inference API")
     parts.append("- [Search Index](/search/search_index.json): Lunr.js search index, queryable programmatically")
     parts.append("- [Sitemap](/sitemap.xml): Full sitemap of all pages")

@@ -26,6 +26,7 @@ not_in_nav: |
   proposals/proposals/**/report*.md
   proposals/readme-for-propose.md
   proposals/README.md
+  gonka-code/**/*.md
   404.md
   agents.md
   index.md

@@ -1,0 +1,315 @@
+events {
+    worker_connections 4096;
+}
+
+http {
+    ${LIMIT_REQ_ZONE_GLOBAL}
+    ${LIMIT_REQ_ZONE_EXEMPT}
+    ${LIMIT_REQ_ZONE_GONKA_API}
+    ${LIMIT_REQ_ZONE_DEVSHARD_OBS}
+    ${LIMIT_REQ_ZONE_METRICS}
+    ${LIMIT_REQ_ZONE_CHAIN_RPC}
+    ${LIMIT_REQ_ZONE_CHAIN_API}
+    ${LIMIT_REQ_ZONE_CHAIN_GRPC}
+
+    # Concurrency Zones
+    ${LIMIT_CONN_ZONE_GLOBAL}
+    ${LIMIT_CONN_ZONE_GONKA_API}
+    ${LIMIT_CONN_ZONE_METRICS}
+    ${LIMIT_CONN_ZONE_EXEMPT}
+    ${LIMIT_CONN_ZONE_CHAIN_RPC}
+    ${LIMIT_CONN_ZONE_CHAIN_API}
+    ${LIMIT_CONN_ZONE_CHAIN_GRPC}
+
+    # Whitelist Mapping
+    include /etc/nginx/conf.d/whitelist_ips.conf;
+
+    # Blacklist Mapping (Fail2Ban)
+    include /etc/nginx/conf.d/blacklist_ips.conf;
+
+    # Map Status Code to Symbol
+    map $status $log_status_symbol {
+        ~^[23]  "[+]";
+        503     "[X]";
+        default "[-]";
+    }
+
+    # Map ISO8601 time to RFC3339 (Z) format if UTC
+    map $time_iso8601 $time_rfc3339 {
+        "~^(?<datetime>\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2})\+00:00$" "${datetime}Z";
+        default $time_iso8601;
+    }
+
+    # Custom Log Format with Timing and Whitelist Indicator
+    # Using tabs (\t) for better visual alignment
+    log_format detailed '[$time_rfc3339]\t$remote_addr\t[$whitelist_log_type]\t[$limit_zone_name]\t$log_status_symbol\t'
+                        '"$request" $status $body_bytes_sent '
+                        '"$http_referer" "$http_user_agent" '
+                        'rt=$request_time uct="$upstream_connect_time" uht="$upstream_header_time" urt="$upstream_response_time" '
+                        'request_id="$request_id"';
+
+    # JSON Log Format (Machine Readable for Sidecar)
+    # escape=json ensures characters like quotes are properly escaped, preventing parser injection
+    log_format json_combined escape=json
+        '{'
+        '"time_local":"$time_rfc3339",'
+        '"request_id":"$request_id",'
+        '"remote_addr":"$remote_addr",'
+        '"request":"$request",'
+        '"status": $status,'
+        '"body_bytes_sent":$body_bytes_sent,'
+        '"request_time":$request_time,'
+        '"http_user_agent":"$http_user_agent"'
+        '}';
+
+    access_log /dev/stdout detailed;
+    access_log /var/log/nginx/access_json.log json_combined;
+
+    # Map for dynamic WebSocket support
+    map $http_upgrade $connection_upgrade {
+        default upgrade;
+        ''      "keep-alive";
+    }
+
+    ${RESOLVER_DIRECTIVE}
+    upstream api_backend {
+        zone api_backend 64k;
+        server ${FINAL_API_SERVICE}:${GONKA_API_PORT} resolve;
+    }
+
+    upstream chain_rpc_backend {
+        zone chain_rpc_backend 64k;
+        server ${FINAL_NODE_SERVICE}:${CHAIN_RPC_PORT} resolve;
+    }
+
+    upstream chain_api_backend {
+        zone chain_api_backend 64k;
+        server ${FINAL_NODE_SERVICE}:${CHAIN_API_PORT} resolve;
+    }
+
+    upstream chain_grpc_backend {
+        zone chain_grpc_backend 64k;
+        server ${FINAL_NODE_SERVICE}:${CHAIN_GRPC_PORT} resolve;
+    }
+
+    # Dashboard upstream - only included if DASHBOARD_PORT is set
+    ${DASHBOARD_UPSTREAM}
+
+    # Jaeger upstream - only included if JAEGER_ENABLED is set (nginx basic auth)
+    ${JAEGER_UPSTREAM}
+
+    # Grafana upstream - only included if GRAFANA_ENABLED is set
+    ${GRAFANA_UPSTREAM}
+
+    ${EDGE_API_UPSTREAM}
+
+    # Versiond upstream - only included if VERSIOND_SERVICE_NAME is set.
+    # Routes /devshard/<version>/* to versiond which forwards to the matching
+    # devshard binary. Observability paths under /devshard/<version>/… are
+    # rewritten internally to versionless /devshard/sessions|stats|metrics|healthz
+    # (see entrypoint); no client-visible redirect.
+    ${VERSIOND_UPSTREAM}
+
+    # Enable gzip compression
+    gzip on;
+    gzip_types text/plain text/css application/json application/javascript text/xml application/xml application/xml+rss text/javascript;
+
+    # Security headers
+    add_header X-Frame-Options "DENY" always;
+    add_header X-Content-Type-Options "nosniff" always;
+    add_header X-XSS-Protection "1; mode=block" always;
+    add_header Referrer-Policy "strict-origin-when-cross-origin" always;
+
+    server {
+        ${LISTEN_HTTP}
+        ${LISTEN_HTTPS}
+        server_name ${SERVER_NAME};
+        ${SSL_CONFIG}
+
+        # Real IP Configuration
+        ${REAL_IP_CONFIG}
+
+        # Default Zone Label
+        set $$limit_zone_name "GLOBAL";
+
+        # Global Ban Check
+        if ($$is_banned) {
+            return 444; # Drop connection
+        }
+
+        # Global Rate Limiting
+        ${LIMIT_REQ_RULE_GLOBAL}
+
+        # Global Concurrency Limiting
+        ${LIMIT_CONN_RULE_GLOBAL}
+
+        # Increase client body size for large requests
+        client_max_body_size 10M;
+
+        # Health check endpoint
+        location = /health {
+            access_log off;
+            return 200 "healthy\n";
+            add_header Content-Type text/plain;
+        }
+
+        # Blocked Routes (Security First)
+        ${BLOCKED_ROUTES_CONFIG}
+
+        # Exempt Routes (High Performance)
+        ${EXEMPT_ROUTES_CONFIG}
+
+        # Versioned devshard binaries (only when VERSIOND_SERVICE_NAME is set)
+        ${DEVSHARD_VERSIOND_LOCATION}
+
+        # Jaeger UI (only when JAEGER_ENABLED is set)
+        ${JAEGER_LOCATION}
+
+        # Grafana UI (only when GRAFANA_ENABLED is set)
+        ${GRAFANA_LOCATION}
+
+        # Public mlnode metrics federation: its own budget so scraping
+        # consumers never compete with inference/API clients (exact-match
+        # locations win over the dynamic /v1/ prefix below).
+        location = /v1/mlnodes/metrics {
+            set $$limit_zone_name "METRICS";
+            ${LIMIT_REQ_RULE_METRICS}
+            ${LIMIT_CONN_RULE_METRICS}
+            ${CORS_CONFIG}
+            proxy_pass http://api_backend/v1/mlnodes/metrics;
+            proxy_set_header Host $$host;
+            proxy_set_header X-Real-IP $$remote_addr;
+            proxy_set_header X-Forwarded-For $$proxy_add_x_forwarded_for;
+            proxy_set_header X-Forwarded-Proto $$scheme;
+            proxy_read_timeout 30s;
+            proxy_send_timeout 30s;
+        }
+        location = /api/v1/mlnodes/metrics {
+            set $$limit_zone_name "METRICS";
+            ${LIMIT_REQ_RULE_METRICS}
+            ${LIMIT_CONN_RULE_METRICS}
+            ${CORS_CONFIG}
+            proxy_pass http://api_backend/v1/mlnodes/metrics;
+            proxy_set_header Host $$host;
+            proxy_set_header X-Real-IP $$remote_addr;
+            proxy_set_header X-Forwarded-For $$proxy_add_x_forwarded_for;
+            proxy_set_header X-Forwarded-Proto $$scheme;
+            proxy_read_timeout 30s;
+            proxy_send_timeout 30s;
+        }
+
+        # Dynamic API Versions (e.g. /v1/, /v2/)
+        ${API_VERSION_LOCATIONS}
+
+        # Generic API routes
+        location /api/ {
+            set $$limit_zone_name "GNKAPI";
+            ${LIMIT_REQ_RULE_GONKA_API}
+            ${LIMIT_CONN_RULE_GONKA_API}
+            ${API_STATUS}
+            proxy_pass http://api_backend/;
+            proxy_set_header Host $$host;
+            proxy_set_header X-Real-IP $$remote_addr;
+            proxy_set_header X-Forwarded-For $$proxy_add_x_forwarded_for;
+            proxy_set_header X-Forwarded-Proto $$scheme;
+            proxy_set_header Authorization $$http_authorization;
+
+            ${CORS_CONFIG}
+            ${STREAMING_CONFIG}
+
+            # Extended timeouts for inference API
+            proxy_connect_timeout ${GONKA_API_CONNECT_TIMEOUT}s;
+            proxy_send_timeout ${GONKA_API_TRANSFER_TIMEOUT}s;
+            proxy_read_timeout ${GONKA_API_TRANSFER_TIMEOUT}s;
+        }
+
+        # Chain RPC endpoint
+        location /chain-rpc/ {
+            set $$limit_zone_name "CHAINRPC";
+            mirror /__rpc_method_log;
+            mirror_request_body on;
+            ${LIMIT_REQ_RULE_CHAIN_RPC}
+            ${LIMIT_CONN_RULE_CHAIN_RPC}
+            ${CHAIN_RPC_STATUS}
+            proxy_pass http://chain_rpc_backend/;
+            proxy_set_header Host $$host;
+            proxy_set_header X-Real-IP $$remote_addr;
+            proxy_set_header X-Forwarded-For $$proxy_add_x_forwarded_for;
+            proxy_set_header X-Forwarded-Proto $$scheme;
+
+            ${CORS_CONFIG}
+            ${STREAMING_CONFIG}
+
+            # Standard timeouts for chain API
+            proxy_connect_timeout ${CHAIN_RPC_CONNECT_TIMEOUT}s;
+            proxy_send_timeout ${CHAIN_RPC_TRANSFER_TIMEOUT}s;
+            proxy_read_timeout ${CHAIN_RPC_TRANSFER_TIMEOUT}s;
+        }
+
+        location = /__rpc_method_log {
+            internal;
+            proxy_pass http://unix:/var/log/nginx/rpc_method_log.sock:/rpc-method-log;
+            proxy_pass_request_headers off;
+            proxy_set_header Content-Type $$content_type;
+            proxy_set_header X-Request-ID $$request_id;
+            proxy_set_header X-Original-Time "$$time_rfc3339";
+            proxy_set_header X-Original-Request "$$request";
+            proxy_set_header X-Original-Remote-Addr $$remote_addr;
+            proxy_set_header X-Original-Whitelist "$$whitelist_log_type";
+            proxy_set_header X-Original-Referer "$$http_referer";
+            proxy_set_header X-Original-User-Agent "$$http_user_agent";
+        }
+
+        # Chain API endpoint (REST API)
+        location /chain-api/ {
+            set $$limit_zone_name "CHAINAPI";
+            ${LIMIT_REQ_RULE_CHAIN_API}
+            ${LIMIT_CONN_RULE_CHAIN_API}
+            ${CHAIN_API_STATUS}
+            proxy_pass http://chain_api_backend/;
+            proxy_set_header Host $$host;
+            proxy_set_header X-Real-IP $$remote_addr;
+            proxy_set_header X-Forwarded-For $$proxy_add_x_forwarded_for;
+            proxy_set_header X-Forwarded-Proto $$scheme;
+            proxy_set_header Authorization $$http_authorization;
+
+            ${CORS_CONFIG}
+
+            # Standard timeouts for chain API
+            proxy_connect_timeout ${CHAIN_API_CONNECT_TIMEOUT}s;
+            proxy_send_timeout ${CHAIN_API_TRANSFER_TIMEOUT}s;
+            proxy_read_timeout ${CHAIN_API_TRANSFER_TIMEOUT}s;
+        }
+
+        # Chain gRPC endpoint (if needed)
+        location /chain-grpc/ {
+            set $$limit_zone_name "CHAINGRPC";
+            ${LIMIT_REQ_RULE_CHAIN_GRPC}
+            ${LIMIT_CONN_RULE_CHAIN_GRPC}
+            ${CHAIN_GRPC_STATUS}
+            grpc_pass grpc://chain_grpc_backend;
+            grpc_set_header Host $$host;
+            grpc_set_header X-Real-IP $$remote_addr;
+            grpc_set_header X-Forwarded-For $$proxy_add_x_forwarded_for;
+            grpc_set_header X-Forwarded-Proto $$scheme;
+            grpc_set_header Authorization $$http_authorization;
+
+            # Standard timeouts for chain gRPC
+            grpc_connect_timeout ${CHAIN_GRPC_CONNECT_TIMEOUT}s;
+            grpc_send_timeout ${CHAIN_GRPC_TRANSFER_TIMEOUT}s;
+            grpc_read_timeout ${CHAIN_GRPC_TRANSFER_TIMEOUT}s;
+        }
+
+        # Root location - either dashboard or not configured page
+        ${ROOT_LOCATION}
+
+        # Default error pages
+        error_page 404 /404.html;
+
+        location = /404.html {
+            internal;
+            return 404 "Not Found\n";
+            add_header Content-Type text/plain;
+        }
+    }
+}

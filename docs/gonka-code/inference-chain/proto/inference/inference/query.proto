@@ -1,0 +1,1315 @@
+syntax = "proto3";
+
+package inference.inference;
+
+import "amino/amino.proto";
+import "gogoproto/gogo.proto";
+import "google/api/annotations.proto";
+import "cosmos/base/query/v1beta1/pagination.proto";
+import "inference/inference/params.proto";
+import "inference/inference/inference.proto";
+import "inference/inference/participant.proto";
+import "inference/inference/epoch_group_data.proto";
+import "inference/inference/settle_amount.proto";
+import "inference/inference/epoch_group_validations.proto";
+import "inference/inference/pocbatch.proto";
+import "inference/inference/tokenomics_data.proto";
+import "inference/inference/unit_of_compute.proto";
+import "inference/inference/model.proto";
+import "cosmos/base/v1beta1/coin.proto";
+import "inference/inference/inference_timeout.proto";
+import "inference/inference/inference_validation_details.proto";
+import "inference/inference/epoch_performance_summary.proto";
+import "inference/inference/hardware_node.proto";
+import "inference/inference/partial_upgrade.proto";
+import "inference/inference/bridge.proto";
+import "inference/inference/stats_developer.proto";
+import "inference/inference/epoch.proto";
+import "inference/inference/mlnode_version.proto";
+import "inference/inference/excluded_participant.proto";
+import "inference/inference/confirmation_poc_event.proto";
+import "inference/inference/liquidity_pool.proto";
+import "inference/inference/poc_v2.proto";
+import "inference/inference/random_seed.proto";
+import "inference/inference/poc_validation_snapshot.proto";
+import "inference/inference/devshard_escrow.proto";
+import "inference/inference/maintenance.proto";
+import "inference/inference/preserved_nodes_snapshot.proto";
+import "inference/inference/poc_delegation.proto";
+import "inference/inference/claim_recipient.proto";
+
+option go_package = "github.com/productscience/inference/x/inference/types";
+
+// Query defines the gRPC querier service.
+service Query {
+
+  // Parameters queries the parameters of the module.
+  rpc Params (QueryParamsRequest) returns (QueryParamsResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/params";
+
+  }
+
+  // Queries a list of Inference items.
+  rpc Inference    (QueryGetInferenceRequest) returns (QueryGetInferenceResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/inference/{index}";
+
+  }
+  rpc InferenceAll (QueryAllInferenceRequest) returns (QueryAllInferenceResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/inference";
+
+  }
+
+  // Queries a list of Participant items.
+  rpc Participant    (QueryGetParticipantRequest) returns (QueryGetParticipantResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/participant/{index}";
+
+  }
+  rpc ParticipantAll (QueryAllParticipantRequest) returns (QueryAllParticipantResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/participant";
+
+  }
+
+  // Queries account public key and balance by address.
+  rpc AccountByAddress (QueryAccountByAddressRequest) returns (QueryAccountByAddressResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/inference_participant/{address}";
+
+  }
+
+  // Queries a list of GetRandomExecutor items.
+  rpc GetRandomExecutor (QueryGetRandomExecutorRequest) returns (QueryGetRandomExecutorResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/get_random_executor";
+
+  }
+
+  // Queries a list of EpochGroupData items.
+  rpc EpochGroupData    (QueryGetEpochGroupDataRequest) returns (QueryGetEpochGroupDataResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/epoch_group_data/{epoch_index}";
+
+  }
+  rpc EpochGroupDataAll (QueryAllEpochGroupDataRequest) returns (QueryAllEpochGroupDataResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/epoch_group_data";
+
+  }
+
+  // Queries a list of SettleAmount items.
+  rpc SettleAmount    (QueryGetSettleAmountRequest) returns (QueryGetSettleAmountResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/settle_amount/{participant}";
+
+  }
+  rpc SettleAmountAll (QueryAllSettleAmountRequest) returns (QueryAllSettleAmountResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/settle_amount";
+
+  }
+  rpc EstimateBitcoinReward (QueryEstimateBitcoinRewardRequest) returns (QueryEstimateBitcoinRewardResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/estimate_bitcoin_reward/{participant}";
+
+  }
+
+  // Queries a list of EpochGroupValidations items.
+  rpc EpochGroupValidations    (QueryGetEpochGroupValidationsRequest) returns (QueryGetEpochGroupValidationsResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/epoch_group_validations/{participant}/{epoch_index}";
+
+  }
+  rpc EpochGroupValidationsAll (QueryAllEpochGroupValidationsRequest) returns (QueryAllEpochGroupValidationsResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/epoch_group_validations";
+
+  }
+
+  // Queries a list of PocBatchesForStage items.
+  rpc PocBatchesForStage (QueryPocBatchesForStageRequest) returns (QueryPocBatchesForStageResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/poc_batches_for_stage/{block_height}";
+
+  }
+
+  // Queries a list of PocValidationsForStage items.
+  rpc PocValidationsForStage (QueryPocValidationsForStageRequest) returns (QueryPocValidationsForStageResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/poc_validations_for_stage/{block_height}";
+
+  }
+
+  // PoC v2 validation queries
+  rpc PocV2ValidationsForStage (QueryPocV2ValidationsForStageRequest) returns (QueryPocV2ValidationsForStageResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/poc_v2_validations_for_stage/{block_height}";
+
+  }
+
+  // PoC v2 off-chain commit queries
+  rpc PoCV2StoreCommit (QueryPoCV2StoreCommitRequest) returns (QueryPoCV2StoreCommitResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/poc_v2_store_commit/{poc_stage_start_block_height}/{participant_address}/{model_id}";
+
+  }
+
+  rpc MLNodeWeightDistribution (QueryMLNodeWeightDistributionRequest) returns (QueryMLNodeWeightDistributionResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/mlnode_weight_distribution/{poc_stage_start_block_height}/{participant_address}/{model_id}";
+
+  }
+
+  rpc AllPoCV2StoreCommitsForStage (QueryAllPoCV2StoreCommitsForStageRequest) returns (QueryAllPoCV2StoreCommitsForStageResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/all_poc_v2_store_commits/{poc_stage_start_block_height}";
+
+  }
+
+  rpc AllMLNodeWeightDistributionsForStage (QueryAllMLNodeWeightDistributionsForStageRequest) returns (QueryAllMLNodeWeightDistributionsForStageResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/all_mlnode_weight_distributions/{poc_stage_start_block_height}";
+
+  }
+
+  // Queries a list of GetCurrentEpoch items.
+  rpc GetCurrentEpoch (QueryGetCurrentEpochRequest) returns (QueryGetCurrentEpochResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/get_current_epoch";
+
+  }
+
+  // Queries a TokenomicsData by index.
+  rpc TokenomicsData (QueryGetTokenomicsDataRequest) returns (QueryGetTokenomicsDataResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/tokenomics_data";
+
+  }
+
+  // Queries a list of GetUnitOfComputePriceProposal items.
+  rpc GetUnitOfComputePriceProposal (QueryGetUnitOfComputePriceProposalRequest) returns (QueryGetUnitOfComputePriceProposalResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/get_unit_of_compute_price_proposal";
+
+  }
+
+  // Queries a list of CurrentEpochGroupData items.
+  rpc CurrentEpochGroupData (QueryCurrentEpochGroupDataRequest) returns (QueryCurrentEpochGroupDataResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/current_epoch_group_data";
+
+  }
+
+  // Queries a list of ModelsAll items.
+  rpc ModelsAll (QueryModelsAllRequest) returns (QueryModelsAllResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/models_all";
+
+  }
+
+  // Queries a list of InferenceTimeout items.
+  rpc InferenceTimeout    (QueryGetInferenceTimeoutRequest) returns (QueryGetInferenceTimeoutResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/inference_timeout/{expirationHeight}/{inferenceId}";
+
+  }
+  rpc InferenceTimeoutAll (QueryAllInferenceTimeoutRequest) returns (QueryAllInferenceTimeoutResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/inference_timeout";
+
+  }
+
+  // BE CAREFUL, epoch_id in the request body meand epoch_group_id!!
+  rpc InferenceValidationDetails (QueryGetInferenceValidationDetailsRequest) returns (QueryGetInferenceValidationDetailsResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/inference_validation_details/{epochId}/{inferenceId}";
+
+  }
+
+  // Queries a list of InferenceValidationDetails items.
+  rpc InferenceValidationDetailsAll (QueryAllInferenceValidationDetailsRequest) returns (QueryAllInferenceValidationDetailsResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/inference_validation_details";
+
+  }
+
+  // Queries a list of GetInferenceValidationParameters items.
+  rpc GetInferenceValidationParameters (QueryGetInferenceValidationParametersRequest) returns (QueryGetInferenceValidationParametersResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/get_inference_validation_parameters/{ids}/{requester}";
+
+  }
+
+  // Queries a list of EpochPerformanceSummary items.
+  // Returns all EpochPerformanceSummary records for a specific epoch index.
+  rpc EpochPerformanceSummary    (QueryEpochPerformanceSummaryByEpochRequest) returns (QueryEpochPerformanceSummaryByEpochResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/epoch_performance_summary/{epoch_index}";
+
+  }
+  // Returns a single EpochPerformanceSummary record for a specific epoch index and participant.
+  rpc EpochPerformanceSummaryByParticipant (QueryEpochPerformanceSummaryByParticipantRequest) returns (QueryEpochPerformanceSummaryByParticipantResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/epoch_performance_summary/{epoch_index}/{participantId}";
+
+  }
+  rpc EpochPerformanceSummaryAll (QueryAllEpochPerformanceSummaryRequest) returns (QueryAllEpochPerformanceSummaryResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/epoch_performance_summary";
+
+  }
+
+  // Queries a list of HardwareNodes items.
+  rpc HardwareNodes (QueryHardwareNodesRequest) returns (QueryHardwareNodesResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/hardware_nodes/{participant}";
+
+  }
+
+  // Queries a list of HardwareNodesAll items.
+  rpc HardwareNodesAll (QueryHardwareNodesAllRequest) returns (QueryHardwareNodesAllResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/hardware_nodes_all";
+
+  }
+
+  // Queries a list of GetParticipantCurrentStats items.
+  rpc GetParticipantCurrentStats (QueryGetParticipantCurrentStatsRequest) returns (QueryGetParticipantCurrentStatsResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/get_participant_current_stats/{participantId}";
+
+  }
+
+  // Queries a list of GetAllParticipantCurrentStats items.
+  rpc GetAllParticipantCurrentStats             (QueryGetAllParticipantCurrentStatsRequest            ) returns (QueryGetAllParticipantCurrentStatsResponse   ) {
+    option (google.api.http).get = "/productscience/inference/inference/get_all_participant_current_stats";
+
+  }
+  rpc GetParticipantsFullStats                  (QueryParticipantsFullStatsRequest                    ) returns (QueryParticipantsFullStatsResponse           ) {
+    option (google.api.http).get = "/productscience/inference/inference/participants_stats";
+
+  }
+  rpc StatsByTimePeriodByDeveloper              (QueryStatsByTimePeriodByDeveloperRequest             ) returns (QueryStatsByTimePeriodByDeveloperResponse    ) {
+    option (google.api.http).get = "/productscience/inference/inference/developer/{developer}/stats_by_time";
+
+  }
+  rpc StatsByDeveloperAndEpochsBackwards        (QueryStatsByDeveloperAndEpochBackwardsRequest        ) returns (QueryInferencesAndTokensStatsResponse        ) {
+    option (google.api.http).get = "/productscience/inference/inference/developer/{developer}/stats_by_epochs_backwards";
+
+  }
+  rpc CountParticipants                         (QueryCountAllParticipantsRequest                     ) returns (QueryCountAllParticipantsResponse            ) {
+    option (google.api.http).get = "/productscience/inference/inference/participants/count";
+
+  }
+  rpc DebugStatsDeveloperStats                  (QueryDebugStatsRequest                               ) returns (QueryDebugStatsResponse                      ) {
+    option (google.api.http).get = "/productscience/inference/inference/debug/developer/all_stats";
+
+  }
+  rpc InferencesAndTokensStatsByEpochsBackwards (QueryInferencesAndTokensStatsByEpochsBackwardsRequest) returns (QueryInferencesAndTokensStatsResponse        ) {
+    option (google.api.http).get = "/productscience/inference/inference/developer/stats_by_epochs_backwards";
+
+  }
+  rpc InferencesAndTokensStatsByTimePeriod      (QueryInferencesAndTokensStatsByTimePeriodRequest     ) returns (QueryInferencesAndTokensStatsResponse        ) {
+    option (google.api.http).get = "/productscience/inference/inference/all_stats_by_time";
+
+  }
+  rpc InferencesAndTokensStatsByModels          (QueryInferencesAndTokensStatsByModelsRequest         ) returns (QueryInferencesAndTokensStatsByModelsResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/models_stats_by_time";
+
+  }
+
+  // Queries a list of GetMinimumValidationAverage items.
+  rpc GetMinimumValidationAverage (QueryGetMinimumValidationAverageRequest) returns (QueryGetMinimumValidationAverageResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/get_minimum_validation_average";
+
+  }
+
+  // Queries a list of PartialUpgrade items.
+  rpc PartialUpgrade    (QueryGetPartialUpgradeRequest) returns (QueryGetPartialUpgradeResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/partial_upgrade/{height}";
+
+  }
+  rpc PartialUpgradeAll (QueryAllPartialUpgradeRequest) returns (QueryAllPartialUpgradeResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/partial_upgrade";
+
+  }
+
+  // Queries a bridge transaction by its composite key
+  rpc BridgeTransaction (QueryGetBridgeTransactionRequest) returns (QueryGetBridgeTransactionResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/bridge_transaction/{origin_chain}/{block_number}/{receipt_index}";
+
+  }
+
+  // Queries all bridge transactions
+  rpc BridgeTransactions (QueryAllBridgeTransactionsRequest) returns (QueryAllBridgeTransactionsResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/bridge_transactions";
+
+  }
+
+  // Queries bridge addresses by chain
+  rpc BridgeAddressesByChain (QueryBridgeAddressesByChainRequest) returns (QueryBridgeAddressesByChainResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/bridge_addresses/{chain_id}";
+
+  }
+
+  // Queries the singleton liquidity pool
+  rpc LiquidityPool (QueryLiquidityPoolRequest) returns (QueryLiquidityPoolResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/liquidity_pool";
+
+  }
+
+  // Queries all wrapped token balances for a specific address
+  rpc WrappedTokenBalances(QueryWrappedTokenBalancesRequest) returns (QueryWrappedTokenBalancesResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/wrapped_token_balances/{address}";
+
+  }
+
+  // Validates a wrapped token for trading through liquidity pools
+  rpc ValidateWrappedTokenForTrade(QueryValidateWrappedTokenForTradeRequest) returns (QueryValidateWrappedTokenForTradeResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/validate_wrapped_token_for_trade/{contract_address}";
+
+  }
+
+  // Validates an IBC token for trading through liquidity pools
+  rpc ValidateIbcTokenForTrade(QueryValidateIbcTokenForTradeRequest) returns (QueryValidateIbcTokenForTradeResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/validate_ibc_token_for_trade/{ibc_denom}";
+  }
+
+  // Queries all approved bridge tokens for trading
+  rpc ApprovedTokensForTrade(QueryApprovedTokensForTradeRequest) returns (QueryApprovedTokensForTradeResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/approved_tokens_for_trade";
+
+  }
+
+  // Queries a list of EpochInfo items.
+  rpc EpochInfo (QueryEpochInfoRequest) returns (QueryEpochInfoResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/epoch_info";
+
+  }
+
+  // Queries a list of CountPoCbatchesAtHeight items.
+  rpc CountPoCbatchesAtHeight (QueryCountPoCbatchesAtHeightRequest) returns (QueryCountPoCbatchesAtHeightResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/count_po_c_batches_at_height/{blockHeight}";
+
+  }
+
+  // Queries a list of CountPoCvalidationsAtHeight items.
+  rpc CountPoCvalidationsAtHeight (QueryCountPoCvalidationsAtHeightRequest) returns (QueryCountPoCvalidationsAtHeightResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/count_po_c_validations_at_height/{blockHeight}";
+
+  }
+
+  // Dynamic pricing queries (Task 7.1)
+  rpc GetModelPerTokenPrice     (QueryGetModelPerTokenPriceRequest    ) returns (QueryGetModelPerTokenPriceResponse    ) {
+    option (google.api.http).get = "/productscience/inference/inference/model_per_token_price/{model_id}";
+
+  }
+  rpc GetAllModelPerTokenPrices (QueryGetAllModelPerTokenPricesRequest) returns (QueryGetAllModelPerTokenPricesResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/all_model_per_token_prices";
+
+  }
+  rpc GetModelCapacity          (QueryGetModelCapacityRequest         ) returns (QueryGetModelCapacityResponse         ) {
+    option (google.api.http).get = "/productscience/inference/inference/model_capacity/{model_id}";
+
+  }
+  rpc GetAllModelCapacities     (QueryGetAllModelCapacitiesRequest    ) returns (QueryGetAllModelCapacitiesResponse    ) {
+    option (google.api.http).get = "/productscience/inference/inference/all_model_capacities";
+
+  }
+
+  // Queries all authz grantees with specific message type for an account
+  rpc GranteesByMessageType (QueryGranteesByMessageTypeRequest) returns (QueryGranteesByMessageTypeResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/grantees_by_message_type/{granter_address}/{message_type_url}";
+
+  }
+
+  // Queries the current MLNode version.
+  rpc MLNodeVersion (QueryGetMLNodeVersionRequest) returns (QueryGetMLNodeVersionResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/mlnode_version";
+
+  }
+
+  // Queries the most recent applied upgrade height.
+  rpc LastUpgradeHeight (QueryGetLastUpgradeHeightRequest) returns (QueryGetLastUpgradeHeightResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/last_upgrade_height";
+
+  }
+
+  // Queries the participant allowlist.
+  rpc ParticipantAllowList (QueryParticipantAllowListRequest) returns (QueryParticipantAllowListResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/participant_allow_list";
+
+  }
+
+  // Queries the list of excluded participants for an epoch (0 = current epoch).
+  rpc ExcludedParticipants (QueryExcludedParticipantsRequest) returns (QueryExcludedParticipantsResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/excluded_participants/{epoch_index}";
+
+  }
+
+  // Queries the currently active confirmation PoC event.
+  rpc ActiveConfirmationPoCEvent (QueryActiveConfirmationPoCEventRequest) returns (QueryActiveConfirmationPoCEventResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/active_confirmation_poc_event";
+  }
+
+  // Queries confirmation PoC events for a specific epoch.
+  rpc ListConfirmationPoCEvents (QueryConfirmationPoCEventsRequest) returns (QueryConfirmationPoCEventsResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/confirmation_poc_events/{epoch_index}";
+  }
+
+  // Queries random seeds for a specific epoch.
+  rpc ListRandomSeeds (QueryRandomSeedsRequest) returns (QueryRandomSeedsResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/random_seeds/{epoch_index}";
+  }
+
+  rpc ParticipantsWithBalances (QueryParticipantsWithBalancesRequest) returns (QueryParticipantsWithBalancesResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/participants_with_balances";
+
+  }
+
+  // Queries PoC validation snapshot for deterministic sampling synchronization.
+  rpc PoCValidationSnapshot (QueryPoCValidationSnapshotRequest) returns (QueryPoCValidationSnapshotResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/poc_validation_snapshot/{poc_stage_start_height}";
+  }
+
+  rpc DevshardEscrow (QueryGetDevshardEscrowRequest) returns (QueryGetDevshardEscrowResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/devshard_escrow/{id}";
+  }
+
+  // Queries preserved nodes snapshot for the active PoC episode.
+  rpc PreservedNodesSnapshot (QueryPreservedNodesSnapshotRequest) returns (QueryPreservedNodesSnapshotResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/preserved_nodes_snapshot";
+  }
+
+  rpc DevshardHostEpochStats (QueryGetDevshardHostEpochStatsRequest) returns (QueryGetDevshardHostEpochStatsResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/devshard_host_epoch_stats/{epoch_index}/{participant}";
+  }
+
+  rpc PoCDelegation (QueryPoCDelegationRequest) returns (QueryPoCDelegationResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/poc_delegation/{participant}";
+  }
+
+  // Queries the maintenance credit balance for a participant.
+  rpc MaintenanceCredit (QueryMaintenanceCreditRequest) returns (QueryMaintenanceCreditResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/maintenance_credit/{participant}";
+  }
+
+  // Queries scheduled maintenance windows for a participant.
+  rpc MaintenanceScheduled (QueryMaintenanceScheduledRequest) returns (QueryMaintenanceScheduledResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/maintenance_scheduled/{participant}";
+  }
+
+  // Queries all currently active maintenance windows.
+  rpc MaintenanceActive (QueryMaintenanceActiveRequest) returns (QueryMaintenanceActiveResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/maintenance_active";
+  }
+
+  // Queries the full maintenance status for a participant at the current height.
+  rpc MaintenanceStatus (QueryMaintenanceStatusRequest) returns (QueryMaintenanceStatusResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/maintenance_status/{participant}";
+  }
+
+  // Queries the concurrent reserved participant count and power at a given height.
+  rpc MaintenanceConcurrency (QueryMaintenanceConcurrencyRequest) returns (QueryMaintenanceConcurrencyResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/maintenance_concurrency/{height}";
+  }
+
+  // Queries whether a proposed maintenance window is schedulable.
+  rpc MaintenanceSchedulability (QueryMaintenanceSchedulabilityRequest) returns (QueryMaintenanceSchedulabilityResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/maintenance_schedulability/{participant}/{start_height}/{duration_blocks}";
+  }
+
+  // Lists the scheduled per-epoch claim recipient overrides for a participant.
+  rpc ListClaimRecipients (QueryListClaimRecipientsRequest) returns (QueryListClaimRecipientsResponse) {
+    option (google.api.http).get = "/productscience/inference/inference/list_claim_recipients/{participant}";
+  }
+}
+// QueryParamsRequest is request type for the Query/Params RPC method.
+message QueryParamsRequest {}
+
+// QueryParamsResponse is response type for the Query/Params RPC method.
+message QueryParamsResponse {
+
+  // params holds all the parameters of this module.
+  Params params = 1 [(gogoproto.nullable) = false, (amino.dont_omitempty) = true];
+}
+
+message QueryGetInferenceRequest {
+  string index = 1;
+}
+
+message QueryGetInferenceResponse {
+  Inference inference = 1 [(gogoproto.nullable) = false];
+}
+
+message QueryAllInferenceRequest {
+  cosmos.base.query.v1beta1.PageRequest pagination = 1;
+}
+
+message QueryAllInferenceResponse {
+  repeated Inference                              inference  = 1 [(gogoproto.nullable) = false];
+           cosmos.base.query.v1beta1.PageResponse pagination = 2;
+}
+
+message QueryGetParticipantRequest {
+  string index = 1;
+}
+
+message QueryGetParticipantResponse {
+  Participant participant = 1 [(gogoproto.nullable) = false];
+}
+
+message QueryAllParticipantRequest {
+  cosmos.base.query.v1beta1.PageRequest pagination = 1;
+}
+
+message QueryAllParticipantResponse {
+  repeated Participant                            participant  = 1 [(gogoproto.nullable) = false];
+           cosmos.base.query.v1beta1.PageResponse pagination   = 2;
+           int64                                  block_height = 3;
+}
+
+message QueryAccountByAddressRequest {
+  string address = 1;
+}
+
+message QueryAccountByAddressResponse {
+  string pubkey  = 1;
+  int64  balance = 2;
+  string denom   = 3;
+}
+
+message QueryGetRandomExecutorRequest {
+  string model = 1;
+}
+
+message QueryGetRandomExecutorResponse {
+  Participant executor = 1 [(gogoproto.nullable) = false];
+}
+
+message QueryGetEpochGroupDataRequest {
+  uint64 epoch_index = 1;
+  string model_id    = 2;
+}
+
+message QueryGetEpochGroupDataResponse {
+  EpochGroupData epoch_group_data = 1 [(gogoproto.nullable) = false];
+}
+
+message QueryAllEpochGroupDataRequest {
+  cosmos.base.query.v1beta1.PageRequest pagination = 1;
+}
+
+message QueryAllEpochGroupDataResponse {
+  repeated EpochGroupData                         epoch_group_data = 1 [(gogoproto.nullable) = false];
+           cosmos.base.query.v1beta1.PageResponse pagination       = 2;
+}
+
+message QueryGetSettleAmountRequest {
+  string participant = 1;
+}
+
+message QueryGetSettleAmountResponse {
+  SettleAmount settle_amount = 1 [(gogoproto.nullable) = false];
+}
+
+message QueryAllSettleAmountRequest {
+  cosmos.base.query.v1beta1.PageRequest pagination = 1;
+}
+
+message QueryAllSettleAmountResponse {
+  repeated SettleAmount                           settle_amount = 1 [(gogoproto.nullable) = false];
+           cosmos.base.query.v1beta1.PageResponse pagination    = 2;
+}
+
+message QueryEstimateBitcoinRewardRequest {
+  string participant = 1;
+}
+
+message QueryEstimateBitcoinRewardResponse {
+  SettleAmount settle_amount = 1 [(gogoproto.nullable) = false];
+}
+
+message QueryGetEpochGroupValidationsRequest {
+  string participant = 1;
+  uint64 epoch_index = 2;
+}
+
+message QueryGetEpochGroupValidationsResponse {
+  EpochGroupValidations epoch_group_validations = 1 [(gogoproto.nullable) = false];
+}
+
+message QueryAllEpochGroupValidationsRequest {
+  cosmos.base.query.v1beta1.PageRequest pagination = 1;
+}
+
+message QueryAllEpochGroupValidationsResponse {
+  repeated EpochGroupValidations                  epoch_group_validations = 1 [(gogoproto.nullable) = false];
+           cosmos.base.query.v1beta1.PageResponse pagination              = 2;
+}
+
+message QueryPocBatchesForStageRequest {
+  int64 block_height = 1;
+}
+
+message QueryPocBatchesForStageResponse {
+  repeated PoCBatchesWithParticipants poc_batch = 1 [(gogoproto.nullable) = false];
+}
+
+message PoCBatchesWithParticipants {
+           string   participant = 1;
+           string   pub_key     = 2;
+           string   hex_pub_key = 3;
+  repeated PoCBatch poc_batch   = 4 [(gogoproto.nullable) = false];
+}
+
+message QueryPocValidationsForStageRequest {
+  int64 block_height = 1;
+}
+
+message QueryPocValidationsForStageResponse {
+  repeated PoCValidationsWithParticipants poc_validation = 1 [(gogoproto.nullable) = false];
+}
+
+message PoCValidationsWithParticipants {
+           string        participant    = 1;
+           string        pub_key        = 2;
+           string        hex_pub_key    = 3;
+  repeated PoCValidation poc_validation = 4 [(gogoproto.nullable) = false];
+}
+
+// PoC v2 validation query messages
+
+message QueryPocV2ValidationsForStageRequest {
+  int64 block_height = 1;
+}
+
+message QueryPocV2ValidationsForStageResponse {
+  repeated PoCValidationsWithParticipantsV2 poc_validation = 1 [(gogoproto.nullable) = false];
+}
+
+message PoCValidationsWithParticipantsV2 {
+           string           participant    = 1;
+           string           pub_key        = 2;
+           string           hex_pub_key    = 3;
+  repeated PoCValidationV2  poc_validation = 4 [(gogoproto.nullable) = false];
+           string           model_id       = 5;
+}
+
+// PoC v2 off-chain commit query messages
+message QueryPoCV2StoreCommitRequest {
+  int64  poc_stage_start_block_height = 1;
+  string participant_address = 2;
+  string model_id = 3;
+}
+
+message QueryPoCV2StoreCommitResponse {
+  uint32 count = 1;
+  bytes  root_hash = 2;
+  bool   found = 3;
+}
+
+message QueryMLNodeWeightDistributionRequest {
+  int64  poc_stage_start_block_height = 1;
+  string participant_address = 2;
+  string model_id = 3;
+}
+
+message QueryMLNodeWeightDistributionResponse {
+  repeated MLNodeWeight weights = 1;
+  bool found = 2;
+}
+
+message QueryAllPoCV2StoreCommitsForStageRequest {
+  int64 poc_stage_start_block_height = 1;
+}
+
+message QueryAllPoCV2StoreCommitsForStageResponse {
+  repeated PoCV2StoreCommitWithAddress commits = 1;
+}
+
+message PoCV2StoreCommitWithAddress {
+  string participant_address = 1;
+  uint32 count = 2;
+  bytes root_hash = 3;
+  string hex_pub_key = 4;
+  string model_id = 5;
+}
+
+message QueryAllMLNodeWeightDistributionsForStageRequest {
+  int64 poc_stage_start_block_height = 1;
+}
+
+message QueryAllMLNodeWeightDistributionsForStageResponse {
+  repeated MLNodeWeightDistributionWithAddress distributions = 1;
+}
+
+message MLNodeWeightDistributionWithAddress {
+  string participant_address = 1;
+  repeated MLNodeWeight weights = 2;
+  string model_id = 3;
+}
+
+message QueryGetCurrentEpochRequest {}
+
+message QueryGetCurrentEpochResponse {
+  uint64 epoch = 1;
+}
+
+message QueryGetTokenomicsDataRequest {}
+
+message QueryGetTokenomicsDataResponse {
+  TokenomicsData tokenomics_data = 1 [(gogoproto.nullable) = false];
+}
+
+message QueryGetUnitOfComputePriceProposalRequest {
+  string participant = 1;
+}
+
+message QueryGetUnitOfComputePriceProposalResponse {
+  UnitOfComputePriceProposal proposal = 1;
+  uint64                     default  = 2;
+}
+
+message QueryCurrentEpochGroupDataRequest {}
+
+message QueryCurrentEpochGroupDataResponse {
+  EpochGroupData epoch_group_data = 1 [(gogoproto.nullable) = false];
+}
+
+message QueryPreviousEpochGroupDataRequest {}
+
+message QueryPreviousEpochGroupDataResponse {
+  EpochGroupData epoch_group_data = 1 [(gogoproto.nullable) = false];
+}
+
+message QueryModelsAllRequest {
+  cosmos.base.query.v1beta1.PageRequest pagination = 1;
+}
+
+message QueryModelsAllResponse {
+  repeated Model model = 1 [(gogoproto.nullable) = false];
+  cosmos.base.query.v1beta1.PageResponse pagination = 2;
+}
+
+message QueryGetInferenceTimeoutRequest {
+  uint64 expirationHeight = 1;
+  string inferenceId      = 2;
+}
+
+message QueryGetInferenceTimeoutResponse {
+  InferenceTimeout inference_timeout = 1 [(gogoproto.nullable) = false];
+}
+
+message QueryAllInferenceTimeoutRequest {
+  cosmos.base.query.v1beta1.PageRequest pagination = 1;
+}
+
+message QueryAllInferenceTimeoutResponse {
+  repeated InferenceTimeout                       inference_timeout = 1 [(gogoproto.nullable) = false];
+           cosmos.base.query.v1beta1.PageResponse pagination        = 2;
+}
+
+message QueryGetInferenceValidationDetailsRequest {
+  uint64 epochId     = 1;
+  string inferenceId = 2;
+}
+
+message QueryGetInferenceValidationDetailsResponse {
+  InferenceValidationDetails inferenceValidationDetails = 1 [(gogoproto.nullable) = false];
+}
+
+message QueryAllInferenceValidationDetailsRequest {
+  cosmos.base.query.v1beta1.PageRequest pagination = 1;
+}
+
+message QueryAllInferenceValidationDetailsResponse {
+  repeated InferenceValidationDetails             inferenceValidationDetails = 1 [(gogoproto.nullable) = false];
+           cosmos.base.query.v1beta1.PageResponse pagination                 = 2;
+}
+
+message QueryGetInferenceValidationParametersRequest {
+  repeated string ids       = 1;
+           string requester = 2;
+}
+
+message QueryGetInferenceValidationParametersResponse {
+  repeated ValidatorPower             validator_powers = 1;
+           uint64                     current_height   = 2;
+  repeated InferenceValidationDetails details          = 3;
+           ValidationParams           parameters       = 4;
+}
+message ValidatorPower {
+  uint64 power          = 1;
+  uint64 epoch_index    = 2;
+}
+message QueryEpochPerformanceSummaryByEpochRequest {
+  uint64 epoch_index = 1;
+}
+
+message QueryEpochPerformanceSummaryByEpochResponse {
+  repeated EpochPerformanceSummary epochPerformanceSummary = 1 [(gogoproto.nullable) = false];
+}
+
+message QueryEpochPerformanceSummaryByParticipantRequest {
+  uint64 epoch_index   = 1;
+  string participantId = 2;
+}
+
+message QueryEpochPerformanceSummaryByParticipantResponse {
+  EpochPerformanceSummary epochPerformanceSummary = 1 [(gogoproto.nullable) = false];
+}
+
+message QueryAllEpochPerformanceSummaryRequest {
+  cosmos.base.query.v1beta1.PageRequest pagination = 1;
+}
+
+message QueryAllEpochPerformanceSummaryResponse {
+  repeated EpochPerformanceSummary                epochPerformanceSummary = 1 [(gogoproto.nullable) = false];
+           cosmos.base.query.v1beta1.PageResponse pagination              = 2;
+}
+
+message QueryHardwareNodesRequest {
+  string participant = 1;
+}
+
+message QueryHardwareNodesResponse {
+  HardwareNodes nodes = 1;
+}
+
+message QueryHardwareNodesAllRequest {}
+
+message QueryHardwareNodesAllResponse {
+  repeated HardwareNodes nodes = 1;
+}
+
+message QueryGetParticipantCurrentStatsRequest {
+  string participantId = 1;
+}
+
+message QueryGetParticipantCurrentStatsResponse {
+  uint64 weight     = 1;
+  int32  reputation = 2;
+}
+
+message QueryGetAllParticipantCurrentStatsRequest {}
+
+message QueryGetAllParticipantCurrentStatsResponse {
+  repeated ParticipantCurrentStats participant_current_stats = 1;
+           int64                   block_height              = 2;
+           int64                   epoch_id                  = 3;
+}
+
+message ParticipantCurrentStats {
+  string participant_id = 1;
+  uint64 weight         = 2;
+  uint64 effective_weight = 4;
+  uint64 capped_weight    = 5;
+  int32  reputation     = 3;
+}
+
+message ParticipantFullStats {
+  string account_address             = 1;
+  string operator_address            = 2;
+  int32  reputation                  = 3;
+  uint64 earned_coins_current_epoch  = 4;
+  uint64 rewarded_coins_latest_epoch = 5;
+  uint32 epochs_completed            = 6;
+}
+
+message QueryParticipantsFullStatsRequest {}
+
+message QueryParticipantsFullStatsResponse {
+  repeated ParticipantFullStats participants_stats = 1;
+}
+
+message QueryStatsByTimePeriodByDeveloperRequest {
+  string developer = 1;
+  int64  time_from = 2;
+  int64  time_to   = 3;
+}
+
+message QueryStatsByTimePeriodByDeveloperResponse {
+  repeated DeveloperStatsByTime stats = 1;
+}
+
+message QueryStatsByDeveloperAndEpochBackwardsRequest {
+  string developer = 1;
+  int32  epochs_n  = 2;
+}
+
+message QueryInferencesAndTokensStatsByEpochsBackwardsRequest {
+  int32 epochs_n = 1;
+}
+
+message QueryInferencesAndTokensStatsByTimePeriodRequest {
+  int64 time_from = 2;
+  int64 time_to   = 3;
+}
+
+message QueryInferencesAndTokensStatsByModelsRequest {
+  int64 time_from = 2;
+  int64 time_to   = 3;
+}
+
+message ModelStats {
+  string model      = 1;
+  int64  ai_tokens  = 2;
+  int32  inferences = 3;
+}
+
+message QueryInferencesAndTokensStatsByModelsResponse {
+  repeated ModelStats stats_models = 1;
+}
+
+message QueryInferencesAndTokensStatsResponse {
+  int64 ai_tokens              = 1;
+  int32 inferences             = 2;
+  int64 actual_inferences_cost = 3;
+}
+
+message QueryCountAllParticipantsRequest {}
+
+message QueryCountAllParticipantsResponse {
+  int64 total = 1;
+}
+
+message QueryDebugStatsRequest {}
+
+message QueryDebugStatsResponse {
+  message TemporaryTimeStat {
+             string               developer = 1;
+    repeated DeveloperStatsByTime stats     = 2;
+  }
+
+  message TemporaryEpochStat {
+             string                developer = 1;
+    repeated DeveloperStatsByEpoch stats     = 2;
+  }
+
+  repeated TemporaryTimeStat  stats_by_time  = 1;
+  repeated TemporaryEpochStat stats_by_epoch = 2;
+}
+
+message QueryGetMinimumValidationAverageRequest {}
+
+message QueryGetMinimumValidationAverageResponse {
+  uint64 traffic_basis              = 1;
+  string minimum_validation_average = 2;
+  uint64 block_height               = 3;
+}
+
+message QueryGetPartialUpgradeRequest {
+  uint64 height = 1;
+}
+
+message QueryGetPartialUpgradeResponse {
+  PartialUpgrade partialUpgrade = 1 [(gogoproto.nullable) = false];
+}
+
+message QueryAllPartialUpgradeRequest {
+  cosmos.base.query.v1beta1.PageRequest pagination = 1;
+}
+
+message QueryAllPartialUpgradeResponse {
+  repeated PartialUpgrade                         partialUpgrade = 1 [(gogoproto.nullable) = false];
+           cosmos.base.query.v1beta1.PageResponse pagination     = 2;
+}
+
+message QueryGetBridgeTransactionRequest {
+  string origin_chain  = 1;
+  string block_number  = 2;
+  string receipt_index = 3;
+}
+
+message QueryGetBridgeTransactionResponse {
+  repeated BridgeTransaction bridgeTransactions = 1 [(gogoproto.nullable) = false];
+}
+
+message QueryAllBridgeTransactionsRequest {
+  cosmos.base.query.v1beta1.PageRequest pagination = 1;
+}
+
+message QueryAllBridgeTransactionsResponse {
+  repeated BridgeTransaction                      bridgeTransactions = 1 [(gogoproto.nullable) = false];
+           cosmos.base.query.v1beta1.PageResponse pagination         = 2;
+}
+
+message WrappedTokenBalance {
+  BridgeWrappedTokenContract token_info = 1;
+  string symbol = 2;
+  string balance = 3;                         // current balance (as string to handle large numbers)
+  string decimals = 4;
+  string formatted_balance = 5;               // human-readable balance (e.g. "1000.50")
+}
+
+message QueryWrappedTokenBalancesRequest {
+  string address = 1;
+}
+
+message QueryWrappedTokenBalancesResponse {
+  repeated WrappedTokenBalance balances = 1;
+}
+
+message QueryBridgeAddressesByChainRequest {
+  string chain_id = 1;
+}
+
+message QueryBridgeAddressesByChainResponse {
+  repeated BridgeContractAddress addresses = 1 [(gogoproto.nullable) = false];
+}
+
+message QueryValidateWrappedTokenForTradeRequest {
+  string contract_address = 1;
+}
+
+message QueryValidateWrappedTokenForTradeResponse {
+  bool is_valid = 1;
+}
+
+message QueryValidateIbcTokenForTradeRequest {
+  string ibc_denom = 1;
+}
+
+message QueryValidateIbcTokenForTradeResponse {
+  bool is_valid = 1;
+  uint32 decimals = 2;
+}
+
+message QueryLiquidityPoolRequest {}
+
+message QueryLiquidityPoolResponse {
+  string address = 1;
+  uint64 codeId = 2;
+  uint64 block_height = 3;
+}
+
+message QueryEpochInfoRequest {}
+
+message QueryEpochInfoResponse {
+  int64                 block_height                  = 1;
+  Params                params                        = 2 [(gogoproto.nullable) = false];
+  Epoch                 latest_epoch                  = 3 [(gogoproto.nullable) = false];
+  bool                  is_confirmation_poc_active    = 4;
+  ConfirmationPoCEvent  active_confirmation_poc_event = 5;
+}
+
+message QueryCountPoCbatchesAtHeightRequest {
+  int32 blockHeight = 1;
+}
+
+message QueryCountPoCbatchesAtHeightResponse {
+  uint64 count = 1;
+}
+
+message QueryCountPoCvalidationsAtHeightRequest {
+  int32 blockHeight = 1;
+}
+
+message QueryCountPoCvalidationsAtHeightResponse {
+  uint64 count = 1;
+}
+
+message QueryApprovedTokensForTradeRequest {}
+
+message QueryApprovedTokensForTradeResponse {
+  repeated BridgeTokenReference approved_tokens = 1 [(gogoproto.nullable) = false];
+}
+
+// Dynamic pricing query messages
+message QueryGetModelPerTokenPriceRequest {
+  string model_id = 1;
+}
+
+message QueryGetModelPerTokenPriceResponse {
+  uint64 price = 1;
+  bool   found = 2;
+}
+
+message QueryGetAllModelPerTokenPricesRequest {}
+
+message ModelPrice {
+  string model_id = 1;
+  uint64 price    = 2;
+}
+
+message QueryGetAllModelPerTokenPricesResponse {
+  repeated ModelPrice model_prices = 1 [(gogoproto.nullable) = false];
+}
+
+message QueryGetModelCapacityRequest {
+  string model_id = 1;
+}
+
+message QueryGetModelCapacityResponse {
+  uint64 capacity = 1;
+  bool   found    = 2;
+}
+
+message QueryGetAllModelCapacitiesRequest {}
+
+message QueryGetAllModelCapacitiesResponse {
+  repeated ModelCapacity model_capacities = 1 [(gogoproto.nullable) = false];
+}
+
+message ModelCapacity {
+  string model_id = 1;
+  uint64 capacity = 2;
+}
+
+message QueryGranteesByMessageTypeRequest {
+  string granter_address  = 1;
+  string message_type_url = 2;
+}
+
+message Grantee {
+  string address = 1;
+  string pub_key = 2;
+}
+
+message QueryGranteesByMessageTypeResponse {
+  repeated Grantee grantees = 1;
+}
+
+message QueryParticipantAllowListRequest {}
+
+message QueryParticipantAllowListResponse {
+  repeated string addresses = 1;
+}
+
+message QueryGetMLNodeVersionRequest {}
+
+message QueryGetMLNodeVersionResponse {
+  MLNodeVersion mlnode_version = 1 [(gogoproto.nullable) = false];
+}
+
+message QueryGetLastUpgradeHeightRequest {}
+
+message QueryGetLastUpgradeHeightResponse {
+  int64 last_upgrade_height = 1;
+  bool  found               = 2;
+}
+
+// QueryExcludedParticipantsRequest requests excluded participants for an epoch.
+// If epoch_index is 0, the query should return for the current effective epoch.
+message QueryExcludedParticipantsRequest {
+  uint64 epoch_index = 1;
+}
+
+// QueryExcludedParticipantsResponse returns a list of excluded participants for the epoch.
+message QueryExcludedParticipantsResponse {
+  repeated ExcludedParticipant items = 1;
+}
+
+// QueryActiveConfirmationPoCEventRequest is request type for the Query/ActiveConfirmationPoCEvent RPC method.
+message QueryActiveConfirmationPoCEventRequest {}
+
+// QueryActiveConfirmationPoCEventResponse is response type for the Query/ActiveConfirmationPoCEvent RPC method.
+message QueryActiveConfirmationPoCEventResponse {
+  bool                 is_active = 1;
+  ConfirmationPoCEvent event     = 2;
+}
+
+// QueryConfirmationPoCEventsRequest is request type for the Query/ConfirmationPoCEvents RPC method.
+message QueryConfirmationPoCEventsRequest {
+  uint64 epoch_index = 1;
+}
+
+// QueryConfirmationPoCEventsResponse is response type for the Query/ConfirmationPoCEvents RPC method.
+message QueryConfirmationPoCEventsResponse {
+  repeated ConfirmationPoCEvent events = 1;
+}
+
+// ParticipantWithBalance contains participant data along with their bank balance.
+message ParticipantWithBalance {
+  Participant                       participant = 1 [(gogoproto.nullable) = false];
+  repeated cosmos.base.v1beta1.Coin balances    = 2 [(gogoproto.nullable) = false];
+}
+
+// QueryParticipantsWithBalancesRequest is request type for the Query/ParticipantsWithBalances RPC method.
+message QueryParticipantsWithBalancesRequest {
+  cosmos.base.query.v1beta1.PageRequest pagination = 1;
+}
+
+// QueryParticipantsWithBalancesResponse is response type for the Query/ParticipantsWithBalances RPC method.
+message QueryParticipantsWithBalancesResponse {
+  repeated ParticipantWithBalance               participants = 1 [(gogoproto.nullable) = false];
+           cosmos.base.query.v1beta1.PageResponse pagination   = 2;
+           int64                                  block_height = 3;
+}
+
+// QueryRandomSeedsRequest is request type for the Query/RandomSeeds RPC method.
+message QueryRandomSeedsRequest {
+  uint64 epoch_index = 1;
+}
+
+// QueryRandomSeedsResponse is response type for the Query/RandomSeeds RPC method.
+message QueryRandomSeedsResponse {
+  repeated RandomSeed seeds = 1;
+}
+
+message QueryPoCValidationSnapshotRequest {
+  int64 poc_stage_start_height = 1;
+}
+
+message QueryPoCValidationSnapshotResponse {
+  PoCValidationSnapshot snapshot = 1;
+  bool found = 2;
+}
+
+message QueryPreservedNodesSnapshotRequest {}
+
+message QueryPreservedNodesSnapshotResponse {
+  PreservedNodesSnapshot snapshot = 1;
+  bool found = 2;
+}
+
+message QueryGetDevshardEscrowRequest {
+  uint64 id = 1;
+}
+
+message QueryGetDevshardEscrowResponse {
+  DevshardEscrow escrow = 1;
+  bool found = 2;
+}
+
+message QueryGetDevshardHostEpochStatsRequest {
+  uint64 epoch_index = 1;
+  string participant = 2;
+}
+
+message QueryGetDevshardHostEpochStatsResponse {
+  DevshardHostEpochStats stats = 1;
+  bool found = 2;
+}
+
+// Maintenance query messages
+
+message QueryMaintenanceCreditRequest {
+  string participant = 1;
+}
+
+message QueryMaintenanceCreditResponse {
+  uint64 credit_blocks = 1;
+  bool   found         = 2;
+}
+
+message QueryMaintenanceScheduledRequest {
+  string participant = 1;
+}
+
+message QueryMaintenanceScheduledResponse {
+  MaintenanceReservation reservation = 1;
+  bool found = 2;
+}
+
+message QueryMaintenanceActiveRequest {}
+
+message QueryMaintenanceActiveResponse {
+  repeated MaintenanceReservation reservations = 1;
+}
+
+message QueryMaintenanceStatusRequest {
+  string participant = 1;
+}
+
+message QueryMaintenanceStatusResponse {
+  MaintenanceState state = 1;
+  MaintenanceReservation active_reservation    = 2;
+  MaintenanceReservation scheduled_reservation = 3;
+  bool found = 4;
+}
+
+message QueryMaintenanceConcurrencyRequest {
+  int64 height = 1;
+}
+
+message QueryMaintenanceConcurrencyResponse {
+  uint32 concurrent_count     = 1;
+  int64  concurrent_power_bps = 2;
+}
+
+message QueryMaintenanceSchedulabilityRequest {
+  string participant     = 1;
+  int64  start_height    = 2;
+  uint64 duration_blocks = 3;
+}
+
+message QueryMaintenanceSchedulabilityResponse {
+  bool   schedulable        = 1;
+  string rejection_reason   = 2;
+}
+
+message QueryListClaimRecipientsRequest {
+  string participant = 1;
+}
+
+message QueryListClaimRecipientsResponse {
+  repeated ClaimRecipientEntry entries = 1 [(gogoproto.nullable) = false];
+}

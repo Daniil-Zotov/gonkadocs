@@ -1,0 +1,131 @@
+{
+  "app_state": {
+    "gov": {
+      "params": {
+        "min_deposit": [
+          {
+            "denom": "ngonka",
+            "amount": "1_000"
+          }
+        ],
+        "expedited_min_deposit": [
+          {
+            "denom": "ngonka",
+            "amount": "2_000"
+          }
+        ],
+        "voting_period": "30s"
+      }
+    },
+    "inference": {
+      "params": {
+        "epoch_params": {
+          "epoch_length": "50",
+          "epoch_multiplier": "1",
+          "epoch_shift": "0",
+          "default_unit_of_compute_price": "100",
+          "poc_stage_duration": "4",
+          "poc_exchange_duration": "1",
+          "poc_validation_delay": "1",
+          "poc_validation_duration": "4",
+          "set_new_validators_delay": "1",
+          "confirmation_poc_safety_window": "0"
+        },
+        "validation_params": {
+          "expiration_blocks": "10",
+          "min_validation_average": {
+            "value": "1",
+            "exponent": -2
+          },
+          "max_validation_average": {
+            "value": "1",
+            "exponent": 0
+          },
+          "epochs_to_max": "100",
+          "full_validation_traffic_cutoff": "100",
+          "min_validation_halfway": {
+            "value": "5",
+            "exponent": -2
+          },
+          "min_validation_traffic_cutoff": "10"
+        },
+        "bandwidth_limits_params": {
+          "estimated_limits_per_block_kb": "43008",
+          "kb_per_input_token": {
+            "value": "23",
+            "exponent": "-4"
+          },
+          "kb_per_output_token": {
+            "value": "64",
+            "exponent": "-2"
+          },
+          "invalidations_sample_period": "1"
+        },
+        "delegation_params": {
+          "deploy_window": "1",
+          "refusal_penalty": { "value": "0", "exponent": 0 },
+          "no_participation_penalty": { "value": "0", "exponent": 0 },
+          "delegation_share": { "value": "0", "exponent": 0 },
+          "w_threshold": { "value": "0", "exponent": 0 },
+          "v_min": "0",
+          "cap_factor": { "value": "1", "exponent": 0 },
+          "initial_model_id": "Qwen/Qwen2.5-7B-Instruct"
+        },
+        "maintenance_params": {
+          "maintenance_enabled": true,
+          "maintenance_min_schedule_lead_blocks": "2",
+          "maintenance_max_window_blocks": "50",
+          "maintenance_max_concurrent_validators": 3,
+          "maintenance_max_concurrent_power_bps": 5000,
+          "maintenance_credit_cap_blocks": "200",
+          "maintenance_credit_earn_per_successful_epoch_blocks": "50"
+        }
+      },
+      "genesis_only_params": {
+        "total_supply": "1000000000000000000",
+        "originator_supply": "160000000000000000",
+        "standard_reward_amount": "600000000000000000",
+        "pre_programmed_sale_amount": "120000000000000000",
+        "supply_denom": "ngonka"
+      },
+      "model_list": [
+        {
+          "proposed_by": "genesis",
+          "id": "Qwen/QwQ-32B",
+          "units_of_compute_per_token": "1000",
+          "hf_repo": "Qwen/QwQ-32B",
+          "hf_commit": "976055f8c83f394f35dbd3ab09a285a984907bd0",
+          "model_args": [
+            "--quantization",
+            "fp8",
+            "--kv-cache-dtype",
+            "fp8"
+          ],
+          "v_ram": "80",
+          "throughput_per_nonce": "1000",
+          "validation_threshold": {
+            "value": "85",
+            "exponent": -2
+          }
+        },
+        {
+          "proposed_by": "genesis",
+          "id": "Qwen/Qwen2.5-7B-Instruct",
+          "units_of_compute_per_token": "100",
+          "hf_repo": "Qwen/Qwen2.5-7B-Instruct",
+          "hf_commit": "a09a35458c702b33eeacc393d103063234e8bc28",
+          "model_args": [
+            "--quantization",
+            "fp8"
+          ],
+          "v_ram": "24",
+          "throughput_per_nonce": "10000",
+          "validation_threshold": {
+            "value": "85",
+            "exponent": -2
+          }
+        }
+      ]
+    }
+  }
+}

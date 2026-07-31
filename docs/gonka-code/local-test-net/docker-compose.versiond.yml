@@ -1,0 +1,111 @@
+# Versiond overlay: canonical versiond + 2 sticky-routable extras (3 total),
+# nginx versiond-router, and test fixtures (testapp-server, devshardd-artifact-server).
+#
+# Paths are relative to --project-directory (repo root). Typical Testermint stack:
+#   base + genesis + versiond [+ devshard-postgres on genesis] [+ devshard-router-proxy on genesis]
+#
+# Postgres for devshardd (DEVSHARD_STORAGE_MODE, default auto):
+#   - Default (no devshard-postgres overlay): PGHOST empty → sqlite mode.
+#   - With docker-compose.devshard-postgres.yml: shared Postgres +
+#     DEVSHARD_STORAGE_MODE=postgres (genesis only).
+# dapi payload Postgres remains per-node in docker-compose-base.yml.
+
+x-versiond: &versiond
+  image: versiond:latest
+  platform: ${DOCKER_PLATFORM:-linux/amd64}
+  build:
+    context: ./versioned
+    dockerfile: Dockerfile
+  environment:
+    VERSIOND_ORACLE_URL: http://${KEY_NAME}-api:9100/versions
+    VERSIOND_POLL_INTERVAL: "5s"
+    VERSIOND_BIN_DIR: /opt/versiond/bin
+    VERSIOND_DATA_DIR: /opt/versiond/data
+    VERSIOND_BINARY_NAME: ${VERSIOND_BINARY_NAME:-testapp}
+    VERSIOND_FORCE: ${VERSIOND_FORCE:-}
+    # Compose must list each override key; host env alone is not enough for substitution.
+    VERSIOND_OVERRIDE_dev: ${VERSIOND_OVERRIDE_dev:-}
+    VERSIOND_OVERRIDE_testapp: ${VERSIOND_OVERRIDE_testapp:-}
+    VERSIOND_OVERRIDE_v1: ${VERSIOND_OVERRIDE_v1:-}
+    VERSIOND_OVERRIDE_v0_2_11: ${VERSIOND_OVERRIDE_v0_2_11:-}
+    VERSIOND_OVERRIDE_v0_2_13: ${VERSIOND_OVERRIDE_v0_2_13:-}
+    NODE_MANAGER_ADDR: ${NODE_MANAGER_ADDR:-${KEY_NAME}-api:9400}
+    KEY_NAME: ${VERSIOND_SIGNER_KEY_NAME}
+    ACCOUNT_PUBKEY: ${ACCOUNT_PUBKEY:-}
+    NODE_HOST: ${KEY_NAME}-node
+    KEYRING_BACKEND: ${KEYRING_BACKEND:-file}
+    KEYRING_PASSWORD: ${KEYRING_PASSWORD:-}
+    KEYRING_DIR: ${KEYRING_DIR:-/root/.inference}
+    # devshardd child storage (overridden by docker-compose.devshard-postgres.yml).
+    PGHOST: ${PGHOST:-}
+    PGPORT: ${PGPORT:-5432}
+    PGDATABASE: ${PGDATABASE:-payloads}
+    PGUSER: ${PGUSER:-payloads}
+    PGPASSWORD: ${PGPASSWORD:-}
+  volumes:
+    - ./build/devshardd:/opt/overrides/devshardd:ro
+    - ./prod-local/${KEY_NAME}:/root/.inference:ro
+  networks:
+    - chain-public
+  dns:
+    - 172.25.0.10
+    - 127.0.0.11
+
+services:
+  api:
+    environment:
+      - ACCOUNT_PUBKEY=${ACCOUNT_PUBKEY:-}
+      - KEYRING_BACKEND=${KEYRING_BACKEND:-test}
+
+  versiond:
+    <<: *versiond
+    container_name: ${KEY_NAME}-versiond
+
+  versiond-2:
+    <<: *versiond
+    container_name: ${KEY_NAME}-versiond-2
+
+  versiond-3:
+    <<: *versiond
+    container_name: ${KEY_NAME}-versiond-3
+
+  versiond-router:
+    image: ghcr.io/product-science/versiond-router:latest
+    build:
+      context: ./versiond-router
+      dockerfile: Dockerfile
+    container_name: ${KEY_NAME}-versiond-router
+    environment:
+      VERSIOND_HOSTS: ${VERSIOND_HOSTS:-${KEY_NAME}-versiond ${KEY_NAME}-versiond-2 ${KEY_NAME}-versiond-3}
+      VERSIOND_PORT: ${VERSIOND_PORT:-8080}
+      VERSIOND_LEGACY_HOST: ${VERSIOND_LEGACY_HOST:-${KEY_NAME}-versiond}
+      # Empty = all versions HA. Set e.g. "v1 v2 v3" for mixed SQLite/Postgres rollouts.
+      VERSIOND_NON_HA_VERSIONS: ${VERSIOND_NON_HA_VERSIONS:-}
+    networks:
+      - chain-public
+
+  testapp-server:
+    container_name: ${KEY_NAME}-testapp-server
+    image: testapp-server:latest
+    build:
+      context: .
+      dockerfile: local-test-net/Dockerfile.testapp-server
+    ports:
+      - "${TESTAPP_SERVER_PORT:-7090}:8080"
+    networks:
+      - chain-public
+
+  devshardd-artifact-server:
+    container_name: ${KEY_NAME}-devshardd-artifact-server
+    image: python:3.12-alpine
+    working_dir: /srv/files
+    command: ["python3", "-m", "http.server", "8080"]
+    volumes:
+      - ./build/devshardd-artifacts:/srv/files:ro
+    networks:
+      - chain-public
+
+networks:
+  chain-public:
+    name: chain-public
+    external: true
