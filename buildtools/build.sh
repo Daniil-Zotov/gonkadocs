@@ -27,6 +27,9 @@ GONKA_ROOT="$ROOT/docs/gonka/docs"
 GONKA_SITE_URL="${GONKA_SITE_URL:-https://gonkadocs.com/gonka/docs/}"
 
 echo "==> [0/7] Генерация llms.txt и llms-full.txt для AI-агентов"
+# events.md должен существовать до генерации llms-full.txt (который его включает);
+# хук MkDocs генерирует его при сборке, но [0/7] идёт раньше сборки.
+python3 "$ROOT/buildtools/generate_calendar_events.py" "$ROOT/docs"
 python3 "$ROOT/buildtools/generate-llms.py"
 python3 "$ROOT/buildtools/generate-llms-full.py"
 

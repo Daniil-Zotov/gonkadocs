@@ -2,6 +2,9 @@
 _site/
 site/
 
+# Generated calendar events listing
+docs/community/calendar/events.md
+
 # Python
 __pycache__/
 *.py[cod]

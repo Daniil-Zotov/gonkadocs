@@ -213,6 +213,51 @@ def build_section_entries(section: dict) -> list[str]:
     return lines
 
 
+def _calendar_upcoming_lines(limit: int = 5) -> list[str]:
+    """Return markdown lines for the N nearest upcoming calendar events.
+
+    Reads the same JSON sources the calendar template uses, sorted by date,
+    so AI agents see upcoming events without rendering the JS page.
+    """
+    import json as _json
+    from datetime import date
+
+    calendar_dir = DOCS / "community" / "calendar"
+    if not calendar_dir.is_dir():
+        return ["- No calendar data found."]
+
+    events = []
+    for path in sorted(calendar_dir.glob("*.json")):
+        if path.name == "manifest.json":
+            continue
+        try:
+            data = _json.loads(path.read_text(encoding="utf-8"))
+        except (ValueError, OSError):
+            continue
+        items = data if isinstance(data, list) else data.get("events", [])
+        events.extend([e for e in items if isinstance(e, dict) and e.get("date")])
+
+    today = date.today().isoformat()
+    upcoming = sorted(
+        (e for e in events if e.get("date", "") >= today),
+        key=lambda e: (e.get("date", ""), e.get("time", "")),
+    )
+
+    if not upcoming:
+        return ["- No upcoming events scheduled."]
+
+    lines = []
+    for e in upcoming[:limit]:
+        title = str(e.get("title", "Untitled")).replace("\n", " ").strip()
+        when = f"{e.get('date', '')} {e.get('time', '').strip()}".strip()
+        url = e.get("url", "")
+        if url.startswith("http"):
+            lines.append(f"- {when} — {title}: {url}")
+        else:
+            lines.append(f"- {when} — {title}: https://gonkadocs.com{url}")
+    return lines
+
+
 def main():
     parts = []
     parts.append("# Gonka Docs\n")
@@ -234,6 +279,14 @@ def main():
     parts.append("")
     parts.append("- [All Issues](/community/issues/): Index of all issues from gonka-ai/gonka")
     parts.append("- [By Label](/community/issues/labels/): Issues grouped by label")
+    parts.append("")
+
+    # Community calendar section (events from community/calendar/*.json)
+    parts.append("## Community Calendar")
+    parts.append("")
+    parts.append("- [All Calendar Events](/community/calendar/events/): Every event (AMAs, committee calls, proposal milestones, network updates) — machine-readable page, also indexed by search")
+    for line in _calendar_upcoming_lines(5):
+        parts.append(line)
     parts.append("")
 
     # Dynamic sections
