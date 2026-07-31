@@ -2,7 +2,7 @@
 title: "#810 — Gonka Node Manager — Automated Node Deployment, Updates, and Monitoring"
 source: https://github.com/gonka-ai/gonka/issues/810
 issue_number: 810
-synced_at: 2026-07-31T18:49:32Z
+synced_at: 2026-07-31T20:40:13Z
 template: issues-main.html
 ---
 
