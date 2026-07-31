@@ -56,7 +56,6 @@ SKIP_DIRS = {
     "community/discussion",  # 70+ discussions — linked from llms.txt, too large
     "community/issues",  # 100+ issues — linked from llms.txt, too large
     "community/activity",  # dynamic JS-rendered page, not static content
-    "gonka-code",  # raw source mirror — indexed via gonka-code-map.txt
 }
 
 

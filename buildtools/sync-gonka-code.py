@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Sync gonka-ai/gonka source code mirror into docs/gonka-code/.
+"""Sync gonka-ai/gonka source code mirror into gonka-code/.
 
 Filters out everything an AI agent does not need:
 - binaries (cosmovisor upgrade bundles)
@@ -12,7 +12,7 @@ Filters out everything an AI agent does not need:
 - editor/CI cruft (.git, __pycache__, node_modules, .venv, .idea, etc.)
 
 Usage:
-    python3 buildtools/sync-gonka-code.py --src <upstream_repo> --dest docs/gonka-code
+    python3 buildtools/sync-gonka-code.py --src <upstream_repo> --dest gonka-code
 
 Mirrors src -> dest: copies new/changed files and deletes stale ones.
 """
@@ -123,7 +123,7 @@ def sync(src: Path, dest: Path) -> None:
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--src", required=True, help="Path to upstream gonka-ai/gonka checkout")
-    ap.add_argument("--dest", default="docs/gonka-code", help="Destination mirror dir")
+    ap.add_argument("--dest", default="gonka-code", help="Destination mirror dir")
     args = ap.parse_args()
 
     src = Path(args.src).resolve()

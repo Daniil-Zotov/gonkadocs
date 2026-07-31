@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Generate gonka-code-map.txt — an index of the gonka-ai/gonka source mirror.
 
-Scans docs/gonka-code/ and produces a structured map of modules, key files,
-and design docs with full URLs, optimized for AI agents.
+Scans gonka-code/ (repo root) and produces a structured map of modules, key
+files, and design docs with full URLs, optimized for AI agents.
 
 Usage:
     python3 buildtools/generate-code-map.py
@@ -14,7 +14,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-CODE_DIR = ROOT / "docs" / "gonka-code"
+CODE_DIR = ROOT / "gonka-code"
 OUT = ROOT / "docs" / "gonka-code-map.txt"
 SITE_URL = "https://gonkadocs.com"
 

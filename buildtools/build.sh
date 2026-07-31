@@ -30,6 +30,14 @@ echo "==> [0/7] Генерация llms.txt и llms-full.txt для AI-аген�
 python3 "$ROOT/buildtools/generate-llms.py"
 python3 "$ROOT/buildtools/generate-llms-full.py"
 
+# Зеркало исходников gonka-ai/gonka живёт в корне репо (gonka-code/), вне docs/,
+# чтобы MkDocs не конвертировал .md в HTML. Карта кода генерируется из него и
+# копируется в _site как статика.
+if [ -d "$ROOT/gonka-code" ]; then
+  echo "==> [0.5/7] Генерация gonka-code-map.txt из зеркала gonka-code/"
+  python3 "$ROOT/buildtools/generate-code-map.py"
+fi
+
 echo "==> [1/7] Сборка основного сайта -> $SITE_DIR"
 cd "$ROOT"
 python3 -m mkdocs build --clean --site-dir "$SITE_DIR"
@@ -395,9 +403,13 @@ else:
     print("  No new gonka URLs to merge")
 PYEOF
 
-echo "==> [7/7] Копирование robots.txt, llms.txt и openapi.yaml в _site"
+echo "==> [7/7] Копирование robots.txt, llms.txt, openapi.yaml, gonka-code в _site"
 cp "$ROOT/docs/robots.txt" "$SITE_DIR/robots.txt"
 cp "$ROOT/docs/llms.txt" "$SITE_DIR/llms.txt"
 cp "$ROOT/docs/llms-full.txt" "$SITE_DIR/llms-full.txt"
 cp "$ROOT/docs/openapi.yaml" "$SITE_DIR/openapi.yaml"
 cp "$ROOT/docs/gonka-code-map.txt" "$SITE_DIR/gonka-code-map.txt"
+if [ -d "$ROOT/gonka-code" ]; then
+  cp -r "$ROOT/gonka-code" "$SITE_DIR/gonka-code"
+  echo "  mirror: gonka-code/ -> $SITE_DIR/gonka-code/"
+fi
