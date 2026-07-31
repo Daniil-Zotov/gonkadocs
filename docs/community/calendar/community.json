@@ -8,5 +8,15 @@
     "time": "11:00 UTC",
     "description": "YouTube стрим с Яковом, сооснователем Ancapex. Разбор всего самого важного в Gonka за последние месяцы: инференс, пропозалы v0.2.14–v0.2.15, обучение моделей, майнинг и цена токена, governance, дорожная карта.",
     "tags": ["livestream", "ancapex"]
+  },
+  {
+    "date": "2026-08-03",
+    "category": "community",
+    "type": "ama",
+    "title": "AMA с Глебом Моргачевым — Dev Team Funding proposal",
+    "url": "https://github.com/gonka-ai/gonka/discussions/1464",
+    "time": "15:30 UTC",
+    "description": "AMA-сессия с Глебом Моргачевым (@gmorgachev, сооснователь Gonka) о proposal финансирования независимой команды разработки (Dev Team Funding). Обсудим ключевые вопросы: на какие задачи запрашивается финансирование; как будет устроена независимая команда разработки; механика финансирования; прозрачность расходов, отчётность и роль Глеба в инициативе. Язык: русский. Ведущие: @paranko и @dem_ww. Zoom: ссылка будет к началу сессии. Proposal: https://github.com/gonka-ai/gonka/discussions/1464",
+    "tags": ["ama", "dev-team-funding", "gmorgachev"]
   }
 ]
