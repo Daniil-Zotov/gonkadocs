@@ -262,6 +262,7 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [#77 – Gonka PR Proposal for US/Global Regions](/proposals/proposals/2026-q2/77/): Auto-synced content
 - [Weekly Report — 13-17 July](/proposals/proposals/2026-q2/77/report1/): Auto-synced content
 - [Weekly Report — 20–24 July](/proposals/proposals/2026-q2/77/report2/): Auto-synced content
+- [Weekly Report — 27–31 July](/proposals/proposals/2026-q2/77/report3/): Auto-synced content
 - [#48 – Lower Direct Participation Threshold to 10%](/proposals/proposals/2026-q2/48/): Auto-synced content
 - [Full Proposal](/proposals/proposals/2026-q2/70/full-proposal/): Auto-synced content
 - [#70 – GNK Racers: Launch GameFi Mini-App to Drive User Growth & Wallet Activity](/proposals/proposals/2026-q2/70/): Auto-synced content

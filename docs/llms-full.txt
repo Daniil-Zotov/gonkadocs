@@ -26380,7 +26380,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-91 proposals across 5 quarters. Last updated: 2026-07-31 17:41 UTC
+91 proposals across 5 quarters. Last updated: 2026-07-31 18:10 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -62259,6 +62259,22 @@ Contract Details
 - Интервью братьев Либерман, организованное на конференции WebX, опубликовано в Blockchain Reporter. Материал также получил синдикацию в блоге Binance - это поможет увеличению охвата публикации.
 - Мы передали авторскую колонку братьев Либерман в The AI Journal для публикации. Поделимся ссылкой, когда материал выйдет в медиа.
 - Мы засекьюрили участие Gonka в двух листикл-материалах — в Analytics Insight и CryptoDaily. Сейчас ждем детали от редакторов.
+
+Всем хороших выходных!
+
+---
+
+## Weekly Report — 27–31 July
+
+# Weekly Report — 27–31 July
+
+**Дата публикации:** 2026-07-31
+
+---
+
+- Мы получили детали от редакций Analytics Insight и CryptoDaily по листикл-статьям с участием Gonka — сейчас собираем текст и информацию для редакторов, на следующей неделе передадим для публикации.
+- Мы продолжаем питчинг Глеба и Анастасии в медиа, поделимся апдейтами после получения обратной связи от журналистов.
+- Также мы ждём деталей от команды Bitfury, чтобы расширить пул наших спикеров и добавить новых экспертов с их стороны.
 
 Всем хороших выходных!
 
