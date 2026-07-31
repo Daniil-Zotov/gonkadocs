@@ -1,0 +1,924 @@
+{
+  "section": "calendar",
+  "snapshot_time": "2026-07-31T19:30:52.016552+00:00",
+  "files": {
+    "0ef86b1e20ace1fba082601b4bda7176d6ecbe2098b2ad0a914ada22b3d9dbbf": {
+      "title": "▶️ Ancapex Live: Обзор Gonka",
+      "date": "2026-07-30",
+      "time": "11:00 UTC",
+      "event_type": "livestream",
+      "url": "https://www.youtube.com/@Ancapex",
+      "content_preview": "YouTube стрим с Яковом, сооснователем Ancapex. Разбор всего самого важного в Gonka за последние месяцы: инференс, пропозалы v0.2.14–v0.2.15, обучение моделей, майнинг и цена токена, governance, дорожная карта.",
+      "checksum": "12d43b5855994b4a8f59c268f4a2c387f1ab2198d7ab4bef28db2aaab6820e67"
+    },
+    "89b015bf8aec48d32a7f8ff5772ad30c7b0ddb9124bb2682b5ab8787cd26fd00": {
+      "title": "AMA с Глебом Моргачевым — Dev Team Funding proposal",
+      "date": "2026-08-03",
+      "time": "15:30 UTC",
+      "event_type": "ama",
+      "url": "https://github.com/gonka-ai/gonka/discussions/1464",
+      "content_preview": "AMA-сессия с Глебом Моргачевым (@gmorgachev, сооснователь Gonka) о proposal финансирования независимой команды разработки (Dev Team Funding). Обсудим ключевые вопросы: на какие задачи запрашивается финансирование; как будет устроена независимая команда разработки; механика финансирования; прозрачность расходов, отчётность и роль Глеба в инициативе. Язык: русский. Ведущие: @paranko и @dem_ww. Zoom: ссылка будет к началу сессии. Proposal: https://github.com/gonka-ai/gonka/discussions/1464",
+      "checksum": "7491eea990227a435f2803d794156c7f6b7121a08167a521ffacdd53d4c29a96"
+    },
+    "9a26c0c43e769fe2005297e04e91abc3aae9653775fcedba3963b730de2120a2": {
+      "title": "INPUT Global — Weekly Call (#77)",
+      "date": "2026-07-29",
+      "time": "13:00 UTC",
+      "event_type": "committee_call",
+      "url": "/proposals/proposals/2026-q2/77/",
+      "content_preview": "Еженедельный отчет команды INPUT Global в рамках принятого proposal #77 – Gonka PR Proposal for US/Global Regions. Видеовстреча: https://meet.google.com/hsc-oesy-jbw",
+      "checksum": "d16d24cf9becaaa9b3de39ab1f320c8b41b1b796a4a75bd339a85ef989ce9d9e"
+    },
+    "0a6e63192513fe0b6420e663334ccf68492e64012c5ec6eb5ccadda600414356": {
+      "title": "INPUT Global — Weekly Call (#77)",
+      "date": "2026-08-05",
+      "time": "13:00 UTC",
+      "event_type": "committee_call",
+      "url": "/proposals/proposals/2026-q2/77/",
+      "content_preview": "Еженедельный отчет команды INPUT Global в рамках принятого proposal #77 – Gonka PR Proposal for US/Global Regions. Видеовстреча: https://meet.google.com/hsc-oesy-jbw",
+      "checksum": "46b49004143970d7172fefca8c72719cbe44c4275d5289879feafcba8dee2dfc"
+    },
+    "59feb3a4a03efcb0f890295621908e3d5eaebd21c8913825fe0137fc222189ae": {
+      "title": "INPUT Global — Weekly Call (#77)",
+      "date": "2026-08-12",
+      "time": "13:00 UTC",
+      "event_type": "committee_call",
+      "url": "/proposals/proposals/2026-q2/77/",
+      "content_preview": "Еженедельный отчет команды INPUT Global в рамках принятого proposal #77 – Gonka PR Proposal for US/Global Regions. Видеовстреча: https://meet.google.com/hsc-oesy-jbw",
+      "checksum": "6afad995f172c46fc00d153c7edc797c071c7e1becc659808384bd5976e07208"
+    },
+    "4d6ec30549527d3cf04ef402372d4518f99fc9d7d8566915fc3bf78d33ae6545": {
+      "title": "INPUT Global — Weekly Call (#77)",
+      "date": "2026-08-19",
+      "time": "13:00 UTC",
+      "event_type": "committee_call",
+      "url": "/proposals/proposals/2026-q2/77/",
+      "content_preview": "Еженедельный отчет команды INPUT Global в рамках принятого proposal #77 – Gonka PR Proposal for US/Global Regions. Видеовстреча: https://meet.google.com/hsc-oesy-jbw",
+      "checksum": "e4856654c8a33a4ad882ba1e40ef247afb9713383cbc53061baf66268703ca92"
+    },
+    "217c741cc6121363274d224db6e772ddfbc0be15ef7b9c729066b679c854770d": {
+      "title": "INPUT Global — Weekly Call (#77)",
+      "date": "2026-08-26",
+      "time": "13:00 UTC",
+      "event_type": "committee_call",
+      "url": "/proposals/proposals/2026-q2/77/",
+      "content_preview": "Еженедельный отчет команды INPUT Global в рамках принятого proposal #77 – Gonka PR Proposal for US/Global Regions. Видеовстреча: https://meet.google.com/hsc-oesy-jbw",
+      "checksum": "7cb740882ea3332e46204daf4bba3f0951751d81753ba14e678ccbb0a430015d"
+    },
+    "8262dda2ab60fcbea427f2af45e9b186f229fc1aa228f519a08a64ed13d274b9": {
+      "title": "INPUT Global — Weekly Call (#77)",
+      "date": "2026-09-02",
+      "time": "13:00 UTC",
+      "event_type": "committee_call",
+      "url": "/proposals/proposals/2026-q2/77/",
+      "content_preview": "Еженедельный отчет команды INPUT Global в рамках принятого proposal #77 – Gonka PR Proposal for US/Global Regions. Видеовстреча: https://meet.google.com/hsc-oesy-jbw",
+      "checksum": "da76fd567b97904931251f8a33a17867f89f672b8369e697800f1e4fceac63e2"
+    },
+    "f2d4ea717f34e9a709fccead2cbe64926aaeb7d055e9b487c9a3b53761829851": {
+      "title": "INPUT Global — Weekly Call (#77)",
+      "date": "2026-09-09",
+      "time": "13:00 UTC",
+      "event_type": "committee_call",
+      "url": "/proposals/proposals/2026-q2/77/",
+      "content_preview": "Еженедельный отчет команды INPUT Global в рамках принятого proposal #77 – Gonka PR Proposal for US/Global Regions. Видеовстреча: https://meet.google.com/hsc-oesy-jbw",
+      "checksum": "659de71b8bfd0fb75131a99c5fb9339529b643819831216ed8e50c91c0a44a19"
+    },
+    "960139156a16c51bddce28fd38107477ecf9210c7a33138e0567efa336baf880": {
+      "title": "INPUT Global — Weekly Call (#77)",
+      "date": "2026-09-16",
+      "time": "13:00 UTC",
+      "event_type": "committee_call",
+      "url": "/proposals/proposals/2026-q2/77/",
+      "content_preview": "Еженедельный отчет команды INPUT Global в рамках принятого proposal #77 – Gonka PR Proposal for US/Global Regions. Видеовстреча: https://meet.google.com/hsc-oesy-jbw",
+      "checksum": "c3d8eca9d13fd04712f528d3268f0451ab88d6e7fcbc805959a2cb37ce71e407"
+    },
+    "80c565f3c8d9968190f0a02ce82492933b68a0e476af5a0d5a3f1d9081f97951": {
+      "title": "INPUT Global — Weekly Call (#77)",
+      "date": "2026-09-23",
+      "time": "13:00 UTC",
+      "event_type": "committee_call",
+      "url": "/proposals/proposals/2026-q2/77/",
+      "content_preview": "Еженедельный отчет команды INPUT Global в рамках принятого proposal #77 – Gonka PR Proposal for US/Global Regions. Видеовстреча: https://meet.google.com/hsc-oesy-jbw",
+      "checksum": "56ea51d5784c1a0434bad5cadf41a747e123e97fff77459283bb755cc49e9f66"
+    },
+    "431c050c866ac4543ed771bc8327dfa7ff079f682d87211ac8056759da91da2f": {
+      "title": "Passed: #1 – Correct Epoch Length",
+      "date": "2025-09-07",
+      "time": "21:51 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2025-q3/1/",
+      "content_preview": "Proposal updates epoch_length and restrictions length according to real block length in seconds.",
+      "checksum": "a3b4e8dee877bc108834f87ad3df38817b11aeba7045ade93cc5a716828e59dd"
+    },
+    "743223fa31ca019d28b1cddbbf0ac99d7c10ce67debec8edc8a8271cf906ba8a": {
+      "title": "Passed: #2 – Proposal introducing new Qwen3 models",
+      "date": "2025-09-11",
+      "time": "21:40 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2025-q3/2/",
+      "content_preview": "This proposal introduces new Qwen3 models including Qwen3-32B-FP8 and Qwen3-235B-A22B-Instruct-2507-FP8, along with updating parameters for Qwen2.5-7B-Instruct and QwQ-32B.",
+      "checksum": "a7acda0bac19f6d7c5db3ae35979c182b8469189036be5fbba348141639c34d3"
+    },
+    "f266eed740533ecb0d84769d3c9d4b378a8f12dc5ebcb36ccd066734d0a17c08": {
+      "title": "Passed: #3 – Increase PoC Validation Length",
+      "date": "2025-09-20",
+      "time": "17:16 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2025-q3/3/",
+      "content_preview": "Proposal updates poc_validation_duration from 20 to 100.",
+      "checksum": "f28539e1f4a5b9a2052a2753ef56757dee2787d58780e83cafb8c62d9435f1d1"
+    },
+    "24a6b798f3e9c2ed2b953d8bb8fd7f8c6bcf88cba5d9736907c1bd93d6ca5b5b": {
+      "title": "Passed: #5 – Expedite voting for upgrades",
+      "date": "2025-09-23",
+      "time": "18:39 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2025-q3/5/",
+      "content_preview": "Expedite voting for upgrades",
+      "checksum": "69690375765b1e169b025f1a56cb1fafd283d53e52c6f964f97dfa8eab729e76"
+    },
+    "fcdaf05ee0ffc88cf02af6b00dd3f99830d4d87a04ca40fbd0141b072bcae9f7": {
+      "title": "Rejected: #4 – Upgrade Proposal: v0.2.2",
+      "date": "2025-09-24",
+      "time": "10:02 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2025-q3/4/",
+      "content_preview": "Upgrade Proposal: v0.2.2",
+      "checksum": "301f94306c6aff6cfa09cd655b2350e960f23c85b86719e72810eb458cb6aaa7"
+    },
+    "595f807f80f4b946497fdc4c484e9a2c3eb9f65bc22b459b97ac59867954f4f0": {
+      "title": "Passed: #6 – Upgrade Proposal: v0.2.2",
+      "date": "2025-09-25",
+      "time": "02:08 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2025-q3/6/",
+      "content_preview": "Upgrade Proposal: v0.2.2",
+      "checksum": "33bc675733a8a99c8cd3a7e742dec2fd7b728aa1953d2510dc47e6b589b562de"
+    },
+    "2138edf1d34c1c3ff9eb405eff54f0a99483d22159657d47ec03181938943264": {
+      "title": "Passed: #7 – Upgrade Proposal: v0.2.3",
+      "date": "2025-10-03",
+      "time": "07:53 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2025-q4/7/",
+      "content_preview": "Upgrade Proposal: v0.2.3",
+      "checksum": "ae9701441020348439511a960fcb3424664dab14f5d3b4ae393f679f9dfaa749"
+    },
+    "b24ad89be367bcc0f938a35fa8f8b9fc47a55fa2956c12a02f666f00c8725ac8": {
+      "title": "Passed: #8 – Upgrade Proposal: v0.2.4",
+      "date": "2025-10-22",
+      "time": "08:46 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2025-q4/8/",
+      "content_preview": "Upgrade Proposal: v0.2.4",
+      "checksum": "5dccff4ddccefae8f0b758b77c0bf0b63b60c3a38fef3bed4c1a561b535d792c"
+    },
+    "187a04d34b7db2e7576b2be2e5e128203bd75011101caf9c9d53859325b4ca49": {
+      "title": "Passed: #9 – Higher Bandwidth Limits & Voting Time Back to 24H",
+      "date": "2025-11-11",
+      "time": "12:22 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2025-q4/9/",
+      "content_preview": "Higher Bandwidth Limits & Voting Time Back to 24H",
+      "checksum": "686c553a9162ebba05be9b3e00d8039ce37bc7523c911e8a56d76645d30e6d7a"
+    },
+    "30ccf6c54d2a513646934028968c466839c3646bcc4a0e9e2267a704489a7418": {
+      "title": "Passed: #11 – Bandwidth Limits",
+      "date": "2025-11-12",
+      "time": "23:00 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2025-q4/11/",
+      "content_preview": "Bandwidth Limits",
+      "checksum": "7429fb5ce0dba35ab5250e6ef92d4d8c7ad84437db1f6bd9c97a9da633b978ef"
+    },
+    "d027735434f61609d2529f87d0bad0a9bf2552bef5b6462c68e6606d33e52d45": {
+      "title": "Passed: #10 – Bandwidth Limits",
+      "date": "2025-11-12",
+      "time": "22:26 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2025-q4/10/",
+      "content_preview": "Bandwidth Limits",
+      "checksum": "8faacfbfb394977af58f963e4c7f48324996ac7ad93a1f9eaf3038be49b07624"
+    },
+    "3b073ee818c2b875d18b197179901f574877ef56650608191d4d097e4db3534b": {
+      "title": "Passed: #12 – Bandwidth Limits",
+      "date": "2025-11-13",
+      "time": "00:22 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2025-q4/12/",
+      "content_preview": "Bandwidth Limits",
+      "checksum": "12849e56a4d25b79d2e5847eea2a366a7b412b83e245efd78a4c0dfe8c65e672"
+    },
+    "f5776aa85a030a1b3f8e59827fb47a6c440113dba3ddf845c782ea78bade099d": {
+      "title": "Passed: #13 – Upgrade Proposal: v0.2.5",
+      "date": "2025-11-22",
+      "time": "09:13 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2025-q4/13/",
+      "content_preview": "Upgrade Proposal: v0.2.5",
+      "checksum": "8240ecedcb6bf687fe5877d95cf3ad5a572a58b55b9646c366a3876426d126f0"
+    },
+    "bd6f0746cc259880825e26de3fc0940420ca1bc2aa8178d0b2e60c424679d2ec": {
+      "title": "Passed: #14 – Sale GNK from Community Fund",
+      "date": "2025-11-27",
+      "time": "09:35 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2025-q4/14/",
+      "content_preview": "Sale GNK from Community Fund",
+      "checksum": "5d5407d6325b205410970ca1abcab9cf72d3bd72ad578701a665ae98d2b92083"
+    },
+    "7340c486336aced3a18e195842a3d51e16968cf466e8a3d763267c6a0a2137d6": {
+      "title": "Rejected: #15 – Upgrade Proposal: v0.2.6",
+      "date": "2025-12-17",
+      "time": "11:12 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2025-q4/15/",
+      "content_preview": "Upgrade Proposal: v0.2.6",
+      "checksum": "245e8217fa95282e249a7b323c6471c213b99520c3a41eefde4a7b8abadaf57b"
+    },
+    "2c096b3e59f93569816ea373f33277525d0fc6e869870e6e32c646823492f6ff": {
+      "title": "Passed: #16 – Upgrade Proposal: v0.2.6",
+      "date": "2025-12-20",
+      "time": "17:09 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2025-q4/16/",
+      "content_preview": "Upgrade Proposal: v0.2.6",
+      "checksum": "76fb4b93cd6dc1805af16296eb0256ec7fb5431f1e250d7a2e1ac5a92686b64c"
+    },
+    "581b87a824e008cdea61fd2b8d59c527dff80cc995ec2a807e21ca60d3098e18": {
+      "title": "Passed: #17 – Expected amount of Confirmation PoC per epoch",
+      "date": "2025-12-26",
+      "time": "21:22 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2025-q4/17/",
+      "content_preview": "Expected amount of Confirmation PoC per epoch to 4, p0 for binomial test to 0.1",
+      "checksum": "0a9c6b74066facb2033ba0316be4e0ca1b05655badbd9bd6ad38a5c615f29fdd"
+    },
+    "b00b69e264c09e9aa4c2525738a46a649fe6d84b3f5c5d0a7d1cfcb0d5087f59": {
+      "title": "Rejected: #18 – Test",
+      "date": "2026-01-05",
+      "time": "13:07 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q1/18/",
+      "content_preview": "Test proposal",
+      "checksum": "d0eaa5f507ab82979b3d5df2c6910d886beb8f3974f633ffcada5afc347884e7"
+    },
+    "4100417fe5dc53462e60d533b24f5e0a089ea923a5418aa4f05f0e6236ffb508": {
+      "title": "Passed: #19 – Upgrade Proposal: v0.2.7",
+      "date": "2026-01-08",
+      "time": "04:23 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q1/19/",
+      "content_preview": "Upgrade Proposal: v0.2.7",
+      "checksum": "1531958375c69e4b63e482f11c71a9246ddfe19b9f5b3c54e9d5505c3cdad5de"
+    },
+    "4f4d9ff7a372b19def5bcf4c86c3f7d2dba1f6f8e596e3d34ec07856bd4dd97d": {
+      "title": "Passed: #20 – Enable Whitelist",
+      "date": "2026-01-10",
+      "time": "06:46 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q1/20/",
+      "content_preview": "https://github.com/product-science/filter/tree/ae59d27f04a70039bcfca94ae656e723982150cd",
+      "checksum": "0d58eee07287d1d953cb5560f1e24f560a9e9f2ec9ea4e5e39227dc45d8c7773"
+    },
+    "a83172039e1a90e30dcb177916e5fe2b60ab7fb6351cf955bc1c46178f7349e9": {
+      "title": "Passed: #21 – Fix mistakes in allowlist",
+      "date": "2026-01-12",
+      "time": "06:04 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q1/21/",
+      "content_preview": "https://github.com/product-science/filter/tree/0354c37eb6c827f00c1e889a2b7de9952a9b84ba",
+      "checksum": "2bb075c8924fa1573c2702da1f16bd5846e91c14d3aeac1da9726d2d0fc8d9d4"
+    },
+    "c108dd2968124f674263b30dcd8a17934cb2ce0f2d4b36e5c01fbda8d3db38f4": {
+      "title": "Passed: #22 – Allowlist Timing",
+      "date": "2026-01-18",
+      "time": "05:28 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q1/22/",
+      "content_preview": "Update Expiration Dates for Developer Access and Participant Allowlist",
+      "checksum": "bbe6940a8a6c73ae9deb12b4b9f337c0e485be1d76c2d510658796b9f8240077"
+    },
+    "3c8766b935b74cee45bd4dce2733e7c1c6c9f2340c53ae188226933ab5c2eb34": {
+      "title": "Passed: #25 – Upgrade Proposal: v0.2.8",
+      "date": "2026-01-29",
+      "time": "03:02 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q1/25/",
+      "content_preview": "Upgrade Proposal: v0.2.8",
+      "checksum": "04505ce9f3200daa91cfe75e759cdfdd76a46e43aa64700c5e9d0d67bbe754eb"
+    },
+    "04afc5d469f35f24fc178da2db33822687c06a7d4906e1ac05303236502a47d5": {
+      "title": "Rejected: #24 – Upgrade Proposal: v0.2.8",
+      "date": "2026-01-29",
+      "time": "00:32 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q1/24/",
+      "content_preview": "Upgrade Proposal: v0.2.8",
+      "checksum": "ab36c2bb26aa37f519c1e3aada39904ef7e93eaa972844c5772b2ce273eb5d90"
+    },
+    "545b64708c5814e1323796d253a6996d1945b212a44880911bfeaa1daadd8d39": {
+      "title": "Passed: #26 – Upgrade Proposal: v0.2.9",
+      "date": "2026-02-01",
+      "time": "22:02 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q1/26/",
+      "content_preview": "Upgrade Proposal: v0.2.9",
+      "checksum": "12e04b92c548e69850ef383b6ad040569bd73307e14e3dc227e72c424f7ae8e9"
+    },
+    "dce2988fc08b44797f7fbf0aa91fdd843e2210caaef62dc8b918c9f06646e583": {
+      "title": "Passed: #27 – Upgrade Proposal: v0.2.10",
+      "date": "2026-02-18",
+      "time": "09:26 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q1/27/",
+      "content_preview": "Upgrade Proposal: v0.2.10",
+      "checksum": "94a7553166ec6236ee5d71d9e2fe717b8b059042a6649049f2db604723d0af17"
+    },
+    "b265bf9de445196153ec26283a0bebf15cee4d2d858a09bd472875977f24445c": {
+      "title": "Rejected: #28 – Collateral Parameters Update",
+      "date": "2026-02-19",
+      "time": "07:27 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q1/28/",
+      "content_preview": "0.032 GNK per 1 unit of power, 0.01% slashing for miss rate or jail, 0.5% slashing for invalid inference",
+      "checksum": "abe1ae2f3196115b80384982f81e8f382baefd9664424946d95df03b4a1c4cf8"
+    },
+    "50afe04f12ae4be2896f6da46ec5ed759f8eae2b771f1d931aa0faea59903391": {
+      "title": "Rejected: #29 – Network Parameters Update: Disable TA Allowlist, Increase Prices 100x",
+      "date": "2026-02-20",
+      "time": "16:03 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q1/29/",
+      "content_preview": "Remove TransferAgent allowlist restrictions (empty list = all TAs allowed) and increase per-token pricing 100x (min 100, base 10000 ngonka) to reduce spam.",
+      "checksum": "6af429ac7994a537faa316386fae928c79a6f4065ddc5bdfcfac565e10cd8de1"
+    },
+    "51eb282c09d8c8dad0fdc127bd39255c8831002ad7648297ba7374c241852d8d": {
+      "title": "Rejected: #30 – Test Proposal",
+      "date": "2026-03-10",
+      "time": "02:37 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q1/30/",
+      "content_preview": "Testing governance voting from the wallet app.",
+      "checksum": "a8441edf4811031f8e85a7c2bd36a418c1bb6ae40f9c033c04ae8d87a614d2eb"
+    },
+    "a7903d7ab9b729f6bfe581ef256b5f468b2ef482b9fd3cc88f1e5e0c4c571141": {
+      "title": "Passed: #31 – Upgrade Proposal: v0.2.11",
+      "date": "2026-03-20",
+      "time": "05:59 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q1/31/",
+      "content_preview": "Upgrade Proposal: v0.2.11",
+      "checksum": "32c217dcab16b3b855f7176fb67109d669abb8093ddbec7d6c23ffc070629cd4"
+    },
+    "921168184721fc70c9269ca0457fe5b7e4212c00d2b35a1f8acfd04750b219fb": {
+      "title": "Passed: #32 – Epoch 158 compensation payout from gov module (batch vesting)",
+      "date": "2026-03-24",
+      "time": "17:30 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q1/32/",
+      "content_preview": "Distribute compensation proportional to epoch 158 lost preserved weights. Implemented as one MsgBatchTransferWithVesting.",
+      "checksum": "5271e2bd6b69ebf3833797b5efd56b9ee8b374424e858c8a3e01bae8e975ace5"
+    },
+    "08110e8201ba3efa0cf50009246260b58e2a7a0dba05c9c7be4efea835b9d3fa": {
+      "title": "Passed: #33 – Epochs 132-133 compensation payout from gov module",
+      "date": "2026-03-27",
+      "time": "15:10 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q1/33/",
+      "content_preview": "Distribute compensation for CPoC bug affected participants in epochs 132-133.",
+      "checksum": "9ee5c9798b6539d4c165659edfded385002225eb1a34e5f6485dc8c1ed965893"
+    },
+    "574a30da59445ba1424c790f0d82e07c57c51ce44aeeffb48fc148e5c3ef6c17": {
+      "title": "Rejected: #35 – gonka.ai / TheSoul social media awareness project",
+      "date": "2026-03-31",
+      "time": "06:47 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q1/35/",
+      "content_preview": "This proposal seeks community approval for a global media initiative to build awareness of decentralized AI and position Gonka as core AI infrastructure.\n\nKey elements:\nLed by TheSoul Group (full-cycl…",
+      "checksum": "b026b261a50303c79567a808625a7942e7bd7e049244a497dd32b0dd42909f49"
+    },
+    "b04b1945ca53dc6efaef1165d799b45ac4a99d5c68558459e51ad6e1a8d55348": {
+      "title": "Rejected: #34 – gonka.ai / TheSoul social media awareness project",
+      "date": "2026-03-31",
+      "time": "06:37 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q1/34/",
+      "content_preview": "This proposal seeks community approval for a global media initiative to build awareness of decentralized AI and position Gonka as core AI infrastructure.\n\nKey elements:\nLed by TheSoul Group (full-cycl…",
+      "checksum": "e0c1b79d5df6860b764d43ee5125a6b5965879e85248fde99f19ea51a8951ec5"
+    },
+    "68a251c5708a379e2d51bbcd8a92d7f01cc24cb7d3e0eb2ae5f5b94cb6918194": {
+      "title": "Passed: #36 – Register Kava USDT IBC metadata and approve for trading",
+      "date": "2026-04-02",
+      "time": "18:03 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q2/36/",
+      "content_preview": "Register IBC token metadata and approve the denomination for trading on Gonka mainnet.",
+      "checksum": "27ec1fe874437a982a790975741fc400e03ae9f725a60b9ba317245970836952"
+    },
+    "aba3db916c57a83841d18d9410eb83a23ec001e39148264895b3753ec267bb47": {
+      "title": "Rejected: #37 – What is your stance on MLM projects around gonka.ai?",
+      "date": "2026-04-08",
+      "time": "19:51 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q2/37/",
+      "content_preview": "If you are against MLM projects around gonka.ai, vote YES. All funds will be used to counter such projects. The amount is symbolic.",
+      "checksum": "f0fe66733c83b46338e3f8f8f0092ab8e4c69b2009d83403eea19af900d07e1b"
+    },
+    "c9215a427403a9fe1167aff70a2139a6feea6eb6976f6c0c0f1ca8616e05ae13": {
+      "title": "Rejected: #38 – CryptoCommons: Community Support & Token Promotion Plan",
+      "date": "2026-04-09",
+      "time": "19:24 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q2/38/",
+      "content_preview": "If you agree say YES — Solution 1: Produce a short review video with 1-2 active community members. Solution 2: Introduce the project to BD managers of major CIS exchanges for listings. Solution 3 (Reg…",
+      "checksum": "528a0613424a8f51ae62bac3c713595026f7f763b7f82c0f07ff811e827f2775"
+    },
+    "359de56fbb3d4b00fbb5ce9c33aa770ed2719dbfaddf5e0916ef87084d373f55": {
+      "title": "Passed: #39 – Community Series Film — Why Gonka Exists",
+      "date": "2026-04-10",
+      "time": "13:33 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q2/39/",
+      "content_preview": "Saccade Media House is a creative team of tech entrepreneurs who know how to tell stories. We've built content for international tech brands and the founders behind them. We propose a Community Series…",
+      "checksum": "5c0eca49c78021e5d0b389569d9f9a867021c63bf5de6ce249857ed294cc9768"
+    },
+    "c9247e0b2ce9003194c02ecd740cd791807b5e91a8520ff49bbb01da7fce7a0e": {
+      "title": "Passed: #40 – Governance: extend voting period to 48 hours",
+      "date": "2026-04-14",
+      "time": "06:11 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q2/40/",
+      "content_preview": "This proposal updates x/gov: the standard voting period becomes 48 hours (was 24), and the expedited voting period becomes 12 hours (was 3). All other governance parameters remain at their current on-…",
+      "checksum": "a58eb1d79b230dd3be7d4a07937b60477c2cfecf27b9ef6b242541e1f7e67fc6"
+    },
+    "5d1fd1529d5b6d562e507d63645d3bf21fb72e4277d26f446c322e048fbdcd60": {
+      "title": "Rejected: #41 – INC4 | Gonka Node Observability Platform",
+      "date": "2026-04-18",
+      "time": "18:42 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q2/41/",
+      "content_preview": "Today's explorers and dashboards only show on-chain data, leaving the off-chain state of validators completely opaque. The few operators who do run their own monitoring use different tools, different …",
+      "checksum": "66d15421f9ee982b3848f874ba85424ea7c61c6f2e75fd793598507576d91b93"
+    },
+    "422e5adb8d415213074cb0f24bb47cb477f309b374658176f2077a04e1ce31d9": {
+      "title": "Passed: #42 – Support Gonka at Global Compute Sovereignty Summit",
+      "date": "2026-04-19",
+      "time": "18:51 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q2/42/",
+      "content_preview": "We are DeAI Nation, a global nonprofit organization supporting and promoting the decentralized AI ecosystem, and authors of the State of DeAI 2026 report. We propose that the Gonka community become a …",
+      "checksum": "5c9a68a40799bdef181da108eaf3c854a83b2c7e7922b2b760b3c55d4825a250"
+    },
+    "41c0b5d45f2f094c4df7b2e0564232de41949f864d692a866da33852e60fdf4a": {
+      "title": "Rejected: #43 – Governance Architecture Proposal for the Gonka.ai Network",
+      "date": "2026-04-27",
+      "time": "10:09 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q2/43/",
+      "content_preview": "Today, participating in Gonka governance requires following multiple channels simultaneously — GitHub, Discord, CLI — just to cast a single vote. Most miners miss proposals entirely or vote too late. …",
+      "checksum": "c824b970fe0f562148a24f255512391b3185e2735a2b05f3503493c86d1770b8"
+    },
+    "a612c3b4c5e3477b18a30c26ca0d94710668929f52e806d5618dca182192730d": {
+      "title": "Passed: #44 – Upgrade Proposal: v0.2.12",
+      "date": "2026-04-30",
+      "time": "00:11 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q2/44/",
+      "content_preview": "Upgrade Proposal: v0.2.12",
+      "checksum": "cb7326660dbeaa16406e03faccfd73e225560d335375e96dd926b7d157a58075"
+    },
+    "ee12ad513f9851b0eee050d6e223ebf82e5d42c8dedc62bc7f5b025452dffe72": {
+      "title": "Rejected: #45 – Governance Architecture Proposal for the Gonka.ai Network",
+      "date": "2026-05-01",
+      "time": "20:28 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q2/45/",
+      "content_preview": "Replace scattered governance discussions and complex CLI voting with a unified Governance Portal - a single interface for all Gonka governance activity. The portal includes: a proposal feed across Dis…",
+      "checksum": "261983915fa92583120df6827f40d35c9a43d59ef076d6edd18c0c82a020ee5d"
+    },
+    "c703ea80012e7df3c4417663c9fede036fe58038647d7ccf949411f888361d32": {
+      "title": "Passed: #46 – Epochs 132-247 compensation payout from gov module (batch vesting)",
+      "date": "2026-05-04",
+      "time": "03:52 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q2/46/",
+      "content_preview": "Two prior upgrades changed the lifecycle of unpaid miner rewards. v0.2.9 (proposal #26, 2026-02-01): when a participant is penalized during cPoC validation, the unaccounted portion of their epoch rewa…",
+      "checksum": "4a679b40ac4f5d9519d491549480a5aa0da2cc1d28130a93d522073a23e5805c"
+    },
+    "5e11c4bfe951baac12940df4d7e188f7199988c7baf1d9df8e48478bbc964729": {
+      "title": "Passed: #48 – Lower Direct Participation Threshold to 10%",
+      "date": "2026-05-05",
+      "time": "19:00 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q2/48/",
+      "content_preview": "During the Kimi-K2.6 bootstrap, the 30% direct participation threshold proved hard to meet. To avoid the risk of Kimi-K2.6 becoming ineligible in a future epoch and to simplify onboarding of further m…",
+      "checksum": "f56f323901783c8f3f3da9ad796b66ed29217b94517effb6fa5fa7d4df6f794e"
+    },
+    "b89e9d42363d8ecb2be90261cfdebf4b662718d822d9b59d3a0b05c1507baeeb": {
+      "title": "Rejected: #47 – Retroactive bounty: open-source PoC throughput optimization (+10–12% measured) with 250 total installations",
+      "date": "2026-05-06",
+      "time": "11:43 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q2/47/",
+      "content_preview": "Retroactive 20K GNK bounty for an open-sourced PoC optimization measuring +10.2% on B200 and +12.5% on H100 with Qwen3-235B-FP8. One-line patch, verified on-chain by independent miners. Details: https…",
+      "checksum": "d296fc2b78771cb546a7a43697d6c961393679e194eebe249fa341f105705e0f"
+    },
+    "ede1ea1778b1b6365086cd53e203c7115a5b5a512f36e30b71688243141ee203": {
+      "title": "Passed: #49 – Gonka Media Dominance in TechL/AI with 5 AI Influencers",
+      "date": "2026-05-07",
+      "time": "13:41 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q2/49/",
+      "content_preview": "We're ICG - AI Influencer Lab, a team that builds and scales hyper-realistic AI avatars on Instagram, TikTok, and YouTube as full ambassadors across verticals. We manage 160+ accounts in AI, finance, …",
+      "checksum": "fd11505101d596258c7e0b6d88d7dcea903a2c0e6d6f364e4a99d4e760f731b1"
+    },
+    "1ca9959e3f90b0a13a208bd7dd2f69ed8df07e632e0207bbbef82a39a73598cb": {
+      "title": "Passed: #50 – Retroactive bounty: open-source PoC throughput optimization (+10–12% measured) with 250 total installations",
+      "date": "2026-05-09",
+      "time": "15:54 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q2/50/",
+      "content_preview": "Retroactive 20K GNK bounty for an open-sourced PoC optimization measuring +10.2% on B200 and +12.5% on H100 with Qwen3-235B-FP8. One-line patch, verified on-chain by independent miners. Details: https…",
+      "checksum": "06c05612f58430a5c1dacbb30f42926e0a6cf29bc6ac3dcd64866ccf66037ae9"
+    },
+    "6f6d5659eaf6f7772962449b933925af2e36b9b1e300dd67ef50ac9420018d7e": {
+      "title": "Passed: #51 – Support Gonka's presence at WebX Asia",
+      "date": "2026-05-15",
+      "time": "13:17 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q2/51/",
+      "content_preview": "6Block, a long-term Gonka mining and infrastructure participant, proposes that the Gonka community allocate 75,000 USDT to support Gonka's participation at WebX Asia / WebX 2026 in Tokyo. 6Block has a…",
+      "checksum": "a9a41a07d1f5e9c8c7d31fb703ae1b0af41dc60ee1ca02dee13647dc88162c38"
+    },
+    "8fd9c27ab9d5cb98f61b835cc5ae41d3c720769827719109ad74c5c4895063dd": {
+      "title": "Rejected: #52 – Upgrade Proposal: v0.2.13",
+      "date": "2026-05-17",
+      "time": "07:58 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q2/52/",
+      "content_preview": "Upgrade Proposal: v0.2.13",
+      "checksum": "0d0273d39c596b2fc1e350c6075c2b1deab6bae54cbbba692f030d5216eec725"
+    },
+    "433fd198d95d1091eb36130b29212b902f210adcb437a6678bab5b69cf6050a9": {
+      "title": "Rejected: #53 – INC4 | Gonka NOP - grant for the node deployment tool",
+      "date": "2026-05-21",
+      "time": "11:14 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q2/53/",
+      "content_preview": "# Gonka NOP: grant for the node deployment tool\n\n50,000 USDT from the CommunityPool to INC4\nFull proposal: https://github.com/gonka-ai/gonka/discussions/1192\n\n## What it is\n\ngonka-nop (Node Onboarding…",
+      "checksum": "a66c9a68491b5b23973b40c2a0764c6a38ae6f5ef81b8bfb88ba0f6b20ec32c8"
+    },
+    "372169a7e6d1389e8bf4246a9d658c8fac574c28e8496416d3f493e831fee2b6": {
+      "title": "Passed: #54 – Upgrade Proposal: v0.2.13",
+      "date": "2026-05-22",
+      "time": "22:12 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q2/54/",
+      "content_preview": "Upgrade Proposal: v0.2.13",
+      "checksum": "5f3d8aa5341dac48c7c23da08805db87ae1db40cb9a5cc5cd3835192c75bbd43"
+    },
+    "067d79cdcaaec709bb56b798958a2c96221c46e6dbb7d70ac5df72b7c1f04b47": {
+      "title": "Passed: #55 – GRC Proposal #2 - Restitution (epochs 248-254)",
+      "date": "2026-05-23",
+      "time": "16:18 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q2/55/",
+      "content_preview": "Distribute restitution for Cases 2, 3, and 4 across epochs 248-254. Case 2: preserver weight double-scaling bug (epochs 249-253). Case 3: epoch loss restitution: broad epoch losses, consecutive failur…",
+      "checksum": "f326dfa0ff69d8a2d467820cfcc9b12fdef7c2911f348de646a0c9c72d757e72"
+    },
+    "47ff85fce77afcb3a6aa0b556494a697b09833085440e8b65b094410f58e26d9": {
+      "title": "Rejected: #56 – INC4 | Gonka NOP - grant for the node deployment tool",
+      "date": "2026-05-27",
+      "time": "15:12 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q2/56/",
+      "content_preview": "# Gonka NOP: grant for the node deployment tool\n\n50,000 USDT from the CommunityPool to INC4\nFull proposal: https://github.com/gonka-ai/gonka/discussions/1192\n\n## What it is\n\ngonka-nop (Node Onboarding…",
+      "checksum": "a8e25aab4ac9211699576cb85975e5a96bcb3df95d8befe66eff03a60b627389"
+    },
+    "eb57ee842c37cd6c8e9da8646302c0a974fc9484ddb248cca88161fdbb0e42e7": {
+      "title": "Rejected: #58 – Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)",
+      "date": "2026-05-30",
+      "time": "16:27 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q2/58/",
+      "content_preview": "# Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)\n\n70,000 USDT from the CommunityPool for a dedicated Falcon Finance deep-dive on Gonka AI.\nFull proposal: https://vote.gonka.vip/tenders…",
+      "checksum": "b5b0de7257cd8919cca5315a05a68d8978e456029f3d5aabfcda12f3d4649951"
+    },
+    "49dba7e87c93b3b91e2b6279e1f6fdb9aab8135026514c4e8c3ebcda5d81fde2": {
+      "title": "Passed: #57 – Approve the Gonka Network Development Roadmap",
+      "date": "2026-05-30",
+      "time": "09:48 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q2/57/",
+      "content_preview": "This proposal approves the Gonka Network Development Roadmap as a strategic direction document for Gonka's future development tracks.\n\nIf approved, the roadmap should become the shared vision for Gonk…",
+      "checksum": "37721656a863d2896bd5a0babcaa71f01ebd5ac25031a78d4ad9c16ba2012d45"
+    },
+    "98b3bba9bf463b195ddb807c100556d8d1c75521faf64bbfc047c73db8565b3d": {
+      "title": "Rejected: #59 – Gonka Onboarding Video Guide — Milestone 1 (Prepayment)",
+      "date": "2026-06-02",
+      "time": "13:08 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q2/59/",
+      "content_preview": "Funds milestone 1 (upfront prepayment) of a community-produced onboarding video guide for Gonka. Deliverable: a series of ~15 short, interactive, easy-to-follow videos covering A-to-Z onboarding for b…",
+      "checksum": "8e6656a8f0641034511a26f7ee2f6ce03222e6a07c85686801c602c0c5897bd7"
+    },
+    "a08a9cf56ed46cae42847881e578c6c43448b451980f2095ee9c1d2c0e115ec6": {
+      "title": "Passed: #65 – TheSoul - Offer 2.3: Digital strategy (100,000 GNK)",
+      "date": "2026-06-04",
+      "time": "08:21 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q2/65/",
+      "content_preview": "Full 360-degree digital and social strategy for Gonka.AI: channel matrix, content plan, segment messaging, social strategy, and brand-voice guidelines. Single-tranche payment of 100,000 GNK to TheSoul…",
+      "checksum": "f727baac081f662beb8bf772bc31925c523f19e8789dfce3c09e0692ac1dc257"
+    },
+    "611fa448ee8c98a452e68f7f7d1504679a9d19a2d928c315d428da08f82ae773": {
+      "title": "Passed: #64 – TheSoul - Offer 2.2: Analytics and attribution (28,000 GNK)",
+      "date": "2026-06-04",
+      "time": "08:21 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q2/64/",
+      "content_preview": "Web analytics, attribution, and funnel dashboarding for Gonka.AI: GA4 implementation, UTM taxonomy, event tracking, and conversion reporting. Single-tranche payment of 28,000 GNK to TheSoul on proposa…",
+      "checksum": "df3b33e55c15ad42f6b4b6965a7b03203309868f2785abaa91be502e6721c95f"
+    },
+    "7da580729fb5799ec4fd6be0e6a8167303cb71d5513de5afd3770d277f01b3fc": {
+      "title": "Passed: #63 – TheSoul - Offer 2.1: Website and landings (10,000 USDT)",
+      "date": "2026-06-04",
+      "time": "08:20 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q2/63/",
+      "content_preview": "Full redesign of gonka.ai plus dedicated landing pages for miners, inference buyers, and investors, built on the brandbook from Offer 1.2. Single-tranche payment of 10,000 USDT to TheSoul on proposal …",
+      "checksum": "71c6670a78d6bf3c1cd06b474ae484dae35499cc12141ee097a9eb20ce064002"
+    },
+    "cfa7794fc073b25921dfc64ef6ae387a099c5fda4ad3e1dc7a6de53df06eef98": {
+      "title": "Passed: #62 – TheSoul - Offer 1.3: Influencer pilot (50,000 USDT)",
+      "date": "2026-06-04",
+      "time": "08:20 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q2/62/",
+      "content_preview": "Crypto-influencer pilot campaign for Gonka.AI across selected tier-1 creators, with a full performance report and scaling recommendations. Single-tranche payment of 50,000 USDT to TheSoul on proposal …",
+      "checksum": "69f66f2f46eefdf06535155293d73fbe939992f1ae675362885423a50aa2e04a"
+    },
+    "befc0c3d970b2609266301518c5e3c0da7f9bf77cc8dbf3ad876875527d36e32": {
+      "title": "Passed: #61 – TheSoul - Offer 1.2: Brandbook (20,000 USDT)",
+      "date": "2026-06-04",
+      "time": "08:19 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q2/61/",
+      "content_preview": "Brand identity system for Gonka.AI: logo, typography, color system, graphic language, layout principles, and templates, built on the positioning from Offer 1.1. Single-tranche payment of 20,000 USDT t…",
+      "checksum": "970a17d5891587fb21526538679e73209e028f3d986603ba01a87b6a7c708751"
+    },
+    "1eb49d31aa9d3749fe212337eb55550773de95868071cc64aba8a5891c7c180c": {
+      "title": "Passed: #60 – TheSoul - Offer 1.1: Brand positioning (25,000 USDT)",
+      "date": "2026-06-04",
+      "time": "08:15 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q2/60/",
+      "content_preview": "Brand audit, competitive positioning, and audience segmentation for Gonka.AI. Single-tranche payment of 25,000 USDT to TheSoul on proposal pass. Full offer document: see the metadata URL.",
+      "checksum": "2673fde26a83e211768096f305529fb449c5befeec12427be762c07cd4474e34"
+    },
+    "81a8e508d97def4e1e25565e59184817cdd7cb904015968a781150f445e5fdde": {
+      "title": "Passed: #67 – Kimi Restitution (epochs 265-276)",
+      "date": "2026-06-05",
+      "time": "22:09 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q2/67/",
+      "content_preview": "Distribute restitution for Kimi operators across epochs 265-276. Epochs 265-266: external attack causing CPoC degradation and nonce exclusion. Epochs 267-276: ComputeGroupCap systematic underpayment d…",
+      "checksum": "7941fa4f227b242da728235042ebd2ae26941a3e28908160be0b4227339559b8"
+    },
+    "aa079eb0facda78790a189ba80635bf37f2df37e0a494ef1ad8bdf444cbcea10": {
+      "title": "Rejected: #66 – test proposal - 测试方案",
+      "date": "2026-06-05",
+      "time": "17:45 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q2/66/",
+      "content_preview": "test proposal - 测试方案",
+      "checksum": "2269ef57bd89071f37e5a505c032d25ad2b58b75edca5a8e6debdf48fee3a06e"
+    },
+    "5e1ffb349ac856f53141e70f95b2de7e8f5134bcfbfb66a71036a9f05479c751": {
+      "title": "Failed: #69 – Increase minimum governance deposit to 500 GNK",
+      "date": "2026-06-07",
+      "time": "19:26 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q2/69/",
+      "content_preview": "Increase the minimum deposit required to submit a governance proposal from the current value to 500 GNK. Also sets expedited minimum deposit to 1000 GNK.",
+      "checksum": "9d3f6a4365864a459bd54adc0d4e1aa0bdff91d59c02c90ac08fa811e236d413"
+    },
+    "920cf8148c8ba56601df56d57c432543465d9a1c8c38701617fe9b6b76a08996": {
+      "title": "Passed: #68 – Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)",
+      "date": "2026-06-07",
+      "time": "18:30 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q2/68/",
+      "content_preview": "The proposal is reopened for voting at the initiative of several hosts who did not participate in the previous round.\n\n• There are no changes to the substance of the proposal; only timeline commitment…",
+      "checksum": "4d8e2b7135f9c4dd8fae08ab828b382d9d361367ebd8c40e275918079e547fb7"
+    },
+    "be32e4a5a1633e3716e9ddc0f91af6dda32d7f7956936fb0304b18bcd4f9edd4": {
+      "title": "Rejected: #70 – GNK Racers: Launch GameFi Mini-App to Drive User Growth & Wallet Activity",
+      "date": "2026-06-08",
+      "time": "07:35 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q2/70/",
+      "content_preview": "Release 246,000 GNK from Community Fund to finalize GNK Racers — a multiplayer side-view racing mini-app with a live working prototype (@GNKRacers_bot). The game drives new user acquisition, wallet ac…",
+      "checksum": "273a99ce12c134c225c0bb0e56581d142af28132d794d4471e2a20b182cfc0f6"
+    },
+    "8cb22e1ed09e94b0a769a5490559f6e0abde45c923376af109e07a92c5e3e614": {
+      "title": "Rejected: #71 – Gonka PR Proposal for US/Global Regions",
+      "date": "2026-06-10",
+      "time": "10:41 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q2/71/",
+      "content_preview": "We're a comms team specializing in Organic PR for crypto and tech projects. With strong competition in the space and no active events or marketing currently running for Gonka, we propose a 3-month Org…",
+      "checksum": "a9651359387beb87137edd3f92ac6aec08c642844e9c84b1452e35cd052b8c77"
+    },
+    "b2ec3ef078f98866524c988d83c811ccd48fd898ed8634655791a2acca022cf7": {
+      "title": "Passed: #74 – Gonka Labs: Maintaining Infrastructure, Improving Products, and Launching New Ones",
+      "date": "2026-06-12",
+      "time": "20:42 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q2/74/",
+      "content_preview": "Full proposal: https://gonkalabs.com/proposal\n\nThis proposal funds the next six months of work for the Gonka ecosystem.\n\nThe focus is production-grade infrastructure and high-use products: Gonka.gg V2…",
+      "checksum": "6e5b05cf2ccd4eb412ad6c33f7e1759be87ec3b2ff918edb270a2d545d0943c9"
+    },
+    "36f87682f6932d025b5a8b196db80854459a32e9880bc0b3a03f783ef4629029": {
+      "title": "Passed: #73 – Increase minimum governance deposit to 500 GNK and expedited minimum deposit to 1000 GNK",
+      "date": "2026-06-12",
+      "time": "07:32 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q2/73/",
+      "content_preview": "Increase the minimum deposit required to submit a governance proposal to 500 GNK (500,000,000,000 ngonka) and expedited minimum deposit to 1000 GNK (1,000,000,000,000 ngonka). This resubmits proposal …",
+      "checksum": "c52a731701d03241ba9214da59b4c5fc9303e04cba5b03ec55aba99c25dee1e5"
+    },
+    "27e5f9e44ff3b2645fb7971b53c2b591c577d090d2a44f8382d4cef61bca966e": {
+      "title": "Rejected: #72 – Open devshard escrow creation to community wallet gonka1afj0tz53z56zngs425m83vxl5y2xmwm692hfrn",
+      "date": "2026-06-12",
+      "time": "04:51 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q2/72/",
+      "content_preview": "Adds a community-operated wallet to devshard_escrow_params.allowed_creator_addresses, enabling it to create a devshard escrow and operate as an additional self-hosted inference gateway/transfer agent.…",
+      "checksum": "62bc76c0a3f039ddfe76db8b5d76a2bc061ca3b24d6e27d5f3859cde577b3e92"
+    },
+    "a34073fb018f00237f535c6e40630775b607d32b4a5b1c76f3baa74ae9bf2ed8": {
+      "title": "Rejected: #75 – Private Inc × Gonka — Network Growth Initiative",
+      "date": "2026-06-15",
+      "time": "16:24 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q2/75/",
+      "content_preview": "IMPORTANT: Below is a condensed version of the proposal. It highlights only the key points and does not disclose all details of the initiative, implementation mechanics, KPIs, or terms. It is strongly…",
+      "checksum": "d3b0114e47fe7cc730c6850c82ce389bc8c8ae95f7656ada6f2559e5d45c3fc7"
+    },
+    "112cefd894963f28852681358385d7a7dc7817a8ab018d54ca7009c374b3d7a2": {
+      "title": "Passed: #76 – Governance 16: devshard v2 and bounty payouts",
+      "date": "2026-06-17",
+      "time": "23:39 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q2/76/",
+      "content_preview": "Register devshard approved version v2.",
+      "checksum": "c1221e197a76a68f170be53deff88885af8fa911db533ddb0437405e9c047a1a"
+    },
+    "be15ac817765e241bb7ab50efbcfe5d776022b43d48f5a4e5ea6116ebbd1096d": {
+      "title": "Passed: #78 – Governance 17: update PoC model lineup",
+      "date": "2026-06-25",
+      "time": "15:39 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q2/78/",
+      "content_preview": "Set delegation initial_model_id to MiniMaxAI/MiniMax-M2.7, keep only MiniMaxAI/MiniMax-M2.7 in PoC params, remove Qwen/Qwen3-235B-A22B-Instruct-2507-FP8, moonshotai/Kimi-K2.6 from PoC params, and dele…",
+      "checksum": "4294e3366c63cb77fcc7457ff9528de1399d20d37a6fd58daac4cfed2fc83f47"
+    },
+    "4211ca30d27579d110b6c052662f3050911a3de0560435365700154e825d28b2": {
+      "title": "Passed: #79 – Add Kimi K2.6 and GLM 5.2 model",
+      "date": "2026-06-26",
+      "time": "14:18 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q2/79/",
+      "content_preview": "Add Kimi K2.6 and GLM 5.2 model",
+      "checksum": "9c253a94409e134a0ebab765a2884a2178c49718ad4db5d85b7be68980c4f183"
+    },
+    "d1e43457938fca8c9e0ffc1893288fe8d688c50e49c6d459593441da026969ac": {
+      "title": "Passed: #77 – Gonka PR Proposal for US/Global Regions",
+      "date": "2026-06-26",
+      "time": "15:18 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q2/77/",
+      "content_preview": "We are INPUT Global - a leading web3 marketing communications agency. We offer 3 month PR campaign to establish trust and market legitimacy of Gonka across 2 audiences: global business and crypto-nati…",
+      "checksum": "fb4b6b55bcb238b73e4fb633c6a5998542ec3fb2c8619c6c13632d167d953ce3"
+    },
+    "7d558023af3b4ac882cde378927627322c6bdd2aa9bc51d5b15b02d40d23282c": {
+      "title": "Rejected: #80 – GRC Proposal #3 - Restitution",
+      "date": "2026-07-07",
+      "time": "19:40 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q3/80/",
+      "content_preview": "Restitution payout for confirmed GRC Proposal #3 cases, with Case 05 payments from proposal_id=67 deducted where the same address and epoch were already compensated, and positive victim outputs below …",
+      "checksum": "6de45fbec6c8a32825f83d0dbf929f5107598d203a0f1a963d286fbfa21ca879"
+    },
+    "e848fd336b0bdc036de7fe223c3e8844305bd5ddd0d346eff2c7ed878a82c485": {
+      "title": "Passed: #82 – External Test Lab x Community DevNet",
+      "date": "2026-07-10",
+      "time": "11:31 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q3/82/",
+      "content_preview": "4-month pilot of the External Test Lab & Community DevNet: a community-owned testing layer for Gonka. Full proposal and discussion: https://github.com/gonka-ai/gonka/discussions/1388\n\nThe budget is he…",
+      "checksum": "263e7028de51a633fed6510e0edcdb9bffff187130111fb38cd176087559f5a1"
+    },
+    "1a20a15e28dfa4d1670ef03831755ce2f1160318ba66f67065b520cc4dac1d50": {
+      "title": "Rejected: #81 – Kimi cPoC Restitution (epochs 306-309)",
+      "date": "2026-07-10",
+      "time": "05:57 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q3/81/",
+      "content_preview": "Distribute restitution for Kimi operators affected by cPoC validation failure in epochs 306-309. The Kimi validation path failed starting in e306 causing confirmation_weight suppression for Kimi opera…",
+      "checksum": "a3308248390d2eb85d5a1dab3810bb4d464a01150c8ed349bc6f1ea8f4759620"
+    },
+    "02d5370d9ad1e6a2b58f036e405f10589a862e0e4d0131cacd0776a83b2aa2f7": {
+      "title": "Rejected: #84 – Bringing $3M+ in New Capital to GONKA via Uniswap — Phase 1/6 ($50k USDT)",
+      "date": "2026-07-11",
+      "time": "18:14 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q3/84/",
+      "content_preview": "My name is Andrey Orlovsky, and through this proposal I represent our team and an initiative to attract at least $3 million in new long-term capital to GONKA through Uniswap.\n\nBelow is a condensed ver…",
+      "checksum": "1c68ef7c967e36fb5606466dd58a3796a5111bb5a85f0ac3af1ade5a488b56a0"
+    },
+    "572f3437d1f52ba2784c539ac76e009b962da725086dfa7d38b63d9b3a75f28c": {
+      "title": "Passed: #83 – Approve devshard v3",
+      "date": "2026-07-11",
+      "time": "06:41 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q3/83/",
+      "content_preview": "Update current chain params by adding v3 to devshard_escrow_params.approved_versions.",
+      "checksum": "46ce82646826c918aa30ea8031295c9209f8880dd080a2331cac2ebffecbe29f"
+    },
+    "789c1feca4266899101ef4891f78892e01322b181f20ccacd77a974f397e2a33": {
+      "title": "Rejected: #85 – Internal Go-To-Market Team for 3 Month",
+      "date": "2026-07-12",
+      "time": "00:41 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q3/85/",
+      "content_preview": "We will run hundreds of experiments across different target audience hypotheses and set up the basis: acquisition funnels, analytics, sharable target audience deep understanding. Our key performance m…",
+      "checksum": "8d58a3c65625b613cffa331a968c94bb4acd61cb004379d126c4f8a32503be6b"
+    },
+    "cbf66676b0d856149011929d69d72c0960494b481680a74aaa5bcb5077b41eed": {
+      "title": "Passed: #87 – Remove Kimi K2.6 model",
+      "date": "2026-07-16",
+      "time": "12:01 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q3/87/",
+      "content_preview": "Remove moonshotai/Kimi-K2.6 from PoC params and delete it from the governance model list.",
+      "checksum": "1cf10facaf7f8300df2a56048d7e85c6a3d8dbd92ab546239fc1a6f4a533a138"
+    },
+    "a8795ac36dec0e5a7b7450d61474310abf0ae564af88d8129a9c6280dc2bb613": {
+      "title": "Passed: #86 – Increase Kimi-K2.6 and GLM-5.2 weight_scale_factor by 5%",
+      "date": "2026-07-16",
+      "time": "17:53 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q3/86/",
+      "content_preview": "Increase the weight_scale_factor for moonshotai/Kimi-K2.6 from 0.90 to 0.945 (+5%) and for zai-org/GLM-5.2-FP8 from 2.47 to 2.5935 (+5%). All other model and chain parameters remain unchanged.",
+      "checksum": "b7880a48946d155c44f77a94bf53ffcfcf6286137d7ff95d46d7994b10aa8a83"
+    },
+    "4e6e9c75e9e9e354caa858fd7dd41004f2901b7a41ac7cc48ea89eb3a1d752a1": {
+      "title": "Passed: #88 – Restore Kimi K2.6 and remove v1, v2",
+      "date": "2026-07-17",
+      "time": "06:09 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q3/88/",
+      "content_preview": "Update current chain params to register moonshotai/Kimi-K2.6 in the governance model list and remove approved_versions v1, v2 from devshard_escrow_params (to reduce RAM usage).",
+      "checksum": "ca70579c082fdd4e48226cd1781955e4daccde419a7680ddb4eda3ee6c48a39d"
+    },
+    "9fe69d44ea1c787f8a77464dbcb63b2086b2cce49bee81c2ae65828b92b167cd": {
+      "title": "Rejected: #90 – Partnerships with Inference Resellers, B2C users acquisition and conversion funnels analytics setup",
+      "date": "2026-07-23",
+      "time": "15:27 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q3/90/",
+      "content_preview": "Currently Gonka has a lot of marketing activities, but doesn't have analytics to measure the results of their work and doesn't have a vision which target audiences and how we need to attract and onboa…",
+      "checksum": "de5280a751a87f77d1dd5978def278c9fd3c687db006a8a158d63a4b1a44efba"
+    },
+    "d0e9e940919c6c7cfbf4fcfbb89f21a7cacdf5b193f6c00f176d1df89dc25935": {
+      "title": "Passed: #89 – Upgrade Proposal: v0.2.14",
+      "date": "2026-07-23",
+      "time": "00:02 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q3/89/",
+      "content_preview": "Upgrade Proposal: v0.2.14",
+      "checksum": "8892cc793d8b0e73136ab82a10b5b1d73667d22520845996b52227f823d142fc"
+    },
+    "343541b821f7119cf3d4fb7320bb0a36e18200f2d295a1a8f1c90cb83881cddd": {
+      "title": "Passed: #91 – Temporarily update BLS signing parameters",
+      "date": "2026-07-24",
+      "time": "05:23 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q3/91/",
+      "content_preview": "Set max_signing_attempts to 1 and signing_deadline_blocks to 60 epoch lengths (923460 blocks) to mitigate a theoretical risk identified in a security report. Historically, retries have never been need…",
+      "checksum": "b66266a5134bb047e7dc091d25a94726007bea9582897fbd3236807d957444a4"
+    },
+    "707bbba735b98f4354615b3be5fb54240b425877e519ee0b91161b72f9b66d6e": {
+      "title": "Passed: #92 – Upgrade Proposal: v0.2.15",
+      "date": "2026-07-30",
+      "time": "07:08 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q3/92/",
+      "content_preview": "Upgrade Proposal: v0.2.15",
+      "checksum": "4a771d092ce766459ed5bf8b4f92fbfdb268e0af900d723596b8d2124b4b555a"
+    }
+  }
+}

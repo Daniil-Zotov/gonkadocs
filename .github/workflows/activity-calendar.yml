@@ -1,0 +1,49 @@
+name: Activity Feed — Calendar
+
+on:
+  schedule:
+    - cron: '0 0 * * *'    # daily at 00:00 UTC — morning reminder
+    - cron: '30 * * * *'   # hourly — detect new calendar events
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  calendar-feed:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Detect new calendar events (activity feed)
+        run: python3 buildtools/activity-feed.py detect --dir docs/community/calendar --section calendar --manifest .feed-manifests/calendar.json --events docs/community/activity/events.json
+
+      - name: Post daily reminder about today's events (idempotent)
+        run: python3 buildtools/activity-feed.py daily-reminder --dir docs/community/calendar --events docs/community/activity/events.json
+
+      - name: Commit changes
+        id: commit
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add docs/community/activity/events.json .feed-manifests/calendar.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            echo "pushed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "chore(docs): update activity feed (calendar events)"
+            git pull --rebase -X theirs --autostash origin main
+            git push
+            echo "pushed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Trigger site rebuild
+        if: steps.commit.outputs.pushed == 'true'
+        run: gh workflow run deploy-docs.yml --ref main
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

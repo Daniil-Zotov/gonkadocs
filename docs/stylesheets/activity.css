@@ -235,6 +235,46 @@
   color: var(--md-default-fg-color--light);
 }
 
+.af-event-when {
+  margin-top: 0.15rem;
+  font-size: 0.58rem;
+  font-weight: 600;
+  color: var(--md-default-fg-color--light);
+}
+
+.af-event-dot.daily_reminder  { background: #1a7f37; }
+.af-event-action.daily_reminder { color: #1a7f37; }
+[data-md-color-scheme="slate"] .af-event-dot.daily_reminder  { background: #3fb950; }
+[data-md-color-scheme="slate"] .af-event-action.daily_reminder { color: #3fb950; }
+
+.af-reminder {
+  margin-top: 0.35rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 6px;
+  padding: 0.35rem 0.55rem;
+}
+
+.af-reminder-item {
+  font-size: 0.6rem;
+  line-height: 1.5;
+  padding: 0.15rem 0;
+}
+
+.af-reminder-item a {
+  color: var(--md-default-fg-color);
+  text-decoration: none;
+  font-weight: 600;
+}
+.af-reminder-item a:hover {
+  text-decoration: underline;
+  color: var(--md-accent-fg-color);
+}
+
+.af-reminder-when {
+  color: var(--md-accent-fg-color);
+  font-weight: 600;
+}
+
 /* ── states ────────────────────────────────────────────── */
 
 .af-loading {

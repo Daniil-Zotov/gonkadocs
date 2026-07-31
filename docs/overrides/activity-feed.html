@@ -29,6 +29,10 @@
       <input type="checkbox" class="af-filter-input" value="gonka_docs" checked>
       Docs
     </label>
+    <label class="af-filter-cb">
+      <input type="checkbox" class="af-filter-input" value="calendar" checked>
+      Calendar
+    </label>
     <span class="af-filter-count" id="af-count"></span>
   </div>
 
@@ -82,8 +86,28 @@
       'deleted': 'Удалено',
       'updated': 'Обновлено',
       'status_changed': 'Статус изменён',
-      'quorum_reached': 'Кворум достигнут'
+      'quorum_reached': 'Кворум достигнут',
+      'daily_reminder': 'Сегодня'
     }[action] || action;
+  }
+
+  function sectionLabel(section) {
+    return {
+      'proposals': 'Proposals',
+      'preproposals': 'Pre-Proposals',
+      'discussions': 'Discussions',
+      'issues': 'Issues',
+      'gonka_docs': 'Docs',
+      'calendar': 'Calendar'
+    }[section] || section;
+  }
+
+  function fmtDateTime(details) {
+    var s = '';
+    if (details.date) s += details.date;
+    if (details.time) s += (s ? ' ' : '') + details.time;
+    if (details.event_type) s += (s ? ' · ' : '') + details.event_type;
+    return s;
   }
 
   function render() {
@@ -123,13 +147,30 @@
         html += '<div class="af-event-card">';
         html += '<div class="af-event-header">';
         html += '<span class="af-event-action ' + e.action + '">' + actionLabel(e.action) + '</span>';
-        html += '<span class="af-event-section">' + e.section + '</span>';
+        html += '<span class="af-event-section">' + sectionLabel(e.section) + '</span>';
         html += '</div>';
 
         if (item.url) {
           html += '<a href="' + item.url + '" class="af-event-title">' + escHtml(item.title) + '</a>';
         } else {
           html += '<span class="af-event-title">' + escHtml(item.title) + '</span>';
+        }
+
+        if (e.section === 'calendar' && e.action === 'daily_reminder' && details.today && details.today.length) {
+          html += '<div class="af-reminder">';
+          details.today.forEach(function(ev) {
+            html += '<div class="af-reminder-item">';
+            var when = ev.date || '';
+            if (ev.time) when += (when ? ' ' : '') + ev.time;
+            html += '<span class="af-reminder-when">' + escHtml(when) + '</span>';
+            if (ev.url) {
+              html += ' <a href="' + ev.url + '">' + escHtml(ev.title) + '</a>';
+            } else {
+              html += ' ' + escHtml(ev.title);
+            }
+            html += '</div>';
+          });
+          html += '</div>';
         }
 
         if (e.action === 'status_changed' && details.status_before && details.status_after) {
@@ -142,6 +183,13 @@
 
         if (details.funding) {
           html += '<div class="af-event-funding">' + escHtml(details.funding) + '</div>';
+        }
+
+        if (e.section === 'calendar' && details.date) {
+          var when = fmtDateTime(details);
+          if (when) {
+            html += '<div class="af-event-when">' + escHtml(when) + '</div>';
+          }
         }
 
         if (hasAI) {

@@ -80,6 +80,7 @@ SECTION_LABELS = {
     'discussions':  'Discussions',
     'issues':       'Issues',
     'gonka_docs':   'Protocol Docs',
+    'calendar':     'Calendar',
 }
 
 ACTION_LABELS = {
@@ -88,6 +89,7 @@ ACTION_LABELS = {
     'updated':         'Updated',
     'status_changed':  'Status Changed',
     'quorum_reached':  'Quorum Reached',
+    'daily_reminder':  'Today',
 }
 
 
@@ -256,6 +258,55 @@ def scan_directory(dir_path: Path, section: str) -> dict:
     return files
 
 
+# ── calendar scanning ─────────────────────────────────────────
+
+def _calendar_fingerprint(event: dict) -> str:
+    """Stable identity for a calendar event across syncs."""
+    return sha256_str(
+        '|'.join([
+            str(event.get('date', '')),
+            str(event.get('title', '')),
+            str(event.get('url', '')),
+        ])
+    )
+
+
+def scan_calendar(dir_path: Path) -> dict:
+    """Scan calendar JSON files (excluding manifest.json).
+
+    Returns {fingerprint: meta} so new events are detected by identity,
+    not by whole-file checksum (files hold many events).
+    """
+    files = {}
+    if not dir_path.exists():
+        return files
+
+    for json_path in sorted(dir_path.glob('*.json')):
+        if json_path.name == 'manifest.json':
+            continue
+        try:
+            data = json.loads(json_path.read_text(encoding='utf-8'))
+        except (json.JSONDecodeError, OSError):
+            continue
+
+        items = data if isinstance(data, list) else data.get('events', [])
+        for ev in items:
+            if not isinstance(ev, dict) or not ev.get('date') or not ev.get('title'):
+                continue
+            fp = _calendar_fingerprint(ev)
+            meta = {
+                'title': str(ev.get('title', '')).strip(),
+                'date': str(ev.get('date', '')),
+                'time': str(ev.get('time', '')).strip(),
+                'event_type': str(ev.get('type', '')),
+                'url': str(ev.get('url', '')),
+                'content_preview': str(ev.get('description', '')).strip()[:CONTENT_PREVIEW_LEN],
+                'checksum': sha256_str(json.dumps(ev, ensure_ascii=False, sort_keys=True)),
+            }
+            files[fp] = meta
+    return files
+
+
 # ── URL construction ────────────────────────────────────────────
 
 def make_url(section: str, file_path: str) -> str:
@@ -273,6 +324,7 @@ def make_url(section: str, file_path: str) -> str:
         'discussions':  'community/discussion',
         'issues':       'community/issues',
         'gonka_docs':   'gonka/docs',
+        'calendar':     'community/calendar',
     }.get(section, section)
 
     suffix = '/'.join(parts)
@@ -402,7 +454,10 @@ def enrich_with_ai(events: list, section: str):
 
 def cmd_snapshot(args):
     dir_path = Path(args.dir)
-    files = scan_directory(dir_path, args.section)
+    if args.section == 'calendar':
+        files = scan_calendar(dir_path)
+    else:
+        files = scan_directory(dir_path, args.section)
 
     manifest = {
         'section': args.section,
@@ -430,7 +485,10 @@ def cmd_detect(args):
     old_files = old_manifest.get('files', {})
 
     dir_path = Path(args.dir)
-    new_files = scan_directory(dir_path, args.section)
+    if args.section == 'calendar':
+        new_files = scan_calendar(dir_path)
+    else:
+        new_files = scan_directory(dir_path, args.section)
 
     new_keys = set(new_files.keys())
     old_keys = set(old_files.keys())
@@ -440,7 +498,7 @@ def cmd_detect(args):
     def _cp(meta: dict) -> str:
         return (meta.get('content_preview') or '')[:CONTENT_PREVIEW_LEN]
 
-    # ── new files ──────────────────────────────────────────
+    # ── new files / events ─────────────────────────────────
     for key in sorted(new_keys - old_keys):
         f = new_files[key]
         details = {
@@ -451,23 +509,35 @@ def cmd_detect(args):
             details['funding'] = (f.get('funding') or '')
             details['voting_end'] = (f.get('voting_end') or '')
             details['description'] = (f.get('description') or '')
+        elif args.section == 'calendar':
+            details['date'] = f.get('date') or ''
+            details['time'] = f.get('time') or ''
+            details['event_type'] = f.get('event_type') or ''
+            details['url'] = f.get('url') or ''
+
+        item = {
+            'title': f.get('title', key),
+            'url': make_url(args.section, key),
+            'file': key,
+        }
+        if args.section == 'calendar' and f.get('url'):
+            item['url'] = f.get('url')
 
         events.append({
             'id': make_event_id(),
             'timestamp': datetime.now(timezone.utc).isoformat(),
             'section': args.section,
             'action': 'new',
-            'item': {
-                'title': f.get('title', key),
-                'url': make_url(args.section, key),
-                'file': key,
-            },
+            'item': item,
             'details': details,
             'ai_description': None,
         })
 
-    # ── deleted files ──────────────────────────────────────
+    # ── deleted files / events ─────────────────────────────
     for key in sorted(old_keys - new_keys):
+        # Calendar: only surface new events, not removals
+        if args.section == 'calendar':
+            continue
         f = old_files[key]
         events.append({
             'id': make_event_id(),
@@ -485,6 +555,9 @@ def cmd_detect(args):
 
     # ── modified files (including status / quorum changes) ─
     for key in sorted(new_keys & old_keys):
+        # Calendar: only surface new events, not edits
+        if args.section == 'calendar':
+            continue
         old = old_files[key]
         new = new_files[key]
         if old.get('checksum') == new.get('checksum'):
@@ -597,6 +670,84 @@ def cmd_detect(args):
     cmd_snapshot(args)
 
 
+# ── daily reminder ─────────────────────────────────────────────
+
+def cmd_daily_reminder(args):
+    """Post one reminder event about today's upcoming calendar events.
+
+    Idempotent: posts at most one reminder per calendar day (UTC). The
+    reminder is a single event whose details.today lists all events that
+    happen today, so the feed shows 'Today' in the morning without spamming
+    one entry per event.
+    """
+    today = datetime.now(timezone.utc).date().isoformat()
+
+    events_path = Path(args.events)
+    existing = []
+    if events_path.exists():
+        try:
+            existing = json.loads(events_path.read_text(encoding='utf-8'))
+        except (json.JSONDecodeError, IOError):
+            existing = []
+
+    # Idempotency: skip if a reminder for today already exists
+    for ev in existing:
+        if ev.get('section') == 'calendar' and ev.get('action') == 'daily_reminder':
+            ts = (ev.get('timestamp') or '')[:10]
+            if ts == today:
+                print(f'Daily reminder already posted for {today}, skipping')
+                return
+
+    events = scan_calendar(Path(args.dir))
+    todays = sorted(
+        [m for m in events.values() if m.get('date') == today],
+        key=lambda m: m.get('time', ''),
+    )
+
+    if not todays:
+        print(f'No calendar events on {today}, no reminder')
+        return
+
+    today_items = [
+        {
+            'title': m.get('title', ''),
+            'date': m.get('date', ''),
+            'time': m.get('time', ''),
+            'event_type': m.get('event_type', ''),
+            'url': m.get('url', ''),
+        }
+        for m in todays
+    ]
+
+    reminder = {
+        'id': make_event_id(),
+        'timestamp': datetime.now(timezone.utc).isoformat(),
+        'section': 'calendar',
+        'action': 'daily_reminder',
+        'item': {
+            'title': f"Сегодня {len(today_items)} событий — {', '.join(t.get('title', '') for t in today_items[:3])}{'…' if len(today_items) > 3 else ''}",
+            'url': '/community/calendar/',
+            'file': None,
+        },
+        'details': {
+            'today': today_items,
+            'count': len(today_items),
+        },
+        'ai_description': None,
+    }
+
+    all_events = [reminder] + existing
+    MAX_EVENTS = 500
+    if len(all_events) > MAX_EVENTS:
+        all_events = all_events[:MAX_EVENTS]
+
+    events_path.parent.mkdir(parents=True, exist_ok=True)
+    events_path.write_text(
+        json.dumps(all_events, indent=2, ensure_ascii=False), encoding='utf-8'
+    )
+    print(f'Daily reminder posted for {today}: {len(today_items)} events')
+
+
 # ── CLI ─────────────────────────────────────────────────────────
 
 def main():
@@ -620,12 +771,19 @@ def main():
     det.add_argument('--ai', action='store_true',
                      help='Enrich events with AI descriptions')
 
+    rem = sub.add_parser('daily-reminder',
+                         help='Post a reminder about today\'s calendar events')
+    rem.add_argument('--dir', required=True, help='Calendar directory to scan')
+    rem.add_argument('--events', required=True, help='Events JSON file path')
+
     args = parser.parse_args()
 
     if args.command == 'snapshot':
         cmd_snapshot(args)
     elif args.command == 'detect':
         cmd_detect(args)
+    elif args.command == 'daily-reminder':
+        cmd_daily_reminder(args)
 
 
 if __name__ == '__main__':
