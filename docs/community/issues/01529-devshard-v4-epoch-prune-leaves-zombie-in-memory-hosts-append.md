@@ -2,7 +2,7 @@
 title: "#1529 — devshard v4: epoch prune leaves zombie in-memory Hosts → AppendDiff session not found"
 source: https://github.com/gonka-ai/gonka/issues/1529
 issue_number: 1529
-synced_at: 2026-07-31T12:21:39Z
+synced_at: 2026-07-31T14:41:29Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 2026-07-31 11:00 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-07-31 11:32 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-07-31 13:02 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -113,6 +113,20 @@ git grep -n 'manager.EvictBefore' origin/upgrade-v0.2.14 -- '*.go'
 - `devshard/cmd/devshardd/app.go` — `PruneOnceAsync` on new epoch
 - Related PRs: https://github.com/gonka-ai/gonka/pull/1417 https://github.com/gonka-ai/gonka/pull/1482
 
+</div>
+
+---
+
+## 💬 Comments (1)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/maria-mitina">@maria-mitina</a></span>
+    <span class="issues-meta-item">commented 2026-07-31 13:02 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>fix in https://github.com/gonka-ai/gonka/pull/1530</p>
+  </div>
 </div>
 
 ---
