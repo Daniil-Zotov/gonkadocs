@@ -3,14 +3,14 @@ title: "#1464 — Dev Team Funding"
 source: https://github.com/gonka-ai/gonka/discussions/1464
 discussion_number: 1464
 category: proposals
-synced_at: 2026-07-31T18:40:21Z
+synced_at: 2026-07-31T20:34:31Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1464](https://github.com/gonka-ai/gonka/discussions/1464) every hour. 
 
 # Dev Team Funding
 
-**Автор:** [@gmorgachev](https://github.com/gmorgachev) · **Категория:** :bulb: Proposals · **Создано:** 2026-07-17 01:38 UTC · **Обновлено:** 2026-07-20 23:22 UTC
+**Автор:** [@gmorgachev](https://github.com/gmorgachev) · **Категория:** :bulb: Proposals · **Создано:** 2026-07-17 01:38 UTC · **Обновлено:** 2026-07-31 19:00 UTC
 
 ---
 
@@ -65,10 +65,18 @@ Contact me:
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Комментарии (2)
 
 ### Комментарий 1 — [@paranjko](https://github.com/paranjko)
 
 *2026-07-20 23:22 UTC*
 
 Count me in! I’d love to get involved and contribute to the initiative.
+
+### Комментарий 2 — [@Daniil-Zotov](https://github.com/Daniil-Zotov)
+
+*2026-07-31 19:00 UTC*
+
+обсуждение на gonka.vote https://gonka.vote/proposal/nlabjc
+обсуждение в тг https://telegram.me/gonka_proposals
+

@@ -4,7 +4,7 @@ title: "GitHub Discussions"
 
 # GitHub Discussions — `gonka-ai/gonka`
 
-Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **80**. Обновлено: `2026-07-31 18:40 UTC`.
+Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **80**. Обновлено: `2026-07-31 20:35 UTC`.
 
 ## 📂 Категории
 
@@ -20,12 +20,12 @@ title: "GitHub Discussions"
 
 | # | Заголовок | Категория | Автор | Обновлено |
 |---:|---|---|---|---|
+| [1464](proposals/1464-dev-team-funding.md) | [Dev Team Funding](proposals/1464-dev-team-funding.md) | :bulb: Proposals | [@gmorgachev](https://github.com/gmorgachev) | 2026-07-31 |
 | [1502](proposals/1502-обратная-связь-от-разработчика-почему-текущий-модельный-ряд-.md) | [Обратная связь от разработчика: почему текущий модельный ряд Gonka пока не проходит production bar](proposals/1502-обратная-связь-от-разработчика-почему-текущий-модельный-ряд-.md) | :bulb: Proposals | [@bitcompool](https://github.com/bitcompool) | 2026-07-26 |
 | [1445](proposals/1445-the-missing-first-mile-onboarding-gonka-from-a-newcomers-per.md) | [The missing first mile: onboarding Gonka from a newcomer’s perspective](proposals/1445-the-missing-first-mile-onboarding-gonka-from-a-newcomers-per.md) | :bulb: Proposals | [@julb1992](https://github.com/julb1992) | 2026-07-25 |
 | [1500](proposals/1500-more-compute-from-the-same-gonka-hardware-two-phase-cooling-.md) | [More compute from the same Gonka hardware: two-phase cooling pilot](proposals/1500-more-compute-from-the-same-gonka-hardware-two-phase-cooling-.md) | :bulb: Proposals | [@bitcompool](https://github.com/bitcompool) | 2026-07-25 |
 | [1388](proposals/1388-external-test-lab-community-devnet.md) | [External Test Lab & Community DevNet](proposals/1388-external-test-lab-community-devnet.md) | :bulb: Proposals | [@paranjko](https://github.com/paranjko) | 2026-07-25 |
 | [1367](proposals/1367-high-availability-architecture.md) | [High-Availability Architecture](proposals/1367-high-availability-architecture.md) | :bulb: Proposals | [@a-kuprin](https://github.com/a-kuprin) | 2026-07-22 |
-| [1464](proposals/1464-dev-team-funding.md) | [Dev Team Funding](proposals/1464-dev-team-funding.md) | :bulb: Proposals | [@gmorgachev](https://github.com/gmorgachev) | 2026-07-20 |
 | [1476](show-and-tell/1476-unposted.md) | [unposted](show-and-tell/1476-unposted.md) | :raised_hands: Show and Tell | [@nsvdev](https://github.com/nsvdev) | 2026-07-18 |
 | [1477](show-and-tell/1477-gonka-labs-monthly-report-no1.md) | [Gonka Labs - Monthly Report No.1](show-and-tell/1477-gonka-labs-monthly-report-no1.md) | :raised_hands: Show and Tell | [@gonkalabs](https://github.com/gonkalabs) | 2026-07-18 |
 | [1404](proposals/1404-add-a-lower-barrier-glm-52-option-and-consider-deepseek-v4-f.md) | [Add a lower-barrier GLM-5.2 option and consider DeepSeek-V4-Flash as the default model](proposals/1404-add-a-lower-barrier-glm-52-option-and-consider-deepseek-v4-f.md) | :bulb: Proposals | [@enonog](https://github.com/enonog) | 2026-07-16 |
