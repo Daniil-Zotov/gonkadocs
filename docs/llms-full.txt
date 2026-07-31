@@ -17789,8 +17789,8 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ## 🟢 Active Proposals
 
-3Active
-13Votes
+4Active
+14Votes
 1.4M GNKTotal Bid
 
 | Status | Title | Author | Votes | Avg. Bid | Closes |
@@ -17798,6 +17798,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 | 🟢 | [Вестинг: почему его стоит отменить сейчас](./d23b0edf-57fb-4522-bd79-04ffdcc9d7a5/) | Mitch | 3 | 0.00 GNK | 2026-08-01 |
 | 🟢 | [Привлечение $3M+ нового капитала на Uniswap](./e0cc7d32-5d1a-49e1-94e8-0ca3d9ccbf6b/) | Andrey Orlov | 5 | 138.4K GNK | 2026-08-02 |
 | 🟢 | [Привлечение $3M+ нового капитала на Uniswap v2.0](./f341b83c-78f0-4ab2-b8fd-ddc7ac5d9c37/) | Andrey Orlov | 5 | 138.4K GNK | 2026-08-08 |
+| 🟢 | [Dev Team Funding @gmorgachev](./8a252390-79b4-4a43-b520-c3fc412ef642/) | Даниил Зотов | 1 | 0.00 GNK | 2026-08-14 |
 
 ---
 
@@ -17843,7 +17844,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-07-31 17:49 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-07-31 19:09 UTC*
 
 ---
 
@@ -20802,6 +20803,108 @@ qr.mint.dev@gmail.com
 ---
 
 [View on gonka.vote](https://gonka.vote/proposal/7d2ec26b-6524-4fc6-b676-a13d822536e8)
+
+---
+
+## Dev Team Funding @gmorgachev
+
+# Dev Team Funding @gmorgachev
+
+🟢 Active
+
+**Author:** Даниил Зотов
+**Created:** 2026-07-31 18:54 UTC
+**Closes:** 2026-08-14 18:52 UTC
+**Language:** EN
+**Votes:** 1
+**Avg. Bid:** 0.00 GNK
+
+I plan to submit a proposal requesting 1.5m USDT from the community pool. The funding would support an independent engineering team working on core protocol development aligned with the roadmap
+
+---
+
+## Full Proposal
+
+https://github.com/gonka-ai/gonka/discussions/1464
+
+Hello everyone! I am Gleb Morgachev, one of Gonka's co-creators.
+
+In the next couple of weeks, I plan to submit a proposal requesting 1.5 million USDT from the community pool. The funding would support an independent engineering team working on core protocol development aligned with the community roadmap. It would cover the team and expenses directly related to its work, not servers or GPU infrastructure for mining.
+
+Scope
+This independent team would be a small group of top-tier engineers working on Gonka's core protocol for approximately one year. I would prioritize engineers with strong first-principles thinking who can work across a wide range of technical problems, rather than selecting primarily for previous blockchain experience. Based on my experience, this is the most productive format for Gonka's core development. The goals below define the team's direction, not a fixed scope to be completed within one year.
+
+A reliable, high-performance DevShard protocol. Using the same model, hardware, request parameters, and load, the target is at least 90% of direct vLLM output-token throughput and TTFT no more than 10% higher. This also includes accurately identifying and recording missed and invalid inferences, then safely enabling settlement of complete per-host statistics to Gonka mainnet for reward and penalty calculations.
+Strong alignment between PoC and actual inference quality and performance across different model architectures, domains and hardware classes.
+Security improvements for the protocol and bridges.
+Exact priorities would be adjusted as the protocol's technical needs evolve. All work would be open source and contributed to the main Gonka repository.
+
+The funding would be dedicated to core protocol engineering. It would not cover host or user support, dashboards, centralized monitoring, other infrastructure around Gonka, or marketing.
+
+From my personal perspective, developing core training primitives that enable research teams to work on distributed training workloads on Gonka remains a high priority. It is not part of this team's primary scope, but the team may work on it after making substantial progress toward the goals above.
+
+Structure
+Organization and reward
+As part of this initiative, I plan to establish a new LLC to manage the team and its work. My role would be to organize the team's work and processes, provide technical guidance, and lead the initiative.
+
+My main personal incentive comes from the GNK I already hold and the protocol's long-term success. From the requested 1.5 million USDT, I propose a one-time reward of 50,000 USDT for organizing and leading this initiative. Besides this reward, I would not receive any personal compensation from these funds. All other funds would be used only for the engineering team and expenses related to its work.
+
+Every six months, I will publish a high-level spending summary grouped into team, servers, services, and administrative costs.
+
+Collaboration
+If established, this team would contribute to Gonka alongside individual contributors and other community-funded teams, such as the approved External Test Lab and Community DevNet. It would collaborate with contributors across the community on protocol development and testing. I hope to see more teams working on different parts of Gonka.
+
+Funding transfer
+The proposal will request a single transfer of 1.5 million USDT from the community pool to a smart contract controlled by Gonka governance. The first tranche of 750,000 USDT would be transferred to the recipient account defined in the contract immediately after the contract receives the funds. The second tranche of 750,000 USDT would be transferred six months later. Any funds not spent during the first year would remain reserved for further engineering work on Gonka's core protocol. The contract code will be published a few days before the governance proposal is submitted.
+
+I plan to hold an AMA session next week to answer questions about this proposal.
+
+Contact me:
+
+Telegram: @gmorgachev
+Email: morgachev.g@gmail.com
+
+---
+
+## Comments (2)
+
+### 💬 Даниил Зотов
+*2026-07-31 18:55* · 👍 0 · 👎 0
+
+Обсуждение в тг для пропозера, хостов, комитетов и активных членов сообщества 
+https://telegram.me/gonka_proposals
+
+---
+
+### 💬 Даниил Зотов
+*2026-07-31 18:56* · 👍 0 · 👎 0
+
+⚫ AMA с Глебом Моргачевым "Dev Team Funding proposal"
+
+🕣 Понедельник, 3 августа
+08:30 LA · 15:30 UTC · 18:30 МСК
+
+Проведём AMA-сессию с Глебом Моргачевым, посвящённую proposal о финансировании независимой команды разработки.
+
+Обсудим ключевые вопросы proposal:
+• На какие задачи запрашивается финансирование;
+• Как будет устроена независимая команда разработки;
+• Механика финансирования;
+• Прозрачность расходов, отчётность и роль Глеба в инициативе;
+• Другие вопросы.
+
+💻 Zoom: ссылка будет к началу сессии
+🗣 Язык: русский
+📄 Proposal: https://github.com/gonka-ai/gonka/discussions/1464
+
+🎙 Гость: @gmorgachev — Глеб Моргачев, Gonka co-creator
+🎤 Ведущие: @paranko и @dem_ww
+
+---
+
+---
+
+[View on gonka.vote](https://gonka.vote/proposal/8a252390-79b4-4a43-b520-c3fc412ef642)
 
 ---
 
@@ -25512,7 +25615,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-91 proposals across 5 quarters. Last updated: 2026-07-31 18:40 UTC
+91 proposals across 5 quarters. Last updated: 2026-07-31 19:00 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
