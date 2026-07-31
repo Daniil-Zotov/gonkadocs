@@ -411,5 +411,32 @@ cp "$ROOT/docs/openapi.yaml" "$SITE_DIR/openapi.yaml"
 cp "$ROOT/docs/gonka-code-map.txt" "$SITE_DIR/gonka-code-map.txt"
 if [ -d "$ROOT/gonka-code" ]; then
   cp -r "$ROOT/gonka-code" "$SITE_DIR/gonka-code"
-  echo "  mirror: gonka-code/ -> $SITE_DIR/gonka-code/"
+  # GitHub Pages не делает листинг каталогов — нужен index.html в корне зеркала.
+  cat > "$SITE_DIR/gonka-code/index.html" <<'HTMLEOF'
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Gonka Source Code Mirror</title>
+<style>
+body { font-family: -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; max-width: 720px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #24292f; }
+a { color: #0969da; text-decoration: none; } a:hover { text-decoration: underline; }
+code { background: #f6f8fa; padding: 2px 6px; border-radius: 6px; }
+</style>
+</head>
+<body>
+<h1>Gonka Source Code Mirror</h1>
+<p>This is a read-only mirror of the <a href="https://github.com/gonka-ai/gonka">gonka-ai/gonka</a> protocol source, synced every hour. Raw files are served verbatim under <code>/gonka-code/</code>.</p>
+<p>Browse it with the <a href="/gonka-code-map.txt">source code map</a> (<code>/gonka-code-map.txt</code>) — an AI-friendly index of modules, key files, upgrade handlers, and bounty rewards.</p>
+<p>Examples:</p>
+<ul>
+<li><a href="/gonka-code/inference-chain/app/app.go">inference-chain/app/app.go</a></li>
+<li><a href="/gonka-code-map.txt">gonka-code-map.txt</a></li>
+</ul>
+</body>
+</html>
+HTMLEOF
+  echo "  mirror: gonka-code/ -> $SITE_DIR/gonka-code/ (+index.html)"
 fi
