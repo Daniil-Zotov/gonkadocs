@@ -17471,7 +17471,7 @@ Critical network infrastructure should not depend by default on a closed SaaS co
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-08-01 15:58 UTC
+2026-08-01 17:04 UTC
 
 ---
 
@@ -17845,7 +17845,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-08-01 15:13 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-08-01 17:11 UTC*
 
 ---
 
