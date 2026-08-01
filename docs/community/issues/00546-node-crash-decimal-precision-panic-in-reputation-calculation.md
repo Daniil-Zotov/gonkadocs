@@ -2,7 +2,7 @@
 title: "#546 — Node crash: Decimal precision panic in reputation calculation (v0.2.7-post1)"
 source: https://github.com/gonka-ai/gonka/issues/546
 issue_number: 546
-synced_at: 2026-08-01T21:14:39Z
+synced_at: 2026-08-01T22:16:40Z
 template: issues-main.html
 ---
 
