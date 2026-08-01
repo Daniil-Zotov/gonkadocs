@@ -1,5 +1,25 @@
 [
   {
+    "id": "evt_20260801020204_c4f5a88e",
+    "timestamp": "2026-08-01T02:02:04.324236+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Voting ends: #93 – Upgrade devshard v4 runtime to v4.0.1",
+      "url": "/proposals/proposals/2026-q3/93/",
+      "file": "9ecca4ed2f1595ef0dbf1e6383716ad056eb935d30138a9a582b1426be5aaa15"
+    },
+    "details": {
+      "status": null,
+      "content": "Replace the existing devshard v4 runtime with v4.0.1. This performance and resource-management patch does not change protocol, inference, validation, or economic behavior. It removes per-block chain q…",
+      "date": "2026-08-03",
+      "time": "00:21 UTC",
+      "event_type": "proposal_vote_end",
+      "url": "/proposals/proposals/2026-q3/93/"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260731144422_3c2a7600",
     "timestamp": "2026-07-31T14:44:22.418219+00:00",
     "section": "issues",

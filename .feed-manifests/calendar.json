@@ -1,6 +1,6 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-07-31T23:32:13.969122+00:00",
+  "snapshot_time": "2026-08-01T02:02:04.330103+00:00",
   "files": {
     "0ef86b1e20ace1fba082601b4bda7176d6ecbe2098b2ad0a914ada22b3d9dbbf": {
       "title": "▶️ Ancapex Live: Обзор Gonka",
@@ -919,6 +919,15 @@
       "url": "/proposals/proposals/2026-q3/92/",
       "content_preview": "Upgrade Proposal: v0.2.15",
       "checksum": "4a771d092ce766459ed5bf8b4f92fbfdb268e0af900d723596b8d2124b4b555a"
+    },
+    "9ecca4ed2f1595ef0dbf1e6383716ad056eb935d30138a9a582b1426be5aaa15": {
+      "title": "Voting ends: #93 – Upgrade devshard v4 runtime to v4.0.1",
+      "date": "2026-08-03",
+      "time": "00:21 UTC",
+      "event_type": "proposal_vote_end",
+      "url": "/proposals/proposals/2026-q3/93/",
+      "content_preview": "Replace the existing devshard v4 runtime with v4.0.1. This performance and resource-management patch does not change protocol, inference, validation, or economic behavior. It removes per-block chain q…",
+      "checksum": "fbcc9a4ffd7ff56c30973a3dfaa3b4be5d234e6df65ffb69a73dff50fe0056f1"
     }
   }
 }
