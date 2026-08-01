@@ -30,6 +30,19 @@ Replace the existing devshard v4 runtime with v4.0.1. This performance and resou
 
 ---
 
+
+<h2 id="voters">Voters</h2>
+
+<div class="prop-voters-wrap">
+<table class="prop-voters">
+<thead><tr><th>Voter</th><th>Vote</th></tr></thead>
+<tbody>
+<tr><td><a href="https://gonka.gg/address/gonka1avqx987zq7q9alr9f9grtcprescgzq0wtr7fue" target="_blank" class="prop-voter-addr">gonka1avqx98…tr7fue</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
+</tbody>
+</table>
+</div>
+
+---
 ## Messages
 
 | # | Type |
