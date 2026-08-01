@@ -2,7 +2,7 @@
 title: "#876 — Signed /v1/chat/completions still panics on all three documented mainnet transfer-agent endpoints"
 source: https://github.com/gonka-ai/gonka/issues/876
 issue_number: 876
-synced_at: 2026-08-01T11:37:01Z
+synced_at: 2026-08-01T14:00:57Z
 template: issues-main.html
 ---
 
