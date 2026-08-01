@@ -1090,5 +1090,17 @@
     "tags": [
       "passed"
     ]
+  },
+  {
+    "date": "2026-08-03",
+    "category": "governance",
+    "type": "proposal_vote_end",
+    "title": "Voting ends: #93 – Upgrade devshard v4 runtime to v4.0.1",
+    "url": "/proposals/proposals/2026-q3/93/",
+    "time": "00:21 UTC",
+    "description": "Replace the existing devshard v4 runtime with v4.0.1. This performance and resource-management patch does not change protocol, inference, validation, or economic behavior. It removes per-block chain q…",
+    "tags": [
+      "voting"
+    ]
   }
 ]

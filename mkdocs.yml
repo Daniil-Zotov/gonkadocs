@@ -67,6 +67,7 @@ nav:
       - On-Chain Governance: proposals/proposals/index.md
       - 2026-Q3:
         - Overview: proposals/proposals/2026-q3/index.md
+        - "#93 – Upgrade devshard v4 runtime to v4.0.1": proposals/proposals/2026-q3/93/index.md
         - "#92 – Upgrade Proposal: v0.2.15": proposals/proposals/2026-q3/92/index.md
         - "#91 – Temporarily update BLS signing parameters": proposals/proposals/2026-q3/91/index.md
         - "#90 – Partnerships with Inference Resellers, B2C users acquisition and conversion funnels analytics setup": proposals/proposals/2026-q3/90/index.md

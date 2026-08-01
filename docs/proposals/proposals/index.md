@@ -34,15 +34,15 @@ hide:
 ## Overview
 
 <div class="qs-stats">
-<div class="qs-stat total"><span class="qs-num">91</span><span class="qs-desc">Total Proposals</span></div>
-<div class="qs-stat passed"><span class="qs-num">60</span><span class="qs-desc">Passed (66%)</span></div>
+<div class="qs-stat total"><span class="qs-num">92</span><span class="qs-desc">Total Proposals</span></div>
+<div class="qs-stat passed"><span class="qs-num">60</span><span class="qs-desc">Passed (65%)</span></div>
 <div class="qs-stat rejected"><span class="qs-num">30</span><span class="qs-desc">Rejected (33%)</span></div>
 <div class="qs-stat failed"><span class="qs-num">1</span><span class="qs-desc">Failed (1%)</span></div>
 </div>
 
 <div class="qs-categories">
-<div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:43%"></span></span><span class="qs-value">39</span></div>
-<div class="qs-row"><span class="qs-label">Governance Parameters</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:29%"></span></span><span class="qs-value">26</span></div>
+<div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:42%"></span></span><span class="qs-value">39</span></div>
+<div class="qs-row"><span class="qs-label">Governance Parameters</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:29%"></span></span><span class="qs-value">27</span></div>
 <div class="qs-row"><span class="qs-label">Software Upgrade</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:20%"></span></span><span class="qs-value">18</span></div>
 <div class="qs-row"><span class="qs-label">GRC / Restitution</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:3%"></span></span><span class="qs-value">3</span></div>
 <div class="qs-row"><span class="qs-label">Other</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:3%"></span></span><span class="qs-value">3</span></div>
@@ -58,7 +58,21 @@ hide:
 <div class="prop-quarter" id="2026-q3" markdown="1">
 ## 2026-Q3
 
-*13 proposals*
+*14 proposals*
+
+<div class="prop-card" data-status="prop-voting" data-voting-end="2026-08-03T00:21:18.753587476Z">
+  <div class="prop-card-header">
+    <a href="2026-q3/93/" class="prop-card-title">#93 – Upgrade devshard v4 runtime to v4.0.1</a>
+    <span class="prop-vote-countdown" data-deadline="2026-08-03T00:21:18.753587476Z"></span>
+    <span class="prop-badge prop-voting">Voting</span>
+  </div>
+  <div class="prop-card-meta">
+    <span>Submitted 2026-08-01</span>
+    <span>Voting ends 2026-08-03</span>
+  </div>
+  <div class="prop-card-desc">Replace the existing devshard v4 runtime with v4.0.1. This performance and resource-management patch does not change protocol, inference, validation, or economic behavior. It removes per-block chain q…</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 0 (0.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+</div>
 
 <div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
@@ -1278,7 +1292,7 @@ hide:
 
 </div>
 <div class="prop-oview-stats">
-<em>91 proposals across 5 quarters. Last updated: 2026-07-31 23:57 UTC</em>
+<em>92 proposals across 5 quarters. Last updated: 2026-08-01 00:40 UTC</em>
 </div>
 
 <script>
