@@ -2,7 +2,7 @@
 title: "#599 — BLS for long list of validators & Contract fixes"
 source: https://github.com/gonka-ai/gonka/issues/599
 issue_number: 599
-synced_at: 2026-08-01T14:02:02Z
+synced_at: 2026-08-01T15:34:40Z
 template: issues-main.html
 ---
 
