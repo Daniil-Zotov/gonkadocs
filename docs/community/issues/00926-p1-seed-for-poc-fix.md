@@ -2,7 +2,7 @@
 title: "#926 — [P1] Seed for POC fix"
 source: https://github.com/gonka-ai/gonka/issues/926
 issue_number: 926
-synced_at: 2026-08-01T09:27:43Z
+synced_at: 2026-08-01T11:37:18Z
 template: issues-main.html
 ---
 
