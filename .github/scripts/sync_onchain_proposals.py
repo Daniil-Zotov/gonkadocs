@@ -1462,9 +1462,28 @@ def main():
         if p.get("status") == "PROPOSAL_STATUS_VOTING_PERIOD":
             pid = p["id"]
             live = fetch_live_tally(pid)
-            if live:
+            if live and int(live.get("yes_count", 0)) + int(live.get("no_count", 0)) \
+                    + int(live.get("no_with_veto_count", 0)) + int(live.get("abstain_count", 0)) > 0:
                 p["final_tally_result"] = live
                 print(f"  #{pid}: patched tally → {live}")
+            else:
+                # Chain does not aggregate tally during voting; derive from individual votes.
+                votes = fetch_votes(pid)
+                derived = {"yes_count": 0, "no_count": 0, "no_with_veto_count": 0, "abstain_count": 0}
+                for v in votes:
+                    for o in v.get("options", []):
+                        opt = o.get("option", "")
+                        if opt == "VOTE_OPTION_YES":
+                            derived["yes_count"] += 1
+                        elif opt == "VOTE_OPTION_NO":
+                            derived["no_count"] += 1
+                        elif opt == "VOTE_OPTION_NO_WITH_VETO":
+                            derived["no_with_veto_count"] += 1
+                        elif opt == "VOTE_OPTION_ABSTAIN":
+                            derived["abstain_count"] += 1
+                if any(derived.values()):
+                    p["final_tally_result"] = {k: str(v) for k, v in derived.items()}
+                    print(f"  #{pid}: derived tally from votes → {p['final_tally_result']}")
 
     # Fetch total voting power for turnout/quorum
     total_voting_power = fetch_total_voting_power()

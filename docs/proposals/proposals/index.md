@@ -71,7 +71,8 @@ hide:
     <span>Voting ends 2026-08-03</span>
   </div>
   <div class="prop-card-desc">Replace the existing devshard v4 runtime with v4.0.1. This performance and resource-management patch does not change protocol, inference, validation, or economic behavior. It removes per-block chain q…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 0 (0.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 1 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout 1 / 551,392 (0.0%) · Quorum 25% (137,848)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -1292,7 +1293,7 @@ hide:
 
 </div>
 <div class="prop-oview-stats">
-<em>92 proposals across 5 quarters. Last updated: 2026-08-01 19:50 UTC</em>
+<em>92 proposals across 5 quarters. Last updated: 2026-08-01 19:54 UTC</em>
 </div>
 
 <script>
