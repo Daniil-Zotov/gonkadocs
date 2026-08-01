@@ -20,11 +20,11 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 ## Community Calendar
 
 - [All Calendar Events](/community/calendar/events/): Every event (AMAs, committee calls, proposal milestones, network updates) — machine-readable page, also indexed by search
+- 2026-08-03 00:21 UTC — Voting ends: #93 – Upgrade devshard v4 runtime to v4.0.1: https://gonkadocs.com/proposals/proposals/2026-q3/93/
 - 2026-08-03 15:30 UTC — AMA с Глебом Моргачевым — Dev Team Funding proposal: https://github.com/gonka-ai/gonka/discussions/1464
 - 2026-08-05 13:00 UTC — INPUT Global — Weekly Call (#77): https://gonkadocs.com/proposals/proposals/2026-q2/77/
 - 2026-08-12 13:00 UTC — INPUT Global — Weekly Call (#77): https://gonkadocs.com/proposals/proposals/2026-q2/77/
 - 2026-08-19 13:00 UTC — INPUT Global — Weekly Call (#77): https://gonkadocs.com/proposals/proposals/2026-q2/77/
-- 2026-08-26 13:00 UTC — INPUT Global — Weekly Call (#77): https://gonkadocs.com/proposals/proposals/2026-q2/77/
 
 ## Protocol Documentation
 
@@ -238,6 +238,7 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [#91 – Temporarily update BLS signing parameters](/proposals/proposals/2026-q3/91/): Auto-synced content
 - [GRC Proposal #3 - Restitution](/proposals/proposals/2026-q3/80/full-proposal/): Auto-synced content
 - [#80 – GRC Proposal #3 - Restitution](/proposals/proposals/2026-q3/80/): Auto-synced content
+- [#93 – Upgrade devshard v4 runtime to v4.0.1](/proposals/proposals/2026-q3/93/): Auto-synced content
 - [Internal Go-To-Market Team for 3 Month to Set Up the Basis: acquisition funnels, analytics, sharable target audience deep understanding](/proposals/proposals/2026-q3/85/full-proposal/): Auto-synced content
 - [#85 – Internal Go-To-Market Team for 3 Month](/proposals/proposals/2026-q3/85/): Auto-synced content
 - [Bringing $3M+ in New Capital to GONKA via Uniswap — Phase 1/6 ($50k USDT)](/proposals/proposals/2026-q3/84/full-proposal/): Auto-synced content
