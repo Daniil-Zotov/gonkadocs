@@ -2,7 +2,7 @@
 title: "#1264 — logprobs, top_logprobs conditional stripping"
 source: https://github.com/gonka-ai/gonka/issues/1264
 issue_number: 1264
-synced_at: 2026-08-01T17:26:12Z
+synced_at: 2026-08-01T19:38:22Z
 template: issues-main.html
 ---
 
