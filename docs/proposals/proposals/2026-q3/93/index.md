@@ -46,7 +46,7 @@ Replace the existing devshard v4 runtime with v4.0.1. This performance and resou
     <span class="prop-tally-veto-text">Veto 0 (0.0%)</span>
     <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span>
     <span class="prop-tally-total-text">Total 1 votes</span>
-    <span class="prop-tally-veto-text">✗ Turnout 1 / 551,392 (0.0%) · Quorum 25% (137,848)</span>
+    <span class="prop-tally-veto-text">✗ Turnout 1 / 575,945 (0.0%) · Quorum 25% (143,986)</span>
   </div>
 </div>
 
