@@ -197,7 +197,7 @@
       "status": null,
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway host-health deadlock: mass quarantine → all hosts stuck as no-winner/suspicious\n    <span class=\"issues-number\">#1506</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-07-27 09:48 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" sty"
     },
-    "ai_description": null
+    "ai_description": "В сети Gonka обнаружена критическая проблема с работой Gateway: при массовом карантине хостов возникает взаимная блокировка, из-за которой все узлы застревают в статусах no-winner или suspicious и сеть перестаёт обрабатывать инференс. Пользователь @maria-mitina открыл тикет номер 1506 для диагностики и устранения этого deadlock, что важно для стабильности децентрализованной сети."
   },
   {
     "id": "evt_20260726180943_e362eb1d",
@@ -323,7 +323,7 @@
       "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway allowlist request: Ancapex\n    <span class=\"issues-number\">#1480</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/alancapex\">@alancapex</a> opened 2026-07-19 21:31 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-cont",
       "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway allowlist request: Ancapex\n    <span class=\"issues-number\">#1480</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/alancapex\">@alancapex</a> opened 2026-07-19 21:31 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-con"
     },
-    "ai_description": null
+    "ai_description": "В заявке на добавление нового шлюза Ancapex под номером 1480 появился новый комментарий. Пользователь @alancapex продолжает обсуждение своего запроса на включение в список разрешенных гейтвеев, что приближает рассмотрение заявки сообществом. Присоединяйтесь к обсуждению, чтобы помочь с валидацией."
   },
   {
     "id": "evt_20260722210225_72b031b0",
@@ -419,7 +419,7 @@
       "status": null,
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Request to be added as a Gonka broker (devshard escrow creator allowlist)\n    <span class=\"issues-number\">#1493</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/nikshh\">@nikshh</a> opened 2026-07-21 13:07 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></di"
     },
-    "ai_description": null
+    "ai_description": "В сообществе появилась новая заявка от участника @nikshh на включение в список брокеров Gonka. Речь идет о доступе к созданию эскроу-контрактов в devshard, что расширяет возможности сети для децентрализованного инференса."
   },
   {
     "id": "evt_20260721110038_6c826fb6",
@@ -435,7 +435,7 @@
       "status": null,
       "content": "# 仪表板维护者备忘录 — Gonka v0.2.14\n\n本次升级未移除或重塑任何现有查询端点。如果您的仪表板从链上读取值并显示它们，则将继续正常工作。您需要理解一个语义变更（委托），以及三个小注意事项。\n\n## 委托：权重与奖励\n\n**之前（v0.2.13）：** 当A委托给B时，链在存储权重之前会将A的部分权重物理转移给B。您从链上读取的`weight`已经包含了委托影响。奖励会自动基于调整后的权重计算。\n\n**现在（v0.2.14）：** 链存储每个人自己的权重，不受委托影响。委托仅在奖励结算时内部应用，作用于一个从未作为链字段暴露的权重副本。（拒绝/不参与惩罚也变为仅影响奖励，不再减少存储的权重。）\n\n这对您的仪表板意味着什么，取决于其功能：\n\n- **您显示从链上读取的`weight`**（`epoch_group_data` → `validation_weights[].weight`，或 `get_participant_current_stats`）：继续完全照做。仍然正确。只需知道该数字不再包含委托影响——委托出去的参与者仍显示其完整权重。\n- **您自行重新计算权重并在其上应用委托：** 停止应用委托。链不再这样做。\n- **您估算预期奖励为“参与者权重 ÷ 总权重 × 期池”：** 只要存在委托、拒绝惩罚或排除，此方法现在就是错误的。请改用新端点：\n\n`GET /chain-api/productscience/inference/inference/estimate_bitcoin_reward/{participant}`\n\n它复现了链在结算时使用的相同计算逻辑——包含委托转移、惩罚和排除——并返回估算的奖励和工作币。该估算是针对当前期的：其输入在期形成时（PoC验证结束时）快照，并在每期转换时刷新，因此该端点在整个期中均有效。NotFound响"
     },
-    "ai_description": null
+    "ai_description": "В протоколе Gonka v0.2.14 изменилась логика делегирования: теперь вес участников на уровне хранилища больше не уменьшается при делегировании и не затрагивается штрафами, а перерасчет происходит только в момент начисления наград. Для тех, кто ведет собственные дашборды, это означает, что старые формулы расчета вознаграждений через вес больше не работают, если в сети есть делегирование или исключения. Чтобы получать корректные оценки, используйте новый эндпоинт"
   },
   {
     "id": "evt_20260721110038_612a581c",
@@ -467,7 +467,7 @@
       "content_before": "# 公告\n\n!!! note \"关于本页面\"\n\n    本页面由社区成员维护和更新。\n\n    要发布公告，例如您发起的治理投票，请在 gonka-docs 仓库中打开一个拉取请求：[https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n\n    本页面内容不保证完整。如需获取最新信息，包括治理投票的启动及其当前状态，请参考链上数据或查看可用的浏览器和仪表板。\n\n## 2026年7月16日\n\n**提案88已通过：Kimi-K2.6 重新注册，devshard v1/v2 被移除**\n\n紧急提案88已在链上获得批准。\n\n**Kimi-K2.6 引导（第331轮）**\n\n`moonshotai/Kimi-K2.6` 已重新列入治理模型列表，并进入标准引导流程。\n\n* 在区块 **5,105,276** 之前（2026年7月17日，约UTC 12:05）声明意向：\n```\n./inferenced tx inference declare-poc-intent moonshotai/Kimi-K2.6\n```\n* 在第331轮PoC开始前的约500个区块窗口内（区块 **5,105,776** — 2026年7月17日，UTC 12:50:53 / PDT 05:50），将您的MLNode切换为Kimi。\n* 委托主机：选择非守护者Kimi主机，并将权重分散到独立目标上 —— 请参阅 [多模型PoC指南](https://gonka.ai/docs/host/multi_model_poc/)。\n\n**Devshard v1/v2 被移除**\n\n`versiond` 已停止v1和v2的 `devshardd` 进程。所有网关流量必须使用 `/devshard/v3`。如果您的",
       "content_after": "# 公告\n\n!!! note \"关于本页面\"\n\n    本页面由社区成员维护和更新。\n\n    如需发布公告（例如您发起的治理投票），请在 gonka-docs 仓库中打开一个拉取请求：[https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n\n    本页面的内容不保证完整。如需获取最新信息，包括治理投票的发布及其当前状态，请参阅链上数据或查看可用的浏览器和仪表板。\n\n## 2026年7月20日\n\n**v0.2.14 升级提案进入治理阶段**\n\n[v0.2.14 提案](https://github.com/gonka-ai/gonka/pull/1267) 现已上链并开放投票。\n\n主网链/API 工作重点包括：PoC 重复工件保护、早期共享检测、经典推理 API 废弃（在主网上禁用 `/v1/chat/completions` 计费并从 API 二进制文件中移除嵌入的 `/v1/devshard`）、奖励接收者路由，以及升级时的安全修复。\n\ndevshard 部分准备了 v3 运行时，以便代理在链升级期间无需依赖已废弃的经典 API 路径即可提供推理服务，从而提高内存利用率并支持在 SQLite 和 Postgres 存储之间安全切换。\n\n更多详情请参阅拉取请求：[https://github.com/gonka-ai/gonka/pull/1267](https://github.com/gonka-ai/gonka/pull/1267)\n\n**升级计划**\n\n节点二进制文件通过链上软件升级提案进行升级。现有主机无需在升级过程中手动更新其 `api` 或 `node` 容器。\n\n**如何投票**\n\n如果您没有直接访问拥有投票权密钥的权限，或希望由其他密钥代表您投票，"
     },
-    "ai_description": null
+    "ai_description": "Раздел документации Protocol Docs обновлён: в разделе объявлений появилась информация о выходе предложения по обновлению сети до версии v0.2.14 на этап управления.\n\nПредложение v0.2.14 вынесено на голосование в блокчейне и открыто для голосования. Обновление затрагивает защиту от дублирования артефактов в PoC, раннее обнаружение шеринга, отказ от классического API инференса и исправления безопасности, а также готовит среду выполнения devshard v3. Узлы обновятся автомат"
   },
   {
     "id": "evt_20260721064623_4bcf132c",
