@@ -3,14 +3,14 @@ title: "#1464 — Dev Team Funding"
 source: https://github.com/gonka-ai/gonka/discussions/1464
 discussion_number: 1464
 category: proposals
-synced_at: 2026-08-01T07:35:32Z
+synced_at: 2026-08-01T10:07:28Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1464](https://github.com/gonka-ai/gonka/discussions/1464) every hour. 
 
 # Dev Team Funding
 
-**Автор:** [@gmorgachev](https://github.com/gmorgachev) · **Категория:** :bulb: Proposals · **Создано:** 2026-07-17 01:38 UTC · **Обновлено:** 2026-07-31 19:00 UTC
+**Автор:** [@gmorgachev](https://github.com/gmorgachev) · **Категория:** :bulb: Proposals · **Создано:** 2026-07-17 01:38 UTC · **Обновлено:** 2026-08-01 09:37 UTC
 
 ---
 
@@ -65,7 +65,7 @@ Contact me:
 
 ---
 
-## 💬 Комментарии (2)
+## 💬 Комментарии (3)
 
 ### Комментарий 1 — [@paranjko](https://github.com/paranjko)
 
@@ -79,4 +79,16 @@ Count me in! I’d love to get involved and contribute to the initiative.
 
 обсуждение на gonka.vote https://gonka.vote/proposal/nlabjc
 обсуждение в тг https://telegram.me/gonka_proposals
+
+
+### Комментарий 3 — [@Daniil-Zotov](https://github.com/Daniil-Zotov)
+
+*2026-08-01 09:37 UTC*
+
+вопросы:
+1. какова роль Product Science сейчас и в ближайшей перспективе работы над протоколом? Новая команда заменит ее или работа будет вестись параллельно? 
+2. сейчас в комьюнити пуле 720к usdt - согласован ли ваш пропозал с BF и планируется ли новый транш от BF до создания пропозала ончейн?
+3. будет ли открытость в разработке - будет ли доступен роадмап и дашборд этой команды? прозрачности работы core team и внешних участников очень не хватает.
+4. кто будет оплачивать инфраструктуру, необходимую для тестирования и разработки?
+5. будут ли дублирующие баунти реварды этой команде при апдейтах?
 
