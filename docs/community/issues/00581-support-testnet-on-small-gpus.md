@@ -2,7 +2,7 @@
 title: "#581 — Support testnet on small GPUs"
 source: https://github.com/gonka-ai/gonka/issues/581
 issue_number: 581
-synced_at: 2026-08-02T09:26:53Z
+synced_at: 2026-08-02T10:57:46Z
 template: issues-main.html
 ---
 
