@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-08-02T10:06:00.134031+00:00",
+  "snapshot_time": "2026-08-02T12:11:06.261035+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "Welcome to Gonka Discussions 👋",
@@ -312,7 +312,7 @@
       "title": "Dev Team Funding",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1464](https://github.com/gonka-ai/gonka/discussions/1464) every hour. \n\n# Dev Team Funding\n\n**Автор:** [@gmorgachev](https://github.com/gmorgachev) · **Категория:** :bulb: Proposals · **Создано:** 2026-07-17 01:38 UTC · \n\n---\n\n## 📝 Описание\n\nHello everyone! I am Gleb Morgachev, one of Gonka's co-creators.\n\nIn the next couple of weeks, I plan to submit a proposal requesting 1.5 million USDT from the community pool. The funding would support an independent engineering team working on core protocol development aligned with the community roadmap. It would cover the team and expenses directly related to its work, not servers or GPU infrastructure for mining.\n\n## Scope\n\nThis independent team would be a small group of top-tier engineers working on Gonka's core",
-      "checksum": "e582239fb29a06b8ecd5f6e330d06b72bc915f6cb6dd6c90cbd06ad5d0c57ed9"
+      "checksum": "eee0e695f49774beeb38dc02db5d8b20e71c9d010746f895d639d6aca608ae3f"
     },
     "proposals/1500-more-compute-from-the-same-gonka-hardware-two-phase-cooling-.md": {
       "title": "More compute from the same Gonka hardware: two-phase cooling pilot",

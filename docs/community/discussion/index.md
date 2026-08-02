@@ -4,7 +4,7 @@ title: "GitHub Discussions"
 
 # GitHub Discussions — `gonka-ai/gonka`
 
-Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **80**. Обновлено: `2026-08-02 10:05 UTC`.
+Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **80**. Обновлено: `2026-08-02 12:11 UTC`.
 
 ## 📂 Категории
 
@@ -20,7 +20,7 @@ title: "GitHub Discussions"
 
 | # | Заголовок | Категория | Автор | Обновлено |
 |---:|---|---|---|---|
-| [1464](proposals/1464-dev-team-funding.md) | [Dev Team Funding](proposals/1464-dev-team-funding.md) | :bulb: Proposals | [@gmorgachev](https://github.com/gmorgachev) | 2026-08-01 |
+| [1464](proposals/1464-dev-team-funding.md) | [Dev Team Funding](proposals/1464-dev-team-funding.md) | :bulb: Proposals | [@gmorgachev](https://github.com/gmorgachev) | 2026-08-02 |
 | [1502](proposals/1502-обратная-связь-от-разработчика-почему-текущий-модельный-ряд-.md) | [Обратная связь от разработчика: почему текущий модельный ряд Gonka пока не проходит production bar](proposals/1502-обратная-связь-от-разработчика-почему-текущий-модельный-ряд-.md) | :bulb: Proposals | [@bitcompool](https://github.com/bitcompool) | 2026-07-26 |
 | [1445](proposals/1445-the-missing-first-mile-onboarding-gonka-from-a-newcomers-per.md) | [The missing first mile: onboarding Gonka from a newcomer’s perspective](proposals/1445-the-missing-first-mile-onboarding-gonka-from-a-newcomers-per.md) | :bulb: Proposals | [@julb1992](https://github.com/julb1992) | 2026-07-25 |
 | [1500](proposals/1500-more-compute-from-the-same-gonka-hardware-two-phase-cooling-.md) | [More compute from the same Gonka hardware: two-phase cooling pilot](proposals/1500-more-compute-from-the-same-gonka-hardware-two-phase-cooling-.md) | :bulb: Proposals | [@bitcompool](https://github.com/bitcompool) | 2026-07-25 |

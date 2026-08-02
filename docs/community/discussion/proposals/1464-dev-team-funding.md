@@ -3,14 +3,14 @@ title: "#1464 — Dev Team Funding"
 source: https://github.com/gonka-ai/gonka/discussions/1464
 discussion_number: 1464
 category: proposals
-synced_at: 2026-08-02T10:05:29Z
+synced_at: 2026-08-02T12:10:41Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1464](https://github.com/gonka-ai/gonka/discussions/1464) every hour. 
 
 # Dev Team Funding
 
-**Автор:** [@gmorgachev](https://github.com/gmorgachev) · **Категория:** :bulb: Proposals · **Создано:** 2026-07-17 01:38 UTC · **Обновлено:** 2026-08-01 09:37 UTC
+**Автор:** [@gmorgachev](https://github.com/gmorgachev) · **Категория:** :bulb: Proposals · **Создано:** 2026-07-17 01:38 UTC · **Обновлено:** 2026-08-02 11:51 UTC
 
 ---
 
@@ -65,7 +65,7 @@ Contact me:
 
 ---
 
-## 💬 Комментарии (3)
+## 💬 Комментарии (4)
 
 ### Комментарий 1 — [@paranjko](https://github.com/paranjko)
 
@@ -92,3 +92,26 @@ Count me in! I’d love to get involved and contribute to the initiative.
 4. кто будет оплачивать инфраструктуру, необходимую для тестирования и разработки?
 5. будут ли дублирующие баунти реварды этой команде при апдейтах?
 
+
+### Комментарий 4 — [@konstantingostev77](https://github.com/konstantingostev77)
+
+*2026-08-02 11:51 UTC*
+
+Hi Gleb,
+Thanks for putting this proposal together — the direction on DevShard performance and PoC/inference-quality alignment sounds like exactly the kind of first-principles engineering work Gonka needs.
+
+I'd like to explore joining the engineering team.  I  recently started building decentralized VPS/VPN infrastructure on top of Gonka.
+
+I'd be glad to share details if useful.
+Since you mentioned prioritizing strong first-principles thinkers over prior blockchain experience specifically, I wanted to ask about the selection process:
+
+Will there be a public/open call for applications, or is the team being assembled through direct outreach?
+
+What's the best way to submit background/code samples for consideration?
+
+Is there a timeline for when the team will start forming, relative to the governance proposal and funding transfer?
+
+Looking forward to the AMA
+
+Good Luck with the project,
+Konstantin
