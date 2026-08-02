@@ -24789,7 +24789,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   
   Replace the existing devshard v4 runtime with v4.0.1. This performance and resource-management patch does not change protocol, inference, validation, or economic behavior. It removes per-block chain q…
   Yes 111,386 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  ✗ Turnout 111,386 / 559,232 (19.9%) · Quorum 25% (139,808)
+  ✗ Turnout 111,386 / 546,640 (20.4%) · Quorum 25% (136,660)
 
   
     #92 – Upgrade Proposal: v0.2.15
@@ -25817,7 +25817,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-92 proposals across 5 quarters. Last updated: 2026-08-02 21:25 UTC
+92 proposals across 5 quarters. Last updated: 2026-08-02 22:26 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -62751,7 +62751,7 @@ $90,075 USDT · Bounty Reward
   
   Replace the existing devshard v4 runtime with v4.0.1. This performance and resource-management patch does not change protocol, inference, validation, or economic behavior. It removes per-block chain q…
   Yes 111,386 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  ✗ Turnout 111,386 / 559,232 (19.9%) · Quorum 25% (139,808)
+  ✗ Turnout 111,386 / 546,640 (20.4%) · Quorum 25% (136,660)
 
   
     #92 – Upgrade Proposal: v0.2.15
@@ -67643,7 +67643,7 @@ Replace the existing devshard v4 runtime with v4.0.1. This performance and resou
     Veto 0 (0.0%)
     Abstain 0 (0.0%)
     Total 111,386 votes
-    ✗ Turnout 111,386 / 559,232 (19.9%) · Quorum 25% (139,808)
+    ✗ Turnout 111,386 / 546,640 (20.4%) · Quorum 25% (136,660)
   
 
 Voters
