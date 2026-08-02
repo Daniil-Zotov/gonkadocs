@@ -35,18 +35,18 @@ Replace the existing devshard v4 runtime with v4.0.1. This performance and resou
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:20.4%"></div>
+    <div class="prop-tally-yes" style="width:29.3%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes 111,386 (100.0%)</span>
+    <span class="prop-tally-yes-text">Yes 160,267 (100.0%)</span>
     <span class="prop-tally-no-text">No 0 (0.0%)</span>
     <span class="prop-tally-veto-text">Veto 0 (0.0%)</span>
     <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span>
-    <span class="prop-tally-total-text">Total 111,386 votes</span>
-    <span class="prop-tally-veto-text">✗ Turnout 111,386 / 546,640 (20.4%) · Quorum 25% (136,660)</span>
+    <span class="prop-tally-total-text">Total 160,267 votes</span>
+    <span class="prop-tally-yes-text">✓ Turnout 160,267 / 546,640 (29.3%) · Quorum 25% (136,660)</span>
   </div>
 </div>
 
@@ -65,6 +65,7 @@ Replace the existing devshard v4 runtime with v4.0.1. This performance and resou
 <tr><td><a href="https://gonka.gg/address/gonka1d7p03cu2y2yt3vytq9wlfm6tlz0lfhlgv9h82p" target="_blank" class="prop-voter-addr">gonka1d7p03c…v9h82p</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka10mmdjau4dnj8krs7sh7t7635ttnmq9u3vqgz09" target="_blank" class="prop-voter-addr">gonka10mmdja…vqgz09</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka15p7s7w2hx0y8095lddd4ummm2y0kwpwljk00aq" target="_blank" class="prop-voter-addr">gonka15p7s7w…jk00aq</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
+<tr><td><a href="https://gonka.gg/address/gonka1kx9mca3xm8u8ypzfuhmxey66u0ufxhs7nm6wc5" target="_blank" class="prop-voter-addr">gonka1kx9mca…nm6wc5</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1m58jds005cttwq2vt0p7yk6vy2aqg254cqqppf" target="_blank" class="prop-voter-addr">gonka1m58jds…cqqppf</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1avqx987zq7q9alr9f9grtcprescgzq0wtr7fue" target="_blank" class="prop-voter-addr">gonka1avqx98…tr7fue</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 </tbody>
