@@ -7,7 +7,7 @@ template: issues-main.html
 
 All issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).
 Total: **320** (🟢 open: **72**, 🔴 closed: **248**).
-Updated: `2026-08-02 19:42 UTC`.
+Updated: `2026-08-02 21:15 UTC`.
 
 <ul class="issues-list">
 <li class="issues-list-item">
@@ -95,7 +95,7 @@ Updated: `2026-08-02 19:42 UTC`.
     <p class="issues-desc">## Location  `decentralized-api/payloadstorage/managed_storage.go` — lines 129–138  ## Description  In `ManagedStorage.cleanup()`, `m.minPruned` is advanced to `threshold` **before** the pruning gorou...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Mayveskii">@Mayveskii</a> opened 4 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/Mayveskii">@Mayveskii</a> opened 5 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -110,7 +110,7 @@ Updated: `2026-08-02 19:42 UTC`.
     <p class="issues-desc">Release binaries are currently built on a maintainer's machine and uploaded by hand. On v0.2.14 the release was published 2026-07-20, and the four cross-platform `inferenced` binaries were attached 20...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/KTibow">@KTibow</a> opened 4 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/KTibow">@KTibow</a> opened 5 days ago</span>
       
     </div>
   </div>
@@ -125,7 +125,7 @@ Updated: `2026-08-02 19:42 UTC`.
     <p class="issues-desc">## Operator information  - Operator name: Bagtyyar Kovusov - Contact: Discord: key_b.official - Devshard creator address: gonka1zsy3dqrc0h889u32jk40kl7hd2tugt0ymtfy7y - Deployment region: China  ## In...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/bagtyyarkovusov">@bagtyyarkovusov</a> opened 5 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/bagtyyarkovusov">@bagtyyarkovusov</a> opened 6 days ago</span>
       
     </div>
   </div>
@@ -245,7 +245,7 @@ Updated: `2026-08-02 19:42 UTC`.
     <p class="issues-desc">See #913   Once research is finished and we agree on a decision, we'll update this issue with the implementation steps.</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 12 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 13 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -440,7 +440,7 @@ Updated: `2026-08-02 19:42 UTC`.
     <p class="issues-desc">## Operator - Name: Viacheslav Nikitin - Contact: via GitHub issue replies  ## Intended creator address `gonka1qh620unjez7552csz9mklhjjtl9p7ty5vpznag`  ## Models to serve - MiniMaxAI/MiniMax-M2.7 - (o...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/scodeit">@scodeit</a> opened 22 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/scodeit">@scodeit</a> opened 23 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 3</span>
     </div>
   </div>
@@ -455,7 +455,7 @@ Updated: `2026-08-02 19:42 UTC`.
     <p class="issues-desc">Discord: jack.maguli  Creator address to allow-list: gonka127szvy0fnscx03jjejmf6ednj6dezercldzzz4 Models we plan to serve: MiniMaxAI/MiniMax-M2.7, moonshotai/Kimi-K2.6, zai-org/GLM-5.2-FP8  Background...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/jack-maguli">@jack-maguli</a> opened 22 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/jack-maguli">@jack-maguli</a> opened 23 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -650,7 +650,7 @@ Updated: `2026-08-02 19:42 UTC`.
     <p class="issues-desc">## Operator  Nichita R. — independent developer Contact: GitHub @niro58  ## Address  gonka142rw2k5qwh3rxm774z56uzcgfyqfnnclqewr36  ## Models  - MiniMaxAI/MiniMax-M2.7 - moonshotai/Kimi-K2.6  ## Use ca...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/niro58">@niro58</a> opened 28 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/niro58">@niro58</a> opened 29 days ago</span>
       
     </div>
   </div>
