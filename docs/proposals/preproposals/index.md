@@ -13,15 +13,14 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 <div class="quarter-summary" markdown="1">
 <div class="qs-stats">
-<div class="qs-stat passed"><span class="qs-num">4</span><span class="qs-desc">Active</span></div>
-<div class="qs-stat"><span class="qs-num">13</span><span class="qs-desc">Votes</span></div>
-<div class="qs-stat"><span class="qs-num">2.1M GNK</span><span class="qs-desc">Total Bid</span></div>
+<div class="qs-stat passed"><span class="qs-num">3</span><span class="qs-desc">Active</span></div>
+<div class="qs-stat"><span class="qs-num">8</span><span class="qs-desc">Votes</span></div>
+<div class="qs-stat"><span class="qs-num">1.4M GNK</span><span class="qs-desc">Total Bid</span></div>
 </div>
 </div>
 
 | Status | Title | Author | Votes | Avg. Bid | Closes |
 | :----- | :----- | :----- | ----: | -------: | :----- |
-| 🟢 | [Привлечение $3M+ нового капитала на Uniswap](./e0cc7d32-5d1a-49e1-94e8-0ca3d9ccbf6b/) | Andrey Orlov | 5 | 138.5K GNK | 2026-08-02 |
 | 🟢 | [Gonka × Omniverse Web3 Camp](./51625116-36cd-47ee-a176-d552d39f0376/) | George Omni | 1 | 0.00 GNK | 2026-08-08 |
 | 🟢 | [Привлечение $3M+ нового капитала на Uniswap v2.0](./f341b83c-78f0-4ab2-b8fd-ddc7ac5d9c37/) | Andrey Orlov | 5 | 138.5K GNK | 2026-08-08 |
 | 🟢 | [Dev Team Funding @gmorgachev](./8a252390-79b4-4a43-b520-c3fc412ef642/) | Даниил Зотов | 2 | 346.1K GNK | 2026-08-14 |
@@ -33,14 +32,15 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 <div class="quarter-summary" markdown="1">
 <div class="qs-stats">
-<div class="qs-stat rejected"><span class="qs-num">32</span><span class="qs-desc">Expired</span></div>
-<div class="qs-stat"><span class="qs-num">19</span><span class="qs-desc">Votes</span></div>
-<div class="qs-stat"><span class="qs-num">850.2K GNK</span><span class="qs-desc">Total Bid</span></div>
+<div class="qs-stat rejected"><span class="qs-num">33</span><span class="qs-desc">Expired</span></div>
+<div class="qs-stat"><span class="qs-num">24</span><span class="qs-desc">Votes</span></div>
+<div class="qs-stat"><span class="qs-num">1.5M GNK</span><span class="qs-desc">Total Bid</span></div>
 </div>
 </div>
 
 | Status | Title | Author | Votes | Avg. Bid | Closed |
 | :----- | :----- | :----- | ----: | -------: | :----- |
+| 🔴 | [Привлечение $3M+ нового капитала на Uniswap](./e0cc7d32-5d1a-49e1-94e8-0ca3d9ccbf6b/) | Andrey Orlov | 5 | 138.5K GNK | 2026-08-02 |
 | 🔴 | [Вестинг: почему его стоит отменить сейчас](./d23b0edf-57fb-4522-bd79-04ffdcc9d7a5/) | Mitch | 4 | 0.00 GNK | 2026-08-01 |
 | 🔴 | [Should Gonka make fallbacks to other services like OpenRouter?](./f9a4302d-7823-4cd4-9987-b0758569db93/) | Viktor | 1 | 0.00 GNK | 2026-07-24 |
 | 🔴 | [Улучшаем инфиренс Kimi](./d185d9eb-243f-4228-b4ac-e2c7a50a5325/) | Mitch | 6 | 0.00 GNK | 2026-07-21 |
@@ -77,4 +77,4 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-08-02 13:49 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-08-02 15:14 UTC*
