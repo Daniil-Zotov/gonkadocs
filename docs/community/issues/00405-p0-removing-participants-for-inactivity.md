@@ -2,7 +2,7 @@
 title: "#405 — [P0] Removing participants for inactivity"
 source: https://github.com/gonka-ai/gonka/issues/405
 issue_number: 405
-synced_at: 2026-08-02T04:00:08Z
+synced_at: 2026-08-02T06:50:21Z
 template: issues-main.html
 ---
 
