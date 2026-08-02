@@ -24788,8 +24788,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-08-03
   
   Replace the existing devshard v4 runtime with v4.0.1. This performance and resource-management patch does not change protocol, inference, validation, or economic behavior. It removes per-block chain q…
-  Yes 111,386 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  ✗ Turnout 111,386 / 546,640 (20.4%) · Quorum 25% (136,660)
+  Yes 160,267 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  ✓ Turnout 160,267 / 546,640 (29.3%) · Quorum 25% (136,660)
 
   
     #92 – Upgrade Proposal: v0.2.15
@@ -25817,7 +25817,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-92 proposals across 5 quarters. Last updated: 2026-08-02 22:26 UTC
+92 proposals across 5 quarters. Last updated: 2026-08-02 23:29 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -62750,8 +62750,8 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-08-03
   
   Replace the existing devshard v4 runtime with v4.0.1. This performance and resource-management patch does not change protocol, inference, validation, or economic behavior. It removes per-block chain q…
-  Yes 111,386 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  ✗ Turnout 111,386 / 546,640 (20.4%) · Quorum 25% (136,660)
+  Yes 160,267 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  ✓ Turnout 160,267 / 546,640 (29.3%) · Quorum 25% (136,660)
 
   
     #92 – Upgrade Proposal: v0.2.15
@@ -67638,12 +67638,12 @@ Replace the existing devshard v4 runtime with v4.0.1. This performance and resou
     
   
   
-    Yes 111,386 (100.0%)
+    Yes 160,267 (100.0%)
     No 0 (0.0%)
     Veto 0 (0.0%)
     Abstain 0 (0.0%)
-    Total 111,386 votes
-    ✗ Turnout 111,386 / 546,640 (20.4%) · Quorum 25% (136,660)
+    Total 160,267 votes
+    ✓ Turnout 160,267 / 546,640 (29.3%) · Quorum 25% (136,660)
   
 
 Voters
@@ -67657,6 +67657,7 @@ gonka1gvrrhj…d2v4zrYes 100.0%
 gonka1d7p03c…v9h82pYes 100.0%
 gonka10mmdja…vqgz09Yes 100.0%
 gonka15p7s7w…jk00aqYes 100.0%
+gonka1kx9mca…nm6wc5Yes 100.0%
 gonka1m58jds…cqqppfYes 100.0%
 gonka1avqx98…tr7fueYes 100.0%
 
