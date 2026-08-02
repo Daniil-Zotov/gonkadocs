@@ -2,7 +2,7 @@
 title: "#1079 — Deep Security Audit: BLS/DKG protocol, state machine consistency, and economic logic vulnerabilities"
 source: https://github.com/gonka-ai/gonka/issues/1079
 issue_number: 1079
-synced_at: 2026-08-02T06:49:16Z
+synced_at: 2026-08-02T09:25:45Z
 template: issues-main.html
 ---
 
