@@ -35,18 +35,18 @@ Replace the existing devshard v4 runtime with v4.0.1. This performance and resou
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:22.9%"></div>
+    <div class="prop-tally-yes" style="width:19.9%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes 112,957 (100.0%)</span>
+    <span class="prop-tally-yes-text">Yes 111,386 (100.0%)</span>
     <span class="prop-tally-no-text">No 0 (0.0%)</span>
     <span class="prop-tally-veto-text">Veto 0 (0.0%)</span>
     <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span>
-    <span class="prop-tally-total-text">Total 112,957 votes</span>
-    <span class="prop-tally-veto-text">✗ Turnout 112,957 / 492,267 (22.9%) · Quorum 25% (123,066)</span>
+    <span class="prop-tally-total-text">Total 111,386 votes</span>
+    <span class="prop-tally-veto-text">✗ Turnout 111,386 / 559,232 (19.9%) · Quorum 25% (139,808)</span>
   </div>
 </div>
 
