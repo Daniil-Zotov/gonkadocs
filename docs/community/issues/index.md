@@ -7,7 +7,7 @@ template: issues-main.html
 
 All issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).
 Total: **320** (🟢 open: **72**, 🔴 closed: **248**).
-Updated: `2026-08-02 10:58 UTC`.
+Updated: `2026-08-02 12:19 UTC`.
 
 <ul class="issues-list">
 <li class="issues-list-item">
