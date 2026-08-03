@@ -11,7 +11,7 @@
       <link>https://gonkadocs.com/proposals/proposals/2026-q3/93/</link>
       <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q3/93/</guid>
       <pubDate>Sat, 01 Aug 2026 00:21:18 +0000</pubDate>
-      <category>Voting</category>
+      <category>Passed</category>
       <description>Replace the existing devshard v4 runtime with v4.0.1. This performance and resource-management patch does not change protocol, inference, validation, or economic behavior. It removes per-block chain queries by switching epoch tracking to event-driven updates and aligns in-memory host-session and validation-worker cleanup with epoch pruning. versiond will automatically download and verify the replacement binary; no mainnet restart or manual host action is required.</description>
     </item>
     <item>
