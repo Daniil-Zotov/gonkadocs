@@ -1,6 +1,14 @@
 # gonkadocs.com
 
-Unified documentation portal for [Gonka](https://gonka.ai) — a decentralized AI inference network with Proof of Compute consensus.
+**Gonk Docs** is a meta-repository for the [Gonka](https://gonka.ai) decentralized AI inference network (Proof of Compute consensus). It aggregates everything about the project in one place:
+
+- **Official documentation** — auto-synced protocol docs (`/gonka/docs/`) with English and Chinese translations
+- **Source code mirror** — the full `gonka-ai/gonka` source served verbatim (`/gonka-code/`), indexed by `/gonka-code-map.txt`
+- **Community** — roadmap, calendar, activity feed, discussions, issues, and committees (GRC / GSC / GPC / GTM)
+- **Governance** — off-chain pre-proposals (`gonka.vote`), on-chain proposal dashboard with quarterly summaries, tally results, funding sources, and published reports
+- **Community funds** — live balances and full spend history of the Community Pool, Community Sale wallet, and Gov Module
+
+The portal is designed **agent-first**: machine-readable `llms.txt` / `llms-full.txt`, `.html.md` page copies, a merged search index, sitemaps, RSS, an OpenAPI spec, and an MCP server so AI agents can answer questions about Gonka without manual context copying.
 
 **URL:** [gonkadocs.com](https://gonkadocs.com)
 

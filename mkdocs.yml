@@ -233,6 +233,7 @@ hooks:
   - hooks/proposals_nav.py
   - hooks/calendar_manifest.py
   - hooks/calendar_events.py
+  - hooks/homepage.py
 
 extra_css:
   - stylesheets/github.css

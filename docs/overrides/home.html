@@ -65,7 +65,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 80px 20px;
+    padding: 80px 20px 40px;
     text-align: center;
     background: var(--md-default-bg-color);
   }
@@ -90,84 +90,367 @@
     line-height: 1.6;
   }
 
-  .hero-buttons {
+  [data-md-color-scheme="slate"] .hero > img {
+    filter: invert(1);
+  }
+
+  .home {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 24px 80px;
+  }
+
+  .home-section {
+    margin-top: 48px;
+  }
+
+  .home-section-head {
     display: flex;
+    align-items: baseline;
+    justify-content: space-between;
     gap: 16px;
-    flex-wrap: wrap;
-    justify-content: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--md-default-fg-color--lightest);
+    padding-bottom: 10px;
   }
 
-  .hero-btn {
-    padding: 14px 32px;
-    border-radius: 8px;
-    font-size: 1rem;
+  .home-section-head h2 {
+    margin: 0;
+    font-size: 1.35rem;
     font-weight: 600;
-    text-decoration: none;
-    transition: opacity 0.2s;
-  }
-
-  .hero-btn:hover {
-    opacity: 0.85;
-  }
-
-  .hero-btn--primary {
-    background: var(--md-primary-fg-color, #1976d2);
-    color: white;
-  }
-
-  .hero-btn--secondary {
-    border: 2px solid var(--md-default-fg-color--lighter);
     color: var(--md-default-fg-color);
   }
 
-  .features {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: 24px;
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 60px 24px;
+  .home-section-link {
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-decoration: none;
+    white-space: nowrap;
   }
 
-  .feature-card {
-    padding: 28px;
-    border: 1px solid var(--md-default-fg-color--lightest);
-    border-radius: 12px;
-    background: var(--md-code-bg-color);
+  .home-section-link:hover {
+    text-decoration: underline;
   }
 
-  .feature-card h3 {
-    margin: 12px 0 8px;
-    font-size: 1.1rem;
-  }
-
-  .feature-card p {
+  .home-section-desc {
     color: var(--md-default-fg-color--light);
     font-size: 0.95rem;
-    margin: 0;
+    margin: -8px 0 20px;
+    line-height: 1.55;
+  }
+
+  .home-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .home-card {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 14px 18px;
+    border: 1px solid var(--md-default-fg-color--lightest);
+    border-radius: 10px;
+    background: var(--md-code-bg-color);
+    text-decoration: none;
+    transition: border-color 0.15s;
+  }
+
+  a.home-card:hover {
+    border-color: var(--md-accent-fg-color);
+  }
+
+  .home-card-title {
+    font-size: 0.98rem;
+    font-weight: 500;
+    color: var(--md-default-fg-color);
+    line-height: 1.4;
+  }
+
+  .home-card-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 16px;
+    font-size: 0.82rem;
+    color: var(--md-default-fg-color--light);
+  }
+
+  .home-card-desc {
+    font-size: 0.9rem;
+    color: var(--md-default-fg-color--light);
     line-height: 1.5;
   }
 
-  .feature-icon {
-    font-size: 2rem;
+  .home-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
   }
 
-  [data-md-color-scheme="slate"] .hero > img {
-    filter: invert(1);
+  .home-chip .dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .home-pool-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 16px;
+  }
+
+  .home-pool-card {
+    padding: 18px 20px;
+    border: 1px solid var(--md-default-fg-color--lightest);
+    border-radius: 10px;
+    background: var(--md-code-bg-color);
+  }
+
+  .home-pool-card h3 {
+    margin: 0 0 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--md-default-fg-color);
+  }
+
+  .home-pool-addr {
+    font-family: var(--md-code-font-family);
+    font-size: 0.72rem;
+    color: var(--md-default-fg-color--light);
+    word-break: break-all;
+    margin-bottom: 10px;
+  }
+
+  .home-pool-bal {
+    font-size: 1.02rem;
+    font-weight: 600;
+    color: var(--md-accent-fg-color, #5468ff);
+    line-height: 1.5;
+  }
+
+  .home-about p {
+    color: var(--md-default-fg-color--light);
+    font-size: 0.98rem;
+    line-height: 1.65;
+    margin: 0 0 16px;
+  }
+
+  .home-features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 16px;
+    margin-top: 8px;
+  }
+
+  .home-feature {
+    padding: 20px;
+    border: 1px solid var(--md-default-fg-color--lightest);
+    border-radius: 10px;
+    background: var(--md-code-bg-color);
+  }
+
+  .home-feature h3 {
+    margin: 0 0 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--md-default-fg-color);
+  }
+
+  .home-feature p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: var(--md-default-fg-color--light);
+    line-height: 1.55;
+  }
+
+  .home-feature ul {
+    margin: 8px 0 0;
+    padding-left: 1.1rem;
+    font-size: 0.9rem;
+    color: var(--md-default-fg-color--light);
+    line-height: 1.6;
+  }
+
+  .home-feature li {
+    margin-bottom: 2px;
+  }
+
+  .home-feature a,
+  .home-feature li a {
+    color: var(--md-accent-fg-color);
+    text-decoration: none;
+  }
+
+  .home-feature a:hover,
+  .home-feature li a:hover {
+    text-decoration: underline;
+  }
+
+  .home-empty {
+    color: var(--md-default-fg-color--light);
+    font-size: 0.9rem;
+    font-style: italic;
+  }
+
+  @media (max-width: 600px) {
+    .hero h1 { font-size: 2.2rem; }
   }
 </style>
 
 <section class="hero">
   <img src="{{ config.site_url }}images/01-favicon.png" alt="Gonka logo">
   <h1>Gonka Docs</h1>
-  <p> Gonka.ai & Community documentations</p>
+  <p>Gonka.ai &amp; Community documentations</p>
   <img src="{{ config.site_url }}images/ai-freandly.png" alt="AI Friendly Documentation" style="max-width: 680px; width: 100%; margin: 32px 0 48px;">
-  <div class="hero-buttons">
-    <a href="https://github.com/Daniil-Zotov/gonkadocs" class="hero-btn hero-btn--secondary">
-      GitHub
-    </a>
-  </div>
 </section>
+
+<div class="home">
+
+  <section class="home-section">
+    <div class="home-section-head">
+      <h2>Upcoming events</h2>
+      <a class="home-section-link" href="{{ config.site_url }}community/calendar/">Full calendar →</a>
+    </div>
+    <p class="home-section-desc">Next 3 days of community events: proposal milestones, committee calls, AMAs, network updates.</p>
+    <div class="home-list">
+      {% if home_calendar %}
+        {% for e in home_calendar %}
+          {% if e.url %}
+          <a class="home-card" href="{{ e.url }}" {% if e.url.startswith('http') %}target="_blank" rel="noopener"{% endif %}>
+          {% else %}
+          <div class="home-card">
+          {% endif %}
+            <div class="home-card-title">{{ e.title }}</div>
+            <div class="home-card-meta">
+              <span>{{ e._when }}</span>
+              {% if e.time %}<span>{{ e.time }}</span>{% endif %}
+              {% if e.type %}<span>{{ e.type|replace('_', ' ')|title }}</span>{% endif %}
+            </div>
+            {% if e.description %}<div class="home-card-desc">{{ e.description }}</div>{% endif %}
+          {% if e.url %}
+          </a>
+          {% else %}
+          </div>
+          {% endif %}
+        {% endfor %}
+      {% else %}
+        <div class="home-empty">No events in the next 3 days.</div>
+      {% endif %}
+    </div>
+  </section>
+
+  <section class="home-section">
+    <div class="home-section-head">
+      <h2>Recent activity</h2>
+      <a class="home-section-link" href="{{ config.site_url }}community/activity/">Full activity feed →</a>
+    </div>
+    <p class="home-section-desc">Latest changes across proposals, pre-proposals, discussions, issues, docs, and the calendar.</p>
+    <div class="home-list">
+      {% if home_activity %}
+        {% for e in home_activity[:8] %}
+          {% set item = e.item or {} %}
+          {% if item.url %}
+          <a class="home-card" href="{{ item.url }}">
+          {% else %}
+          <div class="home-card">
+          {% endif %}
+            <div class="home-card-title">{{ item.title or e._section_label }}</div>
+            <div class="home-card-meta">
+              <span class="home-chip"><span class="dot" style="background:var(--md-accent-fg-color)"></span>{{ e._action_label }}</span>
+              <span>{{ e._section_label }}</span>
+              <span>{{ e._ago }}</span>
+            </div>
+          {% if item.url %}
+          </a>
+          {% else %}
+          </div>
+          {% endif %}
+        {% endfor %}
+      {% else %}
+        <div class="home-empty">No recent activity.</div>
+      {% endif %}
+    </div>
+  </section>
+
+  <section class="home-section">
+    <div class="home-section-head">
+      <h2>Community Pool balances</h2>
+      <a class="home-section-link" href="{{ config.site_url }}proposals/community%20pool/">Community Pool page →</a>
+    </div>
+    <p class="home-section-desc">Current on-chain balances of the three addresses that manage community funds.</p>
+    {% if home_pool %}
+    <div class="home-pool-grid">
+      {% for key in ['community', 'sale', 'gov'] %}
+        {% if home_pool[key] %}
+        <div class="home-pool-card">
+          <h3>{{ home_pool[key].name }}</h3>
+          <div class="home-pool-addr">{{ home_pool[key].address }}</div>
+          <div class="home-pool-bal">{{ home_pool[key].balances|join(' · ') }}</div>
+        </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+    {% else %}
+      <div class="home-empty">Balances unavailable.</div>
+    {% endif %}
+  </section>
+
+  <section class="home-section">
+    <div class="home-section-head">
+      <h2>About this portal</h2>
+    </div>
+    <div class="home-about">
+      <p>
+        <strong>Gonka Docs</strong> is a meta-repository that aggregates everything about the
+        <a href="https://gonka.ai" target="_blank" rel="noopener">Gonka</a> decentralized AI
+        inference network in one place: the official protocol documentation, a mirror of the
+        source code, community discussions and issues, governance proposals, and the development
+        roadmap — all continuously synced from their sources.
+      </p>
+    </div>
+    <div class="home-features">
+      <div class="home-feature">
+        <h3>Documentation &amp; code</h3>
+        <ul>
+          <li><a href="{{ config.site_url }}gonka/docs/">Protocol documentation</a> — architecture, quickstarts, wallet, governance</li>
+          <li><a href="{{ config.site_url }}gonka/docs/zh/">中文 documentation</a> — Chinese translations</li>
+          <li><a href="{{ config.site_url }}gonka-code/">Source code mirror</a> of gonka-ai/gonka, indexed by <a href="{{ config.site_url }}gonka-code-map.txt">gonka-code-map.txt</a></li>
+        </ul>
+      </div>
+      <div class="home-feature">
+        <h3>Community</h3>
+        <ul>
+          <li><a href="{{ config.site_url }}community/discussion/">GitHub Discussions</a> — proposals, Q&amp;A, show-and-tell</li>
+          <li><a href="{{ config.site_url }}community/issues/">GitHub Issues</a> — bugs, features, enhancements</li>
+          <li><a href="{{ config.site_url }}community/roadmap/">Roadmap</a> — three-horizon strategy</li>
+          <li><a href="{{ config.site_url }}community/calendar/">Calendar</a> and <a href="{{ config.site_url }}community/activity/">activity feed</a></li>
+        </ul>
+      </div>
+      <div class="home-feature">
+        <h3>Governance</h3>
+        <ul>
+          <li><a href="{{ config.site_url }}proposals/proposals/">On-chain proposals</a> — quarterly overviews with funding, reports, tally results</li>
+          <li><a href="{{ config.site_url }}proposals/preproposals/">Pre-proposals</a> — off-chain community polls</li>
+          <li><a href="{{ config.site_url }}proposals/community%20pool/">Community Pool</a> — balances and funding history</li>
+          <li><a href="{{ config.site_url }}proposals/readme-for-propose/">How to Propose</a> — three ways to submit a proposal</li>
+        </ul>
+      </div>
+      <div class="home-feature">
+        <h3>For AI agents</h3>
+        <p>
+          Designed as a single source of truth for AI agents: machine-readable
+          <a href="{{ config.site_url }}llms.txt">llms.txt</a>,
+          <a href="{{ config.site_url }}llms-full.txt">llms-full.txt</a>, an
+          <a href="{{ config.site_url }}openapi.yaml">OpenAPI spec</a>, and a
+          <a href="{{ config.site_url }}agents/">setup guide</a> covering agent rules and an MCP server.
+        </p>
+      </div>
+    </div>
+  </section>
+
+</div>
 
 {% endblock %}
 
