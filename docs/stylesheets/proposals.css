@@ -217,7 +217,7 @@
 }
 
 .prop-report-name {
-  display: block;
+  display: inline-block;
   font-size: 13px;
   font-weight: 600;
   color: #1a7f37;
@@ -228,11 +228,11 @@
 }
 
 .prop-report-date {
-  display: block;
+  display: inline-block;
   font-size: 11px;
   font-weight: 400;
   color: #2f8f44;
-  margin-top: 1px;
+  margin-left: 8px;
 }
 
 [data-md-color-scheme="slate"] .prop-report-date {
