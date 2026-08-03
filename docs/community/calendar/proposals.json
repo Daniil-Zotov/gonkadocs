@@ -1034,6 +1034,18 @@
   {
     "date": "2026-07-17",
     "category": "governance",
+    "type": "proposal_report_upload",
+    "title": "Отчёт к пропозолу #77 — Gonka PR Proposal for US/Global Regions",
+    "url": "/proposals/proposals/2026-q2/77/report1/",
+    "time": "",
+    "description": "Загружен отчёт report1 к пропозолу #77. Читать: /proposals/proposals/2026-q2/77/report1/",
+    "tags": [
+      "report"
+    ]
+  },
+  {
+    "date": "2026-07-17",
+    "category": "governance",
     "type": "proposal_report",
     "title": "Passed: #88 – Restore Kimi K2.6 and remove v1, v2",
     "url": "/proposals/proposals/2026-q3/88/",
@@ -1041,6 +1053,30 @@
     "description": "Update current chain params to register moonshotai/Kimi-K2.6 in the governance model list and remove approved_versions v1, v2 from devshard_escrow_params (to reduce RAM usage).",
     "tags": [
       "passed"
+    ]
+  },
+  {
+    "date": "2026-07-18",
+    "category": "governance",
+    "type": "proposal_report_upload",
+    "title": "Отчёт к пропозолу #74 — Gonka Labs: Maintaining Infrastructure, Improving Products, and Launch…",
+    "url": "/proposals/proposals/2026-q2/74/report1/",
+    "time": "",
+    "description": "Загружен отчёт report1 к пропозолу #74. Читать: /proposals/proposals/2026-q2/74/report1/",
+    "tags": [
+      "report"
+    ]
+  },
+  {
+    "date": "2026-07-21",
+    "category": "governance",
+    "type": "proposal_report_upload",
+    "title": "Отчёт к пропозолу #49 — Gonka Media Dominance in TechL/AI with 5 AI Influencers",
+    "url": "/proposals/proposals/2026-q2/49/report1/",
+    "time": "",
+    "description": "Загружен отчёт report1 к пропозолу #49. Читать: /proposals/proposals/2026-q2/49/report1/",
+    "tags": [
+      "report"
     ]
   },
   {
@@ -1070,6 +1106,18 @@
   {
     "date": "2026-07-24",
     "category": "governance",
+    "type": "proposal_report_upload",
+    "title": "Отчёт к пропозолу #77 — Gonka PR Proposal for US/Global Regions",
+    "url": "/proposals/proposals/2026-q2/77/report2/",
+    "time": "",
+    "description": "Загружен отчёт report2 к пропозолу #77. Читать: /proposals/proposals/2026-q2/77/report2/",
+    "tags": [
+      "report"
+    ]
+  },
+  {
+    "date": "2026-07-24",
+    "category": "governance",
     "type": "proposal_report",
     "title": "Passed: #91 – Temporarily update BLS signing parameters",
     "url": "/proposals/proposals/2026-q3/91/",
@@ -1089,6 +1137,30 @@
     "description": "Upgrade Proposal: v0.2.15",
     "tags": [
       "passed"
+    ]
+  },
+  {
+    "date": "2026-07-31",
+    "category": "governance",
+    "type": "proposal_report_upload",
+    "title": "Отчёт к пропозолу #77 — Gonka PR Proposal for US/Global Regions",
+    "url": "/proposals/proposals/2026-q2/77/report3/",
+    "time": "",
+    "description": "Загружен отчёт report3 к пропозолу #77. Читать: /proposals/proposals/2026-q2/77/report3/",
+    "tags": [
+      "report"
+    ]
+  },
+  {
+    "date": "2026-08-03",
+    "category": "governance",
+    "type": "proposal_report_upload",
+    "title": "Отчёт к пропозолу #51 — Support Gonka's presence at WebX Asia",
+    "url": "/proposals/proposals/2026-q2/51/report1/",
+    "time": "",
+    "description": "Загружен отчёт report1 к пропозолу #51. Читать: /proposals/proposals/2026-q2/51/report1/",
+    "tags": [
+      "report"
     ]
   },
   {

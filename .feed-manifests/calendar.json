@@ -1,6 +1,6 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-08-03T08:48:35.839054+00:00",
+  "snapshot_time": "2026-08-03T12:18:53.554788+00:00",
   "files": {
     "0ef86b1e20ace1fba082601b4bda7176d6ecbe2098b2ad0a914ada22b3d9dbbf": {
       "title": "▶️ Ancapex Live: Обзор Gonka",
@@ -875,6 +875,15 @@
       "content_preview": "Increase the weight_scale_factor for moonshotai/Kimi-K2.6 from 0.90 to 0.945 (+5%) and for zai-org/GLM-5.2-FP8 from 2.47 to 2.5935 (+5%). All other model and chain parameters remain unchanged.",
       "checksum": "b7880a48946d155c44f77a94bf53ffcfcf6286137d7ff95d46d7994b10aa8a83"
     },
+    "e0d22085aa8dd59b51f44b55952d75d03eaa633237666decc8b23f8106fbf9eb": {
+      "title": "Отчёт к пропозолу #77 — Gonka PR Proposal for US/Global Regions",
+      "date": "2026-07-17",
+      "time": "",
+      "event_type": "proposal_report_upload",
+      "url": "/proposals/proposals/2026-q2/77/report1/",
+      "content_preview": "Загружен отчёт report1 к пропозолу #77. Читать: /proposals/proposals/2026-q2/77/report1/",
+      "checksum": "f737f2774e0c4ccb97649e7139fdf89a736a0645655ef2d1473c04bac06b2e87"
+    },
     "4e6e9c75e9e9e354caa858fd7dd41004f2901b7a41ac7cc48ea89eb3a1d752a1": {
       "title": "Passed: #88 – Restore Kimi K2.6 and remove v1, v2",
       "date": "2026-07-17",
@@ -883,6 +892,24 @@
       "url": "/proposals/proposals/2026-q3/88/",
       "content_preview": "Update current chain params to register moonshotai/Kimi-K2.6 in the governance model list and remove approved_versions v1, v2 from devshard_escrow_params (to reduce RAM usage).",
       "checksum": "ca70579c082fdd4e48226cd1781955e4daccde419a7680ddb4eda3ee6c48a39d"
+    },
+    "0f37c1a6ea1e707913d49092e9af42bf01ec60769fa8d8de22cf7f0239c5cddd": {
+      "title": "Отчёт к пропозолу #74 — Gonka Labs: Maintaining Infrastructure, Improving Products, and Launch…",
+      "date": "2026-07-18",
+      "time": "",
+      "event_type": "proposal_report_upload",
+      "url": "/proposals/proposals/2026-q2/74/report1/",
+      "content_preview": "Загружен отчёт report1 к пропозолу #74. Читать: /proposals/proposals/2026-q2/74/report1/",
+      "checksum": "926d67363093dc2707bb6f581c9718263f6092b8d98ca2bdb814fde44487784c"
+    },
+    "0f2dd9b2c5715ecae9ce428694860315ac155f3fbfbb74f46b42c300543f472d": {
+      "title": "Отчёт к пропозолу #49 — Gonka Media Dominance in TechL/AI with 5 AI Influencers",
+      "date": "2026-07-21",
+      "time": "",
+      "event_type": "proposal_report_upload",
+      "url": "/proposals/proposals/2026-q2/49/report1/",
+      "content_preview": "Загружен отчёт report1 к пропозолу #49. Читать: /proposals/proposals/2026-q2/49/report1/",
+      "checksum": "aa61cf7d08e90f0151dcc7d4edf090f16aa01f8c005ce0f20fda9d297811856f"
     },
     "9fe69d44ea1c787f8a77464dbcb63b2086b2cce49bee81c2ae65828b92b167cd": {
       "title": "Rejected: #90 – Partnerships with Inference Resellers, B2C users acquisition and conversion funnels analytics setup",
@@ -902,6 +929,15 @@
       "content_preview": "Upgrade Proposal: v0.2.14",
       "checksum": "8892cc793d8b0e73136ab82a10b5b1d73667d22520845996b52227f823d142fc"
     },
+    "4d358ecfb9425089dc466263722957a28858bb414a166121bebf1f1414360767": {
+      "title": "Отчёт к пропозолу #77 — Gonka PR Proposal for US/Global Regions",
+      "date": "2026-07-24",
+      "time": "",
+      "event_type": "proposal_report_upload",
+      "url": "/proposals/proposals/2026-q2/77/report2/",
+      "content_preview": "Загружен отчёт report2 к пропозолу #77. Читать: /proposals/proposals/2026-q2/77/report2/",
+      "checksum": "ea430c22e1b6e363629c88f47dee77a21e614efe0a5828ce597064da9d97756d"
+    },
     "343541b821f7119cf3d4fb7320bb0a36e18200f2d295a1a8f1c90cb83881cddd": {
       "title": "Passed: #91 – Temporarily update BLS signing parameters",
       "date": "2026-07-24",
@@ -919,6 +955,24 @@
       "url": "/proposals/proposals/2026-q3/92/",
       "content_preview": "Upgrade Proposal: v0.2.15",
       "checksum": "4a771d092ce766459ed5bf8b4f92fbfdb268e0af900d723596b8d2124b4b555a"
+    },
+    "afc0f67dd34e14d451b167f6b9d8a6ecdeb8f4908a01a43f0469492ec10fae64": {
+      "title": "Отчёт к пропозолу #77 — Gonka PR Proposal for US/Global Regions",
+      "date": "2026-07-31",
+      "time": "",
+      "event_type": "proposal_report_upload",
+      "url": "/proposals/proposals/2026-q2/77/report3/",
+      "content_preview": "Загружен отчёт report3 к пропозолу #77. Читать: /proposals/proposals/2026-q2/77/report3/",
+      "checksum": "62b1c2d65e87e738c18df98b544fe811cda94d00001cd10cdcdedbefd5ed3c46"
+    },
+    "eb8530bc8199ebabd52039898fdde8104311de3becf0fd4f3241153b48b6a999": {
+      "title": "Отчёт к пропозолу #51 — Support Gonka's presence at WebX Asia",
+      "date": "2026-08-03",
+      "time": "",
+      "event_type": "proposal_report_upload",
+      "url": "/proposals/proposals/2026-q2/51/report1/",
+      "content_preview": "Загружен отчёт report1 к пропозолу #51. Читать: /proposals/proposals/2026-q2/51/report1/",
+      "checksum": "6afeca2cdc2808336b9c22fe0d33bc36e7929cef19f1463d3aaf23741c3fb045"
     },
     "d3423fd045b185cdbafbb6299bced6211e2fd2ea1a19a554159a98f4716ffc90": {
       "title": "Passed: #93 – Upgrade devshard v4 runtime to v4.0.1",

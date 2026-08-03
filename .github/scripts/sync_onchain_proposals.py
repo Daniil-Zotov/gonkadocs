@@ -1257,6 +1257,24 @@ def generate_proposal_calendar(proposals_by_quarter):
                     "tags": [status_label.lower()],
                 })
 
+            # Report upload events (one per report*.md published for this proposal)
+            q_lower = q.lower()
+            for label, report_date in get_proposal_reports(OUTPUT_DIR / q_lower / pid):
+                if not report_date:
+                    continue
+                short_title = title[:70] + "…" if len(title) > 70 else title
+                report_url = f"/proposals/proposals/{q_lower}/{pid}/{label}/"
+                events.append({
+                    "date": report_date,
+                    "category": "governance",
+                    "type": "proposal_report_upload",
+                    "title": f"Отчёт к пропозолу #{pid} — {short_title}",
+                    "url": report_url,
+                    "time": "",
+                    "description": f"Загружен отчёт {label} к пропозолу #{pid}. Читать: {report_url}",
+                    "tags": ["report"],
+                })
+
     events.sort(key=lambda e: e["date"])
 
     CALENDAR_FILE.parent.mkdir(parents=True, exist_ok=True)

@@ -1,5 +1,125 @@
 [
   {
+    "id": "evt_20260803121853_d82f29d7",
+    "timestamp": "2026-08-03T12:18:53.551280+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Отчёт к пропозолу #49 — Gonka Media Dominance in TechL/AI with 5 AI Influencers",
+      "url": "/proposals/proposals/2026-q2/49/report1/",
+      "file": "0f2dd9b2c5715ecae9ce428694860315ac155f3fbfbb74f46b42c300543f472d"
+    },
+    "details": {
+      "status": null,
+      "content": "Загружен отчёт report1 к пропозолу #49. Читать: /proposals/proposals/2026-q2/49/report1/",
+      "date": "2026-07-21",
+      "time": "",
+      "event_type": "proposal_report_upload",
+      "url": "/proposals/proposals/2026-q2/49/report1/"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260803121853_4777f9e4",
+    "timestamp": "2026-08-03T12:18:53.551300+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Отчёт к пропозолу #74 — Gonka Labs: Maintaining Infrastructure, Improving Products, and Launch…",
+      "url": "/proposals/proposals/2026-q2/74/report1/",
+      "file": "0f37c1a6ea1e707913d49092e9af42bf01ec60769fa8d8de22cf7f0239c5cddd"
+    },
+    "details": {
+      "status": null,
+      "content": "Загружен отчёт report1 к пропозолу #74. Читать: /proposals/proposals/2026-q2/74/report1/",
+      "date": "2026-07-18",
+      "time": "",
+      "event_type": "proposal_report_upload",
+      "url": "/proposals/proposals/2026-q2/74/report1/"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260803121853_f36af9c2",
+    "timestamp": "2026-08-03T12:18:53.551310+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Отчёт к пропозолу #77 — Gonka PR Proposal for US/Global Regions",
+      "url": "/proposals/proposals/2026-q2/77/report2/",
+      "file": "4d358ecfb9425089dc466263722957a28858bb414a166121bebf1f1414360767"
+    },
+    "details": {
+      "status": null,
+      "content": "Загружен отчёт report2 к пропозолу #77. Читать: /proposals/proposals/2026-q2/77/report2/",
+      "date": "2026-07-24",
+      "time": "",
+      "event_type": "proposal_report_upload",
+      "url": "/proposals/proposals/2026-q2/77/report2/"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260803121853_e1d7be18",
+    "timestamp": "2026-08-03T12:18:53.551319+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Отчёт к пропозолу #77 — Gonka PR Proposal for US/Global Regions",
+      "url": "/proposals/proposals/2026-q2/77/report3/",
+      "file": "afc0f67dd34e14d451b167f6b9d8a6ecdeb8f4908a01a43f0469492ec10fae64"
+    },
+    "details": {
+      "status": null,
+      "content": "Загружен отчёт report3 к пропозолу #77. Читать: /proposals/proposals/2026-q2/77/report3/",
+      "date": "2026-07-31",
+      "time": "",
+      "event_type": "proposal_report_upload",
+      "url": "/proposals/proposals/2026-q2/77/report3/"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260803121853_df405a6c",
+    "timestamp": "2026-08-03T12:18:53.551331+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Отчёт к пропозолу #77 — Gonka PR Proposal for US/Global Regions",
+      "url": "/proposals/proposals/2026-q2/77/report1/",
+      "file": "e0d22085aa8dd59b51f44b55952d75d03eaa633237666decc8b23f8106fbf9eb"
+    },
+    "details": {
+      "status": null,
+      "content": "Загружен отчёт report1 к пропозолу #77. Читать: /proposals/proposals/2026-q2/77/report1/",
+      "date": "2026-07-17",
+      "time": "",
+      "event_type": "proposal_report_upload",
+      "url": "/proposals/proposals/2026-q2/77/report1/"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260803121853_3930e07d",
+    "timestamp": "2026-08-03T12:18:53.551340+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Отчёт к пропозолу #51 — Support Gonka's presence at WebX Asia",
+      "url": "/proposals/proposals/2026-q2/51/report1/",
+      "file": "eb8530bc8199ebabd52039898fdde8104311de3becf0fd4f3241153b48b6a999"
+    },
+    "details": {
+      "status": null,
+      "content": "Загружен отчёт report1 к пропозолу #51. Читать: /proposals/proposals/2026-q2/51/report1/",
+      "date": "2026-08-03",
+      "time": "",
+      "event_type": "proposal_report_upload",
+      "url": "/proposals/proposals/2026-q2/51/report1/"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260803115311_63f35f6f",
     "timestamp": "2026-08-03T11:53:11.300355+00:00",
     "section": "issues",
