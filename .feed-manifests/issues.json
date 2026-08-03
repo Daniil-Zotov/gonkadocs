@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-08-03T07:55:32.735016+00:00",
+  "snapshot_time": "2026-08-03T11:53:22.810433+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "Description",
@@ -2358,10 +2358,12 @@
     "00983-bug-get-apiv1epochsnparticipants-returns-500-for-past-epochs.md": {
       "title": "#983 — Bug: GET /api/v1/epochs/{N}/participants returns 500 for past epochs (CreatedAtBlockHeight=0)",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Bug: GET /api/v1/epochs/{N}/participants returns 500 for past epochs (CreatedAtBlockHeight=0)\n    <span class=\"issues-number\">#983</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/mingles-agent\">@mingles-agent</a> opened 2026-03-31 08:51 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labe",
-      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "comment_bodies": [],
-      "checksum": "fa4e0ff53d678b34c64daa8c8e39607bd2ff92ee8072b36936d6967de28dbf5a"
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Bug: GET /api/v1/epochs/{N}/participants returns 500 for past epochs (CreatedAtBlockHeight=0)\n    <span class=\"issues-number\">#983</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/mingles-agent\">@mingles-agent</a> opened 2026-03-31 08:51 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-label",
+      "comment_checksum": "98fd06ab4bc519b4ca422992ae5cf08744b6e89d5b9546a55c9ac3e2b61162e4",
+      "comment_bodies": [
+        "This is still reproducible on current main (4fa6be0, Upgrade v0.2.15 #1497) — but the root cause in the description is not the one that fires, and #973 patches a call site that no longer exists. TL;DR - The 500 is real and live. - It does not come from the proof-bearing ABCI query. height=0 + prove=true is accepted. - It comes from GetValidatorSetByHeight(Height: CreatedAtBlockHeight), which is fa"
+      ],
+      "checksum": "2bf80f4bd6da406eaa547e4d26ef94accb1abe796be600d792aef2052accce7e"
     },
     "00985-p0-bug-unsupported-openai-type-input-for-the-inference-reque.md": {
       "title": "#985 — [P0] Bug: unsupported OpenAI type input for the inference requests",

@@ -2,7 +2,7 @@
 title: "#586 — connect grpc port to proxy"
 source: https://github.com/gonka-ai/gonka/issues/586
 issue_number: 586
-synced_at: 2026-08-03T07:54:43Z
+synced_at: 2026-08-03T11:52:20Z
 template: issues-main.html
 ---
 

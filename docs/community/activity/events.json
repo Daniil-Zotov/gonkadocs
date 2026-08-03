@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260803115311_63f35f6f",
+    "timestamp": "2026-08-03T11:53:11.300355+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#983 — Bug: GET /api/v1/epochs/{N}/participants returns 500 for past epochs (CreatedAtBlockHeight=0)",
+      "url": "/community/issues/00983-bug-get-apiv1epochsnparticipants-returns-500-for-past-epochs/",
+      "file": "00983-bug-get-apiv1epochsnparticipants-returns-500-for-past-epochs.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Bug: GET /api/v1/epochs/{N}/participants returns 500 for past epochs (CreatedAtBlockHeight=0)\n    <span class=\"issues-number\">#983</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/mingles-agent\">@mingles-agent</a> opened 2026-03-31 08:51 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labe",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Bug: GET /api/v1/epochs/{N}/participants returns 500 for past epochs (CreatedAtBlockHeight=0)\n    <span class=\"issues-number\">#983</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/mingles-agent\">@mingles-agent</a> opened 2026-03-31 08:51 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-label"
+    },
+    "ai_description": "В ишью #983 о баге с ошибкой 500 при запросе участников прошлых эпох появился первый комментарий. Скорее всего, кто-то из сообщества поделился дополнительными деталями или предложил направление для исправления. Это поможет разработчикам быстрее разобраться с некорректной обработкой CreatedAtBlockHeight=0 и устранить сбой в API."
+  },
+  {
     "id": "evt_20260803020051_0b150d3f",
     "timestamp": "2026-08-03T02:00:51.115756+00:00",
     "section": "calendar",
