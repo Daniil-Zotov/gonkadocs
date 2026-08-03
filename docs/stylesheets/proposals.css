@@ -212,17 +212,8 @@
 
 .prop-report-link {
   display: inline-block;
-  background: #e6f6ea;
-  border: 1px solid #8fd8a5;
-  border-radius: 8px;
-  padding: 6px 12px;
   text-decoration: none;
   line-height: 1.35;
-}
-
-[data-md-color-scheme="slate"] .prop-report-link {
-  background: rgba(63, 185, 80, 0.12);
-  border-color: rgba(63, 185, 80, 0.45);
 }
 
 .prop-report-name {
