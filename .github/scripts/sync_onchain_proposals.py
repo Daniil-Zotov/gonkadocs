@@ -509,6 +509,52 @@ def fetch_proposals():
     return proposals
 
 
+# ── proposal report badges ─────────────────────────────────────
+
+_REPORT_PUB_DATE_RE = re.compile(r"Дата публикации[^0-9]*([0-9]{4}-[0-9]{2}-[0-9]{2})")
+
+
+def get_proposal_reports(prop_dir):
+    """Return list of (report_label, date_str) for report*.md files in prop_dir."""
+    reports = []
+    try:
+        files = sorted(prop_dir.glob("report*.md"))
+    except OSError:
+        return reports
+    for f in files:
+        label = f.stem
+        date_str = ""
+        try:
+            head = f.read_text(encoding="utf-8", errors="ignore")[:2000]
+        except OSError:
+            head = ""
+        m = _REPORT_PUB_DATE_RE.search(head)
+        if m:
+            date_str = m.group(1)
+        else:
+            # fallback: file modification date
+            try:
+                date_str = datetime.fromtimestamp(f.stat().st_mtime, tz=timezone.utc).strftime("%Y-%m-%d")
+            except OSError:
+                date_str = ""
+        reports.append((label, date_str))
+    return reports
+
+
+def report_badge_html(reports, link_prefix):
+    """Build the report badge block(s) appended to a proposal card."""
+    if not reports:
+        return ""
+    parts = []
+    for label, date_str in reports:
+        date_html = f'<span class="prop-report-date">{date_str}</span>' if date_str else ""
+        parts.append(
+            f'  <div class="prop-card-report"><a class="prop-report-link" href="{link_prefix}{label}/">'
+            f'<span class="prop-report-name">{label}</span>{date_html}</a></div>\n'
+        )
+    return "".join(parts)
+
+
 # ── generate individual proposal page ──────────────────────────
 
 def generate_proposal_page(proposal, prop_dir, total_voting_power=0):
@@ -921,6 +967,9 @@ hide:
                 if _turnout_line:
                     md += f'  <div class="prop-card-tally">{_turnout_line}</div>\n'
 
+            _reports = get_proposal_reports(OUTPUT_DIR / q.lower() / pid)
+            md += report_badge_html(_reports, f"{q.lower()}/{pid}/")
+
             md += "</div>\n\n"
 
         md += "</div>\n"
@@ -1132,6 +1181,10 @@ hide:
             md += f'  <div class="prop-card-tally">{_tally_line}{_funding_html}{_bounty_html}</div>\n'
             if _turnout_line:
                 md += f'  <div class="prop-card-tally">{_turnout_line}</div>\n'
+
+        _reports = get_proposal_reports(OUTPUT_DIR / quarter.lower() / pid)
+        md += report_badge_html(_reports, f"{pid}/")
+
         md += "</div>\n\n"
 
     md += '''</div>

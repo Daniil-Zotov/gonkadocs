@@ -299,6 +299,9 @@ hide:
   </div>
   <div class="prop-card-desc">We are INPUT Global - a leading web3 marketing communications agency. We offer 3 month PR campaign to establish trust and market legitimacy of Gonka across 2 audiences: global business and crypto-nati…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 152,042 (100.0%)</span> · <span class="prop-tally-no-text">No 71 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-funding">$75,000 · Community Pool</span></div>
+  <div class="prop-card-report"><a class="prop-report-link" href="2026-q2/77/report1/"><span class="prop-report-name">report1</span><span class="prop-report-date">2026-07-17</span></a></div>
+  <div class="prop-card-report"><a class="prop-report-link" href="2026-q2/77/report2/"><span class="prop-report-name">report2</span><span class="prop-report-date">2026-07-24</span></a></div>
+  <div class="prop-card-report"><a class="prop-report-link" href="2026-q2/77/report3/"><span class="prop-report-name">report3</span><span class="prop-report-date">2026-07-31</span></a></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -337,6 +340,7 @@ hide:
   </div>
   <div class="prop-card-desc">Full proposal: <a href="https://gonkalabs.com/proposal" target="_blank">https://gonkalabs.com/proposal</a>  This proposal funds the next six months of work for the Gonka ecosystem.  The focus is production-grade infrastructure and high-use products: Gonka.gg V2…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 305,163 (79.6%)</span> · <span class="prop-tally-no-text">No 3,791 (1.0%)</span> · <span class="prop-tally-veto-text">Veto 15 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 74,304 (19.4%)</span><span class="prop-card-funding">$70,000 · Community Pool · 330,000 GNK · Gov Module</span></div>
+  <div class="prop-card-report"><a class="prop-report-link" href="2026-q2/74/report1/"><span class="prop-report-name">report1</span><span class="prop-report-date">2026-07-18</span></a></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -635,6 +639,7 @@ hide:
   </div>
   <div class="prop-card-desc">6Block, a long-term Gonka mining and infrastructure participant, proposes that the Gonka community allocate 75,000 USDT to support Gonka's participation at WebX Asia / WebX 2026 in Tokyo. 6Block has a…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 395,003 (62.8%)</span> · <span class="prop-tally-no-text">No 1,767 (0.3%)</span> · <span class="prop-tally-veto-text">Veto 64,217 (10.2%)</span> · <span class="prop-tally-abstain-text">Abstain 168,275 (26.7%)</span><span class="prop-card-funding">$75,000 · Community Pool</span></div>
+  <div class="prop-card-report"><a class="prop-report-link" href="2026-q2/51/report1/"><span class="prop-report-name">report1</span><span class="prop-report-date">2026-08-03</span></a></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -661,6 +666,7 @@ hide:
   </div>
   <div class="prop-card-desc">We're ICG - AI Influencer Lab, a team that builds and scales hyper-realistic AI avatars on Instagram, TikTok, and YouTube as full ambassadors across verticals. We manage 160+ accounts in AI, finance, …</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 496,683 (71.1%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 201,560 (28.9%)</span><span class="prop-card-funding">$45,000 · Community Pool</span></div>
+  <div class="prop-card-report"><a class="prop-report-link" href="2026-q2/49/report1/"><span class="prop-report-name">report1</span><span class="prop-report-date">2026-07-21</span></a></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -1292,7 +1298,7 @@ hide:
 
 </div>
 <div class="prop-oview-stats">
-<em>92 proposals across 5 quarters. Last updated: 2026-08-03 10:10 UTC</em>
+<em>92 proposals across 5 quarters. Last updated: 2026-08-03 10:15 UTC</em>
 </div>
 
 <script>
