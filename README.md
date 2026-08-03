@@ -41,7 +41,8 @@ Auto-synced from [rpc.gonka.gg](https://rpc.gonka.gg) every 10 minutes. Proposal
 - **Individual proposal pages** — detailed view with status, tally results, funding amount and source (Community Pool / Gov Module), on-chain contract messages, and voter details
 - **Funding source tracking** — each proposal shows where funding originates: `Community Pool` (community pool spend, execute contract) or `Gov Module` (batch vesting, multi-send)
 - **Status filters** — filter by Passed / Rejected / Voting / With Funding
-- **Tally results** — Yes/No/Veto/Abstain counts and percentages with turnout/quorum
+- **Tally results** — bold percentages followed by vote counts for Yes/No/Veto/Abstain with turnout/quorum
+- **Report badges** — proposals with published reports (e.g. `report1.md`) show clickable green badges on overview cards
 - **RSS feed** — `/proposals/proposals/proposals.xml`
 - **Sitemap** — `/proposals/proposals/sitemap.xml`
 
@@ -53,12 +54,20 @@ Auto-synced from [gonka.vote](https://gonka.vote) every hour.
 
 ### Community (`/community/`)
 - **Roadmap** — three-horizon development strategy
-- **Calendar** — community events timeline
-- **Activity Feed** — live changelog of all synced content
+- **Calendar** — collapsible month timeline; past months collapsed by default, auto-generated events for proposal milestones and report uploads
+- **Activity Feed** — live changelog of all synced content (proposals, discussions, issues, docs, calendar) with AI-generated summaries and daily reminders
 - **GRC** — restitution committee (bug compensation) at `/community/gonka restitution committee/`
 - **GSC** — governance support committee at `/community/governance support committee/`
 - **GPC** — gonka product committee
 - **GTM** — go-to-market committee
+
+### Source Code Mirror (`/gonka-code/`)
+Auto-synced from [gonka-ai/gonka](https://github.com/gonka-ai/gonka) every hour.
+
+- **Raw source mirror** — full protocol source served verbatim under `/gonka-code/` (blob-less sparse clone, `cosmovisor/` binaries and `*_test.go` excluded)
+- **Code map** — `/gonka-code-map.txt` indexes every mirrored file for AI agents to locate code fast
+- **Design docs** — `proposals/` docs included
+- **On-chain bounties** — `inference-chain/app/upgrades/v0_2_*/upgrades.go` with `bountyRewards` arrays
 
 ---
 
@@ -71,7 +80,7 @@ Portal designed as a single source of truth for AI agents.
 | URL | Description |
 |-----|-------------|
 | [`/llms.txt`](https://gonkadocs.com/llms.txt) | AI entry point: project overview, section links, key concepts |
-| [`/llms-full.txt`](https://gonkadocs.com/llms-full.txt) | All docs in one file (~392 KB), optimized for context window |
+| [`/llms-full.txt`](https://gonkadocs.com/llms-full.txt) | All docs in one file (~2.6 MB), optimized for context window |
 | [`/robots.txt`](https://gonkadocs.com/robots.txt) | Permissions for AI crawlers (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, etc.) |
 | [`/openapi.yaml`](https://gonkadocs.com/openapi.yaml) | OpenAPI 3.0 specification for inference API |
 | [`/sitemap.xml`](https://gonkadocs.com/sitemap.xml) | Full sitemap (main + gonka/docs merged) |
@@ -79,6 +88,9 @@ Portal designed as a single source of truth for AI agents.
 | [`/search/search_index.json`](https://gonkadocs.com/search/search_index.json) | Lunr.js search index, queryable programmatically |
 | [`/proposals/proposals/proposals.xml`](https://gonkadocs.com/proposals/proposals/proposals.xml) | RSS feed for on-chain governance proposals |
 | [`/proposals/proposals/sitemap.xml`](https://gonkadocs.com/proposals/proposals/sitemap.xml) | Sitemap for governance proposals |
+| [`/gonka-code-map.txt`](https://gonkadocs.com/gonka-code-map.txt) | Index of the source code mirror (fetch first to locate files) |
+| [`/gonka-code/`](https://gonkadocs.com/gonka-code/) | Raw source code mirror of gonka-ai/gonka |
+| [`/community/calendar/events/`](https://gonkadocs.com/community/calendar/events/) | Machine-readable list of all calendar events |
 | [`/humans.txt`](https://gonkadocs.com/humans.txt) | Credits and team info |
 | [`/.well-known/security.txt`](https://gonkadocs.com/.well-known/security.txt) | Security policy for responsible disclosure |
 | [`/manifest.json`](https://gonkadocs.com/manifest.json) | PWA manifest |
@@ -121,8 +133,11 @@ Site consists of two independent MkDocs builds merged into `_site/`:
 ```
 buildtools/build.sh
     │
-    ├──► [0] generate-llms.py + generate-llms-full.py
-    │       Dynamic scanning of docs/ → llms.txt + llms-full.txt
+    ├──► [0] generate_calendar_events.py + generate-llms.py + generate-llms-full.py
+    │       Calendar events → events.md, then llms.txt + llms-full.txt
+    │
+    ├──► [0.5] generate-code-map.py
+    │       Scans gonka-code/ → docs/gonka-code-map.txt
     │
     ├──► [1] mkdocs build (main site)
     │       Homepage + Community + Proposals
@@ -146,8 +161,9 @@ buildtools/build.sh
     ├──► [6] Merge sitemaps
     │       Main + gonka/docs → unified sitemap.xml
     │
-    └──► [7] Copy service files
+    └──► [7] Copy service files + code mirror
             robots.txt, llms.txt, llms-full.txt, openapi.yaml → _site/
+            gonka-code/ → _site/gonka-code/ + generated index.html
 
 Additionally generated by sync scripts:
   - proposals/ proposals.xml + sitemap.xml (every 10 min)
@@ -159,7 +175,7 @@ Additionally generated by sync scripts:
 
 ## Auto-Sync
 
-6 GitHub Actions workflows automatically update content:
+8 GitHub Actions workflows automatically update content:
 
 | Workflow | Source | Syncs | Triggers Deploy |
 |----------|--------|-------|:---:|
@@ -168,6 +184,9 @@ Additionally generated by sync scripts:
 | `sync-discussions.yml` | gonka-ai/gonka (GraphQL) | GitHub Discussions | via push |
 | `sync-issues.yml` | gonka-ai/gonka (REST) | GitHub Issues | via push |
 | `sync-preproposals.yml` | gonka.vote (REST) | Pre-Proposals | via push |
+| `sync-gonka-code.yml` | gonka-ai/gonka | Source code mirror + code map (hourly) | via push |
+| `activity-calendar.yml` | calendar JSON files | Activity feed events + daily reminders (hourly) | via push |
+| `update-community-pool.yml` | rpc.gonka.gg (hourly) | Community pool balances + spend history | via API |
 
 Every sync triggers the `deploy-docs.yml` workflow, which regenerates `llms.txt` and `llms-full.txt` and deploys the updated site to GitHub Pages.
 
@@ -188,6 +207,19 @@ bash buildtools/serve.sh
 # Sync proposals (requires RPC access)
 python3 .github/scripts/sync_onchain_proposals.py
 
+# Sync source code mirror (requires network access)
+python3 buildtools/sync-gonka-code.py
+python3 buildtools/generate-code-map.py
+
+# Regenerate calendar events page
+python3 buildtools/generate_calendar_events.py
+
+# Update community pool data
+python3 buildtools/update-community-pool.py
+
+# Activity feed
+python3 buildtools/activity-feed.py detect --section calendar --dir docs/community/calendar --manifest .feed-manifests/calendar.json --events docs/community/activity/events.json
+
 # Regenerate AI files
 python3 buildtools/generate-llms.py
 python3 buildtools/generate-llms-full.py
@@ -206,9 +238,13 @@ gonkadocs/
 │   ├── generate-llms.py          # Generate llms.txt
 │   ├── generate-llms-full.py     # Generate llms-full.txt
 │   ├── generate-page-md.py       # Generate .html.md page copies
+│   ├── generate_calendar_events.py  # Generate community/calendar/events.md
 │   ├── mcp-server.py             # MCP server for AI agents
 │   ├── fetch-full-proposals.py   # Fetch full proposal text from GitHub
-│   ├── activity-feed.py          # Change detection + AI-summarized events
+│   ├── activity-feed.py          # Change detection + AI-summarized events + daily reminders
+│   ├── sync-gonka-code.py        # Filtered copy of gonka-ai/gonka → gonka-code/
+│   ├── generate-code-map.py      # Generate gonka-code-map.txt from the mirror
+│   ├── update-community-pool.py  # Update community pool balances + spend history
 │   └── gonka-overrides/          # Tabs + language switcher for Gonka sub-build
 ├── docs/
 │   ├── index.md                  # Homepage
@@ -216,6 +252,7 @@ gonkadocs/
 │   ├── agents.md                 # AI agent setup guide (served at /agents/)
 │   ├── llms.txt                  # AI entry point
 │   ├── llms-full.txt             # Full documentation
+│   ├── gonka-code-map.txt        # Source mirror index (generated)
 │   ├── robots.txt                # AI crawler permissions
 │   ├── openapi.yaml              # API specification
 │   ├── CNAME                     # Custom domain
@@ -228,7 +265,7 @@ gonkadocs/
 │   │   ├── home.html             # Landing page hero
 │   │   ├── 404.html              # Error page
 │   │   ├── activity-feed.html    # Activity timeline
-│   │   ├── calendar.html         # Event calendar grid
+│   │   ├── calendar.html         # Event calendar grid (collapsible months)
 │   │   ├── issues-main.html      # Issues with sidebar labels
 │   │   ├── proposals-main.html   # Pre-proposal detail
 │   │   ├── proposals-oview.html  # On-chain proposal overview with filters
@@ -263,8 +300,9 @@ gonkadocs/
 │   └── proposals/
 │       ├── proposals/            # On-chain proposals by quarter
 │       │   ├── index.md          # Overview with filters + summaries
-│       │   ├── proposals.xml     # RSS feed (85+ items)
+│       │   ├── proposals.xml     # RSS feed (90+ items)
 │       │   ├── sitemap.xml       # Proposals sitemap
+│       │   ├── community pool.md # Community pool balances + spend history
 │       │   ├── 2025-q3/         # Quarters with per-proposal subdirs
 │       │   ├── 2025-q4/
 │       │   ├── 2026-q1/
@@ -274,12 +312,14 @@ gonkadocs/
 │       │           ├── index.md          # Proposal detail page
 │       │           ├── messages.json     # Raw on-chain messages
 │       │           ├── voting_power.json # Total voting power snapshot
-│       │           └── full-proposal.md  # Full text (when available)
+│       │           ├── full-proposal.md  # Full text (when available)
+│       │           └── report*.md        # Published reports (rendered as pages)
 │       └── preproposals/         # Off-chain pre-proposals (synced)
 │           ├── index.md          # Active/Expired tables
 │           └── {uuid}/index.md   # Individual pre-proposal
 ├── hooks/                        # MkDocs build hooks (Python, auto-loaded)
 │   ├── full_proposal.py          # Inject full-proposal.md into detail pages
+│   ├── proposal_reports.py       # Inject published reports into proposal pages
 │   ├── issues_nav.py             # Auto-expand Issues/Discussions nav
 │   ├── proposals_nav.py          # Auto-expand Proposals nav
 │   └── calendar_manifest.py      # Generate manifest.json from calendar events
@@ -297,13 +337,17 @@ gonkadocs/
 │   │   ├── sync-onchain-proposals.yml# Every 10 min: sync proposals
 │   │   ├── sync-discussions.yml      # Hourly: sync discussions
 │   │   ├── sync-issues.yml           # Hourly: sync issues
-│   │   └── sync-preproposals.yml     # Hourly: sync pre-proposals
+│   │   ├── sync-preproposals.yml     # Hourly: sync pre-proposals
+│   │   ├── sync-gonka-code.yml       # Hourly: sync source code mirror
+│   │   ├── activity-calendar.yml     # Hourly: activity feed + daily reminders
+│   │   └── update-community-pool.yml # Hourly: community pool balances + spend history
 │   └── scripts/
 │       ├── sync_onchain_proposals.py # Fetch proposals from rpc.gonka.gg
 │       ├── sync_preproposals.py      # Fetch pre-proposals from gonka.vote
 │       ├── sync_all_discussions.py   # Fetch discussions via GraphQL
 │       └── sync_gonka_issues.py      # Fetch issues via GitHub REST API
-└── .feed-manifests/              # Change detection state for activity feed
+├── .feed-manifests/              # Change detection state for activity feed
+└── gonka-code/                   # Source code mirror (synced, DO NOT MODIFY)
 ```
 
 ---
