@@ -145,6 +145,15 @@
   display: contents;
 }
 
+.cal-month--collapsed .cal-today-label,
+.cal-month--collapsed .cal-today-marker,
+.cal-month--collapsed .cal-today-content,
+.cal-month--collapsed .cal-day-label,
+.cal-month--collapsed .cal-day-marker,
+.cal-month--collapsed .cal-day-content {
+  display: none;
+}
+
 .cal-month-label {
   grid-column: 1;
   font-size: 0.78rem;
@@ -155,6 +164,23 @@
   padding: 1rem 0 0.15rem 0;
   text-align: right;
   line-height: 1.2;
+  cursor: pointer;
+  user-select: none;
+  transition: opacity 0.15s;
+}
+
+.cal-month-label:hover { opacity: 0.65; }
+
+.cal-month-arrow {
+  font-size: 0.7rem;
+  display: inline-block;
+  transition: transform 0.2s;
+  vertical-align: middle;
+  margin-left: 0.2rem;
+}
+
+.cal-month--collapsed .cal-month-arrow {
+  transform: rotate(-90deg);
 }
 
 .cal-month-marker {

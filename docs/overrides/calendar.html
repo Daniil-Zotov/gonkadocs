@@ -212,7 +212,7 @@
         html += '<div class="cal-month" data-month="' + monthKey + '">';
 
         // Month header row
-        html += '<div class="cal-month-label">' + monthName + '</div>';
+        html += '<div class="cal-month-label">' + monthName + ' <span class="cal-month-arrow">&#9660;</span></div>';
         html += '<div class="cal-month-marker"><div class="cal-month-node"></div></div>';
         html += '<div class="cal-month-content"></div>';
 
@@ -258,6 +258,19 @@
         var q = this.closest('.cal-quarter');
         if (q) q.classList.toggle('cal-quarter--collapsed');
       });
+    });
+
+    // Month collapse: click on the month label; collapse all past months by default
+    TL.querySelectorAll('.cal-month').forEach(function(month) {
+      var monthKey = month.getAttribute('data-month');
+      var isPastMonth = monthKey < today.iso.slice(0, 7);
+      if (isPastMonth) month.classList.add('cal-month--collapsed');
+      var label = month.querySelector('.cal-month-label');
+      if (label) {
+        label.addEventListener('click', function() {
+          month.classList.toggle('cal-month--collapsed');
+        });
+      }
     });
 
     // Scroll to today
