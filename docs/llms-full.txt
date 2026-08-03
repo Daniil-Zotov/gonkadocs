@@ -18701,7 +18701,7 @@ USDT bounties are paid from the **Community Sale contract** via `withdraw_ibc`. 
 
 Финальный этап: подготовленное предложение подаётся **на блокчейн**, где по нему голосуют **хосты** — ключевые участники сети. Это самое ответственное решение, поэтому корректная подготовка пропозала критична: ошибки в параметрах, формате или исполняемых сообщениях могут привести к отклонению или техническим проблемам при исполнении.
 
-Техническую инструкцию по созданию и подаче on-chain пропозала (сборка транзакции через `inferenced`, депозит, голосование) смотрите в гайде сообщества: **[HOW-TO: Create and Submit a Governance Proposal on Gonka](/community/discussion/show-and-tell/1116-how-to-create-and-submit-a-governance-proposal-on-gonka/)** — это пошаговое руководство от @paranjko, уже проверенное на нескольких успешных пропозалах. Более формальное описание процесса также доступно в официальной документации: [Transactions & Governance](/gonka/docs/transactions-and-governance/).
+Техническую инструкцию по созданию и подаче on-chain пропозала (сборка транзакции через `inferenced`, депозит, голосование) смотрите в гайде сообщества: **[HOW-TO: Create and Submit a Governance Proposal on Gonka](/community/discussion/show-and-tell/1116-how-to-create-and-submit-a-governance-proposal-on-gonka/)** — это пошаговое руководство от @paranjko, уже проверенное на нескольких успешных пропозалах. Более формальное описание процесса также доступно в официальной документации: [Transactions & Governance](/gonka/docs/governance/transactions-and-governance/).
 
 Именно **правильно подготовленное предложение** — самый важный шаг всего процесса, поскольку от качества подготовки зависит как прохождение голосования хостами, так и последующее исполнение и отчётность.
 
@@ -26780,7 +26780,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-92 proposals across 5 quarters. Last updated: 2026-08-03 14:20 UTC
+92 proposals across 5 quarters. Last updated: 2026-08-03 14:30 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
