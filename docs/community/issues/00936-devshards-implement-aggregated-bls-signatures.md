@@ -2,7 +2,7 @@
 title: "#936 — `devshards`: Implement aggregated BLS signatures"
 source: https://github.com/gonka-ai/gonka/issues/936
 issue_number: 936
-synced_at: 2026-08-02T23:16:55Z
+synced_at: 2026-08-03T00:16:29Z
 template: issues-main.html
 ---
 
