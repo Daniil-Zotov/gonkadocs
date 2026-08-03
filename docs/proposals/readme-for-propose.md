@@ -1,6 +1,6 @@
 В экосистеме Gonka существует **три вида пропозалов**, и важно понимать разницу между ними и роль каждого в жизненном цикле идеи — от обсуждения до исполнения:
 
-### 1. Off-chain пропозал — GitHub Discussions (`/community/discussion/proposals/`)
+### 1. Off-chain пропозал — GitHub Discussions ([`/community/discussion/proposals/`](/community/discussion/proposals/))
 
 Пропозал публикуется как [обсуждение в репозитории gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions) в категории **Proposals** — это самый ранний этап оформления идеи. Здесь выкладываются:
 
