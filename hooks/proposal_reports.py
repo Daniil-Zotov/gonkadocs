@@ -58,7 +58,7 @@ def _build_report_block(content: str, rel_path: str) -> str:
     return (
         f"<details class=\"prop-contracts\" markdown=\"1\">\n"
         f"<summary markdown=\"1\"><strong>{title}</strong> · "
-        f"<a href=\"{rel_path.replace('.md', '/')}\">Открыть отдельной страницей</a></summary>\n\n"
+        f"<a href=\"{rel_path.replace('.md', '/')}\">Open as separate page</a></summary>\n\n"
         f"{safe_body}\n\n"
         f"</details>\n"
     )
@@ -97,7 +97,7 @@ def on_page_markdown(markdown: str, page=None, config=None, **kwargs):
         return markdown
 
     section = (
-        "\n\n---\n\n## Отчёты\n\n<!-- reports-injected -->\n\n" +
+        "\n\n---\n\n## Reports\n\n<!-- reports-injected -->\n\n" +
         "\n".join(blocks) +
         "\n"
     )

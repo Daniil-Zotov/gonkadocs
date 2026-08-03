@@ -6,7 +6,7 @@
 
 {% block content %}
 <div class="af-wrap">
-  <p class="af-lead">Последние изменения в документации, пропозалах, дискуссиях и ишью.</p>
+  <p class="af-lead">Recent changes in documentation, proposals, discussions and issues.</p>
 
   <div class="af-filters" id="af-filters">
     <label class="af-filter-cb">
@@ -37,8 +37,8 @@
   </div>
 
   <div class="af-timeline" id="af-timeline"></div>
-  <div class="af-loading" id="af-loading">Загрузка…</div>
-  <div class="af-empty" id="af-empty" style="display:none">Нет событий по выбранным фильтрам.</div>
+  <div class="af-loading" id="af-loading">Loading…</div>
+  <div class="af-empty" id="af-empty" style="display:none">No events match the selected filters.</div>
 </div>
 
 <script>
@@ -55,15 +55,15 @@
       var d = new Date(iso);
       var now = new Date();
       var diff = now - d;
-      if (diff < 0) return 'только что';
+      if (diff < 0) return 'just now';
       var mins = Math.floor(diff / 60000);
       var hrs = Math.floor(diff / 3600000);
       var days = Math.floor(diff / 86400000);
-      if (mins < 1) return 'только что';
-      if (mins < 60) return mins + ' мин. назад';
-      if (hrs < 24) return hrs + ' ч. назад';
-      if (days < 7) return days + ' дн. назад';
-      return d.toLocaleDateString('ru-RU', { day: 'numeric', month: 'long', year: 'numeric' });
+      if (mins < 1) return 'just now';
+      if (mins < 60) return mins + ' min ago';
+      if (hrs < 24) return hrs + ' h ago';
+      if (days < 7) return days + ' d ago';
+      return d.toLocaleDateString('en-US', { day: 'numeric', month: 'long', year: 'numeric' });
     } catch(e) { return iso; }
   }
 
@@ -73,21 +73,21 @@
       var now = new Date();
       var diff = now - d;
       var days = Math.floor(diff / 86400000);
-      if (days === 0) return 'Сегодня';
-      if (days === 1) return 'Вчера';
-      if (days < 7) return days + ' дн. назад';
-      return d.toLocaleDateString('ru-RU', { day: 'numeric', month: 'long', year: 'numeric' });
+      if (days === 0) return 'Today';
+      if (days === 1) return 'Yesterday';
+      if (days < 7) return days + ' d ago';
+      return d.toLocaleDateString('en-US', { day: 'numeric', month: 'long', year: 'numeric' });
     } catch(e) { return iso; }
   }
 
   function actionLabel(action) {
     return {
-      'new': 'Добавлено',
-      'deleted': 'Удалено',
-      'updated': 'Обновлено',
-      'status_changed': 'Статус изменён',
-      'quorum_reached': 'Кворум достигнут',
-      'daily_reminder': 'Сегодня'
+      'new': 'Added',
+      'deleted': 'Deleted',
+      'updated': 'Updated',
+      'status_changed': 'Status changed',
+      'quorum_reached': 'Quorum reached',
+      'daily_reminder': 'Today'
     }[action] || action;
   }
 
@@ -231,15 +231,15 @@
           window._afEvents = JSON.parse(xhr.responseText);
           render();
         } catch(e) {
-          TL.innerHTML = '<div class="af-error">Ошибка: ' + e.message + '</div>';
+          TL.innerHTML = '<div class="af-error">Error: ' + e.message + '</div>';
         }
       } else {
-        TL.innerHTML = '<div class="af-error">Ошибка загрузки: ' + xhr.statusText + '</div>';
+        TL.innerHTML = '<div class="af-error">Failed to load: ' + xhr.statusText + '</div>';
       }
     };
     xhr.onerror = function() {
       LOADING.style.display = 'none';
-      TL.innerHTML = '<div class="af-error">Не удалось загрузить ленту.</div>';
+      TL.innerHTML = '<div class="af-error">Could not load the feed.</div>';
     };
     xhr.send();
   }

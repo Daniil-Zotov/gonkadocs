@@ -725,7 +725,7 @@ def cmd_daily_reminder(args):
         'section': 'calendar',
         'action': 'daily_reminder',
         'item': {
-            'title': f"Сегодня {len(today_items)} событий — {', '.join(t.get('title', '') for t in today_items[:3])}{'…' if len(today_items) > 3 else ''}",
+            'title': f"Today: {len(today_items)} events — {', '.join(t.get('title', '') for t in today_items[:3])}{'…' if len(today_items) > 3 else ''}",
             'url': '/community/calendar/',
             'file': None,
         },

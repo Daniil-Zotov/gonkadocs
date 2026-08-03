@@ -1,6 +1,6 @@
 site_name: 'Gonka Docs — Gonka.ai & community documentations'
 site_url: https://gonkadocs.com/
-site_description: "Документация Gonka.ai: архитектура децентрализованного AI-инференса, запуск нод, интеграция API, кошелёк, управление сообществом и голосование за предложения."
+site_description: "Gonka.ai documentation: decentralized AI inference architecture, running nodes, API integration, wallet, community governance and proposal voting."
 repo_url: https://github.com/Daniil-Zotov/gonkadocs
 repo_name: Daniil-Zotov/gonkadocs
 edit_uri: edit/main/docs/
@@ -33,7 +33,7 @@ not_in_nav: |
 nav:
   - Gonka.ai/docs: "/gonka/docs/"
   - Community:
-    - Обзор: community/README.md
+    - Overview: community/README.md
     - Roadmap: 
       - Overview: community/roadmap/README.md
     - "Governance Support Committee": 
@@ -200,14 +200,14 @@ theme:
       accent: blue
       toggle:
         icon: octicons/moon-16
-        name: Тёмная тема
+        name: Switch to dark theme
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: black
       accent: blue
       toggle:
         icon: octicons/sun-16
-        name: Светлая тема
+        name: Switch to light theme
   icon:
     repo: fontawesome/brands/github
     edit: octicons/pencil-16
