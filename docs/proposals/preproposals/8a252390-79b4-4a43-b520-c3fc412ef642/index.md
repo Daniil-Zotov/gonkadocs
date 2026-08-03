@@ -65,7 +65,7 @@ Email: morgachev.g@gmail.com
 
 ---
 
-## Comments (3)
+## Comments (4)
 
 ### 💬 Даниил Зотов
 *2026-07-31 18:55* · 👍 0 · 👎 0
@@ -111,6 +111,33 @@ https://telegram.me/gonka_proposals
 будет ли открытость в разработке - будет ли доступен роадмап и дашборд этой команды? прозрачности работы core team и внешних участников очень не хватает.
 кто будет оплачивать инфраструктуру, необходимую для тестирования и разработки?
 будут ли дублирующие баунти реварды этой команде при апдейтах?
+
+---
+
+### 💬 Даниил Зотов
+*2026-08-03 20:23* · 👍 0 · 👎 0
+
+AMA with Gleb Morgachev, Gonka co-creator: Dev Team Funding proposal
+
+🕣 Tuesday, Aug. 4
+8:30am PDT · 3:30pm UTC · 11:30pm CST
+
+Gleb Morgachev 
+@gmorgachev
+ will hold an AMA session where he'll cover the upcoming proposal dedicated to funding of an independent dev team.
+
+Key topics:
+- What tasks the funding is being requested for
+- How the independent development team will be structured
+- Funding mechanics
+- Expense transparency, reporting, and Gleb’s role in the initiative
+- Other questions
+
+💻 Zoom: the link will be published before the session starts
+🗣️ Language: English
+📄 Proposal: https://github.com/gonka-ai/gonka/discussions/1464
+
+See you next week!
 
 ---
 
