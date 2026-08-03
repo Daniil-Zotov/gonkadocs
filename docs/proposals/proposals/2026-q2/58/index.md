@@ -70,10 +70,10 @@ This is a full-scale analytical deep-dive that builds genuine trust rather than 
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes 98,018 (53.4%)</span>
-    <span class="prop-tally-no-text">No 0 (0.0%)</span>
-    <span class="prop-tally-veto-text">Veto 85,697 (46.6%)</span>
-    <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span>
+    <span class="prop-tally-yes-text">Yes <strong>53.4%</strong> (98,018)</span>
+    <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
+    <span class="prop-tally-veto-text">Veto <strong>46.6%</strong> (85,697)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-total-text">Total 183,715 votes</span>
     
   </div>

@@ -613,7 +613,7 @@ def generate_proposal_page(proposal, prop_dir, total_voting_power=0):
             quorum_needed = int(total_voting_power * QUORUM)
             quorum_met = total_votes >= quorum_needed
             _turnout_cls = "prop-tally-yes-text" if quorum_met else "prop-tally-veto-text"
-            _turnout_line = f'<span class="{_turnout_cls}">{"✓" if quorum_met else "✗"} Turnout {total_votes:,} / {total_voting_power:,} ({turnout_pct:.1f}%) · Quorum {QUORUM*100:.0f}% ({quorum_needed:,})</span>'
+            _turnout_line = f'<span class="{_turnout_cls}">{"✓" if quorum_met else "✗"} Turnout <strong>{turnout_pct:.1f}%</strong> ({total_votes:,} / {total_voting_power:,}) · Quorum <strong>{QUORUM*100:.0f}%</strong> ({quorum_needed:,})</span>'
         tally_html = f"""
 <div class="prop-tally">
   <div class="prop-tally-bar">
@@ -623,10 +623,10 @@ def generate_proposal_page(proposal, prop_dir, total_voting_power=0):
     <div class="prop-tally-abstain" style="width:{bar_pct(abstain_count)}"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes {yes_count:,} ({stat_pct(yes_count)})</span>
-    <span class="prop-tally-no-text">No {no_count:,} ({stat_pct(no_count)})</span>
-    <span class="prop-tally-veto-text">Veto {no_with_veto_count:,} ({stat_pct(no_with_veto_count)})</span>
-    <span class="prop-tally-abstain-text">Abstain {abstain_count:,} ({stat_pct(abstain_count)})</span>
+    <span class="prop-tally-yes-text">Yes <strong>{stat_pct(yes_count)}</strong> ({yes_count:,})</span>
+    <span class="prop-tally-no-text">No <strong>{stat_pct(no_count)}</strong> ({no_count:,})</span>
+    <span class="prop-tally-veto-text">Veto <strong>{stat_pct(no_with_veto_count)}</strong> ({no_with_veto_count:,})</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>{stat_pct(abstain_count)}</strong> ({abstain_count:,})</span>
     <span class="prop-tally-total-text">Total {total_votes:,} votes</span>
     {_turnout_line}
   </div>
@@ -929,8 +929,8 @@ hide:
                 veto_c = int(tally.get("no_with_veto_count", 0))
                 abstain_c = int(tally.get("abstain_count", 0))
                 total_t = yes_c + no_c + veto_c + abstain_c
-                _pct = lambda v: f"({v / total_t * 100:.1f}%)" if total_t > 0 else "(0.0%)"
-                _tally_line = f'<span class="prop-tally-yes-text">Yes {yes_c:,} {_pct(yes_c)}</span> · <span class="prop-tally-no-text">No {no_c:,} {_pct(no_c)}</span> · <span class="prop-tally-veto-text">Veto {veto_c:,} {_pct(veto_c)}</span> · <span class="prop-tally-abstain-text">Abstain {abstain_c:,} {_pct(abstain_c)}</span>'
+                _pct = lambda v: f"{v / total_t * 100:.1f}%" if total_t > 0 else "0.0%"
+                _tally_line = f'<span class="prop-tally-yes-text">Yes <strong>{_pct(yes_c)}</strong> ({yes_c:,})</span> · <span class="prop-tally-no-text">No <strong>{_pct(no_c)}</strong> ({no_c:,})</span> · <span class="prop-tally-veto-text">Veto <strong>{_pct(veto_c)}</strong> ({veto_c:,})</span> · <span class="prop-tally-abstain-text">Abstain <strong>{_pct(abstain_c)}</strong> ({abstain_c:,})</span>'
 
                 _vp = proposal_voting_power.get(pid, 0)
                 _turnout_line = ""
@@ -939,7 +939,7 @@ hide:
                     _quorum_needed = int(_vp * QUORUM)
                     _quorum_met = total_t >= _quorum_needed
                     _turnout_cls = "prop-tally-yes-text" if _quorum_met else "prop-tally-veto-text"
-                    _turnout_line = f'<span class="{_turnout_cls}">{"✓" if _quorum_met else "✗"} Turnout {total_t:,} / {_vp:,} ({_turnout_pct:.1f}%) · Quorum {QUORUM*100:.0f}% ({_quorum_needed:,})</span>'
+                    _turnout_line = f'<span class="{_turnout_cls}">{"✓" if _quorum_met else "✗"} Turnout <strong>{_turnout_pct:.1f}%</strong> ({total_t:,} / {_vp:,}) · Quorum <strong>{QUORUM*100:.0f}%</strong> ({_quorum_needed:,})</span>'
 
                 _funding_html = ""
                 _amt_by_source = parse_amounts_by_source(p.get("messages", []))
@@ -1144,8 +1144,8 @@ hide:
             veto_c = int(tally.get("no_with_veto_count", 0))
             abstain_c = int(tally.get("abstain_count", 0))
             total_t = yes_c + no_c + veto_c + abstain_c
-            _pct = lambda v: f"({v / total_t * 100:.1f}%)" if total_t > 0 else "(0.0%)"
-            _tally_line = f'<span class="prop-tally-yes-text">Yes {yes_c:,} {_pct(yes_c)}</span> · <span class="prop-tally-no-text">No {no_c:,} {_pct(no_c)}</span> · <span class="prop-tally-veto-text">Veto {veto_c:,} {_pct(veto_c)}</span> · <span class="prop-tally-abstain-text">Abstain {abstain_c:,} {_pct(abstain_c)}</span>'
+            _pct = lambda v: f"{v / total_t * 100:.1f}%" if total_t > 0 else "0.0%"
+            _tally_line = f'<span class="prop-tally-yes-text">Yes <strong>{_pct(yes_c)}</strong> ({yes_c:,})</span> · <span class="prop-tally-no-text">No <strong>{_pct(no_c)}</strong> ({no_c:,})</span> · <span class="prop-tally-veto-text">Veto <strong>{_pct(veto_c)}</strong> ({veto_c:,})</span> · <span class="prop-tally-abstain-text">Abstain <strong>{_pct(abstain_c)}</strong> ({abstain_c:,})</span>'
 
             _vp = proposal_voting_power.get(pid, 0)
             _turnout_line = ""
@@ -1154,7 +1154,7 @@ hide:
                 _quorum_needed = int(_vp * QUORUM)
                 _quorum_met = total_t >= _quorum_needed
                 _turnout_cls = "prop-tally-yes-text" if _quorum_met else "prop-tally-veto-text"
-                _turnout_line = f'<span class="{_turnout_cls}">{"✓" if _quorum_met else "✗"} Turnout {total_t:,} / {_vp:,} ({_turnout_pct:.1f}%) · Quorum {QUORUM*100:.0f}% ({_quorum_needed:,})</span>'
+                _turnout_line = f'<span class="{_turnout_cls}">{"✓" if _quorum_met else "✗"} Turnout <strong>{_turnout_pct:.1f}%</strong> ({total_t:,} / {_vp:,}) · Quorum <strong>{QUORUM*100:.0f}%</strong> ({_quorum_needed:,})</span>'
 
             _funding_html = ""
             _amt_by_source = parse_amounts_by_source(p.get("messages", []))

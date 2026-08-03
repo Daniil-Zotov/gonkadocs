@@ -46,10 +46,10 @@ Retroactive 20K GNK bounty for an open-sourced PoC optimization measuring +10.2%
     <div class="prop-tally-abstain" style="width:18.8%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes 70,819 (33.6%)</span>
-    <span class="prop-tally-no-text">No 0 (0.0%)</span>
-    <span class="prop-tally-veto-text">Veto 0 (0.0%)</span>
-    <span class="prop-tally-abstain-text">Abstain 139,828 (66.4%)</span>
+    <span class="prop-tally-yes-text">Yes <strong>33.6%</strong> (70,819)</span>
+    <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
+    <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>66.4%</strong> (139,828)</span>
     <span class="prop-tally-total-text">Total 210,647 votes</span>
     
   </div>

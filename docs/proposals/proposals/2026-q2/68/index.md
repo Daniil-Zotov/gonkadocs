@@ -60,10 +60,10 @@ Full proposal: <https://vote.gonka.vip/tenders/550f71de-897f-4ce5-8af8-97854775f
     <div class="prop-tally-abstain" style="width:0.3%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes 260,353 (96.4%)</span>
-    <span class="prop-tally-no-text">No 749 (0.3%)</span>
-    <span class="prop-tally-veto-text">Veto 6,288 (2.3%)</span>
-    <span class="prop-tally-abstain-text">Abstain 2,546 (0.9%)</span>
+    <span class="prop-tally-yes-text">Yes <strong>96.4%</strong> (260,353)</span>
+    <span class="prop-tally-no-text">No <strong>0.3%</strong> (749)</span>
+    <span class="prop-tally-veto-text">Veto <strong>2.3%</strong> (6,288)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>0.9%</strong> (2,546)</span>
     <span class="prop-tally-total-text">Total 269,936 votes</span>
     
   </div>

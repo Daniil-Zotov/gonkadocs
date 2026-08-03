@@ -43,12 +43,12 @@ Set max_signing_attempts to 1 and signing_deadline_blocks to 60 epoch lengths (9
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes 243,165 (100.0%)</span>
-    <span class="prop-tally-no-text">No 0 (0.0%)</span>
-    <span class="prop-tally-veto-text">Veto 0 (0.0%)</span>
-    <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span>
+    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (243,165)</span>
+    <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
+    <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-total-text">Total 243,165 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout 243,165 / 569,511 (42.7%) · Quorum 25% (142,377)</span>
+    <span class="prop-tally-yes-text">✓ Turnout <strong>42.7%</strong> (243,165 / 569,511) · Quorum <strong>25%</strong> (142,377)</span>
   </div>
 </div>
 

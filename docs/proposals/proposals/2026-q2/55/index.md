@@ -44,10 +44,10 @@ Distribute restitution for Cases 2, 3, and 4 across epochs 248-254. Case 2: pres
     <div class="prop-tally-abstain" style="width:16.2%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes 188,670 (61.2%)</span>
-    <span class="prop-tally-no-text">No 0 (0.0%)</span>
-    <span class="prop-tally-veto-text">Veto 0 (0.0%)</span>
-    <span class="prop-tally-abstain-text">Abstain 119,835 (38.8%)</span>
+    <span class="prop-tally-yes-text">Yes <strong>61.2%</strong> (188,670)</span>
+    <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
+    <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>38.8%</strong> (119,835)</span>
     <span class="prop-tally-total-text">Total 308,505 votes</span>
     
   </div>

@@ -45,10 +45,10 @@ Remove TransferAgent allowlist restrictions (empty list = all TAs allowed) and i
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes 7,314 (2.9%)</span>
-    <span class="prop-tally-no-text">No 0 (0.0%)</span>
-    <span class="prop-tally-veto-text">Veto 243,060 (97.1%)</span>
-    <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span>
+    <span class="prop-tally-yes-text">Yes <strong>2.9%</strong> (7,314)</span>
+    <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
+    <span class="prop-tally-veto-text">Veto <strong>97.1%</strong> (243,060)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-total-text">Total 250,374 votes</span>
     
   </div>

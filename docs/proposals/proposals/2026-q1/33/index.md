@@ -44,10 +44,10 @@ Distribute compensation for CPoC bug affected participants in epochs 132-133.
     <div class="prop-tally-abstain" style="width:34.5%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes 184,243 (41.8%)</span>
-    <span class="prop-tally-no-text">No 0 (0.0%)</span>
-    <span class="prop-tally-veto-text">Veto 0 (0.0%)</span>
-    <span class="prop-tally-abstain-text">Abstain 256,296 (58.2%)</span>
+    <span class="prop-tally-yes-text">Yes <strong>41.8%</strong> (184,243)</span>
+    <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
+    <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>58.2%</strong> (256,296)</span>
     <span class="prop-tally-total-text">Total 440,539 votes</span>
     
   </div>

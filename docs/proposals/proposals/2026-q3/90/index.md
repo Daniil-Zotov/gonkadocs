@@ -98,12 +98,12 @@ Governance may cancel the initiative at any time, in which case all remaining pa
     <div class="prop-tally-abstain" style="width:0.4%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes 190,646 (57.3%)</span>
-    <span class="prop-tally-no-text">No 6,269 (1.9%)</span>
-    <span class="prop-tally-veto-text">Veto 133,354 (40.1%)</span>
-    <span class="prop-tally-abstain-text">Abstain 2,324 (0.7%)</span>
+    <span class="prop-tally-yes-text">Yes <strong>57.3%</strong> (190,646)</span>
+    <span class="prop-tally-no-text">No <strong>1.9%</strong> (6,269)</span>
+    <span class="prop-tally-veto-text">Veto <strong>40.1%</strong> (133,354)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>0.7%</strong> (2,324)</span>
     <span class="prop-tally-total-text">Total 332,593 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout 332,593 / 569,511 (58.4%) · Quorum 25% (142,377)</span>
+    <span class="prop-tally-yes-text">✓ Turnout <strong>58.4%</strong> (332,593 / 569,511) · Quorum <strong>25%</strong> (142,377)</span>
   </div>
 </div>
 

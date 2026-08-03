@@ -64,10 +64,10 @@ Full presentation:
     <div class="prop-tally-abstain" style="width:1.9%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes 9,150 (25.5%)</span>
-    <span class="prop-tally-no-text">No 10,325 (28.8%)</span>
-    <span class="prop-tally-veto-text">Veto 2,450 (6.8%)</span>
-    <span class="prop-tally-abstain-text">Abstain 13,939 (38.9%)</span>
+    <span class="prop-tally-yes-text">Yes <strong>25.5%</strong> (9,150)</span>
+    <span class="prop-tally-no-text">No <strong>28.8%</strong> (10,325)</span>
+    <span class="prop-tally-veto-text">Veto <strong>6.8%</strong> (2,450)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>38.9%</strong> (13,939)</span>
     <span class="prop-tally-total-text">Total 35,864 votes</span>
     
   </div>

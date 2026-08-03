@@ -42,10 +42,10 @@ Sale GNK from Community Fund
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes 1,180,961 (98.8%)</span>
-    <span class="prop-tally-no-text">No 9,781 (0.8%)</span>
-    <span class="prop-tally-veto-text">Veto 4,577 (0.4%)</span>
-    <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span>
+    <span class="prop-tally-yes-text">Yes <strong>98.8%</strong> (1,180,961)</span>
+    <span class="prop-tally-no-text">No <strong>0.8%</strong> (9,781)</span>
+    <span class="prop-tally-veto-text">Veto <strong>0.4%</strong> (4,577)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-total-text">Total 1,195,319 votes</span>
     
   </div>

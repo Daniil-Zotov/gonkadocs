@@ -50,10 +50,10 @@ Notes. The proposer takes no fee — every ngonka returns to the miners. Hamilto
     <div class="prop-tally-abstain" style="width:23.3%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes 97,030 (36.0%)</span>
-    <span class="prop-tally-no-text">No 0 (0.0%)</span>
-    <span class="prop-tally-veto-text">Veto 0 (0.0%)</span>
-    <span class="prop-tally-abstain-text">Abstain 172,837 (64.0%)</span>
+    <span class="prop-tally-yes-text">Yes <strong>36.0%</strong> (97,030)</span>
+    <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
+    <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>64.0%</strong> (172,837)</span>
     <span class="prop-tally-total-text">Total 269,867 votes</span>
     
   </div>

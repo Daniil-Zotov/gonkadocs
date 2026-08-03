@@ -60,10 +60,10 @@ Full proposal: <https://gonkalabs.com/proposal>
     <div class="prop-tally-abstain" style="width:10.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes 305,163 (79.6%)</span>
-    <span class="prop-tally-no-text">No 3,791 (1.0%)</span>
-    <span class="prop-tally-veto-text">Veto 15 (0.0%)</span>
-    <span class="prop-tally-abstain-text">Abstain 74,304 (19.4%)</span>
+    <span class="prop-tally-yes-text">Yes <strong>79.6%</strong> (305,163)</span>
+    <span class="prop-tally-no-text">No <strong>1.0%</strong> (3,791)</span>
+    <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (15)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>19.4%</strong> (74,304)</span>
     <span class="prop-tally-total-text">Total 383,273 votes</span>
     
   </div>

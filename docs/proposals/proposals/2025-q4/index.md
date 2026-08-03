@@ -65,7 +65,7 @@ hide:
     <span>Voting ends 2025-12-26</span>
   </div>
   <div class="prop-card-desc">Expected amount of Confirmation PoC per epoch to 4, p0 for binomial test to 0.1</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 3,261,413 (100.0%)</span> · <span class="prop-tally-no-text">No 85 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (3,261,413)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (85)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -78,7 +78,7 @@ hide:
     <span>Voting ends 2025-12-20</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.6</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 1,985,917 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-bounty">30,000 GNK · Bounty Reward</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (1,985,917)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-bounty">30,000 GNK · Bounty Reward</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -91,7 +91,7 @@ hide:
     <span>Voting ends 2025-12-17</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.6</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 1,034,445 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-bounty prop-card-bounty-rejected">30,000 GNK · Bounty Reward</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (1,034,445)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-bounty prop-card-bounty-rejected">30,000 GNK · Bounty Reward</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -104,7 +104,7 @@ hide:
     <span>Voting ends 2025-11-27</span>
   </div>
   <div class="prop-card-desc">Sale GNK from Community Fund</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 1,180,961 (98.8%)</span> · <span class="prop-tally-no-text">No 9,781 (0.8%)</span> · <span class="prop-tally-veto-text">Veto 4,577 (0.4%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span><span class="prop-card-funding">20,000,000 GNK · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>98.8%</strong> (1,180,961)</span> · <span class="prop-tally-no-text">No <strong>0.8%</strong> (9,781)</span> · <span class="prop-tally-veto-text">Veto <strong>0.4%</strong> (4,577)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding">20,000,000 GNK · Community Pool</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -117,7 +117,7 @@ hide:
     <span>Voting ends 2025-11-22</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.5</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 428,459 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (428,459)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -130,7 +130,7 @@ hide:
     <span>Voting ends 2025-11-13</span>
   </div>
   <div class="prop-card-desc">Bandwidth Limits</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 257,565 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (257,565)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -143,7 +143,7 @@ hide:
     <span>Voting ends 2025-11-12</span>
   </div>
   <div class="prop-card-desc">Bandwidth Limits</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 349,596 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (349,596)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -156,7 +156,7 @@ hide:
     <span>Voting ends 2025-11-12</span>
   </div>
   <div class="prop-card-desc">Bandwidth Limits</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 287,496 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (287,496)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -169,7 +169,7 @@ hide:
     <span>Voting ends 2025-11-11</span>
   </div>
   <div class="prop-card-desc">Higher Bandwidth Limits & Voting Time Back to 24H</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 394,887 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (394,887)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -182,7 +182,7 @@ hide:
     <span>Voting ends 2025-10-22</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.4</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 286,826 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (286,826)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -195,7 +195,7 @@ hide:
     <span>Voting ends 2025-10-03</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.3</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes 132,672 (100.0%)</span> · <span class="prop-tally-no-text">No 0 (0.0%)</span> · <span class="prop-tally-veto-text">Veto 0 (0.0%)</span> · <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (132,672)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
 </div>
 
 </div>

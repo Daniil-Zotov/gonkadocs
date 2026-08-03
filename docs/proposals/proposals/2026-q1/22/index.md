@@ -41,10 +41,10 @@ Update Expiration Dates for Developer Access and Participant Allowlist
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes 3,476,742 (99.9%)</span>
-    <span class="prop-tally-no-text">No 2,836 (0.1%)</span>
-    <span class="prop-tally-veto-text">Veto 0 (0.0%)</span>
-    <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span>
+    <span class="prop-tally-yes-text">Yes <strong>99.9%</strong> (3,476,742)</span>
+    <span class="prop-tally-no-text">No <strong>0.1%</strong> (2,836)</span>
+    <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-total-text">Total 3,479,578 votes</span>
     
   </div>

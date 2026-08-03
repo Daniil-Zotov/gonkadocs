@@ -83,10 +83,10 @@ Live walkthrough on YouTube (by Gonka.Top@Mitch): <https://www.youtube.com/watch
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes 31,851 (58.6%)</span>
-    <span class="prop-tally-no-text">No 9,566 (17.6%)</span>
-    <span class="prop-tally-veto-text">Veto 12,961 (23.8%)</span>
-    <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span>
+    <span class="prop-tally-yes-text">Yes <strong>58.6%</strong> (31,851)</span>
+    <span class="prop-tally-no-text">No <strong>17.6%</strong> (9,566)</span>
+    <span class="prop-tally-veto-text">Veto <strong>23.8%</strong> (12,961)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-total-text">Total 54,378 votes</span>
     
   </div>

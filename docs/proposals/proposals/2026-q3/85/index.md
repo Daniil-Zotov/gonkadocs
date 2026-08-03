@@ -56,12 +56,12 @@ Governance holds an option to cancel the initiative and returns all remaining fu
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes 41,668 (73.5%)</span>
-    <span class="prop-tally-no-text">No 8 (0.0%)</span>
-    <span class="prop-tally-veto-text">Veto 14,932 (26.4%)</span>
-    <span class="prop-tally-abstain-text">Abstain 45 (0.1%)</span>
+    <span class="prop-tally-yes-text">Yes <strong>73.5%</strong> (41,668)</span>
+    <span class="prop-tally-no-text">No <strong>0.0%</strong> (8)</span>
+    <span class="prop-tally-veto-text">Veto <strong>26.4%</strong> (14,932)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>0.1%</strong> (45)</span>
     <span class="prop-tally-total-text">Total 56,653 votes</span>
-    <span class="prop-tally-veto-text">✗ Turnout 56,653 / 741,825 (7.6%) · Quorum 25% (185,456)</span>
+    <span class="prop-tally-veto-text">✗ Turnout <strong>7.6%</strong> (56,653 / 741,825) · Quorum <strong>25%</strong> (185,456)</span>
   </div>
 </div>
 

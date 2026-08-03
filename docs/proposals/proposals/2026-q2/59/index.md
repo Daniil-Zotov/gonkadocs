@@ -46,10 +46,10 @@ Funds milestone 1 (upfront prepayment) of a community-produced onboarding video 
     <div class="prop-tally-abstain" style="width:4.3%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes 24,505 (43.6%)</span>
-    <span class="prop-tally-no-text">No 0 (0.0%)</span>
-    <span class="prop-tally-veto-text">Veto 0 (0.0%)</span>
-    <span class="prop-tally-abstain-text">Abstain 31,699 (56.4%)</span>
+    <span class="prop-tally-yes-text">Yes <strong>43.6%</strong> (24,505)</span>
+    <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
+    <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>56.4%</strong> (31,699)</span>
     <span class="prop-tally-total-text">Total 56,204 votes</span>
     
   </div>

@@ -46,10 +46,10 @@ Today, participating in Gonka governance requires following multiple channels si
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes 123,104 (26.5%)</span>
-    <span class="prop-tally-no-text">No 335,534 (72.2%)</span>
-    <span class="prop-tally-veto-text">Veto 5,913 (1.3%)</span>
-    <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span>
+    <span class="prop-tally-yes-text">Yes <strong>26.5%</strong> (123,104)</span>
+    <span class="prop-tally-no-text">No <strong>72.2%</strong> (335,534)</span>
+    <span class="prop-tally-veto-text">Veto <strong>1.3%</strong> (5,913)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-total-text">Total 464,551 votes</span>
     
   </div>

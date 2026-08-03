@@ -83,12 +83,12 @@ Additional materials, proof of our work, landing page examples, creatives, adver
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes 1,221 (0.4%)</span>
-    <span class="prop-tally-no-text">No 2,404 (0.8%)</span>
-    <span class="prop-tally-veto-text">Veto 290,022 (98.8%)</span>
-    <span class="prop-tally-abstain-text">Abstain 3 (0.0%)</span>
+    <span class="prop-tally-yes-text">Yes <strong>0.4%</strong> (1,221)</span>
+    <span class="prop-tally-no-text">No <strong>0.8%</strong> (2,404)</span>
+    <span class="prop-tally-veto-text">Veto <strong>98.8%</strong> (290,022)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (3)</span>
     <span class="prop-tally-total-text">Total 293,650 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout 293,650 / 741,825 (39.6%) · Quorum 25% (185,456)</span>
+    <span class="prop-tally-yes-text">✓ Turnout <strong>39.6%</strong> (293,650 / 741,825) · Quorum <strong>25%</strong> (185,456)</span>
   </div>
 </div>
 

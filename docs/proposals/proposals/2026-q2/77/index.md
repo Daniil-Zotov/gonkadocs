@@ -44,10 +44,10 @@ We are INPUT Global - a leading web3 marketing communications agency. We offer 3
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes 152,042 (100.0%)</span>
-    <span class="prop-tally-no-text">No 71 (0.0%)</span>
-    <span class="prop-tally-veto-text">Veto 0 (0.0%)</span>
-    <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span>
+    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (152,042)</span>
+    <span class="prop-tally-no-text">No <strong>0.0%</strong> (71)</span>
+    <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-total-text">Total 152,113 votes</span>
     
   </div>

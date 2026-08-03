@@ -44,12 +44,12 @@ Upgrade Proposal: v0.2.15
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes 229,105 (100.0%)</span>
-    <span class="prop-tally-no-text">No 0 (0.0%)</span>
-    <span class="prop-tally-veto-text">Veto 0 (0.0%)</span>
-    <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span>
+    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (229,105)</span>
+    <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
+    <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-total-text">Total 229,105 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout 229,105 / 410,505 (55.8%) · Quorum 25% (102,626)</span>
+    <span class="prop-tally-yes-text">✓ Turnout <strong>55.8%</strong> (229,105 / 410,505) · Quorum <strong>25%</strong> (102,626)</span>
   </div>
 </div>
 

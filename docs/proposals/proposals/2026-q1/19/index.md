@@ -43,10 +43,10 @@ Upgrade Proposal: v0.2.7
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes 3,886,156 (96.1%)</span>
-    <span class="prop-tally-no-text">No 148,604 (3.7%)</span>
-    <span class="prop-tally-veto-text">Veto 8,096 (0.2%)</span>
-    <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span>
+    <span class="prop-tally-yes-text">Yes <strong>96.1%</strong> (3,886,156)</span>
+    <span class="prop-tally-no-text">No <strong>3.7%</strong> (148,604)</span>
+    <span class="prop-tally-veto-text">Veto <strong>0.2%</strong> (8,096)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-total-text">Total 4,042,856 votes</span>
     
   </div>

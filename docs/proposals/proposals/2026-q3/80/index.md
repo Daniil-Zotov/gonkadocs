@@ -46,12 +46,12 @@ Restitution payout for confirmed GRC Proposal #3 cases, with Case 05 payments fr
     <div class="prop-tally-abstain" style="width:0.9%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes 16,378 (10.4%)</span>
-    <span class="prop-tally-no-text">No 94,721 (60.4%)</span>
-    <span class="prop-tally-veto-text">Veto 39,454 (25.1%)</span>
-    <span class="prop-tally-abstain-text">Abstain 6,344 (4.0%)</span>
+    <span class="prop-tally-yes-text">Yes <strong>10.4%</strong> (16,378)</span>
+    <span class="prop-tally-no-text">No <strong>60.4%</strong> (94,721)</span>
+    <span class="prop-tally-veto-text">Veto <strong>25.1%</strong> (39,454)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>4.0%</strong> (6,344)</span>
     <span class="prop-tally-total-text">Total 156,897 votes</span>
-    <span class="prop-tally-veto-text">✗ Turnout 156,897 / 741,825 (21.2%) · Quorum 25% (185,456)</span>
+    <span class="prop-tally-veto-text">✗ Turnout <strong>21.2%</strong> (156,897 / 741,825) · Quorum <strong>25%</strong> (185,456)</span>
   </div>
 </div>
 

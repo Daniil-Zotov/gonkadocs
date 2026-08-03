@@ -44,10 +44,10 @@ Brand identity system for Gonka.AI: logo, typography, color system, graphic lang
     <div class="prop-tally-abstain" style="width:4.6%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes 220,798 (67.9%)</span>
-    <span class="prop-tally-no-text">No 0 (0.0%)</span>
-    <span class="prop-tally-veto-text">Veto 70,043 (21.5%)</span>
-    <span class="prop-tally-abstain-text">Abstain 34,369 (10.6%)</span>
+    <span class="prop-tally-yes-text">Yes <strong>67.9%</strong> (220,798)</span>
+    <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
+    <span class="prop-tally-veto-text">Veto <strong>21.5%</strong> (70,043)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>10.6%</strong> (34,369)</span>
     <span class="prop-tally-total-text">Total 325,210 votes</span>
     
   </div>

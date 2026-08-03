@@ -43,12 +43,12 @@ Update current chain params to register moonshotai/Kimi-K2.6 in the governance m
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes 272,063 (99.8%)</span>
-    <span class="prop-tally-no-text">No 543 (0.2%)</span>
-    <span class="prop-tally-veto-text">Veto 0 (0.0%)</span>
-    <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span>
+    <span class="prop-tally-yes-text">Yes <strong>99.8%</strong> (272,063)</span>
+    <span class="prop-tally-no-text">No <strong>0.2%</strong> (543)</span>
+    <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-total-text">Total 272,606 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout 272,606 / 563,910 (48.3%) · Quorum 25% (140,977)</span>
+    <span class="prop-tally-yes-text">✓ Turnout <strong>48.3%</strong> (272,606 / 563,910) · Quorum <strong>25%</strong> (140,977)</span>
   </div>
 </div>
 

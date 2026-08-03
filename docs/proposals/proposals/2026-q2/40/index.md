@@ -41,10 +41,10 @@ This proposal updates x/gov: the standard voting period becomes 48 hours (was 24
     <div class="prop-tally-abstain" style="width:35.7%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes 377,158 (57.7%)</span>
-    <span class="prop-tally-no-text">No 0 (0.0%)</span>
-    <span class="prop-tally-veto-text">Veto 12,030 (1.8%)</span>
-    <span class="prop-tally-abstain-text">Abstain 264,790 (40.5%)</span>
+    <span class="prop-tally-yes-text">Yes <strong>57.7%</strong> (377,158)</span>
+    <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
+    <span class="prop-tally-veto-text">Veto <strong>1.8%</strong> (12,030)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>40.5%</strong> (264,790)</span>
     <span class="prop-tally-total-text">Total 653,978 votes</span>
     
   </div>

@@ -25711,8 +25711,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-08-03
   
   Replace the existing devshard v4 runtime with v4.0.1. This performance and resource-management patch does not change protocol, inference, validation, or economic behavior. It removes per-block chain q…
-  Yes 160,267 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  ✓ Turnout 160,267 / 546,640 (29.3%) · Quorum 25% (136,660)
+  Yes 100.0% (160,267) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 29.3% (160,267 / 546,640) · Quorum 25% (136,660)
 
   
     #92 – Upgrade Proposal: v0.2.15
@@ -25723,8 +25723,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-07-30
   
   Upgrade Proposal: v0.2.15
-  Yes 229,105 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)$39,825 USDT · Bounty Reward
-  ✓ Turnout 229,105 / 410,505 (55.8%) · Quorum 25% (102,626)
+  Yes 100.0% (229,105) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)$39,825 USDT · Bounty Reward
+  ✓ Turnout 55.8% (229,105 / 410,505) · Quorum 25% (102,626)
 
   
     #91 – Temporarily update BLS signing parameters
@@ -25735,8 +25735,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-07-24
   
   Set max_signing_attempts to 1 and signing_deadline_blocks to 60 epoch lengths (923460 blocks) to mitigate a theoretical risk identified in a security report. Historically, retries have never been need…
-  Yes 243,165 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  ✓ Turnout 243,165 / 569,511 (42.7%) · Quorum 25% (142,377)
+  Yes 100.0% (243,165) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 42.7% (243,165 / 569,511) · Quorum 25% (142,377)
 
   
     #90 – Partnerships with Inference Resellers, B2C users acquisition and conversion funnels analytics setup
@@ -25747,8 +25747,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-07-23
   
   Currently Gonka has a lot of marketing activities, but doesn't have analytics to measure the results of their work and doesn't have a vision which target audiences and how we need to attract and onboa…
-  Yes 190,646 (57.3%) · No 6,269 (1.9%) · Veto 133,354 (40.1%) · Abstain 2,324 (0.7%)240,000 GNK · $57,000 · Community Pool
-  ✓ Turnout 332,593 / 569,511 (58.4%) · Quorum 25% (142,377)
+  Yes 57.3% (190,646) · No 1.9% (6,269) · Veto 40.1% (133,354) · Abstain 0.7% (2,324)240,000 GNK · $57,000 · Community Pool
+  ✓ Turnout 58.4% (332,593 / 569,511) · Quorum 25% (142,377)
 
   
     #89 – Upgrade Proposal: v0.2.14
@@ -25759,8 +25759,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-07-23
   
   Upgrade Proposal: v0.2.14
-  Yes 296,240 (100.0%) · No 0 (0.0%) · Veto 115 (0.0%) · Abstain 0 (0.0%)$50,250 USDT · Bounty Reward
-  ✓ Turnout 296,355 / 545,426 (54.3%) · Quorum 25% (136,356)
+  Yes 100.0% (296,240) · No 0.0% (0) · Veto 0.0% (115) · Abstain 0.0% (0)$50,250 USDT · Bounty Reward
+  ✓ Turnout 54.3% (296,355 / 545,426) · Quorum 25% (136,356)
 
   
     #88 – Restore Kimi K2.6 and remove v1, v2
@@ -25771,8 +25771,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-07-17
   
   Update current chain params to register moonshotai/Kimi-K2.6 in the governance model list and remove approved_versions v1, v2 from devshard_escrow_params (to reduce RAM usage).
-  Yes 272,063 (99.8%) · No 543 (0.2%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  ✓ Turnout 272,606 / 563,910 (48.3%) · Quorum 25% (140,977)
+  Yes 99.8% (272,063) · No 0.2% (543) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 48.3% (272,606 / 563,910) · Quorum 25% (140,977)
 
   
     #87 – Remove Kimi K2.6 model
@@ -25783,8 +25783,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-07-16
   
   Remove moonshotai/Kimi-K2.6 from PoC params and delete it from the governance model list.
-  Yes 151,714 (100.0%) · No 8 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  ✓ Turnout 151,722 / 344,693 (44.0%) · Quorum 25% (86,173)
+  Yes 100.0% (151,714) · No 0.0% (8) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 44.0% (151,722 / 344,693) · Quorum 25% (86,173)
 
   
     #86 – Increase Kimi-K2.6 and GLM-5.2 weight_scale_factor by 5%
@@ -25795,8 +25795,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-07-16
   
   Increase the weight_scale_factor for moonshotai/Kimi-K2.6 from 0.90 to 0.945 (+5%) and for zai-org/GLM-5.2-FP8 from 2.47 to 2.5935 (+5%). All other model and chain parameters remain unchanged.
-  Yes 299,231 (98.5%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 4,445 (1.5%)
-  ✓ Turnout 303,676 / 564,299 (53.8%) · Quorum 25% (141,074)
+  Yes 98.5% (299,231) · No 0.0% (0) · Veto 0.0% (0) · Abstain 1.5% (4,445)
+  ✓ Turnout 53.8% (303,676 / 564,299) · Quorum 25% (141,074)
 
   
     #85 – Internal Go-To-Market Team for 3 Month
@@ -25807,8 +25807,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-07-12
   
   We will run hundreds of experiments across different target audience hypotheses and set up the basis: acquisition funnels, analytics, sharable target audience deep understanding. Our key performance m…
-  Yes 41,668 (73.5%) · No 8 (0.0%) · Veto 14,932 (26.4%) · Abstain 45 (0.1%)600,000 GNK · $36,000 · Community Pool
-  ✗ Turnout 56,653 / 741,825 (7.6%) · Quorum 25% (185,456)
+  Yes 73.5% (41,668) · No 0.0% (8) · Veto 26.4% (14,932) · Abstain 0.1% (45)600,000 GNK · $36,000 · Community Pool
+  ✗ Turnout 7.6% (56,653 / 741,825) · Quorum 25% (185,456)
 
   
     #84 – Bringing $3M+ in New Capital to GONKA via Uniswap — Phase 1/6 ($50k USDT)
@@ -25819,8 +25819,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-07-11
   
   My name is Andrey Orlovsky, and through this proposal I represent our team and an initiative to attract at least $3 million in new long-term capital to GONKA through Uniswap.  Below is a condensed ver…
-  Yes 1,221 (0.4%) · No 2,404 (0.8%) · Veto 290,022 (98.8%) · Abstain 3 (0.0%)20,000 GNK · $50,000 · Community Pool
-  ✓ Turnout 293,650 / 741,825 (39.6%) · Quorum 25% (185,456)
+  Yes 0.4% (1,221) · No 0.8% (2,404) · Veto 98.8% (290,022) · Abstain 0.0% (3)20,000 GNK · $50,000 · Community Pool
+  ✓ Turnout 39.6% (293,650 / 741,825) · Quorum 25% (185,456)
 
   
     #83 – Approve devshard v3
@@ -25831,8 +25831,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-07-11
   
   Update current chain params by adding v3 to devshard_escrow_params.approved_versions.
-  Yes 395,370 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  ✓ Turnout 395,370 / 741,825 (53.3%) · Quorum 25% (185,456)
+  Yes 100.0% (395,370) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 53.3% (395,370 / 741,825) · Quorum 25% (185,456)
 
   
     #82 – External Test Lab x Community DevNet
@@ -25843,8 +25843,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-07-10
   
   4-month pilot of the External Test Lab & Community DevNet: a community-owned testing layer for Gonka. Full proposal and discussion: https://github.com/gonka-ai/gonka/discussions/1388  The budget is he…
-  Yes 368,084 (98.2%) · No 468 (0.1%) · Veto 94 (0.0%) · Abstain 6,141 (1.6%)80,000 GNK · $88,000 · Community Pool
-  ✓ Turnout 374,787 / 741,825 (50.5%) · Quorum 25% (185,456)
+  Yes 98.2% (368,084) · No 0.1% (468) · Veto 0.0% (94) · Abstain 1.6% (6,141)80,000 GNK · $88,000 · Community Pool
+  ✓ Turnout 50.5% (374,787 / 741,825) · Quorum 25% (185,456)
 
   
     #81 – Kimi cPoC Restitution (epochs 306-309)
@@ -25855,8 +25855,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-07-10
   
   Distribute restitution for Kimi operators affected by cPoC validation failure in epochs 306-309. The Kimi validation path failed starting in e306 causing confirmation_weight suppression for Kimi opera…
-  Yes 235,728 (56.2%) · No 609 (0.1%) · Veto 183,094 (43.7%) · Abstain 18 (0.0%)175,082 GNK · Gov Module
-  ✓ Turnout 419,449 / 741,825 (56.5%) · Quorum 25% (185,456)
+  Yes 56.2% (235,728) · No 0.1% (609) · Veto 43.7% (183,094) · Abstain 0.0% (18)175,082 GNK · Gov Module
+  ✓ Turnout 56.5% (419,449 / 741,825) · Quorum 25% (185,456)
 
   
     #80 – GRC Proposal #3 - Restitution
@@ -25867,8 +25867,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-07-07
   
   Restitution payout for confirmed GRC Proposal #3 cases, with Case 05 payments from proposal_id=67 deducted where the same address and epoch were already compensated, and positive victim outputs below …
-  Yes 16,378 (10.4%) · No 94,721 (60.4%) · Veto 39,454 (25.1%) · Abstain 6,344 (4.0%)47,850 GNK · Community Pool · 70,184 GNK · Gov Module
-  ✗ Turnout 156,897 / 741,825 (21.2%) · Quorum 25% (185,456)
+  Yes 10.4% (16,378) · No 60.4% (94,721) · Veto 25.1% (39,454) · Abstain 4.0% (6,344)47,850 GNK · Community Pool · 70,184 GNK · Gov Module
+  ✗ Turnout 21.2% (156,897 / 741,825) · Quorum 25% (185,456)
 
 ## 2026-Q2
 
@@ -25883,7 +25883,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-06-26
   
   Add Kimi K2.6 and GLM 5.2 model
-  Yes 330,364 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 100.0% (330,364) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
   
     #78 – Governance 17: update PoC model lineup
@@ -25894,7 +25894,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-06-25
   
   Set delegation initial_model_id to MiniMaxAI/MiniMax-M2.7, keep only MiniMaxAI/MiniMax-M2.7 in PoC params, remove Qwen/Qwen3-235B-A22B-Instruct-2507-FP8, moonshotai/Kimi-K2.6 from PoC params, and dele…
-  Yes 255,215 (97.1%) · No 170 (0.1%) · Veto 0 (0.0%) · Abstain 7,390 (2.8%)
+  Yes 97.1% (255,215) · No 0.1% (170) · Veto 0.0% (0) · Abstain 2.8% (7,390)
 
   
     #77 – Gonka PR Proposal for US/Global Regions
@@ -25905,7 +25905,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-06-26
   
   We are INPUT Global - a leading web3 marketing communications agency. We offer 3 month PR campaign to establish trust and market legitimacy of Gonka across 2 audiences: global business and crypto-nati…
-  Yes 152,042 (100.0%) · No 71 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)$75,000 · Community Pool
+  Yes 100.0% (152,042) · No 0.0% (71) · Veto 0.0% (0) · Abstain 0.0% (0)$75,000 · Community Pool
   report12026-07-17
   report22026-07-24
   report32026-07-31
@@ -25919,7 +25919,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-06-17
   
   Register devshard approved version v2.
-  Yes 239,924 (100.0%) · No 17 (0.0%) · Veto 0 (0.0%) · Abstain 16 (0.0%)$93,600 · Community Pool
+  Yes 100.0% (239,924) · No 0.0% (17) · Veto 0.0% (0) · Abstain 0.0% (16)$93,600 · Community Pool
 
   
     #75 – Private Inc × Gonka — Network Growth Initiative
@@ -25940,7 +25940,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-06-12
   
   Full proposal: https://gonkalabs.com/proposal  This proposal funds the next six months of work for the Gonka ecosystem.  The focus is production-grade infrastructure and high-use products: Gonka.gg V2…
-  Yes 305,163 (79.6%) · No 3,791 (1.0%) · Veto 15 (0.0%) · Abstain 74,304 (19.4%)$70,000 · Community Pool · 330,000 GNK · Gov Module
+  Yes 79.6% (305,163) · No 1.0% (3,791) · Veto 0.0% (15) · Abstain 19.4% (74,304)$70,000 · Community Pool · 330,000 GNK · Gov Module
   report12026-07-18
 
   
@@ -25952,7 +25952,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-06-12
   
   Increase the minimum deposit required to submit a governance proposal to 500 GNK (500,000,000,000 ngonka) and expedited minimum deposit to 1000 GNK (1,000,000,000,000 ngonka). This resubmits proposal …
-  Yes 295,843 (96.3%) · No 40 (0.0%) · Veto 572 (0.2%) · Abstain 10,823 (3.5%)
+  Yes 96.3% (295,843) · No 0.0% (40) · Veto 0.2% (572) · Abstain 3.5% (10,823)
 
   
     #72 – Open devshard escrow creation to community wallet gonka1afj0tz53z56zngs425m83vxl5y2xmwm692hfrn
@@ -25963,7 +25963,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-06-12
   
   Adds a community-operated wallet to devshard_escrow_params.allowed_creator_addresses, enabling it to create a devshard escrow and operate as an additional self-hosted inference gateway/transfer agent.…
-  Yes 5,337 (2.2%) · No 7,953 (3.3%) · Veto 221,234 (90.7%) · Abstain 9,421 (3.9%)
+  Yes 2.2% (5,337) · No 3.3% (7,953) · Veto 90.7% (221,234) · Abstain 3.9% (9,421)
 
   
     #71 – Gonka PR Proposal for US/Global Regions
@@ -25974,7 +25974,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-06-10
   
   We're a comms team specializing in Organic PR for crypto and tech projects. With strong competition in the space and no active events or marketing currently running for Gonka, we propose a 3-month Org…
-  Yes 180,108 (99.8%) · No 72 (0.0%) · Veto 0 (0.0%) · Abstain 233 (0.1%)$75,000 · Community Pool
+  Yes 99.8% (180,108) · No 0.0% (72) · Veto 0.0% (0) · Abstain 0.1% (233)$75,000 · Community Pool
 
   
     #70 – GNK Racers: Launch GameFi Mini-App to Drive User Growth & Wallet Activity
@@ -25985,7 +25985,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-06-08
   
   Release 246,000 GNK from Community Fund to finalize GNK Racers — a multiplayer side-view racing mini-app with a live working prototype (@GNKRacers_bot). The game drives new user acquisition, wallet ac…
-  Yes 38,621 (25.0%) · No 107,644 (69.6%) · Veto 6,241 (4.0%) · Abstain 2,245 (1.5%)246,000 GNK · Community Pool
+  Yes 25.0% (38,621) · No 69.6% (107,644) · Veto 4.0% (6,241) · Abstain 1.5% (2,245)246,000 GNK · Community Pool
 
   
     #69 – Increase minimum governance deposit to 500 GNK
@@ -25996,7 +25996,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-06-07
   
   Increase the minimum deposit required to submit a governance proposal from the current value to 500 GNK. Also sets expedited minimum deposit to 1000 GNK.
-  Yes 199,799 (96.9%) · No 46 (0.0%) · Veto 4,202 (2.0%) · Abstain 2,210 (1.1%)
+  Yes 96.9% (199,799) · No 0.0% (46) · Veto 2.0% (4,202) · Abstain 1.1% (2,210)
 
   
     #68 – Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)
@@ -26007,7 +26007,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-06-07
   
   The proposal is reopened for voting at the initiative of several hosts who did not participate in the previous round.  • There are no changes to the substance of the proposal; only timeline commitment…
-  Yes 260,353 (96.4%) · No 749 (0.3%) · Veto 6,288 (2.3%) · Abstain 2,546 (0.9%)$70,000 · Community Pool
+  Yes 96.4% (260,353) · No 0.3% (749) · Veto 2.3% (6,288) · Abstain 0.9% (2,546)$70,000 · Community Pool
 
   
     #67 – Kimi Restitution (epochs 265-276)
@@ -26018,7 +26018,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-06-05
   
   Distribute restitution for Kimi operators across epochs 265-276. Epochs 265-266: external attack causing CPoC degradation and nonce exclusion. Epochs 267-276: ComputeGroupCap systematic underpayment d…
-  Yes 319,920 (78.9%) · No 150 (0.0%) · Veto 84,623 (20.9%) · Abstain 744 (0.2%)946,509 GNK · Gov Module
+  Yes 78.9% (319,920) · No 0.0% (150) · Veto 20.9% (84,623) · Abstain 0.2% (744)946,509 GNK · Gov Module
 
   
     #66 – test proposal - 测试方案
@@ -26039,7 +26039,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-06-04
   
   Full 360-degree digital and social strategy for Gonka.AI: channel matrix, content plan, segment messaging, social strategy, and brand-voice guidelines. Single-tranche payment of 100,000 GNK to TheSoul…
-  Yes 220,798 (67.9%) · No 0 (0.0%) · Veto 70,043 (21.5%) · Abstain 34,369 (10.6%)100,000 GNK · Community Pool
+  Yes 67.9% (220,798) · No 0.0% (0) · Veto 21.5% (70,043) · Abstain 10.6% (34,369)100,000 GNK · Community Pool
 
   
     #64 – TheSoul - Offer 2.2: Analytics and attribution (28,000 GNK)
@@ -26050,7 +26050,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-06-04
   
   Web analytics, attribution, and funnel dashboarding for Gonka.AI: GA4 implementation, UTM taxonomy, event tracking, and conversion reporting. Single-tranche payment of 28,000 GNK to TheSoul on proposa…
-  Yes 220,798 (67.9%) · No 0 (0.0%) · Veto 70,043 (21.5%) · Abstain 34,369 (10.6%)28,000 GNK · Community Pool
+  Yes 67.9% (220,798) · No 0.0% (0) · Veto 21.5% (70,043) · Abstain 10.6% (34,369)28,000 GNK · Community Pool
 
   
     #63 – TheSoul - Offer 2.1: Website and landings (10,000 USDT)
@@ -26061,7 +26061,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-06-04
   
   Full redesign of gonka.ai plus dedicated landing pages for miners, inference buyers, and investors, built on the brandbook from Offer 1.2. Single-tranche payment of 10,000 USDT to TheSoul on proposal …
-  Yes 220,798 (67.9%) · No 0 (0.0%) · Veto 70,043 (21.5%) · Abstain 34,369 (10.6%)$10,000 · Community Pool
+  Yes 67.9% (220,798) · No 0.0% (0) · Veto 21.5% (70,043) · Abstain 10.6% (34,369)$10,000 · Community Pool
 
   
     #62 – TheSoul - Offer 1.3: Influencer pilot (50,000 USDT)
@@ -26072,7 +26072,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-06-04
   
   Crypto-influencer pilot campaign for Gonka.AI across selected tier-1 creators, with a full performance report and scaling recommendations. Single-tranche payment of 50,000 USDT to TheSoul on proposal …
-  Yes 220,798 (67.9%) · No 0 (0.0%) · Veto 70,043 (21.5%) · Abstain 34,369 (10.6%)$50,000 · Community Pool
+  Yes 67.9% (220,798) · No 0.0% (0) · Veto 21.5% (70,043) · Abstain 10.6% (34,369)$50,000 · Community Pool
 
   
     #61 – TheSoul - Offer 1.2: Brandbook (20,000 USDT)
@@ -26083,7 +26083,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-06-04
   
   Brand identity system for Gonka.AI: logo, typography, color system, graphic language, layout principles, and templates, built on the positioning from Offer 1.1. Single-tranche payment of 20,000 USDT t…
-  Yes 220,798 (67.9%) · No 0 (0.0%) · Veto 70,043 (21.5%) · Abstain 34,369 (10.6%)$20,000 · Community Pool
+  Yes 67.9% (220,798) · No 0.0% (0) · Veto 21.5% (70,043) · Abstain 10.6% (34,369)$20,000 · Community Pool
 
   
     #60 – TheSoul - Offer 1.1: Brand positioning (25,000 USDT)
@@ -26094,7 +26094,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-06-04
   
   Brand audit, competitive positioning, and audience segmentation for Gonka.AI. Single-tranche payment of 25,000 USDT to TheSoul on proposal pass. Full offer document: see the metadata URL.
-  Yes 220,798 (67.9%) · No 0 (0.0%) · Veto 70,043 (21.5%) · Abstain 34,369 (10.6%)$25,000 · Community Pool
+  Yes 67.9% (220,798) · No 0.0% (0) · Veto 21.5% (70,043) · Abstain 10.6% (34,369)$25,000 · Community Pool
 
   
     #59 – Gonka Onboarding Video Guide — Milestone 1 (Prepayment)
@@ -26105,7 +26105,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-06-02
   
   Funds milestone 1 (upfront prepayment) of a community-produced onboarding video guide for Gonka. Deliverable: a series of ~15 short, interactive, easy-to-follow videos covering A-to-Z onboarding for b…
-  Yes 24,505 (43.6%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 31,699 (56.4%)$5,000 · Community Pool
+  Yes 43.6% (24,505) · No 0.0% (0) · Veto 0.0% (0) · Abstain 56.4% (31,699)$5,000 · Community Pool
 
   
     #58 – Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)
@@ -26116,7 +26116,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-05-30
   
   # Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)  70,000 USDT from the CommunityPool for a dedicated Falcon Finance deep-dive on Gonka AI. Full proposal: https://vote.gonka.vip/tenders…
-  Yes 98,018 (53.4%) · No 0 (0.0%) · Veto 85,697 (46.6%) · Abstain 0 (0.0%)$70,000 · Community Pool
+  Yes 53.4% (98,018) · No 0.0% (0) · Veto 46.6% (85,697) · Abstain 0.0% (0)$70,000 · Community Pool
 
   
     #57 – Approve the Gonka Network Development Roadmap
@@ -26127,7 +26127,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-05-30
   
   This proposal approves the Gonka Network Development Roadmap as a strategic direction document for Gonka's future development tracks.  If approved, the roadmap should become the shared vision for Gonk…
-  Yes 257,150 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 100.0% (257,150) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
   
     #56 – INC4 | Gonka NOP - grant for the node deployment tool
@@ -26138,7 +26138,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-05-27
   
   # Gonka NOP: grant for the node deployment tool  50,000 USDT from the CommunityPool to INC4 Full proposal: https://github.com/gonka-ai/gonka/discussions/1192  ## What it is  gonka-nop (Node Onboarding…
-  Yes 31,851 (58.6%) · No 9,566 (17.6%) · Veto 12,961 (23.8%) · Abstain 0 (0.0%)$50,000 · Community Pool
+  Yes 58.6% (31,851) · No 17.6% (9,566) · Veto 23.8% (12,961) · Abstain 0.0% (0)$50,000 · Community Pool
 
   
     #55 – GRC Proposal #2 - Restitution (epochs 248-254)
@@ -26149,7 +26149,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-05-23
   
   Distribute restitution for Cases 2, 3, and 4 across epochs 248-254. Case 2: preserver weight double-scaling bug (epochs 249-253). Case 3: epoch loss restitution: broad epoch losses, consecutive failur…
-  Yes 188,670 (61.2%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 119,835 (38.8%)39,722 GNK · Community Pool · 306,307 GNK · Gov Module
+  Yes 61.2% (188,670) · No 0.0% (0) · Veto 0.0% (0) · Abstain 38.8% (119,835)39,722 GNK · Community Pool · 306,307 GNK · Gov Module
 
   
     #54 – Upgrade Proposal: v0.2.13
@@ -26160,7 +26160,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-05-22
   
   Upgrade Proposal: v0.2.13
-  Yes 228,216 (62.8%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 135,071 (37.2%)$18,875 USDT · Bounty Reward
+  Yes 62.8% (228,216) · No 0.0% (0) · Veto 0.0% (0) · Abstain 37.2% (135,071)$18,875 USDT · Bounty Reward
 
   
     #53 – INC4 | Gonka NOP - grant for the node deployment tool
@@ -26171,7 +26171,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-05-21
   
   # Gonka NOP: grant for the node deployment tool  50,000 USDT from the CommunityPool to INC4 Full proposal: https://github.com/gonka-ai/gonka/discussions/1192  ## What it is  gonka-nop (Node Onboarding…
-  Yes 139,052 (46.8%) · No 0 (0.0%) · Veto 158,195 (53.2%) · Abstain 0 (0.0%)$50,000 · Community Pool
+  Yes 46.8% (139,052) · No 0.0% (0) · Veto 53.2% (158,195) · Abstain 0.0% (0)$50,000 · Community Pool
 
   
     #52 – Upgrade Proposal: v0.2.13
@@ -26182,7 +26182,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-05-17
   
   Upgrade Proposal: v0.2.13
-  Yes 88,420 (34.1%) · No 0 (0.0%) · Veto 170,799 (65.9%) · Abstain 0 (0.0%)$18,875 USDT · Bounty Reward
+  Yes 34.1% (88,420) · No 0.0% (0) · Veto 65.9% (170,799) · Abstain 0.0% (0)$18,875 USDT · Bounty Reward
 
   
     #51 – Support Gonka's presence at WebX Asia
@@ -26193,7 +26193,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-05-15
   
   6Block, a long-term Gonka mining and infrastructure participant, proposes that the Gonka community allocate 75,000 USDT to support Gonka's participation at WebX Asia / WebX 2026 in Tokyo. 6Block has a…
-  Yes 395,003 (62.8%) · No 1,767 (0.3%) · Veto 64,217 (10.2%) · Abstain 168,275 (26.7%)$75,000 · Community Pool
+  Yes 62.8% (395,003) · No 0.3% (1,767) · Veto 10.2% (64,217) · Abstain 26.7% (168,275)$75,000 · Community Pool
   report12026-08-03
 
   
@@ -26205,7 +26205,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-05-09
   
   Retroactive 20K GNK bounty for an open-sourced PoC optimization measuring +10.2% on B200 and +12.5% on H100 with Qwen3-235B-FP8. One-line patch, verified on-chain by independent miners. Details: https…
-  Yes 281,723 (59.1%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 194,589 (40.9%)20,000 GNK · Community Pool
+  Yes 59.1% (281,723) · No 0.0% (0) · Veto 0.0% (0) · Abstain 40.9% (194,589)20,000 GNK · Community Pool
 
   
     #49 – Gonka Media Dominance in TechL/AI with 5 AI Influencers
@@ -26216,7 +26216,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-05-07
   
   We're ICG - AI Influencer Lab, a team that builds and scales hyper-realistic AI avatars on Instagram, TikTok, and YouTube as full ambassadors across verticals. We manage 160+ accounts in AI, finance, …
-  Yes 496,683 (71.1%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 201,560 (28.9%)$45,000 · Community Pool
+  Yes 71.1% (496,683) · No 0.0% (0) · Veto 0.0% (0) · Abstain 28.9% (201,560)$45,000 · Community Pool
   report12026-07-21
 
   
@@ -26228,7 +26228,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-05-05
   
   During the Kimi-K2.6 bootstrap, the 30% direct participation threshold proved hard to meet. To avoid the risk of Kimi-K2.6 becoming ineligible in a future epoch and to simplify onboarding of further m…
-  Yes 808,529 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 100.0% (808,529) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
   
     #47 – Retroactive bounty: open-source PoC throughput optimization (+10–12% measured) with 250 total installations
@@ -26239,7 +26239,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-05-06
   
   Retroactive 20K GNK bounty for an open-sourced PoC optimization measuring +10.2% on B200 and +12.5% on H100 with Qwen3-235B-FP8. One-line patch, verified on-chain by independent miners. Details: https…
-  Yes 70,819 (33.6%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 139,828 (66.4%)20,000 GNK · Community Pool
+  Yes 33.6% (70,819) · No 0.0% (0) · Veto 0.0% (0) · Abstain 66.4% (139,828)20,000 GNK · Community Pool
 
   
     #46 – Epochs 132-247 compensation payout from gov module (batch vesting)
@@ -26250,7 +26250,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-05-04
   
   Two prior upgrades changed the lifecycle of unpaid miner rewards. v0.2.9 (proposal #26, 2026-02-01): when a participant is penalized during cPoC validation, the unaccounted portion of their epoch rewa…
-  Yes 97,030 (36.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 172,837 (64.0%)3,053,800 GNK · Gov Module
+  Yes 36.0% (97,030) · No 0.0% (0) · Veto 0.0% (0) · Abstain 64.0% (172,837)3,053,800 GNK · Gov Module
 
   
     #45 – Governance Architecture Proposal for the Gonka.ai Network
@@ -26261,7 +26261,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-05-01
   
   Replace scattered governance discussions and complex CLI voting with a unified Governance Portal - a single interface for all Gonka governance activity. The portal includes: a proposal feed across Dis…
-  Yes 118,126 (25.6%) · No 0 (0.0%) · Veto 210,906 (45.6%) · Abstain 133,057 (28.8%)119,000 GNK · Community Pool
+  Yes 25.6% (118,126) · No 0.0% (0) · Veto 45.6% (210,906) · Abstain 28.8% (133,057)119,000 GNK · Community Pool
 
   
     #44 – Upgrade Proposal: v0.2.12
@@ -26272,7 +26272,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-04-30
   
   Upgrade Proposal: v0.2.12
-  Yes 506,142 (99.6%) · No 2,057 (0.4%) · Veto 0 (0.0%) · Abstain 0 (0.0%)$35,200 USDT · Bounty Reward
+  Yes 99.6% (506,142) · No 0.4% (2,057) · Veto 0.0% (0) · Abstain 0.0% (0)$35,200 USDT · Bounty Reward
 
   
     #43 – Governance Architecture Proposal for the Gonka.ai Network
@@ -26283,7 +26283,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-04-27
   
   Today, participating in Gonka governance requires following multiple channels simultaneously — GitHub, Discord, CLI — just to cast a single vote. Most miners miss proposals entirely or vote too late. …
-  Yes 123,104 (26.5%) · No 335,534 (72.2%) · Veto 5,913 (1.3%) · Abstain 0 (0.0%)104,166 GNK · Community Pool
+  Yes 26.5% (123,104) · No 72.2% (335,534) · Veto 1.3% (5,913) · Abstain 0.0% (0)104,166 GNK · Community Pool
 
   
     #42 – Support Gonka at Global Compute Sovereignty Summit
@@ -26294,7 +26294,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-04-19
   
   We are DeAI Nation, a global nonprofit organization supporting and promoting the decentralized AI ecosystem, and authors of the State of DeAI 2026 report. We propose that the Gonka community become a …
-  Yes 375,771 (68.6%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 172,050 (31.4%)$10,000 · Community Pool
+  Yes 68.6% (375,771) · No 0.0% (0) · Veto 0.0% (0) · Abstain 31.4% (172,050)$10,000 · Community Pool
 
   
     #41 – INC4 | Gonka Node Observability Platform
@@ -26305,7 +26305,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-04-18
   
   Today's explorers and dashboards only show on-chain data, leaving the off-chain state of validators completely opaque. The few operators who do run their own monitoring use different tools, different …
-  Yes 17,955 (57.1%) · No 13,494 (42.9%) · Veto 0 (0.0%) · Abstain 0 (0.0%)$96,000 · Community Pool
+  Yes 57.1% (17,955) · No 42.9% (13,494) · Veto 0.0% (0) · Abstain 0.0% (0)$96,000 · Community Pool
 
   
     #40 – Governance: extend voting period to 48 hours
@@ -26316,7 +26316,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-04-14
   
   This proposal updates x/gov: the standard voting period becomes 48 hours (was 24), and the expedited voting period becomes 12 hours (was 3). All other governance parameters remain at their current on-…
-  Yes 377,158 (57.7%) · No 0 (0.0%) · Veto 12,030 (1.8%) · Abstain 264,790 (40.5%)
+  Yes 57.7% (377,158) · No 0.0% (0) · Veto 1.8% (12,030) · Abstain 40.5% (264,790)
 
   
     #39 – Community Series Film — Why Gonka Exists
@@ -26327,7 +26327,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-04-10
   
   Saccade Media House is a creative team of tech entrepreneurs who know how to tell stories. We've built content for international tech brands and the founders behind them. We propose a Community Series…
-  Yes 394,971 (76.0%) · No 183 (0.0%) · Veto 0 (0.0%) · Abstain 124,587 (24.0%)31,250 GNK · Community Pool
+  Yes 76.0% (394,971) · No 0.0% (183) · Veto 0.0% (0) · Abstain 24.0% (124,587)31,250 GNK · Community Pool
 
   
     #38 – CryptoCommons: Community Support & Token Promotion Plan
@@ -26338,7 +26338,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-04-09
   
   If you agree say YES — Solution 1: Produce a short review video with 1-2 active community members. Solution 2: Introduce the project to BD managers of major CIS exchanges for listings. Solution 3 (Reg…
-  Yes 0 (0.0%) · No 183 (2.3%) · Veto 7,893 (97.7%) · Abstain 0 (0.0%)20,000 GNK · Community Pool · 25,000 GNK · Gov Module
+  Yes 0.0% (0) · No 2.3% (183) · Veto 97.7% (7,893) · Abstain 0.0% (0)20,000 GNK · Community Pool · 25,000 GNK · Gov Module
 
   
     #37 – What is your stance on MLM projects around gonka.ai?
@@ -26349,7 +26349,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-04-08
   
   If you are against MLM projects around gonka.ai, vote YES. All funds will be used to counter such projects. The amount is symbolic.
-  Yes 957 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)1 GNK · Community Pool
+  Yes 100.0% (957) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)1 GNK · Community Pool
 
   
     #36 – Register Kava USDT IBC metadata and approve for trading
@@ -26360,7 +26360,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-04-02
   
   Register IBC token metadata and approve the denomination for trading on Gonka mainnet.
-  Yes 421,414 (99.6%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 1,788 (0.4%)
+  Yes 99.6% (421,414) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.4% (1,788)
 
 ## 2026-Q1
 
@@ -26375,7 +26375,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-03-31
   
   This proposal seeks community approval for a global media initiative to build awareness of decentralized AI and position Gonka as core AI infrastructure.  Key elements: Led by TheSoul Group (full-cycl…
-  Yes 9,150 (25.5%) · No 10,325 (28.8%) · Veto 2,450 (6.8%) · Abstain 13,939 (38.9%)970,000 GNK · Community Pool
+  Yes 25.5% (9,150) · No 28.8% (10,325) · Veto 6.8% (2,450) · Abstain 38.9% (13,939)970,000 GNK · Community Pool
 
   
     #34 – gonka.ai / TheSoul social media awareness project
@@ -26396,7 +26396,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-03-27
   
   Distribute compensation for CPoC bug affected participants in epochs 132-133.
-  Yes 184,243 (41.8%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 256,296 (58.2%)3,100 GNK · Community Pool · 24,806 GNK · Gov Module
+  Yes 41.8% (184,243) · No 0.0% (0) · Veto 0.0% (0) · Abstain 58.2% (256,296)3,100 GNK · Community Pool · 24,806 GNK · Gov Module
 
   
     #32 – Epoch 158 compensation payout from gov module (batch vesting)
@@ -26407,7 +26407,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-03-24
   
   Distribute compensation proportional to epoch 158 lost preserved weights. Implemented as one MsgBatchTransferWithVesting.
-  Yes 501,114 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)500 GNK · Community Pool · 30,038 GNK · Gov Module
+  Yes 100.0% (501,114) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)500 GNK · Community Pool · 30,038 GNK · Gov Module
 
   
     #31 – Upgrade Proposal: v0.2.11
@@ -26418,7 +26418,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-03-20
   
   Upgrade Proposal: v0.2.11
-  Yes 673,699 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)150,750 GNK · Bounty Reward
+  Yes 100.0% (673,699) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)150,750 GNK · Bounty Reward
 
   
     #30 – Test Proposal
@@ -26429,7 +26429,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-03-10
   
   Testing governance voting from the wallet app.
-  Yes 0 (0.0%) · No 47 (100.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 0.0% (0) · No 100.0% (47) · Veto 0.0% (0) · Abstain 0.0% (0)
 
   
     #29 – Network Parameters Update: Disable TA Allowlist, Increase Prices 100x
@@ -26440,7 +26440,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-02-20
   
   Remove TransferAgent allowlist restrictions (empty list = all TAs allowed) and increase per-token pricing 100x (min 100, base 10000 ngonka) to reduce spam.
-  Yes 7,314 (2.9%) · No 0 (0.0%) · Veto 243,060 (97.1%) · Abstain 0 (0.0%)
+  Yes 2.9% (7,314) · No 0.0% (0) · Veto 97.1% (243,060) · Abstain 0.0% (0)
 
   
     #28 – Collateral Parameters Update
@@ -26451,7 +26451,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-02-19
   
   0.032 GNK per 1 unit of power, 0.01% slashing for miss rate or jail, 0.5% slashing for invalid inference
-  Yes 314,460 (96.5%) · No 11,504 (3.5%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 96.5% (314,460) · No 3.5% (11,504) · Veto 0.0% (0) · Abstain 0.0% (0)
 
   
     #27 – Upgrade Proposal: v0.2.10
@@ -26462,7 +26462,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-02-18
   
   Upgrade Proposal: v0.2.10
-  Yes 1,540,653 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)23,000 GNK · Bounty Reward
+  Yes 100.0% (1,540,653) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)23,000 GNK · Bounty Reward
 
   
     #26 – Upgrade Proposal: v0.2.9
@@ -26473,7 +26473,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-02-01
   
   Upgrade Proposal: v0.2.9
-  Yes 2,708,406 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 100.0% (2,708,406) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
   
     #25 – Upgrade Proposal: v0.2.8
@@ -26484,7 +26484,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-01-29
   
   Upgrade Proposal: v0.2.8
-  Yes 4,153,562 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 100.0% (4,153,562) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
   
     #24 – Upgrade Proposal: v0.2.8
@@ -26505,7 +26505,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-01-18
   
   Update Expiration Dates for Developer Access and Participant Allowlist
-  Yes 3,476,742 (99.9%) · No 2,836 (0.1%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 99.9% (3,476,742) · No 0.1% (2,836) · Veto 0.0% (0) · Abstain 0.0% (0)
 
   
     #21 – Fix mistakes in allowlist
@@ -26516,7 +26516,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-01-12
   
   https://github.com/product-science/filter/tree/0354c37eb6c827f00c1e889a2b7de9952a9b84ba
-  Yes 3,020,391 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 100.0% (3,020,391) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
   
     #20 – Enable Whitelist
@@ -26527,7 +26527,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-01-10
   
   https://github.com/product-science/filter/tree/ae59d27f04a70039bcfca94ae656e723982150cd
-  Yes 2,111,775 (90.1%) · No 90,320 (3.9%) · Veto 140,607 (6.0%) · Abstain 0 (0.0%)
+  Yes 90.1% (2,111,775) · No 3.9% (90,320) · Veto 6.0% (140,607) · Abstain 0.0% (0)
 
   
     #19 – Upgrade Proposal: v0.2.7
@@ -26538,7 +26538,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-01-08
   
   Upgrade Proposal: v0.2.7
-  Yes 3,886,156 (96.1%) · No 148,604 (3.7%) · Veto 8,096 (0.2%) · Abstain 0 (0.0%)
+  Yes 96.1% (3,886,156) · No 3.7% (148,604) · Veto 0.2% (8,096) · Abstain 0.0% (0)
 
   
     #18 – Test
@@ -26549,7 +26549,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-01-05
   
   Test proposal
-  Yes 4,237 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 100.0% (4,237) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
 ## 2025-Q4
 
@@ -26564,7 +26564,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2025-12-26
   
   Expected amount of Confirmation PoC per epoch to 4, p0 for binomial test to 0.1
-  Yes 3,261,413 (100.0%) · No 85 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 100.0% (3,261,413) · No 0.0% (85) · Veto 0.0% (0) · Abstain 0.0% (0)
 
   
     #16 – Upgrade Proposal: v0.2.6
@@ -26575,7 +26575,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2025-12-20
   
   Upgrade Proposal: v0.2.6
-  Yes 1,985,917 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)30,000 GNK · Bounty Reward
+  Yes 100.0% (1,985,917) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)30,000 GNK · Bounty Reward
 
   
     #15 – Upgrade Proposal: v0.2.6
@@ -26586,7 +26586,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2025-12-17
   
   Upgrade Proposal: v0.2.6
-  Yes 1,034,445 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)30,000 GNK · Bounty Reward
+  Yes 100.0% (1,034,445) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)30,000 GNK · Bounty Reward
 
   
     #14 – Sale GNK from Community Fund
@@ -26597,7 +26597,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2025-11-27
   
   Sale GNK from Community Fund
-  Yes 1,180,961 (98.8%) · No 9,781 (0.8%) · Veto 4,577 (0.4%) · Abstain 0 (0.0%)20,000,000 GNK · Community Pool
+  Yes 98.8% (1,180,961) · No 0.8% (9,781) · Veto 0.4% (4,577) · Abstain 0.0% (0)20,000,000 GNK · Community Pool
 
   
     #13 – Upgrade Proposal: v0.2.5
@@ -26608,7 +26608,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2025-11-22
   
   Upgrade Proposal: v0.2.5
-  Yes 428,459 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 100.0% (428,459) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
   
     #12 – Bandwidth Limits
@@ -26619,7 +26619,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2025-11-13
   
   Bandwidth Limits
-  Yes 257,565 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 100.0% (257,565) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
   
     #11 – Bandwidth Limits
@@ -26630,7 +26630,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2025-11-12
   
   Bandwidth Limits
-  Yes 349,596 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 100.0% (349,596) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
   
     #10 – Bandwidth Limits
@@ -26641,7 +26641,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2025-11-12
   
   Bandwidth Limits
-  Yes 287,496 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 100.0% (287,496) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
   
     #9 – Higher Bandwidth Limits & Voting Time Back to 24H
@@ -26652,7 +26652,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2025-11-11
   
   Higher Bandwidth Limits & Voting Time Back to 24H
-  Yes 394,887 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 100.0% (394,887) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
   
     #8 – Upgrade Proposal: v0.2.4
@@ -26663,7 +26663,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2025-10-22
   
   Upgrade Proposal: v0.2.4
-  Yes 286,826 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 100.0% (286,826) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
   
     #7 – Upgrade Proposal: v0.2.3
@@ -26674,7 +26674,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2025-10-03
   
   Upgrade Proposal: v0.2.3
-  Yes 132,672 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 100.0% (132,672) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
 ## 2025-Q3
 
@@ -26689,7 +26689,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2025-09-25
   
   Upgrade Proposal: v0.2.2
-  Yes 130,079 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 100.0% (130,079) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
   
     #5 – Expedite voting for upgrades
@@ -26700,7 +26700,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2025-09-23
   
   Expedite voting for upgrades
-  Yes 172,265 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 100.0% (172,265) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
   
     #4 – Upgrade Proposal: v0.2.2
@@ -26711,7 +26711,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2025-09-24
   
   Upgrade Proposal: v0.2.2
-  Yes 109 (0.1%) · No 0 (0.0%) · Veto 109,637 (99.9%) · Abstain 0 (0.0%)
+  Yes 0.1% (109) · No 0.0% (0) · Veto 99.9% (109,637) · Abstain 0.0% (0)
 
   
     #3 – Increase PoC Validation Length
@@ -26722,7 +26722,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2025-09-20
   
   Proposal updates poc_validation_duration from 20 to 100.
-  Yes 162,514 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 100.0% (162,514) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
   
     #2 – Proposal introducing new Qwen3 models
@@ -26733,7 +26733,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2025-09-11
   
   This proposal introduces new Qwen3 models including Qwen3-32B-FP8 and Qwen3-235B-A22B-Instruct-2507-FP8, along with updating parameters for Qwen2.5-7B-Instruct and QwQ-32B.
-  Yes 62,612 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 100.0% (62,612) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
   
     #1 – Correct Epoch Length
@@ -26744,9 +26744,9 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2025-09-07
   
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
-  Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-92 proposals across 5 quarters. Last updated: 2026-08-03 12:25 UTC
+92 proposals across 5 quarters. Last updated: 2026-08-03 12:34 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -26803,7 +26803,7 @@ Models / IBC1
     Voting ends 2025-09-25
   
   Upgrade Proposal: v0.2.2
-  Yes 130,079 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 100.0% (130,079) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
   
     #5 – Expedite voting for upgrades
@@ -26814,7 +26814,7 @@ Models / IBC1
     Voting ends 2025-09-23
   
   Expedite voting for upgrades
-  Yes 172,265 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 100.0% (172,265) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
   
     #4 – Upgrade Proposal: v0.2.2
@@ -26825,7 +26825,7 @@ Models / IBC1
     Voting ends 2025-09-24
   
   Upgrade Proposal: v0.2.2
-  Yes 109 (0.1%) · No 0 (0.0%) · Veto 109,637 (99.9%) · Abstain 0 (0.0%)
+  Yes 0.1% (109) · No 0.0% (0) · Veto 99.9% (109,637) · Abstain 0.0% (0)
 
   
     #3 – Increase PoC Validation Length
@@ -26836,7 +26836,7 @@ Models / IBC1
     Voting ends 2025-09-20
   
   Proposal updates poc_validation_duration from 20 to 100.
-  Yes 162,514 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 100.0% (162,514) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
   
     #2 – Proposal introducing new Qwen3 models
@@ -26847,7 +26847,7 @@ Models / IBC1
     Voting ends 2025-09-11
   
   This proposal introduces new Qwen3 models including Qwen3-32B-FP8 and Qwen3-235B-A22B-Instruct-2507-FP8, along with updating parameters for Qwen2.5-7B-Instruct and QwQ-32B.
-  Yes 62,612 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 100.0% (62,612) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
   
     #1 – Correct Epoch Length
@@ -26858,7 +26858,7 @@ Models / IBC1
     Voting ends 2025-09-07
   
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
-  Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
 ← Back to all proposals
 
@@ -26932,10 +26932,10 @@ Proposal updates epoch_length and restrictions length according to real block le
     
   
   
-    Yes 74,474 (100.0%)
-    No 0 (0.0%)
-    Veto 0 (0.0%)
-    Abstain 0 (0.0%)
+    Yes 100.0% (74,474)
+    No 0.0% (0)
+    Veto 0.0% (0)
+    Abstain 0.0% (0)
     Total 74,474 votes
     
   
@@ -27231,10 +27231,10 @@ This proposal introduces new Qwen3 models including Qwen3-32B-FP8 and Qwen3-235B
     
   
   
-    Yes 62,612 (100.0%)
-    No 0 (0.0%)
-    Veto 0 (0.0%)
-    Abstain 0 (0.0%)
+    Yes 100.0% (62,612)
+    No 0.0% (0)
+    Veto 0.0% (0)
+    Abstain 0.0% (0)
     Total 62,612 votes
     
   
@@ -27400,10 +27400,10 @@ Proposal updates poc_validation_duration from 20 to 100.
     
   
   
-    Yes 162,514 (100.0%)
-    No 0 (0.0%)
-    Veto 0 (0.0%)
-    Abstain 0 (0.0%)
+    Yes 100.0% (162,514)
+    No 0.0% (0)
+    Veto 0.0% (0)
+    Abstain 0.0% (0)
     Total 162,514 votes
     
   
@@ -27781,10 +27781,10 @@ Upgrade Proposal: v0.2.2
     
   
   
-    Yes 109 (0.1%)
-    No 0 (0.0%)
-    Veto 109,637 (99.9%)
-    Abstain 0 (0.0%)
+    Yes 0.1% (109)
+    No 0.0% (0)
+    Veto 99.9% (109,637)
+    Abstain 0.0% (0)
     Total 109,746 votes
     
   
@@ -27848,10 +27848,10 @@ Expedite voting for upgrades
     
   
   
-    Yes 172,265 (100.0%)
-    No 0 (0.0%)
-    Veto 0 (0.0%)
-    Abstain 0 (0.0%)
+    Yes 100.0% (172,265)
+    No 0.0% (0)
+    Veto 0.0% (0)
+    Abstain 0.0% (0)
     Total 172,265 votes
     
   
@@ -28114,10 +28114,10 @@ Upgrade Proposal: v0.2.2
     
   
   
-    Yes 130,079 (100.0%)
-    No 0 (0.0%)
-    Veto 0 (0.0%)
-    Abstain 0 (0.0%)
+    Yes 100.0% (130,079)
+    No 0.0% (0)
+    Veto 0.0% (0)
+    Abstain 0.0% (0)
     Total 130,079 votes
     
   
@@ -28189,7 +28189,7 @@ Funding / Grants1
     Voting ends 2025-12-26
   
   Expected amount of Confirmation PoC per epoch to 4, p0 for binomial test to 0.1
-  Yes 3,261,413 (100.0%) · No 85 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 100.0% (3,261,413) · No 0.0% (85) · Veto 0.0% (0) · Abstain 0.0% (0)
 
   
     #16 – Upgrade Proposal: v0.2.6
@@ -28200,7 +28200,7 @@ Funding / Grants1
     Voting ends 2025-12-20
   
   Upgrade Proposal: v0.2.6
-  Yes 1,985,917 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)30,000 GNK · Bounty Reward
+  Yes 100.0% (1,985,917) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)30,000 GNK · Bounty Reward
 
   
     #15 – Upgrade Proposal: v0.2.6
@@ -28211,7 +28211,7 @@ Funding / Grants1
     Voting ends 2025-12-17
   
   Upgrade Proposal: v0.2.6
-  Yes 1,034,445 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)30,000 GNK · Bounty Reward
+  Yes 100.0% (1,034,445) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)30,000 GNK · Bounty Reward
 
   
     #14 – Sale GNK from Community Fund
@@ -28222,7 +28222,7 @@ Funding / Grants1
     Voting ends 2025-11-27
   
   Sale GNK from Community Fund
-  Yes 1,180,961 (98.8%) · No 9,781 (0.8%) · Veto 4,577 (0.4%) · Abstain 0 (0.0%)20,000,000 GNK · Community Pool
+  Yes 98.8% (1,180,961) · No 0.8% (9,781) · Veto 0.4% (4,577) · Abstain 0.0% (0)20,000,000 GNK · Community Pool
 
   
     #13 – Upgrade Proposal: v0.2.5
@@ -28233,7 +28233,7 @@ Funding / Grants1
     Voting ends 2025-11-22
   
   Upgrade Proposal: v0.2.5
-  Yes 428,459 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 100.0% (428,459) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
   
     #12 – Bandwidth Limits
@@ -28244,7 +28244,7 @@ Funding / Grants1
     Voting ends 2025-11-13
   
   Bandwidth Limits
-  Yes 257,565 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 100.0% (257,565) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
   
     #11 – Bandwidth Limits
@@ -28255,7 +28255,7 @@ Funding / Grants1
     Voting ends 2025-11-12
   
   Bandwidth Limits
-  Yes 349,596 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 100.0% (349,596) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
   
     #10 – Bandwidth Limits
@@ -28266,7 +28266,7 @@ Funding / Grants1
     Voting ends 2025-11-12
   
   Bandwidth Limits
-  Yes 287,496 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 100.0% (287,496) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
   
     #9 – Higher Bandwidth Limits & Voting Time Back to 24H
@@ -28277,7 +28277,7 @@ Funding / Grants1
     Voting ends 2025-11-11
   
   Higher Bandwidth Limits & Voting Time Back to 24H
-  Yes 394,887 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 100.0% (394,887) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
   
     #8 – Upgrade Proposal: v0.2.4
@@ -28288,7 +28288,7 @@ Funding / Grants1
     Voting ends 2025-10-22
   
   Upgrade Proposal: v0.2.4
-  Yes 286,826 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 100.0% (286,826) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
   
     #7 – Upgrade Proposal: v0.2.3
@@ -28299,7 +28299,7 @@ Funding / Grants1
     Voting ends 2025-10-03
   
   Upgrade Proposal: v0.2.3
-  Yes 132,672 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 100.0% (132,672) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
 ← Back to all proposals
 
@@ -28338,10 +28338,10 @@ Bandwidth Limits
     
   
   
-    Yes 287,496 (100.0%)
-    No 0 (0.0%)
-    Veto 0 (0.0%)
-    Abstain 0 (0.0%)
+    Yes 100.0% (287,496)
+    No 0.0% (0)
+    Veto 0.0% (0)
+    Abstain 0.0% (0)
     Total 287,496 votes
     
   
@@ -28587,10 +28587,10 @@ Bandwidth Limits
     
   
   
-    Yes 349,596 (100.0%)
-    No 0 (0.0%)
-    Veto 0 (0.0%)
-    Abstain 0 (0.0%)
+    Yes 100.0% (349,596)
+    No 0.0% (0)
+    Veto 0.0% (0)
+    Abstain 0.0% (0)
     Total 349,596 votes
     
   
@@ -28836,10 +28836,10 @@ Bandwidth Limits
     
   
   
-    Yes 257,565 (100.0%)
-    No 0 (0.0%)
-    Veto 0 (0.0%)
-    Abstain 0 (0.0%)
+    Yes 100.0% (257,565)
+    No 0.0% (0)
+    Veto 0.0% (0)
+    Abstain 0.0% (0)
     Total 257,565 votes
     
   
@@ -29260,10 +29260,10 @@ Upgrade Proposal: v0.2.5
     
   
   
-    Yes 428,459 (100.0%)
-    No 0 (0.0%)
-    Veto 0 (0.0%)
-    Abstain 0 (0.0%)
+    Yes 100.0% (428,459)
+    No 0.0% (0)
+    Veto 0.0% (0)
+    Abstain 0.0% (0)
     Total 428,459 votes
     
   
@@ -29327,10 +29327,10 @@ Sale GNK from Community Fund
     
   
   
-    Yes 1,180,961 (98.8%)
-    No 9,781 (0.8%)
-    Veto 4,577 (0.4%)
-    Abstain 0 (0.0%)
+    Yes 98.8% (1,180,961)
+    No 0.8% (9,781)
+    Veto 0.4% (4,577)
+    Abstain 0.0% (0)
     Total 1,195,319 votes
     
   
@@ -29570,10 +29570,10 @@ Upgrade Proposal: v0.2.6
     
   
   
-    Yes 1,034,445 (100.0%)
-    No 0 (0.0%)
-    Veto 0 (0.0%)
-    Abstain 0 (0.0%)
+    Yes 100.0% (1,034,445)
+    No 0.0% (0)
+    Veto 0.0% (0)
+    Abstain 0.0% (0)
     Total 1,034,445 votes
     
   
@@ -29811,10 +29811,10 @@ Upgrade Proposal: v0.2.6
     
   
   
-    Yes 1,985,917 (100.0%)
-    No 0 (0.0%)
-    Veto 0 (0.0%)
-    Abstain 0 (0.0%)
+    Yes 100.0% (1,985,917)
+    No 0.0% (0)
+    Veto 0.0% (0)
+    Abstain 0.0% (0)
     Total 1,985,917 votes
     
   
@@ -29876,10 +29876,10 @@ Expected amount of Confirmation PoC per epoch to 4, p0 for binomial test to 0.1
     
   
   
-    Yes 3,261,413 (100.0%)
-    No 85 (0.0%)
-    Veto 0 (0.0%)
-    Abstain 0 (0.0%)
+    Yes 100.0% (3,261,413)
+    No 0.0% (85)
+    Veto 0.0% (0)
+    Abstain 0.0% (0)
     Total 3,261,498 votes
     
   
@@ -30285,10 +30285,10 @@ Upgrade Proposal: v0.2.3
     
   
   
-    Yes 132,672 (100.0%)
-    No 0 (0.0%)
-    Veto 0 (0.0%)
-    Abstain 0 (0.0%)
+    Yes 100.0% (132,672)
+    No 0.0% (0)
+    Veto 0.0% (0)
+    Abstain 0.0% (0)
     Total 132,672 votes
     
   
@@ -30468,10 +30468,10 @@ Upgrade Proposal: v0.2.4
     
   
   
-    Yes 286,826 (100.0%)
-    No 0 (0.0%)
-    Veto 0 (0.0%)
-    Abstain 0 (0.0%)
+    Yes 100.0% (286,826)
+    No 0.0% (0)
+    Veto 0.0% (0)
+    Abstain 0.0% (0)
     Total 286,826 votes
     
   
@@ -30533,10 +30533,10 @@ Higher Bandwidth Limits & Voting Time Back to 24H
     
   
   
-    Yes 394,887 (100.0%)
-    No 0 (0.0%)
-    Veto 0 (0.0%)
-    Abstain 0 (0.0%)
+    Yes 100.0% (394,887)
+    No 0.0% (0)
+    Veto 0.0% (0)
+    Abstain 0.0% (0)
     Total 394,887 votes
     
   
@@ -30824,7 +30824,7 @@ Other2
     Voting ends 2026-03-31
   
   This proposal seeks community approval for a global media initiative to build awareness of decentralized AI and position Gonka as core AI infrastructure.  Key elements: Led by TheSoul Group (full-cycl…
-  Yes 9,150 (25.5%) · No 10,325 (28.8%) · Veto 2,450 (6.8%) · Abstain 13,939 (38.9%)970,000 GNK · Community Pool
+  Yes 25.5% (9,150) · No 28.8% (10,325) · Veto 6.8% (2,450) · Abstain 38.9% (13,939)970,000 GNK · Community Pool
 
   
     #34 – gonka.ai / TheSoul social media awareness project
@@ -30845,7 +30845,7 @@ Other2
     Voting ends 2026-03-27
   
   Distribute compensation for CPoC bug affected participants in epochs 132-133.
-  Yes 184,243 (41.8%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 256,296 (58.2%)3,100 GNK · Community Pool · 24,806 GNK · Gov Module
+  Yes 41.8% (184,243) · No 0.0% (0) · Veto 0.0% (0) · Abstain 58.2% (256,296)3,100 GNK · Community Pool · 24,806 GNK · Gov Module
 
   
     #32 – Epoch 158 compensation payout from gov module (batch vesting)
@@ -30856,7 +30856,7 @@ Other2
     Voting ends 2026-03-24
   
   Distribute compensation proportional to epoch 158 lost preserved weights. Implemented as one MsgBatchTransferWithVesting.
-  Yes 501,114 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)500 GNK · Community Pool · 30,038 GNK · Gov Module
+  Yes 100.0% (501,114) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)500 GNK · Community Pool · 30,038 GNK · Gov Module
 
   
     #31 – Upgrade Proposal: v0.2.11
@@ -30867,7 +30867,7 @@ Other2
     Voting ends 2026-03-20
   
   Upgrade Proposal: v0.2.11
-  Yes 673,699 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)150,750 GNK · Bounty Reward
+  Yes 100.0% (673,699) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)150,750 GNK · Bounty Reward
 
   
     #30 – Test Proposal
@@ -30878,7 +30878,7 @@ Other2
     Voting ends 2026-03-10
   
   Testing governance voting from the wallet app.
-  Yes 0 (0.0%) · No 47 (100.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 0.0% (0) · No 100.0% (47) · Veto 0.0% (0) · Abstain 0.0% (0)
 
   
     #29 – Network Parameters Update: Disable TA Allowlist, Increase Prices 100x
@@ -30889,7 +30889,7 @@ Other2
     Voting ends 2026-02-20
   
   Remove TransferAgent allowlist restrictions (empty list = all TAs allowed) and increase per-token pricing 100x (min 100, base 10000 ngonka) to reduce spam.
-  Yes 7,314 (2.9%) · No 0 (0.0%) · Veto 243,060 (97.1%) · Abstain 0 (0.0%)
+  Yes 2.9% (7,314) · No 0.0% (0) · Veto 97.1% (243,060) · Abstain 0.0% (0)
 
   
     #28 – Collateral Parameters Update
@@ -30900,7 +30900,7 @@ Other2
     Voting ends 2026-02-19
   
   0.032 GNK per 1 unit of power, 0.01% slashing for miss rate or jail, 0.5% slashing for invalid inference
-  Yes 314,460 (96.5%) · No 11,504 (3.5%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 96.5% (314,460) · No 3.5% (11,504) · Veto 0.0% (0) · Abstain 0.0% (0)
 
   
     #27 – Upgrade Proposal: v0.2.10
@@ -30911,7 +30911,7 @@ Other2
     Voting ends 2026-02-18
   
   Upgrade Proposal: v0.2.10
-  Yes 1,540,653 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)23,000 GNK · Bounty Reward
+  Yes 100.0% (1,540,653) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)23,000 GNK · Bounty Reward
 
   
     #26 – Upgrade Proposal: v0.2.9
@@ -30922,7 +30922,7 @@ Other2
     Voting ends 2026-02-01
   
   Upgrade Proposal: v0.2.9
-  Yes 2,708,406 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 100.0% (2,708,406) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
   
     #25 – Upgrade Proposal: v0.2.8
@@ -30933,7 +30933,7 @@ Other2
     Voting ends 2026-01-29
   
   Upgrade Proposal: v0.2.8
-  Yes 4,153,562 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 100.0% (4,153,562) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
   
     #24 – Upgrade Proposal: v0.2.8
@@ -30954,7 +30954,7 @@ Other2
     Voting ends 2026-01-18
   
   Update Expiration Dates for Developer Access and Participant Allowlist
-  Yes 3,476,742 (99.9%) · No 2,836 (0.1%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 99.9% (3,476,742) · No 0.1% (2,836) · Veto 0.0% (0) · Abstain 0.0% (0)
 
   
     #21 – Fix mistakes in allowlist
@@ -30965,7 +30965,7 @@ Other2
     Voting ends 2026-01-12
   
   https://github.com/product-science/filter/tree/0354c37eb6c827f00c1e889a2b7de9952a9b84ba
-  Yes 3,020,391 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 100.0% (3,020,391) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
   
     #20 – Enable Whitelist
@@ -30976,7 +30976,7 @@ Other2
     Voting ends 2026-01-10
   
   https://github.com/product-science/filter/tree/ae59d27f04a70039bcfca94ae656e723982150cd
-  Yes 2,111,775 (90.1%) · No 90,320 (3.9%) · Veto 140,607 (6.0%) · Abstain 0 (0.0%)
+  Yes 90.1% (2,111,775) · No 3.9% (90,320) · Veto 6.0% (140,607) · Abstain 0.0% (0)
 
   
     #19 – Upgrade Proposal: v0.2.7
@@ -30987,7 +30987,7 @@ Other2
     Voting ends 2026-01-08
   
   Upgrade Proposal: v0.2.7
-  Yes 3,886,156 (96.1%) · No 148,604 (3.7%) · Veto 8,096 (0.2%) · Abstain 0 (0.0%)
+  Yes 96.1% (3,886,156) · No 3.7% (148,604) · Veto 0.2% (8,096) · Abstain 0.0% (0)
 
   
     #18 – Test
@@ -30998,7 +30998,7 @@ Other2
     Voting ends 2026-01-05
   
   Test proposal
-  Yes 4,237 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 100.0% (4,237) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
 ← Back to all proposals
 
@@ -31039,10 +31039,10 @@ Test proposal
     
   
   
-    Yes 4,237 (100.0%)
-    No 0 (0.0%)
-    Veto 0 (0.0%)
-    Abstain 0 (0.0%)
+    Yes 100.0% (4,237)
+    No 0.0% (0)
+    Veto 0.0% (0)
+    Abstain 0.0% (0)
     Total 4,237 votes
     
   
@@ -31236,10 +31236,10 @@ Upgrade Proposal: v0.2.7
     
   
   
-    Yes 3,886,156 (96.1%)
-    No 148,604 (3.7%)
-    Veto 8,096 (0.2%)
-    Abstain 0 (0.0%)
+    Yes 96.1% (3,886,156)
+    No 3.7% (148,604)
+    Veto 0.2% (8,096)
+    Abstain 0.0% (0)
     Total 4,042,856 votes
     
   
@@ -31299,10 +31299,10 @@ Passed
     
   
   
-    Yes 2,111,775 (90.1%)
-    No 90,320 (3.9%)
-    Veto 140,607 (6.0%)
-    Abstain 0 (0.0%)
+    Yes 90.1% (2,111,775)
+    No 3.9% (90,320)
+    Veto 6.0% (140,607)
+    Abstain 0.0% (0)
     Total 2,342,702 votes
     
   
@@ -33444,10 +33444,10 @@ Passed
     
   
   
-    Yes 3,020,391 (100.0%)
-    No 0 (0.0%)
-    Veto 0 (0.0%)
-    Abstain 0 (0.0%)
+    Yes 100.0% (3,020,391)
+    No 0.0% (0)
+    Veto 0.0% (0)
+    Abstain 0.0% (0)
     Total 3,020,391 votes
     
   
@@ -33820,10 +33820,10 @@ Update Expiration Dates for Developer Access and Participant Allowlist
     
   
   
-    Yes 3,476,742 (99.9%)
-    No 2,836 (0.1%)
-    Veto 0 (0.0%)
-    Abstain 0 (0.0%)
+    Yes 99.9% (3,476,742)
+    No 0.1% (2,836)
+    Veto 0.0% (0)
+    Abstain 0.0% (0)
     Total 3,479,578 votes
     
   
@@ -34313,10 +34313,10 @@ Upgrade Proposal: v0.2.8
     
   
   
-    Yes 0 (0.0%)
-    No 0 (0.0%)
-    Veto 3,775,640 (100.0%)
-    Abstain 0 (0.0%)
+    Yes 0.0% (0)
+    No 0.0% (0)
+    Veto 100.0% (3,775,640)
+    Abstain 0.0% (0)
     Total 3,775,640 votes
     
   
@@ -34519,10 +34519,10 @@ Upgrade Proposal: v0.2.8
     
   
   
-    Yes 4,153,562 (100.0%)
-    No 0 (0.0%)
-    Veto 0 (0.0%)
-    Abstain 0 (0.0%)
+    Yes 100.0% (4,153,562)
+    No 0.0% (0)
+    Veto 0.0% (0)
+    Abstain 0.0% (0)
     Total 4,153,562 votes
     
   
@@ -34709,10 +34709,10 @@ Upgrade Proposal: v0.2.9
     
   
   
-    Yes 2,708,406 (100.0%)
-    No 0 (0.0%)
-    Veto 0 (0.0%)
-    Abstain 0 (0.0%)
+    Yes 100.0% (2,708,406)
+    No 0.0% (0)
+    Veto 0.0% (0)
+    Abstain 0.0% (0)
     Total 2,708,406 votes
     
   
@@ -34942,10 +34942,10 @@ Upgrade Proposal: v0.2.10
     
   
   
-    Yes 1,540,653 (100.0%)
-    No 0 (0.0%)
-    Veto 0 (0.0%)
-    Abstain 0 (0.0%)
+    Yes 100.0% (1,540,653)
+    No 0.0% (0)
+    Veto 0.0% (0)
+    Abstain 0.0% (0)
     Total 1,540,653 votes
     
   
@@ -35009,10 +35009,10 @@ Rejected
     
   
   
-    Yes 314,460 (96.5%)
-    No 11,504 (3.5%)
-    Veto 0 (0.0%)
-    Abstain 0 (0.0%)
+    Yes 96.5% (314,460)
+    No 3.5% (11,504)
+    Veto 0.0% (0)
+    Abstain 0.0% (0)
     Total 325,964 votes
     
   
@@ -35386,10 +35386,10 @@ Remove TransferAgent allowlist restrictions (empty list = all TAs allowed) and i
     
   
   
-    Yes 7,314 (2.9%)
-    No 0 (0.0%)
-    Veto 243,060 (97.1%)
-    Abstain 0 (0.0%)
+    Yes 2.9% (7,314)
+    No 0.0% (0)
+    Veto 97.1% (243,060)
+    Abstain 0.0% (0)
     Total 250,374 votes
     
   
@@ -35755,10 +35755,10 @@ Testing governance voting from the wallet app.
     
   
   
-    Yes 0 (0.0%)
-    No 47 (100.0%)
-    Veto 0 (0.0%)
-    Abstain 0 (0.0%)
+    Yes 0.0% (0)
+    No 100.0% (47)
+    Veto 0.0% (0)
+    Abstain 0.0% (0)
     Total 47 votes
     
   
@@ -35933,10 +35933,10 @@ Upgrade Proposal: v0.2.11
     
   
   
-    Yes 673,699 (100.0%)
-    No 0 (0.0%)
-    Veto 0 (0.0%)
-    Abstain 0 (0.0%)
+    Yes 100.0% (673,699)
+    No 0.0% (0)
+    Veto 0.0% (0)
+    Abstain 0.0% (0)
     Total 673,699 votes
     
   
@@ -36030,10 +36030,10 @@ Distribute compensation proportional to epoch 158 lost preserved weights. Implem
     
   
   
-    Yes 501,114 (100.0%)
-    No 0 (0.0%)
-    Veto 0 (0.0%)
-    Abstain 0 (0.0%)
+    Yes 100.0% (501,114)
+    No 0.0% (0)
+    Veto 0.0% (0)
+    Abstain 0.0% (0)
     Total 501,114 votes
     
   
@@ -37590,10 +37590,10 @@ Distribute compensation for CPoC bug affected participants in epochs 132-133.
     
   
   
-    Yes 184,243 (41.8%)
-    No 0 (0.0%)
-    Veto 0 (0.0%)
-    Abstain 256,296 (58.2%)
+    Yes 41.8% (184,243)
+    No 0.0% (0)
+    Veto 0.0% (0)
+    Abstain 58.2% (256,296)
     Total 440,539 votes
     
   
@@ -38210,10 +38210,10 @@ Full presentation:
     
   
   
-    Yes 9,150 (25.5%)
-    No 10,325 (28.8%)
-    Veto 2,450 (6.8%)
-    Abstain 13,939 (38.9%)
+    Yes 25.5% (9,150)
+    No 28.8% (10,325)
+    Veto 6.8% (2,450)
+    Abstain 38.9% (13,939)
     Total 35,864 votes
     
   
@@ -38289,7 +38289,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-06-26
   
   Add Kimi K2.6 and GLM 5.2 model
-  Yes 330,364 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 100.0% (330,364) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
   
     #78 – Governance 17: update PoC model lineup
@@ -38300,7 +38300,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-06-25
   
   Set delegation initial_model_id to MiniMaxAI/MiniMax-M2.7, keep only MiniMaxAI/MiniMax-M2.7 in PoC params, remove Qwen/Qwen3-235B-A22B-Instruct-2507-FP8, moonshotai/Kimi-K2.6 from PoC params, and dele…
-  Yes 255,215 (97.1%) · No 170 (0.1%) · Veto 0 (0.0%) · Abstain 7,390 (2.8%)
+  Yes 97.1% (255,215) · No 0.1% (170) · Veto 0.0% (0) · Abstain 2.8% (7,390)
 
   
     #77 – Gonka PR Proposal for US/Global Regions
@@ -38311,7 +38311,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-06-26
   
   We are INPUT Global - a leading web3 marketing communications agency. We offer 3 month PR campaign to establish trust and market legitimacy of Gonka across 2 audiences: global business and crypto-nati…
-  Yes 152,042 (100.0%) · No 71 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)$75,000 · Community Pool
+  Yes 100.0% (152,042) · No 0.0% (71) · Veto 0.0% (0) · Abstain 0.0% (0)$75,000 · Community Pool
   report12026-07-17
   report22026-07-24
   report32026-07-31
@@ -38325,7 +38325,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-06-17
   
   Register devshard approved version v2.
-  Yes 239,924 (100.0%) · No 17 (0.0%) · Veto 0 (0.0%) · Abstain 16 (0.0%)$93,600 · Community Pool
+  Yes 100.0% (239,924) · No 0.0% (17) · Veto 0.0% (0) · Abstain 0.0% (16)$93,600 · Community Pool
 
   
     #75 – Private Inc × Gonka — Network Growth Initiative
@@ -38346,7 +38346,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-06-12
   
   Full proposal: https://gonkalabs.com/proposal  This proposal funds the next six months of work for the Gonka ecosystem.  The focus is production-grade infrastructure and high-use products: Gonka.gg V2…
-  Yes 305,163 (79.6%) · No 3,791 (1.0%) · Veto 15 (0.0%) · Abstain 74,304 (19.4%)$70,000 · Community Pool · 330,000 GNK · Gov Module
+  Yes 79.6% (305,163) · No 1.0% (3,791) · Veto 0.0% (15) · Abstain 19.4% (74,304)$70,000 · Community Pool · 330,000 GNK · Gov Module
   report12026-07-18
 
   
@@ -38358,7 +38358,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-06-12
   
   Increase the minimum deposit required to submit a governance proposal to 500 GNK (500,000,000,000 ngonka) and expedited minimum deposit to 1000 GNK (1,000,000,000,000 ngonka). This resubmits proposal …
-  Yes 295,843 (96.3%) · No 40 (0.0%) · Veto 572 (0.2%) · Abstain 10,823 (3.5%)
+  Yes 96.3% (295,843) · No 0.0% (40) · Veto 0.2% (572) · Abstain 3.5% (10,823)
 
   
     #72 – Open devshard escrow creation to community wallet gonka1afj0tz53z56zngs425m83vxl5y2xmwm692hfrn
@@ -38369,7 +38369,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-06-12
   
   Adds a community-operated wallet to devshard_escrow_params.allowed_creator_addresses, enabling it to create a devshard escrow and operate as an additional self-hosted inference gateway/transfer agent.…
-  Yes 5,337 (2.2%) · No 7,953 (3.3%) · Veto 221,234 (90.7%) · Abstain 9,421 (3.9%)
+  Yes 2.2% (5,337) · No 3.3% (7,953) · Veto 90.7% (221,234) · Abstain 3.9% (9,421)
 
   
     #71 – Gonka PR Proposal for US/Global Regions
@@ -38380,7 +38380,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-06-10
   
   We're a comms team specializing in Organic PR for crypto and tech projects. With strong competition in the space and no active events or marketing currently running for Gonka, we propose a 3-month Org…
-  Yes 180,108 (99.8%) · No 72 (0.0%) · Veto 0 (0.0%) · Abstain 233 (0.1%)$75,000 · Community Pool
+  Yes 99.8% (180,108) · No 0.0% (72) · Veto 0.0% (0) · Abstain 0.1% (233)$75,000 · Community Pool
 
   
     #70 – GNK Racers: Launch GameFi Mini-App to Drive User Growth & Wallet Activity
@@ -38391,7 +38391,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-06-08
   
   Release 246,000 GNK from Community Fund to finalize GNK Racers — a multiplayer side-view racing mini-app with a live working prototype (@GNKRacers_bot). The game drives new user acquisition, wallet ac…
-  Yes 38,621 (25.0%) · No 107,644 (69.6%) · Veto 6,241 (4.0%) · Abstain 2,245 (1.5%)246,000 GNK · Community Pool
+  Yes 25.0% (38,621) · No 69.6% (107,644) · Veto 4.0% (6,241) · Abstain 1.5% (2,245)246,000 GNK · Community Pool
 
   
     #69 – Increase minimum governance deposit to 500 GNK
@@ -38402,7 +38402,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-06-07
   
   Increase the minimum deposit required to submit a governance proposal from the current value to 500 GNK. Also sets expedited minimum deposit to 1000 GNK.
-  Yes 199,799 (96.9%) · No 46 (0.0%) · Veto 4,202 (2.0%) · Abstain 2,210 (1.1%)
+  Yes 96.9% (199,799) · No 0.0% (46) · Veto 2.0% (4,202) · Abstain 1.1% (2,210)
 
   
     #68 – Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)
@@ -38413,7 +38413,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-06-07
   
   The proposal is reopened for voting at the initiative of several hosts who did not participate in the previous round.  • There are no changes to the substance of the proposal; only timeline commitment…
-  Yes 260,353 (96.4%) · No 749 (0.3%) · Veto 6,288 (2.3%) · Abstain 2,546 (0.9%)$70,000 · Community Pool
+  Yes 96.4% (260,353) · No 0.3% (749) · Veto 2.3% (6,288) · Abstain 0.9% (2,546)$70,000 · Community Pool
 
   
     #67 – Kimi Restitution (epochs 265-276)
@@ -38424,7 +38424,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-06-05
   
   Distribute restitution for Kimi operators across epochs 265-276. Epochs 265-266: external attack causing CPoC degradation and nonce exclusion. Epochs 267-276: ComputeGroupCap systematic underpayment d…
-  Yes 319,920 (78.9%) · No 150 (0.0%) · Veto 84,623 (20.9%) · Abstain 744 (0.2%)946,509 GNK · Gov Module
+  Yes 78.9% (319,920) · No 0.0% (150) · Veto 20.9% (84,623) · Abstain 0.2% (744)946,509 GNK · Gov Module
 
   
     #66 – test proposal - 测试方案
@@ -38445,7 +38445,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-06-04
   
   Full 360-degree digital and social strategy for Gonka.AI: channel matrix, content plan, segment messaging, social strategy, and brand-voice guidelines. Single-tranche payment of 100,000 GNK to TheSoul…
-  Yes 220,798 (67.9%) · No 0 (0.0%) · Veto 70,043 (21.5%) · Abstain 34,369 (10.6%)100,000 GNK · Community Pool
+  Yes 67.9% (220,798) · No 0.0% (0) · Veto 21.5% (70,043) · Abstain 10.6% (34,369)100,000 GNK · Community Pool
 
   
     #64 – TheSoul - Offer 2.2: Analytics and attribution (28,000 GNK)
@@ -38456,7 +38456,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-06-04
   
   Web analytics, attribution, and funnel dashboarding for Gonka.AI: GA4 implementation, UTM taxonomy, event tracking, and conversion reporting. Single-tranche payment of 28,000 GNK to TheSoul on proposa…
-  Yes 220,798 (67.9%) · No 0 (0.0%) · Veto 70,043 (21.5%) · Abstain 34,369 (10.6%)28,000 GNK · Community Pool
+  Yes 67.9% (220,798) · No 0.0% (0) · Veto 21.5% (70,043) · Abstain 10.6% (34,369)28,000 GNK · Community Pool
 
   
     #63 – TheSoul - Offer 2.1: Website and landings (10,000 USDT)
@@ -38467,7 +38467,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-06-04
   
   Full redesign of gonka.ai plus dedicated landing pages for miners, inference buyers, and investors, built on the brandbook from Offer 1.2. Single-tranche payment of 10,000 USDT to TheSoul on proposal …
-  Yes 220,798 (67.9%) · No 0 (0.0%) · Veto 70,043 (21.5%) · Abstain 34,369 (10.6%)$10,000 · Community Pool
+  Yes 67.9% (220,798) · No 0.0% (0) · Veto 21.5% (70,043) · Abstain 10.6% (34,369)$10,000 · Community Pool
 
   
     #62 – TheSoul - Offer 1.3: Influencer pilot (50,000 USDT)
@@ -38478,7 +38478,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-06-04
   
   Crypto-influencer pilot campaign for Gonka.AI across selected tier-1 creators, with a full performance report and scaling recommendations. Single-tranche payment of 50,000 USDT to TheSoul on proposal …
-  Yes 220,798 (67.9%) · No 0 (0.0%) · Veto 70,043 (21.5%) · Abstain 34,369 (10.6%)$50,000 · Community Pool
+  Yes 67.9% (220,798) · No 0.0% (0) · Veto 21.5% (70,043) · Abstain 10.6% (34,369)$50,000 · Community Pool
 
   
     #61 – TheSoul - Offer 1.2: Brandbook (20,000 USDT)
@@ -38489,7 +38489,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-06-04
   
   Brand identity system for Gonka.AI: logo, typography, color system, graphic language, layout principles, and templates, built on the positioning from Offer 1.1. Single-tranche payment of 20,000 USDT t…
-  Yes 220,798 (67.9%) · No 0 (0.0%) · Veto 70,043 (21.5%) · Abstain 34,369 (10.6%)$20,000 · Community Pool
+  Yes 67.9% (220,798) · No 0.0% (0) · Veto 21.5% (70,043) · Abstain 10.6% (34,369)$20,000 · Community Pool
 
   
     #60 – TheSoul - Offer 1.1: Brand positioning (25,000 USDT)
@@ -38500,7 +38500,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-06-04
   
   Brand audit, competitive positioning, and audience segmentation for Gonka.AI. Single-tranche payment of 25,000 USDT to TheSoul on proposal pass. Full offer document: see the metadata URL.
-  Yes 220,798 (67.9%) · No 0 (0.0%) · Veto 70,043 (21.5%) · Abstain 34,369 (10.6%)$25,000 · Community Pool
+  Yes 67.9% (220,798) · No 0.0% (0) · Veto 21.5% (70,043) · Abstain 10.6% (34,369)$25,000 · Community Pool
 
   
     #59 – Gonka Onboarding Video Guide — Milestone 1 (Prepayment)
@@ -38511,7 +38511,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-06-02
   
   Funds milestone 1 (upfront prepayment) of a community-produced onboarding video guide for Gonka. Deliverable: a series of ~15 short, interactive, easy-to-follow videos covering A-to-Z onboarding for b…
-  Yes 24,505 (43.6%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 31,699 (56.4%)$5,000 · Community Pool
+  Yes 43.6% (24,505) · No 0.0% (0) · Veto 0.0% (0) · Abstain 56.4% (31,699)$5,000 · Community Pool
 
   
     #58 – Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)
@@ -38522,7 +38522,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-05-30
   
   # Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)  70,000 USDT from the CommunityPool for a dedicated Falcon Finance deep-dive on Gonka AI. Full proposal: https://vote.gonka.vip/tenders…
-  Yes 98,018 (53.4%) · No 0 (0.0%) · Veto 85,697 (46.6%) · Abstain 0 (0.0%)$70,000 · Community Pool
+  Yes 53.4% (98,018) · No 0.0% (0) · Veto 46.6% (85,697) · Abstain 0.0% (0)$70,000 · Community Pool
 
   
     #57 – Approve the Gonka Network Development Roadmap
@@ -38533,7 +38533,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-05-30
   
   This proposal approves the Gonka Network Development Roadmap as a strategic direction document for Gonka's future development tracks.  If approved, the roadmap should become the shared vision for Gonk…
-  Yes 257,150 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 100.0% (257,150) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
   
     #56 – INC4 | Gonka NOP - grant for the node deployment tool
@@ -38544,7 +38544,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-05-27
   
   # Gonka NOP: grant for the node deployment tool  50,000 USDT from the CommunityPool to INC4 Full proposal: https://github.com/gonka-ai/gonka/discussions/1192  ## What it is  gonka-nop (Node Onboarding…
-  Yes 31,851 (58.6%) · No 9,566 (17.6%) · Veto 12,961 (23.8%) · Abstain 0 (0.0%)$50,000 · Community Pool
+  Yes 58.6% (31,851) · No 17.6% (9,566) · Veto 23.8% (12,961) · Abstain 0.0% (0)$50,000 · Community Pool
 
   
     #55 – GRC Proposal #2 - Restitution (epochs 248-254)
@@ -38555,7 +38555,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-05-23
   
   Distribute restitution for Cases 2, 3, and 4 across epochs 248-254. Case 2: preserver weight double-scaling bug (epochs 249-253). Case 3: epoch loss restitution: broad epoch losses, consecutive failur…
-  Yes 188,670 (61.2%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 119,835 (38.8%)39,722 GNK · Community Pool · 306,307 GNK · Gov Module
+  Yes 61.2% (188,670) · No 0.0% (0) · Veto 0.0% (0) · Abstain 38.8% (119,835)39,722 GNK · Community Pool · 306,307 GNK · Gov Module
 
   
     #54 – Upgrade Proposal: v0.2.13
@@ -38566,7 +38566,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-05-22
   
   Upgrade Proposal: v0.2.13
-  Yes 228,216 (62.8%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 135,071 (37.2%)$18,875 USDT · Bounty Reward
+  Yes 62.8% (228,216) · No 0.0% (0) · Veto 0.0% (0) · Abstain 37.2% (135,071)$18,875 USDT · Bounty Reward
 
   
     #53 – INC4 | Gonka NOP - grant for the node deployment tool
@@ -38577,7 +38577,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-05-21
   
   # Gonka NOP: grant for the node deployment tool  50,000 USDT from the CommunityPool to INC4 Full proposal: https://github.com/gonka-ai/gonka/discussions/1192  ## What it is  gonka-nop (Node Onboarding…
-  Yes 139,052 (46.8%) · No 0 (0.0%) · Veto 158,195 (53.2%) · Abstain 0 (0.0%)$50,000 · Community Pool
+  Yes 46.8% (139,052) · No 0.0% (0) · Veto 53.2% (158,195) · Abstain 0.0% (0)$50,000 · Community Pool
 
   
     #52 – Upgrade Proposal: v0.2.13
@@ -38588,7 +38588,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-05-17
   
   Upgrade Proposal: v0.2.13
-  Yes 88,420 (34.1%) · No 0 (0.0%) · Veto 170,799 (65.9%) · Abstain 0 (0.0%)$18,875 USDT · Bounty Reward
+  Yes 34.1% (88,420) · No 0.0% (0) · Veto 65.9% (170,799) · Abstain 0.0% (0)$18,875 USDT · Bounty Reward
 
   
     #51 – Support Gonka's presence at WebX Asia
@@ -38599,7 +38599,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-05-15
   
   6Block, a long-term Gonka mining and infrastructure participant, proposes that the Gonka community allocate 75,000 USDT to support Gonka's participation at WebX Asia / WebX 2026 in Tokyo. 6Block has a…
-  Yes 395,003 (62.8%) · No 1,767 (0.3%) · Veto 64,217 (10.2%) · Abstain 168,275 (26.7%)$75,000 · Community Pool
+  Yes 62.8% (395,003) · No 0.3% (1,767) · Veto 10.2% (64,217) · Abstain 26.7% (168,275)$75,000 · Community Pool
   report12026-08-03
 
   
@@ -38611,7 +38611,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-05-09
   
   Retroactive 20K GNK bounty for an open-sourced PoC optimization measuring +10.2% on B200 and +12.5% on H100 with Qwen3-235B-FP8. One-line patch, verified on-chain by independent miners. Details: https…
-  Yes 281,723 (59.1%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 194,589 (40.9%)20,000 GNK · Community Pool
+  Yes 59.1% (281,723) · No 0.0% (0) · Veto 0.0% (0) · Abstain 40.9% (194,589)20,000 GNK · Community Pool
 
   
     #49 – Gonka Media Dominance in TechL/AI with 5 AI Influencers
@@ -38622,7 +38622,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-05-07
   
   We're ICG - AI Influencer Lab, a team that builds and scales hyper-realistic AI avatars on Instagram, TikTok, and YouTube as full ambassadors across verticals. We manage 160+ accounts in AI, finance, …
-  Yes 496,683 (71.1%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 201,560 (28.9%)$45,000 · Community Pool
+  Yes 71.1% (496,683) · No 0.0% (0) · Veto 0.0% (0) · Abstain 28.9% (201,560)$45,000 · Community Pool
   report12026-07-21
 
   
@@ -38634,7 +38634,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-05-05
   
   During the Kimi-K2.6 bootstrap, the 30% direct participation threshold proved hard to meet. To avoid the risk of Kimi-K2.6 becoming ineligible in a future epoch and to simplify onboarding of further m…
-  Yes 808,529 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
+  Yes 100.0% (808,529) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
   
     #47 – Retroactive bounty: open-source PoC throughput optimization (+10–12% measured) with 250 total installations
@@ -38645,7 +38645,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-05-06
   
   Retroactive 20K GNK bounty for an open-sourced PoC optimization measuring +10.2% on B200 and +12.5% on H100 with Qwen3-235B-FP8. One-line patch, verified on-chain by independent miners. Details: https…
-  Yes 70,819 (33.6%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 139,828 (66.4%)20,000 GNK · Community Pool
+  Yes 33.6% (70,819) · No 0.0% (0) · Veto 0.0% (0) · Abstain 66.4% (139,828)20,000 GNK · Community Pool
 
   
     #46 – Epochs 132-247 compensation payout from gov module (batch vesting)
@@ -38656,7 +38656,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-05-04
   
   Two prior upgrades changed the lifecycle of unpaid miner rewards. v0.2.9 (proposal #26, 2026-02-01): when a participant is penalized during cPoC validation, the unaccounted portion of their epoch rewa…
-  Yes 97,030 (36.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 172,837 (64.0%)3,053,800 GNK · Gov Module
+  Yes 36.0% (97,030) · No 0.0% (0) · Veto 0.0% (0) · Abstain 64.0% (172,837)3,053,800 GNK · Gov Module
 
   
     #45 – Governance Architecture Proposal for the Gonka.ai Network
@@ -38667,7 +38667,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-05-01
   
   Replace scattered governance discussions and complex CLI voting with a unified Governance Portal - a single interface for all Gonka governance activity. The portal includes: a proposal feed across Dis…
-  Yes 118,126 (25.6%) · No 0 (0.0%) · Veto 210,906 (45.6%) · Abstain 133,057 (28.8%)119,000 GNK · Community Pool
+  Yes 25.6% (118,126) · No 0.0% (0) · Veto 45.6% (210,906) · Abstain 28.8% (133,057)119,000 GNK · Community Pool
 
   
     #44 – Upgrade Proposal: v0.2.12
@@ -38678,7 +38678,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-04-30
   
   Upgrade Proposal: v0.2.12
-  Yes 506,142 (99.6%) · No 2,057 (0.4%) · Veto 0 (0.0%) · Abstain 0 (0.0%)$35,200 USDT · Bounty Reward
+  Yes 99.6% (506,142) · No 0.4% (2,057) · Veto 0.0% (0) · Abstain 0.0% (0)$35,200 USDT · Bounty Reward
 
   
     #43 – Governance Architecture Proposal for the Gonka.ai Network
@@ -38689,7 +38689,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-04-27
   
   Today, participating in Gonka governance requires following multiple channels simultaneously — GitHub, Discord, CLI — just to cast a single vote. Most miners miss proposals entirely or vote too late. …
-  Yes 123,104 (26.5%) · No 335,534 (72.2%) · Veto 5,913 (1.3%) · Abstain 0 (0.0%)104,166 GNK · Community Pool
+  Yes 26.5% (123,104) · No 72.2% (335,534) · Veto 1.3% (5,913) · Abstain 0.0% (0)104,166 GNK · Community Pool
 
   
     #42 – Support Gonka at Global Compute Sovereignty Summit
@@ -38700,7 +38700,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-04-19
   
   We are DeAI Nation, a global nonprofit organization supporting and promoting the decentralized AI ecosystem, and authors of the State of DeAI 2026 report. We propose that the Gonka community become a …
-  Yes 375,771 (68.6%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 172,050 (31.4%)$10,000 · Community Pool
+  Yes 68.6% (375,771) · No 0.0% (0) · Veto 0.0% (0) · Abstain 31.4% (172,050)$10,000 · Community Pool
 
   
     #41 – INC4 | Gonka Node Observability Platform
@@ -38711,7 +38711,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-04-18
   
   Today's explorers and dashboards only show on-chain data, leaving the off-chain state of validators completely opaque. The few operators who do run their own monitoring use different tools, different …
-  Yes 17,955 (57.1%) · No 13,494 (42.9%) · Veto 0 (0.0%) · Abstain 0 (0.0%)$96,000 · Community Pool
+  Yes 57.1% (17,955) · No 42.9% (13,494) · Veto 0.0% (0) · Abstain 0.0% (0)$96,000 · Community Pool
 
   
     #40 – Governance: extend voting period to 48 hours
@@ -38722,7 +38722,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-04-14
   
   This proposal updates x/gov: the standard voting period becomes 48 hours (was 24), and the expedited voting period becomes 12 hours (was 3). All other governance parameters remain at their current on-…
-  Yes 377,158 (57.7%) · No 0 (0.0%) · Veto 12,030 (1.8%) · Abstain 264,790 (40.5%)
+  Yes 57.7% (377,158) · No 0.0% (0) · Veto 1.8% (12,030) · Abstain 40.5% (264,790)
 
   
     #39 – Community Series Film — Why Gonka Exists
@@ -38733,7 +38733,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-04-10
   
   Saccade Media House is a creative team of tech entrepreneurs who know how to tell stories. We've built content for international tech brands and the founders behind them. We propose a Community Series…
-  Yes 394,971 (76.0%) · No 183 (0.0%) · Veto 0 (0.0%) · Abstain 124,587 (24.0%)31,250 GNK · Community Pool
+  Yes 76.0% (394,971) · No 0.0% (183) · Veto 0.0% (0) · Abstain 24.0% (124,587)31,250 GNK · Community Pool
 
   
     #38 – CryptoCommons: Community Support & Token Promotion Plan
@@ -38744,7 +38744,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-04-09
   
   If you agree say YES — Solution 1: Produce a short review video with 1-2 active community members. Solution 2: Introduce the project to BD managers of major CIS exchanges for listings. Solution 3 (Reg…
-  Yes 0 (0.0%) · No 183 (2.3%) · Veto 7,893 (97.7%) · Abstain 0 (0.0%)20,000 GNK · Community Pool · 25,000 GNK · Gov Module
+  Yes 0.0% (0) · No 2.3% (183) · Veto 97.7% (7,893) · Abstain 0.0% (0)20,000 GNK · Community Pool · 25,000 GNK · Gov Module
 
   
     #37 – What is your stance on MLM projects around gonka.ai?
@@ -38755,7 +38755,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-04-08
   
   If you are against MLM projects around gonka.ai, vote YES. All funds will be used to counter such projects. The amount is symbolic.
-  Yes 957 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)1 GNK · Community Pool
+  Yes 100.0% (957) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)1 GNK · Community Pool
 
   
     #36 – Register Kava USDT IBC metadata and approve for trading
@@ -38766,7 +38766,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-04-02
   
   Register IBC token metadata and approve the denomination for trading on Gonka mainnet.
-  Yes 421,414 (99.6%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 1,788 (0.4%)
+  Yes 99.6% (421,414) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.4% (1,788)
 
 ← Back to all proposals
 
@@ -38803,10 +38803,10 @@ Register IBC token metadata and approve the denomination for trading on Gonka ma
     
   
   
-    Yes 421,414 (99.6%)
-    No 0 (0.0%)
-    Veto 0 (0.0%)
-    Abstain 1,788 (0.4%)
+    Yes 99.6% (421,414)
+    No 0.0% (0)
+    Veto 0.0% (0)
+    Abstain 0.4% (1,788)
     Total 423,202 votes
     
   
@@ -38880,10 +38880,10 @@ If you are against MLM projects around gonka.ai, vote YES. All funds will be use
     
   
   
-    Yes 957 (100.0%)
-    No 0 (0.0%)
-    Veto 0 (0.0%)
-    Abstain 0 (0.0%)
+    Yes 100.0% (957)
+    No 0.0% (0)
+    Veto 0.0% (0)
+    Abstain 0.0% (0)
     Total 957 votes
     
   
@@ -38951,10 +38951,10 @@ If you agree say YES — Solution 1: Produce a short review video with 1-2 activ
     
   
   
-    Yes 0 (0.0%)
-    No 183 (2.3%)
-    Veto 7,893 (97.7%)
-    Abstain 0 (0.0%)
+    Yes 0.0% (0)
+    No 2.3% (183)
+    Veto 97.7% (7,893)
+    Abstain 0.0% (0)
     Total 8,076 votes
     
   
@@ -39037,10 +39037,10 @@ Saccade Media House is a creative team of tech entrepreneurs who know how to tel
     
   
   
-    Yes 394,971 (76.0%)
-    No 183 (0.0%)
-    Veto 0 (0.0%)
-    Abstain 124,587 (24.0%)
+    Yes 76.0% (394,971)
+    No 0.0% (183)
+    Veto 0.0% (0)
+    Abstain 24.0% (124,587)
     Total 519,741 votes
     
   
@@ -39102,10 +39102,10 @@ This proposal updates x/gov: the standard voting period becomes 48 hours (was 24
     
   
   
-    Yes 377,158 (57.7%)
-    No 0 (0.0%)
-    Veto 12,030 (1.8%)
-    Abstain 264,790 (40.5%)
+    Yes 57.7% (377,158)
+    No 0.0% (0)
+    Veto 1.8% (12,030)
+    Abstain 40.5% (264,790)
     Total 653,978 votes
     
   
@@ -39442,10 +39442,10 @@ Full proposal and discussion:
     
   
   
-    Yes 17,955 (57.1%)
-    No 13,494 (42.9%)
-    Veto 0 (0.0%)
-    Abstain 0 (0.0%)
+    Yes 57.1% (17,955)
+    No 42.9% (13,494)
+    Veto 0.0% (0)
+    Abstain 0.0% (0)
     Total 31,449 votes
     
   
@@ -39540,10 +39540,10 @@ We are DeAI Nation, a global nonprofit organization supporting and promoting the
     
   
   
-    Yes 375,771 (68.6%)
-    No 0 (0.0%)
-    Veto 0 (0.0%)
-    Abstain 172,050 (31.4%)
+    Yes 68.6% (375,771)
+    No 0.0% (0)
+    Veto 0.0% (0)
+    Abstain 31.4% (172,050)
     Total 547,821 votes
     
   
@@ -39613,10 +39613,10 @@ Today, participating in Gonka governance requires following multiple channels si
     
   
   
-    Yes 123,104 (26.5%)
-    No 335,534 (72.2%)
-    Veto 5,913 (1.3%)
-    Abstain 0 (0.0%)
+    Yes 26.5% (123,104)
+    No 72.2% (335,534)
+    Veto 1.3% (5,913)
+    Abstain 0.0% (0)
     Total 464,551 votes
     
   
@@ -39823,10 +39823,10 @@ Upgrade Proposal: v0.2.12
     
   
   
-    Yes 506,142 (99.6%)
-    No 2,057 (0.4%)
-    Veto 0 (0.0%)
-    Abstain 0 (0.0%)
+    Yes 99.6% (506,142)
+    No 0.4% (2,057)
+    Veto 0.0% (0)
+    Abstain 0.0% (0)
     Total 508,199 votes
     
   
@@ -39894,10 +39894,10 @@ Replace scattered governance discussions and complex CLI voting with a unified G
     
   
   
-    Yes 118,126 (25.6%)
-    No 0 (0.0%)
-    Veto 210,906 (45.6%)
-    Abstain 133,057 (28.8%)
+    Yes 25.6% (118,126)
+    No 0.0% (0)
+    Veto 45.6% (210,906)
+    Abstain 28.8% (133,057)
     Total 462,089 votes
     
   
@@ -40266,10 +40266,10 @@ Execution. Recipients with share ≥ 10 GNK (1 204 miners, 3 052 968.210 GNK) ar
     
   
   
-    Yes 97,030 (36.0%)
-    No 0 (0.0%)
-    Veto 0 (0.0%)
-    Abstain 172,837 (64.0%)
+    Yes 36.0% (97,030)
+    No 0.0% (0)
+    Veto 0.0% (0)
+    Abstain 64.0% (172,837)
     Total 269,867 votes
     
   
@@ -54973,10 +54973,10 @@ Retroactive 20K GNK bounty for an open-sourced PoC optimization measuring +10.2%
     
   
   
-    Yes 70,819 (33.6%)
-    No 0 (0.0%)
-    Veto 0 (0.0%)
-    Abstain 139,828 (66.4%)
+    Yes 33.6% (70,819)
+    No 0.0% (0)
+    Veto 0.0% (0)
+    Abstain 66.4% (139,828)
     Total 210,647 votes
     
   
@@ -55040,10 +55040,10 @@ During the Kimi-K2.6 bootstrap, the 30% direct participation threshold proved ha
     
   
   
-    Yes 808,529 (100.0%)
-    No 0 (0.0%)
-    Veto 0 (0.0%)
-    Abstain 0 (0.0%)
+    Yes 100.0% (808,529)
+    No 0.0% (0)
+    Veto 0.0% (0)
+    Abstain 0.0% (0)
     Total 808,529 votes
     
   
@@ -55507,10 +55507,10 @@ Full proposal:
     
   
   
-    Yes 496,683 (71.1%)
-    No 0 (0.0%)
-    Veto 0 (0.0%)
-    Abstain 201,560 (28.9%)
+    Yes 71.1% (496,683)
+    No 0.0% (0)
+    Veto 0.0% (0)
+    Abstain 28.9% (201,560)
     Total 698,243 votes
     
   
@@ -55690,10 +55690,10 @@ Retroactive 20K GNK bounty for an open-sourced PoC optimization measuring +10.2%
     
   
   
-    Yes 281,723 (59.1%)
-    No 0 (0.0%)
-    Veto 0 (0.0%)
-    Abstain 194,589 (40.9%)
+    Yes 59.1% (281,723)
+    No 0.0% (0)
+    Veto 0.0% (0)
+    Abstain 40.9% (194,589)
     Total 476,312 votes
     
   
@@ -55820,10 +55820,10 @@ $75,000 · Community Pool
     
   
   
-    Yes 395,003 (62.8%)
-    No 1,767 (0.3%)
-    Veto 64,217 (10.2%)
-    Abstain 168,275 (26.7%)
+    Yes 62.8% (395,003)
+    No 0.3% (1,767)
+    Veto 10.2% (64,217)
+    Abstain 26.7% (168,275)
     Total 629,262 votes
     
   
@@ -56054,10 +56054,10 @@ Upgrade Proposal: v0.2.13
     
   
   
-    Yes 88,420 (34.1%)
-    No 0 (0.0%)
-    Veto 170,799 (65.9%)
-    Abstain 0 (0.0%)
+    Yes 34.1% (88,420)
+    No 0.0% (0)
+    Veto 65.9% (170,799)
+    Abstain 0.0% (0)
     Total 259,219 votes
     
   
@@ -56219,10 +56219,10 @@ Live walkthrough on YouTube (by Gonka.Top@Mitch):
     
   
   
-    Yes 139,052 (46.8%)
-    No 0 (0.0%)
-    Veto 158,195 (53.2%)
-    Abstain 0 (0.0%)
+    Yes 46.8% (139,052)
+    No 0.0% (0)
+    Veto 53.2% (158,195)
+    Abstain 0.0% (0)
     Total 297,247 votes
     
   
@@ -56411,10 +56411,10 @@ Upgrade Proposal: v0.2.13
     
   
   
-    Yes 228,216 (62.8%)
-    No 0 (0.0%)
-    Veto 0 (0.0%)
-    Abstain 135,071 (37.2%)
+    Yes 62.8% (228,216)
+    No 0.0% (0)
+    Veto 0.0% (0)
+    Abstain 37.2% (135,071)
     Total 363,287 votes
     
   
@@ -56621,10 +56621,10 @@ Distribute restitution for Cases 2, 3, and 4 across epochs 248-254. Case 2: pres
     
   
   
-    Yes 188,670 (61.2%)
-    No 0 (0.0%)
-    Veto 0 (0.0%)
-    Abstain 119,835 (38.8%)
+    Yes 61.2% (188,670)
+    No 0.0% (0)
+    Veto 0.0% (0)
+    Abstain 38.8% (119,835)
     Total 308,505 votes
     
   
@@ -57640,10 +57640,10 @@ Live walkthrough on YouTube (by Gonka.Top@Mitch):
     
   
   
-    Yes 31,851 (58.6%)
-    No 9,566 (17.6%)
-    Veto 12,961 (23.8%)
-    Abstain 0 (0.0%)
+    Yes 58.6% (31,851)
+    No 17.6% (9,566)
+    Veto 23.8% (12,961)
+    Abstain 0.0% (0)
     Total 54,378 votes
     
   
@@ -57772,10 +57772,10 @@ The Foundation's legal structure, responsibilities, accountability model, treasu
     
   
   
-    Yes 257,150 (100.0%)
-    No 0 (0.0%)
-    Veto 0 (0.0%)
-    Abstain 0 (0.0%)
+    Yes 100.0% (257,150)
+    No 0.0% (0)
+    Veto 0.0% (0)
+    Abstain 0.0% (0)
     Total 257,150 votes
     
   
@@ -57851,10 +57851,10 @@ This is a full-scale analytical deep-dive that builds genuine trust rather than 
     
   
   
-    Yes 98,018 (53.4%)
-    No 0 (0.0%)
-    Veto 85,697 (46.6%)
-    Abstain 0 (0.0%)
+    Yes 53.4% (98,018)
+    No 0.0% (0)
+    Veto 46.6% (85,697)
+    Abstain 0.0% (0)
     Total 183,715 votes
     
   
@@ -57924,10 +57924,10 @@ Funds milestone 1 (upfront prepayment) of a community-produced onboarding video 
     
   
   
-    Yes 24,505 (43.6%)
-    No 0 (0.0%)
-    Veto 0 (0.0%)
-    Abstain 31,699 (56.4%)
+    Yes 43.6% (24,505)
+    No 0.0% (0)
+    Veto 0.0% (0)
+    Abstain 56.4% (31,699)
     Total 56,204 votes
     
   
@@ -58056,10 +58056,10 @@ Brand audit, competitive positioning, and audience segmentation for Gonka.AI. Si
     
   
   
-    Yes 220,798 (67.9%)
-    No 0 (0.0%)
-    Veto 70,043 (21.5%)
-    Abstain 34,369 (10.6%)
+    Yes 67.9% (220,798)
+    No 0.0% (0)
+    Veto 21.5% (70,043)
+    Abstain 10.6% (34,369)
     Total 325,210 votes
     
   
@@ -58188,10 +58188,10 @@ Brand identity system for Gonka.AI: logo, typography, color system, graphic lang
     
   
   
-    Yes 220,798 (67.9%)
-    No 0 (0.0%)
-    Veto 70,043 (21.5%)
-    Abstain 34,369 (10.6%)
+    Yes 67.9% (220,798)
+    No 0.0% (0)
+    Veto 21.5% (70,043)
+    Abstain 10.6% (34,369)
     Total 325,210 votes
     
   
@@ -58320,10 +58320,10 @@ Crypto-influencer pilot campaign for Gonka.AI across selected tier-1 creators, w
     
   
   
-    Yes 220,798 (67.9%)
-    No 0 (0.0%)
-    Veto 70,043 (21.5%)
-    Abstain 34,369 (10.6%)
+    Yes 67.9% (220,798)
+    No 0.0% (0)
+    Veto 21.5% (70,043)
+    Abstain 10.6% (34,369)
     Total 325,210 votes
     
   
@@ -58452,10 +58452,10 @@ Full redesign of gonka.ai plus dedicated landing pages for miners, inference buy
     
   
   
-    Yes 220,798 (67.9%)
-    No 0 (0.0%)
-    Veto 70,043 (21.5%)
-    Abstain 34,369 (10.6%)
+    Yes 67.9% (220,798)
+    No 0.0% (0)
+    Veto 21.5% (70,043)
+    Abstain 10.6% (34,369)
     Total 325,210 votes
     
   
@@ -58579,10 +58579,10 @@ Web analytics, attribution, and funnel dashboarding for Gonka.AI: GA4 implementa
     
   
   
-    Yes 220,798 (67.9%)
-    No 0 (0.0%)
-    Veto 70,043 (21.5%)
-    Abstain 34,369 (10.6%)
+    Yes 67.9% (220,798)
+    No 0.0% (0)
+    Veto 21.5% (70,043)
+    Abstain 10.6% (34,369)
     Total 325,210 votes
     
   
@@ -58704,10 +58704,10 @@ Full 360-degree digital and social strategy for Gonka.AI: channel matrix, conten
     
   
   
-    Yes 220,798 (67.9%)
-    No 0 (0.0%)
-    Veto 70,043 (21.5%)
-    Abstain 34,369 (10.6%)
+    Yes 67.9% (220,798)
+    No 0.0% (0)
+    Veto 21.5% (70,043)
+    Abstain 10.6% (34,369)
     Total 325,210 votes
     
   
@@ -58773,10 +58773,10 @@ test proposal - 测试方案
     
   
   
-    Yes 0 (0.0%)
-    No 0 (0.0%)
-    Veto 579,377 (100.0%)
-    Abstain 0 (0.0%)
+    Yes 0.0% (0)
+    No 0.0% (0)
+    Veto 100.0% (579,377)
+    Abstain 0.0% (0)
     Total 579,377 votes
     
   
@@ -59626,10 +59626,10 @@ Distribute restitution for Kimi operators across epochs 265-276. Epochs 265-266:
     
   
   
-    Yes 319,920 (78.9%)
-    No 150 (0.0%)
-    Veto 84,623 (20.9%)
-    Abstain 744 (0.2%)
+    Yes 78.9% (319,920)
+    No 0.0% (150)
+    Veto 20.9% (84,623)
+    Abstain 0.2% (744)
     Total 405,437 votes
     
   
@@ -60173,10 +60173,10 @@ Full proposal:
     
   
   
-    Yes 260,353 (96.4%)
-    No 749 (0.3%)
-    Veto 6,288 (2.3%)
-    Abstain 2,546 (0.9%)
+    Yes 96.4% (260,353)
+    No 0.3% (749)
+    Veto 2.3% (6,288)
+    Abstain 0.9% (2,546)
     Total 269,936 votes
     
   
@@ -60242,10 +60242,10 @@ Increase the minimum deposit required to submit a governance proposal from the c
     
   
   
-    Yes 199,799 (96.9%)
-    No 46 (0.0%)
-    Veto 4,202 (2.0%)
-    Abstain 2,210 (1.1%)
+    Yes 96.9% (199,799)
+    No 0.0% (46)
+    Veto 2.0% (4,202)
+    Abstain 1.1% (2,210)
     Total 206,257 votes
     
   
@@ -60510,10 +60510,10 @@ Release 246,000 GNK from Community Fund to finalize GNK Racers — a multiplayer
     
   
   
-    Yes 38,621 (25.0%)
-    No 107,644 (69.6%)
-    Veto 6,241 (4.0%)
-    Abstain 2,245 (1.5%)
+    Yes 25.0% (38,621)
+    No 69.6% (107,644)
+    Veto 4.0% (6,241)
+    Abstain 1.5% (2,245)
     Total 154,751 votes
     
   
@@ -60581,10 +60581,10 @@ We're a comms team specializing in Organic PR for crypto and tech projects. With
     
   
   
-    Yes 180,108 (99.8%)
-    No 72 (0.0%)
-    Veto 0 (0.0%)
-    Abstain 233 (0.1%)
+    Yes 99.8% (180,108)
+    No 0.0% (72)
+    Veto 0.0% (0)
+    Abstain 0.1% (233)
     Total 180,413 votes
     
   
@@ -60652,10 +60652,10 @@ Adds a community-operated wallet to devshard_escrow_params.allowed_creator_addre
     
   
   
-    Yes 5,337 (2.2%)
-    No 7,953 (3.3%)
-    Veto 221,234 (90.7%)
-    Abstain 9,421 (3.9%)
+    Yes 2.2% (5,337)
+    No 3.3% (7,953)
+    Veto 90.7% (221,234)
+    Abstain 3.9% (9,421)
     Total 243,945 votes
     
   
@@ -61133,10 +61133,10 @@ Increase the minimum deposit required to submit a governance proposal to 500 GNK
     
   
   
-    Yes 295,843 (96.3%)
-    No 40 (0.0%)
-    Veto 572 (0.2%)
-    Abstain 10,823 (3.5%)
+    Yes 96.3% (295,843)
+    No 0.0% (40)
+    Veto 0.2% (572)
+    Abstain 3.5% (10,823)
     Total 307,278 votes
     
   
@@ -61546,10 +61546,10 @@ Full proposal:
     
   
   
-    Yes 305,163 (79.6%)
-    No 3,791 (1.0%)
-    Veto 15 (0.0%)
-    Abstain 74,304 (19.4%)
+    Yes 79.6% (305,163)
+    No 1.0% (3,791)
+    Veto 0.0% (15)
+    Abstain 19.4% (74,304)
     Total 383,273 votes
     
   
@@ -61927,10 +61927,10 @@ IMPORTANT: This is a condensed version of the document and does not include many
     
   
   
-    Yes 0 (0.0%)
-    No 0 (0.0%)
-    Veto 313,499 (100.0%)
-    Abstain 0 (0.0%)
+    Yes 0.0% (0)
+    No 0.0% (0)
+    Veto 100.0% (313,499)
+    Abstain 0.0% (0)
     Total 313,499 votes
     
   
@@ -61996,10 +61996,10 @@ Register devshard approved version v2.
     
   
   
-    Yes 239,924 (100.0%)
-    No 17 (0.0%)
-    Veto 0 (0.0%)
-    Abstain 16 (0.0%)
+    Yes 100.0% (239,924)
+    No 0.0% (17)
+    Veto 0.0% (0)
+    Abstain 0.0% (16)
     Total 239,957 votes
     
   
@@ -62611,10 +62611,10 @@ We are INPUT Global - a leading web3 marketing communications agency. We offer 3
     
   
   
-    Yes 152,042 (100.0%)
-    No 71 (0.0%)
-    Veto 0 (0.0%)
-    Abstain 0 (0.0%)
+    Yes 100.0% (152,042)
+    No 0.0% (71)
+    Veto 0.0% (0)
+    Abstain 0.0% (0)
     Total 152,113 votes
     
   
@@ -62734,10 +62734,10 @@ Set delegation initial_model_id to MiniMaxAI/MiniMax-M2.7, keep only MiniMaxAI/M
     
   
   
-    Yes 255,215 (97.1%)
-    No 170 (0.1%)
-    Veto 0 (0.0%)
-    Abstain 7,390 (2.8%)
+    Yes 97.1% (255,215)
+    No 0.1% (170)
+    Veto 0.0% (0)
+    Abstain 2.8% (7,390)
     Total 262,775 votes
     
   
@@ -63187,10 +63187,10 @@ Add Kimi K2.6 and GLM 5.2 model
     
   
   
-    Yes 330,364 (100.0%)
-    No 0 (0.0%)
-    Veto 0 (0.0%)
-    Abstain 0 (0.0%)
+    Yes 100.0% (330,364)
+    No 0.0% (0)
+    Veto 0.0% (0)
+    Abstain 0.0% (0)
     Total 330,364 votes
     
   
@@ -63733,8 +63733,8 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-08-03
   
   Replace the existing devshard v4 runtime with v4.0.1. This performance and resource-management patch does not change protocol, inference, validation, or economic behavior. It removes per-block chain q…
-  Yes 160,267 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  ✓ Turnout 160,267 / 546,640 (29.3%) · Quorum 25% (136,660)
+  Yes 100.0% (160,267) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 29.3% (160,267 / 546,640) · Quorum 25% (136,660)
 
   
     #92 – Upgrade Proposal: v0.2.15
@@ -63745,8 +63745,8 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-07-30
   
   Upgrade Proposal: v0.2.15
-  Yes 229,105 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)$39,825 USDT · Bounty Reward
-  ✓ Turnout 229,105 / 410,505 (55.8%) · Quorum 25% (102,626)
+  Yes 100.0% (229,105) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)$39,825 USDT · Bounty Reward
+  ✓ Turnout 55.8% (229,105 / 410,505) · Quorum 25% (102,626)
 
   
     #91 – Temporarily update BLS signing parameters
@@ -63757,8 +63757,8 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-07-24
   
   Set max_signing_attempts to 1 and signing_deadline_blocks to 60 epoch lengths (923460 blocks) to mitigate a theoretical risk identified in a security report. Historically, retries have never been need…
-  Yes 243,165 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  ✓ Turnout 243,165 / 569,511 (42.7%) · Quorum 25% (142,377)
+  Yes 100.0% (243,165) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 42.7% (243,165 / 569,511) · Quorum 25% (142,377)
 
   
     #90 – Partnerships with Inference Resellers, B2C users acquisition and conversion funnels analytics setup
@@ -63769,8 +63769,8 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-07-23
   
   Currently Gonka has a lot of marketing activities, but doesn't have analytics to measure the results of their work and doesn't have a vision which target audiences and how we need to attract and onboa…
-  Yes 190,646 (57.3%) · No 6,269 (1.9%) · Veto 133,354 (40.1%) · Abstain 2,324 (0.7%)240,000 GNK · $57,000 · Community Pool
-  ✓ Turnout 332,593 / 569,511 (58.4%) · Quorum 25% (142,377)
+  Yes 57.3% (190,646) · No 1.9% (6,269) · Veto 40.1% (133,354) · Abstain 0.7% (2,324)240,000 GNK · $57,000 · Community Pool
+  ✓ Turnout 58.4% (332,593 / 569,511) · Quorum 25% (142,377)
 
   
     #89 – Upgrade Proposal: v0.2.14
@@ -63781,8 +63781,8 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-07-23
   
   Upgrade Proposal: v0.2.14
-  Yes 296,240 (100.0%) · No 0 (0.0%) · Veto 115 (0.0%) · Abstain 0 (0.0%)$50,250 USDT · Bounty Reward
-  ✓ Turnout 296,355 / 545,426 (54.3%) · Quorum 25% (136,356)
+  Yes 100.0% (296,240) · No 0.0% (0) · Veto 0.0% (115) · Abstain 0.0% (0)$50,250 USDT · Bounty Reward
+  ✓ Turnout 54.3% (296,355 / 545,426) · Quorum 25% (136,356)
 
   
     #88 – Restore Kimi K2.6 and remove v1, v2
@@ -63793,8 +63793,8 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-07-17
   
   Update current chain params to register moonshotai/Kimi-K2.6 in the governance model list and remove approved_versions v1, v2 from devshard_escrow_params (to reduce RAM usage).
-  Yes 272,063 (99.8%) · No 543 (0.2%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  ✓ Turnout 272,606 / 563,910 (48.3%) · Quorum 25% (140,977)
+  Yes 99.8% (272,063) · No 0.2% (543) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 48.3% (272,606 / 563,910) · Quorum 25% (140,977)
 
   
     #87 – Remove Kimi K2.6 model
@@ -63805,8 +63805,8 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-07-16
   
   Remove moonshotai/Kimi-K2.6 from PoC params and delete it from the governance model list.
-  Yes 151,714 (100.0%) · No 8 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  ✓ Turnout 151,722 / 344,693 (44.0%) · Quorum 25% (86,173)
+  Yes 100.0% (151,714) · No 0.0% (8) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 44.0% (151,722 / 344,693) · Quorum 25% (86,173)
 
   
     #86 – Increase Kimi-K2.6 and GLM-5.2 weight_scale_factor by 5%
@@ -63817,8 +63817,8 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-07-16
   
   Increase the weight_scale_factor for moonshotai/Kimi-K2.6 from 0.90 to 0.945 (+5%) and for zai-org/GLM-5.2-FP8 from 2.47 to 2.5935 (+5%). All other model and chain parameters remain unchanged.
-  Yes 299,231 (98.5%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 4,445 (1.5%)
-  ✓ Turnout 303,676 / 564,299 (53.8%) · Quorum 25% (141,074)
+  Yes 98.5% (299,231) · No 0.0% (0) · Veto 0.0% (0) · Abstain 1.5% (4,445)
+  ✓ Turnout 53.8% (303,676 / 564,299) · Quorum 25% (141,074)
 
   
     #85 – Internal Go-To-Market Team for 3 Month
@@ -63829,8 +63829,8 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-07-12
   
   We will run hundreds of experiments across different target audience hypotheses and set up the basis: acquisition funnels, analytics, sharable target audience deep understanding. Our key performance m…
-  Yes 41,668 (73.5%) · No 8 (0.0%) · Veto 14,932 (26.4%) · Abstain 45 (0.1%)600,000 GNK · $36,000 · Community Pool
-  ✗ Turnout 56,653 / 741,825 (7.6%) · Quorum 25% (185,456)
+  Yes 73.5% (41,668) · No 0.0% (8) · Veto 26.4% (14,932) · Abstain 0.1% (45)600,000 GNK · $36,000 · Community Pool
+  ✗ Turnout 7.6% (56,653 / 741,825) · Quorum 25% (185,456)
 
   
     #84 – Bringing $3M+ in New Capital to GONKA via Uniswap — Phase 1/6 ($50k USDT)
@@ -63841,8 +63841,8 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-07-11
   
   My name is Andrey Orlovsky, and through this proposal I represent our team and an initiative to attract at least $3 million in new long-term capital to GONKA through Uniswap.  Below is a condensed ver…
-  Yes 1,221 (0.4%) · No 2,404 (0.8%) · Veto 290,022 (98.8%) · Abstain 3 (0.0%)20,000 GNK · $50,000 · Community Pool
-  ✓ Turnout 293,650 / 741,825 (39.6%) · Quorum 25% (185,456)
+  Yes 0.4% (1,221) · No 0.8% (2,404) · Veto 98.8% (290,022) · Abstain 0.0% (3)20,000 GNK · $50,000 · Community Pool
+  ✓ Turnout 39.6% (293,650 / 741,825) · Quorum 25% (185,456)
 
   
     #83 – Approve devshard v3
@@ -63853,8 +63853,8 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-07-11
   
   Update current chain params by adding v3 to devshard_escrow_params.approved_versions.
-  Yes 395,370 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
-  ✓ Turnout 395,370 / 741,825 (53.3%) · Quorum 25% (185,456)
+  Yes 100.0% (395,370) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 53.3% (395,370 / 741,825) · Quorum 25% (185,456)
 
   
     #82 – External Test Lab x Community DevNet
@@ -63865,8 +63865,8 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-07-10
   
   4-month pilot of the External Test Lab & Community DevNet: a community-owned testing layer for Gonka. Full proposal and discussion: https://github.com/gonka-ai/gonka/discussions/1388  The budget is he…
-  Yes 368,084 (98.2%) · No 468 (0.1%) · Veto 94 (0.0%) · Abstain 6,141 (1.6%)80,000 GNK · $88,000 · Community Pool
-  ✓ Turnout 374,787 / 741,825 (50.5%) · Quorum 25% (185,456)
+  Yes 98.2% (368,084) · No 0.1% (468) · Veto 0.0% (94) · Abstain 1.6% (6,141)80,000 GNK · $88,000 · Community Pool
+  ✓ Turnout 50.5% (374,787 / 741,825) · Quorum 25% (185,456)
 
   
     #81 – Kimi cPoC Restitution (epochs 306-309)
@@ -63877,8 +63877,8 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-07-10
   
   Distribute restitution for Kimi operators affected by cPoC validation failure in epochs 306-309. The Kimi validation path failed starting in e306 causing confirmation_weight suppression for Kimi opera…
-  Yes 235,728 (56.2%) · No 609 (0.1%) · Veto 183,094 (43.7%) · Abstain 18 (0.0%)175,082 GNK · Gov Module
-  ✓ Turnout 419,449 / 741,825 (56.5%) · Quorum 25% (185,456)
+  Yes 56.2% (235,728) · No 0.1% (609) · Veto 43.7% (183,094) · Abstain 0.0% (18)175,082 GNK · Gov Module
+  ✓ Turnout 56.5% (419,449 / 741,825) · Quorum 25% (185,456)
 
   
     #80 – GRC Proposal #3 - Restitution
@@ -63889,8 +63889,8 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-07-07
   
   Restitution payout for confirmed GRC Proposal #3 cases, with Case 05 payments from proposal_id=67 deducted where the same address and epoch were already compensated, and positive victim outputs below …
-  Yes 16,378 (10.4%) · No 94,721 (60.4%) · Veto 39,454 (25.1%) · Abstain 6,344 (4.0%)47,850 GNK · Community Pool · 70,184 GNK · Gov Module
-  ✗ Turnout 156,897 / 741,825 (21.2%) · Quorum 25% (185,456)
+  Yes 10.4% (16,378) · No 60.4% (94,721) · Veto 25.1% (39,454) · Abstain 4.0% (6,344)47,850 GNK · Community Pool · 70,184 GNK · Gov Module
+  ✗ Turnout 21.2% (156,897 / 741,825) · Quorum 25% (185,456)
 
 ← Back to all proposals
 
@@ -64030,12 +64030,12 @@ Restitution payout for confirmed GRC Proposal #3 cases, with Case 05 payments fr
     
   
   
-    Yes 16,378 (10.4%)
-    No 94,721 (60.4%)
-    Veto 39,454 (25.1%)
-    Abstain 6,344 (4.0%)
+    Yes 10.4% (16,378)
+    No 60.4% (94,721)
+    Veto 25.1% (39,454)
+    Abstain 4.0% (6,344)
     Total 156,897 votes
-    ✗ Turnout 156,897 / 741,825 (21.2%) · Quorum 25% (185,456)
+    ✗ Turnout 21.2% (156,897 / 741,825) · Quorum 25% (185,456)
   
 
 ## Messages
@@ -64627,12 +64627,12 @@ Distribute restitution for Kimi operators affected by cPoC validation failure in
     
   
   
-    Yes 235,728 (56.2%)
-    No 609 (0.1%)
-    Veto 183,094 (43.7%)
-    Abstain 18 (0.0%)
+    Yes 56.2% (235,728)
+    No 0.1% (609)
+    Veto 43.7% (183,094)
+    Abstain 0.0% (18)
     Total 419,449 votes
-    ✓ Turnout 419,449 / 741,825 (56.5%) · Quorum 25% (185,456)
+    ✓ Turnout 56.5% (419,449 / 741,825) · Quorum 25% (185,456)
   
 
 ## Messages
@@ -65161,12 +65161,12 @@ Contract: code_id 107, checksum 94b141625b7641e6ad57266420b18a4af72eac49b8110cb9
     
   
   
-    Yes 368,084 (98.2%)
-    No 468 (0.1%)
-    Veto 94 (0.0%)
-    Abstain 6,141 (1.6%)
+    Yes 98.2% (368,084)
+    No 0.1% (468)
+    Veto 0.0% (94)
+    Abstain 1.6% (6,141)
     Total 374,787 votes
-    ✓ Turnout 374,787 / 741,825 (50.5%) · Quorum 25% (185,456)
+    ✓ Turnout 50.5% (374,787 / 741,825) · Quorum 25% (185,456)
   
 
 ## Messages
@@ -65293,12 +65293,12 @@ Update current chain params by adding v3 to devshard_escrow_params.approved_vers
     
   
   
-    Yes 395,370 (100.0%)
-    No 0 (0.0%)
-    Veto 0 (0.0%)
-    Abstain 0 (0.0%)
+    Yes 100.0% (395,370)
+    No 0.0% (0)
+    Veto 0.0% (0)
+    Abstain 0.0% (0)
     Total 395,370 votes
-    ✓ Turnout 395,370 / 741,825 (53.3%) · Quorum 25% (185,456)
+    ✓ Turnout 53.3% (395,370 / 741,825) · Quorum 25% (185,456)
   
 
 ## Messages
@@ -65944,12 +65944,12 @@ Additional materials, proof of our work, landing page examples, creatives, adver
     
   
   
-    Yes 1,221 (0.4%)
-    No 2,404 (0.8%)
-    Veto 290,022 (98.8%)
-    Abstain 3 (0.0%)
+    Yes 0.4% (1,221)
+    No 0.8% (2,404)
+    Veto 98.8% (290,022)
+    Abstain 0.0% (3)
     Total 293,650 votes
-    ✓ Turnout 293,650 / 741,825 (39.6%) · Quorum 25% (185,456)
+    ✓ Turnout 39.6% (293,650 / 741,825) · Quorum 25% (185,456)
   
 
 ## Messages
@@ -66207,12 +66207,12 @@ Governance holds an option to cancel the initiative and returns all remaining fu
     
   
   
-    Yes 41,668 (73.5%)
-    No 8 (0.0%)
-    Veto 14,932 (26.4%)
-    Abstain 45 (0.1%)
+    Yes 73.5% (41,668)
+    No 0.0% (8)
+    Veto 26.4% (14,932)
+    Abstain 0.1% (45)
     Total 56,653 votes
-    ✗ Turnout 56,653 / 741,825 (7.6%) · Quorum 25% (185,456)
+    ✗ Turnout 7.6% (56,653 / 741,825) · Quorum 25% (185,456)
   
 
 ## Messages
@@ -66459,12 +66459,12 @@ Increase the weight_scale_factor for moonshotai/Kimi-K2.6 from 0.90 to 0.945 (+5
     
   
   
-    Yes 299,231 (98.5%)
-    No 0 (0.0%)
-    Veto 0 (0.0%)
-    Abstain 4,445 (1.5%)
+    Yes 98.5% (299,231)
+    No 0.0% (0)
+    Veto 0.0% (0)
+    Abstain 1.5% (4,445)
     Total 303,676 votes
-    ✓ Turnout 303,676 / 564,299 (53.8%) · Quorum 25% (141,074)
+    ✓ Turnout 53.8% (303,676 / 564,299) · Quorum 25% (141,074)
   
 
 ## Messages
@@ -66951,12 +66951,12 @@ Remove moonshotai/Kimi-K2.6 from PoC params and delete it from the governance mo
     
   
   
-    Yes 151,714 (100.0%)
-    No 8 (0.0%)
-    Veto 0 (0.0%)
-    Abstain 0 (0.0%)
+    Yes 100.0% (151,714)
+    No 0.0% (8)
+    Veto 0.0% (0)
+    Abstain 0.0% (0)
     Total 151,722 votes
-    ✓ Turnout 151,722 / 344,693 (44.0%) · Quorum 25% (86,173)
+    ✓ Turnout 44.0% (151,722 / 344,693) · Quorum 25% (86,173)
   
 
 ## Messages
@@ -67426,12 +67426,12 @@ Update current chain params to register moonshotai/Kimi-K2.6 in the governance m
     
   
   
-    Yes 272,063 (99.8%)
-    No 543 (0.2%)
-    Veto 0 (0.0%)
-    Abstain 0 (0.0%)
+    Yes 99.8% (272,063)
+    No 0.2% (543)
+    Veto 0.0% (0)
+    Abstain 0.0% (0)
     Total 272,606 votes
-    ✓ Turnout 272,606 / 563,910 (48.3%) · Quorum 25% (140,977)
+    ✓ Turnout 48.3% (272,606 / 563,910) · Quorum 25% (140,977)
   
 
 ## Messages
@@ -68009,12 +68009,12 @@ Upgrade Proposal: v0.2.14
     
   
   
-    Yes 296,240 (100.0%)
-    No 0 (0.0%)
-    Veto 115 (0.0%)
-    Abstain 0 (0.0%)
+    Yes 100.0% (296,240)
+    No 0.0% (0)
+    Veto 0.0% (115)
+    Abstain 0.0% (0)
     Total 296,355 votes
-    ✓ Turnout 296,355 / 545,426 (54.3%) · Quorum 25% (136,356)
+    ✓ Turnout 54.3% (296,355 / 545,426) · Quorum 25% (136,356)
   
 
 ## Messages
@@ -68207,12 +68207,12 @@ Governance may cancel the initiative at any time, in which case all remaining pa
     
   
   
-    Yes 190,646 (57.3%)
-    No 6,269 (1.9%)
-    Veto 133,354 (40.1%)
-    Abstain 2,324 (0.7%)
+    Yes 57.3% (190,646)
+    No 1.9% (6,269)
+    Veto 40.1% (133,354)
+    Abstain 0.7% (2,324)
     Total 332,593 votes
-    ✓ Turnout 332,593 / 569,511 (58.4%) · Quorum 25% (142,377)
+    ✓ Turnout 58.4% (332,593 / 569,511) · Quorum 25% (142,377)
   
 
 ## Messages
@@ -68389,12 +68389,12 @@ Set max_signing_attempts to 1 and signing_deadline_blocks to 60 epoch lengths (9
     
   
   
-    Yes 243,165 (100.0%)
-    No 0 (0.0%)
-    Veto 0 (0.0%)
-    Abstain 0 (0.0%)
+    Yes 100.0% (243,165)
+    No 0.0% (0)
+    Veto 0.0% (0)
+    Abstain 0.0% (0)
     Total 243,165 votes
-    ✓ Turnout 243,165 / 569,511 (42.7%) · Quorum 25% (142,377)
+    ✓ Turnout 42.7% (243,165 / 569,511) · Quorum 25% (142,377)
   
 
 Voters
@@ -68540,12 +68540,12 @@ Upgrade Proposal: v0.2.15
     
   
   
-    Yes 229,105 (100.0%)
-    No 0 (0.0%)
-    Veto 0 (0.0%)
-    Abstain 0 (0.0%)
+    Yes 100.0% (229,105)
+    No 0.0% (0)
+    Veto 0.0% (0)
+    Abstain 0.0% (0)
     Total 229,105 votes
-    ✓ Turnout 229,105 / 410,505 (55.8%) · Quorum 25% (102,626)
+    ✓ Turnout 55.8% (229,105 / 410,505) · Quorum 25% (102,626)
   
 
 Voters
@@ -68621,12 +68621,12 @@ Replace the existing devshard v4 runtime with v4.0.1. This performance and resou
     
   
   
-    Yes 160,267 (100.0%)
-    No 0 (0.0%)
-    Veto 0 (0.0%)
-    Abstain 0 (0.0%)
+    Yes 100.0% (160,267)
+    No 0.0% (0)
+    Veto 0.0% (0)
+    Abstain 0.0% (0)
     Total 160,267 votes
-    ✓ Turnout 160,267 / 546,640 (29.3%) · Quorum 25% (136,660)
+    ✓ Turnout 29.3% (160,267 / 546,640) · Quorum 25% (136,660)
   
 
 Voters

@@ -54,10 +54,10 @@ Full proposal: <https://app.notion.com/p/Gonka-AI-AI-Influencer-Lab-Proposal-351
     <div class="prop-tally-abstain" style="width:27.2%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes 496,683 (71.1%)</span>
-    <span class="prop-tally-no-text">No 0 (0.0%)</span>
-    <span class="prop-tally-veto-text">Veto 0 (0.0%)</span>
-    <span class="prop-tally-abstain-text">Abstain 201,560 (28.9%)</span>
+    <span class="prop-tally-yes-text">Yes <strong>71.1%</strong> (496,683)</span>
+    <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
+    <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>28.9%</strong> (201,560)</span>
     <span class="prop-tally-total-text">Total 698,243 votes</span>
     
   </div>

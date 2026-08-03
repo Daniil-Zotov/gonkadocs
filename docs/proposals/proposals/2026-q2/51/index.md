@@ -44,10 +44,10 @@ template: proposals-proposals-main.html
     <div class="prop-tally-abstain" style="width:22.7%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes 395,003 (62.8%)</span>
-    <span class="prop-tally-no-text">No 1,767 (0.3%)</span>
-    <span class="prop-tally-veto-text">Veto 64,217 (10.2%)</span>
-    <span class="prop-tally-abstain-text">Abstain 168,275 (26.7%)</span>
+    <span class="prop-tally-yes-text">Yes <strong>62.8%</strong> (395,003)</span>
+    <span class="prop-tally-no-text">No <strong>0.3%</strong> (1,767)</span>
+    <span class="prop-tally-veto-text">Veto <strong>10.2%</strong> (64,217)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>26.7%</strong> (168,275)</span>
     <span class="prop-tally-total-text">Total 629,262 votes</span>
     
   </div>

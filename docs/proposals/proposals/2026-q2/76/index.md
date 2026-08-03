@@ -42,10 +42,10 @@ Register devshard approved version v2.
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes 239,924 (100.0%)</span>
-    <span class="prop-tally-no-text">No 17 (0.0%)</span>
-    <span class="prop-tally-veto-text">Veto 0 (0.0%)</span>
-    <span class="prop-tally-abstain-text">Abstain 16 (0.0%)</span>
+    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (239,924)</span>
+    <span class="prop-tally-no-text">No <strong>0.0%</strong> (17)</span>
+    <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (16)</span>
     <span class="prop-tally-total-text">Total 239,957 votes</span>
     
   </div>

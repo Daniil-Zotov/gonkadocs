@@ -46,10 +46,10 @@ If you agree say YES — Solution 1: Produce a short review video with 1-2 activ
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes 0 (0.0%)</span>
-    <span class="prop-tally-no-text">No 183 (2.3%)</span>
-    <span class="prop-tally-veto-text">Veto 7,893 (97.7%)</span>
-    <span class="prop-tally-abstain-text">Abstain 0 (0.0%)</span>
+    <span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span>
+    <span class="prop-tally-no-text">No <strong>2.3%</strong> (183)</span>
+    <span class="prop-tally-veto-text">Veto <strong>97.7%</strong> (7,893)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-total-text">Total 8,076 votes</span>
     
   </div>

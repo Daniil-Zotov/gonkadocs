@@ -46,10 +46,10 @@ Replace scattered governance discussions and complex CLI voting with a unified G
     <div class="prop-tally-abstain" style="width:17.9%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes 118,126 (25.6%)</span>
-    <span class="prop-tally-no-text">No 0 (0.0%)</span>
-    <span class="prop-tally-veto-text">Veto 210,906 (45.6%)</span>
-    <span class="prop-tally-abstain-text">Abstain 133,057 (28.8%)</span>
+    <span class="prop-tally-yes-text">Yes <strong>25.6%</strong> (118,126)</span>
+    <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
+    <span class="prop-tally-veto-text">Veto <strong>45.6%</strong> (210,906)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>28.8%</strong> (133,057)</span>
     <span class="prop-tally-total-text">Total 462,089 votes</span>
     
   </div>
