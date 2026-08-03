@@ -1,5 +1,125 @@
 [
   {
+    "id": "evt_20260803122718_c18275df",
+    "timestamp": "2026-08-03T12:27:18.477441+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Report for proposal #51 — Support Gonka's presence at WebX Asia",
+      "url": "/proposals/proposals/2026-q2/51/",
+      "file": "8058ee07e8a999d11ba56aeca15aadc24c3f0ecfe27fc6f0130005bbe7baff39"
+    },
+    "details": {
+      "status": null,
+      "content": "Report report1 for proposal #51 has been uploaded. Read it: https://gonkadocs.com/proposals/proposals/2026-q2/51/report1/",
+      "date": "2026-08-03",
+      "time": "",
+      "event_type": "proposal_report_upload",
+      "url": "/proposals/proposals/2026-q2/51/"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260803122718_832f7115",
+    "timestamp": "2026-08-03T12:27:18.477463+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Report for proposal #77 — Gonka PR Proposal for US/Global Regions",
+      "url": "/proposals/proposals/2026-q2/77/",
+      "file": "84eb5b3fdba9a8ac21351e074cc55f3a362fce2a1fff4bbff06d8daaa254100c"
+    },
+    "details": {
+      "status": null,
+      "content": "Report report2 for proposal #77 has been uploaded. Read it: https://gonkadocs.com/proposals/proposals/2026-q2/77/report2/",
+      "date": "2026-07-24",
+      "time": "",
+      "event_type": "proposal_report_upload",
+      "url": "/proposals/proposals/2026-q2/77/"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260803122718_d5e627f2",
+    "timestamp": "2026-08-03T12:27:18.477473+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Report for proposal #74 — Gonka Labs: Maintaining Infrastructure, Improving Products, and Launch…",
+      "url": "/proposals/proposals/2026-q2/74/",
+      "file": "b0a8f499c4c40df11afe9ecae108211c352aaba52f4e0a36e69beed22ff0ee1d"
+    },
+    "details": {
+      "status": null,
+      "content": "Report report1 for proposal #74 has been uploaded. Read it: https://gonkadocs.com/proposals/proposals/2026-q2/74/report1/",
+      "date": "2026-07-18",
+      "time": "",
+      "event_type": "proposal_report_upload",
+      "url": "/proposals/proposals/2026-q2/74/"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260803122718_ebfd38a7",
+    "timestamp": "2026-08-03T12:27:18.477481+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Report for proposal #49 — Gonka Media Dominance in TechL/AI with 5 AI Influencers",
+      "url": "/proposals/proposals/2026-q2/49/",
+      "file": "bd66ac9c4a4f65452aa57dbe2cf2653048c98f143ceae14369f9817fcfbb8958"
+    },
+    "details": {
+      "status": null,
+      "content": "Report report1 for proposal #49 has been uploaded. Read it: https://gonkadocs.com/proposals/proposals/2026-q2/49/report1/",
+      "date": "2026-07-21",
+      "time": "",
+      "event_type": "proposal_report_upload",
+      "url": "/proposals/proposals/2026-q2/49/"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260803122718_be7b02d4",
+    "timestamp": "2026-08-03T12:27:18.477490+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Report for proposal #77 — Gonka PR Proposal for US/Global Regions",
+      "url": "/proposals/proposals/2026-q2/77/",
+      "file": "d62b77d893f68f13b19c82b1ce2bd2eed607eecfa6ba9e59ab0d9b2e2dfba130"
+    },
+    "details": {
+      "status": null,
+      "content": "Report report3 for proposal #77 has been uploaded. Read it: https://gonkadocs.com/proposals/proposals/2026-q2/77/report3/",
+      "date": "2026-07-31",
+      "time": "",
+      "event_type": "proposal_report_upload",
+      "url": "/proposals/proposals/2026-q2/77/"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260803122718_ceeec74c",
+    "timestamp": "2026-08-03T12:27:18.477499+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Report for proposal #77 — Gonka PR Proposal for US/Global Regions",
+      "url": "/proposals/proposals/2026-q2/77/",
+      "file": "e80318ecd47fbe957a0f061c7ee5ef247565e8fed34b32030e1fd025586a4c37"
+    },
+    "details": {
+      "status": null,
+      "content": "Report report1 for proposal #77 has been uploaded. Read it: https://gonkadocs.com/proposals/proposals/2026-q2/77/report1/",
+      "date": "2026-07-17",
+      "time": "",
+      "event_type": "proposal_report_upload",
+      "url": "/proposals/proposals/2026-q2/77/"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260803121853_d82f29d7",
     "timestamp": "2026-08-03T12:18:53.551280+00:00",
     "section": "calendar",

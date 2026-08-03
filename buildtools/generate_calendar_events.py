@@ -19,6 +19,7 @@ Usage:
 import datetime as dt
 import json
 import os
+import re
 import sys
 from glob import glob
 from pathlib import Path
@@ -86,6 +87,15 @@ def today_iso() -> str:
     return dt.date.today().isoformat()
 
 
+def _linkify(text: str) -> str:
+    """Turn bare http(s) URLs into clickable markdown links."""
+    return re.sub(
+        r"(https?://[^\s<]+)",
+        lambda m: f"[{m.group(1)}]({m.group(1)})",
+        text,
+    )
+
+
 def event_to_md(event: dict) -> str:
     title = str(event.get("title", "Untitled")).replace("\n", " ").strip()
     date_str = str(event.get("date", ""))
@@ -112,14 +122,15 @@ def event_to_md(event: dict) -> str:
     desc = str(event.get("description", "")).strip()
     if desc:
         lines.append("")
-        lines.append(desc)
+        lines.append(_linkify(desc))
 
     if url:
         lines.append("")
         if url.startswith("http"):
-            lines.append(f"Link: {url}")
+            lines.append(f"Link: [{url}]({url})")
         else:
-            lines.append(f"Link: {SITE_URL}{url}")
+            full = f"{SITE_URL}{url}"
+            lines.append(f"Link: [{full}]({full})")
 
     return "\n".join(lines)
 

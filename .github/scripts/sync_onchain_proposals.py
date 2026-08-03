@@ -1206,6 +1206,7 @@ def generate_proposal_calendar(proposals_by_quarter):
     Active voting proposals → type: proposal_vote_end on voting_end_time.
     Passed/rejected/failed proposals → type: proposal_report with outcome tag.
     """
+    SITE_URL = "https://gonkadocs.com"
     events = []
     for q, props in proposals_by_quarter.items():
         for p in props:
@@ -1268,10 +1269,10 @@ def generate_proposal_calendar(proposals_by_quarter):
                     "date": report_date,
                     "category": "governance",
                     "type": "proposal_report_upload",
-                    "title": f"Отчёт к пропозолу #{pid} — {short_title}",
-                    "url": report_url,
+                    "title": f"Report for proposal #{pid} — {short_title}",
+                    "url": url,
                     "time": "",
-                    "description": f"Загружен отчёт {label} к пропозолу #{pid}. Читать: {report_url}",
+                    "description": f"Report {label} for proposal #{pid} has been uploaded. Read it: {SITE_URL}{report_url}",
                     "tags": ["report"],
                 })
 
