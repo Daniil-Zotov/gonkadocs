@@ -174,31 +174,59 @@ rm -f "$SITE_DIR/gonka/docs/CNAME"
 # Используем lxml.html для надёжного парсинга (обрабатывает src=, href=,
 # url(), одинарные/двойные кавычки, <source>, <image> в SVG).
 # -----------------------------------------------------------------------
-echo "==> [3/7] Пост-обработка: исправление путей к изображениям (/images/ -> ..N/images/)"
-python3 - "$SITE_DIR/gonka/docs" <<'PYEOF'
+echo "==> [3/7] Пост-обработка: исправление путей (/images/ -> ..N/images/, internal gonka/docs links)"
+python3 - "$SITE_DIR" "$SITE_DIR/gonka/docs" <<'PYEOF'
 import os, sys
 from html.parser import HTMLParser
 
-docs_root = sys.argv[1]
+site_root, docs_root = sys.argv[1], sys.argv[2]
 
-class ImageFixer(HTMLParser):
+def exists_any(path):
+    if os.path.exists(path):
+        return True
+    return os.path.isdir(path) or os.path.exists(os.path.join(path, "index.html"))
+
+def gonka_prefix_candidate(path):
+    """If absolute /X does not exist at site root but /gonka/docs/X does, return /gonka/docs/X."""
+    if not path.startswith("/"):
+        return None
+    rel = path[1:].split("#", 1)[0].split("?", 1)[0].rstrip("/")
+    if not rel:
+        return None
+    # In gonka docs, [/docs/](/docs/) refers to the docs homepage, hosted at /gonka/docs/ here.
+    if rel == "docs":
+        frag = ""
+        if "#" in path:
+            frag = "#" + path.split("#", 1)[1]
+        return "/gonka/docs/" + frag
+    if exists_any(os.path.join(site_root, rel)):
+        return None
+    candidate = os.path.join(docs_root, rel)
+    if exists_any(candidate):
+        return "/gonka/docs/" + path[1:]
+    return None
+
+class PathFixer(HTMLParser):
     def __init__(self, prefix):
         super().__init__(convert_charrefs=False)
         self.prefix = prefix
         self.result = []
-        self.in_style = False
-        self.style_content = ""
+        self.replaced = []
 
     def handle_starttag(self, tag, attrs):
         new_attrs = list(attrs)
-        changed = False
         for i, (name, value) in enumerate(attrs):
             if name in ('src', 'href') and value.startswith('/images/'):
                 new_attrs[i] = (name, self.prefix + value[1:])
-                changed = True
+                self.replaced.append(value)
+            elif name == 'href':
+                cand = gonka_prefix_candidate(value)
+                if cand is not None:
+                    new_attrs[i] = (name, cand)
+                    self.replaced.append(value)
             elif name == 'style' and '/images/' in value:
                 new_attrs[i] = (name, value.replace('/images/', self.prefix + 'images/'))
-                changed = True
+                self.replaced.append(value)
         attrs_str = ''
         for name, value in new_attrs:
             if value is None:
@@ -237,17 +265,18 @@ for dirpath, _, filenames in os.walk(docs_root):
         with open(fpath, 'r', encoding='utf-8') as f:
             content = f.read()
 
-        if '/images/' not in content:
+        if '/images/' not in content and 'href="/' not in content:
             continue
 
-        fixer = ImageFixer(prefix)
+        fixer = PathFixer(prefix)
         fixer.feed(content)
         result = ''.join(fixer.result)
 
         if result != content:
             with open(fpath, 'w', encoding='utf-8') as f:
                 f.write(result)
-            print(f"  fixed images: {rel} ({depth} levels)")
+            kinds = ['images'] if fixer.replaced else ['links']
+            print(f"  fixed {','.join(kinds)}: {rel} ({len(fixer.replaced)})")
 PYEOF
 
 echo "==> [4/7] Объединение поисковых индексов (main + gonka/docs)"
