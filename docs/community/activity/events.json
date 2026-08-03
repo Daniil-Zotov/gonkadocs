@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260803152420_6245c0b2",
+    "timestamp": "2026-08-03T15:24:20.119563+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1537 — [BUG] api-test does not apply portable BLST flags on Apple Silicon",
+      "url": "/community/issues/01537-bug-api-test-does-not-apply-portable-blst-flags-on-apple-sil/",
+      "file": "01537-bug-api-test-does-not-apply-portable-blst-flags-on-apple-sil.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] api-test does not apply portable BLST flags on Apple Silicon\n    <span class=\"issues-number\">#1537</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Parikalp-Bhardwaj\">@Parikalp-Bhardwaj</a> opened 2026-08-03 14:53 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-"
+    },
+    "ai_description": "В сети Gonka обнаружили баг под номером 1537: тесты API некорректно работают с флагами portable BLST на процессорах Apple Silicon. Проблема может мешать сборке и стабильной работе нод на устройствах с чипами M1/M2/M3, так что фикс поможет расширить совместимость инференса на macOS-устройствах сообщества."
+  },
+  {
     "id": "evt_20260803122718_c18275df",
     "timestamp": "2026-08-03T12:27:18.477441+00:00",
     "section": "calendar",

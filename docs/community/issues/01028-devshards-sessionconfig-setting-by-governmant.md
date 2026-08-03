@@ -2,7 +2,7 @@
 title: "#1028 — `devshards` `SessionConfig` setting by governmant"
 source: https://github.com/gonka-ai/gonka/issues/1028
 issue_number: 1028
-synced_at: 2026-08-03T11:50:03Z
+synced_at: 2026-08-03T15:21:49Z
 template: issues-main.html
 ---
 
