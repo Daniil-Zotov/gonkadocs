@@ -24760,7 +24760,7 @@ HardCore Arena позволит протестировать модель на �
 ## Overview
 
 92Total Proposals
-60Passed (65%)
+61Passed (66%)
 30Rejected (33%)
 1Failed (1%)
 
@@ -24780,8 +24780,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
 
   
     #93 – Upgrade devshard v4 runtime to v4.0.1
-    
-    Voting
+    Passed
   
   
     Submitted 2026-08-01
@@ -25817,7 +25816,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 74,474 (100.0%) · No 0 (0.0%) · Veto 0 (0.0%) · Abstain 0 (0.0%)
 
-92 proposals across 5 quarters. Last updated: 2026-08-02 23:29 UTC
+92 proposals across 5 quarters. Last updated: 2026-08-03 01:08 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -62726,7 +62725,7 @@ Contract Details
 ## 2026-Q3 Summary
 
 14Total Proposals
-8Passed (57%)
+9Passed (64%)
 5Rejected (36%)
 
 Governance Parameters6
@@ -62742,8 +62741,7 @@ $90,075 USDT · Bounty Reward
 
   
     #93 – Upgrade devshard v4 runtime to v4.0.1
-    
-    Voting
+    Passed
   
   
     Submitted 2026-08-01
@@ -67611,7 +67609,7 @@ Contract Details
 
 # #93 – Upgrade devshard v4 runtime to v4.0.1
 
-Voting
+Passed
 
 **Proposal ID:** `93`
 
