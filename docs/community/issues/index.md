@@ -7,7 +7,7 @@ template: issues-main.html
 
 All issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).
 Total: **321** (🟢 open: **73**, 🔴 closed: **248**).
-Updated: `2026-08-03 17:25 UTC`.
+Updated: `2026-08-03 19:02 UTC`.
 
 <ul class="issues-list">
 <li class="issues-list-item">
@@ -20,7 +20,7 @@ Updated: `2026-08-03 17:25 UTC`.
     <p class="issues-desc">## Description  On Apple Silicon, `scripts/blst-portable.mk` sets:  ```text BLST_PORTABLE=1 ```  but the `api-test` target does not apply `BLST_PORTABLE_CGO_CFLAGS`.  As a result, BLST-dependent packa...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Parikalp-Bhardwaj">@Parikalp-Bhardwaj</a> opened 2 hours ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/Parikalp-Bhardwaj">@Parikalp-Bhardwaj</a> opened 4 hours ago</span>
       
     </div>
   </div>
@@ -35,7 +35,7 @@ Updated: `2026-08-03 17:25 UTC`.
     <p class="issues-desc">## Bug  `GET /api/v1/epochs/{N}/participants` returns **500 Internal Server Error** for past epochs. Current epoch works fine.  ## Repro  ``` GET http://node1.gonka.ai:8000/api/v1/epochs/215/participa...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/mingles-agent">@mingles-agent</a> opened 8 hours ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/mingles-agent">@mingles-agent</a> opened 9 hours ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -95,7 +95,7 @@ Updated: `2026-08-03 17:25 UTC`.
     <p class="issues-desc">The framing is simple: you can prepare any container, it will run across different GPUs in the network, a protocol layer will coordinate interaction between nodes, they will perform training, and then...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 4 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 5 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 6</span>
     </div>
   </div>
@@ -185,7 +185,7 @@ Updated: `2026-08-03 17:25 UTC`.
     <p class="issues-desc">Reporting two verified defects in the dynamic-pricing keeper. Everything below was checked against tag `release/v0.2.13` (the mainnet chain version) and against live mainnet state via `node3.gonka.ai`...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/len5ky">@len5ky</a> opened 9 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/len5ky">@len5ky</a> opened 10 days ago</span>
       
     </div>
   </div>
@@ -530,7 +530,7 @@ Updated: `2026-08-03 17:25 UTC`.
     <p class="issues-desc">## Summary  Systematic security audit covering four major components of the Gonka network. Found **1 Critical, 5 High, 10+ Medium** severity issues across the codebase. Fix PRs submitted for the top 3...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Doog-bot534">@Doog-bot534</a> opened 25 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/Doog-bot534">@Doog-bot534</a> opened 26 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 3</span>
     </div>
   </div>

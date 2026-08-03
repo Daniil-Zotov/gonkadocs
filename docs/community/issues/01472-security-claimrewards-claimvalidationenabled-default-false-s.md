@@ -2,7 +2,7 @@
 title: "#1472 — Security: ClaimRewards — ClaimValidationEnabled default false; sample RNG uses claim-time block hash"
 source: https://github.com/gonka-ai/gonka/issues/1472
 issue_number: 1472
-synced_at: 2026-08-03T17:22:16Z
+synced_at: 2026-08-03T18:59:59Z
 template: issues-main.html
 ---
 
