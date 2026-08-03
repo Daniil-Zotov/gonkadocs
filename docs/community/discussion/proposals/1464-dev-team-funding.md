@@ -3,14 +3,14 @@ title: "#1464 — Dev Team Funding"
 source: https://github.com/gonka-ai/gonka/discussions/1464
 discussion_number: 1464
 category: proposals
-synced_at: 2026-08-03T19:51:12Z
+synced_at: 2026-08-03T21:15:56Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1464](https://github.com/gonka-ai/gonka/discussions/1464) every hour. 
 
 # Dev Team Funding
 
-**Автор:** [@gmorgachev](https://github.com/gmorgachev) · **Категория:** :bulb: Proposals · **Создано:** 2026-07-17 01:38 UTC · **Обновлено:** 2026-08-02 11:51 UTC
+**Автор:** [@gmorgachev](https://github.com/gmorgachev) · **Категория:** :bulb: Proposals · **Создано:** 2026-07-17 01:38 UTC · **Обновлено:** 2026-08-03 20:22 UTC
 
 ---
 
@@ -65,7 +65,7 @@ Contact me:
 
 ---
 
-## 💬 Комментарии (4)
+## 💬 Комментарии (5)
 
 ### Комментарий 1 — [@paranjko](https://github.com/paranjko)
 
@@ -115,3 +115,29 @@ Looking forward to the AMA
 
 Good Luck with the project,
 Konstantin
+
+### Комментарий 5 — [@Daniil-Zotov](https://github.com/Daniil-Zotov)
+
+*2026-08-03 20:22 UTC*
+
+AMA with Gleb Morgachev, Gonka co-creator: Dev Team Funding proposal
+
+🕣 Tuesday, Aug. 4
+8:30am PDT · 3:30pm UTC · 11:30pm CST
+
+Gleb Morgachev 
+[@gmorgachev](https://x.com/gmorgachev)
+ will hold an AMA session where he'll cover the upcoming proposal dedicated to funding of an independent dev team.
+
+Key topics:
+- What tasks the funding is being requested for
+- How the independent development team will be structured
+- Funding mechanics
+- Expense transparency, reporting, and Gleb’s role in the initiative
+- Other questions
+
+💻 Zoom: the link will be published before the session starts
+🗣️ Language: English
+📄 Proposal: [https://github.com/gonka-ai/gonka/discussions/1464](https://t.co/yETdroL6Kx)
+
+See you next week!
