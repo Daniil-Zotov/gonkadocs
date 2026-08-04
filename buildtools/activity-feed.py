@@ -370,27 +370,41 @@ def _has_cyrillic(text: str) -> bool:
 
 
 def _call_ai(api_key: str, api_endpoint: str, model: str,
-             system_prompt: str, user_prompt: str) -> str:
+             system_prompt: str, user_prompt: str,
+             attempts: int = 3, timeout: int = 60) -> str:
     import requests
-    resp = requests.post(
-        f'{api_endpoint}/chat/completions',
-        headers={
-            'Authorization': f'Bearer {api_key}',
-            'Content-Type': 'application/json',
-        },
-        json={
-            'model': model,
-            'messages': [
-                {'role': 'system', 'content': system_prompt},
-                {'role': 'user', 'content': user_prompt},
-            ],
-            'max_tokens': 350,
-            'temperature': 0.7,
-            'reasoning_effort': 'none',
-        },
-        timeout=15,
-    )
-    resp.raise_for_status()
+    import time as _time
+
+    last_err = None
+    for attempt in range(1, attempts + 1):
+        try:
+            resp = requests.post(
+                f'{api_endpoint}/chat/completions',
+                headers={
+                    'Authorization': f'Bearer {api_key}',
+                    'Content-Type': 'application/json',
+                },
+                json={
+                    'model': model,
+                    'messages': [
+                        {'role': 'system', 'content': system_prompt},
+                        {'role': 'user', 'content': user_prompt},
+                    ],
+                    'max_tokens': 350,
+                    'temperature': 0.7,
+                    'reasoning_effort': 'none',
+                },
+                timeout=timeout,
+            )
+            resp.raise_for_status()
+            break
+        except Exception as e:
+            last_err = e
+            if attempt < attempts:
+                _time.sleep(attempt * 5)
+    else:
+        raise last_err
+
     data = resp.json()
     ai_text = data['choices'][0]['message']['content'].strip()
     ai_text = re.sub(r'<think>.*?</think>', '', ai_text, flags=re.DOTALL | re.IGNORECASE).strip()
