@@ -18,5 +18,15 @@
     "time": "15:30 UTC",
     "description": "AMA-сессия с Глебом Моргачевым (@gmorgachev, сооснователь Gonka) о proposal финансирования независимой команды разработки (Dev Team Funding). Обсудим ключевые вопросы: на какие задачи запрашивается финансирование; как будет устроена независимая команда разработки; механика финансирования; прозрачность расходов, отчётность и роль Глеба в инициативе. Язык: русский. Ведущие: @paranko и @dem_ww. Zoom: ссылка будет к началу сессии. Proposal: https://github.com/gonka-ai/gonka/discussions/1464",
     "tags": ["ama", "dev-team-funding", "gmorgachev"]
+  },
+    {
+    "date": "2026-08-04",
+    "category": "community",
+    "type": "ama",
+    "title": "AMA session with Gleb Morgachev (@gmorgachev, co-founder of Gonka) — Dev Team Funding proposal",
+    "url": "https://github.com/gonka-ai/gonka/discussions/1464",
+    "time": "15:30 UTC",
+    "description": "AMA session with Gleb Morgachev (@gmorgachev, co-founder of Gonka) about the proposal to fund an independent development team (Dev Team Funding). We will discuss key issues: what tasks the funding is requested for; how the independent development team will be structured; the funding mechanics; cost transparency, reporting, and Gleb’s role in the initiative. Language: English. Zoom: the link will be provided at the start of the session. Proposal: https://github.com/gonka-ai/gonka/discussions/1464",
+    "tags": ["ama", "dev-team-funding", "gmorgachev"]
   }
 ]

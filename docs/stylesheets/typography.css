@@ -1,0 +1,67 @@
+/* typography.css — site-wide font experiment
+ *
+ * Applies the terminal/monospace look from the homepage mockup across the
+ * whole site: headings, metadata, and data-heavy content render in the
+ * monospace font (--md-code-font-family), labels stay in the sans font.
+ *
+ * QUICK REVERT: remove `- stylesheets/typography.css` from extra_css in
+ * mkdocs.yml (or delete this file) and rebuild.
+ */
+
+/* ── Headings: monospace, tightened ── */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5 {
+  font-family: var(--md-code-font-family);
+  letter-spacing: -0.01em;
+}
+
+.md-typeset h2 {
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  font-size: 1.15rem;
+}
+
+.md-typeset h3 {
+  font-size: 1rem;
+}
+
+/* ── Page/document metadata: monospace ── */
+.md-typeset .md-source__repository,
+.md-typeset .md-nav__title,
+.md-typeset .md-copyright,
+.md-typeset .md-source-file,
+.md-typeset .md-content__button {
+  font-family: var(--md-code-font-family);
+}
+
+/* ── Inline metadata & small labels ── */
+.md-typeset small,
+.md-typeset .md-status,
+.md-typeset code,
+.md-typeset kbd,
+.md-typeset samp {
+  font-family: var(--md-code-font-family);
+}
+
+/* ── Tables: monospace cells for data-dense content ── */
+.md-typeset table td,
+.md-typeset table th {
+  font-family: var(--md-code-font-family);
+  font-size: 0.78rem;
+}
+
+/* ── "Updated / Date / Status" style lines ── */
+.md-typeset .md-admonition,
+.md-typeset details {
+  font-family: var(--md-text-font-family);
+}
+
+/* ── Hero-ish numbers (balances, counts) ── */
+.md-typeset strong,
+.md-typeset b {
+  font-family: var(--md-text-font-family);
+  font-weight: 700;
+}

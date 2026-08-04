@@ -241,6 +241,7 @@ extra_css:
   - stylesheets/proposals.css
   - stylesheets/calendar.css
   - stylesheets/activity.css
+  - stylesheets/typography.css  # font experiment — remove this line to revert
 
 extra_javascript:
   - scripts/proposals-countdown.js
