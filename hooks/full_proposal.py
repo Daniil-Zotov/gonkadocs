@@ -69,6 +69,10 @@ def on_page_markdown(markdown: str, page=None, config=None, **kwargs):
     if src_path.endswith("/full-proposal.md") or src_path == "full-proposal.md":
         return markdown
 
+    # Skip report pages (standalone rendering, no injection needed)
+    if os.path.basename(page.file.abs_src_path).startswith("report"):
+        return markdown
+
     # Prevent double-injection on reload
     if "<details class=\"prop-full\">" in markdown:
         return markdown
