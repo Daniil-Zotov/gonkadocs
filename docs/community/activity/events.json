@@ -1,5 +1,49 @@
 [
   {
+    "id": "evt_20260804014611_c77b5f5a",
+    "timestamp": "2026-08-04T01:46:11.882199+00:00",
+    "section": "calendar",
+    "action": "daily_reminder",
+    "item": {
+      "title": "Today: 1 events — Report for proposal #51 — Support Gonka's presence at WebX Asia",
+      "url": "/community/calendar/",
+      "file": null
+    },
+    "details": {
+      "today": [
+        {
+          "title": "Report for proposal #51 — Support Gonka's presence at WebX Asia",
+          "date": "2026-08-04",
+          "time": "",
+          "event_type": "proposal_report_upload",
+          "url": "/proposals/proposals/2026-q2/51/"
+        }
+      ],
+      "count": 1
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260804014611_ecaf1e07",
+    "timestamp": "2026-08-04T01:46:11.808581+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Report for proposal #51 — Support Gonka's presence at WebX Asia",
+      "url": "/proposals/proposals/2026-q2/51/",
+      "file": "b77b60c68d79bba0c0e46c9e1dfc2526648bdf85363ccfab089f713e01589631"
+    },
+    "details": {
+      "status": null,
+      "content": "Report report1 for proposal #51 has been uploaded. Read it: https://gonkadocs.com/proposals/proposals/2026-q2/51/report1/",
+      "date": "2026-08-04",
+      "time": "",
+      "event_type": "proposal_report_upload",
+      "url": "/proposals/proposals/2026-q2/51/"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260803204231_e1452724",
     "timestamp": "2026-08-03T20:42:31.002946+00:00",
     "section": "issues",
