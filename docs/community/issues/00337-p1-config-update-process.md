@@ -2,7 +2,7 @@
 title: "#337 — [P1] Config update process"
 source: https://github.com/gonka-ai/gonka/issues/337
 issue_number: 337
-synced_at: 2026-08-03T22:31:57Z
+synced_at: 2026-08-04T00:19:25Z
 template: issues-main.html
 ---
 
