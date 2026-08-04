@@ -1,5 +1,25 @@
 [
   {
+    "id": "evt_20260804071555_b6b5d941",
+    "timestamp": "2026-08-04T07:15:55.083941+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "AMA session with Gleb Morgachev (@gmorgachev, co-founder of Gonka) — Dev Team Funding proposal",
+      "url": "https://github.com/gonka-ai/gonka/discussions/1464",
+      "file": "c2e0e73f55d591b8555fd5d91720673db8ca001f157fa3e368f185a0ce2b6461"
+    },
+    "details": {
+      "status": null,
+      "content": "AMA session with Gleb Morgachev (@gmorgachev, co-founder of Gonka) about the proposal to fund an independent development team (Dev Team Funding). We will discuss key issues: what tasks the funding is requested for; how the independent development team will be structured; the funding mechanics; cost transparency, reporting, and Gleb’s role in the initiative. Language: English. Zoom: the link will be provided at the start of the session. Proposal: https://github.com/gonka-ai/gonka/discussions/1464",
+      "date": "2026-08-04",
+      "time": "15:30 UTC",
+      "event_type": "ama",
+      "url": "https://github.com/gonka-ai/gonka/discussions/1464"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260804063052_bb3dd039",
     "timestamp": "2026-08-04T06:30:52.160220+00:00",
     "section": "gonka_docs",

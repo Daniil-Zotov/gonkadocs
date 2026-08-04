@@ -1,6 +1,6 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-08-04T03:49:49.583401+00:00",
+  "snapshot_time": "2026-08-04T07:15:55.091344+00:00",
   "files": {
     "0ef86b1e20ace1fba082601b4bda7176d6ecbe2098b2ad0a914ada22b3d9dbbf": {
       "title": "▶️ Ancapex Live: Обзор Gonka",
@@ -19,6 +19,15 @@
       "url": "https://github.com/gonka-ai/gonka/discussions/1464",
       "content_preview": "AMA-сессия с Глебом Моргачевым (@gmorgachev, сооснователь Gonka) о proposal финансирования независимой команды разработки (Dev Team Funding). Обсудим ключевые вопросы: на какие задачи запрашивается финансирование; как будет устроена независимая команда разработки; механика финансирования; прозрачность расходов, отчётность и роль Глеба в инициативе. Язык: русский. Ведущие: @paranko и @dem_ww. Zoom: ссылка будет к началу сессии. Proposal: https://github.com/gonka-ai/gonka/discussions/1464",
       "checksum": "7491eea990227a435f2803d794156c7f6b7121a08167a521ffacdd53d4c29a96"
+    },
+    "c2e0e73f55d591b8555fd5d91720673db8ca001f157fa3e368f185a0ce2b6461": {
+      "title": "AMA session with Gleb Morgachev (@gmorgachev, co-founder of Gonka) — Dev Team Funding proposal",
+      "date": "2026-08-04",
+      "time": "15:30 UTC",
+      "event_type": "ama",
+      "url": "https://github.com/gonka-ai/gonka/discussions/1464",
+      "content_preview": "AMA session with Gleb Morgachev (@gmorgachev, co-founder of Gonka) about the proposal to fund an independent development team (Dev Team Funding). We will discuss key issues: what tasks the funding is requested for; how the independent development team will be structured; the funding mechanics; cost transparency, reporting, and Gleb’s role in the initiative. Language: English. Zoom: the link will be provided at the start of the session. Proposal: https://github.com/gonka-ai/gonka/discussions/1464",
+      "checksum": "7e7d78bedf2daa33e7b72362a8b07192727b8681d99e3780299d9f5ddcdec961"
     },
     "9a26c0c43e769fe2005297e04e91abc3aae9653775fcedba3963b730de2120a2": {
       "title": "INPUT Global — Weekly Call (#77)",
