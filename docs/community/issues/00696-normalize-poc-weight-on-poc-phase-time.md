@@ -2,7 +2,7 @@
 title: "#696 — Normalize POC weight on POC phase time"
 source: https://github.com/gonka-ai/gonka/issues/696
 issue_number: 696
-synced_at: 2026-08-04T10:03:56Z
+synced_at: 2026-08-04T12:23:21Z
 template: issues-main.html
 ---
 
