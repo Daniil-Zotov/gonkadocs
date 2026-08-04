@@ -13,7 +13,7 @@
       "status": null,
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshardctl: ParseProtocolVersion rejects route v4 (noisy rotation fallback log)\n    <span class=\"issues-number\">#1542</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-08-04 15:58 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"mar"
     },
-    "ai_description": null
+    "ai_description": "A new issue has been opened by maria-mitina regarding devshardctl incorrectly rejecting route v4 protocol versions, which is generating excessive noise in the rotation fallback logs. This bug report highlights a parsing problem that could clutter operational monitoring and obscure real routing issues, so the team is now tracking it as issue 1542 for investigation and fix."
   },
   {
     "id": "evt_20260804094556_cf43b1e7",
@@ -65,7 +65,7 @@
       "content_before": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## July 29, 2026\n\n**Upgrade v0.2.15 and devshard v4: Pre-download binaries**\n\nThe on-chain governance process for the **devshard v4 and v0.2.15** upgrade proposal is nearing its conclusion.\n\n- Voting ends: July 30, 2026 at 07:08 AM UTC / July 30, 2026 at 12",
       "content_after": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## August 3, 2026\n\n**API Binary Update: `v0.2.15-post3`**\n\nA new API binary, `v0.2.15-post3`, is available.\n\nThis release improves PoC seed reliability and includes several API and deployment fixes.\n\n**What changed**\n\n- PoC Seed Stability. Recover missed se"
     },
-    "ai_description": "В разделе объявлений обновилась информация: теперь доступен новый API-бинарник v0.2.15-post3. Этот релиз повышает надёжность PoC-сеялок и исправляет ряд ошибок в API и процессе развёртывания, так что участникам сети стоит обратить внимание на обновление."
+    "ai_description": "The announcements section has been updated with a new API binary v0.2.15-post3 now available. This release improves PoC seeder reliability and fixes several bugs in the API and deployment process, so network participants should consider updating."
   },
   {
     "id": "evt_20260804034532_103c5076",
@@ -81,7 +81,7 @@
       "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Bug: GET /api/v1/epochs/{N}/participants returns 500 for past epochs (CreatedAtBlockHeight=0)\n    <span class=\"issues-number\">#983</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/mingles-agent\">@mingles-agent</a> opened 2026-03-31 08:51 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-label",
       "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Bug: GET /api/v1/epochs/{N}/participants returns 500 for past epochs (CreatedAtBlockHeight=0)\n    <span class=\"issues-number\">#983</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/mingles-agent\">@mingles-agent</a> opened 2026-03-31 08:51 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labe"
     },
-    "ai_description": "В issue #983 о сбое API при запросе участников прошедших эпох с нулевой высотой блока появился новый комментарий. Обсуждение продолжается, следите за обновлениями."
+    "ai_description": "A new comment has been added to issue #983 regarding the API crash when querying participants from past epochs with zero block height. The discussion is ongoing, stay tuned for updates."
   },
   {
     "id": "evt_20260804014611_c77b5f5a",
@@ -125,7 +125,7 @@
       "event_type": "proposal_report_upload",
       "url": "/proposals/proposals/2026-q2/51/"
     },
-    "ai_description": null
+    "ai_description": "A new report has been added for proposal 51 covering Gonka's presence at WebX Asia, and the community can now review the outcomes and details of the event. You can read the full report at the shared link to see how the initiative progressed."
   },
   {
     "id": "evt_20260803204231_e1452724",
@@ -141,7 +141,7 @@
       "status": null,
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Hardening: network-duty fee-bypass admits zero-fee txs from non-participants (no signer authorization at the ante layer)\n    <span class=\"issues-number\">#1539</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kAIPraxisBot\">@kAIPraxisBot</a> opened 2026-08-03 19:33 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>"
     },
-    "ai_description": null
+    "ai_description": "A new security issue has been opened highlighting that the network-duty fee-bypass mechanism currently allows zero-fee transactions from non-participants due to missing signer authorization at the ante layer. This is an important hardening opportunity for the community to review, as it could impact transaction fee economics and network spam resistance. Keep an eye on issue #1539 for updates as the discussion develops."
   },
   {
     "id": "evt_20260803152420_6245c0b2",
@@ -177,7 +177,7 @@
       "event_type": "proposal_report_upload",
       "url": "/proposals/proposals/2026-q2/51/"
     },
-    "ai_description": null
+    "ai_description": "A new report has been added for proposal 51 covering Gonka's presence at WebX Asia, and the community can now review the outcomes and details of the event. You can read the full report at the shared link to see how the initiative progressed."
   },
   {
     "id": "evt_20260803122718_832f7115",
@@ -197,7 +197,7 @@
       "event_type": "proposal_report_upload",
       "url": "/proposals/proposals/2026-q2/77/"
     },
-    "ai_description": null
+    "ai_description": "A new progress report has been added to proposal #77, the Gonka PR Proposal for US/Global Regions. The community can now review the latest updates and track how the initiative is advancing by reading report2 on Gonkadocs."
   },
   {
     "id": "evt_20260803122718_d5e627f2",
@@ -217,7 +217,7 @@
       "event_type": "proposal_report_upload",
       "url": "/proposals/proposals/2026-q2/74/"
     },
-    "ai_description": null
+    "ai_description": "A new progress report for proposal #74 has been published, giving the community a clear look at how Gonka Labs is advancing its work on infrastructure maintenance, product improvements, and upcoming launches. You can read the full report to stay informed on deliverables and milestones. Check it out at the link above and share your thoughts."
   },
   {
     "id": "evt_20260803122718_ebfd38a7",
@@ -257,7 +257,7 @@
       "event_type": "proposal_report_upload",
       "url": "/proposals/proposals/2026-q2/77/"
     },
-    "ai_description": null
+    "ai_description": "A new progress report has been added to proposal #77 regarding the Gonka PR Proposal for US and Global Regions. The community can now review the latest updates on the initiative by reading report3 at the provided link. This helps keep everyone informed on how the proposal is advancing across key markets."
   },
   {
     "id": "evt_20260803122718_ceeec74c",
@@ -277,7 +277,7 @@
       "event_type": "proposal_report_upload",
       "url": "/proposals/proposals/2026-q2/77/"
     },
-    "ai_description": null
+    "ai_description": "A new report for proposal #77, the Gonka PR Proposal for US/Global Regions, has been published and added to the calendar. Community members can now read report1 to stay updated on the progress and outcomes of this initiative. Check it out here: https://gonkadocs.com/proposals/proposals/2026-q2/77/report1/"
   },
   {
     "id": "evt_20260803121853_d82f29d7",
@@ -297,7 +297,7 @@
       "event_type": "proposal_report_upload",
       "url": "/proposals/proposals/2026-q2/49/report1/"
     },
-    "ai_description": null
+    "ai_description": "The first progress report for proposal 49, covering Gonka's media dominance initiative in tech and AI through five AI influencers, has been published and is now available for the community to review. Head to the proposals section to check out the latest updates on how the project is advancing."
   },
   {
     "id": "evt_20260803121853_4777f9e4",
@@ -337,7 +337,7 @@
       "event_type": "proposal_report_upload",
       "url": "/proposals/proposals/2026-q2/77/report2/"
     },
-    "ai_description": null
+    "ai_description": "A new report has been published for proposal #77, the Gonka PR Proposal for US/Global Regions. Community members can now review the latest updates in report2 to track progress and next steps. Check it out and share your feedback."
   },
   {
     "id": "evt_20260803121853_e1d7be18",
@@ -357,7 +357,7 @@
       "event_type": "proposal_report_upload",
       "url": "/proposals/proposals/2026-q2/77/report3/"
     },
-    "ai_description": null
+    "ai_description": "A new progress report has been published for proposal #77, the Gonka PR Proposal for US/Global Regions. The community can now review report3 to track how the initiative is advancing."
   },
   {
     "id": "evt_20260803121853_df405a6c",
@@ -377,7 +377,7 @@
       "event_type": "proposal_report_upload",
       "url": "/proposals/proposals/2026-q2/77/report1/"
     },
-    "ai_description": null
+    "ai_description": "A new report has been added to proposal #77, the Gonka PR Proposal for US/Global Regions. You can now read the full update at the proposals page to see how the initiative is progressing. Be sure to check it out and share your thoughts with the community."
   },
   {
     "id": "evt_20260803121853_3930e07d",
@@ -397,7 +397,7 @@
       "event_type": "proposal_report_upload",
       "url": "/proposals/proposals/2026-q2/51/report1/"
     },
-    "ai_description": null
+    "ai_description": "A report has been uploaded for proposal #51 regarding Gonka's presence at WebX Asia. Community members can now read report1 at the proposal page to review the outcomes and details."
   },
   {
     "id": "evt_20260803115311_63f35f6f",
@@ -413,7 +413,7 @@
       "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Bug: GET /api/v1/epochs/{N}/participants returns 500 for past epochs (CreatedAtBlockHeight=0)\n    <span class=\"issues-number\">#983</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/mingles-agent\">@mingles-agent</a> opened 2026-03-31 08:51 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labe",
       "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Bug: GET /api/v1/epochs/{N}/participants returns 500 for past epochs (CreatedAtBlockHeight=0)\n    <span class=\"issues-number\">#983</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/mingles-agent\">@mingles-agent</a> opened 2026-03-31 08:51 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-label"
     },
-    "ai_description": "В ишью #983 о баге с ошибкой 500 при запросе участников прошлых эпох появился первый комментарий. Скорее всего, кто-то из сообщества поделился дополнительными деталями или предложил направление для исправления. Это поможет разработчикам быстрее разобраться с некорректной обработкой CreatedAtBlockHeight=0 и устранить сбой в API."
+    "ai_description": "The first comment has been added to issue #983 about the bug causing a 500 error when querying past epoch participants. Most likely, someone from the community shared additional details or suggested a fix direction. This will help developers investigate the incorrect handling of CreatedAtBlockHeight=0 faster and resolve the API failure."
   },
   {
     "id": "evt_20260803020051_0b150d3f",
@@ -464,7 +464,7 @@
       ],
       "count": 2
     },
-    "ai_description": null
+    "ai_description": "Today brings two important moments for the community. First, voting closes on proposal #93 to upgrade the devshard v4 runtime to v4.0.1, so cast your vote if you have not already. Second, join the AMA with Gleb Morgachev for a chance to connect directly with the team and ask your questions."
   },
   {
     "id": "evt_20260801064535_7336fa49",
@@ -500,7 +500,7 @@
       "event_type": "proposal_vote_end",
       "url": "/proposals/proposals/2026-q3/93/"
     },
-    "ai_description": null
+    "ai_description": "A new calendar event has been added for the upcoming vote on proposal #93, which will upgrade the devshard v4 runtime to version 4.0.1. This patch focuses on performance and resource management improvements without affecting protocol, inference, validation, or economic behavior, so the community should note the voting deadline to ensure their voice is heard on this technical upgrade."
   },
   {
     "id": "evt_20260731144422_3c2a7600",
@@ -548,7 +548,7 @@
       "status": null,
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    PoC auto ValidatedWeight:-1 on missing model executors + guardian tiebreaker can wipe model weight (v0.2.14)\n    <span class=\"issues-number\">#1525</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-07-30 08:59 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div clas"
     },
-    "ai_description": "В сети Gonka зафиксирован новый баг-репорт: исследовательница @maria-mitina обнаружила уязвимость в версии 0.2.14, при которой отсутствие исполнителей модели автоматически сбрасывает вес до -1, а механизм разрешения споров стражей может полностью аннулировать вес модели. Проблема уже оформлена как открытый тикет #1525 и требует внимания разработчиков."
+    "ai_description": "A new bug report has been filed in the Gonka network: researcher @maria-mitina discovered a vulnerability in version 0.2.14 where the absence of model executors automatically resets the weight to -1, and the guardian dispute resolution mechanism can fully nullify the model weight. The issue has already been logged as open ticket #1525 and requires developer attention."
   },
   {
     "id": "evt_20260729204454_56251536",
@@ -564,7 +564,7 @@
       "content_before": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## July 22, 2026\n\n**Upgrade v0.2.14: Pre-download binaries**\n\nThe on-chain governance process for the v0.2.14 upgrade proposal is nearing its conclusion.\n\n- Voting ends: July 23rd, 2026, at 00:02 UTC\n- Upgrade height: 5195700\n- Estimated upgrade time: July ",
       "content_after": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## July 29, 2026\n\n**Upgrade v0.2.15 and devshard v4: Pre-download binaries**\n\nThe on-chain governance process for the **devshard v4 and v0.2.15** upgrade proposal is nearing its conclusion.\n\n- Voting ends: July 30, 2026 at 07:08 AM UTC / July 30, 2026 at 12"
     },
-    "ai_description": "В разделе объявлений документации протокола появилось обновление: вместо прошлого апгрейда v0.2.14 теперь опубликовано свежее предложение по обновлению сети до v0.2.15 и запуску devshard v4, а дата окончания голосования сдвинулась на 30 июля. Следите за статусом голосования и не забудьте заранее скачать бинарники, чтобы быть готовыми к апгрейду."
+    "ai_description": "An update has been posted in the protocol documentation announcements section: the previous v0.2.14 upgrade has been replaced with a fresh proposal to upgrade the network to v0.2.15 and launch devshard v4, and the voting deadline has been moved to July 30. Keep an eye on the voting status and remember to download the binaries in advance so you are ready for the upgrade."
   },
   {
     "id": "evt_20260729181824_ee41dca4",
@@ -616,7 +616,7 @@
       "status": null,
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Build and attest release binaries in CI instead of uploading them manually\n    <span class=\"issues-number\">#1513</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/KTibow\">@KTibow</a> opened 2026-07-28 20:05 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></d"
     },
-    "ai_description": "Пользователь просит написать короткий пост об изменении в ленте событий сообщества Gonka. Нужно проанализировать предоставленные данные.\n\nРаздел: Issues\nДействие: Added (добавлен новый issue)\nНазвание: [\"User\"] — not github-actions[bot]; same on v0.2.14\nСодержимое: Issue #1513 \"Build and attest binaries in CI instead of uploading them manually\"\nАвтор: @KTibow\nДата: 2026-07-28 20:05 UTC\nСтатус: Open\nКомментариев: 0\n\nСуть изменения: Пользователь KTibow открыл issue с предложением автоматизировать проц"
+    "ai_description": "KTibow opened issue #1513 suggesting to automate building and attesting binaries in CI instead of uploading them manually. The issue is currently open with no comments."
   },
   {
     "id": "evt_20260728203903_d70d3014",
@@ -632,7 +632,7 @@
       "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Bug: ManagedStorage silently skips failed epoch pruning — minPruned advanced before goroutines complete\n    <span class=\"issues-number\">#850</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Mayveskii\">@Mayveskii</a> opened 2026-03-03 12:04 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-la",
       "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Bug: ManagedStorage silently skips failed epoch pruning — minPruned advanced before goroutines complete\n    <span class=\"issues-number\">#850</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Mayveskii\">@Mayveskii</a> opened 2026-03-03 12:04 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-lab"
     },
-    "ai_description": "В issue #850 появился новый комментарий от участника, который обсуждает баг в ManagedStorage, из-за которого при параллельной обрезке эпох значение minPruned может продвигаться раньше завершения горутин. Это важно для стабильности хранилища, поскольку ошибки при очистке остаются незамеченными и могут привести к рассинхронизации данных. Сообщество приглашается к обсуждению возможных решений."
+    "ai_description": "A new comment in issue #850 discusses a ManagedStorage bug where minPruned advances before goroutines finish during parallel epoch pruning. This threatens storage stability because cleanup errors go unnoticed and may cause data desync. The community is invited to discuss possible fixes."
   },
   {
     "id": "evt_20260727205024_20038ef7",
@@ -648,7 +648,7 @@
       "status": null,
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway allowlist request - Bagtyyar Kovusov\n    <span class=\"issues-number\">#1510</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/bagtyyarkovusov\">@bagtyyarkovusov</a> opened 2026-07-27 20:18 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n"
     },
-    "ai_description": "Открыта новая заявка на добавление в список разрешённых шлюзов. Пользователь Bagtyyar Kovusov подал запрос на регистрацию своего Gateway, сообщество может ознакомиться с ним в задаче номер 1510."
+    "ai_description": "A new request has been opened to add a gateway to the allowlist. User Bagtyyar Kovusov has submitted a request to register their Gateway, and the community can review it in task number 1510."
   },
   {
     "id": "evt_20260727114648_31a6c02e",
@@ -680,7 +680,7 @@
       "status": null,
       "content": "> 🔄 **Auto-sync:** from [Discussion #1502](https://github.com/gonka-ai/gonka/discussions/1502) every hour. \n\n# Обратная связь от разработчика: почему текущий модельный ряд Gonka пока не проходит production bar\n\n**Автор:** [@bitcompool](https://github.com/bitcompool) · **Категория:** :bulb: Proposals · **Создано:** 2026-07-26 17:26 UTC · \n\n---\n\n## 📝 Описание\n\n<head></head><h2 style=\"caret-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-style: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;\">Обратная связь от разработчика: почему"
     },
-    "ai_description": "В ленте появилось новое обсуждение от разработчика bitcompool о том, почему текущие модели Gonka ещё не соответствуют планке production-готовности. Автор подробно разбирает барьеры на пути к промышленной эксплуатации и предлагает векторы доработки, что важно для всего сообщества, чтобы выстраивать реалистичные ожидания и приоритеты развития сети. Приглашаем всех участников присоединиться к дискуссии и поделиться своим мнением."
+    "ai_description": "A new discussion from developer bitcompool has appeared in the feed about why current Gonka models are not yet up to production-ready standards. The author breaks down in detail the barriers to industrial deployment and suggests improvement vectors, which is important for the entire community in setting realistic expectations and network development priorities. We invite all members to join the discussion and share their opinions.\n\nWait, let me check the rules:\n- Maximum 2-3 sentences\n- Plain text only (no markdown)\n- Reply only with the finished English post\n\nMy translation has 3 sentences, which fits. Let me refine it to sound more natural:\n\n\"A new discussion from developer bitcompool has appeared in the feed on why current Gonka models still fall short of production-ready standards. The author analyzes the barriers to industrial deployment in detail and suggests improvement vectors, which is important for the entire community"
   },
   {
     "id": "evt_20260725072553_eb93eeed",
@@ -696,7 +696,7 @@
       "status": null,
       "content": "> 🔄 **Auto-sync:** from [Discussion #1500](https://github.com/gonka-ai/gonka/discussions/1500) every hour. \n\n# More compute from the same Gonka hardware: two-phase cooling pilot\n\n**Автор:** [@bitcompool](https://github.com/bitcompool) · **Категория:** :bulb: Proposals · **Создано:** 2026-07-25 05:07 UTC · \n\n---\n\n## 📝 Описание\n\nI previously developed CoolTank, a two-phase immersion cooling system that delivered up to 40% higher compute output from Bitcoin ASIC miners through stable thermal control and overclocking.\n\nI’m looking for a Gonka Host, hardware partner or investor to test whether the same approach can increase sustained GPU performance, compute density and revenue from existing Gonka hardware. The ASIC results are proven; the GPU uplift must be validated through a funded pilot.\n\nT"
     },
-    "ai_description": "В сети Gonka появилось новое предложение от разработчика системы иммерсионного охлаждения CoolTank. Автор ищет партнера среди хостов или инвестора для пилотного проекта, чтобы проверить, сможет ли двухфазное охлаждение повысить производительность GPU и плотность вычислений на существующем оборудовании сети — на ASIC такой подход уже доказал эффективность до 40%. Это потенциальный путь получить больше вычислений и дохода от тех же железных ресурсов без масштабного апгрейда."
+    "ai_description": "A new proposal has appeared in the Gonka network from CoolTank, a developer of immersion cooling systems. The author is looking for a partner among hosts or an investor for a pilot project to test whether two-phase cooling can boost GPU performance and compute density on the network's existing hardware — this approach has already proven up to 40% efficiency on ASICs. It is a potential way to get more compute and revenue from the same hardware resources without a massive upgrade."
   },
   {
     "id": "evt_20260725063618_4729fe9c",
@@ -712,7 +712,7 @@
       "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Model lineup improvement: add an accessible GLM-5.2 candidate and reconsider MiniMax-M2.7 as default\n    <span class=\"issues-number\">#1408</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/enonog\">@enonog</a> opened 2026-07-06 12:31 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" st",
       "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Model lineup improvement: add an accessible GLM-5.2 candidate and reconsider MiniMax-M2.7 as default\n    <span class=\"issues-number\">#1408</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/enonog\">@enonog</a> opened 2026-07-06 12:31 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" st"
     },
-    "ai_description": "В ишью #1408 по обновлению модельного ряда появился новый комментарий, и теперь в обсуждении уже три сообщения. Следите за ходом дискуссии о добавлении доступного GLM-5.2 и пересмотре MiniMax-M2.7 в качестве модели по умолчанию — ваше мнение может повлиять на выбор сети."
+    "ai_description": "A new comment has been added to issue #1408 on the model lineup update, bringing the discussion to three messages total. Follow the debate on adding the affordable GLM-5.2 and reconsidering MiniMax-M2.7 as the default model — your opinion could influence the network's choice."
   },
   {
     "id": "evt_20260725020023_3a94d47f",
@@ -727,7 +727,7 @@
     "details": {
       "content": "# Rewards\n\n!!! note \n    This documentation is provided for reference only. Final parameters and technical details may change, so always verify the latest on-chain state and the relevant GitHub repository before relying on this document.\n\n## Overview of tokenomics\n\nThe Core incentive for Hosts (680 million gonka (GNK) coins, 68% of the total supply) is designed to reward Hosts for contributing computational power to the decentralized network. Under the Bitcoin-style reward System, a fixed amount of GNK is minted per epoch and distributed proportionally to each Host’s Proof of Compute (PoC) weight. As the network grows and more GPUs compete for the same fixed reward, the GNK earned per GPU decreases, introducing scarcity-driven value dynamics similar to Bitcoin mining. Long-term value for H"
     },
-    "ai_description": "Из раздела Protocol Docs убрали страницу Rewards, где описывались ключевые параметры токеномики: 680 миллионов GNK (68% эмиссии) для хостов, механика распределения по весу Proof of Compute и принцип схожий с биткоином, при котором фиксированная награда за эпоху делится между всеми участниками сети. Вероятно, команда удалила устаревший референс, чтобы избежать путаницы перед обновлёнными ончейн-параметрами. Следите за репозиторием и актуальным состоянием с"
+    "ai_description": "ми. Следите за репозиторием и актуальным состоянием с\"\n\nWait, the original text seems to be cut off at the end: \"Следите за репозиторием и актуальным состоянием с\" - it looks incomplete, but I should translate what's there or make it flow naturally.\n\nLet me break down the meaning:\n1. The Rewards page was removed from the Protocol Docs section. It described key tokenomics parameters: 680 million GNK (68% of emission) for hosts, distribution mechanics based on Proof of Compute weight, and a principle similar to Bitcoin where a fixed reward per epoch is divided among all network participants.\n2. Most likely the team removed the outdated reference to avoid confusion before updated on-chain parameters.\n3. Follow the repository and current state...\n\nSince the last"
   },
   {
     "id": "evt_20260723222041_cd1146c0",
@@ -758,7 +758,7 @@
     "details": {
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Better debshardd inference handling\n    <span class=\"issues-number\">#1466</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 2026-07-17 09:59 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-conte"
     },
-    "ai_description": "Задача #1466 об улучшении обработки инференса в debshardd была удалена из трекера. Это позволит команде сфокусироваться на других приоритетных направлениях развития сети."
+    "ai_description": "Issue #1466 regarding inference processing improvements in debshardd has been removed from the tracker. This will allow the team to focus on other priority areas of network development."
   },
   {
     "id": "evt_20260723144041_bddd1511",
@@ -774,7 +774,7 @@
       "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Better debshardd inference handling\n    <span class=\"issues-number\">#1466</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 2026-07-17 09:59 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-cont",
       "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Better debshardd inference handling\n    <span class=\"issues-number\">#1466</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 2026-07-17 09:59 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-conte"
     },
-    "ai_description": "В задаче #1466 по улучшению обработки инференса в debshardd появился первый комментарий — теперь обсуждение открыто и идет активный диалог по решению. Это поможет сообществу быстрее выявить нюансы и подготовить качественное обновление для децентрализованной сети."
+    "ai_description": "Issue #1466 on improving inference handling in debshardd has received its first comment, and an active discussion on the solution is now underway. This will help the community spot nuances faster and prepare a quality update for the decentralized network."
   },
   {
     "id": "evt_20260723094445_efda305a",
@@ -790,7 +790,7 @@
       "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway allowlist request: Ancapex\n    <span class=\"issues-number\">#1480</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/alancapex\">@alancapex</a> opened 2026-07-19 21:31 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-cont",
       "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway allowlist request: Ancapex\n    <span class=\"issues-number\">#1480</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/alancapex\">@alancapex</a> opened 2026-07-19 21:31 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-con"
     },
-    "ai_description": "В заявке на добавление нового шлюза Ancapex под номером 1480 появился новый комментарий. Пользователь @alancapex продолжает обсуждение своего запроса на включение в список разрешенных гейтвеев, что приближает рассмотрение заявки сообществом. Присоединяйтесь к обсуждению, чтобы помочь с валидацией."
+    "ai_description": "A new comment has been posted on the Ancapex gateway addition request number 1480. Community member @alancapex continues the discussion on their request to be added to the list of approved gateways, moving the proposal closer to community review. Join the discussion to help with validation."
   },
   {
     "id": "evt_20260722210225_72b031b0",
@@ -822,7 +822,7 @@
       "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [P1] Int overflow\n    <span class=\"issues-number\">#1222</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-05-21 22:30 UTC</span>\n    <span class=\"issues-meta-item\">5 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style=\"background-color: ",
       "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [P1] Int overflow\n    <span class=\"issues-number\">#1222</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-05-21 22:30 UTC</span>\n    <span class=\"issues-meta-item\">6 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style=\"background-color: "
     },
-    "ai_description": "В задаче #1222 с высоким приоритетом, посвященной переполнению целочисленного типа, появился новый комментарий и теперь их шесть. Продолжается обсуждение важного бага, который может влиять на стабильность инференса в сети. Следим за развитием диалога и поиском решения."
+    "ai_description": "A new comment was added to high-priority issue #1222 about integer overflow, bringing the total to six. Discussion continues on a critical bug that could affect network inference stability. We are monitoring the ongoing dialogue and the search for a solution."
   },
   {
     "id": "evt_20260722035338_0238995c",
@@ -838,7 +838,7 @@
       "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway allowlist request: Ancapex\n    <span class=\"issues-number\">#1480</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/alancapex\">@alancapex</a> opened 2026-07-19 21:31 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-con",
       "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway allowlist request: Ancapex\n    <span class=\"issues-number\">#1480</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/alancapex\">@alancapex</a> opened 2026-07-19 21:31 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-cont"
     },
-    "ai_description": "К issue #1480 о заявке на добавление шлюза Ancapex в allowlist появился первый комментарий. Это важный шаг — обсуждение，意味着 заявка рассматривается сообществом. Следим за развитием ситуации."
+    "ai_description": "The first comment has appeared on issue #1480 regarding the application to add the Ancapex gateway to the allowlist. This is an important step — discussion means the application is being reviewed by the community. We are following the developments."
   },
   {
     "id": "evt_20260721231850_07802651",
@@ -854,7 +854,7 @@
       "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [P0] Basic primitives for training\n    <span class=\"issues-number\">#1219</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-05-21 21:56 UTC</span>\n    <span class=\"issues-meta-item\">5 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style=\"b",
       "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [P0] Basic primitives for training\n    <span class=\"issues-number\">#1219</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-05-21 21:56 UTC</span>\n    <span class=\"issues-meta-item\">6 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style=\"b"
     },
-    "ai_description": "В issue #1219 появился новый комментарий — обсуждение примитивов для обучения (P0) продолжается. Следите за тредом, эта задача критична для развития сети."
+    "ai_description": "A new comment has been posted in issue #1219, and the discussion on training primitives (P0) is ongoing. Follow the thread closely, this task is critical for network development."
   },
   {
     "id": "evt_20260721221744_e8f0833b",
@@ -886,7 +886,7 @@
       "status": null,
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Request to be added as a Gonka broker (devshard escrow creator allowlist)\n    <span class=\"issues-number\">#1493</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/nikshh\">@nikshh</a> opened 2026-07-21 13:07 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></di"
     },
-    "ai_description": "В сообществе появилась новая заявка от участника @nikshh на включение в список брокеров Gonka. Речь идет о доступе к созданию эскроу-контрактов в devshard, что расширяет возможности сети для децентрализованного инференса."
+    "ai_description": "A new application has been submitted in the community by member @nikshh to join the Gonka broker list. It concerns access to creating escrow contracts in devshard, which expands the network capabilities for decentralized inference."
   },
   {
     "id": "evt_20260721110038_6c826fb6",
@@ -902,7 +902,7 @@
       "status": null,
       "content": "# 仪表板维护者备忘录 — Gonka v0.2.14\n\n本次升级未移除或重塑任何现有查询端点。如果您的仪表板从链上读取值并显示它们，则将继续正常工作。您需要理解一个语义变更（委托），以及三个小注意事项。\n\n## 委托：权重与奖励\n\n**之前（v0.2.13）：** 当A委托给B时，链在存储权重之前会将A的部分权重物理转移给B。您从链上读取的`weight`已经包含了委托影响。奖励会自动基于调整后的权重计算。\n\n**现在（v0.2.14）：** 链存储每个人自己的权重，不受委托影响。委托仅在奖励结算时内部应用，作用于一个从未作为链字段暴露的权重副本。（拒绝/不参与惩罚也变为仅影响奖励，不再减少存储的权重。）\n\n这对您的仪表板意味着什么，取决于其功能：\n\n- **您显示从链上读取的`weight`**（`epoch_group_data` → `validation_weights[].weight`，或 `get_participant_current_stats`）：继续完全照做。仍然正确。只需知道该数字不再包含委托影响——委托出去的参与者仍显示其完整权重。\n- **您自行重新计算权重并在其上应用委托：** 停止应用委托。链不再这样做。\n- **您估算预期奖励为“参与者权重 ÷ 总权重 × 期池”：** 只要存在委托、拒绝惩罚或排除，此方法现在就是错误的。请改用新端点：\n\n`GET /chain-api/productscience/inference/inference/estimate_bitcoin_reward/{participant}`\n\n它复现了链在结算时使用的相同计算逻辑——包含委托转移、惩罚和排除——并返回估算的奖励和工作币。该估算是针对当前期的：其输入在期形成时（PoC验证结束时）快照，并在每期转换时刷新，因此该端点在整个期中均有效。NotFound响"
     },
-    "ai_description": "В протоколе Gonka v0.2.14 изменилась логика делегирования: теперь вес участников на уровне хранилища больше не уменьшается при делегировании и не затрагивается штрафами, а перерасчет происходит только в момент начисления наград. Для тех, кто ведет собственные дашборды, это означает, что старые формулы расчета вознаграждений через вес больше не работают, если в сети есть делегирование или исключения. Чтобы получать корректные оценки, используйте новый эндпоинт"
+    "ai_description": "In Gonka protocol v0.2.14, the delegation logic has changed: participant weights at the storage level are no longer reduced during delegation or affected by penalties, and recalculation now happens only at the moment rewards are distributed. For those running their own dashboards, this means old reward calculation formulas based on weight no longer work if there is delegation or exclusions in the network. To get correct estimates, use the new endpoint."
   },
   {
     "id": "evt_20260721110038_612a581c",
@@ -918,7 +918,7 @@
       "content_before": "# FAQ\n\n## 概述\n\n### 什么是Gonka？\n\nGonka是一个用于高效AI计算的去中心化网络——由使用者运营。它作为集中式云服务在AI模型训练和推理方面的经济高效替代方案。作为一个协议，它并非公司或初创企业。\n\n- 从区块链角度看，Gonka是去中心化AI网络的基础账本与协调层（L1）。它记录余额、交易和加密证据，以证明主机正确执行了AI工作，而所有实际计算（如推理和训练）均在链下进行。\n- 从网络角度看，Gonka是一个包含主机和开发者的综合生态系统，通过去中心化基础设施进行交互。依托Gonka区块链，该网络分发任务、验证结果，并仅奖励可验证的有用工作，从而为AI工作负载创建一个竞争性强、可扩展的环境。\n\n### Gonka解决了什么问题？\n\nGonka是一个去中心化AI基础设施，旨在减少对集中式云提供商的依赖，并比传统去中心化网络更高效地利用计算能力。其目标是尽可能将计算资源导向有用的AI任务，如推理和训练，同时最小化因共识开销造成的浪费。\n\n### Gonka生态系统中的关键参与者有哪些？\n\nGonka生态系统有四个关键参与者群体：\n\n- 开发者通过利用网络的分布式计算能力构建和部署AI应用。\n- Gonka贡献者参与核心区块链代码库、协议升级、性能优化、安全补丁和新功能集成的开发。\n\n- 持有者持有网络的原生代币，即拥有一个包含Gonka代币的钱包。持有者可以持有、转账或出售代币，使用代币进行推理，并根据协议规则使用它们。成为持有者不意味着除标准代币所有权外的任何义务、责任或治理角色。\n- 主机向网络贡献计算能力。主机执行推理和其他计算任务，并根据其贡献的计算能力按比例获得奖励，前提是保持诚实参与和可靠性。主机构成网络的骨干。只有主机在网络中拥有投票权。该投票权代表其在治理中的权重，用于提出和投票决定协议决策、参数变更和升级。任何主机均可担任验证者、转账",
       "content_after": "# FAQ\n\n## 概述\n\n### 什么是Gonka？\nGonka是一个用于高效AI计算的去中心化网络——由运行它的人运营。它作为集中式云服务在AI模型训练和推理方面的低成本高效替代方案。作为一个协议，它既不是公司，也不是初创企业。\n\n- 从区块链角度来看，Gonka是去中心化AI网络的基础账本和协调层（L1）。它记录余额、交易和加密证据，以证明主机正确执行了AI工作，而所有实际计算（如推理和训练）均在链下进行。\n- 从网络角度来看，Gonka是一个由参与者组成的综合生态系统，包括通过去中心化基础设施交互的主机和开发者。依托Gonka区块链，该网络分发任务、验证结果，并仅奖励可验证的有用工作，从而为AI工作负载创建一个具有竞争力且可扩展的环境。\n\n### Gonka解决了什么问题？\n\nGonka是一个去中心化的AI基础设施，旨在减少对集中式云提供商的依赖，并比传统去中心化网络更高效地利用计算能力。其目标是尽可能将计算资源导向有用的AI任务，如推理和训练，同时最小化因共识开销造成的浪费。\n\n### Gonka生态系统中的关键参与者有哪些？\n\nGonka生态系统有四个关键参与者群体：\n\n- 开发者通过利用网络的分布式计算能力来构建和部署AI应用。\n- Gonka贡献者参与核心区块链代码库、协议升级、性能优化、安全补丁和新功能集成的开发。\n- 持有者持有网络的原生代币，即仅拥有一个包含GNK代币的钱包。持有者可以持有、转账或出售代币，用其支付推理服务，并根据协议规则使用代币。成为持有者不意味着承担任何义务、责任或治理角色，仅限于标准代币所有权。\n- 主机向网络贡献计算能力。主机执行推理和其他计算任务，并根据其贡献的计算能力获得相应奖励，前提是保持诚实参与和可靠性。主机构成网络的骨干。只有主机拥有网络的投票权。该投票权代表其在治理中的权重，用于提出和投票决定协议决策、参数变更和升级"
     },
-    "ai_description": "Обновили раздел FAQ в документации протокола. Уточнили описание ролей участников экосистемы: теперь держатели токенов чётко обозначены как владельцы кошельков с токеном GNK без каких-либо обязательств или прав управления, а хосты подчёркнуты как единственные обладатели права голоса в сети, которое определяет их вес в управлении протоколом. Это делает структуру управления и экономику сети более прозрачными для новых участников."
+    "ai_description": "We’ve updated the FAQ section in the protocol documentation. We clarified the description of ecosystem participant roles: token holders are now clearly defined as wallet owners holding GNK tokens without any obligations or governance rights, while hosts are emphasized as the sole holders of network voting rights that determine their weight in protocol governance. This makes the governance structure and network economics more transparent for new participants."
   },
   {
     "id": "evt_20260721110038_3eed63fa",
@@ -950,7 +950,7 @@
       "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway allowlist request: Knyazev AI high-throughput agent infrastructure\n    <span class=\"issues-number\">#1479</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/knyazev741\">@knyazev741</a> opened 2026-07-19 06:12 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8",
       "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway allowlist request: Knyazev AI high-throughput agent infrastructure\n    <span class=\"issues-number\">#1479</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/knyazev741\">@knyazev741</a> opened 2026-07-19 06:12 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8"
     },
-    "ai_description": "Обновление issue #1479: @knyazev741 запросил включение адреса в allowlist для приватного self-hosted gateway (100–200 конкурентных запросов). @tcharchian подтвердил, что путь через on-chain governance и community discussion в #dev-chat верный, OpenBroker не подходит из-за требований к селф-кастодиальному расчёту."
+    "ai_description": "Update on issue #1479: @knyazev741 requested allowlist inclusion for a private self-hosted gateway handling 100–200 concurrent requests. @tcharchian confirmed that the path via on-chain governance and community discussion in #dev-chat is correct, and OpenBroker is unsuitable due to self-custodial settlement requirements."
   },
   {
     "id": "evt_20260721015921_48e45199",
@@ -982,7 +982,7 @@
       "content_before": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## July 16, 2026\n\n**Proposal 88 has passed: Kimi-K2.6 re-registered, devshard v1/v2 removed**\n\nThe expedited proposal 88 was approved on-chain.\n\n**Kimi-K2.6 bootstrap (epoch 331)**\n\n`moonshotai/Kimi-K2.6` is back in the governance model list and enters the ",
       "content_after": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## July 20, 2026\n\n**v0.2.14 Upgrade Proposal Enters Governance**\n\n[The v0.2.14 proposal](https://github.com/gonka-ai/gonka/pull/1267) is now on-chain and open for voting.\n\nThe mainnet chain/API work focuses on PoC duplicate-artifact protection, early share "
     },
-    "ai_description": "Обновлён раздел Announcements: добавлено уведомление от 20 июля о том, что предложение v0.2.14 вышло на голосование в сети. Основные направления обновления — защита от дублирующихся артефактов в PoC и оптимизация early share. Члены сообщества могут участвовать в голосовании, ознакомившись с деталя"
+    "ai_description": "The Announcements section has been updated with a July 20 notice that proposal v0.2.14 is now up for on-chain voting. Key update focuses include protection against duplicate artifacts in PoC and early share optimization. Community members can participate in voting after reviewing the details."
   },
   {
     "id": "evt_20260720232853_667688ea",
@@ -1014,7 +1014,7 @@
       "status": null,
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Better debshardd inference handling\n    <span class=\"issues-number\">#1466</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\">[@a-kuprin](https://github.com/a-kuprin) opened 2026-07-17 09:59 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-content\" markdo"
     },
-    "ai_description": "Новый issue #1466 от @a-kuprin: улучшение обработки инференса в devshard. Предлагается четыре задачи — унификация путей accept/execute, отделение времени жизни ML от клиентского соединения, поддержка повторного подключения с тем же nonce и отказоустойчивость между инстансами devshardd. Обсуждение открыто."
+    "ai_description": "New issue #1466 from @a-kuprin: improving inference handling in devshard. Four tasks are proposed — unifying the accept/execute paths, decoupling ML lifetime from the client connection, supporting reconnection with the same nonce, and fault tolerance between devshardd instances. Discussion is open."
   },
   {
     "id": "evt_20260717100900_a6491be0",
@@ -1030,7 +1030,7 @@
       "status": "active",
       "content": "# Should Gonka make fallbacks to other services like OpenRouter?\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Viktor\n**Created:** 2026-07-17 08:36 UTC\n**Closes:** 2026-07-24 08:19 UTC\n**Language:** EN\n**Votes:** 0\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nНужно ли Gonka делать собственные fallbacks (на OpenRouter) на случай, когда сеть или отдельные брокеры отваливаются.\n\nРешили: польза от фаллбеков не окупает рисков\n\n---\n\n## Full Proposal\n\nКонтекст\n\nОбсуждали план — собирать много лендингов «своих брокеров» под целевые аудитории (нашими силами и силами существующих брокеров) и распределять трафик между брокерами, подходящими под конкретную ЦА, а также под обёртками технологически стабильных брокеров.\n\nВ рамках этого рассматривался вариа"
     },
-    "ai_description": "Новая pre-proposal от Viktor: сообщество обсуждает, стоит ли Gonka добавить fallback-провайдеров вроде OpenRouter для повышения отказоустойчивости инференса. Голосование открыто до 24 июля."
+    "ai_description": "New pre-proposal from Viktor: the community is discussing whether Gonka should add fallback providers like OpenRouter to improve inference reliability. Voting is open until July 24."
   },
   {
     "id": "evt_20260717090433_1d52c17f",
@@ -1046,7 +1046,7 @@
       "content_before": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## July 16, 2026\n\n**Expedited governance vote (proposal 88): re-register Kimi-K2.6 and remove devshard v1/v2 runtimes**\n\nThis is the second step of the Kimi recovery plan announced on July 15. Proposal 87 removed `moonshotai/Kimi-K2.6` from the active set; ",
       "content_after": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## July 16, 2026\n\n**Proposal 88 has passed: Kimi-K2.6 re-registered, devshard v1/v2 removed**\n\nThe expedited proposal 88 was approved on-chain.\n\n**Kimi-K2.6 bootstrap (epoch 331)**\n\n`moonshotai/Kimi-K2.6` is back in the governance model list and enters the "
     },
-    "ai_description": "Обновлена страница Announcements в протокольной документации — добавлена информация о последних событиях и голосованиях в сети."
+    "ai_description": "The Announcements page in the protocol documentation has been updated with information on the latest events and network votes."
   },
   {
     "id": "evt_20260717063856_707eccb1",
@@ -1065,7 +1065,7 @@
       "status_after": "passed",
       "funding": ""
     },
-    "ai_description": "Предложение #88 по восстановлению Kimi K2.6 и удалению v1/v2 успешно прошло голосование и перешло в статус Passed. Сообщество поддержало обновление линейки моделей."
+    "ai_description": "Proposal #88 to restore Kimi K2.6 and remove v1/v2 has successfully passed the vote and moved to Passed status. The community supported the model lineup update."
   },
   {
     "id": "evt_20260717041932_a8f1e2e4",
@@ -1081,7 +1081,7 @@
       "content_before": "# Привлечение $3M+ нового капитала на Uniswap v2.0\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Andrey Orlov\n**Created:** 2026-07-09 16:25 UTC\n**Closes:** 2026-08-08 16:25 UTC\n**Language:** RU\n**Votes:** 4\n**Avg. Bid:** 168.7K GNK\n\n</div>\n\nПредлагаем за 90 дней привлечь от $3 млн нового капитала в GONKA через масштабируемую Telegram-воронку с поэтапным финансированием и KPI\n\n---\n\n## Full Proposal\n\nСуть предложения\n2. Кто мы\n3. Что мы предлагаем\n4. KPI и экономика проекта\n5. Как будет работать воронка\n6. Стратегия удержания пользователей\n7. Финансирование\n8. Вознаграждение команды \n9. Отчетность и прозрачность\n10. Что получает GONKA\n11. Защита от фрода и методика расчета KPI\n12. Дополнительные материалы\n\n \n1.  Суть предложения\n\n",
       "content_after": "# Привлечение $3M+ нового капитала на Uniswap v2.0\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Andrey Orlov\n**Created:** 2026-07-09 16:25 UTC\n**Closes:** 2026-08-08 16:25 UTC\n**Language:** RU\n**Votes:** 4\n**Avg. Bid:** 170.5K GNK\n\n</div>\n\nПредлагаем за 90 дней привлечь от $3 млн нового капитала в GONKA через масштабируемую Telegram-воронку с поэтапным финансированием и KPI\n\n---\n\n## Full Proposal\n\nСуть предложения\n2. Кто мы\n3. Что мы предлагаем\n4. KPI и экономика проекта\n5. Как будет работать воронка\n6. Стратегия удержания пользователей\n7. Финансирование\n8. Вознаграждение команды \n9. Отчетность и прозрачность\n10. Что получает GONKA\n11. Защита от фрода и методика расчета KPI\n12. Дополнительные материалы\n\n \n1.  Суть предложения\n\n"
     },
-    "ai_description": "Обновлён препропозал Привлечение $3M+ нового капитала на Uniswap v2.0 — уточнённая версия предложения остаётся активной для голосования."
+    "ai_description": "The pre-proposal for raising $3M+ in new capital on Uniswap v2.0 has been updated, and the revised version remains open for voting."
   },
   {
     "id": "evt_20260717041932_f63e3c54",
@@ -1097,7 +1097,7 @@
       "content_before": "# Gonka Media Library by Saccade\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Dem \\| Démíngān\n**Created:** 2026-07-03 11:30 UTC\n**Closes:** 2026-07-10 11:28 UTC\n**Language:** EN\n**Votes:** 1\n**Avg. Bid:** 6.4K GNK\n\n</div>\n\nGonka Media Library — Explainer Library & Platform\nExplainer series (20 ep., 40 min) + web download & self-branding platform\n\n---\n\n## Full Proposal\n\nProposal — Gonka Media Library\n\n## Project\n\n**Gonka Media Library — Explainer Library & Platform**\n\n## DAO\n\n**Gonka**\n\n## Scope\n\nExplainer series **20 episodes, 40 min total** + web download & self-branding platform.\n\n## Deliverables\n\n- **Explainer library** — 20 episodes, 40 min total, grouped into 4 horizontal long-form films, 16:9.\n- Every episode is also rel",
       "content_after": "# Gonka Media Library by Saccade\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Dem \\| Démíngān\n**Created:** 2026-07-03 11:30 UTC\n**Closes:** 2026-07-10 11:28 UTC\n**Language:** EN\n**Votes:** 1\n**Avg. Bid:** 22.1K GNK\n\n</div>\n\nGonka Media Library — Explainer Library & Platform\nExplainer series (20 ep., 40 min) + web download & self-branding platform\n\n---\n\n## Full Proposal\n\nProposal — Gonka Media Library\n\n## Project\n\n**Gonka Media Library — Explainer Library & Platform**\n\n## DAO\n\n**Gonka**\n\n## Scope\n\nExplainer series **20 episodes, 40 min total** + web download & self-branding platform.\n\n## Deliverables\n\n- **Explainer library** — 20 episodes, 40 min total, grouped into 4 horizontal long-form films, 16:9.\n- Every episode is also re"
     },
-    "ai_description": "Препропозал Gonka Media Library от Saccade обновлён (статус Expired). Инициатива по созданию медиа-библиотеки для экосистемы ждёт новых идей."
+    "ai_description": "The Gonka Media Library pre-proposal by Saccade has been updated with an Expired status. The initiative to create a media library for the ecosystem is awaiting fresh ideas."
   },
   {
     "id": "evt_20260717041932_00f379bf",
@@ -1113,7 +1113,7 @@
       "content_before": "# Привлечение $3M+ нового капитала на Uniswap\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Andrey Orlov\n**Created:** 2026-07-03 15:10 UTC\n**Closes:** 2026-08-02 15:10 UTC\n**Language:** RU\n**Votes:** 4\n**Avg. Bid:** 168.7K GNK\n\n</div>\n\nПредлагаем за 90 дней привлечь от $3 млн нового капитала в GONKA через масштабируемую Telegram-воронку с поэтапным финансированием и KPI\n\n---\n\n## Full Proposal\n\nСуть предложения\n2. Кто мы\n3. Что мы предлагаем\n4. KPI и экономика проекта\n5. Как будет работать воронка\n6. Стратегия удержания пользователей\n7. Финансирование\n8. Вознаграждение команды \n9. Отчетность и прозрачность\n10. Что получает GONKA\n11. Дополнительные материалы\n\n1.  Суть предложения\n\nМы предлагаем реализовать маркетинговую кампанию, ",
       "content_after": "# Привлечение $3M+ нового капитала на Uniswap\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Andrey Orlov\n**Created:** 2026-07-03 15:10 UTC\n**Closes:** 2026-08-02 15:10 UTC\n**Language:** RU\n**Votes:** 4\n**Avg. Bid:** 170.5K GNK\n\n</div>\n\nПредлагаем за 90 дней привлечь от $3 млн нового капитала в GONKA через масштабируемую Telegram-воронку с поэтапным финансированием и KPI\n\n---\n\n## Full Proposal\n\nСуть предложения\n2. Кто мы\n3. Что мы предлагаем\n4. KPI и экономика проекта\n5. Как будет работать воронка\n6. Стратегия удержания пользователей\n7. Финансирование\n8. Вознаграждение команды \n9. Отчетность и прозрачность\n10. Что получает GONKA\n11. Дополнительные материалы\n\n1.  Суть предложения\n\nМы предлагаем реализовать маркетинговую кампанию, "
     },
-    "ai_description": "Препропозал по привлечению $3M+ через Telegram-воронку обновлён. Обсуждение продолжается, предложение остаётся активным до 2 августа."
+    "ai_description": "The pre-proposal for raising $3M+ via Telegram funnel has been updated. Discussion is ongoing, the proposal remains active until August 2."
   },
   {
     "id": "evt_20260717041932_4a1d6f3d",
@@ -1129,7 +1129,7 @@
       "content_before": "# Go-To-Market Team for 3 Month to Set Up the Basis\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Dem \\| Démíngān\n**Created:** 2026-07-03 15:58 UTC\n**Closes:** 2026-07-10 15:58 UTC\n**Language:** EN\n**Votes:** 1\n**Avg. Bid:** 6.4K GNK\n\n</div>\n\nThis proposal describes ecosystem we should do for the Gonka, including basics, go-to-market actions, the team and the budgets for the next 3 months.\n\n---\n\n## Full Proposal\n\nInternal Go-To-Market Team for Gonka\n\n[Read full proposal](https://app.integrity.sh/p/SuMCnGQBhz-0asAYBUz1U)\n\n## Summary\n\nThis proposal describes a 3-month internal go-to-market team for Gonka. The goal is to set up the core GTM foundation: acquisition funnels, analytics, audience research, CRM processes, and coordinat",
       "content_after": "# Go-To-Market Team for 3 Month to Set Up the Basis\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Dem \\| Démíngān\n**Created:** 2026-07-03 15:58 UTC\n**Closes:** 2026-07-10 15:58 UTC\n**Language:** EN\n**Votes:** 1\n**Avg. Bid:** 22.1K GNK\n\n</div>\n\nThis proposal describes ecosystem we should do for the Gonka, including basics, go-to-market actions, the team and the budgets for the next 3 months.\n\n---\n\n## Full Proposal\n\nInternal Go-To-Market Team for Gonka\n\n[Read full proposal](https://app.integrity.sh/p/SuMCnGQBhz-0asAYBUz1U)\n\n## Summary\n\nThis proposal describes a 3-month internal go-to-market team for Gonka. The goal is to set up the core GTM foundation: acquisition funnels, analytics, audience research, CRM processes, and coordina"
     },
-    "ai_description": "Обновлён препропозал Go-To-Market Team (статус Expired). Продолжается обсуждение стратегии выхода на рынок."
+    "ai_description": "Updated pre-proposal for the Go-To-Market Team (status: Expired). Discussion on the market entry strategy is ongoing."
   },
   {
     "id": "evt_20260717041932_bae05120",
@@ -1161,7 +1161,7 @@
       "status": null,
       "content": "> 🔄 **Auto-sync:** from [Discussion #1464](https://github.com/gonka-ai/gonka/discussions/1464) every hour. \n\n# Dev Team Funding\n\n**Автор:** [@gmorgachev](https://github.com/gmorgachev) · **Категория:** :bulb: Proposals · **Создано:** 2026-07-17 01:38 UTC · \n\n---\n\n## 📝 Описание\n\nHello everyone! I am Gleb Morgachev, one of Gonka's co-creators.\n\nIn the next couple of weeks, I plan to submit a proposal requesting 1.5 million USDT from the community pool. The funding would support an independent engineering team working on core protocol development aligned with the community roadmap. It would cover the team and expenses directly related to its work, not servers or GPU infrastructure for mining.\n\n## Scope\n\nThis independent team would be a small group of top-tier engineers working on Gonka's core"
     },
-    "ai_description": "Новое обсуждение в категории Proposals от gmorgachev — Dev Team Funding. Предлагается обсудить финансирование команды разработки для ускорения развития протокола."
+    "ai_description": "New discussion in the Proposals category by gmorgachev — Dev Team Funding. It proposes discussing development team funding to accelerate protocol growth."
   },
   {
     "id": "evt_20260716204950_73d261ae",
@@ -1193,7 +1193,7 @@
       "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Model lineup improvement: add an accessible GLM-5.2 candidate and reconsider MiniMax-M2.7 as default\n    <span class=\"issues-number\">#1408</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\">[@enonog](https://github.com/enonog) opened 2026-07-06 12:31 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin",
       "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Model lineup improvement: add an accessible GLM-5.2 candidate and reconsider MiniMax-M2.7 as default\n    <span class=\"issues-number\">#1408</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\">[@enonog](https://github.com/enonog) opened 2026-07-06 12:31 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin"
     },
-    "ai_description": "Обновлён issue #1408: обсуждается улучшение линейки моделей — добавление доступной GLM-5.2 и пересмотр MiniMax-M2.7 в качестве модели по умолчанию."
+    "ai_description": "Issue #1408 has been updated with discussion on improving the model lineup, including adding the affordable GLM-5.2 and reconsidering MiniMax-M2.7 as the default model."
   },
   {
     "id": "evt_20260716181046_f2b315fd",
@@ -1210,7 +1210,7 @@
       "content": "# #88 – Restore Kimi K2.6 and remove v1, v2\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<div class=\"prop-badge-row\"><span class=\"prop-badge prop-voting\">Voting</span><span class=\"prop-vote-countdown prop-vote-countdown-detail\" data-deadline=\"2026-07-17T06:09:28.727069592Z\"></span></div>\n\n**Proposal ID:** `88`\n\n**Type:** Register Model, Update Params\n\n**Submit:** 2026-07-16 18:09 UTC\n\n**Voting:** 2026-07-16 18:09 UTC → 2026-07-17 06:09 UTC\n\n**Expedited:** Yes\n\n**Proposer:** [`gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le`](https://gonka.gg/address/gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le){:target=\"_blank\"}\n\n[View on gonka.gg](https://gonka.gg/network/proposals/88){:target=\"_blank\"}\n\n</div>\n\nUpdate current chain params to register moonshotai/Kimi-K2.6 in the governance model list and ",
       "funding": ""
     },
-    "ai_description": "Новое предложение #88 поступило на голосование: восстановить Kimi K2.6 и удалить устаревшие версии v1 и v2. Голосование открыто, успейте принять участие."
+    "ai_description": "New proposal #88 is now open for voting: restore Kimi K2.6 and remove outdated v1 and v2 versions. Voting is open, make sure to cast your vote."
   },
   {
     "id": "evt_20260716180021_2e12bb1f",
@@ -1229,7 +1229,7 @@
       "status_after": "passed",
       "funding": ""
     },
-    "ai_description": "Предложение #86 по увеличению weight_scale_factor для Kimi-K2.6 и GLM-5.2 на 5% успешно принято сообществом — параметры моделей будут обновлены."
+    "ai_description": "Proposal #86 to increase the weight_scale_factor for Kimi-K2.6 and GLM-5.2 by 5% has been successfully approved by the community, and the model parameters will be updated."
   },
   {
     "id": "evt_20260716120327_9ecd88d8",
@@ -1248,7 +1248,7 @@
       "status_after": "passed",
       "funding": ""
     },
-    "ai_description": "Предложение #87 об исключении модели Kimi K2.6 из сети успешно прошло голосование со 100% поддержкой. Экспресс-голосование завершилось принятием, и moonshotai/Kimi-K2.6 теперь будет удалена из параметров PoC и списка управляемых моделей Gonka."
+    "ai_description": "Proposal #87 to remove the Kimi K2.6 model from the network passed the vote successfully with 100% support. The express vote concluded with acceptance, and moonshotai/Kimi-K2.6 will now be removed from the PoC parameters and Gonka's managed model list."
   },
   {
     "id": "evt_20260716015707_43ea76ec",
@@ -1264,7 +1264,7 @@
       "content_before": "# Multi-Model PoC — Host Operations Guide\n\nMulti-model Proof-of-Compute (PoC) arrived in v0.2.12 and expanded again in v0.2.13.\n\n## What changed in v0.2.12 and v0.2.13\n\nBefore v0.2.12, the network operated a single enforced model: `Qwen/Qwen3-235B-A22B-Instruct-2507-FP8`. v0.2.12 added `moonshotai/Kimi-K2.6` as the second governance-approved model and introduced per-model participation, delegation, and penalty timing. v0.2.13 recalibrated model coefficients and added `MiniMaxAI/MiniMax-M2.7` as the third governance-approved model.\n\nAs of epoch `308`, `Qwen/Qwen3-235B-A22B-Instruct-2507-FP8` has been retired by governance (proposal 78) and `MiniMaxAI/MiniMax-M2.7` is the base model and active PoC model. `poc_params.models` on mainnet contains:\n\n| `model_id` | Current mainnet status | `weigh",
       "content_after": "# Multi-Model PoC — Host Operations Guide\n\nMulti-model Proof-of-Compute (PoC) arrived in v0.2.12 and expanded again in v0.2.13.\n\n!!! warning \"Delegation guidance update (July 2026)\"\n\n    After the epoch 328–329 incident, two rules apply when choosing a delegate:\n\n    - **Do not delegate to guardian nodes.** Guardians are the fallback mechanism\n      for PoC validation. Concentrating delegations on them ties the primary\n      voting mechanism and the fallback to the same hardware, so both fail\n      together. Earlier guidance that suggested a guardian node as a delegation\n      target is withdrawn. A protocol-level restriction is planned for v0.2.14.\n    - **Avoid concentrating delegations on any single host.** A delegation only\n      counts if the delegate submits a PoC store commit that e"
     },
-    "ai_description": "Обновлено руководство по эксплуатации Multi-Model PoC. Теперь в нем отражены важные изменения в рекомендациях по делегированию, выявленные после инцидента в эпохах 328–329. Во-первых, делегировать голоса узлам-гвардианам больше не рекомендуется, так как это связывает основной механизм голосования и резервный валидации в одно оборудование, повышая риск совместного отказа. Во-вторых, следует избегать концентрации делегирования на одном хосте. На уровне"
+    "ai_description": "The Multi-Model PoC operations guide has been updated. It now reflects important changes to delegation recommendations identified after the incident in epochs 328-329. First, delegating votes to guardian nodes is no longer recommended, as this ties the main voting mechanism and backup validation to the same hardware, increasing the risk of correlated failure. Second, delegation concentration on a single host should be avoided."
   },
   {
     "id": "evt_20260716000810_fcb0d1c0",
@@ -1281,7 +1281,7 @@
       "content": "# #87 – Remove Kimi K2.6 model\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<div class=\"prop-badge-row\"><span class=\"prop-badge prop-voting\">Voting</span><span class=\"prop-vote-countdown prop-vote-countdown-detail\" data-deadline=\"2026-07-16T12:01:23.051983254Z\"></span></div>\n\n**Proposal ID:** `87`\n\n**Type:** Delete Governance Model, Update Params\n\n**Submit:** 2026-07-16 00:01 UTC\n\n**Voting:** 2026-07-16 00:01 UTC → 2026-07-16 12:01 UTC\n\n**Expedited:** Yes\n\n**Proposer:** [`gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le`](https://gonka.gg/address/gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le){:target=\"_blank\"}\n\n[View on gonka.gg](https://gonka.gg/network/proposals/87){:target=\"_blank\"}\n\n</div>\n\nRemove moonshotai/Kimi-K2.6 from PoC params and delete it from the governance model list.\n\n---\n\n##",
       "funding": ""
     },
-    "ai_description": "В сети Gonka появилось срочное предложение #87 об исключении модели Kimi K2.6 из списка доступных для инференса моделей и из параметров PoC. Сообщество уже начало 12-часовое голосование, которое завершится сегодня в 12:01 UTC. Если предложение пройдет, это напрямую повлияет на состав моделей, доступных через сеть, и обновит правила консенсуса валидаторов."
+    "ai_description": "An urgent proposal #87 has appeared in the Gonka network to remove the Kimi K2.6 model from the list of inference-available models and from PoC parameters. The community has already started a 12-hour vote that will end today at 12:01 UTC. If the proposal passes, it will directly affect the lineup of models available through the network and update the validator consensus rules."
   },
   {
     "id": "evt_20260715140517_bd738e1e",
@@ -1297,7 +1297,7 @@
       "content_before": "# Улучшаем инфиренс Kimi\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Mitch\n**Created:** 2026-07-14 01:37 UTC\n**Closes:** 2026-07-21 01:37 UTC\n**Language:** RU\n**Votes:** 5\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nKimi в Gonka перегружен и сыпет ошибками. Разбираем, почему так вышло, и что можно исправить прямо сейчас через Governance и настройки нод.\n\n---\n\n## Full Proposal\n\nФакты:\n\n* \\~20% веса сети приходится на Kimi  \n* Запросов на инфиренс идет столько, что ноды с Kimi часто перегружены, и ответ падает с ошибкой  \n* Недели 2 назад Kimi можно было нормально пользоваться  \n* Сейчас Kimi часто дает ошибку, стало больше запросов  \n* Сама по себе цена не будет расти и при 100% загрузке нод с Kimi (динамического прайсинга нету в девшардах",
       "content_after": "# Улучшаем инфиренс Kimi\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Mitch\n**Created:** 2026-07-14 01:37 UTC\n**Closes:** 2026-07-21 01:37 UTC\n**Language:** RU\n**Votes:** 6\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nKimi в Gonka перегружен и сыпет ошибками. Разбираем, почему так вышло, и что можно исправить прямо сейчас через Governance и настройки нод.\n\n---\n\n## Full Proposal\n\nФакты:\n\n* \\~20% веса сети приходится на Kimi  \n* Запросов на инфиренс идет столько, что ноды с Kimi часто перегружены, и ответ падает с ошибкой  \n* Недели 2 назад Kimi можно было нормально пользоваться  \n* Сейчас Kimi часто дает ошибку, стало больше запросов  \n* Сама по себе цена не будет расти и при 100% загрузке нод с Kimi (динамического прайсинга нету в девшардах"
     },
-    "ai_description": "Препропозал по улучшению инференса Kimi продолжает набирать голоса — теперь их уже шесть. Сообщество активно поддерживает инициативу по решению проблемы перегруженных нод, на которые приходится около 20% веса сети. Голосование открыто до 21 июля, успейте высказать своё мнение."
+    "ai_description": "The pre-proposal to improve Kimi inference keeps gaining votes — now there are six. The community is actively supporting the initiative to solve the problem of overloaded nodes that carry about 20% of the network weight. Voting is open until July 21, so make sure to share your opinion."
   },
   {
     "id": "evt_20260715095440_64a613b3",
@@ -1313,7 +1313,7 @@
       "content_before": "# FAQ\n\n## 概述\n\n### 什么是Gonka？\nGonka是一个用于高效AI计算的去中心化网络——由使用者运营。它作为集中式云服务在AI模型训练和推理方面的经济高效替代方案。作为一个协议，它并非公司或初创企业。\n\n- 从区块链角度看，Gonka是去中心化AI网络的基础账本与协调层（L1）。它记录余额、交易和加密证据，以证明主机正确执行了AI工作，而所有实际计算（如推理和训练）均在链下进行。\n- 从网络角度看，Gonka是一个包含主机和开发者的综合生态系统，通过去中心化基础设施进行交互。依托Gonka区块链，该网络分发任务、验证结果，并仅奖励可验证的有用工作，从而为AI工作负载创建一个竞争性强、可扩展的环境。\n\n### Gonka解决了什么问题？\n\nGonka是一个去中心化AI基础设施，旨在减少对集中式云提供商的依赖，并比传统去中心化网络更高效地利用计算能力。其目标是尽可能将计算资源导向有用的AI任务，如推理和训练，同时最小化因共识开销造成的浪费。\n\n### Gonka生态系统中的关键参与者有哪些？\n\nGonka生态系统有四个关键参与者群体：\n\n- 开发者通过利用网络的分布式计算能力构建和部署AI应用。\n- Gonka贡献者参与核心区块链代码库、协议升级、性能优化、安全补丁和新功能集成的开发。\n- 持有者持有网络的原生代币，即拥有一个包含Gonka代币的钱包。持有者可以持有、转账或出售代币，使用代币进行推理，并根据协议规则使用它们。成为持有者不意味着除标准代币所有权外的任何义务、责任或治理角色。\n- 主机向网络贡献计算能力。主机执行推理和其他计算任务，并根据其贡献的计算能力按比例获得奖励，前提是保持诚实参与和可靠性。主机构成网络的骨干。只有主机在网络中拥有投票权。该投票权代表其在治理中的权重，用于提出和投票决定协议决策、参数变更和升级。任何主机均可担任验证者、转账代理",
       "content_after": "# FAQ\n\n## 概述\n\n### 什么是Gonka？\n\nGonka是一个用于高效AI计算的去中心化网络——由使用者运营。它作为集中式云服务在AI模型训练和推理方面的经济高效替代方案。作为一个协议，它并非公司或初创企业。\n\n- 从区块链角度看，Gonka是去中心化AI网络的基础账本与协调层（L1）。它记录余额、交易和加密证据，以证明主机正确执行了AI工作，而所有实际计算（如推理和训练）均在链下进行。\n- 从网络角度看，Gonka是一个包含主机和开发者的综合生态系统，通过去中心化基础设施进行交互。依托Gonka区块链，该网络分发任务、验证结果，并仅奖励可验证的有用工作，从而为AI工作负载创建一个竞争性强、可扩展的环境。\n\n### Gonka解决了什么问题？\n\nGonka是一个去中心化AI基础设施，旨在减少对集中式云提供商的依赖，并比传统去中心化网络更高效地利用计算能力。其目标是尽可能将计算资源导向有用的AI任务，如推理和训练，同时最小化因共识开销造成的浪费。\n\n### Gonka生态系统中的关键参与者有哪些？\n\nGonka生态系统有四个关键参与者群体：\n\n- 开发者通过利用网络的分布式计算能力构建和部署AI应用。\n- Gonka贡献者参与核心区块链代码库、协议升级、性能优化、安全补丁和新功能集成的开发。\n\n- 持有者持有网络的原生代币，即拥有一个包含Gonka代币的钱包。持有者可以持有、转账或出售代币，使用代币进行推理，并根据协议规则使用它们。成为持有者不意味着除标准代币所有权外的任何义务、责任或治理角色。\n- 主机向网络贡献计算能力。主机执行推理和其他计算任务，并根据其贡献的计算能力按比例获得奖励，前提是保持诚实参与和可靠性。主机构成网络的骨干。只有主机在网络中拥有投票权。该投票权代表其在治理中的权重，用于提出和投票决定协议决策、参数变更和升级。任何主机均可担任验证者、转账"
     },
-    "ai_description": "В разделе FAQ обновили описание роли хостов в сети. Теперь в документации четко указано, что любой хост может выступать валидатором и осуществлять трансферы, без упоминания роли трансфер-агента. Это делает описание governance-возможностей хостов более точным и понятным для сообщества."
+    "ai_description": "The FAQ section has been updated with a new description of the host role in the network. The documentation now clearly states that any host can act as a validator and perform transfers, with no mention of a transfer agent role. This makes the description of host governance capabilities more accurate and easier for the community to understand."
   },
   {
     "id": "evt_20260714183648_d7e167ea",
@@ -1346,7 +1346,7 @@
       "content": "# #86 – Increase Kimi-K2.6 and GLM-5.2 weight_scale_factor by 5%\n\n<div class=\"prop-detail-header\" markdown=\"1\">\n\n<div class=\"prop-badge-row\"><span class=\"prop-badge prop-voting\">Voting</span><span class=\"prop-vote-countdown prop-vote-countdown-detail\" data-deadline=\"2026-07-16T17:53:38.781599306Z\"></span></div>\n\n**Proposal ID:** `86`\n\n**Type:** Update Params\n\n**Submit:** 2026-07-14 17:53 UTC\n\n**Voting:** 2026-07-14 17:53 UTC → 2026-07-16 17:53 UTC\n\n**Proposer:** [`gonka123pr0p0salv96xvne9qln70x3usvpyscug5f9a`](https://gonka.gg/address/gonka123pr0p0salv96xvne9qln70x3usvpyscug5f9a){:target=\"_blank\"}\n\n[View on gonka.gg](https://gonka.gg/network/proposals/86){:target=\"_blank\"}\n\n</div>\n\nIncrease the weight_scale_factor for moonshotai/Kimi-K2.6 from 0.90 to 0.945 (+5%) and for zai-org/GLM-5.2-FP",
       "funding": ""
     },
-    "ai_description": "В сети появилось новое предложение по управлению под номером 86: весовые коэффициенты моделей Kimi-K2.6 и GLM-5.2 предлагается увеличить на 5%. Это обновление параметров уже выставлено на голосование сообщества. Участвуйте в процессе, чтобы ваш голос повлиял на распределение нагрузки между моделями."
+    "ai_description": "A new governance proposal #86 has been published: it suggests increasing the weight coefficients for the Kimi-K2.6 and GLM-5.2 models by 5%. The parameter update is now open for community voting. Make sure to participate so your vote influences how the workload is distributed across models."
   },
   {
     "id": "evt_20260714140910_620999b4",
@@ -1364,7 +1364,7 @@
       "status_before": "active",
       "status_after": "expired"
     },
-    "ai_description": "Предложение Sergii Paranko о запуске External Test Lab и Community DevNet с запрашиваемым финансированием около 168.7K GNK не набрало достаточной поддержки и перешло из статуса Active в Expired. Это означает, что пилот по созданию общественной тестовой инфраструктуры и QA-функции для протокола Gonka на данный момент не будет реализован, и сообществу стоит ожидать пересмотренной версии или альтернативных подходов к тестированию перед продакшеном."
+    "ai_description": "Sergii Paranko's proposal to launch an External Test Lab and Community DevNet, requesting approximately 168.7K GNK in funding, did not gain enough support and has moved from Active to Expired status. This means the pilot to create public test infrastructure and QA functions for the Gonka protocol will not be implemented for now, and the community should expect a revised version or alternative testing approaches before production."
   },
   {
     "id": "evt_20260714034240_14874339",
@@ -1396,6 +1396,6 @@
       "status": "active",
       "content": "# Улучшаем инфиренс Kimi\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Mitch\n**Created:** 2026-07-14 01:37 UTC\n**Closes:** 2026-07-21 01:37 UTC\n**Language:** RU\n**Votes:** 2\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nKimi в Gonka перегружен и сыпет ошибками. Разбираем, почему так вышло, и что можно исправить прямо сейчас через Governance и настройки нод.\n\n---\n\n## Full Proposal\n\nФакты:\n\n* \\~20% веса сети приходится на Kimi  \n* Запросов на инфиренс идет столько, что ноды с Kimi часто перегружены, и ответ падает с ошибкой  \n* Недели 2 назад Kimi можно было нормально пользоваться  \n* Сейчас Kimi часто дает ошибку, стало больше запросов  \n* Сама по себе цена не будет расти и при 100% загрузке нод с Kimi (динамического прайсинга нету в девшардах"
     },
-    "ai_description": "Новая pre-proposal от Mitch вышла на голосование: сообщество предлагает разобраться, почему перегружен Kimi, на который приходится около 20 процентов веса сети, и найти решения через Governance и настройки нод. Голосование продлится до 21 июля, присоединяйтесь к обсуждению."
+    "ai_description": "A new pre-proposal from Mitch is now open for voting: the community suggests investigating why Kimi is overloaded, as it carries about 20 percent of the network weight, and finding solutions through Governance and node configuration. Voting runs until July 21, join the discussion."
   }
 ]
