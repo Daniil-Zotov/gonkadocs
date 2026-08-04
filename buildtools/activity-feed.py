@@ -10,6 +10,8 @@ Usage:
     activity-feed.py snapshot --dir PATH --section NAME --manifest PATH
     activity-feed.py detect   --dir PATH --section NAME --manifest PATH
                               --events PATH [--ai]
+    activity-feed.py backfill --events PATH
+    activity-feed.py daily-reminder --dir PATH --events PATH
 """
 
 import argparse
@@ -334,25 +336,127 @@ def make_url(section: str, file_path: str) -> str:
 
 # ── AI enrichment ──────────────────────────────────────────────
 
-AI_SYSTEM_PROMPT = """Ты — редактор ленты событий сообщества Gonka, децентрализованной AI-сети для инференса.
-Напиши короткий пост об изменении, описанном ниже.
+AI_SYSTEM_PROMPT = """You are an editor of the Gonka community activity feed, a decentralized AI inference network.
+Write a short post about the change described below.
 
-Правила:
-- Максимум 2–3 предложения
-- Дружелюбный, но профессиональный тон
-- Только обычный текст (без markdown, без **, без ##, без HTML тегов)
-- Внимательно прочитай содержимое ДО и ПОСЛЕ изменений, чтобы понять суть
-- Расскажи, что именно изменилось и почему это важно для сообщества
-- Если указаны статусы до/после (например, голосование → принят), объясни значение
-- Если указаны суммы финансирования, обязательно упомяни их
-- Если указан новый комментарий к ишью — кратко перескажи суть комментария (кто написал, о чём)
-- Не пересказывай содержимое дословно — объясни смысл изменений
-- Отвечай только готовым постом, без рассуждений, анализа или пояснений"""
+Rules:
+- Always reply in English
+- Maximum 2-3 sentences
+- Friendly but professional tone
+- Plain text only (no markdown, no **, no ##, no HTML tags)
+- Carefully read the content BEFORE and AFTER the change to understand the essence
+- Tell what exactly changed and why it matters to the community
+- If statuses before/after are given (e.g. voting -> passed), explain what that means
+- If funding amounts are given, be sure to mention them
+- If a new comment on an issue is given — briefly summarize the comment (who wrote it, what about)
+- Do not retell the content verbatim — explain the meaning of the changes
+- Reply only with the finished post, without reasoning, analysis or explanations"""
+
+AI_TRANSLATE_PROMPT = """You are a translator for the Gonka community activity feed.
+Translate the following community post into English.
+
+Rules:
+- Keep the meaning, tone and style of the original
+- Maximum 2-3 sentences
+- Plain text only (no markdown, no **, no ##, no HTML tags)
+- Reply only with the finished English post, without reasoning, analysis or explanations
+
+Post to translate:
+"""
+
+
+def _has_cyrillic(text: str) -> bool:
+    return any('\u0400' <= c <= '\u04ff' for c in text)
+
+
+def _call_ai(api_key: str, api_endpoint: str, model: str,
+             system_prompt: str, user_prompt: str) -> str:
+    import requests
+    resp = requests.post(
+        f'{api_endpoint}/chat/completions',
+        headers={
+            'Authorization': f'Bearer {api_key}',
+            'Content-Type': 'application/json',
+        },
+        json={
+            'model': model,
+            'messages': [
+                {'role': 'system', 'content': system_prompt},
+                {'role': 'user', 'content': user_prompt},
+            ],
+            'max_tokens': 350,
+            'temperature': 0.7,
+            'reasoning_effort': 'none',
+        },
+        timeout=15,
+    )
+    resp.raise_for_status()
+    data = resp.json()
+    ai_text = data['choices'][0]['message']['content'].strip()
+    ai_text = re.sub(r'<think>.*?</think>', '', ai_text, flags=re.DOTALL | re.IGNORECASE).strip()
+    ai_text = re.sub(r'<[^>]+>', '', ai_text).strip()
+    ai_text = re.sub(
+        r'\[@(\w+(?:-\w+)*)\]\(((?:https?://)?[^\s)]+)\)',
+        r'<a href="\2">@\1</a>',
+        ai_text,
+    )
+    return ai_text
+
+
+def _build_user_prompt(section: str, event: dict) -> str:
+    """Build the AI user prompt (in English) from an event."""
+    section_label = SECTION_LABELS.get(section, section)
+    action_label = ACTION_LABELS.get(event['action'], event['action'])
+    details = event.get('details', {})
+    title = event['item'].get('title', '')
+
+    user_prompt = (
+        f'Section: {section_label}\n'
+        f'Action: {action_label}\n'
+        f'Title: {title}\n'
+    )
+
+    if details.get('content_before'):
+        user_prompt += '--- Content BEFORE ---\n' + details['content_before'] + '\n'
+    if details.get('content_after'):
+        user_prompt += '--- Content AFTER ---\n' + details['content_after'] + '\n'
+    if details.get('content'):
+        user_prompt += '--- Content ---\n' + details['content'] + '\n'
+
+    status_info = []
+    if details.get('status_before'):
+        status_info.append(f"status before: {details['status_before']}")
+    if details.get('status_after'):
+        status_info.append(f"status after: {details['status_after']}")
+    if details.get('status'):
+        status_info.append(f"status: {details['status']}")
+    if status_info:
+        user_prompt += 'Statuses: ' + ', '.join(status_info) + '\n'
+
+    if details.get('funding'):
+        user_prompt += f'Funding amounts: {details["funding"]}\n'
+
+    if details.get('voting_end'):
+        user_prompt += f'Voting ends: {details["voting_end"]}\n'
+
+    if details.get('description'):
+        user_prompt += f'Proposal summary: {details["description"]}\n'
+
+    new_comments = details.get('new_comments', [])
+    if new_comments:
+        user_prompt += 'New comments:\n'
+        for i, c in enumerate(new_comments, 1):
+            user_prompt += f'  {i}. {c}\n'
+
+    if details.get('comment_count'):
+        user_prompt += f'Total comments: {details["comment_count"]}\n'
+
+    return user_prompt
 
 
 def enrich_with_ai(events: list, section: str):
     try:
-        import requests
+        import requests  # noqa: F401
     except ImportError:
         print('  AI enrichment: requests library not installed, skipping')
         return
@@ -367,87 +471,80 @@ def enrich_with_ai(events: list, section: str):
         print('  AI enrichment: AI_API_KEY not set, skipping')
         return
 
-    section_label = SECTION_LABELS.get(section, section)
-
     for event in events:
-        action_label = ACTION_LABELS.get(event['action'], event['action'])
-        details = event.get('details', {})
-        title = event['item'].get('title', '')
-
-        user_prompt = (
-            f'Раздел: {section_label}\n'
-            f'Действие: {action_label}\n'
-            f'Название: {title}\n'
-        )
-
-        if details.get('content_before'):
-            user_prompt += '--- Содержимое ДО ---\n' + details['content_before'] + '\n'
-        if details.get('content_after'):
-            user_prompt += '--- Содержимое ПОСЛЕ ---\n' + details['content_after'] + '\n'
-        if details.get('content'):
-            user_prompt += '--- Содержимое ---\n' + details['content'] + '\n'
-
-        status_info = []
-        if details.get('status_before'):
-            status_info.append(f"статус до: {details['status_before']}")
-        if details.get('status_after'):
-            status_info.append(f"статус после: {details['status_after']}")
-        if details.get('status'):
-            status_info.append(f"статус: {details['status']}")
-        if status_info:
-            user_prompt += 'Статусы: ' + ', '.join(status_info) + '\n'
-
-        if details.get('funding'):
-            user_prompt += f'Суммы финансирования: {details["funding"]}\n'
-
-        if details.get('voting_end'):
-            user_prompt += f'Дата окончания голосования: {details["voting_end"]}\n'
-
-        if details.get('description'):
-            user_prompt += f'Суть пропозола: {details["description"]}\n'
-
-        new_comments = details.get('new_comments', [])
-        if new_comments:
-            user_prompt += 'Новые комментарии:\n'
-            for i, c in enumerate(new_comments, 1):
-                user_prompt += f'  {i}. {c}\n'
-
-        if details.get('comment_count'):
-            user_prompt += f'Всего комментариев: {details["comment_count"]}\n'
+        user_prompt = _build_user_prompt(section, event)
 
         try:
-            resp = requests.post(
-                f'{api_endpoint}/chat/completions',
-                headers={
-                    'Authorization': f'Bearer {api_key}',
-                    'Content-Type': 'application/json',
-                },
-                json={
-                    'model': model,
-                    'messages': [
-                        {'role': 'system', 'content': AI_SYSTEM_PROMPT},
-                        {'role': 'user', 'content': user_prompt},
-                    ],
-                    'max_tokens': 350,
-                    'temperature': 0.7,
-                    'reasoning_effort': 'none',
-                },
-                timeout=15,
-            )
-            resp.raise_for_status()
-            data = resp.json()
-            ai_text = data['choices'][0]['message']['content'].strip()
-            ai_text = re.sub(r'<think>.*?</think>', '', ai_text, flags=re.DOTALL | re.IGNORECASE).strip()
-            ai_text = re.sub(r'<[^>]+>', '', ai_text).strip()
-            ai_text = re.sub(
-                r'\[@(\w+(?:-\w+)*)\]\(((?:https?://)?[^\s)]+)\)',
-                r'<a href="\2">@\1</a>',
-                ai_text,
-            )
+            ai_text = _call_ai(api_key, api_endpoint, model,
+                               AI_SYSTEM_PROMPT, user_prompt)
             event['ai_description'] = ai_text
             print(f'  AI: [{event["action"]}] {ai_text[:100]}...')
         except Exception as e:
             print(f'  AI enrichment failed for {event["id"]}: {e}', file=sys.stderr)
+
+
+def backfill_enrichments(events_path: Path):
+    """Enrich or translate events already stored in events.json.
+
+    - Events without an ai_description get one generated from their details.
+    - Events whose ai_description is in Russian are translated to English.
+    """
+    if not events_path.exists():
+        return
+
+    api_key = os.environ.get('AI_API_KEY', '')
+    api_endpoint = os.environ.get(
+        'AI_API_ENDPOINT', 'https://api.proxy.gonka.gg/v1'
+    ).rstrip('/')
+    model = os.environ.get('AI_MODEL', 'moonshotai/Kimi-K2.6')
+
+    if not api_key:
+        print('  AI backfill: AI_API_KEY not set, skipping')
+        return
+
+    try:
+        import requests  # noqa: F401
+    except ImportError:
+        print('  AI backfill: requests library not installed, skipping')
+        return
+
+    try:
+        events = json.loads(events_path.read_text(encoding='utf-8'))
+    except (json.JSONDecodeError, IOError):
+        print('  AI backfill: could not read events file, skipping')
+        return
+
+    changed = 0
+    for event in events:
+        ai = event.get('ai_description') or ''
+        section = event.get('section', '')
+
+        if ai and not _has_cyrillic(ai):
+            continue  # already enriched and in English
+
+        try:
+            if not ai:
+                user_prompt = _build_user_prompt(section, event)
+                ai_text = _call_ai(api_key, api_endpoint, model,
+                                   AI_SYSTEM_PROMPT, user_prompt)
+                mode = 'generate'
+            else:
+                user_prompt = AI_TRANSLATE_PROMPT + '\n' + ai
+                ai_text = _call_ai(api_key, api_endpoint, model,
+                                   AI_TRANSLATE_PROMPT, user_prompt)
+                mode = 'translate'
+
+            event['ai_description'] = ai_text
+            changed += 1
+            print(f'  AI backfill ({mode}): [{event.get("action")}] {ai_text[:100]}...')
+        except Exception as e:
+            print(f'  AI backfill failed for {event.get("id")}: {e}', file=sys.stderr)
+
+    if changed:
+        events_path.write_text(
+            json.dumps(events, indent=2, ensure_ascii=False), encoding='utf-8'
+        )
+        print(f'AI backfill: {changed} events enriched/translated -> {events_path}')
 
 
 # ── commands ───────────────────────────────────────────────────
@@ -638,12 +735,15 @@ def cmd_detect(args):
 
     if not events:
         print('No relevant changes detected')
+        if args.ai:
+            backfill_enrichments(Path(args.events))
         cmd_snapshot(args)
         return
 
     # AI enrichment
     if args.ai:
         enrich_with_ai(events, args.section)
+        backfill_enrichments(Path(args.events))
 
     # Append to events.json (newest first)
     events_path = Path(args.events)
@@ -776,6 +876,10 @@ def main():
     rem.add_argument('--dir', required=True, help='Calendar directory to scan')
     rem.add_argument('--events', required=True, help='Events JSON file path')
 
+    bf = sub.add_parser('backfill',
+                        help='Enrich/translate existing events in events.json')
+    bf.add_argument('--events', required=True, help='Events JSON file path')
+
     args = parser.parse_args()
 
     if args.command == 'snapshot':
@@ -784,6 +888,8 @@ def main():
         cmd_detect(args)
     elif args.command == 'daily-reminder':
         cmd_daily_reminder(args)
+    elif args.command == 'backfill':
+        backfill_enrichments(Path(args.events))
 
 
 if __name__ == '__main__':
