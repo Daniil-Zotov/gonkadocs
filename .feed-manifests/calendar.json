@@ -1,24 +1,24 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-08-04T19:09:49.209300+00:00",
+  "snapshot_time": "2026-08-04T20:52:24.949604+00:00",
   "files": {
-    "0ef86b1e20ace1fba082601b4bda7176d6ecbe2098b2ad0a914ada22b3d9dbbf": {
-      "title": "▶️ Ancapex Live: Обзор Gonka",
+    "d20f0b7f63fffff2927833d9557050f626cd934d5ab3479488af3773000f3011": {
+      "title": "▶️ Ancapex Live: Gonka Overview",
       "date": "2026-07-30",
       "time": "11:00 UTC",
       "event_type": "livestream",
       "url": "https://www.youtube.com/@Ancapex",
-      "content_preview": "YouTube стрим с Яковом, сооснователем Ancapex. Разбор всего самого важного в Gonka за последние месяцы: инференс, пропозалы v0.2.14–v0.2.15, обучение моделей, майнинг и цена токена, governance, дорожная карта.",
-      "checksum": "12d43b5855994b4a8f59c268f4a2c387f1ab2198d7ab4bef28db2aaab6820e67"
+      "content_preview": "YouTube stream with Yakov, co-founder of Ancapex. A review of everything important in Gonka over the past months: inference, proposals v0.2.14–v0.2.15, model training, mining and token price, governance, and the roadmap.",
+      "checksum": "6a0d37e9b0b96a4806fb32dd2cab5e1a2ca342b829c032d034149d9a356f2ce5"
     },
-    "89b015bf8aec48d32a7f8ff5772ad30c7b0ddb9124bb2682b5ab8787cd26fd00": {
-      "title": "AMA с Глебом Моргачевым — Dev Team Funding proposal",
+    "a2e151b2a9aabaf4de175d04168d34f2f9a25f870863c76f4fc498215f184b9e": {
+      "title": "AMA with Gleb Morgachev — Dev Team Funding proposal",
       "date": "2026-08-03",
       "time": "15:30 UTC",
       "event_type": "ama",
       "url": "https://github.com/gonka-ai/gonka/discussions/1464",
-      "content_preview": "AMA-сессия с Глебом Моргачевым (@gmorgachev, сооснователь Gonka) о proposal финансирования независимой команды разработки (Dev Team Funding). Обсудим ключевые вопросы: на какие задачи запрашивается финансирование; как будет устроена независимая команда разработки; механика финансирования; прозрачность расходов, отчётность и роль Глеба в инициативе. Язык: русский. Ведущие: @paranko и @dem_ww. Zoom: ссылка будет к началу сессии. Proposal: https://github.com/gonka-ai/gonka/discussions/1464",
-      "checksum": "7491eea990227a435f2803d794156c7f6b7121a08167a521ffacdd53d4c29a96"
+      "content_preview": "AMA session with Gleb Morgachev (@gmorgachev, co-founder of Gonka) about the proposal to fund an independent development team (Dev Team Funding). We will discuss key issues: what tasks the funding is requested for; how the independent development team will be structured; the funding mechanics; cost transparency, reporting, and Gleb’s role in the initiative. Language: Russian. Hosts: @paranko and @dem_ww. Zoom: the link will be provided at the start of the session. Proposal: https://github.com/gonka-ai/gonka/discussions/1464",
+      "checksum": "549c9325e6a00cb3b86c3619f02423ea530248e066be95a11ed7d3ab58deb6a6"
     },
     "c2e0e73f55d591b8555fd5d91720673db8ca001f157fa3e368f185a0ce2b6461": {
       "title": "AMA session with Gleb Morgachev (@gmorgachev, co-founder of Gonka) — Dev Team Funding proposal",
@@ -35,8 +35,8 @@
       "time": "13:00 UTC",
       "event_type": "committee_call",
       "url": "/proposals/proposals/2026-q2/77/",
-      "content_preview": "Еженедельный отчет команды INPUT Global в рамках принятого proposal #77 – Gonka PR Proposal for US/Global Regions. Видеовстреча: https://meet.google.com/hsc-oesy-jbw",
-      "checksum": "d16d24cf9becaaa9b3de39ab1f320c8b41b1b796a4a75bd339a85ef989ce9d9e"
+      "content_preview": "Weekly report by the INPUT Global team under the approved proposal #77 — Gonka PR Proposal for US/Global Regions. Video call: https://meet.google.com/hsc-oesy-jbw",
+      "checksum": "0b996f85bd4294fba478b08578aed129c17568a9c1f6224c5389b31f99108286"
     },
     "0a6e63192513fe0b6420e663334ccf68492e64012c5ec6eb5ccadda600414356": {
       "title": "INPUT Global — Weekly Call (#77)",
@@ -44,8 +44,8 @@
       "time": "13:00 UTC",
       "event_type": "committee_call",
       "url": "/proposals/proposals/2026-q2/77/",
-      "content_preview": "Еженедельный отчет команды INPUT Global в рамках принятого proposal #77 – Gonka PR Proposal for US/Global Regions. Видеовстреча: https://meet.google.com/hsc-oesy-jbw",
-      "checksum": "46b49004143970d7172fefca8c72719cbe44c4275d5289879feafcba8dee2dfc"
+      "content_preview": "Weekly report by the INPUT Global team under the approved proposal #77 — Gonka PR Proposal for US/Global Regions. Video call: https://meet.google.com/hsc-oesy-jbw",
+      "checksum": "0820d037567bec7be70cb34dcd709a120f5e253a933975d8c8b26fb1a6a228fe"
     },
     "59feb3a4a03efcb0f890295621908e3d5eaebd21c8913825fe0137fc222189ae": {
       "title": "INPUT Global — Weekly Call (#77)",
@@ -53,8 +53,8 @@
       "time": "13:00 UTC",
       "event_type": "committee_call",
       "url": "/proposals/proposals/2026-q2/77/",
-      "content_preview": "Еженедельный отчет команды INPUT Global в рамках принятого proposal #77 – Gonka PR Proposal for US/Global Regions. Видеовстреча: https://meet.google.com/hsc-oesy-jbw",
-      "checksum": "6afad995f172c46fc00d153c7edc797c071c7e1becc659808384bd5976e07208"
+      "content_preview": "Weekly report by the INPUT Global team under the approved proposal #77 — Gonka PR Proposal for US/Global Regions. Video call: https://meet.google.com/hsc-oesy-jbw",
+      "checksum": "e118355bfec2a39f8b2d6c54a455fccf5327d38a07d10df37f68941536d923ab"
     },
     "4d6ec30549527d3cf04ef402372d4518f99fc9d7d8566915fc3bf78d33ae6545": {
       "title": "INPUT Global — Weekly Call (#77)",
@@ -62,8 +62,8 @@
       "time": "13:00 UTC",
       "event_type": "committee_call",
       "url": "/proposals/proposals/2026-q2/77/",
-      "content_preview": "Еженедельный отчет команды INPUT Global в рамках принятого proposal #77 – Gonka PR Proposal for US/Global Regions. Видеовстреча: https://meet.google.com/hsc-oesy-jbw",
-      "checksum": "e4856654c8a33a4ad882ba1e40ef247afb9713383cbc53061baf66268703ca92"
+      "content_preview": "Weekly report by the INPUT Global team under the approved proposal #77 — Gonka PR Proposal for US/Global Regions. Video call: https://meet.google.com/hsc-oesy-jbw",
+      "checksum": "e1015348667740dbe095708cece7f06cf190656d29eeb1410736b122e69ed5aa"
     },
     "217c741cc6121363274d224db6e772ddfbc0be15ef7b9c729066b679c854770d": {
       "title": "INPUT Global — Weekly Call (#77)",
@@ -71,8 +71,8 @@
       "time": "13:00 UTC",
       "event_type": "committee_call",
       "url": "/proposals/proposals/2026-q2/77/",
-      "content_preview": "Еженедельный отчет команды INPUT Global в рамках принятого proposal #77 – Gonka PR Proposal for US/Global Regions. Видеовстреча: https://meet.google.com/hsc-oesy-jbw",
-      "checksum": "7cb740882ea3332e46204daf4bba3f0951751d81753ba14e678ccbb0a430015d"
+      "content_preview": "Weekly report by the INPUT Global team under the approved proposal #77 — Gonka PR Proposal for US/Global Regions. Video call: https://meet.google.com/hsc-oesy-jbw",
+      "checksum": "50e493b62aac1486bf33bac048452aa7225dfec630f81a3bd1aa212f3d858981"
     },
     "8262dda2ab60fcbea427f2af45e9b186f229fc1aa228f519a08a64ed13d274b9": {
       "title": "INPUT Global — Weekly Call (#77)",
@@ -80,8 +80,8 @@
       "time": "13:00 UTC",
       "event_type": "committee_call",
       "url": "/proposals/proposals/2026-q2/77/",
-      "content_preview": "Еженедельный отчет команды INPUT Global в рамках принятого proposal #77 – Gonka PR Proposal for US/Global Regions. Видеовстреча: https://meet.google.com/hsc-oesy-jbw",
-      "checksum": "da76fd567b97904931251f8a33a17867f89f672b8369e697800f1e4fceac63e2"
+      "content_preview": "Weekly report by the INPUT Global team under the approved proposal #77 — Gonka PR Proposal for US/Global Regions. Video call: https://meet.google.com/hsc-oesy-jbw",
+      "checksum": "a95ebb199249e532fe8b9683232ee52610d3b788fd09c8bd119761701a25ac04"
     },
     "f2d4ea717f34e9a709fccead2cbe64926aaeb7d055e9b487c9a3b53761829851": {
       "title": "INPUT Global — Weekly Call (#77)",
@@ -89,8 +89,8 @@
       "time": "13:00 UTC",
       "event_type": "committee_call",
       "url": "/proposals/proposals/2026-q2/77/",
-      "content_preview": "Еженедельный отчет команды INPUT Global в рамках принятого proposal #77 – Gonka PR Proposal for US/Global Regions. Видеовстреча: https://meet.google.com/hsc-oesy-jbw",
-      "checksum": "659de71b8bfd0fb75131a99c5fb9339529b643819831216ed8e50c91c0a44a19"
+      "content_preview": "Weekly report by the INPUT Global team under the approved proposal #77 — Gonka PR Proposal for US/Global Regions. Video call: https://meet.google.com/hsc-oesy-jbw",
+      "checksum": "46de0cdcb7fee8c6b91b7545db57c9f5bb65d6e9f82fefb7217a9bc6111a5eff"
     },
     "960139156a16c51bddce28fd38107477ecf9210c7a33138e0567efa336baf880": {
       "title": "INPUT Global — Weekly Call (#77)",
@@ -98,8 +98,8 @@
       "time": "13:00 UTC",
       "event_type": "committee_call",
       "url": "/proposals/proposals/2026-q2/77/",
-      "content_preview": "Еженедельный отчет команды INPUT Global в рамках принятого proposal #77 – Gonka PR Proposal for US/Global Regions. Видеовстреча: https://meet.google.com/hsc-oesy-jbw",
-      "checksum": "c3d8eca9d13fd04712f528d3268f0451ab88d6e7fcbc805959a2cb37ce71e407"
+      "content_preview": "Weekly report by the INPUT Global team under the approved proposal #77 — Gonka PR Proposal for US/Global Regions. Video call: https://meet.google.com/hsc-oesy-jbw",
+      "checksum": "3d1c47f2ab3d10b6cbb7f26b32452f78adf3772ca6cf9ca66ae10b99e9b9130b"
     },
     "80c565f3c8d9968190f0a02ce82492933b68a0e476af5a0d5a3f1d9081f97951": {
       "title": "INPUT Global — Weekly Call (#77)",
@@ -107,8 +107,8 @@
       "time": "13:00 UTC",
       "event_type": "committee_call",
       "url": "/proposals/proposals/2026-q2/77/",
-      "content_preview": "Еженедельный отчет команды INPUT Global в рамках принятого proposal #77 – Gonka PR Proposal for US/Global Regions. Видеовстреча: https://meet.google.com/hsc-oesy-jbw",
-      "checksum": "56ea51d5784c1a0434bad5cadf41a747e123e97fff77459283bb755cc49e9f66"
+      "content_preview": "Weekly report by the INPUT Global team under the approved proposal #77 — Gonka PR Proposal for US/Global Regions. Video call: https://meet.google.com/hsc-oesy-jbw",
+      "checksum": "69ec4c1abd427c1a67fff3a4899f9bae3c1c1a1ed990101475e707a1c66f55dd"
     },
     "431c050c866ac4543ed771bc8327dfa7ff079f682d87211ac8056759da91da2f": {
       "title": "Passed: #1 – Correct Epoch Length",

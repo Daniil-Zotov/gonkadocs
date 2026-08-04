@@ -1,5 +1,45 @@
 [
   {
+    "id": "evt_20260804205224_97df4583",
+    "timestamp": "2026-08-04T20:52:24.942801+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "AMA with Gleb Morgachev — Dev Team Funding proposal",
+      "url": "https://github.com/gonka-ai/gonka/discussions/1464",
+      "file": "a2e151b2a9aabaf4de175d04168d34f2f9a25f870863c76f4fc498215f184b9e"
+    },
+    "details": {
+      "status": null,
+      "content": "AMA session with Gleb Morgachev (@gmorgachev, co-founder of Gonka) about the proposal to fund an independent development team (Dev Team Funding). We will discuss key issues: what tasks the funding is requested for; how the independent development team will be structured; the funding mechanics; cost transparency, reporting, and Gleb’s role in the initiative. Language: Russian. Hosts: @paranko and @dem_ww. Zoom: the link will be provided at the start of the session. Proposal: https://github.com/gonka-ai/gonka/discussions/1464",
+      "date": "2026-08-03",
+      "time": "15:30 UTC",
+      "event_type": "ama",
+      "url": "https://github.com/gonka-ai/gonka/discussions/1464"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260804205224_26a847f5",
+    "timestamp": "2026-08-04T20:52:24.942837+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "▶️ Ancapex Live: Gonka Overview",
+      "url": "https://www.youtube.com/@Ancapex",
+      "file": "d20f0b7f63fffff2927833d9557050f626cd934d5ab3479488af3773000f3011"
+    },
+    "details": {
+      "status": null,
+      "content": "YouTube stream with Yakov, co-founder of Ancapex. A review of everything important in Gonka over the past months: inference, proposals v0.2.14–v0.2.15, model training, mining and token price, governance, and the roadmap.",
+      "date": "2026-07-30",
+      "time": "11:00 UTC",
+      "event_type": "livestream",
+      "url": "https://www.youtube.com/@Ancapex"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260804204830_1dd68233",
     "timestamp": "2026-08-04T20:48:30.970609+00:00",
     "section": "issues",
