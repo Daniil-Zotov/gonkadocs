@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-08-04T03:59:19.007262+00:00",
+  "snapshot_time": "2026-08-04T06:31:05.433123+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -287,8 +287,8 @@
     "network-updates.md": {
       "title": "Announcements",
       "status": null,
-      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## July 29, 2026\n\n**Upgrade v0.2.15 and devshard v4: Pre-download binaries**\n\nThe on-chain governance process for the **devshard v4 and v0.2.15** upgrade proposal is nearing its conclusion.\n\n- Voting ends: July 30, 2026 at 07:08 AM UTC / July 30, 2026 at 12",
-      "checksum": "9af422dfefbe4f7162129efce1c9af9d7b8bf23429b6b1f546849ae8aec4d2e0"
+      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## August 3, 2026\n\n**API Binary Update: `v0.2.15-post3`**\n\nA new API binary, `v0.2.15-post3`, is available.\n\nThis release improves PoC seed reliability and includes several API and deployment fixes.\n\n**What changed**\n\n- PoC Seed Stability. Recover missed se",
+      "checksum": "350fd744e9d5a9e455d17290c0de7467a64e9974c84984cd82f9d7fd1e9ec9d8"
     },
     "participant/README.md": {
       "title": "Redirecting to Host Section",
