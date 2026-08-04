@@ -6,26 +6,11 @@ template: issues-main.html
 # Issues: no-label
 
 Issues with label **no-label**. Total: **246**.
-Updated: `2026-08-04 00:19 UTC`.
+Updated: `2026-08-04 03:45 UTC`.
 
 [← All Issues](../../index.md)
 
 <ul class="issues-list">
-<li class="issues-list-item">
-  <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../01539-hardening-network-duty-fee-bypass-admits-zero-fee-txs-from-n/">Hardening: network-duty fee-bypass admits zero-fee txs from non-participants (no signer authorization at the ante layer)</a>
-      <span class="issues-number">#1539</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/kAIPraxisBot">@kAIPraxisBot</a> opened 4 hours ago</span>
-      
-    </div>
-  </div>
-</li>
 <li class="issues-list-item">
   <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
   <div class="issues-body">
@@ -36,7 +21,22 @@ Updated: `2026-08-04 00:19 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/mingles-agent">@mingles-agent</a> opened 15 hours ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/mingles-agent">@mingles-agent</a> opened 2 hours ago</span>
+      
+    </div>
+  </div>
+</li>
+<li class="issues-list-item">
+  <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
+      <a href="../../01539-hardening-network-duty-fee-bypass-admits-zero-fee-txs-from-n/">Hardening: network-duty fee-bypass admits zero-fee txs from non-participants (no signer authorization at the ante layer)</a>
+      <span class="issues-number">#1539</span>
+    </div>
+    
+    <div class="issues-labels"></div>
+    <div class="issues-meta">
+      <span class="issues-meta-item"><a href="https://github.com/kAIPraxisBot">@kAIPraxisBot</a> opened 8 hours ago</span>
       
     </div>
   </div>
@@ -246,7 +246,7 @@ Updated: `2026-08-04 00:19 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Aphelios01-sdk">@Aphelios01-sdk</a> opened 14 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/Aphelios01-sdk">@Aphelios01-sdk</a> opened 15 days ago</span>
       
     </div>
   </div>
@@ -261,7 +261,7 @@ Updated: `2026-08-04 00:19 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Ryanchen911">@Ryanchen911</a> opened 14 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/Ryanchen911">@Ryanchen911</a> opened 15 days ago</span>
       
     </div>
   </div>
@@ -276,7 +276,7 @@ Updated: `2026-08-04 00:19 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Aphelios01-sdk">@Aphelios01-sdk</a> opened 16 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/Aphelios01-sdk">@Aphelios01-sdk</a> opened 17 days ago</span>
       
     </div>
   </div>
@@ -291,7 +291,7 @@ Updated: `2026-08-04 00:19 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Aphelios01-sdk">@Aphelios01-sdk</a> opened 16 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/Aphelios01-sdk">@Aphelios01-sdk</a> opened 17 days ago</span>
       
     </div>
   </div>
@@ -306,7 +306,7 @@ Updated: `2026-08-04 00:19 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Aphelios01-sdk">@Aphelios01-sdk</a> opened 16 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/Aphelios01-sdk">@Aphelios01-sdk</a> opened 17 days ago</span>
       
     </div>
   </div>
@@ -321,7 +321,7 @@ Updated: `2026-08-04 00:19 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Aphelios01-sdk">@Aphelios01-sdk</a> opened 16 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/Aphelios01-sdk">@Aphelios01-sdk</a> opened 17 days ago</span>
       
     </div>
   </div>
@@ -411,7 +411,7 @@ Updated: `2026-08-04 00:19 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/yuritsin-code">@yuritsin-code</a> opened 26 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/yuritsin-code">@yuritsin-code</a> opened 27 days ago</span>
       
     </div>
   </div>
@@ -486,7 +486,7 @@ Updated: `2026-08-04 00:19 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/dufok">@dufok</a> opened 28 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/dufok">@dufok</a> opened 29 days ago</span>
       
     </div>
   </div>

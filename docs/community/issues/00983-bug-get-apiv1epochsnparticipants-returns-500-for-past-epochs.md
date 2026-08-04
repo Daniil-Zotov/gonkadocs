@@ -2,7 +2,7 @@
 title: "#983 — Bug: GET /api/v1/epochs/{N}/participants returns 500 for past epochs (CreatedAtBlockHeight=0)"
 source: https://github.com/gonka-ai/gonka/issues/983
 issue_number: 983
-synced_at: 2026-08-04T00:17:34Z
+synced_at: 2026-08-04T03:43:07Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/mingles-agent">@mingles-agent</a> opened 2026-03-31 08:51 UTC</span>
-    <span class="issues-meta-item">1 comment</span>
-    <span class="issues-meta-item">Updated 2026-08-03 09:07 UTC</span>
+    <span class="issues-meta-item">2 comments</span>
+    <span class="issues-meta-item">Updated 2026-08-04 00:55 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -52,7 +52,7 @@ Fix is implemented in PR #973.
 
 ---
 
-## 💬 Comments (1)
+## 💬 Comments (2)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -185,6 +185,24 @@ handler err: code=500, message=height must be greater than 0, but got 0
 <p>It guards the ABCI proof query, which is not the failing call, so it would not have removed the 500 even when it was written. Separately, the function it patches no longer exists on <code>main</code> — <code>get_participants_handler.go</code> is down to 84 lines and holds only <code>getParticipantByAddress</code> / <code>getAccountByAddress</code>. It needs redoing against <code>common/queryapi/epoch.go</code> rather than rebasing.</p>
 <h3>Suggested fix</h3>
 <p>Guard <code>CreatedAtBlockHeight == 0</code> before the validator-set call in <code>common/queryapi/epoch.go</code>. The design question worth settling first: this endpoint returns <code>ActiveParticipantWithProof</code>, so degrading to a 200 without <code>proof_ops</code> is fail-open on a verification endpoint — a client that does not nil-check would treat unverified data as verified. A 400/404 for epochs that predate the field may be the safer contract. Happy to open a PR either way once the direction is agreed.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/bonujel">@bonujel</a></span>
+    <span class="issues-meta-item">commented 2026-08-04 00:55 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Correction to my comment above: I wrote that the 500 is "live". That was not supported — the repro forces <code>CreatedAtBlockHeight = 0</code> through a stub, which shows the code path fails <em>if reached</em>, not that it is reachable.</p>
+<p>Checking the public nodes: current epoch is 348 (height 5,377,294), and every past epoch I probed — 1, 5, 50, 100, 200, 215, 300, 330, 340, 344, 346, 347 — returns 404 <code>active participants not found for epoch</code> on both node1 and node2. Only the current epoch returns 200, and its record has <code>created_at_block_height</code> populated (5367703). So on those nodes the zero-height path cannot be exercised at all.</p>
+<p>I could not determine why past epochs are unretrievable. Nothing in the module deletes the <code>ActiveParticipants</code> blob (only the <code>ActiveParticipantsSet</code> collection is cleared, and only per-epoch on write), no upgrade handler removes it, and the key format matches what the live proof shows — <code>ActiveParticipants/value/</code> + big-endian epoch + <code>/</code>, which decodes correctly out of epoch 348's <code>proof_ops</code>. By code reading the blob for epoch 347 should be in state and readable. It isn't. So I can't rule out that an archive node serving historical records would still hit this path.</p>
+<p>Net:</p>
+<ul>
+<li>The root-cause correction stands — the error comes from <code>GetValidatorSetByHeight</code>, not the proof-bearing ABCI query.</li>
+<li>The note about #973 stands — it patches a call that isn't the failing one, and the function it targets no longer exists on <code>main</code>.</li>
+<li><strong>Nobody should spend time on a fix until reachability is settled.</strong> Withdrawing my offer to open a PR for now.</li>
+</ul>
+<p>The larger question this turned up is probably worth more attention than the original report: <code>/v1/epochs/{N}/participants</code> appears to serve only the current epoch, which would make historical participant data — and the proofs over it — unretrievable through this endpoint. If that is intended, this issue can just be closed. If it is not, that is the thing to look at.</p>
   </div>
 </div>
 
