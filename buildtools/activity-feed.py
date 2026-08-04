@@ -554,13 +554,35 @@ def backfill_enrichments(events_path: Path):
             changed += 1
             print(f'  AI backfill ({mode}): [{event.get("action")}] {ai_text[:100]}...')
         except Exception as e:
-            print(f'  AI backfill failed for {event.get("id")}: {e}', file=sys.stderr)
+            # Deterministic English fallback so no event is left without
+            # an enrichment if the AI API keeps failing.
+            fallback = _fallback_description(section, event)
+            event['ai_description'] = fallback
+            changed += 1
+            print(f'  AI backfill (fallback): [{event.get("action")}] {fallback[:100]}... ({e})')
 
     if changed:
         events_path.write_text(
             json.dumps(events, indent=2, ensure_ascii=False), encoding='utf-8'
         )
         print(f'AI backfill: {changed} events enriched/translated -> {events_path}')
+
+
+def _fallback_description(section: str, event: dict) -> str:
+    """Deterministic English summary used when the AI API fails."""
+    action_label = ACTION_LABELS.get(event['action'], event['action'])
+    title = event.get('item', {}).get('title', '')
+    details = event.get('details', {})
+    parts = [f'{action_label}: {title}.']
+    if details.get('funding'):
+        parts.append(f'Funding: {details["funding"]}.')
+    if details.get('description'):
+        parts.append(f'Summary: {details["description"]}.')
+    if details.get('content'):
+        snippet = re.sub(r'\s+', ' ', details['content']).strip()
+        if snippet:
+            parts.append(snippet[:300])
+    return ' '.join(parts)
 
 
 # ── commands ───────────────────────────────────────────────────
