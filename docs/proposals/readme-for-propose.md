@@ -11,6 +11,35 @@
 
 Это неформальная площадка: пропозал не голосуется и не исполняется, но является источником идей и первых отзывов от комьюнити.
 
+<details class="prop-contracts" markdown="1">
+<summary markdown="1"><strong>📝 Инструкция: как написать off-chain пропозал</strong> — по мотивам [Welcome to Proposals](/community/discussion/proposals/0795-welcome-to-proposals/)</summary>
+
+This is the space for discussing proposals for protocol improvements and the broader Gonka ecosystem development. If you have an idea that could make Gonka better, this is the place to share it.
+
+**What belongs here**
+
+- Protocol improvements: significant updates to core protocol design and long-term architectural direction
+- External infrastructure proposals: third-party integrations, API clients, tooling, and ecosystem extensions
+- Open problems: things that need research, design exploration, or community alignment before a path forward is clear
+
+**How to write a good proposal**
+
+Keep your proposal structured and include:
+
+- **Motivation** — the specific problem you are solving
+- **High-Level Solution** — your architectural approach
+- **Implementation Roadmap** — specific milestones if the change is complex
+- **Open Questions** — known unknowns to discuss during the community call
+- **Who you are** — share context about your experience and expertise in the proposal thread. That could be your previous contributions to Gonka or any other reputable projects. If you represent a team or a company, mention it and link relevant work to help the community assess credibility and evaluate the proposal more efficiently.
+
+Implementation timeline and bounty can also be proposed as part of the discussion.
+
+**Next Steps**
+
+Once your proposal is written, promote it on Discord and other platforms to gather feedback. React, upvote, and comment on others' proposals — this helps everyone understand what matters most and move toward implementation knowing what community needs.
+
+</details>
+
 ### 2. Препропозал — gonka.vote ([`/proposals/preproposals/`](/proposals/preproposals/))
 
 Препропозал размещается на портале [gonka.vote](https://gonka.vote) и представляет собой **предварительное обсуждение внешних пропозалов перед созданием on-chain голосования**. На этом этапе:
