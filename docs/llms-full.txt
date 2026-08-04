@@ -25337,7 +25337,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   
   6Block, a long-term Gonka mining and infrastructure participant, proposes that the Gonka community allocate 75,000 USDT to support Gonka's participation at WebX Asia / WebX 2026 in Tokyo. 6Block has a…
   Yes 62.8% (395,003) · No 0.3% (1,767) · Veto 10.2% (64,217) · Abstain 26.7% (168,275)$75,000 · Community Pool
-  report12026-08-03
+  report12026-08-04
 
   
     #50 – Retroactive bounty: open-source PoC throughput optimization (+10–12% measured) with 250 total installations
@@ -25889,7 +25889,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-92 proposals across 5 quarters. Last updated: 2026-08-03 23:39 UTC
+92 proposals across 5 quarters. Last updated: 2026-08-04 01:05 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -37743,7 +37743,7 @@ $54,075 USDT · Bounty Reward
   
   6Block, a long-term Gonka mining and infrastructure participant, proposes that the Gonka community allocate 75,000 USDT to support Gonka's participation at WebX Asia / WebX 2026 in Tokyo. 6Block has a…
   Yes 62.8% (395,003) · No 0.3% (1,767) · Veto 10.2% (64,217) · Abstain 26.7% (168,275)$75,000 · Community Pool
-  report12026-08-03
+  report12026-08-04
 
   
     #50 – Retroactive bounty: open-source PoC throughput optimization (+10–12% measured) with 250 total installations
