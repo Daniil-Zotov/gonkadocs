@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-08-04T14:47:52.255220+00:00",
+  "snapshot_time": "2026-08-04T17:11:24.063969+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "Description",
@@ -3266,6 +3266,14 @@
       "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "comment_bodies": [],
       "checksum": "397eb26774bd003d7755d7958cfbe454ee04455bb4cfe22895b87a1a42fdce4c"
+    },
+    "01542-devshardctl-parseprotocolversion-rejects-route-v4-noisy-rota.md": {
+      "title": "#1542 — devshardctl: ParseProtocolVersion rejects route v4 (noisy rotation fallback log)",
+      "status": null,
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshardctl: ParseProtocolVersion rejects route v4 (noisy rotation fallback log)\n    <span class=\"issues-number\">#1542</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-08-04 15:58 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"mar",
+      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comment_bodies": [],
+      "checksum": "6aa25e05553ca91514743f28b37cb97baa797cd3980ea211966c9622b8d6cddd"
     }
   }
 }
