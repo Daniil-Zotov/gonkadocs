@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-08-04T06:37:12.593383+00:00",
+  "snapshot_time": "2026-08-04T09:46:11.674106+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "Welcome to Gonka Discussions 👋",
@@ -325,6 +325,12 @@
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1502](https://github.com/gonka-ai/gonka/discussions/1502) every hour. \n\n# Обратная связь от разработчика: почему текущий модельный ряд Gonka пока не проходит production bar\n\n**Автор:** [@bitcompool](https://github.com/bitcompool) · **Категория:** :bulb: Proposals · **Создано:** 2026-07-26 17:26 UTC · \n\n---\n\n## 📝 Описание\n\n<head></head><h2 style=\"caret-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-style: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;\">Обратная связь от разработчика: почему",
       "checksum": "20a90b303b1ea7b68c2a1343269852cb0cdc5edec8b796dbc0723fd6391b541b"
+    },
+    "proposals/1540-webx-asia-2026-post-event-report-to-proposal-51.md": {
+      "title": "WebX Asia 2026 — Post-Event Report to Proposal #51",
+      "status": null,
+      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1540](https://github.com/gonka-ai/gonka/discussions/1540) every hour. \n\n# WebX Asia 2026 — Post-Event Report to Proposal #51\n\n**Автор:** [@Ryanchen911](https://github.com/Ryanchen911) · **Категория:** :bulb: Proposals · **Создано:** 2026-08-04 08:54 UTC · \n\n---\n\n## 📝 Описание\n\nOn behalf of 6Block, I would like to thank the Gonka community for approving and funding Gonka's participation at WebX Asia 2026.\n\nUnder [the original Proposal #51](https://gonkascan.com/?page=governance&proposal_id=51), 6Block directly funded the 75,000 USDT Platinum sponsorship, while the community allocated another 75,000 USDT to cover the execution of Gonka's presence at the event. After consolidating the expenses, the execution budget was used as follows, rounded to the neare",
+      "checksum": "8fccfb8c09c9a3e7d5c70e5ffe5a5f77dce58f6abfe64bdced0450e50dbf0d22"
     },
     "q-a/0796-are-there-plans-to-add-prompt-level-confidentiality-for-host.md": {
       "title": "Are there plans to add prompt-level confidentiality for hosts?",

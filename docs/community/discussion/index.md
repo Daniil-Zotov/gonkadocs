@@ -4,7 +4,7 @@ title: "GitHub Discussions"
 
 # GitHub Discussions — `gonka-ai/gonka`
 
-Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **80**. Обновлено: `2026-08-04 06:37 UTC`.
+Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **81**. Обновлено: `2026-08-04 09:45 UTC`.
 
 ## 📂 Категории
 
@@ -12,7 +12,7 @@ title: "GitHub Discussions"
 |---|---:|
 | [:mega: Announcements](announcements/index.md) | 1 |
 | [:speech_balloon: General](general/index.md) | 5 |
-| [:bulb: Proposals](proposals/index.md) | 48 |
+| [:bulb: Proposals](proposals/index.md) | 49 |
 | [:pray: Q&A](q-a/index.md) | 3 |
 | [:raised_hands: Show and Tell](show-and-tell/index.md) | 23 |
 
@@ -20,6 +20,7 @@ title: "GitHub Discussions"
 
 | # | Заголовок | Категория | Автор | Обновлено |
 |---:|---|---|---|---|
+| [1540](proposals/1540-webx-asia-2026-post-event-report-to-proposal-51.md) | [WebX Asia 2026 — Post-Event Report to Proposal #51](proposals/1540-webx-asia-2026-post-event-report-to-proposal-51.md) | :bulb: Proposals | [@Ryanchen911](https://github.com/Ryanchen911) | 2026-08-04 |
 | [1464](proposals/1464-dev-team-funding.md) | [Dev Team Funding](proposals/1464-dev-team-funding.md) | :bulb: Proposals | [@gmorgachev](https://github.com/gmorgachev) | 2026-08-03 |
 | [1502](proposals/1502-обратная-связь-от-разработчика-почему-текущий-модельный-ряд-.md) | [Обратная связь от разработчика: почему текущий модельный ряд Gonka пока не проходит production bar](proposals/1502-обратная-связь-от-разработчика-почему-текущий-модельный-ряд-.md) | :bulb: Proposals | [@bitcompool](https://github.com/bitcompool) | 2026-07-26 |
 | [1445](proposals/1445-the-missing-first-mile-onboarding-gonka-from-a-newcomers-per.md) | [The missing first mile: onboarding Gonka from a newcomer’s perspective](proposals/1445-the-missing-first-mile-onboarding-gonka-from-a-newcomers-per.md) | :bulb: Proposals | [@julb1992](https://github.com/julb1992) | 2026-07-25 |
@@ -39,4 +40,3 @@ title: "GitHub Discussions"
 | [1335](proposals/1335-add-support-for-speech-to-text-asr-models.md) | [Add support for speech-to-text (ASR) models](proposals/1335-add-support-for-speech-to-text-asr-models.md) | :bulb: Proposals | [@ivan-smetannikov-serokell](https://github.com/ivan-smetannikov-serokell) | 2026-06-22 |
 | [1354](q-a/1354-i-would-like-to-ask-if-the-developers-intentionally-pushed-i.md) | [I would like to ask if the developers intentionally pushed inference data to the main chain, causing some nodes to lose their epoch rewards.](q-a/1354-i-would-like-to-ask-if-the-developers-intentionally-pushed-i.md) | :pray: Q&A | [@Llgmhsl](https://github.com/Llgmhsl) | 2026-06-21 |
 | [1345](proposals/1345-network-documentation.md) | [Network Documentation](proposals/1345-network-documentation.md) | :bulb: Proposals | [@heitor-lassarote](https://github.com/heitor-lassarote) | 2026-06-16 |
-| [944](general/0944-gonkas-support-of-new-modalities-besides-text.md) | [Gonka's support of new modalities besides text](general/0944-gonkas-support-of-new-modalities-besides-text.md) | :speech_balloon: General | [@tamazgadaev](https://github.com/tamazgadaev) | 2026-06-15 |

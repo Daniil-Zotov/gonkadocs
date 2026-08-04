@@ -4,12 +4,13 @@ title: ":bulb: Proposals"
 
 # :bulb: Proposals
 
-Дискуссии в категории **:bulb: Proposals**. Всего: **48**. Обновлено: `2026-08-04 06:37 UTC`.
+Дискуссии в категории **:bulb: Proposals**. Всего: **49**. Обновлено: `2026-08-04 09:45 UTC`.
 
 [← ко всем категориям](../index.md)
 
 | # | Заголовок | Автор | Обновлено |
 |---:|---|---|---|
+| [1540](1540-webx-asia-2026-post-event-report-to-proposal-51.md) | [WebX Asia 2026 — Post-Event Report to Proposal #51](1540-webx-asia-2026-post-event-report-to-proposal-51.md) | [@Ryanchen911](https://github.com/Ryanchen911) | 2026-08-04 |
 | [1502](1502-обратная-связь-от-разработчика-почему-текущий-модельный-ряд-.md) | [Обратная связь от разработчика: почему текущий модельный ряд Gonka пока не проходит production bar](1502-обратная-связь-от-разработчика-почему-текущий-модельный-ряд-.md) | [@bitcompool](https://github.com/bitcompool) | 2026-07-26 |
 | [1500](1500-more-compute-from-the-same-gonka-hardware-two-phase-cooling-.md) | [More compute from the same Gonka hardware: two-phase cooling pilot](1500-more-compute-from-the-same-gonka-hardware-two-phase-cooling-.md) | [@bitcompool](https://github.com/bitcompool) | 2026-07-25 |
 | [1464](1464-dev-team-funding.md) | [Dev Team Funding](1464-dev-team-funding.md) | [@gmorgachev](https://github.com/gmorgachev) | 2026-08-03 |
