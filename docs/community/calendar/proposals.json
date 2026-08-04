@@ -1154,18 +1154,6 @@
   {
     "date": "2026-08-03",
     "category": "governance",
-    "type": "proposal_report_upload",
-    "title": "Report for proposal #51 — Support Gonka's presence at WebX Asia",
-    "url": "/proposals/proposals/2026-q2/51/",
-    "time": "",
-    "description": "Report report1 for proposal #51 has been uploaded. Read it: https://gonkadocs.com/proposals/proposals/2026-q2/51/report1/",
-    "tags": [
-      "report"
-    ]
-  },
-  {
-    "date": "2026-08-03",
-    "category": "governance",
     "type": "proposal_report",
     "title": "Passed: #93 – Upgrade devshard v4 runtime to v4.0.1",
     "url": "/proposals/proposals/2026-q3/93/",
@@ -1173,6 +1161,18 @@
     "description": "Replace the existing devshard v4 runtime with v4.0.1. This performance and resource-management patch does not change protocol, inference, validation, or economic behavior. It removes per-block chain q…",
     "tags": [
       "passed"
+    ]
+  },
+  {
+    "date": "2026-08-04",
+    "category": "governance",
+    "type": "proposal_report_upload",
+    "title": "Report for proposal #51 — Support Gonka's presence at WebX Asia",
+    "url": "/proposals/proposals/2026-q2/51/",
+    "time": "",
+    "description": "Report report1 for proposal #51 has been uploaded. Read it: https://gonkadocs.com/proposals/proposals/2026-q2/51/report1/",
+    "tags": [
+      "report"
     ]
   }
 ]
