@@ -391,6 +391,10 @@ def _call_ai(api_key: str, api_endpoint: str, model: str,
                 timeout=timeout,
             )
             resp.raise_for_status()
+            data = resp.json()
+            raw = data['choices'][0]['message'].get('content')
+            if not raw:
+                raise ValueError('AI returned empty content')
             break
         except Exception as e:
             last_err = e
@@ -399,10 +403,6 @@ def _call_ai(api_key: str, api_endpoint: str, model: str,
     else:
         raise last_err
 
-    data = resp.json()
-    raw = data['choices'][0]['message'].get('content')
-    if not raw:
-        raise ValueError('AI returned empty content')
     ai_text = raw.strip()
     ai_text = re.sub(r'<think>.*?</think>', '', ai_text, flags=re.DOTALL | re.IGNORECASE).strip()
     ai_text = re.sub(r'<[^>]+>', '', ai_text).strip()
