@@ -1,6 +1,6 @@
 ---
 title: Community Calendar
-description: "Календарь событий сообщества: пропозалы, созвоны комитетов, AMA, обновления сети."
+description: "Community calendar of events: proposals, committee calls, AMAs, network updates."
 template: calendar.html
 hide:
   - toc

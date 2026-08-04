@@ -3,20 +3,20 @@
     "date": "2026-07-30",
     "category": "community",
     "type": "livestream",
-    "title": "▶️ Ancapex Live: Обзор Gonka",
+    "title": "▶️ Ancapex Live: Gonka Overview",
     "url": "https://www.youtube.com/@Ancapex",
     "time": "11:00 UTC",
-    "description": "YouTube стрим с Яковом, сооснователем Ancapex. Разбор всего самого важного в Gonka за последние месяцы: инференс, пропозалы v0.2.14–v0.2.15, обучение моделей, майнинг и цена токена, governance, дорожная карта.",
+    "description": "YouTube stream with Yakov, co-founder of Ancapex. A review of everything important in Gonka over the past months: inference, proposals v0.2.14–v0.2.15, model training, mining and token price, governance, and the roadmap.",
     "tags": ["livestream", "ancapex"]
   },
   {
     "date": "2026-08-03",
     "category": "community",
     "type": "ama",
-    "title": "AMA с Глебом Моргачевым — Dev Team Funding proposal",
+    "title": "AMA with Gleb Morgachev — Dev Team Funding proposal",
     "url": "https://github.com/gonka-ai/gonka/discussions/1464",
     "time": "15:30 UTC",
-    "description": "AMA-сессия с Глебом Моргачевым (@gmorgachev, сооснователь Gonka) о proposal финансирования независимой команды разработки (Dev Team Funding). Обсудим ключевые вопросы: на какие задачи запрашивается финансирование; как будет устроена независимая команда разработки; механика финансирования; прозрачность расходов, отчётность и роль Глеба в инициативе. Язык: русский. Ведущие: @paranko и @dem_ww. Zoom: ссылка будет к началу сессии. Proposal: https://github.com/gonka-ai/gonka/discussions/1464",
+    "description": "AMA session with Gleb Morgachev (@gmorgachev, co-founder of Gonka) about the proposal to fund an independent development team (Dev Team Funding). We will discuss key issues: what tasks the funding is requested for; how the independent development team will be structured; the funding mechanics; cost transparency, reporting, and Gleb’s role in the initiative. Language: Russian. Hosts: @paranko and @dem_ww. Zoom: the link will be provided at the start of the session. Proposal: https://github.com/gonka-ai/gonka/discussions/1464",
     "tags": ["ama", "dev-team-funding", "gmorgachev"]
   },
     {

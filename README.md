@@ -1,6 +1,6 @@
 # gonkadocs.com
 
-**Gonk Docs** is a meta-repository for the [Gonka](https://gonka.ai) decentralized AI inference network (Proof of Compute consensus). It aggregates everything about the project in one place:
+**Gonka Docs** is a meta-repository for the [Gonka](https://gonka.ai) decentralized AI inference network (Proof of Compute consensus). It aggregates everything about the project in one place:
 
 - **Official documentation** — auto-synced protocol docs (`/gonka/docs/`) with English and Chinese translations
 - **Source code mirror** — the full `gonka-ai/gonka` source served verbatim (`/gonka-code/`), indexed by `/gonka-code-map.txt`
