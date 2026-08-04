@@ -433,7 +433,7 @@
       "event_type": "proposal_report",
       "url": "/proposals/proposals/2026-q3/93/"
     },
-    "ai_description": null
+    "ai_description": "Added: Passed: #93 – Upgrade devshard v4 runtime to v4.0.1. Replace the existing devshard v4 runtime with v4.0.1. This performance and resource-management patch does not change protocol, inference, validation, or economic behavior. It removes per-block chain q…"
   },
   {
     "id": "evt_20260803010757_d3cc7934",
