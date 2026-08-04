@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260804204830_1dd68233",
+    "timestamp": "2026-08-04T20:48:30.970609+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1545 — [BUG] POST /v1/participants returns unclear error for malformed JSON",
+      "url": "/community/issues/01545-bug-post-v1participants-returns-unclear-error-for-malformed-/",
+      "file": "01545-bug-post-v1participants-returns-unclear-error-for-malformed-.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] POST /v1/participants returns unclear error for malformed JSON\n    <span class=\"issues-number\">#1545</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Parikalp-Bhardwaj\">@Parikalp-Bhardwaj</a> opened 2026-08-04 19:19 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margi"
+    },
+    "ai_description": "A new bug report has been opened by Parikalp-Bhardwaj regarding the POST /v1/participants endpoint, which currently returns confusing error messages when it receives malformed JSON input. Clearer error handling here will help developers integrate more smoothly with the API, so community eyes and contributions on issue #1545 are welcome."
+  },
+  {
     "id": "evt_20260804171108_56594118",
     "timestamp": "2026-08-04T17:11:08.414281+00:00",
     "section": "issues",
