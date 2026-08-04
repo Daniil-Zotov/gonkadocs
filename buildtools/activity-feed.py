@@ -352,16 +352,10 @@ Rules:
 - Do not retell the content verbatim — explain the meaning of the changes
 - Reply only with the finished post, without reasoning, analysis or explanations"""
 
-AI_TRANSLATE_PROMPT = """You are a translator for the Gonka community activity feed.
-Translate the following community post into English.
+AI_TRANSLATE_PROMPT = """Translate the following community post from Russian into English.
+Output only the translated English post. Do not include any commentary, markdown, formatting, or the original text.
 
-Rules:
-- Keep the meaning, tone and style of the original
-- Maximum 2-3 sentences
-- Plain text only (no markdown, no **, no ##, no HTML tags)
-- Reply only with the finished English post, without reasoning, analysis or explanations
-
-Post to translate:
+The post to translate:
 """
 
 
@@ -406,7 +400,10 @@ def _call_ai(api_key: str, api_endpoint: str, model: str,
         raise last_err
 
     data = resp.json()
-    ai_text = data['choices'][0]['message']['content'].strip()
+    raw = data['choices'][0]['message'].get('content')
+    if not raw:
+        raise ValueError('AI returned empty content')
+    ai_text = raw.strip()
     ai_text = re.sub(r'<think>.*?</think>', '', ai_text, flags=re.DOTALL | re.IGNORECASE).strip()
     ai_text = re.sub(r'<[^>]+>', '', ai_text).strip()
     ai_text = re.sub(
@@ -533,8 +530,10 @@ def backfill_enrichments(events_path: Path):
         ai = event.get('ai_description') or ''
         section = event.get('section', '')
 
-        if ai and not _has_cyrillic(ai):
-            continue  # already enriched and in English
+        # Skip events that are already enriched in English, unless the text
+        # looks like a failed output (empty, still Cyrillic, or echoed prompt).
+        if ai and not _has_cyrillic(ai) and 'Post to translate' not in ai:
+            continue
 
         try:
             if not ai:
@@ -543,11 +542,14 @@ def backfill_enrichments(events_path: Path):
                                    AI_SYSTEM_PROMPT, user_prompt)
                 mode = 'generate'
             else:
-                user_prompt = AI_TRANSLATE_PROMPT + '\n' + ai
                 ai_text = _call_ai(api_key, api_endpoint, model,
-                                   AI_TRANSLATE_PROMPT, user_prompt)
+                                   AI_TRANSLATE_PROMPT, ai)
+                if _has_cyrillic(ai_text) or 'Post to translate' in ai_text:
+                    raise ValueError('AI translation still contains Cyrillic or echoed the prompt')
                 mode = 'translate'
 
+            if not ai_text or _has_cyrillic(ai_text):
+                raise ValueError('AI output is empty or not English')
             event['ai_description'] = ai_text
             changed += 1
             print(f'  AI backfill ({mode}): [{event.get("action")}] {ai_text[:100]}...')
