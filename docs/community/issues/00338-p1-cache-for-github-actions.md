@@ -2,7 +2,7 @@
 title: "#338 — [P1] Cache for Github Actions"
 source: https://github.com/gonka-ai/gonka/issues/338
 issue_number: 338
-synced_at: 2026-08-05T10:02:24Z
+synced_at: 2026-08-05T12:22:03Z
 template: issues-main.html
 ---
 

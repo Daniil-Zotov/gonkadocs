@@ -2,7 +2,7 @@
 title: "#966 — Validation Eligibility and Accounting Consistency"
 source: https://github.com/gonka-ai/gonka/issues/966
 issue_number: 966
-synced_at: 2026-08-05T10:02:14Z
+synced_at: 2026-08-05T12:21:54Z
 template: issues-main.html
 ---
 

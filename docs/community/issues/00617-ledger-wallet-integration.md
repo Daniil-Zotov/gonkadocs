@@ -2,7 +2,7 @@
 title: "#617 — Ledger wallet integration"
 source: https://github.com/gonka-ai/gonka/issues/617
 issue_number: 617
-synced_at: 2026-08-05T10:03:25Z
+synced_at: 2026-08-05T12:23:09Z
 template: issues-main.html
 ---
 
