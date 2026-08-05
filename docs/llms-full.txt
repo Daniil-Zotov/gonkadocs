@@ -17518,7 +17518,7 @@ Critical network infrastructure should not depend by default on a closed SaaS co
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-08-05 03:56 UTC
+2026-08-05 06:25 UTC
 
 ---
 
@@ -25404,7 +25404,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   
   6Block, a long-term Gonka mining and infrastructure participant, proposes that the Gonka community allocate 75,000 USDT to support Gonka's participation at WebX Asia / WebX 2026 in Tokyo. 6Block has a…
   Yes 62.8% (395,003) · No 0.3% (1,767) · Veto 10.2% (64,217) · Abstain 26.7% (168,275)$75,000 · Community Pool
-  report12026-08-05
+  report12026-08-03
 
   
     #50 – Retroactive bounty: open-source PoC throughput optimization (+10–12% measured) with 250 total installations
@@ -25956,7 +25956,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-92 proposals across 5 quarters. Last updated: 2026-08-05 05:30 UTC
+92 proposals across 5 quarters. Last updated: 2026-08-05 06:27 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -37810,7 +37810,7 @@ $54,075 USDT · Bounty Reward
   
   6Block, a long-term Gonka mining and infrastructure participant, proposes that the Gonka community allocate 75,000 USDT to support Gonka's participation at WebX Asia / WebX 2026 in Tokyo. 6Block has a…
   Yes 62.8% (395,003) · No 0.3% (1,767) · Veto 10.2% (64,217) · Abstain 26.7% (168,275)$75,000 · Community Pool
-  report12026-08-05
+  report12026-08-03
 
   
     #50 – Retroactive bounty: open-source PoC throughput optimization (+10–12% measured) with 250 total installations
@@ -55066,7 +55066,11 @@ Contract Details
 
 ---
 
-## Report1
+## Report 1 — WebX Asia 2026
+
+# Report 1 — WebX Asia 2026
+
+**Дата публикации:** 2026-08-03
 
 On behalf of 6Block, I would like to thank the Gonka community for approving and funding Gonka’s participation at WebX Asia 2026.
 

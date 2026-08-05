@@ -3,7 +3,7 @@ title: "#1374 — Gonka AI Dune Dashboard"
 source: https://github.com/gonka-ai/gonka/discussions/1374
 discussion_number: 1374
 category: show-and-tell
-synced_at: 2026-08-05T03:26:15Z
+synced_at: 2026-08-05T06:37:35Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1374](https://github.com/gonka-ai/gonka/discussions/1374) every hour. 
