@@ -1,5 +1,29 @@
 [
   {
+    "id": "evt_20260805005555_1b18d978",
+    "timestamp": "2026-08-05T00:55:55.660977+00:00",
+    "section": "calendar",
+    "action": "daily_reminder",
+    "item": {
+      "title": "Today: 1 events — INPUT Global — Weekly Call (#77)",
+      "url": "/community/calendar/",
+      "file": null
+    },
+    "details": {
+      "today": [
+        {
+          "title": "INPUT Global — Weekly Call (#77)",
+          "date": "2026-08-05",
+          "time": "13:00 UTC",
+          "event_type": "committee_call",
+          "url": "/proposals/proposals/2026-q2/77/"
+        }
+      ],
+      "count": 1
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260804205224_97df4583",
     "timestamp": "2026-08-04T20:52:24.942801+00:00",
     "section": "calendar",
