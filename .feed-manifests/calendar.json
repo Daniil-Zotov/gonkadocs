@@ -1,6 +1,6 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-08-05T08:03:17.767774+00:00",
+  "snapshot_time": "2026-08-05T11:01:25.874109+00:00",
   "files": {
     "d20f0b7f63fffff2927833d9557050f626cd934d5ab3479488af3773000f3011": {
       "title": "▶️ Ancapex Live: Gonka Overview",
@@ -28,6 +28,15 @@
       "url": "https://github.com/gonka-ai/gonka/discussions/1464",
       "content_preview": "AMA session with Gleb Morgachev (@gmorgachev, co-founder of Gonka) about the proposal to fund an independent development team (Dev Team Funding). We will discuss key issues: what tasks the funding is requested for; how the independent development team will be structured; the funding mechanics; cost transparency, reporting, and Gleb’s role in the initiative. Language: English. Zoom: the link will be provided at the start of the session. Proposal: https://github.com/gonka-ai/gonka/discussions/1464",
       "checksum": "7e7d78bedf2daa33e7b72362a8b07192727b8681d99e3780299d9f5ddcdec961"
+    },
+    "f7f94972f89106ea838170d0b12ca308b9435a20392e8465e3e171669a7ee08c": {
+      "title": "⛏ Покупка собственного оборудования для майнинга — Ancapex.ai | Purchasing our own mining equipment — Ancapex.ai",
+      "date": "2026-08-06",
+      "time": "11:00 UTC",
+      "event_type": "community",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSfYCN7jbg9b5JOiLXjhhXCEY_n4BKAWyQdpYfcFz1UMrD7ARw/viewform",
+      "content_preview": "⛏ Покупка собственного оборудования для майнинга.\n\nМы рассматриваем возможность приобретения собственных GPU-кластеров и ASIC-майнеров. Это следующий шаг для Ancapex — перейти от аренды мощностей к владению инфраструктурой.\n\nЕсли вы хотите стать одним из первых, кто владеет ASIC-оборудованием и получает с него прибыль, приходите на звонок. Обсудим, являются ли ASIC новой нефтью, как устроена бизнес-модель и как можно поучаствовать вместе с нами.\n\n🗓 Четверг, 14:00 МСК (11:00 UTC)\n📍 Zoom, ссылку вышлем на почту или в Telegram\n\nЧтобы получить ссылку, заполните форму: https://docs.google.com/forms/d/e/1FAIpQLSfYCN7jbg9b5JOiLXjhhXCEY_n4BKAWyQdpYfcFz1UMrD7ARw/viewform\n\n---\n\nPurchasing our own mining equipment.\n\nWe are considering acquiring our own GPU clusters and ASIC miners. This is the next s",
+      "checksum": "d74ff876b36a58956c960b3c4fd5393ecd8f8246e4601acf0ff73dc3263c540b"
     },
     "9a26c0c43e769fe2005297e04e91abc3aae9653775fcedba3963b730de2120a2": {
       "title": "INPUT Global — Weekly Call (#77)",

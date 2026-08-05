@@ -1,5 +1,25 @@
 [
   {
+    "id": "evt_20260805110125_745a9478",
+    "timestamp": "2026-08-05T11:01:25.867101+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "⛏ Покупка собственного оборудования для майнинга — Ancapex.ai | Purchasing our own mining equipment — Ancapex.ai",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSfYCN7jbg9b5JOiLXjhhXCEY_n4BKAWyQdpYfcFz1UMrD7ARw/viewform",
+      "file": "f7f94972f89106ea838170d0b12ca308b9435a20392e8465e3e171669a7ee08c"
+    },
+    "details": {
+      "status": null,
+      "content": "⛏ Покупка собственного оборудования для майнинга.\n\nМы рассматриваем возможность приобретения собственных GPU-кластеров и ASIC-майнеров. Это следующий шаг для Ancapex — перейти от аренды мощностей к владению инфраструктурой.\n\nЕсли вы хотите стать одним из первых, кто владеет ASIC-оборудованием и получает с него прибыль, приходите на звонок. Обсудим, являются ли ASIC новой нефтью, как устроена бизнес-модель и как можно поучаствовать вместе с нами.\n\n🗓 Четверг, 14:00 МСК (11:00 UTC)\n📍 Zoom, ссылку вышлем на почту или в Telegram\n\nЧтобы получить ссылку, заполните форму: https://docs.google.com/forms/d/e/1FAIpQLSfYCN7jbg9b5JOiLXjhhXCEY_n4BKAWyQdpYfcFz1UMrD7ARw/viewform\n\n---\n\nPurchasing our own mining equipment.\n\nWe are considering acquiring our own GPU clusters and ASIC miners. This is the next s",
+      "date": "2026-08-06",
+      "time": "11:00 UTC",
+      "event_type": "community",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSfYCN7jbg9b5JOiLXjhhXCEY_n4BKAWyQdpYfcFz1UMrD7ARw/viewform"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260805080317_14e40537",
     "timestamp": "2026-08-05T08:03:17.762322+00:00",
     "section": "calendar",
