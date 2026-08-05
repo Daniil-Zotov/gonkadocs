@@ -605,7 +605,7 @@
       "status": null,
       "content": "> 🔄 **Auto-sync:** from [Discussion #1334](https://github.com/gonka-ai/gonka/discussions/1334) every hour. \n\n# Devshard E2E Test Automation Proposal\n\n**Автор:** [@aikuznetsov](https://github.com/aikuznetsov) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-06-10 19:23 UTC · \n\n---\n\n## 📝 Описание\n\n## Goal\n\nBuild a real integration test layer for devshard that runs from Go tests but\nvalidates the system across Docker containers, real HTTP networking, real\nprocess boundaries, and real storage.\n\nThis suite should complement the existing unit, package, and `httptest` tests.\nThose tests remain the fast correctness layer. The E2E suite verifies that the\nsame protocol works when the pieces are started, wired, restarted, and failed\nlike real services.\n\n## Scope\n\nThe test runner is G"
     },
-    "ai_description": null
+    "ai_description": "A new discussion has been started by aikuznetsov proposing an end-to-end test automation framework for devshard. The proposal calls for real integration tests running in Docker containers with actual HTTP networking and storage to complement existing unit tests and ensure the protocol holds up under realistic service conditions. Check it out and share your thoughts on how to make devshard more resilient."
   },
   {
     "id": "evt_20260805231325_44253851",
@@ -1532,7 +1532,7 @@
     "details": {
       "content": "> 🔄 **Auto-sync:** from [Discussion #1540](https://github.com/gonka-ai/gonka/discussions/1540) every hour. \n\n# WebX Asia 2026 — Post-Event Report to Proposal #51\n\n**Автор:** [@Ryanchen911](https://github.com/Ryanchen911) · **Категория:** :bulb: Proposals · **Создано:** 2026-08-04 08:54 UTC · \n\n---\n\n## 📝 Описание\n\nOn behalf of 6Block, I would like to thank the Gonka community for approving and funding Gonka's participation at WebX Asia 2026.\n\nUnder [the original Proposal #51](https://gonkascan.com/?page=governance&proposal_id=51), 6Block directly funded the 75,000 USDT Platinum sponsorship, while the community allocated another 75,000 USDT to cover the execution of Gonka's presence at the event. After consolidating the expenses, the execution budget was used as follows, rounded to the neare"
     },
-    "ai_description": null
+    "ai_description": "Removed: WebX Asia 2026 — Post-Event Report to Proposal #51. > 🔄 **Auto-sync:** from [Discussion #1540](https://github.com/gonka-ai/gonka/discussions/1540) every hour. # WebX Asia 2026 — Post-Event Report to Proposal #51 **Автор:** [@Ryanchen911](https://github.com/Ryanchen911) · **Категория:** :bulb: Proposals · **Создано:** 2026-08-04 08:54 UTC · --- ## 📝 О"
   },
   {
     "id": "evt_20260805231325_67927d77",
