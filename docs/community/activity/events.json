@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260805210044_5c78a0a9",
+    "timestamp": "2026-08-05T21:00:44.697423+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "Announcements",
+      "url": "/gonka/docs/network-updates/",
+      "file": "network-updates.md"
+    },
+    "details": {
+      "content_before": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## August 3, 2026\n\n**API Binary Update: `v0.2.15-post3`**\n\nA new API binary, `v0.2.15-post3`, is available.\n\nThis release improves PoC seed reliability and includes several API and deployment fixes.\n\n**What changed**\n\n- PoC Seed Stability. Recover missed se",
+      "content_after": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## August 3, 2026\n\n**UPGRADE EXECUTED: devshard runtime v4.0.1 is now live**\n\nThe on-chain governance vote for the `v0.2.15-devshard-v4.0.1` runtime upgrade proposal (proposal id 93) has concluded.\n\nThe proposal was APPROVED, and the devshard v4 runtime was"
+    },
+    "ai_description": "The Protocol Docs Announcements page has been updated to reflect that the on-chain governance vote for the devshard v4.0.1 runtime upgrade (proposal 93) has concluded and been approved, replacing the previous notice about the v0.2.15-post3 API binary. This means the devshard v4 runtime is now live following successful community governance, marking a significant milestone for the network's infrastructure evolution."
+  },
+  {
     "id": "evt_20260805191909_ab384ead",
     "timestamp": "2026-08-05T19:19:09.968593+00:00",
     "section": "gonka_docs",
