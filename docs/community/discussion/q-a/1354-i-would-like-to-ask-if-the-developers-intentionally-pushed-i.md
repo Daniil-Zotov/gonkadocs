@@ -3,14 +3,14 @@ title: "#1354 — I would like to ask if the developers intentionally pushed inf
 source: https://github.com/gonka-ai/gonka/discussions/1354
 discussion_number: 1354
 category: q-a
-synced_at: 2026-08-05T21:21:44Z
+synced_at: 2026-08-05T23:13:03Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1354](https://github.com/gonka-ai/gonka/discussions/1354) every hour. 
 
 # I would like to ask if the developers intentionally pushed inference data to the main chain, causing some nodes to lose their epoch rewards.
 
-**Автор:** [@Llgmhsl](https://github.com/Llgmhsl) · **Категория:** :pray: Q&A · **Создано:** 2026-06-21 15:56 UTC · **Обновлено:** 2026-06-21 21:00 UTC
+**Автор:** [@Llgmhsl](https://github.com/Llgmhsl) · **Категория:** :interrobang: Q&A · **Создано:** 2026-06-21 15:56 UTC · **Обновлено:** 2026-06-21 21:00 UTC
 
 ---
 
