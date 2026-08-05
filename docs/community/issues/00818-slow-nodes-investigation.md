@@ -2,7 +2,7 @@
 title: "#818 — Slow nodes investigation"
 source: https://github.com/gonka-ai/gonka/issues/818
 issue_number: 818
-synced_at: 2026-08-05T18:59:27Z
+synced_at: 2026-08-05T20:42:30Z
 template: issues-main.html
 ---
 
