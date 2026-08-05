@@ -1,3 +1,7 @@
+# Report 1 — WebX Asia 2026
+
+**Дата публикации:** 2026-08-03
+
 On behalf of 6Block, I would like to thank the Gonka community for approving and funding Gonka’s participation at WebX Asia 2026.
 
 Under the original proposal, 6Block directly funded the **75,000 USDT** Platinum sponsorship, while the community allocated another **75,000 USDT** to cover the execution of Gonka’s presence at the event. After consolidating the expenses, the execution budget was used as follows, rounded to the nearest USDT:

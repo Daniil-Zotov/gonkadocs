@@ -639,7 +639,7 @@ hide:
   </div>
   <div class="prop-card-desc">6Block, a long-term Gonka mining and infrastructure participant, proposes that the Gonka community allocate 75,000 USDT to support Gonka's participation at WebX Asia / WebX 2026 in Tokyo. 6Block has a…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>62.8%</strong> (395,003)</span> · <span class="prop-tally-no-text">No <strong>0.3%</strong> (1,767)</span> · <span class="prop-tally-veto-text">Veto <strong>10.2%</strong> (64,217)</span> · <span class="prop-tally-abstain-text">Abstain <strong>26.7%</strong> (168,275)</span><span class="prop-card-funding">$75,000 · Community Pool</span></div>
-  <div class="prop-card-report"><a class="prop-report-link" href="2026-q2/51/report1/"><span class="prop-report-name">report1</span><span class="prop-report-date">2026-08-05</span></a></div>
+  <div class="prop-card-report"><a class="prop-report-link" href="2026-q2/51/report1/"><span class="prop-report-name">report1</span><span class="prop-report-date">2026-08-03</span></a></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">

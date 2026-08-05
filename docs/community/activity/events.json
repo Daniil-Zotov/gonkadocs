@@ -208,26 +208,6 @@
     "ai_description": "Today marks the scheduled report date for proposal #51, which supports Gonka's presence at WebX Asia. The community can expect updates on how the event participation is progressing and what outcomes are being delivered. Be sure to check the details and share your thoughts."
   },
   {
-    "id": "evt_20260804014611_ecaf1e07",
-    "timestamp": "2026-08-04T01:46:11.808581+00:00",
-    "section": "calendar",
-    "action": "new",
-    "item": {
-      "title": "Report for proposal #51 — Support Gonka's presence at WebX Asia",
-      "url": "/proposals/proposals/2026-q2/51/",
-      "file": "b77b60c68d79bba0c0e46c9e1dfc2526648bdf85363ccfab089f713e01589631"
-    },
-    "details": {
-      "status": null,
-      "content": "Report report1 for proposal #51 has been uploaded. Read it: https://gonkadocs.com/proposals/proposals/2026-q2/51/report1/",
-      "date": "2026-08-04",
-      "time": "",
-      "event_type": "proposal_report_upload",
-      "url": "/proposals/proposals/2026-q2/51/"
-    },
-    "ai_description": "A new report has been added for proposal 51 covering Gonka's presence at WebX Asia, and the community can now review the outcomes and details of the event. You can read the full report at the shared link to see how the initiative progressed."
-  },
-  {
     "id": "evt_20260803204231_e1452724",
     "timestamp": "2026-08-03T20:42:31.002946+00:00",
     "section": "issues",
