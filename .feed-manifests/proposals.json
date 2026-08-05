@@ -1,6 +1,6 @@
 {
   "section": "proposals",
-  "snapshot_time": "2026-08-05T06:10:29.457379+00:00",
+  "snapshot_time": "2026-08-05T06:20:20.745358+00:00",
   "files": {
     "2025-q3/1/full-proposal.md": {
       "title": "Adjust Params According to real block length",
@@ -243,14 +243,14 @@
       "checksum": "00402fa0a1493eddce42969d315023241b664b0e3bf51913ca130c70f6347767"
     },
     "2026-q2/51/report1.md": {
-      "title": "report1",
+      "title": "Report 1 — WebX Asia 2026",
       "status": null,
-      "content_preview": "On behalf of 6Block, I would like to thank the Gonka community for approving and funding Gonka’s participation at WebX Asia 2026.\n\nUnder the original proposal, 6Block directly funded the **75,000 USDT** Platinum sponsorship, while the community allocated another **75,000 USDT** to cover the execution of Gonka’s presence at the event. After consolidating the expenses, the execution budget was used as follows, rounded to the nearest USDT:\n\n75,000 USDT — Platinum sponsorship status, including media coverage, space for booth, and a speaking slot for the Liberman brothers;\n36,526 USDT — travel and accommodation for 10 Gonka contributors, including three co-creators of the protocol;\n21,237 USDT — booth construction;\n10,227 USDT — local transportation, on-site expenses, and operational logistics;",
+      "content_preview": "# Report 1 — WebX Asia 2026\n\n**Дата публикации:** 2026-08-03\n\nOn behalf of 6Block, I would like to thank the Gonka community for approving and funding Gonka’s participation at WebX Asia 2026.\n\nUnder the original proposal, 6Block directly funded the **75,000 USDT** Platinum sponsorship, while the community allocated another **75,000 USDT** to cover the execution of Gonka’s presence at the event. After consolidating the expenses, the execution budget was used as follows, rounded to the nearest USDT:\n\n75,000 USDT — Platinum sponsorship status, including media coverage, space for booth, and a speaking slot for the Liberman brothers;\n36,526 USDT — travel and accommodation for 10 Gonka contributors, including three co-creators of the protocol;\n21,237 USDT — booth construction;\n10,227 USDT — loca",
       "funding": "",
       "quorum_met": null,
       "voting_end": "",
       "description": "",
-      "checksum": "958c1912da002c7983003cfd2cae8eac106104779dc7f26f97911c01ef06f6c5"
+      "checksum": "916531d96fd4f4525891878049270154b7a36dc9dfdb1b9bcf27668e7ba132ec"
     },
     "2026-q2/52/full-proposal.md": {
       "title": "Upgrade Proposal: v0.2.13",
