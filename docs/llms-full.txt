@@ -17897,14 +17897,14 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 ## 🟢 Active Proposals
 
 3Active
-8Votes
+10Votes
 1.4M GNKTotal Bid
 
 | Status | Title | Author | Votes | Avg. Bid | Closes |
 | :----- | :----- | :----- | ----: | -------: | :----- |
-| 🟢 | [Gonka × Omniverse Web3 Camp](./51625116-36cd-47ee-a176-d552d39f0376/) | George Omni | 1 | 0.00 GNK | 2026-08-08 |
+| 🟢 | [Gonka × Omniverse Web3 Camp](./51625116-36cd-47ee-a176-d552d39f0376/) | George Omni | 2 | 0.00 GNK | 2026-08-08 |
 | 🟢 | [Привлечение $3M+ нового капитала на Uniswap v2.0](./f341b83c-78f0-4ab2-b8fd-ddc7ac5d9c37/) | Andrey Orlov | 5 | 138.5K GNK | 2026-08-08 |
-| 🟢 | [Dev Team Funding @gmorgachev](./8a252390-79b4-4a43-b520-c3fc412ef642/) | Даниил Зотов | 2 | 346.3K GNK | 2026-08-14 |
+| 🟢 | [Dev Team Funding @gmorgachev](./8a252390-79b4-4a43-b520-c3fc412ef642/) | Даниил Зотов | 3 | 230.9K GNK | 2026-08-14 |
 
 ---
 
@@ -17952,7 +17952,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-08-05 09:44 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-08-05 12:10 UTC*
 
 ---
 
@@ -19674,7 +19674,7 @@ mitchseed
 **Created:** 2026-08-01 12:03 UTC
 **Closes:** 2026-08-08 13:00 UTC
 **Language:** EN
-**Votes:** 1
+**Votes:** 2
 **Avg. Bid:** 0.00 GNK
 
 20,000 USDT for Gonka to become AI Partner of Omniverse Web3 Camp, St. Petersburg, Aug 25-26: 200 m² branded lounge, EXPO booth, 2 stage slots, 2,000 guests.
@@ -21099,8 +21099,8 @@ qr.mint.dev@gmail.com
 **Created:** 2026-07-31 18:54 UTC
 **Closes:** 2026-08-14 18:52 UTC
 **Language:** EN
-**Votes:** 2
-**Avg. Bid:** 346.3K GNK
+**Votes:** 3
+**Avg. Bid:** 230.9K GNK
 
 I plan to submit a proposal requesting 1.5m USDT from the community pool. The funding would support an independent engineering team working on core protocol development aligned with the roadmap
 
