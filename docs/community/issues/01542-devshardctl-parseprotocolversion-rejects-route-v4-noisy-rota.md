@@ -2,7 +2,7 @@
 title: "#1542 — devshardctl: ParseProtocolVersion rejects route v4 (noisy rotation fallback log)"
 source: https://github.com/gonka-ai/gonka/issues/1542
 issue_number: 1542
-synced_at: 2026-08-05T16:55:15Z
+synced_at: 2026-08-05T18:57:18Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 2026-08-04 15:58 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-08-04 15:58 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-08-05 17:32 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span> <span class="issues-label" style="background-color: #7057ff; color: #ffffff; border-color: #7057ff;">good first issue</span> <span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
 </div>
@@ -60,6 +60,20 @@ Also worth aligning compose healthcheck (`curl` vs image `wget`) separately — 
 - [ ] Unit: `ParseProtocolVersion("v4")` (or chosen behavior) covered
 - [ ] With `DEVSHARD_ROUTE_PREFIX=/devshard/v4`, autorotation creates escrows without `unparseable_protocol` spam
 - [ ] Settlement still carries `state_root_and_protocol_version=v4` as today
+</div>
+
+---
+
+## 💬 Comments (1)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/w3lld1">@w3lld1</a></span>
+    <span class="issues-meta-item">commented 2026-08-05 17:32 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>I'd like to take this. I plan to add <code>v4</code> support to <code>ParseProtocolVersion</code>, extend the focused unit coverage, and verify the escrow rotation parsing path. I can submit the PR within a day. Could you confirm that adding <code>ProtocolV4</code> is preferred over keeping route majors decoupled, and assign me?</p>
+  </div>
 </div>
 
 ---
