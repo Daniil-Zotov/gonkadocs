@@ -1,5 +1,25 @@
 [
   {
+    "id": "evt_20260805080317_14e40537",
+    "timestamp": "2026-08-05T08:03:17.762322+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Report for proposal #51 — Support Gonka's presence at WebX Asia",
+      "url": "/proposals/proposals/2026-q2/51/",
+      "file": "8058ee07e8a999d11ba56aeca15aadc24c3f0ecfe27fc6f0130005bbe7baff39"
+    },
+    "details": {
+      "status": null,
+      "content": "Report report1 for proposal #51 has been uploaded. Read it: https://gonkadocs.com/proposals/proposals/2026-q2/51/report1/",
+      "date": "2026-08-03",
+      "time": "",
+      "event_type": "proposal_report_upload",
+      "url": "/proposals/proposals/2026-q2/51/"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260805044506_d4f7c743",
     "timestamp": "2026-08-05T04:45:06.945464+00:00",
     "section": "calendar",
