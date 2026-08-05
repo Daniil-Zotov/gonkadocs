@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-08-05T17:26:39.161505+00:00",
+  "snapshot_time": "2026-08-05T19:19:18.606462+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -12,7 +12,7 @@
       "title": "FAQ",
       "status": null,
       "content_preview": "# FAQ\n\n## Overview\n\n### What is Gonka?\nGonka is a decentralized network for high‑efficiency AI compute — run by those who run it. It functions as a cost-effective and efficient alternative to centralized cloud services for AI model training and inference. As a protocol, it's not a company or a start-up.\n\n- In terms of Blockchain, Gonka is the foundational ledger and coordination layer (L1) of the decentralized AI network. It records balances, transactions and cryptographic artifacts that prove Hosts have correctly performed AI work, while all actual computations (such as inference and training) happen off-chain.\n- In terms of Network, Gonka is a comprehensive ecosystem of participants, including Hosts and Developers that interact through a decentralized infrastructure. Powered by the Gonka",
-      "checksum": "e6b2a1671854662b0f7819a411df825fbd8748c980e042a492cb988ae5ca9f36"
+      "checksum": "55c058d7a0a505799e8aed7e307252f5d32d7ff1fc1e01bde5160956b93c4317"
     },
     "architecture.md": {
       "title": "Architecture",
@@ -109,6 +109,12 @@
       "status": null,
       "content_preview": "# Dashboard Maintainer Memo — Gonka v0.2.14\n\nNo existing query endpoint was removed or reshaped in this upgrade. If your dashboard reads values from the chain and displays them, it keeps working. There is one semantic change you need to understand (delegation), and three small notes.\n\n## 1. Delegation: weight vs reward\n\n**Before (v0.2.13):** when A delegated to B, the chain physically moved part of A's weight to B *before* storing weights. The `weight` you read from the chain already included delegation. Rewards followed that adjusted weight automatically.\n\n**Now (v0.2.14):** the chain stores everyone's *own* weight, untouched by delegation. Delegation is applied later, only inside reward settlement, on an internal copy of the weights that is never exposed as a chain field. (Refusal/no-par",
       "checksum": "ae480c195a8ed4f6cb9a2d30ec4bd84dc095a276020636204d9268fd4972f4a1"
+    },
+    "dashboard-maintainer-memo-v0.2.15.md": {
+      "title": "Dashboard Maintainer Memo — Gonka v0.2.15",
+      "status": null,
+      "content_preview": "# Dashboard Maintainer Memo — Gonka v0.2.15\n\nv0.2.15 changed the wire format of a few `/v1` query endpoints as a side effect of an internal API refactor. A follow-up patch will restore the previous shapes; once it ships, hosts upgrade independently: **for a transition period, the endpoints below can answer in either shape depending on which host you query.** Please accept both. This ambiguity is limited to the endpoints and fields listed here — no need to generalize it; everything else is unchanged and single-shape.\n\nBelow, \"v0.2.15 shape\" is what hosts return today; \"restored shape\" is the pre-0.2.15 format that patched hosts will return.\n\n## 1. `/v1/epochs/latest` — params nested and stringified\n\nAffected field: `epoch_params`.\n\n- restored shape: `epoch_params.epoch_length` = `40320` (nu",
+      "checksum": "705b5e3875d74b7b2937ba7757ace7459a4fd6014dc76813850a5d7ee9c11e52"
     },
     "developer/gateway-developer-quickstart.md": {
       "title": "Run your own gateway",
@@ -288,7 +294,7 @@
       "title": "Announcements",
       "status": null,
       "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## August 3, 2026\n\n**API Binary Update: `v0.2.15-post3`**\n\nA new API binary, `v0.2.15-post3`, is available.\n\nThis release improves PoC seed reliability and includes several API and deployment fixes.\n\n**What changed**\n\n- PoC Seed Stability. Recover missed se",
-      "checksum": "350fd744e9d5a9e455d17290c0de7467a64e9974c84984cd82f9d7fd1e9ec9d8"
+      "checksum": "f20c8a0ceb0e2bf0811cd184100fe9a639fa834c5e336e063c65097aa86f9ff7"
     },
     "participant/README.md": {
       "title": "Redirecting to Host Section",

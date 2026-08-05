@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260805191909_ab384ead",
+    "timestamp": "2026-08-05T19:19:09.968593+00:00",
+    "section": "gonka_docs",
+    "action": "new",
+    "item": {
+      "title": "Dashboard Maintainer Memo — Gonka v0.2.15",
+      "url": "/gonka/docs/dashboard-maintainer-memo-v0.2.15/",
+      "file": "dashboard-maintainer-memo-v0.2.15.md"
+    },
+    "details": {
+      "status": null,
+      "content": "# Dashboard Maintainer Memo — Gonka v0.2.15\n\nv0.2.15 changed the wire format of a few `/v1` query endpoints as a side effect of an internal API refactor. A follow-up patch will restore the previous shapes; once it ships, hosts upgrade independently: **for a transition period, the endpoints below can answer in either shape depending on which host you query.** Please accept both. This ambiguity is limited to the endpoints and fields listed here — no need to generalize it; everything else is unchanged and single-shape.\n\nBelow, \"v0.2.15 shape\" is what hosts return today; \"restored shape\" is the pre-0.2.15 format that patched hosts will return.\n\n## 1. `/v1/epochs/latest` — params nested and stringified\n\nAffected field: `epoch_params`.\n\n- restored shape: `epoch_params.epoch_length` = `40320` (nu"
+    },
+    "ai_description": "A new maintainer memo has been added to the Protocol Docs covering the Gonka v0.2.15 release. The update explains that a few `/v1` query endpoints temporarily changed their wire format during an internal refactor, so dashboard maintainers should now accept both the current v0.2.15 response shape and the pre-0.2.15 shape until hosts upgrade independently. The memo details exactly which fields are affected, starting with `/v1/epochs/latest`, to help teams avoid integration issues during the transition period."
+  },
+  {
     "id": "evt_20260805190125_9dc98dff",
     "timestamp": "2026-08-05T19:01:25.623392+00:00",
     "section": "issues",

@@ -2205,7 +2205,7 @@ Even when vLLM #33264 merges and the gateway adds a hash → `cache_salt` bridge
 
 ### When will image input be enabled for Kimi on the Gonka gateway?
 
-**Not available today.** ETA — release v0.2.14 or later (current is 0.2.13), no fixed date. Multimodal payloads (`messages[].content` with `type: "image_url"` or `"video_url"`) currently return **HTTP 400** on both public brokers.
+**Not available today.** ETA — release v0.2.14 or later (current is 0.2.15), no fixed date. Multimodal payloads (`messages[].content` with `type: "image_url"` or `"video_url"`) currently return **HTTP 400** on both public brokers.
 
 **Active work, the plan is written and broken into phases.** The planned document `multimodal-inference-plan.md` in `gonka-ai/gonka` (≈466 lines, 6 phases — ML Node, Host↔ML Node, Broker/DAPI, Devshard Protocol, etc.). Until it's published, it's easier to track via the issues / PRs below.
 
@@ -2453,6 +2453,53 @@ On the dapi public API, `/v1/chat/completions`, `/v1/completions`, and everythin
 
 ---
 
+## Dashboard Maintainer Memo — Gonka v0.2.15
+
+# Dashboard Maintainer Memo — Gonka v0.2.15
+
+v0.2.15 changed the wire format of a few `/v1` query endpoints as a side effect of an internal API refactor. A follow-up patch will restore the previous shapes; once it ships, hosts upgrade independently: **for a transition period, the endpoints below can answer in either shape depending on which host you query.** Please accept both. This ambiguity is limited to the endpoints and fields listed here — no need to generalize it; everything else is unchanged and single-shape.
+
+Below, "v0.2.15 shape" is what hosts return today; "restored shape" is the pre-0.2.15 format that patched hosts will return.
+
+## 1. `/v1/epochs/latest` — params nested and stringified
+
+Affected field: `epoch_params`.
+
+- restored shape: `epoch_params.epoch_length` = `40320` (number)
+- v0.2.15 shape: `epoch_params.epoch_params.epoch_length` = `"40320"` (string; whole object nested one level deeper, all int fields as strings)
+
+Robust read: if `epoch_params.epoch_params` exists, descend into it; parse numeric fields accepting both number and string.
+
+Also: `active_confirmation_poc_event` may be `null` or absent — treat both as "no event".
+
+## 2. `/v1/epochs/{epoch}/participants` — numbers as strings
+
+`{epoch}` is an epoch number or the literal `current`.
+
+Affected field: `active_participants`. In the v0.2.15 shape its numeric fields (`created_at_block_height`, `poc_start_block_height`, `effective_block_height`, `epoch_group_id`, `epoch_id`, and numeric fields inside `participants[]`) are strings. Restored shape: numbers. Accept both for this object only.
+
+## 3. `/v1/versions` — `mlnodes` may be missing
+
+The v0.2.15 shape returns only `timestamp` / `api_version` / `node_version`. The restored shape includes the `mlnodes` array (empty array if the host has none). A missing `mlnodes` key means "host not yet patched", not "no ML nodes".
+
+## 4. Small permanent changes (intentional, will not be reverted)
+
+- Optional empty values are omitted rather than emitted: `hugging_face_id` in `/v1/models` is absent when unset (was `""`); `active_confirmation_poc_event` is absent when inactive. Treat absent as empty.
+- `/v1/poc-batches/{epoch}` returns 404 when there are no batches (was 200 with an empty list).
+- Some `/v1` responses from the per-host API now carry a `Deprecation: true` header: read endpoints are gradually moving to the edge-api service (same paths, same shapes). Nothing to change today.
+- `/v1/bls/*` has the same string/enum-name flip in the v0.2.15 shape — only relevant if you read BLS data.
+
+## 5. Appendix: proof verification bundle — skip unless you verify proofs
+
+`/v1/epochs/{epoch}/participants`, fields `block`, `proof_ops`, `validators`:
+
+- v0.2.15 shape: `block` is an SDK-style block (string height, base64 hashes); `validators[].voting_power` is a string
+- restored shape: CometBFT block JSON (numeric `header.height`, hex-uppercase hashes); numeric `voting_power`
+
+If you only display participants and weights, this section does not apply to you.
+
+---
+
 ## Glossary
 
 # Glossary 
@@ -2605,6 +2652,56 @@ sudo rm -rf .dapi/cosmovisor/current && \
 sudo ln -sf upgrades/v0.2.15-post3 .dapi/cosmovisor/current && \
 docker start api
 ```
+## August 1, 2026
+
+**The `v0.2.15-devshard-v4.0.1` runtime upgrade proposal has entered governance**
+
+This is a non-critical, devshard-only upgrade that runs independently of full chain software upgrades. It replaces the existing devshard v4 runtime with v4.0.1.
+
+It's a performance and resource-management patch, nothing more. Protocol, inference, validation, and economic behavior stay untouched. The changes: epoch tracking moves from per-block chain queries to event-driven updates, and in-memory cleanup for host sessions and validation workers now lines up with epoch pruning.
+
+**Upgrade Plan**
+
+The devshard runtime is upgraded through an on-chain params proposal, not a full chain software upgrade. If approved, `versiond` automatically downloads and verifies the replacement binary. No mainnet restart or manual host action is required.
+
+**How to vote**
+
+If you do not have direct access to the key that holds voting power, or want another key to vote on your behalf, please refer to the guide on granting governance voting permission from a cold key to a warm key.
+
+Proposal details and voting are available via `inferenced`. Any active node can be used. Available nodes include:
+
+- http://node1.gonka.ai:8000
+- http://node2.gonka.ai:8000
+- https://node3.gonka.ai
+
+Cast your vote (`yes`, `no`, `abstain`, `no_with_veto`):
+
+```
+export NODE_URL=https://node3.gonka.ai/
+./inferenced tx gov vote 93 yes \
+--from  \
+--keyring-backend file \
+--unordered \
+--timeout-duration=60s --gas=2000000 --gas-adjustment=5.0 \
+--node $NODE_URL/chain-rpc/ \
+--chain-id gonka-mainnet \
+--yes
+```
+
+To check the voting status:
+
+```
+export NODE_URL=https://node3.gonka.ai/
+./inferenced query gov votes 93 -o json --node $NODE_URL/chain-rpc/
+```
+
+## July 30, 2026
+
+**UPGRADE EXECUTED: v0.2.15 is now live on mainnet**
+
+The on-chain governance vote for Upgrade Proposal v0.2.15 (proposal id 92) has concluded.
+
+The proposal was APPROVED, and the upgrade was successfully executed on the mainnet at block 5316315.
 
 ## July 29, 2026
 
