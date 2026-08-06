@@ -2,7 +2,7 @@
 title: "#1470 — Security: Residual SSRF on InferenceUrl — DNS/rebind + validator redirect (incomplete fix after #505/#534)"
 source: https://github.com/gonka-ai/gonka/issues/1470
 issue_number: 1470
-synced_at: 2026-08-06T07:07:08Z
+synced_at: 2026-08-06T10:03:12Z
 template: issues-main.html
 ---
 
