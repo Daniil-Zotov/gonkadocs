@@ -2,7 +2,7 @@
 title: "#1222 — [P1] Int overflow"
 source: https://github.com/gonka-ai/gonka/issues/1222
 issue_number: 1222
-synced_at: 2026-08-06T03:45:31Z
+synced_at: 2026-08-06T07:07:05Z
 template: issues-main.html
 ---
 
