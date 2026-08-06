@@ -1,5 +1,45 @@
 [
   {
+    "id": "evt_20260806122726_392a6f29",
+    "timestamp": "2026-08-06T12:27:26.854139+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "AMA с Давидом и Даниилом Либерманами — Award. libermans | AMA with David and Daniel Liberman — libermans",
+      "url": "https://us06web.zoom.us/j/87045531047",
+      "file": "359f3c4125351c5a2d09c1c531c74ae4731c2afc0c24ae98cea9f6da6c1e8fab"
+    },
+    "details": {
+      "status": null,
+      "content": "AMA-сессия с Дэвидом и Даниилом Либерманами посвящена состоянию рынка компьюта, итогам первого года протокола и дальнейшему развитию сети.\n\nПовестка:\n• Что происходит на рынке: становится ли компьют доступнее и как выход K3 повлиял на централизованных игроков\n• Год протоколу: что сделано и что ещё предстоит\n• Июль: каким он был для сети и как прошёл WebX Asia\n• Токен GNK: почему рост сети и спрос на неё важны для всех участников, от майнеров до разработчиков\n• Ожидания от будущего: следующий месяц и следующий год\n• Модели: какие появятся в сети и по какому принципу отбираются\n\n💻 Zoom: https://us06web.zoom.us/j/87045531047\n🗣️ Язык: русский\n🎙️ Гости: Дэвид и Даниил Либерманы\n🎤 Ведущий: @sultee\n\n---\n\nAMA session with David and Daniel Liberman dedicated to the state of the compute market, resu",
+      "date": "2026-08-07",
+      "time": "15:30 UTC",
+      "event_type": "ama",
+      "url": "https://us06web.zoom.us/j/87045531047"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260806122726_4eaf803a",
+    "timestamp": "2026-08-06T12:27:26.854174+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "AMA: Bitfury, HackerOne & Gonka — Bug Bounty Program Launch",
+      "url": "https://us06web.zoom.us/j/88254388622",
+      "file": "460d7b406a26039bca186ac074c0ac02e7130753a332dc8fe809420a0d5bbd6c"
+    },
+    "details": {
+      "status": null,
+      "content": "Second community AMA session with Vadim Krutov (COO of Bitfury) and David Liberman. The meeting focuses on breaking down the launch of the joint Bug Bounty program.\n\n👥 SPEAKERS\n🔥 NEW GUEST: Laurie Mercer, HackerOne Senior Director of Sales Engineering, joins the AMA session!\n• Vadim Krutov — COO of Bitfury\n• @libermans — David Liberman\n\n⚠️ IMPORTANT NOTE: THIS SESSION IS HELD ENTIRELY IN ENGLISH. ⚠️\n\n🎙️ SESSION TOPICS\n• Joint Bounty Program Launch: The vision behind the Gonka + Bitfury + HackerOne three-way partnership and strengthening network security.\n• Phased Rollout Plan: Shifting from private invites to an open form on gonka.ai, leading up to the final public launch on HackerOne.\n• Community Integration: How the report submission process works, gaining HackerOne access, and defining ",
+      "date": "2026-06-25",
+      "time": "15:00 UTC",
+      "event_type": "ama",
+      "url": "https://us06web.zoom.us/j/88254388622"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260806034805_19744559",
     "timestamp": "2026-08-06T03:48:05.756368+00:00",
     "section": "issues",

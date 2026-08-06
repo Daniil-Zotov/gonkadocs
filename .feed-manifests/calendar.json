@@ -1,6 +1,6 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-08-06T10:11:11.215125+00:00",
+  "snapshot_time": "2026-08-06T12:27:26.866939+00:00",
   "files": {
     "d20f0b7f63fffff2927833d9557050f626cd934d5ab3479488af3773000f3011": {
       "title": "▶️ Ancapex Live: Gonka Overview",
@@ -37,6 +37,24 @@
       "url": "https://docs.google.com/forms/d/e/1FAIpQLSfYCN7jbg9b5JOiLXjhhXCEY_n4BKAWyQdpYfcFz1UMrD7ARw/viewform",
       "content_preview": "⛏ Покупка собственного оборудования для майнинга.\n\nМы рассматриваем возможность приобретения собственных GPU-кластеров и ASIC-майнеров. Это следующий шаг для Ancapex — перейти от аренды мощностей к владению инфраструктурой.\n\nЕсли вы хотите стать одним из первых, кто владеет ASIC-оборудованием и получает с него прибыль, приходите на звонок. Обсудим, являются ли ASIC новой нефтью, как устроена бизнес-модель и как можно поучаствовать вместе с нами.\n\n🗓 Четверг, 14:00 МСК (11:00 UTC)\n📍 Zoom, ссылку вышлем на почту или в Telegram\n\nЧтобы получить ссылку, заполните форму: https://docs.google.com/forms/d/e/1FAIpQLSfYCN7jbg9b5JOiLXjhhXCEY_n4BKAWyQdpYfcFz1UMrD7ARw/viewform\n\n---\n\nPurchasing our own mining equipment.\n\nWe are considering acquiring our own GPU clusters and ASIC miners. This is the next s",
       "checksum": "d74ff876b36a58956c960b3c4fd5393ecd8f8246e4601acf0ff73dc3263c540b"
+    },
+    "359f3c4125351c5a2d09c1c531c74ae4731c2afc0c24ae98cea9f6da6c1e8fab": {
+      "title": "AMA с Давидом и Даниилом Либерманами — Award. libermans | AMA with David and Daniel Liberman — libermans",
+      "date": "2026-08-07",
+      "time": "15:30 UTC",
+      "event_type": "ama",
+      "url": "https://us06web.zoom.us/j/87045531047",
+      "content_preview": "AMA-сессия с Дэвидом и Даниилом Либерманами посвящена состоянию рынка компьюта, итогам первого года протокола и дальнейшему развитию сети.\n\nПовестка:\n• Что происходит на рынке: становится ли компьют доступнее и как выход K3 повлиял на централизованных игроков\n• Год протоколу: что сделано и что ещё предстоит\n• Июль: каким он был для сети и как прошёл WebX Asia\n• Токен GNK: почему рост сети и спрос на неё важны для всех участников, от майнеров до разработчиков\n• Ожидания от будущего: следующий месяц и следующий год\n• Модели: какие появятся в сети и по какому принципу отбираются\n\n💻 Zoom: https://us06web.zoom.us/j/87045531047\n🗣️ Язык: русский\n🎙️ Гости: Дэвид и Даниил Либерманы\n🎤 Ведущий: @sultee\n\n---\n\nAMA session with David and Daniel Liberman dedicated to the state of the compute market, resu",
+      "checksum": "eea0b7759f8397f4c2df640927b5e69c579ed9e99cf391072ba437959b4d8c7e"
+    },
+    "460d7b406a26039bca186ac074c0ac02e7130753a332dc8fe809420a0d5bbd6c": {
+      "title": "AMA: Bitfury, HackerOne & Gonka — Bug Bounty Program Launch",
+      "date": "2026-06-25",
+      "time": "15:00 UTC",
+      "event_type": "ama",
+      "url": "https://us06web.zoom.us/j/88254388622",
+      "content_preview": "Second community AMA session with Vadim Krutov (COO of Bitfury) and David Liberman. The meeting focuses on breaking down the launch of the joint Bug Bounty program.\n\n👥 SPEAKERS\n🔥 NEW GUEST: Laurie Mercer, HackerOne Senior Director of Sales Engineering, joins the AMA session!\n• Vadim Krutov — COO of Bitfury\n• @libermans — David Liberman\n\n⚠️ IMPORTANT NOTE: THIS SESSION IS HELD ENTIRELY IN ENGLISH. ⚠️\n\n🎙️ SESSION TOPICS\n• Joint Bounty Program Launch: The vision behind the Gonka + Bitfury + HackerOne three-way partnership and strengthening network security.\n• Phased Rollout Plan: Shifting from private invites to an open form on gonka.ai, leading up to the final public launch on HackerOne.\n• Community Integration: How the report submission process works, gaining HackerOne access, and defining ",
+      "checksum": "36c72df90dc98ef3052563ab6bd9dad40563d3fb5538f4672a7dc6f6bd09acd7"
     },
     "9a26c0c43e769fe2005297e04e91abc3aae9653775fcedba3963b730de2120a2": {
       "title": "INPUT Global — Weekly Call (#77)",
