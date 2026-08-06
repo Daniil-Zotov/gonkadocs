@@ -178,12 +178,22 @@
 
     var today = getToday();
 
+    function timeKey(e) {
+      var m = (e.time || '').match(/^(\d{1,2}):(\d{2})/);
+      if (!m) return 1440;
+      return parseInt(m[1], 10) * 60 + parseInt(m[2], 10);
+    }
+    function sortByTime(list) {
+      return list.slice().sort(function(a, b) { return timeKey(a) - timeKey(b); });
+    }
+
     var eventsByDate = {};
     events.forEach(function(e) {
       if (!active[e.category]) return;
       if (!eventsByDate[e.date]) eventsByDate[e.date] = [];
       eventsByDate[e.date].push(e);
     });
+    Object.keys(eventsByDate).forEach(function(d) { eventsByDate[d] = sortByTime(eventsByDate[d]); });
 
     // Always show today regardless of events or filters
     if (!eventsByDate[today.iso]) {
