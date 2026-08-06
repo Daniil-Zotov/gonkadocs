@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260806034805_19744559",
+    "timestamp": "2026-08-06T03:48:05.756368+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1080 — Bridge: Stale epoch keys can authorize withdrawals up to 365 epochs after rotation",
+      "url": "/community/issues/01080-bridge-stale-epoch-keys-can-authorize-withdrawals-up-to-365-/",
+      "file": "01080-bridge-stale-epoch-keys-can-authorize-withdrawals-up-to-365-.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Bridge: Stale epoch keys can authorize withdrawals up to 365 epochs after rotation\n    <span class=\"issues-number\">#1080</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Doog-bot534\">@Doog-bot534</a> opened 2026-04-16 03:24 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"mar",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Bridge: Stale epoch keys can authorize withdrawals up to 365 epochs after rotation\n    <span class=\"issues-number\">#1080</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Doog-bot534\">@Doog-bot534</a> opened 2026-04-16 03:24 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"mar"
+    },
+    "ai_description": "Issue #1080 has received a new comment, bringing the discussion to 3 total. The issue highlights a security concern where rotated epoch keys retain withdrawal authorization for up to 365 epochs, and the added activity signals ongoing community attention toward tightening bridge security policies."
+  },
+  {
     "id": "evt_20260806014831_1458cc68",
     "timestamp": "2026-08-06T01:48:31.285939+00:00",
     "section": "calendar",

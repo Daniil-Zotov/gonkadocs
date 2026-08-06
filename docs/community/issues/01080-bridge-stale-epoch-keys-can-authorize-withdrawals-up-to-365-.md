@@ -2,7 +2,7 @@
 title: "#1080 — Bridge: Stale epoch keys can authorize withdrawals up to 365 epochs after rotation"
 source: https://github.com/gonka-ai/gonka/issues/1080
 issue_number: 1080
-synced_at: 2026-08-06T00:13:40Z
+synced_at: 2026-08-06T03:45:22Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/Doog-bot534">@Doog-bot534</a> opened 2026-04-16 03:24 UTC</span>
-    <span class="issues-meta-item">2 comments</span>
-    <span class="issues-meta-item">Updated 2026-07-10 05:34 UTC</span>
+    <span class="issues-meta-item">3 comments</span>
+    <span class="issues-meta-item">Updated 2026-08-06 02:12 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -80,7 +80,7 @@ Payout address: `gonka10zaal553duxp05nvfpqtsqrm2g0j6j34r8nan7`
 
 ---
 
-## 💬 Comments (2)
+## 💬 Comments (3)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -98,6 +98,19 @@ Payout address: `gonka10zaal553duxp05nvfpqtsqrm2g0j6j34r8nan7`
   </div>
   <div class="issues-comment-body issues-content">
     <p>Hey @Ryanchen911, let's wait for triage from @GLiberman first please </p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/Ryanchen911">@Ryanchen911</a></span>
+    <span class="issues-meta-item">commented 2026-08-06 02:10 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Will fix the three issues identified:
+1. (High) Add epoch staleness check in <code>withdraw</code> and <code>mintWithSignature</code>
+2. (Medium) Replace per-epoch <code>processedRequests</code> mapping with global dedup key
+3. (Medium) Add modulus bounds check in <code>_negateG1</code></p>
+<p>PR incoming.</p>
   </div>
 </div>
 
