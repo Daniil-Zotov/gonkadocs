@@ -3,7 +3,7 @@ title: "#906 — Gonka Tools: Web Interface for Validators and Mining Operations
 source: https://github.com/gonka-ai/gonka/discussions/906
 discussion_number: 906
 category: show-and-tell
-synced_at: 2026-08-05T23:13:19Z
+synced_at: 2026-08-06T03:29:48Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #906](https://github.com/gonka-ai/gonka/discussions/906) every hour. 
