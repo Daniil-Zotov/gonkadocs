@@ -268,7 +268,7 @@ def main():
     parts.append("## GitHub Discussions (auto-synced)")
     parts.append("")
     parts.append("- [All Discussions](/community/discussion/): Index of all discussions from gonka-ai/gonka")
-    parts.append("- [Proposals](/community/discussion/proposals/): Technical and funding proposals")
+    parts.append("- [Protocol Improvements](/community/discussion/protocol-improvements/): Technical and funding proposals")
     parts.append("- [Show and Tell](/community/discussion/show-and-tell/): Community projects")
     parts.append("- [Q&A](/community/discussion/q-a/): Best practices, technical questions")
     parts.append("- [General](/community/discussion/general/): Network reliability, governance")

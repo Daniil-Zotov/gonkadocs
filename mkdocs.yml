@@ -49,9 +49,11 @@ nav:
       - Overview: community/discussion/index.md
       - Announcements: community/discussion/announcements/index.md
       - General: community/discussion/general/index.md
-      - Proposals: community/discussion/proposals/index.md
+      - Ecosystem: community/discussion/ecosystem/index.md
+      - "Protocol Improvements": community/discussion/protocol-improvements/index.md
+      - "Governance Proposal Reports": community/discussion/governance-proposal-reports/index.md
       - Q&A: community/discussion/q-a/index.md
-      - Show and Tell: community/discussion/show-and-tell/index.md
+      - "Show and Tell": community/discussion/show-and-tell/index.md
     - Issues:
       - Overview: community/issues/index.md
     - Activity Feed: community/activity/index.md

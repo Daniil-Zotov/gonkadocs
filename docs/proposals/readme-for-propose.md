@@ -1,8 +1,8 @@
 В экосистеме Gonka существует **три вида пропозалов**, и важно понимать разницу между ними и роль каждого в жизненном цикле идеи — от обсуждения до исполнения:
 
-### 1. Off-chain пропозал — GitHub Discussions ([`/community/discussion/proposals/`](/community/discussion/proposals/))
+### 1. Off-chain пропозал — GitHub Discussions ([`/community/discussion/protocol-improvements/`](/community/discussion/protocol-improvements/))
 
-Пропозал публикуется как [обсуждение в репозитории gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions) в категории **Proposals** — это самый ранний этап оформления идеи. Здесь выкладываются:
+Пропозал публикуется как [обсуждение в репозитории gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions) в категории **Protocol Improvements** — это самый ранний этап оформления идеи. Здесь выкладываются:
 
 - технические и архитектурные предложения по развитию сети;
 - предложения по управлению и governance-процедурам;
@@ -12,7 +12,7 @@
 Это неформальная площадка: пропозал не голосуется и не исполняется, но является источником идей и первых отзывов от комьюнити.
 
 <details class="prop-contracts" markdown="1">
-<summary markdown="1"><strong>📝 Инструкция: как написать off-chain пропозал</strong> — по мотивам [Welcome to Proposals](/community/discussion/proposals/0795-welcome-to-proposals/)</summary>
+<summary markdown="1"><strong>📝 Инструкция: как написать off-chain пропозал</strong> — по мотивам [Welcome to Proposals](/community/discussion/protocol-improvements/0795-welcome-to-proposals/)</summary>
 
 This is the space for discussing proposals for protocol improvements and the broader Gonka ecosystem development. If you have an idea that could make Gonka better, this is the place to share it.
 
