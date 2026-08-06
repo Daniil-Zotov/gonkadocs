@@ -2,7 +2,7 @@
 title: "#823 — Bridge: Weak Dealer Approval Enables Threshold Signing DoS"
 source: https://github.com/gonka-ai/gonka/issues/823
 issue_number: 823
-synced_at: 2026-08-06T12:23:58Z
+synced_at: 2026-08-06T14:42:09Z
 template: issues-main.html
 ---
 
