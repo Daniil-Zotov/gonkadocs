@@ -1,5 +1,29 @@
 [
   {
+    "id": "evt_20260806014831_1458cc68",
+    "timestamp": "2026-08-06T01:48:31.285939+00:00",
+    "section": "calendar",
+    "action": "daily_reminder",
+    "item": {
+      "title": "Today: 1 events — ⛏ Покупка собственного оборудования для майнинга — Ancapex.ai | Purchasing our own mining equipment — Ancapex.ai",
+      "url": "/community/calendar/",
+      "file": null
+    },
+    "details": {
+      "today": [
+        {
+          "title": "⛏ Покупка собственного оборудования для майнинга — Ancapex.ai | Purchasing our own mining equipment — Ancapex.ai",
+          "date": "2026-08-06",
+          "time": "11:00 UTC",
+          "event_type": "community",
+          "url": "https://docs.google.com/forms/d/e/1FAIpQLSfYCN7jbg9b5JOiLXjhhXCEY_n4BKAWyQdpYfcFz1UMrD7ARw/viewform"
+        }
+      ],
+      "count": 1
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260805231325_85d6cbb5",
     "timestamp": "2026-08-05T23:13:25.473290+00:00",
     "section": "discussions",
