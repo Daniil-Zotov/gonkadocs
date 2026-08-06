@@ -1,6 +1,6 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-08-06T12:27:26.866939+00:00",
+  "snapshot_time": "2026-08-06T14:57:18.858494+00:00",
   "files": {
     "d20f0b7f63fffff2927833d9557050f626cd934d5ab3479488af3773000f3011": {
       "title": "▶️ Ancapex Live: Gonka Overview",
@@ -56,14 +56,95 @@
       "content_preview": "Second community AMA session with Vadim Krutov (COO of Bitfury) and David Liberman. The meeting focuses on breaking down the launch of the joint Bug Bounty program.\n\n👥 SPEAKERS\n🔥 NEW GUEST: Laurie Mercer, HackerOne Senior Director of Sales Engineering, joins the AMA session!\n• Vadim Krutov — COO of Bitfury\n• @libermans — David Liberman\n\n⚠️ IMPORTANT NOTE: THIS SESSION IS HELD ENTIRELY IN ENGLISH. ⚠️\n\n🎙️ SESSION TOPICS\n• Joint Bounty Program Launch: The vision behind the Gonka + Bitfury + HackerOne three-way partnership and strengthening network security.\n• Phased Rollout Plan: Shifting from private invites to an open form on gonka.ai, leading up to the final public launch on HackerOne.\n• Community Integration: How the report submission process works, gaining HackerOne access, and defining ",
       "checksum": "36c72df90dc98ef3052563ab6bd9dad40563d3fb5538f4672a7dc6f6bd09acd7"
     },
+    "78c038e78bd45597990360a0f2a711cf5de31847a18f06b1d3747a76522a97ed": {
+      "title": "TheSoul — Weekly Report Call (#60–#65)",
+      "date": "2026-08-05",
+      "time": "15:00 UTC",
+      "event_type": "committee_call",
+      "url": "/proposals/proposals/2026-q2/60/",
+      "content_preview": "Weekly report by the TheSoul team under approved proposals #60–#65. Video call: https://meet.google.com/rbb-dmju-top · Public Telegram group: https://t.me/+csDGX6-05LMyOTM0",
+      "checksum": "d89c6dd735df81e8dcf3c81367cd990776afbb9691197f1bc2030aaa2df00f1e"
+    },
+    "4256281657bd391f1530c64fe1063e1ffe965918a8618b92e25a560a3fe13768": {
+      "title": "TheSoul — Weekly Report Call (#60–#65)",
+      "date": "2026-08-12",
+      "time": "15:00 UTC",
+      "event_type": "committee_call",
+      "url": "/proposals/proposals/2026-q2/60/",
+      "content_preview": "Weekly report by the TheSoul team under approved proposals #60–#65. Video call: https://meet.google.com/rbb-dmju-top · Public Telegram group: https://t.me/+csDGX6-05LMyOTM0",
+      "checksum": "83a164747275dcb5c51080f51a9f02245856f7bddfb217f6accc5e3d2758060e"
+    },
+    "71af8ad7e4c18371eac95532a6426993cea6feefe4649299518c218e44cdec18": {
+      "title": "TheSoul — Weekly Report Call (#60–#65)",
+      "date": "2026-08-19",
+      "time": "15:00 UTC",
+      "event_type": "committee_call",
+      "url": "/proposals/proposals/2026-q2/60/",
+      "content_preview": "Weekly report by the TheSoul team under approved proposals #60–#65. Video call: https://meet.google.com/rbb-dmju-top · Public Telegram group: https://t.me/+csDGX6-05LMyOTM0",
+      "checksum": "8a28b5cbd1857ef27555b5575859e3a8739ee75b5c1b197d5ef993ae04e1a4b2"
+    },
+    "b6d5b73cddbb22648ef6125d6b994a1b5213f6e2c8a859eaa35a67c59a5f3d00": {
+      "title": "TheSoul — Weekly Report Call (#60–#65)",
+      "date": "2026-08-26",
+      "time": "15:00 UTC",
+      "event_type": "committee_call",
+      "url": "/proposals/proposals/2026-q2/60/",
+      "content_preview": "Weekly report by the TheSoul team under approved proposals #60–#65. Video call: https://meet.google.com/rbb-dmju-top · Public Telegram group: https://t.me/+csDGX6-05LMyOTM0",
+      "checksum": "b99547a9ed3e301188d8ae11490c7a408d51ef193ca7570d5bd22035fe35e895"
+    },
+    "81aa4a86f36baefd53fe1997957a03d227f747c45927801da45b51960403caa7": {
+      "title": "TheSoul — Weekly Report Call (#60–#65)",
+      "date": "2026-09-02",
+      "time": "15:00 UTC",
+      "event_type": "committee_call",
+      "url": "/proposals/proposals/2026-q2/60/",
+      "content_preview": "Weekly report by the TheSoul team under approved proposals #60–#65. Video call: https://meet.google.com/rbb-dmju-top · Public Telegram group: https://t.me/+csDGX6-05LMyOTM0",
+      "checksum": "1d5ccef41b6020162923868ca2ad56caa997dc61288952b833590a6f3d902955"
+    },
+    "9470a505afa2717326d1bf3f16a9c9d0cd46f435de212573a070d9bf98474ae9": {
+      "title": "TheSoul — Weekly Report Call (#60–#65)",
+      "date": "2026-09-09",
+      "time": "15:00 UTC",
+      "event_type": "committee_call",
+      "url": "/proposals/proposals/2026-q2/60/",
+      "content_preview": "Weekly report by the TheSoul team under approved proposals #60–#65. Video call: https://meet.google.com/rbb-dmju-top · Public Telegram group: https://t.me/+csDGX6-05LMyOTM0",
+      "checksum": "cf05e070b4bdfac9ff6c53ec5f6f8e0c007b70f1477f5a20ca803c6ae2d77341"
+    },
+    "6ae84b97c596b48d0a0a971d6b6414b1f67720debd3b6a4b7a4b2ae27242ac0b": {
+      "title": "TheSoul — Weekly Report Call (#60–#65)",
+      "date": "2026-09-16",
+      "time": "15:00 UTC",
+      "event_type": "committee_call",
+      "url": "/proposals/proposals/2026-q2/60/",
+      "content_preview": "Weekly report by the TheSoul team under approved proposals #60–#65. Video call: https://meet.google.com/rbb-dmju-top · Public Telegram group: https://t.me/+csDGX6-05LMyOTM0",
+      "checksum": "5d2b02bfcab125fdb7b98c6ae07fe1a3e677731f7612b7f41d3a7f4776be76dd"
+    },
+    "ca59a379646fa053d8252291f18f32aadc0c5dcd7fdcca20dc8cb933d8ded4a7": {
+      "title": "TheSoul — Weekly Report Call (#60–#65)",
+      "date": "2026-09-23",
+      "time": "15:00 UTC",
+      "event_type": "committee_call",
+      "url": "/proposals/proposals/2026-q2/60/",
+      "content_preview": "Weekly report by the TheSoul team under approved proposals #60–#65. Video call: https://meet.google.com/rbb-dmju-top · Public Telegram group: https://t.me/+csDGX6-05LMyOTM0",
+      "checksum": "1d68ee9e18c4fd145c35542ce8d59497aff2b819a10f15358c94e16962085caf"
+    },
+    "27db26e4e2e7135fb2f9d95b8919a186e4f10d36bc12babf63db4bb515f6bf3d": {
+      "title": "TheSoul — Weekly Report Call (#60–#65)",
+      "date": "2026-09-30",
+      "time": "15:00 UTC",
+      "event_type": "committee_call",
+      "url": "/proposals/proposals/2026-q2/60/",
+      "content_preview": "Weekly report by the TheSoul team under approved proposals #60–#65. Video call: https://meet.google.com/rbb-dmju-top · Public Telegram group: https://t.me/+csDGX6-05LMyOTM0",
+      "checksum": "abe7d7a15a23f85d2f99609810f24bab71b851215de153106bb677d8b79c6e80"
+    },
     "9a26c0c43e769fe2005297e04e91abc3aae9653775fcedba3963b730de2120a2": {
       "title": "INPUT Global — Weekly Call (#77)",
       "date": "2026-07-29",
       "time": "13:00 UTC",
       "event_type": "committee_call",
       "url": "/proposals/proposals/2026-q2/77/",
-      "content_preview": "Weekly report by the INPUT Global team under the approved proposal #77 — Gonka PR Proposal for US/Global Regions. Video call: https://meet.google.com/hsc-oesy-jbw",
-      "checksum": "0b996f85bd4294fba478b08578aed129c17568a9c1f6224c5389b31f99108286"
+      "content_preview": "Weekly report by the INPUT Global team under the approved proposal #77 — Gonka PR Proposal for US/Global Regions. Video call: https://meet.google.com/hsc-oesy-jbw · Public Telegram group: https://t.me/+48vHIYIqbNpmNGE0",
+      "checksum": "2aaa4b2a5a22a3a1394cf7f6fddde25a395b646149da15e442c0f4057f56ec53"
     },
     "0a6e63192513fe0b6420e663334ccf68492e64012c5ec6eb5ccadda600414356": {
       "title": "INPUT Global — Weekly Call (#77)",
@@ -71,8 +152,8 @@
       "time": "13:00 UTC",
       "event_type": "committee_call",
       "url": "/proposals/proposals/2026-q2/77/",
-      "content_preview": "Weekly report by the INPUT Global team under the approved proposal #77 — Gonka PR Proposal for US/Global Regions. Video call: https://meet.google.com/hsc-oesy-jbw",
-      "checksum": "0820d037567bec7be70cb34dcd709a120f5e253a933975d8c8b26fb1a6a228fe"
+      "content_preview": "Weekly report by the INPUT Global team under the approved proposal #77 — Gonka PR Proposal for US/Global Regions. Video call: https://meet.google.com/hsc-oesy-jbw · Public Telegram group: https://t.me/+48vHIYIqbNpmNGE0",
+      "checksum": "887217bfd40592d94908c24d3d33f437c3b342ea6a06589f11afbea29b958dd5"
     },
     "59feb3a4a03efcb0f890295621908e3d5eaebd21c8913825fe0137fc222189ae": {
       "title": "INPUT Global — Weekly Call (#77)",
@@ -80,8 +161,8 @@
       "time": "13:00 UTC",
       "event_type": "committee_call",
       "url": "/proposals/proposals/2026-q2/77/",
-      "content_preview": "Weekly report by the INPUT Global team under the approved proposal #77 — Gonka PR Proposal for US/Global Regions. Video call: https://meet.google.com/hsc-oesy-jbw",
-      "checksum": "e118355bfec2a39f8b2d6c54a455fccf5327d38a07d10df37f68941536d923ab"
+      "content_preview": "Weekly report by the INPUT Global team under the approved proposal #77 — Gonka PR Proposal for US/Global Regions. Video call: https://meet.google.com/hsc-oesy-jbw · Public Telegram group: https://t.me/+48vHIYIqbNpmNGE0",
+      "checksum": "ebca3105a83c2e482f5fc7b5e3c9e0f80d46e660e4c570e3c1e29cd108ded610"
     },
     "4d6ec30549527d3cf04ef402372d4518f99fc9d7d8566915fc3bf78d33ae6545": {
       "title": "INPUT Global — Weekly Call (#77)",
@@ -89,8 +170,8 @@
       "time": "13:00 UTC",
       "event_type": "committee_call",
       "url": "/proposals/proposals/2026-q2/77/",
-      "content_preview": "Weekly report by the INPUT Global team under the approved proposal #77 — Gonka PR Proposal for US/Global Regions. Video call: https://meet.google.com/hsc-oesy-jbw",
-      "checksum": "e1015348667740dbe095708cece7f06cf190656d29eeb1410736b122e69ed5aa"
+      "content_preview": "Weekly report by the INPUT Global team under the approved proposal #77 — Gonka PR Proposal for US/Global Regions. Video call: https://meet.google.com/hsc-oesy-jbw · Public Telegram group: https://t.me/+48vHIYIqbNpmNGE0",
+      "checksum": "8c3898ce13988763e4c1a13559b0ccf494e3fe198861ec8c13fc6329eb86d0b4"
     },
     "217c741cc6121363274d224db6e772ddfbc0be15ef7b9c729066b679c854770d": {
       "title": "INPUT Global — Weekly Call (#77)",
@@ -98,8 +179,8 @@
       "time": "13:00 UTC",
       "event_type": "committee_call",
       "url": "/proposals/proposals/2026-q2/77/",
-      "content_preview": "Weekly report by the INPUT Global team under the approved proposal #77 — Gonka PR Proposal for US/Global Regions. Video call: https://meet.google.com/hsc-oesy-jbw",
-      "checksum": "50e493b62aac1486bf33bac048452aa7225dfec630f81a3bd1aa212f3d858981"
+      "content_preview": "Weekly report by the INPUT Global team under the approved proposal #77 — Gonka PR Proposal for US/Global Regions. Video call: https://meet.google.com/hsc-oesy-jbw · Public Telegram group: https://t.me/+48vHIYIqbNpmNGE0",
+      "checksum": "65cfc2a623d813cef723e188a14292eaf00c8a5b1c103a5b56e3e22fc1718c0c"
     },
     "8262dda2ab60fcbea427f2af45e9b186f229fc1aa228f519a08a64ed13d274b9": {
       "title": "INPUT Global — Weekly Call (#77)",
@@ -107,8 +188,8 @@
       "time": "13:00 UTC",
       "event_type": "committee_call",
       "url": "/proposals/proposals/2026-q2/77/",
-      "content_preview": "Weekly report by the INPUT Global team under the approved proposal #77 — Gonka PR Proposal for US/Global Regions. Video call: https://meet.google.com/hsc-oesy-jbw",
-      "checksum": "a95ebb199249e532fe8b9683232ee52610d3b788fd09c8bd119761701a25ac04"
+      "content_preview": "Weekly report by the INPUT Global team under the approved proposal #77 — Gonka PR Proposal for US/Global Regions. Video call: https://meet.google.com/hsc-oesy-jbw · Public Telegram group: https://t.me/+48vHIYIqbNpmNGE0",
+      "checksum": "3b4f16c20c9acb260c615654a4118b7c618e243b7f9b064bb7bd572776cbc873"
     },
     "f2d4ea717f34e9a709fccead2cbe64926aaeb7d055e9b487c9a3b53761829851": {
       "title": "INPUT Global — Weekly Call (#77)",
@@ -116,8 +197,8 @@
       "time": "13:00 UTC",
       "event_type": "committee_call",
       "url": "/proposals/proposals/2026-q2/77/",
-      "content_preview": "Weekly report by the INPUT Global team under the approved proposal #77 — Gonka PR Proposal for US/Global Regions. Video call: https://meet.google.com/hsc-oesy-jbw",
-      "checksum": "46de0cdcb7fee8c6b91b7545db57c9f5bb65d6e9f82fefb7217a9bc6111a5eff"
+      "content_preview": "Weekly report by the INPUT Global team under the approved proposal #77 — Gonka PR Proposal for US/Global Regions. Video call: https://meet.google.com/hsc-oesy-jbw · Public Telegram group: https://t.me/+48vHIYIqbNpmNGE0",
+      "checksum": "bfdb9ba13f83cf922ba10773c15d76718028d6e50b58794ecb8aea00836158c9"
     },
     "960139156a16c51bddce28fd38107477ecf9210c7a33138e0567efa336baf880": {
       "title": "INPUT Global — Weekly Call (#77)",
@@ -125,8 +206,8 @@
       "time": "13:00 UTC",
       "event_type": "committee_call",
       "url": "/proposals/proposals/2026-q2/77/",
-      "content_preview": "Weekly report by the INPUT Global team under the approved proposal #77 — Gonka PR Proposal for US/Global Regions. Video call: https://meet.google.com/hsc-oesy-jbw",
-      "checksum": "3d1c47f2ab3d10b6cbb7f26b32452f78adf3772ca6cf9ca66ae10b99e9b9130b"
+      "content_preview": "Weekly report by the INPUT Global team under the approved proposal #77 — Gonka PR Proposal for US/Global Regions. Video call: https://meet.google.com/hsc-oesy-jbw · Public Telegram group: https://t.me/+48vHIYIqbNpmNGE0",
+      "checksum": "f08ef8cd554114f23895ec63a4abc802d4a3476313d049473755ffbd8c61af69"
     },
     "80c565f3c8d9968190f0a02ce82492933b68a0e476af5a0d5a3f1d9081f97951": {
       "title": "INPUT Global — Weekly Call (#77)",
@@ -134,8 +215,8 @@
       "time": "13:00 UTC",
       "event_type": "committee_call",
       "url": "/proposals/proposals/2026-q2/77/",
-      "content_preview": "Weekly report by the INPUT Global team under the approved proposal #77 — Gonka PR Proposal for US/Global Regions. Video call: https://meet.google.com/hsc-oesy-jbw",
-      "checksum": "69ec4c1abd427c1a67fff3a4899f9bae3c1c1a1ed990101475e707a1c66f55dd"
+      "content_preview": "Weekly report by the INPUT Global team under the approved proposal #77 — Gonka PR Proposal for US/Global Regions. Video call: https://meet.google.com/hsc-oesy-jbw · Public Telegram group: https://t.me/+48vHIYIqbNpmNGE0",
+      "checksum": "cf0e16e826b6c1cf71dada2b58e7db2ea25ffef76a6a8efbce0f13eb937eeba1"
     },
     "431c050c866ac4543ed771bc8327dfa7ff079f682d87211ac8056759da91da2f": {
       "title": "Passed: #1 – Correct Epoch Length",

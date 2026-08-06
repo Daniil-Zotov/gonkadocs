@@ -1,5 +1,185 @@
 [
   {
+    "id": "evt_20260806145718_95c77e60",
+    "timestamp": "2026-08-06T14:57:18.845777+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "TheSoul — Weekly Report Call (#60–#65)",
+      "url": "/proposals/proposals/2026-q2/60/",
+      "file": "27db26e4e2e7135fb2f9d95b8919a186e4f10d36bc12babf63db4bb515f6bf3d"
+    },
+    "details": {
+      "status": null,
+      "content": "Weekly report by the TheSoul team under approved proposals #60–#65. Video call: https://meet.google.com/rbb-dmju-top · Public Telegram group: https://t.me/+csDGX6-05LMyOTM0",
+      "date": "2026-09-30",
+      "time": "15:00 UTC",
+      "event_type": "committee_call",
+      "url": "/proposals/proposals/2026-q2/60/"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260806145718_fd2673ff",
+    "timestamp": "2026-08-06T14:57:18.845817+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "TheSoul — Weekly Report Call (#60–#65)",
+      "url": "/proposals/proposals/2026-q2/60/",
+      "file": "4256281657bd391f1530c64fe1063e1ffe965918a8618b92e25a560a3fe13768"
+    },
+    "details": {
+      "status": null,
+      "content": "Weekly report by the TheSoul team under approved proposals #60–#65. Video call: https://meet.google.com/rbb-dmju-top · Public Telegram group: https://t.me/+csDGX6-05LMyOTM0",
+      "date": "2026-08-12",
+      "time": "15:00 UTC",
+      "event_type": "committee_call",
+      "url": "/proposals/proposals/2026-q2/60/"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260806145718_17beed9d",
+    "timestamp": "2026-08-06T14:57:18.845839+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "TheSoul — Weekly Report Call (#60–#65)",
+      "url": "/proposals/proposals/2026-q2/60/",
+      "file": "6ae84b97c596b48d0a0a971d6b6414b1f67720debd3b6a4b7a4b2ae27242ac0b"
+    },
+    "details": {
+      "status": null,
+      "content": "Weekly report by the TheSoul team under approved proposals #60–#65. Video call: https://meet.google.com/rbb-dmju-top · Public Telegram group: https://t.me/+csDGX6-05LMyOTM0",
+      "date": "2026-09-16",
+      "time": "15:00 UTC",
+      "event_type": "committee_call",
+      "url": "/proposals/proposals/2026-q2/60/"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260806145718_46afe1f8",
+    "timestamp": "2026-08-06T14:57:18.845857+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "TheSoul — Weekly Report Call (#60–#65)",
+      "url": "/proposals/proposals/2026-q2/60/",
+      "file": "71af8ad7e4c18371eac95532a6426993cea6feefe4649299518c218e44cdec18"
+    },
+    "details": {
+      "status": null,
+      "content": "Weekly report by the TheSoul team under approved proposals #60–#65. Video call: https://meet.google.com/rbb-dmju-top · Public Telegram group: https://t.me/+csDGX6-05LMyOTM0",
+      "date": "2026-08-19",
+      "time": "15:00 UTC",
+      "event_type": "committee_call",
+      "url": "/proposals/proposals/2026-q2/60/"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260806145718_3c0cbd2e",
+    "timestamp": "2026-08-06T14:57:18.845874+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "TheSoul — Weekly Report Call (#60–#65)",
+      "url": "/proposals/proposals/2026-q2/60/",
+      "file": "78c038e78bd45597990360a0f2a711cf5de31847a18f06b1d3747a76522a97ed"
+    },
+    "details": {
+      "status": null,
+      "content": "Weekly report by the TheSoul team under approved proposals #60–#65. Video call: https://meet.google.com/rbb-dmju-top · Public Telegram group: https://t.me/+csDGX6-05LMyOTM0",
+      "date": "2026-08-05",
+      "time": "15:00 UTC",
+      "event_type": "committee_call",
+      "url": "/proposals/proposals/2026-q2/60/"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260806145718_f7086ae3",
+    "timestamp": "2026-08-06T14:57:18.845889+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "TheSoul — Weekly Report Call (#60–#65)",
+      "url": "/proposals/proposals/2026-q2/60/",
+      "file": "81aa4a86f36baefd53fe1997957a03d227f747c45927801da45b51960403caa7"
+    },
+    "details": {
+      "status": null,
+      "content": "Weekly report by the TheSoul team under approved proposals #60–#65. Video call: https://meet.google.com/rbb-dmju-top · Public Telegram group: https://t.me/+csDGX6-05LMyOTM0",
+      "date": "2026-09-02",
+      "time": "15:00 UTC",
+      "event_type": "committee_call",
+      "url": "/proposals/proposals/2026-q2/60/"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260806145718_03d62849",
+    "timestamp": "2026-08-06T14:57:18.845904+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "TheSoul — Weekly Report Call (#60–#65)",
+      "url": "/proposals/proposals/2026-q2/60/",
+      "file": "9470a505afa2717326d1bf3f16a9c9d0cd46f435de212573a070d9bf98474ae9"
+    },
+    "details": {
+      "status": null,
+      "content": "Weekly report by the TheSoul team under approved proposals #60–#65. Video call: https://meet.google.com/rbb-dmju-top · Public Telegram group: https://t.me/+csDGX6-05LMyOTM0",
+      "date": "2026-09-09",
+      "time": "15:00 UTC",
+      "event_type": "committee_call",
+      "url": "/proposals/proposals/2026-q2/60/"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260806145718_cdd90b5e",
+    "timestamp": "2026-08-06T14:57:18.845918+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "TheSoul — Weekly Report Call (#60–#65)",
+      "url": "/proposals/proposals/2026-q2/60/",
+      "file": "b6d5b73cddbb22648ef6125d6b994a1b5213f6e2c8a859eaa35a67c59a5f3d00"
+    },
+    "details": {
+      "status": null,
+      "content": "Weekly report by the TheSoul team under approved proposals #60–#65. Video call: https://meet.google.com/rbb-dmju-top · Public Telegram group: https://t.me/+csDGX6-05LMyOTM0",
+      "date": "2026-08-26",
+      "time": "15:00 UTC",
+      "event_type": "committee_call",
+      "url": "/proposals/proposals/2026-q2/60/"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260806145718_cfaa102b",
+    "timestamp": "2026-08-06T14:57:18.845932+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "TheSoul — Weekly Report Call (#60–#65)",
+      "url": "/proposals/proposals/2026-q2/60/",
+      "file": "ca59a379646fa053d8252291f18f32aadc0c5dcd7fdcca20dc8cb933d8ded4a7"
+    },
+    "details": {
+      "status": null,
+      "content": "Weekly report by the TheSoul team under approved proposals #60–#65. Video call: https://meet.google.com/rbb-dmju-top · Public Telegram group: https://t.me/+csDGX6-05LMyOTM0",
+      "date": "2026-09-23",
+      "time": "15:00 UTC",
+      "event_type": "committee_call",
+      "url": "/proposals/proposals/2026-q2/60/"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260806122726_392a6f29",
     "timestamp": "2026-08-06T12:27:26.854139+00:00",
     "section": "calendar",
