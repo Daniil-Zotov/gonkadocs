@@ -58,5 +58,15 @@
     "time": "15:00 UTC",
     "description": "Second community AMA session with Vadim Krutov (COO of Bitfury) and David Liberman. The meeting focuses on breaking down the launch of the joint Bug Bounty program.\n\n👥 SPEAKERS\n🔥 NEW GUEST: Laurie Mercer, HackerOne Senior Director of Sales Engineering, joins the AMA session!\n• Vadim Krutov — COO of Bitfury\n• @libermans — David Liberman\n\n⚠️ IMPORTANT NOTE: THIS SESSION IS HELD ENTIRELY IN ENGLISH. ⚠️\n\n🎙️ SESSION TOPICS\n• Joint Bounty Program Launch: The vision behind the Gonka + Bitfury + HackerOne three-way partnership and strengthening network security.\n• Phased Rollout Plan: Shifting from private invites to an open form on gonka.ai, leading up to the final public launch on HackerOne.\n• Community Integration: How the report submission process works, gaining HackerOne access, and defining scope and reward tiers.\n• Transparency & Reporting: How the team plans to track and publish payout reports, considering that H1 bounties are processed off-chain.\n\n⏰ EVENT DETAILS\n📅 Date: Thursday, June 25, 2026\n🕣 Time: 08:00 AM PT / 15:00 UTC / 18:00 MSK\n🔗 Join via Zoom: https://us06web.zoom.us/j/88254388622",
     "tags": ["ama", "bug-bounty", "bitfury", "hackerone", "libermans"]
+  },
+  {
+    "date": "2026-08-10",
+    "category": "community",
+    "type": "community_call",
+    "title": "External Test Lab & Community DevNet — первый ежемесячный статус-колл | First Monthly Status Call",
+    "url": "https://meet.google.com/zqp-shgw-wtj",
+    "time": "15:30 UTC",
+    "description": "**First monthly status call** of the External Test Lab & Community DevNet under the approved **proposal #82** (https://gonkadocs.com/proposals/proposals/2026-q3/82/).\n\nПриглашаем на первый ежемесячный статус-колл External Test Lab & Community DevNet в рамках принятого пропозала #82 (https://gonkadocs.com/proposals/proposals/2026-q3/82/).\n\nПодведём итоги первого месяца работы:\n\n• будущая тест-стратегия лаборатории\n• первая версия DevNet\n• текущий статус инфраструктуры\n• планы и задачи на следующий месяц\n\nТакже познакомим сообщество с первым QA-инженером, который присоединился к лаборатории, и расскажем, как подключить своё оборудование к DevNet.\n\n📅 Понедельник, 10 августа\n🕒 08:30 LA · 15:30 UTC · 18:30 UTC+3\n🔗 https://meet.google.com/zqp-shgw-wtj\n\n---\n\n**First monthly status call** of the External Test Lab & Community DevNet under the approved **proposal #82** (https://gonkadocs.com/proposals/proposals/2026-q3/82/).\n\nWe will review the results of the first month:\n\n• the future test strategy of the lab\n• the first version of DevNet\n• the current status of the infrastructure\n• plans and tasks for the next month\n\nWe will also introduce the community to the first QA engineer who joined the lab, and explain how to connect your own equipment to DevNet.\n\n📅 Monday, August 10\n🕒 08:30 LA · 15:30 UTC · 18:30 UTC+3\n🔗 https://meet.google.com/zqp-shgw-wtj",
+    "tags": ["test-lab", "devnet", "status-call", "community"]
   }
 ]
