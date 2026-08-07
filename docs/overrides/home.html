@@ -460,21 +460,21 @@
               <div class="home-cal-day">{{ e._when }}</div>
           {% endif %}
           {% set ttype = cal_types.get(e.type, e.type|replace('_', ' ')|title) %}
-          {% set ccat = cal_cats.get(e.category, '#24292f') %}
-          <div class="home-cal-event">
-            <div class="home-cal-event-header">
-              <span class="home-cal-event-type" style="color:{{ ccat }}">{{ ttype }}</span>
-              <span class="home-cal-event-cat">{{ e.category }}</span>
-              {% if e.time %}<span class="home-cal-event-time">{{ e.time }}</span>{% endif %}
+            {% set ccat = cal_cats.get(e.category, '#24292f') %}
+            <div class="home-cal-event">
+              <div class="home-cal-event-header">
+                <span class="home-cal-event-type" style="color:{{ ccat }}">{{ ttype }}</span>
+                <span class="home-cal-event-cat">{{ e.category }}</span>
+                {% if e.time %}<span class="home-cal-event-time">{{ e.time }}</span>{% endif %}
+              </div>
+              {% if e.url %}
+              <a class="home-cal-event-title" href="{{ e.url }}" {% if e.url.startswith('http') %}target="_blank" rel="noopener"{% endif %}>{{ e.title }}</a>
+              {% else %}
+              <span class="home-cal-event-title">{{ e.title }}</span>
+              {% endif %}
+              {% if e.description %}<div class="home-cal-event-desc">{{ home_linkify(e.description) }}</div>{% endif %}
+              {% if e.tags %}<div class="home-cal-event-tags">{% for t in e.tags %}<span class="home-cal-event-tag">{{ t }}</span>{% endfor %}</div>{% endif %}
             </div>
-            {% if e.url %}
-            <a class="home-cal-event-title" href="{{ e.url }}" {% if e.url.startswith('http') %}target="_blank" rel="noopener"{% endif %}>{{ e.title }}</a>
-            {% else %}
-            <span class="home-cal-event-title">{{ e.title }}</span>
-            {% endif %}
-            {% if e.description %}<div class="home-cal-event-desc">{{ e.description }}</div>{% endif %}
-            {% if e.tags %}<div class="home-cal-event-tags">{% for t in e.tags %}<span class="home-cal-event-tag">{{ t }}</span>{% endfor %}</div>{% endif %}
-          </div>
         {% endfor %}
         {% if ns.group is not none %}</div>{% endif %}
       {% else %}

@@ -81,6 +81,26 @@ def _ago(ts_str, now):
         return ts_str
 
 
+def _linkify(text):
+    """Mirror calendar.html `linkify()`: escape, auto-link URLs, mini-markdown."""
+    if not text:
+        return ""
+    escaped = str(text).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace('"', "&quot;")
+
+    def _wrap(m):
+        url = m.group(0)
+        clean = re.sub(r"[.,);:]+$", "", url)
+        suffix = url[len(clean):]
+        return f'<a href="{clean}" target="_blank" rel="noopener">{clean}</a>{suffix}'
+
+    escaped = re.sub(r"(https?://[^\s<]+)", _wrap, escaped)
+    escaped = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", escaped)
+    escaped = re.sub(r"\n-{3,}\n", '<hr class="cal-event-hr">', escaped)
+    escaped = re.sub(r"\n{2,}", "<br><br>", escaped)
+    escaped = escaped.replace("\n", "<br>")
+    return escaped
+
+
 def _block(md, start, end):
     m = re.search(re.escape(start) + r"(.*?)" + re.escape(end), md, re.S)
     return m.group(1) if m else ""
@@ -160,5 +180,7 @@ def on_env(env, config, **kwargs):
     # Community pool balances (3 addresses)
     pool_md = os.path.join(docs_dir, "proposals", "community pool.md")
     env.globals["home_pool"] = _parse_pool(pool_md)
+
+    env.globals["home_linkify"] = _linkify
 
     return env
