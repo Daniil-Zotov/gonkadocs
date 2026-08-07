@@ -2,7 +2,7 @@
 title: "#447 — Node Registration Does Not Update After Migration (API stuck using old on-chain config)"
 source: https://github.com/gonka-ai/gonka/issues/447
 issue_number: 447
-synced_at: 2026-08-07T10:15:33Z
+synced_at: 2026-08-07T11:12:14Z
 template: issues-main.html
 ---
 
