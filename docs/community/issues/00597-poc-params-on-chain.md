@@ -2,7 +2,7 @@
 title: "#597 — PoC params on-chain"
 source: https://github.com/gonka-ai/gonka/issues/597
 issue_number: 597
-synced_at: 2026-08-07T23:00:18Z
+synced_at: 2026-08-07T23:54:03Z
 template: issues-main.html
 ---
 

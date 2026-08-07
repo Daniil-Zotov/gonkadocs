@@ -2,7 +2,7 @@
 title: "#360 — [P0]: AI Developer onboarding: T-link integration"
 source: https://github.com/gonka-ai/gonka/issues/360
 issue_number: 360
-synced_at: 2026-08-07T23:00:45Z
+synced_at: 2026-08-07T23:54:37Z
 template: issues-main.html
 ---
 
