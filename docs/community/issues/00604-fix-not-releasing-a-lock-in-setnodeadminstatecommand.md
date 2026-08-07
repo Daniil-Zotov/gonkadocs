@@ -2,7 +2,7 @@
 title: "#604 — Fix not releasing a lock in SetNodeAdminStateCommand"
 source: https://github.com/gonka-ai/gonka/issues/604
 issue_number: 604
-synced_at: 2026-08-07T09:21:25Z
+synced_at: 2026-08-07T10:17:19Z
 template: issues-main.html
 ---
 
