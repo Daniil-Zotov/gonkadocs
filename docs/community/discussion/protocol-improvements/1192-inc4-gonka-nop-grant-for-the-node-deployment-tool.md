@@ -3,7 +3,7 @@ title: "#1192 — INC4 | Gonka NOP - grant for the node deployment tool"
 source: https://github.com/gonka-ai/gonka/discussions/1192
 discussion_number: 1192
 category: protocol-improvements
-synced_at: 2026-08-07T09:11:44Z
+synced_at: 2026-08-07T11:02:41Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1192](https://github.com/gonka-ai/gonka/discussions/1192) every hour. 
