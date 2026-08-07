@@ -59,6 +59,21 @@
 {% block tabs %}
 {{ super() }}
 
+{% set cal_types = {
+  'proposal_vote_end': 'Vote',
+  'proposal_report':  'Report',
+  'ama':              'AMA',
+  'committee_call':   'Call',
+  'network_upgrade':  'Upgrade',
+  'network_event':    'Event'
+} %}
+{% set cal_cats = {
+  'governance': '#0969da',
+  'community':  '#1a7f37',
+  'committee':  '#8250df',
+  'network':    '#9a6700'
+} %}
+
 <style>
   .hero {
     display: flex;
@@ -101,7 +116,7 @@
   }
 
   .home-section {
-    margin-top: 48px;
+    margin-top: 40px;
   }
 
   .home-section-head {
@@ -109,20 +124,20 @@
     align-items: baseline;
     justify-content: space-between;
     gap: 16px;
-    margin-bottom: 20px;
+    margin-bottom: 14px;
     border-bottom: 1px solid var(--md-default-fg-color--lightest);
-    padding-bottom: 10px;
+    padding-bottom: 8px;
   }
 
   .home-section-head h2 {
     margin: 0;
-    font-size: 1.35rem;
+    font-size: 1.2rem;
     font-weight: 600;
     color: var(--md-default-fg-color);
   }
 
   .home-section-link {
-    font-size: 0.9rem;
+    font-size: 0.82rem;
     font-weight: 500;
     text-decoration: none;
     white-space: nowrap;
@@ -134,24 +149,133 @@
 
   .home-section-desc {
     color: var(--md-default-fg-color--light);
-    font-size: 0.95rem;
-    margin: -8px 0 20px;
-    line-height: 1.55;
+    font-size: 0.82rem;
+    margin: -6px 0 14px;
+    line-height: 1.5;
   }
+
+  /* ── upcoming events (calendar style) ───────────────── */
+
+  .home-cal {
+    border: 1px solid var(--md-default-fg-color--lightest);
+    border-radius: 8px;
+    background: var(--md-code-bg-color);
+    overflow: hidden;
+  }
+
+  .home-cal-group {
+    padding: 0.5rem 0.9rem;
+  }
+
+  .home-cal-group + .home-cal-group {
+    border-top: 1px solid var(--md-default-fg-color--lightest);
+  }
+
+  .home-cal-day {
+    font-size: 0.62rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--md-default-fg-color--light);
+    margin-bottom: 0.3rem;
+  }
+
+  .home-cal-event {
+    font-size: 0.6rem;
+    line-height: 1.4;
+    color: var(--md-default-fg-color);
+    padding: 0.35rem 0;
+    border-top: 1px dashed var(--md-default-fg-color--lightest);
+  }
+
+  .home-cal-event:first-child {
+    border-top: none;
+  }
+
+  .home-cal-event-header {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    flex-wrap: wrap;
+  }
+
+  .home-cal-event-type {
+    font-size: 0.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  .home-cal-event-cat {
+    font-size: 0.48rem;
+    color: var(--md-default-fg-color--lighter);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+
+  .home-cal-event-time {
+    font-size: 0.48rem;
+    color: var(--md-default-fg-color--lighter);
+    margin-left: auto;
+    white-space: nowrap;
+  }
+
+  .home-cal-event-title {
+    display: block;
+    font-size: 0.62rem;
+    font-weight: 600;
+    color: var(--md-default-fg-color);
+    text-decoration: none;
+    line-height: 1.4;
+    margin-top: 0.1rem;
+  }
+
+  a.home-cal-event-title:hover {
+    text-decoration: underline;
+    color: var(--md-accent-fg-color);
+  }
+
+  .home-cal-event-desc {
+    margin-top: 0.15rem;
+    font-size: 0.58rem;
+    color: var(--md-default-fg-color--light);
+    line-height: 1.4;
+  }
+
+  .home-cal-event-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    margin-top: 0.2rem;
+  }
+
+  .home-cal-event-tag {
+    display: inline-block;
+    padding: 0.05em 0.35em;
+    border: 1px solid var(--md-default-fg-color--lightest);
+    border-radius: 3px;
+    font-size: 0.48rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    color: var(--md-default-fg-color--light);
+  }
+
+  /* ── activity feed (compact) ────────────────────────── */
 
   .home-list {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 6px;
   }
 
   .home-card {
     display: flex;
     flex-direction: column;
-    gap: 6px;
-    padding: 14px 18px;
+    gap: 4px;
+    padding: 8px 14px;
     border: 1px solid var(--md-default-fg-color--lightest);
-    border-radius: 10px;
+    border-radius: 8px;
     background: var(--md-code-bg-color);
     text-decoration: none;
     transition: border-color 0.15s;
@@ -162,7 +286,7 @@
   }
 
   .home-card-title {
-    font-size: 0.98rem;
+    font-size: 0.82rem;
     font-weight: 500;
     color: var(--md-default-fg-color);
     line-height: 1.4;
@@ -171,13 +295,13 @@
   .home-card-meta {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px 16px;
-    font-size: 0.82rem;
+    gap: 6px 14px;
+    font-size: 0.7rem;
     color: var(--md-default-fg-color--light);
   }
 
   .home-card-desc {
-    font-size: 0.9rem;
+    font-size: 0.78rem;
     color: var(--md-default-fg-color--light);
     line-height: 1.5;
   }
@@ -195,82 +319,93 @@
     display: inline-block;
   }
 
-  .home-pool-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 16px;
-  }
+  /* ── community pool (compact list) ──────────────────── */
 
-  .home-pool-card {
-    padding: 18px 20px;
+  .home-pool-list {
     border: 1px solid var(--md-default-fg-color--lightest);
-    border-radius: 10px;
+    border-radius: 8px;
     background: var(--md-code-bg-color);
+    overflow: hidden;
   }
 
-  .home-pool-card h3 {
-    margin: 0 0 6px;
-    font-size: 1rem;
+  .home-pool-row {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 8px 14px;
+    font-size: 0.78rem;
+  }
+
+  .home-pool-row + .home-pool-row {
+    border-top: 1px solid var(--md-default-fg-color--lightest);
+  }
+
+  .home-pool-name {
     font-weight: 600;
     color: var(--md-default-fg-color);
+    white-space: nowrap;
   }
 
   .home-pool-addr {
     font-family: var(--md-code-font-family);
-    font-size: 0.72rem;
+    font-size: 0.66rem;
     color: var(--md-default-fg-color--light);
     word-break: break-all;
-    margin-bottom: 10px;
+    margin-top: 2px;
   }
 
   .home-pool-bal {
-    font-size: 1.02rem;
+    font-size: 0.82rem;
     font-weight: 600;
     color: var(--md-accent-fg-color, #5468ff);
-    line-height: 1.5;
+    white-space: nowrap;
+    text-align: right;
   }
+
+  /* ── about (compact, from README) ───────────────────── */
 
   .home-about p {
     color: var(--md-default-fg-color--light);
-    font-size: 0.98rem;
-    line-height: 1.65;
-    margin: 0 0 16px;
+    font-size: 0.84rem;
+    line-height: 1.6;
+    margin: 0 0 12px;
   }
 
   .home-features {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 16px;
+    gap: 12px;
     margin-top: 8px;
   }
 
   .home-feature {
-    padding: 20px;
+    padding: 14px 16px;
     border: 1px solid var(--md-default-fg-color--lightest);
-    border-radius: 10px;
+    border-radius: 8px;
     background: var(--md-code-bg-color);
   }
 
   .home-feature h3 {
-    margin: 0 0 8px;
-    font-size: 1rem;
+    margin: 0 0 6px;
+    font-size: 0.9rem;
     font-weight: 600;
     color: var(--md-default-fg-color);
   }
 
   .home-feature p {
     margin: 0;
-    font-size: 0.9rem;
+    font-size: 0.78rem;
     color: var(--md-default-fg-color--light);
     line-height: 1.55;
   }
 
   .home-feature ul {
-    margin: 8px 0 0;
+    margin: 6px 0 0;
     padding-left: 1.1rem;
-    font-size: 0.9rem;
+    font-size: 0.78rem;
     color: var(--md-default-fg-color--light);
-    line-height: 1.6;
+    line-height: 1.55;
   }
 
   .home-feature li {
@@ -290,7 +425,7 @@
 
   .home-empty {
     color: var(--md-default-fg-color--light);
-    font-size: 0.9rem;
+    font-size: 0.82rem;
     font-style: italic;
   }
 
@@ -314,27 +449,34 @@
       <a class="home-section-link" href="{{ config.site_url }}community/calendar/">Full calendar →</a>
     </div>
     <p class="home-section-desc">Next 3 days of community events: proposal milestones, committee calls, AMAs, network updates.</p>
-    <div class="home-list">
+    <div class="home-cal">
+      {% set ns = namespace(group=None) %}
       {% if home_calendar %}
         {% for e in home_calendar %}
-          {% if e.url %}
-          <a class="home-card" href="{{ e.url }}" {% if e.url.startswith('http') %}target="_blank" rel="noopener"{% endif %}>
-          {% else %}
-          <div class="home-card">
+          {% if ns.group != e.date %}
+            {% if ns.group is not none %}</div>{% endif %}
+            {% set ns.group = e.date %}
+            <div class="home-cal-group">
+              <div class="home-cal-day">{{ e._when }}</div>
           {% endif %}
-            <div class="home-card-title">{{ e.title }}</div>
-            <div class="home-card-meta">
-              <span>{{ e._when }}</span>
-              {% if e.time %}<span>{{ e.time }}</span>{% endif %}
-              {% if e.type %}<span>{{ e.type|replace('_', ' ')|title }}</span>{% endif %}
+          {% set ttype = cal_types.get(e.type, e.type|replace('_', ' ')|title) %}
+          {% set ccat = cal_cats.get(e.category, '#24292f') %}
+          <div class="home-cal-event">
+            <div class="home-cal-event-header">
+              <span class="home-cal-event-type" style="color:{{ ccat }}">{{ ttype }}</span>
+              <span class="home-cal-event-cat">{{ e.category }}</span>
+              {% if e.time %}<span class="home-cal-event-time">{{ e.time }}</span>{% endif %}
             </div>
-            {% if e.description %}<div class="home-card-desc">{{ e.description }}</div>{% endif %}
-          {% if e.url %}
-          </a>
-          {% else %}
+            {% if e.url %}
+            <a class="home-cal-event-title" href="{{ e.url }}" {% if e.url.startswith('http') %}target="_blank" rel="noopener"{% endif %}>{{ e.title }}</a>
+            {% else %}
+            <span class="home-cal-event-title">{{ e.title }}</span>
+            {% endif %}
+            {% if e.description %}<div class="home-cal-event-desc">{{ e.description }}</div>{% endif %}
+            {% if e.tags %}<div class="home-cal-event-tags">{% for t in e.tags %}<span class="home-cal-event-tag">{{ t }}</span>{% endfor %}</div>{% endif %}
           </div>
-          {% endif %}
         {% endfor %}
+        {% if ns.group is not none %}</div>{% endif %}
       {% else %}
         <div class="home-empty">No events in the next 3 days.</div>
       {% endif %}
@@ -381,12 +523,14 @@
     </div>
     <p class="home-section-desc">Current on-chain balances of the three addresses that manage community funds.</p>
     {% if home_pool %}
-    <div class="home-pool-grid">
+    <div class="home-pool-list">
       {% for key in ['community', 'sale', 'gov'] %}
         {% if home_pool[key] %}
-        <div class="home-pool-card">
-          <h3>{{ home_pool[key].name }}</h3>
-          <div class="home-pool-addr">{{ home_pool[key].address }}</div>
+        <div class="home-pool-row">
+          <div>
+            <div class="home-pool-name">{{ home_pool[key].name }}</div>
+            <div class="home-pool-addr">{{ home_pool[key].address }}</div>
+          </div>
           <div class="home-pool-bal">{{ home_pool[key].balances|join(' · ') }}</div>
         </div>
         {% endif %}
@@ -403,19 +547,20 @@
     </div>
     <div class="home-about">
       <p>
-        <strong>Gonka Docs</strong> is a meta-repository that aggregates everything about the
-        <a href="https://gonka.ai" target="_blank" rel="noopener">Gonka</a> decentralized AI
-        inference network in one place: the official protocol documentation, a mirror of the
-        source code, community discussions and issues, governance proposals, and the development
-        roadmap — all continuously synced from their sources.
+        <strong>Gonka Docs</strong> is a meta-repository for the
+        <a href="https://gonka.ai" target="_blank" rel="noopener">Gonka</a> decentralized
+        AI inference network (Proof of Compute consensus). It aggregates everything about
+        the project in one place: auto-synced protocol documentation, a full source code
+        mirror, community discussions and issues, governance proposals with funding
+        tracking, and live community funds — continuously synced from their sources and
+        designed <strong>agent-first</strong> for AI assistants.
       </p>
     </div>
     <div class="home-features">
       <div class="home-feature">
         <h3>Documentation &amp; code</h3>
         <ul>
-          <li><a href="{{ config.site_url }}gonka/docs/">Protocol documentation</a> — architecture, quickstarts, wallet, governance</li>
-          <li><a href="{{ config.site_url }}gonka/docs/zh/">中文 documentation</a> — Chinese translations</li>
+          <li><a href="{{ config.site_url }}gonka/docs/">Protocol documentation</a> — architecture, quickstarts, wallet, governance (EN / 中文)</li>
           <li><a href="{{ config.site_url }}gonka-code/">Source code mirror</a> of gonka-ai/gonka, indexed by <a href="{{ config.site_url }}gonka-code-map.txt">gonka-code-map.txt</a></li>
         </ul>
       </div>
@@ -424,27 +569,26 @@
         <ul>
           <li><a href="{{ config.site_url }}community/discussion/">GitHub Discussions</a> — proposals, Q&amp;A, show-and-tell</li>
           <li><a href="{{ config.site_url }}community/issues/">GitHub Issues</a> — bugs, features, enhancements</li>
-          <li><a href="{{ config.site_url }}community/roadmap/">Roadmap</a> — three-horizon strategy</li>
-          <li><a href="{{ config.site_url }}community/calendar/">Calendar</a> and <a href="{{ config.site_url }}community/activity/">activity feed</a></li>
+          <li><a href="{{ config.site_url }}community/roadmap/">Roadmap</a>, <a href="{{ config.site_url }}community/calendar/">calendar</a>, <a href="{{ config.site_url }}community/activity/">activity feed</a> and committees (GRC / GSC / GPC / GTM)</li>
         </ul>
       </div>
       <div class="home-feature">
         <h3>Governance</h3>
         <ul>
-          <li><a href="{{ config.site_url }}proposals/proposals/">On-chain proposals</a> — quarterly overviews with funding, reports, tally results</li>
-          <li><a href="{{ config.site_url }}proposals/preproposals/">Pre-proposals</a> — off-chain community polls</li>
-          <li><a href="{{ config.site_url }}proposals/community%20pool/">Community Pool</a> — balances and funding history</li>
-          <li><a href="{{ config.site_url }}proposals/readme-for-propose/">How to Propose</a> — three ways to submit a proposal</li>
+          <li><a href="{{ config.site_url }}proposals/proposals/">On-chain proposals</a> — quarterly overviews, funding sources, reports, tally results</li>
+          <li><a href="{{ config.site_url }}proposals/preproposals/">Pre-proposals</a> — off-chain community polls from gonka.vote</li>
+          <li><a href="{{ config.site_url }}proposals/community%20pool/">Community funds</a> — balances and spend history</li>
         </ul>
       </div>
       <div class="home-feature">
         <h3>For AI agents</h3>
         <p>
-          Designed as a single source of truth for AI agents: machine-readable
-          <a href="{{ config.site_url }}llms.txt">llms.txt</a>,
-          <a href="{{ config.site_url }}llms-full.txt">llms-full.txt</a>, an
-          <a href="{{ config.site_url }}openapi.yaml">OpenAPI spec</a>, and a
-          <a href="{{ config.site_url }}agents/">setup guide</a> covering agent rules and an MCP server.
+          Single source of truth for AI assistants: machine-readable
+          <a href="{{ config.site_url }}llms.txt">llms.txt</a> and
+          <a href="{{ config.site_url }}llms-full.txt">llms-full.txt</a>,
+          <a href="{{ config.site_url }}.html.md">.html.md page copies</a>, an
+          <a href="{{ config.site_url }}openapi.yaml">OpenAPI spec</a>, sitemaps, RSS,
+          and an <a href="{{ config.site_url }}agents/">MCP server</a>.
         </p>
       </div>
     </div>
