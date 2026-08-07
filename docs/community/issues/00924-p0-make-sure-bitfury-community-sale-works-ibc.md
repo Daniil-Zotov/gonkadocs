@@ -2,7 +2,7 @@
 title: "#924 — [P0] Make sure Bitfury community sale works: IBC"
 source: https://github.com/gonka-ai/gonka/issues/924
 issue_number: 924
-synced_at: 2026-08-07T20:04:16Z
+synced_at: 2026-08-07T21:04:47Z
 template: issues-main.html
 ---
 
