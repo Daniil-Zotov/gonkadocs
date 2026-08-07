@@ -214,6 +214,13 @@
   display: inline-block;
   text-decoration: none;
   line-height: 1.35;
+  border: 1px solid #2f8f44;
+  border-radius: 3px;
+  padding: 1px 7px;
+}
+
+[data-md-color-scheme="slate"] .prop-report-link {
+  border-color: #5fd173;
 }
 
 .prop-report-name {
@@ -233,9 +240,6 @@
   font-weight: 400;
   color: #2f8f44;
   margin-left: 8px;
-  border: 1px solid currentColor;
-  border-radius: 2px;
-  padding: 0 5px;
   line-height: 1.4;
 }
 
