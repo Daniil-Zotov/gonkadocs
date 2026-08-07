@@ -2,7 +2,7 @@
 title: "#419 — New Issue → Request Access to Inference Image"
 source: https://github.com/gonka-ai/gonka/issues/419
 issue_number: 419
-synced_at: 2026-08-06T14:44:07Z
+synced_at: 2026-08-07T00:48:35Z
 template: issues-main.html
 ---
 

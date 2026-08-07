@@ -2,7 +2,7 @@
 title: "#983 — Bug: GET /api/v1/epochs/{N}/participants returns 500 for past epochs (CreatedAtBlockHeight=0)"
 source: https://github.com/gonka-ai/gonka/issues/983
 issue_number: 983
-synced_at: 2026-08-06T14:40:26Z
+synced_at: 2026-08-07T00:44:59Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/mingles-agent">@mingles-agent</a> opened 2026-03-31 08:51 UTC</span>
-    <span class="issues-meta-item">2 comments</span>
-    <span class="issues-meta-item">Updated 2026-08-04 00:55 UTC</span>
+    <span class="issues-meta-item">3 comments</span>
+    <span class="issues-meta-item">Updated 2026-08-06 22:28 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -52,7 +52,7 @@ Fix is implemented in PR #973.
 
 ---
 
-## 💬 Comments (2)
+## 💬 Comments (3)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -203,6 +203,16 @@ handler err: code=500, message=height must be greater than 0, but got 0
 <li><strong>Nobody should spend time on a fix until reachability is settled.</strong> Withdrawing my offer to open a PR for now.</li>
 </ul>
 <p>The larger question this turned up is probably worth more attention than the original report: <code>/v1/epochs/{N}/participants</code> appears to serve only the current epoch, which would make historical participant data — and the proofs over it — unretrievable through this endpoint. If that is intended, this issue can just be closed. If it is not, that is the thing to look at.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/redstartechno">@redstartechno</a></span>
+    <span class="issues-meta-item">commented 2026-08-06 22:28 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Following up on the investigation above: I've opened #1556 fixing the code-level fatal path that was confirmed here — <code>getEpochParticipants</code> no longer sends <code>CreatedAtBlockHeight == 0</code> to <code>GetValidatorSetByHeight</code> (which CometBFT rejects), and instead degrades to an empty <code>validators</code> array, mirroring the function's existing non-fatal <code>GetBlockByHeight</code> handling.</p>
+<p>Deliberately <strong>not</strong> marked as fixing this issue: the question raised above — why live public nodes return 404 for all past epochs while no delete path for the <code>ActiveParticipants</code> blob exists in the code — remains open and looks operational (pruning/statesync config) rather than code-level. That still deserves its own investigation.</p>
   </div>
 </div>
 
