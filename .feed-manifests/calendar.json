@@ -1,6 +1,6 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-08-07T17:26:52.619394+00:00",
+  "snapshot_time": "2026-08-07T19:31:59.172497+00:00",
   "files": {
     "d20f0b7f63fffff2927833d9557050f626cd934d5ab3479488af3773000f3011": {
       "title": "▶️ Ancapex Live: Gonka Overview",
@@ -1108,6 +1108,15 @@
       "url": "/proposals/proposals/2026-q3/93/",
       "content_preview": "Replace the existing devshard v4 runtime with v4.0.1. This performance and resource-management patch does not change protocol, inference, validation, or economic behavior. It removes per-block chain q…",
       "checksum": "e3658e6436a0f3d449527e82a2ae7438e30b5d513e5b469a78b25d78afde1707"
+    },
+    "83c2be1c77928eae6870cc330364d75c3807a3d24d3c44c7c043fb445fa19045": {
+      "title": "Report for proposal #77 — Gonka PR Proposal for US/Global Regions",
+      "date": "2026-08-07",
+      "time": "",
+      "event_type": "proposal_report_upload",
+      "url": "/proposals/proposals/2026-q2/77/",
+      "content_preview": "Report reports5 for proposal #77 has been uploaded. Read it: https://gonkadocs.com/proposals/proposals/2026-q2/77/reports5/",
+      "checksum": "d499bf5797732029ade47e75b81af7785843eb929c2efe50024fddb201176540"
     }
   }
 }
