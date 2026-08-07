@@ -2,7 +2,7 @@
 title: "#467 — Unit tests for making sure node version is always a part of endpoint and it's updated when version changes on chain"
 source: https://github.com/gonka-ai/gonka/issues/467
 issue_number: 467
-synced_at: 2026-08-07T04:06:22Z
+synced_at: 2026-08-07T05:56:05Z
 template: issues-main.html
 ---
 
