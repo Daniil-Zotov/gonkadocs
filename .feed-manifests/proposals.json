@@ -1,6 +1,6 @@
 {
   "section": "proposals",
-  "snapshot_time": "2026-08-07T18:40:28.690755+00:00",
+  "snapshot_time": "2026-08-07T19:00:50.945804+00:00",
   "files": {
     "2025-q3/1/full-proposal.md": {
       "title": "Adjust Params According to real block length",
@@ -451,6 +451,16 @@
       "voting_end": "",
       "description": "",
       "checksum": "6ddf033f540a25b4a24ad9943fc1fbea972237a9a63d632c35d21fe5d6b56d81"
+    },
+    "2026-q2/77/reports5.md": {
+      "title": "reports5",
+      "status": null,
+      "content_preview": "### July 2026 Monthly Report\n\nHi Team, happy to share our July 2026 Monthly Report for Gonka! You can find a detailed breakdown of our results in the report here: [https://www.figma.com/deck/F1ReIM6Ag6MB6WcbnEc2QY](https://www.figma.com/deck/F1ReIM6Ag6MB6WcbnEc2QY)\n\n**Secured this month:**\n\n• Two interviews during WebX - one with **MPost** and one with **Blockchain Reporter**, both built around Gonka's decentralised compute story rather than founder background alone.\n• The Blockchain Reporter interview was syndicated on the **Binance blog** and **CoinStats**. The MPost interview was additionally republished in Chinese, extending reach into APAC.\n\n**Process and materials:**\n\n• We set up a dedicated working channel with representatives from the committees, giving all teams one place to share",
+      "funding": "",
+      "quorum_met": null,
+      "voting_end": "",
+      "description": "",
+      "checksum": "be90a9caa5a7e03c4729ba610cdfa927e700ceb2dfd737276d60007e1a2c8fa3"
     },
     "2026-q3/80/full-proposal.md": {
       "title": "GRC Proposal #3 - Restitution",
