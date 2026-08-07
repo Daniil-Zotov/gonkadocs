@@ -1,5 +1,25 @@
 [
   {
+    "id": "evt_20260807112351_7db68784",
+    "timestamp": "2026-08-07T11:23:51.047910+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "External Test Lab & Community DevNet — первый ежемесячный статус-колл | First Monthly Status Call",
+      "url": "https://meet.google.com/zqp-shgw-wtj",
+      "file": "d4dadbed828e0869071f1c3d4c9c42406325360ab9cd6a88320ba0a7be79e4f1"
+    },
+    "details": {
+      "status": null,
+      "content": "**First monthly status call** of the External Test Lab & Community DevNet under the approved **proposal #82** (https://gonkadocs.com/proposals/proposals/2026-q3/82/).\n\nПриглашаем на первый ежемесячный статус-колл External Test Lab & Community DevNet в рамках принятого пропозала #82 (https://gonkadocs.com/proposals/proposals/2026-q3/82/).\n\nПодведём итоги первого месяца работы:\n\n• будущая тест-стратегия лаборатории\n• первая версия DevNet\n• текущий статус инфраструктуры\n• планы и задачи на следующий месяц\n\nТакже познакомим сообщество с первым QA-инженером, который присоединился к лаборатории, и расскажем, как подключить своё оборудование к DevNet.\n\n📅 Понедельник, 10 августа\n🕒 08:30 LA · 15:30 UTC · 18:30 UTC+3\n🔗 https://meet.google.com/zqp-shgw-wtj\n\n---\n\n**First monthly status call** of the E",
+      "date": "2026-08-10",
+      "time": "15:30 UTC",
+      "event_type": "community_call",
+      "url": "https://meet.google.com/zqp-shgw-wtj"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260807021216_c2098159",
     "timestamp": "2026-08-07T02:12:16.462331+00:00",
     "section": "calendar",

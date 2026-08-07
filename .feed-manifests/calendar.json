@@ -1,6 +1,6 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-08-07T09:34:06.138129+00:00",
+  "snapshot_time": "2026-08-07T11:23:51.061754+00:00",
   "files": {
     "d20f0b7f63fffff2927833d9557050f626cd934d5ab3479488af3773000f3011": {
       "title": "▶️ Ancapex Live: Gonka Overview",
@@ -55,6 +55,15 @@
       "url": "https://us06web.zoom.us/j/88254388622",
       "content_preview": "Second community AMA session with Vadim Krutov (COO of Bitfury) and David Liberman. The meeting focuses on breaking down the launch of the joint Bug Bounty program.\n\n👥 SPEAKERS\n🔥 NEW GUEST: Laurie Mercer, HackerOne Senior Director of Sales Engineering, joins the AMA session!\n• Vadim Krutov — COO of Bitfury\n• @libermans — David Liberman\n\n⚠️ IMPORTANT NOTE: THIS SESSION IS HELD ENTIRELY IN ENGLISH. ⚠️\n\n🎙️ SESSION TOPICS\n• Joint Bounty Program Launch: The vision behind the Gonka + Bitfury + HackerOne three-way partnership and strengthening network security.\n• Phased Rollout Plan: Shifting from private invites to an open form on gonka.ai, leading up to the final public launch on HackerOne.\n• Community Integration: How the report submission process works, gaining HackerOne access, and defining ",
       "checksum": "36c72df90dc98ef3052563ab6bd9dad40563d3fb5538f4672a7dc6f6bd09acd7"
+    },
+    "d4dadbed828e0869071f1c3d4c9c42406325360ab9cd6a88320ba0a7be79e4f1": {
+      "title": "External Test Lab & Community DevNet — первый ежемесячный статус-колл | First Monthly Status Call",
+      "date": "2026-08-10",
+      "time": "15:30 UTC",
+      "event_type": "community_call",
+      "url": "https://meet.google.com/zqp-shgw-wtj",
+      "content_preview": "**First monthly status call** of the External Test Lab & Community DevNet under the approved **proposal #82** (https://gonkadocs.com/proposals/proposals/2026-q3/82/).\n\nПриглашаем на первый ежемесячный статус-колл External Test Lab & Community DevNet в рамках принятого пропозала #82 (https://gonkadocs.com/proposals/proposals/2026-q3/82/).\n\nПодведём итоги первого месяца работы:\n\n• будущая тест-стратегия лаборатории\n• первая версия DevNet\n• текущий статус инфраструктуры\n• планы и задачи на следующий месяц\n\nТакже познакомим сообщество с первым QA-инженером, который присоединился к лаборатории, и расскажем, как подключить своё оборудование к DevNet.\n\n📅 Понедельник, 10 августа\n🕒 08:30 LA · 15:30 UTC · 18:30 UTC+3\n🔗 https://meet.google.com/zqp-shgw-wtj\n\n---\n\n**First monthly status call** of the E",
+      "checksum": "293442ca251f7367ca91c422c1dab9b3ba26bb07651926c737f0834fea5fc422"
     },
     "78c038e78bd45597990360a0f2a711cf5de31847a18f06b1d3747a76522a97ed": {
       "title": "TheSoul — Weekly Report Call (#60–#65)",
