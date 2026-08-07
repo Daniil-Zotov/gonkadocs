@@ -89,9 +89,15 @@ def today_iso() -> str:
 
 def _linkify(text: str) -> str:
     """Turn bare http(s) URLs into clickable markdown links."""
+    def _wrap(m):
+        url = m.group(1)
+        clean = re.sub(r"[.,);:]+$", "", url)
+        suffix = url[len(clean):]
+        return f"[{clean}]({clean}){suffix}"
+
     return re.sub(
         r"(https?://[^\s<]+)",
-        lambda m: f"[{m.group(1)}]({m.group(1)})",
+        _wrap,
         text,
     )
 

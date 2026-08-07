@@ -294,12 +294,19 @@
   function linkify(text) {
     if (!text) return '';
     var escaped = escHtml(text);
-    return escaped.replace(
+    escaped = escaped.replace(
       /(https?:\/\/[^\s<]+)/g,
       function(url) {
-        return '<a href="' + url + '" target="_blank" rel="noopener">' + url + '</a>';
+        var clean = url.replace(/[.,);:]+$/, '');
+        var suffix = url.slice(clean.length);
+        return '<a href="' + clean + '" target="_blank" rel="noopener">' + clean + '</a>' + suffix;
       }
     );
+    escaped = escaped.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+    escaped = escaped.replace(/\n-{3,}\n/g, '<hr class="cal-event-hr">');
+    escaped = escaped.replace(/\n{2,}/g, '<br><br>');
+    escaped = escaped.replace(/\n/g, '<br>');
+    return escaped;
   }
 
   function eventHTML(e) {

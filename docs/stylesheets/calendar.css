@@ -381,6 +381,23 @@
   line-height: 1.4;
 }
 
+.cal-event-desc hr.cal-event-hr {
+  margin: 0.3rem 0;
+  border: none;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.cal-event-desc strong {
+  font-weight: 700;
+  color: var(--md-default-fg-color);
+}
+
+.cal-event-desc a {
+  color: var(--md-accent-fg-color);
+  text-decoration: underline;
+  word-break: break-all;
+}
+
 .cal-event-tags {
   display: flex;
   flex-wrap: wrap;
