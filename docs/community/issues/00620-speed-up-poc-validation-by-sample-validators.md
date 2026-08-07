@@ -2,7 +2,7 @@
 title: "#620 — Speed up PoC validation by sample validators"
 source: https://github.com/gonka-ai/gonka/issues/620
 issue_number: 620
-synced_at: 2026-08-07T07:49:30Z
+synced_at: 2026-08-07T09:20:52Z
 template: issues-main.html
 ---
 
