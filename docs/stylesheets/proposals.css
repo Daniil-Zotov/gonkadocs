@@ -414,6 +414,13 @@
 
 /* ── Funding line in quarter/overview summary ──────────────── */
 .qs-funding-line {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--md-accent-fg-color);
+}
 
 .qs-bounty-line {
   margin-top: 4px;
