@@ -214,10 +214,8 @@
           <div class="rpt-mgrid">
             {% for week in m.weeks %}
               {% for day in week %}
-                {% if day.empty %}
-                <div class="rpt-cell"></div>
-                {% else %}
-                <div class="rpt-cell{% if day.is_today %} rpt-cell--today{% endif %}">
+                {% if not day.empty %}
+                <div class="rpt-cell{% if day.is_today %} rpt-cell--today{% endif %}" style="grid-column: {{ day.col }};"> 
                   <div class="rpt-daynum">{{ day.day }}</div>
                   <div class="rpt-events">
                     {% for ev in day.events %}

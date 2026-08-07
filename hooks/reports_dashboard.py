@@ -258,6 +258,7 @@ def _fill_month(month, by_date, today):
             days.append({
                 "empty": False,
                 "day": dd,
+                "col": d.weekday() + 1,
                 "date": dstr,
                 "is_today": d == today,
                 "is_weekend": d.weekday() >= 5,
