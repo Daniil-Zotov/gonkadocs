@@ -4,7 +4,7 @@ title: "GitHub Discussions"
 
 # GitHub Discussions — `gonka-ai/gonka`
 
-Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **81**. Обновлено: `2026-08-07 15:04 UTC`.
+Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **82**. Обновлено: `2026-08-07 16:07 UTC`.
 
 ## 📂 Категории
 
@@ -13,7 +13,7 @@ title: "GitHub Discussions"
 | [:mega: Announcements](announcements/index.md) | 1 |
 | [:jigsaw: Ecosystem](ecosystem/index.md) | 6 |
 | [:speech_balloon: General](general/index.md) | 5 |
-| [:bookmark_tabs: Governance Proposal Reports](governance-proposal-reports/index.md) | 2 |
+| [:bookmark_tabs: Governance Proposal Reports](governance-proposal-reports/index.md) | 3 |
 | [:gear: Protocol Improvements](protocol-improvements/index.md) | 42 |
 | [:interrobang: Q&A](q-a/index.md) | 3 |
 | [:raised_hands: Show and Tell](show-and-tell/index.md) | 22 |
@@ -22,6 +22,7 @@ title: "GitHub Discussions"
 
 | # | Заголовок | Категория | Автор | Обновлено |
 |---:|---|---|---|---|
+| [1561](governance-proposal-reports/1561-proposal-77-input-global-monthly-report-july.md) | [Proposal #77: INPUT Global - Monthly Report \|\| July](governance-proposal-reports/1561-proposal-77-input-global-monthly-report-july.md) | :bookmark_tabs: Governance Proposal Reports | [@apakhtina](https://github.com/apakhtina) | 2026-08-07 |
 | [1477](governance-proposal-reports/1477-proposal-74-gonka-labs-monthly-report-no1.md) | [Proposal #74: Gonka Labs - Monthly Report No.1](governance-proposal-reports/1477-proposal-74-gonka-labs-monthly-report-no1.md) | :bookmark_tabs: Governance Proposal Reports | [@gonkalabs](https://github.com/gonkalabs) | 2026-08-05 |
 | [1540](governance-proposal-reports/1540-proposal-51-webx-asia-2026-post-event-report.md) | [Proposal #51: WebX Asia 2026 — Post-Event Report](governance-proposal-reports/1540-proposal-51-webx-asia-2026-post-event-report.md) | :bookmark_tabs: Governance Proposal Reports | [@Ryanchen911](https://github.com/Ryanchen911) | 2026-08-05 |
 | [864](ecosystem/0864-proposal-deploy-gonka-ai-web-platform-v1-to-production-appgo.md) | [Proposal: Deploy Gonka AI Web Platform v1 to Production (app.gonka.ai)](ecosystem/0864-proposal-deploy-gonka-ai-web-platform-v1-to-production-appgo.md) | :jigsaw: Ecosystem | [@zpoken](https://github.com/zpoken) | 2026-08-05 |
@@ -41,4 +42,3 @@ title: "GitHub Discussions"
 | [1363](show-and-tell/1363-openbroker-broker-for-brokers-or-devshards-as-a-service.md) | [OpenBroker - broker for brokers or Devshards as a service.](show-and-tell/1363-openbroker-broker-for-brokers-or-devshards-as-a-service.md) | :raised_hands: Show and Tell | [@gonkalabs](https://github.com/gonkalabs) | 2026-07-09 |
 | [1141](show-and-tell/1141-ibc-usdt-withdrawal-guide.md) | [IBC USDT Withdrawal Guide](show-and-tell/1141-ibc-usdt-withdrawal-guide.md) | :raised_hands: Show and Tell | [@paranjko](https://github.com/paranjko) | 2026-07-08 |
 | [1390](show-and-tell/1390-how-to-return-funds-to-the-community-pool-ibc-usdt.md) | [How to return funds to the Community Pool (IBC USDT)](show-and-tell/1390-how-to-return-funds-to-the-community-pool-ibc-usdt.md) | :raised_hands: Show and Tell | [@paranjko](https://github.com/paranjko) | 2026-07-03 |
-| [1340](protocol-improvements/1340-devshard-height-sync-protocol.md) | [`devshard` Height-sync protocol](protocol-improvements/1340-devshard-height-sync-protocol.md) | :gear: Protocol Improvements | [@alexanderkuprin](https://github.com/alexanderkuprin) | 2026-07-02 |

@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-08-07T15:04:50.591040+00:00",
+  "snapshot_time": "2026-08-07T16:07:47.975840+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "Welcome to Gonka Discussions 👋",
@@ -85,6 +85,12 @@
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1540](https://github.com/gonka-ai/gonka/discussions/1540) every hour. \n\n# Proposal #51: WebX Asia 2026 — Post-Event Report\n\n**Автор:** [@Ryanchen911](https://github.com/Ryanchen911) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-08-04 08:54 UTC · \n\n---\n\n## 📝 Описание\n\nOn behalf of 6Block, I would like to thank the Gonka community for approving and funding Gonka's participation at WebX Asia 2026.\n\nUnder [the original Proposal #51](https://gonkascan.com/?page=governance&proposal_id=51), 6Block directly funded the 75,000 USDT Platinum sponsorship, while the community allocated another 75,000 USDT to cover the execution of Gonka's presence at the event. After consolidating the expenses, the execution budget was used as foll",
       "checksum": "07928f20e39d64dd33034adfe7388c4214102905c06c45643ece682221efe426"
+    },
+    "governance-proposal-reports/1561-proposal-77-input-global-monthly-report-july.md": {
+      "title": "Proposal #77: INPUT Global - Monthly Report || July",
+      "status": null,
+      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1561](https://github.com/gonka-ai/gonka/discussions/1561) every hour. \n\n# Proposal #77: INPUT Global - Monthly Report || July\n\n**Автор:** [@apakhtina](https://github.com/apakhtina) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-08-07 15:58 UTC · \n\n---\n\n## 📝 Описание\n\n<img width=\"3840\" height=\"2160\" alt=\"image\" src=\"https://github.com/user-attachments/assets/7355944b-ac24-48cd-b1ac-1fb00fcff0b5\" />\n\n### July 2026 Monthly Report\n\nHi Team, happy to share our July 2026 Monthly Report for Gonka! You can find a detailed breakdown of our results in the report here: https://www.figma.com/deck/F1ReIM6Ag6MB6WcbnEc2QY\n\n**Secured this month:**\n\n• Two interviews during WebX - one with **MPost** and one with **Blockchain Reporter**, ",
+      "checksum": "8834f887b2ab4dbeaa4489d08656db43076236d297605e3830039fdb3c7662ba"
     },
     "protocol-improvements/0795-welcome-to-proposals.md": {
       "title": "Welcome to Proposals 👋",

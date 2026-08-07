@@ -3,7 +3,7 @@ title: "#875 — Automatic Node Provisioning Tool exists"
 source: https://github.com/gonka-ai/gonka/discussions/875
 discussion_number: 875
 category: ecosystem
-synced_at: 2026-08-07T15:04:45Z
+synced_at: 2026-08-07T16:07:29Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #875](https://github.com/gonka-ai/gonka/discussions/875) every hour. 

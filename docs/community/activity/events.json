@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260807160733_59c2e0ed",
+    "timestamp": "2026-08-07T16:07:33.679350+00:00",
+    "section": "discussions",
+    "action": "new",
+    "item": {
+      "title": "Proposal #77: INPUT Global - Monthly Report || July",
+      "url": "/community/discussion/governance-proposal-reports/1561-proposal-77-input-global-monthly-report-july/",
+      "file": "governance-proposal-reports/1561-proposal-77-input-global-monthly-report-july.md"
+    },
+    "details": {
+      "status": null,
+      "content": "> 🔄 **Auto-sync:** from [Discussion #1561](https://github.com/gonka-ai/gonka/discussions/1561) every hour. \n\n# Proposal #77: INPUT Global - Monthly Report || July\n\n**Автор:** [@apakhtina](https://github.com/apakhtina) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-08-07 15:58 UTC · \n\n---\n\n## 📝 Описание\n\n<img width=\"3840\" height=\"2160\" alt=\"image\" src=\"https://github.com/user-attachments/assets/7355944b-ac24-48cd-b1ac-1fb00fcff0b5\" />\n\n### July 2026 Monthly Report\n\nHi Team, happy to share our July 2026 Monthly Report for Gonka! You can find a detailed breakdown of our results in the report here: https://www.figma.com/deck/F1ReIM6Ag6MB6WcbnEc2QY\n\n**Secured this month:**\n\n• Two interviews during WebX - one with **MPost** and one with **Blockchain Reporter**, "
+    },
+    "ai_description": "A new discussion has been added for Proposal #77, where INPUT Global shared their July 2026 monthly report. The team highlighted their progress including two media interviews secured during WebX with MPost and Blockchain Reporter. Check out the full breakdown in the linked report to see how the initiative is advancing."
+  },
+  {
     "id": "evt_20260807112351_7db68784",
     "timestamp": "2026-08-07T11:23:51.047910+00:00",
     "section": "calendar",
