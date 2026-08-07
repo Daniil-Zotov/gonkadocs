@@ -1,8 +1,6 @@
 {% extends "main.html" %}
 
-{% block tabs %}
-{{ super() }}
-
+{% block content %}
 <style>
   .rpt-wrap {
     max-width: 1400px;
@@ -84,8 +82,8 @@
   /* months grid */
   .rpt-months {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 16px;
+    grid-template-columns: 1fr;
+    gap: 20px;
   }
 
   .rpt-month-name {
@@ -177,7 +175,7 @@
   }
 
   @media (max-width: 1000px) {
-    .rpt-months { grid-template-columns: repeat(2, 1fr); }
+    .rpt-months { grid-template-columns: 1fr; }
   }
   @media (max-width: 680px) {
     .rpt-months { grid-template-columns: 1fr; }
@@ -281,6 +279,3 @@
 </script>
 
 {% endblock %}
-
-{% block content %}{% endblock %}
-{% block footer %}{{ super() }}{% endblock %}
