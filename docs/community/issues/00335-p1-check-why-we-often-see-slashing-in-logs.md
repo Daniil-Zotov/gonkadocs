@@ -2,7 +2,7 @@
 title: "#335 — [P1] Check why we often see slashing in logs"
 source: https://github.com/gonka-ai/gonka/issues/335
 issue_number: 335
-synced_at: 2026-08-07T18:07:56Z
+synced_at: 2026-08-07T19:26:45Z
 template: issues-main.html
 ---
 

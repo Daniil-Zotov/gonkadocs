@@ -2,7 +2,7 @@
 title: "#565 — Reward settlement correctness; negative balance prevention"
 source: https://github.com/gonka-ai/gonka/issues/565
 issue_number: 565
-synced_at: 2026-08-07T18:08:04Z
+synced_at: 2026-08-07T19:26:56Z
 template: issues-main.html
 ---
 
