@@ -2,7 +2,7 @@
 title: "#1493 — Request to be added as a Gonka broker (devshard escrow creator allowlist)"
 source: https://github.com/gonka-ai/gonka/issues/1493
 issue_number: 1493
-synced_at: 2026-08-07T19:24:39Z
+synced_at: 2026-08-07T20:03:29Z
 template: issues-main.html
 ---
 
