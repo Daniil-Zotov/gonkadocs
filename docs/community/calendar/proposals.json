@@ -1174,5 +1174,17 @@
     "tags": [
       "passed"
     ]
+  },
+  {
+    "date": "2026-08-07",
+    "category": "governance",
+    "type": "proposal_report_upload",
+    "title": "Report for proposal #77 — Gonka PR Proposal for US/Global Regions",
+    "url": "/proposals/proposals/2026-q2/77/",
+    "time": "",
+    "description": "Report report4 for proposal #77 has been uploaded. Read it: https://gonkadocs.com/proposals/proposals/2026-q2/77/report4/",
+    "tags": [
+      "report"
+    ]
   }
 ]

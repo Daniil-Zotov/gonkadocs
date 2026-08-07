@@ -1,6 +1,6 @@
 {
   "section": "proposals",
-  "snapshot_time": "2026-08-07T18:00:36.101639+00:00",
+  "snapshot_time": "2026-08-07T18:40:28.690755+00:00",
   "files": {
     "2025-q3/1/full-proposal.md": {
       "title": "Adjust Params According to real block length",
@@ -441,6 +441,16 @@
       "voting_end": "",
       "description": "",
       "checksum": "8a2b63b0fb181a18f06ff4b3644ec3ed24cb8d64c311bc474be0ee86f639d4a1"
+    },
+    "2026-q2/77/report4.md": {
+      "title": "Weekly Report — 3–7 August",
+      "status": null,
+      "content_preview": "# Weekly Report — 3–7 August\n\n**Дата публикации:** 2026-08-07\n\n📝 **Weekly updates: 3–7 August**\n\n• The AI Journal published the Liberman brothers' op-ed.\n• We're finalizing Gleb's op-ed for Securities.io.\n• Observer and Built In expressed interest in an op-ed from Anastasia.\n• We revised the listicle drafts for Analytics Insight and CryptoDaily based on the comments and sent them to the outlets for publication.\n• We also shared our monthly report: https://github.com/gonka-ai/gonka/discussions/1561\n\nOur PR tracker: https://docs.google.com/spreadsheets/d/1nHjuV1GDDuwxoY0LU2qQimTZso7xoU7QGqawMxX4bEA/edit?usp=sharing\n\nHave a nice weekend!",
+      "funding": "",
+      "quorum_met": null,
+      "voting_end": "",
+      "description": "",
+      "checksum": "6ddf033f540a25b4a24ad9943fc1fbea972237a9a63d632c35d21fe5d6b56d81"
     },
     "2026-q3/80/full-proposal.md": {
       "title": "GRC Proposal #3 - Restitution",
