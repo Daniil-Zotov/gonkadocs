@@ -1,5 +1,29 @@
 [
   {
+    "id": "evt_20260807021216_c2098159",
+    "timestamp": "2026-08-07T02:12:16.462331+00:00",
+    "section": "calendar",
+    "action": "daily_reminder",
+    "item": {
+      "title": "Today: 1 events — AMA с Давидом и Даниилом Либерманами — Award. libermans | AMA with David and Daniel Liberman — libermans",
+      "url": "/community/calendar/",
+      "file": null
+    },
+    "details": {
+      "today": [
+        {
+          "title": "AMA с Давидом и Даниилом Либерманами — Award. libermans | AMA with David and Daniel Liberman — libermans",
+          "date": "2026-08-07",
+          "time": "15:30 UTC",
+          "event_type": "ama",
+          "url": "https://us06web.zoom.us/j/87045531047"
+        }
+      ],
+      "count": 1
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260807004845_0d38e07c",
     "timestamp": "2026-08-07T00:48:45.032269+00:00",
     "section": "issues",
