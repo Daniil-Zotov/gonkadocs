@@ -363,101 +363,111 @@
     text-align: right;
   }
 
-  /* ── about (compact, from README) ───────────────────── */
+  /* ── readme (full repo README, compact) ─────────────── */
 
-  .home-about p {
-    color: var(--md-default-fg-color--light);
-    font-size: 0.86rem;
-    line-height: 1.6;
-    margin: 0 0 10px;
-  }
-
-  .home-about p.lead {
+  .home-readme {
+    font-size: 0.8rem;
+    line-height: 1.5;
     color: var(--md-default-fg-color);
-    font-size: 0.9rem;
-    margin-bottom: 12px;
+    word-wrap: break-word;
   }
 
-  .home-about p.lead a {
+  .home-readme h1,
+  .home-readme h2,
+  .home-readme h3,
+  .home-readme h4 {
+    color: var(--md-default-fg-color);
+    font-weight: 600;
+    margin: 1.1em 0 0.5em;
+    line-height: 1.35;
+  }
+
+  .home-readme h1 { font-size: 1.15rem; border-bottom: 1px solid var(--md-default-fg-color--lightest); padding-bottom: 0.25em; }
+  .home-readme h2 { font-size: 1.02rem; border-bottom: 1px solid var(--md-default-fg-color--lightest); padding-bottom: 0.25em; }
+  .home-readme h3 { font-size: 0.92rem; }
+  .home-readme h4 { font-size: 0.85rem; }
+
+  .home-readme p {
+    margin: 0.45em 0;
+    color: var(--md-default-fg-color);
+  }
+
+  .home-readme ul,
+  .home-readme ol {
+    margin: 0.4em 0;
+    padding-left: 1.4rem;
+  }
+
+  .home-readme li {
+    margin: 0.15em 0;
+    line-height: 1.5;
+  }
+
+  .home-readme a {
     color: var(--md-accent-fg-color);
     text-decoration: none;
   }
 
-  .home-about p.lead a:hover {
+  .home-readme a:hover {
     text-decoration: underline;
   }
 
-  .home-about ul {
-    margin: 0 0 10px;
-    padding-left: 1.15rem;
-    font-size: 0.82rem;
-    color: var(--md-default-fg-color--light);
-    line-height: 1.6;
+  .home-readme code {
+    font-family: var(--md-code-font-family);
+    background: var(--md-code-bg-color);
+    padding: 0.12em 0.35em;
+    border-radius: 3px;
+    font-size: 0.78em;
   }
 
-  .home-about li {
-    margin-bottom: 4px;
-  }
-
-  .home-about li a,
-  .home-about p.lead a {
-    color: var(--md-accent-fg-color);
-    text-decoration: none;
-  }
-
-  .home-about li a:hover {
-    text-decoration: underline;
-  }
-
-  .home-features {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 12px;
-    margin-top: 8px;
-  }
-
-  .home-feature {
-    padding: 14px 16px;
+  .home-readme pre {
+    background: var(--md-code-bg-color);
     border: 1px solid var(--md-default-fg-color--lightest);
     border-radius: 8px;
+    padding: 0.75rem 1rem;
+    overflow-x: auto;
+    margin: 0.6em 0;
+    font-size: 0.72rem;
+    line-height: 1.5;
+  }
+
+  .home-readme pre code {
+    background: none;
+    padding: 0;
+    font-size: inherit;
+  }
+
+  .home-readme table {
+    border-collapse: collapse;
+    margin: 0.6em 0;
+    font-size: 0.76rem;
+    width: 100%;
+  }
+
+  .home-readme th,
+  .home-readme td {
+    border: 1px solid var(--md-default-fg-color--lightest);
+    padding: 0.3rem 0.55rem;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .home-readme th {
     background: var(--md-code-bg-color);
-  }
-
-  .home-feature h3 {
-    margin: 0 0 6px;
-    font-size: 0.9rem;
     font-weight: 600;
-    color: var(--md-default-fg-color);
   }
 
-  .home-feature p {
-    margin: 0;
-    font-size: 0.78rem;
+  .home-readme blockquote {
+    margin: 0.6em 0;
+    padding: 0.1em 0.9em;
+    border-left: 3px solid var(--md-default-fg-color--lightest);
     color: var(--md-default-fg-color--light);
-    line-height: 1.55;
   }
 
-  .home-feature ul {
-    margin: 6px 0 0;
-    padding-left: 1.1rem;
-    font-size: 0.78rem;
-    color: var(--md-default-fg-color--light);
-    line-height: 1.55;
-  }
-
-  .home-feature li {
-    margin-bottom: 2px;
-  }
-
-  .home-feature a,
-  .home-feature li a {
-    color: var(--md-accent-fg-color);
-    text-decoration: none;
-  }
-
-  .home-feature a:hover,
-  .home-feature li a:hover {
-    text-decoration: underline;
+  .home-readme hr {
+    border: none;
+    border-top: 1px solid var(--md-default-fg-color--lightest);
+    margin: 1.2em 0;
   }
 
   .home-empty {
@@ -580,66 +590,10 @@
 
   <section class="home-section">
     <div class="home-section-head">
-      <h2>About this portal</h2>
+      <h2>README</h2>
     </div>
-    <div class="home-about">
-      <p class="lead">
-        <strong>Gonka Docs</strong> is a meta-repository for the
-        <a href="https://gonka.ai" target="_blank" rel="noopener">Gonka</a> decentralized
-        AI inference network (Proof of Compute consensus). It aggregates everything about the
-        project in one place:
-      </p>
-      <ul>
-        <li><strong>Official documentation</strong> — auto-synced protocol docs (<a href="{{ config.site_url }}gonka/docs/">/gonka/docs/</a>) with English and Chinese translations</li>
-        <li><strong>Source code mirror</strong> — the full <code>gonka-ai/gonka</code> source served verbatim (<a href="{{ config.site_url }}gonka-code/">/gonka-code/</a>), indexed by <a href="{{ config.site_url }}gonka-code-map.txt">/gonka-code-map.txt</a></li>
-        <li><strong>Community</strong> — roadmap, calendar, activity feed, discussions, issues, and committees (GRC / GSC / GPC / GTM)</li>
-        <li><strong>Governance</strong> — off-chain pre-proposals (<code>gonka.vote</code>), on-chain proposal dashboard with quarterly summaries, tally results, funding sources, and published reports</li>
-        <li><strong>Community funds</strong> — live balances and full spend history of the Community Pool, Community Sale wallet, and Gov Module</li>
-      </ul>
-      <p>
-        The portal is designed <strong>agent-first</strong>: machine-readable
-        <a href="{{ config.site_url }}llms.txt">llms.txt</a> /
-        <a href="{{ config.site_url }}llms-full.txt">llms-full.txt</a>,
-        <a href="{{ config.site_url }}.html.md">.html.md page copies</a>, a merged search index, sitemaps,
-        RSS, an <a href="{{ config.site_url }}openapi.yaml">OpenAPI spec</a>, and an MCP server — so AI agents
-        can answer questions about Gonka without manual context copying.
-      </p>
-    </div>
-    <div class="home-features">
-      <div class="home-feature">
-        <h3>Documentation &amp; code</h3>
-        <ul>
-          <li><a href="{{ config.site_url }}gonka/docs/">Protocol documentation</a> — architecture, quickstarts, wallet, governance (EN / 中文)</li>
-          <li><a href="{{ config.site_url }}gonka-code/">Source code mirror</a> of gonka-ai/gonka, indexed by <a href="{{ config.site_url }}gonka-code-map.txt">gonka-code-map.txt</a></li>
-        </ul>
-      </div>
-      <div class="home-feature">
-        <h3>Community</h3>
-        <ul>
-          <li><a href="{{ config.site_url }}community/discussion/">GitHub Discussions</a> — proposals, Q&amp;A, show-and-tell</li>
-          <li><a href="{{ config.site_url }}community/issues/">GitHub Issues</a> — bugs, features, enhancements</li>
-          <li><a href="{{ config.site_url }}community/roadmap/">Roadmap</a>, <a href="{{ config.site_url }}community/calendar/">calendar</a>, <a href="{{ config.site_url }}community/activity/">activity feed</a> and committees (GRC / GSC / GPC / GTM)</li>
-        </ul>
-      </div>
-      <div class="home-feature">
-        <h3>Governance</h3>
-        <ul>
-          <li><a href="{{ config.site_url }}proposals/proposals/">On-chain proposals</a> — quarterly overviews, funding sources, reports, tally results</li>
-          <li><a href="{{ config.site_url }}proposals/preproposals/">Pre-proposals</a> — off-chain community polls from gonka.vote</li>
-          <li><a href="{{ config.site_url }}proposals/community%20pool/">Community funds</a> — balances and spend history</li>
-        </ul>
-      </div>
-      <div class="home-feature">
-        <h3>For AI agents</h3>
-        <p>
-          Single source of truth for AI assistants: machine-readable
-          <a href="{{ config.site_url }}llms.txt">llms.txt</a> and
-          <a href="{{ config.site_url }}llms-full.txt">llms-full.txt</a>,
-          <a href="{{ config.site_url }}.html.md">.html.md page copies</a>, an
-          <a href="{{ config.site_url }}openapi.yaml">OpenAPI spec</a>, sitemaps, RSS,
-          and an <a href="{{ config.site_url }}agents/">MCP server</a>.
-        </p>
-      </div>
+    <div class="home-readme">
+      {{ home_readme|safe }}
     </div>
   </section>
 

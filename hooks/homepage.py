@@ -20,6 +20,11 @@ sys.path.insert(0, str(_ROOT / "buildtools"))
 
 from generate_calendar_events import load_events  # noqa: E402
 
+try:
+    import markdown as _md
+except ImportError:  # pragma: no cover
+    _md = None
+
 _MONTHS = [
     "January", "February", "March", "April", "May", "June",
     "July", "August", "September", "October", "November", "December",
@@ -99,6 +104,24 @@ def _linkify(text):
     escaped = re.sub(r"\n{2,}", "<br><br>", escaped)
     escaped = escaped.replace("\n", "<br>")
     return escaped
+
+
+def _readme_html(root=None):
+    """Render the repo README.md to small-font-friendly HTML."""
+    root = Path(root) if root else _ROOT
+    path = root / "README.md"
+    if not path.is_file():
+        return ""
+    try:
+        text = path.read_text(encoding="utf-8")
+    except OSError:
+        return ""
+    if _md is None:
+        return text
+    return _md.markdown(
+        text,
+        extensions=["extra", "sane_lists", "tables", "fenced_code", "toc"],
+    )
 
 
 def _block(md, start, end):
@@ -182,5 +205,6 @@ def on_env(env, config, **kwargs):
     env.globals["home_pool"] = _parse_pool(pool_md)
 
     env.globals["home_linkify"] = _linkify
+    env.globals["home_readme"] = _readme_html()
 
     return env
