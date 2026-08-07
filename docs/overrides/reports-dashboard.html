@@ -1,0 +1,287 @@
+{% extends "main.html" %}
+
+{% block tabs %}
+{{ super() }}
+
+<style>
+  .rpt-wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px 48px;
+  }
+
+  .rpt-header {
+    margin-bottom: 12px;
+  }
+
+  .rpt-header h1 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: 0 0 4px;
+  }
+
+  .rpt-header p {
+    color: var(--md-default-fg-color--light);
+    font-size: 0.85rem;
+    margin: 0;
+  }
+
+  .rpt-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin: 12px 0 18px;
+    font-size: 0.75rem;
+    color: var(--md-default-fg-color--light);
+  }
+
+  .rpt-legend span {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .rpt-legend .swatch {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #9b9b9b;
+  }
+
+  .rpt-legend .swatch--up {
+    background: #e6e6e6;
+  }
+
+  .rpt-legend .swatch--today {
+    background: #0969da;
+    border-color: #0969da;
+  }
+
+  .rpt-cal {
+    display: grid;
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+    border-top: 1px solid #c6c6c6;
+    border-left: 1px solid #c6c6c6;
+    background: var(--md-default-bg-color);
+  }
+
+  .rpt-day-col {
+    border-right: 1px solid #c6c6c6;
+    border-bottom: 1px solid #c6c6c6;
+    min-height: 150px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .rpt-day-col.rpt-day--today {
+    background: rgba(9, 105, 218, 0.04);
+  }
+
+  .rpt-day-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 6px;
+    border-bottom: 1px solid #dcdcdc;
+    padding-bottom: 4px;
+    margin-bottom: 2px;
+  }
+
+  .rpt-day-name {
+    font-size: 0.68rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: var(--md-default-fg-color--light);
+  }
+
+  .rpt-day-num {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--md-default-fg-color);
+  }
+
+  .rpt-item {
+    font-size: 0.66rem;
+    line-height: 1.35;
+    padding: 4px 6px;
+    border-radius: 4px;
+    background: var(--md-code-bg-color);
+    border: 1px solid var(--md-default-fg-color--lightest);
+    color: var(--md-default-fg-color);
+    text-decoration: none;
+  }
+
+  a.rpt-item:hover {
+    border-color: var(--md-accent-fg-color);
+  }
+
+  .rpt-item .rpt-prop {
+    font-weight: 700;
+  }
+
+  .rpt-item.rpt-item--up {
+    background: #e6e6e6;
+    border-color: #cccccc;
+    color: #6a6a6a;
+  }
+
+  .rpt-item.rpt-item--up a {
+    color: #6a6a6a;
+  }
+
+  .rpt-empty-day {
+    color: var(--md-default-fg-color--lighter);
+    font-size: 0.62rem;
+  }
+
+  .rpt-meta {
+    margin-top: 18px;
+    font-size: 0.75rem;
+    color: var(--md-default-fg-color--light);
+    line-height: 1.5;
+  }
+
+  .rpt-upcoming {
+    margin-top: 22px;
+  }
+
+  .rpt-upcoming h2 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0 0 10px;
+    color: var(--md-default-fg-color);
+  }
+
+  .rpt-upcoming-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .rpt-up-next {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    padding: 6px 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    background: #e6e6e6;
+    font-size: 0.72rem;
+    color: #6a6a6a;
+    text-decoration: none;
+  }
+
+  a.rpt-up-next:hover {
+    border-color: var(--md-accent-fg-color);
+  }
+
+  .rpt-up-next .rpt-date {
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
+  .rpt-up-next .rpt-type {
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    font-weight: 600;
+    opacity: 0.85;
+  }
+
+  @media (max-width: 1000px) {
+    .rpt-cal {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 600px) {
+    .rpt-cal {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+<div class="rpt-wrap">
+  <div class="rpt-header">
+    <h1>Proposal reports tracker</h1>
+    <p>Weekly dashboard of proposal reports — published reports and upcoming report calls.</p>
+  </div>
+
+  <div class="rpt-legend">
+    <span><span class="swatch"></span> published report</span>
+    <span><span class="swatch swatch--up"></span> upcoming report call</span>
+    <span><span class="swatch swatch--today"></span> today</span>
+  </div>
+
+  <div class="rpt-cal">
+    {% for day in reports_week %}
+    <div class="rpt-day-col{% if day.is_today %} rpt-day--today{% endif %}">
+      <div class="rpt-day-head">
+        <span class="rpt-day-name">{{ day.weekday }}</span>
+        <span class="rpt-day-num">{{ day.day }}</span>
+      </div>
+
+      {% if day.uploaded %}
+        {% for r in day.uploaded %}
+        <a class="rpt-item" href="{{ r.url }}">
+          {% if r.proposal %}<span class="rpt-prop">#{{ r.proposal }}</span> · {% endif %}{{ r.title }}
+        </a>
+        {% endfor %}
+      {% endif %}
+
+      {% if day.upcoming %}
+        {% for e in day.upcoming %}
+        {% if e.url %}
+        <a class="rpt-item rpt-item--up" href="{{ e.url }}">
+          <span class="rpt-prop">{{ e.type|replace('_', ' ')|title }}</span> · {{ e.title }}
+        </a>
+        {% else %}
+        <div class="rpt-item rpt-item--up">
+          <span class="rpt-prop">{{ e.type|replace('_', ' ')|title }}</span> · {{ e.title }}
+        </div>
+        {% endif %}
+        {% endfor %}
+      {% endif %}
+
+      {% if not day.uploaded and not day.upcoming %}
+        <div class="rpt-empty-day">No reports</div>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+
+  <div class="rpt-meta">
+    Week of {{ reports_week[0].date }} — {{ reports_week[6].date }} · Published reports are parsed from
+    <code>report*.md</code> files; upcoming items are calendar report calls.
+  </div>
+
+  {% if reports_upcoming_next %}
+  <div class="rpt-upcoming">
+    <h2>Upcoming report calls</h2>
+    <div class="rpt-upcoming-list">
+      {% for e in reports_upcoming_next %}
+      {% if e.url %}
+      <a class="rpt-up-next" href="{{ e.url }}">
+        <span class="rpt-date">{{ e.date }}</span>
+        <span class="rpt-type">{{ e.type|replace('_', ' ')|title }}</span>
+        <span>{{ e.title }}</span>
+      </a>
+      {% else %}
+      <div class="rpt-up-next">
+        <span class="rpt-date">{{ e.date }}</span>
+        <span class="rpt-type">{{ e.type|replace('_', ' ')|title }}</span>
+        <span>{{ e.title }}</span>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+</div>
+
+{% endblock %}
+
+{% block content %}{% endblock %}
+{% block footer %}{{ super() }}{% endblock %}

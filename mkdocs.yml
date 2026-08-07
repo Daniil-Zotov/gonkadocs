@@ -60,6 +60,7 @@ nav:
     - Calendar: community/calendar/index.md
   - Proposals:
     - Community Pool: proposals/community pool.md
+    - Reports Tracker: proposals/reports-dashboard.md
     - How to Propose: proposals/readme-for-propose.md
     - Pre-Proposals:
       - Overview: proposals/preproposals/index.md
@@ -235,6 +236,7 @@ hooks:
   - hooks/calendar_manifest.py
   - hooks/calendar_events.py
   - hooks/homepage.py
+  - hooks/reports_dashboard.py
 
 extra_css:
   - stylesheets/github.css
