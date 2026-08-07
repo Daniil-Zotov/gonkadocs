@@ -72,9 +72,17 @@ def on_page_markdown(markdown: str, page=None, config=None, **kwargs):
     if not _is_detail_page(src_path):
         return markdown
 
-    # Skip report pages themselves (standalone rendering)
-    if os.path.basename(page.file.abs_src_path).startswith("report"):
-        return markdown
+    # Report pages themselves: prepend a back-link to the parent proposal page.
+    fname = os.path.basename(page.file.abs_src_path)
+    if fname.startswith("report"):
+        if "<!--- report-backlink --->" in markdown:
+            return markdown
+        parent_rel = os.path.dirname(src_path).replace("\\", "/")
+        return (
+            f"\n\n<div class=\"report-backlink\">\n"
+            f"<a href=\"/{parent_rel}/\">&larr; Back to proposal</a>\n"
+            f"</div>\n\n<!--- report-backlink --->\n" + markdown
+        )
 
     if "<!-- reports-injected -->" in markdown:
         return markdown

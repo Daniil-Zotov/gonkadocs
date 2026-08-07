@@ -394,15 +394,26 @@
   overflow: auto;
 }
 
+/* Back-link shown atop a standalone report page */
+.report-backlink {
+  margin-bottom: 14px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.report-backlink a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--md-accent-fg-color);
+  text-decoration: none;
+  padding: 4px 0;
+}
+.report-backlink a:hover {
+  text-decoration: underline;
+}
+
 /* ── Funding line in quarter/overview summary ──────────────── */
 .qs-funding-line {
-  margin-top: 10px;
-  padding-top: 10px;
-  border-top: 1px solid var(--md-default-fg-color--lightest);
-  font-size: 12px;
-  font-weight: 600;
-  color: var(--md-accent-fg-color);
-}
 
 .qs-bounty-line {
   margin-top: 4px;

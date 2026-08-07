@@ -5,13 +5,9 @@
 
 <style>
   .rpt-wrap {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 0 16px 48px;
-  }
-
-  .rpt-header {
-    margin-bottom: 12px;
   }
 
   .rpt-header h1 {
@@ -23,14 +19,15 @@
   .rpt-header p {
     color: var(--md-default-fg-color--light);
     font-size: 0.85rem;
-    margin: 0;
+    margin: 0 0 8px;
+    line-height: 1.5;
   }
 
   .rpt-legend {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
-    margin: 12px 0 18px;
+    margin: 14px 0 22px;
     font-size: 0.75rem;
     color: var(--md-default-fg-color--light);
   }
@@ -41,245 +38,247 @@
     gap: 6px;
   }
 
-  .rpt-legend .swatch {
+  .dot {
     display: inline-block;
-    width: 10px;
-    height: 10px;
-    border: 1px solid #9b9b9b;
+    width: 9px;
+    height: 9px;
+    border-radius: 2px;
+  }
+  .dot--upcoming  { background: #9ec7f7; }
+  .dot--past      { background: #2f6fd6; }
+  .dot--expected  { background: #c6c6c8; }
+  .dot--published { background: #2ea043; }
+  .dot--overdue   { background: #d1242f; }
+
+  /* quarter */
+  .rpt-quarter {
+    border-bottom: 2px solid var(--md-default-fg-color--lightest);
+    padding-bottom: 18px;
+    margin-bottom: 20px;
   }
 
-  .rpt-legend .swatch--up {
-    background: #e6e6e6;
+  .rpt-quarter-label {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--md-default-fg-color);
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
   }
 
-  .rpt-legend .swatch--today {
-    background: #0969da;
-    border-color: #0969da;
-  }
+  .rpt-quarter-label:hover { opacity: 0.7; }
 
-  .rpt-cal {
+  .rpt-qarrow {
+    display: inline-block;
+    transition: transform 0.18s;
+    font-size: 0.8rem;
+    color: var(--md-default-fg-color--light);
+  }
+  .rpt-quarter--collapsed .rpt-qarrow { transform: rotate(-90deg); }
+
+  .rpt-quarter--collapsed .rpt-months { display: none; }
+
+  /* months grid */
+  .rpt-months {
     display: grid;
-    grid-template-columns: repeat(7, minmax(0, 1fr));
-    border-top: 1px solid #c6c6c6;
-    border-left: 1px solid #c6c6c6;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+
+  .rpt-month-name {
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--md-default-fg-color--light);
+    padding: 4px 6px 6px;
+  }
+
+  .rpt-month-head {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+  }
+
+  .rpt-month-head .rpt-dow {
+    text-align: right;
+    font-size: 0.52rem;
+    font-weight: 600;
+    color: var(--md-default-fg-color--lighter);
+    padding: 0 4px 4px;
+  }
+
+  .rpt-mgrid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    border: 1px solid #c8c8c8;
+    border-right: none;
+    border-bottom: none;
+  }
+
+  .rpt-cell {
+    border-right: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
+    min-height: 92px;
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
     background: var(--md-default-bg-color);
   }
 
-  .rpt-day-col {
-    border-right: 1px solid #c6c6c6;
-    border-bottom: 1px solid #c6c6c6;
-    min-height: 150px;
-    padding: 8px;
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
+  .rpt-cell--today {
+    background: rgba(9, 105, 218, 0.05);
   }
+  .rpt-cell--today .rpt-daynum { color: #cf222e; font-weight: 800; }
 
-  .rpt-day-col.rpt-day--today {
-    background: rgba(9, 105, 218, 0.04);
-  }
-
-  .rpt-day-head {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    gap: 6px;
-    border-bottom: 1px solid #dcdcdc;
-    padding-bottom: 4px;
-    margin-bottom: 2px;
-  }
-
-  .rpt-day-name {
+  .rpt-daynum {
     font-size: 0.68rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
-    color: var(--md-default-fg-color--light);
-  }
-
-  .rpt-day-num {
-    font-size: 0.78rem;
     font-weight: 600;
-    color: var(--md-default-fg-color);
+    color: var(--md-default-fg-color--light);
+    text-align: right;
+    line-height: 1;
   }
 
-  .rpt-item {
-    font-size: 0.66rem;
-    line-height: 1.35;
-    padding: 4px 6px;
-    border-radius: 4px;
-    background: var(--md-code-bg-color);
-    border: 1px solid var(--md-default-fg-color--lightest);
-    color: var(--md-default-fg-color);
+  .rpt-events { display: flex; flex-direction: column; gap: 3px; }
+
+  .rpt-ev {
+    font-size: 0.6rem;
+    line-height: 1.25;
+    padding: 2px 4px;
+    border-radius: 3px;
     text-decoration: none;
+    color: var(--md-default-fg-color);
+    overflow: hidden;
   }
+  a.rpt-ev:hover { text-decoration: underline; }
 
-  a.rpt-item:hover {
-    border-color: var(--md-accent-fg-color);
-  }
+  .rpt-ev .ev-prop { font-weight: 700; }
+  .rpt-ev .ev-title { display: block; }
+  .rpt-ev .ev-time { color: inherit; opacity: 0.7; font-size: 0.55rem; }
 
-  .rpt-item .rpt-prop {
-    font-weight: 700;
-  }
+  .rpt-ev--upcoming  { background: #9ec7f7; color: #14406b; }
+  .rpt-ev--past      { background: #2b6fd6cc; color: #ffffff; }
+  .rpt-ev--expected  { background: #e7e7e8; color: #6b6b6d; }
+  .rpt-ev--published { background: #2ea043cc; color: #ffffff; }
+  .rpt-ev--overdue   { background: #d1242fcc; color: #ffffff; }
 
-  .rpt-item.rpt-item--up {
-    background: #e6e6e6;
-    border-color: #cccccc;
-    color: #6a6a6a;
-  }
-
-  .rpt-item.rpt-item--up a {
-    color: #6a6a6a;
-  }
-
-  .rpt-empty-day {
-    color: var(--md-default-fg-color--lighter);
-    font-size: 0.62rem;
-  }
+  .rpt-empty { font-size: 0.52rem; color: var(--md-default-fg-color--lighter); }
 
   .rpt-meta {
-    margin-top: 18px;
+    margin-top: 24px;
     font-size: 0.75rem;
     color: var(--md-default-fg-color--light);
     line-height: 1.5;
-  }
-
-  .rpt-upcoming {
-    margin-top: 22px;
-  }
-
-  .rpt-upcoming h2 {
-    font-size: 1rem;
-    font-weight: 600;
-    margin: 0 0 10px;
-    color: var(--md-default-fg-color);
-  }
-
-  .rpt-upcoming-list {
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-  }
-
-  .rpt-up-next {
-    display: flex;
-    align-items: baseline;
-    gap: 10px;
-    padding: 6px 10px;
-    border: 1px solid #cccccc;
-    border-radius: 4px;
-    background: #e6e6e6;
-    font-size: 0.72rem;
-    color: #6a6a6a;
-    text-decoration: none;
-  }
-
-  a.rpt-up-next:hover {
-    border-color: var(--md-accent-fg-color);
-  }
-
-  .rpt-up-next .rpt-date {
-    font-weight: 700;
-    white-space: nowrap;
-  }
-
-  .rpt-up-next .rpt-type {
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
-    font-weight: 600;
-    opacity: 0.85;
+    border-top: 1px solid var(--md-default-fg-color--lightest);
+    padding-top: 14px;
   }
 
   @media (max-width: 1000px) {
-    .rpt-cal {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
+    .rpt-months { grid-template-columns: repeat(2, 1fr); }
   }
-
-  @media (max-width: 600px) {
-    .rpt-cal {
-      grid-template-columns: 1fr;
-    }
+  @media (max-width: 680px) {
+    .rpt-months { grid-template-columns: 1fr; }
   }
 </style>
 
 <div class="rpt-wrap">
   <div class="rpt-header">
     <h1>Proposal reports tracker</h1>
-    <p>Weekly dashboard of proposal reports — published reports and upcoming report calls.</p>
+    <p>Full-year calendar of proposal reports — published, expected, upcoming and overdue. Collapse by quarter.</p>
   </div>
 
   <div class="rpt-legend">
-    <span><span class="swatch"></span> published report</span>
-    <span><span class="swatch swatch--up"></span> upcoming report call</span>
-    <span><span class="swatch swatch--today"></span> today</span>
+    <span><span class="dot dot--upcoming"></span> upcoming call</span>
+    <span><span class="dot dot--past"></span> past call</span>
+    <span><span class="dot dot--expected"></span> expected report</span>
+    <span><span class="dot dot--published"></span> published report</span>
+    <span><span class="dot dot--overdue"></span> overdue report</span>
   </div>
 
-  <div class="rpt-cal">
-    {% for day in reports_week %}
-    <div class="rpt-day-col{% if day.is_today %} rpt-day--today{% endif %}">
-      <div class="rpt-day-head">
-        <span class="rpt-day-name">{{ day.weekday }}</span>
-        <span class="rpt-day-num">{{ day.day }}</span>
+  {% if reports_quarters %}
+    {% for q in reports_quarters %}
+    <div class="rpt-quarter" data-quarter="{{ q.ym }}">
+      <div class="rpt-quarter-label">
+        <span class="rpt-qarrow">&#9660;</span>{{ q.label }}
       </div>
-
-      {% if day.uploaded %}
-        {% for r in day.uploaded %}
-        <a class="rpt-item" href="{{ r.url }}">
-          {% if r.proposal %}<span class="rpt-prop">#{{ r.proposal }}</span> · {% endif %}{{ r.title }}
-        </a>
-        {% endfor %}
-      {% endif %}
-
-      {% if day.upcoming %}
-        {% for e in day.upcoming %}
-        {% if e.url %}
-        <a class="rpt-item rpt-item--up" href="{{ e.url }}">
-          <span class="rpt-prop">{{ e.type|replace('_', ' ')|title }}</span> · {{ e.title }}
-        </a>
-        {% else %}
-        <div class="rpt-item rpt-item--up">
-          <span class="rpt-prop">{{ e.type|replace('_', ' ')|title }}</span> · {{ e.title }}
+      <div class="rpt-months">
+        {% for m in q.months %}
+        <div>
+          <div class="rpt-month-name">{{ m.label }} {{ m.year }}</div>
+          <div class="rpt-month-head">
+            <span class="rpt-dow">Mon</span><span class="rpt-dow">Tue</span><span class="rpt-dow">Wed</span>
+            <span class="rpt-dow">Thu</span><span class="rpt-dow">Fri</span><span class="rpt-dow">Sat</span>
+            <span class="rpt-dow">Sun</span>
+          </div>
+          <div class="rpt-mgrid">
+            {% for week in m.weeks %}
+              {% for day in week %}
+                {% if day.empty %}
+                <div class="rpt-cell"></div>
+                {% else %}
+                <div class="rpt-cell{% if day.is_today %} rpt-cell--today{% endif %}">
+                  <div class="rpt-daynum">{{ day.day }}</div>
+                  <div class="rpt-events">
+                    {% for ev in day.events %}
+                      {% if ev.status == 'published' %}
+                      <a class="rpt-ev rpt-ev--published" href="{{ ev.proposal_url or (ev.url if ev.proposal_url else '#') }}">
+                        <span class="ev-prop">#{{ ev.proposal }}</span> <span class="ev-title">{{ ev.proposal_name }}</span>
+                        <span class="ev-title"><small><a href="{{ ev.url }}" style="color:inherit">&#128196; {{ ev.title }}</a></small></span>
+                      </a>
+                      {% elif ev.status == 'overdue' %}
+                      <div class="rpt-ev rpt-ev--overdue">
+                        <span class="ev-prop">#{{ ev.proposal }}</span> <span class="ev-title">отчёт не загружен</span>
+                      </div>
+                      {% elif ev.status == 'expected' %}
+                      <div class="rpt-ev rpt-ev--expected">
+                        <span class="ev-prop">#{{ ev.proposal }}</span> <span class="ev-title">ожидается отчёт</span>
+                      </div>
+                      {% elif ev.status == 'upcoming' %}
+                      <div class="rpt-ev rpt-ev--upcoming">
+                        <span class="ev-prop">#{{ ev.proposal }}</span> <span class="ev-title">звонок{% if ev.time %} · {{ ev.time }}{% endif %}</span>
+                      </div>
+                      {% else %}
+                      <div class="rpt-ev rpt-ev--past">
+                        <span class="ev-prop">#{{ ev.proposal }}</span> <span class="ev-title">звонок прошёл</span>
+                      </div>
+                      {% endif %}
+                    {% endfor %}
+                    {% if day.events|length == 0 and not day.is_today %}
+                      <div class="rpt-empty"></div>
+                    {% endif %}
+                  </div>
+                </div>
+                {% endif %}
+              {% endfor %}
+            {% endfor %}
+          </div>
         </div>
-        {% endif %}
         {% endfor %}
-      {% endif %}
-
-      {% if not day.uploaded and not day.upcoming %}
-        <div class="rpt-empty-day">No reports</div>
-      {% endif %}
+      </div>
     </div>
     {% endfor %}
-  </div>
+  {% else %}
+    <div class="rpt-empty">No data.</div>
+  {% endif %}
 
   <div class="rpt-meta">
-    Week of {{ reports_week[0].date }} — {{ reports_week[6].date }} · Published reports are parsed from
-    <code>report*.md</code> files; upcoming items are calendar report calls.
+    Published reports are parsed from <code>report*.md</code>; report-call events come from the community calendar.
   </div>
-
-  {% if reports_upcoming_next %}
-  <div class="rpt-upcoming">
-    <h2>Upcoming report calls</h2>
-    <div class="rpt-upcoming-list">
-      {% for e in reports_upcoming_next %}
-      {% if e.url %}
-      <a class="rpt-up-next" href="{{ e.url }}">
-        <span class="rpt-date">{{ e.date }}</span>
-        <span class="rpt-type">{{ e.type|replace('_', ' ')|title }}</span>
-        <span>{{ e.title }}</span>
-      </a>
-      {% else %}
-      <div class="rpt-up-next">
-        <span class="rpt-date">{{ e.date }}</span>
-        <span class="rpt-type">{{ e.type|replace('_', ' ')|title }}</span>
-        <span>{{ e.title }}</span>
-      </div>
-      {% endif %}
-      {% endfor %}
-    </div>
-  </div>
-  {% endif %}
 </div>
+
+<script>
+  (function () {
+    document.querySelectorAll('.rpt-quarter-label').forEach(function (label) {
+      label.addEventListener('click', function () {
+        var q = this.closest('.rpt-quarter');
+        if (q) q.classList.toggle('rpt-quarter--collapsed');
+      });
+    });
+  })();
+</script>
 
 {% endblock %}
 
