@@ -2,7 +2,7 @@
 title: "#629 — [P0] Possible cause of missed inferences"
 source: https://github.com/gonka-ai/gonka/issues/629
 issue_number: 629
-synced_at: 2026-08-08T11:48:58Z
+synced_at: 2026-08-08T13:16:53Z
 template: issues-main.html
 ---
 
