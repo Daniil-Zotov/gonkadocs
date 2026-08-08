@@ -2,7 +2,7 @@
 title: "#315 — [P0] Move config to DB (like seed, etc)"
 source: https://github.com/gonka-ai/gonka/issues/315
 issue_number: 315
-synced_at: 2026-08-08T21:51:15Z
+synced_at: 2026-08-08T22:54:07Z
 template: issues-main.html
 ---
 
