@@ -6,7 +6,7 @@ template: issues-main.html
 # Issues: no-label
 
 Issues with label **no-label**. Total: **246**.
-Updated: `2026-08-08 19:50 UTC`.
+Updated: `2026-08-08 20:54 UTC`.
 
 [← All Issues](../../index.md)
 
@@ -126,7 +126,7 @@ Updated: `2026-08-08 19:50 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Mayveskii">@Mayveskii</a> opened 10 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/Mayveskii">@Mayveskii</a> opened 11 days ago</span>
       
     </div>
   </div>
@@ -141,7 +141,7 @@ Updated: `2026-08-08 19:50 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/KTibow">@KTibow</a> opened 10 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/KTibow">@KTibow</a> opened 11 days ago</span>
       
     </div>
   </div>
@@ -156,7 +156,7 @@ Updated: `2026-08-08 19:50 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/bagtyyarkovusov">@bagtyyarkovusov</a> opened 11 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/bagtyyarkovusov">@bagtyyarkovusov</a> opened 12 days ago</span>
       
     </div>
   </div>
@@ -366,7 +366,7 @@ Updated: `2026-08-08 19:50 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/jack-maguli">@jack-maguli</a> opened 28 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/jack-maguli">@jack-maguli</a> opened 29 days ago</span>
       
     </div>
   </div>

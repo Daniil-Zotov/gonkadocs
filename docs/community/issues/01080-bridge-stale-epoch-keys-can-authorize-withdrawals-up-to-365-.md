@@ -2,7 +2,7 @@
 title: "#1080 — Bridge: Stale epoch keys can authorize withdrawals up to 365 epochs after rotation"
 source: https://github.com/gonka-ai/gonka/issues/1080
 issue_number: 1080
-synced_at: 2026-08-08T19:47:55Z
+synced_at: 2026-08-08T20:52:22Z
 template: issues-main.html
 ---
 
