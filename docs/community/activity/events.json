@@ -1,5 +1,49 @@
 [
   {
+    "id": "evt_20260808022922_321b5ed0",
+    "timestamp": "2026-08-08T02:29:22.120605+00:00",
+    "section": "calendar",
+    "action": "daily_reminder",
+    "item": {
+      "title": "Today: 1 events — Report for proposal #77 — Gonka PR Proposal for US/Global Regions",
+      "url": "/community/calendar/",
+      "file": null
+    },
+    "details": {
+      "today": [
+        {
+          "title": "Report for proposal #77 — Gonka PR Proposal for US/Global Regions",
+          "date": "2026-08-08",
+          "time": "",
+          "event_type": "proposal_report_upload",
+          "url": "/proposals/proposals/2026-q2/77/"
+        }
+      ],
+      "count": 1
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260808022922_fc395a99",
+    "timestamp": "2026-08-08T02:29:22.037696+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Report for proposal #77 — Gonka PR Proposal for US/Global Regions",
+      "url": "/proposals/proposals/2026-q2/77/",
+      "file": "6f0876e70c21cf1fa39f8ae7229fce40d31ef5e5aabc4a5796cefcae4eb11371"
+    },
+    "details": {
+      "status": null,
+      "content": "Report reports5 for proposal #77 has been uploaded. Read it: https://gonkadocs.com/proposals/proposals/2026-q2/77/reports5/",
+      "date": "2026-08-08",
+      "time": "",
+      "event_type": "proposal_report_upload",
+      "url": "/proposals/proposals/2026-q2/77/"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260807193159_f454f7c8",
     "timestamp": "2026-08-07T19:31:59.158253+00:00",
     "section": "calendar",
