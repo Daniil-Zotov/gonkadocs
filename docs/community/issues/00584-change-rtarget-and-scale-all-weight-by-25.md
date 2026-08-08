@@ -2,7 +2,7 @@
 title: "#584 — Change RTarget and scale all weight by 2.5"
 source: https://github.com/gonka-ai/gonka/issues/584
 issue_number: 584
-synced_at: 2026-08-08T09:06:58Z
+synced_at: 2026-08-08T10:00:40Z
 template: issues-main.html
 ---
 
