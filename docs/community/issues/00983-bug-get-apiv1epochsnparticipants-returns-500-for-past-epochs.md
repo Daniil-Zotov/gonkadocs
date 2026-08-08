@@ -2,7 +2,7 @@
 title: "#983 — Bug: GET /api/v1/epochs/{N}/participants returns 500 for past epochs (CreatedAtBlockHeight=0)"
 source: https://github.com/gonka-ai/gonka/issues/983
 issue_number: 983
-synced_at: 2026-08-08T14:52:51Z
+synced_at: 2026-08-08T15:49:56Z
 template: issues-main.html
 ---
 
