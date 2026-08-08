@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-08-07T23:27:03.960652+00:00",
+  "snapshot_time": "2026-08-08T01:04:19.362162+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -126,7 +126,7 @@
       "title": "Developer Quickstart",
       "status": null,
       "content_preview": "# Developer Quickstart\n\nThis guide explains how to send an inference request to Gonka through a community broker. It is the fastest way to start using the network today. If you would like to [run your own gateway](#2-run-your-own-gateway-advanced) instead of going through a broker, see Run your own gateway at the bottom of this page.\n\n!!! note \"How to connect to Gonka\"\n\n    Gonka inference is now organized around **devshards** — short-lived sessions that hold a small on-chain deposit (an escrow) and settle per-request billing off-chain. The role of opening a devshard, signing requests, rotating the session, and submitting settlement to the chain is performed by a piece of software called a **gateway**.\n\n    For most developers, the simplest way to use Gonka is to call a **community broker*",
-      "checksum": "06f5a5800b24d1c584667874cfb108148accfd76f4c830cf8253cfce76275125"
+      "checksum": "c631f99436d1e1027527b639b24f4ef1d22f30991502367b1f8cdc616a1a0a14"
     },
     "disclaimer.md": {
       "title": "Disclaimer",

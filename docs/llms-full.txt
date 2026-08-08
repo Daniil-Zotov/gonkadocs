@@ -9722,7 +9722,7 @@ A broker is an independent operator who runs a Gonka gateway and resells inferen
 - [https://gate.joingonka.ai/](https://gate.joingonka.ai/) · [▶ demo](https://www.youtube.com/watch?v=_761q6UEluc)
 - [https://router.gonkascan.com/](https://router.gonkascan.com/) · [▶ demo](https://youtu.be/1uWmLGPoBCM)
 - [https://gonka-api.org/](https://gonka-api.org/) · [▶ demo](https://youtu.be/JgY2ikjcP9M)
-- [https://gonkabroker.com/](https://gonkabroker.com/)
+- [https://gonkabroker.com/](https://gonkabroker.com/) · [▶ demo](https://youtu.be/3xuAOf8YZ1M?is=KHQKBa1X8WH_lxC8)
 - [https://router.mingles.ai/](https://router.mingles.ai/) · [▶ demo](https://youtu.be/gegiRnNMavY)
 - [https://console.hyperfusion.io/](https://console.hyperfusion.io/)
 - [https://inference.dahl.global](https://inference.dahl.global)
@@ -26075,7 +26075,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-92 proposals across 5 quarters. Last updated: 2026-08-07 23:28 UTC
+92 proposals across 5 quarters. Last updated: 2026-08-08 00:00 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
