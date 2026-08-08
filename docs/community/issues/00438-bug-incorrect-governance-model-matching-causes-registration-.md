@@ -2,7 +2,7 @@
 title: "#438 — 🐛 Bug: Incorrect Governance Model Matching Causes Registration Failures"
 source: https://github.com/gonka-ai/gonka/issues/438
 issue_number: 438
-synced_at: 2026-08-08T17:51:30Z
+synced_at: 2026-08-08T19:04:22Z
 template: issues-main.html
 ---
 
