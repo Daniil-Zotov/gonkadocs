@@ -2,7 +2,7 @@
 title: "#582 — Fix tx timeout"
 source: https://github.com/gonka-ai/gonka/issues/582
 issue_number: 582
-synced_at: 2026-08-09T02:35:29Z
+synced_at: 2026-08-09T04:43:19Z
 template: issues-main.html
 ---
 
