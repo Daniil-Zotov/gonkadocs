@@ -3,7 +3,7 @@ title: "#1464 — Dev Team Funding"
 source: https://github.com/gonka-ai/gonka/discussions/1464
 discussion_number: 1464
 category: protocol-improvements
-synced_at: 2026-08-09T08:55:44Z
+synced_at: 2026-08-09T09:51:04Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1464](https://github.com/gonka-ai/gonka/discussions/1464) every hour. 
