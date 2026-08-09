@@ -1,6 +1,6 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-08-09T01:03:36.232197+00:00",
+  "snapshot_time": "2026-08-09T02:36:05.927881+00:00",
   "files": {
     "d20f0b7f63fffff2927833d9557050f626cd934d5ab3479488af3773000f3011": {
       "title": "▶️ Ancapex Live: Gonka Overview",
@@ -1118,14 +1118,14 @@
       "content_preview": "Report report4 for proposal #77 has been uploaded. Read it: https://gonkadocs.com/proposals/proposals/2026-q2/77/report4/",
       "checksum": "67bf18a7a1b16391bc248c16fe60da8cb50d4b9af9fab36a48124fcc66338c0d"
     },
-    "6f0876e70c21cf1fa39f8ae7229fce40d31ef5e5aabc4a5796cefcae4eb11371": {
+    "0637c406b78ed80946effb0f3699ea91677dbd3c73afc3defc04948bf63148fc": {
       "title": "Report for proposal #77 — Gonka PR Proposal for US/Global Regions",
-      "date": "2026-08-08",
+      "date": "2026-08-09",
       "time": "",
       "event_type": "proposal_report_upload",
       "url": "/proposals/proposals/2026-q2/77/",
       "content_preview": "Report reports5 for proposal #77 has been uploaded. Read it: https://gonkadocs.com/proposals/proposals/2026-q2/77/reports5/",
-      "checksum": "7479f951978a5be469a91624b51ee24ce461ce78ea78a0f4f5b8ce8f16808f27"
+      "checksum": "68a794b4e76c31c2492123a7ddf44283a0343b3144cc113c2314128f5e26fb67"
     }
   }
 }
