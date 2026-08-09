@@ -2,7 +2,7 @@
 title: "#776 — HA infrastructure"
 source: https://github.com/gonka-ai/gonka/issues/776
 issue_number: 776
-synced_at: 2026-08-09T09:07:03Z
+synced_at: 2026-08-09T10:02:15Z
 template: issues-main.html
 ---
 

@@ -2,7 +2,7 @@
 title: "#955 — [P0] Make handling of warm keys deterministic (implementation)"
 source: https://github.com/gonka-ai/gonka/issues/955
 issue_number: 955
-synced_at: 2026-08-09T09:05:58Z
+synced_at: 2026-08-09T10:00:25Z
 template: issues-main.html
 ---
 
