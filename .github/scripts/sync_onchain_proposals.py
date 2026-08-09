@@ -11,7 +11,6 @@ Fetches all proposals from rpc.gonka.gg, generates:
 import json
 import os
 import re
-import subprocess
 import sys
 import time
 import urllib.parse
@@ -532,18 +531,8 @@ def get_proposal_reports(prop_dir):
         m = _REPORT_PUB_DATE_RE.search(head)
         if m:
             date_str = m.group(1)
-        else:
-            # No explicit publication date. Fall back to the last git commit
-            # date for this file instead of file mtime, which changes on every
-            # CI checkout and would make the report date roll to "today" daily.
-            try:
-                date_str = subprocess.check_output(
-                    ["git", "log", "-1", "--format=%cI", "--", str(f)],
-                    stderr=subprocess.DEVNULL,
-                    text=True,
-                ).strip()[:10]
-            except (subprocess.CalledProcessError, OSError):
-                date_str = ""
+        # No explicit publication date: leave empty so the report is not
+        # assigned a moving date and never surfaces in the calendar/feed.
         reports.append((label, date_str))
     return reports
 

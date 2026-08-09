@@ -1,4 +1,6 @@
 
+**Дата публикации:** 2026-08-01
+
 ### July 2026 Monthly Report
 
 Hi Team, happy to share our July 2026 Monthly Report for Gonka! You can find a detailed breakdown of our results in the report here: [https://www.figma.com/deck/F1ReIM6Ag6MB6WcbnEc2QY](https://www.figma.com/deck/F1ReIM6Ag6MB6WcbnEc2QY)

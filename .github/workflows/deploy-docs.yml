@@ -9,6 +9,8 @@ on:
       - 'hooks/**'
       - 'buildtools/**'
       - '.github/workflows/deploy-docs.yml'
+  schedule:
+    - cron: "7,37 * * * *"   # pick up sync-commits (GITHUB_TOKEN pushes don't trigger on:push)
   workflow_dispatch:
 
 permissions:
