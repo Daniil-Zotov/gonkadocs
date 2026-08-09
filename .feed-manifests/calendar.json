@@ -1,6 +1,6 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-08-09T07:34:58.469921+00:00",
+  "snapshot_time": "2026-08-09T09:13:05.958901+00:00",
   "files": {
     "d20f0b7f63fffff2927833d9557050f626cd934d5ab3479488af3773000f3011": {
       "title": "▶️ Ancapex Live: Gonka Overview",
@@ -1091,6 +1091,15 @@
       "content_preview": "Report report3 for proposal #77 has been uploaded. Read it: https://gonkadocs.com/proposals/proposals/2026-q2/77/report3/",
       "checksum": "0bf9e454aa4c7c8d201821ae5b87cb34442629f0a86bd7fed3898b19d5a4708e"
     },
+    "3c3ebacc86ccea8ce0201285c83615dc2df546e581b3d6f91c65286f6e56ff82": {
+      "title": "Report for proposal #77 — Gonka PR Proposal for US/Global Regions",
+      "date": "2026-08-01",
+      "time": "",
+      "event_type": "proposal_report_upload",
+      "url": "/proposals/proposals/2026-q2/77/",
+      "content_preview": "Report reports5 for proposal #77 has been uploaded. Read it: https://gonkadocs.com/proposals/proposals/2026-q2/77/reports5/",
+      "checksum": "978839cd37090f26ed7d598473398764c9549a272c2ea67d3a24e4be8a5ff59a"
+    },
     "8058ee07e8a999d11ba56aeca15aadc24c3f0ecfe27fc6f0130005bbe7baff39": {
       "title": "Report for proposal #51 — Support Gonka's presence at WebX Asia",
       "date": "2026-08-03",
@@ -1117,15 +1126,6 @@
       "url": "/proposals/proposals/2026-q2/77/",
       "content_preview": "Report report4 for proposal #77 has been uploaded. Read it: https://gonkadocs.com/proposals/proposals/2026-q2/77/report4/",
       "checksum": "67bf18a7a1b16391bc248c16fe60da8cb50d4b9af9fab36a48124fcc66338c0d"
-    },
-    "0637c406b78ed80946effb0f3699ea91677dbd3c73afc3defc04948bf63148fc": {
-      "title": "Report for proposal #77 — Gonka PR Proposal for US/Global Regions",
-      "date": "2026-08-09",
-      "time": "",
-      "event_type": "proposal_report_upload",
-      "url": "/proposals/proposals/2026-q2/77/",
-      "content_preview": "Report reports5 for proposal #77 has been uploaded. Read it: https://gonkadocs.com/proposals/proposals/2026-q2/77/reports5/",
-      "checksum": "68a794b4e76c31c2492123a7ddf44283a0343b3144cc113c2314128f5e26fb67"
     }
   }
 }
