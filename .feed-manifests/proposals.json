@@ -1,6 +1,6 @@
 {
   "section": "proposals",
-  "snapshot_time": "2026-08-09T07:30:49.412046+00:00",
+  "snapshot_time": "2026-08-09T08:20:12.526185+00:00",
   "files": {
     "2025-q3/1/full-proposal.md": {
       "title": "Adjust Params According to real block length",
@@ -455,12 +455,12 @@
     "2026-q2/77/reports5.md": {
       "title": "reports5",
       "status": null,
-      "content_preview": "### July 2026 Monthly Report\n\nHi Team, happy to share our July 2026 Monthly Report for Gonka! You can find a detailed breakdown of our results in the report here: [https://www.figma.com/deck/F1ReIM6Ag6MB6WcbnEc2QY](https://www.figma.com/deck/F1ReIM6Ag6MB6WcbnEc2QY)\n\n**Secured this month:**\n\n• Two interviews during WebX - one with **MPost** and one with **Blockchain Reporter**, both built around Gonka's decentralised compute story rather than founder background alone.\n• The Blockchain Reporter interview was syndicated on the **Binance blog** and **CoinStats**. The MPost interview was additionally republished in Chinese, extending reach into APAC.\n\n**Process and materials:**\n\n• We set up a dedicated working channel with representatives from the committees, giving all teams one place to share",
+      "content_preview": "**Дата публикации:** 2026-08-01\n\n### July 2026 Monthly Report\n\nHi Team, happy to share our July 2026 Monthly Report for Gonka! You can find a detailed breakdown of our results in the report here: [https://www.figma.com/deck/F1ReIM6Ag6MB6WcbnEc2QY](https://www.figma.com/deck/F1ReIM6Ag6MB6WcbnEc2QY)\n\n**Secured this month:**\n\n• Two interviews during WebX - one with **MPost** and one with **Blockchain Reporter**, both built around Gonka's decentralised compute story rather than founder background alone.\n• The Blockchain Reporter interview was syndicated on the **Binance blog** and **CoinStats**. The MPost interview was additionally republished in Chinese, extending reach into APAC.\n\n**Process and materials:**\n\n• We set up a dedicated working channel with representatives from the committees, gi",
       "funding": "",
       "quorum_met": null,
       "voting_end": "",
       "description": "",
-      "checksum": "be90a9caa5a7e03c4729ba610cdfa927e700ceb2dfd737276d60007e1a2c8fa3"
+      "checksum": "290b687bcc272de6c415f35bfdbe53c5e19d2a2ff1f8ae9f45a0fba1daa2d3ea"
     },
     "2026-q3/80/full-proposal.md": {
       "title": "GRC Proposal #3 - Restitution",

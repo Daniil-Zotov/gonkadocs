@@ -303,7 +303,7 @@ hide:
   <div class="prop-card-report"><a class="prop-report-link" href="2026-q2/77/report2/"><span class="prop-report-name">report2</span><span class="prop-report-date">2026-07-24</span></a></div>
   <div class="prop-card-report"><a class="prop-report-link" href="2026-q2/77/report3/"><span class="prop-report-name">report3</span><span class="prop-report-date">2026-07-31</span></a></div>
   <div class="prop-card-report"><a class="prop-report-link" href="2026-q2/77/report4/"><span class="prop-report-name">report4</span><span class="prop-report-date">2026-08-07</span></a></div>
-  <div class="prop-card-report"><a class="prop-report-link" href="2026-q2/77/reports5/"><span class="prop-report-name">reports5</span><span class="prop-report-date">2026-08-09</span></a></div>
+  <div class="prop-card-report"><a class="prop-report-link" href="2026-q2/77/reports5/"><span class="prop-report-name">reports5</span><span class="prop-report-date">2026-08-01</span></a></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -1300,7 +1300,7 @@ hide:
 
 </div>
 <div class="prop-oview-stats">
-<em>92 proposals across 5 quarters. Last updated: 2026-08-09 07:30 UTC</em>
+<em>92 proposals across 5 quarters. Last updated: 2026-08-09 08:20 UTC</em>
 </div>
 
 <script>
