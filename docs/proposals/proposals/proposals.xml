@@ -7,6 +7,20 @@
     <language>en</language>
     <atom:link href="https://gonkadocs.com/proposals/proposals/proposals.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>#94 – Add DeepSeek V4 Flash 0731</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q3/94/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q3/94/</guid>
+      <pubDate>Mon, 10 Aug 2026 16:05:15 +0000</pubDate>
+      <category>Voting</category>
+      <description>Register deepseek-ai/DeepSeek-V4-Flash-0731 for inference and Proof of Compute.
+
+Who we are
+
+We are the kaitaku.ai team. Many in the community know us from previous updates and optimizations to ML Node. We ran the experiments ensuring Gonka's PoC and validation work with DeepSeek V4 Flash, calculated the validation thresholds, and are now proposing to add this model to the chain.
+
+No existing parameter or model is modified - the only change is the new model entry.</description>
+    </item>
+    <item>
       <title>#93 – Upgrade devshard v4 runtime to v4.0.1</title>
       <link>https://gonkadocs.com/proposals/proposals/2026-q3/93/</link>
       <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q3/93/</guid>

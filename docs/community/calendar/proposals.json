@@ -1198,5 +1198,17 @@
     "tags": [
       "report"
     ]
+  },
+  {
+    "date": "2026-08-12",
+    "category": "governance",
+    "type": "proposal_vote_end",
+    "title": "Voting ends: #94 – Add DeepSeek V4 Flash 0731",
+    "url": "/proposals/proposals/2026-q3/94/",
+    "time": "16:05 UTC",
+    "description": "Register deepseek-ai/DeepSeek-V4-Flash-0731 for inference and Proof of Compute.\n\nWho we are\n\nWe are the kaitaku.ai team. Many in the community know us from previous updates and optimizations to ML Nod…",
+    "tags": [
+      "voting"
+    ]
   }
 ]
