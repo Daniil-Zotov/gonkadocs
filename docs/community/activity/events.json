@@ -1,5 +1,37 @@
 [
   {
+    "id": "evt_20260810153004_d315904e",
+    "timestamp": "2026-08-10T15:30:04.306161+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1572 — [BUG] Unauthenticated mlnode /train/start accepts a raw dict, letting a remote attacker control training and inject arbitrary process environment variables on GPU workers",
+      "url": "/community/issues/01572-bug-unauthenticated-mlnode-trainstart-accepts-a-raw-dict-let/",
+      "file": "01572-bug-unauthenticated-mlnode-trainstart-accepts-a-raw-dict-let.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] Unauthenticated mlnode /train/start accepts a raw dict, letting a remote attacker control training and inject arbitrary process environment variables on GPU workers\n    <span class=\"issues-number\">#1572</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/iceiceic3\">@iceiceic3</a> opened 2026-08-10 15:15 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <sp"
+    },
+    "ai_description": "A critical security issue has been opened by @iceiceic3 regarding an unauthenticated mlnode endpoint that allows remote attackers to inject arbitrary environment variables and control training on GPU workers. The team is now tracking bug #1572 to address this vulnerability."
+  },
+  {
+    "id": "evt_20260810153004_cebd0012",
+    "timestamp": "2026-08-10T15:30:04.306196+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1573 — [BUG] devshard executor can validate its own challenged result, letting a fraudulent executor push a bad settlement and steal escrowed funds",
+      "url": "/community/issues/01573-bug-devshard-executor-can-validate-its-own-challenged-result/",
+      "file": "01573-bug-devshard-executor-can-validate-its-own-challenged-result.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] devshard executor can validate its own challenged result, letting a fraudulent executor push a bad settlement and steal escrowed funds\n    <span class=\"issues-number\">#1573</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/iceiceic3\">@iceiceic3</a> opened 2026-08-10 15:19 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></"
+    },
+    "ai_description": "A critical security bug has been reported by @iceiceic3 in issue #1573, revealing that a devshard executor can currently validate its own challenged result. This vulnerability could allow a malicious executor to approve fraudulent output, push an invalid settlement, and steal escrowed funds. The issue is now open and awaiting community review."
+  },
+  {
     "id": "evt_20260810135716_23009b12",
     "timestamp": "2026-08-10T13:57:16.189439+00:00",
     "section": "calendar",
