@@ -3,7 +3,7 @@ title: "#1404 — Add a lower-barrier GLM-5.2 option and consider DeepSeek-V4-Fl
 source: https://github.com/gonka-ai/gonka/discussions/1404
 discussion_number: 1404
 category: protocol-improvements
-synced_at: 2026-08-10T08:47:43Z
+synced_at: 2026-08-10T10:33:23Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1404](https://github.com/gonka-ai/gonka/discussions/1404) every hour. 
