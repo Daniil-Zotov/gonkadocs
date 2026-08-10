@@ -1,5 +1,29 @@
 [
   {
+    "id": "evt_20260810000008_fa4697d8",
+    "timestamp": "2026-08-10T00:00:08.940353+00:00",
+    "section": "calendar",
+    "action": "daily_reminder",
+    "item": {
+      "title": "Today: 1 events — External Test Lab & Community DevNet — первый ежемесячный статус-колл | First Monthly Status Call",
+      "url": "/community/calendar/",
+      "file": null
+    },
+    "details": {
+      "today": [
+        {
+          "title": "External Test Lab & Community DevNet — первый ежемесячный статус-колл | First Monthly Status Call",
+          "date": "2026-08-10",
+          "time": "15:30 UTC",
+          "event_type": "community_call",
+          "url": "https://meet.google.com/zqp-shgw-wtj"
+        }
+      ],
+      "count": 1
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260809170247_1880b24c",
     "timestamp": "2026-08-09T17:02:47.855748+00:00",
     "section": "issues",
