@@ -1,6 +1,6 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-08-10T12:09:44.284780+00:00",
+  "snapshot_time": "2026-08-10T13:57:16.202911+00:00",
   "files": {
     "d20f0b7f63fffff2927833d9557050f626cd934d5ab3479488af3773000f3011": {
       "title": "▶️ Ancapex Live: Gonka Overview",
@@ -64,6 +64,15 @@
       "url": "https://meet.google.com/zqp-shgw-wtj",
       "content_preview": "**First monthly status call** of the External Test Lab & Community DevNet under the approved **proposal #82** (https://gonkadocs.com/proposals/proposals/2026-q3/82/).\n\nПриглашаем на первый ежемесячный статус-колл External Test Lab & Community DevNet в рамках принятого пропозала #82 (https://gonkadocs.com/proposals/proposals/2026-q3/82/).\n\nПодведём итоги первого месяца работы:\n\n• будущая тест-стратегия лаборатории\n• первая версия DevNet\n• текущий статус инфраструктуры\n• планы и задачи на следующий месяц\n\nТакже познакомим сообщество с первым QA-инженером, который присоединился к лаборатории, и расскажем, как подключить своё оборудование к DevNet.\n\n📅 Понедельник, 10 августа\n🕒 08:30 LA · 15:30 UTC · 18:30 UTC+3\n🔗 https://meet.google.com/zqp-shgw-wtj\n\n---\n\n**First monthly status call** of the E",
       "checksum": "293442ca251f7367ca91c422c1dab9b3ba26bb07651926c737f0834fea5fc422"
+    },
+    "c1d52004e79cf3ff7ee628863136452a9a2bbebbace9f35cbaff40c1bc012f0e": {
+      "title": "AMA: Global Strategy & World Event for GONKA",
+      "date": "2026-08-12",
+      "time": "16:00 UTC (19:00 MSK/Kyiv)",
+      "event_type": "ama",
+      "url": "https://us05web.zoom.us/j/82619995805?pwd=ptknWpTsKxLYT2C5vbpBXjj1dYao62.1",
+      "content_preview": "Pre-proposal AMA session on the global marketing event strategy for GONKA. Topics: why GONKA needs a world-class global event; focus on AI developers, miners, GPU hosts and strategic partners; the role of a large international online conference; the Guinness World Record as a global news hook; how this helps community growth, awareness and demand for GONKA infrastructure; next steps, budgets and proposal logic. Open Q&A before the formal proposal is submitted. Discussion chat: https://t.me/Gonka_AI_Summit",
+      "checksum": "94847676f44bd250b1e88896d057cb0d8419678f041c2f80be2d338f1c6012c9"
     },
     "78c038e78bd45597990360a0f2a711cf5de31847a18f06b1d3747a76522a97ed": {
       "title": "TheSoul — Weekly Report Call (#60–#65)",
