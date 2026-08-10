@@ -7,7 +7,10 @@
     "url": "https://www.youtube.com/@Ancapex",
     "time": "11:00 UTC",
     "description": "YouTube stream with Yakov, co-founder of Ancapex. A review of everything important in Gonka over the past months: inference, proposals v0.2.14–v0.2.15, model training, mining and token price, governance, and the roadmap.",
-    "tags": ["livestream", "ancapex"]
+    "tags": [
+      "livestream",
+      "ancapex"
+    ]
   },
   {
     "date": "2026-08-03",
@@ -17,9 +20,13 @@
     "url": "https://github.com/gonka-ai/gonka/discussions/1464",
     "time": "15:30 UTC",
     "description": "AMA session with Gleb Morgachev (@gmorgachev, co-founder of Gonka) about the proposal to fund an independent development team (Dev Team Funding). We will discuss key issues: what tasks the funding is requested for; how the independent development team will be structured; the funding mechanics; cost transparency, reporting, and Gleb’s role in the initiative. Language: Russian. Hosts: @paranko and @dem_ww. Zoom: the link will be provided at the start of the session. Proposal: https://github.com/gonka-ai/gonka/discussions/1464",
-    "tags": ["ama", "dev-team-funding", "gmorgachev"]
+    "tags": [
+      "ama",
+      "dev-team-funding",
+      "gmorgachev"
+    ]
   },
-    {
+  {
     "date": "2026-08-04",
     "category": "community",
     "type": "ama",
@@ -27,7 +34,11 @@
     "url": "https://github.com/gonka-ai/gonka/discussions/1464",
     "time": "15:30 UTC",
     "description": "AMA session with Gleb Morgachev (@gmorgachev, co-founder of Gonka) about the proposal to fund an independent development team (Dev Team Funding). We will discuss key issues: what tasks the funding is requested for; how the independent development team will be structured; the funding mechanics; cost transparency, reporting, and Gleb’s role in the initiative. Language: English. Zoom: the link will be provided at the start of the session. Proposal: https://github.com/gonka-ai/gonka/discussions/1464",
-    "tags": ["ama", "dev-team-funding", "gmorgachev"]
+    "tags": [
+      "ama",
+      "dev-team-funding",
+      "gmorgachev"
+    ]
   },
   {
     "date": "2026-08-06",
@@ -37,7 +48,12 @@
     "url": "https://docs.google.com/forms/d/e/1FAIpQLSfYCN7jbg9b5JOiLXjhhXCEY_n4BKAWyQdpYfcFz1UMrD7ARw/viewform",
     "time": "11:00 UTC",
     "description": "⛏ Покупка собственного оборудования для майнинга.\n\nМы рассматриваем возможность приобретения собственных GPU-кластеров и ASIC-майнеров. Это следующий шаг для Ancapex — перейти от аренды мощностей к владению инфраструктурой.\n\nЕсли вы хотите стать одним из первых, кто владеет ASIC-оборудованием и получает с него прибыль, приходите на звонок. Обсудим, являются ли ASIC новой нефтью, как устроена бизнес-модель и как можно поучаствовать вместе с нами.\n\n🗓 Четверг, 14:00 МСК (11:00 UTC)\n📍 Zoom, ссылку вышлем на почту или в Telegram\n\nЧтобы получить ссылку, заполните форму: https://docs.google.com/forms/d/e/1FAIpQLSfYCN7jbg9b5JOiLXjhhXCEY_n4BKAWyQdpYfcFz1UMrD7ARw/viewform\n\n---\n\nPurchasing our own mining equipment.\n\nWe are considering acquiring our own GPU clusters and ASIC miners. This is the next step for Ancapex — moving from renting capacity to owning infrastructure.\n\nIf you want to be among the first to own ASIC equipment and earn profit from it, join the call. We will discuss whether ASICs are the new oil, how the business model works, and how you can participate with us.\n\n🗓 Thursday, 14:00 MSK (11:00 UTC)\n📍 Zoom — the link will be sent to your email or Telegram\n\nTo get the link, fill in the form: https://docs.google.com/forms/d/e/1FAIpQLSfYCN7jbg9b5JOiLXjhhXCEY_n4BKAWyQdpYfcFz1UMrD7ARw/viewform",
-    "tags": ["ancapex", "mining", "asics", "community"]
+    "tags": [
+      "ancapex",
+      "mining",
+      "asics",
+      "community"
+    ]
   },
   {
     "date": "2026-08-07",
@@ -47,7 +63,11 @@
     "url": "https://us06web.zoom.us/j/87045531047",
     "time": "15:30 UTC",
     "description": "AMA-сессия с Дэвидом и Даниилом Либерманами посвящена состоянию рынка компьюта, итогам первого года протокола и дальнейшему развитию сети.\n\nПовестка:\n• Что происходит на рынке: становится ли компьют доступнее и как выход K3 повлиял на централизованных игроков\n• Год протоколу: что сделано и что ещё предстоит\n• Июль: каким он был для сети и как прошёл WebX Asia\n• Токен GNK: почему рост сети и спрос на неё важны для всех участников, от майнеров до разработчиков\n• Ожидания от будущего: следующий месяц и следующий год\n• Модели: какие появятся в сети и по какому принципу отбираются\n\n💻 Zoom: https://us06web.zoom.us/j/87045531047\n🗣️ Язык: русский\n🎙️ Гости: Дэвид и Даниил Либерманы\n🎤 Ведущий: @sultee\n\n---\n\nAMA session with David and Daniel Liberman dedicated to the state of the compute market, results of the protocol's first year, and the further development of the network.\n\nAgenda:\n• What is happening in the market — is compute becoming more affordable, and how did K3's release affect centralized players\n• A year of the protocol: what has been done and what lies ahead\n• July: how it went for the network and how WebX Asia went\n• GNK token: why the network's growth and demand matter to all participants, from miners to developers\n• Expectations for the future: the next month and the next year\n• Models: which will appear in the network and by what principle they are selected\n\n💻 Zoom · https://us06web.zoom.us/j/87045531047\n🗣️ Language: Russian\n🎙️ Guests: David and Dan Liberman\n🎤 Host: @sultee",
-    "tags": ["ama", "libermans", "community"]
+    "tags": [
+      "ama",
+      "libermans",
+      "community"
+    ]
   },
   {
     "date": "2026-06-25",
@@ -57,7 +77,13 @@
     "url": "https://us06web.zoom.us/j/88254388622",
     "time": "15:00 UTC",
     "description": "Second community AMA session with Vadim Krutov (COO of Bitfury) and David Liberman. The meeting focuses on breaking down the launch of the joint Bug Bounty program.\n\n👥 SPEAKERS\n🔥 NEW GUEST: Laurie Mercer, HackerOne Senior Director of Sales Engineering, joins the AMA session!\n• Vadim Krutov — COO of Bitfury\n• @libermans — David Liberman\n\n⚠️ IMPORTANT NOTE: THIS SESSION IS HELD ENTIRELY IN ENGLISH. ⚠️\n\n🎙️ SESSION TOPICS\n• Joint Bounty Program Launch: The vision behind the Gonka + Bitfury + HackerOne three-way partnership and strengthening network security.\n• Phased Rollout Plan: Shifting from private invites to an open form on gonka.ai, leading up to the final public launch on HackerOne.\n• Community Integration: How the report submission process works, gaining HackerOne access, and defining scope and reward tiers.\n• Transparency & Reporting: How the team plans to track and publish payout reports, considering that H1 bounties are processed off-chain.\n\n⏰ EVENT DETAILS\n📅 Date: Thursday, June 25, 2026\n🕣 Time: 08:00 AM PT / 15:00 UTC / 18:00 MSK\n🔗 Join via Zoom: https://us06web.zoom.us/j/88254388622",
-    "tags": ["ama", "bug-bounty", "bitfury", "hackerone", "libermans"]
+    "tags": [
+      "ama",
+      "bug-bounty",
+      "bitfury",
+      "hackerone",
+      "libermans"
+    ]
   },
   {
     "date": "2026-08-10",
@@ -67,6 +93,25 @@
     "url": "https://meet.google.com/zqp-shgw-wtj",
     "time": "15:30 UTC",
     "description": "**First monthly status call** of the External Test Lab & Community DevNet under the approved **proposal #82** (https://gonkadocs.com/proposals/proposals/2026-q3/82/).\n\nПриглашаем на первый ежемесячный статус-колл External Test Lab & Community DevNet в рамках принятого пропозала #82 (https://gonkadocs.com/proposals/proposals/2026-q3/82/).\n\nПодведём итоги первого месяца работы:\n\n• будущая тест-стратегия лаборатории\n• первая версия DevNet\n• текущий статус инфраструктуры\n• планы и задачи на следующий месяц\n\nТакже познакомим сообщество с первым QA-инженером, который присоединился к лаборатории, и расскажем, как подключить своё оборудование к DevNet.\n\n📅 Понедельник, 10 августа\n🕒 08:30 LA · 15:30 UTC · 18:30 UTC+3\n🔗 https://meet.google.com/zqp-shgw-wtj\n\n---\n\n**First monthly status call** of the External Test Lab & Community DevNet under the approved **proposal #82** (https://gonkadocs.com/proposals/proposals/2026-q3/82/).\n\nWe will review the results of the first month:\n\n• the future test strategy of the lab\n• the first version of DevNet\n• the current status of the infrastructure\n• plans and tasks for the next month\n\nWe will also introduce the community to the first QA engineer who joined the lab, and explain how to connect your own equipment to DevNet.\n\n📅 Monday, August 10\n🕒 08:30 LA · 15:30 UTC · 18:30 UTC+3\n🔗 https://meet.google.com/zqp-shgw-wtj",
-    "tags": ["test-lab", "devnet", "status-call", "community"]
+    "tags": [
+      "test-lab",
+      "devnet",
+      "status-call",
+      "community"
+    ]
+  },
+  {
+    "date": "2026-08-12",
+    "category": "community",
+    "type": "ama",
+    "title": "AMA: Global Strategy & World Event for GONKA",
+    "url": "https://us05web.zoom.us/j/82619995805?pwd=ptknWpTsKxLYT2C5vbpBXjj1dYao62.1",
+    "time": "16:00 UTC (19:00 MSK/Kyiv)",
+    "description": "Pre-proposal AMA session on the global marketing event strategy for GONKA. Topics: why GONKA needs a world-class global event; focus on AI developers, miners, GPU hosts and strategic partners; the role of a large international online conference; the Guinness World Record as a global news hook; how this helps community growth, awareness and demand for GONKA infrastructure; next steps, budgets and proposal logic. Open Q&A before the formal proposal is submitted. Discussion chat: https://t.me/Gonka_AI_Summit",
+    "tags": [
+      "ama",
+      "global-event",
+      "marketing"
+    ]
   }
 ]
