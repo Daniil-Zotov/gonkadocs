@@ -25124,8 +25124,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-08-12
   
   Register deepseek-ai/DeepSeek-V4-Flash-0731 for inference and Proof of Compute.  Who we are  We are the kaitaku.ai team. Many in the community know us from previous updates and optimizations to ML Nod…
-  Yes 100.0% (143,607) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✓ Turnout 26.2% (143,607 / 548,442) · Quorum 25% (137,110)
+  Yes 100.0% (152,793) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 27.9% (152,793 / 548,442) · Quorum 25% (137,110)
 
   
     #93 – Upgrade devshard v4 runtime to v4.0.1
@@ -26173,7 +26173,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-93 proposals across 5 quarters. Last updated: 2026-08-10 18:00 UTC
+93 proposals across 5 quarters. Last updated: 2026-08-10 18:40 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -63230,8 +63230,8 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-08-12
   
   Register deepseek-ai/DeepSeek-V4-Flash-0731 for inference and Proof of Compute.  Who we are  We are the kaitaku.ai team. Many in the community know us from previous updates and optimizations to ML Nod…
-  Yes 100.0% (143,607) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✓ Turnout 26.2% (143,607 / 548,442) · Quorum 25% (137,110)
+  Yes 100.0% (152,793) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 27.9% (152,793 / 548,442) · Quorum 25% (137,110)
 
   
     #93 – Upgrade devshard v4 runtime to v4.0.1
@@ -68646,12 +68646,12 @@ No existing parameter or model is modified - the only change is the new model en
     
   
   
-    Yes 100.0% (143,607)
+    Yes 100.0% (152,793)
     No 0.0% (0)
     Veto 0.0% (0)
     Abstain 0.0% (0)
-    Total 143,607 votes
-    ✓ Turnout 26.2% (143,607 / 548,442) · Quorum 25% (137,110)
+    Total 152,793 votes
+    ✓ Turnout 27.9% (152,793 / 548,442) · Quorum 25% (137,110)
   
 
 Voters
@@ -68659,6 +68659,7 @@ Voters
 VoterVote
 
 gonka1gyk0aa…k8svc5Yes 100.0%
+gonka1t0psql…mnwdadYes 100.0%
 gonka1d694r0…kgsha0Yes 100.0%
 gonka1kvmerz…lzldumYes 100.0%
 gonka168rtjf…lnkns2Yes 100.0%
