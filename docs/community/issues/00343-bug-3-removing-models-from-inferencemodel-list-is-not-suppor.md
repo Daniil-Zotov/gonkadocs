@@ -2,7 +2,7 @@
 title: "#343 — BUG-3: Removing models from inference/model_list is not supported"
 source: https://github.com/gonka-ai/gonka/issues/343
 issue_number: 343
-synced_at: 2026-08-10T22:03:10Z
+synced_at: 2026-08-10T23:01:47Z
 template: issues-main.html
 ---
 
