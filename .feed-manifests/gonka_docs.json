@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-08-10T15:53:04.317898+00:00",
+  "snapshot_time": "2026-08-10T16:48:09.707214+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -293,8 +293,8 @@
     "network-updates.md": {
       "title": "Announcements",
       "status": null,
-      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## August 3, 2026\n\n**UPGRADE EXECUTED: devshard runtime v4.0.1 is now live**\n\nThe on-chain governance vote for the `v0.2.15-devshard-v4.0.1` runtime upgrade proposal (proposal id 93) has concluded.\n\nThe proposal was APPROVED, and the devshard v4 runtime was",
-      "checksum": "913825a75126cdf8c2640f0c5b91c3470a68eac2d3fc30846c4f9090b0a870ea"
+      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n    \n## August 10, 2026\n\n**Governance vote (proposal 94): add DeepSeek V4 Flash**\n\nThe proposal to add `deepseek-ai/DeepSeek-V4-Flash-0731` to the PoC model lineup is now on-chain and open for voting.\n\n**What the proposal does**\n\nThis proposal adds DeepSeek ",
+      "checksum": "fd50a4b78dd06fe59d8cb54b46e1c5eeeeafc3bf23f6360aac099b66757c1ec8"
     },
     "participant/README.md": {
       "title": "Redirecting to Host Section",

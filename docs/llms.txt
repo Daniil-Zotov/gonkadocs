@@ -24,7 +24,7 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - 2026-08-12 13:00 UTC — INPUT Global — Weekly Call (#77): https://gonkadocs.com/proposals/proposals/2026-q2/77/
 - 2026-08-12 15:00 UTC — TheSoul — Weekly Report Call (#60–#65): https://gonkadocs.com/proposals/proposals/2026-q2/60/
 - 2026-08-12 16:00 UTC (19:00 MSK/Kyiv) — AMA: Global Strategy & World Event for GONKA: https://us05web.zoom.us/j/82619995805?pwd=ptknWpTsKxLYT2C5vbpBXjj1dYao62.1
-- 2026-08-19 13:00 UTC — INPUT Global — Weekly Call (#77): https://gonkadocs.com/proposals/proposals/2026-q2/77/
+- 2026-08-12 16:05 UTC — Voting ends: #94 – Add DeepSeek V4 Flash 0731: https://gonkadocs.com/proposals/proposals/2026-q3/94/
 
 ## Protocol Documentation
 
@@ -240,6 +240,7 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [#4 – Upgrade Proposal: v0.2.2](/proposals/proposals/2025-q3/4/): Auto-synced content
 - [2026-Q3 Proposals](/proposals/proposals/2026-q3/): Auto-synced content
 - [#87 – Remove Kimi K2.6 model](/proposals/proposals/2026-q3/87/): Auto-synced content
+- [#94 – Add DeepSeek V4 Flash 0731](/proposals/proposals/2026-q3/94/): Auto-synced content
 - [#91 – Temporarily update BLS signing parameters](/proposals/proposals/2026-q3/91/): Auto-synced content
 - [GRC Proposal #3 - Restitution](/proposals/proposals/2026-q3/80/full-proposal/): Auto-synced content
 - [#80 – GRC Proposal #3 - Restitution](/proposals/proposals/2026-q3/80/): Auto-synced content

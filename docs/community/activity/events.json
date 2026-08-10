@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260810164532_e6fefdb8",
+    "timestamp": "2026-08-10T16:45:32.211930+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "Announcements",
+      "url": "/gonka/docs/network-updates/",
+      "file": "network-updates.md"
+    },
+    "details": {
+      "content_before": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## August 3, 2026\n\n**UPGRADE EXECUTED: devshard runtime v4.0.1 is now live**\n\nThe on-chain governance vote for the `v0.2.15-devshard-v4.0.1` runtime upgrade proposal (proposal id 93) has concluded.\n\nThe proposal was APPROVED, and the devshard v4 runtime was",
+      "content_after": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n    \n## August 10, 2026\n\n**Governance vote (proposal 94): add DeepSeek V4 Flash**\n\nThe proposal to add `deepseek-ai/DeepSeek-V4-Flash-0731` to the PoC model lineup is now on-chain and open for voting.\n\n**What the proposal does**\n\nThis proposal adds DeepSeek "
+    },
+    "ai_description": "The Protocol Docs Announcements page has been updated with a new governance vote. Proposal 94 is now live on-chain, seeking approval to add DeepSeek V4 Flash to the PoC model lineup. Community members can now review the details and cast their votes."
+  },
+  {
     "id": "evt_20260810153004_d315904e",
     "timestamp": "2026-08-10T15:30:04.306161+00:00",
     "section": "issues",
