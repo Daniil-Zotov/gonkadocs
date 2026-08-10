@@ -2,7 +2,7 @@
 title: "#465 — Add a transaction for deleting the governance model. It needs to be added and verified to ensure it does not affect operations in the current epoch"
 source: https://github.com/gonka-ai/gonka/issues/465
 issue_number: 465
-synced_at: 2026-08-10T02:40:08Z
+synced_at: 2026-08-10T04:59:32Z
 template: issues-main.html
 ---
 
