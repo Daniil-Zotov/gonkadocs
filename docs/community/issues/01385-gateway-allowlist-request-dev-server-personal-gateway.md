@@ -2,7 +2,7 @@
 title: "#1385 — Gateway allowlist request - dev server personal gateway"
 source: https://github.com/gonka-ai/gonka/issues/1385
 issue_number: 1385
-synced_at: 2026-08-10T19:25:37Z
+synced_at: 2026-08-10T20:06:21Z
 template: issues-main.html
 ---
 

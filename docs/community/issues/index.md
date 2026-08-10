@@ -7,7 +7,7 @@ template: issues-main.html
 
 All issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).
 Total: **327** (🟢 open: **78**, 🔴 closed: **249**).
-Updated: `2026-08-10 19:27 UTC`.
+Updated: `2026-08-10 20:09 UTC`.
 
 <ul class="issues-list">
 <li class="issues-list-item">
@@ -155,7 +155,7 @@ Updated: `2026-08-10 19:27 UTC`.
     <p class="issues-desc">## Summary  `NetworkDutyFeeBypassDecorator` waives fees + clears min-gas-price for ~12 "network duty" message types, and the exemption is decided **purely by Go message type** (`isExemptMessageType` i...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/kAIPraxisBot">@kAIPraxisBot</a> opened 6 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/kAIPraxisBot">@kAIPraxisBot</a> opened 7 days ago</span>
       
     </div>
   </div>
@@ -275,7 +275,7 @@ Updated: `2026-08-10 19:27 UTC`.
     <p class="issues-desc">Release binaries are currently built on a maintainer's machine and uploaded by hand. On v0.2.14 the release was published 2026-07-20, and the four cross-platform `inferenced` binaries were attached 20...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/KTibow">@KTibow</a> opened 12 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/KTibow">@KTibow</a> opened 13 days ago</span>
       
     </div>
   </div>
