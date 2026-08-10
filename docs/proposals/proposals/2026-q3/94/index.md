@@ -45,18 +45,18 @@ No existing parameter or model is modified - the only change is the new model en
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:0.1%"></div>
+    <div class="prop-tally-yes" style="width:2.3%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (693)</span>
+    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (12,626)</span>
     <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-total-text">Total 693 votes</span>
-    <span class="prop-tally-veto-text">✗ Turnout <strong>0.1%</strong> (693 / 548,442) · Quorum <strong>25%</strong> (137,110)</span>
+    <span class="prop-tally-total-text">Total 12,626 votes</span>
+    <span class="prop-tally-veto-text">✗ Turnout <strong>2.3%</strong> (12,626 / 548,442) · Quorum <strong>25%</strong> (137,110)</span>
   </div>
 </div>
 
@@ -69,6 +69,8 @@ No existing parameter or model is modified - the only change is the new model en
 <thead><tr><th>Voter</th><th>Vote</th></tr></thead>
 <tbody>
 <tr><td><a href="https://gonka.gg/address/gonka1gyk0aahvr3qeju4zx0nplfreej6cy4jjk8svc5" target="_blank" class="prop-voter-addr">gonka1gyk0aa…k8svc5</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
+<tr><td><a href="https://gonka.gg/address/gonka1d694r00czmq75txghwjcuk07lxvc8d4ekgsha0" target="_blank" class="prop-voter-addr">gonka1d694r0…kgsha0</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
+<tr><td><a href="https://gonka.gg/address/gonka168rtjfkszuhcggg4dfyse4yh7xn9zwfglnkns2" target="_blank" class="prop-voter-addr">gonka168rtjf…lnkns2</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 </tbody>
 </table>
 </div>
