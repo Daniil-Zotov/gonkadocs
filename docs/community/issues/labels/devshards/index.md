@@ -6,7 +6,7 @@ template: issues-main.html
 # Issues: devshards
 
 Issues with label **devshards**. Total: **15**.
-Updated: `2026-08-10 05:00 UTC`.
+Updated: `2026-08-10 06:48 UTC`.
 
 [← All Issues](../../index.md)
 
@@ -51,7 +51,7 @@ Updated: `2026-08-10 05:00 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 20 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 21 days ago</span>
       
     </div>
   </div>
@@ -66,7 +66,7 @@ Updated: `2026-08-10 05:00 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 20 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 21 days ago</span>
       
     </div>
   </div>
