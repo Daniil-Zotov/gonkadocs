@@ -1,5 +1,25 @@
 [
   {
+    "id": "evt_20260810172752_eb388ef3",
+    "timestamp": "2026-08-10T17:27:52.819477+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Voting ends: #94 – Add DeepSeek V4 Flash 0731",
+      "url": "/proposals/proposals/2026-q3/94/",
+      "file": "cb7620805a256afd4d91a54377f435d4c91eb9628fb5cb3fbcbe77f311b62711"
+    },
+    "details": {
+      "status": null,
+      "content": "Register deepseek-ai/DeepSeek-V4-Flash-0731 for inference and Proof of Compute.\n\nWho we are\n\nWe are the kaitaku.ai team. Many in the community know us from previous updates and optimizations to ML Nod…",
+      "date": "2026-08-12",
+      "time": "16:05 UTC",
+      "event_type": "proposal_vote_end",
+      "url": "/proposals/proposals/2026-q3/94/"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260810171703_08c9c6e8",
     "timestamp": "2026-08-10T17:17:03.414264+00:00",
     "section": "issues",

@@ -1,6 +1,6 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-08-10T15:31:41.814639+00:00",
+  "snapshot_time": "2026-08-10T17:27:52.833988+00:00",
   "files": {
     "d20f0b7f63fffff2927833d9557050f626cd934d5ab3479488af3773000f3011": {
       "title": "▶️ Ancapex Live: Gonka Overview",
@@ -1135,6 +1135,15 @@
       "url": "/proposals/proposals/2026-q2/77/",
       "content_preview": "Report report4 for proposal #77 has been uploaded. Read it: https://gonkadocs.com/proposals/proposals/2026-q2/77/report4/",
       "checksum": "67bf18a7a1b16391bc248c16fe60da8cb50d4b9af9fab36a48124fcc66338c0d"
+    },
+    "cb7620805a256afd4d91a54377f435d4c91eb9628fb5cb3fbcbe77f311b62711": {
+      "title": "Voting ends: #94 – Add DeepSeek V4 Flash 0731",
+      "date": "2026-08-12",
+      "time": "16:05 UTC",
+      "event_type": "proposal_vote_end",
+      "url": "/proposals/proposals/2026-q3/94/",
+      "content_preview": "Register deepseek-ai/DeepSeek-V4-Flash-0731 for inference and Proof of Compute.\n\nWho we are\n\nWe are the kaitaku.ai team. Many in the community know us from previous updates and optimizations to ML Nod…",
+      "checksum": "59fdc32c5b8536f0456acc375fa8e0af5d166feae5d171663e3a50f7de548c25"
     }
   }
 }
