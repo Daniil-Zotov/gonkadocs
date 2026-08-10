@@ -7,7 +7,7 @@ template: issues-main.html
 
 All issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).
 Total: **325** (🟢 open: **76**, 🔴 closed: **249**).
-Updated: `2026-08-10 12:06 UTC`.
+Updated: `2026-08-10 13:53 UTC`.
 
 <ul class="issues-list">
 <li class="issues-list-item">
@@ -20,7 +20,7 @@ Updated: `2026-08-10 12:06 UTC`.
     <p class="issues-desc">## Summary  When a Devshard escrow's slots are distributed unevenly across participants, the **timeout-vote path can become structurally unable to reach its weight threshold**, leaving a stranded nonc...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/kAIPraxisBot">@kAIPraxisBot</a> opened 19 hours ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/kAIPraxisBot">@kAIPraxisBot</a> opened 21 hours ago</span>
       
     </div>
   </div>
@@ -320,7 +320,7 @@ Updated: `2026-08-10 12:06 UTC`.
     <p class="issues-desc">```markdown Hi Gonka core team & community,  Requesting inclusion of our escrow creator address in `devshard_escrow_params.allowed_creator_addresses` to operate a self-hosted devshard gateway.  ## Esc...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/nikshh">@nikshh</a> opened 18 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/nikshh">@nikshh</a> opened 19 days ago</span>
       
     </div>
   </div>
