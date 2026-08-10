@@ -2,7 +2,7 @@
 title: "#1466 — Better devshardd inference handling"
 source: https://github.com/gonka-ai/gonka/issues/1466
 issue_number: 1466
-synced_at: 2026-08-10T15:27:02Z
+synced_at: 2026-08-10T17:13:08Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/a-kuprin">@a-kuprin</a> opened 2026-07-17 09:59 UTC</span>
-    <span class="issues-meta-item">1 comment</span>
-    <span class="issues-meta-item">Updated 2026-07-23 21:22 UTC</span>
+    <span class="issues-meta-item">2 comments</span>
+    <span class="issues-meta-item">Updated 2026-08-10 17:10 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -51,7 +51,7 @@ Task: Persist, until the inference is finished/settled: payload + parameters (fo
 
 ---
 
-## 💬 Comments (1)
+## 💬 Comments (2)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -60,6 +60,15 @@ Task: Persist, until the inference is finished/settled: payload + parameters (fo
   </div>
   <div class="issues-comment-body issues-content">
     <p>When working with this ussue PR https://github.com/gonka-ai/gonka/pull/1496 should be taken into account, that implements HA redesign</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/a-kuprin">@a-kuprin</a></span>
+    <span class="issues-meta-item">commented 2026-08-10 17:10 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>2 and 3 implemented at https://github.com/gonka-ai/gonka/pull/1574</p>
   </div>
 </div>
 
