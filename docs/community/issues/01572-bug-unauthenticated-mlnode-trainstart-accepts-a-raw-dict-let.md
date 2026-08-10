@@ -2,7 +2,7 @@
 title: "#1572 — [BUG] Unauthenticated mlnode /train/start accepts a raw dict, letting a remote attacker control training and inject arbitrary process environment variables on GPU workers"
 source: https://github.com/gonka-ai/gonka/issues/1572
 issue_number: 1572
-synced_at: 2026-08-10T20:05:56Z
+synced_at: 2026-08-10T21:05:15Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/iceiceic3">@iceiceic3</a> opened 2026-08-10 15:15 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-08-10 15:15 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-08-10 20:15 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
 </div>
@@ -64,6 +64,20 @@ This is the second half of an entirely unauthenticated control surface on the GP
 **Suggested remediation:** require authentication on the mlnode control API; validate /train/start against a strict schema; remove set_training_env or restrict it to an allowlist of safe keys; never bind 8080 to 0.0.0.0 in the reference deployment.
 
 [report-3-train-controlplane.zip](https://github.com/user-attachments/files/30904359/report-3-train-controlplane.zip)
+</div>
+
+---
+
+## 💬 Comments (1)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span class="issues-meta-item">commented 2026-08-10 20:15 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Hi @iceiceic3! Responsible disclosure helps keep the network secure for everyone. Use the form https://gonka.ai/docs/report-vulnerability/ to submit a vulnerability report directly through HackerOne. Valuable findings are subject to reward.</p>
+  </div>
 </div>
 
 ---

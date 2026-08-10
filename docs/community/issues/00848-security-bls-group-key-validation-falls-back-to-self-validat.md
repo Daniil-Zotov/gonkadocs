@@ -2,7 +2,7 @@
 title: "#848 — Security: BLS group key validation falls back to self-validation when previous epoch data is missing"
 source: https://github.com/gonka-ai/gonka/issues/848
 issue_number: 848
-synced_at: 2026-08-10T20:07:54Z
+synced_at: 2026-08-10T21:07:24Z
 template: issues-main.html
 ---
 

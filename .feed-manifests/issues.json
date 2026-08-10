@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-08-10T20:09:34.524397+00:00",
+  "snapshot_time": "2026-08-10T21:12:50.356759+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "Description",
@@ -3301,18 +3301,22 @@
     "01572-bug-unauthenticated-mlnode-trainstart-accepts-a-raw-dict-let.md": {
       "title": "#1572 — [BUG] Unauthenticated mlnode /train/start accepts a raw dict, letting a remote attacker control training and inject arbitrary process environment variables on GPU workers",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] Unauthenticated mlnode /train/start accepts a raw dict, letting a remote attacker control training and inject arbitrary process environment variables on GPU workers\n    <span class=\"issues-number\">#1572</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/iceiceic3\">@iceiceic3</a> opened 2026-08-10 15:15 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <sp",
-      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "comment_bodies": [],
-      "checksum": "808b6e81d5252a8d308d0f8f9409fa9d5df34b7ee7bec5fb73da45fba6121a47"
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] Unauthenticated mlnode /train/start accepts a raw dict, letting a remote attacker control training and inject arbitrary process environment variables on GPU workers\n    <span class=\"issues-number\">#1572</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/iceiceic3\">@iceiceic3</a> opened 2026-08-10 15:15 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <spa",
+      "comment_checksum": "a32e6469b963389cac0fccc77f451911ca7825730797b4e11613908d31bc2989",
+      "comment_bodies": [
+        "Hi @iceiceic3! Responsible disclosure helps keep the network secure for everyone. Use the form https://gonka.ai/docs/report-vulnerability/ to submit a vulnerability report directly through HackerOne. Valuable findings are subject to reward."
+      ],
+      "checksum": "b83f05dfdaa783fd92ddb675deb29a8912a0dd9c2c952355fa2112dc633b3abe"
     },
     "01573-bug-devshard-executor-can-validate-its-own-challenged-result.md": {
       "title": "#1573 — [BUG] devshard executor can validate its own challenged result, letting a fraudulent executor push a bad settlement and steal escrowed funds",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] devshard executor can validate its own challenged result, letting a fraudulent executor push a bad settlement and steal escrowed funds\n    <span class=\"issues-number\">#1573</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/iceiceic3\">@iceiceic3</a> opened 2026-08-10 15:19 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></",
-      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "comment_bodies": [],
-      "checksum": "09ff42f0b6702a7f2dc0bf7062fe360083480d9518fa70d213a0f721a8fff463"
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] devshard executor can validate its own challenged result, letting a fraudulent executor push a bad settlement and steal escrowed funds\n    <span class=\"issues-number\">#1573</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/iceiceic3\">@iceiceic3</a> opened 2026-08-10 15:19 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></s",
+      "comment_checksum": "a32e6469b963389cac0fccc77f451911ca7825730797b4e11613908d31bc2989",
+      "comment_bodies": [
+        "Hi @iceiceic3! Responsible disclosure helps keep the network secure for everyone. Use the form https://gonka.ai/docs/report-vulnerability/ to submit a vulnerability report directly through HackerOne. Valuable findings are subject to reward."
+      ],
+      "checksum": "bfa372694df99a4b504c6a85334b3bc8525cf4338d92ff797b99417add076616"
     }
   }
 }

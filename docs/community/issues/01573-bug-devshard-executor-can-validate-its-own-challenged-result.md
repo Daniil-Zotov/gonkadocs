@@ -2,7 +2,7 @@
 title: "#1573 — [BUG] devshard executor can validate its own challenged result, letting a fraudulent executor push a bad settlement and steal escrowed funds"
 source: https://github.com/gonka-ai/gonka/issues/1573
 issue_number: 1573
-synced_at: 2026-08-10T20:05:55Z
+synced_at: 2026-08-10T21:05:15Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/iceiceic3">@iceiceic3</a> opened 2026-08-10 15:19 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-08-10 15:19 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-08-10 20:14 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
 </div>
@@ -59,6 +59,20 @@ devshard escrow settlement is a value-bearing decision: whoever the validation v
 **Suggested remediation:** reject any validation vote where voter == challengedExecutor; enforce the ShouldValidate sampling on-chain so the interested party cannot be a validator of its own challenge; authenticate/rate-limit the devshard validation surface to prevent honest-validator suppression.
 
 [report-4-self-vote.zip](https://github.com/user-attachments/files/30904473/report-4-self-vote.zip)
+</div>
+
+---
+
+## 💬 Comments (1)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span class="issues-meta-item">commented 2026-08-10 20:14 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Hi @iceiceic3! Responsible disclosure helps keep the network secure for everyone. Use the form https://gonka.ai/docs/report-vulnerability/ to submit a vulnerability report directly through HackerOne. Valuable findings are subject to reward.  </p>
+  </div>
 </div>
 
 ---
