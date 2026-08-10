@@ -3,7 +3,7 @@ title: "#1027 — Gonka AI x n8n"
 source: https://github.com/gonka-ai/gonka/discussions/1027
 discussion_number: 1027
 category: show-and-tell
-synced_at: 2026-08-10T13:36:52Z
+synced_at: 2026-08-10T15:10:48Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1027](https://github.com/gonka-ai/gonka/discussions/1027) every hour. 
