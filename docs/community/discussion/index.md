@@ -4,7 +4,7 @@ title: "GitHub Discussions"
 
 # GitHub Discussions — `gonka-ai/gonka`
 
-Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **82**. Обновлено: `2026-08-11 15:11 UTC`.
+Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **82**. Обновлено: `2026-08-11 17:08 UTC`.
 
 ## 📂 Категории
 
@@ -22,6 +22,7 @@ title: "GitHub Discussions"
 
 | # | Заголовок | Категория | Автор | Обновлено |
 |---:|---|---|---|---|
+| [1388](protocol-improvements/1388-external-test-lab-community-devnet.md) | [External Test Lab & Community DevNet](protocol-improvements/1388-external-test-lab-community-devnet.md) | :gear: Protocol Improvements | [@paranjko](https://github.com/paranjko) | 2026-08-11 |
 | [1561](governance-proposal-reports/1561-proposal-77-input-global-monthly-report-july.md) | [Proposal #77: INPUT Global - Monthly Report \|\| July](governance-proposal-reports/1561-proposal-77-input-global-monthly-report-july.md) | :bookmark_tabs: Governance Proposal Reports | [@apakhtina](https://github.com/apakhtina) | 2026-08-07 |
 | [1477](governance-proposal-reports/1477-proposal-74-gonka-labs-monthly-report-no1.md) | [Proposal #74: Gonka Labs - Monthly Report No.1](governance-proposal-reports/1477-proposal-74-gonka-labs-monthly-report-no1.md) | :bookmark_tabs: Governance Proposal Reports | [@gonkalabs](https://github.com/gonkalabs) | 2026-08-05 |
 | [1540](governance-proposal-reports/1540-proposal-51-webx-asia-2026-post-event-report.md) | [Proposal #51: WebX Asia 2026 — Post-Event Report](governance-proposal-reports/1540-proposal-51-webx-asia-2026-post-event-report.md) | :bookmark_tabs: Governance Proposal Reports | [@Ryanchen911](https://github.com/Ryanchen911) | 2026-08-05 |
@@ -35,7 +36,6 @@ title: "GitHub Discussions"
 | [1502](protocol-improvements/1502-обратная-связь-от-разработчика-почему-текущий-модельный-ряд-.md) | [Обратная связь от разработчика: почему текущий модельный ряд Gonka пока не проходит production bar](protocol-improvements/1502-обратная-связь-от-разработчика-почему-текущий-модельный-ряд-.md) | :gear: Protocol Improvements | [@bitcompool](https://github.com/bitcompool) | 2026-07-26 |
 | [1445](protocol-improvements/1445-the-missing-first-mile-onboarding-gonka-from-a-newcomers-per.md) | [The missing first mile: onboarding Gonka from a newcomer’s perspective](protocol-improvements/1445-the-missing-first-mile-onboarding-gonka-from-a-newcomers-per.md) | :gear: Protocol Improvements | [@julb1992](https://github.com/julb1992) | 2026-07-25 |
 | [1500](protocol-improvements/1500-more-compute-from-the-same-gonka-hardware-two-phase-cooling-.md) | [More compute from the same Gonka hardware: two-phase cooling pilot](protocol-improvements/1500-more-compute-from-the-same-gonka-hardware-two-phase-cooling-.md) | :gear: Protocol Improvements | [@bitcompool](https://github.com/bitcompool) | 2026-07-25 |
-| [1388](protocol-improvements/1388-external-test-lab-community-devnet.md) | [External Test Lab & Community DevNet](protocol-improvements/1388-external-test-lab-community-devnet.md) | :gear: Protocol Improvements | [@paranjko](https://github.com/paranjko) | 2026-07-25 |
 | [1367](protocol-improvements/1367-high-availability-architecture.md) | [High-Availability Architecture](protocol-improvements/1367-high-availability-architecture.md) | :gear: Protocol Improvements | [@a-kuprin](https://github.com/a-kuprin) | 2026-07-22 |
 | [1476](show-and-tell/1476-unposted.md) | [unposted](show-and-tell/1476-unposted.md) | :raised_hands: Show and Tell | [@nsvdev](https://github.com/nsvdev) | 2026-07-18 |
 | [1404](protocol-improvements/1404-add-a-lower-barrier-glm-52-option-and-consider-deepseek-v4-f.md) | [Add a lower-barrier GLM-5.2 option and consider DeepSeek-V4-Flash as the default model](protocol-improvements/1404-add-a-lower-barrier-glm-52-option-and-consider-deepseek-v4-f.md) | :gear: Protocol Improvements | [@enonog](https://github.com/enonog) | 2026-07-16 |

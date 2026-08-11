@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-08-11T15:11:42.958769+00:00",
+  "snapshot_time": "2026-08-11T17:08:38.318581+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "Welcome to Gonka Discussions 👋",
@@ -312,7 +312,7 @@
       "title": "External Test Lab & Community DevNet",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1388](https://github.com/gonka-ai/gonka/discussions/1388) every hour. \n\n# External Test Lab & Community DevNet\n\n**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-07-02 22:04 UTC · \n\n---\n\n## 📝 Описание\n\n# External Test Lab & Community DevNet\n\n*4-month pilot proposal for community-owned testing infrastructure and QA capacity*\n\n# 1. Executive Summary\n\nThis proposal requests funding for a 4-month pilot of External Test Lab & Community DevNet: a community-owned testing function for Gonka protocol upgrades, DevShards, inference flows, host/broker operations, and geographically distributed network behavior before governance decisions and production rollout.\n\n| **Item**              | **Proposa",
-      "checksum": "fcbe6b6564ba674af7b971ca5498869b046cb4cc199041cc884bf59b55575dc5"
+      "checksum": "f1a6af36aba9ded966e3c2385a2a92e404fa5b40054a6b12f9bd0c6840c563e2"
     },
     "protocol-improvements/1404-add-a-lower-barrier-glm-52-option-and-consider-deepseek-v4-f.md": {
       "title": "Add a lower-barrier GLM-5.2 option and consider DeepSeek-V4-Flash as the default model",
