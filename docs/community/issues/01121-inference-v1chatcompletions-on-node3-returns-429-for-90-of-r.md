@@ -2,7 +2,7 @@
 title: "#1121 — Inference /v1/chat/completions on node3 returns 429 for ~90% of requests — single live TA caps community gateways at ~10% pass-rate"
 source: https://github.com/gonka-ai/gonka/issues/1121
 issue_number: 1121
-synced_at: 2026-08-10T23:54:23Z
+synced_at: 2026-08-11T02:32:22Z
 template: issues-main.html
 ---
 

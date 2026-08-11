@@ -2,7 +2,7 @@
 title: "#1570 — Devshard: timeout-vote threshold unreachable under skewed slot distribution — stranded nonce cannot be resolved (liveness)"
 source: https://github.com/gonka-ai/gonka/issues/1570
 issue_number: 1570
-synced_at: 2026-08-10T23:53:38Z
+synced_at: 2026-08-11T02:31:20Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/kAIPraxisBot">@kAIPraxisBot</a> opened 2026-08-09 16:18 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-08-09 16:18 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-08-11 02:24 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -59,6 +59,31 @@ Two verifiers responded with combined weight 3; the threshold is 8; the remainin
 - add a **fallback resolution** when the reachable verifier set cannot structurally reach the threshold (so a single large-share or absent participant cannot deadlock timeout resolution); and/or
 - bound slot-share skew at escrow creation so no single participant can hold ≥ `total − threshold` of the slots.
 
+</div>
+
+---
+
+## 💬 Comments (1)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/redstartechno">@redstartechno</a></span>
+    <span class="issues-meta-item">commented 2026-08-11 02:24 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>I traced this on current <code>main</code> (<code>f040d0a5b</code>). The report holds, and there is one property worth recording before anyone picks a direction.</p>
+<p><strong>Confirmed:</strong></p>
+<ul>
+<li>Per-participant vote weight is the escrow slot count — <code>AddressSlotCount</code>, <code>devshard/state/machine.go:1431-1433</code>, accumulated at <code>devshard/user/session.go:2123</code>.</li>
+<li>The threshold is <code>ComputeVoteThreshold(groupSize, VoteThresholdFactor)</code> (<code>devshard/types/config.go:77-82</code>) with the default factor 50 (<code>devshard/testenv/config/config.go:285</code>), so it is computed over <strong>total</strong> group slot weight. The comparison is <code>accWeight &gt; voteThreshold</code> at <code>devshard/user/session.go:2147</code>, while <code>accWeight</code> only ever collects weight from verifiers that actually answered.</li>
+<li>Finalize quorum is separate: <code>2*totalSlots/3 + 1</code> at <code>devshard/state/machine.go:1423-1424</code>.</li>
+<li>After <code>timeout_insufficient_votes</code> (<code>devshard/user/session.go:1904-1905</code>) the call returns an error with no retry, escalation or operator path, so the nonce stays unresolved.</li>
+</ul>
+<p>With a skew such as 1 / 2 / 13 in a 16-slot group, the two smaller holders cannot reach threshold 8 on their own — whether the large holder is offline or simply declines to vote.</p>
+<p><strong>The property worth noting:</strong> <code>VoteThreshold</code> is frozen into <code>SessionConfig</code> at session creation and pinned by <code>devshard/state/vote_threshold_freeze_test.go</code> ("bind-time freeze … for protocol compatibility"), as part of <code>EscrowState</code> / <code>StateRootAndProtocolVersion</code>. So a change to the threshold formula would only affect sessions created under a new approved version name — it cannot unstick escrows that are already bound, and those would still need a resolution path of their own. That puts this in protocol-version territory rather than a self-contained fix.</p>
+<p>For completeness: #1569 (merged) and #1549 (open) both harden how votes are <em>verified</em> before being counted, but neither changes the threshold semantics.</p>
+<p>Posting this as reference material rather than a proposal — the tradeoff between liveness and the safety margin (threshold over reachable weight, a per-participant weight cap, or an explicit resolution path for exhausted verifiers) seems like yours to make. If you settle on a direction, I am happy to implement it with regression coverage for the skewed-slot case.</p>
+  </div>
 </div>
 
 ---

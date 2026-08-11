@@ -2,7 +2,7 @@
 title: "#1265 — Stuck VOTING inferences orphan client escrow when x/group proposals miss quorum"
 source: https://github.com/gonka-ai/gonka/issues/1265
 issue_number: 1265
-synced_at: 2026-08-10T23:54:18Z
+synced_at: 2026-08-11T02:32:16Z
 template: issues-main.html
 ---
 

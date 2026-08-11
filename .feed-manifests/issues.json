@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-08-10T23:56:15.001725+00:00",
+  "snapshot_time": "2026-08-11T02:36:26.144347+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "Description",
@@ -3267,10 +3267,12 @@
     "01539-hardening-network-duty-fee-bypass-admits-zero-fee-txs-from-n.md": {
       "title": "#1539 — Hardening: network-duty fee-bypass admits zero-fee txs from non-participants (no signer authorization at the ante layer)",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Hardening: network-duty fee-bypass admits zero-fee txs from non-participants (no signer authorization at the ante layer)\n    <span class=\"issues-number\">#1539</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kAIPraxisBot\">@kAIPraxisBot</a> opened 2026-08-03 19:33 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>",
-      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "comment_bodies": [],
-      "checksum": "397eb26774bd003d7755d7958cfbe454ee04455bb4cfe22895b87a1a42fdce4c"
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Hardening: network-duty fee-bypass admits zero-fee txs from non-participants (no signer authorization at the ante layer)\n    <span class=\"issues-number\">#1539</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kAIPraxisBot\">@kAIPraxisBot</a> opened 2026-08-03 19:33 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n",
+      "comment_checksum": "48e82e9d81c5ac474f309781aa1f2149d7f07d097ad4110d03c6d1edb9c8a9bf",
+      "comment_bodies": [
+        "I verified this end-to-end against upgrade-v0.2.16 (6e92e9089) and can confirm the report. I'd like to take it. Confirmed Ante ordering. In NewAnteHandler (inference-chain/app/ante.go:195) NetworkDutyFeeBypassDecorator sits at index 11 and ante.NewSigVerificationDecorator at index 19 — the fee-waiver decision is made before the signature is verified, so the exemption is granted on unauthenticated "
+      ],
+      "checksum": "029ecb697d375dd6e71250249722fe8cd826b3a5bdbf244e597ffc2be042ce25"
     },
     "01542-devshardctl-parseprotocolversion-rejects-route-v4-noisy-rota.md": {
       "title": "#1542 — devshardctl: ParseProtocolVersion rejects route v4 (noisy rotation fallback log)",
@@ -3293,10 +3295,12 @@
     "01570-devshard-timeout-vote-threshold-unreachable-under-skewed-slo.md": {
       "title": "#1570 — Devshard: timeout-vote threshold unreachable under skewed slot distribution — stranded nonce cannot be resolved (liveness)",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Devshard: timeout-vote threshold unreachable under skewed slot distribution — stranded nonce cannot be resolved (liveness)\n    <span class=\"issues-number\">#1570</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kAIPraxisBot\">@kAIPraxisBot</a> opened 2026-08-09 16:18 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </di",
-      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "comment_bodies": [],
-      "checksum": "28fcb3eb348bf2895b0c5aadc01c7a145b00edc8fa3c7c6c0dd890b5fca9e3c7"
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Devshard: timeout-vote threshold unreachable under skewed slot distribution — stranded nonce cannot be resolved (liveness)\n    <span class=\"issues-number\">#1570</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kAIPraxisBot\">@kAIPraxisBot</a> opened 2026-08-09 16:18 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div",
+      "comment_checksum": "8ff85adbb39e5c12d380d04e40888a1cc66604e02b289b287036cbc3bb969c68",
+      "comment_bodies": [
+        "I traced this on current main (f040d0a5b). The report holds, and there is one property worth recording before anyone picks a direction. Confirmed: Per-participant vote weight is the escrow slot count — AddressSlotCount, devshard/state/machine.go:1431-1433, accumulated at devshard/user/session.go:2123. The threshold is ComputeVoteThreshold(groupSize, VoteThresholdFactor) (devshard/types/config.go:7"
+      ],
+      "checksum": "d52eb3fe11b601af195dd557a3ffb0b042e9106666b73e6f310ceeeaf0f2363b"
     },
     "01572-bug-unauthenticated-mlnode-trainstart-accepts-a-raw-dict-let.md": {
       "title": "#1572 — [BUG] Unauthenticated mlnode /train/start accepts a raw dict, letting a remote attacker control training and inject arbitrary process environment variables on GPU workers",
