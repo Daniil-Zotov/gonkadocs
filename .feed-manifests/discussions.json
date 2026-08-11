@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-08-11T22:56:22.653729+00:00",
+  "snapshot_time": "2026-08-11T23:53:31.482180+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "Welcome to Gonka Discussions 👋",
@@ -91,6 +91,12 @@
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1561](https://github.com/gonka-ai/gonka/discussions/1561) every hour. \n\n# Proposal #77: INPUT Global - Monthly Report || July\n\n**Автор:** [@apakhtina](https://github.com/apakhtina) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-08-07 15:58 UTC · \n\n---\n\n## 📝 Описание\n\n<img width=\"3840\" height=\"2160\" alt=\"image\" src=\"https://github.com/user-attachments/assets/7355944b-ac24-48cd-b1ac-1fb00fcff0b5\" />\n\n### July 2026 Monthly Report\n\nHi Team, happy to share our July 2026 Monthly Report for Gonka! You can find a detailed breakdown of our results in the report here: https://www.figma.com/deck/F1ReIM6Ag6MB6WcbnEc2QY\n\n**Secured this month:**\n\n• Two interviews during WebX - one with **MPost** and one with **Blockchain Reporter**, ",
       "checksum": "8834f887b2ab4dbeaa4489d08656db43076236d297605e3830039fdb3c7662ba"
+    },
+    "governance-proposal-reports/1582-proposal-82-external-test-lab-community-devnet-m1-report.md": {
+      "title": "Proposal #82: External Test Lab & Community DevNet — M1 Report",
+      "status": null,
+      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1582](https://github.com/gonka-ai/gonka/discussions/1582) every hour. \n\n# Proposal #82: External Test Lab & Community DevNet — M1 Report\n\n**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-08-11 23:12 UTC · \n\n---\n\n## 📝 Описание\n\n**Period:** 2026-07-10 — 2026-08-09 · **Proposal:** [#82](https://gonka.gg/network/proposals/82) ([discussion](https://github.com/gonka-ai/gonka/discussions/1388)) · **Next unlock:** 2026-08-13\n\n## Workstream A — DevNet infrastructure (M1: Setup)\n\n| M1 requirement | Status |\n|---|---|\n| DevNet design agreed | Done — [architecture note](https://github.com/paranjko/external-test-lab/blob/main/devnet/architecture.md) |\n| ≥5 nodes online | Done — node0",
+      "checksum": "8c0bce71c3e086edef7664845e963f9ca31df16ab2f8173c63ad3a9b61df90fc"
     },
     "protocol-improvements/0795-welcome-to-proposals.md": {
       "title": "Welcome to Proposals 👋",

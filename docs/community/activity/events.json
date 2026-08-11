@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260811235302_470bae67",
+    "timestamp": "2026-08-11T23:53:02.739188+00:00",
+    "section": "discussions",
+    "action": "new",
+    "item": {
+      "title": "Proposal #82: External Test Lab & Community DevNet — M1 Report",
+      "url": "/community/discussion/governance-proposal-reports/1582-proposal-82-external-test-lab-community-devnet-m1-report/",
+      "file": "governance-proposal-reports/1582-proposal-82-external-test-lab-community-devnet-m1-report.md"
+    },
+    "details": {
+      "status": null,
+      "content": "> 🔄 **Auto-sync:** from [Discussion #1582](https://github.com/gonka-ai/gonka/discussions/1582) every hour. \n\n# Proposal #82: External Test Lab & Community DevNet — M1 Report\n\n**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-08-11 23:12 UTC · \n\n---\n\n## 📝 Описание\n\n**Period:** 2026-07-10 — 2026-08-09 · **Proposal:** [#82](https://gonka.gg/network/proposals/82) ([discussion](https://github.com/gonka-ai/gonka/discussions/1388)) · **Next unlock:** 2026-08-13\n\n## Workstream A — DevNet infrastructure (M1: Setup)\n\n| M1 requirement | Status |\n|---|---|\n| DevNet design agreed | Done — [architecture note](https://github.com/paranjko/external-test-lab/blob/main/devnet/architecture.md) |\n| ≥5 nodes online | Done — node0"
+    },
+    "ai_description": "A new discussion has been posted sharing the Milestone 1 report for Proposal #82, covering progress on the External Test Lab and Community DevNet from July 10 through August 9. The report shows that Workstream A has hit its initial targets, including finalizing the DevNet architecture and bringing the first nodes online. Check it out for the full status ahead of the next funding unlock on August 13."
+  },
+  {
     "id": "evt_20260811023450_059d3862",
     "timestamp": "2026-08-11T02:34:50.386269+00:00",
     "section": "issues",
