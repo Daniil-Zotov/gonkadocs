@@ -2,7 +2,7 @@
 title: "#1225 — [P2] Clean PoW from MLNode and keep PoC networking patch local"
 source: https://github.com/gonka-ai/gonka/issues/1225
 issue_number: 1225
-synced_at: 2026-08-11T09:18:42Z
+synced_at: 2026-08-11T10:14:36Z
 template: issues-main.html
 ---
 
