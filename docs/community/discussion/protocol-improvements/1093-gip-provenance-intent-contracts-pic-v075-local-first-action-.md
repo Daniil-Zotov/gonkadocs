@@ -3,7 +3,7 @@ title: "#1093 — GiP: Provenance & Intent Contracts (PIC) v0.7.5 – Local-Firs
 source: https://github.com/gonka-ai/gonka/discussions/1093
 discussion_number: 1093
 category: protocol-improvements
-synced_at: 2026-08-11T11:00:25Z
+synced_at: 2026-08-11T11:52:49Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1093](https://github.com/gonka-ai/gonka/discussions/1093) every hour. 
