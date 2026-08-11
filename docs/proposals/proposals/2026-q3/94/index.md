@@ -45,18 +45,18 @@ No existing parameter or model is modified - the only change is the new model en
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:28.6%"></div>
+    <div class="prop-tally-yes" style="width:29.4%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (156,966)</span>
+    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (165,448)</span>
     <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-total-text">Total 156,966 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout <strong>28.6%</strong> (156,966 / 548,442) · Quorum <strong>25%</strong> (137,110)</span>
+    <span class="prop-tally-total-text">Total 165,448 votes</span>
+    <span class="prop-tally-yes-text">✓ Turnout <strong>29.4%</strong> (165,448 / 562,784) · Quorum <strong>25%</strong> (140,696)</span>
   </div>
 </div>
 
@@ -71,6 +71,7 @@ No existing parameter or model is modified - the only change is the new model en
 <tr><td><a href="https://gonka.gg/address/gonka1qwfrtz9c7kcrfkrrlne2pkcye74mj6ce33xdkl" target="_blank" class="prop-voter-addr">gonka1qwfrtz…33xdkl</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1p2lhgng7tcqju7emk989s5fpdr7k2c3ek6h26m" target="_blank" class="prop-voter-addr">gonka1p2lhgn…k6h26m</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1gyk0aahvr3qeju4zx0nplfreej6cy4jjk8svc5" target="_blank" class="prop-voter-addr">gonka1gyk0aa…k8svc5</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
+<tr><td><a href="https://gonka.gg/address/gonka12eyvvvvaeph9q3c3m5m6c5f9ayvmqymkt49u3r" target="_blank" class="prop-voter-addr">gonka12eyvvv…t49u3r</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1t0psqlz8fzhlqnaresvk5vxfmgv0te23mnwdad" target="_blank" class="prop-voter-addr">gonka1t0psql…mnwdad</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1d694r00czmq75txghwjcuk07lxvc8d4ekgsha0" target="_blank" class="prop-voter-addr">gonka1d694r0…kgsha0</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1d7p03cu2y2yt3vytq9wlfm6tlz0lfhlgv9h82p" target="_blank" class="prop-voter-addr">gonka1d7p03c…v9h82p</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>

@@ -34,6 +34,17 @@
   },
   {
     "proposal_id": "94",
+    "voter": "gonka12eyvvvvaeph9q3c3m5m6c5f9ayvmqymkt49u3r",
+    "options": [
+      {
+        "option": "VOTE_OPTION_YES",
+        "weight": "1.000000000000000000"
+      }
+    ],
+    "metadata": ""
+  },
+  {
+    "proposal_id": "94",
     "voter": "gonka1t0psqlz8fzhlqnaresvk5vxfmgv0te23mnwdad",
     "options": [
       {
