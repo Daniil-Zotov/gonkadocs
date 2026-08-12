@@ -45,18 +45,18 @@ No existing parameter or model is modified - the only change is the new model en
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:27.9%"></div>
+    <div class="prop-tally-yes" style="width:28.1%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (159,948)</span>
+    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (159,131)</span>
     <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-total-text">Total 159,948 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout <strong>27.9%</strong> (159,948 / 572,794) · Quorum <strong>25%</strong> (143,198)</span>
+    <span class="prop-tally-total-text">Total 159,131 votes</span>
+    <span class="prop-tally-yes-text">✓ Turnout <strong>28.1%</strong> (159,131 / 566,643) · Quorum <strong>25%</strong> (141,660)</span>
   </div>
 </div>
 
