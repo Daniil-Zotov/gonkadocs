@@ -43,12 +43,10 @@ SKIP_DIRS = {
 SKIP_FILE_SUFFIXES = (
     ".ipynb",
     ".lock",
-    ".png",
     ".jpg",
     ".jpeg",
     ".gif",
     ".svg",
-    ".pdf",
     ".model",
     ".wasm",
     ".zip",

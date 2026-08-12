@@ -36,6 +36,10 @@ nav:
     - Overview: community/README.md
     - Roadmap: 
       - Overview: community/roadmap/README.md
+    - Tokenomics:
+      - Overview: community/tokenomics/README.md
+    - Whitepaper:
+      - Overview: community/whitepaper/README.md
     - "Governance Support Committee": 
       - Overview: community/governance support committee/README.md  
     - "Gonka Product Committee": 
