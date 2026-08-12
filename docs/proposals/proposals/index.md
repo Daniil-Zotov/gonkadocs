@@ -71,8 +71,8 @@ hide:
     <span>Voting ends 2026-08-12</span>
   </div>
   <div class="prop-card-desc">Register deepseek-ai/DeepSeek-V4-Flash-0731 for inference and Proof of Compute.  Who we are  We are the kaitaku.ai team. Many in the community know us from previous updates and optimizations to ML Nod…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (165,448)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>29.4%</strong> (165,448 / 562,784) · Quorum <strong>25%</strong> (140,696)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (159,948)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>27.9%</strong> (159,948 / 572,794) · Quorum <strong>25%</strong> (143,198)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -1315,7 +1315,7 @@ hide:
 
 </div>
 <div class="prop-oview-stats">
-<em>93 proposals across 5 quarters. Last updated: 2026-08-12 05:20 UTC</em>
+<em>93 proposals across 5 quarters. Last updated: 2026-08-12 05:40 UTC</em>
 </div>
 
 <script>
