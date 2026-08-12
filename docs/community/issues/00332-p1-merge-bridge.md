@@ -2,7 +2,7 @@
 title: "#332 — [P1] Merge Bridge"
 source: https://github.com/gonka-ai/gonka/issues/332
 issue_number: 332
-synced_at: 2026-08-11T23:09:27Z
+synced_at: 2026-08-12T00:05:31Z
 template: issues-main.html
 ---
 
