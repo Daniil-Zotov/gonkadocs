@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-08-12T06:49:03.202687+00:00",
+  "snapshot_time": "2026-08-12T08:44:39.728378+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "Description",
@@ -1927,12 +1927,12 @@
     "00850-bug-managedstorage-silently-skips-failed-epoch-pruning-minpr.md": {
       "title": "#850 — Bug: ManagedStorage silently skips failed epoch pruning — minPruned advanced before goroutines complete",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Bug: ManagedStorage silently skips failed epoch pruning — minPruned advanced before goroutines complete\n    <span class=\"issues-number\">#850</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Mayveskii\">@Mayveskii</a> opened 2026-03-03 12:04 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-lab",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Bug: ManagedStorage silently skips failed epoch pruning — minPruned advanced before goroutines complete\n    <span class=\"issues-number\">#850</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Mayveskii\">@Mayveskii</a> opened 2026-03-03 12:04 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n ",
       "comment_checksum": "3ea9aeb131a1387494e969ce56b68cde9e04caf18e3989bf383d7a07eb4922b3",
       "comment_bodies": [
         "A fix for this is pending in PR #1336 (it references this issue): failed epoch prunes are retried on subsequent cleanup ticks instead of being skipped, with a per-epoch single-flight guard so stuck prunes don't accumulate goroutines. Reviewed by @x0152 (approved pre-guard, re-review requested after addressing his blocker), rebased onto current main, CI green. Linking here so the issue reflects the"
       ],
-      "checksum": "0be5867f763421de96fad05f6466d3b62a13a8a5694dc21a3dc2f1daf741883e"
+      "checksum": "4972d05a953c4f8f863c1acd096652efd1d1fb187b045e7f37c93001dc616d0a"
     },
     "00857-test-voting-delegation.md": {
       "title": "#857 — Test voting delegation",

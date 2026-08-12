@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260812084414_7f3710f6",
+    "timestamp": "2026-08-12T08:44:14.389809+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#850 — Bug: ManagedStorage silently skips failed epoch pruning — minPruned advanced before goroutines complete",
+      "url": "/community/issues/00850-bug-managedstorage-silently-skips-failed-epoch-pruning-minpr/",
+      "file": "00850-bug-managedstorage-silently-skips-failed-epoch-pruning-minpr.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Bug: ManagedStorage silently skips failed epoch pruning — minPruned advanced before goroutines complete\n    <span class=\"issues-number\">#850</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Mayveskii\">@Mayveskii</a> opened 2026-03-03 12:04 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-lab",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Bug: ManagedStorage silently skips failed epoch pruning — minPruned advanced before goroutines complete\n    <span class=\"issues-number\">#850</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Mayveskii\">@Mayveskii</a> opened 2026-03-03 12:04 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n "
+    },
+    "ai_description": "Issue #850, which tracked a bug where ManagedStorage silently skipped failed epoch pruning by advancing minPruned before its goroutines completed, has been closed. This fix ensures reliable epoch cleanup and prevents the network from losing track of unpruned data due to race conditions."
+  },
+  {
     "id": "evt_20260812000819_6e20757e",
     "timestamp": "2026-08-12T00:08:19.138572+00:00",
     "section": "calendar",
