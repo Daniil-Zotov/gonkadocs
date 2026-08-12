@@ -2,7 +2,7 @@
 title: "#566 — Epoch and timestamp consistency across inference, validation, and claims"
 source: https://github.com/gonka-ai/gonka/issues/566
 issue_number: 566
-synced_at: 2026-08-12T16:14:28Z
+synced_at: 2026-08-12T17:18:46Z
 template: issues-main.html
 ---
 
