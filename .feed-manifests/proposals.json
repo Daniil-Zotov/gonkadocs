@@ -1,6 +1,6 @@
 {
   "section": "proposals",
-  "snapshot_time": "2026-08-12T15:01:05.221100+00:00",
+  "snapshot_time": "2026-08-12T15:20:53.116403+00:00",
   "files": {
     "2025-q3/1/full-proposal.md": {
       "title": "Adjust Params According to real block length",
@@ -491,6 +491,16 @@
       "voting_end": "",
       "description": "",
       "checksum": "ec4cea907855a95719739a4f2e3595a3b79c13a519aec8ff2bb1ddc70e7405c5"
+    },
+    "2026-q3/82/report1.md": {
+      "title": "Monthly Report — Month 1 (2026-07-10 — 2026-08-09)",
+      "status": null,
+      "content_preview": "# Monthly Report — Month 1 (2026-07-10 — 2026-08-09)\n\n**Дата публикации:** 2026-08-12\n\n---\n\n**Period:** 2026-07-10 — 2026-08-09 · **Proposal:** [#82](https://gonka.gg/network/proposals/82) ([discussion](https://github.com/gonka-ai/gonka/discussions/1388)) · **Next unlock:** 2026-08-13\n\n## Workstream A — DevNet infrastructure (M1: Setup)\n\n| M1 requirement | Status |\n|---|---|\n| DevNet design agreed | Done — [architecture note](https://github.com/paranjko/external-test-lab/blob/main/devnet/architecture.md) |\n| ≥5 nodes online | Done — node0–node4 deployed, one provider each, chain `gonka-devnet-community`; live state on the [status site](https://gonka-dev.net) |\n| Infrastructure blockers documented | Done — see below |\n\nDelivered beyond the M1 bar:\n\n- **Deployment runbook `1.0.0-alpha.1`** (",
+      "funding": "",
+      "quorum_met": null,
+      "voting_end": "",
+      "description": "",
+      "checksum": "c1ea2260fc2202576c8dc278046497d7e034395afe2e8ee0e1669e70dcb58b96"
     },
     "2026-q3/84/full-proposal.md": {
       "title": "Bringing $3M+ in New Capital to GONKA via Uniswap — Phase 1/6 ($50k USDT)",

@@ -1210,5 +1210,17 @@
     "tags": [
       "voting"
     ]
+  },
+  {
+    "date": "2026-08-12",
+    "category": "governance",
+    "type": "proposal_report_upload",
+    "title": "Report for proposal #82 — External Test Lab x Community DevNet",
+    "url": "/proposals/proposals/2026-q3/82/",
+    "time": "",
+    "description": "Report report1 for proposal #82 has been uploaded. Read it: https://gonkadocs.com/proposals/proposals/2026-q3/82/report1/",
+    "tags": [
+      "report"
+    ]
   }
 ]

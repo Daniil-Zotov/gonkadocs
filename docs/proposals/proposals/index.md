@@ -241,6 +241,7 @@ hide:
   <div class="prop-card-desc">4-month pilot of the External Test Lab & Community DevNet: a community-owned testing layer for Gonka. Full proposal and discussion: <a href="https://github.com/gonka-ai/gonka/discussions/1388" target="_blank">https://github.com/gonka-ai/gonka/discussions/1388</a>  The budget is he…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>98.2%</strong> (368,084)</span> · <span class="prop-tally-no-text">No <strong>0.1%</strong> (468)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (94)</span> · <span class="prop-tally-abstain-text">Abstain <strong>1.6%</strong> (6,141)</span><span class="prop-card-funding">80,000 GNK · $88,000 · Community Pool</span></div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>50.5%</strong> (374,787 / 741,825) · Quorum <strong>25%</strong> (185,456)</span></div>
+  <div class="prop-card-report"><a class="prop-report-link" href="2026-q3/82/report1/"><span class="prop-report-name">report1</span><span class="prop-report-date">2026-08-12</span></a></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -1315,7 +1316,7 @@ hide:
 
 </div>
 <div class="prop-oview-stats">
-<em>93 proposals across 5 quarters. Last updated: 2026-08-12 15:01 UTC</em>
+<em>93 proposals across 5 quarters. Last updated: 2026-08-12 15:20 UTC</em>
 </div>
 
 <script>
