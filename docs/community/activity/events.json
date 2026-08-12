@@ -1,5 +1,50 @@
 [
   {
+    "id": "evt_20260812000819_6e20757e",
+    "timestamp": "2026-08-12T00:08:19.138572+00:00",
+    "section": "calendar",
+    "action": "daily_reminder",
+    "item": {
+      "title": "Today: 4 events — INPUT Global — Weekly Call (#77), TheSoul — Weekly Report Call (#60–#65), AMA: Global Strategy & World Event for GONKA…",
+      "url": "/community/calendar/",
+      "file": null
+    },
+    "details": {
+      "today": [
+        {
+          "title": "INPUT Global — Weekly Call (#77)",
+          "date": "2026-08-12",
+          "time": "13:00 UTC",
+          "event_type": "committee_call",
+          "url": "/proposals/proposals/2026-q2/77/"
+        },
+        {
+          "title": "TheSoul — Weekly Report Call (#60–#65)",
+          "date": "2026-08-12",
+          "time": "15:00 UTC",
+          "event_type": "committee_call",
+          "url": "/proposals/proposals/2026-q2/60/"
+        },
+        {
+          "title": "AMA: Global Strategy & World Event for GONKA",
+          "date": "2026-08-12",
+          "time": "16:00 UTC (19:00 MSK/Kyiv)",
+          "event_type": "ama",
+          "url": "https://us05web.zoom.us/j/82619995805?pwd=ptknWpTsKxLYT2C5vbpBXjj1dYao62.1"
+        },
+        {
+          "title": "Voting ends: #94 – Add DeepSeek V4 Flash 0731",
+          "date": "2026-08-12",
+          "time": "16:05 UTC",
+          "event_type": "proposal_vote_end",
+          "url": "/proposals/proposals/2026-q3/94/"
+        }
+      ],
+      "count": 4
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260811235302_470bae67",
     "timestamp": "2026-08-11T23:53:02.739188+00:00",
     "section": "discussions",
