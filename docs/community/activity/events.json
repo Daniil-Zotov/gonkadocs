@@ -61,7 +61,7 @@
     "section": "calendar",
     "action": "daily_reminder",
     "item": {
-      "title": "Today: 4 events — INPUT Global — Weekly Call (#77), TheSoul — Weekly Report Call (#60–#65), AMA: Global Strategy & World Event for GONKA…",
+      "title": "Today: 3 events — INPUT Global — Weekly Call (#77), TheSoul — Weekly Report Call (#60–#65), Voting ends: #94 – Add DeepSeek V4 Flash 0731",
       "url": "/community/calendar/",
       "file": null
     },
@@ -80,13 +80,6 @@
           "time": "15:00 UTC",
           "event_type": "committee_call",
           "url": "/proposals/proposals/2026-q2/60/"
-        },
-        {
-          "title": "AMA: Global Strategy & World Event for GONKA",
-          "date": "2026-08-12",
-          "time": "16:00 UTC (19:00 MSK/Kyiv)",
-          "event_type": "ama",
-          "url": "https://us05web.zoom.us/j/82619995805?pwd=ptknWpTsKxLYT2C5vbpBXjj1dYao62.1"
         },
         {
           "title": "Voting ends: #94 – Add DeepSeek V4 Flash 0731",
@@ -263,26 +256,6 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] devshard executor can validate its own challenged result, letting a fraudulent executor push a bad settlement and steal escrowed funds\n    <span class=\"issues-number\">#1573</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/iceiceic3\">@iceiceic3</a> opened 2026-08-10 15:19 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></"
     },
     "ai_description": "A critical security bug has been reported by @iceiceic3 in issue #1573, revealing that a devshard executor can currently validate its own challenged result. This vulnerability could allow a malicious executor to approve fraudulent output, push an invalid settlement, and steal escrowed funds. The issue is now open and awaiting community review."
-  },
-  {
-    "id": "evt_20260810135716_23009b12",
-    "timestamp": "2026-08-10T13:57:16.189439+00:00",
-    "section": "calendar",
-    "action": "new",
-    "item": {
-      "title": "AMA: Global Strategy & World Event for GONKA",
-      "url": "https://us05web.zoom.us/j/82619995805?pwd=ptknWpTsKxLYT2C5vbpBXjj1dYao62.1",
-      "file": "c1d52004e79cf3ff7ee628863136452a9a2bbebbace9f35cbaff40c1bc012f0e"
-    },
-    "details": {
-      "status": null,
-      "content": "Pre-proposal AMA session on the global marketing event strategy for GONKA. Topics: why GONKA needs a world-class global event; focus on AI developers, miners, GPU hosts and strategic partners; the role of a large international online conference; the Guinness World Record as a global news hook; how this helps community growth, awareness and demand for GONKA infrastructure; next steps, budgets and proposal logic. Open Q&A before the formal proposal is submitted. Discussion chat: https://t.me/Gonka_AI_Summit",
-      "date": "2026-08-12",
-      "time": "16:00 UTC (19:00 MSK/Kyiv)",
-      "event_type": "ama",
-      "url": "https://us05web.zoom.us/j/82619995805?pwd=ptknWpTsKxLYT2C5vbpBXjj1dYao62.1"
-    },
-    "ai_description": "A new AMA session has been added to the calendar to discuss a bold global marketing strategy and a potential world-class event for GONKA, including a Guinness World Record attempt and a major online conference aimed at AI developers, miners, and GPU hosts. This pre-proposal session is your chance to ask questions, understand the budget and logic, and help shape the initiative before it goes to a formal vote. Join the discussion at https://t.me/Gonka_AI_Summit to share your thoughts on how we can drive global awareness and demand for the network."
   },
   {
     "id": "evt_20260810000008_fa4697d8",

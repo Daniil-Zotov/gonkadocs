@@ -99,19 +99,5 @@
       "status-call",
       "community"
     ]
-  },
-  {
-    "date": "2026-08-12",
-    "category": "community",
-    "type": "ama",
-    "title": "AMA: Global Strategy & World Event for GONKA",
-    "url": "https://us05web.zoom.us/j/82619995805?pwd=ptknWpTsKxLYT2C5vbpBXjj1dYao62.1",
-    "time": "16:00 UTC (19:00 MSK/Kyiv)",
-    "description": "Pre-proposal AMA session on the global marketing event strategy for GONKA. Topics: why GONKA needs a world-class global event; focus on AI developers, miners, GPU hosts and strategic partners; the role of a large international online conference; the Guinness World Record as a global news hook; how this helps community growth, awareness and demand for GONKA infrastructure; next steps, budgets and proposal logic. Open Q&A before the formal proposal is submitted. Discussion chat: https://t.me/Gonka_AI_Summit",
-    "tags": [
-      "ama",
-      "global-event",
-      "marketing"
-    ]
   }
 ]
