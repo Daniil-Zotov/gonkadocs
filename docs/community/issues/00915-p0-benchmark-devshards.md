@@ -2,7 +2,7 @@
 title: "#915 — [P0] Benchmark `devshards`"
 source: https://github.com/gonka-ai/gonka/issues/915
 issue_number: 915
-synced_at: 2026-08-12T15:18:06Z
+synced_at: 2026-08-12T16:12:56Z
 template: issues-main.html
 ---
 
