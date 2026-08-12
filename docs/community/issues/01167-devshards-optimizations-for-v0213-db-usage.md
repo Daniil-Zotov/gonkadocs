@@ -2,7 +2,7 @@
 title: "#1167 — `devshards` Optimizations for v0.2.13 db usage"
 source: https://github.com/gonka-ai/gonka/issues/1167
 issue_number: 1167
-synced_at: 2026-08-12T17:16:58Z
+synced_at: 2026-08-12T18:10:28Z
 template: issues-main.html
 ---
 
