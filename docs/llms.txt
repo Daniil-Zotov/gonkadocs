@@ -95,6 +95,7 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [Register a bridge token](/gonka/docs/cross-chain-transfers/ethereum-bridge/register-token/): Auto-synced content
 - [Dashboard & tracker integration](/gonka/docs/cross-chain-transfers/ethereum-bridge/tracker-integration/): Auto-synced content
 - [Benchmark to Choose Optimal Deployment Config for LLMs](/gonka/docs/host/benchmark-to-choose-optimal-deployment-config-for-llms/): Auto-synced content
+- [DeepSeek V4 Flash Bootstrap](/gonka/docs/host/deepseek-bootstrap/): Auto-synced content
 - [Gonka Genesis Ceremony](/gonka/docs/host/genesis/): Auto-synced content
 - [How to edit Host public info](/gonka/docs/host/host_info/): Auto-synced content
 - [Kimi K2.6 Bootstrap](/gonka/docs/host/kimi-bootstrap/): Auto-synced content

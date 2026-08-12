@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-08-12T17:53:30.465352+00:00",
+  "snapshot_time": "2026-08-12T18:52:37.996352+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -188,6 +188,12 @@
       "content_preview": "# Collateral\n\nCollateral mechanism allows participants to lock GNK coins in order to activate a portion of their already earned Proof of Compute (PoC) weight.\n\nVoting power is never derived solely from holding coins. GNK coins serve as economic collateral, not as a source of influence. Influence is earned through continuous computational contribution, while locking GNK collateral is required to secure participation in governance and enforce accountability.\n\n## Key Concepts\n\n- For the first 180 epochs (Grace Period), no collateral is required. All participants receive 100% of their potential weight unconditionally.\n- After the grace period, a portion of a participant's weight (default 20%) is granted unconditionally as Base Weight.\n- The remaining weight (default 80%) is Collateral-Eligible",
       "checksum": "54eb0243579ccde0f47006f7c78743c6c7a823a412d2e8a08c9cc2cd834ed5de"
     },
+    "host/deepseek-bootstrap.md": {
+      "title": "DeepSeek V4 Flash Bootstrap",
+      "status": null,
+      "content_preview": "# DeepSeek V4 Flash Bootstrap\n\n`deepseek-ai/DeepSeek-V4-Flash-0731` is added as a new governance-approved PoC model by [proposal 94](../network-updates.md#august-10-2026). This document explains how to minimize the chance of weight reductions during bootstrap, whether or not the model gets enough participants in its first attempt.\n\nFor the wider context of multi-model PoC mechanics, see [Multi-Model PoC](./multi_model_poc.md). Previous model bootstraps and their mechanics are documented in [Kimi K2.6 Bootstrap](./kimi-bootstrap.md) and [MiniMax-M2.7 Bootstrap](./minimax-bootstrap.md).\n\n!!! note\n    The bootstrap can take multiple epochs, depending on how many participants are ready. Before the configured punishment epoch, no weight reduction happens if participants submit their choice expl",
+      "checksum": "d039482ae0d606c66a4c32bcb85ce8a6de363a4b617b08b136904992b53a39b0"
+    },
     "host/genesis.md": {
       "title": "Gonka Genesis Ceremony",
       "status": null,
@@ -234,7 +240,7 @@
       "title": "Validate ML Node Deployment",
       "status": null,
       "content_preview": "# Validate ML Node Deployment\n\nThe [`gonka` repo](https://github.com/gonka-ai/gonka) ships an agent skill called `mlnode-validate` that validates a deployed ML Node against pre-computed honest PoC vectors for a specific model. The skill is self-contained inside the repo (no external code, no callback receiver).\n\nThe skill is the contract; this page is a pointer. The single source of truth is [`skills/mlnode-validate/SKILL.md`](https://github.com/gonka-ai/gonka/blob/main/skills/mlnode-validate/SKILL.md) — required / optional inputs, deploy-config rules, golden-reference list, pass criteria, failure modes, and the report template.\n\nThe skill is implemented by two Python scripts under `mlnode/packages/benchmarks/scripts/poc_validation/`:\n\n- `validate.py` — the main entry point (download → dep",
-      "checksum": "81846478423f08de1422ad73b589efd4e099b3ebfd28f9dee6e215aa464c60de"
+      "checksum": "62edfda95e213ed80d39fb464e2ce4b1e6b5a3120771b615cc7b92953ade61d1"
     },
     "host/multi_model_poc.md": {
       "title": "Multi-Model PoC — Host Operations Guide",
@@ -294,7 +300,7 @@
       "title": "Announcements",
       "status": null,
       "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n    \n## August 10, 2026\n\n**Governance vote (proposal 94): add DeepSeek V4 Flash**\n\nThe proposal to add `deepseek-ai/DeepSeek-V4-Flash-0731` to the PoC model lineup is now on-chain and open for voting.\n\n**What the proposal does**\n\nThis proposal adds DeepSeek ",
-      "checksum": "fd50a4b78dd06fe59d8cb54b46e1c5eeeeafc3bf23f6360aac099b66757c1ec8"
+      "checksum": "4b671590d42723f0dea1a98bd4429520581401538cc12849377df10bd9b9a359"
     },
     "participant/README.md": {
       "title": "Redirecting to Host Section",

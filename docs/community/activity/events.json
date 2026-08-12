@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260812185228_7cb134ec",
+    "timestamp": "2026-08-12T18:52:28.821772+00:00",
+    "section": "gonka_docs",
+    "action": "new",
+    "item": {
+      "title": "DeepSeek V4 Flash Bootstrap",
+      "url": "/gonka/docs/host/deepseek-bootstrap/",
+      "file": "host/deepseek-bootstrap.md"
+    },
+    "details": {
+      "status": null,
+      "content": "# DeepSeek V4 Flash Bootstrap\n\n`deepseek-ai/DeepSeek-V4-Flash-0731` is added as a new governance-approved PoC model by [proposal 94](../network-updates.md#august-10-2026). This document explains how to minimize the chance of weight reductions during bootstrap, whether or not the model gets enough participants in its first attempt.\n\nFor the wider context of multi-model PoC mechanics, see [Multi-Model PoC](./multi_model_poc.md). Previous model bootstraps and their mechanics are documented in [Kimi K2.6 Bootstrap](./kimi-bootstrap.md) and [MiniMax-M2.7 Bootstrap](./minimax-bootstrap.md).\n\n!!! note\n    The bootstrap can take multiple epochs, depending on how many participants are ready. Before the configured punishment epoch, no weight reduction happens if participants submit their choice expl"
+    },
+    "ai_description": "A new protocol doc has been published covering the DeepSeek V4 Flash Bootstrap for the recently governance-approved model `deepseek-ai/DeepSeek-V4-Flash-0731`. The guide details how participants can avoid weight reductions during the multi-epoch bootstrap process and what to expect before the punishment epoch kicks in, building on lessons from previous Kimi and MiniMax bootstraps."
+  },
+  {
     "id": "evt_20260812163048_ba8f7711",
     "timestamp": "2026-08-12T16:30:48.133543+00:00",
     "section": "calendar",
