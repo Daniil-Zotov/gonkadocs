@@ -1,5 +1,45 @@
 [
   {
+    "id": "evt_20260812153001_5fa0abbc",
+    "timestamp": "2026-08-12T15:30:01.880083+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "TheSoul — Weekly Report Call (#60–#65)",
+      "url": "/proposals/proposals/2026-q2/60/",
+      "file": "33651c67ff21619965baa7d8d0b7a882fdd1e198e3aafdf916635b232b81c7be"
+    },
+    "details": {
+      "status": null,
+      "content": "Weekly report by the TheSoul team under approved proposals #60–#65. Video call: https://meet.google.com/rbb-dmju-top · Public Telegram group: https://t.me/+csDGX6-05LMyOTM0",
+      "date": "2026-08-13",
+      "time": "15:00 UTC",
+      "event_type": "committee_call",
+      "url": "/proposals/proposals/2026-q2/60/"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260812153001_646bef93",
+    "timestamp": "2026-08-12T15:30:01.880123+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Report for proposal #82 — External Test Lab x Community DevNet",
+      "url": "/proposals/proposals/2026-q3/82/",
+      "file": "9f201b82a8c2e2287e4868bf6ba8393e5e328f5018e2da6c3b6258b44400035a"
+    },
+    "details": {
+      "status": null,
+      "content": "Report report1 for proposal #82 has been uploaded. Read it: https://gonkadocs.com/proposals/proposals/2026-q3/82/report1/",
+      "date": "2026-08-12",
+      "time": "",
+      "event_type": "proposal_report_upload",
+      "url": "/proposals/proposals/2026-q3/82/"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260812084414_7f3710f6",
     "timestamp": "2026-08-12T08:44:14.389809+00:00",
     "section": "issues",
