@@ -18155,7 +18155,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-08-12 08:37 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-08-12 10:17 UTC*
 
 ---
 
@@ -19042,6 +19042,21 @@ Core Principle
 Don't just build another AI demo. Build a game people actually want to play.
 
 The QRMint × Gonka Game Hackathon would give developers a reason to experiment with Gonka today while creating projects that can continue contributing value to the ecosystem long after the hackathon ends.
+
+---
+
+## Comments (1)
+
+### 💬 Dem | Démíngān
+*2026-08-12 08:59* · 👍 0 · 👎 0
+
+Здорово, что ты ищешь способы использования LLM в играх и думаешь об этом в том числе в контексте Gonka. Но для пропозала, мне кажется, одного этого мало. Лучше ещё показать опыт команды, особенно релевантный: продвижение и организацию хакатонов.
+
+Я так понимаю, $30k - призовой пул, а $70k - организаторам.
+
+Для Gonka хакатоны сейчас актуальны, как мне кажется, но к выбору исполнителя и темы хакатона хосты будут подходить очень аккуратно.
+
+---
 
 ---
 
