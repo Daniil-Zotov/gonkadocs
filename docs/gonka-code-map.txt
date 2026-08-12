@@ -6,7 +6,7 @@
 When answering questions about Gonka internals, use this map to find the relevant
 files, then fetch the raw source from the /gonka-code/ URLs below.
 
-- Source files: 2396 (Go/proto: 1330, markdown design docs: 286)
+- Source files: 2415 (Go/proto: 1330, markdown design docs: 286)
 
 ## Inference Chain (Cosmos SDK blockchain)
 
@@ -1594,7 +1594,17 @@ Inference node stack (Python): model serving, PoC validation scripts, benchmarks
 - `mlnode/.gitignore` → https://gonkadocs.com/gonka-code/mlnode/.gitignore
 - `mlnode/Makefile` → https://gonkadocs.com/gonka-code/mlnode/Makefile
 - `mlnode/README.md` → https://gonkadocs.com/gonka-code/mlnode/README.md
+- `mlnode/docs/FP16vsFP16.png` → https://gonkadocs.com/gonka-code/mlnode/docs/FP16vsFP16.png
+- `mlnode/docs/FP8vsFP16.png` → https://gonkadocs.com/gonka-code/mlnode/docs/FP8vsFP16.png
+- `mlnode/docs/FP8vsFP8-3090.png` → https://gonkadocs.com/gonka-code/mlnode/docs/FP8vsFP8-3090.png
+- `mlnode/docs/FP8vsFP8.png` → https://gonkadocs.com/gonka-code/mlnode/docs/FP8vsFP8.png
 - `mlnode/docs/inference-validation.md` → https://gonkadocs.com/gonka-code/mlnode/docs/inference-validation.md
+- `mlnode/docs/w8a16vsw8a16-same3090.png` → https://gonkadocs.com/gonka-code/mlnode/docs/w8a16vsw8a16-same3090.png
+- `mlnode/docs/w8a16vsw8a16-samel40.png` → https://gonkadocs.com/gonka-code/mlnode/docs/w8a16vsw8a16-samel40.png
+- `mlnode/docs/w8a16vsw8a16.png` → https://gonkadocs.com/gonka-code/mlnode/docs/w8a16vsw8a16.png
+- `mlnode/docs/w8a8vsw8a16.png` → https://gonkadocs.com/gonka-code/mlnode/docs/w8a8vsw8a16.png
+- `mlnode/docs/w8a8vsw8a8-same.png` → https://gonkadocs.com/gonka-code/mlnode/docs/w8a8vsw8a8-same.png
+- `mlnode/network-architecture.png` → https://gonkadocs.com/gonka-code/mlnode/network-architecture.png
 - `mlnode/packages/benchmarks/Makefile` → https://gonkadocs.com/gonka-code/mlnode/packages/benchmarks/Makefile
 - `mlnode/packages/benchmarks/README.md` → https://gonkadocs.com/gonka-code/mlnode/packages/benchmarks/README.md
 - `mlnode/packages/benchmarks/pyproject.toml` → https://gonkadocs.com/gonka-code/mlnode/packages/benchmarks/pyproject.toml
@@ -2425,6 +2435,8 @@ Additional design docs and papers (whitepaper, tokenomics).
 - `docs/join_chain.md` → https://gonkadocs.com/gonka-code/docs/join_chain.md
 - `docs/manual-recover.md` → https://gonkadocs.com/gonka-code/docs/manual-recover.md
 - `docs/observability/observability-overview.md` → https://gonkadocs.com/gonka-code/docs/observability/observability-overview.md
+- `docs/papers/Gonka_white_paper.pdf` → https://gonkadocs.com/gonka-code/docs/papers/Gonka_white_paper.pdf
+- `docs/papers/InferenceFlow.png` → https://gonkadocs.com/gonka-code/docs/papers/InferenceFlow.png
 - `docs/prepare-upgrade-proposal.md` → https://gonkadocs.com/gonka-code/docs/prepare-upgrade-proposal.md
 - `docs/prepare_join_image.md` → https://gonkadocs.com/gonka-code/docs/prepare_join_image.md
 - `docs/specs/genesistransfer/genesistransfer-cli-guide.md` → https://gonkadocs.com/gonka-code/docs/specs/genesistransfer/genesistransfer-cli-guide.md
@@ -2516,6 +2528,10 @@ Protocol design docs and governance artifacts — one dir per feature/upgrade. G
 - `proposals/inference-performance/task-iii-todo.md` → https://gonkadocs.com/gonka-code/proposals/inference-performance/task-iii-todo.md
 - `proposals/inference-performance/task-iv-todo.md` → https://gonkadocs.com/gonka-code/proposals/inference-performance/task-iv-todo.md
 - `proposals/inference-validation/inference-validation.md` → https://gonkadocs.com/gonka-code/proposals/inference-validation/inference-validation.md
+- `proposals/inference-validation/qwen-3b-vs-7b.png` → https://gonkadocs.com/gonka-code/proposals/inference-validation/qwen-3b-vs-7b.png
+- `proposals/inference-validation/qwen-7b-w8a8-vs-w8a16.png` → https://gonkadocs.com/gonka-code/proposals/inference-validation/qwen-7b-w8a8-vs-w8a16.png
+- `proposals/inference-validation/qwen3-32b-FP8.png` → https://gonkadocs.com/gonka-code/proposals/inference-validation/qwen3-32b-FP8.png
+- `proposals/inference-validation/qwen3-32b-INT4.png` → https://gonkadocs.com/gonka-code/proposals/inference-validation/qwen3-32b-INT4.png
 - `proposals/invalid-participant-exclusion/README.md` → https://gonkadocs.com/gonka-code/proposals/invalid-participant-exclusion/README.md
 - `proposals/invalid-participant-exclusion/collateral-slashing-limits.md` → https://gonkadocs.com/gonka-code/proposals/invalid-participant-exclusion/collateral-slashing-limits.md
 - `proposals/invalid-participant-exclusion/reputation-status-description.md` → https://gonkadocs.com/gonka-code/proposals/invalid-participant-exclusion/reputation-status-description.md
@@ -2577,6 +2593,9 @@ Protocol design docs and governance artifacts — one dir per feature/upgrade. G
 - `proposals/poc/optimize.md` → https://gonkadocs.com/gonka-code/proposals/poc/optimize.md
 - `proposals/poc/optimize.py` → https://gonkadocs.com/gonka-code/proposals/poc/optimize.py
 - `proposals/poc/preserved-nodes.md` → https://gonkadocs.com/gonka-code/proposals/poc/preserved-nodes.md
+- `proposals/poc/report_assets/plot_honest_vs_cheater_separation.png` → https://gonkadocs.com/gonka-code/proposals/poc/report_assets/plot_honest_vs_cheater_separation.png
+- `proposals/poc/report_assets/plot_pairwise_distance_heatmap.png` → https://gonkadocs.com/gonka-code/proposals/poc/report_assets/plot_pairwise_distance_heatmap.png
+- `proposals/poc/report_assets/plot_threshold_distributions.png` → https://gonkadocs.com/gonka-code/proposals/poc/report_assets/plot_threshold_distributions.png
 - `proposals/poc/smst-phase-1.md` → https://gonkadocs.com/gonka-code/proposals/poc/smst-phase-1.md
 - `proposals/poc/smst-phase-2.md` → https://gonkadocs.com/gonka-code/proposals/poc/smst-phase-2.md
 - `proposals/poc/smst-phase-3.md` → https://gonkadocs.com/gonka-code/proposals/poc/smst-phase-3.md
