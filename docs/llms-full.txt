@@ -26105,7 +26105,7 @@ HardCore Arena позволит протестировать модель на �
 ## Overview
 
 93Total Proposals
-61Passed (66%)
+62Passed (67%)
 30Rejected (32%)
 1Failed (1%)
 
@@ -26125,8 +26125,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
 
   
     #94 – Add DeepSeek V4 Flash 0731
-    
-    Voting
+    Passed
   
   
     Submitted 2026-08-10
@@ -27183,7 +27182,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-93 proposals across 5 quarters. Last updated: 2026-08-12 16:00 UTC
+93 proposals across 5 quarters. Last updated: 2026-08-12 16:40 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -64216,7 +64215,7 @@ Contract Details
 ## 2026-Q3 Summary
 
 15Total Proposals
-9Passed (60%)
+10Passed (67%)
 5Rejected (33%)
 
 Governance Parameters7
@@ -64232,8 +64231,7 @@ $90,075 USDT · Bounty Reward
 
   
     #94 – Add DeepSeek V4 Flash 0731
-    
-    Voting
+    Passed
   
   
     Submitted 2026-08-10
@@ -69706,7 +69704,7 @@ Contract Details
 
 # #94 – Add DeepSeek V4 Flash 0731
 
-Voting
+Passed
 
 **Proposal ID:** `94`
 
