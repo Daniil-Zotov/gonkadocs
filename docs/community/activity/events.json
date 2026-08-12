@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260812195719_9a21a1e7",
+    "timestamp": "2026-08-12T19:57:19.089588+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "Announcements",
+      "url": "/gonka/docs/network-updates/",
+      "file": "network-updates.md"
+    },
+    "details": {
+      "content_before": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n    \n## August 10, 2026\n\n**Governance vote (proposal 94): add DeepSeek V4 Flash**\n\nThe proposal to add `deepseek-ai/DeepSeek-V4-Flash-0731` to the PoC model lineup is now on-chain and open for voting.\n\n**What the proposal does**\n\nThis proposal adds DeepSeek ",
+      "content_after": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## August 12, 2026\n\n**DeepSeek V4 Flash bootstrap (epoch 359)**\n\nProposal 94 has passed — DeepSeek V4 Flash is approved. Hosts that plan to serve it should declare intent now so the model can bootstrap at epoch 359.\n\n[Full table with coefficients](https://d"
+    },
+    "ai_description": "The Protocol Docs Announcements page has been updated to reflect that Proposal 94 has officially passed, approving the addition of DeepSeek V4 Flash to the network. Hosts are now encouraged to declare their intent to serve the model so it can successfully bootstrap at epoch 359. This marks an important milestone as the community moves from governance vote to active onboarding of a new model."
+  },
+  {
     "id": "evt_20260812185228_7cb134ec",
     "timestamp": "2026-08-12T18:52:28.821772+00:00",
     "section": "gonka_docs",
