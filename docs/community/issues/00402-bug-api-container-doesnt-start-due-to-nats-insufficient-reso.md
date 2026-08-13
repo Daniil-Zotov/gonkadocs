@@ -2,7 +2,7 @@
 title: "#402 — [BUG]: API container doesn't start due to "nats: insufficient resources""
 source: https://github.com/gonka-ai/gonka/issues/402
 issue_number: 402
-synced_at: 2026-08-13T19:31:49Z
+synced_at: 2026-08-13T21:10:57Z
 template: issues-main.html
 ---
 
