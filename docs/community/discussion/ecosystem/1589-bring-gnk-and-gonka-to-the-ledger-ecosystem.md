@@ -3,14 +3,14 @@ title: "#1589 — Bring GNK and Gonka to the Ledger Ecosystem"
 source: https://github.com/gonka-ai/gonka/discussions/1589
 discussion_number: 1589
 category: ecosystem
-synced_at: 2026-08-13T10:18:17Z
+synced_at: 2026-08-13T11:55:14Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1589](https://github.com/gonka-ai/gonka/discussions/1589) every hour. 
 
 # Bring GNK and Gonka to the Ledger Ecosystem
 
-**Автор:** [@Isabella0319](https://github.com/Isabella0319) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-08-13 09:09 UTC · **Обновлено:** 2026-08-13 09:09 UTC
+**Автор:** [@Isabella0319](https://github.com/Isabella0319) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-08-13 09:09 UTC · **Обновлено:** 2026-08-13 11:46 UTC
 
 ---
 
@@ -208,3 +208,28 @@ A **NO** vote rejects this authorization and funding request.
 
 ---
 Thank you, and we’re looking forward to your feedback!
+
+---
+
+## 💬 Комментарии (1)
+
+### Комментарий 1 — [@julb1992](https://github.com/julb1992)
+
+*2026-08-13 11:46 UTC*
+
+Ledger can already be used to secure WGNK today through an Ethereum address, but it’s true that WGNK doesn’t appear clearly as a separate asset in Ledger Wallet and the UX is not great. A native integration + clear signing would make things much easier, and Ledger visibility could also be interesting to get Gonka in front of more crypto users.
+
+A few questions before voting:
+
+- The $350k breakdown is clear ($275k launch + $75k year 1), but do we have more details on how the $275k launch fee was determined and whether it was benchmarked against comparable Ledger integrations?
+- What will the annual cost be after year 1?
+- What is the expected timeline for the integration to go live?
+- What exactly is included in Ledger’s marketing commitment? Posts, newsletter, app visibility, expected reach?
+- What happens if the integration is delayed or never delivered? Is any part of the $275k launch fee refundable?
+- Are Buy/Sell and Swap included in the $350k scope or just potential future integrations depending on third parties?
+- What KPIs will we use after 6/12 months to measure if the $350k was worth it? New wallets, GNK held through Ledger, transaction volume, new holders?
+- Since Quant Mesh already signed the agreement, what happens if the community votes NO?
+
+I like the idea, especially for visibility and UX, but $350k is a significant amount from so I think the expected ROI and commitments should be clear.
+
+Thanks. 
