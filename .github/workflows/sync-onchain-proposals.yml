@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   sync:
@@ -51,3 +52,9 @@ jobs:
             git push
             echo "pushed=true" >> "$GITHUB_OUTPUT"
           fi
+
+      - name: Trigger docs deploy
+        if: steps.commit.outputs.pushed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run "Deploy MkDocs to GitHub Pages" --ref "${{ github.ref_name }}"
