@@ -2,7 +2,7 @@
 title: "#922 — Proposal: Agent identity and delegation governance for Gonka compute"
 source: https://github.com/gonka-ai/gonka/issues/922
 issue_number: 922
-synced_at: 2026-08-13T17:19:04Z
+synced_at: 2026-08-13T18:12:40Z
 template: issues-main.html
 ---
 
