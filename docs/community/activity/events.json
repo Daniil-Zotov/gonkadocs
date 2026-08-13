@@ -1,5 +1,29 @@
 [
   {
+    "id": "evt_20260813000841_a712760d",
+    "timestamp": "2026-08-13T00:08:41.940818+00:00",
+    "section": "calendar",
+    "action": "daily_reminder",
+    "item": {
+      "title": "Today: 1 events — TheSoul — Weekly Report Call (#60–#65)",
+      "url": "/community/calendar/",
+      "file": null
+    },
+    "details": {
+      "today": [
+        {
+          "title": "TheSoul — Weekly Report Call (#60–#65)",
+          "date": "2026-08-13",
+          "time": "15:00 UTC",
+          "event_type": "committee_call",
+          "url": "/proposals/proposals/2026-q2/60/"
+        }
+      ],
+      "count": 1
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260812195719_9a21a1e7",
     "timestamp": "2026-08-12T19:57:19.089588+00:00",
     "section": "gonka_docs",
