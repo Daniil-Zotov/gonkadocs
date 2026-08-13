@@ -2,7 +2,7 @@
 title: "#326 — [P2] Improve onboarding experience"
 source: https://github.com/gonka-ai/gonka/issues/326
 issue_number: 326
-synced_at: 2026-08-13T15:19:15Z
+synced_at: 2026-08-13T16:13:53Z
 template: issues-main.html
 ---
 
