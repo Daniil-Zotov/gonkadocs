@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260813135456_3ede57ee",
+    "timestamp": "2026-08-13T13:54:56.054356+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1591 — Gateway timeout can orphan client correlation from completed request accounting",
+      "url": "/community/issues/01591-gateway-timeout-can-orphan-client-correlation-from-completed/",
+      "file": "01591-gateway-timeout-can-orphan-client-correlation-from-completed.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway timeout can orphan client correlation from completed request accounting\n    <span class=\"issues-number\">#1591</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/safal207\">@safal207</a> opened 2026-08-13 13:17 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: "
+    },
+    "ai_description": "A new issue has been opened by @safal207 regarding a bug where gateway timeouts can disconnect client correlation data from successfully completed requests, potentially causing accounting inaccuracies. The team is now tracking this as issue #1591 to ensure reliable request lifecycle management across the network."
+  },
+  {
     "id": "evt_20260813101849_6e7a0855",
     "timestamp": "2026-08-13T10:18:49.638763+00:00",
     "section": "discussions",
