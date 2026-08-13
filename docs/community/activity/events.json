@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260813101849_6e7a0855",
+    "timestamp": "2026-08-13T10:18:49.638763+00:00",
+    "section": "discussions",
+    "action": "new",
+    "item": {
+      "title": "Bring GNK and Gonka to the Ledger Ecosystem",
+      "url": "/community/discussion/ecosystem/1589-bring-gnk-and-gonka-to-the-ledger-ecosystem/",
+      "file": "ecosystem/1589-bring-gnk-and-gonka-to-the-ledger-ecosystem.md"
+    },
+    "details": {
+      "status": null,
+      "content": "> 🔄 **Auto-sync:** from [Discussion #1589](https://github.com/gonka-ai/gonka/discussions/1589) every hour. \n\n# Bring GNK and Gonka to the Ledger Ecosystem\n\n**Автор:** [@Isabella0319](https://github.com/Isabella0319) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-08-13 09:09 UTC · \n\n---\n\n## 📝 Описание\n\nHi everyone! This is Isabel from 6Block. I’d like to share an important update.\n\n6Block has reached an agreement with Ledger to bring GNK and Gonka into the Ledger ecosystem. The goal is to support the integration of Gonka’s native coin, GNK, and wGNK across Ledger’s relevant infrastructure, including Ledger Devices and Ledger Wallet. \n\nThis is a major step for Gonka. Ledger is one of the leading wallet and custody infrastructure brands in crypto, and we believe Gonka should work wit"
+    },
+    "ai_description": "A new discussion has been started by Isabella from 6Block about an agreement to integrate GNK and wGNK into the Ledger ecosystem, including Ledger Devices and Ledger Wallet. This partnership would bring Gonka's native assets to one of crypto's leading hardware wallet platforms, significantly expanding accessibility and custody options for the community."
+  },
+  {
     "id": "evt_20260813000841_a712760d",
     "timestamp": "2026-08-13T00:08:41.940818+00:00",
     "section": "calendar",

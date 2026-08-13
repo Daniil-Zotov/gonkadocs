@@ -4,12 +4,13 @@ title: ":jigsaw: Ecosystem"
 
 # :jigsaw: Ecosystem
 
-Дискуссии в категории **:jigsaw: Ecosystem**. Всего: **6**. Обновлено: `2026-08-13 08:39 UTC`.
+Дискуссии в категории **:jigsaw: Ecosystem**. Всего: **7**. Обновлено: `2026-08-13 10:18 UTC`.
 
 [← ко всем категориям](../index.md)
 
 | # | Заголовок | Автор | Обновлено |
 |---:|---|---|---|
+| [1589](1589-bring-gnk-and-gonka-to-the-ledger-ecosystem.md) | [Bring GNK and Gonka to the Ledger Ecosystem](1589-bring-gnk-and-gonka-to-the-ledger-ecosystem.md) | [@Isabella0319](https://github.com/Isabella0319) | 2026-08-13 |
 | [1243](1243-project-funding-governance-and-management.md) | [Project funding governance and management](1243-project-funding-governance-and-management.md) | [@a-kuprin](https://github.com/a-kuprin) | 2026-08-05 |
 | [875](0875-automatic-node-provisioning-tool-exists.md) | [Automatic Node Provisioning Tool exists](0875-automatic-node-provisioning-tool-exists.md) | [@SegovChik](https://github.com/SegovChik) | 2026-08-05 |
 | [873](0873-outdated-optional-centralized-monitoring-for-gonka-validator.md) | [!OUTDATED! Optional Centralized Monitoring for Gonka Validators](0873-outdated-optional-centralized-monitoring-for-gonka-validator.md) | [@SegovChik](https://github.com/SegovChik) | 2026-08-05 |

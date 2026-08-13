@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-08-13T08:39:40.707372+00:00",
+  "snapshot_time": "2026-08-13T10:18:55.350271+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "Welcome to Gonka Discussions 👋",
@@ -43,6 +43,12 @@
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1243](https://github.com/gonka-ai/gonka/discussions/1243) every hour. \n\n# Project funding governance and management\n\n**Автор:** [@a-kuprin](https://github.com/a-kuprin) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-05-25 04:19 UTC · \n\n---\n\n## 📝 Описание\n\n# Project funding governance\n\n## Summary\n\nAt present, there is a need for an organization to allocate funds from the community pool and for adequate project-funding tools.\n\nWe propose a smart contract to govern project funding. The grantee first prepares a project with milestones, each tied to a USDT/GNK payout (both can be used at once).\nThe community votes on the whole project; funds are moved into the smart contract; and an industry committee appointed by hosts votes on each milestone being",
       "checksum": "58a93c5081659c0f5b734484c065c4cb2e1339be7c28af0c1629dc51eb75e411"
+    },
+    "ecosystem/1589-bring-gnk-and-gonka-to-the-ledger-ecosystem.md": {
+      "title": "Bring GNK and Gonka to the Ledger Ecosystem",
+      "status": null,
+      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1589](https://github.com/gonka-ai/gonka/discussions/1589) every hour. \n\n# Bring GNK and Gonka to the Ledger Ecosystem\n\n**Автор:** [@Isabella0319](https://github.com/Isabella0319) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-08-13 09:09 UTC · \n\n---\n\n## 📝 Описание\n\nHi everyone! This is Isabel from 6Block. I’d like to share an important update.\n\n6Block has reached an agreement with Ledger to bring GNK and Gonka into the Ledger ecosystem. The goal is to support the integration of Gonka’s native coin, GNK, and wGNK across Ledger’s relevant infrastructure, including Ledger Devices and Ledger Wallet. \n\nThis is a major step for Gonka. Ledger is one of the leading wallet and custody infrastructure brands in crypto, and we believe Gonka should work wit",
+      "checksum": "b991e8fb79a7a40a649dac02ceb1882ec2e0193e2d62c731ca8ce1825075efff"
     },
     "general/0670-kimi-k25.md": {
       "title": "Kimi K2.5",
