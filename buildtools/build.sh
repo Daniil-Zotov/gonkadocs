@@ -41,6 +41,12 @@ if [ -d "$ROOT/gonka-code" ]; then
   python3 "$ROOT/buildtools/generate-code-map.py"
 fi
 
+echo "==> [0.6/7] Обогащение JSON календаря полями для iCal"
+python3 "$ROOT/buildtools/enrich-calendar.py" "$ROOT/docs"
+
+echo "==> [0.7/7] Генерация iCal (.ics) календаря для Google/Apple Calendar"
+python3 "$ROOT/buildtools/generate-ics.py" "$ROOT/docs"
+
 echo "==> [1/7] Сборка основного сайта -> $SITE_DIR"
 cd "$ROOT"
 python3 -m mkdocs build --clean --site-dir "$SITE_DIR"

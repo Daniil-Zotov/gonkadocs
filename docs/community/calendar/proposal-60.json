@@ -14,15 +14,19 @@
    "#63",
    "#64",
    "#65"
-  ]
+  ],
+  "is_all_day": false,
+  "duration_minutes": 60,
+  "location": "https://meet.google.com/rbb-dmju-top",
+  "uid": "gonka-2026-08-05-2ae6c503bc1d@gonkadocs.com"
  },
-{
-   "date": "2026-08-13",
-   "category": "committee",
-   "type": "committee_call",
-   "title": "TheSoul — Weekly Report Call (#60–#65)",
-   "url": "/proposals/proposals/2026-q2/60/",
-   "time": "15:00 UTC",
+ {
+  "date": "2026-08-13",
+  "category": "committee",
+  "type": "committee_call",
+  "title": "TheSoul — Weekly Report Call (#60–#65)",
+  "url": "/proposals/proposals/2026-q2/60/",
+  "time": "15:00 UTC",
   "description": "Weekly report by the TheSoul team under approved proposals #60–#65. Video call: https://meet.google.com/rbb-dmju-top · Public Telegram group: https://t.me/+csDGX6-05LMyOTM0",
   "tags": [
    "#60",
@@ -31,7 +35,11 @@
    "#63",
    "#64",
    "#65"
-  ]
+  ],
+  "is_all_day": false,
+  "duration_minutes": 60,
+  "location": "https://meet.google.com/rbb-dmju-top",
+  "uid": "gonka-2026-08-13-7b102aa63fe9@gonkadocs.com"
  },
  {
   "date": "2026-08-19",
@@ -48,7 +56,11 @@
    "#63",
    "#64",
    "#65"
-  ]
+  ],
+  "is_all_day": false,
+  "duration_minutes": 60,
+  "location": "https://meet.google.com/rbb-dmju-top",
+  "uid": "gonka-2026-08-19-1aa8f4842009@gonkadocs.com"
  },
  {
   "date": "2026-08-26",
@@ -65,7 +77,11 @@
    "#63",
    "#64",
    "#65"
-  ]
+  ],
+  "is_all_day": false,
+  "duration_minutes": 60,
+  "location": "https://meet.google.com/rbb-dmju-top",
+  "uid": "gonka-2026-08-26-e9a79b7a2dc4@gonkadocs.com"
  },
  {
   "date": "2026-09-02",
@@ -82,7 +98,11 @@
    "#63",
    "#64",
    "#65"
-  ]
+  ],
+  "is_all_day": false,
+  "duration_minutes": 60,
+  "location": "https://meet.google.com/rbb-dmju-top",
+  "uid": "gonka-2026-09-02-c29a3f1492ff@gonkadocs.com"
  },
  {
   "date": "2026-09-09",
@@ -99,7 +119,11 @@
    "#63",
    "#64",
    "#65"
-  ]
+  ],
+  "is_all_day": false,
+  "duration_minutes": 60,
+  "location": "https://meet.google.com/rbb-dmju-top",
+  "uid": "gonka-2026-09-09-f7f5e3738179@gonkadocs.com"
  },
  {
   "date": "2026-09-16",
@@ -116,7 +140,11 @@
    "#63",
    "#64",
    "#65"
-  ]
+  ],
+  "is_all_day": false,
+  "duration_minutes": 60,
+  "location": "https://meet.google.com/rbb-dmju-top",
+  "uid": "gonka-2026-09-16-82552ede6db3@gonkadocs.com"
  },
  {
   "date": "2026-09-23",
@@ -133,7 +161,11 @@
    "#63",
    "#64",
    "#65"
-  ]
+  ],
+  "is_all_day": false,
+  "duration_minutes": 60,
+  "location": "https://meet.google.com/rbb-dmju-top",
+  "uid": "gonka-2026-09-23-3ae668841a8e@gonkadocs.com"
  },
  {
   "date": "2026-09-30",
@@ -150,6 +182,10 @@
    "#63",
    "#64",
    "#65"
-  ]
+  ],
+  "is_all_day": false,
+  "duration_minutes": 60,
+  "location": "https://meet.google.com/rbb-dmju-top",
+  "uid": "gonka-2026-09-30-dd64cd14a5fa@gonkadocs.com"
  }
 ]

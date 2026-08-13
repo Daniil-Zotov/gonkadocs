@@ -1,0 +1,1628 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Gonka Docs//Gonka Community Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Gonka Community Calendar
+X-WR-TIMEZONE:UTC
+X-WR-CALDESC:Community events for the Gonka decentralized AI inference netw
+ ork: AMAs, committee calls, proposals, livestreams, and network updates.
+BEGIN:VEVENT
+UID:gonka-2025-09-07-a38b218d50d8@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20250907
+SUMMARY:Passed: #1 – Correct Epoch Length
+DESCRIPTION:Proposal updates epoch_length and restrictions length according
+  to real block length in seconds.\n\nURL: /proposals/proposals/2025-q3/1/\
+ n\nTags: passed
+URL:/proposals/proposals/2025-q3/1/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2025-09-11-bd065cfbacf2@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20250911
+SUMMARY:Passed: #2 – Proposal introducing new Qwen3 models
+DESCRIPTION:This proposal introduces new Qwen3 models including Qwen3-32B-F
+ P8 and Qwen3-235B-A22B-Instruct-2507-FP8\, along with updating parameters 
+ for Qwen2.5-7B-Instruct and QwQ-32B.\n\nURL: /proposals/proposals/2025-q3/
+ 2/\n\nTags: passed
+URL:/proposals/proposals/2025-q3/2/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2025-09-20-00adf63d6b41@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20250920
+SUMMARY:Passed: #3 – Increase PoC Validation Length
+DESCRIPTION:Proposal updates poc_validation_duration from 20 to 100.\n\nURL
+ : /proposals/proposals/2025-q3/3/\n\nTags: passed
+URL:/proposals/proposals/2025-q3/3/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2025-09-23-1378ab8aba53@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20250923
+SUMMARY:Passed: #5 – Expedite voting for upgrades
+DESCRIPTION:Expedite voting for upgrades\n\nURL: /proposals/proposals/2025-
+ q3/5/\n\nTags: passed
+URL:/proposals/proposals/2025-q3/5/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2025-09-24-9219fa33781b@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20250924
+SUMMARY:Rejected: #4 – Upgrade Proposal: v0.2.2
+DESCRIPTION:Upgrade Proposal: v0.2.2\n\nURL: /proposals/proposals/2025-q3/4
+ /\n\nTags: rejected
+URL:/proposals/proposals/2025-q3/4/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2025-09-25-0da8192a2944@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20250925
+SUMMARY:Passed: #6 – Upgrade Proposal: v0.2.2
+DESCRIPTION:Upgrade Proposal: v0.2.2\n\nURL: /proposals/proposals/2025-q3/6
+ /\n\nTags: passed
+URL:/proposals/proposals/2025-q3/6/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2025-10-03-e1b5e496e25c@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20251003
+SUMMARY:Passed: #7 – Upgrade Proposal: v0.2.3
+DESCRIPTION:Upgrade Proposal: v0.2.3\n\nURL: /proposals/proposals/2025-q4/7
+ /\n\nTags: passed
+URL:/proposals/proposals/2025-q4/7/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2025-10-22-0f48d1fb6f47@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20251022
+SUMMARY:Passed: #8 – Upgrade Proposal: v0.2.4
+DESCRIPTION:Upgrade Proposal: v0.2.4\n\nURL: /proposals/proposals/2025-q4/8
+ /\n\nTags: passed
+URL:/proposals/proposals/2025-q4/8/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2025-11-11-9043467de282@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20251111
+SUMMARY:Passed: #9 – Higher Bandwidth Limits & Voting Time Back to 24H
+DESCRIPTION:Higher Bandwidth Limits & Voting Time Back to 24H\n\nURL: /prop
+ osals/proposals/2025-q4/9/\n\nTags: passed
+URL:/proposals/proposals/2025-q4/9/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2025-11-12-12138e4c6141@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20251112
+SUMMARY:Passed: #10 – Bandwidth Limits
+DESCRIPTION:Bandwidth Limits\n\nURL: /proposals/proposals/2025-q4/10/\n\nTa
+ gs: passed
+URL:/proposals/proposals/2025-q4/10/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2025-11-12-f5218dd1ff23@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20251112
+SUMMARY:Passed: #11 – Bandwidth Limits
+DESCRIPTION:Bandwidth Limits\n\nURL: /proposals/proposals/2025-q4/11/\n\nTa
+ gs: passed
+URL:/proposals/proposals/2025-q4/11/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2025-11-13-b63da1a7fbc2@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20251113
+SUMMARY:Passed: #12 – Bandwidth Limits
+DESCRIPTION:Bandwidth Limits\n\nURL: /proposals/proposals/2025-q4/12/\n\nTa
+ gs: passed
+URL:/proposals/proposals/2025-q4/12/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2025-11-22-e0c73a8bd208@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20251122
+SUMMARY:Passed: #13 – Upgrade Proposal: v0.2.5
+DESCRIPTION:Upgrade Proposal: v0.2.5\n\nURL: /proposals/proposals/2025-q4/1
+ 3/\n\nTags: passed
+URL:/proposals/proposals/2025-q4/13/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2025-11-27-e44f7d3f5daf@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20251127
+SUMMARY:Passed: #14 – Sale GNK from Community Fund
+DESCRIPTION:Sale GNK from Community Fund\n\nURL: /proposals/proposals/2025-
+ q4/14/\n\nTags: passed
+URL:/proposals/proposals/2025-q4/14/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2025-12-17-f63db165200a@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20251217
+SUMMARY:Rejected: #15 – Upgrade Proposal: v0.2.6
+DESCRIPTION:Upgrade Proposal: v0.2.6\n\nURL: /proposals/proposals/2025-q4/1
+ 5/\n\nTags: rejected
+URL:/proposals/proposals/2025-q4/15/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2025-12-20-e02a739cdfad@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20251220
+SUMMARY:Passed: #16 – Upgrade Proposal: v0.2.6
+DESCRIPTION:Upgrade Proposal: v0.2.6\n\nURL: /proposals/proposals/2025-q4/1
+ 6/\n\nTags: passed
+URL:/proposals/proposals/2025-q4/16/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2025-12-26-bf84409a7384@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20251226
+SUMMARY:Passed: #17 – Expected amount of Confirmation PoC per epoch
+DESCRIPTION:Expected amount of Confirmation PoC per epoch to 4\, p0 for bin
+ omial test to 0.1\n\nURL: /proposals/proposals/2025-q4/17/\n\nTags: passed
+URL:/proposals/proposals/2025-q4/17/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-01-05-4abd579da416@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260105
+SUMMARY:Rejected: #18 – Test
+DESCRIPTION:Test proposal\n\nURL: /proposals/proposals/2026-q1/18/\n\nTags:
+  rejected
+URL:/proposals/proposals/2026-q1/18/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-01-08-08c9602827e3@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260108
+SUMMARY:Passed: #19 – Upgrade Proposal: v0.2.7
+DESCRIPTION:Upgrade Proposal: v0.2.7\n\nURL: /proposals/proposals/2026-q1/1
+ 9/\n\nTags: passed
+URL:/proposals/proposals/2026-q1/19/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-01-10-8c5ab279a436@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260110
+SUMMARY:Passed: #20 – Enable Whitelist
+DESCRIPTION:https://github.com/product-science/filter/tree/ae59d27f04a70039
+ bcfca94ae656e723982150cd\n\nURL: /proposals/proposals/2026-q1/20/\n\nTags:
+  passed
+URL:/proposals/proposals/2026-q1/20/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-01-12-ae859650175e@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260112
+SUMMARY:Passed: #21 – Fix mistakes in allowlist
+DESCRIPTION:https://github.com/product-science/filter/tree/0354c37eb6c827f0
+ 0c1e889a2b7de9952a9b84ba\n\nURL: /proposals/proposals/2026-q1/21/\n\nTags:
+  passed
+URL:/proposals/proposals/2026-q1/21/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-01-18-a5eca2f0856e@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260118
+SUMMARY:Passed: #22 – Allowlist Timing
+DESCRIPTION:Update Expiration Dates for Developer Access and Participant Al
+ lowlist\n\nURL: /proposals/proposals/2026-q1/22/\n\nTags: passed
+URL:/proposals/proposals/2026-q1/22/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-01-29-b9ebea5e975b@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260129
+SUMMARY:Rejected: #24 – Upgrade Proposal: v0.2.8
+DESCRIPTION:Upgrade Proposal: v0.2.8\n\nURL: /proposals/proposals/2026-q1/2
+ 4/\n\nTags: rejected
+URL:/proposals/proposals/2026-q1/24/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-01-29-a06636624159@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260129
+SUMMARY:Passed: #25 – Upgrade Proposal: v0.2.8
+DESCRIPTION:Upgrade Proposal: v0.2.8\n\nURL: /proposals/proposals/2026-q1/2
+ 5/\n\nTags: passed
+URL:/proposals/proposals/2026-q1/25/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-02-01-5822214dab7a@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260201
+SUMMARY:Passed: #26 – Upgrade Proposal: v0.2.9
+DESCRIPTION:Upgrade Proposal: v0.2.9\n\nURL: /proposals/proposals/2026-q1/2
+ 6/\n\nTags: passed
+URL:/proposals/proposals/2026-q1/26/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-02-18-026e58d9e9ef@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260218
+SUMMARY:Passed: #27 – Upgrade Proposal: v0.2.10
+DESCRIPTION:Upgrade Proposal: v0.2.10\n\nURL: /proposals/proposals/2026-q1/
+ 27/\n\nTags: passed
+URL:/proposals/proposals/2026-q1/27/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-02-19-4d5e72dcad88@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260219
+SUMMARY:Rejected: #28 – Collateral Parameters Update
+DESCRIPTION:0.032 GNK per 1 unit of power\, 0.01% slashing for miss rate or
+  jail\, 0.5% slashing for invalid inference\n\nURL: /proposals/proposals/2
+ 026-q1/28/\n\nTags: rejected
+URL:/proposals/proposals/2026-q1/28/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-02-20-950cfe589333@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260220
+SUMMARY:Rejected: #29 – Network Parameters Update: Disable TA Allowlist\,
+  Increase Prices 100x
+DESCRIPTION:Remove TransferAgent allowlist restrictions (empty list = all T
+ As allowed) and increase per-token pricing 100x (min 100\, base 10000 ngon
+ ka) to reduce spam.\n\nURL: /proposals/proposals/2026-q1/29/\n\nTags: reje
+ cted
+URL:/proposals/proposals/2026-q1/29/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-03-10-11c1c463085b@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260310
+SUMMARY:Rejected: #30 – Test Proposal
+DESCRIPTION:Testing governance voting from the wallet app.\n\nURL: /proposa
+ ls/proposals/2026-q1/30/\n\nTags: rejected
+URL:/proposals/proposals/2026-q1/30/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-03-20-a88eba4063c1@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260320
+SUMMARY:Passed: #31 – Upgrade Proposal: v0.2.11
+DESCRIPTION:Upgrade Proposal: v0.2.11\n\nURL: /proposals/proposals/2026-q1/
+ 31/\n\nTags: passed
+URL:/proposals/proposals/2026-q1/31/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-03-24-22cadcbbd574@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260324
+SUMMARY:Passed: #32 – Epoch 158 compensation payout from gov module (batc
+ h vesting)
+DESCRIPTION:Distribute compensation proportional to epoch 158 lost preserve
+ d weights. Implemented as one MsgBatchTransferWithVesting.\n\nURL: /propos
+ als/proposals/2026-q1/32/\n\nTags: passed
+URL:/proposals/proposals/2026-q1/32/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-03-27-c19c00ea0f09@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260327
+SUMMARY:Passed: #33 – Epochs 132-133 compensation payout from gov module
+DESCRIPTION:Distribute compensation for CPoC bug affected participants in e
+ pochs 132-133.\n\nURL: /proposals/proposals/2026-q1/33/\n\nTags: passed
+URL:/proposals/proposals/2026-q1/33/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-03-31-f85122bd91b0@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260331
+SUMMARY:Rejected: #34 – gonka.ai / TheSoul social media awareness project
+DESCRIPTION:This proposal seeks community approval for a global media initi
+ ative to build awareness of decentralized AI and position Gonka as core AI
+  infrastructure.\n\nKey elements:\nLed by TheSoul Group (full-cycl…\n\nU
+ RL: /proposals/proposals/2026-q1/34/\n\nTags: rejected
+URL:/proposals/proposals/2026-q1/34/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-03-31-07446e439e66@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260331
+SUMMARY:Rejected: #35 – gonka.ai / TheSoul social media awareness project
+DESCRIPTION:This proposal seeks community approval for a global media initi
+ ative to build awareness of decentralized AI and position Gonka as core AI
+  infrastructure.\n\nKey elements:\nLed by TheSoul Group (full-cycl…\n\nU
+ RL: /proposals/proposals/2026-q1/35/\n\nTags: rejected
+URL:/proposals/proposals/2026-q1/35/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-04-02-7983d8d1ec15@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260402
+SUMMARY:Passed: #36 – Register Kava USDT IBC metadata and approve for tra
+ ding
+DESCRIPTION:Register IBC token metadata and approve the denomination for tr
+ ading on Gonka mainnet.\n\nURL: /proposals/proposals/2026-q2/36/\n\nTags: 
+ passed
+URL:/proposals/proposals/2026-q2/36/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-04-08-a42b6031f1a6@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260408
+SUMMARY:Rejected: #37 – What is your stance on MLM projects around gonka.
+ ai?
+DESCRIPTION:If you are against MLM projects around gonka.ai\, vote YES. All
+  funds will be used to counter such projects. The amount is symbolic.\n\nU
+ RL: /proposals/proposals/2026-q2/37/\n\nTags: rejected
+URL:/proposals/proposals/2026-q2/37/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-04-09-a9ec83f3c08e@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260409
+SUMMARY:Rejected: #38 – CryptoCommons: Community Support & Token Promotio
+ n Plan
+DESCRIPTION:If you agree say YES — Solution 1: Produce a short review vid
+ eo with 1-2 active community members. Solution 2: Introduce the project to
+  BD managers of major CIS exchanges for listings. Solution 3 (Reg…\n\nUR
+ L: /proposals/proposals/2026-q2/38/\n\nTags: rejected
+URL:/proposals/proposals/2026-q2/38/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-04-10-8d51b07287bd@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260410
+SUMMARY:Passed: #39 – Community Series Film — Why Gonka Exists
+DESCRIPTION:Saccade Media House is a creative team of tech entrepreneurs wh
+ o know how to tell stories. We've built content for international tech bra
+ nds and the founders behind them. We propose a Community Series…\n\nURL:
+  /proposals/proposals/2026-q2/39/\n\nTags: passed
+URL:/proposals/proposals/2026-q2/39/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-04-14-2d4f5e7ad80b@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260414
+SUMMARY:Passed: #40 – Governance: extend voting period to 48 hours
+DESCRIPTION:This proposal updates x/gov: the standard voting period becomes
+  48 hours (was 24)\, and the expedited voting period becomes 12 hours (was
+  3). All other governance parameters remain at their current on-…\n\nURL
+ : /proposals/proposals/2026-q2/40/\n\nTags: passed
+URL:/proposals/proposals/2026-q2/40/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-04-18-27937457a61d@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260418
+SUMMARY:Rejected: #41 – INC4 | Gonka Node Observability Platform
+DESCRIPTION:Today's explorers and dashboards only show on-chain data\, leav
+ ing the off-chain state of validators completely opaque. The few operators
+  who do run their own monitoring use different tools\, different …\n\nUR
+ L: /proposals/proposals/2026-q2/41/\n\nTags: rejected
+URL:/proposals/proposals/2026-q2/41/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-04-19-114c600b920e@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260419
+SUMMARY:Passed: #42 – Support Gonka at Global Compute Sovereignty Summit
+DESCRIPTION:We are DeAI Nation\, a global nonprofit organization supporting
+  and promoting the decentralized AI ecosystem\, and authors of the State o
+ f DeAI 2026 report. We propose that the Gonka community become a …\n\nUR
+ L: /proposals/proposals/2026-q2/42/\n\nTags: passed
+URL:/proposals/proposals/2026-q2/42/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-04-27-550d13aa1f13@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260427
+SUMMARY:Rejected: #43 – Governance Architecture Proposal for the Gonka.ai
+  Network
+DESCRIPTION:Today\, participating in Gonka governance requires following mu
+ ltiple channels simultaneously — GitHub\, Discord\, CLI — just to cast
+  a single vote. Most miners miss proposals entirely or vote too late. …\
+ n\nURL: /proposals/proposals/2026-q2/43/\n\nTags: rejected
+URL:/proposals/proposals/2026-q2/43/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-04-30-d214dcb0a08f@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260430
+SUMMARY:Passed: #44 – Upgrade Proposal: v0.2.12
+DESCRIPTION:Upgrade Proposal: v0.2.12\n\nURL: /proposals/proposals/2026-q2/
+ 44/\n\nTags: passed
+URL:/proposals/proposals/2026-q2/44/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-05-01-28ddca4ce7aa@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260501
+SUMMARY:Rejected: #45 – Governance Architecture Proposal for the Gonka.ai
+  Network
+DESCRIPTION:Replace scattered governance discussions and complex CLI voting
+  with a unified Governance Portal - a single interface for all Gonka gover
+ nance activity. The portal includes: a proposal feed across Dis…\n\nURL:
+  /proposals/proposals/2026-q2/45/\n\nTags: rejected
+URL:/proposals/proposals/2026-q2/45/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-05-04-b2cd80b09739@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260504
+SUMMARY:Passed: #46 – Epochs 132-247 compensation payout from gov module 
+ (batch vesting)
+DESCRIPTION:Two prior upgrades changed the lifecycle of unpaid miner reward
+ s. v0.2.9 (proposal #26\, 2026-02-01): when a participant is penalized dur
+ ing cPoC validation\, the unaccounted portion of their epoch rewa…\n\nUR
+ L: /proposals/proposals/2026-q2/46/\n\nTags: passed
+URL:/proposals/proposals/2026-q2/46/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-05-05-9d21f0a3fddd@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260505
+SUMMARY:Passed: #48 – Lower Direct Participation Threshold to 10%
+DESCRIPTION:During the Kimi-K2.6 bootstrap\, the 30% direct participation t
+ hreshold proved hard to meet. To avoid the risk of Kimi-K2.6 becoming inel
+ igible in a future epoch and to simplify onboarding of further m…\n\nURL
+ : /proposals/proposals/2026-q2/48/\n\nTags: passed
+URL:/proposals/proposals/2026-q2/48/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-05-06-caf5f3276bc7@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260506
+SUMMARY:Rejected: #47 – Retroactive bounty: open-source PoC throughput op
+ timization (+10–12% measured) with 250 total installations
+DESCRIPTION:Retroactive 20K GNK bounty for an open-sourced PoC optimization
+  measuring +10.2% on B200 and +12.5% on H100 with Qwen3-235B-FP8. One-line
+  patch\, verified on-chain by independent miners. Details: https…\n\nURL
+ : /proposals/proposals/2026-q2/47/\n\nTags: rejected
+URL:/proposals/proposals/2026-q2/47/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-05-07-ada48449b748@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260507
+SUMMARY:Passed: #49 – Gonka Media Dominance in TechL/AI with 5 AI Influen
+ cers
+DESCRIPTION:We're ICG - AI Influencer Lab\, a team that builds and scales h
+ yper-realistic AI avatars on Instagram\, TikTok\, and YouTube as full amba
+ ssadors across verticals. We manage 160+ accounts in AI\, finance\, …\n\
+ nURL: /proposals/proposals/2026-q2/49/\n\nTags: passed
+URL:/proposals/proposals/2026-q2/49/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-05-09-496fae0e2a01@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260509
+SUMMARY:Passed: #50 – Retroactive bounty: open-source PoC throughput opti
+ mization (+10–12% measured) with 250 total installations
+DESCRIPTION:Retroactive 20K GNK bounty for an open-sourced PoC optimization
+  measuring +10.2% on B200 and +12.5% on H100 with Qwen3-235B-FP8. One-line
+  patch\, verified on-chain by independent miners. Details: https…\n\nURL
+ : /proposals/proposals/2026-q2/50/\n\nTags: passed
+URL:/proposals/proposals/2026-q2/50/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-05-15-37d5b845bb22@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260515
+SUMMARY:Passed: #51 – Support Gonka's presence at WebX Asia
+DESCRIPTION:6Block\, a long-term Gonka mining and infrastructure participan
+ t\, proposes that the Gonka community allocate 75\,000 USDT to support Gon
+ ka's participation at WebX Asia / WebX 2026 in Tokyo. 6Block has a…\n\nU
+ RL: /proposals/proposals/2026-q2/51/\n\nTags: passed
+URL:/proposals/proposals/2026-q2/51/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-05-17-b343637b486d@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260517
+SUMMARY:Rejected: #52 – Upgrade Proposal: v0.2.13
+DESCRIPTION:Upgrade Proposal: v0.2.13\n\nURL: /proposals/proposals/2026-q2/
+ 52/\n\nTags: rejected
+URL:/proposals/proposals/2026-q2/52/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-05-21-14df90c3849f@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260521
+SUMMARY:Rejected: #53 – INC4 | Gonka NOP - grant for the node deployment 
+ tool
+DESCRIPTION:# Gonka NOP: grant for the node deployment tool\n\n50\,000 USDT
+  from the CommunityPool to INC4\nFull proposal: https://github.com/gonka-a
+ i/gonka/discussions/1192\n\n## What it is\n\ngonka-nop (Node Onboarding…
+ \n\nURL: /proposals/proposals/2026-q2/53/\n\nTags: rejected
+URL:/proposals/proposals/2026-q2/53/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-05-22-eb06967dea6e@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260522
+SUMMARY:Passed: #54 – Upgrade Proposal: v0.2.13
+DESCRIPTION:Upgrade Proposal: v0.2.13\n\nURL: /proposals/proposals/2026-q2/
+ 54/\n\nTags: passed
+URL:/proposals/proposals/2026-q2/54/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-05-23-3e918feecfc4@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260523
+SUMMARY:Passed: #55 – GRC Proposal #2 - Restitution (epochs 248-254)
+DESCRIPTION:Distribute restitution for Cases 2\, 3\, and 4 across epochs 24
+ 8-254. Case 2: preserver weight double-scaling bug (epochs 249-253). Case 
+ 3: epoch loss restitution: broad epoch losses\, consecutive failur…\n\nU
+ RL: /proposals/proposals/2026-q2/55/\n\nTags: passed
+URL:/proposals/proposals/2026-q2/55/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-05-27-5068a9bf92be@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260527
+SUMMARY:Rejected: #56 – INC4 | Gonka NOP - grant for the node deployment 
+ tool
+DESCRIPTION:# Gonka NOP: grant for the node deployment tool\n\n50\,000 USDT
+  from the CommunityPool to INC4\nFull proposal: https://github.com/gonka-a
+ i/gonka/discussions/1192\n\n## What it is\n\ngonka-nop (Node Onboarding…
+ \n\nURL: /proposals/proposals/2026-q2/56/\n\nTags: rejected
+URL:/proposals/proposals/2026-q2/56/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-05-30-f6717d01dcdb@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260530
+SUMMARY:Passed: #57 – Approve the Gonka Network Development Roadmap
+DESCRIPTION:This proposal approves the Gonka Network Development Roadmap as
+  a strategic direction document for Gonka's future development tracks.\n\n
+ If approved\, the roadmap should become the shared vision for Gonk…\n\nU
+ RL: /proposals/proposals/2026-q2/57/\n\nTags: passed
+URL:/proposals/proposals/2026-q2/57/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-05-30-6c5f507248e4@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260530
+SUMMARY:Rejected: #58 – Big YouTube Deep-Dive on Falcon Finance (Alexande
+ r Sokolovsky)
+DESCRIPTION:# Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky
+ )\n\n70\,000 USDT from the CommunityPool for a dedicated Falcon Finance de
+ ep-dive on Gonka AI.\nFull proposal: https://vote.gonka.vip/tenders…\n\n
+ URL: /proposals/proposals/2026-q2/58/\n\nTags: rejected
+URL:/proposals/proposals/2026-q2/58/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-06-02-706fc2ef4db0@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260602
+SUMMARY:Rejected: #59 – Gonka Onboarding Video Guide — Milestone 1 (Pre
+ payment)
+DESCRIPTION:Funds milestone 1 (upfront prepayment) of a community-produced 
+ onboarding video guide for Gonka. Deliverable: a series of ~15 short\, int
+ eractive\, easy-to-follow videos covering A-to-Z onboarding for b…\n\nUR
+ L: /proposals/proposals/2026-q2/59/\n\nTags: rejected
+URL:/proposals/proposals/2026-q2/59/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-06-04-7b3fe74a5909@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260604
+SUMMARY:Passed: #60 – TheSoul - Offer 1.1: Brand positioning (25\,000 USD
+ T)
+DESCRIPTION:Brand audit\, competitive positioning\, and audience segmentati
+ on for Gonka.AI. Single-tranche payment of 25\,000 USDT to TheSoul on prop
+ osal pass. Full offer document: see the metadata URL.\n\nURL: /proposals/p
+ roposals/2026-q2/60/\n\nTags: passed
+URL:/proposals/proposals/2026-q2/60/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-06-04-7bba7c569f14@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260604
+SUMMARY:Passed: #61 – TheSoul - Offer 1.2: Brandbook (20\,000 USDT)
+DESCRIPTION:Brand identity system for Gonka.AI: logo\, typography\, color s
+ ystem\, graphic language\, layout principles\, and templates\, built on th
+ e positioning from Offer 1.1. Single-tranche payment of 20\,000 USDT t…\
+ n\nURL: /proposals/proposals/2026-q2/61/\n\nTags: passed
+URL:/proposals/proposals/2026-q2/61/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-06-04-20005753d61e@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260604
+SUMMARY:Passed: #63 – TheSoul - Offer 2.1: Website and landings (10\,000 
+ USDT)
+DESCRIPTION:Full redesign of gonka.ai plus dedicated landing pages for mine
+ rs\, inference buyers\, and investors\, built on the brandbook from Offer 
+ 1.2. Single-tranche payment of 10\,000 USDT to TheSoul on proposal …\n\n
+ URL: /proposals/proposals/2026-q2/63/\n\nTags: passed
+URL:/proposals/proposals/2026-q2/63/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-06-04-5711bf64de3b@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260604
+SUMMARY:Passed: #62 – TheSoul - Offer 1.3: Influencer pilot (50\,000 USDT
+ )
+DESCRIPTION:Crypto-influencer pilot campaign for Gonka.AI across selected t
+ ier-1 creators\, with a full performance report and scaling recommendation
+ s. Single-tranche payment of 50\,000 USDT to TheSoul on proposal …\n\nUR
+ L: /proposals/proposals/2026-q2/62/\n\nTags: passed
+URL:/proposals/proposals/2026-q2/62/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-06-04-fbd97ae78238@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260604
+SUMMARY:Passed: #65 – TheSoul - Offer 2.3: Digital strategy (100\,000 GNK
+ )
+DESCRIPTION:Full 360-degree digital and social strategy for Gonka.AI: chann
+ el matrix\, content plan\, segment messaging\, social strategy\, and brand
+ -voice guidelines. Single-tranche payment of 100\,000 GNK to TheSoul…\n\
+ nURL: /proposals/proposals/2026-q2/65/\n\nTags: passed
+URL:/proposals/proposals/2026-q2/65/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-06-04-f35d24efd85c@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260604
+SUMMARY:Passed: #64 – TheSoul - Offer 2.2: Analytics and attribution (28\
+ ,000 GNK)
+DESCRIPTION:Web analytics\, attribution\, and funnel dashboarding for Gonka
+ .AI: GA4 implementation\, UTM taxonomy\, event tracking\, and conversion r
+ eporting. Single-tranche payment of 28\,000 GNK to TheSoul on proposa…\n
+ \nURL: /proposals/proposals/2026-q2/64/\n\nTags: passed
+URL:/proposals/proposals/2026-q2/64/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-06-05-c5f359f7abb5@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260605
+SUMMARY:Rejected: #66 – test proposal - 测试方案
+DESCRIPTION:test proposal - 测试方案\n\nURL: /proposals/proposals/2026-
+ q2/66/\n\nTags: rejected
+URL:/proposals/proposals/2026-q2/66/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-06-05-35b148e6a7de@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260605
+SUMMARY:Passed: #67 – Kimi Restitution (epochs 265-276)
+DESCRIPTION:Distribute restitution for Kimi operators across epochs 265-276
+ . Epochs 265-266: external attack causing CPoC degradation and nonce exclu
+ sion. Epochs 267-276: ComputeGroupCap systematic underpayment d…\n\nURL:
+  /proposals/proposals/2026-q2/67/\n\nTags: passed
+URL:/proposals/proposals/2026-q2/67/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-06-07-52b897d88b68@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260607
+SUMMARY:Passed: #68 – Big YouTube Deep-Dive on Falcon Finance (Alexander 
+ Sokolovsky)
+DESCRIPTION:The proposal is reopened for voting at the initiative of severa
+ l hosts who did not participate in the previous round.\n\n• There are no
+  changes to the substance of the proposal\; only timeline commitment…\n\
+ nURL: /proposals/proposals/2026-q2/68/\n\nTags: passed
+URL:/proposals/proposals/2026-q2/68/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-06-07-26ba5d806984@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260607
+SUMMARY:Failed: #69 – Increase minimum governance deposit to 500 GNK
+DESCRIPTION:Increase the minimum deposit required to submit a governance pr
+ oposal from the current value to 500 GNK. Also sets expedited minimum depo
+ sit to 1000 GNK.\n\nURL: /proposals/proposals/2026-q2/69/\n\nTags: failed
+URL:/proposals/proposals/2026-q2/69/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-06-08-2ee65cb726b3@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260608
+SUMMARY:Rejected: #70 – GNK Racers: Launch GameFi Mini-App to Drive User 
+ Growth & Wallet Activity
+DESCRIPTION:Release 246\,000 GNK from Community Fund to finalize GNK Racers
+  — a multiplayer side-view racing mini-app with a live working prototype
+  (@GNKRacers_bot). The game drives new user acquisition\, wallet ac…\n\n
+ URL: /proposals/proposals/2026-q2/70/\n\nTags: rejected
+URL:/proposals/proposals/2026-q2/70/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-06-10-eba7dab5f32c@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260610
+SUMMARY:Rejected: #71 – Gonka PR Proposal for US/Global Regions
+DESCRIPTION:We're a comms team specializing in Organic PR for crypto and te
+ ch projects. With strong competition in the space and no active events or 
+ marketing currently running for Gonka\, we propose a 3-month Org…\n\nURL
+ : /proposals/proposals/2026-q2/71/\n\nTags: rejected
+URL:/proposals/proposals/2026-q2/71/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-06-12-4c8003c5190e@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260612
+SUMMARY:Rejected: #72 – Open devshard escrow creation to community wallet
+  gonka1afj0tz53z56zngs425m83vxl5y2xmwm692hfrn
+DESCRIPTION:Adds a community-operated wallet to devshard_escrow_params.allo
+ wed_creator_addresses\, enabling it to create a devshard escrow and operat
+ e as an additional self-hosted inference gateway/transfer agent.…\n\nURL
+ : /proposals/proposals/2026-q2/72/\n\nTags: rejected
+URL:/proposals/proposals/2026-q2/72/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-06-12-8d16577049de@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260612
+SUMMARY:Passed: #73 – Increase minimum governance deposit to 500 GNK and 
+ expedited minimum deposit to 1000 GNK
+DESCRIPTION:Increase the minimum deposit required to submit a governance pr
+ oposal to 500 GNK (500\,000\,000\,000 ngonka) and expedited minimum deposi
+ t to 1000 GNK (1\,000\,000\,000\,000 ngonka). This resubmits proposal …\
+ n\nURL: /proposals/proposals/2026-q2/73/\n\nTags: passed
+URL:/proposals/proposals/2026-q2/73/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-06-12-0cdc8f77e9c4@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260612
+SUMMARY:Passed: #74 – Gonka Labs: Maintaining Infrastructure\, Improving 
+ Products\, and Launching New Ones
+DESCRIPTION:Full proposal: https://gonkalabs.com/proposal\n\nThis proposal 
+ funds the next six months of work for the Gonka ecosystem.\n\nThe focus is
+  production-grade infrastructure and high-use products: Gonka.gg V2…\n\n
+ URL: /proposals/proposals/2026-q2/74/\n\nTags: passed
+URL:/proposals/proposals/2026-q2/74/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-06-15-802d36fa26ff@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260615
+SUMMARY:Rejected: #75 – Private Inc × Gonka — Network Growth Initiativ
+ e
+DESCRIPTION:IMPORTANT: Below is a condensed version of the proposal. It hig
+ hlights only the key points and does not disclose all details of the initi
+ ative\, implementation mechanics\, KPIs\, or terms. It is strongly…\n\nU
+ RL: /proposals/proposals/2026-q2/75/\n\nTags: rejected
+URL:/proposals/proposals/2026-q2/75/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-06-17-9917346d9135@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260617
+SUMMARY:Passed: #76 – Governance 16: devshard v2 and bounty payouts
+DESCRIPTION:Register devshard approved version v2.\n\nURL: /proposals/propo
+ sals/2026-q2/76/\n\nTags: passed
+URL:/proposals/proposals/2026-q2/76/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-06-25-f06d49c9c830@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART:20260625T150000Z
+DTEND:20260625T160000Z
+SUMMARY:AMA: Bitfury\, HackerOne & Gonka — Bug Bounty Program Launch
+DESCRIPTION:Second community AMA session with Vadim Krutov (COO of Bitfury)
+  and David Liberman. The meeting focuses on breaking down the launch of th
+ e joint Bug Bounty program.\n\n👥 SPEAKERS\n🔥 NEW GUEST: Laurie Merce
+ r\, HackerOne Senior Director of Sales Engineering\, joins the AMA session
+ !\n• Vadim Krutov — COO of Bitfury\n• @libermans — David Liberman\
+ n\n⚠️ IMPORTANT NOTE: THIS SESSION IS HELD ENTIRELY IN ENGLISH. ⚠️
+ \n\n🎙️ SESSION TOPICS\n• Joint Bounty Program Launch: The vision be
+ hind the Gonka + Bitfury + HackerOne three-way partnership and strengtheni
+ ng network security.\n• Phased Rollout Plan: Shifting from private invit
+ es to an open form on gonka.ai\, leading up to the final public launch on 
+ HackerOne.\n• Community Integration: How the report submission process w
+ orks\, gaining HackerOne access\, and defining scope and reward tiers.\n
+ • Transparency & Reporting: How the team plans to track and publish payo
+ ut reports\, considering that H1 bounties are processed off-chain.\n\n⏰ 
+ EVENT DETAILS\n📅 Date: Thursday\, June 25\, 2026\n🕣 Time: 08:00 AM P
+ T / 15:00 UTC / 18:00 MSK\n🔗 Join via Zoom: https://us06web.zoom.us/j/8
+ 8254388622\n\nURL: https://us06web.zoom.us/j/88254388622\n\nTags: ama\, bu
+ g-bounty\, bitfury\, hackerone\, libermans
+LOCATION:https://us06web.zoom.us/j/88254388622
+URL:https://us06web.zoom.us/j/88254388622
+CATEGORIES:ama
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-06-25-3eb55c138837@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260625
+SUMMARY:Passed: #78 – Governance 17: update PoC model lineup
+DESCRIPTION:Set delegation initial_model_id to MiniMaxAI/MiniMax-M2.7\, kee
+ p only MiniMaxAI/MiniMax-M2.7 in PoC params\, remove Qwen/Qwen3-235B-A22B-
+ Instruct-2507-FP8\, moonshotai/Kimi-K2.6 from PoC params\, and dele…\n\n
+ URL: /proposals/proposals/2026-q2/78/\n\nTags: passed
+URL:/proposals/proposals/2026-q2/78/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-06-26-e6347ef8f071@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260626
+SUMMARY:Passed: #79 – Add Kimi K2.6 and GLM 5.2 model
+DESCRIPTION:Add Kimi K2.6 and GLM 5.2 model\n\nURL: /proposals/proposals/20
+ 26-q2/79/\n\nTags: passed
+URL:/proposals/proposals/2026-q2/79/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-06-26-fd7098cc91cd@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260626
+SUMMARY:Passed: #77 – Gonka PR Proposal for US/Global Regions
+DESCRIPTION:We are INPUT Global - a leading web3 marketing communications a
+ gency. We offer 3 month PR campaign to establish trust and market legitima
+ cy of Gonka across 2 audiences: global business and crypto-nati…\n\nURL:
+  /proposals/proposals/2026-q2/77/\n\nTags: passed
+URL:/proposals/proposals/2026-q2/77/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-07-07-e69db9f99672@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260707
+SUMMARY:Rejected: #80 – GRC Proposal #3 - Restitution
+DESCRIPTION:Restitution payout for confirmed GRC Proposal #3 cases\, with C
+ ase 05 payments from proposal_id=67 deducted where the same address and ep
+ och were already compensated\, and positive victim outputs below …\n\nUR
+ L: /proposals/proposals/2026-q3/80/\n\nTags: rejected
+URL:/proposals/proposals/2026-q3/80/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-07-10-ba835534956d@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260710
+SUMMARY:Rejected: #81 – Kimi cPoC Restitution (epochs 306-309)
+DESCRIPTION:Distribute restitution for Kimi operators affected by cPoC vali
+ dation failure in epochs 306-309. The Kimi validation path failed starting
+  in e306 causing confirmation_weight suppression for Kimi opera…\n\nURL:
+  /proposals/proposals/2026-q3/81/\n\nTags: rejected
+URL:/proposals/proposals/2026-q3/81/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-07-10-832fda5bfdb1@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260710
+SUMMARY:Passed: #82 – External Test Lab x Community DevNet
+DESCRIPTION:4-month pilot of the External Test Lab & Community DevNet: a co
+ mmunity-owned testing layer for Gonka. Full proposal and discussion: https
+ ://github.com/gonka-ai/gonka/discussions/1388\n\nThe budget is he…\n\nUR
+ L: /proposals/proposals/2026-q3/82/\n\nTags: passed
+URL:/proposals/proposals/2026-q3/82/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-07-11-14449af1d74c@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260711
+SUMMARY:Passed: #83 – Approve devshard v3
+DESCRIPTION:Update current chain params by adding v3 to devshard_escrow_par
+ ams.approved_versions.\n\nURL: /proposals/proposals/2026-q3/83/\n\nTags: p
+ assed
+URL:/proposals/proposals/2026-q3/83/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-07-11-38ef0347d584@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260711
+SUMMARY:Rejected: #84 – Bringing $3M+ in New Capital to GONKA via Uniswap
+  — Phase 1/6 ($50k USDT)
+DESCRIPTION:My name is Andrey Orlovsky\, and through this proposal I repres
+ ent our team and an initiative to attract at least $3 million in new long-
+ term capital to GONKA through Uniswap.\n\nBelow is a condensed ver…\n\nU
+ RL: /proposals/proposals/2026-q3/84/\n\nTags: rejected
+URL:/proposals/proposals/2026-q3/84/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-07-12-c66e8d1a443e@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260712
+SUMMARY:Rejected: #85 – Internal Go-To-Market Team for 3 Month
+DESCRIPTION:We will run hundreds of experiments across different target aud
+ ience hypotheses and set up the basis: acquisition funnels\, analytics\, s
+ harable target audience deep understanding. Our key performance m…\n\nUR
+ L: /proposals/proposals/2026-q3/85/\n\nTags: rejected
+URL:/proposals/proposals/2026-q3/85/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-07-16-37e1a9ea2bf5@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260716
+SUMMARY:Passed: #87 – Remove Kimi K2.6 model
+DESCRIPTION:Remove moonshotai/Kimi-K2.6 from PoC params and delete it from 
+ the governance model list.\n\nURL: /proposals/proposals/2026-q3/87/\n\nTag
+ s: passed
+URL:/proposals/proposals/2026-q3/87/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-07-16-91c1f992d174@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260716
+SUMMARY:Passed: #86 – Increase Kimi-K2.6 and GLM-5.2 weight_scale_factor 
+ by 5%
+DESCRIPTION:Increase the weight_scale_factor for moonshotai/Kimi-K2.6 from 
+ 0.90 to 0.945 (+5%) and for zai-org/GLM-5.2-FP8 from 2.47 to 2.5935 (+5%).
+  All other model and chain parameters remain unchanged.\n\nURL: /proposals
+ /proposals/2026-q3/86/\n\nTags: passed
+URL:/proposals/proposals/2026-q3/86/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-07-17-8a991dd98dcf@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260717
+SUMMARY:Report for proposal #77 — Gonka PR Proposal for US/Global Regions
+DESCRIPTION:Report report1 for proposal #77 has been uploaded. Read it: htt
+ ps://gonkadocs.com/proposals/proposals/2026-q2/77/report1/\n\nURL: /propos
+ als/proposals/2026-q2/77/\n\nTags: report
+URL:/proposals/proposals/2026-q2/77/
+CATEGORIES:proposal_report_upload
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-07-17-3ce9ec0c9bfe@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260717
+SUMMARY:Passed: #88 – Restore Kimi K2.6 and remove v1\, v2
+DESCRIPTION:Update current chain params to register moonshotai/Kimi-K2.6 in
+  the governance model list and remove approved_versions v1\, v2 from devsh
+ ard_escrow_params (to reduce RAM usage).\n\nURL: /proposals/proposals/2026
+ -q3/88/\n\nTags: passed
+URL:/proposals/proposals/2026-q3/88/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-07-18-fe8efb7387a3@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260718
+SUMMARY:Report for proposal #74 — Gonka Labs: Maintaining Infrastructure\
+ , Improving Products\, and Launch…
+DESCRIPTION:Report report1 for proposal #74 has been uploaded. Read it: htt
+ ps://gonkadocs.com/proposals/proposals/2026-q2/74/report1/\n\nURL: /propos
+ als/proposals/2026-q2/74/\n\nTags: report
+URL:/proposals/proposals/2026-q2/74/
+CATEGORIES:proposal_report_upload
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-07-21-6f1927ff2923@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260721
+SUMMARY:Report for proposal #49 — Gonka Media Dominance in TechL/AI with 
+ 5 AI Influencers
+DESCRIPTION:Report report1 for proposal #49 has been uploaded. Read it: htt
+ ps://gonkadocs.com/proposals/proposals/2026-q2/49/report1/\n\nURL: /propos
+ als/proposals/2026-q2/49/\n\nTags: report
+URL:/proposals/proposals/2026-q2/49/
+CATEGORIES:proposal_report_upload
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-07-23-5a76b1daf127@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260723
+SUMMARY:Passed: #89 – Upgrade Proposal: v0.2.14
+DESCRIPTION:Upgrade Proposal: v0.2.14\n\nURL: /proposals/proposals/2026-q3/
+ 89/\n\nTags: passed
+URL:/proposals/proposals/2026-q3/89/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-07-23-4eb7b2018596@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260723
+SUMMARY:Rejected: #90 – Partnerships with Inference Resellers\, B2C users
+  acquisition and conversion funnels analytics setup
+DESCRIPTION:Currently Gonka has a lot of marketing activities\, but doesn't
+  have analytics to measure the results of their work and doesn't have a vi
+ sion which target audiences and how we need to attract and onboa…\n\nURL
+ : /proposals/proposals/2026-q3/90/\n\nTags: rejected
+URL:/proposals/proposals/2026-q3/90/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-07-24-3218305c6316@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260724
+SUMMARY:Report for proposal #77 — Gonka PR Proposal for US/Global Regions
+DESCRIPTION:Report report2 for proposal #77 has been uploaded. Read it: htt
+ ps://gonkadocs.com/proposals/proposals/2026-q2/77/report2/\n\nURL: /propos
+ als/proposals/2026-q2/77/\n\nTags: report
+URL:/proposals/proposals/2026-q2/77/
+CATEGORIES:proposal_report_upload
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-07-24-aac03af50b13@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260724
+SUMMARY:Passed: #91 – Temporarily update BLS signing parameters
+DESCRIPTION:Set max_signing_attempts to 1 and signing_deadline_blocks to 60
+  epoch lengths (923460 blocks) to mitigate a theoretical risk identified i
+ n a security report. Historically\, retries have never been need…\n\nURL
+ : /proposals/proposals/2026-q3/91/\n\nTags: passed
+URL:/proposals/proposals/2026-q3/91/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-07-29-bad59a1afaac@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART:20260729T130000Z
+DTEND:20260729T140000Z
+SUMMARY:INPUT Global — Weekly Call (#77)
+DESCRIPTION:Weekly report by the INPUT Global team under the approved propo
+ sal #77 — Gonka PR Proposal for US/Global Regions. Video call: https://m
+ eet.google.com/hsc-oesy-jbw · Public Telegram group: https://t.me/+48vHIY
+ IqbNpmNGE0\n\nURL: /proposals/proposals/2026-q2/77/\n\nTags: #77
+LOCATION:https://meet.google.com/hsc-oesy-jbw
+URL:/proposals/proposals/2026-q2/77/
+CATEGORIES:committee_call
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-07-30-6169b204ef73@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260730
+SUMMARY:Passed: #92 – Upgrade Proposal: v0.2.15
+DESCRIPTION:Upgrade Proposal: v0.2.15\n\nURL: /proposals/proposals/2026-q3/
+ 92/\n\nTags: passed
+URL:/proposals/proposals/2026-q3/92/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-07-30-7961c25d0050@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART:20260730T110000Z
+DTEND:20260730T120000Z
+SUMMARY:▶️ Ancapex Live: Gonka Overview
+DESCRIPTION:YouTube stream with Yakov\, co-founder of Ancapex. A review of 
+ everything important in Gonka over the past months: inference\, proposals 
+ v0.2.14–v0.2.15\, model training\, mining and token price\, governance\,
+  and the roadmap.\n\nURL: https://www.youtube.com/@Ancapex\n\nTags: livest
+ ream\, ancapex
+URL:https://www.youtube.com/@Ancapex
+CATEGORIES:livestream
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-07-31-577a6d838204@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260731
+SUMMARY:Report for proposal #77 — Gonka PR Proposal for US/Global Regions
+DESCRIPTION:Report report3 for proposal #77 has been uploaded. Read it: htt
+ ps://gonkadocs.com/proposals/proposals/2026-q2/77/report3/\n\nURL: /propos
+ als/proposals/2026-q2/77/\n\nTags: report
+URL:/proposals/proposals/2026-q2/77/
+CATEGORIES:proposal_report_upload
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-08-01-4af1c96bcd9f@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260801
+SUMMARY:Report for proposal #77 — Gonka PR Proposal for US/Global Regions
+DESCRIPTION:Report reports5 for proposal #77 has been uploaded. Read it: ht
+ tps://gonkadocs.com/proposals/proposals/2026-q2/77/reports5/\n\nURL: /prop
+ osals/proposals/2026-q2/77/\n\nTags: report
+URL:/proposals/proposals/2026-q2/77/
+CATEGORIES:proposal_report_upload
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-08-03-bd307029d85c@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260803
+SUMMARY:Report for proposal #51 — Support Gonka's presence at WebX Asia
+DESCRIPTION:Report report1 for proposal #51 has been uploaded. Read it: htt
+ ps://gonkadocs.com/proposals/proposals/2026-q2/51/report1/\n\nURL: /propos
+ als/proposals/2026-q2/51/\n\nTags: report
+URL:/proposals/proposals/2026-q2/51/
+CATEGORIES:proposal_report_upload
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-08-03-dd70d38e2fc3@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260803
+SUMMARY:Passed: #93 – Upgrade devshard v4 runtime to v4.0.1
+DESCRIPTION:Replace the existing devshard v4 runtime with v4.0.1. This perf
+ ormance and resource-management patch does not change protocol\, inference
+ \, validation\, or economic behavior. It removes per-block chain q…\n\nU
+ RL: /proposals/proposals/2026-q3/93/\n\nTags: passed
+URL:/proposals/proposals/2026-q3/93/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-08-03-56ca84a45c2d@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART:20260803T153000Z
+DTEND:20260803T163000Z
+SUMMARY:AMA with Gleb Morgachev — Dev Team Funding proposal
+DESCRIPTION:AMA session with Gleb Morgachev (@gmorgachev\, co-founder of Go
+ nka) about the proposal to fund an independent development team (Dev Team 
+ Funding). We will discuss key issues: what tasks the funding is requested 
+ for\; how the independent development team will be structured\; the fundin
+ g mechanics\; cost transparency\, reporting\, and Gleb’s role in the ini
+ tiative. Language: Russian. Hosts: @paranko and @dem_ww. Zoom: the link wi
+ ll be provided at the start of the session. Proposal: https://github.com/g
+ onka-ai/gonka/discussions/1464\n\nURL: https://github.com/gonka-ai/gonka/d
+ iscussions/1464\n\nTags: ama\, dev-team-funding\, gmorgachev
+URL:https://github.com/gonka-ai/gonka/discussions/1464
+CATEGORIES:ama
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-08-04-c64ee189be55@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART:20260804T153000Z
+DTEND:20260804T163000Z
+SUMMARY:AMA session with Gleb Morgachev (@gmorgachev\, co-founder of Gonka)
+  — Dev Team Funding proposal
+DESCRIPTION:AMA session with Gleb Morgachev (@gmorgachev\, co-founder of Go
+ nka) about the proposal to fund an independent development team (Dev Team 
+ Funding). We will discuss key issues: what tasks the funding is requested 
+ for\; how the independent development team will be structured\; the fundin
+ g mechanics\; cost transparency\, reporting\, and Gleb’s role in the ini
+ tiative. Language: English. Zoom: the link will be provided at the start o
+ f the session. Proposal: https://github.com/gonka-ai/gonka/discussions/146
+ 4\n\nURL: https://github.com/gonka-ai/gonka/discussions/1464\n\nTags: ama\
+ , dev-team-funding\, gmorgachev
+URL:https://github.com/gonka-ai/gonka/discussions/1464
+CATEGORIES:ama
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-08-05-cf637acc55bd@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART:20260805T130000Z
+DTEND:20260805T140000Z
+SUMMARY:INPUT Global — Weekly Call (#77)
+DESCRIPTION:Weekly report by the INPUT Global team under the approved propo
+ sal #77 — Gonka PR Proposal for US/Global Regions. Video call: https://m
+ eet.google.com/hsc-oesy-jbw · Public Telegram group: https://t.me/+48vHIY
+ IqbNpmNGE0\n\nURL: /proposals/proposals/2026-q2/77/\n\nTags: #77
+LOCATION:https://meet.google.com/hsc-oesy-jbw
+URL:/proposals/proposals/2026-q2/77/
+CATEGORIES:committee_call
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-08-05-2ae6c503bc1d@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART:20260805T150000Z
+DTEND:20260805T160000Z
+SUMMARY:TheSoul — Weekly Report Call (#60–#65)
+DESCRIPTION:Weekly report by the TheSoul team under approved proposals #60
+ –#65. Video call: https://meet.google.com/rbb-dmju-top · Public Telegra
+ m group: https://t.me/+csDGX6-05LMyOTM0\n\nURL: /proposals/proposals/2026-
+ q2/60/\n\nTags: #60\, #61\, #62\, #63\, #64\, #65
+LOCATION:https://meet.google.com/rbb-dmju-top
+URL:/proposals/proposals/2026-q2/60/
+CATEGORIES:committee_call
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-08-06-69f33e1d8e71@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART:20260806T110000Z
+DTEND:20260806T120000Z
+SUMMARY:⛏ Покупка собственного оборудовани
+ я для майнинга — Ancapex.ai | Purchasing our own mining equi
+ pment — Ancapex.ai
+DESCRIPTION:⛏ Покупка собственного оборудова
+ ния для майнинга.\n\nМы рассматриваем воз
+ можность приобретения собственных GPU-кл
+ астеров и ASIC-майнеров. Это следующий шаг 
+ для Ancapex — перейти от аренды мощностей к 
+ владению инфраструктурой.\n\nЕсли вы хоти
+ те стать одним из первых\, кто владеет ASIC-
+ оборудованием и получает с него прибыль\
+ , приходите на звонок. Обсудим\, являются 
+ ли ASIC новой нефтью\, как устроена бизнес-
+ модель и как можно поучаствовать вместе 
+ с нами.\n\n🗓 Четверг\, 14:00 МСК (11:00 UTC)\n📍 Zoom\
+ , ссылку вышлем на почту или в Telegram\n\nЧтоб
+ ы получить ссылку\, заполните форму: https://
+ docs.google.com/forms/d/e/1FAIpQLSfYCN7jbg9b5JOiLXjhhXCEY_n4BKAWyQdpYfcFz1
+ UMrD7ARw/viewform\n\n---\n\nPurchasing our own mining equipment.\n\nWe are
+  considering acquiring our own GPU clusters and ASIC miners. This is the n
+ ext step for Ancapex — moving from renting capacity to owning infrastruc
+ ture.\n\nIf you want to be among the first to own ASIC equipment and earn 
+ profit from it\, join the call. We will discuss whether ASICs are the new 
+ oil\, how the business model works\, and how you can participate with us.\
+ n\n🗓 Thursday\, 14:00 MSK (11:00 UTC)\n📍 Zoom — the link will be s
+ ent to your email or Telegram\n\nTo get the link\, fill in the form: https
+ ://docs.google.com/forms/d/e/1FAIpQLSfYCN7jbg9b5JOiLXjhhXCEY_n4BKAWyQdpYfc
+ Fz1UMrD7ARw/viewform\n\nURL: https://docs.google.com/forms/d/e/1FAIpQLSfYC
+ N7jbg9b5JOiLXjhhXCEY_n4BKAWyQdpYfcFz1UMrD7ARw/viewform\n\nTags: ancapex\, 
+ mining\, asics\, community
+URL:https://docs.google.com/forms/d/e/1FAIpQLSfYCN7jbg9b5JOiLXjhhXCEY_n4BKA
+ WyQdpYfcFz1UMrD7ARw/viewform
+CATEGORIES:community
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-08-07-3877da59cd20@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260807
+SUMMARY:Report for proposal #77 — Gonka PR Proposal for US/Global Regions
+DESCRIPTION:Report report4 for proposal #77 has been uploaded. Read it: htt
+ ps://gonkadocs.com/proposals/proposals/2026-q2/77/report4/\n\nURL: /propos
+ als/proposals/2026-q2/77/\n\nTags: report
+URL:/proposals/proposals/2026-q2/77/
+CATEGORIES:proposal_report_upload
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-08-07-ecfb3a95d4db@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART:20260807T153000Z
+DTEND:20260807T163000Z
+SUMMARY:AMA с Давидом и Даниилом Либерманами 
+ — Award. libermans | AMA with David and Daniel Liberman — libermans
+DESCRIPTION:AMA-сессия с Дэвидом и Даниилом Либе
+ рманами посвящена состоянию рынка компь
+ юта\, итогам первого года протокола и дал
+ ьнейшему развитию сети.\n\nПовестка:\n• Чт
+ о происходит на рынке: становится ли ком
+ пьют доступнее и как выход K3 повлиял на ц
+ ентрализованных игроков\n• Год протокол
+ у: что сделано и что ещё предстоит\n• Июл
+ ь: каким он был для сети и как прошёл WebX Asi
+ a\n• Токен GNK: почему рост сети и спрос на 
+ неё важны для всех участников\, от майнер
+ ов до разработчиков\n• Ожидания от будущ
+ его: следующий месяц и следующий год\n• М
+ одели: какие появятся в сети и по какому 
+ принципу отбираются\n\n💻 Zoom: https://us06web.zoom.u
+ s/j/87045531047\n🗣️ Язык: русский\n🎙️ Гости: Д
+ эвид и Даниил Либерманы\n🎤 Ведущий: @sultee\
+ n\n---\n\nAMA session with David and Daniel Liberman dedicated to the stat
+ e of the compute market\, results of the protocol's first year\, and the f
+ urther development of the network.\n\nAgenda:\n• What is happening in th
+ e market — is compute becoming more affordable\, and how did K3's releas
+ e affect centralized players\n• A year of the protocol: what has been do
+ ne and what lies ahead\n• July: how it went for the network and how WebX
+  Asia went\n• GNK token: why the network's growth and demand matter to a
+ ll participants\, from miners to developers\n• Expectations for the futu
+ re: the next month and the next year\n• Models: which will appear in the
+  network and by what principle they are selected\n\n💻 Zoom · https://u
+ s06web.zoom.us/j/87045531047\n🗣️ Language: Russian\n🎙️ Guests: D
+ avid and Dan Liberman\n🎤 Host: @sultee\n\nURL: https://us06web.zoom.us/
+ j/87045531047\n\nTags: ama\, libermans\, community
+LOCATION:https://us06web.zoom.us/j/87045531047
+URL:https://us06web.zoom.us/j/87045531047
+CATEGORIES:ama
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-08-10-b76ced51a5a1@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART:20260810T153000Z
+DTEND:20260810T163000Z
+SUMMARY:External Test Lab & Community DevNet — первый ежемес
+ ячный статус-колл | First Monthly Status Call
+DESCRIPTION:**First monthly status call** of the External Test Lab & Commun
+ ity DevNet under the approved **proposal #82** (https://gonkadocs.com/prop
+ osals/proposals/2026-q3/82/).\n\nПриглашаем на первый е
+ жемесячный статус-колл External Test Lab & Community D
+ evNet в рамках принятого пропозала #82 (https://g
+ onkadocs.com/proposals/proposals/2026-q3/82/).\n\nПодведём ито
+ ги первого месяца работы:\n\n• будущая те
+ ст-стратегия лаборатории\n• первая верс
+ ия DevNet\n• текущий статус инфраструктуры\
+ n• планы и задачи на следующий месяц\n\nТа
+ кже познакомим сообщество с первым QA-инж
+ енером\, который присоединился к лаборат
+ ории\, и расскажем\, как подключить своё о
+ борудование к DevNet.\n\n📅 Понедельник\, 10 ав
+ густа\n🕒 08:30 LA · 15:30 UTC · 18:30 UTC+3\n🔗 https://meet.g
+ oogle.com/zqp-shgw-wtj\n\n---\n\n**First monthly status call** of the Exte
+ rnal Test Lab & Community DevNet under the approved **proposal #82** (http
+ s://gonkadocs.com/proposals/proposals/2026-q3/82/).\n\nWe will review the 
+ results of the first month:\n\n• the future test strategy of the lab\n
+ • the first version of DevNet\n• the current status of the infrastruct
+ ure\n• plans and tasks for the next month\n\nWe will also introduce the 
+ community to the first QA engineer who joined the lab\, and explain how to
+  connect your own equipment to DevNet.\n\n📅 Monday\, August 10\n🕒 08
+ :30 LA · 15:30 UTC · 18:30 UTC+3\n🔗 https://meet.google.com/zqp-shgw-
+ wtj\n\nURL: https://meet.google.com/zqp-shgw-wtj\n\nTags: test-lab\, devne
+ t\, status-call\, community
+LOCATION:https://meet.google.com/zqp-shgw-wtj
+URL:https://meet.google.com/zqp-shgw-wtj
+CATEGORIES:community_call
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-08-12-5c22c259f1c4@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260812
+SUMMARY:Report for proposal #82 — External Test Lab x Community DevNet
+DESCRIPTION:Report report1 for proposal #82 has been uploaded. Read it: htt
+ ps://gonkadocs.com/proposals/proposals/2026-q3/82/report1/\n\nURL: /propos
+ als/proposals/2026-q3/82/\n\nTags: report
+URL:/proposals/proposals/2026-q3/82/
+CATEGORIES:proposal_report_upload
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-08-12-ed0db1d486e7@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART:20260812T130000Z
+DTEND:20260812T140000Z
+SUMMARY:INPUT Global — Weekly Call (#77)
+DESCRIPTION:Weekly report by the INPUT Global team under the approved propo
+ sal #77 — Gonka PR Proposal for US/Global Regions. Video call: https://m
+ eet.google.com/hsc-oesy-jbw · Public Telegram group: https://t.me/+48vHIY
+ IqbNpmNGE0\n\nURL: /proposals/proposals/2026-q2/77/\n\nTags: #77
+LOCATION:https://meet.google.com/hsc-oesy-jbw
+URL:/proposals/proposals/2026-q2/77/
+CATEGORIES:committee_call
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-08-12-d1a1e0b32a68@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART;VALUE=DATE:20260812
+SUMMARY:Passed: #94 – Add DeepSeek V4 Flash 0731
+DESCRIPTION:Register deepseek-ai/DeepSeek-V4-Flash-0731 for inference and P
+ roof of Compute.\n\nWho we are\n\nWe are the kaitaku.ai team. Many in the 
+ community know us from previous updates and optimizations to ML Nod…\n\n
+ URL: /proposals/proposals/2026-q3/94/\n\nTags: passed
+URL:/proposals/proposals/2026-q3/94/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-08-13-7b102aa63fe9@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART:20260813T150000Z
+DTEND:20260813T160000Z
+SUMMARY:TheSoul — Weekly Report Call (#60–#65)
+DESCRIPTION:Weekly report by the TheSoul team under approved proposals #60
+ –#65. Video call: https://meet.google.com/rbb-dmju-top · Public Telegra
+ m group: https://t.me/+csDGX6-05LMyOTM0\n\nURL: /proposals/proposals/2026-
+ q2/60/\n\nTags: #60\, #61\, #62\, #63\, #64\, #65
+LOCATION:https://meet.google.com/rbb-dmju-top
+URL:/proposals/proposals/2026-q2/60/
+CATEGORIES:committee_call
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-08-19-1237c78b8820@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART:20260819T130000Z
+DTEND:20260819T140000Z
+SUMMARY:INPUT Global — Weekly Call (#77)
+DESCRIPTION:Weekly report by the INPUT Global team under the approved propo
+ sal #77 — Gonka PR Proposal for US/Global Regions. Video call: https://m
+ eet.google.com/hsc-oesy-jbw · Public Telegram group: https://t.me/+48vHIY
+ IqbNpmNGE0\n\nURL: /proposals/proposals/2026-q2/77/\n\nTags: #77
+LOCATION:https://meet.google.com/hsc-oesy-jbw
+URL:/proposals/proposals/2026-q2/77/
+CATEGORIES:committee_call
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-08-19-1aa8f4842009@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART:20260819T150000Z
+DTEND:20260819T160000Z
+SUMMARY:TheSoul — Weekly Report Call (#60–#65)
+DESCRIPTION:Weekly report by the TheSoul team under approved proposals #60
+ –#65. Video call: https://meet.google.com/rbb-dmju-top · Public Telegra
+ m group: https://t.me/+csDGX6-05LMyOTM0\n\nURL: /proposals/proposals/2026-
+ q2/60/\n\nTags: #60\, #61\, #62\, #63\, #64\, #65
+LOCATION:https://meet.google.com/rbb-dmju-top
+URL:/proposals/proposals/2026-q2/60/
+CATEGORIES:committee_call
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-08-26-4ecdd187e2cc@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART:20260826T130000Z
+DTEND:20260826T140000Z
+SUMMARY:INPUT Global — Weekly Call (#77)
+DESCRIPTION:Weekly report by the INPUT Global team under the approved propo
+ sal #77 — Gonka PR Proposal for US/Global Regions. Video call: https://m
+ eet.google.com/hsc-oesy-jbw · Public Telegram group: https://t.me/+48vHIY
+ IqbNpmNGE0\n\nURL: /proposals/proposals/2026-q2/77/\n\nTags: #77
+LOCATION:https://meet.google.com/hsc-oesy-jbw
+URL:/proposals/proposals/2026-q2/77/
+CATEGORIES:committee_call
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-08-26-e9a79b7a2dc4@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART:20260826T150000Z
+DTEND:20260826T160000Z
+SUMMARY:TheSoul — Weekly Report Call (#60–#65)
+DESCRIPTION:Weekly report by the TheSoul team under approved proposals #60
+ –#65. Video call: https://meet.google.com/rbb-dmju-top · Public Telegra
+ m group: https://t.me/+csDGX6-05LMyOTM0\n\nURL: /proposals/proposals/2026-
+ q2/60/\n\nTags: #60\, #61\, #62\, #63\, #64\, #65
+LOCATION:https://meet.google.com/rbb-dmju-top
+URL:/proposals/proposals/2026-q2/60/
+CATEGORIES:committee_call
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-09-02-a840f7cce4ca@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART:20260902T130000Z
+DTEND:20260902T140000Z
+SUMMARY:INPUT Global — Weekly Call (#77)
+DESCRIPTION:Weekly report by the INPUT Global team under the approved propo
+ sal #77 — Gonka PR Proposal for US/Global Regions. Video call: https://m
+ eet.google.com/hsc-oesy-jbw · Public Telegram group: https://t.me/+48vHIY
+ IqbNpmNGE0\n\nURL: /proposals/proposals/2026-q2/77/\n\nTags: #77
+LOCATION:https://meet.google.com/hsc-oesy-jbw
+URL:/proposals/proposals/2026-q2/77/
+CATEGORIES:committee_call
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-09-02-c29a3f1492ff@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART:20260902T150000Z
+DTEND:20260902T160000Z
+SUMMARY:TheSoul — Weekly Report Call (#60–#65)
+DESCRIPTION:Weekly report by the TheSoul team under approved proposals #60
+ –#65. Video call: https://meet.google.com/rbb-dmju-top · Public Telegra
+ m group: https://t.me/+csDGX6-05LMyOTM0\n\nURL: /proposals/proposals/2026-
+ q2/60/\n\nTags: #60\, #61\, #62\, #63\, #64\, #65
+LOCATION:https://meet.google.com/rbb-dmju-top
+URL:/proposals/proposals/2026-q2/60/
+CATEGORIES:committee_call
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-09-09-ded8bb0d5caf@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART:20260909T130000Z
+DTEND:20260909T140000Z
+SUMMARY:INPUT Global — Weekly Call (#77)
+DESCRIPTION:Weekly report by the INPUT Global team under the approved propo
+ sal #77 — Gonka PR Proposal for US/Global Regions. Video call: https://m
+ eet.google.com/hsc-oesy-jbw · Public Telegram group: https://t.me/+48vHIY
+ IqbNpmNGE0\n\nURL: /proposals/proposals/2026-q2/77/\n\nTags: #77
+LOCATION:https://meet.google.com/hsc-oesy-jbw
+URL:/proposals/proposals/2026-q2/77/
+CATEGORIES:committee_call
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-09-09-f7f5e3738179@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART:20260909T150000Z
+DTEND:20260909T160000Z
+SUMMARY:TheSoul — Weekly Report Call (#60–#65)
+DESCRIPTION:Weekly report by the TheSoul team under approved proposals #60
+ –#65. Video call: https://meet.google.com/rbb-dmju-top · Public Telegra
+ m group: https://t.me/+csDGX6-05LMyOTM0\n\nURL: /proposals/proposals/2026-
+ q2/60/\n\nTags: #60\, #61\, #62\, #63\, #64\, #65
+LOCATION:https://meet.google.com/rbb-dmju-top
+URL:/proposals/proposals/2026-q2/60/
+CATEGORIES:committee_call
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-09-16-b3ee257b866d@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART:20260916T130000Z
+DTEND:20260916T140000Z
+SUMMARY:INPUT Global — Weekly Call (#77)
+DESCRIPTION:Weekly report by the INPUT Global team under the approved propo
+ sal #77 — Gonka PR Proposal for US/Global Regions. Video call: https://m
+ eet.google.com/hsc-oesy-jbw · Public Telegram group: https://t.me/+48vHIY
+ IqbNpmNGE0\n\nURL: /proposals/proposals/2026-q2/77/\n\nTags: #77
+LOCATION:https://meet.google.com/hsc-oesy-jbw
+URL:/proposals/proposals/2026-q2/77/
+CATEGORIES:committee_call
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-09-16-82552ede6db3@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART:20260916T150000Z
+DTEND:20260916T160000Z
+SUMMARY:TheSoul — Weekly Report Call (#60–#65)
+DESCRIPTION:Weekly report by the TheSoul team under approved proposals #60
+ –#65. Video call: https://meet.google.com/rbb-dmju-top · Public Telegra
+ m group: https://t.me/+csDGX6-05LMyOTM0\n\nURL: /proposals/proposals/2026-
+ q2/60/\n\nTags: #60\, #61\, #62\, #63\, #64\, #65
+LOCATION:https://meet.google.com/rbb-dmju-top
+URL:/proposals/proposals/2026-q2/60/
+CATEGORIES:committee_call
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-09-23-720d30d5833c@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART:20260923T130000Z
+DTEND:20260923T140000Z
+SUMMARY:INPUT Global — Weekly Call (#77)
+DESCRIPTION:Weekly report by the INPUT Global team under the approved propo
+ sal #77 — Gonka PR Proposal for US/Global Regions. Video call: https://m
+ eet.google.com/hsc-oesy-jbw · Public Telegram group: https://t.me/+48vHIY
+ IqbNpmNGE0\n\nURL: /proposals/proposals/2026-q2/77/\n\nTags: #77
+LOCATION:https://meet.google.com/hsc-oesy-jbw
+URL:/proposals/proposals/2026-q2/77/
+CATEGORIES:committee_call
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-09-23-3ae668841a8e@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART:20260923T150000Z
+DTEND:20260923T160000Z
+SUMMARY:TheSoul — Weekly Report Call (#60–#65)
+DESCRIPTION:Weekly report by the TheSoul team under approved proposals #60
+ –#65. Video call: https://meet.google.com/rbb-dmju-top · Public Telegra
+ m group: https://t.me/+csDGX6-05LMyOTM0\n\nURL: /proposals/proposals/2026-
+ q2/60/\n\nTags: #60\, #61\, #62\, #63\, #64\, #65
+LOCATION:https://meet.google.com/rbb-dmju-top
+URL:/proposals/proposals/2026-q2/60/
+CATEGORIES:committee_call
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-09-30-dd64cd14a5fa@gonkadocs.com
+DTSTAMP:20260813T173130Z
+DTSTART:20260930T150000Z
+DTEND:20260930T160000Z
+SUMMARY:TheSoul — Weekly Report Call (#60–#65)
+DESCRIPTION:Weekly report by the TheSoul team under approved proposals #60
+ –#65. Video call: https://meet.google.com/rbb-dmju-top · Public Telegra
+ m group: https://t.me/+csDGX6-05LMyOTM0\n\nURL: /proposals/proposals/2026-
+ q2/60/\n\nTags: #60\, #61\, #62\, #63\, #64\, #65
+LOCATION:https://meet.google.com/rbb-dmju-top
+URL:/proposals/proposals/2026-q2/60/
+CATEGORIES:committee_call
+END:VEVENT
+END:VCALENDAR
