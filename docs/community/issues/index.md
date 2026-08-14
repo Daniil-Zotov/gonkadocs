@@ -7,7 +7,7 @@ template: issues-main.html
 
 All issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).
 Total: **328** (🟢 open: **78**, 🔴 closed: **250**).
-Updated: `2026-08-13 23:10 UTC`.
+Updated: `2026-08-14 00:05 UTC`.
 
 <ul class="issues-list">
 <li class="issues-list-item">
@@ -20,7 +20,7 @@ Updated: `2026-08-13 23:10 UTC`.
     <p class="issues-desc">## Summary  I’ve been independently testing Gonka’s gateway/request-accounting flow in the local devshard test environment and found a reproducible causal-addressability edge case around client timeou...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/safal207">@safal207</a> opened 9 hours ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/safal207">@safal207</a> opened 10 hours ago</span>
       
     </div>
   </div>
