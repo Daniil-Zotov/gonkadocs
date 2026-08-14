@@ -19,8 +19,9 @@
 
 .cal-top {
   position: sticky;
-  top: 3.2rem;
-  z-index: 20;
+  top: 0;
+  z-index: 2;
+  width: 100%;
   background: var(--md-default-bg-color);
   border-bottom: 1px solid var(--md-default-fg-color--lightest);
   padding: 0.9rem 0 0.7rem;
