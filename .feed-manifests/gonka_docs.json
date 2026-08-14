@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-08-14T15:43:51.367534+00:00",
+  "snapshot_time": "2026-08-14T16:42:50.367829+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -299,8 +299,8 @@
     "network-updates.md": {
       "title": "Announcements",
       "status": null,
-      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## August 13, 2026\n\n**Migrate community-sale and wrapped-token contracts**\n\nMigrate the live community-sale contract and all wrapped-token instances to newly stored CosmWasm code, and register that wrapped-token code for future instantiations. Contract addr",
-      "checksum": "f6ece6e881fdff027b4d4165d73f7436f14825d4ffb34ab827e6bf515fa92ca5"
+      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## August 14, 2026\n\n**MLNode 3.0.16 rollout**\n\nIf all your nodes are already on the new build (3.0.16), you're all set, nothing to do here.\n\nIf any are still on the old MLNode (the ones serving Kimi or MiniMax, since anything already on DeepSeek is on 3.0.1",
+      "checksum": "f108639d607dc9fc396e62786a7b08d6a716ef111b3ec6efd77e9c6a5bdd1aba"
     },
     "participant/README.md": {
       "title": "Redirecting to Host Section",
