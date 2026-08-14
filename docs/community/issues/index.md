@@ -7,7 +7,7 @@ template: issues-main.html
 
 All issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).
 Total: **329** (🟢 open: **79**, 🔴 closed: **250**).
-Updated: `2026-08-14 13:52 UTC`.
+Updated: `2026-08-14 15:14 UTC`.
 
 <ul class="issues-list">
 <li class="issues-list-item">
@@ -20,7 +20,7 @@ Updated: `2026-08-14 13:52 UTC`.
     <p class="issues-desc">Hi Gonka team — we’ve been independently pressure-testing the timeout/retry + accounting path against a pinned local devshard revision (`f040d0a5b5ef207a0c431894c9f9e2608f9d3073`) and found a verifica...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/safal207">@safal207</a> opened 9 hours ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/safal207">@safal207</a> opened 11 hours ago</span>
       
     </div>
   </div>
@@ -215,7 +215,7 @@ Updated: `2026-08-14 13:52 UTC`.
     <p class="issues-desc">## Description  On Apple Silicon, `scripts/blst-portable.mk` sets:  ```text BLST_PORTABLE=1 ```  but the `api-test` target does not apply `BLST_PORTABLE_CGO_CFLAGS`.  As a result, BLST-dependent packa...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Parikalp-Bhardwaj">@Parikalp-Bhardwaj</a> opened 10 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/Parikalp-Bhardwaj">@Parikalp-Bhardwaj</a> opened 11 days ago</span>
       
     </div>
   </div>
