@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-08-14T09:53:12.548917+00:00",
+  "snapshot_time": "2026-08-14T11:03:17.859226+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -300,7 +300,7 @@
       "title": "Announcements",
       "status": null,
       "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## August 13, 2026\n\n**Migrate community-sale and wrapped-token contracts**\n\nMigrate the live community-sale contract and all wrapped-token instances to newly stored CosmWasm code, and register that wrapped-token code for future instantiations. Contract addr",
-      "checksum": "8b02a550285c0b53ea326f09d02404d41abe5ac2ada94c05e87e1f00a7df32b8"
+      "checksum": "f6ece6e881fdff027b4d4165d73f7436f14825d4ffb34ab827e6bf515fa92ca5"
     },
     "participant/README.md": {
       "title": "Redirecting to Host Section",

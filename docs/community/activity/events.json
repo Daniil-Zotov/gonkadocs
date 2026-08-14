@@ -17,7 +17,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#march-17-2026"
     },
-    "ai_description": "A new calendar event has been added for the PR Review of Upgrade v0.2.11, inviting the community to review the open pull request and share feedback before formal voting begins. Meaningful contributions to this review may be rewarded with bounties in a future upgrade, so your input can directly shape and improve the next on-chain software release."
+    "ai_description": "A new Calendar event has been added calling for community review of Pull Request 813 for the upcoming on-chain software upgrade v0.2.11. This is an opportunity to share feedback and suggested improvements before formal voting begins, and meaningful contributions may even lead to bounties in the next upgrade."
   },
   {
     "id": "evt_20260814103420_c1a93d37",
@@ -57,7 +57,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#january-10-2026_1"
     },
-    "ai_description": "The on-chain governance vote for the stabilization period allowlist has passed, approving a temporary participant allowlist that activates in Epoch 135. This means only participants who have demonstrated consistent behavior across recent epochs will be eligible to join the network during this stabilization phase, ensuring greater reliability as the new rules take effect."
+    "ai_description": "The on-chain governance vote for the temporary participant allowlist has officially passed and is now scheduled to activate in Epoch 135. This allowlist identifies participants who have maintained consistent behavior across recent epochs and will guide network operations during the stabilization period. The community can expect smoother, more predictable participation standards starting in Epoch 135."
   },
   {
     "id": "evt_20260814103420_750d82ee",
@@ -97,7 +97,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#may-25-2026"
     },
-    "ai_description": "The v0.2.13 upgrade has officially passed on-chain governance and is now scheduled for block height 4267300 around May 26 at 14:42 UTC. Node operators should pre-download the new binaries and MiniMax-M2.7 weights ahead of time to ensure a smooth transition without depending on GitHub or Hugging Face availability. Mark your calendars and prepare your systems in advance."
+    "ai_description": "The v0.2.13 network upgrade has been officially scheduled for block height 4267300 around May 26 at 14:42 UTC, following the passage of proposal 54. Node operators should mark their calendars and pre-download the required binaries and MiniMax-M2.7 weights ahead of time to avoid relying on GitHub and Hugging Face during the upgrade window."
   },
   {
     "id": "evt_20260814103420_c45527ad",
@@ -117,7 +117,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#august-1-2026"
     },
-    "ai_description": "The v0.2.15-devshard-v4.0.1 runtime upgrade proposal has officially entered governance. This is a non-critical, devshard-only performance and resource-management patch that updates the runtime to v4.0.1 with improved epoch tracking, leaving all protocol, inference, validation, and economic rules unchanged. Community members can now review and participate in the governance process for this isolated infrastructure update."
+    "ai_description": "The v0.2.15-devshard-v4.0.1 runtime upgrade has officially entered governance, opening it up for community vote. This is a devshard-only performance and resource-management patch that introduces epoch tracking improvements without affecting protocol, inference, validation, or economic behavior. Since it is non-critical and isolated from the main chain, it offers a low-risk way to keep the development environment running smoothly."
   },
   {
     "id": "evt_20260814103420_6676542b",
@@ -157,7 +157,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#march-20-2026"
     },
-    "ai_description": "Upgrade Proposal v0.2.11 has passed on-chain governance and is now live on mainnet. The network has successfully activated the initial devshards-based scaling architecture for inference sessions, laying groundwork for improved performance and capacity. This marks a key milestone in Gonka's evolution toward scalable decentralized AI inference."
+    "ai_description": "Great news for the network: the on-chain governance vote for Upgrade Proposal v0.2.11 has officially passed and the upgrade is now live on mainnet. This means the initial devshards-based inference architecture is active, marking a key step forward in scaling Gonka's AI inference capabilities. The community can now start benefiting from improved session distribution across the network."
   },
   {
     "id": "evt_20260814103420_22422274",
@@ -177,7 +177,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#march-16-2026"
     },
-    "ai_description": "A new API binary v0.2.10-post7 is now available to address a potential vulnerability found in the previous v0.2.10 release. The community is encouraged to upgrade before the next Proof of Contribution period begins to minimize any security risks during the pre-upgrade phase. You can review the full set of changes through the release link in the calendar event."
+    "ai_description": "A new API binary version v0.2.10-post7 has been released to address a potential security vulnerability found in the previous v0.2.10 build. The community is strongly encouraged to upgrade their nodes before the next Proof of Contribution round begins to minimize any risk during the pre-upgrade period. You can review the full set of changes on GitHub."
   },
   {
     "id": "evt_20260814103420_2a4a3d94",
@@ -197,7 +197,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#february-12-2026_2"
     },
-    "ai_description": "On-chain inference access is now live and open to everyone, not just developers. You can submit inference requests through Allowed Transfer Agents, and the current allowlist is available directly on-chain via the node API endpoint. This removes a major barrier to entry and brings the community one step closer to permissionless AI inference on Gonka."
+    "ai_description": "Inference is now live and open to everyone, not just developers. You can send requests through Allowed Transfer Agents, and the current allowlist is available directly on-chain via the node endpoint. This marks a major step toward broader, permissionless access to the Gonka network."
   },
   {
     "id": "evt_20260814103420_cb08e238",
@@ -217,7 +217,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#june-25-2026_1"
     },
-    "ai_description": "An expedited governance vote has been scheduled for proposal 78, which would make MiniMax-M2.7 the sole active PoC model while removing Kimi K2.6 for a fast re-bootstrap and retiring Qwen3-235B. Kimi K2.6 is being pulled from the active set because it currently lacks sufficient validation votes to advance to the next epoch, requiring participants serving it to re-bootstrap. This vote directly reshapes the network's active model lineup and affects node operators supporting these models, so be sure to review the proposal and participate."
+    "ai_description": "Key points to include:\n1. It's an expedited governance vote (proposal 78)\n2. MiniMax-M2.7 is now the sole PoC (Proof of Concept) model\n3. Kimi K2.6 is removed for a fast re-bootstrap because it lacks sufficient votes for PoC validation, knocking out its participants\n4. Qwen3-235B is retired\n5. Why it matters: Changes the active model set, affects participants serving Kimi (they're knocked out), fast re-bootstrap happening\n\nTone: Friendly but professional\nLength: Maximum 2-3 sentences\nFormat: Plain text only, no markdown\n\nDrafting:\nAn expedited governance vote has reshaped the active model lineup: MiniMax-M2.7 is now the sole PoC model, Qwen3-235B has been retired, and Kim"
   },
   {
     "id": "evt_20260814103420_03ab7d47",
@@ -237,7 +237,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#april-1-2026"
     },
-    "ai_description": "ML Node 3.0.12-post6 is now live and set as the default in the main branch, bringing updated Docker images including support for Blackwell architectures. Node operators should pull the latest images to stay in sync with the network."
+    "ai_description": "ML Node 3.0.12-post6 has been released and set as the default in the main branch, bringing fresh container images including dedicated builds for Blackwell architectures. Node operators should pull the latest images from the registry to keep their infrastructure synchronized with the network. Staying current ensures you maintain full compatibility and benefit from the latest optimizations."
   },
   {
     "id": "evt_20260814103420_6916b221",
@@ -257,7 +257,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#july-29-2026"
     },
-    "ai_description": "Added: Upgrade v0.2.15 and devshard v4: Pre-download binaries. Upgrade v0.2.15 and devshard v4: Pre-download binaries The on-chain governance process for the devshard v4 and v0.2.15 upgrade proposal is nearing its conclusion. - Voting ends: July 30, 2026 at 07:08 AM UTC / July 30, 2026 at 12:08 AM PDT - Proposed upgrade height: 5316315 - Estimated upgrade time:"
+    "ai_description": "A new calendar event has been posted for the upcoming v0.2.15 and devshard v4 upgrade as on-chain governance voting nears its close on July 30. Validators and hosts should mark their calendars for the upgrade at block height 5316315 and prepare by pre-downloading the binaries ahead of the estimated activation time."
   },
   {
     "id": "evt_20260814103420_d79f5700",
@@ -277,7 +277,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#january-29-2026_1"
     },
-    "ai_description": "The v0.2.8 upgrade has officially gone live on mainnet following a successful on-chain governance vote. This release brings the PoC v2 architecture online, improves model support, and patches critical security and reliability issues. The network is now running the latest version, so operators and users can take advantage of the enhanced infrastructure right away."
+    "ai_description": "Great news for the network. The on-chain governance vote for Upgrade Proposal v0.2.8 has officially passed and the upgrade is now live on mainnet. This release brings the PoC v2 architecture online along with streamlined model support, vLLM integration, and important security and reliability improvements that strengthen the entire network."
   },
   {
     "id": "evt_20260814103420_a62b8c05",
@@ -297,7 +297,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#february-19-2026"
     },
-    "ai_description": "The collateral parameter update proposal has been rejected after failing to reach quorum, so the proposed parameter changes will not go into effect. The community should note that collateral activation at Epoch 180 remains on schedule and is unaffected by this vote."
+    "ai_description": "A calendar update has been added to track the final result of the collateral parameter update proposal, which failed after not reaching quorum. This means the proposed parameter changes will not take effect, though the previously scheduled collateral activation at Epoch 180 remains unaffected and will proceed as planned."
   },
   {
     "id": "evt_20260814103420_8f35ecf8",
@@ -317,7 +317,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#january-31-2026"
     },
-    "ai_description": "The v0.2.9 upgrade proposal has officially entered the on-chain governance phase and is now open for community voting. If passed, it will activate PoC v2 for weight assignment and fully retire the legacy PoC mechanism through governance. Cast your vote to help decide the future of the network's consensus weighting system."
+    "ai_description": "The v0.2.9 upgrade proposal has been published on-chain and is now open for community voting. If passed, this upgrade will activate PoC v2 for weight assignment and fully replace the legacy PoC mechanism through governance. Be sure to review the proposal and cast your vote."
   },
   {
     "id": "evt_20260814103420_e2709653",
@@ -357,7 +357,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#february-13-2026"
     },
-    "ai_description": "A new calendar entry has been added for the v0.2.10 upgrade timeline, with on-chain voting set to kick off Sunday evening LA time and execution targeted for Tuesday if the proposal passes through governance. Be sure to mark your calendars and participate in the vote to help shape the network's next steps."
+    "ai_description": "A new calendar event has been added for the v0.2.10 upgrade schedule, with on-chain voting kicking off Sunday evening Los Angeles time and execution targeted for Tuesday if the proposal passes. Make sure to mark your calendars and participate in governance so your voice is heard in this network upgrade."
   },
   {
     "id": "evt_20260814103420_a3f1e7cd",
@@ -377,7 +377,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#february-13-2026_1"
     },
-    "ai_description": "A network update has been added to the calendar to warn node operators that outdated binaries will cause a consensus failure at block 2628371. If your node halts because it missed the patch, you can recover using the guide linked in the update, so please check your version before the block height is reached. Staying current keeps the entire network healthy and avoids unnecessary downtime."
+    "ai_description": "A new network update has been added to the calendar warning that nodes which missed the latest upgrade risk a consensus failure at block 2628371 due to binary incompatibility. If your node halts, use the recovery guide linked in the update to get back online quickly. Staying current with upgrades is essential to keep the network healthy and your validator participating."
   },
   {
     "id": "evt_20260814103420_fdde0bcb",
@@ -417,7 +417,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#january-7-2026"
     },
-    "ai_description": "A new Calendar event has been added for the approved v0.2.7 network upgrade, scheduled for block 2,054,000 around January 8, 2026 at 08:10 UTC. Validators and node operators are encouraged to pre-download the binaries ahead of time to ensure a smooth upgrade process without depending on GitHub availability during the window."
+    "ai_description": "The network upgrade to v0.2.7 has been officially scheduled for block 2,054,000, estimated on January 8, 2026, at 08:10 UTC, following the successful on-chain governance approval. Validators and node operators should mark their calendars and prepare by pre-downloading binaries to ensure a smooth transition without relying on external availability during the upgrade window."
   },
   {
     "id": "evt_20260814103420_4c6e04a4",
@@ -437,7 +437,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#july-22-2026"
     },
-    "ai_description": "A new calendar event has been added for the v0.2.14 network upgrade, with on-chain voting closing on July 23rd, 2026 at 00:02 UTC and the upgrade expected at block height 5195700 around 03:45 UTC the same day. Hosts should review the proposal on GitHub and cast their votes before the deadline, and prepare by pre-downloading the binaries ahead of the estimated upgrade time."
+    "ai_description": "A new calendar event has been added to help the community prepare for the upcoming v0.2.14 upgrade, with voting closing on July 23rd at 00:02 UTC and the network upgrade expected at block height 5195700 around 03:45 UTC the same day. Node hosts should review the proposal on GitHub and cast their votes before the deadline, and pre-downloading binaries ahead of the upgrade window will help ensure a smooth transition for the network."
   },
   {
     "id": "evt_20260814103420_74973d73",
@@ -457,7 +457,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#march-19-2026"
     },
-    "ai_description": "A new calendar entry has been added for the upcoming v0.2.11 network upgrade, reminding hosts that voting closes on March 20th at 05:59 UTC with the upgrade expected at block height 3186100 around 14:30 UTC the same day. Be sure to review the proposal on GitHub, cast your vote before the deadline, and pre-download the binaries to ensure a smooth transition."
+    "ai_description": "A new calendar event has been added to mark the upcoming v0.2.11 network upgrade, with voting closing on March 20th and the upgrade estimated for the same day at 14:30 UTC at block height 3186100. If you operate a host, please review the proposal on GitHub and cast your vote before the deadline, and be sure to pre-download the binaries to ensure a smooth transition."
   },
   {
     "id": "evt_20260814103420_60c330d6",
@@ -477,7 +477,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#february-12-2026"
     },
-    "ai_description": "A new patch has been added to the calendar to fix the PoC and cPoC overlap incident affecting epochs 169 and 170. All hosts should apply the update immediately to restore correct validation behavior and ensure safe block production can resume. Be sure to follow the provided binary download instructions to complete the installation."
+    "ai_description": "A new network patch has been released to fix the PoC and cPoC overlap incident affecting epochs 169 and 170. Hosts should apply the update immediately to restore proper validation behavior and resume safe block production across the network. Please follow the provided binary download instructions to complete the installation as soon as possible."
   },
   {
     "id": "evt_20260814103420_bd17d8e8",
@@ -497,7 +497,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#july-20-2026_1"
     },
-    "ai_description": "A new devshard-only upgrade PR is now open for review on GitHub, which would update the devshard runtime independently without requiring a coordinated full-node upgrade or affecting mainnet behavior. This means smoother updates for the inference network with no expected downtime for inference serving if it passes governance."
+    "ai_description": "A new pull request for the devshard-only upgrade is now open for community review. Unlike mainnet upgrades, this change updates the devshard runtime independently and will not require a coordinated full-node rollout or cause inference downtime. If it passes governance, the network can adopt it smoothly without disrupting active serving."
   },
   {
     "id": "evt_20260814103420_533dfc82",
@@ -517,7 +517,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#february-2-2026"
     },
-    "ai_description": "A patch has been released to fix the recent block validation pause during the PoC cycle, and it is now listed on the community calendar as a required network update. Hosts should apply it as soon as possible to restore correct validation behavior and safely resume block production."
+    "ai_description": "A patch has been released to fix the recent block validation pause during the PoC cycle, and a new calendar event has been added to mark the update. All hosts should apply the patch as soon as possible to restore correct PoC validation and allow block production to resume safely."
   },
   {
     "id": "evt_20260814103420_f3ed7c7e",
@@ -557,7 +557,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#january-10-2026"
     },
-    "ai_description": "A new governance vote is now live to fix a temporary participant allowlist issue. The proposal restores several addresses that were accidentally filtered out due to empty hardware names despite having zero ML Node weight, and also adds a small number of developer accounts to the allowlist. Be sure to review the vote and share your thoughts with the community."
+    "ai_description": "A new governance vote is now live to fix a filtration edge case that accidentally excluded participants with empty hardware names and zero ML Node weight from the allowlist. The proposal will restore access for those affected addresses and also add a small number of developer accounts. Make sure to cast your vote and help keep the network fair and inclusive."
   },
   {
     "id": "evt_20260814103420_83cc3941",
@@ -577,7 +577,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#january-28-2026"
     },
-    "ai_description": "A new guide has been added to the Calendar to help Hosts switch their ML Nodes to the Qwen3-235B-A22B-Instruct-2507-FP8 model, upgrade their setups, and remove unsupported models ahead of the PoC v2 update. Starting from Epoch 155, ML Node configurations will be checked for compliance with the new requirements, so all Hosts should review the guide and prepare their systems in advance to ensure a smooth transition."
+    "ai_description": "A new guide has been added to the Calendar to help Hosts switch their ML Nodes to the Qwen3-235B-A22B-Instruct-2507-FP8 model, upgrade their setups, and remove unsupported models ahead of the PoC v2 update. Starting at Epoch 155, ML Node configurations will be checked for compliance with the new requirements, so Hosts should review the guide and prepare their systems in advance to ensure uninterrupted participation."
   },
   {
     "id": "evt_20260814103420_4d0ef9ab",
@@ -597,7 +597,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#january-8-2026_3"
     },
-    "ai_description": "A new calendar event \"Network Update — Follow-Up\" has been added to track the upcoming patch for the recent consensus issue. The fix is ready and instructions will be shared shortly, but every active Host must participate to restore normal operations, so please stay online and be ready to update as soon as guidance is published. Your prompt action is essential for getting the network back to full health."
+    "ai_description": "A follow-up network update has been added to the calendar. The patch for the recent consensus issue is ready and instructions will be released soon, so all active Hosts should stay online and be prepared to apply it immediately to help restore normal network operations."
   },
   {
     "id": "evt_20260814103420_40dcd8ba",
@@ -637,7 +637,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#july-6-2026"
     },
-    "ai_description": "A new security update has been added to the calendar addressing a vulnerability in the PoC-v2 weight path that could allow participants to artificially inflate their compute weight, impacting rewards and voting power. Please update your API container as soon as possible to apply the hardening fix."
+    "ai_description": "A new security update has been added to the calendar for PoC-v2 weight validation hardening, and all node operators should update their API container as soon as possible. The patch fixes a reported vulnerability that could have allowed participants to artificially inflate their compute weight, directly impacting block rewards and both consensus and governance voting power. While there is no evidence the exploit has been used so far, updating now will keep the network fair and secure."
   },
   {
     "id": "evt_20260814103420_0b8b4d34",
@@ -697,7 +697,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#april-30-2026"
     },
-    "ai_description": "The on-chain governance vote for upgrade v0.2.12 has been approved and successfully executed on mainnet. The biggest change now live is the shift to Multi-model Proof of Compute, moving the network from a single fixed model to per-model PoC and enabling more flexible AI inference validation across different models."
+    "ai_description": "Upgrade Proposal v0.2.12 has been approved by on-chain governance and is now live on mainnet. The key change is the shift from a single fixed model to multi-model Proof of Compute, allowing per-model PoC and marking a major evolution in how compute is verified on the network. This gives the community more flexibility and accuracy in validating different AI models across the decentralized inference network."
   },
   {
     "id": "evt_20260814103420_e4d8ea2f",
@@ -717,7 +717,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#july-20-2026"
     },
-    "ai_description": "The v0.2.14 upgrade proposal is now live on-chain and open for community voting. This release introduces duplicate-artifact protection, early share detection, and deprecates the classic inference API by disabling billing for v1 chat completions and removing the embedded devshard endpoint. Be sure to review the proposal and cast your vote to help shape the network's next steps."
+    "ai_description": "The v0.2.14 upgrade proposal is now live on-chain and open for community voting. This release focuses on mainnet improvements including duplicate-artifact protection, early share detection, deprecation of the classic inference API, and updates to reward recipient handling. Be sure to review the proposal and cast your vote."
   },
   {
     "id": "evt_20260814103420_3fee2991",
@@ -757,7 +757,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#january-5-2026"
     },
-    "ai_description": "We have added an upgrade timing event to the calendar to deploy a fix for a bug that caused inference requests in unsupported formats to remain unmarked as completed. This should resolve the recent spike in missed inference rates across the network. Keep an eye on the calendar for the exact maintenance window."
+    "ai_description": "A network upgrade has been scheduled to fix a bug that caused inference requests in unsupported formats to remain unmarked as completed. This should resolve the higher-than-usual missed inference rate currently being observed across the network. Keep an eye on the calendar for timing details."
   },
   {
     "id": "evt_20260814103420_2a93d32b",
@@ -777,7 +777,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#january-8-2026_2"
     },
-    "ai_description": "A new calendar event marks the release of a critical network patch that fixes the recent consensus failure from the PoC phase. At least 67% of active network power must install the update to restore stable consensus progress, so hosts are strongly encouraged to apply it as soon as possible. You can find the upgrade guide at gonka.ai/FAQ/#upgrade-v027."
+    "ai_description": "A critical network patch has been added to the calendar to address the consensus failure that occurred during the proof of concept phase. The patch is ready for deployment, and hosts are strongly encouraged to install it promptly since reliable consensus progress will only resume once at least 67 percent of active network power has upgraded. Until that threshold is met, the network may continue to experience instability, so upgrading as soon as possible helps restore overall network health."
   },
   {
     "id": "evt_20260814103420_910ad071",
@@ -797,7 +797,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#april-28-2026"
     },
-    "ai_description": "A new calendar event has been added to track the pre-upgrade cleanup phase for the v0.2.12 network upgrade. The proposal is currently halfway through its on-chain voting period, with voting closing on April 30th at 00:12 UTC and the upgrade estimated for 6:00 am UTC the same day at block height 3834200. Node hosts should review the details on GitHub and cast their votes before the deadline to ensure a smooth transition."
+    "ai_description": "A new calendar event has been added for the v0.2.12 network upgrade, which is currently halfway through its on-chain voting period. Hosts should review the proposal on GitHub pull request 948, cast their votes before the deadline on April 30th, 2026, and prepare for the upgrade at block height 3834200. Make sure to complete any required pre-upgrade model cleanup actions before the estimated upgrade time at 6:00 am UTC on April 30th."
   },
   {
     "id": "evt_20260814103420_da8c9fc7",
@@ -817,7 +817,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#may-26-2026"
     },
-    "ai_description": "The on-chain governance vote for Upgrade Proposal v0.2.13 has officially passed and the upgrade is now live on mainnet as of block 4267300. This means the network has successfully adopted the latest improvements, so node operators and users can now take advantage of the new features and enhancements included in this release."
+    "ai_description": "Proposal 54 has been approved and executed, bringing the v0.2.13 upgrade live to mainnet at block 4267300. This means the network improvements voted on by the community are now officially in effect."
   },
   {
     "id": "evt_20260814103420_cd6bd4b5",
@@ -837,7 +837,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#february-16-2026"
     },
-    "ai_description": "A new calendar event has been added for collateral activation ahead of Epoch 180, proposing an initial requirement of 0.032 GNK per unit of power and a minimal 0.01% slashing rate. These conservative starting parameters, shaped by community AMA feedback, will soon go to a vote and mark an important step toward securing the network while keeping the barrier low for participants."
+    "ai_description": "A new calendar event has been added for the upcoming collateral activation ahead of Epoch 180, featuring a community proposal for gentle initial parameters. The team plans to submit a starting requirement of 0.032 GNK per unit of compute power, which works out to roughly 10 GNK per H100, paired with a minimal 0.01% slashing rate for vote. This is an important milestone for network security, so make sure to review the details and participate in the vote when it goes live."
   },
   {
     "id": "evt_20260814103420_96fc8627",
@@ -857,7 +857,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#may-5-2026"
     },
-    "ai_description": "A new proposal has been added to the calendar with voting ending on May 5, 2026 at 19:00 UTC. It seeks to lower the minimum direct participation threshold from 30% to 10% after hosts struggled to meet the current requirement during the Kimi-K2.6 bootstrap, which helps protect the model's eligibility and simplifies onboarding future models while keeping the existing PoC security model intact."
+    "ai_description": "A new governance vote has been added to the calendar, closing on May 5, 2026 at 19:00 UTC. The proposal would lower the minimum direct participation threshold from 30% to 10% after hosts found the current requirement difficult to meet during the Kimi-K2.6 bootstrap, reducing the risk of model ineligibility while keeping PoC validation security unchanged."
   },
   {
     "id": "evt_20260814103420_e048fe7d",
@@ -897,7 +897,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#february-10-2026"
     },
-    "ai_description": "A new calendar event has been added for the PR Review of Upgrade v0.2.10, giving the community roughly two days to review the upcoming on-chain software update on GitHub and share feedback. Meaningful contributions during this review window may also be rewarded with bounties in a future upgrade, so your input directly helps improve the network."
+    "ai_description": "A new calendar event has been added for the PR review of the upcoming on-chain software upgrade v0.2.10, with the review window open for approximately two days. Community members are invited to provide feedback and suggested improvements on the open pull request, and meaningful contributions may be rewarded with bounties proposed in the next upgrade."
   },
   {
     "id": "evt_20260814103420_28e1b4f4",
@@ -917,7 +917,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#january-8-2026_1"
     },
-    "ai_description": "A network update has been added to the calendar confirming that consensus has been fully restored after the recent patch deployment. The network is now stable and running normally, so the community can proceed with confidence."
+    "ai_description": "The network consensus issue has been fully resolved following the latest patch deployment, and the system is now running smoothly again. This calendar update confirms that all network parameters have returned to normal, so the community can proceed with full confidence."
   },
   {
     "id": "evt_20260814103420_377275f4",
@@ -957,7 +957,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#may-18-2026"
     },
-    "ai_description": "A network update has been added to the calendar to address a proxy container bug that incorrectly applied global connection limits to devshards rather than per-client limits. The fix is available in image version 0.2.12-post5, so please update your docker-compose.yml and restart the container to apply it. Keeping your node updated ensures stable and fair connection handling across the network."
+    "ai_description": "A network update has been added to the calendar to address a proxy container issue that was incorrectly limiting parallel connections to devshards globally rather than per client. The fix is available in PR 1183 and requires updating your proxy container image to version 0.2.12-post5 in your docker-compose.yml file, then restarting the container. Please apply this update to ensure optimal connection handling for your setup."
   },
   {
     "id": "evt_20260814103420_103c7356",
@@ -977,7 +977,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#may-20-2026"
     },
-    "ai_description": "The v0.2.13 upgrade proposal has returned to the chain for a fresh governance vote after its initial submission did not pass. This revised version brings recalibrated weights for Kimi, adds the new MiniMaxAI/MiniMax-M2.7 model, and updates validation thresholds and devshard storage rules. Community members can now review the changes and cast their votes."
+    "ai_description": "The v0.2.13 upgrade proposal has returned to on-chain governance for a new vote after its previous attempt did not pass. This revised version brings several updates including recalibrated weights for Kimi, the addition of the MiniMax-M2.7 model, and adjustments to validation thresholds. Community members can now review the changes and cast their votes."
   },
   {
     "id": "evt_20260814103420_4dd4d9cd",
@@ -1017,7 +1017,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#april-29-2026"
     },
-    "ai_description": "A new calendar event has been added for the upcoming v0.2.12 upgrade, with voting closing on April 30th at 00:12 UTC and the network upgrade scheduled for block height 3834200 around 6:00 am UTC the same day. Node hosts should review the proposal on GitHub, cast their votes before the deadline, and pre-download the binaries to ensure a smooth transition."
+    "ai_description": "A new calendar event has been added for the upcoming v0.2.12 network upgrade, reminding hosts to pre-download binaries ahead of the upgrade height at 3834200. Voting closes on April 30th at 00:12 UTC, with the upgrade estimated for 6:00 am UTC the same day, so be sure to review the proposal on GitHub and cast your vote before the deadline. This ensures node operators are fully prepared and the transition goes smoothly for the entire community."
   },
   {
     "id": "evt_20260814103420_fcc70d9c",
@@ -1037,7 +1037,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#july-8-2026"
     },
-    "ai_description": "The v0.2.13-devshard-v3 runtime upgrade proposal has officially entered governance. This is a devshard-only upgrade that will run in parallel with existing devshard runtimes once approved, keeping the test environment moving without affecting the main chain. Head to the proposal repository to review the details and prepare for the vote."
+    "ai_description": "The v0.2.13-devshard-v3 runtime upgrade proposal has officially entered governance. This is a devshard-only update that will run in parallel with existing devshard runtimes once approved, keeping development infrastructure moving independently of the main chain."
   },
   {
     "id": "evt_20260814103420_099b0949",
@@ -1057,7 +1057,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#may-17-2026"
     },
-    "ai_description": "Good news for the network, epoch #267 has successfully recovered from the previous disruption. Proof-of-Contribution validation is back on track and all affected hosts have returned to the active set after the attack on Kimi model runners in epoch #266 that had kept many participants out. The network remained operational throughout, and we are glad to see everyone back in action for this new epoch."
+    "ai_description": "A calendar event has been added for Epoch #267 marking the successful recovery of PoC validation, which allows hosts affected by the Kimi model-targeted attack in epoch #266 to rejoin the active set. The network remained operational during the incident, and this recovery restores full participation for impacted community members."
   },
   {
     "id": "evt_20260814103420_addf2142",
@@ -1077,7 +1077,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#april-15-2025"
     },
-    "ai_description": "A new calendar event has been added for the PR Review of Upgrade v0.2.12. The team is inviting the community to review the open pull request on GitHub and share feedback, bug findings, or security concerns to help strengthen the upcoming on-chain software upgrade. Your meaningful contributions during this review process directly support the network's reliability and security."
+    "ai_description": "A new calendar event has been added for the PR Review of Upgrade v0.2.12. The team invites the community to review the open pull request on GitHub and share feedback on any potential bugs, vulnerabilities, or improvements before the next on-chain software upgrade goes live. Your meaningful contributions help keep the network secure and robust."
   },
   {
     "id": "evt_20260814103420_31490e93",
@@ -1117,7 +1117,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#august-13-2026_2"
     },
-    "ai_description": "DeepSeek V4 Flash has moved from voting into bootstrap and is now scheduled for testing. Node operators planning to serve the model should validate their MLNode setup using the vLLM 0.25.1 resources on the upgrade branch and submit their intent to join."
+    "ai_description": "DeepSeek V4 Flash has officially moved from voting into bootstrap, and a new calendar event has been added to mark the testing phase. Node operators planning to serve this model should validate their setup against the vLLM 0.25.1 upgrade branch and submit their intent to join now."
   },
   {
     "id": "evt_20260814103420_355d5348",
@@ -1157,7 +1157,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#may-28-2026"
     },
-    "ai_description": "MiniMax-M2.7 has officially graduated from bootstrap and is now fully active on the Gonka network as of epoch 278, joining Qwen3-235B and Kimi K2.6 as a consensus-backed model group. Proof-of-Contribution weight earned during the bootstrap phase is now converting to consensus weight at a coefficient of 0.3024, and per-model participation rules are live for hosts running this model."
+    "ai_description": "MiniMax-M2.7 has officially graduated from bootstrap to active status on the Gonka network as of epoch 278, joining Qwen3-235B and Kimi K2.6 as a fully enforced model group. Proof-of-Contribution weight earned during the bootstrap phase is now converting to consensus weight at a coefficient of 0.3024, meaning hosts running this model will start earning rewards under standard network rules."
   },
   {
     "id": "evt_20260814103420_5846bea4",
@@ -1177,7 +1177,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#july-8-2026_1"
     },
-    "ai_description": "A new calendar event has been added for the PR review of on-chain upgrade v0.2.14, which is now open for community review. This upgrade introduces duplicate-artifact protection and early share detection on mainnet, while also deprecating the classic inference API by disabling billing for /v1/chat/completions and removing the embedded /v1/devshard endpoint. Be sure to check the pull request and share your feedback with the team."
+    "ai_description": "A new calendar event has been added for the PR review of on-chain upgrade v0.2.14, which is now open for community review. This upgrade introduces duplicate-artifact protection and early share detection to the mainnet chain, while also deprecating the classic inference API by disabling billing for /v1/chat/completions and removing the embedded /v1/devshard endpoint. Make sure to check it out and share your feedback before it moves forward."
   },
   {
     "id": "evt_20260814103420_abd5aaf2",
@@ -1197,7 +1197,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#july-23-2026"
     },
-    "ai_description": "Upgrade Proposal v0.2.14 has been officially approved by the community and successfully deployed to mainnet at block 5195700. This means the network is now running the latest version following the on-chain governance decision. Great work to everyone who participated in the vote."
+    "ai_description": "Upgrade Proposal v0.2.14 has officially passed on-chain governance and been deployed to mainnet at block 5195700. This means the network has successfully adopted the latest improvements, so node operators and users can now benefit from the new features and fixes included in this release."
   },
   {
     "id": "evt_20260814103420_4ae1b00a",
@@ -1217,7 +1217,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#august-3-2026"
     },
-    "ai_description": "The devshard runtime has been successfully upgraded to v4.0.1 after proposal 93 passed on-chain governance. The update was deployed automatically by versiond, so hosts did not need to restart or take any manual action. This marks another smooth, decentralized upgrade for the network."
+    "ai_description": "The devshard runtime has been successfully upgraded to v4.0.1 after on-chain governance proposal 93 was approved. The update was applied automatically by versiond, so no manual intervention or network restart was needed from node operators. This means smoother operations and less downtime for the community going forward."
   },
   {
     "id": "evt_20260814103420_96015c83",
@@ -1237,7 +1237,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#april-27-2026"
     },
-    "ai_description": "The v0.2.12 upgrade proposal is now live on-chain and open for community voting. This release introduces multi-model Proof of Compute, shifting from a single fixed model to per-model PoC groups to better support diverse AI workloads. Cast your vote to help shape the network's next evolution."
+    "ai_description": "The v0.2.12 upgrade proposal is now live on-chain and open for community voting. This release introduces a major shift to multi-model Proof of Compute, moving from a single fixed model to dedicated per-model PoC groups. Be sure to review the proposal and cast your vote."
   },
   {
     "id": "evt_20260814103420_87470839",
@@ -1257,7 +1257,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#february-4-2026"
     },
-    "ai_description": "A new calendar entry reminds node operators to use CLI v0.2.9 when granting permissions to warm keys created after the latest upgrade. Make sure your tooling is up to date to avoid any access issues with newly created keys."
+    "ai_description": "A new calendar reminder has been added to help the community stay on track with the latest tooling. If you are granting permissions to warm keys created after the v0.2.9 upgrade, make sure you are using CLI version v0.2.9 to avoid any issues. Keeping your CLI updated ensures smooth operations across the network."
   },
   {
     "id": "evt_20260814103420_19d4eb42",
@@ -1297,7 +1297,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#march-18-2026"
     },
-    "ai_description": "The v0.2.11 upgrade proposal has been published on-chain and is now open for community voting. If passed, it will bring devshards-based inference sessions to improve scalability along with major performance gains for Start and FinishInference operations. Be sure to cast your vote and help shape the network's next evolution."
+    "ai_description": "The v0.2.11 upgrade proposal is now live on-chain and open for community voting. This release introduces devshards-based inference sessions to boost scalability along with major performance upgrades for Start and FinishInference operations. Be sure to review the proposal and cast your vote to help shape the network's next step."
   },
   {
     "id": "evt_20260814103420_34b73137",
@@ -1317,7 +1317,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#july-15-2026_1"
     },
-    "ai_description": "A new calendar entry has been added covering the Kimi-K2.6 incident during epochs 328 and 329, when two guardian-operated servers failed simultaneously and caused the model to lose its PoC validation majority. The post details what happened, how the network continued operating normally, and outlines a recovery plan along with updated delegation guidance for the community."
+    "ai_description": "A new calendar event has been added covering the Kimi-K2.6 incident during epochs 328 and 329, when two guardian-operated servers failed simultaneously and caused the model to lose its PoC validation majority. While Kimi hosts were dropped from the group at the start of epoch 329, the rest of the network continued operating normally. The event also outlines the recovery plan and an updated delegation guidance, so be sure to check it out."
   },
   {
     "id": "evt_20260814103420_8c6de811",
@@ -1337,7 +1337,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#january-8-2026_5"
     },
-    "ai_description": "The v0.2.7 upgrade proposal has officially passed on-chain governance and is now live on mainnet. This release temporarily reactivates the Genesis Validator Enhancement, bringing a previously used mechanism back into active service. Keep an eye on network performance as these changes take effect."
+    "ai_description": "The v0.2.7 upgrade proposal has been approved through on-chain governance and is now live on mainnet, temporarily reactivating the Genesis Validator Enhancement. This means the network has adopted the proposed changes following a successful community vote, so validators and node operators should ensure their systems are running the latest version. Keep an eye on performance and share any feedback with the team as this enhancement rolls out."
   },
   {
     "id": "evt_20260814103420_f8851a45",
@@ -1397,7 +1397,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#july-16-2026"
     },
-    "ai_description": "Proposal 88 has officially passed on-chain, bringing moonshotai/Kimi-K2.6 back into the governance model list under the standard bootstrap flow starting at epoch 331. The proposal also removes devshard v1 and v2, so node operators should prepare to declare their intent before the July 17 deadline and update their MLNode accordingly."
+    "ai_description": "Proposal 88 has officially passed on-chain, bringing Kimi-K2.6 back into the governance model list under the standard bootstrap flow starting at epoch 331, while retiring devshard v1 and v2. If you plan to support this model, make sure to declare your intent before block 5,105,276 on July 17 around 12:05 UTC, and update your MLNode accordingly."
   },
   {
     "id": "evt_20260814103420_aa948199",
@@ -1417,7 +1417,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#july-28-2026"
     },
-    "ai_description": "The combined devshard v4 and v0.2.15 mainnet upgrade proposal is now live on-chain and open for community voting. This upgrade introduces the new devshard v4 runtime alongside a v0.2.15 mainnet software release that cleans up legacy code and outdated transaction-processing paths. Make sure to cast your vote and help shape the network's next evolution."
+    "ai_description": "The devshard v4 and v0.2.15 mainnet upgrade proposal is now live on-chain and open for community voting. This upgrade introduces the new devshard v4 runtime alongside a v0.2.15 software update that cleans up legacy code and outdated transaction paths to improve network efficiency. Be sure to review the proposal and cast your vote."
   },
   {
     "id": "evt_20260814103420_ca905b78",
@@ -1437,7 +1437,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#march-6-2026"
     },
-    "ai_description": "The v0.2.11 upgrade has been scheduled for review and governance voting early next week, so the community should prepare to participate. If you cannot access your cold key directly, consider setting up vote delegation now to ensure your voice is counted."
+    "ai_description": "A new calendar entry has been added to flag that the v0.2.11 upgrade will enter review and governance voting early next week. The team is encouraging everyone to take part, and if you cannot access your cold key directly, you should set up vote delegation ahead of time so your voice is still heard."
   },
   {
     "id": "evt_20260814103420_6ee9f1c0",
@@ -1457,7 +1457,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#may-6-2026_2"
     },
-    "ai_description": "A network update has been added to the calendar to address a minor bug in parsing Kimi-K2.6 responses discovered during the last epoch. The team recommends replacing the binary for your API container to apply the fix, so node operators should plan for a quick update to keep inference running smoothly."
+    "ai_description": "A network update has been scheduled to fix a parsing bug that affected certain Kimi-K2.6 responses during the last epoch. Node operators should update their API container binary with"
   },
   {
     "id": "evt_20260814103420_52605d32",
@@ -1477,7 +1477,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#may-7-2026"
     },
-    "ai_description": "A new calendar event has been added asking all hosts to verify their bridge containers ahead of the upcoming v0.2.13 upgrade. Please check that your bridge container is deployed, up to date, and fully synced, as Ethereum-side contract activation may be part of this release. If you already have the container running, take a moment to confirm you are on the latest version."
+    "ai_description": "A new calendar event has been added asking all hosts to update and verify their bridge containers ahead of the v0.2.13 network upgrade. This is important because the upcoming release may activate Ethereum-side contracts, and having the latest bridge container deployed and fully synced ensures your node stays compatible and operational. If you already run a bridge container, please double check that it is on the current version and syncing properly."
   },
   {
     "id": "evt_20260814103420_8417cadd",
@@ -1577,7 +1577,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#february-19-2026_1"
     },
-    "ai_description": "A new calendar entry has been added for the PoC weight normalization update. Following the recent network upgrade, node weights were recalibrated based on actual observed block intervals, revealing that the effective PoC reference window runs about five blocks longer than previously assumed. This adjustment ensures more accurate weight calculations tied to real block generation times, which directly impacts how the community measures node contributions."
+    "ai_description": "A new calendar event has been added for the PoC weight normalization update. Following the recent network upgrade, node weights have been recalibrated based on actual observed block intervals, resulting in an effective PoC reference window that is roughly five blocks longer than previously assumed. This adjustment ensures more accurate weight calculations tied to real block generation times, so miners and node operators should take note of the revised parameters."
   },
   {
     "id": "evt_20260814103420_3bfb3407",
@@ -1597,7 +1597,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#march-11-2026"
     },
-    "ai_description": "Added: Tool calling. Tool calling [Tool callinghttps://gonka.ai/developer/quickstart/#4-tool-calling is now available through the standard function-calling pattern (type: “function”). The integration flow is simple: - functions are defined by the developer - the model returns structured call arguments when a request mat"
+    "ai_description": "A new Calendar item has been added for Tool calling, which is now live on the network using the standard function-calling pattern. This lets developers define their own functions and receive structured arguments from the model to execute on their end, making it much easier to integrate Gonka into applications that rely on external tools or proxy layers. Be sure to check it out if you are building workflows that need structured model outputs."
   },
   {
     "id": "evt_20260814103420_9c47d7e3",
@@ -1617,7 +1617,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#may-15-2026"
     },
-    "ai_description": "The v0.2.13 upgrade proposal is now live on chain and open for community voting. This release brings recalibrated weights for Kimi, adds the MiniMax-M2.7 model, updates validation thresholds, reworks devshard storage, fixes several PoC and reward issues, and activates the Ethereum bridge on mainnet. Cast your vote to help shape the network's next evolution."
+    "ai_description": "The v0.2.13 upgrade proposal is now live on chain and open for community voting. This release brings recalibrated weights for Kimi, adds the MiniMax-M2.7 model, updates validation thresholds, reworks devshard storage, fixes several PoC and reward issues, and activates the Ethereum bridge on mainnet. Be sure to cast your vote and note that the proposal extends the grace window following the upgrade."
   },
   {
     "id": "evt_20260814103420_b9e0caf2",
@@ -1637,7 +1637,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#august-10-2026"
     },
-    "ai_description": "A new governance proposal is now live on-chain for community voting. Proposal 94 would add DeepSeek V4 Flash to the network's PoC model lineup, expanding the available inference options without changing any existing models or parameters. Cast your vote and help shape the network's future capabilities."
+    "ai_description": "A new governance vote is now live on-chain for proposal 94, which would add DeepSeek V4 Flash to the network's proof-of-concept model lineup. This addition brings a new model option to the ecosystem without changing any existing configurations, so cast your vote and make your voice heard."
   },
   {
     "id": "evt_20260814103420_27713cf0",
@@ -1657,7 +1657,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#february-2-2026_1"
     },
-    "ai_description": "Block validation has been temporarily paused through collective host action as a safety precaution. The pause was initiated because the current PoC cycle carries a high risk of missing validation thresholds, and the automatic fallback mechanism may not function as intended. This preventive step protects against premature or uncertain validator finalization while the issue is being assessed."
+    "ai_description": "Block validation has been temporarily paused by hosts as a safety precaution for the current PoC cycle, since validation thresholds may not be met and the automatic fallback mechanism might not function correctly. This collective action protects the network from uncertain validator finalization while the issue is assessed. Keep an eye on the calendar for updates on when validation will resume."
   },
   {
     "id": "evt_20260814103420_b925f577",
@@ -1697,7 +1697,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#february-21-2026"
     },
-    "ai_description": "API binary v0.2.10-post3 has been released, rolling back the strict 5-minute connection timeout between Executor and MLNode that was introduced in v0.2.10 so longer requests can process properly again. This update also adds extra checks to the PoC validation pipeline, keeping the network both reliable and secure. Make sure to upgrade if you ran into timeout issues with the previous version."
+    "ai_description": "A new API binary v0.2.10-post3 has been released, rolling back the overly strict 5-minute connection timeout between Executors and MLNodes so longer requests can complete properly while also adding extra checks to the PoC validation pipeline. Make sure to update if you were hitting timeout issues with the previous version."
   },
   {
     "id": "evt_20260814103420_617e5435",
@@ -1717,7 +1717,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#may-6-2026"
     },
-    "ai_description": "A new calendar event has been added for the PR Review of Upgrade v0.2.13. The community is now invited to review the on-chain upgrade pull request directly on GitHub and share any findings, bugs, or security considerations before it moves forward."
+    "ai_description": "A new calendar event has been added for the PR review of on-chain upgrade v0.2.13. The team is inviting the community to review pull request #1143 on GitHub and share any findings, questions, or vulnerability reports to help ensure a safe and robust release. Your meaningful contributions and code review feedback are highly valued."
   },
   {
     "id": "evt_20260814103420_1838f1cc",
@@ -1777,7 +1777,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#july-30-2026"
     },
-    "ai_description": "Upgrade Proposal v0.2.15 has officially passed and been deployed to mainnet at block 5316315 following the approved governance vote. The network is now running the latest version alongside the new devshard v4 runtime, which brings expanded capabilities while maintaining compatibility with the existing v3 environment."
+    "ai_description": "Upgrade Proposal v0.2.15 has been officially approved by on-chain governance and successfully executed on mainnet at block 5316315. This means the network is now running the latest upgrade, and the new devshard v4 runtime is live alongside the existing v3 runtime, giving the community expanded capabilities and improved infrastructure."
   },
   {
     "id": "evt_20260814103420_971491bc",
@@ -1817,7 +1817,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#may-6-2026_1"
     },
-    "ai_description": "A network update has been added to the calendar addressing a container restart issue in API versions v0.2.11 through v0.2.12-api-post2 that caused delayed server startup and skipped Confirmation PoC for some miners. The fix enables parallel devshard loading and restores existing sessions from snapshots, removing the activation blocker to keep your nodes running smoothly. Be sure to check the calendar for timing and update your containers accordingly."
+    "ai_description": "A network update has been added to the calendar to address a startup delay issue affecting API container versions v0.2.11 through v0.2.12-api-post2. The fix resolves a problem where ports 9100, 9200, and 9400 were slow to restart after a container reboot, which delayed API activation and caused some miners to skip Confirmation PoC. By loading devshards in parallel and restoring sessions from snapshots, the update removes this blocker and helps keep miner participation on track."
   },
   {
     "id": "evt_20260814103420_62c0f0b1",
@@ -1837,7 +1837,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#january-8-2026"
     },
-    "ai_description": "A new governance vote has been added to the calendar to establish a temporary participant allowlist as the network enters a stabilization period following the successful patch of the recent consensus failure. With block production back to normal, this vote will help manage network participation carefully while the system stabilizes before resuming broader growth. Make sure to review the proposal and cast your vote to help guide the next phase."
+    "ai_description": "A new proposal has been added to the calendar for a temporary participant allowlist to guide the network through a stabilization period now that the consensus failure patch is live and blocks are being produced normally again. This vote will help manage network participation carefully as the community prepares for the next phase of growth, so be sure to review it and cast your vote."
   },
   {
     "id": "evt_20260814103420_cd334bed",
@@ -1857,7 +1857,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#february-17-2026"
     },
-    "ai_description": "The v0.2.10 upgrade proposal is now live on-chain and open for community voting. If passed, it will bring PoC validation optimizations and real-time weight normalization to improve fairness and scalability across the network. Be sure to review the proposal and cast your vote."
+    "ai_description": "The v0.2.10 upgrade proposal is now live on-chain and open for community voting. If passed, it will bring major PoC validation optimizations and real-time weight normalization to boost network fairness and scalability. Be sure to cast your vote and help shape the future of the network."
   },
   {
     "id": "evt_20260814103420_4528d4a7",
@@ -1877,7 +1877,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#june-25-2026"
     },
-    "ai_description": "Proposal 78 has passed its expedited vote and the changes are now live from epoch 308. MiniMaxAI/MiniMax-M2.7 becomes the sole base and PoC model, replacing Kimi K2.6 and Qwen3-235B in the delegation parameters. This streamlines the proof-of-concept setup around a single model."
+    "ai_description": "Proposal 78 has officially passed and the updates are now live from epoch 308. MiniMaxAI/MiniMax-M2.7 is now the sole proof-of-concept model and the new base model for delegation, replacing both Kimi K2.6 and Qwen3-235B in the PoC parameters. This streamlines the network's inference foundation around a single model starting this epoch."
   },
   {
     "id": "evt_20260814103420_a96591be",
@@ -1897,7 +1897,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#february-1-2026"
     },
-    "ai_description": "Upgrade Proposal v0.2.9 has been approved and successfully executed on mainnet at block 2451000. This upgrade introduces PoC v2 for weight assignment and fully replaces the legacy PoC system, marking a significant step forward for the network's consensus mechanism. The community can now look ahead to the upcoming PoC cycle under the new system."
+    "ai_description": "The on-chain governance vote for Upgrade Proposal v0.2.9 has been approved and successfully executed on mainnet at block 2451000. This upgrade implements PoC v2 for weight assignment and completes the transition away from the legacy PoC mechanism, marking a significant step forward for the network's consensus infrastructure."
   },
   {
     "id": "evt_20260814103420_7fd19934",
@@ -1917,7 +1917,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#january-8-2026_4"
     },
-    "ai_description": "A network update has been added to the calendar regarding a consensus failure that occurred during the Proof-of-Compute phase. The team has identified the root cause and is preparing a patch, so hosts should remain online and watch for upcoming instructions and technical details."
+    "ai_description": "A consensus failure was detected during the recent Proof-of-Compute phase, and the team has identified the root cause and is preparing a patch. All hosts should remain online and keep an eye out for upcoming instructions, as action may be needed once the fix is released. We will share full technical details and next steps shortly."
   },
   {
     "id": "evt_20260814103420_3607f020",
@@ -1937,7 +1937,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#may-22-2026"
     },
-    "ai_description": "The governance vote for Upgrade Proposal v0.2.13 has officially passed, meaning the network will automatically upgrade at block height 4267300 around Tuesday May 26 at 14:42 UTC. Please ensure your bridge container is ready ahead of the scheduled upgrade to maintain uninterrupted service."
+    "ai_description": "The on-chain vote for upgrade proposal v0.2.13 has officially passed, meaning the network will automatically upgrade at block height 4267300 around Tuesday, May 26 at 14:42 UTC. Please ensure your bridge container is running ahead of the upgrade to stay fully synced with mainnet."
   },
   {
     "id": "evt_20260814103420_33a3609c",
@@ -1957,7 +1957,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#june-6-2026"
     },
-    "ai_description": "A new calendar item has been added for the open review of the devshard-only upgrade pull request. This marks the first time the network will use a devshard-only upgrade path, which allows the development shard runtime to be updated independently without requiring a coordinated mainnet node upgrade or affecting live mainnet behavior. This streamlines testing and iteration for developers while keeping the main blockchain stable."
+    "ai_description": "The PR for the first ever devshard-only upgrade is now open for community review. Unlike standard chain upgrades, this update targets only the devshard runtime and does not require a coordinated full-node upgrade through Cosmovisor or affect mainnet behavior, marking a new streamlined process for the network. Be sure to check it out and share your feedback."
   },
   {
     "id": "evt_20260814103420_096a499b",
@@ -1997,7 +1997,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#june-27-2026"
     },
-    "ai_description": "A new calendar event has been added for the next Kimi-K2.6 bootstrap attempt at epoch 311. Hosts interested in serving the model must declare their proof-of-commitment intent during epoch 310 and prepare their nodes ahead of time, though those who prefer not to run it directly can delegate to the guardian node instead. Mark your calendars and get ready if you plan to participate in this upcoming bootstrap."
+    "ai_description": "Kimi-K2.6 is gearing up for another bootstrap attempt at epoch 311, and hosts interested in serving the model must declare their intent during epoch 310 and prepare their nodes ahead of time. If you prefer not to run it directly, you can delegate to a guardian node that will also be hosting it. Mark your calendars and get ready for the next phase of the network expansion."
   },
   {
     "id": "evt_20260814051137_172d80c3",
