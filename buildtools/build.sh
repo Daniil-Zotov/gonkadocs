@@ -41,6 +41,9 @@ if [ -d "$ROOT/gonka-code" ]; then
   python3 "$ROOT/buildtools/generate-code-map.py"
 fi
 
+echo "==> [0.55/7] Генерация событий календаря из network-updates страницы"
+python3 "$ROOT/buildtools/generate-network-updates.py" "$ROOT/docs"
+
 echo "==> [0.6/7] Обогащение JSON календаря полями для iCal"
 python3 "$ROOT/buildtools/enrich-calendar.py" "$ROOT/docs"
 

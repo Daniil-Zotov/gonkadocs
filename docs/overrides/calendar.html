@@ -38,6 +38,10 @@
       <input type="checkbox" class="cal-filter-input" value="network" checked>
       <span class="cal-filter-dot net"></span> Network
     </label>
+    <label class="cal-filter-cb">
+      <input type="checkbox" class="cal-filter-input" value="network_updates" checked>
+      <span class="cal-filter-dot nu"></span> Network Updates
+    </label>
     <span class="cal-filter-count" id="cal-count"></span>
   </div>
 
@@ -57,10 +61,11 @@
   var CALENDAR_DIR = BASE + '/community/calendar/';
 
   var CATEGORY_COLORS = {
-    governance: '#0969da',
-    community:  '#1a7f37',
-    committee:  '#8250df',
-    network:    '#9a6700',
+    governance:      '#0969da',
+    community:       '#1a7f37',
+    committee:       '#8250df',
+    network:         '#9a6700',
+    network_updates: '#bc4c00',
   };
 
   var MONTHS = [
@@ -88,6 +93,7 @@
       committee_call:   'Call',
       network_upgrade:  'Upgrade',
       network_event:    'Event',
+      network_update:   'Update',
     })[type] || type;
   }
 
