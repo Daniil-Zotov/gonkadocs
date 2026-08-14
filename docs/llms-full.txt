@@ -26655,8 +26655,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-08-14
   
   Migrate the live community-sale contract and all wrapped-token instances to newly stored CosmWasm code, and register that wrapped-token code for future instantiations. Contract addresses and balances …
-  Yes 54.2% (2,879) · No 24.7% (1,312) · Veto 0.0% (0) · Abstain 21.1% (1,119)
-  ✗ Turnout 1.0% (5,310 / 554,181) · Quorum 25% (138,545)
+  Yes 82.4% (11,361) · No 9.5% (1,312) · Veto 0.0% (0) · Abstain 8.1% (1,119)
+  ✗ Turnout 2.5% (13,792 / 554,181) · Quorum 25% (138,545)
 
   
     #94 – Add DeepSeek V4 Flash 0731
@@ -27717,7 +27717,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-94 proposals across 5 quarters. Last updated: 2026-08-14 10:00 UTC
+94 proposals across 5 quarters. Last updated: 2026-08-14 10:26 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -64775,8 +64775,8 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-08-14
   
   Migrate the live community-sale contract and all wrapped-token instances to newly stored CosmWasm code, and register that wrapped-token code for future instantiations. Contract addresses and balances …
-  Yes 54.2% (2,879) · No 24.7% (1,312) · Veto 0.0% (0) · Abstain 21.1% (1,119)
-  ✗ Turnout 1.0% (5,310 / 554,181) · Quorum 25% (138,545)
+  Yes 82.4% (11,361) · No 9.5% (1,312) · Veto 0.0% (0) · Abstain 8.1% (1,119)
+  ✗ Turnout 2.5% (13,792 / 554,181) · Quorum 25% (138,545)
 
   
     #94 – Add DeepSeek V4 Flash 0731
@@ -70854,12 +70854,12 @@ Migrate the live community-sale contract and all wrapped-token instances to newl
     
   
   
-    Yes 54.2% (2,879)
-    No 24.7% (1,312)
+    Yes 82.4% (11,361)
+    No 9.5% (1,312)
     Veto 0.0% (0)
-    Abstain 21.1% (1,119)
-    Total 5,310 votes
-    ✗ Turnout 1.0% (5,310 / 554,181) · Quorum 25% (138,545)
+    Abstain 8.1% (1,119)
+    Total 13,792 votes
+    ✗ Turnout 2.5% (13,792 / 554,181) · Quorum 25% (138,545)
   
 
 Voters
@@ -70868,7 +70868,12 @@ VoterVote
 
 gonka1qh2qe4…yy3k5fNo 100.0%
 gonka1p2lhgn…k6h26mYes 100.0%
+gonka1z5vtvu…jwzxa4Yes 100.0%
+gonka1xwkesa…lcktdsYes 100.0%
+gonka18xeqns…whyn0dYes 100.0%
+gonka1830lqu…pasz0yYes 100.0%
 gonka1d7p03c…v9h82pYes 100.0%
+gonka1wknl63…geuytrYes 100.0%
 gonka10mmdja…vqgz09Yes 37.0% No 34.0% Abstain 29.0%
 
 ---
