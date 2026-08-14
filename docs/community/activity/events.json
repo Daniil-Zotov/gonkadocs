@@ -1,5 +1,37 @@
 [
   {
+    "id": "evt_20260814221508_41dea58b",
+    "timestamp": "2026-08-14T22:15:08.895186+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "DeepSeek V4 Flash Bootstrap",
+      "url": "/gonka/docs/host/deepseek-bootstrap/",
+      "file": "host/deepseek-bootstrap.md"
+    },
+    "details": {
+      "content_before": "# DeepSeek V4 Flash Bootstrap\n\n`deepseek-ai/DeepSeek-V4-Flash-0731` is added as a new governance-approved PoC model by [proposal 94](../network-updates.md#august-10-2026). This document explains how to minimize the chance of weight reductions during bootstrap, whether or not the model gets enough participants in its first attempt.\n\nFor the wider context of multi-model PoC mechanics, see [Multi-Model PoC](./multi_model_poc.md). Previous model bootstraps and their mechanics are documented in [Kimi K2.6 Bootstrap](./kimi-bootstrap.md) and [MiniMax-M2.7 Bootstrap](./minimax-bootstrap.md).\n\n!!! note\n    The bootstrap can take multiple epochs, depending on how many participants are ready. Before the configured punishment epoch, no weight reduction happens if participants submit their choice expl",
+      "content_after": "# DeepSeek V4 Flash Bootstrap\n\n`deepseek-ai/DeepSeek-V4-Flash-0731` has **passed bootstrap** and is **active** in Proof of Compute on Gonka mainnet as of chain epoch 360 ([proposal 94](../network-updates.md#august-10-2026)). The timeline and transaction examples below remain useful for understanding how activation worked and for operations such as delegation; for current deployment defaults (including `node-config.json`), see the [Host Quickstart](./quickstart.md).\n\nFor the wider context of multi-model PoC mechanics, see [Multi-Model PoC](./multi_model_poc.md). Previous model bootstraps and their mechanics are documented in [Kimi K2.6 Bootstrap](./kimi-bootstrap.md) and [MiniMax-M2.7 Bootstrap](./minimax-bootstrap.md).\n\n!!! note\n    The bootstrap can take multiple epochs, depending on how "
+    },
+    "ai_description": "The DeepSeek V4 Flash bootstrap documentation has been updated to reflect that the model has successfully passed bootstrap and is now active in Proof of Compute on Gonka mainnet as of chain epoch 360. The page has shifted from pre-launch guidance to a historical reference for how activation worked, while pointing operators to the Host Quickstart for current deployment settings."
+  },
+  {
+    "id": "evt_20260814221508_9a74b445",
+    "timestamp": "2026-08-14T22:15:08.895237+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "Model licenses",
+      "url": "/gonka/docs/model-licenses/",
+      "file": "model-licenses.md"
+    },
+    "details": {
+      "content_before": "# Model licenses\n- [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1/blob/main/LICENSE)\n- [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3/blob/main/LICENSE-MODEL)\n- [Gemma-3-27B](https://ai.google.dev/gemma/terms)\n- [gpt-oss-120b](https://huggingface.co/openai/gpt-oss-120b/blob/main/LICENSE)\n- [Kimi-k2.6](https://huggingface.co/moonshotai/Kimi-K2.6/blob/main/LICENSE)\n- [Llama-3.1-70B](https://ollama.com/library/llama3:70b/blobs/4fa551d4f938)\n- [Llama-3.1-405B](https://ollama.com/library/llama3.1:405b/blobs/0ba8f0e314b4)\n- [MiniMax-M2.7](https://github.com/MiniMax-AI/MiniMax-M2.7/blob/main/LICENSE)\n- [Qwen3-32B](https://huggingface.co/Qwen/Qwen3-32B/blob/main/LICENSE)\n- [Qwen3-235B](https://huggingface.co/Qwen/Qwen3-235B-A22B/blob/main/LICENSE)",
+      "content_after": "# Model licenses\n- [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1/blob/main/LICENSE)\n- [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3/blob/main/LICENSE-MODEL)\n- [DeepSeek-V4-Flash](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731/blob/main/LICENSE)\n- [Gemma-3-27B](https://ai.google.dev/gemma/terms)\n- [gpt-oss-120b](https://huggingface.co/openai/gpt-oss-120b/blob/main/LICENSE)\n- [Kimi-k2.6](https://huggingface.co/moonshotai/Kimi-K2.6/blob/main/LICENSE)\n- [Llama-3.1-70B](https://ollama.com/library/llama3:70b/blobs/4fa551d4f938)\n- [Llama-3.1-405B](https://ollama.com/library/llama3.1:405b/blobs/0ba8f0e314b4)\n- [MiniMax-M2.7](https://github.com/MiniMax-AI/MiniMax-M2.7/blob/main/LICENSE)\n- [Qwen3-32B](https://huggingface.co/Qwen/Qwen3-32B/blob/main/LICENSE)\n- [Qwen3-"
+    },
+    "ai_description": "The Protocol Docs have been updated to include the license for DeepSeek-V4-Flash, expanding the network's supported model documentation. This addition helps operators and developers stay informed about the terms governing the latest integrated model.  The Protocol Docs have been updated to include the license for DeepSeek-V4-Flash, expanding the network's supported model documentation. This addition helps operators and developers stay informed about the terms governing the latest integrated model."
+  },
+  {
     "id": "evt_20260814211830_61168750",
     "timestamp": "2026-08-14T21:18:30.979712+00:00",
     "section": "gonka_docs",

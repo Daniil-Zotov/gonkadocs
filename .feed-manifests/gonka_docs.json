@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-08-14T21:19:29.461128+00:00",
+  "snapshot_time": "2026-08-14T22:15:20.390552+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -191,8 +191,8 @@
     "host/deepseek-bootstrap.md": {
       "title": "DeepSeek V4 Flash Bootstrap",
       "status": null,
-      "content_preview": "# DeepSeek V4 Flash Bootstrap\n\n`deepseek-ai/DeepSeek-V4-Flash-0731` is added as a new governance-approved PoC model by [proposal 94](../network-updates.md#august-10-2026). This document explains how to minimize the chance of weight reductions during bootstrap, whether or not the model gets enough participants in its first attempt.\n\nFor the wider context of multi-model PoC mechanics, see [Multi-Model PoC](./multi_model_poc.md). Previous model bootstraps and their mechanics are documented in [Kimi K2.6 Bootstrap](./kimi-bootstrap.md) and [MiniMax-M2.7 Bootstrap](./minimax-bootstrap.md).\n\n!!! note\n    The bootstrap can take multiple epochs, depending on how many participants are ready. Before the configured punishment epoch, no weight reduction happens if participants submit their choice expl",
-      "checksum": "d039482ae0d606c66a4c32bcb85ce8a6de363a4b617b08b136904992b53a39b0"
+      "content_preview": "# DeepSeek V4 Flash Bootstrap\n\n`deepseek-ai/DeepSeek-V4-Flash-0731` has **passed bootstrap** and is **active** in Proof of Compute on Gonka mainnet as of chain epoch 360 ([proposal 94](../network-updates.md#august-10-2026)). The timeline and transaction examples below remain useful for understanding how activation worked and for operations such as delegation; for current deployment defaults (including `node-config.json`), see the [Host Quickstart](./quickstart.md).\n\nFor the wider context of multi-model PoC mechanics, see [Multi-Model PoC](./multi_model_poc.md). Previous model bootstraps and their mechanics are documented in [Kimi K2.6 Bootstrap](./kimi-bootstrap.md) and [MiniMax-M2.7 Bootstrap](./minimax-bootstrap.md).\n\n!!! note\n    The bootstrap can take multiple epochs, depending on how ",
+      "checksum": "b35cbb181aa803e8f8df0e099b3ab0cb079c12aa015dca24b209bbeba3b94446"
     },
     "host/genesis.md": {
       "title": "Gonka Genesis Ceremony",
@@ -234,25 +234,25 @@
       "title": "ML Node Management",
       "status": null,
       "content_preview": "# ML Node Management\n\nThis guide explains how to manage inference nodes (ML Nodes) connected to your Network Node using the **Admin API**.\n\nYou will learn how to:\n\n- Add a new ML Node\n- Add multiple ML Nodes in a single batch\n- Update an existing ML Node\n- Enable or disable an ML Node\n- Delete an ML Node\n- List all configured ML Nodes\n\nAll operations are performed against the Network Node’s Admin API and do **not** require a chain transaction. Changes take effect immediately at the Network Node level.\n\n## ML Node Definition\n\nEach ML Node registered with the Network Node is represented by a JSON object with the following key fields:\n\n- `id` – **Unique identifier** for the ML Node (string).\n- `host` – **Static IP or DNS** of the ML Node, or the **Docker container name** if running in the sam",
-      "checksum": "ff67a25153be8a2bf022f621a020a8609ce3060191a6875df7eab2a68b4ca69d"
+      "checksum": "e320b4e91c53af22648ed33bfd2906e0f2f83ce6008c7f9e401cea5346840dbc"
     },
     "host/mlnode-validation.md": {
       "title": "Validate ML Node Deployment",
       "status": null,
       "content_preview": "# Validate ML Node Deployment\n\nThe [`gonka` repo](https://github.com/gonka-ai/gonka) ships an agent skill called `mlnode-validate` that validates a deployed ML Node against pre-computed honest PoC vectors for a specific model. The skill is self-contained inside the repo (no external code, no callback receiver).\n\nThe skill is the contract; this page is a pointer. The single source of truth is [`skills/mlnode-validate/SKILL.md`](https://github.com/gonka-ai/gonka/blob/main/skills/mlnode-validate/SKILL.md) — required / optional inputs, deploy-config rules, golden-reference list, pass criteria, failure modes, and the report template.\n\nThe skill is implemented by two Python scripts under `mlnode/packages/benchmarks/scripts/poc_validation/`:\n\n- `validate.py` — the main entry point (download → dep",
-      "checksum": "62edfda95e213ed80d39fb464e2ce4b1e6b5a3120771b615cc7b92953ade61d1"
+      "checksum": "8fa561ee28f1192d72b06df7429a733095434fc6aaa6f1ac863e16766b23f5f8"
     },
     "host/multi_model_poc.md": {
       "title": "Multi-Model PoC — Host Operations Guide",
       "status": null,
       "content_preview": "# Multi-Model PoC — Host Operations Guide\n\nMulti-model Proof-of-Compute (PoC) arrived in v0.2.12 and expanded again in v0.2.13.\n\n!!! warning \"Delegation guidance update (July 2026)\"\n\n    After the epoch 328–329 incident, two rules apply when choosing a delegate:\n\n    - **Do not delegate to guardian nodes.** Guardians are the fallback mechanism\n      for PoC validation. Concentrating delegations on them ties the primary\n      voting mechanism and the fallback to the same hardware, so both fail\n      together. Earlier guidance that suggested a guardian node as a delegation\n      target is withdrawn. A protocol-level restriction is planned for v0.2.14.\n    - **Avoid concentrating delegations on any single host.** A delegation only\n      counts if the delegate submits a PoC store commit that e",
-      "checksum": "7996ad411c8a1d7a967d7fdd54e25a460b60c35eee5eb3239f42386ab5406933"
+      "checksum": "139ebc845e37034ec943007be680cebe09b2a041d3b6c81c5e387b42bf3c6e8b"
     },
     "host/multiple-nodes.md": {
       "title": "Multiple nodes",
       "status": null,
       "content_preview": "# Multiple nodes\n\nIn this setup, you deploy the network node and one or more inference (ML) nodes across multiple servers. To join the network, you need to deploy two services:\n\n- **Network node** – a service consisting of two nodes: a **chain node** and an **API node**. This service handles all communication. The **chain node** connects to the blockchain, while the **API node** manages user requests.\n- **Inference (ML) node** – a service that performs inference of large language models (LLMs) on GPU(s). You need at least one **ML node** to join the network.\n\nThe guide provides instructions for deploying both services on the same machine as well as on different machines. Services are deployed as Docker containers.\n\n## Starting the network and inference node\nThis section describes how to de",
-      "checksum": "9f546b5192fea7dce05dadb2b09e597a1a18f542df7c9c395c5c6623644c4dde"
+      "checksum": "f1f892fa95beb258f590bca37c2b46539a2317e173123f5f92c9dba30b6a8597"
     },
     "host/network-node-api.md": {
       "title": "Network Node API",
@@ -276,7 +276,7 @@
       "title": "Setting up your chain",
       "status": null,
       "content_preview": "# Setting up your chain \n\n**Host** (**hardware provider** or **node**) contributes computational resources to the network and is rewarded based on the amount and quality of resources they provide.\n\nTo join the network, you need to deploy two services:\n\n- **Network Node** – a service consisting of two nodes: a **Chain Node** and an **API Node**. This service handles all communication. The **Chain Node** connects to the blockchain, while the **API Node** manages user requests.\n- **Inference (ML) node** – a service that performs inference of large language models (LLMs) on GPU(s). You need at least one **ML Node** to join the network.\n\nThe guide describes a scenario in which both services are deployed on the same machine, and each Host has one ML Node. Services are deployed as Docker containe",
-      "checksum": "65528b1bcf9255a84d5874ae4e460a28be44dd2720d4ee56f5fe3d0c5236dbf6"
+      "checksum": "1c7b73f559af9ad9cb587c5a3808c26df9afbe7491da4bc20cde6ab349575c41"
     },
     "introduction.md": {
       "title": "introduction",
@@ -293,8 +293,8 @@
     "model-licenses.md": {
       "title": "Model licenses",
       "status": null,
-      "content_preview": "# Model licenses\n- [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1/blob/main/LICENSE)\n- [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3/blob/main/LICENSE-MODEL)\n- [Gemma-3-27B](https://ai.google.dev/gemma/terms)\n- [gpt-oss-120b](https://huggingface.co/openai/gpt-oss-120b/blob/main/LICENSE)\n- [Kimi-k2.6](https://huggingface.co/moonshotai/Kimi-K2.6/blob/main/LICENSE)\n- [Llama-3.1-70B](https://ollama.com/library/llama3:70b/blobs/4fa551d4f938)\n- [Llama-3.1-405B](https://ollama.com/library/llama3.1:405b/blobs/0ba8f0e314b4)\n- [MiniMax-M2.7](https://github.com/MiniMax-AI/MiniMax-M2.7/blob/main/LICENSE)\n- [Qwen3-32B](https://huggingface.co/Qwen/Qwen3-32B/blob/main/LICENSE)\n- [Qwen3-235B](https://huggingface.co/Qwen/Qwen3-235B-A22B/blob/main/LICENSE)",
-      "checksum": "3e28eb6f9e91842c730e66ec34af9227016d7e10a4aaef832e6aa059ddb43f01"
+      "content_preview": "# Model licenses\n- [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1/blob/main/LICENSE)\n- [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3/blob/main/LICENSE-MODEL)\n- [DeepSeek-V4-Flash](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731/blob/main/LICENSE)\n- [Gemma-3-27B](https://ai.google.dev/gemma/terms)\n- [gpt-oss-120b](https://huggingface.co/openai/gpt-oss-120b/blob/main/LICENSE)\n- [Kimi-k2.6](https://huggingface.co/moonshotai/Kimi-K2.6/blob/main/LICENSE)\n- [Llama-3.1-70B](https://ollama.com/library/llama3:70b/blobs/4fa551d4f938)\n- [Llama-3.1-405B](https://ollama.com/library/llama3.1:405b/blobs/0ba8f0e314b4)\n- [MiniMax-M2.7](https://github.com/MiniMax-AI/MiniMax-M2.7/blob/main/LICENSE)\n- [Qwen3-32B](https://huggingface.co/Qwen/Qwen3-32B/blob/main/LICENSE)\n- [Qwen3-",
+      "checksum": "7eb7ebf790cd61dfe20fd617e488a2ab2103f2e0ab682a3627843fdb599024ad"
     },
     "network-updates.md": {
       "title": "Announcements",
