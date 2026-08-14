@@ -9,15 +9,15 @@
 <div class="cal-wrap">
   <p class="cal-lead">Community events: proposals, committee calls, AMAs, network upgrades.</p>
 
-  <div style="display:flex;gap:0.75rem;margin:0 0 1.25rem;flex-wrap:wrap">
-    <a href="https://calendar.google.com/calendar/render?cid=WEBCAL://gonkadocs.com/community/calendar/gonka-events.ics" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:0.4rem;background:var(--md-accent-fg-color);color:#fff;border-radius:6px;padding:0.55rem 1rem;font-size:0.85rem;text-decoration:none;transition:opacity 0.15s">
-      <span>📅</span> Subscribe via Google Calendar
+  <div class="cal-sub">
+    <a class="cal-sub__btn cal-sub__btn--primary" href="https://calendar.google.com/calendar/render?cid=WEBCAL://gonkadocs.com/community/calendar/gonka-events.ics" target="_blank" rel="noopener">
+      <span class="cal-sub__icon" aria-hidden="true">📅</span> Subscribe via Google Calendar
     </a>
-    <a href="webcal://gonkadocs.com/community/calendar/gonka-events.ics" style="display:inline-flex;align-items:center;gap:0.4rem;background:var(--md-code-bg-color);border:1px solid var(--md-default-fg-color--lightest);border-radius:6px;padding:0.55rem 1rem;font-size:0.85rem;color:var(--md-default-fg-color);text-decoration:none;transition:border-color 0.15s">
-      <span>📲</span> Subscribe (Apple/Outlook)
+    <a class="cal-sub__btn" href="webcal://gonkadocs.com/community/calendar/gonka-events.ics">
+      <span class="cal-sub__icon" aria-hidden="true">📲</span> Subscribe (Apple/Outlook)
     </a>
-    <a href="{{ base_url }}/community/calendar/gonka-events.ics" download style="display:inline-flex;align-items:center;gap:0.4rem;background:var(--md-code-bg-color);border:1px solid var(--md-default-fg-color--lightest);border-radius:6px;padding:0.55rem 1rem;font-size:0.85rem;color:var(--md-default-fg-color);text-decoration:none;transition:border-color 0.15s">
-      <span>📥</span> Download .ics
+    <a class="cal-sub__btn" href="{{ base_url }}/community/calendar/gonka-events.ics" download>
+      <span class="cal-sub__icon" aria-hidden="true">📥</span> Download .ics
     </a>
   </div>
 

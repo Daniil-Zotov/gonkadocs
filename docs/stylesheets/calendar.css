@@ -15,6 +15,67 @@
   line-height: 1.45;
 }
 
+/* ── subscribe buttons ───────────────────────────────── */
+
+.cal-sub {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin: 0 0 1.25rem;
+}
+
+.cal-sub__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.5rem 0.9rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--md-default-fg-color);
+  background: var(--md-code-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.cal-sub__btn:hover {
+  border-color: var(--md-accent-fg-color);
+  color: var(--md-default-fg-color);
+}
+
+.cal-sub__btn:active {
+  transform: translateY(1px);
+}
+
+.cal-sub__btn:focus-visible {
+  outline: 2px solid var(--md-accent-fg-color);
+  outline-offset: 2px;
+}
+
+.cal-sub__icon {
+  font-size: 0.85rem;
+  line-height: 1;
+}
+
+.cal-sub__btn--primary {
+  color: #ffffff;
+  background: var(--md-accent-fg-color);
+  border-color: var(--md-accent-fg-color);
+}
+
+.cal-sub__btn--primary:hover {
+  background: var(--md-accent-fg-color);
+  filter: brightness(0.96);
+  border-color: var(--md-accent-fg-color);
+}
+
+[data-md-color-scheme="slate"] .cal-sub__btn {
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
 /* ── filters ──────────────────────────────────────────── */
 
 .cal-filters {
