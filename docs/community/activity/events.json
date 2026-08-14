@@ -1,5 +1,49 @@
 [
   {
+    "id": "evt_20260814011318_aadee517",
+    "timestamp": "2026-08-14T01:13:18.544505+00:00",
+    "section": "calendar",
+    "action": "daily_reminder",
+    "item": {
+      "title": "Today: 1 events — Voting ends: #95 – Migrate community-sale and wrapped-token contracts",
+      "url": "/community/calendar/",
+      "file": null
+    },
+    "details": {
+      "today": [
+        {
+          "title": "Voting ends: #95 – Migrate community-sale and wrapped-token contracts",
+          "date": "2026-08-14",
+          "time": "12:01 UTC",
+          "event_type": "proposal_vote_end",
+          "url": "/proposals/proposals/2026-q3/95/"
+        }
+      ],
+      "count": 1
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260814011318_d7382c2f",
+    "timestamp": "2026-08-14T01:13:18.451638+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Voting ends: #95 – Migrate community-sale and wrapped-token contracts",
+      "url": "/proposals/proposals/2026-q3/95/",
+      "file": "326b1a77da65420f14b2dfb31cfe3ece278c8e4571ffdb208defa82199dd8e5e"
+    },
+    "details": {
+      "status": null,
+      "content": "Migrate the live community-sale contract and all wrapped-token instances to newly stored CosmWasm code, and register that wrapped-token code for future instantiations. Contract addresses and balances …",
+      "date": "2026-08-14",
+      "time": "12:01 UTC",
+      "event_type": "proposal_vote_end",
+      "url": "/proposals/proposals/2026-q3/95/"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260813175222_0c9bf4a9",
     "timestamp": "2026-08-13T17:52:22.912853+00:00",
     "section": "gonka_docs",
