@@ -2,7 +2,7 @@
 title: "#1321 — Gateway allowlist request"
 source: https://github.com/gonka-ai/gonka/issues/1321
 issue_number: 1321
-synced_at: 2026-08-14T05:09:58Z
+synced_at: 2026-08-14T06:48:18Z
 template: issues-main.html
 ---
 

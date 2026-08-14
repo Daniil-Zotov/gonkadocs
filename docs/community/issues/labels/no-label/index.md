@@ -6,7 +6,7 @@ template: issues-main.html
 # Issues: no-label
 
 Issues with label **no-label**. Total: **249**.
-Updated: `2026-08-14 05:11 UTC`.
+Updated: `2026-08-14 06:51 UTC`.
 
 [← All Issues](../../index.md)
 
@@ -21,7 +21,7 @@ Updated: `2026-08-14 05:11 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/safal207">@safal207</a> opened 1 hour ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/safal207">@safal207</a> opened 2 hours ago</span>
       
     </div>
   </div>
@@ -36,7 +36,7 @@ Updated: `2026-08-14 05:11 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/safal207">@safal207</a> opened 15 hours ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/safal207">@safal207</a> opened 17 hours ago</span>
       
     </div>
   </div>
@@ -141,7 +141,7 @@ Updated: `2026-08-14 05:11 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 12 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 13 days ago</span>
       
     </div>
   </div>
@@ -246,7 +246,7 @@ Updated: `2026-08-14 05:11 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/alancapex">@alancapex</a> opened 21 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/alancapex">@alancapex</a> opened 22 days ago</span>
       
     </div>
   </div>
@@ -276,7 +276,7 @@ Updated: `2026-08-14 05:11 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/knyazev741">@knyazev741</a> opened 23 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/knyazev741">@knyazev741</a> opened 24 days ago</span>
       
     </div>
   </div>
