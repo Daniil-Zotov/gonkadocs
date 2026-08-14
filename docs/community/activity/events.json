@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260814051137_172d80c3",
+    "timestamp": "2026-08-14T05:11:37.558844+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1593 — Verification note: timeout/retry terminalization depends on protocol-time, not wall-clock time",
+      "url": "/community/issues/01593-verification-note-timeoutretry-terminalization-depends-on-pr/",
+      "file": "01593-verification-note-timeoutretry-terminalization-depends-on-pr.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Verification note: timeout/retry terminalization depends on protocol-time, not wall-clock time\n    <span class=\"issues-number\">#1593</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/safal207\">@safal207</a> opened 2026-08-14 03:59 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" styl"
+    },
+    "ai_description": "A new issue has been opened by @safal207 to clarify that timeout and retry terminalization logic is based on protocol-time rather than wall-clock time. This distinction is important for the community because it affects how verification handles network delays and consensus timing. Be sure to review the details if you are working on verification or node reliability."
+  },
+  {
     "id": "evt_20260814011759_c87dacf1",
     "timestamp": "2026-08-14T01:17:59.535462+00:00",
     "section": "gonka_docs",
