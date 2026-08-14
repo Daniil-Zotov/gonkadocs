@@ -18963,7 +18963,7 @@ decentralized mixture-of-experts."
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-08-14 10:54 UTC
+2026-08-14 11:40 UTC
 
 ---
 
@@ -26654,8 +26654,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-08-14
   
   Migrate the live community-sale contract and all wrapped-token instances to newly stored CosmWasm code, and register that wrapped-token code for future instantiations. Contract addresses and balances …
-  Yes 82.4% (11,361) · No 9.5% (1,312) · Veto 0.0% (0) · Abstain 8.1% (1,119)
-  ✗ Turnout 2.5% (13,792 / 554,181) · Quorum 25% (138,545)
+  Yes 67.8% (11,361) · No 7.8% (1,312) · Veto 0.0% (0) · Abstain 24.3% (4,074)
+  ✗ Turnout 3.0% (16,747 / 554,181) · Quorum 25% (138,545)
 
   
     #94 – Add DeepSeek V4 Flash 0731
@@ -27716,7 +27716,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-94 proposals across 5 quarters. Last updated: 2026-08-14 11:20 UTC
+94 proposals across 5 quarters. Last updated: 2026-08-14 11:40 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -64774,8 +64774,8 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-08-14
   
   Migrate the live community-sale contract and all wrapped-token instances to newly stored CosmWasm code, and register that wrapped-token code for future instantiations. Contract addresses and balances …
-  Yes 82.4% (11,361) · No 9.5% (1,312) · Veto 0.0% (0) · Abstain 8.1% (1,119)
-  ✗ Turnout 2.5% (13,792 / 554,181) · Quorum 25% (138,545)
+  Yes 67.8% (11,361) · No 7.8% (1,312) · Veto 0.0% (0) · Abstain 24.3% (4,074)
+  ✗ Turnout 3.0% (16,747 / 554,181) · Quorum 25% (138,545)
 
   
     #94 – Add DeepSeek V4 Flash 0731
@@ -70853,12 +70853,12 @@ Migrate the live community-sale contract and all wrapped-token instances to newl
     
   
   
-    Yes 82.4% (11,361)
-    No 9.5% (1,312)
+    Yes 67.8% (11,361)
+    No 7.8% (1,312)
     Veto 0.0% (0)
-    Abstain 8.1% (1,119)
-    Total 13,792 votes
-    ✗ Turnout 2.5% (13,792 / 554,181) · Quorum 25% (138,545)
+    Abstain 24.3% (4,074)
+    Total 16,747 votes
+    ✗ Turnout 3.0% (16,747 / 554,181) · Quorum 25% (138,545)
   
 
 Voters
@@ -70868,6 +70868,7 @@ VoterVote
 gonka1qh2qe4…yy3k5fNo 100.0%
 gonka1p2lhgn…k6h26mYes 100.0%
 gonka1z5vtvu…jwzxa4Yes 100.0%
+gonka1ym3np7…0e4a2pAbstain 100.0%
 gonka1xwkesa…lcktdsYes 100.0%
 gonka18xeqns…whyn0dYes 100.0%
 gonka1830lqu…pasz0yYes 100.0%
