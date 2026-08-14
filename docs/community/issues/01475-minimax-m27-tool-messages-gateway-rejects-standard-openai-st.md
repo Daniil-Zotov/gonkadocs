@@ -2,7 +2,7 @@
 title: "#1475 — MiniMax-M2.7 tool messages: gateway rejects standard OpenAI string content instead of normalizing it"
 source: https://github.com/gonka-ai/gonka/issues/1475
 issue_number: 1475
-synced_at: 2026-08-14T06:47:53Z
+synced_at: 2026-08-14T08:40:27Z
 template: issues-main.html
 ---
 
