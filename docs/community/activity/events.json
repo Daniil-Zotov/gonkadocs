@@ -17,7 +17,7 @@
       "event_type": "proposal_vote_end",
       "url": "/proposals/proposals/2026-q3/95/"
     },
-    "ai_description": null
+    "ai_description": "A new calendar event has been added for the upcoming voting deadline on proposal 95, which proposes migrating the live community-sale contract and all wrapped-token instances to newly stored CosmWasm code. Make sure to cast your vote before the period closes, as this upgrade will register the new wrapped-token code for future use and impact core contract infrastructure."
   },
   {
     "id": "evt_20260814103420_aa25b6a8",
