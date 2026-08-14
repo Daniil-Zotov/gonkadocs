@@ -26651,7 +26651,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   
   
     Submitted 2026-08-14
-    Voting ends 2026-08-14
+    Voting ends 2026-08-16
   
   Migrate the live community-sale contract and all wrapped-token instances to newly stored CosmWasm code, and register that wrapped-token code for future instantiations. Contract addresses and balances …
   Yes 67.8% (11,361) · No 7.8% (1,312) · Veto 0.0% (0) · Abstain 24.3% (4,074)
@@ -27716,7 +27716,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-94 proposals across 5 quarters. Last updated: 2026-08-14 11:40 UTC
+94 proposals across 5 quarters. Last updated: 2026-08-14 12:40 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -64771,7 +64771,7 @@ $90,075 USDT · Bounty Reward
   
   
     Submitted 2026-08-14
-    Voting ends 2026-08-14
+    Voting ends 2026-08-16
   
   Migrate the live community-sale contract and all wrapped-token instances to newly stored CosmWasm code, and register that wrapped-token code for future instantiations. Contract addresses and balances …
   Yes 67.8% (11,361) · No 7.8% (1,312) · Veto 0.0% (0) · Abstain 24.3% (4,074)
@@ -70832,9 +70832,7 @@ Voting
 
 **Submit:** 2026-08-14 00:01 UTC
 
-**Voting:** 2026-08-14 00:01 UTC → 2026-08-14 12:01 UTC
-
-**Expedited:** Yes
+**Voting:** 2026-08-14 00:01 UTC → 2026-08-16 00:01 UTC
 
 **Proposer:** [`gonka1xhjakeqrm69fvdm38e0rh0suy0kzc4m2ruwlhp`](https://gonka.gg/address/gonka1xhjakeqrm69fvdm38e0rh0suy0kzc4m2ruwlhp){:target="_blank"}
 
