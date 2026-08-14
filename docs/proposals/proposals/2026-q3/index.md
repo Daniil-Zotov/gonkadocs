@@ -57,15 +57,15 @@ hide:
 <div class="prop-quarter">
 <h2>2026-Q3</h2>
 <p>16 proposals</p>
-<div class="prop-card" data-status="prop-voting" data-voting-end="2026-08-14T12:01:21.830543380Z">
+<div class="prop-card" data-status="prop-voting" data-voting-end="2026-08-16T00:01:21.830543380Z">
   <div class="prop-card-header">
     <a href="95/" class="prop-card-title">#95 – Migrate community-sale and wrapped-token contracts</a>
-    <span class="prop-vote-countdown" data-deadline="2026-08-14T12:01:21.830543380Z"></span>
+    <span class="prop-vote-countdown" data-deadline="2026-08-16T00:01:21.830543380Z"></span>
     <span class="prop-badge prop-voting">Voting</span>
   </div>
   <div class="prop-card-meta">
     <span>Submitted 2026-08-14</span>
-    <span>Voting ends 2026-08-14</span>
+    <span>Voting ends 2026-08-16</span>
   </div>
   <div class="prop-card-desc">Migrate the live community-sale contract and all wrapped-token instances to newly stored CosmWasm code, and register that wrapped-token code for future instantiations. Contract addresses and balances …</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>67.8%</strong> (11,361)</span> · <span class="prop-tally-no-text">No <strong>7.8%</strong> (1,312)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>24.3%</strong> (4,074)</span></div>

@@ -8,7 +8,7 @@ template: proposals-proposals-main.html
 
 <div class="prop-detail-header" markdown="1">
 
-<div class="prop-badge-row"><span class="prop-badge prop-voting">Voting</span><span class="prop-vote-countdown prop-vote-countdown-detail" data-deadline="2026-08-14T12:01:21.830543380Z"></span></div>
+<div class="prop-badge-row"><span class="prop-badge prop-voting">Voting</span><span class="prop-vote-countdown prop-vote-countdown-detail" data-deadline="2026-08-16T00:01:21.830543380Z"></span></div>
 
 **Proposal ID:** `95`
 
@@ -16,9 +16,7 @@ template: proposals-proposals-main.html
 
 **Submit:** 2026-08-14 00:01 UTC
 
-**Voting:** 2026-08-14 00:01 UTC → 2026-08-14 12:01 UTC
-
-**Expedited:** Yes
+**Voting:** 2026-08-14 00:01 UTC → 2026-08-16 00:01 UTC
 
 **Proposer:** [`gonka1xhjakeqrm69fvdm38e0rh0suy0kzc4m2ruwlhp`](https://gonka.gg/address/gonka1xhjakeqrm69fvdm38e0rh0suy0kzc4m2ruwlhp){:target="_blank"}
 
