@@ -37,18 +37,18 @@ Migrate the live community-sale contract and all wrapped-token instances to newl
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:0.5%"></div>
+    <div class="prop-tally-yes" style="width:2.1%"></div>
     <div class="prop-tally-no" style="width:0.2%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:0.2%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes <strong>54.2%</strong> (2,879)</span>
-    <span class="prop-tally-no-text">No <strong>24.7%</strong> (1,312)</span>
+    <span class="prop-tally-yes-text">Yes <strong>82.4%</strong> (11,361)</span>
+    <span class="prop-tally-no-text">No <strong>9.5%</strong> (1,312)</span>
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-abstain-text">Abstain <strong>21.1%</strong> (1,119)</span>
-    <span class="prop-tally-total-text">Total 5,310 votes</span>
-    <span class="prop-tally-veto-text">✗ Turnout <strong>1.0%</strong> (5,310 / 554,181) · Quorum <strong>25%</strong> (138,545)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>8.1%</strong> (1,119)</span>
+    <span class="prop-tally-total-text">Total 13,792 votes</span>
+    <span class="prop-tally-veto-text">✗ Turnout <strong>2.5%</strong> (13,792 / 554,181) · Quorum <strong>25%</strong> (138,545)</span>
   </div>
 </div>
 
@@ -62,7 +62,12 @@ Migrate the live community-sale contract and all wrapped-token instances to newl
 <tbody>
 <tr><td><a href="https://gonka.gg/address/gonka1qh2qe4y988c92wl6l3mn0xp9dvzvnavayy3k5f" target="_blank" class="prop-voter-addr">gonka1qh2qe4…yy3k5f</a></td><td><span class="prop-voter-option prop-vote-no">No 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1p2lhgng7tcqju7emk989s5fpdr7k2c3ek6h26m" target="_blank" class="prop-voter-addr">gonka1p2lhgn…k6h26m</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
+<tr><td><a href="https://gonka.gg/address/gonka1z5vtvu3vv6jcvqzsk6k9kghunjstllyzjwzxa4" target="_blank" class="prop-voter-addr">gonka1z5vtvu…jwzxa4</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
+<tr><td><a href="https://gonka.gg/address/gonka1xwkesaxvdadh9wt9yyladu0r260s7whklcktds" target="_blank" class="prop-voter-addr">gonka1xwkesa…lcktds</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
+<tr><td><a href="https://gonka.gg/address/gonka18xeqnspxpg2vncufnjne485rkaagwvz7whyn0d" target="_blank" class="prop-voter-addr">gonka18xeqns…whyn0d</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
+<tr><td><a href="https://gonka.gg/address/gonka1830lqug50lse998x2lakk4pj5ypfumz5pasz0y" target="_blank" class="prop-voter-addr">gonka1830lqu…pasz0y</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1d7p03cu2y2yt3vytq9wlfm6tlz0lfhlgv9h82p" target="_blank" class="prop-voter-addr">gonka1d7p03c…v9h82p</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
+<tr><td><a href="https://gonka.gg/address/gonka1wknl635whfevh45stw0ethcm9hrw0jrvgeuytr" target="_blank" class="prop-voter-addr">gonka1wknl63…geuytr</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka10mmdjau4dnj8krs7sh7t7635ttnmq9u3vqgz09" target="_blank" class="prop-voter-addr">gonka10mmdja…vqgz09</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 37.0%</span> <span class="prop-voter-option prop-vote-no">No 34.0%</span> <span class="prop-voter-option prop-vote-abstain">Abstain 29.0%</span></td></tr>
 </tbody>
 </table>
