@@ -19363,25 +19363,25 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ## 🟢 Active Proposals
 
-2Active
-3Votes
-693.4K GNKTotal Bid
+1Active
+0Votes
+0Total Bid
 
 | Status | Title | Author | Votes | Avg. Bid | Closes |
 | :----- | :----- | :----- | ----: | -------: | :----- |
-| 🟢 | [Dev Team Funding @gmorgachev](./8a252390-79b4-4a43-b520-c3fc412ef642/) | Даниил Зотов | 3 | 231.1K GNK | 2026-08-14 |
 | 🟢 | [Game Hackaton AI](./165501de-189e-41c3-aad9-04bac872ef0d/) | Victor | 0 | 0.00 GNK | 2026-09-11 |
 
 ---
 
 ## 🔴 Expired Proposals
 
-35Expired
-31Votes
-2.3M GNKTotal Bid
+36Expired
+34Votes
+3.0M GNKTotal Bid
 
 | Status | Title | Author | Votes | Avg. Bid | Closed |
 | :----- | :----- | :----- | ----: | -------: | :----- |
+| 🔴 | [Dev Team Funding @gmorgachev](./8a252390-79b4-4a43-b520-c3fc412ef642/) | Даниил Зотов | 3 | 231.1K GNK | 2026-08-14 |
 | 🔴 | [Привлечение $3M+ нового капитала на Uniswap v2.0](./f341b83c-78f0-4ab2-b8fd-ddc7ac5d9c37/) | Andrey Orlov | 5 | 138.7K GNK | 2026-08-08 |
 | 🔴 | [Gonka × Omniverse Web3 Camp](./51625116-36cd-47ee-a176-d552d39f0376/) | George Omni | 2 | 0.00 GNK | 2026-08-08 |
 | 🔴 | [Привлечение $3M+ нового капитала на Uniswap](./e0cc7d32-5d1a-49e1-94e8-0ca3d9ccbf6b/) | Andrey Orlov | 5 | 138.7K GNK | 2026-08-02 |
@@ -19420,7 +19420,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-08-14 18:02 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-08-14 19:09 UTC*
 
 ---
 
@@ -22841,7 +22841,7 @@ qr.mint.dev@gmail.com
 
 # Dev Team Funding @gmorgachev
 
-🟢 Active
+🔴 Expired
 
 **Author:** Даниил Зотов
 **Created:** 2026-07-31 18:54 UTC
