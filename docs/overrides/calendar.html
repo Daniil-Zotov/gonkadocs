@@ -9,19 +9,23 @@
 <div class="cal-wrap">
   <p class="cal-lead">Community events: proposals, committee calls, AMAs, network upgrades.</p>
 
-  <div class="cal-sub">
-    <a class="cal-sub__btn cal-sub__btn--primary" href="https://calendar.google.com/calendar/render?cid=WEBCAL://gonkadocs.com/community/calendar/gonka-events.ics" target="_blank" rel="noopener">
-      <span class="cal-sub__icon" aria-hidden="true">📅</span> Subscribe via Google Calendar
-    </a>
-    <a class="cal-sub__btn" href="webcal://gonkadocs.com/community/calendar/gonka-events.ics">
-      <span class="cal-sub__icon" aria-hidden="true">📲</span> Subscribe (Apple/Outlook)
-    </a>
-    <a class="cal-sub__btn" href="{{ base_url }}/community/calendar/gonka-events.ics" download>
-      <span class="cal-sub__icon" aria-hidden="true">📥</span> Download .ics
-    </a>
-  </div>
+  <div class="cal-top">
+    <div class="cal-sub">
+      <a class="cal-sub__btn" href="https://calendar.google.com/calendar/render?cid=WEBCAL://gonkadocs.com/community/calendar/gonka-events.ics" target="_blank" rel="noopener">
+        <svg class="cal-sub__icon" aria-hidden="true" viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3.5" width="12" height="10.5" rx="1.5"/><path d="M2 6.5h12M5.5 2v2.5M10.5 2v2.5"/></svg>
+        Google Calendar
+      </a>
+      <a class="cal-sub__btn" href="webcal://gonkadocs.com/community/calendar/gonka-events.ics">
+        <svg class="cal-sub__icon" aria-hidden="true" viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M8 12V3.5M4.5 7 8 3.5 11.5 7"/></svg>
+        Apple / Outlook
+      </a>
+      <a class="cal-sub__btn" href="{{ base_url }}/community/calendar/gonka-events.ics" download>
+        <svg class="cal-sub__icon" aria-hidden="true" viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3.5V12M4.5 8.5 8 12l3.5-3.5"/></svg>
+        Download .ics
+      </a>
+    </div>
 
-  <div class="cal-filters" id="cal-filters">
+    <div class="cal-filters" id="cal-filters">
     <label class="cal-filter-cb">
       <input type="checkbox" class="cal-filter-input" value="governance" checked>
       <span class="cal-filter-dot gov"></span> Governance
