@@ -35,18 +35,18 @@ Migrate the live community-sale contract and all wrapped-token instances to newl
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:0.7%"></div>
+    <div class="prop-tally-yes" style="width:2.8%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (3,927)</span>
+    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (15,684)</span>
     <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-total-text">Total 3,927 votes</span>
-    <span class="prop-tally-veto-text">✗ Turnout <strong>0.7%</strong> (3,927 / 554,181) · Quorum <strong>25%</strong> (138,545)</span>
+    <span class="prop-tally-total-text">Total 15,684 votes</span>
+    <span class="prop-tally-veto-text">✗ Turnout <strong>2.8%</strong> (15,684 / 554,181) · Quorum <strong>25%</strong> (138,545)</span>
   </div>
 </div>
 
@@ -59,6 +59,8 @@ Migrate the live community-sale contract and all wrapped-token instances to newl
 <thead><tr><th>Voter</th><th>Vote</th></tr></thead>
 <tbody>
 <tr><td><a href="https://gonka.gg/address/gonka1tlvg4kjx7ljd5thgd5fkgh39q6lu8cmxupktgg" target="_blank" class="prop-voter-addr">gonka1tlvg4k…upktgg</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
+<tr><td><a href="https://gonka.gg/address/gonka1d694r00czmq75txghwjcuk07lxvc8d4ekgsha0" target="_blank" class="prop-voter-addr">gonka1d694r0…kgsha0</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
+<tr><td><a href="https://gonka.gg/address/gonka168rtjfkszuhcggg4dfyse4yh7xn9zwfglnkns2" target="_blank" class="prop-voter-addr">gonka168rtjf…lnkns2</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 </tbody>
 </table>
 </div>
