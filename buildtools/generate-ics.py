@@ -42,6 +42,25 @@ def _ics_line(name, value):
         return _fold_line(f"{name}:")
     return _fold_line(f"{name}:{value}")
 
+# Site root used to absolutize relative calendar URLs so that links open
+# correctly inside Google/Apple Calendar (they cannot resolve "/..." paths).
+SITE_BASE = "https://gonkadocs.com"
+
+def _abs_url(url):
+    """Return an absolute, externally-clickable URL for a calendar event.
+
+    Relative paths (e.g. "/proposals/proposals/2026-q2/60/") are prefixed with
+    the site root; already-absolute URLs (http/https/webcal) are returned as-is.
+    """
+    if not url:
+        return url
+    url = str(url).strip()
+    if url.startswith(("http://", "https://", "webcal://")):
+        return url
+    if url.startswith("/"):
+        return SITE_BASE + url
+    return url
+
 def _parse_time(date_str, time_str):
     m = re.match(r"(\d{1,2}):(\d{2})\s*UTC", str(time_str).strip(), re.I)
     if not m:
@@ -82,7 +101,7 @@ def generate(docs_dir):
     for ev in sorted(events, key=lambda e: (e.get("date", ""), e.get("time", ""))):
         title = ev.get("title", "Untitled")
         desc = ev.get("description", "")
-        url = ev.get("url", "")
+        url = _abs_url(ev.get("url", ""))
         event_type = ev.get("type", "")
         has_time = bool(str(ev.get("time", "")).strip())
         if "is_all_day" in ev:
