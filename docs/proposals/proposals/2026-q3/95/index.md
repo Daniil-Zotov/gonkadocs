@@ -1,0 +1,104 @@
+---
+title: "#95 – Migrate community-sale and wrapped-token contracts"
+description: "Migrate the live community-sale contract and all wrapped-token instances to newly stored CosmWasm code, and register that wrapped-token code for future instantiations. Contract addresses and balances "
+template: proposals-proposals-main.html
+---
+
+# #95 – Migrate community-sale and wrapped-token contracts
+
+<div class="prop-detail-header" markdown="1">
+
+<div class="prop-badge-row"><span class="prop-badge prop-voting">Voting</span><span class="prop-vote-countdown prop-vote-countdown-detail" data-deadline="2026-08-14T12:01:21.830543380Z"></span></div>
+
+**Proposal ID:** `95`
+
+**Type:** Migrate All Wrapped Tokens, Migrate Contract, Register Wrapped Token Contract
+
+**Submit:** 2026-08-14 00:01 UTC
+
+**Voting:** 2026-08-14 00:01 UTC → 2026-08-14 12:01 UTC
+
+**Expedited:** Yes
+
+**Proposer:** [`gonka1xhjakeqrm69fvdm38e0rh0suy0kzc4m2ruwlhp`](https://gonka.gg/address/gonka1xhjakeqrm69fvdm38e0rh0suy0kzc4m2ruwlhp){:target="_blank"}
+
+
+
+[View on gonka.gg](https://gonka.gg/network/proposals/95){:target="_blank"}
+
+</div>
+
+Migrate the live community-sale contract and all wrapped-token instances to newly stored CosmWasm code, and register that wrapped-token code for future instantiations. Contract addresses and balances are unchanged. No chain binary upgrade. This mitigates a theoretical risk identified in a security report and is not expected to affect normal operation.
+
+---
+
+## Final Tally
+
+
+<div class="prop-tally">
+  <div class="prop-tally-bar">
+    <div class="prop-tally-yes" style="width:0.0%"></div>
+    <div class="prop-tally-no" style="width:0.0%"></div>
+    <div class="prop-tally-veto" style="width:0.0%"></div>
+    <div class="prop-tally-abstain" style="width:0.0%"></div>
+  </div>
+  <div class="prop-tally-stats">
+    <span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span>
+    <span class="prop-tally-no-text">No <strong>100.0%</strong> (1)</span>
+    <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
+    <span class="prop-tally-total-text">Total 1 votes</span>
+    <span class="prop-tally-veto-text">✗ Turnout <strong>0.0%</strong> (1 / 540,693) · Quorum <strong>25%</strong> (135,173)</span>
+  </div>
+</div>
+
+
+
+<h2 id="voters">Voters</h2>
+
+<div class="prop-voters-wrap">
+<table class="prop-voters">
+<thead><tr><th>Voter</th><th>Vote</th></tr></thead>
+<tbody>
+<tr><td><a href="https://gonka.gg/address/gonka1qh2qe4y988c92wl6l3mn0xp9dvzvnavayy3k5f" target="_blank" class="prop-voter-addr">gonka1qh2qe4…yy3k5f</a></td><td><span class="prop-voter-option prop-vote-no">No 100.0%</span></td></tr>
+</tbody>
+</table>
+</div>
+
+---
+## Messages
+
+| # | Type |
+| :- | :--- |
+| 1 | `/cosmwasm.wasm.v1.MsgMigrateContract` |
+| 2 | `/inference.inference.MsgRegisterWrappedTokenContract` |
+| 3 | `/inference.inference.MsgMigrateAllWrappedTokens` |
+
+<details class="prop-contracts" markdown="1">
+<summary markdown="1">Contract Details</summary>
+
+```json
+[
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgMigrateContract",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "contract": "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2",
+    "code_id": "113",
+    "msg": {}
+  },
+  {
+    "@type": "/inference.inference.MsgRegisterWrappedTokenContract",
+    "authority": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "code_id": "114"
+  },
+  {
+    "@type": "/inference.inference.MsgMigrateAllWrappedTokens",
+    "authority": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "new_code_id": "114",
+    "migrate_msg_json": "{}",
+    "limit": 0
+  }
+]
+```
+
+</details>

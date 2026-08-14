@@ -7,6 +7,14 @@
     <language>en</language>
     <atom:link href="https://gonkadocs.com/proposals/proposals/proposals.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>#95 – Migrate community-sale and wrapped-token contracts</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q3/95/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q3/95/</guid>
+      <pubDate>Fri, 14 Aug 2026 00:01:21 +0000</pubDate>
+      <category>Voting</category>
+      <description>Migrate the live community-sale contract and all wrapped-token instances to newly stored CosmWasm code, and register that wrapped-token code for future instantiations. Contract addresses and balances are unchanged. No chain binary upgrade. This mitigates a theoretical risk identified in a security report and is not expected to affect normal operation.</description>
+    </item>
+    <item>
       <title>#94 – Add DeepSeek V4 Flash 0731</title>
       <link>https://gonkadocs.com/proposals/proposals/2026-q3/94/</link>
       <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q3/94/</guid>

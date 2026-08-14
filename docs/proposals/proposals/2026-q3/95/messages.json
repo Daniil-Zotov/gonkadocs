@@ -1,0 +1,21 @@
+[
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgMigrateContract",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "contract": "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2",
+    "code_id": "113",
+    "msg": {}
+  },
+  {
+    "@type": "/inference.inference.MsgRegisterWrappedTokenContract",
+    "authority": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "code_id": "114"
+  },
+  {
+    "@type": "/inference.inference.MsgMigrateAllWrappedTokens",
+    "authority": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "new_code_id": "114",
+    "migrate_msg_json": "{}",
+    "limit": 0
+  }
+]

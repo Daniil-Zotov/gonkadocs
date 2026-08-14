@@ -34,17 +34,18 @@ hide:
 ## 2026-Q3 Summary
 
 <div class="qs-stats">
-<div class="qs-stat total"><span class="qs-num">15</span><span class="qs-desc">Total Proposals</span></div>
-<div class="qs-stat passed"><span class="qs-num">10</span><span class="qs-desc">Passed (67%)</span></div>
-<div class="qs-stat rejected"><span class="qs-num">5</span><span class="qs-desc">Rejected (33%)</span></div>
+<div class="qs-stat total"><span class="qs-num">16</span><span class="qs-desc">Total Proposals</span></div>
+<div class="qs-stat passed"><span class="qs-num">10</span><span class="qs-desc">Passed (62%)</span></div>
+<div class="qs-stat rejected"><span class="qs-num">5</span><span class="qs-desc">Rejected (31%)</span></div>
 
 </div>
 
 <div class="qs-categories">
-<div class="qs-row"><span class="qs-label">Governance Parameters</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:47%"></span></span><span class="qs-value">7</span></div>
-<div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:33%"></span></span><span class="qs-value">5</span></div>
-<div class="qs-row"><span class="qs-label">Software Upgrade</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:13%"></span></span><span class="qs-value">2</span></div>
-<div class="qs-row"><span class="qs-label">GRC / Restitution</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:7%"></span></span><span class="qs-value">1</span></div>
+<div class="qs-row"><span class="qs-label">Governance Parameters</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:44%"></span></span><span class="qs-value">7</span></div>
+<div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:31%"></span></span><span class="qs-value">5</span></div>
+<div class="qs-row"><span class="qs-label">Software Upgrade</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:12%"></span></span><span class="qs-value">2</span></div>
+<div class="qs-row"><span class="qs-label">Other</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:6%"></span></span><span class="qs-value">1</span></div>
+<div class="qs-row"><span class="qs-label">GRC / Restitution</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:6%"></span></span><span class="qs-value">1</span></div>
 </div>
 
 <div class="qs-funding-line">80,000 GNK · $88,000 · Community Pool</div>
@@ -55,7 +56,22 @@ hide:
 
 <div class="prop-quarter">
 <h2>2026-Q3</h2>
-<p>15 proposals</p>
+<p>16 proposals</p>
+<div class="prop-card" data-status="prop-voting" data-voting-end="2026-08-14T12:01:21.830543380Z">
+  <div class="prop-card-header">
+    <a href="95/" class="prop-card-title">#95 – Migrate community-sale and wrapped-token contracts</a>
+    <span class="prop-vote-countdown" data-deadline="2026-08-14T12:01:21.830543380Z"></span>
+    <span class="prop-badge prop-voting">Voting</span>
+  </div>
+  <div class="prop-card-meta">
+    <span>Submitted 2026-08-14</span>
+    <span>Voting ends 2026-08-14</span>
+  </div>
+  <div class="prop-card-desc">Migrate the live community-sale contract and all wrapped-token instances to newly stored CosmWasm code, and register that wrapped-token code for future instantiations. Contract addresses and balances …</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span> · <span class="prop-tally-no-text">No <strong>100.0%</strong> (1)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>0.0%</strong> (1 / 540,693) · Quorum <strong>25%</strong> (135,173)</span></div>
+</div>
+
 <div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
     <a href="94/" class="prop-card-title">#94 – Add DeepSeek V4 Flash 0731</a>
