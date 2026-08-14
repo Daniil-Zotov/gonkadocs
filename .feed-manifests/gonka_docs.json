@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-08-13T23:34:00.356634+00:00",
+  "snapshot_time": "2026-08-14T01:18:28.779867+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -299,8 +299,8 @@
     "network-updates.md": {
       "title": "Announcements",
       "status": null,
-      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## August 13, 2026\n\n**Testing DeepSeek V4 Flash**\n\nDeepSeek is through the vote and into bootstrap — if you're planning to serve it, validate your setup and submit your intent now.\n\nEverything you need is on the [`vllm-0.25.1-upgrade` branch](https://github",
-      "checksum": "45e288e8be6f1c8f2d3adf70613d10a81a60394bf50538d59f6683557c5ac8b9"
+      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## August 13, 2026\n\n**Migrate community-sale and wrapped-token contracts**\n\nMigrate the live community-sale contract and all wrapped-token instances to newly stored CosmWasm code, and register that wrapped-token code for future instantiations. Contract addr",
+      "checksum": "8b02a550285c0b53ea326f09d02404d41abe5ac2ada94c05e87e1f00a7df32b8"
     },
     "participant/README.md": {
       "title": "Redirecting to Host Section",

@@ -10,6 +10,83 @@
 
 ## August 13, 2026
 
+**Migrate community-sale and wrapped-token contracts**
+
+Migrate the live community-sale contract and all wrapped-token instances to newly stored CosmWasm code, and register that wrapped-token code for future instantiations. Contract addresses and balances are unchanged. No chain binary upgrade. This mitigates a theoretical risk identified in a security report and is not expected to affect normal operation.
+Genesis guardians are expected to support the proposal.
+
+**How to vote**
+
+If you do not have direct access to the key that holds voting power, or want another key to vote on your behalf, please refer to [the guide](https://gonka.ai/FAQ/#what-should-i-do-if-i-cannot-vote-because-i-do-not-have-access-to-the-cold-key-or-if-i-want-another-key-to-vote-on-my-behalf) on granting governance voting permission from a cold key to a warm key.
+Proposal details and voting are available via `inferenced`. Any active node can be used. Available nodes include:
+
+- http://node1.gonka.ai:8000
+- http://node2.gonka.ai:8000
+- https://node3.gonka.ai
+  
+Cast your vote (`yes`, `no`, `abstain`, `no_with_veto`): The `--unordered` and `--timeout-duration` flags require `inferenced` from v0.2.12 or later.
+```
+export NODE_URL=https://node3.gonka.ai/
+./inferenced tx gov vote 95 yes \
+--from <cold_key_name> \
+--keyring-backend file \
+--unordered \
+--timeout-duration=60s --gas=2000000 --gas-adjustment=5.0 \
+--node $NODE_URL/chain-rpc/ \
+--chain-id gonka-mainnet \
+--yes
+```
+To check the voting status:
+```
+export NODE_URL=https://node3.gonka.ai/
+./inferenced query gov votes 95 -o json --node $NODE_URL/chain-rpc/
+```
+
+**Deadlines**
+
+- Voting ends: August 14, 2026, 12:01 UTC 
+- Estimated migration time: August 14, 2026, 12:01 UTC
+
+## August 13, 2026
+
+**DeepSeek V4 Flash bootstrap: intent threshold met — don’t forget to delegate before the epoch 360 snapshot**
+
+`deepseek-ai/DeepSeek-V4-Flash-0731` missed pre-eligibility at the epoch 359 snapshot. Since then, live intent and delegation weight already meet `V_min`, `W_threshold`, and **>2/3 reachability** (DeepSeek intent weight plus weight delegated to those hosts). The next **official** check is the epoch 360 bootstrap snapshot — keep diversified delegations in place until then so the snapshot holds.
+
+**Hosts that will run DeepSeek**
+
+1. Keep or submit `MsgDeclarePoCIntent` before block **5,551,615**:
+```
+./inferenced tx inference declare-poc-intent deepseek-ai/DeepSeek-V4-Flash-0731
+```
+2. If the model is pre-eligible, provision DeepSeek in the ~500-block deploy window before PoC start (block **5,552,115**). Use vLLM 0.25.1 + the release-candidate node config.
+
+**Hosts keeping another model**
+
+Before block **5,551,615**, submit a delegation (helps bootstrap reachability) or a refusal. From epoch **360**, DeepSeek `penalty_start_epoch` is active — hosts without an explicit choice risk the no-participation penalty.
+
+```
+./inferenced tx inference set-poc-delegation deepseek-ai/DeepSeek-V4-Flash-0731 <DELEGATEE>
+```
+
+or
+
+```
+./inferenced tx inference refuse-poc-delegation deepseek-ai/DeepSeek-V4-Flash-0731
+```
+
+Delegating hosts: pick **non-guardian** DeepSeek intent hosts and spread weight across independent targets — see the [Multi-Model PoC guide](https://gonka.ai/docs/host/multi_model_poc/).
+
+**Key timings**
+
+* Epoch 360 snapshot (`start_poc − deploy_window`): block **5,551,615** — around August 14, 2026 at 01:24 UTC
+* Epoch 360 PoC start: block **5,552,115** — around August 14, 2026 at 02:09 UTC
+* DeepSeek non-participation penalty starts at epoch **360**
+
+More on how the bootstrap works: [https://gonka.ai/docs/host/deepseek-bootstrap/](https://gonka.ai/docs/host/deepseek-bootstrap/)
+
+## August 13, 2026
+
 **Testing DeepSeek V4 Flash**
 
 DeepSeek is through the vote and into bootstrap — if you're planning to serve it, validate your setup and submit your intent now.
