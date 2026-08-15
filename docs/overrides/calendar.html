@@ -11,14 +11,24 @@
 
   <div class="cal-top">
     <div class="cal-sub">
-      <a class="cal-sub__btn" href="https://calendar.google.com/calendar/render?cid=WEBCAL://gonkadocs.com/community/calendar/gonka-events.ics" target="_blank" rel="noopener">
+      <a class="cal-sub__btn" href="https://calendar.google.com/calendar/render?cid=webcal://gonkadocs.com/community/calendar/gonka-events.ics" target="_blank" rel="noopener">
         <svg class="cal-sub__icon" aria-hidden="true" viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3.5" width="12" height="10.5" rx="1.5"/><path d="M2 6.5h12M5.5 2v2.5M10.5 2v2.5"/></svg>
         Google Calendar
       </a>
-      <a class="cal-sub__btn" href="webcal://gonkadocs.com/community/calendar/gonka-events.ics">
+      <a class="cal-sub__btn js-cal-apple" href="webcal://gonkadocs.com/community/calendar/gonka-events.ics" data-ics="https://gonkadocs.com/community/calendar/gonka-events.ics">
         <svg class="cal-sub__icon" aria-hidden="true" viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M8 12V3.5M4.5 7 8 3.5 11.5 7"/></svg>
         Apple / Outlook
       </a>
+      <div class="cal-apple-fallback" id="cal-apple-fallback" hidden>
+        <button type="button" class="cal-apple-fallback__close" aria-label="Close">&times;</button>
+        <p class="cal-apple-fallback__title">Add to Apple Calendar manually</p>
+        <p class="cal-apple-fallback__text">If the calendar did not open automatically, subscribe via <strong>Calendar</strong> &rarr; <em>File</em> &rarr; <em>New Calendar Subscription&hellip;</em>, then paste:</p>
+        <div class="cal-apple-fallback__row">
+          <code class="cal-apple-fallback__url" id="cal-apple-url">https://gonkadocs.com/community/calendar/gonka-events.ics</code>
+          <button type="button" class="cal-sub__btn" id="cal-apple-copy">Copy</button>
+          <a class="cal-sub__btn" href="https://gonkadocs.com/community/calendar/gonka-events.ics" download>Download .ics</a>
+        </div>
+      </div>
       <a class="cal-sub__btn" href="{{ base_url }}/community/calendar/gonka-events.ics" download>
         <svg class="cal-sub__icon" aria-hidden="true" viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3.5V12M4.5 8.5 8 12l3.5-3.5"/></svg>
         Download .ics
@@ -371,6 +381,53 @@
       if (window._calEvents) render(window._calEvents);
     });
   });
+
+  // Apple / Outlook subscribe: webcal:// is not handled by some macOS
+  // browsers (notably Chrome), so clicking it can do nothing. Attempt the
+  // handoff as usual, but surface a reliable manual subscription fallback.
+  var APPLE_BTN = document.querySelector('.js-cal-apple');
+  var APPLE_FALLBACK = document.getElementById('cal-apple-fallback');
+  var APPLE_COPY = document.getElementById('cal-apple-copy');
+  var APPLE_URL = document.getElementById('cal-apple-url');
+  var APPLE_CLOSE = APPLE_FALLBACK && APPLE_FALLBACK.querySelector('.cal-apple-fallback__close');
+
+  if (APPLE_BTN && APPLE_FALLBACK) {
+    APPLE_BTN.addEventListener('click', function() {
+      // Show the manual-subscription helper in every case; webcal handoff may
+      // silently fail, and this guarantees a working path on any browser.
+      APPLE_FALLBACK.hidden = false;
+    });
+    if (APPLE_CLOSE) {
+      APPLE_CLOSE.addEventListener('click', function() {
+        APPLE_FALLBACK.hidden = true;
+      });
+    }
+    if (APPLE_COPY && APPLE_URL) {
+      APPLE_COPY.addEventListener('click', function() {
+        var url = APPLE_URL.textContent.trim();
+        function done() {
+          APPLE_COPY.textContent = 'Copied!';
+          setTimeout(function() { APPLE_COPY.textContent = 'Copy'; }, 2000);
+        }
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(url).then(done, function() { fallbackCopy(url, done); });
+        } else {
+          fallbackCopy(url, done);
+        }
+      });
+    }
+  }
+
+  function fallbackCopy(text, done) {
+    var ta = document.createElement('textarea');
+    ta.value = text;
+    ta.style.position = 'fixed';
+    ta.style.opacity = '0';
+    document.body.appendChild(ta);
+    ta.select();
+    try { document.execCommand('copy'); done(); } catch(e) {}
+    document.body.removeChild(ta);
+  }
 
   loadAllEvents();
   document$.subscribe(loadAllEvents);

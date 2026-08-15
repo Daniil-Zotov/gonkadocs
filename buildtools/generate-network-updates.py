@@ -30,24 +30,21 @@ _HEADING_RE = re.compile(r"^##\s+([A-Za-z]+)\s+(\d{1,2}),\s+(\d{4})$")
 
 
 def _clean_text(text):
-    """Reduce markdown to readable plain text while keeping bare URLs."""
+    """Reduce markdown to readable plain text while keeping bare URLs.
+
+    Convert [label](url) markdown links to "label (url)" so the target stays
+    present and never runs into surrounding text without a space.
+    """
     if not text:
         return text
     text = text.replace("`", "").replace("**", "")
-    # [label](url) -> url  (keep the link target)
-    segments = text.split("](")
-    parts = []
-    for idx, seg in enumerate(segments):
-        if idx == 0:
-            parts.append(seg)
-        else:
-            close = seg.find(")")
-            if close != -1:
-                parts.append(seg[:close])
-                parts.append(seg[close + 1:])
-            else:
-                parts.append(seg)
-    text = "".join(parts)
+    # [label](url) -> label (url)  (keep the link target, separate from text)
+    text = re.sub(
+        r"\[([^\]]*)\]\(\s*([^)\s]+)\s*\)",
+        lambda m: (m.group(1).strip() + " " if m.group(1).strip() else "")
+                  + m.group(2).strip(),
+        text,
+    )
     lines = [ln.strip() for ln in text.split(chr(10)) if ln.strip()]
     return " ".join(lines)
 
