@@ -197,6 +197,7 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [Weekly Report — 20–24 July](/proposals/proposals/2026-q2/77/report2/): Auto-synced content
 - [Weekly Report — 27–31 July](/proposals/proposals/2026-q2/77/report3/): Auto-synced content
 - [Weekly Report — 3–7 August](/proposals/proposals/2026-q2/77/report4/): Auto-synced content
+- [Weekly Report — 10–14 August](/proposals/proposals/2026-q2/77/report5/): Auto-synced content
 - [Reports5](/proposals/proposals/2026-q2/77/reports5/): Auto-synced content
 - [#79 – Add Kimi K2.6 and GLM 5.2 model](/proposals/proposals/2026-q2/79/): Auto-synced content
 - [Full Proposal](/proposals/proposals/2026-q2/55/full-proposal/): Auto-synced content
