@@ -1,6 +1,6 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-08-15T05:52:29.651042+00:00",
+  "snapshot_time": "2026-08-15T07:08:07.307074+00:00",
   "files": {
     "d20f0b7f63fffff2927833d9557050f626cd934d5ab3479488af3773000f3011": {
       "title": "▶️ Ancapex Live: Gonka Overview",
@@ -89,8 +89,8 @@
       "time": "",
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#august-13-2026_2",
-      "content_preview": "Testing DeepSeek V4 Flash DeepSeek is through the vote and into bootstrap — if you're planning to serve it, validate your setup and submit your intent now. Everything you need is on the [vllm-0.25.1-upgrade branchhttps://github.com/gonka-ai/gonka/tree/vllm-0.25.1-upgrade/deploy/join. 1) MLNode (vLLM 0.25.1) Take the MLNode stack from that branch — the default image is pinned in the [compose fileht",
-      "checksum": "23d0b465739f0ff523e426a24ffa3699ef232454165c18f1cb545cb403953780"
+      "content_preview": "Testing DeepSeek V4 Flash DeepSeek is through the vote and into bootstrap — if you're planning to serve it, validate your setup and submit your intent now. Everything you need is on the vllm-0.25.1-upgrade branch https://github.com/gonka-ai/gonka/tree/vllm-0.25.1-upgrade/deploy/join. 1) MLNode (vLLM 0.25.1) Take the MLNode stack from that branch — the default image is pinned in the compose file ht",
+      "checksum": "772148107787a30602062b59c557f9d26a7db06e3ce99912d0206a77b568baec"
     },
     "829eea7d64bb5067123a216e6db4afd8c8e285d0e508d0395e3838d287acaee2": {
       "title": "DeepSeek V4 Flash bootstrap (epoch 359)",
@@ -98,8 +98,8 @@
       "time": "",
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#august-12-2026",
-      "content_preview": "DeepSeek V4 Flash bootstrap (epoch 359) Proposal 94 has passed — DeepSeek V4 Flash is approved. Hosts that plan to serve it should declare intent now so the model can bootstrap at epoch 359. [Full table with coefficientshttps://docs.google.com/spreadsheets/d/1Tw4V7xEXR2p5MbCHqzqjS9vHXQ0eI1IHVXC6guEHnio/edit?gid=0#gid=0 Effect From epoch 359 (PoC start ~August 13, 2026 at 03:24 UTC / August 12 at 2",
-      "checksum": "4afc8c600990aa4165ffd5d453df8a822a340ccf9dc4d63d5ee4a25ee6eaba70"
+      "content_preview": "DeepSeek V4 Flash bootstrap (epoch 359) Proposal 94 has passed — DeepSeek V4 Flash is approved. Hosts that plan to serve it should declare intent now so the model can bootstrap at epoch 359. Full table with coefficients https://docs.google.com/spreadsheets/d/1Tw4V7xEXR2p5MbCHqzqjS9vHXQ0eI1IHVXC6guEHnio/edit?gid=0#gid=0 Effect From epoch 359 (PoC start ~August 13, 2026 at 03:24 UTC / August 12 at 2",
+      "checksum": "7b52f96db8098cfa5524ab870e22133cf0f7357bac45b9469112f86974556cd0"
     },
     "ab0997587d282a79c7321da034a2793e0a49f8f52b107fd946e4dcc0fee2af46": {
       "title": "Governance vote (proposal 94): add DeepSeek V4 Flash",
@@ -170,8 +170,8 @@
       "time": "",
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#july-22-2026",
-      "content_preview": "Upgrade v0.2.14: Pre-download binaries The on-chain governance process for the v0.2.14 upgrade proposal is nearing its conclusion. - Voting ends: July 23rd, 2026, at 00:02 UTC - Upgrade height: 5195700 - Estimated upgrade time: July 23rd, 2026, at ~03:45 UTC Hosts are encouraged to review the proposal on [GitHubhttps://github.com/gonka-ai/gonka/pull/1267 and participate in the vote. Pre-downloadin",
-      "checksum": "aefe6a58c7e2bc97655f26f029b20c6d50a277ae738a415a1f2f654dfef52458"
+      "content_preview": "Upgrade v0.2.14: Pre-download binaries The on-chain governance process for the v0.2.14 upgrade proposal is nearing its conclusion. - Voting ends: July 23rd, 2026, at 00:02 UTC - Upgrade height: 5195700 - Estimated upgrade time: July 23rd, 2026, at ~03:45 UTC Hosts are encouraged to review the proposal on GitHub https://github.com/gonka-ai/gonka/pull/1267 and participate in the vote. Pre-downloadin",
+      "checksum": "363a888bd85e45536656c1c347a3730fdab9a2bdf8ffe225821d32ab32348dfb"
     },
     "4b82fe608ccd72cec53df525fbab29f154f38efad4b1f89db78871c847d927e5": {
       "title": "v0.2.14 Upgrade Proposal Enters Governance",
@@ -179,8 +179,8 @@
       "time": "",
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#july-20-2026",
-      "content_preview": "v0.2.14 Upgrade Proposal Enters Governance [The v0.2.14 proposalhttps://github.com/gonka-ai/gonka/pull/1267 is now on-chain and open for voting. The mainnet chain/API work focuses on PoC duplicate-artifact protection, early share detection, classic inference API deprecation (disabling /v1/chat/completions billing on mainnet and removing embedded /v1/devshard from the API binary), reward recipient",
-      "checksum": "6dfefeb3a8e2cbd1a7466650167fbef505376d37f1929bc72315f274eabe85a4"
+      "content_preview": "v0.2.14 Upgrade Proposal Enters Governance The v0.2.14 proposal https://github.com/gonka-ai/gonka/pull/1267 is now on-chain and open for voting. The mainnet chain/API work focuses on PoC duplicate-artifact protection, early share detection, classic inference API deprecation (disabling /v1/chat/completions billing on mainnet and removing embedded /v1/devshard from the API binary), reward recipient",
+      "checksum": "7135fccdfd640999b0853b957b94f66de37ca91f352764fc1a11e09729d0c85f"
     },
     "35b8fd2d4a0589448113842732254cbed413fb1107a5b93f87f16059ec1ca45e": {
       "title": "[The PR for the devshard-only](https://github.com/gonka-ai/gonka/pull/1482) upgrade is now open for review",
@@ -188,8 +188,8 @@
       "time": "",
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#july-20-2026_1",
-      "content_preview": "[The PR for the devshard-onlyhttps://github.com/gonka-ai/gonka/pull/1482 upgrade is now open for review Devshard upgrades update the devshard runtime independently from the main blockchain. They do not require a coordinated full-node upgrade through Cosmovisor, do not affect mainnet behavior, and are not expected to cause downtime for inference serving. If approved through the governance process,",
-      "checksum": "4346b9b1e7c0452b055373f47b56892f877c2d97d5fa709540a1379e3f4bae98"
+      "content_preview": "The PR for the devshard-only https://github.com/gonka-ai/gonka/pull/1482 upgrade is now open for review Devshard upgrades update the devshard runtime independently from the main blockchain. They do not require a coordinated full-node upgrade through Cosmovisor, do not affect mainnet behavior, and are not expected to cause downtime for inference serving. If approved through the governance process,",
+      "checksum": "38709fa4b85ab374ffe21ae9bc0449810783e24547cb4e2a4e37a9e64cab56ea"
     },
     "8af3e13ab21a0135ad80667c065b635b0498cb94eb9c08ff2de419259c8b3c94": {
       "title": "Proposal 88 has passed: Kimi-K2.6 re-registered, devshard v1/v2 removed",
@@ -215,8 +215,8 @@
       "time": "",
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#july-15-2026",
-      "content_preview": "Expedited governance vote (proposal 87): remove Kimi-K2.6 for a fast re-bootstrap moonshotai/Kimi-K2.6 lost its PoC validation majority in epochs 328–329 (see the incident [details herehttps://gonka.ai/docs/network-updates/#july-15-2026). Removing Kimi from the active set now and re-bootstrapping it is the fastest way to bring it back with minimal downtime — the same recovery path as proposal 78 i",
-      "checksum": "5e323ac29e61fb3d3684e9c458a3d1622bc00a04e386f330fa8850de7bd04750"
+      "content_preview": "Expedited governance vote (proposal 87): remove Kimi-K2.6 for a fast re-bootstrap moonshotai/Kimi-K2.6 lost its PoC validation majority in epochs 328–329 (see the incident details here https://gonka.ai/docs/network-updates/#july-15-2026). Removing Kimi from the active set now and re-bootstrapping it is the fastest way to bring it back with minimal downtime — the same recovery path as proposal 78 i",
+      "checksum": "1e528c4d6bc5c5b2c213b7cce2bd0b56b94e632cbfd4dfbdef459db53770b805"
     },
     "87951ed5e83617554d52e35b65bdb43920c7bc9dd098aa8754cf2a46a6242adb": {
       "title": "Kimi-K2.6 incident (epochs 328–329): what happened, recovery plan, and a change in delegation guidance",
@@ -233,8 +233,8 @@
       "time": "",
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#july-11-2026",
-      "content_preview": "The v0.2.13-devshard-v3 runtime upgrade proposal has passed governance The devshard v3 runtime has been approved on-chain and added to DevshardEscrowParams.approved_versions. This proposal covered [the devshard v3 release.https://github.com/gonka-ai/gonka/tree/upgrade-v0.2.14/proposals/governance-artifacts/update-v0.2.13-devshard-v3 This is a devshard-only runtime upgrade. It operates independentl",
-      "checksum": "69778412d11bf053af3504a93dae556514a5295de4891c8261371f976509d045"
+      "content_preview": "The v0.2.13-devshard-v3 runtime upgrade proposal has passed governance The devshard v3 runtime has been approved on-chain and added to DevshardEscrowParams.approved_versions. This proposal covered the devshard v3 release. https://github.com/gonka-ai/gonka/tree/upgrade-v0.2.14/proposals/governance-artifacts/update-v0.2.13-devshard-v3 This is a devshard-only runtime upgrade. It operates independentl",
+      "checksum": "f87e8320ecd5f861bdcd36ac121fb10dbeabb007d350d5ff5b80e70aed6ac99c"
     },
     "64197f5a2c857975d0fe7f3d2f4e798e94ca56ef2fed6e0d2b2a0ada03504594": {
       "title": "The v0.2.13-devshard-v3 runtime upgrade proposal has entered governance",
@@ -242,8 +242,8 @@
       "time": "",
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#july-8-2026",
-      "content_preview": "The v0.2.13-devshard-v3 runtime upgrade proposal has entered governance This proposal covers [the devshard v3 release.https://github.com/gonka-ai/gonka/tree/upgrade-v0.2.14/proposals/governance-artifacts/update-v0.2.13-devshard-v3 This is a devshard-only upgrade. It operates independently of full chain software upgrades. Once approved, v3 runs in parallel with the existing devshard runtimes. The v",
-      "checksum": "12e87e35448e91bd7dbb453a2df8e9d70b196fab92e988694cda24a020660854"
+      "content_preview": "The v0.2.13-devshard-v3 runtime upgrade proposal has entered governance This proposal covers the devshard v3 release. https://github.com/gonka-ai/gonka/tree/upgrade-v0.2.14/proposals/governance-artifacts/update-v0.2.13-devshard-v3 This is a devshard-only upgrade. It operates independently of full chain software upgrades. Once approved, v3 runs in parallel with the existing devshard runtimes. The v",
+      "checksum": "356323bae16cd59b02e06cd9194ee94354b504c0c3ce205c202d9a577bbec233"
     },
     "780bf622fb3f7c685cbf5e3977daaa159919e801f16844039e83337ce0dd01a8": {
       "title": "PR Review for Upgrade v0.2.14",
@@ -251,8 +251,8 @@
       "time": "",
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#july-8-2026_1",
-      "content_preview": "PR Review for Upgrade v0.2.14 [The pull requesthttps://github.com/gonka-ai/gonka/pull/PR for the next on-chain software upgrade, v0.2.14, is open for review. The mainnet chain/API work focuses on PoC duplicate-artifact protection, early share detection, classic inference API deprecation (disabling /v1/chat/completions billing on mainnet and removing embedded /v1/devshard from the API binary), rewa",
-      "checksum": "786dcf9eabf1b7e658c2ada5e09219771c2fc2e73e7179948728e94dab671384"
+      "content_preview": "PR Review for Upgrade v0.2.14 The pull request https://github.com/gonka-ai/gonka/pull/PR for the next on-chain software upgrade, v0.2.14, is open for review. The mainnet chain/API work focuses on PoC duplicate-artifact protection, early share detection, classic inference API deprecation (disabling /v1/chat/completions billing on mainnet and removing embedded /v1/devshard from the API binary), rewa",
+      "checksum": "c97f906572fb9a2316c910c9db5de01d0a558e9da71ad5d6bd5e8c905c459e14"
     },
     "441e1930856a045322c29a761d4d233398205440b046c9407297b9b15c78ebb4": {
       "title": "Security update: PoC-v2 weight validation hardening — update your API container",
@@ -305,8 +305,8 @@
       "time": "",
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#june-22-2026",
-      "content_preview": "The v0.2.13-devshard-v2 runtime upgrade proposal has passed governance The devshard v2 runtime has been approved on-chain and added to DevshardEscrowParams.approved_versions. This proposal covered the devshard v2 release: [https://github.com/gonka-ai/gonka/releases/tag/release/devshard/v2.0.0https://github.com/gonka-ai/gonka/releases/tag/release/devshard/v2.0.0 This was the first devshard-only run",
-      "checksum": "3ea0b039116aecc464ab79cfd0a7afd08b903a6cb7236cbf2fac621d3eefaef1"
+      "content_preview": "The v0.2.13-devshard-v2 runtime upgrade proposal has passed governance The devshard v2 runtime has been approved on-chain and added to DevshardEscrowParams.approved_versions. This proposal covered the devshard v2 release: https://github.com/gonka-ai/gonka/releases/tag/release/devshard/v2.0.0 https://github.com/gonka-ai/gonka/releases/tag/release/devshard/v2.0.0 This was the first devshard-only run",
+      "checksum": "5f64ff06b961cf318d4a14348da1fd6d195b0aac0028d7321b34012ba2c09bcc"
     },
     "444be6bb65b3186fdee0788d741001162a8a2d6a7c4a1fbf205150fd4dcb661a": {
       "title": "The v0.2.13-devshard-v2 runtime upgrade proposal has entered governance.",
@@ -314,8 +314,8 @@
       "time": "",
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#june-15-2026",
-      "content_preview": "The v0.2.13-devshard-v2 runtime upgrade proposal has entered governance. This proposal covers the devshard v2 release: [https://github.com/gonka-ai/gonka/releases/tag/release/devshard/v2.0.0https://github.com/gonka-ai/gonka/releases/tag/release/devshard/v2.0.0 This is the first devshard-only upgrade. It operates independently of full-chain software upgrades. If approved, v2 will run in parallel wi",
-      "checksum": "fb01c0383be2ade7bbc001bce6a73e746bc6660fa921b6b7416acac8f5341645"
+      "content_preview": "The v0.2.13-devshard-v2 runtime upgrade proposal has entered governance. This proposal covers the devshard v2 release: https://github.com/gonka-ai/gonka/releases/tag/release/devshard/v2.0.0 https://github.com/gonka-ai/gonka/releases/tag/release/devshard/v2.0.0 This is the first devshard-only upgrade. It operates independently of full-chain software upgrades. If approved, v2 will run in parallel wi",
+      "checksum": "2e60d668d1e3f80d0bee527eb65ae5d6753566b512ad7107a9c23e707f7d1011"
     },
     "f854d0658c8d78ad8f5cd8f0c13a6bbf1e33836e7595350440eabade81e0432a": {
       "title": "[The PR for the devshard-only upgrade](https://github.com/gonka-ai/gonka/pull/1289) is now open for review.",
@@ -323,8 +323,8 @@
       "time": "",
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#june-6-2026",
-      "content_preview": "[The PR for the devshard-only upgradehttps://github.com/gonka-ai/gonka/pull/1289 is now open for review. This is the first devshard-only upgrade, so the process is different from a standard chain upgrade. Devshard upgrades update the devshard runtime independently from the main blockchain. They do not require a coordinated full-node upgrade through Cosmovisor, do not affect mainnet behavior, and a",
-      "checksum": "5f8257fa4d1aa8d3a250af2d3047dddd3c1ca4c6e2376043833c2b9c3059eb1b"
+      "content_preview": "The PR for the devshard-only upgrade https://github.com/gonka-ai/gonka/pull/1289 is now open for review. This is the first devshard-only upgrade, so the process is different from a standard chain upgrade. Devshard upgrades update the devshard runtime independently from the main blockchain. They do not require a coordinated full-node upgrade through Cosmovisor, do not affect mainnet behavior, and a",
+      "checksum": "cf36c6fa84de64ca05d1d6a7f1eb993195c0194d243fac8ac8ce666fd8777c0c"
     },
     "76dc9a30a29e6ceb20e236acbb733f3ef444474c2ffb9c7789d34a9c8ce8c500": {
       "title": "MiniMax-M2.7 is now active on Gonka network",
@@ -350,8 +350,8 @@
       "time": "",
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#may-25-2026",
-      "content_preview": "Upgrade v0.2.13: pre-download binaries and MiniMax-M2.7 weights The v0.2.13 upgrade proposal (proposal id [54https://github.com/gonka-ai/gonka/pull/1143) has passed on-chain governance and the upgrade is now scheduled. - Upgrade height: 4267300 - Estimated upgrade time: May 26, 2026, 14:42 UTC (07:42 PDT) Pre-downloading binaries and weights in advance helps avoid relying on GitHub / Hugging Face",
-      "checksum": "69d06f5e775547966c68ea0b5b4a52da4bdd9db7560643a5700f007f04f89645"
+      "content_preview": "Upgrade v0.2.13: pre-download binaries and MiniMax-M2.7 weights The v0.2.13 upgrade proposal (proposal id 54 https://github.com/gonka-ai/gonka/pull/1143) has passed on-chain governance and the upgrade is now scheduled. - Upgrade height: 4267300 - Estimated upgrade time: May 26, 2026, 14:42 UTC (07:42 PDT) Pre-downloading binaries and weights in advance helps avoid relying on GitHub / Hugging Face",
+      "checksum": "bd917ca8accb3fecdea0d53fe3aad380c18df502c1dcca9bd1d227785f53c24b"
     },
     "f7e9c5d28a4db902becbf115baac1f7fc8649e78abe12c889313e804317b425a": {
       "title": "v0.2.13 voting concluded — preparing for upgrade at height 4267300",
@@ -359,8 +359,8 @@
       "time": "",
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#may-22-2026",
-      "content_preview": "v0.2.13 voting concluded — preparing for upgrade at height 4267300 The on-chain governance vote for [Upgrade Proposal v0.2.13https://github.com/gonka-ai/gonka/pull/1143 (proposal id 54) has concluded. The proposal has been APPROVED. The upgrade will execute automatically on mainnet at block height 4267300 (≈ Tue May 26, 14:42 UTC / 07:42 PDT). Reminders 1. Make sure your bridge container is up to",
-      "checksum": "5cfc1acd8804535a10539bbf4574c3f62832fa07845183e2e4e212359ad4489e"
+      "content_preview": "v0.2.13 voting concluded — preparing for upgrade at height 4267300 The on-chain governance vote for Upgrade Proposal v0.2.13 https://github.com/gonka-ai/gonka/pull/1143 (proposal id 54) has concluded. The proposal has been APPROVED. The upgrade will execute automatically on mainnet at block height 4267300 (≈ Tue May 26, 14:42 UTC / 07:42 PDT). Reminders 1. Make sure your bridge container is up to",
+      "checksum": "65cb71d013447c647fb5125bcf2bfa09852e0e9016a4915cbad526ffb1708e9e"
     },
     "62fc464d4d310ca005b5e0ce7b06f254cd1351859fc663fea5ba25ca73324ad4": {
       "title": "v0.2.13 Upgrade Proposal Enters Governance",
@@ -368,8 +368,8 @@
       "time": "",
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#may-20-2026",
-      "content_preview": "v0.2.13 Upgrade Proposal Enters Governance [The v0.2.13 proposalhttps://github.com/gonka-ai/gonka/pull/1143 is back on-chain and open for voting. This is a renewed vote on the proposal that was published earlier but did not pass, now resubmitted with several updates. - Includes: Recalibrated weights for Kimi (0.78), new model MiniMaxAI/MiniMax-M2.7, validation thresholds update, devshard storage r",
-      "checksum": "6e8824fda2d8f5c989344b76d903eeb4cfc82b0743032517a46189569a6f814c"
+      "content_preview": "v0.2.13 Upgrade Proposal Enters Governance The v0.2.13 proposal https://github.com/gonka-ai/gonka/pull/1143 is back on-chain and open for voting. This is a renewed vote on the proposal that was published earlier but did not pass, now resubmitted with several updates. - Includes: Recalibrated weights for Kimi (0.78), new model MiniMaxAI/MiniMax-M2.7, validation thresholds update, devshard storage r",
+      "checksum": "2da1b0a63ca7ff87419d4f8616e72d81a42b2716fd671a7e78e8474b2703277c"
     },
     "60d60c86d37e5e853d0fd7adb24e58b01945f5c24239d3424aad3d9c913c5006": {
       "title": "Network update",
@@ -377,8 +377,8 @@
       "time": "",
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#may-18-2026",
-      "content_preview": "The proxy container might limit the amount of parallel connections to devshards globally instead of per client The PR with fix: [https://github.com/gonka-ai/gonka/pull/1183https://github.com/gonka-ai/gonka/pull/1183 To apply the fix, please: 1. Set container version in docker-compose.yml ... proxy: container_name: proxy image: ghcr.io/product-science/proxy:0.2.12-post5 ... 2. Restart container: so",
-      "checksum": "8ca4a53b0ae8d26e671689d100c89856b39beefa9977960610d15e7c06eacd34"
+      "content_preview": "The proxy container might limit the amount of parallel connections to devshards globally instead of per client The PR with fix: https://github.com/gonka-ai/gonka/pull/1183 https://github.com/gonka-ai/gonka/pull/1183 To apply the fix, please: 1. Set container version in docker-compose.yml ... proxy: container_name: proxy image: ghcr.io/product-science/proxy:0.2.12-post5 ... 2. Restart container: so",
+      "checksum": "c253a64c0a40219f1af8a2150e017dff0d81362ca108573a2312b7d53a77240c"
     },
     "6d948e25f109d32b987b2460ad365de94ab96c709fbe624388721f63411a0dcc": {
       "title": "Epoch #267: PoC Validation Recovered",
@@ -404,8 +404,8 @@
       "time": "",
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#may-15-2026",
-      "content_preview": "v0.2.13 Upgrade Proposal Enters Governance [v0.2.13 proposalhttps://github.com/gonka-ai/gonka/pull/1143 is now on chain and open for voting. - Includes: Recalibrated weights for Kimi (0.78), new model MiniMaxAI/MiniMax-M2.7, validation thresholds update, devshard storage rework, plus several PoC/reward fixes, Ethereum bridge mainnet activation. - Proposal increases grace window after the upgrade t",
-      "checksum": "60f1d2115113c9c1444b7e7032ef044dcdbc0aacb026ca46db75f1fc0286490a"
+      "content_preview": "v0.2.13 Upgrade Proposal Enters Governance v0.2.13 proposal https://github.com/gonka-ai/gonka/pull/1143 is now on chain and open for voting. - Includes: Recalibrated weights for Kimi (0.78), new model MiniMaxAI/MiniMax-M2.7, validation thresholds update, devshard storage rework, plus several PoC/reward fixes, Ethereum bridge mainnet activation. - Proposal increases grace window after the upgrade t",
+      "checksum": "e89d76d97351c8cd24b088dc24119c0833f7fad402f56ea2ded5f1590a289bac"
     },
     "91f52d61b87cd9a3962de954791c6121fe66bd83bb80f9e3f06930c73ae86933": {
       "title": "Bridge container update/verification required",
@@ -422,8 +422,8 @@
       "time": "",
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#may-6-2026",
-      "content_preview": "PR Review for Upgrade v0.2.13 [The pull requesthttps://github.com/gonka-ai/gonka/pull/1143 for the next on-chain software upgrade, v0.2.13, is open for review. Please review the PR code directly and leave comments regarding any findings, questions, suggested improvements, edge cases, or vulnerabilities you identify. Meaningful review contributions, including important comments, bug findings, and s",
-      "checksum": "e5046bb3d030052ea658c6dada5c2f166fd3b219982354f8b441903ffb046867"
+      "content_preview": "PR Review for Upgrade v0.2.13 The pull request https://github.com/gonka-ai/gonka/pull/1143 for the next on-chain software upgrade, v0.2.13, is open for review. Please review the PR code directly and leave comments regarding any findings, questions, suggested improvements, edge cases, or vulnerabilities you identify. Meaningful review contributions, including important comments, bug findings, and s",
+      "checksum": "ffb20faacf9a6139c74487c43351eb67e62d615aac657d932f97e8347c81dfb3"
     },
     "e0a621c88c912bc9737a79b4977a52c425b240bee3beb9651169be67e2bce537": {
       "title": "Network update",
@@ -431,8 +431,8 @@
       "time": "",
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#may-6-2026_1",
-      "content_preview": "There was a potential issue in api container versions v0.2.11, v0.2.12, and v0.2.12-api-post2. After a container restart, servers on ports 9100, 9200, and 9400 could start with a long delay. This delayed api activation, and some miners skipped Confirmation PoC because of it The fix removes that blocker by loading devshards in parallel and restoring existing devshard sessions from snapshots. [https",
-      "checksum": "64bf4f3c7f3b760b8cbf183e32b896fc1fc366efbcb8c72f5d9337a374276a1d"
+      "content_preview": "There was a potential issue in api container versions v0.2.11, v0.2.12, and v0.2.12-api-post2. After a container restart, servers on ports 9100, 9200, and 9400 could start with a long delay. This delayed api activation, and some miners skipped Confirmation PoC because of it The fix removes that blocker by loading devshards in parallel and restoring existing devshard sessions from snapshots. https:",
+      "checksum": "ba28e53fa4bb2efc6d76c42632089cab478bdc5f790f50d9cbf4e18f66a12a65"
     },
     "8e5baa4e22fd9a9fd978e6e9f6f8be461952541047823f2500e3a683e60b5c6f": {
       "title": "Network update",
@@ -440,8 +440,8 @@
       "time": "",
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#may-6-2026_2",
-      "content_preview": "A minor bug was found in parsing certain responses of Kimi-K2.6 during the last epoch. Fix: [https://github.com/gonka-ai/gonka/pull/1143/changes#diff-4c44fd18f746bca1c63d9bcbb9a73f06bc0172bfb8a33152854920d4dffff0e8https://github.com/gonka-ai/gonka/pull/1143/changes#diff-4c44fd18f746bca1c63d9bcbb9a73f06bc0172bfb8a33152854920d4dffff0e8 We recommend replacing the binary for the api container. Besides",
-      "checksum": "e56938ee805f93a86d62b220c6bc34e070aac491b7c4705d172ff2455e835a24"
+      "content_preview": "A minor bug was found in parsing certain responses of Kimi-K2.6 during the last epoch. Fix: https://github.com/gonka-ai/gonka/pull/1143/changes#diff-4c44fd18f746bca1c63d9bcbb9a73f06bc0172bfb8a33152854920d4dffff0e8 https://github.com/gonka-ai/gonka/pull/1143/changes#diff-4c44fd18f746bca1c63d9bcbb9a73f06bc0172bfb8a33152854920d4dffff0e8 We recommend replacing the binary for the api container. Besides",
+      "checksum": "9891ea66b9809c4a19a2c672ffc6dcd47e5fc07da63b706d6d23007183872de6"
     },
     "56fbc2c1a62dee2adf8bdeb87c4f4a3482690cc687a32341f49fbfc38f7f0873": {
       "title": "Voting ends**: 2026-05-05 19:00:54 UTC",
@@ -494,8 +494,8 @@
       "time": "",
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#april-30-2026",
-      "content_preview": "UPGRADE EXECUTED: v0.2.12 is now live on mainnet The on-chain governance vote for Upgrade Proposal v0.2.12 has concluded. The proposal has been APPROVED, and the upgrade was successfully executed on the mainnet. Key changes now active - Multi-model PoC (the largest change) ([#1039https://github.com/gonka-ai/gonka/pull/1039). Transition Proof of Compute from a single fixed model to per-model PoC gr",
-      "checksum": "82484ea3a9602ab9ea65115e8a10a88a7fd95290f28c19b127a652e0bb9233a3"
+      "content_preview": "UPGRADE EXECUTED: v0.2.12 is now live on mainnet The on-chain governance vote for Upgrade Proposal v0.2.12 has concluded. The proposal has been APPROVED, and the upgrade was successfully executed on the mainnet. Key changes now active - Multi-model PoC (the largest change) (#1039 https://github.com/gonka-ai/gonka/pull/1039). Transition Proof of Compute from a single fixed model to per-model PoC gr",
+      "checksum": "c0edb6949674fdb2ac4cc9a89d4d37c4087e1dd209d5077394dc730ea5b1aa46"
     },
     "634753a2d3a172d1928a4fa17f90d4e4cd505b0ab811cc93a0d2af93f7187244": {
       "title": "Upgrade v0.2.12: Pre-download binaries",
@@ -503,8 +503,8 @@
       "time": "",
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#april-29-2026",
-      "content_preview": "Upgrade v0.2.12: Pre-download binaries The on-chain governance process for the v0.2.12 upgrade proposal is nearing its conclusion. - Voting ends: April 30th, 2026, at 00:12 UTC - Upgrade height: 3834200 - Estimated upgrade time: April 30th, 2026, at 6:00 am UTC Hosts are encouraged to review the proposal on [GitHubhttps://github.com/gonka-ai/gonka/pull/948 and participate in the vote. Pre-download",
-      "checksum": "b44679af212ea419c7b7930827ab2f48b345aa50bd6890a094f281fe194f71f4"
+      "content_preview": "Upgrade v0.2.12: Pre-download binaries The on-chain governance process for the v0.2.12 upgrade proposal is nearing its conclusion. - Voting ends: April 30th, 2026, at 00:12 UTC - Upgrade height: 3834200 - Estimated upgrade time: April 30th, 2026, at 6:00 am UTC Hosts are encouraged to review the proposal on GitHub https://github.com/gonka-ai/gonka/pull/948 and participate in the vote. Pre-download",
+      "checksum": "e99a578aab7ddc4bc019df108436e1994145672e1dd3e7a73913bad8ac417a7a"
     },
     "5309471a45957ba712bf757b3951c5f2fdfc0760165f612e125794f912359b63": {
       "title": "Upgrade v0.2.12: Pre-Upgrade Model Cleanup",
@@ -512,8 +512,8 @@
       "time": "",
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#april-28-2026",
-      "content_preview": "Upgrade v0.2.12: Pre-Upgrade Model Cleanup The v0.2.12 upgrade proposal is now halfway through its on-chain voting period. - Voting ends: April 30th, 2026, at 00:12 UTC - Upgrade height: 3834200 - Estimated upgrade time: April 30th, 2026, at 6:00 am UTC Hosts are encouraged to review the proposal on [GitHubhttps://github.com/gonka-ai/gonka/pull/948 and vote. Action required before the upgrade As t",
-      "checksum": "20f2fcbffcb16a5ab40614c4582857a68d599f0a082e609b7720d87e571c2262"
+      "content_preview": "Upgrade v0.2.12: Pre-Upgrade Model Cleanup The v0.2.12 upgrade proposal is now halfway through its on-chain voting period. - Voting ends: April 30th, 2026, at 00:12 UTC - Upgrade height: 3834200 - Estimated upgrade time: April 30th, 2026, at 6:00 am UTC Hosts are encouraged to review the proposal on GitHub https://github.com/gonka-ai/gonka/pull/948 and vote. Action required before the upgrade As t",
+      "checksum": "e86a8797d2a98c7d2fe52b0ab4b6e32e6861cd48b668de33c396b48d1b6fb1fe"
     },
     "8170f1e4f3395483887010052ed8c32b6bedf31602b50d517133c861d6696237": {
       "title": "v0.2.12 Upgrade Proposal Enters Governance",
@@ -521,8 +521,8 @@
       "time": "",
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#april-27-2026",
-      "content_preview": "v0.2.12 Upgrade Proposal Enters Governance [The upgrade proposalhttps://github.com/gonka-ai/gonka/pull/948 for the next on-chain software version v0.2.12 has now been published on-chain and is open for voting. Key changes - Multi-model PoC (the largest change) ([#1039https://github.com/gonka-ai/gonka/pull/1039). Transition Proof of Compute from a single fixed model to per-model PoC groups. Each go",
-      "checksum": "5671d18b3058b0e9e287dc98a9a854456d457663556e5eec804aed85553c0b69"
+      "content_preview": "v0.2.12 Upgrade Proposal Enters Governance The upgrade proposal https://github.com/gonka-ai/gonka/pull/948 for the next on-chain software version v0.2.12 has now been published on-chain and is open for voting. Key changes - Multi-model PoC (the largest change) (#1039 https://github.com/gonka-ai/gonka/pull/1039). Transition Proof of Compute from a single fixed model to per-model PoC groups. Each go",
+      "checksum": "137ef6be336ab33059630580c52be024b4ff4df57f3868af9f9059d98fd8e1fa"
     },
     "70a73a36cb0b7bb0ac218b38644d1eb548db80bde6a7be8412ca42efcf53a54d": {
       "title": "PR Review for Upgrade v0.2.12",
@@ -530,8 +530,8 @@
       "time": "",
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#april-15-2025",
-      "content_preview": "PR Review for Upgrade v0.2.12 [The pull requesthttps://github.com/gonka-ai/gonka/pull/948 for the next on-chain software upgrade, v0.2.12, is open for review. Please review the PR code directly and leave comments regarding any findings, questions, suggested improvements, edge cases, or vulnerabilities you identify. Meaningful review contributions, including important comments, bug findings, and se",
-      "checksum": "e9d1af5c3613721e8b10526c11f44454eb68337e78864f1361aaacf7b0af2eb7"
+      "content_preview": "PR Review for Upgrade v0.2.12 The pull request https://github.com/gonka-ai/gonka/pull/948 for the next on-chain software upgrade, v0.2.12, is open for review. Please review the PR code directly and leave comments regarding any findings, questions, suggested improvements, edge cases, or vulnerabilities you identify. Meaningful review contributions, including important comments, bug findings, and se",
+      "checksum": "6b5adb0ccd89c5f593a5dc4169611132725a8fb35b832b974754bb2699e994f3"
     },
     "10fd682b8909539d8a84061040f55ebe8302ab06474342a53e498a036712c505": {
       "title": "What changed",
@@ -539,8 +539,8 @@
       "time": "",
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#april-1-2026",
-      "content_preview": "ML Node 3.0.12-post6 available A new mlnode version is now available: ghcr.io/gonka-ai/mlnode:3.0.12-post6 - docker pull ghcr.io/gonka-ai/mlnode:3.0.12-post6 - docker pull ghcr.io/gonka-ai/mlnode:3.0.12-post6-blackwell - docker pull ghcr.io/gonka-ai/mlnode:3.0.12-post6-blackwell-sm120 This version is now set as the default in the main branch: [https://github.com/gonka-ai/gonka/commit/ec8f45573149c",
-      "checksum": "88940a5bfc058bdb0c5ab030129489f24d9304ddb87b4370af45d6456e023482"
+      "content_preview": "ML Node 3.0.12-post6 available A new mlnode version is now available: ghcr.io/gonka-ai/mlnode:3.0.12-post6 - docker pull ghcr.io/gonka-ai/mlnode:3.0.12-post6 - docker pull ghcr.io/gonka-ai/mlnode:3.0.12-post6-blackwell - docker pull ghcr.io/gonka-ai/mlnode:3.0.12-post6-blackwell-sm120 This version is now set as the default in the main branch: https://github.com/gonka-ai/gonka/commit/ec8f45573149ce",
+      "checksum": "ca3db66c913a6cadc7ef49e0c83e2339becff764ee1bf0a3ae5521ed84e25133"
     },
     "0f475b7e8cf53ffcd8278294868d04381f8035affd2c9399e554afcecdd51f78": {
       "title": "UPGRADE EXECUTED: v0.2.11 is now live on mainnet",
@@ -548,8 +548,8 @@
       "time": "",
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#march-20-2026",
-      "content_preview": "UPGRADE EXECUTED: v0.2.11 is now live on mainnet The on-chain governance vote for Upgrade Proposal v0.2.11 has concluded. The proposal has been APPROVED, and the upgrade was successfully executed on the mainnet. Key changes now active [Initial scaling architecture: devshards-based inference sessionshttps://github.com/gonka-ai/gonka/pull/877 This upgrade introduces an initial version of devshards-b",
-      "checksum": "efd5b4b43a3fb79a62f86d539aa5b870db186d6618db0d6ce3b873d3dff2157a"
+      "content_preview": "UPGRADE EXECUTED: v0.2.11 is now live on mainnet The on-chain governance vote for Upgrade Proposal v0.2.11 has concluded. The proposal has been APPROVED, and the upgrade was successfully executed on the mainnet. Key changes now active Initial scaling architecture: devshards-based inference sessions https://github.com/gonka-ai/gonka/pull/877 This upgrade introduces an initial version of devshards-b",
+      "checksum": "59eac0628f31e93b8e9cfa2359a8fb38d76129c5b83a7c3a4563b732cf015282"
     },
     "2e141e000fb71b0614fd06c9c9d4f428428ee36126b3435606575c6f27dca756": {
       "title": "Upgrade v0.2.11: Pre-download binaries",
@@ -557,8 +557,8 @@
       "time": "",
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#march-19-2026",
-      "content_preview": "Upgrade v0.2.11: Pre-download binaries The on-chain governance process for the v0.2.11 upgrade proposal is nearing its conclusion. - Voting ends: March 20th, 2026, at 05:59:52 UTC - Upgrade height: 3186100 - Estimated upgrade time: March 20th, 2026, at 14:30 UTC Hosts are encouraged to review the proposal on [GitHubhttps://github.com/gonka-ai/gonka/pull/813 and vote. Pre-downloading binaries in ad",
-      "checksum": "a5dafaa6bd9c1ca0beee09d970d298489044fe74471e4b0b531436e597e76411"
+      "content_preview": "Upgrade v0.2.11: Pre-download binaries The on-chain governance process for the v0.2.11 upgrade proposal is nearing its conclusion. - Voting ends: March 20th, 2026, at 05:59:52 UTC - Upgrade height: 3186100 - Estimated upgrade time: March 20th, 2026, at 14:30 UTC Hosts are encouraged to review the proposal on GitHub https://github.com/gonka-ai/gonka/pull/813 and vote. Pre-downloading binaries in ad",
+      "checksum": "85216f9a0e2987a2305436c8ef7eaeae9753a2026c0e597d29c6ea9415598c5d"
     },
     "85b53fd8017342c6a4c87856df435517b120c1d84243e1b947681ca9071ae8c0": {
       "title": "v0.2.11 Upgrade Proposal Enters Governance",
@@ -566,8 +566,8 @@
       "time": "",
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#march-18-2026",
-      "content_preview": "v0.2.11 Upgrade Proposal Enters Governance The upgrade proposal for the next on-chain software version v0.2.11 has now been published on-chain and is open for voting. If approved, the proposal introduces an initial version of devshards-based inference sessions intended to improve inference scalability, and significantly Start/FinishInference performance improvements. Key changes [Initial scaling a",
-      "checksum": "d6e1b2ef216fbbe2a93ec4f43db58e7571f7ca90dc8f27147a88efa94727cbde"
+      "content_preview": "v0.2.11 Upgrade Proposal Enters Governance The upgrade proposal for the next on-chain software version v0.2.11 has now been published on-chain and is open for voting. If approved, the proposal introduces an initial version of devshards-based inference sessions intended to improve inference scalability, and significantly Start/FinishInference performance improvements. Key changes Initial scaling ar",
+      "checksum": "4ec17e9e23548b1ee2330d021ce999eda0286065559239f4c19a2426f44c0866"
     },
     "01662daab85f71828ca053ee2f5cd81b9d164711b6573ed5523e4fd0035f1d03": {
       "title": "PR Review for Upgrade v0.2.11",
@@ -575,8 +575,8 @@
       "time": "",
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#march-17-2026",
-      "content_preview": "PR Review for Upgrade v0.2.11 [The Pull Requesthttps://github.com/gonka-ai/gonka/pull/813 for the next on-chain software upgrade, v0.2.11, is open for review. Feedback and suggested improvements are welcome. Bounties for meaningful contributions to this PR review may be proposed in the next upgrade. This is a call for review of the Pull Request only, and not the start of formal voting. The governa",
-      "checksum": "6efbbebe782e3432ff583211929ef30b7e210da8e758a8823ce543a3e306976d"
+      "content_preview": "PR Review for Upgrade v0.2.11 The Pull Request https://github.com/gonka-ai/gonka/pull/813 for the next on-chain software upgrade, v0.2.11, is open for review. Feedback and suggested improvements are welcome. Bounties for meaningful contributions to this PR review may be proposed in the next upgrade. This is a call for review of the Pull Request only, and not the start of formal voting. The governa",
+      "checksum": "f5c41645bb98057de45cd3271cec9ee9ab1343842e7d7c2ae8156be413377a13"
     },
     "1046f60dd0cabe8405db62bb50eea5f50b5d588544757b37249ff026fe4e9325": {
       "title": "API binary `v0.2.10-post7` is available",
@@ -584,8 +584,8 @@
       "time": "",
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#march-16-2026",
-      "content_preview": "API binary v0.2.10-post7 is available A potential vulnerability has been identified in v0.2.10. To reduce risk during the current pre-upgrade period, it is recommended to upgrade the api binary to v0.2.10-post7 before the next PoC starts. Full changes: [https://github.com/gonka-ai/gonka/compare/main…release/v0.2.10-post7https://github.com/gonka-ai/gonka/compare/main…release/v0.2.10-post7 Apply upd",
-      "checksum": "6a845d64e9b765190fa13ff194ef3836851456794113ed90f714d78c490cb7e1"
+      "content_preview": "API binary v0.2.10-post7 is available A potential vulnerability has been identified in v0.2.10. To reduce risk during the current pre-upgrade period, it is recommended to upgrade the api binary to v0.2.10-post7 before the next PoC starts. Full changes: https://github.com/gonka-ai/gonka/compare/main…release/v0.2.10-post7 https://github.com/gonka-ai/gonka/compare/main…release/v0.2.10-post7 Apply upd",
+      "checksum": "f0cb22f23ea46ecec70eaaca6293f98b86c4516a349a27d4c69d7561597d8fd3"
     },
     "a8f0711cece113db05e66a3421ccc20e5feb3e82f523910b8ebeaba1c318fb12": {
       "title": "Tool calling",
@@ -593,8 +593,8 @@
       "time": "",
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#march-11-2026",
-      "content_preview": "Tool calling [Tool callinghttps://gonka.ai/developer/quickstart/#4-tool-calling is now available through the standard function-calling pattern (type: “function”). The integration flow is simple: - functions are defined by the developer - the model returns structured call arguments when a request matches - execution is handled on the application side. For teams already using proxy layers, this may",
-      "checksum": "6f61a61afc732c376ff9690f74579633c0291102d273ca051849dac100757ac1"
+      "content_preview": "Tool calling Tool calling https://gonka.ai/developer/quickstart/#4-tool-calling is now available through the standard function-calling pattern (type: “function”). The integration flow is simple: - functions are defined by the developer - the model returns structured call arguments when a request matches - execution is handled on the application side. For teams already using proxy layers, this may",
+      "checksum": "4ae39a14a17b1b271df106cd5ab75fed300a6efa3e5d58e495f678d0f8f1dcb6"
     },
     "8bbacb0057841b7d7596fe82c52d068a61c954b1353b1205b9e64eda74f112a7": {
       "title": "Heads up: v0.2.11 upgrade is expected to enter review and governance voting early next week.",
@@ -620,8 +620,8 @@
       "time": "",
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#february-20-2026",
-      "content_preview": "Recommendation (optional): vLLM / mlnode build to interrupt in-flight requests at PoC start A new vLLM / mlnode build is available that interrupts in-flight inference requests at the start of PoC, to reduce the risk of potential weight decreases caused by requests that remain active when PoC begins. Source: [https://github.com/gonka-ai/vllm/tree/release/v0.9.1-pocv2-post5/vllmhttps://github.com/go",
-      "checksum": "83234169423e41072c17909f40f7b94c46e152a6bad4bc6c88c815229e3a17e0"
+      "content_preview": "Recommendation (optional): vLLM / mlnode build to interrupt in-flight requests at PoC start A new vLLM / mlnode build is available that interrupts in-flight inference requests at the start of PoC, to reduce the risk of potential weight decreases caused by requests that remain active when PoC begins. Source: https://github.com/gonka-ai/vllm/tree/release/v0.9.1-pocv2-post5/vllm https://github.com/go",
+      "checksum": "19e557b00bfffea71f357f77b476907c14d0fa222418e34c0775a10f900d3d60"
     },
     "1798895d64d2072494b159143b87bc1f4625d920a301b0b78b058ca30aeecf42": {
       "title": "Collateral parameter update proposal — Voting result",
@@ -692,8 +692,8 @@
       "time": "",
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#february-13-2026_1",
-      "content_preview": "If your node did not apply the latest upgrade in time, it may halt with a consensus failure at block 2628371. This happens because the node is running an outdated binary that is no longer compatible with the network. To recover, follow this guide [https://gonka.ai/FAQ/#recovery-guide-consensus-failure-after-missing-patchhttps://gonka.ai/FAQ/#recovery-guide-consensus-failure-after-missing-patch",
-      "checksum": "aa14f8be4655ac713321fc5edc987850d760ddcd13f6669826dd76bdb411c8be"
+      "content_preview": "If your node did not apply the latest upgrade in time, it may halt with a consensus failure at block 2628371. This happens because the node is running an outdated binary that is no longer compatible with the network. To recover, follow this guide https://gonka.ai/FAQ/#recovery-guide-consensus-failure-after-missing-patch https://gonka.ai/FAQ/#recovery-guide-consensus-failure-after-missing-patch",
+      "checksum": "88dce83450fea716bcb8213159be1257f65cd628e602aebf30e6ee8cd77449c7"
     },
     "2e6078ac17bfb3fd832b5f4de26de7a77b142c1c2ee0e2a012edf5d11090192a": {
       "title": "Network update: Patch available (PoC / cPoC overlap)",
@@ -728,8 +728,8 @@
       "time": "",
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#february-10-2026",
-      "content_preview": "PR Review for Upgrade v0.2.10 [The Pull Requesthttps://github.com/gonka-ai/gonka/pull/695 for the next on-chain software upgrade, v0.2.10, is open for review. Feedback and suggested improvements are welcome. The current plan is to keep the review window open for about 2 days. Bounties for meaningful contributions to this PR review may be proposed in the next upgrade. This is a call for review of t",
-      "checksum": "4c92031330be484a80647a733d45720e1bafe370c12718f8b9d1c4c5cb15c79c"
+      "content_preview": "PR Review for Upgrade v0.2.10 The Pull Request https://github.com/gonka-ai/gonka/pull/695 for the next on-chain software upgrade, v0.2.10, is open for review. Feedback and suggested improvements are welcome. The current plan is to keep the review window open for about 2 days. Bounties for meaningful contributions to this PR review may be proposed in the next upgrade. This is a call for review of t",
+      "checksum": "10eae3bc6fc892b2fd869a89201c20cba7fb02e10ddb6b2d2c53ddf1f85c8a3e"
     },
     "829532015eecbc5e38cbd4a05ded49c12685340a785ef41c0e06c238cee31ee8": {
       "title": "CLI update reminder",
@@ -737,8 +737,8 @@
       "time": "",
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#february-4-2026",
-      "content_preview": "CLI update reminder For granting permissions to warm keys created after the v0.2.9 upgrade, the [CLI version v0.2.9https://github.com/gonka-ai/gonka/releases/tag/release%2Fv0.2.9 should be used.",
-      "checksum": "7c7e9345c17d50aac79c1789dd51236e7a534e469fd7be61f0ea042184003e65"
+      "content_preview": "CLI update reminder For granting permissions to warm keys created after the v0.2.9 upgrade, the CLI version v0.2.9 https://github.com/gonka-ai/gonka/releases/tag/release%2Fv0.2.9 should be used.",
+      "checksum": "57d55dd6437a87590f67b3e9f6e06c58d17efc5907e32e9984a34da87e42f903"
     },
     "02fdebbd7fc0cca01bb88f5ea7d2629ac1c3a62fd45b91dbe6cde40382d477c3": {
       "title": "PoC v2 inference-based weight adjustments",
@@ -782,8 +782,8 @@
       "time": "",
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#february-1-2026_1",
-      "content_preview": "The on-chain governance process for the v0.2.9 upgrade proposal is nearing its conclusion. - Voting ends: February 1st, 2026, at 22:02:58 UTC - Upgrade height: 2451000. - Estimated upgrade time: February 2nd, 2026, at 05:10:00 UTC Hosts are encouraged to review the proposal on [GitHubhttps://github.com/gonka-ai/gonka/pull/668 and participate in the vote. Pre-downloading binaries in advance may hel",
-      "checksum": "1958a325a19106b134becee1980faa7c86f3018702e9ae7371ecf56f65c82b8e"
+      "content_preview": "The on-chain governance process for the v0.2.9 upgrade proposal is nearing its conclusion. - Voting ends: February 1st, 2026, at 22:02:58 UTC - Upgrade height: 2451000. - Estimated upgrade time: February 2nd, 2026, at 05:10:00 UTC Hosts are encouraged to review the proposal on GitHub https://github.com/gonka-ai/gonka/pull/668 and participate in the vote. Pre-downloading binaries in advance may hel",
+      "checksum": "55ac9b6befdd4406dc83bd1f81aceb320bb8ed565e48cf44cb8e9e22afe5cf42"
     },
     "1d626c5c155af6ddd7b4781da44ee8448c6f9a3cd127b3d9f1604da90f011aab": {
       "title": "v0.2.9 Upgrade Proposal Enters Governance",
@@ -854,8 +854,8 @@
       "time": "",
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#january-16-2026",
-      "content_preview": "Stabilization Period Extension A new governance vote is currently active. The proposal extends the current stabilization period by approximately two weeks. The extended period is intended for additional testing related to upcoming PoC changes and associated network upgrades. More details about new PoC development progress are available here: [https://github.com/gonka-ai/gonka/blob/gm/poc-status/pr",
-      "checksum": "6e8ee324099ba92dc0807113119910be26d3a526a4231e7bda4b90ce36c69687"
+      "content_preview": "Stabilization Period Extension A new governance vote is currently active. The proposal extends the current stabilization period by approximately two weeks. The extended period is intended for additional testing related to upcoming PoC changes and associated network upgrades. More details about new PoC development progress are available here: https://github.com/gonka-ai/gonka/blob/gm/poc-status/pro",
+      "checksum": "0b35008629386b3c954c3a7285d7787c3ff2609780f5b26622cae1d5eac83aef"
     },
     "385eac6c0df8163e7d064268ce8ee635b6cacccc307cbf293a7faacbaebb6dd8": {
       "title": "Temporary participant `allowlist` correction",
@@ -863,8 +863,8 @@
       "time": "",
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#january-10-2026",
-      "content_preview": "Temporary participant allowlist correction A new governance vote is currently active. It corrects a filtration edge case by adding several addresses to the [allowlisthttps://github.com/product-science/filter/blob/main/artifacts_end2end/allowlist.csv that were previously filtered out due to empty hardware names while having zero ML Node weight. The proposal also adds a small number of developer acc",
-      "checksum": "a0e5383c0ead4d1bfee14015697cf3957ff36bab8aab43132fe222906874ebdc"
+      "content_preview": "Temporary participant allowlist correction A new governance vote is currently active. It corrects a filtration edge case by adding several addresses to the allowlist https://github.com/product-science/filter/blob/main/artifacts_end2end/allowlist.csv that were previously filtered out due to empty hardware names while having zero ML Node weight. The proposal also adds a small number of developer acc",
+      "checksum": "678a78d1b6ecfe311be0a92d12f83dd52ce067175e108c3602cebcf646350029"
     },
     "04f2370e14e343482ea7f528a6a6a97f545000af287ac897de312db9f24df100": {
       "title": "Temporary participant `allowlist` approved. Activates in Epoch 135",
@@ -881,8 +881,8 @@
       "time": "",
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#january-8-2026",
-      "content_preview": "TIME IS NOW: Temporary Participant Allowlist for Stabilization Period A new governance vote is currently active following the successful adoption of the patch that resolved the PoC-related consensus failure. With normal block production restored, the network is entering a short stabilization period ahead of further growth. This vote defines a participant's allowlist ([https://github.com/product-sc",
-      "checksum": "993b3bfd5bace1f6948c2cbedd0a58ad191c0929ea225ec6754bef512aaa4f06"
+      "content_preview": "TIME IS NOW: Temporary Participant Allowlist for Stabilization Period A new governance vote is currently active following the successful adoption of the patch that resolved the PoC-related consensus failure. With normal block production restored, the network is entering a short stabilization period ahead of further growth. This vote defines a participant's allowlist (https://github.com/product-sci",
+      "checksum": "8047c69d0ec430189309c8a89691c611564b3804809d7187478c43c097b9ed9a"
     },
     "5eadcae912e7949b803695f529fe8e68301fc95c5eaf571cc56590482f65244c": {
       "title": "Network Update — Consensus Restored",
@@ -899,8 +899,8 @@
       "time": "",
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#january-8-2026_2",
-      "content_preview": "Network Update — Patch Ready for Deployment The patch addressing the recent consensus failure observed during PoC is now available. [GUIDEhttps://gonka.ai/FAQ/#upgrade-v027 To restore reliable consensus progress, installation of the patch by at least 67% of active network power is required. Until this threshold is reached, consensus advancement may remain unstable. Hosts are encouraged to apply th",
-      "checksum": "9be0549c9d945eb1c9aa6d7042278660a4b4934b31e48a11cddd78b3d9599738"
+      "content_preview": "Network Update — Patch Ready for Deployment The patch addressing the recent consensus failure observed during PoC is now available. GUIDE https://gonka.ai/FAQ/#upgrade-v027 To restore reliable consensus progress, installation of the patch by at least 67% of active network power is required. Until this threshold is reached, consensus advancement may remain unstable. Hosts are encouraged to apply th",
+      "checksum": "544590e3387c2a138affd51f1c207bf914ca080b8ebbbea52295aa30680fdef5"
     },
     "3a9bce4e5bf2758948d743639fda2b8cc3fb626a671d3d42cd05a856e1c728b8": {
       "title": "Network Update — Follow-Up",
@@ -962,8 +962,8 @@
       "time": "",
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#january-5-2026",
-      "content_preview": "A higher-than-usual missed inference rate is currently observed on the network. In many cases, this is caused by a bug where inference requests in an unsupported format were not marked as completed, even though the request itself was processed. The following update addresses this behavior. Reference: [https://github.com/gonka-ai/gonka/pull/517https://github.com/gonka-ai/gonka/pull/517 This API ver",
-      "checksum": "ab45a17a40872727d3409391322bc296a9ea375be52ccd1479186cf3c7c4a74a"
+      "content_preview": "A higher-than-usual missed inference rate is currently observed on the network. In many cases, this is caused by a bug where inference requests in an unsupported format were not marked as completed, even though the request itself was processed. The following update addresses this behavior. Reference: https://github.com/gonka-ai/gonka/pull/517 https://github.com/gonka-ai/gonka/pull/517 This API ver",
+      "checksum": "c1933935a08d3cbd1459630444b36aaf81e60208382e3d6cd010045dd7c5436a"
     },
     "78c038e78bd45597990360a0f2a711cf5de31847a18f06b1d3747a76522a97ed": {
       "title": "TheSoul — Weekly Report Call (#60–#65)",
@@ -2044,6 +2044,15 @@
       "url": "/proposals/proposals/2026-q3/82/",
       "content_preview": "Report report1 for proposal #82 has been uploaded. Read it: https://gonkadocs.com/proposals/proposals/2026-q3/82/report1/",
       "checksum": "ac064b819e6e3f4bd8c8b1ce8792886ce3a58dcce33632128c80f96201a5ff10"
+    },
+    "a1816ff75cd160bdcf76ffe4f83fbadcaa96c1d8ff1a33a342c1a09a3cc2c519": {
+      "title": "Report for proposal #77 — Gonka PR Proposal for US/Global Regions",
+      "date": "2026-08-14",
+      "time": "",
+      "event_type": "proposal_report_upload",
+      "url": "/proposals/proposals/2026-q2/77/",
+      "content_preview": "Report report5 for proposal #77 has been uploaded. Read it: https://gonkadocs.com/proposals/proposals/2026-q2/77/report5/",
+      "checksum": "97f6c47a2e27b8269ea86f36682e86c11a870cbf8d67585a7de996ca53148324"
     },
     "43a52045b4acf422efa042cfe2db2d2cd71d8fade762e214c86d9bf8979ae670": {
       "title": "Voting ends: #95 – Migrate community-sale and wrapped-token contracts",

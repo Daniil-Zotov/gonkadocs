@@ -1,5 +1,25 @@
 [
   {
+    "id": "evt_20260815070807_d46e3927",
+    "timestamp": "2026-08-15T07:08:07.287075+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Report for proposal #77 — Gonka PR Proposal for US/Global Regions",
+      "url": "/proposals/proposals/2026-q2/77/",
+      "file": "a1816ff75cd160bdcf76ffe4f83fbadcaa96c1d8ff1a33a342c1a09a3cc2c519"
+    },
+    "details": {
+      "status": null,
+      "content": "Report report5 for proposal #77 has been uploaded. Read it: https://gonkadocs.com/proposals/proposals/2026-q2/77/report5/",
+      "date": "2026-08-14",
+      "time": "",
+      "event_type": "proposal_report_upload",
+      "url": "/proposals/proposals/2026-q2/77/"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260814221508_41dea58b",
     "timestamp": "2026-08-14T22:15:08.895186+00:00",
     "section": "gonka_docs",
