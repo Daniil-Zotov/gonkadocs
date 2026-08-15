@@ -99,6 +99,7 @@ hide:
   <div class="prop-card-report"><a class="prop-report-link" href="77/report2/"><span class="prop-report-name">report2</span><span class="prop-report-date">2026-07-24</span></a></div>
   <div class="prop-card-report"><a class="prop-report-link" href="77/report3/"><span class="prop-report-name">report3</span><span class="prop-report-date">2026-07-31</span></a></div>
   <div class="prop-card-report"><a class="prop-report-link" href="77/report4/"><span class="prop-report-name">report4</span><span class="prop-report-date">2026-08-07</span></a></div>
+  <div class="prop-card-report"><a class="prop-report-link" href="77/report5/"><span class="prop-report-name">report5</span><span class="prop-report-date">2026-08-14</span></a></div>
   <div class="prop-card-report"><a class="prop-report-link" href="77/reports5/"><span class="prop-report-name">reports5</span><span class="prop-report-date">2026-08-01</span></a></div>
 </div>
 

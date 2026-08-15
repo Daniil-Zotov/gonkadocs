@@ -1,6 +1,6 @@
 {
   "section": "proposals",
-  "snapshot_time": "2026-08-15T06:01:56.387193+00:00",
+  "snapshot_time": "2026-08-15T06:20:23.531072+00:00",
   "files": {
     "2025-q3/1/full-proposal.md": {
       "title": "Adjust Params According to real block length",
@@ -451,6 +451,16 @@
       "voting_end": "",
       "description": "",
       "checksum": "6ddf033f540a25b4a24ad9943fc1fbea972237a9a63d632c35d21fe5d6b56d81"
+    },
+    "2026-q2/77/report5.md": {
+      "title": "Weekly Report — 10–14 August",
+      "status": null,
+      "content_preview": "# Weekly Report — 10–14 August\n\n**Дата публикации:** 2026-08-14\n\n📝 **Weekly update: August 10–14**\n\n• The Analytics Insight listicle is live; an overview of how teams are cutting AI inference costs in 2026. Gonka is listed third, after Together AI and Groq, and the piece works well as a go-to reference on the topic.\n• The CryptoDaily listicle is live; top 5 decentralized AI compute networks to watch in 2026.\n• Gleb's op-ed for Securities.io is in approval: we've revised it per his latest comments and are waiting for confirmation to send it to the journalist.\n• We secured two op-eds for Anastasia — in Observer and Built In. For Observer, we've received the insights and are drafting the piece.\n• We received a request for another op-ed from Anastasia via The World Financial Review, on \"Who Ow",
+      "funding": "",
+      "quorum_met": null,
+      "voting_end": "",
+      "description": "",
+      "checksum": "42602959e0b17a572595ed24eb46c777c496dd3e662b841d1c343a326925885d"
     },
     "2026-q2/77/reports5.md": {
       "title": "reports5",
