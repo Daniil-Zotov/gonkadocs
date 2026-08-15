@@ -2,7 +2,7 @@
 title: "#615 — IBC support, IBC pool"
 source: https://github.com/gonka-ai/gonka/issues/615
 issue_number: 615
-synced_at: 2026-08-15T16:46:14Z
+synced_at: 2026-08-15T17:42:22Z
 template: issues-main.html
 ---
 

@@ -26877,8 +26877,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-08-16
   
   Migrate the live community-sale contract and all wrapped-token instances to newly stored CosmWasm code, and register that wrapped-token code for future instantiations. Contract addresses and balances …
-  Yes 100.0% (11,464) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✗ Turnout 1.9% (11,464 / 587,914) · Quorum 25% (146,978)
+  Yes 100.0% (173,872) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 29.6% (173,872 / 587,914) · Quorum 25% (146,978)
 
   
     #94 – Add DeepSeek V4 Flash 0731
@@ -27940,7 +27940,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-94 proposals across 5 quarters. Last updated: 2026-08-15 17:02 UTC
+94 proposals across 5 quarters. Last updated: 2026-08-15 17:31 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -65036,8 +65036,8 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-08-16
   
   Migrate the live community-sale contract and all wrapped-token instances to newly stored CosmWasm code, and register that wrapped-token code for future instantiations. Contract addresses and balances …
-  Yes 100.0% (11,464) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✗ Turnout 1.9% (11,464 / 587,914) · Quorum 25% (146,978)
+  Yes 100.0% (173,872) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 29.6% (173,872 / 587,914) · Quorum 25% (146,978)
 
   
     #94 – Add DeepSeek V4 Flash 0731
@@ -71113,20 +71113,23 @@ Migrate the live community-sale contract and all wrapped-token instances to newl
     
   
   
-    Yes 100.0% (11,464)
+    Yes 100.0% (173,872)
     No 0.0% (0)
     Veto 0.0% (0)
     Abstain 0.0% (0)
-    Total 11,464 votes
-    ✗ Turnout 1.9% (11,464 / 587,914) · Quorum 25% (146,978)
+    Total 173,872 votes
+    ✓ Turnout 29.6% (173,872 / 587,914) · Quorum 25% (146,978)
   
 
 Voters
 
 VoterVote
 
+gonka1y2a9p5…ryv5leYes 100.0%
 gonka1tlvg4k…upktggYes 100.0%
+gonka1dkl4ma…y552cpYes 100.0%
 gonka1d694r0…kgsha0Yes 100.0%
+gonka1kx9mca…nm6wc5Yes 100.0%
 gonka168rtjf…lnkns2Yes 100.0%
 
 ---
