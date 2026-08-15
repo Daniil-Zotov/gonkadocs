@@ -3,7 +3,7 @@ title: "#801 — Inference Scaling"
 source: https://github.com/gonka-ai/gonka/discussions/801
 discussion_number: 801
 category: protocol-improvements
-synced_at: 2026-08-15T18:43:09Z
+synced_at: 2026-08-15T19:29:21Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #801](https://github.com/gonka-ai/gonka/discussions/801) every hour. 
