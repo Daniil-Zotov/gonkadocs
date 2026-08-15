@@ -68,8 +68,8 @@ hide:
     <span>Voting ends 2026-08-16</span>
   </div>
   <div class="prop-card-desc">Migrate the live community-sale contract and all wrapped-token instances to newly stored CosmWasm code, and register that wrapped-token code for future instantiations. Contract addresses and balances …</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (15,423)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>2.6%</strong> (15,423 / 591,889) · Quorum <strong>25%</strong> (147,972)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (11,464)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>2.0%</strong> (11,464 / 586,292) · Quorum <strong>25%</strong> (146,573)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">

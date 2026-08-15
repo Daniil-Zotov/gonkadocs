@@ -35,18 +35,18 @@ Migrate the live community-sale contract and all wrapped-token instances to newl
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:2.6%"></div>
+    <div class="prop-tally-yes" style="width:2.0%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (15,423)</span>
+    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (11,464)</span>
     <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-total-text">Total 15,423 votes</span>
-    <span class="prop-tally-veto-text">✗ Turnout <strong>2.6%</strong> (15,423 / 591,889) · Quorum <strong>25%</strong> (147,972)</span>
+    <span class="prop-tally-total-text">Total 11,464 votes</span>
+    <span class="prop-tally-veto-text">✗ Turnout <strong>2.0%</strong> (11,464 / 586,292) · Quorum <strong>25%</strong> (146,573)</span>
   </div>
 </div>
 
