@@ -7,7 +7,7 @@ template: issues-main.html
 
 All issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).
 Total: **329** (🟢 open: **79**, 🔴 closed: **250**).
-Updated: `2026-08-15 13:50 UTC`.
+Updated: `2026-08-15 14:46 UTC`.
 
 <ul class="issues-list">
 <li class="issues-list-item">
@@ -380,7 +380,7 @@ Updated: `2026-08-15 13:50 UTC`.
     <p class="issues-desc">```markdown Hi Gonka core team & community,  Requesting inclusion of our escrow creator address in `devshard_escrow_params.allowed_creator_addresses` to operate a self-hosted devshard gateway.  ## Esc...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/nikshh">@nikshh</a> opened 23 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/nikshh">@nikshh</a> opened 24 days ago</span>
       
     </div>
   </div>
