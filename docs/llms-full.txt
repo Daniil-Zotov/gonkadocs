@@ -26878,7 +26878,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   
   Migrate the live community-sale contract and all wrapped-token instances to newly stored CosmWasm code, and register that wrapped-token code for future instantiations. Contract addresses and balances …
   Yes 100.0% (15,423) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✗ Turnout 2.6% (15,423 / 590,251) · Quorum 25% (147,562)
+  ✗ Turnout 2.6% (15,423 / 591,889) · Quorum 25% (147,972)
 
   
     #94 – Add DeepSeek V4 Flash 0731
@@ -27940,7 +27940,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-94 proposals across 5 quarters. Last updated: 2026-08-15 06:40 UTC
+94 proposals across 5 quarters. Last updated: 2026-08-15 07:00 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -65037,7 +65037,7 @@ $90,075 USDT · Bounty Reward
   
   Migrate the live community-sale contract and all wrapped-token instances to newly stored CosmWasm code, and register that wrapped-token code for future instantiations. Contract addresses and balances …
   Yes 100.0% (15,423) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✗ Turnout 2.6% (15,423 / 590,251) · Quorum 25% (147,562)
+  ✗ Turnout 2.6% (15,423 / 591,889) · Quorum 25% (147,972)
 
   
     #94 – Add DeepSeek V4 Flash 0731
@@ -71118,7 +71118,7 @@ Migrate the live community-sale contract and all wrapped-token instances to newl
     Veto 0.0% (0)
     Abstain 0.0% (0)
     Total 15,423 votes
-    ✗ Turnout 2.6% (15,423 / 590,251) · Quorum 25% (147,562)
+    ✗ Turnout 2.6% (15,423 / 591,889) · Quorum 25% (147,972)
   
 
 Voters
