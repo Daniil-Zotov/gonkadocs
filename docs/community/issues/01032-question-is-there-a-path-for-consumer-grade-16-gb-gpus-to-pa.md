@@ -2,7 +2,7 @@
 title: "#1032 — Question: is there a path for consumer-grade 16 GB GPUs to participate as lightweight Host nodes?"
 source: https://github.com/gonka-ai/gonka/issues/1032
 issue_number: 1032
-synced_at: 2026-08-14T23:43:26Z
+synced_at: 2026-08-15T01:54:28Z
 template: issues-main.html
 ---
 
