@@ -2,7 +2,7 @@
 title: "#834 — We could not send vesting to many users in one proposal"
 source: https://github.com/gonka-ai/gonka/issues/834
 issue_number: 834
-synced_at: 2026-08-15T11:39:34Z
+synced_at: 2026-08-15T13:04:02Z
 template: issues-main.html
 ---
 
