@@ -3,7 +3,7 @@ title: "#1390 — How to return funds to the Community Pool (IBC USDT)"
 source: https://github.com/gonka-ai/gonka/discussions/1390
 discussion_number: 1390
 category: show-and-tell
-synced_at: 2026-08-15T14:33:22Z
+synced_at: 2026-08-15T15:30:34Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1390](https://github.com/gonka-ai/gonka/discussions/1390) every hour. 
