@@ -6,7 +6,7 @@ template: issues-main.html
 # Issues: no-label
 
 Issues with label **no-label**. Total: **249**.
-Updated: `2026-08-16 13:06 UTC`.
+Updated: `2026-08-16 13:51 UTC`.
 
 [← All Issues](../../index.md)
 
@@ -36,7 +36,7 @@ Updated: `2026-08-16 13:06 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/safal207">@safal207</a> opened 2 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/safal207">@safal207</a> opened 3 days ago</span>
       
     </div>
   </div>
@@ -261,7 +261,7 @@ Updated: `2026-08-16 13:06 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/nikshh">@nikshh</a> opened 24 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/nikshh">@nikshh</a> opened 25 days ago</span>
       
     </div>
   </div>
