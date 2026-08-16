@@ -19571,12 +19571,12 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 ## 🟢 Active Proposals
 
 1Active
-0Votes
+1Votes
 0Total Bid
 
 | Status | Title | Author | Votes | Avg. Bid | Closes |
 | :----- | :----- | :----- | ----: | -------: | :----- |
-| 🟢 | [Game Hackaton AI](./165501de-189e-41c3-aad9-04bac872ef0d/) | Victor | 0 | 0.00 GNK | 2026-09-11 |
+| 🟢 | [Game Hackaton AI](./165501de-189e-41c3-aad9-04bac872ef0d/) | Victor | 1 | 0.00 GNK | 2026-09-11 |
 
 ---
 
@@ -19627,7 +19627,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-08-16 18:43 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-08-16 19:29 UTC*
 
 ---
 
@@ -20266,7 +20266,7 @@ alexandr8475
 **Created:** 2026-08-12 08:34 UTC
 **Closes:** 2026-09-11 08:27 UTC
 **Language:** EN
-**Votes:** 0
+**Votes:** 1
 **Avg. Bid:** 0.00 GNK
 
 QRMint proposes an AI Game Hackathon in partnership with Gonka focused on attracting new developers to the Gonka ecosystem and encouraging them to build playable
@@ -20517,7 +20517,14 @@ The QRMint × Gonka Game Hackathon would give developers a reason to experiment 
 
 ---
 
-## Comments (1)
+## Comments (2)
+
+### 💬 Victor
+*2026-08-16 19:18* · 👍 1 · 👎 0
+
+Chat - https://t.me/+pswOVDVlwOQ2YmQ0
+
+---
 
 ### 💬 Dem | Démíngān
 *2026-08-12 08:59* · 👍 0 · 👎 0

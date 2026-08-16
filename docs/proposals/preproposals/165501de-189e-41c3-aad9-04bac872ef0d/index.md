@@ -13,7 +13,7 @@ template: proposals-main.html
 **Created:** 2026-08-12 08:34 UTC
 **Closes:** 2026-09-11 08:27 UTC
 **Language:** EN
-**Votes:** 0
+**Votes:** 1
 **Avg. Bid:** 0.00 GNK
 
 </div>
@@ -266,7 +266,14 @@ The QRMint × Gonka Game Hackathon would give developers a reason to experiment 
 
 ---
 
-## Comments (1)
+## Comments (2)
+
+### 💬 Victor
+*2026-08-16 19:18* · 👍 1 · 👎 0
+
+Chat - https://t.me/+pswOVDVlwOQ2YmQ0
+
+---
 
 ### 💬 Dem | Démíngān
 *2026-08-12 08:59* · 👍 0 · 👎 0

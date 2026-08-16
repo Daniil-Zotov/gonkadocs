@@ -14,14 +14,14 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 <div class="quarter-summary" markdown="1">
 <div class="qs-stats">
 <div class="qs-stat passed"><span class="qs-num">1</span><span class="qs-desc">Active</span></div>
-<div class="qs-stat"><span class="qs-num">0</span><span class="qs-desc">Votes</span></div>
+<div class="qs-stat"><span class="qs-num">1</span><span class="qs-desc">Votes</span></div>
 <div class="qs-stat"><span class="qs-num">0</span><span class="qs-desc">Total Bid</span></div>
 </div>
 </div>
 
 | Status | Title | Author | Votes | Avg. Bid | Closes |
 | :----- | :----- | :----- | ----: | -------: | :----- |
-| 🟢 | [Game Hackaton AI](./165501de-189e-41c3-aad9-04bac872ef0d/) | Victor | 0 | 0.00 GNK | 2026-09-11 |
+| 🟢 | [Game Hackaton AI](./165501de-189e-41c3-aad9-04bac872ef0d/) | Victor | 1 | 0.00 GNK | 2026-09-11 |
 
 
 ---
@@ -78,4 +78,4 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-08-16 18:43 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-08-16 19:29 UTC*
