@@ -1,5 +1,29 @@
 [
   {
+    "id": "evt_20260816004813_5087558d",
+    "timestamp": "2026-08-16T00:48:13.532625+00:00",
+    "section": "calendar",
+    "action": "daily_reminder",
+    "item": {
+      "title": "Today: 1 events — Voting ends: #95 – Migrate community-sale and wrapped-token contracts",
+      "url": "/community/calendar/",
+      "file": null
+    },
+    "details": {
+      "today": [
+        {
+          "title": "Voting ends: #95 – Migrate community-sale and wrapped-token contracts",
+          "date": "2026-08-16",
+          "time": "00:01 UTC",
+          "event_type": "proposal_vote_end",
+          "url": "/proposals/proposals/2026-q3/95/"
+        }
+      ],
+      "count": 1
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260815070807_d46e3927",
     "timestamp": "2026-08-15T07:08:07.287075+00:00",
     "section": "calendar",
