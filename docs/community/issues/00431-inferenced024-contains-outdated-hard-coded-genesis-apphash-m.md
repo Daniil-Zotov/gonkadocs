@@ -2,7 +2,7 @@
 title: "#431 — inferenced:0.2.4 contains outdated hard-coded genesis → AppHash mismatch prevents all nodes from syncing"
 source: https://github.com/gonka-ai/gonka/issues/431
 issue_number: 431
-synced_at: 2026-08-16T07:51:34Z
+synced_at: 2026-08-16T08:53:06Z
 template: issues-main.html
 ---
 
