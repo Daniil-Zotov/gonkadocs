@@ -2,7 +2,7 @@
 title: "#1245 — Request to be added as a Gonka broker (for run my own gateway)"
 source: https://github.com/gonka-ai/gonka/issues/1245
 issue_number: 1245
-synced_at: 2026-08-16T03:15:56Z
+synced_at: 2026-08-16T04:04:13Z
 template: issues-main.html
 ---
 

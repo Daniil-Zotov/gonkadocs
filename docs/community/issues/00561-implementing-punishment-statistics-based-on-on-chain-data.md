@@ -2,7 +2,7 @@
 title: "#561 — Implementing punishment statistics based on on-chain data"
 source: https://github.com/gonka-ai/gonka/issues/561
 issue_number: 561
-synced_at: 2026-08-16T03:17:12Z
+synced_at: 2026-08-16T04:05:48Z
 template: issues-main.html
 ---
 
