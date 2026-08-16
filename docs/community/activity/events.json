@@ -17,7 +17,7 @@
       "event_type": "proposal_report",
       "url": "/proposals/proposals/2026-q3/95/"
     },
-    "ai_description": null
+    "ai_description": "Proposal #95 has officially passed, greenlighting the migration of our live community-sale and all wrapped-token contracts to updated CosmWasm code. This upgrade also registers the new wrapped-token code for future use while preserving all existing contract addresses and balances. The community can now look forward to enhanced security and smoother operations as these changes are rolled out."
   },
   {
     "id": "evt_20260816004813_5087558d",
