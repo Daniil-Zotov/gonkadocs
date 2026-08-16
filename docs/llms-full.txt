@@ -19186,7 +19186,7 @@ decentralized mixture-of-experts."
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-08-15 23:15 UTC
+2026-08-16 00:59 UTC
 
 ---
 
@@ -19240,7 +19240,7 @@ curl -s https://node3.gonka.ai/chain-api/cosmos/bank/v1beta1/balances/gonka18pkq
 
 **Address:** [`gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33`](https://gonka.gg/address/gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33)
 
-Current balance: 3,102,213 GNK
+Current balance: 3,110,263 GNK
 
 The Gov Module authority is the only address permitted to execute `MsgCommunityPoolSpend` transfers from the Community Pool. When a governance proposal passes, this address signs and sends the requested funds to the specified recipient.
 
@@ -26849,7 +26849,7 @@ HardCore Arena позволит протестировать модель на �
 ## Overview
 
 94Total Proposals
-62Passed (66%)
+63Passed (67%)
 30Rejected (32%)
 1Failed (1%)
 
@@ -26869,8 +26869,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
 
   
     #95 – Migrate community-sale and wrapped-token contracts
-    
-    Voting
+    Passed
   
   
     Submitted 2026-08-14
@@ -27940,7 +27939,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-94 proposals across 5 quarters. Last updated: 2026-08-16 00:00 UTC
+94 proposals across 5 quarters. Last updated: 2026-08-16 01:50 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -65011,7 +65010,7 @@ Contract Details
 ## 2026-Q3 Summary
 
 16Total Proposals
-10Passed (62%)
+11Passed (69%)
 5Rejected (31%)
 
 Governance Parameters7
@@ -65028,8 +65027,7 @@ $90,075 USDT · Bounty Reward
 
   
     #95 – Migrate community-sale and wrapped-token contracts
-    
-    Voting
+    Passed
   
   
     Submitted 2026-08-14
@@ -71086,7 +71084,7 @@ Contract Details
 
 # #95 – Migrate community-sale and wrapped-token contracts
 
-Voting
+Passed
 
 **Proposal ID:** `95`
 
