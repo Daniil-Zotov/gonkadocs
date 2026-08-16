@@ -2,7 +2,7 @@
 title: "#1067 — bug: ClaimRewards error handling — payout path silently continues on failure"
 source: https://github.com/gonka-ai/gonka/issues/1067
 issue_number: 1067
-synced_at: 2026-08-16T19:39:46Z
+synced_at: 2026-08-16T20:43:21Z
 template: issues-main.html
 ---
 
