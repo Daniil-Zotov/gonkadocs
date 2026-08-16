@@ -1,6 +1,6 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-08-16T00:48:13.443350+00:00",
+  "snapshot_time": "2026-08-16T02:07:24.722878+00:00",
   "files": {
     "d20f0b7f63fffff2927833d9557050f626cd934d5ab3479488af3773000f3011": {
       "title": "▶️ Ancapex Live: Gonka Overview",
@@ -2054,14 +2054,14 @@
       "content_preview": "Report report5 for proposal #77 has been uploaded. Read it: https://gonkadocs.com/proposals/proposals/2026-q2/77/report5/",
       "checksum": "97f6c47a2e27b8269ea86f36682e86c11a870cbf8d67585a7de996ca53148324"
     },
-    "43a52045b4acf422efa042cfe2db2d2cd71d8fade762e214c86d9bf8979ae670": {
-      "title": "Voting ends: #95 – Migrate community-sale and wrapped-token contracts",
+    "60c2187d1e7404ac2595cdca19d0ed0aae21ea41ad32207cffb84bab2abb3e30": {
+      "title": "Passed: #95 – Migrate community-sale and wrapped-token contracts",
       "date": "2026-08-16",
       "time": "00:01 UTC",
-      "event_type": "proposal_vote_end",
+      "event_type": "proposal_report",
       "url": "/proposals/proposals/2026-q3/95/",
       "content_preview": "Migrate the live community-sale contract and all wrapped-token instances to newly stored CosmWasm code, and register that wrapped-token code for future instantiations. Contract addresses and balances …",
-      "checksum": "2890ce918b8dcb8d21ac2788eee6c7e3ce9efc1f69d0cccb1d9a7a4748d1f521"
+      "checksum": "4f67a1787abc12c467883d7b74a1bb551717f6559f6b3178a161bbe18933f52b"
     }
   }
 }
