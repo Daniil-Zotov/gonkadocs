@@ -1238,13 +1238,13 @@
   {
     "date": "2026-08-16",
     "category": "governance",
-    "type": "proposal_vote_end",
-    "title": "Voting ends: #95 – Migrate community-sale and wrapped-token contracts",
+    "type": "proposal_report",
+    "title": "Passed: #95 – Migrate community-sale and wrapped-token contracts",
     "url": "/proposals/proposals/2026-q3/95/",
     "time": "00:01 UTC",
     "description": "Migrate the live community-sale contract and all wrapped-token instances to newly stored CosmWasm code, and register that wrapped-token code for future instantiations. Contract addresses and balances …",
     "tags": [
-      "voting"
+      "passed"
     ]
   }
 ]
