@@ -2,7 +2,7 @@
 title: "#1205 — chain-halt: `markValidatorForDeletion` jailed branch races CometBFT validator-update lag → slashing fails with ErrNoValidatorFound"
 source: https://github.com/gonka-ai/gonka/issues/1205
 issue_number: 1205
-synced_at: 2026-08-16T21:38:43Z
+synced_at: 2026-08-16T22:42:30Z
 template: issues-main.html
 ---
 
