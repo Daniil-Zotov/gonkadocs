@@ -2,7 +2,7 @@
 title: "#1542 — devshardctl: ParseProtocolVersion rejects route v4 (noisy rotation fallback log)"
 source: https://github.com/gonka-ai/gonka/issues/1542
 issue_number: 1542
-synced_at: 2026-08-16T20:42:27Z
+synced_at: 2026-08-16T21:38:00Z
 template: issues-main.html
 ---
 
