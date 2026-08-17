@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260817221626_e552eaf7",
+    "timestamp": "2026-08-17T22:16:26.733702+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "Pricing",
+      "url": "/gonka/docs/wallet/pricing/",
+      "file": "wallet/pricing.md"
+    },
+    "details": {
+      "content_before": "# Pricing\n\nThe network uses an automatic dynamic pricing mechanism for inference costs.\nEach model has a real-time AI token price that is recalculated every block based on actual demand and utilization metrics.\n\n!!! note \"This is the network price, not the price you pay a broker\"\n    The mechanism described here sets the **protocol-level, on-chain price per inference unit**. If you access Gonka through a [community broker](../developer/quickstart.md#11-pick-a-broker), the broker is an independent reseller that sets its own retail prices, payment methods, and rate limits on top of this, and may cover its own costs as well. The price you actually pay therefore differs from broker to broker, so check each broker's terms and find what works for you.\n\n## Pricing Mechanism\n\n- The system monitors",
+      "content_after": "# Pricing\n\nThe network uses an automatic dynamic pricing mechanism for inference costs.\nEach model has a real-time AI token price that is recalculated every block based on actual demand and utilization metrics.\n\n!!! note \"This is the network price, not the price you pay a broker\"\n    The mechanism described here sets the **protocol-level, on-chain price per inference unit**. If you access Gonka through a [community broker](../developer/quickstart.md#11-pick-a-broker), the broker is an independent reseller that sets its own retail prices, payment methods, and rate limits on top of this, and may cover its own costs as well. The price you actually pay therefore differs from broker to broker, so check each broker's terms and find what works for you.\n\n## Current on-chain prices\n\nThe table below"
+    },
+    "ai_description": "The Protocol Docs pricing page has been updated to include a live table of current on-chain prices, making it easier to see real-time inference costs at a glance rather than just reading about the mechanism. This gives developers and users direct visibility into what the network is charging before brokers add their own fees."
+  },
+  {
     "id": "evt_20260816020724_21287ce9",
     "timestamp": "2026-08-16T02:07:24.703388+00:00",
     "section": "calendar",

@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-08-17T21:18:30.937042+00:00",
+  "snapshot_time": "2026-08-17T22:16:30.909131+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -389,8 +389,8 @@
     "wallet/pricing.md": {
       "title": "Pricing",
       "status": null,
-      "content_preview": "# Pricing\n\nThe network uses an automatic dynamic pricing mechanism for inference costs.\nEach model has a real-time AI token price that is recalculated every block based on actual demand and utilization metrics.\n\n!!! note \"This is the network price, not the price you pay a broker\"\n    The mechanism described here sets the **protocol-level, on-chain price per inference unit**. If you access Gonka through a [community broker](../developer/quickstart.md#11-pick-a-broker), the broker is an independent reseller that sets its own retail prices, payment methods, and rate limits on top of this, and may cover its own costs as well. The price you actually pay therefore differs from broker to broker, so check each broker's terms and find what works for you.\n\n## Pricing Mechanism\n\n- The system monitors",
-      "checksum": "6e0a60c36bd2b8af90c49dc206a4b4b2904c37ced908428083885554354973ee"
+      "content_preview": "# Pricing\n\nThe network uses an automatic dynamic pricing mechanism for inference costs.\nEach model has a real-time AI token price that is recalculated every block based on actual demand and utilization metrics.\n\n!!! note \"This is the network price, not the price you pay a broker\"\n    The mechanism described here sets the **protocol-level, on-chain price per inference unit**. If you access Gonka through a [community broker](../developer/quickstart.md#11-pick-a-broker), the broker is an independent reseller that sets its own retail prices, payment methods, and rate limits on top of this, and may cover its own costs as well. The price you actually pay therefore differs from broker to broker, so check each broker's terms and find what works for you.\n\n## Current on-chain prices\n\nThe table below",
+      "checksum": "2b1ddb6e0793ce4b0ef747ed3c07da919db2239ee1fc53ddee06eeb5625fcd0a"
     },
     "wallet/wallet-and-transfer-guide.md": {
       "title": "Wallet & Transfer Guide",
