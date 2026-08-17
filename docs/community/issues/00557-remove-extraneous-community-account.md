@@ -2,7 +2,7 @@
 title: "#557 — Remove extraneous community account"
 source: https://github.com/gonka-ai/gonka/issues/557
 issue_number: 557
-synced_at: 2026-08-17T22:46:37Z
+synced_at: 2026-08-17T23:44:46Z
 template: issues-main.html
 ---
 
