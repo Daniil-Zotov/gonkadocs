@@ -6,7 +6,7 @@
 When answering questions about Gonka internals, use this map to find the relevant
 files, then fetch the raw source from the /gonka-code/ URLs below.
 
-- Source files: 2415 (Go/proto: 1330, markdown design docs: 286)
+- Source files: 2441 (Go/proto: 1331, markdown design docs: 290)
 
 ## Inference Chain (Cosmos SDK blockchain)
 
@@ -1434,6 +1434,7 @@ OpenAI-compatible API layer, broker, event listener, node manager.
 - `decentralized-api/broker/commands.go` → https://gonkadocs.com/gonka-code/decentralized-api/broker/commands.go
 - `decentralized-api/broker/escrow_load.go` → https://gonkadocs.com/gonka-code/decentralized-api/broker/escrow_load.go
 - `decentralized-api/broker/lock_helpers.go` → https://gonkadocs.com/gonka-code/decentralized-api/broker/lock_helpers.go
+- `decentralized-api/broker/model_deployment.go` → https://gonkadocs.com/gonka-code/decentralized-api/broker/model_deployment.go
 - `decentralized-api/broker/node_admin_commands.go` → https://gonkadocs.com/gonka-code/decentralized-api/broker/node_admin_commands.go
 - `decentralized-api/broker/node_lock.go` → https://gonkadocs.com/gonka-code/decentralized-api/broker/node_lock.go
 - `decentralized-api/broker/node_worker.go` → https://gonkadocs.com/gonka-code/decentralized-api/broker/node_worker.go
@@ -2240,8 +2241,19 @@ Deployment scripts and configs.
 - `deploy/join/docker-compose.versiond.yml` → https://gonkadocs.com/gonka-code/deploy/join/docker-compose.versiond.yml
 - `deploy/join/docker-compose.yml` → https://gonkadocs.com/gonka-code/deploy/join/docker-compose.yml
 - `deploy/join/nginx.conf` → https://gonkadocs.com/gonka-code/deploy/join/nginx.conf
+- `deploy/join/node-config-deepseekv4flash0731-B200-nvfp4.json` → https://gonkadocs.com/gonka-code/deploy/join/node-config-deepseekv4flash0731-B200-nvfp4.json
+- `deploy/join/node-config-deepseekv4flash0731-B200.json` → https://gonkadocs.com/gonka-code/deploy/join/node-config-deepseekv4flash0731-B200.json
+- `deploy/join/node-config-deepseekv4flash0731-B300-nvfp4.json` → https://gonkadocs.com/gonka-code/deploy/join/node-config-deepseekv4flash0731-B300-nvfp4.json
+- `deploy/join/node-config-deepseekv4flash0731-B300.json` → https://gonkadocs.com/gonka-code/deploy/join/node-config-deepseekv4flash0731-B300.json
+- `deploy/join/node-config-deepseekv4flash0731-H100.json` → https://gonkadocs.com/gonka-code/deploy/join/node-config-deepseekv4flash0731-H100.json
+- `deploy/join/node-config-deepseekv4flash0731-H200.json` → https://gonkadocs.com/gonka-code/deploy/join/node-config-deepseekv4flash0731-H200.json
 - `deploy/join/node-config-kimik26-B200.json` → https://gonkadocs.com/gonka-code/deploy/join/node-config-kimik26-B200.json
 - `deploy/join/node-config-kimik26-H200.json` → https://gonkadocs.com/gonka-code/deploy/join/node-config-kimik26-H200.json
+- `deploy/join/node-config-minimaxm27-A100.json` → https://gonkadocs.com/gonka-code/deploy/join/node-config-minimaxm27-A100.json
+- `deploy/join/node-config-minimaxm27-B200.json` → https://gonkadocs.com/gonka-code/deploy/join/node-config-minimaxm27-B200.json
+- `deploy/join/node-config-minimaxm27-B300.json` → https://gonkadocs.com/gonka-code/deploy/join/node-config-minimaxm27-B300.json
+- `deploy/join/node-config-minimaxm27-H100.json` → https://gonkadocs.com/gonka-code/deploy/join/node-config-minimaxm27-H100.json
+- `deploy/join/node-config-minimaxm27-H200.json` → https://gonkadocs.com/gonka-code/deploy/join/node-config-minimaxm27-H200.json
 - `deploy/join/node-config-qwen235B-B200.json` → https://gonkadocs.com/gonka-code/deploy/join/node-config-qwen235B-B200.json
 - `deploy/join/node-config.json` → https://gonkadocs.com/gonka-code/deploy/join/node-config.json
 - `deploy/join/observability/grafana/dashboards/devshard-details.json` → https://gonkadocs.com/gonka-code/deploy/join/observability/grafana/dashboards/devshard-details.json
@@ -2419,6 +2431,7 @@ Cloud testnet deployment (k8s, devshard-testing).
 
 Additional design docs and papers (whitepaper, tokenomics).
 
+- `docs/adr/mlnode-monitoring-metrics-v1.md` → https://gonkadocs.com/gonka-code/docs/adr/mlnode-monitoring-metrics-v1.md
 - `docs/binom-stattest.md` → https://gonkadocs.com/gonka-code/docs/binom-stattest.md
 - `docs/chat-api/README.md` → https://gonkadocs.com/gonka-code/docs/chat-api/README.md
 - `docs/chat-api/agents.md` → https://gonkadocs.com/gonka-code/docs/chat-api/agents.md
@@ -2429,16 +2442,19 @@ Additional design docs and papers (whitepaper, tokenomics).
 - `docs/chat-api/troubleshooting.md` → https://gonkadocs.com/gonka-code/docs/chat-api/troubleshooting.md
 - `docs/consumer_setup.md` → https://gonkadocs.com/gonka-code/docs/consumer_setup.md
 - `docs/cosmos_changes.md` → https://gonkadocs.com/gonka-code/docs/cosmos_changes.md
+- `docs/decision-log.md` → https://gonkadocs.com/gonka-code/docs/decision-log.md
 - `docs/devshard-0.2.13-optimizations.md` → https://gonkadocs.com/gonka-code/docs/devshard-0.2.13-optimizations.md
 - `docs/gonka_poc.md` → https://gonkadocs.com/gonka-code/docs/gonka_poc.md
 - `docs/gonka_poc_inference.md` → https://gonkadocs.com/gonka-code/docs/gonka_poc_inference.md
 - `docs/join_chain.md` → https://gonkadocs.com/gonka-code/docs/join_chain.md
 - `docs/manual-recover.md` → https://gonkadocs.com/gonka-code/docs/manual-recover.md
 - `docs/observability/observability-overview.md` → https://gonkadocs.com/gonka-code/docs/observability/observability-overview.md
+- `docs/observability.md` → https://gonkadocs.com/gonka-code/docs/observability.md
 - `docs/papers/Gonka_white_paper.pdf` → https://gonkadocs.com/gonka-code/docs/papers/Gonka_white_paper.pdf
 - `docs/papers/InferenceFlow.png` → https://gonkadocs.com/gonka-code/docs/papers/InferenceFlow.png
 - `docs/prepare-upgrade-proposal.md` → https://gonkadocs.com/gonka-code/docs/prepare-upgrade-proposal.md
 - `docs/prepare_join_image.md` → https://gonkadocs.com/gonka-code/docs/prepare_join_image.md
+- `docs/release-candidate-gpu-profile.md` → https://gonkadocs.com/gonka-code/docs/release-candidate-gpu-profile.md
 - `docs/specs/genesistransfer/genesistransfer-cli-guide.md` → https://gonkadocs.com/gonka-code/docs/specs/genesistransfer/genesistransfer-cli-guide.md
 - `docs/specs/genesistransfer/genesistransfer-deployment.md` → https://gonkadocs.com/gonka-code/docs/specs/genesistransfer/genesistransfer-deployment.md
 - `docs/specs/inference-validation-flow.md` → https://gonkadocs.com/gonka-code/docs/specs/inference-validation-flow.md
