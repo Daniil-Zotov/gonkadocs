@@ -3,7 +3,7 @@ title: "#870 — Gonka AI Testnet"
 source: https://github.com/gonka-ai/gonka/discussions/870
 discussion_number: 870
 category: protocol-improvements
-synced_at: 2026-08-18T11:34:56Z
+synced_at: 2026-08-18T13:03:01Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #870](https://github.com/gonka-ai/gonka/discussions/870) every hour. 
