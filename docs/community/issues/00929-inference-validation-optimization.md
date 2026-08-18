@@ -2,7 +2,7 @@
 title: "#929 — Inference validation optimization"
 source: https://github.com/gonka-ai/gonka/issues/929
 issue_number: 929
-synced_at: 2026-08-18T13:14:28Z
+synced_at: 2026-08-18T14:01:26Z
 template: issues-main.html
 ---
 
