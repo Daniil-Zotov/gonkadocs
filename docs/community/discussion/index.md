@@ -4,7 +4,7 @@ title: "GitHub Discussions"
 
 # GitHub Discussions — `gonka-ai/gonka`
 
-Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **84**. Обновлено: `2026-08-18 20:34 UTC`.
+Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **75**. Обновлено: `2026-08-18 21:33 UTC`.
 
 ## 📂 Категории
 
@@ -13,10 +13,10 @@ title: "GitHub Discussions"
 | [:mega: Announcements](announcements/index.md) | 1 |
 | [:jigsaw: Ecosystem](ecosystem/index.md) | 7 |
 | [:speech_balloon: General](general/index.md) | 5 |
-| [:bookmark_tabs: Governance Proposal Reports](governance-proposal-reports/index.md) | 4 |
+| [:bookmark_tabs: Governance Proposal Reports](governance-proposal-reports/index.md) | 3 |
 | [:gear: Protocol Improvements](protocol-improvements/index.md) | 42 |
 | [:interrobang: Q&A](q-a/index.md) | 3 |
-| [:raised_hands: Show and Tell](show-and-tell/index.md) | 22 |
+| [:raised_hands: Show and Tell](show-and-tell/index.md) | 14 |
 
 ## 🕒 Последние обновлённые
 
@@ -26,7 +26,6 @@ title: "GitHub Discussions"
 | [1582](governance-proposal-reports/1582-proposal-82-external-test-lab-community-devnet-m1-report.md) | [Proposal #82: External Test Lab & Community DevNet — M1 Report](governance-proposal-reports/1582-proposal-82-external-test-lab-community-devnet-m1-report.md) | :bookmark_tabs: Governance Proposal Reports | [@paranjko](https://github.com/paranjko) | 2026-08-11 |
 | [1388](protocol-improvements/1388-external-test-lab-community-devnet.md) | [External Test Lab & Community DevNet](protocol-improvements/1388-external-test-lab-community-devnet.md) | :gear: Protocol Improvements | [@paranjko](https://github.com/paranjko) | 2026-08-11 |
 | [1561](governance-proposal-reports/1561-proposal-77-input-global-monthly-report-july.md) | [Proposal #77: INPUT Global - Monthly Report \|\| July](governance-proposal-reports/1561-proposal-77-input-global-monthly-report-july.md) | :bookmark_tabs: Governance Proposal Reports | [@apakhtina](https://github.com/apakhtina) | 2026-08-07 |
-| [1477](governance-proposal-reports/1477-proposal-74-gonka-labs-monthly-report-no1.md) | [Proposal #74: Gonka Labs - Monthly Report No.1](governance-proposal-reports/1477-proposal-74-gonka-labs-monthly-report-no1.md) | :bookmark_tabs: Governance Proposal Reports | [@gonkalabs](https://github.com/gonkalabs) | 2026-08-05 |
 | [1540](governance-proposal-reports/1540-proposal-51-webx-asia-2026-post-event-report.md) | [Proposal #51: WebX Asia 2026 — Post-Event Report](governance-proposal-reports/1540-proposal-51-webx-asia-2026-post-event-report.md) | :bookmark_tabs: Governance Proposal Reports | [@Ryanchen911](https://github.com/Ryanchen911) | 2026-08-05 |
 | [864](ecosystem/0864-proposal-deploy-gonka-ai-web-platform-v1-to-production-appgo.md) | [Proposal: Deploy Gonka AI Web Platform v1 to Production (app.gonka.ai)](ecosystem/0864-proposal-deploy-gonka-ai-web-platform-v1-to-production-appgo.md) | :jigsaw: Ecosystem | [@zpoken](https://github.com/zpoken) | 2026-08-05 |
 | [816](ecosystem/0816-gonka-node-manager-automated-node-deployment-updates-and-mon.md) | [Gonka Node Manager — Automated Node Deployment, Updates, and Monitoring](ecosystem/0816-gonka-node-manager-automated-node-deployment-updates-and-mon.md) | :jigsaw: Ecosystem | [@ochenUmnayaKatyshka](https://github.com/ochenUmnayaKatyshka) | 2026-08-05 |
@@ -41,4 +40,5 @@ title: "GitHub Discussions"
 | [1367](protocol-improvements/1367-high-availability-architecture.md) | [High-Availability Architecture](protocol-improvements/1367-high-availability-architecture.md) | :gear: Protocol Improvements | [@a-kuprin](https://github.com/a-kuprin) | 2026-07-22 |
 | [1476](show-and-tell/1476-unposted.md) | [unposted](show-and-tell/1476-unposted.md) | :raised_hands: Show and Tell | [@nsvdev](https://github.com/nsvdev) | 2026-07-18 |
 | [1404](protocol-improvements/1404-add-a-lower-barrier-glm-52-option-and-consider-deepseek-v4-f.md) | [Add a lower-barrier GLM-5.2 option and consider DeepSeek-V4-Flash as the default model](protocol-improvements/1404-add-a-lower-barrier-glm-52-option-and-consider-deepseek-v4-f.md) | :gear: Protocol Improvements | [@enonog](https://github.com/enonog) | 2026-07-16 |
-| [1363](show-and-tell/1363-openbroker-broker-for-brokers-or-devshards-as-a-service.md) | [OpenBroker - broker for brokers or Devshards as a service.](show-and-tell/1363-openbroker-broker-for-brokers-or-devshards-as-a-service.md) | :raised_hands: Show and Tell | [@gonkalabs](https://github.com/gonkalabs) | 2026-07-09 |
+| [1141](show-and-tell/1141-ibc-usdt-withdrawal-guide.md) | [IBC USDT Withdrawal Guide](show-and-tell/1141-ibc-usdt-withdrawal-guide.md) | :raised_hands: Show and Tell | [@paranjko](https://github.com/paranjko) | 2026-07-08 |
+| [1390](show-and-tell/1390-how-to-return-funds-to-the-community-pool-ibc-usdt.md) | [How to return funds to the Community Pool (IBC USDT)](show-and-tell/1390-how-to-return-funds-to-the-community-pool-ibc-usdt.md) | :raised_hands: Show and Tell | [@paranjko](https://github.com/paranjko) | 2026-07-03 |

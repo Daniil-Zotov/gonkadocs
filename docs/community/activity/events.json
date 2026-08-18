@@ -1,5 +1,140 @@
 [
   {
+    "id": "evt_20260818213335_bdebc4c8",
+    "timestamp": "2026-08-18T21:33:35.542536+00:00",
+    "section": "discussions",
+    "action": "deleted",
+    "item": {
+      "title": "Proposal #74: Gonka Labs - Monthly Report No.1",
+      "url": null,
+      "file": "governance-proposal-reports/1477-proposal-74-gonka-labs-monthly-report-no1.md"
+    },
+    "details": {
+      "content": "> 🔄 **Auto-sync:** from [Discussion #1477](https://github.com/gonka-ai/gonka/discussions/1477) every hour. \n\n# Proposal #74: Gonka Labs - Monthly Report No.1\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-07-18 18:31 UTC · \n\n---\n\n## 📝 Описание\n\n# \n\n![](https://resource.inkdown.me/assets/11g/tk4ZX4b2sHaSu/ZarQaYSqnMMS69H.png)\n\nHey! Gonka Labs here.\n\nOn June 12th the community passed [Proposal #74](https://gonka.gg/network/proposals/74). That vote funded the next stretch of work - infra, ops, and shipping products for the ecosystem.\n\nThis is the first public progress report we promised in the proposal (monthly updates on GitHub Discussions). Short version of what landed so far:\n\n1. **OpenBroker** - new p"
+    },
+    "ai_description": "The discussion \"Proposal #74: Gonka Labs - Monthly Report No.1\" has been removed from the feed. This was the first monthly progress update from Gonka Labs covering the work funded by the passed proposal, including early progress on OpenBroker and ecosystem infrastructure."
+  },
+  {
+    "id": "evt_20260818213335_e0716393",
+    "timestamp": "2026-08-18T21:33:35.542558+00:00",
+    "section": "discussions",
+    "action": "deleted",
+    "item": {
+      "title": "Gonka Labs: How We're Building the Infrastructure for Gonka",
+      "url": null,
+      "file": "show-and-tell/0880-gonka-labs-how-were-building-the-infrastructure-for-gonka.md"
+    },
+    "details": {
+      "content": "> 🔄 **Auto-sync:** from [Discussion #880](https://github.com/gonka-ai/gonka/discussions/880) every hour. \n\n# Gonka Labs: How We're Building the Infrastructure for Gonka\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-03-12 21:40 UTC · \n\n---\n\n## 📝 Описание\n\n**Gonka Labs: How We're Building the Infrastructure for Gonka**\n\n![telegram-cloud-photo-size-2-5303139431004969226-y](https://github.com/user-attachments/assets/de34893d-4761-4d49-b2a1-99344b7c681c)\n\nThat one Sunday evening was not exactly usual. I was preparing for the upcoming workweek and reading startup news when I stumbled upon something truly interesting. I immediately called my friend and business partner, Mike, and sent him a link to the video. It was an int"
+    },
+    "ai_description": "The discussion \"Gonka Labs: How We're Building the Infrastructure for Gonka\" has been removed from the feed. This keeps our discussions focused and ensures the community sees active, relevant updates about the network."
+  },
+  {
+    "id": "evt_20260818213335_9f56f62c",
+    "timestamp": "2026-08-18T21:33:35.542568+00:00",
+    "section": "discussions",
+    "action": "deleted",
+    "item": {
+      "title": "Gonka.gg - Explorer, Analytics Platform, Data Provider for Gonka",
+      "url": null,
+      "file": "show-and-tell/0887-gonkagg-explorer-analytics-platform-data-provider-for-gonka.md"
+    },
+    "details": {
+      "content": "> 🔄 **Auto-sync:** from [Discussion #887](https://github.com/gonka-ai/gonka/discussions/887) every hour. \n\n# Gonka.gg - Explorer, Analytics Platform, Data Provider for Gonka\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-03-13 21:23 UTC · \n\n---\n\n## 📝 Описание\n\n![](https://resource.inkdown.me/assets/11g/tk4ZX4b2sHaSu/77yTDB4x9hoLewm.png)\n\nWhen we launched gonka.gg on **December 12, 2025** ([read the pre-story](https://github.com/gonka-ai/gonka/discussions/880)), our goal was simple: give Gonka users a reliable place to verify their transactions. What happened next surprised even us. \n\nThe community responded immediately and enthusiastically. Within weeks, it was clear that a transaction explorer was just the beginning"
+    },
+    "ai_description": "The discussion post about Gonka.gg, our community-built explorer and analytics platform, has been removed from the feed. This was a popular Show and Tell thread that tracked the evolution of gonka.gg from a simple transaction explorer into a broader data provider since its December launch. Keep an eye out for updates from the team on where this conversation will continue."
+  },
+  {
+    "id": "evt_20260818213335_1e1d35bd",
+    "timestamp": "2026-08-18T21:33:35.542576+00:00",
+    "section": "discussions",
+    "action": "deleted",
+    "item": {
+      "title": "OpenGNK - A Local OpenAI-Compatible Proxy for Gonka",
+      "url": null,
+      "file": "show-and-tell/0890-opengnk-a-local-openai-compatible-proxy-for-gonka.md"
+    },
+    "details": {
+      "content": "> 🔄 **Auto-sync:** from [Discussion #890](https://github.com/gonka-ai/gonka/discussions/890) every hour. \n\n# OpenGNK - A Local OpenAI-Compatible Proxy for Gonka\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-03-15 20:10 UTC · \n\n---\n\n## 📝 Описание\n\nWhen we were building and testing [proxy.gonka.gg](https://proxy.gonka.gg) - our cloud API endpoint for Gonka inference - we noticed a pattern in the community: developers also wanted to sign inference request and transmit them to the Network from local environment, keep their private keys on their own machines, and plug Gonka directly into their existing tooling without any intermediary (cloud proxy). They were asking for a self-hosted version of what we had built for ours"
+    },
+    "ai_description": "The discussion \"OpenGNK - A Local OpenAI-Compatible Proxy for Gonka\" has been removed from the feed. This was a Show and Tell post by gonkalabs that introduced a self-hosted, OpenAI-compatible proxy allowing developers to run inference requests locally while keeping their private keys on their own machines instead of using the cloud proxy. We are cleaning up the discussions section and this thread is no longer available here."
+  },
+  {
+    "id": "evt_20260818213335_f3e08bfb",
+    "timestamp": "2026-08-18T21:33:35.542584+00:00",
+    "section": "discussions",
+    "action": "deleted",
+    "item": {
+      "title": "Gonka Name Service (GNS) - Human Readable names for the Gonka Network",
+      "url": null,
+      "file": "show-and-tell/0898-gonka-name-service-gns-human-readable-names-for-the-gonka-ne.md"
+    },
+    "details": {
+      "content": "> 🔄 **Auto-sync:** from [Discussion #898](https://github.com/gonka-ai/gonka/discussions/898) every hour. \n\n# Gonka Name Service (GNS) - Human Readable names for the Gonka Network\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-03-16 18:09 UTC · \n\n---\n\n## 📝 Описание\n\nEvery blockchain eventually needs a naming layer. Ethereum has ENS. Cosmos chains have ICNS. Until now, Gonka didn't have one. So we built it.\n\n**Gonka Name Service (GNS)** lets anyone register a short, memorable `.gnk` name - like `mike.gnk` - that resolves to a `gonka1...` wallet address. It is live on mainnet, integrated into [GG Wallet](https://chromewebstore.google.com/detail/gg-wallet/elicodfmaffbndngiifcpmammicgjidd), [gonka.gg](https://gonka.gg) ex"
+    },
+    "ai_description": "The Gonka Name Service discussion has been removed from the community feed. This proposal outlined plans for a human-readable naming layer with .gnk domains to simplify wallet addresses across the network. If you were following this topic, you may want to check the original GitHub discussion for updates on its current status."
+  },
+  {
+    "id": "evt_20260818213335_744e2eb0",
+    "timestamp": "2026-08-18T21:33:35.542591+00:00",
+    "section": "discussions",
+    "action": "deleted",
+    "item": {
+      "title": "GG Wallet - An Open-Source Browser Wallet strictly for Gonka",
+      "url": null,
+      "file": "show-and-tell/0938-gg-wallet-an-open-source-browser-wallet-strictly-for-gonka.md"
+    },
+    "details": {
+      "content": "> 🔄 **Auto-sync:** from [Discussion #938](https://github.com/gonka-ai/gonka/discussions/938) every hour. \n\n# GG Wallet - An Open-Source Browser Wallet strictly for Gonka\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-03-23 20:32 UTC · \n\n---\n\n## 📝 Описание\n\nWhen we launched [gonka.gg](https://gonka.gg) and started using the Gonka network daily, one thing kept slowing us down: there was no native browser wallet for Gonka. Every transaction meant using the CLI, copying long addresses, and manually constructing commands or using browser wallets that needed flaky configuration or using wallets where we needed to send private key to with some ui without access to the code processing the request. We believe that Gonka can p"
+    },
+    "ai_description": "The discussion \"GG Wallet - An Open-Source Browser Wallet strictly for Gonka\" by gonkalabs has been removed from the forum. This Show and Tell post previously highlighted the need for a native Gonka browser wallet and introduced an open-source alternative to CLI-based transactions. We will keep the community updated if this project or related discussion returns in a different form."
+  },
+  {
+    "id": "evt_20260818213335_2cb50f04",
+    "timestamp": "2026-08-18T21:33:35.542598+00:00",
+    "section": "discussions",
+    "action": "deleted",
+    "item": {
+      "title": "Gonka Contract Playground - write, compile, simulate, and deploy CosmWasm without leaving the browser",
+      "url": null,
+      "file": "show-and-tell/0989-gonka-contract-playground-write-compile-simulate-and-deploy-.md"
+    },
+    "details": {
+      "content": "> 🔄 **Auto-sync:** from [Discussion #989](https://github.com/gonka-ai/gonka/discussions/989) every hour. \n\n# Gonka Contract Playground - write, compile, simulate, and deploy CosmWasm without leaving the browser\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-03-31 22:32 UTC · \n\n---\n\n## 📝 Описание\n\n<img width=\"1598\" height=\"818\" alt=\"Снимок экрана 2026-04-01 в 01 25 50\" src=\"https://github.com/user-attachments/assets/a60cac40-16b6-4c74-ba2a-fa20f1b28ba5\" />\n\n## Motivation\n\nBuilding smart contracts is, usually, a pain - it keeps coming up: you want to try a small contract idea, poke at something already deployed, or show a teammate how a message works - and you end up juggling a local Rust toolchain, `wasmd`, scripts, a"
+    },
+    "ai_description": "A discussion showcasing the Gonka Contract Playground, a browser-based tool for writing, compiling, and deploying CosmWasm smart contracts, has been removed from the feed. The community will no longer see this Show and Tell post from gonkalabs about simplifying contract development without a local Rust toolchain."
+  },
+  {
+    "id": "evt_20260818213335_28a9fbf0",
+    "timestamp": "2026-08-18T21:33:35.542616+00:00",
+    "section": "discussions",
+    "action": "deleted",
+    "item": {
+      "title": "rpc.gonka.gg - Managed RPC Infrastructure for Gonka (Infura/Alchemy for Gonka) with opensource core",
+      "url": null,
+      "file": "show-and-tell/1030-rpcgonkagg-managed-rpc-infrastructure-for-gonka-infuraalchem.md"
+    },
+    "details": {
+      "content": "> 🔄 **Auto-sync:** from [Discussion #1030](https://github.com/gonka-ai/gonka/discussions/1030) every hour. \n\n# rpc.gonka.gg - Managed RPC Infrastructure for Gonka (Infura/Alchemy for Gonka) with opensource core\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-04-08 10:22 UTC · \n\n---\n\n## 📝 Описание\n\nTwo days ago we sped up [gonka.gg](https://gonka.gg) by 100x.\n\nToday we are making the technology behind that speedup available to everyone.\n\nMeet [rpc.gonka.gg](https://rpc.gonka.gg) - managed RPC infrastructure for the Gonka blockchain, built by [Gonka Labs](https://gonkalabs.com).\n\nWe give developers reliable, authenticated API access to the entire Gonka blockchain through a single URL - no need to run your own nodes. The"
+    },
+    "ai_description": "A discussion about rpc.gonka.gg, the managed RPC infrastructure for Gonka blockchain offering developers authenticated API access without running their own nodes, has been removed from the community feed. The post by Gonka Labs was previously shared in the Show and Tell category."
+  },
+  {
+    "id": "evt_20260818213335_9b5a2b99",
+    "timestamp": "2026-08-18T21:33:35.542625+00:00",
+    "section": "discussions",
+    "action": "deleted",
+    "item": {
+      "title": "OpenBroker - broker for brokers or Devshards as a service.",
+      "url": null,
+      "file": "show-and-tell/1363-openbroker-broker-for-brokers-or-devshards-as-a-service.md"
+    },
+    "details": {
+      "content": "> 🔄 **Auto-sync:** from [Discussion #1363](https://github.com/gonka-ai/gonka/discussions/1363) every hour. \n\n# OpenBroker - broker for brokers or Devshards as a service.\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-06-23 22:18 UTC · \n\n---\n\n## 📝 Описание\n\nHey! **Gonka Labs** here. \n\nWe've just shipped **OpenBroker**, a platform that gives you direct access to gonka inference - pure devshards v1, v2 (and any future version) under wallet that is whitelisted to operate escrows. You get escrow capacity that scales elastically with your load, both devshard versions (and any future one), and throughput limited only by what the network itself can handle.\n\nWith OpenBroker - we make a community commitment to the overall obse"
+    },
+    "ai_description": "The discussion \"OpenBroker - broker for brokers or Devshards as a service\" by Gonka Labs has been removed from the community feed. This post previously introduced OpenBroker as a platform offering direct access to gonka inference and elastic escrow capacity for devshards. If you were following this project, you may want to check the original GitHub Discussion #1363 directly for updates."
+  },
+  {
     "id": "evt_20260818204542_1df8cfc7",
     "timestamp": "2026-08-18T20:45:42.039074+00:00",
     "section": "issues",

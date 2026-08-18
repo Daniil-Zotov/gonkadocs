@@ -3,7 +3,7 @@ title: "#811 — 🦞 OpenClaw + Gonka AI"
 source: https://github.com/gonka-ai/gonka/discussions/811
 discussion_number: 811
 category: show-and-tell
-synced_at: 2026-08-18T20:34:40Z
+synced_at: 2026-08-18T21:33:30Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #811](https://github.com/gonka-ai/gonka/discussions/811) every hour. 
@@ -48,7 +48,7 @@ This is one of the first integrations bringing Gonka's decentralized compute to 
 
 ---
 
-## 💬 Комментарии (4)
+## 💬 Комментарии (3)
 
 ### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
 
@@ -118,63 +118,3 @@ Gonka Network (分布式 GPU)
 
 ---
 *来自妙趣AI - AI工具导航与资讯平台*
-
-### Комментарий 4 — [@gonkalabs](https://github.com/gonkalabs)
-
-*2026-04-01 09:02 UTC*
-
-Hi everyone - great thread. Community paths like the [Mingles gateway](https://gonka-gateway.mingles.ai/) (see the original post above) and [GonkaGate’s OpenClaw integration](https://gonkagate.com/en/docs/guides/openclaw-integration) make it easy to use **OpenClaw** with Gonka via a hosted OpenAI-compatible API and billing.
-
-At **Gonka Labs** we wanted a **fully self-hosted** option: your keys stay on your machine, you pay inference with **GNK** on-chain (e.g. [gonka.gg/faucet](https://gonka.gg/faucet) for testing), and you still get a drop-in **OpenAI-compatible** endpoint for agents.
-
-So we shipped **GonkaClaw** - a single shell script that:
-
-1. Clones and runs **[openGNK](https://github.com/gonkalabs/opengnk)** (Docker) - same idea as in [OpenGNK – Show and tell (#890)](https://github.com/gonka-ai/gonka/discussions/890): local proxy, signed requests, discovery + multi-node retry, native tool calling where supported.  
-2. Creates a **Gonka wallet** (`inferenced`-style flow, non-interactive keyring).  
-3. Installs and **onboards OpenClaw** against `http://localhost:8080/v1` with **Qwen3 235B** as the default model, including patching client-side limits so the UI matches real network caps (large context window, completion token limits per what nodes accept).
-
-<img width="846" height="528" alt="Снимок экрана 2026-04-01 в 12 00 13" src="https://github.com/user-attachments/assets/ff9dabf6-5b19-40c9-a600-8a21a5f64842" />
-
-
-<details>
-<summary><b>more indepth about how it works</b></summary>
-
-- **1. openGNK (local Docker)**
-  - Exposes a normal OpenAI-compatible surface: GET /v1/models, POST /v1/chat/completions (stream + non-stream), plus the bundled web UI at /.
-  - **Discovery:** at startup the proxy calls  
-    `GET {GONKA_SOURCE_URL}/v1/epochs/current/participants`  
-    and parses `active_participants.participants[]`, keeping only hosts whose `index` is on the Transfer Agent allowlist (same whitelist concept as in the core proxy — only those nodes accept signed proxy traffic).
-  - **Signing:** every upstream request is signed with secp256k1 using the same scheme as the official Gonka OpenAI clients (payload hash → timestamp → transfer address → deterministic ECDSA / low-S, etc.). Keys never leave the machine running the container.
-  - **Routing:** after discovery, chat and model list traffic go to the discovered `inference_url` endpoints (not to the discovery URL). Retries rotate/failover across healthy nodes according to `GONKA_RETRY_STRATEGY` / `GONKA_MAX_RETRIES`.
-  - **Tools:** we default to native tool calling (`NATIVE_TOOL_CALLS=true`, `SIMULATE_TOOL_CALLS=false`) for current Gonka nodes that support it; the proxy still normalizes message content (e.g. OpenAI “array of parts” → plain string) where the upstream expects it.
-
-- **2. Wallet bootstrap (script-side)**
-  - Downloads a pinned `inferenced` build (platform-specific zip from Gonka releases), creates a key with `keys add --keyring-backend test` (no OS keychain prompts), exports unarmored hex with `keys export … --unarmored-hex --unsafe -y`.
-  - Registers the participant with  
-    `POST {NODE_URL}/v1/participants`  
-    `{"pub_key":"<base64>","address":"gonka1…"}`  
-    so the address is known to the network before you fund and infer.
-  - Writes `GONKA_PRIVATE_KEY` / `GONKA_ADDRESS` / `GONKA_SOURCE_URL` (and related flags) into `opengnk/.env` for Compose.
-
-- **3. OpenClaw onboarding**
-  - `openclaw onboard --non-interactive` with `--auth-choice custom-api-key`, `--custom-base-url http://localhost:<port>/v1`, `--custom-compatibility openai`, `--install-daemon`, plus skips for health/skills/channels where appropriate so CI-style runs don’t block on pairing.
-  - After onboarding, a small Python patch updates `~/.openclaw/openclaw.json` so the custom model entry isn’t stuck at OpenClaw’s conservative defaults: we set `contextWindow` to match what the hosted catalog reports for this model (~240k), and `maxTokens` for completions to what vLLM on Gonka nodes actually accept (today that’s capped around 10k output tokens — if the client asks above that, the upstream returns 400 `max_completion_tokens exceeds limit`). That avoids confusing UI vs reality.
-
-</details>
-
-> It installs a NEW INSTANCE of openclaw.
-
-**Try it:**
-
-```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/gonkalabs/gonkaclaw/main/setup.sh)
-```
-
-**Links**
-
-- Repo: [github.com/gonkalabs/gonkaclaw](https://github.com/gonkalabs/gonkaclaw)  
-- Landing page: [gonkalabs.com/gonkaclaw](https://gonkalabs.com/gonkaclaw)  
-- Underlying proxy: [github.com/gonkalabs/opengnk](https://github.com/gonkalabs/opengnk) - and our hosted sibling [proxy.gonka.gg](https://proxy.gonka.gg) if you prefer not to run Docker locally.
-
-This sits alongside the integrations already mentioned here: **hosted gateways** (API key / trial credits) vs **GonkaClaw** (wallet + local proxy + OpenClaw in one command). Feedback and PRs welcome on the repo.
-

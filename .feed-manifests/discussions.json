@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-08-18T20:34:47.773493+00:00",
+  "snapshot_time": "2026-08-18T21:34:21.498080+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "Welcome to Gonka Discussions 👋",
@@ -79,12 +79,6 @@
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1304](https://github.com/gonka-ai/gonka/discussions/1304) every hour. \n\n# APS for delegated wallets and agent accounts (Track 2, Project 3)\n\n**Автор:** [@aeoess](https://github.com/aeoess) · **Категория:** :speech_balloon: General · **Создано:** 2026-06-04 01:38 UTC · \n\n---\n\n## 📝 Описание\n\nTrack 2, Project 3 is close to what APS was built for: an agent acting within scoped authority, without exposing the owner's main key and without manual approval on every call. That authorization and audit layer is what APS implements today, open and Apache-2.0, on npm.\n\nThe primitives map to the project directly:\n\n- **Predefined limits without exposing the main key:** the agent acts under a delegated key with a scoped grant. The owner's main key never leaves them. Li",
       "checksum": "eae8c5523e5ba93a1843ec2ca37859187a00031bef48111c5f81df9cda46adee"
-    },
-    "governance-proposal-reports/1477-proposal-74-gonka-labs-monthly-report-no1.md": {
-      "title": "Proposal #74: Gonka Labs - Monthly Report No.1",
-      "status": null,
-      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1477](https://github.com/gonka-ai/gonka/discussions/1477) every hour. \n\n# Proposal #74: Gonka Labs - Monthly Report No.1\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-07-18 18:31 UTC · \n\n---\n\n## 📝 Описание\n\n# \n\n![](https://resource.inkdown.me/assets/11g/tk4ZX4b2sHaSu/ZarQaYSqnMMS69H.png)\n\nHey! Gonka Labs here.\n\nOn June 12th the community passed [Proposal #74](https://gonka.gg/network/proposals/74). That vote funded the next stretch of work - infra, ops, and shipping products for the ecosystem.\n\nThis is the first public progress report we promised in the proposal (monthly updates on GitHub Discussions). Short version of what landed so far:\n\n1. **OpenBroker** - new p",
-      "checksum": "b7c8452c97a9b1231137dc727e18b2cccf456a6d9761144ed193e9b672013063"
     },
     "governance-proposal-reports/1540-proposal-51-webx-asia-2026-post-event-report.md": {
       "title": "Proposal #51: WebX Asia 2026 — Post-Event Report",
@@ -378,7 +372,7 @@
       "title": "🦞 OpenClaw + Gonka AI",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #811](https://github.com/gonka-ai/gonka/discussions/811) every hour. \n\n# 🦞 OpenClaw + Gonka AI\n\n**Автор:** [@votkon](https://github.com/votkon) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-02-26 20:03 UTC · \n\n---\n\n## 📝 Описание\n\nI've put together a guide for connecting **OpenClaw** to **Gonka AI's decentralized GPU network** through the Mingles gateway.\n\n## What This Enables\n\nOpenClaw users can now run their AI agents on Gonka's distributed compute infrastructure instead of relying on centralized providers. Your personal assistant gets:\n\n- ✅ Access to Gonka's tool-enabled Qwen3-235B model\n- ✅ Decentralized inference across the network's GPU nodes\n- ✅ Pay-as-you-go pricing with GNK tokens\n- ✅ Full OpenAI API compatibility (drop-in rep",
-      "checksum": "75552daa785be82e194fb930ff28c26e4912c379d68edb8c127711d2b766f13c"
+      "checksum": "50f6291e41b11147484e44a48a5ddff09bb6a39ab431849a736985a15d16f1b1"
     },
     "show-and-tell/0840-prometheus-exporter-for-node-monitoring.md": {
       "title": "Prometheus Exporter for Node Monitoring",
@@ -386,47 +380,11 @@
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #840](https://github.com/gonka-ai/gonka/discussions/840) every hour. \n\n# Prometheus Exporter for Node Monitoring\n\n**Автор:** [@votkon](https://github.com/votkon) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-03-02 22:32 UTC · \n\n---\n\n## 📝 Описание\n\nI built a lightweight Prometheus exporter for Gonka node operators: \nhttps://github.com/votkon/gonka-exporter-prometheus/\n\nIt pulls the important metrics — block height, node status, and POC weight — and makes them available to Prometheus, so you can track everything in Grafana rather than polling RPC endpoints by hand.\n\nJust spin up a Docker container with --network host and point it at your local Tendermint RPC and ML Admin API.\n\nIf Prometheus is already part of your stack, this should slo",
       "checksum": "c990c409926b0d449020a293e10dfe1b0ed9ab1bea8033b0784fcb69c86b081b"
     },
-    "show-and-tell/0880-gonka-labs-how-were-building-the-infrastructure-for-gonka.md": {
-      "title": "Gonka Labs: How We're Building the Infrastructure for Gonka",
-      "status": null,
-      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #880](https://github.com/gonka-ai/gonka/discussions/880) every hour. \n\n# Gonka Labs: How We're Building the Infrastructure for Gonka\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-03-12 21:40 UTC · \n\n---\n\n## 📝 Описание\n\n**Gonka Labs: How We're Building the Infrastructure for Gonka**\n\n![telegram-cloud-photo-size-2-5303139431004969226-y](https://github.com/user-attachments/assets/de34893d-4761-4d49-b2a1-99344b7c681c)\n\nThat one Sunday evening was not exactly usual. I was preparing for the upcoming workweek and reading startup news when I stumbled upon something truly interesting. I immediately called my friend and business partner, Mike, and sent him a link to the video. It was an int",
-      "checksum": "34254d622c7e6b1abe6bd94d11aa3910c1eb4a30eed6e1662f3bd21616bbff10"
-    },
-    "show-and-tell/0887-gonkagg-explorer-analytics-platform-data-provider-for-gonka.md": {
-      "title": "Gonka.gg - Explorer, Analytics Platform, Data Provider for Gonka",
-      "status": null,
-      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #887](https://github.com/gonka-ai/gonka/discussions/887) every hour. \n\n# Gonka.gg - Explorer, Analytics Platform, Data Provider for Gonka\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-03-13 21:23 UTC · \n\n---\n\n## 📝 Описание\n\n![](https://resource.inkdown.me/assets/11g/tk4ZX4b2sHaSu/77yTDB4x9hoLewm.png)\n\nWhen we launched gonka.gg on **December 12, 2025** ([read the pre-story](https://github.com/gonka-ai/gonka/discussions/880)), our goal was simple: give Gonka users a reliable place to verify their transactions. What happened next surprised even us. \n\nThe community responded immediately and enthusiastically. Within weeks, it was clear that a transaction explorer was just the beginning",
-      "checksum": "5c72d58629b2a66516b980b7b442ece856e0df22fe7d5f44af8db4a132f088fa"
-    },
-    "show-and-tell/0890-opengnk-a-local-openai-compatible-proxy-for-gonka.md": {
-      "title": "OpenGNK - A Local OpenAI-Compatible Proxy for Gonka",
-      "status": null,
-      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #890](https://github.com/gonka-ai/gonka/discussions/890) every hour. \n\n# OpenGNK - A Local OpenAI-Compatible Proxy for Gonka\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-03-15 20:10 UTC · \n\n---\n\n## 📝 Описание\n\nWhen we were building and testing [proxy.gonka.gg](https://proxy.gonka.gg) - our cloud API endpoint for Gonka inference - we noticed a pattern in the community: developers also wanted to sign inference request and transmit them to the Network from local environment, keep their private keys on their own machines, and plug Gonka directly into their existing tooling without any intermediary (cloud proxy). They were asking for a self-hosted version of what we had built for ours",
-      "checksum": "c9eb8543599fd431b4b9a492ee00cedd5d23178ab75cc6a0cc1044dc8004db7a"
-    },
-    "show-and-tell/0898-gonka-name-service-gns-human-readable-names-for-the-gonka-ne.md": {
-      "title": "Gonka Name Service (GNS) - Human Readable names for the Gonka Network",
-      "status": null,
-      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #898](https://github.com/gonka-ai/gonka/discussions/898) every hour. \n\n# Gonka Name Service (GNS) - Human Readable names for the Gonka Network\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-03-16 18:09 UTC · \n\n---\n\n## 📝 Описание\n\nEvery blockchain eventually needs a naming layer. Ethereum has ENS. Cosmos chains have ICNS. Until now, Gonka didn't have one. So we built it.\n\n**Gonka Name Service (GNS)** lets anyone register a short, memorable `.gnk` name - like `mike.gnk` - that resolves to a `gonka1...` wallet address. It is live on mainnet, integrated into [GG Wallet](https://chromewebstore.google.com/detail/gg-wallet/elicodfmaffbndngiifcpmammicgjidd), [gonka.gg](https://gonka.gg) ex",
-      "checksum": "da78febe6d84e82c61a85eb9165fdb95515b1de4fa13c2705dfdb14d964a459e"
-    },
     "show-and-tell/0906-gonka-tools-web-interface-for-validators-and-mining-operatio.md": {
       "title": "Gonka Tools: Web Interface for Validators and Mining Operations",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #906](https://github.com/gonka-ai/gonka/discussions/906) every hour. \n\n# Gonka Tools: Web Interface for Validators and Mining Operations\n\n**Автор:** [@aleks1k](https://github.com/aleks1k) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-03-17 20:20 UTC · \n\n---\n\n## 📝 Описание\n\n**URL:** [https://cloudmine.mingles.ai/gonka-tools](https://cloudmine.mingles.ai/gonka-tools)\n\nRunning a validator or managing mining operations on the Gonka network traditionally requires CLI expertise and careful key management. Gonka Tools eliminates this complexity with a browser-based interface that handles validator setup, collateral operations, and governance participation — all through your web3 wallet.\n\nNo backend services. No API keys. No command-line requ",
       "checksum": "f14cf379c0a7b6df4a959673b7ea060d0888434b10598841ae6f0f92dc6a8ae7"
-    },
-    "show-and-tell/0938-gg-wallet-an-open-source-browser-wallet-strictly-for-gonka.md": {
-      "title": "GG Wallet - An Open-Source Browser Wallet strictly for Gonka",
-      "status": null,
-      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #938](https://github.com/gonka-ai/gonka/discussions/938) every hour. \n\n# GG Wallet - An Open-Source Browser Wallet strictly for Gonka\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-03-23 20:32 UTC · \n\n---\n\n## 📝 Описание\n\nWhen we launched [gonka.gg](https://gonka.gg) and started using the Gonka network daily, one thing kept slowing us down: there was no native browser wallet for Gonka. Every transaction meant using the CLI, copying long addresses, and manually constructing commands or using browser wallets that needed flaky configuration or using wallets where we needed to send private key to with some ui without access to the code processing the request. We believe that Gonka can p",
-      "checksum": "167783fe5a0a0381af2768abd068b6af0c27bac5520ce779db9cda644eaa5c83"
-    },
-    "show-and-tell/0989-gonka-contract-playground-write-compile-simulate-and-deploy-.md": {
-      "title": "Gonka Contract Playground - write, compile, simulate, and deploy CosmWasm without leaving the browser",
-      "status": null,
-      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #989](https://github.com/gonka-ai/gonka/discussions/989) every hour. \n\n# Gonka Contract Playground - write, compile, simulate, and deploy CosmWasm without leaving the browser\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-03-31 22:32 UTC · \n\n---\n\n## 📝 Описание\n\n<img width=\"1598\" height=\"818\" alt=\"Снимок экрана 2026-04-01 в 01 25 50\" src=\"https://github.com/user-attachments/assets/a60cac40-16b6-4c74-ba2a-fa20f1b28ba5\" />\n\n## Motivation\n\nBuilding smart contracts is, usually, a pain - it keeps coming up: you want to try a small contract idea, poke at something already deployed, or show a teammate how a message works - and you end up juggling a local Rust toolchain, `wasmd`, scripts, a",
-      "checksum": "60de99aecc8c5c8918fcaee29240d2904f847bd97789f420a6b628d877bbc00b"
     },
     "show-and-tell/0999-gonka-ai-x-claude-code.md": {
       "title": "Gonka AI x Claude Code",
@@ -439,12 +397,6 @@
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1027](https://github.com/gonka-ai/gonka/discussions/1027) every hour. \n\n# Gonka AI x n8n\n\n**Автор:** [@Dankosik](https://github.com/Dankosik) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-04-07 12:53 UTC · \n\n---\n\n## 📝 Описание\n\n# GonkaGate x n8n\n\nHi everyone,\n\nWe've been working on an `n8n` package for GonkaGate, and it's finally public.\n\n`@gonkagate/n8n-nodes-gonkagate` is an open source `n8n` community node package\nfor people who want to use GonkaGate in self-hosted `n8n` without piecing\ntogether generic OpenAI-compatible nodes by hand.\n\n## At a glance\n\n| Item | Value |\n| --- | --- |\n| Package | `@gonkagate/n8n-nodes-gonkagate` |\n| Root node | `GonkaGate` |\n| AI model node | `GonkaGate Chat Model` |\n| Credential | `GonkaGate API` |",
       "checksum": "55cb32c61df002b56fd52bc59444c55164900c6d7c19f3cd92f2eae73ff334b4"
-    },
-    "show-and-tell/1030-rpcgonkagg-managed-rpc-infrastructure-for-gonka-infuraalchem.md": {
-      "title": "rpc.gonka.gg - Managed RPC Infrastructure for Gonka (Infura/Alchemy for Gonka) with opensource core",
-      "status": null,
-      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1030](https://github.com/gonka-ai/gonka/discussions/1030) every hour. \n\n# rpc.gonka.gg - Managed RPC Infrastructure for Gonka (Infura/Alchemy for Gonka) with opensource core\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-04-08 10:22 UTC · \n\n---\n\n## 📝 Описание\n\nTwo days ago we sped up [gonka.gg](https://gonka.gg) by 100x.\n\nToday we are making the technology behind that speedup available to everyone.\n\nMeet [rpc.gonka.gg](https://rpc.gonka.gg) - managed RPC infrastructure for the Gonka blockchain, built by [Gonka Labs](https://gonkalabs.com).\n\nWe give developers reliable, authenticated API access to the entire Gonka blockchain through a single URL - no need to run your own nodes. The",
-      "checksum": "b814e66e661854a208c07a17bb344aef708ebbb6a0f3e94db9728e71d99af936"
     },
     "show-and-tell/1044-gonka-ai-x-opencode.md": {
       "title": "Gonka AI x OpenCode",
@@ -481,12 +433,6 @@
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1339](https://github.com/gonka-ai/gonka/discussions/1339) every hour. \n\n# Gonka x MiMoCode\n\n**Автор:** [@Dankosik](https://github.com/Dankosik) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-06-12 00:29 UTC · \n\n---\n\n## 📝 Описание\n\n# GonkaGate x MiMoCode\n\n```bash\nnpx @gonkagate/mimo-code-setup\n```\n\nUse this package when you already have `mimo` installed and want GonkaGate\nconfigured as a MiMoCode custom provider without editing config files by hand.\n\nAfter setup, keep using plain `mimo`.\n\n## At a glance\n\n| Item                      | Value                                            |\n| ------------------------- | ------------------------------------------------ |\n| Package                   | `@gonkagate/mimo-code-setup`               ",
       "checksum": "5e74ac3fd1d736ce9156cc73cdd9136abe01c4917da802b18c6922c7d0a67db4"
-    },
-    "show-and-tell/1363-openbroker-broker-for-brokers-or-devshards-as-a-service.md": {
-      "title": "OpenBroker - broker for brokers or Devshards as a service.",
-      "status": null,
-      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1363](https://github.com/gonka-ai/gonka/discussions/1363) every hour. \n\n# OpenBroker - broker for brokers or Devshards as a service.\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-06-23 22:18 UTC · \n\n---\n\n## 📝 Описание\n\nHey! **Gonka Labs** here. \n\nWe've just shipped **OpenBroker**, a platform that gives you direct access to gonka inference - pure devshards v1, v2 (and any future version) under wallet that is whitelisted to operate escrows. You get escrow capacity that scales elastically with your load, both devshard versions (and any future one), and throughput limited only by what the network itself can handle.\n\nWith OpenBroker - we make a community commitment to the overall obse",
-      "checksum": "bee025dd3481368920bb4ad9a12d9bcad1f6c12cf00c1c1062f6404c7d087a5d"
     },
     "show-and-tell/1374-gonka-ai-dune-dashboard.md": {
       "title": "Gonka AI Dune Dashboard",
