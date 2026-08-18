@@ -2,7 +2,7 @@
 title: "#314 — [P0] Make Seed derived from private key"
 source: https://github.com/gonka-ai/gonka/issues/314
 issue_number: 314
-synced_at: 2026-08-18T09:54:44Z
+synced_at: 2026-08-18T10:54:45Z
 template: issues-main.html
 ---
 
