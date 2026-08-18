@@ -2,7 +2,7 @@
 title: "#1081 — Binomial test p0 floor/ceiling mismatch — stricter downtime threshold silently never enforced"
 source: https://github.com/gonka-ai/gonka/issues/1081
 issue_number: 1081
-synced_at: 2026-08-18T08:58:24Z
+synced_at: 2026-08-18T09:53:28Z
 template: issues-main.html
 ---
 
