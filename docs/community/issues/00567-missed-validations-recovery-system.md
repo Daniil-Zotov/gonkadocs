@@ -2,7 +2,7 @@
 title: "#567 — Missed validations recovery system"
 source: https://github.com/gonka-ai/gonka/issues/567
 issue_number: 567
-synced_at: 2026-08-18T16:56:07Z
+synced_at: 2026-08-18T17:50:20Z
 template: issues-main.html
 ---
 
