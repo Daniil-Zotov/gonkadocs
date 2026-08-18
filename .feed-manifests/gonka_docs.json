@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-08-18T22:14:36.697110+00:00",
+  "snapshot_time": "2026-08-18T23:14:52.774940+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -299,8 +299,8 @@
     "network-updates.md": {
       "title": "Announcements",
       "status": null,
-      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## August 14, 2026\n\n**DeepSeek V4 Flash is now active on Gonka network**\n\nThe bootstrap stage announced in [proposal 94](https://gonka.ai/docs/network-updates/#august-10-2026) is complete. As of chain epoch 360, `deepseek-ai/DeepSeek-V4-Flash-0731` joins Mi",
-      "checksum": "786a537a4d47b168b3c3d7c14594f11182194ae5983313b6a9f907c17bdb8fa8"
+      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## August 18, 2026\n\nAs a major milestone in protocol development, the chain is ready to gradually enable devshard settlement, raising network security and reliability.\n\nA stabilized gateway version is currently running on one gateway and will be used for th",
+      "checksum": "670cb1bd0214838fc05b89eaf8103b65e32fa044607ac9710569f57e8f282613"
     },
     "participant/README.md": {
       "title": "Redirecting to Host Section",

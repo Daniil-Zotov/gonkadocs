@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260818231448_7ceeff85",
+    "timestamp": "2026-08-18T23:14:48.878723+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "Announcements",
+      "url": "/gonka/docs/network-updates/",
+      "file": "network-updates.md"
+    },
+    "details": {
+      "content_before": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## August 14, 2026\n\n**DeepSeek V4 Flash is now active on Gonka network**\n\nThe bootstrap stage announced in [proposal 94](https://gonka.ai/docs/network-updates/#august-10-2026) is complete. As of chain epoch 360, `deepseek-ai/DeepSeek-V4-Flash-0731` joins Mi",
+      "content_after": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## August 18, 2026\n\nAs a major milestone in protocol development, the chain is ready to gradually enable devshard settlement, raising network security and reliability.\n\nA stabilized gateway version is currently running on one gateway and will be used for th"
+    },
+    "ai_description": "The Protocol Docs Announcements page has been updated with a major milestone: the chain is now ready to gradually enable devshard settlement, which will boost network security and reliability. A stabilized gateway version is already running to support this next phase of protocol development."
+  },
+  {
     "id": "evt_20260818213335_bdebc4c8",
     "timestamp": "2026-08-18T21:33:35.542536+00:00",
     "section": "discussions",
