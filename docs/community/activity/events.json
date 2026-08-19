@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260819201836_325ecb0d",
+    "timestamp": "2026-08-19T20:18:36.455323+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "MiniMax-M2.7 Bootstrap",
+      "url": "/gonka/docs/host/minimax-bootstrap/",
+      "file": "host/minimax-bootstrap.md"
+    },
+    "details": {
+      "content_before": "# MiniMax-M2.7 Bootstrap\n\n`MiniMaxAI/MiniMax-M2.7` (FP8) is added as a third governance-approved inference model in the `v0.2.13` upgrade. This document explains how to minimize the chance of weight reductions during bootstrap, whether or not the model gets enough participants in its first attempt.\n\nFor current deployment defaults (including `node-config.json`), see the [Host Quickstart](./quickstart.md). For the wider context of multi-model PoC mechanics, see [Multi-Model PoC](./multi_model_poc.md). The previous model bootstrap and its mechanics are documented in [Kimi K2.6 Bootstrap](./kimi-bootstrap.md).\n\n!!! note\n    The bootstrap can take multiple epochs, depending on how many participants are ready. Before the configured punishment epoch, no weight reduction happens if participants s",
+      "content_after": "# MiniMax-M2.7 Bootstrap\n\n`MiniMaxAI/MiniMax-M2.7` (FP8) has **passed bootstrap** and is **active** in Proof of Compute on Gonka mainnet as of chain epoch 278 (`v0.2.13`). It is the current base model (`delegation_params.initial_model_id`). The timeline and transaction examples below remain useful for understanding how activation worked and for operations such as delegation; for current deployment defaults (including `node-config.json`), see the [Host Quickstart](./quickstart.md).\n\nFor the wider context of multi-model PoC mechanics, see [Multi-Model PoC](./multi_model_poc.md). Other model bootstraps and their mechanics are documented in [Kimi K2.6 Bootstrap](./kimi-bootstrap.md) and [DeepSeek V4 Flash Bootstrap](./deepseek-bootstrap.md).\n\n!!! note\n    The bootstrap can take multiple epochs"
+    },
+    "ai_description": "MiniMax-M2.7 has successfully passed bootstrap and is now active in Proof of Compute on Gonka mainnet as of chain epoch 278, becoming the current base model for delegation. The protocol documentation has been updated to reflect this completed activation while preserving the historical timeline and transaction examples for operational reference."
+  },
+  {
     "id": "evt_20260819175143_fc7fdb4f",
     "timestamp": "2026-08-19T17:51:43.537924+00:00",
     "section": "calendar",

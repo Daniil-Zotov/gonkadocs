@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-08-19T19:19:38.219619+00:00",
+  "snapshot_time": "2026-08-19T20:18:49.869140+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -227,8 +227,8 @@
     "host/minimax-bootstrap.md": {
       "title": "MiniMax-M2.7 Bootstrap",
       "status": null,
-      "content_preview": "# MiniMax-M2.7 Bootstrap\n\n`MiniMaxAI/MiniMax-M2.7` (FP8) is added as a third governance-approved inference model in the `v0.2.13` upgrade. This document explains how to minimize the chance of weight reductions during bootstrap, whether or not the model gets enough participants in its first attempt.\n\nFor current deployment defaults (including `node-config.json`), see the [Host Quickstart](./quickstart.md). For the wider context of multi-model PoC mechanics, see [Multi-Model PoC](./multi_model_poc.md). The previous model bootstrap and its mechanics are documented in [Kimi K2.6 Bootstrap](./kimi-bootstrap.md).\n\n!!! note\n    The bootstrap can take multiple epochs, depending on how many participants are ready. Before the configured punishment epoch, no weight reduction happens if participants s",
-      "checksum": "e152a325c19b0d58d709d4d08ffd1448db40bfde92dda391740d9f1204aede3b"
+      "content_preview": "# MiniMax-M2.7 Bootstrap\n\n`MiniMaxAI/MiniMax-M2.7` (FP8) has **passed bootstrap** and is **active** in Proof of Compute on Gonka mainnet as of chain epoch 278 (`v0.2.13`). It is the current base model (`delegation_params.initial_model_id`). The timeline and transaction examples below remain useful for understanding how activation worked and for operations such as delegation; for current deployment defaults (including `node-config.json`), see the [Host Quickstart](./quickstart.md).\n\nFor the wider context of multi-model PoC mechanics, see [Multi-Model PoC](./multi_model_poc.md). Other model bootstraps and their mechanics are documented in [Kimi K2.6 Bootstrap](./kimi-bootstrap.md) and [DeepSeek V4 Flash Bootstrap](./deepseek-bootstrap.md).\n\n!!! note\n    The bootstrap can take multiple epochs",
+      "checksum": "1085bb33ea55a07f6491c7036eb81cf2cdf97c0fcf6eec7fd327fc15928a1dbc"
     },
     "host/mlnode-management.md": {
       "title": "ML Node Management",
