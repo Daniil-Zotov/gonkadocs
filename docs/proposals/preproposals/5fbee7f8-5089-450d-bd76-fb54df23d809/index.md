@@ -60,7 +60,28 @@ Should we gradually phase out any older, underutilized models (similar to the re
 
 ---
 
-## Comments (1)
+## Comments (6)
+
+### 💬 Slava MyGonka
+*2026-08-19 08:25* · 👍 1 · 👎 0
+
+Активное участие в добавлении новых моделей принимают эти ребята:
+https://registry.kaitaku.ai/
+
+https://t.me/baridoka
+
+Думаю, тебе было бы интересно с ними пообщаться.
+
+Именно они разрабатывали коэффициент для добавления Deep Seek.
+
+---
+
+### 💬 Aung Myat Moe
+*2026-08-19 08:30* · 👍 1 · 👎 0
+
+Yup I send message to them and I checked their images and most of them are optimized properly and new ds is just putting the entry
+
+---
 
 ### 💬 Slava MyGonka
 *2026-08-19 07:14* · 👍 0 · 👎 0
@@ -72,6 +93,36 @@ Should we gradually phase out any older, underutilized models (similar to the re
 А модель Qwen3.8-27B помещается на 1×H100 80 GB
 
 Мы уже это проходили. Слишком маленькие модели позволяют заниматься читингом. Поэтому от них отказались.
+
+---
+
+### 💬 Aung Myat Moe
+*2026-08-19 08:05* · 👍 0 · 👎 0
+
+Nvx version can accept and it’s acceptable at performance and accuracy bro.
+
+And the small model is dense qwen is at opus level and competing with Fabel .
+
+To fix cheating governance need to update like TAO and make sure to put devshard as validate 
+
+I am planning to make llm as verifier with new proposal before the research is done it should be able to do it
+
+---
+
+### 💬 Slava MyGonka
+*2026-08-19 08:34* · 👍 0 · 👎 0
+
+Я не могу найти их расчеты. Они где-то есть на GitHub. Перед добавлением подели они тестировали эту модель на разном оборудовании. Результаты тестов есть в отчете на GitHub.
+
+Коэффициенты при добавлении модели  очень важны.
+
+---
+
+### 💬 Slava MyGonka
+*2026-08-19 08:38* · 👍 0 · 👎 0
+
+https://github.com/kaitakuai/experiments вот, ребята подсказали из Комьюнити.
+Ты это читал?
 
 ---
 
