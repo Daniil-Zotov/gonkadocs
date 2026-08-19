@@ -2,7 +2,7 @@
 title: "#591 — Some security and other improvements for github actions"
 source: https://github.com/gonka-ai/gonka/issues/591
 issue_number: 591
-synced_at: 2026-08-19T19:46:02Z
+synced_at: 2026-08-19T20:51:07Z
 template: issues-main.html
 ---
 
