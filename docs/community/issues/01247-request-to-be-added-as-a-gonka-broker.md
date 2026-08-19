@@ -2,7 +2,7 @@
 title: "#1247 — Request to be added as a Gonka broker"
 source: https://github.com/gonka-ai/gonka/issues/1247
 issue_number: 1247
-synced_at: 2026-08-19T15:50:59Z
+synced_at: 2026-08-19T16:52:05Z
 template: issues-main.html
 ---
 
