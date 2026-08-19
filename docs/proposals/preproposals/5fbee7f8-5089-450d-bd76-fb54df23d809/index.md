@@ -58,6 +58,23 @@ What should the exact weight_scale_factor be for these models to ensure fair com
 
 Should we gradually phase out any older, underutilized models (similar to the removal of older Kimi models) to free up bandwidth and storage for node operators?
 
+---
+
+## Comments (1)
+
+### 💬 Slava MyGonka
+*2026-08-19 07:14* · 👍 0 · 👎 0
+
+Я считаю, что сеть пока не готова к приему моделей, которые не помещаются на 8*Н100.
+Ты видел, что было с GLM?
+То же самое ждет и DeepSeek V4 Pro, т.к. она слишком большая для доступных GPU.
+
+А модель Qwen3.8-27B помещается на 1×H100 80 GB
+
+Мы уже это проходили. Слишком маленькие модели позволяют заниматься читингом. Поэтому от них отказались.
+
+---
+
 
 ---
 
