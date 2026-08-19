@@ -1246,5 +1246,17 @@
     "tags": [
       "passed"
     ]
+  },
+  {
+    "date": "2026-08-19",
+    "category": "governance",
+    "type": "proposal_report_upload",
+    "title": "Report for proposal #74 — Gonka Labs: Maintaining Infrastructure, Improving Products, and Launch…",
+    "url": "/proposals/proposals/2026-q2/74/",
+    "time": "",
+    "description": "Report report2 for proposal #74 has been uploaded. Read it: https://gonkadocs.com/proposals/proposals/2026-q2/74/report2/",
+    "tags": [
+      "report"
+    ]
   }
 ]

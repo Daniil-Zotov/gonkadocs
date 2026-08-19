@@ -140,6 +140,7 @@ hide:
   <div class="prop-card-desc">Full proposal: <a href="https://gonkalabs.com/proposal" target="_blank">https://gonkalabs.com/proposal</a>  This proposal funds the next six months of work for the Gonka ecosystem.  The focus is production-grade infrastructure and high-use products: Gonka.gg V2…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>79.6%</strong> (305,163)</span> · <span class="prop-tally-no-text">No <strong>1.0%</strong> (3,791)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (15)</span> · <span class="prop-tally-abstain-text">Abstain <strong>19.4%</strong> (74,304)</span><span class="prop-card-funding">$70,000 · Community Pool · 330,000 GNK · Gov Module</span></div>
   <div class="prop-card-report"><a class="prop-report-link" href="74/report1/"><span class="prop-report-name">report1</span><span class="prop-report-date">2026-07-18</span></a></div>
+  <div class="prop-card-report"><a class="prop-report-link" href="74/report2/"><span class="prop-report-name">report2</span><span class="prop-report-date">2026-08-19</span></a></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
