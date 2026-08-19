@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260819214741_c8f4ed25",
+    "timestamp": "2026-08-19T21:47:41.527886+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1398 — Gateway allowlist request: niro",
+      "url": "/community/issues/01398-gateway-allowlist-request-niro/",
+      "file": "01398-gateway-allowlist-request-niro.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway allowlist request: niro\n    <span class=\"issues-number\">#1398</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/niro58\">@niro58</a> opened 2026-07-04 20:09 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-content\" mar",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway allowlist request: niro\n    <span class=\"issues-number\">#1398</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/niro58\">@niro58</a> opened 2026-07-04 20:09 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-content\" mark"
+    },
+    "ai_description": "Issue #1398, a gateway allowlist request from @niro58, just received its first comment. The community is now reviewing the niro gateway application, so feel free to check it out and share your thoughts."
+  },
+  {
     "id": "evt_20260819205145_a9a1e312",
     "timestamp": "2026-08-19T20:51:45.551780+00:00",
     "section": "issues",
