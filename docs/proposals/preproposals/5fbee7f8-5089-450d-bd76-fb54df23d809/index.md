@@ -60,7 +60,7 @@ Should we gradually phase out any older, underutilized models (similar to the re
 
 ---
 
-## Comments (6)
+## Comments (7)
 
 ### 💬 Slava MyGonka
 *2026-08-19 08:25* · 👍 1 · 👎 0
@@ -80,6 +80,23 @@ https://t.me/baridoka
 *2026-08-19 08:30* · 👍 1 · 👎 0
 
 Yup I send message to them and I checked their images and most of them are optimized properly and new ds is just putting the entry
+
+---
+
+### 💬 Slava MyGonka
+*2026-08-19 08:34* · 👍 1 · 👎 0
+
+Я не могу найти их расчеты. Они где-то есть на GitHub. Перед добавлением подели они тестировали эту модель на разном оборудовании. Результаты тестов есть в отчете на GitHub.
+
+Коэффициенты при добавлении модели  очень важны.
+
+---
+
+### 💬 Slava MyGonka
+*2026-08-19 08:38* · 👍 1 · 👎 0
+
+https://github.com/kaitakuai/experiments вот, ребята подсказали из Комьюнити.
+Ты это читал?
 
 ---
 
@@ -109,20 +126,10 @@ I am planning to make llm as verifier with new proposal before the research is d
 
 ---
 
-### 💬 Slava MyGonka
-*2026-08-19 08:34* · 👍 0 · 👎 0
+### 💬 Aung Myat Moe
+*2026-08-19 23:11* · 👍 0 · 👎 0
 
-Я не могу найти их расчеты. Они где-то есть на GitHub. Перед добавлением подели они тестировали эту модель на разном оборудовании. Результаты тестов есть в отчете на GitHub.
-
-Коэффициенты при добавлении модели  очень важны.
-
----
-
-### 💬 Slava MyGonka
-*2026-08-19 08:38* · 👍 0 · 👎 0
-
-https://github.com/kaitakuai/experiments вот, ребята подсказали из Комьюнити.
-Ты это читал?
+Ok
 
 ---
 
