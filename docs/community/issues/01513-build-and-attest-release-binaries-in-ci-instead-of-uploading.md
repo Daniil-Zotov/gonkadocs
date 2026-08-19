@@ -2,7 +2,7 @@
 title: "#1513 — Build and attest release binaries in CI instead of uploading them manually"
 source: https://github.com/gonka-ai/gonka/issues/1513
 issue_number: 1513
-synced_at: 2026-08-18T23:41:21Z
+synced_at: 2026-08-19T01:55:56Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/KTibow">@KTibow</a> opened 2026-07-28 20:05 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-07-28 20:05 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-08-19 00:05 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -73,6 +73,35 @@ Even repaired it wouldn't produce the releases in question. The trigger was narr
 It also has no arm64 Linux target — the release targets are `-t linux:amd64 -t darwin:amd64 -t darwin:arm64` — yet `inferenced-linux-arm64.zip` ships on both v0.2.14 and v0.2.15. Whatever produced that file, it wasn't CI.
 
 Given it has never worked, can't produce tagged releases by design, and fails on every push to `main`, deleting it looks more sensible than repairing it. `Multi-Platform Build` already covers compile verification on PRs.
+</div>
+
+---
+
+## 💬 Comments (1)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/redstartechno">@redstartechno</a></span>
+    <span class="issues-meta-item">commented 2026-08-19 00:05 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>A data point that may be useful here: the repo already contains a workflow meant to build the release binaries in Actions — <code>.github/workflows/release.yml</code> — and no run of it on <code>main</code> has ever got past the build step.</p>
+<p>Job <code>might_release</code>, step <code>Issue Release Assets</code>:</p>
+<pre><code>Run ignite/cli/actions/cli@main
+  args: chain build --release --release.prefix latest -t linux:amd64 -t darwin:amd64 -t darwin:arm64 -y
+could not locate your app's root dir: go.mod not found
+✘ Could not locate your app's root dir: go.mod not found
+</code></pre>
+<p>Most recent occurrence: run 31996838266 on <code>379bebced</code>. Across the 200 recorded runs of that workflow the tally is 184 success / 16 failure, and all 16 failures are <code>push</code> / <code>main</code> — an unbroken streak from <code>e13d4c658</code> (2026-02-22) through <code>379bebced</code> (2026-08-17). The successes all predate 2026-02-20 and are feature-branch runs from when the trigger was a bare <code>on: push</code>; it was narrowed to <code>main</code> in <code>a0cdbf64f</code>.</p>
+<p>The cause is that the job declares</p>
+<pre><code class="language-yaml">defaults:
+  run:
+    working-directory: ./inference-chain
+</code></pre>
+<p>which applies only to <code>run:</code> steps. <code>Issue Release Assets</code> is a <code>uses:</code> step, and specifically a Docker action invoked with <code>--workdir /github/workspace</code>, so it executes at the repository root regardless. There has been no root <code>go.mod</code> since <code>0c42e64c9</code> ("Move back to sub-folder", 2024-07-17) — the modules are <code>inference-chain/</code>, <code>decentralized-api/</code>, <code>devshard/</code>, <code>common/</code>, <code>edge-api/</code>, <code>proxy-ssl/</code>, <code>versioned/</code>, and the ignite config lives at <code>inference-chain/config.yml</code>. <code>Prepare Release Variables</code> itself succeeds and emits <code>should_release: true</code> / <code>tag_name: latest</code>, so the workflow does reach the build and then stops there.</p>
+<p>Two things follow. First, the permanent red ✗ on every <code>main</code> commit is this workflow and nothing else — the other checks on <code>379bebced</code> are green. Second, the "build it in CI" half of this issue is less far off than it looks, since the scaffolding is present and misconfigured rather than absent.</p>
+<p>Which way to take it is a maintainer call, though, because the options are not equivalent: repairing the workflow would start publishing a rolling <code>latest</code> prerelease off <code>main</code>, which may well not be wanted, whereas deleting it would just retire dead scaffolding and clear the red X. Attestations would be a separate addition on top of either. I am happy to open a PR for whichever direction you prefer.</p>
+  </div>
 </div>
 
 ---

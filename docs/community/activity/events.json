@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260819015854_3460a696",
+    "timestamp": "2026-08-19T01:58:54.015613+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "[\"User\"]    — not github-actions[bot]; same on v0.2.14",
+      "url": "/community/issues/01513-build-and-attest-release-binaries-in-ci-instead-of-uploading/",
+      "file": "01513-build-and-attest-release-binaries-in-ci-instead-of-uploading.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Build and attest release binaries in CI instead of uploading them manually\n    <span class=\"issues-number\">#1513</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/KTibow\">@KTibow</a> opened 2026-07-28 20:05 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></d",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Build and attest release binaries in CI instead of uploading them manually\n    <span class=\"issues-number\">#1513</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/KTibow\">@KTibow</a> opened 2026-07-28 20:05 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></di"
+    },
+    "ai_description": "Issue #1513 got its first comment. The discussion on automating release binary builds and attestations in CI is now underway, moving the conversation forward on improving our release process trust and reliability."
+  },
+  {
     "id": "evt_20260819004414_a4d09904",
     "timestamp": "2026-08-19T00:44:14.104302+00:00",
     "section": "calendar",
