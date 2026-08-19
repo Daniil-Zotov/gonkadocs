@@ -1,6 +1,6 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-08-19T16:56:56.290147+00:00",
+  "snapshot_time": "2026-08-19T17:51:43.560240+00:00",
   "files": {
     "d20f0b7f63fffff2927833d9557050f626cd934d5ab3479488af3773000f3011": {
       "title": "▶️ Ancapex Live: Gonka Overview",
@@ -2062,6 +2062,15 @@
       "url": "/proposals/proposals/2026-q3/95/",
       "content_preview": "Migrate the live community-sale contract and all wrapped-token instances to newly stored CosmWasm code, and register that wrapped-token code for future instantiations. Contract addresses and balances …",
       "checksum": "4f67a1787abc12c467883d7b74a1bb551717f6559f6b3178a161bbe18933f52b"
+    },
+    "ea6ee8ce68cedf1045dbdcc832fd493aa2f53e7eed6f6244d6af05e731982beb": {
+      "title": "Report for proposal #74 — Gonka Labs: Maintaining Infrastructure, Improving Products, and Launch…",
+      "date": "2026-08-19",
+      "time": "",
+      "event_type": "proposal_report_upload",
+      "url": "/proposals/proposals/2026-q2/74/",
+      "content_preview": "Report report2 for proposal #74 has been uploaded. Read it: https://gonkadocs.com/proposals/proposals/2026-q2/74/report2/",
+      "checksum": "fc086b63b11b5ad0a6ab4d0c7b548ff8e20be7288740c34410ca6acf27bc3fff"
     }
   }
 }

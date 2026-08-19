@@ -1,5 +1,25 @@
 [
   {
+    "id": "evt_20260819175143_fc7fdb4f",
+    "timestamp": "2026-08-19T17:51:43.537924+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Report for proposal #74 — Gonka Labs: Maintaining Infrastructure, Improving Products, and Launch…",
+      "url": "/proposals/proposals/2026-q2/74/",
+      "file": "ea6ee8ce68cedf1045dbdcc832fd493aa2f53e7eed6f6244d6af05e731982beb"
+    },
+    "details": {
+      "status": null,
+      "content": "Report report2 for proposal #74 has been uploaded. Read it: https://gonkadocs.com/proposals/proposals/2026-q2/74/report2/",
+      "date": "2026-08-19",
+      "time": "",
+      "event_type": "proposal_report_upload",
+      "url": "/proposals/proposals/2026-q2/74/"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260819031544_ad9baf30",
     "timestamp": "2026-08-19T03:15:44.931067+00:00",
     "section": "issues",
