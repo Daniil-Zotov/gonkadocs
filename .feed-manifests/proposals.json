@@ -1,6 +1,6 @@
 {
   "section": "proposals",
-  "snapshot_time": "2026-08-19T17:00:42.344059+00:00",
+  "snapshot_time": "2026-08-19T17:26:23.642181+00:00",
   "files": {
     "2025-q3/1/full-proposal.md": {
       "title": "Adjust Params According to real block length",
@@ -411,6 +411,16 @@
       "voting_end": "",
       "description": "",
       "checksum": "d664a92f3695abc071030f2b65c8a7e98c9d0f8be6920cdc3b7bd02ae1414281"
+    },
+    "2026-q2/74/report2.md": {
+      "title": "Gonka Labs — Monthly Report No.2",
+      "status": null,
+      "content_preview": "# Gonka Labs — Monthly Report No.2\n\n**Дата публикации:** 2026-08-19\n\n**Источник:** [PTD — Report #740002](https://ptd.gonka.gg/reports/74#report-740002)\n\nПолный отчет доступен по ссылке: [https://ptd.gonka.gg/reports/74#report-740002](https://ptd.gonka.gg/reports/74#report-740002)\n\nБлагодаря фидбеку от комьюнити, мы продолжаем работу над улучшением текущих продуктов и новыми приоритетными направлениями, важными для развития экосистемы Gonka.\n\nСпасибо за внимание!\n\nС уважением,\nКоманда Gonka Labs\n\nЧат: [@gonka_gg](https://t.me/gonka_gg)\nАнонсы: [@gonkalabs](https://t.me/gonkalabs)\nВсе сервисы: [https://gonkalabs.com](https://gonkalabs.com)",
+      "funding": "",
+      "quorum_met": null,
+      "voting_end": "",
+      "description": "",
+      "checksum": "ab8f03eb148c1d665ce3bf403338650b34ef72a7fb15e6d71968dfa1e4827f0c"
     },
     "2026-q2/77/report1.md": {
       "title": "Weekly Report — 13-17 July",
