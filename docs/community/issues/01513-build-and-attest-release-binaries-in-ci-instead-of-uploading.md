@@ -2,7 +2,7 @@
 title: "#1513 — Build and attest release binaries in CI instead of uploading them manually"
 source: https://github.com/gonka-ai/gonka/issues/1513
 issue_number: 1513
-synced_at: 2026-08-19T01:55:56Z
+synced_at: 2026-08-19T03:13:29Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/KTibow">@KTibow</a> opened 2026-07-28 20:05 UTC</span>
-    <span class="issues-meta-item">1 comment</span>
-    <span class="issues-meta-item">Updated 2026-08-19 00:05 UTC</span>
+    <span class="issues-meta-item">2 comments</span>
+    <span class="issues-meta-item">Updated 2026-08-19 03:02 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -77,7 +77,7 @@ Given it has never worked, can't produce tagged releases by design, and fails on
 
 ---
 
-## 💬 Comments (1)
+## 💬 Comments (2)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -101,6 +101,15 @@ could not locate your app's root dir: go.mod not found
 <p>which applies only to <code>run:</code> steps. <code>Issue Release Assets</code> is a <code>uses:</code> step, and specifically a Docker action invoked with <code>--workdir /github/workspace</code>, so it executes at the repository root regardless. There has been no root <code>go.mod</code> since <code>0c42e64c9</code> ("Move back to sub-folder", 2024-07-17) — the modules are <code>inference-chain/</code>, <code>decentralized-api/</code>, <code>devshard/</code>, <code>common/</code>, <code>edge-api/</code>, <code>proxy-ssl/</code>, <code>versioned/</code>, and the ignite config lives at <code>inference-chain/config.yml</code>. <code>Prepare Release Variables</code> itself succeeds and emits <code>should_release: true</code> / <code>tag_name: latest</code>, so the workflow does reach the build and then stops there.</p>
 <p>Two things follow. First, the permanent red ✗ on every <code>main</code> commit is this workflow and nothing else — the other checks on <code>379bebced</code> are green. Second, the "build it in CI" half of this issue is less far off than it looks, since the scaffolding is present and misconfigured rather than absent.</p>
 <p>Which way to take it is a maintainer call, though, because the options are not equivalent: repairing the workflow would start publishing a rolling <code>latest</code> prerelease off <code>main</code>, which may well not be wanted, whereas deleting it would just retire dead scaffolding and clear the red X. Attestations would be a separate addition on top of either. I am happy to open a PR for whichever direction you prefer.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/KTibow">@KTibow</a></span>
+    <span class="issues-meta-item">commented 2026-08-19 03:02 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>@redstartechno repeating what was already in the issue comment with ai is antisocial</p>
   </div>
 </div>
 
