@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260820182755_557c44ec",
+    "timestamp": "2026-08-20T18:27:55.833378+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "Announcements",
+      "url": "/gonka/docs/network-updates/",
+      "file": "network-updates.md"
+    },
+    "details": {
+      "content_before": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## August 18, 2026\n\nAs a major milestone in protocol development, the chain is ready to gradually enable devshard settlement, raising network security and reliability.\n\nA stabilized gateway version is currently running on one gateway and will be used for th",
+      "content_after": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## August 20, 2026\n\n**Proposal 96 is open for voting: Stabilize in-epoch invalid SPRT on small samples**\n\nA new on-chain governance proposal (proposal id 96) is open for voting.\n\n**What it does**\n\nEarly in an epoch there isn't enough data yet, so the invali"
+    },
+    "ai_description": "The Protocol Docs Announcements page has been refreshed with a new governance update: Proposal 96 is now open for voting, aiming to stabilize in-epoch invalid SPRT calculations on small samples. Be sure to review the proposal details and cast your vote, as this change addresses how the protocol handles limited data early in an epoch."
+  },
+  {
     "id": "evt_20260820164659_74634cbd",
     "timestamp": "2026-08-20T16:46:59.335466+00:00",
     "section": "discussions",

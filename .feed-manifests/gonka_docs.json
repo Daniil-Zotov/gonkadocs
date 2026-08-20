@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-08-20T17:22:54.627560+00:00",
+  "snapshot_time": "2026-08-20T18:28:02.566607+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -299,8 +299,8 @@
     "network-updates.md": {
       "title": "Announcements",
       "status": null,
-      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## August 18, 2026\n\nAs a major milestone in protocol development, the chain is ready to gradually enable devshard settlement, raising network security and reliability.\n\nA stabilized gateway version is currently running on one gateway and will be used for th",
-      "checksum": "670cb1bd0214838fc05b89eaf8103b65e32fa044607ac9710569f57e8f282613"
+      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## August 20, 2026\n\n**Proposal 96 is open for voting: Stabilize in-epoch invalid SPRT on small samples**\n\nA new on-chain governance proposal (proposal id 96) is open for voting.\n\n**What it does**\n\nEarly in an epoch there isn't enough data yet, so the invali",
+      "checksum": "feafe8e8c0c88b57981d5af424e5b427442e82842d09ad1f64846a787d738253"
     },
     "participant/README.md": {
       "title": "Redirecting to Host Section",
