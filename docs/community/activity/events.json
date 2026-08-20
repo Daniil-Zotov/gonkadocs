@@ -1,5 +1,25 @@
 [
   {
+    "id": "evt_20260820191129_fbd3db67",
+    "timestamp": "2026-08-20T19:11:29.095177+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Voting ends: #96 – Stabilize in-epoch invalid SPRT on small samples",
+      "url": "/proposals/proposals/2026-q3/96/",
+      "file": "dd1b22d1e4de97a3b3f9ebe17a7b31453b27bc4902d4c0eed2a4b7c1fc41338c"
+    },
+    "details": {
+      "status": null,
+      "content": "In-epoch SPRT on invalid inferences is not stable on a small sample. A few invalids can trip it before the epoch has enough data. This proposal raises invalidation_h_threshold to 40 and sets bad_parti…",
+      "date": "2026-08-21",
+      "time": "06:04 UTC",
+      "event_type": "proposal_vote_end",
+      "url": "/proposals/proposals/2026-q3/96/"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260820182755_557c44ec",
     "timestamp": "2026-08-20T18:27:55.833378+00:00",
     "section": "gonka_docs",

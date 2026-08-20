@@ -1,6 +1,6 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-08-20T17:57:37.890756+00:00",
+  "snapshot_time": "2026-08-20T19:11:29.115805+00:00",
   "files": {
     "d20f0b7f63fffff2927833d9557050f626cd934d5ab3479488af3773000f3011": {
       "title": "▶️ Ancapex Live: Gonka Overview",
@@ -2071,6 +2071,15 @@
       "url": "/proposals/proposals/2026-q2/74/",
       "content_preview": "Report report2 for proposal #74 has been uploaded. Read it: https://gonkadocs.com/proposals/proposals/2026-q2/74/report2/",
       "checksum": "fc086b63b11b5ad0a6ab4d0c7b548ff8e20be7288740c34410ca6acf27bc3fff"
+    },
+    "dd1b22d1e4de97a3b3f9ebe17a7b31453b27bc4902d4c0eed2a4b7c1fc41338c": {
+      "title": "Voting ends: #96 – Stabilize in-epoch invalid SPRT on small samples",
+      "date": "2026-08-21",
+      "time": "06:04 UTC",
+      "event_type": "proposal_vote_end",
+      "url": "/proposals/proposals/2026-q3/96/",
+      "content_preview": "In-epoch SPRT on invalid inferences is not stable on a small sample. A few invalids can trip it before the epoch has enough data. This proposal raises invalidation_h_threshold to 40 and sets bad_parti…",
+      "checksum": "dc498d11b9c2f5536eddeb6df4b6a43a1462208dae81f64f8d9f463657cf7875"
     }
   }
 }
