@@ -28031,8 +28031,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-08-21
   
   In-epoch SPRT on invalid inferences is not stable on a small sample. A few invalids can trip it before the epoch has enough data. This proposal raises invalidation_h_threshold to 40 and sets bad_parti…
-  Yes 100.0% (52,784) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✗ Turnout 13.7% (52,784 / 385,866) · Quorum 25% (96,466)
+  Yes 100.0% (54,993) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✗ Turnout 14.3% (54,993 / 385,866) · Quorum 25% (96,466)
 
   
     #95 – Migrate community-sale and wrapped-token contracts
@@ -29107,7 +29107,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-95 proposals across 5 quarters. Last updated: 2026-08-20 19:26 UTC
+95 proposals across 5 quarters. Last updated: 2026-08-20 19:55 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -66251,8 +66251,8 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-08-21
   
   In-epoch SPRT on invalid inferences is not stable on a small sample. A few invalids can trip it before the epoch has enough data. This proposal raises invalidation_h_threshold to 40 and sets bad_parti…
-  Yes 100.0% (52,784) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✗ Turnout 13.7% (52,784 / 385,866) · Quorum 25% (96,466)
+  Yes 100.0% (54,993) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✗ Turnout 14.3% (54,993 / 385,866) · Quorum 25% (96,466)
 
   
     #95 – Migrate community-sale and wrapped-token contracts
@@ -72429,22 +72429,24 @@ In-epoch SPRT on invalid inferences is not stable on a small sample. A few inval
     
   
   
-    Yes 100.0% (52,784)
+    Yes 100.0% (54,993)
     No 0.0% (0)
     Veto 0.0% (0)
     Abstain 0.0% (0)
-    Total 52,784 votes
-    ✗ Turnout 13.7% (52,784 / 385,866) · Quorum 25% (96,466)
+    Total 54,993 votes
+    ✗ Turnout 14.3% (54,993 / 385,866) · Quorum 25% (96,466)
   
 
 Voters
 
 VoterVote
 
+gonka1qwfrtz…33xdklYes 100.0%
 gonka1xwkesa…lcktdsYes 100.0%
 gonka18xeqns…whyn0dYes 100.0%
 gonka1830lqu…pasz0yYes 100.0%
 gonka1t0psql…mnwdadYes 100.0%
+gonka1m58jds…cqqppfYes 100.0%
 gonka1u60wtn…u7w0qqYes 100.0%
 
 ---
