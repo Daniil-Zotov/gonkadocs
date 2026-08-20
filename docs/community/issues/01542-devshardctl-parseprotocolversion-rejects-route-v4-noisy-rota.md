@@ -2,7 +2,7 @@
 title: "#1542 — devshardctl: ParseProtocolVersion rejects route v4 (noisy rotation fallback log)"
 source: https://github.com/gonka-ai/gonka/issues/1542
 issue_number: 1542
-synced_at: 2026-08-19T23:41:26Z
+synced_at: 2026-08-20T01:55:05Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 2026-08-04 15:58 UTC</span>
-    <span class="issues-meta-item">1 comment</span>
-    <span class="issues-meta-item">Updated 2026-08-05 17:32 UTC</span>
+    <span class="issues-meta-item">2 comments</span>
+    <span class="issues-meta-item">Updated 2026-08-20 01:50 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span> <span class="issues-label" style="background-color: #7057ff; color: #ffffff; border-color: #7057ff;">good first issue</span> <span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
 </div>
@@ -64,7 +64,7 @@ Also worth aligning compose healthcheck (`curl` vs image `wget`) separately — 
 
 ---
 
-## 💬 Comments (1)
+## 💬 Comments (2)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -73,6 +73,23 @@ Also worth aligning compose healthcheck (`curl` vs image `wget`) separately — 
   </div>
   <div class="issues-comment-body issues-content">
     <p>I'd like to take this. I plan to add <code>v4</code> support to <code>ParseProtocolVersion</code>, extend the focused unit coverage, and verify the escrow rotation parsing path. I can submit the PR within a day. Could you confirm that adding <code>ProtocolV4</code> is preferred over keeping route majors decoupled, and assign me?</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/bonujel">@bonujel</a></span>
+    <span class="issues-meta-item">commented 2026-08-20 01:50 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p><code>ParseProtocolVersion</code> has one caller — <code>escrow_rotator.go:408</code>, the path in the report. Grepping for anything that reads the result turns up nothing:</p>
+<pre><code>ParseProtocolVersion    -&gt; devshard/cmd/devshardctl/escrow_rotator.go:408  (only non-test caller)
+ProtocolV1/V2/V3        -&gt; no readers outside devshard/types/domain.go and its tests
+types.ProtocolVersion   -&gt; no consumers
+</code></pre>
+<p>So the parsed value gets stamped into the gateway DB and is never read back for a decision, which matches the note in the description that settlement goes through <code>StateRootAndProtocolVersion</code> from the session SM.</p>
+<p>That points at option 2. Nothing downstream needs the value to be a known enum member, so an unknown route major isn't really an error condition — it's a name the enum hasn't been told about.</p>
+<p>Option 1 also has a shelf life: v5 is already in flight (#1584, #1615). Adding <code>ProtocolV4</code> brings the same log back the day the route prefix moves to <code>/devshard/v5</code>.</p>
+<p>@w3lld1 asked the same question on Aug 5 and hasn't had an answer — this is the evidence for it either way. If option 2 is the call, I can put up the patch.</p>
   </div>
 </div>
 

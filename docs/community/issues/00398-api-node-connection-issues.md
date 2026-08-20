@@ -2,7 +2,7 @@
 title: "#398 — API -> Node Connection Issues"
 source: https://github.com/gonka-ai/gonka/issues/398
 issue_number: 398
-synced_at: 2026-08-19T23:43:12Z
+synced_at: 2026-08-20T01:56:36Z
 template: issues-main.html
 ---
 
