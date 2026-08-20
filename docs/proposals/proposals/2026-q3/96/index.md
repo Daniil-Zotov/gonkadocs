@@ -65,6 +65,7 @@ In-epoch SPRT on invalid inferences is not stable on a small sample. A few inval
 <tr><td><a href="https://gonka.gg/address/gonka18xeqnspxpg2vncufnjne485rkaagwvz7whyn0d" target="_blank" class="prop-voter-addr">gonka18xeqns…whyn0d</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1830lqug50lse998x2lakk4pj5ypfumz5pasz0y" target="_blank" class="prop-voter-addr">gonka1830lqu…pasz0y</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1t0psqlz8fzhlqnaresvk5vxfmgv0te23mnwdad" target="_blank" class="prop-voter-addr">gonka1t0psql…mnwdad</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
+<tr><td><a href="https://gonka.gg/address/gonka1346p2h8dn4kp98c5e93k5q64g0h7vxjxnd55fh" target="_blank" class="prop-voter-addr">gonka1346p2h…nd55fh</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1m58jds005cttwq2vt0p7yk6vy2aqg254cqqppf" target="_blank" class="prop-voter-addr">gonka1m58jds…cqqppf</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1u60wtn9dhadweeuq2gywcpx34fpfnuhmu7w0qq" target="_blank" class="prop-voter-addr">gonka1u60wtn…u7w0qq</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 </tbody>
