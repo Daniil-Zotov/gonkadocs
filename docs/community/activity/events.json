@@ -1,5 +1,36 @@
 [
   {
+    "id": "evt_20260820164659_74634cbd",
+    "timestamp": "2026-08-20T16:46:59.335466+00:00",
+    "section": "discussions",
+    "action": "new",
+    "item": {
+      "title": "(outdated) Proposal #74: Gonka Labs - Monthly Report No. 2",
+      "url": "/community/discussion/governance-proposal-reports/1617-outdated-proposal-74-gonka-labs-monthly-report-no-2/",
+      "file": "governance-proposal-reports/1617-outdated-proposal-74-gonka-labs-monthly-report-no-2.md"
+    },
+    "details": {
+      "status": null,
+      "content": "> 🔄 **Auto-sync:** from [Discussion #1617](https://github.com/gonka-ai/gonka/discussions/1617) every hour. \n\n# (outdated) Proposal #74: Gonka Labs - Monthly Report No. 2\n\n**Автор:** [@nsvdev](https://github.com/nsvdev) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-08-20 15:36 UTC · \n\n---\n\n## 📝 Описание\n\n<img width=\"1920\" height=\"1080\" alt=\"image\" src=\"https://github.com/user-attachments/assets/6267b894-26b8-47a1-a34e-97ff83dca34b\" />\n\nHey! Gonka Labs here. Last update was [Monthly Report No.1](https://github.com/gonka-ai/gonka/discussions/1477) on Jul 18. \n\nReport #1 was the launch month: OpenBroker and Pulse went live, the explorer got a big QA + inference pass, and proxy.gonka.gg moved onto dedicated infra under real load. This month is what we added on"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260820164659_aa238c82",
+    "timestamp": "2026-08-20T16:46:59.335481+00:00",
+    "section": "discussions",
+    "action": "deleted",
+    "item": {
+      "title": "Proposal #74: Gonka Labs - Monthly Report No. 2",
+      "url": null,
+      "file": "governance-proposal-reports/1617-proposal-74-gonka-labs-monthly-report-no-2.md"
+    },
+    "details": {
+      "content": "> 🔄 **Auto-sync:** from [Discussion #1617](https://github.com/gonka-ai/gonka/discussions/1617) every hour. \n\n# Proposal #74: Gonka Labs - Monthly Report No. 2\n\n**Автор:** [@nsvdev](https://github.com/nsvdev) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-08-20 15:36 UTC · \n\n---\n\n## 📝 Описание\n\n<img width=\"1920\" height=\"1080\" alt=\"image\" src=\"https://github.com/user-attachments/assets/6267b894-26b8-47a1-a34e-97ff83dca34b\" />\n\nHey! Gonka Labs here. Last update was [Monthly Report No.1](https://github.com/gonka-ai/gonka/discussions/1477) on Jul 18. \n\nReport #1 was the launch month: OpenBroker and Pulse went live, the explorer got a big QA + inference pass, and proxy.gonka.gg moved onto dedicated infra under real load. This month is what we added on top. New t"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260820154422_d12c0d4e",
     "timestamp": "2026-08-20T15:44:22.534958+00:00",
     "section": "discussions",

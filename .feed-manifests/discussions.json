@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-08-20T15:44:59.338331+00:00",
+  "snapshot_time": "2026-08-20T16:48:02.574025+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "Welcome to Gonka Discussions 👋",
@@ -98,11 +98,11 @@
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1582](https://github.com/gonka-ai/gonka/discussions/1582) every hour. \n\n# Proposal #82: External Test Lab & Community DevNet — M1 Report\n\n**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-08-11 23:12 UTC · \n\n---\n\n## 📝 Описание\n\n**Period:** 2026-07-10 — 2026-08-09 · **Proposal:** [#82](https://gonka.gg/network/proposals/82) ([discussion](https://github.com/gonka-ai/gonka/discussions/1388)) · **Next unlock:** 2026-08-13\n\n## Workstream A — DevNet infrastructure (M1: Setup)\n\n| M1 requirement | Status |\n|---|---|\n| DevNet design agreed | Done — [architecture note](https://github.com/paranjko/external-test-lab/blob/main/devnet/architecture.md) |\n| ≥5 nodes online | Done — node0",
       "checksum": "8c0bce71c3e086edef7664845e963f9ca31df16ab2f8173c63ad3a9b61df90fc"
     },
-    "governance-proposal-reports/1617-proposal-74-gonka-labs-monthly-report-no-2.md": {
-      "title": "Proposal #74: Gonka Labs - Monthly Report No. 2",
+    "governance-proposal-reports/1617-outdated-proposal-74-gonka-labs-monthly-report-no-2.md": {
+      "title": "(outdated) Proposal #74: Gonka Labs - Monthly Report No. 2",
       "status": null,
-      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1617](https://github.com/gonka-ai/gonka/discussions/1617) every hour. \n\n# Proposal #74: Gonka Labs - Monthly Report No. 2\n\n**Автор:** [@nsvdev](https://github.com/nsvdev) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-08-20 15:36 UTC · \n\n---\n\n## 📝 Описание\n\n<img width=\"1920\" height=\"1080\" alt=\"image\" src=\"https://github.com/user-attachments/assets/6267b894-26b8-47a1-a34e-97ff83dca34b\" />\n\nHey! Gonka Labs here. Last update was [Monthly Report No.1](https://github.com/gonka-ai/gonka/discussions/1477) on Jul 18. \n\nReport #1 was the launch month: OpenBroker and Pulse went live, the explorer got a big QA + inference pass, and proxy.gonka.gg moved onto dedicated infra under real load. This month is what we added on top. New t",
-      "checksum": "0f647e6e34e4bdc83bfd2c7e001a2429caba05750c9e475451e586c7c331cf1e"
+      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1617](https://github.com/gonka-ai/gonka/discussions/1617) every hour. \n\n# (outdated) Proposal #74: Gonka Labs - Monthly Report No. 2\n\n**Автор:** [@nsvdev](https://github.com/nsvdev) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-08-20 15:36 UTC · \n\n---\n\n## 📝 Описание\n\n<img width=\"1920\" height=\"1080\" alt=\"image\" src=\"https://github.com/user-attachments/assets/6267b894-26b8-47a1-a34e-97ff83dca34b\" />\n\nHey! Gonka Labs here. Last update was [Monthly Report No.1](https://github.com/gonka-ai/gonka/discussions/1477) on Jul 18. \n\nReport #1 was the launch month: OpenBroker and Pulse went live, the explorer got a big QA + inference pass, and proxy.gonka.gg moved onto dedicated infra under real load. This month is what we added on",
+      "checksum": "669445f1b1bb2398a8dd7e3d3270e09ac10d083cc7ae028bc98f6bf4e3ee467e"
     },
     "protocol-improvements/0795-welcome-to-proposals.md": {
       "title": "Welcome to Proposals 👋",

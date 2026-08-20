@@ -1,16 +1,16 @@
 ---
-title: "#1617 — Proposal #74: Gonka Labs - Monthly Report No. 2"
+title: "#1617 — (outdated) Proposal #74: Gonka Labs - Monthly Report No. 2"
 source: https://github.com/gonka-ai/gonka/discussions/1617
 discussion_number: 1617
 category: governance-proposal-reports
-synced_at: 2026-08-20T15:43:57Z
+synced_at: 2026-08-20T16:46:31Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1617](https://github.com/gonka-ai/gonka/discussions/1617) every hour. 
 
-# Proposal #74: Gonka Labs - Monthly Report No. 2
+# (outdated) Proposal #74: Gonka Labs - Monthly Report No. 2
 
-**Автор:** [@nsvdev](https://github.com/nsvdev) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-08-20 15:36 UTC · **Обновлено:** 2026-08-20 15:36 UTC
+**Автор:** [@nsvdev](https://github.com/nsvdev) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-08-20 15:36 UTC · **Обновлено:** 2026-08-20 15:45 UTC
 
 ---
 

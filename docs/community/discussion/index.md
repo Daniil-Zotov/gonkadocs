@@ -4,7 +4,7 @@ title: "GitHub Discussions"
 
 # GitHub Discussions — `gonka-ai/gonka`
 
-Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **76**. Обновлено: `2026-08-20 15:44 UTC`.
+Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **76**. Обновлено: `2026-08-20 16:46 UTC`.
 
 ## 📂 Категории
 
@@ -22,7 +22,7 @@ title: "GitHub Discussions"
 
 | # | Заголовок | Категория | Автор | Обновлено |
 |---:|---|---|---|---|
-| [1617](governance-proposal-reports/1617-proposal-74-gonka-labs-monthly-report-no-2.md) | [Proposal #74: Gonka Labs - Monthly Report No. 2](governance-proposal-reports/1617-proposal-74-gonka-labs-monthly-report-no-2.md) | :bookmark_tabs: Governance Proposal Reports | [@nsvdev](https://github.com/nsvdev) | 2026-08-20 |
+| [1617](governance-proposal-reports/1617-outdated-proposal-74-gonka-labs-monthly-report-no-2.md) | [(outdated) Proposal #74: Gonka Labs - Monthly Report No. 2](governance-proposal-reports/1617-outdated-proposal-74-gonka-labs-monthly-report-no-2.md) | :bookmark_tabs: Governance Proposal Reports | [@nsvdev](https://github.com/nsvdev) | 2026-08-20 |
 | [1589](ecosystem/1589-bring-gnk-and-gonka-to-the-ledger-ecosystem.md) | [Bring GNK and Gonka to the Ledger Ecosystem](ecosystem/1589-bring-gnk-and-gonka-to-the-ledger-ecosystem.md) | :jigsaw: Ecosystem | [@Isabella0319](https://github.com/Isabella0319) | 2026-08-13 |
 | [1582](governance-proposal-reports/1582-proposal-82-external-test-lab-community-devnet-m1-report.md) | [Proposal #82: External Test Lab & Community DevNet — M1 Report](governance-proposal-reports/1582-proposal-82-external-test-lab-community-devnet-m1-report.md) | :bookmark_tabs: Governance Proposal Reports | [@paranjko](https://github.com/paranjko) | 2026-08-11 |
 | [1388](protocol-improvements/1388-external-test-lab-community-devnet.md) | [External Test Lab & Community DevNet](protocol-improvements/1388-external-test-lab-community-devnet.md) | :gear: Protocol Improvements | [@paranjko](https://github.com/paranjko) | 2026-08-11 |
