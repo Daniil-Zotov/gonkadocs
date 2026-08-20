@@ -1346,7 +1346,7 @@ hide:
 
 </div>
 <div class="prop-oview-stats">
-<em>95 proposals across 5 quarters. Last updated: 2026-08-20 22:21 UTC</em>
+<em>95 proposals across 5 quarters. Last updated: 2026-08-20 22:53 UTC</em>
 </div>
 
 <script>
