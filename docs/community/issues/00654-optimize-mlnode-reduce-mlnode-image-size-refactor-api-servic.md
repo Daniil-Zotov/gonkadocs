@@ -2,7 +2,7 @@
 title: "#654 — Optimize mlnode: reduce mlnode image size, refactor api service (proxy part for the start)"
 source: https://github.com/gonka-ai/gonka/issues/654
 issue_number: 654
-synced_at: 2026-08-20T14:04:29Z
+synced_at: 2026-08-20T14:59:49Z
 template: issues-main.html
 ---
 
