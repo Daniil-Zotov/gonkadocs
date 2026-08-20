@@ -2,7 +2,7 @@
 title: "#1026 — VLM inference and validation in Gonka"
 source: https://github.com/gonka-ai/gonka/issues/1026
 issue_number: 1026
-synced_at: 2026-08-20T07:12:05Z
+synced_at: 2026-08-20T08:01:15Z
 template: issues-main.html
 ---
 
