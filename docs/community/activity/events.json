@@ -17,7 +17,7 @@
       "event_type": "proposal_vote_end",
       "url": "/proposals/proposals/2026-q3/96/"
     },
-    "ai_description": null
+    "ai_description": "A new calendar event marks the voting deadline for proposal #96, which aims to fix unstable in-epoch SPRT behavior on small sample sizes by raising the invalidation threshold. Be sure to cast your vote before the window closes."
   },
   {
     "id": "evt_20260820182755_557c44ec",
