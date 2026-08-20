@@ -37,18 +37,18 @@ In-epoch SPRT on invalid inferences is not stable on a small sample. A few inval
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:14.5%"></div>
+    <div class="prop-tally-yes" style="width:17.5%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (55,784)</span>
+    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (67,585)</span>
     <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-total-text">Total 55,784 votes</span>
-    <span class="prop-tally-veto-text">✗ Turnout <strong>14.5%</strong> (55,784 / 385,866) · Quorum <strong>25%</strong> (96,466)</span>
+    <span class="prop-tally-total-text">Total 67,585 votes</span>
+    <span class="prop-tally-veto-text">✗ Turnout <strong>17.5%</strong> (67,585 / 385,866) · Quorum <strong>25%</strong> (96,466)</span>
   </div>
 </div>
 
@@ -66,6 +66,7 @@ In-epoch SPRT on invalid inferences is not stable on a small sample. A few inval
 <tr><td><a href="https://gonka.gg/address/gonka1830lqug50lse998x2lakk4pj5ypfumz5pasz0y" target="_blank" class="prop-voter-addr">gonka1830lqu…pasz0y</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1t0psqlz8fzhlqnaresvk5vxfmgv0te23mnwdad" target="_blank" class="prop-voter-addr">gonka1t0psql…mnwdad</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1346p2h8dn4kp98c5e93k5q64g0h7vxjxnd55fh" target="_blank" class="prop-voter-addr">gonka1346p2h…nd55fh</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
+<tr><td><a href="https://gonka.gg/address/gonka168rtjfkszuhcggg4dfyse4yh7xn9zwfglnkns2" target="_blank" class="prop-voter-addr">gonka168rtjf…lnkns2</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1m58jds005cttwq2vt0p7yk6vy2aqg254cqqppf" target="_blank" class="prop-voter-addr">gonka1m58jds…cqqppf</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1u60wtn9dhadweeuq2gywcpx34fpfnuhmu7w0qq" target="_blank" class="prop-voter-addr">gonka1u60wtn…u7w0qq</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 </tbody>
