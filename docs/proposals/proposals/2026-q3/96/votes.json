@@ -1,0 +1,24 @@
+[
+  {
+    "proposal_id": "96",
+    "voter": "gonka1xwkesaxvdadh9wt9yyladu0r260s7whklcktds",
+    "options": [
+      {
+        "option": "VOTE_OPTION_YES",
+        "weight": "1.000000000000000000"
+      }
+    ],
+    "metadata": ""
+  },
+  {
+    "proposal_id": "96",
+    "voter": "gonka1t0psqlz8fzhlqnaresvk5vxfmgv0te23mnwdad",
+    "options": [
+      {
+        "option": "VOTE_OPTION_YES",
+        "weight": "1.000000000000000000"
+      }
+    ],
+    "metadata": ""
+  }
+]

@@ -34,15 +34,15 @@ hide:
 ## Overview
 
 <div class="qs-stats">
-<div class="qs-stat total"><span class="qs-num">94</span><span class="qs-desc">Total Proposals</span></div>
-<div class="qs-stat passed"><span class="qs-num">63</span><span class="qs-desc">Passed (67%)</span></div>
+<div class="qs-stat total"><span class="qs-num">95</span><span class="qs-desc">Total Proposals</span></div>
+<div class="qs-stat passed"><span class="qs-num">63</span><span class="qs-desc">Passed (66%)</span></div>
 <div class="qs-stat rejected"><span class="qs-num">30</span><span class="qs-desc">Rejected (32%)</span></div>
 <div class="qs-stat failed"><span class="qs-num">1</span><span class="qs-desc">Failed (1%)</span></div>
 </div>
 
 <div class="qs-categories">
 <div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:41%"></span></span><span class="qs-value">39</span></div>
-<div class="qs-row"><span class="qs-label">Governance Parameters</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:30%"></span></span><span class="qs-value">28</span></div>
+<div class="qs-row"><span class="qs-label">Governance Parameters</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:31%"></span></span><span class="qs-value">29</span></div>
 <div class="qs-row"><span class="qs-label">Software Upgrade</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:19%"></span></span><span class="qs-value">18</span></div>
 <div class="qs-row"><span class="qs-label">Other</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:4%"></span></span><span class="qs-value">4</span></div>
 <div class="qs-row"><span class="qs-label">GRC / Restitution</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:3%"></span></span><span class="qs-value">3</span></div>
@@ -58,7 +58,22 @@ hide:
 <div class="prop-quarter" id="2026-q3" markdown="1">
 ## 2026-Q3
 
-*16 proposals*
+*17 proposals*
+
+<div class="prop-card" data-status="prop-voting" data-voting-end="2026-08-21T06:04:19.550951169Z">
+  <div class="prop-card-header">
+    <a href="2026-q3/96/" class="prop-card-title">#96 – Stabilize in-epoch invalid SPRT on small samples</a>
+    <span class="prop-vote-countdown" data-deadline="2026-08-21T06:04:19.550951169Z"></span>
+    <span class="prop-badge prop-voting">Voting</span>
+  </div>
+  <div class="prop-card-meta">
+    <span>Submitted 2026-08-20</span>
+    <span>Voting ends 2026-08-21</span>
+  </div>
+  <div class="prop-card-desc">In-epoch SPRT on invalid inferences is not stable on a small sample. A few invalids can trip it before the epoch has enough data. This proposal raises invalidation_h_threshold to 40 and sets bad_parti…</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (8,180)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>2.3%</strong> (8,180 / 358,342) · Quorum <strong>25%</strong> (89,585)</span></div>
+</div>
 
 <div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
@@ -1331,7 +1346,7 @@ hide:
 
 </div>
 <div class="prop-oview-stats">
-<em>94 proposals across 5 quarters. Last updated: 2026-08-20 18:02 UTC</em>
+<em>95 proposals across 5 quarters. Last updated: 2026-08-20 18:20 UTC</em>
 </div>
 
 <script>

@@ -1258,5 +1258,17 @@
     "tags": [
       "report"
     ]
+  },
+  {
+    "date": "2026-08-21",
+    "category": "governance",
+    "type": "proposal_vote_end",
+    "title": "Voting ends: #96 – Stabilize in-epoch invalid SPRT on small samples",
+    "url": "/proposals/proposals/2026-q3/96/",
+    "time": "06:04 UTC",
+    "description": "In-epoch SPRT on invalid inferences is not stable on a small sample. A few invalids can trip it before the epoch has enough data. This proposal raises invalidation_h_threshold to 40 and sets bad_parti…",
+    "tags": [
+      "voting"
+    ]
   }
 ]
