@@ -11,7 +11,7 @@
       <link>https://gonkadocs.com/proposals/proposals/2026-q3/96/</link>
       <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q3/96/</guid>
       <pubDate>Thu, 20 Aug 2026 18:04:19 +0000</pubDate>
-      <category>Voting</category>
+      <category>Passed</category>
       <description>In-epoch SPRT on invalid inferences is not stable on a small sample. A few invalids can trip it before the epoch has enough data. This proposal raises invalidation_h_threshold to 40 and sets bad_participant_invalidation_rate to 18e-2. At large sample sizes the threshold is about 10% invalid, so participants below that are not punished. Higher rates still trigger, 18% in about 360 samples and 12% in about 1650. Small samples cannot trigger it. At least 32 flagged invalids are required, and at 500</description>
     </item>
     <item>

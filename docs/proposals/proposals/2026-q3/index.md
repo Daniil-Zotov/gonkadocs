@@ -35,7 +35,7 @@ hide:
 
 <div class="qs-stats">
 <div class="qs-stat total"><span class="qs-num">17</span><span class="qs-desc">Total Proposals</span></div>
-<div class="qs-stat passed"><span class="qs-num">11</span><span class="qs-desc">Passed (65%)</span></div>
+<div class="qs-stat passed"><span class="qs-num">12</span><span class="qs-desc">Passed (71%)</span></div>
 <div class="qs-stat rejected"><span class="qs-num">5</span><span class="qs-desc">Rejected (29%)</span></div>
 
 </div>
@@ -57,11 +57,10 @@ hide:
 <div class="prop-quarter">
 <h2>2026-Q3</h2>
 <p>17 proposals</p>
-<div class="prop-card" data-status="prop-voting" data-voting-end="2026-08-21T06:04:19.550951169Z">
+<div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
     <a href="96/" class="prop-card-title">#96 – Stabilize in-epoch invalid SPRT on small samples</a>
-    <span class="prop-vote-countdown" data-deadline="2026-08-21T06:04:19.550951169Z"></span>
-    <span class="prop-badge prop-voting">Voting</span>
+    <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
     <span>Submitted 2026-08-20</span>
