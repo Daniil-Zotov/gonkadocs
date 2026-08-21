@@ -2,7 +2,7 @@
 title: "#935 — [P0] `devshards` fees"
 source: https://github.com/gonka-ai/gonka/issues/935
 issue_number: 935
-synced_at: 2026-08-21T09:55:51Z
+synced_at: 2026-08-21T10:53:22Z
 template: issues-main.html
 ---
 
