@@ -3,14 +3,14 @@ title: "#1619 — Phase out Kimi K2.6"
 source: https://github.com/gonka-ai/gonka/discussions/1619
 discussion_number: 1619
 category: general
-synced_at: 2026-08-21T10:40:03Z
+synced_at: 2026-08-21T11:35:13Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1619](https://github.com/gonka-ai/gonka/discussions/1619) every hour. 
 
 # Phase out Kimi K2.6
 
-**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :speech_balloon: General · **Создано:** 2026-08-21 01:09 UTC · **Обновлено:** 2026-08-21 01:09 UTC
+**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :speech_balloon: General · **Создано:** 2026-08-21 01:09 UTC · **Обновлено:** 2026-08-21 10:42 UTC
 
 ---
 
@@ -35,3 +35,13 @@ Instead of waiting for Kimi K2.6 to fade out on its own, I think a planned phase
 The goal is simple: move Gonka’s GPU capacity toward models with stronger demand and make better use of the hardware already in the network.
 
 I suggest keeping this discussion about Kimi's fate open until August 30. Unless there are any objections, I’ll put the proposal to phase out Kimi K2.6 to a vote after that.
+
+---
+
+## 💬 Комментарии (1)
+
+### Комментарий 1 — [@theaungmyatmoe](https://github.com/theaungmyatmoe)
+
+*2026-08-21 10:42 UTC*
+
+Exactly and we could bring the Deepseek VL model too. 
