@@ -2,7 +2,7 @@
 title: "#1269 — x/inference: revalidation vote fails when voter absent from epoch x/group"
 source: https://github.com/gonka-ai/gonka/issues/1269
 issue_number: 1269
-synced_at: 2026-08-21T14:57:15Z
+synced_at: 2026-08-21T15:52:40Z
 template: issues-main.html
 ---
 
