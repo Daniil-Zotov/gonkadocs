@@ -3,7 +3,7 @@ title: "#1230 — Proposal: optional signed agent request envelope for Gonka inf
 source: https://github.com/gonka-ai/gonka/discussions/1230
 discussion_number: 1230
 category: protocol-improvements
-synced_at: 2026-08-21T07:53:06Z
+synced_at: 2026-08-21T08:52:55Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1230](https://github.com/gonka-ai/gonka/discussions/1230) every hour. 
