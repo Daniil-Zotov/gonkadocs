@@ -2,7 +2,7 @@
 title: "#1439 — External Visibility"
 source: https://github.com/gonka-ai/gonka/issues/1439
 issue_number: 1439
-synced_at: 2026-08-21T17:49:56Z
+synced_at: 2026-08-21T19:01:35Z
 template: issues-main.html
 ---
 
