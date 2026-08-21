@@ -2,7 +2,7 @@
 title: "#334 — [P1] Key Rotation & Validator info update (warm key, node-id / key,  public url)"
 source: https://github.com/gonka-ai/gonka/issues/334
 issue_number: 334
-synced_at: 2026-08-21T07:13:04Z
+synced_at: 2026-08-21T08:02:36Z
 template: issues-main.html
 ---
 
