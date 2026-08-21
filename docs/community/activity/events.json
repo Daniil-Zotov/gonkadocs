@@ -17,7 +17,7 @@
       "event_type": "proposal_report",
       "url": "/proposals/proposals/2026-q3/96/"
     },
-    "ai_description": null
+    "ai_description": "Proposal #96 has passed, raising the invalidation_h_threshold to 40 to prevent in-epoch SPRT from triggering too early on small samples. This stabilizes invalid inference detection by ensuring the epoch gathers enough data before any decisions are made."
   },
   {
     "id": "evt_20260821063320_9dea85ca",
