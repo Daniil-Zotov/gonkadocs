@@ -37,18 +37,18 @@ In-epoch SPRT on invalid inferences is not stable on a small sample. A few inval
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:53.3%"></div>
+    <div class="prop-tally-yes" style="width:51.0%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (205,580)</span>
+    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (178,056)</span>
     <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-total-text">Total 205,580 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout <strong>53.3%</strong> (205,580 / 385,866) · Quorum <strong>25%</strong> (96,466)</span>
+    <span class="prop-tally-total-text">Total 178,056 votes</span>
+    <span class="prop-tally-yes-text">✓ Turnout <strong>51.0%</strong> (178,056 / 349,075) · Quorum <strong>25%</strong> (87,268)</span>
   </div>
 </div>
 

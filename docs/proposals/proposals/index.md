@@ -71,8 +71,8 @@ hide:
     <span>Voting ends 2026-08-21</span>
   </div>
   <div class="prop-card-desc">In-epoch SPRT on invalid inferences is not stable on a small sample. A few invalids can trip it before the epoch has enough data. This proposal raises invalidation_h_threshold to 40 and sets bad_parti…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (205,580)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>53.3%</strong> (205,580 / 385,866) · Quorum <strong>25%</strong> (96,466)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (178,056)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>51.0%</strong> (178,056 / 349,075) · Quorum <strong>25%</strong> (87,268)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -1346,7 +1346,7 @@ hide:
 
 </div>
 <div class="prop-oview-stats">
-<em>95 proposals across 5 quarters. Last updated: 2026-08-21 04:50 UTC</em>
+<em>95 proposals across 5 quarters. Last updated: 2026-08-21 05:27 UTC</em>
 </div>
 
 <script>
