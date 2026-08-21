@@ -19273,7 +19273,7 @@ decentralized mixture-of-experts."
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-08-21 02:57 UTC
+2026-08-21 03:51 UTC
 
 ---
 
@@ -28031,8 +28031,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-08-21
   
   In-epoch SPRT on invalid inferences is not stable on a small sample. A few invalids can trip it before the epoch has enough data. This proposal raises invalidation_h_threshold to 40 and sets bad_parti…
-  Yes 100.0% (67,585) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✗ Turnout 17.5% (67,585 / 385,866) · Quorum 25% (96,466)
+  Yes 100.0% (203,826) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 52.8% (203,826 / 385,866) · Quorum 25% (96,466)
 
   
     #95 – Migrate community-sale and wrapped-token contracts
@@ -29107,7 +29107,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-95 proposals across 5 quarters. Last updated: 2026-08-21 03:13 UTC
+95 proposals across 5 quarters. Last updated: 2026-08-21 04:04 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -66251,8 +66251,8 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-08-21
   
   In-epoch SPRT on invalid inferences is not stable on a small sample. A few invalids can trip it before the epoch has enough data. This proposal raises invalidation_h_threshold to 40 and sets bad_parti…
-  Yes 100.0% (67,585) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✗ Turnout 17.5% (67,585 / 385,866) · Quorum 25% (96,466)
+  Yes 100.0% (203,826) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 52.8% (203,826 / 385,866) · Quorum 25% (96,466)
 
   
     #95 – Migrate community-sale and wrapped-token contracts
@@ -72429,12 +72429,12 @@ In-epoch SPRT on invalid inferences is not stable on a small sample. A few inval
     
   
   
-    Yes 100.0% (67,585)
+    Yes 100.0% (203,826)
     No 0.0% (0)
     Veto 0.0% (0)
     Abstain 0.0% (0)
-    Total 67,585 votes
-    ✗ Turnout 17.5% (67,585 / 385,866) · Quorum 25% (96,466)
+    Total 203,826 votes
+    ✓ Turnout 52.8% (203,826 / 385,866) · Quorum 25% (96,466)
   
 
 Voters
@@ -72442,12 +72442,15 @@ Voters
 VoterVote
 
 gonka1qwfrtz…33xdklYes 100.0%
+gonka1ym3np7…0e4a2pYes 100.0%
 gonka1xwkesa…lcktdsYes 100.0%
 gonka18xeqns…whyn0dYes 100.0%
 gonka1830lqu…pasz0yYes 100.0%
 gonka1t0psql…mnwdadYes 100.0%
 gonka1346p2h…nd55fhYes 100.0%
+gonka1kvmerz…lzldumYes 100.0%
 gonka168rtjf…lnkns2Yes 100.0%
+gonka16dgkvx…6j0skkYes 100.0%
 gonka1m58jds…cqqppfYes 100.0%
 gonka1u60wtn…u7w0qqYes 100.0%
 
