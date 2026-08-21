@@ -3,7 +3,7 @@ title: "#930 — Proposal: Agent identity and delegation governance for Gonka co
 source: https://github.com/gonka-ai/gonka/discussions/930
 discussion_number: 930
 category: protocol-improvements
-synced_at: 2026-08-21T15:43:16Z
+synced_at: 2026-08-21T16:46:55Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #930](https://github.com/gonka-ai/gonka/discussions/930) every hour. 
