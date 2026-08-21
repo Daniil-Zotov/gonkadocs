@@ -1,5 +1,29 @@
 [
   {
+    "id": "evt_20260821004846_11eb333a",
+    "timestamp": "2026-08-21T00:48:46.501702+00:00",
+    "section": "calendar",
+    "action": "daily_reminder",
+    "item": {
+      "title": "Today: 1 events — Voting ends: #96 – Stabilize in-epoch invalid SPRT on small samples",
+      "url": "/community/calendar/",
+      "file": null
+    },
+    "details": {
+      "today": [
+        {
+          "title": "Voting ends: #96 – Stabilize in-epoch invalid SPRT on small samples",
+          "date": "2026-08-21",
+          "time": "06:04 UTC",
+          "event_type": "proposal_vote_end",
+          "url": "/proposals/proposals/2026-q3/96/"
+        }
+      ],
+      "count": 1
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260820191129_fbd3db67",
     "timestamp": "2026-08-20T19:11:29.095177+00:00",
     "section": "calendar",
