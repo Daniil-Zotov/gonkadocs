@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260821152512_ddb3a04c",
+    "timestamp": "2026-08-21T15:25:12.973683+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "Announcements",
+      "url": "/gonka/docs/network-updates/",
+      "file": "network-updates.md"
+    },
+    "details": {
+      "content_before": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## August 20, 2026\n\n**Proposal 96 is open for voting: Stabilize in-epoch invalid SPRT on small samples**\n\nA new on-chain governance proposal (proposal id 96) is open for voting.\n\n**What it does**\n\nEarly in an epoch there isn't enough data yet, so the invali",
+      "content_after": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## August 21, 2026\n\n**PROPOSAL PASSED: Stabilize in-epoch invalid SPRT on small samples**\n\nThe on-chain governance vote for proposal id 96 has concluded.\n\nThe proposal was APPROVED. It adjusts how the invalid-inference check behaves on small samples so it d"
+    },
+    "ai_description": "Proposal 96 has passed. The governance vote to stabilize the invalid SPRT check on small samples was approved, and the Protocol Docs Announcements page has been updated to reflect the new status. This change improves how the network handles invalid inference detection early in epochs when data is still limited."
+  },
+  {
     "id": "evt_20260821072448_9df5a7f7",
     "timestamp": "2026-08-21T07:24:48.567137+00:00",
     "section": "calendar",
