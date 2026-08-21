@@ -1,5 +1,37 @@
 [
   {
+    "id": "evt_20260821063320_9dea85ca",
+    "timestamp": "2026-08-21T06:33:20.352291+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "Run your own gateway",
+      "url": "/gonka/docs/developer/gateway-developer-quickstart/",
+      "file": "developer/gateway-developer-quickstart.md"
+    },
+    "details": {
+      "content_before": "# Run your own gateway\n\nThis guide explains how to run a Gonka devshard gateway on **gonka-mainnet** without installing a full chain node. You will deploy the gateway on your own Linux host, fund a dedicated escrow creator address, open an on-chain devshard escrow, send OpenAI-compatible inference requests, and settle the escrow when you are finished.\n\nIf you only need inference through an existing endpoint, use a [community broker](quickstart.md#1-use-a-community-broker-recommended) instead — that path does not require Docker, on-chain escrows, or an allow-listed creator address.\n\n### Allowlisted creator address required\n\n> **Prerequisite:** The `gonka1…` address for your devshard escrow creator (`$DEVSHARD_CREATOR`, from `DEVSHARD_PRIVATE_KEY`) **must** appear on the chain allowlist `dev",
+      "content_after": "# Run your own gateway\n\nThis guide explains how to run a Gonka devshard gateway on **gonka-mainnet** without installing a full chain node. You will deploy the gateway on your own Linux host, fund a dedicated escrow creator address, open an on-chain devshard escrow, send OpenAI-compatible inference requests, and settle the escrow when you are finished.\n\nIf you want to **become a broker** without running your own allow-listed gateway, use **[Open Broker](https://openbroker.gonka.gg)** - that is the recommended path (see [Developer Quickstart §3](quickstart.md#3-interested-in-operating-a-gateway)). Continue with this guide only when you specifically need a self-hosted on-chain gateway.\n\n### Allowlisted creator address required\n\n> **Prerequisite:** The `gonka1…` address for your devshard escro"
+    },
+    "ai_description": "The \"Run your own gateway\" guide has been updated to recommend Open Broker as the preferred path for anyone who wants to become a broker without running a self-hosted, allow-listed gateway. The previous guidance pointing users to a community broker has been replaced with a direct link to Open Broker and clearer instructions to use this guide only when you specifically need a self-hosted on-chain gateway."
+  },
+  {
+    "id": "evt_20260821063320_fa13723a",
+    "timestamp": "2026-08-21T06:33:20.352330+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "Developer Quickstart",
+      "url": "/gonka/docs/developer/quickstart/",
+      "file": "developer/quickstart.md"
+    },
+    "details": {
+      "content_before": "# Developer Quickstart\n\nThis guide explains how to send an inference request to Gonka through a community broker. It is the fastest way to start using the network today. If you would like to [run your own gateway](#2-run-your-own-gateway-advanced) instead of going through a broker, see Run your own gateway at the bottom of this page.\n\n!!! note \"How to connect to Gonka\"\n\n    Gonka inference is now organized around **devshards** — short-lived sessions that hold a small on-chain deposit (an escrow) and settle per-request billing off-chain. The role of opening a devshard, signing requests, rotating the session, and submitting settlement to the chain is performed by a piece of software called a **gateway**.\n\n    For most developers, the simplest way to use Gonka is to call a **community broker*",
+      "content_after": "# Developer Quickstart\n\nThis guide explains how to send an inference request to Gonka through a community broker. It is the fastest way to start using the network today. If you would like to [run your own gateway](#2-run-your-own-gateway-advanced) instead of going through a broker, see Run your own gateway at the bottom of this page. Want to **operate as a broker** yourself? See [Interested in operating a gateway?](#3-interested-in-operating-a-gateway) - start with [Open Broker](https://openbroker.gonka.gg), or use a GitHub allow-list issue as a fallback if Open Broker does not satisfy your needs.\n\n!!! note \"How to connect to Gonka\"\n\n    Gonka inference is now organized around **devshards** — short-lived sessions that hold a small on-chain deposit (an escrow) and settle per-request billing"
+    },
+    "ai_description": "The Developer Quickstart guide has been updated to include clear next steps for anyone interested in operating as a community broker themselves. It now points readers to Open Broker and a GitHub allow-list issue as pathways to start running a gateway, making it easier for community members to move from using the network to actively supporting it."
+  },
+  {
     "id": "evt_20260821015248_db2c6387",
     "timestamp": "2026-08-21T01:52:48.362328+00:00",
     "section": "discussions",
