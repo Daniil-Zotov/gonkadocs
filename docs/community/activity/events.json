@@ -1,5 +1,37 @@
 [
   {
+    "id": "evt_20260821172123_dee03e48",
+    "timestamp": "2026-08-21T17:21:23.563944+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "Run your own gateway",
+      "url": "/gonka/docs/developer/gateway-developer-quickstart/",
+      "file": "developer/gateway-developer-quickstart.md"
+    },
+    "details": {
+      "content_before": "# Run your own gateway\n\nThis guide explains how to run a Gonka devshard gateway on **gonka-mainnet** without installing a full chain node. You will deploy the gateway on your own Linux host, fund a dedicated escrow creator address, open an on-chain devshard escrow, send OpenAI-compatible inference requests, and settle the escrow when you are finished.\n\nIf you want to **become a broker** without running your own allow-listed gateway, use **[Open Broker](https://openbroker.gonka.gg)** - that is the recommended path (see [Developer Quickstart §3](quickstart.md#3-interested-in-operating-a-gateway)). Continue with this guide only when you specifically need a self-hosted on-chain gateway.\n\n### Allowlisted creator address required\n\n> **Prerequisite:** The `gonka1…` address for your devshard escro",
+      "content_after": "# Run your own gateway\n\nThis guide explains how to run a Gonka devshard gateway on **gonka-mainnet** without installing a full chain node. You will deploy the gateway on your own Linux host, fund a dedicated escrow creator address, open an on-chain devshard escrow, send OpenAI-compatible inference requests, and settle the escrow when you are finished.\n\nIf you want to **become a broker** without running your own allow-listed gateway, use **[OpenBroker](https://openbroker.gonka.gg)** - that is the recommended path (see [Developer Quickstart §3](quickstart.md#3-interested-in-operating-a-gateway)). Continue with this guide only when you specifically need a self-hosted on-chain gateway.\n\n### Allowlisted creator address required\n\n> **Prerequisite:** The `gonka1…` address for your devshard escrow"
+    },
+    "ai_description": "The Protocol Docs page for running your own gateway received a quick polish, correcting the OpenBroker product name and fixing a typo in the escrow prerequisite. Clean, accurate documentation helps everyone get their self-hosted gateways up and running without confusion."
+  },
+  {
+    "id": "evt_20260821172123_d5ad6322",
+    "timestamp": "2026-08-21T17:21:23.563994+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "Developer Quickstart",
+      "url": "/gonka/docs/developer/quickstart/",
+      "file": "developer/quickstart.md"
+    },
+    "details": {
+      "content_before": "# Developer Quickstart\n\nThis guide explains how to send an inference request to Gonka through a community broker. It is the fastest way to start using the network today. If you would like to [run your own gateway](#2-run-your-own-gateway-advanced) instead of going through a broker, see Run your own gateway at the bottom of this page. Want to **operate as a broker** yourself? See [Interested in operating a gateway?](#3-interested-in-operating-a-gateway) - start with [Open Broker](https://openbroker.gonka.gg), or use a GitHub allow-list issue as a fallback if Open Broker does not satisfy your needs.\n\n!!! note \"How to connect to Gonka\"\n\n    Gonka inference is now organized around **devshards** — short-lived sessions that hold a small on-chain deposit (an escrow) and settle per-request billing",
+      "content_after": "# Developer Quickstart\n\nThis guide explains how to send an inference request to Gonka through a community broker. It is the fastest way to start using the network today. If you would like to [run your own gateway](#2-run-your-own-gateway-advanced) instead of going through a broker, see Run your own gateway at the bottom of this page. Want to **operate as a broker** yourself? See [Interested in operating a gateway?](#3-interested-in-operating-a-gateway) - start with [OpenBroker](https://openbroker.gonka.gg), or use a GitHub allow-list issue as a fallback if OpenBroker does not satisfy your needs.\n\n!!! note \"How to connect to Gonka\"\n\n    Gonka inference is now organized around **devshards** — short-lived sessions that hold a small on-chain deposit (an escrow) and settle per-request billing o"
+    },
+    "ai_description": "The Protocol Docs Quickstart guide has been updated to rebrand \"Open Broker\" to \"OpenBroker\" throughout, aligning the naming with the platform URL and creating a more consistent identity for the gateway onboarding tool. This small but important cleanup helps reduce confusion for developers looking to operate their own gateways."
+  },
+  {
     "id": "evt_20260821152512_ddb3a04c",
     "timestamp": "2026-08-21T15:25:12.973683+00:00",
     "section": "gonka_docs",

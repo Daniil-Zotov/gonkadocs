@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-08-21T16:23:34.091374+00:00",
+  "snapshot_time": "2026-08-21T17:21:32.002681+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -119,14 +119,14 @@
     "developer/gateway-developer-quickstart.md": {
       "title": "Run your own gateway",
       "status": null,
-      "content_preview": "# Run your own gateway\n\nThis guide explains how to run a Gonka devshard gateway on **gonka-mainnet** without installing a full chain node. You will deploy the gateway on your own Linux host, fund a dedicated escrow creator address, open an on-chain devshard escrow, send OpenAI-compatible inference requests, and settle the escrow when you are finished.\n\nIf you want to **become a broker** without running your own allow-listed gateway, use **[Open Broker](https://openbroker.gonka.gg)** - that is the recommended path (see [Developer Quickstart §3](quickstart.md#3-interested-in-operating-a-gateway)). Continue with this guide only when you specifically need a self-hosted on-chain gateway.\n\n### Allowlisted creator address required\n\n> **Prerequisite:** The `gonka1…` address for your devshard escro",
-      "checksum": "b3f5a98fa6a0aa44c62681427f5ff32be52494bcf6864abd47f9a8a4a1086391"
+      "content_preview": "# Run your own gateway\n\nThis guide explains how to run a Gonka devshard gateway on **gonka-mainnet** without installing a full chain node. You will deploy the gateway on your own Linux host, fund a dedicated escrow creator address, open an on-chain devshard escrow, send OpenAI-compatible inference requests, and settle the escrow when you are finished.\n\nIf you want to **become a broker** without running your own allow-listed gateway, use **[OpenBroker](https://openbroker.gonka.gg)** - that is the recommended path (see [Developer Quickstart §3](quickstart.md#3-interested-in-operating-a-gateway)). Continue with this guide only when you specifically need a self-hosted on-chain gateway.\n\n### Allowlisted creator address required\n\n> **Prerequisite:** The `gonka1…` address for your devshard escrow",
+      "checksum": "ea73e1c28f738d92a3c51f65da48d60f910d9d48703fc82dbf134a522a52277c"
     },
     "developer/quickstart.md": {
       "title": "Developer Quickstart",
       "status": null,
-      "content_preview": "# Developer Quickstart\n\nThis guide explains how to send an inference request to Gonka through a community broker. It is the fastest way to start using the network today. If you would like to [run your own gateway](#2-run-your-own-gateway-advanced) instead of going through a broker, see Run your own gateway at the bottom of this page. Want to **operate as a broker** yourself? See [Interested in operating a gateway?](#3-interested-in-operating-a-gateway) - start with [Open Broker](https://openbroker.gonka.gg), or use a GitHub allow-list issue as a fallback if Open Broker does not satisfy your needs.\n\n!!! note \"How to connect to Gonka\"\n\n    Gonka inference is now organized around **devshards** — short-lived sessions that hold a small on-chain deposit (an escrow) and settle per-request billing",
-      "checksum": "6515c6bffdacbc8d66d54b8e670a4d4685d963634e59d70deadf49a0b21fb874"
+      "content_preview": "# Developer Quickstart\n\nThis guide explains how to send an inference request to Gonka through a community broker. It is the fastest way to start using the network today. If you would like to [run your own gateway](#2-run-your-own-gateway-advanced) instead of going through a broker, see Run your own gateway at the bottom of this page. Want to **operate as a broker** yourself? See [Interested in operating a gateway?](#3-interested-in-operating-a-gateway) - start with [OpenBroker](https://openbroker.gonka.gg), or use a GitHub allow-list issue as a fallback if OpenBroker does not satisfy your needs.\n\n!!! note \"How to connect to Gonka\"\n\n    Gonka inference is now organized around **devshards** — short-lived sessions that hold a small on-chain deposit (an escrow) and settle per-request billing o",
+      "checksum": "48c1958926352e78918e3ae086ad58ce942ab3d6891025e462773da1919568f7"
     },
     "disclaimer.md": {
       "title": "Disclaimer",

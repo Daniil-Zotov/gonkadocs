@@ -9383,13 +9383,13 @@ Always double-check the route, addresses, assets, and amounts, and start with a 
 
 This guide explains how to run a Gonka devshard gateway on **gonka-mainnet** without installing a full chain node. You will deploy the gateway on your own Linux host, fund a dedicated escrow creator address, open an on-chain devshard escrow, send OpenAI-compatible inference requests, and settle the escrow when you are finished.
 
-If you want to **become a broker** without running your own allow-listed gateway, use **[Open Broker](https://openbroker.gonka.gg)** - that is the recommended path (see [Developer Quickstart §3](quickstart.md#3-interested-in-operating-a-gateway)). Continue with this guide only when you specifically need a self-hosted on-chain gateway.
+If you want to **become a broker** without running your own allow-listed gateway, use **[OpenBroker](https://openbroker.gonka.gg)** - that is the recommended path (see [Developer Quickstart §3](quickstart.md#3-interested-in-operating-a-gateway)). Continue with this guide only when you specifically need a self-hosted on-chain gateway.
 
 ### Allowlisted creator address required
 
 > **Prerequisite:** The `gonka1…` address for your devshard escrow creator (`$DEVSHARD_CREATOR`, from `DEVSHARD_PRIVATE_KEY`) **must** appear on the chain allowlist `devshard_escrow_params.allowed_creator_addresses` **before** you can create an escrow.
 >
-> The allowlist is maintained on-chain through **governance**. You cannot add yourself via `config.devshard.env` or admin settings. Prefer becoming a broker via [Open Broker](https://openbroker.gonka.gg); use a [GitHub allow-list issue as a fallback](quickstart.md#fallback-github-allow-list-request) if Open Broker does not satisfy your needs and you still need your own allow-listed creator address.
+> The allowlist is maintained on-chain through **governance**. You cannot add yourself via `config.devshard.env` or admin settings. Prefer becoming a broker via [OpenBroker](https://openbroker.gonka.gg); use a [GitHub allow-list issue as a fallback](quickstart.md#fallback-github-allow-list-request) if OpenBroker does not satisfy your needs and you still need your own allow-listed creator address.
 >
 > After you import your key in [§2.3](#23-import-the-creator-key), verify membership in [§2.4](#24-confirm-allowlist-membership). Do not fund the creator or deploy the gateway until that check passes (funding alone does not grant allowlist access).
 
@@ -9587,7 +9587,7 @@ The name `devshard-create` is only a local label; on-chain transactions use `--f
 
 **Do not skip this step.** Escrow creation in [§4](#4-create-an-escrow-and-open-api-access) only succeeds when `$DEVSHARD_CREATOR` is on the chain allowlist.
 
-You do **not** need to run a validator to use a gateway; you only need your creator address on `devshard_escrow_params.allowed_creator_addresses`. If it is missing, stop here - become a broker via [Open Broker](https://openbroker.gonka.gg), or use the [GitHub allow-list fallback](quickstart.md#fallback-github-allow-list-request) only if Open Broker cannot meet your needs. Re-run this check after any governance vote before creating an escrow.
+You do **not** need to run a validator to use a gateway; you only need your creator address on `devshard_escrow_params.allowed_creator_addresses`. If it is missing, stop here - become a broker via [OpenBroker](https://openbroker.gonka.gg), or use the [GitHub allow-list fallback](quickstart.md#fallback-github-allow-list-request) only if OpenBroker cannot meet your needs. Re-run this check after any governance vote before creating an escrow.
 
 ```bash
 source config.devshard.env
@@ -10043,9 +10043,9 @@ Replacing the gateway **image** or recreating the main container would drop in-f
 
 ## Related
 
-- [Developer Quickstart](quickstart.md) - community brokers; [become a broker via Open Broker](quickstart.md#recommended-become-a-broker-with-open-broker); [GitHub allow-list fallback](quickstart.md#fallback-github-allow-list-request)
+- [Developer Quickstart](quickstart.md) - community brokers; [become a broker via OpenBroker](quickstart.md#recommended-become-a-broker-with-openbroker); [GitHub allow-list fallback](quickstart.md#fallback-github-allow-list-request)
 
-**Need help?** See the [FAQ](https://gonka.ai/FAQ/), join [Discord](https://discord.com/invite/RADwCT2U6R), or - only if Open Broker does not fit - open a [gateway allowlist request](https://github.com/gonka-ai/gonka/issues/new?title=Gateway+allowlist+request) on GitHub.
+**Need help?** See the [FAQ](https://gonka.ai/FAQ/), join [Discord](https://discord.com/invite/RADwCT2U6R), or - only if OpenBroker does not fit - open a [gateway allowlist request](https://github.com/gonka-ai/gonka/issues/new?title=Gateway+allowlist+request) on GitHub.
 
 ---
 
@@ -10053,7 +10053,7 @@ Replacing the gateway **image** or recreating the main container would drop in-f
 
 # Developer Quickstart
 
-This guide explains how to send an inference request to Gonka through a community broker. It is the fastest way to start using the network today. If you would like to [run your own gateway](#2-run-your-own-gateway-advanced) instead of going through a broker, see Run your own gateway at the bottom of this page. Want to **operate as a broker** yourself? See [Interested in operating a gateway?](#3-interested-in-operating-a-gateway) - start with [Open Broker](https://openbroker.gonka.gg), or use a GitHub allow-list issue as a fallback if Open Broker does not satisfy your needs.
+This guide explains how to send an inference request to Gonka through a community broker. It is the fastest way to start using the network today. If you would like to [run your own gateway](#2-run-your-own-gateway-advanced) instead of going through a broker, see Run your own gateway at the bottom of this page. Want to **operate as a broker** yourself? See [Interested in operating a gateway?](#3-interested-in-operating-a-gateway) - start with [OpenBroker](https://openbroker.gonka.gg), or use a GitHub allow-list issue as a fallback if OpenBroker does not satisfy your needs.
 
 > **How to connect to Gonka**
 
@@ -10096,7 +10096,7 @@ A broker is an independent operator who runs a Gonka gateway and resells inferen
 - [https://inference.dahl.global](https://inference.dahl.global)
 
 > ****
-    This is a curated directory of community brokers that route inference through a public Gonka gateway and have agreed to be publicly listed. It is not exhaustive and does not endorse any operator. The list is displayed in a random order that is re-shuffled on every page load, so the position of each broker is not a ranking; please evaluate each operator on its own merits. This directory reflects an early bootstrap set. **Want to become a broker yourself?** Use [Open Broker](https://openbroker.gonka.gg) (see [§3](#3-interested-in-operating-a-gateway)), or open a GitHub allow-list issue as a fallback if Open Broker does not satisfy your needs. Some brokers provide a **▶ demo** link to a short onboarding screencast - style and length may vary.
+    This is a curated directory of community brokers that route inference through a public Gonka gateway and have agreed to be publicly listed. It is not exhaustive and does not endorse any operator. The list is displayed in a random order that is re-shuffled on every page load, so the position of each broker is not a ranking; please evaluate each operator on its own merits. This directory reflects an early bootstrap set. **Want to become a broker yourself?** Use [OpenBroker](https://openbroker.gonka.gg) (see [§3](#3-interested-in-operating-a-gateway)), or open a GitHub allow-list issue as a fallback if OpenBroker does not satisfy your needs. Some brokers provide a **▶ demo** link to a short onboarding screencast - style and length may vary.
 
 > ****
 
@@ -10354,15 +10354,15 @@ Tool calling is supported through the same OpenAI-compatible endpoint. Only `typ
 
 If you need to operate an on-chain Gonka gateway yourself (your own allow-listed wallet, your own escrows, direct GNK settlement), you can run the gateway software on your own machine or server - never on a Gonka host. It exposes the same OpenAI-compatible API as a broker, but you own the keys and pay GNK directly on-chain for the devshards it creates.
 
-> **Most operators should become a broker via Open Broker instead**
+> **Most operators should become a broker via OpenBroker instead**
 
-    **[Open Broker](https://openbroker.gonka.gg) is not “just another broker in the directory.”** It is infrastructure created and operated by trusted community members that lets you **become a broker** - create a broker account, fund GNK, issue API keys, and serve inference - **without** an on-chain allow-listed creator address and without running your own gateway.
+    **[OpenBroker](https://openbroker.gonka.gg) is not “just another broker in the directory.”** It is infrastructure created and operated by trusted community members that lets you **become a broker** - create a broker account, fund GNK, issue API keys, and serve inference - **without** an on-chain allow-listed creator address and without running your own gateway.
 
-    Prefer [§3](#3-interested-in-operating-a-gateway) (Open Broker) unless you specifically need a self-hosted, allow-listed gateway.
+    Prefer [§3](#3-interested-in-operating-a-gateway) (OpenBroker) unless you specifically need a self-hosted, allow-listed gateway.
 
 > **Self-hosted gateway requires an allow-listed address**
 
-    Today, only Gonka accounts on the on-chain `devshard_escrow_params.allowed_creator_addresses` list can open devshards. If your address is not on that list, your gateway cannot create sessions, and you cannot send inference. The allow-list is changed only by on-chain governance vote. See [Interested in operating a gateway?](#3-interested-in-operating-a-gateway) - start with Open Broker, or use a GitHub allow-list issue as a fallback if Open Broker does not satisfy your needs.
+    Today, only Gonka accounts on the on-chain `devshard_escrow_params.allowed_creator_addresses` list can open devshards. If your address is not on that list, your gateway cannot create sessions, and you cannot send inference. The allow-list is changed only by on-chain governance vote. See [Interested in operating a gateway?](#3-interested-in-operating-a-gateway) - start with OpenBroker, or use a GitHub allow-list issue as a fallback if OpenBroker does not satisfy your needs.
 
 Full deployment instructions are in [Run your own gateway](gateway-developer-quickstart.md).
 
@@ -10372,11 +10372,11 @@ Full deployment instructions are in [Run your own gateway](gateway-developer-qui
 
 Inference reaches the network through a gateway. If you want to **become a broker / operate inference access** for yourself or your users, choose the path below.
 
-### Recommended - become a broker with Open Broker
+### Recommended - become a broker with OpenBroker
 
-**[Open Broker](https://openbroker.gonka.gg)** ([openbroker.gonka.gg](https://openbroker.gonka.gg)) is the **recommended way to become a broker**.
+**[OpenBroker](https://openbroker.gonka.gg)** ([openbroker.gonka.gg](https://openbroker.gonka.gg)) is the **recommended way to become a broker**.
 
-It is a broker control plane created and operated by trusted community members: you register a **broker account**, deposit GNK, mint API keys, and serve an OpenAI-compatible endpoint. Open Broker runs the allow-listed escrow wallet and devshard lifecycle for you - you do not need your address on `allowed_creator_addresses`.
+It is a broker control plane created and operated by trusted community members: you register a **broker account**, deposit GNK, mint API keys, and serve an OpenAI-compatible endpoint. OpenBroker runs the allow-listed escrow wallet and devshard lifecycle for you - you do not need your address on `allowed_creator_addresses`.
 
 - Register: [openbroker.gonka.gg/register](https://openbroker.gonka.gg/register)
 - Docs: [openbroker.gonka.gg/docs](https://openbroker.gonka.gg/docs)
@@ -10384,11 +10384,11 @@ It is a broker control plane created and operated by trusted community members: 
 
 ### Advanced - run your own on-chain gateway
 
-Operate your own gonka-mainnet gateway only if Open Broker cannot meet your requirements (for example you must hold the escrow keys yourself, or you need a custom on-chain setup). This requires your address on the governance-controlled allow-list (`devshard_escrow_params.allowed_creator_addresses`). Full instructions are in the [gateway guide](gateway-developer-quickstart.md).
+Operate your own gonka-mainnet gateway only if OpenBroker cannot meet your requirements (for example you must hold the escrow keys yourself, or you need a custom on-chain setup). This requires your address on the governance-controlled allow-list (`devshard_escrow_params.allowed_creator_addresses`). Full instructions are in the [gateway guide](gateway-developer-quickstart.md).
 
 ### Fallback - GitHub allow-list request
 
-If Open Broker does not satisfy your needs and you still require your own allow-listed creator address for a self-hosted gateway, open a [GitHub issue](https://github.com/gonka-ai/gonka/issues/new?title=Gateway+allowlist+request) as a fallback.
+If OpenBroker does not satisfy your needs and you still require your own allow-listed creator address for a self-hosted gateway, open a [GitHub issue](https://github.com/gonka-ai/gonka/issues/new?title=Gateway+allowlist+request) as a fallback.
 
 Include your operator name and contact, the `gonka1...` address you intend to use, and the models you plan to serve. Inclusion is an on-chain governance decision - no single operator or organization adds an address unilaterally - and expressing interest does not guarantee inclusion, review, or a timeline.
 
