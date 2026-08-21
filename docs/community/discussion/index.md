@@ -4,7 +4,7 @@ title: "GitHub Discussions"
 
 # GitHub Discussions — `gonka-ai/gonka`
 
-Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **76**. Обновлено: `2026-08-20 23:35 UTC`.
+Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **77**. Обновлено: `2026-08-21 01:52 UTC`.
 
 ## 📂 Категории
 
@@ -12,7 +12,7 @@ title: "GitHub Discussions"
 |---|---:|
 | [:mega: Announcements](announcements/index.md) | 1 |
 | [:jigsaw: Ecosystem](ecosystem/index.md) | 7 |
-| [:speech_balloon: General](general/index.md) | 5 |
+| [:speech_balloon: General](general/index.md) | 6 |
 | [:bookmark_tabs: Governance Proposal Reports](governance-proposal-reports/index.md) | 4 |
 | [:gear: Protocol Improvements](protocol-improvements/index.md) | 42 |
 | [:interrobang: Q&A](q-a/index.md) | 3 |
@@ -22,6 +22,7 @@ title: "GitHub Discussions"
 
 | # | Заголовок | Категория | Автор | Обновлено |
 |---:|---|---|---|---|
+| [1619](general/1619-phase-out-kimi-k26.md) | [Phase out Kimi K2.6](general/1619-phase-out-kimi-k26.md) | :speech_balloon: General | [@paranjko](https://github.com/paranjko) | 2026-08-21 |
 | [1617](governance-proposal-reports/1617-outdated-proposal-74-gonka-labs-monthly-report-no-2.md) | [(outdated) Proposal #74: Gonka Labs - Monthly Report No. 2](governance-proposal-reports/1617-outdated-proposal-74-gonka-labs-monthly-report-no-2.md) | :bookmark_tabs: Governance Proposal Reports | [@nsvdev](https://github.com/nsvdev) | 2026-08-20 |
 | [1589](ecosystem/1589-bring-gnk-and-gonka-to-the-ledger-ecosystem.md) | [Bring GNK and Gonka to the Ledger Ecosystem](ecosystem/1589-bring-gnk-and-gonka-to-the-ledger-ecosystem.md) | :jigsaw: Ecosystem | [@Isabella0319](https://github.com/Isabella0319) | 2026-08-13 |
 | [1582](governance-proposal-reports/1582-proposal-82-external-test-lab-community-devnet-m1-report.md) | [Proposal #82: External Test Lab & Community DevNet — M1 Report](governance-proposal-reports/1582-proposal-82-external-test-lab-community-devnet-m1-report.md) | :bookmark_tabs: Governance Proposal Reports | [@paranjko](https://github.com/paranjko) | 2026-08-11 |
@@ -41,4 +42,3 @@ title: "GitHub Discussions"
 | [1367](protocol-improvements/1367-high-availability-architecture.md) | [High-Availability Architecture](protocol-improvements/1367-high-availability-architecture.md) | :gear: Protocol Improvements | [@a-kuprin](https://github.com/a-kuprin) | 2026-07-22 |
 | [1476](show-and-tell/1476-unposted.md) | [unposted](show-and-tell/1476-unposted.md) | :raised_hands: Show and Tell | [@nsvdev](https://github.com/nsvdev) | 2026-07-18 |
 | [1404](protocol-improvements/1404-add-a-lower-barrier-glm-52-option-and-consider-deepseek-v4-f.md) | [Add a lower-barrier GLM-5.2 option and consider DeepSeek-V4-Flash as the default model](protocol-improvements/1404-add-a-lower-barrier-glm-52-option-and-consider-deepseek-v4-f.md) | :gear: Protocol Improvements | [@enonog](https://github.com/enonog) | 2026-07-16 |
-| [1141](show-and-tell/1141-ibc-usdt-withdrawal-guide.md) | [IBC USDT Withdrawal Guide](show-and-tell/1141-ibc-usdt-withdrawal-guide.md) | :raised_hands: Show and Tell | [@paranjko](https://github.com/paranjko) | 2026-07-08 |

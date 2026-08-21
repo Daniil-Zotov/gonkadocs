@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-08-20T23:35:02.841847+00:00",
+  "snapshot_time": "2026-08-21T01:56:04.544478+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "Welcome to Gonka Discussions 👋",
@@ -79,6 +79,12 @@
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1304](https://github.com/gonka-ai/gonka/discussions/1304) every hour. \n\n# APS for delegated wallets and agent accounts (Track 2, Project 3)\n\n**Автор:** [@aeoess](https://github.com/aeoess) · **Категория:** :speech_balloon: General · **Создано:** 2026-06-04 01:38 UTC · \n\n---\n\n## 📝 Описание\n\nTrack 2, Project 3 is close to what APS was built for: an agent acting within scoped authority, without exposing the owner's main key and without manual approval on every call. That authorization and audit layer is what APS implements today, open and Apache-2.0, on npm.\n\nThe primitives map to the project directly:\n\n- **Predefined limits without exposing the main key:** the agent acts under a delegated key with a scoped grant. The owner's main key never leaves them. Li",
       "checksum": "eae8c5523e5ba93a1843ec2ca37859187a00031bef48111c5f81df9cda46adee"
+    },
+    "general/1619-phase-out-kimi-k26.md": {
+      "title": "Phase out Kimi K2.6",
+      "status": null,
+      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1619](https://github.com/gonka-ai/gonka/discussions/1619) every hour. \n\n# Phase out Kimi K2.6\n\n**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :speech_balloon: General · **Создано:** 2026-08-21 01:09 UTC · \n\n---\n\n## 📝 Описание\n\nDeepSeek v4 Flash 0731 has quickly become one of the most in-demand models on Gonka. Demand has been strong from day one, and at times it exceeds our current capacity. To increase Gonka’s capacity for DeepSeek v4 Flash and meet this demand, we need to encourage more hosts to allocate suitable hardware to the model.\n\nThat is why I propose phasing out Kimi K2.6.\n\nThere are several reasons for choosing Kimi:\n\n- Demand for Kimi inference has been declining.\n- Phasing out Kimi would free up B200 capacity that can ",
+      "checksum": "d3e37a209f6627637ae94ca0e4fcdfe7f55af57c2c2a1a44e1024f4925dd7f93"
     },
     "governance-proposal-reports/1540-proposal-51-webx-asia-2026-post-event-report.md": {
       "title": "Proposal #51: WebX Asia 2026 — Post-Event Report",

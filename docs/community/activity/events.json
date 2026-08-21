@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260821015248_db2c6387",
+    "timestamp": "2026-08-21T01:52:48.362328+00:00",
+    "section": "discussions",
+    "action": "new",
+    "item": {
+      "title": "Phase out Kimi K2.6",
+      "url": "/community/discussion/general/1619-phase-out-kimi-k26/",
+      "file": "general/1619-phase-out-kimi-k26.md"
+    },
+    "details": {
+      "status": null,
+      "content": "> 🔄 **Auto-sync:** from [Discussion #1619](https://github.com/gonka-ai/gonka/discussions/1619) every hour. \n\n# Phase out Kimi K2.6\n\n**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :speech_balloon: General · **Создано:** 2026-08-21 01:09 UTC · \n\n---\n\n## 📝 Описание\n\nDeepSeek v4 Flash 0731 has quickly become one of the most in-demand models on Gonka. Demand has been strong from day one, and at times it exceeds our current capacity. To increase Gonka’s capacity for DeepSeek v4 Flash and meet this demand, we need to encourage more hosts to allocate suitable hardware to the model.\n\nThat is why I propose phasing out Kimi K2.6.\n\nThere are several reasons for choosing Kimi:\n\n- Demand for Kimi inference has been declining.\n- Phasing out Kimi would free up B200 capacity that can "
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260821004846_11eb333a",
     "timestamp": "2026-08-21T00:48:46.501702+00:00",
     "section": "calendar",
