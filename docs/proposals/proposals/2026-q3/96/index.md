@@ -37,18 +37,18 @@ In-epoch SPRT on invalid inferences is not stable on a small sample. A few inval
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:51.0%"></div>
+    <div class="prop-tally-yes" style="width:52.1%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
-    <div class="prop-tally-abstain" style="width:0.0%"></div>
+    <div class="prop-tally-abstain" style="width:0.1%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (178,056)</span>
+    <span class="prop-tally-yes-text">Yes <strong>99.9%</strong> (181,926)</span>
     <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-total-text">Total 178,056 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout <strong>51.0%</strong> (178,056 / 349,075) · Quorum <strong>25%</strong> (87,268)</span>
+    <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (32)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>0.1%</strong> (225)</span>
+    <span class="prop-tally-total-text">Total 182,183 votes</span>
+    <span class="prop-tally-yes-text">✓ Turnout <strong>52.2%</strong> (182,183 / 349,075) · Quorum <strong>25%</strong> (87,268)</span>
   </div>
 </div>
 
@@ -67,6 +67,7 @@ In-epoch SPRT on invalid inferences is not stable on a small sample. A few inval
 <tr><td><a href="https://gonka.gg/address/gonka18xeqnspxpg2vncufnjne485rkaagwvz7whyn0d" target="_blank" class="prop-voter-addr">gonka18xeqns…whyn0d</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1830lqug50lse998x2lakk4pj5ypfumz5pasz0y" target="_blank" class="prop-voter-addr">gonka1830lqu…pasz0y</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1t0psqlz8fzhlqnaresvk5vxfmgv0te23mnwdad" target="_blank" class="prop-voter-addr">gonka1t0psql…mnwdad</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
+<tr><td><a href="https://gonka.gg/address/gonka10mmdjau4dnj8krs7sh7t7635ttnmq9u3vqgz09" target="_blank" class="prop-voter-addr">gonka10mmdja…vqgz09</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 93.8%</span> <span class="prop-voter-option prop-vote-abstain">Abstain 5.5%</span> <span class="prop-voter-option prop-vote-veto">No_With_Veto 0.8%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1346p2h8dn4kp98c5e93k5q64g0h7vxjxnd55fh" target="_blank" class="prop-voter-addr">gonka1346p2h…nd55fh</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1kvmerzu64094dt9t62ea0cp75larh39ulzldum" target="_blank" class="prop-voter-addr">gonka1kvmerz…lzldum</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka168rtjfkszuhcggg4dfyse4yh7xn9zwfglnkns2" target="_blank" class="prop-voter-addr">gonka168rtjf…lnkns2</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
