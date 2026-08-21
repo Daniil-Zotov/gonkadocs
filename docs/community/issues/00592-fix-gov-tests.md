@@ -2,7 +2,7 @@
 title: "#592 — Fix gov tests"
 source: https://github.com/gonka-ai/gonka/issues/592
 issue_number: 592
-synced_at: 2026-08-21T10:55:18Z
+synced_at: 2026-08-21T11:48:13Z
 template: issues-main.html
 ---
 
