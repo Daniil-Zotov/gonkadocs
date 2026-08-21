@@ -21,7 +21,7 @@
       ],
       "count": 1
     },
-    "ai_description": null
+    "ai_description": "Today is the last day to cast your vote on proposal 96 to stabilize in-epoch invalid SPRT on small samples. Once voting closes, the final decision on this fix will be locked in, so make sure your voice is counted if you have not voted yet. This improvement matters for keeping inference validation reliable even when sample sizes are limited."
   },
   {
     "id": "evt_20260820191129_fbd3db67",
