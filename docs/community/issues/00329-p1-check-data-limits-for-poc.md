@@ -2,7 +2,7 @@
 title: "#329 — [P1] Check data limits for PoC"
 source: https://github.com/gonka-ai/gonka/issues/329
 issue_number: 329
-synced_at: 2026-08-22T08:53:40Z
+synced_at: 2026-08-22T09:47:58Z
 template: issues-main.html
 ---
 
