@@ -2,7 +2,7 @@
 title: "#316 — [P0] Missing validation and inference request threshold adjustment / stattest"
 source: https://github.com/gonka-ai/gonka/issues/316
 issue_number: 316
-synced_at: 2026-08-22T07:51:11Z
+synced_at: 2026-08-22T08:54:28Z
 template: issues-main.html
 ---
 
