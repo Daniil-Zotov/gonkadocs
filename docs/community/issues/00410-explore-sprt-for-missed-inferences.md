@@ -2,7 +2,7 @@
 title: "#410 — Explore SPRT for missed inferences"
 source: https://github.com/gonka-ai/gonka/issues/410
 issue_number: 410
-synced_at: 2026-08-22T09:48:05Z
+synced_at: 2026-08-22T10:45:18Z
 template: issues-main.html
 ---
 
