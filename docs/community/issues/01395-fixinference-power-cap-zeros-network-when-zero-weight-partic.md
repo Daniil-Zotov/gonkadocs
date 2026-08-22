@@ -2,7 +2,7 @@
 title: "#1395 — fix(inference): power cap zeros network when zero-weight participants are in settlement"
 source: https://github.com/gonka-ai/gonka/issues/1395
 issue_number: 1395
-synced_at: 2026-08-22T11:40:20Z
+synced_at: 2026-08-22T13:04:47Z
 template: issues-main.html
 ---
 
