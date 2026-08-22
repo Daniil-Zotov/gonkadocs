@@ -2,7 +2,7 @@
 title: "#351 — BUG: Wrong error message for unsupported models in /chat/completions"
 source: https://github.com/gonka-ai/gonka/issues/351
 issue_number: 351
-synced_at: 2026-08-22T22:43:25Z
+synced_at: 2026-08-22T23:40:24Z
 template: issues-main.html
 ---
 
