@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260822114238_b33f4bfb",
+    "timestamp": "2026-08-22T11:42:38.138217+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1624 — Personal / Solo-use Inference Gateway — Allowlist Request",
+      "url": "/community/issues/01624-personal-solo-use-inference-gateway-allowlist-request/",
+      "file": "01624-personal-solo-use-inference-gateway-allowlist-request.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Personal / Solo-use Inference Gateway — Allowlist Request\n    <span class=\"issues-number\">#1624</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/AndreyVoenkov\">@AndreyVoenkov</a> opened 2026-08-22 11:11 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>"
+    },
+    "ai_description": "A new issue has been opened by AndreyVoenkov requesting allowlist access for a personal or solo-use inference gateway. This type of request helps expand the network by bringing in smaller, individual node operators who want to contribute compute without running a full-scale setup. The community can now review and discuss the proposal to decide whether to grant the allowlist spot."
+  },
+  {
     "id": "evt_20260821172123_dee03e48",
     "timestamp": "2026-08-21T17:21:23.563944+00:00",
     "section": "gonka_docs",

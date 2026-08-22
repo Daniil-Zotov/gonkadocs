@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-08-22T10:45:54.668672+00:00",
+  "snapshot_time": "2026-08-22T11:42:43.280415+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "Description",
@@ -3341,6 +3341,14 @@
       "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "comment_bodies": [],
       "checksum": "5228571d6b7b84899d7890bd3b69dfeb5fbe9573bd818c07d3de18f8ae0b7529"
+    },
+    "01624-personal-solo-use-inference-gateway-allowlist-request.md": {
+      "title": "#1624 — Personal / Solo-use Inference Gateway — Allowlist Request",
+      "status": null,
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Personal / Solo-use Inference Gateway — Allowlist Request\n    <span class=\"issues-number\">#1624</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/AndreyVoenkov\">@AndreyVoenkov</a> opened 2026-08-22 11:11 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>",
+      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comment_bodies": [],
+      "checksum": "e45596ae893412f8e9f610ab89055764a21184ec466805c8cf9238b4c5b87ad3"
     }
   }
 }
