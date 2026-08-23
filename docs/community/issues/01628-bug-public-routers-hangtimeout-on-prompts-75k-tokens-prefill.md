@@ -2,7 +2,7 @@
 title: "#1628 — [BUG] Public routers hang/timeout on prompts ≥ ~7.5K tokens (prefill); 502 `all_providers_failed`; DeepSeek missing from /v1/models"
 source: https://github.com/gonka-ai/gonka/issues/1628
 issue_number: 1628
-synced_at: 2026-08-23T16:46:01Z
+synced_at: 2026-08-23T17:39:22Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/inecro1">@inecro1</a> opened 2026-08-23 12:28 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-08-23 12:28 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-08-23 17:02 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -88,6 +88,20 @@ Threshold: failure is deterministic at ~7.5K prefill tokens and above. This is c
 3. Make gateway timeouts surface server-side errors instead of silent 0-byte hangs or `all_providers_failed` (correlate with #1591/#1593).
 4. Stabilize public routers against 429/502 storms (#1121, #1506).
 5. Consider surfacing real-time router health (gonka.pw-style) in the official quickstart so users can pick a healthy gateway.
+</div>
+
+---
+
+## 💬 Comments (1)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/theaungmyatmoe">@theaungmyatmoe</a></span>
+    <span class="issues-meta-item">commented 2026-08-23 17:02 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>It's the widely occurred bug it need attention </p>
+  </div>
 </div>
 
 ---
