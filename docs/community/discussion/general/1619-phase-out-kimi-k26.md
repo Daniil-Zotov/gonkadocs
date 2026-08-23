@@ -3,14 +3,14 @@ title: "#1619 — Phase out Kimi K2.6"
 source: https://github.com/gonka-ai/gonka/discussions/1619
 discussion_number: 1619
 category: general
-synced_at: 2026-08-23T09:37:05Z
+synced_at: 2026-08-23T10:34:22Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1619](https://github.com/gonka-ai/gonka/discussions/1619) every hour. 
 
 # Phase out Kimi K2.6
 
-**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :speech_balloon: General · **Создано:** 2026-08-21 01:09 UTC · **Обновлено:** 2026-08-21 10:42 UTC
+**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :speech_balloon: General · **Создано:** 2026-08-21 01:09 UTC · **Обновлено:** 2026-08-23 09:40 UTC
 
 ---
 
@@ -38,10 +38,16 @@ I suggest keeping this discussion about Kimi's fate open until August 30. Unless
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Комментарии (2)
 
 ### Комментарий 1 — [@theaungmyatmoe](https://github.com/theaungmyatmoe)
 
 *2026-08-21 10:42 UTC*
 
 Exactly and we could bring the Deepseek VL model too. 
+
+### Комментарий 2 — [@theaungmyatmoe](https://github.com/theaungmyatmoe)
+
+*2026-08-23 09:40 UTC*
+
+When will this progress start? can we get the date?
