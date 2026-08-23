@@ -2,7 +2,7 @@
 title: "#1371 — Request for DevShards creator allowlist access"
 source: https://github.com/gonka-ai/gonka/issues/1371
 issue_number: 1371
-synced_at: 2026-08-22T23:39:55Z
+synced_at: 2026-08-23T02:03:12Z
 template: issues-main.html
 ---
 
