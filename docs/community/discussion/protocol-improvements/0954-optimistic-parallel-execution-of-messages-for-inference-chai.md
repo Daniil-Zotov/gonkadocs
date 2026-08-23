@@ -3,7 +3,7 @@ title: "#954 — Optimistic parallel execution of messages for inference-chain"
 source: https://github.com/gonka-ai/gonka/discussions/954
 discussion_number: 954
 category: protocol-improvements
-synced_at: 2026-08-23T05:38:26Z
+synced_at: 2026-08-23T06:56:14Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #954](https://github.com/gonka-ai/gonka/discussions/954) every hour. 

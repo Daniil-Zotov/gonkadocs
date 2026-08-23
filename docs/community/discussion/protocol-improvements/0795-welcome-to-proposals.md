@@ -3,7 +3,7 @@ title: "#795 — Welcome to Proposals 👋"
 source: https://github.com/gonka-ai/gonka/discussions/795
 discussion_number: 795
 category: protocol-improvements
-synced_at: 2026-08-23T05:38:24Z
+synced_at: 2026-08-23T06:56:12Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #795](https://github.com/gonka-ai/gonka/discussions/795) every hour. 
