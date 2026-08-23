@@ -2,7 +2,7 @@
 title: "#1198 — Re-validate VLM inference and validation results from #1026"
 source: https://github.com/gonka-ai/gonka/issues/1198
 issue_number: 1198
-synced_at: 2026-08-23T15:41:48Z
+synced_at: 2026-08-23T16:46:34Z
 template: issues-main.html
 ---
 
