@@ -2,7 +2,7 @@
 title: "#803 — Punish TA on signature/component mismatch"
 source: https://github.com/gonka-ai/gonka/issues/803
 issue_number: 803
-synced_at: 2026-08-23T07:50:58Z
+synced_at: 2026-08-23T08:53:03Z
 template: issues-main.html
 ---
 
