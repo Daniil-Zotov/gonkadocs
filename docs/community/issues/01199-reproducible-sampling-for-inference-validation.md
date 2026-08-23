@@ -2,7 +2,7 @@
 title: "#1199 — Reproducible sampling for inference validation"
 source: https://github.com/gonka-ai/gonka/issues/1199
 issue_number: 1199
-synced_at: 2026-08-23T02:03:02Z
+synced_at: 2026-08-23T03:19:59Z
 template: issues-main.html
 ---
 
