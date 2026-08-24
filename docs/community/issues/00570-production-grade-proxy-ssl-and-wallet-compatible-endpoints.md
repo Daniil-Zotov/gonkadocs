@@ -2,7 +2,7 @@
 title: "#570 — Production-grade proxy, SSL, and wallet-compatible endpoints"
 source: https://github.com/gonka-ai/gonka/issues/570
 issue_number: 570
-synced_at: 2026-08-24T19:51:10Z
+synced_at: 2026-08-24T20:54:06Z
 template: issues-main.html
 ---
 
