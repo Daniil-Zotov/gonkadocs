@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260824225053_c9b2d4c9",
+    "timestamp": "2026-08-24T22:50:53.722777+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1624 — Personal / Solo-use Inference Gateway — Allowlist Request",
+      "url": "/community/issues/01624-personal-solo-use-inference-gateway-allowlist-request/",
+      "file": "01624-personal-solo-use-inference-gateway-allowlist-request.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Personal / Solo-use Inference Gateway — Allowlist Request\n    <span class=\"issues-number\">#1624</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/AndreyVoenkov\">@AndreyVoenkov</a> opened 2026-08-22 11:11 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Personal / Solo-use Inference Gateway — Allowlist Request\n    <span class=\"issues-number\">#1624</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/AndreyVoenkov\">@AndreyVoenkov</a> opened 2026-08-22 11:11 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n"
+    },
+    "ai_description": "Issue #1624 received its first comment. The allowlist request for a personal inference gateway is now awaiting community or maintainer feedback. Keep an eye on the thread for updates."
+  },
+  {
     "id": "evt_20260824175252_4343e5e5",
     "timestamp": "2026-08-24T17:52:52.046965+00:00",
     "section": "issues",

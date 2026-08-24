@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-08-24T21:52:01.203290+00:00",
+  "snapshot_time": "2026-08-24T22:52:11.668887+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "Description",
@@ -3345,10 +3345,12 @@
     "01624-personal-solo-use-inference-gateway-allowlist-request.md": {
       "title": "#1624 — Personal / Solo-use Inference Gateway — Allowlist Request",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Personal / Solo-use Inference Gateway — Allowlist Request\n    <span class=\"issues-number\">#1624</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/AndreyVoenkov\">@AndreyVoenkov</a> opened 2026-08-22 11:11 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>",
-      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "comment_bodies": [],
-      "checksum": "e45596ae893412f8e9f610ab89055764a21184ec466805c8cf9238b4c5b87ad3"
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Personal / Solo-use Inference Gateway — Allowlist Request\n    <span class=\"issues-number\">#1624</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/AndreyVoenkov\">@AndreyVoenkov</a> opened 2026-08-22 11:11 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n",
+      "comment_checksum": "6bb6a1f45d7dc3848865c8f7c8b1513fe4e0410c0b6fa5125ab096f692e0fc1d",
+      "comment_bodies": [
+        "Hi @AndreyVoenkov! On the allowlist itself: additions to devshard_escrow_params.allowed_creator_addresses go through a governance-approved upgrade. Filing this issue registers intent, but timing and inclusion depend on governance and aren't guaranteed. If what you actually need right now is just a personal OpenAI-compatible endpoint for AI-assisted coding, please look at comunity built service — O"
+      ],
+      "checksum": "248e015fe83ffaea77780ebc223311bcb33b860383f1fbe4ca880ad7a924c0ae"
     },
     "01628-bug-public-routers-hangtimeout-on-prompts-75k-tokens-prefill.md": {
       "title": "→ HTTP 200, first token < 2 s",
