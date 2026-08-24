@@ -2,7 +2,7 @@
 title: "#310 — BUG-1: Preserved node disabling"
 source: https://github.com/gonka-ai/gonka/issues/310
 issue_number: 310
-synced_at: 2026-08-24T03:29:04Z
+synced_at: 2026-08-24T05:07:38Z
 template: issues-main.html
 ---
 
