@@ -2,7 +2,7 @@
 title: "#619 — Inference invalidation by pseudo random sub-group of participant (to decrease amount of `MsgValidation`)"
 source: https://github.com/gonka-ai/gonka/issues/619
 issue_number: 619
-synced_at: 2026-08-24T14:07:55Z
+synced_at: 2026-08-24T15:06:22Z
 template: issues-main.html
 ---
 
