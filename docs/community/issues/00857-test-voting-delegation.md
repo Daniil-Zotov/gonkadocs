@@ -2,7 +2,7 @@
 title: "#857 — Test voting delegation"
 source: https://github.com/gonka-ai/gonka/issues/857
 issue_number: 857
-synced_at: 2026-08-24T05:58:46Z
+synced_at: 2026-08-24T07:34:23Z
 template: issues-main.html
 ---
 

@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260824073535_c517faf6",
+    "timestamp": "2026-08-24T07:35:35.886034+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "OpenBroker strips provider prompt-cache metadata (`prompt_tokens_details` is always `null`)",
+      "url": "/community/issues/01632-openbroker-strips-provider-prompt-cache-metadata-prompt-toke/",
+      "file": "01632-openbroker-strips-provider-prompt-cache-metadata-prompt-toke.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    OpenBroker strips provider prompt-cache metadata (prompt_tokens_details is always null)\n    <span class=\"issues-number\">#1632</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/theaungmyatmoe\">@theaungmyatmoe</a> opened 2026-08-24 06:38 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\""
+    },
+    "ai_description": "A new issue has been opened by @theaungmyatmoe highlighting that OpenBroker is currently stripping provider prompt-cache metadata, causing prompt_tokens_details to always return null. This means the community is losing visibility into cached token usage, which matters for accurate cost tracking and performance optimization. The issue is open and awaiting discussion at #1632."
+  },
+  {
     "id": "evt_20260823174219_66bf227a",
     "timestamp": "2026-08-23T17:42:19.646845+00:00",
     "section": "issues",
