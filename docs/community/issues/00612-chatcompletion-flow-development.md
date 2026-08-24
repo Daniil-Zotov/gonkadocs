@@ -2,7 +2,7 @@
 title: "#612 — `/chat/completion` flow development"
 source: https://github.com/gonka-ai/gonka/issues/612
 issue_number: 612
-synced_at: 2026-08-24T20:53:22Z
+synced_at: 2026-08-24T21:49:58Z
 template: issues-main.html
 ---
 
