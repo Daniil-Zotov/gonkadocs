@@ -3,14 +3,14 @@ title: "#1636 — Proposal: Cache-Served Token Pricing"
 source: https://github.com/gonka-ai/gonka/discussions/1636
 discussion_number: 1636
 category: protocol-improvements
-synced_at: 2026-08-24T16:50:09Z
+synced_at: 2026-08-24T17:39:18Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1636](https://github.com/gonka-ai/gonka/discussions/1636) every hour. 
 
 # Proposal: Cache-Served Token Pricing
 
-**Автор:** [@theaungmyatmoe](https://github.com/theaungmyatmoe) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-08-24 16:27 UTC · **Обновлено:** 2026-08-24 16:37 UTC
+**Автор:** [@theaungmyatmoe](https://github.com/theaungmyatmoe) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-08-24 16:27 UTC · **Обновлено:** 2026-08-24 17:14 UTC
 
 ---
 
@@ -90,3 +90,11 @@ PR #1633 (telemetry): `--enable-prefix-caching` + `--enable-prompt-tokens-detail
 *2026-08-24 16:37 UTC*
 
 #1550 still in draft, it should be first step to make it possible 
+
+**↳ Ответ от [@theaungmyatmoe](https://github.com/theaungmyatmoe)** · *2026-08-24 17:14 UTC*
+
+> okay good 
+
+**↳ Ответ от [@theaungmyatmoe](https://github.com/theaungmyatmoe)** · *2026-08-24 17:14 UTC*
+
+> as argument in telegram they are not planning to do it yet 

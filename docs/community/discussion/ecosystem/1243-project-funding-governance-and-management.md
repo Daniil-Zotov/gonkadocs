@@ -3,7 +3,7 @@ title: "#1243 — Project funding governance and management"
 source: https://github.com/gonka-ai/gonka/discussions/1243
 discussion_number: 1243
 category: ecosystem
-synced_at: 2026-08-24T16:50:25Z
+synced_at: 2026-08-24T17:39:30Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1243](https://github.com/gonka-ai/gonka/discussions/1243) every hour. 
