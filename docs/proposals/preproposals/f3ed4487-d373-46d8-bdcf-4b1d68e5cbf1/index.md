@@ -67,7 +67,7 @@ MiniMax почти не востребован, но при этом мы поч
 
 ---
 
-## Comments (7)
+## Comments (9)
 
 ### 💬 Slava MyGonka
 *2026-08-24 07:43* · 👍 1 · 👎 0
@@ -134,6 +134,20 @@ MiniMax сейчас стоит у многих хостов. Вряд ли он
 
 Я надеюсь, что изменение коэффициентов заберет часть мощностей у MiniMax.
 Эта модель сейчас занимает более 80% сети.
+
+---
+
+### 💬 Aung Myat Moe
+*2026-08-24 16:32* · 👍 0 · 👎 0
+
+yes they will remove gonka labs said kimi is useless at coding work and low intellect
+
+---
+
+### 💬 Aung Myat Moe
+*2026-08-24 16:33* · 👍 0 · 👎 0
+
+here they wil remove the kimi: https://github.com/gonka-ai/gonka/discussions/1619
 
 ---
 
