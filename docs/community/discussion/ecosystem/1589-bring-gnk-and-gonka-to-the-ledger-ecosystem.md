@@ -3,14 +3,14 @@ title: "#1589 — Bring GNK and Gonka to the Ledger Ecosystem"
 source: https://github.com/gonka-ai/gonka/discussions/1589
 discussion_number: 1589
 category: ecosystem
-synced_at: 2026-08-24T07:14:39Z
+synced_at: 2026-08-24T08:58:52Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1589](https://github.com/gonka-ai/gonka/discussions/1589) every hour. 
 
 # Bring GNK and Gonka to the Ledger Ecosystem
 
-**Автор:** [@Isabella0319](https://github.com/Isabella0319) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-08-13 09:09 UTC · **Обновлено:** 2026-08-13 11:46 UTC
+**Автор:** [@Isabella0319](https://github.com/Isabella0319) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-08-13 09:09 UTC · **Обновлено:** 2026-08-24 08:36 UTC
 
 ---
 
@@ -211,7 +211,7 @@ Thank you, and we’re looking forward to your feedback!
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Комментарии (2)
 
 ### Комментарий 1 — [@julb1992](https://github.com/julb1992)
 
@@ -233,3 +233,10 @@ A few questions before voting:
 I like the idea, especially for visibility and UX, but $350k is a significant amount from so I think the expected ROI and commitments should be clear.
 
 Thanks. 
+
+### Комментарий 2 — [@KeiBlokhin](https://github.com/KeiBlokhin)
+
+*2026-08-24 08:36 UTC*
+
+Hello
+ is there approximate dates when gonka will be on Ledger?
