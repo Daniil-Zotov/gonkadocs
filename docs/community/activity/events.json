@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260824175252_4343e5e5",
+    "timestamp": "2026-08-24T17:52:52.046965+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1637 — Gateway allowlist request: Fusion AI Gateway — production wholesale broker (DeepSeek Flash / MiniMax / Kimi)",
+      "url": "/community/issues/01637-gateway-allowlist-request-fusion-ai-gateway-production-whole/",
+      "file": "01637-gateway-allowlist-request-fusion-ai-gateway-production-whole.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway allowlist request: Fusion AI Gateway — production wholesale broker (DeepSeek Flash / MiniMax / Kimi)\n    <span class=\"issues-number\">#1637</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/theaungmyatmoe\">@theaungmyatmoe</a> opened 2026-08-24 17:15 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div "
+    },
+    "ai_description": "A new gateway allowlist request has been opened by @theaungmyatmoe for Fusion AI Gateway, a production wholesale broker looking to bring DeepSeek Flash, MiniMax, and Kimi models to the network. The community can now review issue #1637 and share feedback on this addition."
+  },
+  {
     "id": "evt_20260824165042_64781fd3",
     "timestamp": "2026-08-24T16:50:42.305344+00:00",
     "section": "discussions",
