@@ -4,12 +4,13 @@ title: ":gear: Protocol Improvements"
 
 # :gear: Protocol Improvements
 
-Дискуссии в категории **:gear: Protocol Improvements**. Всего: **42**. Обновлено: `2026-08-24 15:50 UTC`.
+Дискуссии в категории **:gear: Protocol Improvements**. Всего: **43**. Обновлено: `2026-08-24 16:50 UTC`.
 
 [← ко всем категориям](../index.md)
 
 | # | Заголовок | Автор | Обновлено |
 |---:|---|---|---|
+| [1636](1636-proposal-cache-served-token-pricing.md) | [Proposal: Cache-Served Token Pricing](1636-proposal-cache-served-token-pricing.md) | [@theaungmyatmoe](https://github.com/theaungmyatmoe) | 2026-08-24 |
 | [1502](1502-обратная-связь-от-разработчика-почему-текущий-модельный-ряд-.md) | [Обратная связь от разработчика: почему текущий модельный ряд Gonka пока не проходит production bar](1502-обратная-связь-от-разработчика-почему-текущий-модельный-ряд-.md) | [@bitcompool](https://github.com/bitcompool) | 2026-07-26 |
 | [1500](1500-more-compute-from-the-same-gonka-hardware-two-phase-cooling-.md) | [More compute from the same Gonka hardware: two-phase cooling pilot](1500-more-compute-from-the-same-gonka-hardware-two-phase-cooling-.md) | [@bitcompool](https://github.com/bitcompool) | 2026-07-25 |
 | [1464](1464-dev-team-funding.md) | [Dev Team Funding](1464-dev-team-funding.md) | [@gmorgachev](https://github.com/gmorgachev) | 2026-08-03 |

@@ -4,7 +4,7 @@ title: "GitHub Discussions"
 
 # GitHub Discussions — `gonka-ai/gonka`
 
-Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **77**. Обновлено: `2026-08-24 15:50 UTC`.
+Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **78**. Обновлено: `2026-08-24 16:50 UTC`.
 
 ## 📂 Категории
 
@@ -14,7 +14,7 @@ title: "GitHub Discussions"
 | [:jigsaw: Ecosystem](ecosystem/index.md) | 7 |
 | [:speech_balloon: General](general/index.md) | 6 |
 | [:bookmark_tabs: Governance Proposal Reports](governance-proposal-reports/index.md) | 4 |
-| [:gear: Protocol Improvements](protocol-improvements/index.md) | 42 |
+| [:gear: Protocol Improvements](protocol-improvements/index.md) | 43 |
 | [:interrobang: Q&A](q-a/index.md) | 3 |
 | [:raised_hands: Show and Tell](show-and-tell/index.md) | 14 |
 
@@ -22,6 +22,7 @@ title: "GitHub Discussions"
 
 | # | Заголовок | Категория | Автор | Обновлено |
 |---:|---|---|---|---|
+| [1636](protocol-improvements/1636-proposal-cache-served-token-pricing.md) | [Proposal: Cache-Served Token Pricing](protocol-improvements/1636-proposal-cache-served-token-pricing.md) | :gear: Protocol Improvements | [@theaungmyatmoe](https://github.com/theaungmyatmoe) | 2026-08-24 |
 | [1589](ecosystem/1589-bring-gnk-and-gonka-to-the-ledger-ecosystem.md) | [Bring GNK and Gonka to the Ledger Ecosystem](ecosystem/1589-bring-gnk-and-gonka-to-the-ledger-ecosystem.md) | :jigsaw: Ecosystem | [@Isabella0319](https://github.com/Isabella0319) | 2026-08-24 |
 | [1619](general/1619-phase-out-kimi-k26.md) | [Phase out Kimi K2.6](general/1619-phase-out-kimi-k26.md) | :speech_balloon: General | [@paranjko](https://github.com/paranjko) | 2026-08-23 |
 | [1617](governance-proposal-reports/1617-outdated-proposal-74-gonka-labs-monthly-report-no-2.md) | [(outdated) Proposal #74: Gonka Labs - Monthly Report No. 2](governance-proposal-reports/1617-outdated-proposal-74-gonka-labs-monthly-report-no-2.md) | :bookmark_tabs: Governance Proposal Reports | [@nsvdev](https://github.com/nsvdev) | 2026-08-20 |
@@ -41,4 +42,3 @@ title: "GitHub Discussions"
 | [1500](protocol-improvements/1500-more-compute-from-the-same-gonka-hardware-two-phase-cooling-.md) | [More compute from the same Gonka hardware: two-phase cooling pilot](protocol-improvements/1500-more-compute-from-the-same-gonka-hardware-two-phase-cooling-.md) | :gear: Protocol Improvements | [@bitcompool](https://github.com/bitcompool) | 2026-07-25 |
 | [1367](protocol-improvements/1367-high-availability-architecture.md) | [High-Availability Architecture](protocol-improvements/1367-high-availability-architecture.md) | :gear: Protocol Improvements | [@a-kuprin](https://github.com/a-kuprin) | 2026-07-22 |
 | [1476](show-and-tell/1476-unposted.md) | [unposted](show-and-tell/1476-unposted.md) | :raised_hands: Show and Tell | [@nsvdev](https://github.com/nsvdev) | 2026-07-18 |
-| [1404](protocol-improvements/1404-add-a-lower-barrier-glm-52-option-and-consider-deepseek-v4-f.md) | [Add a lower-barrier GLM-5.2 option and consider DeepSeek-V4-Flash as the default model](protocol-improvements/1404-add-a-lower-barrier-glm-52-option-and-consider-deepseek-v4-f.md) | :gear: Protocol Improvements | [@enonog](https://github.com/enonog) | 2026-07-16 |

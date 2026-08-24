@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260824165042_64781fd3",
+    "timestamp": "2026-08-24T16:50:42.305344+00:00",
+    "section": "discussions",
+    "action": "new",
+    "item": {
+      "title": "Proposal: Cache-Served Token Pricing",
+      "url": "/community/discussion/protocol-improvements/1636-proposal-cache-served-token-pricing/",
+      "file": "protocol-improvements/1636-proposal-cache-served-token-pricing.md"
+    },
+    "details": {
+      "status": null,
+      "content": "> 🔄 **Auto-sync:** from [Discussion #1636](https://github.com/gonka-ai/gonka/discussions/1636) every hour. \n\n# Proposal: Cache-Served Token Pricing\n\n**Автор:** [@theaungmyatmoe](https://github.com/theaungmyatmoe) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-08-24 16:27 UTC · \n\n---\n\n## 📝 Описание\n\n# Proposal: Cache-Served Token Pricing\n\n**Author:** Aung Myat Moe — operator of the Fusion gateway (`api.fusioncode.app`), a broker serving `deepseek-ai/DeepSeek-V4-Flash-0731`, `MiniMaxAI/MiniMax-M2.7`, and `moonshotai/Kimi-K2.6` through the Gonka network.\n\n## Summary\n\nThe network already performs real per-host KV prefix caching, but GNK is billed flat per token — cached tokens cost the same as fresh ones. This proposal makes **cache-served tokens bill at a reduced rate** (pr"
+    },
+    "ai_description": "A new protocol improvement discussion has been posted by Aung Myat Moe, operator of the Fusion gateway. The proposal suggests introducing reduced GNK billing for cache-served tokens, since the network already performs KV prefix caching but currently charges the same flat rate for both cached and fresh tokens. This change could lower costs for users and incentivize more efficient cache utilization across the network."
+  },
+  {
     "id": "evt_20260824073535_c517faf6",
     "timestamp": "2026-08-24T07:35:35.886034+00:00",
     "section": "issues",

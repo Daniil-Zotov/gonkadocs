@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-08-24T15:50:57.782188+00:00",
+  "snapshot_time": "2026-08-24T16:50:46.623623+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "Welcome to Gonka Discussions 👋",
@@ -361,6 +361,12 @@
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1502](https://github.com/gonka-ai/gonka/discussions/1502) every hour. \n\n# Обратная связь от разработчика: почему текущий модельный ряд Gonka пока не проходит production bar\n\n**Автор:** [@bitcompool](https://github.com/bitcompool) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-07-26 17:26 UTC · \n\n---\n\n## 📝 Описание\n\n<head></head><h2 style=\"caret-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-style: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;\">Обратная связь от разработ",
       "checksum": "2d16bddf7c141bb0ce8e15bef86aaf819a564b4592b3106a1b4e4e58a0b783cf"
+    },
+    "protocol-improvements/1636-proposal-cache-served-token-pricing.md": {
+      "title": "Proposal: Cache-Served Token Pricing",
+      "status": null,
+      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1636](https://github.com/gonka-ai/gonka/discussions/1636) every hour. \n\n# Proposal: Cache-Served Token Pricing\n\n**Автор:** [@theaungmyatmoe](https://github.com/theaungmyatmoe) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-08-24 16:27 UTC · \n\n---\n\n## 📝 Описание\n\n# Proposal: Cache-Served Token Pricing\n\n**Author:** Aung Myat Moe — operator of the Fusion gateway (`api.fusioncode.app`), a broker serving `deepseek-ai/DeepSeek-V4-Flash-0731`, `MiniMaxAI/MiniMax-M2.7`, and `moonshotai/Kimi-K2.6` through the Gonka network.\n\n## Summary\n\nThe network already performs real per-host KV prefix caching, but GNK is billed flat per token — cached tokens cost the same as fresh ones. This proposal makes **cache-served tokens bill at a reduced rate** (pr",
+      "checksum": "a01369558a8183cad9ca3cb9b2bd2aad34495621112426aa2319bae7bb334fcb"
     },
     "q-a/0796-are-there-plans-to-add-prompt-level-confidentiality-for-host.md": {
       "title": "Are there plans to add prompt-level confidentiality for hosts?",
