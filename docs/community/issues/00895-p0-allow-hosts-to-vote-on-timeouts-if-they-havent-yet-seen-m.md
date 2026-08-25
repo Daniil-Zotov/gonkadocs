@@ -2,7 +2,7 @@
 title: "#895 — [P0] Allow hosts to vote on timeouts if they haven't yet seen `MsgStartInference`"
 source: https://github.com/gonka-ai/gonka/issues/895
 issue_number: 895
-synced_at: 2026-08-25T08:03:14Z
+synced_at: 2026-08-25T09:05:17Z
 template: issues-main.html
 ---
 

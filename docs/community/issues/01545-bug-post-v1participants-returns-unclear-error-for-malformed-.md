@@ -2,7 +2,7 @@
 title: "#1545 — [BUG] POST /v1/participants returns unclear error for malformed JSON"
 source: https://github.com/gonka-ai/gonka/issues/1545
 issue_number: 1545
-synced_at: 2026-08-25T08:02:16Z
+synced_at: 2026-08-25T09:03:35Z
 template: issues-main.html
 ---
 
