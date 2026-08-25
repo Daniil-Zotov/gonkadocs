@@ -3,14 +3,14 @@ title: "#1619 — Phase out Kimi K2.6"
 source: https://github.com/gonka-ai/gonka/discussions/1619
 discussion_number: 1619
 category: general
-synced_at: 2026-08-25T19:40:09Z
+synced_at: 2026-08-25T20:39:17Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1619](https://github.com/gonka-ai/gonka/discussions/1619) every hour. 
 
 # Phase out Kimi K2.6
 
-**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :speech_balloon: General · **Создано:** 2026-08-21 01:09 UTC · **Обновлено:** 2026-08-25 18:17 UTC
+**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :speech_balloon: General · **Создано:** 2026-08-21 01:09 UTC · **Обновлено:** 2026-08-25 20:21 UTC
 
 ---
 
@@ -71,3 +71,33 @@ both Kimi and Minimax are dropping from that list.
 freeing up capacity for DeepSeek makes total sense.
 
 with the current hardware distribution in the network it also makes more sense to start with substituting Kimi.
+
+**↳ Ответ от [@theaungmyatmoe](https://github.com/theaungmyatmoe)** · *2026-08-25 19:47 UTC*
+
+> this is the best news
+
+**↳ Ответ от [@sysmanalex](https://github.com/sysmanalex)** · *2026-08-25 20:01 UTC*
+
+> small remark & correction here. High demand for a model - or any network resource - cannot be treated as an objective measure of true value or economic utility if it is decoupled from cost.
+>
+> When users select a resource without facing its actual cost, high usage reflects artificially inflated consumer surplus, not a balanced market preference. This dynamic creates economic and operational distortions.
+> right now it's most expensive model to run for network, but with discount pricing - this will be highly probably changed after real price forming/expenses re-evaluation. 
+>
+> **Price Distortions Hide the "Tragedy of the Commons"**
+> In economics, when a valuable or resource-heavy asset is offered for free or well below its cost to serve, consumers use it up to the point where their marginal utility approaches zero.The Distortion: If DeepSeek Flash V4 consumes significant compute (e.g., active GPU memory, dense routing, or speculative execution compute) but users face flat, subsidized, or zero pricing, they will route mundane tasks to it simply because "it is the best available option for free."  
+>
+> **The Reality: This creates artificial demand. Users are not making a value-based choice or tradeoff (e.g., "Is this prompt worth $0.02 of compute?"); they are simply grabbing the maximum capability & best possible mode at zero marginal cost.**
+
+**↳ Ответ от [@mtvnastya](https://github.com/mtvnastya)** · *2026-08-25 20:14 UTC*
+
+> @sysmanalex I think these are two separate questions - which models to serve vs how the cost of inference for the users should be determined
+
+**↳ Ответ от [@sysmanalex](https://github.com/sysmanalex)** · *2026-08-25 20:21 UTC*
+
+> sorry to say, they are fundamentally linked and that's basic's of real economy. 
+> - that's not questions, not guess, that's answer:
+> You cannot separate which model to serve from how you price inference, because without price signals, you have no real demand data.
+> - Free/Subsidized usage creates fake demand: If a heavy model is offered at zero or flat cost, users will over-consume it for simple tasks, creating artificial "high demand"
+> - Prices reveal true economic value: Only when real pricing (reflecting compute/OpEx) is applied do users make rational trade-offs.
+> - The feedback loop: Cost-reflective pricing filters out low-value traffic, which directly dictates which models are actually economically viable to keep serving on the network.
+> p.s. This is not my opinion, not a guess, these are facts. I am writing this not to irritate you, but only to help and protect you from making mistakes through experience.
