@@ -2,7 +2,7 @@
 title: "#1219 — [P0] Basic primitives for training"
 source: https://github.com/gonka-ai/gonka/issues/1219
 issue_number: 1219
-synced_at: 2026-08-25T20:50:05Z
+synced_at: 2026-08-25T21:47:58Z
 template: issues-main.html
 ---
 
