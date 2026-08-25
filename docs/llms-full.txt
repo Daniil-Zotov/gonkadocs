@@ -28404,8 +28404,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-08-27
   
   Increase the weight_scale_factor for deepseek-ai/DeepSeek-V4-Flash-0731 from 0.214 to 0.246. All other model and chain parameters remain unchanged.  The original factor came from inflated nonce/min nu…
-  Yes 100.0% (11,810) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✗ Turnout 2.2% (11,810 / 531,657) · Quorum 25% (132,914)
+  Yes 100.0% (11,839) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✗ Turnout 2.2% (11,839 / 530,331) · Quorum 25% (132,582)
 
   
     #96 – Stabilize in-epoch invalid SPRT on small samples
@@ -29492,7 +29492,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-96 proposals across 5 quarters. Last updated: 2026-08-25 08:35 UTC
+96 proposals across 5 quarters. Last updated: 2026-08-25 09:20 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -66636,8 +66636,8 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-08-27
   
   Increase the weight_scale_factor for deepseek-ai/DeepSeek-V4-Flash-0731 from 0.214 to 0.246. All other model and chain parameters remain unchanged.  The original factor came from inflated nonce/min nu…
-  Yes 100.0% (11,810) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✗ Turnout 2.2% (11,810 / 531,657) · Quorum 25% (132,914)
+  Yes 100.0% (11,839) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✗ Turnout 2.2% (11,839 / 530,331) · Quorum 25% (132,582)
 
   
     #96 – Stabilize in-epoch invalid SPRT on small samples
@@ -73367,12 +73367,12 @@ Recomputed on historical B300 nonce data and fresh PoC experiments, the factor i
     
   
   
-    Yes 100.0% (11,810)
+    Yes 100.0% (11,839)
     No 0.0% (0)
     Veto 0.0% (0)
     Abstain 0.0% (0)
-    Total 11,810 votes
-    ✗ Turnout 2.2% (11,810 / 531,657) · Quorum 25% (132,914)
+    Total 11,839 votes
+    ✗ Turnout 2.2% (11,839 / 530,331) · Quorum 25% (132,582)
   
 
 Voters
