@@ -4,7 +4,7 @@ title: "GitHub Discussions"
 
 # GitHub Discussions — `gonka-ai/gonka`
 
-Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **79**. Обновлено: `2026-08-25 13:06 UTC`.
+Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **79**. Обновлено: `2026-08-25 14:57 UTC`.
 
 ## 📂 Категории
 
