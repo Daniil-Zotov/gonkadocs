@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-08-25T11:37:07.589600+00:00",
+  "snapshot_time": "2026-08-25T13:06:54.853475+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "Welcome to Gonka Discussions 👋",
@@ -49,6 +49,12 @@
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1589](https://github.com/gonka-ai/gonka/discussions/1589) every hour. \n\n# Bring GNK and Gonka to the Ledger Ecosystem\n\n**Автор:** [@Isabella0319](https://github.com/Isabella0319) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-08-13 09:09 UTC · \n\n---\n\n## 📝 Описание\n\nHi everyone! This is Isabel from 6Block. I’d like to share an important update.\n\n6Block has reached an agreement with Ledger to bring GNK and Gonka into the Ledger ecosystem. The goal is to support the integration of Gonka’s native coin, GNK, and wGNK across Ledger’s relevant infrastructure, including Ledger Devices and Ledger Wallet. \n\nThis is a major step for Gonka. Ledger is one of the leading wallet and custody infrastructure brands in crypto, and we believe Gonka should work wit",
       "checksum": "34f6c0ae5e15762a88c36e2279ee179217cbf4b81a8d7b2bf5fe148b6c987d24"
+    },
+    "ecosystem/1648-running-our-own-devshard-gateway-plan-economics-and-what-hos.md": {
+      "title": "Running our own devshard gateway — plan, economics, and what hosts want to see for allowlisting",
+      "status": null,
+      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1648](https://github.com/gonka-ai/gonka/discussions/1648) every hour. \n\n# Running our own devshard gateway — plan, economics, and what hosts want to see for allowlisting\n\n**Автор:** [@theaungmyatmoe](https://github.com/theaungmyatmoe) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-08-25 12:18 UTC · \n\n---\n\n## 📝 Описание\n\n# Running our own devshard gateway — plan, economics, and the one thing we need from hosts\n\n**Who:** Fusion AI Gateway (`api.fusioncode.app`) — a production broker already serving DeepSeek V4 Flash, MiniMax M2.7, and Kimi K2.6 through the network (currently via OpenBroker).\n\n## Why we want our own gateway\n\n1. **Direct GNK settlement & self-custody** — we have a committed multi-billion-token/day pipeline and need escrow pooling/r",
+      "checksum": "c092c833f67f7865462a69c2d34fd1b7580008eb9f9e94434688696e68dfac08"
     },
     "general/0670-kimi-k25.md": {
       "title": "Kimi K2.5",

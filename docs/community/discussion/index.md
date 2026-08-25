@@ -4,14 +4,14 @@ title: "GitHub Discussions"
 
 # GitHub Discussions — `gonka-ai/gonka`
 
-Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **78**. Обновлено: `2026-08-25 11:37 UTC`.
+Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **79**. Обновлено: `2026-08-25 13:06 UTC`.
 
 ## 📂 Категории
 
 | Категория | Дискуссий |
 |---|---:|
 | [:mega: Announcements](announcements/index.md) | 1 |
-| [:jigsaw: Ecosystem](ecosystem/index.md) | 7 |
+| [:jigsaw: Ecosystem](ecosystem/index.md) | 8 |
 | [:speech_balloon: General](general/index.md) | 6 |
 | [:bookmark_tabs: Governance Proposal Reports](governance-proposal-reports/index.md) | 4 |
 | [:gear: Protocol Improvements](protocol-improvements/index.md) | 43 |
@@ -22,6 +22,7 @@ title: "GitHub Discussions"
 
 | # | Заголовок | Категория | Автор | Обновлено |
 |---:|---|---|---|---|
+| [1648](ecosystem/1648-running-our-own-devshard-gateway-plan-economics-and-what-hos.md) | [Running our own devshard gateway — plan, economics, and what hosts want to see for allowlisting](ecosystem/1648-running-our-own-devshard-gateway-plan-economics-and-what-hos.md) | :jigsaw: Ecosystem | [@theaungmyatmoe](https://github.com/theaungmyatmoe) | 2026-08-25 |
 | [1619](general/1619-phase-out-kimi-k26.md) | [Phase out Kimi K2.6](general/1619-phase-out-kimi-k26.md) | :speech_balloon: General | [@paranjko](https://github.com/paranjko) | 2026-08-25 |
 | [1636](protocol-improvements/1636-proposal-cache-served-token-pricing.md) | [Proposal: Cache-Served Token Pricing](protocol-improvements/1636-proposal-cache-served-token-pricing.md) | :gear: Protocol Improvements | [@theaungmyatmoe](https://github.com/theaungmyatmoe) | 2026-08-24 |
 | [1589](ecosystem/1589-bring-gnk-and-gonka-to-the-ledger-ecosystem.md) | [Bring GNK and Gonka to the Ledger Ecosystem](ecosystem/1589-bring-gnk-and-gonka-to-the-ledger-ecosystem.md) | :jigsaw: Ecosystem | [@Isabella0319](https://github.com/Isabella0319) | 2026-08-24 |
@@ -41,4 +42,3 @@ title: "GitHub Discussions"
 | [1445](protocol-improvements/1445-the-missing-first-mile-onboarding-gonka-from-a-newcomers-per.md) | [The missing first mile: onboarding Gonka from a newcomer’s perspective](protocol-improvements/1445-the-missing-first-mile-onboarding-gonka-from-a-newcomers-per.md) | :gear: Protocol Improvements | [@julb1992](https://github.com/julb1992) | 2026-07-25 |
 | [1500](protocol-improvements/1500-more-compute-from-the-same-gonka-hardware-two-phase-cooling-.md) | [More compute from the same Gonka hardware: two-phase cooling pilot](protocol-improvements/1500-more-compute-from-the-same-gonka-hardware-two-phase-cooling-.md) | :gear: Protocol Improvements | [@bitcompool](https://github.com/bitcompool) | 2026-07-25 |
 | [1367](protocol-improvements/1367-high-availability-architecture.md) | [High-Availability Architecture](protocol-improvements/1367-high-availability-architecture.md) | :gear: Protocol Improvements | [@a-kuprin](https://github.com/a-kuprin) | 2026-07-22 |
-| [1476](show-and-tell/1476-unposted.md) | [unposted](show-and-tell/1476-unposted.md) | :raised_hands: Show and Tell | [@nsvdev](https://github.com/nsvdev) | 2026-07-18 |

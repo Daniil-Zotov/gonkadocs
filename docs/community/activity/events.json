@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260825130610_f88597fb",
+    "timestamp": "2026-08-25T13:06:10.108338+00:00",
+    "section": "discussions",
+    "action": "new",
+    "item": {
+      "title": "Running our own devshard gateway — plan, economics, and what hosts want to see for allowlisting",
+      "url": "/community/discussion/ecosystem/1648-running-our-own-devshard-gateway-plan-economics-and-what-hos/",
+      "file": "ecosystem/1648-running-our-own-devshard-gateway-plan-economics-and-what-hos.md"
+    },
+    "details": {
+      "status": null,
+      "content": "> 🔄 **Auto-sync:** from [Discussion #1648](https://github.com/gonka-ai/gonka/discussions/1648) every hour. \n\n# Running our own devshard gateway — plan, economics, and what hosts want to see for allowlisting\n\n**Автор:** [@theaungmyatmoe](https://github.com/theaungmyatmoe) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-08-25 12:18 UTC · \n\n---\n\n## 📝 Описание\n\n# Running our own devshard gateway — plan, economics, and the one thing we need from hosts\n\n**Who:** Fusion AI Gateway (`api.fusioncode.app`) — a production broker already serving DeepSeek V4 Flash, MiniMax M2.7, and Kimi K2.6 through the network (currently via OpenBroker).\n\n## Why we want our own gateway\n\n1. **Direct GNK settlement & self-custody** — we have a committed multi-billion-token/day pipeline and need escrow pooling/r"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260825050653_50bff54c",
     "timestamp": "2026-08-25T05:06:53.076051+00:00",
     "section": "calendar",
