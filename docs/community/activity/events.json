@@ -1,5 +1,25 @@
 [
   {
+    "id": "evt_20260825050653_50bff54c",
+    "timestamp": "2026-08-25T05:06:53.076051+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Voting ends: #97 – Increase DeepSeek V4 Flash weight_scale_factor to 0.246",
+      "url": "/proposals/proposals/2026-q3/97/",
+      "file": "dd27edb4e9c462b30dfa9c08f88755091c5c0bd7e4d392d56f3f4e2ec44808ad"
+    },
+    "details": {
+      "status": null,
+      "content": "Increase the weight_scale_factor for deepseek-ai/DeepSeek-V4-Flash-0731 from 0.214 to 0.246. All other model and chain parameters remain unchanged.\n\nThe original factor came from inflated nonce/min nu…",
+      "date": "2026-08-27",
+      "time": "03:47 UTC",
+      "event_type": "proposal_vote_end",
+      "url": "/proposals/proposals/2026-q3/97/"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260824225053_c9b2d4c9",
     "timestamp": "2026-08-24T22:50:53.722777+00:00",
     "section": "issues",

@@ -1,6 +1,6 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-08-25T04:10:54.975339+00:00",
+  "snapshot_time": "2026-08-25T05:06:53.097475+00:00",
   "files": {
     "d20f0b7f63fffff2927833d9557050f626cd934d5ab3479488af3773000f3011": {
       "title": "▶️ Ancapex Live: Gonka Overview",
@@ -2080,6 +2080,15 @@
       "url": "/proposals/proposals/2026-q3/96/",
       "content_preview": "In-epoch SPRT on invalid inferences is not stable on a small sample. A few invalids can trip it before the epoch has enough data. This proposal raises invalidation_h_threshold to 40 and sets bad_parti…",
       "checksum": "3a1cb0da34e7aa6ab24c8248d2cff5fa0250a3c65e78363d8e0632ee9af193ac"
+    },
+    "dd27edb4e9c462b30dfa9c08f88755091c5c0bd7e4d392d56f3f4e2ec44808ad": {
+      "title": "Voting ends: #97 – Increase DeepSeek V4 Flash weight_scale_factor to 0.246",
+      "date": "2026-08-27",
+      "time": "03:47 UTC",
+      "event_type": "proposal_vote_end",
+      "url": "/proposals/proposals/2026-q3/97/",
+      "content_preview": "Increase the weight_scale_factor for deepseek-ai/DeepSeek-V4-Flash-0731 from 0.214 to 0.246. All other model and chain parameters remain unchanged.\n\nThe original factor came from inflated nonce/min nu…",
+      "checksum": "a5d74f6d5643be86eafe9726552015e89089f695ceff5532defd9dc9ae530ead"
     }
   }
 }
