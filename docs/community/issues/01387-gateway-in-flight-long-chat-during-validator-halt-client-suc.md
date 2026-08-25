@@ -2,7 +2,7 @@
 title: "#1387 — Gateway in-flight long chat during validator halt: client success vs request outcome failed"
 source: https://github.com/gonka-ai/gonka/issues/1387
 issue_number: 1387
-synced_at: 2026-08-25T17:49:23Z
+synced_at: 2026-08-25T19:03:46Z
 template: issues-main.html
 ---
 
