@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-08-25T17:24:43.455155+00:00",
+  "snapshot_time": "2026-08-25T18:32:31.738075+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -299,8 +299,8 @@
     "network-updates.md": {
       "title": "Announcements",
       "status": null,
-      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## August 25, 2026\n\n**Proposal 97 is open for voting: Increase DeepSeek V4 Flash weight_scale_factor to 0.246**\n\nA new on-chain governance proposal (proposal id 97) is open for voting.\n\n**What it does**\n\nIncreases the `weight_scale_factor` for `deepseek-ai/",
-      "checksum": "6da9ded46d9bfb9cf46a8d8be557103217cab45019118c3f612168d84ffb9e32"
+      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## August 25, 2026\n\n**The PR for the devshard-only upgrade is now open for review**\n\nDevshard upgrades update the devshard runtime independently from the main blockchain. They do not require a coordinated full-node upgrade through Cosmovisor, do not affect ",
+      "checksum": "f821adbb7a86d077ef5e744aa8df17c8d168eea7e0db565dc4daf37b0b5279d0"
     },
     "participant/README.md": {
       "title": "Redirecting to Host Section",
