@@ -17,7 +17,7 @@
       "event_type": "proposal_vote_end",
       "url": "/proposals/proposals/2026-q3/97/"
     },
-    "ai_description": null
+    "ai_description": "A new calendar event has been added for the upcoming vote on proposal #97, which will adjust the DeepSeek V4 Flash weight_scale_factor from 0.214 to 0.246 to correct an originally inflated value. Make sure to cast your vote before the deadline, as this parameter change will affect how the model is weighted across the network."
   },
   {
     "id": "evt_20260824225053_c9b2d4c9",
