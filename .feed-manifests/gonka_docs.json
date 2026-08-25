@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-08-25T12:33:05.686672+00:00",
+  "snapshot_time": "2026-08-25T13:44:40.546410+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -299,8 +299,8 @@
     "network-updates.md": {
       "title": "Announcements",
       "status": null,
-      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## August 21, 2026\n\n**PROPOSAL PASSED: Stabilize in-epoch invalid SPRT on small samples**\n\nThe on-chain governance vote for proposal id 96 has concluded.\n\nThe proposal was APPROVED. It adjusts how the invalid-inference check behaves on small samples so it d",
-      "checksum": "7de7819448651cd4a3f65b74abdac519d3bad5138576ba89b2f86cc7fc8d2499"
+      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## August 25, 2026\n\n**Proposal 97 is open for voting: Increase DeepSeek V4 Flash weight_scale_factor to 0.246**\n\nA new on-chain governance proposal (proposal id 97) is open for voting.\n\n**What it does**\n\nIncreases the `weight_scale_factor` for `deepseek-ai/",
+      "checksum": "6da9ded46d9bfb9cf46a8d8be557103217cab45019118c3f612168d84ffb9e32"
     },
     "participant/README.md": {
       "title": "Redirecting to Host Section",
