@@ -3,14 +3,14 @@ title: "#1619 — Phase out Kimi K2.6"
 source: https://github.com/gonka-ai/gonka/discussions/1619
 discussion_number: 1619
 category: general
-synced_at: 2026-08-25T10:43:45Z
+synced_at: 2026-08-25T11:36:45Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1619](https://github.com/gonka-ai/gonka/discussions/1619) every hour. 
 
 # Phase out Kimi K2.6
 
-**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :speech_balloon: General · **Создано:** 2026-08-21 01:09 UTC · **Обновлено:** 2026-08-24 21:34 UTC
+**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :speech_balloon: General · **Создано:** 2026-08-21 01:09 UTC · **Обновлено:** 2026-08-25 11:15 UTC
 
 ---
 
@@ -55,3 +55,7 @@ When will this progress start? can we get the date?
 **↳ Ответ от [@paranjko](https://github.com/paranjko)** · *2026-08-24 21:34 UTC*
 
 > I think I will put the proposal to phase out Kimi to a vote after August 30. There don’t seem to be many objections.
+
+**↳ Ответ от [@theaungmyatmoe](https://github.com/theaungmyatmoe)** · *2026-08-25 11:15 UTC*
+
+> ok pls put it i am ready to vote
