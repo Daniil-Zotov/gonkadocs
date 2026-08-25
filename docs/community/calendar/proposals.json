@@ -1270,5 +1270,17 @@
     "tags": [
       "passed"
     ]
+  },
+  {
+    "date": "2026-08-27",
+    "category": "governance",
+    "type": "proposal_vote_end",
+    "title": "Voting ends: #97 – Increase DeepSeek V4 Flash weight_scale_factor to 0.246",
+    "url": "/proposals/proposals/2026-q3/97/",
+    "time": "03:47 UTC",
+    "description": "Increase the weight_scale_factor for deepseek-ai/DeepSeek-V4-Flash-0731 from 0.214 to 0.246. All other model and chain parameters remain unchanged.\n\nThe original factor came from inflated nonce/min nu…",
+    "tags": [
+      "voting"
+    ]
   }
 ]

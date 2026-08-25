@@ -74,6 +74,7 @@ nav:
       - On-Chain Governance: proposals/proposals/index.md
       - 2026-Q3:
         - Overview: proposals/proposals/2026-q3/index.md
+        - "#97 – Increase DeepSeek V4 Flash weight_scale_factor to 0.246": proposals/proposals/2026-q3/97/index.md
         - "#96 – Stabilize in-epoch invalid SPRT on small samples": proposals/proposals/2026-q3/96/index.md
         - "#95 – Migrate community-sale and wrapped-token contracts": proposals/proposals/2026-q3/95/index.md
         - "#94 – Add DeepSeek V4 Flash 0731": proposals/proposals/2026-q3/94/index.md
