@@ -19344,7 +19344,7 @@ decentralized mixture-of-experts."
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-08-25 12:37 UTC
+2026-08-25 13:44 UTC
 
 ---
 
@@ -19791,7 +19791,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-08-25 13:07 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-08-25 14:00 UTC*
 
 ---
 
@@ -28446,7 +28446,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   
   Increase the weight_scale_factor for deepseek-ai/DeepSeek-V4-Flash-0731 from 0.214 to 0.246. All other model and chain parameters remain unchanged.  The original factor came from inflated nonce/min nu…
   Yes 100.0% (13,105) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✗ Turnout 2.5% (13,105 / 531,179) · Quorum 25% (132,794)
+  ✗ Turnout 2.5% (13,105 / 530,067) · Quorum 25% (132,516)
 
   
     #96 – Stabilize in-epoch invalid SPRT on small samples
@@ -29533,7 +29533,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-96 proposals across 5 quarters. Last updated: 2026-08-25 13:20 UTC
+96 proposals across 5 quarters. Last updated: 2026-08-25 13:43 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -66678,7 +66678,7 @@ $90,075 USDT · Bounty Reward
   
   Increase the weight_scale_factor for deepseek-ai/DeepSeek-V4-Flash-0731 from 0.214 to 0.246. All other model and chain parameters remain unchanged.  The original factor came from inflated nonce/min nu…
   Yes 100.0% (13,105) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✗ Turnout 2.5% (13,105 / 531,179) · Quorum 25% (132,794)
+  ✗ Turnout 2.5% (13,105 / 530,067) · Quorum 25% (132,516)
 
   
     #96 – Stabilize in-epoch invalid SPRT on small samples
@@ -73413,7 +73413,7 @@ Recomputed on historical B300 nonce data and fresh PoC experiments, the factor i
     Veto 0.0% (0)
     Abstain 0.0% (0)
     Total 13,105 votes
-    ✗ Turnout 2.5% (13,105 / 531,179) · Quorum 25% (132,794)
+    ✗ Turnout 2.5% (13,105 / 530,067) · Quorum 25% (132,516)
   
 
 Voters
