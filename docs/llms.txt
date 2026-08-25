@@ -22,9 +22,9 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [All Calendar Events](/community/calendar/events/): Every event (AMAs, committee calls, proposal milestones, network updates) — machine-readable page, also indexed by search
 - 2026-08-26 13:00 UTC — INPUT Global — Weekly Call (#77): https://gonkadocs.com/proposals/proposals/2026-q2/77/
 - 2026-08-26 15:00 UTC — TheSoul — Weekly Report Call (#60–#65): https://gonkadocs.com/proposals/proposals/2026-q2/60/
+- 2026-08-27 03:47 UTC — Voting ends: #97 – Increase DeepSeek V4 Flash weight_scale_factor to 0.246: https://gonkadocs.com/proposals/proposals/2026-q3/97/
 - 2026-09-02 13:00 UTC — INPUT Global — Weekly Call (#77): https://gonkadocs.com/proposals/proposals/2026-q2/77/
 - 2026-09-02 15:00 UTC — TheSoul — Weekly Report Call (#60–#65): https://gonkadocs.com/proposals/proposals/2026-q2/60/
-- 2026-09-09 13:00 UTC — INPUT Global — Weekly Call (#77): https://gonkadocs.com/proposals/proposals/2026-q2/77/
 
 ## Protocol Documentation
 
@@ -157,6 +157,7 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [2026-Q3 Proposals](/proposals/proposals/2026-q3/): Auto-synced content
 - [#87 – Remove Kimi K2.6 model](/proposals/proposals/2026-q3/87/): Auto-synced content
 - [#96 – Stabilize in-epoch invalid SPRT on small samples](/proposals/proposals/2026-q3/96/): Auto-synced content
+- [#97 – Increase DeepSeek V4 Flash weight_scale_factor to 0.246](/proposals/proposals/2026-q3/97/): Auto-synced content
 - [Bringing $3M+ in New Capital to GONKA via Uniswap — Phase 1/6 ($50k USDT)](/proposals/proposals/2026-q3/84/full-proposal/): Auto-synced content
 - [#84 – Bringing $3M+ in New Capital to GONKA via Uniswap — Phase 1/6 ($50k USDT)](/proposals/proposals/2026-q3/84/): Auto-synced content
 - [Partnerships with Inference Resellers, B2C users acquisition and conversion funnels analytics setup](/proposals/proposals/2026-q3/90/full-proposal/): Auto-synced content
