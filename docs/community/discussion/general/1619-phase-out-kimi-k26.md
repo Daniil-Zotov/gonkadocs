@@ -3,14 +3,14 @@ title: "#1619 — Phase out Kimi K2.6"
 source: https://github.com/gonka-ai/gonka/discussions/1619
 discussion_number: 1619
 category: general
-synced_at: 2026-08-25T17:39:36Z
+synced_at: 2026-08-25T18:52:54Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1619](https://github.com/gonka-ai/gonka/discussions/1619) every hour. 
 
 # Phase out Kimi K2.6
 
-**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :speech_balloon: General · **Создано:** 2026-08-21 01:09 UTC · **Обновлено:** 2026-08-25 11:15 UTC
+**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :speech_balloon: General · **Создано:** 2026-08-21 01:09 UTC · **Обновлено:** 2026-08-25 18:17 UTC
 
 ---
 
@@ -38,7 +38,7 @@ I suggest keeping this discussion about Kimi's fate open until August 30. Unless
 
 ---
 
-## 💬 Комментарии (2)
+## 💬 Комментарии (3)
 
 ### Комментарий 1 — [@theaungmyatmoe](https://github.com/theaungmyatmoe)
 
@@ -59,3 +59,15 @@ When will this progress start? can we get the date?
 **↳ Ответ от [@theaungmyatmoe](https://github.com/theaungmyatmoe)** · *2026-08-25 11:15 UTC*
 
 > ok pls put it i am ready to vote
+
+### Комментарий 3 — [@mtvnastya](https://github.com/mtvnastya)
+
+*2026-08-25 18:17 UTC*
+
+the choice is ultimately for the hosts to make but I think this is a good idea to discuss this ahead.
+
+Gonka should aim to support best models based on quality and demand.
+both Kimi and Minimax are dropping from that list.
+freeing up capacity for DeepSeek makes total sense.
+
+with the current hardware distribution in the network it also makes more sense to start with substituting Kimi.
