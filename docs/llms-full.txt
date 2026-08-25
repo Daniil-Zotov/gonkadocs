@@ -19751,7 +19751,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 ## 🟢 Active Proposals
 
 7Active
-11Votes
+13Votes
 575.98 GNKTotal Bid
 
 | Status | Title | Author | Votes | Avg. Bid | Closes |
@@ -19761,8 +19761,8 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 | 🟢 | [Повысить коэффициент DeepSeek V4 Flash с 0,214 до 0,4231 (обсуждаемо).](./f3ed4487-d373-46d8-bdcf-4b1d68e5cbf1/) | Slava MyGonka | 2 | 0.00 GNK | 2026-08-29 |
 | 🟢 | [Крупнейшее в мире событие для ИИ-разработчиков и создателей AI-продуктов — Sprin](./a2584dc4-1e7b-4cb7-a90d-fcf67306d7c8/) | Nataliia Klymovska | 2 | 0.00 GNK | 2026-08-31 |
 | 🟢 | [Game Hackaton AI](./165501de-189e-41c3-aad9-04bac872ef0d/) | Victor | 1 | 0.00 GNK | 2026-09-11 |
-| 🟢 | [GONKA Global Growth & Market Expansion](./dbc5de38-aec1-4a90-a027-8d7ac835aab0/) | Nataliia Klymovska | 1 | 0.00 GNK | 2026-09-15 |
-| 🟢 | [GONKA × Guinness World Records: попытка установить мировой рекорд](./4a170e2e-e1c6-487a-8089-ac533e18194b/) | Nataliia Klymovska | 1 | 0.00 GNK | 2026-09-17 |
+| 🟢 | [GONKA Global Growth & Market Expansion](./dbc5de38-aec1-4a90-a027-8d7ac835aab0/) | Nataliia Klymovska | 2 | 0.00 GNK | 2026-09-15 |
+| 🟢 | [GONKA × Guinness World Records: попытка установить мировой рекорд](./4a170e2e-e1c6-487a-8089-ac533e18194b/) | Nataliia Klymovska | 2 | 0.00 GNK | 2026-09-17 |
 
 ---
 
@@ -19813,7 +19813,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-08-25 17:41 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-08-25 18:54 UTC*
 
 ---
 
@@ -21822,7 +21822,7 @@ mitchseed
 **Created:** 2026-08-18 14:58 UTC
 **Closes:** 2026-09-17 14:54 UTC
 **Language:** RU
-**Votes:** 1
+**Votes:** 2
 **Avg. Bid:** 0.00 GNK
 
 Отдельная инициатива в рамках глобальной конференции GONKA: официальная заявка в Guinness World Records, подготовка требований, фиксация результата и попытка установить мировой рекорд.
@@ -25321,7 +25321,7 @@ Clarkkent8494
 **Created:** 2026-08-17 10:39 UTC
 **Closes:** 2026-09-15 10:34 UTC
 **Language:** RU
-**Votes:** 1
+**Votes:** 2
 **Avg. Bid:** 0.00 GNK
 
 Комплексная международная стратегия развития GONKA: амбассадоры, PR, инфлюенсеры, подкасты, конференции, собственные ивенты, партнерства и воронки привлечения.
