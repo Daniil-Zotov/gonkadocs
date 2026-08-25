@@ -47,12 +47,12 @@ Recomputed on historical B300 nonce data and fresh PoC experiments, the factor i
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (11,810)</span>
+    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (11,839)</span>
     <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-total-text">Total 11,810 votes</span>
-    <span class="prop-tally-veto-text">✗ Turnout <strong>2.2%</strong> (11,810 / 531,657) · Quorum <strong>25%</strong> (132,914)</span>
+    <span class="prop-tally-total-text">Total 11,839 votes</span>
+    <span class="prop-tally-veto-text">✗ Turnout <strong>2.2%</strong> (11,839 / 530,331) · Quorum <strong>25%</strong> (132,582)</span>
   </div>
 </div>
 
