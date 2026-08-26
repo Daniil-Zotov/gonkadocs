@@ -3,14 +3,14 @@ title: "#1619 — Phase out Kimi K2.6"
 source: https://github.com/gonka-ai/gonka/discussions/1619
 discussion_number: 1619
 category: general
-synced_at: 2026-08-26T19:14:34Z
+synced_at: 2026-08-26T23:22:55Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1619](https://github.com/gonka-ai/gonka/discussions/1619) every hour. 
 
 # Phase out Kimi K2.6
 
-**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :speech_balloon: General · **Создано:** 2026-08-21 01:09 UTC · **Обновлено:** 2026-08-26 06:39 UTC
+**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :speech_balloon: General · **Создано:** 2026-08-21 01:09 UTC · **Обновлено:** 2026-08-26 22:40 UTC
 
 ---
 
@@ -101,6 +101,16 @@ with the current hardware distribution in the network it also makes more sense t
 > - Prices reveal true economic value: Only when real pricing (reflecting compute/OpEx) is applied do users make rational trade-offs.
 > - The feedback loop: Cost-reflective pricing filters out low-value traffic, which directly dictates which models are actually economically viable to keep serving on the network.
 > p.s. This is not my opinion, not a guess, these are facts. I am writing this not to irritate you, but only to help and protect you from making mistakes through experience.
+
+**↳ Ответ от [@mtvnastya](https://github.com/mtvnastya)** · *2026-08-26 22:40 UTC*
+
+> agree these are deeply related, but they're of very different orders of magnitude in how they affect the network.
+>
+> phasing out kimi can be discussed, proposed and voted on within a week or two. updating the pricing model is a much bigger change that's already being discussed in many other threads, and it shouldn't block a smaller decision.
+>
+> pricing alone also doesn't solve this case: with per-model coefficients unchanged, a b200 serving deepseek at full capacity, even at openrouter prices, would earn less in total (inference + bitcoin-style reward) than it earns on kimi from the bitcoin-style reward alone. that's why a separate decision makes sense here.
+>
+> and by that logic we shouldn't have added deepseek, or any new model, in the first place, since picking initial coefficients carries the same distortion.
 
 ### Комментарий 4 — [@gmorgachev](https://github.com/gmorgachev)
 
