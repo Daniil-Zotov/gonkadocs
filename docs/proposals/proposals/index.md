@@ -71,8 +71,8 @@ hide:
     <span>Voting ends 2026-08-27</span>
   </div>
   <div class="prop-card-desc">Increase the weight_scale_factor for deepseek-ai/DeepSeek-V4-Flash-0731 from 0.214 to 0.246. All other model and chain parameters remain unchanged.  The original factor came from inflated nonce/min nu…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>74.4%</strong> (8,968)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>25.6%</strong> (3,093)</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>2.8%</strong> (12,061 / 426,946) · Quorum <strong>25%</strong> (106,736)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>80.8%</strong> (12,997)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>19.2%</strong> (3,093)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>3.8%</strong> (16,090 / 426,946) · Quorum <strong>25%</strong> (106,736)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -1360,7 +1360,7 @@ hide:
 
 </div>
 <div class="prop-oview-stats">
-<em>96 proposals across 5 quarters. Last updated: 2026-08-26 08:20 UTC</em>
+<em>96 proposals across 5 quarters. Last updated: 2026-08-26 08:40 UTC</em>
 </div>
 
 <script>
