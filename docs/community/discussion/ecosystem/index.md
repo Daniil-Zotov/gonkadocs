@@ -4,7 +4,7 @@ title: ":jigsaw: Ecosystem"
 
 # :jigsaw: Ecosystem
 
-Дискуссии в категории **:jigsaw: Ecosystem**. Всего: **8**. Обновлено: `2026-08-26 01:53 UTC`.
+Дискуссии в категории **:jigsaw: Ecosystem**. Всего: **8**. Обновлено: `2026-08-26 03:14 UTC`.
 
 [← ко всем категориям](../index.md)
 
