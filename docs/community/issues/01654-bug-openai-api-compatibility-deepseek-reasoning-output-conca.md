@@ -2,7 +2,7 @@
 title: "#1654 — ⁠[Bug] OpenAI API compatibility: DeepSeek reasoning output concatenated into content & invalid reasoning_effort validation⁠"
 source: https://github.com/gonka-ai/gonka/issues/1654
 issue_number: 1654
-synced_at: 2026-08-26T15:55:24Z
+synced_at: 2026-08-26T18:07:56Z
 template: issues-main.html
 ---
 
@@ -16,38 +16,70 @@ template: issues-main.html
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/dmrtest">@dmrtest</a> opened 2026-08-26 15:07 UTC</span>
     <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-08-26 15:07 UTC</span>
+    <span class="issues-meta-item">Updated 2026-08-26 16:02 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
 </div>
 
 <div class="issues-content" markdown="1">
 ### Summary
-When querying `deepseek-ai/DeepSeek-V4-Flash-0731` via Open Broker, the OpenAI-compatible response parser concatenates the model's reasoning process (chain-of-thought) directly into `message.content` instead of outputting it to `message.reasoning_content` (or `delta.reasoning` / `delta.reasoning_content` in streaming mode).
+When using `deepseek-ai/DeepSeek-V4-Flash-0731` via Open Broker (`api.openbroker.gonka.gg`), the gateway fails to parse reasoning tokens into `message.reasoning_content`.
 
-This breaks downstream AI agent frameworks (e.g., Nous Hermes, LangChain, Cursor) because the agent ingests its own scratchpad as part of the assistant's final output, causing context pollution and loop failures.
-
-Additionally, there are issues with the `reasoning_effort` parameter validation and execution speed.
+Instead, the model's scratchpad/CoT is merged into `message.content` as plain text without any `<think>` tags. This breaks downstream agent UI systems (e.g., Nous Hermes, LangChain) because agents ingest their own scratchpad as part of the assistant's final response, polluting dialogue context.
 
 ---
 
-### Observed Behavior
-1. **Empty Reasoning Field:** `message.reasoning_content` is almost always `null` or empty.
-2. **Polluted Content:** `<think>` tokens and internal scratchpad text are prefixed into `message.content`.
-3. **Param Validation Issue:** `reasoning_effort=max` is rejected by the OpenAI-compat schema validator (returns 400/422).
-4. **Performance:** `reasoning_effort=xhigh` takes ~6 minutes per completion, resulting in agent timeouts.
+### Comparison Logs (Captured on Aug 26)
 
----
+**Prompt:**
+`n2m-probe-1979. What is 23 multiplied by 17? Think step by step, then reply with only the integer.`
 
-### Expected Behavior (Alignment with Official DeepSeek & OpenAI Specification)
-1. **Thinking Output Split:**
-   - Scratchpad/CoT output must be routed to `message.reasoning_content` (or `delta.reasoning_content` in SSE streams).
-   - `message.content` should contain **only** the final user-facing response.
-2. **Parameter Validation:** Support standard OpenAI parameters (`max` should be accepted, or mapped correctly without throwing validation errors).
+#### 1. Official DeepSeek API (Expected Behavior)
+- Reasoning process is isolated in `reasoning_content`.
+- `content` contains strictly the final response.
+- `usage` properly reflects `reasoning_tokens`.
 
+```json
+{
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "391",
+        "reasoning_content": "We need answer only integer. Need compute 23*17=391..."
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens_details": {
+      "reasoning_tokens": 34
+    }
+  }
+}
 
-Impact
-High. Affects all agentic workflows using Open Broker endpoint for DeepSeek V4. Willing to assist with testing or providing more trace logs if needed.
+2. Open Broker Direct Call (Observed Behavior)
+⚬ Host/Node: devshard-63078-9577 (vllm-0.25.1)
+⚬ CoT and final answer are merged into content.
+⚬ No <think> tags are provided to filter output on the client side.
+⚬ reasoning_content is null.
+{
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "23 × 17 = 23 × (10 + 7) = 230 + 161 = 391. \n\n391",
+        "reasoning": null,
+        "reasoning_content": null
+      }
+    }
+  ],
+  "usage": {
+    "completion_tokens": 27,
+    "prompt_tokens": 34,
+    "total_tokens": 61
+  }
+}
+
 
 </div>
 
