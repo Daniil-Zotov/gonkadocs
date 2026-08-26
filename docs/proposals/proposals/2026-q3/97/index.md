@@ -41,7 +41,7 @@ Recomputed on historical B300 nonce data and fresh PoC experiments, the factor i
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:2.5%"></div>
+    <div class="prop-tally-yes" style="width:2.6%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
@@ -52,7 +52,7 @@ Recomputed on historical B300 nonce data and fresh PoC experiments, the factor i
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-total-text">Total 13,105 votes</span>
-    <span class="prop-tally-veto-text">✗ Turnout <strong>2.5%</strong> (13,105 / 530,067) · Quorum <strong>25%</strong> (132,516)</span>
+    <span class="prop-tally-veto-text">✗ Turnout <strong>2.6%</strong> (13,105 / 508,587) · Quorum <strong>25%</strong> (127,146)</span>
   </div>
 </div>
 
