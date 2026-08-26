@@ -41,18 +41,18 @@ Recomputed on historical B300 nonce data and fresh PoC experiments, the factor i
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:2.6%"></div>
+    <div class="prop-tally-yes" style="width:2.1%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
-    <div class="prop-tally-abstain" style="width:0.6%"></div>
+    <div class="prop-tally-abstain" style="width:0.7%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes <strong>81.1%</strong> (13,105)</span>
+    <span class="prop-tally-yes-text">Yes <strong>74.4%</strong> (8,968)</span>
     <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-abstain-text">Abstain <strong>18.9%</strong> (3,050)</span>
-    <span class="prop-tally-total-text">Total 16,155 votes</span>
-    <span class="prop-tally-veto-text">✗ Turnout <strong>3.2%</strong> (16,155 / 508,587) · Quorum <strong>25%</strong> (127,146)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>25.6%</strong> (3,093)</span>
+    <span class="prop-tally-total-text">Total 12,061 votes</span>
+    <span class="prop-tally-veto-text">✗ Turnout <strong>2.8%</strong> (12,061 / 428,058) · Quorum <strong>25%</strong> (107,014)</span>
   </div>
 </div>
 
