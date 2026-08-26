@@ -2,7 +2,7 @@
 title: "#821 — Continuous PoC design + implementation"
 source: https://github.com/gonka-ai/gonka/issues/821
 issue_number: 821
-synced_at: 2026-08-26T02:03:55Z
+synced_at: 2026-08-26T03:29:34Z
 template: issues-main.html
 ---
 
