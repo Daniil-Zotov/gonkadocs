@@ -44,15 +44,15 @@ Recomputed on historical B300 nonce data and fresh PoC experiments, the factor i
     <div class="prop-tally-yes" style="width:2.6%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
-    <div class="prop-tally-abstain" style="width:0.0%"></div>
+    <div class="prop-tally-abstain" style="width:0.6%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (13,105)</span>
+    <span class="prop-tally-yes-text">Yes <strong>81.1%</strong> (13,105)</span>
     <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-total-text">Total 13,105 votes</span>
-    <span class="prop-tally-veto-text">✗ Turnout <strong>2.6%</strong> (13,105 / 508,587) · Quorum <strong>25%</strong> (127,146)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>18.9%</strong> (3,050)</span>
+    <span class="prop-tally-total-text">Total 16,155 votes</span>
+    <span class="prop-tally-veto-text">✗ Turnout <strong>3.2%</strong> (16,155 / 508,587) · Quorum <strong>25%</strong> (127,146)</span>
   </div>
 </div>
 
@@ -64,6 +64,7 @@ Recomputed on historical B300 nonce data and fresh PoC experiments, the factor i
 <table class="prop-voters">
 <thead><tr><th>Voter</th><th>Vote</th></tr></thead>
 <tbody>
+<tr><td><a href="https://gonka.gg/address/gonka1ym3np7guxart483yfdxnlztuazx22cjt0e4a2p" target="_blank" class="prop-voter-addr">gonka1ym3np7…0e4a2p</a></td><td><span class="prop-voter-option prop-vote-abstain">Abstain 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka12eyvvvvaeph9q3c3m5m6c5f9ayvmqymkt49u3r" target="_blank" class="prop-voter-addr">gonka12eyvvv…t49u3r</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1346p2h8dn4kp98c5e93k5q64g0h7vxjxnd55fh" target="_blank" class="prop-voter-addr">gonka1346p2h…nd55fh</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka168rtjfkszuhcggg4dfyse4yh7xn9zwfglnkns2" target="_blank" class="prop-voter-addr">gonka168rtjf…lnkns2</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
