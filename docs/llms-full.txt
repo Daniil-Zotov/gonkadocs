@@ -28468,7 +28468,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   
   Increase the weight_scale_factor for deepseek-ai/DeepSeek-V4-Flash-0731 from 0.214 to 0.246. All other model and chain parameters remain unchanged.  The original factor came from inflated nonce/min nu…
   Yes 100.0% (13,105) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✗ Turnout 2.5% (13,105 / 530,067) · Quorum 25% (132,516)
+  ✗ Turnout 2.6% (13,105 / 508,587) · Quorum 25% (127,146)
 
   
     #96 – Stabilize in-epoch invalid SPRT on small samples
@@ -29555,7 +29555,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-96 proposals across 5 quarters. Last updated: 2026-08-26 02:26 UTC
+96 proposals across 5 quarters. Last updated: 2026-08-26 03:32 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -66700,7 +66700,7 @@ $90,075 USDT · Bounty Reward
   
   Increase the weight_scale_factor for deepseek-ai/DeepSeek-V4-Flash-0731 from 0.214 to 0.246. All other model and chain parameters remain unchanged.  The original factor came from inflated nonce/min nu…
   Yes 100.0% (13,105) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✗ Turnout 2.5% (13,105 / 530,067) · Quorum 25% (132,516)
+  ✗ Turnout 2.6% (13,105 / 508,587) · Quorum 25% (127,146)
 
   
     #96 – Stabilize in-epoch invalid SPRT on small samples
@@ -73435,7 +73435,7 @@ Recomputed on historical B300 nonce data and fresh PoC experiments, the factor i
     Veto 0.0% (0)
     Abstain 0.0% (0)
     Total 13,105 votes
-    ✗ Turnout 2.5% (13,105 / 530,067) · Quorum 25% (132,516)
+    ✗ Turnout 2.6% (13,105 / 508,587) · Quorum 25% (127,146)
   
 
 Voters
