@@ -28467,8 +28467,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-08-27
   
   Increase the weight_scale_factor for deepseek-ai/DeepSeek-V4-Flash-0731 from 0.214 to 0.246. All other model and chain parameters remain unchanged.  The original factor came from inflated nonce/min nu…
-  Yes 100.0% (13,105) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✗ Turnout 2.6% (13,105 / 508,587) · Quorum 25% (127,146)
+  Yes 81.1% (13,105) · No 0.0% (0) · Veto 0.0% (0) · Abstain 18.9% (3,050)
+  ✗ Turnout 3.2% (16,155 / 508,587) · Quorum 25% (127,146)
 
   
     #96 – Stabilize in-epoch invalid SPRT on small samples
@@ -29555,7 +29555,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-96 proposals across 5 quarters. Last updated: 2026-08-26 06:19 UTC
+96 proposals across 5 quarters. Last updated: 2026-08-26 07:20 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -66699,8 +66699,8 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-08-27
   
   Increase the weight_scale_factor for deepseek-ai/DeepSeek-V4-Flash-0731 from 0.214 to 0.246. All other model and chain parameters remain unchanged.  The original factor came from inflated nonce/min nu…
-  Yes 100.0% (13,105) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✗ Turnout 2.6% (13,105 / 508,587) · Quorum 25% (127,146)
+  Yes 81.1% (13,105) · No 0.0% (0) · Veto 0.0% (0) · Abstain 18.9% (3,050)
+  ✗ Turnout 3.2% (16,155 / 508,587) · Quorum 25% (127,146)
 
   
     #96 – Stabilize in-epoch invalid SPRT on small samples
@@ -73430,18 +73430,19 @@ Recomputed on historical B300 nonce data and fresh PoC experiments, the factor i
     
   
   
-    Yes 100.0% (13,105)
+    Yes 81.1% (13,105)
     No 0.0% (0)
     Veto 0.0% (0)
-    Abstain 0.0% (0)
-    Total 13,105 votes
-    ✗ Turnout 2.6% (13,105 / 508,587) · Quorum 25% (127,146)
+    Abstain 18.9% (3,050)
+    Total 16,155 votes
+    ✗ Turnout 3.2% (16,155 / 508,587) · Quorum 25% (127,146)
   
 
 Voters
 
 VoterVote
 
+gonka1ym3np7…0e4a2pAbstain 100.0%
 gonka12eyvvv…t49u3rYes 100.0%
 gonka1346p2h…nd55fhYes 100.0%
 gonka168rtjf…lnkns2Yes 100.0%
