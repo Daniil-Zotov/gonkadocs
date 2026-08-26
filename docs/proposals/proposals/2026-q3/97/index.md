@@ -52,7 +52,7 @@ Recomputed on historical B300 nonce data and fresh PoC experiments, the factor i
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>25.6%</strong> (3,093)</span>
     <span class="prop-tally-total-text">Total 12,061 votes</span>
-    <span class="prop-tally-veto-text">✗ Turnout <strong>2.8%</strong> (12,061 / 428,058) · Quorum <strong>25%</strong> (107,014)</span>
+    <span class="prop-tally-veto-text">✗ Turnout <strong>2.8%</strong> (12,061 / 426,946) · Quorum <strong>25%</strong> (106,736)</span>
   </div>
 </div>
 
