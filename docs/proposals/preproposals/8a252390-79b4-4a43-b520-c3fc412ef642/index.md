@@ -65,7 +65,7 @@ Email: morgachev.g@gmail.com
 
 ---
 
-## Comments (4)
+## Comments (5)
 
 ### 💬 Даниил Зотов
 *2026-07-31 18:55* · 👍 0 · 👎 0
@@ -138,6 +138,13 @@ Key topics:
 📄 Proposal: https://github.com/gonka-ai/gonka/discussions/1464
 
 See you next week!
+
+---
+
+### 💬 Andrey A
+*2026-08-26 18:26* · 👍 0 · 👎 0
+
+Подскажите, пожалуйста, что с этим пропосалом 🤔
 
 ---
 
