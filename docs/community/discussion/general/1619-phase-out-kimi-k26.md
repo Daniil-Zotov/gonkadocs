@@ -3,14 +3,14 @@ title: "#1619 — Phase out Kimi K2.6"
 source: https://github.com/gonka-ai/gonka/discussions/1619
 discussion_number: 1619
 category: general
-synced_at: 2026-08-26T05:44:07Z
+synced_at: 2026-08-26T07:03:20Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1619](https://github.com/gonka-ai/gonka/discussions/1619) every hour. 
 
 # Phase out Kimi K2.6
 
-**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :speech_balloon: General · **Создано:** 2026-08-21 01:09 UTC · **Обновлено:** 2026-08-25 20:21 UTC
+**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :speech_balloon: General · **Создано:** 2026-08-21 01:09 UTC · **Обновлено:** 2026-08-26 06:39 UTC
 
 ---
 
@@ -38,7 +38,7 @@ I suggest keeping this discussion about Kimi's fate open until August 30. Unless
 
 ---
 
-## 💬 Комментарии (3)
+## 💬 Комментарии (4)
 
 ### Комментарий 1 — [@theaungmyatmoe](https://github.com/theaungmyatmoe)
 
@@ -101,3 +101,22 @@ with the current hardware distribution in the network it also makes more sense t
 > - Prices reveal true economic value: Only when real pricing (reflecting compute/OpEx) is applied do users make rational trade-offs.
 > - The feedback loop: Cost-reflective pricing filters out low-value traffic, which directly dictates which models are actually economically viable to keep serving on the network.
 > p.s. This is not my opinion, not a guess, these are facts. I am writing this not to irritate you, but only to help and protect you from making mistakes through experience.
+
+### Комментарий 4 — [@gmorgachev](https://github.com/gmorgachev)
+
+*2026-08-26 06:30 UTC*
+
+I agree that our demand data is noisy in some way
+
+I support kimi -> deepseek replacement as:
+1. deepseek is much cheaper to compute (total throughtput on the same server is much higher, 8xH100 with deepseek handles ~the same thoughtput as 8xB300 on kimi)
+=> chain will be able to process much more client requests and it'll be more stable 
+2. in public benchmarks latest deepseek flash beats kimi k2.6 clearly 
+
+Overall, think Kimi has no real benefits
+
+
+
+**↳ Ответ от [@theaungmyatmoe](https://github.com/theaungmyatmoe)** · *2026-08-26 06:39 UTC*
+
+> at that server card it can get much more request and can handle it, i even tested with ds flash 0831 with rtx 4090 and get 100 tps so that at data center level cards it will be much more 
