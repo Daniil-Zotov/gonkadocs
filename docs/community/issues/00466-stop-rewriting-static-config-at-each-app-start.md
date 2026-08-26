@@ -2,7 +2,7 @@
 title: "#466 — Stop rewriting static config at each app start"
 source: https://github.com/gonka-ai/gonka/issues/466
 issue_number: 466
-synced_at: 2026-08-26T03:29:44Z
+synced_at: 2026-08-26T05:01:49Z
 template: issues-main.html
 ---
 
