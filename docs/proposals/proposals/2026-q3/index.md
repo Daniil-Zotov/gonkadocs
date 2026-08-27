@@ -36,7 +36,7 @@ hide:
 <div class="qs-stats">
 <div class="qs-stat total"><span class="qs-num">18</span><span class="qs-desc">Total Proposals</span></div>
 <div class="qs-stat passed"><span class="qs-num">12</span><span class="qs-desc">Passed (67%)</span></div>
-<div class="qs-stat rejected"><span class="qs-num">5</span><span class="qs-desc">Rejected (28%)</span></div>
+<div class="qs-stat rejected"><span class="qs-num">6</span><span class="qs-desc">Rejected (33%)</span></div>
 
 </div>
 
@@ -57,11 +57,10 @@ hide:
 <div class="prop-quarter">
 <h2>2026-Q3</h2>
 <p>18 proposals</p>
-<div class="prop-card" data-status="prop-voting" data-voting-end="2026-08-27T03:47:31.768213501Z">
+<div class="prop-card" data-status="prop-rejected">
   <div class="prop-card-header">
     <a href="97/" class="prop-card-title">#97 – Increase DeepSeek V4 Flash weight_scale_factor to 0.246</a>
-    <span class="prop-vote-countdown" data-deadline="2026-08-27T03:47:31.768213501Z"></span>
-    <span class="prop-badge prop-voting">Voting</span>
+    <span class="prop-badge prop-rejected">Rejected</span>
   </div>
   <div class="prop-card-meta">
     <span>Submitted 2026-08-25</span>
@@ -69,7 +68,7 @@ hide:
   </div>
   <div class="prop-card-desc">Increase the weight_scale_factor for deepseek-ai/DeepSeek-V4-Flash-0731 from 0.214 to 0.246. All other model and chain parameters remain unchanged.  The original factor came from inflated nonce/min nu…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>83.3%</strong> (15,452)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>16.7%</strong> (3,093)</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>4.8%</strong> (18,545 / 384,352) · Quorum <strong>25%</strong> (96,088)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>3.7%</strong> (18,545 / 502,549) · Quorum <strong>25%</strong> (125,637)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">

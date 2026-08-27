@@ -10,7 +10,7 @@ template: proposals-proposals-main.html
 
 <div class="prop-detail-header" markdown="1">
 
-<div class="prop-badge-row"><span class="prop-badge prop-voting">Voting</span><span class="prop-vote-countdown prop-vote-countdown-detail" data-deadline="2026-08-27T03:47:31.768213501Z"></span></div>
+<span class="prop-badge prop-rejected">Rejected</span>
 
 **Proposal ID:** `97`
 
@@ -21,6 +21,8 @@ template: proposals-proposals-main.html
 **Voting:** 2026-08-25 03:47 UTC → 2026-08-27 03:47 UTC
 
 **Proposer:** [`gonka168rtjfkszuhcggg4dfyse4yh7xn9zwfglnkns2`](https://gonka.gg/address/gonka168rtjfkszuhcggg4dfyse4yh7xn9zwfglnkns2){:target="_blank"}
+
+**Failed reason:** proposal did not get enough votes to pass
 
 
 
@@ -41,10 +43,10 @@ Recomputed on historical B300 nonce data and fresh PoC experiments, the factor i
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:4.0%"></div>
+    <div class="prop-tally-yes" style="width:3.1%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
-    <div class="prop-tally-abstain" style="width:0.8%"></div>
+    <div class="prop-tally-abstain" style="width:0.6%"></div>
   </div>
   <div class="prop-tally-stats">
     <span class="prop-tally-yes-text">Yes <strong>83.3%</strong> (15,452)</span>
@@ -52,7 +54,7 @@ Recomputed on historical B300 nonce data and fresh PoC experiments, the factor i
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>16.7%</strong> (3,093)</span>
     <span class="prop-tally-total-text">Total 18,545 votes</span>
-    <span class="prop-tally-veto-text">✗ Turnout <strong>4.8%</strong> (18,545 / 384,352) · Quorum <strong>25%</strong> (96,088)</span>
+    <span class="prop-tally-veto-text">✗ Turnout <strong>3.7%</strong> (18,545 / 502,549) · Quorum <strong>25%</strong> (125,637)</span>
   </div>
 </div>
 
