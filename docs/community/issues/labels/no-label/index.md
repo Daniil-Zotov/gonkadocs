@@ -6,7 +6,7 @@ template: issues-main.html
 # Issues: no-label
 
 Issues with label **no-label**. Total: **252**.
-Updated: `2026-08-26 23:45 UTC`.
+Updated: `2026-08-27 10:01 UTC`.
 
 [← All Issues](../../index.md)
 
@@ -126,7 +126,7 @@ Updated: `2026-08-26 23:45 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/KTibow">@KTibow</a> opened 7 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/KTibow">@KTibow</a> opened 8 days ago</span>
       
     </div>
   </div>
@@ -141,7 +141,7 @@ Updated: `2026-08-26 23:45 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/safal207">@safal207</a> opened 12 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/safal207">@safal207</a> opened 13 days ago</span>
       
     </div>
   </div>
@@ -171,7 +171,7 @@ Updated: `2026-08-26 23:45 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Mayveskii">@Mayveskii</a> opened 14 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/Mayveskii">@Mayveskii</a> opened 15 days ago</span>
       
     </div>
   </div>
@@ -186,7 +186,7 @@ Updated: `2026-08-26 23:45 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/kAIPraxisBot">@kAIPraxisBot</a> opened 15 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/kAIPraxisBot">@kAIPraxisBot</a> opened 16 days ago</span>
       
     </div>
   </div>
@@ -201,7 +201,7 @@ Updated: `2026-08-26 23:45 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/kAIPraxisBot">@kAIPraxisBot</a> opened 15 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/kAIPraxisBot">@kAIPraxisBot</a> opened 16 days ago</span>
       
     </div>
   </div>
@@ -246,7 +246,7 @@ Updated: `2026-08-26 23:45 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Doog-bot534">@Doog-bot534</a> opened 20 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/Doog-bot534">@Doog-bot534</a> opened 21 days ago</span>
       
     </div>
   </div>
@@ -261,7 +261,7 @@ Updated: `2026-08-26 23:45 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 25 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 26 days ago</span>
       
     </div>
   </div>
