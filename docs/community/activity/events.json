@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260827024532_aa07e92f",
+    "timestamp": "2026-08-27T02:45:32.106579+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "Get Support on Discord",
+      "url": "/gonka/docs/help/",
+      "file": "help.md"
+    },
+    "details": {
+      "content_before": "# Get Support on Discord\n\nJoin the Gonka community on [Discord](https://discord.com/invite/RADwCT2U6R) if you need assistance.",
+      "content_after": "# Get Support on Discord\n\nJoin the Gonka community on [Discord](https://discord.gg/REcpeYc7P7) if you need assistance."
+    },
+    "ai_description": "The Protocol Docs have been refreshed with a working Discord invite link for getting support. Make sure to use the updated URL to join the community and connect with the team if you need assistance."
+  },
+  {
     "id": "evt_20260827005925_fbebc86b",
     "timestamp": "2026-08-27T00:59:25.738055+00:00",
     "section": "calendar",

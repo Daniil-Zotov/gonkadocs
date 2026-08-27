@@ -121,7 +121,7 @@ Below are the most important resources for learning about the Gonka ecosystem:
 - [Whitepaper](https://gonka.ai/whitepaper.pdf) — technical documentation describing the architecture, consensus model, Proof-of-Compute, etc.
 - [Tokenomics](https://gonka.ai/tokenomics.pdf) — project tokenomics overview, including supply, distribution, incentives, and economic design.
 - [GitHub](https://github.com/gonka-ai/gonka/) — access to the project’s source code, repositories, development activity, and open-source contributions.
-- [Discord](https://discord.com/invite/RADwCT2U6R) — the primary place for community discussions, announcements, and technical support.
+- [Discord](https://discord.gg/REcpeYc7P7) — the primary place for community discussions, announcements, and technical support.
 - [X (Twitter)](https://x.com/gonka_ai) — news, updates, and announcements.
 
 ## Tokenomics
@@ -265,7 +265,7 @@ Governance Proposals are required for any on-chain changes that affect the netwo
 - Any other actions that must be approved and executed via the governance module
 
 ### Who can create a Governance Proposal?
-Anyone with a valid governance key (cold account) can pay the required fee and create a Governance Proposal. However, each proposal must still be approved by active participants through PoC-weighted voting. Proposers are encouraged to discuss significant changes off-chain first (for example, via [GitHub](https://github.com/gonka-ai) or [community forums](https://discord.com/invite/RADwCT2U6R)) to increase the likelihood of approval. See [the full guide](https://gonka.ai/governance/transactions-and-governance/).
+Anyone with a valid governance key (cold account) can pay the required fee and create a Governance Proposal. However, each proposal must still be approved by active participants through PoC-weighted voting. Proposers are encouraged to discuss significant changes off-chain first (for example, via [GitHub](https://github.com/gonka-ai) or [community forums](https://discord.gg/REcpeYc7P7)) to increase the likelihood of approval. See [the full guide](https://gonka.ai/governance/transactions-and-governance/).
 
 ### What happens if a proposal fails?
 - If a proposal does not meet quorum → it automatically fails
@@ -1375,7 +1375,7 @@ There are several ways how to reset `application.db`:
     
     Once it's running, move existing `tmkms` volume to the new node (disable block signing on existing one first). 
     
-    This is the general idea of the approach. If you decide to try it and have any questions, feel free to reach out on [Discord](https://discord.com/invite/RADwCT2U6R).
+    This is the general idea of the approach. If you decide to try it and have any questions, feel free to reach out on [Discord](https://discord.gg/REcpeYc7P7).
 
 === "OPTION 4: Upgrade to the pruning fix" 
 
@@ -1624,7 +1624,7 @@ If you want to help develop the protocol (not report a security issue), the work
 ### Where do I propose and discuss ideas for the protocol?
 
 - Publish your ideas as **[GitHub Discussions](https://github.com/gonka-ai/gonka/discussions)**. Start with the welcome guide at **[Welcome to Proposals #795](https://github.com/gonka-ai/gonka/discussions/795)**, which explains what belongs there and how to write a strong, structured proposal.
-- Gather feedback from the community across the channels where it is active — Telegram groups, other community groups, and the [Gonka Discord](https://discord.com/invite/RADwCT2U6R). Please consolidate the key context back into GitHub Discussions so the full history stays searchable and in one place.
+- Gather feedback from the community across the channels where it is active — Telegram groups, other community groups, and the [Gonka Discord](https://discord.gg/REcpeYc7P7). Please consolidate the key context back into GitHub Discussions so the full history stays searchable and in one place.
 
 ### Where can I see the current protocol priorities?
 
@@ -2563,7 +2563,7 @@ When referring to “Next PoC” or “PoC phase”, this typically means the ne
 
 # Get Support on Discord
 
-Join the Gonka community on [Discord](https://discord.com/invite/RADwCT2U6R) if you need assistance.
+Join the Gonka community on [Discord](https://discord.gg/REcpeYc7P7) if you need assistance.
 
 ---
 
@@ -10108,7 +10108,7 @@ Replacing the gateway **image** or recreating the main container would drop in-f
 
 - [Developer Quickstart](quickstart.md) - community brokers; [become a broker via OpenBroker](quickstart.md#recommended-become-a-broker-with-openbroker); [GitHub allow-list fallback](quickstart.md#fallback-github-allow-list-request)
 
-**Need help?** See the [FAQ](https://gonka.ai/FAQ/), join [Discord](https://discord.com/invite/RADwCT2U6R), or - only if OpenBroker does not fit - open a [gateway allowlist request](https://github.com/gonka-ai/gonka/issues/new?title=Gateway+allowlist+request) on GitHub.
+**Need help?** See the [FAQ](https://gonka.ai/FAQ/), join [Discord](https://discord.gg/REcpeYc7P7), or - only if OpenBroker does not fit - open a [gateway allowlist request](https://github.com/gonka-ai/gonka/issues/new?title=Gateway+allowlist+request) on GitHub.
 
 ---
 
@@ -10457,7 +10457,7 @@ Include your operator name and contact, the `gonka1...` address you intend to us
 
 ---
 
-**Need help?** See the [FAQ page](https://gonka.ai/FAQ/), or join the [Discord server](https://discord.com/invite/RADwCT2U6R) for technical issues or security concerns.
+**Need help?** See the [FAQ page](https://gonka.ai/FAQ/), or join the [Discord server](https://discord.gg/REcpeYc7P7) for technical issues or security concerns.
 
 ---
 
@@ -10757,7 +10757,7 @@ Governance Proposals are required for any on-chain changes that affect the netwo
 
 Anyone with a valid governance key (cold account) can pay the required fee and create a Governance Proposal. However, each proposal must still be approved by active participants through PoC-weighted voting.
 
-Proposers are encouraged to discuss significant changes off-chain first (for example, via [GitHub](https://github.com/gonka-ai) or [community forums](https://discord.com/invite/RADwCT2U6R)) to increase the likelihood of approval.
+Proposers are encouraged to discuss significant changes off-chain first (for example, via [GitHub](https://github.com/gonka-ai) or [community forums](https://discord.gg/REcpeYc7P7)) to increase the likelihood of approval.
 
 ---
 
@@ -12494,7 +12494,7 @@ INF Genesis time is in the future. Sleeping until then... genTime=2025-08-14T09:
 
     Remove genesis-specific variables from `docker-compose.yml` configuration files to transition to normal operation mode.
 
-For additional support, see the [Quickstart Guide](https://gonka.ai/host/quickstart) or join [the community Discord](https://discord.com/invite/RADwCT2U6R).
+For additional support, see the [Quickstart Guide](https://gonka.ai/host/quickstart) or join [the community Discord](https://discord.gg/REcpeYc7P7).
 
 ---
 
@@ -12711,7 +12711,7 @@ Company Participant:
 > **Production Deployment**
     Before deploying to production, ensure you understand the complete key management workflow and have tested key recovery procedures in a safe environment.
 
-**Need help?**  Find answers on [FAQ page](https://gonka.ai/FAQ/), or join [Discord server](https://discord.com/invite/RADwCT2U6R) for assistance with general inquiries, technical issues, or security concerns.
+**Need help?**  Find answers on [FAQ page](https://gonka.ai/FAQ/), or join [Discord server](https://discord.gg/REcpeYc7P7) for assistance with general inquiries, technical issues, or security concerns.
 
 ---
 
@@ -14474,7 +14474,7 @@ curl -X GET http:///v1/epochs//participants
 - Includes full block header metadata, proposer address, commit signatures, etc.
 - Useful for verifying the inclusion and commitment of Host data
 
-**Need help?**  Find answers on [FAQ page](https://gonka.ai/FAQ/), or join [Discord server](https://discord.com/invite/RADwCT2U6R) for assistance with general inquiries, technical issues, or security concerns.
+**Need help?**  Find answers on [FAQ page](https://gonka.ai/FAQ/), or join [Discord server](https://discord.gg/REcpeYc7P7) for assistance with general inquiries, technical issues, or security concerns.
 
 ---
 
@@ -16253,7 +16253,7 @@ rm -rf $HF_HOME
 
     Deleting `$HF_HOME` will require re-downloading large model files from Hugging Face or re-mounting the NFS cache.
 
-**Need help?**  Find answers on [FAQ page](https://gonka.ai/FAQ/), or join [Discord server](https://discord.com/invite/RADwCT2U6R) for assistance with general inquiries, technical issues, or security concerns.
+**Need help?**  Find answers on [FAQ page](https://gonka.ai/FAQ/), or join [Discord server](https://discord.gg/REcpeYc7P7) for assistance with general inquiries, technical issues, or security concerns.
 
 ---
 
@@ -28474,8 +28474,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-08-27
   
   Increase the weight_scale_factor for deepseek-ai/DeepSeek-V4-Flash-0731 from 0.214 to 0.246. All other model and chain parameters remain unchanged.  The original factor came from inflated nonce/min nu…
-  Yes 93.2% (42,693) · No 0.0% (0) · Veto 0.0% (0) · Abstain 6.8% (3,093)
-  ✗ Turnout 11.1% (45,786 / 411,593) · Quorum 25% (102,898)
+  Yes 83.3% (15,452) · No 0.0% (0) · Veto 0.0% (0) · Abstain 16.7% (3,093)
+  ✗ Turnout 4.8% (18,545 / 384,352) · Quorum 25% (96,088)
 
   
     #96 – Stabilize in-epoch invalid SPRT on small samples
@@ -29562,7 +29562,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-96 proposals across 5 quarters. Last updated: 2026-08-26 21:35 UTC
+96 proposals across 5 quarters. Last updated: 2026-08-27 01:02 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -66706,8 +66706,8 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-08-27
   
   Increase the weight_scale_factor for deepseek-ai/DeepSeek-V4-Flash-0731 from 0.214 to 0.246. All other model and chain parameters remain unchanged.  The original factor came from inflated nonce/min nu…
-  Yes 93.2% (42,693) · No 0.0% (0) · Veto 0.0% (0) · Abstain 6.8% (3,093)
-  ✗ Turnout 11.1% (45,786 / 411,593) · Quorum 25% (102,898)
+  Yes 83.3% (15,452) · No 0.0% (0) · Veto 0.0% (0) · Abstain 16.7% (3,093)
+  ✗ Turnout 4.8% (18,545 / 384,352) · Quorum 25% (96,088)
 
   
     #96 – Stabilize in-epoch invalid SPRT on small samples
@@ -73437,12 +73437,12 @@ Recomputed on historical B300 nonce data and fresh PoC experiments, the factor i
     
   
   
-    Yes 93.2% (42,693)
+    Yes 83.3% (15,452)
     No 0.0% (0)
     Veto 0.0% (0)
-    Abstain 6.8% (3,093)
-    Total 45,786 votes
-    ✗ Turnout 11.1% (45,786 / 411,593) · Quorum 25% (102,898)
+    Abstain 16.7% (3,093)
+    Total 18,545 votes
+    ✗ Turnout 4.8% (18,545 / 384,352) · Quorum 25% (96,088)
   
 
 Voters

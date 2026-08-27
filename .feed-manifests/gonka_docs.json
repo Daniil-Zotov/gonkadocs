@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-08-26T21:32:03.537042+00:00",
+  "snapshot_time": "2026-08-27T02:45:39.906162+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -12,7 +12,7 @@
       "title": "FAQ",
       "status": null,
       "content_preview": "# FAQ\n\n## Overview\n\n### What is Gonka?\nGonka is a decentralized network for high‑efficiency AI compute — run by those who run it. It functions as a cost-effective and efficient alternative to centralized cloud services for AI model training and inference. As a protocol, it's not a company or a start-up.\n\n- In terms of Blockchain, Gonka is the foundational ledger and coordination layer (L1) of the decentralized AI network. It records balances, transactions and cryptographic artifacts that prove Hosts have correctly performed AI work, while all actual computations (such as inference and training) happen off-chain.\n- In terms of Network, Gonka is a comprehensive ecosystem of participants, including Hosts and Developers that interact through a decentralized infrastructure. Powered by the Gonka",
-      "checksum": "55c058d7a0a505799e8aed7e307252f5d32d7ff1fc1e01bde5160956b93c4317"
+      "checksum": "b94ba6b668f16b959f10a35d715db8c859e50cd4ff5d6e7ea4923b436b3a1461"
     },
     "architecture.md": {
       "title": "Architecture",
@@ -120,19 +120,19 @@
       "title": "Run your own gateway",
       "status": null,
       "content_preview": "# Run your own gateway\n\nThis guide explains how to run a Gonka devshard gateway on **gonka-mainnet** without installing a full chain node. You will deploy the gateway on your own Linux host, fund a dedicated escrow creator address, open an on-chain devshard escrow, send OpenAI-compatible inference requests, and settle the escrow when you are finished.\n\nIf you want to **become a broker** without running your own allow-listed gateway, use **[OpenBroker](https://openbroker.gonka.gg)** - that is the recommended path (see [Developer Quickstart §3](quickstart.md#3-interested-in-operating-a-gateway)). Continue with this guide only when you specifically need a self-hosted on-chain gateway.\n\n### Allowlisted creator address required\n\n> **Prerequisite:** The `gonka1…` address for your devshard escrow",
-      "checksum": "ea73e1c28f738d92a3c51f65da48d60f910d9d48703fc82dbf134a522a52277c"
+      "checksum": "aa1841694f63983f65bfb79834025bef6101b8b449c40be42ae79fda30724040"
     },
     "developer/quickstart.md": {
       "title": "Developer Quickstart",
       "status": null,
       "content_preview": "# Developer Quickstart\n\nThis guide explains how to send an inference request to Gonka through a community broker. It is the fastest way to start using the network today. If you would like to [run your own gateway](#2-run-your-own-gateway-advanced) instead of going through a broker, see Run your own gateway at the bottom of this page. Want to **operate as a broker** yourself? See [Interested in operating a gateway?](#3-interested-in-operating-a-gateway) - start with [OpenBroker](https://openbroker.gonka.gg), or use a GitHub allow-list issue as a fallback if OpenBroker does not satisfy your needs.\n\n!!! note \"How to connect to Gonka\"\n\n    Gonka inference is now organized around **devshards** — short-lived sessions that hold a small on-chain deposit (an escrow) and settle per-request billing o",
-      "checksum": "48c1958926352e78918e3ae086ad58ce942ab3d6891025e462773da1919568f7"
+      "checksum": "3dc1a2623fd9e8e4ae3fbe8c9d7f77ec1a47ccd164f67c80d4f112fc8061c27b"
     },
     "disclaimer.md": {
       "title": "Disclaimer",
       "status": null,
       "content_preview": "<!-- prettier-ignore:start -->\n<div>\n<div class=\"gonka-landing gonka-landing--doc\">\n  <!-- Header -->\n  <header class=\"gonka-header\">\n      <a href=\"/\" class=\"gonka-logo\">\n        <svg width=\"44\" height=\"44\" viewBox=\"0 0 44 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n          <path d=\"M22.0779 0.000895182C22.2017 6.07859 22.4682 12.1564 22.8218 18.234C23.2874 26.2385 26.7009 34.2436 29.0827 42.2481C29.1354 42.4251 29.185 42.6029 29.2367 42.7799C26.9701 43.5691 24.5355 44 22 44C19.4649 44 17.0305 43.5698 14.7642 42.7808C14.816 42.6034 14.8663 42.4255 14.9191 42.2481C17.3009 34.2436 20.7144 26.2385 21.18 18.234C21.5336 12.1564 21.7992 6.07859 21.923 0.000895182C21.9487 0.000807303 21.9743 0 22 0C22.026 0 22.0519 0.000805247 22.0779 0.000895182Z\" fill=\"#2A2A2A\"/>\n          <path d=\"M",
-      "checksum": "da84e71c42f682fbee5bedb45cb798e643b6535b1b02253eff63359533b97e01"
+      "checksum": "cf829420c41dcaec9691aa1b4625541bc563a09fcd21cefbd24250ec12181cd6"
     },
     "glossary.md": {
       "title": "Glossary",
@@ -150,7 +150,7 @@
       "title": "Transactions & Governance",
       "status": null,
       "content_preview": "# Transactions & Governance\n\nAll governance actions are performed from your **Cold Account Machine**, using the **<COLD_KEY_NAME>** stored in your file keyring. This is the governance key you created when joining the network ([see quickstart](https://gonka.ai/host/quickstart/#local-machine-install-the-cli-tool)).\n\nTransactions are sent through an RPC endpoint (here referred to as `<NODE_URL>/chain-rpc/`). If you do not specify `--node`, the CLI defaults to `tcp://localhost:26657`. Unless you run your own node locally, always provide `--node <NODE_URL>/chain-rpc/`.\n\nUnordered transactions are supported and recommended here to avoid sequence contention. ([docs.cosmos.network](https://docs.cosmos.network/sdk/v0.53/learn/beginner/tx-lifecycle))\n\n???+ note \"Always include these flags in transac",
-      "checksum": "146339b1a26e53c1f06095a413c2aae92db1e600b613adb6bceca5ebe2657194"
+      "checksum": "1790d5449ce7ee033042beb3a91456a14fdedb4f54eed16ef03fe05449945aac"
     },
     "governance/voting-on-proposals.md": {
       "title": "Voting on Proposals",
@@ -167,8 +167,8 @@
     "help.md": {
       "title": "Get Support on Discord",
       "status": null,
-      "content_preview": "# Get Support on Discord\n\nJoin the Gonka community on [Discord](https://discord.com/invite/RADwCT2U6R) if you need assistance.",
-      "checksum": "5d7c16cf949bf97cee0ef5f3eda078ff193b9f2748b08e9d4897b7262073a568"
+      "content_preview": "# Get Support on Discord\n\nJoin the Gonka community on [Discord](https://discord.gg/REcpeYc7P7) if you need assistance.",
+      "checksum": "f436a31b78ba58349b673d13822961cd24d06e54603d41bf9c3a69b75a3685d3"
     },
     "host/README.md": {
       "title": "Redirecting to Hosts Section",
@@ -198,7 +198,7 @@
       "title": "Gonka Genesis Ceremony",
       "status": null,
       "content_preview": "# Gonka Genesis Ceremony\n\nThe genesis ceremony is a coordinated process to bootstrap the Gonka blockchain with a pre-defined set of initial validators and an agreed-upon `genesis.json` file. This ceremony is important because it establishes the network's foundational security, ensures fair participation among validators, and creates a verifiable starting point for the blockchain.\n\n## Overview\n\nThe ceremony is a transparent and auditable process managed entirely through GitHub Pull Requests (PRs). The core workflow is straightforward:\n\n- Hosts (Validators) submit information and offline transaction files (`GENTX` and `GENPARTICIPANT`) via PRs\n- The Coordinator aggregates and verifies these inputs to publish the final, agreed `genesis.json` with a scheduled `genesis_time` and recorded hash.\n",
-      "checksum": "629ede1c170ef3778a73e98da07c95d59092ca0d6cc5715fbdc6638bce11135d"
+      "checksum": "3adf4ff3bd2f572a8825678a57439cd09008e7211b505b911ab3aeb36b46bb3a"
     },
     "host/hardware-specifications.md": {
       "title": "Hardware Specifications",
@@ -216,7 +216,7 @@
       "title": "Key Management Architecture",
       "status": null,
       "content_preview": "# Key Management Architecture\n\nThis document describes the comprehensive key management architecture for Gonka Network, a decentralized AI infrastructure that requires robust security through role-based key separation.\n\n## Overview\n\nGonka Network implements a **role-based key management system** that separates automated functions from high-stakes manual approvals. This architecture ensures that no single key controls all network operations, providing enhanced security and operational flexibility.\n\n!!! info \"Quick Setup\"\n    For immediate deployment, see the [Quickstart Guide](/host/quickstart/). This document focuses on understanding the complete key management architecture and security model.\n\n## Key Architecture at Launch (v0)\n\nAt network launch, Hosts use a **three-key system**:\n\n| Key ",
-      "checksum": "4452c8f057d7939a00ce466f74367d4516800f269add8df33db732b0c7161366"
+      "checksum": "c7ab475703705a29bedda774b9a1fb71ad52aadbf1ee90dad3aeba3e866a32ff"
     },
     "host/kimi-bootstrap.md": {
       "title": "Kimi K2.6 Bootstrap",
@@ -258,7 +258,7 @@
       "title": "Network Node API",
       "status": null,
       "content_preview": "# Network Node API\n\nThis section describes the `Network Node API`, specifically the `/v1/epochs/{epoch_id}/participants` endpoint. This endpoint is used to retrieve:\n\n- Merkle proofs\n- Host data\n- Validator signatures\n\n## Usage\n\nCurrent Epoch Data\n```bash\ncurl -X GET http://<your_api_node_url:public_port>/v1/epochs/current/participants\n```\n\nSpecific Epoch Data\n```bash\ncurl -X GET http://<your_api_node_url:public_port>/v1/epochs/<epoch_id>/participants\n```\n---\n##Example response breakdown\n```bash linenums=\"1\"\n{\n  \"active_participants\": {\n\t\"participants\": [\n  \t{\n    \t\"index\": \"gonka17tvsmufmewvwfy3dfxz7l20jmlhhn6ekfcun7r\",\n    \t\"validator_key\": \"ljvRT9VScsxQKKX4S91yJRNppbz691ceD4sBYBRrAys=\",\n    \t\"weight\": 10,\n    \t\"inference_url\": \"http://genesis-api:8080\",\n    \t\"models\": [\n      \t\"unsloth/",
-      "checksum": "73aa291b4e5738b56f3ade8d4a7e7389f1d092d3452d223cf1c51bde346c8a5c"
+      "checksum": "b87b8d6ba6bbc028bd089e4c6973aa089238c022f5d30cbf81269b77cf697b0c"
     },
     "host/optional-ssl-setup.md": {
       "title": "[Optional] SSL Setup",
@@ -276,7 +276,7 @@
       "title": "Setting up your chain",
       "status": null,
       "content_preview": "# Setting up your chain \n\n**Host** (**hardware provider** or **node**) contributes computational resources to the network and is rewarded based on the amount and quality of resources they provide.\n\nTo join the network, you need to deploy two services:\n\n- **Network Node** – a service consisting of two nodes: a **Chain Node** and an **API Node**. This service handles all communication. The **Chain Node** connects to the blockchain, while the **API Node** manages user requests.\n- **Inference (ML) node** – a service that performs inference of large language models (LLMs) on GPU(s). You need at least one **ML Node** to join the network.\n\nThe guide describes a scenario in which both services are deployed on the same machine, and each Host has one ML Node. Services are deployed as Docker containe",
-      "checksum": "1c7b73f559af9ad9cb587c5a3808c26df9afbe7491da4bc20cde6ab349575c41"
+      "checksum": "2d14d07f64a7e9f0cdaa49dc04d233b45354feeff6b555e2a09ed183a4982398"
     },
     "introduction.md": {
       "title": "introduction",
