@@ -1,5 +1,29 @@
 [
   {
+    "id": "evt_20260827005925_fbebc86b",
+    "timestamp": "2026-08-27T00:59:25.738055+00:00",
+    "section": "calendar",
+    "action": "daily_reminder",
+    "item": {
+      "title": "Today: 1 events — Voting ends: #97 – Increase DeepSeek V4 Flash weight_scale_factor to 0.246",
+      "url": "/community/calendar/",
+      "file": null
+    },
+    "details": {
+      "today": [
+        {
+          "title": "Voting ends: #97 – Increase DeepSeek V4 Flash weight_scale_factor to 0.246",
+          "date": "2026-08-27",
+          "time": "03:47 UTC",
+          "event_type": "proposal_vote_end",
+          "url": "/proposals/proposals/2026-q3/97/"
+        }
+      ],
+      "count": 1
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260826155923_8529e784",
     "timestamp": "2026-08-26T15:59:23.203017+00:00",
     "section": "issues",
