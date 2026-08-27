@@ -266,12 +266,35 @@ The QRMint × Gonka Game Hackathon would give developers a reason to experiment 
 
 ---
 
-## Comments (2)
+## Comments (3)
 
 ### 💬 Victor
 *2026-08-16 19:18* · 👍 1 · 👎 0
 
 Chat - https://t.me/+pswOVDVlwOQ2YmQ0
+
+---
+
+### 💬 Victor
+*2026-08-27 11:13* · 👍 1 · 👎 0
+
+🎮 GameGenesis — NFT Collection Sale Is Now Live
+
+We have launched the sale of the GameGenesis NFT collection on the Gonka blockchain.
+Funds raised from the sales will support the development of GameHub, the creation of new gaming projects, and infrastructure development, including the growth of our inference broker direction.
+
+🎁 Bonus for Every NFT Holder
+
+Everyone who purchases a GameGenesis NFT will receive:
+🍵 20% off tea from our partner GIGATEA — premium Chinese tea sourced directly from suppliers.
+🔐 50% off our VPN
+An NFT is not just a collectible asset. It is a way to support the development of GameHub while also receiving real benefits from our partners.
+
+👉 Get your GameGenesis NFT:
+GameGenesis NFT Collection (https://qr-mint.net/en/collections/1fe2783602c844fdb525555597b0d5e3)
+Support developers — become part of GameHub. 🚀
+
+#GameGenesis #GameHub #Gonka #NFT #GameFi
 
 ---
 

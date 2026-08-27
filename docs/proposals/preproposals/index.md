@@ -15,13 +15,13 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 <div class="qs-stats">
 <div class="qs-stat passed"><span class="qs-num">6</span><span class="qs-desc">Active</span></div>
 <div class="qs-stat"><span class="qs-num">11</span><span class="qs-desc">Votes</span></div>
-<div class="qs-stat"><span class="qs-num">668.01 GNK</span><span class="qs-desc">Total Bid</span></div>
+<div class="qs-stat"><span class="qs-num">760.05 GNK</span><span class="qs-desc">Total Bid</span></div>
 </div>
 </div>
 
 | Status | Title | Author | Votes | Avg. Bid | Closes |
 | :----- | :----- | :----- | ----: | -------: | :----- |
-| 🟢 | [Мини фаундейшен](./ea988e94-2ee3-486c-bd7e-2422c04e0278/) | Mitch | 2 | 334.01 GNK | 2026-08-29 |
+| 🟢 | [Мини фаундейшен](./ea988e94-2ee3-486c-bd7e-2422c04e0278/) | Mitch | 2 | 380.02 GNK | 2026-08-29 |
 | 🟢 | [Повысить коэффициент DeepSeek V4 Flash с 0,214 до 0,4231 (обсуждаемо).](./f3ed4487-d373-46d8-bdcf-4b1d68e5cbf1/) | Slava MyGonka | 2 | 0.00 GNK | 2026-08-29 |
 | 🟢 | [Крупнейшее в мире событие для ИИ-разработчиков и создателей AI-продуктов — Sprin](./a2584dc4-1e7b-4cb7-a90d-fcf67306d7c8/) | Nataliia Klymovska | 2 | 0.00 GNK | 2026-08-31 |
 | 🟢 | [Game Hackaton AI](./165501de-189e-41c3-aad9-04bac872ef0d/) | Victor | 1 | 0.00 GNK | 2026-09-11 |
@@ -37,21 +37,21 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 <div class="qs-stats">
 <div class="qs-stat rejected"><span class="qs-num">37</span><span class="qs-desc">Expired</span></div>
 <div class="qs-stat"><span class="qs-num">37</span><span class="qs-desc">Votes</span></div>
-<div class="qs-stat"><span class="qs-num">48.0K GNK</span><span class="qs-desc">Total Bid</span></div>
+<div class="qs-stat"><span class="qs-num">48.4K GNK</span><span class="qs-desc">Total Bid</span></div>
 </div>
 </div>
 
 | Status | Title | Author | Votes | Avg. Bid | Closed |
 | :----- | :----- | :----- | ----: | -------: | :----- |
 | 🔴 | [Add DeepSeek V4 Pro and Qwen3.8-27B Models](./5fbee7f8-5089-450d-bd76-fb54df23d809/) | Aung Myat Moe | 2 | 0.00 GNK | 2026-08-27 |
-| 🔴 | [Dev Team Funding @gmorgachev](./8a252390-79b4-4a43-b520-c3fc412ef642/) | Даниил Зотов | 3 | 222.67 GNK | 2026-08-14 |
-| 🔴 | [Привлечение $3M+ нового капитала на Uniswap v2.0](./f341b83c-78f0-4ab2-b8fd-ddc7ac5d9c37/) | Andrey Orlov | 6 | 111.34 GNK | 2026-08-08 |
+| 🔴 | [Dev Team Funding @gmorgachev](./8a252390-79b4-4a43-b520-c3fc412ef642/) | Даниил Зотов | 3 | 253.35 GNK | 2026-08-14 |
+| 🔴 | [Привлечение $3M+ нового капитала на Uniswap v2.0](./f341b83c-78f0-4ab2-b8fd-ddc7ac5d9c37/) | Andrey Orlov | 6 | 126.67 GNK | 2026-08-08 |
 | 🔴 | [Gonka × Omniverse Web3 Camp](./51625116-36cd-47ee-a176-d552d39f0376/) | George Omni | 2 | 0.00 GNK | 2026-08-08 |
-| 🔴 | [Привлечение $3M+ нового капитала на Uniswap](./e0cc7d32-5d1a-49e1-94e8-0ca3d9ccbf6b/) | Andrey Orlov | 5 | 133.60 GNK | 2026-08-02 |
+| 🔴 | [Привлечение $3M+ нового капитала на Uniswap](./e0cc7d32-5d1a-49e1-94e8-0ca3d9ccbf6b/) | Andrey Orlov | 5 | 152.01 GNK | 2026-08-02 |
 | 🔴 | [Вестинг: почему его стоит отменить сейчас](./d23b0edf-57fb-4522-bd79-04ffdcc9d7a5/) | Mitch | 4 | 0.00 GNK | 2026-08-01 |
 | 🔴 | [Should Gonka make fallbacks to other services like OpenRouter?](./f9a4302d-7823-4cd4-9987-b0758569db93/) | Viktor | 1 | 0.00 GNK | 2026-07-24 |
 | 🔴 | [Улучшаем инфиренс Kimi](./d185d9eb-243f-4228-b4ac-e2c7a50a5325/) | Mitch | 6 | 0.00 GNK | 2026-07-21 |
-| 🔴 | [External Test Lab & Community DevNet](./205219a5-6ed2-4f25-8d22-fa7c65a45ba6/) | Sergii Paranko | 4 | 167.00 GNK | 2026-07-14 |
+| 🔴 | [External Test Lab & Community DevNet](./205219a5-6ed2-4f25-8d22-fa7c65a45ba6/) | Sergii Paranko | 4 | 190.01 GNK | 2026-07-14 |
 | 🔴 | [Private Inc × Gonka — Network Growth Initiative](./ed8148eb-535e-4677-9a6b-5316c81c996a/) | Igor Alexeev | 0 | 0.00 GNK | 2026-07-13 |
 | 🔴 | [Предложение по развитию игровой экосистемы блокчейна через турнирные пулы вознаг](./fd9989ca-7c5b-4a2f-baf4-2465e6915ba6/) | Victor | 0 | 0.00 GNK | 2026-07-12 |
 | 🔴 | [Интеграция ИИ Gonka в инфраструктуру QR Mint](./7d2ec26b-6524-4fc6-b676-a13d822536e8/) | Victor | 0 | 0.00 GNK | 2026-07-11 |
@@ -84,4 +84,4 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-08-27 09:34 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-08-27 20:22 UTC*

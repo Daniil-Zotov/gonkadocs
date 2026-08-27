@@ -19752,11 +19752,11 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 6Active
 11Votes
-668.01 GNKTotal Bid
+760.05 GNKTotal Bid
 
 | Status | Title | Author | Votes | Avg. Bid | Closes |
 | :----- | :----- | :----- | ----: | -------: | :----- |
-| 🟢 | [Мини фаундейшен](./ea988e94-2ee3-486c-bd7e-2422c04e0278/) | Mitch | 2 | 334.01 GNK | 2026-08-29 |
+| 🟢 | [Мини фаундейшен](./ea988e94-2ee3-486c-bd7e-2422c04e0278/) | Mitch | 2 | 380.02 GNK | 2026-08-29 |
 | 🟢 | [Повысить коэффициент DeepSeek V4 Flash с 0,214 до 0,4231 (обсуждаемо).](./f3ed4487-d373-46d8-bdcf-4b1d68e5cbf1/) | Slava MyGonka | 2 | 0.00 GNK | 2026-08-29 |
 | 🟢 | [Крупнейшее в мире событие для ИИ-разработчиков и создателей AI-продуктов — Sprin](./a2584dc4-1e7b-4cb7-a90d-fcf67306d7c8/) | Nataliia Klymovska | 2 | 0.00 GNK | 2026-08-31 |
 | 🟢 | [Game Hackaton AI](./165501de-189e-41c3-aad9-04bac872ef0d/) | Victor | 1 | 0.00 GNK | 2026-09-11 |
@@ -19769,19 +19769,19 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 37Expired
 37Votes
-48.0K GNKTotal Bid
+48.4K GNKTotal Bid
 
 | Status | Title | Author | Votes | Avg. Bid | Closed |
 | :----- | :----- | :----- | ----: | -------: | :----- |
 | 🔴 | [Add DeepSeek V4 Pro and Qwen3.8-27B Models](./5fbee7f8-5089-450d-bd76-fb54df23d809/) | Aung Myat Moe | 2 | 0.00 GNK | 2026-08-27 |
-| 🔴 | [Dev Team Funding @gmorgachev](./8a252390-79b4-4a43-b520-c3fc412ef642/) | Даниил Зотов | 3 | 222.67 GNK | 2026-08-14 |
-| 🔴 | [Привлечение $3M+ нового капитала на Uniswap v2.0](./f341b83c-78f0-4ab2-b8fd-ddc7ac5d9c37/) | Andrey Orlov | 6 | 111.34 GNK | 2026-08-08 |
+| 🔴 | [Dev Team Funding @gmorgachev](./8a252390-79b4-4a43-b520-c3fc412ef642/) | Даниил Зотов | 3 | 253.35 GNK | 2026-08-14 |
+| 🔴 | [Привлечение $3M+ нового капитала на Uniswap v2.0](./f341b83c-78f0-4ab2-b8fd-ddc7ac5d9c37/) | Andrey Orlov | 6 | 126.67 GNK | 2026-08-08 |
 | 🔴 | [Gonka × Omniverse Web3 Camp](./51625116-36cd-47ee-a176-d552d39f0376/) | George Omni | 2 | 0.00 GNK | 2026-08-08 |
-| 🔴 | [Привлечение $3M+ нового капитала на Uniswap](./e0cc7d32-5d1a-49e1-94e8-0ca3d9ccbf6b/) | Andrey Orlov | 5 | 133.60 GNK | 2026-08-02 |
+| 🔴 | [Привлечение $3M+ нового капитала на Uniswap](./e0cc7d32-5d1a-49e1-94e8-0ca3d9ccbf6b/) | Andrey Orlov | 5 | 152.01 GNK | 2026-08-02 |
 | 🔴 | [Вестинг: почему его стоит отменить сейчас](./d23b0edf-57fb-4522-bd79-04ffdcc9d7a5/) | Mitch | 4 | 0.00 GNK | 2026-08-01 |
 | 🔴 | [Should Gonka make fallbacks to other services like OpenRouter?](./f9a4302d-7823-4cd4-9987-b0758569db93/) | Viktor | 1 | 0.00 GNK | 2026-07-24 |
 | 🔴 | [Улучшаем инфиренс Kimi](./d185d9eb-243f-4228-b4ac-e2c7a50a5325/) | Mitch | 6 | 0.00 GNK | 2026-07-21 |
-| 🔴 | [External Test Lab & Community DevNet](./205219a5-6ed2-4f25-8d22-fa7c65a45ba6/) | Sergii Paranko | 4 | 167.00 GNK | 2026-07-14 |
+| 🔴 | [External Test Lab & Community DevNet](./205219a5-6ed2-4f25-8d22-fa7c65a45ba6/) | Sergii Paranko | 4 | 190.01 GNK | 2026-07-14 |
 | 🔴 | [Private Inc × Gonka — Network Growth Initiative](./ed8148eb-535e-4677-9a6b-5316c81c996a/) | Igor Alexeev | 0 | 0.00 GNK | 2026-07-13 |
 | 🔴 | [Предложение по развитию игровой экосистемы блокчейна через турнирные пулы вознаг](./fd9989ca-7c5b-4a2f-baf4-2465e6915ba6/) | Victor | 0 | 0.00 GNK | 2026-07-12 |
 | 🔴 | [Интеграция ИИ Gonka в инфраструктуру QR Mint](./7d2ec26b-6524-4fc6-b676-a13d822536e8/) | Victor | 0 | 0.00 GNK | 2026-07-11 |
@@ -19813,7 +19813,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-08-27 09:34 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-08-27 20:22 UTC*
 
 ---
 
@@ -20703,12 +20703,35 @@ The QRMint × Gonka Game Hackathon would give developers a reason to experiment 
 
 ---
 
-## Comments (2)
+## Comments (3)
 
 ### 💬 Victor
 *2026-08-16 19:18* · 👍 1 · 👎 0
 
 Chat - https://t.me/+pswOVDVlwOQ2YmQ0
+
+---
+
+### 💬 Victor
+*2026-08-27 11:13* · 👍 1 · 👎 0
+
+🎮 GameGenesis — NFT Collection Sale Is Now Live
+
+We have launched the sale of the GameGenesis NFT collection on the Gonka blockchain.
+Funds raised from the sales will support the development of GameHub, the creation of new gaming projects, and infrastructure development, including the growth of our inference broker direction.
+
+🎁 Bonus for Every NFT Holder
+
+Everyone who purchases a GameGenesis NFT will receive:
+🍵 20% off tea from our partner GIGATEA — premium Chinese tea sourced directly from suppliers.
+🔐 50% off our VPN
+An NFT is not just a collectible asset. It is a way to support the development of GameHub while also receiving real benefits from our partners.
+
+👉 Get your GameGenesis NFT:
+GameGenesis NFT Collection (https://qr-mint.net/en/collections/1fe2783602c844fdb525555597b0d5e3)
+Support developers — become part of GameHub. 🚀
+
+#GameGenesis #GameHub #Gonka #NFT #GameFi
 
 ---
 
@@ -20740,7 +20763,7 @@ Chat - https://t.me/+pswOVDVlwOQ2YmQ0
 **Closes:** 2026-07-14 11:44 UTC
 **Language:** EN
 **Votes:** 4
-**Avg. Bid:** 167.00 GNK
+**Avg. Bid:** 190.01 GNK
 
 4-month pilot proposal for community-owned testing infrastructure and QA capacity.
 
@@ -23597,7 +23620,7 @@ qr.mint.dev@gmail.com
 **Closes:** 2026-08-14 18:52 UTC
 **Language:** EN
 **Votes:** 3
-**Avg. Bid:** 222.67 GNK
+**Avg. Bid:** 253.35 GNK
 
 I plan to submit a proposal requesting 1.5m USDT from the community pool. The funding would support an independent engineering team working on core protocol development aligned with the roadmap
 
@@ -25835,7 +25858,7 @@ Founders привлекают подкасты и медиа.
 **Closes:** 2026-08-02 15:10 UTC
 **Language:** RU
 **Votes:** 5
-**Avg. Bid:** 133.60 GNK
+**Avg. Bid:** 152.01 GNK
 
 Предлагаем за 90 дней привлечь от $3 млн нового капитала в GONKA через масштабируемую Telegram-воронку с поэтапным финансированием и KPI
 
@@ -26426,7 +26449,7 @@ Work does not end after the first deposit. The user continues to receive support
 **Closes:** 2026-08-29 20:24 UTC
 **Language:** RU
 **Votes:** 2
-**Avg. Bid:** 334.01 GNK
+**Avg. Bid:** 380.02 GNK
 
 В комьюнити есть те, кто бесплатно делает полезное для гонки. Предлагаю мини-фаундейшн: смартконтракт на 1М gnk, выборный управляющий раздаёт 100к/мес по весам.
 
@@ -27590,7 +27613,7 @@ https://saccade.media/ru/unboring-explainer
 **Closes:** 2026-08-08 16:25 UTC
 **Language:** RU
 **Votes:** 6
-**Avg. Bid:** 111.34 GNK
+**Avg. Bid:** 126.67 GNK
 
 Предлагаем за 90 дней привлечь от $3 млн нового капитала в GONKA через масштабируемую Telegram-воронку с поэтапным финансированием и KPI
 
@@ -29561,7 +29584,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-96 proposals across 5 quarters. Last updated: 2026-08-27 20:00 UTC
+96 proposals across 5 quarters. Last updated: 2026-08-27 20:20 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
