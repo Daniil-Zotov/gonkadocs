@@ -2,7 +2,7 @@
 title: "#1205 — chain-halt: `markValidatorForDeletion` jailed branch races CometBFT validator-update lag → slashing fails with ErrNoValidatorFound"
 source: https://github.com/gonka-ai/gonka/issues/1205
 issue_number: 1205
-synced_at: 2026-08-27T09:59:38Z
+synced_at: 2026-08-27T20:35:30Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/vitaly-andr">@vitaly-andr</a> opened 2026-05-20 02:36 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-05-20 02:36 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-08-27 19:30 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -129,6 +129,26 @@ The non-jailed branch (`compute.go:573`) zeros `DelegatorShares` as well — the
 
 Found while implementing simulation tests for [#982](https://github.com/gonka-ai/gonka/issues/982).
 
+</div>
+
+---
+
+## 💬 Comments (1)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span class="issues-meta-item">commented 2026-08-27 19:30 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Hi @vitaly-andr, and thank you again for your work and for reporting this issue.</p>
+<p>Your contribution may be eligible for a reward through our HackerOne bounty program.
+Please submit the same report, together with your proposed fix, using the form available here:
+https://gonka.ai/docs/report-vulnerability/</p>
+<p>Once you have submitted it, please also reply here with enough information for us to identify you on HackerOne as the original author of the vulnerability report. For example, you can share your HackerOne username and the report number in the comments here.</p>
+<p>This will help us cross-verify your identity between GitHub and HackerOne, ensure the correct attribution, and keep the bounty process transparent.</p>
+<p>@mtvnastya, please feel free to add anything I may have missed regarding how we can best cross-verify the reporter’s identity across GitHub and HackerOne.</p>
+  </div>
 </div>
 
 ---
