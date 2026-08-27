@@ -13,15 +13,14 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 <div class="quarter-summary" markdown="1">
 <div class="qs-stats">
-<div class="qs-stat passed"><span class="qs-num">7</span><span class="qs-desc">Active</span></div>
-<div class="qs-stat"><span class="qs-num">13</span><span class="qs-desc">Votes</span></div>
+<div class="qs-stat passed"><span class="qs-num">6</span><span class="qs-desc">Active</span></div>
+<div class="qs-stat"><span class="qs-num">11</span><span class="qs-desc">Votes</span></div>
 <div class="qs-stat"><span class="qs-num">668.01 GNK</span><span class="qs-desc">Total Bid</span></div>
 </div>
 </div>
 
 | Status | Title | Author | Votes | Avg. Bid | Closes |
 | :----- | :----- | :----- | ----: | -------: | :----- |
-| 🟢 | [Add DeepSeek V4 Pro and Qwen3.8-27B Models](./5fbee7f8-5089-450d-bd76-fb54df23d809/) | Aung Myat Moe | 2 | 0.00 GNK | 2026-08-27 |
 | 🟢 | [Мини фаундейшен](./ea988e94-2ee3-486c-bd7e-2422c04e0278/) | Mitch | 2 | 334.01 GNK | 2026-08-29 |
 | 🟢 | [Повысить коэффициент DeepSeek V4 Flash с 0,214 до 0,4231 (обсуждаемо).](./f3ed4487-d373-46d8-bdcf-4b1d68e5cbf1/) | Slava MyGonka | 2 | 0.00 GNK | 2026-08-29 |
 | 🟢 | [Крупнейшее в мире событие для ИИ-разработчиков и создателей AI-продуктов — Sprin](./a2584dc4-1e7b-4cb7-a90d-fcf67306d7c8/) | Nataliia Klymovska | 2 | 0.00 GNK | 2026-08-31 |
@@ -36,14 +35,15 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 <div class="quarter-summary" markdown="1">
 <div class="qs-stats">
-<div class="qs-stat rejected"><span class="qs-num">36</span><span class="qs-desc">Expired</span></div>
-<div class="qs-stat"><span class="qs-num">35</span><span class="qs-desc">Votes</span></div>
-<div class="qs-stat"><span class="qs-num">41.9K GNK</span><span class="qs-desc">Total Bid</span></div>
+<div class="qs-stat rejected"><span class="qs-num">37</span><span class="qs-desc">Expired</span></div>
+<div class="qs-stat"><span class="qs-num">37</span><span class="qs-desc">Votes</span></div>
+<div class="qs-stat"><span class="qs-num">48.0K GNK</span><span class="qs-desc">Total Bid</span></div>
 </div>
 </div>
 
 | Status | Title | Author | Votes | Avg. Bid | Closed |
 | :----- | :----- | :----- | ----: | -------: | :----- |
+| 🔴 | [Add DeepSeek V4 Pro and Qwen3.8-27B Models](./5fbee7f8-5089-450d-bd76-fb54df23d809/) | Aung Myat Moe | 2 | 0.00 GNK | 2026-08-27 |
 | 🔴 | [Dev Team Funding @gmorgachev](./8a252390-79b4-4a43-b520-c3fc412ef642/) | Даниил Зотов | 3 | 222.67 GNK | 2026-08-14 |
 | 🔴 | [Привлечение $3M+ нового капитала на Uniswap v2.0](./f341b83c-78f0-4ab2-b8fd-ddc7ac5d9c37/) | Andrey Orlov | 6 | 111.34 GNK | 2026-08-08 |
 | 🔴 | [Gonka × Omniverse Web3 Camp](./51625116-36cd-47ee-a176-d552d39f0376/) | George Omni | 2 | 0.00 GNK | 2026-08-08 |
@@ -67,8 +67,8 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 | 🔴 | [3. Team Gonka Wallet Grant Request](./2b6b2142-685a-4eda-b2a1-f8853228f3e6/) | Slava MyGonka | 0 | 0.00 GNK | 2026-07-11 |
 | 🔴 | [Team Gonka.AI \| Inside Grant Request](./4792a93f-127a-4a0e-9a12-acd229c1e865/) | Slava MyGonka | 0 | 0.00 GNK | 2026-07-11 |
 | 🔴 | [1. Team Veylox Grant Request](./66e6583a-27b4-4bae-91fb-8f0489736b0d/) | Slava MyGonka | 0 | 0.00 GNK | 2026-07-11 |
-| 🔴 | [Go-To-Market Team for 3 Month to Set Up the Basis](./cb7f643f-3d56-47ec-9193-f9f2f80a99fb/) | Dem \| Démíngān | 2 | 9.8K GNK | 2026-07-10 |
-| 🔴 | [Gonka Media Library by Saccade](./f215996d-e562-42b5-b2b1-400226e612fa/) | Dem \| Démíngān | 2 | 9.8K GNK | 2026-07-10 |
+| 🔴 | [Go-To-Market Team for 3 Month to Set Up the Basis](./cb7f643f-3d56-47ec-9193-f9f2f80a99fb/) | Dem \| Démíngān | 2 | 11.3K GNK | 2026-07-10 |
+| 🔴 | [Gonka Media Library by Saccade](./f215996d-e562-42b5-b2b1-400226e612fa/) | Dem \| Démíngān | 2 | 11.3K GNK | 2026-07-10 |
 | 🔴 | [Стресс тест инфиренса](./efc0edeb-bc49-4c6b-a6e7-5b20ccfbe571/) | Mitch | 0 | 0.00 GNK | 2026-06-05 |
 | 🔴 | [Bring Gonka to EBC12 as a Gold Sponsor](./29baf37b-811f-4c36-b517-66a578383f1c/) | Heydar Naghiyev | 0 | 0.00 GNK | 2026-06-04 |
 | 🔴 | [Большое видео на канале Falcon Finance (Александр Соколовский)](./550f71de-897f-4ce5-8af8-97854775f8b2/) | Дмитрий В | 0 | 0.00 GNK | 2026-05-28 |
@@ -84,4 +84,4 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-08-26 23:25 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-08-27 09:34 UTC*
