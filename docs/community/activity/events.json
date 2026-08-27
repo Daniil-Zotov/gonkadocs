@@ -17,7 +17,7 @@
       "event_type": "proposal_report",
       "url": "/proposals/proposals/2026-q3/97/"
     },
-    "ai_description": null
+    "ai_description": "Added: Rejected: #97 – Increase DeepSeek V4 Flash weight_scale_factor to 0.246. Increase the weight_scale_factor for deepseek-ai/DeepSeek-V4-Flash-0731 from 0.214 to 0.246. All other model and chain parameters remain unchanged. The original factor came from inflated nonce/min nu…"
   },
   {
     "id": "evt_20260827024532_aa07e92f",
