@@ -28497,8 +28497,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-08-29
   
   Increase the weight_scale_factor for deepseek-ai/DeepSeek-V4-Flash-0731 from 0.214 to 0.246. All other model and chain parameters remain unchanged.  Resubmission of proposal 97, which expired without …
-  Yes 100.0% (8,477) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✗ Turnout 1.8% (8,477 / 471,689) · Quorum 25% (117,922)
+  Yes 100.0% (41,018) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✗ Turnout 8.0% (41,018 / 515,344) · Quorum 25% (128,836)
 
   
     #97 – Increase DeepSeek V4 Flash weight_scale_factor to 0.246
@@ -29597,7 +29597,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-97 proposals across 5 quarters. Last updated: 2026-08-28 04:40 UTC
+97 proposals across 5 quarters. Last updated: 2026-08-28 05:19 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -66741,8 +66741,8 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-08-29
   
   Increase the weight_scale_factor for deepseek-ai/DeepSeek-V4-Flash-0731 from 0.214 to 0.246. All other model and chain parameters remain unchanged.  Resubmission of proposal 97, which expired without …
-  Yes 100.0% (8,477) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✗ Turnout 1.8% (8,477 / 471,689) · Quorum 25% (117,922)
+  Yes 100.0% (41,018) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✗ Turnout 8.0% (41,018 / 515,344) · Quorum 25% (128,836)
 
   
     #97 – Increase DeepSeek V4 Flash weight_scale_factor to 0.246
@@ -74028,12 +74028,12 @@ Recomputed on historical B300 nonce data and fresh PoC experiments, the factor i
     
   
   
-    Yes 100.0% (8,477)
+    Yes 100.0% (41,018)
     No 0.0% (0)
     Veto 0.0% (0)
     Abstain 0.0% (0)
-    Total 8,477 votes
-    ✗ Turnout 1.8% (8,477 / 471,689) · Quorum 25% (117,922)
+    Total 41,018 votes
+    ✗ Turnout 8.0% (41,018 / 515,344) · Quorum 25% (128,836)
   
 
 Voters
@@ -74043,6 +74043,7 @@ VoterVote
 gonka1xwkesa…lcktdsYes 100.0%
 gonka18xeqns…whyn0dYes 100.0%
 gonka1830lqu…pasz0yYes 100.0%
+gonka1346p2h…nd55fhYes 100.0%
 gonka1erprg2…h06gkqYes 100.0%
 gonka1u60wtn…u7w0qqYes 100.0%
 

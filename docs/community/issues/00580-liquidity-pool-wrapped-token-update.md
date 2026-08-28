@@ -2,7 +2,7 @@
 title: "#580 — Liquidity Pool & Wrapped Token Update"
 source: https://github.com/gonka-ai/gonka/issues/580
 issue_number: 580
-synced_at: 2026-08-27T20:39:34Z
+synced_at: 2026-08-28T05:31:25Z
 template: issues-main.html
 ---
 
