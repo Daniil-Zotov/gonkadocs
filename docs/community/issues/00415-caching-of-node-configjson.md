@@ -2,7 +2,7 @@
 title: "#415 — Caching of node-config.json"
 source: https://github.com/gonka-ai/gonka/issues/415
 issue_number: 415
-synced_at: 2026-08-28T05:31:33Z
+synced_at: 2026-08-28T18:52:36Z
 template: issues-main.html
 ---
 

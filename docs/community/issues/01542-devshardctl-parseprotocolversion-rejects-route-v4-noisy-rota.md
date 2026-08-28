@@ -2,7 +2,7 @@
 title: "#1542 — devshardctl: ParseProtocolVersion rejects route v4 (noisy rotation fallback log)"
 source: https://github.com/gonka-ai/gonka/issues/1542
 issue_number: 1542
-synced_at: 2026-08-28T05:28:45Z
+synced_at: 2026-08-28T18:49:31Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 2026-08-04 15:58 UTC</span>
-    <span class="issues-meta-item">2 comments</span>
-    <span class="issues-meta-item">Updated 2026-08-20 01:50 UTC</span>
+    <span class="issues-meta-item">4 comments</span>
+    <span class="issues-meta-item">Updated 2026-08-28 17:19 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span> <span class="issues-label" style="background-color: #7057ff; color: #ffffff; border-color: #7057ff;">good first issue</span> <span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
 </div>
@@ -64,7 +64,7 @@ Also worth aligning compose healthcheck (`curl` vs image `wget`) separately — 
 
 ---
 
-## 💬 Comments (2)
+## 💬 Comments (4)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -90,6 +90,25 @@ types.ProtocolVersion   -&gt; no consumers
 <p>That points at option 2. Nothing downstream needs the value to be a known enum member, so an unknown route major isn't really an error condition — it's a name the enum hasn't been told about.</p>
 <p>Option 1 also has a shelf life: v5 is already in flight (#1584, #1615). Adding <code>ProtocolV4</code> brings the same log back the day the route prefix moves to <code>/devshard/v5</code>.</p>
 <p>@w3lld1 asked the same question on Aug 5 and hasn't had an answer — this is the evidence for it either way. If option 2 is the call, I can put up the patch.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/a-kuprin">@a-kuprin</a></span>
+    <span class="issues-meta-item">commented 2026-08-28 14:08 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>I think we can close it with:
+<a href="https://github.com/gonka-ai/gonka/pull/1662">[ak/fix-1542-parse-protocol-autoparse](https://github.com/gonka-ai/gonka/tree/ak/fix-1542-parse-protocol-autoparse)</a></p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/wrvnnull">@wrvnnull</a></span>
+    <span class="issues-meta-item">commented 2026-08-28 17:19 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>I'd like to take this.\n\nPlan:\n- add ProtocolV4 to ParseProtocolVersion\n- extend unit test to cover v4\n- keep current v1/v2/v3 behavior unchanged\n\nETA: immediate PR.</p>
   </div>
 </div>
 

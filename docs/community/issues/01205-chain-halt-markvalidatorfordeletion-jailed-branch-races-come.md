@@ -2,7 +2,7 @@
 title: "#1205 — chain-halt: `markValidatorForDeletion` jailed branch races CometBFT validator-update lag → slashing fails with ErrNoValidatorFound"
 source: https://github.com/gonka-ai/gonka/issues/1205
 issue_number: 1205
-synced_at: 2026-08-28T05:28:32Z
+synced_at: 2026-08-28T18:49:30Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/vitaly-andr">@vitaly-andr</a> opened 2026-05-20 02:36 UTC</span>
-    <span class="issues-meta-item">1 comment</span>
-    <span class="issues-meta-item">Updated 2026-08-27 19:30 UTC</span>
+    <span class="issues-meta-item">2 comments</span>
+    <span class="issues-meta-item">Updated 2026-08-28 18:15 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -133,7 +133,7 @@ Found while implementing simulation tests for [#982](https://github.com/gonka-ai
 
 ---
 
-## 💬 Comments (1)
+## 💬 Comments (2)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -148,6 +148,20 @@ https://gonka.ai/docs/report-vulnerability/</p>
 <p>Once you have submitted it, please also reply here with enough information for us to identify you on HackerOne as the original author of the vulnerability report. For example, you can share your HackerOne username and the report number in the comments here.</p>
 <p>This will help us cross-verify your identity between GitHub and HackerOne, ensure the correct attribution, and keep the bounty process transparent.</p>
 <p>@mtvnastya, please feel free to add anything I may have missed regarding how we can best cross-verify the reporter’s identity across GitHub and HackerOne.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/vitaly-andr">@vitaly-andr</a></span>
+    <span class="issues-meta-item">commented 2026-08-28 18:15 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Submitted to the HackerOne program as requested.</p>
+<ul>
+<li><strong>Report ID: #3976415</strong></li>
+<li>HackerOne handle: <code>plitochnik_ru</code> — my GitHub handle <code>vitaly-andr</code> is listed on that profile</li>
+</ul>
+<p>The submission duplicates this issue together with the proposed fix in gonka-ai/cosmos-sdk#16. The vulnerable branch is still present on <code>release/v0.53.x</code> as of today.</p>
   </div>
 </div>
 

@@ -1,5 +1,53 @@
 [
   {
+    "id": "evt_20260828185243_10400ef9",
+    "timestamp": "2026-08-28T18:52:43.900618+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "Height-sync: one roundtrip per host, not per slot",
+      "url": "/community/issues/01665-height-sync-one-roundtrip-per-host-not-per-slot/",
+      "file": "01665-height-sync-one-roundtrip-per-host-not-per-slot.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Height-sync: one roundtrip per host, not per slot\n    <span class=\"issues-number\">#1665</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 2026-08-28 12:01 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-labe"
+    },
+    "ai_description": "A new issue has been opened by @a-kuprin proposing an optimization for height synchronization to use one roundtrip per host instead of per slot. This change could significantly reduce network overhead and improve sync performance across the network. The community is now tracking this as issue #1665."
+  },
+  {
+    "id": "evt_20260828185243_8b961caa",
+    "timestamp": "2026-08-28T18:52:43.900800+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1205 — chain-halt: `markValidatorForDeletion` jailed branch races CometBFT validator-update lag → slashing fails with ErrNoValidatorFound",
+      "url": "/community/issues/01205-chain-halt-markvalidatorfordeletion-jailed-branch-races-come/",
+      "file": "01205-chain-halt-markvalidatorfordeletion-jailed-branch-races-come.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    chain-halt: `markValidatorForDeletion` jailed branch races CometBFT validator-update lag → slashing fails with ErrNoValidatorFound\n    <span class=\"issues-number\">#1205</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-05-20 02:36 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n ",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    chain-halt: `markValidatorForDeletion` jailed branch races CometBFT validator-update lag → slashing fails with ErrNoValidatorFound\n    <span class=\"issues-number\">#1205</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-05-20 02:36 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n"
+    },
+    "ai_description": "Issue #1205 has received a new comment, bringing the discussion count to two. The team is actively investigating this chain-halt bug where a race condition between validator jailing and CometBFT updates causes slashing to fail with ErrNoValidatorFound."
+  },
+  {
+    "id": "evt_20260828185243_5ec404d3",
+    "timestamp": "2026-08-28T18:52:43.900844+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1542 — devshardctl: ParseProtocolVersion rejects route v4 (noisy rotation fallback log)",
+      "url": "/community/issues/01542-devshardctl-parseprotocolversion-rejects-route-v4-noisy-rota/",
+      "file": "01542-devshardctl-parseprotocolversion-rejects-route-v4-noisy-rota.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshardctl: ParseProtocolVersion rejects route v4 (noisy rotation fallback log)\n    <span class=\"issues-number\">#1542</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-08-04 15:58 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"mar",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshardctl: ParseProtocolVersion rejects route v4 (noisy rotation fallback log)\n    <span class=\"issues-number\">#1542</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-08-04 15:58 UTC</span>\n    <span class=\"issues-meta-item\">4 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"mar"
+    },
+    "ai_description": "Issue #1542 has seen new activity, with the discussion growing from 2 to 4 comments as the community digs into the noisy rotation fallback log caused by ParseProtocolVersion rejecting route v4. Keep the feedback coming to help narrow down the right fix for devshardctl."
+  },
+  {
     "id": "evt_20260828183521_d69c7025",
     "timestamp": "2026-08-28T18:35:21.109521+00:00",
     "section": "discussions",
