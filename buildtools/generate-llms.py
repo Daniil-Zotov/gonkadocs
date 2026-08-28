@@ -250,7 +250,7 @@ def _calendar_upcoming_lines(limit: int = 5) -> list[str]:
     for e in upcoming[:limit]:
         title = str(e.get("title", "Untitled")).replace("\n", " ").strip()
         when = f"{e.get('date', '')} {e.get('time', '').strip()}".strip()
-        url = e.get("url", "")
+        url = e.get("url", "") or ""
         if url.startswith("http"):
             lines.append(f"- {when} — {title}: {url}")
         else:
