@@ -1,5 +1,37 @@
 [
   {
+    "id": "evt_20260828183521_d69c7025",
+    "timestamp": "2026-08-28T18:35:21.109521+00:00",
+    "section": "discussions",
+    "action": "new",
+    "item": {
+      "title": "Proposal: raise the DeepSeek coefficient to 0.400",
+      "url": "/community/discussion/protocol-improvements/1668-proposal-raise-the-deepseek-coefficient-to-0400/",
+      "file": "protocol-improvements/1668-proposal-raise-the-deepseek-coefficient-to-0400.md"
+    },
+    "details": {
+      "status": null,
+      "content": "> 🔄 **Auto-sync:** from [Discussion #1668](https://github.com/gonka-ai/gonka/discussions/1668) every hour. \n\n# Proposal: raise the DeepSeek coefficient to 0.400\n\n**Автор:** [@knyazev741](https://github.com/knyazev741) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-08-28 14:03 UTC · \n\n---\n\n## 📝 Описание\n\nRussian version: https://telegra.ph/DeepSeek-WSF-0400-pust-subsidiya-pokupaet-poleznuyu-rabotu-08-28\n\nGonka hosts currently get most of their income not from inference payments, but from RewardCoin subsidy. The pool is fixed and split by scaled PoC. Utilization bonuses in the code do not run. Dynamic pricing is off. All models are priced the same. Hardware therefore follows the `weight_scale_factor` coefficient, not the user queue.\n\nThe queue and the coefficient point in "
+    },
+    "ai_description": "A new protocol improvement discussion has been added by community member knyazev741 proposing to raise the DeepSeek weight scale factor coefficient to 0.400. The proposal argues that since host income currently comes mainly from the fixed RewardCoin subsidy pool rather than inference payments, adjusting this coefficient would better align hardware allocation with actual demand and useful work. Check it out and share your thoughts on how this change could affect the network."
+  },
+  {
+    "id": "evt_20260828183521_90a57ddc",
+    "timestamp": "2026-08-28T18:35:21.109553+00:00",
+    "section": "discussions",
+    "action": "new",
+    "item": {
+      "title": "IBC withdrawal blocked: Neutron client 07-tendermint-3 is expired",
+      "url": "/community/discussion/q-a/1667-ibc-withdrawal-blocked-neutron-client-07-tendermint-3-is-exp/",
+      "file": "q-a/1667-ibc-withdrawal-blocked-neutron-client-07-tendermint-3-is-exp.md"
+    },
+    "details": {
+      "status": null,
+      "content": "> 🔄 **Auto-sync:** from [Discussion #1667](https://github.com/gonka-ai/gonka/discussions/1667) every hour. \n\n# IBC withdrawal blocked: Neutron client 07-tendermint-3 is expired\n\n**Автор:** [@xX-mabster-Xx](https://github.com/xX-mabster-Xx) · **Категория:** :interrobang: Q&A · **Создано:** 2026-08-28 13:45 UTC · \n\n---\n\n## 📝 Описание\n\nHello,\n\nI am unable to withdraw my funds from Gonka to Neutron.\n\nThe transfer fails with:\n\nfailed to execute message; message index: 0:\ncannot send packet using client (07-tendermint-3)\nwith status Expired: client is not active\n\nWallet:\ngonka1s8qkncfz06ke5ns6x3cw57mqj83hywj3fltv0n\n\nAsset denomination:\nibc/4F64FF736B88BA8EA521D6D515D9652B7C23C903BF91ECEFB3991888F3C023F4\n\nRoute:\n\n- Gonka: transfer/channel-3\n- Neutron: transfer/channel-7423\n- Chain ID: neutron-1\n-"
+    },
+    "ai_description": "A new discussion has been opened by community member xX-mabster-Xx reporting that IBC withdrawals from Gonka to Neutron are currently failing because the Neutron client 07-tendermint-3 has expired. This means users cannot send funds through the transfer/channel-3 route right now. The team and community are now aware and looking into the issue to restore the connection."
+  },
+  {
     "id": "evt_20260828070200_be47223d",
     "timestamp": "2026-08-28T07:02:00.610112+00:00",
     "section": "calendar",

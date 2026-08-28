@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-08-28T05:19:03.854175+00:00",
+  "snapshot_time": "2026-08-28T18:35:35.149545+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "Welcome to Gonka Discussions 👋",
@@ -374,6 +374,12 @@
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1636](https://github.com/gonka-ai/gonka/discussions/1636) every hour. \n\n# Proposal: Cache-Served Token Pricing\n\n**Автор:** [@theaungmyatmoe](https://github.com/theaungmyatmoe) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-08-24 16:27 UTC · \n\n---\n\n## 📝 Описание\n\n# Proposal: Cache-Served Token Pricing\n\n**Author:** Aung Myat Moe — operator of the Fusion gateway (`api.fusioncode.app`), a broker serving `deepseek-ai/DeepSeek-V4-Flash-0731`, `MiniMaxAI/MiniMax-M2.7`, and `moonshotai/Kimi-K2.6` through the Gonka network.\n\n## Summary\n\nThe network already performs real per-host KV prefix caching, but GNK is billed flat per token — cached tokens cost the same as fresh ones. This proposal makes **cache-served tokens bill at a reduced rate** (pr",
       "checksum": "ccf8949c9e238d52507d3e320973935bae0f4a7fb961e981037df62efbca7a51"
     },
+    "protocol-improvements/1668-proposal-raise-the-deepseek-coefficient-to-0400.md": {
+      "title": "Proposal: raise the DeepSeek coefficient to 0.400",
+      "status": null,
+      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1668](https://github.com/gonka-ai/gonka/discussions/1668) every hour. \n\n# Proposal: raise the DeepSeek coefficient to 0.400\n\n**Автор:** [@knyazev741](https://github.com/knyazev741) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-08-28 14:03 UTC · \n\n---\n\n## 📝 Описание\n\nRussian version: https://telegra.ph/DeepSeek-WSF-0400-pust-subsidiya-pokupaet-poleznuyu-rabotu-08-28\n\nGonka hosts currently get most of their income not from inference payments, but from RewardCoin subsidy. The pool is fixed and split by scaled PoC. Utilization bonuses in the code do not run. Dynamic pricing is off. All models are priced the same. Hardware therefore follows the `weight_scale_factor` coefficient, not the user queue.\n\nThe queue and the coefficient point in ",
+      "checksum": "f2c376b10e72dc71a679802a3b13822093fc6e13bd5c4facd025c2d619378632"
+    },
     "q-a/0796-are-there-plans-to-add-prompt-level-confidentiality-for-host.md": {
       "title": "Are there plans to add prompt-level confidentiality for hosts?",
       "status": null,
@@ -391,6 +397,12 @@
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1354](https://github.com/gonka-ai/gonka/discussions/1354) every hour. \n\n# I would like to ask if the developers intentionally pushed inference data to the main chain, causing some nodes to lose their epoch rewards.\n\n**Автор:** [@Llgmhsl](https://github.com/Llgmhsl) · **Категория:** :interrobang: Q&A · **Создано:** 2026-06-21 15:56 UTC · \n\n---\n\n## 📝 Описание\n\n<img width=\"1904\" height=\"976\" alt=\"image\" src=\"https://github.com/user-attachments/assets/7aafce34-b1d1-4c93-934a-b39c5d4ef6c3\" />\n<img width=\"2003\" height=\"1160\" alt=\"image\" src=\"https://github.com/user-attachments/assets/2973da3a-ac0a-42c3-a760-126e93c5f51d\" />\nMy node's reasoning performance on the main chain has a very low number of inference attempts but a 30% miss rate, while on the developme",
       "checksum": "008b6e2410432b540c2230c06cceec65a4b82e39712c9fe7a77d879a444cc6eb"
+    },
+    "q-a/1667-ibc-withdrawal-blocked-neutron-client-07-tendermint-3-is-exp.md": {
+      "title": "IBC withdrawal blocked: Neutron client 07-tendermint-3 is expired",
+      "status": null,
+      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1667](https://github.com/gonka-ai/gonka/discussions/1667) every hour. \n\n# IBC withdrawal blocked: Neutron client 07-tendermint-3 is expired\n\n**Автор:** [@xX-mabster-Xx](https://github.com/xX-mabster-Xx) · **Категория:** :interrobang: Q&A · **Создано:** 2026-08-28 13:45 UTC · \n\n---\n\n## 📝 Описание\n\nHello,\n\nI am unable to withdraw my funds from Gonka to Neutron.\n\nThe transfer fails with:\n\nfailed to execute message; message index: 0:\ncannot send packet using client (07-tendermint-3)\nwith status Expired: client is not active\n\nWallet:\ngonka1s8qkncfz06ke5ns6x3cw57mqj83hywj3fltv0n\n\nAsset denomination:\nibc/4F64FF736B88BA8EA521D6D515D9652B7C23C903BF91ECEFB3991888F3C023F4\n\nRoute:\n\n- Gonka: transfer/channel-3\n- Neutron: transfer/channel-7423\n- Chain ID: neutron-1\n-",
+      "checksum": "b298205cc655d14ec4011673fa21162c8eb844d31aab627892a82c40c514cef5"
     },
     "show-and-tell/0811-openclaw-gonka-ai.md": {
       "title": "🦞 OpenClaw + Gonka AI",

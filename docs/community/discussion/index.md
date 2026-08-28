@@ -4,7 +4,7 @@ title: "GitHub Discussions"
 
 # GitHub Discussions — `gonka-ai/gonka`
 
-Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **79**. Обновлено: `2026-08-28 05:19 UTC`.
+Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **81**. Обновлено: `2026-08-28 18:35 UTC`.
 
 ## 📂 Категории
 
@@ -14,14 +14,16 @@ title: "GitHub Discussions"
 | [:jigsaw: Ecosystem](ecosystem/index.md) | 8 |
 | [:speech_balloon: General](general/index.md) | 6 |
 | [:bookmark_tabs: Governance Proposal Reports](governance-proposal-reports/index.md) | 4 |
-| [:gear: Protocol Improvements](protocol-improvements/index.md) | 43 |
-| [:interrobang: Q&A](q-a/index.md) | 3 |
+| [:gear: Protocol Improvements](protocol-improvements/index.md) | 44 |
+| [:interrobang: Q&A](q-a/index.md) | 4 |
 | [:raised_hands: Show and Tell](show-and-tell/index.md) | 14 |
 
 ## 🕒 Последние обновлённые
 
 | # | Заголовок | Категория | Автор | Обновлено |
 |---:|---|---|---|---|
+| [1668](protocol-improvements/1668-proposal-raise-the-deepseek-coefficient-to-0400.md) | [Proposal: raise the DeepSeek coefficient to 0.400](protocol-improvements/1668-proposal-raise-the-deepseek-coefficient-to-0400.md) | :gear: Protocol Improvements | [@knyazev741](https://github.com/knyazev741) | 2026-08-28 |
+| [1667](q-a/1667-ibc-withdrawal-blocked-neutron-client-07-tendermint-3-is-exp.md) | [IBC withdrawal blocked: Neutron client 07-tendermint-3 is expired](q-a/1667-ibc-withdrawal-blocked-neutron-client-07-tendermint-3-is-exp.md) | :interrobang: Q&A | [@xX-mabster-Xx](https://github.com/xX-mabster-Xx) | 2026-08-28 |
 | [1619](general/1619-phase-out-kimi-k26.md) | [Phase out Kimi K2.6](general/1619-phase-out-kimi-k26.md) | :speech_balloon: General | [@paranjko](https://github.com/paranjko) | 2026-08-27 |
 | [1648](ecosystem/1648-running-our-own-devshard-gateway-plan-economics-and-what-hos.md) | [Running our own devshard gateway — plan, economics, and what hosts want to see for allowlisting](ecosystem/1648-running-our-own-devshard-gateway-plan-economics-and-what-hos.md) | :jigsaw: Ecosystem | [@theaungmyatmoe](https://github.com/theaungmyatmoe) | 2026-08-25 |
 | [1636](protocol-improvements/1636-proposal-cache-served-token-pricing.md) | [Proposal: Cache-Served Token Pricing](protocol-improvements/1636-proposal-cache-served-token-pricing.md) | :gear: Protocol Improvements | [@theaungmyatmoe](https://github.com/theaungmyatmoe) | 2026-08-24 |
@@ -40,5 +42,3 @@ title: "GitHub Discussions"
 | [1464](protocol-improvements/1464-dev-team-funding.md) | [Dev Team Funding](protocol-improvements/1464-dev-team-funding.md) | :gear: Protocol Improvements | [@gmorgachev](https://github.com/gmorgachev) | 2026-08-03 |
 | [1502](protocol-improvements/1502-обратная-связь-от-разработчика-почему-текущий-модельный-ряд-.md) | [Обратная связь от разработчика: почему текущий модельный ряд Gonka пока не проходит production bar](protocol-improvements/1502-обратная-связь-от-разработчика-почему-текущий-модельный-ряд-.md) | :gear: Protocol Improvements | [@bitcompool](https://github.com/bitcompool) | 2026-07-26 |
 | [1445](protocol-improvements/1445-the-missing-first-mile-onboarding-gonka-from-a-newcomers-per.md) | [The missing first mile: onboarding Gonka from a newcomer’s perspective](protocol-improvements/1445-the-missing-first-mile-onboarding-gonka-from-a-newcomers-per.md) | :gear: Protocol Improvements | [@julb1992](https://github.com/julb1992) | 2026-07-25 |
-| [1500](protocol-improvements/1500-more-compute-from-the-same-gonka-hardware-two-phase-cooling-.md) | [More compute from the same Gonka hardware: two-phase cooling pilot](protocol-improvements/1500-more-compute-from-the-same-gonka-hardware-two-phase-cooling-.md) | :gear: Protocol Improvements | [@bitcompool](https://github.com/bitcompool) | 2026-07-25 |
-| [1367](protocol-improvements/1367-high-availability-architecture.md) | [High-Availability Architecture](protocol-improvements/1367-high-availability-architecture.md) | :gear: Protocol Improvements | [@a-kuprin](https://github.com/a-kuprin) | 2026-07-22 |
