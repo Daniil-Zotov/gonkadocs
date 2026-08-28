@@ -20,7 +20,7 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 ## Community Calendar
 
 - [All Calendar Events](/community/calendar/events/): Every event (AMAs, committee calls, proposal milestones, network updates) — machine-readable page, also indexed by search
-- 2026-08-27 03:47 UTC — Rejected: #97 – Increase DeepSeek V4 Flash weight_scale_factor to 0.246: https://gonkadocs.com/proposals/proposals/2026-q3/97/
+- 2026-08-29 21:30 UTC — Voting ends: #98 – Increase DeepSeek V4 Flash weight_scale_factor to 0.246: https://gonkadocs.com/proposals/proposals/2026-q3/98/
 - 2026-09-02 13:00 UTC — INPUT Global — Weekly Call (#77): https://gonkadocs.com/proposals/proposals/2026-q2/77/
 - 2026-09-02 15:00 UTC — TheSoul — Weekly Report Call (#60–#65): https://gonkadocs.com/proposals/proposals/2026-q2/60/
 - 2026-09-09 13:00 UTC — INPUT Global — Weekly Call (#77): https://gonkadocs.com/proposals/proposals/2026-q2/77/
@@ -166,6 +166,7 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [#82 – External Test Lab x Community DevNet](/proposals/proposals/2026-q3/82/): Auto-synced content
 - [Monthly Report — Month 1 (2026-07-10 — 2026-08-09)](/proposals/proposals/2026-q3/82/report1/): Auto-synced content
 - [#86 – Increase Kimi-K2.6 and GLM-5.2 weight_scale_factor by 5%](/proposals/proposals/2026-q3/86/): Auto-synced content
+- [#98 – Increase DeepSeek V4 Flash weight_scale_factor to 0.246](/proposals/proposals/2026-q3/98/): Auto-synced content
 - [#83 – Approve devshard v3](/proposals/proposals/2026-q3/83/): Auto-synced content
 - [#95 – Migrate community-sale and wrapped-token contracts](/proposals/proposals/2026-q3/95/): Auto-synced content
 - [Upgrade Proposal: v0.2.14](/proposals/proposals/2026-q3/89/full-proposal/): Auto-synced content

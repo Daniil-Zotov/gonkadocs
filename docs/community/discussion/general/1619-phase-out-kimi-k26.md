@@ -3,14 +3,14 @@ title: "#1619 — Phase out Kimi K2.6"
 source: https://github.com/gonka-ai/gonka/discussions/1619
 discussion_number: 1619
 category: general
-synced_at: 2026-08-27T20:19:44Z
+synced_at: 2026-08-28T05:18:39Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1619](https://github.com/gonka-ai/gonka/discussions/1619) every hour. 
 
 # Phase out Kimi K2.6
 
-**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :speech_balloon: General · **Создано:** 2026-08-21 01:09 UTC · **Обновлено:** 2026-08-26 22:40 UTC
+**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :speech_balloon: General · **Создано:** 2026-08-21 01:09 UTC · **Обновлено:** 2026-08-27 21:57 UTC
 
 ---
 
@@ -130,3 +130,8 @@ Overall, think Kimi has no real benefits
 **↳ Ответ от [@theaungmyatmoe](https://github.com/theaungmyatmoe)** · *2026-08-26 06:39 UTC*
 
 > at that server card it can get much more request and can handle it, i even tested with ds flash 0831 with rtx 4090 and get 100 tps so that at data center level cards it will be much more 
+
+**↳ Ответ от [@sysmanalex](https://github.com/sysmanalex)** · *2026-08-27 21:57 UTC*
+
+> check - qwen3.8-flash-next 
+> @gmorgachev 
