@@ -1,6 +1,6 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-08-27T22:30:33.006829+00:00",
+  "snapshot_time": "2026-08-28T07:02:00.630313+00:00",
   "files": {
     "d20f0b7f63fffff2927833d9557050f626cd934d5ab3479488af3773000f3011": {
       "title": "▶️ Ancapex Live: Gonka Overview",
@@ -2089,6 +2089,15 @@
       "url": "/proposals/proposals/2026-q3/97/",
       "content_preview": "Increase the weight_scale_factor for deepseek-ai/DeepSeek-V4-Flash-0731 from 0.214 to 0.246. All other model and chain parameters remain unchanged.\n\nThe original factor came from inflated nonce/min nu…",
       "checksum": "d838434dfc9a6a6180fa7521dec459943679b6bae0defad09b47765a2d0d82ba"
+    },
+    "70f0ad29f1ca272f8d0d642bc7d6afef3fe8c5daae1a3b14f8b9a11648de00dc": {
+      "title": "Voting ends: #98 – Increase DeepSeek V4 Flash weight_scale_factor to 0.246",
+      "date": "2026-08-29",
+      "time": "21:30 UTC",
+      "event_type": "proposal_vote_end",
+      "url": "/proposals/proposals/2026-q3/98/",
+      "content_preview": "Increase the weight_scale_factor for deepseek-ai/DeepSeek-V4-Flash-0731 from 0.214 to 0.246. All other model and chain parameters remain unchanged.\n\nResubmission of proposal 97, which expired without …",
+      "checksum": "f9bade49547238ea7ac0d11b00743cf5a54bf8531fb1e7bec5ed1a3d57047f90"
     }
   }
 }
