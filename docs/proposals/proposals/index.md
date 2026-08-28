@@ -34,15 +34,15 @@ hide:
 ## Overview
 
 <div class="qs-stats">
-<div class="qs-stat total"><span class="qs-num">96</span><span class="qs-desc">Total Proposals</span></div>
-<div class="qs-stat passed"><span class="qs-num">64</span><span class="qs-desc">Passed (67%)</span></div>
+<div class="qs-stat total"><span class="qs-num">97</span><span class="qs-desc">Total Proposals</span></div>
+<div class="qs-stat passed"><span class="qs-num">64</span><span class="qs-desc">Passed (66%)</span></div>
 <div class="qs-stat rejected"><span class="qs-num">31</span><span class="qs-desc">Rejected (32%)</span></div>
 <div class="qs-stat failed"><span class="qs-num">1</span><span class="qs-desc">Failed (1%)</span></div>
 </div>
 
 <div class="qs-categories">
-<div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:41%"></span></span><span class="qs-value">39</span></div>
-<div class="qs-row"><span class="qs-label">Governance Parameters</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:31%"></span></span><span class="qs-value">30</span></div>
+<div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:40%"></span></span><span class="qs-value">39</span></div>
+<div class="qs-row"><span class="qs-label">Governance Parameters</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:32%"></span></span><span class="qs-value">31</span></div>
 <div class="qs-row"><span class="qs-label">Software Upgrade</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:19%"></span></span><span class="qs-value">18</span></div>
 <div class="qs-row"><span class="qs-label">Other</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:4%"></span></span><span class="qs-value">4</span></div>
 <div class="qs-row"><span class="qs-label">GRC / Restitution</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:3%"></span></span><span class="qs-value">3</span></div>
@@ -58,7 +58,22 @@ hide:
 <div class="prop-quarter" id="2026-q3" markdown="1">
 ## 2026-Q3
 
-*18 proposals*
+*19 proposals*
+
+<div class="prop-card" data-status="prop-voting" data-voting-end="2026-08-29T21:30:24.011124718Z">
+  <div class="prop-card-header">
+    <a href="2026-q3/98/" class="prop-card-title">#98 – Increase DeepSeek V4 Flash weight_scale_factor to 0.246</a>
+    <span class="prop-vote-countdown" data-deadline="2026-08-29T21:30:24.011124718Z"></span>
+    <span class="prop-badge prop-voting">Voting</span>
+  </div>
+  <div class="prop-card-meta">
+    <span>Submitted 2026-08-27</span>
+    <span>Voting ends 2026-08-29</span>
+  </div>
+  <div class="prop-card-desc">Increase the weight_scale_factor for deepseek-ai/DeepSeek-V4-Flash-0731 from 0.214 to 0.246. All other model and chain parameters remain unchanged.  Resubmission of proposal 97, which expired without …</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (8,477)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>1.8%</strong> (8,477 / 471,689) · Quorum <strong>25%</strong> (117,922)</span></div>
+</div>
 
 <div class="prop-card" data-status="prop-rejected">
   <div class="prop-card-header">
@@ -1359,7 +1374,7 @@ hide:
 
 </div>
 <div class="prop-oview-stats">
-<em>96 proposals across 5 quarters. Last updated: 2026-08-27 21:01 UTC</em>
+<em>97 proposals across 5 quarters. Last updated: 2026-08-28 04:04 UTC</em>
 </div>
 
 <script>

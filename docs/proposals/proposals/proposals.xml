@@ -7,6 +7,20 @@
     <language>en</language>
     <atom:link href="https://gonkadocs.com/proposals/proposals/proposals.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>#98 – Increase DeepSeek V4 Flash weight_scale_factor to 0.246</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q3/98/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q3/98/</guid>
+      <pubDate>Thu, 27 Aug 2026 21:30:24 +0000</pubDate>
+      <category>Voting</category>
+      <description>Increase the weight_scale_factor for deepseek-ai/DeepSeek-V4-Flash-0731 from 0.214 to 0.246. All other model and chain parameters remain unchanged.
+
+Resubmission of proposal 97, which expired without reaching quorum. No votes were cast against it. The content is unchanged.
+
+The original factor came from inflated nonce/min numbers. The measurement fix and reproduction steps are in gonka-ai/gonka#1640 (open, will be proposed with the next mainnet update).
+
+Recomputed on historical B300 nonce data </description>
+    </item>
+    <item>
       <title>#97 – Increase DeepSeek V4 Flash weight_scale_factor to 0.246</title>
       <link>https://gonkadocs.com/proposals/proposals/2026-q3/97/</link>
       <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q3/97/</guid>
