@@ -1,5 +1,25 @@
 [
   {
+    "id": "evt_20260828193315_8e26407e",
+    "timestamp": "2026-08-28T19:33:15.648114+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Monthly AMA Session",
+      "url": "None",
+      "file": "fd7c7823a7cbd78a1ce32edbca930846a7120a596e349b372567d051635fd876"
+    },
+    "details": {
+      "status": null,
+      "content": "This monthly AMA session will focus on the latest developments within the proposed protocol's usage and on the experiments planned by the contributors in the nearest future.\n\nRead details here and here.\n\nKey topics:\n• Where usage stands after DeepSeek, and the four-week 20B tokens/day target\n• Nearest plans for widening the model lineup\n• Growth to 100B tokens/day by the end of 2026, and what precedes paid inference\n• Experiments: any model size and modality, including on consumer GPUs\n• Your questions - please add them in the thread: THREAD LINK\n\n🎥 Zoom:\nThe link will be published before the session starts, keep an eye on Discord!\n\n🗣️ Language:\nEnglish\n\n❓ Questions:\nPost them in the thread under this announcement or in the chat during the session — the last 15 minutes are for them.\n\n👤 Gue",
+      "date": "2026-09-03",
+      "time": "15:30 UTC",
+      "event_type": "ama",
+      "url": "None"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260828185243_10400ef9",
     "timestamp": "2026-08-28T18:52:43.900618+00:00",
     "section": "issues",

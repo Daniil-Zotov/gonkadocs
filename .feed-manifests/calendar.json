@@ -1,7 +1,16 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-08-28T08:10:39.967320+00:00",
+  "snapshot_time": "2026-08-28T19:33:15.666392+00:00",
   "files": {
+    "460d7b406a26039bca186ac074c0ac02e7130753a332dc8fe809420a0d5bbd6c": {
+      "title": "AMA: Bitfury, HackerOne & Gonka — Bug Bounty Program Launch",
+      "date": "2026-06-25",
+      "time": "15:00 UTC",
+      "event_type": "ama",
+      "url": "https://us06web.zoom.us/j/88254388622",
+      "content_preview": "Second community AMA session with Vadim Krutov (COO of Bitfury) and David Liberman. The meeting focuses on breaking down the launch of the joint Bug Bounty program.\n\n👥 SPEAKERS\n🔥 NEW GUEST: Laurie Mercer, HackerOne Senior Director of Sales Engineering, joins the AMA session!\n• Vadim Krutov — COO of Bitfury\n• @libermans — David Liberman\n\n⚠️ IMPORTANT NOTE: THIS SESSION IS HELD ENTIRELY IN ENGLISH. ⚠️\n\n🎙️ SESSION TOPICS\n• Joint Bounty Program Launch: The vision behind the Gonka + Bitfury + HackerOne three-way partnership and strengthening network security.\n• Phased Rollout Plan: Shifting from private invites to an open form on gonka.ai, leading up to the final public launch on HackerOne.\n• Community Integration: How the report submission process works, gaining HackerOne access, and defining ",
+      "checksum": "fc49fb939b651005fe6755ece86b294ae9c46aadbd95e8738c900ca399ba85d7"
+    },
     "d20f0b7f63fffff2927833d9557050f626cd934d5ab3479488af3773000f3011": {
       "title": "▶️ Ancapex Live: Gonka Overview",
       "date": "2026-07-30",
@@ -47,15 +56,6 @@
       "content_preview": "AMA-сессия с Дэвидом и Даниилом Либерманами посвящена состоянию рынка компьюта, итогам первого года протокола и дальнейшему развитию сети.\n\nПовестка:\n• Что происходит на рынке: становится ли компьют доступнее и как выход K3 повлиял на централизованных игроков\n• Год протоколу: что сделано и что ещё предстоит\n• Июль: каким он был для сети и как прошёл WebX Asia\n• Токен GNK: почему рост сети и спрос на неё важны для всех участников, от майнеров до разработчиков\n• Ожидания от будущего: следующий месяц и следующий год\n• Модели: какие появятся в сети и по какому принципу отбираются\n\n💻 Zoom: https://us06web.zoom.us/j/87045531047\n🗣️ Язык: русский\n🎙️ Гости: Дэвид и Даниил Либерманы\n🎤 Ведущий: @sultee\n\n---\n\nAMA session with David and Daniel Liberman dedicated to the state of the compute market, resu",
       "checksum": "ae5b9440407d6c127ff1f382694bd23579209b0bf7ea0d920fbd3ac739927c05"
     },
-    "460d7b406a26039bca186ac074c0ac02e7130753a332dc8fe809420a0d5bbd6c": {
-      "title": "AMA: Bitfury, HackerOne & Gonka — Bug Bounty Program Launch",
-      "date": "2026-06-25",
-      "time": "15:00 UTC",
-      "event_type": "ama",
-      "url": "https://us06web.zoom.us/j/88254388622",
-      "content_preview": "Second community AMA session with Vadim Krutov (COO of Bitfury) and David Liberman. The meeting focuses on breaking down the launch of the joint Bug Bounty program.\n\n👥 SPEAKERS\n🔥 NEW GUEST: Laurie Mercer, HackerOne Senior Director of Sales Engineering, joins the AMA session!\n• Vadim Krutov — COO of Bitfury\n• @libermans — David Liberman\n\n⚠️ IMPORTANT NOTE: THIS SESSION IS HELD ENTIRELY IN ENGLISH. ⚠️\n\n🎙️ SESSION TOPICS\n• Joint Bounty Program Launch: The vision behind the Gonka + Bitfury + HackerOne three-way partnership and strengthening network security.\n• Phased Rollout Plan: Shifting from private invites to an open form on gonka.ai, leading up to the final public launch on HackerOne.\n• Community Integration: How the report submission process works, gaining HackerOne access, and defining ",
-      "checksum": "fc49fb939b651005fe6755ece86b294ae9c46aadbd95e8738c900ca399ba85d7"
-    },
     "d4dadbed828e0869071f1c3d4c9c42406325360ab9cd6a88320ba0a7be79e4f1": {
       "title": "External Test Lab & Community DevNet — первый ежемесячный статус-колл | First Monthly Status Call",
       "date": "2026-08-10",
@@ -64,6 +64,15 @@
       "url": "https://meet.google.com/zqp-shgw-wtj",
       "content_preview": "**First monthly status call** of the External Test Lab & Community DevNet under the approved **proposal #82** (https://gonkadocs.com/proposals/proposals/2026-q3/82/).\n\nПриглашаем на первый ежемесячный статус-колл External Test Lab & Community DevNet в рамках принятого пропозала #82 (https://gonkadocs.com/proposals/proposals/2026-q3/82/).\n\nПодведём итоги первого месяца работы:\n\n• будущая тест-стратегия лаборатории\n• первая версия DevNet\n• текущий статус инфраструктуры\n• планы и задачи на следующий месяц\n\nТакже познакомим сообщество с первым QA-инженером, который присоединился к лаборатории, и расскажем, как подключить своё оборудование к DevNet.\n\n📅 Понедельник, 10 августа\n🕒 08:30 LA · 15:30 UTC · 18:30 UTC+3\n🔗 https://meet.google.com/zqp-shgw-wtj\n\n---\n\n**First monthly status call** of the E",
       "checksum": "68fb290033b399e3ed5d09b9ed697a9f835c73a5225643c13b641e326292e000"
+    },
+    "fd7c7823a7cbd78a1ce32edbca930846a7120a596e349b372567d051635fd876": {
+      "title": "Monthly AMA Session",
+      "date": "2026-09-03",
+      "time": "15:30 UTC",
+      "event_type": "ama",
+      "url": "None",
+      "content_preview": "This monthly AMA session will focus on the latest developments within the proposed protocol's usage and on the experiments planned by the contributors in the nearest future.\n\nRead details here and here.\n\nKey topics:\n• Where usage stands after DeepSeek, and the four-week 20B tokens/day target\n• Nearest plans for widening the model lineup\n• Growth to 100B tokens/day by the end of 2026, and what precedes paid inference\n• Experiments: any model size and modality, including on consumer GPUs\n• Your questions - please add them in the thread: THREAD LINK\n\n🎥 Zoom:\nThe link will be published before the session starts, keep an eye on Discord!\n\n🗣️ Language:\nEnglish\n\n❓ Questions:\nPost them in the thread under this announcement or in the chat during the session — the last 15 minutes are for them.\n\n👤 Gue",
+      "checksum": "78ef856b85dd6b4538923d1ab1ff02028bc1c441e1d5743f64681990daaf26d1"
     },
     "60130ca155a868e409b7aa0642525df006c4e05da481ba6f8787253101992676": {
       "title": "Migrate community-sale and wrapped-token contracts",
