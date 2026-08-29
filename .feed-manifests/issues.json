@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-08-29T14:38:39.675895+00:00",
+  "snapshot_time": "2026-08-29T21:53:10.852083+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "Description",
@@ -2666,14 +2666,15 @@
     "01205-chain-halt-markvalidatorfordeletion-jailed-branch-races-come.md": {
       "title": "#1205 — chain-halt: `markValidatorForDeletion` jailed branch races CometBFT validator-update lag → slashing fails with ErrNoValidatorFound",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    chain-halt: `markValidatorForDeletion` jailed branch races CometBFT validator-update lag → slashing fails with ErrNoValidatorFound\n    <span class=\"issues-number\">#1205</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-05-20 02:36 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n",
-      "comment_checksum": "9daee26bdb2ced6a707c259fb84a82187f66434bddd471e8a1f12c2fb4b0ed48",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    chain-halt: `markValidatorForDeletion` jailed branch races CometBFT validator-update lag → slashing fails with ErrNoValidatorFound\n    <span class=\"issues-number\">#1205</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-05-20 02:36 UTC</span>\n    <span class=\"issues-meta-item\">4 comments</span>\n    <span class=\"issues-meta-item\"></span>\n",
+      "comment_checksum": "28da73582caafdb1f6efb94e10159785a7ccaa34397e5a4e11ade0c0f91c27d8",
       "comment_bodies": [
         "Hi @vitaly-andr, and thank you again for your work and for reporting this issue. Your contribution may be eligible for a reward through our HackerOne bounty program. Please submit the same report, together with your proposed fix, using the form available here: https://gonka.ai/docs/report-vulnerability/ Once you have submitted it, please also reply here with enough information for us to identify y",
         "Submitted to the HackerOne program as requested. Report ID: #3976415 HackerOne handle: plitochnik_ru — my GitHub handle vitaly-andr is listed on that profile The submission duplicates this issue together with the proposed fix in gonka-ai/cosmos-sdk#16. The vulnerable branch is still present on release/v0.53.x as of today.",
-        "Hey @vitaly-andr! Please leave your Gonka wallet address so we can potentially reward you for discovering the vulnerability. We may propose a bounty payment in a future governance upgrade, subject to a community vote."
+        "Hey @vitaly-andr! Please leave your Gonka wallet address so we can potentially reward you for discovering the vulnerability. We may propose a bounty payment in a future governance upgrade, subject to a community vote.",
+        "gonka1uqt4hue8tljwwgdkvtthyl3n8kkkqtydyns4cm Thanks @tcharchian — that's my Gonka address."
       ],
-      "checksum": "f681664633a02b5d0ea939c0f1865cf6b0d765db80c60564a86582301ea53d18"
+      "checksum": "6f331178b187e089ad1cc51aee8f28863ed7e8afcb74da50135898414501120e"
     },
     "01219-p0-basic-primitives-for-training.md": {
       "title": "#1219 — [P0] Basic primitives for training",
@@ -3363,12 +3364,13 @@
     "01628-bug-public-routers-hangtimeout-on-prompts-75k-tokens-prefill.md": {
       "title": "→ HTTP 200, first token < 2 s",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] Public routers hang/timeout on prompts ≥ ~7.5K tokens (prefill); 502 `all_providers_failed`; DeepSeek missing from /v1/models\n    <span class=\"issues-number\">#1628</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/inecro1\">@inecro1</a> opened 2026-08-23 12:28 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>",
-      "comment_checksum": "1803c18c9893fd6f2cfc15e7f3b91c8465de18ef01149c07372753137d948083",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] Public routers hang/timeout on prompts ≥ ~7.5K tokens (prefill); 502 `all_providers_failed`; DeepSeek missing from /v1/models\n    <span class=\"issues-number\">#1628</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/inecro1\">@inecro1</a> opened 2026-08-23 12:28 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div",
+      "comment_checksum": "87cc2201de5e6867c48385b40693531a6ec494f6b265f1f7f367441edb8da8e9",
       "comment_bodies": [
-        "It's the widely occurred bug it need attention"
+        "It's the widely occurred bug it need attention",
+        "Tried several times the ping-vs-large-prefill contrast from this thread on our gateway: DeepSeek-V4-Flash-0731 and MiniMax-M2.7, stream=true, unique padding. Both models: HTTP 200, first token in ~1–6s at ~12k and ~63k prompt_tokens. max_tokens=5 completes as 64 (gateway floor). No 0-byte hang; engine not left dead. A ~75k-in / 4096-out MiniMax non-stream on another path finished in ~53s (outcome="
       ],
-      "checksum": "480b59f5197edb689b633917ecdb5f980e0e96cf9824e1f48d048c209671ab60"
+      "checksum": "5330b1dbdb268ddf99be2ac0026a09cf626b69aaa6006f258c330715e064cc83"
     },
     "01632-openbroker-strips-provider-prompt-cache-metadata-prompt-toke.md": {
       "title": "OpenBroker strips provider prompt-cache metadata (`prompt_tokens_details` is always `null`)",
@@ -3438,6 +3440,14 @@
       "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "comment_bodies": [],
       "checksum": "1e8bce0e05cc16e301381cc4530f0e61f1797909c563a2e5584f21cd5f89f140"
+    },
+    "01677-bug-gatewaymlnode-agent-sized-prefill-hangs-or-fails-with-no.md": {
+      "title": "#1677 — [BUG] Gateway/mlnode: agent-sized prefill hangs or fails with no usable error",
+      "status": null,
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [BUG] Gateway/mlnode: agent-sized prefill hangs or fails with no usable error\n    <span class=\"issues-number\">#1677</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/paranjko\">@paranjko</a> opened 2026-08-29 20:39 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issu",
+      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comment_bodies": [],
+      "checksum": "1252a8c8a4342fca7a0ddb4586497f6f6056b69dfbfe20b90656a180f000c61e"
     }
   }
 }

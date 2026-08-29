@@ -2,7 +2,7 @@
 title: "#1628 — [BUG] Public routers hang/timeout on prompts ≥ ~7.5K tokens (prefill); 502 `all_providers_failed`; DeepSeek missing from /v1/models"
 source: https://github.com/gonka-ai/gonka/issues/1628
 issue_number: 1628
-synced_at: 2026-08-29T14:33:46Z
+synced_at: 2026-08-29T21:48:23Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/inecro1">@inecro1</a> opened 2026-08-23 12:28 UTC</span>
-    <span class="issues-meta-item">1 comment</span>
-    <span class="issues-meta-item">Updated 2026-08-23 17:02 UTC</span>
+    <span class="issues-meta-item">2 comments</span>
+    <span class="issues-meta-item">Updated 2026-08-29 21:39 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -92,7 +92,7 @@ Threshold: failure is deterministic at ~7.5K prefill tokens and above. This is c
 
 ---
 
-## 💬 Comments (1)
+## 💬 Comments (2)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -101,6 +101,20 @@ Threshold: failure is deterministic at ~7.5K prefill tokens and above. This is c
   </div>
   <div class="issues-comment-body issues-content">
     <p>It's the widely occurred bug it need attention </p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/paranjko">@paranjko</a></span>
+    <span class="issues-meta-item">commented 2026-08-29 21:39 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Tried several times the ping-vs-large-prefill contrast from this thread on our <a href="https://inference.dahl.global">gateway</a>: DeepSeek-V4-Flash-0731 and MiniMax-M2.7, <code>stream=true</code>, unique padding.</p>
+<p>Both models: HTTP 200, first token in ~1–6s at ~12k and ~63k <code>prompt_tokens</code>. <code>max_tokens=5</code> completes as <strong>64</strong> (gateway floor). No 0-byte hang; engine not left dead.</p>
+<p>A ~75k-in / 4096-out MiniMax <strong>non-stream</strong> on another path finished in ~53s (<code>outcome=served</code>) a bit slow, not stuck.</p>
+<p>The <code>curl</code> in the post is the <code>ping</code>. To replay the hang, please paste the same kind of command with the large prompt (~7.5K or ~40K) that timed out for you (URL + body + <code>--max-time</code>).</p>
+<p>Happy to re-run if we have that.
+Gonka <a href="https://github.com/paranjko/external-test-lab">External TestLab</a></p>
   </div>
 </div>
 
