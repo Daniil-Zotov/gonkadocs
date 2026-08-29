@@ -35,7 +35,7 @@ hide:
 
 <div class="qs-stats">
 <div class="qs-stat total"><span class="qs-num">97</span><span class="qs-desc">Total Proposals</span></div>
-<div class="qs-stat passed"><span class="qs-num">64</span><span class="qs-desc">Passed (66%)</span></div>
+<div class="qs-stat passed"><span class="qs-num">65</span><span class="qs-desc">Passed (67%)</span></div>
 <div class="qs-stat rejected"><span class="qs-num">31</span><span class="qs-desc">Rejected (32%)</span></div>
 <div class="qs-stat failed"><span class="qs-num">1</span><span class="qs-desc">Failed (1%)</span></div>
 </div>
@@ -60,11 +60,10 @@ hide:
 
 *19 proposals*
 
-<div class="prop-card" data-status="prop-voting" data-voting-end="2026-08-29T21:30:24.011124718Z">
+<div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
     <a href="2026-q3/98/" class="prop-card-title">#98 – Increase DeepSeek V4 Flash weight_scale_factor to 0.246</a>
-    <span class="prop-vote-countdown" data-deadline="2026-08-29T21:30:24.011124718Z"></span>
-    <span class="prop-badge prop-voting">Voting</span>
+    <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
     <span>Submitted 2026-08-27</span>
@@ -1374,7 +1373,7 @@ hide:
 
 </div>
 <div class="prop-oview-stats">
-<em>97 proposals across 5 quarters. Last updated: 2026-08-29 19:47 UTC</em>
+<em>97 proposals across 5 quarters. Last updated: 2026-08-29 22:00 UTC</em>
 </div>
 
 <script>
