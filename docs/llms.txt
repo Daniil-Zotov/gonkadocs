@@ -20,7 +20,7 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 ## Community Calendar
 
 - [All Calendar Events](/community/calendar/events/): Every event (AMAs, committee calls, proposal milestones, network updates) — machine-readable page, also indexed by search
-- 2026-08-29 21:30 UTC — Voting ends: #98 – Increase DeepSeek V4 Flash weight_scale_factor to 0.246: https://gonkadocs.com/proposals/proposals/2026-q3/98/
+- 2026-08-29 21:30 UTC — Passed: #98 – Increase DeepSeek V4 Flash weight_scale_factor to 0.246: https://gonkadocs.com/proposals/proposals/2026-q3/98/
 - 2026-09-02 13:00 UTC — INPUT Global — Weekly Call (#77): https://gonkadocs.com/proposals/proposals/2026-q2/77/
 - 2026-09-02 15:00 UTC — TheSoul — Weekly Report Call (#60–#65): https://gonkadocs.com/proposals/proposals/2026-q2/60/
 - 2026-09-03 15:30 UTC — Monthly AMA Session: https://gonkadocs.com
