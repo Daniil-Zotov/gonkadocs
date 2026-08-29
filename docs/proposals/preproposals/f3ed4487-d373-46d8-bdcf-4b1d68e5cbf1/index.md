@@ -7,7 +7,7 @@ template: proposals-main.html
 
 <div class="preproposal-header" markdown="1">
 
-<div class="preproposal-status">🟢 Active</div>
+<div class="preproposal-status">🔴 Expired</div>
 
 **Author:** Slava MyGonka
 **Created:** 2026-08-22 20:58 UTC
