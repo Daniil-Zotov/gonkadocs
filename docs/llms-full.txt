@@ -19366,7 +19366,7 @@ decentralized mixture-of-experts."
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-08-29 15:25 UTC
+2026-08-29 19:06 UTC
 
 ---
 
@@ -28498,7 +28498,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   
   Increase the weight_scale_factor for deepseek-ai/DeepSeek-V4-Flash-0731 from 0.214 to 0.246. All other model and chain parameters remain unchanged.  Resubmission of proposal 97, which expired without …
   Yes 98.1% (160,318) · No 0.0% (0) · Veto 0.0% (0) · Abstain 1.9% (3,039)
-  ✓ Turnout 40.3% (163,357 / 404,897) · Quorum 25% (101,224)
+  ✓ Turnout 40.6% (163,357 / 402,794) · Quorum 25% (100,698)
 
   
     #97 – Increase DeepSeek V4 Flash weight_scale_factor to 0.246
@@ -29597,7 +29597,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-97 proposals across 5 quarters. Last updated: 2026-08-29 18:20 UTC
+97 proposals across 5 quarters. Last updated: 2026-08-29 19:47 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -66742,7 +66742,7 @@ $90,075 USDT · Bounty Reward
   
   Increase the weight_scale_factor for deepseek-ai/DeepSeek-V4-Flash-0731 from 0.214 to 0.246. All other model and chain parameters remain unchanged.  Resubmission of proposal 97, which expired without …
   Yes 98.1% (160,318) · No 0.0% (0) · Veto 0.0% (0) · Abstain 1.9% (3,039)
-  ✓ Turnout 40.3% (163,357 / 404,897) · Quorum 25% (101,224)
+  ✓ Turnout 40.6% (163,357 / 402,794) · Quorum 25% (100,698)
 
   
     #97 – Increase DeepSeek V4 Flash weight_scale_factor to 0.246
@@ -74033,7 +74033,7 @@ Recomputed on historical B300 nonce data and fresh PoC experiments, the factor i
     Veto 0.0% (0)
     Abstain 1.9% (3,039)
     Total 163,357 votes
-    ✓ Turnout 40.3% (163,357 / 404,897) · Quorum 25% (101,224)
+    ✓ Turnout 40.6% (163,357 / 402,794) · Quorum 25% (100,698)
   
 
 Voters
