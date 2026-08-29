@@ -19366,7 +19366,7 @@ decentralized mixture-of-experts."
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-08-28 20:37 UTC
+2026-08-29 03:01 UTC
 
 ---
 
@@ -19752,11 +19752,11 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 6Active
 12Votes
-852.08 GNKTotal Bid
+944.12 GNKTotal Bid
 
 | Status | Title | Author | Votes | Avg. Bid | Closes |
 | :----- | :----- | :----- | ----: | -------: | :----- |
-| 🟢 | [Мини фаундейшен](./ea988e94-2ee3-486c-bd7e-2422c04e0278/) | Mitch | 2 | 426.04 GNK | 2026-08-29 |
+| 🟢 | [Мини фаундейшен](./ea988e94-2ee3-486c-bd7e-2422c04e0278/) | Mitch | 2 | 472.06 GNK | 2026-08-29 |
 | 🟢 | [Повысить коэффициент DeepSeek V4 Flash с 0,214 до 0,4231 (обсуждаемо).](./f3ed4487-d373-46d8-bdcf-4b1d68e5cbf1/) | Slava MyGonka | 3 | 0.00 GNK | 2026-08-29 |
 | 🟢 | [Крупнейшее в мире событие для ИИ-разработчиков и создателей AI-продуктов — Sprin](./a2584dc4-1e7b-4cb7-a90d-fcf67306d7c8/) | Nataliia Klymovska | 2 | 0.00 GNK | 2026-08-31 |
 | 🟢 | [Game Hackaton AI](./165501de-189e-41c3-aad9-04bac872ef0d/) | Victor | 1 | 0.00 GNK | 2026-09-11 |
@@ -19769,19 +19769,19 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 37Expired
 37Votes
-54.1K GNKTotal Bid
+62.0K GNKTotal Bid
 
 | Status | Title | Author | Votes | Avg. Bid | Closed |
 | :----- | :----- | :----- | ----: | -------: | :----- |
 | 🔴 | [Add DeepSeek V4 Pro and Qwen3.8-27B Models](./5fbee7f8-5089-450d-bd76-fb54df23d809/) | Aung Myat Moe | 2 | 0.00 GNK | 2026-08-27 |
-| 🔴 | [Dev Team Funding @gmorgachev](./8a252390-79b4-4a43-b520-c3fc412ef642/) | Даниил Зотов | 3 | 284.03 GNK | 2026-08-14 |
-| 🔴 | [Привлечение $3M+ нового капитала на Uniswap v2.0](./f341b83c-78f0-4ab2-b8fd-ddc7ac5d9c37/) | Andrey Orlov | 6 | 142.01 GNK | 2026-08-08 |
+| 🔴 | [Dev Team Funding @gmorgachev](./8a252390-79b4-4a43-b520-c3fc412ef642/) | Даниил Зотов | 3 | 314.71 GNK | 2026-08-14 |
+| 🔴 | [Привлечение $3M+ нового капитала на Uniswap v2.0](./f341b83c-78f0-4ab2-b8fd-ddc7ac5d9c37/) | Andrey Orlov | 6 | 157.35 GNK | 2026-08-08 |
 | 🔴 | [Gonka × Omniverse Web3 Camp](./51625116-36cd-47ee-a176-d552d39f0376/) | George Omni | 2 | 0.00 GNK | 2026-08-08 |
-| 🔴 | [Привлечение $3M+ нового капитала на Uniswap](./e0cc7d32-5d1a-49e1-94e8-0ca3d9ccbf6b/) | Andrey Orlov | 5 | 170.42 GNK | 2026-08-02 |
+| 🔴 | [Привлечение $3M+ нового капитала на Uniswap](./e0cc7d32-5d1a-49e1-94e8-0ca3d9ccbf6b/) | Andrey Orlov | 5 | 188.82 GNK | 2026-08-02 |
 | 🔴 | [Вестинг: почему его стоит отменить сейчас](./d23b0edf-57fb-4522-bd79-04ffdcc9d7a5/) | Mitch | 4 | 0.00 GNK | 2026-08-01 |
 | 🔴 | [Should Gonka make fallbacks to other services like OpenRouter?](./f9a4302d-7823-4cd4-9987-b0758569db93/) | Viktor | 1 | 0.00 GNK | 2026-07-24 |
 | 🔴 | [Улучшаем инфиренс Kimi](./d185d9eb-243f-4228-b4ac-e2c7a50a5325/) | Mitch | 6 | 0.00 GNK | 2026-07-21 |
-| 🔴 | [External Test Lab & Community DevNet](./205219a5-6ed2-4f25-8d22-fa7c65a45ba6/) | Sergii Paranko | 4 | 213.02 GNK | 2026-07-14 |
+| 🔴 | [External Test Lab & Community DevNet](./205219a5-6ed2-4f25-8d22-fa7c65a45ba6/) | Sergii Paranko | 4 | 236.03 GNK | 2026-07-14 |
 | 🔴 | [Private Inc × Gonka — Network Growth Initiative](./ed8148eb-535e-4677-9a6b-5316c81c996a/) | Igor Alexeev | 0 | 0.00 GNK | 2026-07-13 |
 | 🔴 | [Предложение по развитию игровой экосистемы блокчейна через турнирные пулы вознаг](./fd9989ca-7c5b-4a2f-baf4-2465e6915ba6/) | Victor | 0 | 0.00 GNK | 2026-07-12 |
 | 🔴 | [Интеграция ИИ Gonka в инфраструктуру QR Mint](./7d2ec26b-6524-4fc6-b676-a13d822536e8/) | Victor | 0 | 0.00 GNK | 2026-07-11 |
@@ -19797,8 +19797,8 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 | 🔴 | [3. Team Gonka Wallet Grant Request](./2b6b2142-685a-4eda-b2a1-f8853228f3e6/) | Slava MyGonka | 0 | 0.00 GNK | 2026-07-11 |
 | 🔴 | [Team Gonka.AI \| Inside Grant Request](./4792a93f-127a-4a0e-9a12-acd229c1e865/) | Slava MyGonka | 0 | 0.00 GNK | 2026-07-11 |
 | 🔴 | [1. Team Veylox Grant Request](./66e6583a-27b4-4bae-91fb-8f0489736b0d/) | Slava MyGonka | 0 | 0.00 GNK | 2026-07-11 |
-| 🔴 | [Go-To-Market Team for 3 Month to Set Up the Basis](./cb7f643f-3d56-47ec-9193-f9f2f80a99fb/) | Dem \| Démíngān | 2 | 12.7K GNK | 2026-07-10 |
-| 🔴 | [Gonka Media Library by Saccade](./f215996d-e562-42b5-b2b1-400226e612fa/) | Dem \| Démíngān | 2 | 12.7K GNK | 2026-07-10 |
+| 🔴 | [Go-To-Market Team for 3 Month to Set Up the Basis](./cb7f643f-3d56-47ec-9193-f9f2f80a99fb/) | Dem \| Démíngān | 2 | 14.6K GNK | 2026-07-10 |
+| 🔴 | [Gonka Media Library by Saccade](./f215996d-e562-42b5-b2b1-400226e612fa/) | Dem \| Démíngān | 2 | 14.6K GNK | 2026-07-10 |
 | 🔴 | [Стресс тест инфиренса](./efc0edeb-bc49-4c6b-a6e7-5b20ccfbe571/) | Mitch | 0 | 0.00 GNK | 2026-06-05 |
 | 🔴 | [Bring Gonka to EBC12 as a Gold Sponsor](./29baf37b-811f-4c36-b517-66a578383f1c/) | Heydar Naghiyev | 0 | 0.00 GNK | 2026-06-04 |
 | 🔴 | [Большое видео на канале Falcon Finance (Александр Соколовский)](./550f71de-897f-4ce5-8af8-97854775f8b2/) | Дмитрий В | 0 | 0.00 GNK | 2026-05-28 |
@@ -19813,7 +19813,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-08-29 02:07 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-08-29 08:59 UTC*
 
 ---
 
@@ -20763,7 +20763,7 @@ Support developers — become part of GameHub. 🚀
 **Closes:** 2026-07-14 11:44 UTC
 **Language:** EN
 **Votes:** 4
-**Avg. Bid:** 213.02 GNK
+**Avg. Bid:** 236.03 GNK
 
 4-month pilot proposal for community-owned testing infrastructure and QA capacity.
 
@@ -23620,7 +23620,7 @@ qr.mint.dev@gmail.com
 **Closes:** 2026-08-14 18:52 UTC
 **Language:** EN
 **Votes:** 3
-**Avg. Bid:** 284.03 GNK
+**Avg. Bid:** 314.71 GNK
 
 I plan to submit a proposal requesting 1.5m USDT from the community pool. The funding would support an independent engineering team working on core protocol development aligned with the roadmap
 
@@ -24151,7 +24151,7 @@ https://prnt.sc/ax9mlD-RDtuC
 **Closes:** 2026-07-10 15:58 UTC
 **Language:** EN
 **Votes:** 2
-**Avg. Bid:** 12.7K GNK
+**Avg. Bid:** 14.6K GNK
 
 This proposal describes ecosystem we should do for the Gonka, including basics, go-to-market actions, the team and the budgets for the next 3 months.
 
@@ -25858,7 +25858,7 @@ Founders привлекают подкасты и медиа.
 **Closes:** 2026-08-02 15:10 UTC
 **Language:** RU
 **Votes:** 5
-**Avg. Bid:** 170.42 GNK
+**Avg. Bid:** 188.82 GNK
 
 Предлагаем за 90 дней привлечь от $3 млн нового капитала в GONKA через масштабируемую Telegram-воронку с поэтапным финансированием и KPI
 
@@ -26449,7 +26449,7 @@ Work does not end after the first deposit. The user continues to receive support
 **Closes:** 2026-08-29 20:24 UTC
 **Language:** RU
 **Votes:** 2
-**Avg. Bid:** 426.04 GNK
+**Avg. Bid:** 472.06 GNK
 
 В комьюнити есть те, кто бесплатно делает полезное для гонки. Предлагаю мини-фаундейшн: смартконтракт на 1М gnk, выборный управляющий раздаёт 100к/мес по весам.
 
@@ -27472,7 +27472,7 @@ https://youtu.be/hwX_4_v6xxI
 **Closes:** 2026-07-10 11:28 UTC
 **Language:** EN
 **Votes:** 2
-**Avg. Bid:** 12.7K GNK
+**Avg. Bid:** 14.6K GNK
 
 Gonka Media Library — Explainer Library & Platform
 Explainer series (20 ep., 40 min) + web download & self-branding platform
@@ -27613,7 +27613,7 @@ https://saccade.media/ru/unboring-explainer
 **Closes:** 2026-08-08 16:25 UTC
 **Language:** RU
 **Votes:** 6
-**Avg. Bid:** 142.01 GNK
+**Avg. Bid:** 157.35 GNK
 
 Предлагаем за 90 дней привлечь от $3 млн нового капитала в GONKA через масштабируемую Telegram-воронку с поэтапным финансированием и KPI
 
@@ -28497,8 +28497,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-08-29
   
   Increase the weight_scale_factor for deepseek-ai/DeepSeek-V4-Flash-0731 from 0.214 to 0.246. All other model and chain parameters remain unchanged.  Resubmission of proposal 97, which expired without …
-  Yes 98.3% (175,002) · No 0.0% (0) · Veto 0.0% (0) · Abstain 1.7% (3,038)
-  ✓ Turnout 42.8% (178,040 / 415,621) · Quorum 25% (103,905)
+  Yes 98.5% (201,061) · No 0.0% (0) · Veto 0.0% (0) · Abstain 1.5% (3,039)
+  ✓ Turnout 37.2% (204,100 / 549,168) · Quorum 25% (137,292)
 
   
     #97 – Increase DeepSeek V4 Flash weight_scale_factor to 0.246
@@ -29597,7 +29597,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-97 proposals across 5 quarters. Last updated: 2026-08-29 01:06 UTC
+97 proposals across 5 quarters. Last updated: 2026-08-29 08:40 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -66741,8 +66741,8 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-08-29
   
   Increase the weight_scale_factor for deepseek-ai/DeepSeek-V4-Flash-0731 from 0.214 to 0.246. All other model and chain parameters remain unchanged.  Resubmission of proposal 97, which expired without …
-  Yes 98.3% (175,002) · No 0.0% (0) · Veto 0.0% (0) · Abstain 1.7% (3,038)
-  ✓ Turnout 42.8% (178,040 / 415,621) · Quorum 25% (103,905)
+  Yes 98.5% (201,061) · No 0.0% (0) · Veto 0.0% (0) · Abstain 1.5% (3,039)
+  ✓ Turnout 37.2% (204,100 / 549,168) · Quorum 25% (137,292)
 
   
     #97 – Increase DeepSeek V4 Flash weight_scale_factor to 0.246
@@ -74028,12 +74028,12 @@ Recomputed on historical B300 nonce data and fresh PoC experiments, the factor i
     
   
   
-    Yes 98.3% (175,002)
+    Yes 98.5% (201,061)
     No 0.0% (0)
     Veto 0.0% (0)
-    Abstain 1.7% (3,038)
-    Total 178,040 votes
-    ✓ Turnout 42.8% (178,040 / 415,621) · Quorum 25% (103,905)
+    Abstain 1.5% (3,039)
+    Total 204,100 votes
+    ✓ Turnout 37.2% (204,100 / 549,168) · Quorum 25% (137,292)
   
 
 Voters
@@ -74049,6 +74049,7 @@ gonka1gyk0aa…k8svc5Yes 100.0%
 gonka1gvpv7v…lyrmkxYes 100.0%
 gonka1fundsn…ls252eYes 100.0%
 gonka1t0psql…mnwdadYes 100.0%
+gonka10mmdja…vqgz09Yes 100.0%
 gonka1346p2h…nd55fhYes 100.0%
 gonka1kvmerz…lzldumYes 100.0%
 gonka1erprg2…h06gkqYes 100.0%
