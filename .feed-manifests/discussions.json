@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-08-29T02:06:20.841064+00:00",
+  "snapshot_time": "2026-08-29T09:58:16.498285+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "Welcome to Gonka Discussions 👋",
@@ -54,7 +54,7 @@
       "title": "Running our own devshard gateway — plan, economics, and what hosts want to see for allowlisting",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1648](https://github.com/gonka-ai/gonka/discussions/1648) every hour. \n\n# Running our own devshard gateway — plan, economics, and what hosts want to see for allowlisting\n\n**Автор:** [@theaungmyatmoe](https://github.com/theaungmyatmoe) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-08-25 12:18 UTC · \n\n---\n\n## 📝 Описание\n\n# Running our own devshard gateway — plan, economics, and the one thing we need from hosts\n\n**Who:** Fusion AI Gateway (`api.fusioncode.app`) — a production broker already serving DeepSeek V4 Flash, MiniMax M2.7, and Kimi K2.6 through the network (currently via OpenBroker).\n\n## Why we want our own gateway\n\n1. **Direct GNK settlement & self-custody** — we have a committed multi-billion-token/day pipeline and need escrow pooling/r",
-      "checksum": "c092c833f67f7865462a69c2d34fd1b7580008eb9f9e94434688696e68dfac08"
+      "checksum": "0af1eadc5a73ef50a39d8b3272c9d8a6abf2f814805c10aee81e98f5535a37a1"
     },
     "general/0670-kimi-k25.md": {
       "title": "Kimi K2.5",
@@ -378,7 +378,7 @@
       "title": "Proposal: raise the DeepSeek coefficient to 0.400",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1668](https://github.com/gonka-ai/gonka/discussions/1668) every hour. \n\n# Proposal: raise the DeepSeek coefficient to 0.400\n\n**Автор:** [@knyazev741](https://github.com/knyazev741) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-08-28 14:03 UTC · \n\n---\n\n## 📝 Описание\n\nRussian version: https://telegra.ph/DeepSeek-WSF-0400-pust-subsidiya-pokupaet-poleznuyu-rabotu-08-28\n\nGonka hosts currently get most of their income not from inference payments, but from RewardCoin subsidy. The pool is fixed and split by scaled PoC. Utilization bonuses in the code do not run. Dynamic pricing is off. All models are priced the same. Hardware therefore follows the `weight_scale_factor` coefficient, not the user queue.\n\nThe queue and the coefficient point in ",
-      "checksum": "f2c376b10e72dc71a679802a3b13822093fc6e13bd5c4facd025c2d619378632"
+      "checksum": "3775796f4a2b4b14ad4f949d3bad4b93c638605b0837e3c79ecdb5c622d40abf"
     },
     "q-a/0796-are-there-plans-to-add-prompt-level-confidentiality-for-host.md": {
       "title": "Are there plans to add prompt-level confidentiality for hosts?",

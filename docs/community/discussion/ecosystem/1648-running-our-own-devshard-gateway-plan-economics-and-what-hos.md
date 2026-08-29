@@ -3,14 +3,14 @@ title: "#1648 — Running our own devshard gateway — plan, economics, and what
 source: https://github.com/gonka-ai/gonka/discussions/1648
 discussion_number: 1648
 category: ecosystem
-synced_at: 2026-08-29T02:05:58Z
+synced_at: 2026-08-29T09:57:49Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1648](https://github.com/gonka-ai/gonka/discussions/1648) every hour. 
 
 # Running our own devshard gateway — plan, economics, and what hosts want to see for allowlisting
 
-**Автор:** [@theaungmyatmoe](https://github.com/theaungmyatmoe) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-08-25 12:18 UTC · **Обновлено:** 2026-08-25 12:18 UTC
+**Автор:** [@theaungmyatmoe](https://github.com/theaungmyatmoe) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-08-25 12:18 UTC · **Обновлено:** 2026-08-29 03:39 UTC
 
 ---
 
@@ -51,3 +51,56 @@ Per the process for #1479, allowlist inclusion is an **on-chain governance decis
 
 Happy to answer any questions here or in `#dev-chat`.
 
+
+---
+
+## 💬 Комментарии (1)
+
+### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
+
+*2026-08-29 02:10 UTC*
+
+Hi @theaungmyatmoe! Allowlisting is an on-chain governance decision, so the real question is what earns host support.
+
+The thing most likely to move hosts right now: attribution. fusioncode.app doesn't mention Gonka anywhere, and that's come up in the community. A broker running on near-cost Gonka inference is only a net positive if it grows awareness of the network. Add clear "powered by Gonka" attribution (site, docs, where users see it) with a link back. This is just my own observation, not a requirement or any guarantee — hosts decide independently and attribution alone doesn't secure inclusion. Meanwhile OpenBroker stays the practical path (GNK-native, no governance wait, covers your volume).
+
+**↳ Ответ от [@theaungmyatmoe](https://github.com/theaungmyatmoe)** · *2026-08-29 03:18 UTC*
+
+> I think I have talking too much about bringing the real users from my side
+>
+> I am closing some deal that can able to spend 500B to 4T monthly usage 
+>
+> So that at Gonka side they will get more users and more social presence if we could collaborate closely 
+>
+> I am currently using openbroker but for long term I like to run myself so that I can introduce more concrete features 
+>
+> Most of the web3 problems is not having real users and I am solving with a bunch of marketing done by me
+>
+> Without having to reduce the cost in my side I cannot make advertising properly in paid and viral way.
+>
+> That is why I am asking that 
+>
+> And the Gonka cannot even handle at least 100B per day and its destroying my design.
+>
+>
+> I do even planning to make marketing right now by integrating Gonka and my dedicated hardwares 
+>
+> If I could get as a devshard I can put the Gonka as my provider so that Gonka will also get social presence in both side 
+>
+> And i bring non Russia users across Asia, US West, SEA but Gonka founders and core team is quiet 
+>
+> So what will be our deal to get my devshard properly 
+>
+
+**↳ Ответ от [@theaungmyatmoe](https://github.com/theaungmyatmoe)** · *2026-08-29 03:39 UTC*
+
+> Thanks @tcharchian — that feedback is helpful and very fair.
+>
+> We are completely aligned on attribution and growing network awareness
+> - We have the "Decentralized inference accelerated by Gonka Network" docs page, provider overview, and footer backlinks prepared.
+> - This will go live officially across our platform alongside our devshard gateway launch once our creator address is allowlisted.
+> - We will also publish public throughput, TTFT, and prefix-cache benchmarks to showcase Gonka's capabilities under real-world multi-billion-token load.
+>
+> Our committed pipeline (500B to 4T tokens/month from coding assistants and autonomous agents across US West, SEA, and Asia) will bring massive real utility to the network. Running our own devshard gateway is critical for us to manage direct host session affinity and eliminate intermediary concurrency choke points.
+>
+> We're excited to partner with the Gonka ecosystem and look forward to participating in the upcoming allowlist governance batch!
