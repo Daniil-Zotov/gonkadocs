@@ -2,7 +2,7 @@
 title: "#1205 — chain-halt: `markValidatorForDeletion` jailed branch races CometBFT validator-update lag → slashing fails with ErrNoValidatorFound"
 source: https://github.com/gonka-ai/gonka/issues/1205
 issue_number: 1205
-synced_at: 2026-08-28T18:49:30Z
+synced_at: 2026-08-29T02:17:29Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/vitaly-andr">@vitaly-andr</a> opened 2026-05-20 02:36 UTC</span>
-    <span class="issues-meta-item">2 comments</span>
-    <span class="issues-meta-item">Updated 2026-08-28 18:15 UTC</span>
+    <span class="issues-meta-item">3 comments</span>
+    <span class="issues-meta-item">Updated 2026-08-28 22:07 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -133,7 +133,7 @@ Found while implementing simulation tests for [#982](https://github.com/gonka-ai
 
 ---
 
-## 💬 Comments (2)
+## 💬 Comments (3)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -162,6 +162,15 @@ https://gonka.ai/docs/report-vulnerability/</p>
 <li>HackerOne handle: <code>plitochnik_ru</code> — my GitHub handle <code>vitaly-andr</code> is listed on that profile</li>
 </ul>
 <p>The submission duplicates this issue together with the proposed fix in gonka-ai/cosmos-sdk#16. The vulnerable branch is still present on <code>release/v0.53.x</code> as of today.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span class="issues-meta-item">commented 2026-08-28 22:07 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Hey @vitaly-andr! Please leave your Gonka wallet address so we can potentially reward you for discovering the vulnerability. We may propose a bounty payment in a future governance upgrade, subject to a community vote. </p>
   </div>
 </div>
 

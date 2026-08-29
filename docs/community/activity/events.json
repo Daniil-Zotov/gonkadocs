@@ -1,5 +1,53 @@
 [
   {
+    "id": "evt_20260829022131_2783d547",
+    "timestamp": "2026-08-29T02:21:31.394539+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1671 — chore(deps): rebase forked cosmos-sdk onto v0.53.8 (base is v0.53.3, ~5 patch releases behind)",
+      "url": "/community/issues/01671-choredeps-rebase-forked-cosmos-sdk-onto-v0538-base-is-v0533-/",
+      "file": "01671-choredeps-rebase-forked-cosmos-sdk-onto-v0538-base-is-v0533-.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    chore(deps): rebase forked cosmos-sdk onto v0.53.8 (base is v0.53.3, ~5 patch releases behind)\n    <span class=\"issues-number\">#1671</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kAIPraxisBot\">@kAIPraxisBot</a> opened 2026-08-28 20:22 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labe"
+    },
+    "ai_description": "A new issue has been opened to rebase Gonka's forked cosmos-sdk from v0.53.3 up to v0.53.8, closing a gap of roughly five patch releases. Staying current with upstream patches helps keep the network secure and stable, so this maintenance work is well worth tracking."
+  },
+  {
+    "id": "evt_20260829022131_b00230f9",
+    "timestamp": "2026-08-29T02:21:31.394719+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1205 — chain-halt: `markValidatorForDeletion` jailed branch races CometBFT validator-update lag → slashing fails with ErrNoValidatorFound",
+      "url": "/community/issues/01205-chain-halt-markvalidatorfordeletion-jailed-branch-races-come/",
+      "file": "01205-chain-halt-markvalidatorfordeletion-jailed-branch-races-come.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    chain-halt: `markValidatorForDeletion` jailed branch races CometBFT validator-update lag → slashing fails with ErrNoValidatorFound\n    <span class=\"issues-number\">#1205</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-05-20 02:36 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    chain-halt: `markValidatorForDeletion` jailed branch races CometBFT validator-update lag → slashing fails with ErrNoValidatorFound\n    <span class=\"issues-number\">#1205</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-05-20 02:36 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n"
+    },
+    "ai_description": "Issue #1205 received a new comment, bringing the discussion to three replies as the team continues investigating the chain-halt scenario where jailed validators race CometBFT's update lag. Keep following the thread for updates on the ErrNoValidatorFound slashing failure."
+  },
+  {
+    "id": "evt_20260829022131_28be25d7",
+    "timestamp": "2026-08-29T02:21:31.394765+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1654 — ⁠[Bug] OpenAI API compatibility: DeepSeek reasoning output concatenated into content & invalid reasoning_effort validation⁠",
+      "url": "/community/issues/01654-bug-openai-api-compatibility-deepseek-reasoning-output-conca/",
+      "file": "01654-bug-openai-api-compatibility-deepseek-reasoning-output-conca.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    ⁠[Bug] OpenAI API compatibility: DeepSeek reasoning output concatenated into content & invalid reasoning_effort validation⁠\n    <span class=\"issues-number\">#1654</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/dmrtest\">@dmrtest</a> opened 2026-08-26 15:07 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    ⁠[Bug] OpenAI API compatibility: DeepSeek reasoning output concatenated into content & invalid reasoning_effort validation⁠\n    <span class=\"issues-number\">#1654</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/dmrtest\">@dmrtest</a> opened 2026-08-26 15:07 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div "
+    },
+    "ai_description": "Issue #1654 has received its first comment. The bug report covers DeepSeek reasoning output being incorrectly merged into content and invalid reasoning_effort validation, so keep an eye on this thread for updates from the maintainers."
+  },
+  {
     "id": "evt_20260828193315_8e26407e",
     "timestamp": "2026-08-28T19:33:15.648114+00:00",
     "section": "calendar",

@@ -2,7 +2,7 @@
 title: "#1358 — Inbound bridge votes lost after upgrade simulation (node unavailable for some minutes for upgrade) — no retry, deposits stuck BRIDGE_PENDING"
 source: https://github.com/gonka-ai/gonka/issues/1358
 issue_number: 1358
-synced_at: 2026-08-28T18:50:09Z
+synced_at: 2026-08-29T02:18:17Z
 template: issues-main.html
 ---
 

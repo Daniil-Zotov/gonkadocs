@@ -2,7 +2,7 @@
 title: "#1654 — ⁠[Bug] OpenAI API compatibility: DeepSeek reasoning output concatenated into content & invalid reasoning_effort validation⁠"
 source: https://github.com/gonka-ai/gonka/issues/1654
 issue_number: 1654
-synced_at: 2026-08-28T18:49:42Z
+synced_at: 2026-08-29T02:17:28Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/dmrtest">@dmrtest</a> opened 2026-08-26 15:07 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-08-26 16:02 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-08-28 23:25 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
 </div>
@@ -81,6 +81,25 @@ Instead, the model's scratchpad/CoT is merged into `message.content` as plain te
 }
 
 
+</div>
+
+---
+
+## 💬 Comments (1)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span class="issues-meta-item">commented 2026-08-28 23:21 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <ul>
+<li><code>reasoning_effort</code> will be available in the new gateway.</li>
+<li>The "reply with only the integer" shape is in tension with the inference-validation floor (<code>min_tokens</code> is currently 64). Dropping that to 1 would make a short numeric answer possible, but it is a protocol tradeoff (validation / accounting) </li>
+<li>Forcing reasoning into a separate field is not something that can be assumed across hosts today (uneven <code>--reasoning-parser</code> / vLLM V2 support).</li>
+</ul>
+<p>There is no broker-side workaround that looks safe to ship. The remaining question is a design one — whether to keep the validation floor or treat <code>min_tokens: 1</code> as an explicit tradeoff. That needs a discussion before anyone can promise the official DeepSeek <code>reasoning_content</code> split. Happy to have community input on that tradeoff; @qdanik please correct if anything is wrong </p>
+  </div>
 </div>
 
 ---
