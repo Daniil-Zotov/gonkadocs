@@ -68,8 +68,8 @@ hide:
     <span>Voting ends 2026-08-29</span>
   </div>
   <div class="prop-card-desc">Increase the weight_scale_factor for deepseek-ai/DeepSeek-V4-Flash-0731 from 0.214 to 0.246. All other model and chain parameters remain unchanged.  Resubmission of proposal 97, which expired without …</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>98.3%</strong> (175,002)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>1.7%</strong> (3,038)</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>42.8%</strong> (178,040 / 415,621) · Quorum <strong>25%</strong> (103,905)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>98.5%</strong> (201,061)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>1.5%</strong> (3,039)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>37.2%</strong> (204,100 / 549,168) · Quorum <strong>25%</strong> (137,292)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
