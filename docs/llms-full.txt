@@ -19366,7 +19366,7 @@ decentralized mixture-of-experts."
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-08-29 03:01 UTC
+2026-08-29 10:40 UTC
 
 ---
 
@@ -19420,7 +19420,7 @@ curl -s https://node3.gonka.ai/chain-api/cosmos/bank/v1beta1/balances/gonka18pkq
 
 **Address:** [`gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33`](https://gonka.gg/address/gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33)
 
-Current balance: 3,748,733 GNK
+Current balance: 3,815,643 GNK
 
 The Gov Module authority is the only address permitted to execute `MsgCommunityPoolSpend` transfers from the Community Pool. When a governance proposal passes, this address signs and sends the requested funds to the specified recipient.
 
@@ -19813,7 +19813,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-08-29 08:59 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-08-29 14:25 UTC*
 
 ---
 
@@ -28497,8 +28497,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-08-29
   
   Increase the weight_scale_factor for deepseek-ai/DeepSeek-V4-Flash-0731 from 0.214 to 0.246. All other model and chain parameters remain unchanged.  Resubmission of proposal 97, which expired without …
-  Yes 98.3% (176,559) · No 0.0% (0) · Veto 0.0% (0) · Abstain 1.7% (3,039)
-  ✓ Turnout 41.6% (179,598 / 431,631) · Quorum 25% (107,907)
+  Yes 98.1% (160,318) · No 0.0% (0) · Veto 0.0% (0) · Abstain 1.9% (3,039)
+  ✓ Turnout 40.3% (163,357 / 404,897) · Quorum 25% (101,224)
 
   
     #97 – Increase DeepSeek V4 Flash weight_scale_factor to 0.246
@@ -29597,7 +29597,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-97 proposals across 5 quarters. Last updated: 2026-08-29 09:41 UTC
+97 proposals across 5 quarters. Last updated: 2026-08-29 13:24 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -66741,8 +66741,8 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-08-29
   
   Increase the weight_scale_factor for deepseek-ai/DeepSeek-V4-Flash-0731 from 0.214 to 0.246. All other model and chain parameters remain unchanged.  Resubmission of proposal 97, which expired without …
-  Yes 98.3% (176,559) · No 0.0% (0) · Veto 0.0% (0) · Abstain 1.7% (3,039)
-  ✓ Turnout 41.6% (179,598 / 431,631) · Quorum 25% (107,907)
+  Yes 98.1% (160,318) · No 0.0% (0) · Veto 0.0% (0) · Abstain 1.9% (3,039)
+  ✓ Turnout 40.3% (163,357 / 404,897) · Quorum 25% (101,224)
 
   
     #97 – Increase DeepSeek V4 Flash weight_scale_factor to 0.246
@@ -74028,12 +74028,12 @@ Recomputed on historical B300 nonce data and fresh PoC experiments, the factor i
     
   
   
-    Yes 98.3% (176,559)
+    Yes 98.1% (160,318)
     No 0.0% (0)
     Veto 0.0% (0)
-    Abstain 1.7% (3,039)
-    Total 179,598 votes
-    ✓ Turnout 41.6% (179,598 / 431,631) · Quorum 25% (107,907)
+    Abstain 1.9% (3,039)
+    Total 163,357 votes
+    ✓ Turnout 40.3% (163,357 / 404,897) · Quorum 25% (101,224)
   
 
 Voters
