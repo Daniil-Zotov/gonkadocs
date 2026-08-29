@@ -21,7 +21,7 @@
       ],
       "count": 1
     },
-    "ai_description": null
+    "ai_description": "Voting closes today on proposal #98 to raise the DeepSeek V4 Flash weight scale factor to 0.246. If passed, this adjustment will directly impact how the network weights and routes inference for this model. Make sure to cast your vote if you have not already."
   },
   {
     "id": "evt_20260829022131_2783d547",
