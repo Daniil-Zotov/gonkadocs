@@ -2,7 +2,7 @@
 title: "#1542 — devshardctl: ParseProtocolVersion rejects route v4 (noisy rotation fallback log)"
 source: https://github.com/gonka-ai/gonka/issues/1542
 issue_number: 1542
-synced_at: 2026-08-30T06:47:13Z
+synced_at: 2026-08-30T12:59:04Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 2026-08-04 15:58 UTC</span>
-    <span class="issues-meta-item">4 comments</span>
-    <span class="issues-meta-item">Updated 2026-08-28 17:19 UTC</span>
+    <span class="issues-meta-item">5 comments</span>
+    <span class="issues-meta-item">Updated 2026-08-30 10:43 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span> <span class="issues-label" style="background-color: #7057ff; color: #ffffff; border-color: #7057ff;">good first issue</span> <span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
 </div>
@@ -64,7 +64,7 @@ Also worth aligning compose healthcheck (`curl` vs image `wget`) separately — 
 
 ---
 
-## 💬 Comments (4)
+## 💬 Comments (5)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -109,6 +109,15 @@ types.ProtocolVersion   -&gt; no consumers
   </div>
   <div class="issues-comment-body issues-content">
     <p>I'd like to take this.\n\nPlan:\n- add ProtocolV4 to ParseProtocolVersion\n- extend unit test to cover v4\n- keep current v1/v2/v3 behavior unchanged\n\nETA: immediate PR.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/wrvnnull">@wrvnnull</a></span>
+    <span class="issues-meta-item">commented 2026-08-30 10:43 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Tracked in #1630 (gateway v4). #1670 was a duplicate and is closed. PR #1678 covers the API-side malformed JSON fix for <code>/v1/participants</code>.</p>
   </div>
 </div>
 

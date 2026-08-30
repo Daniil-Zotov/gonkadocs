@@ -2,7 +2,7 @@
 title: "#1628 — [BUG] Public routers hang/timeout on prompts ≥ ~7.5K tokens (prefill); 502 `all_providers_failed`; DeepSeek missing from /v1/models"
 source: https://github.com/gonka-ai/gonka/issues/1628
 issue_number: 1628
-synced_at: 2026-08-30T06:47:10Z
+synced_at: 2026-08-30T12:59:03Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/inecro1">@inecro1</a> opened 2026-08-23 12:28 UTC</span>
-    <span class="issues-meta-item">2 comments</span>
-    <span class="issues-meta-item">Updated 2026-08-29 21:39 UTC</span>
+    <span class="issues-meta-item">3 comments</span>
+    <span class="issues-meta-item">Updated 2026-08-30 10:52 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -92,7 +92,7 @@ Threshold: failure is deterministic at ~7.5K prefill tokens and above. This is c
 
 ---
 
-## 💬 Comments (2)
+## 💬 Comments (3)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -115,6 +115,43 @@ Threshold: failure is deterministic at ~7.5K prefill tokens and above. This is c
 <p>The <code>curl</code> in the post is the <code>ping</code>. To replay the hang, please paste the same kind of command with the large prompt (~7.5K or ~40K) that timed out for you (URL + body + <code>--max-time</code>).</p>
 <p>Happy to re-run if we have that.
 Gonka <a href="https://github.com/paranjko/external-test-lab">External TestLab</a></p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/inecro1">@inecro1</a></span>
+    <span class="issues-meta-item">commented 2026-08-30 10:51 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Thanks for the detailed test! One clarification: our report is specifically about the <strong>public routers</strong> (<code>api.opengonka.com</code>, <code>node.gonka.lat</code>, <code>gate.joingonka.ai</code>, <code>openbroker.gonka.gg</code>) — your gateway is a separate deployment, so a clean pass there doesn't contradict the report.</p>
+<p>Here's the exact repro we use (large-prefill non-stream request to <code>api.opengonka.com</code>, ~160K chars ≈ 40K tokens system prompt; redact the key):</p>
+<pre><code class="language-bash">python3 - &lt;&lt;'EOF'
+import json, urllib.request, time
+body = json.dumps({
+  &quot;model&quot;: &quot;deepseek-ai/DeepSeek-V4-Flash-0731&quot;,
+  &quot;messages&quot;: [
+    {&quot;role&quot;: &quot;system&quot;, &quot;content&quot;: &quot;x&quot; * 160_000},
+    {&quot;role&quot;: &quot;user&quot;, &quot;content&quot;: &quot;ok&quot;}
+  ],
+  &quot;max_tokens&quot;: 5,
+  &quot;stream&quot;: False,
+}).encode()
+req = urllib.request.Request(&quot;https://api.opengonka.com/v1/chat/completions&quot;, data=body, method=&quot;POST&quot;)
+req.add_header(&quot;Authorization&quot;, &quot;Bearer &lt;API_KEY&gt;&quot;)
+req.add_header(&quot;Content-Type&quot;, &quot;application/json&quot;)
+t0 = time.time()
+try:
+    with urllib.request.urlopen(req, timeout=100) as r:
+        print(&quot;OK&quot;, round(time.time()-t0, 1), &quot;s&quot;, r.read()[:200])
+except Exception as e:
+    print(type(e).__name__, round(time.time()-t0, 1), &quot;s&quot;, str(e)[:200])
+EOF
+</code></pre>
+<p>Latest probe results against <code>api.opengonka.com</code> (2026-08-30):
+- <code>GET /v1/models</code> -&gt; 200 in ~0.5s
+- small prompt (~5 tokens) -&gt; 200 in 1.2-3.4s
+- same large-prefill request as above -&gt; <strong>timeout after 100s, zero bytes</strong> (reproducible on every probe since 2026-08-23, latest at 13:14 today)</p>
+<p>We also reproduced the failure across <code>node.gonka.lat</code>, <code>gate.joingonka.ai</code>, <code>openbroker.gonka.gg</code>, and with stream=true (first chunk never arrives). If it works on your gateway, great — the question is why the public routers still hang at the same prefill volume. Happy to run a side-by-side test against your gateway if that helps.</p>
   </div>
 </div>
 
