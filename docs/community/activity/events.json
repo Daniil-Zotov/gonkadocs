@@ -1,5 +1,53 @@
 [
   {
+    "id": "evt_20260830211653_def9c60a",
+    "timestamp": "2026-08-30T21:16:53.674312+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1680 — Kimi-K2.6 non-stream on gateway v4: 502 nonce_finished=false (stream OK)",
+      "url": "/community/issues/01680-kimi-k26-non-stream-on-gateway-v4-502-nonce-finishedfalse-st/",
+      "file": "01680-kimi-k26-non-stream-on-gateway-v4-502-nonce-finishedfalse-st.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Kimi-K2.6 non-stream on gateway v4: 502 nonce_finished=false (stream OK)\n    <span class=\"issues-number\">#1680</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/paranjko\">@paranjko</a> opened 2026-08-30 19:49 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><s"
+    },
+    "ai_description": "A new issue has been opened by @paranjko regarding Kimi-K2.6 returning a 502 error with nonce_finished=false when using non-streaming mode on gateway v4, while streaming mode works correctly. The community is now tracking this bug under issue #1680 and welcomes any insights or reproduction steps."
+  },
+  {
+    "id": "evt_20260830211653_7edccea3",
+    "timestamp": "2026-08-30T21:16:53.674474+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1542 — devshardctl: ParseProtocolVersion rejects route v4 (noisy rotation fallback log)",
+      "url": "/community/issues/01542-devshardctl-parseprotocolversion-rejects-route-v4-noisy-rota/",
+      "file": "01542-devshardctl-parseprotocolversion-rejects-route-v4-noisy-rota.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshardctl: ParseProtocolVersion rejects route v4 (noisy rotation fallback log)\n    <span class=\"issues-number\">#1542</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-08-04 15:58 UTC</span>\n    <span class=\"issues-meta-item\">5 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"mar",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    devshardctl: ParseProtocolVersion rejects route v4 (noisy rotation fallback log)\n    <span class=\"issues-number\">#1542</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-08-04 15:58 UTC</span>\n    <span class=\"issues-meta-item\">5 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div "
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260830211653_b7e78c46",
+    "timestamp": "2026-08-30T21:16:53.674494+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1654 — ⁠[Bug] OpenAI API compatibility: DeepSeek reasoning output concatenated into content & invalid reasoning_effort validation⁠",
+      "url": "/community/issues/01654-bug-openai-api-compatibility-deepseek-reasoning-output-conca/",
+      "file": "01654-bug-openai-api-compatibility-deepseek-reasoning-output-conca.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    ⁠[Bug] OpenAI API compatibility: DeepSeek reasoning output concatenated into content & invalid reasoning_effort validation⁠\n    <span class=\"issues-number\">#1654</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/dmrtest\">@dmrtest</a> opened 2026-08-26 15:07 UTC</span>\n    <span class=\"issues-meta-item\">4 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    ⁠[Bug] OpenAI API compatibility: DeepSeek reasoning output concatenated into content & invalid reasoning_effort validation⁠\n    <span class=\"issues-number\">#1654</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/dmrtest\">@dmrtest</a> opened 2026-08-26 15:07 UTC</span>\n    <span class=\"issues-meta-item\">5 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260830130206_1574ab65",
     "timestamp": "2026-08-30T13:02:06.637612+00:00",
     "section": "issues",

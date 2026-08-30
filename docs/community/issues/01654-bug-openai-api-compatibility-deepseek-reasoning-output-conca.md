@@ -2,7 +2,7 @@
 title: "#1654 — ⁠[Bug] OpenAI API compatibility: DeepSeek reasoning output concatenated into content & invalid reasoning_effort validation⁠"
 source: https://github.com/gonka-ai/gonka/issues/1654
 issue_number: 1654
-synced_at: 2026-08-30T17:35:15Z
+synced_at: 2026-08-30T21:13:45Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/dmrtest">@dmrtest</a> opened 2026-08-26 15:07 UTC</span>
-    <span class="issues-meta-item">4 comments</span>
-    <span class="issues-meta-item">Updated 2026-08-29 13:43 UTC</span>
+    <span class="issues-meta-item">5 comments</span>
+    <span class="issues-meta-item">Updated 2026-08-30 18:01 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
 </div>
@@ -85,7 +85,7 @@ Instead, the model's scratchpad/CoT is merged into `message.content` as plain te
 
 ---
 
-## 💬 Comments (4)
+## 💬 Comments (5)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -149,6 +149,15 @@ Instead, the model's scratchpad/CoT is merged into `message.content` as plain te
     <p>Thanks — that matches what we see: no <code>--reasoning-parser</code> → CoT stays in <code>content</code>, <code>reasoning_content</code> is null.</p>
 <p><code>min_tokens: 64</code> noted. The concatenated samples are unparsed CoT in <code>content</code>, not padding to 64 tokens. The agent bug is the missing split on parser-less hosts.</p>
 <p>If <code>--reasoning-parser</code> is required for this model, when does it become mandatory on every MLNode? Until then the OpenAI-compat contract is a host-lottery and not a drop-in for official DeepSeek V4 Flash.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/qdanik">@qdanik</a></span>
+    <span class="issues-meta-item">commented 2026-08-30 18:01 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>@dmrtest It is required for this model but in case if the host decide to run own config without reasoning parser - it will work. I guess protocol can validate this gate but no plans for now.</p>
   </div>
 </div>
 
