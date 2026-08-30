@@ -6,7 +6,7 @@ template: issues-main.html
 # Issues: nice-to-have
 
 Issues with label **nice-to-have**. Total: **1**.
-Updated: `2026-08-29 21:51 UTC`.
+Updated: `2026-08-30 00:28 UTC`.
 
 [← All Issues](../../index.md)
 

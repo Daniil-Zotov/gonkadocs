@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260830002836_06bdfd73",
+    "timestamp": "2026-08-30T00:28:36.864726+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1677 — [BUG] Gateway/mlnode: agent-sized prefill hangs or fails with no usable error",
+      "url": "/community/issues/01677-bug-gatewaymlnode-agent-sized-prefill-hangs-or-fails-with-no/",
+      "file": "01677-bug-gatewaymlnode-agent-sized-prefill-hangs-or-fails-with-no.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [BUG] Gateway/mlnode: agent-sized prefill hangs or fails with no usable error\n    <span class=\"issues-number\">#1677</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/paranjko\">@paranjko</a> opened 2026-08-29 20:39 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issu",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [BUG] Gateway/mlnode: agent-sized prefill hangs or fails with no usable error\n    <span class=\"issues-number\">#1677</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/paranjko\">@paranjko</a> opened 2026-08-29 20:39 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issue"
+    },
+    "ai_description": "Issue #1677 regarding agent-sized prefill failures in Gateway/mlnode has received its first comment. The bug report about hangs and unusable errors during prefill operations is now being discussed. Stay tuned for updates as the conversation develops."
+  },
+  {
     "id": "evt_20260829215134_b2b69614",
     "timestamp": "2026-08-29T21:51:34.044863+00:00",
     "section": "issues",

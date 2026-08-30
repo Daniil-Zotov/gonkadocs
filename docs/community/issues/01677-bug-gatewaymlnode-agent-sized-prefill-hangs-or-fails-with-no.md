@@ -2,7 +2,7 @@
 title: "#1677 — [BUG] Gateway/mlnode: agent-sized prefill hangs or fails with no usable error"
 source: https://github.com/gonka-ai/gonka/issues/1677
 issue_number: 1677
-synced_at: 2026-08-29T21:48:23Z
+synced_at: 2026-08-30T00:25:55Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
     <span class="issues-meta-item"><a href="https://github.com/paranjko">@paranjko</a> opened 2026-08-29 20:39 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-08-29 21:25 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-08-29 21:51 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -38,6 +38,23 @@ The network advertises 200K–400K context. Agent clients in `docs/chat-api/agen
 2. Same call with **total input ~8K–40K tokens** (one message or split across many — #1628 showed chunking does not help) → hang &gt; tens of seconds with **0 bytes**, client abort, or opaque 5xx.
 3. Confirm it is **prefill volume**, not JSON shape.
 
+</div>
+
+---
+
+## 💬 Comments (1)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/paranjko">@paranjko</a></span>
+    <span class="issues-meta-item">commented 2026-08-29 21:51 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Could not reproduce a 0-byte hang on our <a href="https://inference.dahl.global">gateway</a> (DeepSeek-V4-Flash-0731 and MiniMax-M2.7, unique ~12k / ~63k <code>prompt_tokens</code>). <code>stream=true</code> and <code>stream=false</code>: HTTP 200. Stream: first token ~1–6s. Non-stream: full JSON in ~2–15s (DeepSeek ~63k was 14.5s). <code>max_tokens=5</code> completes as 64. Engine stayed up.</p>
+<p>A ~75k-in / 4096-out MiniMax non-stream on another path finished in ~53s (<code>outcome=served</code>) a bit slow, not stuck.</p>
+<p>Asked the topic starters on #1628 for the large-prompt <code>curl</code>.</p>
+<p>Probably not a network-wide ≥8K 0-byte hang. Closing here.</p>
+  </div>
 </div>
 
 ---
