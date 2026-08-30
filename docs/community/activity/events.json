@@ -17,7 +17,7 @@
       "event_type": "proposal_report",
       "url": "/proposals/proposals/2026-q3/98/"
     },
-    "ai_description": null
+    "ai_description": "Proposal #98 has passed, raising the weight_scale_factor for DeepSeek V4 Flash from 0.214 to 0.246 while keeping all other parameters the same. This approved resubmission of proposal 97 means the network will now apply the updated scaling factor to this model."
   },
   {
     "id": "evt_20260830002836_06bdfd73",
