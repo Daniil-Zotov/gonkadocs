@@ -19750,13 +19750,12 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ## 🟢 Active Proposals
 
-4Active
-8Votes
+3Active
+6Votes
 0Total Bid
 
 | Status | Title | Author | Votes | Avg. Bid | Closes |
 | :----- | :----- | :----- | ----: | -------: | :----- |
-| 🟢 | [Крупнейшее в мире событие для ИИ-разработчиков и создателей AI-продуктов — Sprin](./a2584dc4-1e7b-4cb7-a90d-fcf67306d7c8/) | Nataliia Klymovska | 2 | 0.00 GNK | 2026-08-31 |
 | 🟢 | [Game Hackaton AI](./165501de-189e-41c3-aad9-04bac872ef0d/) | Victor | 1 | 0.00 GNK | 2026-09-11 |
 | 🟢 | [GONKA Global Growth & Market Expansion](./dbc5de38-aec1-4a90-a027-8d7ac835aab0/) | Nataliia Klymovska | 3 | 0.00 GNK | 2026-09-15 |
 | 🟢 | [GONKA × Guinness World Records: попытка установить мировой рекорд](./4a170e2e-e1c6-487a-8089-ac533e18194b/) | Nataliia Klymovska | 2 | 0.00 GNK | 2026-09-17 |
@@ -19765,12 +19764,13 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ## 🔴 Expired Proposals
 
-39Expired
-42Votes
+40Expired
+44Votes
 78.8K GNKTotal Bid
 
 | Status | Title | Author | Votes | Avg. Bid | Closed |
 | :----- | :----- | :----- | ----: | -------: | :----- |
+| 🔴 | [Крупнейшее в мире событие для ИИ-разработчиков и создателей AI-продуктов — Sprin](./a2584dc4-1e7b-4cb7-a90d-fcf67306d7c8/) | Nataliia Klymovska | 2 | 0.00 GNK | 2026-08-31 |
 | 🔴 | [Повысить коэффициент DeepSeek V4 Flash с 0,214 до 0,4231 (обсуждаемо).](./f3ed4487-d373-46d8-bdcf-4b1d68e5cbf1/) | Slava MyGonka | 3 | 0.00 GNK | 2026-08-29 |
 | 🔴 | [Мини фаундейшен](./ea988e94-2ee3-486c-bd7e-2422c04e0278/) | Mitch | 2 | 564.09 GNK | 2026-08-29 |
 | 🔴 | [Add DeepSeek V4 Pro and Qwen3.8-27B Models](./5fbee7f8-5089-450d-bd76-fb54df23d809/) | Aung Myat Moe | 2 | 0.00 GNK | 2026-08-27 |
@@ -19813,7 +19813,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-08-31 05:25 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-08-31 13:36 UTC*
 
 ---
 
@@ -23762,7 +23762,7 @@ See you next week!
 
 # Крупнейшее в мире событие для ИИ-разработчиков и создателей AI-продуктов — Sprin
 
-🟢 Active
+🔴 Expired
 
 **Author:** Nataliia Klymovska
 **Created:** 2026-08-17 10:33 UTC
