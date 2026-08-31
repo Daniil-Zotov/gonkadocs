@@ -7,7 +7,7 @@ template: issues-main.html
 
 All issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).
 Total: **341** (🟢 open: **88**, 🔴 closed: **253**).
-Updated: `2026-08-31 05:49 UTC`.
+Updated: `2026-08-31 14:07 UTC`.
 
 <ul class="issues-list">
 <li class="issues-list-item">
@@ -20,7 +20,7 @@ Updated: `2026-08-31 05:49 UTC`.
     <p class="issues-desc">We ran into a Kimi-K2.6 issue on **gateway v4** (`mainnet-v0.2.15-v4`) and wanted to flag it.  **What we see.** `stream=true` is fine. `stream=false` with a tiny `max_tokens` (64) often returns JSON....</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/paranjko">@paranjko</a> opened 6 hours ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/paranjko">@paranjko</a> opened 14 hours ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>
@@ -35,7 +35,7 @@ Updated: `2026-08-31 05:49 UTC`.
     <p class="issues-desc">## Summary  When the gateway serves `DEVSHARD_ROUTE_PREFIX=/devshard/v4`, escrow autorotation logs a fallback on every create:  ``` escrow_rotation_protocol_version_fallback route_prefix="/devshard/v4...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span> <span class="issues-label" style="background-color: #7057ff; color: #ffffff; border-color: #7057ff;">good first issue</span> <span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 10 hours ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 18 hours ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 5</span>
     </div>
   </div>
@@ -50,7 +50,7 @@ Updated: `2026-08-31 05:49 UTC`.
     <p class="issues-desc">### Summary When using `deepseek-ai/DeepSeek-V4-Flash-0731` via Open Broker (`api.openbroker.gonka.gg`), the gateway fails to parse reasoning tokens into `message.reasoning_content`.  Instead, the mod...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/dmrtest">@dmrtest</a> opened 11 hours ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/dmrtest">@dmrtest</a> opened 20 hours ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 5</span>
     </div>
   </div>
@@ -65,7 +65,7 @@ Updated: `2026-08-31 05:49 UTC`.
     <p class="issues-desc">## Summary  Public Gonka routers hang or fail on any request whose total prefill is ≥ ~7.5K tokens: tested 2026-08-23 across `api.opengonka.com`, `node.gonka.lat`, `gate.joingonka.ai`, `openbroker.gon...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/inecro1">@inecro1</a> opened 18 hours ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/inecro1">@inecro1</a> opened 1 day ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 3</span>
     </div>
   </div>
@@ -140,7 +140,7 @@ Updated: `2026-08-31 05:49 UTC`.
     <p class="issues-desc"># Height-sync: one roundtrip per host, not per slot  **Labels:** `enhancement`, `devshard`, `height-sync`  ## Summary  Idle height-sync still fans out **one signed `/chat/completions` roundtrip per es...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/a-kuprin">@a-kuprin</a> opened 2 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/a-kuprin">@a-kuprin</a> opened 3 days ago</span>
       
     </div>
   </div>
@@ -335,7 +335,7 @@ Updated: `2026-08-31 05:49 UTC`.
     <p class="issues-desc">## Summary  A host can fall far behind the current session state and later receive an oversized catch-up request, causing `413 Payload Too Large` on host transport.  This is related to large payload h...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/aikuznetsov">@aikuznetsov</a> opened 3 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/aikuznetsov">@aikuznetsov</a> opened 4 days ago</span>
       
     </div>
   </div>
@@ -350,7 +350,7 @@ Updated: `2026-08-31 05:49 UTC`.
     <p class="issues-desc"># Proposal: Repair loop for `escrow_state_root_diverged`  **Status:** Draft / proposal   **Related:** [PR #1581 accounting review](../pr-1581-accounting-review.md) §1 (ghosts) and §3 (capability / sta...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/a-kuprin">@a-kuprin</a> opened 3 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/a-kuprin">@a-kuprin</a> opened 4 days ago</span>
       
     </div>
   </div>
@@ -365,7 +365,7 @@ Updated: `2026-08-31 05:49 UTC`.
     <p class="issues-desc">### Summary  Large `/v1/chat/completions` requests can pass the gateway-side body limit but fail later with `413 Payload Too Large` on host transport.  The issue appears to be a mismatch between:  - w...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/aikuznetsov">@aikuznetsov</a> opened 3 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/aikuznetsov">@aikuznetsov</a> opened 4 days ago</span>
       
     </div>
   </div>
@@ -425,7 +425,7 @@ Updated: `2026-08-31 05:49 UTC`.
     <p class="issues-desc"># OpenBroker strips provider prompt-cache metadata (`prompt_tokens_details` is always `null`)  ## Summary  OpenBroker performs prompt/prefix caching — latency collapses from 12–31 s on a cold 52k-toke...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/theaungmyatmoe">@theaungmyatmoe</a> opened 6 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/theaungmyatmoe">@theaungmyatmoe</a> opened 7 days ago</span>
       
     </div>
   </div>
@@ -515,7 +515,7 @@ Updated: `2026-08-31 05:49 UTC`.
     <p class="issues-desc">## Summary  I’ve been independently testing Gonka’s gateway/request-accounting flow in the local devshard test environment and found a reproducible causal-addressability edge case around client timeou...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/safal207">@safal207</a> opened 17 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/safal207">@safal207</a> opened 18 days ago</span>
       
     </div>
   </div>
@@ -530,7 +530,7 @@ Updated: `2026-08-31 05:49 UTC`.
     <p class="issues-desc">## Location  `decentralized-api/payloadstorage/managed_storage.go` — lines 129–138  ## Description  In `ManagedStorage.cleanup()`, `m.minPruned` is advanced to `threshold` **before** the pruning gorou...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Mayveskii">@Mayveskii</a> opened 18 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/Mayveskii">@Mayveskii</a> opened 19 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -680,7 +680,7 @@ Updated: `2026-08-31 05:49 UTC`.
     <p class="issues-desc">## Summary  On testnet (`gonka-testnet`, participant `versiond` / `devshardd` `0.2.14-v4-r4`), gateway chat fails with:  ```text persist diff nonce N: diff persist retries exhausted: session not found...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 29 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 2026-08-01</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>

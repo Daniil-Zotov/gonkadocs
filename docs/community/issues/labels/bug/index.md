@@ -6,7 +6,7 @@ template: issues-main.html
 # Issues: bug
 
 Issues with label **bug**. Total: **19**.
-Updated: `2026-08-31 05:49 UTC`.
+Updated: `2026-08-31 14:07 UTC`.
 
 [← All Issues](../../index.md)
 
@@ -21,7 +21,7 @@ Updated: `2026-08-31 05:49 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/paranjko">@paranjko</a> opened 6 hours ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/paranjko">@paranjko</a> opened 14 hours ago</span>
       
     </div>
   </div>
@@ -36,7 +36,7 @@ Updated: `2026-08-31 05:49 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/dmrtest">@dmrtest</a> opened 11 hours ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/dmrtest">@dmrtest</a> opened 20 hours ago</span>
       
     </div>
   </div>
@@ -51,7 +51,7 @@ Updated: `2026-08-31 05:49 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/theaungmyatmoe">@theaungmyatmoe</a> opened 6 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/theaungmyatmoe">@theaungmyatmoe</a> opened 7 days ago</span>
       
     </div>
   </div>
