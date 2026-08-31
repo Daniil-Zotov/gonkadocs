@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-08-31T14:07:32.515938+00:00",
+  "snapshot_time": "2026-08-31T20:24:54.697928+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "Description",
@@ -751,15 +751,18 @@
     "00521-create-a-proxy-endpoint-that-aggregates-multiple-internal-rp.md": {
       "title": "#521 — Create a proxy endpoint that aggregates multiple internal RPC nodes behind a single public-facing address (for crypto wallets)",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Create a proxy endpoint that aggregates multiple internal RPC nodes behind a single public-facing address (for crypto wallets)\n    <span class=\"issues-number\">#521</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-06 00:34 UTC</span>\n    <span class=\"issues-meta-item\">4 comments</span>\n    <span class=\"i",
-      "comment_checksum": "5a3faa01431056de04d6715f9a2ba6ed2f32dbfbe53ebaa51d2eb3f783b868c2",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Create a proxy endpoint that aggregates multiple internal RPC nodes behind a single public-facing address (for crypto wallets)\n    <span class=\"issues-number\">#521</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-06 00:34 UTC</span>\n    <span class=\"issues-meta-item\">7 comments</span>\n    <span class=\"i",
+      "comment_checksum": "11a333b3ab8ebbe4f2c9931d279057dae4924ad914a487016d0b2e3abfd5ac23",
       "comment_bodies": [
         "@kotelnikova, could you please share the technical requirements?",
         "I'll take it, thank you! @tcharchian",
+        "Hi! Just to add some context from our side: https://rpc.gonka.gg acts as a routing layer in front of multiple RPC upstreams. It routes traffic between our own RPC nodes (we have multiple own feather rpc nodes) and node1.gonka.ai-node3.gonka.ai, periodically health-checks each upstream, and automatically fails over when one of them becomes unavailable. The routing priority is set to prefer our own ",
         "@gonkalabs thanks, this makes sense. Would it be possible to extend the upstream pool with for example 6block and Hyperfusion, as fallback upstreams as well? Do your health checks only verify availability, or do they also check whether the upstream is lagging behind? For wallet reliability, it would be important to fail over not only when a node is down, but also when it is stale.",
-        "@gonkalabs thanks, please let me know once you add more members"
+        "@tcharchian Yes, we can extend the upstream pool with more members: hyperfusion, 6block - no problem! Yes, we test chain-tip lag of upstreams as well as latency and general up/down status, so stale detection is one of the criteria when service selects the upstream for a request",
+        "@gonkalabs thanks, please let me know once you add more members",
+        "@gonkalabs we added Hyperfusion and 6block rpc to the upstream list! Bellow is a diagram of routing. All nodes are latency, tip-tested. Also, we significantly encreased rpc throughput, and made service completely work without any api keys and without any limits! So anyone can use this routing layer to access the combined stability of many upstreams!"
       ],
-      "checksum": "b68d8eada293f41e85e75394c4c4afcdede3f46470291235c67206b92e464c64"
+      "checksum": "427c3404c2caa39151700eb5158db6e7aa6745583a9d7a0dcecae2c03582e977"
     },
     "00522-add-support-for-text-to-video-models-and-inference-to-the-ne.md": {
       "title": "#522 — Add support for text-to-video models and inference to the network",
@@ -2556,12 +2559,13 @@
     "01121-inference-v1chatcompletions-on-node3-returns-429-for-90-of-r.md": {
       "title": "3 entries: node1, node2, node3",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Inference /v1/chat/completions on node3 returns 429 for ~90% of requests — single live TA caps community gateways at ~10% pass-rate\n    <span class=\"issues-number\">#1121</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/unameisfine\">@unameisfine</a> opened 2026-04-26 22:40 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span c",
-      "comment_checksum": "60531cc504933ba0cc6774a1edfde3ebe173f16953c67f790dc77b0d0ff74721",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Inference /v1/chat/completions on node3 returns 429 for ~90% of requests — single live TA caps community gateways at ~10% pass-rate\n    <span class=\"issues-number\">#1121</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/unameisfine\">@unameisfine</a> opened 2026-04-26 22:40 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span ",
+      "comment_checksum": "d5fd193bfb7d9bd4044f0726ba1c9e3608f0bb82b0e355a5cba7b7d94fc3c733",
       "comment_bodies": [
+        "Hey @unameisfine - this is the GonkaLabs team. To address your question about proxy.gonka.gg consistently sitting above 90% uptime: no, we don't have any special privileges on the network. Here's what's actually under the hood: Smart TA rotation - we hop between Transfer Agents instead of pinning to a single one, so a slow or rate-limited TA never blocks the pipeline. A small upstream wallet pool ",
         "@unameisfine Please note that the Developer Quickstart has been significantly updated: https://gonka.ai/docs/developer/quickstart/ If you still have any questions after reviewing it, please create a new issue."
       ],
-      "checksum": "f6fb9595681570ec56238fd985f6978187444ad05bb52fe1bcf6d308402f51f9"
+      "checksum": "c87d78246f66fd6cc0a751ea5a89ac128d0b3295fd3ee11ca79b359bfdec6810"
     },
     "01135-poc-decode-proposal.md": {
       "title": "PoC-decode: Extending Proof-of-Compute to Decode Steps",
@@ -3053,12 +3057,13 @@
     "01405-openbroker-api-moved-hosts-and-existing-broker-accounts-and-.md": {
       "title": "#1405 — OpenBroker API moved hosts and existing broker accounts (and balances) are gone — follow-up to #1319",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    OpenBroker API moved hosts and existing broker accounts (and balances) are gone — follow-up to #1319\n    <span class=\"issues-number\">#1405</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/dufok\">@dufok</a> opened 2026-07-06 00:16 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  ",
-      "comment_checksum": "53457ccfc6dc4045432aab554984ffe1c8f11f0d71eb46714f231ed2af42d053",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    OpenBroker API moved hosts and existing broker accounts (and balances) are gone — follow-up to #1319\n    <span class=\"issues-number\">#1405</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/dufok\">@dufok</a> opened 2026-07-06 00:16 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n ",
+      "comment_checksum": "ad1ede9e8519c90cf61f2e221dc74084e07395d1e9f438b60b1281e5d15c7698",
       "comment_bodies": [
-        "Resolved — Gonka Labs restored my broker account after I reached out via their Telegram (t.me/gonka_gg). Dashboard access is back, the wallet link is intact, and the balance was restored in full (topped up a little, even — appreciated). For anyone hitting the same symptoms after the host change: - the API now lives at https://api.openbroker.gonka.gg/v1 (the bare domain serves only the dashboard); "
+        "Resolved — Gonka Labs restored my broker account after I reached out via their Telegram (t.me/gonka_gg). Dashboard access is back, the wallet link is intact, and the balance was restored in full (topped up a little, even — appreciated). For anyone hitting the same symptoms after the host change: - the API now lives at https://api.openbroker.gonka.gg/v1 (the bare domain serves only the dashboard); ",
+        "Hi, @dufok, thanks for pointing it out! informing everyone that issue is solved and access is restored for the user. This was caused by registration action happening during infrastructure migration and is not a subject for any more occurances in the future (that was forced due to datacenter malfunction that required swift actions and full infra migration. All users who did complete the registratio"
       ],
-      "checksum": "206ed0a88a97e04b48b3b8094010d2209f3aec5a2e51cde486a0d2b16822ec24"
+      "checksum": "a015b5bbffda8267bbfc1356fd399ce9aba626ec039f946a6e528911ffb24302"
     },
     "01407-question-about-project-background-mikhail-chudinov-and-natal.md": {
       "title": "#1407 — Question about project background: Mikhail Chudinov and Natalia",
@@ -3198,12 +3203,13 @@
     "01480-gateway-allowlist-request-ancapex.md": {
       "title": "#1480 — Gateway allowlist request: Ancapex",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway allowlist request: Ancapex\n    <span class=\"issues-number\">#1480</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/alancapex\">@alancapex</a> opened 2026-07-19 21:31 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-cont",
-      "comment_checksum": "18aaef7f3dfc2cd39078e7ef078fafac715ddafb732fb7d8b8402078ad508f56",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway allowlist request: Ancapex\n    <span class=\"issues-number\">#1480</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/alancapex\">@alancapex</a> opened 2026-07-19 21:31 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-con",
+      "comment_checksum": "f3aa3e0c753c14c3ff70394d9b4374d45bfd1c1deb0b874872545885efdf71cf",
       "comment_bodies": [
-        "Hi @alancapex! Probably you already know, there's a GNK-native community broker (OpenBroker https://github.com/gonka-ai/gonka/discussions/1363) with no markup and tested throughput, but it's a shared gateway with a custodial ledger, which is not exactly what you need I believe. So the creator/allowlist path is the correct one for you. That said, @gonkalabs, could you please take a look at whether "
+        "Hi @alancapex! Probably you already know, there's a GNK-native community broker (OpenBroker https://github.com/gonka-ai/gonka/discussions/1363) with no markup and tested throughput, but it's a shared gateway with a custodial ledger, which is not exactly what you need I believe. So the creator/allowlist path is the correct one for you. That said, @gonkalabs, could you please take a look at whether ",
+        "Hi @alancapex ! Can we communicate on this topic in Telegram and discuss potential implementation details needed to be made on openbroker side in order to fulfill the needs for such project? As we can see, described functionality can be implemented as a product-layer feature set that can be enabled and utilized for your account. For example: host a separate devshard container that will be routable"
       ],
-      "checksum": "6f396eee8d4a87d1e4e3ab33dea9cebfdcdb923eb0d678d7f8fbb9260d613825"
+      "checksum": "5146c4513605afe9241aa2d425a7d87e4538a941d5c05ef9dc74c10735e73d1c"
     },
     "01493-request-to-be-added-as-a-gonka-broker-devshard-escrow-creato.md": {
       "title": "#1493 — Request to be added as a Gonka broker (devshard escrow creator allowlist)",

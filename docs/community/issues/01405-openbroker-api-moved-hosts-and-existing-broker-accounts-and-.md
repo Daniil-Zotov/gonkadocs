@@ -2,7 +2,7 @@
 title: "#1405 — OpenBroker API moved hosts and existing broker accounts (and balances) are gone — follow-up to #1319"
 source: https://github.com/gonka-ai/gonka/issues/1405
 issue_number: 1405
-synced_at: 2026-08-31T14:05:05Z
+synced_at: 2026-08-31T20:11:55Z
 template: issues-main.html
 ---
 
@@ -15,7 +15,7 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
     <span class="issues-meta-item"><a href="https://github.com/dufok">@dufok</a> opened 2026-07-06 00:16 UTC</span>
-    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">2 comments</span>
     <span class="issues-meta-item">Updated 2026-07-06 01:14 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
@@ -48,7 +48,7 @@ For context, I'm building on Gonka: a ComfyUI node pack for Gonka inference (htt
 
 ---
 
-## 💬 Comments (1)
+## 💬 Comments (2)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -62,6 +62,19 @@ For context, I'm building on Gonka: a ComfyUI node pack for Gonka inference (htt
 - old <code>obk-…</code> keys are invalid — create a fresh one in the dashboard;
 - if your login says "no account found", contact Gonka Labs with your linked wallet address — they sort it out quickly.</p>
 <p>Thanks @tcharchian for the pointers in #1319, and thanks to the Gonka Labs team for the fast resolution. Closing.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/gonkalabs">@gonkalabs</a></span>
+    <span class="issues-meta-item">commented 2026-07-06 01:09 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Hi, @dufok, thanks for pointing it out! </p>
+<p>informing everyone that issue is solved and access is restored for the user. </p>
+<p>This was caused by registration action happening during infrastructure migration and is not a subject for any more occurances in the future (<em>that was forced due to datacenter malfunction that required swift actions and full infra migration. All users who did complete the registration flow before migration - were moved correctly</em>). <strong>System is operational (including registrations)</strong>.</p>
+<p>All updates and notices happen in our tg chat prior to changes. To mitigate all the potential miscommunications in the future, we will mirror notifications about breaking changes in discussion (if there will be any).</p>
+<p>Thank You for being the early supporter of the Product 🤝</p>
   </div>
 </div>
 

@@ -1,235 +1,67 @@
 [
   {
-    "id": "evt_20260831201754_b05135a0",
-    "timestamp": "2026-08-31T20:17:54.579472+00:00",
-    "section": "calendar",
-    "action": "new",
+    "id": "evt_20260831201431_75ad7ba4",
+    "timestamp": "2026-08-31T20:14:31.443573+00:00",
+    "section": "issues",
+    "action": "updated",
     "item": {
-      "title": "AMA with TheSoul — Q3 Progress Update (EN)",
-      "url": "None",
-      "file": "304ff53cb439b05815c21c7023e605a93ab85065697583f7c2889ffd815a2192"
+      "title": "#521 — Create a proxy endpoint that aggregates multiple internal RPC nodes behind a single public-facing address (for crypto wallets)",
+      "url": "/community/issues/00521-create-a-proxy-endpoint-that-aggregates-multiple-internal-rp/",
+      "file": "00521-create-a-proxy-endpoint-that-aggregates-multiple-internal-rp.md"
     },
     "details": {
-      "status": null,
-      "content": "We plan to host AMA sessions to go through more detailed updates on the proposals accepted with TheSoul, progress, bottlenecks, and any other updates, and will leave 20 minutes at the end to answer your questions.\n\n📅 Tuesday, September 1, 2026 — 8:30 AM San Francisco · 5:30 PM CET · 6:30 PM Moscow\n🗣️ Language: English\n\nAGENDA:\nFormat: Updates + Questions\n• Where We Stand\n• Brand Positioning & Audience Strategy\n• Brand Identity\n• Influencer Marketing\n• Website & Landing Pages\n• Analytics & Attribution\n• Digital & Social Strategy\n• Keeping the Next Phase Moving\n• Questions\n\n🎦 Zoom: The link will be published before the session starts; monitor Discord for updates.\n\nPlease feel free to share any questions prior to the session!",
-      "date": "2026-09-01",
-      "time": "15:30 UTC",
-      "event_type": "ama",
-      "url": "None"
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Create a proxy endpoint that aggregates multiple internal RPC nodes behind a single public-facing address (for crypto wallets)\n    <span class=\"issues-number\">#521</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-06 00:34 UTC</span>\n    <span class=\"issues-meta-item\">4 comments</span>\n    <span class=\"i",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Create a proxy endpoint that aggregates multiple internal RPC nodes behind a single public-facing address (for crypto wallets)\n    <span class=\"issues-number\">#521</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-06 00:34 UTC</span>\n    <span class=\"issues-meta-item\">7 comments</span>\n    <span class=\"i"
+    },
+    "ai_description": "Issue #521 has seen new activity with 3 additional comments added, bringing the total from 4 to 7. Since the issue is already closed, the community is likely continuing the discussion around the RPC proxy endpoint implementation for crypto wallets. Keep an eye on the thread for any follow-up insights or refinements from @tcharchian and contributors."
+  },
+  {
+    "id": "evt_20260831201431_9beb1d05",
+    "timestamp": "2026-08-31T20:14:31.443672+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "3 entries: node1, node2, node3",
+      "url": "/community/issues/01121-inference-v1chatcompletions-on-node3-returns-429-for-90-of-r/",
+      "file": "01121-inference-v1chatcompletions-on-node3-returns-429-for-90-of-r.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Inference /v1/chat/completions on node3 returns 429 for ~90% of requests — single live TA caps community gateways at ~10% pass-rate\n    <span class=\"issues-number\">#1121</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/unameisfine\">@unameisfine</a> opened 2026-04-26 22:40 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span c",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Inference /v1/chat/completions on node3 returns 429 for ~90% of requests — single live TA caps community gateways at ~10% pass-rate\n    <span class=\"issues-number\">#1121</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/unameisfine\">@unameisfine</a> opened 2026-04-26 22:40 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span "
     },
     "ai_description": null
   },
   {
-    "id": "evt_20260831201754_870fb445",
-    "timestamp": "2026-08-31T20:17:54.579499+00:00",
-    "section": "calendar",
-    "action": "new",
+    "id": "evt_20260831201431_cde71670",
+    "timestamp": "2026-08-31T20:14:31.443711+00:00",
+    "section": "issues",
+    "action": "updated",
     "item": {
-      "title": "AMA with TheSoul — Q3 Progress Update (RU)",
-      "url": "None",
-      "file": "f32379a103067ddc25edee24950e2fc6928211a8b72ba9da6b3aa7e8c76ca78c"
+      "title": "#1405 — OpenBroker API moved hosts and existing broker accounts (and balances) are gone — follow-up to #1319",
+      "url": "/community/issues/01405-openbroker-api-moved-hosts-and-existing-broker-accounts-and-/",
+      "file": "01405-openbroker-api-moved-hosts-and-existing-broker-accounts-and-.md"
     },
     "details": {
-      "status": null,
-      "content": "We plan to host AMA sessions to go through more detailed updates on the proposals accepted with TheSoul, progress, bottlenecks, and any other updates, and will leave 20 minutes at the end to answer your questions.\n\n📅 Wednesday, September 2, 2026 — 8:30 AM San Francisco · 5:30 PM CET · 6:30 PM Moscow\n🗣️ Language: Russian\n\nAGENDA:\nFormat: Updates + Questions\n• Where We Stand\n• Brand Positioning & Audience Strategy\n• Brand Identity\n• Influencer Marketing\n• Website & Landing Pages\n• Analytics & Attribution\n• Digital & Social Strategy\n• Keeping the Next Phase Moving\n• Questions\n\n🎦 Zoom: The link will be published before the session starts; monitor Discord for updates.\n\nPlease feel free to share any questions prior to the session!",
-      "date": "2026-09-02",
-      "time": "15:30 UTC",
-      "event_type": "ama",
-      "url": "None"
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    OpenBroker API moved hosts and existing broker accounts (and balances) are gone — follow-up to #1319\n    <span class=\"issues-number\">#1405</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/dufok\">@dufok</a> opened 2026-07-06 00:16 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  ",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    OpenBroker API moved hosts and existing broker accounts (and balances) are gone — follow-up to #1319\n    <span class=\"issues-number\">#1405</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/dufok\">@dufok</a> opened 2026-07-06 00:16 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n "
     },
     "ai_description": null
   },
   {
-    "id": "evt_20260831195825_f80da228",
-    "timestamp": "2026-08-31T19:58:25.496645+00:00",
-    "section": "discussions",
-    "action": "new",
+    "id": "evt_20260831201431_4f04db44",
+    "timestamp": "2026-08-31T20:14:31.443736+00:00",
+    "section": "issues",
+    "action": "updated",
     "item": {
-      "title": "Proposal #74: Gonka Labs - Monthly Report No.1",
-      "url": "/community/discussion/governance-proposal-reports/1477-proposal-74-gonka-labs-monthly-report-no1/",
-      "file": "governance-proposal-reports/1477-proposal-74-gonka-labs-monthly-report-no1.md"
+      "title": "#1480 — Gateway allowlist request: Ancapex",
+      "url": "/community/issues/01480-gateway-allowlist-request-ancapex/",
+      "file": "01480-gateway-allowlist-request-ancapex.md"
     },
     "details": {
-      "status": null,
-      "content": "> 🔄 **Auto-sync:** from [Discussion #1477](https://github.com/gonka-ai/gonka/discussions/1477) every hour. \n\n# Proposal #74: Gonka Labs - Monthly Report No.1\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-07-18 18:31 UTC · \n\n---\n\n## 📝 Описание\n\n# \n\n![](https://resource.inkdown.me/assets/11g/tk4ZX4b2sHaSu/ZarQaYSqnMMS69H.png)\n\nHey! Gonka Labs here.\n\nOn June 12th the community passed [Proposal #74](https://gonka.gg/network/proposals/74). That vote funded the next stretch of work - infra, ops, and shipping products for the ecosystem.\n\nThis is the first public progress report we promised in the proposal (monthly updates on GitHub Discussions). Short version of what landed so far:\n\n1. **OpenBroker** - new p"
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway allowlist request: Ancapex\n    <span class=\"issues-number\">#1480</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/alancapex\">@alancapex</a> opened 2026-07-19 21:31 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-cont",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway allowlist request: Ancapex\n    <span class=\"issues-number\">#1480</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/alancapex\">@alancapex</a> opened 2026-07-19 21:31 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-con"
     },
     "ai_description": null
-  },
-  {
-    "id": "evt_20260831195825_49a348ae",
-    "timestamp": "2026-08-31T19:58:25.496675+00:00",
-    "section": "discussions",
-    "action": "new",
-    "item": {
-      "title": "Proposal #74: Gonka Labs - Monthly Report No.2",
-      "url": "/community/discussion/governance-proposal-reports/1612-proposal-74-gonka-labs-monthly-report-no2/",
-      "file": "governance-proposal-reports/1612-proposal-74-gonka-labs-monthly-report-no2.md"
-    },
-    "details": {
-      "status": null,
-      "content": "> 🔄 **Auto-sync:** from [Discussion #1612](https://github.com/gonka-ai/gonka/discussions/1612) every hour. \n\n# Proposal #74: Gonka Labs - Monthly Report No.2\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-08-18 20:34 UTC · \n\n---\n\n## 📝 Описание\n\n<img width=\"1920\" height=\"1080\" alt=\"image\" src=\"https://github.com/user-attachments/assets/6267b894-26b8-47a1-a34e-97ff83dca34b\" />\n\nHey! Gonka Labs here. Last update was [Monthly Report No.1](https://github.com/gonka-ai/gonka/discussions/1477) on Jul 18. \n\nReport #1 was the launch month: OpenBroker and Pulse went live, the explorer got a big QA + inference pass, and proxy.gonka.gg moved onto dedicated infra under real load. This month is what we added on top. "
-    },
-    "ai_description": null
-  },
-  {
-    "id": "evt_20260831195825_f495759d",
-    "timestamp": "2026-08-31T19:58:25.496691+00:00",
-    "section": "discussions",
-    "action": "new",
-    "item": {
-      "title": "Proposal #74: Gonka Labs - Monthly Report No.2",
-      "url": "/community/discussion/governance-proposal-reports/1614-proposal-74-gonka-labs-monthly-report-no2/",
-      "file": "governance-proposal-reports/1614-proposal-74-gonka-labs-monthly-report-no2.md"
-    },
-    "details": {
-      "status": null,
-      "content": "> 🔄 **Auto-sync:** from [Discussion #1614](https://github.com/gonka-ai/gonka/discussions/1614) every hour. \n\n# Proposal #74: Gonka Labs - Monthly Report No.2\n\n**Автор:** [@ptd-bot](https://github.com/ptd-bot) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-08-19 11:28 UTC · \n\n---\n\n## 📝 Описание\n\n<img width=\"1920\" height=\"1080\" alt=\"image\" src=\"https://github.com/user-attachments/assets/6267b894-26b8-47a1-a34e-97ff83dca34b\" />\n\nHey! Gonka Labs here. Last update was [Monthly Report No.1](https://github.com/gonka-ai/gonka/discussions/1477) on Jul 18. \n\nReport #1 was the launch month: OpenBroker and Pulse went live, the explorer got a big QA + inference pass, and proxy.gonka.gg moved onto dedicated infra under real load. This month is what we added on top. New "
-    },
-    "ai_description": null
-  },
-  {
-    "id": "evt_20260831195825_73a2bea1",
-    "timestamp": "2026-08-31T19:58:25.496706+00:00",
-    "section": "discussions",
-    "action": "new",
-    "item": {
-      "title": "Devshard Load Testing",
-      "url": "/community/discussion/governance-proposal-reports/1685-devshard-load-testing/",
-      "file": "governance-proposal-reports/1685-devshard-load-testing.md"
-    },
-    "details": {
-      "status": null,
-      "content": "> 🔄 **Auto-sync:** from [Discussion #1685](https://github.com/gonka-ai/gonka/discussions/1685) every hour. \n\n# Devshard Load Testing\n\n**Автор:** [@aikuznetsov](https://github.com/aikuznetsov) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-08-31 15:13 UTC · \n\n---\n\n## 📝 Описание\n\n**Scope:** define a repeatable path for load testing Devshards locally and on\nTestNet, using the existing testenv, TestNet harness, gateway, escrow tooling,\nand observability surfaces.\n\nThis is intentionally a proposal, not a full runbook. The detailed command\nreference should live near the tools it documents.\n\n## TL;DR\n\nAdd a concurrent load mode to\n[`test-net-cloud/devshard-testing`](https://github.com/gonka-ai/gonka/tree/main/test-net-cloud/devshard-testing).\nUse it in three laye"
-    },
-    "ai_description": null
-  },
-  {
-    "id": "evt_20260831195825_6387ce0a",
-    "timestamp": "2026-08-31T19:58:25.496718+00:00",
-    "section": "discussions",
-    "action": "new",
-    "item": {
-      "title": "Gonka Labs: How We're Building the Infrastructure for Gonka",
-      "url": "/community/discussion/show-and-tell/0880-gonka-labs-how-were-building-the-infrastructure-for-gonka/",
-      "file": "show-and-tell/0880-gonka-labs-how-were-building-the-infrastructure-for-gonka.md"
-    },
-    "details": {
-      "status": null,
-      "content": "> 🔄 **Auto-sync:** from [Discussion #880](https://github.com/gonka-ai/gonka/discussions/880) every hour. \n\n# Gonka Labs: How We're Building the Infrastructure for Gonka\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-03-12 21:40 UTC · \n\n---\n\n## 📝 Описание\n\n**Gonka Labs: How We're Building the Infrastructure for Gonka**\n\n![telegram-cloud-photo-size-2-5303139431004969226-y](https://github.com/user-attachments/assets/de34893d-4761-4d49-b2a1-99344b7c681c)\n\nThat one Sunday evening was not exactly usual. I was preparing for the upcoming workweek and reading startup news when I stumbled upon something truly interesting. I immediately called my friend and business partner, Mike, and sent him a link to the video. It was an int"
-    },
-    "ai_description": null
-  },
-  {
-    "id": "evt_20260831195825_02d778b5",
-    "timestamp": "2026-08-31T19:58:25.496733+00:00",
-    "section": "discussions",
-    "action": "new",
-    "item": {
-      "title": "Gonka.gg - Explorer, Analytics Platform, Data Provider for Gonka",
-      "url": "/community/discussion/show-and-tell/0887-gonkagg-explorer-analytics-platform-data-provider-for-gonka/",
-      "file": "show-and-tell/0887-gonkagg-explorer-analytics-platform-data-provider-for-gonka.md"
-    },
-    "details": {
-      "status": null,
-      "content": "> 🔄 **Auto-sync:** from [Discussion #887](https://github.com/gonka-ai/gonka/discussions/887) every hour. \n\n# Gonka.gg - Explorer, Analytics Platform, Data Provider for Gonka\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-03-13 21:23 UTC · \n\n---\n\n## 📝 Описание\n\n![](https://resource.inkdown.me/assets/11g/tk4ZX4b2sHaSu/77yTDB4x9hoLewm.png)\n\nWhen we launched gonka.gg on **December 12, 2025** ([read the pre-story](https://github.com/gonka-ai/gonka/discussions/880)), our goal was simple: give Gonka users a reliable place to verify their transactions. What happened next surprised even us. \n\nThe community responded immediately and enthusiastically. Within weeks, it was clear that a transaction explorer was just the beginning"
-    },
-    "ai_description": "A new Show and Tell discussion has been posted by gonkalabs introducing Gonka.gg, an explorer and analytics platform that launched in December and is quickly evolving beyond transaction verification thanks to strong community feedback. The team is sharing their journey and inviting the community to see how the project is expanding into a broader data provider for the network. Check it out to follow the latest updates on the platform and join the conversation around building better transparency tools for Gonka."
-  },
-  {
-    "id": "evt_20260831195825_6742cf8e",
-    "timestamp": "2026-08-31T19:58:25.496745+00:00",
-    "section": "discussions",
-    "action": "new",
-    "item": {
-      "title": "OpenGNK - A Local OpenAI-Compatible Proxy for Gonka",
-      "url": "/community/discussion/show-and-tell/0890-opengnk-a-local-openai-compatible-proxy-for-gonka/",
-      "file": "show-and-tell/0890-opengnk-a-local-openai-compatible-proxy-for-gonka.md"
-    },
-    "details": {
-      "status": null,
-      "content": "> 🔄 **Auto-sync:** from [Discussion #890](https://github.com/gonka-ai/gonka/discussions/890) every hour. \n\n# OpenGNK - A Local OpenAI-Compatible Proxy for Gonka\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-03-15 20:10 UTC · \n\n---\n\n## 📝 Описание\n\nWhen we were building and testing [proxy.gonka.gg](https://proxy.gonka.gg) - our cloud API endpoint for Gonka inference - we noticed a pattern in the community: developers also wanted to sign inference request and transmit them to the Network from local environment, keep their private keys on their own machines, and plug Gonka directly into their existing tooling without any intermediary (cloud proxy). They were asking for a self-hosted version of what we had built for ours"
-    },
-    "ai_description": "A new Show and Tell discussion has been posted by gonkalabs introducing OpenGNK, a local self-hosted proxy that lets you sign inference requests and keep your private keys on your own machine while connecting Gonka directly to your existing OpenAI-compatible tooling without relying on the cloud proxy. This addresses community demand for a local alternative to proxy.gonka.gg, giving developers more control and flexibility when building with the network."
-  },
-  {
-    "id": "evt_20260831195825_0dee0753",
-    "timestamp": "2026-08-31T19:58:25.496769+00:00",
-    "section": "discussions",
-    "action": "new",
-    "item": {
-      "title": "Gonka Name Service (GNS) - Human Readable names for the Gonka Network",
-      "url": "/community/discussion/show-and-tell/0898-gonka-name-service-gns-human-readable-names-for-the-gonka-ne/",
-      "file": "show-and-tell/0898-gonka-name-service-gns-human-readable-names-for-the-gonka-ne.md"
-    },
-    "details": {
-      "status": null,
-      "content": "> 🔄 **Auto-sync:** from [Discussion #898](https://github.com/gonka-ai/gonka/discussions/898) every hour. \n\n# Gonka Name Service (GNS) - Human Readable names for the Gonka Network\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-03-16 18:09 UTC · \n\n---\n\n## 📝 Описание\n\nEvery blockchain eventually needs a naming layer. Ethereum has ENS. Cosmos chains have ICNS. Until now, Gonka didn't have one. So we built it.\n\n**Gonka Name Service (GNS)** lets anyone register a short, memorable `.gnk` name - like `mike.gnk` - that resolves to a `gonka1...` wallet address. It is live on mainnet, integrated into [GG Wallet](https://chromewebstore.google.com/detail/gg-wallet/elicodfmaffbndngiifcpmammicgjidd), [gonka.gg](https://gonka.gg) ex"
-    },
-    "ai_description": "A new discussion has been posted by @gonkalabs introducing Gonka Name Service, a native naming layer that lets users register memorable .gnk domains like mike.gnk to replace complex wallet addresses. The service is already live on mainnet and integrated into GG Wallet and gonka.gg, making transactions across the network much more user friendly. Check out the Show and Tell thread to learn more and share your feedback."
-  },
-  {
-    "id": "evt_20260831195825_1d34ac5b",
-    "timestamp": "2026-08-31T19:58:25.496785+00:00",
-    "section": "discussions",
-    "action": "new",
-    "item": {
-      "title": "GG Wallet - An Open-Source Browser Wallet strictly for Gonka",
-      "url": "/community/discussion/show-and-tell/0938-gg-wallet-an-open-source-browser-wallet-strictly-for-gonka/",
-      "file": "show-and-tell/0938-gg-wallet-an-open-source-browser-wallet-strictly-for-gonka.md"
-    },
-    "details": {
-      "status": null,
-      "content": "> 🔄 **Auto-sync:** from [Discussion #938](https://github.com/gonka-ai/gonka/discussions/938) every hour. \n\n# GG Wallet - An Open-Source Browser Wallet strictly for Gonka\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-03-23 20:32 UTC · \n\n---\n\n## 📝 Описание\n\nWhen we launched [gonka.gg](https://gonka.gg) and started using the Gonka network daily, one thing kept slowing us down: there was no native browser wallet for Gonka. Every transaction meant using the CLI, copying long addresses, and manually constructing commands or using browser wallets that needed flaky configuration or using wallets where we needed to send private key to with some ui without access to the code processing the request. We believe that Gonka can p"
-    },
-    "ai_description": "A new discussion has been added to the Show and Tell section by gonkalabs introducing GG Wallet, an open-source browser wallet built specifically for Gonka. The team shared that their daily work on gonka.gg highlighted the need for a native wallet to replace cumbersome CLI workflows and unreliable third-party options. This matters to the community because a dedicated browser wallet could make interacting with the Gonka network significantly smoother and more secure for everyone."
-  },
-  {
-    "id": "evt_20260831195825_d1204a71",
-    "timestamp": "2026-08-31T19:58:25.496797+00:00",
-    "section": "discussions",
-    "action": "new",
-    "item": {
-      "title": "Gonka Contract Playground - write, compile, simulate, and deploy CosmWasm without leaving the browser",
-      "url": "/community/discussion/show-and-tell/0989-gonka-contract-playground-write-compile-simulate-and-deploy-/",
-      "file": "show-and-tell/0989-gonka-contract-playground-write-compile-simulate-and-deploy-.md"
-    },
-    "details": {
-      "status": null,
-      "content": "> 🔄 **Auto-sync:** from [Discussion #989](https://github.com/gonka-ai/gonka/discussions/989) every hour. \n\n# Gonka Contract Playground - write, compile, simulate, and deploy CosmWasm without leaving the browser\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-03-31 22:32 UTC · \n\n---\n\n## 📝 Описание\n\n<img width=\"1598\" height=\"818\" alt=\"Снимок экрана 2026-04-01 в 01 25 50\" src=\"https://github.com/user-attachments/assets/a60cac40-16b6-4c74-ba2a-fa20f1b28ba5\" />\n\n## Motivation\n\nBuilding smart contracts is, usually, a pain - it keeps coming up: you want to try a small contract idea, poke at something already deployed, or show a teammate how a message works - and you end up juggling a local Rust toolchain, `wasmd`, scripts, a"
-    },
-    "ai_description": "A new Show and Tell discussion has been posted by gonkalabs introducing the Gonka Contract Playground, a browser-based tool that lets developers write, compile, simulate, and deploy CosmWasm smart contracts without installing a local Rust toolchain or wasmd. This removes a major friction point for builders who want to quickly prototype contract ideas or explore existing deployments, making smart contract development more accessible for the whole community. Check it out and share your feedback."
-  },
-  {
-    "id": "evt_20260831195825_96789e08",
-    "timestamp": "2026-08-31T19:58:25.496807+00:00",
-    "section": "discussions",
-    "action": "new",
-    "item": {
-      "title": "rpc.gonka.gg - Managed RPC Infrastructure for Gonka (Infura/Alchemy for Gonka) with opensource core",
-      "url": "/community/discussion/show-and-tell/1030-rpcgonkagg-managed-rpc-infrastructure-for-gonka-infuraalchem/",
-      "file": "show-and-tell/1030-rpcgonkagg-managed-rpc-infrastructure-for-gonka-infuraalchem.md"
-    },
-    "details": {
-      "status": null,
-      "content": "> 🔄 **Auto-sync:** from [Discussion #1030](https://github.com/gonka-ai/gonka/discussions/1030) every hour. \n\n# rpc.gonka.gg - Managed RPC Infrastructure for Gonka (Infura/Alchemy for Gonka) with opensource core\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-04-08 10:22 UTC · \n\n---\n\n## 📝 Описание\n\nTwo days ago we sped up [gonka.gg](https://gonka.gg) by 100x.\n\nToday we are making the technology behind that speedup available to everyone.\n\nMeet [rpc.gonka.gg](https://rpc.gonka.gg) - managed RPC infrastructure for the Gonka blockchain, built by [Gonka Labs](https://gonkalabs.com).\n\nWe give developers reliable, authenticated API access to the entire Gonka blockchain through a single URL - no need to run your own nodes. The"
-    },
-    "ai_description": "A new discussion has been posted by Gonka Labs introducing rpc.gonka.gg, a managed RPC infrastructure designed to serve as the Infura or Alchemy equivalent for the Gonka blockchain. The service offers developers reliable, authenticated API access without the need to run their own nodes, and is built on an open source core. This follows the team's recent success in speeding up gonka.gg by 100x using the same underlying technology."
-  },
-  {
-    "id": "evt_20260831195825_2382920e",
-    "timestamp": "2026-08-31T19:58:25.496818+00:00",
-    "section": "discussions",
-    "action": "new",
-    "item": {
-      "title": "OpenBroker - broker for brokers or Devshards as a service.",
-      "url": "/community/discussion/show-and-tell/1363-openbroker-broker-for-brokers-or-devshards-as-a-service/",
-      "file": "show-and-tell/1363-openbroker-broker-for-brokers-or-devshards-as-a-service.md"
-    },
-    "details": {
-      "status": null,
-      "content": "> 🔄 **Auto-sync:** from [Discussion #1363](https://github.com/gonka-ai/gonka/discussions/1363) every hour. \n\n# OpenBroker - broker for brokers or Devshards as a service.\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-06-23 22:18 UTC · \n\n---\n\n## 📝 Описание\n\nHey! **Gonka Labs** here. \n\nWe've just shipped **OpenBroker**, a platform that gives you direct access to gonka inference - pure devshards v1, v2 (and any future version) under wallet that is whitelisted to operate escrows. You get escrow capacity that scales elastically with your load, both devshard versions (and any future one), and throughput limited only by what the network itself can handle.\n\nWith OpenBroker - we make a community commitment to the overall obse"
-    },
-    "ai_description": "Gonka Labs just shared OpenBroker in the Show and Tell section, a new platform that offers direct access to Gonka inference through whitelisted escrow wallets with elastic scaling across devshard versions. This gives brokers and developers network-scale throughput without managing their own infrastructure, marking a community commitment to open broker services. Check out the discussion to learn how it could simplify your integration."
   },
   {
     "id": "evt_20260831054905_33b350f2",
