@@ -3,7 +3,7 @@ title: "#999 — Gonka AI x Claude Code"
 source: https://github.com/gonka-ai/gonka/discussions/999
 discussion_number: 999
 category: show-and-tell
-synced_at: 2026-08-31T19:58:19Z
+synced_at: 2026-08-31T23:45:56Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #999](https://github.com/gonka-ai/gonka/discussions/999) every hour. 
