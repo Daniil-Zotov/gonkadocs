@@ -2,7 +2,7 @@
 title: "#1680 — Kimi-K2.6 non-stream on gateway v4: 502 nonce_finished=false (stream OK)"
 source: https://github.com/gonka-ai/gonka/issues/1680
 issue_number: 1680
-synced_at: 2026-08-30T23:35:07Z
+synced_at: 2026-08-31T05:46:01Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/paranjko">@paranjko</a> opened 2026-08-30 19:49 UTC</span>
-    <span class="issues-meta-item">1 comment</span>
-    <span class="issues-meta-item">Updated 2026-08-30 20:18 UTC</span>
+    <span class="issues-meta-item">2 comments</span>
+    <span class="issues-meta-item">Updated 2026-08-30 23:47 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
 </div>
@@ -68,7 +68,7 @@ Same payload with `"stream": true` succeeds. On the v4 log, grep `request=` from
 
 ---
 
-## 💬 Comments (1)
+## 💬 Comments (2)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -82,6 +82,16 @@ Same payload with `"stream": true` succeeds. On the v4 log, grep `request=` from
   -H &quot;Authorization: Bearer $DEVSHARD_ADMIN_API_KEY&quot; \
   -d '{&quot;redundancy&quot;:{&quot;force_upstream_streaming&quot;:false}}'
 </code></pre>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/paranjko">@paranjko</a></span>
+    <span class="issues-meta-item">commented 2026-08-30 23:47 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Retested on mainnet-v0.2.15-v4.0.1. Same Kimi non-stream max_tokens=1024 case now returns 200 JSON. Stream still OK. 
+Great work @qdanik !</p>
   </div>
 </div>
 

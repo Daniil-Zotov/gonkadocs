@@ -2,7 +2,7 @@
 title: "#470 — Move payload off chain"
 source: https://github.com/gonka-ai/gonka/issues/470
 issue_number: 470
-synced_at: 2026-08-30T23:38:24Z
+synced_at: 2026-08-31T05:48:39Z
 template: issues-main.html
 ---
 

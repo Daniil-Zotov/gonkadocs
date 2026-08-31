@@ -2,7 +2,7 @@
 title: "#1665 — Height-sync: one roundtrip per host, not per slot"
 source: https://github.com/gonka-ai/gonka/issues/1665
 issue_number: 1665
-synced_at: 2026-08-30T23:35:13Z
+synced_at: 2026-08-31T05:46:06Z
 template: issues-main.html
 ---
 

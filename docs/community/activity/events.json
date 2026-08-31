@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260831054905_33b350f2",
+    "timestamp": "2026-08-31T05:49:05.822357+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1680 — Kimi-K2.6 non-stream on gateway v4: 502 nonce_finished=false (stream OK)",
+      "url": "/community/issues/01680-kimi-k26-non-stream-on-gateway-v4-502-nonce-finishedfalse-st/",
+      "file": "01680-kimi-k26-non-stream-on-gateway-v4-502-nonce-finishedfalse-st.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Kimi-K2.6 non-stream on gateway v4: 502 nonce_finished=false (stream OK)\n    <span class=\"issues-number\">#1680</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/paranjko\">@paranjko</a> opened 2026-08-30 19:49 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><s",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Kimi-K2.6 non-stream on gateway v4: 502 nonce_finished=false (stream OK)\n    <span class=\"issues-number\">#1680</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/paranjko\">@paranjko</a> opened 2026-08-30 19:49 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><"
+    },
+    "ai_description": "Issue #1680 received a new comment, bringing the discussion to two comments total. The issue about Kimi-K2.6 returning 502 errors on non-streaming requests through gateway v4 remains open and under investigation."
+  },
+  {
     "id": "evt_20260830211653_def9c60a",
     "timestamp": "2026-08-30T21:16:53.674312+00:00",
     "section": "issues",
