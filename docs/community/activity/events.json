@@ -1,5 +1,45 @@
 [
   {
+    "id": "evt_20260831201754_b05135a0",
+    "timestamp": "2026-08-31T20:17:54.579472+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "AMA with TheSoul — Q3 Progress Update (EN)",
+      "url": "None",
+      "file": "304ff53cb439b05815c21c7023e605a93ab85065697583f7c2889ffd815a2192"
+    },
+    "details": {
+      "status": null,
+      "content": "We plan to host AMA sessions to go through more detailed updates on the proposals accepted with TheSoul, progress, bottlenecks, and any other updates, and will leave 20 minutes at the end to answer your questions.\n\n📅 Tuesday, September 1, 2026 — 8:30 AM San Francisco · 5:30 PM CET · 6:30 PM Moscow\n🗣️ Language: English\n\nAGENDA:\nFormat: Updates + Questions\n• Where We Stand\n• Brand Positioning & Audience Strategy\n• Brand Identity\n• Influencer Marketing\n• Website & Landing Pages\n• Analytics & Attribution\n• Digital & Social Strategy\n• Keeping the Next Phase Moving\n• Questions\n\n🎦 Zoom: The link will be published before the session starts; monitor Discord for updates.\n\nPlease feel free to share any questions prior to the session!",
+      "date": "2026-09-01",
+      "time": "15:30 UTC",
+      "event_type": "ama",
+      "url": "None"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260831201754_870fb445",
+    "timestamp": "2026-08-31T20:17:54.579499+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "AMA with TheSoul — Q3 Progress Update (RU)",
+      "url": "None",
+      "file": "f32379a103067ddc25edee24950e2fc6928211a8b72ba9da6b3aa7e8c76ca78c"
+    },
+    "details": {
+      "status": null,
+      "content": "We plan to host AMA sessions to go through more detailed updates on the proposals accepted with TheSoul, progress, bottlenecks, and any other updates, and will leave 20 minutes at the end to answer your questions.\n\n📅 Wednesday, September 2, 2026 — 8:30 AM San Francisco · 5:30 PM CET · 6:30 PM Moscow\n🗣️ Language: Russian\n\nAGENDA:\nFormat: Updates + Questions\n• Where We Stand\n• Brand Positioning & Audience Strategy\n• Brand Identity\n• Influencer Marketing\n• Website & Landing Pages\n• Analytics & Attribution\n• Digital & Social Strategy\n• Keeping the Next Phase Moving\n• Questions\n\n🎦 Zoom: The link will be published before the session starts; monitor Discord for updates.\n\nPlease feel free to share any questions prior to the session!",
+      "date": "2026-09-02",
+      "time": "15:30 UTC",
+      "event_type": "ama",
+      "url": "None"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260831195825_f80da228",
     "timestamp": "2026-08-31T19:58:25.496645+00:00",
     "section": "discussions",

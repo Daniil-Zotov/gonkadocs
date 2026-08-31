@@ -1,6 +1,6 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-08-31T14:19:25.854844+00:00",
+  "snapshot_time": "2026-08-31T20:17:54.598796+00:00",
   "files": {
     "460d7b406a26039bca186ac074c0ac02e7130753a332dc8fe809420a0d5bbd6c": {
       "title": "AMA: Bitfury, HackerOne & Gonka — Bug Bounty Program Launch",
@@ -64,6 +64,24 @@
       "url": "https://meet.google.com/zqp-shgw-wtj",
       "content_preview": "**First monthly status call** of the External Test Lab & Community DevNet under the approved **proposal #82** (https://gonkadocs.com/proposals/proposals/2026-q3/82/).\n\nПриглашаем на первый ежемесячный статус-колл External Test Lab & Community DevNet в рамках принятого пропозала #82 (https://gonkadocs.com/proposals/proposals/2026-q3/82/).\n\nПодведём итоги первого месяца работы:\n\n• будущая тест-стратегия лаборатории\n• первая версия DevNet\n• текущий статус инфраструктуры\n• планы и задачи на следующий месяц\n\nТакже познакомим сообщество с первым QA-инженером, который присоединился к лаборатории, и расскажем, как подключить своё оборудование к DevNet.\n\n📅 Понедельник, 10 августа\n🕒 08:30 LA · 15:30 UTC · 18:30 UTC+3\n🔗 https://meet.google.com/zqp-shgw-wtj\n\n---\n\n**First monthly status call** of the E",
       "checksum": "68fb290033b399e3ed5d09b9ed697a9f835c73a5225643c13b641e326292e000"
+    },
+    "304ff53cb439b05815c21c7023e605a93ab85065697583f7c2889ffd815a2192": {
+      "title": "AMA with TheSoul — Q3 Progress Update (EN)",
+      "date": "2026-09-01",
+      "time": "15:30 UTC",
+      "event_type": "ama",
+      "url": "None",
+      "content_preview": "We plan to host AMA sessions to go through more detailed updates on the proposals accepted with TheSoul, progress, bottlenecks, and any other updates, and will leave 20 minutes at the end to answer your questions.\n\n📅 Tuesday, September 1, 2026 — 8:30 AM San Francisco · 5:30 PM CET · 6:30 PM Moscow\n🗣️ Language: English\n\nAGENDA:\nFormat: Updates + Questions\n• Where We Stand\n• Brand Positioning & Audience Strategy\n• Brand Identity\n• Influencer Marketing\n• Website & Landing Pages\n• Analytics & Attribution\n• Digital & Social Strategy\n• Keeping the Next Phase Moving\n• Questions\n\n🎦 Zoom: The link will be published before the session starts; monitor Discord for updates.\n\nPlease feel free to share any questions prior to the session!",
+      "checksum": "a112fdf6b2dbab5be73a4f1ae65195730d8303bae4e914cd4cf64f3b4acb4659"
+    },
+    "f32379a103067ddc25edee24950e2fc6928211a8b72ba9da6b3aa7e8c76ca78c": {
+      "title": "AMA with TheSoul — Q3 Progress Update (RU)",
+      "date": "2026-09-02",
+      "time": "15:30 UTC",
+      "event_type": "ama",
+      "url": "None",
+      "content_preview": "We plan to host AMA sessions to go through more detailed updates on the proposals accepted with TheSoul, progress, bottlenecks, and any other updates, and will leave 20 minutes at the end to answer your questions.\n\n📅 Wednesday, September 2, 2026 — 8:30 AM San Francisco · 5:30 PM CET · 6:30 PM Moscow\n🗣️ Language: Russian\n\nAGENDA:\nFormat: Updates + Questions\n• Where We Stand\n• Brand Positioning & Audience Strategy\n• Brand Identity\n• Influencer Marketing\n• Website & Landing Pages\n• Analytics & Attribution\n• Digital & Social Strategy\n• Keeping the Next Phase Moving\n• Questions\n\n🎦 Zoom: The link will be published before the session starts; monitor Discord for updates.\n\nPlease feel free to share any questions prior to the session!",
+      "checksum": "6d4b0caff32c4e8ce9b63aea1a19373aec8f0572666fbf38ad70e3d63a68582a"
     },
     "fd7c7823a7cbd78a1ce32edbca930846a7120a596e349b372567d051635fd876": {
       "title": "Monthly AMA Session",
