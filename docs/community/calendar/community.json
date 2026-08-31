@@ -129,6 +129,46 @@
     "uid": "gonka-2026-08-10-b76ced51a5a1@gonkadocs.com"
   },
   {
+    "date": "2026-09-01",
+    "category": "community",
+    "type": "ama",
+    "title": "AMA with TheSoul — Q3 Progress Update (EN)",
+    "url": null,
+    "time": "15:30 UTC",
+    "description": "We plan to host AMA sessions to go through more detailed updates on the proposals accepted with TheSoul, progress, bottlenecks, and any other updates, and will leave 20 minutes at the end to answer your questions.\n\n📅 Tuesday, September 1, 2026 — 8:30 AM San Francisco · 5:30 PM CET · 6:30 PM Moscow\n🗣️ Language: English\n\nAGENDA:\nFormat: Updates + Questions\n• Where We Stand\n• Brand Positioning & Audience Strategy\n• Brand Identity\n• Influencer Marketing\n• Website & Landing Pages\n• Analytics & Attribution\n• Digital & Social Strategy\n• Keeping the Next Phase Moving\n• Questions\n\n🎦 Zoom: The link will be published before the session starts; monitor Discord for updates.\n\nPlease feel free to share any questions prior to the session!",
+    "tags": [
+      "ama",
+      "thesoul",
+      "pr",
+      "marketing",
+      "proposal-60"
+    ],
+    "is_all_day": false,
+    "duration_minutes": 60,
+    "location": null,
+    "uid": "gonka-2026-09-01-thesoul-ama-en@gonkadocs.com"
+  },
+  {
+    "date": "2026-09-02",
+    "category": "community",
+    "type": "ama",
+    "title": "AMA with TheSoul — Q3 Progress Update (RU)",
+    "url": null,
+    "time": "15:30 UTC",
+    "description": "We plan to host AMA sessions to go through more detailed updates on the proposals accepted with TheSoul, progress, bottlenecks, and any other updates, and will leave 20 minutes at the end to answer your questions.\n\n📅 Wednesday, September 2, 2026 — 8:30 AM San Francisco · 5:30 PM CET · 6:30 PM Moscow\n🗣️ Language: Russian\n\nAGENDA:\nFormat: Updates + Questions\n• Where We Stand\n• Brand Positioning & Audience Strategy\n• Brand Identity\n• Influencer Marketing\n• Website & Landing Pages\n• Analytics & Attribution\n• Digital & Social Strategy\n• Keeping the Next Phase Moving\n• Questions\n\n🎦 Zoom: The link will be published before the session starts; monitor Discord for updates.\n\nPlease feel free to share any questions prior to the session!",
+    "tags": [
+      "ama",
+      "thesoul",
+      "pr",
+      "marketing",
+      "proposal-60"
+    ],
+    "is_all_day": false,
+    "duration_minutes": 60,
+    "location": null,
+    "uid": "gonka-2026-09-02-thesoul-ama-ru@gonkadocs.com"
+  },
+  {
     "date": "2026-09-03",
     "category": "community",
     "type": "ama",

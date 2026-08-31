@@ -9,7 +9,7 @@ X-WR-CALDESC:Community events for the Gonka decentralized AI inference netw
  ork: AMAs, committee calls, proposals, livestreams, and network updates.
 BEGIN:VEVENT
 UID:gonka-2025-04-15-1f2967647e97@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20250415
 SUMMARY:PR Review for Upgrade v0.2.12
 DESCRIPTION:PR Review for Upgrade v0.2.12 The pull request https://github.c
@@ -24,7 +24,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2025-09-07-a38b218d50d8@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20250907
 SUMMARY:Passed: #1 – Correct Epoch Length
 DESCRIPTION:Proposal updates epoch_length and restrictions length according
@@ -35,7 +35,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2025-09-11-bd065cfbacf2@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20250911
 SUMMARY:Passed: #2 – Proposal introducing new Qwen3 models
 DESCRIPTION:This proposal introduces new Qwen3 models including Qwen3-32B-F
@@ -47,7 +47,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2025-09-20-00adf63d6b41@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20250920
 SUMMARY:Passed: #3 – Increase PoC Validation Length
 DESCRIPTION:Proposal updates poc_validation_duration from 20 to 100.\n\nURL
@@ -57,7 +57,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2025-09-23-1378ab8aba53@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20250923
 SUMMARY:Passed: #5 – Expedite voting for upgrades
 DESCRIPTION:Expedite voting for upgrades\n\nURL: https://gonkadocs.com/prop
@@ -67,7 +67,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2025-09-24-9219fa33781b@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20250924
 SUMMARY:Rejected: #4 – Upgrade Proposal: v0.2.2
 DESCRIPTION:Upgrade Proposal: v0.2.2\n\nURL: https://gonkadocs.com/proposal
@@ -77,7 +77,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2025-09-25-0da8192a2944@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20250925
 SUMMARY:Passed: #6 – Upgrade Proposal: v0.2.2
 DESCRIPTION:Upgrade Proposal: v0.2.2\n\nURL: https://gonkadocs.com/proposal
@@ -87,7 +87,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2025-10-03-e1b5e496e25c@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20251003
 SUMMARY:Passed: #7 – Upgrade Proposal: v0.2.3
 DESCRIPTION:Upgrade Proposal: v0.2.3\n\nURL: https://gonkadocs.com/proposal
@@ -97,7 +97,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2025-10-22-0f48d1fb6f47@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20251022
 SUMMARY:Passed: #8 – Upgrade Proposal: v0.2.4
 DESCRIPTION:Upgrade Proposal: v0.2.4\n\nURL: https://gonkadocs.com/proposal
@@ -107,7 +107,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2025-11-11-9043467de282@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20251111
 SUMMARY:Passed: #9 – Higher Bandwidth Limits & Voting Time Back to 24H
 DESCRIPTION:Higher Bandwidth Limits & Voting Time Back to 24H\n\nURL: https
@@ -117,7 +117,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2025-11-12-12138e4c6141@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20251112
 SUMMARY:Passed: #10 – Bandwidth Limits
 DESCRIPTION:Bandwidth Limits\n\nURL: https://gonkadocs.com/proposals/propos
@@ -127,7 +127,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2025-11-12-f5218dd1ff23@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20251112
 SUMMARY:Passed: #11 – Bandwidth Limits
 DESCRIPTION:Bandwidth Limits\n\nURL: https://gonkadocs.com/proposals/propos
@@ -137,7 +137,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2025-11-13-b63da1a7fbc2@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20251113
 SUMMARY:Passed: #12 – Bandwidth Limits
 DESCRIPTION:Bandwidth Limits\n\nURL: https://gonkadocs.com/proposals/propos
@@ -147,7 +147,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2025-11-22-e0c73a8bd208@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20251122
 SUMMARY:Passed: #13 – Upgrade Proposal: v0.2.5
 DESCRIPTION:Upgrade Proposal: v0.2.5\n\nURL: https://gonkadocs.com/proposal
@@ -157,7 +157,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2025-11-27-e44f7d3f5daf@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20251127
 SUMMARY:Passed: #14 – Sale GNK from Community Fund
 DESCRIPTION:Sale GNK from Community Fund\n\nURL: https://gonkadocs.com/prop
@@ -167,7 +167,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2025-12-17-f63db165200a@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20251217
 SUMMARY:Rejected: #15 – Upgrade Proposal: v0.2.6
 DESCRIPTION:Upgrade Proposal: v0.2.6\n\nURL: https://gonkadocs.com/proposal
@@ -177,7 +177,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2025-12-20-e02a739cdfad@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20251220
 SUMMARY:Passed: #16 – Upgrade Proposal: v0.2.6
 DESCRIPTION:Upgrade Proposal: v0.2.6\n\nURL: https://gonkadocs.com/proposal
@@ -187,7 +187,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2025-12-26-bf84409a7384@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20251226
 SUMMARY:Passed: #17 – Expected amount of Confirmation PoC per epoch
 DESCRIPTION:Expected amount of Confirmation PoC per epoch to 4\, p0 for bin
@@ -198,7 +198,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-01-05-76bc69db0cae@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260105
 SUMMARY:Upgrade timing
 DESCRIPTION:A higher-than-usual missed inference rate is currently observed
@@ -213,7 +213,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-01-05-4abd579da416@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260105
 SUMMARY:Rejected: #18 – Test
 DESCRIPTION:Test proposal\n\nURL: https://gonkadocs.com/proposals/proposals
@@ -223,7 +223,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-01-06-293b7fb5762f@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260106
 SUMMARY:v0.2.7 Upgrade Proposal: Genesis Validator Enhancement Enters Gover
  nance
@@ -239,7 +239,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-01-07-56e4b87286d7@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260107
 SUMMARY:Upgrade Details
 DESCRIPTION:The upgrade proposal for version v0.2.7 has been approved throu
@@ -254,7 +254,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-01-07-a50dfc049ad7@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260107
 SUMMARY:Important note for Hosts
 DESCRIPTION:Important note for Hosts There is an option to skip the automat
@@ -268,7 +268,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-01-08-3a79020e0422@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260108
 SUMMARY:TIME IS NOW: Temporary Participant `Allowlist` for Stabilization Pe
  riod
@@ -284,7 +284,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-01-08-1f62dbb52a16@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260108
 SUMMARY:Network Update — Consensus Restored
 DESCRIPTION:Network Update — Consensus Restored Following the deployment 
@@ -296,7 +296,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-01-08-142254185ebc@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260108
 SUMMARY:Network Update — Patch Ready for Deployment
 DESCRIPTION:Network Update — Patch Ready for Deployment The patch address
@@ -311,7 +311,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-01-08-112614928a1e@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260108
 SUMMARY:Network Update — Follow-Up
 DESCRIPTION:Network Update — Follow-Up The patch addressing the recent co
@@ -325,7 +325,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-01-08-655e4169e6ce@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260108
 SUMMARY:Network Update — Consensus Failure During PoC
 DESCRIPTION:Network Update — Consensus Failure During PoC During the Proo
@@ -340,7 +340,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-01-08-13ad5345e213@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260108
 SUMMARY:v0.2.7 Upgrade Proposal: Genesis Validator Enhancement Live on Main
  net
@@ -356,7 +356,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-01-08-08c9602827e3@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260108
 SUMMARY:Passed: #19 – Upgrade Proposal: v0.2.7
 DESCRIPTION:Upgrade Proposal: v0.2.7\n\nURL: https://gonkadocs.com/proposal
@@ -366,7 +366,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-01-10-343ae17d0786@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260110
 SUMMARY:Temporary participant `allowlist` correction
 DESCRIPTION:Temporary participant allowlist correction A new governance vot
@@ -381,7 +381,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-01-10-3f1af20f9b00@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260110
 SUMMARY:Temporary participant `allowlist` approved. Activates in Epoch 135
 DESCRIPTION:Temporary participant allowlist approved. Activates in Epoch 13
@@ -396,7 +396,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-01-10-8c5ab279a436@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260110
 SUMMARY:Passed: #20 – Enable Whitelist
 DESCRIPTION:https://github.com/product-science/filter/tree/ae59d27f04a70039
@@ -407,7 +407,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-01-12-ae859650175e@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260112
 SUMMARY:Passed: #21 – Fix mistakes in allowlist
 DESCRIPTION:https://github.com/product-science/filter/tree/0354c37eb6c827f0
@@ -418,7 +418,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-01-16-3ef9aa662661@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260116
 SUMMARY:Stabilization Period Extension
 DESCRIPTION:Stabilization Period Extension A new governance vote is current
@@ -433,7 +433,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-01-18-a5eca2f0856e@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260118
 SUMMARY:Passed: #22 – Allowlist Timing
 DESCRIPTION:Update Expiration Dates for Developer Access and Participant Al
@@ -444,7 +444,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-01-19-cee68d830e86@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260119
 SUMMARY:Proposal Update: Stabilization Period Extension Approved
 DESCRIPTION:Proposal Update: Stabilization Period Extension Approved The re
@@ -459,7 +459,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-01-27-dba92eab0be0@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260127
 SUMMARY:v0.2.8 Upgrade Proposal Enters Governance
 DESCRIPTION:v0.2.8 Upgrade Proposal Enters Governance The upgrade proposal 
@@ -474,7 +474,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-01-28-34b90e09e3bb@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260128
 SUMMARY:How to switch to `Qwen/Qwen3-235B-A22B-Instruct-2507-FP8`\, upgrade
   ML Nodes\, and remove other models?
@@ -490,7 +490,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-01-28-76720c491363@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260128
 SUMMARY:Upgrade details
 DESCRIPTION:The on-chain governance process for the v0.2.8 upgrade proposal
@@ -505,7 +505,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-01-29-e265d2eb4a10@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260129
 SUMMARY:PoC validation participation notice
 DESCRIPTION:PoC validation participation notice During the latest epoch\, a
@@ -520,7 +520,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-01-29-8fbc82a60fb6@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260129
 SUMMARY:UPGRADE EXECUTED: v0.2.8 is Now Live on Mainnet
 DESCRIPTION:UPGRADE EXECUTED: v0.2.8 is Now Live on Mainnet The on-chain go
@@ -535,7 +535,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-01-29-b9ebea5e975b@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260129
 SUMMARY:Rejected: #24 – Upgrade Proposal: v0.2.8
 DESCRIPTION:Upgrade Proposal: v0.2.8\n\nURL: https://gonkadocs.com/proposal
@@ -545,7 +545,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-01-29-a06636624159@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260129
 SUMMARY:Passed: #25 – Upgrade Proposal: v0.2.8
 DESCRIPTION:Upgrade Proposal: v0.2.8\n\nURL: https://gonkadocs.com/proposal
@@ -555,7 +555,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-01-31-68d9ff037408@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260131
 SUMMARY:v0.2.9 Upgrade Proposal Enters Governance
 DESCRIPTION:v0.2.9 Upgrade Proposal Enters Governance The upgrade proposal 
@@ -570,7 +570,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-02-01-f4cc24ec8c8a@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260201
 SUMMARY:UPGRADE EXECUTED: v0.2.9 is now live on mainnet
 DESCRIPTION:UPGRADE EXECUTED: v0.2.9 is now live on mainnet The on-chain go
@@ -585,7 +585,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-02-01-e6ab40a301ef@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260201
 SUMMARY:Network update
 DESCRIPTION:The on-chain governance process for the v0.2.9 upgrade proposal
@@ -600,7 +600,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-02-01-5822214dab7a@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260201
 SUMMARY:Passed: #26 – Upgrade Proposal: v0.2.9
 DESCRIPTION:Upgrade Proposal: v0.2.9\n\nURL: https://gonkadocs.com/proposal
@@ -610,7 +610,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-02-02-dad27d4cdd85@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260202
 SUMMARY:Network Update — Patch Available
 DESCRIPTION:Network Update — Patch Available A patch is now available to 
@@ -625,7 +625,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-02-02-32a71806bf9f@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260202
 SUMMARY:Block validation has been paused as a precautionary measure
 DESCRIPTION:Block validation has been paused as a precautionary measure Blo
@@ -640,7 +640,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-02-03-fa5fec60946c@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260203
 SUMMARY:PoC v2 inference-based weight adjustments
 DESCRIPTION:PoC v2 inference-based weight adjustments With PoC v2 active\, 
@@ -655,7 +655,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-02-04-8e7aeefce507@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260204
 SUMMARY:CLI update reminder
 DESCRIPTION:CLI update reminder For granting permissions to warm keys creat
@@ -668,7 +668,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-02-10-45e3054569f5@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260210
 SUMMARY:PR Review for Upgrade v0.2.10
 DESCRIPTION:PR Review for Upgrade v0.2.10 The Pull Request https://github.c
@@ -683,7 +683,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-02-12-64f2b4c2cf34@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260212
 SUMMARY:Network update: Patch available (PoC / cPoC overlap)
 DESCRIPTION:Network update: Patch available (PoC / cPoC overlap) A patch is
@@ -698,7 +698,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-02-12-dc8d8d5b0d89@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260212
 SUMMARY:Network incident: PoC / cPoC overlap (block production paused)
 DESCRIPTION:Network incident: PoC / cPoC overlap (block production paused) 
@@ -713,7 +713,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-02-12-2197c2379a00@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260212
 SUMMARY:Inference is now available
 DESCRIPTION:Inference is now available On-chain inference access is current
@@ -728,7 +728,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-02-13-58575c2b1bf6@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260213
 SUMMARY:Upcoming upgrade v0.2.10 voting and execution schedule
 DESCRIPTION:Upcoming upgrade v0.2.10 voting and execution schedule The on-c
@@ -743,7 +743,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-02-13-66f08a19c4b8@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260213
 SUMMARY:Network update
 DESCRIPTION:If your node did not apply the latest upgrade in time\, it may 
@@ -758,7 +758,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-02-16-002cb79ff89d@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260216
 SUMMARY:Collateral activation and proposed initial parameters
 DESCRIPTION:Collateral activation and proposed initial parameters Less than
@@ -773,7 +773,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-02-17-55858bf67561@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260217
 SUMMARY:v0.2.10 Upgrade Proposal Enters Governance
 DESCRIPTION:v0.2.10 Upgrade Proposal Enters Governance The upgrade proposal
@@ -788,7 +788,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-02-18-57fa4a83df0b@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260218
 SUMMARY:UPGRADE EXECUTED: v0.2.10 is now live on mainnet
 DESCRIPTION:UPGRADE EXECUTED: v0.2.10 is now live on mainnet The on-chain g
@@ -803,7 +803,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-02-18-e73f69a6a096@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260218
 SUMMARY:Collateral parameter update proposal is now open for voting
 DESCRIPTION:Collateral parameter update proposal is now open for voting The
@@ -818,7 +818,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-02-18-026e58d9e9ef@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260218
 SUMMARY:Passed: #27 – Upgrade Proposal: v0.2.10
 DESCRIPTION:Upgrade Proposal: v0.2.10\n\nURL: https://gonkadocs.com/proposa
@@ -828,7 +828,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-02-19-72bd22e69850@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260219
 SUMMARY:Collateral parameter update proposal — Voting result
 DESCRIPTION:Collateral parameter update proposal — Voting result The coll
@@ -843,7 +843,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-02-19-461ba4a86af6@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260219
 SUMMARY:PoC weight normalization update
 DESCRIPTION:PoC weight normalization update Following the recent upgrade\, 
@@ -858,7 +858,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-02-19-4d5e72dcad88@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260219
 SUMMARY:Rejected: #28 – Collateral Parameters Update
 DESCRIPTION:0.032 GNK per 1 unit of power\, 0.01% slashing for miss rate or
@@ -869,7 +869,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-02-20-23ffc634f18e@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260220
 SUMMARY:Recommendation (optional): vLLM / mlnode build to interrupt in-flig
  ht requests at PoC start
@@ -885,7 +885,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-02-20-950cfe589333@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260220
 SUMMARY:Rejected: #29 – Network Parameters Update: Disable TA Allowlist\,
   Increase Prices 100x
@@ -898,7 +898,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-02-21-f97abf28a439@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260221
 SUMMARY:API binary v0.2.10-post3 is available
 DESCRIPTION:API binary v0.2.10-post3 is available A new version of the API 
@@ -913,7 +913,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-03-06-f85cae429e81@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260306
 SUMMARY:Heads up: v0.2.11 upgrade is expected to enter review and governanc
  e voting early next week.
@@ -929,7 +929,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-03-10-11c1c463085b@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260310
 SUMMARY:Rejected: #30 – Test Proposal
 DESCRIPTION:Testing governance voting from the wallet app.\n\nURL: https://
@@ -939,7 +939,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-03-11-9c368de96310@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260311
 SUMMARY:Tool calling
 DESCRIPTION:Tool calling Tool calling https://gonka.ai/developer/quickstart
@@ -954,7 +954,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-03-16-8058ed2d8f0f@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260316
 SUMMARY:API binary `v0.2.10-post7` is available
 DESCRIPTION:API binary v0.2.10-post7 is available A potential vulnerability
@@ -969,7 +969,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-03-17-ffa6572ff411@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260317
 SUMMARY:PR Review for Upgrade v0.2.11
 DESCRIPTION:PR Review for Upgrade v0.2.11 The Pull Request https://github.c
@@ -984,7 +984,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-03-18-7b11b16e16e2@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260318
 SUMMARY:v0.2.11 Upgrade Proposal Enters Governance
 DESCRIPTION:v0.2.11 Upgrade Proposal Enters Governance The upgrade proposal
@@ -999,7 +999,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-03-19-63b1973d5fc6@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260319
 SUMMARY:Upgrade v0.2.11: Pre-download binaries
 DESCRIPTION:Upgrade v0.2.11: Pre-download binaries The on-chain governance 
@@ -1014,7 +1014,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-03-20-2ed6e699b3dd@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260320
 SUMMARY:UPGRADE EXECUTED: v0.2.11 is now live on mainnet
 DESCRIPTION:UPGRADE EXECUTED: v0.2.11 is now live on mainnet The on-chain g
@@ -1029,7 +1029,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-03-20-a88eba4063c1@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260320
 SUMMARY:Passed: #31 – Upgrade Proposal: v0.2.11
 DESCRIPTION:Upgrade Proposal: v0.2.11\n\nURL: https://gonkadocs.com/proposa
@@ -1039,7 +1039,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-03-24-22cadcbbd574@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260324
 SUMMARY:Passed: #32 – Epoch 158 compensation payout from gov module (batc
  h vesting)
@@ -1051,7 +1051,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-03-27-c19c00ea0f09@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260327
 SUMMARY:Passed: #33 – Epochs 132-133 compensation payout from gov module
 DESCRIPTION:Distribute compensation for CPoC bug affected participants in e
@@ -1062,7 +1062,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-03-31-f85122bd91b0@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260331
 SUMMARY:Rejected: #34 – gonka.ai / TheSoul social media awareness project
 DESCRIPTION:This proposal seeks community approval for a global media initi
@@ -1075,7 +1075,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-03-31-07446e439e66@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260331
 SUMMARY:Rejected: #35 – gonka.ai / TheSoul social media awareness project
 DESCRIPTION:This proposal seeks community approval for a global media initi
@@ -1088,7 +1088,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-04-01-d9ee18e0c1f3@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260401
 SUMMARY:What changed
 DESCRIPTION:ML Node 3.0.12-post6 available A new mlnode version is now avai
@@ -1103,7 +1103,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-04-02-7983d8d1ec15@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260402
 SUMMARY:Passed: #36 – Register Kava USDT IBC metadata and approve for tra
  ding
@@ -1115,7 +1115,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-04-08-a42b6031f1a6@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260408
 SUMMARY:Rejected: #37 – What is your stance on MLM projects around gonka.
  ai?
@@ -1128,7 +1128,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-04-09-a9ec83f3c08e@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260409
 SUMMARY:Rejected: #38 – CryptoCommons: Community Support & Token Promotio
  n Plan
@@ -1141,7 +1141,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-04-10-8d51b07287bd@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260410
 SUMMARY:Passed: #39 – Community Series Film — Why Gonka Exists
 DESCRIPTION:Saccade Media House is a creative team of tech entrepreneurs wh
@@ -1153,7 +1153,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-04-14-2d4f5e7ad80b@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260414
 SUMMARY:Passed: #40 – Governance: extend voting period to 48 hours
 DESCRIPTION:This proposal updates x/gov: the standard voting period becomes
@@ -1165,7 +1165,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-04-18-27937457a61d@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260418
 SUMMARY:Rejected: #41 – INC4 | Gonka Node Observability Platform
 DESCRIPTION:Today's explorers and dashboards only show on-chain data\, leav
@@ -1177,7 +1177,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-04-19-114c600b920e@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260419
 SUMMARY:Passed: #42 – Support Gonka at Global Compute Sovereignty Summit
 DESCRIPTION:We are DeAI Nation\, a global nonprofit organization supporting
@@ -1189,7 +1189,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-04-27-ff4957b7a161@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260427
 SUMMARY:v0.2.12 Upgrade Proposal Enters Governance
 DESCRIPTION:v0.2.12 Upgrade Proposal Enters Governance The upgrade proposal
@@ -1204,7 +1204,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-04-27-550d13aa1f13@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260427
 SUMMARY:Rejected: #43 – Governance Architecture Proposal for the Gonka.ai
   Network
@@ -1218,7 +1218,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-04-28-819cef0da3a5@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260428
 SUMMARY:Upgrade v0.2.12: Pre-Upgrade Model Cleanup
 DESCRIPTION:Upgrade v0.2.12: Pre-Upgrade Model Cleanup The v0.2.12 upgrade 
@@ -1233,7 +1233,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-04-29-3486cf8c6b6d@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260429
 SUMMARY:Upgrade v0.2.12: Pre-download binaries
 DESCRIPTION:Upgrade v0.2.12: Pre-download binaries The on-chain governance 
@@ -1248,7 +1248,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-04-30-3d12a68ea328@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260430
 SUMMARY:UPGRADE EXECUTED: v0.2.12 is now live on mainnet
 DESCRIPTION:UPGRADE EXECUTED: v0.2.12 is now live on mainnet The on-chain g
@@ -1263,7 +1263,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-04-30-d214dcb0a08f@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260430
 SUMMARY:Passed: #44 – Upgrade Proposal: v0.2.12
 DESCRIPTION:Upgrade Proposal: v0.2.12\n\nURL: https://gonkadocs.com/proposa
@@ -1273,7 +1273,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-05-01-28ddca4ce7aa@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260501
 SUMMARY:Rejected: #45 – Governance Architecture Proposal for the Gonka.ai
   Network
@@ -1286,7 +1286,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-05-02-b385d4af2007@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260502
 SUMMARY:Network update
 DESCRIPTION:Today's pre-eligibility validations don't pass\, with a minimal
@@ -1298,7 +1298,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-05-04-b7d536f564cc@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260504
 SUMMARY:Kimi K2.6 is now active on Gonka network
 DESCRIPTION:Kimi K2.6 is now active on Gonka network moonshotai/Kimi-K2.6 h
@@ -1313,7 +1313,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-05-04-9d33e55f3215@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260504
 SUMMARY:Action required for hosts who submitted PoCIntent: deploy `Kimi K2.
  6`
@@ -1329,7 +1329,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-05-04-659635557b3a@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260504
 SUMMARY:Action required:** update your endpoint to `node4`.
 DESCRIPTION:Transfer agents node1\, node2\, and node3 have been disabled. A
@@ -1344,7 +1344,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-05-04-b2cd80b09739@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260504
 SUMMARY:Passed: #46 – Epochs 132-247 compensation payout from gov module 
  (batch vesting)
@@ -1357,7 +1357,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-05-05-42dc7ede2dd6@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260505
 SUMMARY:Voting ends**: 2026-05-05 19:00:54 UTC
 DESCRIPTION:Hosts observed during the Kimi-K2.6 bootstrap that the 30% mini
@@ -1372,7 +1372,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-05-05-9d21f0a3fddd@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260505
 SUMMARY:Passed: #48 – Lower Direct Participation Threshold to 10%
 DESCRIPTION:During the Kimi-K2.6 bootstrap\, the 30% direct participation t
@@ -1384,7 +1384,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-05-06-f5aa7899aad2@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260506
 SUMMARY:PR Review for Upgrade v0.2.13
 DESCRIPTION:PR Review for Upgrade v0.2.13 The pull request https://github.c
@@ -1399,7 +1399,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-05-06-0953c4df99b8@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260506
 SUMMARY:Network update
 DESCRIPTION:There was a potential issue in api container versions v0.2.11\,
@@ -1414,7 +1414,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-05-06-0953c4df99b8@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260506
 SUMMARY:Network update
 DESCRIPTION:A minor bug was found in parsing certain responses of Kimi-K2.6
@@ -1429,7 +1429,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-05-06-caf5f3276bc7@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260506
 SUMMARY:Rejected: #47 – Retroactive bounty: open-source PoC throughput op
  timization (+10–12% measured) with 250 total installations
@@ -1442,7 +1442,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-05-07-9d437b3d4299@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260507
 SUMMARY:Bridge container update/verification required
 DESCRIPTION:Bridge container update/verification required As part of prepar
@@ -1457,7 +1457,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-05-07-ada48449b748@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260507
 SUMMARY:Passed: #49 – Gonka Media Dominance in TechL/AI with 5 AI Influen
  cers
@@ -1471,7 +1471,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-05-09-496fae0e2a01@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260509
 SUMMARY:Passed: #50 – Retroactive bounty: open-source PoC throughput opti
  mization (+10–12% measured) with 250 total installations
@@ -1484,7 +1484,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-05-15-16499a76af15@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260515
 SUMMARY:v0.2.13 Upgrade Proposal Enters Governance
 DESCRIPTION:v0.2.13 Upgrade Proposal Enters Governance v0.2.13 proposal htt
@@ -1499,7 +1499,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-05-15-37d5b845bb22@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260515
 SUMMARY:Passed: #51 – Support Gonka's presence at WebX Asia
 DESCRIPTION:6Block\, a long-term Gonka mining and infrastructure participan
@@ -1511,7 +1511,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-05-16-8d8c74974743@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260516
 SUMMARY:Epoch #266: PoC weight drop investigation
 DESCRIPTION:Epoch #266: PoC weight drop investigation During the current ep
@@ -1526,7 +1526,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-05-17-d2b776fa61b4@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260517
 SUMMARY:Epoch #267: PoC Validation Recovered
 DESCRIPTION:Epoch #267: PoC Validation Recovered PoC validation completed s
@@ -1541,7 +1541,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-05-17-b343637b486d@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260517
 SUMMARY:Rejected: #52 – Upgrade Proposal: v0.2.13
 DESCRIPTION:Upgrade Proposal: v0.2.13\n\nURL: https://gonkadocs.com/proposa
@@ -1551,7 +1551,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-05-18-6ead5405e19b@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260518
 SUMMARY:Network update
 DESCRIPTION:The proxy container might limit the amount of parallel connecti
@@ -1566,7 +1566,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-05-20-2b1f798341dd@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260520
 SUMMARY:v0.2.13 Upgrade Proposal Enters Governance
 DESCRIPTION:v0.2.13 Upgrade Proposal Enters Governance The v0.2.13 proposal
@@ -1581,7 +1581,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-05-21-14df90c3849f@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260521
 SUMMARY:Rejected: #53 – INC4 | Gonka NOP - grant for the node deployment 
  tool
@@ -1595,7 +1595,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-05-22-23ec92a84d17@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260522
 SUMMARY:v0.2.13 voting concluded — preparing for upgrade at height 426730
  0
@@ -1611,7 +1611,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-05-22-eb06967dea6e@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260522
 SUMMARY:Passed: #54 – Upgrade Proposal: v0.2.13
 DESCRIPTION:Upgrade Proposal: v0.2.13\n\nURL: https://gonkadocs.com/proposa
@@ -1621,7 +1621,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-05-23-3e918feecfc4@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260523
 SUMMARY:Passed: #55 – GRC Proposal #2 - Restitution (epochs 248-254)
 DESCRIPTION:Distribute restitution for Cases 2\, 3\, and 4 across epochs 24
@@ -1633,7 +1633,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-05-25-c48f81d6d94a@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260525
 SUMMARY:Upgrade v0.2.13: pre-download binaries and MiniMax-M2.7 weights
 DESCRIPTION:Upgrade v0.2.13: pre-download binaries and MiniMax-M2.7 weights
@@ -1648,7 +1648,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-05-26-f95677d25eaf@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260526
 SUMMARY:UPGRADE EXECUTED: v0.2.13 is now live on mainnet
 DESCRIPTION:UPGRADE EXECUTED: v0.2.13 is now live on mainnet The on-chain g
@@ -1661,7 +1661,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-05-27-5068a9bf92be@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260527
 SUMMARY:Rejected: #56 – INC4 | Gonka NOP - grant for the node deployment 
  tool
@@ -1675,7 +1675,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-05-28-bc20a0c64e23@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260528
 SUMMARY:MiniMax-M2.7 is now active on Gonka network
 DESCRIPTION:MiniMax-M2.7 is now active on Gonka network The bootstrap stage
@@ -1690,7 +1690,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-05-30-f6717d01dcdb@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260530
 SUMMARY:Passed: #57 – Approve the Gonka Network Development Roadmap
 DESCRIPTION:This proposal approves the Gonka Network Development Roadmap as
@@ -1702,7 +1702,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-05-30-6c5f507248e4@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260530
 SUMMARY:Rejected: #58 – Big YouTube Deep-Dive on Falcon Finance (Alexande
  r Sokolovsky)
@@ -1716,7 +1716,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-06-02-706fc2ef4db0@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260602
 SUMMARY:Rejected: #59 – Gonka Onboarding Video Guide — Milestone 1 (Pre
  payment)
@@ -1729,7 +1729,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-06-04-7b3fe74a5909@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260604
 SUMMARY:Passed: #60 – TheSoul - Offer 1.1: Brand positioning (25\,000 USD
  T)
@@ -1742,7 +1742,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-06-04-7bba7c569f14@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260604
 SUMMARY:Passed: #61 – TheSoul - Offer 1.2: Brandbook (20\,000 USDT)
 DESCRIPTION:Brand identity system for Gonka.AI: logo\, typography\, color s
@@ -1755,7 +1755,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-06-04-20005753d61e@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260604
 SUMMARY:Passed: #63 – TheSoul - Offer 2.1: Website and landings (10\,000 
  USDT)
@@ -1768,7 +1768,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-06-04-5711bf64de3b@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260604
 SUMMARY:Passed: #62 – TheSoul - Offer 1.3: Influencer pilot (50\,000 USDT
  )
@@ -1781,7 +1781,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-06-04-fbd97ae78238@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260604
 SUMMARY:Passed: #65 – TheSoul - Offer 2.3: Digital strategy (100\,000 GNK
  )
@@ -1795,7 +1795,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-06-04-f35d24efd85c@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260604
 SUMMARY:Passed: #64 – TheSoul - Offer 2.2: Analytics and attribution (28\
  ,000 GNK)
@@ -1809,7 +1809,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-06-05-c5f359f7abb5@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260605
 SUMMARY:Rejected: #66 – test proposal - 测试方案
 DESCRIPTION:test proposal - 测试方案\n\nURL: https://gonkadocs.com/prop
@@ -1819,7 +1819,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-06-05-35b148e6a7de@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260605
 SUMMARY:Passed: #67 – Kimi Restitution (epochs 265-276)
 DESCRIPTION:Distribute restitution for Kimi operators across epochs 265-276
@@ -1831,7 +1831,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-06-06-df2b41ad5d01@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260606
 SUMMARY:[The PR for the devshard-only upgrade](https://github.com/gonka-ai/
  gonka/pull/1289) is now open for review.
@@ -1847,7 +1847,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-06-07-52b897d88b68@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260607
 SUMMARY:Passed: #68 – Big YouTube Deep-Dive on Falcon Finance (Alexander 
  Sokolovsky)
@@ -1861,7 +1861,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-06-07-26ba5d806984@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260607
 SUMMARY:Failed: #69 – Increase minimum governance deposit to 500 GNK
 DESCRIPTION:Increase the minimum deposit required to submit a governance pr
@@ -1873,7 +1873,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-06-08-2ee65cb726b3@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260608
 SUMMARY:Rejected: #70 – GNK Racers: Launch GameFi Mini-App to Drive User 
  Growth & Wallet Activity
@@ -1887,7 +1887,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-06-10-eba7dab5f32c@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260610
 SUMMARY:Rejected: #71 – Gonka PR Proposal for US/Global Regions
 DESCRIPTION:We're a comms team specializing in Organic PR for crypto and te
@@ -1899,7 +1899,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-06-12-4c8003c5190e@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260612
 SUMMARY:Rejected: #72 – Open devshard escrow creation to community wallet
   gonka1afj0tz53z56zngs425m83vxl5y2xmwm692hfrn
@@ -1912,7 +1912,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-06-12-8d16577049de@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260612
 SUMMARY:Passed: #73 – Increase minimum governance deposit to 500 GNK and 
  expedited minimum deposit to 1000 GNK
@@ -1926,7 +1926,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-06-12-0cdc8f77e9c4@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260612
 SUMMARY:Passed: #74 – Gonka Labs: Maintaining Infrastructure\, Improving 
  Products\, and Launching New Ones
@@ -1939,7 +1939,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-06-15-8a7001d0d223@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260615
 SUMMARY:The v0.2.13-devshard-v2 runtime upgrade proposal has entered govern
  ance.
@@ -1955,7 +1955,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-06-15-802d36fa26ff@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260615
 SUMMARY:Rejected: #75 – Private Inc × Gonka — Network Growth Initiativ
  e
@@ -1969,7 +1969,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-06-17-9917346d9135@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260617
 SUMMARY:Passed: #76 – Governance 16: devshard v2 and bounty payouts
 DESCRIPTION:Register devshard approved version v2.\n\nURL: https://gonkadoc
@@ -1979,7 +1979,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-06-22-ee108171aa62@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260622
 SUMMARY:The v0.2.13-devshard-v2 runtime upgrade proposal has passed governa
  nce
@@ -1995,7 +1995,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-06-25-1c2be0904ab1@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260625
 SUMMARY:Proposal 78 passed: `MiniMaxAI/MiniMax-M2.7` is now the sole PoC mo
  del\; Kimi K2.6 and Qwen3-235B removed
@@ -2011,7 +2011,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-06-25-1256b40c2387@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260625
 SUMMARY:Expedited governance vote (proposal 78): MiniMax-M2.7 becomes the s
  ole PoC model\; Kimi K2.6 removed for a fast re-bootstrap\; Qwen3-235B ret
@@ -2028,7 +2028,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-06-25-f06d49c9c830@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART:20260625T150000Z
 DTEND:20260625T160000Z
 SUMMARY:AMA: Bitfury\, HackerOne & Gonka — Bug Bounty Program Launch
@@ -2056,7 +2056,7 @@ CATEGORIES:ama
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-06-25-3eb55c138837@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260625
 SUMMARY:Passed: #78 – Governance 17: update PoC model lineup
 DESCRIPTION:Set delegation initial_model_id to MiniMaxAI/MiniMax-M2.7\, kee
@@ -2068,7 +2068,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-06-26-a6b16aaba12e@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260626
 SUMMARY:Expedited governance vote 79: restore `moonshotai/Kimi-K2.6` and ad
  d `GLM-5.2`
@@ -2084,7 +2084,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-06-26-e6347ef8f071@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260626
 SUMMARY:Passed: #79 – Add Kimi K2.6 and GLM 5.2 model
 DESCRIPTION:Add Kimi K2.6 and GLM 5.2 model\n\nURL: https://gonkadocs.com/p
@@ -2094,7 +2094,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-06-26-fd7098cc91cd@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260626
 SUMMARY:Passed: #77 – Gonka PR Proposal for US/Global Regions
 DESCRIPTION:We are INPUT Global - a leading web3 marketing communications a
@@ -2106,7 +2106,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-06-27-2f47c30e8e21@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260627
 SUMMARY:Kimi-K2.6 bootstrap: next attempt at epoch 311
 DESCRIPTION:Kimi-K2.6 bootstrap: next attempt at epoch 311 moonshotai/Kimi-
@@ -2121,7 +2121,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-07-06-1e0ef1b4320f@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260706
 SUMMARY:Security update: PoC-v2 weight validation hardening — update your
   API container
@@ -2137,7 +2137,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-07-07-e69db9f99672@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260707
 SUMMARY:Rejected: #80 – GRC Proposal #3 - Restitution
 DESCRIPTION:Restitution payout for confirmed GRC Proposal #3 cases\, with C
@@ -2149,7 +2149,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-07-08-bee24ef77498@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260708
 SUMMARY:The v0.2.13-devshard-v3 runtime upgrade proposal has entered govern
  ance
@@ -2165,7 +2165,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-07-08-5f8b32d415da@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260708
 SUMMARY:PR Review for Upgrade v0.2.14
 DESCRIPTION:PR Review for Upgrade v0.2.14 The pull request https://github.c
@@ -2180,7 +2180,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-07-10-ba835534956d@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260710
 SUMMARY:Rejected: #81 – Kimi cPoC Restitution (epochs 306-309)
 DESCRIPTION:Distribute restitution for Kimi operators affected by cPoC vali
@@ -2192,7 +2192,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-07-10-832fda5bfdb1@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260710
 SUMMARY:Passed: #82 – External Test Lab x Community DevNet
 DESCRIPTION:4-month pilot of the External Test Lab & Community DevNet: a co
@@ -2204,7 +2204,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-07-11-98fca0b3b121@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260711
 SUMMARY:The v0.2.13-devshard-v3 runtime upgrade proposal has passed governa
  nce
@@ -2220,7 +2220,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-07-11-14449af1d74c@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260711
 SUMMARY:Passed: #83 – Approve devshard v3
 DESCRIPTION:Update current chain params by adding v3 to devshard_escrow_par
@@ -2231,7 +2231,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-07-11-38ef0347d584@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260711
 SUMMARY:Rejected: #84 – Bringing $3M+ in New Capital to GONKA via Uniswap
   — Phase 1/6 ($50k USDT)
@@ -2245,7 +2245,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-07-12-c66e8d1a443e@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260712
 SUMMARY:Rejected: #85 – Internal Go-To-Market Team for 3 Month
 DESCRIPTION:We will run hundreds of experiments across different target aud
@@ -2257,7 +2257,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-07-15-e3057e52bc77@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260715
 SUMMARY:Expedited governance vote (proposal 87): remove Kimi-K2.6 for a fas
  t re-bootstrap
@@ -2273,7 +2273,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-07-15-95afc15c328f@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260715
 SUMMARY:Kimi-K2.6 incident (epochs 328–329): what happened\, recovery pla
  n\, and a change in delegation guidance
@@ -2289,7 +2289,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-07-16-8fcdded03c7e@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260716
 SUMMARY:Proposal 88 has passed: Kimi-K2.6 re-registered\, devshard v1/v2 re
  moved
@@ -2305,7 +2305,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-07-16-5bd059218706@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260716
 SUMMARY:Expedited governance vote (proposal 88): re-register Kimi-K2.6 and 
  remove devshard v1/v2 runtimes
@@ -2321,7 +2321,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-07-16-37e1a9ea2bf5@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260716
 SUMMARY:Passed: #87 – Remove Kimi K2.6 model
 DESCRIPTION:Remove moonshotai/Kimi-K2.6 from PoC params and delete it from 
@@ -2332,7 +2332,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-07-16-91c1f992d174@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260716
 SUMMARY:Passed: #86 – Increase Kimi-K2.6 and GLM-5.2 weight_scale_factor 
  by 5%
@@ -2345,7 +2345,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-07-17-8a991dd98dcf@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260717
 SUMMARY:Report for proposal #77 — Gonka PR Proposal for US/Global Regions
 DESCRIPTION:Report report1 for proposal #77 has been uploaded. Read it: htt
@@ -2356,7 +2356,7 @@ CATEGORIES:proposal_report_upload
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-07-17-3ce9ec0c9bfe@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260717
 SUMMARY:Passed: #88 – Restore Kimi K2.6 and remove v1\, v2
 DESCRIPTION:Update current chain params to register moonshotai/Kimi-K2.6 in
@@ -2368,7 +2368,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-07-18-fe8efb7387a3@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260718
 SUMMARY:Report for proposal #74 — Gonka Labs: Maintaining Infrastructure\
  , Improving Products\, and Launch…
@@ -2380,7 +2380,7 @@ CATEGORIES:proposal_report_upload
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-07-20-16ec377aa38a@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260720
 SUMMARY:v0.2.14 Upgrade Proposal Enters Governance
 DESCRIPTION:v0.2.14 Upgrade Proposal Enters Governance The v0.2.14 proposal
@@ -2395,7 +2395,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-07-20-da4d1637c0fd@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260720
 SUMMARY:[The PR for the devshard-only](https://github.com/gonka-ai/gonka/pu
  ll/1482) upgrade is now open for review
@@ -2411,7 +2411,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-07-21-6f1927ff2923@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260721
 SUMMARY:Report for proposal #49 — Gonka Media Dominance in TechL/AI with 
  5 AI Influencers
@@ -2423,7 +2423,7 @@ CATEGORIES:proposal_report_upload
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-07-22-d2394bfeb7b5@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260722
 SUMMARY:Upgrade v0.2.14: Pre-download binaries
 DESCRIPTION:Upgrade v0.2.14: Pre-download binaries The on-chain governance 
@@ -2438,7 +2438,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-07-23-d06cfb1bf695@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260723
 SUMMARY:UPGRADE EXECUTED: v0.2.14 is now live on mainnet
 DESCRIPTION:UPGRADE EXECUTED: v0.2.14 is now live on mainnet The on-chain g
@@ -2451,7 +2451,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-07-23-5a76b1daf127@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260723
 SUMMARY:Passed: #89 – Upgrade Proposal: v0.2.14
 DESCRIPTION:Upgrade Proposal: v0.2.14\n\nURL: https://gonkadocs.com/proposa
@@ -2461,7 +2461,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-07-23-4eb7b2018596@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260723
 SUMMARY:Rejected: #90 – Partnerships with Inference Resellers\, B2C users
   acquisition and conversion funnels analytics setup
@@ -2474,7 +2474,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-07-24-3218305c6316@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260724
 SUMMARY:Report for proposal #77 — Gonka PR Proposal for US/Global Regions
 DESCRIPTION:Report report2 for proposal #77 has been uploaded. Read it: htt
@@ -2485,7 +2485,7 @@ CATEGORIES:proposal_report_upload
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-07-24-aac03af50b13@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260724
 SUMMARY:Passed: #91 – Temporarily update BLS signing parameters
 DESCRIPTION:Set max_signing_attempts to 1 and signing_deadline_blocks to 60
@@ -2497,7 +2497,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-07-28-c56c547b379e@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260728
 SUMMARY:Devshard v4 and v0.2.15 Mainnet Upgrade Proposal Enters Governance
 DESCRIPTION:Devshard v4 and v0.2.15 Mainnet Upgrade Proposal Enters Governa
@@ -2512,7 +2512,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-07-29-2c319da662b8@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260729
 SUMMARY:Upgrade v0.2.15 and devshard v4: Pre-download binaries
 DESCRIPTION:Upgrade v0.2.15 and devshard v4: Pre-download binaries The on-c
@@ -2527,7 +2527,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-07-29-bad59a1afaac@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART:20260729T130000Z
 DTEND:20260729T140000Z
 SUMMARY:INPUT Global — Weekly Call (#77)
@@ -2542,7 +2542,7 @@ CATEGORIES:committee_call
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-07-30-1c0815959d98@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260730
 SUMMARY:UPGRADE EXECUTED: v0.2.15 is now live on mainnet
 DESCRIPTION:UPGRADE EXECUTED: v0.2.15 is now live on mainnet The on-chain g
@@ -2557,7 +2557,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-07-30-6169b204ef73@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260730
 SUMMARY:Passed: #92 – Upgrade Proposal: v0.2.15
 DESCRIPTION:Upgrade Proposal: v0.2.15\n\nURL: https://gonkadocs.com/proposa
@@ -2567,7 +2567,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-07-30-7961c25d0050@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART:20260730T110000Z
 DTEND:20260730T120000Z
 SUMMARY:▶️ Ancapex Live: Gonka Overview
@@ -2581,7 +2581,7 @@ CATEGORIES:livestream
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-07-31-577a6d838204@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260731
 SUMMARY:Report for proposal #77 — Gonka PR Proposal for US/Global Regions
 DESCRIPTION:Report report3 for proposal #77 has been uploaded. Read it: htt
@@ -2592,7 +2592,7 @@ CATEGORIES:proposal_report_upload
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-08-01-0b684273bbc6@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260801
 SUMMARY:The `v0.2.15-devshard-v4.0.1` runtime upgrade proposal has entered 
  governance
@@ -2608,7 +2608,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-08-01-4af1c96bcd9f@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260801
 SUMMARY:Report for proposal #77 — Gonka PR Proposal for US/Global Regions
 DESCRIPTION:Report reports5 for proposal #77 has been uploaded. Read it: ht
@@ -2619,7 +2619,7 @@ CATEGORIES:proposal_report_upload
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-08-03-8b1277e876f1@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260803
 SUMMARY:UPGRADE EXECUTED: devshard runtime v4.0.1 is now live
 DESCRIPTION:UPGRADE EXECUTED: devshard runtime v4.0.1 is now live The on-ch
@@ -2634,7 +2634,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-08-03-bd307029d85c@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260803
 SUMMARY:Report for proposal #51 — Support Gonka's presence at WebX Asia
 DESCRIPTION:Report report1 for proposal #51 has been uploaded. Read it: htt
@@ -2645,7 +2645,7 @@ CATEGORIES:proposal_report_upload
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-08-03-dd70d38e2fc3@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260803
 SUMMARY:Passed: #93 – Upgrade devshard v4 runtime to v4.0.1
 DESCRIPTION:Replace the existing devshard v4 runtime with v4.0.1. This perf
@@ -2657,7 +2657,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-08-03-56ca84a45c2d@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART:20260803T153000Z
 DTEND:20260803T163000Z
 SUMMARY:AMA with Gleb Morgachev — Dev Team Funding proposal
@@ -2675,7 +2675,7 @@ CATEGORIES:ama
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-08-04-c64ee189be55@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART:20260804T153000Z
 DTEND:20260804T163000Z
 SUMMARY:AMA session with Gleb Morgachev (@gmorgachev\, co-founder of Gonka)
@@ -2694,7 +2694,7 @@ CATEGORIES:ama
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-08-05-cf637acc55bd@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART:20260805T130000Z
 DTEND:20260805T140000Z
 SUMMARY:INPUT Global — Weekly Call (#77)
@@ -2709,7 +2709,7 @@ CATEGORIES:committee_call
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-08-05-2ae6c503bc1d@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART:20260805T150000Z
 DTEND:20260805T160000Z
 SUMMARY:TheSoul — Weekly Report Call (#60–#65)
@@ -2723,7 +2723,7 @@ CATEGORIES:committee_call
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-08-06-69f33e1d8e71@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART:20260806T110000Z
 DTEND:20260806T120000Z
 SUMMARY:⛏ Покупка собственного оборудовани
@@ -2762,7 +2762,7 @@ CATEGORIES:community
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-08-07-3877da59cd20@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260807
 SUMMARY:Report for proposal #77 — Gonka PR Proposal for US/Global Regions
 DESCRIPTION:Report report4 for proposal #77 has been uploaded. Read it: htt
@@ -2773,7 +2773,7 @@ CATEGORIES:proposal_report_upload
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-08-07-ecfb3a95d4db@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART:20260807T153000Z
 DTEND:20260807T163000Z
 SUMMARY:AMA с Давидом и Даниилом Либерманами 
@@ -2814,7 +2814,7 @@ CATEGORIES:ama
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-08-10-3d5b28484ea2@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260810
 SUMMARY:Governance vote (proposal 94): add DeepSeek V4 Flash
 DESCRIPTION:Governance vote (proposal 94): add DeepSeek V4 Flash The propos
@@ -2829,7 +2829,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-08-10-b76ced51a5a1@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART:20260810T153000Z
 DTEND:20260810T163000Z
 SUMMARY:External Test Lab & Community DevNet — первый ежемес
@@ -2866,7 +2866,7 @@ CATEGORIES:community_call
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-08-12-29f596989b49@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260812
 SUMMARY:DeepSeek V4 Flash bootstrap (epoch 359)
 DESCRIPTION:DeepSeek V4 Flash bootstrap (epoch 359) Proposal 94 has passed 
@@ -2881,7 +2881,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-08-12-5c22c259f1c4@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260812
 SUMMARY:Report for proposal #82 — External Test Lab x Community DevNet
 DESCRIPTION:Report report1 for proposal #82 has been uploaded. Read it: htt
@@ -2892,7 +2892,7 @@ CATEGORIES:proposal_report_upload
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-08-12-ed0db1d486e7@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART:20260812T130000Z
 DTEND:20260812T140000Z
 SUMMARY:INPUT Global — Weekly Call (#77)
@@ -2907,7 +2907,7 @@ CATEGORIES:committee_call
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-08-12-d1a1e0b32a68@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260812
 SUMMARY:Passed: #94 – Add DeepSeek V4 Flash 0731
 DESCRIPTION:Register deepseek-ai/DeepSeek-V4-Flash-0731 for inference and P
@@ -2919,7 +2919,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-08-13-5bccda6c1523@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260813
 SUMMARY:Migrate community-sale and wrapped-token contracts
 DESCRIPTION:Migrate community-sale and wrapped-token contracts Migrate the 
@@ -2934,7 +2934,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-08-13-fadc80c0d014@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260813
 SUMMARY:DeepSeek V4 Flash bootstrap: intent threshold met — don’t forge
  t to delegate before the epoch 360 snapshot
@@ -2950,7 +2950,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-08-13-8b703a3a0b60@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260813
 SUMMARY:Testing DeepSeek V4 Flash
 DESCRIPTION:Testing DeepSeek V4 Flash DeepSeek is through the vote and into
@@ -2965,7 +2965,7 @@ CATEGORIES:network_update
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-08-13-7b102aa63fe9@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART:20260813T150000Z
 DTEND:20260813T160000Z
 SUMMARY:TheSoul — Weekly Report Call (#60–#65)
@@ -2979,7 +2979,7 @@ CATEGORIES:committee_call
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-08-14-f8e012ec7c3b@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260814
 SUMMARY:Report for proposal #77 — Gonka PR Proposal for US/Global Regions
 DESCRIPTION:Report report5 for proposal #77 has been uploaded. Read it: htt
@@ -2990,7 +2990,7 @@ CATEGORIES:proposal_report_upload
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-08-16-f8fc2e6874ed@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260816
 SUMMARY:Passed: #95 – Migrate community-sale and wrapped-token contracts
 DESCRIPTION:Migrate the live community-sale contract and all wrapped-token 
@@ -3002,7 +3002,7 @@ CATEGORIES:proposal_report
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-08-19-b08b852f9cad@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART;VALUE=DATE:20260819
 SUMMARY:Report for proposal #74 — Gonka Labs: Maintaining Infrastructure\
  , Improving Products\, and Launch…
@@ -3014,7 +3014,7 @@ CATEGORIES:proposal_report_upload
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-08-19-1237c78b8820@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART:20260819T130000Z
 DTEND:20260819T140000Z
 SUMMARY:INPUT Global — Weekly Call (#77)
@@ -3029,7 +3029,7 @@ CATEGORIES:committee_call
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-08-19-1aa8f4842009@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART:20260819T150000Z
 DTEND:20260819T160000Z
 SUMMARY:TheSoul — Weekly Report Call (#60–#65)
@@ -3042,8 +3042,20 @@ URL:https://gonkadocs.com/proposals/proposals/2026-q2/60/
 CATEGORIES:committee_call
 END:VEVENT
 BEGIN:VEVENT
+UID:gonka-2026-08-21-6c39ab6bb30f@gonkadocs.com
+DTSTAMP:20260831T184614Z
+DTSTART;VALUE=DATE:20260821
+SUMMARY:Passed: #96 – Stabilize in-epoch invalid SPRT on small samples
+DESCRIPTION:In-epoch SPRT on invalid inferences is not stable on a small sa
+ mple. A few invalids can trip it before the epoch has enough data. This pr
+ oposal raises invalidation_h_threshold to 40 and sets bad_parti…\n\nURL:
+  https://gonkadocs.com/proposals/proposals/2026-q3/96/\n\nTags: passed
+URL:https://gonkadocs.com/proposals/proposals/2026-q3/96/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
 UID:gonka-2026-08-26-4ecdd187e2cc@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART:20260826T130000Z
 DTEND:20260826T140000Z
 SUMMARY:INPUT Global — Weekly Call (#77)
@@ -3058,7 +3070,7 @@ CATEGORIES:committee_call
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-08-26-e9a79b7a2dc4@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART:20260826T150000Z
 DTEND:20260826T160000Z
 SUMMARY:TheSoul — Weekly Report Call (#60–#65)
@@ -3071,8 +3083,55 @@ URL:https://gonkadocs.com/proposals/proposals/2026-q2/60/
 CATEGORIES:committee_call
 END:VEVENT
 BEGIN:VEVENT
+UID:gonka-2026-08-27-cc994e5a97f8@gonkadocs.com
+DTSTAMP:20260831T184614Z
+DTSTART;VALUE=DATE:20260827
+SUMMARY:Rejected: #97 – Increase DeepSeek V4 Flash weight_scale_factor to
+  0.246
+DESCRIPTION:Increase the weight_scale_factor for deepseek-ai/DeepSeek-V4-Fl
+ ash-0731 from 0.214 to 0.246. All other model and chain parameters remain 
+ unchanged.\n\nThe original factor came from inflated nonce/min nu…\n\nUR
+ L: https://gonkadocs.com/proposals/proposals/2026-q3/97/\n\nTags: rejected
+URL:https://gonkadocs.com/proposals/proposals/2026-q3/97/
+CATEGORIES:proposal_report
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-08-29-6ed1f0fcf7e8@gonkadocs.com
+DTSTAMP:20260831T184614Z
+DTSTART:20260829T213000Z
+DTEND:20260829T223000Z
+SUMMARY:Voting ends: #98 – Increase DeepSeek V4 Flash weight_scale_factor
+  to 0.246
+DESCRIPTION:Increase the weight_scale_factor for deepseek-ai/DeepSeek-V4-Fl
+ ash-0731 from 0.214 to 0.246. All other model and chain parameters remain 
+ unchanged.\n\nResubmission of proposal 97\, which expired without …\n\nU
+ RL: https://gonkadocs.com/proposals/proposals/2026-q3/98/\n\nTags: voting
+URL:https://gonkadocs.com/proposals/proposals/2026-q3/98/
+CATEGORIES:proposal_vote_end
+END:VEVENT
+BEGIN:VEVENT
+UID:gonka-2026-09-01-thesoul-ama-en@gonkadocs.com
+DTSTAMP:20260831T184614Z
+DTSTART:20260901T153000Z
+DTEND:20260901T163000Z
+SUMMARY:AMA with TheSoul — Q3 Progress Update (EN)
+DESCRIPTION:We plan to host AMA sessions to go through more detailed update
+ s on the proposals accepted with TheSoul\, progress\, bottlenecks\, and an
+ y other updates\, and will leave 20 minutes at the end to answer your ques
+ tions.\n\n📅 Tuesday\, September 1\, 2026 — 8:30 AM San Francisco · 5
+ :30 PM CET · 6:30 PM Moscow\n🗣️ Language: English\n\nAGENDA:\nFormat
+ : Updates + Questions\n• Where We Stand\n• Brand Positioning & Audienc
+ e Strategy\n• Brand Identity\n• Influencer Marketing\n• Website & La
+ nding Pages\n• Analytics & Attribution\n• Digital & Social Strategy\n
+ • Keeping the Next Phase Moving\n• Questions\n\n🎦 Zoom: The link wi
+ ll be published before the session starts\; monitor Discord for updates.\n
+ \nPlease feel free to share any questions prior to the session!\n\nTags: a
+ ma\, thesoul\, pr\, marketing\, proposal-60
+CATEGORIES:ama
+END:VEVENT
+BEGIN:VEVENT
 UID:gonka-2026-09-02-a840f7cce4ca@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART:20260902T130000Z
 DTEND:20260902T140000Z
 SUMMARY:INPUT Global — Weekly Call (#77)
@@ -3087,7 +3146,7 @@ CATEGORIES:committee_call
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-09-02-c29a3f1492ff@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART:20260902T150000Z
 DTEND:20260902T160000Z
 SUMMARY:TheSoul — Weekly Report Call (#60–#65)
@@ -3100,8 +3159,28 @@ URL:https://gonkadocs.com/proposals/proposals/2026-q2/60/
 CATEGORIES:committee_call
 END:VEVENT
 BEGIN:VEVENT
+UID:gonka-2026-09-02-thesoul-ama-ru@gonkadocs.com
+DTSTAMP:20260831T184614Z
+DTSTART:20260902T153000Z
+DTEND:20260902T163000Z
+SUMMARY:AMA with TheSoul — Q3 Progress Update (RU)
+DESCRIPTION:We plan to host AMA sessions to go through more detailed update
+ s on the proposals accepted with TheSoul\, progress\, bottlenecks\, and an
+ y other updates\, and will leave 20 minutes at the end to answer your ques
+ tions.\n\n📅 Wednesday\, September 2\, 2026 — 8:30 AM San Francisco ·
+  5:30 PM CET · 6:30 PM Moscow\n🗣️ Language: Russian\n\nAGENDA:\nForm
+ at: Updates + Questions\n• Where We Stand\n• Brand Positioning & Audie
+ nce Strategy\n• Brand Identity\n• Influencer Marketing\n• Website & 
+ Landing Pages\n• Analytics & Attribution\n• Digital & Social Strategy\
+ n• Keeping the Next Phase Moving\n• Questions\n\n🎦 Zoom: The link w
+ ill be published before the session starts\; monitor Discord for updates.\
+ n\nPlease feel free to share any questions prior to the session!\n\nTags: 
+ ama\, thesoul\, pr\, marketing\, proposal-60
+CATEGORIES:ama
+END:VEVENT
+BEGIN:VEVENT
 UID:gonka-2026-09-03-monthly-ama@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART:20260903T153000Z
 DTEND:20260903T163000Z
 SUMMARY:Monthly AMA Session
@@ -3123,7 +3202,7 @@ CATEGORIES:ama
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-09-09-ded8bb0d5caf@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART:20260909T130000Z
 DTEND:20260909T140000Z
 SUMMARY:INPUT Global — Weekly Call (#77)
@@ -3138,7 +3217,7 @@ CATEGORIES:committee_call
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-09-09-f7f5e3738179@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART:20260909T150000Z
 DTEND:20260909T160000Z
 SUMMARY:TheSoul — Weekly Report Call (#60–#65)
@@ -3152,7 +3231,7 @@ CATEGORIES:committee_call
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-09-16-b3ee257b866d@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART:20260916T130000Z
 DTEND:20260916T140000Z
 SUMMARY:INPUT Global — Weekly Call (#77)
@@ -3167,7 +3246,7 @@ CATEGORIES:committee_call
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-09-16-82552ede6db3@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART:20260916T150000Z
 DTEND:20260916T160000Z
 SUMMARY:TheSoul — Weekly Report Call (#60–#65)
@@ -3181,7 +3260,7 @@ CATEGORIES:committee_call
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-09-23-720d30d5833c@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART:20260923T130000Z
 DTEND:20260923T140000Z
 SUMMARY:INPUT Global — Weekly Call (#77)
@@ -3196,7 +3275,7 @@ CATEGORIES:committee_call
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-09-23-3ae668841a8e@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART:20260923T150000Z
 DTEND:20260923T160000Z
 SUMMARY:TheSoul — Weekly Report Call (#60–#65)
@@ -3210,7 +3289,7 @@ CATEGORIES:committee_call
 END:VEVENT
 BEGIN:VEVENT
 UID:gonka-2026-09-30-dd64cd14a5fa@gonkadocs.com
-DTSTAMP:20260828T064223Z
+DTSTAMP:20260831T184614Z
 DTSTART:20260930T150000Z
 DTEND:20260930T160000Z
 SUMMARY:TheSoul — Weekly Report Call (#60–#65)
