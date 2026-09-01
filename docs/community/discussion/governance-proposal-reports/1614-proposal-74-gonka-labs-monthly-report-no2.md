@@ -3,14 +3,14 @@ title: "#1614 — Proposal #74: Gonka Labs - Monthly Report No.2"
 source: https://github.com/gonka-ai/gonka/discussions/1614
 discussion_number: 1614
 category: governance-proposal-reports
-synced_at: 2026-09-01T18:23:46Z
+synced_at: 2026-09-01T21:43:01Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1614](https://github.com/gonka-ai/gonka/discussions/1614) every hour. 
 
 # Proposal #74: Gonka Labs - Monthly Report No.2
 
-**Автор:** [@ptd-bot](https://github.com/ptd-bot) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-08-19 11:28 UTC · **Обновлено:** 2026-08-19 11:28 UTC
+**Автор:** [@ptd-bot](https://github.com/ptd-bot) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-08-19 11:28 UTC · **Обновлено:** 2026-09-01 19:33 UTC
 
 ---
 
