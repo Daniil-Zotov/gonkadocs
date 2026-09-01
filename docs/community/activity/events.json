@@ -1,5 +1,29 @@
 [
   {
+    "id": "evt_20260901024922_3c86f3d1",
+    "timestamp": "2026-09-01T02:49:22.104208+00:00",
+    "section": "calendar",
+    "action": "daily_reminder",
+    "item": {
+      "title": "Today: 1 events — AMA with TheSoul — Q3 Progress Update (EN)",
+      "url": "/community/calendar/",
+      "file": null
+    },
+    "details": {
+      "today": [
+        {
+          "title": "AMA with TheSoul — Q3 Progress Update (EN)",
+          "date": "2026-09-01",
+          "time": "15:30 UTC",
+          "event_type": "ama",
+          "url": "None"
+        }
+      ],
+      "count": 1
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260901001632_1ad7e3a9",
     "timestamp": "2026-09-01T00:16:32.461891+00:00",
     "section": "gonka_docs",
