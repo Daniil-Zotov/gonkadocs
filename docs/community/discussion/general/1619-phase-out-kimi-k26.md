@@ -3,14 +3,14 @@ title: "#1619 — Phase out Kimi K2.6"
 source: https://github.com/gonka-ai/gonka/discussions/1619
 discussion_number: 1619
 category: general
-synced_at: 2026-09-01T09:58:27Z
+synced_at: 2026-09-01T14:46:04Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1619](https://github.com/gonka-ai/gonka/discussions/1619) every hour. 
 
 # Phase out Kimi K2.6
 
-**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :speech_balloon: General · **Создано:** 2026-08-21 01:09 UTC · **Обновлено:** 2026-08-27 21:57 UTC
+**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :speech_balloon: General · **Создано:** 2026-08-21 01:09 UTC · **Обновлено:** 2026-09-01 13:45 UTC
 
 ---
 
@@ -38,7 +38,7 @@ I suggest keeping this discussion about Kimi's fate open until August 30. Unless
 
 ---
 
-## 💬 Комментарии (4)
+## 💬 Комментарии (5)
 
 ### Комментарий 1 — [@theaungmyatmoe](https://github.com/theaungmyatmoe)
 
@@ -135,3 +135,17 @@ Overall, think Kimi has no real benefits
 
 > check - qwen3.8-flash-next 
 > @gmorgachev 
+
+### Комментарий 5 — [@Username14345](https://github.com/Username14345)
+
+*2026-09-01 12:23 UTC*
+
+I'd say goodbye to the Minimax first; here, on the contrary, people actively use the Kimi. As for the Minimax, nobody uses it at all.
+
+Especially since the new GLM Flash model requires the H100 and H200, which the Minimax has.
+
+**↳ Ответ от [@theaungmyatmoe](https://github.com/theaungmyatmoe)** · *2026-09-01 13:45 UTC*
+
+> GlM 5.3 Flash is dumb but it's better than MinMax ofc 
+>
+> I like to host both dsv4flash and Glm5.3 flash 
