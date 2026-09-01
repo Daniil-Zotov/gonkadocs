@@ -2,7 +2,7 @@
 title: "#791 — Automatic cleanup of old propagation proofs"
 source: https://github.com/gonka-ai/gonka/issues/791
 issue_number: 791
-synced_at: 2026-08-31T23:56:17Z
+synced_at: 2026-09-01T05:20:39Z
 template: issues-main.html
 ---
 
