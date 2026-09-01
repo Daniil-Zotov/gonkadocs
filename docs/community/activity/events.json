@@ -13,7 +13,7 @@
       "status": null,
       "content": "# Bounty program\n\nGonka runs two programs:\n\n| Program | What it is | Where |\n|---|---|---|\n| **Bug bounty** | Private vulnerability reports. Paid after triage, by severity. | [HackerOne](report-vulnerability.md) |\n| **Contributor rewards** | Public protocol work: fixes, improvements, tooling. Paid from the community pool after governance. | [`gonka-ai/gonka`](https://github.com/gonka-ai/gonka/) |\n\nYou do not need to be a Host.\n\nThis page is a practical guide. It is **not a promise of payout**. For vulnerabilities, the HackerOne program terms are authoritative. For protocol work, Hosts approve amounts on-chain. Both processes can evolve.\n\n## Contributor rewards\n\nPublic work on the protocol: discuss, ship, then Hosts approve a payout on-chain.\n\nWork in the open in [`gonka-ai/gonka`](https://"
     },
-    "ai_description": null
+    "ai_description": "Added: Bounty program. # Bounty program Gonka runs two programs: | Program | What it is | Where | |---|---|---| | **Bug bounty** | Private vulnerability reports. Paid after triage, by severity. | [HackerOne](report-vulnerability.md) | | **Contributor rewards** | Public protocol work: fixes, improvements, tooling. Paid fro"
   },
   {
     "id": "evt_20260901001632_204954b3",
@@ -29,7 +29,7 @@
       "content_before": "# Get Support on Discord\n\nJoin the Gonka community on [Discord](https://discord.gg/REcpeYc7P7) if you need assistance.",
       "content_after": "# Get Support on Discord\n\nJoin the Gonka community on [Discord](https://discord.gg/REcpeYc7P7) if you need assistance.\n\nTo contribute code, propose ideas, or report a security vulnerability, see the [Bounty program](bounty-program.md). Submit vulnerabilities through [HackerOne](report-vulnerability.md), not in public channels."
     },
-    "ai_description": null
+    "ai_description": "Updated: Get Support on Discord."
   },
   {
     "id": "evt_20260901001632_e055f233",
@@ -45,7 +45,7 @@
       "content_before": "# Report a Vulnerability\n\nFound a security issue in Gonka? Responsible disclosure helps keep the network secure for everyone. Use the form below to submit a vulnerability report directly through HackerOne.\n\n<div id=\"h1-embedded-submission\"></div>\n\n<script async src=\"https://hackerone.com/529ebea7-e684-4c88-8699-cf287d945866/embedded_submissions/script\" data-url=\"https://hackerone.com/529ebea7-e684-4c88-8699-cf287d945866/embedded_submissions/new?locale=en\" data-name=\"h1-embedded-submission\" type=\"text/javascript\"></script>",
       "content_after": "# Report a Vulnerability\n\nFound a security issue in Gonka? Submit it through the **bug bounty** on HackerOne. Coordinated disclosure keeps the network secure; public GitHub issues, pull requests, or chat posts are not eligible.\n\nReviewers will triage your report. Rewards depend on severity and are defined by the HackerOne program terms.\n\nFor public protocol work — issues, Discussions, and `up-for-grabs` — see [Bounty program](bounty-program.md) (contributor rewards).\n\n<div id=\"h1-embedded-submission\"></div>\n\n<script async src=\"https://hackerone.com/529ebea7-e684-4c88-8699-cf287d945866/embedded_submissions/script\" data-url=\"https://hackerone.com/529ebea7-e684-4c88-8699-cf287d945866/embedded_submissions/new?locale=en\" data-name=\"h1-embedded-submission\" type=\"text/javascript\"></script>"
     },
-    "ai_description": null
+    "ai_description": "Updated: Report a Vulnerability."
   },
   {
     "id": "evt_20260831235751_135f63a4",
