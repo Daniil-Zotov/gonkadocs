@@ -1,5 +1,29 @@
 [
   {
+    "id": "evt_20260901000140_fbafc1d3",
+    "timestamp": "2026-09-01T00:01:40.511074+00:00",
+    "section": "calendar",
+    "action": "daily_reminder",
+    "item": {
+      "title": "Today: 1 events — AMA with TheSoul — Q3 Progress Update (EN)",
+      "url": "/community/calendar/",
+      "file": null
+    },
+    "details": {
+      "today": [
+        {
+          "title": "AMA with TheSoul — Q3 Progress Update (EN)",
+          "date": "2026-09-01",
+          "time": "15:30 UTC",
+          "event_type": "ama",
+          "url": "None"
+        }
+      ],
+      "count": 1
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260831201431_75ad7ba4",
     "timestamp": "2026-08-31T20:14:31.443573+00:00",
     "section": "issues",
