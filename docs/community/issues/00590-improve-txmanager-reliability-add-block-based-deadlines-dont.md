@@ -2,7 +2,7 @@
 title: "#590 — Improve TXManager reliability, add block-based deadlines, don't send invalid TXs"
 source: https://github.com/gonka-ai/gonka/issues/590
 issue_number: 590
-synced_at: 2026-09-01T15:01:39Z
+synced_at: 2026-09-01T18:40:39Z
 template: issues-main.html
 ---
 
