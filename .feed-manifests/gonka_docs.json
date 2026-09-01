@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-08-31T20:37:26.314198+00:00",
+  "snapshot_time": "2026-09-01T00:21:37.694426+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -12,13 +12,19 @@
       "title": "FAQ",
       "status": null,
       "content_preview": "# FAQ\n\n## Overview\n\n### What is Gonka?\nGonka is a decentralized network for high‑efficiency AI compute — run by those who run it. It functions as a cost-effective and efficient alternative to centralized cloud services for AI model training and inference. As a protocol, it's not a company or a start-up.\n\n- In terms of Blockchain, Gonka is the foundational ledger and coordination layer (L1) of the decentralized AI network. It records balances, transactions and cryptographic artifacts that prove Hosts have correctly performed AI work, while all actual computations (such as inference and training) happen off-chain.\n- In terms of Network, Gonka is a comprehensive ecosystem of participants, including Hosts and Developers that interact through a decentralized infrastructure. Powered by the Gonka",
-      "checksum": "b94ba6b668f16b959f10a35d715db8c859e50cd4ff5d6e7ea4923b436b3a1461"
+      "checksum": "174848f4649812f32d51526a11bae4f698de92e49db56f6941cdc29fd6963fa4"
     },
     "architecture.md": {
       "title": "Architecture",
       "status": null,
       "content_preview": "# Architecture\n\n## Inference flow across Gonka\n\nThe diagram and description below outline how inference requests travel through Gonka, a decentralized network designed to balance performance with cryptographic guarantees. \nGonka only records transactions and artifacts for inference validation. The actual computation happens off-chain.\n\nInference requests move across independent Hosts (all network participants, not a central scheduler). The system is decentralized, with no single point directing inference requests to the network nodes. In practice, each Host deploys at least two nodes: \n\n- Network Node handles communication and consists of: \n    - a Chain Node that connects to the blockchain\n    - an API Node that manages user requests\n- One or more ML Nodes (inference) which perform LLM in",
       "checksum": "b946fa03cf5182b2d72688581197c0b462293c5632ecfd6b8a8ca556072635fa"
+    },
+    "bounty-program.md": {
+      "title": "Bounty program",
+      "status": null,
+      "content_preview": "# Bounty program\n\nGonka runs two programs:\n\n| Program | What it is | Where |\n|---|---|---|\n| **Bug bounty** | Private vulnerability reports. Paid after triage, by severity. | [HackerOne](report-vulnerability.md) |\n| **Contributor rewards** | Public protocol work: fixes, improvements, tooling. Paid from the community pool after governance. | [`gonka-ai/gonka`](https://github.com/gonka-ai/gonka/) |\n\nYou do not need to be a Host.\n\nThis page is a practical guide. It is **not a promise of payout**. For vulnerabilities, the HackerOne program terms are authoritative. For protocol work, Hosts approve amounts on-chain. Both processes can evolve.\n\n## Contributor rewards\n\nPublic work on the protocol: discuss, ship, then Hosts approve a payout on-chain.\n\nWork in the open in [`gonka-ai/gonka`](https://",
+      "checksum": "84b51be94490600b2584b16938991bd83fb167e14d6fbcee699a2831272da766"
     },
     "cross-chain-transfers/ethereum-bridge/addresses-and-keys.md": {
       "title": "Addresses and keys",
@@ -138,7 +144,7 @@
       "title": "Glossary",
       "status": null,
       "content_preview": "# Glossary \n\n**AI Token** is a model-specific unit of compute that quantifies the computational cost required for training or inference operations. For instance, in the context of a QwQ-32B model (FP16, 32K context), one AI Token may represent the resources needed to process a fixed number of input and/or output tokens. AI Tokens are tightly coupled to the characteristics of the base model and reflect actual memory, FLOP, etc. \n\n**Collateral** mechanism allows participants to lock GNK coins in order to activate a portion of their already earned Proof of Compute (PoC) weight. Voting power is never derived solely from holding coins. GNK coins serve as economic collateral, not as a source of influence. Influence is earned through continuous computational contribution, while locking GNK collat",
-      "checksum": "82a8438c728d37d4ccf7339b25f4f5180c5b807830782adf5e103a247190fa8b"
+      "checksum": "b69ba05ab243cf7c4c203bed39991d8266021452d41ebe7007ee6781210e6f2c"
     },
     "governance/creating-proposals.md": {
       "title": "How to Create and Submit a Governance Proposal on Gonka",
@@ -167,8 +173,8 @@
     "help.md": {
       "title": "Get Support on Discord",
       "status": null,
-      "content_preview": "# Get Support on Discord\n\nJoin the Gonka community on [Discord](https://discord.gg/REcpeYc7P7) if you need assistance.",
-      "checksum": "f436a31b78ba58349b673d13822961cd24d06e54603d41bf9c3a69b75a3685d3"
+      "content_preview": "# Get Support on Discord\n\nJoin the Gonka community on [Discord](https://discord.gg/REcpeYc7P7) if you need assistance.\n\nTo contribute code, propose ideas, or report a security vulnerability, see the [Bounty program](bounty-program.md). Submit vulnerabilities through [HackerOne](report-vulnerability.md), not in public channels.",
+      "checksum": "1c8d884fb21eadbccfb750bd8d397819a310f8c4a7e111d60b3fbdcc0864952a"
     },
     "host/README.md": {
       "title": "Redirecting to Hosts Section",
@@ -282,7 +288,7 @@
       "title": "introduction",
       "status": null,
       "content_preview": "#Gonka\n\nGonka is a decentralized AI infrastructure designed to optimize computational power specifically for AI model training and inference, offering a competitive alternative to traditional centralized cloud providers. Centralized systems are often expensive, monopolistic, and carry risks of censorship, whereas existing decentralized networks frequently waste resources on non-productive tasks, such as network security.\n\nWe introduce an innovative consensus mechanism that ensures nearly **100%** of computational resources are used for meaningful AI tasks, maximizing efficiency and minimizing operational costs. \n\nThe system features key roles: \n\n- **Developers** build and deploy AI applications using the network’s distributed power. Getting started, visit the [Developer Quickstart Guide](h",
-      "checksum": "0d77971c05a0188dc7a9ac4d0863904710436eb7b12a0b77117f2d69a78f88be"
+      "checksum": "fca4e474c21d55752eb1882348d7bcde38934863bbf2e36f7857864b6f425944"
     },
     "login.md": {
       "title": "login",
@@ -365,8 +371,8 @@
     "report-vulnerability.md": {
       "title": "Report a Vulnerability",
       "status": null,
-      "content_preview": "# Report a Vulnerability\n\nFound a security issue in Gonka? Responsible disclosure helps keep the network secure for everyone. Use the form below to submit a vulnerability report directly through HackerOne.\n\n<div id=\"h1-embedded-submission\"></div>\n\n<script async src=\"https://hackerone.com/529ebea7-e684-4c88-8699-cf287d945866/embedded_submissions/script\" data-url=\"https://hackerone.com/529ebea7-e684-4c88-8699-cf287d945866/embedded_submissions/new?locale=en\" data-name=\"h1-embedded-submission\" type=\"text/javascript\"></script>",
-      "checksum": "8755b9f85c47b74ce83cbccd1a01f98cdb801e64edeeb833b64a9b50b7fdeb67"
+      "content_preview": "# Report a Vulnerability\n\nFound a security issue in Gonka? Submit it through the **bug bounty** on HackerOne. Coordinated disclosure keeps the network secure; public GitHub issues, pull requests, or chat posts are not eligible.\n\nReviewers will triage your report. Rewards depend on severity and are defined by the HackerOne program terms.\n\nFor public protocol work — issues, Discussions, and `up-for-grabs` — see [Bounty program](bounty-program.md) (contributor rewards).\n\n<div id=\"h1-embedded-submission\"></div>\n\n<script async src=\"https://hackerone.com/529ebea7-e684-4c88-8699-cf287d945866/embedded_submissions/script\" data-url=\"https://hackerone.com/529ebea7-e684-4c88-8699-cf287d945866/embedded_submissions/new?locale=en\" data-name=\"h1-embedded-submission\" type=\"text/javascript\"></script>",
+      "checksum": "799c32fa872240a0f066ac74a4d7b5ff6103a94ac53a076bd74e294a61b48a8d"
     },
     "signup.md": {
       "title": "Sign Up",

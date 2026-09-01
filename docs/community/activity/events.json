@@ -1,5 +1,53 @@
 [
   {
+    "id": "evt_20260901001632_1ad7e3a9",
+    "timestamp": "2026-09-01T00:16:32.461891+00:00",
+    "section": "gonka_docs",
+    "action": "new",
+    "item": {
+      "title": "Bounty program",
+      "url": "/gonka/docs/bounty-program/",
+      "file": "bounty-program.md"
+    },
+    "details": {
+      "status": null,
+      "content": "# Bounty program\n\nGonka runs two programs:\n\n| Program | What it is | Where |\n|---|---|---|\n| **Bug bounty** | Private vulnerability reports. Paid after triage, by severity. | [HackerOne](report-vulnerability.md) |\n| **Contributor rewards** | Public protocol work: fixes, improvements, tooling. Paid from the community pool after governance. | [`gonka-ai/gonka`](https://github.com/gonka-ai/gonka/) |\n\nYou do not need to be a Host.\n\nThis page is a practical guide. It is **not a promise of payout**. For vulnerabilities, the HackerOne program terms are authoritative. For protocol work, Hosts approve amounts on-chain. Both processes can evolve.\n\n## Contributor rewards\n\nPublic work on the protocol: discuss, ship, then Hosts approve a payout on-chain.\n\nWork in the open in [`gonka-ai/gonka`](https://"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260901001632_204954b3",
+    "timestamp": "2026-09-01T00:16:32.461932+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "Get Support on Discord",
+      "url": "/gonka/docs/help/",
+      "file": "help.md"
+    },
+    "details": {
+      "content_before": "# Get Support on Discord\n\nJoin the Gonka community on [Discord](https://discord.gg/REcpeYc7P7) if you need assistance.",
+      "content_after": "# Get Support on Discord\n\nJoin the Gonka community on [Discord](https://discord.gg/REcpeYc7P7) if you need assistance.\n\nTo contribute code, propose ideas, or report a security vulnerability, see the [Bounty program](bounty-program.md). Submit vulnerabilities through [HackerOne](report-vulnerability.md), not in public channels."
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260901001632_e055f233",
+    "timestamp": "2026-09-01T00:16:32.461989+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "Report a Vulnerability",
+      "url": "/gonka/docs/report-vulnerability/",
+      "file": "report-vulnerability.md"
+    },
+    "details": {
+      "content_before": "# Report a Vulnerability\n\nFound a security issue in Gonka? Responsible disclosure helps keep the network secure for everyone. Use the form below to submit a vulnerability report directly through HackerOne.\n\n<div id=\"h1-embedded-submission\"></div>\n\n<script async src=\"https://hackerone.com/529ebea7-e684-4c88-8699-cf287d945866/embedded_submissions/script\" data-url=\"https://hackerone.com/529ebea7-e684-4c88-8699-cf287d945866/embedded_submissions/new?locale=en\" data-name=\"h1-embedded-submission\" type=\"text/javascript\"></script>",
+      "content_after": "# Report a Vulnerability\n\nFound a security issue in Gonka? Submit it through the **bug bounty** on HackerOne. Coordinated disclosure keeps the network secure; public GitHub issues, pull requests, or chat posts are not eligible.\n\nReviewers will triage your report. Rewards depend on severity and are defined by the HackerOne program terms.\n\nFor public protocol work — issues, Discussions, and `up-for-grabs` — see [Bounty program](bounty-program.md) (contributor rewards).\n\n<div id=\"h1-embedded-submission\"></div>\n\n<script async src=\"https://hackerone.com/529ebea7-e684-4c88-8699-cf287d945866/embedded_submissions/script\" data-url=\"https://hackerone.com/529ebea7-e684-4c88-8699-cf287d945866/embedded_submissions/new?locale=en\" data-name=\"h1-embedded-submission\" type=\"text/javascript\"></script>"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260831235751_135f63a4",
     "timestamp": "2026-08-31T23:57:51.394220+00:00",
     "section": "issues",
@@ -13,7 +61,7 @@
       "status": null,
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Decode PoC: integration support\n    <span class=\"issues-number\">#1688</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-08-31 20:15 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-cont"
     },
-    "ai_description": null
+    "ai_description": "Added: #1688 — Decode PoC: integration support. <div class=\"issues-detail-header\"> <h1 class=\"issues-detail-title\"> <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span> "
   },
   {
     "id": "evt_20260831235751_1b106383",
@@ -29,7 +77,7 @@
       "status": null,
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    First full MNode image for Decode PoC (MiniMax): testing\n    <span class=\"issues-number\">#1689</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-08-31 20:20 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>"
     },
-    "ai_description": null
+    "ai_description": "Added: #1689 — First full MNode image for Decode PoC (MiniMax): testing. <div class=\"issues-detail-header\"> <h1 class=\"issues-detail-title\"> <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span> "
   },
   {
     "id": "evt_20260831235751_6ed95bc4",
@@ -45,7 +93,7 @@
       "status": null,
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Decode PoC thresholds for DeepSeek\n    <span class=\"issues-number\">#1690</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-08-31 20:21 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-c"
     },
-    "ai_description": null
+    "ai_description": "Added: #1690 — Decode PoC thresholds for DeepSeek. <div class=\"issues-detail-header\"> <h1 class=\"issues-detail-title\"> <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span> "
   },
   {
     "id": "evt_20260831235751_e947936a",
@@ -61,7 +109,7 @@
       "status": null,
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    GLM 5.3 Flash: vLLM 0.28 image + PoC fix\n    <span class=\"issues-number\">#1691</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-08-31 20:23 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"is"
     },
-    "ai_description": null
+    "ai_description": "Added: #1691 — GLM 5.3 Flash: vLLM 0.28 image + PoC fix. <div class=\"issues-detail-header\"> <h1 class=\"issues-detail-title\"> <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span> "
   },
   {
     "id": "evt_20260831235751_d8196dfa",
@@ -77,7 +125,7 @@
       "status": null,
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Monitoring: public repository\n    <span class=\"issues-number\">#1692</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-08-31 20:24 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-conten"
     },
-    "ai_description": null
+    "ai_description": "Added: #1692 — Monitoring: public repository. <div class=\"issues-detail-header\"> <h1 class=\"issues-detail-title\"> <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span> "
   },
   {
     "id": "evt_20260831201431_75ad7ba4",

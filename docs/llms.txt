@@ -75,6 +75,7 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [Errors](/gonka/docs/Errors/): Auto-synced content
 - [FAQ](/gonka/docs/FAQ/): Auto-synced content
 - [Architecture](/gonka/docs/architecture/): Auto-synced content
+- [Bounty program](/gonka/docs/bounty-program/): Auto-synced content
 - [Dashboard Maintainer Memo For v0.2.13](/gonka/docs/dashboard-maintainer-memo-v0.2.13/): Auto-synced content
 - [Dashboard Maintainer Memo — Gonka v0.2.14](/gonka/docs/dashboard-maintainer-memo-v0.2.14/): Auto-synced content
 - [Dashboard Maintainer Memo — Gonka v0.2.15](/gonka/docs/dashboard-maintainer-memo-v0.2.15/): Auto-synced content
