@@ -3,14 +3,14 @@ title: "#1667 — IBC withdrawal blocked: Neutron client 07-tendermint-3 is expi
 source: https://github.com/gonka-ai/gonka/discussions/1667
 discussion_number: 1667
 category: q-a
-synced_at: 2026-09-01T14:46:05Z
+synced_at: 2026-09-01T18:23:43Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1667](https://github.com/gonka-ai/gonka/discussions/1667) every hour. 
 
 # IBC withdrawal blocked: Neutron client 07-tendermint-3 is expired
 
-**Автор:** [@xX-mabster-Xx](https://github.com/xX-mabster-Xx) · **Категория:** :interrobang: Q&A · **Создано:** 2026-08-28 13:45 UTC · **Обновлено:** 2026-08-28 13:45 UTC
+**Автор:** [@xX-mabster-Xx](https://github.com/xX-mabster-Xx) · **Категория:** :interrobang: Q&A · **Создано:** 2026-08-28 13:45 UTC · **Обновлено:** 2026-09-01 16:54 UTC
 
 ---
 
@@ -46,3 +46,19 @@ Could you please help restore this IBC route so that users can withdraw their Ne
 
 Thank you.
 
+
+---
+
+## 💬 Комментарии (1)
+
+### Комментарий 1 — [@Borjomik](https://github.com/Borjomik)
+
+*2026-09-01 16:54 UTC*
+
+Hi, thanks for laying it out so clearly, and sorry you've ended up in this spot.
+
+That route has been out of service since April. Transfers sent through it don't complete, and there's nothing we can do from our side. I wish I had a better answer, and I'm sorry to be the one giving this one.
+
+The tokens themselves are Neutron-origin and wrapped through Axelar, so it's worth raising it on their side, closer to where the asset came from. They'll have more visibility into it than we do.
+
+For anything going in or out of Gonka from here on, please use the Uniswap channel.

@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-09-01T14:46:31.313600+00:00",
+  "snapshot_time": "2026-09-01T18:24:21.039680+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "Welcome to Gonka Discussions 👋",
@@ -426,7 +426,7 @@
       "title": "IBC withdrawal blocked: Neutron client 07-tendermint-3 is expired",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1667](https://github.com/gonka-ai/gonka/discussions/1667) every hour. \n\n# IBC withdrawal blocked: Neutron client 07-tendermint-3 is expired\n\n**Автор:** [@xX-mabster-Xx](https://github.com/xX-mabster-Xx) · **Категория:** :interrobang: Q&A · **Создано:** 2026-08-28 13:45 UTC · \n\n---\n\n## 📝 Описание\n\nHello,\n\nI am unable to withdraw my funds from Gonka to Neutron.\n\nThe transfer fails with:\n\nfailed to execute message; message index: 0:\ncannot send packet using client (07-tendermint-3)\nwith status Expired: client is not active\n\nWallet:\ngonka1s8qkncfz06ke5ns6x3cw57mqj83hywj3fltv0n\n\nAsset denomination:\nibc/4F64FF736B88BA8EA521D6D515D9652B7C23C903BF91ECEFB3991888F3C023F4\n\nRoute:\n\n- Gonka: transfer/channel-3\n- Neutron: transfer/channel-7423\n- Chain ID: neutron-1\n-",
-      "checksum": "b298205cc655d14ec4011673fa21162c8eb844d31aab627892a82c40c514cef5"
+      "checksum": "5e5ad2ecaab95e894cdea267acac29c8ba46ea3eecda9e608e2750b7e46de0e0"
     },
     "show-and-tell/0811-openclaw-gonka-ai.md": {
       "title": "🦞 OpenClaw + Gonka AI",
