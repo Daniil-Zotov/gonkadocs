@@ -1,25 +1,81 @@
 [
   {
-    "id": "evt_20260901000140_fbafc1d3",
-    "timestamp": "2026-09-01T00:01:40.511074+00:00",
-    "section": "calendar",
-    "action": "daily_reminder",
+    "id": "evt_20260831235751_135f63a4",
+    "timestamp": "2026-08-31T23:57:51.394220+00:00",
+    "section": "issues",
+    "action": "new",
     "item": {
-      "title": "Today: 1 events — AMA with TheSoul — Q3 Progress Update (EN)",
-      "url": "/community/calendar/",
-      "file": null
+      "title": "#1688 — Decode PoC: integration support",
+      "url": "/community/issues/01688-decode-poc-integration-support/",
+      "file": "01688-decode-poc-integration-support.md"
     },
     "details": {
-      "today": [
-        {
-          "title": "AMA with TheSoul — Q3 Progress Update (EN)",
-          "date": "2026-09-01",
-          "time": "15:30 UTC",
-          "event_type": "ama",
-          "url": "None"
-        }
-      ],
-      "count": 1
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Decode PoC: integration support\n    <span class=\"issues-number\">#1688</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-08-31 20:15 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-cont"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260831235751_1b106383",
+    "timestamp": "2026-08-31T23:57:51.394265+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1689 — First full MNode image for Decode PoC (MiniMax): testing",
+      "url": "/community/issues/01689-first-full-mnode-image-for-decode-poc-minimax-testing/",
+      "file": "01689-first-full-mnode-image-for-decode-poc-minimax-testing.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    First full MNode image for Decode PoC (MiniMax): testing\n    <span class=\"issues-number\">#1689</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-08-31 20:20 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260831235751_6ed95bc4",
+    "timestamp": "2026-08-31T23:57:51.394289+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1690 — Decode PoC thresholds for DeepSeek",
+      "url": "/community/issues/01690-decode-poc-thresholds-for-deepseek/",
+      "file": "01690-decode-poc-thresholds-for-deepseek.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Decode PoC thresholds for DeepSeek\n    <span class=\"issues-number\">#1690</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-08-31 20:21 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-c"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260831235751_e947936a",
+    "timestamp": "2026-08-31T23:57:51.394315+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1691 — GLM 5.3 Flash: vLLM 0.28 image + PoC fix",
+      "url": "/community/issues/01691-glm-53-flash-vllm-028-image-poc-fix/",
+      "file": "01691-glm-53-flash-vllm-028-image-poc-fix.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    GLM 5.3 Flash: vLLM 0.28 image + PoC fix\n    <span class=\"issues-number\">#1691</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-08-31 20:23 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"is"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260831235751_d8196dfa",
+    "timestamp": "2026-08-31T23:57:51.394339+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1692 — Monitoring: public repository",
+      "url": "/community/issues/01692-monitoring-public-repository/",
+      "file": "01692-monitoring-public-repository.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Monitoring: public repository\n    <span class=\"issues-number\">#1692</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-08-31 20:24 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-conten"
     },
     "ai_description": null
   },
