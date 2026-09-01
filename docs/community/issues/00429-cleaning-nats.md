@@ -2,7 +2,7 @@
 title: "#429 — Cleaning nats"
 source: https://github.com/gonka-ai/gonka/issues/429
 issue_number: 429
-synced_at: 2026-09-01T10:15:30Z
+synced_at: 2026-09-01T15:01:47Z
 template: issues-main.html
 ---
 

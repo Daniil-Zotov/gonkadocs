@@ -2,7 +2,7 @@
 title: "#1690 — Decode PoC thresholds for DeepSeek"
 source: https://github.com/gonka-ai/gonka/issues/1690
 issue_number: 1690
-synced_at: 2026-09-01T10:12:38Z
+synced_at: 2026-09-01T14:57:57Z
 template: issues-main.html
 ---
 
