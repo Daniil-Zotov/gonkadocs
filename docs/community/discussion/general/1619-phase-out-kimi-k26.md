@@ -3,14 +3,14 @@ title: "#1619 — Phase out Kimi K2.6"
 source: https://github.com/gonka-ai/gonka/discussions/1619
 discussion_number: 1619
 category: general
-synced_at: 2026-09-02T00:01:42Z
+synced_at: 2026-09-02T04:21:36Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1619](https://github.com/gonka-ai/gonka/discussions/1619) every hour. 
 
 # Phase out Kimi K2.6
 
-**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :speech_balloon: General · **Создано:** 2026-08-21 01:09 UTC · **Обновлено:** 2026-09-01 13:45 UTC
+**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :speech_balloon: General · **Создано:** 2026-08-21 01:09 UTC · **Обновлено:** 2026-09-02 00:25 UTC
 
 ---
 
@@ -149,3 +149,13 @@ Especially since the new GLM Flash model requires the H100 and H200, which the M
 > GlM 5.3 Flash is dumb but it's better than MinMax ofc 
 >
 > I like to host both dsv4flash and Glm5.3 flash 
+
+**↳ Ответ от [@paranjko](https://github.com/paranjko)** · *2026-09-02 00:25 UTC*
+
+> I think we should definitely consider phasing out MiniMax as well, but I’d do it sequentially rather than all at once.
+>
+> Right now, MiniMax has a relatively large host base, while Kimi has much less capacity allocated to it. I think the better first step is to introduce GLM 5.3 Flash and phase out Kimi.
+>
+> This gives Hopper hosts time to adopt GLM 5.3 Flash organically, instead of forcing a large group of hosts to move at once. The relatively small number of B200 hosts currently on Kimi should be able to switch to DeepSeek Flash fairly easily.
+>
+> Then, as a next step, once GLM 5.3 Flash has been adopted by a meaningful share of hosts, we can look at phasing out MiniMax as well.
