@@ -2,7 +2,7 @@
 title: "#669 — Increase artifact storage throughput"
 source: https://github.com/gonka-ai/gonka/issues/669
 issue_number: 669
-synced_at: 2026-09-02T14:35:47Z
+synced_at: 2026-09-02T18:49:34Z
 template: issues-main.html
 ---
 

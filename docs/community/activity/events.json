@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260902185038_58a5e761",
+    "timestamp": "2026-09-02T18:50:38.448971+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1708 — chain-halt: ValidatorByConsAddr propagates ErrNoValidatorFound, so the evidence/slashing BeginBlock nil-guards never run",
+      "url": "/community/issues/01708-chain-halt-validatorbyconsaddr-propagates-errnovalidatorfoun/",
+      "file": "01708-chain-halt-validatorbyconsaddr-propagates-errnovalidatorfoun.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    chain-halt: ValidatorByConsAddr propagates ErrNoValidatorFound, so the evidence/slashing BeginBlock nil-guards never run\n    <span class=\"issues-number\">#1708</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-09-02 17:03 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  "
+    },
+    "ai_description": "A critical chain-halt issue has been reported by vitaly-andr. Issue #1708 identifies a bug where ValidatorByConsAddr propagates ErrNoValidatorFound, preventing the evidence and slashing BeginBlock nil-guards from running as intended. The community should review this promptly given its potential network impact."
+  },
+  {
     "id": "evt_20260902113714_dc3b7c65",
     "timestamp": "2026-09-02T11:37:14.752391+00:00",
     "section": "calendar",

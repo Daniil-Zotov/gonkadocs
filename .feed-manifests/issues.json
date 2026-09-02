@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-09-02T14:36:48.551447+00:00",
+  "snapshot_time": "2026-09-02T18:51:30.124997+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "Description",
@@ -3552,6 +3552,16 @@
         "Hi @leonidkachuliak-eng Allowlisting is an on-chain governance decision, so this registers intent but timing/inclusion aren't guaranteed. Before waiting on that: per-run attribution doesn't actually need a self-hosted gateway. You already attribute per-tenant for OpenAI, Anthropic, OpenRouter and xAI — all aggregate-billed too. It's done on your side by counting tokens per request, not by the prov"
       ],
       "checksum": "7cf3b0083441f0548e649121102a8fd3453961288d6d550c4e0f653520735618"
+    },
+    "01708-chain-halt-validatorbyconsaddr-propagates-errnovalidatorfoun.md": {
+      "title": "#1708 — chain-halt: ValidatorByConsAddr propagates ErrNoValidatorFound, so the evidence/slashing BeginBlock nil-guards never run",
+      "status": null,
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    chain-halt: ValidatorByConsAddr propagates ErrNoValidatorFound, so the evidence/slashing BeginBlock nil-guards never run\n    <span class=\"issues-number\">#1708</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-09-02 17:03 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  ",
+      "comment_checksum": "f867e4fff3de4cca89fe31becd99109793f149c20839cd18a9fe1d4c872cd49d",
+      "comment_bodies": [
+        "Submitted to the HackerOne program. Report ID: #3990765 HackerOne handle: plitochnik_ru — my GitHub handle vitaly-andr is listed on that profile The submission covers this issue together with the fix in gonka-ai/cosmos-sdk#19. The lookup contract is unchanged on release/v0.53.x and on v0.53.3-ps19-observability as of today."
+      ],
+      "checksum": "4fdd23fa39e1cf48b782fe41cb54b5b20995d6a15eeab829d3d740f5a55d09cd"
     }
   }
 }

@@ -2,7 +2,7 @@
 title: "#349 — [P1]: Utilization in scheduling and PoC uptime and Reward for all Models Support"
 source: https://github.com/gonka-ai/gonka/issues/349
 issue_number: 349
-synced_at: 2026-09-02T14:35:57Z
+synced_at: 2026-09-02T18:49:43Z
 template: issues-main.html
 ---
 
