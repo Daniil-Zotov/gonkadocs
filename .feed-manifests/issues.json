@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-09-01T21:55:23.462696+00:00",
+  "snapshot_time": "2026-09-02T00:22:49.314452+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "Description",
@@ -3480,7 +3480,7 @@
         "TY!",
         "ty"
       ],
-      "checksum": "00398cacfca8f0fd93a3b2f207902042ba7e6ec03f62ab3988ea4bc029767a31"
+      "checksum": "376e5ba3cf095d4fd8a7f44746cd1f4f7b7c00f75d3e6690c0e0d7a14e974c85"
     },
     "01689-first-full-mnode-image-for-decode-poc-minimax-testing.md": {
       "title": "#1689 — First full MNode image for Decode PoC (MiniMax): testing",
@@ -3491,7 +3491,7 @@
         "TY!",
         "ty"
       ],
-      "checksum": "611f415bd1f0b93f68610581e26915ae51ea59dd30400bedce0c08e3ba3fce1d"
+      "checksum": "31705850f2e166d1363b83d90fb9ceb19477854577aad9923a1659fdba149a8f"
     },
     "01690-first-full-mnode-image-for-decode-poc-deepseek-testing-coeff.md": {
       "title": "#1690 — First full MNode image for Decode PoC (DeepSeek): testing + coefficients",
@@ -3502,7 +3502,7 @@
         "TY!",
         "ty"
       ],
-      "checksum": "27d443316038b7d9fabcc893c70d570faad4a043aa0a416373579fa41f562f1b"
+      "checksum": "3b6184b440d39cec394d89e78340937fcff1f143e12257dd67a7a8590aed0fdd"
     },
     "01691-glm-53-flash-vllm-028-image-poc-fix.md": {
       "title": "#1691 — GLM 5.3 Flash: vLLM 0.28 image + PoC fix",
@@ -3513,7 +3513,7 @@
         "TY!",
         "ty"
       ],
-      "checksum": "422f2ab1a949af932436383979c2c1b1c115fc140284c3e4a0d80344ad97cb1d"
+      "checksum": "8598882d82ed6e29fabe82c04077c396d2d33aae809375b68a494c61e68fac2d"
     },
     "01692-monitoring-public-repository.md": {
       "title": "#1692 — Monitoring: public repository",
@@ -3524,7 +3524,7 @@
         "TY!",
         "ty"
       ],
-      "checksum": "67488b4ed856a4009ff15581cda57012dd6bf72294e8b20a426d1a3a24947eb7"
+      "checksum": "b76282a70d1140631481b526211731fdc11c617f9a58b6975d85c0cffe8b4143"
     },
     "01695-proxy-rate-limiting-no-exemption-path-for-trusted-high-volum.md": {
       "title": "#1695 — Proxy rate limiting: no exemption path for trusted high-volume clients, and the tuning variables are not passed through in compose",
@@ -3545,10 +3545,12 @@
     "01698-gateway-allowlist-request-axis-ordo.md": {
       "title": "#1698 — Gateway allowlist request: Axis Ordo",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway allowlist request: Axis Ordo\n    <span class=\"issues-number\">#1698</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/leonidkachuliak-eng\">@leonidkachuliak-eng</a> opened 2026-09-01 19:41 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n",
-      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "comment_bodies": [],
-      "checksum": "bb8efd7e291b2d7b4daade1366bd085c055fbd123f3129f897cdf9c57f043c26"
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway allowlist request: Axis Ordo\n    <span class=\"issues-number\">#1698</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/leonidkachuliak-eng\">@leonidkachuliak-eng</a> opened 2026-09-01 19:41 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<",
+      "comment_checksum": "f8304fc28291732f96091f8844640358f54396a4d5ac4b964e4a7f702bf0b26d",
+      "comment_bodies": [
+        "Hi @leonidkachuliak-eng Allowlisting is an on-chain governance decision, so this registers intent but timing/inclusion aren't guaranteed. Before waiting on that: per-run attribution doesn't actually need a self-hosted gateway. You already attribute per-tenant for OpenAI, Anthropic, OpenRouter and xAI — all aggregate-billed too. It's done on your side by counting tokens per request, not by the prov"
+      ],
+      "checksum": "7cf3b0083441f0548e649121102a8fd3453961288d6d550c4e0f653520735618"
     }
   }
 }

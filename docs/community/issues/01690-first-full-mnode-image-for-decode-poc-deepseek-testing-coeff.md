@@ -2,7 +2,7 @@
 title: "#1690 — First full MNode image for Decode PoC (DeepSeek): testing + coefficients"
 source: https://github.com/gonka-ai/gonka/issues/1690
 issue_number: 1690
-synced_at: 2026-09-01T21:50:46Z
+synced_at: 2026-09-02T00:19:19Z
 template: issues-main.html
 ---
 
@@ -16,15 +16,16 @@ template: issues-main.html
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-08-31 20:21 UTC</span>
     <span class="issues-meta-item">2 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-01 17:51 UTC</span>
+    <span class="issues-meta-item">Updated 2026-09-01 23:08 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
 <div class="issues-content" markdown="1">
 Kimi is on hold for now, since its future is unclear. Focus on DeepSeek.
-Need to refine/fix the expert seeding scheme, since DeepSeek has a more complex setup than MiniMax.
+- [ ] Need to refine/fix the expert seeding scheme, since DeepSeek has a more complex setup than MiniMax.
 cc @baychak @clanster
+
 </div>
 
 ---

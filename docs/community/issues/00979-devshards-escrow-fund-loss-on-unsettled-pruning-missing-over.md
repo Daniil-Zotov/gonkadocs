@@ -2,7 +2,7 @@
 title: "#979 — `devshards` escrow: fund loss on unsettled pruning + missing overflow guards in host stats aggregation"
 source: https://github.com/gonka-ai/gonka/issues/979
 issue_number: 979
-synced_at: 2026-09-01T21:52:18Z
+synced_at: 2026-09-02T00:20:29Z
 template: issues-main.html
 ---
 
