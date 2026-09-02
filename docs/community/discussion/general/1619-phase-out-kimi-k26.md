@@ -3,14 +3,14 @@ title: "#1619 — Phase out Kimi K2.6"
 source: https://github.com/gonka-ai/gonka/discussions/1619
 discussion_number: 1619
 category: general
-synced_at: 2026-09-02T04:21:36Z
+synced_at: 2026-09-02T09:30:08Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1619](https://github.com/gonka-ai/gonka/discussions/1619) every hour. 
 
 # Phase out Kimi K2.6
 
-**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :speech_balloon: General · **Создано:** 2026-08-21 01:09 UTC · **Обновлено:** 2026-09-02 00:25 UTC
+**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :speech_balloon: General · **Создано:** 2026-08-21 01:09 UTC · **Обновлено:** 2026-09-02 07:39 UTC
 
 ---
 
@@ -38,7 +38,7 @@ I suggest keeping this discussion about Kimi's fate open until August 30. Unless
 
 ---
 
-## 💬 Комментарии (5)
+## 💬 Комментарии (6)
 
 ### Комментарий 1 — [@theaungmyatmoe](https://github.com/theaungmyatmoe)
 
@@ -159,3 +159,9 @@ Especially since the new GLM Flash model requires the H100 and H200, which the M
 > This gives Hopper hosts time to adopt GLM 5.3 Flash organically, instead of forcing a large group of hosts to move at once. The relatively small number of B200 hosts currently on Kimi should be able to switch to DeepSeek Flash fairly easily.
 >
 > Then, as a next step, once GLM 5.3 Flash has been adopted by a meaningful share of hosts, we can look at phasing out MiniMax as well.
+
+### Комментарий 6 — [@Ryanchen911](https://github.com/Ryanchen911)
+
+*2026-09-02 07:39 UTC*
+
+I agree, and we can add GLM 5.3 flash and Qwen 3.8 flash later.

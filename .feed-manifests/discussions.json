@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-09-02T04:22:33.482776+00:00",
+  "snapshot_time": "2026-09-02T09:31:05.727036+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "Welcome to Gonka Discussions 👋",
@@ -90,7 +90,7 @@
       "title": "Phase out Kimi K2.6",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1619](https://github.com/gonka-ai/gonka/discussions/1619) every hour. \n\n# Phase out Kimi K2.6\n\n**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :speech_balloon: General · **Создано:** 2026-08-21 01:09 UTC · \n\n---\n\n## 📝 Описание\n\nDeepSeek v4 Flash 0731 has quickly become one of the most in-demand models on Gonka. Demand has been strong from day one, and at times it exceeds our current capacity. To increase Gonka’s capacity for DeepSeek v4 Flash and meet this demand, we need to encourage more hosts to allocate suitable hardware to the model.\n\nThat is why I propose phasing out Kimi K2.6.\n\nThere are several reasons for choosing Kimi:\n\n- Demand for Kimi inference has been declining.\n- Phasing out Kimi would free up B200 capacity that can ",
-      "checksum": "fd1c48b9b222fc92a16412c7a4312d6e1da21adcb4fa8574f06f0c38a12777b5"
+      "checksum": "063cde327346fb99570c20e10249953c15584f8aee198ce6b8f1d36168498ae3"
     },
     "governance-proposal-reports/1477-proposal-74-gonka-labs-monthly-report-no1.md": {
       "title": "Proposal #74: Gonka Labs - Monthly Report No.1",
@@ -139,6 +139,12 @@
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1685](https://github.com/gonka-ai/gonka/discussions/1685) every hour. \n\n# Devshard Load Testing\n\n**Автор:** [@aikuznetsov](https://github.com/aikuznetsov) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-08-31 15:13 UTC · \n\n---\n\n## 📝 Описание\n\n**Scope:** define a repeatable path for load testing Devshards locally and on\nTestNet, using the existing testenv, TestNet harness, gateway, escrow tooling,\nand observability surfaces.\n\nThis is intentionally a proposal, not a full runbook. The detailed command\nreference should live near the tools it documents.\n\n## TL;DR\n\nAdd a concurrent load mode to\n[`test-net-cloud/devshard-testing`](https://github.com/gonka-ai/gonka/tree/main/test-net-cloud/devshard-testing).\nUse it in three laye",
       "checksum": "21467d75c4190449fa93245a3c10eabd0604ed0719e84371f88067e4cfb17a6d"
+    },
+    "governance-proposal-reports/1704-proposal-99-support-gonkas-presence-at-token2049-singapore-2.md": {
+      "title": "Proposal #99: Support Gonka’s Presence at TOKEN2049 Singapore 2026",
+      "status": null,
+      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1704](https://github.com/gonka-ai/gonka/discussions/1704) every hour. \n\n# Proposal #99: Support Gonka’s Presence at TOKEN2049 Singapore 2026\n\n**Автор:** [@Isabella0319](https://github.com/Isabella0319) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-09-02 07:48 UTC · \n\n---\n\n## 📝 Описание\n\n## **Summary**\n\n6Block proposes that the Gonka community allocate **100,000 USDT from the Community Pool** to support Gonka’s participation at **TOKEN2049 Singapore 2026**, taking place on **7–8 October 2026 at Marina Bay Sands, Singapore**.\n\nThe requested funds will be used to cover the **TOKEN2049 Singapore Gold Sponsorship package** and related logistics required to make Gonka’s presence effective, including travel, accommodation, lo",
+      "checksum": "358e0953eede8a6b79ee480c7dea6572fdaed9330f19a393b89a12fb4e312fad"
     },
     "protocol-improvements/0795-welcome-to-proposals.md": {
       "title": "Welcome to Proposals 👋",

@@ -4,12 +4,13 @@ title: ":bookmark_tabs: Governance Proposal Reports"
 
 # :bookmark_tabs: Governance Proposal Reports
 
-Дискуссии в категории **:bookmark_tabs: Governance Proposal Reports**. Всего: **8**. Обновлено: `2026-09-02 04:22 UTC`.
+Дискуссии в категории **:bookmark_tabs: Governance Proposal Reports**. Всего: **9**. Обновлено: `2026-09-02 09:30 UTC`.
 
 [← ко всем категориям](../index.md)
 
 | # | Заголовок | Автор | Обновлено |
 |---:|---|---|---|
+| [1704](1704-proposal-99-support-gonkas-presence-at-token2049-singapore-2.md) | [Proposal #99: Support Gonka’s Presence at TOKEN2049 Singapore 2026](1704-proposal-99-support-gonkas-presence-at-token2049-singapore-2.md) | [@Isabella0319](https://github.com/Isabella0319) | 2026-09-02 |
 | [1685](1685-devshard-load-testing.md) | [Devshard Load Testing](1685-devshard-load-testing.md) | [@aikuznetsov](https://github.com/aikuznetsov) | 2026-08-31 |
 | [1617](1617-outdated-proposal-74-gonka-labs-monthly-report-no-2.md) | [(outdated) Proposal #74: Gonka Labs - Monthly Report No. 2](1617-outdated-proposal-74-gonka-labs-monthly-report-no-2.md) | [@nsvdev](https://github.com/nsvdev) | 2026-08-20 |
 | [1614](1614-proposal-74-gonka-labs-monthly-report-no2.md) | [Proposal #74: Gonka Labs - Monthly Report No.2](1614-proposal-74-gonka-labs-monthly-report-no2.md) | [@ptd-bot](https://github.com/ptd-bot) | 2026-09-01 |

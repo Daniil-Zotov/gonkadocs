@@ -4,7 +4,7 @@ title: "GitHub Discussions"
 
 # GitHub Discussions — `gonka-ai/gonka`
 
-Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **93**. Обновлено: `2026-09-02 04:22 UTC`.
+Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **94**. Обновлено: `2026-09-02 09:30 UTC`.
 
 ## 📂 Категории
 
@@ -13,7 +13,7 @@ title: "GitHub Discussions"
 | [:mega: Announcements](announcements/index.md) | 1 |
 | [:jigsaw: Ecosystem](ecosystem/index.md) | 8 |
 | [:speech_balloon: General](general/index.md) | 6 |
-| [:bookmark_tabs: Governance Proposal Reports](governance-proposal-reports/index.md) | 8 |
+| [:bookmark_tabs: Governance Proposal Reports](governance-proposal-reports/index.md) | 9 |
 | [:gear: Protocol Improvements](protocol-improvements/index.md) | 44 |
 | [:interrobang: Q&A](q-a/index.md) | 4 |
 | [:raised_hands: Show and Tell](show-and-tell/index.md) | 22 |
@@ -22,6 +22,7 @@ title: "GitHub Discussions"
 
 | # | Заголовок | Категория | Автор | Обновлено |
 |---:|---|---|---|---|
+| [1704](governance-proposal-reports/1704-proposal-99-support-gonkas-presence-at-token2049-singapore-2.md) | [Proposal #99: Support Gonka’s Presence at TOKEN2049 Singapore 2026](governance-proposal-reports/1704-proposal-99-support-gonkas-presence-at-token2049-singapore-2.md) | :bookmark_tabs: Governance Proposal Reports | [@Isabella0319](https://github.com/Isabella0319) | 2026-09-02 |
 | [1619](general/1619-phase-out-kimi-k26.md) | [Phase out Kimi K2.6](general/1619-phase-out-kimi-k26.md) | :speech_balloon: General | [@paranjko](https://github.com/paranjko) | 2026-09-02 |
 | [1614](governance-proposal-reports/1614-proposal-74-gonka-labs-monthly-report-no2.md) | [Proposal #74: Gonka Labs - Monthly Report No.2](governance-proposal-reports/1614-proposal-74-gonka-labs-monthly-report-no2.md) | :bookmark_tabs: Governance Proposal Reports | [@ptd-bot](https://github.com/ptd-bot) | 2026-09-01 |
 | [1667](q-a/1667-ibc-withdrawal-blocked-neutron-client-07-tendermint-3-is-exp.md) | [IBC withdrawal blocked: Neutron client 07-tendermint-3 is expired](q-a/1667-ibc-withdrawal-blocked-neutron-client-07-tendermint-3-is-exp.md) | :interrobang: Q&A | [@xX-mabster-Xx](https://github.com/xX-mabster-Xx) | 2026-09-01 |
@@ -41,4 +42,3 @@ title: "GitHub Discussions"
 | [816](ecosystem/0816-gonka-node-manager-automated-node-deployment-updates-and-mon.md) | [Gonka Node Manager — Automated Node Deployment, Updates, and Monitoring](ecosystem/0816-gonka-node-manager-automated-node-deployment-updates-and-mon.md) | :jigsaw: Ecosystem | [@ochenUmnayaKatyshka](https://github.com/ochenUmnayaKatyshka) | 2026-08-05 |
 | [875](ecosystem/0875-automatic-node-provisioning-tool-exists.md) | [Automatic Node Provisioning Tool exists](ecosystem/0875-automatic-node-provisioning-tool-exists.md) | :jigsaw: Ecosystem | [@SegovChik](https://github.com/SegovChik) | 2026-08-05 |
 | [873](ecosystem/0873-outdated-optional-centralized-monitoring-for-gonka-validator.md) | [!OUTDATED! Optional Centralized Monitoring for Gonka Validators](ecosystem/0873-outdated-optional-centralized-monitoring-for-gonka-validator.md) | :jigsaw: Ecosystem | [@SegovChik](https://github.com/SegovChik) | 2026-08-05 |
-| [836](ecosystem/0836-gonka-native-coding-cli.md) | [Gonka-native Coding CLI](ecosystem/0836-gonka-native-coding-cli.md) | :jigsaw: Ecosystem | [@Apha205](https://github.com/Apha205) | 2026-08-05 |
