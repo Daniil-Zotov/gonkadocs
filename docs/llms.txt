@@ -24,7 +24,7 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - 2026-09-02 15:00 UTC — TheSoul — Weekly Report Call (#60–#65): https://gonkadocs.com/proposals/proposals/2026-q2/60/
 - 2026-09-02 15:30 UTC — AMA with TheSoul — Q3 Progress Update (RU): https://gonkadocs.com
 - 2026-09-03 15:30 UTC — Monthly AMA Session: https://gonkadocs.com
-- 2026-09-09 13:00 UTC — INPUT Global — Weekly Call (#77): https://gonkadocs.com/proposals/proposals/2026-q2/77/
+- 2026-09-04 09:53 UTC — Voting ends: #99 – Support Gonka's presence at TOKEN2049 Singapore: https://gonkadocs.com/proposals/proposals/2026-q3/99/
 
 ## Protocol Documentation
 
@@ -184,6 +184,7 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [GRC Proposal #3 - Restitution](/proposals/proposals/2026-q3/80/full-proposal/): Auto-synced content
 - [#80 – GRC Proposal #3 - Restitution](/proposals/proposals/2026-q3/80/): Auto-synced content
 - [#93 – Upgrade devshard v4 runtime to v4.0.1](/proposals/proposals/2026-q3/93/): Auto-synced content
+- [#99 – Support Gonka's presence at TOKEN2049 Singapore](/proposals/proposals/2026-q3/99/): Auto-synced content
 - [2026-Q2 Proposals](/proposals/proposals/2026-q2/): Auto-synced content
 - [Gonka NOP - grant for the node deployment tool](/proposals/proposals/2026-q2/53/full-proposal/): Auto-synced content
 - [#53 – INC4 | Gonka NOP - grant for the node deployment tool](/proposals/proposals/2026-q2/53/): Auto-synced content

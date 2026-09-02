@@ -28651,12 +28651,12 @@ HardCore Arena позволит протестировать модель на �
 
 ## Overview
 
-97Total Proposals
-65Passed (67%)
+98Total Proposals
+65Passed (66%)
 31Rejected (32%)
 1Failed (1%)
 
-Funding / Grants39
+Funding / Grants40
 Governance Parameters31
 Software Upgrade18
 Other4
@@ -28668,7 +28668,19 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
 
 ## 2026-Q3
 
-*19 proposals*
+*20 proposals*
+
+  
+    #99 – Support Gonka's presence at TOKEN2049 Singapore
+    
+    Voting
+  
+  
+    Submitted 2026-09-02
+    Voting ends 2026-09-04
+  
+  6Block proposes that the Gonka community allocate 100,000 USDT from the Community Pool to support Gonka's participation at TOKEN2049 Singapore 2026, taking place on 7-8 October 2026 at Marina Bay Sand…
+  Yes 0.0% (0) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)$100,000 · Community Pool
 
   
     #98 – Increase DeepSeek V4 Flash weight_scale_factor to 0.246
@@ -29779,7 +29791,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-97 proposals across 5 quarters. Last updated: 2026-09-02 09:40 UTC
+98 proposals across 5 quarters. Last updated: 2026-09-02 10:00 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -66897,12 +66909,12 @@ Contract Details
 
 ## 2026-Q3 Summary
 
-19Total Proposals
-13Passed (68%)
-6Rejected (32%)
+20Total Proposals
+13Passed (65%)
+6Rejected (30%)
 
 Governance Parameters10
-Funding / Grants5
+Funding / Grants6
 Software Upgrade2
 Other1
 GRC / Restitution1
@@ -66911,7 +66923,19 @@ GRC / Restitution1
 $90,075 USDT · Bounty Reward
 
 2026-Q3
-19 proposals
+20 proposals
+
+  
+    #99 – Support Gonka's presence at TOKEN2049 Singapore
+    
+    Voting
+  
+  
+    Submitted 2026-09-02
+    Voting ends 2026-09-04
+  
+  6Block proposes that the Gonka community allocate 100,000 USDT from the Community Pool to support Gonka's participation at TOKEN2049 Singapore 2026, taking place on 7-8 October 2026 at Marina Bay Sand…
+  Yes 0.0% (0) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)$100,000 · Community Pool
 
   
     #98 – Increase DeepSeek V4 Flash weight_scale_factor to 0.246
@@ -74711,6 +74735,62 @@ Contract Details
         "maintenance_credit_earn_per_successful_epoch_blocks": "20"
       }
     }
+  }
+]
+```
+
+---
+
+## #99 – Support Gonka's presence at TOKEN2049 Singapore
+
+# #99 – Support Gonka's presence at TOKEN2049 Singapore
+
+Voting
+
+**Proposal ID:** `99`
+
+**Type:** Execute Contract
+
+**Submit:** 2026-09-02 09:53 UTC
+
+**Voting:** 2026-09-02 09:53 UTC → 2026-09-04 09:53 UTC
+
+**Proposer:** [`gonka15p7s7w2hx0y8095lddd4ummm2y0kwpwljk00aq`](https://gonka.gg/address/gonka15p7s7w2hx0y8095lddd4ummm2y0kwpwljk00aq){:target="_blank"}
+
+**Metadata:** [https://github.com/gonka-ai/gonka/discussions/1704](https://github.com/gonka-ai/gonka/discussions/1704)
+
+$100,000 · Community Pool
+
+[View on gonka.gg](https://gonka.gg/network/proposals/99){:target="_blank"}
+
+6Block proposes that the Gonka community allocate 100,000 USDT from the Community Pool to support Gonka's participation at TOKEN2049 Singapore 2026, taking place on 7-8 October 2026 at Marina Bay Sands, Singapore.
+
+The requested funds will be used to cover the TOKEN2049 Singapore Gold Sponsorship package and related logistics required to make Gonka's presence effective, including travel, accommodation, local coordination, guest hosting, event operations, and supporting materials.
+
+---
+
+## Messages
+
+| # | Type |
+| :- | :--- |
+| 1 | `/cosmwasm.wasm.v1.MsgExecuteContract` |
+
+Contract Details
+
+```json
+[
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "contract": "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2",
+    "msg": {
+      "withdraw_ibc": {
+        "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+        "amount": "100000000000",
+        "recipient": "gonka1yqj5xf0wtqgpdmv5v68cus0tp2j5fv7lzcfd6g"
+      }
+    },
+    "funds": []
   }
 ]
 ```
