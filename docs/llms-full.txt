@@ -2780,6 +2780,18 @@ This collaboration allows the platform to offer AI services at significantly low
    
     This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.
 
+## August 29, 2026
+
+**PROPOSAL PASSED: Increase DeepSeek V4 Flash weight_scale_factor to 0.246**
+
+The on-chain governance vote for proposal id 98 has concluded.
+
+The proposal was APPROVED. It increases the `weight_scale_factor` for `deepseek-ai/DeepSeek-V4-Flash-0731` from 0.214 to 0.246. All other model and chain parameters remain unchanged. This is a resubmission of proposal 97. On chain, proposal 97 ended as `PROPOSAL_STATUS_REJECTED` with `failed_reason`: `proposal did not get enough votes to pass` (25% quorum was not reached). Final tally: yes 15452, abstain 3093, no 0, no_with_veto 0.
+
+The original 0.214 factor came from inflated nonce/min numbers. The measurement fix is in [gonka-ai/gonka#1640](https://github.com/gonka-ai/gonka/pull/1640). Nothing is required from hosts.
+
+Thanks to everyone who voted.
+
 ## August 25, 2026
 
 **The PR for the devshard-only upgrade is now open for review**
@@ -2931,7 +2943,7 @@ The rollout is intentionally gradual so that any unexpected issues can be identi
 
 **DeepSeek V4 Flash is now active on Gonka network**
 
-The bootstrap stage announced in [proposal 94](https://gonka.ai/docs/network-updates/#august-10-2026) is complete. As of chain epoch 360, `deepseek-ai/DeepSeek-V4-Flash-0731` joins MiniMax-M2.7 and Kimi K2.6 as an active model group, and PoC weight earned in the DeepSeek group is now being converted into consensus weight at the calibrated coefficient 0.214.
+The bootstrap stage announced in [proposal 94](https://gonka.ai/docs/network-updates/#august-10-2026) is complete. As of chain epoch 360, `deepseek-ai/DeepSeek-V4-Flash-0731` joins MiniMax-M2.7 and Kimi K2.6 as an active model group, and PoC weight earned in the DeepSeek group is now being converted into consensus weight at the calibrated coefficient 0.214 (later raised to 0.246 by [proposal 98](#august-29-2026)).
 
 Per-model participation enforcement for DeepSeek is now in effect. Hosts that have already chosen DIRECT, DELEGATE or REFUSE for DeepSeek do not need to do anything else — the same setup keeps working. Hosts that have not yet made a choice are encouraged to do so now to avoid the per-epoch penalty ([https://gonka.ai/docs/host/deepseek-bootstrap/](https://gonka.ai/docs/host/deepseek-bootstrap/)).
 
@@ -12009,7 +12021,7 @@ Details from the proposal / announcement:
 
 - Model: `deepseek-ai/DeepSeek-V4-Flash-0731` (pinned revision `7872f01b1d1fe23eabc4c98b48bffcef5a386062`)
 - Requires an MLNode on **vLLM 0.25.1** (MLNode **3.0.16**) with the shipped node configuration (`node-config-deepseekv4flash0731-*.json` for B300 / B200 / H200 / H100)
-- On-chain PoC `weight_scale_factor = 0.214`, inference `validation_threshold = 0.90` (processed logprobs)
+- On-chain PoC `weight_scale_factor` was **0.214** at registration; [proposal 98](../network-updates.md#august-29-2026) later raised it to **0.246**. Inference `validation_threshold = 0.90` (processed logprobs)
 - `penalty_start_epoch = 360`
 - Voting ended **August 12, 2026 at 16:05 UTC** / August 12 at 09:05 PDT
 - First bootstrap attempt at **epoch 359**; the model group became active at **epoch 360**
@@ -12079,7 +12091,7 @@ If DeepSeek passes both checks, punishment follows the usual scenarios described
 
 ## Hardware and consensus weight
 
-DeepSeek V4 Flash is registered with `v_ram = 280` (about **280 GB of total VRAM** per instance) and `weight_scale_factor = 0.214`. Relative to an 8×H100 cluster running MiniMax M2.7, the announcement estimates:
+DeepSeek V4 Flash is registered with `v_ram = 280` (about **280 GB of total VRAM** per instance). The live `weight_scale_factor` is **0.246** ([proposal 98](../network-updates.md#august-29-2026); originally 0.214). Relative to an 8×H100 cluster running MiniMax M2.7, the original announcement (at 0.214) estimated:
 
 - 8×H200 optimally yields **1.46×** weight running MiniMax M2.7
 - 8×B200 optimally yields **2.96×** weight running Kimi K2.6
@@ -12087,12 +12099,12 @@ DeepSeek V4 Flash is registered with `v_ram = 280` (about **280 GB of total VRAM
 
 Practical implications:
 
-- **B300 owners**: DeepSeek is the highest-weight option under the proposed coefficient. Plan for vLLM 0.25.1 / MLNode 3.0.16 and the B300 node config.
+- **B300 owners**: DeepSeek is the highest-weight option under the current coefficient. Plan for vLLM 0.25.1 / MLNode 3.0.16 and the B300 node config.
 - **B200 owners**: Kimi K2.6 still yields the highest PoC weight on this class; DeepSeek is available via the B200 node config if you want to opt in.
 - **H200 / H100 owners**: MiniMax M2.7 remains the highest-weight model for these classes; DeepSeek configs exist, but switching is optional and not required for max weight.
 - Full coefficient table: [Google Sheet](https://docs.google.com/spreadsheets/d/1Tw4V7xEXR2p5MbCHqzqjS9vHXQ0eI1IHVXC6guEHnio/edit?gid=0#gid=0)
 
-Based on model usage, governance can later raise coefficients to incentivise moving more B-series GPUs to DeepSeek.
+Based on model usage, governance can still adjust coefficients to incentivise moving more B-series GPUs to DeepSeek.
 
 ## Instructions for hosts who are going to deploy DeepSeek V4 Flash
 
@@ -13948,7 +13960,7 @@ As of epoch `308`, `Qwen/Qwen3-235B-A22B-Instruct-2507-FP8` has been retired by 
 |---|---|
 | `MiniMaxAI/MiniMax-M2.7` | Base model, active |
 | `moonshotai/Kimi-K2.6` | Active |
-| `deepseek-ai/DeepSeek-V4-Flash-0731` | Active (epoch 360; `weight_scale_factor = 0.214`) |
+| `deepseek-ai/DeepSeek-V4-Flash-0731` | Active (epoch 360; `weight_scale_factor = 0.246`) |
 | `zai-org/GLM-5.2-FP8` | Registered; not bootstrapped (`penalty_start_epoch = 500`) |
 
 Per-model `weight_scale_factor` and `penalty_start_epoch` change through governance too often to list here reliably. Always read them from a live `params` query on the chain you use:
@@ -15048,7 +15060,7 @@ The protocol supports **governance-approved** models for inference and Proof of 
 |----------|------|
 | `MiniMaxAI/MiniMax-M2.7` | **MiniMax M2.7** — base model and an active PoC model on the network |
 | `moonshotai/Kimi-K2.6` | **Kimi K2.6** — active PoC model |
-| `deepseek-ai/DeepSeek-V4-Flash-0731` | **DeepSeek V4 Flash** — active PoC model (epoch 360; coefficient 0.214) |
+| `deepseek-ai/DeepSeek-V4-Flash-0731` | **DeepSeek V4 Flash** — active PoC model (epoch 360; coefficient 0.246) |
 
 > **Authoritative model list (governance API)**
     Approved models can change between releases or epochs. **Before you edit `node-config.json`,** call the governance API and use each returned object’s `"id"` as the key under `"models"`:
@@ -15087,7 +15099,7 @@ To run a valid node, you need machines with [supported GPU(s)](/host/hardware-sp
 
 This is a reference architecture. You may adjust node count or hardware allocation, but we recommend following the core principle: each node should support multiple ML Nodes across all model tiers.
 
-Per-model `weight_scale_factor` values are set by governance. DeepSeek V4 Flash currently uses **0.214**; on B300 this is the highest-weight option, while MiniMax remains highest-weight on H100/H200 and Kimi on B200. See [DeepSeek V4 Flash Bootstrap](./deepseek-bootstrap.md) and the [coefficient table](https://docs.google.com/spreadsheets/d/1Tw4V7xEXR2p5MbCHqzqjS9vHXQ0eI1IHVXC6guEHnio/edit?gid=0#gid=0). Example vLLM arguments are in the `node-config.json` examples below.
+Per-model `weight_scale_factor` values are set by governance. DeepSeek V4 Flash currently uses **0.246**; on B300 this is the highest-weight option, while MiniMax remains highest-weight on H100/H200 and Kimi on B200. See [DeepSeek V4 Flash Bootstrap](./deepseek-bootstrap.md) and the [coefficient table](https://docs.google.com/spreadsheets/d/1Tw4V7xEXR2p5MbCHqzqjS9vHXQ0eI1IHVXC6guEHnio/edit?gid=0#gid=0). Example vLLM arguments are in the `node-config.json` examples below.
 
 More details about the optimal deployment configuration can be found [here](https://gonka.ai/host/benchmark-to-choose-optimal-deployment-config-for-llms/).
 
@@ -15792,7 +15804,7 @@ source config.env
 
 === "DeepSeek — 1×B300"
 
-    Use this vLLM argument set for **DeepSeek V4 Flash** on **1×B300**. DeepSeek requires **MLNode 3.0.16** (vLLM 0.25.1). On B300 this is the highest-weight PoC option under the current coefficient (0.214). For better performance, use the nvfp4 variant `node-config-deepseekv4flash0731-B300-nvfp4.json` (`model_override` to `MJPansa/DeepSeek-V4-Flash-0731-NVFP4`); that format needs API `v0.2.15-post5` — see [Network updates](../network-updates.md).
+    Use this vLLM argument set for **DeepSeek V4 Flash** on **1×B300**. DeepSeek requires **MLNode 3.0.16** (vLLM 0.25.1). On B300 this is the highest-weight PoC option under the current coefficient (0.246). For better performance, use the nvfp4 variant `node-config-deepseekv4flash0731-B300-nvfp4.json` (`model_override` to `MJPansa/DeepSeek-V4-Flash-0731-NVFP4`); that format needs API `v0.2.15-post5` — see [Network updates](../network-updates.md).
 
     Reference deploy config in the repo: `deploy/join/node-config-deepseekv4flash0731-B300.json`.
 
@@ -28681,7 +28693,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   
   6Block proposes that the Gonka community allocate 100,000 USDT from the Community Pool to support Gonka's participation at TOKEN2049 Singapore 2026, taking place on 7-8 October 2026 at Marina Bay Sand…
   Yes 80.1% (155,126) · No 0.0% (0) · Veto 19.9% (38,606) · Abstain 0.0% (0)$100,000 · Community Pool
-  ✓ Turnout 36.0% (193,732 / 537,435) · Quorum 25% (134,358)
+  ✓ Turnout 36.8% (193,732 / 526,231) · Quorum 25% (131,557)
 
   
     #98 – Increase DeepSeek V4 Flash weight_scale_factor to 0.246
@@ -29792,7 +29804,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-98 proposals across 5 quarters. Last updated: 2026-09-02 20:25 UTC
+98 proposals across 5 quarters. Last updated: 2026-09-02 22:45 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -66937,7 +66949,7 @@ $90,075 USDT · Bounty Reward
   
   6Block proposes that the Gonka community allocate 100,000 USDT from the Community Pool to support Gonka's participation at TOKEN2049 Singapore 2026, taking place on 7-8 October 2026 at Marina Bay Sand…
   Yes 80.1% (155,126) · No 0.0% (0) · Veto 19.9% (38,606) · Abstain 0.0% (0)$100,000 · Community Pool
-  ✓ Turnout 36.0% (193,732 / 537,435) · Quorum 25% (134,358)
+  ✓ Turnout 36.8% (193,732 / 526,231) · Quorum 25% (131,557)
 
   
     #98 – Increase DeepSeek V4 Flash weight_scale_factor to 0.246
@@ -74785,7 +74797,7 @@ The requested funds will be used to cover the TOKEN2049 Singapore Gold Sponsorsh
     Veto 19.9% (38,606)
     Abstain 0.0% (0)
     Total 193,732 votes
-    ✓ Turnout 36.0% (193,732 / 537,435) · Quorum 25% (134,358)
+    ✓ Turnout 36.8% (193,732 / 526,231) · Quorum 25% (131,557)
   
 
 Voters

@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260902234422_ee0fd959",
+    "timestamp": "2026-09-02T23:44:22.142055+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "Announcements",
+      "url": "/gonka/docs/network-updates/",
+      "file": "network-updates.md"
+    },
+    "details": {
+      "content_before": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## August 25, 2026\n\n**The PR for the devshard-only upgrade is now open for review**\n\nDevshard upgrades update the devshard runtime independently from the main blockchain. They do not require a coordinated full-node upgrade through Cosmovisor, do not affect ",
+      "content_after": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## August 29, 2026\n\n**PROPOSAL PASSED: Increase DeepSeek V4 Flash weight_scale_factor to 0.246**\n\nThe on-chain governance vote for proposal id 98 has concluded.\n\nThe proposal was APPROVED. It increases the `weight_scale_factor` for `deepseek-ai/DeepSeek-V4-"
+    },
+    "ai_description": "The Protocol Docs Announcements page has been updated with the results of the recently concluded on-chain governance vote for proposal 98, which was officially approved. The proposal increases the weight_scale_factor for DeepSeek V4 Flash to 0.246, reflecting the community's decision to adjust this model's parameter in the network."
+  },
+  {
     "id": "evt_20260902185038_58a5e761",
     "timestamp": "2026-09-02T18:50:38.448971+00:00",
     "section": "issues",

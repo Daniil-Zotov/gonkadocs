@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-09-02T21:29:12.490183+00:00",
+  "snapshot_time": "2026-09-02T23:47:20.353782+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -198,7 +198,7 @@
       "title": "DeepSeek V4 Flash Bootstrap",
       "status": null,
       "content_preview": "# DeepSeek V4 Flash Bootstrap\n\n`deepseek-ai/DeepSeek-V4-Flash-0731` has **passed bootstrap** and is **active** in Proof of Compute on Gonka mainnet as of chain epoch 360 ([proposal 94](../network-updates.md#august-10-2026)). The timeline and transaction examples below remain useful for understanding how activation worked and for operations such as delegation; for current deployment defaults (including `node-config.json`), see the [Host Quickstart](./quickstart.md).\n\nFor the wider context of multi-model PoC mechanics, see [Multi-Model PoC](./multi_model_poc.md). Previous model bootstraps and their mechanics are documented in [Kimi K2.6 Bootstrap](./kimi-bootstrap.md) and [MiniMax-M2.7 Bootstrap](./minimax-bootstrap.md).\n\n!!! note\n    The bootstrap can take multiple epochs, depending on how ",
-      "checksum": "b35cbb181aa803e8f8df0e099b3ab0cb079c12aa015dca24b209bbeba3b94446"
+      "checksum": "093bacc86bb5b5f206612f7f5684a327339de1da2d3fec350a46ce114264c563"
     },
     "host/genesis.md": {
       "title": "Gonka Genesis Ceremony",
@@ -252,7 +252,7 @@
       "title": "Multi-Model PoC — Host Operations Guide",
       "status": null,
       "content_preview": "# Multi-Model PoC — Host Operations Guide\n\nMulti-model Proof-of-Compute (PoC) arrived in v0.2.12 and expanded again in v0.2.13.\n\n!!! warning \"Delegation guidance update (July 2026)\"\n\n    After the epoch 328–329 incident, two rules apply when choosing a delegate:\n\n    - **Do not delegate to guardian nodes.** Guardians are the fallback mechanism\n      for PoC validation. Concentrating delegations on them ties the primary\n      voting mechanism and the fallback to the same hardware, so both fail\n      together. Earlier guidance that suggested a guardian node as a delegation\n      target is withdrawn. A protocol-level restriction is planned for v0.2.14.\n    - **Avoid concentrating delegations on any single host.** A delegation only\n      counts if the delegate submits a PoC store commit that e",
-      "checksum": "139ebc845e37034ec943007be680cebe09b2a041d3b6c81c5e387b42bf3c6e8b"
+      "checksum": "86fff2bdf2492640d2a3fedd1a84526a9897c841036fdf210e862dd1d536d95a"
     },
     "host/multiple-nodes.md": {
       "title": "Multiple nodes",
@@ -282,7 +282,7 @@
       "title": "Setting up your chain",
       "status": null,
       "content_preview": "# Setting up your chain \n\n**Host** (**hardware provider** or **node**) contributes computational resources to the network and is rewarded based on the amount and quality of resources they provide.\n\nTo join the network, you need to deploy two services:\n\n- **Network Node** – a service consisting of two nodes: a **Chain Node** and an **API Node**. This service handles all communication. The **Chain Node** connects to the blockchain, while the **API Node** manages user requests.\n- **Inference (ML) node** – a service that performs inference of large language models (LLMs) on GPU(s). You need at least one **ML Node** to join the network.\n\nThe guide describes a scenario in which both services are deployed on the same machine, and each Host has one ML Node. Services are deployed as Docker containe",
-      "checksum": "2d14d07f64a7e9f0cdaa49dc04d233b45354feeff6b555e2a09ed183a4982398"
+      "checksum": "9ba0bb6fd509bbb707b9d4a3e514cd62ceded100a8da93695b125eea8cefcbe4"
     },
     "introduction.md": {
       "title": "introduction",
@@ -305,8 +305,8 @@
     "network-updates.md": {
       "title": "Announcements",
       "status": null,
-      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## August 25, 2026\n\n**The PR for the devshard-only upgrade is now open for review**\n\nDevshard upgrades update the devshard runtime independently from the main blockchain. They do not require a coordinated full-node upgrade through Cosmovisor, do not affect ",
-      "checksum": "f821adbb7a86d077ef5e744aa8df17c8d168eea7e0db565dc4daf37b0b5279d0"
+      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## August 29, 2026\n\n**PROPOSAL PASSED: Increase DeepSeek V4 Flash weight_scale_factor to 0.246**\n\nThe on-chain governance vote for proposal id 98 has concluded.\n\nThe proposal was APPROVED. It increases the `weight_scale_factor` for `deepseek-ai/DeepSeek-V4-",
+      "checksum": "44423d2b81b8a211aa901db3cb0bf8f265b261a5870390300425d421549f5c1b"
     },
     "participant/README.md": {
       "title": "Redirecting to Host Section",
