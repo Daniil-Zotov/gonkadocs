@@ -74,6 +74,7 @@ nav:
       - On-Chain Governance: proposals/proposals/index.md
       - 2026-Q3:
         - Overview: proposals/proposals/2026-q3/index.md
+        - "#99 – Support Gonka's presence at TOKEN2049 Singapore": proposals/proposals/2026-q3/99/index.md
         - "#98 – Increase DeepSeek V4 Flash weight_scale_factor to 0.246": proposals/proposals/2026-q3/98/index.md
         - "#97 – Increase DeepSeek V4 Flash weight_scale_factor to 0.246": proposals/proposals/2026-q3/97/index.md
         - "#96 – Stabilize in-epoch invalid SPRT on small samples": proposals/proposals/2026-q3/96/index.md

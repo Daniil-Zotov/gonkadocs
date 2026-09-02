@@ -1294,5 +1294,17 @@
     "tags": [
       "passed"
     ]
+  },
+  {
+    "date": "2026-09-04",
+    "category": "governance",
+    "type": "proposal_vote_end",
+    "title": "Voting ends: #99 – Support Gonka's presence at TOKEN2049 Singapore",
+    "url": "/proposals/proposals/2026-q3/99/",
+    "time": "09:53 UTC",
+    "description": "6Block proposes that the Gonka community allocate 100,000 USDT from the Community Pool to support Gonka's participation at TOKEN2049 Singapore 2026, taking place on 7-8 October 2026 at Marina Bay Sand…",
+    "tags": [
+      "voting"
+    ]
   }
 ]
