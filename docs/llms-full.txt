@@ -19537,7 +19537,7 @@ decentralized mixture-of-experts."
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-09-02 10:28 UTC
+2026-09-02 14:54 UTC
 
 ---
 
@@ -28680,8 +28680,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-09-04
   
   6Block proposes that the Gonka community allocate 100,000 USDT from the Community Pool to support Gonka's participation at TOKEN2049 Singapore 2026, taking place on 7-8 October 2026 at Marina Bay Sand…
-  Yes 32.1% (18,070) · No 0.0% (0) · Veto 67.9% (38,203) · Abstain 0.0% (0)$100,000 · Community Pool
-  ✗ Turnout 10.9% (56,273 / 518,578) · Quorum 25% (129,644)
+  Yes 80.2% (155,008) · No 0.0% (0) · Veto 19.8% (38,203) · Abstain 0.0% (0)$100,000 · Community Pool
+  ✓ Turnout 37.3% (193,211 / 518,578) · Quorum 25% (129,644)
 
   
     #98 – Increase DeepSeek V4 Flash weight_scale_factor to 0.246
@@ -29792,7 +29792,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-98 proposals across 5 quarters. Last updated: 2026-09-02 14:40 UTC
+98 proposals across 5 quarters. Last updated: 2026-09-02 17:51 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -66936,8 +66936,8 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-09-04
   
   6Block proposes that the Gonka community allocate 100,000 USDT from the Community Pool to support Gonka's participation at TOKEN2049 Singapore 2026, taking place on 7-8 October 2026 at Marina Bay Sand…
-  Yes 32.1% (18,070) · No 0.0% (0) · Veto 67.9% (38,203) · Abstain 0.0% (0)$100,000 · Community Pool
-  ✗ Turnout 10.9% (56,273 / 518,578) · Quorum 25% (129,644)
+  Yes 80.2% (155,008) · No 0.0% (0) · Veto 19.8% (38,203) · Abstain 0.0% (0)$100,000 · Community Pool
+  ✓ Turnout 37.3% (193,211 / 518,578) · Quorum 25% (129,644)
 
   
     #98 – Increase DeepSeek V4 Flash weight_scale_factor to 0.246
@@ -74780,26 +74780,30 @@ The requested funds will be used to cover the TOKEN2049 Singapore Gold Sponsorsh
     
   
   
-    Yes 32.1% (18,070)
+    Yes 80.2% (155,008)
     No 0.0% (0)
-    Veto 67.9% (38,203)
+    Veto 19.8% (38,203)
     Abstain 0.0% (0)
-    Total 56,273 votes
-    ✗ Turnout 10.9% (56,273 / 518,578) · Quorum 25% (129,644)
+    Total 193,211 votes
+    ✓ Turnout 37.3% (193,211 / 518,578) · Quorum 25% (129,644)
   
 
 Voters
 
 VoterVote
 
+gonka1qwfrtz…33xdklYes 100.0%
 gonka1p2lhgn…k6h26mYes 100.0%
 gonka1xwkesa…lcktdsNo_With_Veto 100.0%
 gonka18xeqns…whyn0dNo_With_Veto 100.0%
 gonka1830lqu…pasz0yNo_With_Veto 100.0%
+gonka1gvpv7v…lyrmkxYes 100.0%
 gonka1fundsn…ls252eYes 100.0%
 gonka1t0psql…mnwdadYes 100.0%
 gonka1wknl63…geuytrNo_With_Veto 100.0%
+gonka1kvmerz…lzldumYes 100.0%
 gonka1erprg2…h06gkqNo_With_Veto 100.0%
+gonka16dgkvx…6j0skkYes 100.0%
 gonka1u60wtn…u7w0qqNo_With_Veto 100.0%
 
 ---
