@@ -20,11 +20,11 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 ## Community Calendar
 
 - [All Calendar Events](/community/calendar/events/): Every event (AMAs, committee calls, proposal milestones, network updates) — machine-readable page, also indexed by search
-- 2026-09-01 15:30 UTC — AMA with TheSoul — Q3 Progress Update (EN): https://gonkadocs.com
 - 2026-09-02 13:00 UTC — INPUT Global — Weekly Call (#77): https://gonkadocs.com/proposals/proposals/2026-q2/77/
 - 2026-09-02 15:00 UTC — TheSoul — Weekly Report Call (#60–#65): https://gonkadocs.com/proposals/proposals/2026-q2/60/
 - 2026-09-02 15:30 UTC — AMA with TheSoul — Q3 Progress Update (RU): https://gonkadocs.com
 - 2026-09-03 15:30 UTC — Monthly AMA Session: https://gonkadocs.com
+- 2026-09-09 13:00 UTC — INPUT Global — Weekly Call (#77): https://gonkadocs.com/proposals/proposals/2026-q2/77/
 
 ## Protocol Documentation
 
