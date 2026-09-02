@@ -1,5 +1,25 @@
 [
   {
+    "id": "evt_20260902113714_dc3b7c65",
+    "timestamp": "2026-09-02T11:37:14.752391+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Voting ends: #99 – Support Gonka's presence at TOKEN2049 Singapore",
+      "url": "/proposals/proposals/2026-q3/99/",
+      "file": "2d2149c9f19372678313976dcadfd41848547bf1b6ecbf92428c8204f5d376bb"
+    },
+    "details": {
+      "status": null,
+      "content": "6Block proposes that the Gonka community allocate 100,000 USDT from the Community Pool to support Gonka's participation at TOKEN2049 Singapore 2026, taking place on 7-8 October 2026 at Marina Bay Sand…",
+      "date": "2026-09-04",
+      "time": "09:53 UTC",
+      "event_type": "proposal_vote_end",
+      "url": "/proposals/proposals/2026-q3/99/"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260902093053_b65a16b8",
     "timestamp": "2026-09-02T09:30:53.106480+00:00",
     "section": "discussions",
