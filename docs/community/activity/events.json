@@ -1,5 +1,43 @@
 [
   {
+    "id": "evt_20260902011623_c70fa8e9",
+    "timestamp": "2026-09-02T01:16:23.864242+00:00",
+    "section": "calendar",
+    "action": "daily_reminder",
+    "item": {
+      "title": "Today: 3 events — INPUT Global — Weekly Call (#77), TheSoul — Weekly Report Call (#60–#65), AMA with TheSoul — Q3 Progress Update (RU)",
+      "url": "/community/calendar/",
+      "file": null
+    },
+    "details": {
+      "today": [
+        {
+          "title": "INPUT Global — Weekly Call (#77)",
+          "date": "2026-09-02",
+          "time": "13:00 UTC",
+          "event_type": "committee_call",
+          "url": "/proposals/proposals/2026-q2/77/"
+        },
+        {
+          "title": "TheSoul — Weekly Report Call (#60–#65)",
+          "date": "2026-09-02",
+          "time": "15:00 UTC",
+          "event_type": "committee_call",
+          "url": "/proposals/proposals/2026-q2/60/"
+        },
+        {
+          "title": "AMA with TheSoul — Q3 Progress Update (RU)",
+          "date": "2026-09-02",
+          "time": "15:30 UTC",
+          "event_type": "ama",
+          "url": "None"
+        }
+      ],
+      "count": 3
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260902002229_60509ffa",
     "timestamp": "2026-09-02T00:22:29.792208+00:00",
     "section": "issues",
