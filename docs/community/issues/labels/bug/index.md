@@ -6,13 +6,13 @@ template: issues-main.html
 # Issues: bug
 
 Issues with label **bug**. Total: **19**.
-Updated: `2026-09-02 00:22 UTC`.
+Updated: `2026-09-02 04:47 UTC`.
 
 [← All Issues](../../index.md)
 
 <ul class="issues-list">
 <li class="issues-list-item">
-  <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
   <div class="issues-body">
     <div class="issues-title">
       <a href="../../01680-kimi-k26-non-stream-on-gateway-v4-502-nonce-finishedfalse-st/">Kimi-K2.6 non-stream on gateway v4: 502 nonce_finished=false (stream OK)</a>
@@ -21,7 +21,7 @@ Updated: `2026-09-02 00:22 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/paranjko">@paranjko</a> opened 2 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/paranjko">@paranjko</a> opened 2 hours ago</span>
       
     </div>
   </div>
