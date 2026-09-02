@@ -3,14 +3,14 @@ title: "#1704 — Proposal #99: Support Gonka’s Presence at TOKEN2049 Singapor
 source: https://github.com/gonka-ai/gonka/discussions/1704
 discussion_number: 1704
 category: governance-proposal-reports
-synced_at: 2026-09-02T09:30:08Z
+synced_at: 2026-09-02T14:22:03Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1704](https://github.com/gonka-ai/gonka/discussions/1704) every hour. 
 
 # Proposal #99: Support Gonka’s Presence at TOKEN2049 Singapore 2026
 
-**Автор:** [@Isabella0319](https://github.com/Isabella0319) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-09-02 07:48 UTC · **Обновлено:** 2026-09-02 07:48 UTC
+**Автор:** [@Isabella0319](https://github.com/Isabella0319) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-09-02 07:48 UTC · **Обновлено:** 2026-09-02 12:53 UTC
 
 ---
 
@@ -160,3 +160,20 @@ After TOKEN2049 Singapore 2026, 6Block will provide a post-event report to the G
 A **YES** vote approves the allocation of **100,000 USDT from the Gonka Community Pool** to support Gonka’s participation at TOKEN2049 Singapore 2026 through 6Block, including the Gold Sponsor package and related logistics.
 
 A **NO** vote rejects this funding request.
+
+---
+
+## 💬 Комментарии (2)
+
+### Комментарий 1 — [@akamitch](https://github.com/akamitch)
+
+*2026-09-02 12:24 UTC*
+
+I vote yes for this proposal from Gonka.Top mine pool
+
+### Комментарий 2 — [@akamitch](https://github.com/akamitch)
+
+*2026-09-02 12:53 UTC*
+
+@Isabella0319
+Please, next time, include a link to the discussion in the on-chain proposal text. This will allow miners to verify more quickly that 6block is indeed the author of the proposal.

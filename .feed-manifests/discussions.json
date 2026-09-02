@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-09-02T09:31:05.727036+00:00",
+  "snapshot_time": "2026-09-02T14:22:32.181651+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "Welcome to Gonka Discussions 👋",
@@ -144,7 +144,7 @@
       "title": "Proposal #99: Support Gonka’s Presence at TOKEN2049 Singapore 2026",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1704](https://github.com/gonka-ai/gonka/discussions/1704) every hour. \n\n# Proposal #99: Support Gonka’s Presence at TOKEN2049 Singapore 2026\n\n**Автор:** [@Isabella0319](https://github.com/Isabella0319) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-09-02 07:48 UTC · \n\n---\n\n## 📝 Описание\n\n## **Summary**\n\n6Block proposes that the Gonka community allocate **100,000 USDT from the Community Pool** to support Gonka’s participation at **TOKEN2049 Singapore 2026**, taking place on **7–8 October 2026 at Marina Bay Sands, Singapore**.\n\nThe requested funds will be used to cover the **TOKEN2049 Singapore Gold Sponsorship package** and related logistics required to make Gonka’s presence effective, including travel, accommodation, lo",
-      "checksum": "358e0953eede8a6b79ee480c7dea6572fdaed9330f19a393b89a12fb4e312fad"
+      "checksum": "4cd37dc28085bacb84e35892051bf5ac1854f815a4c1bb55cf53139280b9d030"
     },
     "protocol-improvements/0795-welcome-to-proposals.md": {
       "title": "Welcome to Proposals 👋",
