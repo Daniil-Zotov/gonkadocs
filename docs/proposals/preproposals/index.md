@@ -14,7 +14,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 <div class="quarter-summary" markdown="1">
 <div class="qs-stats">
 <div class="qs-stat passed"><span class="qs-num">3</span><span class="qs-desc">Active</span></div>
-<div class="qs-stat"><span class="qs-num">6</span><span class="qs-desc">Votes</span></div>
+<div class="qs-stat"><span class="qs-num">7</span><span class="qs-desc">Votes</span></div>
 <div class="qs-stat"><span class="qs-num">0</span><span class="qs-desc">Total Bid</span></div>
 </div>
 </div>
@@ -23,7 +23,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 | :----- | :----- | :----- | ----: | -------: | :----- |
 | 🟢 | [Game Hackaton AI](./165501de-189e-41c3-aad9-04bac872ef0d/) | Victor | 1 | 0.00 GNK | 2026-09-11 |
 | 🟢 | [GONKA Global Growth & Market Expansion](./dbc5de38-aec1-4a90-a027-8d7ac835aab0/) | Nataliia Klymovska | 3 | 0.00 GNK | 2026-09-15 |
-| 🟢 | [GONKA × Guinness World Records: попытка установить мировой рекорд](./4a170e2e-e1c6-487a-8089-ac533e18194b/) | Nataliia Klymovska | 2 | 0.00 GNK | 2026-09-17 |
+| 🟢 | [GONKA × Guinness World Records: попытка установить мировой рекорд](./4a170e2e-e1c6-487a-8089-ac533e18194b/) | Nataliia Klymovska | 3 | 0.00 GNK | 2026-09-17 |
 
 
 ---
@@ -33,7 +33,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 <div class="quarter-summary" markdown="1">
 <div class="qs-stats">
 <div class="qs-stat rejected"><span class="qs-num">40</span><span class="qs-desc">Expired</span></div>
-<div class="qs-stat"><span class="qs-num">44</span><span class="qs-desc">Votes</span></div>
+<div class="qs-stat"><span class="qs-num">45</span><span class="qs-desc">Votes</span></div>
 <div class="qs-stat"><span class="qs-num">87.7K GNK</span><span class="qs-desc">Total Bid</span></div>
 </div>
 </div>
@@ -41,7 +41,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 | Status | Title | Author | Votes | Avg. Bid | Closed |
 | :----- | :----- | :----- | ----: | -------: | :----- |
 | 🔴 | [Крупнейшее в мире событие для ИИ-разработчиков и создателей AI-продуктов — Sprin](./a2584dc4-1e7b-4cb7-a90d-fcf67306d7c8/) | Nataliia Klymovska | 2 | 0.00 GNK | 2026-08-31 |
-| 🔴 | [Повысить коэффициент DeepSeek V4 Flash с 0,214 до 0,4231 (обсуждаемо).](./f3ed4487-d373-46d8-bdcf-4b1d68e5cbf1/) | Slava MyGonka | 3 | 0.00 GNK | 2026-08-29 |
+| 🔴 | [Повысить коэффициент DeepSeek V4 Flash с 0,214 до 0,4231 (обсуждаемо).](./f3ed4487-d373-46d8-bdcf-4b1d68e5cbf1/) | Slava MyGonka | 4 | 0.00 GNK | 2026-08-29 |
 | 🔴 | [Мини фаундейшен](./ea988e94-2ee3-486c-bd7e-2422c04e0278/) | Mitch | 2 | 610.11 GNK | 2026-08-29 |
 | 🔴 | [Add DeepSeek V4 Pro and Qwen3.8-27B Models](./5fbee7f8-5089-450d-bd76-fb54df23d809/) | Aung Myat Moe | 2 | 0.00 GNK | 2026-08-27 |
 | 🔴 | [Dev Team Funding @gmorgachev](./8a252390-79b4-4a43-b520-c3fc412ef642/) | Даниил Зотов | 3 | 406.74 GNK | 2026-08-14 |
@@ -84,4 +84,4 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-09-02 09:32 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-09-02 14:25 UTC*

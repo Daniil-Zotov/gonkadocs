@@ -19922,27 +19922,27 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 ## 🟢 Active Proposals
 
 3Active
-6Votes
+7Votes
 0Total Bid
 
 | Status | Title | Author | Votes | Avg. Bid | Closes |
 | :----- | :----- | :----- | ----: | -------: | :----- |
 | 🟢 | [Game Hackaton AI](./165501de-189e-41c3-aad9-04bac872ef0d/) | Victor | 1 | 0.00 GNK | 2026-09-11 |
 | 🟢 | [GONKA Global Growth & Market Expansion](./dbc5de38-aec1-4a90-a027-8d7ac835aab0/) | Nataliia Klymovska | 3 | 0.00 GNK | 2026-09-15 |
-| 🟢 | [GONKA × Guinness World Records: попытка установить мировой рекорд](./4a170e2e-e1c6-487a-8089-ac533e18194b/) | Nataliia Klymovska | 2 | 0.00 GNK | 2026-09-17 |
+| 🟢 | [GONKA × Guinness World Records: попытка установить мировой рекорд](./4a170e2e-e1c6-487a-8089-ac533e18194b/) | Nataliia Klymovska | 3 | 0.00 GNK | 2026-09-17 |
 
 ---
 
 ## 🔴 Expired Proposals
 
 40Expired
-44Votes
+45Votes
 87.7K GNKTotal Bid
 
 | Status | Title | Author | Votes | Avg. Bid | Closed |
 | :----- | :----- | :----- | ----: | -------: | :----- |
 | 🔴 | [Крупнейшее в мире событие для ИИ-разработчиков и создателей AI-продуктов — Sprin](./a2584dc4-1e7b-4cb7-a90d-fcf67306d7c8/) | Nataliia Klymovska | 2 | 0.00 GNK | 2026-08-31 |
-| 🔴 | [Повысить коэффициент DeepSeek V4 Flash с 0,214 до 0,4231 (обсуждаемо).](./f3ed4487-d373-46d8-bdcf-4b1d68e5cbf1/) | Slava MyGonka | 3 | 0.00 GNK | 2026-08-29 |
+| 🔴 | [Повысить коэффициент DeepSeek V4 Flash с 0,214 до 0,4231 (обсуждаемо).](./f3ed4487-d373-46d8-bdcf-4b1d68e5cbf1/) | Slava MyGonka | 4 | 0.00 GNK | 2026-08-29 |
 | 🔴 | [Мини фаундейшен](./ea988e94-2ee3-486c-bd7e-2422c04e0278/) | Mitch | 2 | 610.11 GNK | 2026-08-29 |
 | 🔴 | [Add DeepSeek V4 Pro and Qwen3.8-27B Models](./5fbee7f8-5089-450d-bd76-fb54df23d809/) | Aung Myat Moe | 2 | 0.00 GNK | 2026-08-27 |
 | 🔴 | [Dev Team Funding @gmorgachev](./8a252390-79b4-4a43-b520-c3fc412ef642/) | Даниил Зотов | 3 | 406.74 GNK | 2026-08-14 |
@@ -19984,7 +19984,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-09-02 09:32 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-09-02 14:25 UTC*
 
 ---
 
@@ -22016,7 +22016,7 @@ mitchseed
 **Created:** 2026-08-18 14:58 UTC
 **Closes:** 2026-09-17 14:54 UTC
 **Language:** RU
-**Votes:** 2
+**Votes:** 3
 **Avg. Bid:** 0.00 GNK
 
 Отдельная инициатива в рамках глобальной конференции GONKA: официальная заявка в Guinness World Records, подготовка требований, фиксация результата и попытка установить мировой рекорд.
@@ -28076,7 +28076,7 @@ Tora AI
 **Created:** 2026-08-22 20:58 UTC
 **Closes:** 2026-08-29 20:55 UTC
 **Language:** RU
-**Votes:** 3
+**Votes:** 4
 **Avg. Bid:** 0.00 GNK
 
 Повысить коэффициент DeepSeek V4 Flash с 0,214 до 0,423053. 
