@@ -2,7 +2,7 @@
 title: "#1688 — Decode PoC: integration support"
 source: https://github.com/gonka-ai/gonka/issues/1688
 issue_number: 1688
-synced_at: 2026-09-03T04:40:46Z
+synced_at: 2026-09-03T09:55:31Z
 template: issues-main.html
 ---
 
@@ -16,15 +16,29 @@ template: issues-main.html
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-08-31 20:15 UTC</span>
     <span class="issues-meta-item">2 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-01 23:13 UTC</span>
+    <span class="issues-meta-item">Updated 2026-09-03 05:15 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
 <div class="issues-content" markdown="1">
-Sync today @baychak @clanster
-Discuss expert seeding for DeepSeek
-Adjust weight distribution across seeded experts to make it closer to uniform.
+Integration of Decode PoC with the current chain and MLNode path. Design and seeding questions stay on this issue. Verification of the current MiniMax implementation on a full image is #1689. DeepSeek thresholds and the DeepSeek seeding scheme are #1690.
+
+**Integration**
+— Current Decode PoC path is written up (what is in production shape, what is still experimental)
+— Integration points with MLNode and the epoch cycle are listed
+— Open questions on the Decode PoC design are listed in notes on this issue, not only off-thread
+
+**DeepSeek expert seeding**
+DeepSeek seeding is more complex than MiniMax. This issue covers the integration discussion; the scheme fix itself is #1690.
+— Expert seeding for DeepSeek is described (how experts are chosen, what the current scheme does)
+— Weight distribution across seeded experts is measured
+— A closer-to-uniform distribution across seeded experts is proposed, with notes if uniform is not possible
+
+**Experiments (when the checklist on this issue is enough to run them)**
+- [ ] Нardware used is written up
+- [ ] Models used are written up
+- [ ] What passed / what did not is written up, with links to notebooks or logs
 </div>
 
 ---

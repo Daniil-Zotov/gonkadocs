@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-09-03T04:44:53.649353+00:00",
+  "snapshot_time": "2026-09-03T09:58:00.730222+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "Description",
@@ -3481,7 +3481,7 @@
         "TY!",
         "ty"
       ],
-      "checksum": "376e5ba3cf095d4fd8a7f44746cd1f4f7b7c00f75d3e6690c0e0d7a14e974c85"
+      "checksum": "d027329498079ee887dc5885e49eef2c3a2cdb058cb2615370136cef35f18fe7"
     },
     "01689-first-full-mnode-image-for-decode-poc-minimax-testing.md": {
       "title": "#1689 — First full MNode image for Decode PoC (MiniMax): testing",
@@ -3492,7 +3492,7 @@
         "TY!",
         "ty"
       ],
-      "checksum": "31705850f2e166d1363b83d90fb9ceb19477854577aad9923a1659fdba149a8f"
+      "checksum": "e1b5ed6c4fc67a8c00848875f872e6fd35bec91fac86941d069720713e0630a3"
     },
     "01690-first-full-mnode-image-for-decode-poc-deepseek-testing-coeff.md": {
       "title": "#1690 — First full MNode image for Decode PoC (DeepSeek): testing + coefficients",
@@ -3503,7 +3503,7 @@
         "TY!",
         "ty"
       ],
-      "checksum": "3b6184b440d39cec394d89e78340937fcff1f143e12257dd67a7a8590aed0fdd"
+      "checksum": "cf215476a7c23e20c1359c7e7b237071e644ba47a40702357937176d87be7a02"
     },
     "01691-glm-53-flash-vllm-028-image-poc-fix.md": {
       "title": "#1691 — GLM 5.3 Flash: vLLM 0.28 image + PoC fix",
@@ -3514,7 +3514,7 @@
         "TY!",
         "ty"
       ],
-      "checksum": "8598882d82ed6e29fabe82c04077c396d2d33aae809375b68a494c61e68fac2d"
+      "checksum": "beae4a198c35f769820d3ad6754fdbff5c2ab961579910f855ea510ae0fb2772"
     },
     "01692-monitoring-public-repository.md": {
       "title": "#1692 — Monitoring: public repository",
@@ -3525,7 +3525,7 @@
         "TY!",
         "ty"
       ],
-      "checksum": "b76282a70d1140631481b526211731fdc11c617f9a58b6975d85c0cffe8b4143"
+      "checksum": "1abc2ca26b7c122260d771189ed89bbc04ca51f37a70cb82212ac0531ec84ba6"
     },
     "01695-proxy-rate-limiting-no-exemption-path-for-trusted-high-volum.md": {
       "title": "#1695 — Proxy rate limiting: no exemption path for trusted high-volume clients, and the tuning variables are not passed through in compose",

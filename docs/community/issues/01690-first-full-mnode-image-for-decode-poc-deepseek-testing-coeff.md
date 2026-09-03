@@ -2,7 +2,7 @@
 title: "#1690 — First full MNode image for Decode PoC (DeepSeek): testing + coefficients"
 source: https://github.com/gonka-ai/gonka/issues/1690
 issue_number: 1690
-synced_at: 2026-09-03T04:40:49Z
+synced_at: 2026-09-03T09:55:31Z
 template: issues-main.html
 ---
 
@@ -16,15 +16,41 @@ template: issues-main.html
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-08-31 20:21 UTC</span>
     <span class="issues-meta-item">2 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-01 23:08 UTC</span>
+    <span class="issues-meta-item">Updated 2026-09-03 05:17 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
 <div class="issues-content" markdown="1">
-Kimi is on hold for now, since its future is unclear. Focus on DeepSeek.
-- [ ] Need to refine/fix the expert seeding scheme, since DeepSeek has a more complex setup than MiniMax.
-cc @baychak @clanster
+Decode PoC thresholds and expert seeding for DeepSeek. DeepSeek seeding is more complex than MiniMax; the scheme needs a fix before coefficients alone are useful.
+Kimi Decode PoC thresholds stay on hold (unclear future of Kimi on this path).
+MiniMax image verification of the current implementation is #1689. Integration / design questions are #1688.
+Confirm the live on-chain id from poc_params.models if it has drifted. Target: deepseek-ai/DeepSeek-V4-Flash-0731.
+
+**Process**
+— Experiments completed and written up (hardware, models, what passed, what did not)
+— Seeding scheme for DeepSeek is described (how it differs from MiniMax)
+— Scheme fix is written up before threshold collection is treated as done
+— If work is DeepSeek-only: notes before handover, stating that Kimi is out of scope
+
+**Expert seeding (DeepSeek)**
+— Current seeding scheme is documented
+— Why MiniMax seeding is not sufficient for DeepSeek is written up
+— Scheme is fixed or a concrete proposal is on this issue
+— Weight distribution across seeded experts is measured
+— Closer-to-uniform weights across seeded experts are shown, with notes if uniform is not possible
+
+**Thresholds (DeepSeek)**
+— Decode PoC thresholds for DeepSeek are collected after the seeding scheme is stable
+— How thresholds were measured is written up (hardware, setup, logs / notebooks)
+— Thresholds are not treated as acceptance of a MiniMax-style full image — that bar is #1689
+
+**Kimi**
+— Kimi Decode PoC thresholds are explicitly out of scope on this issue (on hold)
+
+**Handover**
+- [ ] Seeding scheme notes published
+- [ ] DeepSeek thresholds published, or listed as blocked on the scheme fix
 
 </div>
 
