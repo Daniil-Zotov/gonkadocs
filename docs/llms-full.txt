@@ -19949,7 +19949,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 40Expired
 45Votes
-95.0K GNKTotal Bid
+96.3K GNKTotal Bid
 
 | Status | Title | Author | Votes | Avg. Bid | Closed |
 | :----- | :----- | :----- | ----: | -------: | :----- |
@@ -19980,8 +19980,8 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 | 🔴 | [3. Team Gonka Wallet Grant Request](./2b6b2142-685a-4eda-b2a1-f8853228f3e6/) | Slava MyGonka | 0 | 0.00 GNK | 2026-07-11 |
 | 🔴 | [Team Gonka.AI \| Inside Grant Request](./4792a93f-127a-4a0e-9a12-acd229c1e865/) | Slava MyGonka | 0 | 0.00 GNK | 2026-07-11 |
 | 🔴 | [1. Team Veylox Grant Request](./66e6583a-27b4-4bae-91fb-8f0489736b0d/) | Slava MyGonka | 0 | 0.00 GNK | 2026-07-11 |
-| 🔴 | [Go-To-Market Team for 3 Month to Set Up the Basis](./cb7f643f-3d56-47ec-9193-f9f2f80a99fb/) | Dem \| Démíngān | 2 | 22.2K GNK | 2026-07-10 |
-| 🔴 | [Gonka Media Library by Saccade](./f215996d-e562-42b5-b2b1-400226e612fa/) | Dem \| Démíngān | 2 | 22.2K GNK | 2026-07-10 |
+| 🔴 | [Go-To-Market Team for 3 Month to Set Up the Basis](./cb7f643f-3d56-47ec-9193-f9f2f80a99fb/) | Dem \| Démíngān | 2 | 22.6K GNK | 2026-07-10 |
+| 🔴 | [Gonka Media Library by Saccade](./f215996d-e562-42b5-b2b1-400226e612fa/) | Dem \| Démíngān | 2 | 22.6K GNK | 2026-07-10 |
 | 🔴 | [Стресс тест инфиренса](./efc0edeb-bc49-4c6b-a6e7-5b20ccfbe571/) | Mitch | 0 | 0.00 GNK | 2026-06-05 |
 | 🔴 | [Bring Gonka to EBC12 as a Gold Sponsor](./29baf37b-811f-4c36-b517-66a578383f1c/) | Heydar Naghiyev | 0 | 0.00 GNK | 2026-06-04 |
 | 🔴 | [Большое видео на канале Falcon Finance (Александр Соколовский)](./550f71de-897f-4ce5-8af8-97854775f8b2/) | Дмитрий В | 0 | 0.00 GNK | 2026-05-28 |
@@ -19996,7 +19996,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-09-03 18:35 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-09-03 21:41 UTC*
 
 ---
 
@@ -24334,7 +24334,7 @@ https://prnt.sc/ax9mlD-RDtuC
 **Closes:** 2026-07-10 15:58 UTC
 **Language:** EN
 **Votes:** 2
-**Avg. Bid:** 22.2K GNK
+**Avg. Bid:** 22.6K GNK
 
 This proposal describes ecosystem we should do for the Gonka, including basics, go-to-market actions, the team and the budgets for the next 3 months.
 
@@ -27667,7 +27667,7 @@ https://youtu.be/hwX_4_v6xxI
 **Closes:** 2026-07-10 11:28 UTC
 **Language:** EN
 **Votes:** 2
-**Avg. Bid:** 22.2K GNK
+**Avg. Bid:** 22.6K GNK
 
 Gonka Media Library — Explainer Library & Platform
 Explainer series (20 ep., 40 min) + web download & self-branding platform
@@ -28692,8 +28692,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-09-04
   
   6Block proposes that the Gonka community allocate 100,000 USDT from the Community Pool to support Gonka's participation at TOKEN2049 Singapore 2026, taking place on 7-8 October 2026 at Marina Bay Sand…
-  Yes 95.1% (158,914) · No 0.0% (9) · Veto 4.8% (8,088) · Abstain 0.0% (4)$100,000 · Community Pool
-  ✓ Turnout 33.9% (167,015 / 491,964) · Quorum 25% (122,991)
+  Yes 95.5% (170,667) · No 0.0% (10) · Veto 4.5% (8,089) · Abstain 0.0% (4)$100,000 · Community Pool
+  ✓ Turnout 32.8% (178,770 / 544,423) · Quorum 25% (136,105)
 
   
     #98 – Increase DeepSeek V4 Flash weight_scale_factor to 0.246
@@ -29804,7 +29804,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-98 proposals across 5 quarters. Last updated: 2026-09-03 17:27 UTC
+98 proposals across 5 quarters. Last updated: 2026-09-03 20:02 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -66948,8 +66948,8 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-09-04
   
   6Block proposes that the Gonka community allocate 100,000 USDT from the Community Pool to support Gonka's participation at TOKEN2049 Singapore 2026, taking place on 7-8 October 2026 at Marina Bay Sand…
-  Yes 95.1% (158,914) · No 0.0% (9) · Veto 4.8% (8,088) · Abstain 0.0% (4)$100,000 · Community Pool
-  ✓ Turnout 33.9% (167,015 / 491,964) · Quorum 25% (122,991)
+  Yes 95.5% (170,667) · No 0.0% (10) · Veto 4.5% (8,089) · Abstain 0.0% (4)$100,000 · Community Pool
+  ✓ Turnout 32.8% (178,770 / 544,423) · Quorum 25% (136,105)
 
   
     #98 – Increase DeepSeek V4 Flash weight_scale_factor to 0.246
@@ -74792,12 +74792,12 @@ The requested funds will be used to cover the TOKEN2049 Singapore Gold Sponsorsh
     
   
   
-    Yes 95.1% (158,914)
-    No 0.0% (9)
-    Veto 4.8% (8,088)
+    Yes 95.5% (170,667)
+    No 0.0% (10)
+    Veto 4.5% (8,089)
     Abstain 0.0% (4)
-    Total 167,015 votes
-    ✓ Turnout 33.9% (167,015 / 491,964) · Quorum 25% (122,991)
+    Total 178,770 votes
+    ✓ Turnout 32.8% (178,770 / 544,423) · Quorum 25% (136,105)
   
 
 Voters
