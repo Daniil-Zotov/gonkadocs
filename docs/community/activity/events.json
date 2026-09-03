@@ -1,5 +1,29 @@
 [
   {
+    "id": "evt_20260903012110_08a078b0",
+    "timestamp": "2026-09-03T01:21:10.077250+00:00",
+    "section": "calendar",
+    "action": "daily_reminder",
+    "item": {
+      "title": "Today: 1 events — Monthly AMA Session",
+      "url": "/community/calendar/",
+      "file": null
+    },
+    "details": {
+      "today": [
+        {
+          "title": "Monthly AMA Session",
+          "date": "2026-09-03",
+          "time": "15:30 UTC",
+          "event_type": "ama",
+          "url": "None"
+        }
+      ],
+      "count": 1
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260903000618_a8be46b3",
     "timestamp": "2026-09-03T00:06:18.026917+00:00",
     "section": "discussions",
