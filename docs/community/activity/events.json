@@ -13,7 +13,7 @@
       "status": null,
       "content": "> 🔄 **Auto-sync:** from [Discussion #1710](https://github.com/gonka-ai/gonka/discussions/1710) every hour. \n\n# Gonka Labs: x402 on Gonka - payments for Agents\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-09-03 00:10 UTC · \n\n---\n\n## 📝 Описание\n\nHey! Gonka Labs here.\n\nAt 26th of August we introduced x402 on Gonka: [https://x402.gonka.gg](https://x402.gonka.gg)\n\n![](https://resource.inkdown.me/assets/11g/tk4ZX4b2sHaSu/E2MWThZKmaHh7Og.jpg)\n\nx402 is an open payment standard for AI agents. It was started by the Coinbase team and is now run by the independent x402 Foundation under the Linux Foundation. The idea is simple on purpose. An agent makes a micropayment in stablecoins (almost always USDC) and gets the resource it"
     },
-    "ai_description": null
+    "ai_description": "Gonka Labs just shared a new Show and Tell post introducing x402 on Gonka, an open payment standard that lets AI agents make USDC micropayments to access resources. Originally started by Coinbase and now governed by the x402 Foundation under the Linux Foundation, this integration opens up new possibilities for agent-to-agent and agent-to-service transactions on the network. Check out the discussion to learn more about how it works and what it means for the Gonka ecosystem."
   },
   {
     "id": "evt_20260903054150_25b96cee",
