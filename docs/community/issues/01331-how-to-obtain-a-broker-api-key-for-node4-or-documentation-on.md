@@ -2,7 +2,7 @@
 title: "#1331 — How to obtain a broker API key for node4 (or documentation on the broker onboarding process)?"
 source: https://github.com/gonka-ai/gonka/issues/1331
 issue_number: 1331
-synced_at: 2026-09-03T18:46:17Z
+synced_at: 2026-09-03T21:46:19Z
 template: issues-main.html
 ---
 

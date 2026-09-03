@@ -6,11 +6,41 @@ template: issues-main.html
 # Issues: no-label
 
 Issues with label **no-label**. Total: **265**.
-Updated: `2026-09-03 18:49 UTC`.
+Updated: `2026-09-03 21:48 UTC`.
 
 [← All Issues](../../index.md)
 
 <ul class="issues-list">
+<li class="issues-list-item">
+  <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
+      <a href="../../01696-devshard-bridgeclassifyqueryerror-has-no-production-callers-/">devshard: bridge.ClassifyQueryError has no production callers, so transient chain-query failures return 500 instead of the intended retryable 503</a>
+      <span class="issues-number">#1696</span>
+    </div>
+    
+    <div class="issues-labels"></div>
+    <div class="issues-meta">
+      <span class="issues-meta-item"><a href="https://github.com/Ryanchen911">@Ryanchen911</a> opened 2 hours ago</span>
+      
+    </div>
+  </div>
+</li>
+<li class="issues-list-item">
+  <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
+      <a href="../../01695-proxy-rate-limiting-no-exemption-path-for-trusted-high-volum/">Proxy rate limiting: no exemption path for trusted high-volume clients, and the tuning variables are not passed through in compose</a>
+      <span class="issues-number">#1695</span>
+    </div>
+    
+    <div class="issues-labels"></div>
+    <div class="issues-meta">
+      <span class="issues-meta-item"><a href="https://github.com/Ryanchen911">@Ryanchen911</a> opened 2 hours ago</span>
+      
+    </div>
+  </div>
+</li>
 <li class="issues-list-item">
   <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
   <div class="issues-body">
@@ -21,7 +51,7 @@ Updated: `2026-09-03 18:49 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 13 hours ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 16 hours ago</span>
       
     </div>
   </div>
@@ -36,7 +66,7 @@ Updated: `2026-09-03 18:49 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 13 hours ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 16 hours ago</span>
       
     </div>
   </div>
@@ -51,7 +81,7 @@ Updated: `2026-09-03 18:49 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 13 hours ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 16 hours ago</span>
       
     </div>
   </div>
@@ -66,7 +96,7 @@ Updated: `2026-09-03 18:49 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 13 hours ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 16 hours ago</span>
       
     </div>
   </div>
@@ -81,7 +111,7 @@ Updated: `2026-09-03 18:49 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 13 hours ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 16 hours ago</span>
       
     </div>
   </div>
@@ -112,36 +142,6 @@ Updated: `2026-09-03 18:49 UTC`.
     <div class="issues-labels"></div>
     <div class="issues-meta">
       <span class="issues-meta-item"><a href="https://github.com/leonidkachuliak-eng">@leonidkachuliak-eng</a> opened 1 day ago</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../01696-devshard-bridgeclassifyqueryerror-has-no-production-callers-/">devshard: bridge.ClassifyQueryError has no production callers, so transient chain-query failures return 500 instead of the intended retryable 503</a>
-      <span class="issues-number">#1696</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Ryanchen911">@Ryanchen911</a> opened 2 days ago</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../01695-proxy-rate-limiting-no-exemption-path-for-trusted-high-volum/">Proxy rate limiting: no exemption path for trusted high-volume clients, and the tuning variables are not passed through in compose</a>
-      <span class="issues-number">#1695</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Ryanchen911">@Ryanchen911</a> opened 2 days ago</span>
       
     </div>
   </div>
@@ -201,7 +201,7 @@ Updated: `2026-09-03 18:49 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/kAIPraxisBot">@kAIPraxisBot</a> opened 5 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/kAIPraxisBot">@kAIPraxisBot</a> opened 6 days ago</span>
       
     </div>
   </div>
@@ -351,7 +351,7 @@ Updated: `2026-09-03 18:49 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 8 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 9 days ago</span>
       
     </div>
   </div>
@@ -396,7 +396,7 @@ Updated: `2026-09-03 18:49 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 14 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 15 days ago</span>
       
     </div>
   </div>
@@ -411,7 +411,7 @@ Updated: `2026-09-03 18:49 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/niro58">@niro58</a> opened 14 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/niro58">@niro58</a> opened 15 days ago</span>
       
     </div>
   </div>
@@ -426,7 +426,7 @@ Updated: `2026-09-03 18:49 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/bagtyyarkovusov">@bagtyyarkovusov</a> opened 14 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/bagtyyarkovusov">@bagtyyarkovusov</a> opened 15 days ago</span>
       
     </div>
   </div>

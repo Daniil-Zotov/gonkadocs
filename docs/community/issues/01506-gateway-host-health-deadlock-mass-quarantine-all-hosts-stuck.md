@@ -2,7 +2,7 @@
 title: "#1506 — Gateway host-health deadlock: mass quarantine → all hosts stuck as no-winner/suspicious"
 source: https://github.com/gonka-ai/gonka/issues/1506
 issue_number: 1506
-synced_at: 2026-09-03T18:45:46Z
+synced_at: 2026-09-03T21:45:52Z
 template: issues-main.html
 ---
 

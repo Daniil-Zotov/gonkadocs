@@ -2,7 +2,7 @@
 title: "#1695 — Proxy rate limiting: no exemption path for trusted high-volume clients, and the tuning variables are not passed through in compose"
 source: https://github.com/gonka-ai/gonka/issues/1695
 issue_number: 1695
-synced_at: 2026-09-03T18:45:10Z
+synced_at: 2026-09-03T21:45:19Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/Ryanchen911">@Ryanchen911</a> opened 2026-09-01 08:25 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-01 08:25 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-09-03 18:49 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -152,6 +152,20 @@ I have a working patch for items 1-3 and am glad to open a PR. The whitelist
 change keeps the generated `whitelist_ips.conf` byte-identical when
 `EXTRA_WHITELIST_IPS` is unset, so it is a no-op for existing deployments.
 
+</div>
+
+---
+
+## 💬 Comments (1)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/a-kuprin">@a-kuprin</a></span>
+    <span class="issues-meta-item">commented 2026-09-03 18:49 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Next devshard release (v6) is planning to switch networking to gRPC, so rate limiting problem should go away mostly</p>
+  </div>
 </div>
 
 ---

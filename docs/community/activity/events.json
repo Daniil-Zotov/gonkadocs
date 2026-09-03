@@ -1,5 +1,53 @@
 [
   {
+    "id": "evt_20260903214856_6768bf7d",
+    "timestamp": "2026-09-03T21:48:56.210292+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "Proposal: bind the gateway stream to `MsgFinishInference` with a second hash",
+      "url": "/community/issues/01714-devshard-bind-the-gateway-stream-to-msgfinishinference-with-/",
+      "file": "01714-devshard-bind-the-gateway-stream-to-msgfinishinference-with-.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard` bind the gateway stream to `MsgFinishInference` with a second hash\n    <span class=\"issues-number\">#1714</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 2026-09-03 18:51 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8p"
+    },
+    "ai_description": "A new proposal has been opened by a-kuprin to bind the gateway stream to MsgFinishInference using a second hash. This change aims to strengthen the connection between gateway operations and inference completion messages, which could improve verification and reliability across the network. Check out issue 1714 to share your thoughts or follow the discussion."
+  },
+  {
+    "id": "evt_20260903214856_292f6f9e",
+    "timestamp": "2026-09-03T21:48:56.210493+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1695 — Proxy rate limiting: no exemption path for trusted high-volume clients, and the tuning variables are not passed through in compose",
+      "url": "/community/issues/01695-proxy-rate-limiting-no-exemption-path-for-trusted-high-volum/",
+      "file": "01695-proxy-rate-limiting-no-exemption-path-for-trusted-high-volum.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Proxy rate limiting: no exemption path for trusted high-volume clients, and the tuning variables are not passed through in compose\n    <span class=\"issues-number\">#1695</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Ryanchen911\">@Ryanchen911</a> opened 2026-09-01 08:25 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Proxy rate limiting: no exemption path for trusted high-volume clients, and the tuning variables are not passed through in compose\n    <span class=\"issues-number\">#1695</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Ryanchen911\">@Ryanchen911</a> opened 2026-09-01 08:25 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n "
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260903214856_47d70e73",
+    "timestamp": "2026-09-03T21:48:56.210522+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1696 — devshard: bridge.ClassifyQueryError has no production callers, so transient chain-query failures return 500 instead of the intended retryable 503",
+      "url": "/community/issues/01696-devshard-bridgeclassifyqueryerror-has-no-production-callers-/",
+      "file": "01696-devshard-bridgeclassifyqueryerror-has-no-production-callers-.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard: bridge.ClassifyQueryError has no production callers, so transient chain-query failures return 500 instead of the intended retryable 503\n    <span class=\"issues-number\">#1696</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Ryanchen911\">@Ryanchen911</a> opened 2026-09-01 08:25 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard: bridge.ClassifyQueryError has no production callers, so transient chain-query failures return 500 instead of the intended retryable 503\n    <span class=\"issues-number\">#1696</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Ryanchen911\">@Ryanchen911</a> opened 2026-09-01 08:25 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260903054150_844e05c5",
     "timestamp": "2026-09-03T05:41:50.124883+00:00",
     "section": "discussions",
