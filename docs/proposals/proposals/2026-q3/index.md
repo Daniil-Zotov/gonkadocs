@@ -68,8 +68,8 @@ hide:
     <span>Voting ends 2026-09-04</span>
   </div>
   <div class="prop-card-desc">6Block proposes that the Gonka community allocate 100,000 USDT from the Community Pool to support Gonka's participation at TOKEN2049 Singapore 2026, taking place on 7-8 October 2026 at Marina Bay Sand…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>80.1%</strong> (155,126)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>19.9%</strong> (38,606)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding prop-card-funding-voting">$100,000 · Community Pool</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>37.1%</strong> (193,732 / 522,496) · Quorum <strong>25%</strong> (130,624)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>95.1%</strong> (155,126)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>4.9%</strong> (8,074)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding prop-card-funding-voting">$100,000 · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>33.2%</strong> (163,200 / 491,964) · Quorum <strong>25%</strong> (122,991)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
