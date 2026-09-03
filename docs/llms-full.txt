@@ -28693,7 +28693,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   
   6Block proposes that the Gonka community allocate 100,000 USDT from the Community Pool to support Gonka's participation at TOKEN2049 Singapore 2026, taking place on 7-8 October 2026 at Marina Bay Sand…
   Yes 80.1% (155,126) · No 0.0% (0) · Veto 19.9% (38,606) · Abstain 0.0% (0)$100,000 · Community Pool
-  ✓ Turnout 36.8% (193,732 / 526,231) · Quorum 25% (131,557)
+  ✓ Turnout 37.1% (193,732 / 522,496) · Quorum 25% (130,624)
 
   
     #98 – Increase DeepSeek V4 Flash weight_scale_factor to 0.246
@@ -29804,7 +29804,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-98 proposals across 5 quarters. Last updated: 2026-09-03 09:46 UTC
+98 proposals across 5 quarters. Last updated: 2026-09-03 11:00 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -66949,7 +66949,7 @@ $90,075 USDT · Bounty Reward
   
   6Block proposes that the Gonka community allocate 100,000 USDT from the Community Pool to support Gonka's participation at TOKEN2049 Singapore 2026, taking place on 7-8 October 2026 at Marina Bay Sand…
   Yes 80.1% (155,126) · No 0.0% (0) · Veto 19.9% (38,606) · Abstain 0.0% (0)$100,000 · Community Pool
-  ✓ Turnout 36.8% (193,732 / 526,231) · Quorum 25% (131,557)
+  ✓ Turnout 37.1% (193,732 / 522,496) · Quorum 25% (130,624)
 
   
     #98 – Increase DeepSeek V4 Flash weight_scale_factor to 0.246
@@ -74797,7 +74797,7 @@ The requested funds will be used to cover the TOKEN2049 Singapore Gold Sponsorsh
     Veto 19.9% (38,606)
     Abstain 0.0% (0)
     Total 193,732 votes
-    ✓ Turnout 36.8% (193,732 / 526,231) · Quorum 25% (131,557)
+    ✓ Turnout 37.1% (193,732 / 522,496) · Quorum 25% (130,624)
   
 
 Voters
