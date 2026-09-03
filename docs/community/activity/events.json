@@ -1,5 +1,36 @@
 [
   {
+    "id": "evt_20260903000618_a8be46b3",
+    "timestamp": "2026-09-03T00:06:18.026917+00:00",
+    "section": "discussions",
+    "action": "new",
+    "item": {
+      "title": "Devshard Load Testing",
+      "url": "/community/discussion/protocol-improvements/1685-devshard-load-testing/",
+      "file": "protocol-improvements/1685-devshard-load-testing.md"
+    },
+    "details": {
+      "status": null,
+      "content": "> 🔄 **Auto-sync:** from [Discussion #1685](https://github.com/gonka-ai/gonka/discussions/1685) every hour. \n\n# Devshard Load Testing\n\n**Автор:** [@aikuznetsov](https://github.com/aikuznetsov) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-08-31 15:13 UTC · \n\n---\n\n## 📝 Описание\n\n**Scope:** define a repeatable path for load testing Devshards locally and on\nTestNet, using the existing testenv, TestNet harness, gateway, escrow tooling,\nand observability surfaces.\n\nThis is intentionally a proposal, not a full runbook. The detailed command\nreference should live near the tools it documents.\n\n## TL;DR\n\nAdd a concurrent load mode to\n[`test-net-cloud/devshard-testing`](https://github.com/gonka-ai/gonka/tree/main/test-net-cloud/devshard-testing).\nUse it in three layers:\n\n1. Local t"
+    },
+    "ai_description": "A new discussion on Devshard Load Testing has been posted by aikuznetsov in the Protocol Improvements category. The proposal outlines a plan to add concurrent load testing capabilities to the existing Devshard testing toolkit, creating a repeatable path for stress testing locally and on TestNet. This will help the community validate protocol performance and catch bottlenecks before mainnet deployments."
+  },
+  {
+    "id": "evt_20260903000618_12a2212a",
+    "timestamp": "2026-09-03T00:06:18.026935+00:00",
+    "section": "discussions",
+    "action": "deleted",
+    "item": {
+      "title": "Devshard Load Testing",
+      "url": null,
+      "file": "governance-proposal-reports/1685-devshard-load-testing.md"
+    },
+    "details": {
+      "content": "> 🔄 **Auto-sync:** from [Discussion #1685](https://github.com/gonka-ai/gonka/discussions/1685) every hour. \n\n# Devshard Load Testing\n\n**Автор:** [@aikuznetsov](https://github.com/aikuznetsov) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-08-31 15:13 UTC · \n\n---\n\n## 📝 Описание\n\n**Scope:** define a repeatable path for load testing Devshards locally and on\nTestNet, using the existing testenv, TestNet harness, gateway, escrow tooling,\nand observability surfaces.\n\nThis is intentionally a proposal, not a full runbook. The detailed command\nreference should live near the tools it documents.\n\n## TL;DR\n\nAdd a concurrent load mode to\n[`test-net-cloud/devshard-testing`](https://github.com/gonka-ai/gonka/tree/main/test-net-cloud/devshard-testing).\nUse it in three laye"
+    },
+    "ai_description": "The discussion \"Devshard Load Testing\" by aikuznetsov has been removed from the community feed. This proposal outlined plans to add concurrent load testing capabilities for Devshards across local and TestNet environments. We will keep an eye out for any updated or reposted guidance on this testing initiative."
+  },
+  {
     "id": "evt_20260902234422_ee0fd959",
     "timestamp": "2026-09-02T23:44:22.142055+00:00",
     "section": "gonka_docs",

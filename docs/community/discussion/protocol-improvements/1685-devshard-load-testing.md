@@ -2,15 +2,15 @@
 title: "#1685 — Devshard Load Testing"
 source: https://github.com/gonka-ai/gonka/discussions/1685
 discussion_number: 1685
-category: governance-proposal-reports
-synced_at: 2026-09-02T21:45:17Z
+category: protocol-improvements
+synced_at: 2026-09-03T00:05:53Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1685](https://github.com/gonka-ai/gonka/discussions/1685) every hour. 
 
 # Devshard Load Testing
 
-**Автор:** [@aikuznetsov](https://github.com/aikuznetsov) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-08-31 15:13 UTC · **Обновлено:** 2026-08-31 15:23 UTC
+**Автор:** [@aikuznetsov](https://github.com/aikuznetsov) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-08-31 15:13 UTC · **Обновлено:** 2026-09-02 23:37 UTC
 
 ---
 

@@ -4,7 +4,7 @@ title: "GitHub Discussions"
 
 # GitHub Discussions — `gonka-ai/gonka`
 
-Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **94**. Обновлено: `2026-09-02 21:45 UTC`.
+Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **94**. Обновлено: `2026-09-03 00:06 UTC`.
 
 ## 📂 Категории
 
@@ -13,8 +13,8 @@ title: "GitHub Discussions"
 | [:mega: Announcements](announcements/index.md) | 1 |
 | [:jigsaw: Ecosystem](ecosystem/index.md) | 8 |
 | [:speech_balloon: General](general/index.md) | 6 |
-| [:bookmark_tabs: Governance Proposal Reports](governance-proposal-reports/index.md) | 9 |
-| [:gear: Protocol Improvements](protocol-improvements/index.md) | 44 |
+| [:bookmark_tabs: Governance Proposal Reports](governance-proposal-reports/index.md) | 8 |
+| [:gear: Protocol Improvements](protocol-improvements/index.md) | 45 |
 | [:interrobang: Q&A](q-a/index.md) | 4 |
 | [:raised_hands: Show and Tell](show-and-tell/index.md) | 22 |
 
@@ -22,11 +22,11 @@ title: "GitHub Discussions"
 
 | # | Заголовок | Категория | Автор | Обновлено |
 |---:|---|---|---|---|
+| [1685](protocol-improvements/1685-devshard-load-testing.md) | [Devshard Load Testing](protocol-improvements/1685-devshard-load-testing.md) | :gear: Protocol Improvements | [@aikuznetsov](https://github.com/aikuznetsov) | 2026-09-02 |
 | [1704](governance-proposal-reports/1704-proposal-99-support-gonkas-presence-at-token2049-singapore-2.md) | [Proposal #99: Support Gonka’s Presence at TOKEN2049 Singapore 2026](governance-proposal-reports/1704-proposal-99-support-gonkas-presence-at-token2049-singapore-2.md) | :bookmark_tabs: Governance Proposal Reports | [@Isabella0319](https://github.com/Isabella0319) | 2026-09-02 |
 | [1619](general/1619-phase-out-kimi-k26.md) | [Phase out Kimi K2.6](general/1619-phase-out-kimi-k26.md) | :speech_balloon: General | [@paranjko](https://github.com/paranjko) | 2026-09-02 |
 | [1614](governance-proposal-reports/1614-proposal-74-gonka-labs-monthly-report-no2.md) | [Proposal #74: Gonka Labs - Monthly Report No.2](governance-proposal-reports/1614-proposal-74-gonka-labs-monthly-report-no2.md) | :bookmark_tabs: Governance Proposal Reports | [@ptd-bot](https://github.com/ptd-bot) | 2026-09-01 |
 | [1667](q-a/1667-ibc-withdrawal-blocked-neutron-client-07-tendermint-3-is-exp.md) | [IBC withdrawal blocked: Neutron client 07-tendermint-3 is expired](q-a/1667-ibc-withdrawal-blocked-neutron-client-07-tendermint-3-is-exp.md) | :interrobang: Q&A | [@xX-mabster-Xx](https://github.com/xX-mabster-Xx) | 2026-09-01 |
-| [1685](governance-proposal-reports/1685-devshard-load-testing.md) | [Devshard Load Testing](governance-proposal-reports/1685-devshard-load-testing.md) | :bookmark_tabs: Governance Proposal Reports | [@aikuznetsov](https://github.com/aikuznetsov) | 2026-08-31 |
 | [1668](protocol-improvements/1668-proposal-raise-the-deepseek-coefficient-to-0400.md) | [Proposal: raise the DeepSeek coefficient to 0.400](protocol-improvements/1668-proposal-raise-the-deepseek-coefficient-to-0400.md) | :gear: Protocol Improvements | [@knyazev741](https://github.com/knyazev741) | 2026-08-29 |
 | [1648](ecosystem/1648-running-our-own-devshard-gateway-plan-economics-and-what-hos.md) | [Running our own devshard gateway — plan, economics, and what hosts want to see for allowlisting](ecosystem/1648-running-our-own-devshard-gateway-plan-economics-and-what-hos.md) | :jigsaw: Ecosystem | [@theaungmyatmoe](https://github.com/theaungmyatmoe) | 2026-08-29 |
 | [1636](protocol-improvements/1636-proposal-cache-served-token-pricing.md) | [Proposal: Cache-Served Token Pricing](protocol-improvements/1636-proposal-cache-served-token-pricing.md) | :gear: Protocol Improvements | [@theaungmyatmoe](https://github.com/theaungmyatmoe) | 2026-08-24 |

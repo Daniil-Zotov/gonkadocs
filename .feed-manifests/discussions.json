@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-09-02T21:45:45.438917+00:00",
+  "snapshot_time": "2026-09-03T00:06:52.393147+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "Welcome to Gonka Discussions 👋",
@@ -133,12 +133,6 @@
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1617](https://github.com/gonka-ai/gonka/discussions/1617) every hour. \n\n# (outdated) Proposal #74: Gonka Labs - Monthly Report No. 2\n\n**Автор:** [@nsvdev](https://github.com/nsvdev) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-08-20 15:36 UTC · \n\n---\n\n## 📝 Описание\n\n<img width=\"1920\" height=\"1080\" alt=\"image\" src=\"https://github.com/user-attachments/assets/6267b894-26b8-47a1-a34e-97ff83dca34b\" />\n\nHey! Gonka Labs here. Last update was [Monthly Report No.1](https://github.com/gonka-ai/gonka/discussions/1477) on Jul 18. \n\nReport #1 was the launch month: OpenBroker and Pulse went live, the explorer got a big QA + inference pass, and proxy.gonka.gg moved onto dedicated infra under real load. This month is what we added on",
       "checksum": "669445f1b1bb2398a8dd7e3d3270e09ac10d083cc7ae028bc98f6bf4e3ee467e"
-    },
-    "governance-proposal-reports/1685-devshard-load-testing.md": {
-      "title": "Devshard Load Testing",
-      "status": null,
-      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1685](https://github.com/gonka-ai/gonka/discussions/1685) every hour. \n\n# Devshard Load Testing\n\n**Автор:** [@aikuznetsov](https://github.com/aikuznetsov) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-08-31 15:13 UTC · \n\n---\n\n## 📝 Описание\n\n**Scope:** define a repeatable path for load testing Devshards locally and on\nTestNet, using the existing testenv, TestNet harness, gateway, escrow tooling,\nand observability surfaces.\n\nThis is intentionally a proposal, not a full runbook. The detailed command\nreference should live near the tools it documents.\n\n## TL;DR\n\nAdd a concurrent load mode to\n[`test-net-cloud/devshard-testing`](https://github.com/gonka-ai/gonka/tree/main/test-net-cloud/devshard-testing).\nUse it in three laye",
-      "checksum": "21467d75c4190449fa93245a3c10eabd0604ed0719e84371f88067e4cfb17a6d"
     },
     "governance-proposal-reports/1704-proposal-99-support-gonkas-presence-at-token2049-singapore-2.md": {
       "title": "Proposal #99: Support Gonka’s Presence at TOKEN2049 Singapore 2026",
@@ -409,6 +403,12 @@
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1668](https://github.com/gonka-ai/gonka/discussions/1668) every hour. \n\n# Proposal: raise the DeepSeek coefficient to 0.400\n\n**Автор:** [@knyazev741](https://github.com/knyazev741) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-08-28 14:03 UTC · \n\n---\n\n## 📝 Описание\n\nRussian version: https://telegra.ph/DeepSeek-WSF-0400-pust-subsidiya-pokupaet-poleznuyu-rabotu-08-28\n\nGonka hosts currently get most of their income not from inference payments, but from RewardCoin subsidy. The pool is fixed and split by scaled PoC. Utilization bonuses in the code do not run. Dynamic pricing is off. All models are priced the same. Hardware therefore follows the `weight_scale_factor` coefficient, not the user queue.\n\nThe queue and the coefficient point in ",
       "checksum": "3775796f4a2b4b14ad4f949d3bad4b93c638605b0837e3c79ecdb5c622d40abf"
+    },
+    "protocol-improvements/1685-devshard-load-testing.md": {
+      "title": "Devshard Load Testing",
+      "status": null,
+      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1685](https://github.com/gonka-ai/gonka/discussions/1685) every hour. \n\n# Devshard Load Testing\n\n**Автор:** [@aikuznetsov](https://github.com/aikuznetsov) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-08-31 15:13 UTC · \n\n---\n\n## 📝 Описание\n\n**Scope:** define a repeatable path for load testing Devshards locally and on\nTestNet, using the existing testenv, TestNet harness, gateway, escrow tooling,\nand observability surfaces.\n\nThis is intentionally a proposal, not a full runbook. The detailed command\nreference should live near the tools it documents.\n\n## TL;DR\n\nAdd a concurrent load mode to\n[`test-net-cloud/devshard-testing`](https://github.com/gonka-ai/gonka/tree/main/test-net-cloud/devshard-testing).\nUse it in three layers:\n\n1. Local t",
+      "checksum": "e245438c80160d388d04d341bbcaf221a5e76eb90497b25cca8ff881293fae9b"
     },
     "q-a/0796-are-there-plans-to-add-prompt-level-confidentiality-for-host.md": {
       "title": "Are there plans to add prompt-level confidentiality for hosts?",
