@@ -28692,8 +28692,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-09-04
   
   6Block proposes that the Gonka community allocate 100,000 USDT from the Community Pool to support Gonka's participation at TOKEN2049 Singapore 2026, taking place on 7-8 October 2026 at Marina Bay Sand…
-  Yes 95.1% (155,126) · No 0.0% (0) · Veto 4.9% (8,074) · Abstain 0.0% (0)$100,000 · Community Pool
-  ✓ Turnout 33.2% (163,200 / 491,964) · Quorum 25% (122,991)
+  Yes 95.1% (158,914) · No 0.0% (9) · Veto 4.8% (8,088) · Abstain 0.0% (4)$100,000 · Community Pool
+  ✓ Turnout 33.9% (167,015 / 491,964) · Quorum 25% (122,991)
 
   
     #98 – Increase DeepSeek V4 Flash weight_scale_factor to 0.246
@@ -29804,7 +29804,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-98 proposals across 5 quarters. Last updated: 2026-09-03 14:21 UTC
+98 proposals across 5 quarters. Last updated: 2026-09-03 16:00 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -66948,8 +66948,8 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-09-04
   
   6Block proposes that the Gonka community allocate 100,000 USDT from the Community Pool to support Gonka's participation at TOKEN2049 Singapore 2026, taking place on 7-8 October 2026 at Marina Bay Sand…
-  Yes 95.1% (155,126) · No 0.0% (0) · Veto 4.9% (8,074) · Abstain 0.0% (0)$100,000 · Community Pool
-  ✓ Turnout 33.2% (163,200 / 491,964) · Quorum 25% (122,991)
+  Yes 95.1% (158,914) · No 0.0% (9) · Veto 4.8% (8,088) · Abstain 0.0% (4)$100,000 · Community Pool
+  ✓ Turnout 33.9% (167,015 / 491,964) · Quorum 25% (122,991)
 
   
     #98 – Increase DeepSeek V4 Flash weight_scale_factor to 0.246
@@ -74792,12 +74792,12 @@ The requested funds will be used to cover the TOKEN2049 Singapore Gold Sponsorsh
     
   
   
-    Yes 95.1% (155,126)
-    No 0.0% (0)
-    Veto 4.9% (8,074)
-    Abstain 0.0% (0)
-    Total 163,200 votes
-    ✓ Turnout 33.2% (163,200 / 491,964) · Quorum 25% (122,991)
+    Yes 95.1% (158,914)
+    No 0.0% (9)
+    Veto 4.8% (8,088)
+    Abstain 0.0% (4)
+    Total 167,015 votes
+    ✓ Turnout 33.9% (167,015 / 491,964) · Quorum 25% (122,991)
   
 
 Voters
@@ -74816,6 +74816,7 @@ gonka1t0psql…mnwdadYes 100.0%
 gonka1ts6k67…je6z4cNo_With_Veto 100.0%
 gonka1wknl63…geuytrNo_With_Veto 100.0%
 gonka10thh6z…ae350kNo_With_Veto 100.0%
+gonka10mmdja…vqgz09Yes 99.2% No 0.3% Abstain 0.1% No_With_Veto 0.4%
 gonka1kvmerz…lzldumYes 100.0%
 gonka1erprg2…h06gkqNo_With_Veto 100.0%
 gonka16dgkvx…6j0skkYes 100.0%
