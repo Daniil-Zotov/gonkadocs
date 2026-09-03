@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-09-03T00:06:52.393147+00:00",
+  "snapshot_time": "2026-09-03T05:44:18.972285+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "Welcome to Gonka Discussions 👋",
@@ -565,6 +565,18 @@
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1476](https://github.com/gonka-ai/gonka/discussions/1476) every hour. \n\n# unposted\n\n**Автор:** [@nsvdev](https://github.com/nsvdev) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-07-18 18:27 UTC · \n\n---\n\n## 📝 Описание\n\n*(пусто)*",
       "checksum": "4f209c0e63bd57e2365ce98e5dfe2edd1faa38588439b07e640e5e5a995e5037"
+    },
+    "show-and-tell/1710-gonka-labs-x402-on-gonka-payments-for-agents.md": {
+      "title": "Gonka Labs: x402 on Gonka - payments for Agents",
+      "status": null,
+      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1710](https://github.com/gonka-ai/gonka/discussions/1710) every hour. \n\n# Gonka Labs: x402 on Gonka - payments for Agents\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-09-03 00:10 UTC · \n\n---\n\n## 📝 Описание\n\nHey! Gonka Labs here.\n\nAt 26th of August we introduced x402 on Gonka: [https://x402.gonka.gg](https://x402.gonka.gg)\n\n![](https://resource.inkdown.me/assets/11g/tk4ZX4b2sHaSu/E2MWThZKmaHh7Og.jpg)\n\nx402 is an open payment standard for AI agents. It was started by the Coinbase team and is now run by the independent x402 Foundation under the Linux Foundation. The idea is simple on purpose. An agent makes a micropayment in stablecoins (almost always USDC) and gets the resource it",
+      "checksum": "55d6ed2496f47407efdaa5feadb57b813baa5010869ab8793fdd3b927148532a"
+    },
+    "show-and-tell/1711-gonka-labs-gonka-chat-wallet-to-wallet-messaging-on-gonka.md": {
+      "title": "Gonka Labs: Gonka Chat - Wallet-to-Wallet messaging on Gonka",
+      "status": null,
+      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1711](https://github.com/gonka-ai/gonka/discussions/1711) every hour. \n\n# Gonka Labs: Gonka Chat - Wallet-to-Wallet messaging on Gonka\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-09-03 00:42 UTC · \n\n---\n\n## 📝 Описание\n\nHey! Gonka Labs here.\n\nOn September 1st, we shipped [Gonka Chat](https://chat.gonka.gg) - an open-source wallet-to-wallet messenger for Gonka. \nYou write a `gonka1...` address or a `.gnk` (GNS, https://gonka.gg/names) name the same way you'd write a handle. No new account. **The wallet is the identity.**\n\nhttps://github.com/user-attachments/assets/9cba802d-2891-48a0-a4ef-b4b5881a4f55\n\n### The problem\n\nMost web3 ecosystems already have some form of wallet chat. So",
+      "checksum": "214fccca45bda439e722b583b373ac17276295629751b3b0ff59d2a1cb182545"
     }
   }
 }

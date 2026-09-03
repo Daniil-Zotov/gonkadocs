@@ -4,12 +4,14 @@ title: ":raised_hands: Show and Tell"
 
 # :raised_hands: Show and Tell
 
-Дискуссии в категории **:raised_hands: Show and Tell**. Всего: **22**. Обновлено: `2026-09-03 00:06 UTC`.
+Дискуссии в категории **:raised_hands: Show and Tell**. Всего: **24**. Обновлено: `2026-09-03 05:41 UTC`.
 
 [← ко всем категориям](../index.md)
 
 | # | Заголовок | Автор | Обновлено |
 |---:|---|---|---|
+| [1711](1711-gonka-labs-gonka-chat-wallet-to-wallet-messaging-on-gonka.md) | [Gonka Labs: Gonka Chat - Wallet-to-Wallet messaging on Gonka](1711-gonka-labs-gonka-chat-wallet-to-wallet-messaging-on-gonka.md) | [@gonkalabs](https://github.com/gonkalabs) | 2026-09-03 |
+| [1710](1710-gonka-labs-x402-on-gonka-payments-for-agents.md) | [Gonka Labs: x402 on Gonka - payments for Agents](1710-gonka-labs-x402-on-gonka-payments-for-agents.md) | [@gonkalabs](https://github.com/gonkalabs) | 2026-09-03 |
 | [1476](1476-unposted.md) | [unposted](1476-unposted.md) | [@nsvdev](https://github.com/nsvdev) | 2026-07-18 |
 | [1390](1390-how-to-return-funds-to-the-community-pool-ibc-usdt.md) | [How to return funds to the Community Pool (IBC USDT)](1390-how-to-return-funds-to-the-community-pool-ibc-usdt.md) | [@paranjko](https://github.com/paranjko) | 2026-07-03 |
 | [1374](1374-gonka-ai-dune-dashboard.md) | [Gonka AI Dune Dashboard](1374-gonka-ai-dune-dashboard.md) | [@genkisudo](https://github.com/genkisudo) | 2026-06-29 |

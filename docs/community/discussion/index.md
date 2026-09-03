@@ -4,7 +4,7 @@ title: "GitHub Discussions"
 
 # GitHub Discussions — `gonka-ai/gonka`
 
-Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **94**. Обновлено: `2026-09-03 00:06 UTC`.
+Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **96**. Обновлено: `2026-09-03 05:41 UTC`.
 
 ## 📂 Категории
 
@@ -16,12 +16,14 @@ title: "GitHub Discussions"
 | [:bookmark_tabs: Governance Proposal Reports](governance-proposal-reports/index.md) | 8 |
 | [:gear: Protocol Improvements](protocol-improvements/index.md) | 45 |
 | [:interrobang: Q&A](q-a/index.md) | 4 |
-| [:raised_hands: Show and Tell](show-and-tell/index.md) | 22 |
+| [:raised_hands: Show and Tell](show-and-tell/index.md) | 24 |
 
 ## 🕒 Последние обновлённые
 
 | # | Заголовок | Категория | Автор | Обновлено |
 |---:|---|---|---|---|
+| [1711](show-and-tell/1711-gonka-labs-gonka-chat-wallet-to-wallet-messaging-on-gonka.md) | [Gonka Labs: Gonka Chat - Wallet-to-Wallet messaging on Gonka](show-and-tell/1711-gonka-labs-gonka-chat-wallet-to-wallet-messaging-on-gonka.md) | :raised_hands: Show and Tell | [@gonkalabs](https://github.com/gonkalabs) | 2026-09-03 |
+| [1710](show-and-tell/1710-gonka-labs-x402-on-gonka-payments-for-agents.md) | [Gonka Labs: x402 on Gonka - payments for Agents](show-and-tell/1710-gonka-labs-x402-on-gonka-payments-for-agents.md) | :raised_hands: Show and Tell | [@gonkalabs](https://github.com/gonkalabs) | 2026-09-03 |
 | [1685](protocol-improvements/1685-devshard-load-testing.md) | [Devshard Load Testing](protocol-improvements/1685-devshard-load-testing.md) | :gear: Protocol Improvements | [@aikuznetsov](https://github.com/aikuznetsov) | 2026-09-02 |
 | [1704](governance-proposal-reports/1704-proposal-99-support-gonkas-presence-at-token2049-singapore-2.md) | [Proposal #99: Support Gonka’s Presence at TOKEN2049 Singapore 2026](governance-proposal-reports/1704-proposal-99-support-gonkas-presence-at-token2049-singapore-2.md) | :bookmark_tabs: Governance Proposal Reports | [@Isabella0319](https://github.com/Isabella0319) | 2026-09-02 |
 | [1619](general/1619-phase-out-kimi-k26.md) | [Phase out Kimi K2.6](general/1619-phase-out-kimi-k26.md) | :speech_balloon: General | [@paranjko](https://github.com/paranjko) | 2026-09-02 |
@@ -40,5 +42,3 @@ title: "GitHub Discussions"
 | [1540](governance-proposal-reports/1540-proposal-51-webx-asia-2026-post-event-report.md) | [Proposal #51: WebX Asia 2026 — Post-Event Report](governance-proposal-reports/1540-proposal-51-webx-asia-2026-post-event-report.md) | :bookmark_tabs: Governance Proposal Reports | [@Ryanchen911](https://github.com/Ryanchen911) | 2026-08-05 |
 | [864](ecosystem/0864-proposal-deploy-gonka-ai-web-platform-v1-to-production-appgo.md) | [Proposal: Deploy Gonka AI Web Platform v1 to Production (app.gonka.ai)](ecosystem/0864-proposal-deploy-gonka-ai-web-platform-v1-to-production-appgo.md) | :jigsaw: Ecosystem | [@zpoken](https://github.com/zpoken) | 2026-08-05 |
 | [816](ecosystem/0816-gonka-node-manager-automated-node-deployment-updates-and-mon.md) | [Gonka Node Manager — Automated Node Deployment, Updates, and Monitoring](ecosystem/0816-gonka-node-manager-automated-node-deployment-updates-and-mon.md) | :jigsaw: Ecosystem | [@ochenUmnayaKatyshka](https://github.com/ochenUmnayaKatyshka) | 2026-08-05 |
-| [875](ecosystem/0875-automatic-node-provisioning-tool-exists.md) | [Automatic Node Provisioning Tool exists](ecosystem/0875-automatic-node-provisioning-tool-exists.md) | :jigsaw: Ecosystem | [@SegovChik](https://github.com/SegovChik) | 2026-08-05 |
-| [873](ecosystem/0873-outdated-optional-centralized-monitoring-for-gonka-validator.md) | [!OUTDATED! Optional Centralized Monitoring for Gonka Validators](ecosystem/0873-outdated-optional-centralized-monitoring-for-gonka-validator.md) | :jigsaw: Ecosystem | [@SegovChik](https://github.com/SegovChik) | 2026-08-05 |
