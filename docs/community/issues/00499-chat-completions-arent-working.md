@@ -2,7 +2,7 @@
 title: "#499 — Chat Completions aren't working"
 source: https://github.com/gonka-ai/gonka/issues/499
 issue_number: 499
-synced_at: 2026-09-03T09:57:11Z
+synced_at: 2026-09-03T14:40:41Z
 template: issues-main.html
 ---
 

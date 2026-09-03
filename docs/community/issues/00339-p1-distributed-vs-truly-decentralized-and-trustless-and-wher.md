@@ -2,7 +2,7 @@
 title: "#339 — [P1] Distributed vs truly decentralized and trustless and where we there"
 source: https://github.com/gonka-ai/gonka/issues/339
 issue_number: 339
-synced_at: 2026-09-03T09:57:04Z
+synced_at: 2026-09-03T14:40:28Z
 template: issues-main.html
 ---
 
