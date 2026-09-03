@@ -2,7 +2,7 @@
 title: "#1671 — chore(deps): rebase forked cosmos-sdk onto v0.53.8 (base is v0.53.3, ~5 patch releases behind)"
 source: https://github.com/gonka-ai/gonka/issues/1671
 issue_number: 1671
-synced_at: 2026-09-03T00:21:12Z
+synced_at: 2026-09-03T04:40:56Z
 template: issues-main.html
 ---
 
