@@ -2,7 +2,7 @@
 title: "#1525 — PoC auto ValidatedWeight:-1 on missing model executors + guardian tiebreaker can wipe model weight (v0.2.14)"
 source: https://github.com/gonka-ai/gonka/issues/1525
 issue_number: 1525
-synced_at: 2026-09-04T20:50:27Z
+synced_at: 2026-09-04T23:04:59Z
 template: issues-main.html
 ---
 

@@ -2,7 +2,7 @@
 title: "#359 — [P0]: AI Developer onboarding: Aiden Chat integration"
 source: https://github.com/gonka-ai/gonka/issues/359
 issue_number: 359
-synced_at: 2026-09-04T20:52:38Z
+synced_at: 2026-09-04T23:06:42Z
 template: issues-main.html
 ---
 
