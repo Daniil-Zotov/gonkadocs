@@ -2780,6 +2780,57 @@ This collaboration allows the platform to offer AI services at significantly low
    
     This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.
 
+## September 4, 2026
+
+**Devshard binary update: `v4.0.2`**
+
+The `v4.0.2` devshard binary is available. Hosts can update the v4 binary manually using the instructions below. An automatic update is not scheduled yet.
+
+**What changed**
+
+On restart, `v4.0.1` restored every session from nonce 1. Nodes with many stored sessions took hours to become ready, `versiond` then killed the child on the 60 second ready timeout, and clients saw HTTP 502s.
+
+`v4.0.2` loads the latest snapshot and restores only the diffs after it. This version is fully compatible with the previous v4 release.
+
+Release: [devshard/v4.0.2](https://github.com/gonka-ai/gonka/releases/tag/release/devshard/v4.0.2)
+
+**Update instructions**
+
+Update one node at a time and confirm each one is back before moving to the next.
+
+```shell
+sudo mkdir -p ./devshards/bin/override/v4 && \
+wget -q -O /tmp/devshardd-v4.0.2.zip 'https://github.com/gonka-ai/gonka/releases/download/release%2Fdevshard%2Fv4.0.2/devshardd.zip' && \
+echo "38aea0a4f1658e85321d11149efa247e565e952c51db4d268a02e0a6f0734200  /tmp/devshardd-v4.0.2.zip" | sha256sum --check --status && echo checksum_ok && \
+sudo unzip -qo -j /tmp/devshardd-v4.0.2.zip -d ./devshards/bin/override/v4/ && \
+sudo chmod 755 ./devshards/bin/override/v4/devshardd && \
+test -f ./devshards/bin/override/v4/devshardd && \
+docker pull -q ghcr.io/product-science/versiond:0.2.15 >/dev/null && \
+test "$(docker run --rm --entrypoint /devshardd -v ./devshards/bin/override/v4/devshardd:/devshardd:ro ghcr.io/product-science/versiond:0.2.15 --print-protocol-version)" = v4 && echo protocol_v4
+```
+
+Add this env to `docker-compose.yml`:
+
+```yaml
+  versiond:
+    ...
+    environment:
+    ...
+      - VERSIOND_FORCE=v4
+      - VERSIOND_OVERRIDE_v4=/opt/versiond/bin/override/v4/devshardd
+```
+
+Then restart:
+
+```shell
+source config.env && docker compose up versiond -d --no-deps --force-recreate
+```
+
+**Check your deployed version**
+
+```shell
+curl /devshard/v4/stats/shards | jq '.binary_version'
+```
 ## August 29, 2026
 
 **PROPOSAL PASSED: Increase DeepSeek V4 Flash weight_scale_factor to 0.246**
@@ -28664,7 +28715,7 @@ HardCore Arena позволит протестировать модель на �
 ## Overview
 
 98Total Proposals
-65Passed (66%)
+66Passed (67%)
 31Rejected (32%)
 1Failed (1%)
 
@@ -28675,7 +28726,7 @@ Other4
 GRC / Restitution3
 Models / IBC2
 
-20,302,572 GNK · $631,600 · Community Pool · 4,691,460 GNK · Gov Module
+20,302,572 GNK · $731,600 · Community Pool · 4,691,460 GNK · Gov Module
 $144,150 USDT · 203,750 GNK · Bounty Reward
 
 ## 2026-Q3
@@ -28684,8 +28735,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
 
   
     #99 – Support Gonka's presence at TOKEN2049 Singapore
-    
-    Voting
+    Passed
   
   
     Submitted 2026-09-02
@@ -29804,7 +29854,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-98 proposals across 5 quarters. Last updated: 2026-09-04 09:40 UTC
+98 proposals across 5 quarters. Last updated: 2026-09-04 10:00 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -66923,7 +66973,7 @@ Contract Details
 ## 2026-Q3 Summary
 
 20Total Proposals
-13Passed (65%)
+14Passed (70%)
 6Rejected (30%)
 
 Governance Parameters10
@@ -66932,7 +66982,7 @@ Software Upgrade2
 Other1
 GRC / Restitution1
 
-80,000 GNK · $88,000 · Community Pool
+80,000 GNK · $188,000 · Community Pool
 $90,075 USDT · Bounty Reward
 
 2026-Q3
@@ -66940,8 +66990,7 @@ $90,075 USDT · Bounty Reward
 
   
     #99 – Support Gonka's presence at TOKEN2049 Singapore
-    
-    Voting
+    Passed
   
   
     Submitted 2026-09-02
@@ -74759,7 +74808,7 @@ Contract Details
 
 # #99 – Support Gonka's presence at TOKEN2049 Singapore
 
-Voting
+Passed
 
 **Proposal ID:** `99`
 

@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-09-04T05:18:41.547081+00:00",
+  "snapshot_time": "2026-09-04T10:18:32.456979+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -305,8 +305,8 @@
     "network-updates.md": {
       "title": "Announcements",
       "status": null,
-      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## August 29, 2026\n\n**PROPOSAL PASSED: Increase DeepSeek V4 Flash weight_scale_factor to 0.246**\n\nThe on-chain governance vote for proposal id 98 has concluded.\n\nThe proposal was APPROVED. It increases the `weight_scale_factor` for `deepseek-ai/DeepSeek-V4-",
-      "checksum": "44423d2b81b8a211aa901db3cb0bf8f265b261a5870390300425d421549f5c1b"
+      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## September 4, 2026\n\n**Devshard binary update: `v4.0.2`**\n\nThe `v4.0.2` devshard binary is available. Hosts can update the v4 binary manually using the instructions below. An automatic update is not scheduled yet.\n\n**What changed**\n\nOn restart, `v4.0.1` re",
+      "checksum": "04f0297df4f7fc346d76205ef09c2dcebfecd5b3e2ee33312c5b7223384c1ff5"
     },
     "participant/README.md": {
       "title": "Redirecting to Host Section",
