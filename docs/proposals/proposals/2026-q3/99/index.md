@@ -41,17 +41,17 @@ The requested funds will be used to cover the TOKEN2049 Singapore Gold Sponsorsh
 <div class="prop-tally">
   <div class="prop-tally-bar">
     <div class="prop-tally-yes" style="width:29.9%"></div>
-    <div class="prop-tally-no" style="width:0.0%"></div>
+    <div class="prop-tally-no" style="width:0.5%"></div>
     <div class="prop-tally-veto" style="width:6.7%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes <strong>81.7%</strong> (170,667)</span>
-    <span class="prop-tally-no-text">No <strong>0.0%</strong> (10)</span>
-    <span class="prop-tally-veto-text">Veto <strong>18.3%</strong> (38,330)</span>
+    <span class="prop-tally-yes-text">Yes <strong>80.5%</strong> (170,667)</span>
+    <span class="prop-tally-no-text">No <strong>1.5%</strong> (3,077)</span>
+    <span class="prop-tally-veto-text">Veto <strong>18.1%</strong> (38,330)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (4)</span>
-    <span class="prop-tally-total-text">Total 209,011 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout <strong>36.6%</strong> (209,011 / 571,646) · Quorum <strong>25%</strong> (142,911)</span>
+    <span class="prop-tally-total-text">Total 212,078 votes</span>
+    <span class="prop-tally-yes-text">✓ Turnout <strong>37.1%</strong> (212,078 / 571,646) · Quorum <strong>25%</strong> (142,911)</span>
   </div>
 </div>
 
@@ -65,6 +65,7 @@ The requested funds will be used to cover the TOKEN2049 Singapore Gold Sponsorsh
 <tbody>
 <tr><td><a href="https://gonka.gg/address/gonka1qwfrtz9c7kcrfkrrlne2pkcye74mj6ce33xdkl" target="_blank" class="prop-voter-addr">gonka1qwfrtz…33xdkl</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1p2lhgng7tcqju7emk989s5fpdr7k2c3ek6h26m" target="_blank" class="prop-voter-addr">gonka1p2lhgn…k6h26m</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
+<tr><td><a href="https://gonka.gg/address/gonka1ym3np7guxart483yfdxnlztuazx22cjt0e4a2p" target="_blank" class="prop-voter-addr">gonka1ym3np7…0e4a2p</a></td><td><span class="prop-voter-option prop-vote-no">No 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1xwkesaxvdadh9wt9yyladu0r260s7whklcktds" target="_blank" class="prop-voter-addr">gonka1xwkesa…lcktds</a></td><td><span class="prop-voter-option prop-vote-veto">No_With_Veto 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka18xeqnspxpg2vncufnjne485rkaagwvz7whyn0d" target="_blank" class="prop-voter-addr">gonka18xeqns…whyn0d</a></td><td><span class="prop-voter-option prop-vote-veto">No_With_Veto 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1830lqug50lse998x2lakk4pj5ypfumz5pasz0y" target="_blank" class="prop-voter-addr">gonka1830lqu…pasz0y</a></td><td><span class="prop-voter-option prop-vote-veto">No_With_Veto 100.0%</span></td></tr>
