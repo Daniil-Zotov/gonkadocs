@@ -3,7 +3,7 @@ title: "#1589 — Bring GNK and Gonka to the Ledger Ecosystem"
 source: https://github.com/gonka-ai/gonka/discussions/1589
 discussion_number: 1589
 category: ecosystem
-synced_at: 2026-09-04T11:08:55Z
+synced_at: 2026-09-04T16:15:45Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1589](https://github.com/gonka-ai/gonka/discussions/1589) every hour. 
@@ -234,7 +234,7 @@ I like the idea, especially for visibility and UX, but $350k is a significant am
 
 Thanks. 
 
-### Комментарий 2 — [@KeiBlokhin](https://github.com/KeiBlokhin)
+### Комментарий 2 — [@OrbitKey](https://github.com/OrbitKey)
 
 *2026-08-24 08:36 UTC*
 

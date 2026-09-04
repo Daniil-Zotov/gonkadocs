@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-09-04T11:09:19.352242+00:00",
+  "snapshot_time": "2026-09-04T16:16:14.809010+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "Welcome to Gonka Discussions 👋",
@@ -48,7 +48,7 @@
       "title": "Bring GNK and Gonka to the Ledger Ecosystem",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1589](https://github.com/gonka-ai/gonka/discussions/1589) every hour. \n\n# Bring GNK and Gonka to the Ledger Ecosystem\n\n**Автор:** [@Isabella0319](https://github.com/Isabella0319) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-08-13 09:09 UTC · \n\n---\n\n## 📝 Описание\n\nHi everyone! This is Isabel from 6Block. I’d like to share an important update.\n\n6Block has reached an agreement with Ledger to bring GNK and Gonka into the Ledger ecosystem. The goal is to support the integration of Gonka’s native coin, GNK, and wGNK across Ledger’s relevant infrastructure, including Ledger Devices and Ledger Wallet. \n\nThis is a major step for Gonka. Ledger is one of the leading wallet and custody infrastructure brands in crypto, and we believe Gonka should work wit",
-      "checksum": "34f6c0ae5e15762a88c36e2279ee179217cbf4b81a8d7b2bf5fe148b6c987d24"
+      "checksum": "6ea8f6a3cd383f657a7c3e934faa1722178ea18b1f376024180c94594bf0a38e"
     },
     "ecosystem/1648-running-our-own-devshard-gateway-plan-economics-and-what-hos.md": {
       "title": "Running our own devshard gateway — plan, economics, and what hosts want to see for allowlisting",

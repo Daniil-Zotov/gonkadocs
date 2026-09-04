@@ -19600,7 +19600,7 @@ decentralized mixture-of-experts."
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-09-04 10:38 UTC
+2026-09-04 14:43 UTC
 
 ---
 
