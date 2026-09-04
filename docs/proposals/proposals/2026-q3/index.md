@@ -35,7 +35,7 @@ hide:
 
 <div class="qs-stats">
 <div class="qs-stat total"><span class="qs-num">20</span><span class="qs-desc">Total Proposals</span></div>
-<div class="qs-stat passed"><span class="qs-num">13</span><span class="qs-desc">Passed (65%)</span></div>
+<div class="qs-stat passed"><span class="qs-num">14</span><span class="qs-desc">Passed (70%)</span></div>
 <div class="qs-stat rejected"><span class="qs-num">6</span><span class="qs-desc">Rejected (30%)</span></div>
 
 </div>
@@ -48,7 +48,7 @@ hide:
 <div class="qs-row"><span class="qs-label">GRC / Restitution</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:5%"></span></span><span class="qs-value">1</span></div>
 </div>
 
-<div class="qs-funding-line">80,000 GNK · $88,000 · Community Pool</div>
+<div class="qs-funding-line">80,000 GNK · $188,000 · Community Pool</div>
 <div class="qs-bounty-line">$90,075 USDT · Bounty Reward</div>
 
 
@@ -57,18 +57,17 @@ hide:
 <div class="prop-quarter">
 <h2>2026-Q3</h2>
 <p>20 proposals</p>
-<div class="prop-card" data-status="prop-voting" data-voting-end="2026-09-04T09:53:38.080427980Z">
+<div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
     <a href="99/" class="prop-card-title">#99 – Support Gonka's presence at TOKEN2049 Singapore</a>
-    <span class="prop-vote-countdown" data-deadline="2026-09-04T09:53:38.080427980Z"></span>
-    <span class="prop-badge prop-voting">Voting</span>
+    <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
     <span>Submitted 2026-09-02</span>
     <span>Voting ends 2026-09-04</span>
   </div>
   <div class="prop-card-desc">6Block proposes that the Gonka community allocate 100,000 USDT from the Community Pool to support Gonka's participation at TOKEN2049 Singapore 2026, taking place on 7-8 October 2026 at Marina Bay Sand…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>80.5%</strong> (170,667)</span> · <span class="prop-tally-no-text">No <strong>1.5%</strong> (3,077)</span> · <span class="prop-tally-veto-text">Veto <strong>18.1%</strong> (38,330)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (4)</span><span class="prop-card-funding prop-card-funding-voting">$100,000 · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>80.5%</strong> (170,667)</span> · <span class="prop-tally-no-text">No <strong>1.5%</strong> (3,077)</span> · <span class="prop-tally-veto-text">Veto <strong>18.1%</strong> (38,330)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (4)</span><span class="prop-card-funding">$100,000 · Community Pool</span></div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>37.1%</strong> (212,078 / 571,646) · Quorum <strong>25%</strong> (142,911)</span></div>
 </div>
 

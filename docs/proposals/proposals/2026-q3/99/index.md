@@ -8,7 +8,7 @@ template: proposals-proposals-main.html
 
 <div class="prop-detail-header" markdown="1">
 
-<div class="prop-badge-row"><span class="prop-badge prop-voting">Voting</span><span class="prop-vote-countdown prop-vote-countdown-detail" data-deadline="2026-09-04T09:53:38.080427980Z"></span></div>
+<span class="prop-badge prop-passed">Passed</span>
 
 **Proposal ID:** `99`
 
@@ -22,7 +22,7 @@ template: proposals-proposals-main.html
 
 **Metadata:** [https://github.com/gonka-ai/gonka/discussions/1704](https://github.com/gonka-ai/gonka/discussions/1704)
 
-<div class="prop-funding-line prop-funding-line-voting">$100,000 · Community Pool</div>
+<div class="prop-funding-line">$100,000 · Community Pool</div>
 
 
 [View on gonka.gg](https://gonka.gg/network/proposals/99){:target="_blank"}
