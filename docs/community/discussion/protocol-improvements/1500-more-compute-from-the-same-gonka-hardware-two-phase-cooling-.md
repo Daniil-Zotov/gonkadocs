@@ -3,7 +3,7 @@ title: "#1500 — More compute from the same Gonka hardware: two-phase cooling p
 source: https://github.com/gonka-ai/gonka/discussions/1500
 discussion_number: 1500
 category: protocol-improvements
-synced_at: 2026-09-03T22:30:01Z
+synced_at: 2026-09-04T00:55:49Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1500](https://github.com/gonka-ai/gonka/discussions/1500) every hour. 
