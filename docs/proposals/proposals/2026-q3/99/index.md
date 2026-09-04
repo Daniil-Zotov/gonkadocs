@@ -40,18 +40,18 @@ The requested funds will be used to cover the TOKEN2049 Singapore Gold Sponsorsh
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:31.3%"></div>
+    <div class="prop-tally-yes" style="width:29.9%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
-    <div class="prop-tally-veto" style="width:1.5%"></div>
+    <div class="prop-tally-veto" style="width:6.7%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes <strong>95.5%</strong> (170,667)</span>
+    <span class="prop-tally-yes-text">Yes <strong>81.7%</strong> (170,667)</span>
     <span class="prop-tally-no-text">No <strong>0.0%</strong> (10)</span>
-    <span class="prop-tally-veto-text">Veto <strong>4.5%</strong> (8,089)</span>
+    <span class="prop-tally-veto-text">Veto <strong>18.3%</strong> (38,330)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (4)</span>
-    <span class="prop-tally-total-text">Total 178,770 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout <strong>32.8%</strong> (178,770 / 544,423) · Quorum <strong>25%</strong> (136,105)</span>
+    <span class="prop-tally-total-text">Total 209,011 votes</span>
+    <span class="prop-tally-yes-text">✓ Turnout <strong>36.6%</strong> (209,011 / 571,646) · Quorum <strong>25%</strong> (142,911)</span>
   </div>
 </div>
 
