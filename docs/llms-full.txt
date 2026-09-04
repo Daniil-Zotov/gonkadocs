@@ -19600,7 +19600,7 @@ decentralized mixture-of-experts."
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-09-04 05:23 UTC
+2026-09-04 10:38 UTC
 
 ---
 
@@ -19630,7 +19630,7 @@ curl -s https://node3.gonka.ai/chain-api/cosmos/distribution/v1beta1/community_p
 
 **Address:** [`gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2`](https://gonka.gg/address/gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2)
 
-Current balance: 17,500,000 GNK (~$10,500,000 USDT) · $724,250 USDT
+Current balance: 17,500,000 GNK (~$10,500,000 USDT) · $624,250 USDT
 
 This address was created by **[proposal #14](/proposals/proposals/2025-q4/14/)** (passed 2025-11-27), which transferred **20,000,000 GNK** from the Community Pool to seed a community sale programme at a fixed price of **$0.60 per GNK**.
 
@@ -19654,7 +19654,7 @@ curl -s https://node3.gonka.ai/chain-api/cosmos/bank/v1beta1/balances/gonka18pkq
 
 **Address:** [`gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33`](https://gonka.gg/address/gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33)
 
-Current balance: 4,061,303 GNK
+Current balance: 4,060,803 GNK
 
 The Gov Module authority is the only address permitted to execute `MsgCommunityPoolSpend` transfers from the Community Pool. When a governance proposal passes, this address signs and sends the requested funds to the specified recipient.
 
@@ -19684,6 +19684,7 @@ All **passed** governance proposals that received funding from the Community Poo
 
 | Proposal | Date | Description | Source | Amount GNK | Amount USDT |
 | :------ | :--: | :---------- | :---- | ---------: | ---------: |
+| [#99](https://gonkadocs.com/proposals/proposals/2026-q3/99/) | 2026-09-04 | Support Gonka's presence at TOKEN2049 Singapore | Community Pool | — | $100,000 |
 | [#82](https://gonkadocs.com/proposals/proposals/2026-q3/82/) | 2026-07-10 | External Test Lab x Community DevNet | Community Pool | 80,000 | $88,000 |
 | [#77](https://gonkadocs.com/proposals/proposals/2026-q2/77/) | 2026-06-26 | Gonka PR Proposal for US/Global Regions | Community Pool | — | $75,000 |
 | [#76](https://gonkadocs.com/proposals/proposals/2026-q2/76/) | 2026-06-17 | Governance 16: devshard v2 and bounty payouts | Community Pool | — | $93,600 |
@@ -19716,13 +19717,13 @@ All **passed** governance proposals that received funding from the Community Poo
 
 | Metric | Value |
 | :----- | :---- |
-| Total governance proposals | 22 |
+| Total governance proposals | 23 |
 | Total GNK approved (proposals) | 24,994,032 GNK |
-| Total USDT approved (proposals) | $631,600 |
-| From Community Pool | 20,993,723 GNK + $631,600 |
+| Total USDT approved (proposals) | $731,600 |
+| From Community Pool | 20,993,723 GNK + $731,600 |
 | From Gov Module | 4,734,782 GNK |
 | Largest funding | #14 — 20,000,000 GNK |
-| Most recent | #82 — 80,000 GNK + $88,000 USDT |
+| Most recent | #99 — 0 GNK + $100,000 USDT |
 | **Upgrade distributions** | **7** |
 | Total GNK distributed (upgrades) | 203,750 GNK |
 | Total USDT distributed (upgrades) | $144,150 |
@@ -29854,7 +29855,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-98 proposals across 5 quarters. Last updated: 2026-09-04 10:00 UTC
+98 proposals across 5 quarters. Last updated: 2026-09-04 11:00 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
