@@ -1,5 +1,29 @@
 [
   {
+    "id": "evt_20260904011306_d1562d04",
+    "timestamp": "2026-09-04T01:13:06.271884+00:00",
+    "section": "calendar",
+    "action": "daily_reminder",
+    "item": {
+      "title": "Today: 1 events — Voting ends: #99 – Support Gonka's presence at TOKEN2049 Singapore",
+      "url": "/community/calendar/",
+      "file": null
+    },
+    "details": {
+      "today": [
+        {
+          "title": "Voting ends: #99 – Support Gonka's presence at TOKEN2049 Singapore",
+          "date": "2026-09-04",
+          "time": "09:53 UTC",
+          "event_type": "proposal_vote_end",
+          "url": "/proposals/proposals/2026-q3/99/"
+        }
+      ],
+      "count": 1
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260904001156_85646d62",
     "timestamp": "2026-09-04T00:11:56.407901+00:00",
     "section": "issues",
