@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-09-03T21:55:53.153788+00:00",
+  "snapshot_time": "2026-09-04T00:12:12.706883+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "Description",
@@ -3371,14 +3371,15 @@
     "01628-bug-public-routers-hangtimeout-on-prompts-75k-tokens-prefill.md": {
       "title": "→ HTTP 200, first token < 2 s",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] Public routers hang/timeout on prompts ≥ ~7.5K tokens (prefill); 502 `all_providers_failed`; DeepSeek missing from /v1/models\n    <span class=\"issues-number\">#1628</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/inecro1\">@inecro1</a> opened 2026-08-23 12:28 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div",
-      "comment_checksum": "ddb7bc68d9b3d51c62678417c005a28a820876ea13d7cc6b26b70c1fd3953858",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] Public routers hang/timeout on prompts ≥ ~7.5K tokens (prefill); 502 `all_providers_failed`; DeepSeek missing from /v1/models\n    <span class=\"issues-number\">#1628</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/inecro1\">@inecro1</a> opened 2026-08-23 12:28 UTC</span>\n    <span class=\"issues-meta-item\">4 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div",
+      "comment_checksum": "89cdb5bf741971b9470860beab6b56ced98aa98739da2394e93ebbbb6234b119",
       "comment_bodies": [
         "It's the widely occurred bug it need attention",
         "Tried several times the ping-vs-large-prefill contrast from this thread on our gateway: DeepSeek-V4-Flash-0731 and MiniMax-M2.7, stream=true, unique padding. Both models: HTTP 200, first token in ~1–6s at ~12k and ~63k prompt_tokens. max_tokens=5 completes as 64 (gateway floor). No 0-byte hang; engine not left dead. A ~75k-in / 4096-out MiniMax non-stream on another path finished in ~53s (outcome=",
-        "Thanks for the detailed test! One clarification: our report is specifically about the public routers (api.opengonka.com, node.gonka.lat, gate.joingonka.ai, openbroker.gonka.gg) — your gateway is a separate deployment, so a clean pass there doesn't contradict the report. Here's the exact repro we use (large-prefill non-stream request to api.opengonka.com, ~160K chars ≈ 40K tokens system prompt; red"
+        "Thanks for the detailed test! One clarification: our report is specifically about the public routers (api.opengonka.com, node.gonka.lat, gate.joingonka.ai, openbroker.gonka.gg) — your gateway is a separate deployment, so a clean pass there doesn't contradict the report. Here's the exact repro we use (large-prefill non-stream request to api.opengonka.com, ~160K chars ≈ 40K tokens system prompt; red",
+        "Hi @inecro1 - thanks for the clarification and the exact repro. There are two claims in the issue: (1) /v1/models is wrong, and (2) public routers hang or return all_providers_failed on prefill ≥ ~7.5K. We operate proxy.gonka.gg and OpenBroker and response will be only around them (also: we can not answer on behalf of brokers that are operating using OpenBroker as a gateway because we can not be s"
       ],
-      "checksum": "9cb99a4fd16ac1b12e6a6067c24b10fab1bfc2bbf1f09ba18382455cc2b6a630"
+      "checksum": "f26c3216d063de42928d4f56496068fe96acfeffcfbbf29c60e1da5e9432a61a"
     },
     "01632-openbroker-strips-provider-prompt-cache-metadata-prompt-toke.md": {
       "title": "OpenBroker strips provider prompt-cache metadata (`prompt_tokens_details` is always `null`)",
