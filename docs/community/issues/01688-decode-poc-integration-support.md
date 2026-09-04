@@ -2,7 +2,7 @@
 title: "#1688 — Decode PoC: integration support"
 source: https://github.com/gonka-ai/gonka/issues/1688
 issue_number: 1688
-synced_at: 2026-09-04T17:40:24Z
+synced_at: 2026-09-04T20:50:09Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-08-31 20:15 UTC</span>
-    <span class="issues-meta-item">2 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-03 05:15 UTC</span>
+    <span class="issues-meta-item">3 comments</span>
+    <span class="issues-meta-item">Updated 2026-09-04 20:16 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -43,7 +43,7 @@ DeepSeek seeding is more complex than MiniMax. This issue covers the integration
 
 ---
 
-## 💬 Comments (2)
+## 💬 Comments (3)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -61,6 +61,54 @@ DeepSeek seeding is more complex than MiniMax. This issue covers the integration
   </div>
   <div class="issues-comment-body issues-content">
     <p>ty</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/baychak">@baychak</a></span>
+    <span class="issues-meta-item">commented 2026-09-04 20:07 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p><strong>Status:</strong> in progress. The code lives on our forks as a residual/plugin pair; the design questions were still off-thread, and this comment moves them here.</p>
+<p><strong>Where the work is</strong></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>branch on our fork</th>
+<th>PR</th>
+<th>lands in</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>residual</td>
+<td><code>kaitakuai/vllm : mixed-poc-vllm-0.25.1-dev</code></td>
+<td>gonka-ai/vllm#100</td>
+<td><code>release/v0.25.1-decode-int</code></td>
+</tr>
+<tr>
+<td>plugin</td>
+<td><code>kaitakuai/gonka-vllm-plugins : mixed-poc-vllm-0.25.1-dev</code></td>
+<td>gonka-ai/gonka-vllm-plugins#8</td>
+<td><code>decode-poc-int</code></td>
+</tr>
+</tbody>
+</table>
+<p>Development is easier on the forks, so both intake branches @vbgd0 created are still where they were on 2026-08-13.</p>
+<p><strong>Since last</strong></p>
+<ul>
+<li>@vbgd0 has been pushing directly into both PR branches: 6 commits on the residual, 14 on the plugin, latest 2026-09-02. Not only cleanup — the PoC artifact payload gained <code>n_nan_steps</code> and the max mismatch margin, and decode validation gained a nonce-level snap-margin stat test.</li>
+<li>gonka-ai/vllm#100 points at exactly our working residual branch — no divergence. gonka-ai/gonka-vllm-plugins#8 is 41 commits behind our working plugin branch; nothing of his work is lost, ours is a strict superset. We will refresh it.</li>
+<li>Zero review comments on either PR.</li>
+</ul>
+<p><strong>Open design questions</strong></p>
+<ol>
+<li>Backward compatibility — keep the old prefill PoC untouched behind a flag, or accept that artifacts stop being cross-verifiable.</li>
+<li>How DeepSeek seeding should treat the hash-routed layers.</li>
+<li>Sign-off on the new consensus constants — @axeltec-gonka owns them; not given.</li>
+</ol>
+<p><strong>Next:</strong> refresh gonka-ai/gonka-vllm-plugins#8 onto the current plugin branch — update here by 2026-09-05.</p>
   </div>
 </div>
 

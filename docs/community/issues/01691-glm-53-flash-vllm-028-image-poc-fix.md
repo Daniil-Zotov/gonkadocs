@@ -2,7 +2,7 @@
 title: "#1691 — GLM 5.3 Flash: vLLM 0.28 image + PoC fix"
 source: https://github.com/gonka-ai/gonka/issues/1691
 issue_number: 1691
-synced_at: 2026-09-04T17:40:21Z
+synced_at: 2026-09-04T20:50:08Z
 template: issues-main.html
 ---
 
@@ -16,7 +16,7 @@ template: issues-main.html
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-08-31 20:23 UTC</span>
     <span class="issues-meta-item">3 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-04 14:44 UTC</span>
+    <span class="issues-meta-item">Updated 2026-09-04 20:16 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -126,7 +126,7 @@ The image is treated as delivered when this checklist is complete.
 </ul>
 <p><strong>Next:</strong> sequencing agreed with @clanster on today's sync — update here by 2026-09-05.</p>
 <p><strong>Scope</strong></p>
-<p>This image targets GLM 5.3 Flash. On 2026-08-31 @Vladikshokoladick and I agreed to prepare it for GLM only and defer the other models, since re-verifying them means re-running everything on rented hardware. The four models above are therefore unchanged and unverified on this image. We propose checking them once the upgrade lands on a release branch — say if you want it the other way.</p>
+<p>This image targets GLM 5.3 Flash. On 2026-08-31 @vbgd0 and I agreed to prepare it for GLM only and defer the other models, since re-verifying them means re-running everything on rented hardware. The four models above are therefore unchanged and unverified on this image. We propose checking them once the upgrade lands on a release branch — say if you want it the other way.</p>
   </div>
 </div>
 
