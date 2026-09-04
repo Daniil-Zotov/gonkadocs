@@ -2,7 +2,7 @@
 title: "#1692 — Monitoring: public repository"
 source: https://github.com/gonka-ai/gonka/issues/1692
 issue_number: 1692
-synced_at: 2026-09-04T09:43:41Z
+synced_at: 2026-09-04T14:24:37Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-08-31 20:24 UTC</span>
-    <span class="issues-meta-item">2 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-03 05:06 UTC</span>
+    <span class="issues-meta-item">3 comments</span>
+    <span class="issues-meta-item">Updated 2026-09-04 14:12 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -31,7 +31,7 @@ When it is out:
 
 ---
 
-## 💬 Comments (2)
+## 💬 Comments (3)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -49,6 +49,18 @@ When it is out:
   </div>
   <div class="issues-comment-body issues-content">
     <p>ty</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/baychak">@baychak</a></span>
+    <span class="issues-meta-item">commented 2026-09-04 14:12 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p><strong>Status:</strong> in progress
+<strong>Since last:</strong> repo is ready and was renamed — <code>kaitakuai/gonka-grafana</code> → <code>kaitakuai/gonka-monitoring</code> (the link in the description still points to the old name). Configuration only: compose file, two dashboards, scrape config, no code to build.
+<strong>Next:</strong> switching it to public after confirming with @clanster on today's sync — by 2026-09-05.</p>
+<p><strong>Q:</strong> the two boxes are a review, not a self-check — do you want someone on your side to run the stack, or should we verify and tick them ourselves?</p>
   </div>
 </div>
 

@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-09-04T09:46:16.706189+00:00",
+  "snapshot_time": "2026-09-04T14:28:35.863143+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "Description",
@@ -3520,13 +3520,14 @@
     "01692-monitoring-public-repository.md": {
       "title": "#1692 — Monitoring: public repository",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Monitoring: public repository\n    <span class=\"issues-number\">#1692</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-08-31 20:24 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-conten",
-      "comment_checksum": "c6ecacc194c6965dfc6a286db1a130afc0d196f36c4ba7c309c1ad1c04ca6e8a",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Monitoring: public repository\n    <span class=\"issues-number\">#1692</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-08-31 20:24 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-conten",
+      "comment_checksum": "07733c2e8c8736935dae6782767e609083c52dbb566ac9755277b8155e9d5022",
       "comment_bodies": [
         "TY!",
-        "ty"
+        "ty",
+        "Status: in progress Since last: repo is ready and was renamed — kaitakuai/gonka-grafana → kaitakuai/gonka-monitoring (the link in the description still points to the old name). Configuration only: compose file, two dashboards, scrape config, no code to build. Next: switching it to public after confirming with @clanster on today's sync — by 2026-09-05. Q: the two boxes are a review, not a self-chec"
       ],
-      "checksum": "1abc2ca26b7c122260d771189ed89bbc04ca51f37a70cb82212ac0531ec84ba6"
+      "checksum": "94f69e8c8a8945f72080a0a8d376e4f7fc3864e91e80ced23f3dec9bee51b14a"
     },
     "01695-proxy-rate-limiting-no-exemption-path-for-trusted-high-volum.md": {
       "title": "#1695 — Proxy rate limiting: no exemption path for trusted high-volume clients, and the tuning variables are not passed through in compose",
