@@ -2,7 +2,7 @@
 title: "#1692 — Monitoring: public repository"
 source: https://github.com/gonka-ai/gonka/issues/1692
 issue_number: 1692
-synced_at: 2026-09-04T14:24:37Z
+synced_at: 2026-09-04T17:40:21Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-08-31 20:24 UTC</span>
-    <span class="issues-meta-item">3 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-04 14:12 UTC</span>
+    <span class="issues-meta-item">4 comments</span>
+    <span class="issues-meta-item">Updated 2026-09-04 17:19 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -31,7 +31,7 @@ When it is out:
 
 ---
 
-## 💬 Comments (3)
+## 💬 Comments (4)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -57,10 +57,25 @@ When it is out:
     <span class="issues-meta-item">commented 2026-09-04 14:12 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p><strong>Status:</strong> in progress
-<strong>Since last:</strong> repo is ready and was renamed — <code>kaitakuai/gonka-grafana</code> → <code>kaitakuai/gonka-monitoring</code> (the link in the description still points to the old name). Configuration only: compose file, two dashboards, scrape config, no code to build.
-<strong>Next:</strong> switching it to public after confirming with @clanster on today's sync — by 2026-09-05.</p>
+    <p><strong>Status:</strong> in progress</p>
+<p><strong>Since last</strong></p>
+<ul>
+<li>Repo is ready and was renamed: <code>kaitakuai/gonka-grafana</code> → <code>kaitakuai/gonka-monitoring</code>. The link in the description still points to the old name.</li>
+<li>Configuration only — compose file, two dashboards, scrape config. No code to build.</li>
+</ul>
+<p><strong>Next:</strong> switching it to public after confirming with @clanster on today's sync — by 2026-09-05.</p>
 <p><strong>Q:</strong> the two boxes are a review, not a self-check — do you want someone on your side to run the stack, or should we verify and tick them ourselves?</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/clanster">@clanster</a></span>
+    <span class="issues-meta-item">commented 2026-09-04 16:13 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p><strong>Status:</strong> done
+<strong>Delivered:</strong> https://github.com/kaitakuai/gonka-monitoring (<code>c88f04f</code>). Hosted instance of the same stack, open to anyone: https://monitoring.kaitaku.ai/. Clean deploy on a fresh host: <code>docker compose up -d</code>, overview populated in ~3 min; 30 epoch participants discovered, 26 scraped, all panels on the three dashboards return data.
+<strong>Limitations:</strong> repo flips to public once @baychak switches visibility (org owner) — by 2026-09-05; 4 participants return 503 on <code>/v1/mlnodes/metrics</code> on their side; the link in the description points to the old repo name.</p>
   </div>
 </div>
 

@@ -2,7 +2,7 @@
 title: "#1691 — GLM 5.3 Flash: vLLM 0.28 image + PoC fix"
 source: https://github.com/gonka-ai/gonka/issues/1691
 issue_number: 1691
-synced_at: 2026-09-04T14:24:41Z
+synced_at: 2026-09-04T17:40:21Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-08-31 20:23 UTC</span>
-    <span class="issues-meta-item">2 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-03 05:07 UTC</span>
+    <span class="issues-meta-item">3 comments</span>
+    <span class="issues-meta-item">Updated 2026-09-04 14:44 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -90,7 +90,7 @@ The image is treated as delivered when this checklist is complete.
 
 ---
 
-## 💬 Comments (2)
+## 💬 Comments (3)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -108,6 +108,25 @@ The image is treated as delivered when this checklist is complete.
   </div>
   <div class="issues-comment-body issues-content">
     <p>ty</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/baychak">@baychak</a></span>
+    <span class="issues-meta-item">commented 2026-09-04 14:36 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p><strong>Status:</strong> in progress</p>
+<p><strong>Since last</strong></p>
+<ul>
+<li>Image built and exercised: <code>mlnode-{h100,b300}-glm-5-3-flash:0.2.14-vllm0.28-glm53-test-k3</code> — vLLM 0.28 + FlashInfer 0.6.18, <code>gonka_poc</code> 0.1.4, no source patches.</li>
+<li>Measured on 2×B300 TP=2, 4×B200 TP=4, 4×H200 TP=4, 8×H100 TP=8. Reports and raw nonces: <code>kaitakuai/experiments/2026-09/</code>.</li>
+<li>Memory budget: usable PoC batch ceiling is <strong>32</strong> on every arm — but for a different reason each: OOM on 8×H100, token budget on B300, indexer on B200.</li>
+<li>8×H100 does not start at the default <code>--gpu-memory-utilization</code>; it needs 0.95.</li>
+</ul>
+<p><strong>Next:</strong> sequencing agreed with @clanster on today's sync — update here by 2026-09-05.</p>
+<p><strong>Scope</strong></p>
+<p>This image targets GLM 5.3 Flash. On 2026-08-31 @Vladikshokoladick and I agreed to prepare it for GLM only and defer the other models, since re-verifying them means re-running everything on rented hardware. The four models above are therefore unchanged and unverified on this image. We propose checking them once the upgrade lands on a release branch — say if you want it the other way.</p>
   </div>
 </div>
 
