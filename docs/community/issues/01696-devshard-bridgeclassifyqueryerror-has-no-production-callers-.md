@@ -2,7 +2,7 @@
 title: "#1696 — devshard: bridge.ClassifyQueryError has no production callers, so transient chain-query failures return 500 instead of the intended retryable 503"
 source: https://github.com/gonka-ai/gonka/issues/1696
 issue_number: 1696
-synced_at: 2026-09-04T00:09:33Z
+synced_at: 2026-09-04T04:42:39Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/Ryanchen911">@Ryanchen911</a> opened 2026-09-01 08:25 UTC</span>
-    <span class="issues-meta-item">1 comment</span>
-    <span class="issues-meta-item">Updated 2026-09-03 18:50 UTC</span>
+    <span class="issues-meta-item">2 comments</span>
+    <span class="issues-meta-item">Updated 2026-09-04 00:13 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -151,7 +151,7 @@ Happy to open a PR for the bridge-boundary change if that direction is agreeable
 
 ---
 
-## 💬 Comments (1)
+## 💬 Comments (2)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -160,6 +160,15 @@ Happy to open a PR for the bridge-boundary change if that direction is agreeable
   </div>
   <div class="issues-comment-body issues-content">
     <p>@Ryanchen911 could you implement a fix please?</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/Ryanchen911">@Ryanchen911</a></span>
+    <span class="issues-meta-item">commented 2026-09-04 00:13 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>sure, I will take it!</p>
   </div>
 </div>
 
