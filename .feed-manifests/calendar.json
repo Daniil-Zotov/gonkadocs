@@ -1,6 +1,6 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-09-04T06:24:53.062375+00:00",
+  "snapshot_time": "2026-09-04T11:37:17.040846+00:00",
   "files": {
     "460d7b406a26039bca186ac074c0ac02e7130753a332dc8fe809420a0d5bbd6c": {
       "title": "AMA: Bitfury, HackerOne & Gonka — Bug Bounty Program Launch",
@@ -2126,14 +2126,14 @@
       "content_preview": "Increase the weight_scale_factor for deepseek-ai/DeepSeek-V4-Flash-0731 from 0.214 to 0.246. All other model and chain parameters remain unchanged.\n\nResubmission of proposal 97, which expired without …",
       "checksum": "a440b230280333f72b1a58b4271a9ca663807264aee49496d926066f102affc6"
     },
-    "2d2149c9f19372678313976dcadfd41848547bf1b6ecbf92428c8204f5d376bb": {
-      "title": "Voting ends: #99 – Support Gonka's presence at TOKEN2049 Singapore",
+    "84bdb55aa6d5f82e6c88f885aa6388581770f53bc5cb82724c1f163c5e3ebbb6": {
+      "title": "Passed: #99 – Support Gonka's presence at TOKEN2049 Singapore",
       "date": "2026-09-04",
       "time": "09:53 UTC",
-      "event_type": "proposal_vote_end",
+      "event_type": "proposal_report",
       "url": "/proposals/proposals/2026-q3/99/",
       "content_preview": "6Block proposes that the Gonka community allocate 100,000 USDT from the Community Pool to support Gonka's participation at TOKEN2049 Singapore 2026, taking place on 7-8 October 2026 at Marina Bay Sand…",
-      "checksum": "7e1862fd04835393e9a66a1b818487cb844dcfe47ad78f10e1af8dcb3fefde8e"
+      "checksum": "762dc53141f39a915df57581b255c942d901cbf4cbe30f65b9bbc4a90a23b649"
     }
   }
 }
