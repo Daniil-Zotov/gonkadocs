@@ -2,7 +2,7 @@
 title: "#933 — AdjustWeightsByCollateral missing baseWeightRatio range validation — weight inflation for uncollateralized participants"
 source: https://github.com/gonka-ai/gonka/issues/933
 issue_number: 933
-synced_at: 2026-09-04T23:05:48Z
+synced_at: 2026-09-05T01:05:24Z
 template: issues-main.html
 ---
 

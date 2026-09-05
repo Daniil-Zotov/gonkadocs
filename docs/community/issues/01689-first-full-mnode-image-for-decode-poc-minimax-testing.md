@@ -2,7 +2,7 @@
 title: "#1689 — First full MNode image for Decode PoC (MiniMax): testing"
 source: https://github.com/gonka-ai/gonka/issues/1689
 issue_number: 1689
-synced_at: 2026-09-04T23:04:48Z
+synced_at: 2026-09-05T01:04:04Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-08-31 20:20 UTC</span>
-    <span class="issues-meta-item">2 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-03 05:14 UTC</span>
+    <span class="issues-meta-item">3 comments</span>
+    <span class="issues-meta-item">Updated 2026-09-04 23:34 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -119,7 +119,7 @@ Scenario 8 is the idle baseline (both PoCs off, no inference). If it is not a me
 
 ---
 
-## 💬 Comments (2)
+## 💬 Comments (3)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -137,6 +137,23 @@ Scenario 8 is the idle baseline (both PoCs off, no inference). If it is not a me
   </div>
   <div class="issues-comment-body issues-content">
     <p>ty</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/baychak">@baychak</a></span>
+    <span class="issues-meta-item">commented 2026-09-04 23:19 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p><strong>Dependency:</strong> blocked by <a href="https://github.com/gonka-ai/gonka/issues/1688">#1688</a>. @tcharchian — this changes the ordering.</p>
+<p><strong>Why</strong></p>
+<ul>
+<li>Acceptance here is the acceptance of a frozen algorithm: 19 scenarios, each in self-validation and cross-device validation. Cross-device results depend on every consensus constant (expert seeding, ladder base, artifact payload, admission behaviour) — a change after the run invalidates the whole matrix.</li>
+<li>Two items on <a href="https://github.com/gonka-ai/gonka/issues/1688">#1688</a> would still change those constants: whether the old prefill PoC stays behind a flag, and sign-off on the constants themselves (<a href="https://github.com/axeltec-gonka">@axeltec-gonka</a>, not given).</li>
+<li>The image is built from <a href="https://github.com/gonka-ai/vllm/pull/100">gonka-ai/vllm#100</a> and <a href="https://github.com/gonka-ai/gonka-vllm-plugins/pull/8">gonka-ai/gonka-vllm-plugins#8</a>; neither has landed in the intake branches.</li>
+</ul>
+<p><strong>Can run before that, as smoke rather than acceptance:</strong> image build, boot/crash checks, old PoC after Decode PoC (scenarios 13-17), ON/OFF cycles without inference.</p>
+<p><strong>Next:</strong> smoke set starts after the <a href="https://github.com/gonka-ai/gonka-vllm-plugins/pull/8">gonka-ai/gonka-vllm-plugins#8</a> refresh, 2026-09-05. The acceptance matrix is scheduled here the day <a href="https://github.com/gonka-ai/gonka/issues/1688">#1688</a> closes. Status update every Monday, next 2026-09-07.</p>
   </div>
 </div>
 

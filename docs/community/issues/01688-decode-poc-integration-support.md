@@ -2,7 +2,7 @@
 title: "#1688 — Decode PoC: integration support"
 source: https://github.com/gonka-ai/gonka/issues/1688
 issue_number: 1688
-synced_at: 2026-09-04T23:04:45Z
+synced_at: 2026-09-05T01:04:07Z
 template: issues-main.html
 ---
 

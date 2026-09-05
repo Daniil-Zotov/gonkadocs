@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-09-04T23:07:19.309035+00:00",
+  "snapshot_time": "2026-09-05T01:08:10.184966+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "Description",
@@ -3488,24 +3488,26 @@
     "01689-first-full-mnode-image-for-decode-poc-minimax-testing.md": {
       "title": "#1689 — First full MNode image for Decode PoC (MiniMax): testing",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    First full MNode image for Decode PoC (MiniMax): testing\n    <span class=\"issues-number\">#1689</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-08-31 20:20 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>",
-      "comment_checksum": "c6ecacc194c6965dfc6a286db1a130afc0d196f36c4ba7c309c1ad1c04ca6e8a",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    First full MNode image for Decode PoC (MiniMax): testing\n    <span class=\"issues-number\">#1689</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-08-31 20:20 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>",
+      "comment_checksum": "65f18c911ea434b74c1191e47d404a89dcdbd7691c3dd5cf66bd8cf6aadf2820",
       "comment_bodies": [
         "TY!",
-        "ty"
+        "ty",
+        "Dependency: blocked by #1688. @tcharchian — this changes the ordering. Why Acceptance here is the acceptance of a frozen algorithm: 19 scenarios, each in self-validation and cross-device validation. Cross-device results depend on every consensus constant (expert seeding, ladder base, artifact payload, admission behaviour) — a change after the run invalidates the whole matrix. Two items on #1688 wo"
       ],
-      "checksum": "e1b5ed6c4fc67a8c00848875f872e6fd35bec91fac86941d069720713e0630a3"
+      "checksum": "42508d10f2f245d2ef6b1b258b7b0e7ce52071d7fee2de7a47c6a14ab6fc05b1"
     },
     "01690-first-full-mnode-image-for-decode-poc-deepseek-testing-coeff.md": {
       "title": "#1690 — First full MNode image for Decode PoC (DeepSeek): testing + coefficients",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    First full MNode image for Decode PoC (DeepSeek): testing + coefficients\n    <span class=\"issues-number\">#1690</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-08-31 20:21 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px",
-      "comment_checksum": "c6ecacc194c6965dfc6a286db1a130afc0d196f36c4ba7c309c1ad1c04ca6e8a",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    First full MNode image for Decode PoC (DeepSeek): testing + coefficients\n    <span class=\"issues-number\">#1690</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-08-31 20:21 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px",
+      "comment_checksum": "79cc225ced378ea5ad313898159fb866e169460334fc943808453fcace2d923f",
       "comment_bodies": [
         "TY!",
-        "ty"
+        "ty",
+        "Dependency: not blocked by #1688. @tcharchian — for the ordering. The DeepSeek seeding scheme lives on this issue. #1688 says so: the scheme fix itself is #1690. Blocking this issue on it would be circular: #1689 waits on the algorithm freeze, and that freeze includes this scheme. The work is not blocked; publishing the numbers is. The scheme change for the hash-routed layers (pseudo token ids for"
       ],
-      "checksum": "cf215476a7c23e20c1359c7e7b237071e644ba47a40702357937176d87be7a02"
+      "checksum": "2019187d13a473fd0622f027ada49a618107c1aa1392a88b2ca51e6471076f25"
     },
     "01691-glm-53-flash-vllm-028-image-poc-fix.md": {
       "title": "#1691 — GLM 5.3 Flash: vLLM 0.28 image + PoC fix",
@@ -3581,6 +3583,14 @@
       "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "comment_bodies": [],
       "checksum": "d805f2329304de8680721e15d75060352c45fb99790c7e741fddf4788945b7a0"
+    },
+    "01719-harden-ecies-primitive-restore-curve-validation-and-reject-s.md": {
+      "title": "#1719 — Harden ECIES primitive: restore curve validation and reject short ciphertexts",
+      "status": null,
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Harden ECIES primitive: restore curve validation and reject short ciphertexts\n    <span class=\"issues-number\">#1719</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-04 23:26 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top",
+      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comment_bodies": [],
+      "checksum": "17ad6293a2485a9b9da40872fe0d605458bd666efacc499dd21a397e22c16e62"
     }
   }
 }

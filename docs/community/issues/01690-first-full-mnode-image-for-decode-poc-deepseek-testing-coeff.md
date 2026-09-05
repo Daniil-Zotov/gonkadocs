@@ -2,7 +2,7 @@
 title: "#1690 — First full MNode image for Decode PoC (DeepSeek): testing + coefficients"
 source: https://github.com/gonka-ai/gonka/issues/1690
 issue_number: 1690
-synced_at: 2026-09-04T23:04:47Z
+synced_at: 2026-09-05T01:04:04Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-08-31 20:21 UTC</span>
-    <span class="issues-meta-item">2 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-03 05:17 UTC</span>
+    <span class="issues-meta-item">3 comments</span>
+    <span class="issues-meta-item">Updated 2026-09-04 23:33 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -56,7 +56,7 @@ Confirm the live on-chain id from poc_params.models if it has drifted. Target:
 
 ---
 
-## 💬 Comments (2)
+## 💬 Comments (3)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -74,6 +74,23 @@ Confirm the live on-chain id from poc_params.models if it has drifted. Target:
   </div>
   <div class="issues-comment-body issues-content">
     <p>ty</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/baychak">@baychak</a></span>
+    <span class="issues-meta-item">commented 2026-09-04 23:19 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p><strong>Dependency:</strong> not blocked by <a href="https://github.com/gonka-ai/gonka/issues/1688">#1688</a>. @tcharchian — for the ordering.</p>
+<ul>
+<li>The DeepSeek seeding scheme lives on this issue. <a href="https://github.com/gonka-ai/gonka/issues/1688">#1688</a> says so: <code>the scheme fix itself is #1690</code>.</li>
+<li>Blocking this issue on it would be circular: <a href="https://github.com/gonka-ai/gonka/issues/1689">#1689</a> waits on the algorithm freeze, and that freeze includes this scheme.</li>
+<li>The work is not blocked; publishing the numbers is. The scheme change for the hash-routed layers (pseudo token ids for the seeded decode steps, natural gate logits on those layers) and the tau-grid thresholds on vLLM 0.25.1 are measured on our forks.</li>
+<li>Thresholds are posted here after the scheme note is written and the constants are signed off. They are consensus parameters, and we do not publish them before they are on chain.</li>
+</ul>
+<p>Ordering inside this issue is unchanged: thresholds count as done only after the seeding scheme is fixed and written up.</p>
+<p><strong>Next:</strong> scheme note for the hash-routed layers, on this issue by 2026-09-08. Status update every Monday, next 2026-09-07.</p>
   </div>
 </div>
 
