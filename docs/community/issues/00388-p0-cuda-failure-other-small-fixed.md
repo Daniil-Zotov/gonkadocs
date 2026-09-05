@@ -2,7 +2,7 @@
 title: "#388 — [P0]: Cuda failure + other small fixed"
 source: https://github.com/gonka-ai/gonka/issues/388
 issue_number: 388
-synced_at: 2026-09-05T05:53:29Z
+synced_at: 2026-09-05T10:46:04Z
 template: issues-main.html
 ---
 
