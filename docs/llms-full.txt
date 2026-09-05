@@ -1672,7 +1672,9 @@ After a restart, the issue should not recur.
  
 	`main` includes v0.2.10-post6. Nodes starting from this version apply this setting automatically, so you typically won’t need to change it manually.
 
-## Inference 
+## Inference
+
+    Several answers below discuss `moonshotai/Kimi-K2.6` request-shape details from when that model was served. That model is currently not served — query `/v1/epochs/current/participants` and the broker’s `GET /v1/models`. Governance listing is not live serving. `Qwen/Qwen3-235B-A22B-Instruct-2507-FP8` was removed by proposal 78.
 
 ### Why does the 4,096 output token limit cause the model to stall during thinking — returning zero tokens?
 
@@ -1798,7 +1800,7 @@ Half of the default budget goes to hidden thinking even for a trivial task — h
 
 **For Inference User:**
 
-- Tool-heavy / agentic flows without reasoning — `"thinking": {"type": "disabled"}` (Kimi) or `"enable_thinking": false` (Qwen, translated automatically).
+- Tool-heavy / agentic flows without reasoning — `"thinking": {"type": "disabled"}` (Kimi).
 - Complex reasoning — set `thinking_token_budget` explicitly (don't rely on the default `max_tokens / 2`).
 - If `thinking:disabled` still causes burn on your prompt — duplicate it with `thinking_token_budget: 0` explicitly.
 
@@ -1944,11 +1946,13 @@ The low-level vLLM fields `guided_json`, `guided_regex`, `guided_grammar`, `guid
 
 **The correct fields for structured output**
 
-| Field | Kimi K2.6 | Qwen3-235B | Notes |
-|------|-----------|------------|---------|
-| `response_format` (`type: "json_schema"` or `"json_object"`) | works | works | OpenAI standard. Reliable choice. Empirically verified on both models through a public broker. |
-| `structured_outputs` envelope (`json`/`regex`/`choice`/`grammar`/`structural_tag`/`json_object`) | HTTP 400 (network-wide reject) | HTTP 400 (network-wide reject) | PR #1215 (`StructuredOutputsValidator`) merged in the repository, but **not activated on production mainnet as of 2026-05-25**. Both brokers reject with an identical error: `"Chat completions parameter `structured_outputs` is currently rejected by the Gonka network"` — the error references the dev branch `dl/devshards-gateway-to-main`, not main. This is a **network-wide release lag**, not per-broker. The only reliable structured-output option today is `response_format` on Kimi K2.6 and Qwen3. |
-| Both at once (`response_format` + `structured_outputs`) | HTTP 400 | HTTP 400 / 502 (depends on the broker) | The gateway rejects the combo before vLLM (anchor `#reject-structured_outputs-with-response_format`). On vLLM 0.20.0 the fields are merged via `dataclasses.replace()` and violate exactly-one in `StructuredOutputsParams.__post_init__`. |
+`Qwen/Qwen3-235B-A22B-Instruct-2507-FP8` is no longer on mainnet (proposal 78, epoch 308). The table below is for `response_format` behavior on `moonshotai/Kimi-K2.6` when that model is served — confirm live capacity on the broker’s `GET /v1/models` before sending Kimi requests.
+
+| Field | Kimi K2.6 (when served) | Notes |
+|------|-----------|---------|
+| `response_format` (`type: "json_schema"` or `"json_object"`) | works | OpenAI standard. Reliable choice. Empirically verified through a public broker. |
+| `structured_outputs` envelope (`json`/`regex`/`choice`/`grammar`/`structural_tag`/`json_object`) | HTTP 400 (network-wide reject) | PR #1215 (`StructuredOutputsValidator`) merged in the repository, but **not activated on production mainnet as of 2026-05-25**. Brokers reject with: `"Chat completions parameter `structured_outputs` is currently rejected by the Gonka network"` — the error references the dev branch `dl/devshards-gateway-to-main`, not main. This is a **network-wide release lag**, not per-broker. The only reliable structured-output option today is `response_format`. |
+| Both at once (`response_format` + `structured_outputs`) | HTTP 400 / 502 (depends on the broker) | The gateway rejects the combo before vLLM (anchor `#reject-structured_outputs-with-response_format`). On vLLM 0.20.0 the fields are merged via `dataclasses.replace()` and violate exactly-one in `StructuredOutputsParams.__post_init__`. |
 
 **For Inference User:**
 
@@ -1958,7 +1962,7 @@ The low-level vLLM fields `guided_json`, `guided_regex`, `guided_grammar`, `guid
 **For Broker:**
 
 - Guided decoding doesn't raise throughput. Don't promise it to clients as a solution for the token cap.
-- Watch for the rollout of PR #1215 (`StructuredOutputsValidator`) on all routes — Qwen3 users are already waiting for the `structured_outputs` envelope for regex / choice / grammar workloads.
+- Watch for the rollout of PR #1215 (`StructuredOutputsValidator`) on all routes — clients that need regex / choice / grammar structured output are waiting for the `structured_outputs` envelope.
 
 ### Why does generation speed fluctuate so drastically? And why does the boost apply only to reasoning tokens?
 
@@ -2003,17 +2007,17 @@ Kimi with thinking enabled first generates a bulky `reasoning_content` (hundreds
 
 **For Broker:**
 
-Where exactly the difference comes from (per internal benchmarks from [`kaitakuai/experiments`](https://github.com/kaitakuai/experiments) — not measured on gonka-api.org or gonkagate.com):
+Where exactly the difference comes from (per internal benchmarks from [`kaitakuai/experiments`](https://github.com/kaitakuai/experiments) — not measured on gonka-api.org or gonkagate.com). The Qwen3-235B numbers below are **historical**: that model was retired from mainnet at epoch 308 (proposal 78) and is not served today.
 
-| GPU | Memory | sm | Qwen3-235B nonces/min per instance | Per-GPU |
+| GPU | Memory | sm | Qwen3-235B nonces/min per instance (historical) | Per-GPU |
 |-----|--------|-----|------------------------------|---------|
 | 4×H100 SXM5 | 80 GB HBM3 | 90 | **1,248** @ batch=16 | ~312 |
 | 4×H200 | 141 GB HBM3e | 90 | **1,408** @ batch=32–64 | ~352 |
 | 2×B200 | 192 GB HBM3e | 100 | **1,984** @ batch=64 | **~992** |
 
 - **H200 vs H100:** +13% per-GPU. Same chip (sm_90), but HBM3e + 141 GB vs HBM3 + 80 GB → allows a smaller TP for large models and a faster KV cache.
-- **B200/B300 vs H100/H200:** **~3× per-GPU** on Qwen3-235B FP8.
-- **Kimi-K2.6 INT4 — specific numbers:** 4×B200 gives 2,240 nonces/min = **~560 per-GPU** (see `experiments/2026-05/kimi_k26_int4_4xb200_q-int4-k2`). 16×H100 TP gives 1,389 nonces/min = **~87 per-GPU** (see `experiments/2026-05/kimi-k26-int4-2x8xh100`). The difference on a per-GPU basis is roughly 6×; in absolute numbers, per-GPU Kimi is slower than Qwen on the same hardware (4×B200 Kimi INT4 ~560 per-GPU vs Qwen ~992 per-GPU).
+- **B200/B300 vs H100/H200:** **~3× per-GPU** on the historical Qwen3-235B FP8 baseline.
+- **Kimi-K2.6 INT4 — specific numbers:** 4×B200 gives 2,240 nonces/min = **~560 per-GPU** (see `experiments/2026-05/kimi_k26_int4_4xb200_q-int4-k2`). 16×H100 TP gives 1,389 nonces/min = **~87 per-GPU** (see `experiments/2026-05/kimi-k26-int4-2x8xh100`). The difference on a per-GPU basis is roughly 6×; in absolute numbers, per-GPU Kimi was slower than historical Qwen on the same hardware (4×B200 Kimi INT4 ~560 per-GPU vs Qwen ~992 per-GPU).
 - **Kimi-K2.6 INT4 on Blackwell:** `VLLM_USE_FLASHINFER_MOE_INT4=1` gives **+138% vs Marlin** (A/B test in `experiments/2026-05/kimi_k26_b300_eager_flashinfer`). Applicable only to INT4 MoE workloads on the Blackwell family (kernel gate — `is_device_capability_family(100)`, covers B100/B200/B300; B300 is effectively sm_103a).
 
 **Tracing and diagnostics:** observability was merged in [PR #1046 "Implement dapi & devshard observability"](https://github.com/gonka-ai/gonka/pull/1046) — it adds OpenTelemetry traces, Prometheus metrics, and dashboards. If Grafana has no per-host TTFT panels — check that DAPI / devshard are updated and the dashboards are included in the build.
@@ -2092,13 +2096,13 @@ Three causes; the client can work around two, but not the third.
 
 ### Is there a model that handles both input and output without trade-offs?
 
-**MiniMax-M2.7** launched on mainnet ~2026-05-28 via the chain governance upgrade v0.2.13 — Gonka's third model. Verified live on both brokers. Clarification: "Qwen output cap 8,192" in the question is inaccurate — the output cap is the same for all models (3,072 / 4,096, Q3), not model-side.
+**MiniMax-M2.7** launched on mainnet ~2026-05-28 via the chain governance upgrade v0.2.13. Verified live on both brokers. Clarification: "Qwen output cap 8,192" in the question is inaccurate — the output cap is the same for all models (3,072 / 4,096, Q3), not model-side. `Qwen/Qwen3-235B-A22B-Instruct-2507-FP8` itself is **not on mainnet** (removed by proposal 78 at epoch 308). `moonshotai/Kimi-K2.6` remains in governance params and is currently not served — check the broker’s `GET /v1/models`.
 
 | Model | Native context | Mainnet | Native thinking | Tool calls |
 |--------|---------------|---------|-----------------|------------|
-| Kimi-K2.6 | 256K | 240K | yes (chat_template_kwargs) | `functions.:` |
-| Qwen3-235B-A22B-Instruct-2507-FP8 | 128K | 240K | no (Instruct) | hermes parser |
 | MiniMax-M2.7 | ~180K | 180K | yes (`` in content) | `chatcmpl-tool-` |
+| DeepSeek-V4-Flash-0731 | — | 400K | yes (`deepseek_v4` parser) | `deepseek_v4` parser |
+| Kimi-K2.6 | 256K | 240K | yes (chat_template_kwargs) | `functions.:` |
 
 **MiniMax deploy spec (`inference-chain/app/upgrades/v0_2_13/upgrades.go:minimaxGovernanceModel()`):**
 
@@ -2111,14 +2115,14 @@ minimaxStartEpoch: 271
 HfCommit: d494266a4affc0d2995ba1fa35c8481cbd84294b
 ```
 
-**Important differences of MiniMax from Kimi/Qwen:**
+**Important differences of MiniMax from Kimi:**
 
 - **`` blocks in `delta.content`** (not in `reasoning_content` like Kimi) — behavior of the `minimax_m2_append_think` parser. Parse the tags client-side if you don't need them in the final text.
 - **Tool-call IDs `chatcmpl-tool-`** — already unique by shape, so the Q5 advice about canonical id rewriting doesn't apply.
 
 Related artifacts: PR #1163 Weight Scaling (merged 2026-05-13, aligned the economics with Kimi); PR [#1226](https://github.com/gonka-ai/gonka/pull/1226) (open, not merged) — a gateway-side refactor on top of the deployed model, not a blocker.
 
-**For Inference User:** MiniMax-M2.7 is available **today** (ID `MiniMaxAI/MiniMax-M2.7` on gonka-api.org, `minimaxai/minimax-m2.7` on gonkagate.com — see case-sensitivity Q1). Choose by workload: Kimi for reasoning+tools, Qwen3 for large context + structured outputs, MiniMax-M2.7 — a tool-friendly alternative to Kimi with better throughput.
+**For Inference User:** MiniMax-M2.7 ID is `MiniMaxAI/MiniMax-M2.7` on gonka-api.org, `minimaxai/minimax-m2.7` on gonkagate.com — see case-sensitivity Q1. Choose among models the broker actually lists on `GET /v1/models`. Do not send `Qwen/Qwen3-235B-A22B-Instruct-2507-FP8`.
 
 **For Broker:** the deploy was done by the network via the v0.2.13 upgrade. Not serving MiniMax — check that the mlnode-image supports the deploy args above and the hosts are updated. PR #1226 (open) will improve the UX (per-model dispatch, tool-message shape), but doesn't block.
 
@@ -2219,7 +2223,7 @@ Even when vLLM #33264 merges and the gateway adds a hash → `cache_salt` bridge
 
 **Target:** v0.2.14+, but there's no committed timeline; blocked by issue #1198 (independent validation, up-for-grabs).
 
-**What's empirically confirmed today:** a request with a `messages[0].content` array containing `{type:"image_url"}` returns HTTP 400 on both routes (Kimi and Qwen3). Multimodal inputs are not accepted at the gateway level.
+**What's empirically confirmed today:** a request with a `messages[0].content` array containing `{type:"image_url"}` returns HTTP 400 (verified on Kimi). Multimodal inputs are not accepted at the gateway level.
 
 **For Inference User:** not available today.
 
@@ -2754,6 +2758,9 @@ This collaboration allows the platform to offer AI services at significantly low
 ## Model licenses
 
 # Model licenses
+
+This page is a list of model licenses. It does not say whether a model is on Gonka now, was served in the past, or was never deployed. For the live governance set, query `GET /v1/governance/models`.
+
 - [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1/blob/main/LICENSE)
 - [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3/blob/main/LICENSE-MODEL)
 - [DeepSeek-V4-Flash](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731/blob/main/LICENSE)
@@ -11518,7 +11525,7 @@ If you are not redirected automatically, please [click here](/docs/#hosts).
 ## Intro
 Effective GPU utilization is critical for deploying large language models. Gonka Nodes utilize a customized vLLM inference engine that supports both high-performance inference and its validation.
 
-To achieve the best results, vLLM requires careful, server-specific configuration. The optimal performance depends on both GPUs' characteristics and the speed of cross-GPU data transfer. This guide provides instructions on how to select vLLM parameters using the Qwen/Qwen3-32B-FP8 model as an example. We will also describe which parameters can be tuned for optimal performance without affecting validation and which parameters must remain unchanged.
+To achieve the best results, vLLM requires careful, server-specific configuration. The optimal performance depends on both GPUs' characteristics and the speed of cross-GPU data transfer. This guide provides instructions on how to select vLLM parameters using the `Qwen/Qwen3-32B-FP8` model as a **worked example**. That model is not a current mainnet PoC model — copy the tuning method, then apply it to a governance-approved model from the [Host Quickstart](./quickstart.md). The guide also covers which parameters can be tuned for optimal performance without affecting validation and which parameters must remain unchanged.
 
 > **Performance vs. correctness**
     This guide is about **performance tuning** (`compressa-perf`, TP / PP). To validate that your deployment produces honest PoC vectors matching the golden reference for the target model, see [Validate ML Node Deployment](./mlnode-validation.md) (`mlnode-validate` skill in the [`gonka` repo](https://github.com/gonka-ai/gonka)).
@@ -11679,7 +11686,7 @@ We have deployed the `MLNode` container to this server, with the following port 
 - API management port (default 8080) is mapped to `http://24.124.32.70:46195`
 - Inference port (default 5000) is mapped to `http://24.124.32.70:46085`
 
-For this example, we'll use the `Qwen/Qwen3-32B-FP8` model, which is one of the models deployed at Gonka. It has the following mandatory parameters:
+This example uses the `Qwen/Qwen3-32B-FP8` model. It is **not** currently deployed on Gonka mainnet; it is only a worked example of the benchmark procedure. It has the following mandatory parameters:
 
 - `--kv-cache-dtype fp8`
 - `--quantization fp8`
@@ -12158,10 +12165,12 @@ DeepSeek V4 Flash is registered with `v_ram = 280` (about **280 GB of total VRAM
 - 8×B200 optimally yields **2.96×** weight running Kimi K2.6
 - 8×B300 optimally yields **3.37×** weight running DeepSeek V4 Flash
 
+A model's `weight_scale_factor` only produces consensus weight if that model group is eligible (has voting power). Check `poc_params` and `confirmation_weight_scales`.
+
 Practical implications:
 
 - **B300 owners**: DeepSeek is the highest-weight option under the current coefficient. Plan for vLLM 0.25.1 / MLNode 3.0.16 and the B300 node config.
-- **B200 owners**: Kimi K2.6 still yields the highest PoC weight on this class; DeepSeek is available via the B200 node config if you want to opt in.
+- **B200 owners**: DeepSeek and MiniMax both have B200 node configs. `moonshotai/Kimi-K2.6` is currently not served — confirm on `/v1/epochs/current/participants`.
 - **H200 / H100 owners**: MiniMax M2.7 remains the highest-weight model for these classes; DeepSeek configs exist, but switching is optional and not required for max weight.
 - Full coefficient table: [Google Sheet](https://docs.google.com/spreadsheets/d/1Tw4V7xEXR2p5MbCHqzqjS9vHXQ0eI1IHVXC6guEHnio/edit?gid=0#gid=0)
 
@@ -12963,11 +12972,16 @@ Company Participant:
 
 # Kimi K2.6 Bootstrap
 
-`moonshotai/Kimi-K2.6` has **passed bootstrap** and is **active** in Proof of Compute on Gonka mainnet. The timeline and transaction examples below remain useful for understanding how activation worked and for operations such as delegation; for current deployment defaults (including `node-config.json`), see the [Host Quickstart](./quickstart.md).
+`moonshotai/Kimi-K2.6` is in governance models and `poc_params` (since v0.2.12). It is currently not served: no host in `/v1/epochs/current/participants` lists it. The timeline below is the original bootstrap record (first eligible at epoch 251). For MiniMax/DeepSeek deploy defaults, see the [Host Quickstart](./quickstart.md).
 
-Epoch 251 was when the model group `moonshotai/Kimi-K2.6` became eligible.
+This document explains how a model group becomes eligible and how participation modes work.
 
-This document explains how to minimize the chance of weight reductions, whether or not the model gets enough participants.
+> **Governance listing is not eligibility**
+    Timeline steps below that mention `Qwen235B` are historical (the original Kimi bootstrap). `Qwen/Qwen3-235B-A22B-Instruct-2507-FP8` was removed by [proposal 78](../network-updates.md#june-25-2026) at epoch 308. Do not deploy it.
+
+    A model in `poc_params` with no voting power is a bootstrap candidate on the next PoC. Switching `node-config` does not restore consensus weight. Eligibility needs `V_min` established members and `W_threshold` (read live values from `poc_params`). Pre-eligibility is advisory — enough hosts can still become eligible by submitting that model's PoC — but one host is not enough.
+
+    Do **not** assume you must `refuse` a model that is not eligible. Regular miss/refuse penalties apply only to **eligible** groups. On the bootstrap path, an unmatched host is treated as NONE; `refuse` is not a bootstrap participation mode.
 
     The bootstrap can take multiple epochs, depending on how many participants are ready. Before activation, no weight reduction happens if participants submit their choice explicitly and hosts who are going to deploy submit `PoCIntent`.
 
@@ -13287,7 +13301,7 @@ MiniMax-M2.7 (FP8) requires **roughly 320 GB of total VRAM** per instance — a 
 
 - **A100 80GB owners**: MiniMax-M2.7 is the **first governance-approved model that fits the A100 80GB envelope**. If you previously could not host Kimi or Qwen-235B, you are now eligible to earn consensus weight via MiniMax. Recommended config: 8×A100 80GB with `tp=4` (two instances per host) or `tp=8` (one instance).
 - **H100 / H200 owners**: MiniMax-M2.7 is comparable to Qwen3-235B on consensus output (a few percent in either direction depending on workload mix) and clearly preferable to Kimi K2.6 after Kimi's coefficient adjustment in `v0.2.13`. Switching from Kimi to MiniMax is recommended; hosts previously on Qwen3-235B must switch to MiniMax, as Qwen3-235B has been retired by governance (proposal 78).
-- **B200 / B300 owners**: MiniMax-M2.7 runs well, but Kimi K2.6 retains a narrow consensus-output lead on flagship hardware. No change required if you already run Kimi.
+- **B200 / B300 owners**: MiniMax-M2.7 runs well. `moonshotai/Kimi-K2.6` is currently not served, so there is no live Kimi weight on this class — confirm on `/v1/epochs/current/participants`.
 
 ## Instructions for hosts who are going to deploy MiniMax-M2.7
 
@@ -13585,7 +13599,7 @@ Example ML Node configuration:
 ```
 
 > **Supported model and vLLM arguments**
-    The network currently supports three active PoC models: `MiniMaxAI/MiniMax-M2.7` (base), `moonshotai/Kimi-K2.6`, and `deepseek-ai/DeepSeek-V4-Flash-0731` (subject to governance decisions). Use the matching `node-config-*.json` from the [Host Quickstart](./quickstart.md). See the [Benchmark to Choose Optimal Deployment Config for LLMs guide.](https://gonka.ai/host/benchmark-to-choose-optimal-deployment-config-for-llms/)
+    Use the matching `node-config-*.json` from the [Host Quickstart](./quickstart.md). Confirm the model id against `GET /v1/governance/models`. Eligibility and live serving are separate from that catalog. `moonshotai/Kimi-K2.6` is currently not served. See the [Benchmark to Choose Optimal Deployment Config for LLMs guide.](https://gonka.ai/host/benchmark-to-choose-optimal-deployment-config-for-llms/)
 
 ---
 
@@ -13931,6 +13945,9 @@ Per [SKILL.md → Available golden references](https://github.com/gonka-ai/gonka
 
 The "Recording context" column describes the server that generated the vectors (FYI only — these flags are NOT a deploy default for your validation; see [Deploy config: from the caller, not the golden](#deploy-config-from-the-caller-not-the-golden) above).
 
+> **Qwen golden references are not mainnet models**
+    `Qwen/Qwen3-0.6B` is a local-dev fixture. `Qwen/Qwen3-235B-A22B-Instruct-2507-FP8` was removed from mainnet by [proposal 78](../network-updates.md#june-25-2026) (epoch 308). Those artifacts remain in the repo for historical / local checks. Hosts joining mainnet should validate the model they actually deploy. A Kimi K2.6 golden reference is in the repo for that layout.
+
 | Model | Filename | Vectors | Recording context |
 |-------|----------|---------|-------------------|
 | `Qwen/Qwen3-0.6B` | `qwen-qwen3-0.6b.json` | 32 | local dev / single GPU |
@@ -13939,15 +13956,15 @@ The "Recording context" column describes the server that generated the vectors (
 | `moonshotai/Kimi-K2.6` (default lookup) | `moonshotai-kimi-k2.6.json` | 200 | tp=4 + expert-parallel, FLASHINFER_MLA attention, gpu-mem 0.95, max-model-len 240000, kimi_k2 tool/reasoning parsers, `--disable-custom-all-reduce`, `--trust-remote-code`. Recorded on 4xB200. |
 | `deepseek-ai/DeepSeek-V4-Flash-0731` (default lookup) | `deepseek-ai-deepseek-v4-flash-0731.json` | 1000 | tp=1, fp8 kv-cache, max-model-len 400000, `--tokenizer-mode deepseek_v4`, deepseek_v4 tool/reasoning parsers, `--trust-remote-code`. Recorded on 1xB300 (vLLM 0.25.1). On the [`vllm-0.25.1-upgrade`](https://github.com/gonka-ai/gonka/tree/vllm-0.25.1-upgrade/mlnode/packages/benchmarks/scripts/poc_validation/artifacts) branch. |
 
-For Qwen3-235B the same model id has multiple references, exercising different code paths (tp-size, MoE backend) — see SKILL.md for the recommended multi-run pattern.
+For Qwen3-235B the same model id has multiple references, exercising different code paths (tp-size, MoE backend) — see SKILL.md for the recommended multi-run pattern. That model is not on mainnet; use this only if you are reproducing a historical or local validation.
 
 ## Ready-made deploy configs in `deploy/join/`
 
 The repo ships `node-config-*.json` files matching common GPU classes. DeepSeek configs and MLNode 3.0.16 are on the [`vllm-0.25.1-upgrade`](https://github.com/gonka-ai/gonka/tree/vllm-0.25.1-upgrade/deploy/join) branch:
 
-- `deploy/join/node-config-qwen235B-B200.json`
-- `deploy/join/node-config-kimik26-B200.json`
-- `deploy/join/node-config-kimik26-H200.json`
+- `deploy/join/node-config-qwen235B-B200.json` (historical Qwen3-235B layout; that model is not on mainnet)
+- `deploy/join/node-config-kimik26-B200.json` (Kimi K2.6)
+- `deploy/join/node-config-kimik26-H200.json` (Kimi K2.6)
 - `deploy/join/node-config-minimaxm27-A100.json`
 - `deploy/join/node-config-minimaxm27-H100.json`
 - `deploy/join/node-config-minimaxm27-H200.json`
@@ -14015,14 +14032,16 @@ Multi-model Proof-of-Compute (PoC) arrived in v0.2.12 and expanded again in v0.2
 
 Before v0.2.12, the network operated a single enforced model: `Qwen/Qwen3-235B-A22B-Instruct-2507-FP8`. v0.2.12 added `moonshotai/Kimi-K2.6` as the second governance-approved model and introduced per-model participation, delegation, and penalty timing. v0.2.13 recalibrated model coefficients and added `MiniMaxAI/MiniMax-M2.7` as the third governance-approved model.
 
-As of epoch `308`, `Qwen/Qwen3-235B-A22B-Instruct-2507-FP8` has been retired by governance (proposal 78) and `MiniMaxAI/MiniMax-M2.7` is the base model. As of epoch `360` ([proposal 94](../network-updates.md#august-14-2026)), `deepseek-ai/DeepSeek-V4-Flash-0731` is also an active PoC model group. `poc_params.models` on mainnet contains:
+As of epoch `308`, `Qwen/Qwen3-235B-A22B-Instruct-2507-FP8` has been retired by governance (proposal 78) and `MiniMaxAI/MiniMax-M2.7` is the base model. As of epoch `360` ([proposal 94](../network-updates.md#august-14-2026)), `deepseek-ai/DeepSeek-V4-Flash-0731` is also a PoC model group. `poc_params.models` on mainnet contains:
 
-| `model_id` | Current mainnet status |
+| `model_id` | On-chain notes |
 |---|---|
-| `MiniMaxAI/MiniMax-M2.7` | Base model, active |
-| `moonshotai/Kimi-K2.6` | Active |
-| `deepseek-ai/DeepSeek-V4-Flash-0731` | Active (epoch 360; `weight_scale_factor = 0.246`) |
-| `zai-org/GLM-5.2-FP8` | Registered; not bootstrapped (`penalty_start_epoch = 500`) |
+| `MiniMaxAI/MiniMax-M2.7` | Base model since epoch 308 (proposal 78) |
+| `deepseek-ai/DeepSeek-V4-Flash-0731` | PoC group since epoch 360 (proposal 94). Coefficient is in `poc_params`. |
+| `moonshotai/Kimi-K2.6` | In `poc_params` since v0.2.12 (first eligible at epoch 251). Currently not served. |
+| `zai-org/GLM-5.2-FP8` | In `poc_params`. Bootstrap / penalty timing is `penalty_start_epoch` in params. |
+
+A model in `poc_params` is **eligible** for that epoch’s miss/refuse penalties only if it has voting power that meets `v_min` and `w_threshold`. A model's `weight_scale_factor` only produces consensus weight when that group is eligible. Models in `poc_params` with no voting power are bootstrap candidates on the next PoC. Check `poc_params` and the epoch’s `confirmation_weight_scales`. Live serving is a separate check: `/v1/epochs/current/participants` (`moonshotai/Kimi-K2.6` is currently not served). Do not infer either from the table above.
 
 Per-model `weight_scale_factor` and `penalty_start_epoch` change through governance too often to list here reliably. Always read them from a live `params` query on the chain you use:
 
@@ -14475,12 +14494,12 @@ export HF_HOME=/path/to/your/hf-cache
 ```
 
 Create a writable directory (e.g. `~/hf-cache`) and pre-load models if desired.
-The network currently supports three active PoC models: `MiniMaxAI/MiniMax-M2.7` (base), `moonshotai/Kimi-K2.6`, and `deepseek-ai/DeepSeek-V4-Flash-0731`. Download the model you will serve:
+Download the model you will deploy. Confirm it is in `GET /v1/governance/models`. Governance listing is not eligibility. `moonshotai/Kimi-K2.6` is currently not served — confirm on `/v1/epochs/current/participants`.
 
 ```
 huggingface-cli download MiniMaxAI/MiniMax-M2.7
-huggingface-cli download moonshotai/Kimi-K2.6
 huggingface-cli download deepseek-ai/DeepSeek-V4-Flash-0731 --revision 7872f01b1d1fe23eabc4c98b48bffcef5a386062
+huggingface-cli download moonshotai/Kimi-K2.6
 ```
 
 Model licenses: see [Model licenses](../model-licenses.md). DeepSeek V4 Flash is MIT.
@@ -14535,10 +14554,10 @@ curl -X POST http://localhost:9200/admin/v1/nodes \
 | `poc_port`       | The port which is used for **MLNode management**.   | `8080` (port mapped to `8080` of MLNode's `nginx`)                                                   |
 | `max_concurrent` | The **maximum number of concurrent inference requests** this node can handle.   | `500`                                                     |
 | `models`         | A **supported models** that the inference node can process.                              | (see below)    |
-| `model_name`         | The name of the model.                              | `MiniMaxAI/MiniMax-M2.7`, `moonshotai/Kimi-K2.6`, `deepseek-ai/DeepSeek-V4-Flash-0731`    |
+| `model_name`         | The name of the model.                              | `MiniMaxAI/MiniMax-M2.7`, `deepseek-ai/DeepSeek-V4-Flash-0731`, `moonshotai/Kimi-K2.6` (ids from `GET /v1/governance/models`)    |
 | `model_args`         | vLLM arguments for the inference of the model.                              | `"--tensor-parallel-size","4"`    |
 
-The network currently supports three active PoC models: `MiniMaxAI/MiniMax-M2.7` (base), `moonshotai/Kimi-K2.6`, and `deepseek-ai/DeepSeek-V4-Flash-0731`.
+Confirm the model id against `GET /v1/governance/models`. Eligibility (`confirmation_weight_scales`) and live serving (`/v1/epochs/current/participants`) are separate from that catalog. `moonshotai/Kimi-K2.6` is currently not served.
 
 To ensure correct setup and optimal performance, use the arguments that best match your model and GPU layout. Full `node-config.json` examples are in the [Host Quickstart](./quickstart.md).
 
@@ -15119,9 +15138,9 @@ The protocol supports **governance-approved** models for inference and Proof of 
 
 | Model ID | Role |
 |----------|------|
-| `MiniMaxAI/MiniMax-M2.7` | **MiniMax M2.7** — base model and an active PoC model on the network |
-| `moonshotai/Kimi-K2.6` | **Kimi K2.6** — active PoC model |
-| `deepseek-ai/DeepSeek-V4-Flash-0731` | **DeepSeek V4 Flash** — active PoC model (epoch 360; coefficient 0.246) |
+| `MiniMaxAI/MiniMax-M2.7` | **MiniMax M2.7** — base model (since proposal 78 / epoch 308) |
+| `deepseek-ai/DeepSeek-V4-Flash-0731` | **DeepSeek V4 Flash** — PoC model (since proposal 94 / epoch 360). Coefficient is in `poc_params`. |
+| `moonshotai/Kimi-K2.6` | **Kimi K2.6** — in governance / `poc_params` (since v0.2.12). Currently not served. |
 
 > **Authoritative model list (governance API)**
     Approved models can change between releases or epochs. **Before you edit `node-config.json`,** call the governance API and use each returned object’s `"id"` as the key under `"models"`:
@@ -15130,19 +15149,23 @@ The protocol supports **governance-approved** models for inference and Proof of 
     ```
     To list only model ids, pipe the response: `jq -r '.models[].id'`. If `node2.gonka.ai` is unreachable, use another participant’s public API base URL (scheme, host, and port). The response also includes network parameters such as `model_args`; the `node-config.json` examples later show typical `args` for common hardware—adjust for your GPUs and benchmarks.
 
-You typically run **one model per ML Node** in `node-config.json`. Hosts may operate separate ML Nodes (or fleets) for MiniMax, Kimi, and DeepSeek.
+You typically run **one model per ML Node** in `node-config.json`.
+
+Governance listing (`GET /v1/governance/models`, `poc_params.models`) is the approved catalog for every model. A model's `weight_scale_factor` only produces consensus weight if that group is eligible: voting power that meets `v_min` and `w_threshold`. Miss/refuse penalties apply only to eligible groups. A listed model with no voting power is a bootstrap candidate on the next PoC — switching `node-config` alone does not restore consensus weight. Check `poc_params` and the epoch’s `confirmation_weight_scales`. See [Multi-Model PoC](./multi_model_poc.md).
+
+Live serving is a separate check: `/v1/epochs/current/participants`. `moonshotai/Kimi-K2.6` is currently not served. To restore that group, see [Kimi K2.6 Bootstrap](./kimi-bootstrap.md).
 
 > **Reference deploy configs in the repo**
     DeepSeek V4 Flash configs, MiniMax `minimaxm27-*` configs, and MLNode **3.0.16** live on the [`vllm-0.25.1-upgrade`](https://github.com/gonka-ai/gonka/tree/vllm-0.25.1-upgrade/deploy/join) branch (not `main`). Copy the file that matches your hardware to `node-config.json` instead of writing one from scratch:
 
-    - **Kimi K2.6** — `deploy/join/node-config-kimik26-H200.json`, `deploy/join/node-config-kimik26-B200.json`
     - **MiniMax M2.7** — `deploy/join/node-config-minimaxm27-A100.json`, `deploy/join/node-config-minimaxm27-H100.json`, `deploy/join/node-config-minimaxm27-H200.json`, `deploy/join/node-config-minimaxm27-B200.json`, `deploy/join/node-config-minimaxm27-B300.json`
     - **DeepSeek V4 Flash** — `deploy/join/node-config-deepseekv4flash0731-H100.json`, `deploy/join/node-config-deepseekv4flash0731-H200.json`, `deploy/join/node-config-deepseekv4flash0731-B200.json`, `deploy/join/node-config-deepseekv4flash0731-B300.json`. On Blackwell, nvfp4 variants: `node-config-deepseekv4flash0731-B200-nvfp4.json`, `node-config-deepseekv4flash0731-B300-nvfp4.json`.
+    - **Kimi K2.6** — `deploy/join/node-config-kimik26-H200.json`, `deploy/join/node-config-kimik26-B200.json`
 
     The contents of these files are reproduced inline below for convenience.
 
 > **If you will not run every approved model**
-    Multi-model PoC tracks participation **per model**. If your hardware does **not** cover every governance-approved model, you will need on-chain **delegation** or **refusal** so your consensus weight is handled correctly for the models you skip. That is **not** required to bring a node online—you use the same **Account (cold) key** as in [Grant Permissions to ML Operational Key](#33-local-machine-grant-permissions-to-ml-operational-key), **after** registration and verification. Copy-paste commands are at the end: [Optional: PoC delegation and refusal](#optional-poc-delegation-and-refusal). For strategy and penalties, read [Multi-Model PoC — Host Operations Guide](./multi_model_poc.md).
+    Multi-model PoC tracks participation **per model**. For an **eligible** model you do not run, use on-chain **delegation** or **refusal**. Regular miss/refuse penalties apply only to eligible groups. A listed model with no voting power is a bootstrap candidate; `refuse` is not required and is not a bootstrap participation mode. Delegation/refusal is **not** required to bring a node online—you use the same **Account (cold) key** as in [Grant Permissions to ML Operational Key](#33-local-machine-grant-permissions-to-ml-operational-key), **after** registration and verification. Copy-paste commands are at the end: [Optional: PoC delegation and refusal](#optional-poc-delegation-and-refusal). For strategy and penalties, read [Multi-Model PoC — Host Operations Guide](./multi_model_poc.md). To restore a group that lost voting power, see [Kimi K2.6 Bootstrap](./kimi-bootstrap.md).
 
 > **Governance and model classification**
     - Models may be classified into a category if approved by governance.
@@ -15154,13 +15177,13 @@ To run a valid node, you need machines with [supported GPU(s)](/host/hardware-sp
 
 | **Model Name**                          | **ML Nodes (min)** | **Example Hardware**                            | **Minimum VRAM per ML Node** |
 |------------------------------------------|-------------------|-------------------------------------------------|----------------|
-| `moonshotai/Kimi-K2.6`                  | ≥ 2               | 8× H200 or 8× B200 per MLNode (reference class) | 720 GB         |
 | `MiniMaxAI/MiniMax-M2.7`                | ≥ 2               | 4× A100 / 4× H100 / 2× H200 / 2× B200 per MLNode | ~320 GB        |
 | `deepseek-ai/DeepSeek-V4-Flash-0731`    | ≥ 2               | 4× H100 / 2× H200 / 2× B200 / 1× B300 per MLNode | ~280 GB        |
+| `moonshotai/Kimi-K2.6`                  | ≥ 2               | 8× H200 or 8× B200 per MLNode (reference class) | 720 GB         |
 
 This is a reference architecture. You may adjust node count or hardware allocation, but we recommend following the core principle: each node should support multiple ML Nodes across all model tiers.
 
-Per-model `weight_scale_factor` values are set by governance. DeepSeek V4 Flash currently uses **0.246**; on B300 this is the highest-weight option, while MiniMax remains highest-weight on H100/H200 and Kimi on B200. See [DeepSeek V4 Flash Bootstrap](./deepseek-bootstrap.md) and the [coefficient table](https://docs.google.com/spreadsheets/d/1Tw4V7xEXR2p5MbCHqzqjS9vHXQ0eI1IHVXC6guEHnio/edit?gid=0#gid=0). Example vLLM arguments are in the `node-config.json` examples below.
+Per-model `weight_scale_factor` values are set by governance — read them from `poc_params`. A coefficient only produces consensus weight if that model group is eligible (has voting power). See [DeepSeek V4 Flash Bootstrap](./deepseek-bootstrap.md) and the [coefficient table](https://docs.google.com/spreadsheets/d/1Tw4V7xEXR2p5MbCHqzqjS9vHXQ0eI1IHVXC6guEHnio/edit?gid=0#gid=0). Example vLLM arguments are in the `node-config.json` examples below.
 
 More details about the optimal deployment configuration can be found [here](https://gonka.ai/host/benchmark-to-choose-optimal-deployment-config-for-llms/).
 
@@ -15547,9 +15570,14 @@ source config.env
 
 ### [Server] Edit Inference Node Description for the Server
 
-    The network currently supports three active PoC models: `MiniMaxAI/MiniMax-M2.7` (base), `moonshotai/Kimi-K2.6`, and `deepseek-ai/DeepSeek-V4-Flash-0731`. Pick the tab that matches the model and GPU class you will serve. The governance makes decisions on adding or modifying supported models. For details on how model governance works and how to propose new models, see the [Transactions and Governance Guide](https://gonka.ai/governance/transactions-and-governance/).
+    Pick the tab that matches the model and GPU class you will serve. Confirm the model is in `GET /v1/governance/models`. Eligibility (voting power, `confirmation_weight_scales`) and live serving (`/v1/epochs/current/participants`) are separate from that catalog. `moonshotai/Kimi-K2.6` is currently not served. The governance makes decisions on adding or modifying supported models. For details on how model governance works and how to propose new models, see the [Transactions and Governance Guide](https://gonka.ai/governance/transactions-and-governance/).
 
 === "Kimi — 4×B200 / 8×B200 (and 8×H200 reference class)"
+
+    !!! warning "Currently not served"
+        No host in `/v1/epochs/current/participants` lists `moonshotai/Kimi-K2.6`. These args are the last known deploy shape.
+
+        Eligibility is a separate, network-wide rule: a model in `poc_params` is not automatically eligible. Eligibility needs voting power that meets `v_min` / `w_threshold`. Without that, the next PoC treats the model as a bootstrap candidate — a single-host `node-config` switch does not restore consensus weight. See [Kimi K2.6 Bootstrap](./kimi-bootstrap.md).
 
     Use this vLLM argument set for **Kimi K2.6** on Blackwell **4×B200 or 8×B200**, and as the reference for **8×H200** on the same layout (`tensor_parallel_size` 4 with expert parallelism across eight GPUs). Adjust only if your stack or benchmarking requires it.
 
@@ -15902,13 +15930,15 @@ source config.env
 For more details on the optimal deployment configuration, please refer to [this link](https://gonka.ai/host/benchmark-to-choose-optimal-deployment-config-for-llms/).
 
 > **Validate the deployment**
-    The [`gonka` repo](https://github.com/gonka-ai/gonka) ships an agent skill, `mlnode-validate`, that validates an ML Node against pre-computed honest PoC vectors for a specific model. Committed golden references currently in the repo are Qwen3-0.6B, Qwen3-235B (default + DeepGEMM), Kimi K2.6, and DeepSeek V4 Flash (`deepseek-ai-deepseek-v4-flash-0731.json` on [`vllm-0.25.1-upgrade`](https://github.com/gonka-ai/gonka/tree/vllm-0.25.1-upgrade/mlnode/packages/benchmarks/scripts/poc_validation/artifacts)). See [Validate ML Node Deployment](./mlnode-validation.md).
+    The [`gonka` repo](https://github.com/gonka-ai/gonka) ships an agent skill, `mlnode-validate`, that validates an ML Node against pre-computed honest PoC vectors for a specific model. Use the golden reference that matches the model you deploy (MiniMax-M2.7, DeepSeek V4 Flash on [`vllm-0.25.1-upgrade`](https://github.com/gonka-ai/gonka/tree/vllm-0.25.1-upgrade/mlnode/packages/benchmarks/scripts/poc_validation/artifacts), or Kimi K2.6). Qwen3-0.6B / Qwen3-235B artifacts are historical and **not** mainnet models. See [Validate ML Node Deployment](./mlnode-validation.md).
 
 ### [Server] Pre-download Model Weights to Hugging Face Cache (HF_HOME)
 Inference nodes download model weights from Hugging Face.
 To make sure the model weights are ready for inference, you should download them before deployment.
 
 === "Kimi K2.6"
+
+    `moonshotai/Kimi-K2.6` is currently not served. Download it if deploying it (including to restore the group). A listed model with no voting power is a bootstrap candidate; a solo `node-config` switch does not restore consensus weight. See [Kimi K2.6 Bootstrap](./kimi-bootstrap.md).
 
     ```bash
     mkdir -p $HF_HOME
@@ -16332,23 +16362,7 @@ MY_ADDR="$(./inferenced keys show "$KEY" -a --keyring-backend "$KEYRING_BACKEND"
 ./inferenced query inference poc-delegation "$MY_ADDR" --node "$NODE" -o json
 ```
 
-**Delegate** — attach your weight for that model's PoC validation to `DELEGATEE` (their `gonka1…` address). Example for Kimi:
-
-```bash
-MODEL="moonshotai/Kimi-K2.6"
-DELEGATEE="gonka1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-
-./inferenced tx inference set-poc-delegation "$MODEL" "$DELEGATEE" \
-  --from "$KEY" \
-  --node "$NODE" \
-  --chain-id "$CHAIN_ID" \
-  --keyring-backend "$KEYRING_BACKEND" \
-  --gas auto \
-  --gas-adjustment 1.3 \
-  -y
-```
-
-Example for MiniMax (e.g. you run Kimi only on your GPUs):
+**Delegate** — attach your weight for that model's PoC validation to `DELEGATEE` (their `gonka1…` address). Example for MiniMax:
 
 ```bash
 MODEL="MiniMaxAI/MiniMax-M2.7"
@@ -16364,7 +16378,7 @@ DELEGATEE="gonka1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
   -y
 ```
 
-Example for DeepSeek (e.g. you run MiniMax or Kimi only on your GPUs):
+Example for DeepSeek (e.g. you run MiniMax only on your GPUs):
 
 ```bash
 MODEL="deepseek-ai/DeepSeek-V4-Flash-0731"
@@ -16383,7 +16397,7 @@ DELEGATEE="gonka1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 **Clear** a delegation for one model:
 
 ```bash
-MODEL="moonshotai/Kimi-K2.6"
+MODEL="deepseek-ai/DeepSeek-V4-Flash-0731"
 
 ./inferenced tx inference set-poc-delegation "$MODEL" "" \
   --from "$KEY" \
@@ -16395,10 +16409,10 @@ MODEL="moonshotai/Kimi-K2.6"
   -y
 ```
 
-**Refuse** delegation for one model (explicit on-chain “no”):
+**Refuse** delegation for one model (explicit on-chain “no”). Use this for an **eligible** model you do not run (for example DeepSeek if you only serve MiniMax). Regular refuse/miss penalties apply only to eligible groups.
 
 ```bash
-MODEL="moonshotai/Kimi-K2.6"
+MODEL="deepseek-ai/DeepSeek-V4-Flash-0731"
 
 ./inferenced tx inference refuse-poc-delegation "$MODEL" \
   --from "$KEY" \
@@ -29865,7 +29879,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-98 proposals across 5 quarters. Last updated: 2026-09-05 04:04 UTC
+98 proposals across 5 quarters. Last updated: 2026-09-05 04:20 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
