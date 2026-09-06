@@ -2,7 +2,7 @@
 title: "#593 — Fix tally voting"
 source: https://github.com/gonka-ai/gonka/issues/593
 issue_number: 593
-synced_at: 2026-09-06T14:16:15Z
+synced_at: 2026-09-06T17:11:29Z
 template: issues-main.html
 ---
 
