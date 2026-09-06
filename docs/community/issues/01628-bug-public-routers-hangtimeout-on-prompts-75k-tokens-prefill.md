@@ -2,7 +2,7 @@
 title: "#1628 — [BUG] Public routers hang/timeout on prompts ≥ ~7.5K tokens (prefill); 502 `all_providers_failed`; DeepSeek missing from /v1/models"
 source: https://github.com/gonka-ai/gonka/issues/1628
 issue_number: 1628
-synced_at: 2026-09-06T06:02:25Z
+synced_at: 2026-09-06T11:05:24Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/inecro1">@inecro1</a> opened 2026-08-23 12:28 UTC</span>
-    <span class="issues-meta-item">4 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-03 22:41 UTC</span>
+    <span class="issues-meta-item">5 comments</span>
+    <span class="issues-meta-item">Updated 2026-09-06 09:40 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -92,7 +92,7 @@ Threshold: failure is deterministic at ~7.5K prefill tokens and above. This is c
 
 ---
 
-## 💬 Comments (4)
+## 💬 Comments (5)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -212,6 +212,35 @@ EOF
 <p>If you still see a hang, please re-run that script against <code>https://api.openbroker.gonka.gg/v1/chat/completions</code> and <code>https://api.proxy.gonka.gg/v1/chat/completions</code>, and send UTC time + <code>x-request-id</code>. Happy to do a side-by-side (same applied for proxy.gonka.gg issues with correct api.proxy.gonka.gg path as per docs).</p>
 <p><em>Thank You for the report,</em></p>
 <p><strong>Gonka Labs team</strong></p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/inecro1">@inecro1</a></span>
+    <span class="issues-meta-item">commented 2026-09-06 09:40 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Hi @gonkalabs — follow-up from our side after your 2026-09-03 reply. We ran a side-by-side probe on 2026-09-06 09:14 UTC (same key, same model <code>deepseek-ai/DeepSeek-V4-Flash-0731</code>, <code>stream=true</code>/<code>false</code> as applicable) against all three paths.</p>
+<h3>api.opengonka.com/v1 (the router our key is issued for)</h3>
+<ul>
+<li><code>GET /v1/models</code> -&gt; <strong>200</strong> (~0.6s). Catalog now: <code>MiniMaxAI/MiniMax-M2.7</code>, <code>deepseek-ai/DeepSeek-V4-Flash-0731</code>, <code>moonshotai/Kimi-K2.6</code>, <code>zai-org/GLM-5.2-FP8</code>. Qwen is gone and DeepSeek is listed — the catalog part of the issue appears resolved on this router. ✅</li>
+<li>small prompt (stream) -&gt; <strong>200</strong> in 2.2s</li>
+<li>~7.7K prefill (stream) -&gt; <strong>timeout after 60s, zero bytes</strong> (no <code>x-request-id</code> in headers — they never arrived)</li>
+<li>~40K prefill (<code>"x"*160_000</code> system, non-stream, <code>max_tokens=5</code>, your exact repro) -&gt; <strong>timeout after 110s</strong> (<code>read operation timed out</code>)</li>
+<li>~40K prefill (stream) -&gt; <strong>timeout after 110s</strong></li>
+</ul>
+<p>So the ≥~7.5K prefill hang is still 100% reproducible on <code>api.opengonka.com</code> as of today.</p>
+<h3>api.proxy.gonka.gg/v1 and api.openbroker.gonka.gg/v1 (your paths)</h3>
+<ul>
+<li><code>GET /v1/models</code> -&gt; <strong>200</strong> on both (~0.4s; catalog on both: DeepSeek-V4-Flash-0731 + MiniMax-M2.7)</li>
+<li>chat/completions with our opengonka-issued <code>gnk-sk-…</code> key -&gt; <strong>401 Unauthorized</strong> (~0.2s) — the key is not accepted on your paths</li>
+<li>~7.7K and ~40K prefills with the same key -&gt; <strong>do NOT return 401 quickly</strong>: they hang 60–110s (<code>read</code>/<code>write operation timed out</code>) before any auth response</li>
+</ul>
+<h3>What this means / request</h3>
+<p>We cannot verify your "no hang on our paths" claim from this account: the routers use separate billing/key systems, and our key gets 401 on <code>proxy.gonka.gg</code> / <code>OpenBroker</code>. Two questions:
+1. Where do we obtain a key for <code>api.proxy.gonka.gg</code> / <code>api.openbroker.gonka.gg</code> (registration hub / docs page)? We'd like to run the exact repro with valid auth on your paths and close this out.
+2. Is the pre-auth hang on large bodies (60–110s instead of a fast 401) expected behavior on your gateways — i.e. is the full request body read/processed before authentication? If so, that still looks like a prefill-path problem worth a look.</p>
+<p>Happy to provide UTC times and full request bodies for any specific run you want to inspect.</p>
   </div>
 </div>
 

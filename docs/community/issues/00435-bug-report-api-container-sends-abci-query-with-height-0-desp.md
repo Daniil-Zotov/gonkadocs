@@ -2,7 +2,7 @@
 title: "#435 — Bug Report: api container sends abci_query with height: 0 despite being synced"
 source: https://github.com/gonka-ai/gonka/issues/435
 issue_number: 435
-synced_at: 2026-09-06T06:02:53Z
+synced_at: 2026-09-06T11:05:54Z
 template: issues-main.html
 ---
 
