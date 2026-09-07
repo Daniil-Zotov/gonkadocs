@@ -3,14 +3,14 @@ title: "#1619 — Phase out Kimi K2.6"
 source: https://github.com/gonka-ai/gonka/discussions/1619
 discussion_number: 1619
 category: general
-synced_at: 2026-09-07T16:24:23Z
+synced_at: 2026-09-07T20:30:12Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1619](https://github.com/gonka-ai/gonka/discussions/1619) every hour. 
 
 # Phase out Kimi K2.6
 
-**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :speech_balloon: General · **Создано:** 2026-08-21 01:09 UTC · **Обновлено:** 2026-09-02 07:39 UTC
+**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :speech_balloon: General · **Создано:** 2026-08-21 01:09 UTC · **Обновлено:** 2026-09-07 19:29 UTC
 
 ---
 
@@ -38,7 +38,7 @@ I suggest keeping this discussion about Kimi's fate open until August 30. Unless
 
 ---
 
-## 💬 Комментарии (6)
+## 💬 Комментарии (7)
 
 ### Комментарий 1 — [@theaungmyatmoe](https://github.com/theaungmyatmoe)
 
@@ -165,3 +165,17 @@ Especially since the new GLM Flash model requires the H100 and H200, which the M
 *2026-09-02 07:39 UTC*
 
 I agree, and we can add GLM 5.3 flash and Qwen 3.8 flash later.
+
+### Комментарий 7 — [@paranjko](https://github.com/paranjko)
+
+*2026-09-07 18:48 UTC*
+
+Kimi has officially left the building. 
+
+GLM 5.3 Flash vote, hopefully sometime this week.
+
+Thanks to Kimi for being with us.
+
+**↳ Ответ от [@theaungmyatmoe](https://github.com/theaungmyatmoe)** · *2026-09-07 19:29 UTC*
+
+> good

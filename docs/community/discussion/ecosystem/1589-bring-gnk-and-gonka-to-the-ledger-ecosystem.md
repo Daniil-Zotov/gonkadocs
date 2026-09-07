@@ -3,14 +3,14 @@ title: "#1589 — Bring GNK and Gonka to the Ledger Ecosystem"
 source: https://github.com/gonka-ai/gonka/discussions/1589
 discussion_number: 1589
 category: ecosystem
-synced_at: 2026-09-07T16:24:26Z
+synced_at: 2026-09-07T20:30:12Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1589](https://github.com/gonka-ai/gonka/discussions/1589) every hour. 
 
 # Bring GNK and Gonka to the Ledger Ecosystem
 
-**Автор:** [@Isabella0319](https://github.com/Isabella0319) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-08-13 09:09 UTC · **Обновлено:** 2026-08-24 08:36 UTC
+**Автор:** [@Isabella0319](https://github.com/Isabella0319) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-08-13 09:09 UTC · **Обновлено:** 2026-09-07 18:52 UTC
 
 ---
 
@@ -233,6 +233,12 @@ A few questions before voting:
 I like the idea, especially for visibility and UX, but $350k is a significant amount from so I think the expected ROI and commitments should be clear.
 
 Thanks. 
+
+**↳ Ответ от [@mp-gtm-gnk](https://github.com/mp-gtm-gnk)** · *2026-09-07 18:52 UTC*
+
+> I think that the Ledger Ecosystem is beneficial to Gonka, however, terms, ROI and KPI should reflect that value - I agree with the relevant questions above.
+>
+> In addition to that, could the Team elaborate on the possibility to vest the initial fee over 5 years with 1-year cliff to align better with Gonka interests?
 
 ### Комментарий 2 — [@OrbitKey](https://github.com/OrbitKey)
 

@@ -4,14 +4,14 @@ title: ":jigsaw: Ecosystem"
 
 # :jigsaw: Ecosystem
 
-Дискуссии в категории **:jigsaw: Ecosystem**. Всего: **8**. Обновлено: `2026-09-07 16:25 UTC`.
+Дискуссии в категории **:jigsaw: Ecosystem**. Всего: **8**. Обновлено: `2026-09-07 20:30 UTC`.
 
 [← ко всем категориям](../index.md)
 
 | # | Заголовок | Автор | Обновлено |
 |---:|---|---|---|
 | [1648](1648-running-our-own-devshard-gateway-plan-economics-and-what-hos.md) | [Running our own devshard gateway — plan, economics, and what hosts want to see for allowlisting](1648-running-our-own-devshard-gateway-plan-economics-and-what-hos.md) | [@theaungmyatmoe](https://github.com/theaungmyatmoe) | 2026-08-29 |
-| [1589](1589-bring-gnk-and-gonka-to-the-ledger-ecosystem.md) | [Bring GNK and Gonka to the Ledger Ecosystem](1589-bring-gnk-and-gonka-to-the-ledger-ecosystem.md) | [@Isabella0319](https://github.com/Isabella0319) | 2026-08-24 |
+| [1589](1589-bring-gnk-and-gonka-to-the-ledger-ecosystem.md) | [Bring GNK and Gonka to the Ledger Ecosystem](1589-bring-gnk-and-gonka-to-the-ledger-ecosystem.md) | [@Isabella0319](https://github.com/Isabella0319) | 2026-09-07 |
 | [1243](1243-project-funding-governance-and-management.md) | [Project funding governance and management](1243-project-funding-governance-and-management.md) | [@a-kuprin](https://github.com/a-kuprin) | 2026-08-05 |
 | [875](0875-automatic-node-provisioning-tool-exists.md) | [Automatic Node Provisioning Tool exists](0875-automatic-node-provisioning-tool-exists.md) | [@SegovChik](https://github.com/SegovChik) | 2026-08-05 |
 | [873](0873-outdated-optional-centralized-monitoring-for-gonka-validator.md) | [!OUTDATED! Optional Centralized Monitoring for Gonka Validators](0873-outdated-optional-centralized-monitoring-for-gonka-validator.md) | [@SegovChik](https://github.com/SegovChik) | 2026-08-05 |
