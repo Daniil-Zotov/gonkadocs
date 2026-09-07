@@ -2,7 +2,7 @@
 title: "#521 — Create a proxy endpoint that aggregates multiple internal RPC nodes behind a single public-facing address (for crypto wallets)"
 source: https://github.com/gonka-ai/gonka/issues/521
 issue_number: 521
-synced_at: 2026-09-07T00:02:51Z
+synced_at: 2026-09-07T04:53:43Z
 template: issues-main.html
 ---
 
