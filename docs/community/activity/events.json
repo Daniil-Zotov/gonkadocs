@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260907101006_db6d19c8",
+    "timestamp": "2026-09-07T10:10:06.592431+00:00",
+    "section": "discussions",
+    "action": "new",
+    "item": {
+      "title": "Community interest: adding GLM-5.3-Flash and Qwen3.8-Flash-Next to the lineup?",
+      "url": "/community/discussion/protocol-improvements/1721-community-interest-adding-glm-53-flash-and-qwen38-flash-next/",
+      "file": "protocol-improvements/1721-community-interest-adding-glm-53-flash-and-qwen38-flash-next.md"
+    },
+    "details": {
+      "status": null,
+      "content": "> 🔄 **Auto-sync:** from [Discussion #1721](https://github.com/gonka-ai/gonka/discussions/1721) every hour. \n\n# Community interest: adding GLM-5.3-Flash and Qwen3.8-Flash-Next to the lineup?\n\n**Автор:** [@Ryanchen911](https://github.com/Ryanchen911) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-09-07 09:47 UTC · \n\n---\n\n## 📝 Описание\n\nWould the community be interested in adding these two models to Gonka?\n\n- **GLM-5.3-Flash**\n- **Qwen3.8-Flash-Next** (qwen4exp)\n\nIf so, which one would you want prioritized first?"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260906110832_17eccd10",
     "timestamp": "2026-09-06T11:08:32.317691+00:00",
     "section": "issues",

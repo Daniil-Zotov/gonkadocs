@@ -4,7 +4,7 @@ title: "GitHub Discussions"
 
 # GitHub Discussions — `gonka-ai/gonka`
 
-Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **96**. Обновлено: `2026-09-07 04:25 UTC`.
+Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **97**. Обновлено: `2026-09-07 10:10 UTC`.
 
 ## 📂 Категории
 
@@ -14,7 +14,7 @@ title: "GitHub Discussions"
 | [:jigsaw: Ecosystem](ecosystem/index.md) | 8 |
 | [:speech_balloon: General](general/index.md) | 6 |
 | [:bookmark_tabs: Governance Proposal Reports](governance-proposal-reports/index.md) | 8 |
-| [:gear: Protocol Improvements](protocol-improvements/index.md) | 45 |
+| [:gear: Protocol Improvements](protocol-improvements/index.md) | 46 |
 | [:interrobang: Q&A](q-a/index.md) | 4 |
 | [:raised_hands: Show and Tell](show-and-tell/index.md) | 24 |
 
@@ -22,6 +22,7 @@ title: "GitHub Discussions"
 
 | # | Заголовок | Категория | Автор | Обновлено |
 |---:|---|---|---|---|
+| [1721](protocol-improvements/1721-community-interest-adding-glm-53-flash-and-qwen38-flash-next.md) | [Community interest: adding GLM-5.3-Flash and Qwen3.8-Flash-Next to the lineup?](protocol-improvements/1721-community-interest-adding-glm-53-flash-and-qwen38-flash-next.md) | :gear: Protocol Improvements | [@Ryanchen911](https://github.com/Ryanchen911) | 2026-09-07 |
 | [1711](show-and-tell/1711-gonka-labs-gonka-chat-wallet-to-wallet-messaging-on-gonka.md) | [Gonka Labs: Gonka Chat - Wallet-to-Wallet messaging on Gonka](show-and-tell/1711-gonka-labs-gonka-chat-wallet-to-wallet-messaging-on-gonka.md) | :raised_hands: Show and Tell | [@gonkalabs](https://github.com/gonkalabs) | 2026-09-03 |
 | [1710](show-and-tell/1710-gonka-labs-x402-on-gonka-payments-for-agents.md) | [Gonka Labs: x402 on Gonka - payments for Agents](show-and-tell/1710-gonka-labs-x402-on-gonka-payments-for-agents.md) | :raised_hands: Show and Tell | [@gonkalabs](https://github.com/gonkalabs) | 2026-09-03 |
 | [1685](protocol-improvements/1685-devshard-load-testing.md) | [Devshard Load Testing](protocol-improvements/1685-devshard-load-testing.md) | :gear: Protocol Improvements | [@aikuznetsov](https://github.com/aikuznetsov) | 2026-09-02 |
@@ -41,4 +42,3 @@ title: "GitHub Discussions"
 | [1477](governance-proposal-reports/1477-proposal-74-gonka-labs-monthly-report-no1.md) | [Proposal #74: Gonka Labs - Monthly Report No.1](governance-proposal-reports/1477-proposal-74-gonka-labs-monthly-report-no1.md) | :bookmark_tabs: Governance Proposal Reports | [@gonkalabs](https://github.com/gonkalabs) | 2026-08-05 |
 | [1540](governance-proposal-reports/1540-proposal-51-webx-asia-2026-post-event-report.md) | [Proposal #51: WebX Asia 2026 — Post-Event Report](governance-proposal-reports/1540-proposal-51-webx-asia-2026-post-event-report.md) | :bookmark_tabs: Governance Proposal Reports | [@Ryanchen911](https://github.com/Ryanchen911) | 2026-08-05 |
 | [864](ecosystem/0864-proposal-deploy-gonka-ai-web-platform-v1-to-production-appgo.md) | [Proposal: Deploy Gonka AI Web Platform v1 to Production (app.gonka.ai)](ecosystem/0864-proposal-deploy-gonka-ai-web-platform-v1-to-production-appgo.md) | :jigsaw: Ecosystem | [@zpoken](https://github.com/zpoken) | 2026-08-05 |
-| [816](ecosystem/0816-gonka-node-manager-automated-node-deployment-updates-and-mon.md) | [Gonka Node Manager — Automated Node Deployment, Updates, and Monitoring](ecosystem/0816-gonka-node-manager-automated-node-deployment-updates-and-mon.md) | :jigsaw: Ecosystem | [@ochenUmnayaKatyshka](https://github.com/ochenUmnayaKatyshka) | 2026-08-05 |
