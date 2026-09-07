@@ -2,7 +2,7 @@
 title: "#587 — Rewards: Epoch 117 + Bounty"
 source: https://github.com/gonka-ai/gonka/issues/587
 issue_number: 587
-synced_at: 2026-09-07T20:42:11Z
+synced_at: 2026-09-07T23:37:52Z
 template: issues-main.html
 ---
 
