@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-09-07T20:23:40.865111+00:00",
+  "snapshot_time": "2026-09-07T23:13:30.836613+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -12,7 +12,7 @@
       "title": "FAQ",
       "status": null,
       "content_preview": "# FAQ\n\n## Overview\n\n### What is Gonka?\nGonka is a decentralized network for high‑efficiency AI compute — run by those who run it. It functions as a cost-effective and efficient alternative to centralized cloud services for AI model training and inference. As a protocol, it's not a company or a start-up.\n\n- In terms of Blockchain, Gonka is the foundational ledger and coordination layer (L1) of the decentralized AI network. It records balances, transactions and cryptographic artifacts that prove Hosts have correctly performed AI work, while all actual computations (such as inference and training) happen off-chain.\n- In terms of Network, Gonka is a comprehensive ecosystem of participants, including Hosts and Developers that interact through a decentralized infrastructure. Powered by the Gonka",
-      "checksum": "b07f0340bd6ea390512525a0c7dcec0a94054b1c45c667ee4a53c345e3f48175"
+      "checksum": "6f951cba642ab6e40cb3fdf7e216182646ca47a3d4d91b3a5777adf7b987c490"
     },
     "architecture.md": {
       "title": "Architecture",
@@ -384,13 +384,13 @@
       "title": "Create a new Gonka account",
       "status": null,
       "content_preview": "# Create a new Gonka account\n\nTo start using Gonka Network, you first need to create a Gonka Account.\nThere are several ways to do this:\n\n- Via external wallet (Keplr, Cosmostation, Fox Wallet)\n- Via `inferenced` CLI tool\n\n!!! note \"Bridge compatibility and seed (mnemonic) phrases\"\n    If you create your Gonka account using a **mnemonic (seed) phrase** — as Cosmostation and Fox Wallet do by default — the account **is compatible** with the Ethereum bridge, but the bridge will deliver tokens to a different `gonka1…` address than the one your wallet displays. This happens because Ethereum and Gonka use different BIP-44 derivation paths (coin type `60` vs `118`), so the same seed phrase produces different private keys on each chain. You still control those funds and can access them with an ext",
-      "checksum": "730f329f040febb58a0f07c01ab64752b4b0eebdc8e7edd354e004aefd0c1a04"
+      "checksum": "95dae6253c89686e512c6f3d1c66fd1cc1d48713eab3e6a1dd0cff17d8b71e38"
     },
     "wallet/dashboard.md": {
       "title": "Getting Started with the Dashboard",
       "status": null,
       "content_preview": "# Getting Started with the Dashboard\nDashboard shows live on-chain activity.\n\nInstead of relying on a single centralized server, all network data and inference metrics are hosted directly on the Hosts' nodes. This means the dashboard can connect to any Host’s node and fetch live network data straight from the source.\n\nYou can interact with the dashboard in two ways:\n\n- **Preview Mode** — explore a dashboard and view network data without creating an account.\n- **Full Mode** — unlock the complete feature set by connecting your own wallet.\n\n=== \"**Preview Mode**\"\n\n    If you want to explore the network or see real-time inference metrics before setting up your own account, follow these steps:\n    \n    1. Here is the list of genesis nodes. Choose a random node from the list below and open it in",
-      "checksum": "e5bf2fabeb8819312b21f95cf84ac0c283c6d31bd63739b7e19e437654473523"
+      "checksum": "3015bbdd4ba7f4b34dcd50339e5bd944a4f69c410f75dcba0bcd14c3c88155cc"
     },
     "wallet/pricing.md": {
       "title": "Pricing",

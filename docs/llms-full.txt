@@ -630,14 +630,12 @@ If your node cannot connect to the default seed node, simply point it to another
     ```
     Available genesis API URLs:
     ```
-    http://185.216.21.98:8000
-    http://36.189.234.197:18026
     http://36.189.234.237:17241
     http://node1.gonka.ai:8000
+    https://node1.gonka.ai:8443
     http://node2.gonka.ai:8000
-    http://node3.gonka.ai:8000
-    https://node4.gonka.ai
-    http://47.236.26.199:8000
+    https://node2.gonka.ai:8443
+    https://node3.gonka.ai
     http://47.236.19.22:18000
     http://gonka.spv.re:8000
     ```
@@ -706,7 +704,7 @@ There are two distinct ways to update seed nodes, depending on whether the node 
     ```
     To view known peers from any running node, use chain RPC:
     ```
-    curl http://47.236.26.199:8000/chain-rpc/net_info | jq
+    curl http://node2.gonka.ai:8000/chain-rpc/net_info | jq
     ```
 
     In response, look for:
@@ -726,7 +724,7 @@ There are two distinct ways to update seed nodes, depending on whether the node 
       "result": {
         "listening": true,
         "listeners": [
-          "Listener(@tcp://47.236.26.199:5000)"
+          "Listener(@tcp://node2.gonka.ai:5000)"
         ],
         "n_peers": "50",
         "peers": [
@@ -16917,7 +16915,7 @@ Step-by-step instructions are provided below for **Keplr** and **Cosmostation**.
         http://36.189.234.237:17241
         https://node1.gonka.ai:8443
         https://node2.gonka.ai:8443
-        http://47.236.26.199:8000
+        https://node3.gonka.ai
         http://47.236.19.22:18000
         http://gonka.spv.re:8000
         ```
@@ -17013,7 +17011,7 @@ You can interact with the dashboard in two ways:
         - [http://36.189.234.237:17241](http://36.189.234.237:17241)  
         - [https://node1.gonka.ai:8443](https://node1.gonka.ai:8443)  
         - [https://node2.gonka.ai:8443](https://node2.gonka.ai:8443)  
-        - [http://47.236.26.199:8000](http://47.236.26.199:8000)  
+        - [https://node3.gonka.ai](https://node3.gonka.ai)  
         - [http://47.236.19.22:18000](http://47.236.19.22:18000)  
         - [http://gonka.spv.re:8000](http://gonka.spv.re:8000)  
     
@@ -17022,6 +17020,9 @@ You can interact with the dashboard in two ways:
             Choose any active Host from the list.
             Copy their `inference_url` value.
             Paste the `inference_url` into your browser to load the dashboard.
+
+            !!! note "Some Hosts disable the public dashboard"
+                Hosts are not required to keep a public dashboard or chain RPC open. An `inference_url` in `active_participants` means the Host is serving inference, not that its dashboard is public. Many Hosts still serve the dashboard page, but it may show **disconnected** with zero metrics. That is expected — pick another `inference_url` until live data appears. This does not mean the Host is offline.
     
     2. Once opened, you’ll see real-time data streamed directly from the Host’s node.
     
@@ -19624,7 +19625,7 @@ decentralized mixture-of-experts."
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-09-07 18:32 UTC
+2026-09-07 21:52 UTC
 
 ---
 
@@ -29879,7 +29880,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-98 proposals across 5 quarters. Last updated: 2026-09-07 19:13 UTC
+98 proposals across 5 quarters. Last updated: 2026-09-07 22:03 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
