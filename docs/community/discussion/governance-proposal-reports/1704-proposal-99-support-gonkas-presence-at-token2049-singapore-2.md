@@ -3,14 +3,14 @@ title: "#1704 — Proposal #99: Support Gonka’s Presence at TOKEN2049 Singapor
 source: https://github.com/gonka-ai/gonka/discussions/1704
 discussion_number: 1704
 category: governance-proposal-reports
-synced_at: 2026-09-07T10:09:31Z
+synced_at: 2026-09-07T16:24:21Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1704](https://github.com/gonka-ai/gonka/discussions/1704) every hour. 
 
 # Proposal #99: Support Gonka’s Presence at TOKEN2049 Singapore 2026
 
-**Автор:** [@Isabella0319](https://github.com/Isabella0319) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-09-02 07:48 UTC · **Обновлено:** 2026-09-02 12:53 UTC
+**Автор:** [@Isabella0319](https://github.com/Isabella0319) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-09-02 07:48 UTC · **Обновлено:** 2026-09-07 10:19 UTC
 
 ---
 
@@ -163,7 +163,7 @@ A **NO** vote rejects this funding request.
 
 ---
 
-## 💬 Комментарии (2)
+## 💬 Комментарии (3)
 
 ### Комментарий 1 — [@akamitch](https://github.com/akamitch)
 
@@ -171,9 +171,29 @@ A **NO** vote rejects this funding request.
 
 I vote yes for this proposal from Gonka.Top mine pool
 
+**↳ Ответ от [@Isabella0319](https://github.com/Isabella0319)** · *2026-09-07 10:18 UTC*
+
+> Thanks!
+
 ### Комментарий 2 — [@akamitch](https://github.com/akamitch)
 
 *2026-09-02 12:53 UTC*
 
 @Isabella0319
 Please, next time, include a link to the discussion in the on-chain proposal text. This will allow miners to verify more quickly that 6block is indeed the author of the proposal.
+
+**↳ Ответ от [@Isabella0319](https://github.com/Isabella0319)** · *2026-09-07 10:18 UTC*
+
+> Thanks for the suggestion!
+
+### Комментарий 3 — [@Isabella0319](https://github.com/Isabella0319)
+
+*2026-09-07 10:19 UTC*
+
+Quick **TOKEN2049** Update
+
+A big **thank-you** to everyone who voted and helped make this happen!
+
+The proposal was approved, the contract was signed, and the funds have arrived. We’ll complete the payment this week.
+
+We’ll keep you in the loop as everything comes together. More updates soon!
