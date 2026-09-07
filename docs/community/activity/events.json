@@ -1,5 +1,53 @@
 [
   {
+    "id": "evt_20260907163507_48d91cd1",
+    "timestamp": "2026-09-07T16:35:07.492044+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1722 — Incomplete HTTP 200 streams are cached and replayed as successful responses",
+      "url": "/community/issues/01722-incomplete-http-200-streams-are-cached-and-replayed-as-succe/",
+      "file": "01722-incomplete-http-200-streams-are-cached-and-replayed-as-succe.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Incomplete HTTP 200 streams are cached and replayed as successful responses\n    <span class=\"issues-number\">#1722</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/aleksandr-cstl\">@aleksandr-cstl</a> opened 2026-09-07 11:57 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"marg"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260907163507_20f8c21e",
+    "timestamp": "2026-09-07T16:35:07.492076+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1725 — x/inference: GetAllModelCapacities keys the epoch-group map with a block height, so the query always returns empty",
+      "url": "/community/issues/01725-xinference-getallmodelcapacities-keys-the-epoch-group-map-wi/",
+      "file": "01725-xinference-getallmodelcapacities-keys-the-epoch-group-map-wi.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    x/inference: GetAllModelCapacities keys the epoch-group map with a block height, so the query always returns empty\n    <span class=\"issues-number\">#1725</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kAIPraxisBot\">@kAIPraxisBot</a> opened 2026-09-07 14:23 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260907163507_968aca25",
+    "timestamp": "2026-09-07T16:35:07.492097+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1726 — x/inference: CollateralParams.DowntimeMissedPercentageThreshold is governance-settable but read by nothing, and SlashForDowntime's comment describes a check it does not perform",
+      "url": "/community/issues/01726-xinference-collateralparamsdowntimemissedpercentagethreshold/",
+      "file": "01726-xinference-collateralparamsdowntimemissedpercentagethreshold.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    x/inference: CollateralParams.DowntimeMissedPercentageThreshold is governance-settable but read by nothing, and SlashForDowntime's comment describes a check it does not perform\n    <span class=\"issues-number\">#1726</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kAIPraxisBot\">@kAIPraxisBot</a> opened 2026-09-07 14:23 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</sp"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260907101006_db6d19c8",
     "timestamp": "2026-09-07T10:10:06.592431+00:00",
     "section": "discussions",
