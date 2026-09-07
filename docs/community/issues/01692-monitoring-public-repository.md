@@ -2,7 +2,7 @@
 title: "#1692 — Monitoring: public repository"
 source: https://github.com/gonka-ai/gonka/issues/1692
 issue_number: 1692
-synced_at: 2026-09-07T16:31:50Z
+synced_at: 2026-09-07T20:38:40Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-08-31 20:24 UTC</span>
-    <span class="issues-meta-item">5 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-04 20:31 UTC</span>
+    <span class="issues-meta-item">6 comments</span>
+    <span class="issues-meta-item">Updated 2026-09-07 18:56 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -31,7 +31,7 @@ When it is out:
 
 ---
 
-## 💬 Comments (5)
+## 💬 Comments (6)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -87,6 +87,16 @@ When it is out:
     <p><strong>Status:</strong> done
 <strong>Delivered:</strong> repo is public now — https://github.com/kaitakuai/gonka-monitoring. Whole-network view via epoch auto-discovery landed today, so the stack is no longer limited to our own nodes.
 <strong>Limitations:</strong> the link in the description still points to the old repo name.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span class="issues-meta-item">commented 2026-09-07 18:56 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>@baychak @clanster thank you!
+@vbgd0 please review</p>
   </div>
 </div>
 

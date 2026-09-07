@@ -2,7 +2,7 @@
 title: "#1691 — GLM 5.3 Flash: vLLM 0.28 image + PoC fix"
 source: https://github.com/gonka-ai/gonka/issues/1691
 issue_number: 1691
-synced_at: 2026-09-07T16:31:51Z
+synced_at: 2026-09-07T20:38:42Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-08-31 20:23 UTC</span>
-    <span class="issues-meta-item">3 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-04 20:16 UTC</span>
+    <span class="issues-meta-item">4 comments</span>
+    <span class="issues-meta-item">Updated 2026-09-07 18:51 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -90,7 +90,7 @@ The image is treated as delivered when this checklist is complete.
 
 ---
 
-## 💬 Comments (3)
+## 💬 Comments (4)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -127,6 +127,27 @@ The image is treated as delivered when this checklist is complete.
 <p><strong>Next:</strong> sequencing agreed with @clanster on today's sync — update here by 2026-09-05.</p>
 <p><strong>Scope</strong></p>
 <p>This image targets GLM 5.3 Flash. On 2026-08-31 @vbgd0 and I agreed to prepare it for GLM only and defer the other models, since re-verifying them means re-running everything on rented hardware. The four models above are therefore unchanged and unverified on this image. We propose checking them once the upgrade lands on a release branch — say if you want it the other way.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/baychak">@baychak</a></span>
+    <span class="issues-meta-item">commented 2026-09-07 18:51 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p><strong>Status:</strong> in progress; the release line is open.</p>
+<p><strong>Since last</strong></p>
+<ul>
+<li>Upstream GLM-5.3-Flash support (<a href="https://github.com/vllm-project/vllm/pull/53906">vllm-project/vllm#53906</a>) merged into <code>main</code> on 2026-09-03. No vLLM release carries it yet, so the base is the dev image at commit <code>933876c38</code>.</li>
+<li>@vbgd0 created <code>release/v0.28.0-glm53</code> in gonka-ai/vllm and <code>vllm-0.28.0-glm530-upgrade</code> in gonka-ai/gonka. <a href="https://github.com/gonka-ai/vllm/pull/104">gonka-ai/vllm#104</a> and <a href="https://github.com/gonka-ai/vllm/pull/105">gonka-ai/vllm#105</a> are merged; <a href="https://github.com/gonka-ai/vllm/pull/106">gonka-ai/vllm#106</a>, <a href="https://github.com/gonka-ai/gonka-vllm-plugins/pull/9">gonka-ai/gonka-vllm-plugins#9</a> and <a href="https://github.com/gonka-ai/gonka/pull/1724">#1724</a> are open and mergeable, review pending.</li>
+<li>Write-up: <a href="https://github.com/kaitakuai/experiments/tree/main/2026-09">kaitakuai/experiments/2026-09</a> — PoC and inference measured on 2×B300, 4×B200, 4×H200, 8×H100.</li>
+</ul>
+<p><strong>Questions, @tcharchian</strong></p>
+<ul>
+<li>"allowed memory budget" has no definition in the code. Which number do we check against?</li>
+<li>Checklist ticks in this issue: yours, or may we tick?</li>
+</ul>
+<p><strong>Next:</strong> after <a href="https://github.com/gonka-ai/vllm/pull/106">gonka-ai/vllm#106</a> and <a href="https://github.com/gonka-ai/gonka-vllm-plugins/pull/9">gonka-ai/gonka-vllm-plugins#9</a> merge, @vbgd0 publishes the official image; we rebuild the MLNode image on it and rerun the checklist. Update on merge, and by 2026-09-14 regardless.</p>
   </div>
 </div>
 

@@ -2,7 +2,7 @@
 title: "#1688 — Decode PoC: integration support"
 source: https://github.com/gonka-ai/gonka/issues/1688
 issue_number: 1688
-synced_at: 2026-09-07T16:31:51Z
+synced_at: 2026-09-07T20:38:41Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-08-31 20:15 UTC</span>
-    <span class="issues-meta-item">3 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-04 20:16 UTC</span>
+    <span class="issues-meta-item">4 comments</span>
+    <span class="issues-meta-item">Updated 2026-09-07 18:55 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -43,7 +43,7 @@ DeepSeek seeding is more complex than MiniMax. This issue covers the integration
 
 ---
 
-## 💬 Comments (3)
+## 💬 Comments (4)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -109,6 +109,23 @@ DeepSeek seeding is more complex than MiniMax. This issue covers the integration
 <li>Sign-off on the new consensus constants — @axeltec-gonka owns them; not given.</li>
 </ol>
 <p><strong>Next:</strong> refresh gonka-ai/gonka-vllm-plugins#8 onto the current plugin branch — update here by 2026-09-05.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/baychak">@baychak</a></span>
+    <span class="issues-meta-item">commented 2026-09-07 18:54 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p><strong>Status:</strong> in progress.</p>
+<p><strong>Since last</strong></p>
+<ul>
+<li><a href="https://github.com/gonka-ai/gonka-vllm-plugins/pull/8">gonka-ai/gonka-vllm-plugins#8</a> refreshed on 2026-09-06 to the current plugin branch (<code>a346bb7</code>, 108 commits); <a href="https://github.com/gonka-ai/vllm/pull/100">gonka-ai/vllm#100</a> unchanged. Promised for 09-05, done 09-06.</li>
+<li>2026-09-05, on @vbgd0's advice: the admission layer is removed rather than patched. The scheduler makes one PoC step call; nonce pacing moved to the client. Golden checks on B300 reproduce after the change.</li>
+<li>PRs for that on our forks, sent to @vbgd0 for review: <a href="https://github.com/kaitakuai/gonka-vllm-plugins/pull/4">kaitakuai/gonka-vllm-plugins#4</a> and <a href="https://github.com/kaitakuai/vllm/pull/22">kaitakuai/vllm#22</a>. They retarget onto the intake branches once <code>#8</code> and <code>#100</code> land.</li>
+<li>Open design questions 1–3 unchanged.</li>
+</ul>
+<p><strong>Next:</strong> review of the two fork PRs by @vbgd0; merge order is his call — <code>#8</code>/<code>#100</code> first and then <code>#4</code>/<code>#22</code>, or folded. Update here by 2026-09-14.</p>
   </div>
 </div>
 

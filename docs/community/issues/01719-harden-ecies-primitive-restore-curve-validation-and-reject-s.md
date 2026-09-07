@@ -2,7 +2,7 @@
 title: "#1719 — Harden ECIES primitive: restore curve validation and reject short ciphertexts"
 source: https://github.com/gonka-ai/gonka/issues/1719
 issue_number: 1719
-synced_at: 2026-09-07T16:31:49Z
+synced_at: 2026-09-07T20:38:39Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-09-04 23:26 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-04 23:31 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-09-07 19:21 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span></div>
 </div>
@@ -30,6 +30,21 @@ I think it is good to fix primitive, while PR sounds and closes what it should
 
 _Originally posted by @a-kuprin in https://github.com/gonka-ai/gonka/issues/1687#issuecomment-5509311830_
             
+</div>
+
+---
+
+## 💬 Comments (1)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/redstartechno">@redstartechno</a></span>
+    <span class="issues-meta-item">commented 2026-09-07 19:21 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Picked this up: gonka-ai/cosmos-sdk#20 restores both guards verbatim from go-ethereum (<code>IsOnCurve</code> in <code>GenerateShared</code>, <code>rLen + hLen + params.BlockSize</code> floor in <code>Decrypt</code>) and adds the fork-side regression tests, including the 98-byte case, which panics on <code>release/v0.53.x</code> today.</p>
+<p>One thing to plan for when the fork tag is bumped here: <code>TestDecryptKeyringShortMACValidReturnsError</code> in <code>decentralized-api/cosmosclient</code> asserts on the <code>"ecies decrypt panic"</code> message. With the primitive fixed, <code>Decrypt</code> returns <code>ecies: invalid message</code> instead, so that assertion needs to become <code>require.Error</code>. Happy to open that follow-up alongside the <code>go.mod</code> bump.</p>
+  </div>
 </div>
 
 ---
