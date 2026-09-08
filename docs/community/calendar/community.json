@@ -186,5 +186,25 @@
     "duration_minutes": 60,
     "location": null,
     "uid": "gonka-2026-09-03-monthly-ama@gonkadocs.com"
+  },
+  {
+    "date": "2026-09-08",
+    "category": "community",
+    "type": "ama",
+    "title": "GONKA × LEDGER AMA",
+    "url": "https://us06web.zoom.us/j/86248510155",
+    "time": "11:00 UTC",
+    "description": "This session covers the upcoming proposal to fund the Ledger × Gonka integration.\\n\\n📅 Tuesday, September 8 — 11:00 UTC\\n\\n🕖 7:00 AM EDT · 11:00 AM UTC · 7:00 PM CST\\n\\n🗣️ Language: English\\n\\nKEY TOPICS:\\n\\n• What is Ledger, and how will Gonka be integrated with it?\\n\\n• Why is this integration important for Gonka?\\n\\n• The proposed agreement with Ledger — and why 6block is involved\\n\\nGUESTS:\\n\\n• Sebastien Vaillant — Ledger\\n\\n• Vadim Krutov — Bitfury\\n\\n• Sergey Ulankin — Gonka Community Contributor\\n\\nHost: @381466447723102219\\n\\nJOIN:\\n\\n🔗 Zoom: https://us06web.zoom.us/j/86248510155\\n\\n💬 GitHub Discussion: https://github.com/gonka-ai/gonka/discussions/1589\\n\\nBring your questions — drop them in the GitHub discussion ahead of time or ask live. See you there!",
+    "tags": [
+      "ama",
+      "ledger",
+      "bitfury",
+      "6block",
+      "gonka"
+    ],
+    "is_all_day": false,
+    "duration_minutes": 60,
+    "location": "https://us06web.zoom.us/j/86248510155",
+    "uid": "gonka-2026-09-08-ed12c5cb21de@gonkadocs.com"
   }
 ]
