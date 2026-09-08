@@ -11291,6 +11291,13 @@ For the Genesis Guardians, an additional power-enhancement step is applied first
 
 A small set of bootstrap validators operated by the project team, hardcoded into chain params. They receive a temporary power boost during the early network phase. The boost is configurable on-chain and has changed over time, so query live params before publishing exact Guardian voting-power numbers.
 
+```bash
+curl -sS "https://node2.gonka.ai:8443/chain-api/productscience/inference/inference/params" \
+  | jq '.params.genesis_guardian_params'
+```
+
+`https://node1.gonka.ai:8443` and `https://node3.gonka.ai` expose the same path. The response has `guardian_addresses`, `network_maturity_threshold`, and `network_maturity_min_height`. The power multiplier (`0.33334` as of v0.2.13) is not in this object.
+
 > ****
     - `gonkavaloper1y2a9p56kv044327uycmqdexl7zs82fs5lyang5` (`gonka-1`)
     - `gonkavaloper1dkl4mah5erqggvhqkpc8j3qs5tyuetgdc59d0v` (`gonka-2`)
@@ -19625,7 +19632,7 @@ decentralized mixture-of-experts."
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-09-07 21:52 UTC
+2026-09-07 23:54 UTC
 
 ---
 
@@ -29880,7 +29887,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-98 proposals across 5 quarters. Last updated: 2026-09-07 22:03 UTC
+98 proposals across 5 quarters. Last updated: 2026-09-08 01:02 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {

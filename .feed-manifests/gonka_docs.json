@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-09-07T23:13:30.836613+00:00",
+  "snapshot_time": "2026-09-08T02:26:12.415495+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -168,7 +168,7 @@
       "title": "Voting Power, Genesis Guardians and Delegation",
       "status": null,
       "content_preview": "# Voting Power, Genesis Guardians and Delegation\n\n## Total bonded weight calculation\n\nThe total bonded weight is the sum of `validator.tokens` across all bonded validators with `tokens > 0`:\n\n```text\ntotal_bonded = Σ validator.tokens   (over all bonded validators with tokens > 0)\n```\n\nEach validator's `tokens` value is set on every epoch transition by the inference module via `Staking.SetComputeValidators()`.\nFor the vast majority of validators:\n\n```text\nvalidator.tokens = participant.weight   (their PoC weight in the current epoch)\n```\n\nFor the Genesis Guardians, an additional power-enhancement step is applied first (see below).\n\n### Guardian power boost calculation\n\nBefore `SetComputeValidators` runs, the inference module applies `applyEarlyNetworkProtection`, which computes enhanced pow",
-      "checksum": "b0e084ba86623b3633ee80e4fcf8cfed79f80515fc6d229f6b9496c3516a565c"
+      "checksum": "2f26e7dd1b6a1ac9898ad0a383cfa28f0acf0461cd94253a9b3e7e7c8832a3b8"
     },
     "help.md": {
       "title": "Get Support on Discord",
