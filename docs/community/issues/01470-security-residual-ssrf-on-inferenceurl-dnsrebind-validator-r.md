@@ -2,21 +2,21 @@
 title: "#1470 — Security: Residual SSRF on InferenceUrl — DNS/rebind + validator redirect (incomplete fix after #505/#534)"
 source: https://github.com/gonka-ai/gonka/issues/1470
 issue_number: 1470
-synced_at: 2026-09-08T04:49:38Z
+synced_at: 2026-09-08T09:48:42Z
 template: issues-main.html
 ---
 
 <div class="issues-detail-header">
   <h1 class="issues-detail-title">
-    <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
     Security: Residual SSRF on InferenceUrl — DNS/rebind + validator redirect (incomplete fix after #505/#534)
     <span class="issues-number">#1470</span>
   </h1>
   <div class="issues-detail-meta">
-    <span class="issues-meta-item">Open</span>
+    <span class="issues-meta-item">Closed</span>
     <span class="issues-meta-item"><a href="https://github.com/Aphelios01-sdk">@Aphelios01-sdk</a> opened 2026-07-18 03:05 UTC</span>
     <span class="issues-meta-item">2 comments</span>
-    <span class="issues-meta-item">Updated 2026-07-20 02:30 UTC</span>
+    <span class="issues-meta-item">Updated 2026-09-08 05:04 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>

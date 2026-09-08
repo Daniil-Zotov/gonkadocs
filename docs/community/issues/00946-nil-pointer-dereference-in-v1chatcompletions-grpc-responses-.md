@@ -2,7 +2,7 @@
 title: "#946 — Nil pointer dereference in /v1/chat/completions — gRPC responses not nil-checked"
 source: https://github.com/gonka-ai/gonka/issues/946
 issue_number: 946
-synced_at: 2026-09-08T04:50:43Z
+synced_at: 2026-09-08T09:51:01Z
 template: issues-main.html
 ---
 

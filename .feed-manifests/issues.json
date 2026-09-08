@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-09-08T04:52:33.317107+00:00",
+  "snapshot_time": "2026-09-08T09:53:34.520161+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "Description",
@@ -3130,13 +3130,13 @@
     "01470-security-residual-ssrf-on-inferenceurl-dnsrebind-validator-r.md": {
       "title": "#1470 — Security: Residual SSRF on InferenceUrl — DNS/rebind + validator redirect (incomplete fix after #505/#534)",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Security: Residual SSRF on InferenceUrl — DNS/rebind + validator redirect (incomplete fix after #505/#534)\n    <span class=\"issues-number\">#1470</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Aphelios01-sdk\">@Aphelios01-sdk</a> opened 2026-07-18 03:05 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div cl",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Security: Residual SSRF on InferenceUrl — DNS/rebind + validator redirect (incomplete fix after #505/#534)\n    <span class=\"issues-number\">#1470</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Aphelios01-sdk\">@Aphelios01-sdk</a> opened 2026-07-18 03:05 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-",
       "comment_checksum": "456ae5833484c03a91fcd2f769aa5f09d5ce7474c13893dfcaf5e4f79dca0ed8",
       "comment_bodies": [
         "Deep dive (follow-up analysis) Historical context (residual after prior SSRF fixes) From inference-chain/app/upgrades/v0_2_8/upgrades.go bounty notes: PR #534 — blocked redirect-based SSRF on the Transfer Agent HTTP client (NewNoRedirectClient). PR #505 — added ValidateURLWithSSRFProtection for InferenceUrl (literal private IPs + timeouts). This report is a residual / incomplete-fix issue, not a g",
         "I'd like to pick this up. The residual-SSRF analysis matches what I see in the code — the real fix has to be at dial-time (registration-time DNS resolution alone can't stop rebinding), via a shared SSRF-safe HTTP client applied to all participant-InferenceUrl sinks, plus disabling redirects on the payload retrieval client. @tcharchian could you assign this to me?"
       ],
-      "checksum": "562591162a87613a08d04690d59659b9944a8a80c965811a72e0a93163ed2d95"
+      "checksum": "d199ead171991e5291ad4f5a2907df30429b1ebee9ac65848970926557e18ccf"
     },
     "01471-security-admin-dapi-unauthenticated-get-adminv1config-leaks-.md": {
       "title": "No Authorization header required",
