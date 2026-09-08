@@ -1,6 +1,6 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-09-08T09:59:43.438088+00:00",
+  "snapshot_time": "2026-09-08T14:43:17.737805+00:00",
   "files": {
     "460d7b406a26039bca186ac074c0ac02e7130753a332dc8fe809420a0d5bbd6c": {
       "title": "AMA: Bitfury, HackerOne & Gonka — Bug Bounty Program Launch",
@@ -91,6 +91,15 @@
       "url": "None",
       "content_preview": "This monthly AMA session will focus on the latest developments within the proposed protocol's usage and on the experiments planned by the contributors in the nearest future.\n\nRead details here and here.\n\nKey topics:\n• Where usage stands after DeepSeek, and the four-week 20B tokens/day target\n• Nearest plans for widening the model lineup\n• Growth to 100B tokens/day by the end of 2026, and what precedes paid inference\n• Experiments: any model size and modality, including on consumer GPUs\n• Your questions - please add them in the thread: THREAD LINK\n\n🎥 Zoom:\nThe link will be published before the session starts, keep an eye on Discord!\n\n🗣️ Language:\nEnglish\n\n❓ Questions:\nPost them in the thread under this announcement or in the chat during the session — the last 15 minutes are for them.\n\n👤 Gue",
       "checksum": "78ef856b85dd6b4538923d1ab1ff02028bc1c441e1d5743f64681990daaf26d1"
+    },
+    "dca27847780f5495466ee373e65bfa0e3e51a9d214fa212009a4d300f66d7e95": {
+      "title": "GONKA × LEDGER AMA",
+      "date": "2026-09-08",
+      "time": "11:00 UTC",
+      "event_type": "ama",
+      "url": "https://us06web.zoom.us/j/86248510155",
+      "content_preview": "This session covers the upcoming proposal to fund the Ledger × Gonka integration.\\n\\n📅 Tuesday, September 8 — 11:00 UTC\\n\\n🕖 7:00 AM EDT · 11:00 AM UTC · 7:00 PM CST\\n\\n🗣️ Language: English\\n\\nKEY TOPICS:\\n\\n• What is Ledger, and how will Gonka be integrated with it?\\n\\n• Why is this integration important for Gonka?\\n\\n• The proposed agreement with Ledger — and why 6block is involved\\n\\nGUESTS:\\n\\n• Sebastien Vaillant — Ledger\\n\\n• Vadim Krutov — Bitfury\\n\\n• Sergey Ulankin — Gonka Community Contributor\\n\\nHost: @381466447723102219\\n\\nJOIN:\\n\\n🔗 Zoom: https://us06web.zoom.us/j/86248510155\\n\\n💬 GitHub Discussion: https://github.com/gonka-ai/gonka/discussions/1589\\n\\nBring your questions — drop them in the GitHub discussion ahead of time or ask live. See you there!",
+      "checksum": "e3d2c3ca9f26325e8795d8de27a2f960e2dcd92ef1597bdab8b4ba59b6671caa"
     },
     "60130ca155a868e409b7aa0642525df006c4e05da481ba6f8787253101992676": {
       "title": "Migrate community-sale and wrapped-token contracts",

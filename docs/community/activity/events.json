@@ -1,5 +1,49 @@
 [
   {
+    "id": "evt_20260908144317_feb9b17b",
+    "timestamp": "2026-09-08T14:43:17.817011+00:00",
+    "section": "calendar",
+    "action": "daily_reminder",
+    "item": {
+      "title": "Today: 1 events — GONKA × LEDGER AMA",
+      "url": "/community/calendar/",
+      "file": null
+    },
+    "details": {
+      "today": [
+        {
+          "title": "GONKA × LEDGER AMA",
+          "date": "2026-09-08",
+          "time": "11:00 UTC",
+          "event_type": "ama",
+          "url": "https://us06web.zoom.us/j/86248510155"
+        }
+      ],
+      "count": 1
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260908144317_ea19bb22",
+    "timestamp": "2026-09-08T14:43:17.712237+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "GONKA × LEDGER AMA",
+      "url": "https://us06web.zoom.us/j/86248510155",
+      "file": "dca27847780f5495466ee373e65bfa0e3e51a9d214fa212009a4d300f66d7e95"
+    },
+    "details": {
+      "status": null,
+      "content": "This session covers the upcoming proposal to fund the Ledger × Gonka integration.\\n\\n📅 Tuesday, September 8 — 11:00 UTC\\n\\n🕖 7:00 AM EDT · 11:00 AM UTC · 7:00 PM CST\\n\\n🗣️ Language: English\\n\\nKEY TOPICS:\\n\\n• What is Ledger, and how will Gonka be integrated with it?\\n\\n• Why is this integration important for Gonka?\\n\\n• The proposed agreement with Ledger — and why 6block is involved\\n\\nGUESTS:\\n\\n• Sebastien Vaillant — Ledger\\n\\n• Vadim Krutov — Bitfury\\n\\n• Sergey Ulankin — Gonka Community Contributor\\n\\nHost: @381466447723102219\\n\\nJOIN:\\n\\n🔗 Zoom: https://us06web.zoom.us/j/86248510155\\n\\n💬 GitHub Discussion: https://github.com/gonka-ai/gonka/discussions/1589\\n\\nBring your questions — drop them in the GitHub discussion ahead of time or ask live. See you there!",
+      "date": "2026-09-08",
+      "time": "11:00 UTC",
+      "event_type": "ama",
+      "url": "https://us06web.zoom.us/j/86248510155"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260908095301_0c66c6d3",
     "timestamp": "2026-09-08T09:53:01.126895+00:00",
     "section": "issues",
