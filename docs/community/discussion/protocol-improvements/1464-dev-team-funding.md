@@ -3,14 +3,14 @@ title: "#1464 — Dev Team Funding"
 source: https://github.com/gonka-ai/gonka/discussions/1464
 discussion_number: 1464
 category: protocol-improvements
-synced_at: 2026-09-08T09:33:55Z
+synced_at: 2026-09-08T14:25:37Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1464](https://github.com/gonka-ai/gonka/discussions/1464) every hour. 
 
 # Dev Team Funding
 
-**Автор:** [@gmorgachev](https://github.com/gmorgachev) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-07-17 01:38 UTC · **Обновлено:** 2026-08-03 20:22 UTC
+**Автор:** [@gmorgachev](https://github.com/gmorgachev) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-07-17 01:38 UTC · **Обновлено:** 2026-09-08 13:32 UTC
 
 ---
 
@@ -65,7 +65,7 @@ Contact me:
 
 ---
 
-## 💬 Комментарии (5)
+## 💬 Комментарии (4)
 
 ### Комментарий 1 — [@paranjko](https://github.com/paranjko)
 
@@ -73,27 +73,7 @@ Contact me:
 
 Count me in! I’d love to get involved and contribute to the initiative.
 
-### Комментарий 2 — [@Daniil-Zotov](https://github.com/Daniil-Zotov)
-
-*2026-07-31 19:00 UTC*
-
-обсуждение на gonka.vote https://gonka.vote/proposal/nlabjc
-обсуждение в тг https://telegram.me/gonka_proposals
-
-
-### Комментарий 3 — [@Daniil-Zotov](https://github.com/Daniil-Zotov)
-
-*2026-08-01 09:37 UTC*
-
-вопросы:
-1. какова роль Product Science сейчас и в ближайшей перспективе работы над протоколом? Новая команда заменит ее или работа будет вестись параллельно? 
-2. сейчас в комьюнити пуле 720к usdt - согласован ли ваш пропозал с BF и планируется ли новый транш от BF до создания пропозала ончейн?
-3. будет ли открытость в разработке - будет ли доступен роадмап и дашборд этой команды? прозрачности работы core team и внешних участников очень не хватает.
-4. кто будет оплачивать инфраструктуру, необходимую для тестирования и разработки?
-5. будут ли дублирующие баунти реварды этой команде при апдейтах?
-
-
-### Комментарий 4 — [@konstantingostev77](https://github.com/konstantingostev77)
+### Комментарий 2 — [@konstantingostev77](https://github.com/konstantingostev77)
 
 *2026-08-02 11:51 UTC*
 
@@ -116,28 +96,32 @@ Looking forward to the AMA
 Good Luck with the project,
 Konstantin
 
-### Комментарий 5 — [@Daniil-Zotov](https://github.com/Daniil-Zotov)
+### Комментарий 3 — [@Daniil-Zotov](https://github.com/Daniil-Zotov)
 
-*2026-08-03 20:22 UTC*
+*2026-09-08 12:38 UTC*
 
-AMA with Gleb Morgachev, Gonka co-creator: Dev Team Funding proposal
+на каком этапе находится данное предложение? 
 
-🕣 Tuesday, Aug. 4
-8:30am PDT · 3:30pm UTC · 11:30pm CST
+### Комментарий 4 — [@konstantingostev77](https://github.com/konstantingostev77)
 
-Gleb Morgachev 
-[@gmorgachev](https://x.com/gmorgachev)
- will hold an AMA session where he'll cover the upcoming proposal dedicated to funding of an independent dev team.
+*2026-09-08 13:32 UTC*
 
-Key topics:
-- What tasks the funding is being requested for
-- How the independent development team will be structured
-- Funding mechanics
-- Expense transparency, reporting, and Gleb’s role in the initiative
-- Other questions
+Какое именно предложение Вас интересует
 
-💻 Zoom: the link will be published before the session starts
-🗣️ Language: English
-📄 Proposal: [https://github.com/gonka-ai/gonka/discussions/1464](https://t.co/yETdroL6Kx)
+С уважением,
+Константин
 
-See you next week!
+вт, 8 сент. 2026 г., 15:38 Daniil Zotov ***@***.***>:
+
+> на каком этапе находится данное предложение?
+>
+> —
+> Reply to this email directly, view it on GitHub
+> <https://github.com/gonka-ai/gonka/discussions/1464?email_source=notifications&email_token=B2NDEGMTWUDRDD6RQGOCU235N74WDA5CNFSNUABIM5UWIORPF5TWS5BNNB2WEL2ENFZWG5LTONUW63SDN5WW2ZLOOQXTCOBTGQ4TGOJUUZZGKYLTN5XKOY3PNVWWK3TUUVSXMZLOOSWGM33PORSXEX3DNRUWG2Y#discussioncomment-18349394>,
+> or unsubscribe
+> <https://github.com/notifications/unsubscribe-auth/B2NDEGNCRCOWX4ICRHQMCBT5N74WDAVCNFSNUABIKJSXA33TNF2G64TZHM4DENZQGYYTAOJSHNCGS43DOVZXG2LPNY5TCMBUGQ2DINRUUF3AE>
+> .
+> You are receiving this because you commented.Message ID:
+> ***@***.***>
+>
+

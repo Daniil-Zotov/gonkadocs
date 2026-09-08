@@ -4,7 +4,7 @@ title: "GitHub Discussions"
 
 # GitHub Discussions — `gonka-ai/gonka`
 
-Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **97**. Обновлено: `2026-09-08 09:34 UTC`.
+Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **97**. Обновлено: `2026-09-08 14:26 UTC`.
 
 ## 📂 Категории
 
@@ -22,6 +22,7 @@ title: "GitHub Discussions"
 
 | # | Заголовок | Категория | Автор | Обновлено |
 |---:|---|---|---|---|
+| [1464](protocol-improvements/1464-dev-team-funding.md) | [Dev Team Funding](protocol-improvements/1464-dev-team-funding.md) | :gear: Protocol Improvements | [@gmorgachev](https://github.com/gmorgachev) | 2026-09-08 |
 | [1721](protocol-improvements/1721-community-interest-adding-glm-53-flash-and-qwen38-flash-next.md) | [Community interest: adding GLM-5.3-Flash and Qwen3.8-Flash-Next to the lineup?](protocol-improvements/1721-community-interest-adding-glm-53-flash-and-qwen38-flash-next.md) | :gear: Protocol Improvements | [@Ryanchen911](https://github.com/Ryanchen911) | 2026-09-08 |
 | [1668](protocol-improvements/1668-proposal-raise-the-deepseek-coefficient-to-0400.md) | [Proposal: raise the DeepSeek coefficient to 0.400](protocol-improvements/1668-proposal-raise-the-deepseek-coefficient-to-0400.md) | :gear: Protocol Improvements | [@knyazev741](https://github.com/knyazev741) | 2026-09-08 |
 | [1619](general/1619-phase-out-kimi-k26.md) | [Phase out Kimi K2.6](general/1619-phase-out-kimi-k26.md) | :speech_balloon: General | [@paranjko](https://github.com/paranjko) | 2026-09-07 |
@@ -41,4 +42,3 @@ title: "GitHub Discussions"
 | [1561](governance-proposal-reports/1561-proposal-77-input-global-monthly-report-july.md) | [Proposal #77: INPUT Global - Monthly Report \|\| July](governance-proposal-reports/1561-proposal-77-input-global-monthly-report-july.md) | :bookmark_tabs: Governance Proposal Reports | [@apakhtina](https://github.com/apakhtina) | 2026-08-07 |
 | [1477](governance-proposal-reports/1477-proposal-74-gonka-labs-monthly-report-no1.md) | [Proposal #74: Gonka Labs - Monthly Report No.1](governance-proposal-reports/1477-proposal-74-gonka-labs-monthly-report-no1.md) | :bookmark_tabs: Governance Proposal Reports | [@gonkalabs](https://github.com/gonkalabs) | 2026-08-05 |
 | [1540](governance-proposal-reports/1540-proposal-51-webx-asia-2026-post-event-report.md) | [Proposal #51: WebX Asia 2026 — Post-Event Report](governance-proposal-reports/1540-proposal-51-webx-asia-2026-post-event-report.md) | :bookmark_tabs: Governance Proposal Reports | [@Ryanchen911](https://github.com/Ryanchen911) | 2026-08-05 |
-| [864](ecosystem/0864-proposal-deploy-gonka-ai-web-platform-v1-to-production-appgo.md) | [Proposal: Deploy Gonka AI Web Platform v1 to Production (app.gonka.ai)](ecosystem/0864-proposal-deploy-gonka-ai-web-platform-v1-to-production-appgo.md) | :jigsaw: Ecosystem | [@zpoken](https://github.com/zpoken) | 2026-08-05 |
