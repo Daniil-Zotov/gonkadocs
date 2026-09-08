@@ -4,7 +4,7 @@ title: "GitHub Discussions"
 
 # GitHub Discussions — `gonka-ai/gonka`
 
-Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **97**. Обновлено: `2026-09-07 23:27 UTC`.
+Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **97**. Обновлено: `2026-09-08 04:25 UTC`.
 
 ## 📂 Категории
 
@@ -22,8 +22,9 @@ title: "GitHub Discussions"
 
 | # | Заголовок | Категория | Автор | Обновлено |
 |---:|---|---|---|---|
+| [1721](protocol-improvements/1721-community-interest-adding-glm-53-flash-and-qwen38-flash-next.md) | [Community interest: adding GLM-5.3-Flash and Qwen3.8-Flash-Next to the lineup?](protocol-improvements/1721-community-interest-adding-glm-53-flash-and-qwen38-flash-next.md) | :gear: Protocol Improvements | [@Ryanchen911](https://github.com/Ryanchen911) | 2026-09-08 |
+| [1668](protocol-improvements/1668-proposal-raise-the-deepseek-coefficient-to-0400.md) | [Proposal: raise the DeepSeek coefficient to 0.400](protocol-improvements/1668-proposal-raise-the-deepseek-coefficient-to-0400.md) | :gear: Protocol Improvements | [@knyazev741](https://github.com/knyazev741) | 2026-09-08 |
 | [1619](general/1619-phase-out-kimi-k26.md) | [Phase out Kimi K2.6](general/1619-phase-out-kimi-k26.md) | :speech_balloon: General | [@paranjko](https://github.com/paranjko) | 2026-09-07 |
-| [1721](protocol-improvements/1721-community-interest-adding-glm-53-flash-and-qwen38-flash-next.md) | [Community interest: adding GLM-5.3-Flash and Qwen3.8-Flash-Next to the lineup?](protocol-improvements/1721-community-interest-adding-glm-53-flash-and-qwen38-flash-next.md) | :gear: Protocol Improvements | [@Ryanchen911](https://github.com/Ryanchen911) | 2026-09-07 |
 | [1589](ecosystem/1589-bring-gnk-and-gonka-to-the-ledger-ecosystem.md) | [Bring GNK and Gonka to the Ledger Ecosystem](ecosystem/1589-bring-gnk-and-gonka-to-the-ledger-ecosystem.md) | :jigsaw: Ecosystem | [@Isabella0319](https://github.com/Isabella0319) | 2026-09-07 |
 | [1704](governance-proposal-reports/1704-proposal-99-support-gonkas-presence-at-token2049-singapore-2.md) | [Proposal #99: Support Gonka’s Presence at TOKEN2049 Singapore 2026](governance-proposal-reports/1704-proposal-99-support-gonkas-presence-at-token2049-singapore-2.md) | :bookmark_tabs: Governance Proposal Reports | [@Isabella0319](https://github.com/Isabella0319) | 2026-09-07 |
 | [1711](show-and-tell/1711-gonka-labs-gonka-chat-wallet-to-wallet-messaging-on-gonka.md) | [Gonka Labs: Gonka Chat - Wallet-to-Wallet messaging on Gonka](show-and-tell/1711-gonka-labs-gonka-chat-wallet-to-wallet-messaging-on-gonka.md) | :raised_hands: Show and Tell | [@gonkalabs](https://github.com/gonkalabs) | 2026-09-03 |
@@ -31,7 +32,6 @@ title: "GitHub Discussions"
 | [1685](protocol-improvements/1685-devshard-load-testing.md) | [Devshard Load Testing](protocol-improvements/1685-devshard-load-testing.md) | :gear: Protocol Improvements | [@aikuznetsov](https://github.com/aikuznetsov) | 2026-09-02 |
 | [1614](governance-proposal-reports/1614-proposal-74-gonka-labs-monthly-report-no2.md) | [Proposal #74: Gonka Labs - Monthly Report No.2](governance-proposal-reports/1614-proposal-74-gonka-labs-monthly-report-no2.md) | :bookmark_tabs: Governance Proposal Reports | [@ptd-bot](https://github.com/ptd-bot) | 2026-09-01 |
 | [1667](q-a/1667-ibc-withdrawal-blocked-neutron-client-07-tendermint-3-is-exp.md) | [IBC withdrawal blocked: Neutron client 07-tendermint-3 is expired](q-a/1667-ibc-withdrawal-blocked-neutron-client-07-tendermint-3-is-exp.md) | :interrobang: Q&A | [@xX-mabster-Xx](https://github.com/xX-mabster-Xx) | 2026-09-01 |
-| [1668](protocol-improvements/1668-proposal-raise-the-deepseek-coefficient-to-0400.md) | [Proposal: raise the DeepSeek coefficient to 0.400](protocol-improvements/1668-proposal-raise-the-deepseek-coefficient-to-0400.md) | :gear: Protocol Improvements | [@knyazev741](https://github.com/knyazev741) | 2026-08-29 |
 | [1648](ecosystem/1648-running-our-own-devshard-gateway-plan-economics-and-what-hos.md) | [Running our own devshard gateway — plan, economics, and what hosts want to see for allowlisting](ecosystem/1648-running-our-own-devshard-gateway-plan-economics-and-what-hos.md) | :jigsaw: Ecosystem | [@theaungmyatmoe](https://github.com/theaungmyatmoe) | 2026-08-29 |
 | [1636](protocol-improvements/1636-proposal-cache-served-token-pricing.md) | [Proposal: Cache-Served Token Pricing](protocol-improvements/1636-proposal-cache-served-token-pricing.md) | :gear: Protocol Improvements | [@theaungmyatmoe](https://github.com/theaungmyatmoe) | 2026-08-24 |
 | [1617](governance-proposal-reports/1617-outdated-proposal-74-gonka-labs-monthly-report-no-2.md) | [(outdated) Proposal #74: Gonka Labs - Monthly Report No. 2](governance-proposal-reports/1617-outdated-proposal-74-gonka-labs-monthly-report-no-2.md) | :bookmark_tabs: Governance Proposal Reports | [@nsvdev](https://github.com/nsvdev) | 2026-08-20 |

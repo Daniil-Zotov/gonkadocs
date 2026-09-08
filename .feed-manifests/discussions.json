@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-09-07T23:27:29.292969+00:00",
+  "snapshot_time": "2026-09-08T04:25:43.058278+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "Welcome to Gonka Discussions 👋",
@@ -402,7 +402,7 @@
       "title": "Proposal: raise the DeepSeek coefficient to 0.400",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1668](https://github.com/gonka-ai/gonka/discussions/1668) every hour. \n\n# Proposal: raise the DeepSeek coefficient to 0.400\n\n**Автор:** [@knyazev741](https://github.com/knyazev741) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-08-28 14:03 UTC · \n\n---\n\n## 📝 Описание\n\nRussian version: https://telegra.ph/DeepSeek-WSF-0400-pust-subsidiya-pokupaet-poleznuyu-rabotu-08-28\n\nGonka hosts currently get most of their income not from inference payments, but from RewardCoin subsidy. The pool is fixed and split by scaled PoC. Utilization bonuses in the code do not run. Dynamic pricing is off. All models are priced the same. Hardware therefore follows the `weight_scale_factor` coefficient, not the user queue.\n\nThe queue and the coefficient point in ",
-      "checksum": "3775796f4a2b4b14ad4f949d3bad4b93c638605b0837e3c79ecdb5c622d40abf"
+      "checksum": "9f11e75a65cb9b84676236fd7742e69dc8e31b9f9f2f9a8813d25cb8695f9197"
     },
     "protocol-improvements/1685-devshard-load-testing.md": {
       "title": "Devshard Load Testing",
@@ -414,7 +414,7 @@
       "title": "Community interest: adding GLM-5.3-Flash and Qwen3.8-Flash-Next to the lineup?",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1721](https://github.com/gonka-ai/gonka/discussions/1721) every hour. \n\n# Community interest: adding GLM-5.3-Flash and Qwen3.8-Flash-Next to the lineup?\n\n**Автор:** [@Ryanchen911](https://github.com/Ryanchen911) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-09-07 09:47 UTC · \n\n---\n\n## 📝 Описание\n\nWould the community be interested in adding these two models to Gonka?\n\n- **GLM-5.3-Flash**\n- **Qwen3.8-Flash-Next** (qwen4exp)\n\nIf so, which one would you want prioritized first?\n\n---\n\n## 💬 Комментарии (1)\n\n### Комментарий 1 — [@paranjko](https://github.com/paranjko)\n\n*2026-09-07 18:52 UTC*\n\nI think we should have both models. From what I know from talking to hosts and contributor teams, **GLM 5.3 Flash is basically ready** for a vote, and ",
-      "checksum": "ed7a824ba8e8ff79facf479089c0c1aa71fcb2731f8f1aa1a175e6f3ffae5d95"
+      "checksum": "7ad6b7add99970c1dcd2a9b83b483c793e5c420a9f1fc87cf90fb837d2fad08c"
     },
     "q-a/0796-are-there-plans-to-add-prompt-level-confidentiality-for-host.md": {
       "title": "Are there plans to add prompt-level confidentiality for hosts?",
