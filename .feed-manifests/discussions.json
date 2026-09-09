@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-09-09T05:55:33.088618+00:00",
+  "snapshot_time": "2026-09-09T11:14:00.469000+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "Welcome to Gonka Discussions 👋",
@@ -48,7 +48,7 @@
       "title": "Bring GNK and Gonka to the Ledger Ecosystem",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1589](https://github.com/gonka-ai/gonka/discussions/1589) every hour. \n\n# Bring GNK and Gonka to the Ledger Ecosystem\n\n**Автор:** [@Isabella0319](https://github.com/Isabella0319) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-08-13 09:09 UTC · \n\n---\n\n## 📝 Описание\n\nHi everyone! This is Isabel from 6Block. I’d like to share an important update.\n\n6Block has reached an agreement with Ledger to bring GNK and Gonka into the Ledger ecosystem. The goal is to support the integration of Gonka’s native coin, GNK, and wGNK across Ledger’s relevant infrastructure, including Ledger Devices and Ledger Wallet. \n\nThis is a major step for Gonka. Ledger is one of the leading wallet and custody infrastructure brands in crypto, and we believe Gonka should work wit",
-      "checksum": "e0e8d451de808d7cf08baf30f18bd8b8336c03d4791916992e8b256f40b1cd2e"
+      "checksum": "24534ff922c5dbc04c80f754f1fba618461e96b4156d77486d6ffcb28e14fcb9"
     },
     "ecosystem/1648-running-our-own-devshard-gateway-plan-economics-and-what-hos.md": {
       "title": "Running our own devshard gateway — plan, economics, and what hosts want to see for allowlisting",
@@ -139,6 +139,12 @@
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1704](https://github.com/gonka-ai/gonka/discussions/1704) every hour. \n\n# Proposal #99: Support Gonka’s Presence at TOKEN2049 Singapore 2026\n\n**Автор:** [@Isabella0319](https://github.com/Isabella0319) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-09-02 07:48 UTC · \n\n---\n\n## 📝 Описание\n\n## **Summary**\n\n6Block proposes that the Gonka community allocate **100,000 USDT from the Community Pool** to support Gonka’s participation at **TOKEN2049 Singapore 2026**, taking place on **7–8 October 2026 at Marina Bay Sands, Singapore**.\n\nThe requested funds will be used to cover the **TOKEN2049 Singapore Gold Sponsorship package** and related logistics required to make Gonka’s presence effective, including travel, accommodation, lo",
       "checksum": "445a6ebd9fb4a5a039e46e8326c59ebd8aadd21506906db5708c29263e9ae83d"
+    },
+    "governance-proposal-reports/1742-proposal-102-ratify-quant-mesh-limited-as-the-ledger-integra.md": {
+      "title": "Proposal #102: Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment",
+      "status": null,
+      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1742](https://github.com/gonka-ai/gonka/discussions/1742) every hour. \n\n# Proposal #102: Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment\n\n**Автор:** [@Isabella0319](https://github.com/Isabella0319) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-09-09 08:42 UTC · \n\n---\n\n## 📝 Описание\n\n## **Summary**\n\n6Block proposes that the Gonka community:\n\n1. **Ratify and authorize Quant Mesh Limited** as the legal contracting counterparty for the Gonka integration agreement with Ledger.  \n2. **Allocate 350,350 USDT from the Gonka Community Pool** to Quant Mesh Limited for the purpose of paying Ledger under the signed Ledger integration agreement.\n\nQuant Mesh Limited, a ",
+      "checksum": "1470220ed7f869363d43cff06ced6f3e96fbd1ecd2d35f675f6434c804e9e34f"
     },
     "protocol-improvements/0795-welcome-to-proposals.md": {
       "title": "Welcome to Proposals 👋",

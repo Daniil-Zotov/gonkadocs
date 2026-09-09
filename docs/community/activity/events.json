@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260909111328_85d2de59",
+    "timestamp": "2026-09-09T11:13:28.295354+00:00",
+    "section": "discussions",
+    "action": "new",
+    "item": {
+      "title": "Proposal #102: Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment",
+      "url": "/community/discussion/governance-proposal-reports/1742-proposal-102-ratify-quant-mesh-limited-as-the-ledger-integra/",
+      "file": "governance-proposal-reports/1742-proposal-102-ratify-quant-mesh-limited-as-the-ledger-integra.md"
+    },
+    "details": {
+      "status": null,
+      "content": "> 🔄 **Auto-sync:** from [Discussion #1742](https://github.com/gonka-ai/gonka/discussions/1742) every hour. \n\n# Proposal #102: Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment\n\n**Автор:** [@Isabella0319](https://github.com/Isabella0319) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-09-09 08:42 UTC · \n\n---\n\n## 📝 Описание\n\n## **Summary**\n\n6Block proposes that the Gonka community:\n\n1. **Ratify and authorize Quant Mesh Limited** as the legal contracting counterparty for the Gonka integration agreement with Ledger.  \n2. **Allocate 350,350 USDT from the Gonka Community Pool** to Quant Mesh Limited for the purpose of paying Ledger under the signed Ledger integration agreement.\n\nQuant Mesh Limited, a "
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260909103222_6c7cf051",
     "timestamp": "2026-09-09T10:32:22.321660+00:00",
     "section": "gonka_docs",
@@ -8806,23 +8822,5 @@
       "funding": ""
     },
     "ai_description": "A new governance proposal #86 has been published: it suggests increasing the weight coefficients for the Kimi-K2.6 and GLM-5.2 models by 5%. The parameter update is now open for community voting. Make sure to participate so your vote influences how the workload is distributed across models."
-  },
-  {
-    "id": "evt_20260714140910_620999b4",
-    "timestamp": "2026-07-14T14:09:10.392132+00:00",
-    "section": "preproposals",
-    "action": "status_changed",
-    "item": {
-      "title": "External Test Lab & Community DevNet",
-      "url": "/proposals/preproposals/205219a5-6ed2-4f25-8d22-fa7c65a45ba6/",
-      "file": "205219a5-6ed2-4f25-8d22-fa7c65a45ba6/index.md"
-    },
-    "details": {
-      "content_before": "# External Test Lab & Community DevNet\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Sergii Paranko\n**Created:** 2026-07-04 12:00 UTC\n**Closes:** 2026-07-14 11:44 UTC\n**Language:** EN\n**Votes:** 4\n**Avg. Bid:** 168.7K GNK\n\n</div>\n\n4-month pilot proposal for community-owned testing infrastructure and QA capacity.\n\n---\n\n## Full Proposal\n\nExecutive Summary\n\nThis proposal requests funding for a 4-month pilot of External Test Lab & Community DevNet: a community-owned testing function for Gonka protocol upgrades, DevShards, inference flows, host/broker operations, and geographically distributed network behavior before governance decisions and production rollout.\n\n| **Item**              | **Proposal**                                  ",
-      "content_after": "# External Test Lab & Community DevNet\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🔴 Expired</div>\n\n**Author:** Sergii Paranko\n**Created:** 2026-07-04 12:00 UTC\n**Closes:** 2026-07-14 11:44 UTC\n**Language:** EN\n**Votes:** 4\n**Avg. Bid:** 168.7K GNK\n\n</div>\n\n4-month pilot proposal for community-owned testing infrastructure and QA capacity.\n\n---\n\n## Full Proposal\n\nExecutive Summary\n\nThis proposal requests funding for a 4-month pilot of External Test Lab & Community DevNet: a community-owned testing function for Gonka protocol upgrades, DevShards, inference flows, host/broker operations, and geographically distributed network behavior before governance decisions and production rollout.\n\n| **Item**              | **Proposal**                                 ",
-      "status_before": "active",
-      "status_after": "expired"
-    },
-    "ai_description": "Sergii Paranko's proposal to launch the External Test Lab and Community DevNet, requesting approximately 168.7K GNK in funding, did not gather enough support and has moved from Active to Expired status. This means the pilot to create public test infrastructure and QA functions for the Gonka protocol will not be implemented at this time, and the community should expect a revised version or alternative testing approaches before production."
   }
 ]

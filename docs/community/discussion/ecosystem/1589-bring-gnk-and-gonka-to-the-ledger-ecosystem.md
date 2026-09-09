@@ -3,14 +3,14 @@ title: "#1589 — Bring GNK and Gonka to the Ledger Ecosystem"
 source: https://github.com/gonka-ai/gonka/discussions/1589
 discussion_number: 1589
 category: ecosystem
-synced_at: 2026-09-09T05:54:44Z
+synced_at: 2026-09-09T11:13:03Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1589](https://github.com/gonka-ai/gonka/discussions/1589) every hour. 
 
 # Bring GNK and Gonka to the Ledger Ecosystem
 
-**Автор:** [@Isabella0319](https://github.com/Isabella0319) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-08-13 09:09 UTC · **Обновлено:** 2026-09-07 18:52 UTC
+**Автор:** [@Isabella0319](https://github.com/Isabella0319) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-08-13 09:09 UTC · **Обновлено:** 2026-09-09 08:41 UTC
 
 ---
 
@@ -58,12 +58,6 @@ The agreement covers the integration of Gonka’s native coin **GNK** and wrappe
 This proposal is strictly limited to the Ledger integration and the initial payment required under the signed agreement. It does not grant Quant Mesh Limited a general mandate to represent Gonka in unrelated matters.
 
 Quant Mesh Limited is acting solely as a facilitating agent for the Gonka DAO on a best-effort, non-profit basis. Quant Mesh Limited shall not be liable to the Gonka community or DAO for third-party performance, delays, or failures on the part of Ledger.
-
-## **Proposed Authorized Entity**
-
-**Company name:** Quant Mesh Limited  
-**Company number:** 78217223  
-**Address:** Unit A, 22/F, Wing Cheong Commercial Building, 23 Jervois Street, Sheung Wan, Hong Kong
 
 ## **Background**
 
@@ -211,7 +205,7 @@ Thank you, and we’re looking forward to your feedback!
 
 ---
 
-## 💬 Комментарии (2)
+## 💬 Комментарии (3)
 
 ### Комментарий 1 — [@julb1992](https://github.com/julb1992)
 
@@ -246,3 +240,77 @@ Thanks.
 
 Hello
  is there approximate dates when gonka will be on Ledger?
+
+### Комментарий 3 — [@Isabella0319](https://github.com/Isabella0319)
+
+*2026-09-09 08:26 UTC*
+
+Hi, all! Thanks for your comments! We did an AMA with Ledger on September 8th. Below is a recap. It should answer most of the questions regarding the integration of Gonka, GNK, and Ledger. 
+
+**Guests:**
+Sebastien Vaillant, Ledger
+Vadim Krutov, Bitfury
+Sergey Ulankin, Gonka Community Contributor
+
+**Host:**
+Sultan Suleimanov, Gonka socials lead
+
+**1. What is Ledger?**
+
+Sebastien:
+
+- Founded in 2014, Ledger is the global pioneer and market leader in hardware security, operating continuously across multiple market cycles.  
+- Has sold over 8 million devices worldwide and secures more than 20% of the world's crypto assets.  
+- Serves as a trusted gateway connecting emerging blockchain protocols to one of the largest and most qualified user bases in Web3.  
+- Covers retail users through hardware devices and the Ledger Live desktop/mobile application for managing, sending, and receiving assets.  
+- Provides Ledger Enterprise, an institutional custody platform trusted globally by banks, centralized exchanges, family offices, and payment service providers.
+
+
+**2. What Does This Integration Mean for Gonka?**
+
+Sebastien:
+
+- Delivers dual technical support across the Ledger ecosystem: native Gonka blockchain support (GNK) and Wrapped Gonka (wGNK) on Ethereum.  
+- Enables native asset management inside Ledger Live, allowing users to view balances, receive, send, and hold GNK securely.  
+- Integrates buy/sell fiat on/off-ramps and in-app token swap capabilities powered by integrated third-party swap providers.  
+- Grants Gonka institutional availability through Ledger Enterprise, enabling corporate custodians, funds, and tokenization projects to manage GNK.  
+- Estimated implementation timeline is 1 to 4 months from contract execution to public launch.  
+- Includes a comprehensive co-marketing package featuring official launch announcements, Ledger Academy educational articles, social media campaigns, and joint AMAs/podcasts on Ledger channels.
+
+**3. Importance for the Network, Institutions, and Miners**
+
+Vadim:
+
+- Gonka possesses exceptional technical fundamentals and rapidly expanding GPU compute, on track to become the distributed AI inference network worldwide, but compute must be matched by real-world adoption.  
+- Achieving adoption requires surrounding the protocol with reputable Tier-1 partners, mirroring prior engagements with HackerOne (bug bounties) and Trail of Bits (security audits).  
+- Institutional funds and large players seeking to deploy millions into GNK require battle-tested, native cold storage before deploying capital.  
+- Existing wallet solutions are insufficient for institutional risk and compliance standards; native Ledger support removes the primary blocker for institutional capital.  
+- Provides vital cold-storage infrastructure ahead of anticipated centralized exchange (CEX) listings, giving traders a secure way to hold tokens off-exchange.  
+- Delivers essential security for large-scale hardware providers and miners (including Bitfury itself), who strongly prefer holding mined GNK on Ledger rather than hot wallets.
+
+**4. Marketing Upsides & Business Development Impact**
+
+Sergey:
+
+- This integration will reinforce Gonka’s market positioning: building the decentralized AI network requires partnering with the hardware security provider.  
+- Provides immediate legitimacy and an institutional stamp of approval that significantly strengthens business development discussions with CEXs and enterprise partners.  
+- Directly exposes Gonka to Ledger's active user base.  
+- Features dedicated educational articles and buying guides on Ledger’s website, capturing long-term organic search traffic for Gonka queries.  
+- Includes promotional coverage across Ledger’s social channels, official newsletter/email distributions, and dedicated podcast/interview appearances.
+
+**5. Proposal Mechanics, 6Block’s Role & Budget**
+
+Sergey:
+- Because Gonka is a decentralized protocol without a legal entity, a trusted community participant was required to execute the commercial agreement and complete onboarding.  
+- 6Block was selected because they are original, trusted miners and contributors who have supported Gonka since day one.  
+- 6Block successfully completed several months of thorough KYC/KYB compliance and legal verification with Ledger.  
+- The integration agreement costs $350,000; the proposal requests this amount plus 0.1% to cover cryptocurrency network transfer fees.  
+- 6Block receives zero profit, commission, or markup from the proposal, acting strictly as a community fiduciary aligned with long-term network growth.  
+- If the community rejects the proposal, the agreement with Ledger will simply be voided, and alternative community arrangements would need to be explored.
+
+**6. Closing Remarks**
+
+• Vadim (Bitfury) reaffirmed full support for the proposal, emphasizing that integrating with Ledger is a landmark milestone on the protocol’s roadmap and urging the community to vote "Yes".  
+• Sebastien (Ledger) thanked the team, noted the diligence of the multi-month compliance process, and expressed excitement for the upcoming partnership.  
+• Sergey (Gonka Community) stated that the formal governance proposal will be submitted for voting most likely on Wednesday.
+
