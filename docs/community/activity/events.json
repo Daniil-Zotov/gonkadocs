@@ -17,7 +17,7 @@
       "event_type": "proposal_vote_end",
       "url": "/proposals/proposals/2026-q3/100/"
     },
-    "ai_description": null
+    "ai_description": "Added: Voting ends: #100 – devshard v4.1. Add v4.1 to the approved list of devshard versions."
   },
   {
     "id": "evt_20260909022015_b6cd3fce",
@@ -37,7 +37,7 @@
       "event_type": "proposal_vote_end",
       "url": "/proposals/proposals/2026-q3/101/"
     },
-    "ai_description": null
+    "ai_description": "Added: Voting ends: #101 – Add GLM-5.3-Flash, remove Kimi-K2.6 and GLM-5.2-FP8 from PoC models. Add zai-org/GLM-5.3-Flash as a governance-approved model and PoC model. Remove moonshotai/Kimi-K2.6 and zai-org/GLM-5.2-FP8 from poc_params.models. MiniMaxAI/MiniMax-M2.7 and deepseek-ai/DeepSeek-V4-…"
   },
   {
     "id": "evt_20260909002817_0bbe88c7",

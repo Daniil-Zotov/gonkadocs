@@ -83,7 +83,7 @@ hide:
   </div>
   <div class="prop-card-desc">Add v4.1 to the approved list of devshard versions.</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (38,083)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>7.0%</strong> (38,083 / 546,244) · Quorum <strong>25%</strong> (136,561)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>7.4%</strong> (38,083 / 514,062) · Quorum <strong>25%</strong> (128,515)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
