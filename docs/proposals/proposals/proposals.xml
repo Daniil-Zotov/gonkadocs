@@ -7,6 +7,16 @@
     <language>en</language>
     <atom:link href="https://gonkadocs.com/proposals/proposals/proposals.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>#102 – Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q3/102/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q3/102/</guid>
+      <pubDate>Wed, 09 Sep 2026 09:28:14 +0000</pubDate>
+      <category>Voting</category>
+      <description>6Block proposes that the Gonka community ratify and authorize Quant Mesh Limited as the legal contracting counterparty for the Gonka-Ledger integration and allocate 350,350 USDT from the Community Pool to Quant Mesh Limited at gonka1yqj5xf0wtqgpdmv5v68cus0tp2j5fv7lzcfd6g.
+
+The allocation consists of 350,000 USDT for the initial Ledger integration payment (275,000 USDT Phase 1 Launch Fees and 75,000 USDT first-year Annual Activation Fee) plus 350 USDT for processing costs. This authorization and </description>
+    </item>
+    <item>
       <title>#101 – Add GLM-5.3-Flash, remove Kimi-K2.6 and GLM-5.2-FP8 from PoC models</title>
       <link>https://gonkadocs.com/proposals/proposals/2026-q3/101/</link>
       <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q3/101/</guid>
