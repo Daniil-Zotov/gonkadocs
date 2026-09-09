@@ -28904,7 +28904,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   
   6Block proposes that the Gonka community ratify and authorize Quant Mesh Limited as the legal contracting counterparty for the Gonka-Ledger integration and allocate 350,350 USDT from the Community Poo…
   Yes 98.4% (141,655) · No 0.0% (0) · Veto 0.0% (0) · Abstain 1.6% (2,320)$350,350 · Community Pool
-  ✓ Turnout 29.4% (143,975 / 489,658) · Quorum 25% (122,414)
+  ✓ Turnout 29.6% (143,975 / 485,611) · Quorum 25% (121,402)
 
   
     #101 – Add GLM-5.3-Flash, remove Kimi-K2.6 and GLM-5.2-FP8 from PoC models
@@ -28917,7 +28917,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   
   Add zai-org/GLM-5.3-Flash as a governance-approved model and PoC model. Remove moonshotai/Kimi-K2.6 and zai-org/GLM-5.2-FP8 from poc_params.models.  MiniMaxAI/MiniMax-M2.7 and deepseek-ai/DeepSeek-V4-…
   Yes 98.4% (145,644) · No 0.0% (0) · Veto 0.0% (0) · Abstain 1.6% (2,422)
-  ✓ Turnout 30.2% (148,066 / 489,658) · Quorum 25% (122,414)
+  ✓ Turnout 30.5% (148,066 / 485,611) · Quorum 25% (121,402)
 
   
     #100 – devshard v4.1
@@ -28930,7 +28930,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   
   Add v4.1 to the approved list of devshard versions.
   Yes 100.0% (148,742) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✓ Turnout 30.4% (148,742 / 489,658) · Quorum 25% (122,414)
+  ✓ Turnout 30.6% (148,742 / 485,611) · Quorum 25% (121,402)
 
   
     #99 – Support Gonka's presence at TOKEN2049 Singapore
@@ -30053,7 +30053,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-101 proposals across 5 quarters. Last updated: 2026-09-09 14:41 UTC
+101 proposals across 5 quarters. Last updated: 2026-09-09 16:00 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -67198,7 +67198,7 @@ $90,075 USDT · Bounty Reward
   
   6Block proposes that the Gonka community ratify and authorize Quant Mesh Limited as the legal contracting counterparty for the Gonka-Ledger integration and allocate 350,350 USDT from the Community Poo…
   Yes 98.4% (141,655) · No 0.0% (0) · Veto 0.0% (0) · Abstain 1.6% (2,320)$350,350 · Community Pool
-  ✓ Turnout 29.4% (143,975 / 489,658) · Quorum 25% (122,414)
+  ✓ Turnout 29.6% (143,975 / 485,611) · Quorum 25% (121,402)
 
   
     #101 – Add GLM-5.3-Flash, remove Kimi-K2.6 and GLM-5.2-FP8 from PoC models
@@ -67211,7 +67211,7 @@ $90,075 USDT · Bounty Reward
   
   Add zai-org/GLM-5.3-Flash as a governance-approved model and PoC model. Remove moonshotai/Kimi-K2.6 and zai-org/GLM-5.2-FP8 from poc_params.models.  MiniMaxAI/MiniMax-M2.7 and deepseek-ai/DeepSeek-V4-…
   Yes 98.4% (145,644) · No 0.0% (0) · Veto 0.0% (0) · Abstain 1.6% (2,422)
-  ✓ Turnout 30.2% (148,066 / 489,658) · Quorum 25% (122,414)
+  ✓ Turnout 30.5% (148,066 / 485,611) · Quorum 25% (121,402)
 
   
     #100 – devshard v4.1
@@ -67224,7 +67224,7 @@ $90,075 USDT · Bounty Reward
   
   Add v4.1 to the approved list of devshard versions.
   Yes 100.0% (148,742) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✓ Turnout 30.4% (148,742 / 489,658) · Quorum 25% (122,414)
+  ✓ Turnout 30.6% (148,742 / 485,611) · Quorum 25% (121,402)
 
   
     #99 – Support Gonka's presence at TOKEN2049 Singapore
@@ -67507,7 +67507,7 @@ Add v4.1 to the approved list of devshard versions.
     Veto 0.0% (0)
     Abstain 0.0% (0)
     Total 148,742 votes
-    ✓ Turnout 30.4% (148,742 / 489,658) · Quorum 25% (122,414)
+    ✓ Turnout 30.6% (148,742 / 485,611) · Quorum 25% (121,402)
   
 
 Voters
@@ -68056,7 +68056,7 @@ The activation epoch (penalty_start_epoch) for GLM-5.3-Flash is 394.
     Veto 0.0% (0)
     Abstain 1.6% (2,422)
     Total 148,066 votes
-    ✓ Turnout 30.2% (148,066 / 489,658) · Quorum 25% (122,414)
+    ✓ Turnout 30.5% (148,066 / 485,611) · Quorum 25% (121,402)
   
 
 Voters
@@ -68605,7 +68605,7 @@ The allocation consists of 350,000 USDT for the initial Ledger integration payme
     Veto 0.0% (0)
     Abstain 1.6% (2,320)
     Total 143,975 votes
-    ✓ Turnout 29.4% (143,975 / 489,658) · Quorum 25% (122,414)
+    ✓ Turnout 29.6% (143,975 / 485,611) · Quorum 25% (121,402)
   
 
 Voters
