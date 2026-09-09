@@ -68,8 +68,8 @@ hide:
     <span>Voting ends 2026-09-11</span>
   </div>
   <div class="prop-card-desc">6Block proposes that the Gonka community ratify and authorize Quant Mesh Limited as the legal contracting counterparty for the Gonka-Ledger integration and allocate 350,350 USDT from the Community Poo…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (1,742)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding prop-card-funding-voting">$350,350 · Community Pool</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>0.3%</strong> (1,742 / 513,386) · Quorum <strong>25%</strong> (128,346)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (1,755)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding prop-card-funding-voting">$350,350 · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>0.4%</strong> (1,755 / 489,658) · Quorum <strong>25%</strong> (122,414)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-voting" data-voting-end="2026-09-10T23:17:27.402122371Z">
@@ -83,8 +83,8 @@ hide:
     <span>Voting ends 2026-09-10</span>
   </div>
   <div class="prop-card-desc">Add zai-org/GLM-5.3-Flash as a governance-approved model and PoC model. Remove moonshotai/Kimi-K2.6 and zai-org/GLM-5.2-FP8 from poc_params.models.  MiniMaxAI/MiniMax-M2.7 and deepseek-ai/DeepSeek-V4-…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>51.8%</strong> (3,363)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>48.2%</strong> (3,124)</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>1.3%</strong> (6,487 / 513,386) · Quorum <strong>25%</strong> (128,346)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>58.6%</strong> (3,424)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>41.4%</strong> (2,422)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>1.2%</strong> (5,846 / 489,658) · Quorum <strong>25%</strong> (122,414)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-voting" data-voting-end="2026-09-10T22:36:34.311913031Z">
@@ -98,8 +98,8 @@ hide:
     <span>Voting ends 2026-09-10</span>
   </div>
   <div class="prop-card-desc">Add v4.1 to the approved list of devshard versions.</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (43,894)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>8.5%</strong> (43,894 / 513,386) · Quorum <strong>25%</strong> (128,346)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (47,387)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>9.7%</strong> (47,387 / 489,658) · Quorum <strong>25%</strong> (122,414)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
