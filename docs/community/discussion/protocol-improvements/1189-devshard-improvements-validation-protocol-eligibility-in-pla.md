@@ -3,7 +3,7 @@ title: "#1189 — `devshard improvements` Validation protocol: eligibility, in-p
 source: https://github.com/gonka-ai/gonka/discussions/1189
 discussion_number: 1189
 category: protocol-improvements
-synced_at: 2026-09-09T00:06:00Z
+synced_at: 2026-09-09T05:55:01Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1189](https://github.com/gonka-ai/gonka/discussions/1189) every hour. 
