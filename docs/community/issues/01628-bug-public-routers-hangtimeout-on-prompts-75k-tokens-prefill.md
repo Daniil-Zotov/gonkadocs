@@ -2,7 +2,7 @@
 title: "#1628 — [BUG] Public routers hang/timeout on prompts ≥ ~7.5K tokens (prefill); 502 `all_providers_failed`; DeepSeek missing from /v1/models"
 source: https://github.com/gonka-ai/gonka/issues/1628
 issue_number: 1628
-synced_at: 2026-09-09T14:39:39Z
+synced_at: 2026-09-09T18:41:39Z
 template: issues-main.html
 ---
 
