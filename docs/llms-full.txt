@@ -28747,12 +28747,12 @@ HardCore Arena позволит протестировать модель на �
 
 ## Overview
 
-100Total Proposals
-66Passed (66%)
+101Total Proposals
+66Passed (65%)
 31Rejected (31%)
 1Failed (1%)
 
-Funding / Grants40
+Funding / Grants41
 Governance Parameters33
 Software Upgrade18
 Other4
@@ -28764,7 +28764,20 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
 
 ## 2026-Q3
 
-*22 proposals*
+*23 proposals*
+
+  
+    #102 – Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment
+    
+    Voting
+  
+  
+    Submitted 2026-09-09
+    Voting ends 2026-09-11
+  
+  6Block proposes that the Gonka community ratify and authorize Quant Mesh Limited as the legal contracting counterparty for the Gonka-Ledger integration and allocate 350,350 USDT from the Community Poo…
+  Yes 100.0% (1,742) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)$350,350 · Community Pool
+  ✗ Turnout 0.3% (1,742 / 513,386) · Quorum 25% (128,346)
 
   
     #101 – Add GLM-5.3-Flash, remove Kimi-K2.6 and GLM-5.2-FP8 from PoC models
@@ -29913,7 +29926,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-100 proposals across 5 quarters. Last updated: 2026-09-09 09:20 UTC
+101 proposals across 5 quarters. Last updated: 2026-09-09 09:50 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -67031,12 +67044,12 @@ Contract Details
 
 ## 2026-Q3 Summary
 
-22Total Proposals
-14Passed (64%)
-6Rejected (27%)
+23Total Proposals
+14Passed (61%)
+6Rejected (26%)
 
 Governance Parameters12
-Funding / Grants6
+Funding / Grants7
 Software Upgrade2
 Other1
 GRC / Restitution1
@@ -67045,7 +67058,20 @@ GRC / Restitution1
 $90,075 USDT · Bounty Reward
 
 2026-Q3
-22 proposals
+23 proposals
+
+  
+    #102 – Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment
+    
+    Voting
+  
+  
+    Submitted 2026-09-09
+    Voting ends 2026-09-11
+  
+  6Block proposes that the Gonka community ratify and authorize Quant Mesh Limited as the legal contracting counterparty for the Gonka-Ledger integration and allocate 350,350 USDT from the Community Poo…
+  Yes 100.0% (1,742) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)$350,350 · Community Pool
+  ✗ Turnout 0.3% (1,742 / 513,386) · Quorum 25% (128,346)
 
   
     #101 – Add GLM-5.3-Flash, remove Kimi-K2.6 and GLM-5.2-FP8 from PoC models
@@ -68393,6 +68419,86 @@ Contract Details
       "value": "951",
       "exponent": -3
     }
+  }
+]
+```
+
+---
+
+## #102 – Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment
+
+# #102 – Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment
+
+Voting
+
+**Proposal ID:** `102`
+
+**Type:** Execute Contract
+
+**Submit:** 2026-09-09 09:28 UTC
+
+**Voting:** 2026-09-09 09:28 UTC → 2026-09-11 09:28 UTC
+
+**Proposer:** [`gonka15p7s7w2hx0y8095lddd4ummm2y0kwpwljk00aq`](https://gonka.gg/address/gonka15p7s7w2hx0y8095lddd4ummm2y0kwpwljk00aq){:target="_blank"}
+
+**Metadata:** [https://github.com/gonka-ai/gonka/discussions/1589](https://github.com/gonka-ai/gonka/discussions/1589)
+
+$350,350 · Community Pool
+
+[View on gonka.gg](https://gonka.gg/network/proposals/102){:target="_blank"}
+
+6Block proposes that the Gonka community ratify and authorize Quant Mesh Limited as the legal contracting counterparty for the Gonka-Ledger integration and allocate 350,350 USDT from the Community Pool to Quant Mesh Limited at [gonka1yqj5xf0wtqgpdmv5v68cus0tp2j5fv7lzcfd6g](https://gonka.gg/address/gonka1yqj5xf0wtqgpdmv5v68cus0tp2j5fv7lzcfd6g).
+
+The allocation consists of 350,000 USDT for the initial Ledger integration payment (275,000 USDT Phase 1 Launch Fees and 75,000 USDT first-year Annual Activation Fee) plus 350 USDT for processing costs. This authorization and funding are strictly limited to the Ledger integration described in the full proposal.
+
+---
+
+## Final Tally
+
+  
+    
+    
+    
+    
+  
+  
+    Yes 100.0% (1,742)
+    No 0.0% (0)
+    Veto 0.0% (0)
+    Abstain 0.0% (0)
+    Total 1,742 votes
+    ✗ Turnout 0.3% (1,742 / 513,386) · Quorum 25% (128,346)
+  
+
+Voters
+
+VoterVote
+
+gonka1p2lhgn…k6h26mYes 100.0%
+
+---
+## Messages
+
+| # | Type |
+| :- | :--- |
+| 1 | `/cosmwasm.wasm.v1.MsgExecuteContract` |
+
+Contract Details
+
+```json
+[
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "contract": "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2",
+    "msg": {
+      "withdraw_ibc": {
+        "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+        "amount": "350350000000",
+        "recipient": "gonka1yqj5xf0wtqgpdmv5v68cus0tp2j5fv7lzcfd6g"
+      }
+    },
+    "funds": []
   }
 ]
 ```

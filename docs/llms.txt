@@ -24,7 +24,7 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - 2026-09-09 15:00 UTC — TheSoul — Weekly Report Call (#60–#65): https://gonkadocs.com/proposals/proposals/2026-q2/60/
 - 2026-09-10 22:36 UTC — Voting ends: #100 – devshard v4.1: https://gonkadocs.com/proposals/proposals/2026-q3/100/
 - 2026-09-10 23:17 UTC — Voting ends: #101 – Add GLM-5.3-Flash, remove Kimi-K2.6 and GLM-5.2-FP8 from PoC models: https://gonkadocs.com/proposals/proposals/2026-q3/101/
-- 2026-09-16 13:00 UTC — INPUT Global — Weekly Call (#77): https://gonkadocs.com/proposals/proposals/2026-q2/77/
+- 2026-09-11 09:28 UTC — Voting ends: #102 – Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment: https://gonkadocs.com/proposals/proposals/2026-q3/102/
 
 ## Protocol Documentation
 
@@ -236,6 +236,7 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [2026-Q3 Proposals](/proposals/proposals/2026-q3/): Auto-synced content
 - [#96 – Stabilize in-epoch invalid SPRT on small samples](/proposals/proposals/2026-q3/96/): Auto-synced content
 - [#86 – Increase Kimi-K2.6 and GLM-5.2 weight_scale_factor by 5%](/proposals/proposals/2026-q3/86/): Auto-synced content
+- [#102 – Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment](/proposals/proposals/2026-q3/102/): Auto-synced content
 - [#88 – Restore Kimi K2.6 and remove v1, v2](/proposals/proposals/2026-q3/88/): Auto-synced content
 - [External Test Lab & Community DevNet](/proposals/proposals/2026-q3/82/full-proposal/): Auto-synced content
 - [#82 – External Test Lab x Community DevNet](/proposals/proposals/2026-q3/82/): Auto-synced content
