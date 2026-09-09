@@ -1,5 +1,36 @@
 [
   {
+    "id": "evt_20260909215251_b47d2038",
+    "timestamp": "2026-09-09T21:52:51.166363+00:00",
+    "section": "calendar",
+    "action": "daily_reminder",
+    "item": {
+      "title": "Today: 2 events — INPUT Global — Weekly Call (#77), TheSoul — Weekly Report Call (#60–#65)",
+      "url": "/community/calendar/",
+      "file": null
+    },
+    "details": {
+      "today": [
+        {
+          "title": "INPUT Global — Weekly Call (#77)",
+          "date": "2026-09-09",
+          "time": "13:00 UTC",
+          "event_type": "committee_call",
+          "url": "/proposals/proposals/2026-q2/77/"
+        },
+        {
+          "title": "TheSoul — Weekly Report Call (#60–#65)",
+          "date": "2026-09-09",
+          "time": "15:00 UTC",
+          "event_type": "committee_call",
+          "url": "/proposals/proposals/2026-q2/60/"
+        }
+      ],
+      "count": 2
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260909184418_86fcc21d",
     "timestamp": "2026-09-09T18:44:18.272909+00:00",
     "section": "issues",
@@ -7771,20 +7802,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P1] Maintenance window for hosts\n    <span class=\"issues-number\">#927</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-03-20 23:39 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span"
     },
     "ai_description": "Removed: #927 — [P1] Maintenance window for hosts. <div class=\"issues-detail-header\"> <h1 class=\"issues-detail-title\"> <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 "
-  },
-  {
-    "id": "evt_20260909144015_c660ca9e",
-    "timestamp": "2026-09-09T14:40:15.270642+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#928 — [P1] Open Questions: Block Gas Limits, Fees, Cost per Participant, and System TX Prioritization",
-      "url": null,
-      "file": "00928-p1-open-questions-block-gas-limits-fees-cost-per-participant.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P1] Open Questions: Block Gas Limits, Fees, Cost per Participant, and System TX Prioritization\n    <span class=\"issues-number\">#928</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-03-20 23:46 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div"
-    },
-    "ai_description": "Removed: #928 — [P1] Open Questions: Block Gas Limits, Fees, Cost per Participant, and System TX Prioritization. <div class=\"issues-detail-header\"> <h1 class=\"issues-detail-title\"> <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 "
   }
 ]
