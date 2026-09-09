@@ -34,7 +34,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 <div class="qs-stats">
 <div class="qs-stat rejected"><span class="qs-num">40</span><span class="qs-desc">Expired</span></div>
 <div class="qs-stat"><span class="qs-num">45</span><span class="qs-desc">Votes</span></div>
-<div class="qs-stat"><span class="qs-num">119.8K GNK</span><span class="qs-desc">Total Bid</span></div>
+<div class="qs-stat"><span class="qs-num">119.9K GNK</span><span class="qs-desc">Total Bid</span></div>
 </div>
 </div>
 
@@ -84,4 +84,4 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-09-09 00:08 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-09-09 04:35 UTC*
