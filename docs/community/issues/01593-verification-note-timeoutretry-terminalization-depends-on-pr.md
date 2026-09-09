@@ -2,7 +2,7 @@
 title: "#1593 — Verification note: timeout/retry terminalization depends on protocol-time, not wall-clock time"
 source: https://github.com/gonka-ai/gonka/issues/1593
 issue_number: 1593
-synced_at: 2026-09-09T00:21:14Z
+synced_at: 2026-09-09T04:52:20Z
 template: issues-main.html
 ---
 
