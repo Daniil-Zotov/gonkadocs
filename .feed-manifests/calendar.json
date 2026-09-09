@@ -1,6 +1,6 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-09-09T00:28:17.537117+00:00",
+  "snapshot_time": "2026-09-09T02:20:15.623903+00:00",
   "files": {
     "460d7b406a26039bca186ac074c0ac02e7130753a332dc8fe809420a0d5bbd6c": {
       "title": "AMA: Bitfury, HackerOne & Gonka — Bug Bounty Program Launch",
@@ -2143,6 +2143,24 @@
       "url": "/proposals/proposals/2026-q3/99/",
       "content_preview": "6Block proposes that the Gonka community allocate 100,000 USDT from the Community Pool to support Gonka's participation at TOKEN2049 Singapore 2026, taking place on 7-8 October 2026 at Marina Bay Sand…",
       "checksum": "762dc53141f39a915df57581b255c942d901cbf4cbe30f65b9bbc4a90a23b649"
+    },
+    "d3152a39ef62db15d0b475c20bba7d4dd8b4ec0815d88fb44b2fa36801e42b92": {
+      "title": "Voting ends: #101 – Add GLM-5.3-Flash, remove Kimi-K2.6 and GLM-5.2-FP8 from PoC models",
+      "date": "2026-09-10",
+      "time": "23:17 UTC",
+      "event_type": "proposal_vote_end",
+      "url": "/proposals/proposals/2026-q3/101/",
+      "content_preview": "Add zai-org/GLM-5.3-Flash as a governance-approved model and PoC model. Remove moonshotai/Kimi-K2.6 and zai-org/GLM-5.2-FP8 from poc_params.models.\n\nMiniMaxAI/MiniMax-M2.7 and deepseek-ai/DeepSeek-V4-…",
+      "checksum": "d6c62ab8983a03e51c710c002f6c9c9566d69c6512b95bb885ec9ab16cbdf1a9"
+    },
+    "b16d0153f30a503553d9dadc8b15f03b4bd7c5cb68a420c82372169e1da47f0f": {
+      "title": "Voting ends: #100 – devshard v4.1",
+      "date": "2026-09-10",
+      "time": "22:36 UTC",
+      "event_type": "proposal_vote_end",
+      "url": "/proposals/proposals/2026-q3/100/",
+      "content_preview": "Add v4.1 to the approved list of devshard versions.",
+      "checksum": "b70b94bb278566003e026f8d9f1fec6475aadeb9e927797878df4814e37b7337"
     }
   }
 }
