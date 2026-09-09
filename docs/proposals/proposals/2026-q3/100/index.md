@@ -35,18 +35,18 @@ Add v4.1 to the approved list of devshard versions.
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:8.2%"></div>
+    <div class="prop-tally-yes" style="width:8.5%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (42,273)</span>
+    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (43,894)</span>
     <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-total-text">Total 42,273 votes</span>
-    <span class="prop-tally-veto-text">✗ Turnout <strong>8.2%</strong> (42,273 / 513,386) · Quorum <strong>25%</strong> (128,346)</span>
+    <span class="prop-tally-total-text">Total 43,894 votes</span>
+    <span class="prop-tally-veto-text">✗ Turnout <strong>8.5%</strong> (43,894 / 513,386) · Quorum <strong>25%</strong> (128,346)</span>
   </div>
 </div>
 
@@ -64,6 +64,7 @@ Add v4.1 to the approved list of devshard versions.
 <tr><td><a href="https://gonka.gg/address/gonka1gyk0aahvr3qeju4zx0nplfreej6cy4jjk8svc5" target="_blank" class="prop-voter-addr">gonka1gyk0aa…k8svc5</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1fundsnx5jdeye40xtcdh8v3zny9ytnz6ls252e" target="_blank" class="prop-voter-addr">gonka1fundsn…ls252e</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1t0psqlz8fzhlqnaresvk5vxfmgv0te23mnwdad" target="_blank" class="prop-voter-addr">gonka1t0psql…mnwdad</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
+<tr><td><a href="https://gonka.gg/address/gonka1346p2h8dn4kp98c5e93k5q64g0h7vxjxnd55fh" target="_blank" class="prop-voter-addr">gonka1346p2h…nd55fh</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 </tbody>
 </table>
 </div>

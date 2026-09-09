@@ -47,18 +47,18 @@ The activation epoch (penalty_start_epoch) for GLM-5.3-Flash is 394.
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:0.3%"></div>
+    <div class="prop-tally-yes" style="width:0.7%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:0.6%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes <strong>35.8%</strong> (1,742)</span>
+    <span class="prop-tally-yes-text">Yes <strong>51.8%</strong> (3,363)</span>
     <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-abstain-text">Abstain <strong>64.2%</strong> (3,124)</span>
-    <span class="prop-tally-total-text">Total 4,866 votes</span>
-    <span class="prop-tally-veto-text">✗ Turnout <strong>0.9%</strong> (4,866 / 513,386) · Quorum <strong>25%</strong> (128,346)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>48.2%</strong> (3,124)</span>
+    <span class="prop-tally-total-text">Total 6,487 votes</span>
+    <span class="prop-tally-veto-text">✗ Turnout <strong>1.3%</strong> (6,487 / 513,386) · Quorum <strong>25%</strong> (128,346)</span>
   </div>
 </div>
 
@@ -72,6 +72,7 @@ The activation epoch (penalty_start_epoch) for GLM-5.3-Flash is 394.
 <tbody>
 <tr><td><a href="https://gonka.gg/address/gonka1p2lhgng7tcqju7emk989s5fpdr7k2c3ek6h26m" target="_blank" class="prop-voter-addr">gonka1p2lhgn…k6h26m</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1ym3np7guxart483yfdxnlztuazx22cjt0e4a2p" target="_blank" class="prop-voter-addr">gonka1ym3np7…0e4a2p</a></td><td><span class="prop-voter-option prop-vote-abstain">Abstain 100.0%</span></td></tr>
+<tr><td><a href="https://gonka.gg/address/gonka1346p2h8dn4kp98c5e93k5q64g0h7vxjxnd55fh" target="_blank" class="prop-voter-addr">gonka1346p2h…nd55fh</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 </tbody>
 </table>
 </div>
