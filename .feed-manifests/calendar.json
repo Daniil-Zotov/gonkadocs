@@ -1,6 +1,6 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-09-09T05:06:39.860920+00:00",
+  "snapshot_time": "2026-09-09T10:02:30.847299+00:00",
   "files": {
     "460d7b406a26039bca186ac074c0ac02e7130753a332dc8fe809420a0d5bbd6c": {
       "title": "AMA: Bitfury, HackerOne & Gonka — Bug Bounty Program Launch",
@@ -2161,6 +2161,15 @@
       "url": "/proposals/proposals/2026-q3/100/",
       "content_preview": "Add v4.1 to the approved list of devshard versions.",
       "checksum": "b70b94bb278566003e026f8d9f1fec6475aadeb9e927797878df4814e37b7337"
+    },
+    "ea390ecc7fbfeda39f0cdc32686f4779c31167f81285931b928ff6d12d0ba065": {
+      "title": "Voting ends: #102 – Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment",
+      "date": "2026-09-11",
+      "time": "09:28 UTC",
+      "event_type": "proposal_vote_end",
+      "url": "/proposals/proposals/2026-q3/102/",
+      "content_preview": "6Block proposes that the Gonka community ratify and authorize Quant Mesh Limited as the legal contracting counterparty for the Gonka-Ledger integration and allocate 350,350 USDT from the Community Poo…",
+      "checksum": "2243671566ace7d552c50acca2d94f18b87a9046112ffdbd021321a8a6fb2e04"
     }
   }
 }

@@ -1,5 +1,25 @@
 [
   {
+    "id": "evt_20260909100230_37d39c38",
+    "timestamp": "2026-09-09T10:02:30.823658+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Voting ends: #102 – Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment",
+      "url": "/proposals/proposals/2026-q3/102/",
+      "file": "ea390ecc7fbfeda39f0cdc32686f4779c31167f81285931b928ff6d12d0ba065"
+    },
+    "details": {
+      "status": null,
+      "content": "6Block proposes that the Gonka community ratify and authorize Quant Mesh Limited as the legal contracting counterparty for the Gonka-Ledger integration and allocate 350,350 USDT from the Community Poo…",
+      "date": "2026-09-11",
+      "time": "09:28 UTC",
+      "event_type": "proposal_vote_end",
+      "url": "/proposals/proposals/2026-q3/102/"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260909022015_a758cbc4",
     "timestamp": "2026-09-09T02:20:15.601835+00:00",
     "section": "calendar",
@@ -8804,21 +8824,5 @@
       "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Reproducible sampling for inference validation\n    <span class=\"issues-number\">#1199</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\">[@tcharchian](https://github.com/tcharchian) opened 2026-05-19 23:17 UTC</span>\n    <span class=\"issues-meta-item\">5 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style=\""
     },
     "ai_description": "A new comment has been posted in the issue on reproducible sampling for inference validation. The discussion on the mechanism for verifying inference results is ongoing, join the conversation at number 1199."
-  },
-  {
-    "id": "evt_20260714032752_d3b695ce",
-    "timestamp": "2026-07-14T03:27:52.345789+00:00",
-    "section": "preproposals",
-    "action": "new",
-    "item": {
-      "title": "Улучшаем инфиренс Kimi",
-      "url": "/proposals/preproposals/d185d9eb-243f-4228-b4ac-e2c7a50a5325/",
-      "file": "d185d9eb-243f-4228-b4ac-e2c7a50a5325/index.md"
-    },
-    "details": {
-      "status": "active",
-      "content": "# Улучшаем инфиренс Kimi\n\n<div class=\"preproposal-header\" markdown=\"1\">\n\n<div class=\"preproposal-status\">🟢 Active</div>\n\n**Author:** Mitch\n**Created:** 2026-07-14 01:37 UTC\n**Closes:** 2026-07-21 01:37 UTC\n**Language:** RU\n**Votes:** 2\n**Avg. Bid:** 0.00 GNK\n\n</div>\n\nKimi в Gonka перегружен и сыпет ошибками. Разбираем, почему так вышло, и что можно исправить прямо сейчас через Governance и настройки нод.\n\n---\n\n## Full Proposal\n\nФакты:\n\n* \\~20% веса сети приходится на Kimi  \n* Запросов на инфиренс идет столько, что ноды с Kimi часто перегружены, и ответ падает с ошибкой  \n* Недели 2 назад Kimi можно было нормально пользоваться  \n* Сейчас Kimi часто дает ошибку, стало больше запросов  \n* Сама по себе цена не будет расти и при 100% загрузке нод с Kimi (динамического прайсинга нету в девшардах"
-    },
-    "ai_description": "A new pre-proposal from Mitch is now open for voting: the community suggests investigating why Kimi is overloaded, as it carries about 20 percent of the network weight, and finding solutions through Governance and node configuration. Voting runs until July 21, join the discussion."
   }
 ]
