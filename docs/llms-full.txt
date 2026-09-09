@@ -19759,7 +19759,7 @@ decentralized mixture-of-experts."
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-09-09 12:39 UTC
+2026-09-09 16:59 UTC
 
 ---
 
@@ -28903,8 +28903,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-09-11
   
   6Block proposes that the Gonka community ratify and authorize Quant Mesh Limited as the legal contracting counterparty for the Gonka-Ledger integration and allocate 350,350 USDT from the Community Poo…
-  Yes 98.4% (141,655) · No 0.0% (0) · Veto 0.0% (0) · Abstain 1.6% (2,320)$350,350 · Community Pool
-  ✓ Turnout 29.6% (143,975 / 485,611) · Quorum 25% (121,402)
+  Yes 98.4% (143,324) · No 0.0% (0) · Veto 0.0% (0) · Abstain 1.6% (2,320)$350,350 · Community Pool
+  ✓ Turnout 30.0% (145,644 / 484,935) · Quorum 25% (121,233)
 
   
     #101 – Add GLM-5.3-Flash, remove Kimi-K2.6 and GLM-5.2-FP8 from PoC models
@@ -28917,7 +28917,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   
   Add zai-org/GLM-5.3-Flash as a governance-approved model and PoC model. Remove moonshotai/Kimi-K2.6 and zai-org/GLM-5.2-FP8 from poc_params.models.  MiniMaxAI/MiniMax-M2.7 and deepseek-ai/DeepSeek-V4-…
   Yes 98.4% (145,644) · No 0.0% (0) · Veto 0.0% (0) · Abstain 1.6% (2,422)
-  ✓ Turnout 30.5% (148,066 / 485,611) · Quorum 25% (121,402)
+  ✓ Turnout 30.5% (148,066 / 484,935) · Quorum 25% (121,233)
 
   
     #100 – devshard v4.1
@@ -28929,8 +28929,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-09-10
   
   Add v4.1 to the approved list of devshard versions.
-  Yes 100.0% (148,742) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✓ Turnout 30.6% (148,742 / 485,611) · Quorum 25% (121,402)
+  Yes 100.0% (148,066) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 30.5% (148,066 / 484,935) · Quorum 25% (121,233)
 
   
     #99 – Support Gonka's presence at TOKEN2049 Singapore
@@ -30053,7 +30053,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-101 proposals across 5 quarters. Last updated: 2026-09-09 16:00 UTC
+101 proposals across 5 quarters. Last updated: 2026-09-09 16:40 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -67197,8 +67197,8 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-09-11
   
   6Block proposes that the Gonka community ratify and authorize Quant Mesh Limited as the legal contracting counterparty for the Gonka-Ledger integration and allocate 350,350 USDT from the Community Poo…
-  Yes 98.4% (141,655) · No 0.0% (0) · Veto 0.0% (0) · Abstain 1.6% (2,320)$350,350 · Community Pool
-  ✓ Turnout 29.6% (143,975 / 485,611) · Quorum 25% (121,402)
+  Yes 98.4% (143,324) · No 0.0% (0) · Veto 0.0% (0) · Abstain 1.6% (2,320)$350,350 · Community Pool
+  ✓ Turnout 30.0% (145,644 / 484,935) · Quorum 25% (121,233)
 
   
     #101 – Add GLM-5.3-Flash, remove Kimi-K2.6 and GLM-5.2-FP8 from PoC models
@@ -67211,7 +67211,7 @@ $90,075 USDT · Bounty Reward
   
   Add zai-org/GLM-5.3-Flash as a governance-approved model and PoC model. Remove moonshotai/Kimi-K2.6 and zai-org/GLM-5.2-FP8 from poc_params.models.  MiniMaxAI/MiniMax-M2.7 and deepseek-ai/DeepSeek-V4-…
   Yes 98.4% (145,644) · No 0.0% (0) · Veto 0.0% (0) · Abstain 1.6% (2,422)
-  ✓ Turnout 30.5% (148,066 / 485,611) · Quorum 25% (121,402)
+  ✓ Turnout 30.5% (148,066 / 484,935) · Quorum 25% (121,233)
 
   
     #100 – devshard v4.1
@@ -67223,8 +67223,8 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-09-10
   
   Add v4.1 to the approved list of devshard versions.
-  Yes 100.0% (148,742) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✓ Turnout 30.6% (148,742 / 485,611) · Quorum 25% (121,402)
+  Yes 100.0% (148,066) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 30.5% (148,066 / 484,935) · Quorum 25% (121,233)
 
   
     #99 – Support Gonka's presence at TOKEN2049 Singapore
@@ -67502,12 +67502,12 @@ Add v4.1 to the approved list of devshard versions.
     
   
   
-    Yes 100.0% (148,742)
+    Yes 100.0% (148,066)
     No 0.0% (0)
     Veto 0.0% (0)
     Abstain 0.0% (0)
-    Total 148,742 votes
-    ✓ Turnout 30.6% (148,742 / 485,611) · Quorum 25% (121,402)
+    Total 148,066 votes
+    ✓ Turnout 30.5% (148,066 / 484,935) · Quorum 25% (121,233)
   
 
 Voters
@@ -68056,7 +68056,7 @@ The activation epoch (penalty_start_epoch) for GLM-5.3-Flash is 394.
     Veto 0.0% (0)
     Abstain 1.6% (2,422)
     Total 148,066 votes
-    ✓ Turnout 30.5% (148,066 / 485,611) · Quorum 25% (121,402)
+    ✓ Turnout 30.5% (148,066 / 484,935) · Quorum 25% (121,233)
   
 
 Voters
@@ -68600,12 +68600,12 @@ The allocation consists of 350,000 USDT for the initial Ledger integration payme
     
   
   
-    Yes 98.4% (141,655)
+    Yes 98.4% (143,324)
     No 0.0% (0)
     Veto 0.0% (0)
     Abstain 1.6% (2,320)
-    Total 143,975 votes
-    ✓ Turnout 29.6% (143,975 / 485,611) · Quorum 25% (121,402)
+    Total 145,644 votes
+    ✓ Turnout 30.0% (145,644 / 484,935) · Quorum 25% (121,233)
   
 
 Voters
@@ -68616,8 +68616,10 @@ gonka1qwfrtz…33xdklAbstain 100.0%
 gonka1p2lhgn…k6h26mYes 100.0%
 gonka1rqm2u7…mgd53tYes 100.0%
 gonka1gvpv7v…lyrmkxYes 100.0%
+gonka1f0u3y2…y8ts3eNo_With_Veto 100.0%
 gonka1fundsn…ls252eYes 100.0%
 gonka1t0psql…mnwdadYes 100.0%
+gonka1346p2h…nd55fhYes 100.0%
 gonka1kvmerz…lzldumYes 100.0%
 gonka16dgkvx…6j0skkYes 100.0%
 
