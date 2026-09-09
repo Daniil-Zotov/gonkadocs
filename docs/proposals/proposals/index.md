@@ -71,7 +71,8 @@ hide:
     <span>Voting ends 2026-09-10</span>
   </div>
   <div class="prop-card-desc">Add zai-org/GLM-5.3-Flash as a governance-approved model and PoC model. Remove moonshotai/Kimi-K2.6 and zai-org/GLM-5.2-FP8 from poc_params.models.  MiniMaxAI/MiniMax-M2.7 and deepseek-ai/DeepSeek-V4-…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>35.8%</strong> (1,742)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>64.2%</strong> (3,124)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>0.9%</strong> (4,866 / 513,386) · Quorum <strong>25%</strong> (128,346)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-voting" data-voting-end="2026-09-10T22:36:34.311913031Z">
@@ -85,8 +86,8 @@ hide:
     <span>Voting ends 2026-09-10</span>
   </div>
   <div class="prop-card-desc">Add v4.1 to the approved list of devshard versions.</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (38,083)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>7.4%</strong> (38,083 / 514,062) · Quorum <strong>25%</strong> (128,515)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (42,273)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>8.2%</strong> (42,273 / 513,386) · Quorum <strong>25%</strong> (128,346)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -1416,7 +1417,7 @@ hide:
 
 </div>
 <div class="prop-oview-stats">
-<em>100 proposals across 5 quarters. Last updated: 2026-09-09 07:00 UTC</em>
+<em>100 proposals across 5 quarters. Last updated: 2026-09-09 08:00 UTC</em>
 </div>
 
 <script>
