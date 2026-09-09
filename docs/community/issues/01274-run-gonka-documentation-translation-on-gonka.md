@@ -2,7 +2,7 @@
 title: "#1274 — Run Gonka documentation translation on Gonka"
 source: https://github.com/gonka-ai/gonka/issues/1274
 issue_number: 1274
-synced_at: 2026-09-08T21:55:58Z
+synced_at: 2026-09-09T00:22:03Z
 template: issues-main.html
 ---
 

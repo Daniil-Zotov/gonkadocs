@@ -2,7 +2,7 @@
 title: "#1573 — [BUG] devshard executor can validate its own challenged result, letting a fraudulent executor push a bad settlement and steal escrowed funds"
 source: https://github.com/gonka-ai/gonka/issues/1573
 issue_number: 1573
-synced_at: 2026-09-08T21:55:28Z
+synced_at: 2026-09-09T00:21:18Z
 template: issues-main.html
 ---
 
