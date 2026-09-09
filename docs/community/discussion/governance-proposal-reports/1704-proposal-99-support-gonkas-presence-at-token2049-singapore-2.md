@@ -3,7 +3,7 @@ title: "#1704 — Proposal #99: Support Gonka’s Presence at TOKEN2049 Singapor
 source: https://github.com/gonka-ai/gonka/discussions/1704
 discussion_number: 1704
 category: governance-proposal-reports
-synced_at: 2026-09-09T16:32:00Z
+synced_at: 2026-09-09T19:42:24Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1704](https://github.com/gonka-ai/gonka/discussions/1704) every hour. 
