@@ -7,6 +7,26 @@
     <language>en</language>
     <atom:link href="https://gonkadocs.com/proposals/proposals/proposals.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>#101 – Add GLM-5.3-Flash, remove Kimi-K2.6 and GLM-5.2-FP8 from PoC models</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q3/101/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q3/101/</guid>
+      <pubDate>Tue, 08 Sep 2026 23:17:27 +0000</pubDate>
+      <category>Voting</category>
+      <description>Add zai-org/GLM-5.3-Flash as a governance-approved model and PoC model. Remove moonshotai/Kimi-K2.6 and zai-org/GLM-5.2-FP8 from poc_params.models.
+
+MiniMaxAI/MiniMax-M2.7 and deepseek-ai/DeepSeek-V4-Flash-0731 are not affected: their PoC parameters and weights remain unchanged. All other chain parameters remain unchanged.
+
+The GLM-5.3-Flash model and its parameters were proposed by the kaitaku.ai team, independently validated by vbgd0, and are now proposed jointly. Release inputs, measurements </description>
+    </item>
+    <item>
+      <title>#100 – devshard v4.1</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q3/100/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q3/100/</guid>
+      <pubDate>Tue, 08 Sep 2026 22:36:34 +0000</pubDate>
+      <category>Voting</category>
+      <description>Add v4.1 to the approved list of devshard versions.</description>
+    </item>
+    <item>
       <title>#99 – Support Gonka's presence at TOKEN2049 Singapore</title>
       <link>https://gonkadocs.com/proposals/proposals/2026-q3/99/</link>
       <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q3/99/</guid>

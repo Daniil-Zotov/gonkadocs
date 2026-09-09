@@ -34,16 +34,16 @@ hide:
 ## 2026-Q3 Summary
 
 <div class="qs-stats">
-<div class="qs-stat total"><span class="qs-num">20</span><span class="qs-desc">Total Proposals</span></div>
-<div class="qs-stat passed"><span class="qs-num">14</span><span class="qs-desc">Passed (70%)</span></div>
-<div class="qs-stat rejected"><span class="qs-num">6</span><span class="qs-desc">Rejected (30%)</span></div>
+<div class="qs-stat total"><span class="qs-num">22</span><span class="qs-desc">Total Proposals</span></div>
+<div class="qs-stat passed"><span class="qs-num">14</span><span class="qs-desc">Passed (64%)</span></div>
+<div class="qs-stat rejected"><span class="qs-num">6</span><span class="qs-desc">Rejected (27%)</span></div>
 
 </div>
 
 <div class="qs-categories">
-<div class="qs-row"><span class="qs-label">Governance Parameters</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:50%"></span></span><span class="qs-value">10</span></div>
-<div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:30%"></span></span><span class="qs-value">6</span></div>
-<div class="qs-row"><span class="qs-label">Software Upgrade</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:10%"></span></span><span class="qs-value">2</span></div>
+<div class="qs-row"><span class="qs-label">Governance Parameters</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:55%"></span></span><span class="qs-value">12</span></div>
+<div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:27%"></span></span><span class="qs-value">6</span></div>
+<div class="qs-row"><span class="qs-label">Software Upgrade</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:9%"></span></span><span class="qs-value">2</span></div>
 <div class="qs-row"><span class="qs-label">Other</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:5%"></span></span><span class="qs-value">1</span></div>
 <div class="qs-row"><span class="qs-label">GRC / Restitution</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:5%"></span></span><span class="qs-value">1</span></div>
 </div>
@@ -56,7 +56,36 @@ hide:
 
 <div class="prop-quarter">
 <h2>2026-Q3</h2>
-<p>20 proposals</p>
+<p>22 proposals</p>
+<div class="prop-card" data-status="prop-voting" data-voting-end="2026-09-10T23:17:27.402122371Z">
+  <div class="prop-card-header">
+    <a href="101/" class="prop-card-title">#101 – Add GLM-5.3-Flash, remove Kimi-K2.6 and GLM-5.2-FP8 from PoC models</a>
+    <span class="prop-vote-countdown" data-deadline="2026-09-10T23:17:27.402122371Z"></span>
+    <span class="prop-badge prop-voting">Voting</span>
+  </div>
+  <div class="prop-card-meta">
+    <span>Submitted 2026-09-08</span>
+    <span>Voting ends 2026-09-10</span>
+  </div>
+  <div class="prop-card-desc">Add zai-org/GLM-5.3-Flash as a governance-approved model and PoC model. Remove moonshotai/Kimi-K2.6 and zai-org/GLM-5.2-FP8 from poc_params.models.  MiniMaxAI/MiniMax-M2.7 and deepseek-ai/DeepSeek-V4-…</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
+</div>
+
+<div class="prop-card" data-status="prop-voting" data-voting-end="2026-09-10T22:36:34.311913031Z">
+  <div class="prop-card-header">
+    <a href="100/" class="prop-card-title">#100 – devshard v4.1</a>
+    <span class="prop-vote-countdown" data-deadline="2026-09-10T22:36:34.311913031Z"></span>
+    <span class="prop-badge prop-voting">Voting</span>
+  </div>
+  <div class="prop-card-meta">
+    <span>Submitted 2026-09-08</span>
+    <span>Voting ends 2026-09-10</span>
+  </div>
+  <div class="prop-card-desc">Add v4.1 to the approved list of devshard versions.</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (38,083)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>7.0%</strong> (38,083 / 546,244) · Quorum <strong>25%</strong> (136,561)</span></div>
+</div>
+
 <div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
     <a href="99/" class="prop-card-title">#99 – Support Gonka's presence at TOKEN2049 Singapore</a>
