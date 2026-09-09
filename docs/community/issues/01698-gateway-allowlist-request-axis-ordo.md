@@ -2,7 +2,7 @@
 title: "#1698 — Gateway allowlist request: Axis Ordo"
 source: https://github.com/gonka-ai/gonka/issues/1698
 issue_number: 1698
-synced_at: 2026-09-09T18:41:43Z
+synced_at: 2026-09-09T21:45:23Z
 template: issues-main.html
 ---
 
