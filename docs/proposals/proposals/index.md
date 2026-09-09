@@ -72,7 +72,7 @@ hide:
   </div>
   <div class="prop-card-desc">6Block proposes that the Gonka community ratify and authorize Quant Mesh Limited as the legal contracting counterparty for the Gonka-Ledger integration and allocate 350,350 USDT from the Community Poo…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>98.4%</strong> (141,655)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>1.6%</strong> (2,320)</span><span class="prop-card-funding prop-card-funding-voting">$350,350 · Community Pool</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>29.4%</strong> (143,975 / 489,658) · Quorum <strong>25%</strong> (122,414)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>29.6%</strong> (143,975 / 485,611) · Quorum <strong>25%</strong> (121,402)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-voting" data-voting-end="2026-09-10T23:17:27.402122371Z">
@@ -87,7 +87,7 @@ hide:
   </div>
   <div class="prop-card-desc">Add zai-org/GLM-5.3-Flash as a governance-approved model and PoC model. Remove moonshotai/Kimi-K2.6 and zai-org/GLM-5.2-FP8 from poc_params.models.  MiniMaxAI/MiniMax-M2.7 and deepseek-ai/DeepSeek-V4-…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>98.4%</strong> (145,644)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>1.6%</strong> (2,422)</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>30.2%</strong> (148,066 / 489,658) · Quorum <strong>25%</strong> (122,414)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>30.5%</strong> (148,066 / 485,611) · Quorum <strong>25%</strong> (121,402)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-voting" data-voting-end="2026-09-10T22:36:34.311913031Z">
@@ -102,7 +102,7 @@ hide:
   </div>
   <div class="prop-card-desc">Add v4.1 to the approved list of devshard versions.</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (148,742)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>30.4%</strong> (148,742 / 489,658) · Quorum <strong>25%</strong> (122,414)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>30.6%</strong> (148,742 / 485,611) · Quorum <strong>25%</strong> (121,402)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -1432,7 +1432,7 @@ hide:
 
 </div>
 <div class="prop-oview-stats">
-<em>101 proposals across 5 quarters. Last updated: 2026-09-09 15:20 UTC</em>
+<em>101 proposals across 5 quarters. Last updated: 2026-09-09 15:40 UTC</em>
 </div>
 
 <script>
