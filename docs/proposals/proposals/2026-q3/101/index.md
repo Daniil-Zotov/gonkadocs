@@ -47,7 +47,7 @@ The activation epoch (penalty_start_epoch) for GLM-5.3-Flash is 394.
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:53.0%"></div>
+    <div class="prop-tally-yes" style="width:53.3%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:0.5%"></div>
@@ -58,7 +58,7 @@ The activation epoch (penalty_start_epoch) for GLM-5.3-Flash is 394.
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>0.9%</strong> (2,422)</span>
     <span class="prop-tally-total-text">Total 259,505 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout <strong>53.5%</strong> (259,505 / 484,935) · Quorum <strong>25%</strong> (121,233)</span>
+    <span class="prop-tally-yes-text">✓ Turnout <strong>53.8%</strong> (259,505 / 482,689) · Quorum <strong>25%</strong> (120,672)</span>
   </div>
 </div>
 
