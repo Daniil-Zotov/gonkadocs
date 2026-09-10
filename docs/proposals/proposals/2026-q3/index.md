@@ -34,16 +34,16 @@ hide:
 ## 2026-Q3 Summary
 
 <div class="qs-stats">
-<div class="qs-stat total"><span class="qs-num">23</span><span class="qs-desc">Total Proposals</span></div>
-<div class="qs-stat passed"><span class="qs-num">14</span><span class="qs-desc">Passed (61%)</span></div>
-<div class="qs-stat rejected"><span class="qs-num">6</span><span class="qs-desc">Rejected (26%)</span></div>
+<div class="qs-stat total"><span class="qs-num">24</span><span class="qs-desc">Total Proposals</span></div>
+<div class="qs-stat passed"><span class="qs-num">14</span><span class="qs-desc">Passed (58%)</span></div>
+<div class="qs-stat rejected"><span class="qs-num">6</span><span class="qs-desc">Rejected (25%)</span></div>
 
 </div>
 
 <div class="qs-categories">
-<div class="qs-row"><span class="qs-label">Governance Parameters</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:52%"></span></span><span class="qs-value">12</span></div>
-<div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:30%"></span></span><span class="qs-value">7</span></div>
-<div class="qs-row"><span class="qs-label">Software Upgrade</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:9%"></span></span><span class="qs-value">2</span></div>
+<div class="qs-row"><span class="qs-label">Governance Parameters</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:50%"></span></span><span class="qs-value">12</span></div>
+<div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:33%"></span></span><span class="qs-value">8</span></div>
+<div class="qs-row"><span class="qs-label">Software Upgrade</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:8%"></span></span><span class="qs-value">2</span></div>
 <div class="qs-row"><span class="qs-label">Other</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:4%"></span></span><span class="qs-value">1</span></div>
 <div class="qs-row"><span class="qs-label">GRC / Restitution</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:4%"></span></span><span class="qs-value">1</span></div>
 </div>
@@ -56,7 +56,21 @@ hide:
 
 <div class="prop-quarter">
 <h2>2026-Q3</h2>
-<p>23 proposals</p>
+<p>24 proposals</p>
+<div class="prop-card" data-status="prop-voting" data-voting-end="2026-09-12T13:31:12.594032166Z">
+  <div class="prop-card-header">
+    <a href="103/" class="prop-card-title">#103 – Reimbursement of Expenses for Daniil and David Liberman's Participation in All-In Summit 2026</a>
+    <span class="prop-vote-countdown" data-deadline="2026-09-12T13:31:12.594032166Z"></span>
+    <span class="prop-badge prop-voting">Voting</span>
+  </div>
+  <div class="prop-card-meta">
+    <span>Submitted 2026-09-10</span>
+    <span>Voting ends 2026-09-12</span>
+  </div>
+  <div class="prop-card-desc">We are proposing to allocate 15,500 USDT from the Gonka Community Pool to reimburse the cost of two tickets for All-In Summit 2026 for Daniil and David Liberman, co-creators of the Gonka protocol. All…</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding prop-card-funding-voting">$15,500 · Community Pool</span></div>
+</div>
+
 <div class="prop-card" data-status="prop-voting" data-voting-end="2026-09-11T09:28:14.306648256Z">
   <div class="prop-card-header">
     <a href="102/" class="prop-card-title">#102 – Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment</a>

@@ -74,6 +74,7 @@ nav:
       - On-Chain Governance: proposals/proposals/index.md
       - 2026-Q3:
         - Overview: proposals/proposals/2026-q3/index.md
+        - "#103 – Reimbursement of Expenses for Daniil and David Liberman's Participation in All-In Summit 2026": proposals/proposals/2026-q3/103/index.md
         - "#102 – Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment": proposals/proposals/2026-q3/102/index.md
         - "#101 – Add GLM-5.3-Flash, remove Kimi-K2.6 and GLM-5.2-FP8 from PoC models": proposals/proposals/2026-q3/101/index.md
         - "#100 – devshard v4.1": proposals/proposals/2026-q3/100/index.md
