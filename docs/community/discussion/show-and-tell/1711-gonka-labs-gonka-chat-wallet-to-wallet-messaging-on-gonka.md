@@ -3,7 +3,7 @@ title: "#1711 — Gonka Labs: Gonka Chat - Wallet-to-Wallet messaging on Gonka"
 source: https://github.com/gonka-ai/gonka/discussions/1711
 discussion_number: 1711
 category: show-and-tell
-synced_at: 2026-09-09T22:27:57Z
+synced_at: 2026-09-10T01:00:20Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1711](https://github.com/gonka-ai/gonka/discussions/1711) every hour. 
