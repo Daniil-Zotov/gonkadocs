@@ -46,7 +46,7 @@ Add v4.1 to the approved list of devshard versions.
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-total-text">Total 260,181 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout <strong>53.9%</strong> (260,181 / 482,689) · Quorum <strong>25%</strong> (120,672)</span>
+    <span class="prop-tally-yes-text">✓ Turnout <strong>53.9%</strong> (260,181 / 482,296) · Quorum <strong>25%</strong> (120,574)</span>
   </div>
 </div>
 
