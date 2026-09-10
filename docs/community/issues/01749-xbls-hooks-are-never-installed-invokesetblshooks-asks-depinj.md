@@ -2,7 +2,7 @@
 title: "#1749 — x/bls hooks are never installed: InvokeSetBlsHooks asks depinject for a pointer the module never provides"
 source: https://github.com/gonka-ai/gonka/issues/1749
 issue_number: 1749
-synced_at: 2026-09-10T18:32:36Z
+synced_at: 2026-09-10T21:41:26Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/vitaly-andr">@vitaly-andr</a> opened 2026-09-10 14:30 UTC</span>
-    <span class="issues-meta-item">1 comment</span>
-    <span class="issues-meta-item">Updated 2026-09-10 16:52 UTC</span>
+    <span class="issues-meta-item">2 comments</span>
+    <span class="issues-meta-item">Updated 2026-09-10 19:24 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -112,7 +112,7 @@ cannot see that nothing installs it in a real app.
 
 ---
 
-## 💬 Comments (1)
+## 💬 Comments (2)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -123,6 +123,18 @@ cannot see that nothing installs it in a real app.
     <p>Hi! I'm interested in implementing this.</p>
 <p>I’d start with the minimal DI wiring fix and add an app-construction regression test to verify that the BLS hooks are actually installed.</p>
 <p>Would you be okay with me picking this up?</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/vitaly-andr">@vitaly-andr</a></span>
+    <span class="issues-meta-item">commented 2026-09-10 19:24 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Thanks for the offer, but I'm going to take this one myself — the fix is ready on my side.</p>
+<p>Both halves of your plan are already written out above: the wiring change (have the invoker take the keeper by value, or export <code>*keeper.Keeper</code> from <code>ModuleOutputs</code> the way <code>x/staking</code> does) and the app-construction test that asserts <code>BlsKeeper.Hooks()</code> is not the empty implementation.</p>
+<p>What the plan leaves out matters more than the wiring. Once the hooks go live on a chain that has been accumulating pending entries for four and a half months, the failure hook reaches <code>ProcessAutoRefundForFailedBridgeOperation</code>, which does not check signing status. All 852 signing requests I counted on mainnet completed successfully, so those entries are exactly the ones a naive rollout would touch: their escrow backing would be released a second time while the wrapped tokens minted against it still exist on the destination chain. So this is three changes in a specific order: move the status guard inside the function, then wire the hooks, then decide what happens to everything already queued up. Only the middle one is small.</p>
+<p>I'd rather wait for a maintainer to triage this before opening a PR — the question of what to do with the accumulated entries is theirs to answer.</p>
   </div>
 </div>
 

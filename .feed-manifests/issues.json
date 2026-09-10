@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-09-10T19:50:07.158163+00:00",
+  "snapshot_time": "2026-09-10T22:59:36.828983+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "Description",
@@ -3645,12 +3645,13 @@
     "01749-xbls-hooks-are-never-installed-invokesetblshooks-asks-depinj.md": {
       "title": "#1749 — x/bls hooks are never installed: InvokeSetBlsHooks asks depinject for a pointer the module never provides",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    x/bls hooks are never installed: InvokeSetBlsHooks asks depinject for a pointer the module never provides\n    <span class=\"issues-number\">#1749</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-09-10 14:30 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"iss",
-      "comment_checksum": "2bc917b460c08314d49072877c90542ff1da82173c71c44701b3528853f7079a",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    x/bls hooks are never installed: InvokeSetBlsHooks asks depinject for a pointer the module never provides\n    <span class=\"issues-number\">#1749</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-09-10 14:30 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"is",
+      "comment_checksum": "93260326fae8c272d4d66450f19ed1a540d9e03f325757030864a7d1172ae1b6",
       "comment_bodies": [
-        "Hi! I'm interested in implementing this. I’d start with the minimal DI wiring fix and add an app-construction regression test to verify that the BLS hooks are actually installed. Would you be okay with me picking this up?"
+        "Hi! I'm interested in implementing this. I’d start with the minimal DI wiring fix and add an app-construction regression test to verify that the BLS hooks are actually installed. Would you be okay with me picking this up?",
+        "Thanks for the offer, but I'm going to take this one myself — the fix is ready on my side. Both halves of your plan are already written out above: the wiring change (have the invoker take the keeper by value, or export *keeper.Keeper from ModuleOutputs the way x/staking does) and the app-construction test that asserts BlsKeeper.Hooks() is not the empty implementation. What the plan leaves out matt"
       ],
-      "checksum": "9adc1faede44343a35e936dc73597d6c82e144f0a648d03fe2ad206e89ce13a3"
+      "checksum": "c85941e91e8c8746f3f7cf36d87831430d3d02a60bc59da1560663359c0b4696"
     }
   }
 }

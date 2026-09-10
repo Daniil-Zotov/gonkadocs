@@ -1,32 +1,17 @@
 [
   {
-    "id": "evt_20260910214732_4d7c2b82",
-    "timestamp": "2026-09-10T21:47:32.385190+00:00",
-    "section": "calendar",
-    "action": "daily_reminder",
+    "id": "evt_20260910214450_b6b8e00a",
+    "timestamp": "2026-09-10T21:44:50.532870+00:00",
+    "section": "issues",
+    "action": "updated",
     "item": {
-      "title": "Today: 2 events — Voting ends: #100 – devshard v4.1, Voting ends: #101 – Add GLM-5.3-Flash, remove Kimi-K2.6 and GLM-5.2-FP8 from PoC models",
-      "url": "/community/calendar/",
-      "file": null
+      "title": "#1749 — x/bls hooks are never installed: InvokeSetBlsHooks asks depinject for a pointer the module never provides",
+      "url": "/community/issues/01749-xbls-hooks-are-never-installed-invokesetblshooks-asks-depinj/",
+      "file": "01749-xbls-hooks-are-never-installed-invokesetblshooks-asks-depinj.md"
     },
     "details": {
-      "today": [
-        {
-          "title": "Voting ends: #100 – devshard v4.1",
-          "date": "2026-09-10",
-          "time": "22:36 UTC",
-          "event_type": "proposal_vote_end",
-          "url": "/proposals/proposals/2026-q3/100/"
-        },
-        {
-          "title": "Voting ends: #101 – Add GLM-5.3-Flash, remove Kimi-K2.6 and GLM-5.2-FP8 from PoC models",
-          "date": "2026-09-10",
-          "time": "23:17 UTC",
-          "event_type": "proposal_vote_end",
-          "url": "/proposals/proposals/2026-q3/101/"
-        }
-      ],
-      "count": 2
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    x/bls hooks are never installed: InvokeSetBlsHooks asks depinject for a pointer the module never provides\n    <span class=\"issues-number\">#1749</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-09-10 14:30 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"iss",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    x/bls hooks are never installed: InvokeSetBlsHooks asks depinject for a pointer the module never provides\n    <span class=\"issues-number\">#1749</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-09-10 14:30 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"is"
     },
     "ai_description": null
   },
