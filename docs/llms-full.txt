@@ -19759,7 +19759,7 @@ decentralized mixture-of-experts."
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-09-10 14:44 UTC
+2026-09-10 18:00 UTC
 
 ---
 
@@ -20207,7 +20207,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-09-10 14:22 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-09-10 18:22 UTC*
 
 ---
 
@@ -28903,7 +28903,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-09-12
   
   We are proposing to allocate 15,500 USDT from the Gonka Community Pool to reimburse the cost of two tickets for All-In Summit 2026 for Daniil and David Liberman, co-creators of the Gonka protocol. All…
-  Yes 0.0% (0) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)$15,500 · Community Pool
+  Yes 100.0% (31,063) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)$15,500 · Community Pool
+  ✗ Turnout 5.5% (31,063 / 561,395) · Quorum 25% (140,348)
 
   
     #102 – Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment
@@ -28915,8 +28916,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-09-11
   
   6Block proposes that the Gonka community ratify and authorize Quant Mesh Limited as the legal contracting counterparty for the Gonka-Ledger integration and allocate 350,350 USDT from the Community Poo…
-  Yes 98.2% (130,828) · No 0.0% (0) · Veto 0.0% (0) · Abstain 1.8% (2,356)$350,350 · Community Pool
-  ✗ Turnout 23.7% (133,184 / 561,395) · Quorum 25% (140,348)
+  Yes 98.6% (161,891) · No 0.0% (0) · Veto 0.0% (0) · Abstain 1.4% (2,356)$350,350 · Community Pool
+  ✓ Turnout 29.3% (164,247 / 561,395) · Quorum 25% (140,348)
 
   
     #101 – Add GLM-5.3-Flash, remove Kimi-K2.6 and GLM-5.2-FP8 from PoC models
@@ -28928,8 +28929,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-09-10
   
   Add zai-org/GLM-5.3-Flash as a governance-approved model and PoC model. Remove moonshotai/Kimi-K2.6 and zai-org/GLM-5.2-FP8 from poc_params.models.  MiniMaxAI/MiniMax-M2.7 and deepseek-ai/DeepSeek-V4-…
-  Yes 99.0% (298,743) · No 0.0% (0) · Veto 0.0% (0) · Abstain 1.0% (3,168)
-  ✓ Turnout 53.8% (301,911 / 561,395) · Quorum 25% (140,348)
+  Yes 99.0% (329,806) · No 0.0% (0) · Veto 0.0% (0) · Abstain 1.0% (3,168)
+  ✓ Turnout 59.3% (332,974 / 561,395) · Quorum 25% (140,348)
 
   
     #100 – devshard v4.1
@@ -28941,8 +28942,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-09-10
   
   Add v4.1 to the approved list of devshard versions.
-  Yes 100.0% (301,911) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✓ Turnout 53.8% (301,911 / 561,395) · Quorum 25% (140,348)
+  Yes 100.0% (332,974) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 59.3% (332,974 / 561,395) · Quorum 25% (140,348)
 
   
     #99 – Support Gonka's presence at TOKEN2049 Singapore
@@ -30065,7 +30066,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-102 proposals across 5 quarters. Last updated: 2026-09-10 15:21 UTC
+102 proposals across 5 quarters. Last updated: 2026-09-10 17:00 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -67209,7 +67210,8 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-09-12
   
   We are proposing to allocate 15,500 USDT from the Gonka Community Pool to reimburse the cost of two tickets for All-In Summit 2026 for Daniil and David Liberman, co-creators of the Gonka protocol. All…
-  Yes 0.0% (0) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)$15,500 · Community Pool
+  Yes 100.0% (31,063) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)$15,500 · Community Pool
+  ✗ Turnout 5.5% (31,063 / 561,395) · Quorum 25% (140,348)
 
   
     #102 – Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment
@@ -67221,8 +67223,8 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-09-11
   
   6Block proposes that the Gonka community ratify and authorize Quant Mesh Limited as the legal contracting counterparty for the Gonka-Ledger integration and allocate 350,350 USDT from the Community Poo…
-  Yes 98.2% (130,828) · No 0.0% (0) · Veto 0.0% (0) · Abstain 1.8% (2,356)$350,350 · Community Pool
-  ✗ Turnout 23.7% (133,184 / 561,395) · Quorum 25% (140,348)
+  Yes 98.6% (161,891) · No 0.0% (0) · Veto 0.0% (0) · Abstain 1.4% (2,356)$350,350 · Community Pool
+  ✓ Turnout 29.3% (164,247 / 561,395) · Quorum 25% (140,348)
 
   
     #101 – Add GLM-5.3-Flash, remove Kimi-K2.6 and GLM-5.2-FP8 from PoC models
@@ -67234,8 +67236,8 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-09-10
   
   Add zai-org/GLM-5.3-Flash as a governance-approved model and PoC model. Remove moonshotai/Kimi-K2.6 and zai-org/GLM-5.2-FP8 from poc_params.models.  MiniMaxAI/MiniMax-M2.7 and deepseek-ai/DeepSeek-V4-…
-  Yes 99.0% (298,743) · No 0.0% (0) · Veto 0.0% (0) · Abstain 1.0% (3,168)
-  ✓ Turnout 53.8% (301,911 / 561,395) · Quorum 25% (140,348)
+  Yes 99.0% (329,806) · No 0.0% (0) · Veto 0.0% (0) · Abstain 1.0% (3,168)
+  ✓ Turnout 59.3% (332,974 / 561,395) · Quorum 25% (140,348)
 
   
     #100 – devshard v4.1
@@ -67247,8 +67249,8 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-09-10
   
   Add v4.1 to the approved list of devshard versions.
-  Yes 100.0% (301,911) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✓ Turnout 53.8% (301,911 / 561,395) · Quorum 25% (140,348)
+  Yes 100.0% (332,974) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 59.3% (332,974 / 561,395) · Quorum 25% (140,348)
 
   
     #99 – Support Gonka's presence at TOKEN2049 Singapore
@@ -67526,12 +67528,12 @@ Add v4.1 to the approved list of devshard versions.
     
   
   
-    Yes 100.0% (301,911)
+    Yes 100.0% (332,974)
     No 0.0% (0)
     Veto 0.0% (0)
     Abstain 0.0% (0)
-    Total 301,911 votes
-    ✓ Turnout 53.8% (301,911 / 561,395) · Quorum 25% (140,348)
+    Total 332,974 votes
+    ✓ Turnout 59.3% (332,974 / 561,395) · Quorum 25% (140,348)
   
 
 Voters
@@ -67542,6 +67544,9 @@ gonka1qwfrtz…33xdklYes 100.0%
 gonka1p2lhgn…k6h26mYes 100.0%
 gonka1rqm2u7…mgd53tYes 100.0%
 gonka1ym3np7…0e4a2pYes 100.0%
+gonka1xwkesa…lcktdsYes 100.0%
+gonka18xeqns…whyn0dYes 100.0%
+gonka1830lqu…pasz0yYes 100.0%
 gonka1gyk0aa…k8svc5Yes 100.0%
 gonka1gvpv7v…lyrmkxYes 100.0%
 gonka1gvrrhj…d2v4zrYes 100.0%
@@ -67551,7 +67556,9 @@ gonka10mmdja…vqgz09Yes 100.0%
 gonka1scskt6…mn4rxvYes 100.0%
 gonka1346p2h…nd55fhYes 100.0%
 gonka1kvmerz…lzldumYes 100.0%
+gonka1erprg2…h06gkqYes 100.0%
 gonka16dgkvx…6j0skkYes 100.0%
+gonka1u60wtn…u7w0qqYes 100.0%
 
 ---
 ## Messages
@@ -68078,12 +68085,12 @@ The activation epoch (penalty_start_epoch) for GLM-5.3-Flash is 394.
     
   
   
-    Yes 99.0% (298,743)
+    Yes 99.0% (329,806)
     No 0.0% (0)
     Veto 0.0% (0)
     Abstain 1.0% (3,168)
-    Total 301,911 votes
-    ✓ Turnout 53.8% (301,911 / 561,395) · Quorum 25% (140,348)
+    Total 332,974 votes
+    ✓ Turnout 59.3% (332,974 / 561,395) · Quorum 25% (140,348)
   
 
 Voters
@@ -68094,6 +68101,9 @@ gonka1qwfrtz…33xdklYes 100.0%
 gonka1p2lhgn…k6h26mYes 100.0%
 gonka1rqm2u7…mgd53tYes 100.0%
 gonka1ym3np7…0e4a2pAbstain 100.0%
+gonka1xwkesa…lcktdsYes 100.0%
+gonka18xeqns…whyn0dYes 100.0%
+gonka1830lqu…pasz0yYes 100.0%
 gonka1gvpv7v…lyrmkxYes 100.0%
 gonka1gvrrhj…d2v4zrYes 100.0%
 gonka1fundsn…ls252eYes 100.0%
@@ -68102,7 +68112,9 @@ gonka10mmdja…vqgz09Yes 100.0%
 gonka1scskt6…mn4rxvYes 100.0%
 gonka1346p2h…nd55fhYes 100.0%
 gonka1kvmerz…lzldumYes 100.0%
+gonka1erprg2…h06gkqYes 100.0%
 gonka16dgkvx…6j0skkYes 100.0%
+gonka1u60wtn…u7w0qqYes 100.0%
 
 ---
 ## Messages
@@ -68630,12 +68642,12 @@ The allocation consists of 350,000 USDT for the initial Ledger integration payme
     
   
   
-    Yes 98.2% (130,828)
+    Yes 98.6% (161,891)
     No 0.0% (0)
     Veto 0.0% (0)
-    Abstain 1.8% (2,356)
-    Total 133,184 votes
-    ✗ Turnout 23.7% (133,184 / 561,395) · Quorum 25% (140,348)
+    Abstain 1.4% (2,356)
+    Total 164,247 votes
+    ✓ Turnout 29.3% (164,247 / 561,395) · Quorum 25% (140,348)
   
 
 Voters
@@ -68646,7 +68658,10 @@ gonka1qwfrtz…33xdklAbstain 100.0%
 gonka1p2lhgn…k6h26mYes 100.0%
 gonka1rqm2u7…mgd53tYes 100.0%
 gonka1yd663c…cw8yf3Yes 100.0%
+gonka1xwkesa…lcktdsYes 100.0%
 gonka18xpj92…er4umzYes 100.0%
+gonka18xeqns…whyn0dYes 100.0%
+gonka1830lqu…pasz0yYes 100.0%
 gonka1gvpv7v…lyrmkxYes 100.0%
 gonka1f0u3y2…y8ts3eNo_With_Veto 100.0%
 gonka1fundsn…ls252eYes 100.0%
@@ -68654,7 +68669,9 @@ gonka1t0psql…mnwdadYes 100.0%
 gonka1ts6k67…je6z4cNo_With_Veto 100.0%
 gonka1346p2h…nd55fhYes 100.0%
 gonka1kvmerz…lzldumYes 100.0%
+gonka1erprg2…h06gkqYes 100.0%
 gonka16dgkvx…6j0skkYes 100.0%
+gonka1u60wtn…u7w0qqYes 100.0%
 
 ---
 ## Messages
@@ -68713,6 +68730,34 @@ The standard Attendee Pass costs $7,500 per person. The tickets have already bee
 
 ---
 
+## Final Tally
+
+  
+    
+    
+    
+    
+  
+  
+    Yes 100.0% (31,063)
+    No 0.0% (0)
+    Veto 0.0% (0)
+    Abstain 0.0% (0)
+    Total 31,063 votes
+    ✗ Turnout 5.5% (31,063 / 561,395) · Quorum 25% (140,348)
+  
+
+Voters
+
+VoterVote
+
+gonka1xwkesa…lcktdsYes 100.0%
+gonka18xeqns…whyn0dYes 100.0%
+gonka1830lqu…pasz0yYes 100.0%
+gonka1erprg2…h06gkqYes 100.0%
+gonka1u60wtn…u7w0qqYes 100.0%
+
+---
 ## Messages
 
 | # | Type |
