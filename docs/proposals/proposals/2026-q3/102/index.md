@@ -40,18 +40,18 @@ The allocation consists of 350,000 USDT for the initial Ledger integration payme
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:28.8%"></div>
+    <div class="prop-tally-yes" style="width:26.5%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:0.4%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes <strong>98.6%</strong> (161,891)</span>
+    <span class="prop-tally-yes-text">Yes <strong>98.4%</strong> (141,393)</span>
     <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-abstain-text">Abstain <strong>1.4%</strong> (2,356)</span>
-    <span class="prop-tally-total-text">Total 164,247 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout <strong>29.3%</strong> (164,247 / 561,395) · Quorum <strong>25%</strong> (140,348)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>1.6%</strong> (2,356)</span>
+    <span class="prop-tally-total-text">Total 143,749 votes</span>
+    <span class="prop-tally-yes-text">✓ Turnout <strong>26.9%</strong> (143,749 / 534,063) · Quorum <strong>25%</strong> (133,515)</span>
   </div>
 </div>
 

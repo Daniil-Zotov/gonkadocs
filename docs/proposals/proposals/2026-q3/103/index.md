@@ -41,18 +41,18 @@ The standard Attendee Pass costs $7,500 per person. The tickets have already bee
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:5.5%"></div>
+    <div class="prop-tally-yes" style="width:3.9%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (31,063)</span>
+    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (20,978)</span>
     <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-total-text">Total 31,063 votes</span>
-    <span class="prop-tally-veto-text">✗ Turnout <strong>5.5%</strong> (31,063 / 561,395) · Quorum <strong>25%</strong> (140,348)</span>
+    <span class="prop-tally-total-text">Total 20,978 votes</span>
+    <span class="prop-tally-veto-text">✗ Turnout <strong>3.9%</strong> (20,978 / 534,063) · Quorum <strong>25%</strong> (133,515)</span>
   </div>
 </div>
 

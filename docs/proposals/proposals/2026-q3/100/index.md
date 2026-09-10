@@ -35,18 +35,18 @@ Add v4.1 to the approved list of devshard versions.
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:59.3%"></div>
+    <div class="prop-tally-yes" style="width:58.5%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (332,974)</span>
+    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (312,476)</span>
     <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-total-text">Total 332,974 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout <strong>59.3%</strong> (332,974 / 561,395) · Quorum <strong>25%</strong> (140,348)</span>
+    <span class="prop-tally-total-text">Total 312,476 votes</span>
+    <span class="prop-tally-yes-text">✓ Turnout <strong>58.5%</strong> (312,476 / 534,063) · Quorum <strong>25%</strong> (133,515)</span>
   </div>
 </div>
 
