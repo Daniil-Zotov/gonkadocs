@@ -47,18 +47,18 @@ The activation epoch (penalty_start_epoch) for GLM-5.3-Flash is 394.
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:54.2%"></div>
+    <div class="prop-tally-yes" style="width:52.8%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
-    <div class="prop-tally-abstain" style="width:0.5%"></div>
+    <div class="prop-tally-abstain" style="width:0.6%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes <strong>99.1%</strong> (261,089)</span>
+    <span class="prop-tally-yes-text">Yes <strong>99.0%</strong> (298,743)</span>
     <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-abstain-text">Abstain <strong>0.9%</strong> (2,422)</span>
-    <span class="prop-tally-total-text">Total 263,511 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout <strong>54.7%</strong> (263,511 / 481,620) · Quorum <strong>25%</strong> (120,405)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>1.0%</strong> (3,168)</span>
+    <span class="prop-tally-total-text">Total 301,911 votes</span>
+    <span class="prop-tally-yes-text">✓ Turnout <strong>53.4%</strong> (301,911 / 565,436) · Quorum <strong>25%</strong> (141,359)</span>
   </div>
 </div>
 
