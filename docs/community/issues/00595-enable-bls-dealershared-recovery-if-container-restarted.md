@@ -2,7 +2,7 @@
 title: "#595 — Enable BLS DealerShared recovery if container restarted"
 source: https://github.com/gonka-ai/gonka/issues/595
 issue_number: 595
-synced_at: 2026-09-10T00:22:20Z
+synced_at: 2026-09-10T04:55:09Z
 template: issues-main.html
 ---
 

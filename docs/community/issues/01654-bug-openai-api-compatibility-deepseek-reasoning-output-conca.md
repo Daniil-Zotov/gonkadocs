@@ -2,7 +2,7 @@
 title: "#1654 — ⁠[Bug] OpenAI API compatibility: DeepSeek reasoning output concatenated into content & invalid reasoning_effort validation⁠"
 source: https://github.com/gonka-ai/gonka/issues/1654
 issue_number: 1654
-synced_at: 2026-09-10T00:18:57Z
+synced_at: 2026-09-10T04:53:11Z
 template: issues-main.html
 ---
 
