@@ -35,7 +35,7 @@ hide:
 
 <div class="qs-stats">
 <div class="qs-stat total"><span class="qs-num">24</span><span class="qs-desc">Total Proposals</span></div>
-<div class="qs-stat passed"><span class="qs-num">14</span><span class="qs-desc">Passed (58%)</span></div>
+<div class="qs-stat passed"><span class="qs-num">16</span><span class="qs-desc">Passed (67%)</span></div>
 <div class="qs-stat rejected"><span class="qs-num">6</span><span class="qs-desc">Rejected (25%)</span></div>
 
 </div>
@@ -68,8 +68,8 @@ hide:
     <span>Voting ends 2026-09-12</span>
   </div>
   <div class="prop-card-desc">We are proposing to allocate 15,500 USDT from the Gonka Community Pool to reimburse the cost of two tickets for All-In Summit 2026 for Daniil and David Liberman, co-creators of the Gonka protocol. All…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (20,978)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding prop-card-funding-voting">$15,500 · Community Pool</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>3.9%</strong> (20,978 / 534,063) · Quorum <strong>25%</strong> (133,515)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (37,687)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding prop-card-funding-voting">$15,500 · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>7.1%</strong> (37,687 / 534,063) · Quorum <strong>25%</strong> (133,515)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-voting" data-voting-end="2026-09-11T09:28:14.306648256Z">
@@ -87,11 +87,10 @@ hide:
   <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>26.9%</strong> (143,749 / 534,063) · Quorum <strong>25%</strong> (133,515)</span></div>
 </div>
 
-<div class="prop-card" data-status="prop-voting" data-voting-end="2026-09-10T23:17:27.402122371Z">
+<div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
     <a href="101/" class="prop-card-title">#101 – Add GLM-5.3-Flash, remove Kimi-K2.6 and GLM-5.2-FP8 from PoC models</a>
-    <span class="prop-vote-countdown" data-deadline="2026-09-10T23:17:27.402122371Z"></span>
-    <span class="prop-badge prop-voting">Voting</span>
+    <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
     <span>Submitted 2026-09-08</span>
@@ -102,11 +101,10 @@ hide:
   <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>58.5%</strong> (312,476 / 534,063) · Quorum <strong>25%</strong> (133,515)</span></div>
 </div>
 
-<div class="prop-card" data-status="prop-voting" data-voting-end="2026-09-10T22:36:34.311913031Z">
+<div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
     <a href="100/" class="prop-card-title">#100 – devshard v4.1</a>
-    <span class="prop-vote-countdown" data-deadline="2026-09-10T22:36:34.311913031Z"></span>
-    <span class="prop-badge prop-voting">Voting</span>
+    <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
     <span>Submitted 2026-09-08</span>

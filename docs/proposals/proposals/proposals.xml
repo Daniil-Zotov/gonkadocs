@@ -31,7 +31,7 @@ The allocation consists of 350,000 USDT for the initial Ledger integration payme
       <link>https://gonkadocs.com/proposals/proposals/2026-q3/101/</link>
       <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q3/101/</guid>
       <pubDate>Tue, 08 Sep 2026 23:17:27 +0000</pubDate>
-      <category>Voting</category>
+      <category>Passed</category>
       <description>Add zai-org/GLM-5.3-Flash as a governance-approved model and PoC model. Remove moonshotai/Kimi-K2.6 and zai-org/GLM-5.2-FP8 from poc_params.models.
 
 MiniMaxAI/MiniMax-M2.7 and deepseek-ai/DeepSeek-V4-Flash-0731 are not affected: their PoC parameters and weights remain unchanged. All other chain parameters remain unchanged.
@@ -43,7 +43,7 @@ The GLM-5.3-Flash model and its parameters were proposed by the kaitaku.ai team,
       <link>https://gonkadocs.com/proposals/proposals/2026-q3/100/</link>
       <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q3/100/</guid>
       <pubDate>Tue, 08 Sep 2026 22:36:34 +0000</pubDate>
-      <category>Voting</category>
+      <category>Passed</category>
       <description>Add v4.1 to the approved list of devshard versions.</description>
     </item>
     <item>
