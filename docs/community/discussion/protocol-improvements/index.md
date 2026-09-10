@@ -4,14 +4,15 @@ title: ":gear: Protocol Improvements"
 
 # :gear: Protocol Improvements
 
-Дискуссии в категории **:gear: Protocol Improvements**. Всего: **46**. Обновлено: `2026-09-10 11:09 UTC`.
+Дискуссии в категории **:gear: Protocol Improvements**. Всего: **47**. Обновлено: `2026-09-10 16:19 UTC`.
 
 [← ко всем категориям](../index.md)
 
 | # | Заголовок | Автор | Обновлено |
 |---:|---|---|---|
+| [1748](1748-dynamic-devshard-per-escrow-bls-dkg-nizk-dealings-on-chain-t.md) | [Dynamic devshard: per-escrow BLS DKG (NIZK dealings, on-chain T0)](1748-dynamic-devshard-per-escrow-bls-dkg-nizk-dealings-on-chain-t.md) | [@akup](https://github.com/akup) | 2026-09-10 |
 | [1721](1721-community-interest-adding-glm-53-flash-and-qwen38-flash-next.md) | [Community interest: adding GLM-5.3-Flash and Qwen3.8-Flash-Next to the lineup?](1721-community-interest-adding-glm-53-flash-and-qwen38-flash-next.md) | [@Ryanchen911](https://github.com/Ryanchen911) | 2026-09-08 |
-| [1685](1685-devshard-load-testing.md) | [Devshard Load Testing](1685-devshard-load-testing.md) | [@aikuznetsov](https://github.com/aikuznetsov) | 2026-09-02 |
+| [1685](1685-devshard-load-testing.md) | [Devshard Load Testing](1685-devshard-load-testing.md) | [@aikuznetsov](https://github.com/aikuznetsov) | 2026-09-10 |
 | [1668](1668-proposal-raise-the-deepseek-coefficient-to-0400.md) | [Proposal: raise the DeepSeek coefficient to 0.400](1668-proposal-raise-the-deepseek-coefficient-to-0400.md) | [@knyazev741](https://github.com/knyazev741) | 2026-09-08 |
 | [1636](1636-proposal-cache-served-token-pricing.md) | [Proposal: Cache-Served Token Pricing](1636-proposal-cache-served-token-pricing.md) | [@theaungmyatmoe](https://github.com/theaungmyatmoe) | 2026-08-24 |
 | [1502](1502-обратная-связь-от-разработчика-почему-текущий-модельный-ряд-.md) | [Обратная связь от разработчика: почему текущий модельный ряд Gonka пока не проходит production bar](1502-обратная-связь-от-разработчика-почему-текущий-модельный-ряд-.md) | [@bitcompool](https://github.com/bitcompool) | 2026-07-26 |

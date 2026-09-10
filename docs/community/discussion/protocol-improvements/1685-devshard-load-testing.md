@@ -3,284 +3,196 @@ title: "#1685 — Devshard Load Testing"
 source: https://github.com/gonka-ai/gonka/discussions/1685
 discussion_number: 1685
 category: protocol-improvements
-synced_at: 2026-09-10T11:09:30Z
+synced_at: 2026-09-10T16:18:39Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1685](https://github.com/gonka-ai/gonka/discussions/1685) every hour. 
 
 # Devshard Load Testing
 
-**Автор:** [@aikuznetsov](https://github.com/aikuznetsov) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-08-31 15:13 UTC · **Обновлено:** 2026-09-02 23:37 UTC
+**Автор:** [@aikuznetsov](https://github.com/aikuznetsov) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-08-31 15:13 UTC · **Обновлено:** 2026-09-10 13:53 UTC
 
 ---
 
 ## 📝 Описание
 
-**Scope:** define a repeatable path for load testing Devshards locally and on
-TestNet, using the existing testenv, TestNet harness, gateway, escrow tooling,
-and observability surfaces.
+## Goal
 
-This is intentionally a proposal, not a full runbook. The detailed command
-reference should live near the tools it documents.
+The goal is to validate a new Devshard version under controlled concurrent load: measure its stable capacity, verify critical request and failure paths, detect regressions, and produce reproducible, traceable evidence for any protocol or lifecycle failure. The test characterizes Devshard behavior with controlled dependencies, not real model performance or production capacity.
 
-## TL;DR
-
-Add a concurrent load mode to
-[`test-net-cloud/devshard-testing`](https://github.com/gonka-ai/gonka/tree/main/test-net-cloud/devshard-testing).
-Use it in three layers:
-
-1. Local testenv for cheap correctness and pressure rehearsal.
-2. TestNet harness for controlled real-chain load and settlement validation.
-3. TestNet soak for longer stability, backlog, and degradation checks.
-
-The first useful version should answer:
-
-- how many concurrent chat requests a gateway can sustain for a model;
-- how throughput scales with the number of active devshard escrows;
-- where failures appear under pressure;
-- whether load creates nonce stalls, validation duplicates, orphaned receipts,
-  settlement failures, or long-lived backlog;
-- whether the same profile can be rehearsed locally before TestNet.
-
-## Why This Needs Structure
-
-The current pieces already exist, but they serve different purposes:
-
-- local testenv proves correctness against mocks;
-- TestNet harness proves escrow creation, inference, finalization, and
-  settlement against a real chain;
-- gateway deployment supports multiple devshards through `DEVSHARDS_JSON`;
-- Prometheus/Grafana expose runtime symptoms, but not a compact run result.
-
-The missing piece is not another one-off script. It is a reusable runner that
-can apply the same request profiles across local and TestNet environments and
-write comparable summary artifacts.
-
-## Existing Building Blocks
-
-| Area | Existing path | Useful today | Gap |
-| --- | --- | --- | --- |
-| Local stack | [`devshard/testenv`](https://github.com/gonka-ai/gonka/tree/main/devshard/testenv) | mock chain, mock dapi, mock OpenAI, versiond/devshardd, Postgres, optional observability | no general concurrent load mode |
-| Lease-race smoke | [`devshard/testenv/scripts/lease-race-load.sh`](https://github.com/gonka-ai/gonka/blob/main/devshard/testenv/scripts/lease-race-load.sh) | sends streaming and non-streaming requests | sequential, no RPS/duration control |
-| Lease monitor | [`devshard/testenv/scripts/lease-race-monitor.sh`](https://github.com/gonka-ai/gonka/blob/main/devshard/testenv/scripts/lease-race-monitor.sh) | checks duplicate validation leases | should become a reusable assertion |
-| TestNet harness | [`test-net-cloud/devshard-testing`](https://github.com/gonka-ai/gonka/tree/main/test-net-cloud/devshard-testing) | creates escrows, starts devshardctl, sends requests, finalizes | smoke-oriented, request-by-request |
-| Gateway config | [`deploy/join/config.devshard.env.template`](https://github.com/gonka-ai/gonka/blob/main/deploy/join/config.devshard.env.template) | supports multi-devshard gateway via `DEVSHARDS_JSON` | needs load-oriented examples |
-| Observability | [`docs/observability/observability-overview.md`](https://github.com/gonka-ai/gonka/blob/main/docs/observability/observability-overview.md) | metrics and dashboards exist | runner should emit JSON/CSV summary |
-
-## Proposed Test Layers
+## Load Test Environment Architecture
 
 ```mermaid
-flowchart TD
-    L1["Layer 1: local testenv<br/>mock-chain + mock-dapi + mock-openai + versiond/devshardd<br/><b>Purpose:</b> cheap correctness and pressure rehearsal"]
-    L2["Layer 2: TestNet harness<br/>real chain escrows + devshardctl/gateway + real participants<br/><b>Purpose:</b> controlled real-chain load and settlement validation"]
-    L3["Layer 3: TestNet soak<br/>multi-devshard gateway + longer duration + observability review<br/><b>Purpose:</b> stability, drift, validation backlog, host degradation"]
+flowchart LR
+    subgraph NEW["New Components"]
+        RUNNER["Scenario Runner<br/>faults, state, assertions"]
+        LOAD["Load Generator<br/>concurrent requests"]
+    end
 
-    L1 --> L2 --> L3
+    subgraph EXISTING["Existing Components"]
+        GW["devshardctl"]
+        ROUTER["versiond-router"]
+        HOSTS["versiond + devshardd"]
+        CHAIN["mock-chain"]
+        DAPI["mock-dapi"]
+        ML0["mock-openai-0"]
+        ML1["mock-openai-1"]
+        MLN["mock-openai-N"]
+        DB["Postgres / SQLite"]
+        OBS["Prometheus / Loki / Jaeger"]
+    end
+
+    LOAD --> GW --> ROUTER --> HOSTS
+    GW --> CHAIN
+    HOSTS --> CHAIN
+    HOSTS -->|AcquireMLNode| DAPI
+    DAPI -. selects endpoint .-> ML0
+    DAPI -. selects endpoint .-> ML1
+    DAPI -. selects endpoint .-> MLN
+    HOSTS -->|inference| ML0
+    HOSTS -->|inference| ML1
+    HOSTS -->|inference| MLN
+    HOSTS --> DB
+    RUNNER -. controls .-> LOAD
+    RUNNER -. faults .-> CHAIN
+    RUNNER -. faults .-> DAPI
+    RUNNER -. faults .-> ML0
+    RUNNER -. faults .-> ML1
+    RUNNER -. faults .-> MLN
+    RUNNER -. collects .-> OBS
+    GW -. telemetry .-> OBS
+    HOSTS -. telemetry .-> OBS
+    DAPI -. telemetry .-> OBS
+    ML0 -. telemetry .-> OBS
+    ML1 -. telemetry .-> OBS
+    MLN -. telemetry .-> OBS
 ```
 
-| Layer | Environment | What it should catch |
-| --- | --- | --- |
-| 1 | Local `devshard/testenv` | scheduler bugs, streaming handling, duplicate validation leases, obvious storage issues |
-| 2 | TestNet harness | chain params, escrow creation, real participant behavior, settlement/finalization failures |
-| 3 | TestNet soak | slow leaks, validation backlog, drift, degraded hosts, gateway stability |
+### Existing Components
 
-## Proposed Runner
+- **Production path:** `devshardctl`, `versiond-router`, and `versiond` running production `devshardd` binaries.
+- **Controlled dependencies:** `mock-chain`, `mock-dapi`, a configurable pool of `mock-openai` nodes, and the configured Postgres or SQLite storage.
+- **Observability:** the existing Prometheus, Loki, and Jaeger testenv overlay.
+- **Integration harness:** `citest/harness` already starts isolated Compose projects, controls services, and reads state and telemetry.
 
-Extend the existing harness instead of adding a second load tool:
+All measured requests enter through `devshardctl /v1/chat/completions`. The mocks make chain state, ML-node allocation, timing, and failures deterministic; their own throughput is not a test result.
 
-```bash
-./devshard-testing --mode load ...
+### New Components
+
+- **Load Generator:** sends reproducible concurrent JSON and SSE requests, controls request cancellation, and records client outcomes and correlation identifiers. No dedicated concurrent load generator exists today.
+- **Scenario Runner:** configures the selected workload and faults, coordinates the run lifecycle, waits for protocol drain, evaluates assertions, and builds failure artifacts. Existing `citest/harness` provides the foundation, but the load-oriented runner and scenario format do not exist today.
+
+### Extensions to Existing Components
+
+- **Mock OpenAI pool:** measured runs start at least two independent nodes, with the exact pool size configured by the scenario. Each node has its own latency, bounded worker pool and queue, failure rules, and metrics. Faults can target a node or requests selected deterministically by `X-Request-Id` and the scenario seed.
+- **Mock DAPI allocator:** `AcquireMLNode` selects from the configured pool using deterministic allocation rules. It supports node availability changes and records acquisitions, releases, rejections, active allocations, and allocation distribution per node.
+
+ML node behavior is defined by committed profiles and selected by each scenario. Timing values may be constants or ranges; ranges and error selection are resolved deterministically from `X-Request-Id` and the scenario seed.
+
+```yaml
+# ml-profiles/realistic.yaml
+ttft:
+  min: 150ms
+  max: 350ms
+token_interval: 25ms
+workers: 8
+queue: 32
+failures:
+  - request_id_hash_fraction: 0.02
+    http_status: 503
 ```
 
-Keep the current sequential behavior as the default smoke mode.
+## Load Test Scenarios
 
-Minimum new controls:
+Each load-test scenario is one runnable, committed YAML file and the only unit of execution, pass/fail, artifact creation, and reproduction. It defines one workload, one fault mode, Devshard and Mock ML pool topology, ML profiles, allocation rules, request shape, seed, thresholds, and drain timeout.
 
-| Flag | Purpose |
-| --- | --- |
-| `--mode smoke|load` | preserve current behavior and add concurrent load |
-| `--gateway-url` | target an already-running gateway instead of spawning one proxy per escrow |
-| `--concurrency` | cap in-flight requests |
-| `--rps` | optional global rate limit |
-| `--duration` | run by wall-clock duration |
-| `--requests` | run by total request count |
-| `--stream-ratio` | mix streaming and non-streaming requests |
-| `--prompt-profile short|long|mixed` | generate repeatable request shapes |
-| `--prompt-tokens` | target prompt size |
-| `--max-tokens` | cap output size |
-| `--summary-file` | write machine-readable run summary |
-| `--latency-file` | write per-request samples |
-| `--settle-at-end` | optionally finalize and settle after the run |
-
-Scheduler behavior:
-
-1. Create or reuse `N` escrows.
-2. Start or target a gateway.
-3. Generate request jobs until `--duration` or `--requests` is reached.
-4. Enforce concurrency and optional RPS.
-5. Record every request outcome.
-6. Periodically query gateway status.
-7. Stop before exhausting the chain `max_nonce` budget.
-8. Optionally finalize and settle escrows.
-9. Write JSON summary and CSV latency samples.
-
-## Output Artifacts
-
-Each run should produce enough data to compare local, TestNet, and soak runs
-without digging through logs first.
-
-`load-summary.json` should include:
-
-- run start/end timestamps;
-- git SHA, route prefix, model, prompt profile, and gateway URL;
-- escrow count and nonce budget;
-- total requests, successes, failures, and achieved RPS;
-- p50/p90/p95/p99 latency;
-- streaming and non-streaming split;
-- per-devshard request distribution;
-- final gateway status snapshot;
-- finalization and settlement result when enabled.
-
-`latencies.csv` should include one row per request with timestamps, latency,
-model, streaming mode, HTTP status, bounded error category, selected devshard,
-prompt target, and output cap.
-
-## Standard Profiles
-
-These profiles are starting points. Exact SLOs should be model-specific.
-
-| Profile | Environment | Example shape | Pass criteria |
+| Scenario | Workload | Fault injection | Required outcome |
 | --- | --- | --- | --- |
-| Smoke | local or TestNet | `count=3`, `requests=30`, `concurrency=3`, short prompts | no unexpected 5xx, all devshards receive traffic, status remains healthy |
-| Baseline | TestNet | `count=8`, `duration=15m`, `concurrency=32`, short prompts | stable p95, no nonce stalls, no duplicate validation leases, backlog drains |
-| Long context | local first, then TestNet | `prompt-tokens=45000`, `concurrency=10` | admission control is predictable, memory settles after load |
-| Streaming mix | local and TestNet | `stream-ratio=0.5`, mixed prompts | streams finish cleanly, cancellations do not create unbounded orphan receipts |
-| Soak | TestNet | `count=16`, `duration=3h`, `concurrency=16`, `rps=4` | no sustained memory/goroutine growth, validation backlog drains, no stuck escrows |
-| Degraded host | preferably local first | one slow/unreachable/503 participant | gateway capacity drops gracefully, failures are bounded and visible |
+| `normal-load` | stepped concurrency with mixed JSON and SSE requests | none; the Mock ML pool remains fast and unsaturated | find the highest stable concurrency while all accepted requests reach valid terminal states |
+| `client-cancel` | steady concurrent JSON and SSE traffic | deterministic cancellation after headers or first content | cancellation reaches its expected terminal state without orphaned execution |
+| `ml-5xx` | steady concurrent traffic across multiple Mock ML nodes | selected node returns request-selective 5xx responses | failures are classified and correlated with the selected node while the system remains drainable |
+| `slow-ml` | steady concurrent traffic across multiple Mock ML nodes | selected node uses a high-TTFT or slow-token profile | timeout and backpressure behavior is classified correctly without stuck state |
+| `partial-stream` | concurrent SSE traffic | selected requests omit their terminal stream marker | the client and Devshard classify the broken stream and drain all resulting work |
+| `ml-overload` | traffic above the configured capacity of one Mock ML node | bounded workers and queue on the selected node | overload is handled without orphaned execution and the system recovers after load stops |
+| `validation-race` | sustained concurrency with delayed validation | deterministic validation delays and lease contention | each validation has one owner and terminal outcome, with no duplicate commits or stale leases |
 
-## TestNet Devshard Version Rollout
+Initial implementations should reuse the behavior already covered by [`devshard/testenv/citest`](https://github.com/gonka-ai/gonka/tree/main/devshard/testenv/citest), including lost-first-chunk, ML 5xx, error-finish-miss, and validation lease-race tests.
 
-Load testing a new DevShard build on TestNet should normally be a devshard-only
-rollout, not a full TestNet redeploy.
+Fault selection must be reproducible. A scenario uses explicit request IDs or a stable hash of `request_id` and seed. Unseeded probability and wall-clock race timing are not sufficient for a reproducible failure.
 
-Relevant docs: [`devshard/docs/upgrade.md`](https://github.com/gonka-ai/gonka/blob/main/devshard/docs/upgrade.md),
-[`devshard/docs/rolling-update.md`](https://github.com/gonka-ai/gonka/blob/main/devshard/docs/rolling-update.md),
-[`proposals/versioned/README.md`](https://github.com/gonka-ai/gonka/blob/main/proposals/versioned/README.md),
-and [`test-net-cloud/nebius/README.md`](https://github.com/gonka-ai/gonka/blob/main/test-net-cloud/nebius/README.md).
+Thresholds belong in scenario files, not in generator code.
 
-Rollout path:
+## Test Execution
 
-1. Pick the route name and binary build ID.
-   - New protocol route: add a new `approved_versions.name`, for example `v5`.
-   - Compatible refresh: keep the same name, for example `v4`, and change only
-     `binary` and `sha256`.
-2. Build the artifact:
+The scenario runner is the control plane. It should build on the existing Go `citest/harness` and:
 
-   ```bash
-   make devshardd-release DEVSHARD_VERSION=v5 DEVSHARD_BINARY_VERSION=0.2.15-v5-r1
-   shasum -a 256 build/devshardd-release/devshardd.zip
-   ```
+1. Start an isolated Compose project and wait for readiness.
+2. Apply deterministic mock and fault configuration.
+3. Capture initial Devshard state.
+4. Start the load-generator container.
+5. Trigger configured request-scoped cancellations or service actions.
+6. Stop new traffic and wait for bounded protocol drain.
+7. Collect accounting, state, logs, and metrics.
+8. Evaluate assertions and write result artifacts.
 
-3. Publish `devshardd.zip` at a URL reachable by TestNet `versiond`.
-4. Submit a governance proposal that preserves current params and updates only
-   `devshard_escrow_params.approved_versions`.
-5. Wait for DAPI `/versions` to expose the approved version.
-6. Verify `versiond` downloaded, verified, and started the binary.
-7. Run the smoke profile against `/devshard/<name>`.
-8. Move to baseline and soak only after smoke passes.
+The load generator is the data plane. It should not mutate chain or Devshard state outside normal gateway requests. Its MVP controls are gateway URL, concurrency, duration, stream ratio, request size, timeout, cancellation phase, run ID, seed, and output path.
 
-Avoid using
-[`deploy-test-net-cloud.yml`](https://github.com/gonka-ai/gonka/blob/main/.github/workflows/deploy-test-net-cloud.yml)
-for this path. That workflow is a broader cloud redeploy path and is not the
-right primitive for a devshard runtime update.
+For every request it records a request ID, timestamps, HTTP outcome, time to headers, time to first content, total duration, stream terminal marker, and response identifiers. Open-loop RPS scheduling is deferred until the closed-loop scenarios are stable.
 
-## Local Workflow
+## Correctness Assertions
 
-Local runs should be cheap and deterministic:
+A run fails regardless of throughput when:
 
-1. Start `devshard/testenv` with the generated compose stack and observability.
-2. Build `test-net-cloud/devshard-testing`.
-3. Run `--mode load` against `--gateway-url http://localhost:8081`.
-4. Reuse `lease-race-monitor.sh` after the run to assert lease uniqueness.
+- an accepted request has no terminal outcome after drain;
+- an injected fault produces an unexpected terminal class or reason;
+- a JSON response is malformed or an SSE response has an invalid ending;
+- a session reuses or regresses a nonce;
+- the same validation work is owned or committed more than once;
+- a receipt, execution, validation, or finish remains orphaned;
+- replicas report divergent durable session state;
+- queues, leases, or in-flight operations do not drain;
+- a required service restarts or becomes unready unexpectedly;
+- a failed request cannot be correlated with gateway accounting and relevant terminal state.
 
-The detailed local command reference should stay in
-[`devshard/testenv/README.md`](https://github.com/gonka-ai/gonka/tree/main/devshard/testenv)
-or the harness README, not in this proposal.
+Expected injected failures count as scenario outcomes, not successful user requests. The assertion engine must distinguish them from unexpected failures.
 
-## TestNet Workflow
+## Measurements
 
-Preflight:
+The initial implementation should measure Devshard behavior, not general container infrastructure.
 
-1. Confirm chain gRPC and REST access.
-2. Check registered models.
-3. Check `devshard_escrow_params`.
-4. Confirm `devshard_requests_enabled=true`.
-5. Confirm `max_nonce` is sufficient for the planned run.
-6. Confirm the test account is funded.
-7. Confirm the route prefix is approved and served.
-
-Example shape: run `--mode load` against TestNet gRPC/REST endpoints, target
-`/devshard/<name>`, use `count=8`, `duration=15m`, `concurrency=32`, and write
-both JSON summary and CSV latency samples.
-
-Post-run:
-
-1. Save summary artifacts with date, git SHA, model, route prefix, gateway
-   config, and TestNet height range.
-2. Check final escrow nonces and settlement state.
-3. Check validation backlog and duplicate lease assertions.
-4. Inspect gateway and devshardd metrics.
-5. Finalize/settle escrows when the profile requires it.
-
-## Metrics To Watch
-
-Start with a short metrics list in the proposal. Keep the full dashboard query
-reference in a separate runbook.
-
-| Area | Watch |
+| Area | Required signals |
 | --- | --- |
-| Gateway | requests, critical failures, limit rejections, participant transport errors, devshard picker distribution, first-content latency |
-| Devshardd | terminal outcomes, inflight stages, validation throughput, orphan validations, queue drops/depth, mempool size, detected storage forks |
-| Chain/runtime | `devshard_requests_enabled`, `max_nonce`, `validation_rate`, gateway status, memory, pprof captures during soak |
+| Client outcome | achieved RPS, success/error/timeout rate, p50/p95/p99 TTFT and total latency, completed and broken streams |
+| Devshard behavior | accepted and terminal requests, in-flight work, rejection reasons, validation queue depth, drain time |
+| Host distribution | requests and terminal outcomes per selected host |
+| ML allocation | acquisitions, releases, rejections, active allocations after drain, allocation distribution per node |
+| Mock ML pool | active and queued requests per node, completions, failures, cancellations, saturation, and overloads |
+| Test validity | generator-dropped jobs and unexpected mock dependency saturation |
 
-## Acceptance Criteria
+A run is invalid when the load generator or a mock dependency unexpectedly reaches its own capacity before the intended Devshard condition. Saturation is valid only when explicitly required by the selected scenario.
 
-The first implementation is accepted when:
+For `normal-load`, the result is the highest concurrency step that passes all correctness assertions, remains within the scenario's latency and error thresholds, and drains within its deadline. It is a regression baseline for the same environment, not a production capacity claim.
 
-- `test-net-cloud/devshard-testing` supports `--mode load`;
-- existing smoke behavior still works;
-- the runner supports duration, request count, concurrency, RPS, streaming mix,
-  prompt profiles, and output files;
-- local testenv load works against `http://localhost:8081`;
-- TestNet load can create/reuse escrows against real chain endpoints;
-- the runner stops before accidentally exhausting `max_nonce`;
-- JSON summary and CSV latency samples are written;
-- scheduler/statistics code has focused tests;
-- no mainnet secrets, production endpoints, or operator-only assumptions are
-  committed.
+CPU, memory, network, and Postgres metrics are optional diagnostics. They may be enabled while investigating a bottleneck but are not pass/fail signals for the initial scenarios.
 
-## Documentation Split
+## Failure Artifacts
 
-Keep this GitHub discussion under roughly 300 lines and move detailed material
-to tool-local docs:
+Write one result directory per run:
 
-| Document | Purpose |
-| --- | --- |
-| This proposal | decision, scope, layers, acceptance criteria |
-| `test-net-cloud/devshard-testing/README.md` | exact CLI flags, examples, output schema |
-| `devshard/testenv/README.md` | local load-test setup and lease assertions |
-| `devshard/docs/testnet-devshard-rollout.md` | TestNet devshard version rollout runbook |
-| `docs/observability/...` | full metrics and dashboard query reference |
+```text
+results/<run_id>/
+  run.yaml
+  summary.json
+  requests.jsonl
+  assertions.json
+  failures/<request_id>.json
+```
 
-## Open Questions
+`summary.json` contains the build identity, scenario, seed, topology, workload steps, throughput, latency, failure counts, and final assertion result.
 
-1. Should TestNet load always target an already-running gateway, or should the
-   harness spawn a temporary one?
-2. Should settlement run in every profile, or only smoke and soak?
-3. What are the first model-specific SLOs for p95 latency, error rate, and
-   validation drain time?
-4. Should long-context prompts be generated in the runner or imported from
-   existing Compressa prompt files?
-5. Should degraded-host scenarios stay local until fault injection is safe on
-   TestNet?
+`requests.jsonl` contains the correlation and client outcome for every generated request. Detailed per-request samples are optional for long successful runs but mandatory for failed requests.
+
+Each failure bundle contains the request and client outcome, gateway accounting, all correlation identifiers, relevant terminal events and bounded logs, applied fault configuration, state snapshots, failed assertion, and reproduction command.
+
+Large raw logs may remain in the observability backend. The bundle must contain stable identifiers and queries needed to retrieve them.
 
