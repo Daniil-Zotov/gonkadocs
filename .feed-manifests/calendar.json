@@ -1,6 +1,6 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-09-10T09:58:45.713336+00:00",
+  "snapshot_time": "2026-09-10T14:35:17.773485+00:00",
   "files": {
     "460d7b406a26039bca186ac074c0ac02e7130753a332dc8fe809420a0d5bbd6c": {
       "title": "AMA: Bitfury, HackerOne & Gonka — Bug Bounty Program Launch",
@@ -2170,6 +2170,15 @@
       "url": "/proposals/proposals/2026-q3/102/",
       "content_preview": "6Block proposes that the Gonka community ratify and authorize Quant Mesh Limited as the legal contracting counterparty for the Gonka-Ledger integration and allocate 350,350 USDT from the Community Poo…",
       "checksum": "2243671566ace7d552c50acca2d94f18b87a9046112ffdbd021321a8a6fb2e04"
+    },
+    "e22798b4b576593ba497241d2efcc581499ed8f5157f4080402fb7bfc4805360": {
+      "title": "Voting ends: #103 – Reimbursement of Expenses for Daniil and David Liberman's Participation in All-In Summit 2026",
+      "date": "2026-09-12",
+      "time": "13:31 UTC",
+      "event_type": "proposal_vote_end",
+      "url": "/proposals/proposals/2026-q3/103/",
+      "content_preview": "We are proposing to allocate 15,500 USDT from the Gonka Community Pool to reimburse the cost of two tickets for All-In Summit 2026 for Daniil and David Liberman, co-creators of the Gonka protocol.\nAll…",
+      "checksum": "96b2e4b0f7a6e910dad3db8ee0eb0a2a3ac02d2b07d0bef02e170f86b3a7bc2c"
     }
   }
 }

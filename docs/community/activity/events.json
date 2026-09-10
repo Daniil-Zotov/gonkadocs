@@ -1,5 +1,25 @@
 [
   {
+    "id": "evt_20260910143517_c32ee92d",
+    "timestamp": "2026-09-10T14:35:17.750454+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Voting ends: #103 – Reimbursement of Expenses for Daniil and David Liberman's Participation in All-In Summit 2026",
+      "url": "/proposals/proposals/2026-q3/103/",
+      "file": "e22798b4b576593ba497241d2efcc581499ed8f5157f4080402fb7bfc4805360"
+    },
+    "details": {
+      "status": null,
+      "content": "We are proposing to allocate 15,500 USDT from the Gonka Community Pool to reimburse the cost of two tickets for All-In Summit 2026 for Daniil and David Liberman, co-creators of the Gonka protocol.\nAll…",
+      "date": "2026-09-12",
+      "time": "13:31 UTC",
+      "event_type": "proposal_vote_end",
+      "url": "/proposals/proposals/2026-q3/103/"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260910002755_744481f4",
     "timestamp": "2026-09-10T00:27:55.979005+00:00",
     "section": "calendar",
@@ -7803,20 +7823,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Bridge normalization issue\n    <span class=\"issues-number\">#925</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-03-20 23:28 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div"
     },
     "ai_description": "Removed: #925 — Bridge normalization issue. <div class=\"issues-detail-header\"> <h1 class=\"issues-detail-title\"> <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 "
-  },
-  {
-    "id": "evt_20260909144015_4661885a",
-    "timestamp": "2026-09-09T14:40:15.270631+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#926 — [P1] Seed for POC fix",
-      "url": null,
-      "file": "00926-p1-seed-for-poc-fix.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P1] Seed for POC fix\n    <span class=\"issues-number\">#926</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-03-20 23:33 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issue"
-    },
-    "ai_description": "Removed: #926 — [P1] Seed for POC fix. <div class=\"issues-detail-header\"> <h1 class=\"issues-detail-title\"> <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 "
   }
 ]
