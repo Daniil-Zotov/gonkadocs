@@ -19759,7 +19759,7 @@ decentralized mixture-of-experts."
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-09-10 05:30 UTC
+2026-09-10 10:27 UTC
 
 ---
 
@@ -19813,7 +19813,7 @@ curl -s https://node3.gonka.ai/chain-api/cosmos/bank/v1beta1/balances/gonka18pkq
 
 **Address:** [`gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33`](https://gonka.gg/address/gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33)
 
-Current balance: 4,306,611 GNK
+Current balance: 4,359,769 GNK
 
 The Gov Module authority is the only address permitted to execute `MsgCommunityPoolSpend` transfers from the Community Pool. When a governance proposal passes, this address signs and sends the requested funds to the specified recipient.
 
@@ -28903,8 +28903,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-09-11
   
   6Block proposes that the Gonka community ratify and authorize Quant Mesh Limited as the legal contracting counterparty for the Gonka-Ledger integration and allocate 350,350 USDT from the Community Poo…
-  Yes 98.4% (143,324) · No 0.0% (0) · Veto 0.0% (0) · Abstain 1.6% (2,320)$350,350 · Community Pool
-  ✓ Turnout 30.2% (145,644 / 481,620) · Quorum 25% (120,405)
+  Yes 98.2% (130,828) · No 0.0% (0) · Veto 0.0% (0) · Abstain 1.8% (2,356)$350,350 · Community Pool
+  ✗ Turnout 23.6% (133,184 / 565,436) · Quorum 25% (141,359)
 
   
     #101 – Add GLM-5.3-Flash, remove Kimi-K2.6 and GLM-5.2-FP8 from PoC models
@@ -28916,8 +28916,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-09-10
   
   Add zai-org/GLM-5.3-Flash as a governance-approved model and PoC model. Remove moonshotai/Kimi-K2.6 and zai-org/GLM-5.2-FP8 from poc_params.models.  MiniMaxAI/MiniMax-M2.7 and deepseek-ai/DeepSeek-V4-…
-  Yes 99.1% (261,089) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.9% (2,422)
-  ✓ Turnout 54.7% (263,511 / 481,620) · Quorum 25% (120,405)
+  Yes 99.0% (298,743) · No 0.0% (0) · Veto 0.0% (0) · Abstain 1.0% (3,168)
+  ✓ Turnout 53.4% (301,911 / 565,436) · Quorum 25% (141,359)
 
   
     #100 – devshard v4.1
@@ -28929,8 +28929,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-09-10
   
   Add v4.1 to the approved list of devshard versions.
-  Yes 100.0% (263,511) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✓ Turnout 54.7% (263,511 / 481,620) · Quorum 25% (120,405)
+  Yes 100.0% (301,911) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 53.4% (301,911 / 565,436) · Quorum 25% (141,359)
 
   
     #99 – Support Gonka's presence at TOKEN2049 Singapore
@@ -30053,7 +30053,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-101 proposals across 5 quarters. Last updated: 2026-09-10 09:37 UTC
+101 proposals across 5 quarters. Last updated: 2026-09-10 11:01 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -67197,8 +67197,8 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-09-11
   
   6Block proposes that the Gonka community ratify and authorize Quant Mesh Limited as the legal contracting counterparty for the Gonka-Ledger integration and allocate 350,350 USDT from the Community Poo…
-  Yes 98.4% (143,324) · No 0.0% (0) · Veto 0.0% (0) · Abstain 1.6% (2,320)$350,350 · Community Pool
-  ✓ Turnout 30.2% (145,644 / 481,620) · Quorum 25% (120,405)
+  Yes 98.2% (130,828) · No 0.0% (0) · Veto 0.0% (0) · Abstain 1.8% (2,356)$350,350 · Community Pool
+  ✗ Turnout 23.6% (133,184 / 565,436) · Quorum 25% (141,359)
 
   
     #101 – Add GLM-5.3-Flash, remove Kimi-K2.6 and GLM-5.2-FP8 from PoC models
@@ -67210,8 +67210,8 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-09-10
   
   Add zai-org/GLM-5.3-Flash as a governance-approved model and PoC model. Remove moonshotai/Kimi-K2.6 and zai-org/GLM-5.2-FP8 from poc_params.models.  MiniMaxAI/MiniMax-M2.7 and deepseek-ai/DeepSeek-V4-…
-  Yes 99.1% (261,089) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.9% (2,422)
-  ✓ Turnout 54.7% (263,511 / 481,620) · Quorum 25% (120,405)
+  Yes 99.0% (298,743) · No 0.0% (0) · Veto 0.0% (0) · Abstain 1.0% (3,168)
+  ✓ Turnout 53.4% (301,911 / 565,436) · Quorum 25% (141,359)
 
   
     #100 – devshard v4.1
@@ -67223,8 +67223,8 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-09-10
   
   Add v4.1 to the approved list of devshard versions.
-  Yes 100.0% (263,511) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✓ Turnout 54.7% (263,511 / 481,620) · Quorum 25% (120,405)
+  Yes 100.0% (301,911) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 53.4% (301,911 / 565,436) · Quorum 25% (141,359)
 
   
     #99 – Support Gonka's presence at TOKEN2049 Singapore
@@ -67502,12 +67502,12 @@ Add v4.1 to the approved list of devshard versions.
     
   
   
-    Yes 100.0% (263,511)
+    Yes 100.0% (301,911)
     No 0.0% (0)
     Veto 0.0% (0)
     Abstain 0.0% (0)
-    Total 263,511 votes
-    ✓ Turnout 54.7% (263,511 / 481,620) · Quorum 25% (120,405)
+    Total 301,911 votes
+    ✓ Turnout 53.4% (301,911 / 565,436) · Quorum 25% (141,359)
   
 
 Voters
@@ -68054,12 +68054,12 @@ The activation epoch (penalty_start_epoch) for GLM-5.3-Flash is 394.
     
   
   
-    Yes 99.1% (261,089)
+    Yes 99.0% (298,743)
     No 0.0% (0)
     Veto 0.0% (0)
-    Abstain 0.9% (2,422)
-    Total 263,511 votes
-    ✓ Turnout 54.7% (263,511 / 481,620) · Quorum 25% (120,405)
+    Abstain 1.0% (3,168)
+    Total 301,911 votes
+    ✓ Turnout 53.4% (301,911 / 565,436) · Quorum 25% (141,359)
   
 
 Voters
@@ -68606,12 +68606,12 @@ The allocation consists of 350,000 USDT for the initial Ledger integration payme
     
   
   
-    Yes 98.4% (143,324)
+    Yes 98.2% (130,828)
     No 0.0% (0)
     Veto 0.0% (0)
-    Abstain 1.6% (2,320)
-    Total 145,644 votes
-    ✓ Turnout 30.2% (145,644 / 481,620) · Quorum 25% (120,405)
+    Abstain 1.8% (2,356)
+    Total 133,184 votes
+    ✗ Turnout 23.6% (133,184 / 565,436) · Quorum 25% (141,359)
   
 
 Voters
