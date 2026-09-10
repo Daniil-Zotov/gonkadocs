@@ -23,8 +23,8 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - 2026-09-10 22:36 UTC — Voting ends: #100 – devshard v4.1: https://gonkadocs.com/proposals/proposals/2026-q3/100/
 - 2026-09-10 23:17 UTC — Voting ends: #101 – Add GLM-5.3-Flash, remove Kimi-K2.6 and GLM-5.2-FP8 from PoC models: https://gonkadocs.com/proposals/proposals/2026-q3/101/
 - 2026-09-11 09:28 UTC — Voting ends: #102 – Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment: https://gonkadocs.com/proposals/proposals/2026-q3/102/
+- 2026-09-12 13:31 UTC — Voting ends: #103 – Reimbursement of Expenses for Daniil and David Liberman's Participation in All-In Summit 2026: https://gonkadocs.com/proposals/proposals/2026-q3/103/
 - 2026-09-16 13:00 UTC — INPUT Global — Weekly Call (#77): https://gonkadocs.com/proposals/proposals/2026-q2/77/
-- 2026-09-16 15:00 UTC — TheSoul — Weekly Report Call (#60–#65): https://gonkadocs.com/proposals/proposals/2026-q2/60/
 
 ## Protocol Documentation
 
@@ -254,6 +254,7 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [Bringing $3M+ in New Capital to GONKA via Uniswap — Phase 1/6 ($50k USDT)](/proposals/proposals/2026-q3/84/full-proposal/): Auto-synced content
 - [#84 – Bringing $3M+ in New Capital to GONKA via Uniswap — Phase 1/6 ($50k USDT)](/proposals/proposals/2026-q3/84/): Auto-synced content
 - [#91 – Temporarily update BLS signing parameters](/proposals/proposals/2026-q3/91/): Auto-synced content
+- [#103 – Reimbursement of Expenses for Daniil and David Liberman's Participation in All-In Summit 2026](/proposals/proposals/2026-q3/103/): Auto-synced content
 - [#100 – devshard v4.1](/proposals/proposals/2026-q3/100/): Auto-synced content
 - [#99 – Support Gonka's presence at TOKEN2049 Singapore](/proposals/proposals/2026-q3/99/): Auto-synced content
 - [#95 – Migrate community-sale and wrapped-token contracts](/proposals/proposals/2026-q3/95/): Auto-synced content

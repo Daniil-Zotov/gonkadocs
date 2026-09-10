@@ -20160,7 +20160,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 40Expired
 46Votes
-125.8K GNKTotal Bid
+127.2K GNKTotal Bid
 
 | Status | Title | Author | Votes | Avg. Bid | Closed |
 | :----- | :----- | :----- | ----: | -------: | :----- |
@@ -20191,8 +20191,8 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 | 🔴 | [3. Team Gonka Wallet Grant Request](./2b6b2142-685a-4eda-b2a1-f8853228f3e6/) | Slava MyGonka | 0 | 0.00 GNK | 2026-07-11 |
 | 🔴 | [Team Gonka.AI \| Inside Grant Request](./4792a93f-127a-4a0e-9a12-acd229c1e865/) | Slava MyGonka | 0 | 0.00 GNK | 2026-07-11 |
 | 🔴 | [1. Team Veylox Grant Request](./66e6583a-27b4-4bae-91fb-8f0489736b0d/) | Slava MyGonka | 0 | 0.00 GNK | 2026-07-11 |
-| 🔴 | [Go-To-Market Team for 3 Month to Set Up the Basis](./cb7f643f-3d56-47ec-9193-f9f2f80a99fb/) | Dem \| Démíngān | 2 | 28.9K GNK | 2026-07-10 |
-| 🔴 | [Gonka Media Library by Saccade](./f215996d-e562-42b5-b2b1-400226e612fa/) | Dem \| Démíngān | 2 | 28.9K GNK | 2026-07-10 |
+| 🔴 | [Go-To-Market Team for 3 Month to Set Up the Basis](./cb7f643f-3d56-47ec-9193-f9f2f80a99fb/) | Dem \| Démíngān | 2 | 29.2K GNK | 2026-07-10 |
+| 🔴 | [Gonka Media Library by Saccade](./f215996d-e562-42b5-b2b1-400226e612fa/) | Dem \| Démíngān | 2 | 29.2K GNK | 2026-07-10 |
 | 🔴 | [Стресс тест инфиренса](./efc0edeb-bc49-4c6b-a6e7-5b20ccfbe571/) | Mitch | 0 | 0.00 GNK | 2026-06-05 |
 | 🔴 | [Bring Gonka to EBC12 as a Gold Sponsor](./29baf37b-811f-4c36-b517-66a578383f1c/) | Heydar Naghiyev | 0 | 0.00 GNK | 2026-06-04 |
 | 🔴 | [Большое видео на канале Falcon Finance (Александр Соколовский)](./550f71de-897f-4ce5-8af8-97854775f8b2/) | Дмитрий В | 0 | 0.00 GNK | 2026-05-28 |
@@ -20207,7 +20207,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-09-10 09:37 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-09-10 14:22 UTC*
 
 ---
 
@@ -24545,7 +24545,7 @@ https://prnt.sc/ax9mlD-RDtuC
 **Closes:** 2026-07-10 15:58 UTC
 **Language:** EN
 **Votes:** 2
-**Avg. Bid:** 28.9K GNK
+**Avg. Bid:** 29.2K GNK
 
 This proposal describes ecosystem we should do for the Gonka, including basics, go-to-market actions, the team and the budgets for the next 3 months.
 
@@ -27878,7 +27878,7 @@ https://youtu.be/hwX_4_v6xxI
 **Closes:** 2026-07-10 11:28 UTC
 **Language:** EN
 **Votes:** 2
-**Avg. Bid:** 28.9K GNK
+**Avg. Bid:** 29.2K GNK
 
 Gonka Media Library — Explainer Library & Platform
 Explainer series (20 ep., 40 min) + web download & self-branding platform
@@ -28874,12 +28874,12 @@ HardCore Arena позволит протестировать модель на �
 
 ## Overview
 
-101Total Proposals
+102Total Proposals
 66Passed (65%)
-31Rejected (31%)
+31Rejected (30%)
 1Failed (1%)
 
-Funding / Grants41
+Funding / Grants42
 Governance Parameters33
 Software Upgrade18
 Other4
@@ -28891,7 +28891,19 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
 
 ## 2026-Q3
 
-*23 proposals*
+*24 proposals*
+
+  
+    #103 – Reimbursement of Expenses for Daniil and David Liberman's Participation in All-In Summit 2026
+    
+    Voting
+  
+  
+    Submitted 2026-09-10
+    Voting ends 2026-09-12
+  
+  We are proposing to allocate 15,500 USDT from the Gonka Community Pool to reimburse the cost of two tickets for All-In Summit 2026 for Daniil and David Liberman, co-creators of the Gonka protocol. All…
+  Yes 0.0% (0) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)$15,500 · Community Pool
 
   
     #102 – Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment
@@ -28904,7 +28916,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   
   6Block proposes that the Gonka community ratify and authorize Quant Mesh Limited as the legal contracting counterparty for the Gonka-Ledger integration and allocate 350,350 USDT from the Community Poo…
   Yes 98.2% (130,828) · No 0.0% (0) · Veto 0.0% (0) · Abstain 1.8% (2,356)$350,350 · Community Pool
-  ✗ Turnout 23.6% (133,184 / 565,436) · Quorum 25% (141,359)
+  ✗ Turnout 23.7% (133,184 / 561,395) · Quorum 25% (140,348)
 
   
     #101 – Add GLM-5.3-Flash, remove Kimi-K2.6 and GLM-5.2-FP8 from PoC models
@@ -28917,7 +28929,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   
   Add zai-org/GLM-5.3-Flash as a governance-approved model and PoC model. Remove moonshotai/Kimi-K2.6 and zai-org/GLM-5.2-FP8 from poc_params.models.  MiniMaxAI/MiniMax-M2.7 and deepseek-ai/DeepSeek-V4-…
   Yes 99.0% (298,743) · No 0.0% (0) · Veto 0.0% (0) · Abstain 1.0% (3,168)
-  ✓ Turnout 53.4% (301,911 / 565,436) · Quorum 25% (141,359)
+  ✓ Turnout 53.8% (301,911 / 561,395) · Quorum 25% (140,348)
 
   
     #100 – devshard v4.1
@@ -28930,7 +28942,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   
   Add v4.1 to the approved list of devshard versions.
   Yes 100.0% (301,911) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✓ Turnout 53.4% (301,911 / 565,436) · Quorum 25% (141,359)
+  ✓ Turnout 53.8% (301,911 / 561,395) · Quorum 25% (140,348)
 
   
     #99 – Support Gonka's presence at TOKEN2049 Singapore
@@ -30053,7 +30065,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-101 proposals across 5 quarters. Last updated: 2026-09-10 12:20 UTC
+102 proposals across 5 quarters. Last updated: 2026-09-10 14:21 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -67171,12 +67183,12 @@ Contract Details
 
 ## 2026-Q3 Summary
 
-23Total Proposals
-14Passed (61%)
-6Rejected (26%)
+24Total Proposals
+14Passed (58%)
+6Rejected (25%)
 
 Governance Parameters12
-Funding / Grants7
+Funding / Grants8
 Software Upgrade2
 Other1
 GRC / Restitution1
@@ -67185,7 +67197,19 @@ GRC / Restitution1
 $90,075 USDT · Bounty Reward
 
 2026-Q3
-23 proposals
+24 proposals
+
+  
+    #103 – Reimbursement of Expenses for Daniil and David Liberman's Participation in All-In Summit 2026
+    
+    Voting
+  
+  
+    Submitted 2026-09-10
+    Voting ends 2026-09-12
+  
+  We are proposing to allocate 15,500 USDT from the Gonka Community Pool to reimburse the cost of two tickets for All-In Summit 2026 for Daniil and David Liberman, co-creators of the Gonka protocol. All…
+  Yes 0.0% (0) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)$15,500 · Community Pool
 
   
     #102 – Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment
@@ -67198,7 +67222,7 @@ $90,075 USDT · Bounty Reward
   
   6Block proposes that the Gonka community ratify and authorize Quant Mesh Limited as the legal contracting counterparty for the Gonka-Ledger integration and allocate 350,350 USDT from the Community Poo…
   Yes 98.2% (130,828) · No 0.0% (0) · Veto 0.0% (0) · Abstain 1.8% (2,356)$350,350 · Community Pool
-  ✗ Turnout 23.6% (133,184 / 565,436) · Quorum 25% (141,359)
+  ✗ Turnout 23.7% (133,184 / 561,395) · Quorum 25% (140,348)
 
   
     #101 – Add GLM-5.3-Flash, remove Kimi-K2.6 and GLM-5.2-FP8 from PoC models
@@ -67211,7 +67235,7 @@ $90,075 USDT · Bounty Reward
   
   Add zai-org/GLM-5.3-Flash as a governance-approved model and PoC model. Remove moonshotai/Kimi-K2.6 and zai-org/GLM-5.2-FP8 from poc_params.models.  MiniMaxAI/MiniMax-M2.7 and deepseek-ai/DeepSeek-V4-…
   Yes 99.0% (298,743) · No 0.0% (0) · Veto 0.0% (0) · Abstain 1.0% (3,168)
-  ✓ Turnout 53.4% (301,911 / 565,436) · Quorum 25% (141,359)
+  ✓ Turnout 53.8% (301,911 / 561,395) · Quorum 25% (140,348)
 
   
     #100 – devshard v4.1
@@ -67224,7 +67248,7 @@ $90,075 USDT · Bounty Reward
   
   Add v4.1 to the approved list of devshard versions.
   Yes 100.0% (301,911) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✓ Turnout 53.4% (301,911 / 565,436) · Quorum 25% (141,359)
+  ✓ Turnout 53.8% (301,911 / 561,395) · Quorum 25% (140,348)
 
   
     #99 – Support Gonka's presence at TOKEN2049 Singapore
@@ -67507,7 +67531,7 @@ Add v4.1 to the approved list of devshard versions.
     Veto 0.0% (0)
     Abstain 0.0% (0)
     Total 301,911 votes
-    ✓ Turnout 53.4% (301,911 / 565,436) · Quorum 25% (141,359)
+    ✓ Turnout 53.8% (301,911 / 561,395) · Quorum 25% (140,348)
   
 
 Voters
@@ -68059,7 +68083,7 @@ The activation epoch (penalty_start_epoch) for GLM-5.3-Flash is 394.
     Veto 0.0% (0)
     Abstain 1.0% (3,168)
     Total 301,911 votes
-    ✓ Turnout 53.4% (301,911 / 565,436) · Quorum 25% (141,359)
+    ✓ Turnout 53.8% (301,911 / 561,395) · Quorum 25% (140,348)
   
 
 Voters
@@ -68611,7 +68635,7 @@ The allocation consists of 350,000 USDT for the initial Ledger integration payme
     Veto 0.0% (0)
     Abstain 1.8% (2,356)
     Total 133,184 votes
-    ✗ Turnout 23.6% (133,184 / 565,436) · Quorum 25% (141,359)
+    ✗ Turnout 23.7% (133,184 / 561,395) · Quorum 25% (140,348)
   
 
 Voters
@@ -68652,6 +68676,62 @@ Contract Details
         "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
         "amount": "350350000000",
         "recipient": "gonka1yqj5xf0wtqgpdmv5v68cus0tp2j5fv7lzcfd6g"
+      }
+    },
+    "funds": []
+  }
+]
+```
+
+---
+
+## #103 – Reimbursement of Expenses for Daniil and David Liberman's Participation in All-In Summit 2026
+
+# #103 – Reimbursement of Expenses for Daniil and David Liberman's Participation in All-In Summit 2026
+
+Voting
+
+**Proposal ID:** `103`
+
+**Type:** Execute Contract
+
+**Submit:** 2026-09-10 13:31 UTC
+
+**Voting:** 2026-09-10 13:31 UTC → 2026-09-12 13:31 UTC
+
+**Proposer:** [`gonka12m252y2vfy25ygwgzl4gn7fusds7p0ak2klxf7`](https://gonka.gg/address/gonka12m252y2vfy25ygwgzl4gn7fusds7p0ak2klxf7){:target="_blank"}
+
+**Metadata:** [https://github.com/gonka-ai/gonka/discussions/1747](https://github.com/gonka-ai/gonka/discussions/1747)
+
+$15,500 · Community Pool
+
+[View on gonka.gg](https://gonka.gg/network/proposals/103){:target="_blank"}
+
+We are proposing to allocate 15,500 USDT from the Gonka Community Pool to reimburse the cost of two tickets for All-In Summit 2026 for Daniil and David Liberman, co-creators of the Gonka protocol.
+All-In Summit will take place on September 13–15, 2026, in Los Angeles and will bring together more than 2,500 hand-selected attendees, including tech founders, investors, executives, and leaders from the AI industry.
+The standard Attendee Pass costs $7,500 per person. The tickets have already been paid for. The requested reimbursement covers only the cost of the two tickets plus transaction fees for withdrawing the funds. Flights, accommodation, and any other expenses are not being requested from the Community Pool under this proposal.
+
+---
+
+## Messages
+
+| # | Type |
+| :- | :--- |
+| 1 | `/cosmwasm.wasm.v1.MsgExecuteContract` |
+
+Contract Details
+
+```json
+[
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "contract": "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2",
+    "msg": {
+      "withdraw_ibc": {
+        "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+        "amount": "15500000000",
+        "recipient": "gonka1xpm5dlr8mpn9s4z4lzz8pvwt9y2t0kwgsfm2w2"
       }
     },
     "funds": []
