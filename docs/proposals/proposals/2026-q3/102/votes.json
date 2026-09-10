@@ -45,7 +45,40 @@
   },
   {
     "proposal_id": "102",
+    "voter": "gonka1xwkesaxvdadh9wt9yyladu0r260s7whklcktds",
+    "options": [
+      {
+        "option": "VOTE_OPTION_YES",
+        "weight": "1.000000000000000000"
+      }
+    ],
+    "metadata": ""
+  },
+  {
+    "proposal_id": "102",
     "voter": "gonka18xpj92yhx6tqtq9ystcv6xpuc4s9ymumer4umz",
+    "options": [
+      {
+        "option": "VOTE_OPTION_YES",
+        "weight": "1.000000000000000000"
+      }
+    ],
+    "metadata": ""
+  },
+  {
+    "proposal_id": "102",
+    "voter": "gonka18xeqnspxpg2vncufnjne485rkaagwvz7whyn0d",
+    "options": [
+      {
+        "option": "VOTE_OPTION_YES",
+        "weight": "1.000000000000000000"
+      }
+    ],
+    "metadata": ""
+  },
+  {
+    "proposal_id": "102",
+    "voter": "gonka1830lqug50lse998x2lakk4pj5ypfumz5pasz0y",
     "options": [
       {
         "option": "VOTE_OPTION_YES",
@@ -133,7 +166,29 @@
   },
   {
     "proposal_id": "102",
+    "voter": "gonka1erprg28u792w5nfdvcwtgyhlmyx8tsjch06gkq",
+    "options": [
+      {
+        "option": "VOTE_OPTION_YES",
+        "weight": "1.000000000000000000"
+      }
+    ],
+    "metadata": ""
+  },
+  {
+    "proposal_id": "102",
     "voter": "gonka16dgkvx7mh609ntkzknckwaskgq9lcdp86j0skk",
+    "options": [
+      {
+        "option": "VOTE_OPTION_YES",
+        "weight": "1.000000000000000000"
+      }
+    ],
+    "metadata": ""
+  },
+  {
+    "proposal_id": "102",
+    "voter": "gonka1u60wtn9dhadweeuq2gywcpx34fpfnuhmu7w0qq",
     "options": [
       {
         "option": "VOTE_OPTION_YES",
