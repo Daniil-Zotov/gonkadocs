@@ -28,7 +28,7 @@
       ],
       "count": 2
     },
-    "ai_description": null
+    "ai_description": "Today: Today: 2 events — Voting ends: #102 – Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment, External Test Lab & Community DevNet — второй ежемесячный статус-колл | Second Monthly Status Call."
   },
   {
     "id": "evt_20260911002518_3458069c",
@@ -48,7 +48,7 @@
       "event_type": "proposal_report",
       "url": "/proposals/proposals/2026-q3/101/"
     },
-    "ai_description": null
+    "ai_description": "Added: Passed: #101 – Add GLM-5.3-Flash, remove Kimi-K2.6 and GLM-5.2-FP8 from PoC models. Add zai-org/GLM-5.3-Flash as a governance-approved model and PoC model. Remove moonshotai/Kimi-K2.6 and zai-org/GLM-5.2-FP8 from poc_params.models. MiniMaxAI/MiniMax-M2.7 and deepseek-ai/DeepSeek-V4-…"
   },
   {
     "id": "evt_20260911002518_24441745",
@@ -68,7 +68,7 @@
       "event_type": "community_call",
       "url": "https://meet.google.com/mrj-tnhs-zvr"
     },
-    "ai_description": null
+    "ai_description": "Added: External Test Lab & Community DevNet — второй ежемесячный статус-колл | Second Monthly Status Call. Второй ежемесячный статус-колл External Test Lab & Community DevNet — подведём итоги второго месяца работы, познакомим сообщество с новым участником команды и обсудим: – текущий статус инфраструктуры; – планы развития DevNet; – первые результаты тестирования; – шимы и адаптеры для брокеров; – отчёт "
   },
   {
     "id": "evt_20260911002518_07322085",
@@ -88,7 +88,7 @@
       "event_type": "proposal_report",
       "url": "/proposals/proposals/2026-q3/100/"
     },
-    "ai_description": null
+    "ai_description": "Added: Passed: #100 – devshard v4.1. Add v4.1 to the approved list of devshard versions."
   },
   {
     "id": "evt_20260910214450_b6b8e00a",
