@@ -35,7 +35,7 @@ hide:
 
 <div class="qs-stats">
 <div class="qs-stat total"><span class="qs-num">24</span><span class="qs-desc">Total Proposals</span></div>
-<div class="qs-stat passed"><span class="qs-num">16</span><span class="qs-desc">Passed (67%)</span></div>
+<div class="qs-stat passed"><span class="qs-num">17</span><span class="qs-desc">Passed (71%)</span></div>
 <div class="qs-stat rejected"><span class="qs-num">6</span><span class="qs-desc">Rejected (25%)</span></div>
 
 </div>
@@ -48,7 +48,7 @@ hide:
 <div class="qs-row"><span class="qs-label">GRC / Restitution</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:4%"></span></span><span class="qs-value">1</span></div>
 </div>
 
-<div class="qs-funding-line">80,000 GNK · $188,000 · Community Pool</div>
+<div class="qs-funding-line">80,000 GNK · $538,350 · Community Pool</div>
 <div class="qs-bounty-line">$90,075 USDT · Bounty Reward</div>
 
 
@@ -72,18 +72,17 @@ hide:
   <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>8.4%</strong> (42,810 / 512,102) · Quorum <strong>25%</strong> (128,025)</span></div>
 </div>
 
-<div class="prop-card" data-status="prop-voting" data-voting-end="2026-09-11T09:28:14.306648256Z">
+<div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
     <a href="102/" class="prop-card-title">#102 – Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment</a>
-    <span class="prop-vote-countdown" data-deadline="2026-09-11T09:28:14.306648256Z"></span>
-    <span class="prop-badge prop-voting">Voting</span>
+    <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
     <span>Submitted 2026-09-09</span>
     <span>Voting ends 2026-09-11</span>
   </div>
   <div class="prop-card-desc">6Block proposes that the Gonka community ratify and authorize Quant Mesh Limited as the legal contracting counterparty for the Gonka-Ledger integration and allocate 350,350 USDT from the Community Poo…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>96.3%</strong> (146,903)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>3.7%</strong> (5,568)</span><span class="prop-card-funding prop-card-funding-voting">$350,350 · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>96.3%</strong> (146,903)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>3.7%</strong> (5,568)</span><span class="prop-card-funding">$350,350 · Community Pool</span></div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>29.8%</strong> (152,471 / 512,102) · Quorum <strong>25%</strong> (128,025)</span></div>
 </div>
 

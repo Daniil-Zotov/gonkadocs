@@ -1334,13 +1334,13 @@
   {
     "date": "2026-09-11",
     "category": "governance",
-    "type": "proposal_vote_end",
-    "title": "Voting ends: #102 – Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment",
+    "type": "proposal_report",
+    "title": "Passed: #102 – Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment",
     "url": "/proposals/proposals/2026-q3/102/",
     "time": "09:28 UTC",
     "description": "6Block proposes that the Gonka community ratify and authorize Quant Mesh Limited as the legal contracting counterparty for the Gonka-Ledger integration and allocate 350,350 USDT from the Community Poo…",
     "tags": [
-      "voting"
+      "passed"
     ]
   },
   {
