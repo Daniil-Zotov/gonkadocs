@@ -28875,7 +28875,7 @@ HardCore Arena позволит протестировать модель на �
 ## Overview
 
 102Total Proposals
-68Passed (67%)
+69Passed (68%)
 31Rejected (30%)
 1Failed (1%)
 
@@ -28886,7 +28886,7 @@ Other4
 GRC / Restitution3
 Models / IBC2
 
-20,302,572 GNK · $731,600 · Community Pool · 4,691,460 GNK · Gov Module
+20,302,572 GNK · $1,081,950 · Community Pool · 4,691,460 GNK · Gov Module
 $144,150 USDT · 203,750 GNK · Bounty Reward
 
 ## 2026-Q3
@@ -28908,8 +28908,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
 
   
     #102 – Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment
-    
-    Voting
+    Passed
   
   
     Submitted 2026-09-09
@@ -30064,7 +30063,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-102 proposals across 5 quarters. Last updated: 2026-09-11 09:20 UTC
+102 proposals across 5 quarters. Last updated: 2026-09-11 09:40 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -67183,7 +67182,7 @@ Contract Details
 ## 2026-Q3 Summary
 
 24Total Proposals
-16Passed (67%)
+17Passed (71%)
 6Rejected (25%)
 
 Governance Parameters12
@@ -67192,7 +67191,7 @@ Software Upgrade2
 Other1
 GRC / Restitution1
 
-80,000 GNK · $188,000 · Community Pool
+80,000 GNK · $538,350 · Community Pool
 $90,075 USDT · Bounty Reward
 
 2026-Q3
@@ -67213,8 +67212,7 @@ $90,075 USDT · Bounty Reward
 
   
     #102 – Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment
-    
-    Voting
+    Passed
   
   
     Submitted 2026-09-09
@@ -68605,7 +68603,7 @@ Contract Details
 
 # #102 – Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment
 
-Voting
+Passed
 
 **Proposal ID:** `102`
 
