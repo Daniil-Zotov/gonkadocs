@@ -40,18 +40,18 @@ The allocation consists of 350,000 USDT for the initial Ledger integration payme
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:26.5%"></div>
+    <div class="prop-tally-yes" style="width:26.7%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
-    <div class="prop-tally-abstain" style="width:0.4%"></div>
+    <div class="prop-tally-abstain" style="width:1.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes <strong>98.4%</strong> (141,393)</span>
+    <span class="prop-tally-yes-text">Yes <strong>96.2%</strong> (141,393)</span>
     <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-abstain-text">Abstain <strong>1.6%</strong> (2,356)</span>
-    <span class="prop-tally-total-text">Total 143,749 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout <strong>26.9%</strong> (143,749 / 534,063) · Quorum <strong>25%</strong> (133,515)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>3.8%</strong> (5,524)</span>
+    <span class="prop-tally-total-text">Total 146,917 votes</span>
+    <span class="prop-tally-yes-text">✓ Turnout <strong>27.8%</strong> (146,917 / 528,722) · Quorum <strong>25%</strong> (132,180)</span>
   </div>
 </div>
 
@@ -67,6 +67,7 @@ The allocation consists of 350,000 USDT for the initial Ledger integration payme
 <tr><td><a href="https://gonka.gg/address/gonka1p2lhgng7tcqju7emk989s5fpdr7k2c3ek6h26m" target="_blank" class="prop-voter-addr">gonka1p2lhgn…k6h26m</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1rqm2u7lxzn7r68y0drcyhag6xnckpsnfmgd53t" target="_blank" class="prop-voter-addr">gonka1rqm2u7…mgd53t</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1yd663chln29k088hfl2gthq9gf2wmkyzcw8yf3" target="_blank" class="prop-voter-addr">gonka1yd663c…cw8yf3</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
+<tr><td><a href="https://gonka.gg/address/gonka1ym3np7guxart483yfdxnlztuazx22cjt0e4a2p" target="_blank" class="prop-voter-addr">gonka1ym3np7…0e4a2p</a></td><td><span class="prop-voter-option prop-vote-abstain">Abstain 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1xwkesaxvdadh9wt9yyladu0r260s7whklcktds" target="_blank" class="prop-voter-addr">gonka1xwkesa…lcktds</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka18xpj92yhx6tqtq9ystcv6xpuc4s9ymumer4umz" target="_blank" class="prop-voter-addr">gonka18xpj92…er4umz</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka18xeqnspxpg2vncufnjne485rkaagwvz7whyn0d" target="_blank" class="prop-voter-addr">gonka18xeqns…whyn0d</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>

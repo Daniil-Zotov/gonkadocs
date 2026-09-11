@@ -52,7 +52,7 @@ The standard Attendee Pass costs $7,500 per person. The tickets have already bee
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-total-text">Total 37,687 votes</span>
-    <span class="prop-tally-veto-text">✗ Turnout <strong>7.1%</strong> (37,687 / 534,063) · Quorum <strong>25%</strong> (133,515)</span>
+    <span class="prop-tally-veto-text">✗ Turnout <strong>7.1%</strong> (37,687 / 528,722) · Quorum <strong>25%</strong> (132,180)</span>
   </div>
 </div>
 
