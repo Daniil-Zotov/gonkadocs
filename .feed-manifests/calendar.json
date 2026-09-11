@@ -1,6 +1,6 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-09-11T05:04:09.569809+00:00",
+  "snapshot_time": "2026-09-11T09:56:38.715910+00:00",
   "files": {
     "460d7b406a26039bca186ac074c0ac02e7130753a332dc8fe809420a0d5bbd6c": {
       "title": "AMA: Bitfury, HackerOne & Gonka — Bug Bounty Program Launch",
@@ -2171,14 +2171,14 @@
       "content_preview": "Add v4.1 to the approved list of devshard versions.",
       "checksum": "8929c3123c42d6d74212a46de7db72cd1d5cddce5854c5a322ccf6156e31052f"
     },
-    "ea390ecc7fbfeda39f0cdc32686f4779c31167f81285931b928ff6d12d0ba065": {
-      "title": "Voting ends: #102 – Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment",
+    "939b62d866c77bc4416fce8bbf97f2f7c8dd54416e2231c2253ba9a250542756": {
+      "title": "Passed: #102 – Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment",
       "date": "2026-09-11",
       "time": "09:28 UTC",
-      "event_type": "proposal_vote_end",
+      "event_type": "proposal_report",
       "url": "/proposals/proposals/2026-q3/102/",
       "content_preview": "6Block proposes that the Gonka community ratify and authorize Quant Mesh Limited as the legal contracting counterparty for the Gonka-Ledger integration and allocate 350,350 USDT from the Community Poo…",
-      "checksum": "2243671566ace7d552c50acca2d94f18b87a9046112ffdbd021321a8a6fb2e04"
+      "checksum": "1ec47c6e5cfae5ac51bb030cd1600c20dbaf02d019a780b0c9b6dc427109fc88"
     },
     "e22798b4b576593ba497241d2efcc581499ed8f5157f4080402fb7bfc4805360": {
       "title": "Voting ends: #103 – Reimbursement of Expenses for Daniil and David Liberman's Participation in All-In Summit 2026",
