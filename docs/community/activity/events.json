@@ -1,5 +1,96 @@
 [
   {
+    "id": "evt_20260911002518_28d1f9e3",
+    "timestamp": "2026-09-11T00:25:18.160394+00:00",
+    "section": "calendar",
+    "action": "daily_reminder",
+    "item": {
+      "title": "Today: 2 events — Voting ends: #102 – Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment, External Test Lab & Community DevNet — второй ежемесячный статус-колл | Second Monthly Status Call",
+      "url": "/community/calendar/",
+      "file": null
+    },
+    "details": {
+      "today": [
+        {
+          "title": "Voting ends: #102 – Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment",
+          "date": "2026-09-11",
+          "time": "09:28 UTC",
+          "event_type": "proposal_vote_end",
+          "url": "/proposals/proposals/2026-q3/102/"
+        },
+        {
+          "title": "External Test Lab & Community DevNet — второй ежемесячный статус-колл | Second Monthly Status Call",
+          "date": "2026-09-11",
+          "time": "14:00 UTC",
+          "event_type": "community_call",
+          "url": "https://meet.google.com/mrj-tnhs-zvr"
+        }
+      ],
+      "count": 2
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260911002518_3458069c",
+    "timestamp": "2026-09-11T00:25:18.062638+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Passed: #101 – Add GLM-5.3-Flash, remove Kimi-K2.6 and GLM-5.2-FP8 from PoC models",
+      "url": "/proposals/proposals/2026-q3/101/",
+      "file": "2fd709c5ba00a1512616a03695f5ecac409b8585857a940ccc0cdaa38191de56"
+    },
+    "details": {
+      "status": null,
+      "content": "Add zai-org/GLM-5.3-Flash as a governance-approved model and PoC model. Remove moonshotai/Kimi-K2.6 and zai-org/GLM-5.2-FP8 from poc_params.models.\n\nMiniMaxAI/MiniMax-M2.7 and deepseek-ai/DeepSeek-V4-…",
+      "date": "2026-09-10",
+      "time": "23:17 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q3/101/"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260911002518_24441745",
+    "timestamp": "2026-09-11T00:25:18.062674+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "External Test Lab & Community DevNet — второй ежемесячный статус-колл | Second Monthly Status Call",
+      "url": "https://meet.google.com/mrj-tnhs-zvr",
+      "file": "b802dbad950b72f3a6d632c87fe72d8df13ce73df0989926c5add5325c29bef0"
+    },
+    "details": {
+      "status": null,
+      "content": "Второй ежемесячный статус-колл External Test Lab & Community DevNet — подведём итоги второго месяца работы, познакомим сообщество с новым участником команды и обсудим:\n\n– текущий статус инфраструктуры;\n– планы развития DevNet;\n– первые результаты тестирования;\n– шимы и адаптеры для брокеров;\n– отчёт по оборудованию и расходам на инфраструктуру;\n– планы и задачи на следующий месяц.\n\n📅 Пятница, 11 сентября\n07:00 LA · 14:00 UTC · 17:00 UTC+3\n🔗 https://meet.google.com/mrj-tnhs-zvr\n\n---\n\nSecond monthly status call of the External Test Lab & Community DevNet — we will review the results of the second month, introduce the community to the new team member, and discuss:\n\n– current infrastructure status;\n– DevNet development plans;\n– first testing results;\n– shims and adapters for brokers;\n– equipme",
+      "date": "2026-09-11",
+      "time": "14:00 UTC",
+      "event_type": "community_call",
+      "url": "https://meet.google.com/mrj-tnhs-zvr"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260911002518_07322085",
+    "timestamp": "2026-09-11T00:25:18.062697+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Passed: #100 – devshard v4.1",
+      "url": "/proposals/proposals/2026-q3/100/",
+      "file": "d8824d86df1e666989e4114d3fe89c6cb3eca42f3e96dad901336dc2fc520e25"
+    },
+    "details": {
+      "status": null,
+      "content": "Add v4.1 to the approved list of devshard versions.",
+      "date": "2026-09-10",
+      "time": "22:36 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q3/100/"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260910214450_b6b8e00a",
     "timestamp": "2026-09-10T21:44:50.532870+00:00",
     "section": "issues",
@@ -7712,65 +7803,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] `devshards`: Limit amount of inferences\n    <span class=\"issues-number\">#977</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/dcastro\">@dcastro</a> opened 2026-03-30 11:17 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><"
     },
     "ai_description": "Removed: #977 — [P0] `devshards`: Limit amount of inferences. <div class=\"issues-detail-header\"> <h1 class=\"issues-detail-title\"> <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 "
-  },
-  {
-    "id": "evt_20260910143102_5ea969a3",
-    "timestamp": "2026-09-10T14:31:02.673283+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#979 — `devshards` escrow: fund loss on unsettled pruning + missing overflow guards in host stats aggregation",
-      "url": null,
-      "file": "00979-devshards-escrow-fund-loss-on-unsettled-pruning-missing-over.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    `devshards` escrow: fund loss on unsettled pruning + missing overflow guards in host stats aggregation\n    <span class=\"issues-number\">#979</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/unameisfine\">@unameisfine</a> opened 2026-03-30 17:05 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></spa"
-    },
-    "ai_description": "Removed: #979 — `devshards` escrow: fund loss on unsettled pruning + missing overflow guards in host stats aggregation. <div class=\"issues-detail-header\"> <h1 class=\"issues-detail-title\"> <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 "
-  },
-  {
-    "id": "evt_20260910143102_7203340d",
-    "timestamp": "2026-09-10T14:31:02.673289+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "Proposal: Enable Cosmos SDK Simulation and Fuzz Testing for `inference-chain`",
-      "url": null,
-      "file": "00982-enable-simulation-and-fuzz-testing-for-inference-chain.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Enable simulation and fuzz testing for inference-chain\n    <span class=\"issues-number\">#982</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/patimen\">@patimen</a> opened 2026-03-30 21:41 UTC</span>\n    <span class=\"issues-meta-item\">7 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-la"
-    },
-    "ai_description": "Removed: Proposal: Enable Cosmos SDK Simulation and Fuzz Testing for `inference-chain`. <div class=\"issues-detail-header\"> <h1 class=\"issues-detail-title\"> <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span> "
-  },
-  {
-    "id": "evt_20260910143102_646cfc64",
-    "timestamp": "2026-09-10T14:31:02.673295+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#985 — [P0] Bug: unsupported OpenAI type input for the inference requests",
-      "url": null,
-      "file": "00985-p0-bug-unsupported-openai-type-input-for-the-inference-reque.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] Bug: unsupported OpenAI type input for the inference requests\n    <span class=\"issues-number\">#985</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tamazgadaev\">@tamazgadaev</a> opened 2026-03-31 15:15 UTC</span>\n    <span class=\"issues-meta-item\">4 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-lab"
-    },
-    "ai_description": "Removed: #985 — [P0] Bug: unsupported OpenAI type input for the inference requests. <div class=\"issues-detail-header\"> <h1 class=\"issues-detail-title\"> <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 "
-  },
-  {
-    "id": "evt_20260910143102_1e0d2d59",
-    "timestamp": "2026-09-10T14:31:02.673301+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#1019 — subnetctl: inference error handling",
-      "url": null,
-      "file": "01019-subnetctl-inference-error-handling.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    subnetctl: inference error handling\n    <span class=\"issues-number\">#1019</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/akup\">@akup</a> opened 2026-04-06 02:29 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"is"
-    },
-    "ai_description": "Removed: #1019 — subnetctl: inference error handling. <div class=\"issues-detail-header\"> <h1 class=\"issues-detail-title\"> <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 "
   }
 ]

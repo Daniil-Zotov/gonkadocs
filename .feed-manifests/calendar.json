@@ -1,6 +1,6 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-09-10T21:47:32.306456+00:00",
+  "snapshot_time": "2026-09-11T00:25:18.084432+00:00",
   "files": {
     "460d7b406a26039bca186ac074c0ac02e7130753a332dc8fe809420a0d5bbd6c": {
       "title": "AMA: Bitfury, HackerOne & Gonka — Bug Bounty Program Launch",
@@ -98,8 +98,17 @@
       "time": "11:00 UTC",
       "event_type": "ama",
       "url": "https://us06web.zoom.us/j/86248510155",
-      "content_preview": "This session covers the upcoming proposal to fund the Ledger × Gonka integration.\\n\\n📅 Tuesday, September 8 — 11:00 UTC\\n\\n🕖 7:00 AM EDT · 11:00 AM UTC · 7:00 PM CST\\n\\n🗣️ Language: English\\n\\nKEY TOPICS:\\n\\n• What is Ledger, and how will Gonka be integrated with it?\\n\\n• Why is this integration important for Gonka?\\n\\n• The proposed agreement with Ledger — and why 6block is involved\\n\\nGUESTS:\\n\\n• Sebastien Vaillant — Ledger\\n\\n• Vadim Krutov — Bitfury\\n\\n• Sergey Ulankin — Gonka Community Contributor\\n\\nHost: @381466447723102219\\n\\nJOIN:\\n\\n🔗 Zoom: https://us06web.zoom.us/j/86248510155\\n\\n💬 GitHub Discussion: https://github.com/gonka-ai/gonka/discussions/1589\\n\\nBring your questions — drop them in the GitHub discussion ahead of time or ask live. See you there!",
-      "checksum": "e3d2c3ca9f26325e8795d8de27a2f960e2dcd92ef1597bdab8b4ba59b6671caa"
+      "content_preview": "This session covers the upcoming proposal to fund the Ledger × Gonka integration.\n\n📅 Tuesday, September 8 — 11:00 UTC\n\n🕖 7:00 AM EDT · 11:00 AM UTC · 7:00 PM CST\n\n🗣️ Language: English\n\nKEY TOPICS:\n\n• What is Ledger, and how will Gonka be integrated with it?\n\n• Why is this integration important for Gonka?\n\n• The proposed agreement with Ledger — and why 6block is involved\n\nGUESTS:\n\n• Sebastien Vaillant — Ledger\n\n• Vadim Krutov — Bitfury\n\n• Sergey Ulankin — Gonka Community Contributor\n\nHost: @381466447723102219\n\nJOIN:\n\n🔗 Zoom: https://us06web.zoom.us/j/86248510155\n\n💬 GitHub Discussion: https://github.com/gonka-ai/gonka/discussions/1589\n\nBring your questions — drop them in the GitHub discussion ahead of time or ask live. See you there!",
+      "checksum": "33d744cf5aa1ac27341055a5e8410f04e4da64384950d8376157b8b4e37b18a8"
+    },
+    "b802dbad950b72f3a6d632c87fe72d8df13ce73df0989926c5add5325c29bef0": {
+      "title": "External Test Lab & Community DevNet — второй ежемесячный статус-колл | Second Monthly Status Call",
+      "date": "2026-09-11",
+      "time": "14:00 UTC",
+      "event_type": "community_call",
+      "url": "https://meet.google.com/mrj-tnhs-zvr",
+      "content_preview": "Второй ежемесячный статус-колл External Test Lab & Community DevNet — подведём итоги второго месяца работы, познакомим сообщество с новым участником команды и обсудим:\n\n– текущий статус инфраструктуры;\n– планы развития DevNet;\n– первые результаты тестирования;\n– шимы и адаптеры для брокеров;\n– отчёт по оборудованию и расходам на инфраструктуру;\n– планы и задачи на следующий месяц.\n\n📅 Пятница, 11 сентября\n07:00 LA · 14:00 UTC · 17:00 UTC+3\n🔗 https://meet.google.com/mrj-tnhs-zvr\n\n---\n\nSecond monthly status call of the External Test Lab & Community DevNet — we will review the results of the second month, introduce the community to the new team member, and discuss:\n\n– current infrastructure status;\n– DevNet development plans;\n– first testing results;\n– shims and adapters for brokers;\n– equipme",
+      "checksum": "df51d2792c16a4c039a334f3c01ab26560250e9773af3f603c57840bcadbf4d0"
     },
     "60130ca155a868e409b7aa0642525df006c4e05da481ba6f8787253101992676": {
       "title": "Migrate community-sale and wrapped-token contracts",
@@ -2144,23 +2153,23 @@
       "content_preview": "6Block proposes that the Gonka community allocate 100,000 USDT from the Community Pool to support Gonka's participation at TOKEN2049 Singapore 2026, taking place on 7-8 October 2026 at Marina Bay Sand…",
       "checksum": "762dc53141f39a915df57581b255c942d901cbf4cbe30f65b9bbc4a90a23b649"
     },
-    "d3152a39ef62db15d0b475c20bba7d4dd8b4ec0815d88fb44b2fa36801e42b92": {
-      "title": "Voting ends: #101 – Add GLM-5.3-Flash, remove Kimi-K2.6 and GLM-5.2-FP8 from PoC models",
+    "2fd709c5ba00a1512616a03695f5ecac409b8585857a940ccc0cdaa38191de56": {
+      "title": "Passed: #101 – Add GLM-5.3-Flash, remove Kimi-K2.6 and GLM-5.2-FP8 from PoC models",
       "date": "2026-09-10",
       "time": "23:17 UTC",
-      "event_type": "proposal_vote_end",
+      "event_type": "proposal_report",
       "url": "/proposals/proposals/2026-q3/101/",
       "content_preview": "Add zai-org/GLM-5.3-Flash as a governance-approved model and PoC model. Remove moonshotai/Kimi-K2.6 and zai-org/GLM-5.2-FP8 from poc_params.models.\n\nMiniMaxAI/MiniMax-M2.7 and deepseek-ai/DeepSeek-V4-…",
-      "checksum": "d6c62ab8983a03e51c710c002f6c9c9566d69c6512b95bb885ec9ab16cbdf1a9"
+      "checksum": "a7d1478ee2e30cf6e2f7b88dd1ea36527095e08174b369d098f6ae69968a5a1d"
     },
-    "b16d0153f30a503553d9dadc8b15f03b4bd7c5cb68a420c82372169e1da47f0f": {
-      "title": "Voting ends: #100 – devshard v4.1",
+    "d8824d86df1e666989e4114d3fe89c6cb3eca42f3e96dad901336dc2fc520e25": {
+      "title": "Passed: #100 – devshard v4.1",
       "date": "2026-09-10",
       "time": "22:36 UTC",
-      "event_type": "proposal_vote_end",
+      "event_type": "proposal_report",
       "url": "/proposals/proposals/2026-q3/100/",
       "content_preview": "Add v4.1 to the approved list of devshard versions.",
-      "checksum": "b70b94bb278566003e026f8d9f1fec6475aadeb9e927797878df4814e37b7337"
+      "checksum": "8929c3123c42d6d74212a46de7db72cd1d5cddce5854c5a322ccf6156e31052f"
     },
     "ea390ecc7fbfeda39f0cdc32686f4779c31167f81285931b928ff6d12d0ba065": {
       "title": "Voting ends: #102 – Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment",
