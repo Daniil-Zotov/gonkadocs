@@ -1,153 +1,47 @@
-# Go-to-market committee: состав и экспертиза
+# Go-to-market committee: Active Members & Expertise
 
-## Viktor Katsman
+## Aleksey Petrov
 
-- **LinkedIn:** [Viktor Katsman](https://www.linkedin.com/in/viktor-katsman/)
-- **Telegram:** [@vkatsman](https://telegram.me/vkatsman)
+- **Telegram:** [@vk_com](https://telegram.me/vk_com)
 
-- Ex-Yandex, PhD; специалист по go-to-market технических продуктов на ранних стадиях в AI, EdTech и финансах
-- В 2019 году увеличил годовую выручку Яндекс.Маркета на $34M за счет перестроения AI-алгоритма ранжирования
-- Прошел калифорнийскую программу Founders University по строительству и масштабированию early-stage стартапов
-- Развил собственный проект [Inream.com](https://inream.com) до финансово устойчивой модели.
-- Имеет практический опыт привлечения платящих клиентов в early-stage стартапы – как в B2B, так и в B2C
-- Исследует low-cost marketing и недорогие методы маркетинговых исследований для early-stage продуктов
-- Автор Track 11: Marketing, demand activation, and ecosystem growth в принятой сообществом Roadmap
-- Инициировал создание Go-to-market committee
-- В Gonka фокусируется на проверке спроса, customer development, маркетинговой аналитике и масштабируемом использовании inference
+- Master's degree in Information Technology.
+- 14+ years in e-commerce as a Product Owner and CEO.
+- Experience managing an e-commerce business with annual revenue above $20M and a quarterly marketing budget of approximately $150K.
+- Background in performance marketing, influencer marketing, PR, and measurable growth strategies.
+- Built several Gonka ecosystem products, including joingonka.ai, gate.joingonka.ai, and karman.joingonka.ai.
+- Works on B2B adoption of AI tools and inference services.
 
-**Ключевая экспертиза:**
-
-- Early-stage GTM для технических продуктов
-- Demand validation и PMF-проверка
-- Customer development и market research
-- Маркетинговая аналитика и построение воронок
-- Привлечение платящих клиентов в B2B и B2C
-- Low-cost marketing и growth experiments
-- Demand activation для Gonka inference
+**Expertise:** Product management, performance marketing, growth analytics, customer development, B2B go-to-market, ecosystem products.
 
 ---
 
-## Arseny Myakotnikov
+## Mikhail Chudinov
 
-- **LinkedIn:** [Arseny Myakotnikov](https://www.linkedin.com/in/arseny-myakotnikov-5a4341177/)
-- **Telegram:** [@arsenm1](https://telegram.me/arsenm1)
+- **Telegram:** [@akamitch](https://telegram.me/akamitch)
 
-- 10+ лет в маркетинге, из них 7+ в web3; в крипте с начала 2017 года — на уровне CMO для десятков финтех-, web3- и AI-продуктов
-- Привлёк $300M+ AUM для DeFi хедж-фонда, масштабировав базу с ~1K до 15K+ активных пользователей
-- Сейчас CMO венчурной студии dome.net — запускает web3- и B2B SaaS-продукты
-- Управлял бюджетами $100K+ и командами до 12 человек
-- Фаундер: запустил собственный InfoFi-продукт (2k MAU) и Jeet Trade — трейдинг-платформу на Solana ($3M+ оборот, 600+ пользователей)
-- Как CMO [Rivo.xyz](https://rivo.xyz) (DeFi-маркетплейс) привёл 10K+ активных пользователей, $10M+ объёма инвестиций и 30+ партнерств с крупными DeFi-протоколами (Avalanche, GMX, Pendle); token presale с ATH-капитализацией $8M и 15K держателей токена
-- Большой нетворк в крипте: закрытые alpha-сообщества, инфлюенсеры/KOL, DAO, DeFi-проекты, маркетинговые подрядчики, экосистемные проекты
+- 20+ years of experience in server administration and high-load systems, including 10+ years managing IT teams.
+- Founder of Gonka.Top, the first community pool in the Gonka ecosystem.
+- Attracted approximately $1.3M in capital to Gonka mining.
+- Operated up to 53 servers with 8×H100 configurations simultaneously at peak.
+- Runs the Gonka.Top YouTube channel, which has generated 146K+ organic views without paid promotion.
+- Experience with technical education, interviews, creator collaborations, and mining community growth.
 
-**Ключевая экспертиза:**
-
-- Full-cycle GTM для web3- и AI-продуктов
-- Перформанс- и influence-маркетинг, PR, content, SEO/GEO
-- Community, partnerships и token launches/TGE
-- Маркетинговая воронка и аналитика
-- User acquisition в B2B и B2C
-- Запуск продуктов с нуля (0→1) и создание маркетинг AI-агентов
+**Expertise:** Mining infrastructure, high-load systems, host economics, community growth, technical communication, educational content.
 
 ---
 
-## Andre Antares
+## Pavel Petko
 
-- **LinkedIn:** [Andre Antares](https://www.linkedin.com/in/andre-antares-9063ba15b)
-- **Telegram:** [@andre_arkhi](https://telegram.me/andre_arkhi)
+- **Telegram:** [@pavelp221](https://telegram.me/pavelp221)
 
-- Отвечает за контент и маркетинг в Ancapex, сервисе майнинга для Gonka
-- За последние полгода команда с нуля построила активное Telegram-сообщество
-- Видеоконтент проекта собрал более 1 млн просмотров на YouTube, Instagram и TikTok
-- Команда привлекла больше $200k депозитов в майнинг Gonka
-- С 2018 года занимается маркетингом Web3-проектов
-- В портфолио – больше 20 проектов в crypto, DeFi и AI
-- Запускал DeFi-протоколы, yield-агрегаторы, AI-агентов, token sale и NFT-коллекции
-- Отвечал за привлечение пользователей, инвесторов, ликвидности и торговых объемов
-- Один из последних кейсов – yield-агрегатор Rivo, где было привлечено более $9M объема в депозитах и свопах на платформе
-- Имеет опыт переговоров с партнерами, кросс-маркетинговых активностей и работы с инфлюенсерами – от подбора под целевую аудиторию до сценариев для видео и интервью
+- 9+ years of experience across media, analytics, business development, and audience strategy in independent media.
+- Completed the Media Management program at Stockholm School of Economics in Riga.
+- Experience working with European and US public foundations supporting media, NGOs, and civic initiatives.
+- Founder of an analytics project focused on global sports sponsorship market research.
+- Background in media strategy, research, data analysis, PR, and communication of complex topics.
+- In the Gonka ecosystem, contributes to committee coordination, reporting, governance communication, community feedback, and the Gonka Community Blog.
 
-**Ключевая экспертиза:**
-
-- Web3-маркетинг и growth
-- Контент-стратегия
-- Видео-контент и social media distribution
-- Работа с инфлюенсерами
-- Кросс-маркетинг и партнерства
-- DeFi, yield-агрегаторы и token sale
-- Привлечение пользователей, ликвидности и торговых объемов
-- Community growth для crypto-продуктов
-
----
-
-## Hleb D
-
-- **Telegram:** [@telega1547](https://telegram.me/telega1547)
-
-- Сооснователь Gonka24, сервиса-брокера инференса Gonka
-- Имеет опыт создания и продвижения собственных проектов и бизнесов – от digital products до e-commerce
-- Работал с окупаемой таргетированной рекламой в Facebook, тестированием гипотез, воронками, позиционированием и привлечением клиентов.
-- Имеет практический опыт B2B lead generation
-- Сейчас занимается поиском B2B-лидов для Gonka24 и общается с потенциальными клиентами
-- Собирает обратную связь с рынка: клиентские боли, возражения и реальные сценарии использования
-- В Go-to-market committee приносит практические инсайты "с полей" о том, что нужно B2B-клиентам, какие у них возражения и как формулировать предложения для рынка
-
-**Ключевая экспертиза:**
-
-- B2B-лидогенерация для inference-продуктов
-- Inference brokerage
-- Работа с потенциальными B2B-клиентами
-- Сбор рыночной обратной связи
-- Анализ клиентских болей, возражений и use cases
-- Воронки, таргетированная реклама и тестирование гипотез
-
----
-
-## Mikhail
-
-- **Telegram:** [@empro3](https://telegram.me/empro3)
-
-- PhD track в США по business economics and finance; фокус – corporate governance
-- Отвечал за региональный маркетинг партнеров NVIDIA, включая запуск новых GPU и ускорителей физики
-- Продвигал SSD / OCZ до лидерской позиции в регионе: до 70% доли рынка на пике, около $10M квартального оборота и $1.5M годового маркетингового бюджета
-- По кейсу OCZ достиг первого места по медиаактивности и узнаваемости бренда
-- Помогал ГМИИ им. Пушкина в становлении программы лояльности
-- Помогал Seattle Opera привлекать молодежную аудиторию последние 4 сезона подряд; в 2026 году проект достиг лучшего результата за историю организации даже в абсолютных значениях
-
-**Ключевая экспертиза:**
-
-- Стратегический маркетинг
-- Маркетинг hardware и compute-инфраструктуры
-- Запуск и продвижение технологических продуктов
-- Работа с крупными маркетинговыми бюджетами
-- Рост узнаваемости бренда и медиаактивности
-- Институциональное развитие и corporate governance
-- Программы лояльности и развитие аудитории
-
----
-
-## Eldar I
-
-- **Telegram:** [@MageDeFi](https://telegram.me/MageDeFi)
-
-- Операционный директор в пуле Gonka.Top
-- Отвечает за бизнес и операционную часть пула: onboarding участников, продажи, партнерскую программу, поддержку участников и внутренние процессы
-- До Gonka.Top 10 лет работал в компании с Митчем, где вырос от клиент-менеджера до исполнительного директора
-- Последние 3 года занимался майнингом биткоина, размещением в дата-центрах и изучением организации майнинг-инфраструктуры
-- Силен в выстраивании процессов, контроле статусов, сроков и договоренностей
-- Готовит понятные организационные документы, регламенты и помогает выстраивать коммуникацию между участниками
-- Основной фокус – операционное управление, процессы, коммуникация и сопровождение исполнения
-
-**Ключевая экспертиза:**
-
-- Операционное управление
-- Onboarding участников
-- Продажи и партнерские программы
-- Поддержка участников
-- Контроль статусов, сроков и договоренностей
-- Организационные документы и регламенты
-- Координация исполнителей и коммуникация между участниками
-- Майнинг-инфраструктура и дата-центры
+**Expertise:** Media strategy, research and data analysis, PR, governance communication, reporting, ecosystem communications.
 
 ---
 
@@ -155,101 +49,54 @@
 
 - **Telegram:** [@lexti](https://telegram.me/lexti)
 
-- По образованию – инженер по качеству в автомобилестроении; 5 лет работал в automotive quality на заводе Hyundai
-- 4.5 года занимался YouTube / Telegram-каналом CryptoCommons
-- 1 год был advisor криптобиржи CoinW
-- Уже 5 лет управляет компанией как генеральный директор
-- Имеет практический startup-опыт
-- Может помогать с листингами на биржах – как бесплатными, так и платными
-- Может разрабатывать механики вовлечения новых участников и взаимодействовать с исполнителями пропозалов
-- Основной опыт – СНГ crypto-сегмент; международные контакты в основном через представителей бирж, в том числе по Азии
+- Five years of experience in automotive quality at Hyundai.
+- 4.5 years building the CryptoCommons YouTube and Telegram community.
+- Former advisor to crypto exchange CoinW.
+- Five years of experience as a company CEO, with hands-on startup and operational management experience.
+- Experience with exchange listings, crypto partnerships, and community engagement.
 
-**Ключевая экспертиза:**
-
-- Crypto-community и Telegram / YouTube-каналы
-- Листинги на биржах
-- Взаимодействие с crypto exchanges
-- Механики вовлечения участников
-- Координация исполнителей пропозалов
-- Операционное управление компанией
+**Expertise:** Crypto marketing, community growth, exchange relations, listings, participant engagement, operations.
 
 ---
 
-## Eugene Maksimenkov
+## Mikhail
 
-- **LinkedIn:** [Eugene Maksimenkov](https://www.linkedin.com/in/maksimenkoff/)
-- **Telegram:** [@maksimenkoff](https://telegram.me/maksimenkoff)
+- **Telegram:** [@empro3](https://telegram.me/empro3)
 
-- В Gonka с октября; получил первый в сети bounty за найденную уязвимость
-- Сделал несколько продуктов вокруг Gonka: кроссплатформенный кошелёк [wallet.gonka.vip](https://wallet.gonka.vip), tracker / explorer для майнеров [tracker.gonka.vip](https://tracker.gonka.vip) и площадку тендеров [vote.gonka.vip](https://vote.gonka.vip)
-- По его оценке, wallet.gonka.vip остается единственным нативным Gonka-кошельком для iOS и Android
-- Более 10 лет живет в США, Bay Area
-- Работал в Apple, Amazon, Meta, Robert Half и других компаниях
-- Основной профессиональный background – QA, testing, automation, mobile / web testing, analytics testing и project management
-- Сейчас развивает Dutiap – dating-приложение и AI-инструмент для оценки фото
-- В комитете готов помогать с технической оценкой marketing / GTM пропозалов: реалистичность продукта, качество реализации, security, mobile / web experience, аналитика и практический контекст США
+- PhD track in Business Economics and Finance in the US, with a focus on corporate governance.
+- Led regional marketing for NVIDIA partners, including GPU and physics accelerator launches.
+- Helped grow OCZ SSDs to a leading regional market position, reaching up to 70% market share and approximately $10M in quarterly revenue.
+- Managed marketing budgets of up to $1.5M annually.
+- Contributed to loyalty and audience development programs for the Pushkin State Museum of Fine Arts and Seattle Opera.
 
-**Ключевая экспертиза:**
-
-- Техническая оценка marketing / GTM пропозалов
-- Security и поиск уязвимостей
-- QA, testing и automation
-- Mobile / web product experience
-- Analytics testing и точность данных
-- Разработка продуктов вокруг Gonka
-- AI-продукты и consumer apps
-- Практический контекст США
+**Expertise:** Strategic marketing, technology and hardware marketing, brand growth, corporate governance, audience development.
 
 ---
 
-## Pavel Petko
+## Eldar I
 
-- **LinkedIn:** [Pavel Petko](https://www.linkedin.com/in/pavelpetko/)
-- **Telegram:** [@pavelp221](https://telegram.me/pavelp221)
+- **Telegram:** [@MageDeFi](https://telegram.me/MageDeFi)
 
-- Журналист и редактор Gonka Community Blog
-- Более 9 лет работает на стыке медиа, аналитики и бизнес-развития в независимой медийной организации
-- Founder & Publisher Racket One Insights – аналитического проекта, сфокусированного на исследованиях рынка в сфере спортивного спонсорства
-- Прошел программу по Media Management в Stockholm School of Economics in Riga
-- Через Gonka Community Blog работает с материалами об экосистеме, governance, use cases, AMAs, Roadmap и community activity
-- В Go-to-market committee готов помогать с медиа направлением: публичной коммуникацией, прозрачностью, PR / СМИ и объяснением процессов для сообщества
-- Готов помогать по направлениям, связанным с PR, освещением в СМИ, публикациями и медийной видимостью
+- COO at Gonka.Top, responsible for business operations, member onboarding, sales, partnerships, and participant support.
+- 10 years of operational and management experience, progressing from account management to executive leadership.
+- Three years of experience in Bitcoin mining, data center operations, and mining infrastructure.
+- Strong focus on process design, execution tracking, documentation, and coordination across teams.
 
-**Ключевая экспертиза:**
-
-- Медийная стратегия
-- Анализ данных и исследования рынка
-- PR и освещение в СМИ
-- Публичная коммуникация и объяснение процессов
-- Governance visibility
-- Медийная упаковка экосистемных инициатив
+**Expertise:** Operations, onboarding, partnerships, process management, mining infrastructure, stakeholder coordination.
 
 ---
 
-## Mikhail Chudinov
+## Arseny Myakotnikov
 
-- **LinkedIn:** [Mikhail Chudinov](https://www.linkedin.com/in/mikhail-chudinov/)
-- **Telegram:** [@akamitch](https://telegram.me/akamitch)
+*Advisor to the Reddit Pilot*
 
-- Более 20 лет опыта в администрировании серверов и высоконагруженных систем
-- Более 10 лет опыта управления IT-командами
-- Работал с высоконагруженными платформами в adult industry, финтехе, криптостартапах и доменной инфраструктуре, включая парковку около 100,000 доменов на saw.com
-- В Gonka с ноября 2025 года
-- Создал первый community pool Gonka.Top
-- Привлек около $1.3M в майнинг Gonka
-- В пике в пуле одновременно работали 53 сервера с конфигурацией 8×H100
-- С декабря 2025 года ведет YouTube-канал Gonka.Top с новостным и образовательным контентом о Gonka
-- Канал собрал 146.6K просмотров органически, без платного трафика
-- Провел три интервью и организовал бесплатные коллаборации с небольшими AI YouTube-авторами
-- В комитете готов помогать с mining-side growth, привлечением участников в пул, технической коммуникацией и контентными форматами для сообщества
+- **Telegram:** [@arsenm1](https://telegram.me/arsenm1)
 
-**Ключевая экспертиза:**
+- 10+ years in marketing, including 7+ years in Web3, with CMO-level experience across fintech, Web3, and AI products.
+- Helped attract $300M+ in AUM for a DeFi hedge fund while scaling its active user base from approximately 1K to 15K+.
+- Currently CMO at venture studio dome.net, launching Web3 and B2B SaaS products.
+- Experience managing $100K+ marketing budgets and teams of up to 12 people.
+- Built and scaled his own products, including an InfoFi platform and a Solana trading product with $3M+ in volume.
+- Strong network across crypto communities, KOLs, DAOs, DeFi projects, and marketing partners.
 
-- Mining infrastructure и host economics
-- Администрирование серверов и высоконагруженные системы
-- Управление IT-командами
-- Community pool growth и привлечение майнеров
-- Привлечение капитала в майнинг
-- Органический YouTube-контент и образовательная дистрибуция
-- Интервью, коллаборации и работа с AI-креаторами
-- Объяснение сложных технических тем
+**Expertise:** Web3 and AI go-to-market, user acquisition, community growth, influencer marketing, partnerships, product launches, marketing analytics.
