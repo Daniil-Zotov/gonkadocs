@@ -20,11 +20,11 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 ## Community Calendar
 
 - [All Calendar Events](/community/calendar/events/): Every event (AMAs, committee calls, proposal milestones, network updates) — machine-readable page, also indexed by search
+- 2026-09-11 — Report for proposal #77 — Gonka PR Proposal for US/Global Regions: https://gonkadocs.com/proposals/proposals/2026-q2/77/
 - 2026-09-11 09:28 UTC — Passed: #102 – Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment: https://gonkadocs.com/proposals/proposals/2026-q3/102/
 - 2026-09-11 14:00 UTC — External Test Lab & Community DevNet — второй ежемесячный статус-колл | Second Monthly Status Call: https://meet.google.com/mrj-tnhs-zvr
 - 2026-09-12 13:31 UTC — Voting ends: #103 – Reimbursement of Expenses for Daniil and David Liberman's Participation in All-In Summit 2026: https://gonkadocs.com/proposals/proposals/2026-q3/103/
 - 2026-09-16 13:00 UTC — INPUT Global — Weekly Call (#77): https://gonkadocs.com/proposals/proposals/2026-q2/77/
-- 2026-09-16 15:00 UTC — TheSoul — Weekly Report Call (#60–#65): https://gonkadocs.com/proposals/proposals/2026-q2/60/
 
 ## Protocol Documentation
 
@@ -195,6 +195,9 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [Weekly Report — 27–31 July](/proposals/proposals/2026-q2/77/report3/): Auto-synced content
 - [Weekly Report — 3–7 August](/proposals/proposals/2026-q2/77/report4/): Auto-synced content
 - [Weekly Report — 10–14 August](/proposals/proposals/2026-q2/77/report5/): Auto-synced content
+- [Weekly Report — 24–28 August](/proposals/proposals/2026-q2/77/report6/): Auto-synced content
+- [Weekly Report — 31 August – 4 September](/proposals/proposals/2026-q2/77/report7/): Auto-synced content
+- [Weekly Report — 7–11 September](/proposals/proposals/2026-q2/77/report8/): Auto-synced content
 - [Reports5](/proposals/proposals/2026-q2/77/reports5/): Auto-synced content
 - [#58 – Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)](/proposals/proposals/2026-q2/58/): Auto-synced content
 - [Upgrade Proposal: v0.2.12](/proposals/proposals/2026-q2/44/full-proposal/): Auto-synced content

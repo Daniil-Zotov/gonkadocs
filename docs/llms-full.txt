@@ -17798,17 +17798,17 @@ If the code is non-zero, the transaction has failed. Check the `raw_log` or info
 
 К следующим членам комитета можно приходить с вопросами и предложениями-пропозалами:
 
-- [@arsenm1](https://telegram.me/arsenm1)
+- [@vk_com](https://telegram.me/vk_com)
+- [@akamitch](https://telegram.me/akamitch)
 - [@pavelp221](https://telegram.me/pavelp221)
-- [@MageDeFi](https://telegram.me/MageDeFi)
+- [@lexti](https://telegram.me/lexti)
 - [@empro3](https://telegram.me/empro3)
-- [@telega1547](https://telegram.me/telega1547)
-- [@andre_arkhi](https://telegram.me/andre_arkhi)
-- [@vkatsman](https://telegram.me/vkatsman)
+- [@MageDeFi](https://telegram.me/MageDeFi)
+- [@arsenm1](https://telegram.me/arsenm1)
 
 В состав комитета входят опытные CMO в продуктовой и web3-сферах, B2B-биздевы, журналисты и другие профессионалы.
 
-Любой хост может присоединиться в качестве наблюдателя и, возможно, участника-консультанта — для этого нужно написать [@vkatsman](https://telegram.me/vkatsman).
+Любой хост может присоединиться в качестве наблюдателя и, возможно, участника-консультанта — для этого можно написать любому из активных членов комитета.
 
 ---
 
@@ -19673,7 +19673,7 @@ decentralized mixture-of-experts."
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-09-11 16:51 UTC
+2026-09-11 19:24 UTC
 
 ---
 
@@ -29243,6 +29243,9 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   report32026-07-31
   report42026-08-07
   report52026-08-14
+  report62026-08-28
+  report72026-09-04
+  report82026-09-11
   reports52026-08-01
 
   
@@ -30082,7 +30085,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-102 proposals across 5 quarters. Last updated: 2026-09-11 18:20 UTC
+102 proposals across 5 quarters. Last updated: 2026-09-11 19:20 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -41653,6 +41656,9 @@ $54,075 USDT · Bounty Reward
   report32026-07-31
   report42026-08-07
   report52026-08-14
+  report62026-08-28
+  report72026-09-04
+  report82026-09-11
   reports52026-08-01
 
   
@@ -66158,6 +66164,131 @@ Have a nice weekend!
 • Gleb's op-ed for Securities.io is in approval: we've revised it per his latest comments and are waiting for confirmation to send it to the journalist.
 • We secured two op-eds for Anastasia — in Observer and Built In. For Observer, we've received the insights and are drafting the piece.
 • We received a request for another op-ed from Anastasia via The World Financial Review, on "Who Owns the Compute Owns the AI Economy."
+
+Our PR tracker: https://docs.google.com/spreadsheets/d/1nHjuV1GDDuwxoY0LU2qQimTZso7xoU7QGqawMxX4bEA/edit?usp=sharing
+
+Have a good weekend!
+
+---
+
+## Weekly Report — 24–28 August
+
+# Weekly Report — 24–28 August
+
+**Дата публикации:** 2026-08-28
+
+---
+
+📝 **Итоги недели: 24–28 августа**
+
+На стороне медиа:
+
+- Securities.io: оп-ед Глеба ушел редактору на публикацию.
+- RTHK: Давид и Даниил записали интервью сегодня. Эпизод выходит в эфир в понедельник, поделимся ссылкой после публикации.
+
+В работе:
+
+- Observer: отработали комментарии Анастасии, ждем аппрув перед отправкой журналисту.
+- The World Financial Review: прислали собранный текст оп-еда Анастасии, ждем комментарии.
+- BlockHash подкаст: засекьюрили интервью для Глеба. Продюсер хочет поговорить о том, как Gonka строит децентрализованную сеть для вычислений в ИИ, плюс темы по индустрии в целом. Ждем подтверждения от Глеба и даты для записи.
+
+Ссылка на трекер: https://docs.google.com/spreadsheets/d/1nHjuV1GDDuwxoY0LU2qQimTZso7xoU7QGqawMxX4bEA/edit?usp=sharing
+
+Всем хороших выходных!
+🌟🌟🌟🌟🌟
+
+---
+
+📝 **Weekly update: August 24–28**
+
+On media's side:
+
+• Securities.io — Gleb's op-ed has gone to the editor for publication.
+• RTHK — David and Daniil recorded their interview today. The episode airs Monday; we'll share the link once it's live.
+
+In progress:
+
+• Observer — we've addressed Anastasia's comments and are waiting for approval before sending to the journalist.
+• The World Financial Review — we shared the draft of Anastasia's op-ed; we're awaiting comments / edits.
+• BlockHash podcast — we secured an interview for Gleb. The producer wants to discuss how Gonka is building a decentralized network for AI compute, plus broader industry topics. We're waiting for Gleb's confirmation and a recording date.
+
+Our PR tracker: https://docs.google.com/spreadsheets/d/1nHjuV1GDDuwxoY0LU2qQimTZso7xoU7QGqawMxX4bEA/edit?usp=sharing
+
+Have a good weekend!
+
+---
+
+## Weekly Report — 31 August – 4 September
+
+# Weekly Report — 31 August – 4 September
+
+**Дата публикации:** 2026-09-04
+
+---
+
+📝 **Итоги недели: 31 августа – 4 сентября**
+
+- Ждем публикации интервью на RTHK и оп-еда в Securities.io.
+- Финализируем материалы для Observer и The World Financial Review.
+- Засекьюрили письменное интервью для Давида и Даниила в Finbold — ждем вопросы от редактора.
+- Поделились предварительной концепцией для репорта.
+
+Ссылка на трекер: https://docs.google.com/spreadsheets/d/1nHjuV1GDDuwxoY0LU2qQimTZso7xoU7QGqawMxX4bEA/edit?usp=sharing
+
+Всем хороших выходных!
+
+---
+
+📝 **Weekly update: August 31 – September 4**
+
+• Awaiting publication of the RTHK interview and the Securities.io op-ed.
+• Finalizing content for Observer and The World Financial Review.
+• Secured a written interview for the Liberman brothers with Finbold — awaiting questions from the editor.
+• Shared preliminary concepts for an industry report.
+
+Our PR tracker: https://docs.google.com/spreadsheets/d/1nHjuV1GDDuwxoY0LU2qQimTZso7xoU7QGqawMxX4bEA/edit?usp=sharing
+
+Have a good weekend!
+
+---
+
+## Weekly Report — 7–11 September
+
+# Weekly Report — 7–11 September
+
+**Дата публикации:** 2026-09-11
+
+---
+
+📝 **Итоги недели: 7–11 сентября**
+
+1) Securities.io — колонка Глеба о том, кто будет владеть AI-инфраструктурой, опубликована. Плюс получили синдикацию на японском — приятный дополнительный охват в Азии перед Сингапуром.
+2) RTHK — интервью с братьями выйдет на следующей неделе.
+
+В работе:
+
+1) Observer и The World Financial Review — ожидаем согласования.
+2) BlockHash — получили расписание ведущего для записи эпизода, ждем обратную связь от Глеба.
+3) Finbold — передали братьям вопросы от редактора для интервью, ждем инсайты.
+4) Fintech TV (телеканал для финтех- и финансовой аудитории, формат — интервью в прямом эфире) — питчим in-studio интервью для братьев, ждем ответа от продюсеров.
+
+Ссылка на трекер: https://docs.google.com/spreadsheets/d/1nHjuV1GDDuwxoY0LU2qQimTZso7xoU7QGqawMxX4bEA/edit?usp=sharing
+
+Всем хороших выходных!
+
+---
+
+📝 **Weekly update: September 7–11**
+
+1) Securities.io — Gleb's op-ed on who will own AI infrastructure is live. It also picked up a Japanese syndication — a nice bit of extra reach across Asia ahead of Singapore.
+2) RTHK — the interview with the brothers airs next week.
+
+In progress:
+
+1) Observer and The World Financial Review — both drafts are with Anastasia for approval.
+2) BlockHash — we've received the host's recording schedule and are awaiting Gleb's feedback.
+3) Finbold — we've passed the editor's questions to the brothers for the interview and are awaiting their insights.
+4) Fintech TV (a channel for fintech and finance audiences, live interview format) — we're pitching an in-studio interview for the brothers and awaiting a response from the producers.
 
 Our PR tracker: https://docs.google.com/spreadsheets/d/1nHjuV1GDDuwxoY0LU2qQimTZso7xoU7QGqawMxX4bEA/edit?usp=sharing
 
