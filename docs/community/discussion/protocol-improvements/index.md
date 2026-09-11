@@ -4,13 +4,13 @@ title: ":gear: Protocol Improvements"
 
 # :gear: Protocol Improvements
 
-Дискуссии в категории **:gear: Protocol Improvements**. Всего: **47**. Обновлено: `2026-09-11 00:59 UTC`.
+Дискуссии в категории **:gear: Protocol Improvements**. Всего: **47**. Обновлено: `2026-09-11 05:51 UTC`.
 
 [← ко всем категориям](../index.md)
 
 | # | Заголовок | Автор | Обновлено |
 |---:|---|---|---|
-| [1748](1748-dynamic-devshard-per-escrow-bls-dkg-nizk-dealings-on-chain-t.md) | [Dynamic devshard: per-escrow BLS DKG (NIZK dealings, on-chain T0)](1748-dynamic-devshard-per-escrow-bls-dkg-nizk-dealings-on-chain-t.md) | [@akup](https://github.com/akup) | 2026-09-10 |
+| [1748](1748-dynamic-devshard-per-escrow-bls-dkg-nizk-dealings-on-chain-t.md) | [Dynamic devshard: per-escrow BLS DKG (NIZK dealings, on-chain T0)](1748-dynamic-devshard-per-escrow-bls-dkg-nizk-dealings-on-chain-t.md) | [@akup](https://github.com/akup) | 2026-09-11 |
 | [1721](1721-community-interest-adding-glm-53-flash-and-qwen38-flash-next.md) | [Community interest: adding GLM-5.3-Flash and Qwen3.8-Flash-Next to the lineup?](1721-community-interest-adding-glm-53-flash-and-qwen38-flash-next.md) | [@Ryanchen911](https://github.com/Ryanchen911) | 2026-09-08 |
 | [1685](1685-devshard-load-testing.md) | [Devshard Load Testing](1685-devshard-load-testing.md) | [@aikuznetsov](https://github.com/aikuznetsov) | 2026-09-10 |
 | [1668](1668-proposal-raise-the-deepseek-coefficient-to-0400.md) | [Proposal: raise the DeepSeek coefficient to 0.400](1668-proposal-raise-the-deepseek-coefficient-to-0400.md) | [@knyazev741](https://github.com/knyazev741) | 2026-09-08 |

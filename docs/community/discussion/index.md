@@ -4,7 +4,7 @@ title: "GitHub Discussions"
 
 # GitHub Discussions — `gonka-ai/gonka`
 
-Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **100**. Обновлено: `2026-09-11 00:59 UTC`.
+Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **100**. Обновлено: `2026-09-11 05:51 UTC`.
 
 ## 📂 Категории
 
@@ -22,7 +22,7 @@ title: "GitHub Discussions"
 
 | # | Заголовок | Категория | Автор | Обновлено |
 |---:|---|---|---|---|
-| [1748](protocol-improvements/1748-dynamic-devshard-per-escrow-bls-dkg-nizk-dealings-on-chain-t.md) | [Dynamic devshard: per-escrow BLS DKG (NIZK dealings, on-chain T0)](protocol-improvements/1748-dynamic-devshard-per-escrow-bls-dkg-nizk-dealings-on-chain-t.md) | :gear: Protocol Improvements | [@akup](https://github.com/akup) | 2026-09-10 |
+| [1748](protocol-improvements/1748-dynamic-devshard-per-escrow-bls-dkg-nizk-dealings-on-chain-t.md) | [Dynamic devshard: per-escrow BLS DKG (NIZK dealings, on-chain T0)](protocol-improvements/1748-dynamic-devshard-per-escrow-bls-dkg-nizk-dealings-on-chain-t.md) | :gear: Protocol Improvements | [@akup](https://github.com/akup) | 2026-09-11 |
 | [1685](protocol-improvements/1685-devshard-load-testing.md) | [Devshard Load Testing](protocol-improvements/1685-devshard-load-testing.md) | :gear: Protocol Improvements | [@aikuznetsov](https://github.com/aikuznetsov) | 2026-09-10 |
 | [1747](general/1747-proposal-reimbursement-of-expenses-for-daniil-and-david-libe.md) | [Proposal: Reimbursement of Expenses for Daniil and David Liberman’s Participation in All-In Summit 2026](general/1747-proposal-reimbursement-of-expenses-for-daniil-and-david-libe.md) | :speech_balloon: General | [@sultee](https://github.com/sultee) | 2026-09-10 |
 | [1742](governance-proposal-reports/1742-proposal-102-ratify-quant-mesh-limited-as-the-ledger-integra.md) | [Proposal #102: Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment](governance-proposal-reports/1742-proposal-102-ratify-quant-mesh-limited-as-the-ledger-integra.md) | :bookmark_tabs: Governance Proposal Reports | [@Isabella0319](https://github.com/Isabella0319) | 2026-09-09 |
