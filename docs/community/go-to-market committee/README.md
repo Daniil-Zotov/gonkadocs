@@ -30,17 +30,17 @@
 
 К следующим членам комитета можно приходить с вопросами и предложениями-пропозалами:
 
-- [@arsenm1](https://telegram.me/arsenm1)
+- [@vk_com](https://telegram.me/vk_com)
+- [@akamitch](https://telegram.me/akamitch)
 - [@pavelp221](https://telegram.me/pavelp221)
-- [@MageDeFi](https://telegram.me/MageDeFi)
+- [@lexti](https://telegram.me/lexti)
 - [@empro3](https://telegram.me/empro3)
-- [@telega1547](https://telegram.me/telega1547)
-- [@andre_arkhi](https://telegram.me/andre_arkhi)
-- [@vkatsman](https://telegram.me/vkatsman)
+- [@MageDeFi](https://telegram.me/MageDeFi)
+- [@arsenm1](https://telegram.me/arsenm1)
 
 В состав комитета входят опытные CMO в продуктовой и web3-сферах, B2B-биздевы, журналисты и другие профессионалы.
 
-Любой хост может присоединиться в качестве наблюдателя и, возможно, участника-консультанта — для этого нужно написать [@vkatsman](https://telegram.me/vkatsman).
+Любой хост может присоединиться в качестве наблюдателя и, возможно, участника-консультанта — для этого можно написать любому из активных членов комитета.
 
 ---
 
