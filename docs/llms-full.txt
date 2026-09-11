@@ -20276,7 +20276,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-09-11 14:22 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-09-11 18:25 UTC*
 
 ---
 
@@ -21300,6 +21300,17 @@ Reddit сейчас остается одной из площадок, где п
 Для Reddit-пилота основная задача — проверить подход, собрать первые данные и на их основе решить, имеет ли смысл масштабировать направление.
 
 Будем рады комментариям по модели работы комитета, Reddit-пилоту и бюджету до подачи финальной версии пропозала.
+
+---
+
+## Comments (1)
+
+### 💬 Mitch
+*2026-09-11 17:56* · 👍 0 · 👎 0
+
+Подтверждаю что я участвую в этом комитете, и прошу сообщество поддержать инициативу.
+
+---
 
 ---
 
@@ -30224,7 +30235,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-102 proposals across 5 quarters. Last updated: 2026-09-11 18:00 UTC
+102 proposals across 5 quarters. Last updated: 2026-09-11 18:20 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
