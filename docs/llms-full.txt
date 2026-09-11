@@ -28961,7 +28961,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   
   We are proposing to allocate 15,500 USDT from the Gonka Community Pool to reimburse the cost of two tickets for All-In Summit 2026 for Daniil and David Liberman, co-creators of the Gonka protocol. All…
   Yes 100.0% (56,955) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)$15,500 · Community Pool
-  ✗ Turnout 11.1% (56,955 / 512,102) · Quorum 25% (128,025)
+  ✗ Turnout 11.2% (56,955 / 508,568) · Quorum 25% (127,142)
 
   
     #102 – Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment
@@ -30123,7 +30123,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-102 proposals across 5 quarters. Last updated: 2026-09-11 21:16 UTC
+102 proposals across 5 quarters. Last updated: 2026-09-11 23:19 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -67396,7 +67396,7 @@ $90,075 USDT · Bounty Reward
   
   We are proposing to allocate 15,500 USDT from the Gonka Community Pool to reimburse the cost of two tickets for All-In Summit 2026 for Daniil and David Liberman, co-creators of the Gonka protocol. All…
   Yes 100.0% (56,955) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)$15,500 · Community Pool
-  ✗ Turnout 11.1% (56,955 / 512,102) · Quorum 25% (128,025)
+  ✗ Turnout 11.2% (56,955 / 508,568) · Quorum 25% (127,142)
 
   
     #102 – Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment
@@ -68927,7 +68927,7 @@ The standard Attendee Pass costs $7,500 per person. The tickets have already bee
     Veto 0.0% (0)
     Abstain 0.0% (0)
     Total 56,955 votes
-    ✗ Turnout 11.1% (56,955 / 512,102) · Quorum 25% (128,025)
+    ✗ Turnout 11.2% (56,955 / 508,568) · Quorum 25% (127,142)
   
 
 Voters
