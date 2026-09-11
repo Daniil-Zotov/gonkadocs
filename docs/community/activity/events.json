@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260911180342_836257be",
+    "timestamp": "2026-09-11T18:03:42.027784+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "Announcements",
+      "url": "/gonka/docs/network-updates/",
+      "file": "network-updates.md"
+    },
+    "details": {
+      "content_before": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## September 9, 2026\n\n**Proposal 101: add GLM-5.3-Flash, remove Kimi-K2.6 and GLM-5.2-FP8 from PoC models**\n\nProposal id 101 registers `zai-org/GLM-5.3-Flash` as a governance-approved model and adds it to the PoC model set. At the same time it removes `moon",
+      "content_after": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## September 11, 2026\n\n**PROPOSAL PASSED: Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment**\n\nThe on-chain governance vote for proposal id 102 has concluded.\n\nThe proposal was APPROVED. Quant M"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260911095638_6ed32d33",
     "timestamp": "2026-09-11T09:56:38.700846+00:00",
     "section": "calendar",
@@ -7793,20 +7809,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Nodes with high miss rate continue receiving inference requests for the rest of the epoch\n    <span class=\"issues-number\">#975</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/mingles-agent\">@mingles-agent</a> opened 2026-03-30 09:08 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div"
     },
     "ai_description": "Removed: #975 — Nodes with high miss rate continue receiving inference requests for the rest of the epoch. <div class=\"issues-detail-header\"> <h1 class=\"issues-detail-title\"> <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 "
-  },
-  {
-    "id": "evt_20260910143102_07f207ce",
-    "timestamp": "2026-09-10T14:31:02.673269+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#976 — [P0] `devshards`: Distribute `WorkCoins` at the end of the epoch",
-      "url": null,
-      "file": "00976-p0-devshards-distribute-workcoins-at-the-end-of-the-epoch.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] `devshards`: Distribute `WorkCoins` at the end of the epoch\n    <span class=\"issues-number\">#976</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/dcastro\">@dcastro</a> opened 2026-03-30 11:10 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style="
-    },
-    "ai_description": "Removed: #976 — [P0] `devshards`: Distribute `WorkCoins` at the end of the epoch. <div class=\"issues-detail-header\"> <h1 class=\"issues-detail-title\"> <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 "
   }
 ]

@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-09-11T14:46:50.387642+00:00",
+  "snapshot_time": "2026-09-11T18:05:04.481430+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -305,8 +305,8 @@
     "network-updates.md": {
       "title": "Announcements",
       "status": null,
-      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## September 9, 2026\n\n**Proposal 101: add GLM-5.3-Flash, remove Kimi-K2.6 and GLM-5.2-FP8 from PoC models**\n\nProposal id 101 registers `zai-org/GLM-5.3-Flash` as a governance-approved model and adds it to the PoC model set. At the same time it removes `moon",
-      "checksum": "436e9328596d9d74a7319dd9b548545228cc08e4fc96fdb9f48982add4767cc8"
+      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## September 11, 2026\n\n**PROPOSAL PASSED: Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment**\n\nThe on-chain governance vote for proposal id 102 has concluded.\n\nThe proposal was APPROVED. Quant M",
+      "checksum": "4a34655c5b68fd6faf28bd1710a435de8602cc8009f115f76d69a51ab9779859"
     },
     "participant/README.md": {
       "title": "Redirecting to Host Section",
