@@ -2,7 +2,7 @@
 title: "#1691 — GLM 5.3 Flash: vLLM 0.28 image + PoC fix"
 source: https://github.com/gonka-ai/gonka/issues/1691
 issue_number: 1691
-synced_at: 2026-09-11T18:38:49Z
+synced_at: 2026-09-11T21:46:31Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-08-31 20:23 UTC</span>
-    <span class="issues-meta-item">4 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-07 18:51 UTC</span>
+    <span class="issues-meta-item">5 comments</span>
+    <span class="issues-meta-item">Updated 2026-09-11 21:44 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -90,7 +90,7 @@ The image is treated as delivered when this checklist is complete.
 
 ---
 
-## 💬 Comments (4)
+## 💬 Comments (5)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -148,6 +148,23 @@ The image is treated as delivered when this checklist is complete.
 <li>Checklist ticks in this issue: yours, or may we tick?</li>
 </ul>
 <p><strong>Next:</strong> after <a href="https://github.com/gonka-ai/vllm/pull/106">gonka-ai/vllm#106</a> and <a href="https://github.com/gonka-ai/gonka-vllm-plugins/pull/9">gonka-ai/gonka-vllm-plugins#9</a> merge, @vbgd0 publishes the official image; we rebuild the MLNode image on it and rerun the checklist. Update on merge, and by 2026-09-14 regardless.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/baychak">@baychak</a></span>
+    <span class="issues-meta-item">commented 2026-09-11 21:44 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p><strong>Status:</strong> done on our side.</p>
+<p><strong>What closes it</strong></p>
+<ul>
+<li>Proposal 101 passed on 2026-09-10, unanimously: GLM-5.3-Flash added, Kimi-K2.6 and GLM-5.2-FP8 removed from <code>poc_params.models</code>. GLM 5.3 bootstraps at epoch 394 (2026-09-15).</li>
+<li>The image is @vbgd0's: <a href="https://github.com/gonka-ai/gonka/pull/1734">#1734</a> carries the release inputs, and he checked the builds on B200 and H200 across the three remaining models.</li>
+<li>Experiments completed and written up: nine configurations in <a href="https://github.com/kaitakuai/experiments/tree/main/2026-09">kaitakuai/experiments/2026-09</a>, including memory behaviour and the working batch ceiling per configuration.</li>
+<li>Two checklist rows fell away with their models: Kimi-K2.6 and GLM-5.2-FP8 are no longer on chain.</li>
+</ul>
+<p><strong>Next:</strong> @tcharchian — the work is finished on our side; please close, or say what is missing. We are not ticking the boxes because the question of whether we may tick is open since 2026-09-07.</p>
   </div>
 </div>
 

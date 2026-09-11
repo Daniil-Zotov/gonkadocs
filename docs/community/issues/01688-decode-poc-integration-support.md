@@ -2,7 +2,7 @@
 title: "#1688 — Decode PoC: integration support"
 source: https://github.com/gonka-ai/gonka/issues/1688
 issue_number: 1688
-synced_at: 2026-09-11T18:38:48Z
+synced_at: 2026-09-11T21:46:32Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-08-31 20:15 UTC</span>
-    <span class="issues-meta-item">4 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-07 18:55 UTC</span>
+    <span class="issues-meta-item">5 comments</span>
+    <span class="issues-meta-item">Updated 2026-09-11 21:08 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -43,7 +43,7 @@ DeepSeek seeding is more complex than MiniMax. This issue covers the integration
 
 ---
 
-## 💬 Comments (4)
+## 💬 Comments (5)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -126,6 +126,23 @@ DeepSeek seeding is more complex than MiniMax. This issue covers the integration
 <li>Open design questions 1–3 unchanged.</li>
 </ul>
 <p><strong>Next:</strong> review of the two fork PRs by @vbgd0; merge order is his call — <code>#8</code>/<code>#100</code> first and then <code>#4</code>/<code>#22</code>, or folded. Update here by 2026-09-14.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/baychak">@baychak</a></span>
+    <span class="issues-meta-item">commented 2026-09-11 20:21 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p><strong>Status:</strong> in progress.</p>
+<p><strong>Since last</strong></p>
+<ul>
+<li>@vbgd0 opened <a href="https://github.com/gonka-ai/gonka/pull/1743">#1743</a> — the chain picks the PoC scheme per model, built on the branches behind <a href="https://github.com/gonka-ai/gonka-vllm-plugins/pull/8">gonka-ai/gonka-vllm-plugins#8</a> and <a href="https://github.com/gonka-ai/vllm/pull/100">gonka-ai/vllm#100</a>.</li>
+<li>Both are still open and unreviewed. The admission-layer removal is merged into their heads (<code>#8</code> at 140 commits, <code>#100</code> at 14).</li>
+<li>The removal is measured on a frozen revision across 11 configurations: R spread ×1.107 on MiniMax, ×1.17 on DeepSeek.</li>
+<li>2026-09-11: @vbgd0 asked us to add decode-PoC support for GLM-5.3-Flash — the simplest shim in the plugin and nonce/min for the model, targeting <code>release/v0.28-decode-int</code>. That opens a second 0.28 line beside the 0.25.1 one; branches started on our forks.</li>
+</ul>
+<p><strong>Next:</strong> merge order for <code>#8</code> and <code>#100</code> is @vbgd0's call; we build the 0.28 decode line meanwhile. Update here 2026-09-14.</p>
   </div>
 </div>
 

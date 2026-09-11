@@ -2,7 +2,7 @@
 title: "#1689 — First full MNode image for Decode PoC (MiniMax): testing"
 source: https://github.com/gonka-ai/gonka/issues/1689
 issue_number: 1689
-synced_at: 2026-09-11T18:38:52Z
+synced_at: 2026-09-11T21:46:33Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-08-31 20:20 UTC</span>
-    <span class="issues-meta-item">3 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-04 23:34 UTC</span>
+    <span class="issues-meta-item">4 comments</span>
+    <span class="issues-meta-item">Updated 2026-09-11 21:01 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -119,7 +119,7 @@ Scenario 8 is the idle baseline (both PoCs off, no inference). If it is not a me
 
 ---
 
-## 💬 Comments (3)
+## 💬 Comments (4)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -154,6 +154,17 @@ Scenario 8 is the idle baseline (both PoCs off, no inference). If it is not a me
 </ul>
 <p><strong>Can run before that, as smoke rather than acceptance:</strong> image build, boot/crash checks, old PoC after Decode PoC (scenarios 13-17), ON/OFF cycles without inference.</p>
 <p><strong>Next:</strong> smoke set starts after the <a href="https://github.com/gonka-ai/gonka-vllm-plugins/pull/8">gonka-ai/gonka-vllm-plugins#8</a> refresh, 2026-09-05. The acceptance matrix is scheduled here the day <a href="https://github.com/gonka-ai/gonka/issues/1688">#1688</a> closes. Status update every Monday, next 2026-09-07.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/baychak">@baychak</a></span>
+    <span class="issues-meta-item">commented 2026-09-11 21:01 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p><strong>Status:</strong> paused on our side.</p>
+<p>@vbgd0 built the decode-PoC image himself (tag <code>decode-poc-int</code>, <a href="https://github.com/gonka-ai/gonka/pull/1743">#1743</a>) and handed testing to another team, so we are not working on this issue right now.</p>
+<p>We may come back to it if the images turn out to need building per hardware configuration.</p>
   </div>
 </div>
 
