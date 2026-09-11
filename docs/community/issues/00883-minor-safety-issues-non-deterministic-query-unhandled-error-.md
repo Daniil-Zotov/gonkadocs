@@ -2,7 +2,7 @@
 title: "#883 — Minor safety issues: non-deterministic query, unhandled error continuation, uint64 overflow"
 source: https://github.com/gonka-ai/gonka/issues/883
 issue_number: 883
-synced_at: 2026-09-11T09:50:37Z
+synced_at: 2026-09-11T14:31:22Z
 template: issues-main.html
 ---
 
