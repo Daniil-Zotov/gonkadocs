@@ -1,6 +1,6 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-09-11T14:34:20.042007+00:00",
+  "snapshot_time": "2026-09-11T18:42:55.678327+00:00",
   "files": {
     "460d7b406a26039bca186ac074c0ac02e7130753a332dc8fe809420a0d5bbd6c": {
       "title": "AMA: Bitfury, HackerOne & Gonka — Bug Bounty Program Launch",
@@ -2135,6 +2135,15 @@
       "content_preview": "Increase the weight_scale_factor for deepseek-ai/DeepSeek-V4-Flash-0731 from 0.214 to 0.246. All other model and chain parameters remain unchanged.\n\nThe original factor came from inflated nonce/min nu…",
       "checksum": "d838434dfc9a6a6180fa7521dec459943679b6bae0defad09b47765a2d0d82ba"
     },
+    "e2d3796374af848477fa74cdf51b0c9a12da1c977f1c94883fa5f757e6cc6eae": {
+      "title": "Report for proposal #77 — Gonka PR Proposal for US/Global Regions",
+      "date": "2026-08-28",
+      "time": "",
+      "event_type": "proposal_report_upload",
+      "url": "/proposals/proposals/2026-q2/77/",
+      "content_preview": "Report report6 for proposal #77 has been uploaded. Read it: https://gonkadocs.com/proposals/proposals/2026-q2/77/report6/",
+      "checksum": "0fddbc589e9895a90b1b463d9cc3d1b30c830c55eb0e9f4e0a2616f7952533ca"
+    },
     "cfebbd4843535b5157857b316ee865cbeec16718ea04a6b780ea5448dcc2eb7f": {
       "title": "Passed: #98 – Increase DeepSeek V4 Flash weight_scale_factor to 0.246",
       "date": "2026-08-29",
@@ -2143,6 +2152,15 @@
       "url": "/proposals/proposals/2026-q3/98/",
       "content_preview": "Increase the weight_scale_factor for deepseek-ai/DeepSeek-V4-Flash-0731 from 0.214 to 0.246. All other model and chain parameters remain unchanged.\n\nResubmission of proposal 97, which expired without …",
       "checksum": "a440b230280333f72b1a58b4271a9ca663807264aee49496d926066f102affc6"
+    },
+    "8a72816154838654adbcb855967870cfc819043f5a79f9ef2e724fece3886a8d": {
+      "title": "Report for proposal #77 — Gonka PR Proposal for US/Global Regions",
+      "date": "2026-09-04",
+      "time": "",
+      "event_type": "proposal_report_upload",
+      "url": "/proposals/proposals/2026-q2/77/",
+      "content_preview": "Report report7 for proposal #77 has been uploaded. Read it: https://gonkadocs.com/proposals/proposals/2026-q2/77/report7/",
+      "checksum": "4beab62f95db3f2c688616d2dc67fb64e4f449194c0744ff5158cfb9e54742a3"
     },
     "84bdb55aa6d5f82e6c88f885aa6388581770f53bc5cb82724c1f163c5e3ebbb6": {
       "title": "Passed: #99 – Support Gonka's presence at TOKEN2049 Singapore",
@@ -2170,6 +2188,15 @@
       "url": "/proposals/proposals/2026-q3/100/",
       "content_preview": "Add v4.1 to the approved list of devshard versions.",
       "checksum": "8929c3123c42d6d74212a46de7db72cd1d5cddce5854c5a322ccf6156e31052f"
+    },
+    "929f51fdeab133ce781e025abf1b98972801c1724d1e547094e1f9c4de5f72b8": {
+      "title": "Report for proposal #77 — Gonka PR Proposal for US/Global Regions",
+      "date": "2026-09-11",
+      "time": "",
+      "event_type": "proposal_report_upload",
+      "url": "/proposals/proposals/2026-q2/77/",
+      "content_preview": "Report report8 for proposal #77 has been uploaded. Read it: https://gonkadocs.com/proposals/proposals/2026-q2/77/report8/",
+      "checksum": "f29a3655a3a01b9930302ffc4906645930db652e3faecf1c60629deeb6218fc1"
     },
     "939b62d866c77bc4416fce8bbf97f2f7c8dd54416e2231c2253ba9a250542756": {
       "title": "Passed: #102 – Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment",
