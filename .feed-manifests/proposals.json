@@ -1,6 +1,6 @@
 {
   "section": "proposals",
-  "snapshot_time": "2026-09-11T18:38:11.568743+00:00",
+  "snapshot_time": "2026-09-11T18:41:37.748994+00:00",
   "files": {
     "2025-q3/1/full-proposal.md": {
       "title": "Adjust Params According to real block length",
@@ -471,6 +471,36 @@
       "voting_end": "",
       "description": "",
       "checksum": "42602959e0b17a572595ed24eb46c777c496dd3e662b841d1c343a326925885d"
+    },
+    "2026-q2/77/report6.md": {
+      "title": "Weekly Report — 24–28 August",
+      "status": null,
+      "content_preview": "# Weekly Report — 24–28 August\n\n**Дата публикации:** 2026-08-28\n\n📝 **Weekly update: August 24–28**\n\nOn media's side:\n\n• Securities.io — Gleb's op-ed has gone to the editor for publication.\n• RTHK — David and Daniil recorded their interview today. The episode airs Monday; we'll share the link once it's live.\n\nIn progress:\n\n• Observer — we've addressed Anastasia's comments and are waiting for approval before sending to the journalist.\n• The World Financial Review — we shared the draft of Anastasia's op-ed; we're awaiting comments / edits.\n• BlockHash podcast — we secured an interview for Gleb. The producer wants to discuss how Gonka is building a decentralized network for AI compute, plus broader industry topics. We're waiting for Gleb's confirmation and a recording date.\n\nOur PR tracker: ht",
+      "funding": "",
+      "quorum_met": null,
+      "voting_end": "",
+      "description": "",
+      "checksum": "bc920cdddef80a801ba7e690636c54b8693ae21d7201292b5fd45722f17d2af5"
+    },
+    "2026-q2/77/report7.md": {
+      "title": "Weekly Report — 31 August – 4 September",
+      "status": null,
+      "content_preview": "# Weekly Report — 31 August – 4 September\n\n**Дата публикации:** 2026-09-04\n\n📝 **Weekly update: August 31 – September 4**\n\n• Awaiting publication of the RTHK interview and the Securities.io op-ed.\n• Finalizing content for Observer and The World Financial Review.\n• Secured a written interview for the Liberman brothers with Finbold — awaiting questions from the editor.\n• Shared preliminary concepts for an industry report.\n\nOur PR tracker: https://docs.google.com/spreadsheets/d/1nHjuV1GDDuwxoY0LU2qQimTZso7xoU7QGqawMxX4bEA/edit?usp=sharing\n\nHave a good weekend!",
+      "funding": "",
+      "quorum_met": null,
+      "voting_end": "",
+      "description": "",
+      "checksum": "8df67abad5cbc8e5b2cca143092f5b3148768d6f19917de5bffa30f57a142642"
+    },
+    "2026-q2/77/report8.md": {
+      "title": "Weekly Report — 7–11 September",
+      "status": null,
+      "content_preview": "# Weekly Report — 7–11 September\n\n**Дата публикации:** 2026-09-11\n\n📝 **Weekly update: September 7–11**\n\n1) Securities.io — Gleb's op-ed on who will own AI infrastructure is live. It also picked up a Japanese syndication — a nice bit of extra reach across Asia ahead of Singapore.\n2) RTHK — the interview with the brothers airs next week.\n\nIn progress:\n\n1) Observer and The World Financial Review — both drafts are with Anastasia for approval.\n2) BlockHash — we've received the host's recording schedule and are awaiting Gleb's feedback.\n3) Finbold — we've passed the editor's questions to the brothers for the interview and are awaiting their insights.\n4) Fintech TV (a channel for fintech and finance audiences, live interview format) — we're pitching an in-studio interview for the brothers and awa",
+      "funding": "",
+      "quorum_met": null,
+      "voting_end": "",
+      "description": "",
+      "checksum": "cb41b545baa018ad31fbc27a701aaacae35253c08f4faf2d76ab385023094c0c"
     },
     "2026-q2/77/reports5.md": {
       "title": "reports5",

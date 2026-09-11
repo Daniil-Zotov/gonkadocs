@@ -1284,6 +1284,18 @@
     ]
   },
   {
+    "date": "2026-08-28",
+    "category": "governance",
+    "type": "proposal_report_upload",
+    "title": "Report for proposal #77 — Gonka PR Proposal for US/Global Regions",
+    "url": "/proposals/proposals/2026-q2/77/",
+    "time": "",
+    "description": "Report report6 for proposal #77 has been uploaded. Read it: https://gonkadocs.com/proposals/proposals/2026-q2/77/report6/",
+    "tags": [
+      "report"
+    ]
+  },
+  {
     "date": "2026-08-29",
     "category": "governance",
     "type": "proposal_report",
@@ -1293,6 +1305,18 @@
     "description": "Increase the weight_scale_factor for deepseek-ai/DeepSeek-V4-Flash-0731 from 0.214 to 0.246. All other model and chain parameters remain unchanged.\n\nResubmission of proposal 97, which expired without …",
     "tags": [
       "passed"
+    ]
+  },
+  {
+    "date": "2026-09-04",
+    "category": "governance",
+    "type": "proposal_report_upload",
+    "title": "Report for proposal #77 — Gonka PR Proposal for US/Global Regions",
+    "url": "/proposals/proposals/2026-q2/77/",
+    "time": "",
+    "description": "Report report7 for proposal #77 has been uploaded. Read it: https://gonkadocs.com/proposals/proposals/2026-q2/77/report7/",
+    "tags": [
+      "report"
     ]
   },
   {
@@ -1329,6 +1353,18 @@
     "description": "Add v4.1 to the approved list of devshard versions.",
     "tags": [
       "passed"
+    ]
+  },
+  {
+    "date": "2026-09-11",
+    "category": "governance",
+    "type": "proposal_report_upload",
+    "title": "Report for proposal #77 — Gonka PR Proposal for US/Global Regions",
+    "url": "/proposals/proposals/2026-q2/77/",
+    "time": "",
+    "description": "Report report8 for proposal #77 has been uploaded. Read it: https://gonkadocs.com/proposals/proposals/2026-q2/77/report8/",
+    "tags": [
+      "report"
     ]
   },
   {
