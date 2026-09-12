@@ -19673,7 +19673,7 @@ decentralized mixture-of-experts."
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-09-12 13:23 UTC
+2026-09-12 16:41 UTC
 
 ---
 
@@ -19703,7 +19703,7 @@ curl -s https://node3.gonka.ai/chain-api/cosmos/distribution/v1beta1/community_p
 
 **Address:** [`gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2`](https://gonka.gg/address/gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2)
 
-Current balance: 17,500,000 GNK (~$10,500,000 USDT) · $273,900 USDT
+Current balance: 17,500,000 GNK (~$10,500,000 USDT) · $258,400 USDT
 
 This address was created by **[proposal #14](/proposals/proposals/2025-q4/14/)** (passed 2025-11-27), which transferred **20,000,000 GNK** from the Community Pool to seed a community sale programme at a fixed price of **$0.60 per GNK**.
 
@@ -19727,7 +19727,7 @@ curl -s https://node3.gonka.ai/chain-api/cosmos/bank/v1beta1/balances/gonka18pkq
 
 **Address:** [`gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33`](https://gonka.gg/address/gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33)
 
-Current balance: 4,440,919 GNK
+Current balance: 4,440,419 GNK
 
 The Gov Module authority is the only address permitted to execute `MsgCommunityPoolSpend` transfers from the Community Pool. When a governance proposal passes, this address signs and sends the requested funds to the specified recipient.
 
@@ -19757,6 +19757,7 @@ All **passed** governance proposals that received funding from the Community Poo
 
 | Proposal | Date | Description | Source | Amount GNK | Amount USDT |
 | :------ | :--: | :---------- | :---- | ---------: | ---------: |
+| [#103](https://gonkadocs.com/proposals/proposals/2026-q3/103/) | 2026-09-12 | Reimbursement of Expenses for Daniil and David Liberman's P… | Community Pool | — | $15,500 |
 | [#102](https://gonkadocs.com/proposals/proposals/2026-q3/102/) | 2026-09-11 | Ratify Quant Mesh Limited as the Ledger Integration Counter… | Community Pool | — | $350,350 |
 | [#99](https://gonkadocs.com/proposals/proposals/2026-q3/99/) | 2026-09-04 | Support Gonka's presence at TOKEN2049 Singapore | Community Pool | — | $100,000 |
 | [#82](https://gonkadocs.com/proposals/proposals/2026-q3/82/) | 2026-07-10 | External Test Lab x Community DevNet | Community Pool | 80,000 | $88,000 |
@@ -19791,13 +19792,13 @@ All **passed** governance proposals that received funding from the Community Poo
 
 | Metric | Value |
 | :----- | :---- |
-| Total governance proposals | 24 |
+| Total governance proposals | 25 |
 | Total GNK approved (proposals) | 24,994,032 GNK |
-| Total USDT approved (proposals) | $1,081,950 |
-| From Community Pool | 20,993,723 GNK + $1,081,950 |
+| Total USDT approved (proposals) | $1,097,450 |
+| From Community Pool | 20,993,723 GNK + $1,097,450 |
 | From Gov Module | 4,734,782 GNK |
 | Largest funding | #14 — 20,000,000 GNK |
-| Most recent | #102 — 0 GNK + $350,350 USDT |
+| Most recent | #103 — 0 GNK + $15,500 USDT |
 | **Upgrade distributions** | **7** |
 | Total GNK distributed (upgrades) | 203,750 GNK |
 | Total USDT distributed (upgrades) | $144,150 |
@@ -28986,7 +28987,7 @@ HardCore Arena позволит протестировать модель на �
 ## Overview
 
 102Total Proposals
-69Passed (68%)
+70Passed (69%)
 31Rejected (30%)
 1Failed (1%)
 
@@ -28997,7 +28998,7 @@ Other4
 GRC / Restitution3
 Models / IBC2
 
-20,302,572 GNK · $1,081,950 · Community Pool · 4,691,460 GNK · Gov Module
+20,302,572 GNK · $1,097,450 · Community Pool · 4,691,460 GNK · Gov Module
 $144,150 USDT · 203,750 GNK · Bounty Reward
 
 ## 2026-Q3
@@ -29006,8 +29007,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
 
   
     #103 – Reimbursement of Expenses for Daniil and David Liberman's Participation in All-In Summit 2026
-    
-    Voting
+    Passed
   
   
     Submitted 2026-09-10
@@ -30177,7 +30177,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-102 proposals across 5 quarters. Last updated: 2026-09-12 13:22 UTC
+102 proposals across 5 quarters. Last updated: 2026-09-12 17:00 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -67424,7 +67424,7 @@ Contract Details
 ## 2026-Q3 Summary
 
 24Total Proposals
-17Passed (71%)
+18Passed (75%)
 6Rejected (25%)
 
 Governance Parameters12
@@ -67433,7 +67433,7 @@ Software Upgrade2
 Other1
 GRC / Restitution1
 
-80,000 GNK · $538,350 · Community Pool
+80,000 GNK · $553,850 · Community Pool
 $90,075 USDT · Bounty Reward
 
 2026-Q3
@@ -67441,8 +67441,7 @@ $90,075 USDT · Bounty Reward
 
   
     #103 – Reimbursement of Expenses for Daniil and David Liberman's Participation in All-In Summit 2026
-    
-    Voting
+    Passed
   
   
     Submitted 2026-09-10
@@ -68943,7 +68942,7 @@ Contract Details
 
 # #103 – Reimbursement of Expenses for Daniil and David Liberman's Participation in All-In Summit 2026
 
-Voting
+Passed
 
 **Proposal ID:** `103`
 
