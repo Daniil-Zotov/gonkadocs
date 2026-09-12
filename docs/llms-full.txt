@@ -20061,14 +20061,14 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 ## 🟢 Active Proposals
 
 3Active
-9Votes
+10Votes
 0Total Bid
 
 | Status | Title | Author | Votes | Avg. Bid | Closes |
 | :----- | :----- | :----- | ----: | -------: | :----- |
 | 🟢 | [GONKA Global Growth & Market Expansion](./dbc5de38-aec1-4a90-a027-8d7ac835aab0/) | Nataliia Klymovska | 4 | 0.00 GNK | 2026-09-15 |
 | 🟢 | [GONKA × Guinness World Records: попытка установить мировой рекорд](./4a170e2e-e1c6-487a-8089-ac533e18194b/) | Nataliia Klymovska | 4 | 0.00 GNK | 2026-09-17 |
-| 🟢 | [Marketing Committee — Operations & Reddit Contributor Pilot](./18b4fee6-896a-4ef2-83e2-9416ecfd736c/) | Pavel Petko | 1 | 0.00 GNK | 2026-09-18 |
+| 🟢 | [Marketing Committee — Operations & Reddit Contributor Pilot](./18b4fee6-896a-4ef2-83e2-9416ecfd736c/) | Pavel Petko | 2 | 0.00 GNK | 2026-09-18 |
 
 ---
 
@@ -20124,7 +20124,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-09-12 14:03 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-09-12 17:03 UTC*
 
 ---
 
@@ -21073,7 +21073,7 @@ Support developers — become part of GameHub. 🚀
 **Created:** 2026-09-11 09:39 UTC
 **Closes:** 2026-09-18 09:38 UTC
 **Language:** RU
-**Votes:** 1
+**Votes:** 2
 **Avg. Bid:** 0.00 GNK
 
 Этот пропозал предлагает поддержать деятельность Marketing Committee на три месяца и провести двухмесячный Reddit Contributor Pilot.
