@@ -1,5 +1,25 @@
 [
   {
+    "id": "evt_20260912172255_2770aca2",
+    "timestamp": "2026-09-12T17:22:55.705223+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Passed: #103 – Reimbursement of Expenses for Daniil and David Liberman's Participation in All-In Summit 2026",
+      "url": "/proposals/proposals/2026-q3/103/",
+      "file": "fea795bd9b244997c09881cbe6c57035815e4563ae7c897e397348c9490b8129"
+    },
+    "details": {
+      "status": null,
+      "content": "We are proposing to allocate 15,500 USDT from the Gonka Community Pool to reimburse the cost of two tickets for All-In Summit 2026 for Daniil and David Liberman, co-creators of the Gonka protocol.\nAll…",
+      "date": "2026-09-12",
+      "time": "13:31 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q3/103/"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260912171940_1b946223",
     "timestamp": "2026-09-12T17:19:40.741663+00:00",
     "section": "issues",
@@ -7824,20 +7844,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P1] Maintenance window for hosts\n    <span class=\"issues-number\">#927</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-03-20 23:39 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span"
     },
     "ai_description": "Removed: #927 — [P1] Maintenance window for hosts. <div class=\"issues-detail-header\"> <h1 class=\"issues-detail-title\"> <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 "
-  },
-  {
-    "id": "evt_20260910143102_97f23f27",
-    "timestamp": "2026-09-10T14:31:02.673204+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#929 — Inference validation optimization",
-      "url": null,
-      "file": "00929-inference-validation-optimization.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Inference validation optimization\n    <span class=\"issues-number\">#929</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-03-21 19:22 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-cont"
-    },
-    "ai_description": "Removed: #929 — Inference validation optimization. <div class=\"issues-detail-header\"> <h1 class=\"issues-detail-title\"> <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span> "
   }
 ]
