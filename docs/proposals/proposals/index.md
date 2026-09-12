@@ -35,7 +35,7 @@ hide:
 
 <div class="qs-stats">
 <div class="qs-stat total"><span class="qs-num">102</span><span class="qs-desc">Total Proposals</span></div>
-<div class="qs-stat passed"><span class="qs-num">69</span><span class="qs-desc">Passed (68%)</span></div>
+<div class="qs-stat passed"><span class="qs-num">70</span><span class="qs-desc">Passed (69%)</span></div>
 <div class="qs-stat rejected"><span class="qs-num">31</span><span class="qs-desc">Rejected (30%)</span></div>
 <div class="qs-stat failed"><span class="qs-num">1</span><span class="qs-desc">Failed (1%)</span></div>
 </div>
@@ -49,7 +49,7 @@ hide:
 <div class="qs-row"><span class="qs-label">Models / IBC</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:2%"></span></span><span class="qs-value">2</span></div>
 </div>
 
-<div class="qs-funding-line">20,302,572 GNK · $1,081,950 · Community Pool · 4,691,460 GNK · Gov Module</div>
+<div class="qs-funding-line">20,302,572 GNK · $1,097,450 · Community Pool · 4,691,460 GNK · Gov Module</div>
 <div class="qs-bounty-line">$144,150 USDT · 203,750 GNK · Bounty Reward</div>
 
 
@@ -60,18 +60,17 @@ hide:
 
 *24 proposals*
 
-<div class="prop-card" data-status="prop-voting" data-voting-end="2026-09-12T13:31:12.594032166Z">
+<div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
     <a href="2026-q3/103/" class="prop-card-title">#103 – Reimbursement of Expenses for Daniil and David Liberman's Participation in All-In Summit 2026</a>
-    <span class="prop-vote-countdown" data-deadline="2026-09-12T13:31:12.594032166Z"></span>
-    <span class="prop-badge prop-voting">Voting</span>
+    <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
     <span>Submitted 2026-09-10</span>
     <span>Voting ends 2026-09-12</span>
   </div>
   <div class="prop-card-desc">We are proposing to allocate 15,500 USDT from the Gonka Community Pool to reimburse the cost of two tickets for All-In Summit 2026 for Daniil and David Liberman, co-creators of the Gonka protocol. All…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (184,762)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding prop-card-funding-voting">$15,500 · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (184,762)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding">$15,500 · Community Pool</span></div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>29.9%</strong> (184,762 / 618,047) · Quorum <strong>25%</strong> (154,511)</span></div>
 </div>
 
@@ -1447,7 +1446,7 @@ hide:
 
 </div>
 <div class="prop-oview-stats">
-<em>102 proposals across 5 quarters. Last updated: 2026-09-12 13:22 UTC</em>
+<em>102 proposals across 5 quarters. Last updated: 2026-09-12 15:34 UTC</em>
 </div>
 
 <script>

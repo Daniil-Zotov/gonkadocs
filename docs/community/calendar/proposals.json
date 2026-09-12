@@ -1382,13 +1382,13 @@
   {
     "date": "2026-09-12",
     "category": "governance",
-    "type": "proposal_vote_end",
-    "title": "Voting ends: #103 – Reimbursement of Expenses for Daniil and David Liberman's Participation in All-In Summit 2026",
+    "type": "proposal_report",
+    "title": "Passed: #103 – Reimbursement of Expenses for Daniil and David Liberman's Participation in All-In Summit 2026",
     "url": "/proposals/proposals/2026-q3/103/",
     "time": "13:31 UTC",
     "description": "We are proposing to allocate 15,500 USDT from the Gonka Community Pool to reimburse the cost of two tickets for All-In Summit 2026 for Daniil and David Liberman, co-creators of the Gonka protocol.\nAll…",
     "tags": [
-      "voting"
+      "passed"
     ]
   }
 ]
