@@ -2,7 +2,7 @@
 title: "#1628 — [BUG] Public routers hang/timeout on prompts ≥ ~7.5K tokens (prefill); 502 `all_providers_failed`; DeepSeek missing from /v1/models"
 source: https://github.com/gonka-ai/gonka/issues/1628
 issue_number: 1628
-synced_at: 2026-09-12T13:38:17Z
+synced_at: 2026-09-12T17:15:43Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/inecro1">@inecro1</a> opened 2026-08-23 12:28 UTC</span>
-    <span class="issues-meta-item">6 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-11 23:53 UTC</span>
+    <span class="issues-meta-item">7 comments</span>
+    <span class="issues-meta-item">Updated 2026-09-12 14:29 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -92,7 +92,7 @@ Threshold: failure is deterministic at ~7.5K prefill tokens and above. This is c
 
 ---
 
-## 💬 Comments (6)
+## 💬 Comments (7)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -257,6 +257,66 @@ EOF
 </ol>
 <p>Thank You for the report,</p>
 <p><strong>Gonka Labs team</strong></p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/inecro1">@inecro1</a></span>
+    <span class="issues-meta-item">commented 2026-09-12 14:29 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p><strong>Follow-up: consumer Proxy path also fails above ~4K–10K prefill; consumer key is rejected on OpenBroker</strong></p>
+<p>Hi @gonkalabs — we followed your guidance literally. On 2026-09-12 we signed up at <code>proxy.gonka.gg</code> (email + verification code, no KYC), issued a key from the dashboard, and ran the same prefill contrast through <code>https://api.proxy.gonka.gg/v1</code>. Model <code>deepseek-ai/DeepSeek-V4-Flash-0731</code> (and <code>MiniMaxAI/MiniMax-M2.7</code> for the largest attempt), single user message with repeated filler, <code>stream=false</code>, <code>max_tokens=5</code>, ~13:50–14:10 UTC.</p>
+<table>
+<thead>
+<tr>
+<th>prompt_tokens</th>
+<th>result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>39</td>
+<td>200, 0.2 s</td>
+</tr>
+<tr>
+<td>1,775</td>
+<td>200, 0.5 s</td>
+</tr>
+<tr>
+<td>2,005</td>
+<td>200, 0.8 s</td>
+</tr>
+<tr>
+<td>4,005</td>
+<td>200, 4.3 s</td>
+</tr>
+<tr>
+<td>~10,000</td>
+<td><strong>no bytes, 40 s</strong> (same with <code>stream=true</code>)</td>
+</tr>
+<tr>
+<td>~40,000</td>
+<td><strong>no bytes, 70 s</strong></td>
+</tr>
+<tr>
+<td>~96,000</td>
+<td><strong>connection dropped at 120 s</strong> — identical for MiniMax-M2.7</td>
+</tr>
+</tbody>
+</table>
+<p>So on the Proxy path the ceiling on our account sits between ~4K and ~10K prefill tokens. Same failure signature as the original report, on a path you described as having no hang on large bodies.</p>
+<p>For scale: your own <code>/api/status</code> taken at the same moment shows 452,436 requests and 2,535,829,975 tokens over the last 24 h — an average of ~5,600 tokens per request, i.e. below the ceiling we hit. Our client is an agent that sends 96K–111K prompt tokens per call (measured: 632M input tokens over 5,668 calls), so Proxy is currently unusable for us.</p>
+<p>To rule out a network-side cause: the identical ~96K body returns <strong>200 OK in 2.0 s</strong> (<code>usage.prompt_tokens = 96,005</code>) through <code>api.gonka24.com</code>, so the devshard path is capable of serving this size.</p>
+<p>One contradiction to clarify: our <code>proxy.gonka.gg</code> key is rejected on your other endpoint — <code>POST https://api.openbroker.gonka.gg/v1/chat/completions</code> → <code>401 {"error":"missing or invalid OpenBroker API key"}</code> — although you said "api keys are the same for api.openbroker.gonka.gg and proxy.gonka.gg".</p>
+<p><strong>Questions</strong></p>
+<ol>
+<li>Is there a request-size cap on the consumer/trial tier of Proxy, and does it lift after a top-up? What is the maximum prompt a paying consumer account can send?</li>
+<li>If Proxy is not intended for 100K+ prompts, which product/tier is (OpenBroker broker account with reserved devshard capacity?), and what would that cost for a single-user agent workload at ~640M tokens/month?</li>
+<li>Should a <code>proxy.gonka.gg</code> key work on <code>api.openbroker.gonka.gg</code>, or do OpenBroker keys come only with the ≥100 GNK broker activation?</li>
+<li>If useful, we can share exact UTC timestamps and request bodies so you can check in your logs whether our ~10K/40K/96K requests reached a devshard at all.</li>
+</ol>
+<p>Happy to re-run the exact repro on any path you specify with a key that works there.</p>
   </div>
 </div>
 

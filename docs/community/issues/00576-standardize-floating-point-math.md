@@ -2,7 +2,7 @@
 title: "#576 — Standardize floating point math"
 source: https://github.com/gonka-ai/gonka/issues/576
 issue_number: 576
-synced_at: 2026-09-12T13:41:37Z
+synced_at: 2026-09-12T17:18:57Z
 template: issues-main.html
 ---
 
