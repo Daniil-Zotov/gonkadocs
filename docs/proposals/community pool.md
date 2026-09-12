@@ -10,7 +10,7 @@ hide:
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 <small>Last updated: <!-- UPDATE_TIMESTAMP -->
-2026-09-12 13:23 UTC
+2026-09-12 16:41 UTC
 <!-- /UPDATE_TIMESTAMP --></small>
 
 ---
@@ -50,7 +50,7 @@ curl -s https://node3.gonka.ai/chain-api/cosmos/distribution/v1beta1/community_p
 
 <!-- SALE_BALANCE_START -->
 <p style="margin:0.2rem 0">
-<strong>Current balance:</strong> <span style="color:grey;font-size:0.95rem;font-weight:600">17,500,000 GNK</span> <span style="color:var(--md-accent-fg-color,#5468ff);font-size:0.95rem;font-weight:600">(~$10,500,000 USDT)</span> · <span style="color:var(--md-accent-fg-color,#5468ff);font-size:0.95rem;font-weight:600">$273,900 USDT</span>
+<strong>Current balance:</strong> <span style="color:grey;font-size:0.95rem;font-weight:600">17,500,000 GNK</span> <span style="color:var(--md-accent-fg-color,#5468ff);font-size:0.95rem;font-weight:600">(~$10,500,000 USDT)</span> · <span style="color:var(--md-accent-fg-color,#5468ff);font-size:0.95rem;font-weight:600">$258,400 USDT</span>
 </p>
 <!-- SALE_BALANCE_END -->
 
@@ -81,7 +81,7 @@ curl -s https://node3.gonka.ai/chain-api/cosmos/bank/v1beta1/balances/gonka18pkq
 
 <!-- GOV_BALANCE_START -->
 <p style="margin:0.2rem 0">
-<strong>Current balance:</strong> <span style="color:var(--md-accent-fg-color,#5468ff);font-size:0.95rem;font-weight:600">4,440,919 GNK</span>
+<strong>Current balance:</strong> <span style="color:var(--md-accent-fg-color,#5468ff);font-size:0.95rem;font-weight:600">4,440,419 GNK</span>
 </p>
 <!-- GOV_BALANCE_END -->
 
@@ -117,6 +117,7 @@ All **passed** governance proposals that received funding from the Community Poo
 <!-- SPENT_HISTORY_START -->
 | Proposal | Date | Description | Source | Amount GNK | Amount USDT |
 | :------ | :--: | :---------- | :---- | ---------: | ---------: |
+| [#103](https://gonkadocs.com/proposals/proposals/2026-q3/103/) | 2026-09-12 | Reimbursement of Expenses for Daniil and David Liberman's P… | Community Pool | — | $15,500 |
 | [#102](https://gonkadocs.com/proposals/proposals/2026-q3/102/) | 2026-09-11 | Ratify Quant Mesh Limited as the Ledger Integration Counter… | Community Pool | — | $350,350 |
 | [#99](https://gonkadocs.com/proposals/proposals/2026-q3/99/) | 2026-09-04 | Support Gonka's presence at TOKEN2049 Singapore | Community Pool | — | $100,000 |
 | [#82](https://gonkadocs.com/proposals/proposals/2026-q3/82/) | 2026-07-10 | External Test Lab x Community DevNet | Community Pool | 80,000 | $88,000 |
@@ -151,13 +152,13 @@ All **passed** governance proposals that received funding from the Community Poo
 
 | Metric | Value |
 | :----- | :---- |
-| Total governance proposals | 24 |
+| Total governance proposals | 25 |
 | Total GNK approved (proposals) | 24,994,032 GNK |
-| Total USDT approved (proposals) | $1,081,950 |
-| From Community Pool | 20,993,723 GNK + $1,081,950 |
+| Total USDT approved (proposals) | $1,097,450 |
+| From Community Pool | 20,993,723 GNK + $1,097,450 |
 | From Gov Module | 4,734,782 GNK |
 | Largest funding | #14 — 20,000,000 GNK |
-| Most recent | #102 — 0 GNK + $350,350 USDT |
+| Most recent | #103 — 0 GNK + $15,500 USDT |
 | **Upgrade distributions** | **7** |
 | Total GNK distributed (upgrades) | 203,750 GNK |
 | Total USDT distributed (upgrades) | $144,150 |
