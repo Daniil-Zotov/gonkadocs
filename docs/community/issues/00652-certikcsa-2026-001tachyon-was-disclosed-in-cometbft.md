@@ -2,7 +2,7 @@
 title: "#652 — Certik(CSA-2026-001:Tachyon, was disclosed in CometBFT)"
 source: https://github.com/gonka-ai/gonka/issues/652
 issue_number: 652
-synced_at: 2026-09-12T04:46:22Z
+synced_at: 2026-09-12T09:28:13Z
 template: issues-main.html
 ---
 
