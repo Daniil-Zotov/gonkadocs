@@ -2,7 +2,7 @@
 title: "#1628 — [BUG] Public routers hang/timeout on prompts ≥ ~7.5K tokens (prefill); 502 `all_providers_failed`; DeepSeek missing from /v1/models"
 source: https://github.com/gonka-ai/gonka/issues/1628
 issue_number: 1628
-synced_at: 2026-09-11T21:46:38Z
+synced_at: 2026-09-12T00:22:08Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/inecro1">@inecro1</a> opened 2026-08-23 12:28 UTC</span>
-    <span class="issues-meta-item">5 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-06 09:40 UTC</span>
+    <span class="issues-meta-item">6 comments</span>
+    <span class="issues-meta-item">Updated 2026-09-11 23:53 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -92,7 +92,7 @@ Threshold: failure is deterministic at ~7.5K prefill tokens and above. This is c
 
 ---
 
-## 💬 Comments (5)
+## 💬 Comments (6)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -241,6 +241,22 @@ EOF
 1. Where do we obtain a key for <code>api.proxy.gonka.gg</code> / <code>api.openbroker.gonka.gg</code> (registration hub / docs page)? We'd like to run the exact repro with valid auth on your paths and close this out.
 2. Is the pre-auth hang on large bodies (60–110s instead of a fast 401) expected behavior on your gateways — i.e. is the full request body read/processed before authentication? If so, that still looks like a prefill-path problem worth a look.</p>
 <p>Happy to provide UTC times and full request bodies for any specific run you want to inspect.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/gonkalabs">@gonkalabs</a></span>
+    <span class="issues-meta-item">commented 2026-09-11 23:53 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Hi @inecro1 !</p>
+<ol>
+<li>If you were able to use openbroker.gonka.gg / proxy.gonka.gg - api keys are the same for api.openbroker.gonka.gg and proxy.gonka.gg.</li>
+<li>Gonka Labs has nothing to do with api.opengonka.com/v1, this is not our product and api keys of that service will not work with *.gonka.gg services.</li>
+<li>There is no hang on large bodies on *.gonka.gg services: Open Broker and Proxy. The hang issue shall be discussed with opengonka maintainers.</li>
+</ol>
+<p>Thank You for the report,</p>
+<p><strong>Gonka Labs team</strong></p>
   </div>
 </div>
 
