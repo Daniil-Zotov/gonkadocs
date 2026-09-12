@@ -17,7 +17,7 @@
       "event_type": "proposal_report",
       "url": "/proposals/proposals/2026-q3/103/"
     },
-    "ai_description": null
+    "ai_description": "Added: Passed: #103 – Reimbursement of Expenses for Daniil and David Liberman's Participation in All-In Summit 2026. We are proposing to allocate 15,500 USDT from the Gonka Community Pool to reimburse the cost of two tickets for All-In Summit 2026 for Daniil and David Liberman, co-creators of the Gonka protocol. All…"
   },
   {
     "id": "evt_20260912171940_1b946223",
@@ -33,7 +33,7 @@
       "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] Public routers hang/timeout on prompts ≥ ~7.5K tokens (prefill); 502 `all_providers_failed`; DeepSeek missing from /v1/models\n    <span class=\"issues-number\">#1628</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/inecro1\">@inecro1</a> opened 2026-08-23 12:28 UTC</span>\n    <span class=\"issues-meta-item\">6 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div",
       "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] Public routers hang/timeout on prompts ≥ ~7.5K tokens (prefill); 502 `all_providers_failed`; DeepSeek missing from /v1/models\n    <span class=\"issues-number\">#1628</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/inecro1\">@inecro1</a> opened 2026-08-23 12:28 UTC</span>\n    <span class=\"issues-meta-item\">7 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div"
     },
-    "ai_description": null
+    "ai_description": "Updated: → HTTP 200, first token < 2 s."
   },
   {
     "id": "evt_20260912003045_0bb0bdd3",
