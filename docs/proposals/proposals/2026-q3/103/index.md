@@ -75,6 +75,7 @@ The standard Attendee Pass costs $7,500 per person. The tickets have already bee
 <tr><td><a href="https://gonka.gg/address/gonka168rtjfkszuhcggg4dfyse4yh7xn9zwfglnkns2" target="_blank" class="prop-voter-addr">gonka168rtjf…lnkns2</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1u60wtn9dhadweeuq2gywcpx34fpfnuhmu7w0qq" target="_blank" class="prop-voter-addr">gonka1u60wtn…u7w0qq</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1aw77zuy536tufqd56zfq6ev3234u5ftty0zkte" target="_blank" class="prop-voter-addr">gonka1aw77zu…y0zkte</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
+<tr><td><a href="https://gonka.gg/address/gonka1lknfnpjz862gy23pz8qatse53px6sgsrd32ykg" target="_blank" class="prop-voter-addr">gonka1lknfnp…d32ykg</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 </tbody>
 </table>
 </div>
