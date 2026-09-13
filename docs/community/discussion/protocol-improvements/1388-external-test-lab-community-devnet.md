@@ -3,14 +3,14 @@ title: "#1388 — External Test Lab & Community DevNet"
 source: https://github.com/gonka-ai/gonka/discussions/1388
 discussion_number: 1388
 category: protocol-improvements
-synced_at: 2026-09-13T11:41:20Z
+synced_at: 2026-09-13T16:09:06Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1388](https://github.com/gonka-ai/gonka/discussions/1388) every hour. 
 
 # External Test Lab & Community DevNet
 
-**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-07-02 22:04 UTC · **Обновлено:** 2026-08-11 16:10 UTC
+**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-07-02 22:04 UTC · **Обновлено:** 2026-09-13 12:23 UTC
 
 ---
 
@@ -431,6 +431,10 @@ The first report will be published around August 9, four days before the next un
 > As promised, here is the [Month 1 report for the External Test Lab & Community DevNet](https://github.com/paranjko/external-test-lab/blob/main/reports/monthly/2026-08-month-1.md).
 >
 > All supporting materials and artifacts have already been published in the [Test Lab repository](https://github.com/paranjko/external-test-lab/) which will remain the main source for project updates for now.
+
+**↳ Ответ от [@paranjko](https://github.com/paranjko)** · *2026-09-13 12:23 UTC*
+
+> And here’s the [Month 2 Report](https://github.com/paranjko/external-test-lab/blob/main/reports/monthly/2026-09-month-2.md).
 
 ### Комментарий 5 — [@bitcompool](https://github.com/bitcompool)
 

@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-09-13T11:42:46.513890+00:00",
+  "snapshot_time": "2026-09-13T16:11:06.776235+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "Welcome to Gonka Discussions 👋",
@@ -151,6 +151,12 @@
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1742](https://github.com/gonka-ai/gonka/discussions/1742) every hour. \n\n# Proposal #102: Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment\n\n**Автор:** [@Isabella0319](https://github.com/Isabella0319) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-09-09 08:42 UTC · \n\n---\n\n## 📝 Описание\n\n## **Summary**\n\n6Block proposes that the Gonka community:\n\n1. **Ratify and authorize Quant Mesh Limited** as the legal contracting counterparty for the Gonka integration agreement with Ledger.  \n2. **Allocate 350,350 USDT from the Gonka Community Pool** to Quant Mesh Limited for the purpose of paying Ledger under the signed Ledger integration agreement.\n\nQuant Mesh Limited, a ",
       "checksum": "1470220ed7f869363d43cff06ced6f3e96fbd1ecd2d35f675f6434c804e9e34f"
+    },
+    "governance-proposal-reports/1764-proposal-82-external-test-lab-community-devnet-m2-report.md": {
+      "title": "Proposal #82: External Test Lab & Community DevNet — M2 Report",
+      "status": null,
+      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1764](https://github.com/gonka-ai/gonka/discussions/1764) every hour. \n\n# Proposal #82: External Test Lab & Community DevNet — M2 Report\n\n**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-09-13 12:16 UTC · \n\n---\n\n## 📝 Описание\n\n**Period:** 2026-08-10 — 2026-09-09 · **Proposal:** [#82](https://inference.dahl.global/gonka-governance/82/) ([discussion](https://github.com/gonka-ai/gonka/discussions/1388))\n\n## Executive summary\n\nMonth 2 moved the Lab from setup into active infrastructure, Host lifecycle testing, release qualification, and broker compatibility work.\n\nThe rented fleet reached **nine GPU hosts**, but the **9+ validated MLNodes online** target remains **Partial**:",
+      "checksum": "90c5ed7c9077f1fe24f40ee1bb856ada139bc0e863ff75514df6ba32ed9d5057"
     },
     "protocol-improvements/0795-welcome-to-proposals.md": {
       "title": "Welcome to Proposals 👋",
@@ -372,7 +378,7 @@
       "title": "External Test Lab & Community DevNet",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1388](https://github.com/gonka-ai/gonka/discussions/1388) every hour. \n\n# External Test Lab & Community DevNet\n\n**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-07-02 22:04 UTC · \n\n---\n\n## 📝 Описание\n\n# External Test Lab & Community DevNet\n\n*4-month pilot proposal for community-owned testing infrastructure and QA capacity*\n\n# 1. Executive Summary\n\nThis proposal requests funding for a 4-month pilot of External Test Lab & Community DevNet: a community-owned testing function for Gonka protocol upgrades, DevShards, inference flows, host/broker operations, and geographically distributed network behavior before governance decisions and production rollout.\n\n| **Item**              | **Proposa",
-      "checksum": "f1a6af36aba9ded966e3c2385a2a92e404fa5b40054a6b12f9bd0c6840c563e2"
+      "checksum": "ab2038bac460bf0de7568bb44d2bcb0411b5026437dae05ec15550adc891fe9f"
     },
     "protocol-improvements/1404-add-a-lower-barrier-glm-52-option-and-consider-deepseek-v4-f.md": {
       "title": "Add a lower-barrier GLM-5.2 option and consider DeepSeek-V4-Flash as the default model",
