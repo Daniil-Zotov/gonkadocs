@@ -3,7 +3,7 @@ title: "#1667 — IBC withdrawal blocked: Neutron client 07-tendermint-3 is expi
 source: https://github.com/gonka-ai/gonka/discussions/1667
 discussion_number: 1667
 category: q-a
-synced_at: 2026-09-13T16:09:10Z
+synced_at: 2026-09-13T19:22:29Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1667](https://github.com/gonka-ai/gonka/discussions/1667) every hour. 
