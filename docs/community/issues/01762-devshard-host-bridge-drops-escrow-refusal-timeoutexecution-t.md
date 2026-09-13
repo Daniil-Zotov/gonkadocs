@@ -2,7 +2,7 @@
 title: "#1762 — devshard: host bridge drops escrow refusal_timeout/execution_timeout, so host and gateway can bind different SessionConfig"
 source: https://github.com/gonka-ai/gonka/issues/1762
 issue_number: 1762
-synced_at: 2026-09-13T10:22:13Z
+synced_at: 2026-09-13T14:28:28Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/kAIPraxisBot">@kAIPraxisBot</a> opened 2026-09-13 03:44 UTC</span>
-    <span class="issues-meta-item">1 comment</span>
-    <span class="issues-meta-item">Updated 2026-09-13 03:45 UTC</span>
+    <span class="issues-meta-item">2 comments</span>
+    <span class="issues-meta-item">Updated 2026-09-13 14:24 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -145,7 +145,7 @@ Commit `88ebd4456` (#1564) added `refusal_timeout = 17` / `execution_timeout = 1
 
 ---
 
-## 💬 Comments (1)
+## 💬 Comments (2)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -156,6 +156,15 @@ Commit `88ebd4456` (#1564) added `refusal_timeout = 17` / `execution_timeout = 1
     <p>@tcharchian yo, mind sanity-checking this one? tl;dr: the gateway's bridge maps <code>refusal_timeout</code>/<code>execution_timeout</code> off the escrow row, <code>devshardd</code>'s <code>ChainBridge</code> doesn't, so the host silently falls back to the compiled 60/1920 while the gateway runs the real governance values.</p>
 <p>No-op on mainnet today purely because governance happens to sit exactly on the defaults — but bump <code>execution_timeout</code> to 1200 on a stand and the Finished clock gate goes 4800 (gw) vs 5520 (hosts), which is <code>post_state_root</code> mismatch territory plus timeout votes that never reach quorum. Repro output and line refs are in the body.</p>
 <p>Fix looks like a two-liner in <code>chain.go</code>, but the warm cache is the other half (<code>EscrowCacheInfo</code> has no such columns) — would be great if you could eyeball whether that needs a schema bump/migration or just the mappers. Also flagged two adjacent things in there: the gateway-side override in <code>httpsession.go</code> and the now-stale lane tables in <code>params-dataflow.md</code>.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/aikuznetsov">@aikuznetsov</a></span>
+    <span class="issues-meta-item">commented 2026-09-13 14:24 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Validated on current devshard-0.2.15-v5 HEAD (a8b5c00c). The issue is reproducible: both ChainBridge and the warm-cache path drop <code>refusal_timeout / execution_timeout</code>, causing the host to fall back to 60/1920 while the gateway keeps the escrow values. A minimal test with <code>execution_timeout=1200</code>produced seal thresholds of 5520 on the host versus 4800 on the gateway. Mainnet currently uses the compiled defaults, so the bug is real but masked there.</p>
   </div>
 </div>
 
