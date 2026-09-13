@@ -2,7 +2,7 @@
 title: "#976 — [P0] `devshards`: Distribute `WorkCoins` at the end of the epoch"
 source: https://github.com/gonka-ai/gonka/issues/976
 issue_number: 976
-synced_at: 2026-09-13T14:29:56Z
+synced_at: 2026-09-13T18:15:41Z
 template: issues-main.html
 ---
 
