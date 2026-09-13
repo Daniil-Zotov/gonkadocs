@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-09-13T00:08:08.581504+00:00",
+  "snapshot_time": "2026-09-13T05:02:47.033151+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "Description",
@@ -2827,34 +2827,38 @@
     "01265-stuck-voting-inferences-orphan-client-escrow-when-xgroup-pro.md": {
       "title": "#1265 — Stuck VOTING inferences orphan client escrow when x/group proposals miss quorum",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Stuck VOTING inferences orphan client escrow when x/group proposals miss quorum\n    <span class=\"issues-number\">#1265</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-05-27 19:50 UTC</span>\n    <span class=\"issues-meta-item\">5 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin",
-      "comment_checksum": "a3681e1c5e22826aa501100c34b976af75bb019c8340f93ab6710b956bb19e9d",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Stuck VOTING inferences orphan client escrow when x/group proposals miss quorum\n    <span class=\"issues-number\">#1265</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-05-27 19:50 UTC</span>\n    <span class=\"issues-meta-item\">6 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div cla",
+      "comment_checksum": "1da371c689cde28a55393835c05ef9310c9b0165aa1386f7fdd6911fbf0cb99b",
       "comment_bodies": [
         "Quick follow-up: applied the filter extension from the body of this issue locally (module.go:231 → also handle Status=VOTING via expireInferenceAndIssueRefund) and reran sim. The timeout-stuck path is no longer reachable on seed=99 — sim-full now progresses past the previous failure point. What surfaced next is a distinct mechanism in the revalidation vote path: validators present in ActivePartici",
         "I think we should focus now on devshard inference flow. Anyway legacy inference flow will not be supported in the future. Also do we really have such issue in production environment?",
         "Thanks for the steer — both points taken. On \"do we really have this in production?\" — honestly, I can't confirm it from chain state. I scanned ~40k inferences on a mainnet node and found none in VOTING, but that's not evidence either way: inferences that enter the epoch-group validation path get a real epoch_id and are pruned after InferencePruningEpochThreshold epochs (keeper/pruning.go), while ",
         "it's the natural place to add devshard coverage Validation logic of devshard is subject to change in future releases",
-        "@patimen — pulling you in, since you authored #982 and own the original scope. I want to make sure I'm putting effort where it's actually useful. a-kuprin's steer here is clear, and I agree with it: legacy validation is being retired, and devshard's validation logic is still in flux — so I'll hold off on adding devshard sim coverage until it stabilizes (no point simming a moving target). What I'm "
+        "@patimen — pulling you in, since you authored #982 and own the original scope. I want to make sure I'm putting effort where it's actually useful. a-kuprin's steer here is clear, and I agree with it: legacy validation is being retired, and devshard's validation logic is still in flux — so I'll hold off on adding devshard sim coverage until it stabilizes (no point simming a moving target). What I'm ",
+        "Closing: the path this describes was removed from the chain."
       ],
-      "checksum": "f7a0037cff572cf0ab226a8085ffbb2b661bab41a6fe0540715794532b2403bc"
+      "checksum": "dfe273bddbad872d1f257890cd30f1f77aaeb60ee8f61838a9ba51f16d7d6bcc"
     },
     "01269-xinference-revalidation-vote-fails-when-voter-absent-from-ep.md": {
       "title": "x/inference: revalidation vote fails when voter absent from epoch x/group",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    x/inference: revalidation vote fails when voter absent from epoch x/group\n    <span class=\"issues-number\">#1269</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-05-28 12:45 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: ",
-      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "comment_bodies": [],
-      "checksum": "1e696a854f123efdca08cad83af938309407743bfac6dcf57ba279f02647a0c5"
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    x/inference: revalidation vote fails when voter absent from epoch x/group\n    <span class=\"issues-number\">#1269</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-05-28 12:45 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"iss",
+      "comment_checksum": "3a335efc910c9c43af4d8035e0e52c0429875071325496407eba7014d276519b",
+      "comment_bodies": [
+        "Closing: the vote this describes was removed from the chain."
+      ],
+      "checksum": "f866fea5799812814ac295c02958d3fbfdfade7d09f09ccf7744dea41132792a"
     },
     "01273-xinference-asymmetric-debit-in-refundinvalidatedinference-de.md": {
       "title": "#1273 — x/inference: asymmetric debit in refundInvalidatedInference — design clarification",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    x/inference: asymmetric debit in refundInvalidatedInference — design clarification\n    <span class=\"issues-number\">#1273</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-05-28 19:14 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"marg",
-      "comment_checksum": "d359bf1836e4e332538e76de609e1fe8247fbd21b9fa25b175542e3ad7479791",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    x/inference: asymmetric debit in refundInvalidatedInference — design clarification\n    <span class=\"issues-number\">#1273</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-05-28 19:14 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div ",
+      "comment_checksum": "a7bb76c6923208c87a6d91d9d905ca587c5fa20ddcadf27716295d1d47ec72c7",
       "comment_bodies": [
-        "Update — the asymmetry is pervasive, not a grace-period edge case. While building the simulation/fuzz harness for #982 (Phase 3 — improving simulation quality with custom invariants + multi-seed runs), this asymmetry surfaces on the large majority of seeds, not just the constructed reproducer above. Multi-seed evidence. A bank-backs-positive-balance invariant — module account balance ≥ Σ positive "
+        "Update — the asymmetry is pervasive, not a grace-period edge case. While building the simulation/fuzz harness for #982 (Phase 3 — improving simulation quality with custom invariants + multi-seed runs), this asymmetry surfaces on the large majority of seeds, not just the constructed reproducer above. Multi-seed evidence. A bank-backs-positive-balance invariant — module account balance ≥ Σ positive ",
+        "Closing: the function this describes was removed from the chain."
       ],
-      "checksum": "097b20c2764f98e0982367390024f8cb74d8d87dc2c03e7fd2c2413065393c2a"
+      "checksum": "76b9da0d490f61f449b34f6aeb55fefa49c1bf2f1a29f900acf815621e30472c"
     },
     "01274-run-gonka-documentation-translation-on-gonka.md": {
       "title": "#1274 — Run Gonka documentation translation on Gonka",
@@ -3659,6 +3663,16 @@
         "Thanks for the offer, but I'm going to take this one myself — the fix is ready on my side. Both halves of your plan are already written out above: the wiring change (have the invoker take the keeper by value, or export *keeper.Keeper from ModuleOutputs the way x/staking does) and the app-construction test that asserts BlsKeeper.Hooks() is not the empty implementation. What the plan leaves out matt"
       ],
       "checksum": "c85941e91e8c8746f3f7cf36d87831430d3d02a60bc59da1560663359c0b4696"
+    },
+    "01762-devshard-host-bridge-drops-escrow-refusal-timeoutexecution-t.md": {
+      "title": "#1762 — devshard: host bridge drops escrow refusal_timeout/execution_timeout, so host and gateway can bind different SessionConfig",
+      "status": null,
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard: host bridge drops escrow refusal_timeout/execution_timeout, so host and gateway can bind different SessionConfig\n    <span class=\"issues-number\">#1762</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kAIPraxisBot\">@kAIPraxisBot</a> opened 2026-09-13 03:44 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div",
+      "comment_checksum": "a840e9c51270e250233813397b80f230f8bcd61006ae152418ca48c37190f5c1",
+      "comment_bodies": [
+        "@tcharchian yo, mind sanity-checking this one? tl;dr: the gateway's bridge maps refusal_timeout/execution_timeout off the escrow row, devshardd's ChainBridge doesn't, so the host silently falls back to the compiled 60/1920 while the gateway runs the real governance values. No-op on mainnet today purely because governance happens to sit exactly on the defaults — but bump execution_timeout to 1200 o"
+      ],
+      "checksum": "e1793be28897345a6fdd266eea70793f663bda47e6ff16f996c19296cf8b635f"
     }
   }
 }

@@ -2,21 +2,21 @@
 title: "#1265 — Stuck VOTING inferences orphan client escrow when x/group proposals miss quorum"
 source: https://github.com/gonka-ai/gonka/issues/1265
 issue_number: 1265
-synced_at: 2026-09-13T00:04:49Z
+synced_at: 2026-09-13T04:57:19Z
 template: issues-main.html
 ---
 
 <div class="issues-detail-header">
   <h1 class="issues-detail-title">
-    <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
     Stuck VOTING inferences orphan client escrow when x/group proposals miss quorum
     <span class="issues-number">#1265</span>
   </h1>
   <div class="issues-detail-meta">
-    <span class="issues-meta-item">Open</span>
+    <span class="issues-meta-item">Closed</span>
     <span class="issues-meta-item"><a href="https://github.com/vitaly-andr">@vitaly-andr</a> opened 2026-05-27 19:50 UTC</span>
-    <span class="issues-meta-item">5 comments</span>
-    <span class="issues-meta-item">Updated 2026-05-30 17:17 UTC</span>
+    <span class="issues-meta-item">6 comments</span>
+    <span class="issues-meta-item">Updated 2026-09-13 02:00 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -102,7 +102,7 @@ Not recommended: default-to-validate (passive non-voting becomes implicit approv
 
 ---
 
-## 💬 Comments (5)
+## 💬 Comments (6)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -165,6 +165,15 @@ Anyway legacy inference flow will not be supported in the future.</p>
 <li>Along the way the sim surfaced two concrete bugs in the <strong>current</strong> flow — stranded client escrow on a quorum-missed timeout (#1265 → #1275) and a revalidation-vote failure when the voter isn't in the epoch group (#1269 → #1276). Both are small fixes on code live in <code>main</code> today. <strong>Even if focus shifts to devshard, is there a reason not to land them now?</strong></li>
 </ol>
 <p>If this whole area is being superseded and the fixes aren't worth merging, that's completely fine — I'd just like to know, so I can close things out cleanly rather than leave them open. Whatever fits your roadmap.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/vitaly-andr">@vitaly-andr</a></span>
+    <span class="issues-meta-item">commented 2026-09-13 02:00 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Closing: the path this describes was removed from the chain.</p>
   </div>
 </div>
 

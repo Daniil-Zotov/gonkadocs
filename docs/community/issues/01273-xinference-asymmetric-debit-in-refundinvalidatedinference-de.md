@@ -2,21 +2,21 @@
 title: "#1273 — x/inference: asymmetric debit in refundInvalidatedInference — design clarification"
 source: https://github.com/gonka-ai/gonka/issues/1273
 issue_number: 1273
-synced_at: 2026-09-13T00:04:49Z
+synced_at: 2026-09-13T04:57:18Z
 template: issues-main.html
 ---
 
 <div class="issues-detail-header">
   <h1 class="issues-detail-title">
-    <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
     x/inference: asymmetric debit in refundInvalidatedInference — design clarification
     <span class="issues-number">#1273</span>
   </h1>
   <div class="issues-detail-meta">
-    <span class="issues-meta-item">Open</span>
+    <span class="issues-meta-item">Closed</span>
     <span class="issues-meta-item"><a href="https://github.com/vitaly-andr">@vitaly-andr</a> opened 2026-05-28 19:14 UTC</span>
-    <span class="issues-meta-item">1 comment</span>
-    <span class="issues-meta-item">Updated 2026-05-29 05:26 UTC</span>
+    <span class="issues-meta-item">2 comments</span>
+    <span class="issues-meta-item">Updated 2026-09-13 02:04 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -98,7 +98,7 @@ Maintainer clarification before any code change:
 
 ---
 
-## 💬 Comments (1)
+## 💬 Comments (2)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -120,6 +120,15 @@ Maintainer clarification before any code change:
 <p><code>spendable == total</code> on the module account rules out a locked/vesting artifact — this is genuine under-backing.</p>
 <p><strong>Takeaway:</strong> the asymmetric debit doesn't merely create a recoverable executor debt in rare grace-period conditions — it breaks the module-solvency invariant on ~91% of completing simulation seeds whenever invalidations occur. This strengthens the case that the refund path should reverse the validators' shares (or otherwise reconcile against the escrow actually held), rather than charging the executor alone.</p>
 <p>(Surfaced by the #982 simulation work; the invariant and multi-seed harness are part of that effort.)</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/vitaly-andr">@vitaly-andr</a></span>
+    <span class="issues-meta-item">commented 2026-09-13 02:04 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Closing: the function this describes was removed from the chain.</p>
   </div>
 </div>
 
