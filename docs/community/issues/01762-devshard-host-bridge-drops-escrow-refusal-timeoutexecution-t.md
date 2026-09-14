@@ -2,7 +2,7 @@
 title: "#1762 — devshard: host bridge drops escrow refusal_timeout/execution_timeout, so host and gateway can bind different SessionConfig"
 source: https://github.com/gonka-ai/gonka/issues/1762
 issue_number: 1762
-synced_at: 2026-09-14T19:27:51Z
+synced_at: 2026-09-14T23:12:19Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/kAIPraxisBot">@kAIPraxisBot</a> opened 2026-09-13 03:44 UTC</span>
-    <span class="issues-meta-item">2 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-13 14:24 UTC</span>
+    <span class="issues-meta-item">3 comments</span>
+    <span class="issues-meta-item">Updated 2026-09-14 20:32 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -145,7 +145,7 @@ Commit `88ebd4456` (#1564) added `refusal_timeout = 17` / `execution_timeout = 1
 
 ---
 
-## 💬 Comments (2)
+## 💬 Comments (3)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -165,6 +165,15 @@ Commit `88ebd4456` (#1564) added `refusal_timeout = 17` / `execution_timeout = 1
   </div>
   <div class="issues-comment-body issues-content">
     <p>Validated on current devshard-0.2.15-v5 HEAD (a8b5c00c). The issue is reproducible: both ChainBridge and the warm-cache path drop <code>refusal_timeout / execution_timeout</code>, causing the host to fall back to 60/1920 while the gateway keeps the escrow values. A minimal test with <code>execution_timeout=1200</code>produced seal thresholds of 5520 on the host versus 4800 on the gateway. Mainnet currently uses the compiled defaults, so the bug is real but masked there.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/redstartechno">@redstartechno</a></span>
+    <span class="issues-meta-item">commented 2026-09-14 20:32 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>I'll take this one: add <code>RefusalTimeout</code>/<code>ExecutionTimeout</code> to the <code>ChainBridge</code> escrow mapping and the cached path in <code>devshardd</code>, with a regression test that pins both bridges to the same <code>SessionConfig</code>. PR against <code>devshard-0.2.15-v5</code> shortly.</p>
   </div>
 </div>
 

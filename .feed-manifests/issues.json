@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-09-14T19:31:46.272912+00:00",
+  "snapshot_time": "2026-09-14T23:17:18.117175+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "Description",
@@ -3667,13 +3667,14 @@
     "01762-devshard-host-bridge-drops-escrow-refusal-timeoutexecution-t.md": {
       "title": "#1762 — devshard: host bridge drops escrow refusal_timeout/execution_timeout, so host and gateway can bind different SessionConfig",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard: host bridge drops escrow refusal_timeout/execution_timeout, so host and gateway can bind different SessionConfig\n    <span class=\"issues-number\">#1762</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kAIPraxisBot\">@kAIPraxisBot</a> opened 2026-09-13 03:44 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </di",
-      "comment_checksum": "b86fe90197b364b88b2a651c6ec0af9b337983a46aab7e7e498f10767e4ef76f",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard: host bridge drops escrow refusal_timeout/execution_timeout, so host and gateway can bind different SessionConfig\n    <span class=\"issues-number\">#1762</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kAIPraxisBot\">@kAIPraxisBot</a> opened 2026-09-13 03:44 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </di",
+      "comment_checksum": "4ade65d0cacf792fda9734740a0afa298cf11470ca4637813ce5cd0f789a737c",
       "comment_bodies": [
         "@tcharchian yo, mind sanity-checking this one? tl;dr: the gateway's bridge maps refusal_timeout/execution_timeout off the escrow row, devshardd's ChainBridge doesn't, so the host silently falls back to the compiled 60/1920 while the gateway runs the real governance values. No-op on mainnet today purely because governance happens to sit exactly on the defaults — but bump execution_timeout to 1200 o",
-        "Validated on current devshard-0.2.15-v5 HEAD (a8b5c00c). The issue is reproducible: both ChainBridge and the warm-cache path drop refusal_timeout / execution_timeout, causing the host to fall back to 60/1920 while the gateway keeps the escrow values. A minimal test with execution_timeout=1200produced seal thresholds of 5520 on the host versus 4800 on the gateway. Mainnet currently uses the compile"
+        "Validated on current devshard-0.2.15-v5 HEAD (a8b5c00c). The issue is reproducible: both ChainBridge and the warm-cache path drop refusal_timeout / execution_timeout, causing the host to fall back to 60/1920 while the gateway keeps the escrow values. A minimal test with execution_timeout=1200produced seal thresholds of 5520 on the host versus 4800 on the gateway. Mainnet currently uses the compile",
+        "I'll take this one: add RefusalTimeout/ExecutionTimeout to the ChainBridge escrow mapping and the cached path in devshardd, with a regression test that pins both bridges to the same SessionConfig. PR against devshard-0.2.15-v5 shortly."
       ],
-      "checksum": "ef25aa27a4cd38ba7eded32f3c25b80a73cedb2f430afe9264aa05f9c1c3b870"
+      "checksum": "882722b237489979bc97e85d7bba79fbdf90cd6decf1d71055e6f21a98aff61f"
     }
   }
 }
