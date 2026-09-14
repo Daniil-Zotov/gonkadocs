@@ -2,7 +2,7 @@
 title: "#602 — Fix genesis transfer"
 source: https://github.com/gonka-ai/gonka/issues/602
 issue_number: 602
-synced_at: 2026-09-14T06:29:52Z
+synced_at: 2026-09-14T14:16:13Z
 template: issues-main.html
 ---
 
