@@ -2,7 +2,7 @@
 title: "#1691 — GLM 5.3 Flash: vLLM 0.28 image + PoC fix"
 source: https://github.com/gonka-ai/gonka/issues/1691
 issue_number: 1691
-synced_at: 2026-09-14T14:13:14Z
+synced_at: 2026-09-14T19:27:53Z
 template: issues-main.html
 ---
 
