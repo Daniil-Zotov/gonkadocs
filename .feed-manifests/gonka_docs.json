@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-09-14T05:38:04.734979+00:00",
+  "snapshot_time": "2026-09-14T11:25:48.493471+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -305,8 +305,8 @@
     "network-updates.md": {
       "title": "Announcements",
       "status": null,
-      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## September 11, 2026\n\n**PROPOSAL PASSED: Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment**\n\nThe on-chain governance vote for proposal id 102 has concluded.\n\nThe proposal was APPROVED. Quant M",
-      "checksum": "4a34655c5b68fd6faf28bd1710a435de8602cc8009f115f76d69a51ab9779859"
+      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## September 14, 2026\n\n**The devshard v5 proposal has entered governance**\n\nProposal id 104 does two things: it adds `v5` to the approved list of devshard versions, and it distributes 91,300 USDT in contributor bounties from the community-sale contract.\n\n**",
+      "checksum": "9f190c4981003fd89c7ea9ae0025fff382ffcd08653ae6c4a981f731fc5c542d"
     },
     "participant/README.md": {
       "title": "Redirecting to Host Section",
