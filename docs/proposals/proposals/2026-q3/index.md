@@ -34,15 +34,15 @@ hide:
 ## 2026-Q3 Summary
 
 <div class="qs-stats">
-<div class="qs-stat total"><span class="qs-num">24</span><span class="qs-desc">Total Proposals</span></div>
-<div class="qs-stat passed"><span class="qs-num">18</span><span class="qs-desc">Passed (75%)</span></div>
-<div class="qs-stat rejected"><span class="qs-num">6</span><span class="qs-desc">Rejected (25%)</span></div>
+<div class="qs-stat total"><span class="qs-num">25</span><span class="qs-desc">Total Proposals</span></div>
+<div class="qs-stat passed"><span class="qs-num">18</span><span class="qs-desc">Passed (72%)</span></div>
+<div class="qs-stat rejected"><span class="qs-num">6</span><span class="qs-desc">Rejected (24%)</span></div>
 
 </div>
 
 <div class="qs-categories">
-<div class="qs-row"><span class="qs-label">Governance Parameters</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:50%"></span></span><span class="qs-value">12</span></div>
-<div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:33%"></span></span><span class="qs-value">8</span></div>
+<div class="qs-row"><span class="qs-label">Governance Parameters</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:52%"></span></span><span class="qs-value">13</span></div>
+<div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:32%"></span></span><span class="qs-value">8</span></div>
 <div class="qs-row"><span class="qs-label">Software Upgrade</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:8%"></span></span><span class="qs-value">2</span></div>
 <div class="qs-row"><span class="qs-label">Other</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:4%"></span></span><span class="qs-value">1</span></div>
 <div class="qs-row"><span class="qs-label">GRC / Restitution</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:4%"></span></span><span class="qs-value">1</span></div>
@@ -56,7 +56,21 @@ hide:
 
 <div class="prop-quarter">
 <h2>2026-Q3</h2>
-<p>24 proposals</p>
+<p>25 proposals</p>
+<div class="prop-card" data-status="prop-voting" data-voting-end="2026-09-16T01:23:29.834708407Z">
+  <div class="prop-card-header">
+    <a href="104/" class="prop-card-title">#104 – Approve devshard v5 and bounty payouts</a>
+    <span class="prop-vote-countdown" data-deadline="2026-09-16T01:23:29.834708407Z"></span>
+    <span class="prop-badge prop-voting">Voting</span>
+  </div>
+  <div class="prop-card-meta">
+    <span>Submitted 2026-09-14</span>
+    <span>Voting ends 2026-09-16</span>
+  </div>
+  <div class="prop-card-desc">Add v5 to the approved list of devshard versions and distribute 91300 USDT in contributor bounties from the community-sale contract.</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding prop-card-funding-voting">$91,300 · Community Pool</span></div>
+</div>
+
 <div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
     <a href="103/" class="prop-card-title">#103 – Reimbursement of Expenses for Daniil and David Liberman's Participation in All-In Summit 2026</a>

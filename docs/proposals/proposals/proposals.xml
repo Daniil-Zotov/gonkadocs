@@ -7,6 +7,14 @@
     <language>en</language>
     <atom:link href="https://gonkadocs.com/proposals/proposals/proposals.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>#104 – Approve devshard v5 and bounty payouts</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q3/104/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q3/104/</guid>
+      <pubDate>Mon, 14 Sep 2026 01:23:29 +0000</pubDate>
+      <category>Voting</category>
+      <description>Add v5 to the approved list of devshard versions and distribute 91300 USDT in contributor bounties from the community-sale contract.</description>
+    </item>
+    <item>
       <title>#103 – Reimbursement of Expenses for Daniil and David Liberman's Participation in All-In Summit 2026</title>
       <link>https://gonkadocs.com/proposals/proposals/2026-q3/103/</link>
       <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q3/103/</guid>
