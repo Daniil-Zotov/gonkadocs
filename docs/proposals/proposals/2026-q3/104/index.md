@@ -65,6 +65,7 @@ Add v5 to the approved list of devshard versions and distribute 91300 USDT in co
 <tr><td><a href="https://gonka.gg/address/gonka1fundsnx5jdeye40xtcdh8v3zny9ytnz6ls252e" target="_blank" class="prop-voter-addr">gonka1fundsn…ls252e</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1t0psqlz8fzhlqnaresvk5vxfmgv0te23mnwdad" target="_blank" class="prop-voter-addr">gonka1t0psql…mnwdad</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1cnmfjkq8s2pgftwvv3zzk7e9cm4lg9j3g9zcqy" target="_blank" class="prop-voter-addr">gonka1cnmfjk…g9zcqy</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
+<tr><td><a href="https://gonka.gg/address/gonka168rtjfkszuhcggg4dfyse4yh7xn9zwfglnkns2" target="_blank" class="prop-voter-addr">gonka168rtjf…lnkns2</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 </tbody>
 </table>
 </div>
