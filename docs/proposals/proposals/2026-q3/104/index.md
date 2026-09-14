@@ -36,18 +36,18 @@ Add v5 to the approved list of devshard versions and distribute 91300 USDT in co
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:1.8%"></div>
+    <div class="prop-tally-yes" style="width:2.3%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (8,411)</span>
+    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (10,783)</span>
     <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-total-text">Total 8,411 votes</span>
-    <span class="prop-tally-veto-text">✗ Turnout <strong>1.8%</strong> (8,411 / 462,435) · Quorum <strong>25%</strong> (115,608)</span>
+    <span class="prop-tally-total-text">Total 10,783 votes</span>
+    <span class="prop-tally-veto-text">✗ Turnout <strong>2.3%</strong> (10,783 / 462,435) · Quorum <strong>25%</strong> (115,608)</span>
   </div>
 </div>
 
@@ -59,6 +59,7 @@ Add v5 to the approved list of devshard versions and distribute 91300 USDT in co
 <table class="prop-voters">
 <thead><tr><th>Voter</th><th>Vote</th></tr></thead>
 <tbody>
+<tr><td><a href="https://gonka.gg/address/gonka1qwfrtz9c7kcrfkrrlne2pkcye74mj6ce33xdkl" target="_blank" class="prop-voter-addr">gonka1qwfrtz…33xdkl</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1p2lhgng7tcqju7emk989s5fpdr7k2c3ek6h26m" target="_blank" class="prop-voter-addr">gonka1p2lhgn…k6h26m</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1rqm2u7lxzn7r68y0drcyhag6xnckpsnfmgd53t" target="_blank" class="prop-voter-addr">gonka1rqm2u7…mgd53t</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1fundsnx5jdeye40xtcdh8v3zny9ytnz6ls252e" target="_blank" class="prop-voter-addr">gonka1fundsn…ls252e</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
