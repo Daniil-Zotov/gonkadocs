@@ -29095,8 +29095,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-09-16
   
   Add v5 to the approved list of devshard versions and distribute 91300 USDT in contributor bounties from the community-sale contract.
-  Yes 100.0% (8,411) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)$91,300 · Community Pool
-  ✗ Turnout 1.8% (8,411 / 462,435) · Quorum 25% (115,608)
+  Yes 100.0% (10,783) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)$91,300 · Community Pool
+  ✗ Turnout 2.3% (10,783 / 462,435) · Quorum 25% (115,608)
 
   
     #103 – Reimbursement of Expenses for Daniil and David Liberman's Participation in All-In Summit 2026
@@ -30270,7 +30270,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-103 proposals across 5 quarters. Last updated: 2026-09-14 18:20 UTC
+103 proposals across 5 quarters. Last updated: 2026-09-14 19:01 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -67542,8 +67542,8 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-09-16
   
   Add v5 to the approved list of devshard versions and distribute 91300 USDT in contributor bounties from the community-sale contract.
-  Yes 100.0% (8,411) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)$91,300 · Community Pool
-  ✗ Turnout 1.8% (8,411 / 462,435) · Quorum 25% (115,608)
+  Yes 100.0% (10,783) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)$91,300 · Community Pool
+  ✗ Turnout 2.3% (10,783 / 462,435) · Quorum 25% (115,608)
 
   
     #103 – Reimbursement of Expenses for Daniil and David Liberman's Participation in All-In Summit 2026
@@ -69171,18 +69171,19 @@ Add v5 to the approved list of devshard versions and distribute 91300 USDT in co
     
   
   
-    Yes 100.0% (8,411)
+    Yes 100.0% (10,783)
     No 0.0% (0)
     Veto 0.0% (0)
     Abstain 0.0% (0)
-    Total 8,411 votes
-    ✗ Turnout 1.8% (8,411 / 462,435) · Quorum 25% (115,608)
+    Total 10,783 votes
+    ✗ Turnout 2.3% (10,783 / 462,435) · Quorum 25% (115,608)
   
 
 Voters
 
 VoterVote
 
+gonka1qwfrtz…33xdklYes 100.0%
 gonka1p2lhgn…k6h26mYes 100.0%
 gonka1rqm2u7…mgd53tYes 100.0%
 gonka1fundsn…ls252eYes 100.0%
