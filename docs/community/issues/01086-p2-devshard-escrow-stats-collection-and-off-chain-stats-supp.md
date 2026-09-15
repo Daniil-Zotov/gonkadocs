@@ -2,7 +2,7 @@
 title: "#1086 — [P2] Devshard escrow stats collection and off chain stats support"
 source: https://github.com/gonka-ai/gonka/issues/1086
 issue_number: 1086
-synced_at: 2026-09-15T13:40:17Z
+synced_at: 2026-09-15T18:17:12Z
 template: issues-main.html
 ---
 
