@@ -14,7 +14,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 <div class="quarter-summary" markdown="1">
 <div class="qs-stats">
 <div class="qs-stat passed"><span class="qs-num">2</span><span class="qs-desc">Active</span></div>
-<div class="qs-stat"><span class="qs-num">9</span><span class="qs-desc">Votes</span></div>
+<div class="qs-stat"><span class="qs-num">10</span><span class="qs-desc">Votes</span></div>
 <div class="qs-stat"><span class="qs-num">0</span><span class="qs-desc">Total Bid</span></div>
 </div>
 </div>
@@ -22,7 +22,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 | Status | Title | Author | Votes | Avg. Bid | Closes |
 | :----- | :----- | :----- | ----: | -------: | :----- |
 | 🟢 | [GONKA × Guinness World Records: попытка установить мировой рекорд](./4a170e2e-e1c6-487a-8089-ac533e18194b/) | Nataliia Klymovska | 5 | 0.00 GNK | 2026-09-17 |
-| 🟢 | [Marketing Committee — Operations & Reddit Contributor Pilot](./18b4fee6-896a-4ef2-83e2-9416ecfd736c/) | Pavel Petko | 4 | 0.00 GNK | 2026-09-18 |
+| 🟢 | [Marketing Committee — Operations & Reddit Contributor Pilot](./18b4fee6-896a-4ef2-83e2-9416ecfd736c/) | Pavel Petko | 5 | 0.00 GNK | 2026-09-18 |
 
 
 ---
@@ -85,4 +85,4 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-09-15 13:28 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-09-15 18:08 UTC*
