@@ -47,7 +47,7 @@ Add v5 to the approved list of devshard versions and distribute 91300 USDT in co
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-total-text">Total 54,336 votes</span>
-    <span class="prop-tally-veto-text">✗ Turnout <strong>9.9%</strong> (54,336 / 549,920) · Quorum <strong>25%</strong> (137,480)</span>
+    <span class="prop-tally-veto-text">✗ Turnout <strong>9.9%</strong> (54,336 / 546,989) · Quorum <strong>25%</strong> (136,747)</span>
   </div>
 </div>
 
