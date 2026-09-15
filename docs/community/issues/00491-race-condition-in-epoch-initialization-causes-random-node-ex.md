@@ -2,7 +2,7 @@
 title: "#491 — Race Condition in Epoch Initialization Causes Random Node Exclusion"
 source: https://github.com/gonka-ai/gonka/issues/491
 issue_number: 491
-synced_at: 2026-09-14T23:15:29Z
+synced_at: 2026-09-15T01:35:55Z
 template: issues-main.html
 ---
 
