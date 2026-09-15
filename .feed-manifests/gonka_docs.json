@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-09-15T00:08:42.427515+00:00",
+  "snapshot_time": "2026-09-15T05:39:49.651818+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -12,7 +12,7 @@
       "title": "FAQ",
       "status": null,
       "content_preview": "# FAQ\n\n## Overview\n\n### What is Gonka?\nGonka is a decentralized network for high‑efficiency AI compute — run by those who run it. It functions as a cost-effective and efficient alternative to centralized cloud services for AI model training and inference. As a protocol, it's not a company or a start-up.\n\n- In terms of Blockchain, Gonka is the foundational ledger and coordination layer (L1) of the decentralized AI network. It records balances, transactions and cryptographic artifacts that prove Hosts have correctly performed AI work, while all actual computations (such as inference and training) happen off-chain.\n- In terms of Network, Gonka is a comprehensive ecosystem of participants, including Hosts and Developers that interact through a decentralized infrastructure. Powered by the Gonka",
-      "checksum": "a3f97d1b06ff3bec5b8331ffd0038037bae13b4b88120b7cde5c66912dbf6711"
+      "checksum": "120d689b6668faadc279f528f4822669df02f0cdc6db141b78a63828a3182353"
     },
     "architecture.md": {
       "title": "Architecture",
@@ -383,8 +383,8 @@
     "wallet/create-account.md": {
       "title": "Create a new Gonka account",
       "status": null,
-      "content_preview": "# Create a new Gonka account\n\nTo start using Gonka Network, you first need to create a Gonka Account.\nThere are several ways to do this:\n\n- Via external wallet (Keplr, Cosmostation, Fox Wallet)\n- Via `inferenced` CLI tool\n\n!!! note \"Bridge compatibility and seed (mnemonic) phrases\"\n    If you create your Gonka account using a **mnemonic (seed) phrase** — as Cosmostation and Fox Wallet do by default — the account **is compatible** with the Ethereum bridge, but the bridge will deliver tokens to a different `gonka1…` address than the one your wallet displays. This happens because Ethereum and Gonka use different BIP-44 derivation paths (coin type `60` vs `118`), so the same seed phrase produces different private keys on each chain. You still control those funds and can access them with an ext",
-      "checksum": "95dae6253c89686e512c6f3d1c66fd1cc1d48713eab3e6a1dd0cff17d8b71e38"
+      "content_preview": "# Create a new Gonka account\n\nTo start using Gonka Network, you first need to create a Gonka Account.\nThere are several ways to do this:\n\n- Via external wallet (Tangem, Keplr, Cosmostation, Fox Wallet)\n- Via `inferenced` CLI tool\n\n!!! note \"Bridge compatibility and seed (mnemonic) phrases\"\n    If you create your Gonka account using a **mnemonic (seed) phrase** — as Cosmostation and Fox Wallet do by default — the account **is compatible** with the Ethereum bridge, but the bridge will deliver tokens to a different `gonka1…` address than the one your wallet displays. This happens because Ethereum and Gonka use different BIP-44 derivation paths (coin type `60` vs `118`), so the same seed phrase produces different private keys on each chain. You still control those funds and can access them wit",
+      "checksum": "812ed38dae8da1abbe7fa73dacb4d8ee0dd20c2532670ca98bbbf366254b6004"
     },
     "wallet/dashboard.md": {
       "title": "Getting Started with the Dashboard",
@@ -402,7 +402,7 @@
       "title": "Wallet & Transfer Guide",
       "status": null,
       "content_preview": "# Wallet & Transfer Guide\n\nThis guide explains how to work with wallets and coins on the network: how to get your wallet address, check your balance, send coins, and track transactions.\nBefore you can perform any wallet operations, you need to access your account. Follow the instructions below based on your role in the network.\n\n**Are you a Host?**\n\nYou contribute computational resources and receive coins as rewards.\nBefore proceeding, you need access to your wallet, which is automatically created when the chain-node container runs for the first time.\n\n**Are you a Developer?**\n\nIf you only need inference (sending prompts and receiving completions), you do not need a Gonka account — go to [Developer Quickstart](https://gonka.ai/developer/quickstart/) to get started with a community broker.\n",
-      "checksum": "0be3f31bfe8a5344c57d75ea6f73f2f752e19b4732b51836299da440160c7585"
+      "checksum": "2b8b1df44932c91e7ba403b7881f57ae7db178c7935fa4757f460df75e1add9c"
     }
   }
 }

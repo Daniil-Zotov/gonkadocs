@@ -101,8 +101,9 @@ We've created a dedicated document focused on [Tokenomics](https://gonka.ai/toke
 You can find the minimum and recommended [hardware specifications](https://gonka.ai/host/hardware-specifications/) clearly outlined in the documentation. You should review this section to ensure your hardware meets the requirements for effective contribution.
 
 ### What wallets can I use to store GNK coins?
-You can store GNK coin in several supported wallets within the Cosmos ecosystem:
+You can store GNK coin in several supported wallets:
 
+- [Tangem](https://tangem.com/) — hardware wallet (card or ring) with a mobile app
 - [Keplr](https://www.keplr.app/)
 - [Cosmostation](https://cosmostation.io/products/application)
 - `inferenced` CLI - a command-line utility for local account management and network operations in Gonka.
@@ -16873,7 +16874,7 @@ rm -rf $HF_HOME
 To start using Gonka Network, you first need to create a Gonka Account.
 There are several ways to do this:
 
-- Via external wallet (Keplr, Cosmostation, Fox Wallet)
+- Via external wallet (Tangem, Keplr, Cosmostation, Fox Wallet)
 - Via `inferenced` CLI tool
 
 > **Bridge compatibility and seed (mnemonic) phrases**
@@ -16883,6 +16884,8 @@ There are several ways to do this:
 
     - With the `inferenced` CLI tool
     - In Keplr using the “Connect with Google” flow
+
+[Tangem](https://tangem.com/){target=_blank} is a hardware wallet (NFC card or ring plus mobile app). Add Gonka in the Tangem app to hold, send, and receive GNK.
 
 Step-by-step instructions are provided below for **Keplr** and **Cosmostation**. The same process — install the wallet or extension, log in, enable the Gonka chain, and copy your address — also works in [Fox Wallet](https://foxwallet.com/){target=_blank}.
 
@@ -17738,7 +17741,9 @@ inferenced query bank balances gonka1ddswmmmn38esxegjf6qw36mt4aqyw6etvysy5x --no
 
 ## Send Coins
 
-In Cosmos, a fund transfer means sending coins from one account (wallet address) to another within a Cosmos-based blockchain. These transfers are used to pay for services or simply send value between users. 
+In Cosmos, a fund transfer means sending coins from one account (wallet address) to another within a Cosmos-based blockchain. These transfers are used to pay for services or simply send value between users.
+
+You can also send and receive GNK in [Tangem](https://tangem.com/){target=_blank} (hardware wallet plus mobile app). 
 
 === "CLI"
 
@@ -29167,8 +29172,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-09-16
   
   Add v5 to the approved list of devshard versions and distribute 91300 USDT in contributor bounties from the community-sale contract.
-  Yes 100.0% (10,783) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)$91,300 · Community Pool
-  ✗ Turnout 2.3% (10,783 / 462,435) · Quorum 25% (115,608)
+  Yes 100.0% (54,336) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)$91,300 · Community Pool
+  ✗ Turnout 9.9% (54,336 / 549,920) · Quorum 25% (137,480)
 
   
     #103 – Reimbursement of Expenses for Daniil and David Liberman's Participation in All-In Summit 2026
@@ -30342,7 +30347,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-103 proposals across 5 quarters. Last updated: 2026-09-15 00:46 UTC
+103 proposals across 5 quarters. Last updated: 2026-09-15 05:27 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -67614,8 +67619,8 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-09-16
   
   Add v5 to the approved list of devshard versions and distribute 91300 USDT in contributor bounties from the community-sale contract.
-  Yes 100.0% (10,783) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)$91,300 · Community Pool
-  ✗ Turnout 2.3% (10,783 / 462,435) · Quorum 25% (115,608)
+  Yes 100.0% (54,336) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)$91,300 · Community Pool
+  ✗ Turnout 9.9% (54,336 / 549,920) · Quorum 25% (137,480)
 
   
     #103 – Reimbursement of Expenses for Daniil and David Liberman's Participation in All-In Summit 2026
@@ -69243,12 +69248,12 @@ Add v5 to the approved list of devshard versions and distribute 91300 USDT in co
     
   
   
-    Yes 100.0% (10,783)
+    Yes 100.0% (54,336)
     No 0.0% (0)
     Veto 0.0% (0)
     Abstain 0.0% (0)
-    Total 10,783 votes
-    ✗ Turnout 2.3% (10,783 / 462,435) · Quorum 25% (115,608)
+    Total 54,336 votes
+    ✗ Turnout 9.9% (54,336 / 549,920) · Quorum 25% (137,480)
   
 
 Voters
