@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-09-15T01:37:22.768947+00:00",
+  "snapshot_time": "2026-09-15T07:57:30.612205+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "Description",
@@ -3675,6 +3675,38 @@
         "I'll take this one: add RefusalTimeout/ExecutionTimeout to the ChainBridge escrow mapping and the cached path in devshardd, with a regression test that pins both bridges to the same SessionConfig. PR against devshard-0.2.15-v5 shortly."
       ],
       "checksum": "882722b237489979bc97e85d7bba79fbdf90cd6decf1d71055e6f21a98aff61f"
+    },
+    "01769-fix-warm-key-verification-across-height-sync-acknowledgement.md": {
+      "title": "#1769 — Fix warm-key verification across height-sync acknowledgement and repair paths",
+      "status": null,
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Fix warm-key verification across height-sync acknowledgement and repair paths\n    <span class=\"issues-number\">#1769</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/anatoly-kuz-mntn\">@anatoly-kuz-mntn</a> opened 2026-09-15 01:58 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style",
+      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comment_bodies": [],
+      "checksum": "a9a5ef63e7e77089b08b6ea6d8fe1754b30820b6c9645433fd19d3a7e8c3601c"
+    },
+    "01770-make-height-sync-heartbeat-and-cadence-safe-against-dos-part.md": {
+      "title": "#1770 — Make height-sync heartbeat and cadence safe against DoS, partial persistence, and nonce exhaustion",
+      "status": null,
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Make height-sync heartbeat and cadence safe against DoS, partial persistence, and nonce exhaustion\n    <span class=\"issues-number\">#1770</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/anatoly-kuz-mntn\">@anatoly-kuz-mntn</a> opened 2026-09-15 01:58 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=",
+      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comment_bodies": [],
+      "checksum": "e3bfcef68458c680d238ac680df4df35fd78a0ce32c5f4e16e0724589aa32e58"
+    },
+    "01771-restore-deterministic-height-sync-floor-and-heartbeat-causal.md": {
+      "title": "#1771 — Restore deterministic height-sync floor and heartbeat causality state from snapshots",
+      "status": null,
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Restore deterministic height-sync floor and heartbeat causality state from snapshots\n    <span class=\"issues-number\">#1771</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/anatoly-kuz-mntn\">@anatoly-kuz-mntn</a> opened 2026-09-15 02:00 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels",
+      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comment_bodies": [],
+      "checksum": "9e819442451e7521732163e1d908385f9ab95480963c3319a3d5a74f45708f77"
+    },
+    "01772-all-back-to-the-direct-chain-oracle-when-the-comet-tip-cache.md": {
+      "title": "#1772 — all back to the direct chain oracle when the Comet tip cache becomes stale",
+      "status": null,
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    all back to the direct chain oracle when the Comet tip cache becomes stale\n    <span class=\"issues-number\">#1772</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/anatoly-kuz-mntn\">@anatoly-kuz-mntn</a> opened 2026-09-15 02:01 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"m",
+      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comment_bodies": [],
+      "checksum": "cf57590fac2b6b2c423e53d8b9bb724fe00ed4591921accdf3137aeb971b2640"
     }
   }
 }
