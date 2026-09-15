@@ -2,7 +2,7 @@
 title: "#1770 — Make height-sync heartbeat and cadence safe against DoS, partial persistence, and nonce exhaustion"
 source: https://github.com/gonka-ai/gonka/issues/1770
 issue_number: 1770
-synced_at: 2026-09-15T07:51:46Z
+synced_at: 2026-09-15T13:39:56Z
 template: issues-main.html
 ---
 
