@@ -2,7 +2,7 @@
 title: "#1770 — Make height-sync heartbeat and cadence safe against DoS, partial persistence, and nonce exhaustion"
 source: https://github.com/gonka-ai/gonka/issues/1770
 issue_number: 1770
-synced_at: 2026-09-15T18:16:52Z
+synced_at: 2026-09-15T21:28:31Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/anatoly-kuz-mntn">@anatoly-kuz-mntn</a> opened 2026-09-15 01:58 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-15 01:59 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-09-15 21:13 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -76,6 +76,23 @@ Affected code:
 - Define an acceptable minimum lifetime for an idle escrow.
 - Add a fake-clock test measuring nonce and fee consumption.
 - Add a snapshot-based test starting near nonce `20,000` and verifying exhaustion behavior without waiting several hours.
+</div>
+
+---
+
+## 💬 Comments (1)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/a-kuprin">@a-kuprin</a></span>
+    <span class="issues-meta-item">commented 2026-09-15 21:13 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>I would drop Problem 1 as it is taking as input unrealistic <code>AnchorK</code>
+It is default as <code>10</code>, to hit the problem it should be <code>2^64</code></p>
+<p>Problem 2 is real and will be solved.</p>
+<p>Problem 3 is tuned with maximum nonces and heartbit period</p>
+  </div>
 </div>
 
 ---
