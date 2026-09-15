@@ -13,7 +13,7 @@
       "status": null,
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Fix warm-key verification across height-sync acknowledgement and repair paths\n    <span class=\"issues-number\">#1769</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/anatoly-kuz-mntn\">@anatoly-kuz-mntn</a> opened 2026-09-15 01:58 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style"
     },
-    "ai_description": null
+    "ai_description": "Added: #1769 — Fix warm-key verification across height-sync acknowledgement and repair paths. <div class=\"issues-detail-header\"> <h1 class=\"issues-detail-title\"> <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span> "
   },
   {
     "id": "evt_20260915075500_3a27ef54",
@@ -29,7 +29,7 @@
       "status": null,
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Make height-sync heartbeat and cadence safe against DoS, partial persistence, and nonce exhaustion\n    <span class=\"issues-number\">#1770</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/anatoly-kuz-mntn\">@anatoly-kuz-mntn</a> opened 2026-09-15 01:58 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class="
     },
-    "ai_description": null
+    "ai_description": "Added: #1770 — Make height-sync heartbeat and cadence safe against DoS, partial persistence, and nonce exhaustion. <div class=\"issues-detail-header\"> <h1 class=\"issues-detail-title\"> <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span> "
   },
   {
     "id": "evt_20260915075500_1b177b58",
@@ -45,7 +45,7 @@
       "status": null,
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Restore deterministic height-sync floor and heartbeat causality state from snapshots\n    <span class=\"issues-number\">#1771</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/anatoly-kuz-mntn\">@anatoly-kuz-mntn</a> opened 2026-09-15 02:00 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels"
     },
-    "ai_description": null
+    "ai_description": "Added: #1771 — Restore deterministic height-sync floor and heartbeat causality state from snapshots. <div class=\"issues-detail-header\"> <h1 class=\"issues-detail-title\"> <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span> "
   },
   {
     "id": "evt_20260915075500_e17dc241",
@@ -61,7 +61,7 @@
       "status": null,
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    all back to the direct chain oracle when the Comet tip cache becomes stale\n    <span class=\"issues-number\">#1772</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/anatoly-kuz-mntn\">@anatoly-kuz-mntn</a> opened 2026-09-15 02:01 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"m"
     },
-    "ai_description": null
+    "ai_description": "Added: #1772 — all back to the direct chain oracle when the Comet tip cache becomes stale. <div class=\"issues-detail-header\"> <h1 class=\"issues-detail-title\"> <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span> "
   },
   {
     "id": "evt_20260915053809_37f343e0",
