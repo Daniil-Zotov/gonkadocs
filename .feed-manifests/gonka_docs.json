@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-09-15T19:26:30.594421+00:00",
+  "snapshot_time": "2026-09-15T22:37:24.645674+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -282,7 +282,7 @@
       "title": "Setting up your chain",
       "status": null,
       "content_preview": "# Setting up your chain \n\n**Host** (**hardware provider** or **node**) contributes computational resources to the network and is rewarded based on the amount and quality of resources they provide.\n\nTo join the network, you need to deploy two services:\n\n- **Network Node** – a service consisting of two nodes: a **Chain Node** and an **API Node**. This service handles all communication. The **Chain Node** connects to the blockchain, while the **API Node** manages user requests.\n- **Inference (ML) node** – a service that performs inference of large language models (LLMs) on GPU(s). You need at least one **ML Node** to join the network.\n\nThe guide describes a scenario in which both services are deployed on the same machine, and each Host has one ML Node. Services are deployed as Docker containe",
-      "checksum": "fa0db42e6f0c94760cc303e0cae6f8553ab283d5e523892a82713e65a4eca1e6"
+      "checksum": "a63e85296d632a1269fa57d3afe846f170116a0acca1f3de429ba05e8c1a32f7"
     },
     "introduction.md": {
       "title": "introduction",
