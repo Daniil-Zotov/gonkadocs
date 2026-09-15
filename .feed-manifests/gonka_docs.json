@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-09-14T21:16:41.797220+00:00",
+  "snapshot_time": "2026-09-15T00:08:42.427515+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -12,7 +12,7 @@
       "title": "FAQ",
       "status": null,
       "content_preview": "# FAQ\n\n## Overview\n\n### What is Gonka?\nGonka is a decentralized network for high‑efficiency AI compute — run by those who run it. It functions as a cost-effective and efficient alternative to centralized cloud services for AI model training and inference. As a protocol, it's not a company or a start-up.\n\n- In terms of Blockchain, Gonka is the foundational ledger and coordination layer (L1) of the decentralized AI network. It records balances, transactions and cryptographic artifacts that prove Hosts have correctly performed AI work, while all actual computations (such as inference and training) happen off-chain.\n- In terms of Network, Gonka is a comprehensive ecosystem of participants, including Hosts and Developers that interact through a decentralized infrastructure. Powered by the Gonka",
-      "checksum": "6f951cba642ab6e40cb3fdf7e216182646ca47a3d4d91b3a5777adf7b987c490"
+      "checksum": "a3f97d1b06ff3bec5b8331ffd0038037bae13b4b88120b7cde5c66912dbf6711"
     },
     "architecture.md": {
       "title": "Architecture",
@@ -198,7 +198,7 @@
       "title": "DeepSeek V4 Flash Bootstrap",
       "status": null,
       "content_preview": "# DeepSeek V4 Flash Bootstrap\n\n`deepseek-ai/DeepSeek-V4-Flash-0731` has **passed bootstrap** and is **active** in Proof of Compute on Gonka mainnet as of chain epoch 360 ([proposal 94](../network-updates.md#august-10-2026)). The timeline and transaction examples below remain useful for understanding how activation worked and for operations such as delegation; for current deployment defaults (including `node-config.json`), see the [Host Quickstart](./quickstart.md).\n\nFor the wider context of multi-model PoC mechanics, see [Multi-Model PoC](./multi_model_poc.md). Previous model bootstraps and their mechanics are documented in [Kimi K2.6 Bootstrap](./kimi-bootstrap.md) and [MiniMax-M2.7 Bootstrap](./minimax-bootstrap.md).\n\n!!! note\n    The bootstrap can take multiple epochs, depending on how ",
-      "checksum": "a6cd5139793abbde8a04c701ea5a3cb3430c48df361d7835b78340aa65337fb1"
+      "checksum": "33e25f804b6e3717af03c88eabaf9d192c77be711e5d1aa3e956128875792a04"
     },
     "host/genesis.md": {
       "title": "Gonka Genesis Ceremony",
@@ -228,13 +228,13 @@
       "title": "Kimi K2.6 Bootstrap",
       "status": null,
       "content_preview": "# Kimi K2.6 Bootstrap\n\n`moonshotai/Kimi-K2.6` is in governance models and `poc_params` (since v0.2.12). It is currently not served: no host in `/v1/epochs/current/participants` lists it. The timeline below is the original bootstrap record (first eligible at epoch 251). For MiniMax/DeepSeek deploy defaults, see the [Host Quickstart](./quickstart.md).\n\nThis document explains how a model group becomes eligible and how participation modes work.\n\n!!! warning \"Governance listing is not eligibility\"\n    Timeline steps below that mention `Qwen235B` are historical (the original Kimi bootstrap). `Qwen/Qwen3-235B-A22B-Instruct-2507-FP8` was removed by [proposal 78](../network-updates.md#june-25-2026) at epoch 308. Do not deploy it.\n\n    A model in `poc_params` with no voting power is a bootstrap cand",
-      "checksum": "8ac6d9f2aa23fea287fd2e75a0456266bbd65d71e1266a4680fefb76463f492c"
+      "checksum": "43d06e3214c50d427917998d822c35f91f047e859804c83ff865aaf27f1a55f7"
     },
     "host/minimax-bootstrap.md": {
       "title": "MiniMax-M2.7 Bootstrap",
       "status": null,
       "content_preview": "# MiniMax-M2.7 Bootstrap\n\n`MiniMaxAI/MiniMax-M2.7` (FP8) has **passed bootstrap** and is **active** in Proof of Compute on Gonka mainnet as of chain epoch 278 (`v0.2.13`). It is the current base model (`delegation_params.initial_model_id`). The timeline and transaction examples below remain useful for understanding how activation worked and for operations such as delegation; for current deployment defaults (including `node-config.json`), see the [Host Quickstart](./quickstart.md).\n\nFor the wider context of multi-model PoC mechanics, see [Multi-Model PoC](./multi_model_poc.md). Other model bootstraps and their mechanics are documented in [Kimi K2.6 Bootstrap](./kimi-bootstrap.md) and [DeepSeek V4 Flash Bootstrap](./deepseek-bootstrap.md).\n\n!!! note\n    The bootstrap can take multiple epochs",
-      "checksum": "948b02325d553e90aae5ca41a09fa306a48636e434cad9e94b65f72ad02ba7b9"
+      "checksum": "0d66b063e69dd6a350c28b43802fa9909820c22cafe4dd9e744feb5cb99bec2d"
     },
     "host/mlnode-management.md": {
       "title": "ML Node Management",
@@ -252,7 +252,7 @@
       "title": "Multi-Model PoC — Host Operations Guide",
       "status": null,
       "content_preview": "# Multi-Model PoC — Host Operations Guide\n\nMulti-model Proof-of-Compute (PoC) arrived in v0.2.12 and expanded again in v0.2.13.\n\n!!! warning \"Delegation guidance update (July 2026)\"\n\n    After the epoch 328–329 incident, two rules apply when choosing a delegate:\n\n    - **Do not delegate to guardian nodes.** Guardians are the fallback mechanism\n      for PoC validation. Concentrating delegations on them ties the primary\n      voting mechanism and the fallback to the same hardware, so both fail\n      together. Earlier guidance that suggested a guardian node as a delegation\n      target is withdrawn. A protocol-level restriction is planned for v0.2.14.\n    - **Avoid concentrating delegations on any single host.** A delegation only\n      counts if the delegate submits a PoC store commit that e",
-      "checksum": "f4eaf8d32211ced0399e912f9b8bb5eb807787a4833a965c53882bffe9c66451"
+      "checksum": "c3b04fe3206ba0a6f9cab5a37c0a0829d37291e7e686fdf770f692a65c9dfb2c"
     },
     "host/multiple-nodes.md": {
       "title": "Multiple nodes",
