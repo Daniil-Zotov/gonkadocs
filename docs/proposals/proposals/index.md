@@ -71,8 +71,8 @@ hide:
     <span>Voting ends 2026-09-16</span>
   </div>
   <div class="prop-card-desc">Add v5 to the approved list of devshard versions and distribute 91300 USDT in contributor bounties from the community-sale contract.</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (10,783)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding prop-card-funding-voting">$91,300 · Community Pool</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>2.3%</strong> (10,783 / 462,435) · Quorum <strong>25%</strong> (115,608)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (54,336)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding prop-card-funding-voting">$91,300 · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>9.9%</strong> (54,336 / 549,920) · Quorum <strong>25%</strong> (137,480)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -1461,7 +1461,7 @@ hide:
 
 </div>
 <div class="prop-oview-stats">
-<em>103 proposals across 5 quarters. Last updated: 2026-09-15 03:40 UTC</em>
+<em>103 proposals across 5 quarters. Last updated: 2026-09-15 05:27 UTC</em>
 </div>
 
 <script>

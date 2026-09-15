@@ -36,18 +36,18 @@ Add v5 to the approved list of devshard versions and distribute 91300 USDT in co
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:2.3%"></div>
+    <div class="prop-tally-yes" style="width:9.9%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (10,783)</span>
+    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (54,336)</span>
     <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-total-text">Total 10,783 votes</span>
-    <span class="prop-tally-veto-text">✗ Turnout <strong>2.3%</strong> (10,783 / 462,435) · Quorum <strong>25%</strong> (115,608)</span>
+    <span class="prop-tally-total-text">Total 54,336 votes</span>
+    <span class="prop-tally-veto-text">✗ Turnout <strong>9.9%</strong> (54,336 / 549,920) · Quorum <strong>25%</strong> (137,480)</span>
   </div>
 </div>
 
