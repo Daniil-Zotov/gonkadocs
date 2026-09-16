@@ -1,5 +1,85 @@
 [
   {
+    "id": "evt_20260916005612_9d0cb755",
+    "timestamp": "2026-09-16T00:56:12.601857+00:00",
+    "section": "gonka_docs",
+    "action": "new",
+    "item": {
+      "title": "GLM-5.3-Flash Bootstrap",
+      "url": "/gonka/docs/host/glm-bootstrap/",
+      "file": "host/glm-bootstrap.md"
+    },
+    "details": {
+      "status": null,
+      "content": "# GLM-5.3-Flash Bootstrap\n\n`zai-org/GLM-5.3-Flash` is a governance-approved PoC model on Gonka mainnet as of [proposal 101](../network-updates.md#proposal-101). Its `penalty_start_epoch` is **394**. The group is in bootstrap: it appears in that epoch’s `sub_group_models`, but not yet in `confirmation_weight_scales`, so it does not yet produce consensus weight. For current deployment defaults (including `node-config.json`), see the [Host Quickstart](./quickstart.md).\n\nFor the wider context of multi-model PoC mechanics, see [Multi-Model PoC](./multi_model_poc.md). Other model bootstraps and their mechanics are documented in [MiniMax-M2.7 Bootstrap](./minimax-bootstrap.md), [DeepSeek V4 Flash Bootstrap](./deepseek-bootstrap.md), and [Kimi K2.6 Bootstrap](./kimi-bootstrap.md) (historical).\n\n!!"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260916005612_9d1380af",
+    "timestamp": "2026-09-16T00:56:12.601909+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "DeepSeek V4 Flash Bootstrap",
+      "url": "/gonka/docs/host/deepseek-bootstrap/",
+      "file": "host/deepseek-bootstrap.md"
+    },
+    "details": {
+      "content_before": "# DeepSeek V4 Flash Bootstrap\n\n`deepseek-ai/DeepSeek-V4-Flash-0731` has **passed bootstrap** and is **active** in Proof of Compute on Gonka mainnet as of chain epoch 360 ([proposal 94](../network-updates.md#august-10-2026)). The timeline and transaction examples below remain useful for understanding how activation worked and for operations such as delegation; for current deployment defaults (including `node-config.json`), see the [Host Quickstart](./quickstart.md).\n\nFor the wider context of multi-model PoC mechanics, see [Multi-Model PoC](./multi_model_poc.md). Previous model bootstraps and their mechanics are documented in [Kimi K2.6 Bootstrap](./kimi-bootstrap.md) and [MiniMax-M2.7 Bootstrap](./minimax-bootstrap.md).\n\n!!! note\n    The bootstrap can take multiple epochs, depending on how ",
+      "content_after": "# DeepSeek V4 Flash Bootstrap\n\n`deepseek-ai/DeepSeek-V4-Flash-0731` has **passed bootstrap** and is **active** in Proof of Compute on Gonka mainnet as of chain epoch 360 ([proposal 94](../network-updates.md#august-10-2026)). The timeline and transaction examples below remain useful for understanding how activation worked and for operations such as delegation; for current deployment defaults (including `node-config.json`), see the [Host Quickstart](./quickstart.md).\n\nFor the wider context of multi-model PoC mechanics, see [Multi-Model PoC](./multi_model_poc.md). Previous model bootstraps and their mechanics are documented in [Kimi K2.6 Bootstrap](./kimi-bootstrap.md), [MiniMax-M2.7 Bootstrap](./minimax-bootstrap.md), and [GLM-5.3-Flash Bootstrap](./glm-bootstrap.md).\n\n!!! note\n    The boots"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260916005612_2de2aa28",
+    "timestamp": "2026-09-16T00:56:12.601942+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "Kimi K2.6 Bootstrap",
+      "url": "/gonka/docs/host/kimi-bootstrap/",
+      "file": "host/kimi-bootstrap.md"
+    },
+    "details": {
+      "content_before": "# Kimi K2.6 Bootstrap\n\n`moonshotai/Kimi-K2.6` is in governance models and `poc_params` (since v0.2.12). It is currently not served: no host in `/v1/epochs/current/participants` lists it. The timeline below is the original bootstrap record (first eligible at epoch 251). For MiniMax/DeepSeek deploy defaults, see the [Host Quickstart](./quickstart.md).\n\nThis document explains how a model group becomes eligible and how participation modes work.\n\n!!! warning \"Governance listing is not eligibility\"\n    Timeline steps below that mention `Qwen235B` are historical (the original Kimi bootstrap). `Qwen/Qwen3-235B-A22B-Instruct-2507-FP8` was removed by [proposal 78](../network-updates.md#june-25-2026) at epoch 308. Do not deploy it.\n\n    A model in `poc_params` with no voting power is a bootstrap cand",
+      "content_after": "# Kimi K2.6 Bootstrap\n\n`moonshotai/Kimi-K2.6` is **not a PoC model** after [proposal 101](../network-updates.md#proposal-101): it was removed from `poc_params.models` together with `zai-org/GLM-5.2-FP8`. It remains in `GET /v1/governance/models` (inference catalog). No host currently lists it in `/v1/epochs/current/participants`. The timeline below is the original bootstrap record (first eligible at epoch 251). For current PoC models, see the [Host Quickstart](./quickstart.md) and [GLM-5.3-Flash Bootstrap](./glm-bootstrap.md).\n\nThis document explains how a model group becomes eligible and how participation modes work.\n\n!!! warning \"Governance listing is not eligibility\"\n    Timeline steps below that mention `Qwen235B` are historical (the original Kimi bootstrap). `Qwen/Qwen3-235B-A22B-Inst"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260916005612_9d26746d",
+    "timestamp": "2026-09-16T00:56:12.601967+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "MiniMax-M2.7 Bootstrap",
+      "url": "/gonka/docs/host/minimax-bootstrap/",
+      "file": "host/minimax-bootstrap.md"
+    },
+    "details": {
+      "content_before": "# MiniMax-M2.7 Bootstrap\n\n`MiniMaxAI/MiniMax-M2.7` (FP8) has **passed bootstrap** and is **active** in Proof of Compute on Gonka mainnet as of chain epoch 278 (`v0.2.13`). It is the current base model (`delegation_params.initial_model_id`). The timeline and transaction examples below remain useful for understanding how activation worked and for operations such as delegation; for current deployment defaults (including `node-config.json`), see the [Host Quickstart](./quickstart.md).\n\nFor the wider context of multi-model PoC mechanics, see [Multi-Model PoC](./multi_model_poc.md). Other model bootstraps and their mechanics are documented in [Kimi K2.6 Bootstrap](./kimi-bootstrap.md) and [DeepSeek V4 Flash Bootstrap](./deepseek-bootstrap.md).\n\n!!! note\n    The bootstrap can take multiple epochs",
+      "content_after": "# MiniMax-M2.7 Bootstrap\n\n`MiniMaxAI/MiniMax-M2.7` (FP8) has **passed bootstrap** and is **active** in Proof of Compute on Gonka mainnet as of chain epoch 278 (`v0.2.13`). It is the current base model (`delegation_params.initial_model_id`). The timeline and transaction examples below remain useful for understanding how activation worked and for operations such as delegation; for current deployment defaults (including `node-config.json`), see the [Host Quickstart](./quickstart.md).\n\nFor the wider context of multi-model PoC mechanics, see [Multi-Model PoC](./multi_model_poc.md). Other model bootstraps and their mechanics are documented in [Kimi K2.6 Bootstrap](./kimi-bootstrap.md), [DeepSeek V4 Flash Bootstrap](./deepseek-bootstrap.md), and [GLM-5.3-Flash Bootstrap](./glm-bootstrap.md).\n\n!!!"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260916005612_09dd168a",
+    "timestamp": "2026-09-16T00:56:12.602015+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "Model licenses",
+      "url": "/gonka/docs/model-licenses/",
+      "file": "model-licenses.md"
+    },
+    "details": {
+      "content_before": "# Model licenses\n\nThis page is a list of model licenses. It does not say whether a model is on Gonka now, was served in the past, or was never deployed. For the live governance set, query `GET /v1/governance/models`.\n\n- [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1/blob/main/LICENSE)\n- [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3/blob/main/LICENSE-MODEL)\n- [DeepSeek-V4-Flash](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731/blob/main/LICENSE)\n- [Gemma-3-27B](https://ai.google.dev/gemma/terms)\n- [gpt-oss-120b](https://huggingface.co/openai/gpt-oss-120b/blob/main/LICENSE)\n- [Kimi-k2.6](https://huggingface.co/moonshotai/Kimi-K2.6/blob/main/LICENSE)\n- [Llama-3.1-70B](https://ollama.com/library/llama3:70b/blobs/4fa551d4f938)\n- [Llama-3.1-405B](https://ollama.com/",
+      "content_after": "# Model licenses\n\nThis page is a list of model licenses. It does not say whether a model is on Gonka now, was served in the past, or was never deployed. For the live governance set, query `GET /v1/governance/models`.\n\n- [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1/blob/main/LICENSE)\n- [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3/blob/main/LICENSE-MODEL)\n- [DeepSeek-V4-Flash](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731/blob/main/LICENSE)\n- [Gemma-3-27B](https://ai.google.dev/gemma/terms)\n- [GLM-5.2-FP8](https://huggingface.co/zai-org/GLM-5.2-FP8/blob/main/LICENSE)\n- [GLM-5.3-Flash](https://huggingface.co/zai-org/GLM-5.3-Flash/blob/main/LICENSE)\n- [gpt-oss-120b](https://huggingface.co/openai/gpt-oss-120b/blob/main/LICENSE)\n- [Kimi-k2.6](https://huggingfa"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260916004237_ae7a2e9e",
     "timestamp": "2026-09-16T00:42:37.813257+00:00",
     "section": "calendar",
@@ -35,7 +115,7 @@
       ],
       "count": 3
     },
-    "ai_description": null
+    "ai_description": "Today: Today: 3 events — Voting ends: #104 – Approve devshard v5 and bounty payouts, INPUT Global — Weekly Call (#77), TheSoul — Weekly Report Call (#60–#65)."
   },
   {
     "id": "evt_20260915213109_ce5bfd13",
@@ -7811,80 +7891,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Security: BLS group key validation falls back to self-validation when previous epoch data is missing\n    <span class=\"issues-number\">#848</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Mayveskii\">@Mayveskii</a> opened 2026-03-03 12:03 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  <"
     },
     "ai_description": "Removed: #848 — Security: BLS group key validation falls back to self-validation when previous epoch data is missing. <div class=\"issues-detail-header\"> <h1 class=\"issues-detail-title\"> <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 "
-  },
-  {
-    "id": "evt_20260910143102_0017178b",
-    "timestamp": "2026-09-10T14:31:02.673073+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#849 — Bug: DKG permanent failure — dealer consensus uses unweighted participant votes but quorum uses slot weights",
-      "url": null,
-      "file": "00849-bug-dkg-permanent-failure-dealer-consensus-uses-unweighted-p.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Bug: DKG permanent failure — dealer consensus uses unweighted participant votes but quorum uses slot weights\n    <span class=\"issues-number\">#849</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Mayveskii\">@Mayveskii</a> opened 2026-03-03 12:04 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></s"
-    },
-    "ai_description": "Removed: #849 — Bug: DKG permanent failure — dealer consensus uses unweighted participant votes but quorum uses slot weights. <div class=\"issues-detail-header\"> <h1 class=\"issues-detail-title\"> <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 "
-  },
-  {
-    "id": "evt_20260910143102_c95d9f56",
-    "timestamp": "2026-09-10T14:31:02.673079+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#857 — Test voting delegation",
-      "url": null,
-      "file": "00857-test-voting-delegation.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Test voting delegation\n    <span class=\"issues-number\">#857</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-03-03 18:30 UTC</span>\n    <span class=\"issues-meta-item\">4 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div"
-    },
-    "ai_description": "Removed: #857 — Test voting delegation. <div class=\"issues-detail-header\"> <h1 class=\"issues-detail-title\"> <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 "
-  },
-  {
-    "id": "evt_20260910143102_162b5f22",
-    "timestamp": "2026-09-10T14:31:02.673085+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "torch.load('fake_model.pt') → code executes",
-      "url": null,
-      "file": "00863-potential-rce-via-torchload-in-ml-training-pipeline.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Potential RCE via `torch.load()` in ML Training Pipeline\n    <span class=\"issues-number\">#863</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/VVSMEN\">@VVSMEN</a> opened 2026-03-05 10:44 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-to"
-    },
-    "ai_description": "Removed: torch.load('fake_model.pt') → code executes. <div class=\"issues-detail-header\"> <h1 class=\"issues-detail-title\"> <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 "
-  },
-  {
-    "id": "evt_20260910143102_84d75817",
-    "timestamp": "2026-09-10T14:31:02.673090+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "mlnode/packages/train/src/zeroband/service/manager.py",
-      "url": null,
-      "file": "00865-hardcoded-dummy-tls-keycerts-used-for-gloo-transport-in-trai.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Hard‑coded dummy TLS key/certs used for Gloo transport in training manager Body\n    <span class=\"issues-number\">#865</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/VVSMEN\">@VVSMEN</a> opened 2026-03-05 13:09 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-"
-    },
-    "ai_description": "Removed: mlnode/packages/train/src/zeroband/service/manager.py. <div class=\"issues-detail-header\"> <h1 class=\"issues-detail-title\"> <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 "
-  },
-  {
-    "id": "evt_20260910143102_abaee27c",
-    "timestamp": "2026-09-10T14:31:02.673096+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#876 — Signed /v1/chat/completions still panics on all three documented mainnet transfer-agent endpoints",
-      "url": null,
-      "file": "00876-signed-v1chatcompletions-still-panics-on-all-three-documente.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Signed /v1/chat/completions still panics on all three documented mainnet transfer-agent endpoints\n    <span class=\"issues-number\">#876</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/junior2wnw\">@junior2wnw</a> opened 2026-03-10 20:30 UTC</span>\n    <span class=\"issues-meta-item\">13 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  <"
-    },
-    "ai_description": "Removed: #876 — Signed /v1/chat/completions still panics on all three documented mainnet transfer-agent endpoints. <div class=\"issues-detail-header\"> <h1 class=\"issues-detail-title\"> <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 "
   }
 ]

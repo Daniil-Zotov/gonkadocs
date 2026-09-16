@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-09-15T22:37:24.645674+00:00",
+  "snapshot_time": "2026-09-16T00:59:08.673924+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -12,7 +12,7 @@
       "title": "FAQ",
       "status": null,
       "content_preview": "# FAQ\n\n## Overview\n\n### What is Gonka?\nGonka is a decentralized network for high‑efficiency AI compute — run by those who run it. It functions as a cost-effective and efficient alternative to centralized cloud services for AI model training and inference. As a protocol, it's not a company or a start-up.\n\n- In terms of Blockchain, Gonka is the foundational ledger and coordination layer (L1) of the decentralized AI network. It records balances, transactions and cryptographic artifacts that prove Hosts have correctly performed AI work, while all actual computations (such as inference and training) happen off-chain.\n- In terms of Network, Gonka is a comprehensive ecosystem of participants, including Hosts and Developers that interact through a decentralized infrastructure. Powered by the Gonka",
-      "checksum": "120d689b6668faadc279f528f4822669df02f0cdc6db141b78a63828a3182353"
+      "checksum": "5aca21280538db6488a693d7d9b91fd277cf219191b592ef21cdb58a5ec57385"
     },
     "architecture.md": {
       "title": "Architecture",
@@ -197,14 +197,20 @@
     "host/deepseek-bootstrap.md": {
       "title": "DeepSeek V4 Flash Bootstrap",
       "status": null,
-      "content_preview": "# DeepSeek V4 Flash Bootstrap\n\n`deepseek-ai/DeepSeek-V4-Flash-0731` has **passed bootstrap** and is **active** in Proof of Compute on Gonka mainnet as of chain epoch 360 ([proposal 94](../network-updates.md#august-10-2026)). The timeline and transaction examples below remain useful for understanding how activation worked and for operations such as delegation; for current deployment defaults (including `node-config.json`), see the [Host Quickstart](./quickstart.md).\n\nFor the wider context of multi-model PoC mechanics, see [Multi-Model PoC](./multi_model_poc.md). Previous model bootstraps and their mechanics are documented in [Kimi K2.6 Bootstrap](./kimi-bootstrap.md) and [MiniMax-M2.7 Bootstrap](./minimax-bootstrap.md).\n\n!!! note\n    The bootstrap can take multiple epochs, depending on how ",
-      "checksum": "33e25f804b6e3717af03c88eabaf9d192c77be711e5d1aa3e956128875792a04"
+      "content_preview": "# DeepSeek V4 Flash Bootstrap\n\n`deepseek-ai/DeepSeek-V4-Flash-0731` has **passed bootstrap** and is **active** in Proof of Compute on Gonka mainnet as of chain epoch 360 ([proposal 94](../network-updates.md#august-10-2026)). The timeline and transaction examples below remain useful for understanding how activation worked and for operations such as delegation; for current deployment defaults (including `node-config.json`), see the [Host Quickstart](./quickstart.md).\n\nFor the wider context of multi-model PoC mechanics, see [Multi-Model PoC](./multi_model_poc.md). Previous model bootstraps and their mechanics are documented in [Kimi K2.6 Bootstrap](./kimi-bootstrap.md), [MiniMax-M2.7 Bootstrap](./minimax-bootstrap.md), and [GLM-5.3-Flash Bootstrap](./glm-bootstrap.md).\n\n!!! note\n    The boots",
+      "checksum": "9c642b957844db830b5f5204c0e1ee4dfe79fc2a4869c9d63a817e2eadcc0b25"
     },
     "host/genesis.md": {
       "title": "Gonka Genesis Ceremony",
       "status": null,
       "content_preview": "# Gonka Genesis Ceremony\n\nThe genesis ceremony is a coordinated process to bootstrap the Gonka blockchain with a pre-defined set of initial validators and an agreed-upon `genesis.json` file. This ceremony is important because it establishes the network's foundational security, ensures fair participation among validators, and creates a verifiable starting point for the blockchain.\n\n## Overview\n\nThe ceremony is a transparent and auditable process managed entirely through GitHub Pull Requests (PRs). The core workflow is straightforward:\n\n- Hosts (Validators) submit information and offline transaction files (`GENTX` and `GENPARTICIPANT`) via PRs\n- The Coordinator aggregates and verifies these inputs to publish the final, agreed `genesis.json` with a scheduled `genesis_time` and recorded hash.\n",
       "checksum": "3adf4ff3bd2f572a8825678a57439cd09008e7211b505b911ab3aeb36b46bb3a"
+    },
+    "host/glm-bootstrap.md": {
+      "title": "GLM-5.3-Flash Bootstrap",
+      "status": null,
+      "content_preview": "# GLM-5.3-Flash Bootstrap\n\n`zai-org/GLM-5.3-Flash` is a governance-approved PoC model on Gonka mainnet as of [proposal 101](../network-updates.md#proposal-101). Its `penalty_start_epoch` is **394**. The group is in bootstrap: it appears in that epoch’s `sub_group_models`, but not yet in `confirmation_weight_scales`, so it does not yet produce consensus weight. For current deployment defaults (including `node-config.json`), see the [Host Quickstart](./quickstart.md).\n\nFor the wider context of multi-model PoC mechanics, see [Multi-Model PoC](./multi_model_poc.md). Other model bootstraps and their mechanics are documented in [MiniMax-M2.7 Bootstrap](./minimax-bootstrap.md), [DeepSeek V4 Flash Bootstrap](./deepseek-bootstrap.md), and [Kimi K2.6 Bootstrap](./kimi-bootstrap.md) (historical).\n\n!!",
+      "checksum": "9a522f1d331b91be6ce7fd68e9c89da15d6eceb957c246d05a33a5f130b6cb35"
     },
     "host/hardware-specifications.md": {
       "title": "Hardware Specifications",
@@ -227,38 +233,38 @@
     "host/kimi-bootstrap.md": {
       "title": "Kimi K2.6 Bootstrap",
       "status": null,
-      "content_preview": "# Kimi K2.6 Bootstrap\n\n`moonshotai/Kimi-K2.6` is in governance models and `poc_params` (since v0.2.12). It is currently not served: no host in `/v1/epochs/current/participants` lists it. The timeline below is the original bootstrap record (first eligible at epoch 251). For MiniMax/DeepSeek deploy defaults, see the [Host Quickstart](./quickstart.md).\n\nThis document explains how a model group becomes eligible and how participation modes work.\n\n!!! warning \"Governance listing is not eligibility\"\n    Timeline steps below that mention `Qwen235B` are historical (the original Kimi bootstrap). `Qwen/Qwen3-235B-A22B-Instruct-2507-FP8` was removed by [proposal 78](../network-updates.md#june-25-2026) at epoch 308. Do not deploy it.\n\n    A model in `poc_params` with no voting power is a bootstrap cand",
-      "checksum": "43d06e3214c50d427917998d822c35f91f047e859804c83ff865aaf27f1a55f7"
+      "content_preview": "# Kimi K2.6 Bootstrap\n\n`moonshotai/Kimi-K2.6` is **not a PoC model** after [proposal 101](../network-updates.md#proposal-101): it was removed from `poc_params.models` together with `zai-org/GLM-5.2-FP8`. It remains in `GET /v1/governance/models` (inference catalog). No host currently lists it in `/v1/epochs/current/participants`. The timeline below is the original bootstrap record (first eligible at epoch 251). For current PoC models, see the [Host Quickstart](./quickstart.md) and [GLM-5.3-Flash Bootstrap](./glm-bootstrap.md).\n\nThis document explains how a model group becomes eligible and how participation modes work.\n\n!!! warning \"Governance listing is not eligibility\"\n    Timeline steps below that mention `Qwen235B` are historical (the original Kimi bootstrap). `Qwen/Qwen3-235B-A22B-Inst",
+      "checksum": "5e04d5edfa6e69113b4bf9a8111de3db1f98d3716ba485a6f4ef5d7d6029dcfd"
     },
     "host/minimax-bootstrap.md": {
       "title": "MiniMax-M2.7 Bootstrap",
       "status": null,
-      "content_preview": "# MiniMax-M2.7 Bootstrap\n\n`MiniMaxAI/MiniMax-M2.7` (FP8) has **passed bootstrap** and is **active** in Proof of Compute on Gonka mainnet as of chain epoch 278 (`v0.2.13`). It is the current base model (`delegation_params.initial_model_id`). The timeline and transaction examples below remain useful for understanding how activation worked and for operations such as delegation; for current deployment defaults (including `node-config.json`), see the [Host Quickstart](./quickstart.md).\n\nFor the wider context of multi-model PoC mechanics, see [Multi-Model PoC](./multi_model_poc.md). Other model bootstraps and their mechanics are documented in [Kimi K2.6 Bootstrap](./kimi-bootstrap.md) and [DeepSeek V4 Flash Bootstrap](./deepseek-bootstrap.md).\n\n!!! note\n    The bootstrap can take multiple epochs",
-      "checksum": "0d66b063e69dd6a350c28b43802fa9909820c22cafe4dd9e744feb5cb99bec2d"
+      "content_preview": "# MiniMax-M2.7 Bootstrap\n\n`MiniMaxAI/MiniMax-M2.7` (FP8) has **passed bootstrap** and is **active** in Proof of Compute on Gonka mainnet as of chain epoch 278 (`v0.2.13`). It is the current base model (`delegation_params.initial_model_id`). The timeline and transaction examples below remain useful for understanding how activation worked and for operations such as delegation; for current deployment defaults (including `node-config.json`), see the [Host Quickstart](./quickstart.md).\n\nFor the wider context of multi-model PoC mechanics, see [Multi-Model PoC](./multi_model_poc.md). Other model bootstraps and their mechanics are documented in [Kimi K2.6 Bootstrap](./kimi-bootstrap.md), [DeepSeek V4 Flash Bootstrap](./deepseek-bootstrap.md), and [GLM-5.3-Flash Bootstrap](./glm-bootstrap.md).\n\n!!!",
+      "checksum": "6d77982924c275704008b9ac3b89f17cd7c3277a4eb0d5117368bd7983d1fd41"
     },
     "host/mlnode-management.md": {
       "title": "ML Node Management",
       "status": null,
       "content_preview": "# ML Node Management\n\nThis guide explains how to manage inference nodes (ML Nodes) connected to your Network Node using the **Admin API**.\n\nYou will learn how to:\n\n- Add a new ML Node\n- Add multiple ML Nodes in a single batch\n- Update an existing ML Node\n- Enable or disable an ML Node\n- Delete an ML Node\n- List all configured ML Nodes\n\nAll operations are performed against the Network Node’s Admin API and do **not** require a chain transaction. Changes take effect immediately at the Network Node level.\n\n## ML Node Definition\n\nEach ML Node registered with the Network Node is represented by a JSON object with the following key fields:\n\n- `id` – **Unique identifier** for the ML Node (string).\n- `host` – **Static IP or DNS** of the ML Node, or the **Docker container name** if running in the sam",
-      "checksum": "a2e2a40697e0e8ab7a8710ea40f6d6356ae489a787fd50d787d89cf3245a92db"
+      "checksum": "1ac23c0fb2e8b46ebc7b4090188aaf5c046fdf1a5f089f202d6de822c1874c34"
     },
     "host/mlnode-validation.md": {
       "title": "Validate ML Node Deployment",
       "status": null,
       "content_preview": "# Validate ML Node Deployment\n\nThe [`gonka` repo](https://github.com/gonka-ai/gonka) ships an agent skill called `mlnode-validate` that validates a deployed ML Node against pre-computed honest PoC vectors for a specific model. The skill is self-contained inside the repo (no external code, no callback receiver).\n\nThe skill is the contract; this page is a pointer. The single source of truth is [`skills/mlnode-validate/SKILL.md`](https://github.com/gonka-ai/gonka/blob/main/skills/mlnode-validate/SKILL.md) — required / optional inputs, deploy-config rules, golden-reference list, pass criteria, failure modes, and the report template.\n\nThe skill is implemented by two Python scripts under `mlnode/packages/benchmarks/scripts/poc_validation/`:\n\n- `validate.py` — the main entry point (download → dep",
-      "checksum": "99f950685c8d8c2eba54a15225da022a7f7ce36983e53e4a42f154cfb3ac5db2"
+      "checksum": "f94c557a9412e8f09b67bcf76eba19be36eef2e00ad3ebf3d09a5d8d5ad9f1e6"
     },
     "host/multi_model_poc.md": {
       "title": "Multi-Model PoC — Host Operations Guide",
       "status": null,
       "content_preview": "# Multi-Model PoC — Host Operations Guide\n\nMulti-model Proof-of-Compute (PoC) arrived in v0.2.12 and expanded again in v0.2.13.\n\n!!! warning \"Delegation guidance update (July 2026)\"\n\n    After the epoch 328–329 incident, two rules apply when choosing a delegate:\n\n    - **Do not delegate to guardian nodes.** Guardians are the fallback mechanism\n      for PoC validation. Concentrating delegations on them ties the primary\n      voting mechanism and the fallback to the same hardware, so both fail\n      together. Earlier guidance that suggested a guardian node as a delegation\n      target is withdrawn. A protocol-level restriction is planned for v0.2.14.\n    - **Avoid concentrating delegations on any single host.** A delegation only\n      counts if the delegate submits a PoC store commit that e",
-      "checksum": "c3b04fe3206ba0a6f9cab5a37c0a0829d37291e7e686fdf770f692a65c9dfb2c"
+      "checksum": "12b9711c9be2c8e431c6a3da7ac896c332b75583cf4f49cd3c2261b2f6658bcc"
     },
     "host/multiple-nodes.md": {
       "title": "Multiple nodes",
       "status": null,
       "content_preview": "# Multiple nodes\n\nIn this setup, you deploy the network node and one or more inference (ML) nodes across multiple servers. To join the network, you need to deploy two services:\n\n- **Network node** – a service consisting of two nodes: a **chain node** and an **API node**. This service handles all communication. The **chain node** connects to the blockchain, while the **API node** manages user requests.\n- **Inference (ML) node** – a service that performs inference of large language models (LLMs) on GPU(s). You need at least one **ML node** to join the network.\n\nThe guide provides instructions for deploying both services on the same machine as well as on different machines. Services are deployed as Docker containers.\n\n## Starting the network and inference node\nThis section describes how to de",
-      "checksum": "35b660f4910c344b76d3b288d9337ea38dd09b0a2e54605e46aec5eb1d472216"
+      "checksum": "960a07a0d0db007083f16ef4d448d831ca4e44ef5482c3c3537db5a9820c86b2"
     },
     "host/network-node-api.md": {
       "title": "Network Node API",
@@ -282,7 +288,7 @@
       "title": "Setting up your chain",
       "status": null,
       "content_preview": "# Setting up your chain \n\n**Host** (**hardware provider** or **node**) contributes computational resources to the network and is rewarded based on the amount and quality of resources they provide.\n\nTo join the network, you need to deploy two services:\n\n- **Network Node** – a service consisting of two nodes: a **Chain Node** and an **API Node**. This service handles all communication. The **Chain Node** connects to the blockchain, while the **API Node** manages user requests.\n- **Inference (ML) node** – a service that performs inference of large language models (LLMs) on GPU(s). You need at least one **ML Node** to join the network.\n\nThe guide describes a scenario in which both services are deployed on the same machine, and each Host has one ML Node. Services are deployed as Docker containe",
-      "checksum": "a63e85296d632a1269fa57d3afe846f170116a0acca1f3de429ba05e8c1a32f7"
+      "checksum": "f577b2ca7f39b06e0ae66429a714944160cbb7b67854c7c6e3cada1199279e8d"
     },
     "introduction.md": {
       "title": "introduction",
@@ -299,14 +305,14 @@
     "model-licenses.md": {
       "title": "Model licenses",
       "status": null,
-      "content_preview": "# Model licenses\n\nThis page is a list of model licenses. It does not say whether a model is on Gonka now, was served in the past, or was never deployed. For the live governance set, query `GET /v1/governance/models`.\n\n- [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1/blob/main/LICENSE)\n- [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3/blob/main/LICENSE-MODEL)\n- [DeepSeek-V4-Flash](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731/blob/main/LICENSE)\n- [Gemma-3-27B](https://ai.google.dev/gemma/terms)\n- [gpt-oss-120b](https://huggingface.co/openai/gpt-oss-120b/blob/main/LICENSE)\n- [Kimi-k2.6](https://huggingface.co/moonshotai/Kimi-K2.6/blob/main/LICENSE)\n- [Llama-3.1-70B](https://ollama.com/library/llama3:70b/blobs/4fa551d4f938)\n- [Llama-3.1-405B](https://ollama.com/",
-      "checksum": "d2009edfefbc1096b25bca18553f5c2c8586f947893086912ba793fda8a83938"
+      "content_preview": "# Model licenses\n\nThis page is a list of model licenses. It does not say whether a model is on Gonka now, was served in the past, or was never deployed. For the live governance set, query `GET /v1/governance/models`.\n\n- [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1/blob/main/LICENSE)\n- [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3/blob/main/LICENSE-MODEL)\n- [DeepSeek-V4-Flash](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731/blob/main/LICENSE)\n- [Gemma-3-27B](https://ai.google.dev/gemma/terms)\n- [GLM-5.2-FP8](https://huggingface.co/zai-org/GLM-5.2-FP8/blob/main/LICENSE)\n- [GLM-5.3-Flash](https://huggingface.co/zai-org/GLM-5.3-Flash/blob/main/LICENSE)\n- [gpt-oss-120b](https://huggingface.co/openai/gpt-oss-120b/blob/main/LICENSE)\n- [Kimi-k2.6](https://huggingfa",
+      "checksum": "aec10c5a38ff557926c26fcad28bffbdbfd02368626f9ad47935005dace1391a"
     },
     "network-updates.md": {
       "title": "Announcements",
       "status": null,
       "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## September 14, 2026\n\n**The devshard v5 proposal has entered governance**\n\nProposal id 104 does two things: it adds `v5` to the approved list of devshard versions, and it distributes 91,300 USDT in contributor bounties from the community-sale contract.\n\n**",
-      "checksum": "9f190c4981003fd89c7ea9ae0025fff382ffcd08653ae6c4a981f731fc5c542d"
+      "checksum": "85eaadb9258c672fd1c7701f27c9a5e5af7998c6295f191f5af8ae4084d1b4ed"
     },
     "participant/README.md": {
       "title": "Redirecting to Host Section",

@@ -99,6 +99,7 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [Benchmark to Choose Optimal Deployment Config for LLMs](/gonka/docs/host/benchmark-to-choose-optimal-deployment-config-for-llms/): Auto-synced content
 - [DeepSeek V4 Flash Bootstrap](/gonka/docs/host/deepseek-bootstrap/): Auto-synced content
 - [Gonka Genesis Ceremony](/gonka/docs/host/genesis/): Auto-synced content
+- [GLM-5.3-Flash Bootstrap](/gonka/docs/host/glm-bootstrap/): Auto-synced content
 - [How to edit Host public info](/gonka/docs/host/host_info/): Auto-synced content
 - [Kimi K2.6 Bootstrap](/gonka/docs/host/kimi-bootstrap/): Auto-synced content
 - [MiniMax-M2.7 Bootstrap](/gonka/docs/host/minimax-bootstrap/): Auto-synced content
