@@ -36,7 +36,7 @@ hide:
 <div class="qs-stats">
 <div class="qs-stat total"><span class="qs-num">25</span><span class="qs-desc">Total Proposals</span></div>
 <div class="qs-stat passed"><span class="qs-num">18</span><span class="qs-desc">Passed (72%)</span></div>
-<div class="qs-stat rejected"><span class="qs-num">6</span><span class="qs-desc">Rejected (24%)</span></div>
+<div class="qs-stat rejected"><span class="qs-num">7</span><span class="qs-desc">Rejected (28%)</span></div>
 
 </div>
 
@@ -57,19 +57,18 @@ hide:
 <div class="prop-quarter">
 <h2>2026-Q3</h2>
 <p>25 proposals</p>
-<div class="prop-card" data-status="prop-voting" data-voting-end="2026-09-16T01:23:29.834708407Z">
+<div class="prop-card" data-status="prop-rejected">
   <div class="prop-card-header">
     <a href="104/" class="prop-card-title">#104 – Approve devshard v5 and bounty payouts</a>
-    <span class="prop-vote-countdown" data-deadline="2026-09-16T01:23:29.834708407Z"></span>
-    <span class="prop-badge prop-voting">Voting</span>
+    <span class="prop-badge prop-rejected">Rejected</span>
   </div>
   <div class="prop-card-meta">
     <span>Submitted 2026-09-14</span>
     <span>Voting ends 2026-09-16</span>
   </div>
   <div class="prop-card-desc">Add v5 to the approved list of devshard versions and distribute 91300 USDT in contributor bounties from the community-sale contract.</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (25,291)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding prop-card-funding-voting">$91,300 · Community Pool</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>5.2%</strong> (25,291 / 482,009) · Quorum <strong>25%</strong> (120,502)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (25,291)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding prop-card-funding-rejected">$91,300 · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>5.0%</strong> (25,291 / 506,660) · Quorum <strong>25%</strong> (126,665)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">

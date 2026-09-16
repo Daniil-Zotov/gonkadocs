@@ -8,7 +8,7 @@ template: proposals-proposals-main.html
 
 <div class="prop-detail-header" markdown="1">
 
-<div class="prop-badge-row"><span class="prop-badge prop-voting">Voting</span><span class="prop-vote-countdown prop-vote-countdown-detail" data-deadline="2026-09-16T01:23:29.834708407Z"></span></div>
+<span class="prop-badge prop-rejected">Rejected</span>
 
 **Proposal ID:** `104`
 
@@ -20,7 +20,9 @@ template: proposals-proposals-main.html
 
 **Proposer:** [`gonka1ejkupq3cy6p8xd64ew2wlzveml86ckpzn9dl56`](https://gonka.gg/address/gonka1ejkupq3cy6p8xd64ew2wlzveml86ckpzn9dl56){:target="_blank"}
 
-<div class="prop-funding-line prop-funding-line-voting">$91,300 · Community Pool</div>
+**Failed reason:** proposal did not get enough votes to pass
+
+<div class="prop-funding-line prop-funding-line-rejected">$91,300 · Community Pool</div>
 
 
 [View on gonka.gg](https://gonka.gg/network/proposals/104){:target="_blank"}
@@ -36,7 +38,7 @@ Add v5 to the approved list of devshard versions and distribute 91300 USDT in co
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:5.2%"></div>
+    <div class="prop-tally-yes" style="width:5.0%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
@@ -47,7 +49,7 @@ Add v5 to the approved list of devshard versions and distribute 91300 USDT in co
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-total-text">Total 25,291 votes</span>
-    <span class="prop-tally-veto-text">✗ Turnout <strong>5.2%</strong> (25,291 / 482,009) · Quorum <strong>25%</strong> (120,502)</span>
+    <span class="prop-tally-veto-text">✗ Turnout <strong>5.0%</strong> (25,291 / 506,660) · Quorum <strong>25%</strong> (126,665)</span>
   </div>
 </div>
 
