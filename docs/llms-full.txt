@@ -19933,7 +19933,7 @@ decentralized mixture-of-experts."
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-09-15 19:27 UTC
+2026-09-15 22:39 UTC
 
 ---
 
@@ -20384,7 +20384,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-09-15 21:17 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-09-16 00:13 UTC*
 
 ---
 
@@ -29276,7 +29276,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   
   Add v5 to the approved list of devshard versions and distribute 91300 USDT in contributor bounties from the community-sale contract.
   Yes 100.0% (25,291) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)$91,300 · Community Pool
-  ✗ Turnout 5.2% (25,291 / 482,885) · Quorum 25% (120,721)
+  ✗ Turnout 5.2% (25,291 / 482,009) · Quorum 25% (120,502)
 
   
     #103 – Reimbursement of Expenses for Daniil and David Liberman's Participation in All-In Summit 2026
@@ -30450,7 +30450,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-103 proposals across 5 quarters. Last updated: 2026-09-15 21:53 UTC
+103 proposals across 5 quarters. Last updated: 2026-09-15 23:54 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -67723,7 +67723,7 @@ $90,075 USDT · Bounty Reward
   
   Add v5 to the approved list of devshard versions and distribute 91300 USDT in contributor bounties from the community-sale contract.
   Yes 100.0% (25,291) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)$91,300 · Community Pool
-  ✗ Turnout 5.2% (25,291 / 482,885) · Quorum 25% (120,721)
+  ✗ Turnout 5.2% (25,291 / 482,009) · Quorum 25% (120,502)
 
   
     #103 – Reimbursement of Expenses for Daniil and David Liberman's Participation in All-In Summit 2026
@@ -69356,7 +69356,7 @@ Add v5 to the approved list of devshard versions and distribute 91300 USDT in co
     Veto 0.0% (0)
     Abstain 0.0% (0)
     Total 25,291 votes
-    ✗ Turnout 5.2% (25,291 / 482,885) · Quorum 25% (120,721)
+    ✗ Turnout 5.2% (25,291 / 482,009) · Quorum 25% (120,502)
   
 
 Voters
