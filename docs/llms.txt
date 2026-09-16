@@ -23,8 +23,8 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - 2026-09-16 01:23 UTC — Rejected: #104 – Approve devshard v5 and bounty payouts: https://gonkadocs.com/proposals/proposals/2026-q3/104/
 - 2026-09-16 13:00 UTC — INPUT Global — Weekly Call (#77): https://gonkadocs.com/proposals/proposals/2026-q2/77/
 - 2026-09-16 15:00 UTC — TheSoul — Weekly Report Call (#60–#65): https://gonkadocs.com/proposals/proposals/2026-q2/60/
-- 2026-09-23 13:00 UTC — INPUT Global — Weekly Call (#77): https://gonkadocs.com/proposals/proposals/2026-q2/77/
-- 2026-09-23 15:00 UTC — TheSoul — Weekly Report Call (#60–#65): https://gonkadocs.com/proposals/proposals/2026-q2/60/
+- 2026-09-16 16:30 UTC — AMA: Работа маркетинг-комитета: https://us06web.zoom.us/j/81541950412
+- 2026-09-18 16:47 UTC — Voting ends: #105 – Approve devshard v5 and bounty payouts: https://gonkadocs.com/proposals/proposals/2026-q3/105/
 
 ## Protocol Documentation
 
@@ -268,6 +268,7 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [#89 – Upgrade Proposal: v0.2.14](/proposals/proposals/2026-q3/89/): Auto-synced content
 - [Kimi cPoC Validation Failure, Epochs 306–309](/proposals/proposals/2026-q3/81/full-proposal/): Auto-synced content
 - [#81 – Kimi cPoC Restitution (epochs 306-309)](/proposals/proposals/2026-q3/81/): Auto-synced content
+- [#105 – Approve devshard v5 and bounty payouts](/proposals/proposals/2026-q3/105/): Auto-synced content
 - [Partnerships with Inference Resellers, B2C users acquisition and conversion funnels analytics setup](/proposals/proposals/2026-q3/90/full-proposal/): Auto-synced content
 - [#90 – Partnerships with Inference Resellers, B2C users acquisition and conversion funnels analytics setup](/proposals/proposals/2026-q3/90/): Auto-synced content
 - [GRC Proposal #3 - Restitution](/proposals/proposals/2026-q3/80/full-proposal/): Auto-synced content

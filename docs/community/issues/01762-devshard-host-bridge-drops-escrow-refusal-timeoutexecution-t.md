@@ -2,7 +2,7 @@
 title: "#1762 — devshard: host bridge drops escrow refusal_timeout/execution_timeout, so host and gateway can bind different SessionConfig"
 source: https://github.com/gonka-ai/gonka/issues/1762
 issue_number: 1762
-synced_at: 2026-09-16T11:47:08Z
+synced_at: 2026-09-16T17:06:58Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/kAIPraxisBot">@kAIPraxisBot</a> opened 2026-09-13 03:44 UTC</span>
-    <span class="issues-meta-item">3 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-15 20:28 UTC</span>
+    <span class="issues-meta-item">4 comments</span>
+    <span class="issues-meta-item">Updated 2026-09-16 14:40 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -145,7 +145,7 @@ Commit `88ebd4456` (#1564) added `refusal_timeout = 17` / `execution_timeout = 1
 
 ---
 
-## 💬 Comments (3)
+## 💬 Comments (4)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -174,6 +174,17 @@ Commit `88ebd4456` (#1564) added `refusal_timeout = 17` / `execution_timeout = 1
   </div>
   <div class="issues-comment-body issues-content">
     <p>I'll take this one: add <code>RefusalTimeout</code>/<code>ExecutionTimeout</code> to the <code>ChainBridge</code> escrow mapping and the cached path in <code>devshardd</code>, with a regression test that pins both bridges to the same <code>SessionConfig</code>. PR against <code>devshard-0.2.15-v5</code> shortly.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/a-kuprin">@a-kuprin</a></span>
+    <span class="issues-meta-item">commented 2026-09-16 14:32 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Extremely important fix, as it can lead to state divergence in v5 (fires in integration testermint tests)
+Added to v5 release as a musthave fix:
+https://github.com/gonka-ai/gonka/pull/1584/changes/3d1b445e17a672d3b2f123a26ced688fff5bd791</p>
   </div>
 </div>
 
