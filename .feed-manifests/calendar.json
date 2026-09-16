@@ -1,6 +1,6 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-09-16T02:34:41.413804+00:00",
+  "snapshot_time": "2026-09-16T06:33:05.432108+00:00",
   "files": {
     "460d7b406a26039bca186ac074c0ac02e7130753a332dc8fe809420a0d5bbd6c": {
       "title": "AMA: Bitfury, HackerOne & Gonka — Bug Bounty Program Launch",
@@ -2216,14 +2216,14 @@
       "content_preview": "We are proposing to allocate 15,500 USDT from the Gonka Community Pool to reimburse the cost of two tickets for All-In Summit 2026 for Daniil and David Liberman, co-creators of the Gonka protocol.\nAll…",
       "checksum": "598305c5e7cd1d3f4b2e39eced7576981500b1d7692ab1e90a47c78362915194"
     },
-    "39081043684b5f2ae0f05072068716ac6a799cb4b1da3942fce21f5e4a8c3be7": {
-      "title": "Voting ends: #104 – Approve devshard v5 and bounty payouts",
+    "e51fb6ecb49496d48b3c7cae6b652fdd7361a42421f7ae71344045e03983838b": {
+      "title": "Rejected: #104 – Approve devshard v5 and bounty payouts",
       "date": "2026-09-16",
       "time": "01:23 UTC",
-      "event_type": "proposal_vote_end",
+      "event_type": "proposal_report",
       "url": "/proposals/proposals/2026-q3/104/",
       "content_preview": "Add v5 to the approved list of devshard versions and distribute 91300 USDT in contributor bounties from the community-sale contract.",
-      "checksum": "27d3d2b13a57db2d2d7660caf16edbf52af8e55499713faaf5b7ff49c5972aa4"
+      "checksum": "64177cc67276a96955b85926fd72699f6f8a7711285e827a84df110b92fd0f11"
     }
   }
 }
