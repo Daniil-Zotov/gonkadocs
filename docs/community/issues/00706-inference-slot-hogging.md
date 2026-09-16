@@ -2,7 +2,7 @@
 title: "#706 — Inference Slot Hogging"
 source: https://github.com/gonka-ai/gonka/issues/706
 issue_number: 706
-synced_at: 2026-09-16T06:10:36Z
+synced_at: 2026-09-16T11:49:22Z
 template: issues-main.html
 ---
 
