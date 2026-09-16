@@ -1,1 +1,21 @@
-[]
+[
+ {
+  "date": "2026-09-16",
+  "category": "committee",
+  "type": "ama",
+  "title": "AMA: Работа маркетинг-комитета",
+  "url": "https://us06web.zoom.us/j/81541950412",
+  "time": "16:30 UTC",
+  "description": "AMA-сессия маркетинг-комитета сообщества Gonka о работе с маркетинговыми пропозалами и готовящемся пропозале по поддержке деятельности комитета.\n\nТемы:\n• Работа с текущими маркетинговыми пропозалами\n• Роль и задачи маркетинг-комитета\n• Вопросы по готовящемуся пропозалу\n\n📅 Среда, 16 сентября\n09:30 LA · 16:30 UTC · 19:30 МСК\nЯзык: русский\n🔗 Zoom: https://us06web.zoom.us/j/81541950412\n\nПропозал по поддержке работы комитета и запуску Reddit Contributor Pilot: https://gonka.vote/proposal/8jnynz",
+  "tags": [
+   "ama",
+   "marketing-committee",
+   "committee",
+   "reddit-contributor-pilot"
+  ],
+  "is_all_day": false,
+  "duration_minutes": 60,
+  "location": "https://us06web.zoom.us/j/81541950412",
+  "uid": "gonka-2026-09-16-6905cda31037@gonkadocs.com"
+ }
+]
