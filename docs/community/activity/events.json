@@ -1,5 +1,45 @@
 [
   {
+    "id": "evt_20260916174158_eea2cd05",
+    "timestamp": "2026-09-16T17:41:58.380401+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "AMA: Работа маркетинг-комитета",
+      "url": "https://us06web.zoom.us/j/81541950412",
+      "file": "1b608f38bcf9c2f73348e483c535a7b3f0d6bda283a50d79dbdc278ec8e7bdbe"
+    },
+    "details": {
+      "status": null,
+      "content": "AMA-сессия маркетинг-комитета сообщества Gonka о работе с маркетинговыми пропозалами и готовящемся пропозале по поддержке деятельности комитета.\n\nТемы:\n• Работа с текущими маркетинговыми пропозалами\n• Роль и задачи маркетинг-комитета\n• Вопросы по готовящемуся пропозалу\n\n📅 Среда, 16 сентября\n09:30 LA · 16:30 UTC · 19:30 МСК\nЯзык: русский\n🔗 Zoom: https://us06web.zoom.us/j/81541950412\n\nПропозал по поддержке работы комитета и запуску Reddit Contributor Pilot: https://gonka.vote/proposal/8jnynz",
+      "date": "2026-09-16",
+      "time": "16:30 UTC",
+      "event_type": "ama",
+      "url": "https://us06web.zoom.us/j/81541950412"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260916174158_b314a3ae",
+    "timestamp": "2026-09-16T17:41:58.380428+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Voting ends: #105 – Approve devshard v5 and bounty payouts",
+      "url": "/proposals/proposals/2026-q3/105/",
+      "file": "67fef6626cd1dbfbc9c6091f11a186cc1d73e27320836f512914eb71ef8573fe"
+    },
+    "details": {
+      "status": null,
+      "content": "Approve DevShard v5 and contributor bounty payouts\n\nThis proposal adds DevShard v5 to the approved list of devshard versions and distributes 91,300 USDT from the community-sale contract to contributor…",
+      "date": "2026-09-18",
+      "time": "16:47 UTC",
+      "event_type": "proposal_vote_end",
+      "url": "/proposals/proposals/2026-q3/105/"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260916170943_f0c0b470",
     "timestamp": "2026-09-16T17:09:43.876478+00:00",
     "section": "issues",
@@ -7869,35 +7909,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    `application.db` growth / pruning\n    <span class=\"issues-number\">#819</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-02-27 21:08 UTC</span>\n    <span class=\"issues-meta-item\">10 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><spa"
     },
     "ai_description": "Removed: #819 — `application.db` growth / pruning. <div class=\"issues-detail-header\"> <h1 class=\"issues-detail-title\"> <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 "
-  },
-  {
-    "id": "evt_20260910143102_32dd78f0",
-    "timestamp": "2026-09-10T14:31:02.673031+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#820 — Investigate missed inference on some nodes (root causes + mitigation)",
-      "url": null,
-      "file": "00820-investigate-missed-inference-on-some-nodes-root-causes-mitig.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Investigate missed inference on some nodes (root causes + mitigation)\n    <span class=\"issues-number\">#820</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-02-27 21:13 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><"
-    },
-    "ai_description": "Removed: #820 — Investigate missed inference on some nodes (root causes + mitigation). <div class=\"issues-detail-header\"> <h1 class=\"issues-detail-title\"> <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span> "
-  },
-  {
-    "id": "evt_20260910143102_344cc4e6",
-    "timestamp": "2026-09-10T14:31:02.673039+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#821 — Continuous PoC design + implementation",
-      "url": null,
-      "file": "00821-continuous-poc-design-implementation.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Continuous PoC design + implementation\n    <span class=\"issues-number\">#821</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-02-27 21:16 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style="
-    },
-    "ai_description": "Removed: #821 — Continuous PoC design + implementation. <div class=\"issues-detail-header\"> <h1 class=\"issues-detail-title\"> <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span> "
   }
 ]

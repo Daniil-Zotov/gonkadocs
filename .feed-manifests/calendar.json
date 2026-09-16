@@ -1,7 +1,16 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-09-16T12:46:02.251462+00:00",
+  "snapshot_time": "2026-09-16T17:41:58.399229+00:00",
   "files": {
+    "1b608f38bcf9c2f73348e483c535a7b3f0d6bda283a50d79dbdc278ec8e7bdbe": {
+      "title": "AMA: Работа маркетинг-комитета",
+      "date": "2026-09-16",
+      "time": "16:30 UTC",
+      "event_type": "ama",
+      "url": "https://us06web.zoom.us/j/81541950412",
+      "content_preview": "AMA-сессия маркетинг-комитета сообщества Gonka о работе с маркетинговыми пропозалами и готовящемся пропозале по поддержке деятельности комитета.\n\nТемы:\n• Работа с текущими маркетинговыми пропозалами\n• Роль и задачи маркетинг-комитета\n• Вопросы по готовящемуся пропозалу\n\n📅 Среда, 16 сентября\n09:30 LA · 16:30 UTC · 19:30 МСК\nЯзык: русский\n🔗 Zoom: https://us06web.zoom.us/j/81541950412\n\nПропозал по поддержке работы комитета и запуску Reddit Contributor Pilot: https://gonka.vote/proposal/8jnynz",
+      "checksum": "3b0eb6dc3b0e312c78882f8c6b2026d3f0a8ab6d7924c0f2d4d84b3e824a06d2"
+    },
     "460d7b406a26039bca186ac074c0ac02e7130753a332dc8fe809420a0d5bbd6c": {
       "title": "AMA: Bitfury, HackerOne & Gonka — Bug Bounty Program Launch",
       "date": "2026-06-25",
@@ -2224,6 +2233,15 @@
       "url": "/proposals/proposals/2026-q3/104/",
       "content_preview": "Add v5 to the approved list of devshard versions and distribute 91300 USDT in contributor bounties from the community-sale contract.",
       "checksum": "64177cc67276a96955b85926fd72699f6f8a7711285e827a84df110b92fd0f11"
+    },
+    "67fef6626cd1dbfbc9c6091f11a186cc1d73e27320836f512914eb71ef8573fe": {
+      "title": "Voting ends: #105 – Approve devshard v5 and bounty payouts",
+      "date": "2026-09-18",
+      "time": "16:47 UTC",
+      "event_type": "proposal_vote_end",
+      "url": "/proposals/proposals/2026-q3/105/",
+      "content_preview": "Approve DevShard v5 and contributor bounty payouts\n\nThis proposal adds DevShard v5 to the approved list of devshard versions and distributes 91,300 USDT from the community-sale contract to contributor…",
+      "checksum": "158a02d97e3f30a3ed88215a904b7a13439526371f133014f7f7371ed3f69592"
     }
   }
 }
