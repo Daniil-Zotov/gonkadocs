@@ -34,15 +34,15 @@ hide:
 ## Overview
 
 <div class="qs-stats">
-<div class="qs-stat total"><span class="qs-num">103</span><span class="qs-desc">Total Proposals</span></div>
-<div class="qs-stat passed"><span class="qs-num">70</span><span class="qs-desc">Passed (68%)</span></div>
+<div class="qs-stat total"><span class="qs-num">104</span><span class="qs-desc">Total Proposals</span></div>
+<div class="qs-stat passed"><span class="qs-num">70</span><span class="qs-desc">Passed (67%)</span></div>
 <div class="qs-stat rejected"><span class="qs-num">32</span><span class="qs-desc">Rejected (31%)</span></div>
 <div class="qs-stat failed"><span class="qs-num">1</span><span class="qs-desc">Failed (1%)</span></div>
 </div>
 
 <div class="qs-categories">
-<div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:41%"></span></span><span class="qs-value">42</span></div>
-<div class="qs-row"><span class="qs-label">Governance Parameters</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:33%"></span></span><span class="qs-value">34</span></div>
+<div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:40%"></span></span><span class="qs-value">42</span></div>
+<div class="qs-row"><span class="qs-label">Governance Parameters</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:34%"></span></span><span class="qs-value">35</span></div>
 <div class="qs-row"><span class="qs-label">Software Upgrade</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:17%"></span></span><span class="qs-value">18</span></div>
 <div class="qs-row"><span class="qs-label">Other</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:4%"></span></span><span class="qs-value">4</span></div>
 <div class="qs-row"><span class="qs-label">GRC / Restitution</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:3%"></span></span><span class="qs-value">3</span></div>
@@ -58,7 +58,22 @@ hide:
 <div class="prop-quarter" id="2026-q3" markdown="1">
 ## 2026-Q3
 
-*25 proposals*
+*26 proposals*
+
+<div class="prop-card" data-status="prop-voting" data-voting-end="2026-09-18T16:47:54.790005493Z">
+  <div class="prop-card-header">
+    <a href="2026-q3/105/" class="prop-card-title">#105 – Approve devshard v5 and bounty payouts</a>
+    <span class="prop-vote-countdown" data-deadline="2026-09-18T16:47:54.790005493Z"></span>
+    <span class="prop-badge prop-voting">Voting</span>
+  </div>
+  <div class="prop-card-meta">
+    <span>Submitted 2026-09-16</span>
+    <span>Voting ends 2026-09-18</span>
+  </div>
+  <div class="prop-card-desc">Approve DevShard v5 and contributor bounty payouts  This proposal adds DevShard v5 to the approved list of devshard versions and distributes 91,300 USDT from the community-sale contract to contributor…</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (933)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding prop-card-funding-voting">$91,300 · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>0.2%</strong> (933 / 481,220) · Quorum <strong>25%</strong> (120,305)</span></div>
+</div>
 
 <div class="prop-card" data-status="prop-rejected">
   <div class="prop-card-header">
@@ -1460,7 +1475,7 @@ hide:
 
 </div>
 <div class="prop-oview-stats">
-<em>103 proposals across 5 quarters. Last updated: 2026-09-16 16:40 UTC</em>
+<em>104 proposals across 5 quarters. Last updated: 2026-09-16 17:00 UTC</em>
 </div>
 
 <script>

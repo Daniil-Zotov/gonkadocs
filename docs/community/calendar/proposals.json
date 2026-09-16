@@ -1402,5 +1402,17 @@
     "tags": [
       "rejected"
     ]
+  },
+  {
+    "date": "2026-09-18",
+    "category": "governance",
+    "type": "proposal_vote_end",
+    "title": "Voting ends: #105 – Approve devshard v5 and bounty payouts",
+    "url": "/proposals/proposals/2026-q3/105/",
+    "time": "16:47 UTC",
+    "description": "Approve DevShard v5 and contributor bounty payouts\n\nThis proposal adds DevShard v5 to the approved list of devshard versions and distributes 91,300 USDT from the community-sale contract to contributor…",
+    "tags": [
+      "voting"
+    ]
   }
 ]
