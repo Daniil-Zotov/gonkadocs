@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-09-16T10:37:43.389085+00:00",
+  "snapshot_time": "2026-09-16T15:16:27.577486+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -311,8 +311,8 @@
     "network-updates.md": {
       "title": "Announcements",
       "status": null,
-      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## September 14, 2026\n\n**The devshard v5 proposal has entered governance**\n\nProposal id 104 does two things: it adds `v5` to the approved list of devshard versions, and it distributes 91,300 USDT in contributor bounties from the community-sale contract.\n\n**",
-      "checksum": "85eaadb9258c672fd1c7701f27c9a5e5af7998c6295f191f5af8ae4084d1b4ed"
+      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## September 16, 2026\n\n**GLM-5.3-Flash is live**\n\nAs of epoch 395, `zai-org/GLM-5.3-Flash` is an active model group and is serving inference on mainnet.\n\nIf you want to host it, you are welcome to join. Declare intent for the model and provision your MLNode",
+      "checksum": "2c0559c54345c9b5f029f4c35df8ac633a8ef318e434a59b6ad4ed2fec53925a"
     },
     "participant/README.md": {
       "title": "Redirecting to Host Section",
