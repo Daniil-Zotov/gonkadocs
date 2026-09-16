@@ -2,7 +2,7 @@
 title: "#598 — Epoch performance additional query"
 source: https://github.com/gonka-ai/gonka/issues/598
 issue_number: 598
-synced_at: 2026-09-16T00:30:16Z
+synced_at: 2026-09-16T06:11:12Z
 template: issues-main.html
 ---
 
