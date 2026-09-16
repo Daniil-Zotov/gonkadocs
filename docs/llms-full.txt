@@ -29768,7 +29768,7 @@ HardCore Arena позволит протестировать модель на �
 
 103Total Proposals
 70Passed (68%)
-31Rejected (30%)
+32Rejected (31%)
 1Failed (1%)
 
 Funding / Grants42
@@ -29787,8 +29787,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
 
   
     #104 – Approve devshard v5 and bounty payouts
-    
-    Voting
+    Rejected
   
   
     Submitted 2026-09-14
@@ -29796,7 +29795,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   
   Add v5 to the approved list of devshard versions and distribute 91300 USDT in contributor bounties from the community-sale contract.
   Yes 100.0% (25,291) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)$91,300 · Community Pool
-  ✗ Turnout 5.2% (25,291 / 482,009) · Quorum 25% (120,502)
+  ✗ Turnout 5.0% (25,291 / 506,660) · Quorum 25% (126,665)
 
   
     #103 – Reimbursement of Expenses for Daniil and David Liberman's Participation in All-In Summit 2026
@@ -30970,7 +30969,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-103 proposals across 5 quarters. Last updated: 2026-09-15 23:54 UTC
+103 proposals across 5 quarters. Last updated: 2026-09-16 02:58 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -68218,7 +68217,7 @@ Contract Details
 
 25Total Proposals
 18Passed (72%)
-6Rejected (24%)
+7Rejected (28%)
 
 Governance Parameters13
 Funding / Grants8
@@ -68234,8 +68233,7 @@ $90,075 USDT · Bounty Reward
 
   
     #104 – Approve devshard v5 and bounty payouts
-    
-    Voting
+    Rejected
   
   
     Submitted 2026-09-14
@@ -68243,7 +68241,7 @@ $90,075 USDT · Bounty Reward
   
   Add v5 to the approved list of devshard versions and distribute 91300 USDT in contributor bounties from the community-sale contract.
   Yes 100.0% (25,291) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)$91,300 · Community Pool
-  ✗ Turnout 5.2% (25,291 / 482,009) · Quorum 25% (120,502)
+  ✗ Turnout 5.0% (25,291 / 506,660) · Quorum 25% (126,665)
 
   
     #103 – Reimbursement of Expenses for Daniil and David Liberman's Participation in All-In Summit 2026
@@ -69842,7 +69840,7 @@ Contract Details
 
 # #104 – Approve devshard v5 and bounty payouts
 
-Voting
+Rejected
 
 **Proposal ID:** `104`
 
@@ -69853,6 +69851,8 @@ Voting
 **Voting:** 2026-09-14 01:23 UTC → 2026-09-16 01:23 UTC
 
 **Proposer:** [`gonka1ejkupq3cy6p8xd64ew2wlzveml86ckpzn9dl56`](https://gonka.gg/address/gonka1ejkupq3cy6p8xd64ew2wlzveml86ckpzn9dl56){:target="_blank"}
+
+**Failed reason:** proposal did not get enough votes to pass
 
 $91,300 · Community Pool
 
@@ -69876,7 +69876,7 @@ Add v5 to the approved list of devshard versions and distribute 91300 USDT in co
     Veto 0.0% (0)
     Abstain 0.0% (0)
     Total 25,291 votes
-    ✗ Turnout 5.2% (25,291 / 482,009) · Quorum 25% (120,502)
+    ✗ Turnout 5.0% (25,291 / 506,660) · Quorum 25% (126,665)
   
 
 Voters
