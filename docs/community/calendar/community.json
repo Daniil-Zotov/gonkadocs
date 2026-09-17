@@ -225,5 +225,25 @@
     "duration_minutes": 60,
     "location": "https://meet.google.com/mrj-tnhs-zvr",
     "uid": "gonka-2026-09-11-df8aac112790@gonkadocs.com"
+  },
+  {
+    "date": "2026-09-22",
+    "category": "community",
+    "type": "ama",
+    "title": "AMA-сессия: токеномика GNK",
+    "url": "https://drive.google.com/file/d/1-SVQaL-rA-ozJcNEPJoXjGO1UIpsoZkt/",
+    "time": "17:00 UTC",
+    "description": "Последние два месяца мы работали над улучшением токеномики Gonka. Цель — выровнять цену токена и сделать доход хостов более предсказуемым, в первую очередь за счёт внедрения механизма 🔥сжигания. Мы провели большую исследовательскую работу, сформировали набор решений и хотим вынести их на обсуждение с сообществом. На AMA-сессии Алексей, CTO Ancapex, расскажет о предложении и ответит на все вопросы.\n\n📅 Вторник, 22 сентября — 19:00 CET · 20:00 МСК (17:00 UTC)\n\n🗣️ Язык: русский\n\nДо начала можно ознакомиться с результатами исследования в презентации и оставить вопросы в Google-форме заранее:\n\n🔗 Презентация: https://drive.google.com/file/d/1-SVQaL-rA-ozJcNEPJoXjGO1UIpsoZkt/\n💬 Вопросы: https://forms.gle/b7WMHHqQBN5KCDW58",
+    "tags": [
+      "ama",
+      "tokenomics",
+      "gnk",
+      "burn",
+      "ancapex"
+    ],
+    "is_all_day": false,
+    "duration_minutes": 60,
+    "location": null,
+    "uid": "gonka-2026-09-22-a7001bb6b624@gonkadocs.com"
   }
 ]
