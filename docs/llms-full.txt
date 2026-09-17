@@ -20554,7 +20554,7 @@ decentralized mixture-of-experts."
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-09-17 12:59 UTC
+2026-09-17 17:34 UTC
 
 ---
 
@@ -20941,25 +20941,25 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ## 🟢 Active Proposals
 
-2Active
-10Votes
+1Active
+5Votes
 0Total Bid
 
 | Status | Title | Author | Votes | Avg. Bid | Closes |
 | :----- | :----- | :----- | ----: | -------: | :----- |
-| 🟢 | [GONKA × Guinness World Records: попытка установить мировой рекорд](./4a170e2e-e1c6-487a-8089-ac533e18194b/) | Nataliia Klymovska | 5 | 0.00 GNK | 2026-09-17 |
 | 🟢 | [Marketing Committee — Operations & Reddit Contributor Pilot](./18b4fee6-896a-4ef2-83e2-9416ecfd736c/) | Pavel Petko | 5 | 0.00 GNK | 2026-09-18 |
 
 ---
 
 ## 🔴 Expired Proposals
 
-42Expired
-53Votes
+43Expired
+58Votes
 127.5K GNKTotal Bid
 
 | Status | Title | Author | Votes | Avg. Bid | Closed |
 | :----- | :----- | :----- | ----: | -------: | :----- |
+| 🔴 | [GONKA × Guinness World Records: попытка установить мировой рекорд](./4a170e2e-e1c6-487a-8089-ac533e18194b/) | Nataliia Klymovska | 5 | 0.00 GNK | 2026-09-17 |
 | 🔴 | [GONKA Global Growth & Market Expansion](./dbc5de38-aec1-4a90-a027-8d7ac835aab0/) | Nataliia Klymovska | 5 | 0.00 GNK | 2026-09-15 |
 | 🔴 | [Game Hackaton AI](./165501de-189e-41c3-aad9-04bac872ef0d/) | Victor | 2 | 0.00 GNK | 2026-09-11 |
 | 🔴 | [Крупнейшее в мире событие для ИИ-разработчиков и создателей AI-продуктов — Sprin](./a2584dc4-1e7b-4cb7-a90d-fcf67306d7c8/) | Nataliia Klymovska | 2 | 0.00 GNK | 2026-08-31 |
@@ -21005,7 +21005,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-09-17 13:23 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-09-17 18:09 UTC*
 
 ---
 
@@ -23226,7 +23226,7 @@ mitchseed
 
 # GONKA × Guinness World Records: попытка установить мировой рекорд
 
-🟢 Active
+🔴 Expired
 
 **Author:** Nataliia Klymovska
 **Created:** 2026-08-18 14:58 UTC
