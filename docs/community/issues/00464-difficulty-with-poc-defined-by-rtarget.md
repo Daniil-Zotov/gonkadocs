@@ -2,7 +2,7 @@
 title: "#464 — Difficulty with PoC, defined by `RTarget`"
 source: https://github.com/gonka-ai/gonka/issues/464
 issue_number: 464
-synced_at: 2026-09-16T23:04:56Z
+synced_at: 2026-09-17T01:32:50Z
 template: issues-main.html
 ---
 
