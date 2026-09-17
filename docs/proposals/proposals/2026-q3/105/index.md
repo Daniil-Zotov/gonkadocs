@@ -62,18 +62,18 @@ The description: <https://github.com/gonka-ai/gonka/blob/devshard-0.2.15-v5/prop
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:31.4%"></div>
+    <div class="prop-tally-yes" style="width:35.5%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (107,984)</span>
+    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (122,143)</span>
     <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-total-text">Total 107,984 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout <strong>31.4%</strong> (107,984 / 344,404) · Quorum <strong>25%</strong> (86,101)</span>
+    <span class="prop-tally-total-text">Total 122,143 votes</span>
+    <span class="prop-tally-yes-text">✓ Turnout <strong>35.5%</strong> (122,143 / 344,404) · Quorum <strong>25%</strong> (86,101)</span>
   </div>
 </div>
 
@@ -94,6 +94,7 @@ The description: <https://github.com/gonka-ai/gonka/blob/devshard-0.2.15-v5/prop
 <tr><td><a href="https://gonka.gg/address/gonka1t0psqlz8fzhlqnaresvk5vxfmgv0te23mnwdad" target="_blank" class="prop-voter-addr">gonka1t0psql…mnwdad</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1kvmerzu64094dt9t62ea0cp75larh39ulzldum" target="_blank" class="prop-voter-addr">gonka1kvmerz…lzldum</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka16dgkvx7mh609ntkzknckwaskgq9lcdp86j0skk" target="_blank" class="prop-voter-addr">gonka16dgkvx…6j0skk</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
+<tr><td><a href="https://gonka.gg/address/gonka1u60wtn9dhadweeuq2gywcpx34fpfnuhmu7w0qq" target="_blank" class="prop-voter-addr">gonka1u60wtn…u7w0qq</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 </tbody>
 </table>
 </div>
