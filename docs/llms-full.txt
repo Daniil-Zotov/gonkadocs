@@ -29896,8 +29896,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-09-18
   
   Approve DevShard v5 and contributor bounty payouts  This proposal adds DevShard v5 to the approved list of devshard versions and distributes 91,300 USDT from the community-sale contract to contributor…
-  Yes 100.0% (10,656) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)$91,300 · Community Pool
-  ✗ Turnout 2.2% (10,656 / 481,220) · Quorum 25% (120,305)
+  Yes 100.0% (12,610) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)$91,300 · Community Pool
+  ✗ Turnout 3.7% (12,610 / 344,404) · Quorum 25% (86,101)
 
   
     #104 – Approve devshard v5 and bounty payouts
@@ -31083,7 +31083,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-104 proposals across 5 quarters. Last updated: 2026-09-17 01:22 UTC
+104 proposals across 5 quarters. Last updated: 2026-09-17 04:22 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -68355,8 +68355,8 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-09-18
   
   Approve DevShard v5 and contributor bounty payouts  This proposal adds DevShard v5 to the approved list of devshard versions and distributes 91,300 USDT from the community-sale contract to contributor…
-  Yes 100.0% (10,656) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)$91,300 · Community Pool
-  ✗ Turnout 2.2% (10,656 / 481,220) · Quorum 25% (120,305)
+  Yes 100.0% (12,610) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)$91,300 · Community Pool
+  ✗ Turnout 3.7% (12,610 / 344,404) · Quorum 25% (86,101)
 
   
     #104 – Approve devshard v5 and bounty payouts
@@ -70640,12 +70640,12 @@ The description:  (sha256 7bba17188e4c3d15476f2c6330281b3908fc124e9eb26950acd6f9
     
   
   
-    Yes 100.0% (10,656)
+    Yes 100.0% (12,610)
     No 0.0% (0)
     Veto 0.0% (0)
     Abstain 0.0% (0)
-    Total 10,656 votes
-    ✗ Turnout 2.2% (10,656 / 481,220) · Quorum 25% (120,305)
+    Total 12,610 votes
+    ✗ Turnout 3.7% (12,610 / 344,404) · Quorum 25% (86,101)
   
 
 Voters
@@ -70653,6 +70653,7 @@ Voters
 VoterVote
 
 gonka1qwfrtz…33xdklYes 100.0%
+gonka1p2lhgn…k6h26mYes 100.0%
 gonka1rqm2u7…mgd53tYes 100.0%
 gonka1gyk0aa…k8svc5Yes 100.0%
 gonka1fundsn…ls252eYes 100.0%
