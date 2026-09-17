@@ -2,7 +2,7 @@
 title: "#1053 — Security Audit: Systematic review across inference chain, bridge, subnet, and API layers"
 source: https://github.com/gonka-ai/gonka/issues/1053
 issue_number: 1053
-synced_at: 2026-09-17T07:48:09Z
+synced_at: 2026-09-17T13:35:53Z
 template: issues-main.html
 ---
 
