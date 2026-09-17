@@ -2,7 +2,7 @@
 title: "#672 — gRPC always falls back to RPC"
 source: https://github.com/gonka-ai/gonka/issues/672
 issue_number: 672
-synced_at: 2026-09-17T01:32:17Z
+synced_at: 2026-09-17T07:49:11Z
 template: issues-main.html
 ---
 
