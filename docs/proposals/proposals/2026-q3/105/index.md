@@ -62,18 +62,18 @@ The description: <https://github.com/gonka-ai/gonka/blob/devshard-0.2.15-v5/prop
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:35.5%"></div>
+    <div class="prop-tally-yes" style="width:35.3%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (122,143)</span>
+    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (121,210)</span>
     <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-total-text">Total 122,143 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout <strong>35.5%</strong> (122,143 / 344,404) · Quorum <strong>25%</strong> (86,101)</span>
+    <span class="prop-tally-total-text">Total 121,210 votes</span>
+    <span class="prop-tally-yes-text">✓ Turnout <strong>35.3%</strong> (121,210 / 343,159) · Quorum <strong>25%</strong> (85,789)</span>
   </div>
 </div>
 
