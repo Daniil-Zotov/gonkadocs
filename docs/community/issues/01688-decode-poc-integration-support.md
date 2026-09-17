@@ -2,7 +2,7 @@
 title: "#1688 — Decode PoC: integration support"
 source: https://github.com/gonka-ai/gonka/issues/1688
 issue_number: 1688
-synced_at: 2026-09-17T13:34:55Z
+synced_at: 2026-09-17T18:20:26Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-08-31 20:15 UTC</span>
-    <span class="issues-meta-item">5 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-11 21:08 UTC</span>
+    <span class="issues-meta-item">6 comments</span>
+    <span class="issues-meta-item">Updated 2026-09-17 14:28 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -43,7 +43,7 @@ DeepSeek seeding is more complex than MiniMax. This issue covers the integration
 
 ---
 
-## 💬 Comments (5)
+## 💬 Comments (6)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -143,6 +143,23 @@ DeepSeek seeding is more complex than MiniMax. This issue covers the integration
 <li>2026-09-11: @vbgd0 asked us to add decode-PoC support for GLM-5.3-Flash — the simplest shim in the plugin and nonce/min for the model, targeting <code>release/v0.28-decode-int</code>. That opens a second 0.28 line beside the 0.25.1 one; branches started on our forks.</li>
 </ul>
 <p><strong>Next:</strong> merge order for <code>#8</code> and <code>#100</code> is @vbgd0's call; we build the 0.28 decode line meanwhile. Update here 2026-09-14.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/baychak">@baychak</a></span>
+    <span class="issues-meta-item">commented 2026-09-17 14:28 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p><strong>Status:</strong> in progress. The 09-14 update was missed.</p>
+<p><strong>Since last</strong></p>
+<ul>
+<li>decode-PoC on GLM-5.3-Flash is done and measured on all four cards; the report went up on 09-16: <a href="https://github.com/kaitakuai/experiments/tree/main/2026-09/decode-poc-0281-glm-freeze">kaitakuai/experiments/2026-09/decode-poc-0281-glm-freeze</a>. Nonces per minute on 8 GPUs: 2×B300 5,050; 4×B200 4,202; 4×H200 1,702; 8×H100 921.</li>
+<li>The GLM line moved to the vendor upstream base: <a href="https://github.com/gonka-ai/vllm/pull/112">gonka-ai/vllm#112</a> merged by @vbgd0 on 09-16; the engine half is <a href="https://github.com/gonka-ai/vllm/pull/113">gonka-ai/vllm#113</a>, the plugin half <a href="https://github.com/gonka-ai/gonka-vllm-plugins/pull/12">gonka-ai/gonka-vllm-plugins#12</a> into <code>decode-poc-glm53</code>, both open. <code>#113</code> changes the inference-validation path (trace replay instead of <code>enforced_token_ids</code>) — noted here for @vbgd0 ahead of review.</li>
+<li>Release shape agreed with @vbgd0 on 09-16: DeepSeek and MiniMax on 0.25.1, GLM on its own 0.28 line; 0.29 after the release. Re-measured on 0.28: MiniMax unchanged, DeepSeek +17–20 % PoC everywhere except H200 (being re-measured); B200 not measured.</li>
+<li><a href="https://github.com/gonka-ai/gonka-vllm-plugins/pull/8">gonka-ai/gonka-vllm-plugins#8</a> (refreshed 09-16 with the ports of <code>plugins#10</code>/<code>#11</code>), <a href="https://github.com/gonka-ai/vllm/pull/100">gonka-ai/vllm#100</a> and <a href="https://github.com/gonka-ai/gonka/pull/1743">#1743</a> are open, no review. The external review @vbgd0 requested on 09-11 has not answered yet.</li>
+</ul>
+<p><strong>Next:</strong> smoke of <code>#113</code> on hardware — boot, acceptance check, one replay validation — needs a box; then review of <code>#113</code>/<code>#12</code> by @vbgd0. Design questions: 2 is answered by the note on <a href="https://github.com/gonka-ai/gonka/issues/1690">#1690</a>; 1 and 3 unchanged. Update here 2026-09-21.</p>
   </div>
 </div>
 

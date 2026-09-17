@@ -2,7 +2,7 @@
 title: "#1691 — GLM 5.3 Flash: vLLM 0.28 image + PoC fix"
 source: https://github.com/gonka-ai/gonka/issues/1691
 issue_number: 1691
-synced_at: 2026-09-17T13:34:53Z
+synced_at: 2026-09-17T18:20:26Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-08-31 20:23 UTC</span>
-    <span class="issues-meta-item">5 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-11 21:44 UTC</span>
+    <span class="issues-meta-item">6 comments</span>
+    <span class="issues-meta-item">Updated 2026-09-17 14:26 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -90,7 +90,7 @@ The image is treated as delivered when this checklist is complete.
 
 ---
 
-## 💬 Comments (5)
+## 💬 Comments (6)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -165,6 +165,23 @@ The image is treated as delivered when this checklist is complete.
 <li>Two checklist rows fell away with their models: Kimi-K2.6 and GLM-5.2-FP8 are no longer on chain.</li>
 </ul>
 <p><strong>Next:</strong> @tcharchian — the work is finished on our side; please close, or say what is missing. We are not ticking the boxes because the question of whether we may tick is open since 2026-09-07.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/baychak">@baychak</a></span>
+    <span class="issues-meta-item">commented 2026-09-17 14:26 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p><strong>Status:</strong> delivered; the model is live.</p>
+<p><strong>Since last</strong></p>
+<ul>
+<li>GLM-5.3-Flash entered the epoch on 2026-09-16 at about 02:35 UTC, on the fourth attempt; the 09-15 window did not form — fewer than three hosts.</li>
+<li>Two incidents on 09-16, both closed in <code>mlnode:3.1.0</code> (<code>de9150fc</code>): H200 and Blackwell nodes voting each other invalid — first nonce of a batch, <a href="https://github.com/gonka-ai/gonka-vllm-plugins/pull/10">gonka-ai/gonka-vllm-plugins#10</a>; a node stuck after <code>/init/generate</code> with no nonces — a replay <code>max_tokens</code> pin inherited from <a href="https://github.com/kaitakuai/vllm/pull/21">kaitakuai/vllm#21</a>, removed in <a href="https://github.com/gonka-ai/vllm/pull/111">gonka-ai/vllm#111</a>.</li>
+<li>H100 runs GLM at PoC batch 8 only, H200 at 16. Our overlay images are rebuilt on 3.1.0 with plugin v0.1.6: <code>kaitakuai/mlnode-{h100,h200,b200,b300}-glm-5-3-flash:3.1.0-overlay-k2</code>.</li>
+<li>Open since 09-07, no answer yet: the memory-budget threshold and whether we may tick the checklist.</li>
+</ul>
+<p><strong>Next:</strong> @tcharchian — please close, or say what is missing. Next update 2026-09-21 if the issue stays open.</p>
   </div>
 </div>
 

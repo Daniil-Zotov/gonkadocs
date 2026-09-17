@@ -2,7 +2,7 @@
 title: "#1690 — First full MNode image for Decode PoC (DeepSeek): testing + coefficients"
 source: https://github.com/gonka-ai/gonka/issues/1690
 issue_number: 1690
-synced_at: 2026-09-17T13:34:54Z
+synced_at: 2026-09-17T18:20:25Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-08-31 20:21 UTC</span>
-    <span class="issues-meta-item">5 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-11 21:37 UTC</span>
+    <span class="issues-meta-item">6 comments</span>
+    <span class="issues-meta-item">Updated 2026-09-17 14:30 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -56,7 +56,7 @@ Confirm the live on-chain id from poc_params.models if it has drifted. Target:
 
 ---
 
-## 💬 Comments (5)
+## 💬 Comments (6)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -180,6 +180,23 @@ stating plainly:</p>
 checked today is the boot-log assertion above and a regression that the verdict is
 unchanged. Measuring the histogram is one instrumented run on one card; say the word and it
 goes into the next campaign.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/baychak">@baychak</a></span>
+    <span class="issues-meta-item">commented 2026-09-17 14:30 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p><strong>Status:</strong> in progress. The 09-14 update was missed.</p>
+<p><strong>Since last</strong></p>
+<ul>
+<li>No questions or objections on the seeding-scheme note (09-11).</li>
+<li>The per-layer histogram of attested experts after the fix is still not measured: one instrumented run on one card, and no box is up for our work right now.</li>
+<li>DeepSeek thresholds still wait on two decisions — the choice of statistic and the sm80 policy; neither is taken. In the 0.25.1 report A100 appears as a validator while the policy is not fixed.</li>
+<li>DeepSeek re-measured on 0.28 (09-15/16): +17–20 % PoC over 0.25.1 everywhere except H200. For the decode-PoC release DeepSeek stays on 0.25.1 (agreed with @vbgd0 on 09-16), so thresholds are collected on 0.25.1 — the re-measurement does not invalidate them.</li>
+</ul>
+<p><strong>Next:</strong> a proposal for the statistic and for sm80 — here, by 2026-09-21; the histogram as soon as a box is up. Update here 2026-09-21.</p>
   </div>
 </div>
 
