@@ -3,7 +3,7 @@ title: "#1721 — Community interest: adding GLM-5.3-Flash and Qwen3.8-Flash-Nex
 source: https://github.com/gonka-ai/gonka/discussions/1721
 discussion_number: 1721
 category: protocol-improvements
-synced_at: 2026-09-16T22:04:03Z
+synced_at: 2026-09-17T00:26:15Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1721](https://github.com/gonka-ai/gonka/discussions/1721) every hour. 
