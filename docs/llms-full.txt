@@ -20554,7 +20554,7 @@ decentralized mixture-of-experts."
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-09-18 02:51 UTC
+2026-09-18 07:54 UTC
 
 ---
 
@@ -29897,7 +29897,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   
   Approve DevShard v5 and contributor bounty payouts  This proposal adds DevShard v5 to the approved list of devshard versions and distributes 91,300 USDT from the community-sale contract to contributor…
   Yes 100.0% (124,657) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)$91,300 · Community Pool
-  ✓ Turnout 35.5% (124,657 / 350,740) · Quorum 25% (87,685)
+  ✓ Turnout 36.1% (124,657 / 345,678) · Quorum 25% (86,419)
 
   
     #104 – Approve devshard v5 and bounty payouts
@@ -31083,7 +31083,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-104 proposals across 5 quarters. Last updated: 2026-09-18 05:09 UTC
+104 proposals across 5 quarters. Last updated: 2026-09-18 09:20 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -68356,7 +68356,7 @@ $90,075 USDT · Bounty Reward
   
   Approve DevShard v5 and contributor bounty payouts  This proposal adds DevShard v5 to the approved list of devshard versions and distributes 91,300 USDT from the community-sale contract to contributor…
   Yes 100.0% (124,657) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)$91,300 · Community Pool
-  ✓ Turnout 35.5% (124,657 / 350,740) · Quorum 25% (87,685)
+  ✓ Turnout 36.1% (124,657 / 345,678) · Quorum 25% (86,419)
 
   
     #104 – Approve devshard v5 and bounty payouts
@@ -70645,7 +70645,7 @@ The description:  (sha256 7bba17188e4c3d15476f2c6330281b3908fc124e9eb26950acd6f9
     Veto 0.0% (0)
     Abstain 0.0% (0)
     Total 124,657 votes
-    ✓ Turnout 35.5% (124,657 / 350,740) · Quorum 25% (87,685)
+    ✓ Turnout 36.1% (124,657 / 345,678) · Quorum 25% (86,419)
   
 
 Voters
