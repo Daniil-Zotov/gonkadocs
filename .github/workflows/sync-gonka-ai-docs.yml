@@ -42,7 +42,7 @@ jobs:
         env:
           AI_API_KEY: ${{ secrets.AI_API_KEY }}
           AI_API_ENDPOINT: "https://api.proxy.gonka.gg/v1"
-          AI_MODEL: "moonshotai/Kimi-K2.6"
+          AI_MODEL: "deepseek-ai/DeepSeek-V4-Flash-0731"
 
       - name: Regenerate AI-agent files (llms.txt, llms-full.txt)
         run: |

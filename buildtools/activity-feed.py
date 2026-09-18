@@ -476,7 +476,7 @@ def enrich_with_ai(events: list, section: str):
     api_endpoint = os.environ.get(
         'AI_API_ENDPOINT', 'https://api.proxy.gonka.gg/v1'
     ).rstrip('/')
-    model = os.environ.get('AI_MODEL', 'moonshotai/Kimi-K2.6')
+    model = os.environ.get('AI_MODEL', 'deepseek-ai/DeepSeek-V4-Flash-0731')
 
     if not api_key:
         print('  AI enrichment: AI_API_KEY not set, skipping')
@@ -494,6 +494,18 @@ def enrich_with_ai(events: list, section: str):
             print(f'  AI enrichment failed for {event["id"]}: {e}', file=sys.stderr)
 
 
+def _is_fallback_placeholder(ai: str) -> bool:
+    """True if the text is the deterministic fallback description
+    (produced by _fallback_description), not real AI enrichment.
+    Fallbacks start with an action label such as 'Added:', 'Updated:'."""
+    if not ai:
+        return False
+    return re.match(
+        r'^(' + '|'.join(ACTION_LABELS.values()) + r'):',
+        ai,
+    ) is not None
+
+
 def backfill_enrichments(events_path: Path):
     """Enrich or translate events already stored in events.json.
 
@@ -507,7 +519,7 @@ def backfill_enrichments(events_path: Path):
     api_endpoint = os.environ.get(
         'AI_API_ENDPOINT', 'https://api.proxy.gonka.gg/v1'
     ).rstrip('/')
-    model = os.environ.get('AI_MODEL', 'moonshotai/Kimi-K2.6')
+    model = os.environ.get('AI_MODEL', 'deepseek-ai/DeepSeek-V4-Flash-0731')
 
     if not api_key:
         print('  AI backfill: AI_API_KEY not set, skipping')
@@ -530,13 +542,18 @@ def backfill_enrichments(events_path: Path):
         ai = event.get('ai_description') or ''
         section = event.get('section', '')
 
-        # Skip events that are already enriched in English, unless the text
-        # looks like a failed output (empty, still Cyrillic, or echoed prompt).
-        if ai and not _has_cyrillic(ai) and 'Post to translate' not in ai:
+        # Skip events that are already genuinely enriched in English, unless
+        # the text looks like a failed output (empty, still Cyrillic, echoed
+        # prompt, or the deterministic fallback placeholder).
+        if (ai and not _has_cyrillic(ai)
+                and 'Post to translate' not in ai
+                and not _is_fallback_placeholder(ai)):
             continue
 
         try:
-            if not ai:
+            if not ai or _is_fallback_placeholder(ai):
+                # No real enrichment yet (missing or deterministic fallback):
+                # generate a fresh post from the event details.
                 user_prompt = _build_user_prompt(section, event)
                 ai_text = _call_ai(api_key, api_endpoint, model,
                                    AI_SYSTEM_PROMPT, user_prompt)
