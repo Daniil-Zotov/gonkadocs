@@ -245,5 +245,24 @@
     "duration_minutes": 60,
     "location": null,
     "uid": "gonka-2026-09-22-a7001bb6b624@gonkadocs.com"
+  },
+  {
+    "date": "2026-09-18",
+    "category": "community",
+    "type": "ama",
+    "title": "Встреча с контрибьюторами | Contributors Call",
+    "url": "https://us06web.zoom.us/j/86424784039",
+    "time": "17:00 UTC",
+    "description": "Встречаемся с контрибьюторами: обсудим, что нового в протоколе и что планируется!\n\n📅 Пятница, 18 сентября\n🕣 10:00 LA · 17:00 UTC · 20:00 МСК\n\n💻 Zoom: https://us06web.zoom.us/j/86424784039\n🗣️ Язык: русский\n\n🎙 Гости: @ak986 и @baridoka kaitaku\n🎤 Ведущие: @dem_ww и @paranko",
+    "tags": [
+      "ama",
+      "contributors",
+      "protocol",
+      "community"
+    ],
+    "is_all_day": false,
+    "duration_minutes": 60,
+    "location": "https://us06web.zoom.us/j/86424784039",
+    "uid": "gonka-2026-09-18-2465524de3df@gonkadocs.com"
   }
 ]
