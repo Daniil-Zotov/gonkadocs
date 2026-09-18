@@ -20941,24 +20941,19 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ## 🟢 Active Proposals
 
-1Active
-5Votes
-0Total Bid
-
-| Status | Title | Author | Votes | Avg. Bid | Closes |
-| :----- | :----- | :----- | ----: | -------: | :----- |
-| 🟢 | [Marketing Committee — Operations & Reddit Contributor Pilot](./18b4fee6-896a-4ef2-83e2-9416ecfd736c/) | Pavel Petko | 5 | 0.00 GNK | 2026-09-18 |
+*No active proposals.*
 
 ---
 
 ## 🔴 Expired Proposals
 
-43Expired
-58Votes
+44Expired
+63Votes
 51.1K GNKTotal Bid
 
 | Status | Title | Author | Votes | Avg. Bid | Closed |
 | :----- | :----- | :----- | ----: | -------: | :----- |
+| 🔴 | [Marketing Committee — Operations & Reddit Contributor Pilot](./18b4fee6-896a-4ef2-83e2-9416ecfd736c/) | Pavel Petko | 5 | 0.00 GNK | 2026-09-18 |
 | 🔴 | [GONKA × Guinness World Records: попытка установить мировой рекорд](./4a170e2e-e1c6-487a-8089-ac533e18194b/) | Nataliia Klymovska | 5 | 0.00 GNK | 2026-09-17 |
 | 🔴 | [GONKA Global Growth & Market Expansion](./dbc5de38-aec1-4a90-a027-8d7ac835aab0/) | Nataliia Klymovska | 5 | 0.00 GNK | 2026-09-15 |
 | 🔴 | [Game Hackaton AI](./165501de-189e-41c3-aad9-04bac872ef0d/) | Victor | 2 | 0.00 GNK | 2026-09-11 |
@@ -21005,7 +21000,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-09-18 05:51 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-09-18 11:06 UTC*
 
 ---
 
@@ -21948,7 +21943,7 @@ Support developers — become part of GameHub. 🚀
 
 # Marketing Committee — Operations & Reddit Contributor Pilot
 
-🟢 Active
+🔴 Expired
 
 **Author:** Pavel Petko
 **Created:** 2026-09-11 09:39 UTC
@@ -31083,7 +31078,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-104 proposals across 5 quarters. Last updated: 2026-09-18 10:00 UTC
+104 proposals across 5 quarters. Last updated: 2026-09-18 10:40 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {

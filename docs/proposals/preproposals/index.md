@@ -11,17 +11,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ## 🟢 Active Proposals
 
-<div class="quarter-summary" markdown="1">
-<div class="qs-stats">
-<div class="qs-stat passed"><span class="qs-num">1</span><span class="qs-desc">Active</span></div>
-<div class="qs-stat"><span class="qs-num">5</span><span class="qs-desc">Votes</span></div>
-<div class="qs-stat"><span class="qs-num">0</span><span class="qs-desc">Total Bid</span></div>
-</div>
-</div>
-
-| Status | Title | Author | Votes | Avg. Bid | Closes |
-| :----- | :----- | :----- | ----: | -------: | :----- |
-| 🟢 | [Marketing Committee — Operations & Reddit Contributor Pilot](./18b4fee6-896a-4ef2-83e2-9416ecfd736c/) | Pavel Petko | 5 | 0.00 GNK | 2026-09-18 |
+*No active proposals.*
 
 
 ---
@@ -30,14 +20,15 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 <div class="quarter-summary" markdown="1">
 <div class="qs-stats">
-<div class="qs-stat rejected"><span class="qs-num">43</span><span class="qs-desc">Expired</span></div>
-<div class="qs-stat"><span class="qs-num">58</span><span class="qs-desc">Votes</span></div>
+<div class="qs-stat rejected"><span class="qs-num">44</span><span class="qs-desc">Expired</span></div>
+<div class="qs-stat"><span class="qs-num">63</span><span class="qs-desc">Votes</span></div>
 <div class="qs-stat"><span class="qs-num">51.1K GNK</span><span class="qs-desc">Total Bid</span></div>
 </div>
 </div>
 
 | Status | Title | Author | Votes | Avg. Bid | Closed |
 | :----- | :----- | :----- | ----: | -------: | :----- |
+| 🔴 | [Marketing Committee — Operations & Reddit Contributor Pilot](./18b4fee6-896a-4ef2-83e2-9416ecfd736c/) | Pavel Petko | 5 | 0.00 GNK | 2026-09-18 |
 | 🔴 | [GONKA × Guinness World Records: попытка установить мировой рекорд](./4a170e2e-e1c6-487a-8089-ac533e18194b/) | Nataliia Klymovska | 5 | 0.00 GNK | 2026-09-17 |
 | 🔴 | [GONKA Global Growth & Market Expansion](./dbc5de38-aec1-4a90-a027-8d7ac835aab0/) | Nataliia Klymovska | 5 | 0.00 GNK | 2026-09-15 |
 | 🔴 | [Game Hackaton AI](./165501de-189e-41c3-aad9-04bac872ef0d/) | Victor | 2 | 0.00 GNK | 2026-09-11 |
@@ -85,4 +76,4 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-09-18 05:51 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-09-18 11:06 UTC*
