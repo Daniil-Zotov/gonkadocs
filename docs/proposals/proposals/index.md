@@ -72,7 +72,7 @@ hide:
   </div>
   <div class="prop-card-desc">Approve DevShard v5 and contributor bounty payouts  This proposal adds DevShard v5 to the approved list of devshard versions and distributes 91,300 USDT from the community-sale contract to contributor…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (124,657)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding prop-card-funding-voting">$91,300 · Community Pool</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>35.5%</strong> (124,657 / 350,740) · Quorum <strong>25%</strong> (87,685)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>36.1%</strong> (124,657 / 345,678) · Quorum <strong>25%</strong> (86,419)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -1475,7 +1475,7 @@ hide:
 
 </div>
 <div class="prop-oview-stats">
-<em>104 proposals across 5 quarters. Last updated: 2026-09-18 07:40 UTC</em>
+<em>104 proposals across 5 quarters. Last updated: 2026-09-18 08:00 UTC</em>
 </div>
 
 <script>
