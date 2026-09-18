@@ -1,6 +1,6 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-09-18T16:39:19.743387+00:00",
+  "snapshot_time": "2026-09-18T19:53:48.047661+00:00",
   "files": {
     "1b608f38bcf9c2f73348e483c535a7b3f0d6bda283a50d79dbdc278ec8e7bdbe": {
       "title": "AMA: Работа маркетинг-комитета",
@@ -2252,14 +2252,14 @@
       "content_preview": "Add v5 to the approved list of devshard versions and distribute 91300 USDT in contributor bounties from the community-sale contract.",
       "checksum": "64177cc67276a96955b85926fd72699f6f8a7711285e827a84df110b92fd0f11"
     },
-    "67fef6626cd1dbfbc9c6091f11a186cc1d73e27320836f512914eb71ef8573fe": {
-      "title": "Voting ends: #105 – Approve devshard v5 and bounty payouts",
+    "927c962e143a72a88777565ada937cf79d0fe88660be0c86b915f77ddecdb792": {
+      "title": "Passed: #105 – Approve devshard v5 and bounty payouts",
       "date": "2026-09-18",
       "time": "16:47 UTC",
-      "event_type": "proposal_vote_end",
+      "event_type": "proposal_report",
       "url": "/proposals/proposals/2026-q3/105/",
       "content_preview": "Approve DevShard v5 and contributor bounty payouts\n\nThis proposal adds DevShard v5 to the approved list of devshard versions and distributes 91,300 USDT from the community-sale contract to contributor…",
-      "checksum": "158a02d97e3f30a3ed88215a904b7a13439526371f133014f7f7371ed3f69592"
+      "checksum": "308f37f77b150d94937a0a6aef0c982393dce99c837fa40656f37d58a941d158"
     }
   }
 }
