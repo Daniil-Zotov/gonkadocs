@@ -2,7 +2,7 @@
 title: "#804 — [P0?] Extend dev and TA signature payloads"
 source: https://github.com/gonka-ai/gonka/issues/804
 issue_number: 804
-synced_at: 2026-09-18T11:27:38Z
+synced_at: 2026-09-18T16:33:36Z
 template: issues-main.html
 ---
 
