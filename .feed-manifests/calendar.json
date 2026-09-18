@@ -1,6 +1,6 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-09-18T06:27:43.371160+00:00",
+  "snapshot_time": "2026-09-18T11:42:02.578735+00:00",
   "files": {
     "1b608f38bcf9c2f73348e483c535a7b3f0d6bda283a50d79dbdc278ec8e7bdbe": {
       "title": "AMA: Работа маркетинг-комитета",
@@ -127,6 +127,15 @@
       "url": "https://drive.google.com/file/d/1-SVQaL-rA-ozJcNEPJoXjGO1UIpsoZkt/",
       "content_preview": "Последние два месяца мы работали над улучшением токеномики Gonka. Цель — выровнять цену токена и сделать доход хостов более предсказуемым, в первую очередь за счёт внедрения механизма 🔥сжигания. Мы провели большую исследовательскую работу, сформировали набор решений и хотим вынести их на обсуждение с сообществом. На AMA-сессии Алексей, CTO Ancapex, расскажет о предложении и ответит на все вопросы.\n\n📅 Вторник, 22 сентября — 19:00 CET · 20:00 МСК (17:00 UTC)\n\n🗣️ Язык: русский\n\nДо начала можно ознакомиться с результатами исследования в презентации и оставить вопросы в Google-форме заранее:\n\n🔗 Презентация: https://drive.google.com/file/d/1-SVQaL-rA-ozJcNEPJoXjGO1UIpsoZkt/\n💬 Вопросы: https://forms.gle/b7WMHHqQBN5KCDW58",
       "checksum": "1f7e0619656a914391c98035b5fcce152340af3c2ed55fdc0383b9d1a987fafe"
+    },
+    "5592a0c6956005678f6dc3ad66a8e3ae3e2c555705aeaef5a575dc349e0c4dd9": {
+      "title": "Встреча с контрибьюторами | Contributors Call",
+      "date": "2026-09-18",
+      "time": "17:00 UTC",
+      "event_type": "ama",
+      "url": "https://us06web.zoom.us/j/86424784039",
+      "content_preview": "Встречаемся с контрибьюторами: обсудим, что нового в протоколе и что планируется!\n\n📅 Пятница, 18 сентября\n🕣 10:00 LA · 17:00 UTC · 20:00 МСК\n\n💻 Zoom: https://us06web.zoom.us/j/86424784039\n🗣️ Язык: русский\n\n🎙 Гости: @ak986 и @baridoka kaitaku\n🎤 Ведущие: @dem_ww и @paranko",
+      "checksum": "8a999f6c89d1ab40e77671a0b78b294906c9f6da5e9b777ff4b6bb894e002624"
     },
     "60130ca155a868e409b7aa0642525df006c4e05da481ba6f8787253101992676": {
       "title": "Migrate community-sale and wrapped-token contracts",
