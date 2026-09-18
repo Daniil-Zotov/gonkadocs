@@ -5,12 +5,57 @@ template: issues-main.html
 
 # Issues: no-label
 
-Issues with label **no-label**. Total: **279**.
-Updated: `2026-09-18 16:36 UTC`.
+Issues with label **no-label**. Total: **278**.
+Updated: `2026-09-18 19:46 UTC`.
 
 [← All Issues](../../index.md)
 
 <ul class="issues-list">
+<li class="issues-list-item">
+  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
+      <a href="../../01799-devshard-gateway-request-specific-insufficient-balance-deact/">devshard gateway: request-specific insufficient balance deactivates and remints a usable escrow</a>
+      <span class="issues-number">#1799</span>
+    </div>
+    
+    <div class="issues-labels"></div>
+    <div class="issues-meta">
+      <span class="issues-meta-item"><a href="https://github.com/anatoly-kuz-mntn">@anatoly-kuz-mntn</a> opened 9 minutes ago</span>
+      
+    </div>
+  </div>
+</li>
+<li class="issues-list-item">
+  <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
+      <a href="../../01539-hardening-network-duty-fee-bypass-admits-zero-fee-txs-from-n/">Hardening: network-duty fee-bypass admits zero-fee txs from non-participants (no signer authorization at the ante layer)</a>
+      <span class="issues-number">#1539</span>
+    </div>
+    
+    <div class="issues-labels"></div>
+    <div class="issues-meta">
+      <span class="issues-meta-item"><a href="https://github.com/kAIPraxisBot">@kAIPraxisBot</a> opened 16 minutes ago</span>
+      
+    </div>
+  </div>
+</li>
+<li class="issues-list-item">
+  <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
+      <a href="../../01762-devshard-host-bridge-drops-escrow-refusal-timeoutexecution-t/">devshard: host bridge drops escrow refusal_timeout/execution_timeout, so host and gateway can bind different SessionConfig</a>
+      <span class="issues-number">#1762</span>
+    </div>
+    
+    <div class="issues-labels"></div>
+    <div class="issues-meta">
+      <span class="issues-meta-item"><a href="https://github.com/kAIPraxisBot">@kAIPraxisBot</a> opened 16 minutes ago</span>
+      
+    </div>
+  </div>
+</li>
 <li class="issues-list-item">
   <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
   <div class="issues-body">
@@ -21,7 +66,22 @@ Updated: `2026-09-18 16:36 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/icezoneproject">@icezoneproject</a> opened 7 hours ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/icezoneproject">@icezoneproject</a> opened 44 minutes ago</span>
+      
+    </div>
+  </div>
+</li>
+<li class="issues-list-item">
+  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
+      <a href="../../01691-glm-53-flash-vllm-028-image-poc-fix/">GLM 5.3 Flash: vLLM 0.28 image + PoC fix</a>
+      <span class="issues-number">#1691</span>
+    </div>
+    
+    <div class="issues-labels"></div>
+    <div class="issues-meta">
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 59 minutes ago</span>
       
     </div>
   </div>
@@ -36,37 +96,7 @@ Updated: `2026-09-18 16:36 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/aikuznetsov">@aikuznetsov</a> opened 13 hours ago</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../01800-devshard-gateway-request-specific-insufficient-balance-deact/">devshard gateway: request-specific insufficient balance deactivates and remints a usable escrow</a>
-      <span class="issues-number">#1800</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/aikuznetsov">@aikuznetsov</a> opened 13 hours ago</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../01799-devshard-gateway-request-specific-insufficient-balance-deact/">devshard gateway: request-specific insufficient balance deactivates and remints a usable escrow</a>
-      <span class="issues-number">#1799</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/anatoly-kuz-mntn">@anatoly-kuz-mntn</a> opened 13 hours ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/aikuznetsov">@aikuznetsov</a> opened 16 hours ago</span>
       
     </div>
   </div>
@@ -112,36 +142,6 @@ Updated: `2026-09-18 16:36 UTC`.
     <div class="issues-labels"></div>
     <div class="issues-meta">
       <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 1 day ago</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../01691-glm-53-flash-vllm-028-image-poc-fix/">GLM 5.3 Flash: vLLM 0.28 image + PoC fix</a>
-      <span class="issues-number">#1691</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 1 day ago</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../01762-devshard-host-bridge-drops-escrow-refusal-timeoutexecution-t/">devshard: host bridge drops escrow refusal_timeout/execution_timeout, so host and gateway can bind different SessionConfig</a>
-      <span class="issues-number">#1762</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/kAIPraxisBot">@kAIPraxisBot</a> opened 2 days ago</span>
       
     </div>
   </div>
@@ -276,7 +276,7 @@ Updated: `2026-09-18 16:36 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/vitaly-andr">@vitaly-andr</a> opened 7 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/vitaly-andr">@vitaly-andr</a> opened 8 days ago</span>
       
     </div>
   </div>
@@ -321,7 +321,7 @@ Updated: `2026-09-18 16:36 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 10 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 11 days ago</span>
       
     </div>
   </div>
@@ -396,7 +396,7 @@ Updated: `2026-09-18 16:36 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Ryanchen911">@Ryanchen911</a> opened 14 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/Ryanchen911">@Ryanchen911</a> opened 15 days ago</span>
       
     </div>
   </div>
@@ -411,7 +411,7 @@ Updated: `2026-09-18 16:36 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/vitaly-andr">@vitaly-andr</a> opened 15 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/vitaly-andr">@vitaly-andr</a> opened 16 days ago</span>
       
     </div>
   </div>
@@ -486,7 +486,7 @@ Updated: `2026-09-18 16:36 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Doog-bot534">@Doog-bot534</a> opened 21 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/Doog-bot534">@Doog-bot534</a> opened 22 days ago</span>
       
     </div>
   </div>
@@ -501,7 +501,7 @@ Updated: `2026-09-18 16:36 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 21 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 22 days ago</span>
       
     </div>
   </div>
@@ -516,7 +516,7 @@ Updated: `2026-09-18 16:36 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 21 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 22 days ago</span>
       
     </div>
   </div>
@@ -531,7 +531,7 @@ Updated: `2026-09-18 16:36 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Ryanchen911">@Ryanchen911</a> opened 21 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/Ryanchen911">@Ryanchen911</a> opened 22 days ago</span>
       
     </div>
   </div>
@@ -546,7 +546,7 @@ Updated: `2026-09-18 16:36 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Ryanchen911">@Ryanchen911</a> opened 21 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/Ryanchen911">@Ryanchen911</a> opened 22 days ago</span>
       
     </div>
   </div>
@@ -561,7 +561,7 @@ Updated: `2026-09-18 16:36 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 21 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 22 days ago</span>
       
     </div>
   </div>
@@ -576,7 +576,7 @@ Updated: `2026-09-18 16:36 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 21 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 22 days ago</span>
       
     </div>
   </div>
@@ -651,7 +651,7 @@ Updated: `2026-09-18 16:36 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/theaungmyatmoe">@theaungmyatmoe</a> opened 24 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/theaungmyatmoe">@theaungmyatmoe</a> opened 25 days ago</span>
       
     </div>
   </div>
@@ -767,21 +767,6 @@ Updated: `2026-09-18 16:36 UTC`.
     <div class="issues-title">
       <a href="../../01570-devshard-timeout-vote-threshold-unreachable-under-skewed-slo/">Devshard: timeout-vote threshold unreachable under skewed slot distribution — stranded nonce cannot be resolved (liveness)</a>
       <span class="issues-number">#1570</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/kAIPraxisBot">@kAIPraxisBot</a> opened 2026-08-11</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../01539-hardening-network-duty-fee-bypass-admits-zero-fee-txs-from-n/">Hardening: network-duty fee-bypass admits zero-fee txs from non-participants (no signer authorization at the ante layer)</a>
-      <span class="issues-number">#1539</span>
     </div>
     
     <div class="issues-labels"></div>

@@ -2,7 +2,7 @@
 title: "#1539 — Hardening: network-duty fee-bypass admits zero-fee txs from non-participants (no signer authorization at the ante layer)"
 source: https://github.com/gonka-ai/gonka/issues/1539
 issue_number: 1539
-synced_at: 2026-09-18T16:32:46Z
+synced_at: 2026-09-18T19:43:00Z
 template: issues-main.html
 ---
 
@@ -16,7 +16,7 @@ template: issues-main.html
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/kAIPraxisBot">@kAIPraxisBot</a> opened 2026-08-03 19:33 UTC</span>
     <span class="issues-meta-item">1 comment</span>
-    <span class="issues-meta-item">Updated 2026-08-11 01:51 UTC</span>
+    <span class="issues-meta-item">Updated 2026-09-18 19:30 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>

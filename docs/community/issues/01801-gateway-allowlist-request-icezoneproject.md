@@ -2,7 +2,7 @@
 title: "#1801 — Gateway allowlist request: icezoneproject"
 source: https://github.com/gonka-ai/gonka/issues/1801
 issue_number: 1801
-synced_at: 2026-09-18T16:32:00Z
+synced_at: 2026-09-18T19:43:01Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/icezoneproject">@icezoneproject</a> opened 2026-09-18 09:28 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-18 09:28 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-09-18 19:01 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -39,6 +39,20 @@ Any current and future governance-enabled models.
 
 Private self-hosted gateway for AI agents. The creator address will be funded
 after allowlist confirmation.
+</div>
+
+---
+
+## 💬 Comments (1)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span class="issues-meta-item">commented 2026-09-18 19:01 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Hi @icezoneproject, allowlisting is an on-chain governance decision, so this registers intent but timing/inclusion aren't guaranteed. Before waiting on that, one question, since it changes the fastest path: for a private gateway driving your own AI agents, do you actually need to self-host? If what you need is just a private OpenAI-compatible endpoint for your agents, that exists today via OpenBroker (https://github.com/gonka-ai/gonka/discussions/1363, https://openbroker.gonka.gg): GNK-native, no markup (1-to-1 with escrow cost), streaming + tool calls, no enrollment or governance wait — you'd be running within minutes. If you try it and something doesn't fit, say so here. </p>
+  </div>
 </div>
 
 ---
