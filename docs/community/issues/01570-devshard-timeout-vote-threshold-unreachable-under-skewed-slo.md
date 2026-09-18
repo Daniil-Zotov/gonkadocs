@@ -2,7 +2,7 @@
 title: "#1570 — Devshard: timeout-vote threshold unreachable under skewed slot distribution — stranded nonce cannot be resolved (liveness)"
 source: https://github.com/gonka-ai/gonka/issues/1570
 issue_number: 1570
-synced_at: 2026-09-18T19:43:36Z
+synced_at: 2026-09-18T22:39:31Z
 template: issues-main.html
 ---
 
@@ -16,7 +16,7 @@ template: issues-main.html
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/kAIPraxisBot">@kAIPraxisBot</a> opened 2026-08-09 16:18 UTC</span>
     <span class="issues-meta-item">1 comment</span>
-    <span class="issues-meta-item">Updated 2026-08-11 02:24 UTC</span>
+    <span class="issues-meta-item">Updated 2026-09-18 21:42 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>

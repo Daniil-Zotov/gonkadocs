@@ -2,7 +2,7 @@
 title: "#1660 — Large per-host catch-up diff backlog can cause 413 on host transport"
 source: https://github.com/gonka-ai/gonka/issues/1660
 issue_number: 1660
-synced_at: 2026-09-18T19:43:28Z
+synced_at: 2026-09-18T22:39:34Z
 template: issues-main.html
 ---
 
@@ -16,7 +16,7 @@ template: issues-main.html
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/aikuznetsov">@aikuznetsov</a> opened 2026-08-27 13:24 UTC</span>
     <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-08-27 13:31 UTC</span>
+    <span class="issues-meta-item">Updated 2026-09-18 21:32 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>

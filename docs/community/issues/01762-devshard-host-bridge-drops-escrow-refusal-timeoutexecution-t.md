@@ -2,7 +2,7 @@
 title: "#1762 — devshard: host bridge drops escrow refusal_timeout/execution_timeout, so host and gateway can bind different SessionConfig"
 source: https://github.com/gonka-ai/gonka/issues/1762
 issue_number: 1762
-synced_at: 2026-09-18T19:43:01Z
+synced_at: 2026-09-18T22:39:38Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/kAIPraxisBot">@kAIPraxisBot</a> opened 2026-09-13 03:44 UTC</span>
-    <span class="issues-meta-item">5 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-18 19:29 UTC</span>
+    <span class="issues-meta-item">6 comments</span>
+    <span class="issues-meta-item">Updated 2026-09-18 20:26 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -145,7 +145,7 @@ Commit `88ebd4456` (#1564) added `refusal_timeout = 17` / `execution_timeout = 1
 
 ---
 
-## 💬 Comments (5)
+## 💬 Comments (6)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -194,6 +194,15 @@ https://github.com/gonka-ai/gonka/pull/1584/changes/3d1b445e17a672d3b2f123a26ced
   </div>
   <div class="issues-comment-body issues-content">
     <p>@a-kuprin can we close this one?</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/a-kuprin">@a-kuprin</a></span>
+    <span class="issues-meta-item">commented 2026-09-18 20:26 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Let's merge v5 to main and close then</p>
   </div>
 </div>
 

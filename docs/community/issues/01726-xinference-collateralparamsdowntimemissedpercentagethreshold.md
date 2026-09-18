@@ -2,7 +2,7 @@
 title: "#1726 — x/inference: CollateralParams.DowntimeMissedPercentageThreshold is governance-settable but read by nothing, and SlashForDowntime's comment describes a check it does not perform"
 source: https://github.com/gonka-ai/gonka/issues/1726
 issue_number: 1726
-synced_at: 2026-09-18T19:43:14Z
+synced_at: 2026-09-18T22:39:38Z
 template: issues-main.html
 ---
 
@@ -15,10 +15,10 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/kAIPraxisBot">@kAIPraxisBot</a> opened 2026-09-07 14:23 UTC</span>
-    <span class="issues-meta-item">1 comment</span>
-    <span class="issues-meta-item">Updated 2026-09-07 14:50 UTC</span>
+    <span class="issues-meta-item">2 comments</span>
+    <span class="issues-meta-item">Updated 2026-09-18 19:58 UTC</span>
   </div>
-  <div class="issues-labels" style="margin-top: 8px;"></div>
+  <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
 </div>
 
 <div class="issues-content" markdown="1">
@@ -79,7 +79,7 @@ Read from `main` at `379bebced6`. I searched open issues and pull requests for `
 
 ---
 
-## 💬 Comments (1)
+## 💬 Comments (2)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -119,6 +119,19 @@ Read from `main` at `379bebced6`. I searched open issues and pull requests for `
 <p>That reads as deliberate rather than accidental, and the same params object carries its own control: the <strong>invalidation</strong> SPRT beside it is live and well formed — <code>false_positive_rate</code> 0.05, <code>bad_participant_invalidation_rate</code> 0.18, <code>invalidation_h_threshold</code> 40, giving <code>logFail = +1.2809</code> and <code>logPass = -0.1472</code>, so 32 consecutive failures condemn and 272 consecutive passes clear. One test is parameterised to work and the other to do nothing.</p>
 <p>Worth noting what <code>H</code> means here, since the implementation uses a symmetric <code>±H</code> rather than Wald's asymmetric boundaries. Symmetric bounds force <code>alpha = beta</code>, and <code>A = ln((1-beta)/alpha) = H</code> then gives <code>alpha = 1/(1+e^H)</code>. So the live invalidation threshold of 40 encodes a false-invalidation rate of about <code>4.2e-18</code>, against roughly <code>1.8e-2</code> at the code default of 4 — the on-chain value is not a tweak of the default, it is a different regime.</p>
 <p>Downtime slashing itself is still reachable, so the doc-comment problem this issue raises remains live rather than moot: <code>getConfirmationPoCStatus</code> also returns <code>INACTIVE</code> (reason <code>FailedConfirmationPoC</code>), <code>confirmation_poc_params.alpha_threshold</code> is <code>0.5</code> on chain, and that transition runs the same <code>deactiveParticipant</code> -&gt; <code>SlashForDowntime</code> path. So a participant can still be slashed for downtime — just never via the missed-request statistics that <code>SlashForDowntime</code>'s comment describes, which makes the stale comment more misleading in production than it looked from the code alone.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/aikuznetsov">@aikuznetsov</a></span>
+    <span class="issues-meta-item">commented 2026-09-18 19:58 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Validated this against the current codebase — the issue is fully valid.</p>
+<p><code>DowntimeMissedPercentageThreshold</code> is only declared, defaulted, serialized, and validated. It is not used by any runtime decision-making logic.</p>
+<p>Downtime detection is handled by the SPRT using <code>DowntimeGoodPercentage</code>, <code>DowntimeBadPercentage</code>, and <code>DowntimeHThreshold</code> in <a href="https://github.com/gonka-ai/gonka/blob/379bebced638aeb5e6077bfd51c986f898443832/inference-chain/x/inference/calculations/status.go#L90-L111"><code>getInactiveStatus</code></a>.</p>
+<p>Once a participant transitions to <code>INACTIVE</code>, <a href="https://github.com/gonka-ai/gonka/blob/379bebced638aeb5e6077bfd51c986f898443832/inference-chain/x/inference/keeper/collateral.go#L195-L213"><code>SlashForDowntime</code></a> applies <code>SlashFractionDowntime</code> directly and never reads or compares <code>DowntimeMissedPercentageThreshold</code>.</p>
+<p>Therefore, changing this parameter through governance has no behavioral effect. We can safely remove it, together with the outdated documentation and comment, as part of an upgrade that handles the params/state migration.</p>
   </div>
 </div>
 

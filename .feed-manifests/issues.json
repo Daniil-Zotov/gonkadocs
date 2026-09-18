@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-09-18T19:48:11.742286+00:00",
+  "snapshot_time": "2026-09-18T22:50:57.650331+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "Description",
@@ -3636,12 +3636,13 @@
     "01726-xinference-collateralparamsdowntimemissedpercentagethreshold.md": {
       "title": "#1726 — x/inference: CollateralParams.DowntimeMissedPercentageThreshold is governance-settable but read by nothing, and SlashForDowntime's comment describes a check it does not perform",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    x/inference: CollateralParams.DowntimeMissedPercentageThreshold is governance-settable but read by nothing, and SlashForDowntime's comment describes a check it does not perform\n    <span class=\"issues-number\">#1726</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kAIPraxisBot\">@kAIPraxisBot</a> opened 2026-09-07 14:23 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</sp",
-      "comment_checksum": "66122346c7491b6d5bd596a4b4f0e16ef107c39d0b8ae89128190658224e4518",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    x/inference: CollateralParams.DowntimeMissedPercentageThreshold is governance-settable but read by nothing, and SlashForDowntime's comment describes a check it does not perform\n    <span class=\"issues-number\">#1726</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kAIPraxisBot\">@kAIPraxisBot</a> opened 2026-09-07 14:23 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</s",
+      "comment_checksum": "aa6210717d563a3251e9a6fe6e266c9a05fc58d76bb61dfe4a75fc71202de032",
       "comment_bodies": [
-        "Correcting my own framing above, having since read the live parameters rather than the code defaults. The core claim is unaffected — DowntimeMissedPercentageThreshold is still read by nothing — but the section headed \"Why this looks like residue rather than a bug\" describes the SPRT as what shipped in its place, and on mainnet that test cannot currently fire. Live validation_params, epoch 386: par"
+        "Correcting my own framing above, having since read the live parameters rather than the code defaults. The core claim is unaffected — DowntimeMissedPercentageThreshold is still read by nothing — but the section headed \"Why this looks like residue rather than a bug\" describes the SPRT as what shipped in its place, and on mainnet that test cannot currently fire. Live validation_params, epoch 386: par",
+        "Validated this against the current codebase — the issue is fully valid. DowntimeMissedPercentageThreshold is only declared, defaulted, serialized, and validated. It is not used by any runtime decision-making logic. Downtime detection is handled by the SPRT using DowntimeGoodPercentage, DowntimeBadPercentage, and DowntimeHThreshold in getInactiveStatus. Once a participant transitions to INACTIVE, S"
       ],
-      "checksum": "7bfaaae8461f8b0efaa7e7e38c4b5cfb0faf6763328749708a0310a0eb09e49c"
+      "checksum": "1f0448706a0ecece8647fba8237beb340d60828ff4d6548c6e7f0c15ccfb3791"
     },
     "01733-extend-e2e-for-ha-devshard-config-with-multiple-routers-and-.md": {
       "title": "Proposal: Unjoined-network citest for multiple versiond-routers",
@@ -3673,16 +3674,17 @@
     "01762-devshard-host-bridge-drops-escrow-refusal-timeoutexecution-t.md": {
       "title": "#1762 — devshard: host bridge drops escrow refusal_timeout/execution_timeout, so host and gateway can bind different SessionConfig",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard: host bridge drops escrow refusal_timeout/execution_timeout, so host and gateway can bind different SessionConfig\n    <span class=\"issues-number\">#1762</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kAIPraxisBot\">@kAIPraxisBot</a> opened 2026-09-13 03:44 UTC</span>\n    <span class=\"issues-meta-item\">5 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </di",
-      "comment_checksum": "7639954bc78862dd86eeb426da1af47a52e84e0f3b2c92d82339ab1b4499215c",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard: host bridge drops escrow refusal_timeout/execution_timeout, so host and gateway can bind different SessionConfig\n    <span class=\"issues-number\">#1762</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kAIPraxisBot\">@kAIPraxisBot</a> opened 2026-09-13 03:44 UTC</span>\n    <span class=\"issues-meta-item\">6 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </di",
+      "comment_checksum": "5dea9e8c4a5aed7b3154773ef5943fe5ab20a6b2f0459e20b07e7418257d0a03",
       "comment_bodies": [
         "@tcharchian yo, mind sanity-checking this one? tl;dr: the gateway's bridge maps refusal_timeout/execution_timeout off the escrow row, devshardd's ChainBridge doesn't, so the host silently falls back to the compiled 60/1920 while the gateway runs the real governance values. No-op on mainnet today purely because governance happens to sit exactly on the defaults — but bump execution_timeout to 1200 o",
         "Validated on current devshard-0.2.15-v5 HEAD (a8b5c00c). The issue is reproducible: both ChainBridge and the warm-cache path drop refusal_timeout / execution_timeout, causing the host to fall back to 60/1920 while the gateway keeps the escrow values. A minimal test with execution_timeout=1200produced seal thresholds of 5520 on the host versus 4800 on the gateway. Mainnet currently uses the compile",
         "I'll take this one: add RefusalTimeout/ExecutionTimeout to the ChainBridge escrow mapping and the cached path in devshardd, with a regression test that pins both bridges to the same SessionConfig. PR against devshard-0.2.15-v5 shortly.",
         "Extremely important fix, as it can lead to state divergence in v5 (fires in integration testermint tests) Added to v5 release as a musthave fix: https://github.com/gonka-ai/gonka/pull/1584/changes/3d1b445e17a672d3b2f123a26ced688fff5bd791",
-        "@a-kuprin can we close this one?"
+        "@a-kuprin can we close this one?",
+        "Let's merge v5 to main and close then"
       ],
-      "checksum": "925d72cc1856f7f50d27f46c3ea740eacb97cf5e8b18caed27160c27c3fd0a10"
+      "checksum": "ca7b0a09de7c214b4c93442b8401e9639cfd0b6634661d68dc0dab06922a85e2"
     },
     "01769-fix-warm-key-verification-across-height-sync-acknowledgement.md": {
       "title": "#1769 — Fix warm-key verification across height-sync acknowledgement and repair paths",
@@ -3752,6 +3754,78 @@
         "Hi @icezoneproject, allowlisting is an on-chain governance decision, so this registers intent but timing/inclusion aren't guaranteed. Before waiting on that, one question, since it changes the fastest path: for a private gateway driving your own AI agents, do you actually need to self-host? If what you need is just a private OpenAI-compatible endpoint for your agents, that exists today via OpenBro"
       ],
       "checksum": "fc6a9f0c433dfbbf96a9abfd27564cc82689291ee025f8a97d7a7d7f8608acbb"
+    },
+    "01804-grpcconnect-host-transport.md": {
+      "title": "#1804 — gRPC/Connect host transport",
+      "status": null,
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    gRPC/Connect host transport\n    <span class=\"issues-number\">#1804</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-18 21:34 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-content\"",
+      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comment_bodies": [],
+      "checksum": "5ceacc01de9b4bbb31ed27f9943b441324540f1f8fd0b8e8c57cf47b4459901f"
+    },
+    "01805-devshard-protocol-aware-poc-cpoc-preserved-nodes.md": {
+      "title": "#1805 — `devshard`: Protocol-aware PoC / cPoC (preserved nodes)",
+      "status": null,
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: Protocol-aware PoC / cPoC (preserved nodes)\n    <span class=\"issues-number\">#1805</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-18 21:50 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n",
+      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comment_bodies": [],
+      "checksum": "049c198641d631c2fd821d0ddc9b9a28fc14c31b68ab05bc33e8ba39bfeb6b39"
+    },
+    "01806-devshard-height-sync-disputes.md": {
+      "title": "#1806 — `devshard`: Height-sync disputes",
+      "status": null,
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: Height-sync disputes\n    <span class=\"issues-number\">#1806</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-18 21:55 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-con",
+      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comment_bodies": [],
+      "checksum": "efc1e23c13d30098700a456edefbe497e5b02b7aa61766e967d7fb43873cea75"
+    },
+    "01807-devshard-max-context-length.md": {
+      "title": "#1807 — `devshard`: Max context length",
+      "status": null,
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: Max context length\n    <span class=\"issues-number\">#1807</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-18 21:57 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-conte",
+      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comment_bodies": [],
+      "checksum": "4bce8ef9594c255deaa4a39318f864a3ab35957c65e2c784a51b8d03f2458729"
+    },
+    "01808-devshard-per-chunk-stream-signatures.md": {
+      "title": "#1808 — `devshard`: Per-chunk stream signatures",
+      "status": null,
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: Per-chunk stream signatures\n    <span class=\"issues-number\">#1808</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-18 21:58 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"iss",
+      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comment_bodies": [],
+      "checksum": "b50c08d3e0a0dc9649f688f9c173001df4a48644122e6e60eab1dc79255a01c2"
+    },
+    "01809-devshard-miss-rate-timeout-request-class-weights-propagate-m.md": {
+      "title": "#1809 — `devshard`: Miss rate: timeout / request-class weights / propagate misses",
+      "status": null,
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: Miss rate: timeout / request-class weights / propagate misses\n    <span class=\"issues-number\">#1809</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-18 22:00 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8p",
+      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comment_bodies": [],
+      "checksum": "7dad725f64840c87e6ad162870dff3aafec66917887f71a12f56f8cd19140f7e"
+    },
+    "01810-devshard-tool-calling-protocol-errors-invalid.md": {
+      "title": "#1810 — `devshard`: Tool-calling / protocol errors → INVALID",
+      "status": null,
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: Tool-calling / protocol errors → INVALID\n    <span class=\"issues-number\">#1810</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-18 22:00 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<d",
+      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comment_bodies": [],
+      "checksum": "b63247972a895687eaf9f3ca46d1ecea6042f1b0a05212860795e64230cf5b61"
+    },
+    "01812-devshard-challange-create-instance.md": {
+      "title": "#1812 — `devshard`: challange create instance",
+      "status": null,
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: challange create instance\n    <span class=\"issues-number\">#1812</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-18 22:05 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issue",
+      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comment_bodies": [],
+      "checksum": "c0c3ebd5d03284a4b23cdb157627dc653652804649f91de8a25918a8304661c2"
+    },
+    "01813-devshard-inter-chunk-silence-as-qos-inputoutput-throughput.md": {
+      "title": "#1813 — `devshard`: Inter-chunk silence as QoS (input/output throughput)",
+      "status": null,
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: Inter-chunk silence as QoS (input/output throughput)\n    <span class=\"issues-number\">#1813</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-18 22:08 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div",
+      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comment_bodies": [],
+      "checksum": "986b14c928e9f7b7a6634691063182b688de800642b56da496f17465745e5427"
     }
   }
 }

@@ -1,5 +1,181 @@
 [
   {
+    "id": "evt_20260918224337_0208a77f",
+    "timestamp": "2026-09-18T22:43:37.188826+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1804 — gRPC/Connect host transport",
+      "url": "/community/issues/01804-grpcconnect-host-transport/",
+      "file": "01804-grpcconnect-host-transport.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    gRPC/Connect host transport\n    <span class=\"issues-number\">#1804</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-18 21:34 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-content\""
+    },
+    "ai_description": "A new issue #1804 has been opened by @tcharchian proposing a gRPC/Connect host transport for the network. This matters because it could enable more efficient and standardized communication between nodes, potentially improving interoperability and performance across the platform. Worth keeping an eye on as the discussion develops.New issue #1804 has been opened by @tcharchian proposing a gRPC/Connect host transport for the network. This could bring more standardized and efficient communication between nodes, which is a meaningful step for improving interoperability and performance. Keep an eye on it as the discussion gets underway."
+  },
+  {
+    "id": "evt_20260918224337_ac19be2e",
+    "timestamp": "2026-09-18T22:43:37.188860+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1805 — `devshard`: Protocol-aware PoC / cPoC (preserved nodes)",
+      "url": "/community/issues/01805-devshard-protocol-aware-poc-cpoc-preserved-nodes/",
+      "file": "01805-devshard-protocol-aware-poc-cpoc-preserved-nodes.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: Protocol-aware PoC / cPoC (preserved nodes)\n    <span class=\"issues-number\">#1805</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-18 21:50 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n"
+    },
+    "ai_description": "New issue #1805 has been opened by @tcharchian proposing a protocol-aware Proof of Concept and cPoC implementation for preserved nodes in the devshard. This is an important step toward ensuring the network can properly handle node preservation logic. Keep an eye on this one as it could shape how devshard handles protocol-specific edge cases."
+  },
+  {
+    "id": "evt_20260918224337_030c588b",
+    "timestamp": "2026-09-18T22:43:37.188880+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1806 — `devshard`: Height-sync disputes",
+      "url": "/community/issues/01806-devshard-height-sync-disputes/",
+      "file": "01806-devshard-height-sync-disputes.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: Height-sync disputes\n    <span class=\"issues-number\">#1806</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-18 21:55 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-con"
+    },
+    "ai_description": "New issue #1806 opened by @tcharchian proposes a devshard spec for handling height-sync disputes, aiming to define how conflicting chain heights are resolved within the network. This is a foundational step toward ensuring consistent state across shardsais, which matters for the reliability of decentralized inference. Keep an eye on the discussion as it evolves."
+  },
+  {
+    "id": "evt_20260918224337_916005da",
+    "timestamp": "2026-09-18T22:43:37.188900+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1807 — `devshard`: Max context length",
+      "url": "/community/issues/01807-devshard-max-context-length/",
+      "file": "01807-devshard-max-context-length.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: Max context length\n    <span class=\"issues-number\">#1807</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-18 21:57 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-conte"
+    },
+    "ai_description": "New issue #1807 has been opened by @tcharchian regarding the max context length for the devshard component. This could impact how much information the network can process in a single inference call. Worth keeping an eye on this one as it may affect performance tuning for developers. Check it out and join the discussion if you have insights."
+  },
+  {
+    "id": "evt_20260918224337_bd7d8360",
+    "timestamp": "2026-09-18T22:43:37.188923+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1808 — `devshard`: Per-chunk stream signatures",
+      "url": "/community/issues/01808-devshard-per-chunk-stream-signatures/",
+      "file": "01808-devshard-per-chunk-stream-signatures.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: Per-chunk stream signatures\n    <span class=\"issues-number\">#1808</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-18 21:58 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"iss"
+    },
+    "ai_description": "New issue #1808 proposes adding per-chunk stream signatures to the devshard system, which would let nodes verify data integrity at a finer granularity than whole streams. This is a meaningful step for improving trust and auditability in decentralized inference workloads. Check it out and share your thoughts if you work with devshard."
+  },
+  {
+    "id": "evt_20260918224337_972840ce",
+    "timestamp": "2026-09-18T22:43:37.188942+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1809 — `devshard`: Miss rate: timeout / request-class weights / propagate misses",
+      "url": "/community/issues/01809-devshard-miss-rate-timeout-request-class-weights-propagate-m/",
+      "file": "01809-devshard-miss-rate-timeout-request-class-weights-propagate-m.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: Miss rate: timeout / request-class weights / propagate misses\n    <span class=\"issues-number\">#1809</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-18 22:00 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8p"
+    },
+    "ai_description": "New issue #1809 is now open, submitted by @tcharchian, focusing on improving devshard's miss rate handling with timeouts, request-class weights, and miss propagation. This matters because it addresses reliability and fairness in how inference requests are routed, potentially reducing wasted compute and improving response consistency across the network."
+  },
+  {
+    "id": "evt_20260918224337_83d4616b",
+    "timestamp": "2026-09-18T22:43:37.188959+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1810 — `devshard`: Tool-calling / protocol errors → INVALID",
+      "url": "/community/issues/01810-devshard-tool-calling-protocol-errors-invalid/",
+      "file": "01810-devshard-tool-calling-protocol-errors-invalid.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: Tool-calling / protocol errors → INVALID\n    <span class=\"issues-number\">#1810</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-18 22:00 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<d"
+    },
+    "ai_description": "New issue #1810 from @tcharchian proposes that devshard should mark tool-calling and protocol errors as INVALID results. This would help distinguish genuine system failures from model output issues, making the network's validation more precise. A worthwhile discussion for anyone running inference workloads.New issue #1810 from @tcharchian proposes that devshard should treat tool-calling and protocol errors as INVALID outcomes. This distinction matters because it would help the network separate genuine system failures from model output issues, leading to cleaner validation data. Worth a look if you run inference tasks on the network."
+  },
+  {
+    "id": "evt_20260918224337_40a9f77f",
+    "timestamp": "2026-09-18T22:43:37.189031+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1812 — `devshard`: challange create instance",
+      "url": "/community/issues/01812-devshard-challange-create-instance/",
+      "file": "01812-devshard-challange-create-instance.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: challange create instance\n    <span class=\"issues-number\">#1812</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-18 22:05 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issue"
+    },
+    "ai_description": "New issue #1812 is open: devshard challenge create instance, filed by @tcharchian. It looks like a request to set up a fresh instance for the devshard challenge, so keep an eye on it if you are involved in that track. Head over to the issue to add your input or track progress."
+  },
+  {
+    "id": "evt_20260918224337_b085c94f",
+    "timestamp": "2026-09-18T22:43:37.189057+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1813 — `devshard`: Inter-chunk silence as QoS (input/output throughput)",
+      "url": "/community/issues/01813-devshard-inter-chunk-silence-as-qos-inputoutput-throughput/",
+      "file": "01813-devshard-inter-chunk-silence-as-qos-inputoutput-throughput.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: Inter-chunk silence as QoS (input/output throughput)\n    <span class=\"issues-number\">#1813</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-18 22:08 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div"
+    },
+    "ai_description": "New issue #1813 has been opened by @tcharchian proposing that `devshard` treat inter-chunk silence as a quality-of-service metric for measuring input/output throughput. This is an interesting angle that could help us better understand and optimize network performance across shards. Head over to the issue to share your thoughts on this approach."
+  },
+  {
+    "id": "evt_20260918224337_54b19a78",
+    "timestamp": "2026-09-18T22:43:37.189222+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1726 — x/inference: CollateralParams.DowntimeMissedPercentageThreshold is governance-settable but read by nothing, and SlashForDowntime's comment describes a check it does not perform",
+      "url": "/community/issues/01726-xinference-collateralparamsdowntimemissedpercentagethreshold/",
+      "file": "01726-xinference-collateralparamsdowntimemissedpercentagethreshold.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    x/inference: CollateralParams.DowntimeMissedPercentageThreshold is governance-settable but read by nothing, and SlashForDowntime's comment describes a check it does not perform\n    <span class=\"issues-number\">#1726</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kAIPraxisBot\">@kAIPraxisBot</a> opened 2026-09-07 14:23 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</sp",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    x/inference: CollateralParams.DowntimeMissedPercentageThreshold is governance-settable but read by nothing, and SlashForDowntime's comment describes a check it does not perform\n    <span class=\"issues-number\">#1726</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kAIPraxisBot\">@kAIPraxisBot</a> opened 2026-09-07 14:23 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</s"
+    },
+    "ai_description": "Issue #1726 in the inference module has been updated with a new comment, bringing the discussion to two total. The issue highlights a real problem: the DowntimeMissedPercentageThreshold parameter can be set by governance but is never actually read, and the SlashForDowntime comment claims a check that isn't performed. This matters because it could lead to misconfigured slashing behavior going unnoticed, so the added feedback is a good step toward clarifying the fix."
+  },
+  {
+    "id": "evt_20260918224337_98ece4c3",
+    "timestamp": "2026-09-18T22:43:37.189246+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1762 — devshard: host bridge drops escrow refusal_timeout/execution_timeout, so host and gateway can bind different SessionConfig",
+      "url": "/community/issues/01762-devshard-host-bridge-drops-escrow-refusal-timeoutexecution-t/",
+      "file": "01762-devshard-host-bridge-drops-escrow-refusal-timeoutexecution-t.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard: host bridge drops escrow refusal_timeout/execution_timeout, so host and gateway can bind different SessionConfig\n    <span class=\"issues-number\">#1762</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kAIPraxisBot\">@kAIPraxisBot</a> opened 2026-09-13 03:44 UTC</span>\n    <span class=\"issues-meta-item\">5 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </di",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard: host bridge drops escrow refusal_timeout/execution_timeout, so host and gateway can bind different SessionConfig\n    <span class=\"issues-number\">#1762</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kAIPraxisBot\">@kAIPraxisBot</a> opened 2026-09-13 03:44 UTC</span>\n    <span class=\"issues-meta-item\">6 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </di"
+    },
+    "ai_description": "Issue #1762 on devshard has a new comment, bringing the discussion to six total. The issue highlights that the host bridge drops escrow refusal and execution timeouts, which could cause hosts and gateways to bind to different session configurations. This is a subtle but important consistency concern for the network, so check out the thread for the latest perspective."
+  },
+  {
     "id": "evt_20260918195348_e0be6ca2",
     "timestamp": "2026-09-18T19:53:48.023517+00:00",
     "section": "calendar",
@@ -7779,170 +7955,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Alphabetical Bias in PoC Slot Allocation\n    <span class=\"issues-number\">#700</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/huxuxuya\">@huxuxuya</a> opened 2026-02-04 12:02 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-"
     },
     "ai_description": "Issue #700 on alphabetical bias in PoC slot allocation has been removed from the tracker. The discussion around potential unfairness in how node slots are assigned is no longer active, so we're keeping the feed focused on current topics. Thanks to everyone who contributed to the conversation.Issue #700 on alphabetical bias in PoC slot allocation has been removed from the tracker, closing the discussion on potential fairness concerns in node slot assignment. The community can now focus on more active proposals, though the underlying question remains worth revisiting if needed."
-  },
-  {
-    "id": "evt_20260910143102_f4d590c7",
-    "timestamp": "2026-09-10T14:31:02.672780+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#706 — Inference Slot Hogging",
-      "url": null,
-      "file": "00706-inference-slot-hogging.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Inference Slot Hogging\n    <span class=\"issues-number\">#706</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/huxuxuya\">@huxuxuya</a> opened 2026-02-05 18:52 UTC</span>\n    <span class=\"issues-meta-item\">4 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-content\" markdown="
-    },
-    "ai_description": "Issue #706 on inference slot hogging has been removed from the feed. This means the discussion is no longer tracked here, so any updates or resolutions will not be visible to the community through this channel. If you were following that thread, you may want to check the repository directly for its current status.Issue #706 on inference slot hogging has been removed from the feed, meaning the discussion is no longer tracked here. Community members who were following this thread should check the repository directly for any updates or resolution."
-  },
-  {
-    "id": "evt_20260910143102_ec5d363b",
-    "timestamp": "2026-09-10T14:31:02.672786+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#714 — Bug Report: New Nodes Fail to Sign Transactions (Keyring Backend Mismatch)",
-      "url": null,
-      "file": "00714-bug-report-new-nodes-fail-to-sign-transactions-keyring-backe.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Bug Report: New Nodes Fail to Sign Transactions (Keyring Backend Mismatch)\n    <span class=\"issues-number\">#714</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/moro3one\">@moro3one</a> opened 2026-02-07 08:47 UTC</span>\n    <span class=\"issues-meta-item\">4 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-l"
-    },
-    "ai_description": "Issue #714 about new nodes failing to sign transactions due to a keyring backend mismatch has been removed from the feed. This closed bug report is no longer active, so cleaning it up keeps the community focused on current and actionable items. Thanks to everyone who contributed to its resolution.Issue #714, the closed bug report about new nodes failing to sign transactions due to a keyring backend mismatch, has been removed from the feed. This cleanup keeps our activity focused on active and relevant discussions. Thanks to all who helped resolve it."
-  },
-  {
-    "id": "evt_20260910143102_3c898265",
-    "timestamp": "2026-09-10T14:31:02.672791+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#728 — [P0] Multimodel support",
-      "url": null,
-      "file": "00728-p0-multimodel-support.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] Multimodel support\n    <span class=\"issues-number\">#728</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-02-11 00:43 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"iss"
-    },
-    "ai_description": "Issue #728 on multimodal support has been closed and removed from the active tracker. This P0 item is no longer on the roadmap, so the community should expect the current single-model pipeline to remain the standard for now. If you were tracking this for planning purposes, it is worth checking with maintainers on any alternative direction."
-  },
-  {
-    "id": "evt_20260910143102_0dfbb594",
-    "timestamp": "2026-09-10T14:31:02.672803+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#729 — Off-chain inference transaction primitives (experimental)",
-      "url": null,
-      "file": "00729-off-chain-inference-transaction-primitives-experimental.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Off-chain inference transaction primitives (experimental)\n    <span class=\"issues-number\">#729</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-02-11 00:48 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style="
-    },
-    "ai_description": "Issue #729 on off-chain inference transaction primitives has been removed from the community feed. The experimental proposal, which had no comments, is no longer listed, so the community can focus on active topics. If you were tracking this work, check for any related follow-ups elsewhere.Issue #729 on off-chain inference transaction primitives has been removed from the community feed. The experimental proposal, which was closed with no comments, is no longer listed, so the community can focus on active topics. If you were tracking this work, check for any related follow-ups elsewhere."
-  },
-  {
-    "id": "evt_20260910143102_7acaa2f9",
-    "timestamp": "2026-09-10T14:31:02.672809+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#730 — [P0] vLLM 0.15.1 Compatibility Experiments",
-      "url": null,
-      "file": "00730-p0-vllm-0151-compatibility-experiments.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] vLLM 0.15.1 Compatibility Experiments\n    <span class=\"issues-number\">#730</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-02-11 01:26 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8p"
-    },
-    "ai_description": "Issue #730 on vLLM 0.15.1 compatibility experiments has been closed and removed from the feed. The P0 priority work, opened by @tcharchian, is now resolved, meaning the compatibility testing is completeable and no longer needs community attention. Keep an eye out for any follow-up reports on the results."
-  },
-  {
-    "id": "evt_20260910143102_60583a25",
-    "timestamp": "2026-09-10T14:31:02.672815+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#731 — Define changes in the API container for smooth migration",
-      "url": null,
-      "file": "00731-define-changes-in-the-api-container-for-smooth-migration.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Define changes in the API container for smooth migration\n    <span class=\"issues-number\">#731</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-02-11 01:28 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\""
-    },
-    "ai_description": "Issue #731 on defining API container changes for smooth migration has been removed from the feed. This means the proposal is no longer tracked here, so any related discussion or planned updates are no longer visible to the community. If you were following it, keep an eye on the repo for any future revisions or alternative proposals.Issue #731, which outlined API container changes for a smooth migration, has been removed from the feed. This means the proposal is no longer under active community tracking here, so any related discussion or planned updates are now off the board. If you were following it, keep an eye on the repository for any future revisions or alternative approaches."
-  },
-  {
-    "id": "evt_20260910143102_053986b1",
-    "timestamp": "2026-09-10T14:31:02.672821+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#742 — [P2] Deleting PoC v1 + Extend state endpoint with PoC metadata",
-      "url": null,
-      "file": "00742-p2-deleting-poc-v1-extend-state-endpoint-with-poc-metadata.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P2] Deleting PoC v1 + Extend state endpoint with PoC metadata\n    <span class=\"issues-number\">#742</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/IgnatovFedor\">@IgnatovFedor</a> opened 2026-02-12 15:06 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-label"
-    },
-    "ai_description": "Issue #742 has been removed from the community feed. This closed proposal covered deleting the PoC v1 code and enriching the state endpoint with PoC metadata, so its cleanup keeps the issue tracker focused on active work. Thanks to everyone who contributed to that discussion. Stay tuned for the next updates.Issue #742 has been closed and removed from the community feed. This proposal covered cleaning up PoC v1 and adding metadata to the state endpoint, so its removal signals that work is no longer on the active board. Thanks to @IgnatovFedor for putting it forward."
-  },
-  {
-    "id": "evt_20260910143102_110960d4",
-    "timestamp": "2026-09-10T14:31:02.672829+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#744 — [P1] Don’t require developers to register as Participants to run inference",
-      "url": null,
-      "file": "00744-p1-dont-require-developers-to-register-as-participants-to-ru.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P1] Don’t require developers to register as Participants to run inference\n    <span class=\"issues-number\">#744</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-02-13 01:16 UTC</span>\n    <span class=\"issues-meta-item\">4 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issu"
-    },
-    "ai_description": "The issue #744, which proposed removing the registration requirement for developers running inference, has been closed and removed from the feed. This means the team has decided not to pursue this change, so the current participant registration process stays in place. Developers should continue to register as participants before running inference. This decision clarifies the project's current governance stance on access control for the network."
-  },
-  {
-    "id": "evt_20260910143102_09489ec6",
-    "timestamp": "2026-09-10T14:31:02.672835+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#746 — Vested payouts in x/inference ignore caller funding module and always debit inference account",
-      "url": null,
-      "file": "00746-vested-payouts-in-xinference-ignore-caller-funding-module-an.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Vested payouts in x/inference ignore caller funding module and always debit inference account\n    <span class=\"issues-number\">#746</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Schwartz10\">@Schwartz10</a> opened 2026-02-13 06:15 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>"
-    },
-    "ai_description": "Issue #746 on vested payouts in x/inference has been closed and removed from the feed. The bug, which caused the module to always debit the inference account instead of respecting the caller's funding module, is now resolved. Thanks to @Schwartz10 for flagging it and to everyone who helped address it."
-  },
-  {
-    "id": "evt_20260910143102_e1891983",
-    "timestamp": "2026-09-10T14:31:02.672840+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#753 —  [P1] Certik, Ethereum Bridge, Preliminary Report (v1), Severity: Discussion [Priority 1]",
-      "url": null,
-      "file": "00753-p1-certik-ethereum-bridge-preliminary-report-v1-severity-dis.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n     [P1] Certik, Ethereum Bridge, Preliminary Report (v1), Severity: Discussion [Priority 1]\n    <span class=\"issues-number\">#753</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-02-14 00:23 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <"
-    },
-    "ai_description": "Issue #753 regarding the Certik preliminary report on the Ethereum Bridge has been removed from the tracker. This cleanup clears out a closed, discussion-level item with no comments, keeping our issue list focused on active work. Thanks for helping us maintain a tidy and relevant backlog. 👍🏼 https://github.com/tcharchian #753"
-  },
-  {
-    "id": "evt_20260910143102_11148c0c",
-    "timestamp": "2026-09-10T14:31:02.672846+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#754 —  [P1] Certik, Ethereum Bridge, Preliminary Report (v1), Severity: Centralization [Priority 2]",
-      "url": null,
-      "file": "00754-p1-certik-ethereum-bridge-preliminary-report-v1-severity-cen.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n     [P1] Certik, Ethereum Bridge, Preliminary Report (v1), Severity: Centralization [Priority 2]\n    <span class=\"issues-number\">#754</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-02-14 00:27 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>"
-    },
-    "ai_description": "Issue #754 on the Ethereum Bridge centralization finding from Certik's preliminary report has been removed from the tracker. This cleanup reflects that the concern has been resolved or is no longer relevant to the audit process. Keeping the issue list tidy helps the community focus on actionable security items. Thanks to everyone who tracked this one."
   }
 ]
