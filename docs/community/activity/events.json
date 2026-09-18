@@ -1,5 +1,53 @@
 [
   {
+    "id": "evt_20260918060324_c97d04ec",
+    "timestamp": "2026-09-18T06:03:24.174963+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1798 — devshard gateway: inter-chunk timeout logs stalled SSE streams but does not cancel them",
+      "url": "/community/issues/01798-devshard-gateway-inter-chunk-timeout-logs-stalled-sse-stream/",
+      "file": "01798-devshard-gateway-inter-chunk-timeout-logs-stalled-sse-stream.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard gateway: inter-chunk timeout logs stalled SSE streams but does not cancel them\n    <span class=\"issues-number\">#1798</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/aikuznetsov\">@aikuznetsov</a> opened 2026-09-18 02:37 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260918060324_95bed8d7",
+    "timestamp": "2026-09-18T06:03:24.174997+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1799 — devshard gateway: request-specific insufficient balance deactivates and remints a usable escrow",
+      "url": "/community/issues/01799-devshard-gateway-request-specific-insufficient-balance-deact/",
+      "file": "01799-devshard-gateway-request-specific-insufficient-balance-deact.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard gateway: request-specific insufficient balance deactivates and remints a usable escrow\n    <span class=\"issues-number\">#1799</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/anatoly-kuz-mntn\">@anatoly-kuz-mntn</a> opened 2026-09-18 02:47 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"is"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260918060324_41c78310",
+    "timestamp": "2026-09-18T06:03:24.175018+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1800 — devshard gateway: request-specific insufficient balance deactivates and remints a usable escrow",
+      "url": "/community/issues/01800-devshard-gateway-request-specific-insufficient-balance-deact/",
+      "file": "01800-devshard-gateway-request-specific-insufficient-balance-deact.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard gateway: request-specific insufficient balance deactivates and remints a usable escrow\n    <span class=\"issues-number\">#1800</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/aikuznetsov\">@aikuznetsov</a> opened 2026-09-18 02:49 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-label"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260918004159_6a3feea9",
     "timestamp": "2026-09-18T00:41:59.024636+00:00",
     "section": "calendar",
@@ -7885,50 +7933,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    HA infrastructure\n    <span class=\"issues-number\">#776</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Laboltus\">@Laboltus</a> opened 2026-02-18 09:41 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class="
     },
     "ai_description": "Removed: #776 — HA infrastructure. <div class=\"issues-detail-header\"> <h1 class=\"issues-detail-title\"> <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 "
-  },
-  {
-    "id": "evt_20260910143102_70f87ebd",
-    "timestamp": "2026-09-10T14:31:02.672897+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "Background",
-      "url": null,
-      "file": "00780-14-startinference-and-finishinference.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [1/4] `StartInference` and `FinishInference`\n    <span class=\"issues-number\">#780</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-02-20 22:20 UTC</span>\n    <span class=\"issues-meta-item\">10 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top:"
-    },
-    "ai_description": "Removed: Background. <div class=\"issues-detail-header\"> <h1 class=\"issues-detail-title\"> <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 "
-  },
-  {
-    "id": "evt_20260910143102_83211ebb",
-    "timestamp": "2026-09-10T14:31:02.672920+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "Background",
-      "url": null,
-      "file": "00781-24-startinference-and-finishinference.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [2/4] `StartInference` and `FinishInference`\n    <span class=\"issues-number\">#781</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-02-20 22:26 UTC</span>\n    <span class=\"issues-meta-item\">13 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top:"
-    },
-    "ai_description": "Removed: Background. <div class=\"issues-detail-header\"> <h1 class=\"issues-detail-title\"> <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 "
-  },
-  {
-    "id": "evt_20260910143102_3a06c755",
-    "timestamp": "2026-09-10T14:31:02.672927+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "Background",
-      "url": null,
-      "file": "00782-34-startinference-and-finishinference.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [3/4] `StartInference` and `FinishInference`\n    <span class=\"issues-number\">#782</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-02-20 22:37 UTC</span>\n    <span class=\"issues-meta-item\">5 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: "
-    },
-    "ai_description": "Removed: Background. <div class=\"issues-detail-header\"> <h1 class=\"issues-detail-title\"> <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 "
   }
 ]
