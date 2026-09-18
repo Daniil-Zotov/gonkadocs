@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260918175914_1efa9518",
+    "timestamp": "2026-09-18T17:59:14.135105+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "Announcements",
+      "url": "/gonka/docs/network-updates/",
+      "file": "network-updates.md"
+    },
+    "details": {
+      "content_before": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## September 16, 2026\n\n**The devshard v5 proposal is back in governance (resubmission of 104)**\n\nProposal id 105 adds `v5` to the approved list of devshard versions and distributes 91,300 USDT in contributor bounties from the community-sale contract.\n\n**Dev",
+      "content_after": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## September 18, 2026\n\n**PROPOSAL PASSED: Approve devshard v5 and bounty payouts**\n\nThe on-chain governance vote for proposal id 105 has concluded.\n\nThe proposal was APPROVED with 123,754 yes and no votes against.\n\n**What it changes**\n\nDevShard v5 has been "
+    },
+    "ai_description": "The Announcements page has been updated with the final outcome of the devshard v5 governance vote. Proposal id 105 passed on-chain, approving the new devshard version and unlocking 91,300 USDT in contributor bounties from the community-sale contract. This marks a successful conclusion to the community's decision-making process, so check the page for full details on what the approved changes mean for the network."
+  },
+  {
     "id": "evt_20260918112913_91165c42",
     "timestamp": "2026-09-18T11:29:13.182713+00:00",
     "section": "issues",
@@ -7919,20 +7935,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Epoch 158 reward underpayment after v0.2.9: preserved inference-slot weight was reset\n    <span class=\"issues-number\">#764</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/huxuxuya\">@huxuxuya</a> opened 2026-02-14 16:52 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class"
     },
     "ai_description": "Issue #764 has been removed from the tracker. The report detailed a reward underpayment in Epoch 158 caused by a reset preserved inference-slot weight after the v0.2.9 update. Its removal signals the matter has been fully addressed)Skip or closed out, so no further community action is needed on this front."
-  },
-  {
-    "id": "evt_20260910143102_5723eb7a",
-    "timestamp": "2026-09-10T14:31:02.672885+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#772 — Slashed coins should not be burned",
-      "url": null,
-      "file": "00772-slashed-coins-should-not-be-burned.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Slashed coins should not be burned\n    <span class=\"issues-number\">#772</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-02-18 01:36 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></di"
-    },
-    "ai_description": "Issue #772 on slashed coins being burned has been removed from the community feed. The proposal, which argued against burning slashed tokens, is no longer open for discussion, so the team has moved on from that direction. Keep an eye on the feed for the next active topic.Issue #772, which proposed that slashed coins should not be burned, has been removed from the feed. The discussion is now closed, signaling the community has moved past this proposal. Stay tuned for the next active topic."
   }
 ]
