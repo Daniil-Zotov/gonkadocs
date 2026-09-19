@@ -1,609 +1,609 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-09-19T00:12:33.362117+00:00",
+  "snapshot_time": "2026-09-19T05:45:19.362114+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
-      "title": "Welcome to Gonka Discussions 👋",
+      "title": "#805 — Welcome to Gonka Discussions 👋",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #805](https://github.com/gonka-ai/gonka/discussions/805) every hour. \n\n# Welcome to Gonka Discussions 👋\n\n**Автор:** [@admin](https://github.com/admin) · **Категория:** :mega: Announcements · **Создано:** 2026-02-25 22:49 UTC · \n\n---\n\n## 📝 Описание\n\nThis is the space for open conversation about the Gonka protocol, ecosystem, and community. Ask questions, share what you've built, propose improvements, and gather feedback from the community.\n## Sections\n\n- Proposals — protocol improvements, infrastructure proposals, and open problems. See the pinned welcome post in Proposals https://github.com/gonka-ai/gonka/discussions/795 \n- Q&A — one more place where you can  ask technical or ecosystem questions and get answers from the community\n- Show and Tell — showca",
       "checksum": "6dbf6f48c1006711009a8a0465c0f329ea990af11a2196ad1adffe08c2b540f2"
     },
     "ecosystem/0816-gonka-node-manager-automated-node-deployment-updates-and-mon.md": {
-      "title": "Gonka Node Manager — Automated Node Deployment, Updates, and Monitoring",
+      "title": "#816 — Gonka Node Manager — Automated Node Deployment, Updates, and Monitoring",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #816](https://github.com/gonka-ai/gonka/discussions/816) every hour. \n\n# Gonka Node Manager — Automated Node Deployment, Updates, and Monitoring\n\n**Автор:** [@ochenUmnayaKatyshka](https://github.com/ochenUmnayaKatyshka) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-02-26 11:49 UTC · \n\n---\n\n## 📝 Описание\n\n## Executive Summary\n\nRunning Gonka nodes currently requires manual CLI-based installation, configuration, and ongoing maintenance. For experienced operators, initial setup typically takes several hours per node. For less experienced participants, the process often stretches to one or two days — or results in abandonment before a node is ever launched.\n\nThis friction actively filters out potential operators, concentrating power among technicall",
       "checksum": "56084e11171b5917d64f935a64f304dc3b9846558f360c7a60e2d14f0e1c182f"
     },
     "ecosystem/0836-gonka-native-coding-cli.md": {
-      "title": "Gonka-native Coding CLI",
+      "title": "#836 — Gonka-native Coding CLI",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #836](https://github.com/gonka-ai/gonka/discussions/836) every hour. \n\n# Gonka-native Coding CLI\n\n**Автор:** [@Apha205](https://github.com/Apha205) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-03-02 12:01 UTC · \n\n---\n\n## 📝 Описание\n\nWe are an AI-focused open-source organization building infrastructure and applications around decentralized intelligence systems, and we have been early adopters in the AI space, positioning ourselves ahead of the curve by developing tools and experimental systems.\n\n**Overview:**\nWe are developing a Gonka-native coding CLI— a developer tool that integrates directly with the Gonka network without relying on centralized intermediaries, while providing a seamless command-line experience that fits naturally into modern",
       "checksum": "9375e41ed850a70978c2e6789f612f655d5bbc184ea2eb00c9ae6fda44308dd3"
     },
     "ecosystem/0864-proposal-deploy-gonka-ai-web-platform-v1-to-production-appgo.md": {
-      "title": "Proposal: Deploy Gonka AI Web Platform v1 to Production (app.gonka.ai)",
+      "title": "#864 — Proposal: Deploy Gonka AI Web Platform v1 to Production (app.gonka.ai)",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #864](https://github.com/gonka-ai/gonka/discussions/864) every hour. \n\n# Proposal: Deploy Gonka AI Web Platform v1 to Production (app.gonka.ai)\n\n**Автор:** [@zpoken](https://github.com/zpoken) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-03-05 11:52 UTC · \n\n---\n\n## 📝 Описание\n\n# Proposal: Deploy Gonka AI Web Platform v1 to Production (app.gonka.ai)\n\n**Repository:** [ZpokenWeb3/Gonka-AI-web-application](https://github.com/ZpokenWeb3/Gonka-AI-web-application)\n\n---\n\n## Summary\n\nThis proposal requests community approval to deploy the fully developed Gonka AI Web Platform v1 to production at the **app.gonka.ai** domain. The platform v1 has been designed, developed, and tested by the ZpokenWeb3 team and is ready for production deployment. It provide",
       "checksum": "6ba0d2589da0e8b4c377bd366d42be132db9d216cf3464a991bbe76c9033b89e"
     },
     "ecosystem/0873-outdated-optional-centralized-monitoring-for-gonka-validator.md": {
-      "title": "!OUTDATED! Optional Centralized Monitoring for Gonka Validators",
+      "title": "#873 — !OUTDATED! Optional Centralized Monitoring for Gonka Validators",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #873](https://github.com/gonka-ai/gonka/discussions/873) every hour. \n\n# !OUTDATED! Optional Centralized Monitoring for Gonka Validators\n\n**Автор:** [@SegovChik](https://github.com/SegovChik) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-03-09 07:36 UTC · \n\n---\n\n## 📝 Описание\n\nhttps://github.com/gonka-ai/gonka/discussions/1085 - updated proposal\n\n---\n\n## 💬 Комментарии (2)\n\n### Комментарий 1 — [@SegovChik](https://github.com/SegovChik)\n\n*2026-03-09 12:06 UTC*\n\nPrepeared ansible to deploy for both sides.\n\nhttps://github.com/inc4/gonka-nop/tree/feat/monitoring/ansible#for-operators-central-server-setup - for one who want to host centralized monitoring\n\nhttps://github.com/inc4/gonka-nop/tree/feat/monitoring/ansible#for-validators-client-setup - for",
       "checksum": "fbb1ceaf98baf2271f1d09dcf40d66c191906b6f99a1211beca05ea01e17e7a4"
     },
     "ecosystem/0875-automatic-node-provisioning-tool-exists.md": {
-      "title": "Automatic Node Provisioning Tool exists",
+      "title": "#875 — Automatic Node Provisioning Tool exists",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #875](https://github.com/gonka-ai/gonka/discussions/875) every hour. \n\n# Automatic Node Provisioning Tool exists\n\n**Автор:** [@SegovChik](https://github.com/SegovChik) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-03-10 17:41 UTC · \n\n---\n\n## 📝 Описание\n\n# Gonka NOP: One-Command Validator Deployment CLI\n\n**Category:** Proposals\n**Labels:** enhancement, tooling, infrastructure, devops\n\n---\n\n## Demo\n\n[![Gonka NOP Demo](https://img.youtube.com/vi/0w6bIEROxUQ/maxresdefault.jpg)](https://youtu.be/0w6bIEROxUQ?si=FJywggqlVax90Ohn)\n\n**Repository:** [github.com/inc4/gonka-nop](https://github.com/inc4/gonka-nop)\n\n---\n\n## Problem Statement\n\nDeploying a Gonka validator today requires executing 50+ manual steps across GPU drivers, Docker configuration, key m",
       "checksum": "c454a2fcb7a01081677c63089912f02e325a99649926f2a32b2627834f9c80b0"
     },
     "ecosystem/1243-project-funding-governance-and-management.md": {
-      "title": "Project funding governance and management",
+      "title": "#1243 — Project funding governance and management",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1243](https://github.com/gonka-ai/gonka/discussions/1243) every hour. \n\n# Project funding governance and management\n\n**Автор:** [@a-kuprin](https://github.com/a-kuprin) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-05-25 04:19 UTC · \n\n---\n\n## 📝 Описание\n\n# Project funding governance\n\n## Summary\n\nAt present, there is a need for an organization to allocate funds from the community pool and for adequate project-funding tools.\n\nWe propose a smart contract to govern project funding. The grantee first prepares a project with milestones, each tied to a USDT/GNK payout (both can be used at once).\nThe community votes on the whole project; funds are moved into the smart contract; and an industry committee appointed by hosts votes on each milestone being",
       "checksum": "58a93c5081659c0f5b734484c065c4cb2e1339be7c28af0c1629dc51eb75e411"
     },
     "ecosystem/1589-bring-gnk-and-gonka-to-the-ledger-ecosystem.md": {
-      "title": "Bring GNK and Gonka to the Ledger Ecosystem",
+      "title": "#1589 — Bring GNK and Gonka to the Ledger Ecosystem",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1589](https://github.com/gonka-ai/gonka/discussions/1589) every hour. \n\n# Bring GNK and Gonka to the Ledger Ecosystem\n\n**Автор:** [@Isabella0319](https://github.com/Isabella0319) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-08-13 09:09 UTC · \n\n---\n\n## 📝 Описание\n\nHi everyone! This is Isabel from 6Block. I’d like to share an important update.\n\n6Block has reached an agreement with Ledger to bring GNK and Gonka into the Ledger ecosystem. The goal is to support the integration of Gonka’s native coin, GNK, and wGNK across Ledger’s relevant infrastructure, including Ledger Devices and Ledger Wallet. \n\nThis is a major step for Gonka. Ledger is one of the leading wallet and custody infrastructure brands in crypto, and we believe Gonka should work wit",
       "checksum": "24534ff922c5dbc04c80f754f1fba618461e96b4156d77486d6ffcb28e14fcb9"
     },
     "ecosystem/1648-running-our-own-devshard-gateway-plan-economics-and-what-hos.md": {
-      "title": "Running our own devshard gateway — plan, economics, and what hosts want to see for allowlisting",
+      "title": "#1648 — Running our own devshard gateway — plan, economics, and what hosts want to see for allowlisting",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1648](https://github.com/gonka-ai/gonka/discussions/1648) every hour. \n\n# Running our own devshard gateway — plan, economics, and what hosts want to see for allowlisting\n\n**Автор:** [@theaungmyatmoe](https://github.com/theaungmyatmoe) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-08-25 12:18 UTC · \n\n---\n\n## 📝 Описание\n\n# Running our own devshard gateway — plan, economics, and the one thing we need from hosts\n\n**Who:** Fusion AI Gateway (`api.fusioncode.app`) — a production broker already serving DeepSeek V4 Flash, MiniMax M2.7, and Kimi K2.6 through the network (currently via OpenBroker).\n\n## Why we want our own gateway\n\n1. **Direct GNK settlement & self-custody** — we have a committed multi-billion-token/day pipeline and need escrow pooling/r",
       "checksum": "0af1eadc5a73ef50a39d8b3272c9d8a6abf2f814805c10aee81e98f5535a37a1"
     },
     "general/0670-kimi-k25.md": {
-      "title": "Kimi K2.5",
+      "title": "#670 — Kimi K2.5",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #670](https://github.com/gonka-ai/gonka/discussions/670) every hour. \n\n# Kimi K2.5\n\n**Автор:** [@Yockium](https://github.com/Yockium) · **Категория:** :speech_balloon: General · **Создано:** 2026-01-30 13:07 UTC · \n\n---\n\n## 📝 Описание\n\nHi, I'm trying to understand the technical bounderies of Gonka.\n\nI like the idea behind the project, so want to try it out, but I need something beyond currently available models. Would it be possible to add kimi k2.5 to the infrastructure? If not, what are the main blockers?\n\nI'm still learning about llms, sorry if this seems to be a naive question.\n\nThanks!\n\n---\n\n## 💬 Комментарии (1)\n\n### Комментарий 1 — [@votkon](https://github.com/votkon)\n\n*2026-02-26 21:07 UTC*\n\nIt's totally doable and the new models are expected to a",
       "checksum": "7aa91e09f2a58bb83249f4189b89c1f295614f05eb8ca8295b0789b882e4e450"
     },
     "general/0798-how-can-governance-voting-become-easier-for-hosts.md": {
-      "title": "How can governance voting become easier for Hosts?",
+      "title": "#798 — How can governance voting become easier for Hosts?",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #798](https://github.com/gonka-ai/gonka/discussions/798) every hour. \n\n# How can governance voting become easier for Hosts?\n\n**Автор:** [@tcharchian](https://github.com/tcharchian) · **Категория:** :speech_balloon: General · **Создано:** 2026-02-24 21:46 UTC · \n\n---\n\n## 📝 Описание\n\nHi everyone, the goal of this thread is to increase governance participation and voter turnout. Feedback is needed on what would make voting easier to notice, faster to understand, and simpler to complete.\n\n**What currently blocks participation**\n\nIf recent votes were skipped, what were the main reasons?\n- The vote was not noticed in time\n- The voting window was too short\n- The proposal summary was not clear enough to decide quickly\n- Too much context was required to evaluate ",
       "checksum": "025e4ed821f69e99aae9a0498c3198fe1679fb6a7e9435ccfadda903fa0bdc48"
     },
     "general/0817-network-reliability-and-performance-coordination-slow-nodes-.md": {
-      "title": "Network reliability and performance coordination (slow nodes, DB growth, missed inference)",
+      "title": "#817 — Network reliability and performance coordination (slow nodes, DB growth, missed inference)",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #817](https://github.com/gonka-ai/gonka/discussions/817) every hour. \n\n# Network reliability and performance coordination (slow nodes, DB growth, missed inference)\n\n**Автор:** [@tcharchian](https://github.com/tcharchian) · **Категория:** :speech_balloon: General · **Создано:** 2026-02-27 21:05 UTC · \n\n---\n\n## 📝 Описание\n\n**Goal:** collect signals, converge on root causes \n\nThis discussion is for high-level coordination and evidence gathering. Implementation work is tracked in the linked epics (issues).\n\nTopics:\n1) Node slowdowns reported by multiple hosts over the last few days\n2) `application.db` growth (pruning not effective)\n3) Missed inference on some nodes  \n\nNotes\n- If you have partial data, post it anyway.  \n- If you want to help implement, commen",
       "checksum": "e42aec4e025a5b2b6ed8fc10f2098a1dac3b3e59b4e52c2b74fd35294b5ba9ef"
     },
     "general/0944-gonkas-support-of-new-modalities-besides-text.md": {
-      "title": "Gonka's support of new modalities besides text",
+      "title": "#944 — Gonka's support of new modalities besides text",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #944](https://github.com/gonka-ai/gonka/discussions/944) every hour. \n\n# Gonka's support of new modalities besides text\n\n**Автор:** [@tamazgadaev](https://github.com/tamazgadaev) · **Категория:** :speech_balloon: General · **Создано:** 2026-03-25 09:47 UTC · \n\n---\n\n## 📝 Описание\n\nI'd like to start a discussion on how we develop gonka to support new modalities on the network, like speech-to-text, image understanding, video generation etc.\n\nThe core tasks for any new modality are:\n- How to validate inference in this modality\n- How to run PoC based on this modality\n- How much load a new modality can create on the network including internet traffic, storage, blockchain load etc.\n\nI'd suggest to use this discussion as free chat on this, possible ideas and agg",
       "checksum": "6af42e151e992b0e81ee9b62c7b949648ef5e02cfcbae652be9c93e6a1aa88c7"
     },
     "general/1304-aps-for-delegated-wallets-and-agent-accounts-track-2-project.md": {
-      "title": "APS for delegated wallets and agent accounts (Track 2, Project 3)",
+      "title": "#1304 — APS for delegated wallets and agent accounts (Track 2, Project 3)",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1304](https://github.com/gonka-ai/gonka/discussions/1304) every hour. \n\n# APS for delegated wallets and agent accounts (Track 2, Project 3)\n\n**Автор:** [@aeoess](https://github.com/aeoess) · **Категория:** :speech_balloon: General · **Создано:** 2026-06-04 01:38 UTC · \n\n---\n\n## 📝 Описание\n\nTrack 2, Project 3 is close to what APS was built for: an agent acting within scoped authority, without exposing the owner's main key and without manual approval on every call. That authorization and audit layer is what APS implements today, open and Apache-2.0, on npm.\n\nThe primitives map to the project directly:\n\n- **Predefined limits without exposing the main key:** the agent acts under a delegated key with a scoped grant. The owner's main key never leaves them. Li",
       "checksum": "eae8c5523e5ba93a1843ec2ca37859187a00031bef48111c5f81df9cda46adee"
     },
     "general/1619-phase-out-kimi-k26.md": {
-      "title": "Phase out Kimi K2.6",
+      "title": "#1619 — Phase out Kimi K2.6",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1619](https://github.com/gonka-ai/gonka/discussions/1619) every hour. \n\n# Phase out Kimi K2.6\n\n**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :speech_balloon: General · **Создано:** 2026-08-21 01:09 UTC · \n\n---\n\n## 📝 Описание\n\nDeepSeek v4 Flash 0731 has quickly become one of the most in-demand models on Gonka. Demand has been strong from day one, and at times it exceeds our current capacity. To increase Gonka’s capacity for DeepSeek v4 Flash and meet this demand, we need to encourage more hosts to allocate suitable hardware to the model.\n\nThat is why I propose phasing out Kimi K2.6.\n\nThere are several reasons for choosing Kimi:\n\n- Demand for Kimi inference has been declining.\n- Phasing out Kimi would free up B200 capacity that can ",
       "checksum": "caeefbf1b1e87f248959f88af531029df6160efd0f93e7a18348a55ac41a6e3a"
     },
     "general/1747-proposal-reimbursement-of-expenses-for-daniil-and-david-libe.md": {
-      "title": "Proposal: Reimbursement of Expenses for Daniil and David Liberman’s Participation in All-In Summit 2026",
+      "title": "#1747 — Proposal: Reimbursement of Expenses for Daniil and David Liberman’s Participation in All-In Summit 2026",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1747](https://github.com/gonka-ai/gonka/discussions/1747) every hour. \n\n# Proposal: Reimbursement of Expenses for Daniil and David Liberman’s Participation in All-In Summit 2026\n\n**Автор:** [@sultee](https://github.com/sultee) · **Категория:** :speech_balloon: General · **Создано:** 2026-09-10 12:06 UTC · \n\n---\n\n## 📝 Описание\n\n## **Summary**\n\nWe are proposing to allocate **15,500 USDT from the Gonka Community Pool** to reimburse the cost of two tickets for **All-In Summit 2026** for Daniil and David Liberman, co-creators of the Gonka protocol.\n\nAll-In Summit will take place on **September 13–15, 2026, in Los Angeles** and will bring together more than **2,500 hand-selected attendees**, including tech founders, investors, executives, and leaders from the",
       "checksum": "93107fadd1a3653db02302c2480efa5c2bfb0aa2ea58028cafcada4fd233d6fa"
     },
     "governance-proposal-reports/1477-proposal-74-gonka-labs-monthly-report-no1.md": {
-      "title": "Proposal #74: Gonka Labs - Monthly Report No.1",
+      "title": "#1477 — Proposal #74: Gonka Labs - Monthly Report No.1",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1477](https://github.com/gonka-ai/gonka/discussions/1477) every hour. \n\n# Proposal #74: Gonka Labs - Monthly Report No.1\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-07-18 18:31 UTC · \n\n---\n\n## 📝 Описание\n\n# \n\n![](https://resource.inkdown.me/assets/11g/tk4ZX4b2sHaSu/ZarQaYSqnMMS69H.png)\n\nHey! Gonka Labs here.\n\nOn June 12th the community passed [Proposal #74](https://gonka.gg/network/proposals/74). That vote funded the next stretch of work - infra, ops, and shipping products for the ecosystem.\n\nThis is the first public progress report we promised in the proposal (monthly updates on GitHub Discussions). Short version of what landed so far:\n\n1. **OpenBroker** - new p",
       "checksum": "b7c8452c97a9b1231137dc727e18b2cccf456a6d9761144ed193e9b672013063"
     },
     "governance-proposal-reports/1540-proposal-51-webx-asia-2026-post-event-report.md": {
-      "title": "Proposal #51: WebX Asia 2026 — Post-Event Report",
+      "title": "#1540 — Proposal #51: WebX Asia 2026 — Post-Event Report",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1540](https://github.com/gonka-ai/gonka/discussions/1540) every hour. \n\n# Proposal #51: WebX Asia 2026 — Post-Event Report\n\n**Автор:** [@Ryanchen911](https://github.com/Ryanchen911) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-08-04 08:54 UTC · \n\n---\n\n## 📝 Описание\n\nOn behalf of 6Block, I would like to thank the Gonka community for approving and funding Gonka's participation at WebX Asia 2026.\n\nUnder [the original Proposal #51](https://gonkascan.com/?page=governance&proposal_id=51), 6Block directly funded the 75,000 USDT Platinum sponsorship, while the community allocated another 75,000 USDT to cover the execution of Gonka's presence at the event. After consolidating the expenses, the execution budget was used as foll",
       "checksum": "07928f20e39d64dd33034adfe7388c4214102905c06c45643ece682221efe426"
     },
     "governance-proposal-reports/1561-proposal-77-input-global-monthly-report-july.md": {
-      "title": "Proposal #77: INPUT Global - Monthly Report || July",
+      "title": "#1561 — Proposal #77: INPUT Global - Monthly Report || July",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1561](https://github.com/gonka-ai/gonka/discussions/1561) every hour. \n\n# Proposal #77: INPUT Global - Monthly Report || July\n\n**Автор:** [@apakhtina](https://github.com/apakhtina) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-08-07 15:58 UTC · \n\n---\n\n## 📝 Описание\n\n<img width=\"3840\" height=\"2160\" alt=\"image\" src=\"https://github.com/user-attachments/assets/7355944b-ac24-48cd-b1ac-1fb00fcff0b5\" />\n\n### July 2026 Monthly Report\n\nHi Team, happy to share our July 2026 Monthly Report for Gonka! You can find a detailed breakdown of our results in the report here: https://www.figma.com/deck/F1ReIM6Ag6MB6WcbnEc2QY\n\n**Secured this month:**\n\n• Two interviews during WebX - one with **MPost** and one with **Blockchain Reporter**, ",
       "checksum": "8834f887b2ab4dbeaa4489d08656db43076236d297605e3830039fdb3c7662ba"
     },
     "governance-proposal-reports/1582-proposal-82-external-test-lab-community-devnet-m1-report.md": {
-      "title": "Proposal #82: External Test Lab & Community DevNet — M1 Report",
+      "title": "#1582 — Proposal #82: External Test Lab & Community DevNet — M1 Report",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1582](https://github.com/gonka-ai/gonka/discussions/1582) every hour. \n\n# Proposal #82: External Test Lab & Community DevNet — M1 Report\n\n**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-08-11 23:12 UTC · \n\n---\n\n## 📝 Описание\n\n**Period:** 2026-07-10 — 2026-08-09 · **Proposal:** [#82](https://gonka.gg/network/proposals/82) ([discussion](https://github.com/gonka-ai/gonka/discussions/1388)) · **Next unlock:** 2026-08-13\n\n## Workstream A — DevNet infrastructure (M1: Setup)\n\n| M1 requirement | Status |\n|---|---|\n| DevNet design agreed | Done — [architecture note](https://github.com/paranjko/external-test-lab/blob/main/devnet/architecture.md) |\n| ≥5 nodes online | Done — node0",
       "checksum": "8c0bce71c3e086edef7664845e963f9ca31df16ab2f8173c63ad3a9b61df90fc"
     },
     "governance-proposal-reports/1612-proposal-74-gonka-labs-monthly-report-no2.md": {
-      "title": "Proposal #74: Gonka Labs - Monthly Report No.2",
+      "title": "#1612 — Proposal #74: Gonka Labs - Monthly Report No.2",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1612](https://github.com/gonka-ai/gonka/discussions/1612) every hour. \n\n# Proposal #74: Gonka Labs - Monthly Report No.2\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-08-18 20:34 UTC · \n\n---\n\n## 📝 Описание\n\n<img width=\"1920\" height=\"1080\" alt=\"image\" src=\"https://github.com/user-attachments/assets/6267b894-26b8-47a1-a34e-97ff83dca34b\" />\n\nHey! Gonka Labs here. Last update was [Monthly Report No.1](https://github.com/gonka-ai/gonka/discussions/1477) on Jul 18. \n\nReport #1 was the launch month: OpenBroker and Pulse went live, the explorer got a big QA + inference pass, and proxy.gonka.gg moved onto dedicated infra under real load. This month is what we added on top. ",
       "checksum": "709a1e6c603e9846372780b4efe72cadcfaf37269dd16dd688a0d994705ba3fd"
     },
     "governance-proposal-reports/1614-proposal-74-gonka-labs-monthly-report-no2.md": {
-      "title": "Proposal #74: Gonka Labs - Monthly Report No.2",
+      "title": "#1614 — Proposal #74: Gonka Labs - Monthly Report No.2",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1614](https://github.com/gonka-ai/gonka/discussions/1614) every hour. \n\n# Proposal #74: Gonka Labs - Monthly Report No.2\n\n**Автор:** [@ptd-bot](https://github.com/ptd-bot) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-08-19 11:28 UTC · \n\n---\n\n## 📝 Описание\n\n<img width=\"1920\" height=\"1080\" alt=\"image\" src=\"https://github.com/user-attachments/assets/6267b894-26b8-47a1-a34e-97ff83dca34b\" />\n\nHey! Gonka Labs here. Last update was [Monthly Report No.1](https://github.com/gonka-ai/gonka/discussions/1477) on Jul 18. \n\nReport #1 was the launch month: OpenBroker and Pulse went live, the explorer got a big QA + inference pass, and proxy.gonka.gg moved onto dedicated infra under real load. This month is what we added on top. New ",
       "checksum": "8c8131048d70d205ad5b9513501b21bed67d661088204ecc6d40bd5ed68cee91"
     },
     "governance-proposal-reports/1617-outdated-proposal-74-gonka-labs-monthly-report-no-2.md": {
-      "title": "(outdated) Proposal #74: Gonka Labs - Monthly Report No. 2",
+      "title": "#1617 — (outdated) Proposal #74: Gonka Labs - Monthly Report No. 2",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1617](https://github.com/gonka-ai/gonka/discussions/1617) every hour. \n\n# (outdated) Proposal #74: Gonka Labs - Monthly Report No. 2\n\n**Автор:** [@nsvdev](https://github.com/nsvdev) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-08-20 15:36 UTC · \n\n---\n\n## 📝 Описание\n\n<img width=\"1920\" height=\"1080\" alt=\"image\" src=\"https://github.com/user-attachments/assets/6267b894-26b8-47a1-a34e-97ff83dca34b\" />\n\nHey! Gonka Labs here. Last update was [Monthly Report No.1](https://github.com/gonka-ai/gonka/discussions/1477) on Jul 18. \n\nReport #1 was the launch month: OpenBroker and Pulse went live, the explorer got a big QA + inference pass, and proxy.gonka.gg moved onto dedicated infra under real load. This month is what we added on",
       "checksum": "669445f1b1bb2398a8dd7e3d3270e09ac10d083cc7ae028bc98f6bf4e3ee467e"
     },
     "governance-proposal-reports/1704-proposal-99-support-gonkas-presence-at-token2049-singapore-2.md": {
-      "title": "Proposal #99: Support Gonka’s Presence at TOKEN2049 Singapore 2026",
+      "title": "#1704 — Proposal #99: Support Gonka’s Presence at TOKEN2049 Singapore 2026",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1704](https://github.com/gonka-ai/gonka/discussions/1704) every hour. \n\n# Proposal #99: Support Gonka’s Presence at TOKEN2049 Singapore 2026\n\n**Автор:** [@Isabella0319](https://github.com/Isabella0319) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-09-02 07:48 UTC · \n\n---\n\n## 📝 Описание\n\n## **Summary**\n\n6Block proposes that the Gonka community allocate **100,000 USDT from the Community Pool** to support Gonka’s participation at **TOKEN2049 Singapore 2026**, taking place on **7–8 October 2026 at Marina Bay Sands, Singapore**.\n\nThe requested funds will be used to cover the **TOKEN2049 Singapore Gold Sponsorship package** and related logistics required to make Gonka’s presence effective, including travel, accommodation, lo",
       "checksum": "445a6ebd9fb4a5a039e46e8326c59ebd8aadd21506906db5708c29263e9ae83d"
     },
     "governance-proposal-reports/1742-proposal-102-ratify-quant-mesh-limited-as-the-ledger-integra.md": {
-      "title": "Proposal #102: Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment",
+      "title": "#1742 — Proposal #102: Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1742](https://github.com/gonka-ai/gonka/discussions/1742) every hour. \n\n# Proposal #102: Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment\n\n**Автор:** [@Isabella0319](https://github.com/Isabella0319) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-09-09 08:42 UTC · \n\n---\n\n## 📝 Описание\n\n## **Summary**\n\n6Block proposes that the Gonka community:\n\n1. **Ratify and authorize Quant Mesh Limited** as the legal contracting counterparty for the Gonka integration agreement with Ledger.  \n2. **Allocate 350,350 USDT from the Gonka Community Pool** to Quant Mesh Limited for the purpose of paying Ledger under the signed Ledger integration agreement.\n\nQuant Mesh Limited, a ",
       "checksum": "1470220ed7f869363d43cff06ced6f3e96fbd1ecd2d35f675f6434c804e9e34f"
     },
     "governance-proposal-reports/1764-proposal-82-external-test-lab-community-devnet-m2-report.md": {
-      "title": "Proposal #82: External Test Lab & Community DevNet — M2 Report",
+      "title": "#1764 — Proposal #82: External Test Lab & Community DevNet — M2 Report",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1764](https://github.com/gonka-ai/gonka/discussions/1764) every hour. \n\n# Proposal #82: External Test Lab & Community DevNet — M2 Report\n\n**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-09-13 12:16 UTC · \n\n---\n\n## 📝 Описание\n\n**Period:** 2026-08-10 — 2026-09-09 · **Proposal:** [#82](https://inference.dahl.global/gonka-governance/82/) ([discussion](https://github.com/gonka-ai/gonka/discussions/1388))\n\n## Executive summary\n\nMonth 2 moved the Lab from setup into active infrastructure, Host lifecycle testing, release qualification, and broker compatibility work.\n\nThe rented fleet reached **nine GPU hosts**, but the **9+ validated MLNodes online** target remains **Partial**:",
       "checksum": "90c5ed7c9077f1fe24f40ee1bb856ada139bc0e863ff75514df6ba32ed9d5057"
     },
     "protocol-improvements/0795-welcome-to-proposals.md": {
-      "title": "Welcome to Proposals 👋",
+      "title": "#795 — Welcome to Proposals 👋",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #795](https://github.com/gonka-ai/gonka/discussions/795) every hour. \n\n# Welcome to Proposals 👋\n\n**Автор:** [@mtvnastya](https://github.com/mtvnastya) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-02-24 07:27 UTC · \n\n---\n\n## 📝 Описание\n\nThis is the space for discussing proposals for protocol improvements and the broader Gonka ecosystem development. If you have an idea that could make Gonka better, this is the place to share it.\n\n**What belongs here**\n\n- Protocol improvements: significant updates to core protocol design and long-term architectural direction\n- External infrastructure proposals: third-party integrations, API clients, tooling, and ecosystem extensions\n- Open problems: things that need research, design exploration, or comm",
       "checksum": "3dfbea725e1d061a8f6c6e64938a92b17dd15b7a0f284a2d6b850c9982eebb5a"
     },
     "protocol-improvements/0800-multi-model-poc.md": {
-      "title": "Multi-Model PoC",
+      "title": "#800 — Multi-Model PoC",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #800](https://github.com/gonka-ai/gonka/discussions/800) every hour. \n\n# Multi-Model PoC\n\n**Автор:** [@gmorgachev](https://github.com/gmorgachev) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-02-25 04:24 UTC · \n\n---\n\n## 📝 Описание\n\n# Proposal: Multi-Model PoC\n\nPOC procedure is short term benchmark to compare how much compute each host has. It happens 1 time per epoch to define weight per each host which then used as consensus weight to produce blocks and for distributing tasks between hosts. Additionally there is Confirmation (random) POC which is used to confirm weight when network is underloaded by inference (to make sure hardware it still there).\n\nPOC phases:\n- GENERATION (blocks equal to 1-5 min)\n- VALIDATION (blocks equal to 2-10",
       "checksum": "8cbba98007226f63a17b451c03bd82f4a61bdeb45b0e302146e8d60327e36728"
     },
     "protocol-improvements/0801-inference-scaling.md": {
-      "title": "Inference Scaling",
+      "title": "#801 — Inference Scaling",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #801](https://github.com/gonka-ai/gonka/discussions/801) every hour. \n\n# Inference Scaling\n\n**Автор:** [@gmorgachev](https://github.com/gmorgachev) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-02-25 04:29 UTC · \n\n---\n\n## 📝 Описание\n\n# Proposal: Inference Scaling \n\n## Problem \n\nPer inference, the following transactions are recorded on-chain:\n- MsgStartInference\n- MsgFinishInference\n- MsgValidation (0 to N_hosts per inference; let's consider case when it's 1 tx for simplicity)\n\n3 txs per inference. Max capacity per block is ~5000\n=> 5000 / 3 = 1666 inferences per block\n=> 1666 / 6 = 277 inferences per sec\n\nConsider 4xH100 with Qwen3-235B deployed.\nFor 5000/1000 input/output tokens, such a setup can process 3.5-4 RPS (TODO: confirm)\n=> ",
       "checksum": "bb58d1fa817fb86b646bf295f0c548c3909720a34621f419f55b3bd87c357952"
     },
     "protocol-improvements/0802-continuous-poc.md": {
-      "title": "Continuous PoC",
+      "title": "#802 — Continuous PoC",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #802](https://github.com/gonka-ai/gonka/discussions/802) every hour. \n\n# Continuous PoC\n\n**Автор:** [@mtvnastya](https://github.com/mtvnastya) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-02-25 05:12 UTC · \n\n---\n\n## 📝 Описание\n\nThis proposal is closely related to proposal for [multi-model PoC](https://github.com/gonka-ai/gonka/discussions/800) and can be seen as it’s continuation.\n\n# Problem \nIf we want to serve small models - we need to do PoCs via small models as well (see proposal multi-model PoC).\n\nBut this opens us to an attack vector when a malicious host can deploy a small model quick enough to participate in both PoC and cPoC with new nodes that were not participating in users’ inference. This attack vector was the reason beh",
       "checksum": "f7b6325c47f91549963ead6f92dbca1f5d873a6919ab2e1e23a8bb916eb36d98"
     },
     "protocol-improvements/0837-high-availability-fault-tolerance-setup.md": {
-      "title": "High-availability / Fault-tolerance Setup",
+      "title": "#837 — High-availability / Fault-tolerance Setup",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #837](https://github.com/gonka-ai/gonka/discussions/837) every hour. \n\n# High-availability / Fault-tolerance Setup\n\n**Автор:** [@blizko](https://github.com/blizko) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-03-02 12:38 UTC · \n\n---\n\n## 📝 Описание\n\n### High-availability / Fault-tolerance Problem\nIn the current deploy architecture, we have a bottleneck that a single issue with a `node` or `api` container can lead to failure of a multitude of MLNodes.\nThere is a real need for redundancy in all parts of the system.\n\nCurrent architecture of deploy has essentially a single instance of node container per api container \nAny failures or lags of `node` containers (due to any reason like like overloading / hardware issue / ddos / etc) of `api`",
       "checksum": "67cbdc807c9cb2875394e7e67546a63917a3c6738368cea4beca16b08cb6e064"
     },
     "protocol-improvements/0860-gip-inference-quality-axis-registry-extending-cachequalitywe.md": {
-      "title": "GiP: Inference Quality Axis Registry — extending CacheQualityWeight toward measurable useful work",
+      "title": "#860 — GiP: Inference Quality Axis Registry — extending CacheQualityWeight toward measurable useful work",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #860](https://github.com/gonka-ai/gonka/discussions/860) every hour. \n\n# GiP: Inference Quality Axis Registry — extending CacheQualityWeight toward measurable useful work\n\n**Автор:** [@Mayveskii](https://github.com/Mayveskii) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-03-04 22:39 UTC · \n\n---\n\n## 📝 Описание\n\n## History of contributions\n\n- PR #856 — Continuous PoC complete: fixed critical serialisation bug in #845 (ContinuousPocParams never persisted on-chain), added full pruning for three new collections, epoch settlement with EffectivePocWeight, and Merkle-proof challenge/response system. Closes GiP #821.\n- PR #859 — Semantic cache + CacheQualityWeight: two-level cache (L1 exact-match, L2 cosine similarity), additive quality bonus ",
       "checksum": "f5c6631b29d1b8eac2733dc691db5a28cb8344c1b0f6c50aff79c077b313a00b"
     },
     "protocol-improvements/0869-gip-860-inference-quality-protocol-semantic-inference-optimi.md": {
-      "title": "GiP #860 — Inference Quality Protocol: Semantic Inference Optimization",
+      "title": "#869 — GiP #860 — Inference Quality Protocol: Semantic Inference Optimization",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #869](https://github.com/gonka-ai/gonka/discussions/869) every hour. \n\n# GiP #860 — Inference Quality Protocol: Semantic Inference Optimization\n\n**Автор:** [@Mayveskii](https://github.com/Mayveskii) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-03-06 13:54 UTC · \n\n---\n\n## 📝 Описание\n\n## Background\n\nThis discussion is the **design document that precedes implementation**. PR [#859]\n(semantic cache) is the first implementation milestone; it exists to test the\ninfrastructure hypothesis, not to define the full system. The full system is defined here.\n\nPer the review process @akup outlined on [#856] and [#802]: design first, then code.\nThis GiP is that design step. PR [#859] is scoped strictly to what this document\njustifies in Phase 0.\n\n--",
       "checksum": "345a97d3ec8d566c281d15ee4c5dddff3a7833f2fc9f84637f8797e569dabf14"
     },
     "protocol-improvements/0870-gonka-ai-testnet.md": {
-      "title": "Gonka AI Testnet",
+      "title": "#870 — Gonka AI Testnet",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #870](https://github.com/gonka-ai/gonka/discussions/870) every hour. \n\n# Gonka AI Testnet\n\n**Автор:** [@Alert17](https://github.com/Alert17) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-03-06 17:14 UTC · \n\n---\n\n## 📝 Описание\n\n# Gonka Testnet - Permanent Parallel Network for Consumer GPU Participation\n\n## Motivation\n\nGonka mainnet requires **320 GB VRAM** per ML Node (e.g. 4×H100 80 GB), limiting participation to datacenter-grade multi-GPU setups. Consumer and prosumer GPUs - RTX 3090, RTX 4090, A6000 - are excluded entirely despite being capable compute devices.\n\nThis creates three concrete problems:\n\n- **Lost participants.** Hosts who invested in hardware and contributed to the network were locked out as VRAM requirements increased ",
       "checksum": "021656cdccade66f3ee0087b614feb6e717a33de726e4064758f5ed3c1fb77c9"
     },
     "protocol-improvements/0930-proposal-agent-identity-and-delegation-governance-for-gonka-.md": {
-      "title": "Proposal: Agent identity and delegation governance for Gonka compute",
+      "title": "#930 — Proposal: Agent identity and delegation governance for Gonka compute",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #930](https://github.com/gonka-ai/gonka/discussions/930) every hour. \n\n# Proposal: Agent identity and delegation governance for Gonka compute\n\n**Автор:** [@aeoess](https://github.com/aeoess) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-03-20 00:42 UTC · \n\n---\n\n## 📝 Описание\n\nGonka's agent-aware inference gateway handles the compute layer. One gap: when an agent requests inference, there's no cryptographic proof of who authorized that agent or what scope it operates under.\n\nThe Agent Passport System (APS) provides this layer:\n\n- **Ed25519 cryptographic identity** for each agent\n- **Scoped delegation chains** — a human grants an agent specific permissions with spend limits. The agent can sub-delegate with narrower scope. Authority mono",
       "checksum": "6b8cf337f9615a3f8a5961c4459b89e87feb74d85e3a850ecf359cf65b9468ea"
     },
     "protocol-improvements/0951-tee-implementation.md": {
-      "title": "TEE Implementation",
+      "title": "#951 — TEE Implementation",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #951](https://github.com/gonka-ai/gonka/discussions/951) every hour. \n\n# TEE Implementation\n\n**Автор:** [@mtvnastya](https://github.com/mtvnastya) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-03-26 05:10 UTC · \n\n---\n\n## 📝 Описание\n\n# TEE\n\nThis proposal outlines the integration of Trusted Execution Environments (TEE) into the Gonka network architecture. By leveraging hardware-level isolation (Intel TDX, AMD SEV-SNP, NVIDIA Confidential Compute), we can protect user payloads and inference data from the physical hosts/miners, enabling true \"Confidential MLNodes.\" This document proposes changes to the node registry, validation pipeline, and economic incentives.\n\n## Problem\n\nCurrently, user requests data sent to the Gonka network is hidde",
       "checksum": "8e14a63dfadd280800d722f7129b606d3dda62a83408fca56b139fcaba07ec8e"
     },
     "protocol-improvements/0954-optimistic-parallel-execution-of-messages-for-inference-chai.md": {
-      "title": "Optimistic parallel execution of messages for inference-chain",
+      "title": "#954 — Optimistic parallel execution of messages for inference-chain",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #954](https://github.com/gonka-ai/gonka/discussions/954) every hour. \n\n# Optimistic parallel execution of messages for inference-chain\n\n**Автор:** [@akup](https://github.com/akup) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-03-26 12:27 UTC · \n\n---\n\n## 📝 Описание\n\n# Two-Level Block/Tx Cache with Conflict Detection for OCC\n\n## Motivation\n\nCosmos SDK processes transactions sequentially by default. Every read from the\nKV store requires protobuf unmarshalling, and every write requires marshalling —\noperations that are both CPU-intensive and repeated across transactions within\nthe same block.\n\nThe goal of this proposal is twofold:\n\n1. **Phase 1 (current):** Introduce a two-level block/tx cache implemented by\n   `OptimisticStore` (name kep",
       "checksum": "64e5e8ce1af39955102a16c501ccafec14caca41a74b3a728cabe37eef315e08"
     },
     "protocol-improvements/1008-token-based-governance-splitting-technical-and-community-dec.md": {
-      "title": "Token-Based Governance: Splitting Technical and Community Decisions",
+      "title": "#1008 — Token-Based Governance: Splitting Technical and Community Decisions",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1008](https://github.com/gonka-ai/gonka/discussions/1008) every hour. \n\n# Token-Based Governance: Splitting Technical and Community Decisions\n\n**Автор:** [@Alert17](https://github.com/Alert17) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-04-03 18:04 UTC · \n\n---\n\n## 📝 Описание\n\n# Token-Based Governance: Splitting Technical and Community Decisions\n \n## Motivation\n \nGonka governance currently works through the standard Cosmos SDK `x/gov` module. Voting power is derived from **compute weight** — a score each host earns through Proof of Compute activity (nonces delivered, inference work completed). In practice, this means only active hosts (node operators) participate in governance, and their influence is proportional to their hardware c",
       "checksum": "025c9956fce360afdafc78e574ae6fc326488bee66682587471a04655d85e249"
     },
     "protocol-improvements/1085-inc4-gonka-node-observability-platform.md": {
-      "title": "INC4 | Gonka Node Observability Platform",
+      "title": "#1085 — INC4 | Gonka Node Observability Platform",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1085](https://github.com/gonka-ai/gonka/discussions/1085) every hour. \n\n# INC4 | Gonka Node Observability Platform\n\n**Автор:** [@rwxr-xr-x](https://github.com/rwxr-xr-x) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-04-16 18:05 UTC · \n\n---\n\n## 📝 Описание\n\n# Gonka Node Observability Platform\n\nProposal by INC4 (https://inc4.net) | 16 April 2026\n\nFunding Request: \\$96,000 USD (USDT) for 12 months\n\n---\n\n## Table of Contents\n\n1. [Executive Summary](#1-executive-summary)\n2. [Problem Statement](#2-problem-statement)\n3. [Industry Context](#3-industry-context)\n4. [Proposed Solution](#4-proposed-solution)\n5. [Technical Approach](#5-technical-approach)\n6. [Scope and Deliverables](#6-scope-and-deliverables)\n7. [Budget and Payment Schedule](#7-bu",
       "checksum": "ce7155fefbe691f6f6309d6a50f0cdbf68ec426b3cf0ff48807e33c84a237149"
     },
     "protocol-improvements/1090-qwen3-235b-a22b-instruct-2507-fp8-with-fp8-kvcache-as-the-fi.md": {
-      "title": "Qwen3-235B-A22B-Instruct-2507-FP8 with FP8 KVcache as the first multi model PoC launch model",
+      "title": "#1090 — Qwen3-235B-A22B-Instruct-2507-FP8 with FP8 KVcache as the first multi model PoC launch model",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1090](https://github.com/gonka-ai/gonka/discussions/1090) every hour. \n\n# Qwen3-235B-A22B-Instruct-2507-FP8 with FP8 KVcache as the first multi model PoC launch model\n\n**Автор:** [@beatifull](https://github.com/beatifull) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-04-18 06:46 UTC · \n\n---\n\n## 📝 Описание\n\nHello, I'm a gonka host with almost half a year of experience.\n\nMotivation - I would like to suggest a first model to test multi model PoC, which will fit my setup and prepare the network for the smooth multi model PoC launch. I know the main goal: provide models to consumers that are in demand, but this is a nice option to test everything and make life for hosts easier.\nThis will boost PCI-E cards, especially: **4x H100 PCI-E** wi",
       "checksum": "144dde523700b49b3d9cbd1320d2f5015ca2711d1523519bf4d31ad16d767ecb"
     },
     "protocol-improvements/1092-gip-neural-computation-protocol-ncp-v032-deterministic-wasm-.md": {
-      "title": "GiP: Neural Computation Protocol (NCP) v0.3.2 – Deterministic WASM Bricks + YAML Graphs for Fast, Auditable Agentic Systems",
+      "title": "#1092 — GiP: Neural Computation Protocol (NCP) v0.3.2 – Deterministic WASM Bricks + YAML Graphs for Fast, Auditable Agentic Systems",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1092](https://github.com/gonka-ai/gonka/discussions/1092) every hour. \n\n# GiP: Neural Computation Protocol (NCP) v0.3.2 – Deterministic WASM Bricks + YAML Graphs for Fast, Auditable Agentic Systems\n\n**Автор:** [@madeinplutofabio](https://github.com/madeinplutofabio) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-04-20 14:07 UTC · \n\n---\n\n## 📝 Описание\n\n**Title:**  \n**GiP: Neural Computation Protocol (NCP) v0.3.2 – Deterministic WASM Bricks + YAML Graphs for Fast, Auditable Agentic Systems**\n\n**Author:** madeinplutofabio  \n**Date:** April 20, 2026\n\n### Summary\nNCP provides a lightweight, open protocol for composing tiny sandboxed WASM “Bricks” into static YAML graphs. It routes 90–97 % of agentic work (routing, validation, classificatio",
       "checksum": "c634962682a2ad26db27a937b3b61aa59a4b6bc5d4365299626fea4aee3eb536"
     },
     "protocol-improvements/1093-gip-provenance-intent-contracts-pic-v075-local-first-action-.md": {
-      "title": "GiP: Provenance & Intent Contracts (PIC) v0.7.5 – Local-First Action Gating for Verifiable AI Agents",
+      "title": "#1093 — GiP: Provenance & Intent Contracts (PIC) v0.7.5 – Local-First Action Gating for Verifiable AI Agents",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1093](https://github.com/gonka-ai/gonka/discussions/1093) every hour. \n\n# GiP: Provenance & Intent Contracts (PIC) v0.7.5 – Local-First Action Gating for Verifiable AI Agents\n\n**Автор:** [@madeinplutofabio](https://github.com/madeinplutofabio) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-04-20 14:10 UTC · \n\n---\n\n## 📝 Описание\n\n**Title:**  \n**GiP: Provenance & Intent Contracts (PIC) v0.7.5 – Local-First Action Gating for Verifiable AI Agents**\n\n**Author:** madeinplutofabio  \n**Date:** April 20, 2026\n\n### Summary\nPIC is an open standard that forces AI agents to **prove intent + provenance + evidence** before any high-impact tool call (payments, writes, external APIs, etc.). It operates 100 % locally and fails closed by design.\n\n### Pr",
       "checksum": "54dbd42ffb0c470f27e0c13c604de24fb113a6980f458ad52ca9dfce36e6cb5a"
     },
     "protocol-improvements/1153-cosmos-sdk-fork-genesisgo151-158-panics-on-appd-export-init-.md": {
-      "title": "cosmos-sdk fork: genesis.go:151-158 panics on `appd export → init` — mirror existing PoC skip pattern from delegation.go?",
+      "title": "#1153 — cosmos-sdk fork: genesis.go:151-158 panics on `appd export → init` — mirror existing PoC skip pattern from delegation.go?",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1153](https://github.com/gonka-ai/gonka/discussions/1153) every hour. \n\n# cosmos-sdk fork: genesis.go:151-158 panics on `appd export → init` — mirror existing PoC skip pattern from delegation.go?\n\n**Автор:** [@vitaly-andr](https://github.com/vitaly-andr) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-05-08 11:47 UTC · \n\n---\n\n## 📝 Описание\n\nPosting this for maintainer validation before opening a PR against\n`gonka-ai/cosmos-sdk`. Discovered while implementing simulation tests for\ngonka-ai/gonka#982 Phase 1.\n\n### Summary\n\n`gonka-ai/cosmos-sdk@v0.53.3-ps17` deliberately disables token bonding for PoC\nvalidators. `compute.go:SetComputeValidators` creates bonded validators with\n`validator.Tokens` set but no corresponding bank coins in the B",
       "checksum": "8793a6e869fdca5a037f4fc26de7213ab0a170f26f4bf767fb21d666aa9d5d54"
     },
     "protocol-improvements/1155-add-support-for-video-generation-models.md": {
-      "title": "Add support for video generation models",
+      "title": "#1155 — Add support for video generation models",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1155](https://github.com/gonka-ai/gonka/discussions/1155) every hour. \n\n# Add support for video generation models\n\n**Автор:** [@baygeldin](https://github.com/baygeldin) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-05-08 16:18 UTC · \n\n---\n\n## 📝 Описание\n\n## Motivation\nOpen-weight video generation models have improved significantly over the past few years and have reached a level of quality that makes them viable for real-world video production workflows. Adding support for these models to the Gonka network has the potential to reduce production costs. Additionally, it would open a path toward supporting other modalities in the future.\n\nI propose to start with supporting text-to-video models as the most general case. More specifically",
       "checksum": "80c0eb64227a14677e01939b5a7ac94c41f29f57fc7b38dad97b1044e8968f5c"
     },
     "protocol-improvements/1185-public-review-gonka-network-development-roadmap.md": {
-      "title": "[Public Review] Gonka Network Development Roadmap",
+      "title": "#1185 — [Public Review] Gonka Network Development Roadmap",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1185](https://github.com/gonka-ai/gonka/discussions/1185) every hour. \n\n# [Public Review] Gonka Network Development Roadmap\n\n**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-05-18 15:32 UTC · \n\n---\n\n## 📝 Описание\n\nHi everyone,\n\nOver the last month, I have been working on the **Gonka Network Development Roadmap**.\n\nLast week, we had an initial working discussion with a group of active hosts and community contributors. Now I want to open the document for broader public review and invite everyone to comment and improve it.\n\nThe idea is simple: Gonka has already built a foundation of distributed GPU capacity. The next question is what we should build around this capacity to turn it into re",
       "checksum": "357b981f7ef3d207d62f51ef6fd5748095485b87d01d3696a09e77015c0c83fe"
     },
     "protocol-improvements/1188-devshard-improvements-height-sync-protocol-needed-to-support.md": {
-      "title": "`devshard improvements` Height-sync protocol (needed to support cPoC at devshard and new validation protocol)",
+      "title": "#1188 — `devshard improvements` Height-sync protocol (needed to support cPoC at devshard and new validation protocol)",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1188](https://github.com/gonka-ai/gonka/discussions/1188) every hour. \n\n# `devshard improvements` Height-sync protocol (needed to support cPoC at devshard and new validation protocol)\n\n**Автор:** [@akup](https://github.com/akup) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-05-19 06:15 UTC · \n\n---\n\n## 📝 Описание\n\n# Height-sync protocol\n\nUser ↔ host envelopes carry an **optional `HeightSyncSection`** that\nattests to a mainnet `(height, block_hash)` pair. This section is the\nsole input to cross-host time alignment, timeout decisions, and the\n`IsStrictlyConfirmed(h)` predicate that downstream protocols\n(cPoC, finalization) gate verdicts on.\n`block_hash` is a source of determenistic randomness that is unknown\nin advance, used by [`VALIDA",
       "checksum": "97cd2baff2bddf4faa71683f79d3d3d3cd4968bbe89f04174c4de9779a4183ee"
     },
     "protocol-improvements/1189-devshard-improvements-validation-protocol-eligibility-in-pla.md": {
-      "title": "`devshard improvements` Validation protocol: eligibility, in-place checks, and transparent randomness",
+      "title": "#1189 — `devshard improvements` Validation protocol: eligibility, in-place checks, and transparent randomness",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1189](https://github.com/gonka-ai/gonka/discussions/1189) every hour. \n\n# `devshard improvements` Validation protocol: eligibility, in-place checks, and transparent randomness\n\n**Автор:** [@akup](https://github.com/akup) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-05-19 06:16 UTC · \n\n---\n\n## 📝 Описание\n\n# Validation protocol: eligibility, in-place checks, and transparent randomness\n\n## Summary\n\nWe should **replace** the current pattern of **per-host seeds + a finalization-time `MsgRevealSeed` phase** with a design where:\n\n- **every `MsgValidation` (or equivalent) is checkable at arrival time** — receivers know whether the **sender is eligible** to validate that inference;\n- validation runs **in place** (soon after finish), not only",
       "checksum": "593702634bb0832b525afa1f38d88570a8a04530c46bd5ac79205ec9986ad5a7"
     },
     "protocol-improvements/1190-devshard-improvements-cpoc-skip-protocol-proposal.md": {
-      "title": "`devshard improvements` cPoC skip protocol — proposal",
+      "title": "#1190 — `devshard improvements` cPoC skip protocol — proposal",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1190](https://github.com/gonka-ai/gonka/discussions/1190) every hour. \n\n# `devshard improvements` cPoC skip protocol — proposal\n\n**Автор:** [@akup](https://github.com/akup) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-05-19 06:18 UTC · \n\n---\n\n## 📝 Описание\n\n# cPoC skip protocol (devshard) — proposal\n\n## Summary\n\nIn a **devshard**, hosts that run **confirmation PoC (cPoC)** must **not** serve normal inference for the duration of their PoC obligation. Other hosts must be able to tell whether a skip is **legitimate** (the skipping host is on the **cPoC schedule** at the relevant height) or **abusive** (lying, or refusing work). This document specifies the **data flow** and the **cases** that the cPoC protocol must handle.\n\n**Out of sco",
       "checksum": "a7cdfdedd5c623b4fc17f89cb343f984427f6c9bd338e17a13840b569658c5df"
     },
     "protocol-improvements/1192-inc4-gonka-nop-grant-for-the-node-deployment-tool.md": {
-      "title": "INC4 | Gonka NOP - grant for the node deployment tool",
+      "title": "#1192 — INC4 | Gonka NOP - grant for the node deployment tool",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1192](https://github.com/gonka-ai/gonka/discussions/1192) every hour. \n\n# INC4 | Gonka NOP - grant for the node deployment tool\n\n**Автор:** [@rwxr-xr-x](https://github.com/rwxr-xr-x) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-05-19 10:51 UTC · \n\n---\n\n## 📝 Описание\n\n# Gonka NOP - grant for the node deployment tool\n\nA CommunityPool funding request covering delivered work on gonka-nop, ongoing operator support, and continued development of the tool.\n\n## TL;DR\n\nINC4 proposes a 50,000 USDT allocation from the CommunityPool for gonka-nop (Node Onboarding Package), a CLI tool for deploying and maintaining Gonka nodes. The tool is already built, released under the MIT license, and in active use by some operators on mainnet — it is not a p",
       "checksum": "1be8ddf1fcf2ca0ad72f095fa356fb2ade5d6699fba7b6a243bb07d0de946fcb"
     },
     "protocol-improvements/1206-devshard-improvement-height-sync-protocol.md": {
-      "title": "`devshard improvement` Height-sync protocol",
+      "title": "#1206 — `devshard improvement` Height-sync protocol",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1206](https://github.com/gonka-ai/gonka/discussions/1206) every hour. \n\n# `devshard improvement` Height-sync protocol\n\n**Автор:** [@alexanderkuprin](https://github.com/alexanderkuprin) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-05-20 04:18 UTC · \n\n---\n\n## 📝 Описание\n\n# Height-sync protocol\n\nUser ↔ host envelopes carry an **optional `HeightSyncSection`** that attests to a mainnet `(height, block_hash)` pair. This section is the sole input to cross-host time alignment, timeout decisions, and the `IsStrictlyConfirmed(h)` predicate that downstream protocols (cPoC, finalization) gate verdicts on.\n`block_hash` is a source of determenistic randomness that is unknown in advance, used by [`VALIDATION_PROTOCOL_PROPOSAL.md`](./VALIDATION_PRO",
       "checksum": "ba550ac0d0e3c00f761e3621695d2eca8bbb88f36d56a246b4a89802157622fc"
     },
     "protocol-improvements/1207-devshard-improvement-cpoc-skip-protocol.md": {
-      "title": "`devshard improvement` cPoC skip protocol",
+      "title": "#1207 — `devshard improvement` cPoC skip protocol",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1207](https://github.com/gonka-ai/gonka/discussions/1207) every hour. \n\n# `devshard improvement` cPoC skip protocol\n\n**Автор:** [@alexanderkuprin](https://github.com/alexanderkuprin) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-05-20 05:28 UTC · \n\n---\n\n## 📝 Описание\n\n# cPoC skip protocol (devshard) — proposal\n\n## Summary\n\nIn a **devshard**, hosts that run **confirmation PoC (cPoC)** must **not** serve normal inference for the duration of their PoC obligation. Other hosts must be able to tell whether a skip is **legitimate** (the skipping host is on the **cPoC schedule** at the relevant height) or **abusive** (lying, or refusing work). This document specifies the **data flow** and the **cases** that the cPoC protocol must handle.\n\nTh",
       "checksum": "f6dbb31964dbfd196b4a945989ef8f8162a22d2007573afb6f770ec4fea833f8"
     },
     "protocol-improvements/1230-proposal-optional-signed-agent-request-envelope-for-gonka-in.md": {
-      "title": "Proposal: optional signed agent request envelope for Gonka inference",
+      "title": "#1230 — Proposal: optional signed agent request envelope for Gonka inference",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1230](https://github.com/gonka-ai/gonka/discussions/1230) every hour. \n\n# Proposal: optional signed agent request envelope for Gonka inference\n\n**Автор:** [@aeoess](https://github.com/aeoess) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-05-22 17:24 UTC · \n\n---\n\n## 📝 Описание\n\n@gmorgachev, picking up your broker-side suggestion from [#1185](https://github.com/gonka-ai/gonka/discussions/1185#discussioncomment-17004938) with a concrete envelope schema and a reference implementation. I'd like input on placement and v1 scope before opening the PR.\n\n## Proposal\n\nAdd an optional signed agent request envelope on `/v1/chat/completions` and `/v1/completions`. When the `X-Agent-Passport` header is absent, request behavior is byte-identical to ",
       "checksum": "0ce35e77c4934b6e257461999818d147ae070c227339bb901251b3b32b5e045e"
     },
     "protocol-improvements/1244-devshard-technical-height-sync-protocol.md": {
-      "title": "`devshard` `technical` Height-sync protocol",
+      "title": "#1244 — `devshard` `technical` Height-sync protocol",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1244](https://github.com/gonka-ai/gonka/discussions/1244) every hour. \n\n# `devshard` `technical` Height-sync protocol\n\n**Автор:** [@akup](https://github.com/akup) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-05-25 11:35 UTC · \n\n---\n\n## 📝 Описание\n\n# Height-sync protocol\n\nCurrently `devshard` is missing decentralized block height oracle, that can is provable in a devshardd consensus level. It is critical for handling cPoC at devshardd without punishing hosts for missed rates, and for deterministic randomness unknown in advance, needed for validation protocol update.\n\n**This protocol part is very important but just a building block for cPoC and validation.**\n\n[Related PR is here](https://github.com/gonka-ai/gonka/pull/1209)\n\nUser ↔ ho",
       "checksum": "69ec871091c76772f0bd33d081d7107421011c0e426b10dc3d50b697c5d91ad5"
     },
     "protocol-improvements/1256-devshard-cpoc-skip-protocol.md": {
-      "title": "`devshard` cPoC skip protocol",
+      "title": "#1256 — `devshard` cPoC skip protocol",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1256](https://github.com/gonka-ai/gonka/discussions/1256) every hour. \n\n# `devshard` cPoC skip protocol\n\n**Автор:** [@akup](https://github.com/akup) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-05-26 10:40 UTC · \n\n---\n\n## 📝 Описание\n\n# cPoC skip protocol (devshard) — proposal\n\n## Summary\n\nIn a **devshard**, hosts that run **confirmation PoC (cPoC)** must **not** serve normal inference for the duration of their PoC obligation. Other hosts must be able to tell whether a skip is **legitimate** (the skipping host is on the **cPoC schedule** at the relevant height) or **abusive** (lying, or refusing work). This document specifies the **data flow** and the **cases** that the cPoC protocol must handle.\n\nThe core idea that hosts know mainne",
       "checksum": "eeffd036738e857d55a977068b0580975d59dab9f84e82a9c7dc4f04dfbb3bf5"
     },
     "protocol-improvements/1309-design-and-implementation-of-maintenance-windows.md": {
-      "title": "Design and Implementation of Maintenance Windows",
+      "title": "#1309 — Design and Implementation of Maintenance Windows",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1309](https://github.com/gonka-ai/gonka/discussions/1309) every hour. \n\n# Design and Implementation of Maintenance Windows\n\n**Автор:** [@heitor-lassarote](https://github.com/heitor-lassarote) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-06-05 16:40 UTC · \n\n---\n\n## 📝 Описание\n\nHello. After reading the [Gonka Community Network Roadmap](https://docs.google.com/document/d/1wPXTM40CnXyd8Hz_dvf7H1n6KQDqjw0RzppMx92xR8U/edit?pli=1&tab=t.0#heading=h.c2j5tayw22w8), we’ve seen project 2 in track 3 entitled “Maintenance windows for hosts”, which as of 2026-03-06 has the following description (copied and pasted here):\n\n---\n\nThe project should give a host a way to declare a maintenance window in advance, check whether the maintenance window is al",
       "checksum": "e83691f283c8057af3bd3e8165c96a65be09c7427f599c8125e13c54f8de87b3"
     },
     "protocol-improvements/1334-devshard-e2e-test-automation-proposal.md": {
-      "title": "Devshard E2E Test Automation Proposal",
+      "title": "#1334 — Devshard E2E Test Automation Proposal",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1334](https://github.com/gonka-ai/gonka/discussions/1334) every hour. \n\n# Devshard E2E Test Automation Proposal\n\n**Автор:** [@aikuznetsov](https://github.com/aikuznetsov) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-06-10 19:23 UTC · \n\n---\n\n## 📝 Описание\n\n## Goal\n\nBuild a real integration test layer for devshard that runs from Go tests but\nvalidates the system across Docker containers, real HTTP networking, real\nprocess boundaries, and real storage.\n\nThis suite should complement the existing unit, package, and `httptest` tests.\nThose tests remain the fast correctness layer. The E2E suite verifies that the\nsame protocol works when the pieces are started, wired, restarted, and failed\nlike real services.\n\n## Scope\n\nThe test runner is G",
       "checksum": "431c056ad08dc97efa63551e905b80f890ad555f3b0a425553c3e26aa1a83262"
     },
     "protocol-improvements/1335-add-support-for-speech-to-text-asr-models.md": {
-      "title": "Add support for speech-to-text (ASR) models",
+      "title": "#1335 — Add support for speech-to-text (ASR) models",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1335](https://github.com/gonka-ai/gonka/discussions/1335) every hour. \n\n# Add support for speech-to-text (ASR) models\n\n**Автор:** [@ivan-smetannikov-serokell](https://github.com/ivan-smetannikov-serokell) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-06-11 15:22 UTC · \n\n---\n\n## 📝 Описание\n\nHello. We're a team at [Serokell](https://serokell.io) and we'd like to take on the ASR (speech-to-text) integration. We're scoping this proposal to ASR specifically (TTS is a separate problem and we're leaving it aside here). Below: why ASR is a good fit and which models, where inference validation gets hard, PoC and network-load impact, and our proposed plan.\n\n## Why ASR, and which models\n\nASR is a good first audio modality for Gonka for three re",
       "checksum": "89390bb7bf479f6c757cba18b6260c316c5e4238f7fdd21bbcc27fc6b1e4f05f"
     },
     "protocol-improvements/1340-devshard-height-sync-protocol.md": {
-      "title": "`devshard` Height-sync protocol",
+      "title": "#1340 — `devshard` Height-sync protocol",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1340](https://github.com/gonka-ai/gonka/discussions/1340) every hour. \n\n# `devshard` Height-sync protocol\n\n**Автор:** [@alexanderkuprin](https://github.com/alexanderkuprin) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-06-12 12:35 UTC · \n\n---\n\n## 📝 Описание\n\n# Height-sync protocol\n\nUser ↔ host envelopes carry an **optional `HeightSyncSection`** that attests to a mainnet `(height, block_hash, block_timestamp)` triple. This section is the sole input to cross-host time alignment, timeout decisions, and the\n`IsStrictlyConfirmed(h)` predicate that downstream protocols (cPoC, finalization) gate verdicts on.\n`block_hash` could be the source of determenistic randomness that is unknown in advance, can be used by [`VALIDATION_PROTOCOL_PROPOSAL",
       "checksum": "c7501b257ca5435d3e7af4631912902a238acd0f984ec3e07472c1fcf710e4f2"
     },
     "protocol-improvements/1345-network-documentation.md": {
-      "title": "Network Documentation",
+      "title": "#1345 — Network Documentation",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1345](https://github.com/gonka-ai/gonka/discussions/1345) every hour. \n\n# Network Documentation\n\n**Автор:** [@heitor-lassarote](https://github.com/heitor-lassarote) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-06-16 17:42 UTC · \n\n---\n\n## 📝 Описание\n\nHello, everyone. We’re a team at [Serokell](https://serokell.io/), and after reading the [Gonka Community Network Roadmap](https://docs.google.com/document/d/1wPXTM40CnXyd8Hz_dvf7H1n6KQDqjw0RzppMx92xR8U/edit?pli=1&tab=t.0#heading=h.wt1svxjuy5ac), we wanted to discuss Track 4, Project 3, entitled “Network documentation”, which has the following description as of 09-06-2026:\n\n---\n\nA structured documentation system for hosts, developers, external contributors, and ecosystem teams.\n\nThe docu",
       "checksum": "e7411b6272a30c04aeb165bc7f0247ef0923601d1a656c1855e4c07e210ccae5"
     },
     "protocol-improvements/1367-high-availability-architecture.md": {
-      "title": "High-Availability Architecture",
+      "title": "#1367 — High-Availability Architecture",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1367](https://github.com/gonka-ai/gonka/discussions/1367) every hour. \n\n# High-Availability Architecture\n\n**Автор:** [@a-kuprin](https://github.com/a-kuprin) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-06-25 08:16 UTC · \n\n---\n\n## 📝 Описание\n\n Make every node-side service horizontally scalable and rolling-update safe, with no single point of failure, and deliver a **Kubernetes-ready** deployment packaged as a **Helm chart**.\n\nThis proposal builds on the current architecture\n([../high-availability-architecture.md](https://github.com/gonka-ai/gonka/blob/ak/pixelplex-refactoring-into-r2/devshard/docs/high-availability-architecture.md)) and the binary-rollout design\n([../rolling-update.md](https://github.com/gonka-ai/gonka/blob/ak/pixel",
       "checksum": "372370bca328a26f45ad4647049f9f6fc95b9afcc7c743279f32bb283b44fae1"
     },
     "protocol-improvements/1369-finalization-protocol-proposal-host-initiated-collectors-com.md": {
-      "title": "Finalization protocol proposal (host-initiated, collectors, commit certificate)",
+      "title": "#1369 — Finalization protocol proposal (host-initiated, collectors, commit certificate)",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1369](https://github.com/gonka-ai/gonka/discussions/1369) every hour. \n\n# Finalization protocol proposal (host-initiated, collectors, commit certificate)\n\n**Автор:** [@akup](https://github.com/akup) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-06-27 14:43 UTC · \n\n---\n\n## 📝 Описание\n\n## Summary\n\nThis proposal defines a complete finalization protocol where **any host** can start finalization (not only the user/sequencer), with explicit trigger proofs, deterministic collector selection, commit-phase safety, and mainnet verification requirements.\n\nIt is designed to:\n\n- preserve safety under Byzantine behavior,\n- allow finalization progress when the user is offline or cheating,\n- reduce message flood via deterministic collector set,\n- ma",
       "checksum": "c86b9542333f73578142dcb2fcbfde405fdec091cf0aae42d0753747a85a7750"
     },
     "protocol-improvements/1384-devshard-cpoc-skip-protocol.md": {
-      "title": "`devshard` cPoC skip protocol",
+      "title": "#1384 — `devshard` cPoC skip protocol",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1384](https://github.com/gonka-ai/gonka/discussions/1384) every hour. \n\n# `devshard` cPoC skip protocol\n\n**Автор:** [@akup](https://github.com/akup) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-07-01 10:08 UTC · \n\n---\n\n## 📝 Описание\n\n## Summary\n\nIn a **devshard**, hosts that run **confirmation PoC (cPoC)** must **not** serve normal inference for the duration of their PoC obligation. Other hosts must be able to tell whether a skip is **legitimate** (the skipping host is on the **cPoC schedule** at the relevant height) or **abusive** (lying, or refusing work). This document specifies the **data flow** and the **cases** that the cPoC protocol must handle.\n\nThe core idea that hosts know mainnet heights and there is (out of scope) concen",
       "checksum": "9829a32f1a247fa6c204c2e8644ad1e5d88802730067c7ec5429f6aee55db44f"
     },
     "protocol-improvements/1388-external-test-lab-community-devnet.md": {
-      "title": "External Test Lab & Community DevNet",
+      "title": "#1388 — External Test Lab & Community DevNet",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1388](https://github.com/gonka-ai/gonka/discussions/1388) every hour. \n\n# External Test Lab & Community DevNet\n\n**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-07-02 22:04 UTC · \n\n---\n\n## 📝 Описание\n\n# External Test Lab & Community DevNet\n\n*4-month pilot proposal for community-owned testing infrastructure and QA capacity*\n\n# 1. Executive Summary\n\nThis proposal requests funding for a 4-month pilot of External Test Lab & Community DevNet: a community-owned testing function for Gonka protocol upgrades, DevShards, inference flows, host/broker operations, and geographically distributed network behavior before governance decisions and production rollout.\n\n| **Item**              | **Proposa",
       "checksum": "ab2038bac460bf0de7568bb44d2bcb0411b5026437dae05ec15550adc891fe9f"
     },
     "protocol-improvements/1404-add-a-lower-barrier-glm-52-option-and-consider-deepseek-v4-f.md": {
-      "title": "Add a lower-barrier GLM-5.2 option and consider DeepSeek-V4-Flash as the default model",
+      "title": "#1404 — Add a lower-barrier GLM-5.2 option and consider DeepSeek-V4-Flash as the default model",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1404](https://github.com/gonka-ai/gonka/discussions/1404) every hour. \n\n# Add a lower-barrier GLM-5.2 option and consider DeepSeek-V4-Flash as the default model\n\n**Автор:** [@enonog](https://github.com/enonog) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-07-05 23:32 UTC · \n\n---\n\n## 📝 Описание\n\nAt the moment, the network has very limited active capacity for `GLM-5.2`. Most hosts are concentrated on `MiniMaxAI/MiniMax-M2.7`, while only a smaller number are serving `Kimi-K2.6`, and GLM-5.2 host adoption is still very low.\n\nThe current official GLM-5.2 model is `zai-org/GLM-5.2-FP8`, but its resource requirements are high. This makes it harder for more hosts to choose GLM-5.2, even though GLM-5.2 is one of the most attractive open model",
       "checksum": "1627a703262446632b23e58fd26baeed5d66c67377c59f7e1aa386b2e235d59b"
     },
     "protocol-improvements/1445-the-missing-first-mile-onboarding-gonka-from-a-newcomers-per.md": {
-      "title": "The missing first mile: onboarding Gonka from a newcomer’s perspective",
+      "title": "#1445 — The missing first mile: onboarding Gonka from a newcomer’s perspective",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1445](https://github.com/gonka-ai/gonka/discussions/1445) every hour. \n\n# The missing first mile: onboarding Gonka from a newcomer’s perspective\n\n**Автор:** [@julb1992](https://github.com/julb1992) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-07-12 20:31 UTC · \n\n---\n\n## 📝 Описание\n\n**Motivation**\n\nOver the past two weeks, I have spent a significant amount of time trying to understand Gonka as a non-technical newcomer.\n\nI initially discovered Gonka through GNK. From there, I tried to understand the full economic and technical model: Hosts, GPU economics, PoC, collateral, vesting, GNK vs WGNK, bridging, HeX, NOP, gateways, brokers, devshards, and finally the fundamental role of Developers in the network economy.\n\nThe information exist",
       "checksum": "3e6f228ff8acf4f7bfe81eb7666e2e11f053c0766fc334383b2f65b39840c668"
     },
     "protocol-improvements/1464-dev-team-funding.md": {
-      "title": "Dev Team Funding",
+      "title": "#1464 — Dev Team Funding",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1464](https://github.com/gonka-ai/gonka/discussions/1464) every hour. \n\n# Dev Team Funding\n\n**Автор:** [@gmorgachev](https://github.com/gmorgachev) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-07-17 01:38 UTC · \n\n---\n\n## 📝 Описание\n\nHello everyone! I am Gleb Morgachev, one of Gonka's co-creators.\n\nIn the next couple of weeks, I plan to submit a proposal requesting 1.5 million USDT from the community pool. The funding would support an independent engineering team working on core protocol development aligned with the community roadmap. It would cover the team and expenses directly related to its work, not servers or GPU infrastructure for mining.\n\n## Scope\n\nThis independent team would be a small group of top-tier engineers working on ",
       "checksum": "b15a7669e09aa1d8654568c70dd5e95b4fb41ff06df68d1d74687f687875969c"
     },
     "protocol-improvements/1500-more-compute-from-the-same-gonka-hardware-two-phase-cooling-.md": {
-      "title": "More compute from the same Gonka hardware: two-phase cooling pilot",
+      "title": "#1500 — More compute from the same Gonka hardware: two-phase cooling pilot",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1500](https://github.com/gonka-ai/gonka/discussions/1500) every hour. \n\n# More compute from the same Gonka hardware: two-phase cooling pilot\n\n**Автор:** [@bitcompool](https://github.com/bitcompool) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-07-25 05:07 UTC · \n\n---\n\n## 📝 Описание\n\nI previously developed CoolTank, a two-phase immersion cooling system that delivered up to 40% higher compute output from Bitcoin ASIC miners through stable thermal control and overclocking.\n\nI’m looking for a Gonka Host, hardware partner or investor to test whether the same approach can increase sustained GPU performance, compute density and revenue from existing Gonka hardware. The ASIC results are proven; the GPU uplift must be validated through a fund",
       "checksum": "84fa51dca2095b303f445135c435b18d01cc4ac7bdc39abaa78936307cb0d437"
     },
     "protocol-improvements/1502-обратная-связь-от-разработчика-почему-текущий-модельный-ряд-.md": {
-      "title": "Обратная связь от разработчика: почему текущий модельный ряд Gonka пока не проходит production bar",
+      "title": "#1502 — Обратная связь от разработчика: почему текущий модельный ряд Gonka пока не проходит production bar",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1502](https://github.com/gonka-ai/gonka/discussions/1502) every hour. \n\n# Обратная связь от разработчика: почему текущий модельный ряд Gonka пока не проходит production bar\n\n**Автор:** [@bitcompool](https://github.com/bitcompool) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-07-26 17:26 UTC · \n\n---\n\n## 📝 Описание\n\n<head></head><h2 style=\"caret-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-style: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;\">Обратная связь от разработ",
       "checksum": "2d16bddf7c141bb0ce8e15bef86aaf819a564b4592b3106a1b4e4e58a0b783cf"
     },
     "protocol-improvements/1636-proposal-cache-served-token-pricing.md": {
-      "title": "Proposal: Cache-Served Token Pricing",
+      "title": "#1636 — Proposal: Cache-Served Token Pricing",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1636](https://github.com/gonka-ai/gonka/discussions/1636) every hour. \n\n# Proposal: Cache-Served Token Pricing\n\n**Автор:** [@theaungmyatmoe](https://github.com/theaungmyatmoe) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-08-24 16:27 UTC · \n\n---\n\n## 📝 Описание\n\n# Proposal: Cache-Served Token Pricing\n\n**Author:** Aung Myat Moe — operator of the Fusion gateway (`api.fusioncode.app`), a broker serving `deepseek-ai/DeepSeek-V4-Flash-0731`, `MiniMaxAI/MiniMax-M2.7`, and `moonshotai/Kimi-K2.6` through the Gonka network.\n\n## Summary\n\nThe network already performs real per-host KV prefix caching, but GNK is billed flat per token — cached tokens cost the same as fresh ones. This proposal makes **cache-served tokens bill at a reduced rate** (pr",
       "checksum": "ccf8949c9e238d52507d3e320973935bae0f4a7fb961e981037df62efbca7a51"
     },
     "protocol-improvements/1668-proposal-raise-the-deepseek-coefficient-to-0400.md": {
-      "title": "Proposal: raise the DeepSeek coefficient to 0.400",
+      "title": "#1668 — Proposal: raise the DeepSeek coefficient to 0.400",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1668](https://github.com/gonka-ai/gonka/discussions/1668) every hour. \n\n# Proposal: raise the DeepSeek coefficient to 0.400\n\n**Автор:** [@knyazev741](https://github.com/knyazev741) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-08-28 14:03 UTC · \n\n---\n\n## 📝 Описание\n\nRussian version: https://telegra.ph/DeepSeek-WSF-0400-pust-subsidiya-pokupaet-poleznuyu-rabotu-08-28\n\nGonka hosts currently get most of their income not from inference payments, but from RewardCoin subsidy. The pool is fixed and split by scaled PoC. Utilization bonuses in the code do not run. Dynamic pricing is off. All models are priced the same. Hardware therefore follows the `weight_scale_factor` coefficient, not the user queue.\n\nThe queue and the coefficient point in ",
       "checksum": "9f11e75a65cb9b84676236fd7742e69dc8e31b9f9f2f9a8813d25cb8695f9197"
     },
     "protocol-improvements/1685-devshard-load-testing.md": {
-      "title": "Devshard Load Testing",
+      "title": "#1685 — Devshard Load Testing",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1685](https://github.com/gonka-ai/gonka/discussions/1685) every hour. \n\n# Devshard Load Testing\n\n**Автор:** [@aikuznetsov](https://github.com/aikuznetsov) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-08-31 15:13 UTC · \n\n---\n\n## 📝 Описание\n\n## Goal\n\nThe goal is to validate a new Devshard version under controlled concurrent load: measure its stable capacity, verify critical request and failure paths, detect regressions, and produce reproducible, traceable evidence for any protocol or lifecycle failure. The test characterizes Devshard behavior with controlled dependencies, not real model performance or production capacity.\n\n## Load Test Environment Architecture\n\n```mermaid\nflowchart LR\n    subgraph NEW[\"New Components\"]\n        RUNNER[",
       "checksum": "dfbd221318d5d2db42069d29d3468e0c77ec96853e5f37565a4883173f44262d"
     },
     "protocol-improvements/1721-community-interest-adding-glm-53-flash-and-qwen38-flash-next.md": {
-      "title": "Community interest: adding GLM-5.3-Flash and Qwen3.8-Flash-Next to the lineup?",
+      "title": "#1721 — Community interest: adding GLM-5.3-Flash and Qwen3.8-Flash-Next to the lineup?",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1721](https://github.com/gonka-ai/gonka/discussions/1721) every hour. \n\n# Community interest: adding GLM-5.3-Flash and Qwen3.8-Flash-Next to the lineup?\n\n**Автор:** [@Ryanchen911](https://github.com/Ryanchen911) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-09-07 09:47 UTC · \n\n---\n\n## 📝 Описание\n\nWould the community be interested in adding these two models to Gonka?\n\n- **GLM-5.3-Flash**\n- **Qwen3.8-Flash-Next** (qwen4exp)\n\nIf so, which one would you want prioritized first?\n\n---\n\n## 💬 Комментарии (1)\n\n### Комментарий 1 — [@paranjko](https://github.com/paranjko)\n\n*2026-09-07 18:52 UTC*\n\nI think we should have both models. From what I know from talking to hosts and contributor teams, **GLM 5.3 Flash is basically ready** for a vote, and ",
       "checksum": "7ad6b7add99970c1dcd2a9b83b483c793e5c420a9f1fc87cf90fb837d2fad08c"
     },
     "protocol-improvements/1748-dynamic-devshard-per-escrow-bls-dkg-nizk-dealings-on-chain-t.md": {
-      "title": "Dynamic devshard: per-escrow BLS DKG (NIZK dealings, on-chain T0)",
+      "title": "#1748 — Dynamic devshard: per-escrow BLS DKG (NIZK dealings, on-chain T0)",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1748](https://github.com/gonka-ai/gonka/discussions/1748) every hour. \n\n# Dynamic devshard: per-escrow BLS DKG (NIZK dealings, on-chain T0)\n\n**Автор:** [@akup](https://github.com/akup) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-09-10 13:56 UTC · \n\n---\n\n## 📝 Описание\n\n# Dynamic devshard: per-escrow BLS DKG (NIZK dealings, on-chain T0)\n\n**Status:** draft — design only; not implemented.  \n**Related:** host-initiated close in [`finalization`](https://github.com/gonka-ai/gonka/discussions/1369).\n\nThis document specifies a **per-escrow** BLS12-381 distributed key generation (DKG) so a devshard has a **stable root public key** `PK` that a third party can check was generated by the hosts who actually dealt for that escrow. Dealings are **",
       "checksum": "7307ea57058396ad87f19773a6227e4c9c3b9f5e90584847c19412aab7fd0851"
     },
     "q-a/0796-are-there-plans-to-add-prompt-level-confidentiality-for-host.md": {
-      "title": "Are there plans to add prompt-level confidentiality for hosts?",
+      "title": "#796 — Are there plans to add prompt-level confidentiality for hosts?",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #796](https://github.com/gonka-ai/gonka/discussions/796) every hour. \n\n# Are there plans to add prompt-level confidentiality for hosts?\n\n**Автор:** [@AlexKorovyansky](https://github.com/AlexKorovyansky) · **Категория:** :interrobang: Q&A · **Создано:** 2026-02-24 19:20 UTC · \n\n---\n\n## 📝 Описание\n\nI've been reading the whitepaper and comparing Gonka's architecture with other decentralized inference networks (specifically Cocoon/TON, which uses Intel TDX trusted execution environments).\n\nOne thing I noticed is that while Gonka anonymizes the user's IP by routing requests through an intermediary host, the executing host still has access to the raw prompt and response content. For use cases involving personal AI assistants (e.g. agents that process emails, c",
       "checksum": "a9f75cb620071a24fee33cb4a24259e50fe91303dc3fdd24ae6926e9897784a8"
     },
     "q-a/0972-best-practices-for-building-ai-agent-systems-in-2026.md": {
-      "title": "Best Practices for Building AI Agent Systems in 2026",
+      "title": "#972 — Best Practices for Building AI Agent Systems in 2026",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #972](https://github.com/gonka-ai/gonka/discussions/972) every hour. \n\n# Best Practices for Building AI Agent Systems in 2026\n\n**Автор:** [@jingchang0623-crypto](https://github.com/jingchang0623-crypto) · **Категория:** :interrobang: Q&A · **Создано:** 2026-03-29 12:08 UTC · \n\n---\n\n## 📝 Описание\n\n## Best Practices for Building AI Agent Systems in 2026\n\nHey everyone! I've been exploring different AI agent frameworks and wanted to share some best practices I've learned:\n\n### 1. Choose the Right Architecture\n\n- **Single Agent vs Multi-Agent**: Start simple, scale when needed\n- **Agent Orchestration**: Use frameworks like OpenClaw, LangChain, or AutoGen\n- **Memory Management**: Implement both short-term and long-term memory\n\n### 2. Tool Integration\n\n- **MCP ",
       "checksum": "12a453185ba6d9ded25fa3455fb781b8884f35445f2d23b78ef8bd1570b94e90"
     },
     "q-a/1354-i-would-like-to-ask-if-the-developers-intentionally-pushed-i.md": {
-      "title": "I would like to ask if the developers intentionally pushed inference data to the main chain, causing some nodes to lose their epoch rewards.",
+      "title": "#1354 — I would like to ask if the developers intentionally pushed inference data to the main chain, causing some nodes to lose their epoch rewards.",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1354](https://github.com/gonka-ai/gonka/discussions/1354) every hour. \n\n# I would like to ask if the developers intentionally pushed inference data to the main chain, causing some nodes to lose their epoch rewards.\n\n**Автор:** [@Llgmhsl](https://github.com/Llgmhsl) · **Категория:** :interrobang: Q&A · **Создано:** 2026-06-21 15:56 UTC · \n\n---\n\n## 📝 Описание\n\n<img width=\"1904\" height=\"976\" alt=\"image\" src=\"https://github.com/user-attachments/assets/7aafce34-b1d1-4c93-934a-b39c5d4ef6c3\" />\n<img width=\"2003\" height=\"1160\" alt=\"image\" src=\"https://github.com/user-attachments/assets/2973da3a-ac0a-42c3-a760-126e93c5f51d\" />\nMy node's reasoning performance on the main chain has a very low number of inference attempts but a 30% miss rate, while on the developme",
       "checksum": "008b6e2410432b540c2230c06cceec65a4b82e39712c9fe7a77d879a444cc6eb"
     },
     "q-a/1667-ibc-withdrawal-blocked-neutron-client-07-tendermint-3-is-exp.md": {
-      "title": "IBC withdrawal blocked: Neutron client 07-tendermint-3 is expired",
+      "title": "#1667 — IBC withdrawal blocked: Neutron client 07-tendermint-3 is expired",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1667](https://github.com/gonka-ai/gonka/discussions/1667) every hour. \n\n# IBC withdrawal blocked: Neutron client 07-tendermint-3 is expired\n\n**Автор:** [@xX-mabster-Xx](https://github.com/xX-mabster-Xx) · **Категория:** :interrobang: Q&A · **Создано:** 2026-08-28 13:45 UTC · \n\n---\n\n## 📝 Описание\n\nHello,\n\nI am unable to withdraw my funds from Gonka to Neutron.\n\nThe transfer fails with:\n\nfailed to execute message; message index: 0:\ncannot send packet using client (07-tendermint-3)\nwith status Expired: client is not active\n\nWallet:\ngonka1s8qkncfz06ke5ns6x3cw57mqj83hywj3fltv0n\n\nAsset denomination:\nibc/4F64FF736B88BA8EA521D6D515D9652B7C23C903BF91ECEFB3991888F3C023F4\n\nRoute:\n\n- Gonka: transfer/channel-3\n- Neutron: transfer/channel-7423\n- Chain ID: neutron-1\n-",
       "checksum": "5e5ad2ecaab95e894cdea267acac29c8ba46ea3eecda9e608e2750b7e46de0e0"
     },
     "show-and-tell/0811-openclaw-gonka-ai.md": {
-      "title": "🦞 OpenClaw + Gonka AI",
+      "title": "#811 — 🦞 OpenClaw + Gonka AI",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #811](https://github.com/gonka-ai/gonka/discussions/811) every hour. \n\n# 🦞 OpenClaw + Gonka AI\n\n**Автор:** [@votkon](https://github.com/votkon) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-02-26 20:03 UTC · \n\n---\n\n## 📝 Описание\n\nI've put together a guide for connecting **OpenClaw** to **Gonka AI's decentralized GPU network** through the Mingles gateway.\n\n## What This Enables\n\nOpenClaw users can now run their AI agents on Gonka's distributed compute infrastructure instead of relying on centralized providers. Your personal assistant gets:\n\n- ✅ Access to Gonka's tool-enabled Qwen3-235B model\n- ✅ Decentralized inference across the network's GPU nodes\n- ✅ Pay-as-you-go pricing with GNK tokens\n- ✅ Full OpenAI API compatibility (drop-in rep",
       "checksum": "75552daa785be82e194fb930ff28c26e4912c379d68edb8c127711d2b766f13c"
     },
     "show-and-tell/0840-prometheus-exporter-for-node-monitoring.md": {
-      "title": "Prometheus Exporter for Node Monitoring",
+      "title": "#840 — Prometheus Exporter for Node Monitoring",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #840](https://github.com/gonka-ai/gonka/discussions/840) every hour. \n\n# Prometheus Exporter for Node Monitoring\n\n**Автор:** [@votkon](https://github.com/votkon) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-03-02 22:32 UTC · \n\n---\n\n## 📝 Описание\n\nI built a lightweight Prometheus exporter for Gonka node operators: \nhttps://github.com/votkon/gonka-exporter-prometheus/\n\nIt pulls the important metrics — block height, node status, and POC weight — and makes them available to Prometheus, so you can track everything in Grafana rather than polling RPC endpoints by hand.\n\nJust spin up a Docker container with --network host and point it at your local Tendermint RPC and ML Admin API.\n\nIf Prometheus is already part of your stack, this should slo",
       "checksum": "c990c409926b0d449020a293e10dfe1b0ed9ab1bea8033b0784fcb69c86b081b"
     },
     "show-and-tell/0880-gonka-labs-how-were-building-the-infrastructure-for-gonka.md": {
-      "title": "Gonka Labs: How We're Building the Infrastructure for Gonka",
+      "title": "#880 — Gonka Labs: How We're Building the Infrastructure for Gonka",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #880](https://github.com/gonka-ai/gonka/discussions/880) every hour. \n\n# Gonka Labs: How We're Building the Infrastructure for Gonka\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-03-12 21:40 UTC · \n\n---\n\n## 📝 Описание\n\n**Gonka Labs: How We're Building the Infrastructure for Gonka**\n\n![telegram-cloud-photo-size-2-5303139431004969226-y](https://github.com/user-attachments/assets/de34893d-4761-4d49-b2a1-99344b7c681c)\n\nThat one Sunday evening was not exactly usual. I was preparing for the upcoming workweek and reading startup news when I stumbled upon something truly interesting. I immediately called my friend and business partner, Mike, and sent him a link to the video. It was an int",
       "checksum": "34254d622c7e6b1abe6bd94d11aa3910c1eb4a30eed6e1662f3bd21616bbff10"
     },
     "show-and-tell/0887-gonkagg-explorer-analytics-platform-data-provider-for-gonka.md": {
-      "title": "Gonka.gg - Explorer, Analytics Platform, Data Provider for Gonka",
+      "title": "#887 — Gonka.gg - Explorer, Analytics Platform, Data Provider for Gonka",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #887](https://github.com/gonka-ai/gonka/discussions/887) every hour. \n\n# Gonka.gg - Explorer, Analytics Platform, Data Provider for Gonka\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-03-13 21:23 UTC · \n\n---\n\n## 📝 Описание\n\n![](https://resource.inkdown.me/assets/11g/tk4ZX4b2sHaSu/77yTDB4x9hoLewm.png)\n\nWhen we launched gonka.gg on **December 12, 2025** ([read the pre-story](https://github.com/gonka-ai/gonka/discussions/880)), our goal was simple: give Gonka users a reliable place to verify their transactions. What happened next surprised even us. \n\nThe community responded immediately and enthusiastically. Within weeks, it was clear that a transaction explorer was just the beginning",
       "checksum": "5c72d58629b2a66516b980b7b442ece856e0df22fe7d5f44af8db4a132f088fa"
     },
     "show-and-tell/0890-opengnk-a-local-openai-compatible-proxy-for-gonka.md": {
-      "title": "OpenGNK - A Local OpenAI-Compatible Proxy for Gonka",
+      "title": "#890 — OpenGNK - A Local OpenAI-Compatible Proxy for Gonka",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #890](https://github.com/gonka-ai/gonka/discussions/890) every hour. \n\n# OpenGNK - A Local OpenAI-Compatible Proxy for Gonka\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-03-15 20:10 UTC · \n\n---\n\n## 📝 Описание\n\nWhen we were building and testing [proxy.gonka.gg](https://proxy.gonka.gg) - our cloud API endpoint for Gonka inference - we noticed a pattern in the community: developers also wanted to sign inference request and transmit them to the Network from local environment, keep their private keys on their own machines, and plug Gonka directly into their existing tooling without any intermediary (cloud proxy). They were asking for a self-hosted version of what we had built for ours",
       "checksum": "c9eb8543599fd431b4b9a492ee00cedd5d23178ab75cc6a0cc1044dc8004db7a"
     },
     "show-and-tell/0898-gonka-name-service-gns-human-readable-names-for-the-gonka-ne.md": {
-      "title": "Gonka Name Service (GNS) - Human Readable names for the Gonka Network",
+      "title": "#898 — Gonka Name Service (GNS) - Human Readable names for the Gonka Network",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #898](https://github.com/gonka-ai/gonka/discussions/898) every hour. \n\n# Gonka Name Service (GNS) - Human Readable names for the Gonka Network\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-03-16 18:09 UTC · \n\n---\n\n## 📝 Описание\n\nEvery blockchain eventually needs a naming layer. Ethereum has ENS. Cosmos chains have ICNS. Until now, Gonka didn't have one. So we built it.\n\n**Gonka Name Service (GNS)** lets anyone register a short, memorable `.gnk` name - like `mike.gnk` - that resolves to a `gonka1...` wallet address. It is live on mainnet, integrated into [GG Wallet](https://chromewebstore.google.com/detail/gg-wallet/elicodfmaffbndngiifcpmammicgjidd), [gonka.gg](https://gonka.gg) ex",
       "checksum": "da78febe6d84e82c61a85eb9165fdb95515b1de4fa13c2705dfdb14d964a459e"
     },
     "show-and-tell/0906-gonka-tools-web-interface-for-validators-and-mining-operatio.md": {
-      "title": "Gonka Tools: Web Interface for Validators and Mining Operations",
+      "title": "#906 — Gonka Tools: Web Interface for Validators and Mining Operations",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #906](https://github.com/gonka-ai/gonka/discussions/906) every hour. \n\n# Gonka Tools: Web Interface for Validators and Mining Operations\n\n**Автор:** [@aleks1k](https://github.com/aleks1k) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-03-17 20:20 UTC · \n\n---\n\n## 📝 Описание\n\n**URL:** [https://cloudmine.mingles.ai/gonka-tools](https://cloudmine.mingles.ai/gonka-tools)\n\nRunning a validator or managing mining operations on the Gonka network traditionally requires CLI expertise and careful key management. Gonka Tools eliminates this complexity with a browser-based interface that handles validator setup, collateral operations, and governance participation — all through your web3 wallet.\n\nNo backend services. No API keys. No command-line requ",
       "checksum": "f14cf379c0a7b6df4a959673b7ea060d0888434b10598841ae6f0f92dc6a8ae7"
     },
     "show-and-tell/0938-gg-wallet-an-open-source-browser-wallet-strictly-for-gonka.md": {
-      "title": "GG Wallet - An Open-Source Browser Wallet strictly for Gonka",
+      "title": "#938 — GG Wallet - An Open-Source Browser Wallet strictly for Gonka",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #938](https://github.com/gonka-ai/gonka/discussions/938) every hour. \n\n# GG Wallet - An Open-Source Browser Wallet strictly for Gonka\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-03-23 20:32 UTC · \n\n---\n\n## 📝 Описание\n\nWhen we launched [gonka.gg](https://gonka.gg) and started using the Gonka network daily, one thing kept slowing us down: there was no native browser wallet for Gonka. Every transaction meant using the CLI, copying long addresses, and manually constructing commands or using browser wallets that needed flaky configuration or using wallets where we needed to send private key to with some ui without access to the code processing the request. We believe that Gonka can p",
       "checksum": "167783fe5a0a0381af2768abd068b6af0c27bac5520ce779db9cda644eaa5c83"
     },
     "show-and-tell/0989-gonka-contract-playground-write-compile-simulate-and-deploy-.md": {
-      "title": "Gonka Contract Playground - write, compile, simulate, and deploy CosmWasm without leaving the browser",
+      "title": "#989 — Gonka Contract Playground - write, compile, simulate, and deploy CosmWasm without leaving the browser",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #989](https://github.com/gonka-ai/gonka/discussions/989) every hour. \n\n# Gonka Contract Playground - write, compile, simulate, and deploy CosmWasm without leaving the browser\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-03-31 22:32 UTC · \n\n---\n\n## 📝 Описание\n\n<img width=\"1598\" height=\"818\" alt=\"Снимок экрана 2026-04-01 в 01 25 50\" src=\"https://github.com/user-attachments/assets/a60cac40-16b6-4c74-ba2a-fa20f1b28ba5\" />\n\n## Motivation\n\nBuilding smart contracts is, usually, a pain - it keeps coming up: you want to try a small contract idea, poke at something already deployed, or show a teammate how a message works - and you end up juggling a local Rust toolchain, `wasmd`, scripts, a",
       "checksum": "60de99aecc8c5c8918fcaee29240d2904f847bd97789f420a6b628d877bbc00b"
     },
     "show-and-tell/0999-gonka-ai-x-claude-code.md": {
-      "title": "Gonka AI x Claude Code",
+      "title": "#999 — Gonka AI x Claude Code",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #999](https://github.com/gonka-ai/gonka/discussions/999) every hour. \n\n# Gonka AI x Claude Code\n\n**Автор:** [@Dankosik](https://github.com/Dankosik) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-04-02 11:29 UTC · \n\n---\n\n## 📝 Описание\n\nHi everyone,\n\n## What we built\n\nWe made `@gonkagate/claude-code`, a small open source installer for people who want to use Claude Code with Gonka through GonkaGate.\n\nIt solves a boring problem on purpose. Most people do not want to export env vars by hand, edit shell profiles, or create a `.env` file just to get Claude Code talking to a gateway.\n\nSo we kept the flow short. You run one command, enter a `gp-...` API key in a hidden prompt, choose a model, choose a scope, and then Claude Code is ready to us",
       "checksum": "d5ed8ca5557720d159c0a67eac8254d8287759ceb093ab8fee4632e0a64eb917"
     },
     "show-and-tell/1027-gonka-ai-x-n8n.md": {
-      "title": "Gonka AI x n8n",
+      "title": "#1027 — Gonka AI x n8n",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1027](https://github.com/gonka-ai/gonka/discussions/1027) every hour. \n\n# Gonka AI x n8n\n\n**Автор:** [@Dankosik](https://github.com/Dankosik) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-04-07 12:53 UTC · \n\n---\n\n## 📝 Описание\n\n# GonkaGate x n8n\n\nHi everyone,\n\nWe've been working on an `n8n` package for GonkaGate, and it's finally public.\n\n`@gonkagate/n8n-nodes-gonkagate` is an open source `n8n` community node package\nfor people who want to use GonkaGate in self-hosted `n8n` without piecing\ntogether generic OpenAI-compatible nodes by hand.\n\n## At a glance\n\n| Item | Value |\n| --- | --- |\n| Package | `@gonkagate/n8n-nodes-gonkagate` |\n| Root node | `GonkaGate` |\n| AI model node | `GonkaGate Chat Model` |\n| Credential | `GonkaGate API` |",
       "checksum": "55cb32c61df002b56fd52bc59444c55164900c6d7c19f3cd92f2eae73ff334b4"
     },
     "show-and-tell/1030-rpcgonkagg-managed-rpc-infrastructure-for-gonka-infuraalchem.md": {
-      "title": "rpc.gonka.gg - Managed RPC Infrastructure for Gonka (Infura/Alchemy for Gonka) with opensource core",
+      "title": "#1030 — rpc.gonka.gg - Managed RPC Infrastructure for Gonka (Infura/Alchemy for Gonka) with opensource core",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1030](https://github.com/gonka-ai/gonka/discussions/1030) every hour. \n\n# rpc.gonka.gg - Managed RPC Infrastructure for Gonka (Infura/Alchemy for Gonka) with opensource core\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-04-08 10:22 UTC · \n\n---\n\n## 📝 Описание\n\nTwo days ago we sped up [gonka.gg](https://gonka.gg) by 100x.\n\nToday we are making the technology behind that speedup available to everyone.\n\nMeet [rpc.gonka.gg](https://rpc.gonka.gg) - managed RPC infrastructure for the Gonka blockchain, built by [Gonka Labs](https://gonkalabs.com).\n\nWe give developers reliable, authenticated API access to the entire Gonka blockchain through a single URL - no need to run your own nodes. The",
       "checksum": "b814e66e661854a208c07a17bb344aef708ebbb6a0f3e94db9728e71d99af936"
     },
     "show-and-tell/1044-gonka-ai-x-opencode.md": {
-      "title": "Gonka AI x OpenCode",
+      "title": "#1044 — Gonka AI x OpenCode",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1044](https://github.com/gonka-ai/gonka/discussions/1044) every hour. \n\n# Gonka AI x OpenCode\n\n**Автор:** [@Dankosik](https://github.com/Dankosik) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-04-13 09:51 UTC · \n\n---\n\n## 📝 Описание\n\n<!-- Suggested GitHub Discussion title: Gonka AI x OpenCode -->\n\n# Gonka AI x OpenCode\n\nHi everyone,\n\nWe just published a small OpenCode setup utility for GonkaGate.\n\n`@gonkagate/opencode-setup` is an open source onboarding CLI for people who\nalready use `opencode` and want to point it at GonkaGate without making setup a\nside quest. No hand-editing `opencode.json`, no shell profile secret exports,\nand no need to learn the OpenCode custom-provider config shape before the first\nrequest.\n\n## What we built\n\nW",
       "checksum": "69ed1b83db3c2c17f48cb8bed52f6b11b76ca836704e58831377b6cb0d8c8790"
     },
     "show-and-tell/1095-gonka-ai-x-kilo.md": {
-      "title": "Gonka AI x Kilo",
+      "title": "#1095 — Gonka AI x Kilo",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1095](https://github.com/gonka-ai/gonka/discussions/1095) every hour. \n\n# Gonka AI x Kilo\n\n**Автор:** [@Dankosik](https://github.com/Dankosik) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-04-21 13:20 UTC · \n\n---\n\n## 📝 Описание\n\n# GonkaGate x Kilo\n\nHi everyone,\n\nWe put together a small setup utility for Kilo:\n\n```bash\nnpx @gonkagate/kilo-setup\n```\n\nThe goal is simple. If you already use `kilo` and already have a GonkaGate\nAPI key, setup should take a minute or two. It should not turn into \"open\nthree docs tabs, figure out where Kilo wants provider config, then hope you\ndidn't leave a secret in the repo by accident.\"\n\nThat is what `@gonkagate/kilo-setup` is for.\n\n> Short version: this is a small CLI that wires local `kilo` to GonkaGat",
       "checksum": "8500fb2400687fff39153fbe046fc374baa7fd4cf9d819cac3fb338310fc47c6"
     },
     "show-and-tell/1116-how-to-create-and-submit-a-governance-proposal-on-gonka.md": {
-      "title": "HOW-TO: Create and Submit a Governance Proposal on Gonka",
+      "title": "#1116 — HOW-TO: Create and Submit a Governance Proposal on Gonka",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1116](https://github.com/gonka-ai/gonka/discussions/1116) every hour. \n\n# HOW-TO: Create and Submit a Governance Proposal on Gonka\n\n**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-04-24 13:23 UTC · \n\n---\n\n## 📝 Описание\n\nOver the past few weeks, I’ve spent quite a bit of time helping people with governance proposals, so I put together a guide that may be useful if you’re preparing one yourself.\n\nIt has already been used for several successful proposals, so the process is tested in practice.\n\n**Note:** this guide covers the technical part of creating and submitting a proposal. For a proposal to pass, you also need to communicate it clearly and build support around it. \n\nConsider publish",
       "checksum": "421faad0d00ebb5605dabbcde914f294ade421c831a2dd4ae6e4fd25f8a6fc30"
     },
     "show-and-tell/1141-ibc-usdt-withdrawal-guide.md": {
-      "title": "IBC USDT Withdrawal Guide",
+      "title": "#1141 — IBC USDT Withdrawal Guide",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1141](https://github.com/gonka-ai/gonka/discussions/1141) every hour. \n\n# IBC USDT Withdrawal Guide\n\n**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-05-01 12:55 UTC · \n\n---\n\n## 📝 Описание\n\nSince we now have **IBC USDT** in the Gonka community pool, and some proposal payments and community rewards may be paid in **IBC USDT**, I put together a practical withdrawal guide for anyone who needs it.\n\nThe guide explains how to move **IBC USDT** from Gonka to Kava Cosmos, then to Kava EVM, and, if needed, further to Ethereum.\n\nPlease treat it as a practical community guide, not financial advice. Routes, fees, wallet interfaces, and bridge availability can change, so always verify the details y",
       "checksum": "10019f0471bf02b82e38121a7f6ab9e329dea2a4b7b40fa0f27cecc545541261"
     },
     "show-and-tell/1323-gonka-x-hermes-agent.md": {
-      "title": "Gonka x Hermes Agent",
+      "title": "#1323 — Gonka x Hermes Agent",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1323](https://github.com/gonka-ai/gonka/discussions/1323) every hour. \n\n# Gonka x Hermes Agent\n\n**Автор:** [@Dankosik](https://github.com/Dankosik) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-06-08 16:12 UTC · \n\n---\n\n## 📝 Описание\n\n# GonkaGate x Hermes Agent\n\nSet up local `hermes-agent` to use GonkaGate:\n\n```bash\nnpx @gonkagate/hermes-agent-setup\n```\n\nIf you use Hermes Agent and have a GonkaGate API key, this should be a short\nsetup step, not a manual edit of `~/.hermes/config.yaml` and\n`~/.hermes/.env`.\n\nThe utility configures Hermes through the supported `provider: custom` path,\nstores the raw key in Hermes' `.env`, and only offers models that are live on\nGonkaGate and launch-qualified for Hermes.\n\n## Requirements\n\n- `hermes-agen",
       "checksum": "7e88a09ea6f4647f0d2f4cdf1186d86b249ead6cb671152ce9a17c12a4feefd7"
     },
     "show-and-tell/1339-gonka-x-mimocode.md": {
-      "title": "Gonka x MiMoCode",
+      "title": "#1339 — Gonka x MiMoCode",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1339](https://github.com/gonka-ai/gonka/discussions/1339) every hour. \n\n# Gonka x MiMoCode\n\n**Автор:** [@Dankosik](https://github.com/Dankosik) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-06-12 00:29 UTC · \n\n---\n\n## 📝 Описание\n\n# GonkaGate x MiMoCode\n\n```bash\nnpx @gonkagate/mimo-code-setup\n```\n\nUse this package when you already have `mimo` installed and want GonkaGate\nconfigured as a MiMoCode custom provider without editing config files by hand.\n\nAfter setup, keep using plain `mimo`.\n\n## At a glance\n\n| Item                      | Value                                            |\n| ------------------------- | ------------------------------------------------ |\n| Package                   | `@gonkagate/mimo-code-setup`               ",
       "checksum": "5e74ac3fd1d736ce9156cc73cdd9136abe01c4917da802b18c6922c7d0a67db4"
     },
     "show-and-tell/1363-openbroker-broker-for-brokers-or-devshards-as-a-service.md": {
-      "title": "OpenBroker - broker for brokers or Devshards as a service.",
+      "title": "#1363 — OpenBroker - broker for brokers or Devshards as a service.",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1363](https://github.com/gonka-ai/gonka/discussions/1363) every hour. \n\n# OpenBroker - broker for brokers or Devshards as a service.\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-06-23 22:18 UTC · \n\n---\n\n## 📝 Описание\n\nHey! **Gonka Labs** here. \n\nWe've just shipped **OpenBroker**, a platform that gives you direct access to gonka inference - pure devshards v1, v2 (and any future version) under wallet that is whitelisted to operate escrows. You get escrow capacity that scales elastically with your load, both devshard versions (and any future one), and throughput limited only by what the network itself can handle.\n\nWith OpenBroker - we make a community commitment to the overall obse",
       "checksum": "bee025dd3481368920bb4ad9a12d9bcad1f6c12cf00c1c1062f6404c7d087a5d"
     },
     "show-and-tell/1374-gonka-ai-dune-dashboard.md": {
-      "title": "Gonka AI Dune Dashboard",
+      "title": "#1374 — Gonka AI Dune Dashboard",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1374](https://github.com/gonka-ai/gonka/discussions/1374) every hour. \n\n# Gonka AI Dune Dashboard\n\n**Автор:** [@genkisudo](https://github.com/genkisudo) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-06-29 13:30 UTC · \n\n---\n\n## 📝 Описание\n\nDune is the #1 data platform in crypto with over 1 million users, so having a dashboard there will be highly beneficial for visibility.\n\nThe smart contract 0x972a7a92d92796a98801a8818bcf91f1648f2f68 has been decoded into structured tables on Dune, making it much easier to query via SQL, build custom dashboards, and verify the data.\n\nCreated a dashboard with core metrics from the API (number of developers, nodes, etc.) and on-chain data for WGNK token bridges from the Ethereum network. It uses the de",
       "checksum": "793606caaf13749b5cba077bb95b19636f22694347fc6db6f894395f5e545ccd"
     },
     "show-and-tell/1390-how-to-return-funds-to-the-community-pool-ibc-usdt.md": {
-      "title": "How to return funds to the Community Pool (IBC USDT)",
+      "title": "#1390 — How to return funds to the Community Pool (IBC USDT)",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1390](https://github.com/gonka-ai/gonka/discussions/1390) every hour. \n\n# How to return funds to the Community Pool (IBC USDT)\n\n**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-07-03 04:52 UTC · \n\n---\n\n## 📝 Описание\n\nA while back I was helping the DeAI Nation folks with their proposal. Their event ended up being cancelled, and to their credit they decided to do the right thing and return the granted funds to the Community Pool.\n\nTurns out there was no guide for that. The tricky part: their grant was paid out through a governance proposal, and USDT on Gonka comes out of the USDT treasury contract — there is no way to simply send it back into that contract. So where do the funds go? The ",
       "checksum": "da46291dc1278e0378aa210fc7067ccfec7a9bcdda7a9ba6718ffb35f25d36a0"
     },
     "show-and-tell/1476-unposted.md": {
-      "title": "unposted",
+      "title": "#1476 — unposted",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1476](https://github.com/gonka-ai/gonka/discussions/1476) every hour. \n\n# unposted\n\n**Автор:** [@nsvdev](https://github.com/nsvdev) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-07-18 18:27 UTC · \n\n---\n\n## 📝 Описание\n\n*(пусто)*",
       "checksum": "4f209c0e63bd57e2365ce98e5dfe2edd1faa38588439b07e640e5e5a995e5037"
     },
     "show-and-tell/1710-gonka-labs-x402-on-gonka-payments-for-agents.md": {
-      "title": "Gonka Labs: x402 on Gonka - payments for Agents",
+      "title": "#1710 — Gonka Labs: x402 on Gonka - payments for Agents",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1710](https://github.com/gonka-ai/gonka/discussions/1710) every hour. \n\n# Gonka Labs: x402 on Gonka - payments for Agents\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-09-03 00:10 UTC · \n\n---\n\n## 📝 Описание\n\nHey! Gonka Labs here.\n\nAt 26th of August we introduced x402 on Gonka: [https://x402.gonka.gg](https://x402.gonka.gg)\n\n![](https://resource.inkdown.me/assets/11g/tk4ZX4b2sHaSu/E2MWThZKmaHh7Og.jpg)\n\nx402 is an open payment standard for AI agents. It was started by the Coinbase team and is now run by the independent x402 Foundation under the Linux Foundation. The idea is simple on purpose. An agent makes a micropayment in stablecoins (almost always USDC) and gets the resource it",
       "checksum": "55d6ed2496f47407efdaa5feadb57b813baa5010869ab8793fdd3b927148532a"
     },
     "show-and-tell/1711-gonka-labs-gonka-chat-wallet-to-wallet-messaging-on-gonka.md": {
-      "title": "Gonka Labs: Gonka Chat - Wallet-to-Wallet messaging on Gonka",
+      "title": "#1711 — Gonka Labs: Gonka Chat - Wallet-to-Wallet messaging on Gonka",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1711](https://github.com/gonka-ai/gonka/discussions/1711) every hour. \n\n# Gonka Labs: Gonka Chat - Wallet-to-Wallet messaging on Gonka\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-09-03 00:42 UTC · \n\n---\n\n## 📝 Описание\n\nHey! Gonka Labs here.\n\nOn September 1st, we shipped [Gonka Chat](https://chat.gonka.gg) - an open-source wallet-to-wallet messenger for Gonka. \nYou write a `gonka1...` address or a `.gnk` (GNS, https://gonka.gg/names) name the same way you'd write a handle. No new account. **The wallet is the identity.**\n\nhttps://github.com/user-attachments/assets/9cba802d-2891-48a0-a4ef-b4b5881a4f55\n\n### The problem\n\nMost web3 ecosystems already have some form of wallet chat. So",
       "checksum": "214fccca45bda439e722b583b373ac17276295629751b3b0ff59d2a1cb182545"
