@@ -2,7 +2,7 @@
 title: "#1798 — devshard gateway: inter-chunk timeout logs stalled SSE streams but does not cancel them"
 source: https://github.com/gonka-ai/gonka/issues/1798
 issue_number: 1798
-synced_at: 2026-09-19T01:16:44Z
+synced_at: 2026-09-19T05:59:46Z
 template: issues-main.html
 ---
 

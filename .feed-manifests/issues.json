@@ -1,9 +1,9 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-09-19T01:20:46.610463+00:00",
+  "snapshot_time": "2026-09-19T06:03:12.093160+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
-      "title": "Description",
+      "title": "#310 — BUG-1: Preserved node disabling",
       "status": null,
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    BUG-1: Preserved node disabling\n    <span class=\"issues-number\">#310</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/gmorgachev\">@gmorgachev</a> opened 2025-09-01 18:19 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style=\"backg",
       "comment_checksum": "33bc8b632d55fa11ae403e6624ca2844aaf464f7ca78439fc6ca51941031d7d7",
@@ -15,7 +15,7 @@
       "checksum": "0b525d90398f02f119b1c1c70b5021b4753904edf710dca2a280292a43526dff"
     },
     "00311-bug-2-local-mlnode-identifier-mlnode-lookup-in-wrong-group.md": {
-      "title": "BUG-2: Local MLNode identifier & MLNode lookup in wrong group",
+      "title": "#311 — BUG-2: Local MLNode identifier & MLNode lookup in wrong group",
       "status": null,
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    BUG-2: Local MLNode identifier & MLNode lookup in wrong group\n    <span class=\"issues-number\">#311</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/gmorgachev\">@gmorgachev</a> opened 2025-09-02 09:28 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" st",
       "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -421,7 +421,7 @@
       "checksum": "a9c44b6efcb576a9cbf8808edd65fd8d9c6d29685023fc5f2a31f641135d624e"
     },
     "00398-api-node-connection-issues.md": {
-      "title": "1. Too large HTTP body:",
+      "title": "#398 — API -> Node Connection Issues",
       "status": null,
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    API -> Node Connection Issues\n    <span class=\"issues-number\">#398</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/gmorgachev\">@gmorgachev</a> opened 2025-10-19 05:17 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span cla",
       "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -577,7 +577,7 @@
       "checksum": "5ac55140b6ab8ed9f140643673422a243ed0e6790090217897f525f12434f231"
     },
     "00438-bug-incorrect-governance-model-matching-causes-registration-.md": {
-      "title": "🐛 Bug Report: Incorrect Governance Model Matching in API",
+      "title": "#438 — 🐛 Bug: Incorrect Governance Model Matching Causes Registration Failures",
       "status": null,
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    🐛 Bug: Incorrect Governance Model Matching Causes Registration Failures\n    <span class=\"issues-number\">#438</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Asplana92\">@Asplana92</a> opened 2025-11-15 23:53 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-la",
       "comment_checksum": "b96ec0aef988ee3446ed5ec3e8d06329238e5a075af7ff1b5c5c701c118af18b",
@@ -615,7 +615,7 @@
       "checksum": "0976753082ff9a98ed2a04fd545344e8cb7e921cae5b194365073b43c8ea0b9a"
     },
     "00461-ml-node-model-management-edge-cases.md": {
-      "title": "Context",
+      "title": "#461 — ML node model management edge cases",
       "status": null,
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    ML node model management edge cases\n    <span class=\"issues-number\">#461</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-12-02 20:12 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></di",
       "comment_checksum": "880987d7e39e16e6e9ab02079d4c1a5d35d80affe3a3af7f1a880b72c73a4d1e",
@@ -691,7 +691,7 @@
       "checksum": "5f4dc99161abb99aae80a572c6caa688565413eda262b60a39fb8696732027b3"
     },
     "00491-race-condition-in-epoch-initialization-causes-random-node-ex.md": {
-      "title": "Bug Report: Race Condition in Epoch Initialization",
+      "title": "#491 — Race Condition in Epoch Initialization Causes Random Node Exclusion",
       "status": null,
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Race Condition in Epoch Initialization Causes Random Node Exclusion\n    <span class=\"issues-number\">#491</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/baychak\">@baychak</a> opened 2025-12-13 17:25 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" st",
       "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -727,7 +727,7 @@
       "checksum": "79bf76719960b28de2f8fb1c623da96d5df5f1c851247f6e593c22218a7a6cbe"
     },
     "00518-request-timestamp-is-in-the-future-leads-to-missed-inference.md": {
-      "title": "Problem",
+      "title": "#518 — \"Request timestamp is in the future\" leads to missed inferences for hosts",
       "status": null,
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    \"Request timestamp is in the future\" leads to missed inferences for hosts\n    <span class=\"issues-number\">#518</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/akup\">@akup</a> opened 2026-01-02 06:22 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" st",
       "comment_checksum": "f96fda59a361ce8babe29bf0a73aa7e0d05c0460eeb28878557948330cd69ea8",
@@ -783,7 +783,7 @@
       "checksum": "e0b74b213c4d2dfce36c796b0d8b1702364d95ecc6d1cc7ca4f9077420b5c774"
     },
     "00546-node-crash-decimal-precision-panic-in-reputation-calculation.md": {
-      "title": "1. Stop crashed node",
+      "title": "#546 — Node crash: Decimal precision panic in reputation calculation (v0.2.7-post1)",
       "status": null,
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Node crash: Decimal precision panic in reputation calculation (v0.2.7-post1)\n    <span class=\"issues-number\">#546</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Olena\">@Olena</a> opened 2026-01-12 10:29 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-label",
       "comment_checksum": "00bf1338649f8185650567665fcc8f25c9cab217b70138996ff66efa32a66f8c",
@@ -795,7 +795,7 @@
       "checksum": "4bacc31f3e9dae7a9f75c671d7b7c236955a36c791a8638c58361b056ce9d294"
     },
     "00554-p2-free-inference-exploit.md": {
-      "title": "Inference Request Processing: Security Architecture and Fix",
+      "title": "#554 — [P2] Free inference exploit",
       "status": null,
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P2] Free inference exploit\n    <span class=\"issues-number\">#554</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/akup\">@akup</a> opened 2026-01-14 12:30 UTC</span>\n    <span class=\"issues-meta-item\">4 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-lab",
       "comment_checksum": "f7cc38da68e511bd199aa49515336a2d1380568a0e930a68fd7e5a7579400374",
@@ -1350,7 +1350,7 @@
       "checksum": "1429a772aff23063ad8f11163af5968d2350108b195f9a7531f8a9169504ea24"
     },
     "00632-state-sync-snapshots-corrupted-all-snapshots-fail-on-last-2-.md": {
-      "title": "1. Clean node data",
+      "title": "#632 — State sync snapshots corrupted - all snapshots fail on last 2 chunks (826-827/827)",
       "status": null,
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    State sync snapshots corrupted - all snapshots fail on last 2 chunks (826-827/827)\n    <span class=\"issues-number\">#632</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/baranskyi\">@baranskyi</a> opened 2026-01-24 15:11 UTC</span>\n    <span class=\"issues-meta-item\">5 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-t",
       "comment_checksum": "360bfef561e4f6f37a3140900c5955b605df24170a37b075661c5a90c7c85d19",
@@ -1419,7 +1419,7 @@
       "checksum": "d0f76986118f3e846abf25b4c86f13f2c12aeaf4ea46c09ec557406bbddbc2fe"
     },
     "00658-poc-slot-attack.md": {
-      "title": "POC_SLOT Attack",
+      "title": "#658 — POC_SLOT attack",
       "status": null,
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    POC_SLOT attack\n    <span class=\"issues-number\">#658</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/akup\">@akup</a> opened 2026-01-28 12:51 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-c",
       "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -1664,7 +1664,7 @@
       "checksum": "b4d7f68c19ce4f17a4c07e233387158ca07d1859d411df4441a4f3a8ab7c0816"
     },
     "00780-14-startinference-and-finishinference.md": {
-      "title": "Background",
+      "title": "#780 — [1/4] `StartInference` and `FinishInference`",
       "status": null,
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [1/4] `StartInference` and `FinishInference`\n    <span class=\"issues-number\">#780</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-02-20 22:20 UTC</span>\n    <span class=\"issues-meta-item\">10 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top:",
       "comment_checksum": "a02038b51a69e975b29fb8d3ee1533672dacc6ea6284fc8fab55dd0674e746c3",
@@ -1683,7 +1683,7 @@
       "checksum": "b285aaa258c551386faa79a5ea22fbab15f30901a9ff6e1bd97d091b70ebd288"
     },
     "00781-24-startinference-and-finishinference.md": {
-      "title": "Background",
+      "title": "#781 — [2/4] `StartInference` and `FinishInference`",
       "status": null,
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [2/4] `StartInference` and `FinishInference`\n    <span class=\"issues-number\">#781</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-02-20 22:26 UTC</span>\n    <span class=\"issues-meta-item\">13 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top:",
       "comment_checksum": "189b934a8920652d4accb7177ceaec5f17f37494169d6f304197f97faf2873a2",
@@ -1705,7 +1705,7 @@
       "checksum": "41a3abc5717beb5c61f7490e1a05fc9ab4b00bd2a6dd240ea5f1e074160a597c"
     },
     "00782-34-startinference-and-finishinference.md": {
-      "title": "Background",
+      "title": "#782 — [3/4] `StartInference` and `FinishInference`",
       "status": null,
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [3/4] `StartInference` and `FinishInference`\n    <span class=\"issues-number\">#782</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-02-20 22:37 UTC</span>\n    <span class=\"issues-meta-item\">5 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: ",
       "comment_checksum": "636905f578484f940871a72d7511d778cbb5e05bd657e18f568482e75e1a42b2",
@@ -1719,7 +1719,7 @@
       "checksum": "11018e5f246d05d681d4e1f79786301d5686ab46f595ff358d2d013014f81b6e"
     },
     "00783-44-startinference-and-finishinference.md": {
-      "title": "Background",
+      "title": "#783 — [4/4] `StartInference` and `FinishInference`",
       "status": null,
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [4/4] `StartInference` and `FinishInference`\n    <span class=\"issues-number\">#783</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-02-20 22:40 UTC</span>\n    <span class=\"issues-meta-item\">22 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top:",
       "comment_checksum": "03406f9a0690ba356667fb4b96d347b035f5e8a676aa31e019e90f9aa34f7ef7",
@@ -1750,7 +1750,7 @@
       "checksum": "c977c8afbd168b1cbcd5821b7ee97140eeba2948dd91d76827a6f808740eb8ae"
     },
     "00784-p2-possible-underfunded-issues.md": {
-      "title": "Problem",
+      "title": "#784 — [P2] Possible underfunded issues",
       "status": null,
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P2] Possible underfunded issues\n    <span class=\"issues-number\">#784</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-02-20 23:24 UTC</span>\n    <span class=\"issues-meta-item\">4 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span ",
       "comment_checksum": "96ecf3132e41e462e65ce8ab305485dfcec5dc45cc623f36e2d009f6b3965c3b",
@@ -1950,7 +1950,7 @@
       "checksum": "8efbce8748ae5b34f94a11b2a8dc849f9f0614e4c19cbfbe682f423641d10407"
     },
     "00863-potential-rce-via-torchload-in-ml-training-pipeline.md": {
-      "title": "torch.load('fake_model.pt') → code executes",
+      "title": "#863 — Potential RCE via `torch.load()` in ML Training Pipeline",
       "status": null,
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Potential RCE via `torch.load()` in ML Training Pipeline\n    <span class=\"issues-number\">#863</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/VVSMEN\">@VVSMEN</a> opened 2026-03-05 10:44 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-to",
       "comment_checksum": "f4b1ed6c7e8bfae7dceeb2250049b47141f32fde7d463280fc18a98bc1b7868d",
@@ -1960,7 +1960,7 @@
       "checksum": "73e5022437ccd21b7b573c36d1004b1bbbc76551ab940ecde5ef5bc1fd7b6abb"
     },
     "00865-hardcoded-dummy-tls-keycerts-used-for-gloo-transport-in-trai.md": {
-      "title": "mlnode/packages/train/src/zeroband/service/manager.py",
+      "title": "#865 — Hard‑coded dummy TLS key/certs used for Gloo transport in training manager Body",
       "status": null,
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Hard‑coded dummy TLS key/certs used for Gloo transport in training manager Body\n    <span class=\"issues-number\">#865</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/VVSMEN\">@VVSMEN</a> opened 2026-03-05 13:09 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-",
       "comment_checksum": "de06e894c113993e4fd387ca15a1fe508ad8c47ead8c7cef07ead16530d8b543",
@@ -2053,7 +2053,7 @@
       "checksum": "36c7fda53e6dfec1dcc68f2fe585135f5003ca8323711b273c2500b4e1037271"
     },
     "00896-devshards-research-aggregated-bls-signatures.md": {
-      "title": "Research",
+      "title": "#896 — `devshards`: Research aggregated BLS signatures",
       "status": null,
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshards`: Research aggregated BLS signatures\n    <span class=\"issues-number\">#896</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/heitor-lassarote\">@heitor-lassarote</a> opened 2026-03-16 15:10 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class",
       "comment_checksum": "8bcaa9a1a0258d9f79eed3fbd4cf5cbf642d2c3572f8e1965c71d8f8144a0174",
@@ -2231,7 +2231,7 @@
       "checksum": "22fc26e54f8ad5e4cf2e3394b848fb27e933ba86d4e4ec8ee568abfbb7fa170a"
     },
     "00936-devshards-implement-aggregated-bls-signatures.md": {
-      "title": "Research",
+      "title": "#936 — `devshards`: Implement aggregated BLS signatures",
       "status": null,
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshards`: Implement aggregated BLS signatures\n    <span class=\"issues-number\">#936</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/dcastro\">@dcastro</a> opened 2026-03-23 11:17 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" st",
       "comment_checksum": "d68217bf351f54ba3ccf0a944053a3526a48b9a32d54d685a900077e35cb5511",
@@ -2291,7 +2291,7 @@
       "checksum": "be30bc48aebd77a6ef42cd9fd0b375f40df9f50656e856582df10e754bc916e5"
     },
     "00966-validation-eligibility-and-accounting-consistency.md": {
-      "title": "Validation Eligibility and Accounting Consistency",
+      "title": "#966 — Validation Eligibility and Accounting Consistency",
       "status": null,
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Validation Eligibility and Accounting Consistency\n    <span class=\"issues-number\">#966</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/akup\">@akup</a> opened 2026-03-27 13:43 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><s",
       "comment_checksum": "b600d7f5fa6d123798be17f13aa2340144e5498009ad993bdaf375036d880da4",
@@ -2342,7 +2342,7 @@
       "checksum": "c4fffc5cac832ea928ad134c59409b81361e0b1c47a34c7a1fc71b8adf176a08"
     },
     "00982-enable-simulation-and-fuzz-testing-for-inference-chain.md": {
-      "title": "Proposal: Enable Cosmos SDK Simulation and Fuzz Testing for `inference-chain`",
+      "title": "#982 — Enable simulation and fuzz testing for inference-chain",
       "status": null,
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Enable simulation and fuzz testing for inference-chain\n    <span class=\"issues-number\">#982</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/patimen\">@patimen</a> opened 2026-03-30 21:41 UTC</span>\n    <span class=\"issues-meta-item\">7 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-la",
       "comment_checksum": "dea8b4010f1d55c4838516744e436b687ceba478b88ceddb0f75b49c25a2beba",
@@ -2393,7 +2393,7 @@
       "checksum": "d6c2b469774d4629540de7291411c5631a4cc6b2687a4b5efac7368ced9a8951"
     },
     "01026-vlm-inference-and-validation-in-gonka.md": {
-      "title": "Title",
+      "title": "#1026 — VLM inference and validation in Gonka",
       "status": null,
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    VLM inference and validation in Gonka\n    <span class=\"issues-number\">#1026</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/fedor-konovalenko\">@fedor-konovalenko</a> opened 2026-04-07 12:47 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issue",
       "comment_checksum": "22511d46a86b02275d4990e3a033c9d0a9bcd8399f9a9dc49a0edac75b580640",
@@ -2557,7 +2557,7 @@
       "checksum": "5723748cde219b0adfe84b16ebcfd93fb12db5ab647188770ddad0c816716322"
     },
     "01121-inference-v1chatcompletions-on-node3-returns-429-for-90-of-r.md": {
-      "title": "3 entries: node1, node2, node3",
+      "title": "#1121 — Inference /v1/chat/completions on node3 returns 429 for ~90% of requests — single live TA caps community gateways at ~10% pass-rate",
       "status": null,
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Inference /v1/chat/completions on node3 returns 429 for ~90% of requests — single live TA caps community gateways at ~10% pass-rate\n    <span class=\"issues-number\">#1121</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/unameisfine\">@unameisfine</a> opened 2026-04-26 22:40 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span ",
       "comment_checksum": "d5fd193bfb7d9bd4044f0726ba1c9e3608f0bb82b0e355a5cba7b7d94fc3c733",
@@ -2568,7 +2568,7 @@
       "checksum": "c87d78246f66fd6cc0a751ea5a89ac128d0b3295fd3ee11ca79b359bfdec6810"
     },
     "01135-poc-decode-proposal.md": {
-      "title": "PoC-decode: Extending Proof-of-Compute to Decode Steps",
+      "title": "#1135 — PoC-decode proposal",
       "status": null,
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    PoC-decode proposal\n    <span class=\"issues-number\">#1135</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Red-Caesar\">@Red-Caesar</a> opened 2026-04-30 12:35 UTC</span>\n    <span class=\"issues-meta-item\">5 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style=\"background-color",
       "comment_checksum": "9b24613573dd3fb5fd85cd71210ba94c42cbeaa173c569c695a751b34006b008",
@@ -2592,7 +2592,7 @@
       "checksum": "80d0da817fcfcd1d3262f5e425e7e99bb38e1034a3e650fba5a9714618012994"
     },
     "01169-bug-a-short-specific-searchable-title.md": {
-      "title": "Governance dashboard: Differend numbers in panel and chart",
+      "title": "#1169 — [BUG] A short, specific, searchable title.",
       "status": null,
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] A short, specific, searchable title.\n    <span class=\"issues-number\">#1169</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/akamitch\">@akamitch</a> opened 2026-05-15 13:51 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" styl",
       "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -2600,7 +2600,7 @@
       "checksum": "567dcb097b9aa318576d99136df9d22eb49ba5ec8f170772f1cd3edf255c6c71"
     },
     "01173-tee-implementation.md": {
-      "title": "TEE",
+      "title": "#1173 — TEE Implementation",
       "status": null,
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    TEE Implementation\n    <span class=\"issues-number\">#1173</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-05-16 06:45 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style=\"background-color:",
       "comment_checksum": "921b9c7be14bd418e1147e01da3a6eec64e8a5e0d0fa83c08d0260c6579ffd36",
@@ -2638,7 +2638,7 @@
       "checksum": "e652f289f55bb17cf04060be7e56c32b183d5e986f7968969459e30152039c2f"
     },
     "01199-reproducible-sampling-for-inference-validation.md": {
-      "title": "Issue #1199 — Reproducible Sampling for Inference Validation: Review Report",
+      "title": "#1199 — Reproducible sampling for inference validation",
       "status": null,
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Reproducible sampling for inference validation\n    <span class=\"issues-number\">#1199</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-05-19 23:17 UTC</span>\n    <span class=\"issues-meta-item\">6 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-lab",
       "comment_checksum": "27d3d66f377b7c7c0f9b3a173d2dad751daa11f48ba52b5040757f7746676f38",
@@ -2842,7 +2842,7 @@
       "checksum": "dfe273bddbad872d1f257890cd30f1f77aaeb60ee8f61838a9ba51f16d7d6bcc"
     },
     "01269-xinference-revalidation-vote-fails-when-voter-absent-from-ep.md": {
-      "title": "x/inference: revalidation vote fails when voter absent from epoch x/group",
+      "title": "#1269 — x/inference: revalidation vote fails when voter absent from epoch x/group",
       "status": null,
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    x/inference: revalidation vote fails when voter absent from epoch x/group\n    <span class=\"issues-number\">#1269</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-05-28 12:45 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"iss",
       "comment_checksum": "3a335efc910c9c43af4d8035e0e52c0429875071325496407eba7014d276519b",
@@ -2925,7 +2925,7 @@
       "checksum": "bcbbd04c3aa873b6b1f893c79d714e15b356326247587ae9ec7813c82044ffc6"
     },
     "01322-gateway-allowlist-request.md": {
-      "title": "Request to be added as a Gonka gateway operator (devshard creator allowlist)",
+      "title": "#1322 — Gateway allowlist request",
       "status": null,
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Gateway allowlist request\n    <span class=\"issues-number\">#1322</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Puyre\">@Puyre</a> opened 2026-06-08 15:13 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div cla",
       "comment_checksum": "1af34f49cb81859688b011967e59722a287c8ce2d9553c13303495925ccbfaee",
@@ -2967,7 +2967,7 @@
       "checksum": "aa0dc0b3a4d116fc1fff2c133c5042badfd375c246c7191006c04c9d6adf5efb"
     },
     "01352-bridge-auto-refund-does-not-run-when-bls-signing-expires-exp.md": {
-      "title": "Run B (primary reproduction)",
+      "title": "#1352 — Bridge: auto-refund does not run when BLS signing expires (EXPIRED)",
       "status": null,
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Bridge: auto-refund does not run when BLS signing expires (EXPIRED)\n    <span class=\"issues-number\">#1352</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-06-19 16:47 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;",
       "comment_checksum": "3583d7559809dcdfb03d3817fc364ccfef905d3f4747ee23b3415ba7bf53c04f",
@@ -3019,7 +3019,7 @@
       "checksum": "60610fdd978db3898e7b54c16c9440db54bf8eae936cb517c74bfb70897beb33"
     },
     "01387-gateway-in-flight-long-chat-during-validator-halt-client-suc.md": {
-      "title": "On laptop (requires APPROVE=1)",
+      "title": "#1387 — Gateway in-flight long chat during validator halt: client success vs request outcome failed",
       "status": null,
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway in-flight long chat during validator halt: client success vs request outcome failed\n    <span class=\"issues-number\">#1387</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-07-02 15:00 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\"",
       "comment_checksum": "5dab869111f31ddaaa91319d794799df93ad10bb863f334d6f8769699e3df37f",
@@ -3145,7 +3145,7 @@
       "checksum": "d199ead171991e5291ad4f5a2907df30429b1ebee9ac65848970926557e18ccf"
     },
     "01471-security-admin-dapi-unauthenticated-get-adminv1config-leaks-.md": {
-      "title": "No Authorization header required",
+      "title": "#1471 — Security: Admin DAPI unauthenticated — GET /admin/v1/config leaks worker_private key",
       "status": null,
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Security: Admin DAPI unauthenticated — GET /admin/v1/config leaks worker_private key\n    <span class=\"issues-number\">#1471</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Aphelios01-sdk\">@Aphelios01-sdk</a> opened 2026-07-18 03:05 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n",
       "comment_checksum": "53ac98fde89b99a632af8d44151f335b69d855a8568d46f44a08bb7223601576",
@@ -3248,7 +3248,7 @@
       "checksum": "1abb133ab5ed645fb557d0c58939111fe050819a9b879df85147fca036a8c3a7"
     },
     "01513-build-and-attest-release-binaries-in-ci-instead-of-uploading.md": {
-      "title": "[\"User\"]    — not github-actions[bot]; same on v0.2.14",
+      "title": "#1513 — Build and attest release binaries in CI instead of uploading them manually",
       "status": null,
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Build and attest release binaries in CI instead of uploading them manually\n    <span class=\"issues-number\">#1513</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/KTibow\">@KTibow</a> opened 2026-07-28 20:05 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></d",
       "comment_checksum": "3ecb1bd85d2c1adae4cfb24d29b1a209201fdf69e1c83255c102180dd77cd991",
@@ -3269,7 +3269,7 @@
       "checksum": "8bd7fe035d5ce172969b639b6e5bc61030802c0c920e3434bcce99c282ed42b8"
     },
     "01529-devshard-v4-epoch-prune-leaves-zombie-in-memory-hosts-append.md": {
-      "title": "only the definition",
+      "title": "#1529 — devshard v4: epoch prune leaves zombie in-memory Hosts → AppendDiff session not found",
       "status": null,
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    devshard v4: epoch prune leaves zombie in-memory Hosts → AppendDiff session not found\n    <span class=\"issues-number\">#1529</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-07-31 11:00 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <",
       "comment_checksum": "9ec85247b01e73adbfcf1ca82dbe8330704dcb4185c6536f92011281e0b5880a",
@@ -3375,7 +3375,7 @@
       "checksum": "248e015fe83ffaea77780ebc223311bcb33b860383f1fbe4ca880ad7a924c0ae"
     },
     "01628-bug-public-routers-hangtimeout-on-prompts-75k-tokens-prefill.md": {
-      "title": "→ HTTP 200, first token < 2 s",
+      "title": "#1628 — [BUG] Public routers hang/timeout on prompts ≥ ~7.5K tokens (prefill); 502 `all_providers_failed`; DeepSeek missing from /v1/models",
       "status": null,
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] Public routers hang/timeout on prompts ≥ ~7.5K tokens (prefill); 502 `all_providers_failed`; DeepSeek missing from /v1/models\n    <span class=\"issues-number\">#1628</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/inecro1\">@inecro1</a> opened 2026-08-23 12:28 UTC</span>\n    <span class=\"issues-meta-item\">7 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div",
       "comment_checksum": "30a1d21c5272f223be72ad6379f8aa8beec5712d9ba27f6d1f1804e1f4a4db92",
@@ -3391,7 +3391,7 @@
       "checksum": "78a261e5a25ab473cd2fb75ae18eac1e31a6909e1f839ba9adbb9b6661886566"
     },
     "01632-openbroker-strips-provider-prompt-cache-metadata-prompt-toke.md": {
-      "title": "OpenBroker strips provider prompt-cache metadata (`prompt_tokens_details` is always `null`)",
+      "title": "#1632 — OpenBroker strips provider prompt-cache metadata (prompt_tokens_details is always null)",
       "status": null,
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    OpenBroker strips provider prompt-cache metadata (prompt_tokens_details is always null)\n    <span class=\"issues-number\">#1632</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/theaungmyatmoe\">@theaungmyatmoe</a> opened 2026-08-24 06:38 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\"",
       "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -3429,7 +3429,7 @@
       "checksum": "244ec5f449dc01cb77fc0acce6975543405f73db88de12782bc826be83ecad8e"
     },
     "01659-proposal-repair-loop-for-escrow-state-root-diverged.md": {
-      "title": "Proposal: Repair loop for `escrow_state_root_diverged`",
+      "title": "#1659 — Proposal: Repair loop for `escrow_state_root_diverged`",
       "status": null,
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Proposal: Repair loop for `escrow_state_root_diverged`\n    <span class=\"issues-number\">#1659</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 2026-08-27 13:23 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues",
       "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -3445,7 +3445,7 @@
       "checksum": "b92f485df6c7caa1d5eaa4893ee05a9edc4ff09b3b8476372e090456bec83a29"
     },
     "01665-height-sync-one-roundtrip-per-host-not-per-slot.md": {
-      "title": "Height-sync: one roundtrip per host, not per slot",
+      "title": "#1665 — Height-sync: one roundtrip per host, not per slot",
       "status": null,
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Height-sync: one roundtrip per host, not per slot\n    <span class=\"issues-number\">#1665</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 2026-08-28 12:01 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-labe",
       "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -3598,7 +3598,7 @@
       "checksum": "4fdd23fa39e1cf48b782fe41cb54b5b20995d6a15eeab829d3d740f5a55d09cd"
     },
     "01714-devshard-bind-the-gateway-stream-to-msgfinishinference-with-.md": {
-      "title": "Proposal: bind the gateway stream to `MsgFinishInference` with a second hash",
+      "title": "#1714 — `devshard` bind the gateway stream to `MsgFinishInference` with a second hash",
       "status": null,
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard` bind the gateway stream to `MsgFinishInference` with a second hash\n    <span class=\"issues-number\">#1714</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 2026-09-03 18:51 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8p",
       "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -3645,7 +3645,7 @@
       "checksum": "1f0448706a0ecece8647fba8237beb340d60828ff4d6548c6e7f0c15ccfb3791"
     },
     "01733-extend-e2e-for-ha-devshard-config-with-multiple-routers-and-.md": {
-      "title": "Proposal: Unjoined-network citest for multiple versiond-routers",
+      "title": "#1733 — Extend e2e for HA devshard config with multiple routers and multiple versiond",
       "status": null,
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Extend e2e for HA devshard config with multiple routers and multiple versiond\n    <span class=\"issues-number\">#1733</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 2026-09-08 16:31 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8p",
       "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
