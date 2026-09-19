@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-09-19T10:50:19.092831+00:00",
+  "snapshot_time": "2026-09-19T14:20:26.196944+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "#805 — Welcome to Gonka Discussions 👋",
@@ -161,8 +161,8 @@
     "governance-proposal-reports/1815-proposal-74-gonka-labs-monthly-report-no3.md": {
       "title": "#1815 — Proposal #74: Gonka Labs - Monthly Report No.3",
       "status": null,
-      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1815](https://github.com/gonka-ai/gonka/discussions/1815) every hour. \n\n# Proposal #74: Gonka Labs - Monthly Report No.3\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-09-19 09:57 UTC · \n\n---\n\n## 📝 Описание\n\n<img width=\"1920\" height=\"1080\" alt=\"image\" src=\"https://github.com/user-attachments/assets/612d6724-aa9f-4868-aaac-b10b6cdfbe88\" />\n\nHey! Gonka Labs here.\n\nLast updates: [Report No.1](https://github.com/gonka-ai/gonka/discussions/1477) (Jul 18) and [Report No.2](https://github.com/gonka-ai/gonka/discussions/1612) (Aug 18).\n\nOn June 12 the community passed [Proposal #74](https://gonka.gg/network/proposals/74). That vote funded six months of infra, ops, and produ",
-      "checksum": "675e0cd29c53289917a4e7163795675c942ddece77821bd4a50b11684056e319"
+      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1815](https://github.com/gonka-ai/gonka/discussions/1815) every hour. \n\n# Proposal #74: Gonka Labs - Monthly Report No.3\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-09-19 09:57 UTC · \n\n---\n\n## 📝 Описание\n\n# Proposal #74: Gonka Labs - Monthly Report No.3\n\n<img width=\"1920\" height=\"1080\" alt=\"image\" src=\"https://github.com/user-attachments/assets/612d6724-aa9f-4868-aaac-b10b6cdfbe88\" />\n\nHey! Gonka Labs here.\n\nLast updates: [Report No.1](https://github.com/gonka-ai/gonka/discussions/1477) (Jul 18) and [Report No.2](https://github.com/gonka-ai/gonka/discussions/1612) (Aug 18).\n\nOn June 12 the community passed [Proposal #74](https://gonka.gg/network/proposals/74) ([f",
+      "checksum": "692ee52ef4e330df82c7ffc8dbc3b0e34e6c6870aa1831343a7c0cdb8de51fb1"
     },
     "protocol-improvements/0795-welcome-to-proposals.md": {
       "title": "#795 — Welcome to Proposals 👋",
