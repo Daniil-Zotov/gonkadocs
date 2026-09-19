@@ -2,7 +2,7 @@
 title: "#594 — Make sure batch finish/start inferences don't fail"
 source: https://github.com/gonka-ai/gonka/issues/594
 issue_number: 594
-synced_at: 2026-09-18T22:43:02Z
+synced_at: 2026-09-19T01:20:11Z
 template: issues-main.html
 ---
 

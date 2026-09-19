@@ -6,7 +6,7 @@ template: issues-main.html
 # Issues: requires own mainnet node
 
 Issues with label **requires own mainnet node**. Total: **2**.
-Updated: `2026-09-18 22:43 UTC`.
+Updated: `2026-09-19 01:20 UTC`.
 
 [← All Issues](../../index.md)
 
