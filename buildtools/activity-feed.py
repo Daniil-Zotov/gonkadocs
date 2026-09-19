@@ -160,14 +160,27 @@ def _is_detail_page(rel_path: Path, section: str) -> bool:
     return True
 
 def _extract_title(content: str, fallback: str) -> str:
-    m = re.search(r'^#\s+(.+)$', content, re.MULTILINE)
-    if m:
-        t = m.group(1).strip()
-        if len(t) < 300:
-            return t
-    m = re.search(r'^title:\s*"?(.+?)"?\s*$', content, re.MULTILINE)
+    # Prefer the frontmatter `title:` field: for synced issues/discussions/
+    # preproposals it holds the authoritative title, whereas the first
+    # markdown heading can sometimes be a `#` comment line inside a bash
+    # code block, which would otherwise be mistaken for the title.
+    m = re.search(r'^title:\s*"?(.+?)?"?\s*$', content, re.MULTILINE)
     if m:
         return m.group(1).strip()
+    # Fall back to the first real markdown heading, skipping lines that are
+    # `#` comments inside fenced code blocks (e.g. bash sample output).
+    fence = False
+    for line in content.splitlines():
+        if line.lstrip().startswith('```'):
+            fence = not fence
+            continue
+        if fence:
+            continue
+        m = re.match(r'^#\s+(.+)$', line)
+        if m:
+            t = m.group(1).strip()
+            if len(t) < 300:
+                return t
     return fallback
 
 
