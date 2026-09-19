@@ -4,12 +4,13 @@ title: ":bookmark_tabs: Governance Proposal Reports"
 
 # :bookmark_tabs: Governance Proposal Reports
 
-Дискуссии в категории **:bookmark_tabs: Governance Proposal Reports**. Всего: **10**. Обновлено: `2026-09-19 05:45 UTC`.
+Дискуссии в категории **:bookmark_tabs: Governance Proposal Reports**. Всего: **11**. Обновлено: `2026-09-19 10:50 UTC`.
 
 [← ко всем категориям](../index.md)
 
 | # | Заголовок | Автор | Обновлено |
 |---:|---|---|---|
+| [1815](1815-proposal-74-gonka-labs-monthly-report-no3.md) | [Proposal #74: Gonka Labs - Monthly Report No.3](1815-proposal-74-gonka-labs-monthly-report-no3.md) | [@gonkalabs](https://github.com/gonkalabs) | 2026-09-19 |
 | [1764](1764-proposal-82-external-test-lab-community-devnet-m2-report.md) | [Proposal #82: External Test Lab & Community DevNet — M2 Report](1764-proposal-82-external-test-lab-community-devnet-m2-report.md) | [@paranjko](https://github.com/paranjko) | 2026-09-13 |
 | [1742](1742-proposal-102-ratify-quant-mesh-limited-as-the-ledger-integra.md) | [Proposal #102: Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment](1742-proposal-102-ratify-quant-mesh-limited-as-the-ledger-integra.md) | [@Isabella0319](https://github.com/Isabella0319) | 2026-09-09 |
 | [1704](1704-proposal-99-support-gonkas-presence-at-token2049-singapore-2.md) | [Proposal #99: Support Gonka’s Presence at TOKEN2049 Singapore 2026](1704-proposal-99-support-gonkas-presence-at-token2049-singapore-2.md) | [@Isabella0319](https://github.com/Isabella0319) | 2026-09-07 |

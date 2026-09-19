@@ -4,7 +4,7 @@ title: "GitHub Discussions"
 
 # GitHub Discussions — `gonka-ai/gonka`
 
-Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **101**. Обновлено: `2026-09-19 05:45 UTC`.
+Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **102**. Обновлено: `2026-09-19 10:50 UTC`.
 
 ## 📂 Категории
 
@@ -13,7 +13,7 @@ title: "GitHub Discussions"
 | [:mega: Announcements](announcements/index.md) | 1 |
 | [:jigsaw: Ecosystem](ecosystem/index.md) | 8 |
 | [:speech_balloon: General](general/index.md) | 7 |
-| [:bookmark_tabs: Governance Proposal Reports](governance-proposal-reports/index.md) | 10 |
+| [:bookmark_tabs: Governance Proposal Reports](governance-proposal-reports/index.md) | 11 |
 | [:gear: Protocol Improvements](protocol-improvements/index.md) | 47 |
 | [:interrobang: Q&A](q-a/index.md) | 4 |
 | [:raised_hands: Show and Tell](show-and-tell/index.md) | 24 |
@@ -22,6 +22,7 @@ title: "GitHub Discussions"
 
 | # | Заголовок | Категория | Автор | Обновлено |
 |---:|---|---|---|---|
+| [1815](governance-proposal-reports/1815-proposal-74-gonka-labs-monthly-report-no3.md) | [Proposal #74: Gonka Labs - Monthly Report No.3](governance-proposal-reports/1815-proposal-74-gonka-labs-monthly-report-no3.md) | :bookmark_tabs: Governance Proposal Reports | [@gonkalabs](https://github.com/gonkalabs) | 2026-09-19 |
 | [1388](protocol-improvements/1388-external-test-lab-community-devnet.md) | [External Test Lab & Community DevNet](protocol-improvements/1388-external-test-lab-community-devnet.md) | :gear: Protocol Improvements | [@paranjko](https://github.com/paranjko) | 2026-09-13 |
 | [1764](governance-proposal-reports/1764-proposal-82-external-test-lab-community-devnet-m2-report.md) | [Proposal #82: External Test Lab & Community DevNet — M2 Report](governance-proposal-reports/1764-proposal-82-external-test-lab-community-devnet-m2-report.md) | :bookmark_tabs: Governance Proposal Reports | [@paranjko](https://github.com/paranjko) | 2026-09-13 |
 | [1748](protocol-improvements/1748-dynamic-devshard-per-escrow-bls-dkg-nizk-dealings-on-chain-t.md) | [Dynamic devshard: per-escrow BLS DKG (NIZK dealings, on-chain T0)](protocol-improvements/1748-dynamic-devshard-per-escrow-bls-dkg-nizk-dealings-on-chain-t.md) | :gear: Protocol Improvements | [@akup](https://github.com/akup) | 2026-09-11 |
@@ -41,4 +42,3 @@ title: "GitHub Discussions"
 | [1648](ecosystem/1648-running-our-own-devshard-gateway-plan-economics-and-what-hos.md) | [Running our own devshard gateway — plan, economics, and what hosts want to see for allowlisting](ecosystem/1648-running-our-own-devshard-gateway-plan-economics-and-what-hos.md) | :jigsaw: Ecosystem | [@theaungmyatmoe](https://github.com/theaungmyatmoe) | 2026-08-29 |
 | [1636](protocol-improvements/1636-proposal-cache-served-token-pricing.md) | [Proposal: Cache-Served Token Pricing](protocol-improvements/1636-proposal-cache-served-token-pricing.md) | :gear: Protocol Improvements | [@theaungmyatmoe](https://github.com/theaungmyatmoe) | 2026-08-24 |
 | [1617](governance-proposal-reports/1617-outdated-proposal-74-gonka-labs-monthly-report-no-2.md) | [(outdated) Proposal #74: Gonka Labs - Monthly Report No. 2](governance-proposal-reports/1617-outdated-proposal-74-gonka-labs-monthly-report-no-2.md) | :bookmark_tabs: Governance Proposal Reports | [@nsvdev](https://github.com/nsvdev) | 2026-08-20 |
-| [1612](governance-proposal-reports/1612-proposal-74-gonka-labs-monthly-report-no2.md) | [Proposal #74: Gonka Labs - Monthly Report No.2](governance-proposal-reports/1612-proposal-74-gonka-labs-monthly-report-no2.md) | :bookmark_tabs: Governance Proposal Reports | [@gonkalabs](https://github.com/gonkalabs) | 2026-08-18 |
