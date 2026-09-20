@@ -2,7 +2,7 @@
 title: "#365 — The variable `DAPI_API__POC_CALLBACK_URL` is causing a lot of issues. It might be simpler in the future to use `gRPC` and handle callbacks within the same connection instead."
 source: https://github.com/gonka-ai/gonka/issues/365
 issue_number: 365
-synced_at: 2026-09-20T06:26:41Z
+synced_at: 2026-09-20T11:39:37Z
 template: issues-main.html
 ---
 
