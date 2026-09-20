@@ -76,4 +76,4 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-09-20 01:02 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-09-20 06:08 UTC*
