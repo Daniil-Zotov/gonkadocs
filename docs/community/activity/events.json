@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260920062832_d1dd654e",
+    "timestamp": "2026-09-20T06:28:32.079487+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1800 — devshard gateway: request-specific insufficient balance deactivates and remints a usable escrow",
+      "url": "/community/issues/01800-devshard-gateway-request-specific-insufficient-balance-deact/",
+      "file": "01800-devshard-gateway-request-specific-insufficient-balance-deact.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard gateway: request-specific insufficient balance deactivates and remints a usable escrow\n    <span class=\"issues-number\">#1800</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/aikuznetsov\">@aikuznetsov</a> opened 2026-09-18 02:49 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-label",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    devshard gateway: request-specific insufficient balance deactivates and remints a usable escrow\n    <span class=\"issues-number\">#1800</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/aikuznetsov\">@aikuznetsov</a> opened 2026-09-18 02:49 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </"
+    },
+    "ai_description": "Issue #1800 on the devshard gateway has been closed after receiving a comment. The proposal, which details how insufficient balance for a specific request should deactivate and remint a usable escrow, is now resolved and no longer open for discussion. This marks a completed step in refining gateway balance handling for the community."
+  },
+  {
     "id": "evt_20260919142022_d3bd0210",
     "timestamp": "2026-09-19T14:20:22.643044+00:00",
     "section": "discussions",
@@ -7942,20 +7958,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Increase artifact storage throughput\n    <span class=\"issues-number\">#669</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/IgnatovFedor\">@IgnatovFedor</a> opened 2026-01-30 06:56 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\""
     },
     "ai_description": "Issue #669 on increasing artifact storage throughput has been removed from the community feed. The proposal, which was previously closed, is no longer tracked here, so any related discussion or follow-up should be directed to the original GitHub thread. This cleanup helps keep the feed focused on active and relevant community matters.Issue #669 on increasing artifact storage throughput has been removed from the community feed. This closed proposal is no longer tracked here, so any related discussion should continue on the original GitHub thread. Keeping the feed clean helps us focus on active and relevant community matters."
-  },
-  {
-    "id": "evt_20260910143102_82956b1f",
-    "timestamp": "2026-09-10T14:31:02.672763+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#672 — gRPC always falls back to RPC",
-      "url": null,
-      "file": "00672-grpc-always-falls-back-to-rpc.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    gRPC always falls back to RPC\n    <span class=\"issues-number\">#672</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/x0152\">@x0152</a> opened 2026-01-30 16:21 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-content\" markdown"
-    },
-    "ai_description": "Issue #672 on gRPC always falling back to RPC has been removed from the community feed. This cleanup removes a resolved or obsolete report about a transport fallback problem that would have affected connection efficiency. Keeping the activity feed tidy helps us focus on active issues that need community attention. Thanks for your contributions! — The Gonka Team"
   }
 ]
