@@ -1,6 +1,6 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-09-21T02:33:44.282906+00:00",
+  "snapshot_time": "2026-09-21T06:59:48.620214+00:00",
   "files": {
     "1b608f38bcf9c2f73348e483c535a7b3f0d6bda283a50d79dbdc278ec8e7bdbe": {
       "title": "AMA: Работа маркетинг-комитета",
@@ -2260,6 +2260,15 @@
       "url": "/proposals/proposals/2026-q3/105/",
       "content_preview": "Approve DevShard v5 and contributor bounty payouts\n\nThis proposal adds DevShard v5 to the approved list of devshard versions and distributes 91,300 USDT from the community-sale contract to contributor…",
       "checksum": "308f37f77b150d94937a0a6aef0c982393dce99c837fa40656f37d58a941d158"
+    },
+    "60c75e6ae7cc1e50d8c9d9b2606646871b4f04369575e97c2fc862eafe2cfd8a": {
+      "title": "Report for proposal #74 — Gonka Labs: Maintaining Infrastructure, Improving Products, and Launch…",
+      "date": "2026-09-19",
+      "time": "",
+      "event_type": "proposal_report_upload",
+      "url": "/proposals/proposals/2026-q2/74/",
+      "content_preview": "Report report3 for proposal #74 has been uploaded. Read it: https://gonkadocs.com/proposals/proposals/2026-q2/74/report3/",
+      "checksum": "f80cc5860900029f1f87aa965dd3613636bae89aec72dd40962e6e97d7023ea2"
     }
   }
 }

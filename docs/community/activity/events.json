@@ -1,5 +1,25 @@
 [
   {
+    "id": "evt_20260921065948_dbe2db42",
+    "timestamp": "2026-09-21T06:59:48.596097+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Report for proposal #74 — Gonka Labs: Maintaining Infrastructure, Improving Products, and Launch…",
+      "url": "/proposals/proposals/2026-q2/74/",
+      "file": "60c75e6ae7cc1e50d8c9d9b2606646871b4f04369575e97c2fc862eafe2cfd8a"
+    },
+    "details": {
+      "status": null,
+      "content": "Report report3 for proposal #74 has been uploaded. Read it: https://gonkadocs.com/proposals/proposals/2026-q2/74/report3/",
+      "date": "2026-09-19",
+      "time": "",
+      "event_type": "proposal_report_upload",
+      "url": "/proposals/proposals/2026-q2/74/"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260920114117_d1c31bc6",
     "timestamp": "2026-09-20T11:41:17.796275+00:00",
     "section": "issues",
@@ -7944,20 +7964,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Short network drop makes the api crash\n    <span class=\"issues-number\">#660</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/x0152\">@x0152</a> opened 2026-01-28 16:31 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</d"
     },
     "ai_description": "Issue #660 about the API crashing on short network drops has been removed from the community feed. The closed report, which had no comments, is no longer tracked here, keeping the issue list focused on active and relevant topics. This cleanup helps maintain a clearer view of current network stability concerns.Issue #660 about the API crashing on short network drops has been removed from the feed. The closed report with no comments is no longer tracked, keeping the issue list focused on active and relevant topics. This cleanup helps maintain a clearer view of current network stability concerns."
-  },
-  {
-    "id": "evt_20260910143102_9d8e5a83",
-    "timestamp": "2026-09-10T14:31:02.672751+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#662 — How to try to locate the missing seed",
-      "url": null,
-      "file": "00662-how-to-try-to-locate-the-missing-seed.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    How to try to locate the missing seed\n    <span class=\"issues-number\">#662</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-29 05:19 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><"
-    },
-    "ai_description": "Issue #662 about locating missing seeds has been removed from the community feed. The closed discussion, which offered troubleshooting guidance for seed discovery, is no longer available for reference. This cleanup helps keep the activity feed focused on active and relevant topics.Issue #662 about locating missing seeds has been removed from the community feed. The closed discussion is no longer available for reference, keeping the activity feed focused on active and relevant topics."
   }
 ]
