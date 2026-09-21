@@ -1426,5 +1426,17 @@
     "tags": [
       "report"
     ]
+  },
+  {
+    "date": "2026-09-23",
+    "category": "governance",
+    "type": "proposal_vote_end",
+    "title": "Voting ends: #106 – Marketing Committee — Operations & Reddit Contributor Pilot",
+    "url": "/proposals/proposals/2026-q3/106/",
+    "time": "19:09 UTC",
+    "description": "The Gonka Marketing Committee requests 6,800 USDT + 50,000 GNK from the Community Pool to support ongoing Committee work and a separate two-month Reddit Contributor Pilot.\n\nThe Committee acts as a com…",
+    "tags": [
+      "voting"
+    ]
   }
 ]
