@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-09-21T17:35:23.870056+00:00",
+  "snapshot_time": "2026-09-21T21:31:47.376385+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -199,6 +199,12 @@
       "status": null,
       "content_preview": "# DeepSeek V4 Flash Bootstrap\n\n`deepseek-ai/DeepSeek-V4-Flash-0731` has **passed bootstrap** and is **active** in Proof of Compute on Gonka mainnet as of chain epoch 360 ([proposal 94](../network-updates.md#august-10-2026)). The timeline and transaction examples below remain useful for understanding how activation worked and for operations such as delegation; for current deployment defaults (including `node-config.json`), see the [Host Quickstart](./quickstart.md).\n\nFor the wider context of multi-model PoC mechanics, see [Multi-Model PoC](./multi_model_poc.md). Previous model bootstraps and their mechanics are documented in [Kimi K2.6 Bootstrap](./kimi-bootstrap.md), [MiniMax-M2.7 Bootstrap](./minimax-bootstrap.md), and [GLM-5.3-Flash Bootstrap](./glm-bootstrap.md).\n\n!!! note\n    The boots",
       "checksum": "9c642b957844db830b5f5204c0e1ee4dfe79fc2a4869c9d63a817e2eadcc0b25"
+    },
+    "host/devshard-high-availability.md": {
+      "title": "High-availability devshard host setup",
+      "status": null,
+      "content_preview": "# High-availability devshard host setup\n\nDevshard inference that stays available, backed by multiple `versiond` instances.\n\n## Contents\n\n- [Why this matters](#why-this-matters)\n- [Release and images](#release-and-images)\n- [Prerequisites](#prerequisites)\n- [Install a new host](#install-a-new-host)\n- [Upgrade an existing host](#upgrade-an-existing-host)\n- [Add a remote replica](#add-a-remote-replica)\n- [Add a local replica](#add-a-local-replica)\n- [Operate the deployment](#operate-the-deployment)\n- [Troubleshooting](#troubleshooting)\n\n## Why this matters\n\nA single `versiond` process is a single point of failure (SPOF): if that machine or container dies, gateways cannot reach your host for that protocol version.\n\nRun multiple `versiond` instances behind the router fleet, with shared PostgreS",
+      "checksum": "f2efa456187da6f2ce2329d8e27599800543ab4c04390c5ed75b922d900c4343"
     },
     "host/genesis.md": {
       "title": "Gonka Genesis Ceremony",

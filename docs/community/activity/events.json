@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260921213107_39ed2023",
+    "timestamp": "2026-09-21T21:31:07.679082+00:00",
+    "section": "gonka_docs",
+    "action": "new",
+    "item": {
+      "title": "High-availability devshard host setup",
+      "url": "/gonka/docs/host/devshard-high-availability/",
+      "file": "host/devshard-high-availability.md"
+    },
+    "details": {
+      "status": null,
+      "content": "# High-availability devshard host setup\n\nDevshard inference that stays available, backed by multiple `versiond` instances.\n\n## Contents\n\n- [Why this matters](#why-this-matters)\n- [Release and images](#release-and-images)\n- [Prerequisites](#prerequisites)\n- [Install a new host](#install-a-new-host)\n- [Upgrade an existing host](#upgrade-an-existing-host)\n- [Add a remote replica](#add-a-remote-replica)\n- [Add a local replica](#add-a-local-replica)\n- [Operate the deployment](#operate-the-deployment)\n- [Troubleshooting](#troubleshooting)\n\n## Why this matters\n\nA single `versiond` process is a single point of failure (SPOF): if that machine or container dies, gateways cannot reach your host for that protocol version.\n\nRun multiple `versiond` instances behind the router fleet, with shared PostgreS"
+    },
+    "ai_description": "New protocol docs now cover high-availability devshard host setup, showing how to eliminate single points of failure by running multiple versiond instances behind the router fleet with shared PostgreSQL. This is a practical guide for anyone who wants to keep inference available even when individual machines or containers go down. Check it out if you run devshard hosts."
+  },
+  {
     "id": "evt_20260921211026_545e577a",
     "timestamp": "2026-09-21T21:10:26.556136+00:00",
     "section": "issues",
@@ -7957,20 +7973,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Reproducible sampling\n    <span class=\"issues-number\">#651</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-27 18:58 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<d"
     },
     "ai_description": "Issue #651 on reproducible sampling has been closed and removed from our tracking. The discussion wrapped up with the approach no longer being pursued in its current form, so the team has cleaned it up to keep our roadmap focused. Thanks to everyone who contributed their thoughts on making sampling deterministic.Issue #651 on reproducible sampling has been closed and removed from our activity feed. The discussion wrapped up without moving forward, so we've cleaned it up to keep our issue tracker focused on active work. Thanks to everyone who weighed in on the topic."
-  },
-  {
-    "id": "evt_20260910143102_8b703680",
-    "timestamp": "2026-09-10T14:31:02.672720+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#652 — Certik(CSA-2026-001:Tachyon, was disclosed in CometBFT)",
-      "url": null,
-      "file": "00652-certikcsa-2026-001tachyon-was-disclosed-in-cometbft.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Certik(CSA-2026-001:Tachyon, was disclosed in CometBFT)\n    <span class=\"issues-number\">#652</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-27 19:04 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"ma"
-    },
-    "ai_description": "Issue #652 about the Certik Tachyon disclosure in CometBFT has been removed from the feed. The report, which was closed with one comment, is no longer listed as an active community item. This cleanup keeps the issue tracker focused on relevant, ongoing discussions.Issue #652 regarding the Certik Tachyon disclosure in CometBFT has been removed from our activity feed. This closed report is no longer listed, keeping the tracker focused on active and relevant community discussions."
   }
 ]
