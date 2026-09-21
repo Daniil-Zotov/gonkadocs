@@ -4,12 +4,13 @@ title: ":jigsaw: Ecosystem"
 
 # :jigsaw: Ecosystem
 
-Дискуссии в категории **:jigsaw: Ecosystem**. Всего: **8**. Обновлено: `2026-09-21 13:58 UTC`.
+Дискуссии в категории **:jigsaw: Ecosystem**. Всего: **9**. Обновлено: `2026-09-21 19:19 UTC`.
 
 [← ко всем категориям](../index.md)
 
 | # | Заголовок | Автор | Обновлено |
 |---:|---|---|---|
+| [1818](1818-marketing-committee-operations-reddit-contributor-pilot.md) | [Marketing Committee — Operations & Reddit Contributor Pilot](1818-marketing-committee-operations-reddit-contributor-pilot.md) | [@petkomain-tech](https://github.com/petkomain-tech) | 2026-09-21 |
 | [1648](1648-running-our-own-devshard-gateway-plan-economics-and-what-hos.md) | [Running our own devshard gateway — plan, economics, and what hosts want to see for allowlisting](1648-running-our-own-devshard-gateway-plan-economics-and-what-hos.md) | [@theaungmyatmoe](https://github.com/theaungmyatmoe) | 2026-08-29 |
 | [1589](1589-bring-gnk-and-gonka-to-the-ledger-ecosystem.md) | [Bring GNK and Gonka to the Ledger Ecosystem](1589-bring-gnk-and-gonka-to-the-ledger-ecosystem.md) | [@Isabella0319](https://github.com/Isabella0319) | 2026-09-09 |
 | [1243](1243-project-funding-governance-and-management.md) | [Project funding governance and management](1243-project-funding-governance-and-management.md) | [@a-kuprin](https://github.com/a-kuprin) | 2026-08-05 |

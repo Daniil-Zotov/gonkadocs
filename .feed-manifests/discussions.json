@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-09-21T13:58:21.106495+00:00",
+  "snapshot_time": "2026-09-21T19:21:38.109238+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "#805 — Welcome to Gonka Discussions 👋",
@@ -55,6 +55,12 @@
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1648](https://github.com/gonka-ai/gonka/discussions/1648) every hour. \n\n# Running our own devshard gateway — plan, economics, and what hosts want to see for allowlisting\n\n**Автор:** [@theaungmyatmoe](https://github.com/theaungmyatmoe) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-08-25 12:18 UTC · \n\n---\n\n## 📝 Описание\n\n# Running our own devshard gateway — plan, economics, and the one thing we need from hosts\n\n**Who:** Fusion AI Gateway (`api.fusioncode.app`) — a production broker already serving DeepSeek V4 Flash, MiniMax M2.7, and Kimi K2.6 through the network (currently via OpenBroker).\n\n## Why we want our own gateway\n\n1. **Direct GNK settlement & self-custody** — we have a committed multi-billion-token/day pipeline and need escrow pooling/r",
       "checksum": "0af1eadc5a73ef50a39d8b3272c9d8a6abf2f814805c10aee81e98f5535a37a1"
+    },
+    "ecosystem/1818-marketing-committee-operations-reddit-contributor-pilot.md": {
+      "title": "#1818 — Marketing Committee — Operations & Reddit Contributor Pilot",
+      "status": null,
+      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1818](https://github.com/gonka-ai/gonka/discussions/1818) every hour. \n\n# Marketing Committee — Operations & Reddit Contributor Pilot\n\n**Автор:** [@petkomain-tech](https://github.com/petkomain-tech) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-09-21 14:39 UTC · \n\n---\n\n## 📝 Описание\n\n# Marketing Committee — Operations & Reddit Contributor Pilot\n\n## Summary\n\nThe Marketing Committee requests 6,800 USDT + 50,000 GNK to support the Committee’s work for August–October 2026 and to run a separate two-month Reddit Contributor Pilot.\n\nThe Committee operates as an independent contributor team from the Gonka community. We review marketing materials and contractor deliverables, follow up on already funded initiatives, collect and consolidate community fee",
+      "checksum": "7bcef9c312ae650b32ba2d52bd2f92d15866c471e8ae74cdb98cbdb357a76c6a"
     },
     "general/0670-kimi-k25.md": {
       "title": "#670 — Kimi K2.5",
