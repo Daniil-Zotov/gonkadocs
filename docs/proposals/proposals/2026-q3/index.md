@@ -68,8 +68,8 @@ hide:
     <span>Voting ends 2026-09-23</span>
   </div>
   <div class="prop-card-desc">The Gonka Marketing Committee requests 6,800 USDT + 50,000 GNK from the Community Pool to support ongoing Committee work and a separate two-month Reddit Contributor Pilot.  The Committee acts as a com…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>60.0%</strong> (6,484)</span> · <span class="prop-tally-no-text">No <strong>40.0%</strong> (4,323)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding prop-card-funding-voting">50,000 GNK · $6,800 · Community Pool</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>2.0%</strong> (10,807 / 547,990) · Quorum <strong>25%</strong> (136,997)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>38.8%</strong> (6,484)</span> · <span class="prop-tally-no-text">No <strong>61.2%</strong> (10,241)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding prop-card-funding-voting">50,000 GNK · $6,800 · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>2.8%</strong> (16,725 / 587,173) · Quorum <strong>25%</strong> (146,793)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
