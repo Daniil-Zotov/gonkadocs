@@ -216,6 +216,7 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [#74 – Gonka Labs: Maintaining Infrastructure, Improving Products, and Launching New Ones](/proposals/proposals/2026-q2/74/): Auto-synced content
 - [Gonka Labs — Monthly Report No.1](/proposals/proposals/2026-q2/74/report1/): Auto-synced content
 - [Gonka Labs — Monthly Report No.2](/proposals/proposals/2026-q2/74/report2/): Auto-synced content
+- [Gonka Labs — Monthly Report No.3](/proposals/proposals/2026-q2/74/report3/): Auto-synced content
 - [Full Proposal](/proposals/proposals/2026-q2/64/full-proposal/): Auto-synced content
 - [#64 – TheSoul - Offer 2.2: Analytics and attribution (28,000 GNK)](/proposals/proposals/2026-q2/64/): Auto-synced content
 - [#39 – Community Series Film — Why Gonka Exists](/proposals/proposals/2026-q2/39/): Auto-synced content
