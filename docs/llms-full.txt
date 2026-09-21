@@ -29893,12 +29893,12 @@ HardCore Arena позволит протестировать модель на �
 
 ## Overview
 
-104Total Proposals
+105Total Proposals
 71Passed (68%)
-32Rejected (31%)
+32Rejected (30%)
 1Failed (1%)
 
-Funding / Grants42
+Funding / Grants43
 Governance Parameters35
 Software Upgrade18
 Other4
@@ -29910,7 +29910,20 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
 
 ## 2026-Q3
 
-*26 proposals*
+*27 proposals*
+
+  
+    #106 – Marketing Committee — Operations & Reddit Contributor Pilot
+    
+    Voting
+  
+  
+    Submitted 2026-09-21
+    Voting ends 2026-09-23
+  
+  The Gonka Marketing Committee requests 6,800 USDT + 50,000 GNK from the Community Pool to support ongoing Committee work and a separate two-month Reddit Contributor Pilot.  The Committee acts as a com…
+  Yes 38.8% (6,484) · No 61.2% (10,241) · Veto 0.0% (0) · Abstain 0.0% (0)50,000 GNK · $6,800 · Community Pool
+  ✗ Turnout 2.8% (16,725 / 587,173) · Quorum 25% (146,793)
 
   
     #105 – Approve devshard v5 and bounty payouts
@@ -31109,7 +31122,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-104 proposals across 5 quarters. Last updated: 2026-09-21 18:40 UTC
+105 proposals across 5 quarters. Last updated: 2026-09-21 21:00 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -68778,12 +68791,12 @@ Contract Details
 
 ## 2026-Q3 Summary
 
-26Total Proposals
-19Passed (73%)
-7Rejected (27%)
+27Total Proposals
+19Passed (70%)
+7Rejected (26%)
 
 Governance Parameters14
-Funding / Grants8
+Funding / Grants9
 Software Upgrade2
 Other1
 GRC / Restitution1
@@ -68792,7 +68805,20 @@ GRC / Restitution1
 $90,075 USDT · Bounty Reward
 
 2026-Q3
-26 proposals
+27 proposals
+
+  
+    #106 – Marketing Committee — Operations & Reddit Contributor Pilot
+    
+    Voting
+  
+  
+    Submitted 2026-09-21
+    Voting ends 2026-09-23
+  
+  The Gonka Marketing Committee requests 6,800 USDT + 50,000 GNK from the Community Pool to support ongoing Committee work and a separate two-month Reddit Contributor Pilot.  The Committee acts as a com…
+  Yes 38.8% (6,484) · No 61.2% (10,241) · Veto 0.0% (0) · Abstain 0.0% (0)50,000 GNK · $6,800 · Community Pool
+  ✗ Turnout 2.8% (16,725 / 587,173) · Quorum 25% (146,793)
 
   
     #105 – Approve devshard v5 and bounty payouts
@@ -71669,6 +71695,104 @@ Contract Details
       }
     },
     "funds": []
+  }
+]
+```
+
+---
+
+## #106 – Marketing Committee — Operations & Reddit Contributor Pilot
+
+# #106 – Marketing Committee — Operations & Reddit Contributor Pilot
+
+Voting
+
+**Proposal ID:** `106`
+
+**Type:** Community Pool Spend, Execute Contract
+
+**Submit:** 2026-09-21 19:09 UTC
+
+**Voting:** 2026-09-21 19:09 UTC → 2026-09-23 19:09 UTC
+
+**Proposer:** [`gonka1juwk05glldgn7850a3547jsl7l4vrhx9k5g3cr`](https://gonka.gg/address/gonka1juwk05glldgn7850a3547jsl7l4vrhx9k5g3cr){:target="_blank"}
+
+**Metadata:** [https://github.com/gonka-ai/gonka/discussions/1818](https://github.com/gonka-ai/gonka/discussions/1818)
+
+50,000 GNK · $6,800 · Community Pool
+
+[View on gonka.gg](https://gonka.gg/network/proposals/106){:target="_blank"}
+
+The Gonka Marketing Committee requests 6,800 USDT + 50,000 GNK from the Community Pool to support ongoing Committee work and a separate two-month Reddit Contributor Pilot.
+
+The Committee acts as a community-side contributor team supporting active marketing projects. Its work includes joining contractor calls, reviewing deliverables, tracking progress, and consolidating feedback from hosts and other contributors. The team has already been involved with TheSoul and Input, including reviews of Gonka positioning, the Brandbook, website wireframes, and other ongoing materials.
+
+The proposal also includes a two-month Reddit pilot to test a more systematic community presence on the platform. This includes developing r/GonkaHub, bringing in contributors, identifying relevant communities, and supporting active participation.
+
+---
+
+## Final Tally
+
+  
+    
+    
+    
+    
+  
+  
+    Yes 38.8% (6,484)
+    No 61.2% (10,241)
+    Veto 0.0% (0)
+    Abstain 0.0% (0)
+    Total 16,725 votes
+    ✗ Turnout 2.8% (16,725 / 587,173) · Quorum 25% (146,793)
+  
+
+Voters
+
+VoterVote
+
+gonka1qh2qe4…yy3k5fNo 100.0%
+gonka1rqm2u7…mgd53tYes 100.0%
+gonka19zfgmv…fcmnrmYes 100.0%
+gonka1gyk0aa…k8svc5No 100.0%
+gonka1ajmhqg…z8s939No 100.0%
+
+---
+## Messages
+
+| # | Type |
+| :- | :--- |
+| 1 | `/cosmwasm.wasm.v1.MsgExecuteContract` |
+| 2 | `/cosmos.distribution.v1beta1.MsgCommunityPoolSpend` |
+
+Contract Details
+
+```json
+[
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "contract": "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2",
+    "msg": {
+      "withdraw_ibc": {
+        "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+        "amount": "6800000000",
+        "recipient": "gonka1ledger222pnmgm36knfwzfp6xrpxz265syvkc9"
+      }
+    },
+    "funds": []
+  },
+  {
+    "@type": "/cosmos.distribution.v1beta1.MsgCommunityPoolSpend",
+    "authority": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "recipient": "gonka1ledger222pnmgm36knfwzfp6xrpxz265syvkc9",
+    "amount": [
+      {
+        "denom": "ngonka",
+        "amount": "50000000000000"
+      }
+    ]
   }
 ]
 ```

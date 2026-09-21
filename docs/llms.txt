@@ -23,6 +23,7 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - 2026-09-22 17:00 UTC — AMA-сессия: токеномика GNK: https://drive.google.com/file/d/1-SVQaL-rA-ozJcNEPJoXjGO1UIpsoZkt/
 - 2026-09-23 13:00 UTC — INPUT Global — Weekly Call (#77): https://gonkadocs.com/proposals/proposals/2026-q2/77/
 - 2026-09-23 15:00 UTC — TheSoul — Weekly Report Call (#60–#65): https://gonkadocs.com/proposals/proposals/2026-q2/60/
+- 2026-09-23 19:09 UTC — Voting ends: #106 – Marketing Committee — Operations & Reddit Contributor Pilot: https://gonkadocs.com/proposals/proposals/2026-q3/106/
 - 2026-09-30 15:00 UTC — TheSoul — Weekly Report Call (#60–#65): https://gonkadocs.com/proposals/proposals/2026-q2/60/
 
 ## Protocol Documentation
@@ -240,6 +241,7 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [2026-Q3 Proposals](/proposals/proposals/2026-q3/): Auto-synced content
 - [#96 – Stabilize in-epoch invalid SPRT on small samples](/proposals/proposals/2026-q3/96/): Auto-synced content
 - [#86 – Increase Kimi-K2.6 and GLM-5.2 weight_scale_factor by 5%](/proposals/proposals/2026-q3/86/): Auto-synced content
+- [#106 – Marketing Committee — Operations & Reddit Contributor Pilot](/proposals/proposals/2026-q3/106/): Auto-synced content
 - [#102 – Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment](/proposals/proposals/2026-q3/102/): Auto-synced content
 - [#88 – Restore Kimi K2.6 and remove v1, v2](/proposals/proposals/2026-q3/88/): Auto-synced content
 - [External Test Lab & Community DevNet](/proposals/proposals/2026-q3/82/full-proposal/): Auto-synced content

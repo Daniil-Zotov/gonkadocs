@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260921211026_545e577a",
+    "timestamp": "2026-09-21T21:10:26.556136+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1698 — Gateway allowlist request: Axis Ordo",
+      "url": "/community/issues/01698-gateway-allowlist-request-axis-ordo/",
+      "file": "01698-gateway-allowlist-request-axis-ordo.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway allowlist request: Axis Ordo\n    <span class=\"issues-number\">#1698</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/leonidkachuliak-eng\">@leonidkachuliak-eng</a> opened 2026-09-01 19:41 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway allowlist request: Axis Ordo\n    <span class=\"issues-number\">#1698</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/leonidkachuliak-eng\">@leonidkachuliak-eng</a> opened 2026-09-01 19:41 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n"
+    },
+    "ai_description": "Issue #1698 requesting gateway allowlist for Axis Ordo now has a third comment added to the discussion. The request remains open and under community review, so check the thread to see the latest input on this proposal. More engagement on allowlist requests helps keep our gateway ecosystem transparent and well-vetted. Please join the conversation if you have relevant context to share."
+  },
+  {
     "id": "evt_20260921194126_b21362ed",
     "timestamp": "2026-09-21T19:41:26.400625+00:00",
     "section": "calendar",
@@ -7956,20 +7972,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Certik(CSA-2026-001:Tachyon, was disclosed in CometBFT)\n    <span class=\"issues-number\">#652</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-27 19:04 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"ma"
     },
     "ai_description": "Issue #652 about the Certik Tachyon disclosure in CometBFT has been removed from the feed. The report, which was closed with one comment, is no longer listed as an active community item. This cleanup keeps the issue tracker focused on relevant, ongoing discussions.Issue #652 regarding the Certik Tachyon disclosure in CometBFT has been removed from our activity feed. This closed report is no longer listed, keeping the tracker focused on active and relevant community discussions."
-  },
-  {
-    "id": "evt_20260910143102_a9150155",
-    "timestamp": "2026-09-10T14:31:02.672726+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#653 — Deep dive into node container",
-      "url": null,
-      "file": "00653-deep-dive-into-node-container.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Deep dive into node container\n    <span class=\"issues-number\">#653</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-27 19:10 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</"
-    },
-    "ai_description": "Issue #653 \"Deep dive into node container\" has been removed from the feed. The closed discussion, which had no comments, is no longer part of our active tracking, keeping the board focused on relevant topics.Issue #653 \"Deep dive into node container\" has been removed from the community feed. This closed discussion with no comments is no longer active, so we are keeping our tracking focused on current and relevant topics."
   }
 ]

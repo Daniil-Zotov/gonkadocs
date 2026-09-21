@@ -2,7 +2,7 @@
 title: "#1698 — Gateway allowlist request: Axis Ordo"
 source: https://github.com/gonka-ai/gonka/issues/1698
 issue_number: 1698
-synced_at: 2026-09-21T17:06:53Z
+synced_at: 2026-09-21T21:07:50Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/leonidkachuliak-eng">@leonidkachuliak-eng</a> opened 2026-09-01 19:41 UTC</span>
-    <span class="issues-meta-item">2 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-21 07:03 UTC</span>
+    <span class="issues-meta-item">3 comments</span>
+    <span class="issues-meta-item">Updated 2026-09-21 18:53 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -51,7 +51,7 @@ funded from a dedicated address used for nothing else.
 
 ---
 
-## 💬 Comments (2)
+## 💬 Comments (3)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -109,6 +109,16 @@ You are receiving this because you were mentioned.Message ID:
 <strong><em>@</em></strong>.***&gt;
 </p>
 </blockquote>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span class="issues-meta-item">commented 2026-09-21 18:53 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Hi @leonidkachuliak-eng!  Could you share a bit more about your question or the kind of collaboration you have in mind? If you have any technical ideas, experiments, or implementations around Gonka, feel free to share them here. We’d be happy to take a look, and other members of the community may also want to jump into the discussion, share feedback, or help answer your questions. You can also always reach David and Daniil via public email, hi @ libermans . co
+But posting here can be a great way to get some early feedback, support, and validation from the community as well.</p>
   </div>
 </div>
 
