@@ -9,5 +9,16 @@
       }
     ],
     "metadata": ""
+  },
+  {
+    "proposal_id": "106",
+    "voter": "gonka1ajmhqgvkf76hss5xe35kcnntqqhs7r8jz8s939",
+    "options": [
+      {
+        "option": "VOTE_OPTION_NO",
+        "weight": "1.000000000000000000"
+      }
+    ],
+    "metadata": ""
   }
 ]

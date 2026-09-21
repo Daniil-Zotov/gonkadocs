@@ -45,17 +45,17 @@ The proposal also includes a two-month Reddit pilot to test a more systematic co
 <div class="prop-tally">
   <div class="prop-tally-bar">
     <div class="prop-tally-yes" style="width:1.2%"></div>
-    <div class="prop-tally-no" style="width:0.0%"></div>
+    <div class="prop-tally-no" style="width:0.8%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (6,484)</span>
-    <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
+    <span class="prop-tally-yes-text">Yes <strong>60.0%</strong> (6,484)</span>
+    <span class="prop-tally-no-text">No <strong>40.0%</strong> (4,323)</span>
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-total-text">Total 6,484 votes</span>
-    <span class="prop-tally-veto-text">✗ Turnout <strong>1.2%</strong> (6,484 / 547,990) · Quorum <strong>25%</strong> (136,997)</span>
+    <span class="prop-tally-total-text">Total 10,807 votes</span>
+    <span class="prop-tally-veto-text">✗ Turnout <strong>2.0%</strong> (10,807 / 547,990) · Quorum <strong>25%</strong> (136,997)</span>
   </div>
 </div>
 
@@ -68,6 +68,7 @@ The proposal also includes a two-month Reddit pilot to test a more systematic co
 <thead><tr><th>Voter</th><th>Vote</th></tr></thead>
 <tbody>
 <tr><td><a href="https://gonka.gg/address/gonka1rqm2u7lxzn7r68y0drcyhag6xnckpsnfmgd53t" target="_blank" class="prop-voter-addr">gonka1rqm2u7…mgd53t</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
+<tr><td><a href="https://gonka.gg/address/gonka1ajmhqgvkf76hss5xe35kcnntqqhs7r8jz8s939" target="_blank" class="prop-voter-addr">gonka1ajmhqg…z8s939</a></td><td><span class="prop-voter-option prop-vote-no">No 100.0%</span></td></tr>
 </tbody>
 </table>
 </div>
