@@ -2,7 +2,7 @@
 title: "#658 — POC_SLOT attack"
 source: https://github.com/gonka-ai/gonka/issues/658
 issue_number: 658
-synced_at: 2026-09-21T05:09:05Z
+synced_at: 2026-09-21T10:51:52Z
 template: issues-main.html
 ---
 

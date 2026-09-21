@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260921105244_56c36ccd",
+    "timestamp": "2026-09-21T10:52:44.780016+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1698 — Gateway allowlist request: Axis Ordo",
+      "url": "/community/issues/01698-gateway-allowlist-request-axis-ordo/",
+      "file": "01698-gateway-allowlist-request-axis-ordo.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway allowlist request: Axis Ordo\n    <span class=\"issues-number\">#1698</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/leonidkachuliak-eng\">@leonidkachuliak-eng</a> opened 2026-09-01 19:41 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway allowlist request: Axis Ordo\n    <span class=\"issues-number\">#1698</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/leonidkachuliak-eng\">@leonidkachuliak-eng</a> opened 2026-09-01 19:41 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260921065948_dbe2db42",
     "timestamp": "2026-09-21T06:59:48.596097+00:00",
     "section": "calendar",
@@ -7949,20 +7965,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    POC_SLOT attack\n    <span class=\"issues-number\">#658</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/akup\">@akup</a> opened 2026-01-28 12:51 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-c"
     },
     "ai_description": "The POC_SLOT attack issue (#658) has been closed and removed from the activity feed. This report, opened by @akup, is no longer tracked as an open concern for the community. The removal suggests the matter was resolved or deemed no longer relevant to current network operations.The POC_SLOT attack issue (#658) has been closed and removed from our activity feed. Opened by @akup with no comments, this report is no longer tracked as an open concern for the community. The removal suggests the matter was resolved or deemed no longer relevant to current network operations."
-  },
-  {
-    "id": "evt_20260910143102_1ca22d14",
-    "timestamp": "2026-09-10T14:31:02.672745+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#660 — Short network drop makes the api crash",
-      "url": null,
-      "file": "00660-short-network-drop-makes-the-api-crash.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Short network drop makes the api crash\n    <span class=\"issues-number\">#660</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/x0152\">@x0152</a> opened 2026-01-28 16:31 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</d"
-    },
-    "ai_description": "Issue #660 about the API crashing on short network drops has been removed from the community feed. The closed report, which had no comments, is no longer tracked here, keeping the issue list focused on active and relevant topics. This cleanup helps maintain a clearer view of current network stability concerns.Issue #660 about the API crashing on short network drops has been removed from the feed. The closed report with no comments is no longer tracked, keeping the issue list focused on active and relevant topics. This cleanup helps maintain a clearer view of current network stability concerns."
   }
 ]
