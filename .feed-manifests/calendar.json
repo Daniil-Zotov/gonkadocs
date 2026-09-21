@@ -1,6 +1,6 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-09-21T14:27:40.438846+00:00",
+  "snapshot_time": "2026-09-21T19:41:26.425598+00:00",
   "files": {
     "1b608f38bcf9c2f73348e483c535a7b3f0d6bda283a50d79dbdc278ec8e7bdbe": {
       "title": "AMA: Работа маркетинг-комитета",
@@ -2269,6 +2269,15 @@
       "url": "/proposals/proposals/2026-q2/74/",
       "content_preview": "Report report3 for proposal #74 has been uploaded. Read it: https://gonkadocs.com/proposals/proposals/2026-q2/74/report3/",
       "checksum": "f80cc5860900029f1f87aa965dd3613636bae89aec72dd40962e6e97d7023ea2"
+    },
+    "5998ce974cf1b03c45c5d0c17d0b5d40e9fbb694de8fa63fd630b4230aa8651b": {
+      "title": "Voting ends: #106 – Marketing Committee — Operations & Reddit Contributor Pilot",
+      "date": "2026-09-23",
+      "time": "19:09 UTC",
+      "event_type": "proposal_vote_end",
+      "url": "/proposals/proposals/2026-q3/106/",
+      "content_preview": "The Gonka Marketing Committee requests 6,800 USDT + 50,000 GNK from the Community Pool to support ongoing Committee work and a separate two-month Reddit Contributor Pilot.\n\nThe Committee acts as a com…",
+      "checksum": "6421b394e2fa7b70054fcd8730edae447d2cffb8ae0b9a56381ff6392442856e"
     }
   }
 }

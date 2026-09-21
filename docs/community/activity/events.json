@@ -1,5 +1,25 @@
 [
   {
+    "id": "evt_20260921194126_b21362ed",
+    "timestamp": "2026-09-21T19:41:26.400625+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Voting ends: #106 – Marketing Committee — Operations & Reddit Contributor Pilot",
+      "url": "/proposals/proposals/2026-q3/106/",
+      "file": "5998ce974cf1b03c45c5d0c17d0b5d40e9fbb694de8fa63fd630b4230aa8651b"
+    },
+    "details": {
+      "status": null,
+      "content": "The Gonka Marketing Committee requests 6,800 USDT + 50,000 GNK from the Community Pool to support ongoing Committee work and a separate two-month Reddit Contributor Pilot.\n\nThe Committee acts as a com…",
+      "date": "2026-09-23",
+      "time": "19:09 UTC",
+      "event_type": "proposal_vote_end",
+      "url": "/proposals/proposals/2026-q3/106/"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260921191952_6ebda4d1",
     "timestamp": "2026-09-21T19:19:52.154705+00:00",
     "section": "discussions",
@@ -7951,20 +7971,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Deep dive into node container\n    <span class=\"issues-number\">#653</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-27 19:10 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</"
     },
     "ai_description": "Issue #653 \"Deep dive into node container\" has been removed from the feed. The closed discussion, which had no comments, is no longer part of our active tracking, keeping the board focused on relevant topics.Issue #653 \"Deep dive into node container\" has been removed from the community feed. This closed discussion with no comments is no longer active, so we are keeping our tracking focused on current and relevant topics."
-  },
-  {
-    "id": "evt_20260910143102_65517832",
-    "timestamp": "2026-09-10T14:31:02.672734+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#654 — Optimize mlnode: reduce mlnode image size, refactor api service (proxy part for the start)",
-      "url": null,
-      "file": "00654-optimize-mlnode-reduce-mlnode-image-size-refactor-api-servic.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Optimize mlnode: reduce mlnode image size, refactor api service (proxy part for the start)\n    <span class=\"issues-number\">#654</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-27 19:11 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style"
-    },
-    "ai_description": "Issue #654 on optimizing the mlnode image and refactoring the API proxy service has been removed from our activity feed. This means the proposed work is no longer being tracked here, so any related discussion or updates will not appear in the community feed. If you were following this issue, keep an eye on the main repository for any alternative plans."
   }
 ]
