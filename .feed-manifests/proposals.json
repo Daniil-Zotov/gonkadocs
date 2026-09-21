@@ -1,6 +1,6 @@
 {
   "section": "proposals",
-  "snapshot_time": "2026-09-21T05:40:33.325806+00:00",
+  "snapshot_time": "2026-09-21T06:01:07.711690+00:00",
   "files": {
     "2025-q3/1/full-proposal.md": {
       "title": "Adjust Params According to real block length",
@@ -421,6 +421,16 @@
       "voting_end": "",
       "description": "",
       "checksum": "ab8f03eb148c1d665ce3bf403338650b34ef72a7fb15e6d71968dfa1e4827f0c"
+    },
+    "2026-q2/74/report3.md": {
+      "title": "Gonka Labs — Monthly Report No.3",
+      "status": null,
+      "content_preview": "# Gonka Labs — Monthly Report No.3\n\n**Дата публикации:** 2026-09-19\n\n**Источник:** [Discussion #1815 — Gonka Labs - Monthly Report No.3](https://github.com/gonka-ai/gonka/discussions/1815)\n\n---\n\n# Proposal #74: Gonka Labs - Monthly Report No.3\n\n<img width=\"1920\" height=\"1080\" alt=\"image\" src=\"https://github.com/user-attachments/assets/612d6724-aa9f-4868-aaac-b10b6cdfbe88\" />\n\nHey! Gonka Labs here.\n\nLast updates: [Report No.1](https://github.com/gonka-ai/gonka/discussions/1477) (Jul 18) and [Report No.2](https://github.com/gonka-ai/gonka/discussions/1612) (Aug 18).\n\nOn June 12 the community passed [Proposal #74](https://gonka.gg/network/proposals/74) ([full text](https://gonkalabs.com/proposal)). That vote funded six months of infra, ops, and product work. This report is **month 3 of 6** - ",
+      "funding": "",
+      "quorum_met": null,
+      "voting_end": "",
+      "description": "",
+      "checksum": "43828bb4c6a7e76d56a902ae39cf92ca277c9acbde32bff161fbd754b4180334"
     },
     "2026-q2/77/report1.md": {
       "title": "Weekly Report — 13-17 July",
