@@ -77,10 +77,23 @@ function initQuarterCollapse() {
   });
 }
 
+function addReportFilter(filterEl) {
+  if (filterEl.querySelector('#prop-filter-report')) return;
+  var hasReports = filterEl.querySelectorAll('.prop-card-report').length > 0;
+  if (!hasReports) return;
+  var label = document.createElement('label');
+  label.className = 'prop-filter-cb';
+  label.innerHTML = '<input type="checkbox" id="prop-filter-report" checked>' +
+    '<span class="prop-filter-label">Has Report</span>';
+  var countEl = filterEl.querySelector('.prop-filter-count');
+  filterEl.insertBefore(label, countEl);
+}
+
 function initProposalsPage() {
   var filterEl = document.querySelector('.prop-oview-filter');
   if (!filterEl) return;
   initQuarterCollapse();
+  addReportFilter(filterEl);
   var checkboxes = filterEl.querySelectorAll('input[type=checkbox]');
   var cards = document.querySelectorAll('.prop-card');
   var countEl = document.querySelector('.prop-filter-count');
@@ -99,6 +112,9 @@ function initProposalsPage() {
       else if (status === 'prop-failed' && filters.rejected) show = true;
       if (show && filters.funding) {
         show = card.querySelector('.prop-card-funding') !== null || card.querySelector('.prop-card-bounty') !== null;
+      }
+      if (show && filters.report) {
+        show = card.querySelector('.prop-card-report') !== null;
       }
       card.style.display = show ? '' : 'none';
       if (show) visible++;
