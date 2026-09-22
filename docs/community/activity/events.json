@@ -1,5 +1,68 @@
 [
   {
+    "id": "evt_20260922190312_8c8c19f6",
+    "timestamp": "2026-09-22T19:03:12.091741+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1812 — `devshard`: challenge create instance",
+      "url": "/community/issues/01812-devshard-challenge-create-instance/",
+      "file": "01812-devshard-challenge-create-instance.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: challenge create instance\n    <span class=\"issues-number\">#1812</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-18 22:05 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issue"
+    },
+    "ai_description": "New issue #1812 has been opened by @tcharchian proposing a \"devshard\" challenge create instance feature. This looks like a request to add functionality for creating challenge instances in the devshard system, which could improve how challenges are spun up and managed. Keep an eye on this one if you work with challenge infrastructure."
+  },
+  {
+    "id": "evt_20260922190312_fbe82d6c",
+    "timestamp": "2026-09-22T19:03:12.091776+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1822 — `devshard`: Missing Finish",
+      "url": "/community/issues/01822-devshard-missing-finish/",
+      "file": "01822-devshard-missing-finish.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: Missing Finish\n    <span class=\"issues-number\">#1822</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-22 16:14 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-content\" "
+    },
+    "ai_description": "New issue #1822 has been opened by @tcharchian reporting that the devshard task is missing a finish stepainer. If you've run into this while testing, your feedback on the thread would help the team track down the gap. Head over to the issue to weigh in.New issue #1822 has been opened by @tcharchian flagging that the devshard task is missing a finish step. This is a heads-up for anyone relying on devshard in their workflows, so check the thread and add your input if you've hit similar behavior."
+  },
+  {
+    "id": "evt_20260922190312_3fc5555f",
+    "timestamp": "2026-09-22T19:03:12.091804+00:00",
+    "section": "issues",
+    "action": "deleted",
+    "item": {
+      "title": "#1812 — `devshard`: challange create instance",
+      "url": null,
+      "file": "01812-devshard-challange-create-instance.md"
+    },
+    "details": {
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: challange create instance\n    <span class=\"issues-number\">#1812</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-18 22:05 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issue"
+    },
+    "ai_description": "Issue #1812 about the devshard challenge instance creation has been removed from the community feed. This cleanup helps keep the activity board focused on active, relevant discussions for the network. Thanks to everyone who engaged with it while it was up.Issue #1812 regarding the devshard challenge instance creation has been removed from the community feed. This cleanup helps keep our activity board focused on active, relevant discussions for the network. Thanks to everyone who engaged with it while it was up."
+  },
+  {
+    "id": "evt_20260922190312_e1c17b47",
+    "timestamp": "2026-09-22T19:03:12.091984+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1572 — [BUG] Unauthenticated mlnode /train/start accepts a raw dict, letting a remote attacker control training and inject arbitrary process environment variables on GPU workers",
+      "url": "/community/issues/01572-bug-unauthenticated-mlnode-trainstart-accepts-a-raw-dict-let/",
+      "file": "01572-bug-unauthenticated-mlnode-trainstart-accepts-a-raw-dict-let.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] Unauthenticated mlnode /train/start accepts a raw dict, letting a remote attacker control training and inject arbitrary process environment variables on GPU workers\n    <span class=\"issues-number\">#1572</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/iceiceic3\">@iceiceic3</a> opened 2026-08-10 15:15 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <spa",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [BUG] Unauthenticated mlnode /train/start accepts a raw dict, letting a remote attacker control training and inject arbitrary process environment variables on GPU workers\n    <span class=\"issues-number\">#1572</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/iceiceic3\">@iceiceic3</a> opened 2026-08-10 15:15 UTC</span>\n    <span class=\"issues-meta"
+    },
+    "ai_description": "The critical security vulnerability reported in issue #1572 has been closed after the fix was implemented. The bug allowed remote attackers to send unauthenticated requests to the mlnode /train/start endpoint, potentially hijacking training jobs and injecting arbitrary environment variables on GPU workers. Thanks to the community's swift response, this attack vector is now patched, protecting our decentralized inference network from malicious control."
+  },
+  {
     "id": "evt_20260922181345_51b2beff",
     "timestamp": "2026-09-22T18:13:45.060902+00:00",
     "section": "calendar",
@@ -7930,65 +7993,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    How to add new models\n    <span class=\"issues-number\">#626</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-23 19:24 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<di"
     },
     "ai_description": "Issue #626 about adding new models has been removed from the community feed. The closed discussion, which previously guided members on model integration, is no longer available for reference. If you have questions about this process, please reach out to the maintainers directly.Issue #626, which covered how to add new models, has been removed from the community feed. The closed discussion is no longer available for reference, so if you need guidance on model integration, please reach out to the maintainers directly for the latest instructions."
-  },
-  {
-    "id": "evt_20260910143102_edf6397e",
-    "timestamp": "2026-09-10T14:31:02.672664+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#627 — vLLM 0.11.0 — Inference validation",
-      "url": null,
-      "file": "00627-vllm-0110-inference-validation.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    vLLM 0.11.0 — Inference validation\n    <span class=\"issues-number\">#627</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-23 19:25 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></di"
-    },
-    "ai_description": "Issue #627 on vLLM 0.11.0 inference validation has been closed and removed from the activity feed. The issue was opened by @tcharchian and has now been resolved with three comments contributed. This cleanup helps keep our tracking focused on active work. Thanks to everyone involved in validating that inference update."
-  },
-  {
-    "id": "evt_20260910143102_d4d05d1c",
-    "timestamp": "2026-09-10T14:31:02.672670+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#628 — vLLM 0.11.0 — PoC at vLLM 0.11.1",
-      "url": null,
-      "file": "00628-vllm-0110-poc-at-vllm-0111.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    vLLM 0.11.0 — PoC at vLLM 0.11.1\n    <span class=\"issues-number\">#628</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-23 19:26 UTC</span>\n    <span class=\"issues-meta-item\">4 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>"
-    },
-    "ai_description": "Issue #628 on vLLM 0.11.0, tracking the proof-of-concept at version 0.11.1, has been closed and removed from the feed. The issue was opened by @tcharchian and gathered 4 comments before being resolved, so the community can now move forward with the finalized implementation."
-  },
-  {
-    "id": "evt_20260910143102_04a35551",
-    "timestamp": "2026-09-10T14:31:02.672676+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#629 — [P0] Possible cause of missed inferences",
-      "url": null,
-      "file": "00629-p0-possible-cause-of-missed-inferences.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] Possible cause of missed inferences\n    <span class=\"issues-number\">#629</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-23 19:47 UTC</span>\n    <span class=\"issues-meta-item\">4 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;"
-    },
-    "ai_description": "Issue #629 about a possible cause of missed inferences has been closed and removed from the feed. This resolves the P0 investigation, meaning the root cause was identified and addressed, reducing the risk of inference losses for the network. Thanks to everyone who contributed to the discussion.Issue #629, which investigated a possible cause of missed inferences, has been closed and removed from the community feed. This marks the resolution of a P0 priority concern, signaling that the underlying problem was addressed and the risk to inference reliability has been mitigated."
-  },
-  {
-    "id": "evt_20260910143102_8defca80",
-    "timestamp": "2026-09-10T14:31:02.672681+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#630 — Research: Ephemeral port exhaustion",
-      "url": null,
-      "file": "00630-research-ephemeral-port-exhaustion.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Research: Ephemeral port exhaustion\n    <span class=\"issues-number\">#630</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-23 20:09 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-c"
-    },
-    "ai_description": "The research issue #630 on ephemeral port exhaustion has been removed from the tracker. This topic was being explored as a potential network stability concern, but it is no longer active for community discussion. If you were following this thread, keep an eye out for any future updates on port management improvements.The research issue #630 on ephemeral port exhaustion has been removed from the tracker. This topic was being explored as a potential network stability concern, but it is no longer active for community discussion. If you were following this thread, keep an eye out for any future updates on port management improvements."
   }
 ]
