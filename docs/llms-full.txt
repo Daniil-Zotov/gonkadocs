@@ -21165,7 +21165,7 @@ decentralized mixture-of-experts."
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-09-22 15:22 UTC
+2026-09-22 19:30 UTC
 
 ---
 
@@ -21219,7 +21219,7 @@ curl -s https://node3.gonka.ai/chain-api/cosmos/bank/v1beta1/balances/gonka18pkq
 
 **Address:** [`gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33`](https://gonka.gg/address/gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33)
 
-Current balance: 5,007,619 GNK
+Current balance: 5,105,084 GNK
 
 The Gov Module authority is the only address permitted to execute `MsgCommunityPoolSpend` transfers from the Community Pool. When a governance proposal passes, this address signs and sends the requested funds to the specified recipient.
 
@@ -30503,8 +30503,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-09-23
   
   The Gonka Marketing Committee requests 6,800 USDT + 50,000 GNK from the Community Pool to support ongoing Committee work and a separate two-month Reddit Contributor Pilot.  The Committee acts as a com…
-  Yes 5.9% (6,484) · No 94.1% (103,618) · Veto 0.0% (0) · Abstain 0.0% (0)50,000 GNK · $6,800 · Community Pool
-  ✗ Turnout 23.8% (110,102 / 462,315) · Quorum 25% (115,578)
+  Yes 5.8% (6,484) · No 94.2% (104,867) · Veto 0.0% (0) · Abstain 0.0% (0)50,000 GNK · $6,800 · Community Pool
+  ✗ Turnout 20.8% (111,351 / 535,746) · Quorum 25% (133,936)
 
   
     #105 – Approve devshard v5 and bounty payouts
@@ -31703,7 +31703,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-105 proposals across 5 quarters. Last updated: 2026-09-22 19:15 UTC
+105 proposals across 5 quarters. Last updated: 2026-09-22 20:40 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -69398,8 +69398,8 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-09-23
   
   The Gonka Marketing Committee requests 6,800 USDT + 50,000 GNK from the Community Pool to support ongoing Committee work and a separate two-month Reddit Contributor Pilot.  The Committee acts as a com…
-  Yes 5.9% (6,484) · No 94.1% (103,618) · Veto 0.0% (0) · Abstain 0.0% (0)50,000 GNK · $6,800 · Community Pool
-  ✗ Turnout 23.8% (110,102 / 462,315) · Quorum 25% (115,578)
+  Yes 5.8% (6,484) · No 94.2% (104,867) · Veto 0.0% (0) · Abstain 0.0% (0)50,000 GNK · $6,800 · Community Pool
+  ✗ Turnout 20.8% (111,351 / 535,746) · Quorum 25% (133,936)
 
   
     #105 – Approve devshard v5 and bounty payouts
@@ -72321,12 +72321,12 @@ The proposal also includes a two-month Reddit pilot to test a more systematic co
     
   
   
-    Yes 5.9% (6,484)
-    No 94.1% (103,618)
+    Yes 5.8% (6,484)
+    No 94.2% (104,867)
     Veto 0.0% (0)
     Abstain 0.0% (0)
-    Total 110,102 votes
-    ✗ Turnout 23.8% (110,102 / 462,315) · Quorum 25% (115,578)
+    Total 111,351 votes
+    ✗ Turnout 20.8% (111,351 / 535,746) · Quorum 25% (133,936)
   
 
 Voters
