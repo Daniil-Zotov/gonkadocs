@@ -44,8 +44,8 @@ The proposal also includes a two-month Reddit pilot to test a more systematic co
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:1.2%"></div>
-    <div class="prop-tally-no" style="width:0.8%"></div>
+    <div class="prop-tally-yes" style="width:1.3%"></div>
+    <div class="prop-tally-no" style="width:0.9%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
@@ -55,7 +55,7 @@ The proposal also includes a two-month Reddit pilot to test a more systematic co
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-total-text">Total 10,898 votes</span>
-    <span class="prop-tally-veto-text">✗ Turnout <strong>2.1%</strong> (10,898 / 522,341) · Quorum <strong>25%</strong> (130,585)</span>
+    <span class="prop-tally-veto-text">✗ Turnout <strong>2.2%</strong> (10,898 / 499,240) · Quorum <strong>25%</strong> (124,810)</span>
   </div>
 </div>
 
