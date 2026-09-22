@@ -264,5 +264,24 @@
     "duration_minutes": 60,
     "location": "https://us06web.zoom.us/j/86424784039",
     "uid": "gonka-2026-09-18-2465524de3df@gonkadocs.com"
+  },
+  {
+    "date": "2026-09-22",
+    "category": "community",
+    "type": "ama",
+    "title": "Gonka AMA x HSC Asset Management",
+    "url": "https://meet.google.com/bvh-eauh-ien",
+    "time": "15:00 UTC",
+    "description": "Присоединяйтесь к нам на AMA, где мы обсудим предложение для Gonka об участии на HSC Asset Management, детали участия и стоимость, а затем перейдём к сессии вопросов и ответов с сообществом.\n\n🗓 Сегодня, 22 сентября\n⏰ 15:00 UTC · 18:00 MSK · 23:00 Singapore\n🔗 Ссылка: https://meet.google.com/bvh-eauh-ien",
+    "tags": [
+      "ama",
+      "hsc",
+      "asset-management",
+      "community"
+    ],
+    "is_all_day": false,
+    "duration_minutes": 60,
+    "location": "https://meet.google.com/bvh-eauh-ien",
+    "uid": "gonka-2026-09-22-32bb2b7ba919@gonkadocs.com"
   }
 ]
