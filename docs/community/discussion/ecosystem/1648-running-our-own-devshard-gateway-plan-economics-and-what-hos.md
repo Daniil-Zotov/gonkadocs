@@ -3,7 +3,7 @@ title: "#1648 — Running our own devshard gateway — plan, economics, and what
 source: https://github.com/gonka-ai/gonka/discussions/1648
 discussion_number: 1648
 category: ecosystem
-synced_at: 2026-09-22T09:52:26Z
+synced_at: 2026-09-22T14:43:13Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1648](https://github.com/gonka-ai/gonka/discussions/1648) every hour. 
