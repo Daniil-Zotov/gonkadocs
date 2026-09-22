@@ -1,6 +1,6 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-09-22T13:36:38.452711+00:00",
+  "snapshot_time": "2026-09-22T18:13:45.074436+00:00",
   "files": {
     "1b608f38bcf9c2f73348e483c535a7b3f0d6bda283a50d79dbdc278ec8e7bdbe": {
       "title": "AMA: Работа маркетинг-комитета",
@@ -136,6 +136,15 @@
       "url": "https://us06web.zoom.us/j/86424784039",
       "content_preview": "Встречаемся с контрибьюторами: обсудим, что нового в протоколе и что планируется!\n\n📅 Пятница, 18 сентября\n🕣 10:00 LA · 17:00 UTC · 20:00 МСК\n\n💻 Zoom: https://us06web.zoom.us/j/86424784039\n🗣️ Язык: русский\n\n🎙 Гости: @ak986 и @baridoka kaitaku\n🎤 Ведущие: @dem_ww и @paranko",
       "checksum": "8a999f6c89d1ab40e77671a0b78b294906c9f6da5e9b777ff4b6bb894e002624"
+    },
+    "a50fa4f125c2bd20ef387f335f73a46a656fbd4db8821b0dd42924190b4e1682": {
+      "title": "Gonka AMA x HSC Asset Management",
+      "date": "2026-09-22",
+      "time": "15:00 UTC",
+      "event_type": "ama",
+      "url": "https://meet.google.com/bvh-eauh-ien",
+      "content_preview": "Присоединяйтесь к нам на AMA, где мы обсудим предложение для Gonka об участии на HSC Asset Management, детали участия и стоимость, а затем перейдём к сессии вопросов и ответов с сообществом.\n\n🗓 Сегодня, 22 сентября\n⏰ 15:00 UTC · 18:00 MSK · 23:00 Singapore\n🔗 Ссылка: https://meet.google.com/bvh-eauh-ien",
+      "checksum": "b9f463f98dc6ac71712a2d02f549f09536776a616a372211237afaa9078e0d19"
     },
     "60130ca155a868e409b7aa0642525df006c4e05da481ba6f8787253101992676": {
       "title": "Migrate community-sale and wrapped-token contracts",
