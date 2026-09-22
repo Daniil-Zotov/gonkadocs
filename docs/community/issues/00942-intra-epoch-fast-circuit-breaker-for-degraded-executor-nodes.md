@@ -2,7 +2,7 @@
 title: "#942 — Intra-epoch fast circuit breaker for degraded executor nodes (miss rate + cooldown/probe recovery)"
 source: https://github.com/gonka-ai/gonka/issues/942
 issue_number: 942
-synced_at: 2026-09-22T05:10:14Z
+synced_at: 2026-09-22T10:06:54Z
 template: issues-main.html
 ---
 

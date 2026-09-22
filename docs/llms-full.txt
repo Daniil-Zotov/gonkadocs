@@ -30503,7 +30503,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   
   The Gonka Marketing Committee requests 6,800 USDT + 50,000 GNK from the Community Pool to support ongoing Committee work and a separate two-month Reddit Contributor Pilot.  The Committee acts as a com…
   Yes 59.5% (6,484) · No 40.5% (4,414) · Veto 0.0% (0) · Abstain 0.0% (0)50,000 GNK · $6,800 · Community Pool
-  ✗ Turnout 2.1% (10,898 / 522,341) · Quorum 25% (130,585)
+  ✗ Turnout 2.2% (10,898 / 499,240) · Quorum 25% (124,810)
 
   
     #105 – Approve devshard v5 and bounty payouts
@@ -31702,7 +31702,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-105 proposals across 5 quarters. Last updated: 2026-09-22 09:40 UTC
+105 proposals across 5 quarters. Last updated: 2026-09-22 10:00 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -69398,7 +69398,7 @@ $90,075 USDT · Bounty Reward
   
   The Gonka Marketing Committee requests 6,800 USDT + 50,000 GNK from the Community Pool to support ongoing Committee work and a separate two-month Reddit Contributor Pilot.  The Committee acts as a com…
   Yes 59.5% (6,484) · No 40.5% (4,414) · Veto 0.0% (0) · Abstain 0.0% (0)50,000 GNK · $6,800 · Community Pool
-  ✗ Turnout 2.1% (10,898 / 522,341) · Quorum 25% (130,585)
+  ✗ Turnout 2.2% (10,898 / 499,240) · Quorum 25% (124,810)
 
   
     #105 – Approve devshard v5 and bounty payouts
@@ -72325,7 +72325,7 @@ The proposal also includes a two-month Reddit pilot to test a more systematic co
     Veto 0.0% (0)
     Abstain 0.0% (0)
     Total 10,898 votes
-    ✗ Turnout 2.1% (10,898 / 522,341) · Quorum 25% (130,585)
+    ✗ Turnout 2.2% (10,898 / 499,240) · Quorum 25% (124,810)
   
 
 Voters
