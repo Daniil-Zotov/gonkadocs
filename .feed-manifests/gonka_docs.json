@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-09-22T05:42:13.055080+00:00",
+  "snapshot_time": "2026-09-22T10:44:47.135914+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -132,7 +132,7 @@
       "title": "Developer Quickstart",
       "status": null,
       "content_preview": "# Developer Quickstart\n\nThis guide explains how to send an inference request to Gonka through a community broker. It is the fastest way to start using the network today. If you would like to [run your own gateway](#2-run-your-own-gateway-advanced) instead of going through a broker, see Run your own gateway at the bottom of this page. Want to **operate as a broker** yourself? See [Interested in operating a gateway?](#3-interested-in-operating-a-gateway) - start with [OpenBroker](https://openbroker.gonka.gg), or use a GitHub allow-list issue as a fallback if OpenBroker does not satisfy your needs.\n\n!!! note \"How to connect to Gonka\"\n\n    Gonka inference is now organized around **devshards** — short-lived sessions that hold a small on-chain deposit (an escrow) and settle per-request billing o",
-      "checksum": "3dc1a2623fd9e8e4ae3fbe8c9d7f77ec1a47ccd164f67c80d4f112fc8061c27b"
+      "checksum": "128dcd334c484259e95f467d34678b69fe3002011687db841a709bb9d275c5bf"
     },
     "disclaimer.md": {
       "title": "Disclaimer",
@@ -317,8 +317,8 @@
     "network-updates.md": {
       "title": "Announcements",
       "status": null,
-      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## September 18, 2026\n\n**PROPOSAL PASSED: Approve devshard v5 and bounty payouts**\n\nThe on-chain governance vote for proposal id 105 has concluded.\n\nThe proposal was APPROVED with 123,754 yes and no votes against.\n\n**What it changes**\n\nDevShard v5 has been ",
-      "checksum": "1159ddd166fb4f34ce12ed470ca747ebed55c684fd856e782c8e23710b2f7b8f"
+      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## September 22, 2026\n\n**DevShard versions: only v4.1 and v5 will remain**\n\nv3 and plain v4 are being retired from the approved versions list on chain. A governance proposal will follow, and we will post the voting window when it opens.\n\nIf you are still on",
+      "checksum": "da4d9455da1988fed9c6b7e16e2dc018dd38b2ac6e0424945c3390a327e10bf3"
     },
     "participant/README.md": {
       "title": "Redirecting to Host Section",

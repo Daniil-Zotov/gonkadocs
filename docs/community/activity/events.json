@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260922104330_3772b2a1",
+    "timestamp": "2026-09-22T10:43:30.516049+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "Announcements",
+      "url": "/gonka/docs/network-updates/",
+      "file": "network-updates.md"
+    },
+    "details": {
+      "content_before": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## September 18, 2026\n\n**PROPOSAL PASSED: Approve devshard v5 and bounty payouts**\n\nThe on-chain governance vote for proposal id 105 has concluded.\n\nThe proposal was APPROVED with 123,754 yes and no votes against.\n\n**What it changes**\n\nDevShard v5 has been ",
+      "content_after": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## September 22, 2026\n\n**DevShard versions: only v4.1 and v5 will remain**\n\nv3 and plain v4 are being retired from the approved versions list on chain. A governance proposal will follow, and we will post the voting window when it opens.\n\nIf you are still on"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260922051146_3e54714c",
     "timestamp": "2026-09-22T05:11:46.050833+00:00",
     "section": "issues",
@@ -7969,20 +7985,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Add message to transfer amount with vesting\n    <span class=\"issues-number\">#631</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-23 23:58 UTC</span>\n    <span class=\"issues-meta-item\">4 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8"
     },
     "ai_description": "Issue #631 about adding a message to transfer amounts with vesting has been removed from the feed. This closed proposal, which gathered four comments, is no longer tracked here, so the community can focus on active discussions and pending changes. If you were following it, check the original repo for any final outcomes.Issue #631 on adding a message to transfer amounts with vesting has been removed from the feed. This closed proposal, which had four comments, is no longer tracked here, so the community can focus on active issues. If you were following it, check the original repo for any final resolution."
-  },
-  {
-    "id": "evt_20260910143102_1355902a",
-    "timestamp": "2026-09-10T14:31:02.672693+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "1. Clean node data",
-      "url": null,
-      "file": "00632-state-sync-snapshots-corrupted-all-snapshots-fail-on-last-2-.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    State sync snapshots corrupted - all snapshots fail on last 2 chunks (826-827/827)\n    <span class=\"issues-number\">#632</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/baranskyi\">@baranskyi</a> opened 2026-01-24 15:11 UTC</span>\n    <span class=\"issues-meta-item\">5 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-t"
-    },
-    "ai_description": "State sync snapshots issue #632, reporting corrupted snapshots failing on the last two chunks, has been removed from the activity feed. This cleanup likely reflects that the problem was resolved or deemed no longer relevant, keeping the community informed of active tasks only. Stay tuned for the latest updates on node infrastructure.State sync snapshots issue #632, reporting corrupted snapshots failing on the last two chunks, has been removed from the community feed. This cleanup likely means the problem was resolved or superseded, keeping our activity board focused on current priorities. Thanks to everyone who weighed in on the discussion."
   }
 ]
