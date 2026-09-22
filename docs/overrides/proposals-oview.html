@@ -83,10 +83,14 @@ function addReportFilter(filterEl) {
   if (!hasReports) return;
   var label = document.createElement('label');
   label.className = 'prop-filter-cb';
-  label.innerHTML = '<input type="checkbox" id="prop-filter-report" checked>' +
+  label.innerHTML = '<input type="checkbox" id="prop-filter-report">' +
     '<span class="prop-filter-label">Has Report</span>';
   var countEl = filterEl.querySelector('.prop-filter-count');
-  filterEl.insertBefore(label, countEl);
+  if (countEl && countEl.parentNode) {
+    countEl.parentNode.insertBefore(label, countEl);
+  } else {
+    filterEl.appendChild(label);
+  }
 }
 
 function initProposalsPage() {
