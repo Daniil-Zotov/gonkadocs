@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260922192722_c4f36173",
+    "timestamp": "2026-09-22T19:27:22.707043+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "Announcements",
+      "url": "/gonka/docs/network-updates/",
+      "file": "network-updates.md"
+    },
+    "details": {
+      "content_before": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## September 22, 2026\n\n**DevShard versions: only v4.1 and v5 will remain**\n\nv3 and plain v4 are being retired from the approved versions list on chain. A governance proposal will follow, and we will post the voting window when it opens.\n\nIf you are still on",
+      "content_after": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## September 18, 2026\n\n**PROPOSAL PASSED: Approve devshard v5 and bounty payouts**\n\nThe on-chain governance vote for proposal id 105 has concluded.\n\nThe proposal was APPROVED with 123,754 yes and no votes against.\n\n**What it changes**\n\nDevShard v5 has been "
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260922190312_8c8c19f6",
     "timestamp": "2026-09-22T19:03:12.091741+00:00",
     "section": "issues",
@@ -7978,20 +7994,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Speed up PoC validation by sample validators\n    <span class=\"issues-number\">#620</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-23 00:25 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8"
     },
     "ai_description": "Issue #620 on speeding up PoC validation with sample validators has been closed and removed from the tracker. The proposal aimed to reduce validation overhead by using a subset of validators, which could have improved network efficiency. Its closure means the team has decided not to pursue this approach at this time. Stay tuned for alternative performance optimizations."
-  },
-  {
-    "id": "evt_20260910143102_e4f9b40c",
-    "timestamp": "2026-09-10T14:31:02.672659+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#626 — How to add new models",
-      "url": null,
-      "file": "00626-how-to-add-new-models.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    How to add new models\n    <span class=\"issues-number\">#626</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-23 19:24 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<di"
-    },
-    "ai_description": "Issue #626 about adding new models has been removed from the community feed. The closed discussion, which previously guided members on model integration, is no longer available for reference. If you have questions about this process, please reach out to the maintainers directly.Issue #626, which covered how to add new models, has been removed from the community feed. The closed discussion is no longer available for reference, so if you need guidance on model integration, please reach out to the maintainers directly for the latest instructions."
   }
 ]

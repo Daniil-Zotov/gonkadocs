@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-09-22T15:19:15.795446+00:00",
+  "snapshot_time": "2026-09-22T19:28:06.546374+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -317,8 +317,8 @@
     "network-updates.md": {
       "title": "Announcements",
       "status": null,
-      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## September 22, 2026\n\n**DevShard versions: only v4.1 and v5 will remain**\n\nv3 and plain v4 are being retired from the approved versions list on chain. A governance proposal will follow, and we will post the voting window when it opens.\n\nIf you are still on",
-      "checksum": "da4d9455da1988fed9c6b7e16e2dc018dd38b2ac6e0424945c3390a327e10bf3"
+      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## September 18, 2026\n\n**PROPOSAL PASSED: Approve devshard v5 and bounty payouts**\n\nThe on-chain governance vote for proposal id 105 has concluded.\n\nThe proposal was APPROVED with 123,754 yes and no votes against.\n\n**What it changes**\n\nDevShard v5 has been ",
+      "checksum": "1159ddd166fb4f34ce12ed470ca747ebed55c684fd856e782c8e23710b2f7b8f"
     },
     "participant/README.md": {
       "title": "Redirecting to Host Section",
