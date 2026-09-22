@@ -55,7 +55,7 @@ The proposal also includes a two-month Reddit pilot to test a more systematic co
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-total-text">Total 10,898 votes</span>
-    <span class="prop-tally-veto-text">✗ Turnout <strong>2.2%</strong> (10,898 / 499,240) · Quorum <strong>25%</strong> (124,810)</span>
+    <span class="prop-tally-veto-text">✗ Turnout <strong>2.2%</strong> (10,898 / 489,289) · Quorum <strong>25%</strong> (122,322)</span>
   </div>
 </div>
 
