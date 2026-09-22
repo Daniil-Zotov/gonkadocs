@@ -2,7 +2,7 @@
 title: "#1135 — PoC-decode proposal"
 source: https://github.com/gonka-ai/gonka/issues/1135
 issue_number: 1135
-synced_at: 2026-09-22T00:12:11Z
+synced_at: 2026-09-22T05:08:29Z
 template: issues-main.html
 ---
 
@@ -16,7 +16,7 @@ template: issues-main.html
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/Red-Caesar">@Red-Caesar</a> opened 2026-04-30 12:35 UTC</span>
     <span class="issues-meta-item">5 comments</span>
-    <span class="issues-meta-item">Updated 2026-05-23 01:49 UTC</span>
+    <span class="issues-meta-item">Updated 2026-09-22 00:28 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span></div>
 </div>

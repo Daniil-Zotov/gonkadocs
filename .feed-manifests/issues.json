@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-09-22T00:14:23.694222+00:00",
+  "snapshot_time": "2026-09-22T05:12:46.687549+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "#310 — BUG-1: Preserved node disabling",
@@ -3830,6 +3830,22 @@
       "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "comment_bodies": [],
       "checksum": "986b14c928e9f7b7a6634691063182b688de800642b56da496f17465745e5427"
+    },
+    "01820-p0-training-on-gonka-ml-part-verify-locally-and-launch-the-e.md": {
+      "title": "#1820 — [P0] Training on Gonka. ML part / verify locally and launch the experiment",
+      "status": null,
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [P0] Training on Gonka. ML part / verify locally and launch the experiment\n    <span class=\"issues-number\">#1820</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-22 00:41 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8",
+      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comment_bodies": [],
+      "checksum": "47a845675be812acd074857bd800134905013dbb2dd9d634023d66863df663f5"
+    },
+    "01821-cosmos-sdk-fork-security-v0218.md": {
+      "title": "#1821 — Cosmos SDK / fork security v0.2.18",
+      "status": null,
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Cosmos SDK / fork security v0.2.18\n    <span class=\"issues-number\">#1821</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-22 02:35 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style=\"b",
+      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comment_bodies": [],
+      "checksum": "0b6cfbff7a3cb3c694eedf84d1657290657f18bd2edc35364a3ab71e60531cb7"
     }
   }
 }

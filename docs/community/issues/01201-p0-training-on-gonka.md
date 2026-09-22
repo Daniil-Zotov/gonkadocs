@@ -2,7 +2,7 @@
 title: "#1201 — [P0] Training on Gonka"
 source: https://github.com/gonka-ai/gonka/issues/1201
 issue_number: 1201
-synced_at: 2026-09-22T00:12:12Z
+synced_at: 2026-09-22T05:08:31Z
 template: issues-main.html
 ---
 
@@ -16,7 +16,7 @@ template: issues-main.html
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-05-19 23:46 UTC</span>
     <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-05-21 22:33 UTC</span>
+    <span class="issues-meta-item">Updated 2026-09-22 00:24 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span> <span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
 </div>

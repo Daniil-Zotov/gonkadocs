@@ -2,7 +2,7 @@
 title: "#1200 — Independent review of PoC-decode results"
 source: https://github.com/gonka-ai/gonka/issues/1200
 issue_number: 1200
-synced_at: 2026-09-22T00:12:13Z
+synced_at: 2026-09-22T05:08:28Z
 template: issues-main.html
 ---
 
@@ -16,7 +16,7 @@ template: issues-main.html
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-05-19 23:36 UTC</span>
     <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-05-19 23:36 UTC</span>
+    <span class="issues-meta-item">Updated 2026-09-22 00:37 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span></div>
 </div>

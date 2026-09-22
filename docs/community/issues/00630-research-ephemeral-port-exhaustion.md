@@ -2,7 +2,7 @@
 title: "#630 — Research: Ephemeral port exhaustion"
 source: https://github.com/gonka-ai/gonka/issues/630
 issue_number: 630
-synced_at: 2026-09-22T00:12:54Z
+synced_at: 2026-09-22T05:10:20Z
 template: issues-main.html
 ---
 

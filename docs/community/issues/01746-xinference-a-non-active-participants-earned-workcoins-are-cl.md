@@ -2,7 +2,7 @@
 title: "#1746 — x/inference: a non-ACTIVE participant's earned WorkCoins are cleared at settlement with no claim record and no governance transfer"
 source: https://github.com/gonka-ai/gonka/issues/1746
 issue_number: 1746
-synced_at: 2026-09-22T00:11:11Z
+synced_at: 2026-09-22T05:08:26Z
 template: issues-main.html
 ---
 
@@ -16,7 +16,7 @@ template: issues-main.html
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/vitaly-andr">@vitaly-andr</a> opened 2026-09-10 11:45 UTC</span>
     <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-10 11:45 UTC</span>
+    <span class="issues-meta-item">Updated 2026-09-22 00:39 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
