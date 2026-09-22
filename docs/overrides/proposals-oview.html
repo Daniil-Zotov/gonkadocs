@@ -79,7 +79,7 @@ function initQuarterCollapse() {
 
 function addReportFilter(filterEl) {
   if (filterEl.querySelector('#prop-filter-report')) return;
-  var hasReports = filterEl.querySelectorAll('.prop-card-report').length > 0;
+  var hasReports = document.querySelectorAll('.prop-card-report').length > 0;
   if (!hasReports) return;
   var label = document.createElement('label');
   label.className = 'prop-filter-cb';
