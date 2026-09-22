@@ -2,7 +2,7 @@
 title: "#461 — ML node model management edge cases"
 source: https://github.com/gonka-ai/gonka/issues/461
 issue_number: 461
-synced_at: 2026-09-21T21:09:52Z
+synced_at: 2026-09-22T00:13:39Z
 template: issues-main.html
 ---
 

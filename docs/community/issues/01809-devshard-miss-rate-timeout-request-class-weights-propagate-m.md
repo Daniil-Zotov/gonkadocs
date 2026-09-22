@@ -2,7 +2,7 @@
 title: "#1809 — `devshard`: Miss rate: timeout / request-class weights / propagate misses"
 source: https://github.com/gonka-ai/gonka/issues/1809
 issue_number: 1809
-synced_at: 2026-09-21T21:07:55Z
+synced_at: 2026-09-22T00:10:53Z
 template: issues-main.html
 ---
 
