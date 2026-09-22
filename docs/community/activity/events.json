@@ -1,5 +1,29 @@
 [
   {
+    "id": "evt_20260922014831_480ed838",
+    "timestamp": "2026-09-22T01:48:31.866062+00:00",
+    "section": "calendar",
+    "action": "daily_reminder",
+    "item": {
+      "title": "Today: 1 events — AMA-сессия: токеномика GNK",
+      "url": "/community/calendar/",
+      "file": null
+    },
+    "details": {
+      "today": [
+        {
+          "title": "AMA-сессия: токеномика GNK",
+          "date": "2026-09-22",
+          "time": "17:00 UTC",
+          "event_type": "ama",
+          "url": "https://drive.google.com/file/d/1-SVQaL-rA-ozJcNEPJoXjGO1UIpsoZkt/"
+        }
+      ],
+      "count": 1
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260921213107_39ed2023",
     "timestamp": "2026-09-21T21:31:07.679082+00:00",
     "section": "gonka_docs",
@@ -7958,20 +7982,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    vLLM 0.11.0 — Migration Proposal\n    <span class=\"issues-number\">#647</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-26 18:46 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>"
     },
     "ai_description": "Issue #647 proposing a migration to vLLM 0.11.0 has been closed and removed from the feed. The proposal, opened by @tcharchian with no comments, is no longer under consideration, so the community can move on to other priorities without this upgrade on the table. Keep an eye out for any future version bump discussions."
-  },
-  {
-    "id": "evt_20260910143102_81766f34",
-    "timestamp": "2026-09-10T14:31:02.672712+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#651 — Reproducible sampling",
-      "url": null,
-      "file": "00651-reproducible-sampling.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Reproducible sampling\n    <span class=\"issues-number\">#651</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-27 18:58 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<d"
-    },
-    "ai_description": "Issue #651 on reproducible sampling has been closed and removed from our tracking. The discussion wrapped up with the approach no longer being pursued in its current form, so the team has cleaned it up to keep our roadmap focused. Thanks to everyone who contributed their thoughts on making sampling deterministic.Issue #651 on reproducible sampling has been closed and removed from our activity feed. The discussion wrapped up without moving forward, so we've cleaned it up to keep our issue tracker focused on active work. Thanks to everyone who weighed in on the topic."
   }
 ]
