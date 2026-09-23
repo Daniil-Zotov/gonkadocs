@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260923203226_f3d7bc21",
+    "timestamp": "2026-09-23T20:32:26.205917+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1824 — Gateway allowlist request",
+      "url": "/community/issues/01824-gateway-allowlist-request/",
+      "file": "01824-gateway-allowlist-request.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway allowlist request\n    <span class=\"issues-number\">#1824</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/samuelonn1993\">@samuelonn1993</a> opened 2026-09-23 12:01 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-cont",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway allowlist request\n    <span class=\"issues-number\">#1824</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/samuelonn1993\">@samuelonn1993</a> opened 2026-09-23 12:01 UTC</span>\n    <span class=\"issues-meta-item\">5 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-cont"
+    },
+    "ai_description": "The Gateway allowlist request (#1824) now has five comments, up from zero, meaning the community is actively discussing it. Head over to the issue to share your input or see what others are saying about this proposal. Your feedback helps shape how we manage gateway access.The Gateway allowlist request (#1824) has picked up momentum with five new comments since it was opened. The community is actively weighing in on this proposal, so check the thread to see the discussion and add your own perspective."
+  },
+  {
     "id": "evt_20260923175526_9239f614",
     "timestamp": "2026-09-23T17:55:26.544103+00:00",
     "section": "calendar",
@@ -8011,20 +8027,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Fix not releasing a lock in SetNodeAdminStateCommand\n    <span class=\"issues-number\">#604</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-16 00:32 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"marg"
     },
     "ai_description": "Issue #604 about fixing a lock leak in SetNodeAdminStateCommand has been removed from the feed. The closed issue, which had no comments, is no longer tracked here, so any related discussion or updates are now off the community radar. This cleanup keeps our activity feed focused on active and relevant items.Issue #604, which addressed a lock release bug in SetNodeAdminStateCommand, has been removed from the feed. Since the issue was already closed with no discussion, its removal tidies up our activity log. This keeps the community focused on open and actionable items."
-  },
-  {
-    "id": "evt_20260910143102_46207f87",
-    "timestamp": "2026-09-10T14:31:02.672615+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#608 — [0/4] `StartInference` and `FinishInference`: optimiziation",
-      "url": null,
-      "file": "00608-04-startinference-and-finishinference-optimiziation.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [0/4] `StartInference` and `FinishInference`: optimiziation\n    <span class=\"issues-number\">#608</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/libermans\">@libermans</a> opened 2026-01-19 01:05 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\""
-    },
-    "ai_description": "Issue #608 on optimizing the StartInference and FinishInference calls has been closed and removed from the tracker. The task, which tracked four sub-items for improving inference lifecycle efficiency, is no longer active — likely merged into other work or deprioritized. If you were following this for performance improvements, keep an eye on related PRs for the actual optimizations."
   }
 ]
