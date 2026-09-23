@@ -1,6 +1,6 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-09-23T12:56:31.939369+00:00",
+  "snapshot_time": "2026-09-23T17:55:26.564439+00:00",
   "files": {
     "1b608f38bcf9c2f73348e483c535a7b3f0d6bda283a50d79dbdc278ec8e7bdbe": {
       "title": "AMA: Работа маркетинг-комитета",
@@ -2287,6 +2287,15 @@
       "url": "/proposals/proposals/2026-q3/106/",
       "content_preview": "The Gonka Marketing Committee requests 6,800 USDT + 50,000 GNK from the Community Pool to support ongoing Committee work and a separate two-month Reddit Contributor Pilot.\n\nThe Committee acts as a com…",
       "checksum": "6421b394e2fa7b70054fcd8730edae447d2cffb8ae0b9a56381ff6392442856e"
+    },
+    "b888d71e853f684baed677c721955462dde88d56ab425c252d2f9a24ee889596": {
+      "title": "Voting ends: #107 – Gonka at HSC Asset Management Singapore, 8 October 2026",
+      "date": "2026-09-25",
+      "time": "13:20 UTC",
+      "event_type": "proposal_vote_end",
+      "url": "/proposals/proposals/2026-q3/107/",
+      "content_preview": "HSC Asset Management proposes that the Gonka community allocate 15,000 USDT from the Community Pool for a fireside chat on AI for Gonka's founders at HSC Asset Management Singapore, a one-day institut…",
+      "checksum": "876e7b340bc6b8cf1e5f776b9381a8773cc2ca1013cb3d8942c8fa534bb60d37"
     }
   }
 }
