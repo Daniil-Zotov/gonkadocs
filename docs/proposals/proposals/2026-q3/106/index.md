@@ -44,18 +44,18 @@ The proposal also includes a two-month Reddit pilot to test a more systematic co
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:1.2%"></div>
-    <div class="prop-tally-no" style="width:19.6%"></div>
+    <div class="prop-tally-yes" style="width:1.3%"></div>
+    <div class="prop-tally-no" style="width:19.4%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
-    <div class="prop-tally-abstain" style="width:46.9%"></div>
+    <div class="prop-tally-abstain" style="width:49.0%"></div>
   </div>
   <div class="prop-tally-stats">
     <span class="prop-tally-yes-text">Yes <strong>1.8%</strong> (6,484)</span>
-    <span class="prop-tally-no-text">No <strong>28.9%</strong> (104,867)</span>
+    <span class="prop-tally-no-text">No <strong>27.9%</strong> (99,598)</span>
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-abstain-text">Abstain <strong>69.3%</strong> (251,215)</span>
-    <span class="prop-tally-total-text">Total 362,566 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout <strong>67.7%</strong> (362,566 / 535,746) · Quorum <strong>25%</strong> (133,936)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>70.3%</strong> (251,215)</span>
+    <span class="prop-tally-total-text">Total 357,297 votes</span>
+    <span class="prop-tally-yes-text">✓ Turnout <strong>69.7%</strong> (357,297 / 512,823) · Quorum <strong>25%</strong> (128,205)</span>
   </div>
 </div>
 
