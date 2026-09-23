@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260923215559_72075929",
+    "timestamp": "2026-09-23T21:55:59.962179+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "GLM-5.3-Flash Bootstrap",
+      "url": "/gonka/docs/host/glm-bootstrap/",
+      "file": "host/glm-bootstrap.md"
+    },
+    "details": {
+      "content_before": "# GLM-5.3-Flash Bootstrap\n\n`zai-org/GLM-5.3-Flash` is a governance-approved PoC model on Gonka mainnet as of [proposal 101](../network-updates.md#proposal-101). Its `penalty_start_epoch` is **394**. The group is in bootstrap: it appears in that epoch’s `sub_group_models`, but not yet in `confirmation_weight_scales`, so it does not yet produce consensus weight. For current deployment defaults (including `node-config.json`), see the [Host Quickstart](./quickstart.md).\n\nFor the wider context of multi-model PoC mechanics, see [Multi-Model PoC](./multi_model_poc.md). Other model bootstraps and their mechanics are documented in [MiniMax-M2.7 Bootstrap](./minimax-bootstrap.md), [DeepSeek V4 Flash Bootstrap](./deepseek-bootstrap.md), and [Kimi K2.6 Bootstrap](./kimi-bootstrap.md) (historical).\n\n!!",
+      "content_after": "# GLM-5.3-Flash Bootstrap\n\n`zai-org/GLM-5.3-Flash` has **passed bootstrap** and is **active** in Proof of Compute on Gonka mainnet as of chain epoch 395 ([proposal 101](../network-updates.md#proposal-101)). Its `penalty_start_epoch` is **394**. It is in `confirmation_weight_scales` with `weight_scale_factor` 0.62, so it produces consensus weight. The timeline and transaction examples below remain useful for understanding how activation worked and for operations such as delegation; for current deployment defaults (including `node-config.json`), see the [Host Quickstart](./quickstart.md).\n\nFor the wider context of multi-model PoC mechanics, see [Multi-Model PoC](./multi_model_poc.md). Other model bootstraps and their mechanics are documented in [MiniMax-M2.7 Bootstrap](./minimax-bootstrap.md"
+    },
+    "ai_description": "GLM-5.3-Flash has officially moved from bootstrap to active status on Gonka mainnet as of chain epoch 395, meaning it now contributes to consensus weight with a weight scale factor of 0.62. This is a key milestone for the model's integration into Proof of Compute, so check the updated docs for the latest deployment details."
+  },
+  {
     "id": "evt_20260923203226_f3d7bc21",
     "timestamp": "2026-09-23T20:32:26.205917+00:00",
     "section": "issues",
@@ -8012,20 +8028,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Random PoC\n    <span class=\"issues-number\">#603</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-16 00:30 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"i"
     },
     "ai_description": "Issue #603 \"Random PoC\" has been removed from the community feed. The closed proposal, opened by @tcharchian with no comments, is no longer tracked here, keeping the activity board focused on active discussions. This cleanup helps maintain a clear view of current work and decisions.Issue #603 \"Random PoC\" has been removed from the community feed. The closed proposal, opened by @tcharchian with no comments, is no longer tracked here, keeping the activity board focused on active discussions. This cleanup helps maintain a clear view of current work and decisions."
-  },
-  {
-    "id": "evt_20260910143102_3cdd4014",
-    "timestamp": "2026-09-10T14:31:02.672607+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#604 — Fix not releasing a lock in SetNodeAdminStateCommand",
-      "url": null,
-      "file": "00604-fix-not-releasing-a-lock-in-setnodeadminstatecommand.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Fix not releasing a lock in SetNodeAdminStateCommand\n    <span class=\"issues-number\">#604</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-16 00:32 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"marg"
-    },
-    "ai_description": "Issue #604 about fixing a lock leak in SetNodeAdminStateCommand has been removed from the feed. The closed issue, which had no comments, is no longer tracked here, so any related discussion or updates are now off the community radar. This cleanup keeps our activity feed focused on active and relevant items.Issue #604, which addressed a lock release bug in SetNodeAdminStateCommand, has been removed from the feed. Since the issue was already closed with no discussion, its removal tidies up our activity log. This keeps the community focused on open and actionable items."
   }
 ]

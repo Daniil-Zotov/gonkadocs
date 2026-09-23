@@ -13828,7 +13828,7 @@ For additional support, see the [Quickstart Guide](https://gonka.ai/host/quickst
 
 # GLM-5.3-Flash Bootstrap
 
-`zai-org/GLM-5.3-Flash` is a governance-approved PoC model on Gonka mainnet as of [proposal 101](../network-updates.md#proposal-101). Its `penalty_start_epoch` is **394**. The group is in bootstrap: it appears in that epoch’s `sub_group_models`, but not yet in `confirmation_weight_scales`, so it does not yet produce consensus weight. For current deployment defaults (including `node-config.json`), see the [Host Quickstart](./quickstart.md).
+`zai-org/GLM-5.3-Flash` has **passed bootstrap** and is **active** in Proof of Compute on Gonka mainnet as of chain epoch 395 ([proposal 101](../network-updates.md#proposal-101)). Its `penalty_start_epoch` is **394**. It is in `confirmation_weight_scales` with `weight_scale_factor` 0.62, so it produces consensus weight. The timeline and transaction examples below remain useful for understanding how activation worked and for operations such as delegation; for current deployment defaults (including `node-config.json`), see the [Host Quickstart](./quickstart.md).
 
 For the wider context of multi-model PoC mechanics, see [Multi-Model PoC](./multi_model_poc.md). Other model bootstraps and their mechanics are documented in [MiniMax-M2.7 Bootstrap](./minimax-bootstrap.md), [DeepSeek V4 Flash Bootstrap](./deepseek-bootstrap.md), and [Kimi K2.6 Bootstrap](./kimi-bootstrap.md) (historical).
 
@@ -16573,7 +16573,7 @@ The protocol supports **governance-approved** models for inference and Proof of 
 |----------|------|
 | `MiniMaxAI/MiniMax-M2.7` | **MiniMax M2.7** — base model (since proposal 78 / epoch 308) |
 | `deepseek-ai/DeepSeek-V4-Flash-0731` | **DeepSeek V4 Flash** — PoC model (since proposal 94 / epoch 360). Coefficient is in `poc_params`. |
-| `zai-org/GLM-5.3-Flash` | **GLM-5.3-Flash** — PoC model (since [proposal 101](../network-updates.md#proposal-101) / `penalty_start_epoch` 394). Coefficient is in `poc_params`. |
+| `zai-org/GLM-5.3-Flash` | **GLM-5.3-Flash** — active PoC model since epoch 395 ([proposal 101](../network-updates.md#proposal-101)). `penalty_start_epoch` 394. Coefficient 0.62 is in `poc_params`. |
 
 > **Authoritative model list (governance API)**
     Approved models can change between releases or epochs. **Before you edit `node-config.json`,** call the governance API and use each returned object’s `"id"` as the key under `"models"`:
@@ -16586,7 +16586,7 @@ You typically run **one model per ML Node** in `node-config.json`.
 
 Governance listing (`GET /v1/governance/models`, `poc_params.models`) is the approved catalog for every model. A model's `weight_scale_factor` only produces consensus weight if that group is eligible: voting power that meets `v_min` and `w_threshold`. Miss/refuse penalties apply only to eligible groups. A listed model with no voting power is a bootstrap candidate on the next PoC — switching `node-config` alone does not restore consensus weight. Check `poc_params` and the epoch’s `confirmation_weight_scales`. See [Multi-Model PoC](./multi_model_poc.md).
 
-Live serving is a separate check: `/v1/epochs/current/participants`. `moonshotai/Kimi-K2.6` and `zai-org/GLM-5.2-FP8` remain in the governance catalog but were removed from `poc_params` by [proposal 101](../network-updates.md#proposal-101) — they are not PoC models. GLM-5.3-Flash is in bootstrap from epoch 394; see [GLM-5.3-Flash Bootstrap](./glm-bootstrap.md).
+Live serving is a separate check: `/v1/epochs/current/participants`. `moonshotai/Kimi-K2.6` and `zai-org/GLM-5.2-FP8` remain in the governance catalog but were removed from `poc_params` by [proposal 101](../network-updates.md#proposal-101) — they are not PoC models. GLM-5.3-Flash has been an active PoC group since epoch 395 (`penalty_start_epoch` 394); see [GLM-5.3-Flash Bootstrap](./glm-bootstrap.md).
 
 > **If you will not run every approved model**
     Multi-model PoC tracks participation **per model**. For an **eligible** model you do not run, use on-chain **delegation** or **refusal**. Regular miss/refuse penalties apply only to eligible groups. A listed model with no voting power is a bootstrap candidate; `refuse` is not required and is not a bootstrap participation mode. Delegation/refusal is **not** required to bring a node online—you use the same **Account (cold) key** as in [Grant Permissions to ML Operational Key](#33-local-machine-grant-permissions-to-ml-operational-key), **after** registration and verification. Copy-paste commands are at the end: [Optional: PoC delegation and refusal](#optional-poc-delegation-and-refusal). For strategy and penalties, read [Multi-Model PoC — Host Operations Guide](./multi_model_poc.md). For GLM-5.3-Flash (penalties from epoch 394), see [GLM-5.3-Flash Bootstrap](./glm-bootstrap.md).
@@ -30488,7 +30488,7 @@ HardCore Arena позволит протестировать модель на �
 
 106Total Proposals
 71Passed (67%)
-32Rejected (30%)
+33Rejected (31%)
 1Failed (1%)
 
 Funding / Grants44
@@ -30516,12 +30516,11 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   
   HSC Asset Management proposes that the Gonka community allocate 15,000 USDT from the Community Pool for a fireside chat on AI for Gonka's founders at HSC Asset Management Singapore, a one-day institut…
   Yes 0.0% (0) · No 96.5% (97,681) · Veto 0.0% (0) · Abstain 3.5% (3,528)$15,000 · Community Pool
-  ✗ Turnout 15.3% (101,209 / 662,709) · Quorum 25% (165,677)
+  ✗ Turnout 15.3% (101,209 / 659,924) · Quorum 25% (164,981)
 
   
     #106 – Marketing Committee — Operations & Reddit Contributor Pilot
-    
-    Voting
+    Rejected
   
   
     Submitted 2026-09-21
@@ -30529,7 +30528,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   
   The Gonka Marketing Committee requests 6,800 USDT + 50,000 GNK from the Community Pool to support ongoing Committee work and a separate two-month Reddit Contributor Pilot.  The Committee acts as a com…
   Yes 6.8% (26,026) · No 28.1% (107,375) · Veto 0.0% (0) · Abstain 65.1% (248,932)50,000 GNK · $6,800 · Community Pool
-  ✓ Turnout 57.7% (382,333 / 662,709) · Quorum 25% (165,677)
+  ✓ Turnout 57.9% (382,333 / 659,924) · Quorum 25% (164,981)
 
   
     #105 – Approve devshard v5 and bounty payouts
@@ -31728,7 +31727,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-106 proposals across 5 quarters. Last updated: 2026-09-23 18:40 UTC
+106 proposals across 5 quarters. Last updated: 2026-09-23 21:47 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -69399,7 +69398,7 @@ Contract Details
 
 28Total Proposals
 19Passed (68%)
-7Rejected (25%)
+8Rejected (29%)
 
 Governance Parameters14
 Funding / Grants10
@@ -69424,12 +69423,11 @@ $90,075 USDT · Bounty Reward
   
   HSC Asset Management proposes that the Gonka community allocate 15,000 USDT from the Community Pool for a fireside chat on AI for Gonka's founders at HSC Asset Management Singapore, a one-day institut…
   Yes 0.0% (0) · No 96.5% (97,681) · Veto 0.0% (0) · Abstain 3.5% (3,528)$15,000 · Community Pool
-  ✗ Turnout 15.3% (101,209 / 662,709) · Quorum 25% (165,677)
+  ✗ Turnout 15.3% (101,209 / 659,924) · Quorum 25% (164,981)
 
   
     #106 – Marketing Committee — Operations & Reddit Contributor Pilot
-    
-    Voting
+    Rejected
   
   
     Submitted 2026-09-21
@@ -69437,7 +69435,7 @@ $90,075 USDT · Bounty Reward
   
   The Gonka Marketing Committee requests 6,800 USDT + 50,000 GNK from the Community Pool to support ongoing Committee work and a separate two-month Reddit Contributor Pilot.  The Committee acts as a com…
   Yes 6.8% (26,026) · No 28.1% (107,375) · Veto 0.0% (0) · Abstain 65.1% (248,932)50,000 GNK · $6,800 · Community Pool
-  ✓ Turnout 57.7% (382,333 / 662,709) · Quorum 25% (165,677)
+  ✓ Turnout 57.9% (382,333 / 659,924) · Quorum 25% (164,981)
 
   
     #105 – Approve devshard v5 and bounty payouts
@@ -72324,7 +72322,7 @@ Contract Details
 
 # #106 – Marketing Committee — Operations & Reddit Contributor Pilot
 
-Voting
+Rejected
 
 **Proposal ID:** `106`
 
@@ -72337,6 +72335,8 @@ Voting
 **Proposer:** [`gonka1juwk05glldgn7850a3547jsl7l4vrhx9k5g3cr`](https://gonka.gg/address/gonka1juwk05glldgn7850a3547jsl7l4vrhx9k5g3cr){:target="_blank"}
 
 **Metadata:** [https://github.com/gonka-ai/gonka/discussions/1818](https://github.com/gonka-ai/gonka/discussions/1818)
+
+**Failed reason:** proposal did not get enough votes to pass
 
 50,000 GNK · $6,800 · Community Pool
 
@@ -72364,7 +72364,7 @@ The proposal also includes a two-month Reddit pilot to test a more systematic co
     Veto 0.0% (0)
     Abstain 65.1% (248,932)
     Total 382,333 votes
-    ✓ Turnout 57.7% (382,333 / 662,709) · Quorum 25% (165,677)
+    ✓ Turnout 57.9% (382,333 / 659,924) · Quorum 25% (164,981)
   
 
 Voters
@@ -72478,7 +72478,7 @@ Deck:
     Veto 0.0% (0)
     Abstain 3.5% (3,528)
     Total 101,209 votes
-    ✗ Turnout 15.3% (101,209 / 662,709) · Quorum 25% (165,677)
+    ✗ Turnout 15.3% (101,209 / 659,924) · Quorum 25% (164,981)
   
 
 Voters

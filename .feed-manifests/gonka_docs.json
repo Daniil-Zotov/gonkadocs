@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-09-23T18:08:10.412092+00:00",
+  "snapshot_time": "2026-09-23T21:56:01.311443+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -215,8 +215,8 @@
     "host/glm-bootstrap.md": {
       "title": "GLM-5.3-Flash Bootstrap",
       "status": null,
-      "content_preview": "# GLM-5.3-Flash Bootstrap\n\n`zai-org/GLM-5.3-Flash` is a governance-approved PoC model on Gonka mainnet as of [proposal 101](../network-updates.md#proposal-101). Its `penalty_start_epoch` is **394**. The group is in bootstrap: it appears in that epoch’s `sub_group_models`, but not yet in `confirmation_weight_scales`, so it does not yet produce consensus weight. For current deployment defaults (including `node-config.json`), see the [Host Quickstart](./quickstart.md).\n\nFor the wider context of multi-model PoC mechanics, see [Multi-Model PoC](./multi_model_poc.md). Other model bootstraps and their mechanics are documented in [MiniMax-M2.7 Bootstrap](./minimax-bootstrap.md), [DeepSeek V4 Flash Bootstrap](./deepseek-bootstrap.md), and [Kimi K2.6 Bootstrap](./kimi-bootstrap.md) (historical).\n\n!!",
-      "checksum": "9a522f1d331b91be6ce7fd68e9c89da15d6eceb957c246d05a33a5f130b6cb35"
+      "content_preview": "# GLM-5.3-Flash Bootstrap\n\n`zai-org/GLM-5.3-Flash` has **passed bootstrap** and is **active** in Proof of Compute on Gonka mainnet as of chain epoch 395 ([proposal 101](../network-updates.md#proposal-101)). Its `penalty_start_epoch` is **394**. It is in `confirmation_weight_scales` with `weight_scale_factor` 0.62, so it produces consensus weight. The timeline and transaction examples below remain useful for understanding how activation worked and for operations such as delegation; for current deployment defaults (including `node-config.json`), see the [Host Quickstart](./quickstart.md).\n\nFor the wider context of multi-model PoC mechanics, see [Multi-Model PoC](./multi_model_poc.md). Other model bootstraps and their mechanics are documented in [MiniMax-M2.7 Bootstrap](./minimax-bootstrap.md",
+      "checksum": "3ba9e46667a950f43a3f3d133b43c9c735d722e623de27230b65940b26e20c8c"
     },
     "host/hardware-specifications.md": {
       "title": "Hardware Specifications",
@@ -294,7 +294,7 @@
       "title": "Setting up your chain",
       "status": null,
       "content_preview": "# Setting up your chain \n\n**Host** (**hardware provider** or **node**) contributes computational resources to the network and is rewarded based on the amount and quality of resources they provide.\n\nTo join the network, you need to deploy two services:\n\n- **Network Node** – a service consisting of two nodes: a **Chain Node** and an **API Node**. This service handles all communication. The **Chain Node** connects to the blockchain, while the **API Node** manages user requests.\n- **Inference (ML) node** – a service that performs inference of large language models (LLMs) on GPU(s). You need at least one **ML Node** to join the network.\n\nThe guide describes a scenario in which both services are deployed on the same machine, and each Host has one ML Node. Services are deployed as Docker containe",
-      "checksum": "f577b2ca7f39b06e0ae66429a714944160cbb7b67854c7c6e3cada1199279e8d"
+      "checksum": "13b548f951981ca0649cbd11e36c4dfdc8c304fc41fcd88485c83fa165bd855d"
     },
     "introduction.md": {
       "title": "introduction",
