@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260923235123_c8c398d6",
+    "timestamp": "2026-09-23T23:51:23.941179+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1824 — Gateway allowlist request",
+      "url": "/community/issues/01824-gateway-allowlist-request/",
+      "file": "01824-gateway-allowlist-request.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway allowlist request\n    <span class=\"issues-number\">#1824</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/samuelonn1993\">@samuelonn1993</a> opened 2026-09-23 12:01 UTC</span>\n    <span class=\"issues-meta-item\">5 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-cont",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway allowlist request\n    <span class=\"issues-number\">#1824</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/samuelonn1993\">@samuelonn1993</a> opened 2026-09-23 12:01 UTC</span>\n    <span class=\"issues-meta-item\">6 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-cont"
+    },
+    "ai_description": "A new comment has been added to the gateway allowlist request #1824, bringing the discussion to six comments. The issue remains open, so the community is still weighing in on this proposal. Stay tuned for any updates on the decision.A new comment has been added to the gateway allowlist request #1824, bringing the total to six comments. The issue remains open, so the community is still actively discussing this proposal. Stay tuned for further updates on the decision."
+  },
+  {
     "id": "evt_20260923215559_72075929",
     "timestamp": "2026-09-23T21:55:59.962179+00:00",
     "section": "gonka_docs",
@@ -8013,20 +8029,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Fix genesis transfer\n    <span class=\"issues-number\">#602</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-16 00:29 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<di"
     },
     "ai_description": "Issue #602 about fixing the genesis transfer has been closed and removed from the feed. The task, opened by @tcharchian, is no longer active, so the community can focus on current priorities without this stale item cluttering the board. Thanks to everyone who contributed to resolving it. Keep building! 🚀"
-  },
-  {
-    "id": "evt_20260910143102_73024758",
-    "timestamp": "2026-09-10T14:31:02.672601+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#603 — Random PoC",
-      "url": null,
-      "file": "00603-random-poc.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Random PoC\n    <span class=\"issues-number\">#603</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-16 00:30 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"i"
-    },
-    "ai_description": "Issue #603 \"Random PoC\" has been removed from the community feed. The closed proposal, opened by @tcharchian with no comments, is no longer tracked here, keeping the activity board focused on active discussions. This cleanup helps maintain a clear view of current work and decisions.Issue #603 \"Random PoC\" has been removed from the community feed. The closed proposal, opened by @tcharchian with no comments, is no longer tracked here, keeping the activity board focused on active discussions. This cleanup helps maintain a clear view of current work and decisions."
   }
 ]

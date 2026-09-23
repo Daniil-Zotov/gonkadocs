@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-09-23T20:32:31.750582+00:00",
+  "snapshot_time": "2026-09-23T23:51:25.482824+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "#310 — BUG-1: Preserved node disabling",
@@ -3867,16 +3867,17 @@
     "01824-gateway-allowlist-request.md": {
       "title": "#1824 — Gateway allowlist request",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway allowlist request\n    <span class=\"issues-number\">#1824</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/samuelonn1993\">@samuelonn1993</a> opened 2026-09-23 12:01 UTC</span>\n    <span class=\"issues-meta-item\">5 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-cont",
-      "comment_checksum": "75e75954c73ef4c67d448e257090d0aaa63f65756235b815ee4c50b4bc274994",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway allowlist request\n    <span class=\"issues-number\">#1824</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/samuelonn1993\">@samuelonn1993</a> opened 2026-09-23 12:01 UTC</span>\n    <span class=\"issues-meta-item\">6 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-cont",
+      "comment_checksum": "d975b11475031a988df3336316fe92f1806c4c197a9019d27bb568169422d1ca",
       "comment_bodies": [
         "Hi @samuelonn1993! Allowlisting is an on-chain governance decision, so this registers intent but timing/inclusion aren't guaranteed. Before waiting on that, one question, since it changes the fastest path: for personal, on-demand coding use, do you actually need to self-host? If what you need is just a private OpenAI-compatible endpoint for your own AI-assisted development, that exists today via O",
         "Hi @tcharchian Thanks for the clarification. Yes, I specifically want to self-host my own gateway. My goal is to run a private, single-user gateway for my own AI-assisted development, initially on my own Windows PC and potentially move it to my existing Linux VPS later. The gateway would be used on demand for my own development and is not intended to operate as a public inference service or broker",
         "To be clear, though: this issue isn't a promise or a queue with a guaranteed outcome — it just records your intent. Allowlisting is an on-chain governance decision, so inclusion and timing aren't guaranteed. Worth knowing that, since it's governance, submitting a param-change proposal for devshard_escrow_params.allowed_creator_addresses is itself an option open to anyone — just so you're aware of ",
         "Thanks for clarifying. Just to make sure I understand the process correctly: is my current Issue #1824 request sufficient for my creator address to be considered for inclusion in the allowlist, or would I need to submit a formal governance proposal myself? I understand that neither route guarantees inclusion; I just want to make sure I am using the right process.",
-        "Short answer: this issue is a valid way to register intent. But it's not the only route: since allowlisting is on-chain governance, you can always pursue it yourself directly — submitting a param-change proposal and building support for it in the community is an option open to anyone at any time. So you're not limited to waiting on a batch; you can drive the outcome through governance yourself if "
+        "Short answer: this issue is a valid way to register intent. But it's not the only route: since allowlisting is on-chain governance, you can always pursue it yourself directly — submitting a param-change proposal and building support for it in the community is an option open to anyone at any time. So you're not limited to waiting on a batch; you can drive the outcome through governance yourself if ",
+        "Thanks for clarifying. That makes sense. I’ll keep my request on Issue #1824 for now and wait for the governance process. I’ll also monitor the on-chain allowlist for my creator address. I appreciate the explanation."
       ],
-      "checksum": "384ee9f14e0436ccd9b92f0ce058360c38bf7e00e338b7db768266df7745d726"
+      "checksum": "8f9c7de1250a936cab7087550ede8ce62cc5943e8e2bf761c760db95ef612f82"
     }
   }
 }

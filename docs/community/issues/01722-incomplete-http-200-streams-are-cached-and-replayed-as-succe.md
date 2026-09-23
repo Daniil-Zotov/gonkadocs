@@ -2,7 +2,7 @@
 title: "#1722 — Incomplete HTTP 200 streams are cached and replayed as successful responses"
 source: https://github.com/gonka-ai/gonka/issues/1722
 issue_number: 1722
-synced_at: 2026-09-23T20:29:17Z
+synced_at: 2026-09-23T23:46:52Z
 template: issues-main.html
 ---
 
@@ -16,7 +16,7 @@ template: issues-main.html
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/aleksandr-cstl">@aleksandr-cstl</a> opened 2026-09-07 11:57 UTC</span>
     <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-18 21:32 UTC</span>
+    <span class="issues-meta-item">Updated 2026-09-23 23:09 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>

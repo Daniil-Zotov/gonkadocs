@@ -2,7 +2,7 @@
 title: "#1824 — Gateway allowlist request"
 source: https://github.com/gonka-ai/gonka/issues/1824
 issue_number: 1824
-synced_at: 2026-09-23T20:28:52Z
+synced_at: 2026-09-23T23:46:52Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/samuelonn1993">@samuelonn1993</a> opened 2026-09-23 12:01 UTC</span>
-    <span class="issues-meta-item">5 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-23 20:25 UTC</span>
+    <span class="issues-meta-item">6 comments</span>
+    <span class="issues-meta-item">Updated 2026-09-23 20:38 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -54,7 +54,7 @@ I will fund the creator address only after allowlist membership has been confirm
 
 ---
 
-## 💬 Comments (5)
+## 💬 Comments (6)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -112,6 +112,17 @@ I will fund the creator address only after allowlist membership has been confirm
   <div class="issues-comment-body issues-content">
     <p>Short answer: this issue is a valid way to register intent. But it's not the only route: since allowlisting is on-chain governance, you can always pursue it yourself directly — submitting a param-change proposal and building support for it in the community is an option open to anyone at any time. So you're not limited to waiting on a batch; you can drive the outcome through governance yourself if you prefer.</p>
 <p>What helps your odds either way: visibility and contribution in the community, a track record/reputation, and more detail about your project and why the creator address matters for it. Concrete context — what you're building, how you'll use the gateway, and your engagement in Gonka Discord and other community chats makes an address much easier to include. None of that guarantees inclusion or timing, but it meaningfully strengthens the case.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/samuelonn1993">@samuelonn1993</a></span>
+    <span class="issues-meta-item">commented 2026-09-23 20:38 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Thanks for clarifying. That makes sense.</p>
+<p>I’ll keep my request on Issue #1824 for now and wait for the governance process. I’ll also monitor the on-chain allowlist for my creator address.</p>
+<p>I appreciate the explanation.</p>
   </div>
 </div>
 
