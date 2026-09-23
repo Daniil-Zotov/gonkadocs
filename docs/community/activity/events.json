@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260923171527_978c6398",
+    "timestamp": "2026-09-23T17:15:27.183709+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1824 — Gateway allowlist request",
+      "url": "/community/issues/01824-gateway-allowlist-request/",
+      "file": "01824-gateway-allowlist-request.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway allowlist request\n    <span class=\"issues-number\">#1824</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/samuelonn1993\">@samuelonn1993</a> opened 2026-09-23 12:01 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-cont"
+    },
+    "ai_description": "A new gateway allowlist request (#1824) has been opened by @samuelonn1993. This is a proposal to approve a gateway for participation in the Gonka network, which helps expand our decentralized inference capacity. Community members are encouraged to review the request and share their feedback.A new gateway allowlist request (#1824) has been opened by @samuelonn1993, proposing a new gateway for approval on the Gonka network. This is the first step in expanding our decentralized inference capacity, so community members should review the submission and weigh in with any feedback."
+  },
+  {
     "id": "evt_20260923164841_441f9574",
     "timestamp": "2026-09-23T16:48:41.498889+00:00",
     "section": "discussions",
@@ -8005,20 +8021,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [zpoken] Define and validate scalable off-chain PoC communication beyond Merkle-based commits\n    <span class=\"issues-number\">#611</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-20 21:32 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" sty"
     },
     "ai_description": "Issue #611 about exploring scalable off-chain proof-of-concept communication beyond Merkle-based commits has been removed from the activity feed. This means the discussion is no longer tracked here, so any updates or decisions on that topic will need to be followed elsewhere. If you were involved, keep an eye on the repository for alternative threads."
-  },
-  {
-    "id": "evt_20260910143102_438e7274",
-    "timestamp": "2026-09-10T14:31:02.672627+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#612 — `/chat/completion` flow development",
-      "url": null,
-      "file": "00612-chatcompletion-flow-development.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    `/chat/completion` flow development\n    <span class=\"issues-number\">#612</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-20 21:37 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></d"
-    },
-    "ai_description": "Issue #612 on the /chat/completion flow development has been closed and removed from the active board. This signals the work is considered complete or no longer tracked, so the community can shift focus to other priorities. Thanks to @tcharchian for driving this effort forward. 🚀 (Note: I added the emoji — let me know if you'd prefer it stripped!)"
   }
 ]
