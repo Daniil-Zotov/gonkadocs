@@ -36,7 +36,7 @@ hide:
 <div class="qs-stats">
 <div class="qs-stat total"><span class="qs-num">28</span><span class="qs-desc">Total Proposals</span></div>
 <div class="qs-stat passed"><span class="qs-num">19</span><span class="qs-desc">Passed (68%)</span></div>
-<div class="qs-stat rejected"><span class="qs-num">7</span><span class="qs-desc">Rejected (25%)</span></div>
+<div class="qs-stat rejected"><span class="qs-num">8</span><span class="qs-desc">Rejected (29%)</span></div>
 
 </div>
 
@@ -69,22 +69,21 @@ hide:
   </div>
   <div class="prop-card-desc">HSC Asset Management proposes that the Gonka community allocate 15,000 USDT from the Community Pool for a fireside chat on AI for Gonka's founders at HSC Asset Management Singapore, a one-day institut…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span> · <span class="prop-tally-no-text">No <strong>96.5%</strong> (97,681)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>3.5%</strong> (3,528)</span><span class="prop-card-funding prop-card-funding-voting">$15,000 · Community Pool</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>15.3%</strong> (101,209 / 662,709) · Quorum <strong>25%</strong> (165,677)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>15.3%</strong> (101,209 / 659,924) · Quorum <strong>25%</strong> (164,981)</span></div>
 </div>
 
-<div class="prop-card" data-status="prop-voting" data-voting-end="2026-09-23T19:09:41.762006655Z">
+<div class="prop-card" data-status="prop-rejected">
   <div class="prop-card-header">
     <a href="106/" class="prop-card-title">#106 – Marketing Committee — Operations & Reddit Contributor Pilot</a>
-    <span class="prop-vote-countdown" data-deadline="2026-09-23T19:09:41.762006655Z"></span>
-    <span class="prop-badge prop-voting">Voting</span>
+    <span class="prop-badge prop-rejected">Rejected</span>
   </div>
   <div class="prop-card-meta">
     <span>Submitted 2026-09-21</span>
     <span>Voting ends 2026-09-23</span>
   </div>
   <div class="prop-card-desc">The Gonka Marketing Committee requests 6,800 USDT + 50,000 GNK from the Community Pool to support ongoing Committee work and a separate two-month Reddit Contributor Pilot.  The Committee acts as a com…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>6.8%</strong> (26,026)</span> · <span class="prop-tally-no-text">No <strong>28.1%</strong> (107,375)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>65.1%</strong> (248,932)</span><span class="prop-card-funding prop-card-funding-voting">50,000 GNK · $6,800 · Community Pool</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>57.7%</strong> (382,333 / 662,709) · Quorum <strong>25%</strong> (165,677)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>6.8%</strong> (26,026)</span> · <span class="prop-tally-no-text">No <strong>28.1%</strong> (107,375)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>65.1%</strong> (248,932)</span><span class="prop-card-funding prop-card-funding-rejected">50,000 GNK · $6,800 · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>57.9%</strong> (382,333 / 659,924) · Quorum <strong>25%</strong> (164,981)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">

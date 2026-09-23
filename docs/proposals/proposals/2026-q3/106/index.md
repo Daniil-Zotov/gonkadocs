@@ -10,7 +10,7 @@ template: proposals-proposals-main.html
 
 <div class="prop-detail-header" markdown="1">
 
-<div class="prop-badge-row"><span class="prop-badge prop-voting">Voting</span><span class="prop-vote-countdown prop-vote-countdown-detail" data-deadline="2026-09-23T19:09:41.762006655Z"></span></div>
+<span class="prop-badge prop-rejected">Rejected</span>
 
 **Proposal ID:** `106`
 
@@ -24,7 +24,9 @@ template: proposals-proposals-main.html
 
 **Metadata:** [https://github.com/gonka-ai/gonka/discussions/1818](https://github.com/gonka-ai/gonka/discussions/1818)
 
-<div class="prop-funding-line prop-funding-line-voting">50,000 GNK · $6,800 · Community Pool</div>
+**Failed reason:** proposal did not get enough votes to pass
+
+<div class="prop-funding-line prop-funding-line-rejected">50,000 GNK · $6,800 · Community Pool</div>
 
 
 [View on gonka.gg](https://gonka.gg/network/proposals/106){:target="_blank"}
@@ -45,9 +47,9 @@ The proposal also includes a two-month Reddit pilot to test a more systematic co
 <div class="prop-tally">
   <div class="prop-tally-bar">
     <div class="prop-tally-yes" style="width:3.9%"></div>
-    <div class="prop-tally-no" style="width:16.2%"></div>
+    <div class="prop-tally-no" style="width:16.3%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
-    <div class="prop-tally-abstain" style="width:37.6%"></div>
+    <div class="prop-tally-abstain" style="width:37.7%"></div>
   </div>
   <div class="prop-tally-stats">
     <span class="prop-tally-yes-text">Yes <strong>6.8%</strong> (26,026)</span>
@@ -55,7 +57,7 @@ The proposal also includes a two-month Reddit pilot to test a more systematic co
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>65.1%</strong> (248,932)</span>
     <span class="prop-tally-total-text">Total 382,333 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout <strong>57.7%</strong> (382,333 / 662,709) · Quorum <strong>25%</strong> (165,677)</span>
+    <span class="prop-tally-yes-text">✓ Turnout <strong>57.9%</strong> (382,333 / 659,924) · Quorum <strong>25%</strong> (164,981)</span>
   </div>
 </div>
 
