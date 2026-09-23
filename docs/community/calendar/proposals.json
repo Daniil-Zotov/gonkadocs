@@ -1438,5 +1438,17 @@
     "tags": [
       "voting"
     ]
+  },
+  {
+    "date": "2026-09-25",
+    "category": "governance",
+    "type": "proposal_vote_end",
+    "title": "Voting ends: #107 – Gonka at HSC Asset Management Singapore, 8 October 2026",
+    "url": "/proposals/proposals/2026-q3/107/",
+    "time": "13:20 UTC",
+    "description": "HSC Asset Management proposes that the Gonka community allocate 15,000 USDT from the Community Pool for a fireside chat on AI for Gonka's founders at HSC Asset Management Singapore, a one-day institut…",
+    "tags": [
+      "voting"
+    ]
   }
 ]

@@ -34,15 +34,15 @@ hide:
 ## 2026-Q3 Summary
 
 <div class="qs-stats">
-<div class="qs-stat total"><span class="qs-num">27</span><span class="qs-desc">Total Proposals</span></div>
-<div class="qs-stat passed"><span class="qs-num">19</span><span class="qs-desc">Passed (70%)</span></div>
-<div class="qs-stat rejected"><span class="qs-num">7</span><span class="qs-desc">Rejected (26%)</span></div>
+<div class="qs-stat total"><span class="qs-num">28</span><span class="qs-desc">Total Proposals</span></div>
+<div class="qs-stat passed"><span class="qs-num">19</span><span class="qs-desc">Passed (68%)</span></div>
+<div class="qs-stat rejected"><span class="qs-num">7</span><span class="qs-desc">Rejected (25%)</span></div>
 
 </div>
 
 <div class="qs-categories">
-<div class="qs-row"><span class="qs-label">Governance Parameters</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:52%"></span></span><span class="qs-value">14</span></div>
-<div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:33%"></span></span><span class="qs-value">9</span></div>
+<div class="qs-row"><span class="qs-label">Governance Parameters</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:50%"></span></span><span class="qs-value">14</span></div>
+<div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:36%"></span></span><span class="qs-value">10</span></div>
 <div class="qs-row"><span class="qs-label">Software Upgrade</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:7%"></span></span><span class="qs-value">2</span></div>
 <div class="qs-row"><span class="qs-label">Other</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:4%"></span></span><span class="qs-value">1</span></div>
 <div class="qs-row"><span class="qs-label">GRC / Restitution</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:4%"></span></span><span class="qs-value">1</span></div>
@@ -56,7 +56,21 @@ hide:
 
 <div class="prop-quarter">
 <h2>2026-Q3</h2>
-<p>27 proposals</p>
+<p>28 proposals</p>
+<div class="prop-card" data-status="prop-voting" data-voting-end="2026-09-25T13:20:39.270035592Z">
+  <div class="prop-card-header">
+    <a href="107/" class="prop-card-title">#107 – Gonka at HSC Asset Management Singapore, 8 October 2026</a>
+    <span class="prop-vote-countdown" data-deadline="2026-09-25T13:20:39.270035592Z"></span>
+    <span class="prop-badge prop-voting">Voting</span>
+  </div>
+  <div class="prop-card-meta">
+    <span>Submitted 2026-09-23</span>
+    <span>Voting ends 2026-09-25</span>
+  </div>
+  <div class="prop-card-desc">HSC Asset Management proposes that the Gonka community allocate 15,000 USDT from the Community Pool for a fireside chat on AI for Gonka's founders at HSC Asset Management Singapore, a one-day institut…</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding prop-card-funding-voting">$15,000 · Community Pool</span></div>
+</div>
+
 <div class="prop-card" data-status="prop-voting" data-voting-end="2026-09-23T19:09:41.762006655Z">
   <div class="prop-card-header">
     <a href="106/" class="prop-card-title">#106 – Marketing Committee — Operations & Reddit Contributor Pilot</a>
