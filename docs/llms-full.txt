@@ -21187,7 +21187,7 @@ decentralized mixture-of-experts."
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-09-23 01:10 UTC
+2026-09-23 07:12 UTC
 
 ---
 
@@ -30525,8 +30525,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-09-23
   
   The Gonka Marketing Committee requests 6,800 USDT + 50,000 GNK from the Community Pool to support ongoing Committee work and a separate two-month Reddit Contributor Pilot.  The Committee acts as a com…
-  Yes 1.8% (6,484) · No 28.9% (104,867) · Veto 0.0% (0) · Abstain 69.3% (251,215)50,000 GNK · $6,800 · Community Pool
-  ✓ Turnout 67.7% (362,566 / 535,746) · Quorum 25% (133,936)
+  Yes 1.8% (6,484) · No 28.6% (103,008) · Veto 0.0% (0) · Abstain 69.6% (251,215)50,000 GNK · $6,800 · Community Pool
+  ✓ Turnout 70.3% (360,707 / 512,823) · Quorum 25% (128,205)
 
   
     #105 – Approve devshard v5 and bounty payouts
@@ -31725,7 +31725,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-105 proposals across 5 quarters. Last updated: 2026-09-23 05:09 UTC
+105 proposals across 5 quarters. Last updated: 2026-09-23 09:56 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -69420,8 +69420,8 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-09-23
   
   The Gonka Marketing Committee requests 6,800 USDT + 50,000 GNK from the Community Pool to support ongoing Committee work and a separate two-month Reddit Contributor Pilot.  The Committee acts as a com…
-  Yes 1.8% (6,484) · No 28.9% (104,867) · Veto 0.0% (0) · Abstain 69.3% (251,215)50,000 GNK · $6,800 · Community Pool
-  ✓ Turnout 67.7% (362,566 / 535,746) · Quorum 25% (133,936)
+  Yes 1.8% (6,484) · No 28.6% (103,008) · Veto 0.0% (0) · Abstain 69.6% (251,215)50,000 GNK · $6,800 · Community Pool
+  ✓ Turnout 70.3% (360,707 / 512,823) · Quorum 25% (128,205)
 
   
     #105 – Approve devshard v5 and bounty payouts
@@ -72344,11 +72344,11 @@ The proposal also includes a two-month Reddit pilot to test a more systematic co
   
   
     Yes 1.8% (6,484)
-    No 28.9% (104,867)
+    No 28.6% (103,008)
     Veto 0.0% (0)
-    Abstain 69.3% (251,215)
-    Total 362,566 votes
-    ✓ Turnout 67.7% (362,566 / 535,746) · Quorum 25% (133,936)
+    Abstain 69.6% (251,215)
+    Total 360,707 votes
+    ✓ Turnout 70.3% (360,707 / 512,823) · Quorum 25% (128,205)
   
 
 Voters
@@ -72358,13 +72358,16 @@ VoterVote
 gonka1qwfrtz…33xdklNo 100.0%
 gonka1qh2qe4…yy3k5fNo 100.0%
 gonka1rqm2u7…mgd53tYes 100.0%
+gonka1ym3np7…0e4a2pNo 100.0%
 gonka19zfgmv…fcmnrmYes 100.0%
+gonka1830lqu…pasz0yYes 100.0%
 gonka1gyk0aa…k8svc5No 100.0%
 gonka1gvpv7v…lyrmkxNo 100.0%
 gonka1gvrrhj…d2v4zrAbstain 100.0%
 gonka1scskt6…mn4rxvAbstain 100.0%
 gonka1kvmerz…lzldumNo 100.0%
 gonka16dgkvx…6j0skkNo 100.0%
+gonka1u60wtn…u7w0qqYes 100.0%
 gonka1ajmhqg…z8s939No 100.0%
 
 ---
