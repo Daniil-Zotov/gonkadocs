@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-09-23T11:25:44.284688+00:00",
+  "snapshot_time": "2026-09-23T16:49:50.462404+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "#805 — Welcome to Gonka Discussions 👋",
@@ -61,6 +61,12 @@
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1818](https://github.com/gonka-ai/gonka/discussions/1818) every hour. \n\n# Marketing Committee — Operations & Reddit Contributor Pilot\n\n**Автор:** [@petkomain-tech](https://github.com/petkomain-tech) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-09-21 14:39 UTC · \n\n---\n\n## 📝 Описание\n\n# Marketing Committee — Operations & Reddit Contributor Pilot\n\n## Summary\n\nThe Marketing Committee requests 6,800 USDT + 50,000 GNK to support the Committee’s work for August–October 2026 and to run a separate two-month Reddit Contributor Pilot.\n\nThe Committee operates as an independent contributor team from the Gonka community. We review marketing materials and contractor deliverables, follow up on already funded initiatives, collect and consolidate community fee",
       "checksum": "7bcef9c312ae650b32ba2d52bd2f92d15866c471e8ae74cdb98cbdb357a76c6a"
+    },
+    "ecosystem/1825-proposal-107-gonka-at-hsc-asset-management-singapore-8-octob.md": {
+      "title": "#1825 — Proposal #107: Gonka at HSC Asset Management Singapore, 8 October 2026",
+      "status": null,
+      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1825](https://github.com/gonka-ai/gonka/discussions/1825) every hour. \n\n# Proposal #107: Gonka at HSC Asset Management Singapore, 8 October 2026\n\n**Автор:** [@JetterHSC](https://github.com/JetterHSC) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-09-23 12:49 UTC · \n\n---\n\n## 📝 Описание\n\nHi everyone! This is Nick from HSC Asset Management, the team that runs HSC Asset Management Singapore.\n\nWe'd like to propose a fireside chat on AI for Gonka's founders at our conference in Singapore on 8 October 2026, in TOKEN2049 week, together with a set of pre-arranged institutional meetings, a private dinner seat and brand placement at the event.\n\nThe event has more than 2,000 people registered and 69 published speakers, including HSBC, UBS, Fidelity Interna",
+      "checksum": "ca48b57637a1dc0e138f468eb0ca0934704a4c99c6fc8c77035d25877d676b1c"
     },
     "general/0670-kimi-k25.md": {
       "title": "#670 — Kimi K2.5",

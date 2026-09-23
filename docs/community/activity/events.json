@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260923164841_441f9574",
+    "timestamp": "2026-09-23T16:48:41.498889+00:00",
+    "section": "discussions",
+    "action": "new",
+    "item": {
+      "title": "#1825 — Proposal #107: Gonka at HSC Asset Management Singapore, 8 October 2026",
+      "url": "/community/discussion/ecosystem/1825-proposal-107-gonka-at-hsc-asset-management-singapore-8-octob/",
+      "file": "ecosystem/1825-proposal-107-gonka-at-hsc-asset-management-singapore-8-octob.md"
+    },
+    "details": {
+      "status": null,
+      "content": "> 🔄 **Auto-sync:** from [Discussion #1825](https://github.com/gonka-ai/gonka/discussions/1825) every hour. \n\n# Proposal #107: Gonka at HSC Asset Management Singapore, 8 October 2026\n\n**Автор:** [@JetterHSC](https://github.com/JetterHSC) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-09-23 12:49 UTC · \n\n---\n\n## 📝 Описание\n\nHi everyone! This is Nick from HSC Asset Management, the team that runs HSC Asset Management Singapore.\n\nWe'd like to propose a fireside chat on AI for Gonka's founders at our conference in Singapore on 8 October 2026, in TOKEN2049 week, together with a set of pre-arranged institutional meetings, a private dinner seat and brand placement at the event.\n\nThe event has more than 2,000 people registered and 69 published speakers, including HSBC, UBS, Fidelity Interna"
+    },
+    "ai_description": "New discussion #1825 is open: Proposal #107 invites Gonka's founders to a fireside chat on AI at HSC Asset Management Singapore on 8 October 2026, during TOKEN2049 week. The package includes institutional meetings, a private dinner seat, and brand placement at an event with over 2,000 attendees and speakers from HSBC, UBS, and Fidelity. This is a strong ecosystem opportunity to put Gonka in front of major finance players."
+  },
+  {
     "id": "evt_20260923070611_be3d8fe3",
     "timestamp": "2026-09-23T07:06:11.550714+00:00",
     "section": "gonka_docs",
@@ -8004,20 +8020,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    `/chat/completion` flow development\n    <span class=\"issues-number\">#612</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-20 21:37 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></d"
     },
     "ai_description": "Issue #612 on the /chat/completion flow development has been closed and removed from the active board. This signals the work is considered complete or no longer tracked, so the community can shift focus to other priorities. Thanks to @tcharchian for driving this effort forward. 🚀 (Note: I added the emoji — let me know if you'd prefer it stripped!)"
-  },
-  {
-    "id": "evt_20260910143102_6ba912ea",
-    "timestamp": "2026-09-10T14:31:02.672635+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#613 — Creation of a mathematical model, estimating limits, specifying benchmarks and investigating how to improve scalability.",
-      "url": null,
-      "file": "00613-creation-of-a-mathematical-model-estimating-limits-specifyin.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Creation of a mathematical model, estimating limits, specifying benchmarks and investigating how to improve scalability.\n    <span class=\"issues-number\">#613</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-20 21:48 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-"
-    },
-    "ai_description": "Issue #613 on scalability modeling and benchmarks has been removed from the community feed. This closed proposal, which aimed to establish mathematical limits and improvement strategies for network scaling, is no longer tracked here. Its removal reflects a cleanup of inactive items, keeping the feed focused on active discussions and current work.Issue #613 on scalability modeling and benchmarks has been removed from the community feed. This closed proposal, which outlined work on mathematical limits and improvement strategies, is no longer tracked here. The cleanup keeps our activity feed focused on active, relevant discussions."
   }
 ]
