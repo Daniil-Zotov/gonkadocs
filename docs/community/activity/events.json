@@ -1,5 +1,43 @@
 [
   {
+    "id": "evt_20260923005139_e63c0c85",
+    "timestamp": "2026-09-23T00:51:39.460389+00:00",
+    "section": "calendar",
+    "action": "daily_reminder",
+    "item": {
+      "title": "Today: 3 events — INPUT Global — Weekly Call (#77), TheSoul — Weekly Report Call (#60–#65), Voting ends: #106 – Marketing Committee — Operations & Reddit Contributor Pilot",
+      "url": "/community/calendar/",
+      "file": null
+    },
+    "details": {
+      "today": [
+        {
+          "title": "INPUT Global — Weekly Call (#77)",
+          "date": "2026-09-23",
+          "time": "13:00 UTC",
+          "event_type": "committee_call",
+          "url": "/proposals/proposals/2026-q2/77/"
+        },
+        {
+          "title": "TheSoul — Weekly Report Call (#60–#65)",
+          "date": "2026-09-23",
+          "time": "15:00 UTC",
+          "event_type": "committee_call",
+          "url": "/proposals/proposals/2026-q2/60/"
+        },
+        {
+          "title": "Voting ends: #106 – Marketing Committee — Operations & Reddit Contributor Pilot",
+          "date": "2026-09-23",
+          "time": "19:09 UTC",
+          "event_type": "proposal_vote_end",
+          "url": "/proposals/proposals/2026-q3/106/"
+        }
+      ],
+      "count": 3
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260922192722_c4f36173",
     "timestamp": "2026-09-22T19:27:22.707043+00:00",
     "section": "gonka_docs",
@@ -7979,20 +8017,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Inference invalidation by pseudo random sub-group of participant (to decrease amount of `MsgValidation`)\n    <span class=\"issues-number\">#619</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-23 00:24 UTC</span>\n    <span class=\"issues-meta-item\">4 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues"
     },
     "ai_description": "Issue #619 on inference validation has been removed. The proposal suggested using a pseudo-random subgroup of participants to cut down on validation messages, but it's no longer on the table. This means the team is taking a different approach to scaling validation efficiency. Community members following that discussion should check the issue tracker for any updated proposals."
-  },
-  {
-    "id": "evt_20260910143102_b87b1fe2",
-    "timestamp": "2026-09-10T14:31:02.672653+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#620 — Speed up PoC validation by sample validators",
-      "url": null,
-      "file": "00620-speed-up-poc-validation-by-sample-validators.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Speed up PoC validation by sample validators\n    <span class=\"issues-number\">#620</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-23 00:25 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8"
-    },
-    "ai_description": "Issue #620 on speeding up PoC validation with sample validators has been closed and removed from the tracker. The proposal aimed to reduce validation overhead by using a subset of validators, which could have improved network efficiency. Its closure means the team has decided not to pursue this approach at this time. Stay tuned for alternative performance optimizations."
   }
 ]
