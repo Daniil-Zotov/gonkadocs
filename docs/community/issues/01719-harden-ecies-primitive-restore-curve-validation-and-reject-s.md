@@ -2,7 +2,7 @@
 title: "#1719 — Harden ECIES primitive: restore curve validation and reject short ciphertexts"
 source: https://github.com/gonka-ai/gonka/issues/1719
 issue_number: 1719
-synced_at: 2026-09-22T22:17:39Z
+synced_at: 2026-09-23T00:40:53Z
 template: issues-main.html
 ---
 
