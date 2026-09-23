@@ -50,17 +50,17 @@ Deck: <https://www.figma.com/proto/BprnE9fc5HUqmKWlN65yUq/HSC-%3C%3E-Gonka-DAO?t
 <div class="prop-tally">
   <div class="prop-tally-bar">
     <div class="prop-tally-yes" style="width:0.0%"></div>
-    <div class="prop-tally-no" style="width:18.6%"></div>
+    <div class="prop-tally-no" style="width:14.7%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
-    <div class="prop-tally-abstain" style="width:0.7%"></div>
+    <div class="prop-tally-abstain" style="width:0.5%"></div>
   </div>
   <div class="prop-tally-stats">
     <span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-no-text">No <strong>96.4%</strong> (95,137)</span>
+    <span class="prop-tally-no-text">No <strong>96.5%</strong> (97,681)</span>
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-abstain-text">Abstain <strong>3.6%</strong> (3,528)</span>
-    <span class="prop-tally-total-text">Total 98,665 votes</span>
-    <span class="prop-tally-veto-text">✗ Turnout <strong>19.2%</strong> (98,665 / 512,823) · Quorum <strong>25%</strong> (128,205)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>3.5%</strong> (3,528)</span>
+    <span class="prop-tally-total-text">Total 101,209 votes</span>
+    <span class="prop-tally-veto-text">✗ Turnout <strong>15.3%</strong> (101,209 / 662,709) · Quorum <strong>25%</strong> (165,677)</span>
   </div>
 </div>
 

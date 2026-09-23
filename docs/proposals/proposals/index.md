@@ -71,8 +71,8 @@ hide:
     <span>Voting ends 2026-09-25</span>
   </div>
   <div class="prop-card-desc">HSC Asset Management proposes that the Gonka community allocate 15,000 USDT from the Community Pool for a fireside chat on AI for Gonka's founders at HSC Asset Management Singapore, a one-day institut…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span> · <span class="prop-tally-no-text">No <strong>96.4%</strong> (95,137)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>3.6%</strong> (3,528)</span><span class="prop-card-funding prop-card-funding-voting">$15,000 · Community Pool</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>19.2%</strong> (98,665 / 512,823) · Quorum <strong>25%</strong> (128,205)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span> · <span class="prop-tally-no-text">No <strong>96.5%</strong> (97,681)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>3.5%</strong> (3,528)</span><span class="prop-card-funding prop-card-funding-voting">$15,000 · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>15.3%</strong> (101,209 / 662,709) · Quorum <strong>25%</strong> (165,677)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-voting" data-voting-end="2026-09-23T19:09:41.762006655Z">
@@ -86,8 +86,8 @@ hide:
     <span>Voting ends 2026-09-23</span>
   </div>
   <div class="prop-card-desc">The Gonka Marketing Committee requests 6,800 USDT + 50,000 GNK from the Community Pool to support ongoing Committee work and a separate two-month Reddit Contributor Pilot.  The Committee acts as a com…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>1.8%</strong> (6,484)</span> · <span class="prop-tally-no-text">No <strong>28.6%</strong> (103,008)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>69.6%</strong> (251,215)</span><span class="prop-card-funding prop-card-funding-voting">50,000 GNK · $6,800 · Community Pool</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>70.3%</strong> (360,707 / 512,823) · Quorum <strong>25%</strong> (128,205)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>6.8%</strong> (26,026)</span> · <span class="prop-tally-no-text">No <strong>28.1%</strong> (107,375)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>65.1%</strong> (248,932)</span><span class="prop-card-funding prop-card-funding-voting">50,000 GNK · $6,800 · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>57.7%</strong> (382,333 / 662,709) · Quorum <strong>25%</strong> (165,677)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -1505,7 +1505,7 @@ hide:
 
 </div>
 <div class="prop-oview-stats">
-<em>106 proposals across 5 quarters. Last updated: 2026-09-23 17:21 UTC</em>
+<em>106 proposals across 5 quarters. Last updated: 2026-09-23 18:40 UTC</em>
 </div>
 
 <script>
