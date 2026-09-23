@@ -45,17 +45,17 @@ The proposal also includes a two-month Reddit pilot to test a more systematic co
 <div class="prop-tally">
   <div class="prop-tally-bar">
     <div class="prop-tally-yes" style="width:1.3%"></div>
-    <div class="prop-tally-no" style="width:19.4%"></div>
+    <div class="prop-tally-no" style="width:20.1%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:49.0%"></div>
   </div>
   <div class="prop-tally-stats">
     <span class="prop-tally-yes-text">Yes <strong>1.8%</strong> (6,484)</span>
-    <span class="prop-tally-no-text">No <strong>27.9%</strong> (99,598)</span>
+    <span class="prop-tally-no-text">No <strong>28.6%</strong> (103,008)</span>
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-abstain-text">Abstain <strong>70.3%</strong> (251,215)</span>
-    <span class="prop-tally-total-text">Total 357,297 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout <strong>69.7%</strong> (357,297 / 512,823) · Quorum <strong>25%</strong> (128,205)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>69.6%</strong> (251,215)</span>
+    <span class="prop-tally-total-text">Total 360,707 votes</span>
+    <span class="prop-tally-yes-text">✓ Turnout <strong>70.3%</strong> (360,707 / 512,823) · Quorum <strong>25%</strong> (128,205)</span>
   </div>
 </div>
 
@@ -70,6 +70,7 @@ The proposal also includes a two-month Reddit pilot to test a more systematic co
 <tr><td><a href="https://gonka.gg/address/gonka1qwfrtz9c7kcrfkrrlne2pkcye74mj6ce33xdkl" target="_blank" class="prop-voter-addr">gonka1qwfrtz…33xdkl</a></td><td><span class="prop-voter-option prop-vote-no">No 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1qh2qe4y988c92wl6l3mn0xp9dvzvnavayy3k5f" target="_blank" class="prop-voter-addr">gonka1qh2qe4…yy3k5f</a></td><td><span class="prop-voter-option prop-vote-no">No 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1rqm2u7lxzn7r68y0drcyhag6xnckpsnfmgd53t" target="_blank" class="prop-voter-addr">gonka1rqm2u7…mgd53t</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
+<tr><td><a href="https://gonka.gg/address/gonka1ym3np7guxart483yfdxnlztuazx22cjt0e4a2p" target="_blank" class="prop-voter-addr">gonka1ym3np7…0e4a2p</a></td><td><span class="prop-voter-option prop-vote-no">No 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka19zfgmv959fhmscjhp0vjl6wptplq3t4mfcmnrm" target="_blank" class="prop-voter-addr">gonka19zfgmv…fcmnrm</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1gyk0aahvr3qeju4zx0nplfreej6cy4jjk8svc5" target="_blank" class="prop-voter-addr">gonka1gyk0aa…k8svc5</a></td><td><span class="prop-voter-option prop-vote-no">No 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1gvpv7vhk5gyxhmf9u8sc8pw5j8fr6lzalyrmkx" target="_blank" class="prop-voter-addr">gonka1gvpv7v…lyrmkx</a></td><td><span class="prop-voter-option prop-vote-no">No 100.0%</span></td></tr>
