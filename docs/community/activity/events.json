@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260923060719_09aa24e1",
+    "timestamp": "2026-09-23T06:07:19.319587+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1823 — Under PoC challenge load the host accepts inference and returns an empty stream instead of rejecting it",
+      "url": "/community/issues/01823-under-poc-challenge-load-the-host-accepts-inference-and-retu/",
+      "file": "01823-under-poc-challenge-load-the-host-accepts-inference-and-retu.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Under PoC challenge load the host accepts inference and returns an empty stream instead of rejecting it\n    <span class=\"issues-number\">#1823</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-23 01:05 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues"
+    },
+    "ai_description": "A new issue #1823 has been opened by @tcharchian flagging a bug where hosts under PoC challenge load accept inference requests but return an empty stream instead of properly rejecting them. This is a reliability concern for the network's integrity during stress testing, as it could mask failures or mislead clients. The issue is currently open for community discussion and resolution."
+  },
+  {
     "id": "evt_20260923005139_e63c0c85",
     "timestamp": "2026-09-23T00:51:39.460389+00:00",
     "section": "calendar",
@@ -8002,20 +8018,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    IBC support, IBC pool\n    <span class=\"issues-number\">#615</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-22 00:47 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<d"
     },
     "ai_description": "Issue #615 on IBC support and IBC pools has been removed from the Gonka activity feed. The issue, which was opened by @tcharchian and had no comments, is now closed and no longer tracked. This cleanup keeps the community focused on active proposals and discussions.Issue #615 on IBC support and IBC pools has been removed from the Gonka activity feed. The issue, which was closed with no comments, is no longer tracked, keeping the community focused on active proposals. This cleanup helps declutter the board for more relevant discussions."
-  },
-  {
-    "id": "evt_20260910143102_afed5db2",
-    "timestamp": "2026-09-10T14:31:02.672647+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#619 — Inference invalidation by pseudo random sub-group of participant (to decrease amount of `MsgValidation`)",
-      "url": null,
-      "file": "00619-inference-invalidation-by-pseudo-random-sub-group-of-partici.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Inference invalidation by pseudo random sub-group of participant (to decrease amount of `MsgValidation`)\n    <span class=\"issues-number\">#619</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-23 00:24 UTC</span>\n    <span class=\"issues-meta-item\">4 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues"
-    },
-    "ai_description": "Issue #619 on inference validation has been removed. The proposal suggested using a pseudo-random subgroup of participants to cut down on validation messages, but it's no longer on the table. This means the team is taking a different approach to scaling validation efficiency. Community members following that discussion should check the issue tracker for any updated proposals."
   }
 ]
