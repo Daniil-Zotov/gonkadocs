@@ -21183,7 +21183,7 @@ decentralized mixture-of-experts."
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-09-24 10:59 UTC
+2026-09-24 15:45 UTC
 
 ---
 
@@ -30521,8 +30521,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-09-25
   
   HSC Asset Management proposes that the Gonka community allocate 15,000 USDT from the Community Pool for a fireside chat on AI for Gonka's founders at HSC Asset Management Singapore, a one-day institut…
-  Yes 0.0% (0) · No 96.5% (97,681) · Veto 0.0% (0) · Abstain 3.5% (3,528)$15,000 · Community Pool
-  ✗ Turnout 15.3% (101,209 / 659,924) · Quorum 25% (164,981)
+  Yes 0.0% (0) · No 70.6% (95,308) · Veto 0.0% (0) · Abstain 29.4% (39,675)$15,000 · Community Pool
+  ✗ Turnout 19.8% (134,983 / 682,792) · Quorum 25% (170,698)
 
   
     #106 – Marketing Committee — Operations & Reddit Contributor Pilot
@@ -31733,7 +31733,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-106 proposals across 5 quarters. Last updated: 2026-09-24 14:21 UTC
+106 proposals across 5 quarters. Last updated: 2026-09-24 18:31 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -69428,8 +69428,8 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-09-25
   
   HSC Asset Management proposes that the Gonka community allocate 15,000 USDT from the Community Pool for a fireside chat on AI for Gonka's founders at HSC Asset Management Singapore, a one-day institut…
-  Yes 0.0% (0) · No 96.5% (97,681) · Veto 0.0% (0) · Abstain 3.5% (3,528)$15,000 · Community Pool
-  ✗ Turnout 15.3% (101,209 / 659,924) · Quorum 25% (164,981)
+  Yes 0.0% (0) · No 70.6% (95,308) · Veto 0.0% (0) · Abstain 29.4% (39,675)$15,000 · Community Pool
+  ✗ Turnout 19.8% (134,983 / 682,792) · Quorum 25% (170,698)
 
   
     #106 – Marketing Committee — Operations & Reddit Contributor Pilot
@@ -72480,11 +72480,11 @@ Deck:
   
   
     Yes 0.0% (0)
-    No 96.5% (97,681)
+    No 70.6% (95,308)
     Veto 0.0% (0)
-    Abstain 3.5% (3,528)
-    Total 101,209 votes
-    ✗ Turnout 15.3% (101,209 / 659,924) · Quorum 25% (164,981)
+    Abstain 29.4% (39,675)
+    Total 134,983 votes
+    ✗ Turnout 19.8% (134,983 / 682,792) · Quorum 25% (170,698)
   
 
 Voters
@@ -72492,10 +72492,12 @@ Voters
 VoterVote
 
 gonka1qwfrtz…33xdklAbstain 100.0%
+gonka18yjgg5…nmyzhxYes 100.0%
 gonka1gvpv7v…lyrmkxNo 100.0%
 gonka15husl7…e2k8wxNo 100.0%
 gonka1kg3hrx…qr6pw6No_With_Veto 100.0%
 gonka1kvmerz…lzldumNo 100.0%
+gonka168rtjf…lnkns2Abstain 100.0%
 gonka16dgkvx…6j0skkNo 100.0%
 
 ---
