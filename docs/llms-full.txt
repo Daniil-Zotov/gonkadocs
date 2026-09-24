@@ -21573,7 +21573,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 44Expired
 63Votes
-40.0K GNKTotal Bid
+40.1K GNKTotal Bid
 
 | Status | Title | Author | Votes | Avg. Bid | Closed |
 | :----- | :----- | :----- | ----: | -------: | :----- |
@@ -21624,7 +21624,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-09-23 23:38 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-09-24 04:39 UTC*
 
 ---
 
