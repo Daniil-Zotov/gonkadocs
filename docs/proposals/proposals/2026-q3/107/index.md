@@ -52,15 +52,15 @@ Deck: <https://www.figma.com/proto/BprnE9fc5HUqmKWlN65yUq/HSC-%3C%3E-Gonka-DAO?t
     <div class="prop-tally-yes" style="width:0.0%"></div>
     <div class="prop-tally-no" style="width:14.8%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
-    <div class="prop-tally-abstain" style="width:0.5%"></div>
+    <div class="prop-tally-abstain" style="width:4.3%"></div>
   </div>
   <div class="prop-tally-stats">
     <span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-no-text">No <strong>96.5%</strong> (97,681)</span>
+    <span class="prop-tally-no-text">No <strong>77.5%</strong> (97,681)</span>
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-abstain-text">Abstain <strong>3.5%</strong> (3,528)</span>
-    <span class="prop-tally-total-text">Total 101,209 votes</span>
-    <span class="prop-tally-veto-text">✗ Turnout <strong>15.3%</strong> (101,209 / 659,924) · Quorum <strong>25%</strong> (164,981)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>22.5%</strong> (28,340)</span>
+    <span class="prop-tally-total-text">Total 126,021 votes</span>
+    <span class="prop-tally-veto-text">✗ Turnout <strong>19.1%</strong> (126,021 / 659,267) · Quorum <strong>25%</strong> (164,816)</span>
   </div>
 </div>
 
@@ -73,10 +73,12 @@ Deck: <https://www.figma.com/proto/BprnE9fc5HUqmKWlN65yUq/HSC-%3C%3E-Gonka-DAO?t
 <thead><tr><th>Voter</th><th>Vote</th></tr></thead>
 <tbody>
 <tr><td><a href="https://gonka.gg/address/gonka1qwfrtz9c7kcrfkrrlne2pkcye74mj6ce33xdkl" target="_blank" class="prop-voter-addr">gonka1qwfrtz…33xdkl</a></td><td><span class="prop-voter-option prop-vote-abstain">Abstain 100.0%</span></td></tr>
+<tr><td><a href="https://gonka.gg/address/gonka18yjgg5jpzey88aawdl5xlm7qram0dc4pnmyzhx" target="_blank" class="prop-voter-addr">gonka18yjgg5…nmyzhx</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1gvpv7vhk5gyxhmf9u8sc8pw5j8fr6lzalyrmkx" target="_blank" class="prop-voter-addr">gonka1gvpv7v…lyrmkx</a></td><td><span class="prop-voter-option prop-vote-no">No 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka15husl7uwuj4870v0cm72qmp0exgvesuhe2k8wx" target="_blank" class="prop-voter-addr">gonka15husl7…e2k8wx</a></td><td><span class="prop-voter-option prop-vote-no">No 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1kg3hrxwszdlu9dkk3gtzn7ldmyck8hhqqr6pw6" target="_blank" class="prop-voter-addr">gonka1kg3hrx…qr6pw6</a></td><td><span class="prop-voter-option prop-vote-veto">No_With_Veto 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1kvmerzu64094dt9t62ea0cp75larh39ulzldum" target="_blank" class="prop-voter-addr">gonka1kvmerz…lzldum</a></td><td><span class="prop-voter-option prop-vote-no">No 100.0%</span></td></tr>
+<tr><td><a href="https://gonka.gg/address/gonka168rtjfkszuhcggg4dfyse4yh7xn9zwfglnkns2" target="_blank" class="prop-voter-addr">gonka168rtjf…lnkns2</a></td><td><span class="prop-voter-option prop-vote-abstain">Abstain 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka16dgkvx7mh609ntkzknckwaskgq9lcdp86j0skk" target="_blank" class="prop-voter-addr">gonka16dgkvx…6j0skk</a></td><td><span class="prop-voter-option prop-vote-no">No 100.0%</span></td></tr>
 </tbody>
 </table>
