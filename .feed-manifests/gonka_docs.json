@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-09-24T00:10:57.597794+00:00",
+  "snapshot_time": "2026-09-24T05:43:05.802710+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -204,7 +204,7 @@
       "title": "High-availability devshard host setup",
       "status": null,
       "content_preview": "# High-availability devshard host setup\n\nDevshard inference that stays available, backed by multiple `versiond` instances.\n\n## Contents\n\n- [Why this matters](#why-this-matters)\n- [Release and images](#release-and-images)\n- [Prerequisites](#prerequisites)\n- [Install a new host](#install-a-new-host)\n- [Upgrade an existing host](#upgrade-an-existing-host)\n- [Add a remote replica](#add-a-remote-replica)\n- [Add a local replica](#add-a-local-replica)\n- [Operate the deployment](#operate-the-deployment)\n- [Troubleshooting](#troubleshooting)\n\n## Why this matters\n\nA single `versiond` process is a single point of failure (SPOF): if that machine or container dies, gateways cannot reach your host for that protocol version.\n\nRun multiple `versiond` instances behind the router fleet, with shared PostgreS",
-      "checksum": "f2efa456187da6f2ce2329d8e27599800543ab4c04390c5ed75b922d900c4343"
+      "checksum": "5e8294bd0959e615cc0bbefc9c384971effa0efde1c8a4acdcf4fbfcf8e257cd"
     },
     "host/genesis.md": {
       "title": "Gonka Genesis Ceremony",
