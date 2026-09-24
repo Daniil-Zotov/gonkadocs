@@ -71,8 +71,8 @@ hide:
     <span>Voting ends 2026-09-25</span>
   </div>
   <div class="prop-card-desc">HSC Asset Management proposes that the Gonka community allocate 15,000 USDT from the Community Pool for a fireside chat on AI for Gonka's founders at HSC Asset Management Singapore, a one-day institut…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span> · <span class="prop-tally-no-text">No <strong>77.5%</strong> (97,681)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>22.5%</strong> (28,340)</span><span class="prop-card-funding prop-card-funding-voting">$15,000 · Community Pool</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>19.1%</strong> (126,021 / 659,267) · Quorum <strong>25%</strong> (164,816)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span> · <span class="prop-tally-no-text">No <strong>70.6%</strong> (95,308)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>29.4%</strong> (39,675)</span><span class="prop-card-funding prop-card-funding-voting">$15,000 · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>19.8%</strong> (134,983 / 682,792) · Quorum <strong>25%</strong> (170,698)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -1504,7 +1504,7 @@ hide:
 
 </div>
 <div class="prop-oview-stats">
-<em>106 proposals across 5 quarters. Last updated: 2026-09-24 16:40 UTC</em>
+<em>106 proposals across 5 quarters. Last updated: 2026-09-24 17:40 UTC</em>
 </div>
 
 <script>
