@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260924223333_913735b8",
+    "timestamp": "2026-09-24T22:33:33.659804+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1821 — Cosmos SDK / fork security v0.2.18",
+      "url": "/community/issues/01821-cosmos-sdk-fork-security-v0218/",
+      "file": "01821-cosmos-sdk-fork-security-v0218.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Cosmos SDK / fork security v0.2.18\n    <span class=\"issues-number\">#1821</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-22 02:35 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style=\"b",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Cosmos SDK / fork security v0.2.18\n    <span class=\"issues-number\">#1821</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-22 02:35 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style=\"ba"
+    },
+    "ai_description": "Issue #1821 on Cosmos SDK fork security has a new comment added. The discussion is still open, so the community is actively engaging on this topic. Check it out if you're following the security conversation.Issue #1821 on Cosmos SDK fork security just got its first comment, moving the discussion forward. The issue remains open, so the community is actively weighing in on this important topic. Head over to see the new perspective."
+  },
+  {
     "id": "evt_20260924191920_957fbbef",
     "timestamp": "2026-09-24T19:19:20.940743+00:00",
     "section": "issues",
@@ -8026,20 +8042,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    PoC params on-chain\n    <span class=\"issues-number\">#597</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-15 23:57 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div"
     },
     "ai_description": "Issue #597 \"PoC params on-chain\" has been closed and removed from the community feed. The proposal, which sought to put proof-of-concept parameters on-chain, is no longer active, so the discussion around that specific change is now concluded. Keep an eye on the feed for any future iterations on this topic."
-  },
-  {
-    "id": "evt_20260910143102_b76d966f",
-    "timestamp": "2026-09-10T14:31:02.672568+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#598 — Epoch performance additional query",
-      "url": null,
-      "file": "00598-epoch-performance-additional-query.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Epoch performance additional query\n    <span class=\"issues-number\">#598</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-16 00:02 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></di"
-    },
-    "ai_description": "Issue #598 on epoch performance querying has been closed and removed from the feed. This cleanup keeps our activity board focused on active discussions and actionable items, so the community can track relevant developments without stale entries. Thanks to @tcharchian for raising it earlier. Stay tuned for fresh updates on network performance.Issue #598 on epoch performance querying has been closed and removed from the feed. This cleanup keeps our activity board focused on active discussions and actionable items, so the community can track relevant developments without stale entries. Thanks to @tcharchian for raising it earlier. Stay tuned for fresh updates on network performance."
   }
 ]
