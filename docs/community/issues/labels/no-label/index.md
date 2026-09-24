@@ -6,7 +6,7 @@ template: issues-main.html
 # Issues: no-label
 
 Issues with label **no-label**. Total: **290**.
-Updated: `2026-09-24 10:14 UTC`.
+Updated: `2026-09-24 15:19 UTC`.
 
 [← All Issues](../../index.md)
 
@@ -21,7 +21,7 @@ Updated: `2026-09-24 10:14 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/aleksandr-cstl">@aleksandr-cstl</a> opened 11 hours ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/aleksandr-cstl">@aleksandr-cstl</a> opened 16 hours ago</span>
       
     </div>
   </div>
@@ -36,7 +36,7 @@ Updated: `2026-09-24 10:14 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/samuelonn1993">@samuelonn1993</a> opened 13 hours ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/samuelonn1993">@samuelonn1993</a> opened 18 hours ago</span>
       
     </div>
   </div>
@@ -651,7 +651,7 @@ Updated: `2026-09-24 10:14 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/inecro1">@inecro1</a> opened 11 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/inecro1">@inecro1</a> opened 12 days ago</span>
       
     </div>
   </div>
@@ -696,7 +696,7 @@ Updated: `2026-09-24 10:14 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/kAIPraxisBot">@kAIPraxisBot</a> opened 16 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/kAIPraxisBot">@kAIPraxisBot</a> opened 17 days ago</span>
       
     </div>
   </div>
