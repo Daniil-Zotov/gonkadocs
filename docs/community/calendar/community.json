@@ -283,5 +283,24 @@
     "duration_minutes": 60,
     "location": "https://meet.google.com/bvh-eauh-ien",
     "uid": "gonka-2026-09-22-32bb2b7ba919@gonkadocs.com"
+  },
+  {
+    "date": "2026-09-25",
+    "category": "community",
+    "type": "ama",
+    "title": "100 PROPOSALS OVERVIEW",
+    "url": null,
+    "time": "16:30 UTC",
+    "description": "One hundred proposals in, what has the Gonka community achieved, and what have we learned along the way? Join us for a conversation about the results so far and how the proposal process is evolving.\n\nTopics:\n• Which proposals made a difference;\n• How ideas move from voting to delivery;\n• Execution, accountability and reporting.\n\n📅 Friday, September 25\n🕣 09:30 LA · 16:30 UTC · 19:30 MSK\n💻 Zoom\n🗣 Language: English\n🎙 Speakers: @pavelp221, @sultee, @paranko + special guest",
+    "tags": [
+      "ama",
+      "proposals",
+      "governance",
+      "overview"
+    ],
+    "is_all_day": false,
+    "duration_minutes": 60,
+    "location": null,
+    "uid": "gonka-2026-09-25-fbbdf8b09660@gonkadocs.com"
   }
 ]
