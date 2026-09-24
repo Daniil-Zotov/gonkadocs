@@ -60,7 +60,7 @@ Deck: <https://www.figma.com/proto/BprnE9fc5HUqmKWlN65yUq/HSC-%3C%3E-Gonka-DAO?t
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>29.4%</strong> (39,675)</span>
     <span class="prop-tally-total-text">Total 134,983 votes</span>
-    <span class="prop-tally-veto-text">✗ Turnout <strong>19.8%</strong> (134,983 / 682,792) · Quorum <strong>25%</strong> (170,698)</span>
+    <span class="prop-tally-veto-text">✗ Turnout <strong>19.8%</strong> (134,983 / 681,970) · Quorum <strong>25%</strong> (170,492)</span>
   </div>
 </div>
 
