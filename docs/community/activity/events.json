@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260924191920_957fbbef",
+    "timestamp": "2026-09-24T19:19:20.940743+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1841 — `devshard`: stream chunks signature and empty stream detection",
+      "url": "/community/issues/01841-devshard-stream-chunks-signature-and-empty-stream-detection/",
+      "file": "01841-devshard-stream-chunks-signature-and-empty-stream-detection.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: stream chunks signature and empty stream detection\n    <span class=\"issues-number\">#1841</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-24 18:42 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n"
+    },
+    "ai_description": "New issue #1841 has been opened by @tcharchian proposing improvements to the devshard component, specifically around signing stream chunks and detecting empty streams. This is an important step for ensuring data integrity and reliability in our inference network. Check it out and join the discussion if you have insights to share.New issue #1841 has been opened by @tcharchian, proposing enhancements to devshard for signing stream chunks and detecting empty streams. This is a key step toward stronger data integrity and reliability in our inference pipeline. Dive in and share your thoughts if this area is relevant to your work."
+  },
+  {
     "id": "evt_20260924175507_4c4d3056",
     "timestamp": "2026-09-24T17:55:07.365075+00:00",
     "section": "calendar",
@@ -8025,20 +8041,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Epoch performance additional query\n    <span class=\"issues-number\">#598</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-16 00:02 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></di"
     },
     "ai_description": "Issue #598 on epoch performance querying has been closed and removed from the feed. This cleanup keeps our activity board focused on active discussions and actionable items, so the community can track relevant developments without stale entries. Thanks to @tcharchian for raising it earlier. Stay tuned for fresh updates on network performance.Issue #598 on epoch performance querying has been closed and removed from the feed. This cleanup keeps our activity board focused on active discussions and actionable items, so the community can track relevant developments without stale entries. Thanks to @tcharchian for raising it earlier. Stay tuned for fresh updates on network performance."
-  },
-  {
-    "id": "evt_20260910143102_33df75ac",
-    "timestamp": "2026-09-10T14:31:02.672574+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#599 — BLS for long list of validators & Contract fixes",
-      "url": null,
-      "file": "00599-bls-for-long-list-of-validators-contract-fixes.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    BLS for long list of validators & Contract fixes\n    <span class=\"issues-number\">#599</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-16 00:06 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-t"
-    },
-    "ai_description": "Issue #599 on BLS signature handling for large validator sets and related contract fixes has been closed and removed from the feed. This means the proposed work is no longer being tracked as an open item, likely resolved or deprioritized. Community members who were following this topic can now consider it concluded. Stay tuned for the next updates in the issue tracker."
   }
 ]
