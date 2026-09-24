@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-09-24T05:06:43.874686+00:00",
+  "snapshot_time": "2026-09-24T10:15:12.412712+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "#310 — BUG-1: Preserved node disabling",
@@ -3639,13 +3639,16 @@
     "01726-xinference-collateralparamsdowntimemissedpercentagethreshold.md": {
       "title": "#1726 — x/inference: CollateralParams.DowntimeMissedPercentageThreshold is governance-settable but read by nothing, and SlashForDowntime's comment describes a check it does not perform",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    x/inference: CollateralParams.DowntimeMissedPercentageThreshold is governance-settable but read by nothing, and SlashForDowntime's comment describes a check it does not perform\n    <span class=\"issues-number\">#1726</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kAIPraxisBot\">@kAIPraxisBot</a> opened 2026-09-07 14:23 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</s",
-      "comment_checksum": "aa6210717d563a3251e9a6fe6e266c9a05fc58d76bb61dfe4a75fc71202de032",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    x/inference: CollateralParams.DowntimeMissedPercentageThreshold is governance-settable but read by nothing, and SlashForDowntime's comment describes a check it does not perform\n    <span class=\"issues-number\">#1726</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kAIPraxisBot\">@kAIPraxisBot</a> opened 2026-09-07 14:23 UTC</span>\n    <span class=\"issues-meta-item\">5 comments</s",
+      "comment_checksum": "b50df01eeff0e21fdb8bf4dc9b8ad9b3b141cb9db4045d59eae6e579e2e942de",
       "comment_bodies": [
         "Correcting my own framing above, having since read the live parameters rather than the code defaults. The core claim is unaffected — DowntimeMissedPercentageThreshold is still read by nothing — but the section headed \"Why this looks like residue rather than a bug\" describes the SPRT as what shipped in its place, and on mainnet that test cannot currently fire. Live validation_params, epoch 386: par",
-        "Validated this against the current codebase — the issue is fully valid. DowntimeMissedPercentageThreshold is only declared, defaulted, serialized, and validated. It is not used by any runtime decision-making logic. Downtime detection is handled by the SPRT using DowntimeGoodPercentage, DowntimeBadPercentage, and DowntimeHThreshold in getInactiveStatus. Once a participant transitions to INACTIVE, S"
+        "Validated this against the current codebase — the issue is fully valid. DowntimeMissedPercentageThreshold is only declared, defaulted, serialized, and validated. It is not used by any runtime decision-making logic. Downtime detection is handled by the SPRT using DowntimeGoodPercentage, DowntimeBadPercentage, and DowntimeHThreshold in getInactiveStatus. Once a participant transitions to INACTIVE, S",
+        "I'll take this one. Starting with the documentation fix path (correcting SlashForDowntime comment + marking param as deprecated) since it's lower risk and can be done independently of the state migration.",
+        "Will fix the misleading documentation in SlashForDowntime and mark the parameter as deprecated in the relevant places.",
+        "I'm taking this one. Following the suggested documentation fix approach since removing the parameter would require a state-breaking change and upgrade handler. PR: #1835 Changes: - Mark downtime_missed_percentage_threshold as deprecated in proto - Correct SlashForDowntime doc comment to reflect that the threshold decision happens upstream in the INACTIVE transition (SPRT-based) - Update design doc"
       ],
-      "checksum": "1f0448706a0ecece8647fba8237beb340d60828ff4d6548c6e7f0c15ccfb3791"
+      "checksum": "48636e7232a6e56974d6f685d20b7b680a2cc1a2c9d536e8b9b98bae2b996e20"
     },
     "01733-extend-e2e-for-ha-devshard-config-with-multiple-routers-and-.md": {
       "title": "#1733 — Extend e2e for HA devshard config with multiple routers and multiple versiond",

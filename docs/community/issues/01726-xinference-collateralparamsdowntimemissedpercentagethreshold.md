@@ -2,7 +2,7 @@
 title: "#1726 — x/inference: CollateralParams.DowntimeMissedPercentageThreshold is governance-settable but read by nothing, and SlashForDowntime's comment describes a check it does not perform"
 source: https://github.com/gonka-ai/gonka/issues/1726
 issue_number: 1726
-synced_at: 2026-09-24T05:02:30Z
+synced_at: 2026-09-24T10:09:56Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/kAIPraxisBot">@kAIPraxisBot</a> opened 2026-09-07 14:23 UTC</span>
-    <span class="issues-meta-item">2 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-18 23:56 UTC</span>
+    <span class="issues-meta-item">5 comments</span>
+    <span class="issues-meta-item">Updated 2026-09-24 06:49 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
 </div>
@@ -79,7 +79,7 @@ Read from `main` at `379bebced6`. I searched open issues and pull requests for `
 
 ---
 
-## 💬 Comments (2)
+## 💬 Comments (5)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -132,6 +132,39 @@ Read from `main` at `379bebced6`. I searched open issues and pull requests for `
 <p>Downtime detection is handled by the SPRT using <code>DowntimeGoodPercentage</code>, <code>DowntimeBadPercentage</code>, and <code>DowntimeHThreshold</code> in <a href="https://github.com/gonka-ai/gonka/blob/379bebced638aeb5e6077bfd51c986f898443832/inference-chain/x/inference/calculations/status.go#L90-L111"><code>getInactiveStatus</code></a>.</p>
 <p>Once a participant transitions to <code>INACTIVE</code>, <a href="https://github.com/gonka-ai/gonka/blob/379bebced638aeb5e6077bfd51c986f898443832/inference-chain/x/inference/keeper/collateral.go#L195-L213"><code>SlashForDowntime</code></a> applies <code>SlashFractionDowntime</code> directly and never reads or compares <code>DowntimeMissedPercentageThreshold</code>.</p>
 <p>Therefore, changing this parameter through governance has no behavioral effect. We can safely remove it, together with the outdated documentation and comment, as part of an upgrade that handles the params/state migration.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/Ryanchen911">@Ryanchen911</a></span>
+    <span class="issues-meta-item">commented 2026-09-24 06:33 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>I'll take this one. Starting with the documentation fix path (correcting SlashForDowntime comment + marking param as deprecated) since it's lower risk and can be done independently of the state migration.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/Ryanchen911">@Ryanchen911</a></span>
+    <span class="issues-meta-item">commented 2026-09-24 06:39 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Will fix the misleading documentation in <code>SlashForDowntime</code> and mark the parameter as deprecated in the relevant places.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/Ryanchen911">@Ryanchen911</a></span>
+    <span class="issues-meta-item">commented 2026-09-24 06:49 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>I'm taking this one. Following the suggested documentation fix approach since removing the parameter would require a state-breaking change and upgrade handler.</p>
+<p>PR: #1835</p>
+<p>Changes:
+- Mark <code>downtime_missed_percentage_threshold</code> as deprecated in proto
+- Correct <code>SlashForDowntime</code> doc comment to reflect that the threshold decision happens upstream in the INACTIVE transition (SPRT-based)
+- Update design docs to document the superseded mechanism</p>
+<p>This prevents governance confusion without requiring a chain upgrade.</p>
   </div>
 </div>
 
