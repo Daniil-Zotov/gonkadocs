@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260925013934_8d652ded",
+    "timestamp": "2026-09-25T01:39:34.986172+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1762 — devshard: host bridge drops escrow refusal_timeout/execution_timeout, so host and gateway can bind different SessionConfig",
+      "url": "/community/issues/01762-devshard-host-bridge-drops-escrow-refusal-timeoutexecution-t/",
+      "file": "01762-devshard-host-bridge-drops-escrow-refusal-timeoutexecution-t.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard: host bridge drops escrow refusal_timeout/execution_timeout, so host and gateway can bind different SessionConfig\n    <span class=\"issues-number\">#1762</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kAIPraxisBot\">@kAIPraxisBot</a> opened 2026-09-13 03:44 UTC</span>\n    <span class=\"issues-meta-item\">6 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </di",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    devshard: host bridge drops escrow refusal_timeout/execution_timeout, so host and gateway can bind different SessionConfig\n    <span class=\"issues-number\">#1762</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kAIPraxisBot\">@kAIPraxisBot</a> opened 2026-09-13 03:44 UTC</span>\n    <span class=\"issues-meta-item\">6 comments</span>\n    <span class=\""
+    },
+    "ai_description": "Issue #1762 has been closed. The problem was that the host bridge was dropping escrow timeout values, which could cause the host and gateway to use different session configurations. Closing this issue signals the fix has been addressed, keeping the network consistent. Thanks to everyone who contributed to resolving it. 🎉Issue #1762 has been closed. The problem was that the host bridge was dropping escrow timeout values, which could cause mismatched session configurations between host and gateway. Closing this issue signals the fix has been addressed, keeping the network consistent. Thanks to everyone who contributed to resolving it."
+  },
+  {
     "id": "evt_20260925004259_e76dc973",
     "timestamp": "2026-09-25T00:42:59.213436+00:00",
     "section": "calendar",
@@ -8043,20 +8059,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Enable BLS DealerShared recovery if container restarted\n    <span class=\"issues-number\">#595</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-15 23:53 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"m"
     },
     "ai_description": "Issue #595 on BLS DealerShared recovery after container restarts has been closed and removed from the tracking board. The proposal was opened by @tcharchian on January 15 but received no community discussion, so it has been shelved. This means the recovery enhancement is no longer an active priority for the network."
-  },
-  {
-    "id": "evt_20260910143102_1ca249d0",
-    "timestamp": "2026-09-10T14:31:02.672554+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#596 — Batching for StartInference / FinishInference",
-      "url": null,
-      "file": "00596-batching-for-startinference-finishinference.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Batching for StartInference / FinishInference\n    <span class=\"issues-number\">#596</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-15 23:55 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top:"
-    },
-    "ai_description": "Issue #596 on batching for StartInference and FinishInference has been closed and removed from the feed. The proposal aimed to improve efficiency by grouping these inference lifecycle calls, which could reduce overhead and streamline processing for the network. Its removal means the community won't be moving forward with this particular optimization at this time."
   }
 ]
