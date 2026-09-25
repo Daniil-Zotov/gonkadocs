@@ -2,7 +2,7 @@
 title: "#627 — vLLM 0.11.0 — Inference validation"
 source: https://github.com/gonka-ai/gonka/issues/627
 issue_number: 627
-synced_at: 2026-09-25T01:38:52Z
+synced_at: 2026-09-25T07:59:19Z
 template: issues-main.html
 ---
 
