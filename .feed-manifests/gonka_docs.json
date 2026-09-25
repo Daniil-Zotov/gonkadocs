@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-09-25T01:04:10.707144+00:00",
+  "snapshot_time": "2026-09-25T06:56:43.897267+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -317,8 +317,8 @@
     "network-updates.md": {
       "title": "Announcements",
       "status": null,
-      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## September 22, 2026\n\n**Pull Request Review for Upgrade v0.2.16**\n\nThe pull request for the next on-chain software upgrade, v0.2.16, is open for review [https://github.com/gonka-ai/gonka/pull/1535](https://github.com/gonka-ai/gonka/pull/1535). Meaningful r",
-      "checksum": "78d0ca74efed1a74b124f58d997b7d0c902a3f017079ac0d77923719ddc29ed2"
+      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## September 25, 2026\n\n**Proposal 108 is open for voting: DevShard v5.0.2**\n\nAn important fix for DevShard node failures. It also retires v3 and v4.\n\nVoting closes **27 September, 00:03 UTC**.\n\n**What it fixes**\n\nEach running DevShard version opened a Postg",
+      "checksum": "7d85abb7eea647648595508d345f75e937c850045d9162bd726ded9462916d1b"
     },
     "participant/README.md": {
       "title": "Redirecting to Host Section",

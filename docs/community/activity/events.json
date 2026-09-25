@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260925065640_cae44db4",
+    "timestamp": "2026-09-25T06:56:40.233166+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "Announcements",
+      "url": "/gonka/docs/network-updates/",
+      "file": "network-updates.md"
+    },
+    "details": {
+      "content_before": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## September 22, 2026\n\n**Pull Request Review for Upgrade v0.2.16**\n\nThe pull request for the next on-chain software upgrade, v0.2.16, is open for review [https://github.com/gonka-ai/gonka/pull/1535](https://github.com/gonka-ai/gonka/pull/1535). Meaningful r",
+      "content_after": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## September 25, 2026\n\n**Proposal 108 is open for voting: DevShard v5.0.2**\n\nAn important fix for DevShard node failures. It also retires v3 and v4.\n\nVoting closes **27 September, 00:03 UTC**.\n\n**What it fixes**\n\nEach running DevShard version opened a Postg"
+    },
+    "ai_description": "The Announcements page has been updated with a new governance vote. Proposal 108, covering DevShard v5.0.2, is now open for voting until September 27th, and its main purpose is to fix node failures while retiring older v3 and v4 versions. Community members are encouraged to review the proposal details and cast their votes before the deadline."
+  },
+  {
     "id": "evt_20260925024222_e8d2cd29",
     "timestamp": "2026-09-25T02:42:22.376351+00:00",
     "section": "calendar",
@@ -8049,20 +8065,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Fix tally voting\n    <span class=\"issues-number\">#593</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-15 23:44 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div cl"
     },
     "ai_description": "Issue #593 \"Fix tally voting\" has been removed from the feed. The closed report about addressing tally voting is no longer tracked, so the community should focus on other open items. This cleanup keeps the activity feed current and relevant.Issue #593 \"Fix tally voting\" has been removed from the Gonka activity feed. This closed issue, opened by @tcharchian with no comments, is no longer tracked, keeping our community updates focused on active work."
-  },
-  {
-    "id": "evt_20260910143102_f3ac5c59",
-    "timestamp": "2026-09-10T14:31:02.672542+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#594 — Make sure batch finish/start inferences don't fail",
-      "url": null,
-      "file": "00594-make-sure-batch-finishstart-inferences-dont-fail.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Make sure batch finish/start inferences don't fail\n    <span class=\"issues-number\">#594</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-15 23:46 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin"
-    },
-    "ai_description": "Issue #594 about ensuring batch inference start and finish operations don't fail has been closed and removed from the feed. The fix ensures that batch transitions in the inference pipeline are more reliable, reducing the risk of dropped workloads. Thanks to @tcharchian for flagging this important stability concern. The network should now process batches more smoothly without unexpected interruptions."
   }
 ]
