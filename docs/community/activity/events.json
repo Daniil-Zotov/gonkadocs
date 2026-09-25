@@ -17,7 +17,7 @@
       "event_type": "proposal_vote_end",
       "url": "/proposals/proposals/2026-q3/108/"
     },
-    "ai_description": null
+    "ai_description": "The community calendar now marks the voting deadline for proposal #108, which seeks to update DevShard v5 to v5.0.2 and retire the older v3 and v4 versions. This is a critical fix because each running Devshard version opens a Postgres pool sized to the host CPU count, so consolidating versions will help stabilize the overall deployment. Make sure your vote is in before the deadline to support a leaner, more efficient network."
   },
   {
     "id": "evt_20260925013934_8d652ded",
