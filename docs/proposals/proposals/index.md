@@ -34,15 +34,15 @@ hide:
 ## Overview
 
 <div class="qs-stats">
-<div class="qs-stat total"><span class="qs-num">106</span><span class="qs-desc">Total Proposals</span></div>
-<div class="qs-stat passed"><span class="qs-num">71</span><span class="qs-desc">Passed (67%)</span></div>
+<div class="qs-stat total"><span class="qs-num">107</span><span class="qs-desc">Total Proposals</span></div>
+<div class="qs-stat passed"><span class="qs-num">71</span><span class="qs-desc">Passed (66%)</span></div>
 <div class="qs-stat rejected"><span class="qs-num">33</span><span class="qs-desc">Rejected (31%)</span></div>
 <div class="qs-stat failed"><span class="qs-num">1</span><span class="qs-desc">Failed (1%)</span></div>
 </div>
 
 <div class="qs-categories">
-<div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:42%"></span></span><span class="qs-value">44</span></div>
-<div class="qs-row"><span class="qs-label">Governance Parameters</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:33%"></span></span><span class="qs-value">35</span></div>
+<div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:41%"></span></span><span class="qs-value">44</span></div>
+<div class="qs-row"><span class="qs-label">Governance Parameters</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:34%"></span></span><span class="qs-value">36</span></div>
 <div class="qs-row"><span class="qs-label">Software Upgrade</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:17%"></span></span><span class="qs-value">18</span></div>
 <div class="qs-row"><span class="qs-label">Other</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:4%"></span></span><span class="qs-value">4</span></div>
 <div class="qs-row"><span class="qs-label">GRC / Restitution</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:3%"></span></span><span class="qs-value">3</span></div>
@@ -58,7 +58,22 @@ hide:
 <div class="prop-quarter" id="2026-q3" markdown="1">
 ## 2026-Q3
 
-*28 proposals*
+*29 proposals*
+
+<div class="prop-card" data-status="prop-voting" data-voting-end="2026-09-27T00:03:53.716433398Z">
+  <div class="prop-card-header">
+    <a href="2026-q3/108/" class="prop-card-title">#108 – Update DevShard v5 to v5.0.2</a>
+    <span class="prop-vote-countdown" data-deadline="2026-09-27T00:03:53.716433398Z"></span>
+    <span class="prop-badge prop-voting">Voting</span>
+  </div>
+  <div class="prop-card-meta">
+    <span>Submitted 2026-09-25</span>
+    <span>Voting ends 2026-09-27</span>
+  </div>
+  <div class="prop-card-desc">Update DevShard v5 to v5.0.2 and retire v3 and v4  This proposal is a critical fix for the overall Devshard deployment. Each running Devshard version opened a Postgres pool sized to the host CPU count…</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (881)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>0.1%</strong> (881 / 681,970) · Quorum <strong>25%</strong> (170,492)</span></div>
+</div>
 
 <div class="prop-card" data-status="prop-voting" data-voting-end="2026-09-25T13:20:39.270035592Z">
   <div class="prop-card-header">
@@ -71,8 +86,8 @@ hide:
     <span>Voting ends 2026-09-25</span>
   </div>
   <div class="prop-card-desc">HSC Asset Management proposes that the Gonka community allocate 15,000 USDT from the Community Pool for a fireside chat on AI for Gonka's founders at HSC Asset Management Singapore, a one-day institut…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span> · <span class="prop-tally-no-text">No <strong>89.8%</strong> (349,017)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>10.2%</strong> (39,675)</span><span class="prop-card-funding prop-card-funding-voting">$15,000 · Community Pool</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>57.0%</strong> (388,692 / 681,970) · Quorum <strong>25%</strong> (170,492)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span> · <span class="prop-tally-no-text">No <strong>89.6%</strong> (349,017)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>10.4%</strong> (40,556)</span><span class="prop-card-funding prop-card-funding-voting">$15,000 · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>57.1%</strong> (389,573 / 681,970) · Quorum <strong>25%</strong> (170,492)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -1504,7 +1519,7 @@ hide:
 
 </div>
 <div class="prop-oview-stats">
-<em>106 proposals across 5 quarters. Last updated: 2026-09-25 00:02 UTC</em>
+<em>107 proposals across 5 quarters. Last updated: 2026-09-25 01:40 UTC</em>
 </div>
 
 <script>

@@ -7,6 +7,20 @@
     <language>en</language>
     <atom:link href="https://gonkadocs.com/proposals/proposals/proposals.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>#108 – Update DevShard v5 to v5.0.2</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q3/108/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q3/108/</guid>
+      <pubDate>Fri, 25 Sep 2026 00:03:53 +0000</pubDate>
+      <category>Voting</category>
+      <description>Update DevShard v5 to v5.0.2 and retire v3 and v4
+
+This proposal is a critical fix for the overall Devshard deployment. Each running Devshard version opened a Postgres pool sized to the host CPU count. Several versions on one multicore host used every connection and the node failed.
+
+It removes the outdated v3 and v4 binaries, leaves v4.1 unchanged, and updates v5 to v5.0.2. v5.0.2 caps payload pools at the session limit (PG_POOL_MAX_CONNS, default 4).
+
+It also stops inference-timeout waits from</description>
+    </item>
+    <item>
       <title>#107 – Gonka at HSC Asset Management Singapore, 8 October 2026</title>
       <link>https://gonkadocs.com/proposals/proposals/2026-q3/107/</link>
       <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q3/107/</guid>

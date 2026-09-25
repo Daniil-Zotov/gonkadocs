@@ -1450,5 +1450,17 @@
     "tags": [
       "voting"
     ]
+  },
+  {
+    "date": "2026-09-27",
+    "category": "governance",
+    "type": "proposal_vote_end",
+    "title": "Voting ends: #108 – Update DevShard v5 to v5.0.2",
+    "url": "/proposals/proposals/2026-q3/108/",
+    "time": "00:03 UTC",
+    "description": "Update DevShard v5 to v5.0.2 and retire v3 and v4\n\nThis proposal is a critical fix for the overall Devshard deployment. Each running Devshard version opened a Postgres pool sized to the host CPU count…",
+    "tags": [
+      "voting"
+    ]
   }
 ]
