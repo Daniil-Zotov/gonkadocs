@@ -1,5 +1,25 @@
 [
   {
+    "id": "evt_20260925172816_983f24d5",
+    "timestamp": "2026-09-25T17:28:16.365653+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Rejected: #107 – Gonka at HSC Asset Management Singapore, 8 October 2026",
+      "url": "/proposals/proposals/2026-q3/107/",
+      "file": "6b8890606cb9de09fae213097bfffe684c16ed3e3535e04b4cf6ab99900b20b2"
+    },
+    "details": {
+      "status": null,
+      "content": "HSC Asset Management proposes that the Gonka community allocate 15,000 USDT from the Community Pool for a fireside chat on AI for Gonka's founders at HSC Asset Management Singapore, a one-day institut…",
+      "date": "2026-09-25",
+      "time": "13:20 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q3/107/"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260925140003_7df1a078",
     "timestamp": "2026-09-25T14:00:03.135704+00:00",
     "section": "issues",
@@ -8053,20 +8073,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Don't send TX if node is behind\n    <span class=\"issues-number\">#589</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-15 23:33 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n"
     },
     "ai_description": "Issue #589 \"Don't send TX if node is behind\" has been removed from the community feed. This closed proposal aimed to prevent transaction submissions when a node is lagging, which would have helped avoid wasted network fees and potential consensus issues. Its removal means the team has moved on from this approach, so keep an eye out for alternative solutions to node synchronization problems."
-  },
-  {
-    "id": "evt_20260910143102_327328ba",
-    "timestamp": "2026-09-10T14:31:02.672519+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#590 — Improve TXManager reliability, add block-based deadlines, don't send invalid TXs",
-      "url": null,
-      "file": "00590-improve-txmanager-reliability-add-block-based-deadlines-dont.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Improve TXManager reliability, add block-based deadlines, don't send invalid TXs\n    <span class=\"issues-number\">#590</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-15 23:35 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class"
-    },
-    "ai_description": "Issue #590 on improving TXManager reliability has been removed from the feed. The proposal, which aimed to add block-based deadlines and prevent invalid transaction submissions, is no longer tracked here. Its removal likely signals the work was either merged into another task or deprioritized, so keep an eye on related updates.Issue #590 on improving TXManager reliability has been closed and removed from the feed. The proposal aimed to add block-based deadlines and prevent invalid transaction submissions, but it's no longer active. This likely means the work was resolved or deprioritized, so keep an eye on related updates."
   }
 ]
