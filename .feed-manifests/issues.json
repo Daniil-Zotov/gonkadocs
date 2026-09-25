@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-09-25T08:00:01.816667+00:00",
+  "snapshot_time": "2026-09-25T14:00:45.258871+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "#310 — BUG-1: Preserved node disabling",
@@ -2602,14 +2602,15 @@
     "01173-tee-implementation.md": {
       "title": "#1173 — TEE Implementation",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    TEE Implementation\n    <span class=\"issues-number\">#1173</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-05-16 06:45 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style=\"background-color:",
-      "comment_checksum": "921b9c7be14bd418e1147e01da3a6eec64e8a5e0d0fa83c08d0260c6579ffd36",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    TEE Implementation\n    <span class=\"issues-number\">#1173</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-05-16 06:45 UTC</span>\n    <span class=\"issues-meta-item\">4 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style=\"background-color:",
+      "comment_checksum": "647666f5ce83ebc17e590a82640abe89f8f407e73ebbf4b0ade22e7a5a378241",
       "comment_bodies": [
         "Some first experiments on this in #1246 - covers the wiring end-to-end (chain, dapi, ml-node, devshard) + a Phala CVM smoke test Not a final implementation, but should give a head start",
         "Strong +1 for prioritizing this. My blocker is practical, not theoretical: I run AI agents over private operational context, and I cannot route real prompts/responses through Gonka while the selected host can read them. Privacy sanitization is useful as a temporary guardrail, but it does not solve the core threat model. The feature I would actually use is an attested private inference path: client",
-        "Hi, thanks for the message! 1246 is a first experiments PR - it connects the private path across chain, dapi and ml-node, with a Phala TDX smoke test. It's not the MVP yet, still some work before we can really test it Rough plan (from my mind): - Review and land #1246 as the base - Add dual attestation (intel-tdx + nvidia-cc) so the GPU side is covered too, not just the CPU - Do a full end-to-end "
+        "Hi, thanks for the message! 1246 is a first experiments PR - it connects the private path across chain, dapi and ml-node, with a Phala TDX smoke test. It's not the MVP yet, still some work before we can really test it Rough plan (from my mind): - Review and land #1246 as the base - Add dual attestation (intel-tdx + nvidia-cc) so the GPU side is covered too, not just the CPU - Do a full end-to-end ",
+        "Hi all, We'd like to share a proposal that builds on the current status and the work in PR #1246, where only the initial wiring was tested (a TDX smoke test on a cloud CVM). Reviewing the PR, we found several gaps that need to be closed before it can protect anything. The verifier checks only MRTD, so the kernel and the application are not pinned, and there are no DEBUG, TCB or CRL checks. report_"
       ],
-      "checksum": "5f0b2b2bfc7d8d1e55c7572b1355e74387361696bc616b88d05cec3934ebf07e"
+      "checksum": "6740c895307a516a59f54b572b8f27c941fa74154c939cb851d9cab825a76d2c"
     },
     "01178-no-available-public-kimi-k26-inference-gateways.md": {
       "title": "#1178 — No available public Kimi-K2.6 inference gateways",
@@ -3730,10 +3731,12 @@
     "01798-devshard-gateway-inter-chunk-timeout-logs-stalled-sse-stream.md": {
       "title": "#1798 — devshard gateway: inter-chunk timeout logs stalled SSE streams but does not cancel them",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard gateway: inter-chunk timeout logs stalled SSE streams but does not cancel them\n    <span class=\"issues-number\">#1798</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/aikuznetsov\">@aikuznetsov</a> opened 2026-09-18 02:37 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style",
-      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "comment_bodies": [],
-      "checksum": "61cb3e0be31367f1721ea55a67929b39051414614be85a5744c56dbb69f09d22"
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard gateway: inter-chunk timeout logs stalled SSE streams but does not cancel them\n    <span class=\"issues-number\">#1798</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/aikuznetsov\">@aikuznetsov</a> opened 2026-09-18 02:37 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=",
+      "comment_checksum": "899e08cb11783ec1160a570a654f5cb1409bc5d22b468b933069b9cf0c9e1d21",
+      "comment_bodies": [
+        "Taking this. The inter-chunk timeout currently only logs but doesn't cancel stalled streams — need to make it actually abort and retry. Approach: 1. Use InterChunkStallTimeout (not just LogThreshold) as a sliding deadline based on meaningful SSE events 2. Cancel the upstream request when the deadline expires 3. Return a typed retryable error so redundancy can try another host 4. Keep the 30min har"
+      ],
+      "checksum": "e39036a25cafa3a35dc15bb49517734751a4a0cff9f157f004ed69ea4dedd9b0"
     },
     "01799-devshard-gateway-request-specific-insufficient-balance-deact.md": {
       "title": "#1799 — devshard gateway: request-specific insufficient balance deactivates and remints a usable escrow",
@@ -3814,10 +3817,12 @@
     "01810-devshard-tool-calling-protocol-errors-invalid.md": {
       "title": "#1810 — `devshard`: Tool-calling / protocol errors → INVALID",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: Tool-calling / protocol errors → INVALID\n    <span class=\"issues-number\">#1810</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-18 22:00 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<d",
-      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "comment_bodies": [],
-      "checksum": "b63247972a895687eaf9f3ca46d1ecea6042f1b0a05212860795e64230cf5b61"
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: Tool-calling / protocol errors → INVALID\n    <span class=\"issues-number\">#1810</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-18 22:00 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<di",
+      "comment_checksum": "04c229eb0c6af8291501838ec5bba798c2073db6ac94315ebc253c1b102754dc",
+      "comment_bodies": [
+        "Hi @a-kuprin We are interested in resolving this issue, but there’s currently no description for it. Here’s what we’ve found in the code so far, and we are wondering whether the issue was created around this: Responses containing tool calls are not structurally validated: there is no validation of the JSON in arguments, no check that the tool name exists in the request’s tools, and no consistency "
+      ],
+      "checksum": "1d6bae1f117a7c63cf0ed26293fbc946d8ee22cda2d6f0eb9f161fb93221fc86"
     },
     "01812-devshard-challenge-create-instance.md": {
       "title": "#1812 — `devshard`: challenge create instance",

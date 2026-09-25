@@ -2,7 +2,7 @@
 title: "#1798 — devshard gateway: inter-chunk timeout logs stalled SSE streams but does not cancel them"
 source: https://github.com/gonka-ai/gonka/issues/1798
 issue_number: 1798
-synced_at: 2026-09-25T07:57:40Z
+synced_at: 2026-09-25T13:55:46Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/aikuznetsov">@aikuznetsov</a> opened 2026-09-18 02:37 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-18 21:23 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-09-25 09:42 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -72,6 +72,26 @@ The timeout should track meaningful `data:` events rather than arbitrary network
 Use `InterChunkStallTimeout` as a sliding deadline based on the timestamp of the last meaningful SSE event. When the deadline expires, call the attempt's cancellation function and classify the result as a retryable stalled-stream failure.
 
 The existing 30-minute `StreamingAttemptHardTimeout` should remain as an absolute safety limit, independent of stream activity.
+</div>
+
+---
+
+## 💬 Comments (1)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/Ryanchen911">@Ryanchen911</a></span>
+    <span class="issues-meta-item">commented 2026-09-25 09:42 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Taking this. The inter-chunk timeout currently only logs but doesn't cancel stalled streams — need to make it actually abort and retry.</p>
+<p>Approach:
+1. Use <code>InterChunkStallTimeout</code> (not just <code>LogThreshold</code>) as a sliding deadline based on meaningful SSE events
+2. Cancel the upstream request when the deadline expires
+3. Return a typed retryable error so redundancy can try another host
+4. Keep the 30min hard timeout as an absolute safety limit</p>
+<p>Will coordinate with ongoing v6 stream-signature work (@a-kuprin #1841) to avoid conflicts.</p>
+  </div>
 </div>
 
 ---

@@ -2,7 +2,7 @@
 title: "#1173 — TEE Implementation"
 source: https://github.com/gonka-ai/gonka/issues/1173
 issue_number: 1173
-synced_at: 2026-09-25T07:58:12Z
+synced_at: 2026-09-25T13:55:44Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-05-16 06:45 UTC</span>
-    <span class="issues-meta-item">3 comments</span>
-    <span class="issues-meta-item">Updated 2026-07-04 13:32 UTC</span>
+    <span class="issues-meta-item">4 comments</span>
+    <span class="issues-meta-item">Updated 2026-09-25 10:36 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span> <span class="issues-label" style="background-color: #1d27b4; color: #ffffff; border-color: #1d27b4;">protocol</span></div>
 </div>
@@ -172,7 +172,7 @@ Signed metadata from a TEE key is inherently trusted - the execution environment
 
 ---
 
-## 💬 Comments (3)
+## 💬 Comments (4)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -211,6 +211,18 @@ Signed metadata from a TEE key is inherently trusted - the execution environment
 <p>Just note the MVP is only to show how this can be integrated - not a secure, production-ready version yet. It's just a first direction to build on</p>
 <p>Maybe you could start with reviewing #1246 and let me know what you think? 
 From there we can discuss the next steps. And if you have any questions, feel free to ask</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/zpoken">@zpoken</a></span>
+    <span class="issues-meta-item">commented 2026-09-25 10:36 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Hi all,</p>
+<p>We'd like to share a proposal that builds on the current status and the work in PR #1246, where only the initial wiring was tested (a TDX smoke test on a cloud CVM). Reviewing the PR, we found several gaps that need to be closed before it can protect anything. The verifier checks only <code>MRTD</code>, so the kernel and the application are not pinned, and there are no DEBUG, TCB or CRL checks. <code>report_data</code> binds only the public key, so evidence can be replayed, and <code>VERIFIED</code> status is carried forward between epochs. There is no GPU attestation, every node gets the same KMS-derived key, and the encrypted route bypasses devshard accounting and validation.</p>
+<p>We wrote a draft proposal that addresses these points and covers Intel TDX, AMD SEV-SNP and NVIDIA CC: https://github.com/zpoken/gonka/tree/zpoken/tee-proposal/proposals/confidential-mlnode. Alongside it there is an attestation glossary that explains MRTD, RTMR0–3, HOST_DATA and NVIDIA evidence with vendor spec sources: https://github.com/zpoken/gonka/blob/zpoken/tee-proposal/proposals/confidential-mlnode/attestation-glossary.md.</p>
+<p>The proposal describes a self-hosted Confidential MLNode on dstack without a KMS, where keys are generated inside the CVM on every boot. The OS image, compose file, model weights (via dm-verity), GPU policy and VM shapes are pinned through an on-chain governance registry. Attestation is bound to the chain, epoch, participant and node, and NVIDIA GPU evidence is bound into the CPU quote. Only small commitments (about 250 bytes) go on-chain, while the evidence itself is served off-chain, and a challenge flow allows a re-vote on wrong decisions. Requests are encrypted through devshard to several attested nodes of the slot's host, usage is covered by signed receipts, and validation between enclaves is driven by validators.</p>
   </div>
 </div>
 

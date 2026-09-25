@@ -1,5 +1,53 @@
 [
   {
+    "id": "evt_20260925140003_7df1a078",
+    "timestamp": "2026-09-25T14:00:03.135704+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1173 — TEE Implementation",
+      "url": "/community/issues/01173-tee-implementation/",
+      "file": "01173-tee-implementation.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    TEE Implementation\n    <span class=\"issues-number\">#1173</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-05-16 06:45 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style=\"background-color:",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    TEE Implementation\n    <span class=\"issues-number\">#1173</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-05-16 06:45 UTC</span>\n    <span class=\"issues-meta-item\">4 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style=\"background-color:"
+    },
+    "ai_description": "Issue #1173 on TEE Implementation got a new comment, bringing the total to four. The discussion is still open, so the community continues to refine the approach for trusted execution environments in our inference network. Check it out if you are following the technical details. 🛡️💬\n\nActually, let me re-read the rules — I need to be plain text only, no emojis. Here is the corrected version:\n\nIssue #1173 on TEE Implementation received a new comment, bringing the total to four. The issue remains open, meaning the community is still actively discussing the trusted execution environment design. Follow along if you are tracking our progress on secure inference."
+  },
+  {
+    "id": "evt_20260925140003_32c3d4b0",
+    "timestamp": "2026-09-25T14:00:03.135777+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1798 — devshard gateway: inter-chunk timeout logs stalled SSE streams but does not cancel them",
+      "url": "/community/issues/01798-devshard-gateway-inter-chunk-timeout-logs-stalled-sse-stream/",
+      "file": "01798-devshard-gateway-inter-chunk-timeout-logs-stalled-sse-stream.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard gateway: inter-chunk timeout logs stalled SSE streams but does not cancel them\n    <span class=\"issues-number\">#1798</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/aikuznetsov\">@aikuznetsov</a> opened 2026-09-18 02:37 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard gateway: inter-chunk timeout logs stalled SSE streams but does not cancel them\n    <span class=\"issues-number\">#1798</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/aikuznetsov\">@aikuznetsov</a> opened 2026-09-18 02:37 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style="
+    },
+    "ai_description": "Issue #1798 on the devshard gateway now has a new comment, bringing the total to one. The discussion focuses on how the inter-chunk timeout currently only logs stalled SSE streams without actually cancelling them, which is a key gap for resource cleanup. This is worth watching as it highlights a potential fix needed to properly terminate hung connections."
+  },
+  {
+    "id": "evt_20260925140003_d93b4ea6",
+    "timestamp": "2026-09-25T14:00:03.135798+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1810 — `devshard`: Tool-calling / protocol errors → INVALID",
+      "url": "/community/issues/01810-devshard-tool-calling-protocol-errors-invalid/",
+      "file": "01810-devshard-tool-calling-protocol-errors-invalid.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: Tool-calling / protocol errors → INVALID\n    <span class=\"issues-number\">#1810</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-18 22:00 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<d",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: Tool-calling / protocol errors → INVALID\n    <span class=\"issues-number\">#1810</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-18 22:00 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<di"
+    },
+    "ai_description": "Issue #1810 on the devshard tool now has a new comment from the community. The discussion is still open, so check it out if you are working with tool-calling or protocol errors in your inference workflows. This update signals active engagement on a topic that could affect how we handle edge cases. Stay tuned for any proposed fixes or clarifications."
+  },
+  {
     "id": "evt_20260925065640_cae44db4",
     "timestamp": "2026-09-25T06:56:40.233166+00:00",
     "section": "gonka_docs",
@@ -8020,50 +8068,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Improve TXManager reliability, add block-based deadlines, don't send invalid TXs\n    <span class=\"issues-number\">#590</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-15 23:35 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class"
     },
     "ai_description": "Issue #590 on improving TXManager reliability has been removed from the feed. The proposal, which aimed to add block-based deadlines and prevent invalid transaction submissions, is no longer tracked here. Its removal likely signals the work was either merged into another task or deprioritized, so keep an eye on related updates.Issue #590 on improving TXManager reliability has been closed and removed from the feed. The proposal aimed to add block-based deadlines and prevent invalid transaction submissions, but it's no longer active. This likely means the work was resolved or deprioritized, so keep an eye on related updates."
-  },
-  {
-    "id": "evt_20260910143102_3e7ae749",
-    "timestamp": "2026-09-10T14:31:02.672525+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#591 — Some security and other improvements for github actions",
-      "url": null,
-      "file": "00591-some-security-and-other-improvements-for-github-actions.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Some security and other improvements for github actions\n    <span class=\"issues-number\">#591</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-15 23:36 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"m"
-    },
-    "ai_description": "Issue #591 on improving GitHub Actions security has been closed and removed from the feed. The proposal, opened by @tcharchian, is no longer under active community discussion, so its status is now resolved. This cleanup helps keep the activity feed focused on live items that need attention.Issue #591 on GitHub Actions security improvements has been closed and removed from the feed. The proposal, opened by @tcharchian, is no longer under active consideration, so the community can move on to fresh topics. Keeping the board clear of resolved items helps everyone focus on what's currently actionable."
-  },
-  {
-    "id": "evt_20260910143102_4aa9516b",
-    "timestamp": "2026-09-10T14:31:02.672531+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#592 — Fix gov tests",
-      "url": null,
-      "file": "00592-fix-gov-tests.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Fix gov tests\n    <span class=\"issues-number\">#592</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-15 23:38 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class"
-    },
-    "ai_description": "Issue #592 \"Fix gov tests\" has been removed from the community feed. The closed issue, opened by @tcharchian, addressed fixing governance-related tests and is no longer tracked hereched. Its removal cleans up our activity feed by clearing out resolved or stale items.Issue #592 \"Fix gov tests\" has been removed from the community feed. This closed item, opened by @tcharchian, was resolved and no longer needs tracking, keeping our activity stream focused on active work. Cleaning up resolved items helps the community see what actually needs attention next."
-  },
-  {
-    "id": "evt_20260910143102_8cf1e92f",
-    "timestamp": "2026-09-10T14:31:02.672537+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#593 — Fix tally voting",
-      "url": null,
-      "file": "00593-fix-tally-voting.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Fix tally voting\n    <span class=\"issues-number\">#593</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-15 23:44 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div cl"
-    },
-    "ai_description": "Issue #593 \"Fix tally voting\" has been removed from the feed. The closed report about addressing tally voting is no longer tracked, so the community should focus on other open items. This cleanup keeps the activity feed current and relevant.Issue #593 \"Fix tally voting\" has been removed from the Gonka activity feed. This closed issue, opened by @tcharchian with no comments, is no longer tracked, keeping our community updates focused on active work."
   }
 ]
