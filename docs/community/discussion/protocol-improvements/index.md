@@ -4,7 +4,7 @@ title: ":gear: Protocol Improvements"
 
 # :gear: Protocol Improvements
 
-Дискуссии в категории **:gear: Protocol Improvements**. Всего: **47**. Обновлено: `2026-09-25 07:40 UTC`.
+Дискуссии в категории **:gear: Protocol Improvements**. Всего: **47**. Обновлено: `2026-09-25 13:39 UTC`.
 
 [← ко всем категориям](../index.md)
 
@@ -47,7 +47,7 @@ title: ":gear: Protocol Improvements"
 | [1085](1085-inc4-gonka-node-observability-platform.md) | [INC4 \| Gonka Node Observability Platform](1085-inc4-gonka-node-observability-platform.md) | [@rwxr-xr-x](https://github.com/rwxr-xr-x) | 2026-04-18 |
 | [1008](1008-token-based-governance-splitting-technical-and-community-dec.md) | [Token-Based Governance: Splitting Technical and Community Decisions](1008-token-based-governance-splitting-technical-and-community-dec.md) | [@Alert17](https://github.com/Alert17) | 2026-04-20 |
 | [954](0954-optimistic-parallel-execution-of-messages-for-inference-chai.md) | [Optimistic parallel execution of messages for inference-chain](0954-optimistic-parallel-execution-of-messages-for-inference-chai.md) | [@akup](https://github.com/akup) | 2026-03-26 |
-| [951](0951-tee-implementation.md) | [TEE Implementation](0951-tee-implementation.md) | [@mtvnastya](https://github.com/mtvnastya) | 2026-06-05 |
+| [951](0951-tee-implementation.md) | [TEE Implementation](0951-tee-implementation.md) | [@mtvnastya](https://github.com/mtvnastya) | 2026-09-25 |
 | [930](0930-proposal-agent-identity-and-delegation-governance-for-gonka-.md) | [Proposal: Agent identity and delegation governance for Gonka compute](0930-proposal-agent-identity-and-delegation-governance-for-gonka-.md) | [@aeoess](https://github.com/aeoess) | 2026-03-22 |
 | [870](0870-gonka-ai-testnet.md) | [Gonka AI Testnet](0870-gonka-ai-testnet.md) | [@Alert17](https://github.com/Alert17) | 2026-05-01 |
 | [869](0869-gip-860-inference-quality-protocol-semantic-inference-optimi.md) | [GiP #860 — Inference Quality Protocol: Semantic Inference Optimization](0869-gip-860-inference-quality-protocol-semantic-inference-optimi.md) | [@Mayveskii](https://github.com/Mayveskii) | 2026-03-08 |

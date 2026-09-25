@@ -4,7 +4,7 @@ title: "GitHub Discussions"
 
 # GitHub Discussions — `gonka-ai/gonka`
 
-Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **104**. Обновлено: `2026-09-25 07:40 UTC`.
+Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **104**. Обновлено: `2026-09-25 13:39 UTC`.
 
 ## 📂 Категории
 
@@ -22,6 +22,7 @@ title: "GitHub Discussions"
 
 | # | Заголовок | Категория | Автор | Обновлено |
 |---:|---|---|---|---|
+| [951](protocol-improvements/0951-tee-implementation.md) | [TEE Implementation](protocol-improvements/0951-tee-implementation.md) | :gear: Protocol Improvements | [@mtvnastya](https://github.com/mtvnastya) | 2026-09-25 |
 | [1825](ecosystem/1825-proposal-107-gonka-at-hsc-asset-management-singapore-8-octob.md) | [Proposal #107: Gonka at HSC Asset Management Singapore, 8 October 2026](ecosystem/1825-proposal-107-gonka-at-hsc-asset-management-singapore-8-octob.md) | :jigsaw: Ecosystem | [@JetterHSC](https://github.com/JetterHSC) | 2026-09-23 |
 | [1818](ecosystem/1818-marketing-committee-operations-reddit-contributor-pilot.md) | [Marketing Committee — Operations & Reddit Contributor Pilot](ecosystem/1818-marketing-committee-operations-reddit-contributor-pilot.md) | :jigsaw: Ecosystem | [@petkomain-tech](https://github.com/petkomain-tech) | 2026-09-21 |
 | [1815](governance-proposal-reports/1815-proposal-74-gonka-labs-monthly-report-no3.md) | [Proposal #74: Gonka Labs - Monthly Report No.3](governance-proposal-reports/1815-proposal-74-gonka-labs-monthly-report-no3.md) | :bookmark_tabs: Governance Proposal Reports | [@gonkalabs](https://github.com/gonkalabs) | 2026-09-19 |
@@ -41,4 +42,3 @@ title: "GitHub Discussions"
 | [1710](show-and-tell/1710-gonka-labs-x402-on-gonka-payments-for-agents.md) | [Gonka Labs: x402 on Gonka - payments for Agents](show-and-tell/1710-gonka-labs-x402-on-gonka-payments-for-agents.md) | :raised_hands: Show and Tell | [@gonkalabs](https://github.com/gonkalabs) | 2026-09-03 |
 | [1614](governance-proposal-reports/1614-proposal-74-gonka-labs-monthly-report-no2.md) | [Proposal #74: Gonka Labs - Monthly Report No.2](governance-proposal-reports/1614-proposal-74-gonka-labs-monthly-report-no2.md) | :bookmark_tabs: Governance Proposal Reports | [@ptd-bot](https://github.com/ptd-bot) | 2026-09-01 |
 | [1667](q-a/1667-ibc-withdrawal-blocked-neutron-client-07-tendermint-3-is-exp.md) | [IBC withdrawal blocked: Neutron client 07-tendermint-3 is expired](q-a/1667-ibc-withdrawal-blocked-neutron-client-07-tendermint-3-is-exp.md) | :interrobang: Q&A | [@xX-mabster-Xx](https://github.com/xX-mabster-Xx) | 2026-09-01 |
-| [1648](ecosystem/1648-running-our-own-devshard-gateway-plan-economics-and-what-hos.md) | [Running our own devshard gateway — plan, economics, and what hosts want to see for allowlisting](ecosystem/1648-running-our-own-devshard-gateway-plan-economics-and-what-hos.md) | :jigsaw: Ecosystem | [@theaungmyatmoe](https://github.com/theaungmyatmoe) | 2026-08-29 |

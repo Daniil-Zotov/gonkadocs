@@ -3,14 +3,14 @@ title: "#951 — TEE Implementation"
 source: https://github.com/gonka-ai/gonka/discussions/951
 discussion_number: 951
 category: protocol-improvements
-synced_at: 2026-09-25T07:40:13Z
+synced_at: 2026-09-25T13:38:54Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #951](https://github.com/gonka-ai/gonka/discussions/951) every hour. 
 
 # TEE Implementation
 
-**Автор:** [@mtvnastya](https://github.com/mtvnastya) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-03-26 05:10 UTC · **Обновлено:** 2026-06-05 15:05 UTC
+**Автор:** [@mtvnastya](https://github.com/mtvnastya) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-03-26 05:10 UTC · **Обновлено:** 2026-09-25 10:36 UTC
 
 ---
 
@@ -159,7 +159,7 @@ Signed metadata from a TEE key is inherently trusted - the execution environment
 
 ---
 
-## 💬 Комментарии (2)
+## 💬 Комментарии (3)
 
 ### Комментарий 1 — [@x0152](https://github.com/x0152)
 
@@ -236,3 +236,15 @@ Much more important is how to architect this. I see two main approaches:
 2) **Run TEE by default on the Network Nodes themselves** (on CPU).
 → In this case there is **almost zero added latency**, and the hosts will **always** receive only **surrogate/fake** data :)
 
+
+### Комментарий 3 — [@zpoken](https://github.com/zpoken)
+
+*2026-09-25 10:36 UTC*
+
+Hi everyone,
+
+Following up on this discussion and on the first experiments in #1246 (thanks @x0152 for the initial wiring), we've written a detailed draft proposal for Confidential MLNodes and would like the community's input before any implementation starts. The proposal is here: https://github.com/zpoken/gonka/tree/zpoken/tee-proposal/proposals/confidential-mlnode, and the attestation glossary is here: https://github.com/zpoken/gonka/blob/zpoken/tee-proposal/proposals/confidential-mlnode/attestation-glossary.md.
+
+A few design choices differ from the original post and are worth discussing. The original post suggests TEE nodes could skip validation, but we keep sampled validation driven by validators and performed between enclaves. Attestation alone cannot protect against a host that has physical access to its own hardware, so the threat model states explicitly that this design raises the bar rather than giving an absolute guarantee.
+
+The design has no KMS and no dependency on any cloud provider. Keys are generated inside the CVM on every boot, and expected measurements are pinned by governance on-chain rather than by an external KMS or signing service. On-chain state is kept minimal: only small commitments are stored, the evidence stays off-chain with the host, and a challenge mechanism covers wrong votes.
