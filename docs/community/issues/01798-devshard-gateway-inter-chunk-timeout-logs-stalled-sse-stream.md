@@ -2,7 +2,7 @@
 title: "#1798 — devshard gateway: inter-chunk timeout logs stalled SSE streams but does not cancel them"
 source: https://github.com/gonka-ai/gonka/issues/1798
 issue_number: 1798
-synced_at: 2026-09-25T13:55:46Z
+synced_at: 2026-09-25T18:43:09Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/aikuznetsov">@aikuznetsov</a> opened 2026-09-18 02:37 UTC</span>
-    <span class="issues-meta-item">1 comment</span>
-    <span class="issues-meta-item">Updated 2026-09-25 09:42 UTC</span>
+    <span class="issues-meta-item">2 comments</span>
+    <span class="issues-meta-item">Updated 2026-09-25 17:54 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -76,7 +76,7 @@ The existing 30-minute `StreamingAttemptHardTimeout` should remain as an absolut
 
 ---
 
-## 💬 Comments (1)
+## 💬 Comments (2)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -91,6 +91,15 @@ The existing 30-minute `StreamingAttemptHardTimeout` should remain as an absolut
 3. Return a typed retryable error so redundancy can try another host
 4. Keep the 30min hard timeout as an absolute safety limit</p>
 <p>Will coordinate with ongoing v6 stream-signature work (@a-kuprin #1841) to avoid conflicts.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/a-kuprin">@a-kuprin</a></span>
+    <span class="issues-meta-item">commented 2026-09-25 17:54 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>@Ryanchen911 ok, I think #1841 will be in work on this weekends</p>
   </div>
 </div>
 

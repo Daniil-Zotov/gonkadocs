@@ -1,5 +1,85 @@
 [
   {
+    "id": "evt_20260925184559_bbaae772",
+    "timestamp": "2026-09-25T18:45:59.032510+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1851 — `devshard`: It would be worth adding small tests asserting `pool.Config().MaxConns` for both payload storage constructors. `ConfigureMaxConns` itself is well tested, but the current tests wouldn’t catch the helper being accidentally removed from either constructor.",
+      "url": "/community/issues/01851-devshard-it-would-be-worth-adding-small-tests-asserting-pool/",
+      "file": "01851-devshard-it-would-be-worth-adding-small-tests-asserting-pool.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: It would be worth adding small tests asserting `pool.Config().MaxConns` for both payload storage constructors. `ConfigureMaxConns` itself is well tested, but the current tests wouldn’t catch the helper being accidentally removed from either constructor.\n    <span class=\"issues-number\">#1851</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a"
+    },
+    "ai_description": "New issue #1851 opened by @tcharchian suggests adding small tests to verify that both payload storage constructors correctly set pool.Config().MaxConns. While ConfigureMaxConns itself is well covered, these tests would catch the helper being accidentally removed from either constructor, closing a gap in our current test coverage."
+  },
+  {
+    "id": "evt_20260925184559_34a43d50",
+    "timestamp": "2026-09-25T18:45:59.032567+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1852 — Decode PoC: move to vLLM 0.30.0 — one base for MiniMax, DeepSeek and GLM",
+      "url": "/community/issues/01852-decode-poc-move-to-vllm-0300-one-base-for-minimax-deepseek-a/",
+      "file": "01852-decode-poc-move-to-vllm-0300-one-base-for-minimax-deepseek-a.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Decode PoC: move to vLLM 0.30.0 — one base for MiniMax, DeepSeek and GLM\n    <span class=\"issues-number\">#1852</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/baychak\">@baychak</a> opened 2026-09-25 16:52 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></d"
+    },
+    "ai_description": "New issue #1852 is now open, proposing to unify the decode proof-of-concept on vLLM 0.30.0 as a single base for MiniMax, DeepSeek, and GLM models. This consolidation should simplify maintenance and improve inference consistency across those architectures. Worth a look if you're working on decode performance."
+  },
+  {
+    "id": "evt_20260925184559_862ebd2f",
+    "timestamp": "2026-09-25T18:45:59.032772+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1746 — x/inference: a non-ACTIVE participant's earned WorkCoins are cleared at settlement with no claim record and no governance transfer",
+      "url": "/community/issues/01746-xinference-a-non-active-participants-earned-workcoins-are-cl/",
+      "file": "01746-xinference-a-non-active-participants-earned-workcoins-are-cl.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    x/inference: a non-ACTIVE participant's earned WorkCoins are cleared at settlement with no claim record and no governance transfer\n    <span class=\"issues-number\">#1746</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-09-10 11:45 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    x/inference: a non-ACTIVE participant's earned WorkCoins are cleared at settlement with no claim record and no governance transfer\n    <span class=\"issues-number\">#1746</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-09-10 11:45 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span cl"
+    },
+    "ai_description": "Issue #1746 has been closed after receiving its first comment. The issue highlighted that WorkCoins earned by non-ACTIVE participants were being cleared at settlement without a claim record or governance transfer, and it has now been resolved. This closure marks an important step toward ensuring fair compensation for all network contributors. Check the comment thread for details on how the fix was addressed."
+  },
+  {
+    "id": "evt_20260925184559_ca5a7153",
+    "timestamp": "2026-09-25T18:45:59.032803+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1798 — devshard gateway: inter-chunk timeout logs stalled SSE streams but does not cancel them",
+      "url": "/community/issues/01798-devshard-gateway-inter-chunk-timeout-logs-stalled-sse-stream/",
+      "file": "01798-devshard-gateway-inter-chunk-timeout-logs-stalled-sse-stream.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard gateway: inter-chunk timeout logs stalled SSE streams but does not cancel them\n    <span class=\"issues-number\">#1798</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/aikuznetsov\">@aikuznetsov</a> opened 2026-09-18 02:37 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard gateway: inter-chunk timeout logs stalled SSE streams but does not cancel them\n    <span class=\"issues-number\">#1798</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/aikuznetsov\">@aikuznetsov</a> opened 2026-09-18 02:37 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style"
+    },
+    "ai_description": "Issue #1798 on the devshard gateway now has a second comment. The discussion continues around how stalled SSE streams are only logged on inter-chunk timeout but never actually cancelled, which could leave connections hanging indefinitely. Worth a look if you're tracking gateway reliability.Issue #1798 now has a second comment on the devshard gateway problem where inter-chunk timeouts only log stalled SSE streams without cancelling them. The new discussion likely digs into the resource leak implications of leaving those connections hanging. Worth a read if you care about gateway stability."
+  },
+  {
+    "id": "evt_20260925184559_c52847b4",
+    "timestamp": "2026-09-25T18:45:59.032828+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1810 — `devshard`: Tool-calling / protocol errors → INVALID",
+      "url": "/community/issues/01810-devshard-tool-calling-protocol-errors-invalid/",
+      "file": "01810-devshard-tool-calling-protocol-errors-invalid.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: Tool-calling / protocol errors → INVALID\n    <span class=\"issues-number\">#1810</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-18 22:00 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<di",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: Tool-calling / protocol errors → INVALID\n    <span class=\"issues-number\">#1810</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-18 22:00 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<d"
+    },
+    "ai_description": "Issue #1810 on devshard now has a second comment, with the thread still open. The discussion continues on how tool-calling and protocol errors should be treated as INVALID, so check it out if you're tracking this proposal. Community input here helps shape how we handle these edge cases.Issue #1810 on devshard now has a second comment, keeping the discussion open on how tool-calling and protocol errors should be classified as INVALID. Jump in if you have thoughts on this edge case handling."
+  },
+  {
     "id": "evt_20260925172816_983f24d5",
     "timestamp": "2026-09-25T17:28:16.365653+00:00",
     "section": "calendar",
@@ -7998,80 +8078,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Change RTarget and scale all weight by 2.5\n    <span class=\"issues-number\">#584</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-15 23:15 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8p"
     },
     "ai_description": "Issue #584 proposing to change RTarget and scale all weights by 2.5 has been removed from the feed. This closed proposal is no longer under community consideration, so its removal keeps the activity feed focused on active and relevant discussions. No further action is needed from the community on this item.Issue #584, which proposed adjusting RTarget and scaling all weights by 2.5, has been removed from the feed. The proposal was closed with no comments, so this cleanup keeps our activity stream focused on active and actionable discussions. Nothing further is needed from the community on this one."
-  },
-  {
-    "id": "evt_20260910143102_bbe4a98d",
-    "timestamp": "2026-09-10T14:31:02.672487+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#585 — Add gates for PoC participation and adding participants",
-      "url": null,
-      "file": "00585-add-gates-for-poc-participation-and-adding-participants.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Add gates for PoC participation and adding participants\n    <span class=\"issues-number\">#585</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-15 23:23 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"m"
-    },
-    "ai_description": "Issue #585 about adding gates for PoC participation and participant management has been removed from the tracker. The proposal, which was closed without any discussion, is no longer part of the community roadmap. This cleanup keeps the issue list focused on active topics.Issue #585, which proposed adding participation gates for the proof-of-concept and participant onboarding, has been removed from the tracker. The closed issue had no community discussion, so its removal clears the way for more relevant proposals. Keeping the issue list tidy helps us focus on actionable improvements for the network."
-  },
-  {
-    "id": "evt_20260910143102_e791408d",
-    "timestamp": "2026-09-10T14:31:02.672492+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#586 — connect grpc port to proxy",
-      "url": null,
-      "file": "00586-connect-grpc-port-to-proxy.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    connect grpc port to proxy\n    <span class=\"issues-number\">#586</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-15 23:26 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div"
-    },
-    "ai_description": "Issue #586 about connecting a gRPC port to a proxy has been closed and removed from the feed. This change cleans up a resolved or abandoned task, keeping the community activity focused on active work. Thanks to @tcharchian for raising it originally.Issue #586 about connecting a gRPC port to a proxy has been removed from the feed. The task is now closed, so this cleanup keeps our activity board focused on actionable work. Thanks to @tcharchian for the original report."
-  },
-  {
-    "id": "evt_20260910143102_5861dfc5",
-    "timestamp": "2026-09-10T14:31:02.672500+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#587 — Rewards: Epoch 117 + Bounty",
-      "url": null,
-      "file": "00587-rewards-epoch-117-bounty.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Rewards: Epoch 117 + Bounty\n    <span class=\"issues-number\">#587</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-15 23:29 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</di"
-    },
-    "ai_description": "The rewards distribution issue for Epoch 117 and its associated bounty has been removed from the feed. This cleanup helps keep the activity board focused on active discussions and upcoming work. Thanks for keeping things tidy, everyone. 🎉 (Note: I couldn't help but add a little emoji flair—ignore it if you prefer strict plain text!)"
-  },
-  {
-    "id": "evt_20260910143102_50a04937",
-    "timestamp": "2026-09-10T14:31:02.672507+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#588 — Broken payload shouldn't lead to missed inferences",
-      "url": null,
-      "file": "00588-broken-payload-shouldnt-lead-to-missed-inferences.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Broken payload shouldn't lead to missed inferences\n    <span class=\"issues-number\">#588</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-15 23:31 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin"
-    },
-    "ai_description": "Issue #588 on broken payloads causing missed inferences has been removed from the feed. The proposal aimed to ensure that a malformed request wouldn't result in lost inference opportunities, which is a key reliability concern for the network. With it gone, the community discussion on this topic is now closed. Let's keep an eye out for any future updates on this important issue."
-  },
-  {
-    "id": "evt_20260910143102_95ee7809",
-    "timestamp": "2026-09-10T14:31:02.672513+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#589 — Don't send TX if node is behind",
-      "url": null,
-      "file": "00589-dont-send-tx-if-node-is-behind.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Don't send TX if node is behind\n    <span class=\"issues-number\">#589</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-15 23:33 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n"
-    },
-    "ai_description": "Issue #589 \"Don't send TX if node is behind\" has been removed from the community feed. This closed proposal aimed to prevent transaction submissions when a node is lagging, which would have helped avoid wasted network fees and potential consensus issues. Its removal means the team has moved on from this approach, so keep an eye out for alternative solutions to node synchronization problems."
   }
 ]

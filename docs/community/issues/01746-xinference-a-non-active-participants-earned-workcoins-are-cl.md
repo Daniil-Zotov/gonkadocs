@@ -2,21 +2,21 @@
 title: "#1746 — x/inference: a non-ACTIVE participant's earned WorkCoins are cleared at settlement with no claim record and no governance transfer"
 source: https://github.com/gonka-ai/gonka/issues/1746
 issue_number: 1746
-synced_at: 2026-09-25T13:55:56Z
+synced_at: 2026-09-25T18:43:09Z
 template: issues-main.html
 ---
 
 <div class="issues-detail-header">
   <h1 class="issues-detail-title">
-    <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
     x/inference: a non-ACTIVE participant's earned WorkCoins are cleared at settlement with no claim record and no governance transfer
     <span class="issues-number">#1746</span>
   </h1>
   <div class="issues-detail-meta">
-    <span class="issues-meta-item">Open</span>
+    <span class="issues-meta-item">Closed</span>
     <span class="issues-meta-item"><a href="https://github.com/vitaly-andr">@vitaly-andr</a> opened 2026-09-10 11:45 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-22 00:39 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-09-25 17:18 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -215,6 +215,22 @@ On scale: in mainnet epoch 388, 13.33 GNK moved through `CoinBalance` across 25 
 
 Which behaviour did you intend? If forfeiture, the amount could follow the RewardCoins precedent and go to governance with a record instead of sitting unattributed. If preservation, the clearing needs the same status guard the carry-over already has. I haven't sent a patch because those are two different fixes and the answer decides which one is right.
 
+</div>
+
+---
+
+## 💬 Comments (1)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/gmorgachev">@gmorgachev</a></span>
+    <span class="issues-meta-item">commented 2026-09-25 17:18 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Whole security model is guaranteed when participant is epoch for whole epoch. If it marked as invalid 
+=&gt; it acted dishonest in the epoch 
+=&gt; it should not be paid </p>
+  </div>
 </div>
 
 ---
