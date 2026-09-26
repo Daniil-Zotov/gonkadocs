@@ -68,8 +68,8 @@ hide:
     <span>Voting ends 2026-09-27</span>
   </div>
   <div class="prop-card-desc">Update DevShard v5 to v5.0.2 and retire v3 and v4  This proposal is a critical fix for the overall Devshard deployment. Each running Devshard version opened a Postgres pool sized to the host CPU count…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (364,368)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>57.0%</strong> (364,368 / 639,697) · Quorum <strong>25%</strong> (159,924)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (366,276)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>52.4%</strong> (366,276 / 698,954) · Quorum <strong>25%</strong> (174,738)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
