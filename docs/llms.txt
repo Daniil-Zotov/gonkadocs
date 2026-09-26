@@ -20,8 +20,6 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 ## Community Calendar
 
 - [All Calendar Events](/community/calendar/events/): Every event (AMAs, committee calls, proposal milestones, network updates) — machine-readable page, also indexed by search
-- 2026-09-25 13:20 UTC — Rejected: #107 – Gonka at HSC Asset Management Singapore, 8 October 2026: https://gonkadocs.com/proposals/proposals/2026-q3/107/
-- 2026-09-25 16:30 UTC — 100 PROPOSALS OVERVIEW: https://gonkadocs.com
 - 2026-09-27 00:03 UTC — Voting ends: #108 – Update DevShard v5 to v5.0.2: https://gonkadocs.com/proposals/proposals/2026-q3/108/
 - 2026-09-30 15:00 UTC — TheSoul — Weekly Report Call (#60–#65): https://gonkadocs.com/proposals/proposals/2026-q2/60/
 
