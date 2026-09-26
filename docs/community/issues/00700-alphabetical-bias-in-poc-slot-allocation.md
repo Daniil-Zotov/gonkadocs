@@ -2,7 +2,7 @@
 title: "#700 — Alphabetical Bias in PoC Slot Allocation"
 source: https://github.com/gonka-ai/gonka/issues/700
 issue_number: 700
-synced_at: 2026-09-25T22:30:58Z
+synced_at: 2026-09-26T01:42:54Z
 template: issues-main.html
 ---
 
