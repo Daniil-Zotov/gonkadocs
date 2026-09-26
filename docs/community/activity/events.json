@@ -1,5 +1,53 @@
 [
   {
+    "id": "evt_20260926075418_53953c56",
+    "timestamp": "2026-09-26T07:54:18.853095+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1200 — Independent review of PoC-decode results",
+      "url": "/community/issues/01200-independent-review-of-poc-decode-results/",
+      "file": "01200-independent-review-of-poc-decode-results.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Independent review of PoC-decode results\n    <span class=\"issues-number\">#1200</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-05-19 23:36 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" st",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Independent review of PoC-decode results\n    <span class=\"issues-number\">#1200</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-05-19 23:36 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" sty"
+    },
+    "ai_description": "Issue #1200 on independent review of PoC-decode results has received its first comment. The discussion is now open for community input on this important verification topic. Check the thread to see the new perspective and join the conversation.Issue #1200 on independent review of PoC-decode results has received its first comment, marking the start of community discussion on this verification topic. Head over to the thread to see the new perspective and weigh in with your own thoughts."
+  },
+  {
+    "id": "evt_20260926075418_47615384",
+    "timestamp": "2026-09-26T07:54:18.853190+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1733 — Extend e2e for HA devshard config with multiple routers and multiple versiond",
+      "url": "/community/issues/01733-extend-e2e-for-ha-devshard-config-with-multiple-routers-and-/",
+      "file": "01733-extend-e2e-for-ha-devshard-config-with-multiple-routers-and-.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Extend e2e for HA devshard config with multiple routers and multiple versiond\n    <span class=\"issues-number\">#1733</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 2026-09-08 16:31 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8p",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Extend e2e for HA devshard config with multiple routers and multiple versiond\n    <span class=\"issues-number\">#1733</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 2026-09-08 16:31 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px"
+    },
+    "ai_description": "Issue #1733 on extending e2e coverage for HA devshard configs with multiple routers and versiond instances now has its first comment. This signals active discussion on the proposed testing scope, which is key for validating high-availability setups in production-like conditions. Follow along if you care about robust multi-node infrastructure testing."
+  },
+  {
+    "id": "evt_20260926075418_3db224cc",
+    "timestamp": "2026-09-26T07:54:18.853218+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1746 — x/inference: a non-ACTIVE participant's earned WorkCoins are cleared at settlement with no claim record and no governance transfer",
+      "url": "/community/issues/01746-xinference-a-non-active-participants-earned-workcoins-are-cl/",
+      "file": "01746-xinference-a-non-active-participants-earned-workcoins-are-cl.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    x/inference: a non-ACTIVE participant's earned WorkCoins are cleared at settlement with no claim record and no governance transfer\n    <span class=\"issues-number\">#1746</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-09-10 11:45 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span cl",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    x/inference: a non-ACTIVE participant's earned WorkCoins are cleared at settlement with no claim record and no governance transfer\n    <span class=\"issues-number\">#1746</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-09-10 11:45 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n"
+    },
+    "ai_description": "Issue #1746 has been reopened after new discussion, highlighting a critical concern: when a non-ACTIVE participant earns WorkCoins, those coins are cleared at settlement without any claim record or governance transfer. This means the earnings effectively vanish with no trace, and the community is now actively debating the fairness and transparency of this process."
+  },
+  {
     "id": "evt_20260925184559_bbaae772",
     "timestamp": "2026-09-25T18:45:59.032510+00:00",
     "section": "issues",
@@ -8033,50 +8081,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Support testnet on small GPUs\n    <span class=\"issues-number\">#581</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-15 21:59 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</"
     },
     "ai_description": "Issue #581 about supporting testnet on small GPUs has been removed from the community feed. The proposal, which was closed without any comments, is no longer visible to the community. If you were tracking this topic, keep an eye out for any future updates or alternative discussions around testnet compatibility.The testnet support issue for small GPUs (#581) has been removed from our activity feed. Since the issue was closed with no discussion, we're cleaning up stale items to keep the board focused on active work. If you were following this topic, reach out in the community channels to keep the conversation going."
-  },
-  {
-    "id": "evt_20260910143102_623b93a2",
-    "timestamp": "2026-09-10T14:31:02.672467+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#582 — Fix tx timeout",
-      "url": null,
-      "file": "00582-fix-tx-timeout.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Fix tx timeout\n    <span class=\"issues-number\">#582</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-15 22:02 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div clas"
-    },
-    "ai_description": "Issue #582 \"Fix tx timeout\" has been removed from the community feed after being closed with no comments. The cleanup keeps our tracking focused on active work, so we can better spot and address real transaction reliability problems in the network. Thanks to @tcharchian for flagging it, even if the fix didn't move forward."
-  },
-  {
-    "id": "evt_20260910143102_d5ad7fa1",
-    "timestamp": "2026-09-10T14:31:02.672473+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#583 — Ante Handler to filter PoC transactions",
-      "url": null,
-      "file": "00583-ante-handler-to-filter-poc-transactions.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Ante Handler to filter PoC transactions\n    <span class=\"issues-number\">#583</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-15 23:12 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\""
-    },
-    "ai_description": "Issue #583 on the Ante Handler for filtering Proof-of-Capacity transactions has been removed from the community feed. The issue, which had no comments and was already closed, is no longer listed as an active discussion point for the community. This cleanup keeps our activity feed focused on relevant and ongoing topics.Issue #583 on the Ante Handler for filtering Proof-of-Capacity transactions has been removed from the community feed. The closed issue, which had no comments and was opened by @tcharchian, is no longer listed as an active discussion point. This cleanup helps keep our activity feed focused on relevant, ongoing topics for the community."
-  },
-  {
-    "id": "evt_20260910143102_23bbb294",
-    "timestamp": "2026-09-10T14:31:02.672479+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#584 — Change RTarget and scale all weight by 2.5",
-      "url": null,
-      "file": "00584-change-rtarget-and-scale-all-weight-by-25.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Change RTarget and scale all weight by 2.5\n    <span class=\"issues-number\">#584</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-15 23:15 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8p"
-    },
-    "ai_description": "Issue #584 proposing to change RTarget and scale all weights by 2.5 has been removed from the feed. This closed proposal is no longer under community consideration, so its removal keeps the activity feed focused on active and relevant discussions. No further action is needed from the community on this item.Issue #584, which proposed adjusting RTarget and scaling all weights by 2.5, has been removed from the feed. The proposal was closed with no comments, so this cleanup keeps our activity stream focused on active and actionable discussions. Nothing further is needed from the community on this one."
   }
 ]

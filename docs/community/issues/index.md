@@ -6,10 +6,55 @@ template: issues-main.html
 # GitHub Issues — `gonka-ai/gonka`
 
 All issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).
-Total: **384** (🟢 open: **119**, 🔴 closed: **265**).
-Updated: `2026-09-26 01:44 UTC`.
+Total: **384** (🟢 open: **120**, 🔴 closed: **264**).
+Updated: `2026-09-26 07:54 UTC`.
 
 <ul class="issues-list">
+<li class="issues-list-item">
+  <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
+      <a href="01733-extend-e2e-for-ha-devshard-config-with-multiple-routers-and-/">Extend e2e for HA devshard config with multiple routers and multiple versiond</a>
+      <span class="issues-number">#1733</span>
+    </div>
+    <p class="issues-desc"># Proposal: Unjoined-network citest for multiple versiond-routers  **Status:** Draft   **Related:** [PR #1610](https://github.com/gonka-ai/gonka/pull/1610) (`VERSIOND_POOL_ENDPOINTS_FILE`), existing `...</p>
+    <div class="issues-labels"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span></div>
+    <div class="issues-meta">
+      <span class="issues-meta-item"><a href="https://github.com/a-kuprin">@a-kuprin</a> opened 1 hour ago</span>
+      <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
+    </div>
+  </div>
+</li>
+<li class="issues-list-item">
+  <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
+      <a href="01200-independent-review-of-poc-decode-results/">Independent review of PoC-decode results</a>
+      <span class="issues-number">#1200</span>
+    </div>
+    <p class="issues-desc">Independently review and re-check the PoC-decode approach from https://github.com/gonka-ai/gonka/issues/1135 and the Axel-T experiments.  Current PoC correlates reasonably well with inference compute,...</p>
+    <div class="issues-labels"><span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span></div>
+    <div class="issues-meta">
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 4 hours ago</span>
+      <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
+    </div>
+  </div>
+</li>
+<li class="issues-list-item">
+  <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
+      <a href="01746-xinference-a-non-active-participants-earned-workcoins-are-cl/">x/inference: a non-ACTIVE participant's earned WorkCoins are cleared at settlement with no claim record and no governance transfer</a>
+      <span class="issues-number">#1746</span>
+    </div>
+    <p class="issues-desc">While measuring the devshard settlement path I ran into a case where earned funds leave the ledger with no on-chain record of where they went. I'm filing this as a question rather than a bug report, b...</p>
+    <div class="issues-labels"></div>
+    <div class="issues-meta">
+      <span class="issues-meta-item"><a href="https://github.com/vitaly-andr">@vitaly-andr</a> opened 5 hours ago</span>
+      <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
+    </div>
+  </div>
+</li>
 <li class="issues-list-item">
   <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
   <div class="issues-body">
@@ -20,7 +65,7 @@ Updated: `2026-09-26 01:44 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 7 hours ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 13 hours ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>
@@ -35,7 +80,7 @@ Updated: `2026-09-26 01:44 UTC`.
     <p class="issues-desc">One decode-PoC base for all three models: vLLM 0.30.0, which carries GLM-5.3-Flash upstream. Integration and design stay on [#1688](https://github.com/gonka-ai/gonka/issues/1688). The decode-PoC relea...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/baychak">@baychak</a> opened 7 hours ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/baychak">@baychak</a> opened 13 hours ago</span>
       
     </div>
   </div>
@@ -50,23 +95,8 @@ Updated: `2026-09-26 01:44 UTC`.
     <p class="issues-desc">A successful HTTP status only means that the response headers were received. The request can still hang indefinitely while reading the SSE body if the upstream keeps the connection open without sendin...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/aikuznetsov">@aikuznetsov</a> opened 7 hours ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/aikuznetsov">@aikuznetsov</a> opened 14 hours ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="01746-xinference-a-non-active-participants-earned-workcoins-are-cl/">x/inference: a non-ACTIVE participant's earned WorkCoins are cleared at settlement with no claim record and no governance transfer</a>
-      <span class="issues-number">#1746</span>
-    </div>
-    <p class="issues-desc">While measuring the devshard settlement path I ran into a case where earned funds leave the ledger with no on-chain record of where they went. I'm filing this as a question rather than a bug report, b...</p>
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/vitaly-andr">@vitaly-andr</a> opened 8 hours ago</span>
-      <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
 </li>
@@ -80,7 +110,7 @@ Updated: `2026-09-26 01:44 UTC`.
     <p class="issues-desc">Looks good overall, approved. It would be worth adding small tests asserting `pool.Config().MaxConns` for both payload storage constructors. `ConfigureMaxConns` itself is well tested, but the current...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 9 hours ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 15 hours ago</span>
       
     </div>
   </div>
@@ -95,7 +125,7 @@ Updated: `2026-09-26 01:44 UTC`.
     <p class="issues-desc">### Discussed in https://github.com/gonka-ai/gonka/discussions/951  <div type='discussions-op-text'>  <sup>Originally posted by **mtvnastya** March 25, 2026</sup> # TEE  This proposal outlines the...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span> <span class="issues-label" style="background-color: #1d27b4; color: #ffffff; border-color: #1d27b4;">protocol</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 15 hours ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 21 hours ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 4</span>
     </div>
   </div>
@@ -110,23 +140,8 @@ Updated: `2026-09-26 01:44 UTC`.
     <p class="issues-desc">## Summary  `bridge.ClassifyQueryError` — the function whose job is to mark transient chain query failures as `ErrChainUnavailable` so they can be retried — has **zero non-test callers**. As a result...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Ryanchen911">@Ryanchen911</a> opened 15 hours ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/Ryanchen911">@Ryanchen911</a> opened 21 hours ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="01733-extend-e2e-for-ha-devshard-config-with-multiple-routers-and-/">Extend e2e for HA devshard config with multiple routers and multiple versiond</a>
-      <span class="issues-number">#1733</span>
-    </div>
-    <p class="issues-desc"># Proposal: Unjoined-network citest for multiple versiond-routers  **Status:** Draft   **Related:** [PR #1610](https://github.com/gonka-ai/gonka/pull/1610) (`VERSIOND_POOL_ENDPOINTS_FILE`), existing `...</p>
-    <div class="issues-labels"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/a-kuprin">@a-kuprin</a> opened 15 hours ago</span>
-      
     </div>
   </div>
 </li>
@@ -140,7 +155,7 @@ Updated: `2026-09-26 01:44 UTC`.
     <p class="issues-desc">See #913   Once research is finished and we agree on a decision, we'll update this issue with the implementation steps.</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 15 hours ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 22 hours ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -200,7 +215,7 @@ Updated: `2026-09-26 01:44 UTC`.
     <p class="issues-desc">`CollateralParams.DowntimeMissedPercentageThreshold` is declared, defaulted, validated, registered as a governance-settable param and live on chain at `0.05` — and no code reads it. A governance vote...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/kAIPraxisBot">@kAIPraxisBot</a> opened 1 day ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/kAIPraxisBot">@kAIPraxisBot</a> opened 2 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 5</span>
     </div>
   </div>
@@ -320,7 +335,7 @@ Updated: `2026-09-26 01:44 UTC`.
     <p class="issues-desc">## Summary  When an outbound `RequestBridgeMint` BLS request reaches terminal **`EXPIRED`** (threshold not met), the chain emits `inference.bls.EventThresholdSigningFailed` but **does not** auto-refun...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 3 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 4 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>
@@ -335,7 +350,7 @@ Updated: `2026-09-26 01:44 UTC`.
     <p class="issues-desc">## Summary  `NetworkDutyFeeBypassDecorator` waives fees + clears min-gas-price for ~12 "network duty" message types, and the exemption is decided **purely by Go message type** (`isExemptMessageType` i...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/kAIPraxisBot">@kAIPraxisBot</a> opened 3 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/kAIPraxisBot">@kAIPraxisBot</a> opened 4 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -350,7 +365,7 @@ Updated: `2026-09-26 01:44 UTC`.
     <p class="issues-desc">The application-level gate here looks right, but the root cause is still live in `github.com/gonka-ai/cosmos-sdk`: `crypto/ecies` diverges from the go-ethereum code it was copied from in two places —...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 3 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 4 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -426,21 +441,6 @@ Updated: `2026-09-26 01:44 UTC`.
     <div class="issues-labels"></div>
     <div class="issues-meta">
       <span class="issues-meta-item"><a href="https://github.com/kAIPraxisBot">@kAIPraxisBot</a> opened 4 days ago</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="01200-independent-review-of-poc-decode-results/">Independent review of PoC-decode results</a>
-      <span class="issues-number">#1200</span>
-    </div>
-    <p class="issues-desc">Independently review and re-check the PoC-decode approach from https://github.com/gonka-ai/gonka/issues/1135 and the Axel-T experiments.  Current PoC correlates reasonably well with inference compute,...</p>
-    <div class="issues-labels"><span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 4 days ago</span>
       
     </div>
   </div>
@@ -605,7 +605,7 @@ Updated: `2026-09-26 01:44 UTC`.
     <p class="issues-desc">## Summary  `ErrInsufficientBalance` means that the current escrow cannot reserve the cost of one particular request. The gateway currently interprets it as proof that the escrow has reached end-of-li...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/aikuznetsov">@aikuznetsov</a> opened 5 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/aikuznetsov">@aikuznetsov</a> opened 6 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -860,7 +860,7 @@ Updated: `2026-09-26 01:44 UTC`.
     <p class="issues-desc">Review what’s currently stored, identify any leftovers, and remove them.</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #12a6e8; color: #24292f; border-color: #12a6e8;">Priority: Medium</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 8 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 9 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>
@@ -875,7 +875,7 @@ Updated: `2026-09-26 01:44 UTC`.
     <p class="issues-desc">## Question  `refundInvalidatedInference` ([`x/inference/keeper/msg_server_invalidate_inference.go:64-79`](https://github.com/gonka-ai/gonka/blob/main/inference-chain/x/inference/keeper/msg_server_inv...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/vitaly-andr">@vitaly-andr</a> opened 12 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/vitaly-andr">@vitaly-andr</a> opened 13 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>
@@ -890,7 +890,7 @@ Updated: `2026-09-26 01:44 UTC`.
     <p class="issues-desc"># x/inference: revalidation vote fails when voter absent from epoch x/group  ## Summary  `MsgValidation{Revalidation:true}` for an inference whose VOTING window is still open fails with `voter address...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/vitaly-andr">@vitaly-andr</a> opened 12 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/vitaly-andr">@vitaly-andr</a> opened 13 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -905,7 +905,7 @@ Updated: `2026-09-26 01:44 UTC`.
     <p class="issues-desc">## Summary  `expireInferences` (`inference-chain/x/inference/module/module.go:226-234`) filters by `Status == STARTED` only. When a failing `MsgValidation` transitions an inference to `VOTING` and the...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/vitaly-andr">@vitaly-andr</a> opened 12 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/vitaly-andr">@vitaly-andr</a> opened 13 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 6</span>
     </div>
   </div>
@@ -935,7 +935,7 @@ Updated: `2026-09-26 01:44 UTC`.
     <p class="issues-desc">## Summary  **Residual SSRF** after prior paid mitigations (v0.2.7 / v0.2.8):  | Prior fix | What it covered | What remains broken | |-----------|-----------------|---------------------| | [PR #534](h...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Aphelios01-sdk">@Aphelios01-sdk</a> opened 17 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/Aphelios01-sdk">@Aphelios01-sdk</a> opened 18 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>
@@ -995,7 +995,7 @@ Updated: `2026-09-26 01:44 UTC`.
     <p class="issues-desc">We ran into a Kimi-K2.6 issue on **gateway v4** (`mainnet-v0.2.15-v4`) and wanted to flag it.  **What we see.** `stream=true` is fine. `stream=false` with a tiny `max_tokens` (64) often returns JSON....</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/paranjko">@paranjko</a> opened 23 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/paranjko">@paranjko</a> opened 24 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 3</span>
     </div>
   </div>

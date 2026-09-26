@@ -2,7 +2,7 @@
 title: "#1733 — Extend e2e for HA devshard config with multiple routers and multiple versiond"
 source: https://github.com/gonka-ai/gonka/issues/1733
 issue_number: 1733
-synced_at: 2026-09-26T01:40:00Z
+synced_at: 2026-09-26T07:51:02Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/a-kuprin">@a-kuprin</a> opened 2026-09-08 16:31 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-25 09:54 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-09-26 06:41 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span></div>
 </div>
@@ -102,6 +102,20 @@ Keep the job on `/healthz` only. No chat, no fleet CLI, no public proxy.
 
 One extra matrix runner: two versionds + two routers + mocks + Postgres. No gateway. Failures dump Compose A and B logs.
 
+</div>
+
+---
+
+## 💬 Comments (1)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/snevolin">@snevolin</a></span>
+    <span class="issues-meta-item">commented 2026-09-26 06:41 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Implemented in https://github.com/gonka-ai/gonka/pull/1735 with two real routers and two PostgreSQL-backed versionds in separate Docker networks, with explicit endpoint membership, cross-router session stickiness, and failover checks.</p>
+  </div>
 </div>
 
 ---

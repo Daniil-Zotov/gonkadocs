@@ -2,7 +2,7 @@
 title: "#1200 — Independent review of PoC-decode results"
 source: https://github.com/gonka-ai/gonka/issues/1200
 issue_number: 1200
-synced_at: 2026-09-26T01:40:14Z
+synced_at: 2026-09-26T07:51:03Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-05-19 23:36 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-22 00:37 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-09-26 03:04 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span></div>
 </div>
@@ -104,6 +104,20 @@ Please document:
 
 This task is about independent verification and critical review.
 If the results are confirmed on different models, the next step can be integration into the current vLLM path.
+</div>
+
+---
+
+## 💬 Comments (1)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/Ryanchen911">@Ryanchen911</a></span>
+    <span class="issues-meta-item">commented 2026-09-26 03:04 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>hi @tcharchian , do you need help with this? Maybe I can take on this task.</p>
+  </div>
 </div>
 
 ---
