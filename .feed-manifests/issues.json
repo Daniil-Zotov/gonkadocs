@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-09-26T19:59:36.253676+00:00",
+  "snapshot_time": "2026-09-26T23:01:21.314054+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "#310 — BUG-1: Preserved node disabling",
@@ -2666,10 +2666,12 @@
     "01201-p0-training-on-gonka.md": {
       "title": "#1201 — [P0] Training on Gonka",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [P0] Training on Gonka\n    <span class=\"issues-number\">#1201</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-05-19 23:46 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style=\"background-co",
-      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "comment_bodies": [],
-      "checksum": "e1bb9ddcdc06daf1b2396dadaa020c2c731d232032b03bc37265624913fa935f"
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [P0] Training on Gonka\n    <span class=\"issues-number\">#1201</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-05-19 23:46 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style=\"background-col",
+      "comment_checksum": "e43b958025e0d6485d86f50995449ffaece84709ff1111c80d9c2ee4607d0e71",
+      "comment_bodies": [
+        "I would like to take a bounded, non-overlapping slice of #1201: a TrainShard Checkpoint Artifact MVP covering the prioritized save/exchange artifacts primitive. Scope would be a versioned content-addressed checkpoint manifest, resumable quota-bounded transfer and verification inside the existing trainshard run volume, plus a two-host Docker E2E and adversarial tests. I would not touch #1350 reserv"
+      ],
+      "checksum": "4c2629e2d4f7308e1c8037f6e9d72981ccf03956efe9ea1f90e7c09d7d8a8a71"
     },
     "01205-chain-halt-markvalidatorfordeletion-jailed-branch-races-come.md": {
       "title": "#1205 — chain-halt: `markValidatorForDeletion` jailed branch races CometBFT validator-update lag → slashing fails with ErrNoValidatorFound",
@@ -3666,13 +3668,14 @@
     "01746-xinference-a-non-active-participants-earned-workcoins-are-cl.md": {
       "title": "#1746 — x/inference: a non-ACTIVE participant's earned WorkCoins are cleared at settlement with no claim record and no governance transfer",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    x/inference: a non-ACTIVE participant's earned WorkCoins are cleared at settlement with no claim record and no governance transfer\n    <span class=\"issues-number\">#1746</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-09-10 11:45 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n",
-      "comment_checksum": "d71ec9525845c87727367738da61773531f7d829c6d20dc48863efffba3c5e8c",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    x/inference: a non-ACTIVE participant's earned WorkCoins are cleared at settlement with no claim record and no governance transfer\n    <span class=\"issues-number\">#1746</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-09-10 11:45 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n",
+      "comment_checksum": "66cd325d185b0f3a9dfa0de3c2e38f38db3b219736f34ed1d7b426ece753507d",
       "comment_bodies": [
         "Whole security model is guaranteed when participant is epoch for whole epoch. If it marked as invalid =&gt; it acted dishonest in the epoch =&gt; it should not be paid",
-        "Sorry, finished reading. I think sending to governance is a right approach here, let's do this way"
+        "Sorry, finished reading. I think sending to governance is a right approach here, let's do this way",
+        "Status from #1837: that PR implemented the governance transfer agreed above (sum CoinBalance of non-ACTIVE participants in SettleAccounts and send it from the inference module to gov, same cacheCtx as the undistributed reward share, with a regression test). It is closed without merge at @vitaly-andr's request, who is writing the fix here. Two facts from it that matter for the fix: SettleAccounts c"
       ],
-      "checksum": "8610a88fa26ff42ff26521880cb9cfeb4c417471a957c797a6c5916c61970b61"
+      "checksum": "1c5a2efc1fab399a51a733dd4e6f98c06ddeaf30db12d807f5a391119743d1b9"
     },
     "01749-xbls-hooks-are-never-installed-invokesetblshooks-asks-depinj.md": {
       "title": "#1749 — x/bls hooks are never installed: InvokeSetBlsHooks asks depinject for a pointer the module never provides",

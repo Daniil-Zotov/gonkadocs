@@ -1,5 +1,37 @@
 [
   {
+    "id": "evt_20260926230117_a76c2fd3",
+    "timestamp": "2026-09-26T23:01:17.607121+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1201 — [P0] Training on Gonka",
+      "url": "/community/issues/01201-p0-training-on-gonka/",
+      "file": "01201-p0-training-on-gonka.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [P0] Training on Gonka\n    <span class=\"issues-number\">#1201</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-05-19 23:46 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style=\"background-co",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [P0] Training on Gonka\n    <span class=\"issues-number\">#1201</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-05-19 23:46 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style=\"background-col"
+    },
+    "ai_description": "Issue #1201 on training on Gonka now has its first comment. Head over to the thread to see what @tcharchian has added to this P0 priority discussion. New input on a top-priority item is always worth a look.Issue #1201 on training on Gonka has received its first comment, adding fresh input to this P0 priority discussion. The thread is now open for the community to engage with the new perspective. Check it out to stay on top of this critical topic."
+  },
+  {
+    "id": "evt_20260926230117_7d695a1a",
+    "timestamp": "2026-09-26T23:01:17.607158+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1746 — x/inference: a non-ACTIVE participant's earned WorkCoins are cleared at settlement with no claim record and no governance transfer",
+      "url": "/community/issues/01746-xinference-a-non-active-participants-earned-workcoins-are-cl/",
+      "file": "01746-xinference-a-non-active-participants-earned-workcoins-are-cl.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    x/inference: a non-ACTIVE participant's earned WorkCoins are cleared at settlement with no claim record and no governance transfer\n    <span class=\"issues-number\">#1746</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-09-10 11:45 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    x/inference: a non-ACTIVE participant's earned WorkCoins are cleared at settlement with no claim record and no governance transfer\n    <span class=\"issues-number\">#1746</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-09-10 11:45 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n"
+    },
+    "ai_description": "Issue #1746 on x/inference has a new comment added, now totaling three. The discussion continues around the bug where non-ACTIVE participants lose their earned WorkCoins at settlement without any claim record or governance transfer, so check it out if you're tracking this critical gap. Your input could help shape a fix that ensures fair compensation for all contributors."
+  },
+  {
     "id": "evt_20260926075418_53953c56",
     "timestamp": "2026-09-26T07:54:18.853095+00:00",
     "section": "issues",
@@ -8051,35 +8083,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Schedule for MLNodes to serve inference during PoC\n    <span class=\"issues-number\">#579</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-15 21:50 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin"
     },
     "ai_description": "Issue #579 on scheduling MLNodes for inference during the PoC has been closed and removed from the tracker. The proposal is no longer active, which likely means the team has moved past the initial planning phase. Keep an eye on the feed for updated implementation details.Issue #579 on scheduling MLNodes for inference during the PoC has been closed and removed from the tracker. This signals that the initial planning phase is complete, so the community can look forward to concrete implementation details soon. Stay tuned for the next steps."
-  },
-  {
-    "id": "evt_20260910143102_de93e0d0",
-    "timestamp": "2026-09-10T14:31:02.672455+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#580 — Liquidity Pool & Wrapped Token Update",
-      "url": null,
-      "file": "00580-liquidity-pool-wrapped-token-update.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Liquidity Pool & Wrapped Token Update\n    <span class=\"issues-number\">#580</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-15 21:55 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><"
-    },
-    "ai_description": "Issue #580 on the Liquidity Pool and Wrapped Token update has been closed and removed from the active feed. This cleanup helps keep our tracker focused on open, actionable items for the community. Thanks to @tcharchian for raising the discussion.Issue #580 on the Liquidity Pool and Wrapped Token update has been closed and removed from the active tracker. This cleanup keeps our issue feed focused on open, actionable items for the community. Thanks to @tcharchian for raising the topic."
-  },
-  {
-    "id": "evt_20260910143102_3a7db1eb",
-    "timestamp": "2026-09-10T14:31:02.672461+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#581 — Support testnet on small GPUs",
-      "url": null,
-      "file": "00581-support-testnet-on-small-gpus.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Support testnet on small GPUs\n    <span class=\"issues-number\">#581</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-15 21:59 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</"
-    },
-    "ai_description": "Issue #581 about supporting testnet on small GPUs has been removed from the community feed. The proposal, which was closed without any comments, is no longer visible to the community. If you were tracking this topic, keep an eye out for any future updates or alternative discussions around testnet compatibility.The testnet support issue for small GPUs (#581) has been removed from our activity feed. Since the issue was closed with no discussion, we're cleaning up stale items to keep the board focused on active work. If you were following this topic, reach out in the community channels to keep the conversation going."
   }
 ]

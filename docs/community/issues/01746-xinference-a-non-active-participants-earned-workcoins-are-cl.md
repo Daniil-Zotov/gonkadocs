@@ -2,7 +2,7 @@
 title: "#1746 — x/inference: a non-ACTIVE participant's earned WorkCoins are cleared at settlement with no claim record and no governance transfer"
 source: https://github.com/gonka-ai/gonka/issues/1746
 issue_number: 1746
-synced_at: 2026-09-26T19:56:08Z
+synced_at: 2026-09-26T22:57:42Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/vitaly-andr">@vitaly-andr</a> opened 2026-09-10 11:45 UTC</span>
-    <span class="issues-meta-item">2 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-26 01:55 UTC</span>
+    <span class="issues-meta-item">3 comments</span>
+    <span class="issues-meta-item">Updated 2026-09-26 20:18 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -219,7 +219,7 @@ Which behaviour did you intend? If forfeiture, the amount could follow the Rewar
 
 ---
 
-## 💬 Comments (2)
+## 💬 Comments (3)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -239,6 +239,20 @@ Which behaviour did you intend? If forfeiture, the amount could follow the Rewar
   </div>
   <div class="issues-comment-body issues-content">
     <p>Sorry, finished reading. I think sending to governance is a right approach here, let's do this way </p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/cyberdelamain">@cyberdelamain</a></span>
+    <span class="issues-meta-item">commented 2026-09-26 20:18 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Status from #1837: that PR implemented the governance transfer agreed above (sum <code>CoinBalance</code> of non-ACTIVE participants in <code>SettleAccounts</code> and send it from the inference module to <code>gov</code>, same <code>cacheCtx</code> as the undistributed reward share, with a regression test). It is closed without merge at @vitaly-andr's request, who is writing the fix here.</p>
+<p>Two facts from it that matter for the fix:</p>
+<ul>
+<li><code>SettleAccounts</code> covers only a small part of the problem on mainnet. Most escrows of epoch N are settled after the epoch switch and go through <code>payCoinsDirectly</code> with no status check (<code>msg_server_settle_devshard_escrow.go:177-185</code> on upgrade-v0.2.16), so non-ACTIVE hosts are paid in full there. In epochs 398–402 that was 85–100% of what non-ACTIVE hosts earned; per-epoch numbers: https://github.com/gonka-ai/gonka/pull/1837#issuecomment-5820911669. Whether a non-ACTIVE host is paid or forfeits currently depends on when the gateway submits the settlement.</li>
+<li><code>TestSettleAccounts_ForfeitedWorkCoinsGoToGovernance</code> in #1837 (INVALID 500, INACTIVE 300, ACTIVE 1000) can be reused as is.</li>
+</ul>
   </div>
 </div>
 
