@@ -7,7 +7,7 @@ template: issues-main.html
 
 All issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).
 Total: **384** (🟢 open: **120**, 🔴 closed: **264**).
-Updated: `2026-09-26 17:19 UTC`.
+Updated: `2026-09-26 19:59 UTC`.
 
 <ul class="issues-list">
 <li class="issues-list-item">
@@ -20,7 +20,7 @@ Updated: `2026-09-26 17:19 UTC`.
     <p class="issues-desc"># Proposal: Unjoined-network citest for multiple versiond-routers  **Status:** Draft   **Related:** [PR #1610](https://github.com/gonka-ai/gonka/pull/1610) (`VERSIOND_POOL_ENDPOINTS_FILE`), existing `...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/a-kuprin">@a-kuprin</a> opened 10 hours ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/a-kuprin">@a-kuprin</a> opened 13 hours ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -35,7 +35,7 @@ Updated: `2026-09-26 17:19 UTC`.
     <p class="issues-desc">Independently review and re-check the PoC-decode approach from https://github.com/gonka-ai/gonka/issues/1135 and the Axel-T experiments.  Current PoC correlates reasonably well with inference compute,...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 14 hours ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 16 hours ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -50,7 +50,7 @@ Updated: `2026-09-26 17:19 UTC`.
     <p class="issues-desc">While measuring the devshard settlement path I ran into a case where earned funds leave the ledger with no on-chain record of where they went. I'm filing this as a question rather than a bug report, b...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/vitaly-andr">@vitaly-andr</a> opened 15 hours ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/vitaly-andr">@vitaly-andr</a> opened 18 hours ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>
@@ -65,7 +65,7 @@ Updated: `2026-09-26 17:19 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 22 hours ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 1 day ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>
@@ -80,7 +80,7 @@ Updated: `2026-09-26 17:19 UTC`.
     <p class="issues-desc">One decode-PoC base for all three models: vLLM 0.30.0, which carries GLM-5.3-Flash upstream. Integration and design stay on [#1688](https://github.com/gonka-ai/gonka/issues/1688). The decode-PoC relea...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/baychak">@baychak</a> opened 23 hours ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/baychak">@baychak</a> opened 1 day ago</span>
       
     </div>
   </div>
@@ -95,7 +95,7 @@ Updated: `2026-09-26 17:19 UTC`.
     <p class="issues-desc">A successful HTTP status only means that the response headers were received. The request can still hang indefinitely while reading the SSE body if the upstream keeps the connection open without sendin...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/aikuznetsov">@aikuznetsov</a> opened 23 hours ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/aikuznetsov">@aikuznetsov</a> opened 1 day ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>
@@ -200,7 +200,7 @@ Updated: `2026-09-26 17:19 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 1 day ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2 days ago</span>
       
     </div>
   </div>
@@ -530,7 +530,7 @@ Updated: `2026-09-26 17:19 UTC`.
     <p class="issues-desc">**Operator:** Axis Ordo — multi-tenant SaaS platform for AI agents, operated by Soft Dev Oy (Finland). https://platform.axis-ordo.com  **Contact:** @leonidkachuliak-eng · support@softdev.fi  **Creator...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/leonidkachuliak-eng">@leonidkachuliak-eng</a> opened 4 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/leonidkachuliak-eng">@leonidkachuliak-eng</a> opened 5 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 3</span>
     </div>
   </div>
@@ -545,7 +545,7 @@ Updated: `2026-09-26 17:19 UTC`.
     <p class="issues-desc">## Description  After the Comet tip cache receives its first header, `Cache.Latest()` continues returning that header regardless of its age.  The outer failover oracle treats this as a successful fres...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/anatoly-kuz-mntn">@anatoly-kuz-mntn</a> opened 4 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/anatoly-kuz-mntn">@anatoly-kuz-mntn</a> opened 5 days ago</span>
       
     </div>
   </div>
@@ -560,7 +560,7 @@ Updated: `2026-09-26 17:19 UTC`.
     <p class="issues-desc">## Description  Snapshot recovery does not always reconstruct the same derived height-sync state as live application of the diff journal.  ## Problem 1: sealed confirms are omitted during floor rebuil...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/anatoly-kuz-mntn">@anatoly-kuz-mntn</a> opened 4 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/anatoly-kuz-mntn">@anatoly-kuz-mntn</a> opened 5 days ago</span>
       
     </div>
   </div>
@@ -575,7 +575,7 @@ Updated: `2026-09-26 17:19 UTC`.
     <p class="issues-desc">## Description  The heartbeat/cadence implementation contains three related availability and resource-consumption problems.  ## Problem 1: cadence arithmetic can loop forever  `ComputeCadenceSwallow`...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/anatoly-kuz-mntn">@anatoly-kuz-mntn</a> opened 4 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/anatoly-kuz-mntn">@anatoly-kuz-mntn</a> opened 5 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>
@@ -590,7 +590,7 @@ Updated: `2026-09-26 17:19 UTC`.
     <p class="issues-desc">## Description  Height-sync messages are signed with the host process signer, which is normally a warm key for joined participants. Several verification paths compare the recovered signer only with th...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/anatoly-kuz-mntn">@anatoly-kuz-mntn</a> opened 4 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/anatoly-kuz-mntn">@anatoly-kuz-mntn</a> opened 5 days ago</span>
       
     </div>
   </div>
@@ -800,7 +800,7 @@ Updated: `2026-09-26 17:19 UTC`.
     <p class="issues-desc">## Summary  `ErrInsufficientBalance` means that the current escrow cannot reserve the cost of one particular request. The gateway currently interprets it as proof that the escrow has reached end-of-li...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/anatoly-kuz-mntn">@anatoly-kuz-mntn</a> opened 7 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/anatoly-kuz-mntn">@anatoly-kuz-mntn</a> opened 8 days ago</span>
       
     </div>
   </div>
@@ -815,7 +815,7 @@ Updated: `2026-09-26 17:19 UTC`.
     <p class="issues-desc">## Operator  icezoneproject   Contact: @icezoneproject  ## Creator address  `gonka1v5zhd6yvjmuwxzuqxuns9wyes2et6qf9vpeuqq`  ## Models  Any current and future governance-enabled models.  ## Use case  P...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/icezoneproject">@icezoneproject</a> opened 7 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/icezoneproject">@icezoneproject</a> opened 8 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -830,7 +830,7 @@ Updated: `2026-09-26 17:19 UTC`.
     <p class="issues-desc">Pitstop’s main track is MLNode images, experiments, and evaluations for bringing new models onto the network.  The current piece of work is GLM 5.3 Flash: a vLLM 0.28 image plus a PoC fix. PoC current...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 7 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 8 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 6</span>
     </div>
   </div>
@@ -950,7 +950,7 @@ Updated: `2026-09-26 17:19 UTC`.
     <p class="issues-desc">Public Grafana repo (Pitstop): https://github.com/kaitakuai/gonka-grafana Pasha @clanster has it ready for review.   When it is out: - [ ] the stack actually works - [ ] Grafana shows what is really h...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 18 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 19 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 6</span>
     </div>
   </div>
@@ -980,7 +980,7 @@ Updated: `2026-09-26 17:19 UTC`.
     <p class="issues-desc">## Summary  A devshard gateway run by our team was rate-limited by a network node's nginx for weeks without either side realising it: **8,000+ rejected requests in 24 hours** across three zones. The l...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Ryanchen911">@Ryanchen911</a> opened 22 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/Ryanchen911">@Ryanchen911</a> opened 23 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -1010,7 +1010,7 @@ Updated: `2026-09-26 17:19 UTC`.
     <p class="issues-desc">## Summary  When the gateway serves `DEVSHARD_ROUTE_PREFIX=/devshard/v4`, escrow autorotation logs a fallback on every create:  ``` escrow_rotation_protocol_version_fallback route_prefix="/devshard/v4...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span> <span class="issues-label" style="background-color: #7057ff; color: #ffffff; border-color: #7057ff;">good first issue</span> <span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 26 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 27 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 5</span>
     </div>
   </div>
@@ -1025,7 +1025,7 @@ Updated: `2026-09-26 17:19 UTC`.
     <p class="issues-desc">### Summary When using `deepseek-ai/DeepSeek-V4-Flash-0731` via Open Broker (`api.openbroker.gonka.gg`), the gateway fails to parse reasoning tokens into `message.reasoning_content`.  Instead, the mod...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/dmrtest">@dmrtest</a> opened 26 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/dmrtest">@dmrtest</a> opened 27 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 5</span>
     </div>
   </div>
@@ -1070,7 +1070,7 @@ Updated: `2026-09-26 17:19 UTC`.
     <p class="issues-desc">## Summary  `withdraw()` and `mintWithSignature()` in `BridgeContract.sol` accept signatures from **any historical epoch** as long as the epoch's group key has not been cleaned up by `_cleanupOldEpoch...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Doog-bot534">@Doog-bot534</a> opened 29 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/Doog-bot534">@Doog-bot534</a> opened 2026-08-27</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 3</span>
     </div>
   </div>
@@ -1085,7 +1085,7 @@ Updated: `2026-09-26 17:19 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 29 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-08-27</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>
@@ -1100,7 +1100,7 @@ Updated: `2026-09-26 17:19 UTC`.
     <p class="issues-desc">## Summary  The Ethereum bridge README currently documents the mint/withdraw `messageHash` format without the `address(this)` bridge contract field, while the actual contract source includes it.  A fi...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Ryanchen911">@Ryanchen911</a> opened 29 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/Ryanchen911">@Ryanchen911</a> opened 2026-08-27</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 4</span>
     </div>
   </div>
@@ -1115,7 +1115,7 @@ Updated: `2026-09-26 17:19 UTC`.
     <p class="issues-desc">## Summary  When a threshold signing request reaches COMPLETED, the inference BLS hook calls `CleanupBridgePendingRefundByBlsRequestID` to remove pending bridge refund state.  If this cleanup persiste...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Ryanchen911">@Ryanchen911</a> opened 29 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/Ryanchen911">@Ryanchen911</a> opened 2026-08-27</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 4</span>
     </div>
   </div>
@@ -1130,7 +1130,7 @@ Updated: `2026-09-26 17:19 UTC`.
     <p class="issues-desc">Improve onboarding experience:   - [ ] Clearer logging when node is launched and waiting for PoC - [ ] remove errors which doesn’t mean errors - [ ] automatic testing that everything will work when Po...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 29 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-08-27</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 4</span>
     </div>
   </div>
@@ -1145,7 +1145,7 @@ Updated: `2026-09-26 17:19 UTC`.
     <p class="issues-desc">## Goal / Problem  Current MLNode registration in the API service requires three static parameters: - Static IP address - PoC port (management API, default 8080) - Inference port (vLLM inference API,...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/gmorgachev">@gmorgachev</a> opened 29 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/gmorgachev">@gmorgachev</a> opened 2026-08-27</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 6</span>
     </div>
   </div>
@@ -1160,7 +1160,7 @@ Updated: `2026-09-26 17:19 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 29 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-08-27</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 5</span>
     </div>
   </div>
@@ -1175,7 +1175,7 @@ Updated: `2026-09-26 17:19 UTC`.
     <p class="issues-desc">This is a future task. A detailed description will be provided in the near future.  Please do not start working on this task without the detailed specification, as it may turn out to be a different di...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 29 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-08-27</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -1190,7 +1190,7 @@ Updated: `2026-09-26 17:19 UTC`.
     <p class="issues-desc">Open for community contributors. Multiple parallel efforts in this direction are welcome to explore different approaches and accelerate progress.</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span> <span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 29 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-08-27</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>

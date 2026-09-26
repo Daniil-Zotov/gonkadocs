@@ -2,7 +2,7 @@
 title: "#914 — [P0] `devshards` rewards (research)"
 source: https://github.com/gonka-ai/gonka/issues/914
 issue_number: 914
-synced_at: 2026-09-26T17:18:15Z
+synced_at: 2026-09-26T19:57:56Z
 template: issues-main.html
 ---
 
