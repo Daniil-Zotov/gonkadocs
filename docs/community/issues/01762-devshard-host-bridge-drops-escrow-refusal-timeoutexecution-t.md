@@ -2,7 +2,7 @@
 title: "#1762 — devshard: host bridge drops escrow refusal_timeout/execution_timeout, so host and gateway can bind different SessionConfig"
 source: https://github.com/gonka-ai/gonka/issues/1762
 issue_number: 1762
-synced_at: 2026-09-26T07:51:07Z
+synced_at: 2026-09-26T13:12:27Z
 template: issues-main.html
 ---
 
