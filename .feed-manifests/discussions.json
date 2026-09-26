@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-09-26T01:28:26.103122+00:00",
+  "snapshot_time": "2026-09-26T07:33:26.111260+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "#805 — Welcome to Gonka Discussions 👋",
@@ -180,7 +180,7 @@
       "title": "#795 — Welcome to Proposals 👋",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #795](https://github.com/gonka-ai/gonka/discussions/795) every hour. \n\n# Welcome to Proposals 👋\n\n**Автор:** [@mtvnastya](https://github.com/mtvnastya) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-02-24 07:27 UTC · \n\n---\n\n## 📝 Описание\n\nThis is the space for discussing proposals for protocol improvements and the broader Gonka ecosystem development. If you have an idea that could make Gonka better, this is the place to share it.\n\n**What belongs here**\n\n- Protocol improvements: significant updates to core protocol design and long-term architectural direction\n- External infrastructure proposals: third-party integrations, API clients, tooling, and ecosystem extensions\n- Open problems: things that need research, design exploration, or comm",
-      "checksum": "3dfbea725e1d061a8f6c6e64938a92b17dd15b7a0f284a2d6b850c9982eebb5a"
+      "checksum": "9201b5d43a06c472a19a726a0aa11095c5fba90f60f0f2283351a222b403d297"
     },
     "protocol-improvements/0800-multi-model-poc.md": {
       "title": "#800 — Multi-Model PoC",

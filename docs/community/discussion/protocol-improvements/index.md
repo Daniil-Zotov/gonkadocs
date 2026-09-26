@@ -4,7 +4,7 @@ title: ":gear: Protocol Improvements"
 
 # :gear: Protocol Improvements
 
-Дискуссии в категории **:gear: Protocol Improvements**. Всего: **47**. Обновлено: `2026-09-26 01:28 UTC`.
+Дискуссии в категории **:gear: Protocol Improvements**. Всего: **47**. Обновлено: `2026-09-26 07:33 UTC`.
 
 [← ко всем категориям](../index.md)
 
@@ -56,4 +56,4 @@ title: ":gear: Protocol Improvements"
 | [802](0802-continuous-poc.md) | [Continuous PoC](0802-continuous-poc.md) | [@mtvnastya](https://github.com/mtvnastya) | 2026-03-26 |
 | [801](0801-inference-scaling.md) | [Inference Scaling](0801-inference-scaling.md) | [@gmorgachev](https://github.com/gmorgachev) | 2026-02-28 |
 | [800](0800-multi-model-poc.md) | [Multi-Model PoC](0800-multi-model-poc.md) | [@gmorgachev](https://github.com/gmorgachev) | 2026-04-20 |
-| [795](0795-welcome-to-proposals.md) | [Welcome to Proposals 👋](0795-welcome-to-proposals.md) | [@mtvnastya](https://github.com/mtvnastya) | 2026-04-16 |
+| [795](0795-welcome-to-proposals.md) | [Welcome to Proposals 👋](0795-welcome-to-proposals.md) | [@mtvnastya](https://github.com/mtvnastya) | 2026-09-26 |
