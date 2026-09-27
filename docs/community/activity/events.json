@@ -17,7 +17,7 @@
       "event_type": "proposal_report",
       "url": "/proposals/proposals/2026-q3/108/"
     },
-    "ai_description": null
+    "ai_description": "DevShard v5.0.2 update has officially passed, retiring v3 and v4 in favor of a critical fix that prevents each running version from opening oversized Postgres pools tied to host CPU count. This consolidation streamlines the network's resource usage and stability, so keep an eye out for the smoother deployment ahead."
   },
   {
     "id": "evt_20260927004808_a3d5ed17",
