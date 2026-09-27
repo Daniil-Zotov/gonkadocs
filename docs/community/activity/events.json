@@ -1,5 +1,53 @@
 [
   {
+    "id": "evt_20260927082232_97ae19ec",
+    "timestamp": "2026-09-27T08:22:32.770145+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1659 — Proposal: Repair loop for `escrow_state_root_diverged`",
+      "url": "/community/issues/01659-proposal-repair-loop-for-escrow-state-root-diverged/",
+      "file": "01659-proposal-repair-loop-for-escrow-state-root-diverged.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Proposal: Repair loop for `escrow_state_root_diverged`\n    <span class=\"issues-number\">#1659</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 2026-08-27 13:23 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Proposal: Repair loop for `escrow_state_root_diverged`\n    <span class=\"issues-number\">#1659</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 2026-08-27 13:23 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-"
+    },
+    "ai_description": "Issue #1659 on the repair loop for escrow_state_root_diverged has received its first comment. The discussion is now open, inviting community input on this proposal. Head over to the issue to share your thoughts.Issue #1659 on the repair loop for escrow_state_root_diverged now has its first comment, opening up the discussion for community feedback. Check it out to see what's being said and join the conversation."
+  },
+  {
+    "id": "evt_20260927082232_a137176a",
+    "timestamp": "2026-09-27T08:22:32.770191+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1695 — Proxy rate limiting: no exemption path for trusted high-volume clients, and the tuning variables are not passed through in compose",
+      "url": "/community/issues/01695-proxy-rate-limiting-no-exemption-path-for-trusted-high-volum/",
+      "file": "01695-proxy-rate-limiting-no-exemption-path-for-trusted-high-volum.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Proxy rate limiting: no exemption path for trusted high-volume clients, and the tuning variables are not passed through in compose\n    <span class=\"issues-number\">#1695</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Ryanchen911\">@Ryanchen911</a> opened 2026-09-01 08:25 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n ",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Proxy rate limiting: no exemption path for trusted high-volume clients, and the tuning variables are not passed through in compose\n    <span class=\"issues-number\">#1695</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Ryanchen911\">@Ryanchen911</a> opened 2026-09-01 08:25 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span cl"
+    },
+    "ai_description": "Issue #1695 on proxy rate limiting has been closed. The problem addressed the lack of an exemption path for trusted high-volume clients and missing tuning variables in compose configurations. This closure signals the community has resolved these operational bottlenecks, paving the way for smoother high-throughput proxy usage. Thanks to @Ryanchen911 for raising it."
+  },
+  {
+    "id": "evt_20260927082232_cf332981",
+    "timestamp": "2026-09-27T08:22:32.770218+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1726 — x/inference: CollateralParams.DowntimeMissedPercentageThreshold is governance-settable but read by nothing, and SlashForDowntime's comment describes a check it does not perform",
+      "url": "/community/issues/01726-xinference-collateralparamsdowntimemissedpercentagethreshold/",
+      "file": "01726-xinference-collateralparamsdowntimemissedpercentagethreshold.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    x/inference: CollateralParams.DowntimeMissedPercentageThreshold is governance-settable but read by nothing, and SlashForDowntime's comment describes a check it does not perform\n    <span class=\"issues-number\">#1726</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kAIPraxisBot\">@kAIPraxisBot</a> opened 2026-09-07 14:23 UTC</span>\n    <span class=\"issues-meta-item\">5 comments</s",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    x/inference: CollateralParams.DowntimeMissedPercentageThreshold is governance-settable but read by nothing, and SlashForDowntime's comment describes a check it does not perform\n    <span class=\"issues-number\">#1726</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kAIPraxisBot\">@kAIPraxisBot</a> opened 2026-09-07 14:23 UTC</span>\n    <span class=\"issues-meta-item\">4 comments</s"
+    },
+    "ai_description": "Issue #1726 remains open as a code quality concern: the DowntimeMissedPercentageThreshold parameter in CollateralParams is settable via governance but never actually used, and the SlashForDowntime comment references a check that doesn't exist in the code. One comment was removed from the discussion, but the core problem persists — this is a call for the team to either wire up the parameter or clean up the misleading documentation."
+  },
+  {
     "id": "evt_20260927024542_d8564dc2",
     "timestamp": "2026-09-27T02:45:42.604996+00:00",
     "section": "calendar",
@@ -8052,50 +8100,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Membership for correct epoch for Validation requests\n    <span class=\"issues-number\">#574</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-15 21:22 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margi"
     },
     "ai_description": "Issue #574 on validation request membership for the correct epoch has been removed from the feed. The closed discussion, which involved one comment, is no longer tracked here, so any related context is now archived elsewhere. Community members should refer to the repository directly if they need those details.Issue #574 on validation request membership for the correct epoch has been removed from the feed. The closed discussion, which involved one comment, is no longer tracked here, so any related context is now archived elsewhere. Community members should refer to the repository directly if they need those details."
-  },
-  {
-    "id": "evt_20260910143102_dbdd68e2",
-    "timestamp": "2026-09-10T14:31:02.672422+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#575 — Updated script snippets and MacOS Tahoe 26.1 Docker settings",
-      "url": null,
-      "file": "00575-updated-script-snippets-and-macos-tahoe-261-docker-settings.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Updated script snippets and MacOS Tahoe 26.1 Docker settings\n    <span class=\"issues-number\">#575</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-15 21:33 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" styl"
-    },
-    "ai_description": "Issue #575, which covered updated script snippets and MacOS Tahoe 26.1 Docker settings, has been closed and removed from the feed. The work is done, so there's nothing left to track here — thanks to @tcharchian for opening it and pushing the fix through. If you rely on those Docker tweaks, the resolution is now baked into the main codebase."
-  },
-  {
-    "id": "evt_20260910143102_0127555b",
-    "timestamp": "2026-09-10T14:31:02.672428+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#576 — Standardize floating point math",
-      "url": null,
-      "file": "00576-standardize-floating-point-math.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Standardize floating point math\n    <span class=\"issues-number\">#576</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-15 21:38 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n"
-    },
-    "ai_description": "Issue #576 on standardizing floating point math has been closed and removed from the tracker. The proposal aimed to bring consistency to how numerical calculations are handled across the network, which is key for reliable and reproducible inference results. With it closed, the community can now focus on other priorities. Thanks to @tcharchian for raising the discussion."
-  },
-  {
-    "id": "evt_20260910143102_f2937120",
-    "timestamp": "2026-09-10T14:31:02.672434+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#577 — Unified Permission handling",
-      "url": null,
-      "file": "00577-unified-permission-handling.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Unified Permission handling\n    <span class=\"issues-number\">#577</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-15 21:45 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</di"
-    },
-    "ai_description": "Issue #577 on unified permission handling has been removed from the feed. The proposal, which was closed without any community discussion, is no longer tracked here, so the roadmap remains focused on active work. If you were following this item, check the repository directly for any future updates.Issue #577 on unified permission handling has been removed from the community feed. The proposal was closed without any comments, so it's no longer part of our active tracking. If you were following this item, please check the repository directly for any future developments."
   }
 ]
