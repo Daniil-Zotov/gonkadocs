@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-09-27T18:32:23.355712+00:00",
+  "snapshot_time": "2026-09-27T22:22:38.328600+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "#310 — BUG-1: Preserved node disabling",
@@ -2671,7 +2671,7 @@
       "comment_bodies": [
         "I would like to take a bounded, non-overlapping slice of #1201: a TrainShard Checkpoint Artifact MVP covering the prioritized save/exchange artifacts primitive. Scope would be a versioned content-addressed checkpoint manifest, resumable quota-bounded transfer and verification inside the existing trainshard run volume, plus a two-host Docker E2E and adversarial tests. I would not touch #1350 reserv"
       ],
-      "checksum": "4c2629e2d4f7308e1c8037f6e9d72981ccf03956efe9ea1f90e7c09d7d8a8a71"
+      "checksum": "65d2408e93679506859efc5619462735b1b29cfc03d95a2518bb353edeaba1a2"
     },
     "01205-chain-halt-markvalidatorfordeletion-jailed-branch-races-come.md": {
       "title": "#1205 — chain-halt: `markValidatorForDeletion` jailed branch races CometBFT validator-update lag → slashing fails with ErrNoValidatorFound",
