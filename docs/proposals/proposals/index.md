@@ -35,7 +35,7 @@ hide:
 
 <div class="qs-stats">
 <div class="qs-stat total"><span class="qs-num">107</span><span class="qs-desc">Total Proposals</span></div>
-<div class="qs-stat passed"><span class="qs-num">71</span><span class="qs-desc">Passed (66%)</span></div>
+<div class="qs-stat passed"><span class="qs-num">72</span><span class="qs-desc">Passed (67%)</span></div>
 <div class="qs-stat rejected"><span class="qs-num">34</span><span class="qs-desc">Rejected (32%)</span></div>
 <div class="qs-stat failed"><span class="qs-num">1</span><span class="qs-desc">Failed (1%)</span></div>
 </div>
@@ -60,11 +60,10 @@ hide:
 
 *29 proposals*
 
-<div class="prop-card" data-status="prop-voting" data-voting-end="2026-09-27T00:03:53.716433398Z">
+<div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
     <a href="2026-q3/108/" class="prop-card-title">#108 – Update DevShard v5 to v5.0.2</a>
-    <span class="prop-vote-countdown" data-deadline="2026-09-27T00:03:53.716433398Z"></span>
-    <span class="prop-badge prop-voting">Voting</span>
+    <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
     <span>Submitted 2026-09-25</span>
@@ -1518,7 +1517,7 @@ hide:
 
 </div>
 <div class="prop-oview-stats">
-<em>107 proposals across 5 quarters. Last updated: 2026-09-26 23:07 UTC</em>
+<em>107 proposals across 5 quarters. Last updated: 2026-09-27 01:23 UTC</em>
 </div>
 
 <script>

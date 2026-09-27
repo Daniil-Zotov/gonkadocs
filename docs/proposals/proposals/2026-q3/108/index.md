@@ -10,7 +10,7 @@ template: proposals-proposals-main.html
 
 <div class="prop-detail-header" markdown="1">
 
-<div class="prop-badge-row"><span class="prop-badge prop-voting">Voting</span><span class="prop-vote-countdown prop-vote-countdown-detail" data-deadline="2026-09-27T00:03:53.716433398Z"></span></div>
+<span class="prop-badge prop-passed">Passed</span>
 
 **Proposal ID:** `108`
 
