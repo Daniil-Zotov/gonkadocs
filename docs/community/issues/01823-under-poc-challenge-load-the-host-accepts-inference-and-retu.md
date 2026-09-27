@@ -2,7 +2,7 @@
 title: "#1823 — Under PoC challenge load the host accepts inference and returns an empty stream instead of rejecting it"
 source: https://github.com/gonka-ai/gonka/issues/1823
 issue_number: 1823
-synced_at: 2026-09-27T14:04:16Z
+synced_at: 2026-09-27T18:29:50Z
 template: issues-main.html
 ---
 

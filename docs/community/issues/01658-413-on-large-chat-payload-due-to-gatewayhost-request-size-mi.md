@@ -2,7 +2,7 @@
 title: "#1658 — 413 on large chat payload due to gateway/host request size mismatch"
 source: https://github.com/gonka-ai/gonka/issues/1658
 issue_number: 1658
-synced_at: 2026-09-27T14:04:28Z
+synced_at: 2026-09-27T18:29:41Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/aikuznetsov">@aikuznetsov</a> opened 2026-08-27 13:02 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-18 21:30 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-09-27 14:42 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -100,6 +100,21 @@ This would avoid:
 - noisy redundancy behavior
 - misleading voting / observability data
 
+</div>
+
+---
+
+## 💬 Comments (1)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/qdanik">@qdanik</a></span>
+    <span class="issues-meta-item">commented 2026-09-27 14:42 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>after the discussion with @akup the solution delivered in https://github.com/gonka-ai/gonka/pull/1732 is declined.
+https://github.com/gonka-ai/gonka/pull/1832 - gRPC should cover this case.</p>
+  </div>
 </div>
 
 ---

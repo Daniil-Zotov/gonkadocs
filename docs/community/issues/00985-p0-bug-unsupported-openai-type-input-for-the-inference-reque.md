@@ -2,7 +2,7 @@
 title: "#985 — [P0] Bug: unsupported OpenAI type input for the inference requests"
 source: https://github.com/gonka-ai/gonka/issues/985
 issue_number: 985
-synced_at: 2026-09-27T14:05:29Z
+synced_at: 2026-09-27T18:31:04Z
 template: issues-main.html
 ---
 
