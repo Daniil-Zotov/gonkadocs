@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260927140642_b724591e",
+    "timestamp": "2026-09-27T14:06:42.566871+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1746 — x/inference: a non-ACTIVE participant's earned WorkCoins are cleared at settlement with no claim record and no governance transfer",
+      "url": "/community/issues/01746-xinference-a-non-active-participants-earned-workcoins-are-cl/",
+      "file": "01746-xinference-a-non-active-participants-earned-workcoins-are-cl.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    x/inference: a non-ACTIVE participant's earned WorkCoins are cleared at settlement with no claim record and no governance transfer\n    <span class=\"issues-number\">#1746</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-09-10 11:45 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    x/inference: a non-ACTIVE participant's earned WorkCoins are cleared at settlement with no claim record and no governance transfer\n    <span class=\"issues-number\">#1746</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-09-10 11:45 UTC</span>\n    <span class=\"issues-meta-item\">4 comments</span>\n    <span class=\"issues-meta-item\"></span>\n"
+    },
+    "ai_description": "Issue #1746 on x/inference has received a fourth comment, highlighting growing community attention around the bug where non-ACTIVE participants lose their earned WorkCoins at settlement without a claim record or governance transfer. The discussion continues to center on ensuring fair compensation for all contributors in the inference network. Stay tuned for further updates on this important issue."
+  },
+  {
     "id": "evt_20260927082232_97ae19ec",
     "timestamp": "2026-09-27T08:22:32.770145+00:00",
     "section": "issues",
@@ -8085,20 +8101,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Governance-owned leftovers; add genesis guardian + developer access param groups\n    <span class=\"issues-number\">#573</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-15 21:18 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class"
     },
     "ai_description": "Issue #573 on governance-owned leftovers has been closed and removed from the feed. The proposal to add genesis guardian and developer access parameter groups did not move forward, so the community can focus on other governance topics. Thanks to @tcharchian for raising it.Issue #573, proposing governance-owned leftovers with new genesis guardian and developer access parameter groups, has been closed and removed from the feed. The proposal did not advance, so the community can shift attention to other governance priorities. Thanks to @tcharchian for putting it forward."
-  },
-  {
-    "id": "evt_20260910143102_4f0eb926",
-    "timestamp": "2026-09-10T14:31:02.672414+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#574 — Membership for correct epoch for Validation requests",
-      "url": null,
-      "file": "00574-membership-for-correct-epoch-for-validation-requests.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Membership for correct epoch for Validation requests\n    <span class=\"issues-number\">#574</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-15 21:22 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margi"
-    },
-    "ai_description": "Issue #574 on validation request membership for the correct epoch has been removed from the feed. The closed discussion, which involved one comment, is no longer tracked here, so any related context is now archived elsewhere. Community members should refer to the repository directly if they need those details.Issue #574 on validation request membership for the correct epoch has been removed from the feed. The closed discussion, which involved one comment, is no longer tracked here, so any related context is now archived elsewhere. Community members should refer to the repository directly if they need those details."
   }
 ]

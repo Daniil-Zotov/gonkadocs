@@ -2,7 +2,7 @@
 title: "#1746 — x/inference: a non-ACTIVE participant's earned WorkCoins are cleared at settlement with no claim record and no governance transfer"
 source: https://github.com/gonka-ai/gonka/issues/1746
 issue_number: 1746
-synced_at: 2026-09-27T08:20:02Z
+synced_at: 2026-09-27T14:04:07Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/vitaly-andr">@vitaly-andr</a> opened 2026-09-10 11:45 UTC</span>
-    <span class="issues-meta-item">3 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-26 20:18 UTC</span>
+    <span class="issues-meta-item">4 comments</span>
+    <span class="issues-meta-item">Updated 2026-09-27 09:03 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -219,7 +219,7 @@ Which behaviour did you intend? If forfeiture, the amount could follow the Rewar
 
 ---
 
-## 💬 Comments (3)
+## 💬 Comments (4)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -253,6 +253,26 @@ Which behaviour did you intend? If forfeiture, the amount could follow the Rewar
 <li><code>SettleAccounts</code> covers only a small part of the problem on mainnet. Most escrows of epoch N are settled after the epoch switch and go through <code>payCoinsDirectly</code> with no status check (<code>msg_server_settle_devshard_escrow.go:177-185</code> on upgrade-v0.2.16), so non-ACTIVE hosts are paid in full there. In epochs 398–402 that was 85–100% of what non-ACTIVE hosts earned; per-epoch numbers: https://github.com/gonka-ai/gonka/pull/1837#issuecomment-5820911669. Whether a non-ACTIVE host is paid or forfeits currently depends on when the gateway submits the settlement.</li>
 <li><code>TestSettleAccounts_ForfeitedWorkCoinsGoToGovernance</code> in #1837 (INVALID 500, INACTIVE 300, ACTIVE 1000) can be reused as is.</li>
 </ul>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/vitaly-andr">@vitaly-andr</a></span>
+    <span class="issues-meta-item">commented 2026-09-27 09:03 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Hi @gmorgachev @DimaOrekhovPS, one more policy question before I finalize the fix.</p>
+<p>Should this be documented as an explicit epoch policy: a Host that becomes INVALID or INACTIVE during an epoch forfeits all unpaid RewardCoins and WorkCoins for that epoch to governance? Or should this apply only to INVALID participants?</p>
+<p>The shutdown guide already tells Hosts to disable their MLNodes and wait until the next epoch before powering them off, but it does not explain this financial consequence.</p>
+<p>If confirmed, I think the documentation should be updated in:</p>
+<ul>
+<li>gonka-docs/docs/host/quickstart.md — warn that powering off before the disable takes effect may forfeit unpaid epoch earnings.</li>
+<li>gonka-docs/docs/FAQ.md — distinguish jailed, INVALID, and INACTIVE and explain their effect on RewardCoins and WorkCoins.</li>
+<li>gonka/docs/tokenomics.md — it currently says participants receive the exact WorkCoins accumulated for completed inference work.</li>
+<li>gonka-docs/docs/glossary.md — define INVALID and INACTIVE and their economic consequences.</li>
+<li>gonka-docs/docs/network-updates.md — describe the policy change and the required Host action in the v0.2.18 announcement.</li>
+</ul>
+<p>If that is the intended policy, I am ready to include these documentation updates in the PR.</p>
   </div>
 </div>
 
