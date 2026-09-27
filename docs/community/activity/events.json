@@ -1,5 +1,25 @@
 [
   {
+    "id": "evt_20260927024542_d8564dc2",
+    "timestamp": "2026-09-27T02:45:42.604996+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Passed: #108 – Update DevShard v5 to v5.0.2",
+      "url": "/proposals/proposals/2026-q3/108/",
+      "file": "9be631eb4849cad52b2f649d737e2dd2ce0c261d77637d7048fd23d85725fc1a"
+    },
+    "details": {
+      "status": null,
+      "content": "Update DevShard v5 to v5.0.2 and retire v3 and v4\n\nThis proposal is a critical fix for the overall Devshard deployment. Each running Devshard version opened a Postgres pool sized to the host CPU count…",
+      "date": "2026-09-27",
+      "time": "00:03 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q3/108/"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260927004808_a3d5ed17",
     "timestamp": "2026-09-27T00:48:08.098233+00:00",
     "section": "calendar",
@@ -8077,20 +8097,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Unified Permission handling\n    <span class=\"issues-number\">#577</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-15 21:45 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</di"
     },
     "ai_description": "Issue #577 on unified permission handling has been removed from the feed. The proposal, which was closed without any community discussion, is no longer tracked here, so the roadmap remains focused on active work. If you were following this item, check the repository directly for any future updates.Issue #577 on unified permission handling has been removed from the community feed. The proposal was closed without any comments, so it's no longer part of our active tracking. If you were following this item, please check the repository directly for any future developments."
-  },
-  {
-    "id": "evt_20260910143102_ea406241",
-    "timestamp": "2026-09-10T14:31:02.672440+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#578 — Remove work based rewards and top miner logic",
-      "url": null,
-      "file": "00578-remove-work-based-rewards-and-top-miner-logic.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Remove work based rewards and top miner logic\n    <span class=\"issues-number\">#578</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-15 21:46 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top:"
-    },
-    "ai_description": "Issue #578, which proposed removing work-based rewards and the top miner logic, has been closed without any comments. This means the proposal did not gain traction and will not move forward, so the current reward structure stays intact for now. For the community, this signals that the existing incentive model remains the baseline while discussions continue."
   }
 ]

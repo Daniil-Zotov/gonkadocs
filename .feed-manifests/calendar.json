@@ -1,6 +1,6 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-09-27T00:48:08.019535+00:00",
+  "snapshot_time": "2026-09-27T02:45:42.629046+00:00",
   "files": {
     "1b608f38bcf9c2f73348e483c535a7b3f0d6bda283a50d79dbdc278ec8e7bdbe": {
       "title": "AMA: Работа маркетинг-комитета",
@@ -2306,14 +2306,14 @@
       "content_preview": "HSC Asset Management proposes that the Gonka community allocate 15,000 USDT from the Community Pool for a fireside chat on AI for Gonka's founders at HSC Asset Management Singapore, a one-day institut…",
       "checksum": "2b0c266ea442fb8934539dce6a114433f1e16eaf56a8c21adef09e5ebc37629b"
     },
-    "2f8b075cb82f978455e5ceee9c7debcb6a4d3a6fc88fd8c97a9ec295d0806748": {
-      "title": "Voting ends: #108 – Update DevShard v5 to v5.0.2",
+    "9be631eb4849cad52b2f649d737e2dd2ce0c261d77637d7048fd23d85725fc1a": {
+      "title": "Passed: #108 – Update DevShard v5 to v5.0.2",
       "date": "2026-09-27",
       "time": "00:03 UTC",
-      "event_type": "proposal_vote_end",
+      "event_type": "proposal_report",
       "url": "/proposals/proposals/2026-q3/108/",
       "content_preview": "Update DevShard v5 to v5.0.2 and retire v3 and v4\n\nThis proposal is a critical fix for the overall Devshard deployment. Each running Devshard version opened a Postgres pool sized to the host CPU count…",
-      "checksum": "9c4e9cc35200afc2c3ab71dc7d0075f35d5fb609b9fff33cd1ea37dc7d354c8d"
+      "checksum": "db857b78cecbdbb4f498e77db00b19dc3da158dc8f73b07a896ca15d9fa8e277"
     }
   }
 }
