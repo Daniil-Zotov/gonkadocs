@@ -30537,7 +30537,7 @@ HardCore Arena позволит протестировать модель на �
 ## Overview
 
 107Total Proposals
-71Passed (66%)
+72Passed (67%)
 34Rejected (32%)
 1Failed (1%)
 
@@ -30557,8 +30557,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
 
   
     #108 – Update DevShard v5 to v5.0.2
-    
-    Voting
+    Passed
   
   
     Submitted 2026-09-25
@@ -31789,7 +31788,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-107 proposals across 5 quarters. Last updated: 2026-09-26 23:07 UTC
+107 proposals across 5 quarters. Last updated: 2026-09-27 01:23 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -69459,7 +69458,7 @@ Contract Details
 ## 2026-Q3 Summary
 
 29Total Proposals
-19Passed (66%)
+20Passed (69%)
 9Rejected (31%)
 
 Governance Parameters15
@@ -69476,8 +69475,7 @@ $90,075 USDT · Bounty Reward
 
   
     #108 – Update DevShard v5 to v5.0.2
-    
-    Voting
+    Passed
   
   
     Submitted 2026-09-25
@@ -72606,7 +72604,7 @@ Contract Details
 
 # #108 – Update DevShard v5 to v5.0.2
 
-Voting
+Passed
 
 **Proposal ID:** `108`
 
