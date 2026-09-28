@@ -2,7 +2,7 @@
 title: "#1810 — `devshard`: Tool-calling / protocol errors → INVALID"
 source: https://github.com/gonka-ai/gonka/issues/1810
 issue_number: 1810
-synced_at: 2026-09-28T07:02:43Z
+synced_at: 2026-09-28T15:36:43Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-09-18 22:00 UTC</span>
-    <span class="issues-meta-item">2 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-25 18:31 UTC</span>
+    <span class="issues-meta-item">3 comments</span>
+    <span class="issues-meta-item">Updated 2026-09-28 10:53 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -27,7 +27,7 @@ template: issues-main.html
 
 ---
 
-## 💬 Comments (2)
+## 💬 Comments (3)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -64,6 +64,15 @@ Here’s what we’ve found in the code so far, and we are wondering whether the
 Also it is possible that there is hosts with vllm V2, that can give different output.
 I think looking into the problem as incompatible vllm outputs can give some inside.</p>
 <p>For my opinion we anyway need validator to identify is it valid or invalid response. But the general problem that we first need to understand what version generates the tool callings that leads to protocol errors, so it first the log analysis before any development action</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/zpoken">@zpoken</a></span>
+    <span class="issues-meta-item">commented 2026-09-28 10:53 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>@a-kuprin Thanks for the information. We’ll investigate this issue further, try different vLLM versions, and analyze the logs to get closer to the root cause.</p>
   </div>
 </div>
 

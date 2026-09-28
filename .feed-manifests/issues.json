@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-09-28T07:06:28.820271+00:00",
+  "snapshot_time": "2026-09-28T15:40:42.475287+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "#310 — BUG-1: Preserved node disabling",
@@ -3832,13 +3832,14 @@
     "01810-devshard-tool-calling-protocol-errors-invalid.md": {
       "title": "#1810 — `devshard`: Tool-calling / protocol errors → INVALID",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: Tool-calling / protocol errors → INVALID\n    <span class=\"issues-number\">#1810</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-18 22:00 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<d",
-      "comment_checksum": "0eaf6dea0ab7b3952448e80e706ce803444d45019d284d36c77ca90f4dce4a7e",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: Tool-calling / protocol errors → INVALID\n    <span class=\"issues-number\">#1810</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-18 22:00 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<d",
+      "comment_checksum": "10713f6732370f2a7b4b5d2cba482256adfc0128832d0e5d9932a7cf1b9ce435",
       "comment_bodies": [
         "Hi @a-kuprin We are interested in resolving this issue, but there’s currently no description for it. Here’s what we’ve found in the code so far, and we are wondering whether the issue was created around this: Responses containing tool calls are not structurally validated: there is no validation of the JSON in arguments, no check that the tool name exists in the request’s tools, and no consistency ",
-        "It is mostly @qdanik theme @zpoken could you please hold on it, because I just can't deeply explain what is the failure and how we should detect it. Also it is possible that there is hosts with vllm V2, that can give different output. I think looking into the problem as incompatible vllm outputs can give some inside. For my opinion we anyway need validator to identify is it valid or invalid respon"
+        "It is mostly @qdanik theme @zpoken could you please hold on it, because I just can't deeply explain what is the failure and how we should detect it. Also it is possible that there is hosts with vllm V2, that can give different output. I think looking into the problem as incompatible vllm outputs can give some inside. For my opinion we anyway need validator to identify is it valid or invalid respon",
+        "@a-kuprin Thanks for the information. We’ll investigate this issue further, try different vLLM versions, and analyze the logs to get closer to the root cause."
       ],
-      "checksum": "17e3257cc008ced81a2e0e82255b2cf1c09dcc2dd6dc9636e3e6ff855b882804"
+      "checksum": "0f597eff09cef447e3d12c57e70cafda2d71ab29ee01eead005518b9d28b3e99"
     },
     "01812-devshard-challenge-create-instance.md": {
       "title": "#1812 — `devshard`: challenge create instance",
@@ -3928,6 +3929,16 @@
       "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "comment_bodies": [],
       "checksum": "83b50306582d4ed8fb481a900f79d0a9750a96a33e5f82d8d82537505a962bfc"
+    },
+    "01867-feature-expose-lightweight-participantweight-query-to-cosmwa.md": {
+      "title": "#1867 — Feature: Expose lightweight ParticipantWeight query to CosmWasm (AcceptedGrpcQueries)",
+      "status": null,
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Feature: Expose lightweight ParticipantWeight query to CosmWasm (AcceptedGrpcQueries)\n    <span class=\"issues-number\">#1867</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/DmitriyVoronov00\">@DmitriyVoronov00</a> opened 2026-09-28 11:12 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels",
+      "comment_checksum": "d14a3560be3b45c174bf177bc6c6c05c077a198181ce16661b4b9e6d10a2cabb",
+      "comment_bodies": [
+        "Following up on this: I noticed that PR #1758, merged into upgrade-v0.2.16, already exposes GetCurrentEpoch and EpochPerformanceSummaryByParticipant to CosmWasm. This is a very important step for marketplace and escrow-style contracts. Looking at the current protobuf definition, EpochPerformanceSummary already provides per-participant stats for a completed epoch, including inference counts, reward"
+      ],
+      "checksum": "6cb183704eeb2a8d4fa1be6f121e2df55f422593287d002237bfe55289971c84"
     }
   }
 }

@@ -1,5 +1,37 @@
 [
   {
+    "id": "evt_20260928153938_1c2d1dad",
+    "timestamp": "2026-09-28T15:39:38.040640+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1867 — Feature: Expose lightweight ParticipantWeight query to CosmWasm (AcceptedGrpcQueries)",
+      "url": "/community/issues/01867-feature-expose-lightweight-participantweight-query-to-cosmwa/",
+      "file": "01867-feature-expose-lightweight-participantweight-query-to-cosmwa.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Feature: Expose lightweight ParticipantWeight query to CosmWasm (AcceptedGrpcQueries)\n    <span class=\"issues-number\">#1867</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/DmitriyVoronov00\">@DmitriyVoronov00</a> opened 2026-09-28 11:12 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260928153938_be67694b",
+    "timestamp": "2026-09-28T15:39:38.040898+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1810 — `devshard`: Tool-calling / protocol errors → INVALID",
+      "url": "/community/issues/01810-devshard-tool-calling-protocol-errors-invalid/",
+      "file": "01810-devshard-tool-calling-protocol-errors-invalid.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: Tool-calling / protocol errors → INVALID\n    <span class=\"issues-number\">#1810</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-18 22:00 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<d",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: Tool-calling / protocol errors → INVALID\n    <span class=\"issues-number\">#1810</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-18 22:00 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<d"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260927183215_19f018c7",
     "timestamp": "2026-09-27T18:32:15.886445+00:00",
     "section": "issues",
@@ -8072,35 +8104,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Production-grade proxy, SSL, and wallet-compatible endpoints\n    <span class=\"issues-number\">#570</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-15 21:09 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" sty"
     },
     "ai_description": "Issue #570 on production-grade proxy, SSL, and wallet-compatible endpoints has been removed from the feed. The proposal was closed without any comments, so it has been taken down to keep the activity board clean and focused on active work. This cleanup helps the community stay on top of relevant discussions and pending decisions.Issue #570, which proposed production-grade proxy, SSL, and wallet-compatible endpoints, has been removed from the feed after being closed without any comments. This cleanup keeps the community activity board focused on active proposals and ongoing work, avoiding stale entries. If you were tracking this item, no further action is needed."
-  },
-  {
-    "id": "evt_20260910143102_c55bb3bb",
-    "timestamp": "2026-09-10T14:31:02.672379+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#571 — Improve performance of MLNode, support Blackwell",
-      "url": null,
-      "file": "00571-improve-performance-of-mlnode-support-blackwell.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Improve performance of MLNode, support Blackwell \n    <span class=\"issues-number\">#571</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-15 21:13 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-"
-    },
-    "ai_description": "Issue #571 on improving MLNode performance and adding Blackwell support has been removed from the activity feed. The issue was closed without any comments, so no community discussion or resolution is recorded here. Its removal cleans up the feed, leaving only active and relevant items for the community to track.Issue #571 on improving MLNode performance and supporting Blackwell has been closed and removed from the activity feed. Since it was closed without comments, no further action or discussion is needed from the community on this item."
-  },
-  {
-    "id": "evt_20260910143102_773e0c76",
-    "timestamp": "2026-09-10T14:31:02.672385+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#572 — Multi-node testing",
-      "url": null,
-      "file": "00572-multi-node-testing.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Multi-node testing\n    <span class=\"issues-number\">#572</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-15 21:16 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div "
-    },
-    "ai_description": "Issue #572 on multi-node testing has been closed and removed from the feed. With zero comments and no discussion, it likely didn't gain traction, so cleaning it up keeps the board focused on active work. Thanks to @tcharchian for raising it, but we're moving on. Stay tuned for the next update."
   }
 ]
