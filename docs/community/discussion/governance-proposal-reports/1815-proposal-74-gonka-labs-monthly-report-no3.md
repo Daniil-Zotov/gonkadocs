@@ -3,14 +3,14 @@ title: "#1815 — Proposal #74: Gonka Labs - Monthly Report No.3"
 source: https://github.com/gonka-ai/gonka/discussions/1815
 discussion_number: 1815
 category: governance-proposal-reports
-synced_at: 2026-09-28T06:42:21Z
+synced_at: 2026-09-28T15:19:28Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1815](https://github.com/gonka-ai/gonka/discussions/1815) every hour. 
 
 # Proposal #74: Gonka Labs - Monthly Report No.3
 
-**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-09-19 09:57 UTC · **Обновлено:** 2026-09-19 12:36 UTC
+**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-09-19 09:57 UTC · **Обновлено:** 2026-09-28 11:26 UTC
 
 ---
 
@@ -412,8 +412,8 @@ Still in the second half of the six months: harden what is live, finish the chec
 ## Links
 
 - Proposal: [https://gonkalabs.com/proposal](https://gonkalabs.com/proposal) · on-chain [#74](https://gonka.gg/network/proposals/74)
-- Report #1: [https://github.com/gonka-ai/gonka/discussions/1477](https://github.com/gonka-ai/gonka/discussions/1477)
-- Report #2: [https://github.com/gonka-ai/gonka/discussions/1612](https://github.com/gonka-ai/gonka/discussions/1612)
+- Report 1: [https://github.com/gonka-ai/gonka/discussions/1477](https://github.com/gonka-ai/gonka/discussions/1477)
+- Report 2: [https://github.com/gonka-ai/gonka/discussions/1612](https://github.com/gonka-ai/gonka/discussions/1612)
 - Gonka Labs: [https://gonkalabs.com](https://gonkalabs.com)
 - Explorer: [https://gonka.gg](https://gonka.gg)
 - OpenBroker: [https://openbroker.gonka.gg](https://openbroker.gonka.gg) · updates [t.me/openbroker_gg](https://t.me/openbroker_gg)
