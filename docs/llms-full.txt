@@ -2855,6 +2855,33 @@ This page is a list of model licenses. It does not say whether a model is on Gon
    
     This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.
 
+## September 27, 2026
+
+**PROPOSAL PASSED: DevShard v5.0.2**
+
+The on-chain governance vote for proposal id 108 has concluded.
+
+The proposal was APPROVED.
+
+DevShard v5 is updated to v5.0.2, which caps the Postgres payload pools that were exhausting connections and taking nodes down. `approved_versions` on chain is now:
+
+```
+v4.1   release/devshard/v4.1.0
+v5     devshard/v5.0.2
+```
+
+v3 and plain v4 have been removed.
+
+**What is required from hosts**
+
+Nothing. `versiond` downloads the new binary, verifies its sha256 and runs it.
+
+**Gateway operators**
+
+`/devshard/v3` and `/devshard/v4` are no longer served. Move to `/devshard/v4.1`. The current gateway release is v4.1.2, image `mainnet-v0.2.15-v4.1.2`; pin the digest rather than the tag.
+
+Full technical scope: [PR 1840](https://github.com/gonka-ai/gonka/pull/1840)
+
 ## September 25, 2026
 
 **Proposal 108 is open for voting: DevShard v5.0.2**
@@ -21227,7 +21254,7 @@ decentralized mixture-of-experts."
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-09-28 10:26 UTC
+2026-09-28 18:21 UTC
 
 ---
 
@@ -21281,7 +21308,7 @@ curl -s https://node3.gonka.ai/chain-api/cosmos/bank/v1beta1/balances/gonka18pkq
 
 **Address:** [`gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33`](https://gonka.gg/address/gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33)
 
-Current balance: 5,298,951 GNK
+Current balance: 5,381,195 GNK
 
 The Gov Module authority is the only address permitted to execute `MsgCommunityPoolSpend` transfers from the Community Pool. When a governance proposal passes, this address signs and sends the requested funds to the specified recipient.
 
@@ -31788,7 +31815,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-107 proposals across 5 quarters. Last updated: 2026-09-28 14:20 UTC
+107 proposals across 5 quarters. Last updated: 2026-09-28 18:40 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {

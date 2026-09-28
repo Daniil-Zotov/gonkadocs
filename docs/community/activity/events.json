@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260928205849_7a5c3215",
+    "timestamp": "2026-09-28T20:58:49.843466+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "Announcements",
+      "url": "/gonka/docs/network-updates/",
+      "file": "network-updates.md"
+    },
+    "details": {
+      "content_before": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## September 25, 2026\n\n**Proposal 108 is open for voting: DevShard v5.0.2**\n\nAn important fix for DevShard node failures. It also retires v3 and v4.\n\nVoting closes **27 September, 00:03 UTC**.\n\n**What it fixes**\n\nEach running DevShard version opened a Postg",
+      "content_after": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## September 27, 2026\n\n**PROPOSAL PASSED: DevShard v5.0.2**\n\nThe on-chain governance vote for proposal id 108 has concluded.\n\nThe proposal was APPROVED.\n\nDevShard v5 is updated to v5.0.2, which caps the Postgres payload pools that were exhausting connection"
+    },
+    "ai_description": "The governance vote for Proposal 108 has passed, officially approving the DevShard v5.0.2 update that fixes node failures by capping Postgres payload pools. This is a key stability win for the network, as it also retires the older v3 and v4 versions, streamlining operations for all node operators."
+  },
+  {
     "id": "evt_20260928153938_1c2d1dad",
     "timestamp": "2026-09-28T15:39:38.040640+00:00",
     "section": "issues",
@@ -8089,20 +8105,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Switch to bytes for storage\n    <span class=\"issues-number\">#569</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-15 21:08 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</di"
     },
     "ai_description": "Issue #569 on switching to bytes for storage has been closed and removed from the feed. This means the proposal is no longer up for discussion, so the community has moved on from that storage format change. Keep an eye out for any future updates on how we handle data in the network.Issue #569 proposing a switch to bytes for storage has been closed and removed from the feed. This means the discussion is no longer active, so the community can focus on other priorities. Stay tuned for any future proposals on storage efficiency."
-  },
-  {
-    "id": "evt_20260910143102_c2734b63",
-    "timestamp": "2026-09-10T14:31:02.672371+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#570 — Production-grade proxy, SSL, and wallet-compatible endpoints",
-      "url": null,
-      "file": "00570-production-grade-proxy-ssl-and-wallet-compatible-endpoints.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Production-grade proxy, SSL, and wallet-compatible endpoints\n    <span class=\"issues-number\">#570</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-15 21:09 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" sty"
-    },
-    "ai_description": "Issue #570 on production-grade proxy, SSL, and wallet-compatible endpoints has been removed from the feed. The proposal was closed without any comments, so it has been taken down to keep the activity board clean and focused on active work. This cleanup helps the community stay on top of relevant discussions and pending decisions.Issue #570, which proposed production-grade proxy, SSL, and wallet-compatible endpoints, has been removed from the feed after being closed without any comments. This cleanup keeps the community activity board focused on active proposals and ongoing work, avoiding stale entries. If you were tracking this item, no further action is needed."
   }
 ]
