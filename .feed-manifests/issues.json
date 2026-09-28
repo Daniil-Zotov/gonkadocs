@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-09-28T15:40:42.475287+00:00",
+  "snapshot_time": "2026-09-28T22:12:10.167123+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "#310 — BUG-1: Preserved node disabling",
@@ -1246,12 +1246,12 @@
     "00617-ledger-wallet-integration.md": {
       "title": "#617 — Ledger wallet integration",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Ledger wallet integration\n    <span class=\"issues-number\">#617</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-22 17:28 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-content\" mar",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Ledger wallet integration\n    <span class=\"issues-number\">#617</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-22 17:28 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n",
       "comment_checksum": "69c76806701c7b765080ab6955510dbf02782665e5a3209f6306fda5920d242e",
       "comment_bodies": [
         "https://github.com/gonka-ai/gonka/discussions/1589"
       ],
-      "checksum": "63a234e65851bb18b215951f9ec724b662f3bed9f308e576b5782e47f52e2719"
+      "checksum": "183a81ce0e203d3230b8011250c3e59ec6b96fc96e098aa61837b0b373078c06"
     },
     "00619-inference-invalidation-by-pseudo-random-sub-group-of-partici.md": {
       "title": "#619 — Inference invalidation by pseudo random sub-group of participant (to decrease amount of `MsgValidation`)",
@@ -2656,12 +2656,13 @@
     "01200-independent-review-of-poc-decode-results.md": {
       "title": "#1200 — Independent review of PoC-decode results",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Independent review of PoC-decode results\n    <span class=\"issues-number\">#1200</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-05-19 23:36 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" sty",
-      "comment_checksum": "6c5572d7f1d72d1515da9209ff390bad10aa17049590f7102fb159f7d16c6587",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Independent review of PoC-decode results\n    <span class=\"issues-number\">#1200</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-05-19 23:36 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" st",
+      "comment_checksum": "a2be4a7712c977dafd905ccf377329f0b2a4eb782241e08d4eb45301f08495fb",
       "comment_bodies": [
-        "hi @tcharchian , do you need help with this? Maybe I can take on this task."
+        "hi @tcharchian , do you need help with this? Maybe I can take on this task.",
+        "Scope addendum, so a review of this issue matches the code as of 2026-09-28. The materials listed above (issue #1135, the April axeltec-software/vllm branch axeltec/poc-decode-proposal, the slides, and the Drive folder) are the original proposal. They are not the current integration target. What is already in production gonka main runs PoC v2, not the prefill-only procedure this issue was written "
       ],
-      "checksum": "8b9c74f13d2dd45402fc8a58c9b7975d65118d7d26382471dbbbb0537c7bb8dd"
+      "checksum": "92ed638b3955393f2cc0ff012e199092dc8fe1978978c99d8768c51efd1e41ab"
     },
     "01201-p0-training-on-gonka.md": {
       "title": "#1201 — [P0] Training on Gonka",
@@ -3318,10 +3319,12 @@
     "01545-bug-post-v1participants-returns-unclear-error-for-malformed-.md": {
       "title": "#1545 — [BUG] POST /v1/participants returns unclear error for malformed JSON",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] POST /v1/participants returns unclear error for malformed JSON\n    <span class=\"issues-number\">#1545</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Parikalp-Bhardwaj\">@Parikalp-Bhardwaj</a> opened 2026-08-04 19:19 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margi",
-      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "comment_bodies": [],
-      "checksum": "2c8080120bb10c12aa724eec17f77c15dff35b4889f489db53ce43ffaa955a14"
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] POST /v1/participants returns unclear error for malformed JSON\n    <span class=\"issues-number\">#1545</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Parikalp-Bhardwaj\">@Parikalp-Bhardwaj</a> opened 2026-08-04 19:19 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin",
+      "comment_checksum": "db200ada6a69e8ea2d478c51491ec5791d13741ab00482bfc38470864cb361e1",
+      "comment_bodies": [
+        "There are now three open PRs for this issue, all changing the same line in decentralized-api/internal/server/public/post_participant_handler.go. Listing them side by side so one can be picked and the others closed: PR Opened Handler change Test #1546 2026-08-04 \"Invalid request body\" + .SetInternal(err) (keeps the original error for logs) Adds a malformed-JSON test, but it asserts only the status "
+      ],
+      "checksum": "f6d02fdb8247aaadd5116efd5013a73101397533c7842839f7ff51f9da9018f8"
     },
     "01570-devshard-timeout-vote-threshold-unreachable-under-skewed-slo.md": {
       "title": "#1570 — Devshard: timeout-vote threshold unreachable under skewed slot distribution — stranded nonce cannot be resolved (liveness)",
@@ -3439,12 +3442,13 @@
     "01659-proposal-repair-loop-for-escrow-state-root-diverged.md": {
       "title": "#1659 — Proposal: Repair loop for `escrow_state_root_diverged`",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Proposal: Repair loop for `escrow_state_root_diverged`\n    <span class=\"issues-number\">#1659</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 2026-08-27 13:23 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-",
-      "comment_checksum": "709ddfb51f1178cf4b4b9ed9756418332e44292fd459f57a518c54ad4b9d53df",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Proposal: Repair loop for `escrow_state_root_diverged`\n    <span class=\"issues-number\">#1659</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 2026-08-27 13:23 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues",
+      "comment_checksum": "09ab3ced1389e62880354f61a5314ee0e042a0134a9e6a982ac281b00ca0730d",
       "comment_bodies": [
-        "hi @tcharchian @a-kuprin do you need help with this, If it's open I'd like to take phase 1."
+        "hi @tcharchian @a-kuprin do you need help with this, If it's open I'd like to take phase 1.",
+        "@Ryanchen911 first, we want to wrap up devshard v6 this week. Let's stay in touch"
       ],
-      "checksum": "2311edf4a468beaf421790ec74bfc6769de88ebd6e239d5f8dbb55fa589940df"
+      "checksum": "67d40d8ddc383b6e309b5445e91917c0e0fbdce45e889c17d11be748f420e1fe"
     },
     "01660-large-per-host-catch-up-diff-backlog-can-cause-413-on-host-t.md": {
       "title": "#1660 — Large per-host catch-up diff backlog can cause 413 on host transport",
@@ -3510,16 +3514,17 @@
     "01689-first-full-mnode-image-for-decode-poc-minimax-testing.md": {
       "title": "#1689 — First full MNode image for Decode PoC (MiniMax): testing",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    First full MNode image for Decode PoC (MiniMax): testing\n    <span class=\"issues-number\">#1689</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-08-31 20:20 UTC</span>\n    <span class=\"issues-meta-item\">5 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>",
-      "comment_checksum": "7c4ea4ff8d0e90cedbbf0c4e4a4058bc9b6132877b0928e491955ddd98f96e96",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    First full MNode image for Decode PoC (MiniMax): testing\n    <span class=\"issues-number\">#1689</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-08-31 20:20 UTC</span>\n    <span class=\"issues-meta-item\">6 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>",
+      "comment_checksum": "ea38963e49137e7a02349f12f620dbaa3c5781585aaed83abe067ea3f7647fb8",
       "comment_bodies": [
         "TY!",
         "ty",
         "Dependency: blocked by #1688. @tcharchian — this changes the ordering. Why Acceptance here is the acceptance of a frozen algorithm: 19 scenarios, each in self-validation and cross-device validation. Cross-device results depend on every consensus constant (expert seeding, ladder base, artifact payload, admission behaviour) — a change after the run invalidates the whole matrix. Two items on #1688 wo",
         "Status: paused on our side. @vbgd0 built the decode-PoC image himself (tag decode-poc-int, #1743) and handed testing to another team, so we are not working on this issue right now. We may come back to it if the images turn out to need building per hardware configuration.",
-        "Status: paused on our side, unchanged since 09-11. The image and its testing are with @vbgd0 and the other team; nothing for us to run. Next update on change."
+        "Status: paused on our side, unchanged since 09-11. The image and its testing are with @vbgd0 and the other team; nothing for us to run. Next update on change.",
+        "Status: resumed on our side. The 11.09 pause was our mistake: this matrix was not handed to another team; the 11.09 request to MIL was a review of the implementation. @vbgd0 found regressions on the 0.30 line that this matrix covers: the prefix cache after a prefill round (gonka-ai/gonka-vllm-plugins#20), the preempted PoC row and the v2 runner (gonka-ai/vllm#115). We run the matrix on the image b"
       ],
-      "checksum": "e7c934c8b0c652bef0d9e723dfe5aed7f57b6d6e03af8f87ce10331b6ca2cdd1"
+      "checksum": "46cf7535f489b58668551d30d06966f9bdb4dfa645595f65cd765358b2a92194"
     },
     "01690-first-full-mnode-image-for-decode-poc-deepseek-testing-coeff.md": {
       "title": "#1690 — First full MNode image for Decode PoC (DeepSeek): testing + coefficients",
@@ -3933,12 +3938,14 @@
     "01867-feature-expose-lightweight-participantweight-query-to-cosmwa.md": {
       "title": "#1867 — Feature: Expose lightweight ParticipantWeight query to CosmWasm (AcceptedGrpcQueries)",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Feature: Expose lightweight ParticipantWeight query to CosmWasm (AcceptedGrpcQueries)\n    <span class=\"issues-number\">#1867</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/DmitriyVoronov00\">@DmitriyVoronov00</a> opened 2026-09-28 11:12 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels",
-      "comment_checksum": "d14a3560be3b45c174bf177bc6c6c05c077a198181ce16661b4b9e6d10a2cabb",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Feature: Expose lightweight ParticipantWeight query to CosmWasm (AcceptedGrpcQueries)\n    <span class=\"issues-number\">#1867</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/DmitriyVoronov00\">@DmitriyVoronov00</a> opened 2026-09-28 11:12 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-label",
+      "comment_checksum": "fc6e0d966dfc920a1ec5e8af2ecefb426a2152b393b43113d593d25a6f3453d4",
       "comment_bodies": [
-        "Following up on this: I noticed that PR #1758, merged into upgrade-v0.2.16, already exposes GetCurrentEpoch and EpochPerformanceSummaryByParticipant to CosmWasm. This is a very important step for marketplace and escrow-style contracts. Looking at the current protobuf definition, EpochPerformanceSummary already provides per-participant stats for a completed epoch, including inference counts, reward"
+        "Following up on this: I noticed that PR #1758, merged into upgrade-v0.2.16, already exposes GetCurrentEpoch and EpochPerformanceSummaryByParticipant to CosmWasm. This is a very important step for marketplace and escrow-style contracts. Looking at the current protobuf definition, EpochPerformanceSummary already provides per-participant stats for a completed epoch, including inference counts, reward",
+        "Yes, this looks feasible. The summary is created during epoch settlement, so it is a good place to store the final weight. We can use the existing query. No new endpoint is needed. We already calculate ParticipantRewardWeight after caps, penalties, and delegation reward transfers. We should confirm if this is the weight GonkaWeightSwap needs. The query uses the participant address. A separate rewa",
+        "Thanks so much for the quick and insightful feedback, @niktverd! This is super helpful. Here are the specifics regarding our use case: Weight type (ParticipantRewardWeight vs compute weight): ParticipantRewardWeight (the final weight used for rewards) is exactly what GonkaWeightSwap needs. The core purpose of the escrow is to ensure the investor pays for actual, rewarded network contribution. If a"
       ],
-      "checksum": "6cb183704eeb2a8d4fa1be6f121e2df55f422593287d002237bfe55289971c84"
+      "checksum": "74e94a4635686dc6fbc88289f48d950ca0d86b96533b5d545ec7f516c84cd3e4"
     }
   }
 }

@@ -2,7 +2,7 @@
 title: "#1545 — [BUG] POST /v1/participants returns unclear error for malformed JSON"
 source: https://github.com/gonka-ai/gonka/issues/1545
 issue_number: 1545
-synced_at: 2026-09-28T15:37:25Z
+synced_at: 2026-09-28T22:08:07Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/Parikalp-Bhardwaj">@Parikalp-Bhardwaj</a> opened 2026-08-04 19:19 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-08-04 19:19 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-09-28 19:18 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
 </div>
@@ -36,6 +36,52 @@ template: issues-main.html
 ```
 {"error":"Invalid request body"}
 ```
+</div>
+
+---
+
+## 💬 Comments (1)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/redstartechno">@redstartechno</a></span>
+    <span class="issues-meta-item">commented 2026-09-28 19:18 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>There are now three open PRs for this issue, all changing the same line in <code>decentralized-api/internal/server/public/post_participant_handler.go</code>. Listing them side by side so one can be picked and the others closed:</p>
+<table>
+<thead>
+<tr>
+<th>PR</th>
+<th>Opened</th>
+<th>Handler change</th>
+<th>Test</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>#1546</td>
+<td>2026-08-04</td>
+<td><code>"Invalid request body"</code> + <code>.SetInternal(err)</code> (keeps the original error for logs)</td>
+<td>Adds a malformed-JSON test, but it asserts only the status code and logs the body</td>
+</tr>
+<tr>
+<td>#1678</td>
+<td>2026-08-30</td>
+<td><code>"Invalid request body"</code></td>
+<td>None</td>
+</tr>
+<tr>
+<td>#1865</td>
+<td>2026-09-27</td>
+<td><code>"Invalid request body"</code></td>
+<td>Asserts the JSON body for malformed JSON and for missing fields</td>
+</tr>
+</tbody>
+</table>
+<h1>1546 does not reference this issue in its description, which is probably why the later two were opened.</h1>
+<p>This is a comparison of the diffs only; I did not run the tests of #1865 or #1678.</p>
+  </div>
 </div>
 
 ---

@@ -2,7 +2,7 @@
 title: "#1659 — Proposal: Repair loop for `escrow_state_root_diverged`"
 source: https://github.com/gonka-ai/gonka/issues/1659
 issue_number: 1659
-synced_at: 2026-09-28T15:36:45Z
+synced_at: 2026-09-28T22:08:05Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/a-kuprin">@a-kuprin</a> opened 2026-08-27 13:23 UTC</span>
-    <span class="issues-meta-item">1 comment</span>
-    <span class="issues-meta-item">Updated 2026-09-27 06:19 UTC</span>
+    <span class="issues-meta-item">2 comments</span>
+    <span class="issues-meta-item">Updated 2026-09-28 21:22 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span></div>
 </div>
@@ -189,7 +189,7 @@ Metrics (low cardinality): repair attempts, currently blocked participants, time
 
 ---
 
-## 💬 Comments (1)
+## 💬 Comments (2)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -198,6 +198,15 @@ Metrics (low cardinality): repair attempts, currently blocked participants, time
   </div>
   <div class="issues-comment-body issues-content">
     <p>hi @tcharchian @a-kuprin do you need help with this, If it's open I'd like to take phase 1. </p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span class="issues-meta-item">commented 2026-09-28 21:22 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>@Ryanchen911 first, we want to wrap up devshard v6 this week. Let's stay in touch</p>
   </div>
 </div>
 

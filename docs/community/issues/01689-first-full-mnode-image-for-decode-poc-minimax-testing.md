@@ -2,7 +2,7 @@
 title: "#1689 — First full MNode image for Decode PoC (MiniMax): testing"
 source: https://github.com/gonka-ai/gonka/issues/1689
 issue_number: 1689
-synced_at: 2026-09-28T15:37:00Z
+synced_at: 2026-09-28T22:08:06Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-08-31 20:20 UTC</span>
-    <span class="issues-meta-item">5 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-22 00:27 UTC</span>
+    <span class="issues-meta-item">6 comments</span>
+    <span class="issues-meta-item">Updated 2026-09-28 19:32 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -119,7 +119,7 @@ Scenario 8 is the idle baseline (both PoCs off, no inference). If it is not a me
 
 ---
 
-## 💬 Comments (5)
+## 💬 Comments (6)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -175,6 +175,21 @@ Scenario 8 is the idle baseline (both PoCs off, no inference). If it is not a me
   <div class="issues-comment-body issues-content">
     <p><strong>Status:</strong> paused on our side, unchanged since 09-11.</p>
 <p>The image and its testing are with @vbgd0 and the other team; nothing for us to run. Next update on change.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/baychak">@baychak</a></span>
+    <span class="issues-meta-item">commented 2026-09-28 19:32 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p><strong>Status:</strong> resumed on our side.</p>
+<ul>
+<li>The 11.09 pause was our mistake: this matrix was not handed to another team; the 11.09 request to MIL was a review of the implementation.</li>
+<li>@vbgd0 found regressions on the 0.30 line that this matrix covers: the prefix cache after a prefill round (<a href="https://github.com/gonka-ai/gonka-vllm-plugins/pull/20">gonka-ai/gonka-vllm-plugins#20</a>), the preempted PoC row and the v2 runner (<a href="https://github.com/gonka-ai/vllm/pull/115">gonka-ai/vllm#115</a>).</li>
+<li>We run the matrix on the image built from <code>#115</code> and <code>#20</code>: MiniMax, DeepSeek and GLM on B300 and H100.</li>
+</ul>
+<p><strong>Next:</strong> the run plan with dates, here by 2026-09-30, once the scope is confirmed with @vbgd0.</p>
   </div>
 </div>
 

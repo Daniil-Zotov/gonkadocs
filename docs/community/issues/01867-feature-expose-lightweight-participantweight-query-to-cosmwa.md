@@ -2,7 +2,7 @@
 title: "#1867 — Feature: Expose lightweight ParticipantWeight query to CosmWasm (AcceptedGrpcQueries)"
 source: https://github.com/gonka-ai/gonka/issues/1867
 issue_number: 1867
-synced_at: 2026-09-28T15:36:43Z
+synced_at: 2026-09-28T22:08:07Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/DmitriyVoronov00">@DmitriyVoronov00</a> opened 2026-09-28 11:12 UTC</span>
-    <span class="issues-meta-item">1 comment</span>
-    <span class="issues-meta-item">Updated 2026-09-28 14:39 UTC</span>
+    <span class="issues-meta-item">3 comments</span>
+    <span class="issues-meta-item">Updated 2026-09-28 16:55 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -85,7 +85,7 @@ I am happy to collaborate with the core team, share more details on the product 
 
 ---
 
-## 💬 Comments (1)
+## 💬 Comments (3)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -116,6 +116,61 @@ I am happy to collaborate with the core team, share more details on the product 
 <p>For GonkaWeightSwap specifically, the contract needs the finalized weight of the configured reward-recipient address in order to determine whether the host met the agreed delivery conditions.</p>
 <p>Would adding <code>weight</code> to <code>EpochPerformanceSummary</code> be feasible for an upcoming upgrade? I would be very interested in the view on whether this fits the intended meaning and lifecycle of this record.</p>
 <p>cc @niktverd</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/niktverd">@niktverd</a></span>
+    <span class="issues-meta-item">commented 2026-09-28 16:20 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <ul>
+<li>
+<p>Yes, this looks feasible. The summary is created during epoch settlement, so it is a good place to store the final weight.</p>
+</li>
+<li>
+<p>We can use the existing query. No new endpoint is needed.</p>
+</li>
+<li>
+<ul>
+<li>We already calculate ParticipantRewardWeight after caps, penalties, and delegation reward transfers. We should confirm if this is the weight GonkaWeightSwap needs.</li>
+</ul>
+</li>
+<li>
+<p>The query uses the participant address. A separate reward recipient does not get that participant’s summary.</p>
+</li>
+<li>
+<p>We also need to handle old epochs: a missing weight must not be treated as a real zero.</p>
+</li>
+<li>For GonkaWeightSwap, do you need confirmed compute weight or the final weight used for rewards?</li>
+</ul>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/DmitriyVoronov00">@DmitriyVoronov00</a></span>
+    <span class="issues-meta-item">commented 2026-09-28 16:55 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Thanks so much for the quick and insightful feedback, @niktverd! This is super helpful.</p>
+<p>Here are the specifics regarding our use case:</p>
+<ol>
+<li>
+<p><strong>Weight type (<code>ParticipantRewardWeight</code> vs compute weight):</strong>
+   <strong><code>ParticipantRewardWeight</code> (the final weight used for rewards) is exactly what GonkaWeightSwap needs.</strong>
+   The core purpose of the escrow is to ensure the investor pays for actual, rewarded network contribution. If a node suffers penalties, slashing, or caps during the epoch, the escrow settlement should reflect the net rewarded weight rather than raw compute. Having <code>reward_weight</code> (and optionally raw compute weight if convenient) in <code>EpochPerformanceSummary</code> fits this perfectly.</p>
+</li>
+<li>
+<p><strong>Participant address vs reward recipient:</strong>
+   Thank you for highlighting this! Since the deal in the escrow contract tracks both parties (the host operator and the investor), the contract can directly query by the host's <code>participant</code> address to verify the epoch performance.</p>
+</li>
+<li>
+<p><strong>Handling legacy epochs:</strong>
+   Makes total sense. On the contract side, we will ensure that settlement only queries epochs from the agreement start onwards, and will treat unpopulated/legacy values as unsupported rather than an intentional zero.</p>
+</li>
+</ol>
+<p>Would you prefer to include this field update directly in <code>upgrade-v0.2.16</code>, or would it help if I opened a PR against the upgrade branch?</p>
+<p>Really appreciate your help and guidance on this!</p>
   </div>
 </div>
 

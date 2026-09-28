@@ -2,7 +2,7 @@
 title: "#1696 — devshard: bridge.ClassifyQueryError has no production callers, so transient chain-query failures return 500 instead of the intended retryable 503"
 source: https://github.com/gonka-ai/gonka/issues/1696
 issue_number: 1696
-synced_at: 2026-09-28T15:36:50Z
+synced_at: 2026-09-28T22:08:15Z
 template: issues-main.html
 ---
 

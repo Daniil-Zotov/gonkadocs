@@ -1,5 +1,101 @@
 [
   {
+    "id": "evt_20260928221149_0d684e07",
+    "timestamp": "2026-09-28T22:11:49.241242+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#617 — Ledger wallet integration",
+      "url": "/community/issues/00617-ledger-wallet-integration/",
+      "file": "00617-ledger-wallet-integration.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Ledger wallet integration\n    <span class=\"issues-number\">#617</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-22 17:28 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-content\" mar",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Ledger wallet integration\n    <span class=\"issues-number\">#617</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-22 17:28 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n"
+    },
+    "ai_description": "Issue #617 on Ledger wallet integration has been closed. The proposal to add hardware wallet support is no longer active, so the community can focus on other priorities for now. Thanks to everyone who weighed in on this one. 💚⚡️\n\n---\n\nLet me know if you'd like a version that's more neutral or more enthusiastic."
+  },
+  {
+    "id": "evt_20260928221149_cd8ffb55",
+    "timestamp": "2026-09-28T22:11:49.241294+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1200 — Independent review of PoC-decode results",
+      "url": "/community/issues/01200-independent-review-of-poc-decode-results/",
+      "file": "01200-independent-review-of-poc-decode-results.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Independent review of PoC-decode results\n    <span class=\"issues-number\">#1200</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-05-19 23:36 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" sty",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Independent review of PoC-decode results\n    <span class=\"issues-number\">#1200</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-05-19 23:36 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" st"
+    },
+    "ai_description": "Issue #1200 on independent review of PoC-decode results now has a second comment. The discussion is ongoing, so check the thread for the latest perspective on this important verification work. Stay tuned as the community weighs in.Issue #1200 on independent review of PoC-decode results just gained a second comment, signaling growing community engagement with the verification process. Head over to the thread to see the new input and join the discussion."
+  },
+  {
+    "id": "evt_20260928221149_1bc7a749",
+    "timestamp": "2026-09-28T22:11:49.241314+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1545 — [BUG] POST /v1/participants returns unclear error for malformed JSON",
+      "url": "/community/issues/01545-bug-post-v1participants-returns-unclear-error-for-malformed-/",
+      "file": "01545-bug-post-v1participants-returns-unclear-error-for-malformed-.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] POST /v1/participants returns unclear error for malformed JSON\n    <span class=\"issues-number\">#1545</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Parikalp-Bhardwaj\">@Parikalp-Bhardwaj</a> opened 2026-08-04 19:19 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margi",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] POST /v1/participants returns unclear error for malformed JSON\n    <span class=\"issues-number\">#1545</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Parikalp-Bhardwaj\">@Parikalp-Bhardwaj</a> opened 2026-08-04 19:19 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin"
+    },
+    "ai_description": "Issue #1545 about unclear errors from POST /v1/participants on malformed JSON now has its first comment. A community member has weighed in on the problem, so check the thread to see their input and help move this bug toward a fix. The issue remains open for anyone with insights to contribute.Issue #1545 on unclear error handling for malformed JSON in POST /v1/participants has received its first comment. A community member has added input to the discussion, so head over to the thread to see what they said and help drive this bug toward a resolution. The issue is still open for further contributions."
+  },
+  {
+    "id": "evt_20260928221149_df1264a7",
+    "timestamp": "2026-09-28T22:11:49.241326+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1659 — Proposal: Repair loop for `escrow_state_root_diverged`",
+      "url": "/community/issues/01659-proposal-repair-loop-for-escrow-state-root-diverged/",
+      "file": "01659-proposal-repair-loop-for-escrow-state-root-diverged.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Proposal: Repair loop for `escrow_state_root_diverged`\n    <span class=\"issues-number\">#1659</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 2026-08-27 13:23 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Proposal: Repair loop for `escrow_state_root_diverged`\n    <span class=\"issues-number\">#1659</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 2026-08-27 13:23 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues"
+    },
+    "ai_description": "Issue #1659 on the escrow state root divergence repair loop now has a second comment, bringing fresh perspective to the discussion. The proposal remains open, so head over to the thread to see the latest input and weigh in if you have thoughts on the fix. This is a key reliability topic for the network, so every additional viewpoint helps refine the solution."
+  },
+  {
+    "id": "evt_20260928221149_96a67a9d",
+    "timestamp": "2026-09-28T22:11:49.241337+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1689 — First full MNode image for Decode PoC (MiniMax): testing",
+      "url": "/community/issues/01689-first-full-mnode-image-for-decode-poc-minimax-testing/",
+      "file": "01689-first-full-mnode-image-for-decode-poc-minimax-testing.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    First full MNode image for Decode PoC (MiniMax): testing\n    <span class=\"issues-number\">#1689</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-08-31 20:20 UTC</span>\n    <span class=\"issues-meta-item\">5 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    First full MNode image for Decode PoC (MiniMax): testing\n    <span class=\"issues-number\">#1689</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-08-31 20:20 UTC</span>\n    <span class=\"issues-meta-item\">6 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>"
+    },
+    "ai_description": "Issue #1689 on the first full MNode image for the Decode PoC with MiniMax just received another comment, bringing the total to six. The discussion is still active and open, so check it out if you are tracking this testing milestone for the network. This extra input could be valuable for refining the image before broader deployment."
+  },
+  {
+    "id": "evt_20260928221149_4069c188",
+    "timestamp": "2026-09-28T22:11:49.241351+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1867 — Feature: Expose lightweight ParticipantWeight query to CosmWasm (AcceptedGrpcQueries)",
+      "url": "/community/issues/01867-feature-expose-lightweight-participantweight-query-to-cosmwa/",
+      "file": "01867-feature-expose-lightweight-participantweight-query-to-cosmwa.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Feature: Expose lightweight ParticipantWeight query to CosmWasm (AcceptedGrpcQueries)\n    <span class=\"issues-number\">#1867</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/DmitriyVoronov00\">@DmitriyVoronov00</a> opened 2026-09-28 11:12 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Feature: Expose lightweight ParticipantWeight query to CosmWasm (AcceptedGrpcQueries)\n    <span class=\"issues-number\">#1867</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/DmitriyVoronov00\">@DmitriyVoronov00</a> opened 2026-09-28 11:12 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-label"
+    },
+    "ai_description": "Issue #1867 on exposing a lightweight ParticipantWeight query to CosmWasm has picked up momentum with two new comments, bringing the total to three. The discussion is active, so check the thread to see the latest perspectives on this gRPC query feature. Stay tuned as the community shapes how this integration will work."
+  },
+  {
     "id": "evt_20260928205849_7a5c3215",
     "timestamp": "2026-09-28T20:58:49.843466+00:00",
     "section": "gonka_docs",
@@ -8015,95 +8111,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    GetEpochModel in validation should use inference epoch\n    <span class=\"issues-number\">#562</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/x0152\">@x0152</a> opened 2026-01-15 10:00 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8"
     },
     "ai_description": "Issue #562 has been removed from the tracker. The closed proposal about aligning GetEpochModel with the inference epoch in validation is no longer listed, so the community can move forward with a cleaner backlog. If you were tracking this one, it's simply gone from the active queue.Issue #562, which proposed aligning GetEpochModel with the inference epoch during validation, has been removed from the tracker. The closed proposal is no longer listed, cleaning up the active backlog for the community. If you were tracking this one, it's simply gone."
-  },
-  {
-    "id": "evt_20260910143102_eb5c6708",
-    "timestamp": "2026-09-10T14:31:02.672334+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#564 — Eliminate chain panics and hard-fail paths in consensus and accounting",
-      "url": null,
-      "file": "00564-eliminate-chain-panics-and-hard-fail-paths-in-consensus-and-.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Eliminate chain panics and hard-fail paths in consensus and accounting\n    <span class=\"issues-number\">#564</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-15 19:47 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-l"
-    },
-    "ai_description": "Issue #564 on eliminating chain panics and hard-fail paths in consensus and accounting has been closed and removed from the active issues list. This signals that the community has resolved or abandoned this effort, which was aimed at making the network more resilient by removing fatal error paths. A stable consensus and accounting layer is critical for ensuring smooth operations and trust in the network, so its closure marks a notable step in the project's maturity."
-  },
-  {
-    "id": "evt_20260910143102_4929daed",
-    "timestamp": "2026-09-10T14:31:02.672340+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#565 — Reward settlement correctness; negative balance prevention",
-      "url": null,
-      "file": "00565-reward-settlement-correctness-negative-balance-prevention.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Reward settlement correctness; negative balance prevention\n    <span class=\"issues-number\">#565</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-15 19:51 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style"
-    },
-    "ai_description": "Issue #565 on reward settlement correctness and negative balance prevention has been removed from the community feed. The closed issue, which had no comments, was part of efforts to ensure fair and accurate reward distribution while avoiding account deficits. Its removal likely reflects that the underlying concern was resolved or superseded elsewhere in the network.Issue #565 on reward settlement correctness and negative balance prevention has been removed from the feed. The closed issue, which had no comments, was aimed at ensuring accurate reward payouts and safeguarding against account deficits. Its removal suggests the matter has been resolved or is being handled elsewhere in the network."
-  },
-  {
-    "id": "evt_20260910143102_94fd8347",
-    "timestamp": "2026-09-10T14:31:02.672347+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#566 — Epoch and timestamp consistency across inference, validation, and claims",
-      "url": null,
-      "file": "00566-epoch-and-timestamp-consistency-across-inference-validation-.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Epoch and timestamp consistency across inference, validation, and claims\n    <span class=\"issues-number\">#566</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-15 20:00 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-"
-    },
-    "ai_description": "Issue #566 on epoch and timestamp consistency has been closed and removed from the feed. This means the discussion is resolved, and the network will move forward with whatever solution was agreed upon for aligning time references across inference, validation, and claims. Thanks to everyone who contributed to tightening up this critical detail. Stay tuned for the next update."
-  },
-  {
-    "id": "evt_20260910143102_5127fa5f",
-    "timestamp": "2026-09-10T14:31:02.672353+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#567 — Missed validations recovery system",
-      "url": null,
-      "file": "00567-missed-validations-recovery-system.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Missed validations recovery system\n    <span class=\"issues-number\">#567</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-15 20:05 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></di"
-    },
-    "ai_description": "Issue #567 on missed validations recovery has been closed and removed from the feed. The proposal, opened by @tcharchian, is no longer active, meaning the community won't be tracking it further. This cleanup keeps our issue list focused on current priorities.Issue #567 on missed validations recovery has been closed and removed from the feed, so it's no longer an active topic for the community. This cleanup keeps our issue tracker focused on current priorities, and the proposal won't be moving forward."
-  },
-  {
-    "id": "evt_20260910143102_9a031797",
-    "timestamp": "2026-09-10T14:31:02.672359+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#568 — DB handling improvements",
-      "url": null,
-      "file": "00568-db-handling-improvements.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    DB handling improvements\n    <span class=\"issues-number\">#568</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-15 21:05 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n"
-    },
-    "ai_description": "Issue #568 on DB handling improvements has been removed from the community feed. The proposal, which was closed with no comments, will no longer be tracked here. This cleanup keeps our activity feed focused on active discussions and current work.Issue #568 on DB handling improvements has been removed from our community feed. The proposal was already closed with no comments, so it's no longer relevant to ongoing discussions. This cleanup keeps the activity feed focused on active work only."
-  },
-  {
-    "id": "evt_20260910143102_95199bca",
-    "timestamp": "2026-09-10T14:31:02.672365+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#569 — Switch to bytes for storage",
-      "url": null,
-      "file": "00569-switch-to-bytes-for-storage.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Switch to bytes for storage\n    <span class=\"issues-number\">#569</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-15 21:08 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</di"
-    },
-    "ai_description": "Issue #569 on switching to bytes for storage has been closed and removed from the feed. This means the proposal is no longer up for discussion, so the community has moved on from that storage format change. Keep an eye out for any future updates on how we handle data in the network.Issue #569 proposing a switch to bytes for storage has been closed and removed from the feed. This means the discussion is no longer active, so the community can focus on other priorities. Stay tuned for any future proposals on storage efficiency."
   }
 ]
