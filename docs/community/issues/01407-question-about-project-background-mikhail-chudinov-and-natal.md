@@ -2,7 +2,7 @@
 title: "#1407 — Question about project background: Mikhail Chudinov and Natalia"
 source: https://github.com/gonka-ai/gonka/issues/1407
 issue_number: 1407
-synced_at: 2026-09-27T22:20:26Z
+synced_at: 2026-09-28T00:54:11Z
 template: issues-main.html
 ---
 
