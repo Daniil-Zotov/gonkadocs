@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-09-29T08:21:44.180798+00:00",
+  "snapshot_time": "2026-09-29T15:42:48.413711+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "#805 — Welcome to Gonka Discussions 👋",
@@ -234,7 +234,7 @@
       "title": "#951 — TEE Implementation",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #951](https://github.com/gonka-ai/gonka/discussions/951) every hour. \n\n# TEE Implementation\n\n**Автор:** [@mtvnastya](https://github.com/mtvnastya) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-03-26 05:10 UTC · \n\n---\n\n## 📝 Описание\n\n# TEE\n\nThis proposal outlines the integration of Trusted Execution Environments (TEE) into the Gonka network architecture. By leveraging hardware-level isolation (Intel TDX, AMD SEV-SNP, NVIDIA Confidential Compute), we can protect user payloads and inference data from the physical hosts/miners, enabling true \"Confidential MLNodes.\" This document proposes changes to the node registry, validation pipeline, and economic incentives.\n\n## Problem\n\nCurrently, user requests data sent to the Gonka network is hidde",
-      "checksum": "1e3c341996a0ba839b4bd0a262fb2a6afda0460924465565731b72f54eb78b6f"
+      "checksum": "6da7cc56679d93fe72a8dddca333a2153eacad34ada03472fb38dec3fbe3257e"
     },
     "protocol-improvements/0954-optimistic-parallel-execution-of-messages-for-inference-chai.md": {
       "title": "#954 — Optimistic parallel execution of messages for inference-chain",

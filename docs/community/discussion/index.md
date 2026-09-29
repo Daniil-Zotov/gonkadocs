@@ -4,7 +4,7 @@ title: "GitHub Discussions"
 
 # GitHub Discussions — `gonka-ai/gonka`
 
-Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **104**. Обновлено: `2026-09-29 08:21 UTC`.
+Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **104**. Обновлено: `2026-09-29 15:42 UTC`.
 
 ## 📂 Категории
 
@@ -22,9 +22,9 @@ title: "GitHub Discussions"
 
 | # | Заголовок | Категория | Автор | Обновлено |
 |---:|---|---|---|---|
+| [951](protocol-improvements/0951-tee-implementation.md) | [TEE Implementation](protocol-improvements/0951-tee-implementation.md) | :gear: Protocol Improvements | [@mtvnastya](https://github.com/mtvnastya) | 2026-09-29 |
 | [1815](governance-proposal-reports/1815-proposal-74-gonka-labs-monthly-report-no3.md) | [Proposal #74: Gonka Labs - Monthly Report No.3](governance-proposal-reports/1815-proposal-74-gonka-labs-monthly-report-no3.md) | :bookmark_tabs: Governance Proposal Reports | [@gonkalabs](https://github.com/gonkalabs) | 2026-09-28 |
 | [795](protocol-improvements/0795-welcome-to-proposals.md) | [Welcome to Proposals 👋](protocol-improvements/0795-welcome-to-proposals.md) | :gear: Protocol Improvements | [@mtvnastya](https://github.com/mtvnastya) | 2026-09-26 |
-| [951](protocol-improvements/0951-tee-implementation.md) | [TEE Implementation](protocol-improvements/0951-tee-implementation.md) | :gear: Protocol Improvements | [@mtvnastya](https://github.com/mtvnastya) | 2026-09-25 |
 | [1825](ecosystem/1825-proposal-107-gonka-at-hsc-asset-management-singapore-8-octob.md) | [Proposal #107: Gonka at HSC Asset Management Singapore, 8 October 2026](ecosystem/1825-proposal-107-gonka-at-hsc-asset-management-singapore-8-octob.md) | :jigsaw: Ecosystem | [@JetterHSC](https://github.com/JetterHSC) | 2026-09-23 |
 | [1818](ecosystem/1818-marketing-committee-operations-reddit-contributor-pilot.md) | [Marketing Committee — Operations & Reddit Contributor Pilot](ecosystem/1818-marketing-committee-operations-reddit-contributor-pilot.md) | :jigsaw: Ecosystem | [@petkomain-tech](https://github.com/petkomain-tech) | 2026-09-21 |
 | [1388](protocol-improvements/1388-external-test-lab-community-devnet.md) | [External Test Lab & Community DevNet](protocol-improvements/1388-external-test-lab-community-devnet.md) | :gear: Protocol Improvements | [@paranjko](https://github.com/paranjko) | 2026-09-13 |

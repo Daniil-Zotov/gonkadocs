@@ -3,14 +3,14 @@ title: "#951 — TEE Implementation"
 source: https://github.com/gonka-ai/gonka/discussions/951
 discussion_number: 951
 category: protocol-improvements
-synced_at: 2026-09-29T08:21:00Z
+synced_at: 2026-09-29T15:42:02Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #951](https://github.com/gonka-ai/gonka/discussions/951) every hour. 
 
 # TEE Implementation
 
-**Автор:** [@mtvnastya](https://github.com/mtvnastya) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-03-26 05:10 UTC · **Обновлено:** 2026-09-25 10:36 UTC
+**Автор:** [@mtvnastya](https://github.com/mtvnastya) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-03-26 05:10 UTC · **Обновлено:** 2026-09-29 13:06 UTC
 
 ---
 
@@ -248,3 +248,7 @@ Following up on this discussion and on the first experiments in #1246 (thanks @x
 A few design choices differ from the original post and are worth discussing. The original post suggests TEE nodes could skip validation, but we keep sampled validation driven by validators and performed between enclaves. Attestation alone cannot protect against a host that has physical access to its own hardware, so the threat model states explicitly that this design raises the bar rather than giving an absolute guarantee.
 
 The design has no KMS and no dependency on any cloud provider. Keys are generated inside the CVM on every boot, and expected measurements are pinned by governance on-chain rather than by an external KMS or signing service. On-chain state is kept minimal: only small commitments are stored, the evidence stays off-chain with the host, and a challenge mechanism covers wrong votes.
+
+**↳ Ответ от [@zpoken](https://github.com/zpoken)** · *2026-09-29 13:06 UTC*
+
+> @mtvnastya @x0152 @gmorgachev We’d value your feedback on our [Confidential MLNode proposal](https://github.com/gonka-ai/gonka/discussions/951#discussioncomment-18597928). In particular, does retaining sampled validation between attested nodes make sense, and is our approach of keeping attestation evidence off-chain with small on-chain commitments and a challenge mechanism sufficient?
