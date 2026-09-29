@@ -2,7 +2,7 @@
 title: "#1201 — [P0] Training on Gonka"
 source: https://github.com/gonka-ai/gonka/issues/1201
 issue_number: 1201
-synced_at: 2026-09-28T22:08:09Z
+synced_at: 2026-09-29T02:03:32Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-05-19 23:46 UTC</span>
-    <span class="issues-meta-item">1 comment</span>
-    <span class="issues-meta-item">Updated 2026-09-27 20:09 UTC</span>
+    <span class="issues-meta-item">2 comments</span>
+    <span class="issues-meta-item">Updated 2026-09-29 00:18 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span> <span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
 </div>
@@ -61,7 +61,7 @@ Discussed on GIP: https://discord.com/channels/1336477374442770503/1415622117629
 
 ---
 
-## 💬 Comments (1)
+## 💬 Comments (2)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -78,6 +78,15 @@ Discussed on GIP: https://discord.com/channels/1336477374442770503/1415622117629
 <p>Suggested reward: 9,000 USDT after acceptance, subject to maintainer review, Host approval, and governance. The calibration basis is the delivered-work payout table in #1584: 6,500 USDT for the testing contribution set, 12,000 USDT for the larger HA delivery set, 11,500 USDT for devshard protocol review and formalization, 23,000 USDT for the broader validation and gateway delivery set, and 36,000 USDT for the multi-release devshard and height-sync work. That figure is for the bounded MVP exactly as scoped above, so scope added during review would be repriced rather than absorbed. It also assumes the current trainshard base stays available: <code>main</code> carries no <code>trainshard/</code> tree today, so this work would branch from the trainshards integration line, and a materially different base would be a schedule change rather than something I would absorb silently.</p>
 <p>Before implementation, could maintainers confirm that commit <code>504cb1cb8</code> removed the earlier artifacts command only to narrow v0 scope, and that this checkpoint contract is the desired next primitive? @DimaOrekhovPS, as an assignee here and the author of #1790, you are probably the right person for two of these: which branch a checkpoint PR should target, given <code>main</code> carries no <code>trainshard/</code> tree and #1790 is still open, and whether this primitive is the one you want next or whether it should wait behind run control. I am starting the design, threat model, overlap audit, and test matrix now and will post them before the implementation PR.</p>
 <p>If maintainers want a larger M1 integration milestone after interfaces and ownership are confirmed, I can propose it separately with independent acceptance and pricing rather than changing this bounded milestone retroactively.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span class="issues-meta-item">commented 2026-09-29 00:18 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Hey @loopghost! Thanks for the write-up. Training is an important feature, and contributions there are welcome. The way into this work is the same as in any open-source project: join the design discussions and the reviews of the training PRs already in flight, and pick up tasks once they are marked up for grabs. That public back-and-forth is what makes a contributor's approach visible before anyone takes ownership of a slice. Relevant open-source history belongs in this thread too. Distributed systems, training infrastructure, or similar — please share links. That record is what gets read when someone new shows up with a proposal.</p>
   </div>
 </div>
 
