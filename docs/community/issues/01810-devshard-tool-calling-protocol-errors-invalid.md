@@ -2,7 +2,7 @@
 title: "#1810 — `devshard`: Tool-calling / protocol errors → INVALID"
 source: https://github.com/gonka-ai/gonka/issues/1810
 issue_number: 1810
-synced_at: 2026-09-29T08:40:51Z
+synced_at: 2026-09-29T15:58:57Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-09-18 22:00 UTC</span>
-    <span class="issues-meta-item">3 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-28 10:53 UTC</span>
+    <span class="issues-meta-item">4 comments</span>
+    <span class="issues-meta-item">Updated 2026-09-29 15:52 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -27,7 +27,7 @@ template: issues-main.html
 
 ---
 
-## 💬 Comments (3)
+## 💬 Comments (4)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -73,6 +73,51 @@ I think looking into the problem as incompatible vllm outputs can give some insi
   </div>
   <div class="issues-comment-body issues-content">
     <p>@a-kuprin Thanks for the information. We’ll investigate this issue further, try different vLLM versions, and analyze the logs to get closer to the root cause.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/zpoken">@zpoken</a></span>
+    <span class="issues-meta-item">commented 2026-09-29 15:52 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Hi @qdanik,</p>
+<p>We reproduced devshard's execute → replay → verdict path on the gonka vLLM builds used on mainnet: 0.25.1 (MLNode 3.0.16), 0.28 (3.1.0) and 0.20. Requests were shaped like devshard's, and verdicts came from the real ExecuteValidation at on-chain thresholds. The model was Qwen3-4B; the mainnet parsers were also tested on CPU. We found several ways honest hosts get INVALID regardless of output quality:</p>
+<ol>
+<li>GetEnforcedTokens drops tokens from multi-token SSE chunks. completionresponse.go:137 keeps only Content[0] per chunk, while ExtractLogits keeps all entries.</li>
+<li>With speculative decoding on the executor all inferences were INVALID on both 0.25.1 and 0.28, with 30–47% of tokens dropped.</li>
+<li>Without it, this occasionally happens on 0.28 (1/20 tool-call responses).</li>
+<li>Any host running MTP or speculative decoding would fail every validation.</li>
+<li>The min_tokens=64 floor (#1391) produces the malformed outputs, on every version:</li>
+<li>invented extra tool calls with tool_choice: "auto";</li>
+<li>response_format / structured_outputs / named tool_choice output broken in 15/15 responses. Free text is appended after the JSON, or !!!! padding on 0.20.</li>
+<li>Without the floor, everything is clean and replays at similarity 1.0.</li>
+<li>These come from honest hosts, so they shouldn't become INVALID as-is. </li>
+<li>Version mismatch: 0.25.1 ↔ 0.28 agree in every mode we tried. Only 0.20 disagrees, on a named tool_choice, because it applies the grammar differently.</li>
+<li>DeepSeek-V4 prompts render differently on 0.25.1 and 0.28.</li>
+<li>At the gateway's default reasoning_effort=max, the rendered prompt is 342 tokens on 0.25.1 and 355 on 0.28, because the "Reasoning Effort" preamble changed.</li>
+<li>The validator allows only 3 tokens over the executor's reported InputTokens. So a 0.28 executor checked by a 0.25.1 validator should get "inflated token counts".</li>
+</ol>
+<p>The remaining protocol errors (truncated calls reported as tool_calls, markup inside arguments, <think> in content with minimax_m2_append_think) come from the model and parsers. They're identical on 0.25.1 and 0.28 and pass validation. </p>
+<details>
+<summary>Numbers and setup</summary>
+
+- Images: ghcr.io/gonka-ai/vllm:v0.25.1-poc-v4-cu13-hopper-blackwell, v0.28.0-glm53-poc-v2-cu13-hopper-blackwell, v0.20.0-cu129-post2.
+- Speculative decoding: ngram, 4 draft tokens, executor → validator:
+  - 0.25.1: 50/50 INVALID against a validator without speculative decoding, and 50/50 with it.
+  - 0.28: 50/50 INVALID without speculative decoding on the validator; with it, the replay returns HTTP 500.
+- DeepSeek-V4 prompt tokens, 0.25.1 → 0.28:
+
+| reasoning_effort | 0.25.1 | 0.28 |
+|------------------|--------|------|
+| max              | 342    | 355  |
+| high / unset     | 264    | 342  |
+| none             | 264    | 264  |
+
+- Floor with auto: tool calls went from 24 to 30 (0.25.1) and 24 to 35 (0.20) over 20 prompts.
+- Parsers: minimax_m2 + minimax_m2_append_think, deepseek_v4, glm47 + glm45. Their behaviour is identical on 0.25.1 and 0.28.
+- Not factors: VLLM_ENFORCE_STRICT_TOOL_CALLING, strict: true tools, V1 vs V2 runner (dense model only), batched load.
+  </details>
   </div>
 </div>
 
